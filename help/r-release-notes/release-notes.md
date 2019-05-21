@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -24,13 +24,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 在2019年月20日，在EMEA、日本和APAC地區升級Adobe Target基礎結構，不再使用不支援TLS1.1或更新版本的舊裝置或網頁瀏覽器收集使用者資料。預計於2019 **年月日針對北美地區地區進行相同升級**。轉移至 TLS 1.2 可改善安全性。您必須逐一瞭解具體資訊，並與IT團隊規劃變更，以便順利轉換。如需詳細資訊，請參閱 [TLS(傳輸圖層安全性)加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 * 從 2019 年 3 月 起，[!DNL Target] 和 [!DNL Adobe Marketing Cloud] 將停止支援 Microsoft Internet Explorer 11。這項變更只會影響 [!DNL Target] 編寫，不影響體驗傳送。請改用 Microsoft Edge 或其他瀏覽器。如需更多資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。
 
-## Mobile App Visual Experience Composer(2019年月14日){mobile-loc}
-
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 行動應用程式Visual Experience Composer(CMS) | Mobile App CMS可讓您在原生行動應用程式上建立活動和個人化內容，而不需持續開發相依性和應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
-
-## [!DNL Target] Standard/Premium19.4.2(2019年月30日) {#release-19-4-2}
+## [!DNL Target] Standard/Premium19.5.1(2019年月21日) {#tgt-19-5-1}
 
 此版本包含下列功能、變更和增強功能:
 
@@ -40,31 +34,17 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| [!UICONTROL 可視化體驗撰寫器] | [!UICONTROL Visual Experience Composer] (CMS)包含下列增強功能，讓您提高工作效率和效率：<ul><li>設定點按追蹤時，現在可使用DOM路徑功能。<br>如需詳細資訊，請參閱 [點按追蹤](/help/c-activities/r-success-metrics/click-tracking.md#considerations)。</li><li>使用「樣式」面板可檢視或編輯所選元素的現有樣式值。您也可以新增其他樣式。<br>若要存取「樣式」面板，請從CMS中按一下頁面元素，然後按一下 [!UICONTROL 「編輯] &gt; [!UICONTROL 樣式]」。<br>「樣式」面板會顯示在CMS的右側。面板包含可讓您編輯或新增至選取元素的樣式清單。即時CSS編輯器可讓您檢視變更並新增樣式，如果您習慣使用階層式樣式表(CSS)或從開發人員接收程式碼。<br>如需詳細資訊，請參閱 [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)*「視覺體驗撰寫器選項*」中的樣式。</li><li>Rich Text Editor現在支援巢狀HTML元素。<br>HTML規格允許新的組合標籤組合。舊版rich text Editor不支援HTML規格允許的新巢狀內嵌標籤。因此，在CMS中選取的任何巢狀元素都無法正確處理，導致HTML不想要的變更。(TGT-33618)<br>如需詳細資訊，請參閱 [Visual Experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) *Composer選項中的編輯文字/HTML*。</li> |
+| 單一頁面應用程式可視化體驗撰寫器(SPA CMS) | SPA VEC 已改良下列項目，讓您的工作更快更有效率: <ul><li>按一下SPA中的動作，會反白顯示將套用此動作的網站上的元素。在「檢視」下建立的每個CMS動作都有個對應圖示：資訊、編輯、移動和刪除。此版本中的新「移動」功能可讓您將動作移至「頁面載入事件」或已存在於修改面板中的任何其他檢視。(TGT-33746)</li><li>您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時 (例如自訂程式碼無法繼續正常運作) 執行許多動作。無法在網站載入前編輯的動作，都會在 Target UI 中停用。(TGT-33851 和 TGT-34149)</li></ul>如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 
 ### 增強功能、修正和變更
 
-* 改善您使用 VEC 刪除資產時的工作流程。已刪除的資產現在會從 [!UICONTROL 選件庫] 和來源 [!DNL Scene7] (如果有的話)移除。刪除的資產不再續顯示於搜尋結果中。(TGT-31981)
-* 您現在可以刪除資產資料夾，即使它們包含影像(非空白資料夾)。(TGT-33265)
+* 在 VEC 中取消載入頁面後，工具列圖示會正常顯示。如果在完全載入頁面前無法執行特定動作，系統會停用相關工具列圖示。(TGT-33811)
 
-   以前，您無法從Target影像選件庫([!UICONTROL 選件] &gt; [!UICONTROL 影像選件])刪除非空白資料夾。您會得到「資料夾不是空白的！」通知。在此功能中，我們新增了可讓您執行資料夾刪除的功能，以移除包含任何資產和子資料夾的整個資料夾。此功能也適用於Target UI中的Adobe Experience Cloud資產UI。
+## Mobile App Visual Experience Composer(2019年月14日){mobile-loc}
 
-   * 可以刪除影像選件庫中的非空白資料夾。如果資料夾中的所有影像未參照於任何活動，則會刪除整個資料夾及其內容。如果在任何活動中參考資料夾內的某些影像，都會刪除所有未參照的影像，但會保留包含這些影像的參考影像和檔案夾。
-   * 在影像資產選擇器中演算影像選件變得更快速且更有效率。
-   如需詳細資訊，請參閱 [「使用資料庫中的內容](/help/c-experiences/c-manage-content/assets-working.md)」。(TGT-32897)
-
-* 改善「資產」選擇器中影像供應項目的顯示效能。現在顯示和選取影像供應項目會更快更有效率。(TGT-32897)
-* 改善在 VEC 中取消載入頁面時處理重新導向至 URL 的效能。(TGT-33815)
-* 從「系列選擇器」選取 [!UICONTROL 「建議] 」收集後，您現在必須按一下 [!UICONTROL 「儲存] 」按鈕。此工作流程與其他工作流程一致 [!DNL Target]。(TGT-33205)
-* 修正了導致一小組前瞻分析報告傳回0%轉換率而非實際轉換率的問題。(TNT-32125)
-
-## [!DNL Target] Standard/Premium19.4.1(2019年月15日) {#release-19-4-1}
-
-此版本為維護版本，包含下列變更:
-
-(括號內的問題編號供 [!DNL Adobe] 內部使用。)
-
-* 更新 [!DNL Adobe Experience Cloud] UI以反映品牌和產品變更。(TGT-33546、TGT-33272 和 TGT-33331)
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| 行動應用程式Visual Experience Composer(CMS) | Mobile App CMS可讓您在原生行動應用程式上建立活動和個人化內容，而不需持續開發相依性和應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
 
 ## 文件變更、過去的版本說明和 Experience Cloud 版本說明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
