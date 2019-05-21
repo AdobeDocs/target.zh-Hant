@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -321,15 +321,11 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 一般頁面，例如首頁或登陸頁面及離站廣告。
 
-### 最近查看的項目
+### 最近查看的項目 {#recently-viewed}
 
 根據設計中的位置數量，使用訪客的歷史 (跨工作階段) 以呈現訪客已檢視的前 *x* 個項目。
 
 現在，「最近檢視的項目」條件會傳回指定[環境](/help/administrating-target/hosts.md)的特定結果。如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的項目。
-
-**邏輯 (條件)**
-
-無
 
 **使用您網站上的哪個位置**
 
