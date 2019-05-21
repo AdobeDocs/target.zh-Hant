@@ -8,7 +8,7 @@ title: 單一頁面應用程式 (SPA) 可視化體驗撰寫器
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -198,9 +198,9 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 
 **動作**
 
-按一下動作會醒目顯示將套用該動作之網站上的元素。在檢視下建立的每個 VEC 動作都有四個圖示，如下所示: 資訊、編輯、移動至「頁面載入」和刪除。
+按一下動作會醒目顯示將套用該動作之網站上的元素。在「檢視」底下建立的每個CMS動作都有個圖示，如下所示：資訊、編輯、移動和刪除。
 
-![「修改」面板](/help/c-experiences/assets/modifications.png)
+![修改](/help/c-experiences/assets/modifications-new.png)
 
 下表說明每個動作:
 
@@ -208,8 +208,12 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 | --- | --- |
 | 資訊 | 顯示此動作的詳細資料。 |
 | 編輯 | 可讓您直接編輯該動作的屬性。 |
-| 移動至「頁面載入」 | 將動作移動至頁面載入事件。這些動作通常會套用到所有頁面都會使用的 SPA 靜態 HTML，例如標頭和頁尾。 |
+| 移動 | 將動作移至「頁面載入事件」或已存在於修改面板中的任何其他檢視。<br>[!UICONTROL 頁面載入事件] -任何對應頁面載入事件的動作都會套用至網頁應用程式的初始頁面載入。<br>**注意：** 完成移動作業後，您必須透過瀏覽瀏覽至「在CMS中檢視」，才能查看移動是否為有效的操作。如果無法套用動作至「檢視」，您將會看到錯誤 |
 | 刪除 | 刪除動作。 |
+
+>[!NOTE]
+>
+>您可以在頁面載入之前執行許多動作，也可以在頁面載入之前執行許多動作。無法在網站載入前編輯的動作，都會在 UI 中停用。
 
 **範例 1**
 
