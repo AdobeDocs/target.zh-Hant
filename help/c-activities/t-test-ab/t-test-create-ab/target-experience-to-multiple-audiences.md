@@ -8,7 +8,7 @@ title: A/B 測試中的多個體驗版本
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. [建立一個 A/B 活動](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)，如同您一般的作法。
 
-   設定將有多個版本的體驗時，請選取每個版本的對象，如下列步驟所示。1. 選取體驗，然後按一下**[!UICONTROL 「設定]** &gt; **[!UICONTROL 對象]** &gt; **[!UICONTROL 多個對象」]**。
+   設定將有多個版本的體驗時，請選取每個版本的對象，如下列步驟所示。
+
+1. 選取體驗，然後按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 對象]** &gt; **[!UICONTROL 多對象]**」。
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    如果對象尚未存在，請按一下[「建立對象」](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)並加以設定。
 
    如果訪客符合一個以上對象的資格，即會傳回所有對象的內容，在頁面上實際呈現清單中的最後一個內容。
+
 1. 繼續設定活動。
 
 **最佳實務**
