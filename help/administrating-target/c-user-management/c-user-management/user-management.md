@@ -9,7 +9,7 @@ title: 使用者
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    或
 
-   如果您已登入Experience Cloud，請前往 [https://www.marketing.adobe.com](https://www.marketing.adobe.com/)，然後按一下頂端導覽列中的 [!UICONTROL 應用程式] 圖示&gt;按一下 **[!UICONTROL 右側的「管理」]** &gt;按一下 **[!UICONTROL 「啓動管理控制台]**」。
+   如果您已登入Experience Cloud，請前往 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然後按一下頂端導覽列中的 [!UICONTROL 應用程式] 圖示&gt;按一下 **[!UICONTROL 右邊的「管理員]** 」。
 
 1. (條件式) 如果您可以存取一個以上組織的 [!DNL Admin Console for Enterprise]，請按一下右上角或上方導覽列中的使用者頭像，然後選取需要的組織。
 
@@ -53,14 +53,14 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 所有使用者管理都必須在 [!DNL Adobe Admin Console for Enterprise] 中執行。不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
 
-1. [在 Admin Console 中](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下**[!UICONTROL 「使用者管理]** &gt; **[!UICONTROL 使用者」]**來建立新使用者或編輯現有使用者。
+1. [在「管理控制台](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)」中，按一下 **[!UICONTROL 「使用者]** &gt; **[!UICONTROL 使用者]** 」以建立新使用者或編輯現有使用者。
 1. 遵循*《企業使用者指南》*的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示。
 
 ## 建立使用者群組 {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
-1. [在 Admin Console 中](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下**[!UICONTROL 「使用者管理]** &gt; **[!UICONTROL 使用者群組」]**來建立新使用者群組或編輯現有群組。
+1. [在「管理控制台](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)」中，按一下 **[!UICONTROL 「使用者]** &gt; **[!UICONTROL 使用者群組]** 」以建立新的使用者群組或編輯現有群組。
 1. 遵循*《企業使用者指南》*的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示。
 
 ## 指定角色和權限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
@@ -71,21 +71,33 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. [在 Admin Console 中](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下**[!UICONTROL 「產品」]**，然後選取所需產品的名稱。
 
-   ![](assets/workspace.png)
+   ![產品索引標籤](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. 按一下所需組態的名稱。
-1. 按一下**[!UICONTROL 「組態使用者」]**。
+1. 按一下**[!UICONTROL 「使用者」]**。
 
-   [!UICONTROL 「組態使用者」]索引標籤會顯示該工作區中的所有使用者。
+   「 [!UICONTROL 使用者] 」標籤會顯示該工作區中的所有使用者。
 
-   ![](assets/configuration_users.png)
+   ![組態使用者](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
 1. 針對每一個使用者，使用[!UICONTROL 「產品角色」]欄的下拉式清單選取所需的權限角色 (觀察者、編輯者或核准者)。
 
-| 角色 | 說明 |
-|--- |--- |
-| 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-| 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
-| 核准者 | 可以建立、編輯和啟動或停止活動。 |
+   | 角色 | 說明 |
+   |--- |--- |
+   | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
+   | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+   | 核准者 | 可以建立、編輯和啟動或停止活動。 |
 
 如需詳細資訊，請參閱*《企業使用者指南》*中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
+
+## 訓練影片：如何設定Target工作區
+
+學習目標:
+
+* 從Adobe Target介面存取Adobe Admin Console(三種方式)
+* 在Adobe Admin Console中設定工作區
+   * 新增使用者至工作區
+   * 新增屬性至工作區
+* 瞭解預設工作區
+
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
