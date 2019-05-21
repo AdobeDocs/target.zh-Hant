@@ -8,7 +8,7 @@ title: 舊版版本說明
 topic: 建議
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -22,6 +22,48 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >請參閱 [Target 版本說明 (最新)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 版本說明 - 2019 {#releases-2019}
+
+## Mobile App Visual Experience Composer(2019年月14日){mobile-loc}
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| 行動應用程式Visual Experience Composer(CMS) | Mobile App CMS可讓您在原生行動應用程式上建立活動和個人化內容，而不需持續開發相依性和應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+
+## [!DNL Target] Standard/Premium19.4.2(2019年月30日) {#release-19-4-2}
+
+此版本包含下列功能、變更和增強功能:
+
+(括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+### 功能更新
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| [!UICONTROL 可視化體驗撰寫器] | [!UICONTROL Visual Experience Composer] (CMS)包含下列增強功能，讓您提高工作效率和效率：<ul><li>設定點按追蹤時，現在可使用DOM路徑功能。<br>如需詳細資訊，請參閱 [點按追蹤](/help/c-activities/r-success-metrics/click-tracking.md#considerations)。</li><li>使用「樣式」面板可檢視或編輯所選元素的現有樣式值。您也可以新增其他樣式。<br>若要存取「樣式」面板，請從CMS中按一下頁面元素，然後按一下 [!UICONTROL 「編輯] &gt; [!UICONTROL 樣式]」。<br>「樣式」面板會顯示在CMS的右側。面板包含可讓您編輯或新增至選取元素的樣式清單。即時CSS編輯器可讓您檢視變更並新增樣式，如果您習慣使用階層式樣式表(CSS)或從開發人員接收程式碼。<br>如需詳細資訊，請參閱 [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)*「視覺體驗撰寫器選項*」中的樣式。</li><li>Rich Text Editor現在支援巢狀HTML元素。<br>HTML規格允許新的組合標籤組合。舊版rich text Editor不支援HTML規格允許的新巢狀內嵌標籤。因此，在CMS中選取的任何巢狀元素都無法正確處理，導致HTML不想要的變更。(TGT-33618)<br>如需詳細資訊，請參閱 [Visual Experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) *Composer選項中的編輯文字/HTML*。</li> |
+
+### 增強功能、修正和變更
+
+* 改善您使用 VEC 刪除資產時的工作流程。已刪除的資產現在會從 [!UICONTROL 選件庫] 和來源 [!DNL Scene7] (如果有的話)移除。刪除的資產不再續顯示於搜尋結果中。(TGT-31981)
+* 您現在可以刪除資產資料夾，即使它們包含影像(非空白資料夾)。(TGT-33265)
+
+   以前，您無法從Target影像選件庫([!UICONTROL 選件] &gt; [!UICONTROL 影像選件])刪除非空白資料夾。您會得到「資料夾不是空白的！」通知。在此功能中，我們新增了可讓您執行資料夾刪除的功能，以移除包含任何資產和子資料夾的整個資料夾。此功能也適用於Target UI中的Adobe Experience Cloud資產UI。
+
+   * 可以刪除影像選件庫中的非空白資料夾。如果資料夾中的所有影像未參照於任何活動，則會刪除整個資料夾及其內容。如果在任何活動中參考資料夾內的某些影像，都會刪除所有未參照的影像，但會保留包含這些影像的參考影像和檔案夾。
+   * 在影像資產選擇器中演算影像選件變得更快速且更有效率。
+   如需詳細資訊，請參閱 [「使用資料庫中的內容](/help/c-experiences/c-manage-content/assets-working.md)」。(TGT-32897)
+
+* 改善「資產」選擇器中影像供應項目的顯示效能。現在顯示和選取影像供應項目會更快更有效率。(TGT-32897)
+* 改善在 VEC 中取消載入頁面時處理重新導向至 URL 的效能。(TGT-33815)
+* 從「系列選擇器」選取 [!UICONTROL 「建議] 」收集後，您現在必須按一下 [!UICONTROL 「儲存] 」按鈕。此工作流程與其他工作流程一致 [!DNL Target]。(TGT-33205)
+* 修正了導致一小組前瞻分析報告傳回0%轉換率而非實際轉換率的問題。(TNT-32125)
+
+## [!DNL Target] Standard/Premium19.4.1(2019年月15日) {#release-19-4-1}
+
+此版本為維護版本，包含下列變更:
+
+(括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+* 更新 [!DNL Adobe Experience Cloud] UI以反映品牌和產品變更。(TGT-33546、TGT-33272 和 TGT-33331)
 
 ### [!DNL Target] Standard/Premium19.3.1(2019年月29日) {#release-19-3-1}
 
