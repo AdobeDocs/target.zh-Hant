@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # 文件變更{#documentation-changes}
 
 本頁列出 [!DNL Adobe Target] 對文件進行的重要變更。
+
+## Adobe Target Standard/Premium19.5.1(1919年月21日){tgt-19-5-1}
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 2019年月21日 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新「移動」選項的相關資訊。</li><li>已新增附註，指出您可以在頁面載入之前執行許多動作，或即使頁面無法完全載入亦然。 </li></ul> |
+|  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 經過修改的文字、更新的影像和新增的培訓影片。 |
+|  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已過時的文字和影像。 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 新增客戶屬性別名ID的字元限制。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 19.5.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium19.4.2(2019年月30日){19-4.2}
 
