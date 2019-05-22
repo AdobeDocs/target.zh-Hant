@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 | 2019年月22日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 已新增培訓影片。 |
 |  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 新增教學課程的連結：<ul><li>在Mobile iOS Objective-C應用程式中實作Experience Cloud</li><li>在Mobile iOS Swift應用程式中實作Experience Cloud</li></ul> |
 |  | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 已新增新教學課程的連結：<ul><li>在Mobile Android應用程式中實作Experience Cloud</li></ul> |
+|  | [Target 簡介](/help/c-intro/intro.md#kit) | 已新增Adobe Target歡迎套件的連結。 |
 | 2019年月21日 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新「移動」選項的相關資訊。</li><li>已新增附註，指出您可以在頁面載入之前執行許多動作，或即使頁面無法完全載入亦然。 </li></ul> |
 |  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 經過修改的文字、更新的影像和新增的培訓影片。 |
 |  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已過時的文字和影像。 |
