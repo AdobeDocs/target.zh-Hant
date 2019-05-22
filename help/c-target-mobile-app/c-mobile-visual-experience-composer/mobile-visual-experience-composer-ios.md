@@ -8,7 +8,7 @@ title: iOS - 設定行動應用程式
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -277,3 +277,19 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 + (void) prefetchOffersBackground;
 ```
 
+## 教學課程：在Mobile iOS Objective-C和Swift應用程式中實作Experience Cloud {#tutorial}
+
+* [在Mobile iOS Objective-C應用程式中實作Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [在Mobile iOS Swift應用程式中實作Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+
+完成這些教學課程後，您將能夠：
+
+* 建立行動啓動屬性
+* 在Objective-C或Swift應用程式中安裝Launch屬性
+* 實作下列Adobe Experience Cloud解決方案：
+   * Experience Cloud ID 服務
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* 透過開發、測試和生產環境，在Launch中發佈變更
