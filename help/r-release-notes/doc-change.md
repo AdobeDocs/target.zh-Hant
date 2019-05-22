@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月22日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 已新增培訓影片。 |
 | 2019年月21日 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新「移動」選項的相關資訊。</li><li>已新增附註，指出您可以在頁面載入之前執行許多動作，或即使頁面無法完全載入亦然。 </li></ul> |
 |  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 經過修改的文字、更新的影像和新增的培訓影片。 |
 |  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已過時的文字和影像。 |
