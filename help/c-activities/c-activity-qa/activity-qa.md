@@ -55,7 +55,7 @@ source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
 
    每個活動連結 URL (用於體驗 A、體驗 B 等)可讓您從相應的體驗啟動使用者旅程。您可以按一下為體驗所產生的 URL，然後繼續正常的網站瀏覽，在多個頁面上查看體驗 (如果有多個頁面存在)。即使體驗橫跨多個頁面 (範本測試或多頁測試)，每個體驗也只會產生一個 URL。因為活動 QA 有黏性，您可以導覽網站來查看其他頁面。
 
-1. 若要查看從活動連結 URL 產生的報表，請按一下活動的**[!UICONTROL 「報表」]**頁面，按一下**[!UICONTROL 「設定」]**圖示 (![](assets/icon_gear.png))，然後從**[!UICONTROL 「環境」]**下拉式清單中選取**[!UICONTROL 「QA 模式」]**。
+1. 若要查看從活動連結 URL 產生的報表，請按一下活動的&zwnb;**[!UICONTROL 「報表」]**&zwnb;頁面，按一下&zwnb;**[!UICONTROL 「設定」]**&zwnb;圖示 (![](assets/icon_gear.png))，然後從&zwnb;**[!UICONTROL 「環境」]**&zwnb;下拉式清單中選取&zwnb;**[!UICONTROL 「QA 模式」]**&zwnb;。
 
 ## 考量事項 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
