@@ -8,7 +8,7 @@ title: 提升度和可信度 - A4T 常見問題集
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 
 ---
 

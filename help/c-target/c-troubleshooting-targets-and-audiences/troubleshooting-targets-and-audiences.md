@@ -8,7 +8,7 @@ title: 鎖定目標和對象常見問題集
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
 
 ---
 

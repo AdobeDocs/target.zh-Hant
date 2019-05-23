@@ -8,7 +8,7 @@ title: 實作單頁應用程式
 topic: 標準
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
 
 ---
 

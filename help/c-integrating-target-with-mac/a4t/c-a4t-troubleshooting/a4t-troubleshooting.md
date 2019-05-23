@@ -9,7 +9,7 @@ title: 疑難排解 Analytics 和 Target 整合 (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 ---
 

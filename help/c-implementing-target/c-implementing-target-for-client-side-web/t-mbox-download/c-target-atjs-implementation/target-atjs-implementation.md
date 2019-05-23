@@ -8,7 +8,7 @@ title: 從 mbox.js 移轉至 at.js
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ---
 

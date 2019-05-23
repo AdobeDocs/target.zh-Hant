@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
+source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 ---
 

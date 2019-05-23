@@ -7,7 +7,7 @@ solution: Target
 title: 使用雲端型例項搭配 Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ---
 

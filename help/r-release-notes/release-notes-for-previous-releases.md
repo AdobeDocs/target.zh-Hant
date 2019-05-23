@@ -8,7 +8,7 @@ title: 舊版版本說明
 topic: 建議
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: 40839ec16544546e566e6eebb2331628de3dc021
 
 ---
 

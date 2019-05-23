@@ -9,7 +9,7 @@ title: 建立可在可視化體驗撰寫器中運作的輪播
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 ---
 

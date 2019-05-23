@@ -8,7 +8,7 @@ title: 共用量度、對象和報表 - A4T 常見問題集
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 412e87a3e4274ec08324db29bdf4e713cfb7feb3
 
 ---
 

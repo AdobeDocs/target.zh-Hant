@@ -8,7 +8,7 @@ title: 在行動應用程式CMS中設定點擊追蹤
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: aa729a8972547be065008c6504bb36dce9cd6e65
 
 ---
 

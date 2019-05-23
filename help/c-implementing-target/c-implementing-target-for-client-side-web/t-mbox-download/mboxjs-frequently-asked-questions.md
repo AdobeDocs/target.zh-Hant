@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: mbox.js 常見問題
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
 
 ---
 

@@ -9,7 +9,7 @@ title: 在 A4T 中將膨脹的造訪和訪客計數減到最少
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
 
 ---
 
