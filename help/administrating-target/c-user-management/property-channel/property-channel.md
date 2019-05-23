@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 企業使用者權限{#enterprise-user-permissions}
 
-關於建立屬性和使用屬性和權限功能的資訊，該功能可讓 Target 管理員在 Target 中建立個別的工作區 (產品設定檔)，然後根據這些工作區指派使用者個別頁面、屬性或網站的不同角色和權限。
+企業使用者權限是正式管理整個企業使用者存取Target的方式。新增使用者至Target、根據其角色指派權限，並根據不同部門、全域位置、頻道和其他邏輯群組為團隊建立工作區。您可以指派觀察員、編輯者或核准者角色。
 
 ## 判斷您是否可存取企業使用者權限
 
