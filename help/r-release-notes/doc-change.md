@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -21,6 +21,15 @@ source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月23日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 簡介中更新的文字。 |
+|  | [體驗與選件](/help/c-experiences/experiences.md) | 簡介中更新的文字。 |
+|  | [對象](/help/c-target/target.md) | 簡介中更新的文字。 |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 簡介中更新的文字。 |
+|  | [報表](/help/c-reports/reports.md) | 簡介中更新的文字。 |
+|  | [可視化體驗撰寫器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 簡介中更新的文字。 |
+|  | [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) | 簡介中更新的文字。 |
+|  | [企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 簡介中更新的文字。 |
+|  | [字彙表](/help/c-intro/glossary.md) | 新增並更新數個項目。 |
 | 2019年月22日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 已新增培訓影片。 |
 |  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 新增教學課程的連結：<ul><li>在Mobile iOS Objective-C應用程式中實作Experience Cloud</li><li>在Mobile iOS Swift應用程式中實作Experience Cloud</li></ul> |
 |  | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 已新增新教學課程的連結：<ul><li>在Mobile Android應用程式中實作Experience Cloud</li></ul> |
