@@ -8,16 +8,14 @@ title: 表單式體驗撰寫器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # 表單式體驗撰寫器{#form-based-experience-composer}
 
-表單式體驗撰寫器提供非視覺的體驗建立。
-
-此功能可讓 Target Standard A/B 測試、體驗鎖定目標、自動個人化和 Recommendations 活動在電子郵件、行動應用程式、資訊站和使用可視化體驗撰寫器無法運作的其他位置中傳送。
+表單型體驗撰寫器是非視覺體驗和選件建立介面，用於建立體驗，用於A/B測試、體驗目標鎖定、自動個人化和Recommendations活動(視覺化體驗撰寫器無法使用或實用)時。例如，您可以使用表單型編譯器建立體驗和選件，以便在電子郵件、資訊站和語音助理中傳遞。
 
 如果是建立 Recommendations 活動，則沒有體驗。選擇您的條件和設計。如果您選擇多個條件或設計，Target 會自動產生體驗。
 
