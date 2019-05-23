@@ -9,14 +9,14 @@ title: 報表
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e2638ad0438d637cce84b0387709d255b9f4a58d
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # 報表{#reports}
 
-報表提供關於活動效能的資訊。
+報表提供有關活動的進度和結果的資訊，可協助您根據資料進行決策。報表資料可幫助您決定何時結束測試、顯示哪個選件是贏家，並提供深入洞察或學習，以決定下一個動作。
 
 >[!NOTE]
 >
