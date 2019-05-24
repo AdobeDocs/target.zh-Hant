@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 常見問題
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -86,15 +86,15 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 [!DNL Adobe Experience Manager] 6.2 具有 FP-11577 (或更新版本) 現在支援 [!DNL at.js] 實作與其 [!UICONTROL Adobe Target Cloud Services] 整合。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2* 文件中的[功能套件](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[與 Adobe Target 整合](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
 
-## 使用 at.js{#section_4D78AAAE73C24E578C974743A3C65919} 時如何防止頁面載入忽隱忽現 ? 
+## 使用 at.js{#section_4D78AAAE73C24E578C974743A3C65919} 時如何防止頁面載入忽隱忽現? 
 
 Target 提供幾個方法來防止頁面載入忽隱忽現: 如需詳細資訊，請參閱[使用 at.js 防止忽隱忽現情形](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)。
 
-## at.js{#section_6A25C9A14C66441785A7635FEF5C4475} 的檔案大小多大 ? 
+## at.js{#section_6A25C9A14C66441785A7635FEF5C4475} 的檔案大小多大? 
 
 at.js 檔案下載後大約 109 KB。不過，因為大部分伺服器會自動壓縮檔案，使檔案變小，at.js 在伺服器上壓縮 (使用 GZIP 或其他方法) 和當使用者造訪您的網站而載入時，大約是 34 KB。您安裝 at.js 的伺服器上的壓縮設定，就決定實際壓縮大小。
 
-## at.js 為何比 mbox.js{#section_AA1C43897E46448FA3E26EEC10ED7E51} 還大 ? 
+## at.js 為何比 mbox.js{#section_AA1C43897E46448FA3E26EEC10ED7E51} 還大? 
 
 at.js 實作使用單一資料庫 ([!DNL at.js])，而 mbox.js 實作實際上使用兩個資料庫 ([!DNL mbox.js] 和 [!DNL target.js])。所以，at.js 要同時與 mbox.js* 和* `target.js` 一起比較才公平。比較兩個版本的 gzip 大小，at.js 1.2 版是 34 KB，而 mbox.js 63 版是 26.2 KB。
 
@@ -124,7 +124,7 @@ at.js 目前使用部分的 jQuery，因此，您在 at.js 頂端會看到 MIT �
 
 是. 您也可以使用 mboxTrace 以進行偵錯，或使用瀏覽器的開發人員工具以檢查網路請求，篩選「mbox」以隔離 mbox 呼叫。
 
-## 對於 at.js，mbox 名稱中可以使用特殊字元嗎 ? {#section_8E31D2E8A27642098934D7DACFB2A600}
+## 對於 at.js，mbox 名稱中可以使用特殊字元嗎? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
 可以，與 mbox.js 相同。
 
