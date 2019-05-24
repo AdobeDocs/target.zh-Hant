@@ -7,7 +7,7 @@ solution: Target、Analytics
 title: 管理排除項目
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
 在自動個人化 (AP) 活動中建立排除群組，以確保會自動排除具有指定選件的體驗。
 
 排除群組有效地確保不相容的選件不會出現在相同體驗的不同位置中。例如，假設您有兩個選件: 一個是全部商品 20% 折扣，另一個是 15% 折扣。您絕不希望這兩個選件都讓相同體驗中的訪客看到。如果將這兩個選件新增至排除群組，就可以確保永遠不會發生這種情形。
+
+您也可以限制哪些對象可以在AP活動中查看特定選件。如需詳細資訊，請參閱 [Target Automated Personalization選件](/help/c-activities/t-automated-personalization/ap-target-offers.md)。
 
 **若要建立排除群組:**
 
@@ -116,7 +118,7 @@ source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
 **若要使用表單式體驗撰寫器來排除預設內容:**
 
 1. 在建立或編輯 AP 活動時，按一下**[!UICONTROL 「內容」]**下的**[!UICONTROL 「變更文字/HTML」]**或**[!UICONTROL 「變更影像選件」]**。
-1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的**[!UICONTROL 「包含」] (或在「選取內容」畫面中取消勾選「預設影像/影片」)。**
+1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的**[!UICONTROL 「包含」](或在「選取內容」畫面中取消勾選「預設影像/影片」)。**
 
    視內容/選件類型而定，「包含」核取方塊的位置會稍微不同。
 
