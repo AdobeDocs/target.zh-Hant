@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,7 +21,9 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019年月23日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 簡介中更新的文字。 |
+| 2019年月24日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增關於 at.js 2.1.0 的資訊。 |
+| 2019年月23日 | [管理排除項目](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 已新增資訊和連結，以限制哪些對象可以使用定位規則在AP活動中查看特定選件。 |
+|  | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 簡介中更新的文字。 |
 |  | [體驗與選件](/help/c-experiences/experiences.md) | 簡介中更新的文字。 |
 |  | [對象](/help/c-target/target.md) | 簡介中更新的文字。 |
 |  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 簡介中更新的文字。 |
