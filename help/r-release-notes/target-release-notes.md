@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -17,11 +17,23 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新日期：2019年月21日**
+**上次更新日期：2019年月24日**
 
 >[!NOTE]
 >
 >以下版本說明包含發行前版本的資訊。發行日期、功能和其他資訊可能會有所變更。若要檢視目前版本的資訊，請參閱 [Target發行說明](release-notes.md)。這些頁面的資訊可能是相同的，或者可能不同，視發行時間而定。
+
+## at. js2.1.0版(2019年月28日)
+
+我們很高興宣佈下列令人振奮的功能：js2.1.0：
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| Adobe加入支援 | 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需Adobe選擇加入的詳細資訊，請參閱 [隱私權與通用資料保護規則(GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md))。 |
+| 符合業界標準的CSP規範 | at. js不再使用eval()來執行JavaScript。 |
+| 用戶端分析記錄 | 可讓客戶完全控制如何將分析資料傳送至Adobe Analytics，不論是在用戶端或伺服器端。 |
+| 傳送通知 | 可讓開發人員在使用程式碼轉換體驗時傳送通知，而非使用 `applyOffer()` 或 `applyOffers()`使用。 |
+| 縮減檔案大小 | at. js的大小減少了~24%。檔案大小較小可改善頁面載入效能，並減少頁面上下載. js的時間。 |
 
 ## [!DNL Target] Standard/Premium19.5.1(2019年月21日) {#release-19-5-1-prerelease}
 
