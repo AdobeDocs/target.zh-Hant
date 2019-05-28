@@ -7,7 +7,7 @@ solution: Target
 title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
+
+## Target是否支援多級iframes？
+
+Target不支援多級iframes。如果您的網站載入具有子iframe的iframe，則Target程式庫(at. js和mbox. js)僅與父iframe互動。Target程式庫不會與child iframe互動。
+
+因應措施，您可以在體驗中新增頁面iframe的URL。
 
 ## 當我嘗試編輯頁面時，我只看到了進度環而非我的頁面。(VEC 和 EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
