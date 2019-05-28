@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月28日 | [從 Adobe Experience Cloud 存取 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 新增區段：「變更Target產品文件的語言」。 |
+|  | [決定獲勝者](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已更新資訊附加值的p-值。 |
+|  | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 已新增疑難排解Target處理多層級iframes的問題。 |
+|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增常見問題集：「Recommendations作業的預期收錄時間是甚麼？」 |
 | 2019年月24日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增關於 at.js 2.1.0 的資訊。 |
 | 2019年月23日 | [管理排除項目](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 已新增資訊和連結，以限制哪些對象可以使用定位規則在AP活動中查看特定選件。 |
 |  | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 簡介中更新的文字。 |
