@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新日期：2019年月24日**
+**上次更新日期：2019年月28日**
 
 >[!NOTE]
 >
 >以下版本說明包含發行前版本的資訊。發行日期、功能和其他資訊可能會有所變更。若要檢視目前版本的資訊，請參閱 [Target發行說明](release-notes.md)。這些頁面的資訊可能是相同的，或者可能不同，視發行時間而定。
 
-## at. js2.1.0版(2019年月28日)
+## at. js2.1.0版(2019年月日)
 
 我們很高興宣佈下列令人振奮的功能：js2.1.0：
 
