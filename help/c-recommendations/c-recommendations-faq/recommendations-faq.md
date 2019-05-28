@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -18,6 +18,22 @@ source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
 # ![PREMIUM](/help/assets/premium.png) Recommendations 常見問題集{#recommendations-faq}
 
 關於建議活動常見問題集 (FAQ) 的清單。
+
+## Recommendations作業預計的收錄時間範圍為何？
+
+大約60分鐘內應該反映下列變更：
+
+* 在「設計」範本中傳回的項目屬性。
+* 全域排除規則中使用的項目屬性，可防止項目納入傳回建議中。
+* 包含規則中用於包含規則的項目屬性，其影響項目是否已包含或排除在傳回建議中。
+
+下一個演算法執行(12-24小時)後，才會反映下列變更：
+
+* 用於活動之系列規則中使用的項目屬性。
+* 促銷活動中使用的項目屬性，用於促銷活動相關的屬性或系列。
+* 項目出現在「最暢銷商品」或「已檢視」演算法中的「目前類別」或「最愛類別」中的項目類別。
+* 在變更屬性時排名建議項目，是用於演算法的自訂索引鍵的自訂屬性。
+* 根據建議邏輯為「具有類似屬性的項目」，當使用「內容相似性」加權因數時，或使用「屬性加權」系數時，排名建議項目。
 
 ## 如果特殊字元破壞陣列，怎麼辦? {#section_D27214116EE443638A60887C7D1C534E}
 
