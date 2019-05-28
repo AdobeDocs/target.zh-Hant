@@ -9,7 +9,7 @@ title: 從 Adobe Experience Cloud 存取 Target
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -52,9 +52,10 @@ source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
 
 1. 選取您的第一個(主要)語言，然後選取第二個語言(如有需要)。
 
-   [!DNL Target] UI提供下列語言版本。
+   [!DNL Target] UI提供下列語言版本：
 
    * 英文
+   * 西班牙文
    * 法語
    * 德文
    * 日文
@@ -67,6 +68,31 @@ source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
 1. 按一下**[!UICONTROL 「儲存」]**。
 
 1. 登出 [!DNL Adobe Experience Cloud] 或 [!DNL Target]再次登入，讓變更生效。
+
+## 變更Target產品文件的語言 {#doc-lang}
+
+您的作業系統或瀏覽器設定應該會偵測到您偏好的語言，並顯示該語言的文件(如果有的話)。Target文件會自動翻譯，並在英文文件變更後數小時內與英文版同步。
+
+您可以按一下頁首中的連結，快速將語言變更為原始英文版本。
+
+![變更為原始語言](/help/c-intro/assets/mt-original.png)
+
+您也可以按一下頁首右上方的「語言切換器」圖示( ![語言切換器](/help/c-intro/assets/icon-language-switcher.png) )，快速將語言變更為任何支援的語言。
+
+![語言切換器](/help/c-intro/assets/language-switcher.png)
+
+[!DNL Target] 本文件提供下列語言版本：
+
+* 英文
+* 西班牙文
+* 法語
+* 德文
+* 日文
+* 義大利文
+* 巴西葡萄牙文
+* 簡體中文(即將推出)
+* 繁體中文
+* 韓文
 
 ## 訓練影片: Experience Cloud 中的 Adobe Target (4: 59)
 
