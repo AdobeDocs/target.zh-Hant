@@ -8,7 +8,7 @@ title: 類別相關性
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
+source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
 
 ---
 
@@ -19,16 +19,19 @@ source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
 
 ## 將類別相關性資訊傳入 Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-每當有使用者造訪您的網站時，這位訪客專屬的設定檔參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。其中一個特別實用的參數是 `categoryId`，這是在產品頁面上指派的 mbox 參數。當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以將類別資訊作為 Mbox 參數 `user.categoryId` 傳遞至任何 Mbox 中 (包括巢狀 Mbox) 來進行記錄，如同 URL 參數 `user.categoryId`，或傳遞至具有全域 Mbox 的 Target 頁面參數中。請洽詢您的客戶代表以取得更多詳細資訊。
+每當有使用者造訪您的網站時，這位訪客專屬的設定檔參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。其中一個特別實用的參數是 `user.categoryId`，這是在產品頁面上指派的 mbox 參數。當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以將類別資訊作為 Mbox 參數 `user.categoryId` 傳遞至任何 Mbox 中 (包括巢狀 Mbox) 來進行記錄，如同 URL 參數 `user.categoryId`，或傳遞至具有全域 Mbox 的 Target 頁面參數中。請洽詢您的客戶代表以取得更多詳細資訊。
 
-使用逗號分隔類別，可建立個別類別。例如:
+使用逗號分隔類別，以包含多個類別的項目。例如:
 
-* `categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
-* `entity.categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
+* `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
 根據頻率和最近一次訪客查看您的產品類別，記錄類別相似性 (如果有)。類別相關性可用來鎖定活動的目標族群。
 
 您可在描述檔指令碼中使用 `user.categoryAffinities[]`，傳回訪客已填入的相似性陣列。
+
+>[!IMPORTANT]
+>
+>用於Adobe Target類別相似性演算法的 `user.categoryId` 屬性有別於Adobe Target Recommendations產品和內容建議所用 `entity.categoryId` 的屬性。`user.categoryId` 來追蹤使用者最愛的類別。`entity.categoryId` 必須以目前頁面或目前項目類別的建議為基礎。如果您想要使用這兩項功能，請將這兩個值傳遞至Adobe Target。
 
 ## 類別相關性的商業案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
