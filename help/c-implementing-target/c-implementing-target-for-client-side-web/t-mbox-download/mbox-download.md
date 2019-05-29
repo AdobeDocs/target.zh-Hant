@@ -9,7 +9,7 @@ title: mbox.js 實作
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 若要使用 Target Standard 或 Target Premium，請新增一行程式碼以呼叫 mbox.js。
 
-您可以使用兩個資料庫參考中的一個: [!DNL mbox.js] 或 [!DNL at.js]。[瞭解 Target JavaScript 資料庫](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)說明這兩個資料庫之間的差異。
+您可以使用兩個資料庫參考中的一個: [!DNL mbox.js] 或 [!DNL at.js]。[at. js的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 說明兩個程式庫之間的差異。
 
 >[!NOTE]
 >
