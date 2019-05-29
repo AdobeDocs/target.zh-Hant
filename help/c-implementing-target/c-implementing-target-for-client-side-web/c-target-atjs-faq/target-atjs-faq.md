@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 常見問題
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -29,6 +29,44 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 如上圖所示，使用 mbox.js 時，頁面內容要等到 [!DNL Target] 呼叫完成之後才會開始載入。使用 at.js 時，頁面內容在 [!DNL Target] 呼叫起始時就開始載入，不會等到呼叫完成。
 
+## 頁面載入時間對at. js和mbox. js有何影響？ {#page-load}
+
+許多客戶和顧問都想要知道 [!DNL at.js] 和 [!DNL mbox.js] 對頁面載入時間的影響，尤其是在比較新使用者和再度訪問的使用者時。可惜，有關 [!DNL at.js] 或 [!DNL mbox.js] 如何影響頁面載入時間，由於每一個客戶的實施不同，很難測量和提出具體數字。
+
+不過，如果頁面上有「訪客 API」，我們就能更充分的瞭解 [!DNL at.js] 和 [!DNL mbox.js] 如何影響頁面載入時間。
+
+>[!NOTE]
+>
+>只有當使用全域 mbox 時，「訪客 API」和 [!DNL at.js] 或 [!DNL mbox.js] 才會影響頁面載入時間 (原因在於主體隱藏技術)。訪客 API 整合不影響地區 mbox。
+
+以下小節說明新訪客和再度造訪的訪客的動作序列:
+
+### 新訪客
+
+1. 訪客 API 會載入、剖析和執行。
+1. at.js / mbox.js 會載入、剖析和執行。
+1. 如果已啟用全域 mbox 自動建立，Target JavaScript 資料庫:
+
+   * 實體化訪客物件。
+   * Target 資料庫會嘗試擷取 Experience Cloud 訪客 ID 資料。
+   * 因為這是新訪客，「訪客 API」會向 demdex.net 發出跨網域請求。
+   * 擷取 Experience Cloud 訪客 ID 資料之後，即會觸發對 Target 的要求。
+
+### 再度訪問的訪客
+
+1. 訪客 API 會載入、剖析和執行。
+1. at.js / mbox.js 會載入、剖析和執行。
+1. 如果已啟用全域 mbox 自動建立，Target JavaScript 資料庫:
+
+   * 實體化訪客物件。
+   * Target 資料庫會嘗試擷取 Experience Cloud 訪客 ID 資料。
+   * 訪客 API 會從 Cookie 擷取資料。
+   * 擷取 Experience Cloud 訪客 ID 資料之後，即會觸發對 Target 的要求。
+
+>[!NOTE]
+>
+>對於新訪客，當「訪客 API」存在時，Target 必須通過網路許多次，以確定 Target 請求包含 Experience Cloud 訪客 ID 資料。對於再度訪問的訪客，Target 只會通過網路到 Target 來擷取個人化內容。
+
 ## 從舊版 at.js 升級為版本 1.0.0 之後，為什麼我發現回應時間好像變慢了? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
 [!DNL at.js] 1.0.0 版本以及更新版本會平行觸發所有請求。舊版會循序執行請求，亦即請求會放入佇列中，Target 會等待第一個請求完成之後，再繼續處理下一個請求。
@@ -45,10 +83,6 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 </ul>
 
 如您所見，[!DNL at.js] 1.0.0 能更快完成請求。此外，[!DNL at.js] 請求為非同步，Target 不會阻礙頁面呈現。即使請求需要幾秒才完成，您仍會看到呈現的頁面，在 Target 收到來自 Target 邊緣的回應之前，頁面只會有某些部分空白。
-
-## at.js 對頁面載入時間有何影響?  {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-如需詳細資訊，請參閱[瞭解 Target JavaScript 資料庫](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)。
 
 ## 我可以非同步載入 Target 資料庫嗎? {#section_AB9A0CA30C5440C693413F1455841470}
 
