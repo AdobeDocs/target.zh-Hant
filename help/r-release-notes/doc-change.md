@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -21,12 +21,15 @@ source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月29日 | [類別相關性](/help/c-target/c-visitor-profile/category-affinity.md) | 更新文字以釐清 `user.categoryId` 與 `entity.categoryId`之間的差異。 |
+|  | [從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 此主題的「分類」區段：at. js的優點。 |
+|  | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 此主題的「分類」區段：「頁面載入時at. js和mbox. js的影響為何？」 |
 | 2019年月28日 | [從 Adobe Experience Cloud 存取 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 新增區段：「變更Target產品文件的語言」。 |
 |  | [決定獲勝者](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已更新資訊附加值的p-值。 |
 |  | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 已新增疑難排解Target處理多層級iframes的問題。 |
 |  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增常見問題集：「Recommendations作業的預期收錄時間是甚麼？」 |
 |  | [使用 Adobe Launch 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 已更新「使用Target Launch Extension實施at. js的優點」下方的資訊。 |
-|  | 疑難排解[內容傳遞](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 已新增有關at. js的疑難排解區段，如果您使用無效的doctype，則不觸發mbox。 |
+|  | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 已新增有關at. js的疑難排解區段，如果您使用無效的doctype，則不觸發mbox。 |
 | 2019年月24日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增關於 at.js 2.1.0 的資訊。 |
 | 2019年月23日 | [管理排除項目](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 已新增資訊和連結，以限制哪些對象可以使用定位規則在AP活動中查看特定選件。 |
 |  | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 簡介中更新的文字。 |
