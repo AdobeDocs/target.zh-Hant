@@ -8,7 +8,7 @@ title: 將動態資料傳遞至選件
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
 | 唯一的訪客 ID | `${user.pcId}` |
 | 唯一工作階段 ID | `${user.sessionId}` |
 | 訪客的第一個作業 (true 或 false) | `${user.isFirstSession}` |
-| 過去行為 | `{$user.endpoint.lastPurchasedEntity}`, `{$user.endpoint.lastViewedEntity}`, `{$user.endpoint.mostViewedEntity}`, `{$user.endpoint.categoryAffinity}` |
+| 過去行為 | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
 在主控台中記錄資訊以進行除錯，例如 `${campaign.name}`， `${campaign.id}``${campaign.recipe.name}``${campaign.recipe.id}``${offer.name}``${offer.id}`、 `${campaign.name}`
 
