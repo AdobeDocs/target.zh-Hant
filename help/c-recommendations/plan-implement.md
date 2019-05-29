@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 88d13804e4808d81f0ef1dd4036de9938cd801f2
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -148,7 +148,7 @@ function targetPageParams() {
 
 如需關於實作 [!DNL mbox.js] 的詳細資訊，請參閱 [Mbox.js 實作](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
 
-如需關於這兩個 Target Javascript 資料庫之間差異的詳細資訊，請參閱[瞭解 Target JavaScript 資料庫](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)。
+如需兩個Target Javascript程式庫之間差異的詳細資訊，請參閱 [. js的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)。
 
 ## 類別頁面 {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
