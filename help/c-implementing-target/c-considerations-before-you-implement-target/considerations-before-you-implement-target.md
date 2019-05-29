@@ -9,7 +9,7 @@ title: 實作之前
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: a0234d8dc1e539438130b2ba323d3f9eb4e7a022
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -24,7 +24,6 @@ source-git-commit: a0234d8dc1e539438130b2ba323d3f9eb4e7a022
 >
 >Adobe客戶服務不支援at. js或mbox. js的修改。
 
-- [瞭解 Target JavaScript 程式庫](target-implement.md)
 - [準備實作 Target](prepare-to-implement-target.md)
 - [隱私](c-privacy/privacy.md)
 - [將資料傳入 Target 的方法](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
