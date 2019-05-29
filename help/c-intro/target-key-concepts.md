@@ -9,7 +9,7 @@ title: Target 重要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Target包含數種活動類型。下表提供每個活動類型的概述，其�
 
 在 [!DNL Target Standard] 中，位置可以是頁面上的任何元素，前提是您要追蹤的每一個頁面的 [!DNL Target] 區段中，都必須包含一行用於啟用 `<head>` 的程式碼。這行程式碼會呼叫必要的 JavaScript 程式庫，以收集資訊並將已鎖定的目標體驗傳送給訪客。
 
-請參閱[瞭解 Target JavaScript 程式庫](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)，以取得 [!DNL Target Standard] 中的位置實作和 [!DNL Target Classic] 中的 mbox 實作兩者之間有何差異的詳細資訊。
+請參閱[at. js的優點，](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 以瞭解有關位置實作與 [!DNL Target Standard] mbox實作之間差異的詳細資訊 [!DNL Target Classic]。
 
 位置結合對象，可提供幾乎無窮盡的選項，以鎖定客戶提供資訊。例如，假設訪客以前從來沒到過網站，則您可以向新客戶顯示優惠券。同樣地，可變更頁面來顯示更適合回訪客戶的選件。
 
