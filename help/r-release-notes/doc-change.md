@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 | 2019年月29日 | [類別相關性](/help/c-target/c-visitor-profile/category-affinity.md) | 更新文字以釐清 `user.categoryId` 與 `entity.categoryId`之間的差異。 |
 |  | [從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 此主題的「分類」區段：at. js的優點。 |
 |  | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 此主題的「分類」區段：「頁面載入時at. js和mbox. js的影響為何？」 |
+|  | [將動態資料傳遞至選件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 修正過去行為列中的語法。 |
 | 2019年月28日 | [從 Adobe Experience Cloud 存取 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 新增區段：「變更Target產品文件的語言」。 |
 |  | [決定獲勝者](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已更新資訊附加值的p-值。 |
 |  | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 已新增疑難排解Target處理多層級iframes的問題。 |
