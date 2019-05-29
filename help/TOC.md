@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -49,7 +49,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [實作 Target 概覽](c-implementing-target/implementing-target.md)
    + 實作之前 {#before-implement}
       + [實作之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [瞭解 Target JavaScript 程式庫](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [準備實作 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + 隱私權 {#privacy}
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
