@@ -8,7 +8,7 @@ title: Target 最佳化和個人化常見問題集
 topic: 進階
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
 
 **我應該使用哪個實作 JavaScript 檔案，at.js 或 mbox.js?**
 
-at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的舊版本。請參閱[瞭解 Target JavaScript 資料庫](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)以瞭解這兩個資料庫之間的差異。所有新客戶應使用 at.js。
+at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的舊版本。請參閱[at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 的優點，以瞭解兩個程式庫之間的差異。所有新客戶應使用 at.js。
 
 所有現有 mbox.js 客戶應該移轉至 at.js。在進行轉變之前，進一步瞭解[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)中牽涉的步驟。
 
