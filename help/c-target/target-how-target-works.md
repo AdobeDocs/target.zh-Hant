@@ -7,7 +7,7 @@ solution: Target
 title: 鎖定目標如何運作
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target 透過 at.js 或 mbox.js JavaScript 資料庫的方式與您的網頁整合。
 
-[!DNL Target Classic] 會在您想在頁面上顯示目標內容或收集資料的每一個區域周圍使用 mbox。[!DNL Target Standard] 中不需要這些 mbox。反之，每一個頁面只需要參照一個 [JavaScript 程式庫](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)，就能執行最佳化活動。
+[!DNL Target Classic] 會在您想在頁面上顯示目標內容或收集資料的每一個區域周圍使用 mbox。[!DNL Target Standard] 中不需要這些 mbox。反之，每一個頁面只需要參照一個 JavaScript 程式庫，就能執行最佳化活動。
 
 每當訪客請求已啟用 功能的頁面時，[!DNL Target]Target 就會使用下列程序來提供選件:
 
