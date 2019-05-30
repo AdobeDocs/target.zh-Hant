@@ -9,7 +9,7 @@ title: 將資料下載為 CSV 檔案
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
-1. 按一下**[!UICONTROL 「報表」]標籤。**
+1. 按一下 **[!UICONTROL 「報表」]標籤。**
 1. 按一下[!UICONTROL 「下載」]圖示，然後選取要下載到 Excel 和其他工具中分析的報表類型。
 
 ## 匯出報表至 CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -84,4 +84,4 @@ source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
 * 對於 A/B、自動個人化、體驗鎖定目標和多變數活動，這兩種報表都可下載。對於「建議」活動，您無法下載「成功量度」報表。
 * 對於 Target 15.7.1 版 (2015 年 7 月) 以前建立的 A/B 和「體驗鎖定目標」活動，無法使用「下載」選項。
 * 下載的報表中不會記錄沒有相關聯資料的體驗。
-
+* 套用在Target報告UI中的觀眾不會保留至下載報告。
