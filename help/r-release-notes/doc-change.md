@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 | --- | --- | --- |
 | 2019年月30日 | [從 Adobe Experience Cloud 存取 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文件現在提供簡體中文語言版本。 |
 |  | [將資料下載為 CSV 檔案](/help/c-reports/downloading-data-in-csv-file.md) | 在「匯出訂單詳細資料」中新增註解至CSV區段：「套用在Target報告UI中的對象不會保留至下載報告」。 |
+|  | [報表設定](/help/c-reports/c-report-settings/report-settings.md) | 已更新螢幕擷取。 |
 | 2019年月29日 | [類別相關性](/help/c-target/c-visitor-profile/category-affinity.md) | 更新文字以釐清 `user.categoryId` 與 `entity.categoryId`之間的差異。 |
 |  | [從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 此主題的「分類」區段：at. js的優點。 |
 |  | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 此主題的「分類」區段：「頁面載入時at. js和mbox. js的影響為何？」 |
