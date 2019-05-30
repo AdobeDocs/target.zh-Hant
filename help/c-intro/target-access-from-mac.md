@@ -9,7 +9,7 @@ title: 從 Adobe Experience Cloud 存取 Target
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
    ![目標圖示](/help/c-intro/assets/appmenu-target-new.png)
 
-1. 按一下 [!DNL Target] 卡片上的**[!UICONTROL 「啟動」]**。
+1. 按一下 [!DNL Target] 卡片上的 **[!UICONTROL 「啟動」]**。
 
    ![目標啓動](/help/c-intro/assets/target-launch-new.png)
 
-1. (可選) 若要將 [!DNL Target] 設定為您的預設檢視，在您登入 [!DNL Experience Cloud] 時，請按一下您的設定檔頭像下的**[!UICONTROL 「編輯設定檔」]**，然後設定您的登陸頁面偏好設定。
+1. (可選) 若要將 [!DNL Target] 設定為您的預設檢視，在您登入 [!DNL Experience Cloud] 時，請按一下您的設定檔頭像下的 **[!UICONTROL 「編輯設定檔」]**，然後設定您的登陸頁面偏好設定。
 
    ![著陸頁面](/help/c-intro/assets/pagepref-new.png)
 
@@ -65,7 +65,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
    * 繁體中文
    * 韓文
 
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 1. 登出 [!DNL Adobe Experience Cloud] 或 [!DNL Target]再次登入，讓變更生效。
 
@@ -90,7 +90,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 * 日文
 * 義大利文
 * 巴西葡萄牙文
-* 簡體中文(即將推出)
+* 簡體中文
 * 繁體中文
 * 韓文
 
