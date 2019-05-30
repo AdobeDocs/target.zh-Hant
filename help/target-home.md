@@ -6,7 +6,7 @@ title: Adobe Target 產品文件
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2019年月28日([請參閱已變更](r-release-notes/doc-change.md))**
+**上次更新日期：2019年月30日([請參閱已變更](r-release-notes/doc-change.md))**
 
 以下章節將說明本指南中的有用連結，並依一般的工作函式來安排：
 
@@ -58,4 +58,4 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 | Adobe [!DNL Target] 解決方案說明 | [!DNL Adobe Experience Cloud] 資源 |
 |--- |--- |
-| <ul><li>[Adobe Target學習與支援](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API 文件](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud 說明首頁](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[Adobe Target學習與支援](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API 文件](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud 說明首頁](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
