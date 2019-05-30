@@ -8,7 +8,7 @@ title: 平均提升度、提升度界限和信賴區間
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -38,7 +38,7 @@ Target 報表 UI 中的提升資訊包括:
 
 下圖顯示提升度界限和信賴水準資訊:
 
-![](assets/lift-screenshot.png)
+![平均提升度與信賴等級報表](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## 如何計算提升度界限?  {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -51,11 +51,11 @@ Target 報表 UI 中的提升資訊包括:
 輸入我們的提升度界限時還會做一些其他計算:
 
 * **t 值:** 95% 信賴水準的臨界統計量是 1.96。您可以在[此處](https://en.wikipedia.org/wiki/T-statistic)進一步瞭解 t 值。
-* **提升度變異數:**需要體驗 N 成功量度的標準誤差和控制體驗成功量度的標準誤差，才能判斷使用下列公式計算的提升度變異數 (圖例中的成功量度為轉換)。
+* **提升度變異數:** 需要體驗 N 成功量度的標準誤差和控制體驗成功量度的標準誤差，才能判斷使用下列公式計算的提升度變異數 (圖例中的成功量度為轉換)。
 
    ![](assets/lift_variance.png)
 
-* **轉換率/成功量度標準誤差:**體驗 N 和控制體驗以相同方式計算標準誤差，採用下列公式 (圖例中的成功 度是轉換)。您可以在[此處](https://en.wikipedia.org/wiki/Standard_error)進一步瞭解標準誤差。
+* **轉換率/成功量度標準誤差:** 體驗 N 和控制體驗以相同方式計算標準誤差，採用下列公式 (圖例中的成功 度是轉換)。您可以在[此處](https://en.wikipedia.org/wiki/Standard_error)進一步瞭解標準誤差。
 
    ![](assets/standard_error.png)
 
