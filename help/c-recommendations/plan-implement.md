@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -102,9 +102,9 @@ function targetPageParams() {
    return { 
       "entity": { 
          "id": " 
-<i>32323</i>", 
+32323", 
          "categoryId": " 
-<i>My Category</i>", 
+My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
@@ -209,7 +209,7 @@ function targetPageParams() {
 
 使用設定來管理您的 [!DNL Recommendations] 實作。
 
-若要存取[!UICONTROL 「建議設定」]選項，請在 [!DNL Adobe Experience Cloud] 中開啟 [!DNL Target]，然後按一下**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 設定」]**。
+若要存取[!UICONTROL 「建議設定」]選項，請在 [!DNL Adobe Experience Cloud] 中開啟 [!DNL Target]，然後按一下 **[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 設定」]**。
 
 ![](assets/recs_settings.png)
 
