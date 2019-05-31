@@ -1,6 +1,6 @@
 ---
 description: 建立建議活動之前需要知道的事項。
-keywords: Recommendations；設定；偏好設定；產業垂直；篩選不相容的准則；預設主機群組；thumb base url；Recommendations API代號
+keywords: Recommendations;設定;偏好設定;行業別;篩選不相容的條件;預設主機群組;縮圖基底 url;建議 api token
 seo-description: 建立建議活動之前需要知道的事項。
 seo-title: '計劃和實作 Recommendations '
 solution: Target
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 ---
 
@@ -98,17 +98,15 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 例如，您可以在產品或內容頁面的標題區段中使用下列程式碼:
 
 ```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "id": " 
-32323", 
-         "categoryId": " 
-My Category", 
-         "value": 105.56, 
-         "inventory": 329 
-      } 
-   } 
+function targetPageParams() {
+ return {
+    "entity": {
+       "id": "32323",
+       "categoryId": "My Category",
+       "value": 105.56,
+       "inventory": 329
+    }
+ }
 }
 ```
 
