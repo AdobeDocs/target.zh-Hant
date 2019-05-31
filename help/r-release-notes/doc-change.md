@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -21,7 +21,8 @@ source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019 年 5 月 31 日 | [計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) | 更新程式碼範例。 |
+| 2019 年 5 月 31 日 | [行動](/help/c-target/c-audiences/c-target-rules/mobile.md) | 已新增有關執行iOS12.2目標裝置的附註。 |
+|  | [計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) | 更新程式碼範例。 |
 | 2019 年 5 月 30 日 | [從 Adobe Experience Cloud 存取 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文件現在提供簡體中文語言版本。 |
 |  | [將資料下載為 CSV 檔案](/help/c-reports/downloading-data-in-csv-file.md) | 在「匯出訂單詳細資料」中新增註解至CSV區段：「套用在Target報告UI中的對象不會保留至下載報告」。 |
 |  | [報表設定](/help/c-reports/c-report-settings/report-settings.md) | 已更新螢幕擷取。 |
