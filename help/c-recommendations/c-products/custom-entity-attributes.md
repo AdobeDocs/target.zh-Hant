@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 使用單值和多值自訂實體屬性，來定義關於目錄中項目的其他資訊。
 
-## 限制{limits}
+## 限制 {#limits}
 
 您最多可以包含 100 個自訂實體屬性，以針對目錄中的項目定義額外的資訊。例如，您可以建立稱為 `entity.genre` 的自訂屬性，以定義書籍或電影。或者，售票廠商可能為活動場地建立屬性來包含第二個表演者，例如體育活動中的客隊，或音樂會的開場表演。
 
-單一值實體自訂屬性的長度上限為15,000個字元(對於一個和雙位元組UTF-8編碼語言，例如英文和其他拉丁指令碼)或10,000個字元(對於三位元組UTF-8編碼語言，例如中文、日文和韓文)。
+單值實體自訂屬性的長度上限為 15,000 個字元 (適用於單位元組和雙位元組 UTF-8 編碼語言，例如英文和其他拉丁字母) 或 10,000 個字元 (適用於三位元組 UTF-8 編碼語言，例如中文、日文和韓文)。
 
-多值實體自訂屬性可包含超過500個值。每個個別值限定為100個字元。所有值的字元總數必須符合單一值實體自訂屬性長度上限的限制(請參閱上文)。
+多值實體自訂屬性不得包含超過 500 個值。每個個別值限定為 100 個字元以內。所有值的總字元數必須符合單值實體自訂屬性之長度上限的限制 (如上所述)。
 
 ## 自訂實體屬性值 {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -62,7 +62,7 @@ entity.genre=[“genre1”, “genre2”]
 
 **限制**:
 
-* 您無法對自訂實體屬性使用預先定義的實體屬性名稱。(請參閱 [實體屬性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F))。
+* 您無法對自訂實體屬性使用預先定義的實體屬性名稱(請參閱[實體屬性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F))。
 * 屬性 `entity.environment` 由系統保留，並且無法用於自訂實體屬性。嘗試使用 `entity.environment`、摘要或 API 來傳遞 `targetPageParams` 會被忽略。
 * 陣列必須包含單一值類型。不支援混合值陣列 (`["AB",1,true]`)。
 * 含有巢狀 JSON 陣列 (`[10,12,[1,2,3]]`) 的多值屬性視為單值屬性。
