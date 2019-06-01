@@ -9,27 +9,29 @@ title: at.js 函數
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
 
 # at.js 函數{#at-js-functions}
 
-可與 Adobe Target at.js JavaScript 資料庫搭配使用的函數清單。按一下「函數」欄中的連結，以瞭解更多資訊和範例。
+可與 Adobe Target at.js JavaScript 資料庫搭配使用的函數清單。按一下函數欄中的連結，取得詳細資訊和範例。
 
 | 函數 | 詳細資料 |
 | --- | --- | 
 | [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) | 此函數會觸發要求來取得 Target 選件。搭配使用 `adobe.target.applyOffer()` 來處理回應或使用您自己的成功處理。 |
-| [adobe. target. getOffers(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)<br>(at. js2.x) | 此函數可讓您透過傳入多個 mbox 來擷取多個選件。此外，還可針對使用中活動內的所有檢視擷取多個選件。<br>**注意：** 此函數是以. js2.x導入。此函數不適用於. js第版。*x* 版本不支援此函數。 |
+| [adobe.target.getOffers(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)<br>(at.js 2.x) | 此函數可讓您透過傳入多個 mbox 來擷取多個選件。此外，還可針對使用中活動內的所有檢視擷取多個選件。<br>**注意:** 此函數已於 at.js 2.x 推出。此函數不適用於 at.js 版本 1。*x* 版本不支援此函數。 |
 | [adobe.target.applyOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) | 此函數用來套用回應內容。 |
-| [adobe. target. applyOffers(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)<br>(at. js2.x) | 此函數可讓您套用多個由adobe. target. getOffers()擷取的選件。<br>**注意：** 此函數是以. js2.x導入。此函數不適用於. js第版。*x* 版本不支援此函數。 |
-| [adobe. target. righerView(ViewName，options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)<br>(at. js2.x) | 每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。<br> 此函數應實施為單一頁面應用程式(SPA)，以便使用Visual Experience Composer(CMS)建立A/B測試和體驗定位(XT)活動。 |
+| [adobe.target.applyOffers(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)<br>(at.js 2.x) | 此函數可讓您套用多個由 adobe.target.getOffers() 擷取的選件。<br>**注意:** 此函數已於 at.js 2.x 推出。此函數不適用於 at.js 版本 1。*x* 版本不支援此函數。 |
+| [adobe.target.triggerView (viewName, options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)<br>(at.js 2.x) | 每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。<br> 此函數應為單頁應用程式 (SPA) 實作，以便使用可視化體驗撰寫器 (VEC) 來建立 A/B 測試和體驗鎖定目標 (XT) 活動。 |
 | [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) | 此函數會觸發要求以報告使用者動作，例如點擊和轉換。它不會在回應中傳遞活動。 |
-| [mboxCreate(mbox，params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)<br>(at. js1.x) | 執行要求並將選件套用至具有 mboxDefault 類別名稱的最接近 DIV。<br>**注意：** 此函數適用於at. js第版。*x* 版。在. js2.x發行時停用此函數。如果與at. js2.x搭配使用，此函數會傳回預設內容。 |
-| [mboxDefine(選項)和mboxUpdate(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)<br>(at. js1.x) | 定義和更新 mbox。<br>**注意：** 此函數適用於at. js第版。*x* 版。在. js2.x發行時停用此函數。如果與at. js2.x搭配使用，此函數會傳回預設內容。 |
-| [targetGlobalSettings(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 您可以覆寫at at. js程式庫中的設定，而不是在Target `targetGlobalSettings()`Standard/Premium UI中設定設定，或使用REST API。<ul><li>資料供應商：此設定可讓客戶收集第三方資料供應商(例如Demandbase、BlueKai和自訂服務)的資料，並將資料傳遞至全域mbox請求中的mbox參數。</li></ul> |
-| [targetPageParams(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | 此方法允許您將參數從要求程式碼外部附加至全域 mbox。 |
-| [targetPageParmsAll(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 此方法允許您將參數從要求程式碼外部附加至所有 mbox。 |
-| [registerExtension(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at. js1.x) | 提供標準方式來註冊特定的延伸模組。<br>**注意：** 此函數適用於at. js第版。*x* 版。在. js2.x發行時停用此函數。如果與at. js2.x搭配使用，此函數會傳回預設內容。 |
-| [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js自訂事件可讓您得知mbox請求或選件拒絕或失敗的時機。 |
+| [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)<br>(at.js 1.x) | 執行要求並將選件套用至具有 mboxDefault 類別名稱的最接近 DIV。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |
+| [mboxDefine(options) 和 mboxUpdate(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)<br>(at.js 1.x) | 定義和更新 mbox。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |
+| [targetGlobalSettings(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 您可以使用 `targetGlobalSettings()` 覆寫 at.js 資料庫中的設定，而非在 Target Standard/Premium UI 中或使用 REST API 進行設定。<ul><li>資料提供者: 此設定可讓客戶收集來自協力廠商資料提供者 (例如 Demandbase、BlueKai 和自訂服務) 的資料，並在全域 mbox 要求中以 mbox 參數的形式傳遞資料至 Target。</li></ul> |
+| [targetPageParams(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | 此方法允許您將參數從要求程式碼外部附加至全域 mbox。 |
+| [targetPageParamsAll(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 此方法允許您將參數從要求程式碼外部附加至所有 mbox。 |
+| [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 提供標準方式來註冊特定的延伸模組。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |
+| [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js自訂事件可讓您得知mbox請求或選件失敗或拒絕的時機。 |
+| [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js2.1.0) | 此函數會在不使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`使用體驗時，將通知傳送至Target邊緣。<br>**注意**：此函數已於at. js2.1.0中推出，適用於2.1.0以上的任何版本。 |
+
