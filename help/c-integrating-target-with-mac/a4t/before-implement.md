@@ -8,7 +8,7 @@ title: 實作之前
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 3b3b8d000f718fc87183e6e26b917ac683a61e72
+source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
 
 ---
 
@@ -19,28 +19,28 @@ source-git-commit: 3b3b8d000f718fc87183e6e26b917ac683a61e72
 
 決定用此整合之前，請檢閱下列各節，並考量對報表程序造成的影響:
 
-## 實施需求 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
+## 實作需求 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
 >開始使用 A4T 之前，您必須要求針對整合佈建您的帳戶。使用[此表單](https://www.adobe.com/go/audiences)來要求佈建帳戶。
 
-這項A4T整合需要您實作下列程式庫版本(或更新版本)，視您是否要使用A4T的重新導向選件而定：
+視您是否要搭配 A4T 使用重新導向選件而定，此 A4T 整合需要您實作下列資料庫版本 (或更新版本):
 
-### 如果 *未* 將重新導向選件與A4T搭配使用，需要需要
+### *不*搭配 A4T 使用重新導向選件之情況下的需求
 
-如果您不打算將重新導向選件與A4T搭配使用，此整合需要您實作下列程式庫版本(或更新版本)。列出的順序是操作順序。
+如果您不打算搭配 A4T 使用重新導向選件，則此整合需要您實作下列程式庫版本 (或更新版本)。列出的順序是作業順序。
 
 * Experience Cloud 訪客 ID 服務: visitorAPI.js 版本 1.8.0
 * Adobe Target (根據您的實作): at.js 版本 0.9.1 或 mbox.js 版本 61
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
-### 使用A4T重新導向選件時需要的需求
+### 搭配 A4T 使用重新導向選件之情況下的需求
 
-若要搭配 A4T 來使用重新導向選件，您必須實作下列程式庫版本 (或更新版本). 列出的順序是操作順序。
+若要搭配 A4T 來使用重新導向選件，您必須實作下列程式庫版本 (或更新版本).列出的順序是作業順序。
 
 * Experience Cloud 訪客 ID 服務: visitorAPI.js 版本 2.3.0
-* Adobe Target：at. js1.6.2版
+* Adobe Target: at.js 版本 1.6.2
 
    **注意:** mbox.js 資料庫不支援使用 A4T 重新導向選件。您的實作必須使用 at.js。
 
@@ -76,3 +76,9 @@ A4T 活動用來傳送內容或記錄目標量度的所有 Target 呼叫，必�
 * 已實作支援此整合的 [!DNL mbox.js] 版本。
 
 進行疑難排解時，請確認 Analytics 點閱上有補充 ID。
+
+## 用戶端分析記錄 {#client-side}
+
+依預設，當at. js， [!DNL Experience Cloud Visitor ID Service]和AppMeasurement. js位於頁面上， [!DNL Adobe Analytics][!DNL Target] 並正確地將事件用於後端報告和分析用途時，只要頁面中包含正確的補充ID，如上所述。您不需要管理並執行A4T的其他操作，才能正常運作。
+
+不過，有時您可能想要更多地控制如何傳送與 [!DNL Target] 用於 [!DNL Analytics] 報告目的相關的分析資料。您可能有內部分析工具，可供內部使用，但也想要透過內部分析產品傳送分析資料， [!DNL Analytics] 讓組織中的其他成員可以繼續使用 [!DNL Analytics] 做為視覺化報表來源。請參閱 [步驟7：在Analytics的所有網站頁面](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)*上參考. js或mbox. js，以* 瞭解更多資訊。
