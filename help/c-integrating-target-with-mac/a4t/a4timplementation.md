@@ -8,7 +8,7 @@ title: Analytics for Target 實作
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
+source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
 
 ---
 
@@ -55,27 +55,110 @@ source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
 
 否則，此檔案可以與訪客 ID 服務和 AppMeasurement for JavaScript 檔案一起裝載。這些檔案必須裝載於您網站所有頁面皆能存取的 Web 伺服器上。下一個步驟需要用到這些檔案的路徑。
 
-## 步驟 7: 在所有網頁上參照 at.js 或 mbox.js
+## 步驟 7: 在所有網頁上參照 at.js 或 mbox.js {#step7}
 
-將 at.js 或 mbox.js 加到 VisitorAPI.js 之下，請在每個頁面的 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 標籤中新增下列這行程式碼:
+在每個頁面上的標籤中新增下列程式碼行，在VisitorAPI. js下方包含at. js或mbox. js：
 
 at.js:
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
 mbox.js:
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-VisitorAPI.js 必須在 at.js 或 mbox.js 之前載入，如果您更新現有的 at.js 或 mbox.js 檔案，務必驗證載入順序。
+VisitorAPI. js在at. js或mbox. js之前是很重要的。如果您要更新現有at. js或mbox. js檔案，請確定您確認載入順序。
 
-## 步驟8: 驗證實作
+從實施觀點設定Target與Analytics整合的預設設定是使用從頁面傳遞的SDID，將Target與Analytics請求自動整合在後端。
+
+但是，如果您想要進一步控制如何將Target相關分析資料傳送至Analytics以進行報告，而您不想選擇加入「Target」和「Analytics」自動將分析資料透過SDID戳記，則您可以透過window. targetGlobalSettings設定 **AnalyticcoDrag=** **client_ side**。注意：2.1以下的任何版本不支援此方法。
+
+例如:
+
+```
+window.targetGlobalSettings = {
+  analyticsLogging: "client_side"
+};
+```
+
+此設定具有全域效果，這表示at. js的每個呼叫都有 **AnalyticleGrag：「client_ side」** 在Target請求內傳送，並會針對每個請求傳回分析裝載。設定此項目時，傳回的裝載格式如下所示：
+
+```
+"analytics": {
+   "payload": {
+      "pe": "tnt",
+      "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+   }
+}
+```
+
+然後可透過 [「資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)」將裝載轉送至Analytics。
+
+如果不需要全域設定，且偏好較強的方法比較好，則您可以使用at. js函數 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 來透過 **AnalyticCurging傳入此函數：「client_ side」**。只有此呼叫才會傳回分析裝載，而Target後端則不會轉送付費至Analytics。透過採用此方法，每個at. js Target請求都不會預設傳回負載，但只有在需要和指定時才會傳回。
+
+例如:
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+此呼叫會叫用您可以擷取分析裝載的回應。
+
+回應看起來如下所示：
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+然後可透過 [「資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)」將裝載轉送至Analytics。
+
+## 步驟8: 驗證實作 {#step8}
 
 更新 JavaScript 程式庫之後載入頁面，以確認 Target 呼叫中的 mboxMCSDID 參數值符合 Analytics 頁面檢視呼叫中的 sdid 參數值。
 
