@@ -8,66 +8,84 @@ subtopic: 快速入門
 title: at.js 版本詳細資料
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
+source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 
 ---
 
 
 # at.js 版本詳細資料 {#at-js-version-details}
 
-每個版本 [!DNL Adobe Target] at at. js JavaScript程式庫中變更的詳細資訊。
+有關 [!DNL Adobe Target] at.js JavaScript 資料庫每個版本中的變更的詳細資料。
 
 >[!IMPORTANT]
 >
 >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。
 
-## at. js2.0.1(2019年月19日)
+## at. js2.1.0版(即將推出)
 
-此為維護發行，包含下列增強功能和修正：
+此版本包含下列功能和增強功能:
+
+* **Adobe加入支援**：Adobe Opt-In可簡化Adobe解決方案與許可管理平台的整合。如需Adobe選擇加入的詳細資訊，請參閱 [隱私權與通用資料保護規則(GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md))。
+
+* **符合業界標準的CSP** 規範：at. js不再使用eval()來執行JavaScript。
+
+* **用戶端分析記錄**：讓客戶完全掌控他們要如何將分析資料傳送至Adobe Analytics，不論是在用戶端或伺服器端。
+
+   如需詳細資訊，請參閱 [在實施前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登入 *客戶端的Analytics*。
+
+* **傳送通知**：允許開發人員在體驗呈現體驗時傳送通知，而非使用 `applyOffer()` 或 `applyOffers()`使用。
+
+   如需詳細資訊，請查看 [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+
+* **at. js大小減少了~24%**：at. js的大小減少了~24%。檔案大小較小可改善頁面載入效能，並減少頁面上下載. js的時間。
+
+## at.js 版本 2.0.1 (2019 年 3 月 19 日)
+
+此為維護版本，包含下列增強功能和修正:
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-* 修正DOM輪詢程式碼中，某些客戶造成JavaScript例外的競爭條件。(TNT-31869)
-* 檢視的通知已與點擊追蹤事件處理常式解耦。一開始，如果屬於轉譯檢視的點按事件處理常式無法附加，Target就不會傳送通知。即使找不到點按元素，Target現在仍會傳送檢視通知。(TNT-31969)
-* 修正請求成功事件重新導向標幟一律設為true的問題。(TNT-31907)
-* 修正即使元素遺失，CMS重新排列動作仍被記錄為成功的問題。(TNT-31924)
-* 修正某些客戶無法包含「企業權限」屬性代號的通知問題。(TNT-31999)
+* 修正 DOM 輪詢程式碼中導致某些客戶遇到 JavaScript 例外狀況的的競爭條件。(TNT-31869)
+* 呈現的視圖已與點擊追蹤事件處理常式脫鉤的通知。起初，如果屬於某個呈現視圖的點擊事件處理常式無法附加，Target 並不會傳送通知。現在，甚至在找不到點擊元素時，Target 也會傳送視圖通知。(TNT-31969)
+* 修正導致 request-succeeded 事件重新導向標幟一律設為 true 的問題。(TNT-31907)
+* 修正導致 VEC 重新排列動作記錄為成功 (甚至在元素遺失時) 的問題。(TNT-31924)
+* 修正導致某些客戶的通知不包含企業權限屬性 Token 的問題。(TNT-31999)
 
-## at. js1.7.1(2019年月19日)
+## at.js 版本 1.7.1 (2019 年 3 月 19 日)
 
-此為維護發行，包含下列修正：
+此為維護版本，包含下列修正:
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-* 修正DOM輪詢程式碼中，某些客戶造成JavaScript例外的競爭條件。(TNT-31869)
+* 修正 DOM 輪詢程式碼中導致某些客戶遇到 JavaScript 例外狀況的的競爭條件。(TNT-31869)
 
 ## at.js 版本 2.0.0 {#at-js-200}
 
-at. js2.x提供豐富的功能集，讓您的企業對下一代用戶端技術執行個人化。本次的新版本著重於升級 at.js，進而與單一頁面應用程式 (SPA) 產生和諧互動。
+at.js 2.x 提供豐富的功能組合，讓貴公司能以新世代用戶端技術為基礎進行個人化。本次的新版本著重於升級 at.js，進而與單一頁面應用程式 (SPA) 產生和諧互動。
 
-以下是使用at. js2.x在舊版中無法使用的優點：
+以下是幾個使用 at.js 2.x 特有 (舊版未提供) 的優點:
 
 * 可以在頁面載入時將所有選件加入快取，把多次伺服器呼叫減少為一次。
 * 大幅改善一般使用者在網站上的體驗，因為選件能透過快取立即顯示，避免傳統伺服器呼叫引發的延遲時間。
 * 只要編寫一行程式碼以及請開發人員設定一次，行銷人員就能透過單一頁面應用程式上的可視化體驗撰寫器 (VEC) 建立及執行 A/B 和體驗 (XT) 活動。
 
-at. js2.x引入下列新函數：
+at.js 2.x 引進以下新函數:
 
 * getOffers()
 * applyOffers()
 * triggerView()
 
-下列函數已停用於. js2.x中：
+導入 at.js 2.x 後，以下函數已遭到淘汰:
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-如需詳細資訊，請參閱 [「從at. js1.x升級至at. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 和 [at. js函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)」。
+如需詳細資訊，請參閱[從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 與 [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 
 >[!NOTE]
 >
->如果您需要Adobe選擇加入 [通用資料保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)，您目前必須使用. js1.7.0。目前at. js2.x不支援加入支援。
+>如果您需要Adobe選擇加入 [通用資料保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)，您目前必須使用. js1.7.0或at. js2.1.0。
 
 ## at.js 版本 1.7.0 {#at-js-170}
 
@@ -79,7 +97,7 @@ at.js 1.7.0 提供 Adobe 選擇加入支援。「Adobe 選擇加入」是簡化 
 
 >[! 注意]
 >
->如果您需要Adobe Opt-in支援GDPR，您目前必須使用. js1.7.0。目前at. js2.x不支援加入支援。<br>如需所有版本的清單，請參閱 [. js版本詳細資訊](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+>如果您需要Adobe Opt-in支援GDPR，您目前必須使用. js1.7.0或2.1.0。<br>如需所有版本的清單，請參閱 [. js版本詳細資訊](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ## at.js 版本 1.6.4 {#at-js-164}
 
@@ -154,11 +172,11 @@ at.js 1.3.0 版現已可用。
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
-   如需詳細資訊，請參閱 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)。
+   如需詳細資訊，請參閱[at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)。
 
 * 您可以使用來自資料提供者的其他參數來擴大 at.js 要求。資料提供者應新增至 `window.targetGlobalSettings` 下的 `dataProviders key`。
 
-   如需詳細資訊，請參閱 [資料提供者](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)。
+   如需詳細資訊，請參閱[資料提供者](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)。
 
 * at.js 要求現在使用 GET，但是當 URL 大小超過 2048 字元時，它會切換為使用 POST。有一個名為 `urlSizeLimit` 的新屬性，您可以在必要時增加大小限制。此變更允許 Target 將 at.js 與使用相同技術的 AppMeasurement 結合。
 * Target 現在會強制使用 `mbox` 函數中的 `adobe.target.applyOffer(options)` 機碼。此機碼在過去為必要，但現在 Target 會強制使用它，以確保 Target 有正確的驗證，且客戶能正確使用函數。
