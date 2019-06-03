@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
 
 * 在 VEC 中取消載入頁面後，工具列圖示會正常顯示。如果在完全載入頁面前無法執行特定動作，系統會停用相關工具列圖示。(TGT-33811)
 
-## Mobile App Visual Experience Composer(2019年月14日){mobile-loc-may14}
+## 行動應用程式可視化體驗撰寫器 (2019 年 5 月 14 日) {#mobile-vec-may14}
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
