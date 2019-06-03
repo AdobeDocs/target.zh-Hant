@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 此頁面列出對 [!DNL Adobe Target] 文件的重要變更。
 
-## Adobe Target Standard/Premium19.5.1(1919年月21日){tgt-19-5-1}
+## Adobe Target Standard/Premium 19.5.1 (2019 年 5 月 21 日) {#tgt-19-5-1}
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 新增客戶屬性別名ID的字元限制。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.5.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
-## Adobe Target Standard/Premium 19.4.2 (2019 年 4 月 30 日) {19-4-2}
+## Adobe Target Standard/Premium 19.4.2 (2019 年 4 月 30 日) {#target-19-4-2}
 
 **注意**: Target Standard/Premium 19.4.1 版本為維護版本，此版本更新了 Adobe Experience Cloud UI 以反映品牌和產品變更。
 
