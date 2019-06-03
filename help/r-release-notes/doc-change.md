@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 |  | [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 已新增表格至表格 `adobe.target.sendNotifications(options)`。 |
 |  | [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) |  新主題。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | 已新增有關at. js2.1.0中Adobe Opt-in支援的資訊。 |
+|  | [隱私權與一般資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 已更新at. js2.1.0中選擇加入支援的相關資訊。 |
 | 2019 年 5 月 31 日 | [行動](/help/c-target/c-audiences/c-target-rules/mobile.md) | 已新增有關執行iOS12.2目標裝置的附註。 |
 |  | [計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) | 更新程式碼範例。 |
 | 2019 年 5 月 30 日 | [從 Adobe Experience Cloud 存取 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文件現在提供簡體中文語言版本。 |
