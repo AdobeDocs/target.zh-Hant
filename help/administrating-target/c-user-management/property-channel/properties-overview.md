@@ -1,7 +1,7 @@
 ---
 description: 關於新增使用者至您的 Target 實作; 建立工作區、使用者群組和屬性; 更新您的 Target 實作以包括 at_property 參數; 以及指定角色和權限所需工作的資訊。
 keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬性; 屬性; at_property; 角色; 權限
-seo-description: 新增使用者至Adobe Target實施所需之工作的相關資訊；建立工作區、使用者群組和屬性；更新您的Target實作以納入at_ property參數；並指定角色和權限。
+seo-description: 關於新增使用者至您的 Adobe Target 實作; 建立工作區、使用者群組和屬性; 更新您的 Target 實作以包括 at_property 參數; 以及指定角色和權限所需工作的資訊。
 seo-title: 設定企業權限
 solution: Target
 subtopic: 快速入門
@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 
 使用者可以屬於多個工作區並且甚至可具有每個工作區內不同的角色。
 
-1. 在 Admin Console 中，按一下**[!UICONTROL ]「產品」**，然後選取所需產品的名稱。
+1. 在 Admin Console 中，按一下 **[!UICONTROL ]「產品」**，然後選取所需產品的名稱。
 
    ![工作區](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -83,20 +83,20 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於設定工作區的詳細資訊。
 
-### 取得您的工作區ID{workspace-id}
+### 取得您的工作區ID {#workspace-id}
 
-您必須傳遞工作區ID才能運用Target API中 [的企業權限](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。
+您必須傳遞 Workspace ID，才能在 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中運用企業權限。
 
-1. 在 [Adobe Admin Console](https://adminconsole.adobe.com)中，按一下 [!UICONTROL 「產品] 」索引標籤，然後按一下左側功能表中的產品，以顯示PLC(工作區)清單。
-1. 按一下所需的PLC(工作區)，然後找出URL中的「設定檔」ID，如下所示。
+1. 在 [Adobe Admin Console](https://adminconsole.adobe.com) 中，按一下[!UICONTROL 產品]標籤，然後按一下左側功能表中的產品，以顯示 PLC(workspace) 清單。
+1. 按一下想要的 PLC(workspace)，然後在 URL 中找出「設定檔」ID，如下所示。
 
-   ![workspace ID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## 步驟 3.建立使用者群組 (可選) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
-1. 在 Admin Console 中，按一下頁面頂端的**[!UICONTROL 「使用者」]**索引標籤 &gt; **「使用者群組」]，以建立新使用者群組或編輯現有的使用者群組。[!UICONTROL **
+1. 在 Admin Console 中，按一下頁面頂端的 **[!UICONTROL 「使用者」]** 索引標籤 &gt; **「使用者群組」]，以建立新使用者群組或編輯現有的使用者群組。[!UICONTROL **
 1. 遵循[《企業使用者指南》](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)的*管理產品設定的使用者和群組*中的指示。
 
 ## 步驟 4.建立屬性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -107,10 +107,10 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 
 **提示**: 請觀看下方的訓練影片，瞭解關於如何建立屬性的詳細資訊。
 
-1. 在 [!DNL Target] 中，按一下**[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]**來顯示[!UICONTROL 「屬性」]清單。
-1. 按一下**「建立屬性」**。
+1. 在 [!DNL Target] 中，按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]** 來顯示[!UICONTROL 「屬性」]清單。
+1. 按一下 **「建立屬性」**。
 
-   ![新屬性對話框](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
+   ![新屬性對話方塊](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    填寫欄位: 
 
@@ -118,9 +118,9 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
    * **名稱 (必要):** 指定此屬性的描述性名稱。
    * **說明:** 指定此屬性的可選說明。
 
-1. 按一下**[!UICONTROL 「產生代碼」]**來產生在 [5: 更新您的實作以包括 at_property 參數](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中執行步驟時將使用的代碼。
+1. 按一下 **[!UICONTROL 「產生代碼」]** 來產生在 [5: 更新您的實作以包括 at_property 參數](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中執行步驟時將使用的代碼。
 1. 將代碼複製到您的剪貼簿。
-1. 完成時，按一下**[!UICONTROL 「儲存」]。**
+1. 完成時，按一下 **[!UICONTROL 「儲存」]。**
 
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於建立屬性的詳細資訊。
@@ -135,15 +135,15 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 
    或
 
-   在 [!DNL Target] 中，按一下**[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]**來顯示[!UICONTROL 「屬性」]清單。
+   在 [!DNL Target] 中，按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]** 來顯示[!UICONTROL 「屬性」]清單。
 
    1. 將滑鼠游標移至所需屬性的[!UICONTROL 「上次更新時間」]欄以顯示[!UICONTROL 「程式碼」]圖示，並按一下該圖示。
 
-      ![屬性暫留代碼](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
+      ![屬性暫留程式碼](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. 以滑鼠右鍵按一下醒目提示的實作程式碼，以將它複製到您的剪貼簿。
 
-      ![屬性代碼](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
+      ![屬性程式碼](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. 以在先前的步驟中取得的實作程式碼更新您的 Target 實作。
 
@@ -169,11 +169,11 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 
       ![](assets/property_token_3.png)
 
-      如需關於如何對 at.js 執行此動作的資訊，請參閱[targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox、params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
+      如需關於如何對 at.js 執行此動作的資訊，請參閱[targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
 ## 步驟 6: 指定角色和權限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. 在 Admin Console 中，按一下**[!UICONTROL ]「產品」**，然後選取所需產品的名稱。
+1. 在 Admin Console 中，按一下 **[!UICONTROL ]「產品」**，然後選取所需產品的名稱。
 
    ![工作區](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -182,7 +182,7 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
    >「屬性與權限」功能僅適用於 [Target Standard/Premium](/help/c-intro/intro.md#premium) 。您無法對[!DNL Target Classic] 使用此功能。
 
 1. 按一下所需設定檔的名稱。
-1. 按一下**[!UICONTROL 「使用者」]**。
+1. 按一下 **[!UICONTROL 「使用者」]**。
 
    「 [!UICONTROL 使用者] 」標籤會顯示該工作區中的所有使用者。
 
@@ -214,7 +214,7 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 
 * 瞭解預設工作區
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=chi_hant)
 
 ### 如何在 Adobe Target 中建立屬性 (3:05)
 
@@ -226,4 +226,4 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
    * 行動應用程式
    * 電子郵件、電視盒或 API 呼叫
 
->[!VIDEO](https://video.tv.adobe.com/v/18990/)
+>[!VIDEO](https://video.tv.adobe.com/v/18990/?captions=chi_hant)
