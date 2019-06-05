@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 可視化體驗撰寫器 (VEC) | 當您按一下CMS中的頁面元素時，功能表會顯示該元素類型可用的選項。 <ul><li>您現在可以使用 [!DNL Styles > Background] 選項來變更選取元素的背景影象和顏色。(TGT-15001)</li><li>當您按一下影像後，會顯示 [!DNL Replace With]兩個新選項： [!DNL HTML] 和 [體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。<br> 使用HTML取代影像可讓您完全控制元素，而不需選取父元素來存取HTML選項。<br>體驗片段可讓您快速插入在Target定位中建立的Adobe Experience Manager(AEM)元素。(TGT-34097)</li></ul> |
-| 單頁應用程式(SPA) Visual Experience Composer(CMS) | <ul><li>新的引導工作流程可協助您瞭解頁面遞送規則設定如何設定，以便在單一頁面應用程式中成功執行和執行活動。(TGT-33718)</li><li>您現在可以使用SPA CMS定義修改，然後將修改複製到您的單一頁面應用程式中的其他檢視中。(TGT-33882)</li><li>我們改善了在SPA CMS內設定點按追蹤的程序。<br>選取要用於點擊追蹤的元素時，所有可用元素的名稱會顯示在右側的「修改」面板中，讓您快速且輕鬆地選取所要的元素。<br>三部分引導活動工作流程 [!DNL Goals & Settings] 的頁面顯示代表點選追蹤元素數目的數字。您可以將滑鼠指標暫留在此數目上，以查看所有選取元素的名稱。(TGT-33878) </li></ul> |
+| 可視化體驗撰寫器 (VEC) | 當您按一下CMS中的頁面元素時，功能表會顯示該元素類型可用的選項。 <ul><li>您現在可以使用 [!DNL Styles > Background] 選項來變更選取元素的背景影象和顏色。(TGT-15001)</li><li>當您按一下影像後，會顯示 [!DNL Replace With]兩個新選項： [!DNL HTML] 和 [體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。<br> 使用HTML取代影像可讓您完全控制元素，而不需選取父元素來存取HTML選項。<br>體驗片段可讓您快速插入在Target定位中建立的Adobe Experience Manager(AEM)元素。(TGT-34097)</li><li>我們改善了在CMS和單一頁面應用程式CMS中設定點按追蹤的程序。<br>選取要用於點擊追蹤的元素時，所有可用元素的名稱會顯示在右側的「修改」面板中，讓您快速且輕鬆地選取所要的元素。<br>三部分引導活動工作流程 [!DNL Goals & Settings] 的頁面顯示代表點選追蹤元素數目的數字。您可以將滑鼠指標暫留在此數目上，以查看所有選取元素的名稱。(TGT-33878) </li></ul> |
+| 單頁應用程式(SPA) Visual Experience Composer(CMS) | <ul><li>新的引導工作流程可協助您瞭解頁面遞送規則設定如何設定，以便在單一頁面應用程式中成功執行和執行活動。(TGT-33718)</li><li>您現在可以使用SPA CMS定義修改，然後將修改複製到您的單一頁面應用程式中的其他檢視中。(TGT-33882)</li></ul> |
 | Mobile Visual Experience Composer(CMS) | <ul><li>您現在可以為行動應用程式的多個版本編寫活動。如此可節省您的時間和精力，當版本非常類似時，您就不需要大幅變更應用程式的UI。(TGT-34231)</li></ul> |
 | ![Premium BadgeAutomated](/help/assets/premium.png)<br>Personalization(AP)和Auto-Target活動：體驗控制 | <ul><li>建立 AP 或自動鎖定目標活動時，您可以選取要用來作為控制的體驗。此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。接著，您可以根據控制體驗評估個人化傳送的效能。(TGT-32801 和 TGT-26572)</li></ul> |
 
