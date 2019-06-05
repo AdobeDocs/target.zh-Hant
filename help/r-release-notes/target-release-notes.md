@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
 
 ---
 
@@ -23,39 +23,18 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 >
 >以下版本說明包含發行前版本的資訊。發行日期、功能和其他資訊可能會有所變更。若要檢視關於最新版本的資訊，請參閱 [Target 發行說明](release-notes.md)。視發行的時間點而定，這些頁面上的資訊可能相同或有所不同。
 
-## at. js2.1.0版(2019年月日)
-
-我們很高興宣佈下列令人振奮的功能：js2.1.0：
+## Target Standard/Premium 19.6.1 (2019 年 6 月 25 日) {#tgt-19-6-1}
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| Adobe加入支援 | 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需Adobe選擇加入的詳細資訊，請參閱 [隱私權與通用資料保護規則(GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md))。 |
-| 符合業界標準的CSP規範 | at. js不再使用eval()來執行JavaScript。 |
-| 用戶端分析記錄 | 可讓客戶完全控制如何將分析資料傳送至Adobe Analytics，不論是在用戶端或伺服器端。 |
-| 傳送通知 | 可讓開發人員在使用程式碼轉換體驗時傳送通知，而非使用 `applyOffer()` 或 `applyOffers()`使用。 |
-| 縮減檔案大小 | at. js的大小減少了~24%。檔案大小較小可改善頁面載入效能，並減少頁面上下載. js的時間。 |
-
-## [!DNL Target] Standard/Premium 19.5.1 (2019 年 5 月 21 日) {#release-19-5-1-prerelease}
-
-此版本包含下列功能、變更和增強功能:
-
-(括號內的問題編號供 [!DNL Adobe] 內部使用。)
-
-### 功能更新
-
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 單一頁面應用程式可視化體驗撰寫器(SPA VEC) | SPA VEC 已改良下列項目，讓您的工作更快更有效率: <ul><li>按一下 SPA 中的動作會醒目顯示將套用該動作之網站上的元素。在檢視下建立的每個 VEC 動作有四個對應的圖示: 資訊、編輯、移動和刪除。此版本中新增的「移動」功能可讓您將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。(TGT-33746)</li><li>您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時 (例如自訂程式碼無法繼續正常運作) 執行許多動作。無法在網站載入前編輯的動作，都會在 Target UI 中停用。(TGT-33851 和 TGT-34149)</li></ul>如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。 |
+| 可視化體驗撰寫器 (VEC) | <ul><li>您現在可以使用CMS中的 [!DNL Styles > Background] 功能表，變更選取元素的背景影象和顏色。(TGT-15001)</li><li>當您按一下CMS中的頁面元素時，功能表會顯示該元素類型可用的選項。當您按一下影像後，會顯示 [!DNL Replace With]兩個新選項： [!DNL HTML] 和 [體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。<br> 使用HTML取代影像可讓您完全控制元素，而不需選取父元素來存取HTML選項。體驗片段可讓您快速插入在Target定位中建立的Adobe Experience Manager(AEM)元素。(TGT-34097)</li></ul> |
+| 單頁應用程式(SPA) Visual Experience Composer(CMS) | <ul><li>新的引導工作流程可協助您瞭解頁面遞送規則設定如何設定，以便在單一頁面應用程式中成功執行和執行活動。(TGT-33718)</li><li>您現在可以使用SPA CMS定義修改，然後將修改複製到您的單一頁面應用程式中的其他檢視中。(TGT-33882)</li><li>我們改善了在SPA CMS內設定點按追蹤的程序。<br>選取要用於點擊追蹤的元素時，所有可用元素的名稱會顯示在右側的「修改」面板中，讓您快速且輕鬆地選取所要的元素。<br>三部分引導活動工作流程 [!DNL Goals & Settings] 的頁面顯示代表點選追蹤元素數目的數字。您可以將滑鼠指標暫留在此數目上，以查看所有選取元素的名稱。(TGT-33878) </li></ul> |
+| Mobile Visual Experience Composer(CMS) | <ul><li>您現在可以針對多種版本的行動應用程式編寫活動，如此當版本非常類似，而且您不需要大幅變更應用程式的UI時，就能為您節省時間和精力。(TGT-34231)</li></ul> |
+| ![Premium BadgeAutomated](/help/assets/premium.png)<br>Personalization(AP)和Auto-Target活動：體驗 | <ul><li>建立 AP 或自動鎖定目標活動時，您可以選取要用來作為控制的體驗。此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。接著，您可以根據控制體驗評估個人化傳送的效能。(TGT-32801 和 TGT-26572)</li></ul> |
 
 ### 增強功能、修正和變更
 
-* 在 VEC 中取消載入頁面後，工具列圖示會正常顯示。如果在完全載入頁面前無法執行特定動作，系統會停用相關工具列圖示。(TGT-33811)
-
-## 行動應用程式可視化體驗撰寫器 (2019 年 5 月 14 日) {#mobile-vec-may14}
-
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[影片：行動應用程式Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+* 該 <BODY> 標記現在會顯示在DOM路徑中，當您按一下頁面上的元素時，會顯示在CMS底部，讓您在 <BODY> 標記之前是否有宣告。(TGT-33736)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
