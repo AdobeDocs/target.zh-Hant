@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: 從 at.js 1.x 升級為 at.js 2.x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ## 部署 at.js 2.x {#deploy-atjs-200}
 
-1. 使用 Target UI 下載 at.js 2.x。
-
-   ![實作詳細資料對話方塊](/help/c-experiences/assets/imp-200.png)
+1. 透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 擴充功能部署at. js2.x。
 
    >[!NOTE]
    >
-   >尚不支援透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 擴充功能安裝 at.js 2.x。
+   > 使用Adobe Launch部署at. js是偏好的方法。
+
+   或
+
+   使用Target UI手動下載. js2.x，並使用您選擇的 [方法進行部署](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)。
 
 ## 棄用的 at.js 函數
 
@@ -342,7 +344,7 @@ at.js 2.x 使用新的 API，我們稱之為「傳送 API」。若要針對 at.j
 | 對象 | 是 |
 | 客戶屬性 | 是 |
 | AEM 體驗片段 | 是 |
-| Adobe Launch 擴充功能 | 目前不支援 |
+| Adobe Launch 擴充功能 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 除錯程式 | 是 |
 | Auditor | 尚未針對 at.js 2.x 更新規則 |
 | 動態標籤管理 (DTM) | 是 |
