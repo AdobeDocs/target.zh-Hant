@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 6 月 5 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 新增 [疑難排解](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) 區段。 |
+|  | [Target 重要概念](/help/c-intro/target-key-concepts.md) | 次要的文字編輯。 |
 | 2019年月日 | [發行說明(目前)](/help/r-release-notes/release-notes.md) | 已新增有關即將發行的at. js2.1.0的資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增有關即將發行的at. js2.1.0的資訊。 |
 |  | [在您默示之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 新增區段：「用戶端Analytics記錄」。 |
