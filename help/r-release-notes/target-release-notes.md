@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e50ae8c95774716ea484f02b276b2d66cb228364
+source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: e50ae8c95774716ea484f02b276b2d66cb228364
 
 * **多個應用程式版本**：您現在可以為行動應用程式的多個版本編寫活動。如此可為您節省時間和精力，當版本類似時，您就不需要大幅變更應用程式的UI。(TGT-34231)
 
-### ![Premium徽章](/help/assets/premium.png) 自動個人化(AP)與自動目標
+### Automated Personalization(AP)&amp; Auto-Target ![Premium徽章](/help/assets/premium.png)
 
 * **特定體驗作為控制**：您可以選取在建立AP或自動Target活動時做為控制項的體驗。此功能可讓您根據活動中設定的流量分配百分比，將整個控制流量路由至特定體驗。然後，您可以評估個人化流量的績效報告，以控制該一個體驗的流量。目前的控制選項(隨機提供體驗)將繼續可用。(TGT-32801 和 TGT-26572)
 
