@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 
 ---
 
@@ -36,12 +36,6 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 | 傳送通知 | 可讓開發人員在使用程式碼轉換體驗時傳送通知，而非使用 `applyOffer()` 或 `applyOffers()`使用。<br>如需詳細資訊，請查看 [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。 |
 | 縮減檔案大小 | at. js的大小減少了~24%。檔案大小較小可改善頁面載入效能，並減少頁面上下載. js的時間。 |
 | at. js文件更新 | 如需因at. js2.1.0版而更新的所有文章的完整清單，請參閱 [說明文件變更](/help/r-release-notes/doc-change.md)中的2019年月日。 |
-
-## 行動應用程式可視化體驗撰寫器 (2019 年 5 月 14 日) {#mobile-app-vec-may14-1}
-
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
 
 ## [!DNL Target] Standard/Premium 19.5.1 (2019 年 5 月 21 日) {#tgt-19-5-1}
 
