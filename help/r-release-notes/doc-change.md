@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新 `options > page` 參數的說明。 |
+|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target19.6.1版本的初步發行說明。 |
 | 2019 年 6 月 5 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 新增 [疑難排解](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) 區段。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 更新有關使用Adobe Launch部署. js的資訊，這是偏好部署的方法。 |
 |  | [Target 重要概念](/help/c-intro/target-key-concepts.md) | 次要的文字編輯。 |
