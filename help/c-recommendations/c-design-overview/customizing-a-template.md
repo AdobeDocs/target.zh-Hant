@@ -10,7 +10,7 @@ topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: premium
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 使用開放原始碼 Velocity 設計語言來自訂建議設計。
 
-## Velocity 概覽 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Velocity概觀 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 有關 Velocity 的資訊，請參閱 [](https://velocity.apache.org)https://velocity.apache.org。
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 您亦可在範本中使用 `algorithm.name` 和 `algorithm.dayCount` 當作變數，因此，一個設計便可用於測試多個條件，而條件名稱可動態地在設計中顯示。藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。甚至，您可以使用這些變數來顯示 `dayCount` (條件中使用的資料天數，例如「過去 2 天最暢銷的商品」等)。
 
-## 實務範例: 連同建議的產品一起顯示主要項目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 藍本：使用建議的產品顯示關鍵項目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 您可以修改設計來連同其他建議的產品一起顯示主要項目。例如，您可以在建議旁邊顯示目前項目當作參考。
 
@@ -180,7 +180,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 當您建立 [!DNL Recommendations] 活動時，如果主要項目取自於訪客的設定檔，例如「上次購買的項目」，則 [!DNL Target] 會在[!UICONTROL 可視化體驗撰寫器] (VEC) 中顯示隨機產品。這是因為當您設計活動時，沒有設定檔可用。訪客檢視頁面時就會看到預期的主要項目。
 
-## 案例: 以逗號分隔符號取代售價中的小數點 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 藍本：以銷售價格以逗號取代小數點 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 您可以修改設計，以歐洲和其他國家/地區採用的逗號分隔符號，取代美國採用的小數點分隔符號。
 
@@ -206,3 +206,39 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
+## 藍本：使用null檢查邏輯建立4x預設建議設計 {#default}
+
+使用Velocity指令碼來控制實體顯示的動態大小，下列範本可容納一對多結果，以避免在沒有足夠的相符實體時建立空白HTML元素 [!DNL Recommendations]。當備份建議不合理且 [!UICONTROL 部分範本轉譯] 啓用時，此指令碼最適合藍本。
+
+下列HTML程式碼片段取代了4x預設設計中現有的HTML部分(為了簡短而不包含CSS)：
+
+* 如果有第五個實體存在，則指令碼會插入關閉div並開啓新的列 `<div class="at-table-row">`。
+* 在4x中，顯示的最大結果為8，但可透過修改 `$count <=8`來自訂較小或較大的清單。
+* 請注意，邏輯不會在多列上平衡實體。例如，如果要顯示五或六個實體，它不會動態變成頂端，而在底部則不會動態變成兩個實體(頂端或底部三個)。第一列開始前，頂端列會顯示四個項目。
+
+```
+<div class="at-table">
+  <div class="at-table-row">
+    #set($count=1) 
+    #foreach($e in $entities)  
+        #if($e.id != "" && $count < $entities.size() && $count <=8) 
+            #if($count==5) 
+                </div>
+                <div class="at-table-row">
+            #end
+            <div class="at-table-column">
+                <a href="$e.pageUrl"><img src="$e.thumbnailUrl" class="at-thumbnail" />
+                    <br/>
+                    <h3>$e.name</h3>
+                    <br/>
+                    <p class="at-light">$e.message</p>
+                    <br/>
+                    <p class="at-light">$$e.value</p>
+                </a>
+            </div>
+            #set($count = $count + 1) 
+        #end 
+    #end
+    </div>
+  </div>
+```
