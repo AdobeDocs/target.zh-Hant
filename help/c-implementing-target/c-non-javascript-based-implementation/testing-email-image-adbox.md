@@ -8,7 +8,7 @@ title: 測試電子郵件影像 Adbox
 topic: 建議
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 384182cf3bd9110ebd5da124a2cc0f9a1b6cbf81
+source-git-commit: f7651205c27c6194e50610a916f51c5e585bf2a9
 
 ---
 
@@ -36,13 +36,13 @@ mboxSession={123456}&
 mboxPC={123456}” border=“0"/>
 ```
 
-以下值適合您：
+其中以下的值是您專屬的:
 
 | 值 | 說明 |
 |--- |--- |
 | clientcode | 公司的用戶端代碼。在 at.js 或 mbox.js 中找出列為 `clientCode='yourclientcode'` &#39; 的此代碼。全部都是小寫，不包含特殊字元。 |
 | 影像 | 選件類型。對於影像廣告一律為「image」，而對於重新導向程式則為「page」。 |
 | email_header | adbox 的名稱。 |
-| `http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | adbox 的預設內容。此網址必須是絕對參照，並且必須經過 URL 編碼。 |
+| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必要. 以適當的預設內容取代您的adbox。此網址必須是絕對參照，並且必須經過 URL 編碼。 |
 | `mboxXDomain=disabled` | 告訴 Target 不要嘗試設定 Cookie。 |
 | `mboxSession=123456`和`mboxPC=123456` | Target 需要的兩個值，用來合併此使用者的設定檔與您的網站的現有設定檔。123456 是每封電子郵件都會產生的唯一識別碼。請動態地將此值插入每個 adbox 與重新導向程式的 URL 中。對於傳送給每位使用者的每封電子郵件，此代碼都必須是專屬的代碼。如果某封每週電子郵件要傳送給 1,000 個人，就必須產生 1,000 個專屬的 ID。<br>每封電子郵件的唯一識別碼都必須在每個 adbox 與重新導向程式的 URL 中，指定給 mboxSession 和 mboxPC。此識別碼的建議格式為「時間戳記-NNNN」，其中 NNNNN 為隨機的 5 位數字，但任何數字與字母的組合均為有效格式。某些大量電子郵件服務以及所有的程式語言都能夠產生這種唯一的識別碼。 |
