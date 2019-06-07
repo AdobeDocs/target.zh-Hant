@@ -1,39 +1,44 @@
 ---
-description: Adobe Target Mobile Visual Experience Composer(CMS)可讓開發人員在其iOS行動應用程式上多次設定，並讓行銷人員使用行動應用程式CMS的功能。
-keywords: 行動應用程式CMS；行動視覺體驗撰寫器；行動體驗撰寫器選項；設定；ios；apple
-seo-description: Adobe Target Mobile Visual Experience Composer(CMS)可讓開發人員在其iOS行動應用程式上多次設定，並讓行銷人員使用行動應用程式CMS的功能。
+description: Adobe Target 行動版可視化體驗撰寫器 (VEC) 可讓開發人員在其 iOS 行動應用程式上執行一次性設定，並能讓行銷人員使用行動應用程式 VEC 的功能。
+keywords: 行動應用程式 VEC;行動版可視化體驗撰寫器;行動版體驗撰寫器選項;設定;ios;apple
+seo-description: Adobe Target 行動版可視化體驗撰寫器 (VEC) 可讓開發人員在其 iOS 行動應用程式上執行一次性設定，並能讓行銷人員使用行動應用程式 VEC 的功能。
 seo-title: iOS - 設定行動應用程式
 solution: Target
 title: iOS - 設定行動應用程式
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 29e82d6bcb42b0f05b0b175be7df017184358c38
+source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
 
 ---
 
 
 # iOS - 設定行動應用程式{#ios-set-up-the-mobile-app}
 
-Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其iOS行動應用程式上多次設定，並讓行銷人員使用行動應用程式CMS的功能。
+Adobe Target 行動應用程式可視化體驗撰寫器 (VEC) 可讓開發人員在其 iOS 行動應用程式上執行一次性設定，並能讓行銷人員使用行動應用程式 VEC 的功能。
 
-如需啓用Adobe Target CMS擴充功能的詳細資訊，請參閱 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) 中的Adobe *Target- Visual Experience Composer*。
+如需有關啟用 Adobe Target VEC 擴充功能的詳細資訊，請參閱 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) 中的 *Adobe Target - 可視化體驗撰寫器*。
 
-## 加入Mobile SDK和Target程式庫 {#sdk-library}
+## 包含 Mobile SDK 和 Target 資料庫 {#sdk-library}
 
-1. 新增pod」 [!DNL Podfile]`ACPTargetVEC`，將程式庫新增至您的專案。
+1. 藉由新增窗格「`ACPTargetVEC`」，透過 Cocoapods [!DNL Podfile] 將資料庫新增到專案。
+
 1. 在 XCode 中開啟 Objective-C 應用程式專案。
-1. 前往您的專案建立設定，如果尚未設定，請將「永遠嵌入快速標準程式庫」設定為「是」。
+
+1. 前往專案建置設定，將「一律內嵌 Swift 標準資料庫」設定為「是」(如果您尚未設定的話)。
+
 1. 在專案建置設定中找出「其他連結器旗標」(Other linker flags)，然後新增 `$(inherited)` (如果不存在的話)。
+
 1. 針對 objective-C 專案 - 建立 Swift 檔案以建立橋接標頭。它會為您設定 Swift 應用程式環境。
+
 1. 新增深層連結處理常式:
 
-   1. 在您的應用程式專案設定中，按一下**[!UICONTROL 「資訊」]**。
-   1. 在 **[!UICONTROL 「URL類型]**」下方，按一下三角形以開啓它，然後按一下加號以新增欄位。
+   1. 在您的應用程式專案設定中，按一下 **[!UICONTROL 「資訊」]**。
+   1. 在 **[!UICONTROL URL 類型]** 下，按一下三角形以將其開啟，然後按一下「加號」以新增欄位。
    1. 新增下列資訊:
 
       * 識別碼: `com.adobe.sdktest`
-      * URL配置： `vectester`
+      * URL 配置: `vectester`
       * 角色: 編輯者
    1. 按一下離開您的應用程式專案設定 &gt; **[!UICONTROL 「一般」]**。
    1. 按一下返回您的應用程式專案設定 &gt; **[!UICONTROL 「資訊」]，確保已儲存您的設定。**
@@ -46,6 +51,7 @@ Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其iOS行動應�
 
 
 1. 在 XCode 中，開啟 [!DNL AppDelegate] 檔案。
+
 1. 在檔案頂端，在匯入的結尾新增下列文字行:
 
    `#import "ACPTargetVEC.h"`
@@ -57,72 +63,31 @@ Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其iOS行動應�
 1. 在您的 [!DNL AppDelegate] 檔案中，將下列行加入 `AppDelegate::application:didFinishLaunchingWithOptions:`。如果未定義委派函式，請建立該函式，並針對 Objective-C 或 Swift 應用程式個別加入下列行:
 
    ```
-   // CONFIGURATION LINE FOR OBJECTIVE C ONLY (Skip any framework which is not applicable for you): 
-   [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"]; 
-   [ACPCore setLogLevel:ACPMobileLogLevelDebug]; 
-   [ACPLifecycle registerExtension]; 
-   [ACPIdentity registerExtension]; 
-   [ACPUserProfile registerExtension]; 
-   [ACPTarget registerExtension];
-   
-   [ACPTargetVEC registerExtension];
-   [ACPCore start:^{
-        [ACPCore lifecycleStart:nil];
-   }];
+   // CONFIGURATION LINE FOR OBJECTIVE C ONLY
+   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+     //Other Extensions that you need
+     [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"];
+     [ACPCore setLogLevel:ACPMobileLogLevelDebug];
+     [ACPTarget registerExtension];
+     [ACPTargetVEC registerExtension];
+     [ACPCore start:^{
+       [ACPCore lifecycleStart:nil];
+     }];
+     // Override point for customization after application launch.
+     return YES;
+   }
    
    // CONFIGURATION LINE FOR SWIFT ONLY: 
-   ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
-   ACPCore.setLogLevel(ACPMobileLogLevel.debug) 
-   ACPLifecycle.registerExtension() 
-   ACPIdentity.registerExtension() 
-   ACPUserProfile.registerExtension() 
-   ACPTarget.registerExtension() 
-   
-   ACPTargetVEC.registerExtension() 
-   
-   ACPCore.start {
-     ACPCore.lifecycleStart(nil)
-   }
-   ```
-
-   例如，此方法應該類似以下範例:
-
-   ```
-   // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY: 
-   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
-        // Override point for customization after application launch. 
-       [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"]; 
-       [ACPCore setLogLevel:ACPMobileLogLevelDebug]; 
-       [ACPLifecycle registerExtension]; 
-       [ACPIdentity registerExtension]; 
-       [ACPUserProfile registerExtension]; 
-       [ACPTarget registerExtension]; 
-   
-       [ACPTargetVEC registerExtension]; 
-   
-       [ACPCore start:nil]; 
-       [ACPCore lifecycleStart:nil]; 
-   
-      return YES; 
-   } 
-   
-   // EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY: 
-   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) 
-   { 
-       ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
-       ACPCore.setLogLevel(ACPMobileLogLevel.debug) 
-       ACPLifecycle.registerExtension() 
-       ACPIdentity.registerExtension() 
-       ACPUserProfile.registerExtension() 
-       ACPTarget.registerExtension() 
-   
-       ACPTargetVEC.registerExtension() 
-   
-       ACPCore.start(nil) 
-       ACPCore.lifecycleStart(nil)
-   
-       return true 
-   
+   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+     //Other Extensions that you need
+     ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID")
+     ACPCore.setLogLevel(ACPMobileLogLevel.debug)
+     ACPTarget.registerExtension()
+     ACPTargetVEC.registerExtension()
+     [ACPCore start:^{
+       [ACPCore lifecycleStart:nil];
+     }];
+     return true
    }
    ```
 
@@ -130,35 +95,26 @@ Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其iOS行動應�
 
    ```
    // URL HANDLER LINE FOR OBJECTIVE C ONLY: 
-   [ACPTargetVEC handleDeepLink:url];
+   - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
+     [ACPCore collectLaunchInfo:@ {@"adb_deeplink": url.absoluteString}];
+     return YES;
+   }
    
    // URL HANDLER LINE FOR SWIFT ONLY: 
-   ACPTargetVEC.handleDeepLink(url)
-   ```
-
-   例如，此方法應該類似以下範例:
-
-   ```
-   // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY:
-   -  (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
-    [ACPTargetVEC handleDeepLink:url];
-    return YES;
-   }
-   
-   // EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY:
-   func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-      ACPTargetVEC.handleDeepLink(url)
-      return true;
+   func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+     ACPCore.collectLaunchInfo(["adb_deeplink": url.absoluteString])
+     return true
    }
    ```
 
-1. 建立並執行您的應用程式，並使用它來測試Mobile App CMS功能。
+   建置並執行您的應用程式，並使用該應用程式來測試行動應用程式 VEC 功能。
 
-## 在行動應用程式上設定Target檢視 {#views}
 
-Adobe Mobile SDK 公開一種新方法，供開發人員在每次呈現新檢視時觸發。請參閱一般准則，瞭解如何正確插入iOS應用程式的Target檢視API呼叫。在 iOS 中，所有「目標檢視」都是按它們出現的 `UIViewController` 所定義。因此，不同於 Android，`TargetViews` 的插入僅限於下列呼叫。
+## 在您的行動應用程式中設定目標檢視 {#views}
 
-Adobe Mobile App CMS Extension會根據子類別的類別名稱，自動產生您 `UIViewControllers` 在Mobile App `UIViewController`CMS架構中互動的名稱。如果您要覆寫這些名稱，可以在其中呼叫下列 `viewWillAppear` 方法 `ViewController`。
+Adobe Mobile SDK 公開一種新方法，供開發人員在每次呈現新檢視時觸發。請參閱有關如何為 iOS 應用程式正確插入目標檢視 API 呼叫的一般準則。在 iOS 中，所有「目標檢視」都是按它們出現的 `UIViewController` 所定義。因此，不同於 Android，`TargetViews` 的插入僅限於下列呼叫。
+
+Adobe 行動應用程式 VEC 擴充功能會根據子類別 `UIViewController` 的類別名稱自動產生 `UIViewControllers` 的名稱，以在行動應用程式 VEC 架構中互動。如果您想置換這些名稱，您可以使用 `ViewController` 的 `viewWillAppear` 呼叫下列方法。
 
 ```
 // TARGET VIEW LINE FOR OBJECTIVE C ONLY 
@@ -168,7 +124,7 @@ Adobe Mobile App CMS Extension會根據子類別的類別名稱，自動產生�
 ACPTargetVEC.setTargetView("exampleViewController")
 ```
 
-Adobe Mobile SDK 也公開一種替代方法，供開發人員在執行階段鎖定自訂檢視。身為開發人員，您必須確保檢視已命名唯一名稱。請先呼叫下列方法，再將檢視新增 `superview`至：
+Adobe Mobile SDK 也公開一種替代方法，供開發人員在執行階段鎖定自訂檢視。身為開發人員，您必須確保檢視已命名唯一名稱。先呼叫下列方法，然後再將檢視新增至 `superview`:
 
 ```
 // EXAMPLE TARGET VIEW FOR A CUSTOM VIEW IN OBJECTIVE C 
@@ -180,9 +136,9 @@ let popupView = CustomPopupView.init(frame: CGRect(x: 0, y: 0, width: 300, heigh
 ACPTargetVEC.setTargetView("myCustomPopupView", for: popupView)
 ```
 
-## 設定描述檔參數和其他全域參數 {#parameters}
+## 設定設定檔參數和其他全域參數 {#parameters}
 
-我們現在支援設定每個API呼叫中傳遞的全域參數，以及將mbox/檢視參數傳遞至對應檢視。
+現在，我們支援設定會在每個和所有 API 呼叫中傳遞的全域參數，並支援將 mbox/檢視參數傳遞至相應的檢視。
 
 參數包括:
 
@@ -200,24 +156,24 @@ NSDictionary *profileParams = @{@"profilekey1":@"profilevalue1"}; //profile para
   
 ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
 ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
-ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters:mboxParams 
-                                                                      profileParameters:profileParams 
-                                                                                product:product 
-                                                                                  order:order]; 
+ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters: mboxParams
+                      profileParameters: profileParams
+                      product: product
+                      order: order];
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
-var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product = ACPTargetProduct(id: "1234", categoryId: "furniture")
+var order = ACPTargetOrder(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"])
+var targetParams = ACPTargetParameters(parameters: mboxParams, profileParameters: profileParams, product: product, order: order)
 ACPTargetVEC.setGlobalRequest(targetParams)
 ```
 
 **傳遞下一個檢視觸發的參數:**
 
-我們已根據預設提供一些自動檢視，例如「應用程式`AUTO_<viewControllerName>`中顯示的每個檢視控制器」。若要傳遞這些參數，您可以呼叫下列 API:
+我們提供了一些根據預設建立的自動檢視，例如應用程式中存在之每個檢視控制器的「`AUTO_<viewControllerName>`」若要傳遞這些參數，您可以呼叫下列 API:
 
 ```
 //For Objective-c 
@@ -235,15 +191,15 @@ ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithPar
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
-var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product = ACPTargetProduct(id: "1234", categoryId: "furniture")
+var order = ACPTargetOrder(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"])
+var targetParams = ACPTargetParameters(parameters: mboxParams, profileParameters: profileParams, product: product, order: order)
 ACPTargetVEC.setRequest(targetParams)
 ```
 
 **將參數傳遞至特定檢視:**
 
-We have seen the API trigger Views via `TargetVEC.targetView("view_name")`. 您也可以傳遞專屬於特定檢視的參數，如下所示:
+我們已經看過 API 透過 `TargetVEC.targetView("view_name")` 傳遞至觸發檢視。您也可以傳遞專屬於特定檢視的參數，如下所示:
 
 ```
 //For Objective-c 
@@ -253,7 +209,7 @@ We have seen the API trigger Views via `TargetVEC.targetView("view_name")`. 您�
 ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 ```
 
-## 明確呼叫預先擷取API {#section_373DB4527FC649C58FBA3DF0C18C9836}
+## 明確地呼叫預先擷取 API {#section_373DB4527FC649C58FBA3DF0C18C9836}
 
 在某些情況下，您可能會想再次呼叫預先擷取 API，以重新整理快取中儲存的選件。下列已公開的 API 為:
 
