@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -22,8 +22,10 @@ source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 6 月 7 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增區段：「藍本：使用null檢查邏輯建立4x預設的Recommendations設計」。 |
+|  | [Adobe Target Standard 和 Premium 的訓練影片](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新Adobe Target教學課程網站的連結。 |
 |  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新文字和程式碼片段。 |
 |  | [訪客設定檔存留期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | 進行小幅文字編輯。 |
+|  | [測試電子郵件影像 Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | 進行小幅文字編輯。 |
 | 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新 `options > page` 參數的說明。 |
 |  | [管理員入門](/help/administrating-target/start-target.md) | 已更新整個文章。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target19.6.1版本的初步發行說明。 |
