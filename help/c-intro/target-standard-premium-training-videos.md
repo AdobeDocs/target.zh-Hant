@@ -8,7 +8,7 @@ title: Adobe Target Standard 和 Premium 的訓練影片
 topic: 進階
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -31,14 +31,14 @@ source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
 
 訓練影片內嵌於本指南中的相關主題內。按一下影片影像可播放影片而不離開說明。
 
-## Adobe Target-教學課程與影片
+## Adobe Target - 教學課程和影片
 
-[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 頁面提供說明Target功能的一系列操作說明影片和教學課程。
+一系列使用方法影片和教學課程，重點說明 [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 頁面上提供的 Target 功能。
 
-![Experience League影片](/help/c-intro/assets/experience-league.png)
+![Experience League 影片](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target教學課程
+## Adobe Target 教學課程 {#tutorials}
 
-[!DNL Target] Adobe [Target教學課程](https://helpx.adobe.com/target/tutorials.html) 頁面提供視訊簡介。
+[!DNL Target] Adobe [Target教學課程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) 頁面提供視訊簡介。
 
-![Adobe Target教學課程](/help/c-intro/assets/adobe-target-tutorials.png)
+![Adobe Target 教學課程](/help/c-intro/assets/adobe-target-tutorials-new.png)
