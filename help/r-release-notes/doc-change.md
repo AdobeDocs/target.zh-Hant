@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 6 月 7 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增區段：「藍本：使用null檢查邏輯建立4x預設的Recommendations設計」。 |
 | 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新 `options > page` 參數的說明。 |
 |  | [管理員入門](/help/administrating-target/start-target.md) | 已更新整個文章。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target19.6.1版本的初步發行說明。 |
