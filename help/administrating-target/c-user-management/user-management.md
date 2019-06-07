@@ -9,7 +9,7 @@ title: 使用者管理
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -22,6 +22,6 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 您可以區分您的組織具有的 Standard 或 Premium 授權，方法是按一下 Target UI 上方的[!UICONTROL 「設定」]連結。
 
-* **Target Standard 客戶:** 如果您看見[!UICONTROL 「使用者」]索引標籤 ([!UICONTROL 「設定」]&gt;[!UICONTROL 「使用者」])，則您的組織具備 Target Standard 授權。Target Standard 客戶應該遵循本主題中的指示，在 Adobe Admin Console 中新增使用者並指派權限。
-* **Target Premium 客戶:**如果您看到[!UICONTROL 「屬性」]標籤 (「[!UICONTROL 設定] &gt; [!UICONTROL 屬性]」)，表示您的組織有 Target Premium 授權。Target Premium 客戶應該遵循[企業使用者權限](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)和[設定企業權限](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)中的指示，在 Adobe Admin Console 中新增使用者並指派權限。
+* **Target Standard 客戶:** 如果您看見[!UICONTROL 「使用者」]索引標籤 ([!UICONTROL 「設定」]&gt;[!UICONTROL 「使用者」])，則您的組織具備 Target Standard 授權。Target Standard客戶應遵循 [「使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) 」中的指示，在「Adobe管理控制台」中新增使用者並指派權限。
+* **Target Premium 客戶:** 如果您看到[!UICONTROL 「屬性」]標籤 (「[!UICONTROL 設定] &gt; [!UICONTROL 屬性]」)，表示您的組織有 Target Premium 授權。Target Premium 客戶應該遵循[企業使用者權限](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)和[設定企業權限](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)中的指示，在 Adobe Admin Console 中新增使用者並指派權限。
 
