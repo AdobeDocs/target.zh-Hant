@@ -6,7 +6,7 @@ title: Adobe Target 產品文件
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
