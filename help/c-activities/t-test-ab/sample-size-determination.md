@@ -7,7 +7,7 @@ solution: Target
 title: A/B 測試該執行多久?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -40,7 +40,7 @@ Target 提供的工具可幫助確保您的活動有足夠的樣本大小，以�
 
 在設定A/B測試之前，請先存取Adobe Target [樣本大小計算機](https://docs.adobe.com/content/target-microsite/testcalculator.html)。
 
-![](assets/sample_size_calculator.png)
+![Adobe Target 樣本大小計算機](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 執行任何 A/B 測試之前必須決定足夠的樣本大小 (訪客數目)，以確定在評估結果之前應該允許測試執行的時間。如果只是監控測試直到達到統計顯著性，將會過份低估信賴區間，使測試變得不可靠。這意味著只要偵測到統計顯著結果，就停止測試並宣布獲勝者。但是，如果不是統計顯著的結果，則允許繼續測試。此程序非常偏袒正面結果，這會增加誤判率，因而扭曲測試的有效顯著水準。
 
