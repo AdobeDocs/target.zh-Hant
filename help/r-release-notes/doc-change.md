@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,9 +23,14 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 | --- | --- | --- |
 | 2019年月11日 | [活動建立](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已移除附註，表示您必須使用A4T才能指定追蹤伺服器。 |
 |  | [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 更新文字和影像。 |
+|  | A/B測試： [活動URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 更新文字和影像。 |
+|  | A/B測試： [選擇對象](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | 更新文字和影像。 |
+|  | A/B測試： [目標與設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | 更新文字和影像。 |
+|  | A/B測試： [設定度量](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | 更新文字和影像。 |
+|  | [A/B 測試中的多個體驗版本](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | 更新文字和影像。 |
 |  | [活動](/help/c-activities/activities.md) | 強調您無法還原已刪除的活動。作為最佳實務，您可以封存活動，以便在必要時取消封存。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 已移除限制，指出在at. js2.x中不完整支援Experience Cloud除錯程式。 |
-|  | [報表](/help/c-reports/reports.md) | 次要文字更新和新影像。 |
+|  | [報表](/help/c-reports/reports.md) | 更新文字和影像。 |
 | 2019 年 6 月 7 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增區段：「藍本：使用null檢查邏輯建立4x預設的Recommendations設計」。 |
 |  | [Adobe Target Standard 和 Premium 的訓練影片](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新Adobe Target教學課程網站的連結。 |
 |  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新文字和程式碼片段。 |
