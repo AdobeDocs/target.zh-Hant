@@ -8,7 +8,7 @@ title: 選取對象
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 81731916926250195b0f70124c8dad0912074e77
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,11 +23,13 @@ source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 在[!UICONTROL 「對象」]方塊中，按一下「編輯」圖示 (三個垂直的點)，然後按一下 **[!UICONTROL 「取代對象」]**。
 
-依預設，所有訪客皆為對象。但您可以變更對象。對象是從對象資料庫中選取，但您也可以建立僅限於此活動的對象。對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫中選取對象、[建立新對象](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)，或[建立僅限於此活動的對象](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。如果 A/B 測試沒有鎖定特定的目標對象，請選擇預設值:「所有訪客」。
+![取代對象選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+
+依預設，所有訪客皆為對象。但您可以變更對象。對象是從對象資料庫中選取，但您也可以建立僅限於此活動的對象。對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫中選取對象、 [建立新觀眾](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)，或 [建立僅限活動的對象](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。如果 A/B 測試沒有鎖定特定的目標對象，請選擇預設值:「所有訪客」。
 
 請注意，您也可以在[!UICONTROL 「選擇對象」]對話方塊中暫留在所需的對象上，以編輯或複製對象，如下所示。如果想要建立一個類似現有對象的對象，則複製對象就很有用。您可以複製對象、進行編輯，然後儲存為新對象。其他活動類型也支援此暫留功能。
 
-![](assets/audience_picker_hover.png)
+![觀眾停留](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
 建立觀眾時，您可以選取位置 (mbox) 並指定該位置的參數。在「自訂參數」下，選取 mbox，然後指定需要的參數。
 
