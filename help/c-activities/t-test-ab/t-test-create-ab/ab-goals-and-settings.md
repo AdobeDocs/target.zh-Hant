@@ -7,7 +7,7 @@ title: 目標與設定
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 
-可用的設定視您使用 Target 或 Analytics 做為資料來源而定。
+可用的設定取決於您使用Target或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) 做為資料來源。
 
-![](assets/ab_settings.png)
+![活動設定對話方塊](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## 活動設定 {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -41,16 +41,19 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 進階設定可供 A/B 測試目標度量使用。
 
-![](assets/Menu_AdvancedSettings.png)
+![進階設定功能表](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >如果您使用 Adobe Analytics 作為您的報表來源，則設定是由 Analytics 伺服器管理。進階設定選項將無法使用。
 
+![進階設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | 設定 | 說明 |
 |--- |--- |
 | 遞增此量度時，應達到什麼成功量度? | 使用此選項之後，僅在某人先前達成不同的成功量度時，才將其視為達成成功量度。例如，測試轉換可能只有在轉換之前訪客點擊了選件，或是達到特定頁面時才有效。系統提供您多個量度上的相依性，且具有彈性可選擇量度應為達到或未達到時計數才會增加。您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。「新增相依性」選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。若要新增相依性:<ul><li>新增其他量度後，按一下「進階設定」。</li><li>按一下「新增相依性」選項:</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下「達到」來將設定在「達到」與「未達到」之間切換。</li><li>您可以在新增相依性之後加以編輯或移除。</li></ul> |
 | 使用者達到此目標量度後會發生什麼事? | 有三個選項可控制訪客達到目標量度後會發生什麼事:<ul><li>選取「增加計數以及讓使用者留在活動中」以指定計數的增加方式。</li><li>選取「增加計數、釋出使用者以及允許重新進入」以指定如果使用者重新進入活動，使用者會看見的體驗。</li><li>選取「增加計數、釋出使用者以及禁止重新進入」以指定使用者會看見的內容，而非活動內容。</li></ul> |
+| 計數將如何增加? | 計算計數有三個選項：<ul><li>每一個 Entrant 一次</li><li>在每次曝光時(排除頁面refre)</li><li>在每次曝光時</li></ul> |
 
 請參閱[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。
 
@@ -83,4 +86,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 在 Adobe Target 中建立 A/B 活動
 * 使用手動分割或自動流量分配來分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hant)
