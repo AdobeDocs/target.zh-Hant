@@ -8,7 +8,7 @@ title: A/B 測試中的多個體驗版本
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -37,9 +37,9 @@ source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
 
 1. 選取體驗，然後按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 對象]** &gt; **[!UICONTROL 多對象]**」。
 
-   ![](assets/multiple-audiences.png)
+   ![多對象選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. 按一下**[!UICONTROL 「新增對象」]**，然後選取您要鎖定的第一個對象。對每個對象重複。
+1. 按一下 **[!UICONTROL 「新增對象」]**，然後選取您要鎖定的第一個對象。對每個對象重複。
 
    ![](assets/exp-versions.png)
 
