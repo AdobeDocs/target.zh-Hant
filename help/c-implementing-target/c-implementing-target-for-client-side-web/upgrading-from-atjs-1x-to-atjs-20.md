@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: 從 at.js 1.x 升級為 at.js 2.x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -221,12 +221,6 @@ at.js 2.x 已棄用多個函數。
 **若某些頁面上具有 at.js 1.*x*或 mbox.js，可以在不同頁面上使用 at.js 2.x 嗎?**
 
 可以，使用不同版本和資料庫的頁面中會保留訪客設定檔。Cookie 格式相同。
-
-**at.js 2.x 尚未完全支援 Adobe Experience Cloud Debugger**
-
-at.js 2.x 支援 [!DNL Adobe Experience Cloud Debugger] [!UICONROL 摘要標籤]功能和[!UICONTROL 停用與控制台記錄]工具，但是不支援網路要求和 mboxTrace。
-
-這是因為在 at.js 2.x 中，會傳送 JSON 裝載而非機碼值組。若要檢查 [!DNL Target] 要求，請將瀏覽器上「開發人員工具」的[!UICONTROL 「網路」]索引標籤篩選為「傳送」、「`tt.omtrdc.net`」或您的用戶端代碼。您仍可使用查詢字串參數和授權 Token 來檢查追蹤資料。如需詳細資訊，請參閱 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md)。
 
 **at.js 2.x 使用的新 API**
 
