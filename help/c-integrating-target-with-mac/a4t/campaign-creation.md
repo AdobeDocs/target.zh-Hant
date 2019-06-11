@@ -8,7 +8,7 @@ title: 活動建立
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -21,14 +21,14 @@ source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
 
 建立使用 Analytics 作為報表來源的 Target Standard 活動與設定一般的 Target Standard 活動類似，但有一些差異。例如，在建立活動時您無法選取報表的區段，因為檢視報表時可以套用 Analytics 中可用的所有區段。
 
-1. 按一下**[!UICONTROL 「建立活動」]**。
+1. 按一下 **[!UICONTROL 「建立活動」]**。
 
    >[!NOTE]
    >
    >如果使用 Analytics 作為報表來源，活動名稱不能包含「%」字元。
 
 1. 選取活動類型並開始設定活動。
-1. 進入活動建立流程的**[!UICONTROL 「設定」]**部分時，請選擇**[!UICONTROL 「Adobe Analytics」]**並指定您的公司。
+1. 進入活動建立流程的 **[!UICONTROL 「設定」]** 部分時，請選擇 **[!UICONTROL 「Adobe Analytics」]** 並指定您的公司。
 1. 選擇一個報表套裝。
 
    您可以選擇 Adobe Analytics 中可供您使用的任何報表套裝。報表套裝會定義所收集的資料將可供使用的位置。報表套裝清單中未包括虛擬報表套裝。
@@ -45,10 +45,6 @@ source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
 1. 指定您的追蹤伺服器。
 
    請參閱[使用 Analytics 追蹤伺服器](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
-
-   >[!NOTE]
-   >
-   >如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。mbox.js 或 at.js 資料庫會自動傳送追蹤伺服器值至 [!DNL Target]。在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
 1. 定義體驗。
 1. 指定活動目標。
@@ -67,5 +63,5 @@ source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
    >
    >在設定 Analytics 作為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。在 Target 活動報表可以取得 Analytics 區段。
 
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
