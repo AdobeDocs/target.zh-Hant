@@ -8,7 +8,7 @@ title: 選取對象
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 >
 >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-在[!UICONTROL 「對象」]方塊中，按一下「編輯」圖示 (三個垂直的點)，然後按一下**[!UICONTROL 「取代對象」]**。
+在[!UICONTROL 「對象」]方塊中，按一下「編輯」圖示 (三個垂直的點)，然後按一下 **[!UICONTROL 「取代對象」]**。
 
 依預設，所有訪客皆為對象。但您可以變更對象。對象是從對象資料庫中選取，但您也可以建立僅限於此活動的對象。對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫中選取對象、[建立新對象](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)，或[建立僅限於此活動的對象](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。如果 A/B 測試沒有鎖定特定的目標對象，請選擇預設值:「所有訪客」。
 
@@ -39,9 +39,9 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 您可以指定要加入活動中的合格訪客百分比。例如，您可以選擇包含所有訪客的 50%。
 
-![](assets/audperc.png)
+![讀者百分比](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-您也可以選擇讓 Target[自動分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+您也可以選擇讓Target [自動分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
 ## 訓練影片
 
@@ -57,7 +57,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 將活動鎖定至對象
 * 對活動中的被動報表使用對象
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=chi_hant)
 
 ### 活動工作流程 - 鎖定目標 (2:14)
 
@@ -68,6 +68,6 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hant)
 
 如需詳細資訊，請參閱[對象](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
