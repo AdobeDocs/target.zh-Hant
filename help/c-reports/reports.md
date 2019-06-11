@@ -1,7 +1,7 @@
 ---
 description: 報表提供關於活動效能的資訊。
 keywords: 報表;封鎖 ip 位址;根據 ip 位址封鎖訪客;下載報表;csv
-seo-description: 報表提供有關活動效能的資訊
+seo-description: 報表提供關於活動效能的資訊
 seo-title: 報表
 solution: Target
 subtopic: 多變數測試
@@ -9,7 +9,7 @@ title: 報表
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 >[!NOTE]
 >
->您可封鎖來自特定 IP 位址的訪客，不計算在報表中。請聯絡 Client Care 以設定 IP 過濾器。此篩選在使用 [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) 作為報表來源時不適用。
+>您可封鎖來自特定 IP 位址的訪客，不計算在報表中。請聯絡 Client Care 以設定 IP 過濾器。此篩選在使用[Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) 作為報表來源時不適用。
 
 ## 特定活動類型的報表資訊 {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -36,27 +36,26 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ## 顯示報表 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
-1. 按一下**[!UICONTROL 「活動」]**，然後從清單按一下需要的活動。
+1. 按一下 **[!UICONTROL 「活動」]**，然後從清單按一下需要的活動。
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
    例如，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「A/B 測試」]和[!UICONTROL 「體驗鎖定目標」]，並從[!UICONTROL 「狀態」]下拉式清單中選取[!UICONTROL 「上線」]，即可只顯示處於使用中狀態的 A/B 測試和「體驗鎖定目標」活動。
 
-   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型:
+   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型:A/B測試與體驗定位。請注意，預設會選取三種A/B測試(手動、 [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和 [自動Target](/help/c-activities/auto-target-to-optimize.md))類型。您可以視需要取消選取一或多個類型。
 
-   ![](assets/report_filters.png)
+   ![依類型篩選報表](/help/c-reports/assets/report_filters-new.png)
 
-1. 按一下**[!UICONTROL 「報表」]標籤。**
+1. 按一下 **[!UICONTROL 「報表」]標籤。**
 
    每一個報表都包含圖例來協助您瞭解報表。
 
-   ![](assets/report_menu_bar.png)
+   ![報表圖例](/help/c-reports/assets/report_menu_bar-new.png)
 
    圖例會顯示下列資訊:
 
    * 活動狀態，包括活動執行的日期範圍。
-   * 預測的勝出體驗。
-   * 活動的來源，例如 [!DNL Adobe Target] 或 [!DNL Adobe Target Classic]。
+   * 預計的成功體驗(若有的話)。
    >[!NOTE]
    >
    >至少有一個加入者看過體驗之後，體驗結果才會出現。
@@ -69,6 +68,6 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
    * [!UICONTROL 匯出報表至 CSV]
    * [!UICONTROL 匯出訂單詳細資料至 CSV]
 
-1. (可選) 按一下**[!UICONTROL 「表格檢視」]**和**「圖表檢視」]圖示，以切換報表格式。[!UICONTROL **
+1. (可選) 按一下 **[!UICONTROL 「表格檢視」]** 和 **「圖表檢視」]圖示，以切換報表格式。[!UICONTROL **
 
-   僅限「多變數」測試，按一下**[!UICONTROL 「位置貢獻」]** (![「位置貢獻」圖示](assets/icon_location_contribution.png)) 圖示，將報表切換為依位置來顯示貢獻。
+   僅限「多變數」測試，按一下 **[!UICONTROL 「位置貢獻」]** (![「位置貢獻」圖示](assets/icon_location_contribution.png)) 圖示，將報表切換為依位置來顯示貢獻。
