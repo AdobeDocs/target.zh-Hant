@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月12日 | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 更新文字和影像。 |
+|  | [Adobe Target 如何運作](/help/c-intro/how-target-works.md) | 已新增有關在中國使用Target的重要附註。 |
 | 2019年月11日 | [活動建立](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已移除附註，表示您必須使用A4T才能指定追蹤伺服器。 |
 |  | [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 更新文字和影像。 |
 |  | A/B測試： [活動URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 更新文字和影像。 |
