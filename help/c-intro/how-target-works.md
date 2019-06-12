@@ -9,16 +9,16 @@ title: Adobe Target 如何運作
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # Adobe Target 如何運作{#how-adobe-target-works}
 
-關於Adobe Target如何運作的資訊，包括Target JavaScript程式庫(at. js和mbox. js)以及Target中各種活動類型的相關資訊。
+有關 Adobe Target 如何運作的資訊，包括 Target JavaScript 資料庫 (at.js and mbox.js) 以及 Target 中包含的各種活動類型的相關資訊。
 
-## Target JavaScript程式庫 {#libraries}
+## Target JavaScript 資料庫 {#libraries}
 
 Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 mbox.js
 
@@ -27,7 +27,7 @@ Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 
 
 >[!IMPORTANT]
 >
->所有客戶應該移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>所有客戶應該移轉至 at.js。如需詳細資訊，請參閱 [從mbox. js移轉至. js。](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
 您必須在網站的每個頁面上參照任一 Target JavaScript 檔案。例如，您可以將此檔案新增至全域標頭。
 
@@ -105,6 +105,10 @@ Adobe 目前在幾個大洲上皆有資料中心，涵蓋多個區域位置，�
 不是由單一位置回應所有鎖定目標請求，而是由最靠近請求點的 Edge 環境來回應請求，可減輕網路/網際網路行經時間的影響。
 
 網路也充當容錯移轉機制。如果一個 Edge 節點失去作用，請求會被重新導向至下一個最靠近的節點，確保不讓使用者得到預設內容 (當無法完成請求時，發生的典型備份回應)。
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。由於「Great Firewall」(很棒的防火牆)以及國家/地區的Edge節點不足， [!DNL Target] 已部署的網站體驗將會緩慢，而頁面載入也會受到影響。此外 [!DNL Target] ，使用者介面也可能會發生延遲。
 
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
