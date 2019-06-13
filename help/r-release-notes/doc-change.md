@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 | --- | --- | --- |
 | 2019年月12日 | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 更新文字和影像。 |
 |  | [Adobe Target 如何運作](/help/c-intro/how-target-works.md) | 已新增有關在中國使用Target的重要附註。 |
+|  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 從「Target Standard/Premium介面」區段移除Microsoft Internet Explorer11(IE11)。Target不再支援或維護IE11的相容性。此變更僅影響Target UI。內容傳遞不受影響。此項變更會遵循Adobe Analytics、Adobe Experience Platform和Adobe Audience Manager的類似公告。建議使用者切換至支援的瀏覽器。 |
 | 2019年月11日 | [活動建立](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已移除附註，表示您必須使用A4T才能指定追蹤伺服器。 |
 |  | [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 更新文字和影像。 |
 |  | A/B測試： [活動URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 更新文字和影像。 |
