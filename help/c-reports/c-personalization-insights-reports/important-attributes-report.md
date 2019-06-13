@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
 translation-type: tm+mt
-source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
 
 ## 存取「重要屬性」報表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下**[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
+1. 按一下 **[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
-1. 按一下**[!UICONTROL 「報表」]**。
+1. 按一下 **[!UICONTROL 「報表」]**。
 
    隨即顯示[!UICONTROL 「摘要」]報表，該報表提供活動績效的相關資訊，由第一個螢幕圖示表示。另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
@@ -41,7 +41,7 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
    >
    >[!UICONTROL 您啟動活動後的至少 15 天內，將無法使用「重要屬性」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「重要屬性」]圖示。15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「重要屬性」]報表。
 
-1. 啟動活動 15 天後，即可點擊**[!UICONTROL 「重要屬性」]圖示。**
+1. 啟動活動 15 天後，即可點擊 **[!UICONTROL 「重要屬性」]圖示。**
 
    ![](assets/model_attribute_ranking.png)
 
@@ -79,10 +79,10 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
 
 **「個人化前瞻分析」報表尚不適用於我的活動。是什麼原因?**
 
-[!UICONTROL 「個人化前瞻分析] 」報表可能尚未適用於您的活動的幾個原因：
+尚未針對您的活動提供[!UICONTROL 個人化前瞻分析]報表的數個可能原因如下:
 
 * 自您啟動活動以來，還不到 15 天。「自動化區段」和「重要屬性」報表在開始活動後至少 15 天內無法使用。在初始期間，您將無法存取這些報表，或點擊「自動化區段」和「重要屬性」圖示。
-* 您的活動在指定的時間範圍內沒有足夠的流量。15天後，假設您的活動中有 [足夠的個人化流量](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) 建立個人化模型，則可使用「自動化區段」和「重要屬性」報表。
+* 您的活動在指定的時間範圍內沒有足夠的流量。15 天過後，假設您的活動中有[足夠的個人化流量](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)以建立個人化模型，即可使用自動化區段和重要屬性報表。
 * 您的活動有收入最佳化目標。目前，[!UICONTROL 「個人化前瞻分析」]僅適用於轉換最佳化目標活動。我們將在未來的版本中新增對收入最佳化目標活動的支援。
 
 **屬性是什麼?**
@@ -110,6 +110,18 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
 **「重要屬性」報表中的屬性重要性分數是多少?**
 
 當演算法判斷如何將所有訪客分成它識別的區段時，報表的「屬性重要性排名」部分中的重要性分數可提供演算法用於學習之最重要的變數輸入。它為模型使用的 100 個屬性指派百分比分數。
+
+**與某些自動化區段的其他選件/體驗相比，為什麼某些具有較低轉換率的選件/體驗接收到較大量的流量?**
+
+您可能會在自動化區段中看到較低轉換率選件/體驗的瀏覽次數有幾個可能的原因，包括：
+
+* 針對某些自動化區段之部分或全部選件/體驗的少量檢視。
+* 特定選件或體驗未建立的較低數量活動。
+* 較低數量的活動，在某些選件/體驗比其他選件更早建立了模型。例如，假設其他模型是建立在22日，而您正在查看來自10-24日的資料。
+* 針對特定選件的定位規則，限制哪些訪客可以查看哪些選件/體驗。
+* 分析報告中沒有信賴區間。但是，如果轉換率夠接近，模型可能會提供流量，使其在點數金額中更高，但並不是「統計不同」數字。
+
+瞭解模型如何運作的模型可以有幫助。每個個別都是根據個人個人檔案的個人檔案而提供。不過，「前瞻分析」報表會將此行為一般化，讓人類更容易解讀。因此，區段並非互斥。這可能會導致個別區段顯示這種行為類型，因為同一個人可以出現在多個區段中。
 
 **有哪些不同的方法可以利用「個人化前瞻分析」中的資訊?**
 
