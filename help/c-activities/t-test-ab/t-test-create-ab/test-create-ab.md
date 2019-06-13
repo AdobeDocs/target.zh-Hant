@@ -8,7 +8,7 @@ title: 建立 A/B 測試
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
    >[!NOTE]
    >
-   >除了CMS和表單型CMS以外，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種VECS的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
+   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
 
    如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。
 
