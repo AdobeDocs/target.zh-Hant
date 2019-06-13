@@ -8,7 +8,7 @@ title: 決定獲勝者
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 使用[!UICONTROL 自動分配]功能時，在活動達到最低轉換次數且有足夠信賴度之前，[!DNL Target] 會在活動頁面頂端顯示徽章，指出「尚未有贏家」。
 
-![](assets/auto_traffic_no_winner.png)
+![無贏家徽章](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 宣告明確的獲勝者時，[!DNL Target] 會顯示「獲勝者: 體驗 X」。
 
