@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 6 月 13 日 | [建立自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字和影像。 |
+|  | [預估成功所需的流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 已新增影像。 |
+|  | [可視化體驗撰寫器中自動個人化的預覽體驗](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | 更新文字和影像。 |
+|  | [鎖定自動個人化選件](/help/c-activities/t-automated-personalization/ap-target-offers.md) | 更新文字和影像。 |
 | 2019年月12日 | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 更新文字和影像。 |
 |  | [Adobe Target 如何運作](/help/c-intro/how-target-works.md) | 已新增有關在中國使用Target的重要附註。 |
 |  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 從「Target Standard/Premium介面」區段移除Microsoft Internet Explorer11(IE11)。Target不再支援或維護IE11的相容性。此變更僅影響Target UI。內容傳遞不受影響。此項變更會遵循Adobe Analytics、Adobe Experience Platform和Adobe Audience Manager的類似公告。建議使用者切換至支援的瀏覽器。 |
