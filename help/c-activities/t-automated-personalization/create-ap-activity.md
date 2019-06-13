@@ -10,7 +10,7 @@ topic: 進階
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 1. 若要使用可視化體驗撰寫器 (VEC)，請按一下 **[!UICONTROL 「視覺 (預設)」]**。
 
    如果您偏好使用表單式體驗撰寫器，請選取 **[!UICONTROL 「表單」]**。如需關於這兩種撰寫器的詳細資訊，請參閱[體驗](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+
+   >[!NOTE]
+   >
+   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
 
 1. 驗證或輸入活動 URL，然後按一下 **[!UICONTROL 「下一步」]**。
 
