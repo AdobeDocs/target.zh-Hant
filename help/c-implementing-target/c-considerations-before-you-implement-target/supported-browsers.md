@@ -9,7 +9,7 @@ title: 受支援的瀏覽器
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -20,16 +20,16 @@ source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
 
 如需 TLS 的其他重要資訊，請參閱 [TLS (傳輸層安全性) 加密變更](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
-## [!DNL Target] Standard/Premium 介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Standard/Premium介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 [!DNL Target] Standard/Premium 介面支援下列瀏覽器和裝置:
 
 | 裝置類型 | 瀏覽器版本 |
 |--- |--- |
-| Windows | <ul><li>Microsoft Internet Explorer 11。<br>**注意**: [!DNL Target] 與 Adobe Marketing Cloud 將於 2019 年 3 月起停止支援 Microsoft Internet Explorer 11。這項變更只會影響 [!DNL Target] 編寫，不影響體驗傳送。請改用 Microsoft Edge 或其他支援的瀏覽器。</li><li>Microsoft Edge</li><li>Google Chrome (最新版本、最新版本減 1)</li><li>Mozilla Firefox (最新版本、最新版本減 1)</li></ul> |
+| Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (最新版本、最新版本減 1)</li><li>Mozilla Firefox (最新版本、最新版本減 1)</li></ul> |
 | Mac | <ul><li>Firefox (最新版本、最新版本減 1)</li><li>Chrome (最新版本、最新版本減 1)</li></ul> |
 
-## 內容傳送 {#section_1045A946056441268D40025529918D3D}
+## 內容傳遞 {#section_1045A946056441268D40025529918D3D}
 
 內容傳送已對下列瀏覽器和裝置進行測試:
 
