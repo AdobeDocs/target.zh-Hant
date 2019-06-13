@@ -8,7 +8,7 @@ title: AEM 體驗片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM 會自動根據您的內容來調整每一次體驗。
 
-Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。透過 Target，您可以輕鬆地設定和執行 A/B 及多變數 (MVT) 活動，以決定最佳選件、內容和體驗。
+Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。  透過 Target，您可以輕鬆地設定和執行 A/B 及多變數 (MVT) 活動，以決定最佳選件、內容和體驗。
 
 體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。
 
@@ -90,7 +90,7 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 2. 在隨即顯示的對話方塊中，選取[!UICONTROL 「發佈」]，即可將體驗片段內的所有資產發佈至 [!DNL Target]。
 
-## 在 Target 活動中使用體驗片段 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## 在Target活動中使用體驗片段 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 執行先前的工作之後，體驗片段會顯示在 Target 的[!UICONTROL 「選件」]頁面中。
 
@@ -114,7 +114,7 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 **使用 VEC 來取用體驗片段:**
 
-1. 在 Target 中，建立或編輯體驗時[可視化體驗撰寫器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取**[!UICONTROL 「交換體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
+1. 在 Target 中，建立或編輯體驗時[可視化體驗撰寫器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取 **[!UICONTROL 「交換體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
 
    >[!NOTE]
    >
@@ -124,7 +124,7 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
    ![](assets/experience_fragment_list.png)
 
-1. 選取需要的體驗片段，然後按一下**[!UICONTROL 「儲存」]**。
+1. 選取需要的體驗片段，然後按一下 **[!UICONTROL 「儲存」]**。
 1. 完成活動的設定。
 
    如需有關設定各種活動類型的詳細資訊，請參閱下列主題:
@@ -139,13 +139,13 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 **使用表單式體驗撰寫器來取用體驗片段:**
 
-1. 在 Target 中，建立或編輯體驗時[表單式體驗撰寫器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取**[!UICONTROL 「變更體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
+1. 在 Target 中，建立或編輯體驗時[表單式體驗撰寫器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取 **[!UICONTROL 「變更體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
 
    ![](assets/experience_fragment_list.png)
 
    顯示 AEM 中所建立所有內容的[!UICONTROL 體驗片段]清單，現在已可從 Target 內取得原生清單。
 
-1. 選取需要的體驗片段，然後按一下**[!UICONTROL 「儲存」]**。
+1. 選取需要的體驗片段，然後按一下 **[!UICONTROL 「儲存」]**。
 1. 完成活動的設定。
 
 ## 訓練影片: 將 AEM 體驗片段用於 Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
