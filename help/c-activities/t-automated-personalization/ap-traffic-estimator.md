@@ -9,7 +9,7 @@ topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -24,9 +24,11 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 請記住，Target 會隨機提供體驗，直到建立個人化演算法為止。當選件的模型就緒時每個選件旁的勾選記號圖示會顯示，並且 Target 可以開始傳送個人化的內容因為僅能在模型就緒之後預期提升度，視覺說明可讓您設定正確的預期。使用可視化體驗撰寫器 (VEC) 中的流量估算程式來取得模型何時會就緒的指導方針。
 
-1. 在體驗撰寫器中，按一下**[!UICONTROL 「流量」]**。
+1. 在體驗撰寫器中，按一下 **[!UICONTROL 「流量」]**。
 
-   流量估算程式隨即開啟。您可以再次按一下**[!UICONTROL 「流量」]來隱藏流量估算程式。**
+   ![流量圖示](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
+
+   流量估算程式隨即開啟。您可以再次按一下 **[!UICONTROL 「流量」]來隱藏流量估算程式。**
 
    ![](assets/ap_est.png)
 
