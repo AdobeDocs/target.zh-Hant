@@ -1,20 +1,20 @@
 ---
-description: 在自動個人化 (AP) 活動中管理排除群組和重複選件。
+description: 建立排除群組、排除重復選件、排除特定體驗，以及排除「自動個人化」(AP)活動中的預設內容，以管理排除。
 keywords: 刪除重複資料;允許重複項目;排除重複選件;自動個人化;不允許重複選件
-seo-description: 在自動個人化 (AP) 活動中管理排除群組和重複選件。
+seo-description: 透過建立排除群組、排除重復選件、排除特定體驗，以及排除Adobe Target Automated Personalization(AP)活動中的預設內容，來管理排除。
 seo-title: 管理排除項目
 solution: Target、Analytics
 title: 管理排除項目
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
 
-# 管理排除項目{#manage-exclusions}
+# ![Premium徽章](/help/assets/premium.png) 管理排除{#manage-exclusions}
 
-在自動個人化 (AP) 活動中管理排除群組和重複選件。
+建立排除群組、排除重復選件、排除特定體驗，以及排除「自動個人化」(AP)活動中的預設內容，以管理排除。
 
 ## 建立排除群組 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -26,15 +26,19 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 **若要建立排除群組:**
 
-1. 在建立或編輯 AP 活動時，按一下標頭列中的**[!UICONTROL 「管理內容」]**。
-1. 在[!UICONTROL 「管理內容」]對話方塊中，按一下**[!UICONTROL 「排除群組」]**。
+1. [建立或編輯AP活動](/help/c-activities/t-automated-personalization/create-ap-activity.md)時，按一下 **[!UICONTROL 標題列中的「管理內容]** 」。
 
-   ![步驟結果](assets/exclusion_group_create.png)
+   ![管理內容連結](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+
+1. 在[!UICONTROL 「管理內容」]對話方塊中，按一下 **[!UICONTROL 「排除群組」]**。
+
+   ![「管理內容&gt;排除群組」對話方塊](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    如果您先前已建立排除群組，則會出現在清單中。如果您尚未建立排除群組，則會提示您建立。
-1. 按一下**[!UICONTROL 「建立排除群組」]**。
 
-   ![步驟結果](assets/exclusion_group_create_dialog.png)
+1. 按一下 **[!UICONTROL 「建立排除群組」]**。
+
+   ![建立排除群組對話方塊](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
 1. (必要) 指定排除群組的描述性名稱。
 
@@ -44,27 +48,29 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
    您可以從排除群組的相同位置中選取多個選件。
 
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 排除群組中的選件將來會自動從相同的體驗中排除。
 
-## 排除重複選件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## 排除重復選件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 防止來自選件資料庫的選件在[!UICONTROL 自動個人化]活動中的不同位置重複使用。
 
 例如，您可能在有 12 個選件的六個位置頁面上有一個活動。相同選件有可能放入活動中的一或多個位置。此功能可防止重複選件同時顯示在相同活動內的不同位置。
 
-按一下**[!UICONTROL 「設定]** &gt; **[!UICONTROL 重複選件」]**，然後按一下**[!UICONTROL 「允許重複項目」]**或**[!UICONTROL 「不允許重複項目」]**。
+按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 重複選件」]**，然後按一下 **[!UICONTROL 「允許重複項目」]** 或 **[!UICONTROL 「不允許重複項目」]**。
 
-![](assets/duplicate_offers.png)
+![複製選件選項](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## 排除特定的體驗 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## 排除特定體驗 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
 如果您要從您的自動個人化活動中排除某些選件組合，請排除特定體驗。
 
 特定的組合可能無法一起運作，或您可能限制測量的體驗數目，以降低活動的流量需求。
 
-1. 在建立或編輯 AP 活動時，按一下標頭列中的**「管理內容」**。
+1. [建立或編輯AP活動](/help/c-activities/t-automated-personalization/create-ap-activity.md)時，按一下 **標題列中的「管理內容** 」。
+
+   ![管理內容連結](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    [!UICONTROL 「體驗」]清單顯示從所有內容和位置選項的排列中產生的每一個體驗。
 
@@ -72,44 +78,44 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
    您可以暫留在所需的體驗上，然後按一下排除圖示，以排除特定的體驗。
 
-   ![](assets/exclude_exp_1.png)
+   ![透過停留排除體驗](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   或者，您可以選取相關體驗的核取方塊，然後按一下對話方塊右上角的**「排除」**按鈕，以分批排除/包含體驗。勾選一或多個體驗時，「排除」按鈕就會出現。
+   或者，您可以選取相關體驗的核取方塊，然後按一下對話方塊右上角的 **[UICONTROL排除]** 圖示，以批次排除/包含體驗。勾選一或多個體驗時，會顯示「 [!UICONTROL 排除] 」圖示。
 
-   ![](assets/exclude_exp_2.png)
+   ![批次排除體驗](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
    您可以按一下[!UICONTROL 「狀態」]下拉式清單，以篩選此清單檢視，而只看到已排除或已包含的活動。
 
    體驗現在會從活動中排除，而其[!UICONTROL 「狀態」]會顯示為[!UICONTROL 「已排除」]。
 
-   ![](assets/exclude_exp_3.png)
+   ![排除的體驗](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
 ## 排除預設內容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-在某些情況下，您可能不想要隨著自動個人化活動納入您的預設內容。您存取此設定的方式與建立排除群組不同。您可以使用此方法以在一個位置中只有一個選件 (與您的預設內容不同) 做為自動個人化活動的一部分。
+在某些情況下，您可能不想要隨著自動個人化活動納入您的預設內容。您存取此設定的方式與建立排除群組不同。您可以在AP活動中使用此方法，在位置中只有一個選件(不同於預設內容)。
 
-排除預設內容可有效地變更頁面其餘部分的外觀與操作方式，以適合您在「自動個人化」活動中所測試的選件。例如，假設您想要符合所測試之選件的色板，則可以變更頁面的背景顏色，並排除預設背景顏色。
+排除預設內容是變更頁面其餘部分外觀和感覺的絕佳方式，以配合您使用AP活動測試的選件。例如，假設您想要符合所測試之選件的色板，則可以變更頁面的背景顏色，並排除預設背景顏色。
 
 **若要使用可視化體驗撰寫器 (VEC) 來排除預設內容:**
 
-1. 在建立或編輯 AP 活動時，選取您要取代的內容，然後按一下以存取**[!UICONTROL 「變更文字/HTML」]**、**[!UICONTROL 「變更影像」]**或**[!UICONTROL 「變更背景顏色」]**。
-1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的**「包含」**(或在「選取內容」畫面中取消勾選「預設影像/影片」)。
+1. [建立或編輯AP活動](/help/c-activities/t-automated-personalization/create-ap-activity.md)時，選取您要取代的內容，然後按一下以存取 **[!UICONTROL 「變更文字/HTML]**」、 **[!UICONTROL 「變更影像]**」或 **[!UICONTROL 「變更背景顏色]**」。
+1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的 **「包含」** (或在「選取內容」畫面中取消勾選「預設影像/影片」)。
 
    視內容/選件類型而定，[!UICONTROL 「包含」]核取方塊的位置會稍微不同。
 
    針對文字/HTML 內容:
 
-   ![](assets/exclude_content_vec_1.png)
+   ![「編輯文字/HTML」對話方塊中的「包含」核取方塊](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
    針對影像/影片內容:
 
-   ![](assets/exclude_content_vec_2.png)
+   ![「選取內容」對話方塊中的「包含」核取方塊](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
    背景顏彩:
 
-   ![](assets/exclude_content_vec_3.png)
+   ![「編輯背景顏色」對話框中的「包含」核取方塊](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
    您可以在[!UICONTROL 「管理內容」]下看到透過您指定的選件建立的體驗。您將注意到，使用您排除的預設選件時不會在[!UICONTROL 管理內容]中建立任何體驗。
 
@@ -117,8 +123,8 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 **若要使用表單式體驗撰寫器來排除預設內容:**
 
-1. 在建立或編輯 AP 活動時，按一下**[!UICONTROL 「內容」]**下的**[!UICONTROL 「變更文字/HTML」]**或**[!UICONTROL 「變更影像選件」]**。
-1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的**[!UICONTROL 「包含」](或在「選取內容」畫面中取消勾選「預設影像/影片」)。**
+1. 在建立或編輯 AP 活動時，按一下 **[!UICONTROL 「內容」]** 下的 **[!UICONTROL 「變更文字/HTML」]** 或 **[!UICONTROL 「變更影像選件」]**。
+1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的 **[!UICONTROL 「包含」](或在「選取內容」畫面中取消勾選「預設影像/影片」)。**
 
    視內容/選件類型而定，「包含」核取方塊的位置會稍微不同。
 
@@ -130,7 +136,7 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
    ![](assets/exclude_content_form_2.png)
 
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
    您可以在[!UICONTROL 「管理內容」]下看到透過您指定的選件建立的體驗。您將注意到，使用您排除的預設選件時不會在[!UICONTROL 管理內容]中建立任何體驗。
 
