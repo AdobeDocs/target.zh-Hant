@@ -1,90 +1,100 @@
 ---
-description: 體驗撰寫器提供用於編輯您的頁面上體驗的視覺介面。
+description: Visual Experience Composer(CMS)提供編輯頁面上體驗的視覺化介面。
 keywords: 建立體驗; 體驗建立; 優先順序; 對象; 體驗; 可視化體驗撰寫器
-seo-description: 體驗撰寫器提供用於編輯您的頁面上體驗的視覺介面。
+seo-description: Adobe Target Visual Experience Composer(CMS)提供了編輯網頁體驗的視覺化介面。
 seo-title: 建立體驗
 solution: Target
 title: 建立體驗
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
 
-# 建立體驗{#create-experience}
+# 創造體驗{#create-experience}
 
-體驗撰寫器提供用於編輯您的頁面上體驗的視覺介面。
-
-如需關於體驗的其他詳細資料，請參閱[體驗](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
-
-1. 按一下**[!UICONTROL 「新增體驗」]**。
-
-   >[!NOTE]
-   >
-   >如果您要將體驗鎖定到某個對象，則必須先選取對象，才可以新增體驗。系統會出現訊息以提醒您選擇對象。
-
-1. 出現提示時，輸入活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下**[!UICONTROL 「繼續」]**。
-
-   體驗撰寫器 (請參閱[體驗](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) 會開啟在您的帳戶偏好設定中指定的頁面。若要顯示不同的頁面，請按一下「全域」圖示，接著在體驗撰寫器的「選取 URL」方塊中輸入 URL，然後按一下**[!UICONTROL 「繼續」]**。如果您輸入的網站 URL 不包括 Target Standard JavaScript 程式碼，則無法選取頁面元素。
-
-   依預設，可視化體驗撰寫器不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。如果您要能夠使用可視化體驗撰寫器來更改這些元素，則可以選擇停用 JavaScript。
-
-   >[!NOTE]
-   >
-   >如果您在對一或多個體驗的頁面進行變更之後變更 URL，則體驗會使用新頁面進行重設，而您所進行的變更會遺失。
+Visual Experience Composer(CMS)提供一個視覺化介面，用於編輯您在「體驗鎖定(XT)」活動中頁面上的體驗。
 
 1. 選取您要變更的元素，並進行需要的變更。
 
-   將游標移至頁面上的元素時，元素會強調顯示。任何強調顯示的元素可以使用體驗撰寫器加以更改。
+   [建立XT活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三部分引導式工作流程(體驗)之一會顯示預設 [!UICONTROL A] 與 [!UICONTROL 所有訪客] 對象的預設體驗A。
+
+   ![所有訪客對象](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+
+   您所做的任何變更現在都適用於體驗A。在下方的步驟中，您將按一下 [!UICONTROL 「新增體驗定位] 」以建立其他體驗。
+
+   將游標移至頁面上的元素時，元素會強調顯示。任何反白顯示的元素都可以使用CMS進行變更。如需可在元素上執行的動作清單，以變更體驗，請參閱 [Visual Experience Composer選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
    如果您在使用 Target Classic (先前的 Test&amp;Target) 的頁面上建立 mbox，該 mbox 會以元素的形式出現並顯示 mbox 名稱，且可如同任何其他元素般加以修改。
 
-   如需可以在顯示頁面上執行元素以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. 若要建立其他體驗，請按一下 **[!Add體驗定位]**。
+
+   ![新增體驗定位連結](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+
+   隨即顯示 [!UICONTROL 「選擇對象」] 對話方塊。若要將體驗定位給對象，您必須先選取對象，才能新增體驗。
+
+   對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫選取對象，或是[建立新對象](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。若要對所有加入者顯示相同體驗，請選擇「所有訪客」。
 
    >[!NOTE]
    >
-   >如果您從主要頁面以外的來源 (例如在 akamai.net 上託管並在 dell.com 上傳送的影像) 傳送影像，那麼該影像不會顯示在流程圖中所顯示頁面的縮圖中。
+   >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-1. 完成體驗的設計時，請按一下核取記號按鈕。
+   建立觀眾時，您可以選取位置 (mbox) 並指定該位置的參數。在「自訂參數」下，選取 mbox，然後指定需要的參數。
+
+   >[!NOTE]
+   >
+   >當您開啟對象清單時，系統會自動在背景匯入對象，且匯入的是登入超過 10 分鐘的對象。
+
+1. 選取一或多個對象以使用體驗定位，然後按一下 **[!UICONTROL 完成]**。
+
+   ![體驗 B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
+
+   您會注意到，「體驗B」現在會顯示在上一個插圖中，而這個體驗將會鎖定在「美國訪客」對象中。
+
+1. 選取您要變更此體驗的元素並進行所需變更，請參閱上述步驟1。
+
+1. 視需要重復上述步驟，以建立其他目標體驗。
+
+1. 完成設計體驗時，按一下 **[!UICONTROL 「下一步]** 」。
 
    活動圖表顯示:
 
-   ![](assets/xt_diagram.png)
+   ![XT定位圖](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
-   如果體驗包括跨網域內容，縮圖可能不會準確顯示，且會由圖示取代。
-1. 視需要建立其他體驗。
+1. (條件性)在建立或編輯XT活動時拖放對象/體驗配對，以依照所需順序排列配對。
 
-   >[!NOTE]
-   >
-   >您可以在建立或編輯 XT 活動時拖放對象/體驗配對，以使用所需順序排列配對。將以由上到下的順序評估訪客的體驗。
+   訪客會依順序、由上到下的體驗進行評估。
 
-   ![](assets/move_experiences.jpg)
+   ![移動體驗](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
    體驗鎖定目標會假設順序重要。如果訪客落入第一個對象/體驗配對，即會傳送第一個體驗。
 
    例如，假設您不知道建立 XT 活動時順序很重要。您後續在測試期間發現，您認為應該符合體驗 B 或 C 資格的訪客卻符合體驗 A 的資格。這可能是因為該對象非互斥卻採用不適當的順序 (例如，體驗 A = 美國，體驗 B = 舊金山，而體驗 C = 加州)。在此案例中，來自美國的所有使用者會符合體驗 A 的資格，即便他們位於舊金山或加州的其他地方。您可以從最多限制到最少限制 (舊金山 &gt; 加州 &gt; 美國) 重新排序對象/體驗配對，而不需重新建立整個活動。
 
-## 重新命名、編輯或刪除體驗
+## 重新命名或編輯體驗
 
-您可以按一下 A/B 測試或體驗鎖定目標 (XT) 活動中一個體驗的「編輯」(三個垂直的點) 圖示，並視需要選擇下列選項:
+您可以在 [!UICONTROL XT活動中按一下編輯] 圖示(三個垂直橢圓形)，並視需要選擇下列選項：
 
 * 重新命名
 * 編輯  
-* 刪除
 
-![](assets/experience_edit.png)
+![重新命名和編輯選項](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
-完成此步驟時，請按一下**[!UICONTROL 「繼續」]。**
+## 刪除體驗
+
+在 **[!UICONTROL 「體驗]** 」頁面(三步驟引導工作流程的第一個步驟)中，按一下三個垂直橢圓形&gt; **[!UICONTROL 刪除]**。
+
+![刪除體驗](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## 複製體驗
 
 您可以複製體驗鎖定目標 (XT) 活動中的體驗，不必從頭再次建立體驗，即可進行微幅變更。
 
-在**[!UICONTROL 「體驗」]**頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
+在 **[!UICONTROL 「體驗」]** 頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
 
-![](assets/duplicate_experience.png)
+![重復體驗](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
 ## 訓練影片: 使用可視化體驗撰寫器
 
@@ -93,4 +103,4 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 變更頁面的內容
 * 變更頁面的配置
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/17399?captions=chi_hant)
