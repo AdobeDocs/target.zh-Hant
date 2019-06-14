@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019年月14日 | [創造體驗](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 更新文字和影像。 |
+| 2019年月14日 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 已新增使用案例藍本。 |
 |  | [建立體驗鎖定目標活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 更新文字和影像。 |
+|  | XT： [活動URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 更新文字。 |
+|  | XT： [創造體驗](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 更新文字和影像。 |
+|  | [在體驗定位中切換體驗](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | 更新文字和影像。 |
+|  | XT： [目標與設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | 更新文字和影像。 |
+|  | XT： [設定度量](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | 更新文字和影像。 |
 | 2019 年 6 月 13 日 | [「重要屬性」報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增常見問題集：「相較於特定自動化群體的其他選件/體驗，為甚麼某些選件/體驗的轉換率較低？」 |
 |  | [建立自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字和影像。 |
 |  | [預估成功所需的流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 已新增影像。 |
