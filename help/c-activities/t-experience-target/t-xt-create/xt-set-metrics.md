@@ -1,13 +1,13 @@
 ---
 description: 在體驗鎖定目標 (XT) 活動中使用量度以判斷造訪是否成功。
 keywords: 體驗鎖定目標; XT; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-seo-description: 在體驗鎖定目標 (XT) 活動中使用量度以判斷造訪是否成功。
+seo-description: 使用Adobe Target體驗定位(XT)活動中的度量來判斷瀏覽成功的時機。
 seo-title: 設定量度
 solution: Target (Standard)
 title: 設定量度
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 1. 指定活動的目標。
 1. 選取[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
-   ![](assets/ab_metrics.png)
+   ![選取成功量度](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
    [!UICONTROL 「選取量度」]頁面會列出您可以為活動選擇的成功量度。成功量度可分為下列類別:
 
@@ -39,7 +39,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
    如需詳細資訊，請參閱[成功度量](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 1. (可選) 增加額外的量度。
-1. 完成量度的設定時，請按一下**[!UICONTROL 「繼續」]**。請注意，為量度命名或重新命名時，不得使用下列字元:
+1. 完成量度的設定時，請按一下 **[!UICONTROL 「繼續」]**。請注意，為量度命名或重新命名時，不得使用下列字元:
 
    | 字元 | 說明 |
    |--- |--- |
@@ -60,4 +60,4 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 瞭解和建置轉換、收入和參與量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hant)
