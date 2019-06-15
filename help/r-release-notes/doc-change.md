@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 6 月 15 日 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 進行小幅文字編輯。 |
+|  | [多變數測試最佳作法](/help/c-activities/c-multivariate-testing/best-practices.md) | 進行小幅文字編輯。 |
+|  | [計劃多變數測試](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 進行小幅文字編輯。 |
 | 2019年月14日 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 已新增使用案例藍本。 |
 |  | [建立體驗鎖定目標活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 更新文字和影像。 |
 |  | XT： [活動URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 更新文字。 |
