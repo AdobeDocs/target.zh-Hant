@@ -7,16 +7,16 @@ solution: Target
 title: 計劃多變數測試
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # 計劃多變數測試{#plan-a-multivariate-test}
 
-Adobe Target中的多變數(MVT)測試需要一些規劃，才能建立成功的測試。
+[!UICONTROL 多變數測試] (MVT)需要 [!DNL Adobe Target] 一些規劃，才能建立成功測試。
 
-多變數測試需要足夠的流量，才能產生有用的結果。設定測試之前，請注意您平常取得的流量，包括曝光次數和轉換次數。參考此資訊可儘量避免所設計的測試超過網站流量的需求。
+MVT需要足夠的流量來產生有用的結果。設定測試之前，請注意您平常取得的流量，包括曝光次數和轉換次數。參考此資訊可儘量避免所設計的測試超過網站流量的需求。
 
 建議您將元素與元素之間分開測試。(例如，請勿在相同測試中測試版面與內容。)
 
