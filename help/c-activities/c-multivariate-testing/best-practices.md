@@ -8,14 +8,14 @@ title: 多變數測試最佳作法
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # 多變數測試最佳作法{#multivariate-test-best-practices}
 
-協助您改善效能、避免問題以及修正在建立和執行多變數(MVT)測試活動時可能發生的已知問題 [!DNL Adobe Target]的秘訣。
+協助您改善效能、避免問題以及修正在建立和執行多變數測試(MVT)活動 [!DNL Adobe Target]時可能發生的已知問題的秘訣。
 
 ## 計劃 {#section_4D4A1F6226F042379BF48DB753608579}
 
