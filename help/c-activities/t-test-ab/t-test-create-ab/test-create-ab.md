@@ -8,7 +8,7 @@ title: 建立 A/B 測試
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -24,23 +24,24 @@ source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
    >[!NOTE]
    >
    >可用的活動類型取決於您的 [!DNL Target] 帳戶。有些活動類型可能不會出現在您的清單中。[!UICONTROL 例如，Recommendations] 是 [Target Premium功能](/help/c-intro/intro.md#premium)。
+   >
+   >如需各種活動類型的詳細資訊，請參閱 [活動](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 和 [Target活動指南](/help/c-activities/target-activities-guide.md)。
 
-   如需各種活動類型的詳細資訊，請參閱 [活動](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 和 [Target活動指南](/help/c-activities/target-activities-guide.md)。
-
-   ![「建立A/B測試活動」對話方塊](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newactivityurl-new.png)
+   ![建立A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
 1. 視需要選取 **[!UICONTROL Visual(預設)]**。
 
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱 [表單式體驗撰寫器](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) 。
+   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱 [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) 。
 
    >[!NOTE]
    >
    >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
+   >
+   >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+   >
+   >[！上圖中的UICCOHTROL [選擇職場](/help/administrating-target/c-user-management/property-channel/property-channel.md) 選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看見此選項，則您的組織有Target Standard授權。]
 
-   如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。
-
-1. (條件性)如果您是 [Target Premium](/help/c-intro/intro.md#premium) 客戶，請選擇 [工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
-
+1. (條件性)如果您是Target Premium客戶，請選擇工作區。
 
 1. 指定 [您的活動URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下 **[!UICONTROL 「下一步」]**。
 
