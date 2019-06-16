@@ -7,7 +7,7 @@ solution: Target
 title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -23,3 +23,7 @@ EEC 是 VEC 的擴充功能，可幫助您編輯 iframe-busting 網站或尚未�
 如需關於 VEC 和 EEC 的資訊，請參閱[體驗](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
 請注意，有些問題對 VEC 和 EEC 均會造成影響，而有些問題只會影響其中一個撰寫器。如需詳細資訊，請參閱相關頁面。
+
+* [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+* [疑難排解可視化體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+* [疑難排解增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
