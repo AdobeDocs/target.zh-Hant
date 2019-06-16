@@ -8,7 +8,7 @@ title: 建立體驗鎖定目標活動
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: dcddbf8c1a4f406fdbfb00b9deaa75113aa7b624
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -39,13 +39,17 @@ source-git-commit: dcddbf8c1a4f406fdbfb00b9deaa75113aa7b624
 
    ![「建立體驗定位活動」對話方塊](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   如果您偏好使用表單式體驗撰寫器，請選取該選項。請參閱[表單式體驗撰寫器](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html)。
+   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱 [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) 。
 
    >[!NOTE]
    >
    >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
    >
-   >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。
+   >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+   >
+   >上圖 [!UICONTROL 中的「選擇工作場所] 」選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看見此選項，則您的組織有Target Standard授權。]
+
+1. (條件性)如果您是Target Premium客戶，請 [選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 指定 [您的活動URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下 **[!UICONTROL 「下一步」]**。
 
