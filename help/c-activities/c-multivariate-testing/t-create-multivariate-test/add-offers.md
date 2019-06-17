@@ -1,26 +1,26 @@
 ---
-description: 使用可視化體驗撰寫器來建立要在您測試中包含的選件。
-seo-description: 使用可視化體驗撰寫器來建立要在您測試中包含的選件。
-seo-title: 建立組合在Adobe Target中
+description: 使用Adobe Target中的Visual Experience Composer(CMS)建立您要包含在多變數測試(MVT)中的選件。
+seo-description: 使用Adobe Target中的Visual Experience Composer(CMS)建立您要包含在多變數測試(MVT)中的選件。
+seo-title: 使用Adobe Target在多變數測試(MVT)中建立組合
 title: 建立組合
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
 
 # 建立組合{#create-combinations}
 
-使用可視化體驗撰寫器來建立要在您測試中包含的選件。
+使用Adobe Target中的Visual Experience Composer(CMS)建立您要包含在多變數測試(MVT)中的選件。
+
+如需使用CMS建立和編輯選件的詳細資訊，請參閱 [Visual Experience Composer選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 >[!NOTE]
 >
 >在頁面上選取物件時，除了原先選取的元素，您可以按一下 **[!UICONTROL 「展開選取範圍」]** 以選取父元素。選取任何上層元素時，系統會自動選取該元素的所有下層。您可以展開選取範圍多次。
-
-可視化體驗撰寫器可讓您編輯選件、選件名稱和位置名稱。將出現覆蓋來指出已變更之處。
-
-![](assets/overlay.png)
+>
+>您也可以使用 [DOM路徑](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 來瀏覽元素。
 
 ## 影像選件 {#section_A48333211DB149ED926AE467D0032914}
 
@@ -28,11 +28,11 @@ source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 1. 按一下頁面上的影像，然後選取 **[!UICONTROL 「變更影像」]**。
 
-   ![](assets/changeimage.png)
+   ![變更影像選項](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. 選取要納入測試中的所有影像，然後按一下 **[!UICONTROL 「新增」]**。
 
-   ![](assets/addimage.png)
+   ![選取用於新增影像的「內容」對話方塊](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 每個影像會變成該位置中的個別體驗。
 
@@ -42,15 +42,11 @@ source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 1. 按一下頁面上的 HTML 選件，然後按一下 **[!UICONTROL 「變更文字/HTML」]**。
 
-   ![](assets/changehtml.png)
+   ![變更文字/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
 1. 按一下 **[!UICONTROL 「新增文字/HTML 選件」]**，將選件命名，然後輸入或貼上文字/HTML 選件的程式碼。
 
-   ![](assets/editoffers.png)
-
-   >[!NOTE]
-   >
-   >Internet Explorer 10 不支援 HTML5 輸入預留位置。因此，如果您使用 IE10，當您在文字欄位中輸入內容時，仍會出現「新增內容」預留位置文字。
+   ![編輯選件](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    對於您要包含的任何其他文字/HTML 選件，重複這樣做。
 
