@@ -10,7 +10,7 @@ topic: 進階
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -23,11 +23,9 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
    ![建立活動：自動個人化](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 指定需要的通道: Web。
-
-   您也可以選擇行動應用程式、電子郵件或其他/API。
-
 1. 若要使用可視化體驗撰寫器 (VEC)，請按一下 **[!UICONTROL 「視覺 (預設)」]**。
+
+   ![「建立自動個人化活動」對話方塊](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱 [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) 。
 
@@ -48,8 +46,6 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
    >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `http://www.adobe.com`] 和 [!DNL `https://wwww.adobe.com`] 都相符。
 
    具有指定 URL 的頁面會在可視化體驗撰寫器中開啟。
-
-   ![「建立自動個人化活動」對話方塊](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
 1. 若要對活動命名，請按一下「名稱」欄位並輸入您的活動名稱。
 
