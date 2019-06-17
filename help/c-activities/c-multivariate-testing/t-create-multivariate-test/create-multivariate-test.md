@@ -7,7 +7,7 @@ solution: Target
 title: 建立多變數測試
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -22,13 +22,29 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 1. 按一下 **[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 多變數測試」]**。
 
-   ![](assets/create_mvt.png)
-
-1. (條件性)如果您是Target Premium客戶，請 [選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+   ![建立多變數測試](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
    >[!NOTE]
    >
+   >可用的活動類型取決於您的 Target 帳戶。有些活動類型可能不會出現在您的清單中。例如 [!UICONTROL ，「自動個人化」] 是 [Target Premium功能](/help/c-intro/intro.md#premium)。
+   >
+   >如需各種活動類型及其差異的詳細 [!DNL Target] 資訊，請參閱 [活動](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱 [Target活動類型](/help/c-activities/target-activities-guide.md) ，以協助您決定哪個活動類型最適合您的需求。
+
+1. 視需要選取 **[!UICONTROL Visual(預設)]**。
+
+   ![「建立體驗定位活動」對話方塊](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+
+   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱 [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) 。
+
+   >[!NOTE]
+   >
+   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
+   >
+   >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+   >
    >上圖 [!UICONTROL 中的「選擇工作場所] 」選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看見此選項，則您的組織有Target Standard授權。]
+
+1. (條件性)如果您是Target Premium客戶，請 [選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. [指定您要測試之頁面的URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) ，然後按一下 **[!UICONTROL 「下一步」]**。
 
@@ -39,8 +55,6 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
    如果出現訊息，要求您啟用您的瀏覽器使用混合的內容，請遵循訊息中的說明。為您的瀏覽器啟用混合的內容之後，請從步驟 1 重新開始。
 
    可視化體驗撰寫器隨即開啟。
-
-   如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. 輸入活動的名稱。
 
@@ -71,15 +85,25 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 1. 按一下 **[!UICONTROL 「預覽]**[」預覽您的體驗](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)。
 
-   ![](assets/preview.png)
+   ![預覽體驗](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   您可以檢視每個體驗，以及排除不想在您的測試中包括的任何體驗。
+   您可以檢視每個體驗，以及排除不想在您的測試中包括的任何體驗。若要排除一或多個體驗，請選取所需的核取方塊，然後按一下 **[!UICONTROL 排除]** 。
+
+   ![排除體驗](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
 1. [使用流量估算程式](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)來測試您的測試計劃的可行性。
 
-   ![](assets/estimator.png)  ![](assets/estimator2.png)
+   ![流量指標](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
-1. 按[ **！UICONHTROL接下來** 進入 [!UICONTROL 「定位] 」頁面。]
+   下圖指出活動的流量不足。
+
+   ![](assets/estimator.png)
+
+   下圖指出活動的流量不足。
+
+   ![](assets/estimator2.png)
+
+1. 按一下 **[!UICONTROL 「下]** 一步」前往 [!UICONTROL 「定位] 」頁面。]
 
 1. 選擇對象和符合您要讓其進入活動之訪客的百分比。
 
@@ -91,7 +115,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
    >
    >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-1. [檢閱測試摘要](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)，並進行任何需要的變更，然後按一下 **[!UICONTROL 「下一步」]**。
+1. [檢閱測試摘要](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 並進行任何所需變更，然後按一下「下一 **[!UICONTROL 步」]**。
 
 1. [指定測試的目標與設定](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
