@@ -7,7 +7,7 @@ solution: Target
 title: 新增體驗
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Visual Experience Composer(CMS)提供了一個視覺化介面，可用來新增�
    >
    >如果您從主要頁面以外的來源 (例如在 akamai.net 上託管並在 dell.com 上傳送的影像) 傳送影像，那麼該影像不會顯示在流程圖中所顯示頁面的縮圖中。
 
-1. 完成設計體驗時，按一下 **[!S「放棄]** 」。
+1. 完成設計體驗後，按一下 **[!UICONTROL 「儲存]** 」。
 
 ## 重新命名體驗
 
