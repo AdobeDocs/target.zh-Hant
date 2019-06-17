@@ -8,7 +8,7 @@ title: 目標與設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -104,7 +104,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 進階設定可供多變數測試目標度量使用。
 
-![](assets/Menu_AdvancedSettings.png)
+![進階設定功能表](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -122,15 +122,14 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 若要新增相依性:
 
-1. 新增其他量度後，按一下「進階設定」。
+1. 新增其他度量後，按一下 **[!UICONTROL 「進階設定]**」。
 2. 按一下「新增相依性」選項:
 
-   ![](assets/add_dependency.png)
+   ![新增相依性](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. 將需要的量度從左窗格拖曳到右窗格，然後按一下「達到」來將設定在「達到」與「未達到」之間切換。
+3. 將需要的量度從左窗格拖曳到右窗格，然後按一下 **[!UICONTROL 「達到」]** 來將設定在「達到」與「未達到」之間切換。
 
-   ![](assets/add_dependency_reached.png)
-
+   ![已達到相依性](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 您可以在新增相依性之後加以編輯或移除。
 
@@ -166,7 +165,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hant)
 
 ### 建立多變數測試 (9:25)
 
@@ -175,4 +174,4 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 * 定義和設計多變數測試
 * 建立多變數測試
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hant)
