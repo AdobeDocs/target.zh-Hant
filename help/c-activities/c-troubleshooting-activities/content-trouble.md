@@ -9,7 +9,7 @@ title: 疑難排解內容傳送
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -30,13 +30,15 @@ source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 擷取授權 Token:
 
-1. 按一下**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
-1. 選取**[!UICONTROL 「mbox.js」]**或**[!UICONTROL 「at.js」]**。
-1. 按一下**[!UICONTROL 「產生驗證 Token」]**。
+1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 選取 **[!UICONTROL 「mbox.js」]** 或 **[!UICONTROL 「at.js」]**。
+1. 按一下 **[!UICONTROL 「產生驗證 Token」]**。
 
-   ![](assets/gen-auth-token.png)
+   ![產生授權Token](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. 將產生的 Token 當作參數新增至 URL，以啟用其中一個進階偵錯工具。
+
+   ![授權權杖](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -148,7 +150,7 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
 ## mbox未在我的網站上引發。
 
-at. js不會引發Target mbox，如果您使用無效的doctype。at. js需要HTML doctype。
+at. js不會引發Target mbox，如果您使用無效的doctype。at.js 需要 HTML 5 doctype。
 
 ## 訓練影片
 
@@ -156,12 +158,12 @@ at. js不會引發Target mbox，如果您使用無效的doctype。at. js需要HT
 
 ### 新增擴充功能
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=chi_hant)
 
 ### 基本 Target 偵錯
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=chi_hant)
 
 ### Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=chi_hant)
