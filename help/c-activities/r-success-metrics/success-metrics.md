@@ -7,7 +7,7 @@ solution: Target
 title: 成功量度
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -54,11 +54,11 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 >
 >如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。進階設定選項將無法使用。
 
-![](assets/Menu_AdvancedSettings.png)
+![進階設定下拉式清單](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
 
 您也可以使用進階設定來建立相依成功量度，只有在訪客先達到另一個量度時才遞增一個量度。
 
-![](assets/UI_dep_success_metric.png)
+![新增相依性](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 例如，測試轉換可能只有在轉換之前訪客點擊了選件，或是達到特定頁面時才有效。
 
@@ -87,4 +87,4 @@ A/B 測試、自動個人化、體驗鎖定目標和多變數測試活動中支�
 * 瞭解和建置轉換、收入和參與量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hant)
