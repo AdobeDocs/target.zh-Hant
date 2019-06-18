@@ -8,7 +8,7 @@ title: 活動通知
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -23,7 +23,7 @@ Target 可以與使用 Adobe Pulse 的其他 Adobe Experience Cloud 解決方案
 
 從 [!DNL Target] 中的任何地方存取通知，但不包括從活動建立工作流程內: 按一下頁首的鈴聲圖示，以顯示或隱藏通知小工具。
 
-![](assets/notifications-shell.png)
+![通知圖示](assets/notifications-shell.png)
 
 對於所有活動類型，[!DNL Target] 會傳送兩種通知:
 
