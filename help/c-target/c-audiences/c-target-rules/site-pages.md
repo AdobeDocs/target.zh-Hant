@@ -8,7 +8,7 @@ title: 網頁
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -21,15 +21,15 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 >
 >對象網站頁面類型和比較運算子，現在會在 Target Classic 中比對類型和比較運算子。您也可以使用自己的「使用者定義查詢參數」或「使用者定義標題」，以建立網站頁面對象。
 
-1. 在 [!DNL Target] 介面中，按一下**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 網站頁面」]**。
+1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 網站頁面」]**。
 
-   ![](assets/target_site_pages.png)
+   ![網站頁面對象](assets/target_site_pages.png)
 
-1. 按一下**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
-   * **目前頁面:**使用者目前所在的頁面，即活動中包含 mbox 的頁面。如果您以活動層級為目標，這可能是含有您用來定義進入條件的 mbox 的頁面，或是顯示內容的頁面。如果您依據體驗進行指向，目前頁面就是顯示 mbox 所在的頁面。對於成功量度或轉換指向，那麼它便是那些 mboxe 所在的頁面。
+   * **目前頁面:** 使用者目前所在的頁面，即活動中包含 mbox 的頁面。如果您以活動層級為目標，這可能是含有您用來定義進入條件的 mbox 的頁面，或是顯示內容的頁面。如果您依據體驗進行指向，目前頁面就是顯示 mbox 所在的頁面。對於成功量度或轉換指向，那麼它便是那些 mboxe 所在的頁面。
    * **上一頁:** 點按目前頁面之前使用者所在的頁面。(使用者必須從上一頁點選至目前頁面，才能讓該頁面受到追蹤。如果使用者是在瀏覽器中輸入新的 URL，則上一頁就不會被追蹤。)本頁面實際內容視乎網站設計而定。舉例來說，如果目前頁面顯示的是有關特定產品的資訊，則上一頁可能是使用者在其中選擇特定商品的分類頁面 (例如顯示多台特定類型相機的頁面)，也可能是引導使用者來到最後頁面的首頁。
    * **著陸頁面:** 著陸頁面為存取您的網站時，訪客看到的第一頁。例如，如果訪客在 Google 上點按一個連接進入類別頁面，那麼該類別頁面即為著陸頁面。如果該連接引導至您的首頁，那麼首頁即為著陸頁面。按訪客作業記憶著陸頁面。您可以依據此作業中的訪客著陸頁面，在網站實施深度指向。
 
@@ -43,8 +43,8 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
       `foo.html?e0a72cb2a2c7`
 
-1. (可選) 按一下**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 您也可以使用自己的「使用者定義查詢參數」或「使用者定義標題」，以建立網站頁面對象。
 
@@ -64,4 +64,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
