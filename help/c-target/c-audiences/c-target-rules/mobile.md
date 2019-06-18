@@ -1,21 +1,21 @@
 ---
-description: 根據參數例如行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 及其他來鎖定行動裝置。
+description: 根據諸如行動裝置、裝置類型、裝置廠商、螢幕尺寸(依像素)等參數，建立目標行動裝置。
 keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
-seo-description: 根據參數例如行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 及其他來鎖定行動裝置。
-seo-title: 行動
+seo-description: 根據諸如行動裝置、裝置類型、裝置廠商、螢幕尺寸(依像素)等參數，在Adobe Target中建立觀眾至目標裝置。
+seo-title: Adobe Target中的行動對象
 solution: Target
 title: 行動
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # 行動{#mobile}
 
-根據參數例如行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 及其他來鎖定行動裝置。
+根據諸如行動裝置、裝置類型、裝置廠商、螢幕尺寸(依像素)等參數，建立目標行動裝置。
 
 例如，對於從手機進入您頁面的使用者和從電腦造訪的使用者，您想要分別顯示不同內容。在此情況下，您可以選取「行動裝置對象」，再選取 **[!UICONTROL 「是手機」]選項，然後新增您認為重要的任何特定詳細資料，例如手機類型、螢幕大小 (畫素）等。**
 
@@ -44,9 +44,6 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
 1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 行動裝置」]**。
-
-   ![](assets/target_mobile.png)
-
 1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * 裝置行銷名稱
@@ -70,6 +67,10 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 1. 按一下 **[!UICONTROL 「儲存」]**。
+
+下圖顯示使用Google製造的裝置來鎖定訪客的對象，這些裝置是行動裝置。
+
+![目標行動裝置](assets/target_mobile.png)
 
 ## 訓練影片: 建立對象
 
