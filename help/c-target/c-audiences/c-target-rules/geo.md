@@ -1,33 +1,31 @@
 ---
-description: 根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者來鎖定使用者。
+description: 使用受眾根據使用者地理位置來定位使用者，包括其國家、州/省、城市、郵遞區號、DMA或行動電信業者。
 keywords: 鎖定目標;a4t;地理;地理鎖定目標;地理鎖定目標準確度;國家;州;城市;郵遞區號;dma;行動電信業者;城市碼;區域碼;都市碼;設定檔指令碼;地理鎖定目標設定檔指令碼;地理鎖定目標行動
-seo-description: 根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者來鎖定使用者。
+seo-description: 使用Adobe Target受眾根據使用者地理位置來定位使用者，包括其國家、州/省、城市、郵遞區號、DMA或行動電信業者。
 seo-title: 地理
 solution: Target、Analytics
-title: 地理
+title: 地理Adobe Target中的定位
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # 地理{#geo}
 
-根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者來鎖定使用者。
+使用受眾根據使用者地理位置來定位使用者，包括其國家、州/省、城市、郵遞區號、DMA或行動電信業者。
 
-地理位置參數可讓您依據訪客的地理位置來鎖定目標活動和體驗。您可以根據國家、州/省、城市、郵遞區號、DMA 或行動電信業者來包含或排除訪客。此資料會根據訪客的 IP 位址，與每一個 mbox 請求一併傳送。選取這些參數就像任何定位值一樣。
+地理位置參數可讓您依據訪客的地理位置來鎖定目標活動和體驗。您可以根據其國家、州/省、城市、郵遞區號、緯度、經度、DMA或行動電信業者來包括或排除訪客。此資料會隨每個Target請求傳送，並以訪客的IP位址為基礎。選取這些參數就像任何定位值一樣。
 
 ## 使用地理鎖定目標建立對象 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. 在 [!DNL Target] 介面中，按一下**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 地理」]**。
+1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 地理」]**。
 
-   ![](assets/target_geo.png)
-
-1. 按一下**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * 國家
    * 狀態
@@ -41,12 +39,17 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
    關於行動電信業者，[!DNL Target] 會使用 IP 位址註冊資料 (擁有 IP 位址區塊)，根據[行動裝置國碼 (MCC) 和行動網路碼 (MNC)](https://www.mcc-mnc.com) 來決定適當的行動電信業者。
 
-1. (可選) 按一下**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 指定運算元和適當值。
+1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下 **[!UICONTROL 「儲存」]**。
+
+下圖顯示目標使用者從緯度大於44度，且longitude小於22度的對象。
+
+![](assets/target_geo.png)
 
 ## 準確度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動數據連線時，地理查閱的準確度會受到一些因素的影響，包括位置、提供者與 deviceatlas 之間的資料關係，以及其他因素。行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。您可以使用 [Geolocation API來解決一些行動地理位置問題](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)。
+地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動資料連線時，地理查閱的準確性可能會受到位置、提供者與 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)資料關係以及其他因素的影響。行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。您可以使用 [Geolocation API來解決一些行動地理位置問題](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)。
 
 下表顯示 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 針對有線或 WiFi 網際網路連線所提出的 IP 型地理位置資訊的準確度。DigitalEnvoy 提供的資料是業界最準確的。全球準確度在國家/地區層級超過 99.9%，在城市層級也能達到 97%。準確度資訊不適用於行動通訊基地台網路。
 
@@ -54,8 +57,8 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 |--- |--- |--- |--- |
 | 美國 | 99.99% | 96% | 94% |
 | 加拿大 | 99.99% | 96% | 94% |
-| 歐洲 | 99.99% |
-| 英國 | 99.99% | 87% |
+| 歐洲 | 99.99% |  |  |
+| 英國 | 99.99% |  | 87% |
 | 德國 | 99.99% | 95% | 93% |
 | 斯堪地那維亞 | 99% | 90% 出頭 | 約 85% |
 | 西班牙 | 99.99% | 約 90% | 95% 以上 |
@@ -127,7 +130,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * DMA/ITV (英國) - 美國、英國
 * 行動電信業者 - 全球
 
-**如何以來自不同位置的使用者身分來測試我的促銷活動？**
+**如何將活動測試為來自不同位置的使用者？**
 
 您可以用不同位置的 IP 位址來覆寫您的 IP 位址，然後使用 `mboxOverride.browserIp url` 參數。所以，如果貴公司位於英國，但您的全球促銷活動目標訪客位在紐西蘭的奧克蘭，則您可以使用這種 URL，假設 `60.234.0.39` 是奧克蘭境內的 IP 位址:
 
@@ -146,4 +149,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
