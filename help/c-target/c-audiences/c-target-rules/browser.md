@@ -1,24 +1,20 @@
 ---
-description: 您可以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
+description: 您可以在Adobe Target中建立對象，以定位使用特定瀏覽器或特定瀏覽器選項的使用者瀏覽您的頁面。
 keywords: 瀏覽器選項;類型;瀏覽器類型;瀏覽器語言;語言;版本;瀏覽器版本
-seo-description: 您可以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
-seo-title: 瀏覽器
+seo-description: 您可以在Adobe Target中建立對象，以定位使用特定瀏覽器或特定瀏覽器選項的使用者瀏覽您的頁面。
+seo-title: Adobe Target觀眾中的瀏覽器選項
 solution: Target
 subtopic: 多變數測試
 title: 瀏覽器
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # 瀏覽器{#browser}
-
-您可以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
-
-## 瀏覽器 {#concept_925EAD7A8A42431395F9792AC7C3F76B}
 
 您可以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 
@@ -35,32 +31,32 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 鎖定目標瀏覽器有兩種方法:
 
-* **預先建立的對象:**如果您想鎖定使用特定瀏覽器來造訪網站的對象為目標，請使用預先建立的對象。例如，如果您提供 Chrome 擴充功能，則只需要鎖定 Chrome 使用者作為目標。
+**預先建立的對象:** 如果您想鎖定使用特定瀏覽器來造訪網站的對象為目標，請使用預先建立的對象。例如，如果您提供 Chrome 擴充功能，則只需要鎖定 Chrome 使用者作為目標。
 
-   1. 設定活動時，請從對象下拉式清單中選取瀏覽器。
+1. 設定活動時，請從對象下拉式清單中選取瀏覽器。
 
-      此選項只會將活動的目標鎖定在使用指定瀏覽器的訪客。
+   此選項只會將活動的目標鎖定在使用指定瀏覽器的訪客。
 
-* **自訂的瀏覽器對象規則:**自訂的對象可讓您鎖定多個瀏覽器作為目標，或針對特定瀏覽器、瀏覽器版本或瀏覽器語言來設定規則或擴充功能。這在根據瀏覽器屬性來鎖定目標行銷活動時提供相當大的彈性。
+**自訂的瀏覽器對象規則:** 自訂的對象可讓您鎖定多個瀏覽器作為目標，或針對特定瀏覽器、瀏覽器版本或瀏覽器語言來設定規則或擴充功能。這在根據瀏覽器屬性來鎖定目標行銷活動時提供相當大的彈性。
 
-   1. 在 [!DNL Target] 介面中，按一下**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
-   1. 為對象命名。
-   1. 按一下**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 瀏覽器」]**。
+1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 為對象命名。
+1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 瀏覽器」]**。
 
-      ![](assets/target_browser.png)
+   ![規則&gt;瀏覽器](assets/target_browser.png)
 
-   1. 按一下**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
-      * **類型:** 將特定瀏覽器鎖定作為目標或排除。請參閱[類型](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
-      * **語言:** 將設為使用特定語言的特定瀏覽器鎖定作為目標或排除。請參閱[語言](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
-      * **版本:** 將特定瀏覽器版本鎖定作為目標或排除。請參閱[版本](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
-   1. (可選) 按一下**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-   1. 按一下**[!UICONTROL 「儲存」]**。
+   * **類型:** 將特定瀏覽器鎖定作為目標或排除。請參閱[類型](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
+   * **語言:** 將設為使用特定語言的特定瀏覽器鎖定作為目標或排除。請參閱[語言](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
+   * **版本:** 將特定瀏覽器版本鎖定作為目標或排除。請參閱[版本](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
 
+1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 下列範例顯示包含 Internet Explorer 版本 10 或 11 使用者的對象:
 
-![](assets/target_exclude_ie.png)
+![Target IE10和11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
 
 ## 瀏覽器選項 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -70,29 +66,27 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 將特定瀏覽器鎖定作為目標或排除。
 
-選取**[!UICONTROL 「類型」]**，然後選擇等於或不等於。
+選取 **[!UICONTROL 「類型」]**，然後選擇等於或不等於。
 
 * 等於: 將所選取的瀏覽器鎖定作為目標。
 * 不等於: 排除所選取的瀏覽器。
 
-選取一或多個瀏覽器。
-
-多個選項是使用「或」連接。
+選取一或多個瀏覽器。多個選項是使用「或」連接。
 
 ### 語言 {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
-將設為使用特定語言的特定瀏覽器鎖定作為目標或排除。
+定位或排除設定為使用特定語言的特定瀏覽器。
 
-例如，如果選件只有英文版，您可以會將語言設為英文的瀏覽器鎖定作為目標。或者，如果頁面未啟用雙位元組功能，您可以排除設為東亞語言的瀏覽器。
+例如，如果某個選件僅提供英文版，則您可以將其語言設定為英文。或者，如果頁面未啟用雙位元組功能，您可以排除設為東亞語言的瀏覽器。
 
 在語言比位置更重要的情況下，透過包含或排除瀏覽器語言來鎖定目標訪客，將會比根據地理來鎖定目標更準確。例如，如果您提供以英文撰寫的文章，您可以將目標鎖定在說英語的國家/地區，或將設為英文的瀏覽器作為鎖定目標。對於不以英文為母語的國家/地區中說英語的人，鎖定目標瀏覽器可讓他們閱讀這篇文章。
 
-選取**[!UICONTROL 「語言」]**，然後選擇等於或不等於。
+選取 **[!UICONTROL 「語言」]**，然後選擇等於或不等於。
 
 * 等於: 將所選取的瀏覽器語言鎖定作為目標。
 * 不等於: 排除所選取的瀏覽器語言。
 
-選取一或多種語言。
+選取一或多種語言。多個選項是使用「或」連接。
 
 下列瀏覽器語言可鎖定作為目標或排除:
 
@@ -105,8 +99,6 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 俄文
 * 西班牙語
 * 繁體中文
-
-多個選項是使用「或」連接。
 
 ### 版本 {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
@@ -136,4 +128,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
