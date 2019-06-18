@@ -7,7 +7,7 @@ solution: Target
 title: 對象的類別
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -18,15 +18,15 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 選取特定類別時，您可以套用一個或多個定位條件。例如，在「地理」類別中，定義如下的規則: City=San Francisco。新增多個值會建立一個 OR 條件。訪客只需要符合其中一個值，就算滿足目標條件。如果要在相同參數上使用 AND 條件，請建立自訂運算式目標。
 
-建立規則之後，按一下**[!UICONTROL 「儲存」]**。此規則的摘要會顯示在要定位的那一層級的定位連結旁。
+建立規則之後，按一下 **[!UICONTROL 「儲存」]**。此規則的摘要會顯示在要定位的那一層級的定位連結旁。
 
 您可以藉由新增更多條件，或在其他類別中建立額外條件，以進一步重新定義規則。例如，若要將目標只鎖定在從 Google 存取您的網站且來自舊金山的 Firefox 使用者，請將[!UICONTROL 「地理」]類別設為來自舊金山的目標使用者，將[!UICONTROL 「訪客行為」]類別設為 Firefox，並將[!UICONTROL 「流量來源」]類別設為 Google。所有跨類別建立的規則會使用 AND 組合起來。若要建立複雜的定位規則，其中包含跨類別的 OR 作業，則請建立一個運算式定位。
 
-您也可以鎖定自訂設定檔參數和 `user.` 參數。新增對象時，請按一下**[!UICONTROL 「訪客設定檔」]**，然後在[!UICONTROL 「訪客設定檔」]下拉式清單中的[!UICONTROL 「自訂使用者參數」]或[!UICONTROL 「自訂設定檔參數」]下，選擇您要用來鎖定活動的參數。如果需要的參數並未出現，表示參數尚未由 mbox 觸發。在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
+您也可以鎖定自訂設定檔參數和 `user.` 參數。新增對象時，按一下 **[!UICONTROL 「訪客資料]**」，然後選擇您要用來定位活動的參數。如果需要的參數並未出現，表示參數尚未由 mbox 觸發。在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
 
 使用搜尋方塊來搜尋您的[!UICONTROL 對象]清單。您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
-您可以依對象名稱或上次修改日期來排序「對象」清單。
+您可以依對象名稱或上次修改日期來排序「對象」清單。若要依名稱排序，請按一下欄標題，然後選擇依遞增或遞減順序來顯示對象。
 
 ## 訓練影片: 建立對象
 
@@ -35,5 +35,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
-
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
