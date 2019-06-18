@@ -8,7 +8,7 @@ title: '作業系統 '
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -17,20 +17,21 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 您可以鎖定使用某個作業系統的訪客。
 
-1. 在 [!DNL Target] 介面中，按一下**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 作業系統」]**。
-
-   ![](assets/target_os.png)
-
-1. 按一下**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 作業系統」]**。
+1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * Linux
    * Macintosh
    * Windows
 
-1. (可選) 按一下**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下 **[!UICONTROL 「儲存」]**。
+
+下列插圖顯示使用Macintosh OS鎖定訪客的對象。
+
+![](assets/target_os.png)
 
 ## 訓練影片: 建立對象
 
@@ -39,4 +40,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
