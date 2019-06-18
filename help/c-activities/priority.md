@@ -8,7 +8,7 @@ title: 優先順序
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 訪客符合的所有活動和體驗的內容會傳回至頁面。
-1. 如果每一個活動的內容參考不同的 [CSS 選取器](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
+1. 如果每一個活動的內容參考不同的[CSS 選取器](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
 
    如果有重疊或重複的 CSS 選取器，則會顯示具有最高優先順序的活動內容。在頁面上執行且來自所有活動的結果會計入並反映在報表中。
 
@@ -89,9 +89,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 >[!NOTE]
 >
->視您的設定而定，優先順序值會有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。如需詳細資訊，請參閱 [活動設定](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
+>視您的設定而定，優先順序值會有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。如需詳細資訊，請參閱[活動設定](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
 
-** 兩個 Target Classic 促銷活動使用非全域 mbox**
+**兩個 Target Classic 行銷活動使用非全域 mbox**
 
 * 行銷活動 1: homePageHero，offer1，優先順序高
 * 行銷活動 2: homePageHero，offer2，優先順序低
@@ -139,4 +139,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hant)
