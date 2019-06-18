@@ -8,7 +8,7 @@ title: 在 Target 中建立對象
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,35 +27,35 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 您可以將這兩個布林運算子混合來建立複雜的規則; 不過，相同規則層級的運算子必須相符。使用者介面會自動套用至正確的運算子。
 
-例如，下列規則會鎖定在 Windows 電腦上使用 Chrome 或 Firefox 的訪客:
+例如，下列規則針對在Windows電腦上使用Chrome *或* Firefox的訪客：
 
-![](assets/audience_create.png)
+![建立觀眾](assets/audience_create.png)
 
 >[!NOTE]
 >
->請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用瀏覽器 x 與瀏覽器 y 來造訪頁面。
+>請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用Chrome *和* Firefox瀏覽頁面。
 
 ## 建立新對象
 
-1. 按一下上方功能表列中的**[!UICONTROL 「對象」]**。
+1. 按一下上方功能表列中的 **[!UICONTROL 「對象」]**。
 
    ![](assets/audiences_list.png)
 
-1. 從[!UICONTROL 「對象」]清單中，按一下**[!UICONTROL 「+ 建立對象」]**。
+1. 從[!UICONTROL 「對象」]清單中，按一下 **[!UICONTROL 「+ 建立對象」]**。
 
    或
 
-   若要複製現有對象，請在[!UICONTROL 「對象」]清單中將游標移至所需對象上方，然後按一下**[!UICONTROL 「複製」]圖示。**然後您可以編輯對象以建立類似的對象。
+   若要複製現有對象，請在[!UICONTROL 「對象」]清單中將游標移至所需對象上方，然後按一下 **[!UICONTROL 「複製」]圖示。** 然後您可以編輯對象以建立類似的對象。
 
 1. 輸入不重複、描述性的對象名稱。
-1. 按一下**[!UICONTROL 「+ 新增規則」]**。
+1. 按一下 **[!UICONTROL 「+ 新增規則」]**。
 
    規則可讓您將對象限制在網站訪客的子集。
 1. 選取規則類型。
 
    每個規則類型都有其專屬的參數。請參閱[對象的類別](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的對象規則的詳細資訊。
 1. 定義規則參數。
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
    新建立的對象會在處理延遲幾秒之後出現在清單中。如果對象未立即在清單中顯示，請嘗試搜尋對象或重新整理清單。
 
@@ -66,4 +66,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
