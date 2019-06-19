@@ -1,21 +1,21 @@
 ---
-description: 定義對象，以比較對象資料庫或僅限此活動對象中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+description: 定義對象來比較您的Target對象程式庫或僅限活動對象的兩個描述檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 keywords: 對象;傾向;設定檔屬性;比較;比較;建立對象;建立對象
-seo-description: 定義對象，以比較對象資料庫或僅限此活動對象中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
-seo-title: 建立設定檔屬性比較對象
+seo-description: 定義對象來比較您的Target對象程式庫或僅限活動對象的兩個描述檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+seo-title: 建立設定檔屬性比較對象在Adobe Target中
 solution: Target
 title: 建立設定檔屬性比較對象
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
 
 # 建立設定檔屬性比較對象{#create-a-profile-attribute-comparison-audience}
 
-定義對象，以比較對象資料庫或僅限此活動對象中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+定義對象，以便比較 [您的觀眾程式庫](/help/c-target/c-audiences/audiences.md) 或 [僅限活動對象的兩個描述檔屬性](/help/c-target/creating-activity-only-audience.md)。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 
 >[!NOTE]
 >
@@ -36,20 +36,20 @@ source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 ## 建立設定檔屬性比較對象 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 依序按下**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象]** &gt; **[!UICONTROL 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
-1. 從**[!UICONTROL 「訪客設定檔」]下拉式清單選取屬性:**
+1. 依序按下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象]** &gt; **[!UICONTROL 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
+1. 從 **[!UICONTROL 「訪客設定檔」]下拉式清單選取屬性:**
 
-   ![](assets/propensity_score_1.png)
+   ![傾向分數1](assets/propensity_score_1.png)
 
 1. 選取求值器:
 
-   ![](assets/propensity_score_2.png)
+   ![傾向分數2](assets/propensity_score_2.png)
 
-1. 從**[!UICONTROL 「選取比較類型」]**下拉式清單中選擇**[!UICONTROL 「屬性」]**。
+1. 從 **[!UICONTROL 「選取比較類型」]** 下拉式清單中選擇 **[!UICONTROL 「屬性」]**。
 
    「靜態值」比較類型可讓您將訪客設定檔屬性與特定值比較。
 
-   ![](assets/propensity_score_3.png)
+   ![傾向分數3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,12 +57,10 @@ source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 1. 選取您要與初始屬性比較的額外屬性。
 
-   舉例來說，如果特定訪客的「廚房」屬性分數高於「裝潢」分數，這樣該訪客會納入此對象中。
-
    ![](assets/propensity_score_4.png)
 
 ## 訓練影片 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 觀看下列影片以獲得詳細資訊，並瞭解您可使用此功能的情況:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=chi_hant)
