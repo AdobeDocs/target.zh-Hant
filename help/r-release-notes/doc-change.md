@@ -2,13 +2,13 @@
 description: 此頁面列出對 Target 文件的重要變更。
 keywords: target 文件變更記錄;文件更新
 seo-description: 此頁面列出對 Target 文件的重要變更。
-seo-title: 文件變更
+seo-title: 文件變更Adobe Target產品文件中的
 solution: Target
 title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
