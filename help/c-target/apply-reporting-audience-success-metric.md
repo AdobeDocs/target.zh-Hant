@@ -1,13 +1,13 @@
 ---
 description: 選擇符合報表對象使用者資格的成功量度。
 keywords: 鎖定目標;對象;報表;成功量度
-seo-description: 選擇符合報表對象使用者資格的成功量度。
-seo-title: 套用報表對象至成功量度
+seo-description: 在Adobe Target中選擇成功度量，使報告對象符合使用者資格。
+seo-title: 將報告對象套用至Adobe Target中的成功度量
 solution: Target
 title: 套用報表對象至成功量度
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
