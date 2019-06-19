@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -21,50 +21,16 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019年月17日 | [活動 URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | 更新文字和影像。 |
-|  | [建立組合](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | 更新文字和影像。 |
-|  | [多變數測試的預覽體驗](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | 更新文字和影像。 |
-|  | [目標與設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | 更新文字和影像。 |
-|  | [設定量度](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | 更新文字和影像。 |
-|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 更新文字和影像。 |
-|  | [編輯活動或另存為草稿](/help/c-activities/edit-activity.md) | 更新文字和影像。 |
-|  | [活動變更記錄](/help/c-activities/change-log.md) | 更新文字和影像。 |
-|  | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新文字和影像。 |
-| 2019年月16日 | [建立多變數測試](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | 更新文字和影像。 |
-| 2019 年 6 月 15 日 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 進行小幅文字編輯。 |
-|  | [多變數測試最佳作法](/help/c-activities/c-multivariate-testing/best-practices.md) | 進行小幅文字編輯。 |
-|  | [計劃多變數測試](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 進行小幅文字編輯。 |
-| 2019年月14日 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 已新增使用案例藍本。 |
-|  | [建立體驗鎖定目標活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 更新文字和影像。 |
-|  | XT： [活動URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 更新文字。 |
-|  | XT： [創造體驗](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 更新文字和影像。 |
-|  | [在體驗定位中切換體驗](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | 更新文字和影像。 |
-|  | XT： [目標與設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | 更新文字和影像。 |
-|  | XT： [設定度量](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | 更新文字和影像。 |
+| 2019年月19日 | [新增促銷活動](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) | 已新增有關促銷活動對您活動條件建議之項目重復重復資料的資訊。 |
 | 2019 年 6 月 13 日 | [「重要屬性」報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增常見問題集：「相較於特定自動化群體的其他選件/體驗，為甚麼某些選件/體驗的轉換率較低？」 |
-|  | [建立自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字和影像。 |
-|  | [預估成功所需的流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 已新增影像。 |
-|  | [可視化體驗撰寫器中自動個人化的預覽體驗](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | 更新文字和影像。 |
-|  | [鎖定自動個人化選件](/help/c-activities/t-automated-personalization/ap-target-offers.md) | 更新文字和影像。 |
-|  | [管理排除項目](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 更新文字和影像。 |
-| 2019年月12日 | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 更新文字和影像。 |
 |  | [Adobe Target 如何運作](/help/c-intro/how-target-works.md) | 已新增有關在中國使用Target的重要附註。 |
 |  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 從「Target Standard/Premium介面」區段移除Microsoft Internet Explorer11(IE11)。Target不再支援或維護IE11的相容性。此變更僅影響Target UI。內容傳遞不受影響。此項變更會遵循Adobe Analytics、Adobe Experience Platform和Adobe Audience Manager的類似公告。建議使用者切換至支援的瀏覽器。 |
 | 2019年月11日 | [活動建立](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已移除附註，表示您必須使用A4T才能指定追蹤伺服器。 |
-|  | [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 更新文字和影像。 |
-|  | A/B測試： [活動URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 更新文字和影像。 |
-|  | A/B測試： [選擇對象](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | 更新文字和影像。 |
-|  | A/B測試： [目標與設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | 更新文字和影像。 |
-|  | A/B測試： [設定度量](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | 更新文字和影像。 |
-|  | [A/B 測試中的多個體驗版本](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | 更新文字和影像。 |
 |  | [活動](/help/c-activities/activities.md) | 強調您無法還原已刪除的活動。作為最佳實務，您可以封存活動，以便在必要時取消封存。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 已移除限制，指出在at. js2.x中不完整支援Experience Cloud除錯程式。 |
-|  | [報表](/help/c-reports/reports.md) | 更新文字和影像。 |
 | 2019 年 6 月 7 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增區段：「藍本：使用null檢查邏輯建立4x預設的Recommendations設計」。 |
 |  | [Adobe Target Standard 和 Premium 的訓練影片](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新Adobe Target教學課程網站的連結。 |
 |  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新文字和程式碼片段。 |
-|  | [訪客設定檔存留期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | 進行小幅文字編輯。 |
-|  | [測試電子郵件影像 Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | 進行小幅文字編輯。 |
 | 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新 `options > page` 參數的說明。 |
 |  | [管理員入門](/help/administrating-target/start-target.md) | 已更新整個文章。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target19.6.1版本的初步發行說明。 |
