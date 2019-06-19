@@ -8,7 +8,7 @@ title: 設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ if (mbox.name == 'Track_Interest') {
 
 [!UICONTROL 「指令碼資訊」]索引標籤包含下列資訊: 名稱、狀態、Token 類型、指令碼 ID、變更記錄，以及說明。
 
-![](assets/profile_script_info_card.png)
+![描述檔指令碼資訊卡](assets/profile_script_info_card.png)
 
 [!UICONTROL 「指令碼使用方式」]索引標籤會列出參照所選取設定檔指令碼的活動 (及其工作區)。
 
-![](assets/profile_script_info_card_usage_tab.png)
+![描述檔指令碼資訊卡&gt;指令碼使用標籤](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
