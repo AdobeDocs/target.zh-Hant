@@ -1,14 +1,14 @@
 ---
 description: 類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
 keywords: 相關性;類別相關性
-seo-description: 類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
-seo-title: 類別相關性
+seo-description: Adobe Target中的類別相似性功能會自動擷取使用者瀏覽的類別，然後計算使用者與該類別的相似性，以便進行定位和劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
+seo-title: 在Adobe Target中使用類別相似性
 solution: Target
 title: 類別相關性
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -45,16 +45,16 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 類別相關性演算法的運作方式如下:
 
-* 第一個檢視類別的點
+* 第一個類別檢視能獲得 10 點
 * 後續每個類別點擊能獲得 5 點
 * 每點擊一個新類別，系統會從先前點擊過的所有類別中扣除 1 點
 * 如果類別曾點擊 (檢視) 過，即使再點擊一次系統也不會從其他所有類別中扣除 1 點
 * 如果點擊第六個新類別，前五個類別中得分最低的類別會排除在計算之外
 * 作業結束時，所有值除以 2
 
-### 範例：類別相似性演算法
+### 範例: 類別相關性演算法
 
-例如，檢視 `mens-clothing` 類別，然後 `accessories`在 `jewelry`工作階段 `accessories` 中再次產生相似性：
+例如，在工作階段中檢視 `mens-clothing` 類別，然後 `accessories`，然後 `jewelry`，然後再次檢視 `accessories` 會產生下列相關性:
 
 * `accessories`: 9 (+5 – 1 + 5)
 
@@ -62,7 +62,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 * `jewelry`: 5 (+5)
 
-當作業結束，且使用者稍後返回網站時，分數會被減半：
+工作階段結束且使用者稍後回到網站時，分數已減半:
 
 * `accessories`: 4.5 (9/2)
 
@@ -70,7 +70,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 * `jewelry`: 2.5 (5/2)
 
-假設使用者接著依序檢視、依序 `jewelry``accessories``beauty``shoes``womens-clothing`、和：
+假設使用者接著依序檢視 `jewelry`、`accessories`、`beauty`、`shoes` 和 `womens-clothing`:
 
 * `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
 
@@ -82,9 +82,9 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 * `beauty`: 3 (+5 – 1 - 1)
 
-* `mens-clothing` 在最後一次點選 `womens-clothing` 後被捨棄，分數為分數(---1)
+* 在最後點按 `womens-clothing` 後，會捨棄得分最低的類別 `mens-clothing`，其分數為 1 (4 – 1 – 1 - 1)
 
-當作業結束，且使用者稍後返回網站時，分數會被減半：
+工作階段結束且使用者稍後回到網站時，分數已減半:
 
 * `accessories`: 3.3 (6.5/2)
 
@@ -107,19 +107,23 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ## 建立對象來使用類別相關性 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 從**[!UICONTROL 「對象」]**清單中，按一下**[!UICONTROL 「+ 建立對象」]**。
+1. 從 **[!UICONTROL 「對象」]** 清單中，按一下 **[!UICONTROL 「+ 建立對象」]**。
 
    或
 
    若要複製現有對象，請在「對象」清單中將游標移至所需對象上方，然後按一下「複製」圖示。然後您可以編輯對象以建立類似的對象。
 
 1. 輸入描述性的對象名稱。
-1. 按一下**[!UICONTROL 「+ 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
-1. 從**[!UICONTROL 「訪客設定檔」]**下拉式清單中，選取**[!UICONTROL 「類別相關性」]**。
+1. 按一下 **[!UICONTROL 「+ 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
+1. 從 **[!UICONTROL 「訪客設定檔」]** 下拉式清單中，選取 **[!UICONTROL 「類別相關性」]**。
 
-   ![](assets/affinity.png)
+   ![訪客資料&gt;類別相似性](assets/affinity.png)
 
 1. 選擇所需的類別:
+
+   ![類別相似性&gt;類別](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+   類別包括：
 
    * 最喜愛的類別
    * 第一個類別
@@ -135,7 +139,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
    * 等於
 
 1. 以個別一行指定每一個新的值 (例如，&quot;shoes&quot;)。
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 ## 在活動中使用類別相關性觀眾 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
