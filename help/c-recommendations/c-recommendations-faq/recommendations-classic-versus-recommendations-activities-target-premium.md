@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
 
 ## 建議作為選件
 
-您可以在A/B測試中 [!UICONTROL 加入建議] (包括 [!UICONTROL 自動分配] 和 [!UICONTROL 自動定位])和 [!UICONTROL 體驗定位] (XT)活動。
+您可以在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 與[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。
 
 這項功能開啟了全新功能，例如:
 
@@ -64,7 +64,7 @@ source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
 1. 選取預先建立的[設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 1. 預覽建議結果。
 
-## 視覺預覽 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## 視覺預覽{#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 設定建議之後即可預覽，並進行任何必要的變更，而不需要先在頁面上建立，然後再測試。從 [!DNL Target] 內可以使用預覽。
 
