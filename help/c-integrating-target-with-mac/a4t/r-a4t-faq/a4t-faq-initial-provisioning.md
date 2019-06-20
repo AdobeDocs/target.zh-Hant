@@ -7,8 +7,8 @@ solution: Target
 title: 初始佈建 - A4T 常見問題集
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
-translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,19 +17,19 @@ source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 此主題包含經常詢問關於佈建 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 
-## 如何設定多頁A4T活動？
+## 如何設定多頁 A4T 活動?
 
-若要實作基本多頁A4T使用案例：
+若要實作基本多頁 A4T 使用案例:
 
-* 在活動著陸URL/頁面上，實作Target(at. js或mbox. js)和Analytics的JavaScript程式庫。實作兩個解決方案會將Target資料與每個訪客的Analytics資料接合。此資料保留在Analytics中，直到預設過期時間設為90天為止。
+* 在活動登陸 URL/頁面上，實作同時適用於 Target (at.js 或 mbox.js) 和 Analytics 的 JavaScript 資料庫。實作兩種解決方案可拼接 Target 資料與每個訪客的 Analytics 資料。這些資料會保留在 Analytics 中，直到設為 90 天的預設到期期限過後為止。
 
-* 對於要追蹤Analytics度量的網站上剩餘頁面，請在這些頁面上實施Analytics。不需要在這些頁面上實施Target。在這些頁面上擷取的Analytics量度會自動接合至使用者最初符合該訪客從上一個項目符號附加的目標資訊的Target活動。
+* 針對網站上只有追蹤 Analytics 量度的其他頁面，請在這些頁面上實作 Analytics。不需要在這些頁面上實作 Target。系統會自動根據上個項目附加至訪客的 Target 資訊，將在這些頁面上擷取的 Analytics 量度，拼接至該使用者最初符合資格的 Target 活動。
 
 ## 如何判斷我的 Target 帳戶是否已啟用 A4T? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 定義 Analytics 活動時，在可以選取報表套裝之前，您同時需要 Analytics 使用者帳戶和 Target 使用者帳戶。必須依說明文件所述來設定您的使用者帳戶。請參閱[使用者權限需求](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
-只要您是可存取 Analytics 和 Target 的 Experience Cloud 群組的成員，且擁有所有報表套裝的存取權，您在**[!UICONTROL 「建立活動」]**下即會看見使用 Analytics 建立 A/B 測試的選項。
+只要您是可存取 Analytics 和 Target 的 Experience Cloud 群組的成員，且擁有所有報表套裝的存取權，您在 **[!UICONTROL 「建立活動」]** 下即會看見使用 Analytics 建立 A/B 測試的選項。
 
 如果發生佈建問題，請檢查 A4T 是否佈建正確。
 
