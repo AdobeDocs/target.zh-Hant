@@ -7,8 +7,8 @@ solution: Target
 title: 建立 JSON 選件
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -26,19 +26,19 @@ JSON 選件可用於表單式活動中，藉以啟用使用案例，此時 Targe
 * 當您使用「伺服器端 API」、「行動裝置 SDK」或 NodeJS SDK 時，可直接擷取 JSON 選件。
 * 在瀏覽器中，「只能」透過 at.js 1.2.3 (或更新版) 和以下方法擷取 JSON 選項: 使用[getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)，需利用 `setJson` 動作來篩選動作。
 * JSON 選件是以原生 JSON 物件提供，而不是字串。這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
-* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼來明確利用此方法取得選件: [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
+* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼來明確利用此方法取得選件:  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
 * 使用 mbox.js 時不支援 JSON 選件。
 
 ## 建立 JSON 選件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 按一下**[!UICONTROL 「選件」]**，然後選取**「代碼選件」]索引標籤。[!UICONTROL **
-1. 按一下**[!UICONTROL 「建立]** &gt; **[!UICONTROL JSON 選件]**」。
+1. 按一下 **[!UICONTROL 「選件」]**，然後選取 **「代碼選件」]索引標籤。[!UICONTROL **
+1. 按一下 **[!UICONTROL 「建立]** &gt; **[!UICONTROL JSON 選件]**」。
 
    ![](assets/offer-json.png)
 
 1. 輸入選件名稱。
-1. 在**[!UICONTROL 「程式碼」]方塊中，輸入或貼上 JSON 程式碼。**
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 在 **[!UICONTROL 「程式碼」]方塊中，輸入或貼上 JSON 程式碼。**
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 ## 範例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -129,9 +129,9 @@ adobe.target.getOffer({
 });
 ```
 
-## 依 JSON 選件類型來篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## 依 JSON 選件類型來篩選選件{#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按一下**[!UICONTROL 「類型」]**下拉式清單，然後選取 **JSON]核取方塊，依 JSON 選件類型來篩選「選件資料庫」。[!UICONTROL **
+您可以按一下 **[!UICONTROL 「類型」]** 下拉式清單，然後選取 **JSON]核取方塊，依 JSON 選件類型來篩選「選件資料庫」。[!UICONTROL **
 
 ![](assets/offer-json-filter.png)
 
