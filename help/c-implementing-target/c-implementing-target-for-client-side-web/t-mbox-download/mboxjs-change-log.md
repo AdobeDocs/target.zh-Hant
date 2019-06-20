@@ -7,8 +7,8 @@ solution: Target
 subtopic: 快速入門
 title: mbox.js 版本詳細資料
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Target 回應來自您頁面呼叫的方法，取決於您所使用的 Target �
 
 **Target 版本:** 17.7.1
 
-[!DNL mbox.js] 63 版現在已可用。如需詳細資訊，請參閱[下載 mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html)。
+[!DNL mbox.js] 63 版現在已可用。如需詳細資訊，請參閱[下載 mbox.js](https://marketing.adobe.com/resources/help/zh_TW/target/ov/t_target-download-config-mbox.html)。
 
 [!DNL mbox.js] 版本 63 中包括下列增強功能和修正:
 
@@ -246,7 +246,7 @@ mboxParameter 函數現在可用於 Target Standard 和 Premium。
 
 修正 Analytics 追蹤在 IE 9 和 11 中無法運作的問題。此項變更僅影響 Analytics 的使用者。
 
-現在您可以使用 targetPageParams() 函數，以陣列、JSON 物件或逗號分隔清單 (舊版支援) 的形式[傳遞參數](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html)至 target-global-mbox。
+現在您可以使用 targetPageParams() 函數，以陣列、JSON 物件或逗號分隔清單 (舊版支援) 的形式[傳遞參數](https://marketing.adobe.com/resources/help/zh_TW/target/ov/c_pass_parameters_to_global_mbox.html)至 target-global-mbox。
 
 重新命名 M2PcId 以及與 VisitorId 相關的所有項目。
 
