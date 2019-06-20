@@ -8,8 +8,8 @@ title: 「自動化區段」報表
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
 
 ## 存取「自動化區段」報表{#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下**[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
+1. 按一下 **[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
-1. 按一下**[!UICONTROL 「報表」]**。
+1. 按一下 **[!UICONTROL 「報表」]**。
 
    隨即顯示[!UICONTROL 「摘要」]報表，該報表提供活動績效的相關資訊，由第一個螢幕圖示表示。另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
@@ -41,13 +41,13 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
    >
    >您啟動活動後的至少 15 天內，將無法使用[!UICONTROL 「自動化區段」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「自動化區段」]圖示。15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「自動化區段」]報表。
 
-1. 啟動活動 15 天後，即可點擊**[!UICONTROL 「自動化區段」]圖示。**
+1. 啟動活動 15 天後，即可點擊 **[!UICONTROL 「自動化區段」]圖示。**
 
    ![](assets/model_attribute_ranking.png)
 
 1. 選取所需的日期範圍。
 
-   不同於[!UICONTROL 「摘要」]報表 (績效報表)，[!UICONTROL 「個人化前瞻分析」](包括[!UICONTROL 「自動化區段」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
+   不同於[!UICONTROL 「摘要」]報表 (績效報表)，[!UICONTROL 「個人化前瞻分析」] (包括[!UICONTROL 「自動化區段」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -166,6 +166,6 @@ AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且
 * 看看個人化模型中使用的屬性及其重要性。
 * 找出您可以傳遞給 Target 之其他資料點的商機，以進一步告知您的個人化。
 
-**屬性出現在區段卡片中的順序是否有任何邏輯？**
+**屬性在區段卡片中的顯示順序是否有任何邏輯?**
 
-否，卡片的順序僅根據上述排名。卡片內屬性的順序不是根據任何邏輯。
+否，卡片的順序僅根據上述排名。卡片內的屬性順序並未依據任何邏輯。
