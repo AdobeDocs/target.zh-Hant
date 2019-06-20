@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 進階
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,24 +36,24 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 **若要設定報表群組:**
 
-1. 在 AP 活動的「體驗」頁面中，按一下**[!UICONTROL 「管理內容」]圖示。**
+1. 在 AP 活動的「體驗」頁面中，按一下 **[!UICONTROL 「管理內容」]圖示。**
 
    ![](assets/ap_manage_content.png)
 
 1. 按一下[!UICONTROL **「管理內容」]對話方塊頂端的**[!UICONTROL 「選件」]索引標籤。
-1. (條件性) 藉由將游標移至所需的選件上，然後按一下**[!UICONTROL 「報表群組」]資料夾圖示，將特定體驗加入報表群組。**
+1. (條件性) 藉由將游標移至所需的選件上，然後按一下 **[!UICONTROL 「報表群組」]資料夾圖示，將特定體驗加入報表群組。**
 
    ![](assets/ap_manage_content_2.png)
 
-1. (條件性) 藉由選取相關體驗的核取方塊，然後按一下對話方塊右上角的**[!UICONTROL 「報表群組」]資料夾圖示，將體驗批次加入報表群組。**
+1. (條件性) 藉由選取相關體驗的核取方塊，然後按一下對話方塊右上角的 **[!UICONTROL 「報表群組」]資料夾圖示，將體驗批次加入報表群組。**
 
    ![](assets/ap_reporting_groups.png)
 
-1. 若要將選取的選件指派至現有的報表群組，請選取**[!UICONTROL 「現有」]**，從下拉式清單選取所需的報表群組，然後按一下**[!UICONTROL 「套用」]**。
+1. 若要將選取的選件指派至現有的報表群組，請選取 **[!UICONTROL 「現有」]**，從下拉式清單選取所需的報表群組，然後按一下 **[!UICONTROL 「套用」]**。
 
    或
 
-   若要建立新報表群組以將選定選件指派至該群組，請選取**[!UICONTROL 「新增」]**，命名新報表群組，然後按一下**[!UICONTROL 「套用」]**。
+   若要建立新報表群組以將選定選件指派至該群組，請選取 **[!UICONTROL 「新增」]**，命名新報表群組，然後按一下 **[!UICONTROL 「套用」]**。
 
    ![](assets/ap_manage_content_3.png)
 
