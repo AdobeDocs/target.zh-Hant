@@ -8,8 +8,8 @@ title: 個人化前瞻分析報表
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: tm+mt
-source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
 在 AP 或「自動鎖定目標」模型中使用的[!UICONTROL 「個人化前瞻分析」]報表中有兩種屬性:
 
 * **Target 自動收集的屬性:** Target 使用基礎資料集在 AP 和 AT 活動中建立反映在「個人化前瞻分析」中的個人化演算法。請參閱 [Target 個人化演算法的資料收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)，以瞭解資料類型、範例屬性，及其其[!UICONTROL 個人化前瞻分析]命名慣例。請注意，雖然考量到這些屬性，但個別活動模型可能不會在最終模型中使用所有屬性。
-* **傳遞至 Target 的屬性:**請參閱[上傳用於 Target 個人化演算法的資料](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)。
+* **傳遞至 Target 的屬性:** 請參閱[上傳用於 Target 個人化演算法的資料](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)。
 
 Target 提供許多方法，可以將其他資料傳遞給 Target，使得用於在 AP 和 AT 活動中建立其個人化演算法的基礎資料集更豐富:
 
@@ -60,4 +60,4 @@ Target 提供許多方法，可以將其他資料傳遞給 Target，使得用於
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-如需詳細資訊，請參閱 [「使用Adobe Target中的個人化前瞻分析報表](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)」。
+如需詳細資訊，請參閱[在 Adobe Target 中使用個人化前瞻分析報表](https://helpx.adobe.com/tw/target/kt/using/personalization-insights-report-feature-video-use.html)。
