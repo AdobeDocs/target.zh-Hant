@@ -7,8 +7,8 @@ solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
-source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,23 +25,23 @@ source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 以下小節列出 [!DNL Target] 的已知問題:
 
-### 取消在CMS內載入頁面 {#cancel}
+### 在 VEC 內取消載入頁面 {#cancel}
 
-* 在包含重新導向URL的CMS中，取消A/B測試 [!UICONTROL ] 或 [!UICONTROL 體驗鎖定] (XT)活動時，目前存在下列已知問題。
+* 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定目標] (XT) 活動時，目前存在下列已知問題。
 
-   在CMS的三部分引導式工作流程中，當您取消頁面載入時，CMS中的 [!UICONTROL 「修改] 」面板會顯示，而重新導向至URL範本會套用至體驗(例如「體驗B)。當您前往步驟或第三步驟，然後返回第步驟時，會發生下列情況。
+   在 VEC 三步驟引導式工作流程的步驟一中，當您取消頁面載入時，VEC 中的[!UICONTROL 修改]面板隨即顯示，且體驗 (例如「體驗B」) 上會套用重新導向至 URL 範本。當您繼續步驟二或步驟三然後回到步驟一時，會發生下列情況。
 
-   在「體驗B」中，預設會出現已取消的網站載入範本轉譯和 [!UICONTROL 「修改」] 面板，而不是這種情況，因為此體驗會重新導向套用至URL範本。應該顯示重新導向至URL範本。
+   根據預設，在「體驗 B」上，取消的網站載入範本隨即呈現，且可存取[!UICONTROL 修改]面板，但情況不應如此，因為此體驗已套用重新導向至 URL 範本。系統應顯示重新導向至 URL 範本。
 
-   若要在CMS中顯示體驗的正確狀態：
+   若要顯示 VEC 中的體驗的正確狀態:
 
-   如果您切換至另一個體驗，然後切換回「體驗B」， [!DNL Target] 則會顯示在此體驗上套用至URL範本的重新導向， [!UICONTROL 並無法存取「修改] 」面板。(TGT-32138)
+   如果您切換至其他體驗，然後切換回「體驗 B」，[!DNL Target] 會顯示此體驗上已套用的重新導向至 URL 範本，且無法存取[!UICONTROL 修改]面板。(TGT-32138)
 
-* 對於單一頁面應用程式(SPA)網站，取消載入不允許您編輯 [!UICONTROL 「修改」] 面板下的動作。
+* 若為單頁應用程式 (SPA) 網站，取消載入不會允許您編輯[!UICONTROL 修改]面板下的動作。
 
-### Target API中的企業權限支援 {#api}
+### Target API 中的企業權限支援 {#api}
 
-如果使用GET API提取選件清單，則從選件程式庫中的Target UI建立的程式碼選件可能會顯示在預設工作區中。此問題將於2019年月第一周修正。修正此項修正後，當從API提取時，程式碼選件會顯示在適當的工作區中。此問題不 ** 會影響從API建立的選件。例如，從API建立的程式碼選件會顯示在其建立的工作區中，不論是使用GET API還是從Target UI擷取。
+如果使用 GET API 提取選件清單，預設工作區中可能會顯示從選件資料庫中的 Target UI 建立的代碼選件。此問題將會在 2019 年 3 月的第一週修正。此修正就緒後，從 API 進行提取時，系統會在適當的工作區中顯示代碼選件。此問題*不會*影響從 API 建立的選件。例如，無論是透過 GET API 或從 Target UI 中擷取，從 API 建立的代碼選件都會顯示在其建立的工作區中。
 
 ### Recommendations
 
@@ -56,7 +56,7 @@ source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 * 建議的產品可能不會顯示最多兩位小數點的值。例如，如果嘗試在設計中將值顯示為 35.00，Recommendations 會顯示 35 (沒有小數點，而非兩位小數點)。(RECS-5972)
 
-   ****解決方案: 將實體的值傳遞至兩個 entity.attributes。第一個 `entity.value` 為保留參數，預期的是雙精度浮點數。第二個,可以是自訂的 entity.attribute，將以字串形式儲存實體的值，以允許正確轉換。
+   **** 解決方案: 將實體的值傳遞至兩個 entity.attributes。第一個 `entity.value` 為保留參數，預期的是雙精度浮點數。第二個,可以是自訂的 entity.attribute，將以字串形式儲存實體的值，以允許正確轉換。
 
    例如:
 
@@ -70,7 +70,7 @@ source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 下列是 at.js 的已知問題:
 
-* 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html)可讓您檢視完整的演算法清單。
+* 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](https://marketing.adobe.com/resources/help/zh_TW/target/recs/t_algo_select_recs.html)可讓您檢視完整的演算法清單。
 
    使用 at.js 時，「相容性」核取方塊會隱藏，使得您看不見不相容的演算法。
 
