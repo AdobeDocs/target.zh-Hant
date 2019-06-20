@@ -7,8 +7,8 @@ solution: Target
 title: 預估收入成長
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 預估收入提升度是根據從「主要目標」量度取得的「每次造訪帶來的收入 (RPV)」來計算。
 
-預估提升度是使用下列公式計算：(&lt;成功體驗RPV&gt;-&lt;控制體驗RPV&lt;)*&lt;活動中的訪客總數&gt;
+預估提升度採用下列公式計算: (&lt;成功體驗 RPV&gt; - &lt;控制體驗 RPV&lt;)*&lt;活動中的訪客總數&gt;
 
 如果縮短格式在小數前只有一位數，則產生的數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K
 
