@@ -8,15 +8,15 @@ subtopic: 快速入門
 title: 將資料傳入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: tm+mt
-source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 將資料傳入 Target 的方法{#methods-to-get-data-into-target}
 
-您可用來將資料取得Target的不同方法相關資訊，包括頁面參數、頁面內描述檔屬性、指令碼描述檔屬性、資料供應商、大量描述檔更新API、單一描述檔更新API和客戶屬性。
+關於您可以用來將資料放入 Target 的各種方法的資訊，包括頁面參數、頁面內設定檔屬性、指令碼設定檔屬性、資料提供者、大量設定檔更新 API、單一設定檔更新 AP 和客戶屬性。
 
 ## 頁面參數 (又稱為「mbox 參數」){#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -58,7 +58,7 @@ source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   除此之外的字元都必須經過 URL 編碼。標準指定下列格式( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )，如下所示：
+   除此之外的字元都必須經過 URL 編碼。此標準指定了下列格式 ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示:
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，�
 
 ### 訓練影片:
 
-* [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [在 Adobe Target 中實作資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 大量設定檔更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -240,7 +240,7 @@ at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，�
 * 客戶屬性資料可以與 Analytics 共用。大量設定檔更新只能 Target 中使用。
 * 「客戶屬性」支援為 Target 尚未看到的使用者建立設定檔。「大量設定檔更新 API」只會更新現有 Target 設定檔。
 * 「客戶屬性」需要使用 Experience Cloud ID (ECID)。「大量設定檔更新 API」需要 TNT ID 或 `mbox3rdPartyId`。
-* 您無法在下列位置傳送下列字元 `mbox3rdPartyID`：加上符號(+)和斜線(/)。
+* 您無法在 `mbox3rdPartyID` 中傳送下列字元: 加號 (+) 和正斜線 (/)。
 
 ### 格式
 
@@ -298,7 +298,7 @@ CRM 或其他內部系統中儲存關於訪客的實用資料 (您希望持續�
 
 ### 代碼範例
 
-支援 GET 和 POST。 `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+支援 GET 和 POST。`https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### 相關資訊的連結
 
@@ -336,8 +336,8 @@ Target Standard 客戶可使用 5 個屬性，Target Premium 客戶可使用 200
 
 ### 代碼範例
 
-如需詳細資料，請參閱[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
+[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_crs_usecase.html)提供詳細資訊。
 
 ### 相關資訊的連結
 
-[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_crs_usecase.html)
