@@ -7,8 +7,8 @@ solution: Target
 title: At.js 處理忽隱忽現情況的方式
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 
 若不透明度設為 0 仍無法在您的實作上順利運作，您也可以透過自訂 `bodyHiddenStyle`，並設為 `body {visibility:hidden !important}`}，來管理忽隱忽現的問題。您可依適用您特定環境的條件，使用值 body `{opacity:0 !important`} 或 `body {visibility:hidden !important}` 其中之一。
 
-下圖顯示 js 1.*x* 和at. js2.x。
+下圖顯示 js 1.*x* 和 at.js 2.x。
 
-**at. js2.x**
+**at.js 2.x**
 
 ![Target 流程: at.js 頁面載入要求](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 body {opacity: 0 !important}
 ```
 
-## 在. js2.x for觸發器View()中管理Flicker
+## 處理 at.js 2.x 中 triggerView() 忽隱忽現的情形
 
-使用 `triggerView()` 顯示 SPA 中的目標內容時，會自動提供處理忽隱忽現問題的功能。這表示不需要手動新增預先隱藏邏輯。在套用目標內容之前，at. js2.x會預先隱藏檢視需要顯示的位置。
+使用 `triggerView()` 顯示 SPA 中的目標內容時，會自動提供處理忽隱忽現問題的功能。這表示不需要手動新增預先隱藏邏輯。at.js 2.x 會在套用目標內容之前，預先隱藏需要顯示檢視的位置。
 
 ## 透過 getOffer() 和 applyOffer() 處理忽隱忽現的情形
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 在at. js1.x中使用包含mboxCreate()的區域mbox(at. js2.x不支援)
+## 利用 At.js 1.x 中的 mboxCreate() 來使用地區 mbox (at.js 2.x 不支援)
 
 如果您使用地區 mbox 實作，則可以使用 `mboxCreate()` 搭配您佈建的頁面，類似下列範例程式碼:
 
