@@ -8,8 +8,8 @@ title: 自動個人化摘要報表
 title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 >
 >自動個人化屬於 [!DNL Target Premium] 解決方案的一部分。[!DNL Target Standard] 若沒有 [!DNL Target Premium] 授權則不包含此功能。
 
-1. 按一下**[!UICONTROL 「活動」]**，從清單中按一下所需的[!UICONTROL 「自動個人化」]活動，然後按一下**[!UICONTROL 「報表」]**標籤。
+1. 按一下 **[!UICONTROL 「活動」]**，從清單中按一下所需的[!UICONTROL 「自動個人化」]活動，然後按一下 **[!UICONTROL 「報表」]** 標籤。
 
    如果您有許多活動，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「自動個人化」]，以篩選清單。
 
