@@ -7,33 +7,33 @@ solution: Target
 title: 不使用 A4T 時的預期資料差異
 topic: 進階
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異{#expected-data-variances-when-not-using-a-t}
 
-關於使用Analytics做為報告來源 [!DNL Target] (A4T) [!DNL Analytics] 時 *，與* Adobe ** 之間預期之資料差異的資訊。A4T 可大幅減少資料差異.
+有關*使用*和*不使用* Analytics 做為報表來源 (A4T) 時，[!DNL Target] 和 Adobe [!DNL Analytics] 之間預期資料差異的資訊。A4T 可大幅減少資料差異.
 
-## 使用A4T時預期的資料差異 {#expected-using-a4t}
+## 使用 A4T 時的預期資料差異 {#expected-using-a4t}
 
 若使用 A4T，活動的 Analytics 與 Target 報表皆僅使用 Analytics 資料，因此 Target 活動報表中的解決方案之間沒有差異。但是，在某些情況下，客戶可能會將 Target 資料與 A4T 整合範圍以外的 Analytics 資料進行比較，因此，請體驗下列所述的差異問題。
 
-以下是您可能遇到預期資料差異的幾個案例：
+以下是一些您可能會遇到預期資料差異的案例:
 
-* A4T允許Target點擊(頁面頂端)發生，但沒有Analytics點擊(頁面底部)。例如，如果使用者載入頁面，但在觸發Analytics呼叫之前關閉瀏覽器。在這種情況下，A4T會排除來自資料的Target點擊。原因在於，允許Target點擊(又同樣於頁面頂端)計數為Analytics點擊時，會產生與Analytics中的資料集不一致(訪客膨脹等)的不一致。
+* A4T 允許 Target 點擊 (頁面頂端) 發生的可能性，但不允許 Analytics 點擊 (頁面底部) 發生。舉例來說，如果使用者載入頁面，但瀏覽器在觸發 Analytics 呼叫前關閉。在這些案例中，A4T 會從我們的資料中排除 Target 點擊。原因在於，若允許在沒有實際 Analytics 呼叫的情況下，將 Target 點擊 (同樣位於頁面頂端) 計算為 Analytics 點擊，則會產生與 Analytics 中的資料集不一致的情況 (訪客膨脹等)。
 
-   如果Target中的重新導向測試設定為分割流量50/50(或25/25/25/25等)，使用者行為可能不會平均分割。如果您看到不一致的分割，表示一組使用者無法在著陸頁面上執行Analytics呼叫，而非其他群組的執行。如果無法對某個群組執行Analytics呼叫，將會排除該使用者的Target點擊，因而造成不知情。
+   若已在 Target 中將重新導向測試設定為分割流量 50/50 (或 25/25/25/25 等)，使用者行為可能無法除盡。如果您看到不平均的分割，這就表示相較於其他群組，某個使用者群組無法在登陸頁面上執行 Analytics 呼叫。這種某個群組無法執行 Analytics 呼叫的情況導致了該使用者的 Target 點擊遭到排除，產生不平均的問題。
 
-   我們希望在Adobe Experience Platform上推出A4T時，未來能解決這個問題。我們的團隊正在研究如何最佳處理不同時間在頁面上發生的不同事件。
+   這是我們希望在 Adobe Experience Platform 上邁向 A4T 的同時，能在未來處理的問題。我們的團隊正在努力尋找在不同時間點發生的這些頁面上的不同事件的最佳處理方法。
 
-* 假設您為特定頁面的所有訪客建立「自動分配」活動。由於「自動分配」活動不支援 A4T，因此 [!DNL Target] 會收集所有活動資料。您可能希望 [!DNL Target] 報表中的活動訪客數與相同日期範圍內 [!DNL Analytics] 報表中該頁面的訪客數相符。這是下列所述之預期差異的案例。
+* 假設您建立了一個在特定頁面開放給所有訪客的自動分配活動。由於「自動分配」活動不支援 A4T，因此 [!DNL Target] 會收集所有活動資料。您可能希望 [!DNL Target] 報表中的活動訪客數與相同日期範圍內 [!DNL Analytics] 報表中該頁面的訪客數相符。這是下列所述之預期差異的案例。
 
    如需支援 A4T 的活動類型完整清單，請參閱[支援的活動類型](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)。
 
-## *不使用* A4T 時的預期資料差異 {#expected-not-using-a4t}
+## *不使用* A4T 時的預期資料差異{#expected-not-using-a4t}
 
 即使是使用相似的資料集，有 15-20% 的差異也是正常的。算法不同的系統可能會導致更高的資料差異，高達 35-50%。在某些情況下，差異可能還會更高。
 
@@ -45,7 +45,7 @@ source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
 
 預期的資料差異可能是因為技術與業務差異所致。
 
-### 技術差異的範例 {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### 技術差異的範例{#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 下列的技術差異可能造成資料差異:
 
@@ -55,7 +55,7 @@ source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
 * 時區考量
 * 可計算的裝置差異
 
-### 業務差異的範例 {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### 業務差異的範例{#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 下列的業務差異可能造成資料差異:
 
