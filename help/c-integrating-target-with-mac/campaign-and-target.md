@@ -7,8 +7,8 @@ solution: Target
 title: 將 Target 與 Adobe Campaign 整合
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2e419d331
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -40,23 +40,23 @@ Target 可以追蹤下列資料:
    * Target 中的 rawbox 和體驗
    * Campaign 中的傳送
 
-## 開始之前 {#section_FF19BF1BCA064260930BF6C141313B0E}
+## 開始之前{#section_FF19BF1BCA064260930BF6C141313B0E}
 
 使用 Adobe Campaign 來設定鎖定目標的電子郵件選件之前，請在 Target 中設定下列各項:
 
 * 兩個或更多個 Target 重新導向選件
 
-   請參閱[建立重新導向選件](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html)。
-* 具有每個選件的體驗以及所需[成功量度](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html)的 Target 活動。
+   請參閱[建立重新導向選件](https://marketing.adobe.com/resources/help/zh_TW/target/target/t_offer_redirect.html)。
+* 具有每個選件的體驗以及所需[成功量度](https://marketing.adobe.com/resources/help/zh_TW/target/target/r_success_metrics.html)的 Target 活動。
 
-   請參閱[重新導向至 URL](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html)。
+   請參閱[重新導向至 URL](https://marketing.adobe.com/resources/help/zh_TW/target/target/t_redirect_offer.html)。
 
 在設定整合的 Campaign 部分之前，請先在 Target 中啟動活動。
 
-## 在 Adobe Campaign 電子郵件中包含 Target 選件 {#section_B201BBE27A704E18AF0D553F35695837}
+## 在 Adobe Campaign 電子郵件中包含 Target 選件{#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在 Adobe Campaign 中建立電子郵件。
-1. 在電子郵件屬性中，按一下**[!UICONTROL 「包含]** &gt; **[!UICONTROL Adobe Target 提供的動態影像」]**。
+1. 在電子郵件屬性中，按一下 **[!UICONTROL 「包含]** &gt; **[!UICONTROL Adobe Target 提供的動態影像」]**。
 1. 從共用資產中選取預設影像。
 1. 指定位置 (rawbox)。
 1. 新增任何其他決策參數，例如收件者的性別。
