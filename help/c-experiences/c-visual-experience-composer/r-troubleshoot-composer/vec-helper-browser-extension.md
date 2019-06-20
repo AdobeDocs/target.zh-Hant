@@ -6,8 +6,8 @@ seo-title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 solution: Target
 title: 可視化體驗撰寫器 Helper 擴充功能
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 46f86cbcfb25efba2c71356fb2defc429535e706
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,17 +35,17 @@ Chrome 的 VEC Helper 瀏覽器擴充功能解決了客戶現依賴 [!DNL Target
 
 ## 取得並安裝 VEC Helper 瀏覽器擴充功能
 
-1. 導覽至Chrome Web Store中 [的Adobe Target CMS Helper瀏覽器延伸模組](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)。
+1. 導覽至 [Chrome 線上應用程式商店的 Adobe Target VEC Helper 瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)。
 1. 按一下[!UICONTROL 「新增至 Chrome &gt; 新增擴充功能」]。
 1. 若要使用擴充功能，請在 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)中時，按一下 Chrome 瀏覽器工具列上的 VEC Helper 瀏覽器擴充功能圖示 (![VEC Helper 圖示](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
 
-下圖顯示啓用 [!UICONTROL 「插入目標程式庫」] 設定的CMS Helper：
+下圖顯示已啟用[!UICONTROL 插入 Target 資料庫]設定的 VEC Helper:
 
-![CMS協助工具1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+![VEC helper 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-下圖顯示CMS Helper詢問您是否要在頁面中插入 [!DNL Target] 程式庫以啓用編寫：
+下圖顯示詢問您是否要在頁面中插入 [!DNL Target] 資料庫以啟用編寫功能的 VEC Helper:
 
-![CMS協助工具2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+![VEC helper 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
 ## 附註
 
