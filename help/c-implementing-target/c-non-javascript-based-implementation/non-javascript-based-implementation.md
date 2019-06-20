@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 電子郵件實作 Target
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
-translation-type: tm+mt
-source-git-commit: 2c329fdfe0047740ed803b9b0478ce107a23c8dc
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
