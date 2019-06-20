@@ -7,8 +7,8 @@ solution: Target
 title: 轉換率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: tm+mt
-source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
 
 若控制值為 0，則無百分比提升度。
 
-## 信賴度 (統計顯著性) {#section_35DB6724813D40C7B0808DE18FE595C1}
+## 信賴度 (統計顯著性){#section_35DB6724813D40C7B0808DE18FE595C1}
 
 此數字代表再次執行測試時會產生重複結果的可能性。可信度大於或等於 99.995% 時會四捨五入為 100.00%。
 
@@ -55,7 +55,7 @@ source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
 
 ## 零售資料 {#section_30A674731BA6440E9BB93C421BE990EE}
 
-如果您插入 [下訂單](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) mbox 並選為轉換 mbox，則會顯示每一個體驗的 AOV、RPV 和銷售資料。
+如果您插入[下訂單](https://marketing.adobe.com/resources/help/zh_TW/target/ov/t_orderconfirm_create.html) ( `orderConfirmPage`) mbox 並選為轉換 mbox，則會顯示每一個體驗的 AOV、RPV 和銷售資料。
 
 ## 信賴等級與信賴區間 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -64,7 +64,7 @@ source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
 Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如下:
 
 * **轉換:** 是或否
-* **其他全部:**範圍內的值
+* **其他全部:** 範圍內的值
 
 您可以對 for Target (A4T) 執行離線計算，但在 [!DNL Analytics]Analytics 中需要執行資料匯出的步驟。如需詳細資訊，請參閱以下的「對 Target (A4T) 執行離線計算」。
 
@@ -96,14 +96,14 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 
 ![](assets/conversion_rate.png)
 
-**範例:** 體驗的 RPV 為 $10，其信賴等級為 95%，而其**信賴區間**為 $5 至 $15。如果我們多次執行此測試，則 95% 的次數中 RPV 會介於 $5 與 $15 之間。
+**範例:** 體驗的 RPV 為 $10，其信賴等級為 95%，而其 **信賴區間** 為 $5 至 $15。如果我們多次執行此測試，則 95% 的次數中 RPV 會介於 $5 與 $15 之間。
 
-**影響信賴區間的因素為何？**公式會遵循標準統計方法來計算信賴區間。
+**影響信賴區間的因素為何？** 公式會遵循標準統計方法來計算信賴區間。
 
 * **樣本尺寸:** 樣本增大，區間就縮小或變窄。這代表您的報表越來越接近成功度量的真值，因此為有利狀況。
 * **標準偏差較小:** 結果越近似 (例如相似的 AOV、數字或每日轉換訪客)，便越會縮小標準偏差。
 
-## 可信度計算以及如何離線執行計算 {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## 可信度計算以及如何離線執行計算{#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 [下載的 CSV 報表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
@@ -124,22 +124,22 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 **使用[!DNL Analytics]資料匯出功能來這樣做:**
 
 1. 登入 [!DNL Adobe Analytics]。
-1. 按一下**[!UICONTROL 「工具]** &gt; **[!UICONTROL 資料倉儲」]**。
-1. 在**[!UICONTROL 「資料倉儲要求」]標籤上，填寫欄位。**
+1. 按一下 **[!UICONTROL 「工具]** &gt; **[!UICONTROL 資料倉儲」]**。
+1. 在 **[!UICONTROL 「資料倉儲要求」]標籤上，填寫欄位。**
 
-   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)中的「資料倉儲說明」。
+   如需每一個欄位的相關資訊，請參閱 [Data Warehouse](https://marketing.adobe.com/resources/help/zh_TW/reference/data_warehouse.html)中的「Data Warehouse 說明」。
 
    | 欄位 | 說明 |
    |--- |--- |
    | 請求名稱 | 指定要求的名稱。 |
    | 報告日期 | 指定時段和精度。<br>最佳做法是不要為第一個要求選擇超過一小時或一天的資料。所要求的時段越長，資料倉儲檔案處理的時間就越長，最好一律先要求較短時段的資料，以確保檔案傳回預期的結果。接著，前往「要求管理程式」，複製要求，再第二次要求更多資料。此外，如果您將精度切換為「無」以外的任何值，檔案大小會大幅增加。<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | 可用區段 | 視需要套用區段。 |
-   | 劃分 | 選取所需的維度:  標準是內建 (OOTB)，而「自訂」包含 eVars 與屬性。如果需要訪客 ID 層級資訊，建議您使用「訪客 ID」，而非「Experience Cloud 訪客 ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
+   | 劃分 | 選取所需的維度:    標準是內建 (OOTB)，而「自訂」包含 eVars 與屬性。如果需要訪客 ID 層級資訊，建議您使用「訪客 ID」，而非「Experience Cloud 訪客 ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
    | 量度 | 選取所需的量度。標準是 OOTB，而「自訂」包含自訂事件。 |
    | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | 計劃傳送 | 輸入要將檔案傳送到哪個電子郵件地址、命名檔案，然後選取[!UICONTROL 「立即傳送」]。<br>注意: 在[!UICONTROL 「進階傳送選項」]下，您可以透過 FTP 傳送檔案<br>![排程傳送](/help/c-reports/assets/datawarehouse3.png)。 |
 
-1. 按一下**[!UICONTROL 「請求此報表」]**。
+1. 按一下 **[!UICONTROL 「請求此報表」]**。
 
    檔案傳送最多可能需要 72 小時，視所要求的資料量而定。您隨時可以按一下「[!UICONTROL 工具] &gt; [!UICONTROL 資料倉儲] &gt; [!UICONTROL 要求管理程式]」，以檢查要求的進度。
 
@@ -147,8 +147,8 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立資料倉儲要求](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Data Warehouse 最佳作法](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [建立 Data Warehouse 請求](https://marketing.adobe.com/resources/help/zh_TW/reference/t_dw_create_request.html)
+* [Data Warehouse 最佳作法](https://marketing.adobe.com/resources/help/zh_TW/reference/data_warehouse_bp.html)
 
 ## 計算方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
