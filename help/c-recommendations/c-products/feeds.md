@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1ac2baf9d3fe7a84d7e65a0aec99c4bfdef613a4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -85,7 +85,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+## Google{#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >不一定要使用 Google 資料。[!DNL Recommendations] 使用與 Google 相同的格式。您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。實體摘要可以傳送到 [!DNL Recommendations] 、 [!DNL .xml][!DNL .txt]或 [!DNL .tsv]可以使用Google定義的 [屬性](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)。結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。實體摘要可透過 [!DNL .xml]、[!DNL .txt] 或 [!DNL .tsv] 傳送至[!DNL Recommendations]，並且可以使用 [Google 所定義的屬性](https://support.google.com/merchants/answer/7052112?hl=tw&amp;topic=2473824&amp;ctx=topic&amp;visit_id=636874736418071461-2956332993&amp;rd=1#TW)。結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
+## Analytics 產品分類{#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的相關資訊，請參閱 *Analytics 說明和參考*指南中的[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的相關資訊，請參閱 *Analytics 說明與參考*指南中的[分類](https://marketing.adobe.com/resources/help/zh_TW/reference/classifications.html)。目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -198,7 +198,7 @@ Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的�
 >* Target 僅支援「產品分類」。Analytics 產品 SKU 必須對應至與建議相同的等級。您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
 
 
-## 建立摘要 {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## 建立摘要{#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
@@ -208,12 +208,12 @@ recs/t_feeds_create.xml
 
  -->
 
-1. 在 Target 介面中，按一下**[!UICONTROL 「建議]** &gt; **[!UICONTROL 摘要]** &gt; **[!UICONTROL 建立摘要」]**。
+1. 在 Target 介面中，按一下 **[!UICONTROL 「建議]** &gt; **[!UICONTROL 摘要]** &gt; **[!UICONTROL 建立摘要」]**。
 
    ![步驟結果](assets/CreateFeed.png)
 
 1. 為摘要指定描述性名稱。
-1. 選取**[!UICONTROL 來源類型]**。
+1. 選取 **[!UICONTROL 來源類型]**。
 
    如需 Google 產品摘要和 CSV 摘要類型的相關資訊，請參閱[摘要概覽](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。
 1. 指定報表套裝，或可供存取摘要的 URL 或 FTP 位置。
@@ -221,7 +221,7 @@ recs/t_feeds_create.xml
    如果您選取 FTP，請提供 FTP 伺服器資訊、登入認證、檔名和 FTP 目錄。您可以選擇使用 FTP SSL (FTPS)，以更安全地上傳。
 
    如果您選取 URL，請指定 URL。
-1. 按**[!UICONTROL 「下一步」]**箭頭來顯示[!UICONTROL 「排程」]選項。
+1. 按 **[!UICONTROL 「下一步」]** 箭頭來顯示[!UICONTROL 「排程」]選項。
 
    ![步驟結果](assets/CreateFeedSchedule.png)
 
@@ -236,7 +236,7 @@ recs/t_feeds_create.xml
 1. 指定您要執行摘要的時間。
 
    此選項是根據瀏覽器中使用的時區。如果要使用不同時區的時間，則必須根據您的時區來計算該時間。
-1. 按**[!UICONTROL 「下一步」]**箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至 [!DNL Target] 定義。
+1. 按 **[!UICONTROL 「下一步」]** 箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至 [!DNL Target] 定義。
 
    ![步驟結果](assets/CreatFeedMapping.png)
 
@@ -248,7 +248,7 @@ recs/t_feeds_create.xml
    >
    >如需詳細資訊，請參閱[主機](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 建立或編輯摘要之後，摘要會立即執行，然後根據您設定的參數而更新。需要一些時間，全部資訊才可供使用。首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。目前狀態顯示於「摘要」清單的[摘要狀態](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)下。您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
 
@@ -256,7 +256,7 @@ recs/t_feeds_create.xml
 
 當狀態顯示「成功」時，表示找到檔案且剖析正確。在檔案編列索引之前，[!DNL Recommendations] 內沒有資訊可用，這需要一些時間，視檔案大小而定。如果處理程序失敗，表示找不到檔案 (例如，您使用不正確的 URL，或 FTP 資訊不正確) 或剖析錯誤。
 
-## 摘要狀態和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
+## 摘要狀態和指示器{#concept_E475986720D1400999868B3DFD14A7A0}
 
 關於可能的摘要狀態和其指示器的資訊。
 
@@ -267,23 +267,23 @@ recs/t_feeds_create.xml
 | 狀態 | 說明 |
 |--- |--- |
 | 正在同步 | 摘要設定詳細資料正在儲存至 Target。 |
-| 同步失敗 | 摘要設定詳細資訊無法儲存至Target。請再試一次。 |
+| 同步失敗 | 無法將摘要設定詳細資料儲存至 Target。請重試。 |
 | 沒有執行的摘要 | 您已建立摘要，但尚未排程 (頻率設定為「從不」)。 |
 | 排定在*日期和時間* | 摘要尚未執行，但已排定在指定的日期和時間執行。 |
-| 等候下載 | Target正在準備下載動態消息檔案。 |
-| 下載動態消息檔案 | Target正在下載動態消息檔案。 |
-| 匯入項目 | Target會從動態消息檔案匯入項目。注意：在此步驟完成後「準備搜尋索引更新」後，項目屬性變更已匯入至我們的中央系統，並將反映在60分鐘內地理邊緣節點傳回的傳遞建議內容中。 |
-| 準備搜尋索引更新 | Target正在準備更新目錄搜尋索引。注意：如果列出此狀態，項目屬性的變更已經過修改，很快就會反映在傳遞的建議中，但這些建議尚未反映在目錄搜尋中。 |
-| 更新搜尋索引 | Target正在更新目錄搜尋索引。注意：如果列出此狀態，項目屬性的變更已經過修改，很快就會反映在傳遞的建議中，但這些建議可能尚未反映在目錄搜尋中。 |
-| 已完成更新 | Target已完成與動態消息檔案關聯的所有更新。 |
-| 無法索引 | 索引作業失敗。請再試一次。 |
+| 正在等候下載 | Target 正在準備下載摘要檔案。 |
+| 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
+| 正在匯入項目 | Target 正在從摘要檔案匯入項目。注意: 完成此步驟且顯示「正在準備搜尋索引更新」後，項目屬性變更即已匯入我們的中央系統，並且會在 60 分鐘內反映於地理區域邊緣節點所傳回的傳送建議內容。 |
+| 正在準備搜尋索引更新 | Target 正在準備更新目錄搜尋索引。注意: 如果系統列出此狀態，表示已做出項目屬性變更，而雖然這些變更尚未反映於目錄搜尋中，但不久後將反映於傳送建議中。 |
+| 正在更新搜尋索引 | Target 正在更新目錄搜尋索引。注意: 如果系統列出此狀態，表示已做出項目屬性變更，而雖然這些變更可能尚未反映於目錄搜尋中，但不久後將反映於傳送建議中。 |
+| 已完成更新 | Target 已完成所有與摘要檔案相關聯的更新。 |
+| 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
-若要更新動態消息(例如，若要變更動態消息設定或饋送檔案)，請開啓動態消息、進行任何所需變更，然後按一下**[!UICONTROL 「儲存]**」。
+若要更新動態消息(例如，若要變更動態消息設定或饋送檔案)，請開啓動態消息、進行任何所需變更，然後按一下 **[!UICONTROL 「儲存]**」。
 
 >[!IMPORTANT]
 >
->上傳的實體會在61天後過期。這表示您的饋送檔案至少應每60天上傳一次，以避免建議活動中斷。如果項目在饋送檔案(或其他實體更新方法)中未包含一次至少60天，Adobe Target將不再相關，並且將它從目錄移除。
+>上傳的實體會在 61 天後過期。這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。如果項目未至少每隔 60 天包含在摘要檔案 (或其他實體更新方法) 中，Adobe Target 會推斷該項目已不再相關，並且會將其從目錄中移除。
 
 ### 摘要狀態指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
