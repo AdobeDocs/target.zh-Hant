@@ -1,23 +1,23 @@
 ---
-description: 有關at. js2.x和at. js1.x控制Cookie的詳細資訊
+description: 有關 at.js 2.x 和 at.js 1.x 如何處理 Cookie 的詳細資訊
 keywords: at.js;2.0;1.x;Cookie
-seo-description: Adobe Target at. js2.x和at. js1.x控制Cookie的詳細說明
+seo-description: 有關 Adobe Target at.js 2.x 和 at.js 1.x 如何處理 Cookie 的詳細資訊
 seo-title: Adobe Target at.js Cookie
 solution: Target
 subtopic: 快速入門
 title: at.js Cookie
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 3b2b8706ed23dd00fb7d0994e830ab8d4f492384
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # at.js Cookie {#at-js-cookies}
 
-有關at. js2.x和at. js的資訊。*x* Cookie 行為的相關資訊。
+有關 at.js 2.x 和 at.js 1 的資訊。*x* Cookie 行為。
 
-## at. js2.x Cookie行為
+## at.js 2.x Cookie 行為
 
 若使用 at.js 2.0.0版，*僅支援第一方 Cookie*。就像使用 at.js 1.*x* 一樣，第一方 Cookie「mbox」儲存在 `clientdomain.com` 中，其中的 `clientdomain` 為您的網域。
 
@@ -31,9 +31,9 @@ at.js 會產生一個工作階段 ID 並將其儲存於 Cookie 中。第一個�
 
 在 at.js 1.*x* 中，第三方 Cookie 儲存在 `[CLIENTCODE].tt.omtrdc.net` 網域中，而第一方 Cookie 會儲存於 `clientdomain.com` 中。第一個要求會傳回 HTTP 回應標頭，此標頭嘗試設定名為 `mboxSession` 和 `mboxPC` 的第三方 Cookie，之後傳回附有額外參數 (`mboxXDomainCheck=true`) 的重新導向要求。若瀏覽器接受第三方 Cookie，則重新導向要求會包含這些 Cookie 並傳回選件。這個工作流程因為 at.js 1.*x* 使用 HTTP GET 方法而可行。
 
-不過，在at. js2.x中已不再使用HTTP GET，而改用HTTP POST。現在需透過 at.js 使用 HTTP POST，將 JSON 裝載 (而非機碼值參數) 傳送至 [!DNL Target] Edge 伺服器。這表示檢查瀏覽器是否支援第三方 Cookie 的重新導向要求現在已失效。這是因為 HTTP GET 要求為等冪交易，而 HTTP POST 是非等冪交易且不得任意重複。
+不過 at.js 2.x 已不再使用 HTTP GET，而是改用 HTTP POST。現在需透過 at.js 使用 HTTP POST，將 JSON 裝載 (而非機碼值參數) 傳送至 [!DNL Target] Edge 伺服器。這表示檢查瀏覽器是否支援第三方 Cookie 的重新導向要求現在已失效。這是因為 HTTP GET 要求為等冪交易，而 HTTP POST 是非等冪交易且不得任意重複。
 
-因此，at. js2.0.0中不支援第三方Cookie或跨網域追蹤。
+因此，at.js 2.0.0 不支援第三方 Cookie 和跨網域追蹤。
 
 ## at.js 1。*x* Cookie 行為 {#at-js-1x-cookie-behavior}
 
@@ -147,7 +147,7 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 |--- |--- |
 | 智慧型追蹤預防 | 如需詳細資訊，請參閱 WebKit Open Source Web Browser Engine 網站上的[智慧型追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention/)。 |
 | Cookie | Safari 如何處理 Cookie:<ul><li>使用者直接存取的網域上不存在的第三方 Cookie 永不儲存。這不是新的行為。Safari 尚不支援第三方 Cookie。</li><li>使用者直接存取的網域上所設定的第三方 Cookie 會在 24 小時後清除。</li><li>如果第一方網域已分類為跨網站追蹤使用者，則會在 30 天後清除第一方 Cookie。在線上將使用者送往不同網域的大型公司可能會發生此問題。Apple 並未明確解釋這些網域如何分類，或網域如何判斷本身是否已分類為跨網站追蹤使用者。</li></ul> |
-| 使用「機器學習」來辨別跨網站的網域 | 從 Apple:<br>機器學習分類器: 機器學習模型用來分類哪些私人控制的最上層網域有能力根據收集的統計資料，而跨網站追蹤使用者。從各種收集的統計資料中，有三個向量出現強烈訊號，表示應該根據目前的追蹤實務來分類: 一些唯一網域下的子資源、一些唯一網域下的子範圍，以及重新導向到的一些唯一網域。資料收集和分類全都在裝置上進行。<br>不過，如果使用者與當作最上層網域的 example.com (通常稱為第一方網域) 互動，「智慧型追蹤預防」會將此視為訊號，認為使用者對此網站有興趣，並依此時間表來暫時調整其行為:<br>如果使用者在過去 24 小時與 example.com 互動，則其 Cookie 在 `example.com` 是第三方時就可用。這允許「在 Y 上以我的 X 帳戶登入」登入情節。<ul><li>當作最上層網域來造訪的網域不受影響。例如，OKTA 網站</li><li>跨多個唯一網域來識別作為目前頁面之子網域或子範圍的網域。</li></ul> |
+| 使用「機器學習」來辨別跨網站的網域 | 從 Apple: <br>機器學習分類器: 機器學習模型用來分類哪些私人控制的最上層網域有能力根據收集的統計資料，而跨網站追蹤使用者。從各種收集的統計資料中，有三個向量出現強烈訊號，表示應該根據目前的追蹤實務來分類: 一些唯一網域下的子資源、一些唯一網域下的子範圍，以及重新導向到的一些唯一網域。資料收集和分類全都在裝置上進行。<br>不過，如果使用者與當作最上層網域的 example.com (通常稱為第一方網域) 互動，「智慧型追蹤預防」會將此視為訊號，認為使用者對此網站有興趣，並依此時間表來暫時調整其行為:<br>如果使用者在過去 24 小時與 example.com 互動，則其 Cookie 在 `example.com` 是第三方時就可用。這允許「在 Y 上以我的 X 帳戶登入」登入情節。<ul><li>當作最上層網域來造訪的網域不受影響。例如，OKTA 網站</li><li>跨多個唯一網域來識別作為目前頁面之子網域或子範圍的網域。</li></ul> |
 
 ### 對 Adob 有何影響?
 
