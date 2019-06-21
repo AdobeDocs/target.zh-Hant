@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 點擊追蹤
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-translation-type: tm+mt
-source-git-commit: 4af5c367d292524d508eae6e535dd0925b2f9013
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,8 +24,8 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 
 ## 設定點擊追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 在活動的[!UICONTROL 「目標與設定」]頁面上設定您的目標時，請選取**[!UICONTROL 「轉換」]成功量度。**
-1. 針對動作，選取**[!UICONTROL 「點擊元素」]**，然後按一下**[!UICONTROL 「選取元素」]**。
+1. 在活動的[!UICONTROL 「目標與設定」]頁面上設定您的目標時，請選取 **[!UICONTROL 「轉換」]成功量度。**
+1. 針對動作，選取 **[!UICONTROL 「點擊元素」]**，然後按一下 **[!UICONTROL 「選取元素」]**。
 
    您的頁面隨即在[!UICONTROL 可視化體驗撰寫器] (VEC) 中開啟。
 
@@ -41,13 +41,13 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 
 選取元素時，有數個項目要考慮:
 
-* 設定點按追蹤時，可使用DOM路徑功能。當您按一下頁面上的元素時，會顯示「CMS選項」功能表。此外，對應的DOM路徑會顯示在頁面底部。您可以使用DOM路徑快速查看所選元素(類型、ID和類別)的相關資訊，並向上或向下移動DOM路徑以選取所需元素。
+* 設定點擊追蹤時，可使用 DOM 路徑功能。當您按一下頁面上的元素時，VEC 選項功能表隨即顯示。此外，對應的 DOM 路徑會顯示於頁面底部。您可以使用 DOM 路徑快速查看有關已選取元素 (類型、ID 和類別) 的資訊，然後向上或向下移動 DOM 路徑以選取想要的元素。
 
-   ![DOM路徑插圖](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+   ![DOM 路徑圖](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   就像在活動建立工作流程中的步驟中建立體驗時，頁面底部的DOM路徑選擇器可讓您選擇元素。在從DOM路徑選取元素時，CMS中的對應元素會顯示為「選取」。若要取消選取選取的元素，您可以再次按一下DOM路徑選擇器中的元素，或按一下CMS中的「選取的」方塊。
+   就像在活動建立工作流程的步驟 1 建立體驗時一樣，頁面底部的 DOM 路徑選取器可讓您選擇元素。在從 DOM 路徑選取元素時，VEC 中的對應元素會顯示為「已選取」。若要取消選取已選取的元素，您可以再次按一下 DOM 路徑選取器中的元素，或按一下 VEC 中的「已選取」方塊。
 
-   如需詳細資訊，請參閱 [「視覺體驗撰寫器選項」](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 中 *使用DOM路徑導覽元素*。
+   如需詳細資訊，請參閱*可視化體驗撰寫器選項*中的[使用 DOM 路徑導覽元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
 * 您可以瀏覽至不同頁面，以追蹤您可能不會變更內容之頁面上的點擊。必須在活動中包括這個不同的頁面，使用[多頁功能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，並且必須已在其上實施 [!DNL at.js] 或 [!DNL mbox.js]。
 * 如果您選取多個元素，當加入者點擊所選取元素的任何一個時，即會計入該點擊。若要個別計算每個項目，請為每個元素設定個別的成功量度。
@@ -80,7 +80,7 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
       * `FORM` 標記: 預設行為是提交表單。
    此預設行為可能會干擾 Analytics 點擊追蹤。如果您使用 Analytics，針對點擊追蹤，您應該仰賴於 Analytics 而非 Target。
 
-* 頁面和活動URL屬於不同屬性的頁面上不會記錄點擊追蹤。企業使用者權限是Target Premium功能。如需詳細資訊，請參閱 [企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+* 如果頁面上的頁面和活動 URL 屬於不同屬性，系統則不會記錄點擊追蹤。企業使用者權限為 Target Premium 功能。如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 ## 訓練影片 {#section_36607204DAE146E3B8E2C609D244EDB1}
 
