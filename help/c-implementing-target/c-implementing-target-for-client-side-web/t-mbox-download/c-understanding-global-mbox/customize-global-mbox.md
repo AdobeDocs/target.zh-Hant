@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 自訂全域 mbox
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
-translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,19 +20,19 @@ source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
 
 1. 編輯 mbox.js。
 
-   前往**[!UICONTROL 「Target]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 實作」]**。
+   前往 **[!UICONTROL 「Target]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 實作」]**。
 
-   * 針對 mbox.js，按一下**[!UICONTROL 「編輯 mbox.js 設定」]**。
-   * 針對 [!DNL at.js]，請選取「實施方式」下的**[!UICONTROL 「at.js」]**，然後按一下**[!UICONTROL 「編輯 mbox.js 設定」]**。
+   * 針對 mbox.js，按一下 **[!UICONTROL 「編輯 mbox.js 設定」]**。
+   * 針對 [!DNL at.js]，請選取「實施方式」下的 **[!UICONTROL 「at.js」]**，然後按一下 **[!UICONTROL 「編輯 mbox.js 設定」]**。
    ![](assets/step-1-edit-mboxjs.png)
 
 1. 編輯 [!DNL mbox.js] 或 [!DNL at.js]
 
-   停用**[!UICONTROL 「自動建立全域 mbox」]**，然後新增您想要用來透過 [!DNL Target Standard/Premium] 傳送活動之自訂全域 mbox 的名稱。此自訂全域 mbox 也用於點擊追蹤。
+   停用 **[!UICONTROL 「自動建立全域 mbox」]**，然後新增您想要用來透過 [!DNL Target Standard/Premium] 傳送活動之自訂全域 mbox 的名稱。此自訂全域 mbox 也用於點擊追蹤。
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   完成後按一下**[!UICONTROL 「儲存」]。**
+   完成後按一下 **[!UICONTROL 「儲存」]。**
 1. 在您的網站上實施 [!DNL mbox.js] 或 [!DNL at.js] 資料庫。
 
 * 若使用 mbox.js，請參閱 [Mbox.js 實作](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
@@ -50,4 +50,4 @@ source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
    >
    >儲存時，您帳戶中的所有活動都會與此 mbox 同步。如果此 mbox 不在您的網站上，則所有活動將停止運作。
 
-   按一下**[!UICONTROL 「儲存」]**。
+   按一下 **[!UICONTROL 「儲存」]**。
