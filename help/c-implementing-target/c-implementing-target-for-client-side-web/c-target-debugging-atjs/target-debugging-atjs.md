@@ -6,8 +6,8 @@ seo-title: 使用 Adobe Experience Cloud Debugger 除錯 at.js
 title: 使用 Adobe Experience Cloud Debugger 除錯 at.js
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
-translation-type: tm+mt
-source-git-commit: 2dcd42db7ca7d82ea1f90255b9b383542c97c614
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,13 +18,13 @@ source-git-commit: 2dcd42db7ca7d82ea1f90255b9b383542c97c614
 
 您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 Mbox Trace 工具來檢查活動、對象資格以及訪客設定檔。
 
-如需詳細資訊，請檢閱 [Adobe Experience Cloud Debugger 擴充功能文件](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。您可以在[工具](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html)區段找到 Target 的特定資訊。
+如需詳細資訊，請參閱 [Adobe Experience Cloud Debugger 擴充功能說明文件](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。如需 Target 的特定資訊，請前往[「工具」](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html)區段。
 
 ## 訓練影片
 
 下列影片會逐步引導您進行除錯程序:
 
-### 新增 Adobe Experience Cloud Debugger 擴充功能 {#section_8CD96F76E397476193529573F3199615}
+### 新增 Adobe Experience Cloud Debugger 擴充功能{#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
