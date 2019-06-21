@@ -6,8 +6,8 @@ seo-title: A/B 測試
 solution: Target
 title: A/B 測試
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,7 +28,7 @@ A/B 測試非常適合用來進行可能會包含新版面的大型變更，或�
 >
 >如需判斷 A/B 測試最佳樣本大小的詳細資訊，請參閱[計劃 A/B 測試](../../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383)。
 
-當不同體驗的數量超出五個，並跨兩個或多個位置，在執行您的 A/B 測試之前考慮 [MVT 測試](https://marketing.adobe.com/resources/help/en_US/target/mvt/)是好主意。多變數測試會顯示頁面上的哪些區域最可能改善轉換。這些是行銷人員應該著重的位置。例如，MVT 測試可能顯示對動作的呼叫是符合您的目標的最重要位置。一旦您決定哪個位置和內容對於幫助您符合您的目標最有用，您可以執行 A/B 測試來進一步微調結果，例如對彼此測試兩個特定影像，或比較對動作呼叫的用字或色彩。遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
+當不同體驗的數量超過五個，並跨越二或多個位置，在執行您的 A/B 測試之前最好考慮 [MVT 測試](https://marketing.adobe.com/resources/help/zh_TW/target/mvt/)。多變數測試會顯示頁面上的哪些區域最可能改善轉換。這些是行銷人員應該著重的位置。例如，MVT 測試可能顯示對動作的呼叫是符合您的目標的最重要位置。一旦您決定哪個位置和內容對於幫助您符合您的目標最有用，您可以執行 A/B 測試來進一步微調結果，例如對彼此測試兩個特定影像，或比較對動作呼叫的用字或色彩。遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
 
 ## 訓練影片: 活動類型 (9: 03)
 
