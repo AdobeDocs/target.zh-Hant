@@ -8,8 +8,8 @@ subtopic: 多變數測試
 title: 自動鎖定目標摘要報表
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
