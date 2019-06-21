@@ -7,8 +7,8 @@ solution: Target
 title: 膨脹的造訪和訪客計數 - A4T 常見問題集
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 局部資料點閱通常是實作不當造成，例如報表套裝 ID 不對稱。也有合理的原因，包括頁面緩慢、頁面錯誤、活動中的重新導向選件，或程式庫版本太舊。
 
-如需詳細資訊，請參閱以下的「造成局部資料的原因」: [在A4T 中將膨脹後造訪和訪客計數最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
+如需詳細資訊，請參閱以下的「造成局部資料的原因」:  [在A4T 中將膨脹後造訪和訪客計數最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
 ## 我有局部資料點閱。如何清除我的資料?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
