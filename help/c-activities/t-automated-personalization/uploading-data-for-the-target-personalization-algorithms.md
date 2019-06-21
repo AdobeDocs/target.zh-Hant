@@ -6,8 +6,8 @@ solution: Target
 title: 上傳用於 Target 個人化演算法的資料
 topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
-translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
 
 建置個人化模型時，離線資料 (例如 CRM 資訊或客戶流失傾向分數) 可能具有重大價值。
 
-有數種方式可以在自動個人化 (AP) 和自動鎖定目標個人化演算法中輸入資料。除了方法中 [要將資料取得Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)的方法外，我們的演算法也使用Experience Cloud共用觀眾(Adobe Analytics、觀眾管理)和活動報告對象。
+有數種方式可以在自動個人化 (AP) 和自動鎖定目標個人化演算法中輸入資料。除了[將資料傳入 Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 的方法以外，我們的演算法中也使用 Experience Cloud 共用對象 (Adobe Analytics、Audience Management) 和活動內報表對象。
 
 如需自動個人化和自動鎖定目標個人化演算法自動收集和使用之資料的相關資訊，請參閱[自動個人化資料收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)。
 
