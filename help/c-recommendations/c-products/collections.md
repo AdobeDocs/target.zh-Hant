@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
-translation-type: tm+mt
-source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,21 +45,21 @@ source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
 
 建立收集來組織您要在建議中顯示的產品。
 
-1. 依序按下**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 集合」]**，即可顯示現有集合清單。
+1. 依序按下 **[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 集合」]**，即可顯示現有集合清單。
 
    [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
 
    ![](assets/collections_list.png)
 
-1. 按一下**[!UICONTROL 「建立集合」]**。
+1. 按一下 **[!UICONTROL 「建立集合」]**。
 
-1. (依條件) 建立 (或更新) 集合時，從**[!UICONTROL 「環境」]**篩選器中選擇一個環境，以便預覽該環境中的集合內容。依照預設，會顯示預設主機群組的結果。
+1. (依條件) 建立 (或更新) 集合時，從 **[!UICONTROL 「環境」]** 篩選器中選擇一個環境，以便預覽該環境中的集合內容。依照預設，會顯示預設主機群組的結果。
 
    ![建立集合](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 輸入集合的**[!UICONTROL 名稱]**。
+1. 輸入集合的 **[!UICONTROL 名稱]**。
 
-   您也可以輸入選填的**[!UICONTROL 說明]**。
+   您也可以輸入選填的 **[!UICONTROL 說明]**。
 
 1. 設定用來建立集合的規則。
 
@@ -67,7 +67,7 @@ source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
 
    您可以新增規則，以使用多個參數來定義集合。以 AND 聯合多個規則。所有指定的規則必須符合，才會套用集合。
 
-1. 按一下**[!UICONTROL 「儲存」]**。您也可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立集合。例如，使用 &quot;id &gt; contains&quot; 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合」]。
+1. 按一下 **[!UICONTROL 「儲存」]**。您也可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立集合。例如，使用 &quot;id &gt; contains&quot; 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合」]。
 
 >[!IMPORTANT]
 >
