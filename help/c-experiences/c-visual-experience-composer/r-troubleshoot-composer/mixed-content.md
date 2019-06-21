@@ -7,8 +7,8 @@ solution: Target
 title: 在您的瀏覽器中啟用混合的內容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 >
 >允許混合內容只會影響 VEC，不影響已上線的網站。
 
-如需詳細資訊，請參閱 *Mozilla Developer Network* (MDN) 網站上的[混合內容](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)。
+如需詳細資訊，請參閱 *Mozilla 開發人員網路* (MDN) 上的[混合內容](https://developer.mozilla.org/zh-TW/docs/Web/Security/Mixed_content)。
 
 ## 在 Firefox 中啟用混合的內容 {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -66,10 +66,10 @@ target/t_mixed_content_ie.xml
 
 1. 在 Internet Explorer 中，按一下設定圖示 &gt;**[!UICONTROL 「網際網路選項」]**。
 1. 開啟[!UICONTROL 「安全性」]索引標籤。
-1. 選取**[!UICONTROL 「網際網路」]**，然後按一下**[!UICONTROL 「自訂層級」]**。
-1. 選取**[!UICONTROL 「雜項」]**。
-1. 在[!UICONTROL 「雜項」]下，啟用**[!UICONTROL 「顯示混合的內容」]**。
-1. 按一下**[!UICONTROL 「確定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 套用」]**。
+1. 選取 **[!UICONTROL 「網際網路」]**，然後按一下 **[!UICONTROL 「自訂層級」]**。
+1. 選取 **[!UICONTROL 「雜項」]**。
+1. 在[!UICONTROL 「雜項」]下，啟用 **[!UICONTROL 「顯示混合的內容」]**。
+1. 按一下 **[!UICONTROL 「確定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 套用」]**。
 
 變更此設定之後，建議您重新啟動電腦。
 
