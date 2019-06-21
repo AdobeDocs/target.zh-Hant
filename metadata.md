@@ -9,7 +9,7 @@ tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/target/kt/index/target-videos.html
 git-repo: https://github.com/AdobeDocs/target.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
