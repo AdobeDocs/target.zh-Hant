@@ -1,27 +1,27 @@
 ---
-description: 使用at. js2.x來實施單頁應用程式(SPA)的資訊。
-keywords: 單一頁面應用程式實施；實作單頁應用程式；spa；at. js2.x
-seo-description: 使用Adobe Target at. js2.x實作單頁應用程式(SPA)的資訊。
+description: 使用 at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
+keywords: 單頁應用程式實作;實作單頁應用程式;spa;at.js 2.x
+seo-description: 使用 Adobe Target at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
 seo-title: 實作單頁應用程式
 solution: Target
 title: 實作單頁應用程式
 topic: 標準
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
-translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 實作單頁應用程式{#single-page-application-implementation}
 
-傳統網站採用「頁面至頁面」導覽模型(又稱為「多頁應用程式」)，其中網站設計與URL緊密結合，而從某網頁到另一網頁的轉場則需要頁面載入。單頁應用程式 (SPA) 這類新式 Web 應用程式採用的模型，則可加速瀏覽器 UI 演算速度，且通常與頁面重新載入無關。這些體驗通常會透過客戶互動觸發，例如捲動、點按和游標動作。隨著現代網路環境的不斷演進，傳統的一般事件 (例如頁面載入) 與部署個人化與實驗法之間的相關性已失效。
+傳統的網站採用「頁面至頁面」導覽模型 (又稱為「多頁應用程式」)，網站設計與 URL 緊密結合，而從某網頁轉換到另一個網頁，需要頁面載入。單頁應用程式 (SPA) 這類新式 Web 應用程式採用的模型，則可加速瀏覽器 UI 演算速度，且通常與頁面重新載入無關。這些體驗通常會透過客戶互動觸發，例如捲動、點按和游標動作。隨著現代網路環境的不斷演進，傳統的一般事件 (例如頁面載入) 與部署個人化與實驗法之間的相關性已失效。
 
 ![傳統頁面生命週期與 SPA 生命週期比較](/help/c-experiences/assets/trad-vs-spa.png)
 
-at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術執行個人化。此版本著重於改善 at.js 與 SPA 之間的協調互動。
+at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為基礎進行個人化。此版本著重於改善 at.js 與 SPA 之間的協調互動。
 
-以下為使用. js2.x在舊版中無法使用的優點：
+以下為使用 at.js 2.x 可享有但舊版不提供的優點:
 
 * 可在頁面載入時快取所有選件，以減少對單一伺服器呼叫發出的多個伺服器呼叫。
 * 顯著改善網站使用者體驗，因為可透過快取立即顯示選件，而不會發生傳統伺服器呼叫造成的時間延遲。
@@ -33,13 +33,13 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
 
 為了進一步說明檢視，下文將瀏覽這個在 React 中實作的假想線上電子商務網站，並探索一些檢視範例。按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結：[首頁](https://target.enablementadobe.com/react/demo/#/)**
+**連結:[首頁](https://target.enablementadobe.com/react/demo/#/)**
 
 ![首頁](/help/c-experiences/assets/home.png)
 
 導覽至首頁時，可以馬上看到宣傳復活節特賣活動的主圖影像，以及網站上販售的最新產品。在這個案例中，檢視可定義為整個首頁。請記下這點，因為我們將在下文的「實作 Adobe Target 檢視」一節中更深入說明。
 
-**連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結:[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![產品網站](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
 
 我們決定按一下「載入更多」按鈕，探索這個網站上的更多產品。在此情況下，網站 URL 不會變更。但此處的檢視只能呈現上圖中的第二列產品。該檢視的名稱可為「PRODUCTS-PAGE-2」。
 
-**連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結:[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![結帳頁面](/help/c-experiences/assets/checkout.png)
 
@@ -67,27 +67,27 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
 
 我們已在上文中介紹 Adobe Target 檢視的功能，現在可以在 Target 中運用這個概念，讓行銷人員透過 VEC 在 SPA 上執行 A/B 和 XT 測試。進行測試需要一次性開發人員設定。以下逐一說明設定步驟。
 
-1. 安裝at. js2.x。
+1. 安裝 at.js 2.x。
 
-   首先，我們需要安裝. js2.x。這個版本的at. js是使用SPA開發的。舊版 at.js 和 mbox.js不支援 Adobe Target 檢視和適用於 SPA 的 VEC。
+   首先需要安裝 at.js 2.x。這個 at.js 版本是針對 SPA 所開發。舊版 at.js 和 mbox.js不支援 Adobe Target 檢視和適用於 SPA 的 VEC。
 
-   透過 [!UICONTROL 位於「設定&gt;實施]」中的Adobe Target UI下載at. js2.x。at. js2.x也可以透過Adobe Launch部署。但是 Adobe Target 擴充功能目前尚未更新且不受支援。
+   透過[!UICONTROL 設定 &gt; 實作]中的 Adobe Target UI 下載 at.js 2.x。也可透過 Adobe Launch 部署 at.js 2.x。但是 Adobe Target 擴充功能目前尚未更新且不受支援。
 
-1. 在您的網站上實作. js2.x `triggerView()` 最新函數。
+1. 在您的網站上實作 at.js 2.x 的最新函數 `triggerView()`。
 
-   定義您要執行A/B或XT測試的SPA的「檢視」後，在. js2.x `triggerView()` 的函數中實作以參數傳入的檢視。這麼做可讓行銷人員針對已定義檢視，使用 VEC 設計和執行的 A/B 和 XT 測試。如果沒有針對這些檢視定義 `triggerView()` 函數，VEC 將無法偵測檢視，進而導致行銷人員無法使用 VEC 來設計和執行 A/B 和 XT 測試。
+   定義您要執行 A/B 或 XT 測試的 SPA 的檢視後，使用傳入作為參數的檢視來實作 at.js 2.x 的 `triggerView()` 函數。這麼做可讓行銷人員針對已定義檢視，使用 VEC 設計和執行的 A/B 和 XT 測試。如果沒有針對這些檢視定義 `triggerView()` 函數，VEC 將無法偵測檢視，進而導致行銷人員無法使用 VEC 來設計和執行 A/B 和 XT 測試。
 
    **`adobe.target.triggerView(viewName, options)`**
 
    | 參數 | 類型 | 必要? | 驗證 | 說明 |
    | --- | --- | --- | --- | --- |
    | viewName | 字串 | 是 | 1. 尾端無空格。<br>2.不得空白。<br>3.所有頁面的檢視名稱都不得重複。<br>4.**警告**: 檢視名稱的開頭或結尾不能為「`/`」。這是因為客戶通常會從 URL 路徑中擷取檢視名稱。對我們來說，「home」和「`/home`」是不一樣的。<br>5.**警告**: 同一個檢視不應使用 `{page: true}` 選項連續觸發多次。 | 傳入任何名稱作為要代表檢視的字串類型。此檢視名稱會顯示在 VEC 的[!UICONTROL 「修改」]面板中，供行銷人員建立動作和執行 A/B 與 XT 活動。 |
-   | options | 物件 | 無 |
-   | options &gt; page | 布林值 | 無 | **TRUE:** 頁面的預設值為 true。當 `page=true`，會傳送通知至 Edge 伺服器以增加曝光計數。<br>**FALSE**: 當 `page=false`，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
+   | options | 物件 | 無 |  |  |
+   | options &gt; page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。當 `page=true`，會傳送通知至 Edge 伺服器以增加曝光計數。<br>**FALSE**: 當 `page=false`，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
 
    以下提供幾個範例使用案例，說明如何在 React 中叫用 `triggerView()` 函數以用於我們的假想電子商務 SPA:
 
-   **連結：[首頁](https://target.enablementadobe.com/react/demo/#/)**
+   **連結:[首頁](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結:[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 現在，讓我們來看看更複雜的範例。假設我們是行銷人員，我們想在使用者按下「載入更多」按鈕後，將「價格」標籤的顏色變更為紅色，用這個方式將第二列產品個人化。
 
@@ -147,7 +147,7 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
  }
 ```
 
-**連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結:[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![react 結帳](/help/c-experiences/assets/react6.png)
 
@@ -186,11 +186,11 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
  }
 ```
 
-## at. js2.x系統圖表
+## at.js 2.x 系統圖表
 
-下列圖表可協助您瞭解at. js2.x含檢視的工作流程，以及如何增強SPA整合。若要更好地介紹在. js2.x中使用的概念，請參閱 [「單頁應用程式實施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」。
+下列圖表可協助您瞭解 at.js 2.x 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.x 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 
-![使用at. js2.x的定位流程](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![使用 at.js 2.x 的 Target 流程](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | 步驟 | 詳細資料 |
 | --- | --- |
@@ -205,7 +205,7 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
 
 現在，SPA 上只要是有實作 `triggerView()` 的位置，系統都會從快取擷取檢視和動作並向使用者顯示，不需要伺服器呼叫。`triggerView()` 也會對 [!DNL Target] 後端發出通知要求，以便增加和記錄曝光計數。
 
-![. js2.x觸發器檢視的目標流程](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Target 流程 at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | 步驟 | 詳細資料 |
 | --- | --- |
@@ -218,34 +218,34 @@ at. js2.x提供豐富的功能，讓您的企業對新一代的客戶端技術�
 
 ## 單一頁面應用程式可視化體驗撰寫器
 
-在您完成安裝. js2.x並新增 `triggerView()` 至您的網站後，請使用CMS執行A/B和XT活動。如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。
+安裝 at.js 2.x 並將 `triggerView()` 新增至您的網站後，請使用 VEC 執行 A/B 和 XT 活動。如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。
 
 >[!NOTE]
 >
 >適用於 SPA 的 VEC 與您用於一般網頁的 VEC 完全相同，不過當您開啟實作了 `triggerView()` 的單頁應用程式時，會提供一些額外功能讓您使用。
 
-## 使用觸發器檢視以確保A4T能正確搭配at. js2.x和SPA運作 {#triggerview}
+## 使用 TriggerView，確保 A4T 可搭配 at.js 2.x 和 SPA 正常運作 {#triggerview}
 
-若要確保Analytics for [Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)能正確運作於. js2.x，請務必在Target請求和Analytics請求中傳送相同的SDID。
+若要確保 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 可搭配 at.js 2.x 正常運作，請務必在 Target 要求和 Analytics 要求中傳送相同的 SDID。
 
-作為SPA相關的最佳實務：
+SPA 相關最佳實務如下:
 
-* 使用自訂事件通知應用程式中有有趣的事件
-* 在檢視開始前觸發自訂事件
-* 在檢視完成時觸發自訂事件
+* 使用自訂事件通知應用程式中發生了有趣的內容
+* 在檢視開始呈現前觸發自訂事件
+* 在檢視完成呈現時觸發自訂事件
 
-at. js2.x新增了一個新的API [觸發器View()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) 函數。您應用來 `triggerView()` 通知檢視將開始演算的. js。
+at.js 2.x 已新增新的 API [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) 函數。您應使用 `triggerView()` 通知 at.js 檢視將開始呈現。
 
-若要查看如何結合自訂事件，at. js2.x和Analytics，請讓我們來看看範例。此範例假設HTML頁面包含訪客API，後面緊接著. js2.x，後面接著AppMeasurement。
+若要查看如何合併自訂事件、at.js 2.x 和 Analytics，請參考以下範例。此範例假設 HTML 頁面包含訪客 API，隨後是 at.js 2.x，隨後是 AppMeasurement。
 
-假設有下列自訂事件存在：
+假設存在下列自訂事件:
 
-* `at-view-start` - 檢視開始顯示時
-* `at-view-end` - 檢視完成時呈現
+* `at-view-start` - 檢視開始呈現時
+* `at-view-end` - 檢視完成呈現時
 
-若要確保A4T能與at. js2.x搭配運作，
+若要確保 A4T 可搭配 at.js 2.x 正常運作，
 
-檢視開始處理常式應該看起來像這樣：
+檢視開始處理常式應如下所示:
 
 ```
 document.addEventListener("at-view-start", function(e) {
@@ -256,7 +256,7 @@ document.addEventListener("at-view-start", function(e) {
 });
 ```
 
-檢視結束處理常式應該看起來像這樣：
+檢視結束處理常式應如下所示:
 
 ```
 document.addEventListener("at-view-end", function(e) {
@@ -267,30 +267,30 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!NOTE]
 >
->您必須觸發 `at-view-start``at-view-end` 和事件。這些事件不屬於. js自訂事件的一部分。
+>您必須觸發 `at-view-start` 和 `at-view-end` 事件。這些事件不是 at.js 自訂事件的一部分。
 
-雖然這些範例使用JavaScript程式碼，但如果您使用標籤管理器(例如 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md))，所有這些都可以加以簡化。
+雖然這些範例使用 JavaScript 程式碼，但如果您使用 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 等標籤管理員，這一切都能簡化。
 
-如果後續步驟已完成，則應擁有健全的SPA適用的A4T解決方案。
+如果您按照上述步驟進行，您應該能擁有適用於 SPA 的健全 A4T 解決方案。
 
 ## 訓練影片
 
 以下影片包含更多資訊:
 
-### 瞭解at. js2.x的運作方式
+### 瞭解 at.js 2.x 的運作方式
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-如需詳細資訊，請參閱 [瞭解at. js2.x的](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 如何運作。
+如需詳細資訊，請參閱[瞭解 at.js 2 的運作方式](https://helpx.adobe.com/tw/target/kt/using/atjs20-diagram-technical-video-understand.html)。
 
-### 在SPA中實作. js2.x
+### 在 SPA 中實作 at.js 2.x
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-如需詳細資訊，請參閱 [在單一頁面應用程式(SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 中實作Adobe Target的. js2.x。
+如需詳細資訊，請參閱[在單頁應用程式 (SPA) 中實作 Adobe Target 的 at.js 2.x](https://helpx.adobe.com/tw/target/kt/using/atjs2-single-page-application-technical-video-implement.html)。
 
 ### 在 Adobe Target 中使用適用於 SPA 的 VEC
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-如需詳細資訊，請參閱 [Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) 中的使用Visual Experience Composer for Single Page Application(SPA CMS)。
+如需詳細資訊，請參閱[在 Adobe Target 中使用適用於單頁應用程式的可視化體驗撰寫器 (SPA VEC)](https://helpx.adobe.com/tw/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
