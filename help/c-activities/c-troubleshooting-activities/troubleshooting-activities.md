@@ -7,8 +7,8 @@ solution: Target
 title: 疑難排解活動
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
-translation-type: tm+mt
-source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
 
 ## 您不符合對象鎖定目標條件。
 
-**驗證:**檢閱概覽頁面上的鎖定目標條件。
+**驗證:** 檢閱概覽頁面上的鎖定目標條件。
 
 **選項:**
 
@@ -47,7 +47,7 @@ source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
 
 ## 頁面不符合頁面鎖定目標條件。
 
-**驗證:**在概覽頁面上，判斷頁面是否落在鎖定目標條件之外。
+**驗證:** 在概覽頁面上，判斷頁面是否落在鎖定目標條件之外。
 
 **選項:**
 
@@ -66,7 +66,7 @@ source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
 
 ## 您最近加入 Target，但無法建立活動。
 
-**驗證:**按一下「建立活動」。如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
+**驗證:** 按一下「建立活動」。如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
 
 **選項:**
 
