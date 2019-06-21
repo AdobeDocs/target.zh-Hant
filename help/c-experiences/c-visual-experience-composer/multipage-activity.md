@@ -7,8 +7,8 @@ solution: Target
 title: 多頁活動
 topic: 進階
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,8 +29,8 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 若要將頁面新增至測試:
 
-1. 按一下**[!UICONTROL 「設定」]齒輪圖示。**
-1. 按一下**[!UICONTROL 「新增其他頁面」]**。
+1. 按一下 **[!UICONTROL 「設定」]齒輪圖示。**
+1. 按一下 **[!UICONTROL 「新增其他頁面」]**。
 
    畫面左側會出現導覽列。
 
@@ -38,7 +38,7 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 1. 使用導覽列來指定您的頁面和設定預設頁面。
 
-   按一下**[!UICONTROL 「新增頁面」]以新增另一個頁面。**
+   按一下 **[!UICONTROL 「新增頁面」]以新增另一個頁面。**
 
    按一下三個垂直橢圓圖示以顯示動作選單:
 
