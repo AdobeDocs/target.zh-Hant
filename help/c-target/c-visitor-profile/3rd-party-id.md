@@ -7,8 +7,8 @@ solution: Target
 title: mbox3rdPartyID 的即時設定檔同步
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
-translation-type: tm+mt
-source-git-commit: 17f0612559bae335d261ebc7654bc5d7fe3c0d12
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,4 +34,4 @@ mbox3rdPartyID 為公司的訪客 ID，例如公司忠誠計劃的會員 ID。
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 無法在 [!DNL Adobe Experience Cloud] ID(MID)變更的情況下追蹤目標(例如，訪客變更裝置)，即使 [!DNL Target] 設定檔可能根據mbox3rdPartyId合併，仍具有活動資訊。對於以相同MID識別的訪客(存取相同裝置的頁面)， [!DNL Analytics for Target] (A4T)應如預期般運作。
+>在 [!DNL Adobe Experience Cloud] ID (MID) 變更 (例如訪客變更裝置) 的情況下，系統不會追蹤 [!DNL Adobe Analytics] 目標，即使可能已根據 mbox3rdPartyID 合併 [!DNL Target] 設定檔且仍有活動資訊，也是如此。若為已識別具有相同 MID 的訪客 (使用同一部裝置存取頁面的訪客)，[!DNL Analytics for Target] (A4T) 應該會如運期般運作。
