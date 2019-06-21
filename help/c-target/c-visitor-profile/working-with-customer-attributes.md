@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 客戶屬性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
-translation-type: tm+mt
-source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,14 +28,14 @@ source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
 
 使用客戶屬性和 Target 時請考量下列資訊:
 
-* 在可以使用 [!UICONTROL  核心服務中的]客戶屬性[!DNL People]功能之前，您必須符合一些先決條件要求。如需詳細資訊，請參閱 *Experience Cloud 和核心服務產品文件*之[客戶屬性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)中的「上傳客戶屬性的先決條件」。請注意，需要 [!DNL at.js] (任何版本) 或 [!DNL mbox.js] 版本 58 或更新版本。
+* 在可以使用 [!UICONTROL  核心服務中的]客戶屬性[!DNL People]功能之前，您必須符合一些先決條件要求。如需詳細資訊，請參閱 *Experience Cloud 和核心服務產品文件*之[客戶屬性](https://marketing.adobe.com/resources/help/zh_TW/mcloud/attributes.html)中的「上傳客戶屬性的先決條件」。請注意，需要 [!DNL at.js] (任何版本) 或 [!DNL mbox.js] 版本 58 或更新版本。
 * Adobe 並未保證會將來自 CRM 資料庫的全部客戶屬性 (訪客設定檔) 資料上架到 Experience Cloud，用於 Target 中鎖定目標。在我們目前的設計中，可能不會將少量百分比的資料上架。
 * 從 Experience Cloud 匯入 Target 的客戶屬性資料存留期取決於訪客設定檔的存留期，預設為 14 天。如需詳細資訊，請參閱[訪客描述檔存留期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
 * 如果 `vst.*` 參數為可識別使用者的唯一項目，只要 `authState` 為 UNAUTHENTICATED (0)，將不會擷取現有的「已驗證」設定檔。只有在 `authState` 變更為 UNAUTHENTICATED (1) 時，設定檔才會生效。
 
    例如，如果使用 `vst.myDataSource.id` 參數來識別使用者 (其中的 `myDataSource` 為資料來源別名)，並且沒有 MCID 或第三方 ID，則使用參數 `vst.myDataSource.authState=0` 將不會擷取可能為透過匯入客戶屬性而建立的設定檔。如果需要的行為是擷取驗證的設定檔，`vst.myDataSource.authState` 必須具備值 1 (AUTHENTICATED)。
 
-* 您無法在下列位置傳送下列字元 `mbox3rdPartyID`：加上符號(+)和斜線(/)。
+* 您無法在 `mbox3rdPartyID` 中傳送下列字元: 加號 (+) 和正斜線 (/)。
 
 ## Target 的客戶屬性工作流程 {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
@@ -43,7 +43,7 @@ source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
 
 ![](assets/crm_workflow.png)
 
-您可以在 *Experience Cloud 和核心服務產品文件*的[建立客戶屬性來源和上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)中，找到完成下列每個工作的詳細指示。
+您可以在 *Experience Cloud 和核心服務產品文件*的[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_crs_usecase.html)中，找到完成下列每個工作的詳細指示。
 
 1. 建立資料檔案。
 
@@ -64,7 +64,7 @@ source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
    使用 HTTP 方法可上傳最高 100 MB 的資料檔案。大於 100 MB、最高 4 GB 的檔案，則可透過 FTP 上傳。
 
    * **HTTP:** 您可以拖放 [!DNL .csv] 資料檔案或按一下[!UICONTROL 「瀏覽」]來從您的檔案系統上傳。
-   * **FTP:** 按一下 FTP 連結來[透過 FTP 上傳檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html)。第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。輸入密碼，然後按一下[!UICONTROL 「完成」]。
+   * **FTP:** 按一下 FTP 連結來[透過 FTP 上傳檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_upload_attributes_ftp.html)。第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。輸入密碼，然後按一下[!UICONTROL 「完成」]。
 
       現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸一旦成功，請以相同名稱和 [!DNL .fin] 副檔名建立新檔案。將此空白檔案傳輸至伺服器。這表示傳輸結束，而 Experience Cloud 會開始處理資料檔案。
 
@@ -80,7 +80,7 @@ source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
 
 1. 設定訂閱及啟動屬性來源。
 
-   按一下**[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。[設定訂閱可使得資料在 Experience Cloud 和解決方案之間流通。](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html)啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
+   按一下 **[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。[設定訂閱](https://marketing.adobe.com/resources/help/zh_TW/mcloud/subscription.html)可使得資料在 Experience Cloud 和解決方案之間流通。啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
 
    ![](assets/solution.png)
 
@@ -98,7 +98,7 @@ source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
 
 ### 建立鎖定目標對象
 
-在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。所有客戶屬性在清單中都有首碼&lt; data_ source_ name&gt;。視需要將這些屬性與其他資料屬性結合，以建立對象。
+在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。清單中的所有客戶屬性都會具備字首 &lt; data_source_name &gt;。視需要將這些屬性與其他資料屬性結合，以建立對象。
 
 ![目標對象](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -122,11 +122,11 @@ source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
 
 ### 使用 Experience Cloud ID 服務
 
-如果您使用 Experience Cloud ID 服務，您需要設定客戶 ID 和驗證狀態，才能在鎖定目標中使用客戶屬性。如需詳細資訊，請參閱 [Experience Cloud ID 服務文件](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)中的*客戶 ID 和驗證狀態*。
+如果您使用 Experience Cloud ID 服務，您需要設定客戶 ID 和驗證狀態，才能在鎖定目標中使用客戶屬性。如需詳細資訊，請參閱 *Experience Cloud ID 服務文件*中的[客戶 ID 與驗證狀態](https://marketing.adobe.com/resources/help/zh_TW/mcvid/mcvid-authenticated-state.html)。
 
 如需關於在 [!DNL Target] 中使用客戶屬性的詳細資訊，請參閱下列資源:
 
-* *Experience Cloud 和核心服務產品文件*中的[建立客戶屬性來源和上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+* *Experience Cloud 和核心服務產品文件*中的[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_crs_usecase.html)
 * *數位行銷部落格*中的 [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客戶經常遇到的問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
