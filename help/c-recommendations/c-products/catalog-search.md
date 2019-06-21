@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
-translation-type: tm+mt
-source-git-commit: 30f5ea0b944645580c47770ce0b1a55e02bc4367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,15 +23,15 @@ source-git-commit: 30f5ea0b944645580c47770ce0b1a55e02bc4367
 
 ![](assets/searchproductsmenu.png)
 
-**[!UICONTROL 全部]**會使用 OR 邏輯，涵蓋其他所有搜尋條件來搜尋。
+**[!UICONTROL 全部]** 會使用 OR 邏輯，涵蓋其他所有搜尋條件來搜尋。
 
-在搜尋結果中，按一下**[「環境」]**篩選器，以指定您要顯示其中目錄的生產主機群組環境。您也可以捲動瀏覽搜尋結果中的項目，以檢視縮圖和其他產品資訊。
+在搜尋結果中，按一下 **[「環境」]** 篩選器，以指定您要顯示其中目錄的生產主機群組環境。您也可以捲動瀏覽搜尋結果中的項目，以檢視縮圖和其他產品資訊。
 
 「產品」旁顯示的數字代表在所指定環境中可用的總數之中，符合搜尋詞語的產品數量。
 
 按一下重新整理圖示，以重新編列目錄的索引。請注意，編列索引需要一些時間，視摘要的大小而定。
 
-目錄每小時自動重新整理一次。在自動重新整理之間，按一下**[!UICONTROL 「重新整理」]**可將目錄重新編列索引。
+目錄每小時自動重新整理一次。在自動重新整理之間，按一下 **[!UICONTROL 「重新整理」]** 可將目錄重新編列索引。
 
 您可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立集合或排除項目。例如，使用 &quot;id &gt; contains&quot; 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合或排除項目」]。
 
