@@ -6,8 +6,8 @@ seo-title: 瞭解 Target JavaScript 程式庫
 title: 瞭解 Target JavaScript 程式庫
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
-translation-type: tm+mt
-source-git-commit: f99fbba17dc7e33454f162c823577db0ba78ac29
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
