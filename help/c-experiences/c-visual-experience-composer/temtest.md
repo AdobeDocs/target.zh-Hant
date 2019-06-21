@@ -7,13 +7,13 @@ solution: Target
 title: 在類似頁面上包含相同體驗
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# 在類似頁面上包含相同的體驗{#include-the-same-experience-on-similar-pages}
+# 在類似頁面上包含相同體驗{#include-the-same-experience-on-similar-pages}
 
 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
 
@@ -35,8 +35,8 @@ source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
 您可以指定包括變更元素的頁面，或在您的網站上套用變更。
 
 1. 按[活動](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)一文所述建立活動。
-1. 若要指定體驗出現的頁面，在Visual Experience Composer中按一下齒輪圖示，然後選取 **[!UICONTROL 「頁面傳送]**」。
-1. 按一下 **[!UICONTROL 「新增範本規則]**」，然後指定您要新增體驗之頁面的標準。
+1. 若要指定顯示體驗的頁面，請在可視化體驗撰寫器中按一下齒輪圖示，然後選取 **[!UICONTROL 頁面傳送]**。
+1. 按一下 **[!UICONTROL 新增範本規則]**，然後指定您要新增體驗的頁面的條件。
 
 1. 指定頁面範圍。頁面範圍可以是下列其中一項:
 
@@ -53,14 +53,14 @@ source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
 
    * 包含
    * 不包含
-   * is(區分大小寫)
+   * 是 (區分大小寫)
    * 不是
    * 開始於
    * 終止於
 
 1. 在頁面名稱中輸入可定義要新增體驗位置的字串，例如網域或包含的字串。
 
-   例如，如果您選取 **[!UICONTROL 網域]** 和 **[!UICONTROL (區分大小寫)]**，請輸入您要將體驗新增至所有頁面的網域。
+   例如，如果您選取 **[!UICONTROL 網域]** 和 **[!UICONTROL 是 (區分大小寫)]**，請輸入要將體驗新增至所有頁面的網域。
 
    您可以包括多個項目。
 
@@ -68,7 +68,7 @@ source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
    >
    >多個項目使用 `OR` 邏輯，表示清單中的任何單一項目都會讓條件成立。
 
-1. 如有需要，請按一下 **[!UICONTROL 「新增範本規則」]** 並重復上述步驟中的程序，以輸入其他標準。
+1. 如果需要，請按一下 **[!UICONTROL 新增範本規則]** 並重複先前步驟中的程序來輸入其他條件。
 
    以 AND 邏輯聯合多個規則。Adobe Target 會將體驗新增至符合指定條件的所有頁面。
 
