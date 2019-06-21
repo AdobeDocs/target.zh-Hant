@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 為影像建立 Adbox
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -30,18 +30,18 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
-   * 您 `myClientCode` 公司的客戶代碼。您的公司用戶端代碼為全部小寫並且不帶特殊字元。
+   * 其中 `myClientCode` 代表貴公司的用戶端代碼。您的公司用戶端代碼為全部小寫並且不帶特殊字元。
 
       * **at.js:** 您的用戶端代碼可在 [!UICONTROL  介面的]「設定 &gt; 實作 &gt; 編輯 at.js 設定」[!DNL Target]頁面最上方取得。
 
       * **mbox.js:** 您的用戶端代碼可在[!UICONTROL 「設定 &gt; 實作 &gt; 編輯 Mbox.js 設定」]頁面最上方取得。
    * 其中 `image` 是呼叫類型。在此範例中，它是一個影像。
 
-   * AdBox `emailHeroImage123_320x200` 的名稱。
+   * 其中 `emailHeroImage123_320x200` 是 AdBox 的名稱。
 
-   * 其中 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是mbox的預設內容。這必須為影像。
+   * 其中 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是 mbox 的預設內容。這必須為影像。
 
-      此網址必須經過 URL 編碼，且必須為絕對參照。您可以使用 [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) 來快速編碼您的URL。
+      此網址必須經過 URL 編碼，且必須為絕對參照。您可以使用 [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) 快速將您的 URL 編碼。
 
 
 1. 為每個替代影像建立[重新導向選件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
