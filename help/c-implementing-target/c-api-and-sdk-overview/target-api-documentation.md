@@ -52,7 +52,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 |  | 複製行銷活動 | 不適用 | 使用活動建立 API |
 |  | 促銷活動清單 | [列出活動](http://developers.adobetarget.com/api/#list-activities) |  |
 |  | 行銷活動狀態 | [更新活動狀態](http://developers.adobetarget.com/api/#update-activity-state) |  |
-|  | 促銷活動檢視 | [依 ID 取得 AB 活動](Http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[依 ID 取得 XT 活動](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
+|  | 促銷活動檢視 | [依 ID 取得 AB 活動](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[依 ID 取得 XT 活動](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | 第三方行銷活動 ID | 不適用 | 如果您使用 thirdpartyID，則可使用相關的活動方法 |
 | 選件 | 選件建立 | [建立選件](http://developers.adobetarget.com/api/#create-offer) |  |
 |  | 選件取得 | [依 ID 取得選件](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
