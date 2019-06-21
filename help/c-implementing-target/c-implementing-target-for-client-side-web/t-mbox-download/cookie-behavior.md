@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: mbox.js Cookie
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
-translation-type: tm+mt
-source-git-commit: 75f097e0f38cb2dc19922383260958606e8c53b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,11 +22,11 @@ Cookie 的行為取決於其屬於第一方 Cookie、具有第一方 Cookie 的�
 >
 >本主題包含 `mboxSession` 和 `mboxPC` 的相關資訊。我們的實作最佳實務建議您不要使用 Cookie 資料連結或儲存任何敏感資訊: `mboxSession` 或 `mboxPC`。
 
-另請參閱 [刪除 Target Cookie](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html)。
+另請參閱[刪除 Target Cookie](https://marketing.adobe.com/resources/help/zh_TW/target/target/t_cookie_deleting.html)。
 
 ## 何時使用第一方或第三方 Cookie {#section_F71B29420C004A7FA3B1921E619B326E}
 
-您的網站設定會決定您要使用何種 Cookie。嘗試瞭解第一方與第三方 Cookie 時，建議先瞭解 Target 的運作方式。請參閱 [Adobe Target 運作方式](../../../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584)，以瞭解詳細資訊。
+您的網站設定會決定您要使用何種 Cookie。嘗試瞭解第一方與第三方 Cookie 時，建議先瞭解 Target 的運作方式。請參閱[Adobe Target 運作方式](../../../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584)，以瞭解詳細資訊。
 
 cookie 有三種主要的使用狀況:
 
@@ -134,7 +134,7 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 |--- |--- |
 | 智慧型追蹤預防 | 如需詳細資訊，請參閱 WebKit Open Source Web Browser Engine 網站上的[智慧型追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention/)。 |
 | Cookie | Safari 如何處理 Cookie:<ul><li>使用者直接存取的網域上不存在的第三方 Cookie 永不儲存。這不是新的行為。Safari 尚不支援第三方 Cookie。</li><li>使用者直接存取的網域上所設定的第三方 Cookie 會在 24 小時後清除。</li><li>如果第一方網域已分類為跨網站追蹤使用者，則會在 30 天後清除第一方 Cookie。在線上將使用者送往不同網域的大型公司可能會發生此問題。Apple 並未明確解釋這些網域如何分類，或網域如何判斷本身是否已分類為跨網站追蹤使用者。</li></ul> |
-| 使用「機器學習」來辨別跨網站的網域 | 從 Apple:<br>機器學習分類器: 機器學習模型用來分類哪些私人控制的最上層網域有能力根據收集的統計資料，而跨網站追蹤使用者。從各種收集的統計資料中，有三個向量出現強烈訊號，表示應該根據目前的追蹤實務來分類: 一些唯一網域下的子資源、一些唯一網域下的子範圍，以及重新導向到的一些唯一網域。資料收集和分類全都在裝置上進行。<br>不過，如果使用者與當作最上層網域的 example.com (通常稱為第一方網域) 互動，「智慧型追蹤預防」會將此視為訊號，認為使用者對此網站有興趣，並依此時間表來暫時調整其行為:<br>如果使用者在過去 24 小時與 example.com 互動，則其 Cookie 在 `example.com` 是第三方時就可用。這允許「在 Y 上以我的 X 帳戶登入」登入情節。<ul><li>當作最上層網域來造訪的網域不受影響。例如，OKTA 網站</li><li>跨多個唯一網域來識別作為目前頁面之子網域或子範圍的網域。</li></ul> |
+| 使用「機器學習」來辨別跨網站的網域 | 從 Apple: <br>機器學習分類器: 機器學習模型用來分類哪些私人控制的最上層網域有能力根據收集的統計資料，而跨網站追蹤使用者。從各種收集的統計資料中，有三個向量出現強烈訊號，表示應該根據目前的追蹤實務來分類: 一些唯一網域下的子資源、一些唯一網域下的子範圍，以及重新導向到的一些唯一網域。資料收集和分類全都在裝置上進行。<br>不過，如果使用者與當作最上層網域的 example.com (通常稱為第一方網域) 互動，「智慧型追蹤預防」會將此視為訊號，認為使用者對此網站有興趣，並依此時間表來暫時調整其行為:<br>如果使用者在過去 24 小時與 example.com 互動，則其 Cookie 在 `example.com` 是第三方時就可用。這允許「在 Y 上以我的 X 帳戶登入」登入情節。<ul><li>當作最上層網域來造訪的網域不受影響。例如，OKTA 網站</li><li>跨多個唯一網域來識別作為目前頁面之子網域或子範圍的網域。</li></ul> |
 
 **對 Adob 有何影響?**
 
