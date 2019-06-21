@@ -7,8 +7,8 @@ subtopic: 快速入門
 title: Scene7 設定
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,14 +31,14 @@ Target Standard 可以與 Adobe Scene7 整合以在內容庫中提供數位資�
 
 若要與 Scene7 整合，您需要指定您的 Scene7 的一些資訊。
 
-1. 按一下**[!UICONTROL 「設定]** &gt; **[!UICONTROL Scene7 設定」]**。
+1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL Scene7 設定」]**。
 1. 指定下列 Scene7 帳戶資訊:
 
-   **Scene7 地區:**您的 Scene7 帳戶的地區: 北美洲、歐洲或亞洲。
+   **Scene7 地區:** 您的 Scene7 帳戶的地區: 北美洲、歐洲或亞洲。
 
    **Scene7 adhoc 資料夾:** 用於 target 資料夾外部內容的位置，並且會手動上傳至 Scene7。
 
    **Scene7 電子郵件地址:** 用來登入 Scene7 的電子郵件地址。
 
    **Scene7 密碼:** 用來登入 Scene7 的密碼。
-1. 按一下**[!UICONTROL 「提交」]**。
+1. 按一下 **[!UICONTROL 「提交」]**。
