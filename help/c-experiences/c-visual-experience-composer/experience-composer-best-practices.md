@@ -7,8 +7,8 @@ solution: Target
 title: 可視化體驗撰寫器最佳作法和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
-translation-type: tm+mt
-source-git-commit: 87b046703c480583d322f899e59fb4a0526b5485
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -83,7 +83,7 @@ OR
 
 區塊層級元素不應該用於內嵌元素內，例如錨點、span 等等。這樣做會造成內嵌元素失去高度和寬度，導致可視化體驗撰寫器中的套版工具可能無法正常運作。
 
-**針對傳統 mbox 來更新選件時，請確定 mbox 是依照 Target Classic 說明中的[建立單一 Mbox](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)所述而建立。**
+**針對傳統 mbox 來更新選件時，請確定 mbox 是依照 Target Classic 說明中的[建立單一 Mbox](https://marketing.adobe.com/resources/help/zh_TW/tnt/help/t_Creating_a_Single_Mbox.html)所述而建立。**
 
 如果您考慮將一個元素或一組元素放在 mbox 中，請以 `class mboxDefault` 的新 div 來包住元素:
 
@@ -194,7 +194,7 @@ OR
 </html>
 ```
 
-## 注意事項 {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## 注意事項{#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 使用可視化體驗撰寫器來設計活動時，請注意下列警告。
 
