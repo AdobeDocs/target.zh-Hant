@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 隱私權
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,11 +18,11 @@ source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
 
 Adobe Target 已啟用程序和設定，允許您使用 Target 遵守適用的資料隱私權法律。
 
-## IP 位址收集 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## IP 位址收集{#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 您網站訪客的 IP 位址將傳輸到 Adobe 資料處理中心 (DPC)。視訪客的網路設定而定，此 IP 位址不一定代表訪客電腦的 IP 位址。例如，該 IP 位址可能是網路位址轉譯 (NAT) 防火牆、HTTP Proxy 或內部閘道的外部 IP 位址。Target 不會儲存使用者的任何 IP 位址或任何個人身分識別資訊 (PII)。IP 位址僅在工作階段期間由 Target 使用 (記憶體內部，永不保留)。
 
-## 取代 IP 位址的最後八位元 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## 取代 IP 位址的最後八位元{#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 Adobe Target 啟用。啟用此設定時，當 Adobe 收集到 IP 位址時，就會立即隱藏 IP 位址的最後八位元 (最後一部分)。在對 IP 位址進行任何處理前 (包括選用的 IP 位址地理查閱)，就會執行這種匿名方式。
 
