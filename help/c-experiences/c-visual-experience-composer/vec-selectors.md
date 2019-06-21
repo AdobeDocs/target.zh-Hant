@@ -7,8 +7,8 @@ solution: Target
 title: 可視化體驗撰寫器中使用的元素選取器
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 您可以在 Mozilla 開發人員網路 (MDN) 上的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文件中，找到關於 CSS 選取器的基本資訊。
 
-您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下**[!UICONTROL 「設定 &gt; 偏好設定」]**，然後選擇您偏好的 CSS 選取器。
+您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下 **[!UICONTROL 「設定 &gt; 偏好設定」]**，然後選擇您偏好的 CSS 選取器。
 
 ![](assets/css_selectors.png)
 
@@ -73,7 +73,7 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
 
    選取器: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (「&gt;」表示直屬子項。)
 
-   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。因此，`index` 為 0。如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
+   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。因此，`index` 為 0。請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)以深入瞭解。
 
 1. 如果元素不含類別，Target 會對元素使用 `tagName`，並往父元素周遊，直到遇到 `<HTML>` 元素或具有 ID 的元素為止。
 
