@@ -6,8 +6,8 @@ seo-title: 啟用 SDK 中的 Target
 title: 啟用 SDK 中的 Target
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,12 +20,12 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
 1. 將 Adobe Mobile Services SDK 新增至您的應用程式。
 
-   您可以在[「核心實施和生命週期」](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html)下找到說明。
+   您可以在[核心實施與生命週期](https://marketing.adobe.com/resources/help/zh_TW/mobile/ios/dev_qs.html)下找到說明。
 1. 新增用戶端代碼、逾時和啟用 SSL。
 
-   在 Experience Cloud 中，開啟 Mobile Services，然後前往**[!UICONTROL 「管理應用程式設定]** &gt; **[!UICONTROL SDK Target 選項」]**。
+   在 Experience Cloud 中，開啟 Mobile Services，然後前往 **[!UICONTROL 「管理應用程式設定]** &gt; **[!UICONTROL SDK Target 選項」]**。
 
-   新增您的 Target 用戶端代碼和逾時。clientcode 是您的帳戶或公司所特有。逾時為 Target 在顯示預設內容之前將等候回應的時間 (秒)。確定已在 Adobe Mobile Services 的「管理應用程式設定」頁面中勾選**[!UICONTROL 「使用 HTTPS」]選項。**如果未啟用 HTTPS，除非您將 Target 伺服器加入白名單，否則 iOS9+ 中的所有呼叫將被封鎖。
+   新增您的 Target 用戶端代碼和逾時。clientcode 是您的帳戶或公司所特有。逾時為 Target 在顯示預設內容之前將等候回應的時間 (秒)。確定已在 Adobe Mobile Services 的「管理應用程式設定」頁面中勾選 **[!UICONTROL 「使用 HTTPS」]選項。** 如果未啟用 HTTPS，除非您將 Target 伺服器加入白名單，否則 iOS9+ 中的所有呼叫將被封鎖。
 
    ![](assets/mobile-clientcode.png)
 
