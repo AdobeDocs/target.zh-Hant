@@ -8,8 +8,8 @@ subtopic: 代碼編輯器
 title: 修改
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
-translation-type: tm+mt
-source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
    ![](assets/codeeditor_viewchange.png)
 
-* 編輯現有動作。暫留在所需的修改上，然後按一下**[!UICONTROL 「編輯」]圖示。**
+* 編輯現有動作。暫留在所需的修改上，然後按一下 **[!UICONTROL 「編輯」]圖示。**
 
    ![](assets/codeeditor_edit.png)
 
@@ -42,11 +42,11 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
    ![](assets/codeeditor_changechange1.png)
 
-* 刪除現有動作。暫留在所需的修改上，然後按一下**[!UICONTROL 「刪除」]圖示。**
+* 刪除現有動作。暫留在所需的修改上，然後按一下 **[!UICONTROL 「刪除」]圖示。**
 
    ![](assets/codeditor_delete.png)
 
-* 新增修改。按一下**[!UICONTROL 「新增修改」]或 + 圖示，然後指定您的變更，如下所述。**
+* 新增修改。按一下 **[!UICONTROL 「新增修改」]或 + 圖示，然後指定您的變更，如下所述。**
 
    ![](assets/codeeditor_new.png)
 
@@ -62,7 +62,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
 ## 新增修改 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. 若要顯示所選取體驗的[!UICONTROL 「修改」]頁面，請在 VEC 中，按一下**[!UICONTROL 「修改」]** &lt;/&gt; 圖示。
+1. 若要顯示所選取體驗的[!UICONTROL 「修改」]頁面，請在 VEC 中，按一下 **[!UICONTROL 「修改」]** &lt;/&gt; 圖示。
 
    ![](assets/codeeditor_icon_big.png)
 
@@ -86,7 +86,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
    ![](assets/codeeditor_page_mods_add.png)
 
-1. 從**[!UICONTROL 「修改類型」]下拉式清單中，選擇所需的類型:**
+1. 從 **[!UICONTROL 「修改類型」]下拉式清單中，選擇所需的類型:**
 
    | 修改類型 | 詳細資料 |
    |--- |--- |
@@ -108,7 +108,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
 ![](assets/codeeditor_custom.png)
 
-使用**[!UICONTROL 「自訂程式碼」]標籤來執行下列動作:**
+使用 **[!UICONTROL 「自訂程式碼」]標籤來執行下列動作:**
 
 * 使用內嵌 JavaScript 或外部 JavaScript 檔案的連結
 
@@ -223,7 +223,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
 對於以相同 URL 為目標的兩個活動，如果您使用自訂程式碼功能，則兩個活動都會將 JavaScript 注入頁面中。Target 會自動決定傳送內容的順序。請確定程式碼不依賴位置。您必須確保程式碼中沒有衝突。
 
-## 疑難排解自訂程式碼 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## 疑難排解自訂程式碼{#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **我收到警告，說明由於頁面中的結構變更，無法套用動作。其含義是:**
 
