@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: Mbox.js 的作用
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
-translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,9 +22,9 @@ Target Standard 需要 [!DNL mbox.js] 版本 58 或更新版。有關如何下�
 
 對於Target Standard，[!DNL mbox.js] 會呼叫另一個 JavaScript 檔案: [!DNL target.js]。[!DNL Target.js] 是由 Adobe 代管，也由 Adobe 自動更新。您不需要任何動作來更新 [!DNL target.js]，沒有用戶端特有的自訂。
 
-[!DNL Target.js] 會在頁面的 `target-global-mbox` 區段中建立 mbox，稱為 `<head>`。
+[!DNL Target.js] 會在頁面的 `<head>` 區段中建立 mbox，稱為 `target-global-mbox`。
 
-[!DNL Target.js] 是從 [!DNL mbox.js] 中，以 [!UICONTROL  的]「額外 JavaScript」[!DNL mbox.js]欄位中新增的一行 JavaScript 程式碼來呼叫。停用 [!DNL target.js] 的唯一辦法是不要包含這行程式碼，因此也會停用 [!DNL Target]。
+[!DNL Target.js] 是從 [!DNL mbox.js] 中，以 [!DNL mbox.js] 的 [!UICONTROL 額外 JavaScript] 欄位中新增的一行 JavaScript 程式碼來呼叫。停用 [!DNL target.js] 的唯一辦法是不要包含這行程式碼，因此也會停用 [!DNL Target]。
 
 [!DNL Target.js] 在 [!DNL Target] 中有兩項功能:
 
