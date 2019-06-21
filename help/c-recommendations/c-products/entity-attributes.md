@@ -1,6 +1,6 @@
 ---
 description: 使用實體屬性來傳遞產品或內容資訊至 Recommendations。
-keywords: 實體；實體屬性；將資訊傳遞至Recommendations；行為資料；資料計數器；定義相對URL；顯示庫存等級；定義價格；定義利潤；自訂屬性
+keywords: 實體;實體屬性;傳遞資訊至 Recommendations;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
 seo-description: 使用實體屬性來傳遞產品或內容資訊至 Recommendations。
 seo-title: 實體屬性
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
 
 該必需的參數用於識別產品。該英數字元 ID 必須在所有使用的 [Adobe Experience Cloud] 產品中保持一致 (包括 [!DNL Analytics])，以便各種產品識別項目並共用相關資料。
 
-`entity.id` 值不能包含在REST API呼叫中傳遞時需要URL編碼的斜線、符號、問號、符號、逗號或其他標點符號字元。但可使用連字號和底線。`entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
+`entity.id` 值不得包含斜線、&amp; 符號、問號、百分比符號、逗號，或其他在 REST API 呼叫中傳送時需要 URL 編碼的標點符號字元。但可使用連字號和底線。`entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
 
 範例: `'entity.id=67833'`
 
@@ -148,7 +148,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 `'entity.secondary=Rockies'`
 
-自訂實體屬性支援多個值。請參閱 [自訂實體屬性](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) ，以瞭解字元和值限制。
+自訂實體屬性支援多個值。若要瞭解字元和值限制，請參閱[自訂實體屬性](/help/c-recommendations/c-products/custom-entity-attributes.md#limits)。
 
 範例: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
@@ -237,6 +237,6 @@ mboxCreate('productPage',
 
 如果 mbox 位於產品頁面，那麼，您可同時包括產品 ID 和類別 ID。所選的演算法決定了顯示方式。產品 ID 用於相關性演算法，類別 ID 用於類別演算法。
 
-## 相關主題：
+## 相關主題:
 
 * [自訂實體屬性](../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
