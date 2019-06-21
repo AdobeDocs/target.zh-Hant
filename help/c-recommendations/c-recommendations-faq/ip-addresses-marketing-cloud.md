@@ -8,8 +8,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,5 +32,5 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 >[!NOTE]
 >
->如需完整、最新的清單，請參閱 [Adobe Experience Cloud中使用的IP位址](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)。
+>如需完整的最新清單，請參閱 [Adobe Experience Cloud 中使用的 IP 位址](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)。
 
