@@ -7,8 +7,8 @@ solution: Target
 title: 使用透過伺服器端傳送的活動 QA
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
-translation-type: tm+mt
-source-git-commit: 32eb575df3129e7452a1c794cb7ac03e641e829c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -66,4 +66,4 @@ source-git-commit: 32eb575df3129e7452a1c794cb7ac03e641e829c
 | evaluateAsTrueAudienceIds | ID 清單 | 空白清單。 | mbox 要求範圍內應一律評為 True 的對象 ID 清單。 |
 | evaluateAsFalseAudienceIds | ID 清單 | 空白清單。 | mbox 要求範圍內應一律評為 False 的對象 ID 清單。 |
 | activityIndex | 整數 | Null。<br>不得空白。 | 加密 Token 的活動索引。如果 activityIndex 不在加密 Token 活動的範圍中，或為 null，系統會加以忽略。索引從 1 開始。<br>驗證規則: 至少應有一個活動索引，並應參考 Token 中指定的活動。 |
-| experienceIndex | 整數 | Null。 | 指定此參數時，請依照活動定義中的索引選取體驗。如果未指定或不在範圍內，會改回使用活動的體驗選取器策略。索引從 1 開始  驗證規則: 可為 null，或應參考活動中的體驗。 |
+| experienceIndex | 整數 | Null。 | 指定此參數時，請依照活動定義中的索引選取體驗。如果未指定或不在範圍內，會改回使用活動的體驗選取器策略。索引從 1 開始    驗證規則: 可為 null，或應參考活動中的體驗。 |
