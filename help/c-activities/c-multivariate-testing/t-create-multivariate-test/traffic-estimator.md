@@ -6,8 +6,8 @@ solution: Target
 title: 預估成功測試所需的流量
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,18 +32,18 @@ source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
 
 流量估算程式也會提供回饋意見，讓您得知是否有足夠的流量讓您設計的測試成功。
 
-1. 在體驗撰寫器中，按一下**[!UICONTROL 「流量」]**圖示。
+1. 在體驗撰寫器中，按一下 **[!UICONTROL 「流量」]** 圖示。
 
-   流量估算程式隨即開啟。您可以再按一下**[!UICONTROL 「流量」]**圖示來隱藏流量估算程式。
+   流量估算程式隨即開啟。您可以再按一下 **[!UICONTROL 「流量」]** 圖示來隱藏流量估算程式。
 
    ![](assets/estimatorempty.png)
 
-1. 提供一般轉換率、每日預計訪客數以及測試期間。
+1. 提供一般轉換率、預估每日訪客人數和測試持續時間。
 
-   * [!UICONTROL 內容組合數]：根據在任何排除後建立的活動數，自動計算。
-   * [!UICONTROL 一般轉換率]：轉換率會以百分比表示，根據您的分析系統的估計或過去的資料
-   * [!UICONTROL 每日預計訪客]：這是根據定位條件檢視此頁面的訪客人數。這可能根據您的分析資料。
-   * [!UICONTROL 測試持續時間]：您要執行活動的天數。
+   * [!UICONTROL 內容組合數量]: 在執行任何排除之後，根據要隨活動建立的體驗數量自動計算。
+   * [!UICONTROL 一般轉換率]: 轉換率會根據您的估計或來自您分析系統的過去資料而以百分比表示
+   * [!UICONTROL 預估每日訪客人數]: 這是根據鎖定目標條件所得到的可能檢視此頁面的訪客數量。這可能根據您的分析資料。
+   * [!UICONTROL 測試持續時間]: 活動要執行的天數。
    流量估算程式會使用這些統計資料來判斷執行成功測試所需的調整。
 
    在接近流量估算程式頂端，您輸入的值會經過計算並顯示結果。
