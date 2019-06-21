@@ -1,14 +1,14 @@
 ---
-description: 'at. js的TargetGlobalSettings()函數相關資訊。 '
+description: '有關適用於 at.js 的 targetGlobalSettings() 函數的資訊。 '
 keywords: adobe.target.notification;元素;選取器;通知;擴充功能
-seo-description: 適用於Adobe Target at. js JavaScript程式庫的TargetGlobalSettings()函數的相關資訊。
-seo-title: 適用於Adobe Target at. js JavaScript程式庫的TargetGlobalSettings()函數的相關資訊。
+seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
+seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 solution: Target
 subtopic: 快速入門
 title: targetGlobalSettings()
 topic: Standard
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ## 使用狀況 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-可以在載入 at.js 之前定義此函數，或是在**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定]** &gt; **[!UICONTROL 程式碼設定]** &gt; **[!UICONTROL 資料庫標題」]**中定義。
+可以在載入 at.js 之前定義此函數，或是在 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定]** &gt; **[!UICONTROL 程式碼設定]** &gt; **[!UICONTROL 資料庫標題」]** 中定義。
 
 資料庫標頭欄位允許輸入自由格式的 JavaScript。自訂程式碼看起來應該類似於下列範例:
 
@@ -71,8 +71,8 @@ window.targetGlobalSettings = {
 
 | 影片 | 說明 |
 |--- |--- |
-| [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | 資料提供者這項功能可以讓您輕鬆將資料從第三方傳入 Target。第三方可能是氣象服務、DMP，甚至是您自己的 Web 服務。接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。 |
-| [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | 實作詳細資料和範例，說明如何使用 Adobe Target 的 dataProviders 功能，從第三方資料提供者擷取資料，並將其傳遞到 Target 請求。 |
+| [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-feature-video-use.html) | 資料提供者這項功能可以讓您輕鬆將資料從第三方傳入 Target。第三方可能是氣象服務、DMP，甚至是您自己的 Web 服務。接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。 |
+| [在 Adobe Target 中實作資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-technical-video-implement.html) | 實作詳細資料和範例，說明如何使用 Adobe Target 的 dataProviders 功能，從第三方資料提供者擷取資料，並將其傳遞到 Target 請求。 |
 
 `window.targetGlobalSettings.dataProviders` 設定是資料提供者的陣列。
 
