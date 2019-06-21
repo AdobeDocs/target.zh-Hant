@@ -1,14 +1,14 @@
 ---
-description: 'at. js的自訂事件相關資訊。 '
+description: '有關適用於 at.js 的自訂事件的資訊。 '
 keywords: adobe.target.notification;元素;選取器;通知;擴充功能
-seo-description: Adobe Target在. js JavaScript程式庫中自訂事件的相關資訊。
-seo-title: Adobe Target在. js JavaScript程式庫中自訂事件的相關資訊。
+seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
+seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
 solution: Target
 subtopic: 快速入門
 title: at.js 自訂事件
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 46e49267ba602a96b45ddb54ff99017423e5bf82
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
