@@ -7,8 +7,8 @@ solution: Target
 title: 鎖定目標和對象常見問題集
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: tm+mt
-source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -37,7 +37,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 ## 在 Target、Audience Manager (AAM) 和核心服務中的對象程式庫中，同一對象的名稱為何不同? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-對象名稱 [!DNL Target] 是唯一的；但是，您 [!DNL AAM] 可以 [!DNL Audience Library]對多個對象擁有相同的名稱(如果它們位於不同資料夾中)。 [!DNL Target] 遇到對應至某 [!DNL AAM] 或 [!DNL Audience Library] 對象的對象名稱時， [!DNL Target] 會附加「#&lt; number&gt;」至名稱。
+對象名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個對象可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的對象名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 對象時，[!DNL Target] 會在名稱後面附加 &quot;#&lt;number&gt;&quot;。
 
 例如，您可能會看到下列對象:「PC 使用者」(在 [!DNL AAM] 中) 和「PC 使用者 #1」(在 [!DNL Target] 中)。
 
@@ -73,7 +73,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 | 2 | 大於 3.0 | false |
 | 045 | 等於 45 | true |
 
-以科學注釋撰寫的數字一律會與字串做比較。
+以科學記號撰寫的數字一律會以數值形式比較。
 
 例如，
 
