@@ -6,8 +6,8 @@ seo-title: mbox.js 函數
 solution: Target
 title: mbox.js 函數
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,63 +22,63 @@ source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
 
 | 方法 | 附註 |
 |--- |--- |
-| `mbox.getName()` |
-| `mbox.getURL()` |
+| `mbox.getName()` |  |
+| `mbox.getURL()` |  |
 | `mbox.getDiv()` | 傳回與 mbox 相關聯的 div (包含預設內容或選件) |
 | `mbox.getParameters()` | 以兩個欄位 (名稱及值) 組成之參數的陣列 |
 | `mbox.setOnError()` | 範例:<br>`mbox.setOnError(function() { alert(this.getName() +" had error"});` |
 | `mbox.setMessage(message)` | 您可以在除錯視窗中看到訊息。 |
-| `mboxCurrent.activate()` |
-| `mboxCurrent.cancelTimeout()` |
-| `mboxCurrent.finalize()` |
-| `mboxCurrent.getDefaultDiv()` |
+| `mboxCurrent.activate()` |  |
+| `mboxCurrent.cancelTimeout()` |  |
+| `mboxCurrent.finalize()` |  |
+| `mboxCurrent.getDefaultDiv()` |  |
 | `mboxCurrent.getDiv()` | 傳回與 mbox 相關聯的 div (包含預設內容或選件) |
-| `mboxCurrent.getEventTimes()` |
-| `mboxCurrent.getFetcher()` |
-| `mboxCurrent.getId()` |
-| `mboxCurrent.getImportName()` |
-| `mboxCurrent.getName()` |
-| `mboxCurrent.getOffer()` |
+| `mboxCurrent.getEventTimes()` |  |
+| `mboxCurrent.getFetcher()` |  |
+| `mboxCurrent.getId()` |  |
+| `mboxCurrent.getImportName()` |  |
+| `mboxCurrent.getName()` |  |
+| `mboxCurrent.getOffer()` |  |
 | `mboxCurrent.getParameters()` | 以兩個欄位 (名稱及值) 組成之參數的陣列。 |
-| `mboxCurrent.getURL()` |
-| `mboxCurrent.getURLBuilder()` |
-| `mboxCurrent.hide()` |
-| `mboxCurrent.isActivated`() |
-| `mboxCurrent.load()` |
-| `mboxCurrent.loaded()` |
-| `mboxCurrent.setEventTime()` |
-| `mboxCurrent.setFetcher()` |
-| `mboxCurrent.setMessage()` |
+| `mboxCurrent.getURL()` |  |
+| `mboxCurrent.getURLBuilder()` |  |
+| `mboxCurrent.hide()` |  |
+| `mboxCurrent.isActivated`() |  |
+| `mboxCurrent.load()` |  |
+| `mboxCurrent.loaded()` |  |
+| `mboxCurrent.setEventTime()` |  |
+| `mboxCurrent.setFetcher()` |  |
+| `mboxCurrent.setMessage()` |  |
 | `mboxCurrent.setMessage(message)` | 在除錯視窗中檢視訊息。 |
-| `mboxCurrent.setOffer()` |
+| `mboxCurrent.setOffer()` |  |
 | `mboxCurrent.setOnError()` | 範例:<br>`mboxCurrent.setOnError(function(){ alert(this.getName() +" had error"});` |
 | `mboxCurrent.setOnLoad()` | 範例:<br>`mboxCurrent.setOnLoad(function(){alert(this.getName()+" loaded")});` |
-| `mboxCurrent.show()` |
-| `mboxCurrent.showContent()` |
+| `mboxCurrent.show()` |  |
+| `mboxCurrent.showContent()` |  |
 | `mboxFactoryDefault.addOnLoad(action)` | 頁面載入時呼叫的動作。 |
 | `mboxFactoryDefault.getMboxes().each()` | 範例:<br>`mboxFactoryDefault.getMboxes().each(function() { alert(mbox.getName()) };` |
-| `mboxFactoryDefault.getMboxes().length()` |
-| `mboxFactoryDefault.getPageId()` |
-| `mboxFactoryDefault.getPCId().getId()` |
-| `mboxFactoryDefault.getSessionId().getId()` |
-| `mboxFactories.get('default').getSessionId()​.forceId("1276011116668");` |
-| `mboxFactories.get('default').getPCId()​.forceId("1276011116668");` |
-| `mboxFactoryDefault.create()` |
-| `mboxFactoryDefault.disable()` |
-| `mboxFactoryDefault.enable()` |
-| `mboxFactoryDefault.get()` |
-| `mboxFactoryDefault.getCookieManager()` |
-| `mboxFactoryDefault.getDisableReason()` |
-| `mboxFactoryDefault.getEllapsedTime()` |
-| `mboxFactoryDefault.getEllapsedTimeUntil()` |
+| `mboxFactoryDefault.getMboxes().length()` |  |
+| `mboxFactoryDefault.getPageId()` |  |
+| `mboxFactoryDefault.getPCId().getId()` |  |
+| `mboxFactoryDefault.getSessionId().getId()` |  |
+| `mboxFactories.get('default').getSessionId()​.forceId("1276011116668");` |  |
+| `mboxFactories.get('default').getPCId()​.forceId("1276011116668");` |  |
+| `mboxFactoryDefault.create()` |  |
+| `mboxFactoryDefault.disable()` |  |
+| `mboxFactoryDefault.enable()` |  |
+| `mboxFactoryDefault.get()` |  |
+| `mboxFactoryDefault.getCookieManager()` |  |
+| `mboxFactoryDefault.getDisableReason()` |  |
+| `mboxFactoryDefault.getEllapsedTime()` |  |
+| `mboxFactoryDefault.getEllapsedTimeUntil()` |  |
 | `mboxFactoryDefault.getMboxes()` | 傳回 `mboxList`。 |
-| `mboxFactoryDefault.getSignaler()` |
-| `mboxFactoryDefault.getURLBuilder()` |
-| `mboxFactoryDefault.isAdmin()` |
-| `mboxFactoryDefault.isDomLoaded()` |
-| `mboxFactoryDefault.isEnabled()` |
-| `mboxFactoryDefault.isSupported()` |
-| `mboxFactoryDefault.limitTraffic()` |
-| `mboxFactoryDefault.update()` |
-| `mboxFactoryDefault.getCookieManager()​.getCookie("name")//!= null) {` |
-| `mboxFactoryDefault.getCookieManager()​.setCookie(_name,_value, _duration);` |
+| `mboxFactoryDefault.getSignaler()` |  |
+| `mboxFactoryDefault.getURLBuilder()` |  |
+| `mboxFactoryDefault.isAdmin()` |  |
+| `mboxFactoryDefault.isDomLoaded()` |  |
+| `mboxFactoryDefault.isEnabled()` |  |
+| `mboxFactoryDefault.isSupported()` |  |
+| `mboxFactoryDefault.limitTraffic()` |  |
+| `mboxFactoryDefault.update()` |  |
+| `mboxFactoryDefault.getCookieManager()​.getCookie("name")//!= null) {` |  |
+| `mboxFactoryDefault.getCookieManager()​.setCookie(_name,_value, _duration);` |  |
