@@ -7,15 +7,15 @@ solution: Target
 title: 如何從 mbox.js 移轉至 at.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 如何從 mbox.js 移轉至 at.js{#how-to-migrate-to-at-js-from-mbox-js}
 
-從mbox. js移轉至. js [!DNL Adobe Target] 是一個直接的程序。
+在 [!DNL Adobe Target] 中從 mbox.js 移轉至 at.js 是簡單直接的程序。
 
 使用下列步驟來從 [!DNL mbox.js] 移轉至 [!DNL at.js]，並檢查您的移轉:
 
@@ -32,7 +32,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
    | 全域的空白 mboxCreate | 建議您切換為自動建立的全域 mbox。 |
    | 包裝 mboxCreate | 只要您的 `mboxCreate()` 前端有加上 `<div class="mboxDefault"></div>`，移轉程序應該會相當簡單。 |
    | mboxUpdate | 移轉應該簡單的，當您`mboxUpdate()` 需搭配 `mboxDefine()` 或 `mboxCreate()` 使用。`mboxUpdate()` 不會更新自動建立的全域 mbox 或原來由 `getOffer()` 建立的 mbox。在這類情況下，移轉至 at.js 時，應使用 `getOffer()` 和 `applyOffer()` 的組合來取代 `mboxUpdate()`。 |
-   | 自訂點擊追蹤 mbox，包括 mboxTrack | 建議您更新您的代碼以使用 `trackEvent()`。 |
+   | 自訂點擊追蹤 mbox，包括 mboxTrack | 建議您更新您的代碼以使用`trackEvent()`。 |
 
    >[!NOTE]
    >
@@ -78,11 +78,11 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
    * Ensighten
    * Tealium
    * Signal/BrightTag
-   如需詳細資訊，請參閱 [at.js 整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
+   如需詳細資訊，請參閱[at.js 整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
 
    >[!NOTE]
    >
-   >如果您目前未使用標籤管理程式來部署 [!DNL Target]，現在不妨考慮使用。Adobe 的[動態標籤管理](https://dtm.adobe.com)供 [!DNL Target] 客戶免費使用，且是部署 [!DNL Target] 的建議方法。如需詳細資訊，請參閱[用動態標籤管理來實施 Adobe Target 的最佳作法](https://marketing.adobe.com/resources/help/en_US/dtm/target/)。
+   >如果您目前未使用標籤管理程式來部署 [!DNL Target]，現在不妨考慮使用。Adobe 的[動態標籤管理](https://dtm.adobe.com)供 [!DNL Target] 客戶免費使用，且是部署 [!DNL Target] 的建議方法。如需詳細資訊，請參閱[使用動態標籤管理來實作 Adobe Target 的最佳實務](https://marketing.adobe.com/resources/help/en_US/dtm/target/)。
 
 1. 確認所有目前的活動和整合皆如預期般運作。
 
@@ -107,7 +107,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
    並且建置時會預期 [!DNL mbox.js] 已在頁面上方新增額外的 `<div>` 元素。因為 [!DNL at.js] 未在頁面上方新增 `<div>` 元素，此選取器將不再能與 [!DNL at.js] 搭配使用。
 
-   在 VEC 中的 URL 上使用 [!DNL at.js] 重新建立活動，或在 VEC 中使用**[!UICONTROL 「&lt;/&gt; 代碼]** &gt; **[!UICONTROL 修改」]**選項手動更新選取器，即可解決此問題。
+   在 VEC 中的 URL 上使用 [!DNL at.js] 重新建立活動，或在 VEC 中使用 **[!UICONTROL 「&lt;/&gt; 代碼]** &gt; **[!UICONTROL 修改」]** 選項手動更新選取器，即可解決此問題。
 
    若要補救此問題，您應該在 BODY 之後的第一個 DIV 元素中，從第 n 個輸入數字減 1。在以上範例中，經過編輯的代碼會是:
 
@@ -117,4 +117,4 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
    如需如何使用代碼編輯器來執行此動作的相關資訊，請參閱[代碼編輯器](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。
 
-* 因為所有 mbox 現在非同步，它們將不會封鎖頁面呈現或在其觸發的訂單中傳回。如需詳細資訊，請參閱以下主題中的「資料收集」: [at.js 限制](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。
+* 因為所有 mbox 現在非同步，它們將不會封鎖頁面呈現或在其觸發的訂單中傳回。如需詳細資訊，請參閱以下主題中的「資料收集」:  [at.js 限制](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。
