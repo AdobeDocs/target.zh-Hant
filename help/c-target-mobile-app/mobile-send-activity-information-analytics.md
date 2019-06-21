@@ -4,8 +4,8 @@ seo-description: 本節說明如何將 Target 行動應用程式活動資訊傳�
 seo-title: 將活動資訊傳送到 Adobe Analytics
 title: 將活動資訊傳送到 Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
    剖析在回呼中從 Target 回傳的回應。您可以使用 NSJSONSerialization 來剖析這則回應，以及將回應儲存在字典或陣列中。
 
-   如需詳細資訊，請參閱 [NSNson序列ization文件](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) 。
+   如需詳細資訊，請參閱 [NSJSONSerialization 文件](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error)。
 1. 將資料傳送到 Analytics。
 
    將剖析後的活動資訊 (如前述回應中的 `tntVal`) 新增到 Analytics 呼叫中的內容資料物件。該 Analytics 呼叫含有內容資料，能立即觸發或等到下次 Analytics 呼叫時再觸發。
