@@ -7,8 +7,8 @@ solution: Target
 title: 重新導向選件 - A4T 常見問題集
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,15 +27,15 @@ source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
 
 * Experience Cloud 訪客 ID 服務: [!DNL visitorAPI.js] 版本 2.3.0 或更新版本。
 * Adobe Analytics: [!DNL appMeasurement.js] 版本 2.1。
-* Adobe Target： [!DNL at.js] 1.6.2版或更新版本。
+* Adobe Target: [!DNL at.js] 版本 1.6.2 或更新版本。
 
    [!DNL mbox.js] 資料庫不支援使用 A4T 重新導向選件。您的實作必須使用 [!DNL at.js]。
 
 含有重新導向選件的頁面和訪客重新導向的頁面上，皆必須包含這三個程式庫。
 
-## A4T和Analytics有時會出現資料不一致的情況嗎？
+## 為何 A4T 與 Analytics 之間有時會有資料差異?
 
-預期會有一些資料不一致。如需詳細資訊，請參閱 [「Target與Analytics在使用A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)時，預期的資料差異」。
+可能會出現一些資料差異，這在預期之中。如需詳細資訊，請參閱[使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
 
 ## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
