@@ -7,8 +7,8 @@ solution: Target
 title: 設定檔和變數字彙表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
-translation-type: tm+mt
-source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | 描述檔 | 附註 |
 |--- |--- |
 | user.activeActivities<br>user.activeCampaigns | 即便他/她並未在目前的工作階段中與促銷活動/活動互動，仍傳回使用者所在所有促銷活動/活動的促銷活動 ID。 |
-| user.pcId |
-| user.sessionId |
-| user.categoryAffinity |
+| user.pcId |  |
+| user.sessionId |  |
+| user.categoryAffinity |  |
 | user.categoryAffinities | 傳回訪客已填入的相似性陣列 |
-| user.isFirstSession |
-| user.isNewSession |
-| user.daysSinceLastVisit |
+| user.isFirstSession |  |
+| user.isNewSession |  |
+| user.daysSinceLastVisit |  |
 | user.browser | 使用者代理程式 |
 | user.header | 所有 `user.header` 描述檔皆是由 mbox 請求標頭資料內建 |
 | user.header(&#39;x-cluster-client-ip&#39;) | 訪客所在網路連線的公開顯示的 IP 位址。<br>您可以以數個方式取得該資訊，例如 [whatismyip.com](https://www.whatismyip.com/)。IP 位址不是 NAT 位址 (內部位址)，其開頭為 10.、192.168. 或 172。 |
@@ -40,16 +40,16 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | user.header(&#39;accept&#39;) | 訪客語言和字元編碼 |
 | user.header(&#39;connection&#39;) | 伺服器連線。例如: keep-live |
 | user.header(&#39;referrer&#39;) | 訪客目前頁面的網站 URL。不適用於 Internet Explorer。 |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.get(&#39;param_name&#39;) |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | 持續保存透過設定檔指令碼建立的設定檔屬性。另請參考「系統」設定檔，例如地理位置、造訪計數等。 |
-| profile.get(&#39;param_name&#39;) |
-| profile.param(&#39;param_name&#39;); |
+| profile.get(&#39;param_name&#39;) |  |
+| profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | 對 Mbox 參數持續保存是因為其profile.  首碼。 |
 | profile.browserTime | 訪客的本機瀏覽器時間。如需系統時間，請在描述檔指令碼中建立新的日期物件 |
-| profile.averageDaysBetweenVisits |
-| profile.sessionCount  |
+| profile.averageDaysBetweenVisits |  |
+| profile.sessionCount  |  |
 | parameter= | 使用 mbox 傳遞之其他值的一般詞語，通常為名稱/值配對的形式。除非使用 `profile.parameter` 或 `user.parameter`，否則不會持續保存。 |
 
 ## URL 變數 {#section_8F25958273164EBAA6DC659302993FD3}
@@ -80,8 +80,8 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 
 | 變數 | 附註 |
 |--- |--- |
-| `mbox.name` |
-| mbox.param(&#39;param_name&#39;) |
+| `mbox.name` |  |
+| mbox.param(&#39;param_name&#39;) |  |
 | 自動和每個請求一併傳遞的參數:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 與訂單 mbox 一併傳遞的參數:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | mbox 參數，用來將客戶 ID 同步至 Target 的 mboxPCID。客戶 ID 為您的公司用來追蹤訪客的 ID，例如 CRM ID、會員 ID 或類似的項目。然後此 ID 可用來新增資訊，透過設定檔 API 和[客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)。 |
