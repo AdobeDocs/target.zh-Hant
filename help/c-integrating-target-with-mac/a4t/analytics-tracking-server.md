@@ -5,8 +5,8 @@ seo-description: 如果您使用較舊版本的 at.js 或 mbox.js，您必須針
 seo-title: 使用 Analytics 追蹤伺服器
 title: 使用 Analytics 追蹤伺服器
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 1. 從建立您的活動所在的頁面，開啟 Adobe Experience Cloud Debugger。
 
-   如果您尚未安裝偵錯程式，請遵循 [Adobe Debugger 安裝說明](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html)。
+   如果您尚未安裝除錯程式，請依照 [Adobe Debugger 安裝說明](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/debugger_install.html)操作。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
    * (適用於 RDC 實施)
    *Company* 代表 Analytics 公司名稱，*metrics* 為 CNAME 值的範例，以及 *d1* 為 Analytics 資料中心的範例。
 1. 複製欄位的整個內容。
-1. 在您的活動[!UICONTROL 「目標與設定」][!UICONTROL 畫面的]「報表設定」**區段中，於[!UICONTROL 「追蹤伺服器」]**欄位中貼上追蹤伺服器資訊。
+1. 在您的活動[!UICONTROL 「目標與設定」][!UICONTROL 畫面的]「報表設定」**區段中，於[!UICONTROL 「追蹤伺服器」]** 欄位中貼上追蹤伺服器資訊。
 
    >[!NOTE]
    >
