@@ -1,25 +1,25 @@
 ---
-description: 'at. js的adobe. target. applyOffers(選項)函數相關資訊。 '
+description: '有關適用於 at.js 的 adobe.target.applyOffers(options) 函數的資訊。 '
 keywords: adobe.target.notification;元素;選取器;通知;擴充功能
-seo-description: Adobe Target at. js JavaScript程式庫中Adobe Target. applyOffers(選項)函數的相關資訊。
-seo-title: Adobe Target at. js JavaScript程式庫中Adobe Target. applyOffers(選項)函數的相關資訊。
+seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
+seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
 solution: Target
 subtopic: 快速入門
 title: adobe.target.applyOffers(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# adobe. target. applyOffers(選項)- at. js2.x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 此函數可讓您套用一個以上由 `adobe.target.getOffers()` 擷取的選件。
 
 >[!NOTE]
 >
->此函數是以. js2.x導入。此函數不適用於. js第版。*x* 版本不支援此函數。
+>此函數於 at.js 2.x 推出。此函數不適用於 at.js 版本 1。*x* 版本不支援此函數。
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
