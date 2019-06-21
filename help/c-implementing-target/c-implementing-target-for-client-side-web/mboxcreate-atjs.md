@@ -1,14 +1,14 @@
 ---
-description: 'at. js的mboxCreate(mbox、params)函數相關資訊。 '
+description: '有關適用於 at.js 的 mboxCreate(mbox,params) 函數的資訊。 '
 keywords: adobe.target.notification;元素;選取器;通知;擴充功能
-seo-description: 適用於Adobe Target at. js JavaScript程式庫的mboxCreate(mbox、params)函數的相關資訊。
-seo-title: 適用於Adobe Target at. js JavaScript程式庫的mboxCreate(mbox、params)函數的相關資訊。
+seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxCreate(mbox,params) 函數的資訊。
+seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxCreate(mbox,params) 函數的資訊。
 solution: Target
 subtopic: 快速入門
 title: mboxCreate(mbox,params) - at.js 2.x
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 
 >[!NOTE]
 >
->此函數僅適用於 at.js 1.*x* 版。在. js2.x發行時停用此函數。如果與at. js2.x搭配使用，此函數會傳回預設內容。
+>此函數僅適用於 at.js 1.*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。
 
 此函數多半會內建在 [!DNL at.js]，以便於從 [!DNL mbox.js] 到 [!DNL at.js] 的轉變。`mboxCreate()` 較新的替代方案是 `adobe.target.applyOffer()`/ `adobe.target.getOffer()` 或 Angular 指令。
 
