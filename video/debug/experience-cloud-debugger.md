@@ -4,7 +4,7 @@ solution: Target
 title: 使用 Experience Cloud Debugger 除錯 Target
 seo-title: 使用 Experience Cloud Debugger 除錯 Target
 topic: Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
@@ -26,6 +26,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 其他資源
 
-+ [Chrome Store中的Adobe Experience Cloud除錯程式](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Targeting Target說明文件疑難排解](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [如何使用Experience Cloud除錯程式視訊](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Chrome 商店中的 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=zh_TW)
++ [疑難排解 Target 說明文件](https://marketing.adobe.com/resources/help/zh_TW/target/target/r_troubleshooting_target.html)
++ [如何使用 Experience Cloud Debugger 影片](https://helpx.adobe.com/tw/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
