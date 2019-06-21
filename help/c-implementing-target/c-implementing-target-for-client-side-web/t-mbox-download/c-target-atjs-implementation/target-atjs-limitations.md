@@ -7,8 +7,8 @@ solution: Target
 title: at.js 限制
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,11 +23,11 @@ at.js 與 mbox.js 之間有一些差異。此小節列出部分差異和限制�
 
    在單頁應用程式中的頁面載入事件上，因為 DOM 不會像在傳統網站中一樣地清除，所以「插入元素」和「重新安排」操作可能會重複套用多次，視訪客如何導覽 SPA 而定。
 
-## 整合和外掛程式 {#section_D92E31170176406AAC7B5005F03D3425}
+## 整合和外掛程式{#section_D92E31170176406AAC7B5005F03D3425}
 
 [!DNL mbox.js] 中沒有 [!DNL at.js] 內的某些函式。[!DNL at.js] 不再支援內部 [mbox.js 物件和方法](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` 及其他，例如 `mboxFactoryDefault`)。這是刻意設計，目的是不勸阻您不要「駭入」[!DNL at.js] 來開發不受支援的功能，這些功能長期而言會削弱實施，導致實施無法升級。本說明文件的 API 頁面涵蓋唯一公開的方法。因此:
 
-* 舊版與其他Adobe解決方案的頁面 [整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 可能無法運作，且應升級為較新的伺服器端整合。
+* 舊型頁面式[整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)搭配其他 Adobe 解決方案可能無法運作，應該升級至更新的伺服器端整合。
 * [針對 mbox.js 開發的自訂外掛程式](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)可能無法運作，除非針對 [!DNL at.js] 進行過更新。
 
    務必將所有[外掛程式](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均納入測試中。
