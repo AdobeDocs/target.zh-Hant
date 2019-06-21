@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 使用重新導向程式
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * 您 `yourclientcode` 公司的客戶代碼。您的公司用戶端代碼為全部小寫並且不帶特殊字元。
+   * 其中 `yourclientcode` 代表貴公司的用戶端代碼。您的公司用戶端代碼為全部小寫並且不帶特殊字元。
 
       * **at.js:** 您的用戶端代碼可在 [!UICONTROL  介面的]「設定 &gt; 實作 &gt; 編輯 at.js 設定」[!DNL Target]頁面最上方取得。
 
@@ -54,9 +54,9 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
       重新導向程式的功能與其他 mbox 不同，但外觀就如同您帳戶中的其他 mbox 一樣。請為重新導向程式命名，以便容易區別它們和您帳戶中其他標準類型的 mbox。作為最佳作法，請從名稱為 &#39;redirectorlink&#39; 的 mbox 開始。
 
-   * 預設 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 目的地。
+   * 其中 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 是預設目的地。
 
-      此網址必須經過 URL 編碼，且必須為絕對參照。您可以使用 [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) 來快速編碼您的URL。|
+      此網址必須經過 URL 編碼，且必須為絕對參照。您可以使用 [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) 快速將您的 URL 編碼。
 
 
 
@@ -97,7 +97,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
 >[!NOTE]
 >
->最佳實務是使用每次瀏覽 **分數** 參與度量判斷成本值， [如參與所述](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html)。
+>最佳實務是使用 **每次瀏覽的分數** 參與量度來判斷成本值，相關說明請參閱[參與](https://marketing.adobe.com/resources/help/zh_TW/tnt/help/c_Capturing_Engagement.html)。
 
 將 `&mboxPageValue=-value` 新增至 URL 中。請注意負值。
 
@@ -108,13 +108,13 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### 傳遞每次點擊的收入 {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### 傳遞每次點擊的收入{#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 使用重新導向程式來傳遞每次點按收入。
 
 >[!NOTE]
 >
->最佳實務是使用每次瀏覽 **分數** 參與度量判斷收入值， [如參與所述](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html)。
+>最佳實務是使用 **每次瀏覽的分數** 參與量度來判斷收入值，相關說明請參閱[參與](https://marketing.adobe.com/resources/help/zh_TW/tnt/help/c_Capturing_Engagement.html)。
 
 將 `&mboxPageValue=value` 新增至 URL 中。
 
