@@ -7,8 +7,8 @@ solution: Target
 title: 搜尋內容和建立智慧型收集
 topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 * [依關鍵字搜尋資產](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [儲存智慧型集合](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## 依關鍵字搜尋資產 {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## 依關鍵字搜尋資產{#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. 按一下**[!UICONTROL 「選件]** &gt; **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產資料庫」]。
+1. 按一下 **[!UICONTROL 「選件]** &gt; **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產資料庫」]。
 
    您可以按一下右上角的[!UICONTROL 「卡片檢視」]圖示，以卡片檢視格式來顯示資產。
 
@@ -32,26 +32,26 @@ source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 
    您可以按一下右上角的[!UICONTROL 「清單檢視」]圖示，以清單檢視格式來顯示資產。
 
-1. 按一下左上角的**[!UICONTROL 「僅內容」]圖示，以顯示搜尋方塊。**
+1. 按一下左上角的 **[!UICONTROL 「僅內容」]圖示，以顯示搜尋方塊。**
 
    ![](assets/search_assets.png)
 
 1. 在搜尋方塊中，輸入您想尋找的資產的關鍵字，然後按 Enter 鍵。
 
-## 儲存智慧型集合 {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## 儲存智慧型集合{#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 您可以建立已儲存的搜尋，稱為智慧型集合，在執行類似搜尋時即可節省時間。已儲存的搜尋會建立智慧型集合，這會隨著搜尋結果而自動更新。
 
-1. 按一下**[!UICONTROL 「選件]** &gt; **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產資料庫」]。
+1. 按一下 **[!UICONTROL 「選件]** &gt; **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產資料庫」]。
 
    ![](assets/content.png)
 
-1. 按一下左上角的**[!UICONTROL 「僅內容」]**圖示，在左邊欄中顯示[!UICONTROL 「篩選和選項」]畫面。
-1. 按一下**[!UICONTROL 「瀏覽」]**圖示，以顯示[!UICONTROL 「選取路徑」]對話方塊。
+1. 按一下左上角的 **[!UICONTROL 「僅內容」]** 圖示，在左邊欄中顯示[!UICONTROL 「篩選和選項」]畫面。
+1. 按一下 **[!UICONTROL 「瀏覽」]** 圖示，以顯示[!UICONTROL 「選取路徑」]對話方塊。
 
    ![](assets/browse_folders.png)
 
-1. 瀏覽並選取所需的資料夾，以作為智慧型集合的基礎，然後按一下**[!UICONTROL 「確認」]圖示。**
+1. 瀏覽並選取所需的資料夾，以作為智慧型集合的基礎，然後按一下 **[!UICONTROL 「確認」]圖示。**
 
    ![](assets/browse_folders2.png)
 
@@ -60,7 +60,7 @@ source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 
    ![](assets/save_smart_collection_options.png)
 
-1. 指定智慧型集合的名稱，如果要讓 [!DNL Target] 帳戶中的所有使用者都能夠存取此智慧型集合，請選取**[!UICONTROL 「公用」]**核取方塊，然後按一下**[!UICONTROL 「儲存」]**。
+1. 指定智慧型集合的名稱，如果要讓 [!DNL Target] 帳戶中的所有使用者都能夠存取此智慧型集合，請選取 **[!UICONTROL 「公用」]** 核取方塊，然後按一下 **[!UICONTROL 「儲存」]**。
 
    智慧型集合會新增至已儲存的搜尋清單，供未來使用:
 
