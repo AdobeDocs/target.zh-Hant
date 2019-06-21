@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 進階
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 * 多臂吃角子老虎機可確保模型一律會「耗費」少量的流量，以在活動期間繼續學習，並防止過度利用先前學習的趨勢。
 * 每 24 個小時基礎模型會使用最新的訪客行為資料重新建置，以確保 Target 一律會利用變動的訪客偏好設定。
-* 如果演算法無法判斷個別訪客的成功體驗，它會自動切換，以顯示整體的最佳執行體驗，同時仍繼續尋找個人化獲勝者。使用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)找到執行最佳的體驗。
+* 如果演算法無法判斷個別訪客的成功體驗，它會自動切換，以顯示整體的最佳執行體驗，同時仍繼續尋找個人化獲勝者。使用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)會有效能最佳的體驗。
 
 **模型會持續將單一目標量度最佳化。**
 
