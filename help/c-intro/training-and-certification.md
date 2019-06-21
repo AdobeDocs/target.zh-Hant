@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 訓練與認證
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
