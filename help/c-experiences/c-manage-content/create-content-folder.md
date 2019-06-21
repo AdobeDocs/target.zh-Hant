@@ -7,8 +7,8 @@ solution: Target
 title: 建立選件資料夾
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,8 +17,8 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 建立資料夾以在選件資料庫中保存項目。
 
-1. 按一下**[!UICONTROL 「選件」]**，然後選取**[!UICONTROL 「代碼選件」]**或**[!UICONTROL 「影像選件」]**標籤 (如果適用)。
-1. 按一下**[!UICONTROL 「建立]** &gt; **[!UICONTROL 資料夾」]**。
+1. 按一下 **[!UICONTROL 「選件」]**，然後選取 **[!UICONTROL 「代碼選件」]** 或 **[!UICONTROL 「影像選件」]** 標籤 (如果適用)。
+1. 按一下 **[!UICONTROL 「建立]** &gt; **[!UICONTROL 資料夾」]**。
 1. 填寫欄位: 
 
    | 欄位 | 說明 |
@@ -28,7 +28,7 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
    | 私密 (僅適用於影像選件) | 指定該資料夾為私密，因此只有您可以看見它並查看其內容。 |
    | 可在清單檢視中重新排序 (僅適用影像選件) | 指定您和其他人可以在清單檢視中重新排序資料夾的位置。<br>若要在「卡片檢視」和「清單檢視」之間切換，請按一下內容程式庫右上角的「卡片檢視」圖示或「清單檢視」圖示。您也可以選取「檢視設定」來包括或排除清單檢視中的欄。 |
 
-1. 按一下**[!UICONTROL 「建立」]**。
+1. 按一下 **[!UICONTROL 「建立」]**。
 
 ## 代碼選件選項
 
@@ -42,11 +42,11 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 編輯資料夾。
 
-### 複製 ![](assets/icon_copy.png)
+### 複製![](assets/icon_copy.png)
 
 複製資料夾。
 
-### 移動 ![](assets/icon_move_folder.png)
+### 移動![](assets/icon_move_folder.png)
 
 按一下此圖示，導覽至您要移動資料夾的位置，然後按一下「放置」圖示。
 
@@ -79,6 +79,6 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 使用 Adobe Creative Cloud 共用資料夾及其內容。
 
-### 複製 ![](assets/icon_copy_content.png)
+### 複製![](assets/icon_copy_content.png)
 
 複製資料夾及其內容。
