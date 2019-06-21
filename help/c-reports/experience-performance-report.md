@@ -7,8 +7,8 @@ solution: Target
 title: 體驗效能報表 (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 體驗效能報表顯示活動中的每個體驗的執行成果。此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
 
-您可以選取一或多個體驗來相互比較。按一下體驗並選取**[!UICONTROL 「預覽」]，在瀏覽器標籤中開啟體驗。**
+您可以選取一或多個體驗來相互比較。按一下體驗並選取 **[!UICONTROL 「預覽」]，在瀏覽器標籤中開啟體驗。**
 
 ![](assets/experienceperformancetable.png)
 
