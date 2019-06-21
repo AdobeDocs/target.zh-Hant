@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 建議
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -60,7 +60,7 @@ curl -X POST \
 >
 >各電子郵件收件人 (如各 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供不重複的值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。
 
-如需詳細資訊，請參閱[傳送 API 文件](https://developers.adobetarget.com/api/#server-side-delivery)。
+如需詳細資訊，請參閱 [D傳送 API 說明文件](https://developers.adobetarget.com/api/#server-side-delivery)。
 
 ## 選項 2: 使用 Rawbox 電子郵件範本 {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
@@ -103,23 +103,23 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 參數 | 值 | 說明 | 驗證 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | 在 Recommendations 中所使用用戶端的程式碼。您的 Adobe 顧問可以提供此值。 |
+| `client_code` | *client_code* | 在 Recommendations 中所使用用戶端的程式碼。您的 Adobe 顧問可以提供此值。 |  |
 | `mbox` | *mboxName* | 用於鎖定目標的 mbox 名稱。 | 對所有 mbox 呼叫使用相同的驗證身分。<br>250 個字元限制。<br>不能包括下列任一個字元: `', ", %22, %27, <, >, %3C, %3E` |
-| `mboxXDomain` | 已停用 | 防止回應在非 Web 環境中設定 Cookie。 |
-| `entity.id`<br>(某些類型的條件為必要: 檢視/檢視、檢視/購買、購買/購買) | *entity_id* | 建議所根據的 productId，例如購物車中放棄的產品或先前的購買。<br>如果條件要求，rawbox 呼叫必須包括 `entity.id`。 |
-| `entity.event.detailsOnly` | true | 如果傳遞了 `entity.id`，則非常建議您也傳遞此參數，以防止要求為了不要扭曲產品檢視式的演算法，而遞增專為某項目調整的頁面檢視數量。 |
-| `entity.categoryId`<br>(某些類型的條件為必要: 依檢視次數最多類別和依最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。 |
-| `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |
+| `mboxXDomain` | 已停用 | 防止回應在非 Web 環境中設定 Cookie。 |  |
+| `entity.id`<br> (某些類型的條件為必要: 檢視/檢視、檢視/購買、購買/購買) | *entity_id* | 建議所根據的 productId，例如購物車中放棄的產品或先前的購買。<br>如果條件要求，rawbox 呼叫必須包括 `entity.id`。 |  |
+| `entity.event.detailsOnly` | true | 如果傳遞了 `entity.id`，則非常建議您也傳遞此參數，以防止要求為了不要扭曲產品檢視式的演算法，而遞增專為某項目調整的頁面檢視數量。 |  |
+| `entity.categoryId`<br> (某些類型的條件為必要: 依檢視次數最多類別和依最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。 |  |
+| `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |  |
 | `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 &quot;thirdPartyId&quot;，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 
 **選用參數**:
 
 | 參數 | 值 | 說明 | 驗證 |
 |--- |--- |--- |--- |
-| `mboxPC`<br>(可選) | *mboxPCId* | Target 訪客 ID。如果您想要追蹤使用者在多次造訪間完全回到您的網站，或使用使用者設定檔參數時，請使用此值。<br>此值必須是使用者的實際 Adobe Target PCID，它會從網站匯出至您的 CRM。電子郵件提供者會從您的 CRM 或資料倉儲擷取此 ID，並使用它做為此參數的值。<br>當建議屬於 A/B 活動時，`mboxPC` 值對於追蹤多次造訪間的度量追蹤的訪客網站行為也很實用。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
-| `mboxNoRedirect`<br>(可選) | 1 | 依預設，在找不到可傳遞的內容時會將呼叫端重新導向。用來停用預設行為。 |
-| `mbox3rdPartyId` | *xxx* | 如果您有要用於設定檔鎖定目標的自訂訪客 ID，請使用此值。 |
+| `mboxPC`<br> (可選) | *mboxPCId* | Target 訪客 ID。如果您想要追蹤使用者在多次造訪間完全回到您的網站，或使用使用者設定檔參數時，請使用此值。<br>此值必須是使用者的實際 Adobe Target PCID，它會從網站匯出至您的 CRM。電子郵件提供者會從您的 CRM 或資料倉儲擷取此 ID，並使用它做為此參數的值。<br>當建議屬於 A/B 活動時，`mboxPC` 值對於追蹤多次造訪間的度量追蹤的訪客網站行為也很實用。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
+| `mboxNoRedirect`<br> (可選) | 1 | 依預設，在找不到可傳遞的內容時會將呼叫端重新導向。用來停用預設行為。 |  |
+| `mbox3rdPartyId` | *xxx* | 如果您有要用於設定檔鎖定目標的自訂訪客 ID，請使用此值。 |  |
 
 **潛在的 Target 伺服器回應**:
 
@@ -134,7 +134,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 ## 選項 3: 使用僅供下載的範本 {#section_518C279AF0094BE780F4EA40A832A164}
 
-照常設定建議，但選擇顯示區域中的**僅供下載**，而不是範本和 mbox 組合。然後在 ESP 中，告訴 ESP 您所建立的建議 ID。ESP 透過 API 存取建議資料。該資料顯示應為特定類別或主要項目所建議的項目，例如購物車中放棄的項目。ESP 會儲存資料，以其自身的外觀和感覺連接它，顯示各項目的相關資訊，並透過電子郵件傳送。
+照常設定建議，但選擇顯示區域中的 **僅供下載**，而不是範本和 mbox 組合。然後在 ESP 中，告訴 ESP 您所建立的建議 ID。ESP 透過 API 存取建議資料。該資料顯示應為特定類別或主要項目所建議的項目，例如購物車中放棄的項目。ESP 會儲存資料，以其自身的外觀和感覺連接它，顯示各項目的相關資訊，並透過電子郵件傳送。
 
 使用該選項， Recommendations 伺服器無法直接追蹤建議的效能，或將流量分入多個演算法/範本組合。同時，建議未繫結至訪客設定檔。
 
