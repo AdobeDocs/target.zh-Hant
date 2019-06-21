@@ -20,4 +20,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 此外，我們還與夥伴、頂尖的研究人員、安全性調查機構及其他業界組織一起合作，隨時掌握最新的威脅和漏洞，同時定期將先進的安全性技術納入我們所提供的產品與服務中。
 
-如需詳細資訊，請參閱 [Adobe Target 安全性概覽](//wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
+如需詳細資訊，請參閱 [Adobe Target 安全性概覽](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
