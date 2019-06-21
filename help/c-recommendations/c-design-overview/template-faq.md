@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -41,4 +41,4 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 ## 我可以在「建議」設計中使用設定檔指令碼嗎? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-是. 不過，在設定檔指令碼名稱中，您必須在 $ 前面加上反斜線 (\)。
+是.不過，在設定檔指令碼名稱中，您必須在 $ 前面加上反斜線 (\)。
