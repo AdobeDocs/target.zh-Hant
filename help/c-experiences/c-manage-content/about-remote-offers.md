@@ -7,8 +7,8 @@ solution: Target
 title: 建立遠端選件
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 **建立遠端選件:**
 
-1. 按一下**[!UICONTROL 「選件」]**，然後選取**「代碼選件」]索引標籤。[!UICONTROL **
-1. 按一下**[!UICONTROL 「建立]** &gt; **[!UICONTROL 遠端選件」]**。
+1. 按一下 **[!UICONTROL 「選件」]**，然後選取 **「代碼選件」]索引標籤。[!UICONTROL **
+1. 按一下 **[!UICONTROL 「建立]** &gt; **[!UICONTROL 遠端選件」]**。
 
    ![](assets/remote_offer_ui.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
    | 已快取 | 快取遠端選件的內容由 Target 提供。<br>[!DNL Target] 每兩小時會從遠端 URL 擷取內容，然後將內容儲存在 Target 內。當訪客載入的網站有一個體驗包含遠端選件時，Target 會傳送此選件。<br>因為登入 Target 的人無法變更內容，讓快取遠端選件得以提供增強的安全性。若要變更內容，此人需要登入內容管理或其他系統，然後在那裡變更內容。<br>您可以為快取遠端選件指定絕對或相對 URL。 |
    | 動態 | 動態遠端選件由內容管理或其他系統提供，而非由 Target 提供。<br>每當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓 Target 定期快取內容再傳送。相反地，您想要呼叫裝載內容的系統，可能傳入特定的資訊，使得傳回的選件隨著每個使用者而動態變化或不同。<br>例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端選件，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。<br>按一下[!UICONTROL 「新增參數」]，以新增一或多個 Mbox 或要求參數。 |
 
-1. 按一下**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL 「儲存」]**。
 
 ## 使用遠端選件的最佳作法 {#section_7718512D08E14121B6F6B8C38134F4BC}
 
