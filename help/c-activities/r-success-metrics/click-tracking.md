@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 點擊追蹤
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -22,7 +22,7 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 >
 >Target 全域 mbox 作為表單式活動的地點時，不支援追蹤點擊。
 
-## 設定點擊追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
+## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. 在活動的[!UICONTROL 「目標與設定」]頁面上設定您的目標時，請選取 **[!UICONTROL 「轉換」]成功量度。**
 1. 針對動作，選取 **[!UICONTROL 「點擊元素」]**，然後按一下 **[!UICONTROL 「選取元素」]**。
@@ -36,6 +36,32 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 1. 按一下畫面上方的核取記號來儲存您的選擇項目。
 
 當活動加入者點擊選取的元素時，該點擊會被計為轉換。
+
+## Selected Elements panel {#selected-elements}
+
+For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+
+![選取的元素面板](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+
+There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. 下表說明可在元素上執行的每個動作：
+
+| 動作 | 說明 |
+| --- | --- |
+| 資訊 | 顯示元素類型和選取器的完整DOM路徑。 |
+| 編輯   | 可讓您編輯CSS選取器。 |
+| 刪除 | 刪除元素。 |
+
+### 新增元素
+
+如果您已經知道選取器的DOM路徑，可以按一下面板頂端的加號圖示，手動新增它。
+
+![新增元素圖示](/help/c-activities/r-success-metrics/assets/add-element.png)
+
+### 選取的元素暫留在快顯視窗上
+
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 清單中包含元素的完整DOM路徑，可協助您驗證選取的元素是否用於點按追蹤。
+
+![Elements選取的連結](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 考量事項 {#considerations}
 
@@ -90,4 +116,4 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 * 瞭解和建置轉換、收入和參與量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hant)
