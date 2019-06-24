@@ -7,8 +7,8 @@ solution: Target
 title: 可視化體驗撰寫器選項
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 **注意:** 此選項無法供設定了背景影像的元素使用。
 
-#### 樣式
+#### 樣式 {#styles}
 
 使用[!UICONTROL 樣式]面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。
 
@@ -73,6 +73,20 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >[!NOTE]
 >
 >版面變更、背景顏色、調整大小和移動的快速動作在 VEC 功能表中也有個別的動作可供使用。這些選項能以個別的動作運用，或者您也可以按照此處所述使用樣式功能表。
+
+* **背景**
+
+   變更背景顏色和影像。
+
+   * 顏色 (指定顏色代碼或使用檢色器)
+   * 影像(從檢色器選取影像)
+   * 影像來源(指定外部URL)
+   * 附件
+      * 按一下頂端下拉式清單，選取捲動、固定或本機
+      * 按一下下方下拉式清單以選取重復、重復x、重復、不重復、空格或四捨五入
+   * Clip
+      * 按一下頂端下拉式清單，選取邊框框、填補空間、內容方塊或文字
+      * 按一下下方下拉式清單，選取自動音訊或音訊
 
 * **印刷樣式**
 
@@ -100,7 +114,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    * 值 (拖曳滑桿以設定邊界，或指定每個邊界的像素數量)
    邊界支援正值和負值。
 
-   Target 也支援其他大小單位，例如 rem、pc、em 等。如需這些單位的詳細資訊，請參閱[網頁樣式表 CSS 提示與秘訣](https://www.w3.org/Style/Examples/007/units.en.html)。
+   Target 也支援其他大小單位，例如 rem、pc、em 等。For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **邊框間距**
 
@@ -110,7 +124,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    邊框間距支援 0 以上的寬度刻度。
 
-   Target 也支援[其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如 rem、pc、em 等。
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **邊框**
 
@@ -123,11 +137,11 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    * 邊框寬度 (拖曳滑桿以選取邊框寬度，或以像素指定寬度)
    邊框支援 0 以上的寬度刻度。
 
-   Target 也支援[其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如 rem、pc、em 等。
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **位置**
 
-   從所選元素的目前位置移動該元素。您可以變更元素的上、下、左、右和 [Z 索引](https://www.w3schools.com/cssref/pr_pos_z-index.asp)位置。
+   從所選元素的目前位置移動該元素。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    按一下[!UICONTROL 靜態]下拉式清單，以從下列位置選項中選擇:
 
@@ -142,7 +156,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    * 值 (拖曳滑桿以設定元素位置，或指定您要移動元素的像素數量)
    位置支援正值和負值。
 
-   Target 也支援[其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如 rem、pc、em 等。
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **大小**
 
