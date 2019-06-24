@@ -76,10 +76,10 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 |  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 新增教學課程的連結：<ul><li>在Mobile iOS Objective-C應用程式中實作Experience Cloud</li><li>在Mobile iOS Swift應用程式中實作Experience Cloud</li></ul> |
 |  | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 已新增新教學課程的連結：<ul><li>在Mobile Android應用程式中實作Experience Cloud</li></ul> |
 |  | [Target 簡介](/help/c-intro/intro.md#kit) | 已新增Adobe Target歡迎套件的連結。 |
-| 2019 年 5 月 21 日 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新「移動」選項的相關資訊。</li><li>已新增附註，指出您可以在頁面載入之前執行許多動作，或即使頁面無法完全載入亦然。 </li></ul> |
-|  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 經過修改的文字、更新的影像和新增的培訓影片。 |
-|  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已過時的文字和影像。 |
-|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 新增客戶屬性別名ID的字元限制。 |
+| 2019 年 5 月 21 日 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新「移動」選項的相關資訊。</li><li>新增備註，說明您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時執行的許多動作。 </li></ul> |
+|  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新文字、更新影像，以及新增訓練影片。 |
+|  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 更新文字和影像。 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 新增客戶屬性別名 ID 的字元限制。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.5.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 19.4.2 (2019 年 4 月 30 日) {#target-19-4-2}
@@ -89,7 +89,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 5 月 15 日 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | 新增注意事項來說明您必須觸發 `at-view-start` 和 `at-view-end` 事件。 |
-| 2019 年 5 月 14 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)、<br>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)和<br>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 新主題。 |
+| 2019 年 5 月 14 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)、<br>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)、<br>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)和<br>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 新主題。 |
 |  | [將動態資料傳遞至選件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 更新文字。 |
 | 2019 年 5 月 13 日 | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 將有關在多頁活動中使用 QA 模式的項目新增至考量事項清單。 |
 |  | [在類似頁面上包含相同體驗](/help/c-experiences/c-visual-experience-composer/temtest.md) | 更新步驟以與 UI 相符。 |
@@ -130,9 +130,9 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 | 2019 年 4 月 10 日 | [實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 「實作需求」一節的微幅文字更新 (已記錄需求)。 |
 |  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新 &quot;options &gt; page&quot; 參數的文字。 |
 | 2019 年 4 月 8 日 | [使用和不使用 A4T 時 Target 與 Analytics 之間的預期資料變異](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | 更新[使用 A4T 時的預期資料差異](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t)。 |
-|  | [在 A4T 中將膨脹的造訪和訪客計數減到最少](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md) | 更新[是什麼造成了部分資料?](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#section_C9C906BEAA7D44DAB9D3C03932A2FEB8)下的 A4T 和重新導向相關資訊 |
+|  | [在 A4T 中將膨脹的造訪和訪客計數減到最少](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md) | 更新[是什麼造成了部分資料?](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#section_C9C906BEAA7D44DAB9D3C03932A2FEB8) 下的 A4T 和重新導向相關資訊 |
 |  | [實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A) | 更新搭配重新導向使用 A4T 的最低需求 (at.js 版本 1.6.2)。 |
-|  | [重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) | <ul><li>更新搭配重新導向使用 A4T 的最低需求 (at.js 版本 1.6.2)。</li><li>新增說明在有 Target 點按發生但沒有 Analytics 點按發生時，資料量度如何計算的資訊。 </li> |
+|  | [重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) | <ul><li>更新搭配重新導向使用 A4T 的最低需求 (at.js 版本 1.6.2)。</li><li>新增說明在有 Target 點擊發生但沒有 Analytics 點擊發生時，資料量度如何計算的資訊。 </li> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md#excludedid) | 新增 `excludedIDs` mbox 參數上限的相關資訊。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#response-tokens) | 新增章節:「回應 Token」。 |
 | 2019 年 4 月 5 日 | [Adobe Target 基礎網路研討會: Recommendations 簡介](/help/c-recommendations/recommendations.md#intro-to-recs) | 新增「Recommendations 簡介」網路研討會的錄影連結。 |
@@ -141,7 +141,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 | 2019 年 4 月 4 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增 Target 19.4.1 和 Target 19.4.2 版本的初步發行說明 (兩者皆預計於 2019 年 4 月推出)。 |
 | 2019 年 3 月 30 日 | [限制](/help/r-troubleshooting-target/target-limits.md#excludedid) | 新增 `excludedID` mbox 參數上限的相關資訊。 |
 | 2019 年 3 月 29 日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題:「若為單頁應用程式 (SPA) 網站，取消載入不會允許您編輯[!UICONTROL 修改]面板下的動作」。<br>將下列已知問題移至「已解決的問題」章節:「Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件視為在預設工作區中」。 |
-| 2019 年 3 月 28 日 | [可視化體驗撰寫器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 新增下列新小節:<ul><li>[在 VEC 內取消載入頁面。](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[在頁面載入時或頁面無法載入後編輯頁面](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)。</li></ul> |
+| 2019 年 3 月 28 日 | [可視化體驗撰寫器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 新增下列新小節:<ul><li>[在 VEC 內取消載入頁面](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)。</li><li>[在頁面載入時或頁面無法載入後編輯頁面](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)。</li></ul> |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | 新增章節:「[使用 DOM 路徑導覽元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)」。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | 新增目前在 VEC 中取消載入頁面時的已知問題。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.3.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
@@ -163,11 +163,11 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 | 2019 年 3 月 14 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 將 Target Standard/Premium 19.3.1 版本的日期變更為 2019 年 3 月 29 日。 |
 | 2019 年 3 月 13 日 | [建立自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 更新轉換量度一列中的文字。 |
 |  | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 新增章節:「指令碼設定檔參數的 JavaScript 參考資料」。 |
-|  | [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 重新編排頁面以及為每個 at.js 函數新頁面，以便能更輕鬆存取資訊。 |
+|  | [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 重新編排頁面以及為每個 at.js 函數建立新頁面，以便能更輕鬆存取資訊。 |
 |  | [at.js 如何運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 新增說明用戶端實施的簡介段落。 |
 |  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問題集:「是否可以動態地排除實體?」 |
 | 2019 年 3 月 12 日 | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 和[使用 Adobe Experience Cloud Debugger 除錯 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | Debugger 現已支援可與 at.js 2.x 整合。 |
-| 2019 年 3 月 11 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md)、<br>[Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) 及 <br>[TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字以指出 TLS 變更將於 **2019 年 4 月 1 日** 發生。 |
+| 2019 年 3 月 11 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md),<br>[Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) 及 <br>[TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字以指出 TLS 變更將於 **2019 年 4 月 1 日** 發生。 |
 |  | [adobe.target.getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 新增下列章節:「透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料」。 |
 | 2019 年 3 月 6 日 | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 將 at_property 一列新增至「at.js 1.x 參數至 at.js 2.x 裝載對應」表格。 |
 |  | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 新增章節:「使用 TriggerView，確保 A4T 可搭配 at.js 2.x 和 SPA 正常運作」。 |
@@ -177,10 +177,10 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 |  | [Target 簡介](/help/c-intro/intro.md) | 在「Target Premium」下方新增「以選件方式使用 Recommendations」。 |
 |  | [Target 重要概念](/help/c-intro/target-key-concepts.md) | 更新「活動類型」表格。 |
 | 2019 年 26 月 2 日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增有關 Target API 中的企業權限支援的已知問題。 |
-| 2019 年 25 月 2 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md)、<br>[Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) 及 <br>[TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新下列資訊:<br>在 2019 年 2 月 20 日，EMEA、日本和 APAC 區域中的 Adobe Target 基礎架構已升級，不再從使用較舊裝置或不支援 TLS 1.1 或更新版本的網頁瀏覽器的一般使用者收集資料。我們已規劃於 **2019 年 3 月 4 日** 在北美區域進行這項相同的升級。轉移至 TLS 1.2 可改善安全性。務必詳閱詳細資訊，並針對變更進行規劃，以順利轉移。 |
+| 2019 年 2 月 25 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md)、<br>[Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) 及 <br>[TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新下列資訊:<br>在 2019 年 2 月 20 日，EMEA、日本和 APAC 區域中的 Adobe Target 基礎架構已升級，不再從使用較舊裝置或不支援 TLS 1.1 或更新版本的網頁瀏覽器的一般使用者收集資料。我們已規劃於 **2019 年 3 月 4 日** 在北美區域進行這項相同的升級。轉移至 TLS 1.2 可改善安全性。務必詳閱詳細資訊，並針對變更進行規劃，以順利轉移。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 新增章節: at.js 1.x 參數至 at.js 2.x 裝載對應 |
 |  | [疑難排解增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 將「主機名稱」欄新增至白名單的 IP 位址。 |
-| 2019 年 22 月 2 日 | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 新增「取得您的 Workspace ID」一節。 |
+| 2019 年 2 月 22 日 | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 新增「取得您的 Workspace ID」一節。 |
 | 2019 年 2 月 20 日 | [類別相關性](/help/c-target/c-visitor-profile/category-affinity.md) | 更新「類別相關性演算法」一節。 |
 | 2019 年 2 月 19 日 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | 新主題和訓練影片。 |
 |  | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 新主題和訓練影片。 |
@@ -257,7 +257,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 | 2018 年 11 月 5 日 | [將 Recommendations 與電子郵件整合](../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420) | 更新選項 3 的連結。 |
 |  | [客戶屬性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8) | 新增以下備註:<br>**重要**: 資料來源名稱和屬性名稱不得有英文句點。 |
 | 2018 年 10 月 31 日 | [系統狀態更新](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) | 更新了主題。 |
-|  | [Target 基礎網路研討會系列](../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4) | 新增「對象區段最佳作法」錄影的連結。 |
+|  | [Target 基礎網路研討會系列](../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4) | 新增「受眾細分最佳實務」錄影的連結。 |
 | 2018 年 10 月 29 日 | [TLS (傳輸層安全性) 加密變更](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) | 新增章節:「僅支援 TLS 1.0 瀏覽器的預期行為」。 |
 | 2018 年 10 月 26 日 | [已知問題和已解決的問題](../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541) | <ul><li>新增建立地理定位對象時，搜尋含特殊字元字串的已知問題。</li><li>將 at.js 1.6.0 重新導向問題移至「已解決的問題」表格。</li><li>將透過 API 刪除的預設工作區活動仍顯示於 Target UI 的問題，移至「已解決的問題」表格</li></ul> |
 | 2018 年 10 月 24 日 | [偏好設定](../administrating-target/r-target-account-preferences/target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E) | 新增在「設定 &gt; 偏好設定」或根據活動選擇活動報表來源時，應考量的資訊。 |
