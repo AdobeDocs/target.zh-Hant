@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 回應 Token
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target Classic 有一項功能稱為伺服器外掛程式，可讓您傳�
 | 使用中的 Target 資料庫 | 建議的動作 |
 |--- |--- |
 | at.js | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js 中有部分外掛程式所依賴的內部方法，但 at js 中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。如需詳細資訊，請參閱 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
-| mbox.js | 使用 mbox.js 時會繼續支援並傳送外掛程式。<br>不過，對於使用 mbox.js 和外掛程式的客戶，建議改用 at.js 和回應 Token。如需有關使用 at.js 優於 mbox.js 的資訊，請參閱 [at.js 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。如需移轉的相關資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在 Target Classic 淘汰之後 (2017 年 11 月)，您可能需要聯絡客戶服務來編輯或停用現有外掛程式。在 Target Classic 淘汰之前，您應該稽核外掛程式並停用無用的外掛程式。<br>您無法在 Target Standard/Premium 中建立新的外掛程式。請改為使用回應 Token。<br>您應停用舊版 SiteCatalyst 增效模組，並改用[以 Adobe Analytics 取代，作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。應該停用 ttMeta 增效模組，並改用 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
+| mbox.js | 使用 mbox.js 時會繼續支援並傳送外掛程式。<br>不過，對於使用 mbox.js 和外掛程式的客戶，建議改用 at.js 和回應 Token。如需有關使用 at.js 優於 mbox.js 的資訊，請參閱 [at.js 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。如需移轉的相關資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在 Target Classic 淘汰之後 (2017 年 11 月)，您可能需要聯絡客戶服務來編輯或停用現有外掛程式。在 Target Classic 淘汰之前，您應該稽核外掛程式並停用無用的外掛程式。<br>您無法在 Target Standard/Premium 中建立新的外掛程式。請改為使用回應 Token。<br>您應停用舊版 SiteCatalyst 增效模組，並改用[以 Adobe Analytics 取代，作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。應該停用 ttMeta 外掛程式並換成 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
 
 ## 使用回應 Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -164,7 +164,7 @@ Target 不會自動關閉 Token。如果您刪除設定檔指令碼，且不想�
 
 Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重新整理時移除。不過，如果您有一個已開啟且移除的屬性 (例如，您將一個當作 Token 的設定檔指令碼移除)，則要等到您關閉該指令碼，指令碼才會從屬性清單中移除。只有在刪除或重新命名已關閉的屬性時，Target 才會從清單中移除這些屬性。
 
-## 透過 at.js 將資料傳送至 Google Analytics{#section_04AA830826D94D4EBEC741B7C4F86156}
+## 透過 at.js 將資料傳送至 Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 在 HTML 頁面中新增下列程式碼，即可透過 at.js 將資料傳送至 Google Analytics:
 
@@ -230,7 +230,7 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 </script>
 ```
 
-## 偵錯 (類似於 ttMeta 外掛程式){#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## 偵錯 (類似於 ttMeta 外掛程式) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 將下列程式碼新增至 HTML 頁面，即可建立等同於 ttMeta 的外掛程式作為偵錯用途:
 
@@ -286,4 +286,4 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件以共用從 Target 到第三方系統的設定檔資訊。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hant)
