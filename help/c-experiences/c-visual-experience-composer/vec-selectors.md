@@ -7,8 +7,8 @@ solution: Target
 title: 可視化體驗撰寫器中使用的元素選取器
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -73,7 +73,7 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
 
    選取器: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (「&gt;」表示直屬子項。)
 
-   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。因此，`index` 為 0。請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)以深入瞭解。
+   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。因此，`index` 為 0。如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
 1. 如果元素不含類別，Target 會對元素使用 `tagName`，並往父元素周遊，直到遇到 `<HTML>` 元素或具有 ID 的元素為止。
 
