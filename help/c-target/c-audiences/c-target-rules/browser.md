@@ -9,7 +9,7 @@ title: 瀏覽器
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -100,7 +100,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 * 西班牙語
 * 繁體中文
 
-### 版本 {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+###  版{#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 將特定瀏覽器版本鎖定作為目標或排除。
 
