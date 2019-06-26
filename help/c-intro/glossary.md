@@ -7,7 +7,7 @@ title: 字彙表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -172,7 +172,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 **體驗**
 
-選件、影像、文字、按鈕、視訊、頁面上這些元素的組合、整個網頁，或可能形成購買漏斗或某些其他邏輯頁面順序的頁面集合。它也可以是語音助理、客戶服務指令檔或甚至飲料設備的個人化風味。您可以測試或個人化 [!DNL Target] 活動中的體驗。
+選件、影像、文字、按鈕、視訊、頁面上這些元素的組合、整個網頁，或可能形成購買漏斗或某些其他邏輯頁面順序的頁面集合。它也可以是語音助理、客戶服務指令檔或甚至飲料設備的個人化風味。You test or personalize experiences in [!DNL Target] activities.
 
 **體驗鎖定目標**
 
