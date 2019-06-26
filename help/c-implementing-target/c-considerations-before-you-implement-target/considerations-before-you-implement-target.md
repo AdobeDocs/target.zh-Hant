@@ -9,7 +9,7 @@ title: 實作之前
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 >[!IMPORTANT]
 >
->Adobe客戶服務不支援at. js或mbox. js的修改。
+>Adobe 客戶服務將不支援修改 at.js 或 mbox.js。
 
 - [準備實作 Target](prepare-to-implement-target.md)
 - [隱私](c-privacy/privacy.md)
