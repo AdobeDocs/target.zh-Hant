@@ -8,7 +8,7 @@ title: 舊版版本說明
 topic: 建議
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,25 +23,39 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ## 版本說明 - 2019 {#releases-2019}
 
-## 行動應用程式可視化體驗撰寫器 (2019 年 5 月 14 日) {#mobile-vec}
+### [!DNL Target] Standard/Premium 19.5.1 (2019 年 5 月 21 日) {#tgt-19-5-1-historica}
+
+(括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+#### 功能更新
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+| 單一頁面應用程式可視化體驗撰寫器(SPA VEC) | SPA VEC 已改良下列項目，讓您的工作更快更有效率: <ul><li>按一下 SPA 中的動作會醒目顯示將套用該動作之網站上的元素。在檢視下建立的每個 VEC 動作有四個對應的圖示: 資訊、編輯、移動和刪除。此版本中新增的「移動」功能可讓您將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。(TGT-33746)</li><li>您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時 (例如自訂程式碼無法繼續正常運作) 執行許多動作。無法在網站載入前編輯的動作，都會在 Target UI 中停用。(TGT-33851 和 TGT-34149)</li></ul>如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 
-## [!DNL Target] Standard/Premium 19.4.2 (2019 年 4 月 30 日) {#release-19-4-2}
+#### 增強功能、修正和變更
+
+* 在 VEC 中取消載入頁面後，工具列圖示會正常顯示。如果在完全載入頁面前無法執行特定動作，系統會停用相關工具列圖示。(TGT-33811)
+
+### 行動應用程式可視化體驗撰寫器 (2019 年 5 月 14 日) {#mobile-vec-may14-2}
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[影片：行動應用程式Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+
+### [!DNL Target] Standard/Premium 19.4.2 (2019 年 4 月 30 日) {#release-19-4-2}
 
 此版本包含下列功能、變更和增強功能:
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-### 功能更新
+#### 功能更新
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| [!UICONTROL 可視化體驗撰寫器] | [!UICONTROL 可視化體驗撰寫器] (VEC) 包含以下增強功能，讓您的工作變得更輕鬆、更有效率:<ul><li>設定點擊追蹤時，現在已可使用 DOM 路徑功能。<br>如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md#considerations)。</li><li>使用樣式面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。<br>若要存取樣式面板，請按一下 VEC 中的頁面元素，然後按一下[!UICONTROL 編輯] &gt; [!UICONTROL 樣式]。<br>樣式面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。<br>如需詳細資訊，請參閱*可視化體驗撰寫器選項*中的[樣式](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)。</li><li>RTF 編輯器現可支援巢狀 HTML5 元素。<br>HTML5 規範可允許巢狀專用的全新標記組合。舊版 RTF 編輯器不支援 HTML5 規範允許的全新巢狀標記。因此，VEC 中選取的所有巢狀元素無法正確地處理，導致了意外的 HTML 變更。(TGT-33618)<br>如需詳細資訊，請參閱在*可視化體驗撰寫器選項*中[編輯文字/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html)。</li> |
+| [!UICONTROL 可視化體驗撰寫器] | [!UICONTROL 可視化體驗撰寫器] (VEC) 包含以下增強功能，讓您的工作變得更輕鬆、更有效率:<ul><li>設定點擊追蹤時，現在已可使用 DOM 路徑功能。<br>如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md#considerations)。</li><li>使用樣式面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。<br>若要存取樣式面板，請按一下 VEC 中的頁面元素，然後按一下[!UICONTROL 編輯] &gt; [!UICONTROL 樣式]。<br>樣式面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。<br>如需詳細資訊，請參閱*可視化體驗撰寫器選項*中的[樣式](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)。</li><li>RTF 編輯器現可支援巢狀 HTML5 元素。<br>HTML5 規範可允許巢狀專用的全新標記組合。舊版 RTF 編輯器不支援 HTML5 規範允許的全新巢狀標記。因此，VEC 中選取的所有巢狀元素無法正確地處理，導致了意外的 HTML 變更。(TGT-33618)<br>如需詳細資訊，請參閱*可視化體驗撰寫器選項*中的[編輯文字/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html)。</li> |
 
-### 增強功能、修正和變更
+#### 增強功能、修正和變更
 
 * 改善您使用 VEC 刪除資產時的工作流程。刪除的資產現在會從[!UICONTROL 選件資料庫]和 [!DNL Scene7] (若適用) 中移除。刪除的資產不再續顯示於搜尋結果中。(TGT-31981)
 * 現在即使資產資料夾包含影像 (非空白資料夾)，您也可以將其刪除。(TGT-33265)
@@ -57,7 +71,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 * 現在於集合選擇器選取 [!UICONTROL Recommendations] 集合後，必須按一下[!UICONTROL 儲存]按鈕。此工作流程與 [!DNL Target] 內其他工作流程相同。(TGT-33205)
 * 修正導致一小組分析報表傳回 0% 轉換率 (而非實際轉換率) 的問題。(TNT-32125)
 
-## [!DNL Target] Standard/Premium 19.4.1 (2019 年 4 月 15 日) {#release-19-4-1}
+### [!DNL Target] Standard/Premium 19.4.1 (2019 年 4 月 15 日) {#release-19-4-1}
 
 此版本為維護版本，包含下列變更:
 
@@ -65,7 +79,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 * 更新 [!DNL Adobe Experience Cloud] UI，以反映品牌和產品變更。(TGT-33546、TGT-33272 和 TGT-33331)
 
-### [!DNL Target] Standard/Premium 19.3.1 (2019 年 3 月 29 日) {#release-19-3-1}
+#### [!DNL Target] Standard/Premium 19.3.1 (2019 年 3 月 29 日) {#release-19-3-1}
 
 此版本包含下列功能、變更和增強功能:
 
@@ -91,7 +105,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 >
 >若需要一般資料保護規範 (GDPR) 的 [!DNL Adobe] 選擇加入支援，您應實作 at.js 1.7.1。選擇加入支援目前在 at.js 2 中不予支援。*x* 版本不支援此函數。
 
-### at.js version 1.7.1 (2019 年 3 月 19 日) {#atjs171}
+### at.js 版本 1.7.1 (2019 年 3 月 19 日) {#atjs171}
 
 此為維護版本，包含下列修正:
 
@@ -129,7 +143,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 | --- | --- |
 | 鎖定目標<br>2019 年 1 月 25 日 | 變更在比較設定檔指令碼或其他任何輸入來源 (如 mbox 參數、設定檔參數等) 傳回的非小數與小數值時，鎖定目標比對「等於」函數的方式。<br>如需詳細資訊，請參閱[鎖定目標和對象](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)常見問題集。 |
 | 設定檔指令碼<br>2019 年 1 月 17 日 | 基於效能考量，我們建議傳回的值不要超過 256 個字元。<br>針對字串傳回值，如果傳回值的大小超過 2048 個字元，系統會停用指令碼。<br>針對陣列傳回值，如果陣列的連接值大小超過 2048 個字元，系統會停用指令碼。<br>若要進一步瞭解 Target 中會影響活動和其他元素的字元限制與其他限制 (選件大小、對象、設定檔、值、參數等)，請參閱[限制](../r-troubleshooting-target/target-limits.md)。 |
-| at.js<br>(2019 年 1 月 16 日) | at.js 1.6.4 是解決下列問題的維護版本:<ul><li>修正 Microsoft Internet Explorer 11 中導致套用重複選件的競爭條件顯現。(TNT-31374)</li><li>修正當預設選件具有 click-token 和 html 選件時會影響點擊追蹤的問題。(TNT-31493)</li><li>延伸每個 Target 要求的 mboxEdgeCluster Cookie。唯有 mboxEdgeOverride 啟用時才會使用。(TNT-31485)</li></ul> |
+| at.js<br> (2019 年 1 月 16 日) | at.js 1.6.4 是解決下列問題的維護版本:<ul><li>修正 Microsoft Internet Explorer 11 中導致套用重複選件的競爭條件顯現。(TNT-31374)</li><li>修正當預設選件具有 click-token 和 html 選件時會影響點擊追蹤的問題。(TNT-31493)</li><li>延伸每個 Target 要求的 mboxEdgeCluster Cookie。唯有 mboxEdgeOverride 啟用時才會使用。(TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1 (2019 年 1 月 22 日) {#release-19-1-1-previous}
 
@@ -144,7 +158,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 **增強功能、修正和變更**
 
-* 修正在編輯對象時，當使用者透過工作階段到期彈現的登入對話方塊登入後，導致「儲存」按鈕保持停用的問題。(TGT-32722)
+* 修正在編輯對象時，當使用者透過工作階段到期的登入快顯對話方塊登入後，導致「儲存」按鈕保持停用的問題。(TGT-32722)
 
 ## 版本說明 - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
 
@@ -333,7 +347,7 @@ target/r_release-notes-2018.xml
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>提示與秘訣 </p> </td> 
+   <td colname="col1"> <p>提示與祕訣 </p> </td> 
    <td colname="col2"> <p>深入瞭解各項功能，明白您為何該嘗試這些功能，進而充分利用 Adobe Target。「秘訣與技巧」功能會顯示在「活動」清單頁面，並有影片、使用案例、部落格、文件等更多內容的連結。現在就開始使用 Target 的強大功能! </p> <p>請參閱<a href="../c-activities/activities.md#section_F77F30A246A14B538D9363B7F3639F97" format="dita" scope="local">秘訣與技巧</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -536,7 +550,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。(TGT-28483) </p> <p>如需詳細資訊，請參閱 <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">表格式體驗撰寫器</a>。 </p> </li> 
-      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>現在不必強制指定 mbox 名稱，即可直接使用 mbox 參數，建立 Recommendations 條件、Recommendations 促銷活動和範本測試規則。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。您也可以使用 mbox 名稱篩選器，篩選 mbox 參數。 </p> <p>建立自訂對象亦改善這點。 </p> <p>如需詳細資訊，請參閱<a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">Recommendations 常見問題集</a>。 </p> </li> 
+      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>現在不必強制指定 mbox 名稱，即可直接使用 mbox 參數，建立 Recommendations 條件、Recommendations 促銷活動和範本測試規則。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。您也可以使用 mbox 名稱篩選器，篩選 mbox 參數。 </p> <p>建立自訂對象亦改善這點。 </p> <p>如需詳細資訊，請參閱<a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">建議常見問題集</a>。 </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>已更新 Recommendations 設計卡片的 UI。 </p> </li> 
       <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>可在 <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">Adobe I/0 Adobe Target 網站</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html) 參閱 Target Recommendations API 文件。 </p> </li> 
      </ul> </p> </td> 
@@ -568,7 +582,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) 體驗片段 </p> </td> 
-   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&amp;nbsp;&amp;nbsp; </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM 會自動根據您的內容來調整每一次體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。&amp;nbsp; 透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳選件、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
+   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&amp; amp；nbsp；&amp; amp；nbsp； </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM 會自動根據您的內容來調整每一次體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳選件、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>報表 </p> </td> 
@@ -938,7 +952,7 @@ target/r_release-notes-2018.xml
 * 您可以在對象資料庫和選件資料庫中，依工作區篩選 (適用具有企業使用者權限的 Target Premium 使用者)。(TGT-26813)
 * 在報表 UI 中進行改善，以在表格中獲得更好的捲動和篩選下拉式清單的放置。(TGT-23713 和 TGT-26819)
 
-### Target 平台變更 (2017 年 10 月 13 日) {#section_6C298C5C3D01415CB4B658EB2166096C}
+### Target 平台變更 (2017 年 13 月 10 日) {#section_6C298C5C3D01415CB4B658EB2166096C}
 
 <table id="table_8457FAE3508F454F9DFDEF093FBD7E40"> 
  <thead> 
@@ -3051,11 +3065,11 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 適用於 Adobe Target 的 Adobe Analytics 強化報表功能 </td> 
-   <td colname="col2"> 在<a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">測試設定程序</a>進行期間，Adobe Analytics 客戶可以選擇 <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">Analytics 作為預設的報表來源</a>。您不必再選擇所有要使用的成功量度或對象即可篩選結果。在報表中，您可以選擇 Analytics 中定義的任何量度或對象區段，並以可回溯方式將它套用至報表，以進行廣泛的篩選並深入分析您的最佳化結果。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
+   <td colname="col2"> 在<a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">測試設定程序</a>進行期間，Adobe Analytics 客戶可以選擇 <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">Analytics 作為預設的報表來源</a>。您不必再選擇所有要使用的成功量度或對象即可篩選結果。在報表中，您可以選擇 Analytics 中定義的任何量度或對象區段，並以可回溯方式將它套用至報表，以進行廣泛的篩選並深入分析您的最佳化結果。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_tw</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 主行銷資料即時對象 </td> 
-   <td colname="col2"> 運用<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">主要行銷描述檔</a>將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。Adobe Analytics 中群體建立期間的核取方塊讓群體可供 Adobe Target 自訂讀者庫使用。Analytics 或 Audience Manager 中建立的群體可用來定位 Target 中的訪客。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
+   <td colname="col2"> 運用<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">主要行銷描述檔</a>將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。Adobe Analytics 中群體建立期間的核取方塊讓群體可供 Adobe Target 自訂讀者庫使用。Analytics 或 Audience Manager 中建立的群體可用來定位 Target 中的訪客。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_tw</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 體驗鎖定活動類型 </td> 
