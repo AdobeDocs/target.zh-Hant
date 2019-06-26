@@ -7,8 +7,8 @@ solution: Target
 title: 轉換率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 若控制值為 0，則無百分比提升度。
 
-## 信賴度 (統計顯著性){#section_35DB6724813D40C7B0808DE18FE595C1}
+## 信賴度 (統計顯著性) {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 此數字代表再次執行測試時會產生重複結果的可能性。可信度大於或等於 99.995% 時會四捨五入為 100.00%。
 
@@ -55,7 +55,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 零售資料 {#section_30A674731BA6440E9BB93C421BE990EE}
 
-如果您插入[下訂單](https://marketing.adobe.com/resources/help/zh_TW/target/ov/t_orderconfirm_create.html) ( `orderConfirmPage`) mbox 並選為轉換 mbox，則會顯示每一個體驗的 AOV、RPV 和銷售資料。
+如果您插入 [下訂單](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) mbox 並選為轉換 mbox，則會顯示每一個體驗的 AOV、RPV 和銷售資料。
 
 ## 信賴等級與信賴區間 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -103,7 +103,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 * **樣本尺寸:** 樣本增大，區間就縮小或變窄。這代表您的報表越來越接近成功度量的真值，因此為有利狀況。
 * **標準偏差較小:** 結果越近似 (例如相似的 AOV、數字或每日轉換訪客)，便越會縮小標準偏差。
 
-## 可信度計算以及如何離線執行計算{#section_86F7C231943043A5B8B6BFE67B706E3B}
+## 可信度計算以及如何離線執行計算 {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 [下載的 CSV 報表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
@@ -127,7 +127,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 1. 按一下 **[!UICONTROL 「工具]** &gt; **[!UICONTROL 資料倉儲」]**。
 1. 在 **[!UICONTROL 「資料倉儲要求」]標籤上，填寫欄位。**
 
-   如需每一個欄位的相關資訊，請參閱 [Data Warehouse](https://marketing.adobe.com/resources/help/zh_TW/reference/data_warehouse.html)中的「Data Warehouse 說明」。
+   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)中的「資料倉儲說明」。
 
    | 欄位 | 說明 |
    |--- |--- |
@@ -147,8 +147,8 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立 Data Warehouse 請求](https://marketing.adobe.com/resources/help/zh_TW/reference/t_dw_create_request.html)
-* [Data Warehouse 最佳作法](https://marketing.adobe.com/resources/help/zh_TW/reference/data_warehouse_bp.html)
+* [建立資料倉儲要求](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
+* [Data Warehouse 最佳作法](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
 
 ## 計算方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
