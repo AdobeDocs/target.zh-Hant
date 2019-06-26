@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    使用預設設計時，設計名稱和「Copy」將出現在 **[!UICONTROL 「內容名稱」]欄位中。** 您可以編輯名稱。1.(可選) 按一下來選取要在設計卡片上顯示的影像。
 1. 編輯設計 **[!UICONTROL 程式碼]**。
 
-   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關 Velocity 的資訊，請參閱 [https://velocity.apache.org](https://velocity.apache.org)。
+   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關 Velocity 的資訊，請參閱 [](https://velocity.apache.org)https://velocity.apache.org。
 
    設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以 <div> 標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。
 
