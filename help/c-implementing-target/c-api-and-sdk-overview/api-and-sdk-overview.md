@@ -8,7 +8,7 @@ title: 伺服器端實作 Target
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,24 +17,24 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 [!DNL Adobe Target] 伺服器端傳送API、伺服器端批次傳送API、NodeJS SDK、 [!DNL Target Recommendations] API和 [!DNL Target Classic] API(解壓縮)的相關資訊。
 
-下列程序會發生在伺服器端實作 [!DNL Target]中：
+The following process occurs in a server-side implementation of [!DNL Target]:
 
 1. 用戶端裝置會透過您的伺服器要求體驗。
-1. 您的伺服器會傳送該要求 [!DNL Target]給。
+1. Your server sends that request to [!DNL Target].
 1. [!DNL Target] 將回應傳送回伺服器。
 1. 您的伺服器會決定要提供哪一種體驗給用戶端裝置，以便轉譯。
 
-不需要在瀏覽器中顯示體驗；它可顯示在電子郵件或資訊站中，透過語音助理或其他非視覺體驗或非瀏覽器型裝置顯示。由於您的伺服器會在用戶端之間 [!DNL Target]執行，因此當您需要更強大的控制與安全性，或您想要在伺服器上執行複雜的後端程序時，這種實作也是理想的方式。
+不需要在瀏覽器中顯示體驗；它可顯示在電子郵件或資訊站中，透過語音助理或其他非視覺體驗或非瀏覽器型裝置顯示。Because your server sits between the client and [!DNL Target], this type of implementation is also ideal if you need greater control and security or have complex backend processes that you want to run on your server.
 
 下節列出多種 API 和 NodeJS SDK，並提供額外資訊:
 
 ## 伺服器端傳送 API
 
-連結： [伺服器端傳送API](https://developers.adobetarget.com/api/#server-side-delivery)
+Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/#server-side-delivery)
 
 `/rest/v1/mbox`
 
-[!DNL Target] 可讓您的應用程式從任一瀏覽器、行動裝置甚至另一台伺服器執行 mbox 呼叫。伺服器端傳送API專門設計，可與 [!DNL Target] 任何製作HTTP/HTTPS呼叫的伺服器端平台整合。
+[!DNL Target] 可讓您的應用程式從任一瀏覽器、行動裝置甚至另一台伺服器執行 mbox 呼叫。The Server Side delivery API is specifically designed to integrate [!DNL Target] with any server-side platform that makes HTTP/HTTPS calls.
 
 您可使用 API 來整合您的自訂應用程式與 [!DNL Target]. 這對要傳送鎖定至聯網電視、資訊站或店內數位螢幕等非瀏覽器型 IoT 裝置的組織特別有用。
 
@@ -46,17 +46,17 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ## 伺服器端批次傳送 API
 
-連結： [伺服器端批次傳送API](https://developers.adobetarget.com/api/#server-side-batch-delivery)
+Link: [Server Side Batch Delivery APIs](https://developers.adobetarget.com/api/#server-side-batch-delivery)
 
 `/rest/v2/batchmbox`
 
-批次傳送 API 可讓您的應用程式以單一呼叫，即可從多個 mbox 要求內容。它還有預先擷取模式，可讓例如行動應用程式、伺服器等用戶端在單一請求中擷取多個mbox的內容、在本機快取，以及在使用者瀏覽這些mbox時通知 [!DNL Target] 他們。
+批次傳送 API 可讓您的應用程式以單一呼叫，即可從多個 mbox 要求內容。It also has a prefetch mode that enables clients like mobile apps, servers, and so forth to fetch content for multiple mboxes in one request, cache it locally, and later notify [!DNL Target] when the user visits those mboxes.
 
 端點只能傳回一般 mbox 的選件。由於您可以從多個 mbox 擷取內容，為求效能，使用批次 mbox API 更理所當然。此 API 可讓您不用執行多個 HTTP 要求。多個 HTTP 要求可能所費不。
 
 ## NodeJS SDK
 
-連結： [nodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
+Link: [NodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
 
 雖說是「多套」 SDK，目前我們只有一套 SDK，也就是 NodeJS SDK。
 
@@ -69,7 +69,7 @@ NodeJS SDK 是 NodeJS 核心 HTTP/HTTPS 模組的輕薄包裝函式。NodeJS SDK
 
 ## [!DNL Target Recommendations] API
 
-連結： [Target Recommendations API](https://developers.adobetarget.com/api/recommendations)
+Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations)
 
 Recommendations API 可讓您以程式設計方式與 Target 的 Recommendations 伺服器互動。這些 API 可與一系列應用程式堆疊整合，執行一些您通常得透過使用者介面操作的功能。
 
@@ -92,4 +92,4 @@ Recommendations API 可讓您以程式設計方式與 Target 的 Recommendations
 
 **採用 NodeJS SDK 就能讓我獲得效能改善嗎?**
 
-很抱歉，我們沒有任何效能數據。不過，一般來說，NodeJS 事件驅動架構 應該可為 NodeJS SDK 提供良好效能。請注意，大部分時間都花在後端 [!DNL Target] 上。NodeJS SDK 幾乎不負責處理工作。SDK基本上負責封裝 [!DNL Target] 請求並剖析 [!DNL Target] 回應。
+很抱歉，我們沒有任何效能數據。不過，一般來說，NodeJS 事件驅動架構 應該可為 NodeJS SDK 提供良好效能。Be aware that most of the time is spent on the [!DNL Target] backend. NodeJS SDK 幾乎不負責處理工作。The SDK is basically responsible for packaging a [!DNL Target] request and parsing a [!DNL Target] response.
