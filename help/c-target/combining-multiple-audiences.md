@@ -8,7 +8,7 @@ title: 合併多個對象
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 您可以在 [!DNL Target] UI 各處建立並使用合併的對象。
 
-## 建立活動時建立結合的對象 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 在三步驟引導式工作流程期間，您可以在活動的 [!UICONTROL Target] 頁面上建立隨選合併的對象。
 
@@ -77,7 +77,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 1. 提供已合併對象的描述性名稱，然後按一下 **[!UICONTROL 「儲存」]**。
 
-## 建立結合觀眾，以便在度量定位中使用 {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 您可以在活動的[!UICONTROL 「目標與設定」]頁面上建立隨選合併對象，以用於量度鎖定目標。例如，若要使用合併的對象以根據轉換來建立鎖定目標，請執行下列動作:
 
@@ -103,7 +103,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 1. 繼續進行[步驟 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的對象」以建立結合的對象。
 
-## 編輯活動時建立結合的觀眾 {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 您可以在編輯現有活動時建立隨選合併對象。
 
@@ -113,7 +113,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
    按一下所需的活動以開啟，然後按一下 **[!UICONTROL 「編輯活動」]**。
 
-1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 對象]** &gt; **[!UICONTROL 多個對象]**」。
+1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![「設定&gt;對象&gt;多對象」](/help/c-target/assets/combine_multiple_audiences7.png)
 
