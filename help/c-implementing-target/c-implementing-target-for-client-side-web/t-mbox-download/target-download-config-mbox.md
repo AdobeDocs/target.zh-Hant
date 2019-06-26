@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 下載 mbox.js
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,6 +32,6 @@ Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本
 
    >[!IMPORTANT]
    >
-   >如果您使用的 [!DNL mbox.js] 版本早於 57 版，參照必須是您的頁面上 `<head>` 區段中的最後一個項目。如果參考不是最後一個項目，可能會造成顯示或效能問題。如需詳細資訊，請參閱[技術實作詳細資料](https://marketing.adobe.com/resources/help/zh_TW/target/ov/c_mbox_technical.html)。
+   >如果您使用的 [!DNL mbox.js] 版本早於 57 版，參照必須是您的頁面上 `<head>` 區段中的最後一個項目。如果參考不是最後一個項目，可能會造成顯示或效能問題。如需詳細資訊，請參閱[技術實施詳細資料](https://marketing.adobe.com/resources/help/en_US/target/ov/c_mbox_technical.html)。
 
 1. 上傳已儲存的 [!DNL mbox.js] 檔案至您在代碼中指定的託管環境中的位置。
