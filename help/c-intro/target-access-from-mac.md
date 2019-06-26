@@ -9,16 +9,16 @@ title: 從 Adobe Experience Cloud 存取 Target
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 從 Adobe Experience Cloud 存取 Target{#access-target-from-the-adobe-experience-cloud}
 
-有關從中存取 [!DNL Adobe Target][!DNL Adobe Experience Cloud]、設定預設登陸頁面，以及變更 [!DNL Target] 使用者介面語言的資訊。
+有關從 [!DNL Adobe Experience Cloud] 存取 [!DNL Adobe Target]、設定預設登陸頁面及變更 [!DNL Target] 使用者介面語言的資訊。
 
-## 登入Adobe Target並設定您的預設檢視
+## 登入 Adobe Target 並設定您的預設檢視。
 
 1. 登入 [!DNL Experience Cloud] 之後，請按一下導覽列中的應用程式圖示。
 
@@ -26,31 +26,31 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 1. 在「應用程式」功能表中按一下[!DNL Target]「」圖示。
 
-   ![目標圖示](/help/c-intro/assets/appmenu-target-new.png)
+   ![Target 圖示](/help/c-intro/assets/appmenu-target-new.png)
 
 1. 按一下 [!DNL Target] 卡片上的 **[!UICONTROL 「啟動」]**。
 
-   ![目標啓動](/help/c-intro/assets/target-launch-new.png)
+   ![Target 啟動](/help/c-intro/assets/target-launch-new.png)
 
 1. (可選) 若要將 [!DNL Target] 設定為您的預設檢視，在您登入 [!DNL Experience Cloud] 時，請按一下您的設定檔頭像下的 **[!UICONTROL 「編輯設定檔」]**，然後設定您的登陸頁面偏好設定。
 
-   ![著陸頁面](/help/c-intro/assets/pagepref-new.png)
+   ![登陸頁面](/help/c-intro/assets/pagepref-new.png)
 
-## 變更Target UI的預設語言 {#language}
+## 變更 Target UI 的預設語言 {#language}
 
-1. 登入或 [!DNL Adobe Experience Cloud ][!DNL Target]，按一下您的描述檔頭像，然後按一下 **[!UICONTROL 編輯設定檔]**。
+1. 登入 [!DNL Adobe Experience Cloud ] 或 [!DNL Target] 後，請按一下您的個人檔案頭像，然後按一下 **[!UICONTROL 編輯個人檔案]**。
 
-   ![編輯描述檔](/help/c-intro/assets/change-language.png)
+   ![編輯個人檔案](/help/c-intro/assets/change-language.png)
 
-1. 按一下 **[!UICONTROL 「編輯個人資訊]**」。
+1. 按一下 **[!UICONTROL 編輯個人資訊]**。
 
-1. 按一下頂端選單列中的 **[!UICONTROL 「通訊]** 」索引標籤。
+1. 按一下頂端功能表列中的 **[!UICONTROL 通訊]** 標籤。
 
-   ![慣用語言](/help/c-intro/assets/prefered-language.png)
+   ![偏好語言](/help/c-intro/assets/prefered-language.png)
 
-   文字指出當我們觸及到您時，您想要 [!DNL Adobe] 使用的語言。這也是在UI [!DNL Target] 和其他 [!DNL Adobe Experience Cloud] 解決方案中使用的語言。您可以選擇多種語言。
+   此文字代表這是您希望 [!DNL Adobe] 在與您溝通時使用的語言。這也是將用於 [!DNL Target] UI 和其他 [!DNL Adobe Experience Cloud] 解決方案的語言。您可以選擇多個語言。
 
-1. 選取您的第一個(主要)語言，然後選取第二個語言(如有需要)。
+1. 選取您的第一 (主要) 語言，然後視需要選取第二語言。
 
    [!DNL Target] UI提供下列語言版本：
 
@@ -67,9 +67,9 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 1. 按一下 **[!UICONTROL 「儲存」]**。
 
-1. 登出 [!DNL Adobe Experience Cloud] 或 [!DNL Target]再次登入，讓變更生效。
+1. 登出 [!DNL Adobe Experience Cloud] 或 [!DNL Target]，然後再次登入以使變更生效。
 
-## 變更Target產品文件的語言 {#doc-lang}
+## Change the language for the Target product documentation {#doc-lang}
 
 您的作業系統或瀏覽器設定應該會偵測到您偏好的語言，並顯示該語言的文件(如果有的話)。Target文件會自動翻譯，並在英文文件變更後數小時內與英文版同步。
 
@@ -77,7 +77,7 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ![變更為原始語言](/help/c-intro/assets/mt-original.png)
 
-您也可以按一下頁首右上方的「語言切換器」圖示( ![語言切換器](/help/c-intro/assets/icon-language-switcher.png) )，快速將語言變更為任何支援的語言。
+You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
 
 ![語言切換器](/help/c-intro/assets/language-switcher.png)
 
