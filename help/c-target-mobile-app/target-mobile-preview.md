@@ -7,8 +7,8 @@ solution: Target
 title: Target 行動裝置預覽
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,8 +31,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    如需下載適當 SDK 的說明，請參閱:
 
-   * **iOS:** *適用於 Experience Cloud 解決方案的 iOS SDK 4.x* 指南中的[開始之前](https://marketing.adobe.com/resources/help/zh_TW/mobile/ios/requirements.html)。
-   * **Android:** *適用於 Experience Cloud 解決方案的 Android SDK 4.x* 指南中的[開始之前](https://marketing.adobe.com/resources/help/zh_TW/mobile/android/requirements.html)。
+   * **iOS:**[「適用於 Experience Cloud 的 iOS SDK 4.x 解決方案」](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)指南中的*「開始之前」*。
+   * **Android:**「適用於 Experience Cloud 的 Android SDK 4.x 解決方案」指南中的[「開始之前」](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*。*
 
 1. **設定 URL 配置:** 預覽連結使用 URL 配置來開啟您的應用程式。您必須針對預覽指定唯一的 URL 配置。
 
