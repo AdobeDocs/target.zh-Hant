@@ -8,7 +8,7 @@ title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節列出 [!DNL Target] 的已知問題:
+
+### 使用自訂體驗做為控制時，自動Target活動的圖表報表無法轉譯
+
+如果任何體驗中沒有資料(次瀏覽)，「自動Target」活動的圖表報表無法針對「差異」模式(「平均提升度」和「每日提升度」)呈現。如果控制體驗設定為自訂，則可能會發生在活動的早期階段。對於其他模式(執行「平均控制」和「目標」、「每日控制」和「目標」和「造訪」)，則運作正常。只要有一些資料(非零瀏覽)，報表就會如預期呈現。
 
 ### 在 VEC 內取消載入頁面 {#cancel}
 
