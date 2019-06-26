@@ -9,7 +9,7 @@ title: Target 重要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
