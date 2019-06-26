@@ -8,7 +8,7 @@ title: 編輯活動或另存為草稿
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,15 +19,15 @@ source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據您選擇的方法而有所不同。
 
-## 使用「活動」頁面上的「暫留」按鈕編輯活動 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. 從 **[!UICONTROL 「活動」]** 頁面中，暫留在您要編輯的活動上，然後按一下 **「編輯」]圖示。[!UICONTROL **
 
    ![編輯圖示](/help/c-activities/assets/hover_edit.png)
 
-   Target會在Visual Experience Composer(CMS)中開啓活動，您會看到 [!UICONTROL 「體驗] 」頁面(三步驟引導工作流程中的第一個步驟)。
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
-1. 視需要使用 [CMS選項編輯活動](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. 按一下分割按鈕，前往下一個步驟或儲存活動。
 
@@ -37,7 +37,7 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
    * **儲存並關閉:** 在目前步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取 **[!UICONTROL 「儲存並關閉」]**，以儲存您的變更並顯示活動的[!UICONTROL 「概覽」]頁面。
    * **儲存:** 在步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取 **[!UICONTROL 「儲存」]，以儲存您的變更並停留在該步驟上，讓您可以繼續變更。** 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
-## 在活動頁面上按一下其名稱，以編輯活動 {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 若要避免逐步執行工作流程，請從「活動」頁面中按一下所需的活動以開啟此活動，然後從 **[!UICONTROL 「編輯活動」]下拉式清單中選取選項。**
 
@@ -60,7 +60,7 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
 
 
-## 將活動儲存為草稿格式 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 建立尚未儲存的新活動或編輯先前未以草稿形式儲存的活動時，分割按鈕中會顯示「儲存草稿」選項。
 
