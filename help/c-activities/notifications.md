@@ -8,7 +8,7 @@ title: 活動通知
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Target 可以與使用 Adobe Pulse 的其他 Adobe Experience Cloud 解決方案
 
 如果使用者有 [!DNL Target Standard/Premium] 的 [!DNL Experience Cloud] 產品環境定義，則可以在所有解決方案中看到來自 [!DNL Target] 的通知。
 
-如需設定通知的詳細資訊，請參閱 [](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html)[!DNL Adobe Experience Cloud] 文件中的通知。
+For information about setting up Notifications, see [Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL Adobe Experience Cloud] documentation.
 
 從 [!DNL Target] 中的任何地方存取通知，但不包括從活動建立工作流程內: 按一下頁首的鈴聲圖示，以顯示或隱藏通知小工具。
 
