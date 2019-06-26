@@ -7,8 +7,8 @@ solution: Target
 subtopic: 快速入門
 title: 建立訂購確認 mbox - mbox.js
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
