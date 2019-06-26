@@ -8,14 +8,14 @@ title: 建立設定檔屬性比較對象
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 建立設定檔屬性比較對象{#create-a-profile-attribute-comparison-audience}
 
-定義對象，以便比較 [您的觀眾程式庫](/help/c-target/c-audiences/audiences.md) 或 [僅限活動對象的兩個描述檔屬性](/help/c-target/creating-activity-only-audience.md)。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). 使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 
 >[!NOTE]
 >
