@@ -7,7 +7,7 @@ solution: Target
 title: 流量來源
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 建立觀眾，以根據參考到您網站的搜尋引擎或登陸頁面來定位訪客。
 
-例如，你可基於訪客瀏覽器、搜尋引擎或反向連結著陸頁面進行指向。反向連結著陸頁面是訪客點按以到達本作業目前網站的頁面。(例如，如果訪客點按Google上的廣告，則會將其引導至 `adobe.com` 首頁，反向連結登陸頁面。 `google.com`)
+例如，你可基於訪客瀏覽器、搜尋引擎或反向連結著陸頁面進行指向。反向連結著陸頁面是訪客點按以到達本作業目前網站的頁面。(For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 您可以合併多個流量來源建立一個複雜的目標規則。
 
