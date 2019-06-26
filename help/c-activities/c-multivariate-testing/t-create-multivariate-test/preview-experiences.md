@@ -7,7 +7,7 @@ title: 多變數測試的預覽體驗
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 1. 按一下清單中的體驗來檢視該體驗。
 
-1. 若要從多變數測試排除一或多個體驗，請選取所需體驗，然後按一下 **[!UICONTROL 排除]**。
+1. To exclude one or more experiences from the multivariate test, select the desired experiences, then click **[!UICONTROL Exclude]**.
 
    ![排除體驗](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
