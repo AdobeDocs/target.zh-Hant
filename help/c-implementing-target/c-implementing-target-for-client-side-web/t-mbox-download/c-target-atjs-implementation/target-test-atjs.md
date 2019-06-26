@@ -4,8 +4,8 @@ seo-description: 關於如何安全地將 at.js 部署至非生產環境的資�
 seo-title: 將 at.js 部署至非生產環境
 title: 將 at.js 部署至非生產環境
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 儲存資料庫之後，使用 DTM Switch 工具來對生產程式碼測試它。這也將讓您的 Adobe 顧問易於支援您。
 
-如需詳細資訊，請參閱_使用動態標籤管理來實作 Adobe Target 的最佳實務_指南中的[選項 3: 使用 DTM 託管的 Target JavaScript 資料庫手動實作 Target](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)。
+如需詳細資訊，請參閱_《使用動態標籤管理來實施 Adobe Target 的最佳作法》_指南中的[選項 3: 使用 DTM 託管的 Target JavaScript 資料庫手動實施 Target](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)。
 
 ## 使用 &quot;Requestly&quot; Chrome 擴充功能來對應至另一個檔案
 
@@ -28,7 +28,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >
 >除了下列資訊外，您還可以使用適用於 Google Chrome 的 [Adobe Target VEC Helper 瀏覽器擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-[Requestly](https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=tw) 是免費的 Chrome 擴充功能，可用來將要求重新導向至替代的 URL。
+[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) 為免費的 Chrome 擴充功能，可讓您將要求重新導向至替代的 URL。
 
 您可以將 at.js 部署至某個 URL，然後使用 Requestly 將您目前的 mbox.js 檔案 URL 對應至新的 at.js URL。然後，每當您的網站嘗試載入 mbox.js 時，它會改為載入 at.js。此方法也讓 Adobe 易於提供支援。
 
@@ -40,9 +40,9 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 使用 Charles 或 Fiddler 來對應至本機檔案
 
-[Charles Web Debugging Proxy](https://www.charlesproxy.com/) 是一項可供 Mac 和 Windows 使用的應用程式，其 Map Local 功能可用來將生產 mbox.js 檔案的載入對應至 at.js 的本機複本。Mac 和 Windows 適用的免費試用版可供下載。
+[Charles Web Debugging Proxy](https://www.charlesproxy.com/) 是一項可供 Mac 和 Windows 使用的應用程式，其 Map Local 功能可用來將您的生產 mbox.js 檔案的載入對應至 at.js 的本機複本。Mac 和 Windows 適用的免費試用版可供下載。
 
-[Fiddler](https://www.telerik.com/fiddler) 是類似的工具，提供 Windows 使用者免費下載。
+[Fiddler](https://www.telerik.com/fiddler) 是類似的工具，以 Windows 適用的免費下載方式提供。
 
 ## 部署至另一個標記管理程式環境
 
