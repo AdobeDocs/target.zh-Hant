@@ -8,20 +8,20 @@ title: 建立體驗鎖定目標活動
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 建立體驗鎖定目標活動{#create-an-experience-targeting-activity}
 
-使用 [!UICONTROL Visual Experience Composer] (CMS)在啓用Target的頁面上建立 [!UICONTROL 體驗鎖定] (XT)活動，並修改內頁部分 [!DNL Adobe Target]。
+Use the [!UICONTROL Visual Experience Composer] (VEC) to create an [!UICONTROL Experience Targeting] (XT) activity on a Target-enabled page and to modify portions of the page within [!DNL Adobe Target].
 
 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
 
-體驗定位(包括 [地理定位](/help/c-target/c-audiences/c-target-rules/geo.md))對於定義將特定體驗或內容鎖定特定對象的規則非常有價值。您可以在傳送不同內容變數至不同對象的活動中定義數個規則。
+Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. 您可以在傳送不同內容變數至不同對象的活動中定義數個規則。
 
-如需體驗定位、使用案例情境和訓練影片的詳細資訊，請參閱 [體驗定位](/help/c-activities/t-experience-target/experience-target.md)。
+For more information about Experience Targeting, a use-case scenario, and training videos, see [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md).
 
 **若要建立XT活動：**
 
@@ -31,29 +31,29 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
    >[!NOTE]
    >
-   >可用的活動類型取決於您的 Target 帳戶。有些活動類型可能不會出現在您的清單中。例如 [!UICONTROL ，「自動個人化」] 是 [Target Premium功能](/help/c-intro/intro.md#premium)。
+   >可用的活動類型取決於您的 Target 帳戶。有些活動類型可能不會出現在您的清單中。For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
-   >如需各種活動類型及其差異的詳細 [!DNL Target] 資訊，請參閱 [活動](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱 [Target活動類型](/help/c-activities/target-activities-guide.md) ，以協助您決定哪個活動類型最適合您的需求。
+   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
-1. 視需要選取 **[!UICONTROL Visual(預設)]**。
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
    ![「建立體驗定位活動」對話方塊](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱 [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) 。
+   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
+   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖 [!UICONTROL 中的「選擇工作場所] 」選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看見此選項，則您的組織有Target Standard授權。]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您未看見此選項，則您的組織有Target Standard授權。]
 
-1. (條件性)如果您是Target Premium客戶，請 [選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. 指定 [您的活動URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下 **[!UICONTROL 「下一步」]**。
+1. Specify your [activity URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
 
-   如果您的帳戶 [設定為預設URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)，預設會顯示該URL。如有需要，您可以從預設變更為另一個URL。
+   If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. 如有需要，您可以從預設變更為另一個URL。
 
    CMS隨即開啓，顯示URL中指定的頁面。
 
@@ -78,6 +78,6 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 1. 建立目標受眾的新體驗。
 
-   如需逐步指示，請參閱 [新增體驗](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)。
+   For step-by-step instructions, see [Add experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
 1. 指定活動的[目標與設定](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
