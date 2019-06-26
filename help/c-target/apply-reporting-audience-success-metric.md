@@ -7,7 +7,7 @@ solution: Target
 title: 套用報表對象至成功量度
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
