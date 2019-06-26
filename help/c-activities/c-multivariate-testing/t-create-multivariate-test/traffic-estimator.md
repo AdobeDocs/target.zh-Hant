@@ -6,8 +6,8 @@ solution: Target
 title: 預估成功測試所需的流量
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
