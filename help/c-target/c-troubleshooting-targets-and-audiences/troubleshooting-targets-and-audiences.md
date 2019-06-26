@@ -7,8 +7,8 @@ solution: Target
 title: 鎖定目標和對象常見問題集
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,11 +23,11 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 最佳做法是使用較新的對象，因為效能更好。部分客戶使用的可能是舊版、預先建立的對象，因此尚未從 Target 介面中移除。
 
-## 如何知道對象之間如何分割流量?  {#section_067EEFB956E7465CBF77EC86834470AB}
+## 如何知道對象之間如何分割流量?   {#section_067EEFB956E7465CBF77EC86834470AB}
 
 依預設，流量會在體驗之間平均分割。不過，您可以指定每個體驗的百分比目標。在這種情況下會產生亂數，使用此數字選擇顯示的體驗。結果百分比可能和指定目標不完全相同，但流量更多表示體驗分割就會更接近定位目標。
 
-## 如果使用者符合活動的資格，而該活動包含多個體驗和多個合格對象，將會顯示哪一個體驗?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## 如果使用者符合活動的資格，而該活動包含多個體驗和多個合格對象，將會顯示哪一個體驗?   {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 使用者的資格會符合活動的 [!UICONTROL Target] 頁面上所顯示的第一個體驗/對象。
 
@@ -45,7 +45,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 部分 Target 對象是預先定義的，例如「新訪客」和「再度訪問的訪客」。使用者無法重新命名這些對象。
 
-## Target 使用者介面中為何不顯示所有設定檔參數?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Target 使用者介面中為何不顯示所有設定檔參數?   {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 [!DNL Target]，則可以使用 [!UICONTROL 設定檔更新] API 方法來傳遞它們。如需詳細資訊，請參閱 Adobe Target API 文件中的[設定檔更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
@@ -53,7 +53,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 在每個工作階段都會評估一次自動個人化活動。如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增選件，則除了先前顯示的選件，使用者還會看到新內容。因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
 
-## 為什麼透過 API 建立之對象所做的變更未反映在 Target UI 中?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## 為什麼透過 API 建立之對象所做的變更未反映在 Target UI 中?   {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 與選件和設定檔指令碼不同，API 對於 Target Standard 建立之對象所做的變更目前未同步回 Target UI。
 
