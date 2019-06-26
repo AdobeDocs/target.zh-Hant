@@ -7,8 +7,8 @@ solution: Target
 subtopic: 快速入門
 title: adobe.target.getOffer(options)
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 | mbox | 字串 | 是 | Mbox 名稱 |
 | params | 物件 | 無 | mbox 參數.機碼/值組的物件具有下列結構: <br>`{ "param1": "value1", "param2": "value2"}` |
 | success | 函數 | 是 | 收到來自伺服器的回應時要執行的回呼。success 回呼函數將接收代表選件物件陣列的單一參數。以下是 success 回呼範例: <br>`function handleSuccess(response){......}`<br>請參閱下文的「回應」以取得詳細資料。 |
-| error | 函數 | 是 | 遇到錯誤時要執行的回呼。有一些案例會被視為錯誤:<ul><li>HTTP 狀態代碼與 200 OK 不同</li><li>無法剖析回應。例如，我們拙劣地建構了 JSON 或 HTML 而非 JSON。</li><li>回應包括 &quot;error&quot; 索引鍵。例如，在 Edge 上擲出了例外，無法正確處理要求。當 mbox 遭到封鎖，我們無法擷取任何內容時，便可能出現錯誤，諸如此類情況。error 回呼函數將收到兩個參數: status 和 error。這是 error 回呼範例:  `function handleError(status, error){......}`</li></ul>請參閱以下的「錯誤回應」以取得詳細資料。 |
+| error | 函數 | 是 | 遇到錯誤時要執行的回呼。有一些案例會被視為錯誤:<ul><li>HTTP 狀態代碼與 200 OK 不同</li><li>無法剖析回應。例如，我們拙劣地建構了 JSON 或 HTML 而非 JSON。</li><li>回應包括 &quot;error&quot; 索引鍵。例如，在 Edge 上擲出了例外，無法正確處理要求。當 mbox 遭到封鎖，我們無法擷取任何內容時，便可能出現錯誤，諸如此類情況。error 回呼函數將收到兩個參數: status 和 error。這是 error 回呼範例:   `function handleError(status, error){......}`</li></ul>請參閱以下的「錯誤回應」以取得詳細資料。 |
 | timeout | 數字 | 無 | 逾時，以毫秒為單位。如果未指定，將使用 at.js 中的預設逾時。<br>[!DNL Target]您可以從 UI 的下列路徑設定預設逾時:[!UICONTROL 「設定」&gt;「實作」&gt;「編輯 Mbox.js 設定」&gt;「逾時」]。 |
 
 ## 範例 {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
@@ -90,7 +90,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 回應{#section_CF9FD236EF794620BCBF84EB80160183}
+## 回應 {#section_CF9FD236EF794620BCBF84EB80160183}
 
 傳遞至 success 回呼的回應參數將會是動作的陣列。動作是一種物件，通常具備下列格式:
 
