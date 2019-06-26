@@ -8,8 +8,8 @@ subtopic: 代碼編輯器
 title: 修改
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -223,7 +223,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 對於以相同 URL 為目標的兩個活動，如果您使用自訂程式碼功能，則兩個活動都會將 JavaScript 注入頁面中。Target 會自動決定傳送內容的順序。請確定程式碼不依賴位置。您必須確保程式碼中沒有衝突。
 
-## 疑難排解自訂程式碼{#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## 疑難排解自訂程式碼 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **我收到警告，說明由於頁面中的結構變更，無法套用動作。其含義是:**
 
