@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -71,7 +71,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 所有一天條件每日執行兩次。所有一週及更久條件每日執行一次。網站相關性條件每日執行一次。備用條件每日執行兩次。
 
-## 查看條件資訊{#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## 查看條件資訊 {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 您可以將游標移至卡片上並按一下卡片上的「資訊」圖示，這樣無需開啟條件，即可在快顯卡上查看條件詳情。
 
@@ -85,7 +85,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ![](assets/criteria_usage.png)
 
-## 判斷條件結果何時可就緒播放{#section_03F328C07F234692B6D996DF745584B3}
+## 判斷條件結果何時可就緒播放 {#section_03F328C07F234692B6D996DF745584B3}
 
 在活動圖表中，條件卡現在會指出結果何時可就緒播放。掌握結果是否以就緒播放可協助您判斷您的活動是否已準備好啟動以推送上線。亦可協助您瞭解條件是否有任何問題。
 
