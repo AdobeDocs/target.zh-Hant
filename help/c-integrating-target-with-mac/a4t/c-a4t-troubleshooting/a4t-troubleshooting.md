@@ -8,8 +8,8 @@ subtopic: 多變數測試
 title: 疑難排解 Analytics 和 Target 整合 (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >
 >列為「未指定」時不會遺失任何資料。分類執行之後，資料會適當地指派給適當的活動。
 
-## 我的 Analytics資料顯示自啟動 A4T 以來抬高的造訪或訪客計數。{#section_4BE374E573D44FB7918611699B74F58E}
+## 我的 Analytics資料顯示自啟動 A4T 以來抬高的造訪或訪客計數。 {#section_4BE374E573D44FB7918611699B74F58E}
 
 如需詳細資訊，請參閱[在 A4T 中將膨脹後造訪和訪客計數最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
@@ -48,7 +48,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Analytics 中沒有提升度和可信度詳細資料。不過，在 Target 中有這些詳細資料。
 
-## 活動未出現在 Analytics 報表中。{#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## 活動未出現在 Analytics 報表中。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以確定您的 Analytics 追蹤伺服器設定正確。
 
@@ -56,7 +56,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics
 >
 >如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。mbox.js 或 at.js 資料庫會自動傳送追蹤伺服器值至 [!DNL Target]。在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
-## 我的 Analytics 區段未出現在 Target 中。{#section_DEE87F1557834F448E99381D3D02EEEF}
+## 我的 Analytics 區段未出現在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 開啟建立 A4T 活動之前，請確定您具備正確權限:
 
@@ -64,17 +64,17 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics
 * 您必須是具有 Analytics and Target 存取權之一或多個 Experience Cloud 群組的成員。
 * 請確認 Analytics 和 Target 出現在左導覽的「行銷應用程式」區段中。
 
-## 跳出率、跳出和離開量度在報表中顯示為正數。{#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## 跳出率、跳出和離開量度在報表中顯示為正數。 {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 這是已知問題。
 
 雖然這些量度為負數，但提升度會在 Target 報表中顯示為正數。例如，即便您想要較低的跳出率仍顯示了較高的跳出率，因為獲勝者會具有最高的提升度。根據報表進行決策時，請注意這些和類似的量度，以及是否您偏好減少或增加這些數字。
 
-## 我需要的報表套裝未出現。{#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## 我需要的報表套裝未出現。 {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
 在 Target Standard/Premium 中出現的報表套裝清單，就是以 Analytics 當作 Target 的報表來源時已設定的報表套裝清單。這表示可能不會看到您擁有的每一個報表套裝。如果沒看到您要尋找的報表套裝，請聯絡客戶服務來啟用它。
 
-## 我在報表中看到的資料量不符預期。{#section_75002584FA63456D8D9086172925DD8D}
+## 我在報表中看到的資料量不符預期。 {#section_75002584FA63456D8D9086172925DD8D}
 
 檢閱您的實作，尤其是訪客有資格使用體驗的頁面，並確定 [!DNL Target] 和 [!DNL Analytics] 呼叫中的補充資料 ID 相符。在 [!DNL Target] 呼叫中，`mboxMCSDID` 參數包含補充 ID。在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
 
