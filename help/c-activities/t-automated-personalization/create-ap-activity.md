@@ -10,7 +10,7 @@ topic: 進階
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -27,17 +27,17 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![「建立自動個人化活動」對話方塊](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱 [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) 。
+   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
+   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖 [!UICONTROL 中的「選擇工作場所] 」選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看見此選項，則您的組織有Target Standard授權。]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您未看見此選項，則您的組織有Target Standard授權。]
 
-1. (條件性)如果您是Target Premium客戶，請 [選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. 驗證或輸入活動 URL，然後按一下 **[!UICONTROL 「下一步」]**。
 
@@ -64,7 +64,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
    | - | 減號 |
    | @ | 「@」符號 |
 
-1. 如 [Visual Experience Composer選項中所述修改頁面元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    您可以從資產管理員一次選取多個影像。此可讓您快速檢視頁面上對活動設定的每個影像。您也可以輕鬆在您的選件中編輯文字元素。編輯元素時，該元素上會出現一個橫條，指出您已變更它。
 
@@ -90,7 +90,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![批次排除選項](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   您可以篩選此清單檢視，只查看已排除或僅包含已包含的活動，按一下 **「狀態」** 下拉式清單。
+   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
 1. (依條件) 按一下 **[!UICONTROL 「選件」]**，選取內容片段並將它們指派給報表群組，或只允許特定訪客查看特定具有鎖定目標的選件。
 
@@ -120,7 +120,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    若要編輯現有的排除群組，請將游標暫留在您要編輯的群組上方，然後按一下鉛筆圖示。
 
-1. 完成活動設定後，按一下 **[!UICONTROL 完成]** 。
+1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 
 1. 如果您曾使用其他 Target 活動類型，**「鎖定目標」** 步驟將很熟悉。您可以在此按一下 **[!UICONTROL 「自訂分配」]** 下拉式清單，然後按一下 **「下一步」**，以選取對象並指定會看見控制體驗之訪客的百分比。
 
@@ -128,9 +128,12 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![流量分配目標下拉式清單](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **評估個人化演算法 (50/50):** 如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。
-   * **最大化個人化流量 (90/10):** 如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。
+   * **評估個人化演算法 (50/50):** 如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議使用「隨機體驗」做為您的控制項。
+   * **最大化個人化流量 (90/10):** 如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。不論您的目標為何，在使用特定體驗作為控制時，這都是建議的流量分割。
    * **自訂分配:** 視需要手動分割百分比。
+
+1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+
    控制體驗提供比較來判斷自動測試提供了多少提升度。
 
    自動個人化一律會測量控制群組的效能。最佳作法是放置至少 10% 的加入者至控制群組。如果您的目標是要測試資料上個人化演算法是否比無個人化項目 (亦即隨機提供的控制) 執行得更好，那麼在控制和個人化演算法之間使用 50/50 百分比的流量分割會是達成此目標最快和最準確的方式。如果您想要將個人化的流量最大化，並且較不在意瞭解您的活動所產生的確切提升度，那麼，在控制和個人化演算法之間使用 10/90 百分比的流量分割會是達成此目標最快和最準確的方式。
@@ -139,7 +142,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
    >
    >在自動個人化活動中，系統會評估每個要求的輸入條件 (URL 鎖定目標、範本規則、對象目標)。在舊版中，會對每個工作階段評估輸入條件。
 
-1. 按一下 **[!UICONTROL 「下]** 一步」以顯示 **[!UICONTROL 「目標與設定]** 」頁面。
+1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
 1. 使用下列設定來設定活動，然後按一下 **[!UICONTROL 「儲存並關閉」]**。
 
    | 設定 | 說明 |
