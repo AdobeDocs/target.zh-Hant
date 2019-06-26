@@ -6,8 +6,8 @@ seo-title: 活動衝突
 solution: Target
 title: 活動衝突
 uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
