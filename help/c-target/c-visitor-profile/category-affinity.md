@@ -8,7 +8,7 @@ title: 類別相關性
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 >[!IMPORTANT]
 >
->用於Adobe Target類別相似性演算法的 `user.categoryId` 屬性有別於Adobe Target Recommendations產品和內容建議所用 `entity.categoryId` 的屬性。`user.categoryId` 來追蹤使用者最愛的類別。`entity.categoryId` 必須以目前頁面或目前項目類別的建議為基礎。如果您想要使用這兩項功能，請將這兩個值傳遞至Adobe Target。
+>The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` 來追蹤使用者最愛的類別。`entity.categoryId` 必須以目前頁面或目前項目類別的建議為基礎。如果您想要使用這兩項功能，請將這兩個值傳遞至Adobe Target。
 
 ## 類別相關性的商業案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
