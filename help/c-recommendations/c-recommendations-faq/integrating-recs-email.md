@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 建議
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -60,7 +60,7 @@ curl -X POST \
 >
 >各電子郵件收件人 (如各 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供不重複的值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。
 
-如需詳細資訊，請參閱 [D傳送 API 說明文件](https://developers.adobetarget.com/api/#server-side-delivery)。
+如需詳細資訊，請參閱[傳送 API 文件](https://developers.adobetarget.com/api/#server-side-delivery)。
 
 ## 選項 2: 使用 Rawbox 電子郵件範本 {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
