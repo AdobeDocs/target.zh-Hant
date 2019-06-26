@@ -10,7 +10,7 @@ topic: Premium
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 badge: premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 「自動個人化」(AP)活動會比較頁面上的多個選件，因此使用每個體驗預覽頁面非常實用。
 
-1. 在Visual Experience Composer中，按一下 **[!UICONTROL 「預覽]**」。
+1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
 
    ![預覽圖示](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -29,7 +29,7 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 1. 按一下清單中的特定體驗來檢視它。
 
-1. (條件性)若要排除活動中的一或多個體驗，請按一下 **[!UICONTROL 「排除]** 」圖示。
+1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
 
    ![排除圖示](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
@@ -39,12 +39,12 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
    您可能會選擇排除顯示發生衝突變數的體驗，或是審美觀點上不平衡的體驗。
 
-   若要排除體驗，請將滑鼠指標暫留在體驗上，然後按一下 **[!UICONTROL 「排除」]** 圖示。
+   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
 
-   若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下清單右上角的 **[!UICONTROL 「排除]** 」圖示。
+   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
 
-   依預設，所有體驗都包括在自動個人化活動中。若要包含已排除的體驗，請將滑鼠指標暫留在體驗上，然後按一下 **[!UICONTROL 「包含」]** 圖示。
+   依預設，所有體驗都包括在自動個人化活動中。To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
 
-   若要包含已排除的多個體驗，請選取所需體驗的核取方塊，然後按一下清單右上方的 **[!UICONTROL 「包含」]** 圖示。
+   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
 
-1. 按一下 **[!UICONTROL Compose]** 返回Visual Experience Composer，以便進行變更，或按一下「下一 **[!UICONTROL 步」]** 移至 [!UICONTROL 「定位] 」步驟。
+1. Click **[!UICONTROL Compose]** to return to the Visual Experience Composer so you can make changes, or click **[!UICONTROL Next]** to go to the [!UICONTROL Targeting] step.
