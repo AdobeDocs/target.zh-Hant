@@ -8,7 +8,7 @@ title: 目標與設定
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -132,8 +132,8 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 若要新增相依性:
 
-1. 新增其他度量後，按一下 **[!UICONTROL 「進階設定]**」。
-2. 按一下 **[!UICONTROL 新增相依性]**：
+1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
+2. Click **[!UICONTROL Add Dependency]**:
 
    ![新增相依性連結](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
