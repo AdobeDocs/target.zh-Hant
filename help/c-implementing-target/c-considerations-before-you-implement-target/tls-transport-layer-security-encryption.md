@@ -7,8 +7,8 @@ solution: Target
 title: TLS (傳輸層安全性) 加密變更
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -64,11 +64,11 @@ Adobe 會分階段將客戶轉移至 TLS 1.2。對於那些已經符合 1.2 規�
 * 使用 Java 8 的 API 用戶端已預設為 TLS 1.2，應該不會受到影響。
 * 使用其他架構的 API 用戶端需聯絡其供應商，以瞭解 TLS 1.2 支援的詳細資訊。
 
-## 存取 Experience Cloud 解決方案介面{#section_748870ADE77B4CBEB18518DC784E64E5}
+## 存取 Experience Cloud 解決方案介面 {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 由於 Target Standard/Premium 介面要求使用[最新的網頁瀏覽器](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)，我們並未預見任何問題。如果您無法連接到 Target，則應該將瀏覽器升級到最新版本。
 
-## 如何檢查瀏覽器使用的 TLS 版本{#section_44716DA2CEFF492BABD95AE32B1A3FC6}
+## 如何檢查瀏覽器使用的 TLS 版本 {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
 若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
 
@@ -85,7 +85,7 @@ Adobe 會分階段將客戶轉移至 TLS 1.2。對於那些已經符合 1.2 規�
 
    ![](assets/firefox_more_info_3.png)
 
-## 僅支援 TLS 1.0 之瀏覽器的預期行為{#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## 僅支援 TLS 1.0 之瀏覽器的預期行為 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
 本節說明使用 at.js 或 mbox.js 實作時，僅支援 TLS 1.0 的瀏覽器會造成什麼情況。本節也說明了支援 TLS 1.1 和 1.2 的瀏覽器會造成什麼情況，以利比較。
 
