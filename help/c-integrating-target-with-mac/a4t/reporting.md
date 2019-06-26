@@ -8,8 +8,8 @@ subtopic: 多變數測試
 title: A4T 報表
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 在 Analytics 和 Target Standard/Premium 中，您都可以檢視活動的報表。
 
-如需使用 Analytics for Target 的報表最佳作法， [請瀏覽此 Adobe Spark 頁面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+如需使用 Analytics for Target 的報表最佳實務，[請瀏覽此 Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
 ## 概述 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -34,7 +34,7 @@ Analytics 和 Target 報表都會測量加入者 (加入測試的人)，而不�
 >
 >Target 支援的報表會延遲四分鐘。對於 A4T 支援的活動，在 Target 和 Analytics 報表中，活動初次儲存之後最多需要 24 小時，才能依體驗來分析報表資料。在這最初 24 小時收集的資料仍然正確，且會指派給正確的體驗。
 
-## Analytics 中的報表{#section_F6884872DC864AE7913587FAED4CD11C}
+## Analytics 中的報表 {#section_F6884872DC864AE7913587FAED4CD11C}
 
 在 Analytics 中，按一下左側功能表中的 **[!UICONTROL 「Target]** &gt; **[!UICONTROL Target 活動」]**。在 Target 中，活動的報表會自動顯示 Analytics 資料、量度和區段。從網站收集資料後，大約一小時後資料就會出現在這些報表中。報表中的所有量度、對象和值，來自於您設定活動時所選取的報表套裝。
 
@@ -45,13 +45,13 @@ Analytics 和 Target 報表都會測量加入者 (加入測試的人)，而不�
 
 >[!NOTE]
 >
->Analytics 中也提供 Target 提升度和信賴度詳細資料。如需詳細資訊，請參閱 [Adobe Analytics 產品說明文件中的 Target 提升度和信賴度報表類型](https://marketing.adobe.com/resources/help/zh_TW/reference/report_target_lift_confidence.html)。
+>Analytics 中也提供 Target 提升度和信賴度詳細資料。如需詳細資訊，請參閱 Adobe Analytics 產品說明文件中的 [Target 提升度和信賴度報表類型](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)。
 
 >[!IMPORTANT]
 >
 >如果 Analytics 中的「Target 活動」報表列出「未指定」，而非列出您的活動，則需要更新您的佈建帳戶。請聯絡客戶服務以解決此問題。
 
-## Target 中的報表{#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Target 中的報表 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 使用 Analytics 作為報表來源時，Target Standard 中的報表會顯示從 Analytics 收集的資料。此報表與其他 Target Standard 報表稍微不同:
 
@@ -70,7 +70,7 @@ Analytics 和 Target 報表都會測量加入者 (加入測試的人)，而不�
 
 您可以使用 [!DNL Adobe Analysis Workspace] 更進一步深入瞭解並以視覺化方式呈現資料，或發掘隱藏於表面下的分析。
 
-如需詳細資訊和範例，請開啟 Adobe Experience League 提供的 [Analytics 與 Target: Analysis 最佳實務教學課程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## 活動建立 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
