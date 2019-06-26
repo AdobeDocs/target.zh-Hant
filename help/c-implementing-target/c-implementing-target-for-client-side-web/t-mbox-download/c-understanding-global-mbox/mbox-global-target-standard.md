@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 使用來自舊版實作的全域 mbox
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
