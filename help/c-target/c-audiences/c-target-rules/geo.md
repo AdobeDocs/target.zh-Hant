@@ -8,7 +8,7 @@ title: 地理Adobe Target中的定位
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ## 準確度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動資料連線時，地理查閱的準確性可能會受到位置、提供者與 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)資料關係以及其他因素的影響。行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。您可以使用 [Geolocation API來解決一些行動地理位置問題](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)。
+地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 下表顯示 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 針對有線或 WiFi 網際網路連線所提出的 IP 型地理位置資訊的準確度。DigitalEnvoy 提供的資料是業界最準確的。全球準確度在國家/地區層級超過 99.9%，在城市層級也能達到 97%。準確度資訊不適用於行動通訊基地台網路。
 
@@ -115,7 +115,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 **行動裝置的地理鎖定目標如何運作?**
 
-絕大多數的行動裝置使用者透過 WiFi 存取內容，這表示 Target 的 IP 型地理鎖定目標可以像桌上型電腦一樣準確。透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。您可以使用 [Geolocation API來解決一些行動地理位置問題](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)。
+絕大多數的行動裝置使用者透過 WiFi 存取內容，這表示 Target 的 IP 型地理鎖定目標可以像桌上型電腦一樣準確。透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **地理功能如何處理來自 AOL 的訪客？**
 
