@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -33,6 +33,7 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 |  | [建立自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 已新增步驟，以選取特定體驗作為預設體驗。 |
 |  | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 已新增有關如何管理多個行動應用程式版本的資訊。 |
 |  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | 已新增有關先前購買項目建議索引鍵的資訊。 |
+|  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增有關在某些情況下無法針對自動Target活動產生報告的相關資訊。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 19.5.1 (2019 年 5 月 21 日) {#tgt-19-5-1}
