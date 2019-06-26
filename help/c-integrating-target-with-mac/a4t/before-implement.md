@@ -8,7 +8,7 @@ title: 實作之前
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,8 +77,8 @@ A4T 活動用來傳送內容或記錄目標量度的所有 Target 呼叫，必�
 
 進行疑難排解時，請確認 Analytics 點閱上有補充 ID。
 
-## 用戶端分析記錄 {#client-side}
+## Client-side Analytics logging {#client-side}
 
-依預設，當at. js， [!DNL Experience Cloud Visitor ID Service]和AppMeasurement. js位於頁面上， [!DNL Adobe Analytics][!DNL Target] 並正確地將事件用於後端報告和分析用途時，只要頁面中包含正確的補充ID，如上所述。您不需要管理並執行A4T的其他操作，才能正常運作。
+By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. 您不需要管理並執行A4T的其他操作，才能正常運作。
 
-不過，有時您可能想要更多地控制如何傳送與 [!DNL Target] 用於 [!DNL Analytics] 報告目的相關的分析資料。您可能有內部分析工具，可供內部使用，但也想要透過內部分析產品傳送分析資料， [!DNL Analytics] 讓組織中的其他成員可以繼續使用 [!DNL Analytics] 做為視覺化報表來源。請參閱 [步驟7：在Analytics的所有網站頁面](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)*上參考. js或mbox. js，以* 瞭解更多資訊。
+However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js or mbox.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.
