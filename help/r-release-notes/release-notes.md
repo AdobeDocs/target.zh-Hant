@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 65a35c085c8552a134a11bf89e094d28b62ddbdc
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -34,6 +34,7 @@ source-git-commit: 65a35c085c8552a134a11bf89e094d28b62ddbdc
 | 單頁應用程式視覺化體驗撰寫器 (SPA VEC) | **引導式工作流程**：新的引導工作流程可協助您瞭解頁面遞送規則設定如何設定，以便在單一頁面應用程式中成功執行和執行活動。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**複製修改**：您現在可以使用SPA CMS定義修改，然後將修改複製到您的單一頁面應用程式中的其他檢視中。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
 | 行動版視覺化體驗撰寫器 | **多個應用程式版本**：您現在可以為行動應用程式的多個版本編寫活動。如此可為您節省時間和精力，當版本類似時，您就不需要大幅變更應用程式的UI。(TGT-34231)<br>See &quot;Manage multiple app versions&quot; in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
 | ![Premium徽章](/help/assets/premium.png) 自動個人化(AP)與自動目標 | **特定體驗作為控制**：您可以選取在建立AP或自動Target活動時做為控制項的體驗。此功能可讓您根據活動中設定的流量分配百分比，將整個控制流量路由至特定體驗。然後，您可以評估個人化流量的績效報告，以控制該一個體驗的流量。目前的控制選項(隨機提供體驗)將繼續可用。(TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md).<br>**個人化前瞻分析報表**：當訪客在特定位置看到特定內容的特定內容時，行銷人員友好的命名方式提供更有意義的資訊。(TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![優質徽章](/help/assets/premium.png) 建議 | 建立「最近查看的項目」邏輯時，您可以使用「先前建議購買的項目」切換按鈕。(TGT-34030)<br>如需詳細資訊，請參閱 [「建立准則」](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) 中最近檢視的項目。 |
 | Google Chrome SaveSite Cookie原則 | Google最近宣佈，從Chrome76開始，在2019年月30日發行的Chrome76中，開發人員必須明確指定哪些Cookie可以跨網站運作，以及哪些Cookie可追蹤使用者。<br>隨著產業致力於為消費者建立更安全的網路，Target絕對致力於提供個人化體驗，並超越對訪客的隱私權期望。<br>請參閱 [Google Chrome SameSite Cookie原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
 
 ## at. js2.1.0版(2019年月日)
