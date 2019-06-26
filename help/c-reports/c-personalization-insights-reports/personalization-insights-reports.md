@@ -8,8 +8,8 @@ title: 個人化前瞻分析報表
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,6 +58,6 @@ Target 提供許多方法，可以將其他資料傳遞給 Target，使得用於
 
 ## 訓練影片: 使用「個人化前瞻分析」報表
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=chi_hant)
 
-如需詳細資訊，請參閱[在 Adobe Target 中使用個人化前瞻分析報表](https://helpx.adobe.com/tw/target/kt/using/personalization-insights-report-feature-video-use.html)。
+For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
