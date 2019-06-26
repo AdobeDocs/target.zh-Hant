@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -168,7 +168,7 @@ Recommendations 會顯示對指定項目感興趣的訪客的其他項目。
 
 Recommendations 會將項目顯示在指定的產品類別中。
 
-選取此選項時，必須將 `entity.categoryId`   值作為參數傳入顯示 mbox。
+選取此選項時，必須將 `entity.categoryId` 值作為參數傳入顯示 mbox。
 
 **邏輯 (條件)**
 
@@ -326,6 +326,16 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 根據設計中的位置數量，使用訪客的歷史 (跨工作階段) 以呈現訪客已檢視的前 *x* 個項目。
 
 現在，「最近檢視的項目」條件會傳回指定[環境](/help/administrating-target/hosts.md)的特定結果。如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的項目。
+
+**使用您網站上的哪個位置**
+
+一般頁面，例如首頁或登陸頁面及離站廣告。
+
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果兩個網站屬於不同環境，而訪客在這兩個網站之間切換，則每個網站只會顯示最近從適當網站購買的項目。如果兩個網站位於相同環境中，而訪客在這兩個網站之間切換，訪客將會看到最近購買的兩個網站項目。
 
 **使用您網站上的哪個位置**
 
