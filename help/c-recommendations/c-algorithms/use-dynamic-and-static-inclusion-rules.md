@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 可用的選項依選取的行業別和建議金鑰而不同。
 
-## 將篩選規則新增至促銷活動{#section_D59AFB62E2EE423086281CF5D18B1076}
+## 將篩選規則新增至促銷活動 {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 [建立促銷活動](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)時，請選取 **[!UICONTROL 「依屬性促銷」]**，然後按一下 **[!UICONTROL 「新增篩選規則」]**。
 
@@ -76,7 +76,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 同一季的最後幾集
 * 同一套書的前幾本
 
-## 依實體屬性比對、設定檔屬性比對及參數比對來篩選時處理空白值{#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## 依實體屬性比對、設定檔屬性比對及參數比對來篩選時處理空白值 {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
 針對結束條件和促銷活動，在依實體屬性比對、設定檔屬性比對及參數比對來篩選時，您可以選擇數個選項來處理空白值。
 
@@ -94,7 +94,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 以下的[情節 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) 是處理空白值的範例:
 
-## 動態篩選情節{#section_9873E2F22E094E479569D05AD5BB1D40}
+## 動態篩選情節 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 **情節 1:** 除了使用靜態篩選來比對目錄中的一個項目與另一個項目之外，您還可以使用動態篩選來比對目錄中的項目與訪客設定檔中的屬性。
 
@@ -254,7 +254,7 @@ salesPrice - is between - 90% and 110% of - current item's - price
 
    ![](assets/missing10.png)
 
-## 注意事項{#section_A889FAF794B7458CA074DEE06DD0E345}
+## 注意事項 {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
