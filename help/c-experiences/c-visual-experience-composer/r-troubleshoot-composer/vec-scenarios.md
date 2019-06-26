@@ -7,8 +7,8 @@ solution: Target
 title: 頁面修改案例
 topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -289,7 +289,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 </div>
 ```
 
-## 情節: 重新命名所選元素的類別{#section_79D244C588BA452DB8E433D82B7F63EA}
+## 情節: 重新命名所選元素的類別 {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 在此情節中，會變更所選清單項目的類別。
 
