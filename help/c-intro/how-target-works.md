@@ -9,7 +9,7 @@ title: Adobe Target 如何運作
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 
 
 >[!IMPORTANT]
 >
->所有客戶應該移轉至 at.js。如需詳細資訊，請參閱 [從mbox. js移轉至. js。](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>所有客戶應該移轉至 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
 您必須在網站的每個頁面上參照任一 Target JavaScript 檔案。例如，您可以將此檔案新增至全域標頭。
 
@@ -108,7 +108,7 @@ Adobe 目前在幾個大洲上皆有資料中心，涵蓋多個區域位置，�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。由於「Great Firewall」(很棒的防火牆)以及國家/地區的Edge節點不足， [!DNL Target] 已部署的網站體驗將會緩慢，而頁面載入也會受到影響。此外 [!DNL Target] ，使用者介面也可能會發生延遲。
+>[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
 
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
