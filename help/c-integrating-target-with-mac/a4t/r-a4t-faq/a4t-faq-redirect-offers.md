@@ -7,8 +7,8 @@ solution: Target
 title: 重新導向選件 - A4T 常見問題集
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 可能會出現一些資料差異，這在預期之中。如需詳細資訊，請參閱[使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
 
-## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 有可能發生罕見的情況，導致在第一頁執行重新導向之前，Analytics 呼叫就先觸發。這會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 
@@ -70,7 +70,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 在 VEC 和表單式體驗撰寫器中使用重新導向選件，且頁面上實作訪客 ID 服務時，這些參數會自動加入重新導向 URL 中。如果在 VEC 和表單式撰寫器中使用您自己的自訂重新導向程式碼，務必隨著自訂程式碼傳遞這些參數。
 
-## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 您需要與 IT 團隊合作，將這些參數 (`adobe_mc_sdid` 和 `adobe_mc_ref`) 加入白名單。
 
