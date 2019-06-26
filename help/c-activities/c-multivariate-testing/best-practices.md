@@ -8,14 +8,14 @@ title: 多變數測試最佳作法
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 多變數測試最佳作法{#multivariate-test-best-practices}
 
-協助您改善效能、避免問題以及修正在建立和執行多變數測試(MVT)活動 [!DNL Adobe Target]時可能發生的已知問題的秘訣。
+Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
 
 ## 計劃 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -40,21 +40,21 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
    檢閱測試產生的所有體驗，之後再上線。請確定沒有任何組合具有對立的要求 (例如，在相同的體驗中打八折與折扣 $19) 或不相容的設計 (例如，有相同色彩的背景和字型)。
 
-* 使用 [流量估計器](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) ，確定您的測試是針對您頁面接收的流量量而設計。
+* Use the [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) to make sure that your test is designed for the amount of traffic your page receives.
 
    確定流量估算程式對您的測試組態指示綠燈，使得您可以取得所需的結果。
 * 建議您每個元素的替代項目之間必須有大幅差異。
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* 經常使用 [「位置貢獻」報告](/help/c-reports/location-contribution-report.md) 來監控每個位置和每個選件的效能。
-* 在 [「體驗績效」報表](/help/c-reports/experience-performance-report.md)中，依據使用「最佳5」和「最差」篩選器所顯示的資料基礎進行決策。
+* Make frequent use of the [Location Contribution report](/help/c-reports/location-contribution-report.md) to monitor the performance of each location and each offer.
+* In the [Experience Performance report](/help/c-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
 
-   [!UICONTROL 「全部] 」篩選器會很難擷取所需的資訊，而並非所有體驗都能顯示在圖形中。如果您想要查看不在最佳或最差五個位置的特定體驗，請使用 [!UICONTROL 「全部] 」篩選。
+   [!UICONTROL 「全部] 」篩選器會很難擷取所需的資訊，而並非所有體驗都能顯示在圖形中。Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
 
 ## 後續事項 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* 雖然 [!DNL Target] 允許您編輯即時活動，但請注意編輯正在進行中的活動可能會重設測試。因此，報表可能無法識別某些變更。只有在選件資料庫中變更 HTML 選件是安全的。
+* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. 因此，報表可能無法識別某些變更。只有在選件資料庫中變更 HTML 選件是安全的。
 
    重設體驗名稱和報表的特定動作是:
 
