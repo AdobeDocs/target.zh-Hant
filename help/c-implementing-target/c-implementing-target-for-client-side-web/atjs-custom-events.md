@@ -7,8 +7,8 @@ solution: Target
 subtopic: 快速入門
 title: at.js 自訂事件
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -51,4 +51,4 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件以共用從 Target 到第三方系統的設定檔資訊。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hant)
