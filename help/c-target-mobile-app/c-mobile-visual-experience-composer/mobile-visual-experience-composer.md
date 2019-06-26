@@ -7,7 +7,7 @@ title: 行動應用程式可視化體驗撰寫器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -74,6 +74,16 @@ source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 VEC 中執行的操作可在應用程式中即時查看，因此可在編寫時即時預覽。各項操作會與相關的行動裝置畫面或檢視以對應的方式建立關聯。
 
 ![](assets/mobile-vec-create-4.png)
+
+**管理多個應用程式版本**
+
+偵測到新的應用程式版本時，會通知您已將應用程式版本新增至目標版本的清單。
+
+![新的應用程式通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+
+Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
+
+![「管理版本」對話方塊](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
 ## 疑難排解 {#troubleshooting}
 
@@ -184,7 +194,7 @@ Target VEC 擴充功能會透過網路要求為您的應用程式擷取相關的
 
 ## 疑難排解 {#ts}
 
-**我發現我的「context. application. name」值包含禁止的字元時發生錯誤。行動應用程式名稱允許哪些字元？**
+**我發現我的「context. application. name」值包含禁止的字元時發生錯誤。What characters are allowed in mobile app names?**
 
 行動應用程式名稱中允許的字元包括：
 
@@ -202,7 +212,7 @@ Target VEC 擴充功能會透過網路要求為您的應用程式擷取相關的
 | `&` | Ampersand |
 | `+` | 加號 |
 
-例如，使用不允許的字元，縮寫符號( `'` )會讓您收到下列錯誤訊息：
+Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
 Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
@@ -223,6 +233,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
    * 在您從「目標與設定」一步導覽回「編寫」步驟 (步驟 1) 時，畫面會顯示裝置對話方塊。如果應用程式已開啟，您必須關閉然後重新啟動應用程式，以連線回行動應用程式 VEC。
    請確定您是從「最近使用的應用程式」區段關閉行動應用程式，而非按下[!UICONTROL 「返回」]按鈕。
 
-## 訓練影片：Adobe Target Mobile App Visual Exposer(3：33) {#video}
+## Training video: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27528?captions=chi_hant)
