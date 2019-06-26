@@ -10,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -21,15 +21,15 @@ Target 會自動收集和使用各種資料，在自動個人化 (AP) and 自動
 
 若要進一步瞭解關於 Target 個人化演算法，請參閱[隨機森林演算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)。
 
-下表顯示自動個人化依預設收集的資料 (行銷人員不需要執行任何動作)，以及在[個人化前瞻分析報表](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用於指示這些屬性的命名慣例。您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)。
+The following table shows the data collected by Automated Personalization and Auto-Target by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)。
 
 | 資料類型 | 說明 | 資料類型命名慣例 | 範例屬性 |
 | --- | --- | --- | --- |
 | [裝置與行動資料](#device-mobile) | 裝置和行動特定資訊。<br>請參閱下方的「裝置和行動資料」。 | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
 | [環境資料](#env) | 有關訪客作業系統的資訊，以及訪客存取活動的方式和時機。 | `Browser - / Operating System] - [Attribute Name]` | 瀏覽器 - 類型 |
-| Experience Cloud部分 | 在Audience Manager或Analytics中建立的觀眾，並共用在Experience Cloud中 | `Custom - Experience Cloud Audience - [Audience Name]` | 這是一組數字→「1」值。<br>數字是Adobe Audience Manager(AAM)區段ID。 |
+| Experience Cloud部分 | 在Audience Manager或Analytics中建立的觀眾，並共用在Experience Cloud中 | `Custom - Experience Cloud Audience - [Audience Name]` | 自訂資料 |
 | [地理資料](#geo) | 有關訪客所在位置的資訊。<br>請參閱下方的「地理資料」。 | `Geo - [geo attribute]` | City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier |
-| 設定檔屬性 | 透過Update API直接上傳至Target描述檔的描述檔指令碼或屬性 | Custom - Visitor Profile - [attribute name] | 自訂資料 |
+| 設定檔屬性 | 透過Update API直接上傳至Target描述檔的描述檔指令碼或屬性 | `Custom - Visitor Profile - [attribute name]` | 自訂資料 |
 | 反向連結URL參數 | 一般來說，反向連結 URL 為參考起始 mbox 呼叫的特定頁面的 URL。<br>請注意，此變數可能受到您的網站上使用者的活動以及網站的技術實作影響。 | `Custom - [Referring URL Parameter] - [Parameter value]` | 自訂資料 |
 | 報告區段 | 在活動設定中設定的任何區段。 | `Reporting Segment -[Segment Name]` | 自訂資料 |
 | [工作階段資料](#session) | 存取活動時訪客行為的相關資訊。 | `Visitor Profile - [Attribute Name]` | 訪客設定檔 - 開始最近一次瀏覽 |
@@ -63,10 +63,10 @@ Target 會自動收集和使用各種資料，在自動個人化 (AP) and 自動
 | 瀏覽器-星期 | 訪客存取活動的一周中的某小時。 | 0 to 168<br>(Sunday midnight is 0) |
 | 瀏覽器 - 語言設定 | 訪客瀏覽器中用來存取活動的語言。 | English<br>German |
 | 瀏覽器-螢幕高度(px) | 用來存取活動的裝置瀏覽器螢幕高度(以像素為單位)。 | 1、2、等 |
-| 瀏覽器-每日時間 | 瀏覽器在訪客存取活動時的時間。 | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| 瀏覽器-每日時間 | 瀏覽器在訪客存取活動時的時間。 | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
 | 瀏覽器 - 時區 | 訪客存取活動時的時區。 | Pacific Time<br>Eastern Time<br>GMT |
 | 瀏覽器 - 類型 | 訪客存取活動時使用的瀏覽器類型。 | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| 瀏覽器-工作日/週末 | 訪客存取活動(週末、工作日或工作日免費)時的工作狀態。 | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
+| 瀏覽器-工作日/週末 | 訪客存取活動(週末、工作日或工作日免費)時的工作狀態。 | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
 | 瀏覽器-視窗高度(px) | 用來存取活動的瀏覽器的視窗高度(以像素為單位)。 | 1、2、等 |
 | 瀏覽器-視窗寬度(px) | 用來存取活動的瀏覽器的視窗寬度(以像素為單位)。 | 1、2、等 |
 | 裝置-螢幕高度 | 訪客用來存取活動的裝置螢幕高度。 | 1、2、等 |
