@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -115,7 +115,8 @@ function targetPageParams() {
 
 **使用 API** 
 
-如需使用傳送和儲存實體API的相關資訊，請參閱 [Adobe Recommendations API文件](http://developers.adobetarget.com/api/recommendations) 。
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## 使用運算子處理多值屬性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
