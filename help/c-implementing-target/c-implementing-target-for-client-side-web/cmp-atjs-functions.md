@@ -9,7 +9,7 @@ title: at.js 函數
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,5 +33,5 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 | [targetPageParamsAll(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 此方法允許您將參數從要求程式碼外部附加至所有 mbox。 |
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 提供標準方式來註冊特定的延伸模組。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |
 | [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js自訂事件可讓您得知mbox請求或選件失敗或拒絕的時機。 |
-| [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js2.1.0) | 此函數會在不使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`使用體驗時，將通知傳送至Target邊緣。<br>**注意**：此函數已於at. js2.1.0中推出，適用於2.1.0以上的任何版本。 |
+| [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js2.1.0) | This function sends a notification to Target edge when an experience is rendered without using `adobe.target.applyOffer()` or `adobe.target.applyOffers()`.<br>**注意**：此函數已於at. js2.1.0中推出，適用於2.1.0以上的任何版本。 |
 
