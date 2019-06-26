@@ -128,8 +128,8 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    ![流量分配目標下拉式清單](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **評估個人化演算法 (50/50):** 如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。
-   * **最大化個人化流量 (90/10):** 如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。
+   * **評估個人化演算法 (50/50):** 如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議使用「隨機體驗」做為您的控制項。
+   * **最大化個人化流量 (90/10):** 如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。不論您的目標為何，在使用特定體驗作為控制時，這都是建議的流量分割。
    * **自訂分配:** 視需要手動分割百分比。
 
 1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
