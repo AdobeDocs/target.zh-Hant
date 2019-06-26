@@ -8,12 +8,12 @@ title: 單一頁面應用程式 (SPA) 可視化體驗撰寫器
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# 單一頁面應用程式 (SPA) 可視化體驗撰寫器{#single-page-app-spa-visual-experience-composer}
+# 單一頁面應用程式 (SPA) 可視化體驗撰寫器 {#single-page-app-spa-visual-experience-composer}
 
 在 [!DNL Adobe Target] 中，[!UICONTROL 可視化體驗撰寫器] (VEC) 為行銷人員提供自助式功能，以建立活動並個人化體驗，這些可以透過 Adobe Target 的全域 Mbox 在傳統多頁應用程式上以動態方式傳送。不過，這有賴擷取頁面載入上的選件或後續伺服器呼叫，但會導致延遲，如下圖所示。由於這種作法會減損使用者體驗與應用程式效能，因此在單頁應用程式 (SPA) 上成效不彰。
 
@@ -198,9 +198,9 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 
 **動作**
 
-按一下動作會醒目顯示將套用該動作之網站上的元素。在檢視下建立的每個 VEC 動作都有四個圖示，如下所示: 資訊、編輯、移動和刪除。
+按一下動作會醒目顯示將套用該動作之網站上的元素。在「檢視」底下建立的每個CMS動作都有下列圖示，如下所示：資訊、編輯、複製、移動和刪除。
 
-![修改](/help/c-experiences/assets/modifications-new.png)
+![修改](/help/c-experiences/assets/modifications.png)
 
 下表說明每個動作:
 
@@ -208,7 +208,8 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 | --- | --- |
 | 資訊 | 顯示此動作的詳細資料。 |
 | 編輯 | 可讓您直接編輯該動作的屬性。 |
-| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] – 任何對應至頁面載入事件的動作都會套用到網頁應用程式的初始頁面載入上。<br>**附註** 執行移動作業後，您必須透過瀏覽導覽至 VEC 中的檢視，才能查看該移動作業是否有效。如果無法將動作套用到檢視，則會出現錯誤 |
+| 原地複製 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**注意**：完成複製作業後，您必須透過 [!UICONTROL 瀏覽] 瀏覽至「在CMS中檢視」，以查看複製的動作是否為有效的操作。如果無法將動作套用到檢視，則會出現錯誤. |
+| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] -任何對應頁面載入事件的動作都會套用至網頁應用程式的初始頁面載入。<br>**注意：** 完成移動作業後，您必須透過瀏覽瀏覽至「在CMS中檢視」，以查看移動是否為有效的操作。如果無法將動作套用到檢視，則會出現錯誤 |
 | 刪除 | 刪除動作。 |
 
 >[!NOTE]
@@ -369,6 +370,72 @@ adobe.target.getOffers({
 | [VEC 選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | 全部 |
 | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | 是 |
 | [多活動傳送](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | 是 |
+
+## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+
+[!UICONTROL 「頁面傳送] 」設定可讓您設定規則，以決定Target活動應合格及執行對象的時機。
+
+To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+
+![頁面傳送選項對話方塊](/help/c-experiences/assets/page-delivery.png)
+
+For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. 此功能適用於任何多頁面應用程式，其中每個頁面與頁面叫用的每次互動都會叫用頁面重新載入，如此. js就會擷取使用者瀏覽至URL的活動。
+
+However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+
+### 範例使用案例
+
+請考量此範例使用案例：
+
+![SPA CMS修改面板](/help/c-experiences/assets/page-delivery-example.png)
+
+已進行下列變更：
+
+* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+
+![頁面傳送對話方塊](/help/c-experiences/assets/spa-page-delivery.png)
+
+下圖顯示在at. js中的「Target Flow- Page Load」請求。*x*:
+
+![Target Flow- at. js2.0頁面載入請求](/help/c-experiences/assets/page-load-request.png)
+
+**使用者歷程#1**
+
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2。*x* 會將查詢設為Edge，以查看是否有任何活動需要執行URL： [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。
+* 在步驟中，Target Edge會傳回「首頁和產品」檢視的動作，以便在瀏覽器內快取。
+
+**結果**：使用者會在「首頁」檢視中看到綠色背景顏色。When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+
+Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+
+**使用者旅程#2**
+
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2。*x* 會將查詢設為Edge，以查看是否有任何活動需要執行URL： [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
+* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 因為沒有符合資格的活動，所以不會針對at. js進行任何動作和檢視。*x* 要觸發的x。
+
+**結果**：即使您已針對 `triggerView()` 「產品檢視」定義了「產品檢視」並透過SPA CMS對「產品檢視」進行了動作，因為您未建立包含「頁面傳送」設定中 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 的規則，所以看不到預期動作。
+
+### 最佳做法
+
+您可以看到，管理使用者歷程可能很困難，因為使用者可以登陸SPA的任何URL，並導覽至任何其他頁面。因此，最好指定包含基本URL的頁面傳送規則，使其包含您整個SPA。如此，您就不需要考慮使用者可能需要進入的所有不同歷程和路徑，才能顯示A/B測試或體驗定位(XT)活動。
+
+例如，為瞭解決上述問題，我們可以指定「頁面傳送」設定中的基本URL，如下所示：
+
+![頁面傳送對話方塊](/help/c-experiences/assets/conclusion.png)
+
+如此可確保每當訪客進入SPA並導覽至「首頁」或「頁面檢視」時，就會看到所套用的動作。
+
+Now, whenever you add an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+
+![頁面傳送設定訊息](/help/c-experiences/assets/pop-up-message.png)
+
+當您將第一個動作新增至您建立的每個新活動時，會顯示此訊息。This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
 
 ## 訓練影片: 在 Adobe Target 中使用適用於 SPA 的 VEC
 
