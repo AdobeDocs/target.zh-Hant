@@ -1,7 +1,7 @@
 ---
 description: 設定您的帳戶偏好設定以設定 Target Standard 或 Target Premium 以便正確對您的帳戶運作。
 keywords: 帳戶偏好設定; 偏好設定; 網站詳情; 自訂 mbox 名稱; 用於報表的 Experience Cloud 解決方案; 顯示預估收入提升度; CSS 選取器; 使用元素類別; 預設可視化體驗撰寫器 URL; 啟用增強體驗撰寫器; 產生體驗快照; 行動檢視區設定; 垂直產業; 篩選不相容的條件
-seo-description: 設定帳戶偏好設定，設定Adobe Target Standard或Target Premium可正確搭配您的帳戶運作。
+seo-description: 設定您的帳戶偏好設定，以將 Adobe Target Standard 或 Target Premium 設定為可搭配您的帳戶正常運作。
 seo-title: 偏好設定
 solution: Target
 subtopic: 快速入門
@@ -9,7 +9,7 @@ title: 偏好設定
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 設定您的帳戶偏好設定來設定 [!DNL Target Standard] 或 [!DNL Target Premium] 以便對您的帳戶正確運作。
 
-若要設定您的帳戶偏好設定，請按一下**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**，視需要設定您的偏好設定，然後按一下**[!UICONTROL 「提交」]**。
+若要設定您的帳戶偏好設定，請按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**，視需要設定您的偏好設定，然後按一下 **[!UICONTROL 「提交」]**。
 
 下圖顯示[!UICONTROL 「帳戶偏好設定」]頁面上可用的設定。
 
@@ -26,15 +26,15 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 >[!NOTE]
 >
->只有當您擁有 [Target Premium](/help/c-intro/intro.md#premium)時，才能使用其中一些偏好設定。
+>這些偏好設定中的一部分僅在您有 [Target Premium](/help/c-intro/intro.md#premium) 時才能使用。
 
 ## 網站詳情 {#section_04A3340FC29B46978DB77058259F4EE0}
 
-指定您的網站設定的方式。
+指定已如何設定您的網站。
 
 ### 自訂全域 Mbox
 
-選取您用來傳送 [!DNL Target] 活動的選用自訂 mbox 名稱。此全域 mbox 必須為空白，表示它沒有預設內容。只有在您的網站上安裝更新 [!DNL at.js] 或 [!DNL mbox.js] 檔案後，才會儲存此設定。
+選取您用來傳送 [!DNL Target] 活動的選用自訂 mbox 名稱。此全域 mbox 必須為空白，表示它沒有預設內容。唯有在您的網站上安裝了更新的 [!DNL at.js] 或 [!DNL mbox.js] 檔案之後，才儲存此設定。
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 |--- |--- |
 | 用於報表的 Experience Cloud 解決方案 | 選取您的活動的報表來源，可以是 [!DNL Target] 或 Adobe Analytics。您也可以選擇根據活動選取您的報表來源。選擇報表來源時，請考量下列資訊:<ul><li>無論選取的報表來源為何，均可建立、啟用和停用[!UICONTROL 「自動分配」]、[!UICONTROL 「自動鎖定目標」]和[!UICONTROL 「自動個人化」] (AP) 活動。選擇 [Adobe Analytics 當作 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)時，不支援前述活動類型。即便指定 Analytics 當作報表來源，前述活動類型也會使用 [!DNL Target] 當作報表來源。</li><li>如果在此將報表來源設為「Analytics」，便不得啟用將 [!DNL Target] 作為報表來源的活動 (根據活動，報表來源指定為 Target)。您必須在活動中將報表來源變更為「Analytics」，或在「設定 &gt; 偏好設定」中將報表引擎變更為「根據活動選取」。</li><li>如果在此將報表來源設為[!DNL Target]「」，便不得啟用將「Analytics」當作報表來源的活動。您必須在活動中將報表來源變更為[!DNL Target]「」，或在「設定 &gt; 偏好設定」中將報表來源變更為「根據活動選取」。</li><li>如果在此將報表來源設為「根據活動選取」，您就可建立、啟用和停用所選報表來源支援的活動。如需支援活動的表格，請參閱 [](/help/c-integrating-target-with-mac/a4t/a4t.md)Adobe Analytics 作為 Adobe Target (A4T) 的報表來源。</li><li>從「A/B 手動」切換為[!UICONTROL 「自動分配」]或[!UICONTROL 「自動鎖定目標」]時，如果[!UICONTROL 「自動分配」]或[!UICONTROL 「自動鎖定目標」]活動不支援「A/B 手動」活動的報表來源，所有量度和報表對象都會消失。</li></ul> |
 | 顯示預估提升收益 | 如果為您的目標輸入了貨幣值，您也可以選擇顯示預估提升收益。[!DNL Target]如果所有使用者要瞭解成功的藍圖， 可以估計您可能獲得的收入增益。預估提升度功能依預設會停用。<br>只有 Experience Cloud 管理員使用者可以啟用或停用此功能。如果已停用預估的提升度，則介面中不會出現對應的欄位。停用功能不會造成資料遺失，包括用於預估的資料。預估是根據收集的資料，而無論功能是否已啟用。<br>如需詳細資訊，請參閱 [預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。 |
-| 啓用精細的優先順序 | 允許優先順序範圍從0-999的數字輸入。<br>視您的設定而定，優先順序的 UI 和選項可能有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。<br>如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。 |
+| 啟用微調優先順序 | 若為介於 0 到 999 的優先順序，則允許數值項目。<br>視您的設定而定，優先順序的 UI 和選項可能有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。<br>如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。 |
 
 ## CSS 選取器 {#section_8155EDBF449E4198863235F94D1EA872}
 
@@ -86,4 +86,4 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 * 說明 中可用的帳戶設定[!DNL Target Standard]
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=chi_hant)
