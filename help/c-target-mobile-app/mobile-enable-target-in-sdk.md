@@ -6,8 +6,8 @@ seo-title: 啟用 SDK 中的 Target
 title: 啟用 SDK 中的 Target
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. 將 Adobe Mobile Services SDK 新增至您的應用程式。
 
-   您可以在[核心實施與生命週期](https://marketing.adobe.com/resources/help/zh_TW/mobile/ios/dev_qs.html)下找到說明。
+   您可以在[「核心實施和生命週期」](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html)下找到說明。
 1. 新增用戶端代碼、逾時和啟用 SSL。
 
    在 Experience Cloud 中，開啟 Mobile Services，然後前往 **[!UICONTROL 「管理應用程式設定]** &gt; **[!UICONTROL SDK Target 選項」]**。
