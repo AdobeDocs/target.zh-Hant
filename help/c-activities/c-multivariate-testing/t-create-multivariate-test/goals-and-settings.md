@@ -8,7 +8,7 @@ title: 目標與設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -122,7 +122,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 若要新增相依性:
 
-1. 新增其他度量後，按一下 **[!UICONTROL 「進階設定]**」。
+1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
 2. 按一下「新增相依性」選項:
 
    ![新增相依性](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
