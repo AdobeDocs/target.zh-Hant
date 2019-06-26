@@ -7,8 +7,8 @@ solution: Target
 title: 檢視報表 - A4T 常見問題集
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 訪客
 * 瀏覽次數
 
-## 我可以為 Target 報表設定預設量度嗎?  {#section_50C20D286AA042CCA958184C9C0767DD}
+## 我可以為 Target 報表設定預設量度嗎?   {#section_50C20D286AA042CCA958184C9C0767DD}
 
 對於「活動」報表，管理員可變更預設量度，以便每次執行報表時顯示同樣的量度。否則，報表會預設顯示您上次套用至上個報表的量度。
 
-如需詳細資訊，請參閱*報表與 Analytics 介面說明*指南中的[選取預設報表量度](https://marketing.adobe.com/resources/help/zh_TW/sc/user/t_metrics_set_default.html)。
+如需詳細資訊，請參閱*報表與 Analytics 介面說明*指南中的[選取預設報表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
 
 ## 何時將區段套用至量度 (搭配計算量度) 及何時將區段套用至報表? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -37,7 +37,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 可搭配計算量度將區段套用至量度。想要建立一種新的成功事件時通常會這樣做。例如，如果您想要查看活動產生多少再度訪問的訪客，或有多少訪客在特定頁面上看到您的測試。請注意，目前無法為計算度量產生提升度和可信度。
 
-## 檢視報表時應該使用訪客、活動曝光次數或造訪?  {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## 檢視報表時應該使用訪客、活動曝光次數或造訪?   {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
 
 有多種選項，各有其優點:
 
@@ -110,19 +110,19 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 因為兩個體驗皆在轉換之前被看到，所以皆獲得訂單的「點數」。但系統中僅會有一個訂單生效，並透過總計反映出來。在 Target 報表中，因為您是對照 Target 活動與活動來看何者較成功，使用者看過的所有活動皆獲得點數並不影響。您是在比較單一活動內兩個項目的結果，而使用者不可能在相同個活動中看到不同的體驗，所以不必擔心訂單點數交叉污染。
 
-如需詳細資訊，請參閱 Analytics 說明中的[轉換變數 (eVar)](https://marketing.adobe.com/resources/help/zh_TW/reference/conversion_var_admin.html)。
+如需詳細資訊，請參閱 Analytics說明中的[轉換變數 (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)。
 
 ## 為什麼 Analytics 和 Analytics for Target (A4T) 計算的獨特訪客量度數字不同? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 執行 A/B 測試時 (採用 Student t 檢定 (可信度量度) 來選擇測試的獲勝者)，其中一項假設是固定時間範圍。除非查看固定樣本大小，否則此測試在統計學上無效。
 
-只有當您查看的一段時間比實際測試更短時，「獨特訪客」量度在 Analytics 和 Target 中才會不同。如果尚未達到您的樣本大小，測試就不太可靠。如需詳細資訊，請參閱 [Evan Miller 網站](https://www.evanmiller.org/index.html)上的[如何不執行 A/B 測試](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+只有當您查看的一段時間比實際測試更短時，「獨特訪客」量度在 Analytics 和 Target 中才會不同。如果尚未達到您的樣本大小，測試就不太可靠。如需詳細資訊，請參閱 [Evan Miller 網站](https://www.evanmiller.org/index.html)上的 [如何不執行 A/B 測試](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
 「獨特訪客」量度顯示已在指定期間造訪網站並接觸到測試的人數。這些人仍然為測試的一部分，應該計算在內。如果只想看一週內接觸到的人數，您可以建立已有活動曝光的訪客區段，並套用至報表。
 
 您可以將 Target 變數持續的時間縮短到一個工作階段，不過，對於不太可能在相同工作階段內發生轉換事件的測試，這通常會造成問題。
 
-## Analytics 中為何有時會在多個體驗中統計相同位訪客?  {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Analytics 中為何有時會在多個體驗中統計相同位訪客?   {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 下列清單說明 Analytics 中為何在多個體驗中可能會計入相同訪客的原因:
 
@@ -144,4 +144,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 您可以使用 [!DNL Adobe Analysis Workspace] 更進一步深入瞭解並以視覺化方式呈現資料，或發掘隱藏於表面下的分析。
 
-如需詳細資訊和範例，請開啟 Adobe Experience League 提供的 [Analytics 與 Target: Analysis 最佳實務教學課程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
