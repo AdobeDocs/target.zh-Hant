@@ -198,7 +198,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [預覽自動個人化測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [鎖定自動個人化選件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [使用特定體驗做為控制](c-activities/t-automated-personalization/experience-as-control.md)
+      + [選擇自動個人化或自動目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
       + [自動個人化常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [共用體驗 URL 以在 Target 外部預覽自動個人化](c-activities/t-automated-personalization/experience-preview.md)
       + [疑難排解自動個人化](c-activities/t-automated-personalization/ap-trouble.md)
