@@ -8,7 +8,7 @@ title: 活動 URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ## 指定不同的URL
 
-根據預設， [!UICONTROL Visual Experience Composer] 會開啓 [Target帳戶偏好設定中指定的頁面](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)。您可以在活動建立期間指定不同的頁面。
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 您可以在活動建立期間指定不同的頁面。
 
 若要在[!UICONTROL 可視化體驗撰寫器]開啟之後顯示不同頁面，請按一下 **[!UICONTROL 「設定」]** 齒輪圖示，然後選取 **[!UICONTROL 「頁面傳送」]**。在「活動 URL」欄位中輸入 URL。
 
