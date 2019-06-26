@@ -8,8 +8,8 @@ subtopic: 多變數測試
 title: 建立可在可視化體驗撰寫器中運作的輪播
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
