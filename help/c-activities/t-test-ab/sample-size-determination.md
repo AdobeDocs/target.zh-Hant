@@ -7,7 +7,7 @@ solution: Target
 title: A/B 測試該執行多久?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ Target 提供的工具可幫助確保您的活動有足夠的樣本大小，以�
 
 ## Adobe Target 樣本大小計算機 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-在設定A/B測試之前，請先存取Adobe Target [樣本大小計算機](https://docs.adobe.com/content/target-microsite/testcalculator.html)。
+Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
 ![Adobe Target 樣本大小計算機](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
