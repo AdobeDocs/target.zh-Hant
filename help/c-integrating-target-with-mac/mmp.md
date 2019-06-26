@@ -7,8 +7,8 @@ solution: Target
 title: Experience Cloud 受眾
 topic: Standard
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Experience Cloud Audiences 讓 Adobe Experience Cloud 解決方案得以傳達並分享關於網站訪客的資訊，讓每個解決方案均可使用相同資料。
 
-如需詳細資訊，請參閱 Experience Cloud 產品說明文件中的[對象](https://marketing.adobe.com/resources/help/zh_TW/mcloud/audience_library.html)。
+如需詳細資訊，請參閱 Experience Cloud 產品說明文件中的[對象](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)。
