@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隱私權與一般資料保護規範 (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Google Chrome SaveSite Cookie原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + 將資料傳入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -197,6 +198,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
       + [預覽自動個人化測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [鎖定自動個人化選件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [選擇自動個人化或自動目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
       + [自動個人化常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [共用體驗 URL 以在 Target 外部預覽自動個人化](c-activities/t-automated-personalization/experience-preview.md)
       + [疑難排解自動個人化](c-activities/t-automated-personalization/ap-trouble.md)
