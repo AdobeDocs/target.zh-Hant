@@ -7,7 +7,7 @@ solution: Target
 title: 網路
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 1. 按一下 **[!UICONTROL 「儲存」]**。
 
-下圖顯示使用AT&amp; T搭配 [!UICONTROL Mobile連線速度之訪客的對象]。
+The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
 
 ![網路目標](assets/target_network.png)
 
