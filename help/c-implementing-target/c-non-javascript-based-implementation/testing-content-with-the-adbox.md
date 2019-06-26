@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 為影像建立 Adbox
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,7 +41,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
    * 其中 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是 mbox 的預設內容。這必須為影像。
 
-      此網址必須經過 URL 編碼，且必須為絕對參照。您可以使用 [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) 快速將您的 URL 編碼。
+      此網址必須經過 URL 編碼，且必須為絕對參照。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
 
 1. 為每個替代影像建立[重新導向選件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
