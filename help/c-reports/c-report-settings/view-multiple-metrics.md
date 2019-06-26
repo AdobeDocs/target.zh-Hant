@@ -7,8 +7,8 @@ solution: Target
 title: 在報表中檢視多個量度
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
