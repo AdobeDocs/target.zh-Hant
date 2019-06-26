@@ -5,7 +5,7 @@ seo-title: 使用Adobe Target在多變數測試(MVT)中建立組合
 title: 建立組合
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 使用Adobe Target中的Visual Experience Composer(CMS)建立您要包含在多變數測試(MVT)中的選件。
 
-如需使用CMS建立和編輯選件的詳細資訊，請參閱 [Visual Experience Composer選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >在頁面上選取物件時，除了原先選取的元素，您可以按一下 **[!UICONTROL 「展開選取範圍」]** 以選取父元素。選取任何上層元素時，系統會自動選取該元素的所有下層。您可以展開選取範圍多次。
 >
->您也可以使用 [DOM路徑](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 來瀏覽元素。
+>You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
 
 ## 影像選件 {#section_A48333211DB149ED926AE467D0032914}
 
