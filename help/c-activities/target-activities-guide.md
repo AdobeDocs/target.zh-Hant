@@ -7,8 +7,8 @@ solution: Target
 title: Target 活動類型
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 >[!NOTE]
 >
->為獲得最佳體驗並與他人共用，請下載互動式 [Adobe Target 活動指南 PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf)。
+>For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
 
 ## 它有什麼作用? {#section_4ECAACC68723402EB3649033190E1BBC}
 
