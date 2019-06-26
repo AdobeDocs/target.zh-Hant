@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 使用重新導向程式
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    * 其中 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 是預設目的地。
 
-      此網址必須經過 URL 編碼，且必須為絕對參照。您可以使用 [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) 快速將您的 URL 編碼。
+      此網址必須經過 URL 編碼，且必須為絕對參照。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
@@ -97,7 +97,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 >[!NOTE]
 >
->最佳實務是使用 **每次瀏覽的分數** 參與量度來判斷成本值，相關說明請參閱[參與](https://marketing.adobe.com/resources/help/zh_TW/tnt/help/c_Capturing_Engagement.html)。
+>Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 將 `&mboxPageValue=-value` 新增至 URL 中。請注意負值。
 
@@ -108,13 +108,13 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### 傳遞每次點擊的收入{#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### 傳遞每次點擊的收入 {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 使用重新導向程式來傳遞每次點按收入。
 
 >[!NOTE]
 >
->最佳實務是使用 **每次瀏覽的分數** 參與量度來判斷收入值，相關說明請參閱[參與](https://marketing.adobe.com/resources/help/zh_TW/tnt/help/c_Capturing_Engagement.html)。
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 將 `&mboxPageValue=value` 新增至 URL 中。
 
