@@ -7,8 +7,8 @@ solution: Target
 title: 排除項目
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
