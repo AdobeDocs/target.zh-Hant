@@ -7,7 +7,7 @@ title: 行動應用程式可視化體驗撰寫器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -79,7 +79,7 @@ VEC 中執行的操作可在應用程式中即時查看，因此可在編寫時�
 
 偵測到新的應用程式版本時，會通知您已將應用程式版本新增至目標版本的清單。
 
-![新的應用程式通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+![新的應用程式通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
