@@ -7,8 +7,8 @@ solution: Target
 title: At.js 處理忽隱忽現情況的方式
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
