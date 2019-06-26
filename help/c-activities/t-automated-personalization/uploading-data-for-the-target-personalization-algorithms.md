@@ -6,8 +6,8 @@ solution: Target
 title: 上傳用於 Target 個人化演算法的資料
 topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
