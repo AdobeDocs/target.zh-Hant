@@ -8,7 +8,7 @@ title: 報表設定
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
    ![新預設集對話框](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. 查看「篩選條件與設定」區段中的資訊，以確保根據需要設定報表，然後指定 **[!UICONTROL 「預設集名稱」]**(最多 50 個字元)。
+1. 查看「篩選條件與設定」區段中的資訊，以確保根據需要設定報表，然後指定 **[!UICONTROL 「預設集名稱」]** (最多 50 個字元)。
 1. (條件性) 如果您希望將此作為預設/我的最愛報表檢視，請滑動 **[!UICONTROL 「將此項目設定為預設的預設集」]切換至「開啟」位置。**
 1. 按一下 **[!UICONTROL 「儲存」]**。
 
