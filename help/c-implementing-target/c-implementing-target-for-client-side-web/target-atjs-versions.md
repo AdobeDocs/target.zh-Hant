@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 版本詳細資料
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,17 +25,17 @@ source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 此版本包含下列功能和增強功能:
 
-* **Adobe加入支援**：Adobe Opt-In可簡化Adobe解決方案與許可管理平台的整合。如需Adobe選擇加入的詳細資訊，請參閱 [隱私權與通用資料保護規則(GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md))。
+* **Adobe加入支援**：Adobe Opt-In可簡化Adobe解決方案與許可管理平台的整合。For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 * **符合業界標準的CSP** 規範：at. js不再使用eval()來執行JavaScript。
 
 * **用戶端分析記錄**：讓客戶完全掌控他們要如何將分析資料傳送至Adobe Analytics，不論是在用戶端或伺服器端。
 
-   如需詳細資訊，請參閱 [在實施前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登入 *客戶端的Analytics*。
+   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **傳送通知**：允許開發人員在體驗呈現體驗時傳送通知，而非使用 `applyOffer()` 或 `applyOffers()`使用。
 
-   如需詳細資訊，請查看 [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **at. js大小減少了~24%**：at. js的大小減少了~24%。檔案大小較小可改善頁面載入效能，並減少頁面上下載. js的時間。
 
@@ -85,7 +85,7 @@ at.js 2.x 引進以下新函數:
 
 >[!NOTE]
 >
->如果您需要Adobe選擇加入 [通用資料保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)，您目前必須使用. js1.7.0或at. js2.1.0。
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
 
 ## at.js 版本 1.7.0 {#at-js-170}
 
@@ -97,7 +97,7 @@ at.js 1.7.0 提供 Adobe 選擇加入支援。「Adobe 選擇加入」是簡化 
 
 >[! 注意]
 >
->如果您需要Adobe Opt-in支援GDPR，您目前必須使用. js1.7.0或2.1.0。<br>如需所有版本的清單，請參閱 [. js版本詳細資訊](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js 版本 1.6.4 {#at-js-164}
 
