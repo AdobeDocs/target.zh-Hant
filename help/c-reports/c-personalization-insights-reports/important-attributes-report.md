@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 1. 選取所需的日期範圍。
 
-   不同於[!UICONTROL 「摘要」]報表 (績效報表)，[!UICONTROL 「個人化前瞻分析」](包括[!UICONTROL 「重要屬性」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
+   不同於[!UICONTROL 「摘要」]報表 (績效報表)，[!UICONTROL 「個人化前瞻分析」] (包括[!UICONTROL 「重要屬性」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
    ![](assets/personalization_insights_calendar_1.png)
 
