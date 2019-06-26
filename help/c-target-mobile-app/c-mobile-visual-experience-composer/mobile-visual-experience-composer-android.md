@@ -8,18 +8,18 @@ title: Android - 設定行動應用程式
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: e77022281fa03c8ff8bac111088bdfa4a600783f
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Android - 設定行動應用程式{#android-set-up-the-mobile-app}
 
-Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其Android行動應用程式上多次設定，並讓行銷人員使用行動應用程式CMS的功能。
+Adobe Target 行動應用程式可視化體驗撰寫器 (VEC) 可讓開發人員在其 Android 行動應用程式上執行一次性設定，並能讓行銷人員使用行動應用程式 VEC 的功能。
 
-如需啓用Adobe Target CMS擴充功能的詳細資訊，請參閱 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) 中的Adobe *Target- Visual Experience Composer*。
+如需有關啟用 Adobe Target VEC 擴充功能的詳細資訊，請參閱 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) 中的 *Adobe Target - 可視化體驗撰寫器*。
 
-## 加入Mobile SDK和Target程式庫 {#sdk-library}
+## 包含 Mobile SDK 和 Target 資料庫 {#sdk-library}
 
 1. 如需 SDK V5 初始化的相關資訊，請參閱[初始化 SDK 和設定追蹤](https://aep-sdks.gitbook.io/docs/getting-started/initialize-the-sdk)。
 1. 將下列行新增至「相依性」區段:
@@ -28,7 +28,7 @@ Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其Android行動
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
 
-1. 行動應用程式CMS需要將下列的人工水印納入為相依性 `build.gradle`。
+1. 行動應用程式 VEC 需要在 `build.gradle` 中包含下列成品以做為相依性。
 
    ```
     implementation 'com.google.code.gson:gson:2.8.2'
@@ -39,7 +39,7 @@ Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其Android行動
     implementation 'com.android.support:design:28.0.0'
    ```
 
-1. 在 `AndroidManifest.XML` 檔案中新增意圖篩選，為Mobile App CMS編寫選擇唯一的深層連結配置(例如) `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`：
+1. 在 `AndroidManifest.XML` 檔案中加入 Intent Filter，選擇唯一的深層連結配置以進行行動應用程式 VEC 編寫 (例如，`[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
 
    ```
    <activity 
@@ -95,17 +95,17 @@ Adobe Target Mobile App Visual Exposer(CMS)可讓開發人員在其Android行動
 
    1. `Application::OnCreate override`
    1. `AndroidManifest.XML`
-   1. `build.gradle` Android應用程式
+   1. Android 應用程式的 `build.gradle`
 
-## 在行動應用程式上設定Target檢視 {#views}
+## 在您的行動應用程式中設定目標檢視 {#views}
 
-Adobe Mobile SDK 公開一種新方法，供開發人員在每次呈現新檢視時觸發。作為開發人員，您必須確保檢視已命名唯一名稱，而且 `targetView` 呼叫位於 UI 主要執行緒上。在本節中，我們將先示範如何使用兩種不同的展示應用程式插入這些呼叫，並討論如何正確插入適用於任何Android應用程式的Target檢視API呼叫。
+Adobe Mobile SDK 公開一種新方法，供開發人員在每次呈現新檢視時觸發。作為開發人員，您必須確保檢視已命名唯一名稱，而且 `targetView` 呼叫位於 UI 主要執行緒上。在本節中，我們會先示範如何使用兩個不同的示範應用程式插入這些呼叫，並討論如何為任何 Android 應用程式正確插入目標檢視 API 呼叫的一般準則。
 
 >[!NOTE]
 >
->如果未觸發， `targetView function` 則CMS擴充功能會嘗試從Android活動中識別「檢視」。對於沒有動態檢視的應用程式，這可以是選用步驟。
+>如果未觸發 `targetView function`，VEC 擴充功能會嘗試從 Android 活動中識別檢視。若為沒有動態檢視的應用程式，此步驟可為選用。
 
-可以使用函數呼叫觸發「目標檢視」。任何定位參數可選擇性地隨檢視提供。
+可透過函數呼叫觸發目標檢視。任何鎖定目標的參數均可選擇在此檢視中提供。
 
 ```
 public class TargetVEC { 
@@ -131,12 +131,12 @@ public class TargetVEC {
 }
 ```
 
-我們第一個專案範例是簡單的匯流排排程應用程式的模型。若要設定此應用程式以用於Mobile App CMS：
+我們第一個專案範例是簡單的匯流排排程應用程式的模型。若要設定此應用程式以用於行動應用程式 VEC:
 
 1. 在 Android Studio 中開啟專案，該專案包含封裝子目錄 `build.gradle` 中的 `BusBooking` 檔案。
 1. 在 `DemoApplication::OnCreate` 方法中，新增 `TargetVEC.registerExtension()` 以註冊 Target VEC 擴充功能以及其他擴充功能。
 1. 建立並執行應用程式
-1. 若要進入Mobile App CMS編寫模式，請使用 [!DNL sdkbetabus://com.adobe.sdkbetabus] 作為其URL配置的格式，然後開啓裝置上產生的深層連結(請參閱下面的指示)。
+1. 若要進入行動應用程式 VEC 編寫模式，請使用 [!DNL sdkbetabus://com.adobe.sdkbetabus] 做為其 URL 配置，然後在裝置上開啟一般的深層連結 (請參閱以下指示)。
 
 透過這個簡單的匯流排預訂應用程式，我們使用與活動生命週期相關聯之所有自動產生的「目標檢視」。此外，我們藉由在點擊隱藏按鈕 (螢幕上的商品影像) 時，在動態新增的自訂檢視元素上，呼叫「目標檢視 API」來示範 API 的靈活性。這個新「目標檢視」的實作方法是透過在 `OfferDetailsActivity.java:40` 的程式碼中插入 API 呼叫。點擊隱藏按鈕時，會觸發名為 &quot;SURPRISE_VIEW&quot; 的新「目標檢視」事件，讓行銷人員可以更精確地鎖定應用程式體驗的變更作為目標。
 
@@ -218,9 +218,9 @@ public class OfferDetailsActivity extends AppCompatActivity {
 }
 ```
 
-## 設定描述檔參數和其他全域參數 {#parameters}
+## 設定設定檔參數和其他全域參數 {#parameters}
 
-我們現在支援設定將傳入每個API呼叫中的全域參數，以及將mbox/檢視參數傳遞至對應檢視。
+現在，我們支援設定會在每個和所有 API 呼叫中傳遞的全域參數，並支援將 mbox/檢視參數傳遞至相應的檢視。
 
 參數包括:
 
@@ -247,7 +247,7 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
 
 **傳遞下一個檢視觸發的參數:**
 
-我們已根據預設提供一些自動檢視，例如「`AUTO_<activity|fragment name>`應用程式中的每個活動和片段」。若要傳遞這些參數，您可以呼叫下列 API:
+我們提供了一些根據預設建立的自動檢視，例如應用程式中存在之每個活動和片段的「`AUTO_<activity|fragment name>`」若要傳遞這些參數，您可以呼叫下列 API:
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
@@ -263,9 +263,9 @@ TargetVEC.setRequestParameters(new TargetParameters.Builder()
         .build());
 ```
 
-**傳遞參數至特定檢視：**
+**將參數傳遞至特定檢視:**
 
-We have seen the API trigger Views via `TargetVEC.targetView("view_name")`. 您也可以傳遞專屬於特定檢視的參數，如下所示:
+我們已經看過 API 透過 `TargetVEC.targetView("view_name")` 傳遞至觸發檢視。您也可以傳遞專屬於特定檢視的參數，如下所示:
 
 ```
 Map<String, String> profileParams = new HashMap<>(); 
@@ -277,7 +277,7 @@ TargetVEC.targetView("SURPRISE_VIEW",
                 .build());
 ```
 
-## 明確呼叫預先擷取API {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
+## 明確地呼叫預先擷取 API {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
 
 在某些情況下，您可能會想再次呼叫預先擷取 API，以重新整理快取中儲存的選件。下列已公開的 API 為:
 
@@ -305,7 +305,7 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
-## 教學課程：在Mobile Android應用程式中實作Experience Cloud {#tutorial}
+## Tutorial: Implement the Experience Cloud in Mobile Android Applications {#tutorial}
 
 * [在Mobile Android應用程式中實作Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
