@@ -8,8 +8,8 @@ subtopic: 代碼編輯器
 title: 體驗範本
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,13 +28,13 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Banner Carousel{#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Banner Carousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 [Banner Carousel 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。此輪播不會透過影像自動旋轉，可按一下左箭頭和右箭頭直接進行互動。
 
 ![](assets/exp-template-banner-carousel.png)
 
-## Banner Countdown{#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Banner Countdown {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 [Banner Countdown 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)為中央有倒數計時的大型橫幅，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
@@ -42,11 +42,11 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## Button Builder {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
-[Button Builder 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)為帶有動作呼叫文字的小按鈕。。可設定此按鈕，並將其放在頁面上任何地方以新增動作呼叫，或以更多可設定替代項取代現有按鈕。
+[Button Builder 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)為帶有動作呼叫文字的小按鈕。可設定此按鈕，並將其放在頁面上任何地方以新增動作呼叫，或以更多可設定替代項取代現有按鈕。
 
 ![](assets/exp-template-button-builder.png)
 
-## Lightbox with Countdown{#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox with Countdown {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [Lightbox with Countdown 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)為中央有倒數計時的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
