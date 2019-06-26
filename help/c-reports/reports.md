@@ -9,7 +9,7 @@ title: 報表
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 | 活動類型 | 詳細資料 |
 |--- |--- |
 | [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | 若要瞭解提升度與可信度，以及 [!DNL Target] 中使用的統計方法，請參閱[計劃 A/B 測試](/help/c-activities/t-test-ab/sample-size-determination.md)。 |
-| [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md)(AT) | AT 活動之[!UICONTROL 摘要]報表的相關資訊。如需詳細資訊，請參閱[自動鎖定目標摘要報表](/help/c-reports/auto-target-summary-report.md)。<br>AT 和 AP 活動之兩個[!UICONTROL 「個人化前瞻分析」]報表的相關資訊:[!UICONTROL 「自動化區段」]報表和[!UICONTROL 「重要屬性」]報表。如需詳細資訊，請參閱[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
+| [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) (AT) | AT 活動之[!UICONTROL 摘要]報表的相關資訊。如需詳細資訊，請參閱[自動鎖定目標摘要報表](/help/c-reports/auto-target-summary-report.md)。<br>AT 和 AP 活動之兩個[!UICONTROL 「個人化前瞻分析」]報表的相關資訊:[!UICONTROL 「自動化區段」]報表和[!UICONTROL 「重要屬性」]報表。如需詳細資訊，請參閱[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [](/help/c-activities/t-automated-personalization/automated-personalization.md)自動個人化 (AP) | AP 活動之兩個[!UICONTROL 「自動個人化摘要」]報表的相關資訊:[!UICONTROL 「活動層級」]報表和[!UICONTROL 「選件層級」]報表。如需詳細資訊，請參閱[自動個人化摘要報表](/help/c-reports/reports-ap.md)。<br>AT 和 AP 活動之兩個[!UICONTROL 「個人化前瞻分析」]報表的相關資訊:[!UICONTROL 「自動化區段」]報表和[!UICONTROL 「重要屬性」]報表。如需詳細資訊，請參閱[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
-| [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md)(MVT) | MVT 活動之兩個報表的相關資訊:[!UICONTROL 「體驗效能」]報表和[!UICONTROL 「位置貢獻」]報表。如需詳細資訊，請參閱[體驗效能報表](/help/c-reports/experience-performance-report.md) (MVT) 和[位置貢獻報表](/help/c-reports/location-contribution-report.md) (MVT)。 |
+| [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | MVT 活動之兩個報表的相關資訊:[!UICONTROL 「體驗效能」]報表和[!UICONTROL 「位置貢獻」]報表。如需詳細資訊，請參閱[體驗效能報表](/help/c-reports/experience-performance-report.md) (MVT) 和[位置貢獻報表](/help/c-reports/location-contribution-report.md) (MVT)。 |
 | [Adobe Analytics 作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md) | 使用 [!DNL Adobe Analytics] 做為 [!DNL Target] 之報表來源的相關資訊。A4T 可讓您存取 [!DNL Target] 活動的 [!DNL Analytics] 報表。如需詳細資訊，請參閱 [Analytics for Target (A4T) 報表](/help/c-reports/analytics-for-target-a4t-reporting.md)。 |
 
 ## 顯示報表 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
@@ -42,7 +42,7 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
    例如，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「A/B 測試」]和[!UICONTROL 「體驗鎖定目標」]，並從[!UICONTROL 「狀態」]下拉式清單中選取[!UICONTROL 「上線」]，即可只顯示處於使用中狀態的 A/B 測試和「體驗鎖定目標」活動。
 
-   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型:A/B測試與體驗定位。請注意，預設會選取三種A/B測試(手動、 [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和 [自動Target](/help/c-activities/auto-target-to-optimize.md))類型。您可以視需要取消選取一或多個類型。
+   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型:A/B測試與體驗定位。Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. 您可以視需要取消選取一或多個類型。
 
    ![依類型篩選報表](/help/c-reports/assets/report_filters-new.png)
 
