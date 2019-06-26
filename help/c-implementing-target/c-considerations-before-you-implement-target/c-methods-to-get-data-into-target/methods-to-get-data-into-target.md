@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 將資料傳入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   除此之外的字元都必須經過 URL 編碼。此標準指定了下列格式 ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示:
+   除此之外的字元都必須經過 URL 編碼。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，�
 
 ### 訓練影片:
 
-* [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [在 Adobe Target 中實作資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 大量設定檔更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -298,7 +298,7 @@ CRM 或其他內部系統中儲存關於訪客的實用資料 (您希望持續�
 
 ### 代碼範例
 
-支援 GET 和 POST。`https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+支援 GET 和 POST。 `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### 相關資訊的連結
 
@@ -336,8 +336,8 @@ Target Standard 客戶可使用 5 個屬性，Target Premium 客戶可使用 200
 
 ### 代碼範例
 
-[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_crs_usecase.html)提供詳細資訊。
+如需詳細資料，請參閱[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
 
 ### 相關資訊的連結
 
-[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_crs_usecase.html)
+[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
