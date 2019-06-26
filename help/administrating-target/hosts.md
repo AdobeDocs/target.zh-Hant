@@ -7,8 +7,8 @@ solution: Target
 title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -86,11 +86,11 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 
 若要搜尋[!UICONTROL 「主機」]清單，請在「搜尋」方塊中輸入搜尋詞彙。
 
-## 選取多個主機{#section_EF3B458475184B7EA997C3559714397C}
+## 選取多個主機 {#section_EF3B458475184B7EA997C3559714397C}
 
 若要選取多個主機，請選取所需主機的[!UICONTROL 「名稱」]欄旁邊的核取方塊。然後，您可以移動或刪除全部已選取的主機。
 
-## 建立環境{#section_32097D0993724DF3A202D164D3F18674}
+## 建立環境 {#section_32097D0993724DF3A202D164D3F18674}
 
 1. 從[!UICONTROL 「主機」]清單，按一下 **[!UICONTROL 「環境」]索引標籤。**
 1. 按一下 **[!UICONTROL 「建立環境」]**。
