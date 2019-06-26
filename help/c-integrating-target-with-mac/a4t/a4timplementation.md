@@ -8,7 +8,7 @@ title: Analytics for Target 實作
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ VisitorAPI. js在at. js或mbox. js之前是很重要的。如果您要更新現�
 
 從實施觀點設定Target與Analytics整合的預設設定是使用從頁面傳遞的SDID，將Target與Analytics請求自動整合在後端。
 
-但是，如果您想要進一步控制如何將Target相關分析資料傳送至Analytics以進行報告，而您不想選擇加入「Target」和「Analytics」自動將分析資料透過SDID戳記，則您可以透過window. targetGlobalSettings設定 **AnalyticcoDrag=** **client_ side**。注意：2.1以下的任何版本不支援此方法。
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 注意：2.1以下的任何版本不支援此方法。
 
 例如:
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-此設定具有全域效果，這表示at. js的每個呼叫都有 **AnalyticleGrag：「client_ side」** 在Target請求內傳送，並會針對每個請求傳回分析裝載。設定此項目時，傳回的裝載格式如下所示：
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. 設定此項目時，傳回的裝載格式如下所示：
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-然後可透過 [「資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)」將裝載轉送至Analytics。
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-如果不需要全域設定，且偏好較強的方法比較好，則您可以使用at. js函數 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 來透過 **AnalyticCurging傳入此函數：「client_ side」**。只有此呼叫才會傳回分析裝載，而Target後端則不會轉送付費至Analytics。透過採用此方法，每個at. js Target請求都不會預設傳回負載，但只有在需要和指定時才會傳回。
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. 只有此呼叫才會傳回分析裝載，而Target後端則不會轉送付費至Analytics。透過採用此方法，每個at. js Target請求都不會預設傳回負載，但只有在需要和指定時才會傳回。
 
 例如:
 
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 }
 ```
 
-然後可透過 [「資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)」將裝載轉送至Analytics。
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 步驟8: 驗證實作 {#step8}
 
