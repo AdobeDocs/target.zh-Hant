@@ -7,8 +7,8 @@ solution: Target
 title: 使用程式庫中的內容
 topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,8 +41,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 此影片包括關於管理內容的資訊。(4:56)
 
-* [Experience Cloud 資產資料庫](https://marketing.adobe.com/resources/help/zh_TW/mcloud/creative_cloud.html) 與 Target 內容資料庫之間的連線
+* [Experience Cloud 資產資料庫](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=chi_hant)
