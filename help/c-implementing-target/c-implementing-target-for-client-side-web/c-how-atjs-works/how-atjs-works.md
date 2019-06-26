@@ -7,8 +7,8 @@ solution: Target
 title: at.js 如何運作
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -81,6 +81,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hant)
 
-如需詳細資訊，請參閱[瞭解 at.js 2 的運作方式](https://helpx.adobe.com/tw/target/kt/using/atjs20-diagram-technical-video-understand.html)。
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
