@@ -6,8 +6,8 @@ seo-title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 solution: Target
 title: 可視化體驗撰寫器 Helper 擴充功能
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ Chrome 的 VEC Helper 瀏覽器擴充功能解決了客戶現依賴 [!DNL Target
 
 ## 取得並安裝 VEC Helper 瀏覽器擴充功能
 
-1. 導覽至 [Chrome 線上應用程式商店的 Adobe Target VEC Helper 瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)。
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. 按一下[!UICONTROL 「新增至 Chrome &gt; 新增擴充功能」]。
 1. 若要使用擴充功能，請在 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)中時，按一下 Chrome 瀏覽器工具列上的 VEC Helper 瀏覽器擴充功能圖示 (![VEC Helper 圖示](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
 
