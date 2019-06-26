@@ -7,8 +7,8 @@ solution: Target
 title: 在您的瀏覽器中啟用混合的內容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >
 >允許混合內容只會影響 VEC，不影響已上線的網站。
 
-如需詳細資訊，請參閱 *Mozilla 開發人員網路* (MDN) 上的[混合內容](https://developer.mozilla.org/zh-TW/docs/Web/Security/Mixed_content)。
+如需詳細資訊，請參閱 *Mozilla Developer Network* (MDN) 網站上的[混合內容](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)。
 
 ## 在 Firefox 中啟用混合的內容 {#task_5448763B8DC941FD80F84041AEF0A14D}
 
