@@ -8,7 +8,7 @@ title: 在 Target 中建立對象
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 您可以將這兩個布林運算子混合來建立複雜的規則; 不過，相同規則層級的運算子必須相符。使用者介面會自動套用至正確的運算子。
 
-例如，下列規則針對在Windows電腦上使用Chrome *或* Firefox的訪客：
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![建立觀眾](assets/audience_create.png)
 
 >[!NOTE]
 >
->請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用Chrome *和* Firefox瀏覽頁面。
+>請小心，避免建立規則來排除所有可能的對象成員。For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## 建立新對象
 
