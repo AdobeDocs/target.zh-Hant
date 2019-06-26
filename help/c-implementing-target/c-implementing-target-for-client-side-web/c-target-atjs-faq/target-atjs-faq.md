@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 常見問題
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 如上圖所示，使用 mbox.js 時，頁面內容要等到 [!DNL Target] 呼叫完成之後才會開始載入。使用 at.js 時，頁面內容在 [!DNL Target] 呼叫起始時就開始載入，不會等到呼叫完成。
 
-## 頁面載入時間對at. js和mbox. js有何影響？ {#page-load}
+## What is the impact of at.js and mbox.js on page-load time? {#page-load}
 
 許多客戶和顧問都想要知道 [!DNL at.js] 和 [!DNL mbox.js] 對頁面載入時間的影響，尤其是在比較新使用者和再度訪問的使用者時。可惜，有關 [!DNL at.js] 或 [!DNL mbox.js] 如何影響頁面載入時間，由於每一個客戶的實施不同，很難測量和提出具體數字。
 
@@ -90,7 +90,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 若要非同步載入 at.js:
 
-* 建議的方法是透過標籤管理程式，例如Adobe Launch或Adobe Dynamic Tag Manager(DTM)。如需 [詳細資訊，](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 請參閱使用Launch [](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) 教學課程實施Experience Cloud中實作Experience Cloud的Adobe Target課程。
+* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * 您也可以在載入 at.js 的指令碼標記中新增 async 屬性，就能非同步載入 at.js。您應該使用如下的指令碼:
 
    ```
@@ -108,11 +108,11 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 非同步載入 at.js 可有效避免讓瀏覽器無法呈現；不過，此技術可能導致網頁上忽隱忽現。
 
-您可以使用隱藏頁面(或指定部分)的預先隱藏程式碼片段，然後在at at. js和全域請求已完全載入後顯現，以避免閃爍。您必須在載入 at.js 之前新增此程式碼片段。
+您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形， 它會隱藏頁面 (或指定部分)，然後在 at.js 和全域要求完全載入後顯示內容。您必須在載入 at.js 之前新增此程式碼片段。
 
-如果您要透過非同步啓動實作部署. js，請記得在「啓動內嵌程式碼」的網站中，如「在網站上 [新增Target預先隱藏Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 」區段中所述，在使用Launch教學課程 [](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)的網站中新增直接隱藏片段區段。
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
-如果您要透過同步DTM實施部署. js，則可透過頁面頂端觸發的「頁面載入」規則新增隱藏片段。
+如果您是透過同步 DTM 實作部署 at.js，可透過頁面頂端觸發的頁面載入規則新增預先隱藏的程式碼片段。
 
 如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
 
@@ -152,11 +152,11 @@ at.js 目前使用部分的 jQuery，因此，您在 at.js 頂端會看到 MIT �
 
 ## 我可以在單頁應用程式中使用 Target 可視化體驗撰寫器嗎? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-可以，如果您使用的是. js2.x，則可以使用CMS for您的SPA。如需詳細資訊，請參閱 [「單一頁面(SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」。
+可以，若您使用 at.js 2.x，便可針對 SPA 使用 VEC。如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。
 
 ## 我可以對 at.js 實施使用 Adobe Experience Cloud Debugger 嗎? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
-是. 您也可以使用 mboxTrace 以進行偵錯，或使用瀏覽器的開發人員工具以檢查網路請求，篩選「mbox」以隔離 mbox 呼叫。
+是.您也可以使用 mboxTrace 以進行偵錯，或使用瀏覽器的開發人員工具以檢查網路請求，篩選「mbox」以隔離 mbox 呼叫。
 
 ## 對於 at.js，mbox 名稱中可以使用特殊字元嗎? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
@@ -176,7 +176,7 @@ at.js 目前使用部分的 jQuery，因此，您在 at.js 頂端會看到 MIT �
 >
 >如果您使用 at.js 1.2 版或更新版本，則不需要下列範例。
 
-視您使用 [TargetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)的方式而定，在下載at. js後，您可能需要對代碼進行額外的修改。例如，假設您的 [!DNL Target] 實施在各種網站上需要稍微不同的設定，且您無法使用自訂 JavaScript 來動態定義這些設定，請在下載檔案之後和上傳至個別網站之前，手動完成這些自訂。
+視您使用 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 的方式而定，在下載 at.js 之前，您可能需要另外修改程式碼。例如，假設您的 [!DNL Target] 實施在各種網站上需要稍微不同的設定，且您無法使用自訂 JavaScript 來動態定義這些設定，請在下載檔案之後和上傳至個別網站之前，手動完成這些自訂。
 
 下列範例可讓您使用 `targetGlobalSettings()` at.js 函數，插入程式碼片段來支援 IP 位址:
 
@@ -198,7 +198,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 }
 ```
 
-## 為何會看到警告訊息，例如「動作缺少選取器」?  {#section_C36BED5B16634361A1BA46FCB731489D}
+## 為何會看到警告訊息，例如「動作缺少選取器」?   {#section_C36BED5B16634361A1BA46FCB731489D}
 
 這些訊息與 [!DNL at.js] 功能無關。[!DNL at.js] 程式庫會嘗試報告 DOM 中找不到的任何事物。
 
@@ -222,7 +222,7 @@ Secure 只有在頁面是經由 HTTPS 來載入時，能透過 JavaScript 設定
 
 為確保 Target 能正確追蹤使用者，且由於 Cookie 都是在用戶端產生，Target 不會使用這兩種旗標。
 
-## at.js 觸發網路要求的頻率為何?  {#section_57C5235DF7694AF093A845D73EABADFD}
+## at.js 觸發網路要求的頻率為何?   {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target 會在伺服器端執行其所有決策。這表示 at.js 會在每次頁面重新載入或叫用 at.js 公用 API 時，觸發網路要求。
 
@@ -230,7 +230,7 @@ Adobe Target 會在伺服器端執行其所有決策。這表示 at.js 會在每
 
 at.js 會試圖長時間避免預先隱藏 HTML BODY 或其他 DOM 元素，但這取決於網路條件或活動設定。at.js 提供的[設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)可用於自訂隱藏 CSS 樣式的 BODY 設定，如此一來您就可以僅預先隱藏頁面的某些部份，而不用隱藏整個 HTML BODY。期望是那些部分包含了必須「個人化」的 DOM 元素。
 
-## 在使用者符合活動資格的一般情況下，事件的序列為何?  {#section_56E6F448E901403FB77DF02F44C44452}
+## 在使用者符合活動資格的一般情況下，事件的序列為何?   {#section_56E6F448E901403FB77DF02F44C44452}
 
 由於 at.js 要求為非同步 `XMLHttpRequest`，因此我們會執行下列步驟:
 
@@ -250,11 +250,11 @@ at.js 會試圖長時間避免預先隱藏 HTML BODY 或其他 DOM 元素，但�
 
 at.js 不會讓頁面無法呈現。使用者可能會注意到頁面上有一些空白區域，其代表 Target 將自訂的元素。若要套用的內容並未包含許多遠端資產 (例如 SCRIPT 或 IMG)，則所有內容皆應快速呈現。
 
-## 完全快取的頁面會如何影響上述情況? 其餘頁面內容載入後，活動內容是否更有可能明顯可見?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## 完全快取的頁面會如何影響上述情況? 其餘頁面內容載入後，活動內容是否更有可能明顯可見?   {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 若頁面快取在靠近使用者位置的 CDN 上，但不靠近 Target Edge，則使用者可能會看到一些延遲。Target Edge 在全球均勻分佈，因此大多數情況下這都不會是問題。
 
-## 是否可以顯示主圖影像，然後在短暫的延遲後進行更換?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## 是否可以顯示主圖影像，然後在短暫的延遲後進行更換?   {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 考量到下列情況:
 
@@ -264,12 +264,12 @@ Target 逾時為 5 秒。使用者載入具有自訂主圖影像活動的頁面�
 
 起初，主圖影像 DOM 元素會隱藏。收到來自 Target 的回應後，at.js 會套用 DOM 變更 (例如取代 IMG 和顯示自訂的主圖影像)。
 
-## at. js需要哪些HTML doctype？
+## at.js 需要什麼 HTML doctype?
 
-at. js需要HTML doctype。
+at.js 需要 HTML 5 doctype。
 
-此語法為：
+此語法為:
 
 `<!DOCTYPE html>`
 
-HTML doctype可確保頁面載入標準模式。載入quirts模式時，會停用at. js的某些JS API。在quirks模式中停用. js。
+HTML 5 doctype 可確保頁面以標準模式載入。使用怪異模式載入時，會停用 at.js 所根據的某些 JS API。在怪異模式下，Target 會停用 at.js。
