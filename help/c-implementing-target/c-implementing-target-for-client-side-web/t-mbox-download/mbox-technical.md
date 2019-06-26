@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: Mbox.js 的作用
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
