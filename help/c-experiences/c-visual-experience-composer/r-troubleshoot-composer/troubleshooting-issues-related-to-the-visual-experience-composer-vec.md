@@ -6,8 +6,8 @@ seo-title: 疑難排解可視化體驗撰寫器的相關問題
 solution: Target
 title: 疑難排解可視化體驗撰寫器的相關問題
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 顯示在某些情況下，有時候會發生在可視化體驗撰寫器 (VEC) 中的問題。
 
-## 在可視化體驗撰寫器中開啟我的網站時，Target 資料庫未載入。(僅限 VEC){#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 在可視化體驗撰寫器中開啟我的網站時，Target 資料庫未載入。(僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可視化體驗撰寫器中開啟網站時，Target 會新增兩個參數 (`mboxEdit=1` 和 `mboxDisable=1`)。
 
 如果您的網站 (特別是單頁應用程式) 在從一個頁面導覽至另一個頁面時 (而沒有重新載入頁面)，修剪我們的參數或實際上將參數移除，Target 功能會中斷，並且 Target 資料庫不會載入。若要避免此問題，請確保您不會修剪或移除這兩個參數。
 
-## 我的頁面不會在 EEC 中開啟，或載入緩慢。活動或體驗在 VEC 中載入緩慢。(僅限 VEC){#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 我的頁面不會在 EEC 中開啟，或載入緩慢。活動或體驗在 VEC 中載入緩慢。(僅限 VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 有數個問題可能會影響 Target 體驗撰寫器中的頁面效能。一些常見問題包括:
 
@@ -107,7 +107,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 設定擴充功能之後，開啟 Target。您的頁面現在應該會在可視化體驗撰寫器中載入，即便已停用增強體驗撰寫器。
 
-## 我的頁面未在 VEC 中顯示 (僅限 VEC){#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## 我的頁面未在 VEC 中顯示 (僅限 VEC) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * 瀏覽器不受支援。
 * 瀏覽器正在封鎖安全網站上不安全的頁面。
@@ -116,12 +116,12 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 您輸入了無效的 URL。
 * 您尚未在您的帳戶設定頁面中輸入預設 URL。
 
-## 啟動 VEC 活動的 URL 時，主控台顯示下列錯誤訊息:「未捕捉的參考錯誤: _AT 未定義。」(僅限 VEC){#section_BB5B9B629AC4452496A82943EFF72B85}
+## 啟動 VEC 活動的 URL 時，主控台顯示下列錯誤訊息:「未捕捉的參考錯誤: _AT 未定義。」(僅限 VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
 如果您嘗試傳送可視化體驗撰寫器 (VEC) 促銷活動，並且尚未更新從 Target 使用者介面下載的 mbox.js，同時將[!UICONTROL 「支援可視化體驗撰寫器活動」]選項啟用 ([!UICONTROL 「設定」]&gt;[!UICONTROL 「實施」]&gt;[!UICONTROL 「mbox.js」]&gt;[!UICONTROL 「編輯 mbox.js 設定」])，即會發生此錯誤。
 
 請確保此設定已啟用，然後在您的網站上下載和更新 mbox.js。
 
-## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC){#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 使用瀏覽模式時，如果您存取的 URL 沒有 target.js 或包含 frame-buster 標頭，可視化體驗撰寫器似乎損毀。由於瀏覽器的安全性考量，Target 無法存取您所導覽的 URL。
