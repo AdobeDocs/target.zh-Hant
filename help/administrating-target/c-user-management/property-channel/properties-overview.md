@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,11 +37,11 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 針對在 Adobe Admin Console for Enterprise 中執行的這些工作，請遵循這些步驟來存取主控台:
 
-1. 如果您尚未登入，請前往 [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt;使用您的Adobe ID登入。
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; sign in using your Adobe ID, if you have not already logged in.
 
    或
 
-   如果您已登入Experience Cloud，請前往 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然後按一下頂端導覽列中的 [!UICONTROL 應用程式] 圖示&gt;按一下 **[!UICONTROL 右邊的「管理員]** 」。
+   如果您已登入 Experience Cloud，請前往 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然後按一下頂端導覽列中的[!UICONTROL 應用程式]圖示 &gt; 按一下右側的 **[!UICONTROL 管理]**。
 
 1. (條件式) 如果您可以存取一個以上組織的 [!DNL Admin Console for Enterprise]，請按一下右上角或上方導覽列中的使用者頭像，然後選取需要的組織。
 
@@ -49,7 +49,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 開始使用新的[!UICONTROL 「屬性」]功能時，所有使用者管理必須在 [!DNL Adobe Admin Console for Enterprise] 中執行。不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
 
-1. [在「管理控制台](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)」中，按一下頁面頂端的「 **[!UICONTROL 使用者]** 」索引標籤， **[!UICONTROL 新增使用者]** 以建立新使用者或編輯現有使用者。
+1. [在 Admin Console 中](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下頁面頂端的 **[!UICONTROL 使用者]** 索引標籤 &gt; **[!UICONTROL 新增使用者]**，以建立新使用者或編輯現有的使用者。
 1. 遵循*《企業使用者指南》*的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示。
 
 ## 步驟 2.建立工作區 (產品設定檔) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -58,7 +58,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 組織可以透過在 Admin Console 內建立新工作區，指派 Target 屬性至這些工作區，並將使用者從「預設工作區」組態移動至這些較新、限制存取的工作區，藉此開始利用企業權限功能。
 
-客戶可以使用這些工作區，依地區、業務單位、網站區域或透過任何其他選擇的方式來分開存取不同團隊。
+客戶可以使用這些工作區來依地區、事業單位、網站區段或透過其選擇的任何其他方法來對不同團隊區分存取權。
 
 使用者可以屬於多個工作區並且甚至可具有每個工作區內不同的角色。
 
@@ -83,11 +83,11 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於設定工作區的詳細資訊。
 
-### 取得您的工作區ID {#workspace-id}
+### Obtain your Workspace ID {#workspace-id}
 
 您必須傳遞 Workspace ID，才能在 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中運用企業權限。
 
-1. 在 [Adobe Admin Console](https://adminconsole.adobe.com) 中，按一下[!UICONTROL 產品]標籤，然後按一下左側功能表中的產品，以顯示 PLC(workspace) 清單。
+1. 在 [Adobe Admin Console](https://adminconsole.adobe.com)/tw 中，按一下[!UICONTROL 產品]標籤，然後按一下左側功能表中的產品，以顯示 PLC(workspace) 清單。
 1. 按一下想要的 PLC(workspace)，然後在 URL 中找出「設定檔」ID，如下所示。
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -114,7 +114,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
    填寫欄位: 
 
-   * **頻道：** 選擇屬性的所需頻道：網頁、行動應用程式、電子郵件或其他/API(例如機上盒或PlayStation主控台)。
+   * **管道:** 選取屬性需要的管道: Web、行動應用程式、電子郵件或其他/API (例如電視盒或 PlayStation 主控台)。
    * **名稱 (必要):** 指定此屬性的描述性名稱。
    * **說明:** 指定此屬性的可選說明。
 
@@ -149,11 +149,11 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
    更新您的 [!DNL Target] 實作有數個方式。例如，下列方法可以用於網頁:
 
-   * **透過「全域參數in[!DNL Adobe Launch]」：**
+   * **透過[!DNL Adobe Launch]中的「全域參數」:**
 
-      如需詳細資訊，請參閱 [Adobe Experience](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) Platform *Launch* 說明文件中的新增全域Mbox Params。
+      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **透過以下項目中的「全域參數」[!DNL Dynamic Tag Management]：**
+   * **透過[!DNL Dynamic Tag Management]中的「全域參數」:**
 
       ![](assets/property_token_2.png)
 
@@ -179,12 +179,12 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
    >[!NOTE]
    >
-   >「屬性與權限」功能僅適用於 [Target Standard/Premium](/help/c-intro/intro.md#premium) 。您無法對[!DNL Target Classic] 使用此功能。
+   >屬性和權限功能僅適用於 [Target Standard/Premium](/help/c-intro/intro.md#premium)。您無法對[!DNL Target Classic] 使用此功能。
 
 1. 按一下所需設定檔的名稱。
 1. 按一下 **[!UICONTROL 「使用者」]**。
 
-   「 [!UICONTROL 使用者] 」標籤會顯示該工作區中的所有使用者。
+   [!UICONTROL 使用者]索引標籤會顯示該工作區中的所有使用者。
 
    ![設定使用者](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
