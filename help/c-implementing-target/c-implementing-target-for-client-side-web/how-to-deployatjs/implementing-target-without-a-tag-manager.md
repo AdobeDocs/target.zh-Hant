@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 不使用標籤管理程式實作 Target
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,12 +58,12 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 |--- |--- |
 | 用戶端代碼 | 用戶端代碼是使用 Target API 時通常需要的用戶端專用字元序列。<br>無法變更此設定。 |
 | IMS 組織 ID | 此 ID 會將您的實施連結至 [!DNL Adobe Experience Cloud] 帳戶。<br>無法變更此設定。 |
-| 設定檔存留期 | 此設定會決定訪客設定檔儲存多久。依預設，訪客設定檔會儲存兩週。最多可增加至 90 天。<br>若要變更「設定檔存留期」設定，請聯絡[客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。 |
+| 設定檔存留期 | 此設定會決定訪客設定檔儲存多久。依預設，訪客設定檔會儲存兩週。最多可增加至 90 天。<br>若要變更「設定檔存留期」設定，請聯絡[客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)。 |
 | X-Domain | 判斷瀏覽器設定 Cookie 的位置，是設定在您的專屬網域中 (第一方 Cookie)，還是在 Target 的網域中，還是兩者都有。<br>變更此設定會同時影響 at.js 和 mbox.js。 |
 | 逾時 | 如果 [!DNL Target] 在已定義的期間內沒有回應內容，伺服器呼叫會逾時，並顯示預設內容。在訪客工作階段期間會繼續嘗試其他呼叫。預設值為 5 秒。<br>變更此設定會同時影響 at.js 和 mbox.js。<br>at.js 程式庫會使用 `XMLHttpRequest` 中的逾時設定。逾時是在觸發請求時開始計時，而於 Target 從伺服器收到回應時停止。如需詳細資訊，請參閱 Mozilla 開發人員網路上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在收到回應之前就發生指定的逾時，則會顯示預設內容，而訪客可能算為活動的參與者，因為所有資料收集都發生在 [!DNL Target] 邊緣。如果請求到達 [!DNL Target] 邊緣，訪客即納入計算。<br>設定逾時設定時，請考量下列事項:<ul><li>如果值太低，即使訪客應該算為活動的參與者，使用者還是可能幾乎都看到預設內容。</li><li>如果值太高，而如果您長時間使用本文隱藏，訪客可能會在網頁上看到空白區域或空白頁面。</li></ul>若要充分瞭解 mbox 回應時間，請在瀏覽器的開發人員工具中查看「網路」標籤。您也可以使用第三方 Web 效能監控工具，例如 Catchpoint。<br>**注意**: [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 設定可確保 [!DNL Target] 不會為了訪客 API 回應而等待太久。此設定和這裡說明的 at.js 逾時設定不影響彼此。 |
 | 舊版瀏覽器支援 | **注意:** at.js 0.9.3 版和更舊版本中提供「舊版瀏覽器支援」選項。at.js 0.9.4 版中移除了此選項。如需 at.js 支援的瀏覽器清單，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。<br>舊版瀏覽器是指不完全支援 CORS (跨來源資源共用) 的舊型瀏覽器。這些瀏覽器包括 Internet Explorer 瀏覽器 11 版以前的版本，以及 Safari 6 版及更舊版本。如果停用「舊版瀏覽器支援」，Target 不會在這些瀏覽器上傳送內容或將訪客算入報表中。如果啟用此選項，建議對舊型瀏覽器採取品質保證措施，以確保良好的客戶體驗。 |
 
-## 程式碼設定{#section_D41C905D0F8149949F525C85F2CCFF7F}
+## 程式碼設定 {#section_D41C905D0F8149949F525C85F2CCFF7F}
 
 | 設定 | 說明 |
 |--- |--- |
