@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -85,7 +85,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google{#section_8EFA98B5BC064140B3F74534AA93AFFF}
+## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >不一定要使用 Google 資料。[!DNL Recommendations] 使用與 Google 相同的格式。您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。實體摘要可透過 [!DNL .xml]、[!DNL .txt] 或 [!DNL .tsv] 傳送至[!DNL Recommendations]，並且可以使用 [Google 所定義的屬性](https://support.google.com/merchants/answer/7052112?hl=tw&amp;topic=2473824&amp;ctx=topic&amp;visit_id=636874736418071461-2956332993&amp;rd=1#TW)。結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics 產品分類{#section_79E430D2C75443BEBC9AA0916A337E0A}
+## Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的相關資訊，請參閱 *Analytics 說明與參考*指南中的[分類](https://marketing.adobe.com/resources/help/zh_TW/reference/classifications.html)。目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的相關資訊，請參閱 *Analytics 說明和參考*指南中的[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -198,7 +198,7 @@ Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的�
 >* Target 僅支援「產品分類」。Analytics 產品 SKU 必須對應至與建議相同的等級。您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
 
 
-## 建立摘要{#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## 建立摘要 {#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
@@ -256,7 +256,7 @@ recs/t_feeds_create.xml
 
 當狀態顯示「成功」時，表示找到檔案且剖析正確。在檔案編列索引之前，[!DNL Recommendations] 內沒有資訊可用，這需要一些時間，視檔案大小而定。如果處理程序失敗，表示找不到檔案 (例如，您使用不正確的 URL，或 FTP 資訊不正確) 或剖析錯誤。
 
-## 摘要狀態和指示器{#concept_E475986720D1400999868B3DFD14A7A0}
+## 摘要狀態和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
 
 關於可能的摘要狀態和其指示器的資訊。
 
