@@ -11,7 +11,7 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -198,8 +198,8 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
    ![](assets/channel_options.png)
 
-* **受眾建立:**當您建立新的受眾時，會建立在目前選取的工作區中。
-* **選件建立:**當您建立新的選件時，會建立在目前選取的工作區中。
+* **受眾建立:** 當您建立新的受眾時，會建立在目前選取的工作區中。
+* **選件建立:** 當您建立新的選件時，會建立在目前選取的工作區中。
 * **屬性頁面 (「設定」&gt;「屬性」):** 您可以使用[!UICONTROL 「搜尋」]方塊，[!UICONTROL 「管道」]和[!UICONTROL 「產品設定檔」]選項來篩選[!UICONTROL 「屬性」]清單。
 
    ![](assets/properties_list.png)
@@ -250,7 +250,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 ## 常見問題 {#faqs}
 
-有關企業權限的常見問答集包括：
+企業權限相關常見問題集包括下列內容:
 
 ### 我可以將活動從一個工作區移動至另一個工作區嗎?
 
@@ -258,23 +258,23 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 移轉之前建立的活動會繼續在「預設工作區」中以相同方式執行，除非它們是經過編輯和指派的屬性。在特定工作區下的活動將採用指派給該工作區的屬性，因此，行為可能不會與移轉之前的相同。
 
-### 為甚麼會收到一個錯誤訊息，指出該活動與此活動相關聯，即使已指派屬性？
+### 即使在已指派屬性的情況下，為何仍出現錯誤訊息，指出沒有任何與此活動相關聯的屬性?
 
-如果您實施 [!DNL Target] 並 [!DNL Adobe Launch] 收到錯誤訊息，表示沒有與活動相關的屬性，請將 `at_property` 參數與 `targetPageParams` 函數一起傳遞。
+如果您已使用 [!DNL Adobe Launch] 實作 [!DNL Target]，而系統出現錯誤訊息，指出沒有任何與此活動相關聯的屬性，請使用 `targetPageParams` 函數傳送 `at_property` 參數。
 
-### 如果重新導向頁面和活動URL屬於不同屬性，則會記錄點按轉換嗎？
+### 如果重新導向頁面和活動 URL 屬於不同屬性，是否會記錄點擊追蹤轉換?
 
-頁面和活動URL屬於不同屬性的頁面上不會記錄點擊追蹤。
+如果頁面上的頁面和活動 URL 屬於不同屬性，系統則不會記錄點擊追蹤。
 
-考慮下列情況(適用於at. js和mbox. js)：
+假設情況如下 (同時適用於 at.js 和 mbox.js):
 
-* 頁面屬於屬性1。
-* 頁面屬於屬性2。
-* 在活動中，第頁重新導向至包含點按的頁面2。
+* Page1 屬於 Property1。
+* Page2 屬於 Property2。
+* 在活動中，Page1 會重新導向到 Page2，這包含點擊追蹤。
 
-當訪客在瀏覽器中開啓頁面時，會重新導向至頁面2。由於Page不符合提供活動的資格，因此其Target呼叫不包含點選追蹤。
+當訪客在瀏覽器中開啟 Page1 時，系統會將他重新導向至 Page2。因為 Page2 沒有傳送活動的資格，其 Target 呼叫在其回應中不會包含點擊追蹤。
 
-如果重新導向頁面和活動URL屬於相同的屬性，點按追蹤會如預期般運作。如需詳細資訊，請參閱 [「點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md)」。
+如果重新導向頁面和活動 URL 屬於相同的屬性，點擊追蹤會如運期般運作。如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md)。
 
 ## 訓練影片: 企業權限訓練影片 {#section_2FA080303A064242B63FF16CFA6DB31D}
 
@@ -284,4 +284,4 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 * 屬性和工作區的概念，以及這些限制和分組工作如何讓您控制使用者的存取層級
 * 供您的組織考慮的不同屬性範例
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=chi_hant)
