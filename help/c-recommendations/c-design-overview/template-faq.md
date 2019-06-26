@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 設計中無法顯示類別 ID。因為可能會儲存多個類別，系統無法決定要顯示的類別。
 
-## 如何變更設計才能立即更新?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## 如何變更設計才能立即更新?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 更改目前使用中的設計需要一段時間才會更新。若要立即變更設計，請建立新設計，在行銷活動中加以選取，再儲存建議。
 
