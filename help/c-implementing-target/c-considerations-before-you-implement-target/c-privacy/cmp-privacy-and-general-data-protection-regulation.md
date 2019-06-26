@@ -8,7 +8,7 @@ title: 隱私權與一般資料保護規範 (GDPR)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
