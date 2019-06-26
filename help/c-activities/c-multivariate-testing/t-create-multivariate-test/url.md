@@ -7,24 +7,24 @@ solution: Target
 title: 活動 URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 活動 URL{#activity-url}
 
-活動URL會決定 [!M用於極端測試(] MVT)中的頁面，並在測試所設計 [!DNL Adobe Target]時開啓。
+The activity URL determines the page that is used in the [!UICONTROL Multivariate Test] (MVT), and that opens when the test is designed in [!DNL Adobe Target].
 
-在 [活動建立](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)期間出現提示時，請指定活動URL。輸入完整的URL(包括 `https://`)，然後按「下一步 **[!UICONTROL 」]**。
+When prompted during [activity creation](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), specify the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Next]**.
 
 >[!NOTE]
 >
 >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 都相符。
 
-根據預設， [!UICONTROL Visual Experience Composer] (CMS)會開啓 [您的帳戶偏好設定中指定的頁面](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)。您可以在活動建立期間指定不同的頁面。
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 您可以在活動建立期間指定不同的頁面。
 
-若要在CMS開啓後顯示不同的頁面，請按一下 **[!UICONTROL 「設定]** 」圖示，然後選取 **[!UICONTROL 「頁面傳送]**」，然後指定URL。
+To display a different page after the VEC opens, click the **[!UICONTROL Configure]** icon, then select **[!UICONTROL Page Delivery]**, then specify the URL.
 
 ![頁面傳送對話方塊](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
