@@ -8,7 +8,7 @@ title: Target 簡介
 topic: 進階
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -75,7 +75,7 @@ Target Premium 包含下列進階功能:
 
 ### 建議作為選件
 
-[Recommendations做為選件](/help/c-recommendations/recommendations-as-an-offer.md) 可讓您在A/B測試中 [!UICONTROL 納入建議] (包括 [!UICONTROL 自動分配] 和 [!UICONTROL 自動定位])和 [!UICONTROL 體驗定位] (XT)活動。
+[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) 可讓您在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 和[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。
 
 這項功能開啟了全新功能，例如:
 
@@ -94,7 +94,7 @@ Target Premium 包含下列進階功能:
 
 如需詳細資訊，請參閱[建議傳統版本說明文件](../assets/adobe-recommendations-classic.pdf)。
 
-## Experience League：Adobe Target歡迎套件 {#kit}
+## Experience League: The Adobe Target Welcome Kit {#kit}
 
 使用此歡迎套件建立您的Adobe Target最佳化與個人化計劃！它包含重要資訊、工具和資源，可協助您透過短期快速贏得和長期最佳化策略，準備並啓動您的第一個Adobe Target活動。
 
@@ -108,4 +108,4 @@ Target Premium 包含下列進階功能:
 * 選取達成目標的適當活動類型
 * 說明適用所有活動類型的三個步驟引導工作流程
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hant)
