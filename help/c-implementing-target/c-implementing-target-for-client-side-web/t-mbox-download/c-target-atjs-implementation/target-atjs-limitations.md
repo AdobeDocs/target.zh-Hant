@@ -7,8 +7,8 @@ solution: Target
 title: at.js 限制
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ at.js 與 mbox.js 之間有一些差異。此小節列出部分差異和限制�
 
    在單頁應用程式中的頁面載入事件上，因為 DOM 不會像在傳統網站中一樣地清除，所以「插入元素」和「重新安排」操作可能會重複套用多次，視訪客如何導覽 SPA 而定。
 
-## 整合和外掛程式{#section_D92E31170176406AAC7B5005F03D3425}
+## 整合和外掛程式 {#section_D92E31170176406AAC7B5005F03D3425}
 
 [!DNL mbox.js] 中沒有 [!DNL at.js] 內的某些函式。[!DNL at.js] 不再支援內部 [mbox.js 物件和方法](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` 及其他，例如 `mboxFactoryDefault`)。這是刻意設計，目的是不勸阻您不要「駭入」[!DNL at.js] 來開發不受支援的功能，這些功能長期而言會削弱實施，導致實施無法升級。本說明文件的 API 頁面涵蓋唯一公開的方法。因此:
 
