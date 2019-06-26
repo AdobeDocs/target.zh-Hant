@@ -8,7 +8,7 @@ title: 表單式體驗撰寫器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 如果是建立 Recommendations 活動，則沒有體驗。選擇您的條件和設計。如果您選擇多個條件或設計，Target 會自動產生體驗。
 
-1. 按一下**[!UICONTROL 「建立活動」]**，然後選取您要建立的活動類型。
+1. 按一下 **[!UICONTROL 「建立活動」]**，然後選取您要建立的活動類型。
 
    表單式體驗撰寫器可用於 A/B 測試、體驗鎖定目標、自動個人化和 Recommendations 活動。
-1. 從[!UICONTROL 「新增活動」]對話方塊選取**[!UICONTROL 「表單式體驗撰寫器」]**。
+1. 從[!UICONTROL 「新增活動」]對話方塊選取 **[!UICONTROL 「表單式體驗撰寫器」]**。
 
    表單式體驗撰寫器隨即開啟。
 
@@ -35,7 +35,7 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
    在「選取位置」方塊中按一下時，會出現可用位置的清單。選取這些位置中的一個。若要選擇透過 target.js 提供的全域位置，請選擇「target-global-mbox」。
 
    您也可以輸入此處未列出的位置。如果您尚未在頁面上建立或檢視 mbox，則此項目相當實用。輸入位置的名稱。輸入尚未存在的位置時請注意。如果拼字或大寫不符合進行 mbox 呼叫時使用的拼字或大寫，將不會傳送活動。手動輸入的位置會儲存至清單。
-1. 按一下**[!UICONTROL 「新增對象細分」]**，然後選擇一或多個此活動的[對象](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
+1. 按一下 **[!UICONTROL 「新增對象細分」]**，然後選擇一或多個此活動的[對象](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
    ![](assets/location_refinements_2.png)
 
@@ -77,7 +77,7 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
    1. 輸入選件名稱。
    1. 在「程式碼」方塊中，輸入或貼上 JSON 程式碼。
    1. 按一下[!UICONTROL 「儲存」]。
-   針對 Recommendations 活動，內容下拉式清單會提供您「新增建議」選項。按一下**[!UICONTROL 「新增建議」]**，然後選取頁面類型。然後遵循介面中定義的步驟來[建立Recommendations 活動](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html)。
+   針對 Recommendations 活動，內容下拉式清單會提供您「新增建議」選項。按一下 **[!UICONTROL 「新增建議」]**，然後選取頁面類型。然後遵循介面中定義的步驟來[建立Recommendations 活動](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html)。
 
    在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。
 
@@ -88,7 +88,7 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
    ![](assets/change_criteria_2.png)
 
 1. (選用，適用於 AB 活動、自動個人化和體驗鎖定目標) 若要對其他位置重複此程序，請按一下「`Add Location`」，然後設定位置與內容。
-1. 按一下**[!UICONTROL 「繼續」]**，然後照常對您的活動類型完成活動建立步驟。
+1. 按一下 **[!UICONTROL 「繼續」]**，然後照常對您的活動類型完成活動建立步驟。
 
 * [建立 A/B 測試](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [建立體驗鎖定目標活動](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
@@ -102,4 +102,4 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 * 瞭解使用表單式體驗撰寫器與可視化體驗撰寫器的時機
 * 使用細分來鎖定位置
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/17390?captions=chi_hant)
