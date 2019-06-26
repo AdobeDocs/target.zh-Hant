@@ -8,8 +8,8 @@ subtopic: 多變數測試
 title: Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 
 >[!IMPORTANT]
 >
->開始使用 A4T 之前，您必須要求針對整合佈建您的帳戶。使用[此表單](https://www.adobe.com/go/audiences_tw)來要求佈建帳戶。
+>開始使用 A4T 之前，您必須要求針對整合佈建您的帳戶。使用[此表單](https://www.adobe.com/go/audiences)來要求佈建帳戶。
 >
 >此整合可讓 Adobe Analytics 成為 Adobe Target (A4T) 的資料來源，象徵新一代的 Test&amp;Target 至 SiteCatalyst 外掛程式。此外掛程式已淘汰，但仍支援原本已使用的客戶。
 
@@ -53,7 +53,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 * 使用 Analytics 作為報表來源時，僅允許一個 Mbox 型量度。
 * 從 Target 至 Analytics 的伺服器對伺服器呼叫會將活動和體驗資訊傳送至 Analytics。此整合不會對 Target 或 Analytics 產生額外的伺服器呼叫。
 
-## 支援的活動類型{#section_F487896214BF4803AF78C552EF1669AA}
+## 支援的活動類型 {#section_F487896214BF4803AF78C552EF1669AA}
 
 下表顯示哪些活動類型支援將 Analytics 作為報表來源 (A4T):
 
@@ -66,18 +66,18 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 | 多變數測試 (MVT) | 是 | 需要 Mbox 型目標量度目標才能取得「元素貢獻」報表。「元素貢獻報表」目前不支援 Analytics 量度。 |
 | 自動個人化 (AP) 活動 | 無 |  |
 | Recommendations 活動 | 是 |  |
-| 行動應用程式 | 是 | 支援行動服務 SDK 4.13.1 版或更新版本。如需詳細資訊，請參閱 [Mobile Services 說明文件](https://marketing.adobe.com/resources/help/zh_TW/mobile/)。 |
+| 行動應用程式 | 是 | 支援行動服務 SDK 4.13.1 版或更新版本。如需詳細資訊，請參閱[行動服務文件](https://marketing.adobe.com/resources/help/en_US/mobile/)。 |
 | 電子郵件 | 無 |  |
 | 伺服器端傳送 API | 是 | 如需詳細資訊，請參閱[伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | NodeJS SDK | 是 | 如需詳細資訊，請參閱[伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | AEM 6.1 (或更舊) 雲端服務整合 | 無 |  |
-| AEM 6.2 (或更新) 雲端服務整合 | 是 | 如需詳細資訊，請參閱 Adobe Experience Manager 6.2 說明文件中的[與 Adobe Target 整合](https://helpx.adobe.com/tw/experience-manager/6-2/sites/administering/using/target.html)。 |
+| AEM 6.2 (或更新) 雲端服務整合 | 是 | 如需詳細資訊，請參閱 Adobe Experience Manager 6.2 文件中的[與 Adobe Target 整合](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)。 |
 | 使用重新導向選件的任何活動 | 是 | 搭配 A4T 使用重新導向選件時，最低需求較嚴格。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。 |
 | Node.JS | 是 |  |
 
 因為所有活動類型尚未支援 A4T，建議您保留或實作重要的轉換 Mbox，例如 &quot;orderConfirmPage&quot; Mbox。
 
-## A4T 報表的範例{#section_F0A43A1CB2F04E8282B909E4D7034361}
+## A4T 報表的範例 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
 若要在 [!DNL Target] 中檢視 A4T 報表，請按一下 **[!UICONTROL 「活動」]**，從清單中選取所需的活動 (使用 [!DNL Analytics] 作為報表來源)，然後按一下 **[!UICONTROL 「報表」]** 標籤。
 
@@ -103,7 +103,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 
 ## Analytics 與 Target: Analysis 最佳實務教學課程 {#section_3438E6E77A464424B717A4FD333B84B2}
 
-開啟由 [Adobe Experience League 所提供的 Analytics 與 Target: Analysis 最佳實務](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教學課程。
+開啟由 Adobe Experience League 所提供的 [Analytics 與 Target: Analysis 最佳實務](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教學課程。
 
 ## 訓練影片:
 
@@ -117,7 +117,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 * 說明 A4T 的運作方式
 * 瞭解使用 A4T 之前所需的先決條件
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/17384?captions=chi_hant)
 
 ### Analytics/Target 整合 (A4T) (40:33)
 
@@ -128,4 +128,4 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 * 瞭解適合用於 Analytics 的報表
 * 回答有關 A4T 的常見問題
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=chi_hant)
