@@ -6,8 +6,8 @@ seo-title: 九個常見的 A/B 測試陷阱以及避免方式
 solution: Target
 title: 九個常見的 A/B 測試陷阱以及避免方式
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -148,7 +148,7 @@ A/B 測試會形成多數數位行銷最佳化程式的骨幹，協助行銷人�
 
 為了避免此問題，請仔細監視業務量度，以辨別選件帶來的業務衝擊，或者，可能的話，最好採用更接近業務目標的量度。
 
-## 結論: 辨別並避開陷阱，確保 A/B 測試成功{#section_54D33248163A481EBD4421A786FE2B15}
+## 結論: 辨別並避開陷阱，確保 A/B 測試成功 {#section_54D33248163A481EBD4421A786FE2B15}
 
 在瞭解常見的 A/B 測試陷阱之後，希望您能夠辨別何時何處可能掉入陷阱。我們也希望您已更充分瞭解 A/B 測試所涉及的某些統計學和機率概念，這些經常被認為是數學專業人士的領域。
 
