@@ -8,25 +8,25 @@ title: 建立僅限於此活動的對象
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 建立僅限於此活動的對象{#create-an-activity-only-audience}
 
-在建立活動時，從三個步驟引導工作流程內建立僅限活動的對象。這些臨機對象可用於相同活動內的其他位置，但不會儲存在 [!UICONTROL 「對象庫] 」中，以便用於其他活動。
+在建立活動時，從三個步驟引導工作流程內建立僅限活動的對象。These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
 
 僅限於此活動的對象提供下列優點:
 
-* 您可以使用僅限活動對象建立對象，只想使用一次，而且不要將其儲存在 [!UICONTROL 「對象庫]」中。這可防止 [!UICONTROL 「對象程式庫] 」雜亂地與您不想重復使用的對象混淆。
-* 「 [!UICONTROL 對象庫]」中不會顯示僅限活動的對象。因此這些對象會獲得保護，不會受組織中的其他人不必要的變更。
+* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
+* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. 因此這些對象會獲得保護，不會受組織中的其他人不必要的變更。
 
-1. 建立 [活動時](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，在 **[!UICONTROL 「目標]** 」頁面上按一下三個垂直橢圓形，然後按一下 **[!UICONTROL 「取代對象]**」。
+1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![步驟結果](assets/edit_audience.png)
 
-1. 在 [!UICONTROL 「選擇對象] 」頁面上，按一下 **[!UICONTROL 「僅限活動對象]**」。
+1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 處理僅限於此活動的對象時，請記得下列資訊:
 
 * 您可以在可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中建立僅限於此活動的對象。此功能會取代舊版 Target 中的細分規則。
-* 您可以建立要儲存在 [!UICONTROL 觀眾程式庫中的活動，] 以便在其他活動中重復使用，或建立僅限活動的對象。儲存對象之後，您無法變更對象類型。
+* You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. 儲存對象之後，您無法變更對象類型。
 * 現有活動的細分已移轉至僅限於此活動的對象。
-* 僅限活動的對象具有 [!UICONTROL 「已使用」] 或「 [!UICONTROL 未使用]」狀態。在儲存活動之前，會將僅限於此活動的對象顯示為「未使用」。如果維持未使用而您嘗試儲存活動，會顯示警告訊息，通知您將刪除未使用的僅限於此活動的對象。
+* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. 在儲存活動之前，會將僅限於此活動的對象顯示為「未使用」。如果維持未使用而您嘗試儲存活動，會顯示警告訊息，通知您將刪除未使用的僅限於此活動的對象。
 * 您可以在可透過對象選擇器存取的快顯卡上檢視對象定義詳細資料，而不需開啟對象。
 * 您可以[結合多個對象](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立僅限於此活動的對象。
 
