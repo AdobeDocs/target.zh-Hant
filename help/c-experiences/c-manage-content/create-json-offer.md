@@ -7,8 +7,8 @@ solution: Target
 title: 建立 JSON 選件
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -129,7 +129,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 依 JSON 選件類型來篩選選件{#section_52533555BCE6420C8A95EB4EB8907BDE}
+## 依 JSON 選件類型來篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 您可以按一下 **[!UICONTROL 「類型」]** 下拉式清單，然後選取 **JSON]核取方塊，依 JSON 選件類型來篩選「選件資料庫」。[!UICONTROL **
 
