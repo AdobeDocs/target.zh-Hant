@@ -25,11 +25,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 |  | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
 |  | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新區段：「SPA CMS的頁面傳送設定」。 |
-|  | [使用特定體驗做為控制](/help/c-activities/t-automated-personalization/experience-as-control.md) |  新主題。 |
+|  | [選擇自動個人化或自動目標活動的控制權](/help/c-activities/t-automated-personalization/experience-as-control.md) |  新主題。 |
 |  | [Google Chrome SaveSite Cookie原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) |  新主題。 |
 |  | [Target 個人化演算法的資料收集](/help/c-activities/t-automated-personalization/ap-data.md) | 新增新表格來說明個別附件並提供範例。 |
-|  | [自動個人化的常見問答集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增常見問題集：「我可以指定要用作控制的特定體驗嗎？」 |
-|  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 已新增資訊和常見問題，以指定要使用作為控制的特定體驗。 |
+|  | [自動個人化的常見問答集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增常見問題集：「我可以指定要用作控制的特定體驗嗎？」<br>已編輯下列常見問答集：「設定自動個人化活動的最佳實務為何？」 |
+|  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 已新增資訊和常見問題，以指定要使用作為控制的特定體驗。<br>更新「決定流量分配」一節。 |
 |  | [建立自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 已新增步驟，以選取特定體驗作為預設體驗。 |
 |  | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 已新增有關如何管理多個行動應用程式版本的資訊。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
