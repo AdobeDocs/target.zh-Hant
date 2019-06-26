@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 實作 Target
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
