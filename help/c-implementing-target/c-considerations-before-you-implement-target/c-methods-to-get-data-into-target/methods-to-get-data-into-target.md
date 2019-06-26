@@ -9,7 +9,7 @@ title: 將資料傳入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 如果後續的頁面/伺服器呼叫需要使用資料來鎖定目標，則資料必須轉移至設定檔指令碼。
 * 查詢字串僅可包含符合[網際網路工程任務小組 (IETF) 標準](https://www.ietf.org/rfc/rfc3986.txt)的字元。
 
-   除了在 IETF 網站上提到的字元外，Target 也允許在查詢字串中包含下列字元:
+   除了IETF網站上提及的內容外，Target還允許查詢字串中的下列字元：
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
