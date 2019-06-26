@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: 從 at.js 1.x 升級為 at.js 2.x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ## 部署 at.js 2.x {#deploy-atjs-200}
 
-1. 透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 擴充功能部署at. js2.x。
+1. Deploy at.js 2.x via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
    或
 
-   使用Target UI手動下載. js2.x，並使用您選擇的 [方法進行部署](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)。
+   Manually download at.js 2.x using the Target UI and deploy it using the [method of your choice](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## 棄用的 at.js 函數
 
@@ -189,7 +189,7 @@ at.js 2.x 已棄用多個函數。
 
 ## 2.0 中棄用、新增和支援的 at.js 函數摘要
 
-| 方法 | 支援? | 新增? | 已過時? <br>(將顯示預設內容) |
+| 方法 | 支援? | 新增? | 已過時? <br> (將顯示預設內容) |
 | --- | --- | --- | --- |
 | `getOffer()` | 是 |  |  |
 | `getOffers()` |  | 是 |  |
@@ -342,7 +342,7 @@ at.js 2.x 使用新的 API，我們稱之為「傳送 API」。若要針對 at.j
 | 除錯程式 | 是 |
 | Auditor | 尚未針對 at.js 2.x 更新規則 |
 | 動態標籤管理 (DTM) | 是 |
-| 選擇加入 | 無。在. js2.1.0版中支援加入支援 [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)[](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
+| 選擇加入 | 無。Opt-in support for [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) is supported in [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | 採用 Adobe Target 技術的 AEM 增強型個人化 | 無 |
 
 ### 功能
@@ -846,4 +846,4 @@ at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Clou
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hant)
 
-如需詳細資訊，請參閱 [瞭解at. js2.x的](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 如何運作。
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
