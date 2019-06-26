@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+translation-type: tm+mt
 
 ---
 # 投稿
@@ -11,7 +11,7 @@ translation-type: ht
 
 ## 行為準則
 
-本專案遵循 Adobe [行為準則](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md)。參與本專案即代表您同意遵守前述準則。如發現不可接受的行為，請向 SOMEEMAIL 檢舉。
+此專案遵守 Adobe [行為準則](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md)。參與本專案即代表您同意遵守前述準則。如發現不可接受的行為，請向 SOMEEMAIL 檢舉。
 
 ## 投稿人授權合約
 
@@ -19,4 +19,4 @@ translation-type: ht
 
 ## 程式碼審核
 
-所有提交內容都應透過提取要求形式，而且需要經過專案認可人審核。如需傳送提取要求的詳細資訊，請參閱 [GitHub 的提取要求文件](https://help.github.com/articles/about-pull-requests/)。
+所有提交內容都應透過提取要求形式，而且需要經過專案認可人審核。Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
