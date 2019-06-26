@@ -8,7 +8,7 @@ title: iOS - 設定行動應用程式
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -233,7 +233,7 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 + (void) prefetchOffersBackground;
 ```
 
-## 教學課程：在Mobile iOS Objective-C和Swift應用程式中實作Experience Cloud {#tutorial}
+## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
 
 * [在Mobile iOS Objective-C應用程式中實作Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [在Mobile iOS Swift應用程式中實作Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
