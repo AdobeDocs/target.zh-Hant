@@ -7,8 +7,8 @@ solution: Target、Analytics
 title: 使用者權限需求
 topic: Reports & Analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,13 +29,13 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 [!DNL Analytics] 和 [!DNL Target] 使用者帳戶必須連結至 Adobe ID。
 
-如需詳細資訊，請參閱[組織和帳戶連結](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)。
+For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ### 設定 Experience Cloud 群組成員資格
 
 您必須是具有 [!DNL Analytics] 和 [!DNL Target] 存取權之一或多個 [!DNL Experience Cloud] 群組的成員。
 
-如需詳細資訊，請參閱[管理 Experience Cloud 使用者和產品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
@@ -46,7 +46,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 您必須是 **[!UICONTROL 所有報表存取]** 群組的成員，或您所屬的群組在您要使用的報表套裝中必須至少可存取一個報表，您才能為 Analytics 啟動的活動建立或檢視報表。如果無法檢視報表，請確定您是這其中一個群組的成員。
 
-如需詳細資訊，請參閱[產品設定檔和群組](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
+For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### 設定 Web 服務存取群組的存取權。
 
