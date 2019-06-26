@@ -8,7 +8,7 @@ title: A/B 測試中的多個體驗版本
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
    設定將有多個版本的體驗時，請選取每個版本的對象，如下列步驟所示。
 
-1. 選取體驗，然後按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 對象]** &gt; **[!UICONTROL 多對象]**」。
+1. 選取體驗，然後按一下 **[!UICONTROL 設定]** &gt; **[!UICONTROL 受眾]** &gt; **[!UICONTROL 多個受眾]**。
 
    ![多對象選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
