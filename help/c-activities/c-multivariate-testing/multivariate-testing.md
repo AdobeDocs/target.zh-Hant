@@ -8,7 +8,7 @@ title: 多變數測試
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 設定多變數測試時，最好瞭解一些基本術語。
 
-有多個術語在業界內有不同的用法。本節定義所用 [!DNL Target]詞彙。
+有多個術語在業界內有不同的用法。This section defines the terms used by [!DNL Target].
 
 **組合:** 在多個位置中測試多個內容選項時所建立的內容變異。例如，如果您要測試三個位置，每個均具有三個內容選項，那麼會有 27 個可能組合 (3x3x3)。前往您的網站的訪客將會看到一個組合，也稱為體驗。
 
@@ -70,7 +70,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
    例如，請勿在相同測試中測試版面配置與內容。
 * 因為體驗數目會增加，請預留額外時間給 QA。
 
-   [!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計學中，「實驗設計」提供許多方法 (或設計) 來判斷會影響結果的因素。其中一種方式是 [Taguchi方法](https://en.wikipedia.org/wiki/Taguchi_methods) 進行部分工廠測試。「田口方法」可讓市場行銷人員建立一組假設，以減少需要測試的體驗排列，進而降低多變數測試的流量需求。您可 [!DNL Target] 使用此 [離線試算表](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)來運用此功能和測試方法。
+   [!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計學中，「實驗設計」提供許多方法 (或設計) 來判斷會影響結果的因素。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 「田口方法」可讓市場行銷人員建立一組假設，以減少需要測試的體驗排列，進而降低多變數測試的流量需求。This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    如果您的團隊採用其他「實驗設計」方法，您可以將此計算試算表當作自訂實驗設計的參考實作。
 
@@ -79,7 +79,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
    * 挑選您要變更的元素，以及每一個元素的版本數目 (3x2、4x3 等等)。
    * 保持編號一致。例如，假設按鈕是元素 1，選項為藍色、綠色和黃色，則藍色按鈕為 1-1、綠色按鈕為 1-2、黃色按鈕為 1-3。
    * 離線試算表可提供適合所需的體驗數目 (3x2 四個、4x3 九個...等等)。
-   * 使用 [Visual Experience Composer(CMS)或表單式體驗撰寫器，在A/B工作流程中建立體驗](/help/c-experiences/experiences.md)。如果您使用 VEC，則可以使用自訂程式碼、編輯 HTML、WYSIWYG，或任何組合。
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). 如果您使用 VEC，則可以使用自訂程式碼、編輯 HTML、WYSIWYG，或任何組合。
    * 活動結束之後 (根據樣本大小計算機)，透過試算表執行結果來取得其他詳細資料。
 
 關於其他考量和最佳作法，請參閱[多變數測試最佳作法](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
