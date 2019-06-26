@@ -8,7 +8,7 @@ title-outputclass: premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,8 +30,8 @@ source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
 
 ## 設定定位規則
 
-1. 建立 [包含您想要定位之選件的「自動個人化」活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) 。
-1. 在Visual Experience Composer中設定活動的選件後，按一下 **[!UICONTROL 「管理內容]**」。
+1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
+1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
 
    ![管理內容](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -43,11 +43,11 @@ source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
 
 1. 選擇所要的選件，並選擇您想要查看該選件的對象。
 
-   若要設定單一選件的定位，請將滑鼠指標暫留在所要的選件上，然後按一下 **[!UICONTORL 「定位]** 」圖示。
+   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
 
-   若要設定多個選件的定位，請選取所需選件的核取方塊，然後按一下清單右上角的「**[!UICONTROL 定位」] 圖示。
+   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
 
-1. 在 [!UICONTROL 「選擇對象] 」對話方塊中，選取選件所要的對象，然後按一下 **[!UICONTROL 「完成」]** 返回 [!UICONTROL 「管理內容] 」對話方塊。
+1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
 
    >[!NOTE]
    >
