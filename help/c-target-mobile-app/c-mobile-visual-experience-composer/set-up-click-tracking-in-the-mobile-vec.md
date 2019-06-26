@@ -7,8 +7,8 @@ solution: Target
 title: 在行動應用程式 VEC 中設定點擊追蹤
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
