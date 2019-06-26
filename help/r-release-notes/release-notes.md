@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -24,6 +24,18 @@ source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 * 在 2019 年 2 月 20 日，EMEA、日本和 APAC 區域中的 Adobe Target 基礎架構已升級，不再從使用較舊裝置或不支援 TLS 1.1 或更新版本的網頁瀏覽器的一般使用者收集資料。我們已規劃於 **2019 年 4 月 1 日** 在北美區域進行這項相同的升級。轉移至 TLS 1.2 可改善安全性。請務必詳閱詳細資訊，並與 IT 團隊針對變更進行規劃，以順利轉移。如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 * 從 2019 年 3 月 起，[!DNL Target] 和 [!DNL Adobe Marketing Cloud] 將停止支援 Microsoft Internet Explorer 11。這項變更只會影響 [!DNL Target] 編寫，不影響體驗傳送。請改用 Microsoft Edge 或其他瀏覽器。如需更多資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。
 
+## Target Standard/Premium 19.6.1 (2019 年 6 月 26 日)
+
+此版本包含下列新功能和增強功能:
+
+| 功能 / 增強功能 | 說明 |
+| --- | --- |
+| 可視化體驗撰寫器 (VEC) | **新的CMS功能表選項**：當您按一下CMS中的頁面元素時，功能表會顯示該元素類型可用的選項。<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**點擊追蹤改進**：我們改善了在CMS和單一頁面應用程式(SPA) CMS中設定點按追蹤的程序。<ul><li>選取要用於點擊追蹤的元素時，所有可用元素的名稱會顯示在右側的「修改」面板中，讓您快速且輕鬆地選取所要的元素。</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. 您可以將滑鼠指標暫留在此數目上，以查看所有選取元素的名稱。(TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
+| 單頁應用程式視覺化體驗撰寫器 (SPA VEC) | **引導式工作流程**：新的引導工作流程可協助您瞭解頁面遞送規則設定如何設定，以便在單一頁面應用程式中成功執行和執行活動。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**複製修改**：您現在可以使用SPA CMS定義修改，然後將修改複製到您的單一頁面應用程式中的其他檢視中。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| 行動版視覺化體驗撰寫器 | **多個應用程式版本**：您現在可以為行動應用程式的多個版本編寫活動。如此可為您節省時間和精力，當版本類似時，您就不需要大幅變更應用程式的UI。(TGT-34231)<br>See &quot;Manage multiple app versions&quot; in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
+| ![Premium徽章](/help/assets/premium.png) 自動個人化(AP)與自動目標 | **特定體驗作為控制**：您可以選取在建立AP或自動Target活動時做為控制項的體驗。此功能可讓您根據活動中設定的流量分配百分比，將整個控制流量路由至特定體驗。然後，您可以評估個人化流量的績效報告，以控制該一個體驗的流量。目前的控制選項(隨機提供體驗)將繼續可用。(TGT-32801 &amp; TGT-26572)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md).<br>**個人化前瞻分析報表**：當訪客在特定位置看到特定內容的特定內容時，行銷人員友好的命名方式提供更有意義的資訊。(TGT-33326 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
+| Google Chrome SaveSite Cookie原則 | Google最近宣佈，從Chrome76開始，在2019年月30日發行的Chrome76中，開發人員必須明確指定哪些Cookie可以跨網站運作，以及哪些Cookie可追蹤使用者。<br>隨著產業致力於為消費者建立更安全的網路，Target絕對致力於提供個人化體驗，並超越對訪客的隱私權期望。<br>請參閱 [Google Chrome SameSite Cookie原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
+
 ## at. js2.1.0版(2019年月日)
 
 我們很高興宣佈下列令人振奮的功能：js2.1.0：
@@ -33,29 +45,9 @@ source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 | Adobe加入支援 | 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需Adobe選擇加入的詳細資訊，請參閱 [隱私權與通用資料保護規則(GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md))。 |
 | 符合業界標準的CSP規範 | at. js不再使用eval()來執行JavaScript。 |
 | 用戶端分析記錄 | 可讓客戶完全控制如何將分析資料傳送至Adobe Analytics，不論是在用戶端或伺服器端。<br>如需詳細資訊，請參閱 [在實施前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登入 *客戶端的Analytics*。 |
-| 傳送通知 | 可讓開發人員在使用程式碼轉換體驗時傳送通知，而非使用 `applyOffer()` 或 `applyOffers()`使用。<br>如需詳細資訊，請查看 [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。 |
+| 傳送通知 | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>如需詳細資訊，請查看 [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。 |
 | 縮減檔案大小 | at. js的大小減少了~24%。檔案大小較小可改善頁面載入效能，並減少頁面上下載. js的時間。 |
-| at. js文件更新 | 如需因at. js2.1.0版而更新的所有文章的完整清單，請參閱 [說明文件變更](/help/r-release-notes/doc-change.md)中的2019年月日。 |
-
-## [!DNL Target] Standard/Premium 19.5.1 (2019 年 5 月 21 日) {#tgt-19-5-1}
-
-(括號內的問題編號供 [!DNL Adobe] 內部使用。)
-
-### 功能更新
-
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 單一頁面應用程式可視化體驗撰寫器(SPA VEC) | SPA VEC 已改良下列項目，讓您的工作更快更有效率: <ul><li>按一下 SPA 中的動作會醒目顯示將套用該動作之網站上的元素。在檢視下建立的每個 VEC 動作有四個對應的圖示: 資訊、編輯、移動和刪除。此版本中新增的「移動」功能可讓您將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。(TGT-33746)</li><li>您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時 (例如自訂程式碼無法繼續正常運作) 執行許多動作。無法在網站載入前編輯的動作，都會在 Target UI 中停用。(TGT-33851 和 TGT-34149)</li></ul>如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。 |
-
-### 增強功能、修正和變更
-
-* 在 VEC 中取消載入頁面後，工具列圖示會正常顯示。如果在完全載入頁面前無法執行特定動作，系統會停用相關工具列圖示。(TGT-33811)
-
-## 行動應用程式可視化體驗撰寫器 (2019 年 5 月 14 日) {#mobile-vec-may14-2}
-
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[影片：行動應用程式Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+| at. js文件更新 | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
 
 ## 文件變更、過去的版本說明和 Experience Cloud 版本說明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
