@@ -8,8 +8,8 @@ subtopic: 快速入門
 title: 設定檔 API 設定
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Target 會為每一個使用者建立和維護一個設定檔: 此設定�
 
    >[!NOTE]
    >
-   >您也可以透過 API 來產生設定檔驗證 Token。如需詳細資訊，請參閱 [Adobe Target 開發人員網站](https://developers.adobetarget.com/)上的[設定檔](https://developers.adobetarget.com/api/#profiles)。
+   >您也可以透過 API 來產生設定檔驗證 Token。如需詳細資訊，請參閱 [Adobe Target Developers 網站](https://developers.adobetarget.com/)上的[設定檔](https://developers.adobetarget.com/api/#profiles)。
 
 1. 複製 Token 並加入要求的標頭中，格式為: &quot;Authorization&quot; : &quot;Bearer &quot;
 
