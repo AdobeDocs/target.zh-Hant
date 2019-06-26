@@ -7,8 +7,8 @@ solution: Target
 title: 回應式體驗的行動檢視區
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 | Samsung Galaxy Tab 10 | 800w x 1280h | 800w x 1280h |
 | Chromebook Pixel | 1280w x 850h | 2560w x 1700h |
 
-有許多網站都有列出熱門裝置的檢視區大小。舉例來說，請參閱 [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/)，或造訪裝置製造商網站。
+有許多網站都有列出熱門裝置的檢視區大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
 
 如果您要將活動傳送給使用特定裝置的人，請在活動圖表中選擇適合該裝置的對象。使用「行動裝置 Web 撰寫器」，針對該裝置來編輯活動中的頁面。如果您想要在整個數位體驗中執行活動，並確保在所有裝置上都完美呈現，請勿套用鎖定目標，應該使用行動檢視區以每一種螢幕大小來預覽活動。
 
@@ -167,10 +167,10 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 針對回應性網站預覽和建置體驗
 * 使用覆蓋來強調顯示元素的類型
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=chi_hant)
 
 ### Adobe Target 中的帳戶偏好設定
 
 此影片包括在帳戶偏好設定中設定行動檢視區的相關資訊，從影片的 4:40 開始。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=chi_hant)
