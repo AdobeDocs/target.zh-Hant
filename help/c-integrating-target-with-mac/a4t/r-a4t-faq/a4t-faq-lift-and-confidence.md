@@ -7,8 +7,8 @@ solution: Target
 title: 提升度和可信度 - A4T 常見問題集
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,15 +25,15 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 提升度是控制頁面結果與成功測試變量之間的百分比差異。
 
-## 如何計算可信度?  {#section_97DB24D833E742988318CA65DA65DAD9}
+## 如何計算可信度?   {#section_97DB24D833E742988318CA65DA65DAD9}
 
 信賴水準是指除了單獨因為機遇以外的其他理由，而造成測量轉換率與優勝頁面轉換率不同的機率。
 
-## 在計算量度上為何看不到提升度和可信度?  {#section_D3E44E24782A409DBD88AE4D1595CB58}
+## 在計算量度上為何看不到提升度和可信度?   {#section_D3E44E24782A409DBD88AE4D1595CB58}
 
 目前無法為計算量度產生提升度和可信度。不過，在大部情況下，這不會有問題，因為正規化量度會將提升度正規化。例如，若您為順序選取提升度，而正規化量度是造訪，則會依兩者的比例 (即轉換率) 計算提升度。
 
-## A4T 如何處理可信度計算?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## A4T 如何處理可信度計算?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 A4T 對平方和資料採用非二進位量度計算。變數是利用平方和資料來計算。極端順序不納入考量。
 
