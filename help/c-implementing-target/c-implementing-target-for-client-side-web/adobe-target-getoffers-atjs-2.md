@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 | request &gt; id &gt; thirdPartyId | 無 | 大小上限 = 128 |  |  |
 | Request&gt; Experience Cloud | 無 |  |  |
 | Request&gt; Experience Cloud&gt;分析 | 無 |  | Adobe Analytics整合 |
-| 「請求&gt;體驗Cloud&gt;分析&gt;記錄」 | 無 | 下列必須實施於頁面：<ul><li>訪客 ID 服務</li><li>AppMeasurement. js</li></ul> | 支援下列值：<br>**client_ side**：指定後，會將分析裝載傳回回呼叫者，該呼叫者應透過「資料插入API」傳送至Adobe Analytics。<br>**server_ side**：This is the default value where the default value where the Target and Analytics後端will using the SID to stiming the callcom一起for reporting. |
+| 「請求&gt;體驗Cloud&gt;分析&gt;記錄」 | 無 | 下列必須實施於頁面：<ul><li>訪客 ID 服務</li><li>AppMeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**：This is the default value where the default value where the Target and Analytics後端will using the SID to stiming the callcom一起for reporting. |
 | request &gt; prefetch | 無 |  |  |
 | request &gt; prefetch &gt; views | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭<br>不允許的名稱: 「orderId」、「orderTotal」、「productPurchasedId」 | 傳遞參數以用於擷取使用中活動內的相關檢視。 |
 | request &gt; prefetch &gt; views &gt; profileParameters | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭 | 傳入設定檔參數以用於擷取使用中活動內的相關檢視。 |
@@ -57,8 +57,8 @@ source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 | request &gt; execute &gt; pageLoad &gt; order &gt; id | 無 | 長度上限 = 250 | 頁面載入時使用指定的訂單 ID 擷取選件。 |
 | request &gt; execute &gt; pageLoad &gt; order &gt; total | 無 | `>=` 0 | 頁面載入時使用指定的訂單總金額擷取選件。 |
 | request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | 無 | 無空白值<br>每個值的長度上限 50<br>串連並以逗號分隔<br>產品 ID 總長度 `<=` 250 | 頁面載入時使用指定的已購產品 ID 擷取選件。 |
-| request &gt; execute &gt; mboxes | 無 | 大小上限  = 50<br>無 null 元素 |  |
-| request &gt; execute &gt; mboxes&gt;mbox | 是 | 不得空白<br>無「-clicked」尾碼<br>大小上限  = 250<br>允許的字元: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 的名稱。 |
+| request &gt; execute &gt; mboxes | 無 | 大小上限 = 50<br>無 null 元素 |  |
+| request &gt; execute &gt; mboxes&gt;mbox | 是 | 不得空白<br>無「-clicked」尾碼<br>大小上限 = 250<br>允許的字元: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 的名稱。 |
 | request &gt; execute &gt; mboxes&gt;mbox&gt;index | 是 | 非 null<br>唯一<br>`>=` 0 | 請注意，索引不代表處理 mbox 的順序。與含有數個區域 mbox 的網頁相同，無法指定處理 mbox 的順序。 |
 | request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | 無 | 計數上限 = 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭。<br>不允許的名稱: 「orderId」、「orderTotal」、「productPurchasedId」 | 使用指定的參數為特定 mbox 擷取選件。 |
 | request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | 無 | 計數上限 = 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 256<br>名稱不得以「profile」開頭。 | 使用指定的設定檔參數為特定 mbox 擷取選件。 |
@@ -181,7 +181,7 @@ adobe.target.getOffers({
 }
 ```
 
-然後，您可以透過 [「資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)」轉送裝載至Adobe Analytics。
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料 {#multiple}
 
