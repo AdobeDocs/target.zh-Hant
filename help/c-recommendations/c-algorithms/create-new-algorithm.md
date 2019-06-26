@@ -1,6 +1,6 @@
 ---
-description: 條件可控制建議活動的內容。建立條件以顯示最適合您的活動的建議。
-seo-description: 標準控制Adobe Recommendations活動的內容。建立條件以顯示最適合您的活動的建議。
+description: 條件可控制 Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
+seo-description: 條件可控制 Adobe Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
 seo-title: 建立條件
 solution: Target
 title: 建立條件
@@ -9,14 +9,14 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 建立條件{#create-criteria}
 
-條件可控制建議活動的內容。建立條件以顯示最適合您的活動的建議。
+條件可控制 Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
 
 ## 建立條件 {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -24,56 +24,56 @@ source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
 
 有多個方式可進入[!UICONTROL 「建立新條件」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 建立 [!DNL Recommendations]**活動時，請在[!UICONTROL 「選取條件」]**畫面上按一下[!UICONTROL 「新建」]。您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
-* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取**[!UICONTROL 「變更條件」]**。在[!UICONTROL 「選取條件」]畫面上，按一下**[!UICONTROL 「新建」]**。您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
-* 在**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 條件」]**資料庫畫面上，按一下**[!UICONTROL 「建立條件」**]。您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
+* 建立 [!DNL Recommendations]**活動時，請在[!UICONTROL 「選取條件」]** 畫面上按一下[!UICONTROL 「新建」]。您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
+* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取 **[!UICONTROL 「變更條件」]**。在[!UICONTROL 「選取條件」]畫面上，按一下 **[!UICONTROL 「新建」]**。您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
+* 在 **[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 條件」]** 資料庫畫面上，按一下 **[!UICONTROL 「建立條件」**]。您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
 
-1. 按一下**[!UICONTROL 「建立條件」]**或**[!UICONTROL 「新建」]**。
+1. 按一下 **[!UICONTROL 「建立條件」]** 或 **[!UICONTROL 「新建」]**。
 
-   ![「建立標準」按鈕](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+   ![建立條件按鈕](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
-1. 選取**[!UICONTROL 「建立條件」]**。
+1. 選取 **[!UICONTROL 「建立條件」]**。
 
-   ![建立新標準](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+   ![建立新條件](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-1. 輸入**[!UICONTROL 條件名稱]**。
+1. 輸入 **[!UICONTROL 條件名稱]**。
 
    這是用來說明該條件的「內部」名稱。例如，您可能想要將您的條件稱為「利潤最高的產品」，但您不想要將該標題公開顯示。請參閱下一個步驟來設定公開顯示的標題。
 
-1. 輸入公開顯示的**[!UICONTROL 顯示標題]**，以在使用此條件的任何 Recommendations 頁面上顯示。
+1. 輸入公開顯示的 **[!UICONTROL 顯示標題]**，以在使用此條件的任何 Recommendations 頁面上顯示。
 
    例如，使用此條件來顯示建議時，您可能想要顯示「瀏覽過此項目、也瀏覽了其他項目的使用者」或「類似產品」。
 
-1. 輸入條件的簡短**[!UICONTROL 說明]**。
+1. 輸入條件的簡短 **[!UICONTROL 說明]**。
 
    說明應該能協助您識別條件，並且可能包括關於條件用途的資訊。
 
-1. 選取 **[!UICONTROL 產業垂直]**：
+1. 選取 **[!UICONTROL 垂直產業]**:
 
    * [!UICONTROL 零售/電子商務]
    * [!UICONTROL 潛在客戶開發/B2B/金融服務]
    * [!UICONTROL 媒體/出版]
    其他條件選項將根據您選取的垂直產業而變更。
 
-1. 選取一個**[!UICONTROL 頁面類型]**。
+1. 選取一個 **[!UICONTROL 頁面類型]**。
 
    您可以選取多個頁面類型。
 
    產業垂直和頁面類型可共同用來分類您儲存的條件，讓您可輕鬆對其他 [!DNL Recommendations] 活動重複使用條件。
 
-1. 選取一個**[!UICONTROL 建議索引鍵]**。
+1. 選取一個 **[!UICONTROL 建議索引鍵]**。
 
-   如需索引鍵上基本准則的詳細資訊，請參閱 [建議索引鍵上](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)的建議。
+   如需依據索引鍵的條件之相關詳細資訊，請參閱[讓建議以建議索引鍵為依據](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
 
-1. 選取**[!UICONTROL 「建議邏輯」]**。
+1. 選取 **[!UICONTROL 「建議邏輯」]**。
 
    如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
    >[!NOTE]
    >
-   >如果您選取**[!UICONTROL 「具有類似屬性的項目]**/**[!UICONTROL 媒體」]**，便可選擇設定[內容相似度規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)。
+   >如果您選取 **[!UICONTROL 「具有類似屬性的項目]**/**[!UICONTROL 媒體」]**，便可選擇設定[內容相似度規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)。
 
-1. 設定**[!UICONTROL 資料範圍]**，以便在決定要顯示哪些建議時，限定要使用的可用歷史使用者行為資料的時間範圍。
+1. 設定 **[!UICONTROL 資料範圍]**，以便在決定要顯示哪些建議時，限定要使用的可用歷史使用者行為資料的時間範圍。
 
    如果您的網站經常有大量流量和行為變更，請選擇較短的資料時段。較短的時段可讓 [!DNL Recommendations] 對於市場和您的業務中的變更更具回應力。例如，較短的時段表示 [!DNL Recommendations] 將在您的訪客開始季節性購物 (例如開學購物或聖誕節) 時偵測訪客行為中的變更，並將對這些購物季建議適當的項目。
 
@@ -87,11 +87,11 @@ source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
    * 一個月
    * 兩個月
 
-1. 選取需要的**[!UICONTROL 行為資料來源]**: [!UICONTROL mbox] 或 [!UICONTROL Analytics]。
+1. 選取需要的 **[!UICONTROL 行為資料來源]**: [!UICONTROL mbox] 或 [!UICONTROL Analytics]。
 
    如果您選擇 [!UICONTROL Analytics]，請選取需要的報表套裝。
 
-1. 設定**[!UICONTROL 內容]**規則。
+1. 設定 **[!UICONTROL 內容]** 規則。
 
    內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。
 
@@ -102,7 +102,7 @@ source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
    * [!UICONTROL 建議先前購買的項目]
    此設定是根據 `productPurchasedId`。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是客戶會回來再次購買的項目，例如洗髮精或其他個人項目，則應該停用此選項。
 
-1. 設定 **[!UICONTROL 包含規則]**。
+1. 設定您的 **[!UICONTROL 包含規則]**。
 
    包含規則可決定將在您的建議中包括哪些項目。可用的選項取決於您的垂直產業。
 
@@ -114,17 +114,17 @@ source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
 
    請參閱[屬性加權](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)。
 
-1. 完成時，按一下**[!UICONTROL 「儲存」]**。
+1. 完成時，按一下 **[!UICONTROL 「儲存」]**。
 
-   如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取**[!UICONTROL 「儲存條件以供稍後使用」]核取方塊。**如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
+   如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取 **[!UICONTROL 「儲存條件以供稍後使用」]核取方塊。** 如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
 
-### 預期條件處理時間
+### 預計條件處理時間
 
-* **mbox**：如果標準使用mbox作為行為資料來源，在建立後，標準就會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定會導致條件重新執行。
+* **mboxes**: 如果條件使用 mbox 當作行為資料來源，條件建立後便會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定會導致條件重新執行。
 
-* **分析**：如果標準用作 [!DNL Adobe Analytics] 「行為資料來源」後，標準可用性的時間取決於選取的報表套裝和回顧視窗是否已用於其他標準。如果報表套裝先前已搭配至少與所選回顧期間一樣長的回顧期間，Target 中即可使用行為資料，Recommendations 也會立即執行條件。視使用的行為資料數量和目錄大小而定，演算法最多可能需 12 個小時來執行。如果先前未使用報表套裝，或是搭配更長回顧期間，Recommendations 必須要求和接收 Adobe Analytics 的資料，接著再執行演算法。與 Analytics 同步的過程視 Analytics 系統負載而定，一般至少需 2 天，最多可能需 7 天才能完成。
+* **Analytics**: 如果條件使用 [!DNL Adobe Analytics] 當作行為資料來源，建立後，條件可用時間會根據其他條件是否已使用選取的報表套裝和回顧期間而定。如果報表套裝先前已搭配至少與所選回顧期間一樣長的回顧期間，Target 中即可使用行為資料，Recommendations 也會立即執行條件。視使用的行為資料數量和目錄大小而定，演算法最多可能需 12 個小時來執行。如果先前未使用報表套裝，或是搭配更長回顧期間，Recommendations 必須要求和接收 Adobe Analytics 的資料，接著再執行演算法。與 Analytics 同步的過程視 Analytics 系統負載而定，一般至少需 2 天，最多可能需 7 天才能完成。
 
-## 依據建議索引鍵建立建議 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+## 讓建議以建議索引鍵為依據 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
 基於機碼的 Recommendations 會利用訪客行為環境來顯示相關結果。
 
@@ -135,8 +135,8 @@ source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
 
 各條件均在自己的標籤中定義。流量平均分入不同的條件測試中。換句話說，如果您有兩個條件，流量會在它們之間平均分配。如果您有兩個條件和兩個設計，流量會在四個組合中平均分割。您也可指定可看到預設內容的訪客比例，以進行比較。這種情況下，指定比例的訪客看到預設內容，其餘的分入條件和設計組合之間。
 
-1. 建立新建議，或選取現有的建議，然後按一下**[!UICONTROL 「編輯」]**。
-1. 若要變更建議索引鍵，請從[!UICONTROL 「建議索引鍵」]下拉式清單中選取新索引鍵，然後按一下**[!UICONTROL 「儲存」]**。
+1. 建立新建議，或選取現有的建議，然後按一下 **[!UICONTROL 「編輯」]**。
+1. 若要變更建議索引鍵，請從[!UICONTROL 「建議索引鍵」]下拉式清單中選取新索引鍵，然後按一下 **[!UICONTROL 「儲存」]**。
 
    因為不同邏輯會對應至不同建議金鑰，而不同建議會將自身借出，以放置在不同類型的頁面上。請參閱下文章節，瞭解有關每個索引鍵的詳細資訊。
 
@@ -202,28 +202,28 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 可以在任何頁面上使用。
 
-**使用自訂建議金鑰**
+**使用自訂建議索引鍵**
 
-您可以根據自訂描述檔屬性的值來建立建議。例如，假設您想要根據最近新增至佇列的訪客，顯示建議影片。
+您可以讓建議以自訂設定檔屬性的值為依據。例如，假設您要依據訪客最近新增至其佇列中的電影顯示推薦電影。
 
-1. 從 **[!UICONTROL 「建議索引鍵」]** 下拉式清單中選取您的自訂描述檔屬性(例如「上次新增至監看清單」)。
-1. 然後選取 **[!UICONTROL 您的建議邏輯]** (例如「檢視過此項目的人員，檢視過的人」)。
+1. 從 **[!UICONTROL 建議索引鍵]** 下拉式清單 (例如「最近新增到觀看清單的節目」) 中選取自訂設定檔屬性。
+1. 接著，選取 **[!UICONTROL 建議邏輯]** (例如「瀏覽過此項目、也瀏覽了其他項目的使用者」)。
 
-   ![建立新標準對話方塊](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+   ![建立新條件對話方塊](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-如果您的自訂描述檔屬性無法直接與單一實體ID相符，則必須說明您要 [!DNL Recommendations] 如何符合實體。例如，假設您想要顯示訪客最愛品牌的最暢銷商品。
+如果自訂設定檔屬性未直接比對至單一實體 ID，則需要向 [!DNL Recommendations] 解說您希望實體的比對如何發生。例如，假設您要顯示訪客最喜愛品牌的最暢銷商品項目。
 
-1. 從 **[!UICONTROL 「建議索引鍵」]** 下拉式清單中選取您的自訂描述檔屬性(例如「我的最愛品牌」)。
+1. 從 **[!UICONTROL 建議索引鍵]** 下拉式清單 (例如「最喜愛的品牌」) 選取自訂設定檔屬性。
 
-1. 然後選取您要使用此索引鍵的 **[!UICONTROL ]** 建議邏輯(例如「排名最前的銷售商品」)。
+1. 接著，選取您要用於此索引鍵的 **[!UICONTROL 建議邏輯]** (例如「最暢銷商品」)。
 
-   「依獨特值 [!UICONTROL 分組」] 選項會顯示。
+   [!UICONTROL 依下列唯一值分組]選項隨即顯示。
 
-1. 選取符合您選擇之索引鍵的實體屬性。在此案例中，「我的最愛品牌」符合 `entity.brand`。
+1. 選取比對至您已選擇之索引鍵的實體屬性。在此範例中，「最喜愛的品牌」比對至 `entity.brand`。
 
-   [!DNL Recommendations] 現在會針對每個品牌產生「排名最前的商品」清單，並根據訪客「最愛品牌」設定檔屬性中儲存的值，向訪客顯示適當的「排名最前商品」清單。
+   [!DNL Recommendations] 現在會產生每個品牌的「最暢銷商品」清單，並依據訪客最喜愛的品牌設定檔屬性中儲存的值，向訪客顯示相關的「最暢銷商品」清單。
 
-   ![建立新標準對話方塊2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![建立新條件對話方塊 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### 上次購買的項目
 
@@ -407,7 +407,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
    此設定是根據 `productPurchasedId` 設定檔值。預設行為是不推薦先前購買的項目。大多數情況下，您不會想推銷客戶最近已購買的項目。如果客戶通常會重複購買特定項目，啟用此功能即可繼續推薦先前購買的項目。
 
-如果您啟用**[!UICONTROL 「顯示備用建議」]**，系統會依預設啟用對備用建議套用[包含規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)的選項。
+如果您啟用 **[!UICONTROL 「顯示備用建議」]**，系統會依預設啟用對備用建議套用[包含規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)的選項。
 
 ![](assets/Recs_ContentControls.png)
 
@@ -426,7 +426,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 使用內容相似度來產生建議對於新項目來說尤其有效，它不太可能在使用*瀏覽過此項目、也瀏覽了其他項目的使用者*和根據過去行為之其他邏輯的建議中顯示。您也可以使用內容相似度，為沒有過去的購買或其他歷史資料的新訪客產生實用的建議。
 
-選取「具有類似屬性的**[!UICONTROL 項目]**/**[!UICONTROL 媒體]**」時，您可選擇建立規則，以增加或減少在決定建議時特定項目屬性的重要性。對於書籍之類的項目，您可能想要增強*風格*、*作者*、*系列*之類屬性的重要性，以建議類似的書籍。
+選取「具有類似屬性的 **[!UICONTROL 項目]**/**[!UICONTROL 媒體]**」時，您可選擇建立規則，以增加或減少在決定建議時特定項目屬性的重要性。對於書籍之類的項目，您可能想要增強*風格*、*作者*、*系列*之類屬性的重要性，以建議類似的書籍。
 
 ![](assets/ContentSimilarity.png)
 
