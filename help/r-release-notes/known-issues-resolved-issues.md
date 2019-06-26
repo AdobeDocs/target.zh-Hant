@@ -7,8 +7,8 @@ solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 下列是 at.js 的已知問題:
 
-* 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](https://marketing.adobe.com/resources/help/zh_TW/target/recs/t_algo_select_recs.html)可讓您檢視完整的演算法清單。
+* 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html)可讓您檢視完整的演算法清單。
 
    使用 at.js 時，「相容性」核取方塊會隱藏，使得您看不見不相容的演算法。
 
