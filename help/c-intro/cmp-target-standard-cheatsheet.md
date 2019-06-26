@@ -8,7 +8,7 @@ title: Target 最佳化和個人化常見問題集
 topic: 進階
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -318,7 +318,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我怎麼做才能讓此程序簡單點?
 
-這是 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)很實用。如果您有 Adobe Analytics，只需將來源選擇為 Analytics，便可消除此限制。現在您可以隨時對任何對象執行分析，並且不需預先定義報表對象。
+這是[Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)很實用。如果您有 Adobe Analytics，只需將來源選擇為 Analytics，便可消除此限制。現在您可以隨時對任何對象執行分析，並且不需預先定義報表對象。
 
 我之後可以清理報表和開始記錄資料嗎? 例如，記錄的初始點擊是因為我自己對活動的測試點擊。
 
@@ -326,7 +326,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我可以執行離線報表計算?
 
-使用[「匯出報表至 CSV」和「下載訂單詳細資料至 CSV」選項](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)(「報表」頁面上) 來下載需要的報表資料。
+使用[「匯出報表至 CSV」和「下載訂單詳細資料至 CSV」選項](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) (「報表」頁面上) 來下載需要的報表資料。
 
 我可以變更評估報表的控制體驗，或變更訪客造訪的計算方法嗎?
 
@@ -334,7 +334,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我應該如何解譯報表?
 
-我們已嘗試使用如下的功能，盡可能讓報表直覺化:  [信賴區間長條圖、提升界限、顯著性/可信度和多個度量選項、表格和圖表檢視、執行平均等等](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以實現功能強大且容易的報表分析。顯然地，如果您使用 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活動進行進一步分析對象，便可查看 Analytics。
+我們已嘗試使用如下的功能，盡可能讓報表直覺化:   [信賴區間長條圖、提升界限、顯著性/可信度和多個度量選項、表格和圖表檢視、執行平均等等](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以實現功能強大且容易的報表分析。顯然地，如果您使用 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活動進行進一步分析對象，便可查看 Analytics。
 
 ## 回應 Token {#section_C2A7118B4B62482A9D630C2212112A3D}
 
