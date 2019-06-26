@@ -7,8 +7,8 @@ solution: Target
 title: 建立選件資料夾
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,15 +38,15 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 檢視資料夾資訊。
 
-### 編輯   ![](assets/icon_edit.png)
+### 編輯    ![](assets/icon_edit.png)
 
 編輯資料夾。
 
-### 複製![](assets/icon_copy.png)
+### 複製 ![](assets/icon_copy.png)
 
 複製資料夾。
 
-### 移動![](assets/icon_move_folder.png)
+### 移動 ![](assets/icon_move_folder.png)
 
 按一下此圖示，導覽至您要移動資料夾的位置，然後按一下「放置」圖示。
 
@@ -79,6 +79,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 使用 Adobe Creative Cloud 共用資料夾及其內容。
 
-### 複製![](assets/icon_copy_content.png)
+### 複製 ![](assets/icon_copy_content.png)
 
 複製資料夾及其內容。
