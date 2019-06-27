@@ -1,5 +1,5 @@
 ---
-description: 以下版本說明提供最新或即將發行之 Target 版本的功能、增強功能、修正和已知問題等資訊。
+description: 以下版本說明提供最新或即將發行之 Adobe Target 版本的功能、增強功能、修正和已知問題等資訊。
 keywords: 版本說明
 seo-description: 以下版本說明提供最新或即將發行之 Adobe Target 版本的功能、增強功能、修正和已知問題等資訊。
 seo-title: Adobe Target發行說明(搶鮮版)
@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 ---
 
