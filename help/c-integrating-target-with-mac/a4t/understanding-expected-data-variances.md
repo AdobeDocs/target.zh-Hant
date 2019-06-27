@@ -8,7 +8,7 @@ title: 不使用 A4T 時的預期資料差異
 topic: 進階
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -28,6 +28,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    若已在 Target 中將重新導向測試設定為分割流量 50/50 (或 25/25/25/25 等)，使用者行為可能無法除盡。如果您看到不平均的分割，這就表示相較於其他群組，某個使用者群組無法在登陸頁面上執行 Analytics 呼叫。這種某個群組無法執行 Analytics 呼叫的情況導致了該使用者的 Target 點擊遭到排除，產生不平均的問題。
 
    這是我們希望在 Adobe Experience Platform 上邁向 A4T 的同時，能在未來處理的問題。我們的團隊正在努力尋找在不同時間點發生的這些頁面上的不同事件的最佳處理方法。
+
+   >[!NOTE]
+   >
+   >已知的問題是，導致有限的客戶使用A4T重新導向，以查看較高比例的點擊點擊率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * 假設您建立了一個在特定頁面開放給所有訪客的自動分配活動。由於「自動分配」活動不支援 A4T，因此 [!DNL Target] 會收集所有活動資料。您可能希望 [!DNL Target] 報表中的活動訪客數與相同日期範圍內 [!DNL Analytics] 報表中該頁面的訪客數相符。這是下列所述之預期差異的案例。
 
