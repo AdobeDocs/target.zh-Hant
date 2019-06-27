@@ -8,7 +8,7 @@ title: 重新導向選件 - A4T 常見問題集
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## Analytics for Target (A4T) 支援重新導向選件嗎? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 是，前提是您的實作使用 [!DNL at.js]。不過，您的實作必須符合下列最低需求，才能在以 Analytics 作為報表來源的活動中使用[重新導向選件](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
+
+>[!NOTE]
+>
+>已知的問題是，導致有限的客戶使用A4T重新導向，以查看較高比例的點擊點擊率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## 在 A4T 中使用重新導向選件有何最低需求? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
