@@ -2,13 +2,13 @@
 description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
 keywords: 已知問題;已解決的問題;版本說明
 seo-description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
-seo-title: 已知問題和已解決的問題
+seo-title: Adobe Target中已知問題和解決問題
 solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節列出 [!DNL Target] 的已知問題:
+
+### 重新導向選件 {#redirect}
+
+下列是重新導向選件的已知問題:
+
+* 在某些情況下，在Analytics for Target(A4T)設定的活動中使用重新導向選件時，有限的客戶數量回報流量分布中的差異程度較高。Adobe工程師目前正在處理此問題。
+* 您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。預計會在. js實作中更新更新，以確保避免此競賽條件。如需關於問題和解決方案的詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
+* at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
 ### 使用自訂體驗做為控制時，自動Target活動的圖表報表無法轉譯
 
@@ -92,13 +100,6 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache。at.js 資料庫*不*支援這些語言。
 
 **注意**: 將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
-
-### 重新導向選件
-
-下列是重新導向選件的已知問題:
-
-* 您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。計劃在 2018 年第 2 季對 at.js 實作進行更新，以確保可以避免此競爭條件。如需關於問題和解決方案的詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
-* at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
 ### 實作: 全域 Mbox 自動建立
 
