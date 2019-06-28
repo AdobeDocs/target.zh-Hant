@@ -3,7 +3,7 @@ product: Target
 audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
@@ -54,7 +54,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隱私權與一般資料保護規範 (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Google Chrome SaveSite Cookie原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Google Chrome SameSite Cookie 原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + 將資料傳入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -88,7 +88,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [SendNotifications()- at. js2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [使用 Adobe Experience Cloud Debugger 除錯 at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [使用雲端型例項搭配 Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
@@ -99,14 +99,14 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [從 at.js 1.x 升級為 at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
       + [at.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + mbox.js 實作 {#mbox-implement}
-         + [Mbox.js 實作概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
+         + [mbox.js 實作概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + 從 mbox.js 移轉至 at.js {#migrate-mbox}
             + [從 mbox.js 移轉至 at.js 概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
             + [如何從 mbox.js 移轉至 at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
             + [at.js 限制](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
             + [at.js 外掛程式](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
             + [將 at.js 部署至非生產環境](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
-         + [Mbox.js 的作用](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
+         + [mbox.js 的作用](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [設定 mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [下載 mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
          + [根據 mbox.js 程式庫版本鎖定頁面方法](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
@@ -143,7 +143,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [測試電子郵件影像 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [使用重新導向程式](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + 將 Adobe Target 與 Experience Cloud 整合 {#integrate}
-   + Adobe Analytics 作為 Adobe Target (A4T) 的報表來源{#a4t}
+   + Adobe Analytics 作為 Adobe Target (A4T) 的報表來源 {#a4t}
       + [A4T 概覽](c-integrating-target-with-mac/a4t/a4t.md)
       + [實作之前](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 實作](c-integrating-target-with-mac/a4t/a4timplementation.md)
