@@ -1,13 +1,13 @@
 ---
-description: 字詞定義。
+description: Adobe Target中使用詞彙的定義。
 seo-description: 字詞定義。
-seo-title: 字彙表
+seo-title: Adobe Target詞彙表
 solution: Target
 title: 字彙表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -228,7 +228,7 @@ Target Standard 中活動的視覺表示。
 
 **mbox**
 
-「行銷方塊」，即網頁上顯示內容並記錄訪客行為的位置。某些 mbox 不會顯示任何內容。這些 mbox 可能會透過您的網站來追蹤訪客進度，或是追蹤訪客是否已完成特定成功度量，例如將項目新增至購物車，或是完成購物。*轉換 mbox* 便屬於此類 mbox。
+「行銷盒」的簡寫，是在您網頁上顯示內容及記錄訪客行為的位置。某些 mbox 不會顯示任何內容。這些 mbox 可能會透過您的網站來追蹤訪客進度，或是追蹤訪客是否已完成特定成功度量，例如將項目新增至購物車，或是完成購物。*轉換 mbox* 便屬於此類 mbox。
 
 **mbox.js**
 
@@ -309,10 +309,6 @@ Target Standard 中活動的視覺表示。
 **單頁應用程式**
 
 單頁應用程式(SPA)是適用於單一網頁的網頁應用程式或網站，可提供更流暢的使用者體驗，類似桌面應用程式。
-
-**智慧型定位器描述檔參數**
-
-類似指令碼描述檔參數，但是預先定義，以提供有用的定位功能。
 
 **成功量度**
 
