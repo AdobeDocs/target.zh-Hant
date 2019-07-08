@@ -9,7 +9,7 @@ title: Adobe Target 如何運作
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## Target JavaScript 資料庫 {#libraries}
 
-Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 mbox.js
+Adobe Target透過兩個JavaScript程式庫之一，與網站整合：at. js或mbox. js
 
 * **at.js**: [at.js 資料庫](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是新的 Target 實作資料庫。at.js 程式庫改善 Web 實作的頁面載入時間，並且為單頁應用程式提供更好的實作選項。at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至[最新版本的 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js:** mbox.js 程式庫為舊版的 Target 實作程式庫。系統仍支援 mbox.js 程式庫，但將不會提供功能更新。
@@ -29,13 +29,13 @@ Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 
 >
 >所有客戶應該移轉至 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-您必須在網站的每個頁面上參照任一 Target JavaScript 檔案。例如，您可以將此檔案新增至全域標頭。
+您必須在網站上的每個頁面上參考Target JavaScript程式庫檔案。例如，您可以將此檔案新增至全域標頭。Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-每當訪客請求已針對 Target 而最佳化的頁面時，就會傳送請求給目標系統，以決要提供什麼內容給訪客。每次載入頁面時就會立即發生這個程序，亦即提出內容的請求並由系統履行。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。提供的內容要讓每一位網站訪客最有可能回應、互動、最終購買，以獲得最高的回應率、贏取率、收入。
+每當訪客請求已針對 Target 而最佳化的頁面時，就會傳送請求給目標系統，以決要提供什麼內容給訪客。此程序即時發生：每次載入頁面時，系統就會提出並履行內容要求。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。提供的內容要讓每一位網站訪客最有可能回應、互動、最終購買，以獲得最高的回應率、贏取率、收入。
 
-在 Target 中，頁面上的每一個元素都屬於整個頁面的單一體驗。每一個體驗包含頁面上的多個元素。您要追蹤的每一個頁面會在 `<head>` 中以一行程式碼將頁面最佳化。
+在 Target 中，頁面上的每一個元素都屬於整個頁面的單一體驗。每個體驗都可能包含頁面上的多個元素。
 
-對訪客顯示的內容取決於您建立的活動類型。
+顯示給訪客的內容取決於您建立的活動類型：
 
 ### A/B 測試
 
@@ -48,7 +48,7 @@ Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 
 1. 客戶向伺服器請求頁面，並在瀏覽器中顯示該頁面。
 2. 在客戶瀏覽器中設定第一方 Cookie，以儲存客戶行為。
 3. 頁面呼叫目標系統。
-4. 根據行銷活動的規則來顯示內容。
+4. 內容會根據活動的規則顯示。
 
 ### 自動分配
 
@@ -60,7 +60,7 @@ Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 
 
 如需詳細資訊，請參閱[自動鎖定目標](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
 
-自動鎖定目標使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。
+Auto-Target使用先進的機器學習功能，從多個高效能行銷人員定義的體驗中選擇，並根據每位訪客的個人檔案和類似設定檔的行為，為每位訪客提供最量身打造的體驗，以便個人化內容並推動轉化。
 
 ### 自動個人化 (AP)
 
@@ -92,7 +92,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 「Edge」是按地理區域分配服務的架構，可確保對一般使用者的請求內容有最短的回應時間，無論他們身在何處。
 
-為了改進回應時間，Edge 環境只會存放活動邏輯和已快取的設定檔及選件資訊。活動和選件資料庫、[!DNL Analytics] 資料、API 和市場行銷人員使用者介面都存放在 Adobe 的中央資料環境中。接著會將更新傳送至 Edge 節點。中央環境和 Edge 節點會自動同步，以持續更新已快取的活動資料。也會在每個 Edge 儲存 1:1 模型，因此更複雜的請求也能保留在 Edge。
+為改善回應時間，Edge環境僅裝載活動邏輯和快取描述檔和選件資訊。活動和選件資料庫、[!DNL Analytics] 資料、API 和市場行銷人員使用者介面都存放在 Adobe 的中央資料環境中。接著會將更新傳送至 Edge 節點。中央環境和Edge節點會自動同步，以持續更新快取的活動資料。1：1模型也會儲存在每個邊緣，因此也可以在Edge上處理更複雜的請求。
 
 每個 Edge 節點有所有必要的資訊，可回應使用者的內容請求及追蹤該請求的分析資料。使用者請求會被轉至最近的 Edge 節點。
 
@@ -102,21 +102,19 @@ Core Edge 網站位置同時包含資料收集中心和資料處理中心。Edge
 
 Adobe 目前在幾個大洲上皆有資料中心，涵蓋多個區域位置，橫跨北美洲、歐洲和亞洲。
 
-不是由單一位置回應所有鎖定目標請求，而是由最靠近請求點的 Edge 環境來回應請求，可減輕網路/網際網路行經時間的影響。
-
-網路也充當容錯移轉機制。如果一個 Edge 節點失去作用，請求會被重新導向至下一個最靠近的節點，確保不讓使用者得到預設內容 (當無法完成請求時，發生的典型備份回應)。
+與其回應單一位置的所有定位要求，請求會由最靠近訪客的Edge環境處理，進而減輕網路/網際網路旅行時間的影響。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
+>[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
 
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 盡可能確保定位基礎建設的可用度和效能值得信賴。然而，使用者瀏覽器和 Adobe 伺服器之間的通訊中斷可能會造成內容傳輸的中斷。
 
-為了在發生服務中斷和連線問題的情況下提供保護，所有位置都設定為包含預設內容 (由客戶定義)，在使用者的瀏覽器無法連線到 [!DNL Target] 時就會呈現。
+To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
 
-如果使用者的瀏覽器無法在已定義的逾時期間內連接 (預設為 15 秒)，頁面不會有任何變更。如果到達此逾時臨界值，則會變更 Cookie 的設定，讓使用者立即看到所有其他位置的預設內容。這個狀態會維持半小時，然後使用者的瀏覽器會為了位置請求而再度嘗試聯絡 Adobe 伺服器。
+如果使用者的瀏覽器無法在定義的逾時期間內連線(預設為預設)，則不會對頁面進行任何變更：15秒)。如果到達逾時臨界值，則會顯示預設位置內容。
 
 Adobe 藉由效能最佳化以及保衛效能的方式保護使用體驗。
 
@@ -160,7 +158,7 @@ Google 鼓勵使用者測試，且已於說明文件中表示只要遵守一些�
 
    還必須考量您所測試頁面的可存取性。如果頁面無法供搜尋引擎存取，也從未設計成要在自然搜尋引擎中排在第一名，例如電子郵件行銷活動的專用登陸頁面，則上述考量完全沒必要。
 
-Google 表示下列這些準則「應該會讓您的測試幾乎或完全不影響您的網站在搜尋結果中的情形」。
+Google指出，遵循這些指引「應該會導致您的測試在搜尋結果中對您的網站沒有任何影響」。
 
 除了這些準則，Google 在說明文件中還對「內容實驗」工具多提供一條準則:
 
