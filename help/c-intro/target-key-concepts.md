@@ -9,7 +9,7 @@ title: Target 重要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -98,11 +98,11 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 或者，您可以將活動鎖定在來自相同地區的訪客，或從特定搜尋引擎存取您網頁的人。
 
-對象可儲存供多個活動重複使用，也可以針對特定行銷活動而建立。
+您可以儲存觀眾，以便在多個活動中重復使用，也可以針對特定活動建立這些觀眾。
 
 | 對象類型 | 說明 |
 |--- |--- |
-| 可重複使用的對象 | 可重複使用的對象可供任何測試選取。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
+| 可重複使用的對象 | 可針對任何活動選擇可重復使用的對象。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
 | 自訂群體 | 自訂區段 (也稱為行銷活動專用區段) 專供 Target Classic 中的行銷活動使用。它們是某個促銷活動的一部分，不可在其他促銷活動中重複使用。 |
 | 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用對象。相關範例請參閱 [Experience Cloud 對象](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)。 |
 
