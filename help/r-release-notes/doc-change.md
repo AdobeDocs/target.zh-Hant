@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -21,13 +21,14 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-|  | [已知問題和解決問題當](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[使用且未使用A4TreDirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[選件-A4 T常見問題時，Target與Analytics之間預期的資料差異](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 已新增已知問題，此問題會導致部分客戶使用A4T重新導向，檢視較高比例的點擊點擊率。 |
+| 2019年月日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增資訊，說明您為何應使用CNAME。 |
+| 2019年月28日 | [已知問題和解決問題當](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[使用且未使用A4TreDirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[選件-A4 T常見問題時，Target與Analytics之間預期的資料差異](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 已新增已知問題，此問題會導致部分客戶使用A4T重新導向，檢視較高比例的點擊點擊率。 |
 | 2019年月26日 | [視覺體驗選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
 |  | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新區段：「SPA CMS的頁面傳送設定」。 |
 |  | [選擇自動個人化或自動目標活動的控制權](/help/c-activities/t-automated-personalization/experience-as-control.md) |  新主題。 |
-|  | [Google Chrome SaveSite Cookie原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) |  新主題。 |
+|  | [Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) |  新主題。 |
 |  | [Target 個人化演算法的資料收集](/help/c-activities/t-automated-personalization/ap-data.md) | 新增新表格來說明個別附件並提供範例。 |
 |  | [自動個人化的常見問答集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增常見問題集：「我可以指定要用作控制的特定體驗嗎？」<br>已編輯下列常見問答集：「設定自動個人化活動的最佳實務為何？」 |
 |  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 已新增資訊和常見問題，以指定要使用作為控制的特定體驗。<br>更新「決定流量分配」一節。 |
