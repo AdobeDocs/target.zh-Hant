@@ -8,7 +8,7 @@ title: Target 最佳化和個人化常見問題集
 topic: 進階
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的
 
 **我可以套用位在不同位置 (例如，結帳漏斗) 的選件嗎?**
 
-請試用[多頁活動功能](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，它可讓您在體驗內建立多個頁面。
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **我如何確保一旦達到目標 (主要或次要)，使用者絕不會再次進入活動，而是之後會看到不同活動?**
 
@@ -89,9 +89,9 @@ at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的
 
 因此，在此情況中，您可以選擇「增加計數、釋出使用者以及禁止重新進入」以及「預設/其他活動內容」以達成目標。也請查看其他選項。
 
-**我已在我的活動中建立多個目標。我可以建立一連車的目標作為報表和分析用途的漏斗嗎?
+**我已在我的活動中建立多個目標。我可以建立一連車的目標作為報表和分析用途的漏斗嗎?**
 
-例如，我想要在使用者達成目標 A 時考慮目標 B，使得我可以追蹤特定漏斗的數量。**
+**例如，我想要在使用者達成目標 A 時考慮目標 B，使得我可以追蹤特定漏斗的數量。**
 
 Target 有一個健全的方式可達成此目標，就是利用我們的「度量相依性」功能。只需要[在其他成功度量上新增相依性](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)。您有類似「達到」和「未達到」之類的選項，並能夠以多個方式結合度量來建立您需要的任何組合。
 
@@ -107,7 +107,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 使用三個部分活動工作流程的[目標和設定中的排程功能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟，指定開始和結束日期。
 
-記得啟動行銷活動。只有線上行銷活動會遵循指定的排程。達到結束日期之後，活動會進入「已結束」狀態。
+記得啓用活動。只有即時活動符合指定的排程。達到結束日期之後，活動會進入「已結束」狀態。
 
 **我可以只對鎖定目標步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯?**
 
@@ -131,24 +131,12 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 使用 Target 三個步驟引導工作流程步驟 3 (「目標與設定」頁面) 上可用的優先順序設定來[定義活動的優先順序](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
 
-有幾個選項可選:
-
-* [Target JavaScript 資料庫 (at.js 和 mbox.js)](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* 預設，具有三個層級 (低/中/高)
-* 自訂，範圍從 0 到 999。針對「自訂」，請啟用「微調優先順序」功能 (「設定」&gt;「偏好設定」)。
-
-## 受眾 {#section_FA6314777ABC46D8B198D6F388051460}
-
-**我已設定兩個活動。訪客最後會看到哪個活動?**
-
-**我可以設定一些活動的優先順序嗎?**
-
-使用 Target 三個步驟引導工作流程步驟 3 (「目標與設定」頁面) 上可用的優先順序設定來[定義活動的優先順序](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
-
 提供兩個選項:
 
 * 預設，具有三個層級 (低/中/高)
 * 自訂，範圍從 0 到 999。針對「自訂」，請啟用「微調優先順序」功能 (「設定」&gt;「偏好設定」)。
+
+## 受眾 {#section_FA6314777ABC46D8B198D6F388051460}
 
 **我可以在活動特定的活動中建立對象區段嗎? 我不認為應該在對象資料庫中建立這類對象，因為沒有重複使用的係數。**
 
@@ -246,21 +234,6 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 使用[表單式方法](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)來建立活動。
 
-**我可以從一些少量的訪客開始活動嗎?**
-
-使用 [Target 三步驟引導式工作流程的步驟 2 (「鎖定目標」頁面)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) 所提供的百分比分配控制項目，決定您要如何設定活動。
-
-**我已設定兩個活動。訪客最後會看到哪個活動?**
-
-**我可以設定一些活動的優先順序嗎?**
-
-使用 Target 三個步驟引導工作流程步驟 3 (「目標與設定」頁面) 上可用的優先順序設定來[定義活動的優先順序](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
-
-提供兩個選項:
-
-* 預設，具有三個層級 (低/中/高)
-* 自訂，範圍從 0 到 999。針對「自訂」，請啟用「微調優先順序」功能 (「設定」&gt;「偏好設定」)。
-
 **我可以確保在使用者可能擁有的所有裝置間會一致地提供相同的體驗嗎?**
 
 請查看我們的 [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html)，它可讓您透過 Co-op 的強大功能，決定性地和概率性地連結使用者的多個裝置。
@@ -283,7 +256,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **為什麼我的 QA 程序中沒有發生內容傳送?**
 
-您的網站的元素上可能有動態 ID、重複的 ID 或動態類別。您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。請參閱 [CSS 選取器](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)中的「CSS 選取器」。
+您的網站的元素上可能有動態 ID、重複的 ID 或動態類別。您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **為什麼我看不到需要的選件/體驗，而是看到一些其他活動?**
 
@@ -295,7 +268,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 ## 報表 (包括 Analytics for Target—A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-我也有 Adobe Analytics 並且想要用它與 Target 搭配使用。整合這兩個解決方案我能獲得什麼重要功能?
+**我也有 Adobe Analytics 並且想要用它與 Target 搭配使用。整合這兩個解決方案我能獲得什麼重要功能?**
 
 查看產品的下列方面:
 
@@ -306,33 +279,29 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 * [對象](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-我可以在多個使用者區段上分解報表嗎?
+**我可以在多個使用者區段上分解報表嗎?**
 
 這是三個步驟引導工作流程活動工作流程步驟 3「目標與設定」頁面上所提供[報表對象功能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)的功能。
 
-您可以選擇新增 50 個這類區段，以及應用程式點 (行銷活動項目或特定度量)，以擁有功能強大的方式進行分解。
+您可以選擇新增50個此類區段，以及應用程式點(Activity Entry或特定量度)以有強大的切割和切割方式。
 
 請注意，Target 會就這點從您新增這些對象的時間點收集資料，因此，如果您在執行測試之前誤新增區段，那就不好了。
 
-我無法在執行活動之前定義對象。我覺得 Target 活動中報表對象的這一點很具限制性。
+**我無法在執行活動之前定義對象。我覺得 Target 活動中報表對象的這一點很具限制性。**
 
-我怎麼做才能讓此程序簡單點?
+**我怎麼做才能讓此程序簡單點?**
 
-這是[Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)很實用。如果您有 Adobe Analytics，只需將來源選擇為 Analytics，便可消除此限制。現在您可以隨時對任何對象執行分析，並且不需預先定義報表對象。
+This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. 如果您有 Adobe Analytics，只需將來源選擇為 Analytics，便可消除此限制。現在您可以隨時對任何對象執行分析，並且不需預先定義報表對象。
 
-我之後可以清理報表和開始記錄資料嗎? 例如，記錄的初始點擊是因為我自己對活動的測試點擊。
+**我可以執行離線報表計算?**
 
-使用[重設報告資料](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)功能。
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-我可以執行離線報表計算?
+**我可以變更評估報表的控制體驗，或變更訪客造訪的計算方法嗎?**
 
-使用[「匯出報表至 CSV」和「下載訂單詳細資料至 CSV」選項](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) (「報表」頁面上) 來下載需要的報表資料。
+Make these changes using the [Settings gear on the reports page](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). 進一步閱讀這些設定以瞭解計算方式的差異。
 
-我可以變更評估報表的控制體驗，或變更訪客造訪的計算方法嗎?
-
-進行這些變更，使用[報表頁面上的設定齒輪](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)。進一步閱讀這些設定以瞭解計算方式的差異。
-
-我應該如何解譯報表?
+**我應該如何解譯報表?**
 
 我們已嘗試使用如下的功能，盡可能讓報表直覺化:   [信賴區間長條圖、提升界限、顯著性/可信度和多個度量選項、表格和圖表檢視、執行平均等等](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以實現功能強大且容易的報表分析。顯然地，如果您使用 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活動進行進一步分析對象，便可查看 Analytics。
 
