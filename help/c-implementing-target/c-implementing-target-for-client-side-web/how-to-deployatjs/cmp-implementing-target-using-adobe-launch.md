@@ -6,7 +6,7 @@ seo-title: 使用 Adobe Launch 實作 Target
 title: 使用 Adobe Launch 實作 Target
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,8 +24,8 @@ Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的�
 | 資源 | 詳細資料 |
 |--- |--- |
 | [使用Adobe Target延伸模組教學課程實作](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 本教學課程提供逐步說明，指導您使用 Launch 在網站中實作 Adobe Target。主題包括新增 at.js JavaScript 資料庫、觸發全域 mbox、新增參數以及與其他解決方案整合。本文是大規模教學課程中的一部分，說明如何實作 Adobe Launch 及其他 Adobe Experience Cloud 解決方案。 |
-| [Adobe Launch 文件](https://docs.adobelaunch.com/getting-started) | 關於部署及管理為相關客戶體驗提供支援所需的所有分析、行銷和廣告標籤資訊。 |
-| [Adobe Target延伸模組文件](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension) | 使用 Launch 實作 Target 的相關資訊。 |
+| [Adobe Launch 文件](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | 關於部署及管理為相關客戶體驗提供支援所需的所有分析、行銷和廣告標籤資訊。 |
+| [Adobe Target延伸模組文件](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | 使用 Launch 實作 Target 的相關資訊。 |
 
 ## 使用 Target 啟動擴充功能實作 at.js 的優點 {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
