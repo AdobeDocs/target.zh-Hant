@@ -8,14 +8,14 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
 
 # CNAME 與 Adobe Target{#cname-and-adobe-target}
 
-有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。
+有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。為了最妥善處理廣告封鎖問題，使用CNAME來呼叫客戶擁有的網域，而不是Adobe擁有的網域。
 
 執行下列步驟以在 Target 中要求 CNAME 支援:
 
