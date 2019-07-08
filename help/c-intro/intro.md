@@ -8,7 +8,7 @@ title: Target 簡介
 topic: 進階
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需工具，讓您量身打造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-下列影片可讓您基本上瞭解 Target 及其他 Adobe Experience Cloud 解決方案如何協助您的組織達成目標:
+下列影片對Target以及其他Adobe Experience Cloud解決方案的運用提供基本瞭解，幫助您的組織達成目標：
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
