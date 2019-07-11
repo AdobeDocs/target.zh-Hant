@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -21,7 +21,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 >[!NOTE]
 >
->[!DNL Recommendations] 活動是 [!DNL Target Premium] 解決方案內建的功能。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
+>[!DNL Recommendations] 活動可做為 [Target Premium解決方案](/help/c-intro/intro.md#premium)的一部分使用。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 >
 >若您目前採用 [!DNL Recommendations Classic]，請參閱 [Target Premium 中的 Recommendations Classic 與 Recommendations 活動的比較](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)，以瞭解這兩個解決方案的相關資訊。
 
@@ -61,6 +61,6 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 ## Adobe Target 基礎網路研討會: Recommendations 簡介 {#intro-to-recs}
 
-Recommendations 簡介網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
+*「Recommendations簡介* 」網路研討會包含深入探討如何運用此值 [!DNL Adobe Target Recommendations]。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
 
 [建議簡介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
