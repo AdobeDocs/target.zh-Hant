@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月10日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列項目的限制資訊：<ul><li>每個活動的專家數。</li><li>每個活動的成功度量數。</li><li>每個活動的報表對象/區段數。</li><li>每個mbox、度量和體驗的對象數。</li><li>每個定位規則的唯一值數目。</li><li>每個定位規則的唯一讀者數。</li><li>每個活動的唯一定位規則數目。</li><li>作用中設定檔指令碼的數目。</li><li>設定檔指令碼總數。</li><li>每個描述檔指令碼的回圈總數。</li><li>即時活動數。</li><li>作用中儲存(和未結束)活動的數目。</li><li>屬性數。</li><li>選件數。</li></ul> |
+|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將推出的Target19.7.1版本的資訊(2019年月23日)。<br>請注意，本資訊可能有所變動。 |
 | 2019年月日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增資訊，說明您為何應使用CNAME。 |
 | 2019年月28日 | [已知問題和解決問題當](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[使用且未使用A4TreDirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[選件-A4 T常見問題時，Target與Analytics之間預期的資料差異](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 已新增已知問題，此問題會導致部分客戶使用A4T重新導向，檢視較高比例的點擊點擊率。 |
 | 2019年月26日 | [視覺體驗選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
