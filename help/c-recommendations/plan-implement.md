@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | ![步驟 2](/help/c-recommendations/assets/step2_red.png) | 密鑰 | 此索引鍵決定建議中顯示的產品或內容類型。例如，索引鍵可能是產品類別。請參閱[讓建議以建議金鑰為依據](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。 |
 | ![步驟 3](/help/c-recommendations/assets/step3_red.png) | 屬性 | 屬性可以針對您想顯示的產品，提供更具體的相關資訊。例如，您可能需要顯示特定價格範圍內的產品，或符合庫存臨界值的項目。屬性可以在 mbox 中提供，或透過[摘要](/help/c-recommendations/c-products/feeds.md)。<br>請參閱[包含規則](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)和[實體屬性](/help/c-recommendations/c-products/entity-attributes.md)。 |
 | ![步驟 4](/help/c-recommendations/assets/step4_red.png) | 排除項目 | 「排除項目」決定在建議中不要出現的特定項目。<br>請參閱[排除項目](/help/c-recommendations/c-products/exclusions.md)。 |
-| ![步驟 5](/help/c-recommendations/assets/step5_red.png) | 採購交易 | 採購完成時，購買詳細資料提供採購項目及訂單的相關資訊。 |
+| ![步驟 5](/help/c-recommendations/assets/step5_red.png) | 購買詳細資訊 | 採購完成時，購買詳細資料提供採購項目及訂單的相關資訊。 |
 
 ## 基礎實作 {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -44,7 +44,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 方法 | 說明 |
 |--- |--- |
 | 直接將參數傳給頁面 | 此方法適用於經常變更的項目。不過，因為這需要直接變更頁面，在許多組織裡，此方法需要 IT 和實作頁面人員參與。 |
-| 透過 Google 或 CSV 摘要來傳送參數 | 此方法適用於不常變更的集合。透過摘要來提供產品資訊時，通常不需要變更 Mbox 實作或其他頁面程式碼。不過，因為產品清單保持不變，快速變更會較困難。如需詳細資訊，請參閱[動態消息](/help/c-recommendations/c-products/feeds.md)。 |
+| 透過 Google 或 CSV 摘要來傳送參數 | 此方法適用於不常變更的集合。透過摘要來提供產品資訊時，通常不需要變更 實作或其他頁面程式碼。不過，因為產品清單保持不變，快速變更會較困難。如需詳細資訊，請參閱[動態消息](/help/c-recommendations/c-products/feeds.md)。 |
 
 這些方法可以分開或一起使用，如下列範例所示。
 
