@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 如果零售商有相當固定的產品目錄，但想要強調特殊的季節性項目或促銷項目，可能會喜歡此方法。多數客戶可能主要是透過摘要來提供資訊，偶爾才調整頁面。
 
-使用摘要來提供會保持不變的資訊。無論使用 CSV 檔案或 Google 摘要，請使用下列參數:
+使用動態消息提供不常變更的資訊。無論使用 CSV 檔案或 Google 摘要，請使用下列參數:
 
 * 必要的參數
 
@@ -62,12 +62,15 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 * 實用的參數
 
-   * `entity.cust1`
-   * `entity.cust2`
-   * `entity.cust3`
-   * 所有其他屬性
+   * `entity.name`
+   * `entity.categoryId`
+   * `entity.brand`
+   * `entity.pageUrl`
+   * `entity.thumbnailUrl`
+   * `entity.message`
+   * 所有自訂屬性
 
-一旦設定摘要並傳給 [!DNL Recommendations] 後，請在頁面上將參數傳給經常變更的項目。
+Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
 
 * 必要的參數
 
@@ -156,8 +159,7 @@ For more information about the differences between the two Target Javascript lib
 function targetPageParams() { 
    return { 
       "entity": { 
-         "categoryId": " 
-<i>My Category</i>" 
+         "categoryId": "My Category" 
       } 
    } 
 }
@@ -171,10 +173,8 @@ function targetPageParams() {
 function targetPageParams() { 
    return { 
       "entity": { 
-         "id": " 
-<i>32323</i>", 
-         "categoryId": " 
-<i>My Category</i>", 
+         "id": "32323", 
+         "categoryId": "My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
