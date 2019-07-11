@@ -8,7 +8,7 @@ title: 多變數測試
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 挑選您要變更的元素，以及每一個元素的版本數目 (3x2、4x3 等等)。
    * 保持編號一致。例如，假設按鈕是元素 1，選項為藍色、綠色和黃色，則藍色按鈕為 1-1、綠色按鈕為 1-2、黃色按鈕為 1-3。
    * 離線試算表可提供適合所需的體驗數目 (3x2 四個、4x3 九個...等等)。
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). 如果您使用 VEC，則可以使用自訂程式碼、編輯 HTML、WYSIWYG，或任何組合。
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). 您可以使用自訂程式碼、編輯HTML、WYSIWYG或任何組合。
    * 活動結束之後 (根據樣本大小計算機)，透過試算表執行結果來取得其他詳細資料。
 
 關於其他考量和最佳作法，請參閱[多變數測試最佳作法](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
