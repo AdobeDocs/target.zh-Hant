@@ -1,13 +1,13 @@
 ---
-description: Target 中的可視化體驗撰寫器讓您直接在啟用 Target 的頁面上輕鬆建立您的測試，以及在 Target 內修改頁面的部分。
+description: Target中的Visual Experience Composer可讓您輕鬆地在啓用Target的頁面上建立多變數測試(MVT)，並修改Target中的部分頁面。
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-seo-description: Target 中的可視化體驗撰寫器讓您直接在啟用 Target 的頁面上輕鬆建立您的測試，以及在 Target 內修改頁面的部分。
+seo-description: Adobe Target中的Visual Experience Composer(CMS)可讓您輕鬆在啓用Target的頁面上建立多變數測試(MVT)，並修改Target中的部分頁面。
 seo-title: 建立多變數測試
 solution: Target
 title: 建立多變數測試
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 ---
 
@@ -32,13 +32,9 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![「建立體驗定位活動」對話方塊](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
-
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   ![建立多變數測試活動對話方塊](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
    >[!NOTE]
-   >
-   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
