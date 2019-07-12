@@ -8,12 +8,12 @@ title: A/B 測試中的多個體驗版本
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
 
-# A/B 測試中的多個體驗版本{#multiple-experience-versions-in-an-a-b-test}
+# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
 
 您可以在 A/B 活動中將相同體驗的版本鎖定在不同的對象。您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
 
