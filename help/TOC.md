@@ -3,8 +3,8 @@ product: Target
 audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
-translation-type: ht
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+translation-type: tm+mt
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
          + [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/B 測試中的多個體驗版本](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B測試中的多個體驗觀眾](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動分配 {#auto-allocate}
       + [自動分配](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [決定獲勝者](c-activities/automated-traffic-allocation/determine-winner.md)
