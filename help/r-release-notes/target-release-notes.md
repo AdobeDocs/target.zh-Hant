@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7cdff6e1beca45a4900090bc91a38be7e000f289
+source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 7cdff6e1beca45a4900090bc91a38be7e000f289
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新日期: 2019 年 7 月 11 日**
+**上次更新日期: 2019 年 7 月 12 日**
 
 >[!NOTE]
 >
@@ -31,7 +31,6 @@ source-git-commit: 7cdff6e1beca45a4900090bc91a38be7e000f289
 
 | 功能 / 增強功能 | 說明 |
 | --- | --- |
-| 可視化體驗撰寫器 (VEC) | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**：您可以使用HTML取代影像，讓您完全控制元素，而不需選取父元素來存取HTML選項。</li><li>**體驗片段**：您可以使用Adobe Experience Manager(AEM) [體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) 取代影像，以便快速插入Target活動中AEM中建立的元素。</li></ul>(TGT-34097) |
 | 行動應用程式可視化體驗撰寫器 | Mobile App CMS會顯示新的「修改」面板，顯示您已設定用於點按追蹤的元素。(TGT-31741) |
 | ![A/B測試與體驗定位(XT)活動](/help/assets/premium.png)<br>中的Premium BadgereCommendations | Recommendations(演算法)狀態會顯示在「概述」頁面上，用於A/B測試和包含Recommendations選件的XT活動。狀態包括：Results Ready、Results not Ready和Feed fails.(TGT-33649) |
 | 透過Experience Cloud ID(ECID)程式庫對at. js2.0+的跨網域追蹤支援 | 以前，at. js不支援跨網域追蹤。*x* 版本不支援此函數。在此版本中，使用at. js2.0或更新版本的客戶現在可以透過ECID程式庫使用跨網域追蹤。必須將ECID程式庫與at. js2.0或以上版本一起安裝在頁面上，才能讓跨網域追蹤運作。[必須使用Experience Cloud ID庫4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 。 |
