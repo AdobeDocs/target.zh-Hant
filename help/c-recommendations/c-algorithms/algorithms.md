@@ -10,16 +10,12 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 條件{#criteria}
-
-條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
-
-## 標準 {#concept_4BD01DC437F543C0A13621C93A302750}
 
 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
 
