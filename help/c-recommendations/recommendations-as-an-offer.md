@@ -8,7 +8,7 @@ title: 建議作為選件
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >若為 A/B 測試，您可以選擇[「自動分配」](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/c-activities/auto-target-to-optimize.md)選項，以便根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-1. 建立[體驗](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增建議作為選件的元素，選取[!UICONTROL 「插入在前」]、[!UICONTROL 「插入在後」]或[!UICONTROL 「取代為」]動作，然後選取[!UICONTROL 「建議」]。
+1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
 
    下圖顯示[!UICONTROL 「插入在後 &gt; 建議」]選項。
 
@@ -42,11 +42,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 從下列選項中選擇，按照頁面類型檢視熱門建議條件:
 
-   * 文章頁面
    * 購物車頁面
    * 類別頁面
    * 首頁
    * 登陸頁面
+   * 產品頁面
+   * 搜尋結果頁面
+   * 感謝頁面
+   * 其他
 
 1. 選擇所需[條件](/help/c-recommendations/c-algorithms/algorithms.md)，然後按[!UICONTROL 「下一步」]。
 1. 選擇所需[設計](/help/c-recommendations/c-design-overview/design-overview.md)，然後按[!UICONTROL 「下一步」]。
