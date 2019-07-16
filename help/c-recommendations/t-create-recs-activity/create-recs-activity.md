@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
+source-git-commit: 1e0118d18d49235c7d5c437148db09273c218659
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
    ![Recommendations選項](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    使用建議取代元素會刪除目前的內容，並將它以您的建議取代。
+
 1. 選取頁面類型。
 
    頁面類型可以包括：
@@ -81,11 +82,11 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
    如果您選取多個條件，流量會在選取的條件間平均分割。例如，如果您已選取了兩個條件，而您的活動是設計為對 20% 的活動加入者顯示預設內容，那麼 40% 的活動加入者將看到每個條件所控制的建議。沒有選項可變更每個條件的百分比。
 
    * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
-
-      有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
+   有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
    * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
    * 您也可以將條件群組為序列。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. 請參閱[建立條件序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)以取得相關資訊。
+
 
 1. 按 **[!UICONTROL 「下一步」]**。
 1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
