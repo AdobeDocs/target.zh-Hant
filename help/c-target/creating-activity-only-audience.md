@@ -30,9 +30,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/activity-only-aud.png)
 
-1. 按一下 **[!UICONTROL 「建立對象」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立對象」]**。
 1. 輸入描述性的對象名稱。
-1. 按一下 **[!UICONTROL 「+ 新增規則」]**。
+1. 按一下&#x200B;**[!UICONTROL 「+ 新增規則」]**。
 
    規則可讓您將對象限制在網站訪客的子集。
 
@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    每個規則類型都有其專屬的參數。請參閱[對象的類別](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的對象規則的詳細資訊。
 
 1. 定義規則參數。
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 考量事項
 
