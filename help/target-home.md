@@ -17,13 +17,13 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 **上次更新日期：2019年月12日([請參閱已變更](r-release-notes/doc-change.md))**
 
-以下小節乃依照目標對象的典型職務功能排列，能引導您前往本指南的實用連結:
+以下章節依照目標對象的典型職務排列，能引導您在本指南中找到實用連結:
 
 ## 所有 [!DNL Target] 使用者 {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
 
 市場行銷人員、開發人員、管理員、分析人員及品質保證工程師。
 
-- [Target 發行說明](r-release-notes/release-notes.md): 含有最新版本的相關資訊、影響 [!DNL Target] 之已知問題的相關資訊、本文件的重要更新清單，以及舊版發行說明的封存。
+- [Target 發行說明](r-release-notes/release-notes.md): 含有最新版本的相關資訊、影響 [!DNL Target] 之已知問題的相關資訊、本文件的重要更新清單，以及舊版發行說明的封存檔案。
 - [Target 簡介](c-intro/intro.md): 說明 [!DNL Target] 解決方案的核心概念。
 - 將 Target 與 Adobe Experience Cloud 整合: 說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 及 [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
 - [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md): 提供本指南包含的疑難排解資訊連結，包括有關字元限制與其他限制 (選件大小、對象、設定檔、值、參數) 的資訊。[!DNL Target] 中會影響活動和其他元素之字元限制與其他限制 (選件大小、對象、設定檔、值、參數等) 的資訊。
