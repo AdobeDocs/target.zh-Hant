@@ -51,7 +51,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->若要根據[!UICONTROL 「類別」]頁面顯示建議，只能將一個 `categoryId` 傳遞至用於顯示該特定建議的 mbox。`categoryId` 的值必須與「產品詳細資料」頁面上傳遞之 `entity.categoryId`[!UICONTROL ] 的值完全相符。
+>若要根據[!UICONTROL 「類別」]頁面顯示建議，只能將一個 `categoryId` 傳遞至用於顯示該特定建議的 mbox。`categoryId` 的值必須與「產品詳細資料」頁面上傳遞之 `entity.categoryId` 的值完全相符。
 
 範例:
 
