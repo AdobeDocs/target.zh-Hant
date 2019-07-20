@@ -51,7 +51,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->請勿在您的 [!DNL .csv] 檔案中將值含括在雙引號 ( &quot; ) 中，除非是有所目的而刻意這麼做。如果您將值含括在雙引號中，則必須藉由將它們含括在另一組雙引號中才能將其逸出。未逸出的雙引號將使建議摘要無法正確載入。
+>請勿在您的 [!DNL .csv] 檔案中將值含括在雙引號 ( " ) 中，除非是有所目的而刻意這麼做。如果您將值含括在雙引號中，則必須藉由將它們含括在另一組雙引號中才能將其逸出。未逸出的雙引號將使建議摘要無法正確載入。
 
 例如，下列語法不正確:
 
@@ -67,7 +67,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->您不能以空白值來覆寫現有值。您必須在原處傳遞另一個值來覆寫它。以售價來說，一般解決辦法是傳入實際的 &quot;NULL&quot; 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
+>您不能以空白值來覆寫現有值。您必須在原處傳遞另一個值來覆寫它。以售價來說，一般解決辦法是傳入實際的 "NULL" 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
 
 產品在成功上傳其實體大約兩小時之後，就可以在管理介面中使用。
 
@@ -188,7 +188,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的相關資訊，請參閱 *Analytics 說明和參考*指南中的[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的相關資訊，請參閱 *Analytics 說明和參考*&#x200B;指南中的[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -208,12 +208,12 @@ recs/t_feeds_create.xml
 
  -->
 
-1. 在 Target 介面中，按一下 **[!UICONTROL 「建議]** &gt; **[!UICONTROL 摘要]** &gt; **[!UICONTROL 建立摘要」]**。
+1. 在 Target 介面中，按一下&#x200B;**[!UICONTROL 「建議]** &gt; **[!UICONTROL 摘要]** &gt; **[!UICONTROL 建立摘要」]**。
 
    ![步驟結果](assets/CreateFeed.png)
 
 1. 為摘要指定描述性名稱。
-1. 選取 **[!UICONTROL 來源類型]**。
+1. 選取&#x200B;**[!UICONTROL 來源類型]**。
 
    如需 Google 產品摘要和 CSV 摘要類型的相關資訊，請參閱[摘要概覽](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。
 1. 指定報表套裝，或可供存取摘要的 URL 或 FTP 位置。
@@ -221,7 +221,7 @@ recs/t_feeds_create.xml
    如果您選取 FTP，請提供 FTP 伺服器資訊、登入認證、檔名和 FTP 目錄。您可以選擇使用 FTP SSL (FTPS)，以更安全地上傳。
 
    如果您選取 URL，請指定 URL。
-1. 按 **[!UICONTROL 「下一步」]** 箭頭來顯示[!UICONTROL 「排程」]選項。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「排程」]選項。
 
    ![步驟結果](assets/CreateFeedSchedule.png)
 
@@ -236,7 +236,7 @@ recs/t_feeds_create.xml
 1. 指定您要執行摘要的時間。
 
    此選項是根據瀏覽器中使用的時區。如果要使用不同時區的時間，則必須根據您的時區來計算該時間。
-1. 按 **[!UICONTROL 「下一步」]** 箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至 [!DNL Target] 定義。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至 [!DNL Target] 定義。
 
    ![步驟結果](assets/CreatFeedMapping.png)
 
@@ -248,7 +248,7 @@ recs/t_feeds_create.xml
    >
    >如需詳細資訊，請參閱[主機](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 建立或編輯摘要之後，摘要會立即執行，然後根據您設定的參數而更新。需要一些時間，全部資訊才可供使用。首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。目前狀態顯示於「摘要」清單的[摘要狀態](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)下。您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
 
@@ -269,7 +269,7 @@ recs/t_feeds_create.xml
 | 正在同步 | 摘要設定詳細資料正在儲存至 Target。 |
 | 同步失敗 | 無法將摘要設定詳細資料儲存至 Target。請重試。 |
 | 沒有執行的摘要 | 您已建立摘要，但尚未排程 (頻率設定為「從不」)。 |
-| 排定在*日期和時間* | 摘要尚未執行，但已排定在指定的日期和時間執行。 |
+| 排定在&#x200B;*日期和時間* | 摘要尚未執行，但已排定在指定的日期和時間執行。 |
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
 | 正在匯入項目 | Target 正在從摘要檔案匯入項目。注意: 完成此步驟且顯示「正在準備搜尋索引更新」後，項目屬性變更即已匯入我們的中央系統，並且會在 60 分鐘內反映於地理區域邊緣節點所傳回的傳送建議內容。 |
@@ -279,7 +279,7 @@ recs/t_feeds_create.xml
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
-若要更新動態消息(例如，若要變更動態消息設定或饋送檔案)，請開啓動態消息、進行任何所需變更，然後按一下 **[!UICONTROL 「儲存]**」。
+若要更新動態消息(例如，若要變更動態消息設定或饋送檔案)，請開啓動態消息、進行任何所需變更，然後按一下&#x200B;**[!UICONTROL 「儲存]**」。
 
 >[!IMPORTANT]
 >
