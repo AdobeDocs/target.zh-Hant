@@ -287,7 +287,7 @@ See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=chi_hant)
 
-See [Implement Adobe Target&#39;s at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### 在 Adobe Target 中使用適用於 SPA 的 VEC
 
