@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 當您根據 mbox 參數建立自訂對象時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
-1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
 1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
@@ -41,8 +41,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    ![自訂參數對象](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. 以新行輸入每個值。
-1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 對象的[定義詳細資料快顯卡](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會顯示「規則」區段中的參數名稱。不會參照用來篩選的 mbox。
 
