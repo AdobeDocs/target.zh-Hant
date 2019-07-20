@@ -22,7 +22,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >自動個人化屬於 [!DNL Target Premium] 解決方案的一部分。[!DNL Target Standard] 若沒有 [!DNL Target Premium] 授權則不包含此功能。
 
-1. 按一下 **[!UICONTROL 「活動」]**，從清單中按一下所需的[!UICONTROL 「自動個人化」]活動，然後按一下 **[!UICONTROL 「報表」]** 標籤。
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的[!UICONTROL 「自動個人化」]活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
 
    如果您有許多活動，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「自動個人化」]，以篩選清單。
 
