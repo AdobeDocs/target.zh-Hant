@@ -40,7 +40,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    **補救:** 將以上列出的 IP 位址加入白名單。
 
-* **問題:** 上述 IP 位址已加入白名單，但網站不支援 TLS 1.2 版，Target 目前會使用 1.2 版的預設設定。Target 18.4.1 (2018 年 4 月 25 日) 之前的版本，預設設定支援 TLS 1.0。如需詳細資訊，請參閱[TLS (傳輸層安全性) 加密變更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
+* **問題:**&#x200B;上述 IP 位址已加入白名單，但網站不支援 TLS 1.2 版，Target 目前會使用 1.2 版的預設設定。Target 18.4.1 (2018 年 4 月 25 日) 之前的版本，預設設定支援 TLS 1.0。如需詳細資訊，請參閱[TLS (傳輸層安全性) 加密變更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
    **解決方案:** 請參閱下列問題: 增強可視化體驗撰寫器不會在我使用 TLS 1.2 的網站上安全頁面中載入。
 
@@ -51,11 +51,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
 
 1. 在 Firefox 中開啟受影響的網站。
-1. 在瀏覽器的位址列按一下 **[!UICONTROL 「顯示網站資訊」]圖示。**
+1. 在瀏覽器的位址列按一下&#x200B;**[!UICONTROL 「顯示網站資訊」]圖示。**
 
    ![](assets/firefox_more_info.png)
 
-1. 按一下 **[!UICONTROL 「顯示連線詳細資訊]**&gt;**[!UICONTROL 更多資訊」]**。
+1. 按一下&#x200B;**[!UICONTROL 「顯示連線詳細資訊]**&gt;**[!UICONTROL 更多資訊」]**。
 
    ![](assets/firefox_more_info_2.png)
 
