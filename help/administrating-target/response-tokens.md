@@ -37,7 +37,7 @@ Adobe Target Classic 有一項功能稱為伺服器外掛程式，可讓您傳�
 
    如需詳細資訊，請參閱[下載 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-1. 在 [!DNL Target] 中，按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 回應 Token」]**。
+1. 在 [!DNL Target] 中，按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 回應 Token」]**。
 
    ![](assets/response_tokens.png)
 
@@ -48,15 +48,15 @@ Adobe Target Classic 有一項功能稱為伺服器外掛程式，可讓您傳�
    | 類型 | 參數 | 附註 |
    |--- |--- |--- |
    | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，一個頁面上有兩個 mbox 傳送兩個不同活動，第二個 mbox 將同時包含這兩個活動。 |
-   |  | `profile.isFirstSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
-   |  | `profile.isNewSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
+   |  | `profile.isFirstSession` | 傳回 "true" 或 "false"。 |
+   |  | `profile.isNewSession` | 傳回 "true" 或 "false"。 |
    |  | `profile.daysSinceLastVisit` | 傳回訪客上次造訪後所經過的天數。 |
    |  | `profile.tntId` | 傳回訪客的 tntID |
    |  | `profile.marketingCloudVisitorId` | 傳回訪客的 Experience Cloud 訪客 ID。 |
    |  | `profile.thirdPartyId` | 傳回訪客的第三方 ID。 |
    |  | `profile.categoryAffinity` | 傳回訪客最喜愛的類別。 |
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
-   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
+   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，"option" 等於 "offer"。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
@@ -67,7 +67,7 @@ Adobe Target Classic 有一項功能稱為伺服器外掛程式，可讓您傳�
 
 1. (依條件) 如果您想要使用設定檔參數作為回應 Token，但此參數尚未透過 mbox 呼叫來傳遞，因此尚未載入至 Target UI 中，您可以使用「建立」按鈕將設定檔新增至 UI。
 
-   按一下 **[!UICONTROL 「建立」]**，提供 Token 名稱，然後按一下 **[!UICONTROL 「啟動」]**。
+   按一下&#x200B;**[!UICONTROL 「建立」]**，提供 Token 名稱，然後按一下&#x200B;**[!UICONTROL 「啟動」]**。
 
    ![](assets/response_token_create.png)
 
