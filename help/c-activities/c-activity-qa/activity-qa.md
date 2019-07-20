@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
       如果此設定切換到「關閉」位置，則按一下連結所顯示的體驗不在乎您是否符合資格。執行 QA 時，您可以在是否需要顧及對象鎖定目標之間來回切換。
 
-   * **顯示所有其他活動的預設內容:** 如果此選項切換到「開啟」位置，則其他所有活動皆會顯示預設內容 (例如，單獨顯示預覽，而不考慮相同個頁面/Mbox 上的其他所有已上線活動。
+   * **顯示所有其他活動的預設內容:**&#x200B;如果此選項切換到「開啟」位置，則其他所有活動皆會顯示預設內容 (例如，單獨顯示預覽，而不考慮相同個頁面/Mbox 上的其他所有已上線活動。
 
       如果此設定切換為「關閉」，請考量下列事項:
 
@@ -89,4 +89,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    | `adobe_mc_ref` |  |  | 將預設頁面的轉介 URL 傳給新頁面。與 `AppMeasurement.js` 2.1 版 (或更新版) 一起使用時，[!DNL Adobe Analytics] 會在新頁面上將此參數值當作轉介 URL。 |
    | `adobe_mc_sdid` |  |  | 將補充資料 [!DNL Supplemental Data Id] (SDID) 和 [!DNL Experience Cloud Org Id] 從預設頁面傳給新頁面，以便 Analytics for Target (A4T) 將預設頁面的 Target 要求與新頁面的 Analytics 要求「拼接」起來。 |
 
-* Target QA 模式 UI 只會顯示多頁活動中的體驗的第一個 URL。假設的情況試，您正在建立旅程測試，並將從 URL1 移轉到 URL2。不過，若要單獨前往 URL2，請複製根據 URL1 提供的所有 URL 參數，並在放置 &quot;?&quot; 後將其套用至 URL2，  就像您在 URL1 中看到的一樣。
+* Target QA 模式 UI 只會顯示多頁活動中的體驗的第一個 URL。假設的情況試，您正在建立旅程測試，並將從 URL1 移轉到 URL2。不過，若要單獨前往 URL2，請複製根據 URL1 提供的所有 URL 參數，並在放置 "?" 後將其套用至 URL2，  就像您在 URL1 中看到的一樣。
