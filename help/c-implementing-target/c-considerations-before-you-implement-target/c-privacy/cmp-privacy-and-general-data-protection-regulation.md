@@ -141,11 +141,11 @@ Adobe Target 透過 Adobe Launch 支援選擇加入功能，以支援同意管�
 
 ### AdobePrivacy.js 會將資訊提交至 GDPR API 嗎? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
-[!DNL AdobePrivacy.js] *不會*將此資訊提交至 API。此動作必須由客戶來執行。本程式庫僅會提供儲存在該特定訪客所使用之瀏覽器中的 ID。
+[!DNL AdobePrivacy.js] *不會*&#x200B;將此資訊提交至 API。此動作必須由客戶來執行。本程式庫僅會提供儲存在該特定訪客所使用之瀏覽器中的 ID。
 
 ### removeIdentities 會移除哪些內容? {#section_D3A1591EA1B84C499CE1563DEAF32448}
 
-[!DNL removeIdentities]* 僅會*從瀏覽器移除身分資料，而此動作完全取決於 Adobe 解決方案是否已實作此程式碼。
+[!DNL removeIdentities]*僅會*&#x200B;從瀏覽器移除身分資料，而此動作完全取決於 Adobe 解決方案是否已實作此程式碼。
 
 例如，Target 會刪除儲存訪客 ID 的 Cookie，但 Adobe Audience Manager (AAM) 不會刪除儲存在第三方 Cookie 中的 demdex ID。
 
