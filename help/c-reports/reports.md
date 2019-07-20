@@ -36,7 +36,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 顯示報表 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
-1. 按一下 **[!UICONTROL 「活動」]**，然後從清單按一下需要的活動。
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，然後從清單按一下需要的活動。
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
@@ -46,7 +46,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![依類型篩選報表](/help/c-reports/assets/report_filters-new.png)
 
-1. 按一下 **[!UICONTROL 「報表」]標籤。**
+1. 按一下&#x200B;**[!UICONTROL 「報表」]標籤。**
 
    每一個報表都包含圖例來協助您瞭解報表。
 
@@ -68,6 +68,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * [!UICONTROL 匯出報表至 CSV]
    * [!UICONTROL 匯出訂單詳細資料至 CSV]
 
-1. (可選) 按一下 **[!UICONTROL 「表格檢視」]** 和 **「圖表檢視」]圖示，以切換報表格式。[!UICONTROL **
+1. (可選) 按一下&#x200B;**[!UICONTROL 「表格檢視」]**&#x200B;和&#x200B;**「圖表檢視」]圖示，以切換報表格式。[!UICONTROL **
 
-   僅限「多變數」測試，按一下 **[!UICONTROL 「位置貢獻」]** (![「位置貢獻」圖示](assets/icon_location_contribution.png)) 圖示，將報表切換為依位置來顯示貢獻。
+   僅限「多變數」測試，按一下&#x200B;**[!UICONTROL 「位置貢獻」]** (![「位置貢獻」圖示](assets/icon_location_contribution.png)) 圖示，將報表切換為依位置來顯示貢獻。
