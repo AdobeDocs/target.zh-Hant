@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * **[!DNL Target Standard]客戶**: 如果您看見[!UICONTROL 「使用者」]標籤 ([!UICONTROL 「設定 &gt; 使用者」])，則您的組織具備 [!DNL Target Standard] 授權。[!DNL Target Standard] 客戶應該遵循[使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的指示，在 Adobe Admin Console 中新增使用者和指派權限。
 
-   [!DNL Target Standard] 使用者在按一下「屬性」索引標籤時看見下列錯誤訊息。[!UICONTROL ][!DNL Target] 並沒有問題。[!DNL Target Standard] 使用者無法存取 [!DNL Target Premium] 的[!UICONTROL 「企業權限」]功能。
+   [!DNL Target Standard] 使用者在按一下「屬性」索引標籤時看見下列錯誤訊息。[!DNL Target] 並沒有問題。[!DNL Target Standard] 使用者無法存取 [!DNL Target Premium] 的[!UICONTROL 「企業權限」]功能。
 
    ![錯誤訊息](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
@@ -198,8 +198,8 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
    ![](assets/channel_options.png)
 
-* **受眾建立:** 當您建立新的受眾時，會建立在目前選取的工作區中。
-* **選件建立:** 當您建立新的選件時，會建立在目前選取的工作區中。
+* **受眾建立:**&#x200B;當您建立新的受眾時，會建立在目前選取的工作區中。
+* **選件建立:**&#x200B;當您建立新的選件時，會建立在目前選取的工作區中。
 * **屬性頁面 (「設定」&gt;「屬性」):** 您可以使用[!UICONTROL 「搜尋」]方塊，[!UICONTROL 「管道」]和[!UICONTROL 「產品設定檔」]選項來篩選[!UICONTROL 「屬性」]清單。
 
    ![](assets/properties_list.png)
@@ -232,7 +232,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
    * 只有在 Target Premium (啟用企業權限之後) 內建立的新資源 (例如活動、代碼選件和對象) 將可供透過權限限制使用。
    * 外部資源僅可供預設工作區中的使用者使用。預設工作區中的使用者的角色將全域適用 (所有 Target 要求 和所有 Target 資源)。
 
-* 下列資源*不*屬於新企業權限模型:
+* 下列資源&#x200B;*不*&#x200B;屬於新企業權限模型:
 
    * 影像選件
    * 所有建議資源，包括條件資料庫、設計資料庫、目錄、建議設定。
