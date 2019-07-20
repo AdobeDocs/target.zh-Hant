@@ -29,8 +29,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以在「設定」中變更「報表設定」選項。
 
-1. 在 Adobe Target 中，按一下 **[!UICONTROL 「設定」]**。
-1. 在 **[!UICONTROL 「用於報表的 Experience Cloud 解決方案」]** 下拉式清單中，按一下 **[!UICONTROL 「為每個活動選取」]**。
+1. 在 Adobe Target 中，按一下&#x200B;**[!UICONTROL 「設定」]**。
+1. 在&#x200B;**[!UICONTROL 「用於報表的 Experience Cloud 解決方案」]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL 「為每個活動選取」]**。
 
 ![](assets/select-per-activity.png)
 
