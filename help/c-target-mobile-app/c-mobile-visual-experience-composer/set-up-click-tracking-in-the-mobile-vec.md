@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/mobile-vec-clicktrack1.png)
 
-1. 針對動作，選取 **[!UICONTROL 「點擊元素」]**，然後按一下 **[!UICONTROL 「選取元素」]**。
+1. 針對動作，選取&#x200B;**[!UICONTROL 「點擊元素」]**，然後按一下&#x200B;**[!UICONTROL 「選取元素」]**。
 
    您的行動應用程式隨即在行動版可視化體驗撰寫器 (VEC) 中開啟。
 
