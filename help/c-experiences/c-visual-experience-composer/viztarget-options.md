@@ -37,7 +37,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 除了 HTML 程式碼，您可以編輯和插入自訂 JavaScript。
 
-針對 A/B 和體驗鎖定目標活動編輯文字和 HTML 時，有數個 RTF 格式選項可供使用。[!UICONTROL ][!UICONTROL ]您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。修改 HTML 時，您可在 HTML 的程式碼檢視和 RTF 編輯之間切換。
+針對 A/B 和體驗鎖定目標活動編輯文字和 HTML 時，有數個 RTF 格式選項可供使用。您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。修改 HTML 時，您可在 HTML 的程式碼檢視和 RTF 編輯之間切換。
 
 以下是可巢狀的 HTML5 標記:
 
@@ -58,7 +58,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 使用[!UICONTROL 樣式]面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。
 
-若要存取[!UICONTROL 樣式]面板，請按一下 VEC 中的頁面元素，然後按一下 **[!UICONTROL 編輯]** &gt; **[!UICONTROL 樣式]**。
+若要存取[!UICONTROL 樣式]面板，請按一下 VEC 中的頁面元素，然後按一下&#x200B;**[!UICONTROL 編輯]** &gt; **[!UICONTROL 樣式]**。
 
 [!UICONTROL 樣式]面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。
 
@@ -66,7 +66,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 當您套用不同的樣式時，在您對任何區段進行變更後，只要按一下顯示於[!UICONTROL 樣式]面板右上角的[!UICONTROL 還原]圖示，即可隨時還原變更。請注意，按一下[!UICONTROL 還原]圖示會還原目前區段面板上的所有變更。
 
-展開每個區段以編輯或新增樣式 (如下所述)。若要儲存變更，請按一下面板頂端的返回圖示以返回面板的主要顯示，然後按一下 **[!UICONTROL 儲存]**。
+展開每個區段以編輯或新增樣式 (如下所述)。若要儲存變更，請按一下面板頂端的返回圖示以返回面板的主要顯示，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
 請注意，主要面板上以及各個區段面板的每個選項旁會顯示藍點，代表您已對對應的樣式做出變更。這可讓您在按一下[!UICONTROL 儲存]前輕鬆檢閱變更。
 
@@ -141,7 +141,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * **位置**
 
-   從所選元素的目前位置移動該元素。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   從所選元素的目前位置移動該元素。You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    按一下[!UICONTROL 靜態]下拉式清單，以從下列位置選項中選擇:
 
@@ -327,7 +327,7 @@ HTML 選件的大小最多可以是 256KB。
 
 移除元素。影像背後的白色空間會移除，而元素所在位置的空間會折疊。
 
-**注意:** 您無法使用此選項移除 &quot;classic&quot; mbox 內的項目 (在 Target Classic 促銷活動內建立的 mbox)。
+**注意:** 您無法使用此選項移除 "classic" mbox 內的項目 (在 Target Classic 促銷活動內建立的 mbox)。
 
 ### 展開區段
 
