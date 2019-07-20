@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 設定您的帳戶偏好設定來設定 [!DNL Target Standard] 或 [!DNL Target Premium] 以便對您的帳戶正確運作。
 
-若要設定您的帳戶偏好設定，請按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**，視需要設定您的偏好設定，然後按一下 **[!UICONTROL 「提交」]**。
+若要設定您的帳戶偏好設定，請按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**，視需要設定您的偏好設定，然後按一下&#x200B;**[!UICONTROL 「提交」]**。
 
 下圖顯示[!UICONTROL 「帳戶偏好設定」]頁面上可用的設定。
 
@@ -61,7 +61,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 選項 | 說明 |
 |--- |--- |
 | 使用元素 ID | 如果將相同的 ID 用於多個元素，或如果元素 ID 可能在頁面載入時變更，請取消選取此選項。 |
-| 使用元素類別 | 依預設，[!DNL Target] 僅使用元素 ID。不過，如果您的頁面的設計是要使用類別來識別元素 (例如使用 [!DNL Adobe Experience Manager] 建立的頁面)，您也應該選取[!UICONTROL 「使用元素類別」]。<br>**注意**: 雖然您已完成各個項目來確保準確性，請注意使用類別可能造成錯誤。如果您不選取這兩個選項中的一個，準確性也會受到影響。準確性的順序為: ID &gt; 類別 &gt; 兩個選項皆不選取。請務必測試您的頁面以確定選取器皆正確。<br>[!UICONTROL ]您可以根據每個活動覆寫此設定 (按一下「設定」齒輪圖示，然後選取[!UICONTROL 「CSS 選取器」])。如果您有多個設定方式不同的網站，這特別實用。<br>**注意**: 在[!UICONTROL 「自動個人化」]和[!UICONROL 「多變數測試」]活動中，不可根據活動使用覆寫設定。如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)。 |
+| 使用元素類別 | 依預設，[!DNL Target] 僅使用元素 ID。不過，如果您的頁面的設計是要使用類別來識別元素 (例如使用 [!DNL Adobe Experience Manager] 建立的頁面)，您也應該選取[!UICONTROL 「使用元素類別」]。<br>**注意**: 雖然您已完成各個項目來確保準確性，請注意使用類別可能造成錯誤。如果您不選取這兩個選項中的一個，準確性也會受到影響。準確性的順序為: ID &gt; 類別 &gt; 兩個選項皆不選取。請務必測試您的頁面以確定選取器皆正確。<br>您可以根據每個活動覆寫此設定 (按一下「設定」齒輪圖示，然後選取[!UICONTROL 「CSS 選取器」])。如果您有多個設定方式不同的網站，這特別實用。<br>**注意**: 在[!UICONTROL 「自動個人化」]和[!UICONROL 「多變數測試」]活動中，不可根據活動使用覆寫設定。如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)。 |
 
 ## 可視化體驗撰寫器 {#section_CD9BDD372CF54E678F88E8BA95757A5A}
 
