@@ -46,7 +46,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
 1. 為每個替代影像建立[重新導向選件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >AdBox 必須以「重新導向選件」或是預設的內容選件載入。其他選件類型將無法運作。因為 AdBox 是 URL，它只能顯示所收到的 URL，所以只有「重新導向選件」可以運作。
 
