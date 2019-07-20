@@ -70,13 +70,13 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | 啟動 | 啟動非使用中或已就緒的活動。 |
 | 封存 | 將活動傳送至封存。依預設，已封存的活動不再出現在「活動」清單中。將活動清單的篩選條件變更為包含已封存的活動，以看到這些活動。您可以啟動已封存的活動以再次使用。<br>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | 複製 | 複製活動。任何活動皆可複製。複製活動會以相同名稱建立新活動，後面加上「的複本」。例如，名稱為「瀏覽器選件」的測試會複製為「瀏覽器選件複本」。<br>可視化選件會隨活動一起複製。您可以在複本中放心編輯選件，不會影響原始活動。唯一的例外是「內容/資產」資料夾中儲存的選件和影像。 |
-| 刪除 | 刪除草稿或活動。<BR>**注意**：無法復原刪除的活動。Unless you are absolutely sure that you&#39;ll never need this activity again, use the [!UICONTROL Archive] action. 然後您可視需要重新啓用活動。 |
+| 刪除 | 刪除草稿或活動。<BR>**注意**：無法復原刪除的活動。Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. 然後您可視需要重新啓用活動。 |
 
 請注意下列關於活動清單的詳細資料:
 
 * 已封存和結束的活動不會出現在[!UICONTROL 「活動」]清單中。若要檢視這些活動，請利用左欄的進階篩選設定來篩選活動。
-* 原本於 [!DNL Target Classic] 中建立的活動一旦停用或刪除，就會立即從 [!DNL Target Standard/Premium] 中刪除。原本於 [!DNL Target Classic] 中建立的活動在刪除後，不會傳送至 [!UICONTROL ] 中的[!DNL Target Standard/Premium]封存資料夾。封存資料夾功能僅適用於 [!DNL Target Standard/Premium]·￼·中建立的活動。
-* [!UICONTROL 自動個人化] (AP)、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]以外的所有活動類型皆可讓您選擇使用 [!DNL Target] 或 [!DNL Adobe Analytics] 作為資料來源。[!UICONTROL AP]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標] *一律*使用 [!DNL Target] 資料。
+* 原本於 [!DNL Target Classic] 中建立的活動一旦停用或刪除，就會立即從 [!DNL Target Standard/Premium] 中刪除。原本於 [!DNL Target Classic] 中建立的活動在刪除後，不會傳送至  中的[!DNL Target Standard/Premium]封存資料夾。封存資料夾功能僅適用於 [!DNL Target Standard/Premium]·￼·中建立的活動。
+* [!UICONTROL 自動個人化] (AP)、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]以外的所有活動類型皆可讓您選擇使用 [!DNL Target] 或 [!DNL Adobe Analytics] 作為資料來源。[!UICONTROL AP]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標] *一律*&#x200B;使用 [!DNL Target] 資料。
 * 活動可供許多通路使用:
 
    * Web 和行動版網站
@@ -185,7 +185,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 此視訊說明如何使用「活動」清單來管理活動。
 
-* 定義*活動*這個詞語
+* 定義&#x200B;*活動*&#x200B;這個詞語
 * 在「活動」清單中尋找活動
 * 編輯、停用、複製和刪除活動
 
