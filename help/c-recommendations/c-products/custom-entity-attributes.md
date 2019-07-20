@@ -58,7 +58,7 @@ entity.genre=[“genre1”, “genre2”]
 
 >[!NOTE]
 >
->若要將屬性從多值變成單值，您必須刪除目錄並上傳產品資料。刪除目錄並不會刪除與產品 ID 相關聯的歷程資料。如需相關資訊，請參閱 *Adobe 建議傳統版本*說明文件中的[從系統中刪除所有項目](../../assets/adobe-recommendations-classic.pdf)。
+>若要將屬性從多值變成單值，您必須刪除目錄並上傳產品資料。刪除目錄並不會刪除與產品 ID 相關聯的歷程資料。如需相關資訊，請參閱 *Adobe 建議傳統版本*&#x200B;說明文件中的[從系統中刪除所有項目](../../assets/adobe-recommendations-classic.pdf)。
 
 **限制**:
 
