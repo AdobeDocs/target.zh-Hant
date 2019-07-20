@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 根據諸如行動裝置、裝置類型、裝置廠商、螢幕尺寸(依像素)等參數，建立目標行動裝置。
 
-例如，對於從手機進入您頁面的使用者和從電腦造訪的使用者，您想要分別顯示不同內容。在此情況下，您可以選取「行動裝置對象」，再選取 **[!UICONTROL 「是手機」]選項，然後新增您認為重要的任何特定詳細資料，例如手機類型、螢幕大小 (畫素）等。**
+例如，對於從手機進入您頁面的使用者和從電腦造訪的使用者，您想要分別顯示不同內容。在此情況下，您可以選取「行動裝置對象」，再選取&#x200B;**[!UICONTROL 「是手機」]選項，然後新增您認為重要的任何特定詳細資料，例如手機類型、螢幕大小 (畫素）等。**
 
 行動定位是由 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 所提供，這是一項 DotMobi 服務。DeviceAtlas 是全面性的行動裝置資料庫，其中包含從眾多來源 (包括製造商及網路營運商) 彙整而成的資料。這些資料會經過確認、交叉參考及驗證，以建立準確的大型行動裝置資料庫。
 
@@ -41,10 +41,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 使用自訂整合 (不使用 at.js 或 Mobile SDK) 的客戶可自行收集這些參數，然後以 mbox 參數傳遞。
 
-1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 行動裝置」]**。
-1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 行動裝置」]**。
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * 裝置行銷名稱
    * 裝置型號
@@ -65,8 +65,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >您可以依行動裝置電信業者來鎖定目標，請使用[地理設定](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。
 
-1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 下圖顯示使用Google製造的裝置來鎖定訪客的對象，這些裝置是行動裝置。
 
