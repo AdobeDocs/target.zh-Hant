@@ -21,11 +21,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 使用地理鎖定目標建立對象 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 地理」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 地理」]**。
 
-1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * 國家
    * 狀態
@@ -40,8 +40,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    關於行動電信業者，[!DNL Target] 會使用 IP 位址註冊資料 (擁有 IP 位址區塊)，根據[行動裝置國碼 (MCC) 和行動網路碼 (MNC)](https://www.mcc-mnc.com) 來決定適當的行動電信業者。
 
 1. 指定運算元和適當值。
-1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 下圖顯示目標使用者從緯度大於44度，且longitude小於22度的對象。
 
@@ -49,7 +49,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 準確度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 下表顯示 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 針對有線或 WiFi 網際網路連線所提出的 IP 型地理位置資訊的準確度。DigitalEnvoy 提供的資料是業界最準確的。全球準確度在國家/地區層級超過 99.9%，在城市層級也能達到 97%。準確度資訊不適用於行動通訊基地台網路。
 
