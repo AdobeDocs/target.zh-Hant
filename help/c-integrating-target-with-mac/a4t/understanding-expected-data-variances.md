@@ -15,7 +15,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 # 使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異{#expected-data-variances-when-not-using-a-t}
 
-有關*使用*和*不使用* Analytics 做為報表來源 (A4T) 時，[!DNL Target] 和 Adobe [!DNL Analytics] 之間預期資料差異的資訊。A4T 可大幅減少資料差異.
+有關&#x200B;*使用*&#x200B;和&#x200B;*不使用* Analytics 做為報表來源 (A4T) 時，[!DNL Target] 和 Adobe [!DNL Analytics] 之間預期資料差異的資訊。A4T 可大幅減少資料差異.
 
 ## 使用 A4T 時的預期資料差異 {#expected-using-a4t}
 
