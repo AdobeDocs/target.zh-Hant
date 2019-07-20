@@ -207,7 +207,7 @@ function targetPageParams() {
 
 使用設定來管理您的 [!DNL Recommendations] 實作。
 
-若要存取[!UICONTROL 「建議設定」]選項，請在 [!DNL Adobe Experience Cloud] 中開啟 [!DNL Target]，然後按一下 **[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 設定」]**。
+若要存取[!UICONTROL 「建議設定」]選項，請在 [!DNL Adobe Experience Cloud] 中開啟 [!DNL Target]，然後按一下&#x200B;**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 設定」]**。
 
 ![](assets/recs_settings.png)
 
