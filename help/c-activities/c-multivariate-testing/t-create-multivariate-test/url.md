@@ -28,7 +28,7 @@ To display a different page after the VEC opens, click the **[!UICONTROL Configu
 
 ![頁面傳送對話方塊](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
-按一下 **[!UICONTROL 「新增範本規則」]來新增更多頁面或區段至活動。**
+按一下&#x200B;**[!UICONTROL 「新增範本規則」]來新增更多頁面或區段至活動。**
 
 其他規則可以根據以下任何項目:
 
@@ -41,13 +41,13 @@ To display a different page after the VEC opens, click the **[!UICONTROL Configu
 
 可以使用「與」或「或」將其他規則加入活動 URL。您新增的所有規則會使用「與」彼此進行評估。
 
-完成後，按一下 **[!UICONTROL 「儲存」]。**
+完成後，按一下&#x200B;**[!UICONTROL 「儲存」]。**
 
 >[!NOTE]
 >
 >如果您輸入的網站 URL 不包括 Target Standard JavaScript 程式碼，則無法選取頁面元素。
 
-根據預設，CMS不允許變更包含JavaScript的元素(例如旋轉橫幅)。如果想要能夠使用 **[!UICONTROL 可視化體驗撰寫器]更改這些元素，您可以將**[!UICONTROL 使用 JavaScript 呈現]切換為關閉。
+根據預設，CMS不允許變更包含JavaScript的元素(例如旋轉橫幅)。如果想要能夠使用&#x200B;**[!UICONTROL 可視化體驗撰寫器]更改這些元素，您可以將**[!UICONTROL 使用 JavaScript 呈現]切換為關閉。
 
 >[!NOTE]
 >
