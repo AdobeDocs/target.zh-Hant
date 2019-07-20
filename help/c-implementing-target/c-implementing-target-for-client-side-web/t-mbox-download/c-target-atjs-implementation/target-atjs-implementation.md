@@ -23,7 +23,7 @@ at.js 是新的 [!DNL Adobe Target] 實作資料庫，專為典型 Web 實作和
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 含 FP-11577 (或更新版) 在其 Adobe Target 雲端服務整合上支援 at.js 實作。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2 說明文件*中的[功能套件](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)以及[與 Adobe Target 整合](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
+>Adobe Experience Manager (AEM) 6.2 含 FP-11577 (或更新版) 在其 Adobe Target 雲端服務整合上支援 at.js 實作。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2 說明文件*&#x200B;中的[功能套件](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)以及[與 Adobe Target 整合](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
 
 ## Benefits of at.js {#benefits}
 
