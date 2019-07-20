@@ -26,7 +26,7 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。CMS可讓行銷人員�
 
 >[!NOTE]
 >
->如果頁面包含混合內容 (例如，安全網站中的不安全頁面)，某些瀏覽器 (例如 Firefox) 會阻擋此頁面在 VEC 中顯示。如果您的頁面未顯示，請在瀏覽器網址列按一下 URL 旁邊的圖示，然後按一下 **[!UICONTROL 停用此頁面的保護]**。此問題不影響向網站訪客顯示您的頁面。
+>如果頁面包含混合內容 (例如，安全網站中的不安全頁面)，某些瀏覽器 (例如 Firefox) 會阻擋此頁面在 VEC 中顯示。如果您的頁面未顯示，請在瀏覽器網址列按一下 URL 旁邊的圖示，然後按一下&#x200B;**[!UICONTROL 停用此頁面的保護]**。此問題不影響向網站訪客顯示您的頁面。
 
 頁面上位於 iframe 內的內容無法在 VEC 中修改。若要編輯 iframe 內的內容，請確定 iframe 文件已啟用 Target 功能，然後在 VEC 中載入該 iframe URL。
 
@@ -40,17 +40,17 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。CMS可讓行銷人員�
 
 ![醒目提示 VEC](/help/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-按一下 **[!UICONTROL 覆蓋]** 圖示以變更醒目提示的顯示方式。例如，您可以選擇僅醒目提示影像、連結、區域 mbox、修改或 JavaScript。您可以變更醒目提示的顏色。您也可以指定用於醒目提示不同元素類型的醒目提示顏色和填色類型。
+按一下&#x200B;**[!UICONTROL 覆蓋]**&#x200B;圖示以變更醒目提示的顯示方式。例如，您可以選擇僅醒目提示影像、連結、區域 mbox、修改或 JavaScript。您可以變更醒目提示的顏色。您也可以指定用於醒目提示不同元素類型的醒目提示顏色和填色類型。
 
 ![變更覆蓋設定](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-按一下醒目提示的元素，以顯示該元素類型可用的選項功能表。例如，您可以按一下影像，然後選取 **[!UICONTROL 編輯 &gt; 文字/HTML]** 來變更文字，或按一下按鈕並變更背景顏色。您可以使用頁面左上方的按鈕來開啟或關閉覆蓋。
+按一下醒目提示的元素，以顯示該元素類型可用的選項功能表。例如，您可以按一下影像，然後選取&#x200B;**[!UICONTROL 編輯 &gt; 文字/HTML]**&#x200B;來變更文字，或按一下按鈕並變更背景顏色。您可以使用頁面左上方的按鈕來開啟或關閉覆蓋。
 
-您也可以按一下 **[!UICONTROL 「瀏覽」]**，然後導覽至主要頁面所提供的頁面，例如出貨頁面或購物車，然後在該頁面上測試變更。您也可以存取暫留時可用的頁面元素，例如飛出功能表和迷你購物車。完成瀏覽至頁面時，按一下 **[!UICONTROL 「撰寫」]來編輯體驗。** 例如，您可能需要變更購物車下拉式清單或影像輪播的設計。
+您也可以按一下&#x200B;**[!UICONTROL 「瀏覽」]**，然後導覽至主要頁面所提供的頁面，例如出貨頁面或購物車，然後在該頁面上測試變更。您也可以存取暫留時可用的頁面元素，例如飛出功能表和迷你購物車。完成瀏覽至頁面時，按一下&#x200B;**[!UICONTROL 「撰寫」]來編輯體驗。**&#x200B;例如，您可能需要變更購物車下拉式清單或影像輪播的設計。
 
 >[!NOTE]
 >
->如果暫留狀態依賴 JavaScript，請確定未選取 **[!UICONTROL 「停用 JavaScript」]**。JavaScript 必須啟用才能編輯 JavaScript 元素。
+>如果暫留狀態依賴 JavaScript，請確定未選取&#x200B;**[!UICONTROL 「停用 JavaScript」]**。JavaScript 必須啟用才能編輯 JavaScript 元素。
 
 如需 VEC 中可用選項的相關資訊，請參閱[可視化體驗撰寫器選項](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
 
@@ -89,17 +89,17 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。CMS可讓行銷人員�
 * 想要將更多範本測試規則新增至頁面傳送條件
 * 想要在透過 EEC 或僅限 iframe 載入頁面時覆寫全域增強體驗撰寫器 (EEC) 切換，可能依頁面而有所不同
 
-取消在 VEC 內載入頁面後，您可以在活動中的體驗之間切換，而不需要等候頁面載入。若要再次在 VEC 內查看頁面，您必須按一下 **[!UICONTOL 重新載入]** 按鈕。
+取消在 VEC 內載入頁面後，您可以在活動中的體驗之間切換，而不需要等候頁面載入。若要再次在 VEC 內查看頁面，您必須按一下&#x200B;**[!UICONTOL 重新載入]**&#x200B;按鈕。
 
 >[!IMPORTANT]
 >
 >請注意，進行自訂程式碼或任何修改時，若選擇取消在 VEC 內載入，您則必須確保程式碼或變更已正確執行。請務必執行適當的 QA，確保自訂程式碼和任何其他修改如預期般提供。
 
-若要取消在 VEC 內載入頁面，請在頁面載入時按一下 **[!UICONTROL 取消載入]** 按鈕。在目前編輯工作階段期間，頁面將不會在此活動的 VEC 中載入。
+若要取消在 VEC 內載入頁面，請在頁面載入時按一下&#x200B;**[!UICONTROL 取消載入]**&#x200B;按鈕。在目前編輯工作階段期間，頁面將不會在此活動的 VEC 中載入。
 
 ![取消載入按鈕](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
-若要繼續管理目前活動中的體驗或新增新的修改，您必須按一下 **[!UICONTROL 重新載入]** 按鈕。
+若要繼續管理目前活動中的體驗或新增新的修改，您必須按一下&#x200B;**[!UICONTROL 重新載入]**&#x200B;按鈕。
 
 ![重新載入按鈕](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
