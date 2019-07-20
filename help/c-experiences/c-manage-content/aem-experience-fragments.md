@@ -52,15 +52,15 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 如需詳細資訊，請參閱:
 
-* **AEM 6.3:**[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) 文件中的_選擇使用 Adobe Analytics 和 Adobe Target_。
-* **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) 文件中的_選擇使用 Adobe Analytics 和 Adobe Target_。
+* **AEM 6.3:**[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) 文件中的&#x200B;_選擇使用 Adobe Analytics 和 Adobe Target_。
+* **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) 文件中的&#x200B;_選擇使用 Adobe Analytics 和 Adobe Target_。
 
 ### 步驟 2: 建立體驗片段
 
 體驗片段是在 AEM 中建立。如需詳細資訊，請參閱:
 
-* **AEM 6.3:**[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) 文件中的*體驗片段*。
-* **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) 文件中的*體驗片段*。
+* **AEM 6.3:**[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) 文件中的&#x200B;*體驗片段*。
+* **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) 文件中的&#x200B;*體驗片段*。
 
 ### 步驟 3: 設定 AEM 讓 Target 共用體驗片段
 
@@ -114,7 +114,7 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 **使用 VEC 來取用體驗片段:**
 
-1. 在 Target 中，建立或編輯體驗時[可視化體驗撰寫器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取 **[!UICONTROL 「交換體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
+1. 在 Target 中，建立或編輯體驗時[可視化體驗撰寫器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取&#x200B;**[!UICONTROL 「交換體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
 
    >[!NOTE]
    >
@@ -124,7 +124,7 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
    ![](assets/experience_fragment_list.png)
 
-1. 選取需要的體驗片段，然後按一下 **[!UICONTROL 「儲存」]**。
+1. 選取需要的體驗片段，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 完成活動的設定。
 
    如需有關設定各種活動類型的詳細資訊，請參閱下列主題:
@@ -139,13 +139,13 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 **使用表單式體驗撰寫器來取用體驗片段:**
 
-1. 在 Target 中，建立或編輯體驗時[表單式體驗撰寫器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取 **[!UICONTROL 「變更體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
+1. 在 Target 中，建立或編輯體驗時[表單式體驗撰寫器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，請在頁面上按一下您要插入 AEM 內容的位置，然後選取&#x200B;**[!UICONTROL 「變更體驗片段」]**，以顯示[!UICONTROL 「選擇體驗片段」]清單。
 
    ![](assets/experience_fragment_list.png)
 
    顯示 AEM 中所建立所有內容的[!UICONTROL 體驗片段]清單，現在已可從 Target 內取得原生清單。
 
-1. 選取需要的體驗片段，然後按一下 **[!UICONTROL 「儲存」]**。
+1. 選取需要的體驗片段，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 完成活動的設定。
 
 ## 訓練影片: 將 AEM 體驗片段用於 Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
