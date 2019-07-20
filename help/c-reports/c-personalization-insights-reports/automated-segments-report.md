@@ -27,11 +27,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 存取「自動化區段」報表{#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下 **[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
-1. 按一下 **[!UICONTROL 「報表」]**。
+1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
    隨即顯示[!UICONTROL 「摘要」]報表，該報表提供活動績效的相關資訊，由第一個螢幕圖示表示。另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >您啟動活動後的至少 15 天內，將無法使用[!UICONTROL 「自動化區段」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「自動化區段」]圖示。15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「自動化區段」]報表。
 
-1. 啟動活動 15 天後，即可點擊 **[!UICONTROL 「自動化區段」]圖示。**
+1. 啟動活動 15 天後，即可點擊&#x200B;**[!UICONTROL 「自動化區段」]圖示。**
 
    ![](assets/model_attribute_ranking.png)
 
@@ -136,11 +136,11 @@ AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且
 
 否，UI 報表包含選取資訊。CSV 下載包含其他詳細資料。「自動化區段前瞻分析報表」下載包括 UI 中包含之常用區段以外的其他「自動化區段」，以及這些區段對選件或體驗的執行方式。「重要屬性」報表包括 100 個常見的訪客屬性及其相對重要性，而 UI 僅包括 10 個常見的訪客屬性。
 
-**[!UICONTROL ]我可以看到自訂日期範圍的「個人化前瞻分析」嗎?**
+**我可以看到自訂日期範圍的「個人化前瞻分析」嗎?**
 
 「個人化前瞻分析」報表 ([!UICONTROL 「自動化區段」]和[!UICONTROL 「重要屬性」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為任何結束日期選取這些持續時間 (其中這些活動中的資料足以滿足持續時間)。
 
-**[!UICONTROL ]「個人化前瞻分析」是如何建立的?**
+**「個人化前瞻分析」是如何建立的?**
 
 [!UICONTROL 「個人化前瞻分析」是使用 Adobe 正在申請專利的技術建立而成，該技術稱為 MAGIX (Model Agnostic Globally Interpretable Explanations) 。]您可以在 Adobe 研究團隊於 [arXiv.org 網站](https://arxiv.org/abs/1706.07160)上發表的文件中，瞭解有關 MAGIX 的更多資訊。
 
@@ -152,7 +152,7 @@ AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且
 
 否，自動化區段之間存在重疊。
 
-**[!UICONTROL ]「個人化前瞻分析」是否可用於收入型模組化目標/主要目標?**
+**「個人化前瞻分析」是否可用於收入型模組化目標/主要目標?**
 
 目前，[!UICONTROL 「個人化前瞻分析」]僅適用於轉換最佳化目標活動。我們將在未來的版本中新增對收入最佳化目標活動的支援。
 
