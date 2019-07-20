@@ -107,7 +107,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    並且建置時會預期 [!DNL mbox.js] 已在頁面上方新增額外的 `<div>` 元素。因為 [!DNL at.js] 未在頁面上方新增 `<div>` 元素，此選取器將不再能與 [!DNL at.js] 搭配使用。
 
-   在 VEC 中的 URL 上使用 [!DNL at.js] 重新建立活動，或在 VEC 中使用 **[!UICONTROL 「&lt;/&gt; 代碼]** &gt; **[!UICONTROL 修改」]** 選項手動更新選取器，即可解決此問題。
+   在 VEC 中的 URL 上使用 [!DNL at.js] 重新建立活動，或在 VEC 中使用&#x200B;**[!UICONTROL 「&lt;/&gt; 代碼]** &gt; **[!UICONTROL 修改」]**&#x200B;選項手動更新選取器，即可解決此問題。
 
    若要補救此問題，您應該在 BODY 之後的第一個 DIV 元素中，從第 n 個輸入數字減 1。在以上範例中，經過編輯的代碼會是:
 
