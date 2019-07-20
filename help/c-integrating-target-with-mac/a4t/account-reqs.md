@@ -44,7 +44,7 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ### 設定 Analytics 報表套裝的存取權
 
-您必須是 **[!UICONTROL 所有報表存取]** 群組的成員，或您所屬的群組在您要使用的報表套裝中必須至少可存取一個報表，您才能為 Analytics 啟動的活動建立或檢視報表。如果無法檢視報表，請確定您是這其中一個群組的成員。
+您必須是&#x200B;**[!UICONTROL 所有報表存取]**&#x200B;群組的成員，或您所屬的群組在您要使用的報表套裝中必須至少可存取一個報表，您才能為 Analytics 啟動的活動建立或檢視報表。如果無法檢視報表，請確定您是這其中一個群組的成員。
 
 For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
