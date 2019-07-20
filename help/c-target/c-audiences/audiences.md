@@ -23,14 +23,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!DNL Target] 定義兩種對象:
 
-* **鎖定目標對象:** 用於傳送不同內容給不同類型的訪客。
-* **報表對象:** 用於決定不同類型的訪客如何回應相同內容，以利於您分析測試結果。
+* **鎖定目標對象:**&#x200B;用於傳送不同內容給不同類型的訪客。
+* **報表對象:**&#x200B;用於決定不同類型的訪客如何回應相同內容，以利於您分析測試結果。
 
    在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
 
 ## 使用對象清單
 
-若要存取[!UICONTROL 「對象」]清單，請按一下頂端功能表列中的 **[!UICONTROL 「對象」]:**
+若要存取[!UICONTROL 「對象」]清單，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 「對象」]:**
 
 ![觀眾清單](assets/audiences_list.png)
 
@@ -74,7 +74,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 對象類型 | 詳細資料 |
 |--- |--- |
 | 行動裝置對象 | 行銷名稱、廠商和型號<br>`matches | does not match` 運算子會出現，而非 `equals | does not equal`<br>![匯入的行動裝置對象](/help/c-target/c-audiences/assets/imported_mobile_audience.png)。 |
-| 訪客-行為對象 | **user.categoryAffinity:** `categoryAffinity` 搭配 `FAVORITE` 參數。<br>![匯入的類別相關性](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**監控:** 監控服務等於 true。<br>**無監控服務:** 監控服務等於 false。<br>![匯入的監控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 訪客-行為對象 | **user.categoryAffinity:** `categoryAffinity` 搭配 `FAVORITE` 參數。<br>![匯入的類別相關性](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**監控:** 監控服務等於 true。<br>**無監控服務:**&#x200B;監控服務等於 false。<br>![匯入的監控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | 使用 NOT 運算子的對象 | **單一規則:** Target 會以 `[All Visitor AND [NOT [rule]` 格式顯示對象。單一 NOT 規則搭配 AND 與 `AllVisitor` 來顯示對象。<br>![匯入的 Not 對象](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 使用匯入的對象時，請記住下列重點:
