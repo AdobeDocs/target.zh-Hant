@@ -22,13 +22,13 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 >
 >Target Classic 使用運算式目標，可讓您建立一次複雜的目標，然後重複用於不同的活動、體驗等等。Target Standard/Premium 不含此功能。
 
-1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL Target 資料庫」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL Target 資料庫」]**。
 
    ![定位程式庫](assets/target_library.png)
 
-1. 按一下 **[!UICONTROL 「選取」]**，然後選取預先建立的目標規則。
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取預先建立的目標規則。
 
    預先建立的目標規則包括「視窗作業系統」、「平板電腦裝置」、「Safari 瀏覽器」、「再度訪問的訪客」、「從 Google 引用」等等。
 
@@ -36,8 +36,8 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
    Kindle、Silk、iPad、Sony Tablet、TF101、GT-P1000、GT-P1000R、GT-P1000M、SGH-T849、SHW-M180S、GT-I9000T、BNTV250 和 Tablet PC。
 
-1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 訓練影片: 建立對象
 
