@@ -5,7 +5,7 @@ seo-description: 與Google Chrome76一同推出的Adobe Target和SaveSite IETF�
 seo-title: Adobe Target和SaveSite Cookie原則
 solution: Target
 subtopic: 快速入門
-title: Google Chrome SaveSite Cookie原則
+title: Google Chrome SameSite Cookie 原則
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Google Chrome SaveSite Cookie原則
+# Google Chrome SameSite Cookie 原則
 
 Google最近宣佈從Chrome76(於2019年月30日推出)開始，開發人員必須明確指定哪些Cookie可以跨網站運作，以及哪些Cookie可追蹤使用者。
 
@@ -34,7 +34,7 @@ Google最近宣佈從Chrome76(於2019年月30日推出)開始，開發人員必�
 
 | 設定 | 說明 |
 | --- | --- |
-| SaveSite依預設Cookie | When set, all cookies that don&#39;t specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
+| SaveSite依預設Cookie | When set, all cookies that don't specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
 | 不含SameSite的Cookie必須安全 | When set, cookies without the SameSite attribute or with `SameSite = None`, must be Secure. 在此上下文中安全表示所有瀏覽器要求必須遵循HTTPS通訊協定。不遵守此項規定的Cookie遭到拒絕。 |
 
 ![SaveSite設定頁面](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
@@ -45,7 +45,7 @@ Google最近宣佈從Chrome76(於2019年月30日推出)開始，開發人員必�
 
 當您的訪客依據預設Cookie設定開啓「SaveSite」時，Target會持續提供個人化，而沒有任何影響，而您也沒有任何介入。Target uses first-party cookies and will continue to function properly as the flag `SameSite = Lax` is applied by Google Chrome.
 
-當訪客啓用「沒有SameSite的Cookie」時，而您不選擇「Target的跨網域追蹤」功能，則Target的第一方Cookie會繼續運作。However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. 這表示您必須確保您的網站使用HTTPS通訊協定。Target&#39;s client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
+當訪客啓用「沒有SameSite的Cookie」時，而您不選擇「Target的跨網域追蹤」功能，則Target的第一方Cookie會繼續運作。However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. 這表示您必須確保您的網站使用HTTPS通訊協定。Target's client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
 
 ## 您需要做甚麼？
 
@@ -53,7 +53,7 @@ Google最近宣佈從Chrome76(於2019年月30日推出)開始，開發人員必�
 
 表格包含下列欄：
 
-* **目標用戶端程式庫**：無論您是使用mbox. js，at. js1。*x*或at. js2。*網站上的x，* 以及Google Chrome設定如何影響您
+* **目標用戶端程式庫**：無論您是使用mbox. js，at. js1。*x*&#x200B;或at. js2。*網站上的x，* 以及Google Chrome設定如何影響您
 * **SaveSite依預設Cookie=啓用**：如果您的訪客已啓用Chrome76+上啓用的「SaveSite」，它會對您造成甚麼影響，而您需要做甚麼才能讓Target繼續運作
 * **沒有SameSite的Cookie必須是安全的=啓用**：如果您的訪客擁有Chrome76+上啓用的「沒有SameSite的Cookie」，它會對您造成甚麼影響，而您需要做甚麼才能讓Target繼續運作
 * **Adobe Target的跨網域追蹤=已啓用**：如果您的訪客已啓用「依預設Cookie」啓用「網站」和「沒有SaveSite的Cookie」，且您在Chrome76+上啓用「Target」，而您使用Target進行跨網域追蹤，則它會對您造成甚麼影響，而您需要做甚麼才能讓Target繼續運作
