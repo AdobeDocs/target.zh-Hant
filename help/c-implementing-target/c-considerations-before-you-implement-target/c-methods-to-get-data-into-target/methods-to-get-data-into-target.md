@@ -56,7 +56,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
    除了IETF網站上提及的內容外，Target還允許查詢字串中的下列字元：
 
-   `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
+   `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
    除此之外的字元都必須經過 URL 編碼。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -96,7 +96,7 @@ mboxCreate 程式碼中的參數:
 
 ### 格式
 
-頁面內設定檔屬性以字串名稱/值配對形式，透過伺服器呼叫而傳入 Target，字首 &quot;profile.&quot; 會加在屬性名稱之前。
+頁面內設定檔屬性以字串名稱/值配對形式，透過伺服器呼叫而傳入 Target，字首 "profile." 會加在屬性名稱之前。
 
 屬性名稱和值可自訂 (但有一些「保留名稱」是特定用途)。
 
@@ -151,7 +151,7 @@ mboxCreate 程式碼中的屬性:
 
 ### 格式
 
-指令碼設定檔屬性是在 Target 的「對象」區段中建立。任何屬性名稱都有效，值是 Target 使用者撰寫的 JavaScript 函式的結果。在 Target 中，屬性名稱開頭自動加上 &quot;user.&quot;，以方便與頁面內設定檔屬性有所區別。
+指令碼設定檔屬性是在 Target 的「對象」區段中建立。任何屬性名稱都有效，值是 Target 使用者撰寫的 JavaScript 函式的結果。在 Target 中，屬性名稱開頭自動加上 "user."，以方便與頁面內設定檔屬性有所區別。
 
 程式碼片段以 Rhino JS 語言撰寫，可參考 Token 和其他值。
 
