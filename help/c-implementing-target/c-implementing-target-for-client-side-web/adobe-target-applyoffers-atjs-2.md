@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | 選項類型。反映「內容」欄位的類型。支援的類型為: html、重新導向 、JSON 和動態。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; options | 回應選項。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; eventToken | 點擊事件的 Token。 |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | &quot;click&quot; |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | "click" |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics | 包含 `clickThrough` 量度清單。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; mbox | mbox 的名稱。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt;index | 指出回應是針對要求中帶有此索引的 mbox。 |
