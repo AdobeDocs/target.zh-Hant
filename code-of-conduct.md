@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
+translation-type: tm+mt
 
 ---
 # Adobe 行為準則
@@ -46,4 +46,4 @@ translation-type: ht
 
 ## 歸屬
 
-本行為準則是依據 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/) 所提供的[參與者公約](https://contributor-covenant.org) 1.4 版改寫而成。
+本行為準則改編自 [Contributor Covenant](https://contributor-covenant.org) 1.4 版 ([https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/))
