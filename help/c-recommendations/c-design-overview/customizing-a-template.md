@@ -151,7 +151,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >如果想在變數值後新增資訊，您可使用正規註釋來完成此項作業。例如: `${entity1.thumbnailUrl}.gif`。
 
@@ -208,7 +208,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren&#39;t enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn&#39;t make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 下列HTML程式碼片段取代了4x預設設計中現有的HTML部分(為了簡短而不包含CSS)：
 
