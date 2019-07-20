@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` 來追蹤使用者最愛的類別。`entity.categoryId` 必須以目前頁面或目前項目類別的建議為基礎。如果您想要使用這兩項功能，請將這兩個值傳遞至Adobe Target。
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` 來追蹤使用者最愛的類別。`entity.categoryId` 必須以目前頁面或目前項目類別的建議為基礎。如果您想要使用這兩項功能，請將這兩個值傳遞至Adobe Target。
 
 ## 類別相關性的商業案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -107,15 +107,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 建立對象來使用類別相關性 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 從 **[!UICONTROL 「對象」]** 清單中，按一下 **[!UICONTROL 「+ 建立對象」]**。
+1. 從&#x200B;**[!UICONTROL 「對象」]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL 「+ 建立對象」]**。
 
    或
 
    若要複製現有對象，請在「對象」清單中將游標移至所需對象上方，然後按一下「複製」圖示。然後您可以編輯對象以建立類似的對象。
 
 1. 輸入描述性的對象名稱。
-1. 按一下 **[!UICONTROL 「+ 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
-1. 從 **[!UICONTROL 「訪客設定檔」]** 下拉式清單中，選取 **[!UICONTROL 「類別相關性」]**。
+1. 按一下&#x200B;**[!UICONTROL 「+ 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
+1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「類別相關性」]**。
 
    ![訪客資料&gt;類別相似性](assets/affinity.png)
 
@@ -138,8 +138,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 不包含 (不區分大小寫)
    * 等於
 
-1. 以個別一行指定每一個新的值 (例如，&quot;shoes&quot;)。
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 以個別一行指定每一個新的值 (例如，"shoes")。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 在活動中使用類別相關性觀眾 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
