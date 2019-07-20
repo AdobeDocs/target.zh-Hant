@@ -85,7 +85,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用「修改」面板編輯建議選件
 
-1. 按一下[!UICONTROL 「修改」]圖示*「&lt;/&gt;」*以顯示[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
+1. 按一下[!UICONTROL 「修改」]圖示&#x200B;*「&lt;/&gt;」*&#x200B;以顯示[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
 1. 將游標停留在所需的動作上，然後按一下[!UICONTROL 「編輯」]圖示。
 
    ![「修改」面板](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,7 +107,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用「修改」面板刪除建議選件
 
-1. 按一下[!UICONTROL 「修改」]圖示*「&lt;/&gt;」*以顯示[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
+1. 按一下[!UICONTROL 「修改」]圖示&#x200B;*「&lt;/&gt;」*&#x200B;以顯示[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
 1. 將游標停留在所需的動作上，然後按一下[!UICONTROL 「刪除」]圖示。
 
    ![「刪除」圖示](/help/c-recommendations/assets/recs-offer-delete.png)
