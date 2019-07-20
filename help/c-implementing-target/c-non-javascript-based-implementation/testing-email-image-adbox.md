@@ -40,7 +40,7 @@ mboxPC={123456}” border=“0"/>
 
 | 值 | 說明 |
 |--- |--- |
-| clientcode | 公司的用戶端代碼。在 at.js 或 mbox.js 中找出列為 `clientCode='yourclientcode'` &#39; 的此代碼。全部都是小寫，不包含特殊字元。 |
+| clientcode | 公司的用戶端代碼。在 at.js 或 mbox.js 中找出列為 `clientCode='yourclientcode'` ' 的此代碼。全部都是小寫，不包含特殊字元。 |
 | 影像 | 選件類型。對於影像廣告一律為「image」，而對於重新導向程式則為「page」。 |
 | email_header | adbox 的名稱。 |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必要. 以適當的預設內容取代您的adbox。此網址必須是絕對參照，並且必須經過 URL 編碼。 |
