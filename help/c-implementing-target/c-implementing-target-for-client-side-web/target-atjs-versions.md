@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * **Adobe加入支援**：Adobe Opt-In可簡化Adobe解決方案與許可管理平台的整合。For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
-* **符合業界標準的CSP** 規範：at. js不再使用eval()來執行JavaScript。
+* **符合業界標準的CSP**&#x200B;規範：at. js不再使用eval()來執行JavaScript。
 
 * **用戶端分析記錄**：讓客戶完全掌控他們要如何將分析資料傳送至Adobe Analytics，不論是在用戶端或伺服器端。
 
@@ -204,7 +204,7 @@ at.js 1.3.0 版現已可用。
 
 [!DNL at.js] 版本 1.2.1 現已可用。
 
-* 已修正在具有 target=&quot;_blank&quot; 的連結上，點擊追蹤防止 Target 在新索引標籤中開啟連結的問題。
+* 已修正在具有 target="_blank" 的連結上，點擊追蹤防止 Target 在新索引標籤中開啟連結的問題。
 
 ## at.js 版本 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
