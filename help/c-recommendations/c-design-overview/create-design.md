@@ -19,24 +19,24 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 設計可定義建議出現在頁面上的方式。
 
-您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL 「Recommendations」&gt;「設計」]畫面會顯示預設設計卡片和您已建立的任何設計。** 您不能編輯或刪除預設設計。
+您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL 「Recommendations」&gt;「設計」]畫面會顯示預設設計卡片和您已建立的任何設計。**&#x200B;您不能編輯或刪除預設設計。
 
-1. 在 **[!UICONTROL 「Recommendations &gt; 設計」]** 畫面上，將游標移至您要建立的設計的卡片。
+1. 在&#x200B;**[!UICONTROL 「Recommendations &gt; 設計」]**&#x200B;畫面上，將游標移至您要建立的設計的卡片。
 
    ![](assets/Card_CopyDesign.png)
 
-1. 若要複製和編輯現有設計，請按一下 **[!UICONTROL 「複製」]** 圖示。
+1. 若要複製和編輯現有設計，請按一下&#x200B;**[!UICONTROL 「複製」]**&#x200B;圖示。
 
    或
 
-   若要建立自訂設計，請在 **[!UICONTROL 「Recommendations」&gt;「設計」]畫面上按一下****「建立設計」[!UICONTROL 。]**
+   若要建立自訂設計，請在&#x200B;**[!UICONTROL 「Recommendations」&gt;「設計」]畫面上按一下****「建立設計」[!UICONTROL 。]**
 
    ![](assets/createDesign.png)
 
-1. 新增 **[!UICONTROL 內容名稱]**。
+1. 新增&#x200B;**[!UICONTROL 內容名稱]**。
 
-   使用預設設計時，設計名稱和「Copy」將出現在 **[!UICONTROL 「內容名稱」]欄位中。** 您可以編輯名稱。1.(可選) 按一下來選取要在設計卡片上顯示的影像。
-1. 編輯設計 **[!UICONTROL 程式碼]**。
+   使用預設設計時，設計名稱和「Copy」將出現在&#x200B;**[!UICONTROL 「內容名稱」]欄位中。**&#x200B;您可以編輯名稱。1.(可選) 按一下來選取要在設計卡片上顯示的影像。
+1. 編輯設計&#x200B;**[!UICONTROL 程式碼]**。
 
    Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關 Velocity 的資訊，請參閱 [](https://velocity.apache.org)https://velocity.apache.org。
 
@@ -46,4 +46,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >可在設計中參照 (明確寫在程式碼中或透過迴圈) 的實體數上限是 99。
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
