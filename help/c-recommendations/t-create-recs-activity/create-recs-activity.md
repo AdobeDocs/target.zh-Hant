@@ -19,7 +19,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 
-1. 按一下 **[!UICONTROL 「建立活動]** &gt; **[!UICONTROL Recommendations」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL Recommendations」]**。
 
    ![建立建議活動](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -39,7 +39,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. 指定活動 URL，然後按 **[!UICONTROL 「下一步」]**。
+1. 指定活動 URL，然後按&#x200B;**[!UICONTROL 「下一步」]**。
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除 **[!UICONTROL 「相容」]核取方塊。** 視您的 Recommendations 設定 (**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示[!UICONTROL 「相容」]選項。如需詳細資訊，請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
+   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]核取方塊。**&#x200B;視您的 Recommendations 設定 (**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示[!UICONTROL 「相容」]選項。如需詳細資訊，請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
 
    ![選取標準對話方塊](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -88,7 +88,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
    * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
    * 您也可以將條件群組為序列。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. 請參閱[建立條件序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)以取得相關資訊。
 
-1. 按 **[!UICONTROL 「下一步」]**。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
 
    設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包括數個預先設定的設計。您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
@@ -101,22 +101,22 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
       如果您選取多個准則，則只能選取一個設計。
 
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. 按 **[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下 **[!UICONTROL 「完成]** &gt; **[!UICONTROL 完成」**]。如需關於建立新設計的資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. 按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成]** &gt; **[!UICONTROL 完成」**]。如需關於建立新設計的資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
-1. 按 **[!UICONTROL 「下一步」]**。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
    您有選項可將促銷活動新增至您的建議。如需關於新增前端和後端促銷活動的詳細資訊，請參閱[新增促銷活動](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    VEC 畫面會在您的頁面上顯示建議的設計。
 
-1. (可選) 按一下 **[!UICONTROL 「預覽」]** 來查看向訪客呈現的活動效果。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「預覽」]**&#x200B;來查看向訪客呈現的活動效果。
 
    [!UICONTROL 預覽]模式可讓您與您的建議互動，雖然訪客會這麼做。
 
-   預覽完建議時，請按一下 **[!UICONTROL 「撰寫」]**。
+   預覽完建議時，請按一下&#x200B;**[!UICONTROL 「撰寫」]**。
 
-1. 在 VEC 中檢閱您的建議，然後按 **[!UICONTROL 「下一步」]**。
+1. 在 VEC 中檢閱您的建議，然後按&#x200B;**[!UICONTROL 「下一步」]**。
 
 1. 在流程圖表中檢閱您的 [!DNL Recommendations] 活動，並進行任何必要的變更。
 
@@ -142,7 +142,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
    * 檢視設計代碼
    * 變更或移除設計
 
-1. 完成後，按 **[!UICONTROL 「下一步」]**。
+1. 完成後，按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 指定您的活動設定。
 
    例如，輸入活動的名稱 (必要) 和目標 (可選)。如需關於設定的資訊，請參閱[Recommendations 活動設定](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
