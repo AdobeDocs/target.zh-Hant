@@ -20,8 +20,8 @@ Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本
 
 若要使用 [!DNL Adobe Target][!UICONTROL  可視化體驗編輯程式]，您必須隨著您的 [!DNL mbox.js] 檔案包括額外的一行 JavaScript。
 
-1. 在 [!DNL Target Standard] 中按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
-1. 按一下 **[!UICONTROL 「下載 mbox.js」]**，並依照提示操作來儲存檔案。
+1. 在 [!DNL Target Standard] 中按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 按一下&#x200B;**[!UICONTROL 「下載 mbox.js」]**，並依照提示操作來儲存檔案。
 1. (條件式) 如果您使用 [!DNL mbox.js] 版本 60 或更新版本，您可以設定資料庫以依預設自動隱藏頁面內容直到 mbox 載入，以減少回應式網站上的閃爍。
 
    如需詳細資訊，請參閱 [mbox.js 進階設定](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)中的「抑制頁面載入忽隱忽現」。
