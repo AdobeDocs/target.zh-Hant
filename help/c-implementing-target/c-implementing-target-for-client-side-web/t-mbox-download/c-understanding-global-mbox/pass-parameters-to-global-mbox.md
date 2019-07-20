@@ -43,7 +43,7 @@ p1=v1&p2=v2&p3=hello%20world
 ```
 
 * 名稱: `targetPageParams`
-* 傳回值: 以 &quot;&amp;&quot; 分隔的參數，含 URL 編碼的參數值。
+* 傳回值: 以 "&amp;" 分隔的參數，含 URL 編碼的參數值。
 
    範例:  
 
@@ -109,7 +109,7 @@ JSON 是傳遞參數的強大方式。Target 使用 JSON 物件索引鍵將複�
 }; 
 ```
 
-值不需經過 URL 編碼。例如，&quot;San Francisco&quot; 不需要將空格編碼。一個空格就足夠。
+值不需經過 URL 編碼。例如，"San Francisco" 不需要將空格編碼。一個空格就足夠。
 
 此範例會將下列資料傳送至 mbox 邊緣:
 
