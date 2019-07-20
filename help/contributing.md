@@ -19,4 +19,4 @@ translation-type: tm+mt
 
 ## 程式碼審核
 
-所有提交內容都應透過提取要求形式，而且需要經過專案認可人審核。Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+所有提交內容都應透過提取要求形式，而且需要經過專案認可人審核。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
