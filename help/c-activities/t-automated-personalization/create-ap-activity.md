@@ -19,11 +19,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 自動個人化活動工作流程與其他活動類型的工作流程不同。
 
-1. 在 Target Standard 活動清單中，按一下 **[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 自動個人化」]**。
+1. 在 Target Standard 活動清單中，按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 自動個人化」]**。
 
    ![建立活動：自動個人化](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 若要使用可視化體驗撰寫器 (VEC)，請按一下 **[!UICONTROL 「視覺 (預設)」]**。
+1. 若要使用可視化體驗撰寫器 (VEC)，請按一下&#x200B;**[!UICONTROL 「視覺 (預設)」]**。
 
    ![「建立自動個人化活動」對話方塊](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
@@ -39,7 +39,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. 驗證或輸入活動 URL，然後按一下 **[!UICONTROL 「下一步」]**。
+1. 驗證或輸入活動 URL，然後按一下&#x200B;**[!UICONTROL 「下一步」]**。
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    您可以從資產管理員一次選取多個影像。此可讓您快速檢視頁面上對活動設定的每個影像。您也可以輕鬆在您的選件中編輯文字元素。編輯元素時，該元素上會出現一個橫條，指出您已變更它。
 
-1. 按一下 **[!UICONTROL 「管理內容」]** 來設定可用的組合。
+1. 按一下&#x200B;**[!UICONTROL 「管理內容」]**&#x200B;來設定可用的組合。
 
    ![「管理內容」選項](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -92,7 +92,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
-1. (依條件) 按一下 **[!UICONTROL 「選件」]**，選取內容片段並將它們指派給報表群組，或只允許特定訪客查看特定具有鎖定目標的選件。
+1. (依條件) 按一下&#x200B;**[!UICONTROL 「選件」]**，選取內容片段並將它們指派給報表群組，或只允許特定訪客查看特定具有鎖定目標的選件。
 
    如需詳細資訊，請參閱[自動個人化中的選件報表群組](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)。
 
@@ -110,26 +110,26 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    如需將選件鎖定在特定對象的相關資訊，請參閱[Target AP 選件](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)。
 
-1. (依條件) 按一下 **[!UICONTROL 「排除群組」]** 來選擇您要從活動中排除的任何元素組合。
+1. (依條件) 按一下&#x200B;**[!UICONTROL 「排除群組」]**&#x200B;來選擇您要從活動中排除的任何元素組合。
 
    ![「管理內容」對話方塊的「排除群組」索引標籤](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。
 
-   如果您目前尚未在您的活動中包括任何排除群組，請按一下 **「建立排除群組」**。您可以篩選以建立僅顯示您要排除之組合的清單。命名您的排除群組，然後按一下 **「儲存」**。
+   如果您目前尚未在您的活動中包括任何排除群組，請按一下&#x200B;**「建立排除群組」**。您可以篩選以建立僅顯示您要排除之組合的清單。命名您的排除群組，然後按一下&#x200B;**「儲存」**。
 
    若要編輯現有的排除群組，請將游標暫留在您要編輯的群組上方，然後按一下鉛筆圖示。
 
 1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 
-1. 如果您曾使用其他 Target 活動類型，**「鎖定目標」** 步驟將很熟悉。您可以在此按一下 **[!UICONTROL 「自訂分配」]** 下拉式清單，然後按一下 **「下一步」**，以選取對象並指定會看見控制體驗之訪客的百分比。
+1. 如果您曾使用其他 Target 活動類型，**「鎖定目標」**&#x200B;步驟將很熟悉。您可以在此按一下&#x200B;**[!UICONTROL 「自訂分配」]**&#x200B;下拉式清單，然後按一下&#x200B;**「下一步」**，以選取對象並指定會看見控制體驗之訪客的百分比。
 
    [!UICONTROL 「自訂分配」]下拉式清單可讓您從下列選項中選擇:
 
    ![流量分配目標下拉式清單](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **評估個人化演算法 (50/50):** 如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議使用「隨機體驗」做為您的控制項。
-   * **最大化個人化流量 (90/10):** 如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。不論您的目標為何，在使用特定體驗作為控制時，這都是建議的流量分割。
+   * **評估個人化演算法 (50/50):**&#x200B;如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議使用「隨機體驗」做為您的控制項。
+   * **最大化個人化流量 (90/10):**&#x200B;如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。不論您的目標為何，在使用特定體驗作為控制時，這都是建議的流量分割。
    * **自訂分配:** 視需要手動分割百分比。
 
 1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
@@ -143,7 +143,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    >在自動個人化活動中，系統會評估每個要求的輸入條件 (URL 鎖定目標、範本規則、對象目標)。在舊版中，會對每個工作階段評估輸入條件。
 
 1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
-1. 使用下列設定來設定活動，然後按一下 **[!UICONTROL 「儲存並關閉」]**。
+1. 使用下列設定來設定活動，然後按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
    | 設定 | 說明 |
    |--- |--- |
@@ -170,6 +170,6 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    | - | 減號 |
    | @ | 「@」符號 |
 
-按一下 **[!UICONTROL 「建立」]** 之後，活動摘要隨即出現。按一下 **「預覽體驗」** 即可預覽體驗傳遞後的外觀。隨即會出現彈出視窗，您可用來檢視和共用網站上 AP 體驗的連結，以獲得在 Target 可視化體驗撰寫器外部的「實際預覽」體驗。您必須分享來自訊息的連結以分享預覽。按一下連結，然後直接從頁面複製 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。
+按一下&#x200B;**[!UICONTROL 「建立」]**&#x200B;之後，活動摘要隨即出現。按一下&#x200B;**「預覽體驗」**&#x200B;即可預覽體驗傳遞後的外觀。隨即會出現彈出視窗，您可用來檢視和共用網站上 AP 體驗的連結，以獲得在 Target 可視化體驗撰寫器外部的「實際預覽」體驗。您必須分享來自訊息的連結以分享預覽。按一下連結，然後直接從頁面複製 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。
 
 如需關於報表的資訊，請參閱[自動個人化報表](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)。
