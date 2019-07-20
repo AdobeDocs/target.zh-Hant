@@ -20,13 +20,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以合併多個流量來源建立一個複雜的目標規則。
 
-1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 流量來源」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 流量來源」]**。
 
    ![](assets/target_traffic_source.png)
 
-1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * 來自 Baidu
    * 從 Bing
@@ -37,8 +37,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 引用登陸頁面: 查詢
    視您的選擇而定，您可能需要提供額外資訊(評估者和/或值)。
 
-1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 您可以將目標鎖定在由特定搜尋引擎轉介至您的網站，或來自特定登陸頁面的使用者。
 
