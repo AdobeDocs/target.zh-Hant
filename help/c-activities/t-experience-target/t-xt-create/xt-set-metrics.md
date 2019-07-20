@@ -39,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    如需詳細資訊，請參閱[成功度量](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 1. (可選) 增加額外的量度。
-1. 完成量度的設定時，請按一下 **[!UICONTROL 「繼續」]**。請注意，為量度命名或重新命名時，不得使用下列字元:
+1. 完成量度的設定時，請按一下&#x200B;**[!UICONTROL 「繼續」]**。請注意，為量度命名或重新命名時，不得使用下列字元:
 
    | 字元 | 說明 |
    |--- |--- |
