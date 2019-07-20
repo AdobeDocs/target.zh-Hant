@@ -36,8 +36,8 @@ Define an audience to compare two profile attributes for your [Audience library]
 
 ## 建立設定檔屬性比較對象 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 依序按下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象]** &gt; **[!UICONTROL 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
-1. 從 **[!UICONTROL 「訪客設定檔」]下拉式清單選取屬性:**
+1. 依序按下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象]** &gt; **[!UICONTROL 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
+1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]下拉式清單選取屬性:**
 
    ![傾向分數1](assets/propensity_score_1.png)
 
@@ -45,7 +45,7 @@ Define an audience to compare two profile attributes for your [Audience library]
 
    ![傾向分數2](assets/propensity_score_2.png)
 
-1. 從 **[!UICONTROL 「選取比較類型」]** 下拉式清單中選擇 **[!UICONTROL 「屬性」]**。
+1. 從&#x200B;**[!UICONTROL 「選取比較類型」]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 「屬性」]**。
 
    「靜態值」比較類型可讓您將訪客設定檔屬性與特定值比較。
 
