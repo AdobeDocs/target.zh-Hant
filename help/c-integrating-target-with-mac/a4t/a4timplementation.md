@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. 設定此項目時，傳回的裝載格式如下所示：
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. 設定此項目時，傳回的裝載格式如下所示：
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. 只有此呼叫才會傳回分析裝載，而Target後端則不會轉送付費至Analytics。透過採用此方法，每個at. js Target請求都不會預設傳回負載，但只有在需要和指定時才會傳回。
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. 只有此呼叫才會傳回分析裝載，而Target後端則不會轉送付費至Analytics。透過採用此方法，每個at. js Target請求都不會預設傳回負載，但只有在需要和指定時才會傳回。
 
 例如:
 
