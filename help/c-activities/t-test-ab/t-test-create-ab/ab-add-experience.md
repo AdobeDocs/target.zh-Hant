@@ -18,7 +18,7 @@ Visual Experience Composer(CMS)提供了一個視覺化介面，可用來新增�
 
 如需關於體驗的其他詳細資料，請參閱[體驗](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
-1. 按一下 **[!UICONTROL 「新增體驗」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增體驗」]**。
 
    ![新增體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
@@ -83,13 +83,13 @@ For more information, see [Redirect to URL](/help/c-experiences/c-visual-experie
 
 您可以複製 A/B 測試中的體驗，不必從頭再次建立體驗，即可進行微幅變更。
 
-在 **[!UICONTROL 「體驗」]** 頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
+在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
 
 ![重復體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## 刪除體驗
 
-在 **[!UICONTROL 「體驗」]** 頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
+在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
 
 ![刪除體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
