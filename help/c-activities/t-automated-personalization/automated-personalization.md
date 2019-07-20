@@ -39,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 使用[!UICONTROL 自動個人化]時，請考慮下列詳細資料:
 
-**[!UICONTROL ]自動個人化使用隨機森林演算法來進行個人化。**
+**自動個人化使用隨機森林演算法來進行個人化。**
 
 隨機森林是先進的機器學習方法。就資料科學而言，這是利用根據訪客和造訪屬性來建構大量決策樹而實現的整體分類或迴歸方法。在 Target 內，隨機森林可用來針對每個特定訪客，決定何種體驗預期轉換的可能性最高 (或每次造訪帶來的收入最高)。例如，使用 Chrome 的訪客為金級忠誠成員，並且在星期二存取您的網站更可能會使用體驗 A 進行轉換，而來自紐約的訪客更可能使用體驗 B 進行轉換。如需 Target 中隨機森林的相關資訊，請參閱[隨機森林演算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)。
 
