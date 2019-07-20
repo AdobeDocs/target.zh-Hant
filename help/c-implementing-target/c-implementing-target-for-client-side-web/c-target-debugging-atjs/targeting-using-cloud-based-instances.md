@@ -26,4 +26,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!DNL at.js] 和 [!DNL mbox.js] JavaScript 程式庫會使用 Cookie 來追蹤使用者，以確保 [!DNL Target] 永遠展現一致的體驗。如果 [!DNL Target] JavaScript 程式庫無法儲存 Cookie，[!DNL Target] 請求會停用。
 
-**解決方案:** 如果您想要搭配「公用尾碼清單」上包含的網域來使用雲端式例項，最佳做法是自訂 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+**解決方案:**&#x200B;如果您想要搭配「公用尾碼清單」上包含的網域來使用雲端式例項，最佳做法是自訂 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
