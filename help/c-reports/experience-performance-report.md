@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 體驗效能報表顯示活動中的每個體驗的執行成果。此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
 
-您可以選取一或多個體驗來相互比較。按一下體驗並選取 **[!UICONTROL 「預覽」]，在瀏覽器標籤中開啟體驗。**
+您可以選取一或多個體驗來相互比較。按一下體驗並選取&#x200B;**[!UICONTROL 「預覽」]，在瀏覽器標籤中開啟體驗。**
 
 ![](assets/experienceperformancetable.png)
 
