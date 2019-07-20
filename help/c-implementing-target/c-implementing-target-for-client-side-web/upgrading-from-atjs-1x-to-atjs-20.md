@@ -606,7 +606,7 @@ at.js 2.x JSON 裝載:
 }
 ```
 
-### mbox (名稱) *不*等於全域 mbox
+### mbox (名稱) *不*&#x200B;等於全域 mbox
 
 (at.js 1.*x* 參數)
 
