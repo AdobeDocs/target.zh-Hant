@@ -21,14 +21,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 建立使用 Analytics 作為報表來源的 Target Standard 活動與設定一般的 Target Standard 活動類似，但有一些差異。例如，在建立活動時您無法選取報表的區段，因為檢視報表時可以套用 Analytics 中可用的所有區段。
 
-1. 按一下 **[!UICONTROL 「建立活動」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**。
 
    >[!NOTE]
    >
    >如果使用 Analytics 作為報表來源，活動名稱不能包含「%」字元。
 
 1. 選取活動類型並開始設定活動。
-1. 進入活動建立流程的 **[!UICONTROL 「設定」]** 部分時，請選擇 **[!UICONTROL 「Adobe Analytics」]** 並指定您的公司。
+1. 進入活動建立流程的&#x200B;**[!UICONTROL 「設定」]**&#x200B;部分時，請選擇&#x200B;**[!UICONTROL 「Adobe Analytics」]**&#x200B;並指定您的公司。
 1. 選擇一個報表套裝。
 
    您可以選擇 Adobe Analytics 中可供您使用的任何報表套裝。報表套裝會定義所收集的資料將可供使用的位置。報表套裝清單中未包括虛擬報表套裝。
@@ -63,5 +63,5 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >在設定 Analytics 作為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。在 Target 活動報表可以取得 Analytics 區段。
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
