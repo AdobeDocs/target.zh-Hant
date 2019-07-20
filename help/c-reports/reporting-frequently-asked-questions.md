@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若要變更活動報表的環境:
 
-1. 按一下 **[!UICONTROL 「活動」]**，從清單中按一下所需的活動，然後按一下 **「報表」]標籤。[!UICONTROL **
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的活動，然後按一下&#x200B;**「報表」]標籤。[!UICONTROL **
 1. 按一下齒輪圖示進行報表設定。
 
    ![](assets/ab_settings_dialog.png)
@@ -41,10 +41,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >自動個人化報表沒有齒輪圖示可用。
 
-1. 從 **[!UICONTROL 「環境」]** 下拉式清單中，選取 **[!UICONTROL 「生產」]**。
+1. 從&#x200B;**[!UICONTROL 「環境」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「生產」]**。
 
    如果您選取了開發環境，則可能沒有報表資料可用。
 
-1. 按一下 **[!UICONTROL 「儲存設定」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存設定」]**。
 
 如需環境的詳細資訊，請參閱[主機](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
