@@ -31,14 +31,14 @@ JSON 選件可用於表單式活動中，藉以啟用使用案例，此時 Targe
 
 ## 建立 JSON 選件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 按一下 **[!UICONTROL 「選件」]**，然後選取 **「代碼選件」]索引標籤。[!UICONTROL **
-1. 按一下 **[!UICONTROL 「建立]** &gt; **[!UICONTROL JSON 選件]**」。
+1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**「代碼選件」]索引標籤。[!UICONTROL **
+1. 按一下&#x200B;**[!UICONTROL 「建立]** &gt; **[!UICONTROL JSON 選件]**」。
 
    ![](assets/offer-json.png)
 
 1. 輸入選件名稱。
-1. 在 **[!UICONTROL 「程式碼」]方塊中，輸入或貼上 JSON 程式碼。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 在&#x200B;**[!UICONTROL 「程式碼」]方塊中，輸入或貼上 JSON 程式碼。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 範例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -131,7 +131,7 @@ adobe.target.getOffer({
 
 ## 依 JSON 選件類型來篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按一下 **[!UICONTROL 「類型」]** 下拉式清單，然後選取 **JSON]核取方塊，依 JSON 選件類型來篩選「選件資料庫」。[!UICONTROL **
+您可以按一下&#x200B;**[!UICONTROL 「類型」]**&#x200B;下拉式清單，然後選取 **JSON]核取方塊，依 JSON 選件類型來篩選「選件資料庫」。[!UICONTROL **
 
 ![](assets/offer-json-filter.png)
 
