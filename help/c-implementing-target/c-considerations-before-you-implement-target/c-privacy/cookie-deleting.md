@@ -20,15 +20,15 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 **若要從 Internet Explorer 刪除 Cookie:**
 
-1. 從 Internet Explorer 的「工具」選單中選擇 **[!UICONTROL 「網際網路選項」]**。
-1. 開啟「一般」標籤，然後在[!UICONTROL 「瀏覽記錄」]區段中按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 檢視檔案」]**。
+1. 從 Internet Explorer 的「工具」選單中選擇&#x200B;**[!UICONTROL 「網際網路選項」]**。
+1. 開啟「一般」標籤，然後在[!UICONTROL 「瀏覽記錄」]區段中按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 檢視檔案」]**。
 1. 選擇 mbox Cookie。
-1. 從「檔案」功能表中選擇 **[!UICONTROL 「刪除」]**，或選擇檔案並按 **[!UICONTROL 「刪除」]**。
+1. 從「檔案」功能表中選擇&#x200B;**[!UICONTROL 「刪除」]**，或選擇檔案並按&#x200B;**[!UICONTROL 「刪除」]**。
 
 **若要從 Firefox 刪除 Cookie:**
 
-1. 選擇 **工具** &gt; **選項** &gt; **個人隱私**。
-1. 按一下 **檢視 Cookie**。
+1. 選擇&#x200B;**工具** &gt; **選項** &gt; **個人隱私**。
+1. 按一下&#x200B;**檢視 Cookie**。
 1. 依照 Cookie 名稱排序以尋找 Target Cookie。
-1. 選擇您正在預覽之網站的 Cookie，然後按一下 **移除 Cookie**。
+1. 選擇您正在預覽之網站的 Cookie，然後按一下&#x200B;**移除 Cookie**。
 
