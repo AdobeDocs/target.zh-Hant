@@ -64,17 +64,17 @@ Target 也可以將您的建議當成 JSON 物件來傳送，然後就可用於�
 1. 設定一個使用此設計的表單式建議活動。
 
    1. 導覽至「活動」頁面。
-   1. 按一下 **[!UICONTROL 「建立活動」]**。
-   1. 選取 **[!UICONTROL 「Recommendations」]**。
-   1. 在 **[!UICONTROL 「選擇體驗撰寫器」]** 下，選取 **[!UICONTROL 「表單」]**。
+   1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**。
+   1. 選取&#x200B;**[!UICONTROL 「Recommendations」]**。
+   1. 在&#x200B;**[!UICONTROL 「選擇體驗撰寫器」]**&#x200B;下，選取&#x200B;**[!UICONTROL 「表單」]**。
 
-   1. 在位置下，輸入文字: &quot;Sample_Recs_Response&quot;
-   1. 在 **[!UICONTROL 「預設內容」]** 下，按向下箭頭，然後按一下 **[!UICONTROL 「新增建議」]**。
+   1. 在位置下，輸入文字: "Sample_Recs_Response"
+   1. 在&#x200B;**[!UICONTROL 「預設內容」]**&#x200B;下，按向下箭頭，然後按一下&#x200B;**[!UICONTROL 「新增建議」]**。
    1. 選擇頁面類型。這會決定下一個畫面的起始篩選。
-   1. 選取條件卡，然後按 **[!UICONTROL 「下一步」]**。
-   1. 選取您在上一步建立的設計，然後按一下 **[!UICONTROL 「儲存」]**。
+   1. 選取條件卡，然後按&#x200B;**[!UICONTROL 「下一步」]**。
+   1. 選取您在上一步建立的設計，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
    1. 完成設定程序。
-   1. 按一下 **[!UICONTROL 「非使用中」]** 旁的向右箭頭，然後選取 **[!UICONTROL 「啟動」]**。
+   1. 按一下&#x200B;**[!UICONTROL 「非使用中」]**&#x200B;旁的向右箭頭，然後選取&#x200B;**[!UICONTROL 「啟動」]**。
 
 1. 在設定並啟動活動之後，您可以設定請求範例來取回全新的 JSON 回應。
 
@@ -97,7 +97,7 @@ Target 也可以將您的建議當成 JSON 物件來傳送，然後就可用於�
 
 當演算法執行之後，而且也有結果，則回應會如下所示:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## 其他 JSON 物件要訣和技巧 {#section_C305673C68944749969DB239E3221DC2}
 
