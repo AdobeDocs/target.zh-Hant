@@ -30,9 +30,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 擷取授權 Token:
 
-1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
-1. 選取 **[!UICONTROL 「mbox.js」]** 或 **[!UICONTROL 「at.js」]**。
-1. 按一下 **[!UICONTROL 「產生驗證 Token」]**。
+1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 選取&#x200B;**[!UICONTROL 「mbox.js」]**&#x200B;或&#x200B;**[!UICONTROL 「at.js」]**。
+1. 按一下&#x200B;**[!UICONTROL 「產生驗證 Token」]**。
 
    ![產生授權Token](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
@@ -102,7 +102,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 如需詳細資訊，請觀看下方的訓練影片:
 
-如需更多詳細資訊，請參閱 [*Adobe Experience Cloud Debugger 擴充功能*文件](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。
+如需更多詳細資訊，請參閱 [*Adobe Experience Cloud Debugger 擴充功能*&#x200B;文件](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。
 
 ## 如果在傳送期間 target.js 無法載入 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -110,7 +110,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 ## 最暢銷商品未出現在建議中 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SIteCatalyst: purchase`*mbox 無法用於「購買」演算法流量資料。請改用 *`orderConfirmPage`*mbox。
+*`SIteCatalyst: purchase`* mbox 無法用於「購買」演算法流量資料。請改用 *`orderConfirmPage`* mbox。
 
 ## 檢查活動優先順序 {#section_3D0DD07240F0465BAF655D0804100AED}
 
