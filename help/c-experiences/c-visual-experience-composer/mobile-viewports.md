@@ -61,7 +61,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | Samsung Galaxy Tab 10 | 800w x 1280h | 800w x 1280h |
 | Chromebook Pixel | 1280w x 850h | 2560w x 1700h |
 
-有許多網站都有列出熱門裝置的檢視區大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
+有許多網站都有列出熱門裝置的檢視區大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
 
 如果您要將活動傳送給使用特定裝置的人，請在活動圖表中選擇適合該裝置的對象。使用「行動裝置 Web 撰寫器」，針對該裝置來編輯活動中的頁面。如果您想要在整個數位體驗中執行活動，並確保在所有裝置上都完美呈現，請勿套用鎖定目標，應該使用行動檢視區以每一種螢幕大小來預覽活動。
 
@@ -77,8 +77,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 建立您的體驗時，請設定您要提供使用的任何行動檢視區。
 
-1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
-1. 在「帳戶偏好設定」頁面的「行動檢視區設定」區段中，按一下 **[!UICONTROL 「新增」]** 來新增行動檢視區。
+1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
+1. 在「帳戶偏好設定」頁面的「行動檢視區設定」區段中，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;來新增行動檢視區。
 
    若要變更現有行動檢視區的組態，請選取該檢視區，然後按一下「編輯」(鉛筆) 圖示。
 
@@ -103,15 +103,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * Symbian
    * Blackberry
    如果您使用[增強體驗撰寫器](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)並選擇作業系統，Target 會在您檢視頁面時模擬該裝置。例如，如果您的回應式網站在 Android 與 iOS 上的外觀有一些不同，Target 會模擬該行為。
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 建立回應式體驗 {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 新增行動檢視區至您的 Target 活動，為行動螢幕建立回應式體驗。
 
 1. 建立活動。
-1. 在可視化體驗撰寫器中，按一下 **[!UICONTROL 「設定」]** 齒輪圖示，然後選取 **[!UICONTROL 「新增行動檢視區」]**。
-1. 按一下 **[!UICONTROL 「裝置」]** 圖示，然後啟用應該具有行動檢視區的每個裝置。
+1. 在可視化體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 「新增行動檢視區」]**。
+1. 按一下&#x200B;**[!UICONTROL 「裝置」]**&#x200B;圖示，然後啟用應該具有行動檢視區的每個裝置。
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -130,7 +130,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 此使用案例顯示如何使用 Target Standard 的行動檢視區功能為兩個 iPhone 版本 iPhone 6 和 iPhone 6 Plus 設定體驗。
 
-1. 在 Target Standard 中，按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
+1. 在 Target Standard 中，按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
 1. 在「偏好設定」頁面的「行動檢視區設定」區段中，針對 iPhone 6 和 iPhone 6 plus 建立行動檢視區。
 
    為每個檢視區使用下列設定:
@@ -144,12 +144,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 建立具有您想要鎖定的體驗的活動。
 1. 選取您要對從 iPhone 6 或 iPhone 6 Plus 存取您的網站的訪客鎖定的體驗。
-1. 選取您的目標時，按一下 **[!UICONTROL 「建立對象」]**，然後設定對象，如下圖所示:
+1. 選取您的目標時，按一下&#x200B;**[!UICONTROL 「建立對象」]**，然後設定對象，如下圖所示:
 
    ![](assets/iphoneaudiences.png)
 
    因為手機可以旋轉為橫向，在結合 iPhone 裝置型號時，若同時要求高度和寬度大於 320，便會建立僅 6 和 6 Plus 能夠符合的條件。
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 如您一般的作法繼續設定您的活動。
 
 ## 訓練影片
