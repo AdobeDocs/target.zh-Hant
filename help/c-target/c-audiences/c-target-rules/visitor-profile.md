@@ -17,13 +17,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 建立對象以定位符合特定描述檔參數的訪客。
 
-1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
 
    ![](assets/target_visitor_profile.png)
 
-1. 按一下 **[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    訪客設定檔參數會透過 mbox (設定檔) 來傳遞。您可以將目標鎖定在新訪客或再度訪問的訪客，或包含所有使用者。
 
@@ -40,8 +40,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您可以鎖定自訂設定檔參數和 `user.` 參數。選擇您要用來鎖定目標活動的參數。如果需要的參數並未出現，表示參數尚未由 mbox 觸發。
 
-1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 訓練影片: 建立對象
 
