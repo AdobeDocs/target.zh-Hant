@@ -18,9 +18,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 例如，使用[結合的臨機對象功能](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)，您可以鎖定在這三天到黑色星期五期間具有特定內容且低消費的人員，以及在黑色星期五之後具有其他內容的人員。
 
-1. 在 [!DNL Target] 介面中，按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. 按一下 **[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 時間範圍」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 時間範圍」]**。
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -46,11 +46,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >[!UICONTROL 週與日劃分]的時區會顯示為 GMT +/- NN:NN；其中 NN:NN 是 GMT 時差，會反映帳戶層級時區，而非訪客的時區。例如，加州時區會顯示為 GMT -08:00。
 
-1. (可選) 按一下 **[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 
    請注意，您可以視需要對每一個規則重複步驟 5。
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 訓練影片: 建立對象
 
