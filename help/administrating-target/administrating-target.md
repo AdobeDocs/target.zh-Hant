@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可協助您設定 Adobe Target 的資訊，包括偏好設定、實作、使用者管理、屬性、Scene7 設定、主機管理和回應 Token。
 
-若要存取[!UICONTROL 「設定」]功能表項目，請按一下頂端功能表列的 **[!UICONTROL 「設定」]，然後沿著左側按一下所需的標籤:**
+若要存取[!UICONTROL 「設定」]功能表項目，請按一下頂端功能表列的&#x200B;**[!UICONTROL 「設定」]，然後沿著左側按一下所需的標籤:**
 
 * [偏好設定](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)
 * [實施](/help/c-implementing-target/implementing-target.md)
