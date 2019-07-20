@@ -31,10 +31,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **若要從您的報表中排除極端值:**
 
-1. 開啟包括收入或參與量度類型的活動，然後按一下 **[!UICONTROL 「報表」]** 索引標籤。
+1. 開啟包括收入或參與量度類型的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;索引標籤。
 1. 按一下齒輪圖示來顯示[!UICONTROL 「報表設定」]選項。
 
    ![步驟結果](assets/exclude_extreme_values.png)
 
-1. 視需要將 **[!UICONTROL 「排除極端值」]** 選項切換為開啟或關閉。
-1. 按一下 **[!UICONTROL 「儲存設定」]**。
+1. 視需要將&#x200B;**[!UICONTROL 「排除極端值」]**&#x200B;選項切換為開啟或關閉。
+1. 按一下&#x200B;**[!UICONTROL 「儲存設定」]**。
