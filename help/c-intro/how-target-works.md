@@ -140,7 +140,7 @@ Google 鼓勵使用者測試，且已於說明文件中表示只要遵守一些�
 
    Target (作為一種平台) 已設定為將搜尋引擎機器人視同任何使用者。這表示機器人可能會納入您執行的測試中 (如果隨機選取) 並「看見」測試變異。
 
-* **使用 rel=&quot;canonical&quot;** - 有時會顧及變異而需要使用不同的 URL 來設定 A/B 測試。在這些情況下，所有變異都應該包含 `rel="canonical"` 標籤來參照原始 (控制) URL。例如，假設 Adobe 針對每一個變異使用不同的 URL 來測試首頁，首頁的下列 canonical 標籤會出現在每一個變異的 `<head>` 標籤中:
+* **使用 rel="canonical"** - 有時會顧及變異而需要使用不同的 URL 來設定 A/B 測試。在這些情況下，所有變異都應該包含 `rel="canonical"` 標籤來參照原始 (控制) URL。例如，假設 Adobe 針對每一個變異使用不同的 URL 來測試首頁，首頁的下列 canonical 標籤會出現在每一個變異的 `<head>` 標籤中:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
