@@ -28,23 +28,23 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![Target 圖示](/help/c-intro/assets/appmenu-target-new.png)
 
-1. 按一下 [!DNL Target] 卡片上的 **[!UICONTROL 「啟動」]**。
+1. 按一下 [!DNL Target] 卡片上的&#x200B;**[!UICONTROL 「啟動」]**。
 
    ![Target 啟動](/help/c-intro/assets/target-launch-new.png)
 
-1. (可選) 若要將 [!DNL Target] 設定為您的預設檢視，在您登入 [!DNL Experience Cloud] 時，請按一下您的設定檔頭像下的 **[!UICONTROL 「編輯設定檔」]**，然後設定您的登陸頁面偏好設定。
+1. (可選) 若要將 [!DNL Target] 設定為您的預設檢視，在您登入 [!DNL Experience Cloud] 時，請按一下您的設定檔頭像下的&#x200B;**[!UICONTROL 「編輯設定檔」]**，然後設定您的登陸頁面偏好設定。
 
    ![登陸頁面](/help/c-intro/assets/pagepref-new.png)
 
 ## 變更 Target UI 的預設語言 {#language}
 
-1. 登入 [!DNL Adobe Experience Cloud ] 或 [!DNL Target] 後，請按一下您的個人檔案頭像，然後按一下 **[!UICONTROL 編輯個人檔案]**。
+1. 登入 [!DNL Adobe Experience Cloud ] 或 [!DNL Target] 後，請按一下您的個人檔案頭像，然後按一下&#x200B;**[!UICONTROL 編輯個人檔案]**。
 
    ![編輯個人檔案](/help/c-intro/assets/change-language.png)
 
-1. 按一下 **[!UICONTROL 編輯個人資訊]**。
+1. 按一下&#x200B;**[!UICONTROL 編輯個人資訊]**。
 
-1. 按一下頂端功能表列中的 **[!UICONTROL 通訊]** 標籤。
+1. 按一下頂端功能表列中的&#x200B;**[!UICONTROL 通訊]**&#x200B;標籤。
 
    ![偏好語言](/help/c-intro/assets/prefered-language.png)
 
@@ -65,7 +65,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 繁體中文
    * 韓文
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 1. 登出 [!DNL Adobe Experience Cloud] 或 [!DNL Target]，然後再次登入以使變更生效。
 
