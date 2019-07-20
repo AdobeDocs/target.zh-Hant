@@ -130,7 +130,7 @@ at.js 檔案下載後大約 109 KB。不過，因為大部分伺服器會自動�
 
 ## at.js 為何比 mbox.js{#section_AA1C43897E46448FA3E26EEC10ED7E51} 還大? 
 
-at.js 實作使用單一資料庫 ([!DNL at.js])，而 mbox.js 實作實際上使用兩個資料庫 ([!DNL mbox.js] 和 [!DNL target.js])。所以，at.js 要同時與 mbox.js* 和* `target.js` 一起比較才公平。比較兩個版本的 gzip 大小，at.js 1.2 版是 34 KB，而 mbox.js 63 版是 26.2 KB。
+at.js 實作使用單一資料庫 ([!DNL at.js])，而 mbox.js 實作實際上使用兩個資料庫 ([!DNL mbox.js] 和 [!DNL target.js])。所以，at.js 要同時與 mbox.js *和* `target.js` 一起比較才公平。比較兩個版本的 gzip 大小，at.js 1.2 版是 34 KB，而 mbox.js 63 版是 26.2 KB。
 
 at.js 較大，因為它執行的 DOM 剖析比 mbox.js 多很多。這有必要，因為 at.js 在 JSON 回應中是取得「原始」資料，必須轉換成有意義的資料。mbox.js 使用 `document.write()`，所有剖析均由瀏覽器完成。
 
