@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 單一頁面應用程式可視化體驗撰寫器(SPA VEC) | SPA VEC 已改良下列項目，讓您的工作更快更有效率: <ul><li>按一下 SPA 中的動作會醒目顯示將套用該動作之網站上的元素。在檢視下建立的每個 VEC 動作有四個對應的圖示: 資訊、編輯、移動和刪除。此版本中新增的「移動」功能可讓您將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。(TGT-33746)</li><li>您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時 (例如自訂程式碼無法繼續正常運作) 執行許多動作。無法在網站載入前編輯的動作，都會在 Target UI 中停用。(TGT-33851 和 TGT-34149)</li></ul>如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。 |
+| 單一頁面應用程式可視化體驗撰寫器(SPA VEC) | SPA VEC 已改良下列項目，讓您的工作更快更有效率: <ul><li>按一下 SPA 中的動作，即將套用該動作的網站元素將會醒目顯示。在檢視下建立的每個 VEC 動作都有四個對應的圖示: 資訊、編輯、移動和刪除。此版本新增的「移動」功能可讓您將動作移動至「頁面載入事件」，或修改面板中已存在的其他任何檢視。(TGT-33746)</li><li>您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時 (例如自訂程式碼無法繼續正常運作) 執行許多動作。無法在網站載入前編輯的動作，都會在 Target UI 中停用。(TGT-33851 和 TGT-34149)</li></ul>如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 
 #### 增強功能、修正和變更
 
@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[影片：行動應用程式Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再仰賴不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[影片: 行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.4.2 (2019 年 4 月 30 日) {#release-19-4-2}
 
@@ -53,7 +53,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| [!UICONTROL 可視化體驗撰寫器] | [!UICONTROL 可視化體驗撰寫器] (VEC) 包含以下增強功能，讓您的工作變得更輕鬆、更有效率:<ul><li>設定點擊追蹤時，現在已可使用 DOM 路徑功能。<br>如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md#considerations)。</li><li>使用樣式面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。<br>若要存取樣式面板，請按一下 VEC 中的頁面元素，然後按一下[!UICONTROL 編輯] &gt; [!UICONTROL 樣式]。<br>樣式面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。<br>如需詳細資訊，請參閱*可視化體驗撰寫器選項*中的[樣式](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)。</li><li>RTF 編輯器現可支援巢狀 HTML5 元素。<br>HTML5 規範可允許巢狀專用的全新標記組合。舊版 RTF 編輯器不支援 HTML5 規範允許的全新巢狀標記。因此，VEC 中選取的所有巢狀元素無法正確地處理，導致了意外的 HTML 變更。(TGT-33618)<br>如需詳細資訊，請參閱*可視化體驗撰寫器選項*中的[編輯文字/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html)。</li> |
+| [!UICONTROL 可視化體驗撰寫器] | [!UICONTROL 可視化體驗撰寫器] (VEC) 包含以下增強功能，讓您的工作變得更輕鬆、更有效率:<ul><li>設定點擊追蹤時，現在已可使用 DOM 路徑功能。<br>如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md#considerations)。</li><li>使用樣式面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。<br>若要存取樣式面板，請按一下 VEC 中的頁面元素，然後按一下[!UICONTROL 編輯] &gt; [!UICONTROL 樣式]。<br>樣式面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。<br>如需詳細資訊，請參閱&#x200B;*可視化體驗撰寫器選項*&#x200B;中的[樣式](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)。</li><li>RTF 編輯器現可支援巢狀 HTML5 元素。<br>HTML5 規範可允許巢狀專用的全新標記組合。舊版 RTF 編輯器不支援 HTML5 規範允許的全新巢狀標記。因此，VEC 中選取的所有巢狀元素無法正確地處理，導致了意外的 HTML 變更。(TGT-33618)<br>如需詳細資訊，請參閱&#x200B;*可視化體驗撰寫器選項*&#x200B;中的[編輯文字/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html)。</li> |
 
 #### 增強功能、修正和變更
 
@@ -131,7 +131,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 單一頁面應用程式可視化體驗撰寫器 | 適用於單頁應用程式 (SPA) 的可視化體驗撰寫器 (VEC) 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在 React 和 Angular 等最熱門的架構上建立活動。(TGT-27916)<br>如需詳細資訊，請參閱[單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)和[單一頁面應用程式整合](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。<br>除了前述文章之外，我們另準備了許多有關 SPA 和 at.js 等主題等文章，為您解說這項功能及如何實作。如需詳細資訊，請參閱[文件變更](/help/r-release-notes/doc-change.md)。 |
 | 可視化體驗撰寫器 | 可視化體驗撰寫器 (VEC) 包含以下增強功能，讓您的工作變得更輕鬆、更有效率:<ul><li>在 VEC 中插入 [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)時，您現在可以使用「插入在前」和「插入在後」選項。請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。(TGT-32385)</li><li>適用於 Google Chrome 的 [!DNL Adobe Target] VEC Helper 瀏覽器擴充功能可讓您在 VEC 中妥善地載入網站，以便快速編寫網站體驗及評估品質。請參閱[可視化體驗撰寫器 Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。(TGT-32746)</li></ul> |
 | ![Premium 徽章](/help/assets/premium.png)<br>在 [!UICONTROL A/B 測試]與[!UICONTROL 體驗鎖定目標]活動中的建議 | 您現在可以在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 與[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。屆時將開啟以下列舉的全新功能:<ul><li>在同一個活動內測試及鎖定建議與非建議內容。</li><li>輕鬆試驗建議在頁面中的放置方法，包括多個建議的排列順序。</li><li>使用[!UICONTROL 自動分配]將流量推送到績效最好的建議體驗。</li><li>使用[!UICONTROL 自動鎖定目標]，根據每位訪客的個人資料指派量身打造的建議體驗。</li></ul>若要開始使用，請使用 VEC 建立 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定目標]活動，再使用[!UICONTROL 「插入在前」]、[!UICONTROL 「插入在後」]或[!UICONTROL 「取代為」]動作將建議新增到體驗中。(RECS-6166)<br>如需詳細資訊，請參閱[選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md)。 |
-| ![Premium 徽章](/help/assets/premium.png)<br>Target API 中的企業權限支援 | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis)/tw 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日** 開始，系統管理員能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供自動個人化 (AP) 活動支援。<br>**注意:** 關於此功能有一個[已知問題](/help/r-release-notes/known-issues-resolved-issues.md#api)。 |
+| ![Premium 徽章](/help/assets/premium.png)<br>Target API 中的企業權限支援 | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis)/tw 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供自動個人化 (AP) 活動支援。<br>**注意:** 關於此功能有一個[已知問題](/help/r-release-notes/known-issues-resolved-issues.md#api)。 |
 
 **增強功能、修正和變更**
 
@@ -153,7 +153,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Target Premium 徽章](/help/assets/premium.png)<br/>[!DNL Target] API 中的[!UICONTROL 企業權限]支援 | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis)/tw 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日** 開始，系統管理員將能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供自動個人化 (AP) 活動支援。 |
+| ![Target Premium 徽章](/help/assets/premium.png)<br/>[!DNL Target] API 中的[!UICONTROL 企業權限]支援 | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis)/tw 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員將能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供自動個人化 (AP) 活動支援。 |
 | ![Target Premium 徽章](/help/assets/premium.png)<br/>[!UICONTROL 建議]: 根據環境 (主機群組) 篩選集合和排除項目 | 您現在可以針對選定環境 (主機群組) 預覽[!UICONTROL 建議]集合和排除項目的內容。<br/>先前，當您檢視集合或排除項目時，顯示的包含項目是預設主機群組 (在[!UICONTROL 「建議 &gt; 設定 &gt; 預設主機群組」]中指定) 的結果。<br/>現在當您建立或更新集合或排除項目時，可以使用[!UICONTROL 「環境」]選取器來選擇要預覽結果的環境。新的[!UICONTROL 「環境」]篩選器能節省時間和精力，因為您不再需要導覽至[!UICONTROL 「設定」]頁面來選取適當的預設主機群組，就能建立或編輯集合和排除項目。<br/>**注意:** 變更選定環境後，您必須按一下[!UICONTROL 「搜尋」]來更新傳回的結果。<br/>新的[!UICONTROL 「環境」]篩選器可從 [!DNL Target] UI 的以下位置取用:<ul><li>[!UICONTROL 目錄搜尋] ([!UICONTROL 「建議 &gt; 目錄搜尋」])</li><li>[!UICONTROL 建立集合]對話方塊 ([!UICONTROL 「建議 &gt; 集合 &gt; 新建」])</li><li>[!UICONTROL 更新集合]對話方塊 ([!UICONTROL 「建議 &gt; 集合 &gt; 編輯」])</li><li>[!UICONTROL 建立排除項目]對話方塊 ([!UICONTROL 「建議 &gt; 排除項目 &gt; 新建」])</li><li>[!UICONTROL 更新排除項目]對話方塊 ([!UICONTROL 「建議 &gt; 排除項目 &gt; 編輯」])</li></ul><br>如需詳細資訊，請參閱下列主題:<uL><li>[集合](/help/c-recommendations/c-products/collections.md)</li><li>[排除項目](/help/c-recommendations/c-products/exclusions.md)</li><li>[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md)</li><li>[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[建議: 根據環境 (主機群組) 篩選集合和排除項目](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **增強功能、修正和變更**
@@ -485,7 +485,7 @@ target/r_release-notes-2018.xml
 
 此 [!DNL Target] 發行包含下列增強功能、修正和變更:
 
-* Recommendations CSV 下載檔案的「備用」列現在開頭會是 &quot;*&quot; (兩個引號包住星號)，而不是 * (一個星號)。
+* Recommendations CSV 下載檔案的「備用」列現在開頭會是 "*" (兩個引號包住星號)，而不是 * (一個星號)。
 * Recommendations CSV 下載檔案的「銷售最高/檢視次數最多」列開頭不會再有逗點。
 
 ### Target 平台變更 (2018 年 6 月 19 日) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -504,7 +504,7 @@ target/r_release-notes-2018.xml
 
 ### Target 下載 API (2018 年 6 月 5 日) {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
-您可以使用建議下載 API 將建議下載至 .CSV 檔案，隨後可在試算表或文字編輯器中檢視。為改善安全性，**2018 年 6 月 5 日** 起，Target 會封鎖 HTTP 要求，僅允許 HTTPS 要求。
+您可以使用建議下載 API 將建議下載至 .CSV 檔案，隨後可在試算表或文字編輯器中檢視。為改善安全性，**2018 年 6 月 5 日**&#x200B;起，Target 會封鎖 HTTP 要求，僅允許 HTTPS 要求。
 
 ### Target Standard/Premium 18.5.1 (2018 年 5 月 22 日) {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
@@ -1236,7 +1236,7 @@ target/r_release-notes-2018.xml
    * 「對象」&gt;「建立對象」&gt;「訪客設定檔」
    * 「Recommendations」&gt;「摘要建立」&gt;「當來源類型」&gt;「Analytics」&gt;「報表套裝選擇器」
 
-* 已改善當網站的 &quot;X-Frame-options&quot; 設為 SAMEORIGIN，而網站無法在可視化體驗撰寫器 (VEC) 中載入時的錯誤訊息。訊息會提示使用者切換至增強體驗撰寫器的「設定」&gt;「偏好設定」。(TGT-17356)
+* 已改善當網站的 "X-Frame-options" 設為 SAMEORIGIN，而網站無法在可視化體驗撰寫器 (VEC) 中載入時的錯誤訊息。訊息會提示使用者切換至增強體驗撰寫器的「設定」&gt;「偏好設定」。(TGT-17356)
 * Target Standard/Premium 中的報表現在會以您的帳戶的時區顯示，而非以 Target 伺服器時區 (美國東部時間) 顯示。(TGT-24868)
 * 如果從 [!DNL Target] 外部 (例如，透過 via Adobe I/O) 更新在 [!DNL Target] 中建立的活動，則會將下列活動屬性匯入回 [!DNL Target]:
 
@@ -1959,7 +1959,7 @@ Adobe Target Standard/Premium 16.7.1 (2016 年 7 月 21 日) 版本包括下列�
 已回報下列已知問題:
 
 * 在多頁活動的頁面 A 上選取「停用 JavaScript」時，所有地方的 JavaScript 都被停用，包括未選取「停用 JavaScript」的其他頁面。
-* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下 **[!UICONTROL 「設定」]**，選擇 **[!UICONTROL 「多個對象」]**，然後新增 **[!UICONTROL 「所有訪客」]** 做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
+* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇&#x200B;**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**&#x200B;做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
 
 * 此文件顯示重新導向 URL 核取方塊預期的行為。不過，由於錯誤，核取方塊預設不會顯示為已選取。此瑕疵近期會修正。
 
@@ -2043,7 +2043,7 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
 已回報下列已知問題:
 
 * 在多頁活動的頁面 A 上選取「停用 JavaScript」時，所有地方的 JavaScript 都被停用，包括未選取「停用 JavaScript」的其他頁面。
-* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下 **[!UICONTROL 「設定」]**，選擇 **[!UICONTROL 「多個對象」]**，然後新增 **[!UICONTROL 「所有訪客」]** 做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
+* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇&#x200B;**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**&#x200B;做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
 
 ### 新 Target 實作資料庫 at.js 0.8.0 (2016 年 5 月 5 日) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2983,7 +2983,7 @@ target/r_release-notes-2014.xml
 **修正**
 
 * 修正在活動間進行瀏覽時，不會產生報告圖表的問題。
-* 修正已選取連結未標示為「已選取 (當使用者按一下 **[!UICONTROL 「目標和設定」]頁面上的**[!UICONTROL 「選取連結」]時) 的問題。
+* 修正已選取連結未標示為「已選取 (當使用者按一下&#x200B;**[!UICONTROL 「目標和設定」]頁面上的**[!UICONTROL 「選取連結」]時) 的問題。
 
 * 修正在「[!UICONTROL 概述]」頁面上啟動新活動後，該活動無法顯示在「[!UICONTROL 活動清單]」中的問題。
 
@@ -3234,7 +3234,7 @@ target/r_release-notes-2014.xml
 * 在 Target Standard 中建立「地理位置」對象時，若 Target Advanced 停用「地理位置」，則會發生同步錯誤。
 * 在 CSS 中參照影像時，無法交換該影像。
 * 使用「視覺體驗編譯工具」重新排列的元素無法使用點擊追蹤功能。請避免在重新排列的元素上設定點擊追蹤，直到修正此問題為止。
-* 使用者無法選取已包裝在 mbox 中之內容的 **[!UICONTROL 「移除」]動作。**
+* 使用者無法選取已包裝在 mbox 中之內容的&#x200B;**[!UICONTROL 「移除」]動作。**
 
 ### Adobe Target Standard 1.2 (2013 年 10 月 31 日) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3266,7 +3266,7 @@ target/r_release-notes-2014.xml
 
 | 功能 | 說明 |
 |---|---|
-| 從 Target Standard 下載 [!DNL mbox.js] | [!DNL mbox.js] 檔案現在可從 Target Standard 介面的 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]**」直接下載。以前此檔案必須從 Target Advanced 下載，或是由您的帳戶代表或顧問提供。 |
+| 從 Target Standard 下載 [!DNL mbox.js] | [!DNL mbox.js] 檔案現在可從 Target Standard 介面的&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]**」直接下載。以前此檔案必須從 Target Advanced 下載，或是由您的帳戶代表或顧問提供。 |
 
 此版本包含下列修正和增強功能:
 
