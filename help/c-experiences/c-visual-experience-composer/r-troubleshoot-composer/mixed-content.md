@@ -66,10 +66,10 @@ target/t_mixed_content_ie.xml
 
 1. 在 Internet Explorer 中，按一下設定圖示 &gt;**[!UICONTROL 「網際網路選項」]**。
 1. 開啟[!UICONTROL 「安全性」]索引標籤。
-1. 選取 **[!UICONTROL 「網際網路」]**，然後按一下 **[!UICONTROL 「自訂層級」]**。
-1. 選取 **[!UICONTROL 「雜項」]**。
-1. 在[!UICONTROL 「雜項」]下，啟用 **[!UICONTROL 「顯示混合的內容」]**。
-1. 按一下 **[!UICONTROL 「確定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 套用」]**。
+1. 選取&#x200B;**[!UICONTROL 「網際網路」]**，然後按一下&#x200B;**[!UICONTROL 「自訂層級」]**。
+1. 選取&#x200B;**[!UICONTROL 「雜項」]**。
+1. 在[!UICONTROL 「雜項」]下，啟用&#x200B;**[!UICONTROL 「顯示混合的內容」]**。
+1. 按一下&#x200B;**[!UICONTROL 「確定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 套用」]**。
 
 變更此設定之後，建議您重新啟動電腦。
 
