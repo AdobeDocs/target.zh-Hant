@@ -23,9 +23,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    您可以在[「核心實施和生命週期」](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html)下找到說明。
 1. 新增用戶端代碼、逾時和啟用 SSL。
 
-   在 Experience Cloud 中，開啟 Mobile Services，然後前往 **[!UICONTROL 「管理應用程式設定]** &gt; **[!UICONTROL SDK Target 選項」]**。
+   在 Experience Cloud 中，開啟 Mobile Services，然後前往&#x200B;**[!UICONTROL 「管理應用程式設定]** &gt; **[!UICONTROL SDK Target 選項」]**。
 
-   新增您的 Target 用戶端代碼和逾時。clientcode 是您的帳戶或公司所特有。逾時為 Target 在顯示預設內容之前將等候回應的時間 (秒)。確定已在 Adobe Mobile Services 的「管理應用程式設定」頁面中勾選 **[!UICONTROL 「使用 HTTPS」]選項。** 如果未啟用 HTTPS，除非您將 Target 伺服器加入白名單，否則 iOS9+ 中的所有呼叫將被封鎖。
+   新增您的 Target 用戶端代碼和逾時。clientcode 是您的帳戶或公司所特有。逾時為 Target 在顯示預設內容之前將等候回應的時間 (秒)。確定已在 Adobe Mobile Services 的「管理應用程式設定」頁面中勾選&#x200B;**[!UICONTROL 「使用 HTTPS」]選項。**&#x200B;如果未啟用 HTTPS，除非您將 Target 伺服器加入白名單，否則 iOS9+ 中的所有呼叫將被封鎖。
 
    ![](assets/mobile-clientcode.png)
 
