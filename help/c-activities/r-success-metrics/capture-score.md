@@ -48,13 +48,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您可使用此方法，將特定值新增至頁面上每個 mbox 的分數。例如，若您傳入 `?mboxPageValue=10` 參數，且頁面上共有三個 mbox，則頁面分數為 30。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >位於促銷活動第一個顯示 mbox 上方的 mbox 不會計入分數。
 
 建議的最佳實務是在 mbox 程式碼中指定值。這可讓您根據每個 mbox 的內容，獲得更精確的測量值。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >為了便於維護，您可以在 [!DNL at.js] 或 [!DNL mbox.js] 檔案中，運用某些條件式 JavaScript 邏輯來設定網站的頁面分數值指派。這樣便無須在頁面中新增更多程式碼。請連絡您的帳戶顧問以取得協助。
 
