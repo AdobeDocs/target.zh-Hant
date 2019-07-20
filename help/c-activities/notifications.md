@@ -41,7 +41,7 @@ For information about setting up Notifications, see [Notifications](https://mark
 
 當排定的活動到了開始日期，以及到了結束日期而結束時，也會出現類似的通知。
 
-所有 [!DNL Target] 通知會顯示已批准或停用的活動名稱，且包含 &quot;Adobe Target&quot; 以便於識別。
+所有 [!DNL Target] 通知會顯示已批准或停用的活動名稱，且包含 "Adobe Target" 以便於識別。
 
 如果單一活動傳送相同類型的多個通知，則會合併成單一片卡，並於其中顯示通知數目。例如:
 
