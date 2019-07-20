@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
 
-若要顯示報表，請按一下 **[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下 **「報表」]索引標籤。[!UICONTROL **
+若要顯示報表，請按一下&#x200B;**[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下&#x200B;**「報表」]索引標籤。[!UICONTROL **
 
 ![報表UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
@@ -30,7 +30,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **建立預設集或預設的預設集**
 
 1. 視需要設定活動的報表 (量度、日期範圍、對象、進階設定等)。
-1. 在 **[!UICONTROL Target 預設集]** 旁邊，依序按下三個垂直的點圖示 &gt; **[!UICONTROL 「另存新檔」]**。
+1. 在 **[!UICONTROL Target 預設集]**&#x200B;旁邊，依序按下三個垂直的點圖示 &gt; **[!UICONTROL 「另存新檔」]**。
 
    ![報表預設集](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -38,13 +38,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![新預設集對話框](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. 查看「篩選條件與設定」區段中的資訊，以確保根據需要設定報表，然後指定 **[!UICONTROL 「預設集名稱」]** (最多 50 個字元)。
-1. (條件性) 如果您希望將此作為預設/我的最愛報表檢視，請滑動 **[!UICONTROL 「將此項目設定為預設的預設集」]切換至「開啟」位置。**
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 查看「篩選條件與設定」區段中的資訊，以確保根據需要設定報表，然後指定&#x200B;**[!UICONTROL 「預設集名稱」]** (最多 50 個字元)。
+1. (條件性) 如果您希望將此作為預設/我的最愛報表檢視，請滑動&#x200B;**[!UICONTROL 「將此項目設定為預設的預設集」]切換至「開啟」位置。**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 **選取其他預設集**
 
-從 **[!UICONTROL 「Target 預設集」]下拉式清單選取所需的預設集。**
+從&#x200B;**[!UICONTROL 「Target 預設集」]下拉式清單選取所需的預設集。**
 
 ![預設集下拉式清單](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
@@ -72,7 +72,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![報表預設刪除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. 再按一下 **[!UICONTROL 「刪除」]以確認刪除。**
+1. 再按一下&#x200B;**[!UICONTROL 「刪除」]以確認刪除。**
 
 **預設集錯誤處理**
 
@@ -88,7 +88,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 報表量度 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-按一下 **[!UICONTROL 「報表量度」]** 下拉式清單，選取不同的[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多個量度以顯示於圖表中。
+按一下&#x200B;**[!UICONTROL 「報表量度」]**&#x200B;下拉式清單，選取不同的[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多個量度以顯示於圖表中。
 
 依預設，主要量度是在您建立活動時於成功量度設定中決定。如果您變更設定並重新儲存活動，報表的主要量度會更新。
 
@@ -106,9 +106,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![日曆](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-為報表選取新的 **[!UICONTROL 「開始」]** 和 **「結束」]日期。[!UICONTROL ** 您也可以使用 **[!UICONTROL 「自活動開始起算」]** 和 **「直到活動結束」]核取方塊。[!UICONTROL **
+為報表選取新的&#x200B;**[!UICONTROL 「開始」]**&#x200B;和&#x200B;**「結束」]日期。[!UICONTROL **&#x200B;您也可以使用&#x200B;**[!UICONTROL 「自活動開始起算」]**&#x200B;和&#x200B;**「直到活動結束」]核取方塊。[!UICONTROL **
 
-按一下 **[!UICONTROL 「自訂日期」]以選取預先定義的日期範圍: 最近 7 天、最近 15 天，或最近 30 天。** 這些預先定義的日期範圍是動態範圍。如果開始日期早於於所選天數，則日曆將顯示從開始日期開始的範圍，一旦開始日期變成晚於活動持續時間增加時選擇的天數，則會動態變更範圍。
+按一下&#x200B;**[!UICONTROL 「自訂日期」]以選取預先定義的日期範圍: 最近 7 天、最近 15 天，或最近 30 天。**&#x200B;這些預先定義的日期範圍是動態範圍。如果開始日期早於於所選天數，則日曆將顯示從開始日期開始的範圍，一旦開始日期變成晚於活動持續時間增加時選擇的天數，則會動態變更範圍。
 
 報表具有下列日期限制:
 
@@ -118,7 +118,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 設定 {#section_D99CE462107D45CABE0960F820E1E972}
 
-按一下齒輪圖示進行報表設定，然後在完成時按一下 **[!UICONTROL 「儲存設定」]。**
+按一下齒輪圖示進行報表設定，然後在完成時按一下&#x200B;**[!UICONTROL 「儲存設定」]。**
 
 下圖顯示 A/B 活動的「設定」對話方塊:
 
@@ -126,15 +126,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 視選取的活動類型而定，選項會有所不同:
 
-* **計數方法:** 選取所需的方法:
+* **計數方法:**&#x200B;選取所需的方法:
 
    * 訪客
    * 瀏覽次數
    * 活動曝光次數
 
-* **控制:** 選取用於計算和比較提升度的控制體驗。
-* **環境:** 選取用於報表的環境 (主機群組)。如需詳細資訊，請參閱[主機](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
-* **重設報表資料:** 重設報表資料以移除舊資料。目前的訪客將保留在活動中。此選項僅限於具有核准者權限的人使用。
+* **控制:**&#x200B;選取用於計算和比較提升度的控制體驗。
+* **環境:**&#x200B;選取用於報表的環境 (主機群組)。如需詳細資訊，請參閱[主機](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+* **重設報表資料:**&#x200B;重設報表資料以移除舊資料。目前的訪客將保留在活動中。此選項僅限於具有核准者權限的人使用。
 
    >[!IMPORTANT]
    >
@@ -156,11 +156,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 表格檢視 {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
-按一下 **[!UICONTROL 「表格檢視」]圖示，以表格形式來檢視報表。**
+按一下&#x200B;**[!UICONTROL 「表格檢視」]圖示，以表格形式來檢視報表。**
 
 ## 圖表檢視 {#section_0D24B902A8D142468ADB7EEF1D941786}
 
-按一下 **[!UICONTROL 「圖表檢視」]圖示，以圖表形式來檢視報表。**
+按一下&#x200B;**[!UICONTROL 「圖表檢視」]圖示，以圖表形式來檢視報表。**
 
 ## 平均提升度、提升度界限和信賴區間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -175,7 +175,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 位置貢獻 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-按一下 **[!UICONTROL 「位置貢獻」]圖示，將報表切換為依位置來顯示貢獻。**
+按一下&#x200B;**[!UICONTROL 「位置貢獻」]圖示，將報表切換為依位置來顯示貢獻。**
 
 ## 體驗 {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -210,7 +210,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以為報表中的圖形選擇計算方法。請注意，自動個人化 (AP) 活動不支援此選項。
 
-若要存取「計數方法」選項，在以圖表模式檢視報表時，請按一下 **[!UICONTROL 「我的主要目標」]下拉式清單，然後選取計數方法。**
+若要存取「計數方法」選項，在以圖表模式檢視報表時，請按一下&#x200B;**[!UICONTROL 「我的主要目標」]下拉式清單，然後選取計數方法。**
 
 此計數方法與上述[!UICONTROL 「設定」]對話方塊中選取的方法相同。
 
