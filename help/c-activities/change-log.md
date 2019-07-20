@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 變更記錄會記錄變更您的活動的人員，以及發生變更的時間。
 
-1. 開啟活動，然後按一下 **[!UICONTROL 「變更記錄」]**。
+1. 開啟活動，然後按一下&#x200B;**[!UICONTROL 「變更記錄」]**。
 
    ![活動變更記錄](/help/c-activities/assets/change_log.png)
 
