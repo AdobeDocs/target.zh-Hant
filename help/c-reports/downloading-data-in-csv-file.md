@@ -24,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
-1. 按一下 **[!UICONTROL 「報表」]標籤。**
+1. 按一下&#x200B;**[!UICONTROL 「報表」]標籤。**
 1. 按一下[!UICONTROL 「下載」]圖示，然後選取要下載到 Excel 和其他工具中分析的報表類型。
 
 ## 匯出報表至 CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
