@@ -53,14 +53,14 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ### Target API 中的企業權限支援 {#api}
 
-如果使用 GET API 提取選件清單，預設工作區中可能會顯示從選件資料庫中的 Target UI 建立的代碼選件。此問題將會在 2019 年 3 月的第一週修正。此修正就緒後，從 API 進行提取時，系統會在適當的工作區中顯示代碼選件。此問題*不會*影響從 API 建立的選件。例如，無論是透過 GET API 或從 Target UI 中擷取，從 API 建立的代碼選件都會顯示在其建立的工作區中。
+如果使用 GET API 提取選件清單，預設工作區中可能會顯示從選件資料庫中的 Target UI 建立的代碼選件。此問題將會在 2019 年 3 月的第一週修正。此修正就緒後，從 API 進行提取時，系統會在適當的工作區中顯示代碼選件。此問題&#x200B;*不會*&#x200B;影響從 API 建立的選件。例如，無論是透過 GET API 或從 Target UI 中擷取，從 API 建立的代碼選件都會顯示在其建立的工作區中。
 
 ### Recommendations
 
 下列是建議活動的已知問題:
 
 * 當摘要中的項目與前次執行相同時，建議摘要索引會顯示「等候索引」。傳送所需的產品擷取不受影響。(RECS-6663)
-* 使用特定設定檔屬性作為條件索引鍵時，發生 Recommendations &quot;error.restapi.algorithmProfileAttributeInvalid&quot; 錯誤。
+* 使用特定設定檔屬性作為條件索引鍵時，發生 Recommendations "error.restapi.algorithmProfileAttributeInvalid" 錯誤。
 * 在建議活動中使用後端促銷活動時，條件包含篩選不會對備用 ER 套用。
 * Recommendation 摘要 UI 未顯示索引的正確狀態。後端工作運作正確，但 UI 無法擷取和顯示目前的狀態。
 
@@ -68,7 +68,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 * 建議的產品可能不會顯示最多兩位小數點的值。例如，如果嘗試在設計中將值顯示為 35.00，Recommendations 會顯示 35 (沒有小數點，而非兩位小數點)。(RECS-5972)
 
-   **** 解決方案: 將實體的值傳遞至兩個 entity.attributes。第一個 `entity.value` 為保留參數，預期的是雙精度浮點數。第二個,可以是自訂的 entity.attribute，將以字串形式儲存實體的值，以允許正確轉換。
+   ****&#x200B;解決方案: 將實體的值傳遞至兩個 entity.attributes。第一個 `entity.value` 為保留參數，預期的是雙精度浮點數。第二個,可以是自訂的 entity.attribute，將以字串形式儲存實體的值，以允許正確轉換。
 
    例如:
 
@@ -93,21 +93,21 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 * 升級為 at.js 版本 1.0 之後，由於 at.js 與訪客 API 2.2.0 之間的互動，Microsoft Explorer 11 瀏覽器上不會觸發 mbox。此問題會影響 at.js 版本 0.9.6 和更新版本。(TNT-27600)
 * at.js 可能無法與 Cordova/混合式應用程式搭配使用，因為它們目前不支援第一方 Cookie。(TNT-26166)
 
-   **解決方案**: 將 at.js 的 &quot;x-only&quot; 選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
+   **解決方案**: 將 at.js 的 "x-only" 選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
 
 ### mbox.js
 
-mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache。at.js 資料庫*不*支援這些語言。
+mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache。at.js 資料庫&#x200B;*不*&#x200B;支援這些語言。
 
 **注意**: 將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
 ### 實作: 全域 Mbox 自動建立
 
-在「實作」索引標籤上 ([!UICONTROL 「設定」&gt;「實作」])，新佈建的租用戶的[!UICONTROL 「全域 Mbox 自動建立」]欄位將預設為 &quot;false&quot;。
+在「實作」索引標籤上 ([!UICONTROL 「設定」&gt;「實作」])，新佈建的租用戶的[!UICONTROL 「全域 Mbox 自動建立」]欄位將預設為 "false"。
 
-佈建後第一次下載 mbox.js 時，所下載的 mbox.js 檔案和 [!UICONTROL  後端中的]「全域 Mbox 自動建立」[!DNL Target]欄位會設為 &quot;true&quot;，但它會在 UI 的[!UICONTROL 「實作」]頁面上繼續顯示為 &quot;false&quot;，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 &quot;true&quot;)。
+佈建後第一次下載 mbox.js 時，所下載的 mbox.js 檔案和 [!UICONTROL  後端中的]「全域 Mbox 自動建立」[!DNL Target]欄位會設為 "true"，但它會在 UI 的[!UICONTROL 「實作」]頁面上繼續顯示為 "false"，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 "true")。
 
-針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js，global\_mbox\_autocreate 會設為 &quot;true&quot;，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
+針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js，global\_mbox\_autocreate 會設為 "true"，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
 
 ### 成功量度
 
