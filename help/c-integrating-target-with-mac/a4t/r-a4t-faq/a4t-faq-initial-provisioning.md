@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 定義 Analytics 活動時，在可以選取報表套裝之前，您同時需要 Analytics 使用者帳戶和 Target 使用者帳戶。必須依說明文件所述來設定您的使用者帳戶。請參閱[使用者權限需求](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
-只要您是可存取 Analytics 和 Target 的 Experience Cloud 群組的成員，且擁有所有報表套裝的存取權，您在 **[!UICONTROL 「建立活動」]** 下即會看見使用 Analytics 建立 A/B 測試的選項。
+只要您是可存取 Analytics 和 Target 的 Experience Cloud 群組的成員，且擁有所有報表套裝的存取權，您在&#x200B;**[!UICONTROL 「建立活動」]**&#x200B;下即會看見使用 Analytics 建立 A/B 測試的選項。
 
 如果發生佈建問題，請檢查 A4T 是否佈建正確。
 
