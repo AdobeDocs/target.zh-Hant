@@ -29,14 +29,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-   您可以在偵錯程式的 SiteCatalyst 影像區段中找到分析追蹤伺服器。根據實施情況，欄位會稱為*第一方 Cookie*或*第三方 Cookie*，而 Analytics 追蹤伺服器值將採用這些格式中的其中一個:
+   您可以在偵錯程式的 SiteCatalyst 影像區段中找到分析追蹤伺服器。根據實施情況，欄位會稱為&#x200B;*第一方 Cookie*&#x200B;或&#x200B;*第三方 Cookie*，而 Analytics 追蹤伺服器值將採用這些格式中的其中一個:
 
    * (適用於 CNAME 實施)
    * (適用於非 RDC 實作)
    * (適用於 RDC 實施)
    *Company* 代表 Analytics 公司名稱，*metrics* 為 CNAME 值的範例，以及 *d1* 為 Analytics 資料中心的範例。
 1. 複製欄位的整個內容。
-1. 在您的活動[!UICONTROL 「目標與設定」][!UICONTROL 畫面的]「報表設定」**區段中，於[!UICONTROL 「追蹤伺服器」]** 欄位中貼上追蹤伺服器資訊。
+1. 在您的活動[!UICONTROL 「目標與設定」][!UICONTROL 畫面的]「報表設定」**區段中，於[!UICONTROL 「追蹤伺服器」]**&#x200B;欄位中貼上追蹤伺服器資訊。
 
    >[!NOTE]
    >
