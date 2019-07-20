@@ -16,9 +16,9 @@ Adobe Mobile SDK 會連絡 Target 伺服器來取得內容以及其他資料點�
 
 ## 目標位置和成功量度 {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
-*目標位置*又稱為 mbox。應用程式中識別的位置可供測試或個人化 (例如，主畫面的歡迎訊息)。測試建立程序期間會識別這些位置。
+*目標位置*&#x200B;又稱為 mbox。應用程式中識別的位置可供測試或個人化 (例如，主畫面的歡迎訊息)。測試建立程序期間會識別這些位置。
 
-A *[成功量度](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)*是使用者執行的動作，可指出特定的活動是否成功 (例如，註冊、購物、訂票等)。
+A *[成功量度](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)*&#x200B;是使用者執行的動作，可指出特定的活動是否成功 (例如，註冊、購物、訂票等)。
 
 ![](assets/mobile-target-location.png)
 
