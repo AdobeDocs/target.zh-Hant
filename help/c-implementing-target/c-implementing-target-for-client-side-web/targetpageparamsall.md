@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 此方法允許您將參數從要求程式碼外部附加至所有 mbox。
 
-對於要在多個 mbox 呼叫上併入相同的一組參數，這很實用。函數需要由客戶定義。它應該傳回將傳遞至頁面上所有 mbox 要求的參數陣列。可以在載入 at.js 之前定義此函數，或是在 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定]** &gt; **[!UICONTROL 程式碼設定]** &gt; **[!UICONTROL 資料庫標題」]** 中定義。
+對於要在多個 mbox 呼叫上併入相同的一組參數，這很實用。函數需要由客戶定義。它應該傳回將傳遞至頁面上所有 mbox 要求的參數陣列。可以在載入 at.js 之前定義此函數，或是在&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定]** &gt; **[!UICONTROL 程式碼設定]** &gt; **[!UICONTROL 資料庫標題」]**&#x200B;中定義。
 
 您可以使用 targetPageParamsAll() 函數，透過下列任何方式將參數傳入至 target-global-mbox:
 
