@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 如果特殊字元破壞陣列，怎麼辦? {#section_D27214116EE443638A60887C7D1C534E}
 
-在 JavaScript 中使用逸出值。引號 ( &quot; ) 會破壞陣列。下列程式碼片段是逸出值的範例:
+在 JavaScript 中使用逸出值。引號 ( " ) 會破壞陣列。下列程式碼片段是逸出值的範例:
 
 ```
 #set($String='') 
