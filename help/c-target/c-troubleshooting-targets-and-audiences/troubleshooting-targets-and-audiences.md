@@ -37,7 +37,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 ## 在 Target、Audience Manager (AAM) 和核心服務中的對象程式庫中，同一對象的名稱為何不同? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-對象名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個對象可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的對象名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 對象時，[!DNL Target] 會在名稱後面附加 &quot;#&lt;number&gt;&quot;。
+對象名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個對象可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的對象名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 對象時，[!DNL Target] 會在名稱後面附加 "#&lt;number&gt;"。
 
 例如，您可能會看到下列對象:「PC 使用者」(在 [!DNL AAM] 中) 和「PC 使用者 #1」(在 [!DNL Target] 中)。
 
@@ -77,4 +77,4 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 例如，
 
-&quot;4e-2&quot; 只等於 &quot;4e-2&quot;，*不*等於 &quot;0.04&quot;。
+"4e-2" 只等於 "4e-2"，*不*&#x200B;等於 "0.04"。
