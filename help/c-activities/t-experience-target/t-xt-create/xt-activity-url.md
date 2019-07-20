@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 「活動URL」會決定「體驗鎖定(Experience Targeting)」(XT)活動中使用的頁面，並在設計活動時於Visual Experience Composer(CMS)或表單型體驗撰寫器中開啓。
 
-1. [在建立XT活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)時出現提示時，請指定活動URL。輸入完整的 URL (包括 `https://`)，然後按一下 **[!UICONTROL 「建立活動」]**。
+1. [在建立XT活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)時出現提示時，請指定活動URL。輸入完整的 URL (包括 `https://`)，然後按一下&#x200B;**[!UICONTROL 「建立活動」]**。
 
    >[!NOTE]
    >
@@ -46,4 +46,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * mbox 參數
    可以使用「與」或「或」將其他規則加入活動 URL。您新增的所有規則會使用「與」彼此進行評估。
 
-1. 完成後，按一下 **[!UICONTROL 「儲存」]。**
+1. 完成後，按一下&#x200B;**[!UICONTROL 「儲存」]。**
