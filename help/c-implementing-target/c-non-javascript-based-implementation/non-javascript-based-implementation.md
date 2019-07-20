@@ -26,8 +26,8 @@ AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表�
 
 |  | 用途 | 使用時機 | URL 結構 | 選件類型 | 選件內容 |
 |--- |--- |--- |--- |--- |--- |
-| AdBox | 將不同的影像傳回至廣告 | 變更廣告的內容 | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | 重新導向選件 | 影像 URL |
-| 重新導向程式 | 將訪客重新導向至其他網頁 | 變更廣告的著陸頁面 | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | 重新導向選件 | 網頁 URL |
+| AdBox | 將不同的影像傳回至廣告 | 變更廣告的內容 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 重新導向選件 | 影像 URL |
+| 重新導向程式 | 將訪客重新導向至其他網頁 | 變更廣告的著陸頁面 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 重新導向選件 | 網頁 URL |
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 
