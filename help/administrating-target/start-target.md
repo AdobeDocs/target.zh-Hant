@@ -35,15 +35,15 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
 
    如果您有 Adobe ID，則會辨識您的 Adobe ID，並提示您進行登入。
 1. 接受使用條款。
-1. 檢閱您目前已完成的摘要，然後按一下 **[!UICONTROL 「繼續前往 Experience Cloud」]**。
-1. 登入 Adobe Experience Cloud，然後按一下 **[!UICONTROL 「連結帳戶」]**。
+1. 檢閱您目前已完成的摘要，然後按一下&#x200B;**[!UICONTROL 「繼續前往 Experience Cloud」]**。
+1. 登入 Adobe Experience Cloud，然後按一下&#x200B;**[!UICONTROL 「連結帳戶」]**。
 
    >[!NOTE]
    >
    >如果您並未連結您的帳戶，將無法存取 [!DNL Target]。
 
    所有 Experience Cloud 產品會出現在連結的頁面中。按一下 `Link Test&Target`，並輸入您的 Test&amp;Target 使用者名稱和密碼來存取 Standard 和 Classic 版。
-1. 按一下 **[!UICONTROL 「繼續前往 Experience Cloud」]**。
+1. 按一下&#x200B;**[!UICONTROL 「繼續前往 Experience Cloud」]**。
 
    此時，您還沒有任何群組設定了供您連結的權利。
 1. 如果需要，可觀看為您介紹 [!DNL Adobe Experience Cloud] 的影片。
