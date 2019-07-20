@@ -127,7 +127,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
    ![新增相依性](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. 將需要的量度從左窗格拖曳到右窗格，然後按一下 **[!UICONTROL 「達到」]** 來將設定在「達到」與「未達到」之間切換。
+3. 將需要的量度從左窗格拖曳到右窗格，然後按一下&#x200B;**[!UICONTROL 「達到」]**&#x200B;來將設定在「達到」與「未達到」之間切換。
 
    ![已達到相依性](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
