@@ -40,8 +40,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若要開啟[!UICONTROL 「設定」]頁面:
 
-1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
-1. 選取 **[!UICONTROL 「at.js]** &gt; **[!UICONTROL 編輯 at.js 設定」]**。
+1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 選取&#x200B;**[!UICONTROL 「at.js]** &gt; **[!UICONTROL 編輯 at.js 設定」]**。
 
 ## 內容傳送設定 {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -92,9 +92,9 @@ ov2/c_target-configure-atjs.xml
 
 若要從 [!DNL at.js] 介面下載 [!DNL Target]:
 
-1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
-1. 選取 **[!UICONTROL 「at.js」]**。
-1. 按一下 **[!UICONTROL 「下載 at.js」]**。
+1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 選取&#x200B;**[!UICONTROL 「at.js」]**。
+1. 按一下&#x200B;**[!UICONTROL 「下載 at.js」]**。
 
 ## 使用 Target「下載 API」來下載 at.js {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
@@ -102,7 +102,7 @@ ov2/c_target-configure-atjs.xml
 
 1. 取得用戶端程式碼。
 
-   用戶端程式碼位於 [!DNL Target] 介面的 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定」]** 頁面頂端。
+   用戶端程式碼位於 [!DNL Target] 介面的&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定」]**&#x200B;頁面頂端。
 
 1. 取得您的管理員編號。
 
@@ -122,7 +122,7 @@ ov2/c_target-configure-atjs.xml
    }
    ```
 
-   在此範例中，&quot;6&quot; 是管理員編號。
+   在此範例中，"6" 是管理員編號。
 
 1. 下載 [!DNL at.js]。
 
@@ -205,7 +205,7 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 請考量下列重要注意事項:
 
 * 應使用 HTML5 Doctype (如 `<!doctype html>`)。不支援或舊版 doctype 可能會造成 Target 無法提出要求。
-* 「預先連結」和「預先擷取」可能有助於加速網頁載入。如果使用這兩項設定，務必將 `<client code>` 替換為您的專屬用戶端代碼，可在 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定」]** 頁面進行。
+* 「預先連結」和「預先擷取」可能有助於加速網頁載入。如果使用這兩項設定，務必將 `<client code>` 替換為您的專屬用戶端代碼，可在&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定」]**&#x200B;頁面進行。
 * 如果有資料層，最好在 at.js 載入前，盡可能在網頁的 `<head>` 中詳細定義。這個位置能讓您在 Target 最大限度運用這類資料進行個人化。
 * 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。此外，這些函數亦可儲存於[!UICONTROL 「編輯 at.js 設定」]頁面的[!UICONTROL 「程式庫標題」]部分，並存入 at.js 程式庫本身。如需特殊函數的詳細資訊，請參閱[at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 * 如果使用 jQuery 等 JavaScript 輔助函式庫，請在 Target 前加入這些函式庫，以便在建立 Target 體驗時使用這些函式庫的語法和方法。
