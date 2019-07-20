@@ -306,7 +306,7 @@ Mbox 內不允許「編輯類別」和「重新排列」等動作。Mbox 內容�
 
 **從內容庫 (Scene7) 插入影像並編輯 HTML 會破壞影像 url。**
 
-在 &#39;customHeaderMessage&#39; div 內新增錨點元素和一些虛構文字:
+在 'customHeaderMessage' div 內新增錨點元素和一些虛構文字:
 
 ```
 <a href="#"> 
