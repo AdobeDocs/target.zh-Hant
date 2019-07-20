@@ -24,4 +24,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 如需詳細資訊，包括預先提取方法、公用類別和程式碼範例，請參閱:
 
 * **iOS：**[在iOS的* iOS SDK4.x for Experience](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) Cloud解決方案*指南中，預先擷取選件內容。
-* **Android:**[適用於 Experience Cloud 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) 指南中的*在 Android 中預先提取選件內容*。
+* **Android:**[適用於 Experience Cloud 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) 指南中的&#x200B;*在 Android 中預先提取選件內容*。
