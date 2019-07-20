@@ -25,7 +25,7 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
 **若要建立XT活動：**
 
-1. 在[!UICONTROL 「活動」]清單中，按一下 **[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 體驗鎖定目標」]**。
+1. 在[!UICONTROL 「活動」]清單中，按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 體驗鎖定目標」]**。
 
    ![建立活動&gt;體驗定位](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
