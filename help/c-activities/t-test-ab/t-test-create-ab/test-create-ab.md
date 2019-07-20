@@ -17,7 +17,7 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
 
 使用 Target 中的可視化體驗撰寫器直接在啟用 Target 的頁面上建立您的測試，以及在 Target 內修改頁面的部分。
 
-1. 在[!UICONTROL 「活動」]清單中，按一下 **[!UICONTROL 「建立活動]** &gt; **[!UICONTROL A/B 測試」]**。
+1. 在[!UICONTROL 「活動」]清單中，按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL A/B 測試」]**。
 
    ![「建立活動」下拉式清單](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -102,15 +102,15 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
    * **[!UICONTROL 自動分配給最佳體驗]**：大部分活動活動都會自動導向至高效能體驗。有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。請參閱[自動流量分配](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
    * **[!UICONTROL 自動定位個人化體驗]**：Target使用進階機器學習演算法自動鎖定訪客，以最大化您的目標。如需詳細資訊，請參閱[自動鎖定目標以最佳化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
-   您也可以按一下 **[!UICONTROL 「新增體驗」]，以新增其他體驗至活動。**
+   您也可以按一下&#x200B;**[!UICONTROL 「新增體驗」]，以新增其他體驗至活動。**
 
-1. 在您滿意您的對象和體驗選擇後，請按 **[!UICONTROL 「下一步」]** 以前往三步驟引導工作流程中的第三個步驟。
+1. 在您滿意您的對象和體驗選擇後，請按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;以前往三步驟引導工作流程中的第三個步驟。
 
 1. 指定活動的[目標與設定](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
    ![A/B活動設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 建立活動之後，「概覽」標籤會顯示關於活動的資訊，包括活動的圖表。
 
