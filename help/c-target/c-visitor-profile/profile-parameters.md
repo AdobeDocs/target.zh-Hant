@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 當訪客瀏覽您的網站，或當訪客返回另一個作業時，可使用儲存的描述檔屬性來定位群體篩選的內容或記錄資訊。
 
-若要建立設定檔屬性，請按一下 **[!UICONTROL 「對象]** &gt; **[!UICONTROL 設定檔指令碼」]**。
+若要建立設定檔屬性，請按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 設定檔指令碼」]**。
 
 ![描述檔指令碼標籤](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 參數類型 | 說明 |
 |--- |--- |
-| mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>**** 注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | 指令碼 | 直接以 JavaScript 程式碼片段定義。其可儲存諸如客戶總花費金額等執行總數，並透過每個 mbox 請求來執行。請參閱以下的設定檔指令碼屬性。 |
 
 ## 設定檔指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,11 +46,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在 [!UICONTROL  介面的]「對象」[!DNL Target]標籤下可以使用設定檔指令碼。
 
-若要新增新的設定檔指令碼，請按一下 **[!UICONTROL 「設定檔指令碼」]** 索引標籤、**[!UICONTROL 「建立指令碼」]**，然後撰寫您的指令碼。
+若要新增新的設定檔指令碼，請按一下&#x200B;**[!UICONTROL 「設定檔指令碼」]**&#x200B;索引標籤、**[!UICONTROL 「建立指令碼」]**，然後撰寫您的指令碼。
 
 或
 
-若要複製現有設定檔指令碼，請從[!UICONTROL 「設定檔指令碼」]清單中，暫留在所需的指令碼上，然後按一下 **[!UICONTROL 「複製」]** 圖示: (assets/icon_copy.png)
+若要複製現有設定檔指令碼，請從[!UICONTROL 「設定檔指令碼」]清單中，暫留在所需的指令碼上，然後按一下&#x200B;**[!UICONTROL 「複製」]**&#x200B;圖示: (assets/icon_copy.png)
 
 然後您可以編輯對象以建立類似的對象。
 
@@ -68,8 +68,8 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-* 在程式碼中使用 `user.get('parameterName')` &#39;) 來參照設定檔指令碼屬性 (包括本身)
-* 儲存下次執行此指令碼時 (下一個 mbox 請求時) 可存取包含 `user.setLocal('variable_name', 'value')` &#39;) 的變數。參考包含 `user.getLocal('variable_name')` &#39;) 的變數。這對您想要參考上次請求的日期與時間的情況下非常有用。
+* 在程式碼中使用 `user.get('parameterName')` ') 來參照設定檔指令碼屬性 (包括本身)
+* 儲存下次執行此指令碼時 (下一個 mbox 請求時) 可存取包含 `user.setLocal('variable_name', 'value')` ') 的變數。參考包含 `user.getLocal('variable_name')` ') 的變數。這對您想要參考上次請求的日期與時間的情況下非常有用。
 * 參數和值區分大小寫。符合活動或測試期間您將收到的參數和值大小寫。
 * 如需更多 JavaScript 語法，請參閱以下「指令碼設定檔參數的 JavaScript 參考資料」一節。
 
@@ -226,7 +226,7 @@ if (!user.get('threegroups')) {
 
 * **新增設定檔指令碼作為回應 Token 以偵錯設定檔指令碼:**
 
-   在 Target 中，按一下 **[!UICONTROL 「設定」]**，按一下 **[!UICONTROL 「回應 Token」]**，然後啟用您要除錯的設定檔指令碼。
+   在 Target 中，按一下&#x200B;**[!UICONTROL 「設定」]**，按一下&#x200B;**[!UICONTROL 「回應 Token」]**，然後啟用您要除錯的設定檔指令碼。
 
    每當您使用 Target 為網站載入頁面時，Target 的部分回應將包含您提供之設定檔指令碼的值，如下所示:
 
@@ -234,7 +234,7 @@ if (!user.get('threegroups')) {
 
 * **使用 mboxTrace 偵錯工具以偵錯設定檔指令碼。**
 
-   此方法需要授權 Token，您可以按一下 **[!UICONTROL 「Target]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 產生授權 Token」]**，以產生 Token。
+   此方法需要授權 Token，您可以按一下&#x200B;**[!UICONTROL 「Target]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 產生授權 Token」]**，以產生 Token。
 
    然後，將這兩個參數加入「?」後的頁面 URL: `mboxTrace=window&authorization=YOURTOKEN`。
 
