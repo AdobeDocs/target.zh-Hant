@@ -29,8 +29,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若要將頁面新增至測試:
 
-1. 按一下 **[!UICONTROL 「設定」]齒輪圖示。**
-1. 按一下 **[!UICONTROL 「新增其他頁面」]**。
+1. 按一下&#x200B;**[!UICONTROL 「設定」]齒輪圖示。**
+1. 按一下&#x200B;**[!UICONTROL 「新增其他頁面」]**。
 
    畫面左側會出現導覽列。
 
@@ -38,7 +38,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 使用導覽列來指定您的頁面和設定預設頁面。
 
-   按一下 **[!UICONTROL 「新增頁面」]以新增另一個頁面。**
+   按一下&#x200B;**[!UICONTROL 「新增頁面」]以新增另一個頁面。**
 
    按一下三個垂直橢圓圖示以顯示動作選單:
 
