@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 如果問題是在增強體驗撰寫器中發生，請嘗試關閉增強體驗撰寫器，並改為使用可視化體驗撰寫器。
 
-若要停用增強體驗撰寫器，請前往 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**，並關閉 **[!UICONTROL 「啟用增強體驗撰寫器」]** 選項。
+若要停用增強體驗撰寫器，請前往&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**，並關閉&#x200B;**[!UICONTROL 「啟用增強體驗撰寫器」]**&#x200B;選項。
 
 有些使用者在主控台中看見下列錯誤訊息:
 
@@ -67,26 +67,26 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 關閉增強體驗撰寫器。
 1. 在 Chrome 或 Firefox 上安裝 Requestly 瀏覽器擴充功能。
 1. 開啟擴充功能並使用下列項目來設定它:
-1. 選取 **[!UICONTROL 「Modify Headers」]**。
+1. 選取&#x200B;**[!UICONTROL 「Modify Headers」]**。
 1. 輸入下列:
 
    * 規則名稱
    * 修改規則
 
-      * 將 **[!UICONTROL 「新增」]** 切換為 **[!UICONTROL 「移除」]**。
-      * 將 **[!UICONTROL 「要求」]** 切換為 **[!UICONTROL 「回應」]**。
-      * 輸入 &quot;X-Frame-Options&quot; 作為標頭名稱。
-      * 重複先前的步驟並輸入 &quot;x-frame-options&quot; 作為標頭名稱。
+      * 將&#x200B;**[!UICONTROL 「新增」]**&#x200B;切換為&#x200B;**[!UICONTROL 「移除」]**。
+      * 將&#x200B;**[!UICONTROL 「要求」]**&#x200B;切換為&#x200B;**[!UICONTROL 「回應」]**。
+      * 輸入 "X-Frame-Options" 作為標頭名稱。
+      * 重複先前的步驟並輸入 "x-frame-options" 作為標頭名稱。
 
          >[!NOTE]
          >
          >透過 Requestly 處理的標頭須區分大小寫。
 
-      * 將 **[!UICONTROL 「等於」]** 變更為 **「包含」]，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。[!UICONTROL **
+      * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**「包含」]，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。[!UICONTROL **
       ![](assets/chrome_extension.png)
 
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    ![](assets/requestly.png)
 
@@ -96,12 +96,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 在 Firefox 上安裝 Modify Response Headers，並重新啟動瀏覽器。
 1. 從您的 Firefox 擴充功能，選取「Modify Response Headers」擴充功能。
-1. 按一下 **[!UICONTROL 「偏好設定」]**。
-1. 從「動作」下拉式功能表選取 **[!UICONTROL 「篩選」]。**
+1. 按一下&#x200B;**[!UICONTROL 「偏好設定」]**。
+1. 從「動作」下拉式功能表選取&#x200B;**[!UICONTROL 「篩選」]。**
 1. 在「Header Name」欄位中，輸入: **[!UICONTROL X-Frame-Options]**。
 1. 重複步驟 4 和 5 來使用 **[!UICONTROL x-frame-options]** 新增篩選條件。
-1. 按一下 **[!UICONTROL 「新增」]**。
-1. 按一下 **[!UICONTROL 「開始」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
+1. 按一下&#x200B;**[!UICONTROL 「開始」]**。
 
 ![](assets/firefox_extension.png)
 
@@ -112,7 +112,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 瀏覽器不受支援。
 * 瀏覽器正在封鎖安全網站上不安全的頁面。
 
-   按一下瀏覽器位址列 URL 左側的圖示，然後按一下 **[!UICONTROL 「停用此頁面上的保護」]**
+   按一下瀏覽器位址列 URL 左側的圖示，然後按一下&#x200B;**[!UICONTROL 「停用此頁面上的保護」]**
 * 您輸入了無效的 URL。
 * 您尚未在您的帳戶設定頁面中輸入預設 URL。
 
