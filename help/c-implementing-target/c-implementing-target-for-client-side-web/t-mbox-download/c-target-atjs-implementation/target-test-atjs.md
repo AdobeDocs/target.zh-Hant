@@ -20,9 +20,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 儲存資料庫之後，使用 DTM Switch 工具來對生產程式碼測試它。這也將讓您的 Adobe 顧問易於支援您。
 
-如需詳細資訊，請參閱_《使用動態標籤管理來實施 Adobe Target 的最佳作法》_指南中的[選項 3: 使用 DTM 託管的 Target JavaScript 資料庫手動實施 Target](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)。
+如需詳細資訊，請參閱&#x200B;_《使用動態標籤管理來實施 Adobe Target 的最佳作法》_&#x200B;指南中的[選項 3: 使用 DTM 託管的 Target JavaScript 資料庫手動實施 Target](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)。
 
-## 使用 &quot;Requestly&quot; Chrome 擴充功能來對應至另一個檔案
+## 使用 "Requestly" Chrome 擴充功能來對應至另一個檔案
 
 >[!NOTE]
 >
