@@ -50,7 +50,7 @@ Target 要求逾時。
 
 例如:
 
-return &quot;test=123&quot;;
+return "test=123";
 
 ## mboxSupported() 函數主體
 
@@ -58,7 +58,7 @@ return &quot;test=123&quot;;
 
 例如:
 
-return !navigator.userAgent.indexOf(&#39;Safari&#39;) ! = -1;
+return !navigator.userAgent.indexOf('Safari') ! = -1;
 
 可接受或除排下列瀏覽器:
 
@@ -73,7 +73,7 @@ return !navigator.userAgent.indexOf(&#39;Safari&#39;) ! = -1;
 
 例如:
 
-return &quot;YOUR-DOMAIN&quot;;
+return "YOUR-DOMAIN";
 
 ## 額外 JavaScript
 
