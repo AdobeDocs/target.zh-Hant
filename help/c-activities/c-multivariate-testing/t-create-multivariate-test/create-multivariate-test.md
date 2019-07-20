@@ -20,7 +20,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 [!UICONTROL 多變數測試] (MVT)會採用第一個頁面報表。換句話說，測試會在具有您為頁面所設計體驗的特定 URL 上執行。
 
-1. 按一下 **[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 多變數測試」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 多變數測試」]**。
 
    ![建立多變數測試](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -115,7 +115,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 1. [指定測試的目標與設定](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
-1. 按一下 **[!UICONTROL 「儲存並關閉」]** 來建立活動。
+1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;來建立活動。
 
 ## 訓練影片: 建立多變數測試 (9:25)
 
