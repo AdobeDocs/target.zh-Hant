@@ -24,21 +24,21 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若想同時在 [!DNL Target Standard] 和您的舊版實施中使用現有的全域 mbox，您必須設定幾個參數。
 
-1. 前往 [!DNL Target Standard]，然後按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 前往 [!DNL Target Standard]，然後按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
 
    預設會啟用「[!UICONTROL 自動建立全域 Mbox]」，而自訂全域 mbox 命名為 `target-global-mbox`。
 1. 如果您想使用現有的 mbox，請停用「[!UICONTROL 自動建立全域 Mbox]」，並在「[!UICONTROL 自訂全域 Mbox]」欄位中指定先前建立之全域 mbox 的名稱。
 
    [!UICONTROL 「自訂全域 Mbox」]下拉式清單會列出您帳戶中的所有 mbox。如果您想使用尚未存在的 mbox，請在 Target Classic中建立 mbox。
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    接著會更新您帳戶的 mbox.js 設定。
 1. 下載新的 mbox.js 檔案並在您的網站上參考該檔案。
 
    使用新 mbox.js 檔案更新您的生產網站後，即可設定您的偏好設定。
-1. 按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
+1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
 1. 在「[!UICONTROL 自訂全域 Mbox]」欄位中，指定您在「實施」頁面上選取之全域 mbox 的名稱。
-1. 按一下 **[!UICONTROL 「提交」]**。
+1. 按一下&#x200B;**[!UICONTROL 「提交」]**。
 
    所有現有活動都會更新為使用指定的全域 mbox，包括先前已建立和實施的活動。
    **疑難排解全域 Mbox 實施***全域 mbox 為什麼不會載入，或為什麼頁面載入時載入全域 mbox 發生延遲?*
