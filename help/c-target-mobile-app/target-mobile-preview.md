@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    如需下載適當 SDK 的說明，請參閱:
 
-   * **iOS:**[「適用於 Experience Cloud 的 iOS SDK 4.x 解決方案」](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)指南中的*「開始之前」*。
+   * **iOS:**[「適用於 Experience Cloud 的 iOS SDK 4.x 解決方案」](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)指南中的&#x200B;*「開始之前」*。
    * **Android:**「適用於 Experience Cloud 的 Android SDK 4.x 解決方案」指南中的[「開始之前」](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*。*
 
 1. **設定 URL 配置:** 預覽連結使用 URL 配置來開啟您的應用程式。您必須針對預覽指定唯一的 URL 配置。
@@ -85,11 +85,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 產生預覽連結 {#section_D9D58173FFF34E9BB75EBF357273F128}
 
-1. 在 Target UI 中，按一下 **[!UICONTROL 「更多選項」]** 圖示 (三個垂直的點)，然後選取 **[!UICONTROL 「建立行動裝置預覽」]**。
+1. 在 Target UI 中，按一下&#x200B;**[!UICONTROL 「更多選項」]**&#x200B;圖示 (三個垂直的點)，然後選取&#x200B;**[!UICONTROL 「建立行動裝置預覽」]**。
 
    ![](assets/mobile-preview-create.png)
 
-1. 選取您要預覽的活動，然後按一下 **[!UICONTROL 「產生行動裝置預覽連結」]**。
+1. 選取您要預覽的活動，然後按一下&#x200B;**[!UICONTROL 「產生行動裝置預覽連結」]**。
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/mobile-preview-enter-url-scheme.png)
 
-1. 按一下 **[!UICONTROL 「產生行動裝置預覽連結」]**，然後複製連結。
+1. 按一下&#x200B;**[!UICONTROL 「產生行動裝置預覽連結」]**，然後複製連結。
 
    ![](assets/mobile-preview-generate-and-copy.png)
 
@@ -119,7 +119,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您的應用程式即會開啟，並啟動 Target Mobile 預覽模式。
 
-1. 選取您要查看的體驗組合，然後按一下 **[!UICONTROL 「啟動體驗」]**。
+1. 選取您要查看的體驗組合，然後按一下&#x200B;**[!UICONTROL 「啟動體驗」]**。
 
    |![行動裝置預覽 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![行動裝置預覽 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![行動裝置預覽 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
 |![行動裝置預覽 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![行動裝置預覽 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![行動裝置預覽 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
