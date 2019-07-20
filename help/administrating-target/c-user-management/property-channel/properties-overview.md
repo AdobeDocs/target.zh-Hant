@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    或
 
-   如果您已登入 Experience Cloud，請前往 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然後按一下頂端導覽列中的[!UICONTROL 應用程式]圖示 &gt; 按一下右側的 **[!UICONTROL 管理]**。
+   如果您已登入 Experience Cloud，請前往 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然後按一下頂端導覽列中的[!UICONTROL 應用程式]圖示 &gt; 按一下右側的&#x200B;**[!UICONTROL 管理]**。
 
 1. (條件式) 如果您可以存取一個以上組織的 [!DNL Admin Console for Enterprise]，請按一下右上角或上方導覽列中的使用者頭像，然後選取需要的組織。
 
@@ -49,8 +49,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 開始使用新的[!UICONTROL 「屬性」]功能時，所有使用者管理必須在 [!DNL Adobe Admin Console for Enterprise] 中執行。不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
 
-1. [在 Admin Console 中](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下頁面頂端的 **[!UICONTROL 使用者]** 索引標籤 &gt; **[!UICONTROL 新增使用者]**，以建立新使用者或編輯現有的使用者。
-1. 遵循*《企業使用者指南》*的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示。
+1. [在 Admin Console 中](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下頁面頂端的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤 &gt; **[!UICONTROL 新增使用者]**，以建立新使用者或編輯現有的使用者。
+1. 遵循&#x200B;*《企業使用者指南》*&#x200B;的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示。
 
 ## 步驟 2.建立工作區 (產品設定檔) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -62,7 +62,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 使用者可以屬於多個工作區並且甚至可具有每個工作區內不同的角色。
 
-1. 在 Admin Console 中，按一下 **[!UICONTROL ]「產品」**，然後選取所需產品的名稱。
+1. 在 Admin Console 中，按一下&#x200B;**「產品」**，然後選取所需產品的名稱。
 
    ![工作區](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -78,7 +78,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
       * 對工作區指派 Target 屬性。
    您可以使用這些工作區來依地區、事業單位、網站區段或透過您選擇的任何其他方法來對不同團隊劃分存取權。使用者可以屬於多個工作區並且可具有每個工作區內不同的角色。
 
-1. 遵循*《企業使用者指南》*的[建立和管理產品組態](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的指示。
+1. 遵循&#x200B;*《企業使用者指南》*&#x200B;的[建立和管理產品組態](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的指示。
 
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於設定工作區的詳細資訊。
@@ -96,8 +96,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
-1. 在 Admin Console 中，按一下頁面頂端的 **[!UICONTROL 「使用者」]** 索引標籤 &gt; **「使用者群組」]，以建立新使用者群組或編輯現有的使用者群組。[!UICONTROL **
-1. 遵循[《企業使用者指南》](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)的*管理產品設定的使用者和群組*中的指示。
+1. 在 Admin Console 中，按一下頁面頂端的&#x200B;**[!UICONTROL 「使用者」]**&#x200B;索引標籤 &gt; **「使用者群組」]，以建立新使用者群組或編輯現有的使用者群組。[!UICONTROL **
+1. 遵循[《企業使用者指南》](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)的&#x200B;*管理產品設定的使用者和群組*&#x200B;中的指示。
 
 ## 步驟 4.建立屬性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -107,8 +107,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **提示**: 請觀看下方的訓練影片，瞭解關於如何建立屬性的詳細資訊。
 
-1. 在 [!DNL Target] 中，按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]** 來顯示[!UICONTROL 「屬性」]清單。
-1. 按一下 **「建立屬性」**。
+1. 在 [!DNL Target] 中，按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]**&#x200B;來顯示[!UICONTROL 「屬性」]清單。
+1. 按一下&#x200B;**「建立屬性」**。
 
    ![新屬性對話方塊](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
@@ -118,9 +118,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * **名稱 (必要):** 指定此屬性的描述性名稱。
    * **說明:** 指定此屬性的可選說明。
 
-1. 按一下 **[!UICONTROL 「產生代碼」]** 來產生在 [5: 更新您的實作以包括 at_property 參數](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中執行步驟時將使用的代碼。
+1. 按一下&#x200B;**[!UICONTROL 「產生代碼」]**&#x200B;來產生在 [5: 更新您的實作以包括 at_property 參數](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中執行步驟時將使用的代碼。
 1. 將代碼複製到您的剪貼簿。
-1. 完成時，按一下 **[!UICONTROL 「儲存」]。**
+1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]。**
 
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於建立屬性的詳細資訊。
@@ -135,7 +135,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    或
 
-   在 [!DNL Target] 中，按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]** 來顯示[!UICONTROL 「屬性」]清單。
+   在 [!DNL Target] 中，按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 屬性」]**&#x200B;來顯示[!UICONTROL 「屬性」]清單。
 
    1. 將滑鼠游標移至所需屬性的[!UICONTROL 「上次更新時間」]欄以顯示[!UICONTROL 「程式碼」]圖示，並按一下該圖示。
 
@@ -157,7 +157,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
       ![](assets/property_token_2.png)
 
-      如需詳細資訊，請參閱*動態標籤管理產品文件*中的[全域參數 - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
+      如需詳細資訊，請參閱&#x200B;*動態標籤管理產品文件*&#x200B;中的[全域參數 - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
 
    * **透過 targetPageParams() 函數:** 請將下列程式碼放入 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 標籤中，於 at.js 或 mbox.js 參考的上方。
 
@@ -173,7 +173,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 步驟 6: 指定角色和權限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. 在 Admin Console 中，按一下 **[!UICONTROL ]「產品」**，然後選取所需產品的名稱。
+1. 在 Admin Console 中，按一下&#x200B;**「產品」**，然後選取所需產品的名稱。
 
    ![工作區](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -182,7 +182,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >屬性和權限功能僅適用於 [Target Standard/Premium](/help/c-intro/intro.md#premium)。您無法對[!DNL Target Classic] 使用此功能。
 
 1. 按一下所需設定檔的名稱。
-1. 按一下 **[!UICONTROL 「使用者」]**。
+1. 按一下&#x200B;**[!UICONTROL 「使用者」]**。
 
    [!UICONTROL 使用者]索引標籤會顯示該工作區中的所有使用者。
 
@@ -196,7 +196,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | 核准者 | 可以建立、編輯和啟動或停止活動。 |
 
-   如需詳細資訊，請參閱*《企業使用者指南》*中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
+   如需詳細資訊，請參閱&#x200B;*《企業使用者指南》*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
 ## 訓練影片
 
