@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 活動 URL 會決定測試中使用以及設計測試時開啟的頁面。
 
-在建立活動期間出現提示時，請指定活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下 **[!UICONTROL 「建立」]**。
+在建立活動期間出現提示時，請指定活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下&#x200B;**[!UICONTROL 「建立」]**。
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 您可以在活動建立期間指定不同的頁面。
 
-若要在[!UICONTROL 可視化體驗撰寫器]開啟之後顯示不同頁面，請按一下 **[!UICONTROL 「設定」]** 齒輪圖示，然後選取 **[!UICONTROL 「頁面傳送」]**。在「活動 URL」欄位中輸入 URL。
+若要在[!UICONTROL 可視化體驗撰寫器]開啟之後顯示不同頁面，請按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示，然後選取 **[!UICONTROL 「頁面傳送」]**。在「活動 URL」欄位中輸入 URL。
 
 ![頁面傳送對話方塊](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-按一下 **[!UICONTROL 「新增範本規則」]來新增更多頁面或區段至活動。**
+按一下&#x200B;**[!UICONTROL 「新增範本規則」]來新增更多頁面或區段至活動。**
 
 其他規則可以根據以下任何項目:
 
@@ -44,13 +44,13 @@ By default, the [!UICONTROL Visual Experience Composer] opens the page that is s
 
 可以使用「與」或「或」將其他規則加入活動 URL。您新增的所有規則會使用「與」彼此進行評估。
 
-完成後，按一下 **[!UICONTROL 「儲存」]。**
+完成後，按一下&#x200B;**[!UICONTROL 「儲存」]。**
 
 >[!NOTE]
 >
 >如果您輸入的網站 URL 不包括 [!DNL Target] Standard JavaScript 程式碼，則無法選取頁面元素。
 
-依預設，[!UICONTROL 可視化體驗撰寫器]不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。如果想要能夠使用 **[!UICONTROL 可視化體驗撰寫器]更改這些元素，您可以將**[!UICONTROL 使用 JavaScript 呈現]切換為關閉。
+依預設，[!UICONTROL 可視化體驗撰寫器]不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。如果想要能夠使用&#x200B;**[!UICONTROL 可視化體驗撰寫器]更改這些元素，您可以將**[!UICONTROL 使用 JavaScript 呈現]切換為關閉。
 
 >[!NOTE]
 >
