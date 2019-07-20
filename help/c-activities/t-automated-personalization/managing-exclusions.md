@@ -30,13 +30,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![管理內容連結](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. 在[!UICONTROL 「管理內容」]對話方塊中，按一下 **[!UICONTROL 「排除群組」]**。
+1. 在[!UICONTROL 「管理內容」]對話方塊中，按一下&#x200B;**[!UICONTROL 「排除群組」]**。
 
    ![「管理內容&gt;排除群組」對話方塊](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    如果您先前已建立排除群組，則會出現在清單中。如果您尚未建立排除群組，則會提示您建立。
 
-1. 按一下 **[!UICONTROL 「建立排除群組」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立排除群組」]**。
 
    ![建立排除群組對話方塊](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
@@ -48,7 +48,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您可以從排除群組的相同位置中選取多個選件。
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 排除群組中的選件將來會自動從相同的體驗中排除。
 
@@ -58,7 +58,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 例如，您可能在有 12 個選件的六個位置頁面上有一個活動。相同選件有可能放入活動中的一或多個位置。此功能可防止重複選件同時顯示在相同活動內的不同位置。
 
-按一下 **[!UICONTROL 「設定]** &gt; **[!UICONTROL 重複選件」]**，然後按一下 **[!UICONTROL 「允許重複項目」]** 或 **[!UICONTROL 「不允許重複項目」]**。
+按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 重複選件」]**，然後按一下&#x200B;**[!UICONTROL 「允許重複項目」]**&#x200B;或&#x200B;**[!UICONTROL 「不允許重複項目」]**。
 
 ![複製選件選項](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -115,7 +115,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![「編輯背景顏色」對話框中的「包含」核取方塊](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    您可以在[!UICONTROL 「管理內容」]下看到透過您指定的選件建立的體驗。您將注意到，使用您排除的預設選件時不會在[!UICONTROL 管理內容]中建立任何體驗。
 
@@ -123,8 +123,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **若要使用表單式體驗撰寫器來排除預設內容:**
 
-1. 在建立或編輯 AP 活動時，按一下 **[!UICONTROL 「內容」]** 下的 **[!UICONTROL 「變更文字/HTML」]** 或 **[!UICONTROL 「變更影像選件」]**。
-1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的 **[!UICONTROL 「包含」] (或在「選取內容」畫面中取消勾選「預設影像/影片」)。**
+1. 在建立或編輯 AP 活動時，按一下&#x200B;**[!UICONTROL 「內容」]**&#x200B;下的&#x200B;**[!UICONTROL 「變更文字/HTML」]**&#x200B;或&#x200B;**[!UICONTROL 「變更影像選件」]**。
+1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的&#x200B;**[!UICONTROL 「包含」](或在「選取內容」畫面中取消勾選「預設影像/影片」)。**
 
    視內容/選件類型而定，「包含」核取方塊的位置會稍微不同。
 
@@ -136,7 +136,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/exclude_content_form_2.png)
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    您可以在[!UICONTROL 「管理內容」]下看到透過您指定的選件建立的體驗。您將注意到，使用您排除的預設選件時不會在[!UICONTROL 管理內容]中建立任何體驗。
 
