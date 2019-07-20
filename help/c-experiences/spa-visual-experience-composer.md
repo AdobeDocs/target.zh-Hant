@@ -375,7 +375,7 @@ adobe.target.getOffers({
 
 [!UICONTROL 「頁面傳送] 」設定可讓您設定規則，以決定Target活動應合格及執行對象的時機。
 
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
 
 ![頁面傳送選項對話方塊](/help/c-experiences/assets/page-delivery.png)
 
