@@ -111,7 +111,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br> (某些類型的條件為必要: 依檢視次數最多類別和依最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |  |
 | `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。 |  |
 | `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |  |
-| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 &quot;thirdPartyId&quot;，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
+| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 "thirdPartyId"，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 
 **選用參數**:
 
@@ -126,7 +126,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | 回應 | 說明 |
 |--- |--- |
 | //錯誤: | 當它無法傳回內容時由負載平衡器產生 |
-| success | `mboxNoRedirect` 參數設為 &#39;true&#39;，而伺服器未傳回任何建議 (亦即，沒有 mbox 的相符項目或伺服器快取未初始化)。 |
+| success | `mboxNoRedirect` 參數設為 'true'，而伺服器未傳回任何建議 (亦即，沒有 mbox 的相符項目或伺服器快取未初始化)。 |
 | bad request | 遺漏 `mbox` 參數。<ul><li>`mboxDefault` 或 `mboxNoRedirect` 參數未指定。</li><li>`mboxTrace` 要求參數已指定但 `mboxNoRedirect` 未指定。</li><li>當 mbox 名稱的結尾是 `mboxTarget` 尾碼時，`-clicked` 參數未指定。</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 當要求的相符項目不存在時，`mboxDefault` 未指定，並且 `mboxNoRedirect` 參數未指定。 |
 | `Invalid mbox name:= MBOX_NAME` | 指出 `mbox` 參數包括無效的字元。 |
@@ -134,7 +134,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 ## 選項 3: 使用僅供下載的範本 {#section_518C279AF0094BE780F4EA40A832A164}
 
-照常設定建議，但選擇顯示區域中的 **僅供下載**，而不是範本和 mbox 組合。然後在 ESP 中，告訴 ESP 您所建立的建議 ID。ESP 透過 API 存取建議資料。該資料顯示應為特定類別或主要項目所建議的項目，例如購物車中放棄的項目。ESP 會儲存資料，以其自身的外觀和感覺連接它，顯示各項目的相關資訊，並透過電子郵件傳送。
+照常設定建議，但選擇顯示區域中的&#x200B;**僅供下載**，而不是範本和 mbox 組合。然後在 ESP 中，告訴 ESP 您所建立的建議 ID。ESP 透過 API 存取建議資料。該資料顯示應為特定類別或主要項目所建議的項目，例如購物車中放棄的項目。ESP 會儲存資料，以其自身的外觀和感覺連接它，顯示各項目的相關資訊，並透過電子郵件傳送。
 
 使用該選項， Recommendations 伺服器無法直接追蹤建議的效能，或將流量分入多個演算法/範本組合。同時，建議未繫結至訪客設定檔。
 
