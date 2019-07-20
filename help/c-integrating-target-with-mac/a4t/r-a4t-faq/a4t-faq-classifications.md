@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 使用分類匯入工具下載分類之後，如何讓 pos -tnt-action 值和活動名稱相配? {#section_6045DAC488B248418F430E663C38D001}
 
-您可以從管理工具[分類匯入工具](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)下載 A4T/TNT 字串的分類。在匯出清單中，變數稱為 &quot;TNT&quot;。下載的資料包括活動、體驗等等的易記名稱。
+您可以從管理工具[分類匯入工具](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)下載 A4T/TNT 字串的分類。在匯出清單中，變數稱為 "TNT"。下載的資料包括活動、體驗等等的易記名稱。
 
 對於收到 Adobe 點擊串流資料摘要的客戶，此查閱檔案非常有用。此檔案提供易記名稱給 `post_tnt` 和 `post_tnt_action` 欄。
 
