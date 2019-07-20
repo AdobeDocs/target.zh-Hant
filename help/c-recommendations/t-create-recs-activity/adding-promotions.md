@@ -37,7 +37,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
 
    ![新增前置促銷選項](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -52,16 +52,16 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 1. Select a **[!UICONTROL Promotion Type]**.
 
-   * 選取 **[!UICONTROL 「項目清單」]** 並輸入 `entity.id` 值，將您要促銷的特定項目以逗號區隔。
+   * 選取&#x200B;**[!UICONTROL 「項目清單」]**&#x200B;並輸入 `entity.id` 值，將您要促銷的特定項目以逗號區隔。
 
-      如果您的清單包括的項目多於為促銷活動設定的位置數量，您可以選取 **[!UICONTROL 「隨機排列項目順序」]核取方塊，以變更在您的設計中顯示的促銷的項目。** 選擇此選項會讓Target隨機選取每個瀏覽的整個促銷集中，範本中啓用促銷活動的項目數。
+      如果您的清單包括的項目多於為促銷活動設定的位置數量，您可以選取&#x200B;**[!UICONTROL 「隨機排列項目順序」]核取方塊，以變更在您的設計中顯示的促銷的項目。**&#x200B;選擇此選項會讓Target隨機選取每個瀏覽的整個促銷集中，範本中啓用促銷活動的項目數。
 
-   * 選取 **[!UICONTROL 「依屬性促銷」]，並新增規則以定義您要促銷的項目的屬性。**
+   * 選取&#x200B;**[!UICONTROL 「依屬性促銷」]，並新增規則以定義您要促銷的項目的屬性。**
 
       如果您選取「依屬性促銷」，您可以建立動態匹配。如需詳細資訊，請參閱[使用動態和靜態包含規則](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
-   * 選取 **[!UICONTROL 「促銷一個集合」]，並選擇您要促銷的項目集合。** 您可以建立新的集合用於促銷活動。請參閱[建立集合](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
+   * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]，並選擇您要促銷的項目集合。**&#x200B;您可以建立新的集合用於促銷活動。請參閱[建立集合](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
 
-1. 按一下 **[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 促銷活動會套用至活動中的所有體驗。
