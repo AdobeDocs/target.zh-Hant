@@ -1,14 +1,14 @@
 ---
 description: 此頁面列出對 Target 文件的重要變更。
 keywords: target 文件變更記錄;文件更新
-seo-description: 此頁面列出對 Target 文件的重要變更。
-seo-title: 文件變更Adobe Target產品文件中的
+seo-description: 此頁面列出對Adobe Target文件進行的重要變更。
+seo-title: Adobe Target產品文件中的文件變更
 solution: Target
 title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 # 文件變更{#documentation-changes}
 
 此頁面主要列示 [!DNL Adobe Target] 文件的重要變更。
+
+## Adobe Target Standard/Premium 19.7.1 (2019 年 7 月 23 日) {#tgt-19-7-1}
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 2019年月24日 | [從at. js1.*x升級* 至at. js2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple Intelligent Tracking Prevention(ITP)2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |  新主題。 |
+|  | [選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新增區段：「檢視建議選件的狀態」。 |
+|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status). |
+|  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md) | 更新目錄重新整理的相關文字。 |
+|  | [在行動應用程式 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 已新增有關「修改」面板的資訊，其中顯示您已設定用於點按追蹤的元素。 |
+|  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 新增區段：「機器人」。 |
+|  | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 已新增最佳實務，以避免緩慢的Regex執行。 |
+|  | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 更新疑難排解區段以反映字元限制不再套用至應用程式名稱。限制僅適用於ID。 |
+|  | [動態消息](/help/c-recommendations/c-products/feeds.md#steps) | 已將支援的FTP伺服器設定新增至步驟。 |
+|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.1.1 的資訊。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 19.7.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 19.6.1 (2019 年 6 月 26 日) {#tgt-19-6-1}
 
