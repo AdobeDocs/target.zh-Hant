@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 版本詳細資料
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -20,6 +20,24 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!IMPORTANT]
 >
 >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。
+
+## at. js2.1.1(2019年月24日)
+
+此版本的at. js是維護發行，包含下列增強功能和修正：
+
+(括號內的問題編號供 Adobe 內部使用。)
+
+* 修正在Visual Experience Composer(CMS)的「目標與設定」頁面上，使用「點擊追蹤」度量時引發多個信標的問題。(TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* 修正由於使用decodeURIComponent而導致URL包含格式錯誤查詢字串參數時造成問題的問題。(TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* 修正某些客戶無法在網站上顯示Recommendations選件的問題。客戶可以在傳送API呼叫中看到選件內容，但選件未套用至網站上。(TNT-32680)
+* 修正多個體驗的點按追蹤無法如預期般運作的問題。(TNT-32644)
+* 修正無法在第一個量度演算後套用第二個度量的問題。(TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* 修正導致顯示並按一下Chromium瀏覽器中的通知回應(包括Google Chrome)的問題。(TNT-32290)
 
 ## at. js2.1.0版(2019年月日)
 
