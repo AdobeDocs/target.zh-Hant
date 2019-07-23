@@ -9,7 +9,7 @@ title: Adobe Target 如何運作
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -96,7 +96,9 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 每個 Edge 節點有所有必要的資訊，可回應使用者的內容請求及追蹤該請求的分析資料。使用者請求會被轉至最近的 Edge 節點。
 
-![](assets/edge_network.png)
+![透過核心邊緣網站和邊緣網站進行地圖對應](assets/edge_network.png)
+
+Adobe目前擁有美國奧勒崗和德州的核心Edge網站；英國倫敦；和新加坡。Adobe目前在Virginia(美國)的Virginia(美國)設有Edge網站；日本東京；和澳洲雪梨。
 
 Core Edge 網站位置同時包含資料收集中心和資料處理中心。Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
 
@@ -167,3 +169,16 @@ Google指出，遵循這些指引「應該會導致您的測試在搜尋結果�
 Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示給使用者的組合無關，我們會從索引中移除該網站。」
 
 我們認為在測試變異內非存心變更原始內容的意義並不容易，但建議要注意頁面上的關鍵字主題，並維護這些主題。變更頁面內容 (尤其是新增或刪除有意義的關鍵字) 可能導致 URL 在自然搜尋中的排名發生變化。建議在擬訂測試時與您的 SEO 夥伴合作。
+
+機器人 {#bots}
+
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 識別為機器人產生之流量的流量，如同一般使用者一樣，仍可確保其符合SEO准則。使用機器人流量會傾斜A/B測試或個人化演算法(如果他們被視為一般使用者)。因此，如果在Target活動中偵測到已知機器人，流量會略有不同。移除機器人流量可提供更精確的使用者活動測量。
+
+尤其是，對於已知機器人流量Target，不會：
+
+* 建立或擷取訪客描述檔
+* 記錄任何描述檔屬性或執行描述檔指令碼
+* 查閱Adobe Audience Manager(AAM)區段(如果適用)
+* 使用機器人流量模型，並為Recommendations、自動目標、自動個人化或自動分配活動提供個人化內容
+* 記錄活動瀏覽以進行報告
+* 記錄資料以傳送至Adobe Experience Cloud平台
