@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的�
 >* Target 僅支援「產品分類」。Analytics 產品 SKU 必須對應至與建議相同的等級。您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
 
 
-## 建立摘要 {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## 建立摘要 {#steps}
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    如果您選取 FTP，請提供 FTP 伺服器資訊、登入認證、檔名和 FTP 目錄。您可以選擇使用 FTP SSL (FTPS)，以更安全地上傳。
 
+   支援的FTP伺服器設定：
+
+   * FTP和FTPS必須設定為使用被動式FTP。
+   * 對於FTPS，請設定伺服器接受明確的FTPS連線。
+   * 不支援SFTP。
    如果您選取 URL，請指定 URL。
+
 1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「排程」]選項。
 
    ![步驟結果](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ recs/t_feeds_create.xml
 
 關於可能的摘要狀態和其指示器的資訊。
 
-### 摘要狀態 {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### 摘要狀態 {#status}
 
 摘要的可能狀態如下:
 
@@ -272,10 +278,8 @@ recs/t_feeds_create.xml
 | 排定在&#x200B;*日期和時間* | 摘要尚未執行，但已排定在指定的日期和時間執行。 |
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
-| 正在匯入項目 | Target 正在從摘要檔案匯入項目。注意: 完成此步驟且顯示「正在準備搜尋索引更新」後，項目屬性變更即已匯入我們的中央系統，並且會在 60 分鐘內反映於地理區域邊緣節點所傳回的傳送建議內容。 |
-| 正在準備搜尋索引更新 | Target 正在準備更新目錄搜尋索引。注意: 如果系統列出此狀態，表示已做出項目屬性變更，而雖然這些變更尚未反映於目錄搜尋中，但不久後將反映於傳送建議中。 |
-| 正在更新搜尋索引 | Target 正在更新目錄搜尋索引。注意: 如果系統列出此狀態，表示已做出項目屬性變更，而雖然這些變更可能尚未反映於目錄搜尋中，但不久後將反映於傳送建議中。 |
-| 已完成更新 | Target 已完成所有與摘要檔案相關聯的更新。 |
+| 正在匯入項目 | Target 正在從摘要檔案匯入項目。 |
+| Feed Imported Successfully at *time* | Target已將饋送檔案匯入其內容傳送系統。內容屬性的變更已在內容傳送系統中進行，很快就會反映在傳送的建議中。如果您看不到預期的變更，請稍後再試一次，然後重新整理包含建議的頁面。<br>*注意1：* 如果變更項目屬性的變更會導致項目從建議中排除，排除將立即反映出來。If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*注意2：* 當顯示此狀態時，更新可能尚未反映在「目錄搜尋」使用者介面中。「目錄搜尋」中會列出個別狀態，指出可搜尋目錄上次更新的日期。 |
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
