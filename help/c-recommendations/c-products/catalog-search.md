@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -29,9 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 「產品」旁顯示的數字代表在所指定環境中可用的總數之中，符合搜尋詞語的產品數量。
 
-按一下重新整理圖示，以重新編列目錄的索引。請注意，編列索引需要一些時間，視摘要的大小而定。
-
-目錄每小時自動重新整理一次。在自動重新整理之間，按一下&#x200B;**[!UICONTROL 「重新整理」]**&#x200B;可將目錄重新編列索引。
+透過動態消息、API或mbox更新收到更新時，目錄會自動重新整理。更新通常在一小時內完成。如果更新正在進行中，則會顯示最近更新的時間。如果未進行更新，則會顯示最新更新開始和完成的時間。
 
 您可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立集合或排除項目。例如，使用 "id &gt; contains" 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合或排除項目」]。
 
