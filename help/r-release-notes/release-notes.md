@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
+source-git-commit: 2cc1918610950ea8474def526d9596ec709456a2
 
 ---
 
@@ -17,14 +17,7 @@ source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能和修正的資訊。
 
-## 公告
-
-請注意下列重要聲明:
-
-* 2019 年 2 月 20 日，EMEA、日本和 APAC 區域中的 Adobe Target 基礎架構已升級，不再從使用較舊裝置或不支援 TLS 1.1 以上版本的網頁瀏覽器，收集一般使用者的資料。這項升級預計在 **2019 年 4 月 1 日**&#x200B;於北美區域推行。轉移至 TLS 1.2 可改善安全性。請務必詳閱詳細資訊，並與 IT 團隊就變更項目妥善規劃，以順利轉移。如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
-* 從 2019 年 3 月 起，[!DNL Target] 和 [!DNL Adobe Marketing Cloud] 將停止支援 Microsoft Internet Explorer 11。這項變更只會影響 [!DNL Target] 編寫，不影響體驗傳送。請改用 Microsoft Edge 或其他瀏覽器。如需更多資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。
-
-## Target Standard/Premium 19.6.1 (2019 年 6 月 26 日)
+## Target Standard/Premium 19.7.1 (2019 年 7 月 24 日) {#tgt-19-7-1}
 
 此版本包含下列新功能和增強功能:
 
@@ -32,25 +25,36 @@ source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 可視化體驗撰寫器 (VEC) | **新的CMS功能表選項**：當您按一下CMS中的頁面元素時，功能表會顯示該元素類型可用的選項。<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**點擊追蹤改進**：我們改善了在CMS和單一頁面應用程式(SPA) CMS中設定點按追蹤的程序。<ul><li>選取要用於點擊追蹤的元素時，所有可用元素的名稱會顯示在右側的「修改」面板中，讓您快速且輕鬆地選取所要的元素。</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. 您可以將滑鼠指標暫留在此數目上，以查看所有選取元素的名稱。(TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| 單頁應用程式視覺化體驗撰寫器 (SPA VEC) | **引導式工作流程**：新的引導工作流程可協助您瞭解頁面遞送規則設定如何設定，以便在單一頁面應用程式中成功執行和執行活動。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**複製修改**：您現在可以使用SPA CMS定義修改，然後將修改複製到您的單一頁面應用程式中的其他檢視中。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| 行動版視覺化體驗撰寫器 | **多個應用程式版本**：您現在可以為行動應用程式的多個版本編寫活動。如此可為您節省時間和精力，當版本類似時，您就不需要大幅變更應用程式的UI。(TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![Premium徽章](/help/assets/premium.png) 自動個人化(AP)與自動目標 | **特定體驗作為控制**：您可以選取在建立AP或自動Target活動時做為控制項的體驗。此功能可讓您根據活動中設定的流量分配百分比，將整個控制流量路由至特定體驗。然後，您可以評估個人化流量的績效報告，以控制該一個體驗的流量。目前的控制選項(隨機提供體驗)將繼續可用。(TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**個人化前瞻分析報表**：當訪客在特定位置看到特定內容的特定內容時，行銷人員友好的命名方式提供更有意義的資訊。(TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![優質徽章](/help/assets/premium.png) 建議 | 建立「最近查看的項目」邏輯時，您可以使用「先前建議購買的項目」切換按鈕。(TGT-34030)<br>如需詳細資訊，請參閱 [「建立准則」](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) 中最近檢視的項目。 |
-| Google Chrome SameSite Cookie 原則 | Google最近宣佈，從Chrome76開始，在2019年月30日發行的Chrome76中，開發人員必須明確指定哪些Cookie可以跨網站運作，以及哪些Cookie可追蹤使用者。<br>隨著產業致力於為消費者建立更安全的網路，Target絕對致力於提供個人化體驗，並超越對訪客的隱私權期望。<br>請參閱 [Google Chrome SameSite Cookie原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
+| 行動應用程式可視化體驗撰寫器 | Mobile App CMS會顯示新的「修改」面板，顯示您已設定用於點按追蹤的元素。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| ![A/B測試與體驗定位(XT)活動](/help/assets/premium.png)<br>中的Premium BadgereCommendations | Recommendations(演算法)狀態會顯示在「概述」頁面上，用於A/B測試和包含Recommendations選件的XT活動。狀態包括：Results Ready、Results not Ready和Feed fails.(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
+| 透過Experience Cloud ID(ECID)程式庫對at. js2.0+的跨網域追蹤支援 | 以前，at. js不支援跨網域追蹤。*x* 版本不支援此函數。在此版本中，使用at. js2.0或更新版本的客戶現在可以透過ECID程式庫使用跨網域追蹤。必須將ECID程式庫與at. js2.0或以上版本一起安裝在頁面上，才能讓跨網域追蹤運作。[必須使用Experience Cloud ID庫4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 。<br>請參閱 [at. js2.x中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
+| Target支援Apple的ITP2.1和ITP2.2透過Experience Cloud ID(ECID)庫4.3 | 如今，Target客戶可以運用Adobe的CNAME認證計劃來降低Apple的ITP2.1和ITP2.2。<br>在此版本中，Target可與ECID程式庫4.3完美整合，後者運用伺服器端Cookie來降低ITP2.1和ITP2.2。強烈建議Target客戶將 [ECID程式庫4.3+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 與Target的JavaScript程式庫搭配部署，以降低任何未來的ITP版本。ECID程式庫將繼續推行增強功能，為不斷變化的瀏覽器引進的Cookie原則提供強大的解決方案。<br>請參閱 [Apple Intelligent Tracking Premiention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
-## at. js2.1.0版(2019年月日)
+**增強功能、修正和變更**
 
-我們很高興宣佈下列令人振奮的功能：js2.1.0：
+* 修正新增重復值時，Recommendations活動中排除值無法清除的問題。(TGT-34996)
+* 您現在可以從「定位」頁面(三部分引導工作流程的步驟2)中移除「建議」活動中的設計。請注意，若要移除設計，必須選取多個設計。(TGT-35118)
+* 修正某些客戶無法在Target UI中正確載入或可編輯的自訂條件卡問題。(TGT-35170)
 
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| Adobe加入支援 | 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需Adobe選擇加入的詳細資訊，請參閱 [隱私權與通用資料保護規則(GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md))。 |
-| 符合業界標準的CSP規範 | at. js不再使用eval()來執行JavaScript。 |
-| 用戶端分析記錄 | 可讓客戶完全控制如何將分析資料傳送至Adobe Analytics，不論是在用戶端或伺服器端。<br>如需詳細資訊，請參閱 [在實施前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登入 *客戶端的Analytics*。 |
-| 傳送通知 | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>如需詳細資訊，請查看 [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。 |
-| 縮減檔案大小 | at. js的大小減少了~24%。檔案大小較小可改善頁面載入效能，並減少頁面上下載. js的時間。 |
-| at. js文件更新 | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+## at. js2.1.1(2019年月24日)
+
+此版本的at. js是維護發行，包含下列增強功能和修正：
+
+(括號內的問題編號供 Adobe 內部使用。)
+
+* 修正在Visual Experience Composer(CMS)的「目標與設定」頁面上，使用「點擊追蹤」度量時引發多個信標的問題。(TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* 修正由於使用decodeURIComponent而導致URL包含格式錯誤查詢字串參數時造成問題的問題。(TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* 修正某些客戶無法在網站上顯示Recommendations選件的問題。客戶可以在傳送API呼叫中看到選件內容，但選件未套用至網站上。(TNT-32680)
+* 修正多個體驗的點按追蹤無法如預期般運作的問題。(TNT-32644)
+* 修正無法在第一個量度演算後套用第二個度量的問題。(TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* 修正導致顯示並按一下Chromium瀏覽器中的通知回應(包括Google Chrome)的問題。(TNT-32290)
+
+For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## 文件變更、過去的版本說明和 Experience Cloud 版本說明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
