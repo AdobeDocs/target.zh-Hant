@@ -1,7 +1,7 @@
 ---
 description: 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
-keywords: recommendations;recommendations 活動;條件
-seo-description: 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
+keywords: recommendations;recommendations 活動;條件；演算法
+seo-description: Adobe Target中的標準是根據預先定義的訪客行為決定要建議哪些產品的規則。
 seo-title: 標準
 solution: Target
 title: 標準
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 您可以將游標移至卡片上並按一下卡片上的「資訊」圖示，這樣無需開啟條件，即可在快顯卡上查看條件詳情。
 
-![](assets/criteria_hover.png)
+![標準卡片暫留](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 按一下&#x200B;**[!UICONTROL 「演算法資訊」]索引標籤，即可查看選取條件的一般資訊，包括名稱、說明、垂直產業、頁面類型、建議金鑰、建議邏輯和演算法 ID。**
 
-![](assets/criteria_info.png)
+![演算法資訊標籤](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 按一下&#x200B;**[!UICONTROL 「演算法使用情形」]索引標籤，即可查看參照選取條件的活動清單。**&#x200B;卡片會列出使用中和非使用中的活動。按一下「已上線活動」或「非使用中活動」下拉式清單，即可查看參照該條件的完整活動清單。您可以按一下活動連結以開啟活動並編輯。
 
-![](assets/criteria_usage.png)
+![標準使用標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## 判斷條件結果何時可就緒播放 {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +91,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 下圖顯示 Recommendations 活動「概覽」頁面上的活動圖表。您也可以在步驟 2 的活動建立工作流程期間，查看活動圖表，並附有條件狀態結果。
 
-![](assets/criteria_status.png)
+![概述頁面上的標準狀態](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 狀態結果包括下列項目: 可用結果、不可用結果、摘要失敗，如下方圖表所示:
 
