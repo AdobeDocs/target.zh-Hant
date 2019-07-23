@@ -8,7 +8,7 @@ title: 建議作為選件
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -70,9 +70,9 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用「編輯」選單編輯建議選件
 
-1. 按一下您要編輯的選件，然後按一下「編輯」。
+1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![「編輯」選單](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![編輯建議選件](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 從下列選項中選擇:
 
@@ -85,8 +85,8 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用「修改」面板編輯建議選件
 
-1. 按一下[!UICONTROL 「修改」]圖示&#x200B;*「&lt;/&gt;」*&#x200B;以顯示[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 將游標停留在所需的動作上，然後按一下[!UICONTROL 「編輯」]圖示。
+1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. 將游標停留在所需的動作上，然後按一下&#x200B;**[!UICONTROL 「編輯」]圖示。**
 
    ![「修改」面板](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,13 +101,23 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用「編輯」選單刪除建議選件
 
-1. 按一下您要移除的選件，然後按一下[!UICONTROL 「配置 &gt; 移除」]。
+1. Click the offer you want to remove, then click **[!UICONTROL Layout &gt; Remove]**.
 
    ![移除](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 使用「修改」面板刪除建議選件
 
-1. 按一下[!UICONTROL 「修改」]圖示&#x200B;*「&lt;/&gt;」*&#x200B;以顯示[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
+1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
 1. 將游標停留在所需的動作上，然後按一下[!UICONTROL 「刪除」]圖示。
 
    ![「刪除」圖示](/help/c-recommendations/assets/recs-offer-delete.png)
+
+### Viewing the recommendations offer's status {#status}
+
+The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+
+* 結果準備就緒
+* 結果尚未就緒
+* 摘要失敗
+
+![Recommendations選件狀態](/help/c-recommendations/assets/recs-offer-status.png)
