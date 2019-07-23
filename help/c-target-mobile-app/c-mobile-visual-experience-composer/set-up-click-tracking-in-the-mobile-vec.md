@@ -8,7 +8,7 @@ title: 在行動應用程式 VEC 中設定點擊追蹤
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -50,3 +50,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 在行動應用程式 VEC 中，只能選取已附加點按處理常式的元素。
 * 您可以瀏覽至應用程式的任何區段，但請確定已為您選取以進行點擊追蹤的元素區段定義[檢視](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views)。
 * 編輯活動時，若已在步驟 1 中選取裝置，則無需再次選取裝置。但是，若直接登陸點擊追蹤頁面，您會看到可選取授權裝置的裝置選取畫面。
+* 「Modifications」(修改)面板會顯示在Mobile App CMS中，顯示您已設定以進行點按追蹤的元素。
+
+   ![顯示點按追蹤的修改面板
+   ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
