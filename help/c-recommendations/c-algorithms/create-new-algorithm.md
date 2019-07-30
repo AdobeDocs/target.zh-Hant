@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
 
 ---
 
@@ -330,6 +330,8 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 **使用您網站上的哪個位置**
 
 一般頁面，例如首頁或登陸頁面及離站廣告。
+
+[!NOTE]最近檢視的項目同時尊重了全域設定和選取的「活動的系列」設定。如果某個項目被全域排除排除，或未包含在選取的系列中，則不會顯示該項目；因此，使用「最近檢視的項目」條件時，一般應使用「所有系列」設定。
 
 ### Previously Purchased Items {#previously-purchased}
 
