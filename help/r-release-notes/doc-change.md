@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月29日 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
 | 2019年月24日 | [從at. js1.*x升級* 至at. js2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention(ITP)2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |  新主題。 |
 |  | [選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新增區段：「檢視建議選件的狀態」。 |
