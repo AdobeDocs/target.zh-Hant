@@ -9,7 +9,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ What is a [!DNL Recommendations] activity?
 
 ![顯示建議活動的圖例：觀眾、標準和設計](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 您可以自訂每個項目或新增自己的項目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本節著重於定義標準，並將建議定義精靈項目。
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 您可以自訂每個項目或新增自己的項目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本節著重於定義標準，以定義建議的項目。
 
 Target使用標準卡的概念。標準卡片有如個人化方式。
 
@@ -166,7 +166,7 @@ The following sections describe the various parts of this funnel and how they wo
 * 訪客上次購買或新增至購物車的項目
 * 與訪客或項目相關的自訂屬性
 
-根據這些按鍵，您接著選擇建議邏輯：
+根據這些按鍵，您接著選擇所需的建議邏輯：
 
 * 具有類似屬性的項目
 * 特定類別中檢視最多的項目
