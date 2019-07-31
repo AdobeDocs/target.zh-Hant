@@ -8,18 +8,18 @@ title: 建立體驗
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
 ---
 
 
 # Create experience{#create-experience}
 
-Visual Experience Composer(CMS)提供一個視覺化介面，用於編輯您在「體驗鎖定(XT)」活動中頁面上的體驗。
+[!UICONTROL Visual Experience Composer] (CMS)提供一個視覺化介面，用於編輯您在 [!UICONTROL 「體驗鎖定] (XT)」活動中頁面上的體驗。
 
 1. 選取您要變更的元素，並進行需要的變更。
 
-   [建立XT活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三部分引導式工作流程(體驗)之一會顯示預設 [!UICONTROL A] 與 [!UICONTROL 所有訪客] 對象的預設體驗A。
+   [建立XT活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三部分引導式工作流程([!UICONTROL 體驗])之一會顯示預設 [!UICONTROL A] 與 [!UICONTROL 所有訪客] 對象的預設體驗A。
 
    ![所有訪客對象](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +27,19 @@ Visual Experience Composer(CMS)提供一個視覺化介面，用於編輯您在�
 
    將游標移至頁面上的元素時，元素會強調顯示。任何反白顯示的元素都可以使用CMS進行變更。For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   如果您在使用 Target Classic (先前的 Test&amp;Target) 的頁面上建立 mbox，該 mbox 會以元素的形式出現並顯示 mbox 名稱，且可如同任何其他元素般加以修改。
+   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >依預設，可視化體驗撰寫器不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。如果您想要使用CMS變更這些元素，可以選取停用JavaScript。
+   >根據預設，CMS不允許變更包含JavaScript的元素(例如旋轉橫幅)。您可以選擇停用JavaScript，使用CMS變更這些元素。
 
-1. To create additional experiences, click **[!Add Experience Targeting]**.
+1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
    ![新增體驗定位連結](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    The [!UICONTROL Choose Audience] dialog box displays. 若要將體驗定位給對象，您必須先選取對象，才能新增體驗。
 
-   對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫選取對象，或是[建立新對象](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ Visual Experience Composer(CMS)提供一個視覺化介面，用於編輯您在�
 
    >[!NOTE]
    >
-   >如果您從主頁面以外的來源傳送影像(例如Akamai. net上裝載的影像，並以adobe.com傳送)，則該影像不會顯示在流程圖中所顯示頁面的縮圖中。
+   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
 1. (條件性)在建立或編輯XT活動時拖放對象/體驗配對，以依照所需順序排列配對。
 
@@ -77,7 +77,7 @@ Visual Experience Composer(CMS)提供一個視覺化介面，用於編輯您在�
 
    ![移動體驗](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   體驗鎖定目標會假設順序重要。如果訪客落入第一個對象/體驗配對，即會傳送第一個體驗。
+   [!UICONTROL 體驗鎖定目標會假設順序重要。]如果訪客落入第一個對象/體驗配對，即會傳送第一個體驗。
 
    例如，假設您不知道建立 XT 活動時順序很重要。您後續在測試期間發現，您認為應該符合體驗 B 或 C 資格的訪客卻符合體驗 A 的資格。這可能是因為該對象非互斥卻採用不適當的順序 (例如，體驗 A = 美國，體驗 B = 舊金山，而體驗 C = 加州)。在此案例中，來自美國的所有使用者會符合體驗 A 的資格，即便他們位於舊金山或加州的其他地方。您可以從最多限制到最少限制 (舊金山 &gt; 加州 &gt; 美國) 重新排序對象/體驗配對，而不需重新建立整個活動。
 
@@ -100,7 +100,7 @@ On the **[!UICONTROL Experiences]** page (the first step in the three-step guide
 
 ## 複製體驗
 
-您可以複製體驗鎖定目標 (XT) 活動中的體驗，不必從頭再次建立體驗，即可進行微幅變更。
+您可以複製XT活動中的體驗，以便對其進行小幅變更，而無需從頭開始重新建立體驗。
 
 在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
 
