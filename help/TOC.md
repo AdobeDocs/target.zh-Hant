@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
 
 ---
 
@@ -42,6 +42,7 @@ source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
       + 企業使用者權限 {#enterprise}
          + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [設定企業權限](administrating-target/c-user-management/property-channel/properties-overview.md)
+         + [授予Adobe I/O整合存取工作區並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic整合](administrating-target/scene7-settings.md)
    + [主機](administrating-target/hosts.md)
    + [回應 Token](administrating-target/response-tokens.md)
