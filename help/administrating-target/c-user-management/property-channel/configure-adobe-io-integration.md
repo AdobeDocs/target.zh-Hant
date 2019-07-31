@@ -1,5 +1,5 @@
 ---
-description: 關於授予現有Adobe I/整合存取權以存取具有所需角色之所有工作區的資訊。
+description: 關於授予Adobe I/整合存取權以存取具有所需角色之所有工作區的資訊。
 keywords: 整合；角色；使用者權限；admin Console
 seo-description: 有關授予現有Adobe I/整合的資訊，請使用Adobe Target中所需角色的所有工作區
 seo-title: 授予Adobe I/O整合存取工作區並指派Adobe Target中的角色
@@ -7,7 +7,7 @@ solution: Target
 subtopic: 快速入門
 title: 授予Adobe I/O整合存取工作區並指派角色
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -54,10 +54,11 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![整合標籤](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
 
-   *[!UICONTROL Approver]
-*[!UICONTROL Editor]
-*[!UICONTROL Observer]
-
+   * [!UICONTROL 核准者]
+   * [!UICONTROL 編輯器]
+   * [!UICONTROL 觀察者]
    ![選擇產品描述檔角色](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
