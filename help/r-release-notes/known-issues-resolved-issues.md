@@ -8,7 +8,7 @@ title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節列出 [!DNL Target] 的已知問題:
+
+### 預覽連結 {#preview}
+
+如果帳戶中已儲存的活動太多，儲存活動的預覽連結可能無法載入。重新嘗試預覽連結應該能運作。為避免繼續發生這種情況，封存不再主動使用的儲存活動。(TNT-32697)
 
 ### 重新導向選件 {#redirect}
 
