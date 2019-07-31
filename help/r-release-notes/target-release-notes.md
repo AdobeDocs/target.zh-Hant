@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -27,20 +27,20 @@ source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
 
 ## 公告
 
-**2019年月31**&#x200B;日： [!UICONTROL 企業權限] 允許 [!DNL Target] 客戶使用單一組織，但將其分為不同團隊或工作流程的工作區。
+**2019年月31日**
 
-[!UICONTROL 企業權限] 功能可協助您有效擴展團隊內部的最佳化程式。Although the feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until earlier in 2019. In the [!DNL Target] February 2019 release, Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to just the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+[!UICONTROL 企業權限] 可讓 [!DNL Target] 客戶使用單一組織，但將其分為不同團隊或工作流程的工作區。[!UICONTROL 企業權限] 功能可協助您有效擴展團隊內部的最佳化程式。Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. Adobe已更新管理員API，讓您可以使用整合帳戶存取組織中建立的所有工作區。So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
 
-With the upcoming [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
 
 * 您可以選擇可套用整合的工作區
 * You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
 
-**需要的動作**：目前針對所有工作區運用API for資源(活動、對象、選件和報告)的客戶，需要將現有的Adobe I/整合存取權授與所有工作區，以依其使用案例使用所需角色。Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. 您現在可以選擇所要的角色。
+**必要動作**：目前針對所有工作區運用API for資源(活動、對象、選件和報告)的客戶，都需要將現有的Adobe I/整合存取權授與所有工作區的所需角色。Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. 在即將推出的版本中，您現在可以選取所需的角色。
 
-This action should be performed before **September 4, 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 預先設定整合並無負面反應。您越早越好。視組織中的工作區數目而定，需要少許時間來設定此設定。此程序只需按幾下滑鼠，即可將現有的整合新增至具有所需角色的工作區。
+This action should be performed before **September 4, 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 預先設定整合角色並沒有負面影響。
 
-For step-by-step instructions, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
 ## Target Standard/Premium 19.8.1 (2019 年 8 月 20 日) {#tgt-19-8-1}
 
