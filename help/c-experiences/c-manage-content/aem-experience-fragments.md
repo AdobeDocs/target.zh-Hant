@@ -8,7 +8,7 @@ title: AEM 體驗片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 ---
 
@@ -54,6 +54,7 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 * **AEM 6.3:**[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) 文件中的&#x200B;_選擇使用 Adobe Analytics 和 Adobe Target_。
 * **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) 文件中的&#x200B;_選擇使用 Adobe Analytics 和 Adobe Target_。
+* **AEM6.5：**[選擇加入Adobe Analytics和Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)
 
 ### 步驟 2: 建立體驗片段
 
@@ -61,6 +62,7 @@ Target 可讓您根據一組包含行為、情境和離線變數的規則型和 
 
 * **AEM 6.3:**[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) 文件中的&#x200B;*體驗片段*。
 * **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) 文件中的&#x200B;*體驗片段*。
+* **AEM6.5：**[體驗片段](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
 
 ### 步驟 3: 設定 AEM 讓 Target 共用體驗片段
 
