@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019年月日 | [目標版本注意事項(目前)](/help/r-release-notes/release-notes.md) | 已新增有關企業權限API支援的重要公告。 |
-|  | 授予Adobe I/O整合存取工作區並指派角色 |  新主題。 |
+|  | [授予Adobe I/O整合存取工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |  新主題。 |
 | 2019年月31日 | [建議簡介](/help/c-recommendations/introduction-to-recommendations.md) |  新主題。 |
 |  | [建立標準](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 已新增附註至最近檢視的項目。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 已新增Activity QA預覽連結的已知問題。 |
