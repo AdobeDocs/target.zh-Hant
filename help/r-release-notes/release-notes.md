@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2cc1918610950ea8474def526d9596ec709456a2
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: 2cc1918610950ea8474def526d9596ec709456a2
 # Target 版本說明 (最新){#target-release-notes-current}
 
 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能和修正的資訊。
+
+## 公告
+
+**2019年月31日**
+
+[!UICONTROL 企業權限] 可讓 [!DNL Target] 客戶使用單一組織，但將其分為不同團隊或工作流程的工作區。[!UICONTROL 企業權限] 功能可協助您有效擴展團隊內部的最佳化程式。Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. Adobe已更新管理員API，讓您可以使用整合帳戶存取組織中建立的所有工作區。So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+
+With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+
+* 您可以選擇可套用整合的工作區
+* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+
+**必要動作**：目前針對所有工作區運用API for資源(活動、對象、選件和報告)的客戶，都需要將現有的Adobe I/整合存取權授與所有工作區的所需角色。Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. 在即將發行的版本中，您現在可以選取所需的角色。
+
+This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 預先設定整合角色並沒有負面影響。
+
+For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
 ## Target Standard/Premium 19.7.1 (2019 年 7 月 24 日) {#tgt-19-7-1}
 
@@ -72,5 +89,5 @@ For information about this and previous versions of at.js, see [at.js version de
 
 | 資源 | 詳細資料 |
 |--- |--- |
-| Adobe 優先順序產品更新清單 | 若要收到有關 Target 和其他 Adobe Experience Cloud 解決方案的未來產品增強功能的提前通知，請註冊 Adobe 優先產品更新:<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html |
+| Adobe 優先順序產品更新清單 | 若要接收即將推出的 Target 產品增強功能與其他 Adobe Experience Cloud 解決方案的進階通知，請註冊 Adobe 優先產品更新：<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html |
 | 即將發佈的發行說明 | 如需本月的 Target 版本的詳細資訊，包括發行前資訊，請參閱 [Target 版本說明 - 發行前](/help/r-release-notes/target-release-notes.md)頁面。 |
