@@ -7,7 +7,7 @@ solution: Target
 subtopic: 快速入門
 title: 授予Adobe I/O整合存取工作區並指派角色
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -36,11 +36,11 @@ With the upcoming [!DNL Target] September 2019 release, [!DNL Target] [!UICONTRO
 
 **需要的動作**：目前針對所有工作區運用API for資源(活動、對象、選件和報告)的客戶，需要將現有的Adobe I/整合存取權授與所有工作區，以依其使用案例使用所需角色。You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. 您現在可以選擇所要的角色。
 
-This action should be performed before **September 4, 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 根據上述准則，事先設定整合並無負面反應。您越早越好。視組織中的工作區數目而定，需要少許時間來設定此設定。此程序只需按幾下滑鼠，即可將現有的整合新增至具有所需角色的工作區。
+This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 預先設定整合並無負面反應。您越早越好。視組織中的工作區數目而定，需要少許時間來設定此設定。此程序只需按幾下滑鼠，即可將現有的整合新增至具有所需角色的工作區。
 
 **若要授予Adobe I/整合存取工作區及指派角色的權限：**
 
-1. Open the **[!DNL[Adobe Admin Console](https://adminconsole.adobe.com)]**.
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
 
