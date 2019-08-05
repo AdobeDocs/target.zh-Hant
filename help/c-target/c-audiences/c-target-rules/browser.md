@@ -100,7 +100,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 西班牙語
 * 繁體中文
 
-###  版{#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### 版{#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 將特定瀏覽器版本鎖定作為目標或排除。
 
