@@ -9,7 +9,7 @@ title: Adobe Target 如何運作
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target透過兩個JavaScript程式庫之一，與網站整合：at. js或m
 >
 >所有客戶應該移轉至 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-您必須在網站上的每個頁面上參考Target JavaScript程式庫檔案。例如，您可以將此檔案新增至全域標頭。Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+您必須在網站上的每個頁面上參考Target JavaScript程式庫檔案。例如，您可以將此檔案新增至全域標頭。或者，請考慮使用 [Adobe Launch標籤管理器](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每當訪客請求已針對 Target 而最佳化的頁面時，就會傳送請求給目標系統，以決要提供什麼內容給訪客。此程序即時發生：每次載入頁面時，系統就會提出並履行內容要求。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。提供的內容要讓每一位網站訪客最有可能回應、互動、最終購買，以獲得最高的回應率、贏取率、收入。
 
@@ -98,17 +98,17 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 ![透過核心邊緣網站和邊緣網站進行地圖對應](assets/edge_network.png)
 
-Adobe目前擁有美國奧勒崗和德州的核心Edge網站；英國倫敦；和新加坡。Adobe目前在Virginia(美國)的Virginia(美國)設有Edge網站；日本東京；和澳洲雪梨。
+此頁面的來源為 [Adobe Target安全性概述](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 白皮書。
 
-Core Edge 網站位置同時包含資料收集中心和資料處理中心。Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
+Adobe Target解決方案裝載於全球擁有Adobe和Adobe租賃的資料中心。管理伺服器完全由位於倫敦、新加坡和美國多個地點的Adobe自有資料中心代管，包括奧勒崗和維吉尼亞州。Edge伺服器在Amazon AWS資料中心(位於倫敦、香港、新加坡、東京和雪梨)的Adobe自有伺服器上代管。
 
-Adobe 目前在幾個大洲上皆有資料中心，涵蓋多個區域位置，橫跨北美洲、歐洲和亞洲。
+管理伺服器位置包含資料收集中心和資料處理中心。Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
 
 與其回應單一位置的所有定位要求，請求會由最靠近訪客的Edge環境處理，進而減輕網路/網際網路旅行時間的影響。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。由於「Great Firewall」(很棒的防火牆)以及國家/地區的Edge節點不足， [!DNL Target] 已部署的網站體驗將會緩慢，而頁面載入也會受到影響。此外，行銷人員在使用 [!DNL Target] 編寫UI時可能會發生延遲。
 
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示�
 
 ## 機器人 {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 識別為機器人產生之流量的流量，如同一般使用者一樣，仍可確保其符合SEO准則。使用機器人流量會傾斜A/B測試或個人化演算法(如果他們被視為一般使用者)。因此，如果在Target活動中偵測到已知機器人，流量會略有不同。移除機器人流量可提供更精確的使用者活動測量。
+Adobe Target使用 [DeviceAtlas](https://deviceatlas.com/) 偵測已知機器人。識別為機器人產生之流量的流量，如同一般使用者一樣，仍可確保其符合SEO准則。使用機器人流量會傾斜A/B測試或個人化演算法(如果他們被視為一般使用者)。因此，如果在Target活動中偵測到已知機器人，流量會略有不同。移除機器人流量可提供更精確的使用者活動測量。
 
 尤其是，對於已知機器人流量Target，不會：
 
