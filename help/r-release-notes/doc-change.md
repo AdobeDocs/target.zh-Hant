@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -21,16 +21,19 @@ source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增Target Mobile CMS SDK iOS2.1.0和Android1.1.0版本的發行說明。 |
+|  | [建立標準](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | 更新Analytics的預期條件處理時間。 |
+|  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新關於使用 [!UICONTROL 「活動印象] 」和 [!UICONTROL 「活動轉換] 」度量的考量 [!DNL Analysis Workspace]。 |
 | 2019年月日 | [目標版本注意事項(目前)](/help/r-release-notes/release-notes.md) | 已新增有關企業權限API支援的重要公告。 |
 |  | [授予Adobe I/O整合存取工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |  新主題。 |
 | 2019年月31日 | [建議簡介](/help/c-recommendations/introduction-to-recommendations.md) |  新主題。 |
 |  | [建立標準](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 已新增附註至最近檢視的項目。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 已新增Activity QA預覽連結的已知問題。 |
-| 2019年月29日 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
-| 2019年月24日 | [從at. js1.*x升級* 至at. js2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| 2019年月29日 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | 新增常見問題集：「 [!UICONTROL 我的Experience Targeting] (XT)報表包含控制體驗的度量嗎？」 |
+| 2019年月24日 | [從at. js1.*x升級* 至at. js2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 新增區段： [at. js2.x中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention(ITP)2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |  新主題。 |
 |  | [選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新增區段：「檢視建議選件的狀態」。 |
-|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status). |
+|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已更新「匯入項目」列，並在「動態消息使用情形」下新增「 *即時*&#x200B;匯入 [動態消息」列](/help/c-recommendations/c-products/feeds.md#status)。 |
 |  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md) | 更新目錄重新整理的相關文字。 |
 |  | [在行動應用程式 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 已新增有關「修改」面板的資訊，其中顯示您已設定用於點按追蹤的元素。 |
 |  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 新增區段：「機器人」。 |
@@ -48,9 +51,9 @@ source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將推出的Target19.7.1版本的資訊(2019年月23日)。<br>請注意，本資訊可能有所變動。 |
 | 2019年月日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增資訊，說明您為何應使用CNAME。 |
 | 2019年月28日 | [已知問題和解決問題當](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[使用且未使用A4TreDirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[選件-A4 T常見問題時，Target與Analytics之間預期的資料差異](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 已新增已知問題，此問題會導致部分客戶使用A4T重新導向，檢視較高比例的點擊點擊率。 |
-| 2019年月26日 | [視覺體驗選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
-|  | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
-|  | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+| 2019年月26日 | [視覺體驗選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | 已新增有關「樣式」下「 [!UICONTROL 背景] 」選項的 *資訊*。 |
+|  | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | 已新增 [!UICONTROL 有關「複製] 」動作的資訊。 |
+|  | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | 已新增有關「 [!UICONTROL 選取元素」] 面板的資訊。 |
 |  | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新區段：「SPA CMS的頁面傳送設定」。 |
 |  | [選擇自動個人化或自動目標活動的控制權](/help/c-activities/t-automated-personalization/experience-as-control.md) |  新主題。 |
 |  | [Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) |  新主題。 |
@@ -77,10 +80,10 @@ source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 | 2019 年 6 月 7 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增區段：「藍本：使用null檢查邏輯建立4x預設的Recommendations設計」。 |
 |  | [Adobe Target Standard 和 Premium 的訓練影片](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新Adobe Target教學課程網站的連結。 |
 |  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新文字和程式碼片段。 |
-| 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Updated the description for the `options > page` parameter. |
+| 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新 `options > page` 參數的說明。 |
 |  | [管理員入門](/help/administrating-target/start-target.md) | 已更新整個文章。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target19.6.1版本的初步發行說明。 |
-| 2019 年 6 月 5 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section. |
+| 2019 年 6 月 5 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 新增 [疑難排解](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) 區段。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 更新有關使用Adobe Launch部署. js的資訊，這是偏好部署的方法。 |
 |  | [Target 重要概念](/help/c-intro/target-key-concepts.md) | 次要的文字編輯。 |
 | 2019年月日 | [發行說明(目前)](/help/r-release-notes/release-notes.md) | 已新增有關即將發行的at. js2.1.0的資訊。 |
@@ -88,7 +91,7 @@ source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 |  | [在您默示之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 新增區段：「用戶端Analytics記錄」。 |
 |  | [Analytics for Target 實作](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 修訂的步驟7. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增表格至表格中的下列欄位名稱：<ul><li>Request&gt; Experience Cloud</li><li>Request&gt; Experience Cloud&gt;分析</li><li>「請求&gt;體驗Cloud&gt;分析&gt;記錄」</li></ul> |
-|  | [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Added row to the table for `adobe.target.sendNotifications(options)`. |
+|  | [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 已新增表格至表格 `adobe.target.sendNotifications(options)`。 |
 |  | [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) |  新主題。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | 已新增有關at. js2.1.0中Adobe Opt-in支援的資訊。 |
 |  | [隱私權與一般資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 已更新at. js2.1.0中選擇加入支援的相關資訊。 |
@@ -97,7 +100,7 @@ source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 | 2019 年 5 月 30 日 | [從 Adobe Experience Cloud 存取 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文件現在提供簡體中文語言版本。 |
 |  | [將資料下載為 CSV 檔案](/help/c-reports/downloading-data-in-csv-file.md) | 在「匯出訂單詳細資料」中新增註解至CSV區段：「套用在Target報告UI中的對象不會保留至下載報告」。 |
 |  | [報表設定](/help/c-reports/c-report-settings/report-settings.md) | 已更新螢幕擷取。 |
-| 2019 年 5 月 29 日 | [類別相關性](/help/c-target/c-visitor-profile/category-affinity.md) | Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`. |
+| 2019 年 5 月 29 日 | [類別相關性](/help/c-target/c-visitor-profile/category-affinity.md) | 更新文字以釐清 `user.categoryId` 與 `entity.categoryId`之間的差異。 |
 |  | [從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 此主題的「分類」區段：at. js的優點。 |
 |  | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 此主題的「分類」區段：「頁面載入時at. js和mbox. js的影響為何？」 |
 |  | [將動態資料傳遞至選件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 修正過去行為列中的語法。 |
