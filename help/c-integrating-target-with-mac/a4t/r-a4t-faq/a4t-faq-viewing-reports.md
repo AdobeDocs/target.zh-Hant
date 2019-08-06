@@ -8,7 +8,7 @@ title: 檢視報表 - A4T 常見問題集
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可搭配計算量度將區段套用至量度。想要建立一種新的成功事件時通常會這樣做。例如，如果您想要查看活動產生多少再度訪問的訪客，或有多少訪客在特定頁面上看到您的測試。請注意，目前無法為計算度量產生提升度和可信度。
 
-## 檢視報表時應該使用訪客、活動曝光次數或造訪?   {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## 檢視報表時應該使用訪客、活動曝光次數或造訪?   {#metrics}
 
 有多種選項，各有其優點:
 
@@ -52,7 +52,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * 使用者符合活動資格，且內容已從 [!DNL Target] 傳回時，上述所有量度都會觸發。這不一定表示使用者已經看到選件。若活動體驗位於下半部，且使用者並未向下捲動頁面，則雖然 [!DNL Target] 已提供選件，但使用者並未看到選件。
 * [!UICONTROL 活動曝光次數] (由 [!DNL Target] 測量) 和[!UICONTROL 例項] (由 [!DNL Analytics] 測量) 相等，除非相同活動的相同頁面上有多個 mbox 呼叫。這會導致系統計算多個[!UICONTROL 活動曝光次數]，但僅有單一[!UICONTROL 例項]。
-* 目前，[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度會在 [!DNL Analysis Workspace] 中膨脹，因此在解決此問題前不應使用。
+* 在中使用 [!UICONTROL 「活動印象] 」和 [!UICONTROL 「活動轉換] 」度量時， [!DNL Analysis Workspace]請確定這兩個量度已套用 [!UICONTROL 相同的觸控] 屬性模型。您可以按一下欄設定工具來套用模型，啓用 [!UICONTROL 非預設歸因模型]，然後選取 [!UICONTROL 相同的觸控]。在「Analytics工具指南」中深入瞭解 [屬性IQ總覽](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)*中的歸因*。
 
 ## 如果市場行銷人員在活動設定期間挑選 Analytics 量度，「活動轉換」是什麼意思? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
