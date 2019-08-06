@@ -7,7 +7,7 @@ title: 行動應用程式可視化體驗撰寫器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
+source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 
 ---
 
@@ -81,7 +81,7 @@ VEC 中執行的操作可在應用程式中即時查看，因此可在編寫時�
 
 ![新的應用程式通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
+您可以從 [!UICONTROL 「管理版本」] 對話方塊手動新增和移除多個行動應用程式版本。
 
 ![「管理版本」對話方塊](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -192,7 +192,7 @@ Target VEC 擴充功能會透過網路要求，為您的應用程式擷取相關
 
 在 VEC 中按一下[!UICONTROL 「重新整理」]按鈕，即可同步顯示畫面。
 
-**我發現我的「context. application. id」值包含禁止的字元時發生錯誤。What characters are allowed in mobile app IDs?**
+**我發現我的「context. application. id」值包含禁止的字元時發生錯誤。行動應用程式ID允許哪些字元？**
 
 行動應用程式ID中允許的字元包括：
 
@@ -210,7 +210,7 @@ Target VEC 擴充功能會透過網路要求，為您的應用程式擷取相關
 | `&` | Ampersand |
 | `+` | 加號 |
 
-Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
+例如，使用不允許的字元，縮寫符號( `'` )會讓您收到下列錯誤訊息：
 
 ```
 Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
@@ -219,7 +219,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
 ## 已知限制 {#limitations}
 
 * 行動應用程式 VEC 目前可建立適用於行動應用程式的 [A/B 測試](/help/c-activities/t-test-ab/test-ab.md)和[體驗鎖定目標 (XT)](/help/c-activities/t-experience-target/experience-target.md) 活動。未來會支援其他活動類型。
-* 未支援預覽功能。即將發行的版本會提供此功能。
 * 嘗試將應用程式重新連線至行動應用程式 VEC 時，您必須完全退出應用程式並重新啟動。
 
    如果行動應用程式已在下方所列情況期間開啟，您必須關閉應用程式，然後重新開啟。請注意，您&#x200B;*必須*&#x200B;從「最近使用的應用程式」區段關閉行動應用程式，而&#x200B;*非*&#x200B;按下「返回」按鈕。如果使用「返回」按鈕關閉應用程式，可能會發生斷斷續續的連線問題。
