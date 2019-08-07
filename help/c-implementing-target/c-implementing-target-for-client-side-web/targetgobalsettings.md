@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 targetGlobalSettings() 函數的資訊。 '
-keywords: adobe.target.notification;元素;選取器;通知;擴充功能
+keywords: targetGlobalSettings；targetglobalsettings；GlobalSettings；globalsettings；全域設定；at. js；函數；函數；ClientCode；clientcode；ServerDomain；serverDomain；cookieDomain；cookiedomain；CrossDomain；crosdomain；逾時；GlobalmboxReade；visitorAppTimeout；defaultContentIDdenStyle；defaultContentPublisher；BodyHiddenStyle；BodyhingEnabled；imsOrgID；SecureOnly；OverridemboxGesServer；OverridemboxGesServerTimeout；optutEnabled；退出；選擇退出；selectorSollingTimeout；資料提供者
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 
 ---
 
