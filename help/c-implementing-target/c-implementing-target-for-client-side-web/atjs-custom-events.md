@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的自訂事件的資訊。 '
-keywords: adobe.target.notification;元素;選取器;通知;擴充功能
+keywords: 自訂事件；at. js；請求失敗；要求成功；內容演算失敗；內容演算成功；程式庫載入；要求開始；內容演算開始；內容轉換不提供任何選件；內容演算redire
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 自訂事件
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
