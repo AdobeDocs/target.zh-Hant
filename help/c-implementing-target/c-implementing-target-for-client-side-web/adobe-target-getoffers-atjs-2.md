@@ -1,14 +1,14 @@
 ---
-description: '有關適用於 at.js 的 adobe.target.getOffers(options) 函數的資訊。 '
-keywords: adobe.target.notification;元素;選取器;通知;擴充功能
+description: '有關適用於 at.js 的 adobe.target.getOffers() 函數的資訊。 '
+keywords: adobe. target. getOffers；GetOffers；getofffer；取得優惠；at. js；函數；函數
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
-seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
+seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers() 函數的資訊。
 solution: Target
 subtopic: 快速入門
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | request &gt; id &gt; thirdPartyId | 無 | 大小上限 = 128 |  |  |
 | Request&gt; Experience Cloud | 無 |  |  |
 | Request&gt; Experience Cloud&gt;分析 | 無 |  | Adobe Analytics整合 |
-| 「請求&gt;體驗Cloud&gt;分析&gt;記錄」 | 無 | 下列必須實施於頁面：<ul><li>訪客 ID 服務</li><li>AppMeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**：This is the default value where the default value where the Target and Analytics後端will using the SID to stiming the callcom一起for reporting. |
+| 「請求&gt;體驗Cloud&gt;分析&gt;記錄」 | 無 | 下列必須實施於頁面：<ul><li>訪客 ID 服務</li><li>AppMeasurement. js</li></ul> | 支援下列值：<br>**client_ side**：指定後，會將分析裝載傳回回呼叫者，該呼叫者應透過「資料插入API」傳送至Adobe Analytics。<br>**server_ side**：This is the default value where the default value where the Target and Analytics後端will using the SID to stiming the callcom一起for reporting. |
 | request &gt; prefetch | 無 |  |  |
 | request &gt; prefetch &gt; views | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭<br>不允許的名稱: 「orderId」、「orderTotal」、「productPurchasedId」 | 傳遞參數以用於擷取使用中活動內的相關檢視。 |
 | request &gt; prefetch &gt; views &gt; profileParameters | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭 | 傳入設定檔參數以用於擷取使用中活動內的相關檢視。 |
@@ -181,7 +181,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+然後，您可以透過 [「資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)」轉送裝載至Adobe Analytics。
 
 ## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料 {#multiple}
 
