@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019年月日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增Target Mobile CMS SDK iOS2.1.0和Android1.1.0版本的發行說明。 |
-|  | [建立標準](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | 更新Analytics的預期條件處理時間。 |
+|  | [建立標準](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新下一節：「預期的條件處理時間」。 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新關於使用 [!UICONTROL 「活動印象] 」和 [!UICONTROL 「活動轉換] 」度量的考量 [!DNL Analysis Workspace]。 |
 | 2019年月日 | [目標版本注意事項(目前)](/help/r-release-notes/release-notes.md) | 已新增有關企業權限API支援的重要公告。 |
 |  | [授予Adobe I/O整合存取工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |  新主題。 |
