@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
       + [準備實作 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + 隱私權 {#privacy}
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [隱私權與一般資料保護規範 (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [隱私權與資料保護條例](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Premiention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
