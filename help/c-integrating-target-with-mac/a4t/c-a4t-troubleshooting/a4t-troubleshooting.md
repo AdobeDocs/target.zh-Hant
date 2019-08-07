@@ -9,7 +9,7 @@ title: 疑難排解 Analytics 和 Target 整合 (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T) 時遇到的一些常見問題。
 
-## 活動在 Analytics 中未顯示資料，而是列為「未指定」。{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## 活動在 Analytics 中未顯示資料，而是列為「未指定」。{#unspecified}
 
 發生此情形有幾個原因:
 
@@ -34,9 +34,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    [請聯絡客戶服務](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得協助。
 
-資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。記住，第一次儲存之後，最多可能需要 24 小時將報表分類。
-
 >[!NOTE]
+>
+>資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。請記住，在第一次儲存後，通常需要24到72小時才能分類報表。
 >
 >列為「未指定」時不會遺失任何資料。分類執行之後，資料會適當地指派給適當的活動。
 
