@@ -9,7 +9,7 @@ title: 疑難排解 Analytics 和 Target 整合 (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 * [!DNL Target] 中的分類尚未完全處理。
 
-   從第一次儲存活動之後，最多可能需要 24 小時來處理分類。
+   分類通常需要24到72小時才能在第一次儲存後分類報表。
 
 * 報表套裝不含任何資料，但 [!DNL Target] 已嘗試將點閱分類。[!DNL Target] 要直到第一次點閱發生時才能夠分類。
 
