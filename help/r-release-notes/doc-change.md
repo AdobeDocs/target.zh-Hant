@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 | --- | --- | --- |
 | 2019年月日 | [預先擷取選件內容](/help/c-target-mobile-app/prefetch-offer-content.md) | 已新增注意，「自動目標」、「自動分配」和「自動個人化」活動類型不支援SDK中的預先擷取功能。 |
 |  | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 已更新，指出分類程序完成的時間長度。 |
+|  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 已更新，指出分類程序完成的時間長度。 |
 | 2019年月日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增Target Mobile CMS SDK iOS2.1.0和Android1.1.0版本的發行說明。 |
 |  | [建立標準](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新下一節：「預期的條件處理時間」。 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新關於使用 [!UICONTROL 「活動印象] 」和 [!UICONTROL 「活動轉換] 」度量的考量 [!DNL Analysis Workspace]。 |
