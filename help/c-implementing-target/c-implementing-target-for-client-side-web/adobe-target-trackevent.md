@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 adobe.target.trackEvent(options) 函數的資訊。 '
-keywords: adobe.target.notification;元素;選取器;通知;擴充功能
+keywords: adobe. target. trackEvent；trackEvent；trackEvent；追蹤事件；at. js；函數；函數；preentDefault；defentdefault；防止預設值
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
