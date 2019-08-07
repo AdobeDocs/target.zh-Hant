@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
 
 ---
 
@@ -118,15 +118,21 @@ source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
    如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取&#x200B;**[!UICONTROL 「儲存條件以供稍後使用」]核取方塊。**&#x200B;如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
 
-### 預計條件處理時間 {#time}
+## 預計條件處理時間 {#process-time}
 
-* **mboxes**: 如果條件使用 mbox 當作行為資料來源，條件建立後便會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定會導致條件重新執行。
+儲存標準後， [!DNL Target] 請編譯建議。此計算需要一些時間，而且時間範圍會根據選取的建議邏輯、資料範圍、目錄中項目的數目、客戶產生的行為資料以及所選行為資料來源而有所不同。行為資料來源對處理時間有最大影響，如下所示：
 
-* **Analytics**: 如果條件使用 [!DNL Adobe Analytics] 當作行為資料來源，建立後，條件可用時間會根據其他條件是否已使用選取的報表套裝和回顧期間而定。
+### mobox
 
-   * **初始延遲**：初始延遲在兩到七天之間。此初始延遲只會發生一次，當標準設定使用先前未使用的報表套裝，或與較長的回顧視窗一起使用時。
-   * **持續延遲**：如果報表套裝先前用於回顧視窗，至少與選擇的回顧視窗相同，則新和現有標準的預期延遲不超過12小時，視使用的行為資料數量和目錄大小而定。
-   例如，對於「已檢視的相關性」建議，當使用者檢視產品時，會將產品檢視追蹤呼叫傳送至接近即時的Analytics。Analytics資料在下一天會推送至Target，而Target執行演算法則少於12小時。
+如果mbox被選取作為行為資料來源，則一旦建立後，標準便會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更標準配置通常會導致演算法重新執行。視所做的變更而定，先前計算的建議可能會可用，直到重新執行完成或進行較大的變更時，才可使用備份或預設內容，直到重新執行完成為止。如果未修改演算法，則會根據選取的資料範圍 [!DNL Target] 每12-48小時自動重新執行演算法。
+
+### Adobe Analytics
+
+If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+
+* **一次性報告套裝設定**：第一次搭配指定的資料範圍回顧視窗使用報表套裝時， [!DNL Target Recommendations] 可能需要從兩到七天完全下載所選報表套裝的行為資料 [!DNL Analytics]。此時間範圍取決於 [!DNL Analytics] 系統負載。
+* **使用已提供的報表套裝新增或編輯標準**：建立新標準或編輯現有標準時，如果已使用選取的報表套裝， [!DNL Target Recommendations]且資料範圍等於或小於所選資料範圍，則會立即可用資料，且不需要一次性設定。在此情況下，或如果在未修改所選報表套裝或資料範圍時編輯演算法設定，演算法會在12小時內執行或重新執行。
+* **持續演算法執行**：資料流動 [!DNL Analytics][!DNL Target Recommendations] 每天都是如此。例如，對於 [!UICONTROL 「已檢視的相關性] 」建議，當使用者檢視產品時，產品檢視追蹤呼叫會傳遞至 [!DNL Analytics] 接近即時的位置。[!DNL Analytics] 資料會推送至隔天 [!DNL Target] 凌晨，並在不到12小時內 [!DNL Target] 執行演算法。
 
 ## 讓建議以建議索引鍵為依據 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
