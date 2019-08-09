@@ -1,21 +1,21 @@
 ---
-description: 有關歐盟通用資料保護規則(GDPR)和加州消費者隱私權法案(CCPA)的資訊，以及這些規定對貴組織和Adobe Target的影響。
+description: 有關歐盟通用資料保護規則(GDPR)、加州消費者隱私權法案(CCPA)及其他國際隱私權規定的資訊，以及這些規定對貴組織和Adobe Target的影響。
 keywords: gdpr；eu；歐盟；隱私權；常見問題；常見問題；加州消費者隱私權法案；ccpa；隱私權；資料保護；選擇退出；選擇退出；政府；規則
-seo-description: 有關歐盟通用資料保護規則(GDPR)和加州消費者隱私權法案(CCPA)的資訊，以及這些規定對貴組織和Adobe Target的影響。
-seo-title: 通用資料保護規則(GDPR)、加州消費者隱私權法案(CCPA)和Adobe Target
+seo-description: 有關歐盟通用資料保護規則(GDPR)、加州消費者隱私權法案(CCPA)及其他國際隱私權規定的資訊，以及這些規定對貴組織和Adobe Target的影響。
+seo-title: 有關歐盟通用資料保護規則(GDPR)、加州消費者隱私權法案(CCPA)及其他國際隱私權規定的資訊，以及這些規定對貴組織和Adobe Target的影響。
 solution: Target
 title: 隱私權與資料保護條例
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # 隱私權與資料保護條例 {#privacy-and-general-data-protection-regulation-gdpr}
 
-有關歐盟通用資料保護規則(GDPR)和加州消費者隱私權法案(CCPA)的資訊，以及這些法規對貴組織的影響 [!DNL Adobe Target]。
+有關歐盟通用資料保護規則(GDPR)、加州消費者隱私權法案(CCPA)及其他國際隱私權規定的資訊，以及這些規定對貴組織和Adobe Target的影響。
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## California Consumer Privacy Act(CCPA)概觀
 
-加州消費者隱私權法案(CCPA)自2014年月日起生效。根據設計，法律賦予加州法規人員進行調整並釐清細節的方法，這表示您自然有許多問題。如果您有疑問，就不會因為有許多企業正在處理法律中的不確定性，並嘗試瞭解並制定一種解決法律、營運和技術需求的方法。
-
-CCPA提供加州消費者有關其個人資訊的新權利，並為在加州經營業務的特定實體賦予資料保護責任。在高層級，法律賦予加州居民幾項主要權利，包括：
+加州消費者隱私權法案(CCPA)為加州消費者提供有關其個人資訊的新權利，並為在加州經營業務的特定實體賦予資料保護責任。在高層級，法律賦予加州居民幾項主要權利，包括：
 
 * 要求資訊(資料存取)
 * 選擇退出銷售個人資訊(提供與第三方分享資訊的廣泛定義權利)
@@ -102,7 +100,7 @@ window.targetGlobalSettings = {
 
 ## 隱私權與資料保護法規常見問題 {#concept_41F88DE95D2943178BEC382736B5C038}
 
-一般資料保護規則(GDPR)和加州消費者隱私權法案(CCPA)的常見問題 [!DNL Target]。
+關於歐盟通用資料保護規則(GDPR)、加州消費者隱私權法(CCPA)及其他特定Target的國際隱私權要求的常見問題。
 
 ### Adobe對於這些法規的政策為何？ {#section_A6849628D6524C80A6E16946DC5D25A9}
 
