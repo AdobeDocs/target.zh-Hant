@@ -8,7 +8,7 @@ title: 隱私權與資料保護條例
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ A sample [!DNL Target] access API response could look like this:
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. [!DNL Target] 大部份的設定檔欄位並非標準。傳回的內容取決於特定訪客設定檔中的資訊。
 
-## Target 支援 IP 模糊化功能嗎?   {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target 支援 IP 模糊化功能嗎?   {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] 支援IP模糊化，如果您選擇將它用作GDPR或CCPA實施策略的一部分。For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
