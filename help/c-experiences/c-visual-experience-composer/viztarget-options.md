@@ -8,7 +8,7 @@ title: 可視化體驗撰寫器選項
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ HTML 選件的大小最多可以是 256KB。
 ### 還原/取消復原
 
 在編輯工作階段期間，還原您對活動所進行的變更。您也可以重做先前已還原的變更。
+
+## 考量事項 {#considerations}
+
+* 如果選件包含HTML內容，請參閱at at at. js的「How at. js renders offers with HTML content」(如何使用HTML內容呈現選件)( [How at. js) for](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) more information.
 
 ## 使用 DOM 路徑導覽元素 {#dom-path}
 
