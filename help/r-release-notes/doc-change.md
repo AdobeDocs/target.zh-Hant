@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 8 月 9 日 | [at.js 如何運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 新增區段：「at. js如何將選件轉譯為HTML內容」。 |
+|  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 新增區段：「考量事項」。 |
 | 2019年月日 | [預先擷取選件內容](/help/c-target-mobile-app/prefetch-offer-content.md) | 已新增注意，「自動目標」、「自動分配」和「自動個人化」活動類型不支援SDK中的預先擷取功能。 |
 |  | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 已更新，指出分類程序完成的時間長度。 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 已更新，指出分類程序完成的時間長度。 |
