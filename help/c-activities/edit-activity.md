@@ -8,7 +8,7 @@ title: 編輯活動或另存為草稿
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -25,9 +25,9 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
    ![編輯圖示](/help/c-activities/assets/hover_edit.png)
 
-   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   Target會在Visual Experience Composer(CMS)中開啓活動，您會看到 [!UICONTROL 「體驗] 」頁面(三步驟引導工作流程中的第一個步驟)。
 
-1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. 視需要使用 [CMS選項編輯活動](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 1. 按一下分割按鈕，前往下一個步驟或儲存活動。
 
@@ -59,6 +59,18 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
       * 按一下&#x200B;**[!UICONTROL 「儲存」]以儲存您的變更，並停留在您可以繼續進行變更的步驟中。**&#x200B;等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
 
+
+## 使用Adobe Target Classic中建立的舊活動 {#classic}
+
+[!UICONTROL 「活動] 」清單顯示在不同來源建立的活動， [!DNL Adobe Target Classic]包括使用內建的舊活動時，可使用下列動作 [!DNL Target Classic]：
+
+* [!UICONTROL 啟動]
+* [!UICONTROL 停用]
+* [!UICONTROL 封存]
+* [!UICONTROL 複製]
+* [!UICONTROL 刪除]
+
+您無法直接編輯 [!DNL Target Classic] 活動。如果您想要編輯活動，則應建立使用 [!DNL Target Standard/Premium] 並儲存新建立活動的活動副本。
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
