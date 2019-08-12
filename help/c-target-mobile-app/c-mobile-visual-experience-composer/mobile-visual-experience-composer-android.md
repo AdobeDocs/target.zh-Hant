@@ -1,14 +1,14 @@
 ---
 description: Target 的全新 SDK 資料庫可讓開發人員只要設定一次 Android 行動應用程式，便能讓行銷人員使用行動版可視化體驗撰寫器 (VEC)。
 keywords: 行動版 vec;行動版可視化體驗撰寫器;行動版體驗撰寫器選項;設定;android
-seo-description: Target 的全新 SDK 資料庫可讓開發人員只要設定一次 Android 行動應用程式，便能讓行銷人員使用行動版可視化體驗撰寫器 (VEC)。
-seo-title: Android - 設定行動應用程式
+seo-description: Adobe Target全新的SDK程式庫可讓開發人員在其Android行動應用程式上執行一次設定，並讓行銷人員使用Mobile Visual Experience Composer(CMS)的功能。
+seo-title: Android-為Adobe Target設定行動應用程式
 solution: Target
 title: Android - 設定行動應用程式
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
