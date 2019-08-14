@@ -8,7 +8,7 @@ title: 隱私權與資料保護條例
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -37,7 +37,9 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## California Consumer Privacy Act(CCPA)概觀
 
-加州消費者隱私權法案(CCPA)為加州消費者提供有關其個人資訊的新權利，並為在加州經營業務的特定實體賦予資料保護責任。在高層級，法律賦予加州居民幾項主要權利，包括：
+加州消費者隱私權法案(CCPA)為加州消費者提供有關其個人資訊的新權利，並為在加州經營業務的特定實體賦予資料保護責任。CCPA將於2020年月日生效。
+
+在高層級，法律賦予加州居民幾項主要權利，包括：
 
 * 要求資訊(資料存取)
 * 選擇退出銷售個人資訊(提供與第三方分享資訊的廣泛定義權利)
