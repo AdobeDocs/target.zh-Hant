@@ -8,7 +8,7 @@ title: 重新導向選件 - A4T 常見問題集
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -43,15 +43,15 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-有可能發生罕見的情況，導致在第一頁執行重新導向之前，Analytics 呼叫就先觸發。這會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
+使用at. js1.6.3版或更新版本時，這不是問題。此競爭條件僅影響使用舊版的客戶。Target團隊維護兩個版本的at. js：目前版本和第二個最新版本。Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+如果您使用舊版、非支援版本的at. js，可能會發生競爭狀況，可能導致Analytics呼叫在重新導向在第一頁執行之前引發。這會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 
 建議使用表單式撰寫器來建立重新導向活動，以加速頁面重新導向。原因在於頁面上執行程式碼的地方。另外，對於重新導向會傳回原始頁面的每個體驗，即使是預設體驗，也最好建立重新導向選件。發生誤算時，這可確保所有體驗皆誤算，因此，報表和分析對於測試仍然有效。
 
->[!NOTE]
->
->此競爭條件只會影響使用 at.js 1.6.3 版或更舊版本的客戶。請注意，Target 團隊只會維護兩個 at.js 版本: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+您想要對活動中所有體驗使用重新導向選件的原因，包括預設(控制)體驗，都是為了對所有體驗都相同的條件。例如，如果預設體驗沒有重新導向選件，但其他體驗有重新導向選件，則沒有重新導向選件的體驗速度會有固有的優勢。建議僅針對暫時性藍本提供重新導向選件，例如測試。不建議針對永久性藍本(例如個人化)提供重新導向選件。決定「贏家」後，您應該移除重新導向，以改善頁面載入效能。
 
-如需此問題的詳細資訊，請參閱[已知問題](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541)表中的「重新導向選件」欄:
+For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## 如果我使用 mbox.js JavaScript 程式庫，可以在 A4T 中使用重新導向選件嗎? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
