@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。 |
+| consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。此金鑰是每位訪客的唯一字串。 |
 | 要求 | 物件 | 是 | 請參閱下方的「要求」表格。 |
 | timeout | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
 
