@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 8 月 14 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新文字並新增培訓視訊連結。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Claried相關資訊 `consumerID` 。 |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 已更新「版面&gt;移動」區段中的資訊。 |
 | 2019年月12日 | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新有關相依性和項目的資訊。<br>已更新 `AndroidManifest.XML` 檔案的程式碼範例。 |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 更新「Target Mobile CMS SDK iOS2.1.0&amp; Android1.1.1」區段中的增強功能和修正清單。 |
