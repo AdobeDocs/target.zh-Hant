@@ -1,14 +1,14 @@
 ---
 description: 「重新導向選件」會使瀏覽器重新導向至新的頁面。
 keywords: 重新導向選件; 建立重新導向選件; 新增 html 選件; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
-seo-description: 「重新導向選件」會使瀏覽器重新導向至新的頁面。
+seo-description: Adobe Target中重新導向選件的相關資訊，可讓瀏覽器重新導向至新頁面。
 seo-title: 建立重新導向選件
 solution: Target
 title: 建立重新導向選件
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!NOTE] {class="- topic/note "}
 >
 >您無法在 ajax mbox (`mboxUpdate`) 中使用重新導向選件。
-
->[!NOTE]
 >
 >針對使用 A4T 活動中的重新導向選件，您的實施必須符合某些最低需求。此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 
