@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -72,3 +72,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!IMPORTANT]
 >
 >「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立集合時，務必注意大小寫。例如，如果您執行 "Holiday" 的搜尋，初始的搜尋清單結果會包含 "Holiday" 和 "holiday"。如果您之後建立一個目錄，目的要傳回包含 "holiday" 的產品，則只會傳回包含 "holiday" 的產品。不會傳回包含 "Holiday" 的產品。
+
+## 訓練影片：在Recommendations中建立系列和排除(7：05)
+
+此影片包含下列資訊：
+
+* 建立系列
+* 建立排除
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689?captions=chi_hant)
