@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -92,3 +92,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 憑證錯誤 | 提供伺服器上使用中帳戶的有效的使用者和密碼。 |
 | 找不到目錄 | 提供伺服器上存在的目錄。 |
 | 找不到檔案 | 提供伺服器上存在於指出目錄中檔案的名稱。 |
+
+## 訓練影片：在Recommendations中建立標準(12：33)
+
+此影片包含下列資訊：
+
+* 建立條件
+* 建立條件序列
+* 上傳自訂條件
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hant)
