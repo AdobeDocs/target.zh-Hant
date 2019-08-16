@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
    ![建立建議活動](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. 視需要選取 **[!UICONTROL Visual(預設)]**。
 
    ![「建立建議活動」對話方塊](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
@@ -31,13 +31,13 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
    >[!NOTE]
    >
-   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。如需各種編譯器的詳細資訊，請參閱 [體驗和選件](/help/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您未看見此選項，則您的組織有Target Standard授權。]
+   >[！上圖中的UICCOHTROL [選擇職場](/help/administrating-target/c-user-management/property-channel/property-channel.md) 選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看見此選項，則您的組織有Target Standard授權。]
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (條件性)如果您是 [Target Premium客戶](/help/c-intro/intro.md#premium)，請選擇 [工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 指定活動 URL，然後按&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -170,3 +170,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 1. (可選) 開啟[!UICONTROL 「衝突」]頁面以檢視可能發生的任何[活動衝突](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)。
 
    當多個活動設為傳送內容至相同的頁面時會發生活動衝突，並且可能造成顯示未預期的內容。
+
+## 訓練影片：建立建議活動(7：15)
+
+>[!VIDEO](https://video.tv.adobe.com/v/27688?captions=chi_hant)
