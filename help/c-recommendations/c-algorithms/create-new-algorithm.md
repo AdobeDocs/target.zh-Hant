@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -457,3 +457,13 @@ The Recently Purchased Items criteria now returns results specific to a given [e
 因為內容相似度使用關鍵字來比較項目，有些屬性，例如&#x200B;*訊息*&#x200B;或&#x200B;*說明*&#x200B;可能會對比較產生「雜訊」。您可以建立規則來忽略這些屬性。
 
 依預設，所有屬性會設為&#x200B;*「基線」*。除非您要變更此設定，否則您不需建立規則。
+
+## 訓練影片：在Recommendations中建立標準(12：33)
+
+此影片包含下列資訊：
+
+* 建立條件
+* 建立條件序列
+* 上傳自訂條件
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hant)
