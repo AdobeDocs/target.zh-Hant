@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ recs/t_feeds_create.xml
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
 | 正在匯入項目 | Target 正在從摘要檔案匯入項目。 |
-| Feed Imported Successfully at *time* | Target已將饋送檔案匯入其內容傳送系統。內容屬性的變更已在內容傳送系統中進行，很快就會反映在傳送的建議中。如果您看不到預期的變更，請稍後再試一次，然後重新整理包含建議的頁面。<br>*注意1：* 如果變更項目屬性的變更會導致項目從建議中排除，排除將立即反映出來。If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*注意2：* 當顯示此狀態時，更新可能尚未反映在「目錄搜尋」使用者介面中。「目錄搜尋」中會列出個別狀態，指出可搜尋目錄上次更新的日期。 |
+| 摘要已在 *時間成功匯入* | Target已將饋送檔案匯入其內容傳送系統。內容屬性的變更已在內容傳送系統中進行，很快就會反映在傳送的建議中。如果您看不到預期的變更，請稍後再試一次，然後重新整理包含建議的頁面。<br>*注意1：* 如果變更項目屬性的變更會導致項目從建議中排除，排除將立即反映出來。如果新加入項目，或屬性變更造成項目 *不再* 被排除在建議之外，則不會反映在下一個演算法更新後的24小時內。<br>*注意2：* 當顯示此狀態時，更新可能尚未反映在「目錄搜尋」使用者介面中。「目錄搜尋」中會列出個別狀態，指出可搜尋目錄上次更新的日期。 |
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
@@ -314,3 +314,25 @@ recs/t_feeds_create.xml
 * 2 月 3 日: 現在是上午 10:00，摘要已經一個月、一天又一小時未執行
 
 狀態應該是黃色，因為索引在大約一天又一小時以前就應該執行。雖然這只有頻率設定的 (31+(1/25))/30 = 1.03%，但已超過一天延遲的上限。
+
+## 訓練影片
+
+以下影片含有本文章探討之概念的詳細資訊。
+
+### 瞭解Recommendations中的動態消息(3：01)
+
+此影片包含下列資訊：
+
+* 瞭解摘要的用途
+* 瞭解動態消息的值
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=chi_hant)
+
+### 建立動態消息(6：44)
+
+此影片包含下列資訊：
+
+* 設定動態消息
+* 知道要使用哪種類型的動態消息
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=chi_hant)
