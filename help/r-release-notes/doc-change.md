@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 8 月 16 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新增區段：「考量事項」。 |
+|  | [建立 Recommendations 活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 已新增培訓影片。 |
+|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增訓練影片。 |
+|  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 已新增培訓影片。 |
+|  | [上傳自訂條件](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 已新增培訓影片。 |
+|  | [建立條件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 已新增培訓影片。 |
+|  | [建立設計](/help/c-recommendations/c-design-overview/create-design.md) | 已新增培訓影片。 |
+|  | [集合](/help/c-recommendations/c-products/collections.md) | 已新增培訓影片。 |
+|  | [排除項目](/help/c-recommendations/c-products/exclusions.md) | 已新增培訓影片。 |
 | 2019 年 8 月 14 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新文字並新增培訓視訊連結。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Claried相關資訊 `consumerID` 。 |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 已更新「版面&gt;移動」區段中的資訊。 |
