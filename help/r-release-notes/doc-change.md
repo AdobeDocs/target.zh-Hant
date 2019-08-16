@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 8 月 16 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新增區段：「考量事項」。 |
 | 2019 年 8 月 14 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新文字並新增培訓視訊連結。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Claried相關資訊 `consumerID` 。 |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 已更新「版面&gt;移動」區段中的資訊。 |
