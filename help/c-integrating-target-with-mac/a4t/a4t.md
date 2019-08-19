@@ -9,7 +9,7 @@ title: Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
 
 ---
 
@@ -128,4 +128,4 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 * 瞭解適合用於 Analytics 的報表
 * 回答有關 A4T 的常見問題
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=chi_hant)
+[Analytics/Target整合(A4T) Office小時](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
