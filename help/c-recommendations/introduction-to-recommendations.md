@@ -9,14 +9,14 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: b487392873f18899168ed5aab3963b7e75614cf7
 
 ---
 
 
 # ![高階](/help/assets/premium.png) 推薦推薦
 
-The text in this article comes from the *Introduction to Recommendations* webinar, which you can view in its entirety below.
+本文中的文字來自 *「Recommendations簡介* 」網路研討會，您可從以下完整檢視。
 
 *「Recommendations簡介* 」網路研討會包含深入探討如何運用此值 [!DNL Adobe Target Recommendations]。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
 
@@ -32,7 +32,7 @@ The text in this article comes from the *Introduction to Recommendations* webina
 
 ![顯示數位優先品牌的建議](/help/c-recommendations/assets/intro-2.png)
 
-Marketers use [!DNL Adobe Target] to drive personalized experiences across a wide variety of industries, customer types, and channels.
+行銷人員可在 [!DNL Adobe Target] 各種產業、客戶類型和通道上推動個人化體驗。
 
 [!DNL Adobe Target] 隨時隨地提供個人化內容。
 
@@ -41,9 +41,11 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **發佈**：網頁出版業者可 [!DNL Target Recommendations] 用來推薦文章給網站訪客，並提高參與度。
 * **教學課程**&#x200B;影片： [!DNL Adobe Creative Cloud] 用來 [!DNL Target] 向Photoshop應用程式中的Photoshop使用者推薦影片教學課程。
 * **遊戲**：遊戲公司可用來 [!DNL Target] 向使用者建議遊戲和內容。
-* **B2B銷售**：企業對企業的公司向 [!DNL Target] B2B潛在客戶推薦視訊、白皮書和部落格文章；提供下載；為現有客戶提供協助(https://theblog.adobe.com/testing-shifts-high-gear-intel)。
-* **旅行**：德國旅行訂閱者使用 [!DNL Target] 旅行社向旅行者推薦更多服務(https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
-* **零售**&#x200B;業：知名B2B零售商使用 [!DNL Target] 推薦頂級類別和產品，以便在瀏覽器及其行動應用程式(https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)中傳回訪客。
+* **B2B銷售**： [企業對企業公司使用Target向B2B潛在客戶推薦視訊、白皮書和部落格文章；提供下載；為現有客戶](https://theblog.adobe.com/testing-shifts-high-gear-intel)提供協助。
+
+* **旅行**： [德國旅行訂閱者使用Target推薦飯店等給旅行者](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+
+* **零售**&#x200B;業： [知名B2B零售商使用Target推薦頂級類別和產品，以便在瀏覽器及其行動應用程式中傳回訪客](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
 
 以下只是客戶使用Target提供個人化建議的幾種方式。
 
@@ -67,23 +69,23 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **您要在哪裡顯示建議？** 接下來，請思考您想要提出建議的位置。廣泛的管道(網路、行動裝置、店內、資訊站等)。客戶歷程中的哪些部分包含建議？您網站上的哪些頁面包含建議？
 * **如何判斷建議是否成功？** 假設您擁有沒有建議和建議的體驗，或者有兩種不同類型的建議。如何決定哪種體驗對客戶有更好的體驗？有些量度可能比其他度量更難測量。例如，建議對客戶終身價值的影響通常很難直接獲得。因此，接觸較不抽象的量度通常比較簡單，例如，每次瀏覽收入、平均訂購值或點按次數都比較容易。在某些情況下，您可能會想將量度最小化，例如支援呼叫數。
 
-After you come up with your strategy, you are ready to start the implementation of [!DNL Target Recommendations].
+在您制定策略 [!DNL Target Recommendations]後，就可以開始實施。
 
 建立建議實作有三個廣泛步驟：
 
 ![顯示建立建議實作步驟的圖例](/help/c-recommendations/assets/intro-6.png)
 
-1. Teach [!DNL Target] about your context or products.
+1. 教導 [!DNL Target] 您的內容或產品。
 1. 擷取使用者行為。
 1. 透過正確的上下文獲取建議。
 
-### Teach [!DNL Target] about your context or products
+### 教導 [!DNL Target] 您的內容或產品
 
-When you start with [!DNL Recommendations], you pass information about every item you want to recommend. [!DNL Target] 提供多種整合選項以建立您的目錄。
+開始時 [!DNL Recommendations]，您會傳遞每個想要建議的項目資訊。[!DNL Target] 提供多種整合選項以建立您的目錄。
 
 ![說明如何教授Target相關內容或產品的插圖](/help/c-recommendations/assets/intro-7.png)
 
-最簡單、最常用的方法是從產品資訊管理系統或您的內容管理系統，每日或每周傳送CSV檔案。But you can also pass information on the data layer from your page using the [!DNL Adobe Target] Javascript library, leverage our APIs to pass information directly from your source system, or use our [!DNL Adobe Analytics] integration if you are already passing catalog data to [!DNL Analytics].
+最簡單、最常用的方法是從產品資訊管理系統或您的內容管理系統，每日或每周傳送CSV檔案。但您也可以使用 [!DNL Adobe Target] Javascript程式庫從頁面上傳遞資料層的資訊、利用我們的API直接從來源系統傳遞資訊，或使用 [!DNL Adobe Analytics] 我們的整合，如果您已將目錄資料傳送 [!DNL Analytics]到。
 
 有時候，您可能需要同時使用多個選項，例如透過CSV檔案每天傳遞大部分資料，以及透過API更頻繁地傳遞庫存更新。
 
@@ -99,25 +101,25 @@ When you start with [!DNL Recommendations], you pass information about every ite
 
 ### 擷取使用者行為
 
-Next, you should add tags or leverage you existing [!DNL Analytics] implementation to track the conversion events (such as views and purchases) that drive [!DNL Target] algorithms.
+接下來，您應新增標記或運用現有 [!DNL Analytics] 實施來追蹤驅動 [!DNL Target] 演算法的轉換事件(例如檢視和購買)。
 
 ![顯示如何擷取使用者行為的插圖](/help/c-recommendations/assets/intro-9.png)
 
-You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. 如果購買與您的上下文無關，您可能會想要追蹤不同類型的轉換事件，例如下載PDF、完成調查、訂閱電子報、觀看影片等等。
+您必須確定 [!DNL Target] 使用者正在檢視和購買的書籍項目。如果購買與您的上下文無關，您可能會想要追蹤不同類型的轉換事件，例如下載PDF、完成調查、訂閱電子報、觀看影片等等。
 
-If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it’s easiest to set this up using a tag manager such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). It’s also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
+如果您已使用 [!DNL Target] 在網站上執行A/B測試活動，可能已經完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 網站瀏覽和轉換行為報告，則可作為 [!DNL Analytics] 行為資料來源。如果沒有，最簡單的方法是使用標籤管理程式(例如 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md))來設定此設定。您也可以 [!DNL Target] 透過即時API傳送離線或應用程式內互動。
 
 ### 以正確的情境獲取建議
 
-Pass information about the user and context at the point of interaction to [!DNL Target] to return relevant and personalized recommendations.
+在互動點傳遞使用者與情境的相關資訊， [!DNL Target] 以傳回相關的個人化建議。
 
 ![顯示如何使用正確內容取得建議的插圖](/help/c-recommendations/assets/intro-10.png)
 
-Besides user behavior in aggregate, you need to pass [!DNL Target] the specific context where recommendations are being shown. 其中包括頁面的相關資訊，以及來自使用者個人資料的資訊。[!DNL Target] 使用此資訊建立個人化建議。例如，在零售網站上，您想要瞭解訪客目前正在檢視的產品和產品類別。您也希望瞭解該使用者的相關資訊(我的最愛品牌、最喜愛的產品類別、忠誠度層等)。This information is important so that [!DNL Target] can filter items and improve the personalization of recommendations.
+除了匯總使用者行為外，您還需要傳遞 [!DNL Target] 顯示建議的特定上下文。其中包括頁面的相關資訊，以及來自使用者個人資料的資訊。[!DNL Target] 使用此資訊建立個人化建議。例如，在零售網站上，您想要瞭解訪客目前正在檢視的產品和產品類別。您也希望瞭解該使用者的相關資訊(我的最愛品牌、最喜愛的產品類別、忠誠度層等)。這項資訊很重要，可以 [!DNL Target] 篩選項目並改善建議的個人化。
 
 ## 建立您的第一個Recommendations活動
 
-What is a [!DNL Recommendations] activity?
+甚麼是 [!DNL Recommendations] 活動？
 
 ![顯示具有良好建議活動之部分的插圖](/help/c-recommendations/assets/intro-11.png)
 
@@ -129,7 +131,7 @@ What is a [!DNL Recommendations] activity?
 
 ![顯示建議活動的圖例：觀眾、標準和設計](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 您可以自訂每個項目或新增自己的項目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本節著重於定義標準，以定義建議的項目。
+其中包括 [!DNL Target] 14個內建觀眾、42個內建標準以及10個內建設計範本。您可以自訂每個項目或新增自己的項目。我們之前曾舉辦 [過有關建立觀眾](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) 的網路研討 [!DNL Target]會。本節著重於定義標準，以定義建議的項目。
 
 Target使用標準卡的概念。標準卡片有如個人化方式。
 
@@ -139,7 +141,7 @@ Target使用標準卡的概念。標準卡片有如個人化方式。
 
 ![漏斗插圖](/help/c-recommendations/assets/intro-14.png)
 
-The following sections describe the various parts of this funnel and how they work in [!DNL Target]:
+以下章節說明此漏斗的各部分及其運作 [!DNL Target]方式：
 
 ### 靜態篩選器(系列和排除)
 
@@ -173,7 +175,7 @@ The following sections describe the various parts of this funnel and how they wo
 * 購買此項目的客戶也購買了這些項目
 * 自訂屬性
 
-Out of the box, [!DNL Target] includes a portfolio of algorithms.
+跳出方塊， [!DNL Target] 包含演算法組合。
 
 ![演算法插圖組合](/help/c-recommendations/assets/intro-15.png)
 
@@ -193,7 +195,7 @@ Out of the box, [!DNL Target] includes a portfolio of algorithms.
 
 ## 示範
 
-完成上述建議漏斗中說明的工作後，您將會留下最終建議。To watch an in-product demonstration inside [!DNL Target], the demo begins at 21:00 in the *Adobe Target Basics Webinar*, linked to below.
+完成上述建議漏斗中說明的工作後，您將會留下最終建議。若要觀看產品內展示，示範程式會從Adobe [!DNL Target]Target *Basics網路研討會*&#x200B;的21：00開始，連結到下面。
 
 ## Adobe Target 基礎網路研討會: Recommendations 簡介 {#intro-to-recs}
 
