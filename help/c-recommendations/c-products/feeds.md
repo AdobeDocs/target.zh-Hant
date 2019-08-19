@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
 
 ---
 
@@ -225,6 +225,7 @@ recs/t_feeds_create.xml
    * FTP和FTPS必須設定為使用被動式FTP。
    * 對於FTPS，請設定伺服器接受明確的FTPS連線。
    * 不支援SFTP。
+   * 您可以手動指定要啓動連線的連接埠(例如ftp://ftp.yoursite.com:2121)。如果您未指定連接埠，則會使用預設的FTP或FTPS連接埠。
    如果您選取 URL，請指定 URL。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「排程」]選項。
