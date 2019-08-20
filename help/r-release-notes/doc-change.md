@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
+source-git-commit: dcfc016a703ac964876629b353c68a2cd8351ca5
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019年月20日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 延期Target/Premium19.8.1版本(2019年月20日)。此版本的內容將會卷至19.9.1版本(2019年月24日)。 |
+|  | [設計常見問題集](/help/c-recommendations/c-design-overview/template-faq.md) | 已新增下列常見問題集：「我的建議項目價格不會在小數點的右邊顯示這兩個值。如何顯示它們？」 |
 | 2019 年 8 月 16 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新增區段：「考量事項」。 |
 |  | [建立 Recommendations 活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 已新增培訓影片。 |
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增訓練影片。 |
