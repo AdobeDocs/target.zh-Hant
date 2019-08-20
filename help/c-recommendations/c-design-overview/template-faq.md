@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) 設計常見問題集{#design-faq}
 
 關於 Recommendations 設計常見問題集 (FAQ) 的清單。
+
+## 我建議的項目價格不會在小數點右邊顯示這兩個值。如何顯示它們？
+
+根據預設，設計範本中傳回的數值(例如 `entity.value`)不會在小數點後顯示任何尾隨零。例如，如果某個項目是$35.00， `entity.value` 則等於35，而只有35顯示在頁面上，而非$35.00。
+
+有兩個選項可解決此問題。
+
+* 您可以使用Velocity指令碼或Javascript，將格式套用到傳回的值。
+
+* 您可以將項目價格傳遞至兩個不同的實體屬性。第一 `entity.value`個可以用於數值比較(例如價格比較規則)。第二個應為自訂屬性，例如 `entity.displayValue` ，將實體的值儲存為字串，以允許正確演算。
+
+   例如，
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## 設計中為何沒有顯示類別? 我使用 $entity1.categoryId。{#section_073309B8051049C7953D396A93EA0713}
 
