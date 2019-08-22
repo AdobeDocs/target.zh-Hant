@@ -8,7 +8,7 @@ title: 自訂參數
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. 按一下&#x200B;**[!UICONTROL 新增規則]** &gt; **[!UICONTROL 自訂]**。
 
    若要選取需要的參數:
 
@@ -33,14 +33,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    如果您編輯現有對象，篩選條件會並陳在建立期間提供的 mbox 名稱。
 
-1. 選擇評估工具：
+1. 選擇一個求值器:
 
    * 包含 (不區分大小寫)
-   * 不包含(不區分大小寫)
+   * 不包含 (不區分大小寫)
    * 等於
-   ![自訂參數對象](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
+   ![自訂參數受眾](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
-1. 以新行輸入每個值。
+1. 在新行中輸入每個值。
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -49,6 +49,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!NOTE]
 >
 >對於 Target 18.5.1 版本 (2018 年 5 月 22 日) 前建立的自訂對象，mbox 名稱不會顯示於對象的定義快顯卡中。您必須重新儲存自訂對象，才能讓 mbox 名稱顯示於卡片中。
+
+## 考量事項 {#considerations}
+
+* 系統會評估特定mbox的觀眾和活動。如果全域mbox傳遞一個參數，但區域mbox不適用，則訪客不符合該活動的資格。
 
 ## 訓練影片: 建立對象
 
