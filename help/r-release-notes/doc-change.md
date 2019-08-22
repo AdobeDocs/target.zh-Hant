@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 8 月 22 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 已移除有關使用行動應用程式ID中禁止字元的資訊。不再限制。 |
+|  | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新增區段：「考量事項」。 |
+|  | [上傳自訂條件](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 已更新下列句子：自訂條件更新依預設「累積」。CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。CSV上載中未指定的現有索引鍵值配對仍可供傳送，並將於31天後將其作為CSV檔案上次上傳的一部分過期。 |
 | 2019年月20日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 延期Target/Premium19.8.1版本(2019年月20日)。此版本的內容將會卷至19.9.1版本(2019年月24日)。 |
 |  | [設計常見問題集](/help/c-recommendations/c-design-overview/template-faq.md) | 已新增下列常見問題集：「我的建議項目價格不會在小數點的右邊顯示這兩個值。如何顯示它們？」 |
 | 2019 年 8 月 16 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新增區段：「考量事項」。 |
