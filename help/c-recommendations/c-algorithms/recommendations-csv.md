@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    >
    >自訂條件實體 (列) 現在可以包含最多 1,000 個建議的項目 (欄)。
 
-自訂條件更新預設為「累積」。CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。現有機碼值組若沒有 CSV 上傳中指定的機碼，仍可供傳送。
+自訂條件更新預設為「累積」。CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。CSV上載中未指定的現有索引鍵值配對仍可供傳送，並將於31天後將其作為CSV檔案上次上傳的一部分過期。
 
 請聯絡客戶服務啟用這項設定，刪除下次 CSV 上傳中未涵蓋的現有結果。如果已啟用這項設定，則只有自訂 CSV 摘要檔案的機碼可供傳送。這項設定會套用至所有自訂條件。
 
