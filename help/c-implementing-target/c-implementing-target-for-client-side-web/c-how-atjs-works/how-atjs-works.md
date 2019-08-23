@@ -1,6 +1,6 @@
 ---
 description: Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
-keywords: 系統圖表;忽隱忽現;Target Standard;at.js;實作
+keywords: 系統圖表;忽隱忽現;Target Standard;at.js;實作；javascript程式庫；js
 seo-description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
 seo-title: Adobe Target at.js 如何運作
 solution: Target
@@ -8,7 +8,7 @@ title: at.js 如何運作
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 從高階角度來看，兩個版本之間存在幾項差異:
 
 * at.js 2.x 沒有全域 mbox 要求概念，而是採用頁面載入要求。頁面載入要求可視為要求擷取網站初始頁面載入時應套用的內容。
-* at.js 2.x 可管理用於單頁應用程式 (SPA) 的檢視概念。at.js 1。*x* 不知道這個概念。
+* at.js 2.x 可管理用於單頁應用程式 (SPA) 的檢視概念。at.js 1.*x* 不知道這個概念。
 
 ## at.js 2.x 圖表
 
@@ -45,7 +45,7 @@ source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 | 步驟 | 詳細資料 |
 | --- | --- |
 | 1 | 如果使用者已通過驗證，呼叫會傳回 [!DNL Experience Cloud ID]，而另一個呼叫會同步客戶 ID。 |
-| 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>at. js也可以以非同步方式載入在頁面上實施的選擇性隱藏片段。 |
+| 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>也能使用將頁面上實作的程式碼片段預先隱藏的選項，以非同步方式載入 at.js。 |
 | 3 | 提出頁面載入要求，包含所有已設定的參數 (MCID、SDID 和客戶 ID)。 |
 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從對象資料庫中請求合格對象 (例如，從 Adobe Analytics、對象管理 等共用的對象)。<br>客戶屬性會透過批次程序傳送至設定檔存放區。 |
 | 5 | [!DNL Target] 會根據 URL 要求參數和設定檔資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
@@ -68,7 +68,7 @@ source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ## at.js 1.x 圖表
 
-![](assets/target-flow.png)
+![目標流程- at. js1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 步驟 | 說明 | 呼叫 | 說明 |
 |--- |--- |--- |--- |
