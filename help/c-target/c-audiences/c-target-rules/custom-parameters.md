@@ -2,13 +2,13 @@
 description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
 seo-description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
-seo-title: 自訂參數
+seo-title: Adobe Target中的自訂參數
 solution: Target
 title: 自訂參數
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ## 考量事項 {#considerations}
 
-* 系統會評估特定mbox的觀眾和活動。如果全域mbox傳遞一個參數，但區域mbox不適用，則訪客不符合該活動的資格。
+* 系統會評估特定mbox的觀眾和活動。例如，如果全域mbox傳遞某個參數，但區域mbox不會，則該參數/對象定位將不符合區域mbox上的條件。
 
 ## 訓練影片: 建立對象
 
