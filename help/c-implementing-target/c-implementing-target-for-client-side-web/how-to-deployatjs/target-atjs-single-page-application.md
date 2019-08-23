@@ -1,14 +1,14 @@
 ---
 description: 使用 at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
-keywords: 單頁應用程式實作;實作單頁應用程式;spa;at.js 2.x
+keywords: 單頁應用程式實作;實作單頁應用程式;spa;at.js 2.x；at. js；單頁應用程式；單一頁面應用程式
 seo-description: 使用 Adobe Target at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
-seo-title: 實作單頁應用程式
+seo-title: 在Adobe Target中實施單頁應用程式
 solution: Target
 title: 實作單頁應用程式
 topic: 標準
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -281,13 +281,13 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hant)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+如需詳細資訊，請參閱 [瞭解at. js2.x的](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 如何運作。
 
 ### 在 SPA 中實作 at.js 2.x
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=chi_hant)
 
-See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+如需詳細資訊，請參閱 [在單一頁面應用程式(SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 中實作Adobe Target的. js2.x。
 
 ### 在 Adobe Target 中使用適用於 SPA 的 VEC
 
