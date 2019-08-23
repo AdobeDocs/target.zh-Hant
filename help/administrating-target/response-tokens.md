@@ -1,15 +1,15 @@
 ---
 description: 回應 Token 可讓您自動輸出 Target 的特定資訊 (促銷活動詳細資料、使用者設定檔資訊、地理資訊等)，以用於除錯或與第三方系統整合 (例如 Clicktale)
-keywords: 回應 Token; Token; 增效模組
+keywords: 回應 Token; Token; 增效模組;at.js
 seo-description: 回應 Token 可讓您自動輸出 Target 的特定資訊 (促銷活動詳細資料、使用者設定檔資訊、地理資訊等)，以用於除錯或與第三方系統整合 (例如 Clicktale)
-seo-title: 回應 Token
+seo-title: Adobe Target中的回應Token
 solution: Target
 subtopic: 快速入門
 title: 回應 Token
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
@@ -282,12 +282,8 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 </script>
 ```
 
->[!NOTE]
->
->不再支援ttMeta增效模組。For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
-
 ## 訓練影片: 回應 Token 與 at.js 自訂事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件以共用從 Target 到第三方系統的設定檔資訊。
+觀看下列影片，瞭解如何使用回應Token和at. js自訂事件，將個人資料資訊從Target分享到協力廠商系統。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hant)
