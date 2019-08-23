@@ -1,19 +1,19 @@
 ---
 description: 關於支援和不支援 at.js 外掛程式的資訊。
-keywords: at.js 外掛程式;支援的外掛程式;不支援的外掛程式
-seo-description: 關於支援和不支援 at.js 外掛程式的資訊。
-seo-title: at.js 外掛程式
+keywords: at.js 外掛程式;支援的外掛程式;不支援的外掛程式；Ttmeta；ttmeta；mboxTrack
+seo-description: Adobe Target支援且不支援at. js增效模組的資訊。
+seo-title: at. js增效模組for Adobe Target
 solution: Target
 title: at.js 外掛程式
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
 
-# at.js 外掛程式{#at-js-plug-ins}
+# at.js plug-ins{#at-js-plug-ins}
 
 關於支援和不支援 at.js 外掛程式的資訊。
 
@@ -27,4 +27,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 |--- |--- |
 | mboxTrack | 不支援。<br>此項由 [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 函數取代。請更新外掛程式以套用新的函式。<br>請參閱[整合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)頁面。 |
 | 持續性設定檔備份外掛程式 | 不支援。<br>此外掛程式已於 Target 設定檔存留期從兩週延長到 90 天時淘汰。請檢查 mbox Cookie 的到期日，以查看帳戶的設定檔存留期設定。<br>如果您想要將設定檔存留期延長至 90 天，請聯絡客戶服務。 |
-| ttMeta | 支援.<br>此外掛程式應該可繼續與 at.js 一起使用。 |
+| ttMeta | 不支援。<br>使用 [回應Token](/help/administrating-target/response-tokens.md)而非此外掛程式。 |
