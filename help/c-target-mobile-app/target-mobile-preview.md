@@ -1,14 +1,14 @@
 ---
 description: 使用行動裝置預覽連結為行動應用程式活動執行簡單的端對端品質確保措施，並且無需任何特殊測試裝置，即可在您的裝置上註冊不同的體驗。
-keywords: qa;預覽;預覽連結;行動裝置;行動裝置預覽
+keywords: qa；預覽；預覽連結；行動；行動預覽
 seo-description: 使用行動裝置預覽連結為行動應用程式活動執行簡單的端對端品質確保措施，並且無需任何特殊測試裝置，即可在您的裝置上註冊不同的體驗。
-seo-title: Target 行動裝置預覽
+seo-title: 使用Adobe Target行動裝置中的行動預覽連結
 solution: Target
 title: Target 行動裝置預覽
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->此功能將在 2017 年 10 月 12 日之後在 UI 中對所有客戶開啟。行動裝置預覽功能需要您下載並安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。
+>行動裝置預覽功能需要您下載並安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。
 
 ## 概述 {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    若要讓「行動裝置預覽」可對 Android 正常運作，您也必須在 [!DNL AndroidManifest.xml] 中新增下列程式碼片段:
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## 產生預覽連結 {#section_D9D58173FFF34E9BB75EBF357273F128}
