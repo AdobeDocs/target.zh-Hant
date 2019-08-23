@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 8 月 23 日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | 已更新程式碼片段 `AndroidManifest.xml`。 |
+|  | [at. js增效模組](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | 更新ttMeta列。不再支援此增效模組。請改用回應Token。 |
 | 2019 年 8 月 22 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 已移除有關使用行動應用程式ID中禁止字元的資訊。不再限制。 |
 |  | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新增區段：「考量事項」。 |
 |  | [上傳自訂條件](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 已更新下列句子：自訂條件更新依預設「累積」。CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。CSV上載中未指定的現有索引鍵值配對仍可供傳送，並將於31天後將其作為CSV檔案上次上傳的一部分過期。 |
