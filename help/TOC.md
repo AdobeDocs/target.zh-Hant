@@ -2,9 +2,9 @@
 product: Target
 audience: 使用者
 user-guide-title: Adobe Target 說明
-user-guide-url: /content/help/en/target/using/target-home.html
+user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [設定企業權限](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [授予Adobe I/O整合存取工作區並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media Classic整合](administrating-target/scene7-settings.md)
+   + [Dynamic Media Classic 整合](administrating-target/scene7-settings.md)
    + [主機](administrating-target/hosts.md)
    + [回應 Token](administrating-target/response-tokens.md)
 + 實作 Target {#implement-target}
@@ -74,7 +74,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
          + [使用 Adobe Launch 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
          + [不使用標籤管理程式實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-         + [使用動態標籤管理 (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+         + [使用 Dynamic Tag Management (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [實作單頁應用程式](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js 函數 {#functions-overview}
          + [at.js 函數概覽](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
@@ -185,7 +185,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/B測試中的多個體驗觀眾](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B 測試中的多個體驗受眾](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動分配 {#auto-allocate}
       + [自動分配](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [決定獲勝者](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -200,7 +200,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [預覽自動個人化測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [鎖定自動個人化選件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [選擇自動個人化或自動目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
+      + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
       + [自動個人化常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [共用體驗 URL 以在 Target 外部預覽自動個人化](c-activities/t-automated-personalization/experience-preview.md)
       + [疑難排解自動個人化](c-activities/t-automated-personalization/ap-trouble.md)
@@ -274,7 +274,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [設定檔屬性](c-target/c-visitor-profile/profile-parameters.md)
       + [類別相關性](c-target/c-visitor-profile/category-affinity.md)
       + [客戶屬性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyID 的即時設定檔同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyId的即時描述檔同步](c-target/c-visitor-profile/3rd-party-id.md)
       + [設定檔和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 鎖定目標和對象常見問題集 {#faq-audiences}
       + [鎖定目標和對象常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
