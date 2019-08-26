@@ -1,8 +1,8 @@
 ---
 description: 集合是符合建議資格的一組產品或項目。
 keywords: 集合;鎖定目標
-seo-description: 集合是符合建議資格的一組產品或項目。
-seo-title: 集合
+seo-description: 系列是Adobe Target中符合建議資格的一組產品或項目。
+seo-title: Adobe Target中的系列
 solution: Target
 title: 集合
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 ---
 
@@ -19,15 +19,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 集合是符合建議資格的一組產品或項目。
 
-## 集合 {#concept_671BEFFB997D4F1282665BF3CAC00AC5}
-
-集合是符合建議資格的一組產品或項目。
-
 集合通常是指一組相似或相關的項目，例如單一產品集合。不過，只要符合業務的需要，您可以將任何項目分組到類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區受到歡迎的項目。
 
 請使用集合以在邏輯分組中組織產品。例如，如果某些項目在一個區域中銷售，但在另一個區域中沒有上市，您可能需要建立集合來排除未於訪客區域銷售的項目。您也可以使用集合來組織季節性項目，或使用業務上適合的任何其他組織參數。
 
-針對建議內每個條件而產生的備用建議也會使用此集合，因此，只有集合中的項目才會納入備用建議中。集合可讓您確保只顯示必須出現在位置中的產品。
+The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. 集合可讓您確保只顯示必須出現在位置中的產品。
 
 每個條件每次執行時皆會重建或更新集合。
 
@@ -47,9 +43,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 依序按下&#x200B;**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 集合」]**，即可顯示現有集合清單。
 
-   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
+   ![系列清單](assets/collections_list.png)
 
-   ![](assets/collections_list.png)
+   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立集合」]**。
 
@@ -67,7 +63,15 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    您可以新增規則，以使用多個參數來定義集合。以 AND 聯合多個規則。所有指定的規則必須符合，才會套用集合。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。您也可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立集合。例如，使用 "id &gt; contains" 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合」]。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
+## 使用進階搜尋建立系列
+
+You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+
+![另存新檔](/help/c-recommendations/c-products/assets/save-as.png)
+
+例如，使用 "id &gt; contains" 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合」]。
 
 >[!IMPORTANT]
 >
