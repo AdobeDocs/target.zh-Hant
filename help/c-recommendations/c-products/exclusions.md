@@ -1,14 +1,14 @@
 ---
 description: 建立排除清單來防止項目被建議。
 keywords: 排除項目
-seo-description: 建立排除清單來防止項目被建議。
-seo-title: 排除項目
+seo-description: 在Adobe Target中建立排除清單，以避免建議項目。
+seo-title: Adobe Target中的排除
 solution: Target
 title: 排除項目
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 ---
 
@@ -21,11 +21,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 >
 >靜態和動態排除規是可協助您從事行銷活動的強大功能。如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
+**若要建立排除：**
+
 1. 按一下&#x200B;**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 排除項目」]**，即可顯示現有排除項目的清單。
 
-   [!UICONTROL 「排除項目」]清單檢視上各排除項目顯示的「項目數量」，為預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 內符合該排除項目規則的產品數量。請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
-
    ![](assets/exclusions_list.png)
+
+   [!UICONTROL 「排除項目」]清單檢視上各排除項目顯示的「項目數量」，為預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 內符合該排除項目規則的產品數量。請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立排除項目」]**。
 
@@ -41,7 +43,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-   您也可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立排除項目。例如，使用「id &gt; contains」建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 排除項目」]。
+## 使用進階搜尋建立排除
+
+您也可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立排除項目。
+
+[另存新檔](/help/c-recommendations/c-products/assets/save-as.png)
+
+例如，使用「id &gt; contains」建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 排除項目」]。如需詳細資訊，請參閱 [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md)。
 
 >[!IMPORTANT]
 >
