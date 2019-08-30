@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 僅限單一值。
 
-該必需的參數用於識別產品。該英數字元 ID 必須在所有使用的 [Adobe Experience Cloud] 產品中保持一致 (包括 [!DNL Analytics])，以便各種產品識別項目並共用相關資料。
+該必需的參數用於識別產品。This alphanumeric ID must be the same across all [!DNL Adobe Experience Cloud] products that are used, including [!DNL Analytics], for the various products to recognize the item and share data about it.
 
 `entity.id` 值不得包含斜線、&amp; 符號、問號、百分比符號、逗號，或其他在 REST API 呼叫中傳送時需要 URL 編碼的標點符號字元。但可使用連字號和底線。`entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
 
