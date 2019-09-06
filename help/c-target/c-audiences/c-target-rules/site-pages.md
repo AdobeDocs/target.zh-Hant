@@ -8,7 +8,7 @@ title: 網頁
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 為對象命名。
 1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 網站頁面」]**。
 
-   ![網站頁面對象](assets/target_site_pages.png)
+   ![網頁受眾](assets/target_site_pages.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
@@ -39,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    * **Mbox:** 您正在定位的 mbox。例如，如果您想要對總計 $100 或以上的訂單進行計數，您可將 `orderTotal` 作為一個 mbox 參數連同在此指定的指向進行傳送。
    * **網域:** 頁面的完整網域。指定網域時，最佳做法是使用「包含」。例如，「網域等於 facebook.com」不接受 `m.facebook.com` 或 `www.facebook.com`。「網域包含 facebook.com」則會接受 facebook.com 的任何變體。
-   * **查詢:** 第一個問號 (?) 之後的 URL 內容。例如，下列 URL 範例中以粗體顯示查詢:
+   * **查詢:** 第一個問號 (?) 之後的 URL 內容。
 
       `foo.html?e0a72cb2a2c7`
 
