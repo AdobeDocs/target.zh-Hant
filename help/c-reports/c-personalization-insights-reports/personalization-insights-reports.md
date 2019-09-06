@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
 
 ---
 
@@ -25,6 +25,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
 >
 >「個人化前瞻分析」報表僅支援於[預設環境](../../administrating-target/hosts.md)中使用。
+>
+>個人化前瞻分析報表只會針對處於「即時」狀態且已啓動並接收流量至少15天的活動產生。
 
 ## 「個人化前瞻分析」報表概覽 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -32,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 由於「個人化前瞻分析」報表的目標是瞭解 Target 的個人化模型如何決定向哪些訪客傳送哪些內容，因此，「個人化前瞻分析」報表僅反映 AP 或 AT 活動提供服務之所有流量的子區段。具體而言，這兩份報表反映了使用個人化模型的所有流量。換句話說，「個人化前瞻分析」報表不會將整體成功案例模型提供的控制流量或流量納入考量。
 
-有兩種報表可供使用:
+可使用兩個個人化前瞻分析報表：
 
 | 報表 | 詳細資料 |
 |--- |--- |
@@ -60,4 +62,4 @@ Target 提供許多方法，可以將其他資料傳遞給 Target，使得用於
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=chi_hant)
 
-For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+如需詳細資訊，請參閱 [「使用Adobe Target中的個人化前瞻分析報表](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)」。
