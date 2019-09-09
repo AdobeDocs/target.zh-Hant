@@ -8,7 +8,7 @@ title: AEM 體驗片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -138,7 +138,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 1. 選取需要的體驗片段，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 完成活動的設定。
 
-## 考量事項(#考量)
+## 考量事項 {#considerations}
 
 * [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. 請注意，體驗片段「主要」版本會保留在 AEM 中。You cannot edit the experience fragment in [!DNL Target].
