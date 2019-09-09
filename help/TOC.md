@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -51,12 +51,13 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
    + 實作之前 {#before-implement}
       + [實作之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [準備實作 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 隱私權 {#privacy}
+      + 隱私權與安全性 {#privacy}
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隱私權與資料保護條例](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Premiention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [內容安全政策(CSP)指示](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 將資料傳入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
