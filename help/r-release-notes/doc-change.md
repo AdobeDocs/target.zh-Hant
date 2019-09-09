@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年月日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 已新增「考量事項」區段。 |
 | 2019年月日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium19.9.1(2014年月10日)發行的資訊。 |
 |  | [行動應用程式的Target常見問題](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) |  新主題。 |
 | 2019 年 9 月 4 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
