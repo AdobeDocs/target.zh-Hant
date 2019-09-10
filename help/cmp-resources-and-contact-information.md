@@ -8,7 +8,7 @@ title: 資源與聯絡資訊
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -161,12 +161,6 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 此項資訊可協助您聯絡 Adobe 並瞭解使用本產品與文件的相關法律問題。
 
 ### 說明和技術支援 {#section_354AC2658BA84A2A96E64C5B2C43B73B}
-
-<!-- 
-
-target/c_contact_and_legal.xml
-
- -->
 
 Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其聯絡的許多種途徑:
 
