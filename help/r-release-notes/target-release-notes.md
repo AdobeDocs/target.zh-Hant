@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Premium徽章](/help/assets/premium.png) 企業權限 | 在即將推出的Target2014年月發行中，企業權限為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/整合：核准者、編輯者或觀察員。</li></ul>如需逐步指示和更多資訊，請參閱 [「授予Adobe I/O整合存取工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)」。 |
+| ![Premium徽章](/help/assets/premium.png) 企業權限 | 在Target2014年月發行的版本中，企業權限為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/整合：核准者、編輯者或觀察員。</li></ul>如需逐步指示和更多資訊，請參閱 [「授予Adobe I/O整合存取工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)」。 |
 
 ## Target Standard/Premium 19.9.2 (2019 年 9 月 24 日)
 
