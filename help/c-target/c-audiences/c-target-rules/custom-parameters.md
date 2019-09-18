@@ -2,13 +2,13 @@
 description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
 seo-description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
-seo-title: Adobe Target中的自訂參數
+seo-title: Adobe target中的自訂參數
 solution: Target
 title: 自訂參數
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 
-如需詳細資訊, 請參閱[將參數傳遞至全域 Mbox](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html)。
+For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 當您根據 mbox 參數建立自訂對象時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
@@ -52,7 +52,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ## 考量事項 {#considerations}
 
-* 系統會評估特定mbox的觀眾和活動。例如，如果全域mbox傳遞某個參數，但區域mbox不會，則該參數/對象定位將不符合區域mbox上的條件。
+* 觀眾和活動會針對特定mbox進行評估。 例如，如果全域mbox傳遞特定參數，但區域mbox不傳遞，則定位該參數的活動／對象將無法在區域mbox上限定。
 
 ## 訓練影片: 建立對象
 
