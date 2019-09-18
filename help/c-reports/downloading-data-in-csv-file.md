@@ -1,15 +1,15 @@
 ---
 description: 將資料下載為 .csv 格式，以快速匯入至 Excel、Access 或其他資料分析程式。
 keywords: 報表;下載報表;csv;成功量度;訂單詳細資料
-seo-description: 將資料下載為 .csv 格式，以快速匯入至 Excel、Access 或其他資料分析程式。
-seo-title: 將資料下載為 CSV 檔案
+seo-description: 以。csv格式下載資料，以便使用Adobe Target快速匯入至Excel、Access或其他資料分析程式。
+seo-title: 使用Adobe Target將資料下載為CSV檔案
 solution: Target
 subtopic: 多變數測試
 title: 將資料下載為 CSV 檔案
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若要下載 CSV 檔案中的資料:
 
-1. 按一下 [!DNL Activities]，然後從清單按一下需要的活動。
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，然後從清單按一下需要的活動。
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]標籤。**
-1. 按一下[!UICONTROL 「下載」]圖示，然後選取要下載到 Excel 和其他工具中分析的報表類型。
+1. 按一下&#x200B;**[!UICONTROL 「下載」]圖示，然後選取要下載到 Excel 和其他工具中分析的報表類型。**
+
+   * [!UICONTROL 將報表匯出為CSV]
+   * [!UICONTROL 匯出訂單詳細資料至 CSV]
+   ![下載選項](/help/c-reports/assets/download-options.png)
 
 ## 匯出報表至 CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->CSV 報表只包含原始資料，不含計算量度，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。若要計算這些計算的量度，請下載 [Target 的完整可信度計算機](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel 檔案來輸入活動的值，或是檢閱 [Target 使用的統計計算](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)。
+>CSV報表僅包含原始資料，不包含計算量度，例如用於A/B測試的每位訪客收入、提升度或信賴度。 To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 匯出訂單詳細資料至 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -81,7 +85,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 下列資訊適用於「下載」選項:
 
-* 對於 A/B、自動個人化、體驗鎖定目標和多變數活動，這兩種報表都可下載。對於「建議」活動，您無法下載「成功量度」報表。
+* 您可以下載A/B測試、自動個人化、體驗定位和多變數活動的兩個報表。 對於「建議」活動，您無法下載「成功量度」報表。
 * 對於 Target 15.7.1 版 (2015 年 7 月) 以前建立的 A/B 和「體驗鎖定目標」活動，無法使用「下載」選項。
 * 下載的報表中不會記錄沒有相關聯資料的體驗。
-* 套用在Target報告UI中的觀眾不會保留至下載報告。
+* Target 報表 UI 中套用的受眾不會繼續存在於下載報表中。
