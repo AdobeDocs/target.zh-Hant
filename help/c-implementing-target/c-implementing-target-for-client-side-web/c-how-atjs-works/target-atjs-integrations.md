@@ -8,7 +8,7 @@ title: at.js 整合
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 整合 | 詳細資料 |
 |--- |--- |
 | 目標分析 (A4T) | 請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。 |
-| 設定檔和對象 (P&amp;A) | 請參閱 Adobe Experience Cloud 和核心服務說明中的[對象](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)。 |
-| Experience Cloud ID 服務 | 請參閱 [Adobe Experience Cloud ID 服務文件](https://marketing.adobe.com/resources/help/en_US/mcvid/)。 |
+| 設定檔和對象 (P&amp;A) | 請參 [閱核心](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 「服務使 *用指南」中的「觀眾」*。 |
+| Experience Cloud ID 服務 | 請參閱 [Adobe Experience Cloud ID 服務文件](https://docs.adobe.com/content/help/en/id-service/using/home.html)。 |
 | Adobe Launch | Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的推薦方法。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。請參閱[使用 Adobe Launch 實作 Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)。 |
 | 動態標籤管理 (DTM) | 請參閱[使用動態標籤管理實作 Target 指南](https://marketing.adobe.com/resources/help/en_US/target/ov2/implementing-target-using-dynamic-tag-management.html)。重要須知: [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 為實作 Target 和 at.js 資料庫最新的推薦方法。如需進行新的 Target 實作，請使用 Launch。下列指南適用於使用 DTM 實作的現有用戶端。使用 DTM 整合時，請考量下列事項: <ul><li>程式庫管理: 透過「自訂」主機選項使用 at.js。目前不支援「自動」管理。 </li></ul> |
 | Adobe Experience Manager (AEM) 雲端服務 | AEM 雲端服務能讓您在 AEM 工作流程中，建立 A/B 測試和體驗鎖定目標活動。透過具有 FP-11577 (或更新版本) 的 Adobe Experience Manager 支援 at.js。如需詳細資訊，請參閱[與 Adobe Target 整合](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)，並選取您的 AEM 版本。 |
