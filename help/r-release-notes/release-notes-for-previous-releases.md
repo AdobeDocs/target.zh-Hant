@@ -8,7 +8,7 @@ title: 舊版版本說明
 topic: 建議
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -23,17 +23,17 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ## 版本說明 - 2019 {#releases-2019}
 
-### Target Mobile CMS SDK iOS2.1.0&amp; Android1.1.1(2019年月日)
+### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1（2019年8月7日）
 
-此版本的Mobile CMS SDK包含下列增強功能和修正：
+此版Mobile VEC SDK包含下列增強功能和修正：
 
 (括號內的問題編號供 Adobe 內部使用。)
 
-* 已新增行動裝置上「預覽視覺活動」的支援。(TGT-27875)
-* 修正 `UIImagePickerController` 因使用情況造成Apple Standard違規的問題。
-* 已從Android SDK移除GSON相依性。(TGT-31710)
-* 已移除其他多餘的Gradle相依性(TGT-35479)
-* 修正製作時無法重設傳送選件的問題。(TGT-35270)
+* 新增支援行動裝置上的「預覽視覺活動」。 (TGT-27875)
+* 修正因使用而導致Apple Standard違規的 `UIImagePickerController` 問題。
+* 已從Android SDK移除GSON相依性。 (TGT-31710)
+* 已刪除其他冗餘Gradle依賴項(TGT-35479)
+* 修正在編寫時，傳送選件無法重設的問題。 (TGT-35270)
 
 ### Target Standard/Premium 19.7.1 (2019 年 7 月 24 日) {#tgt-19-7-1}
 
@@ -43,34 +43,34 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 行動應用程式可視化體驗撰寫器 | 顯示於應用程式 VEC 中的全新修改面板，顯示您已針對點擊追蹤所設定的元素。(TGT-31741)<br> 請參閱 [「在行動應用程式中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)」。 |
+| 行動應用程式可視化體驗撰寫器 | 顯示於應用程式 VEC 中的全新修改面板，顯示您已針對點擊追蹤所設定的元素。(TGT-31741)<br> 請參 [閱「行動應用程式」中的設定點按追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
 | ![Premium 徽章](/help/assets/premium.png)<br>在 A/B 測試與體驗鎖定目標 (XT) 活動中的建議 | Recommendations 選件 (運算法) 狀態會顯示在包含 Recommendations 選件之 A/B 測試和 XT 活動的概述頁面上。狀態包括: 可用結果、不可用結果和摘要失敗(TGT-33649)<br>請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
-| 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。[必須使用Experience Cloud ID庫4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 。<br>請參閱 [at. js2.x中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 | 現在，Target 客戶可以利用 Adobe 的 CNAME 認證程式，減少 Apple ITP 2.1 和 ITP 2.2 的影響。<br>在此版本中，Target可與ECID程式庫4.3完美整合，後者運用伺服器端Cookie來降低ITP2.1和ITP2.2。強烈建議Target客戶將 [ECID程式庫4.3+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 與Target的JavaScript程式庫搭配部署，以降低任何未來的ITP版本。ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參閱 [Apple Intelligent Tracking Premiention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。[必須使用Experience Cloud ID程式庫4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>請 [參閱at.js 2.x中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
+| Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 | 現在，Target 客戶可以利用 Adobe 的 CNAME 認證程式，減少 Apple ITP 2.1 和 ITP 2.2 的影響。<br>在此版本中，Target與ECID程式庫4.3緊密整合，此程式庫利用伺服器端Cookie來降低ITP 2.1和ITP 2.2的影響。強烈建議Target客戶搭配部署 [ECID程式庫4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，並搭配Target的JavaScript程式庫，以減輕未來的ITP版本。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參 [閱Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增強功能、修正和變更**
 
-* 修正新增重復值時，Recommendations活動中排除值無法清除的問題。(TGT-34996)
-* 您現在可以從「定位」頁面(三部分引導工作流程的步驟2)中移除「建議」活動中的設計。請注意，若要移除設計，必須選取多個設計。(TGT-35118)
-* 修正某些客戶無法在Target UI中正確載入或可編輯的自訂條件卡問題。(TGT-35170)
+* 修正在新增重複值時，Recommendations活動中的排除值無法清除的問題。 (TGT-34996)
+* 您現在可以從「定位」頁面（三部分引導式工作流程的步驟2）移除Recommendations活動中的設計。 請注意，要移除設計，必須選取多個設計。 (TGT-35118)
+* 修正某些客戶的自訂條件卡無法正確載入Target UI或可編輯的問題。 (TGT-35170)
 
-### at. js2.1.1(2019年月24日)
+### at.js 2.1.1版（2019年7月24日）
 
-此版本的at. js是維護發行，包含下列增強功能和修正：
+此版本的at.js是維護髮行，包含下列增強功能和修正：
 
 (括號內的問題編號供 Adobe 內部使用。)
 
-* 修正在Visual Experience Composer(CMS)的「目標與設定」頁面上，使用「點擊追蹤」度量時引發多個信標的問題。(TNT-32812)
-* 修正無法顯示 `triggerView()` 選件不只一次的問題。(TNT-32780)
-* 修正此問題，以確保請求包含Marketing `triggerView()` Cloud ID(MCID)資訊。(TNT-32776)
-* 修正即使沒有儲存的檢視， `triggerView()` 通知仍無法觸發的問題。(TNT-32614)
-* 修正由於使用decodeURIComponent而導致URL包含格式錯誤查詢字串參數時造成問題的問題。(TNT-32710)
-* 透過 `Navigator.sendBeacon()` API傳送的傳送要求內容，信標標幟現在會設為「true」。(TNT-32683)
-* 修正某些客戶無法在網站上顯示Recommendations選件的問題。客戶可以在傳送API呼叫中看到選件內容，但選件未套用至網站上。(TNT-32680)
-* 修正多個體驗的點按追蹤無法如預期般運作的問題。(TNT-32644)
-* 修正無法在第一個量度演算後套用第二個度量的問題。(TNT-32628)
-* 修正使用 `mboxThirdPartyId``targetPageParams` 函數傳送時，請求裝載無法顯示在查詢參數或請求裝載中的問題。(TNT-32613)
-* 修正導致顯示並按一下Chromium瀏覽器中的通知回應(包括Google Chrome)的問題。(TNT-32290)
+* 修正當使用視覺體驗撰寫器(VEC)「目標與設定」頁面上的「點按追蹤」度量時，觸發多個信標的問題。 (TNT-32812)
+* 修正導致轉譯 `triggerView()` 選件不超過一次的問題。 (TNT-32780)
+* 已修正請求 `triggerView()` 是否包含Marketing Cloud ID(MCID)資訊的問題。 (TNT-32776)
+* 修正即使沒有儲存的檢 `triggerView()` 視，仍無法觸發通知的問題。 (TNT-32614)
+* 修正因使用decodeURI元件而造成錯誤的問題，此問題會導致URL包含格式錯誤的查詢字串參數時發生問題。 (TNT-32710)
+* 在透過 `Navigator.sendBeacon()` API傳送的傳送請求中，信標標幟現在會設為「true」。 (TNT-32683)
+* 修正Recommendations選件無法在少數客戶的網站上顯示的問題。 客戶可在傳送API呼叫中看到選件內容，但該選件未套用至網站。 (TNT-32680)
+* 修正導致多個體驗的點按追蹤無法如預期般運作的問題。 (TNT-32644)
+* 修正在呈現第一個量度失敗後，at.js無法套用第二個量度的問題。 (TNT-32628)
+* 修正使用函式 `mboxThirdPartyId` 傳遞時 `targetPageParams` ，導致請求裝載無法出現在查詢參數或請求裝載中的問題。 (TNT-32613)
+* 修正在Chromium架構的瀏覽器（包括Google Chrome）中，顯示及點按通知回應被封鎖的問題。 (TNT-32290)
 
 For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -303,15 +303,15 @@ For information about this and previous versions of at.js, see [at.js version de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>體驗 </p> </td> 
-   <td colname="col2"> <p>您現在可以複製體驗鎖定目標 (XT) 活動中的體驗，不必從頭再次建立體驗，即可進行微幅變更。A/B 測試已可使用此功能。(TGT-31504) </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_xt_add_experience.html" format="html" scope="external">建立體驗</a>。 </p> </td> 
+   <td colname="col2"> <p>您現在可以複製體驗鎖定目標 (XT) 活動中的體驗，不必從頭再次建立體驗，即可進行微幅變更。A/B 測試已可使用此功能。(TGT-31504) </p> <p>請參閱<a href="https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html" format="html" scope="external">建立體驗</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自動個人化 (AP) 活動的選件 </p> </td> 
-   <td colname="col2"> <p>2018 年 9 月版新增增強功能，讓您根據報表群組篩選選件。您現在可以篩選「未指派的選件」，以便為目前未指派至任何報表群組的選件，指派報表群組。(TGT-31882) </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_create_ap_activity.html" format="html" scope="external">建立自動個人化活動</a>。 </p> </td> 
+   <td colname="col2"> <p>2018 年 9 月版新增增強功能，讓您根據報表群組篩選選件。您現在可以篩選「未指派的選件」，以便為目前未指派至任何報表群組的選件，指派報表群組。(TGT-31882) </p> <p>請參閱<a href="https://docs.adobe.com/content/help/en/target/using/activities/automated-personalization/create-ap-activity.html" format="html" scope="external">建立自動個人化活動</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活動的報表來源 </p> </td> 
-   <td colname="col2"> <p>您可以在<span class="wintitle">「設定</span> &gt; <span class="wintitle">偏好設定」</span>，選取<span class="keyword">「Target」</span>或<span class="keyword">「Adobe Analytics」</span>當作活動的報表來源。您也可以選擇根據活動選取您的報表來源。 </p> <p>自此版本起，在<span class="wintitle">「偏好設定」</span>或根據活動選擇報表來源時，應注意重要工作流程考量事項。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_target-account-preferences.html" format="html" scope="external">偏好設定</a>。 </p> </td> 
+   <td colname="col2"> <p>您可以在<span class="wintitle">「設定</span> &gt; <span class="wintitle">偏好設定」</span>，選取<span class="keyword">「Target」</span>或<span class="keyword">「Adobe Analytics」</span>當作活動的報表來源。您也可以選擇根據活動選取您的報表來源。 </p> <p>自此版本起，在<span class="wintitle">「偏好設定」</span>或根據活動選擇報表來源時，應注意重要工作流程考量事項。 </p> <p>請參閱<a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">偏好設定</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,7 +324,7 @@ For information about this and previous versions of at.js, see [at.js version de
 
    * 若對象已在 AAM 中刪除，[!UICONTROL 「對象」]清單和對象選擇器中皆會顯示警告圖示。UI 中的工具提示也表示對象已在 AAM 中刪除。
    * 若嘗試將多個對象與已刪除的對象合併，或嘗試儲存參考已刪除對象的活動，系統會顯示警告訊息。
-   請參閱[關於對象](https://marketing.adobe.com/resources/help/en_US/target/target/c_audiences.html)。
+   請參閱[關於對象](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)。
 
 * 修正在[!UICONTROL 「設定」]頁面選取 Adobe Analytics 當作報表來源時，特定情況下使用者無法建立活動的問題。使用者看到「請選取報表套裝」訊息，但無法選取報表套裝。(TGT-31968)
 
@@ -343,7 +343,7 @@ For information about this and previous versions of at.js, see [at.js version de
    <td colname="col2"> <p>此維護版本解決下列問題: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>修正導致部分客戶網站無限「非同步」迴圈的問題。 </p> </li> 
-     </ul> </p> <p> <p>重要: 此外，at.js 1.6.2 版也包含 1.6.1 和 1.6.0 版所有的增強功能和修正。這兩個版本已無法下載。如果使用 1.6.1 或 1.6.0，建議升級為 1.6.2 版。 </p> </p> <p>如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-versions.html" format="html" scope="external">at.js 版本詳細資料</a>。 </p> </td> 
+     </ul> </p> <p> <p>重要: 此外，at.js 1.6.2 版也包含 1.6.1 和 1.6.0 版所有的增強功能和修正。這兩個版本已無法下載。如果使用 1.6.1 或 1.6.0，建議升級為 1.6.2 版。 </p> </p> <p>如需詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本詳細資料</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -661,7 +661,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) 體驗片段 </p> </td> 
-   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&amp; amp；nbsp；&amp; amp；nbsp； </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM 會自動根據您的內容來調整每一次體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳選件、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
+   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&amp;nbsp;&amp;nbsp </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM 會自動根據您的內容來調整每一次體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳選件、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>報表 </p> </td> 
@@ -681,7 +681,7 @@ target/r_release-notes-2018.xml
       <li id="li_341FDC1CEC2B4C4BBD45CB2A0A54F2A3"> <p>韓文 </p> </li> 
       <li id="li_A4C31539B98E42348D5F1A18C63EAB6C"> <p>義大利文 </p> </li> 
       <li id="li_97E3E0A916B64601BBF601AAED581174"> <p>葡萄牙語 </p> </li> 
-     </ul> </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/" format="https" scope="external">Target 產品文件</a>目前正在進行當地語系化，並將於準備就緒時使用上列語言張貼。 </p> </td> 
+     </ul> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>對象 </p> </td> 
@@ -814,7 +814,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Marketing Cloud 已經過品牌重塑，現在稱為 Adobe Experience Cloud。 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 隸屬於 Adobe 的整合式數位行銷解決方案和服務系列。Experience Cloud 也是直覺式介面，能夠讓您迅速存取自己的雲端解決方案和核心服務。 </p> <p>品牌重塑和 UI 變更: Adobe Marketing Cloud 已經過品牌重塑，現在稱為 Adobe Experience Cloud。此外，您會在 Target 介面和 Solution Switcher 中看見 UI 變更。 </p> <p>如需關於此變更的詳細資訊，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions-core-services.html" format="html" scope="external">關於 Experience Cloud 中的新雲端名稱</a>。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 隸屬於 Adobe 的整合式數位行銷解決方案和服務系列。Experience Cloud 也是直覺式介面，能夠讓您迅速存取自己的雲端解決方案和核心服務。 </p> <p>品牌重塑和 UI 變更: Adobe Marketing Cloud 已經過品牌重塑，現在稱為 Adobe Experience Cloud。此外，您會在 Target 介面和 Solution Switcher 中看見 UI 變更。 </p> <p>如需關於此變更的詳細資訊，請參閱<a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/solutions-core-services.html" format="html" scope="external">關於 Experience Cloud 中的新雲端名稱</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -958,7 +958,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>選件 </p> </td> 
-   <td colname="col2"> <p> 如果使用者具有「編輯者」權限，該使用者無法編輯參考了線上或排程活動的選件。 </p> <p> <p>注意: 針對使用 <a href="https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html" format="html" scope="external">企業使用者權限</a>的 Target Premium 客戶，如果使用者選取「所有工作區」選項，則 Target 會使用使用者在各工作區間的最高權限。如果最高權限為「編輯者」，則 Target 會限制編輯 (如上所述) </p>。 </p> <p>這些限制會套用至所有選件，而不僅僅是在 Target 中建立的選件。(TGT-27276) </p> </td> 
+   <td colname="col2"> <p> 如果使用者具有「編輯者」權限，該使用者無法編輯參考了線上或排程活動的選件。 </p> <p> <p>注意: 針對使用 <a href="https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">企業使用者權限</a>的 Target Premium 客戶，如果使用者選取「所有工作區」選項，則 Target 會使用使用者在各工作區間的最高權限。如果最高權限為「編輯者」，則 Target 會限制編輯 (如上所述) </p>。 </p> <p>這些限制會套用至所有選件，而不僅僅是在 Target 中建立的選件。(TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>回應 Token </p> </td> 
@@ -1488,7 +1488,7 @@ target/r_release-notes-2018.xml
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>已新增 <span class="codeph">selectorsPollingTimeout</span> 設定。如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>來自 <span class="codeph">getOffer()</span> 回應的格式已變更。如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local">adobe.target.getOffer(options)</a>。 </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>已針對不支援的 <span class="codeph">&lt;!DOCTYPE&gt;</span> 宣告新增主控台記錄。 </p> </li> 
-      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>已修正在將多個預設選件傳遞至單一 mbox 時，<span class="keyword">Target Classic</span> 外掛程式未正確套用的問題。(TGT-22664) 如需詳細資訊，請參閱 Adobe Target Classic 文件中的<a href="https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html" format="html" scope="external">外掛程式</a>。 </p> </li> 
+      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>已修正在將多個預設選件傳遞至單一 mbox 時，<span class="keyword">Target Classic</span> 外掛程式未正確套用的問題。(TGT-22664)</p> </li> 
       <li id="li_7016022D9DDE4529B77984F195825AB7"> <p>改善兩個字母上層網域 (TLD) 的 Cookie 設定，以確保為這些網域 (例如，<span class="filepath">test.no</span>、<span class="filepath">autodrives.ca</span>，以此類推) 正確設定 mbox Cookie。 </p> </li> 
       <li id="li_3B1F618DEC744056B5BB172C4DBB359A"> <p>用於擷取儲存 Cookie 時應該使用的上層網域的演算法在 <span class="codeph">at.js</span> 版本 0.9.6 中已變更。因為此變更，無法將 Cookie 儲存至使用 IP 的位址。大部分時候，IP 位址是用於測試用途，但做為解決辦法，您可以使用 DNS 項目或調整本機機器上的主機檔案。 </p> </li> 
       <li id="li_A52181499E63402DB4E16E33E36A9400"> <p>已修正當屬性為字串值而非整數時移動和重新排列動作的處理。 </p> </li> 
@@ -1594,7 +1594,7 @@ target/r_release-notes-2018.xml
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox 名稱現在可以包含特殊字元，包括 &amp; 符號，以與使用 <span class="codeph">mbox.js</span> 的 mbox 名稱命名需求一致。(TNT-26144) </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 設定</a>。 </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>已新增 <span class="codeph">secureOnly</span> 設定，指出 <span class="codeph">at.js</span> 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。這是進階的設定，預設值為 False 並且可透過 <span class="codeph">targetGlobalSettings</span> 覆寫。(TNT-26183) </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="wintitle">「舊版瀏覽器支援」</span>選項可在 <span class="codeph">at.js</span> 版本 0.9.3 和更早版本中取得。此選項已在 <span class="codeph">at.js</span> 版本 0.9.4 中移除。 </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 設定</a>。 </p> </li> 
-     </ul> </p> <p>如需每個 <span class="codeph">at.js</span> 版本中變更的詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-versions.html" format="html" scope="external">at.js 版本詳細資料</a>。 </p> </td> 
+     </ul> </p> <p>如需每個 <span class="codeph">at.js</span> 版本中變更的詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本詳細資料</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mbox.js</span> 版本 62 </p> </td> 
@@ -1602,7 +1602,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
       <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>修正在 Google Chrome 瀏覽器中檢視時，重新導向活動中的閃爍問題。(TNT-24928) </p> </li> 
       <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p>已新增 <span class="codeph">secureOnly</span> 設定，指出 <span class="codeph">mbox.js</span> 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。這是進階的設定，預設值為 False。(TNT-26183) </p> <p>如需詳細資訊，請參閱<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local">設定 mbox.js</a>。 </p> </li> 
-     </ul> </p> <p>如需每個 <span class="codeph">mbox.js</span> 版本中變更的詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html" format="html" scope="external">mbox.js 版本詳細資料</a>。 </p> </td> 
+     </ul> </p> <p>如需每個 <span class="codeph">mbox.js</span> 版本中變更的詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">mbox.js 版本詳細資料</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2193,7 +2193,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
       <li id="li_C47240826E5844D6843314F453F042FC">導覽從左側移至頂端。 </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">改良對話方塊 </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">改良活動建立流程 </li> 
-     </ul> </p> <p>選取 Experience Cloud 解決方案 (包括 Target) 的方式也已變更。若要存取 Experience Cloud 解決方案和服務，請按一下功能表圖示: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>如需關於存取 Target 和讓 Target 成為登入 Experience Cloud 之後，您的預設頁面的詳細資訊，請參閱<a href="../c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">從 Adobe Experience Cloud 存取 Target</a>。 </p> <p>如需關於使用者介面改良的詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/marketing-cloud-interface.html" format="https" scope="external">Adobe Experience Cloud 新增功能 - 2016 年春季版</a>。 </p> </td> 
+     </ul> </p> <p>選取 Experience Cloud 解決方案 (包括 Target) 的方式也已變更。若要存取 Experience Cloud 解決方案和服務，請按一下功能表圖示: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>如需關於存取 Target 和讓 Target 成為登入 Experience Cloud 之後，您的預設頁面的詳細資訊，請參閱<a href="../c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">從 Adobe Experience Cloud 存取 Target</a>。 </p> <p>如需關於使用者介面改良的詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/en/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external">Adobe Experience Cloud 新增功能 - 2016 年春季版</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 可針對備份建議停用包含規則。 </td> 
@@ -2429,7 +2429,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p> 使用 Experience Cloud 核心服務上傳第一方資料 (稱為客戶屬性)，並可選擇要與 Target 共用的屬性。此功能於 3 月在 Analytics 中啟用，現在已直接整合至 Target。 </p> <p> 例如，您可能在 CRM 或電子商務/POS 系統中使用會員狀態 (金級、銀級等) 之類的客戶資料、購買歷史記錄、最愛目的地、當地商店等等。現在您可以將這些資料上傳至 Experience Cloud。使用者於您的網站通過驗證後，Target 可將該資料比對其網路行為。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html" format="https" scope="external">客戶屬性</a>。 </p> </td> 
+   <td colname="col2"> <p> 使用 Experience Cloud 核心服務上傳第一方資料 (稱為客戶屬性)，並可選擇要與 Target 共用的屬性。此功能於 3 月在 Analytics 中啟用，現在已直接整合至 Target。 </p> <p> 例如，您可能在 CRM 或電子商務/POS 系統中使用會員狀態 (金級、銀級等) 之類的客戶資料、購買歷史記錄、最愛目的地、當地商店等等。現在您可以將這些資料上傳至 Experience Cloud。使用者於您的網站通過驗證後，Target 可將該資料比對其網路行為。 </p> <p>請參閱<a href="https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html" format="https" scope="external">客戶屬性</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>選取 Analytics 做為 Target 的報表來源時，可以使用多個公司。 </p> </td> 
@@ -2450,7 +2450,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> 屬性加權 </p> </td> 
-   <td colname="col2"> <p> Recommendations 排名規則已針對條件而變更。此項變更會影響現有的建議。 </p> <p> 使用屬性加權來「微調」演算法。行銷人員可依據關於內容目錄的重要說明或中繼資料來影響演算法。給予在售項目更高的加權，以便在建議中更頻繁地顯示它們。不完全排除非售項目，但它們的顯示頻度較低。多種加權皆可套用至相同的演算法，並能依據建議中的拆分流量加以測試。 </p> <p>這些新的加權已自動套用至所有活動。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_attribute_weighting.html" format="https" scope="external">屬性加權</a>。 </p> </td> 
+   <td colname="col2"> <p> Recommendations 排名規則已針對條件而變更。此項變更會影響現有的建議。 </p> <p> 使用屬性加權來「微調」演算法。行銷人員可依據關於內容目錄的重要說明或中繼資料來影響演算法。給予在售項目更高的加權，以便在建議中更頻繁地顯示它們。不完全排除非售項目，但它們的顯示頻度較低。多種加權皆可套用至相同的演算法，並能依據建議中的拆分流量加以測試。 </p> <p>這些新的加權已自動套用至所有活動。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>設定處理摘要的時間 </p> </td> 
@@ -2543,7 +2543,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> 顯示設計中關鍵的相關資訊 </p> </td> 
-   <td colname="col2"> <p>可顯示您 Recommendations 設計中的關鍵項目。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_customizing_a_template.html" format="https" scope="external">自訂設計</a>。 </p> </td> 
+   <td colname="col2"> <p>可顯示您 Recommendations 設計中的關鍵項目。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">自動個人化 </p> <p>轉換型報表 </p> </td> 
@@ -2551,7 +2551,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> Adobe Campaign 電子郵件已與 Target Standard 整合 </td> 
-   <td colname="col2"> <p> 以前，必須使用 Target Classic 才能使用 Adobe Campaign 來設定定位電子郵件促銷活動。隨著 Target Standard 推出兩個新功能 (表格型活動建立和重新導向選件)，現在可以使用 Target Standard 來搭配 Adobe Campaign 設定定位電子郵件促銷活動。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html" format="https" scope="external">將 Target 與 Adobe Campaign 整合</a>。 </p> </td> 
+   <td colname="col2"> <p> 以前，必須使用 Target Classic 才能使用 Adobe Campaign 來設定定位電子郵件促銷活動。隨著 Target Standard 推出兩個新功能 (表格型活動建立和重新導向選件)，現在可以使用 Target Standard 來搭配 Adobe Campaign 設定定位電子郵件促銷活動。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 表格型活動建立中的重新導向選件 </td> 
@@ -2563,7 +2563,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> 增強 Analytics 的報告功能，做為 Target 的報表來源 </p> </td> 
-   <td colname="col2"> <p> 從活動報表頁面直接按一下，即可檢視完整的 Analytics 報表。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_reporting.html" format="https" scope="external">報告</a>。 </p> </td> 
+   <td colname="col2"> <p> 從活動報表頁面直接按一下，即可檢視完整的 Analytics 報表。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 活動清單效能改良 </td> 
@@ -2630,15 +2630,15 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>顯示使用設計的活動數 </p> </td> 
-   <td colname="col2"> <p>設計程式庫可顯示有多少個即時和非活動中活動正在使用每一個設計。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html" format="https" scope="external">Recommendations 活動</a>。 </p> </td> 
+   <td colname="col2"> <p>設計程式庫可顯示有多少個即時和非活動中活動正在使用每一個設計。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>自訂設計中的動態標題顯示 </p> </td> 
-   <td colname="col2"> <p>選擇標題以在使用特定設計時顯示。此標題不需要符合頁面上訪客所看到的標題。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_new_algorithm.html" format="https" scope="external">建立新條件</a>。 </p> </td> 
+   <td colname="col2"> <p>選擇標題以在使用特定設計時顯示。此標題不需要符合頁面上訪客所看到的標題。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>API Token </p> </td> 
-   <td colname="col2"> <p>您可在 Recommendations Premium 中設定客戶 API Token。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_setup.html" format="https" scope="external">設定</a>。 </p> </td> 
+   <td colname="col2"> <p>您可在 Recommendations Premium 中設定客戶 API Token。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 增強功能: 常用的 URL </td> 
@@ -2677,7 +2677,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>新 mbox.js </p> </td> 
-   <td colname="col2"> <p> mbox.js 58 版可以確保在進行 Target 呼叫前，Experience Cloud 訪客 ID 服務已準備就緒。這可確保透過「個人資料和對象」核心服務共用的對象資料，可用於同一次點擊。不過，在 Target 等候服務傳回時，頁面可能發生忽隱忽現的問題，因此在升級前請務必執行完整 QA。此 mbox.js 版本僅可透過 API 取得。 </p> <p>如需每個版本 mbox.js 的資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html" format="https" scope="external">mbox.js 變更記錄</a>。 </p> </td> 
+   <td colname="col2"> <p> mbox.js 58 版可以確保在進行 Target 呼叫前，Experience Cloud 訪客 ID 服務已準備就緒。這可確保透過「個人資料和對象」核心服務共用的對象資料，可用於同一次點擊。不過，在 Target 等候服務傳回時，頁面可能發生忽隱忽現的問題，因此在升級前請務必執行完整 QA。此 mbox.js 版本僅可透過 API 取得。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 可設定的成功度量 </td> 
@@ -2739,11 +2739,11 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>體驗鎖定目標支援將 Analytics 做為報表來源 </p> </td> 
-   <td colname="col2"> <p>您現在可以使用 Analytics 作為體驗鎖定目標活動的報表來源。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_xt_goals_and_settings.html" format="https" scope="external">目標與設定</a>。 </p> </td> 
+   <td colname="col2"> <p>您現在可以使用 Analytics 作為體驗鎖定目標活動的報表來源。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自動個人化: 模型狀態的視覺指示 </p> </td> 
-   <td colname="col2"> <p> 一旦可預測模型傳遞了必要的品質條件並且為有效，即會將它視為就緒並用來計算選件決策的個人化分數。當模型就緒而 Target 可以開始傳送個人化的內容時，時鐘圖示會變更為勾選記號。由於提升僅預期在模型就緒之後，視覺指示可讓您設定正確的預期。使用可視化體驗撰寫器中的流量估算程式來取得模型何時會就緒的指導方針。 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_ap_traffic_estimator.html" format="https" scope="external">預估成功所需的流量</a>。 </p> </td> 
+   <td colname="col2"> <p> 一旦可預測模型傳遞了必要的品質條件並且為有效，即會將它視為就緒並用來計算選件決策的個人化分數。當模型就緒而 Target 可以開始傳送個人化的內容時，時鐘圖示會變更為勾選記號。由於提升僅預期在模型就緒之後，視覺指示可讓您設定正確的預期。使用可視化體驗撰寫器中的流量估算程式來取得模型何時會就緒的指導方針。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Premium Recommendations: 可視化體驗撰寫器中的瀏覽和導覽 </p> </td> 
@@ -2813,10 +2813,9 @@ target/r_release-notes-2015.xml
    <td colname="col1" class="premium"> <p>Recommendations Premium 新功能 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6DC206CB52E34498BC762FCCF77807AA"> 
-      <li id="li_B26568D642974F17B4B2D6E42CFDC5B9"> <p>新預覽模式以檢視使用 JavaScript 的設計 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html" format="https" scope="external">建立建議活動</a>。 </p> </li> 
+      <li id="li_B26568D642974F17B4B2D6E42CFDC5B9"> <p>新預覽模式以檢視使用 JavaScript 的設計 </p></li> 
       <li id="li_B8D1ADE874D244F198CBD3387ED3E310"> <p>目錄搜尋現在支援免費搜尋英文 </p> </li> 
-      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>帳戶層級支援輸入靜態的基礎 URL，在所有相對 <span class="codeph">entity.thumbnailUrl</span> 值的前端加上 </p> <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_setup.html" format="https" scope="external">設定</a>。 </p> </li> 
-     </ul> </p> </td> 
+      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>帳戶層級支援輸入靜態的基礎 URL，在所有相對 <span class="codeph">entity.thumbnailUrl</span> 值的前端加上 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Premium 增強功能 </p> </td> 
@@ -2824,8 +2823,8 @@ target/r_release-notes-2015.xml
      <ul id="ul_1CF5F2D0CDE84DDC9C445B5CD878EEAA"> 
       <li id="li_EB225752776449C6B21C2B2514B508C5"> <p>VEC 中設計預覽的改善 </p> </li> 
       <li id="li_2CD8267EF166421DBB6EFBF704625848"> <p>內建設計的配置改善 </p> </li> 
-      <li id="li_D737754C200844638B536A3BE02E9C5F"> 集合顯示在鎖定目標圖表中 <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_collections.html" format="https" scope="external">集合</a>。 </p> </li> 
-     </ul> </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">Recommendations</a>。 </p> </td> 
+      <li id="li_D737754C200844638B536A3BE02E9C5F"> 集合顯示在鎖定目標圖表中</li> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Premium 中現在支援 Recommendations Classic 功能 </p> </td> 
@@ -2833,9 +2832,9 @@ target/r_release-notes-2015.xml
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
       <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> 局部範本轉譯 <p>請參閱<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local">內容設定</a>。 </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> 指定每個條件的備份規則 </li> 
-      <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> 對產品摘要支援 FTPS <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_feeds_create.html" format="https" scope="external">建立摘要</a>。 </p> </li> 
-      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> 自訂演算法現在以條件的形式自動顯示 <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_algorithms.html" format="https" scope="external">條件</a>。 </p> </li> 
-      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> 每小時自動為沒有摘要的客戶重新編製產品目錄的索引 <p>請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_catalog_search.html" format="https" scope="external">目錄搜尋</a>。 </p> </li> 
+      <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> 對產品摘要支援 FTPS</li> 
+      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> 自訂演算法現在以條件的形式自動顯示</li> 
+      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> 每小時自動為沒有摘要的客戶重新編製產品目錄的索引 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2904,15 +2903,15 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: 改善內容檢視 </p> </td> 
-   <td colname="col2"> <p>在檢視或編輯集合時，您現在可以查看符合收集或排除的每個項目。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">Recommendations</a>。 </p> </td> 
+   <td colname="col2"> <p>在檢視或編輯集合時，您現在可以查看符合收集或排除的每個項目。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: 改善搜尋結果 </p> </td> 
-   <td colname="col2"> <p>會顯示符合每個搜尋字串的項目數總計。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">Recommendations</a>。 </p> </td> 
+   <td colname="col2"> <p>會顯示符合每個搜尋字串的項目數總計。 </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>在 Adobe Analytics 中上傳客戶屬性 </p> </td> 
-   <td colname="col2"> <p>在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料的 Analytics 使用者，可將該資料上傳至 Experience Cloud。 </p> <p>資料放入 Experience Cloud 後，您可以進行一些動作，例如在 Analytics 中建立讀者區段 (於區段定義中包含客戶屬性)，接著再與 Target 共用該讀者。 </p> <p> <p>注意: Target 尚無法直接使用原始的客戶屬性。 </p> </p> <p>請參閱 Experience Cloud 產品文件中的<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html" format="https" scope="external">客戶屬性</a>。 </p> </td> 
+   <td colname="col2"> <p>在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料的 Analytics 使用者，可將該資料上傳至 Experience Cloud。 </p> <p>資料放入 Experience Cloud 後，您可以進行一些動作，例如在 Analytics 中建立讀者區段 (於區段定義中包含客戶屬性)，接著再與 Target 共用該讀者。 </p> <p> <p>注意: Target 尚無法直接使用原始的客戶屬性。 </p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -2929,7 +2928,7 @@ target/r_release-notes-2015.xml
 * 當您使用 Analytics 做為 Target 的報表來源時，Target Standard/Premium 中多變數測試的 Target 型轉換事件不會列入報告。此問題預期近期會修正。
 * mbox.js 版本 56 已移動「額外 JavaScript」區段，因此會在全域 mbox 之前執行。
 
-   v56+ 中的所有設定都使用命名空間。如果在「額外 JavaScript」中有宣告函數，前面都必須加上 window。請參閱 [mbox.js 變更記錄](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html)。
+   v56+ 中的所有設定都使用命名空間。如果在「額外 JavaScript」中有宣告函數，前面都必須加上 window。請參閱 [mbox.js 變更記錄](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html)。
 
 ### Adobe Target 15.2.1 (2015 年 2 月 19 日) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
@@ -2978,7 +2977,7 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 新活動類型: 多變數測試 </td> 
-   <td colname="col2"> <p> 全階乘多變數測試會將您內容區域中，所有可能的選件組合進行比較，協助您決定最佳的內容組合。多變數測試也會顯示哪些內容所在的領域對活動成功最有貢獻。通常在使用 A/B 測試決定最佳版面之後，會使用多變數測試來最佳化整個頁面。使用多變數測試，您可以最佳化頁面上的個別資產 (例如主影像、標題或促銷內容)。 </p> <p>如需詳細資訊，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/target/mvt/c_multivariate_testing.html" format="https" scope="external">多變數測試</a>。 </p> <p>如需簡介影片，請參閱 <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>。 </p> </td> 
+   <td colname="col2"> <p> 全階乘多變數測試會將您內容區域中，所有可能的選件組合進行比較，協助您決定最佳的內容組合。多變數測試也會顯示哪些內容所在的領域對活動成功最有貢獻。通常在使用 A/B 測試決定最佳版面之後，會使用多變數測試來最佳化整個頁面。使用多變數測試，您可以最佳化頁面上的個別資產 (例如主影像、標題或促銷內容)。 </p> <p>如需簡介影片，請參閱 <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 在可視化體驗撰寫器中瀏覽至頁面和頁面內元素 </td> 
@@ -3105,7 +3104,7 @@ target/r_release-notes-2014.xml
   </tr> 
   <tr> 
    <td colname="col1"> 一個頁面上的多個活動 </td> 
-   <td colname="col2"> <p>在一個 <span class="keyword">Target</span> 伺服器呼叫的單一頁面上可傳送多個 Target Standard 活動的內容。 </p> <p> <p>注意: 這不會影響 Target Classic 的優先順序評估。 </p> </p> <p>若要瞭解有關 Target 優先順序決定程序的詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_priority.html" format="http" scope="external">Target Standard 說明</a>。 </p> <p>如需當多個活動鎖定頁面上的相同的位置時，Target 如何判斷要顯示的體驗的詳細資訊，請參閱<a href="../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">優先順序</a>。 </p> </td> 
+   <td colname="col2"> <p>在一個 <span class="keyword">Target</span> 伺服器呼叫的單一頁面上可傳送多個 Target Standard 活動的內容。 </p> <p> <p>注意: 這不會影響 Target Classic 的優先順序評估。 </p> </p><p>如需當多個活動鎖定頁面上的相同的位置時，Target 如何判斷要顯示的體驗的詳細資訊，請參閱<a href="../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">優先順序</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3144,11 +3143,11 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 適用於 Adobe Target 的 Adobe Analytics 強化報表功能 </td> 
-   <td colname="col2"> 在<a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">測試設定程序</a>進行期間，Adobe Analytics 客戶可以選擇 <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">Analytics 作為預設的報表來源</a>。您不必再選擇所有要使用的成功量度或對象即可篩選結果。在報表中，您可以選擇 Analytics 中定義的任何量度或對象區段，並以可回溯方式將它套用至報表，以進行廣泛的篩選並深入分析您的最佳化結果。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_tw</a>。 </p> </p> </td> 
+   <td colname="col2"> 在<a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">測試設定程序</a>進行期間，Adobe Analytics 客戶可以選擇 Analytics 作為預設的報表來源。您不必再選擇所有要使用的成功量度或對象即可篩選結果。在報表中，您可以選擇 Analytics 中定義的任何量度或對象區段，並以可回溯方式將它套用至報表，以進行廣泛的篩選並深入分析您的最佳化結果。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_tw</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 主行銷資料即時對象 </td> 
-   <td colname="col2"> 運用<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">主要行銷描述檔</a>將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。Adobe Analytics 中群體建立期間的核取方塊讓群體可供 Adobe Target 自訂讀者庫使用。Analytics 或 Audience Manager 中建立的群體可用來定位 Target 中的訪客。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_tw</a>。 </p> </p> </td> 
+   <td colname="col2"> 運用主要行銷描述檔將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。Adobe Analytics 中群體建立期間的核取方塊讓群體可供 Adobe Target 自訂讀者庫使用。Analytics 或 Audience Manager 中建立的群體可用來定位 Target 中的訪客。 <p> <p>附註: 若要要求存取此功能，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_tw</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 體驗鎖定活動類型 </td> 
