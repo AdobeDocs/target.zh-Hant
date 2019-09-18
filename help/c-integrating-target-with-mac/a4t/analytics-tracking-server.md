@@ -6,7 +6,7 @@ seo-title: 使用 Analytics 追蹤伺服器
 title: 使用 Analytics 追蹤伺服器
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 從建立您的活動所在的頁面，開啟 Adobe Experience Cloud Debugger。
 
-   如果您尚未安裝偵錯程式，請遵循 [Adobe Debugger 安裝說明](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html)。
+   如果您尚未安裝除錯程式，請參 [閱安裝Experience Cloud除錯程式](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -40,5 +40,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    >[!NOTE]
    >
-   >您您活動的「報表來源」必須選取「Adobe Analytics」，「追蹤伺服器」欄位才能使用。
-
+   >您您活動的「報表來源」必須選取「Adobe Analytics」，「追蹤伺
