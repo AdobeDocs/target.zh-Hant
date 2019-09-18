@@ -8,7 +8,7 @@ title: 目標與設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ### 報表解決方案
 
-指定資料是收集自 Adobe Target 或 Adobe Analytics。請參閱 [Adobe Analytics 做為 Target的報表來源](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)來瞭解關於報表解決方案之間的差異與各自的優點。
+指定資料是收集自 Adobe Target 或 Adobe Analytics。請參閱 [Adobe Analytics 做為 Target的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)來瞭解關於報表解決方案之間的差異與各自的優點。
 
 選取 Analytics 做為 Target 的報表來源時，請選取 Analytics 報表套裝來接收 Target 活動資料。若要這麼做，請先從您帳戶繫結的 Analytics 公司中選擇任一，接著為該活動選取適當的報表套裝。只有佈建為連接至 Adobe Target 的報表套裝才可供選取。如果沒看到您要找的報表套裝，請先登出再登入 Adobe Experience Cloud，然後再試一次。如果報表套裝仍未出現在清單中，請聯絡客戶服務。
 
@@ -122,7 +122,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 若要新增相依性:
 
-1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
+1. 新增其他量度後，請按一下&#x200B;**[!UICONTROL 進階設定]**。
 2. 按一下「新增相依性」選項:
 
    ![新增相依性](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
