@@ -9,7 +9,7 @@ title: Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -53,7 +53,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 * 使用 Analytics 作為報表來源時，僅允許一個 Mbox 型量度。
 * 從 Target 至 Analytics 的伺服器對伺服器呼叫會將活動和體驗資訊傳送至 Analytics。此整合不會對 Target 或 Analytics 產生額外的伺服器呼叫。
 
-   在某些情況下，Target的分類呼叫可能會失敗，而活動不會在Analytics中顯示資料。如果發生此情況，請參閱 [疑難排解Analytics和Target整合(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。您也可以 [聯絡Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 以取得更多協助。
+   在某些情況下，從Target到Analytics的分類呼叫可能會失敗，而活動不會在Analytics中顯示資料。 如果發生此情況，請 [參閱「疑難排解Analytics與Target整合(A4T)」](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您也可以聯 [絡Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，以取得進一步協助。
 
 ## 支援的活動類型 {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -68,7 +68,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 | 多變數測試 (MVT) | 是 | 需要 Mbox 型目標量度目標才能取得「元素貢獻」報表。「元素貢獻報表」目前不支援 Analytics 量度。 |
 | 自動個人化 (AP) 活動 | 無 |  |
 | Recommendations 活動 | 是 |  |
-| 行動應用程式 | 是 | 支援行動服務 SDK 4.13.1 版或更新版本。如需詳細資訊，請參閱[行動服務文件](https://marketing.adobe.com/resources/help/en_US/mobile/)。 |
+| 行動應用程式 | 是 | 支援行動服務 SDK 4.13.1 版或更新版本。如需詳細資訊，請參閱[行動服務文件](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。 |
 | 電子郵件 | 無 |  |
 | 伺服器端傳送 API | 是 | 如需詳細資訊，請參閱[伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | NodeJS SDK | 是 | 如需詳細資訊，請參閱[伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
@@ -130,4 +130,4 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 * 瞭解適合用於 Analytics 的報表
 * 回答有關 A4T 的常見問題
 
-[Analytics/Target整合(A4T) Office小時](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target整合(A4T)辦公時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
