@@ -1,14 +1,14 @@
 ---
 description: 「重新導向選件」會使瀏覽器重新導向至新的頁面。
 keywords: 重新導向選件; 建立重新導向選件; 新增 html 選件; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
-seo-description: Adobe Target中重新導向選件的相關資訊，可讓瀏覽器重新導向至新頁面。
+seo-description: Adobe Target中導致瀏覽器重新導向至新頁面的重新導向選件的相關資訊。
 seo-title: 建立重新導向選件
 solution: Target
 title: 建立重新導向選件
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 此影片包括關於管理內容的資訊。
 
-* [Experience Cloud 資產資料庫](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
