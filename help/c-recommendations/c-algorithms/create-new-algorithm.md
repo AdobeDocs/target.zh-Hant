@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ---
 
@@ -120,19 +120,19 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ## 預計條件處理時間 {#process-time}
 
-儲存標準後， [!DNL Target] 請編譯建議。此計算需要一些時間，而且時間範圍會根據選取的建議邏輯、資料範圍、目錄中項目的數目、客戶產生的行為資料以及所選行為資料來源而有所不同。行為資料來源對處理時間有最大影響，如下所示：
+儲存條件後，會計算 [!DNL Target] 建議。 此計算需要一些時間執行，而時間範圍會根據選取的建議邏輯、資料範圍、型錄中的項目數、客戶產生的行為資料量以及選取的行為資料來源而有所不同。 行為資料來源對處理時間的影響最大，如下所示：
 
 ### mbox
 
-如果mbox被選取作為行為資料來源，則一旦建立後，標準便會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更標準配置通常會導致演算法重新執行。視所做的變更而定，先前計算的建議可能會可用，直到重新執行完成或進行較大的變更時，才可使用備份或預設內容，直到重新執行完成為止。如果未修改演算法，則會根據選取的資料範圍 [!DNL Target] 每12-48小時自動重新執行演算法。
+如果mbox被選為行為資料來源，則建立後，標準會立即執行。 根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更准則設定通常會導致演算法重新執行。 視所做的變更而定，在重新執行完成之前，先前計算的建議可能可用，或對於較大的變更，只有備份或預設內容可用，直到重新執行完成為止。 如果未修改演算法，則會根據選取的資料範圍， [!DNL Target] 每12-48小時自動重新執行一次。
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **一次性報告套裝設定**：第一次搭配指定的資料範圍回顧視窗使用報表套裝時， [!DNL Target Recommendations] 可能需要從兩到七天完全下載所選報表套裝的行為資料 [!DNL Analytics]。此時間範圍取決於 [!DNL Analytics] 系統負載。
-* **使用已提供的報表套裝新增或編輯標準**：建立新標準或編輯現有標準時，如果已使用選取的報表套裝， [!DNL Target Recommendations]且資料範圍等於或小於所選資料範圍，則會立即可用資料，且不需要一次性設定。在此情況下，或如果在未修改所選報表套裝或資料範圍時編輯演算法設定，演算法會在12小時內執行或重新執行。
-* **持續演算法執行**：資料流動 [!DNL Analytics][!DNL Target Recommendations] 每天都是如此。例如，對於 [!UICONTROL 「已檢視的相關性] 」建議，當使用者檢視產品時，產品檢視追蹤呼叫會傳遞至 [!DNL Analytics] 接近即時的位置。[!DNL Analytics] 資料會推送至隔天 [!DNL Target] 凌晨，並在不到12小時內 [!DNL Target] 執行演算法。
+* **一次性報表套裝設定**:第一次將報表套裝與指定的資料範圍回顧視窗搭配使用時， [!DNL Target Recommendations] 可能需要兩到七天時間，才能從中完整下載所選報表套裝的行為資料 [!DNL Analytics]。 此時間範圍取決於系 [!DNL Analytics] 統負載。
+* **使用現有報表套裝新增或編輯的准則**:建立新准則或編輯現有准則時，如果選取的報表套裝已與之搭配使用 [!DNL Target Recommendations]，且資料範圍等於或小於選取的資料範圍，則資料會立即可用，而不需要單次設定。 在此情況下，或者，如果演算法的設定是在不修改所選報表套裝或資料範圍時進行編輯，演算法會在12小時內執行或重新執行。
+* **持續演算法執行**:每日資料 [!DNL Analytics] 從 [!DNL Target Recommendations] 資料流到資料流。 例如，對於「已 [!UICONTROL 檢視的相似性] 」建議，當使用者檢視產品時，產品檢視追蹤呼叫會接近即 [!DNL Analytics] 時傳入。 資料 [!DNL Analytics] 會推送至第二天 [!DNL Target] 早上，並在不 [!DNL Target] 到12小時內執行演算法。
 
 ## 讓建議以建議索引鍵為依據 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,17 +343,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 >[!NOTE]
 >
->最近檢視的項目同時尊重了全域設定和選取的「活動的系列」設定。如果某個項目被全域排除排除，或未包含在選取的系列中，則不會顯示該項目；因此，使用「最近檢視的項目」條件時，一般應使用「所有系列」設定。
-
-### 先前購買的項目 {#previously-purchased}
-
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
-
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果兩個網站屬於不同環境，而訪客在這兩個網站之間切換，則每個網站只會顯示最近從適當網站購買的項目。如果兩個網站位於相同環境中，而訪客在這兩個網站之間切換，訪客將會看到最近購買的兩個網站項目。
-
-**使用您網站上的哪個位置**
-
-一般頁面，例如首頁或登陸頁面及離站廣告。
+>「最近檢視的項目」同時包含「排除」全域設定和「活動」的選取「系列」設定。 如果項目被全域排除，或未包含在選取的系列中，則不會顯示該項目；因此，使用「最近檢視的項目」條件時，通常應使用「所有系列」設定。
 
 ## 包含規則 {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -458,7 +448,7 @@ The Recently Purchased Items criteria now returns results specific to a given [e
 
 依預設，所有屬性會設為&#x200B;*「基線」*。除非您要變更此設定，否則您不需建立規則。
 
-## 訓練影片：在Recommendations中建立標準(12：33)
+## 訓練影片：在Recommendations中建立條件(12:33)
 
 此影片包含下列資訊：
 
