@@ -8,7 +8,7 @@ title: 檢視報表 - A4T 常見問題集
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 對於「活動」報表，管理員可變更預設量度，以便每次執行報表時顯示同樣的量度。否則，報表會預設顯示您上次套用至上個報表的量度。
 
-如需詳細資訊，請參閱&#x200B;*報表與 Analytics 介面說明*&#x200B;指南中的[選取預設報表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## 何時將區段套用至量度 (搭配計算量度) 及何時將區段套用至報表? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * 使用者符合活動資格，且內容已從 [!DNL Target] 傳回時，上述所有量度都會觸發。這不一定表示使用者已經看到選件。若活動體驗位於下半部，且使用者並未向下捲動頁面，則雖然 [!DNL Target] 已提供選件，但使用者並未看到選件。
 * [!UICONTROL 活動曝光次數] (由 [!DNL Target] 測量) 和[!UICONTROL 例項] (由 [!DNL Analytics] 測量) 相等，除非相同活動的相同頁面上有多個 mbox 呼叫。這會導致系統計算多個[!UICONTROL 活動曝光次數]，但僅有單一[!UICONTROL 例項]。
-* 在中使用 [!UICONTROL 「活動印象] 」和 [!UICONTROL 「活動轉換] 」度量時， [!DNL Analysis Workspace]請確定這兩個量度已套用 [!UICONTROL 相同的觸控] 屬性模型。您可以按一下欄設定工具來套用模型，啓用 [!UICONTROL 非預設歸因模型]，然後選取 [!UICONTROL 相同的觸控]。在「Analytics工具指南」中深入瞭解 [屬性IQ總覽](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)*中的歸因*。
+* 在中使 [!UICONTROL 用「活動印象] 」和「活動 [!UICONTROL 轉換」度量] 時，請確定兩個度量都套 [!DNL Analysis Workspace]用了相同的Touch  歸因模型。 您可以按一下欄設定齒輪，啟用「非預設歸因模 [!UICONTROL 型」]，然後選取「相 [!UICONTROL 同觸控」來套用模型]。 進一步瞭解 [Analytics工具指南中的屬性](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) IQ概觀 *，以*&#x200B;瞭解歸因。
 
 ## 如果市場行銷人員在活動設定期間挑選 Analytics 量度，「活動轉換」是什麼意思? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ![](assets/unspecified.png)
 
-在其他報表中，「未指定」表示資料不符合分類規則，但這在 A4T 中絕對不會發生。如果看到「未指定」，就表示分類服務尚未執行。活動資料通常需要24到72小時，才能顯示在報表中。即使在此之前活動不會出現在報表中，但這些活動相關的所有訪客資料皆會記錄下來，當分類完成時即會出現。
+在其他報表中，「未指定」表示資料不符合分類規則，但這在 A4T 中絕對不會發生。如果看到「未指定」，就表示分類服務尚未執行。活動資料通常需要24到72小時才會顯示在報表中。 即使在此之前活動不會出現在報表中，但這些活動相關的所有訪客資料皆會記錄下來，當分類完成時即會出現。
 
 分類期過後，從網站收集完資料的大約一小時後，資料就會出現在這些報表中。報表中的所有量度、區段和值，來自於您設定活動時所選取的報表套裝。
 
@@ -110,7 +110,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 因為兩個體驗皆在轉換之前被看到，所以皆獲得訂單的「點數」。但系統中僅會有一個訂單生效，並透過總計反映出來。在 Target 報表中，因為您是對照 Target 活動與活動來看何者較成功，使用者看過的所有活動皆獲得點數並不影響。您是在比較單一活動內兩個項目的結果，而使用者不可能在相同個活動中看到不同的體驗，所以不必擔心訂單點數交叉污染。
 
-如需詳細資訊，請參閱 Analytics說明中的[轉換變數 (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)。
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## 為什麼 Analytics 和 Analytics for Target (A4T) 計算的獨特訪客量度數字不同? {#section_0C3B648AB54041F9A2AA839D51791883}
 
