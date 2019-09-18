@@ -8,7 +8,7 @@ title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ### 活動QA預覽連結 {#preview}
 
-[如果帳戶中已儲存的活動太多，儲存活動的活動QA預覽](/help/c-activities/c-activity-qa/activity-qa.md) 連結可能無法載入。重新嘗試預覽連結應該能運作。為避免繼續發生這種情況，封存不再主動使用的儲存活動。(TNT-32697)
+[如果帳戶中儲存的活動過多](/help/c-activities/c-activity-qa/activity-qa.md) ，儲存的活動的活動QA預覽連結可能無法載入。 重新嘗試預覽連結應能運作。 為防止這種情況繼續發生，請封存已儲存且不再被使用的活動。 (TNT-32697)
 
 ### 重新導向選件 {#redirect}
 
@@ -73,7 +73,7 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 下列是 at.js 的已知問題:
 
-* 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html)可讓您檢視完整的演算法清單。
+* 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
    使用 at.js 時，「相容性」核取方塊會隱藏，使得您看不見不相容的演算法。
 
@@ -124,7 +124,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 * 當摘要中的項目與前次執行相同時，建議摘要索引會顯示「等候索引」。傳送所需的產品擷取不受影響。(RECS-6663)
 
-   此問題已於Target19.4.2版中修正。
+   Target 19.4.2版中已修正此問題。
 
 * Recommendations 摘要耗費較預期更長的時間。(COR-2836)
 
@@ -138,7 +138,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。計劃對 at.js 實施進行更新，以確保可以避免此競爭條件。
 
-此問題已於. js1.6.3中修正。
+此問題已在at.js 1.6.3中修正。
 
 ### 排除群組
 
