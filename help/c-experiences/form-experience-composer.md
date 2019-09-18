@@ -8,14 +8,14 @@ title: 表單式體驗撰寫器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # 表單式體驗撰寫器{#form-based-experience-composer}
 
-表單型體驗撰寫器是非視覺體驗和選件建立介面，用於建立體驗，用於A/B測試、體驗目標鎖定、自動個人化和Recommendations活動(視覺化體驗撰寫器無法使用或實用)時。例如，您可以使用表單型編譯器建立體驗和選件，以便在電子郵件、資訊站和語音助理中傳遞。
+表單式體驗撰寫器是一種非可視化體驗和選件建立介面，適合在可視化體驗撰寫器無法使用或不實用的情況下，用於建立可供 A/B 測試、體驗鎖定目標、Automated Personalization 和 Recommendations 活動使用的體驗。例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
 
 如果是建立 Recommendations 活動，則沒有體驗。選擇您的條件和設計。如果您選擇多個條件或設計，Target 會自動產生體驗。
 
@@ -77,7 +77,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    1. 輸入選件名稱。
    1. 在「程式碼」方塊中，輸入或貼上 JSON 程式碼。
    1. 按一下[!UICONTROL 「儲存」]。
-   針對 Recommendations 活動，內容下拉式清單會提供您「新增建議」選項。按一下&#x200B;**[!UICONTROL 「新增建議」]**，然後選取頁面類型。然後遵循介面中定義的步驟來[建立Recommendations 活動](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html)。
+   針對 Recommendations 活動，內容下拉式清單會提供您「新增建議」選項。按一下&#x200B;**[!UICONTROL 「新增建議」]**，然後選取頁面類型。然後遵循介面中定義的步驟來[建立Recommendations 活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 
    在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。
 
