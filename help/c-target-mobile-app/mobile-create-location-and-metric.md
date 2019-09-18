@@ -7,7 +7,7 @@ title: iOS - 建立 Target 位置和成功量度
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若要在您的行動應用程式中使用 Target，請建立位置和成功量度。
 
-此區段包括可用作您的應用程式範本的樣本代碼。此區段中的樣本包含 iOS 的代碼。Android 適用相同的模式。您可以在 [Android SDK 4.x for Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/target_main.html) 解決方案指南中找到 Android 的特定語法。
+此區段包括可用作您的應用程式範本的樣本代碼。此區段中的樣本包含 iOS 的代碼。Android 適用相同的模式。您可以在 [](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)Android SDK 4.x for Experience Cloud 解決方案指南中找到 Android 的特定語法。
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) for a list of all the available Target methods.
+>See the [Mobile documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
 
 若要在您的應用程式中建立 Target 位置並進行要求，有兩個主要方法:
 
