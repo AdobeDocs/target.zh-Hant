@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + 企業使用者權限 {#enterprise}
          + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [設定企業權限](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [授予Adobe I/O整合存取工作區並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [將Adobe I/O整合存取權授與工作區並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic 整合](administrating-target/scene7-settings.md)
    + [主機](administrating-target/hosts.md)
    + [回應 Token](administrating-target/response-tokens.md)
@@ -53,11 +53,11 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [準備實作 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + 隱私權與安全性 {#privacy}
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [隱私權與資料保護條例](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [隱私權與資料保護法規](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Premiention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [內容安全政策(CSP)指示](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [內容安全性政策(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 將資料傳入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -137,7 +137,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [Android - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [在行動版 VEC 中設定點擊追蹤](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [行動應用程式的Target常見問題](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 伺服器端: 實作 Target {#server-side}
       + [伺服器端: 實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [從 Target 舊版 API 轉變為 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -167,6 +167,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [量度定義 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [膨脹的造訪和訪客計數 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [分類 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+         + [共用量度、對象和報表 - A4T 常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 時 Target 與 Analytics 之間的預期資料變異](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud 受眾](c-integrating-target-with-mac/mmp.md)
@@ -276,7 +277,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [設定檔屬性](c-target/c-visitor-profile/profile-parameters.md)
       + [類別相關性](c-target/c-visitor-profile/category-affinity.md)
       + [客戶屬性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3 rdPartyId的即時描述檔同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyId的即時描述檔同步](c-target/c-visitor-profile/3rd-party-id.md)
       + [設定檔和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 鎖定目標和對象常見問題集 {#faq-audiences}
       + [鎖定目標和對象常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -340,7 +341,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
    + [報表常見問題集](c-reports/reporting-frequently-asked-questions.md)
 + 建議 {#recommendations}
    + [建議概覽](c-recommendations/recommendations.md)
-   + [建議簡介](c-recommendations/introduction-to-recommendations.md)
+   + [Recommendations簡介](c-recommendations/introduction-to-recommendations.md)
    + [計劃和實作建議](c-recommendations/plan-implement.md)
    + 實體 {#entities}
       + [實體概覽](c-recommendations/c-products/products.md)
