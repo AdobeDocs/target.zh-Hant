@@ -1,14 +1,14 @@
 ---
 description: 對象會決定將看見已鎖定目標活動中內容和體驗的人。
 keywords: 對象;對象規則;建立對象;建立對象;鎖定目標對象;報表對象;報表對象;區段;自訂設定檔參數;對象定義;對象清單
-seo-description: Adobe Target中的觀眾決定誰會在目標活動中看到內容和體驗。
-seo-title: 在Adobe Target中建立觀眾
+seo-description: Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
+seo-title: 在 Adobe Target 中建立受眾
 solution: Target
 title: 建立對象
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,22 +17,22 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 對象會決定將看見已鎖定目標活動中內容和體驗的人。
 
-可使用鎖定目標之處皆可使用對象。When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
+可使用鎖定目標之處皆可使用對象。鎖定目標活動時，您可以從[!UICONTROL 受眾]清單選取可重複使用的受眾、[建立活動專屬受眾](/help/c-target/creating-activity-only-audience.md)，以及將其鎖定目標，或[合併多個受眾](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選受眾。
 
-您也可以使用 [!DNL Analytics] 收集的對象資料，以用於 [!DNL Adobe Target] 和 [!DNL Experience Cloud] 解決方案中即時鎖定目標和個人化。請參閱 [Experience Cloud 產品說明文件中的對象](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)。
+您也可以使用 [!DNL Analytics] 收集的對象資料，以用於 [!DNL Adobe Target] 和 [!DNL Experience Cloud] 解決方案中即時鎖定目標和個人化。請參 [閱核心](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 「服務使 *用指南」中的「觀眾」*。
 
 [!DNL Target] 定義兩種對象:
 
 * **鎖定目標對象:**&#x200B;用於傳送不同內容給不同類型的訪客。
 * **報表對象:**&#x200B;用於決定不同類型的訪客如何回應相同內容，以利於您分析測試結果。
 
-   在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
+   在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。如果您使用 [DNL Adobe Analytics 作為報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在 [!DNL Analytics] 內設定報表對象。
 
-## 使用對象清單
+## 使用受眾清單
 
 若要存取[!UICONTROL 「對象」]清單，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 「對象」]:**
 
-![觀眾清單](assets/audiences_list.png)
+![受眾清單](assets/audiences_list.png)
 
 [!UICONTROL 「對象」]清單包含您可用於活動中的所有對象。使用[!UICONTROL 「對象」]清單來建立、編輯、刪除、複製或合併 對象。此清單也顯示原本建立對象的來源 ([!DNL Target]、[!DNL Target Classic]、[!DNL Adobe Audience Manager (AAM),]、[!DNL Experience Cloud] 等)。無法重新命名預先定義的對象，例如「新訪客」和「再度訪問的訪客」。
 
@@ -41,23 +41,23 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 若對象已在 AAM 中刪除，[!UICONTROL 「對象」]清單和對象選擇器中皆會顯示警告圖示。UI 中的工具提示也表示對象已在 AAM 中刪除。
 * 若嘗試將多個對象與已刪除的對象合併，或嘗試儲存參考已刪除對象的活動，系統會顯示警告訊息。
 
-您也可以鎖定自訂設定檔參數和 `user.` 參數。When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 如果需要的參數並未出現，表示參數尚未由 mbox 觸發。在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
+您也可以鎖定自訂設定檔參數和 `user.` 參數。新增受眾時，請按一下&#x200B;**[!UICONTROL 新增規則]** &gt; **[!UICONTROL 訪客設定檔]**，然後選擇您要用來鎖定目標活動的參數。如果需要的參數並未出現，表示參數尚未由 mbox 觸發。在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
 
 使用搜尋方塊來搜尋您的[!UICONTROL 對象]清單。您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
 您可以依對象名稱或上次修改日期來排序[!UICONTROL 「對象」]清單。若要依名稱排序，請按一下欄標題，然後選擇依遞增或遞減順序來顯示對象。
 
-## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
+## 檢視受眾定義 {#section_11B9C4A777E14D36BA1E925021945780}
 
 在 Target UI 各處，您可以在快顯卡上檢視對象定義詳細資料，而不必開啟對象。此功能適用於 Target Standard/Premium 中建立的對象，以及從 Target Classic 匯入或透過 API 建立的對象。
 
 例如，暫留在「對象清單」上的對象，然後按一下「檢視」圖示，即可存取下列對象定義卡:
 
-![「活動&gt;對象定義」](assets/audience_definition_list.png)
+![活動 &gt; 受眾定義](assets/audience_definition_list.png)
 
 在活動的「概覽」頁面按一下「檢視」圖示，即可存取下列對象定義卡:
 
-![「活動&gt;對象定義」](assets/audience_definition_list.png)
+![活動 &gt; 受眾定義](assets/audience_definition_list.png)
 
 按一下[!UICONTROL 「對象使用狀況」]標籤，以查看參照該對象的其他活動 (如適用)。這樣可讓您在編輯對象時，避免不慎影響其他活動。資訊包括已上線活動、非使用中的活動、已封存的活動，以及同步活動。此功能適用於所有對象 (資料庫對象和[僅限於此活動的對象](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))。
 
@@ -67,7 +67,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 下列對象定義卡是屬於從 Adobe Experience Cloud 匯入的對象。在此情況中，對象是從 Adobe Audience Manager (AAM) 匯入。
 
-![觀眾定義卡上的使用索引標籤](assets/audience_definition_mc.png)
+![受眾定義卡片上的使用情形標籤](assets/audience_definition_mc.png)
 
 這些匯入的對象類型會有下列詳細資料:
 
