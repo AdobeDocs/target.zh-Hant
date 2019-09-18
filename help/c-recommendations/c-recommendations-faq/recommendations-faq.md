@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Target 具有[篩選不相容的條件](../../c-recommendations/plan-implement.m
 * 索引是最新的嗎? 請移至 [!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的 (例如「3 小時前已編列索引」)。您可以視需要重新整理索引。
 * 您是否更動過摘要或資料層，而導致實體不再符合收集規則? 請確定「大小寫」相符 (區分大小寫)。
 * 摘要執行成功嗎? 有人變更過 FTP 目錄、密碼...等等嗎?
-* Target 會儘力讓傳送儘快更新 (在客戶的頁面/應用程式上)。然而，我們還是必須在 UI 上為市場行銷人員提供一些表示法。我們不一定會為了等待 UI 更新同步而延遲傳送更新。您可以使用 [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) 查看當請求進來時系統中有什麼。
+* Target 會儘力讓傳送儘快更新 (在客戶的頁面/應用程式上)。然而，我們還是必須在 UI 上為市場行銷人員提供一些表示法。我們不一定會為了等待 UI 更新同步而延遲傳送更新。您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
 
 ## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
