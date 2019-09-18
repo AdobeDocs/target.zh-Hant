@@ -7,7 +7,7 @@ title: 目標與設定
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 
-The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
+可用的設定視您使用 Target 或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) 作為資料來源而定。
 
 ![活動設定對話方塊](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
@@ -32,7 +32,7 @@ The available settings depend on whether you use Target or [Analytics](/help/c-i
 
 | 設定 | 說明 |
 |--- |--- |
-| 報表來源 | 指定資料是收集自 Adobe Target 或 Adobe Analytics。請參閱 [Adobe Analytics 做為 Target的報表來源](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)來瞭解關於報表解決方案之間的差異與各自的優點。選取 Analytics 做為 Target 的報表來源時，請選取 Analytics 報表套裝來接收 Target 活動資料。<br>若要這麼做，請先從您帳戶繫結的 Analytics 公司中選擇任一，接著為該活動選取適當的報表套裝。只有佈建為連接至 Adobe Target 的報表套裝才可供選取。如果沒看到您要找的報表套裝，請先登出再登入 Adobe Experience Cloud，然後再試一次。如果報表套裝仍未出現在清單中，請聯絡客戶服務。<br>如果已在您的帳戶設定中指定了報表來源，則會使用指定的來源，並且此設定不會顯示。<br>注意: 為了讓報表保持一致，在活動上線後，您無法變更您的報表來源。 |
+| 報表來源 | 指定資料是收集自 Adobe Target 或 Adobe Analytics。請參閱 [Adobe Analytics 做為 Target的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)來瞭解關於報表解決方案之間的差異與各自的優點。選取 Analytics 做為 Target 的報表來源時，請選取 Analytics 報表套裝來接收 Target 活動資料。<br>若要這麼做，請先從您帳戶繫結的 Analytics 公司中選擇任一，接著為該活動選取適當的報表套裝。只有佈建為連接至 Adobe Target 的報表套裝才可供選取。如果沒看到您要找的報表套裝，請先登出再登入 Adobe Experience Cloud，然後再試一次。如果報表套裝仍未出現在清單中，請聯絡客戶服務。<br>如果已在您的帳戶設定中指定了報表來源，則會使用指定的來源，並且此設定不會顯示。<br>注意: 為了讓報表保持一致，在活動上線後，您無法變更您的報表來源。 |
 | 目標 | 選取訪客為了達成目標採取的動作。例如，選擇轉換量度，然後設定判斷達到成功時的參數。如需關於設定量度的詳細資訊，請參閱[設定量度](../../../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)。<br>注意: 如果報表解決方案設為 Analytics，唯一可用的目標量度為轉換。Analytics 量度無法選取做為目標。選取您的成功量度時，即會顯示選取器。使用此選取器來選擇成功量度的特定項目。<br>如果已啟用，「轉換的預計值」欄位 (「頁面分數」量度無法使用) 可提供目標的值，但不適用其他量度。此值可讓 Target 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。針對所有收入量度 (每位訪客帶來的收入、平均訂購值、銷售總額和訂購)，預估會使用「每位訪客帶來的收入」。資料類型為貨幣。<br>達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。如果訪客再次達到目標，將會將其計為另一次轉換。請注意，這與 Target Classic 中的預設行為不同，如果訪客再次看見測試，其會將訪客計為新訪客。 |
 | 其他量度 | 建立其他的成功量度。如果報表解決方案設為 Analytics，則此設定無法使用。在此情況下，會套用針對 Analytics 報表套裝定義的量度。 |
 | 報表的對象 | 依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表對象以僅顯示關於特定對象的資訊。如果您選擇 Analytics 做為報表解決方案，則此設定無法使用。會套用針對 Analytics 報表套裝定義的對象。 |
@@ -53,7 +53,7 @@ The available settings depend on whether you use Target or [Analytics](/help/c-i
 |--- |--- |
 | 遞增此量度時，應達到什麼成功量度? | 使用此選項之後，僅在某人先前達成不同的成功量度時，才將其視為達成成功量度。例如，測試轉換可能只有在轉換之前訪客點擊了選件，或是達到特定頁面時才有效。系統提供您多個量度上的相依性，且具有彈性可選擇量度應為達到或未達到時計數才會增加。您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。「新增相依性」選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。若要新增相依性:<ul><li>新增其他量度後，按一下「進階設定」。</li><li>按一下「新增相依性」選項:</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下「達到」來將設定在「達到」與「未達到」之間切換。</li><li>您可以在新增相依性之後加以編輯或移除。</li></ul> |
 | 使用者達到此目標量度後會發生什麼事? | 有三個選項可控制訪客達到目標量度後會發生什麼事:<ul><li>選取「增加計數以及讓使用者留在活動中」以指定計數的增加方式。</li><li>選取「增加計數、釋出使用者以及允許重新進入」以指定如果使用者重新進入活動，使用者會看見的體驗。</li><li>選取「增加計數、釋出使用者以及禁止重新進入」以指定使用者會看見的內容，而非活動內容。</li></ul> |
-| 計數將如何增加? | 計算計數有三個選項：<ul><li>每一個 Entrant 一次</li><li>在每次曝光時(排除頁面refre)</li><li>在每次曝光時</li></ul> |
+| 計數將如何增加? | 計數的遞增方式共有三個選項:<ul><li>每一個 Entrant 一次</li><li>在每次曝光時 (排除頁面重新整理)</li><li>在每次曝光時</li></ul> |
 
 請參閱[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。
 
@@ -77,7 +77,7 @@ The available settings depend on whether you use Target or [Analytics](/help/c-i
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
-(https://video.tv.adobe.com/v/17381)
+(https://video.tv.adobe.com/v/17381?captions=chi_hant)
 
 ### 建立 A/B 測試 (8:36)
 
