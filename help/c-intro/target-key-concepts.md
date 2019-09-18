@@ -9,7 +9,7 @@ title: Target 重要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -50,7 +50,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 在 [!DNL Target Standard] 中，位置可以是頁面上的任何元素，前提是您要追蹤的每一個頁面的 [!DNL Target] 區段中，都必須包含一行用於啟用 `<head>` 的程式碼。這行程式碼會呼叫必要的 JavaScript 程式庫，以收集資訊並將已鎖定的目標體驗傳送給訪客。
 
-請參閱[at. js的優點，](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 以瞭解有關位置實作與 [!DNL Target Standard] mbox實作之間差異的詳細資訊 [!DNL Target Classic]。
+請參閱[at.js 的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)，以取得 [!DNL Target Standard] 中的位置實施與 [!DNL Target Classic] 中的 mbox 實施兩者之間有何差異的詳細資訊。
 
 位置結合對象，可提供幾乎無窮盡的選項，以鎖定客戶提供資訊。例如，假設訪客以前從來沒到過網站，則您可以向新客戶顯示優惠券。同樣地，可變更頁面來顯示更適合回訪客戶的選件。
 
@@ -98,13 +98,13 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 或者，您可以將活動鎖定在來自相同地區的訪客，或從特定搜尋引擎存取您網頁的人。
 
-您可以儲存觀眾，以便在多個活動中重復使用，也可以針對特定活動建立這些觀眾。
+對象可儲存供多個活動重複使用，也可以針對特定活動而建立。
 
 | 對象類型 | 說明 |
 |--- |--- |
-| 可重複使用的對象 | 可針對任何活動選擇可重復使用的對象。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
+| 可重複使用的對象 | 可重複使用的對象可供任何活動選取。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
 | 自訂群體 | 自訂區段 (也稱為行銷活動專用區段) 專供 Target Classic 中的行銷活動使用。它們是某個促銷活動的一部分，不可在其他促銷活動中重複使用。 |
-| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用對象。相關範例請參閱 [Experience Cloud 對象](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)。 |
+| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用對象。See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
 如需瞭解訪客設定檔如何追蹤網站訪客的相關資訊，請參閱[訪客設定檔](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 
