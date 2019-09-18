@@ -8,7 +8,7 @@ title: 將 Target 與 Adobe Campaign 整合
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2e419d331
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -46,10 +46,10 @@ Target 可以追蹤下列資料:
 
 * 兩個或更多個 Target 重新導向選件
 
-   請參閱[建立重新導向選件](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html)。
-* 具有每個選件的體驗以及所需[成功量度](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html)的 Target 活動。
+   See [Create redirect offer](/help/c-experiences/c-manage-content/offer-redirect.md).
+* 具有每個選件的體驗以及所需[成功量度](/help/c-activities/r-success-metrics/success-metrics.md)的 Target 活動。
 
-   請參閱[重新導向至 URL](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html)。
+   請參閱[重新導向至 URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
 在設定整合的 Campaign 部分之前，請先在 Target 中啟動活動。
 
