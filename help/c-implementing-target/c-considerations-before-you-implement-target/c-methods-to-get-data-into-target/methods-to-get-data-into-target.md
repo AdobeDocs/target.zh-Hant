@@ -9,7 +9,7 @@ title: 將資料傳入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 * 如果後續的頁面/伺服器呼叫需要使用資料來鎖定目標，則資料必須轉移至設定檔指令碼。
 * 查詢字串僅可包含符合[網際網路工程任務小組 (IETF) 標準](https://www.ietf.org/rfc/rfc3986.txt)的字元。
 
-   除了IETF網站上提及的內容外，Target還允許查詢字串中的下列字元：
+   除了在 IETF 網站上提到的字元外，Target 也允許在查詢字串中包含下列字元:
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -336,8 +336,8 @@ Target Standard 客戶可使用 5 個屬性，Target Premium 客戶可使用 200
 
 ### 代碼範例
 
-如需詳細資料，請參閱[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### 相關資訊的連結
 
-[建立客戶屬性來源及上傳資料檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[建立客戶屬性來源及上傳資料檔案](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
