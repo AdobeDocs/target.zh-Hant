@@ -8,7 +8,7 @@ title: 可視化體驗撰寫器最佳作法和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -82,17 +82,6 @@ OR
 **在內嵌元素內避免有區塊層級元素。**
 
 區塊層級元素不應該用於內嵌元素內，例如錨點、span 等等。這樣做會造成內嵌元素失去高度和寬度，導致可視化體驗撰寫器中的套版工具可能無法正常運作。
-
-**針對傳統 mbox 來更新選件時，請確定 mbox 是依照 Target Classic 說明中的[建立單一 Mbox](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)所述而建立。**
-
-如果您考慮將一個元素或一組元素放在 mbox 中，請以 `class mboxDefault` 的新 div 來包住元素:
-
-```
-<div class="mboxDefault">
-    //Content goes here 
-</div> 
-<script> mboxCreate('mboxName'); </script>`
-```
 
 **請勿在網站中使用 base 標記來解析 URL 和連結。**
 
