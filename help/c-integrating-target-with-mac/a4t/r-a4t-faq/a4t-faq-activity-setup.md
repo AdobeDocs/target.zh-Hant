@@ -8,7 +8,7 @@ title: 活動設定 - A4T 常見問題集
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 我剛才建立了活動。為何沒看到任何資料進入?   {#section_9F8092BE4225442896F926540292F221}
 
-建立活動時，Target 會將分類檔案傳送至 Analytics。雖然 Analytics 會擷取並處理資料，但要等到分類檔案更新之後，資料才會出現在報表中。這可能需要 24 小時。如果 48 小時之後沒看到資料，請[聯絡客戶服務](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html)。或者，如果您已知將會啟動活動，您可以提前幾天建立活動，在儲存活動時即會傳送分類。於是，啟動後資料即會立即出現在報表中。請注意，Analytics 中處理資料需要 45-90 分鐘。
+建立活動時，Target 會將分類檔案傳送至 Analytics。雖然 Analytics 會擷取並處理資料，但要等到分類檔案更新之後，資料才會出現在報表中。這可能需要 24 小時。如果 48 小時之後沒看到資料，請[聯絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您已知將會啟動活動，您可以提前幾天建立活動，在儲存活動時即會傳送分類。於是，啟動後資料即會立即出現在報表中。請注意，Analytics 中處理資料需要 45-90 分鐘。
 
 ## 建立新活動時，為何無法選取 Analytics 作為報表來源?   {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
