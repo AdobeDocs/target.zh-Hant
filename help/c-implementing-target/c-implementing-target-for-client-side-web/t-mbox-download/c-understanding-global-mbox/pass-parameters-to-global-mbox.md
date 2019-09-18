@@ -9,7 +9,7 @@ title: 傳遞參數至全域 mbox
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -32,7 +32,7 @@ JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要�
 * JSON 物件
 * 以 &amp; 符號區隔的清單
 
-使用這三個方法來驗證是否正確傳遞參數。您可以使用 [Adobe Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) 來驗證參數傳遞。
+使用這三個方法來驗證是否正確傳遞參數。您可以使用 [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) 來驗證參數傳遞。
 
 在將全域 mbox 新增至頁面之前，您必須定義 JavaScript 函式。名稱必須是 `targetPageParams`。
 
