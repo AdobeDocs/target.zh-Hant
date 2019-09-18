@@ -1,14 +1,14 @@
 ---
 description: 您可以排除極端值以避免影響報表，使少數異常訂單不會影響您的活動結果。異常訂單的範例可能是為整個團隊購買制服的教練，而非購買個別制服的個別購買者。
 keywords: Target;報表;報表設定;極端訂單;極端值
-seo-description: 您可以排除極端值以避免影響報表，使少數異常訂單不會影響您的活動結果。異常訂單的範例可能是為整個團隊購買制服的教練，而非購買個別制服的個別購買者。
-seo-title: 排除極端值
+seo-description: 您可以排除極值，以免影響Adobe target中的報表，如此一來，少數不尋常的訂單不會影響您的活動結果。 異常訂單的範例可能是為整個團隊購買制服的教練，而非購買個別制服的個別購買者。
+seo-title: 在Adobe target報表中排除極端值
 solution: Target
 title: 排除極端值
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **若要從您的報表中排除極端值:**
 
 1. 開啟包括收入或參與量度類型的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;索引標籤。
-1. 按一下齒輪圖示來顯示[!UICONTROL 「報表設定」]選項。
+1. 按一下齒輪表徵圖。
+
+   ![報表設定](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   將顯 [!UICONTROL 示「報表設定] 」對話方塊。
 
    ![步驟結果](assets/exclude_extreme_values.png)
 
 1. 視需要將&#x200B;**[!UICONTROL 「排除極端值」]**&#x200B;選項切換為開啟或關閉。
-1. 按一下&#x200B;**[!UICONTROL 「儲存設定」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
