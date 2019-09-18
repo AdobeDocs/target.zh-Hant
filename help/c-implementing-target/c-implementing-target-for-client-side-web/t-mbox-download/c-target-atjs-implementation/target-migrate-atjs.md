@@ -8,7 +8,7 @@ title: 如何從 mbox.js 移轉至 at.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    >[!NOTE]
    >
-   >如果您目前未使用標籤管理程式來部署 [!DNL Target]，現在不妨考慮使用。Adobe 的[動態標籤管理](https://dtm.adobe.com)供 [!DNL Target] 客戶免費使用，且是部署 [!DNL Target] 的建議方法。如需詳細資訊，請參閱[用動態標籤管理來實施 Adobe Target 的最佳作法](https://marketing.adobe.com/resources/help/en_US/dtm/target/)。
+   >如果您目前未使用標籤管理程式來部署 [!DNL Target]，現在不妨考慮使用。Adobe 的[動態標籤管理](https://dtm.adobe.com)供 [!DNL Target] 客戶免費使用，且是部署 [!DNL Target] 的建議方法。如需詳細資訊，請參閱[用動態標籤管理來實施 Adobe Target 的最佳作法](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)。
 
 1. 確認所有目前的活動和整合皆如預期般運作。
 
