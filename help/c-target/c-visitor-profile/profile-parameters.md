@@ -1,27 +1,27 @@
 ---
-description: 描述檔屬性為訪客專屬的參數。這些屬性會儲存在訪客的描述檔中，以提供可用於Adobe Target活動的訪客相關資訊。
+description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
 keywords: 設定檔指令碼;設定檔指令碼屬性;設定檔指令碼最佳作法;除錯
-seo-description: 描述檔屬性為訪客專屬的參數。這些屬性會儲存在訪客的描述檔中，以提供可用於Adobe Target活動的訪客相關資訊。
-seo-title: Adobe Target中的描述檔屬性
+seo-description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
+seo-title: Adobe Target 中的設定檔屬性
 solution: Target
 title: 設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
 
 # 設定檔屬性{#profile-attributes}
 
-描述檔屬性是訪客專屬的參數。這些屬性會儲存在訪客的描述檔中，以提供可用於活動的訪客相關資訊。
+描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於活動的訪客資訊。
 
-當訪客瀏覽您的網站，或當訪客返回另一個作業時，可使用儲存的描述檔屬性來定位群體篩選的內容或記錄資訊。
+當訪客瀏覽網站或返回另一個工作階段時，可以使用儲存的描述檔屬性來定位內容，或是記錄群體篩選資訊。
 
 若要建立設定檔屬性，請按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 設定檔指令碼」]**。
 
-![描述檔指令碼標籤](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+![設定檔指令碼標籤](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 可用的設定檔屬性類型如下:
 
@@ -54,7 +54,7 @@ source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 然後您可以編輯對象以建立類似的對象。
 
-![建立描述檔指令碼對話方塊](assets/profile-script.png)
+![建立設定檔指令碼對話方塊](assets/profile-script.png)
 
 設定檔指令碼會針對每個位置請求，執行設定檔屬性「捕捉器」。收到位置請求時，Target 會決定應執行的活動，並顯示適合該活動及該體驗的內容、追蹤活動成功與否，並且執行任何相關的設定檔指令碼。這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。這些資訊會接著加到該訪客的描述檔中，以便您更有效追蹤訪客在您網站上的活動。
 
@@ -70,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 在程式碼中使用 `user.get('parameterName')` ') 來參照設定檔指令碼屬性 (包括本身)
 * 儲存下次執行此指令碼時 (下一個 mbox 請求時) 可存取包含 `user.setLocal('variable_name', 'value')` ') 的變數。參考包含 `user.getLocal('variable_name')` ') 的變數。這對您想要參考上次請求的日期與時間的情況下非常有用。
-* 參數和值區分大小寫。符合活動或測試期間您將收到的參數和值大小寫。
+* 參數和值區分大小寫。請符合活動或測試期間所收到參數與值的大小寫。
 * 如需更多 JavaScript 語法，請參閱以下「指令碼設定檔參數的 JavaScript 參考資料」一節。
 
 ## 檢視設定檔指令碼資訊卡 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -81,11 +81,11 @@ if (mbox.name == 'Track_Interest') {
 
 [!UICONTROL 「指令碼資訊」]索引標籤包含下列資訊: 名稱、狀態、Token 類型、指令碼 ID、變更記錄，以及說明。
 
-![描述檔指令碼資訊卡](assets/profile_script_info_card.png)
+![設定檔指令碼資訊卡](assets/profile_script_info_card.png)
 
 [!UICONTROL 「指令碼使用方式」]索引標籤會列出參照所選取設定檔指令碼的活動 (及其工作區)。
 
-![描述檔指令碼資訊卡&gt;指令碼使用標籤](assets/profile_script_info_card_usage_tab.png)
+![設定檔指令碼資訊卡 &gt; 指令碼使用方式標籤](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -125,7 +125,7 @@ if (mbox.name == 'Track_Interest') {
 * 請勿超過 1,300 個字元或 50 個迴圈反覆。
 * 請勿超過 2,000 個 JavaScript 指令。Target 具有每個指令碼 2,000 個 JavaScript 指示的限制，但這無法僅透過手動讀取 JavaScript 來計算。例如，Rhino 將所有函數呼叫和「新的」呼叫視為 100 個指示。此外，任何輸入資料的大小，例如 URL 值，皆可能影響指示計數。
 * 不僅要注意指令碼效能，還要注意所有指令碼的綜合效能。我們建議的最佳作法是總共少於 5,000 條指示。指示的計算數量並不明顯，但需要注意的重要事項是超過 2 KB 的指令碼會自動停用。您可以執行的指令碼數量沒有設定限制，但每個指令碼會在每次 mbox 呼叫時執行。視需要執行多個指令碼。
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. 如果此類Regex符合足夠長的輸入資料(最低可達幾百個字元)，則會中斷指令碼執行。
+* 在規則運算式中，在開頭具有點星(例如： `/.*match/`) `/a|.*b/`幾乎不需要。 規則運算式搜尋會從字串中的所有位置開始(除非系結為 `^`)，因此已假設dot-star。 如果這種規則運算式與足夠長的輸入資料（可能低至幾百個字元）相符，則指令碼執行可中斷。
 * 如果全部失敗，將指令碼包覆在 try/catch 中。
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ if (mbox.name == 'Track_Interest') {
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ if (!user.get('twogroups')) {
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ if (!user.get('fourgroups')) {
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
