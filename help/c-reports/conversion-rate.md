@@ -8,7 +8,7 @@ title: 轉換率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -107,7 +107,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 
 [下載的 CSV 報表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
-若要計算這些計算的量度，請下載 [Target 的完整可信度計算機](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel 檔案來輸入活動的值，或是檢閱 [Target 使用的統計計算](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)。
+To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
