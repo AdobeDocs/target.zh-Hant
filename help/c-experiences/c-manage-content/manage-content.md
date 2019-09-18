@@ -7,7 +7,7 @@ solution: Target
 title: 選件
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 此影片包含管理選件的相關資訊。
 
-* [Experience Cloud 資產資料庫](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
