@@ -9,7 +9,7 @@ title: A4T 報表
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -45,7 +45,7 @@ Analytics 和 Target 報表都會測量加入者 (加入測試的人)，而不�
 
 >[!NOTE]
 >
->Analytics 中也提供 Target 提升度和信賴度詳細資料。如需詳細資訊，請參閱 Adobe Analytics 產品說明文件中的 [Target 提升度和信賴度報表類型](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)。
+>Analytics 中也提供 Target 提升度和信賴度詳細資料。如需詳細資訊，請參 [閱「Analytics元件指南」中的](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html)*「目標提升度和可信度」*。
 
 >[!IMPORTANT]
 >
