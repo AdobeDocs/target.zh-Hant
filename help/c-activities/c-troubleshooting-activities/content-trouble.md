@@ -9,7 +9,7 @@ title: 疑難排解內容傳送
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -34,11 +34,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 選取&#x200B;**[!UICONTROL 「mbox.js」]**&#x200B;或&#x200B;**[!UICONTROL 「at.js」]**。
 1. 按一下&#x200B;**[!UICONTROL 「產生驗證 Token」]**。
 
-   ![產生授權Token](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![產生授權 Token](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. 將產生的 Token 當作參數新增至 URL，以啟用其中一個進階偵錯工具。
 
-   ![授權權杖](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![授權 Token](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -102,7 +102,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 如需詳細資訊，請觀看下方的訓練影片:
 
-如需更多詳細資訊，請參閱 [*Adobe Experience Cloud Debugger 擴充功能*&#x200B;文件](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。
+如需詳細資訊，請 [參閱使用Adobe Experience cloud除錯程式除錯at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
 ## 如果在傳送期間 target.js 無法載入 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -148,9 +148,9 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
 您可在瀏覽器中或使用 mboxTrace 來檢查 mbox 回應。請參閱 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 以取得有效 URL 的詳細資訊。
 
-## mbox未在我的網站上引發。
+## 我的網站未觸發 mbox。
 
-at. js不會引發Target mbox，如果您使用無效的doctype。at.js 需要 HTML 5 doctype。
+如果您使用無效的 doctype，at.js 則不會觸發 Target mbox。at.js 需要 HTML 5 doctype。
 
 ## 訓練影片
 
