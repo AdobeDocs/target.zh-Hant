@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
+source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 ---
 
@@ -139,7 +139,7 @@ source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
          + [在行動版 VEC 中設定點擊追蹤](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 伺服器端: 實作 Target {#server-side}
-      + [與伺服器端實作相關的發行](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [發行說明- API和SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [伺服器端: 實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [從 Target 舊版 API 轉變為 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子郵件: 實作 Target {#implement-email}
