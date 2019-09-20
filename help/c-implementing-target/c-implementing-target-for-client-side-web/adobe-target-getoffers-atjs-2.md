@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 adobe.target.getOffers() 函數的資訊。 '
-keywords: adobe. target. getOffers；GetOffers；getofffer；取得優惠；at. js；函數；函數
+keywords: adobe.target.getOffers;getOffers;get offers;at.js;function;function
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers() 函數的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -23,8 +23,8 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。此金鑰是每位訪客的唯一字串。 |
-| 要求 | 物件 | 是 | 請參閱下方的「要求」表格。 |
+| consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。此索引鍵是每個訪客的唯一字串。 |
+| 請求 | 物件 | 是 | 請參閱下方的「要求」表格。 |
 | timeout | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
 
 ## 請求
@@ -33,9 +33,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 | --- | --- | --- | --- |
 | request &gt; id | 無 |  | `tntId`、`thirdPartyId` 或 `marketingCloudVisitorId` 其中一個是必要項目。 |
 | request &gt; id &gt; thirdPartyId | 無 | 大小上限 = 128 |  |  |
-| Request&gt; Experience Cloud | 無 |  |  |
-| Request&gt; Experience Cloud&gt;分析 | 無 |  | Adobe Analytics整合 |
-| 「請求&gt;體驗Cloud&gt;分析&gt;記錄」 | 無 | 下列必須實施於頁面：<ul><li>訪客 ID 服務</li><li>AppMeasurement. js</li></ul> | 支援下列值：<br>**client_ side**：指定後，會將分析裝載傳回回呼叫者，該呼叫者應透過「資料插入API」傳送至Adobe Analytics。<br>**server_ side**：This is the default value where the default value where the Target and Analytics後端will using the SID to stiming the callcom一起for reporting. |
+| Request &gt; experienceCloud | 無 |  |  |
+| Request &gt; experienceCloud &gt; analytics | 無 |  | Adobe Analytics 整合 |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | 無 | 必須在頁面上實作下列項目:<ul><li>訪客 ID 服務</li><li>Appmeasurement.js</li></ul> | 支援以下的值:<br>**client_side**: 指定後，會向呼叫者傳回分析裝載，呼叫者應將其用來透過資料插入 API 傳送給 Adobe Analytics。<br>**server_side**: 這是預設值，其中 Target 和 Analytics 後端會使用 SDID 將多個呼叫拼接在一起以用於報表用途。 |
 | request &gt; prefetch | 無 |  |  |
 | request &gt; prefetch &gt; views | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭<br>不允許的名稱: 「orderId」、「orderTotal」、「productPurchasedId」 | 傳遞參數以用於擷取使用中活動內的相關檢視。 |
 | request &gt; prefetch &gt; views &gt; profileParameters | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭 | 傳入設定檔參數以用於擷取使用中活動內的相關檢視。 |
@@ -74,8 +74,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## 呼叫getOffers()以從用戶端擷取分析裝載
+## 呼叫 getOffers() 以從用戶端擷取分析裝載
 
 ```
 adobe.target.getOffers({
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-然後，您可以透過 [「資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)」轉送裝載至Adobe Analytics。
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料 {#multiple}
 
