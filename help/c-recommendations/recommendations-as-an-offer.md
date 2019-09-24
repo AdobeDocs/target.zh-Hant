@@ -8,7 +8,7 @@ title: 建議作為選件
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
    >
    >若為 A/B 測試，您可以選擇[「自動分配」](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/c-activities/auto-target-to-optimize.md)選項，以便根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
+1. 建立[體驗](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增建議作為選件的元素，選取&#x200B;**[!UICONTROL 插入在前]**、**[!UICONTROL 插入在後]**&#x200B;或&#x200B;**[!UICONTROL 取代為]**&#x200B;動作，然後選取[!UICONTROL 建議]。
 
    下圖顯示[!UICONTROL 「插入在後 &gt; 建議」]選項。
 
@@ -116,8 +116,12 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
-* 結果準備就緒
-* 結果尚未就緒
-* 摘要失敗
+* 結果就緒
+* 結果未就緒
+* 動態消息失敗
 
 ![Recommendations選件狀態](/help/c-recommendations/assets/recs-offer-status.png)
+
+## 訓練影片：建議作為選件
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=chi_hant)
