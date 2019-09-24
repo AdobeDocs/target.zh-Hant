@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ---
 
@@ -120,7 +120,7 @@ source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ## 預計條件處理時間 {#process-time}
 
-儲存條件後，會計算 [!DNL Target] 建議。 此計算需要一些時間執行，而時間範圍會根據選取的建議邏輯、資料範圍、型錄中的項目數、客戶產生的行為資料量以及選取的行為資料來源而有所不同。 行為資料來源對處理時間的影響最大，如下所示：
+儲存包含准則的活動後，會根 [!DNL Target] 據選取的「系列」和「准則」計算建議。 此計算需要一些時間執行，而時間範圍會根據選取的建議邏輯、資料範圍、型錄中的項目數、客戶產生的行為資料量以及選取的行為資料來源而有所不同。 行為資料來源對處理時間的影響最大，如下所示：
 
 ### mbox
 
