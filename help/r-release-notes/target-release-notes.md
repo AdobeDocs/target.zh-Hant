@@ -1,14 +1,14 @@
 ---
-description: 發行說明，提供最新或即將到來[！DNL Adobe Target]發行。
+description: 提供最新或即將發行的[!DNL Adobe Target]版本功能、增強功能和修正資訊的發行說明。
 keywords: 版本說明
-seo-description: 發行說明，提供最新或即將到來[！DNL Adobe Target]發行。
+seo-description: 提供最新或即將發行的[!DNL Adobe Target]版本功能、增強功能和修正資訊的發行說明。
 seo-title: Adobe Target 版本說明 (發行前)
 solution: Target
 title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新: 2019 年 9 月 6 日**
+**上次更新: 2019 年 9 月 24 日**
 
 >[!NOTE]
 >
@@ -27,32 +27,32 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ## 公告
 
-**2019年月31日**
+**2019年7月31日**
 
-[!UICONTROL 企業權限] 可讓 [!DNL Target] 客戶使用單一組織，但將其分為不同團隊或工作流程的工作區。[!UICONTROL 企業權限] 功能可協助您有效擴展團隊內部的最佳化程式。雖然此功能可在 [!DNL Target] UI中使用，但是Admin API會在2019 [!DNL Target] 年月發行之前，將其對應的支援失效。Adobe已更新管理員API，讓您可以使用整合帳戶存取組織中建立的所有工作區。因此，在舊版中，管理員API僅限於預設工作區，2019年月更新授予所有具有 [!UICONTROL 核准者] 存取權的工作區存取權。
+[!UICONTROL 「企業權限] 」可 [!DNL Target] 讓客戶使用單一組織，但可將其分為適用於不同團隊或工作流程的工作區。 「企 [!UICONTROL 業權限] 」功能有助於跨團隊有效縮放最佳化計畫。 雖然此功能可在UI中使用， [!DNL Target] 但管理API在2019年2月發行之前，都缺乏相 [!DNL Target] 應的支援。 Adobe已更新管理API，讓您可以使用整合帳戶存取組織中建立的所有工作區。 因此，雖然之前的管理API僅限於預設工作區，但2019年2月的更新會授與所有具有核准者存取權的工作區 [!UICONTROL 的存] 取權。
 
-在即將 [!DNL Target] 推出的2019年月發行版本中 [!UICONTROL ，企業權限] 將為客戶提供下列存取控制：
+在即將推出的2019 [!DNL Target] 年9月版 [!UICONTROL 本中，「企業權限] 」將為客戶提供下列存取控制：
 
-* 您可以選擇可套用整合的工作區
-* 您可以將角色套用至Adobe I/整合： [!UICONTROL 核准者]、 [!UICONTROL 編輯者]或 [!UICONTROL 觀察員]。
+* You can choose the workspaces to which the integration can be applied
+* 您可以將角色套用至Adobe I/O整合：核 [!UICONTROL 準者]、 [!UICONTROL 編輯者]或觀 [!UICONTROL 察者]。
 
-**必要動作**：目前針對所有工作區運用API for資源(活動、對象、選件和報告)的客戶，都需要將現有的Adobe I/整合存取權授與所有工作區的所需角色。在月發行版本之前，所有使用 [!UICONTROL 核准者] 存取的整合都會使用，不論從 [!UICONTROL 「產品角色」] 下拉式清單中選取的角色為何。在即將發行的版本中，您現在可以選取所需的角色。
+**需要執行的動作**:目前在所有工作區間運用API進行資源（活動、觀眾、優惠和報告）的CRUD作業的客戶，必須授與其現有的Adobe I/O整合存取權給具有所需角色的所有工作區。 在9月發行之前，所有整合都會使用 [!UICONTROL Approver] （核准者）存取權來運作，不論從「產品角色  」下拉式清單中選取的角色為何。 在即將發行的版本中，您現在可以選取所要的角色。
 
-此動作應在2019 **年月的月份**&#x200B;執行。在2019 [!DNL Target] 年月發行後，存取控制將會啓動，而且如果這是您目前設定的方式，您將觀察到僅限預設工作區。預先設定整合角色並沒有負面影響。
+此動作應於2019年8月 **執行**。 After the  September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. [!DNL Target]預先設定整合角色並無不良後果。
 
-如需逐步指示和更多資訊，請參閱 [「授予Adobe I/O整合存取工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)」。
+如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。
+
+## Target Standard/Premium 19.9.2 (2019 年 9 月 30 日)
+
+此維護髮行包含下列增強功能：
+
+* 數項安全性修正，包括Visual Experience Composer(VEC)中Rich Text Editor(RTE)的安全性更新。 (TGT-35383)
 
 ## Target Standard/Premium 19.9.1 (2019 年 9 月 10 日)
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Premium徽章](/help/assets/premium.png) 企業權限 | 在Target2014年月發行的版本中，企業權限為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/整合：核准者、編輯者或觀察員。</li></ul>如需逐步指示和更多資訊，請參閱 [「授予Adobe I/O整合存取工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)」。 |
-
-## Target Standard/Premium 19.9.2 (2019 年 9 月 24 日)
-
-此維護發行包含下列增強功能：
-
-* 數個安全性修正，包括對Visual Experience Composer(CMS)中Rich Text Editor(RTE)的安全性更新。(TGT-35383)
+| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | 在Target 2019年9月發行中，「企業權限」為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/O整合：批准者、編輯者或觀察者。</li></ul>如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
