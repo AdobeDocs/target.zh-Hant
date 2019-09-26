@@ -8,7 +8,7 @@ title: 設計概覽
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -91,7 +91,7 @@ Target 也可以將您的建議當成 JSON 物件來傳送，然後就可用於�
 | 參數 | 值 |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 用戶端代碼 (位於 ../target/products.html#recsSettings  &gt; Recommendations API Token &gt; 用戶端代碼。 |
-| `[YOUR_MBOX_NAME]` | 您在表單式「建議」的「位置」區段中選取的名稱，此例子中是 YOUR_CLIENT_CODE。 |
+| `[YOUR_MBOX_NAME]` | The name you've selected in the "locations" section of the form-based Recommendations, in this case Sample_Recs_Response. |
 | `[ENTITY_ID`] | 目錄中之項目的 `entity.id`。 |
 | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
 
