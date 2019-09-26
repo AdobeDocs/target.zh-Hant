@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -141,6 +141,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
    + 伺服器端: 實作 Target {#server-side}
       + [發行說明- API和SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [伺服器端: 實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [功能標幟](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [從 Target 舊版 API 轉變為 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子郵件: 實作 Target {#implement-email}
       + [電子郵件: 實作 Target 概覽](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
