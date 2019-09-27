@@ -1,14 +1,14 @@
 ---
 description: 此頁面列出對 Target 文件的重要變更。
 keywords: target 文件變更記錄;文件更新
-seo-description: 本頁列出對Adobe target檔案所做的重要變更。
-seo-title: Adobe Target產品檔案中的檔案變更。
+seo-description: This page lists important changes made to the Adobe Target documentation.
+seo-title: Documentation changes in the Adobe Target product documentation.
 solution: Target
 title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
 
 ---
 
@@ -21,25 +21,24 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019 年 9 月 26 日 | [功能標幟](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md) |  新主題。 |
-| September 24, 2019 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | Changed date of the Target/Standard 19.2.1 release to September 30, 2019. |
+| September 24, 2019 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 將Target/Standard 19.2.1發行的日期變更為2019年9月30日。 |
 |  | [選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md) | 已新增培訓影片。 |
-| 2019 年 9 月 10 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Standard/Premium 19.9.1版的資訊。 |
-| September 9, 2019 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 已新增「考量事項」區段。 |
-|  | [Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 更新整個主題的文字。 |
-|  | [Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) |  新主題。 |
-| 2019年9月6日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 19.9.1（2019年9月10日）版本的資訊。 |
+| 2019 年 9 月 10 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 19.9.1 release. |
+| 2019年9月9日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
+|  | [Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
+|  | [內容安全性政策(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) |  新主題。 |
+| 2019年9月6日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 19.9.1 (September 10, 2019) release. |
 |  | [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) |  新主題。 |
 | 2019 年 9 月 4 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
 | 2019 年 8 月 23 日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | Updated code snippet in .`AndroidManifest.xml` |
-| 2019 年 8 月 22 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 已移除在行動應用程式ID中使用禁止字元的相關資訊。 現在不再有限制。 |
+| 2019 年 8 月 22 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Removed information about using prohibited characters in mobile app IDs. There are no longer restrictions. |
 |  | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新增區段："考量。" |
-|  | [上傳自訂條件](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Updated following sentence: Custom criteria updates are by default "cumulative." CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。CSV上傳中未指定金鑰的現有金鑰值配對仍可供傳送，且將在CSV檔案上次上傳後31天內到期。 |
-| 2019年8月20日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | Postponed the Target/Premium 19.8.1 release (August 20, 2019). Content from this release will be rolled into the 19.9.1 release (September 24, 2019). |
-|  | [設計常見問題集](/help/c-recommendations/c-design-overview/template-faq.md) | Added the following FAQ: "My recommended item's price isn't displaying both values to the right of the decimal point. How can I display them?" |
-| 2019 年 8 月 16 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | Added new section: "Considerations." |
+|  | [上傳自訂條件](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新以下句子：自訂條件更新預設為「累積」。 CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。CSV上傳中未指定金鑰的現有金鑰值配對仍可供傳送，且將在CSV檔案上次上傳後31天內到期。 |
+| 2019年8月20日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 推遲Target/Premium 19.8.1版（2019年8月20日）。 此發行的內容將會轉入19.9.1發行（2019年9月24日）。 |
+|  | [設計常見問題集](/help/c-recommendations/c-design-overview/template-faq.md) | 新增下列常見問答：「我建議的項目價格不會在小數點右側顯示兩個值。 我要如何展示？」 |
+| 2019 年 8 月 16 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新增區段："考量。" |
 |  | [建立 Recommendations 活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 已新增培訓影片。 |
-|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | Added training videos. |
+|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增訓練影片。 |
 |  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 已新增培訓影片。 |
 |  | [上傳自訂條件](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 已新增培訓影片。 |
 |  | [建立條件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 已新增培訓影片。 |
@@ -48,35 +47,35 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 |  | [排除項目](/help/c-recommendations/c-products/exclusions.md) | 已新增培訓影片。 |
 | 2019 年 8 月 14 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新文字並新增培訓視訊連結。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已收集有關密鑰的 `consumerID` 資訊。 |
-|  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Updated information in the "Layout &gt; Move" section. |
-| August 12, 2019 | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 已更新相關性和對象的資訊。<br>更新檔案的程式碼 `AndroidManifest.XML` 範例。 |
+|  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 已更新「版面&gt;移動」區段中的資訊。 |
+| 2019年8月12日 | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 已更新相關性和對象的資訊。<br>更新檔案的程式碼 `AndroidManifest.XML` 範例。 |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 更新「Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1」區段中的增強功能和修正清單。 |
 |  | [編輯活動或另存為草稿](/help/c-activities/edit-activity.md#classic) | 新增區段：「使用Recommendations Classic中建立的舊式活動。」 |
 | 2019 年 8 月 9 日 | [at.js 如何運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 新增區段："How at.js renders offers with HTML content." |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 新增區段："考量。" |
 | 2019年8月7日 | [預先擷取選件內容](/help/c-target-mobile-app/prefetch-offer-content.md) | 已新增注意，「自動目標」、「自動分配」和「自動個人化」活動類型不支援SDK中的預回遷功能。 |
 |  | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 更新附註，指出分類程式完成所需的時間。 |
-|  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Updated note indicating how long the classification process takes to complete. |
-|  | [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Updated topic to include information about the California Consumer Privacy Act (CCPA). |
-| 2019年8月6日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | Added release notes for the Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.0 release. |
-|  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Updated the following section: "Expected criteria processing time." |
+|  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新附註，指出分類程式完成所需的時間。 |
+|  | [隱私權與資料保護法規](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新主題以包含加州消費者隱私權法案(CCPA)的相關資訊。 |
+| 2019年8月6日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增Target Mobile VEC SDK iOS 2.1.0和Android 1.1.0版的發行說明。 |
+|  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 已更新下列章節："預期的條件處理時間。" |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新中使用「活 [!UICONTROL 動印象] 」和「 [!UICONTROL 活動轉換] 」度量的考慮 [!DNL Analysis Workspace]。 |
-| August 1, 2019 | [Target Release notes (current)](/help/r-release-notes/release-notes.md) | 已新增有關企業權限API支援的重要公告。 |
+| 2019年8月1日 | [Target發行說明（目前）](/help/r-release-notes/release-notes.md) | 已新增有關企業權限API支援的重要公告。 |
 |  | [將Adobe I/O整合存取權授與工作區並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |  新主題。 |
 | 2019 年 7 月 31 日 | [Recommendations簡介](/help/c-recommendations/introduction-to-recommendations.md) |  新主題。 |
 |  | [Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 新增附註至最近檢視的項目。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 新增「活動QA」預覽連結的已知問題。 |
 | 2019 年 7 月 29 日 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | 新增常見問答：「我的體驗定 [!UICONTROL 位] (XT)報表為何包含控制體驗的量度？」 |
-| 2019 年 7 月 24 日 | [從at.js 1.*x升級* 至at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: Cross-domain tracking support in at.js 2.x[](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| 2019 年 7 月 24 日 | [Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: Cross-domain tracking support in at.js 2.x[](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention(ITP)2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |  新主題。 |
-|  | [選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新增區段：「檢視建議選件的狀態。」 |
-|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已更新「匯入項目」列，並在「動態消息狀態」下新增「 *Feed Imported Successfully at*」 [列](/help/c-recommendations/c-products/feeds.md#status)。 |
-|  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md) | 更新目錄重新整理方式的文字。 |
-|  | [在行動應用程式 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 已新增有關「修改」面板的資訊，以顯示您為點按追蹤設定的元素。 |
-|  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 新增區段："機器人" |
-|  | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 已新增最佳實務，以避免執行速度緩慢的regex。 |
-|  | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. 限制僅適用於ID。 |
-|  | [動態消息](/help/c-recommendations/c-products/feeds.md#steps) | 將支援的FTP伺服器設定新增至步驟。 |
+|  | [選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md#status) | Added new section: "Viewing the recommendations offer's status." |
+|  | [動態消息](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at time" row under Feed Statuses.**[](/help/c-recommendations/c-products/feeds.md#status) |
+|  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md) | Updated text about how the catalog is refreshed. |
+|  | [在行動應用程式 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Added information about the Modifications panel that shows elements you have set up for click-tracking. |
+|  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | Added new section: "Bots." |
+|  | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Added best practices to avoid slow regex execution. |
+|  | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. The restrictions apply to IDs only. |
+|  | [動態消息](/help/c-recommendations/c-products/feeds.md#steps) | Added supported FTP server settings to steps. |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.1.1 的資訊。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.7.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
