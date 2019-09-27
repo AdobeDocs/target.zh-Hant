@@ -7,7 +7,7 @@ solution: Target
 title: A/B 測試該執行多久?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -34,7 +34,7 @@ Target 提供的工具可幫助確保您的活動有足夠的樣本大小，以�
 
    如需詳細資訊，請參閱[自動分配](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-* **Target 樣本大小計算機:** 若您選擇使用手動 A/B 測試而非自動分配，則 Target 樣本大小計算機可協助您確定成功測試所需的樣本大小。如需有關如何使用此計算機的詳細資訊，請繼續閱讀。
+* **Target 樣本大小計算機:** 若您選擇使用手動 A/B 測試而非自動分配，則 Target 樣本大小計算機可協助您確定成功測試所需的樣本大小。手動A/B測試是固定水準測試，因此計算器非常有用。 使用自動分配活動的計算器是可選的，因為自動分配將為您聲明一個成功者。 電腦可粗略估計所需的樣本大小。 如需有關如何使用此計算機的詳細資訊，請繼續閱讀。
 
 ## Adobe Target 樣本大小計算機 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
