@@ -8,7 +8,7 @@ title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -171,7 +171,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 **使用自動分配時，我可以利用樣本大小計算機來預估活動識別出獲勝者所需的時間嗎?**
 
-您可以利用現有的[樣本大小計算機](https://docs.adobe.com/content/target-microsite/testcalculator.html)，並適當套用 Bonferroni 校正，以取得測試執行時間長短的預估值。在我們的範例中，已看到自動分配活動遠比此樣本大小更早結束。
+您可以利用現有的[樣本大小計算機](https://docs.adobe.com/content/target-microsite/testcalculator.html)，並適當套用 Bonferroni 校正，以取得測試執行時間長短的預估值。使用自動分配活動的計算器是可選的，因為自動分配將為您聲明一個成功者。 電腦可粗略估計所需的樣本大小。 在我們的範例中，已看到自動分配活動遠比此樣本大小更早結束。
 
 **是否應從自動分配活動中移除表現欠佳的體驗，以加速決定獲勝者的程序?**
 
