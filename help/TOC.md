@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
 
 ---
 
@@ -137,11 +137,10 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
          + [Android - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [在行動版 VEC 中設定點擊追蹤](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 伺服器端: 實作 Target {#server-side}
-      + [發行說明- API和SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [伺服器端: 實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [功能標幟](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [從 Target 舊版 API 轉變為 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子郵件: 實作 Target {#implement-email}
       + [電子郵件: 實作 Target 概覽](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
@@ -279,7 +278,7 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
       + [設定檔屬性](c-target/c-visitor-profile/profile-parameters.md)
       + [類別相關性](c-target/c-visitor-profile/category-affinity.md)
       + [客戶屬性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyId的即時描述檔同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [設定檔和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 鎖定目標和對象常見問題集 {#faq-audiences}
       + [鎖定目標和對象常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -343,7 +342,7 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
    + [報表常見問題集](c-reports/reporting-frequently-asked-questions.md)
 + 建議 {#recommendations}
    + [建議概覽](c-recommendations/recommendations.md)
-   + [Recommendations簡介](c-recommendations/introduction-to-recommendations.md)
+   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [計劃和實作建議](c-recommendations/plan-implement.md)
    + 實體 {#entities}
       + [實體概覽](c-recommendations/c-products/products.md)
