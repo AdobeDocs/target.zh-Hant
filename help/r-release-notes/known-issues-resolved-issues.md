@@ -1,14 +1,14 @@
 ---
 description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
-keywords: 已知問題;已解決的問題;版本說明
-seo-description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
+keywords: 已知問題;已解決的問題;版本說明;bugs;issues;fixes
+seo-description: Information about known issues for this release of Adobe Target. 也包括關於已解決之問題的資訊。
 seo-title: Adobe Target 中的已知問題和已解決的問題
 solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ### 活動QA預覽連結 {#preview}
 
-[如果帳戶中儲存的活動過多](/help/c-activities/c-activity-qa/activity-qa.md) ，儲存的活動的活動QA預覽連結可能無法載入。 重新嘗試預覽連結應能運作。 為防止這種情況繼續發生，請封存已儲存且不再被使用的活動。 (TNT-32697)
+[Activity QA preview](/help/c-activities/c-activity-qa/activity-qa.md) links for saved activities might not load if there are too many saved activities in your account. 重新嘗試預覽連結應能運作。 為防止這種情況繼續發生，請封存已儲存且不再被使用的活動。 (TNT-32697)
 
 ### 重新導向選件 {#redirect}
 
