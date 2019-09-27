@@ -1,14 +1,14 @@
 ---
-description: 提供最新或即將發行的[!DNL Adobe Target]版本功能、增強功能和修正資訊的發行說明。
-keywords: 版本說明
-seo-description: 提供最新或即將發行的[!DNL Adobe Target]版本功能、增強功能和修正資訊的發行說明。
+description: 提供最新或即將發行的Adobe target版本功能、增強功能和修正資訊的發行說明。
+keywords: 發行說明；發行；更新；未來發行；增強；新功能；修正
+seo-description: 提供最新或即將發行的DNL Adobe target版本功能、增強功能和修正資訊的發行說明。
 seo-title: Adobe Target 版本說明 (發行前)
 solution: Target
 title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -33,12 +33,12 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 在即將推出的2019 [!DNL Target] 年9月版 [!UICONTROL 本中，「企業權限] 」將為客戶提供下列存取控制：
 
-* You can choose the workspaces to which the integration can be applied
+* 您可以選擇可套用整合的工作區
 * 您可以將角色套用至Adobe I/O整合：核 [!UICONTROL 準者]、 [!UICONTROL 編輯者]或觀 [!UICONTROL 察者]。
 
 **需要執行的動作**:目前在所有工作區間運用API進行資源（活動、觀眾、優惠和報告）的CRUD作業的客戶，必須授與其現有的Adobe I/O整合存取權給具有所需角色的所有工作區。 在9月發行之前，所有整合都會使用 [!UICONTROL Approver] （核准者）存取權來運作，不論從「產品角色  」下拉式清單中選取的角色為何。 在即將發行的版本中，您現在可以選取所要的角色。
 
-此動作應於2019年8月 **執行**。 After the  September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. [!DNL Target]預先設定整合角色並無不良後果。
+此動作應於2019年8月 **執行**。 在2019年9 [!DNL Target] 月發行後，存取控制項將會啟動，而且您會觀察到，如果您目前是這樣設定，您只會看到預設工作區的存取權。 預先設定整合角色並無不良後果。
 
 如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。
 
@@ -52,7 +52,7 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | 在Target 2019年9月發行中，「企業權限」為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/O整合：批准者、編輯者或觀察者。</li></ul>如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
+| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | 在Target 2019年9月發行中，「企業權限」為客戶提供下列存取控制：<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.</li></ul>For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
