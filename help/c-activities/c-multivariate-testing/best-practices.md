@@ -1,8 +1,8 @@
 ---
-description: 協助您改善效能、避免問題，以及修正在Adobe Target中建立和執行多變數測試活動時可能發生的已知問題。
+description: 提供提示，協助您改善效能、避免問題，以及修正在 Adobe Target 中建立和執行多變數測試活動時可能會發生的已知問題。
 keywords: mvt;多變數測試;多變數測試最佳做法;mvt 最佳做法;mvt 組合;mvt 報表
-seo-description: 協助您改善效能、避免問題，以及修正在Adobe Target中建立和執行多變數測試活動時可能發生的已知問題。
-seo-title: 多變數測試使用Adobe Target的最佳實務
+seo-description: 提供提示，協助您改善效能、避免問題，以及修正在 Adobe Target 中建立和執行多變數測試活動時可能會發生的已知問題。
+seo-title: 使用 Adobe Target 的多變數測試最佳實務
 solution: Target
 title: 多變數測試最佳作法
 topic: Standard
@@ -15,13 +15,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 多變數測試最佳作法{#multivariate-test-best-practices}
 
-Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
+提供提示，協助您改善效能、避免問題，以及修正在 [!DNL Adobe Target] 中建立和執行多變數測試 (MVT) 活動時可能會發生的已知問題。
 
 ## 計劃 {#section_4D4A1F6226F042379BF48DB753608579}
 
 * 請注意您的頁面上可能產生顯著結果的位置。
 
-   例如，橫幅或英雄影像可能會導致轉換多於頁尾的變更。在您的測試中包含較不具影響的位置，只會增加測試頁面上更顯著位置所需的流量和時間量。
+   例如，相較頁尾中的變更，橫幅或主圖影像可能會導致更多轉換。在您的測試中包含較不具影響的位置，只會增加測試頁面上更顯著位置所需的流量和時間量。
 * 請提前準備您的頁面變數。
 
    請注意每個選件的內容差異，並建立您預期在 MVT 測試中使用的任何影像、文字和 HTML 選件。
@@ -30,7 +30,7 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
 * 請勿包括多於測試所需的組合。
 
-   每個測試的組合會明顯增加達成可接受的結果所需的流量和時間量。例如，如果您有三個位置有三個選件，則有27個可能的組合(3x3x3)。個位置，其中兩個位置包含三個可能的選件，一個位置有兩個選件，提供18個選項(3x倍)。數量會隨著每個額外的位置和選件增加。
+   每個測試的組合會明顯增加達成可接受的結果所需的流量和時間量。例如，如果有三個位置，每個均具有三個選件，那麼會有 27 個可能組合 (3x3x3)。三個位置，其中的兩個位置包含三個可能選件，而一個位置有兩個選件，那麼可提供 18 個選項 (3x3x2)。數量會隨著每個額外的位置和選件增加。
 
 * 為位置和選件命名。
 
@@ -40,21 +40,21 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
    檢閱測試產生的所有體驗，之後再上線。請確定沒有任何組合具有對立的要求 (例如，在相同的體驗中打八折與折扣 $19) 或不相容的設計 (例如，有相同色彩的背景和字型)。
 
-* Use the [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) to make sure that your test is designed for the amount of traffic your page receives.
+* 使用[流量估算程式](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)來確定您的測試是針對頁面所接收的流量而設計。
 
    確定流量估算程式對您的測試組態指示綠燈，使得您可以取得所需的結果。
 * 建議您每個元素的替代項目之間必須有大幅差異。
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Make frequent use of the [Location Contribution report](/help/c-reports/location-contribution-report.md) to monitor the performance of each location and each offer.
-* In the [Experience Performance report](/help/c-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
+* 經常使用[位置貢獻報表](/help/c-reports/location-contribution-report.md)來監控每個位置和每個選件的效能。
+* 在[體驗效能報表](/help/c-reports/experience-performance-report.md)中，使用「最佳前五名」或「最差前五名」篩選所顯示的資料來進行決策。
 
-   [!UICONTROL 「全部] 」篩選器會很難擷取所需的資訊，而並非所有體驗都能顯示在圖形中。Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
+   [!UICONTROL 全部]篩選器會使得您難以擷取需要的資訊，並且不是所有體驗都可以顯示在圖表中。如果想要查看不在最佳或最差前五名之內的特定體驗，請使用[!UICONTROL 全部]篩選。
 
 ## 後續事項 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. 因此，報表可能無法識別某些變更。只有在選件資料庫中變更 HTML 選件是安全的。
+* 雖然 [!DNL Target] 可讓您編輯已上線的活動，請注意，編輯進行中的活動可能會將測試重設。因此，報表可能無法識別某些變更。只有在選件資料庫中變更 HTML 選件是安全的。
 
    重設體驗名稱和報表的特定動作是:
 
