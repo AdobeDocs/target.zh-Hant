@@ -92,7 +92,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 訓練影片：在Recommendations中建立標準(12：33)
+## 訓練影片：在Recommendations中建立條件(12:33)
 
 此影片包含下列資訊：
 
