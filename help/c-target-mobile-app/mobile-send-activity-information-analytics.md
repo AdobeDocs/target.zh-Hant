@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    剖析在回呼中從 Target 回傳的回應。您可以使用 NSJSONSerialization 來剖析這則回應，以及將回應儲存在字典或陣列中。
 
-   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
+   Refer to the NSJSONSerialization documentation for more information.[](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error)
 1. 將資料傳送到 Analytics。
 
    將剖析後的活動資訊 (如前述回應中的 `tntVal`) 新增到 Analytics 呼叫中的內容資料物件。該 Analytics 呼叫含有內容資料，能立即觸發或等到下次 Analytics 呼叫時再觸發。
