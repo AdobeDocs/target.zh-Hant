@@ -1,7 +1,7 @@
 ---
-description: Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 mbox.js
+description: Adobe target透過兩個JavaScript程式庫之一與網站整合。at.js或mbox.js
 keywords: 概覽和參考資料;SEO;搜尋引擎最佳化
-seo-description: Adobe Target 透過兩個 JavaScript 程式庫之一與網站整合。at.js 或 mbox.js
+seo-description: Adobe target透過兩個JavaScript程式庫之一與網站整合。at.js或mbox.js
 seo-title: Adobe Target 如何運作
 solution: Target
 subtopic: 快速入門
@@ -20,22 +20,22 @@ source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ## Target JavaScript 資料庫 {#libraries}
 
-Adobe Target透過兩個JavaScript程式庫之一，與網站整合：at. js或mbox. js
+Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合: at.js 或 mbox.js
 
 * **at.js**: [at.js 資料庫](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是新的 Target 實作資料庫。at.js 程式庫改善 Web 實作的頁面載入時間，並且為單頁應用程式提供更好的實作選項。at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至[最新版本的 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js:** mbox.js 程式庫為舊版的 Target 實作程式庫。系統仍支援 mbox.js 程式庫，但將不會提供功能更新。
 
 >[!IMPORTANT]
 >
->所有客戶應該移轉至 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>所有客戶應該移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
-您必須在網站上的每個頁面上參考Target JavaScript程式庫檔案。例如，您可以將此檔案新增至全域標頭。或者，請考慮使用 [Adobe Launch標籤管理器](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+您必須在網站的每一個頁面上參照 Target JavaScript 資料庫檔案。例如，您可以將此檔案新增至全域標頭。或者，您也可以考慮使用 [Adobe Launch 標籤管理員](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
 
-每當訪客請求已針對 Target 而最佳化的頁面時，就會傳送請求給目標系統，以決要提供什麼內容給訪客。此程序即時發生：每次載入頁面時，系統就會提出並履行內容要求。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。提供的內容要讓每一位網站訪客最有可能回應、互動、最終購買，以獲得最高的回應率、贏取率、收入。
+每當訪客請求已針對 Target 而最佳化的頁面時，就會傳送請求給目標系統，以決要提供什麼內容給訪客。每次載入頁面時就會立即發生這個程序，亦即提出內容的請求並由系統履行。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。提供的內容要讓每一位網站訪客最有可能回應、互動、最終購買，以獲得最高的回應率、贏取率、收入。
 
-在 Target 中，頁面上的每一個元素都屬於整個頁面的單一體驗。每個體驗都可能包含頁面上的多個元素。
+在 Target 中，頁面上的每一個元素都屬於整個頁面的單一體驗。每一個體驗皆可包含頁面上的多個元素。
 
-顯示給訪客的內容取決於您建立的活動類型：
+對訪客顯示的內容取決於您建立的活動類型。
 
 ### A/B 測試
 
@@ -48,7 +48,7 @@ Adobe Target透過兩個JavaScript程式庫之一，與網站整合：at. js或m
 1. 客戶向伺服器請求頁面，並在瀏覽器中顯示該頁面。
 2. 在客戶瀏覽器中設定第一方 Cookie，以儲存客戶行為。
 3. 頁面呼叫目標系統。
-4. 內容會根據活動的規則顯示。
+4. 根據活動的規則來顯示內容。
 
 ### 自動分配
 
@@ -60,7 +60,7 @@ Adobe Target透過兩個JavaScript程式庫之一，與網站整合：at. js或m
 
 如需詳細資訊，請參閱[自動鎖定目標](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
 
-Auto-Target使用先進的機器學習功能，從多個高效能行銷人員定義的體驗中選擇，並根據每位訪客的個人檔案和類似設定檔的行為，為每位訪客提供最量身打造的體驗，以便個人化內容並推動轉化。
+自動鎖定目標使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。
 
 ### 自動個人化 (AP)
 
@@ -92,31 +92,31 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 「Edge」是按地理區域分配服務的架構，可確保對一般使用者的請求內容有最短的回應時間，無論他們身在何處。
 
-為改善回應時間，Edge環境僅裝載活動邏輯和快取描述檔和選件資訊。活動和選件資料庫、[!DNL Analytics] 資料、API 和市場行銷人員使用者介面都存放在 Adobe 的中央資料環境中。接著會將更新傳送至 Edge 節點。中央環境和Edge節點會自動同步，以持續更新快取的活動資料。1：1模型也會儲存在每個邊緣，因此也可以在Edge上處理更複雜的請求。
+為了改進回應時間，Edge 環境只會控管活動邏輯和已快取的設定檔及選件資訊。活動和選件資料庫、[!DNL Analytics] 資料、API 和市場行銷人員使用者介面都存放在 Adobe 的中央資料環境中。接著會將更新傳送至 Edge 節點。中央環境和 Edge 節點會自動同步，以持續更新已快取的活動資料。也會在每個 Edge 儲存 1:1 模型，因此更複雜的請求也能在 Edge 上處理。
 
 每個 Edge 節點有所有必要的資訊，可回應使用者的內容請求及追蹤該請求的分析資料。使用者請求會被轉至最近的 Edge 節點。
 
-![透過核心邊緣網站和邊緣網站進行地圖對應](assets/edge_network.png)
+![與核心邊緣網站和邊緣網站對應](assets/edge_network.png)
 
-此頁面的來源為 [Adobe Target安全性概述](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 白皮書。
+此影像的來源是 [Adobe Target安全性概觀白皮書](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 。
 
-Adobe Target解決方案裝載於全球擁有Adobe和Adobe租賃的資料中心。管理伺服器完全由位於倫敦、新加坡和美國多個地點的Adobe自有資料中心代管，包括奧勒崗和維吉尼亞州。Edge伺服器在Amazon AWS資料中心(位於倫敦、香港、新加坡、東京和雪梨)的Adobe自有伺服器上代管。
+Adobe Target解決方案代管於全球Adobe擁有和租賃的資料中心。 Admin Server完全由Adobe擁有的倫敦、新加坡資料中心及美國各地（包括俄勒岡和維吉尼亞）的資料中心代管。 Edge Servers托管於位於倫敦、香港、新加坡、東京和雪梨的Amazon AWS資料中心的Adobe擁有和Adobe租賃的伺服器上。
 
-管理伺服器位置包含資料收集中心和資料處理中心。Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
+管理伺服器位置同時包含資料收集中心和資料處理中心。 Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
 
-與其回應單一位置的所有定位要求，請求會由最靠近訪客的Edge環境處理，進而減輕網路/網際網路旅行時間的影響。
+不是由單一位置回應所有鎖定目標請求，而是由最靠近訪客的 Edge 環境來處理請求，因此可減輕網路/網際網路行經時間的影響。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中國並無Edge網路，而在中國 [!DNL Target] 客戶的效能將繼續有限。由於「Great Firewall」(很棒的防火牆)以及國家/地區的Edge節點不足， [!DNL Target] 已部署的網站體驗將會緩慢，而頁面載入也會受到影響。此外，行銷人員在使用 [!DNL Target] 編寫UI時可能會發生延遲。
+>[!DNL Adobe Target] 目前在中國沒有 Edge 網路，中國 [!DNL Target] 客戶的一般使用者效能將繼續受到限制。由於防火長城且該國家內缺乏 Edge 節點，已部署 [!DNL Target] 的網站體驗呈現內容的速度會很緩慢，且頁面載入會受到影響。此外，行銷人員在使用 [!DNL Target] 編寫 UI 時可能會遇到延遲的狀況。
 
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 盡可能確保定位基礎建設的可用度和效能值得信賴。然而，使用者瀏覽器和 Adobe 伺服器之間的通訊中斷可能會造成內容傳輸的中斷。
 
-To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
+為了在發生服務中斷和連線問題的情況下提供保護，所有位置都設定為包含預設內容 (由客戶定義)，在使用者的瀏覽器無法連線到 [!DNL Target] 時就會顯示。
 
-如果使用者的瀏覽器無法在定義的逾時期間內連線(預設為預設)，則不會對頁面進行任何變更：15秒)。如果到達逾時臨界值，則會顯示預設位置內容。
+如果使用者的瀏覽器無法在已定義的逾時期間內連接 (根據預設: 15 秒)，頁面不會有任何變更。如果達到此逾時臨界值，則會顯示預設位置內容。
 
 Adobe 藉由效能最佳化以及保衛效能的方式保護使用體驗。
 
@@ -160,7 +160,7 @@ Google 鼓勵使用者測試，且已於說明文件中表示只要遵守一些�
 
    還必須考量您所測試頁面的可存取性。如果頁面無法供搜尋引擎存取，也從未設計成要在自然搜尋引擎中排在第一名，例如電子郵件行銷活動的專用登陸頁面，則上述考量完全沒必要。
 
-Google指出，遵循這些指引「應該會導致您的測試在搜尋結果中對您的網站沒有任何影響」。
+Google 表示下列這些準則「應該會讓您的測試幾乎或完全不影響您的網站在搜尋結果中的情形」。
 
 除了這些準則，Google 在說明文件中還對「內容實驗」工具多提供一條準則:
 
@@ -172,13 +172,13 @@ Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示�
 
 ## 機器人 {#bots}
 
-Adobe Target使用 [DeviceAtlas](https://deviceatlas.com/) 偵測已知機器人。識別為機器人產生之流量的流量，如同一般使用者一樣，仍可確保其符合SEO准則。使用機器人流量會傾斜A/B測試或個人化演算法(如果他們被視為一般使用者)。因此，如果在Target活動中偵測到已知機器人，流量會略有不同。移除機器人流量可提供更精確的使用者活動測量。
+Adobe target使用 [DeviceAtlas](https://deviceatlas.com/) 來偵測已知的機器人。 識別為由機器人產生的流量仍會像一般使用者一樣提供內容，以確保符合SEO准則。 使用機器人流量可能會使A/B測試或個人化演算法（如果它們被視為一般使用者）產生偏差。 Therefore, if a known bot is detected in your Target activity, the traffic is treated slightly differently. Removing bot traffic provide a more accurate measurement of user activity.
 
-尤其是，對於已知機器人流量Target，不會：
+具體而言，對於已知機器人流量，Target不會：
 
-* 建立或擷取訪客描述檔
+* Create or retrieve a visitor profile
 * 記錄任何描述檔屬性或執行描述檔指令碼
-* 查閱Adobe Audience Manager(AAM)區段(如果適用)
-* 使用機器人流量模型，並為Recommendations、自動目標、自動個人化或自動分配活動提供個人化內容
+* 尋找Adobe Audience Manager(AAM)細分（如果適用）
+* 在建模及為Recommendations、Auto Target、Automated Personalization或Auto Allocate活動提供個人化內容時，使用機器人流量
 * 記錄活動瀏覽以進行報告
-* 記錄資料以傳送至Adobe Experience Cloud平台
+* 要傳送至Adobe Experience cloud平台的記錄資料
