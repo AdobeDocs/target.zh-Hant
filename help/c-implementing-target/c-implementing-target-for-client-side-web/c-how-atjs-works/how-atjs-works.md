@@ -91,7 +91,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 重要注意事項：
 
-* at.js不提供任何遠端指令碼執行順序的保證，因為這些指令碼會非同步載入。
+* at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
 * 內嵌指令碼不應與遠端指令碼有任何相依性，因為這些指令碼會在稍後載入並執行。
 
 ## 訓練影片: at.js 2.x 架構圖表
