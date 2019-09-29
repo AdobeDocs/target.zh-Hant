@@ -27,13 +27,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以將這兩個布林運算子混合來建立複雜的規則; 不過，相同規則層級的運算子必須相符。使用者介面會自動套用至正確的運算子。
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+例如，下列規則會鎖定在 Windows 電腦上使用 Chrome *或* Firefox 的訪客:
 
-![建立觀眾](assets/audience_create.png)
+![建立受眾](assets/audience_create.png)
 
 >[!NOTE]
 >
->請小心，避免建立規則來排除所有可能的對象成員。For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Chrome *與* Firefox 來造訪頁面。
 
 ## 建立新對象
 
