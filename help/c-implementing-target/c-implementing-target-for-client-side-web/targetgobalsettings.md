@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 targetGlobalSettings() 函數的資訊。 '
-keywords: targetGlobalSettings；targetglobalsettings；GlobalSettings；globalsettings；全域設定；at. js；函數；函數；ClientCode；clientcode；ServerDomain；serverDomain；cookieDomain；cookiedomain；CrossDomain；crosdomain；逾時；GlobalmboxReade；visitorAppTimeout；defaultContentIDdenStyle；defaultContentPublisher；BodyHiddenStyle；BodyhingEnabled；imsOrgID；SecureOnly；OverridemboxGesServer；OverridemboxGesServerTimeout；optutEnabled；退出；選擇退出；selectorSollingTimeout；資料提供者
+keywords: targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 solution: Target
