@@ -39,6 +39,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## Adobe Target 教學課程 {#tutorials}
 
-[!DNL Target] Adobe [Target教學課程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) 頁面提供視訊簡介。
+Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
 ![Adobe Target 教學課程](/help/c-intro/assets/adobe-target-tutorials-new.png)
