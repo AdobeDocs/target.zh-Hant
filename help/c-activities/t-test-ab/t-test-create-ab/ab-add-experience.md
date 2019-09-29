@@ -1,7 +1,7 @@
 ---
 description: 可視化體驗撰寫器提供用於編輯您的頁面上體驗的視覺介面。
 keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
-seo-description: Adobe Target中的Visual Experience Composer(CMS)提供了編輯頁面上體驗的視覺化介面。
+seo-description: Adobe Target 中的可視化體驗撰寫器 (VEC) 提供用於編輯您的頁面上體驗的視覺介面。
 seo-title: 新增體驗
 solution: Target
 title: 新增體驗
@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 新增體驗{#add-experience}
 
-Visual Experience Composer(CMS)提供了一個視覺化介面，可用來新增和編輯頁面上的體驗。
+可視化體驗撰寫器 (VEC) 提供用於新增及編輯您的頁面上體驗的視覺介面。
 
 如需關於體驗的其他詳細資料，請參閱[體驗](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
@@ -39,11 +39,11 @@ Visual Experience Composer(CMS)提供了一個視覺化介面，可用來新增�
    >
    >如果您從主要頁面以外的來源 (例如在 akamai.net 上託管並在 dell.com 上傳送的影像) 傳送影像，那麼該影像不會顯示在流程圖中所顯示頁面的縮圖中。
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. 當您完成體驗設計時，請按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 重新命名體驗
 
-Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
+請按一下 A/B 測試或體驗鎖定目標 (XT) 活動之體驗上的[!UICONTROL 重新命名體驗]圖示，將體驗命名為新的名稱。
 
 ![重新命名體驗](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,11 +62,11 @@ Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or
 
 ## 重新導向至 URL
 
-Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
+請按一下 A/B 測試或體驗鎖定目標 (XT) 活動之體驗上的更多 (三個垂直的點) 圖示，然後按一下[!UICONTROL 重新導向至 URL]。
 
-For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+如需詳細資訊，請參閱[重新導向至 URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
-**注意**：當您命名或重新命名體驗時，不允許下列字元：
+**注意**: 為體驗命名或重新命名時，不得使用下列字元:
 
 | 字元 | 說明 |
 |--- |--- |
@@ -85,7 +85,7 @@ For more information, see [Redirect to URL](/help/c-experiences/c-visual-experie
 
 在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
 
-![重復體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+![重複體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## 刪除體驗
 
