@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 targetPageParamsAll() 函數的資訊。 '
-keywords: targetPageParmsAll；targetpageParmass；pageParamsAll；pageParps所有；頁面參數；頁面參數；at. js；函數；函數
+keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;pageparams;page params;page params;page paramets;at.js;functions;function
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetPageParamsAll() 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetPageParamsAll() 函數的資訊。
 solution: Target
