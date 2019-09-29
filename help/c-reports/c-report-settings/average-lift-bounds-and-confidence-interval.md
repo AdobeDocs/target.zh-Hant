@@ -38,9 +38,9 @@ Target 報表 UI 中的提升資訊包括:
 
 下圖顯示提升度界限和信賴水準資訊:
 
-![平均提升度與信賴等級報表](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![平均提升度和可信度等級報表](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## 如何計算提升度界限?   {#section_1D360781D972483693680BE0F07AEAD1}
+## 如何計算提升度界限?    {#section_1D360781D972483693680BE0F07AEAD1}
 
 提升度界限代表特定體驗或選件的提升度超過控制體驗或選件的 95% 信賴區間。籠統來說，即實際提升度大約有 95% 的機會落在這些界限之間。
 
