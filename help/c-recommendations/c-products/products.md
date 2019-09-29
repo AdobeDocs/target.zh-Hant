@@ -1,8 +1,8 @@
 ---
 description: 實體會參考您要建議的項目。實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
 keywords: 產品;集合
-seo-description: 實體是指您建議使用Adobe Target的項目。實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
-seo-title: Adobe Target中的實體
+seo-description: 實體是指您要建議使用Adobe Target的項目。 實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
+seo-title: Adobe target中的實體
 solution: Target
 title: 實體
 title-outputclass: premium
