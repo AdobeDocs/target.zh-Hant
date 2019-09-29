@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若要顯示報表，請按一下&#x200B;**[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下&#x200B;**「報表」]索引標籤。[!UICONTROL **
 
-![報表UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+![報表 UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target 預設集 {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -36,7 +36,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    隨即顯示「新的預設集」對話方塊:
 
-   ![新預設集對話框](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
+   ![新預設集對話方塊](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. 查看「篩選條件與設定」區段中的資訊，以確保根據需要設定報表，然後指定&#x200B;**[!UICONTROL 「預設集名稱」]** (最多 50 個字元)。
 1. (條件性) 如果您希望將此作為預設/我的最愛報表檢視，請滑動&#x200B;**[!UICONTROL 「將此項目設定為預設的預設集」]切換至「開啟」位置。**
@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    在編輯報表的設定後，按一下[!UICONTROL 「儲存」]，預設集名稱後面會顯示一個星號 ( * )，表示預設集已變更，如下所示:
 
-   ![含星號的報表預設集](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
+   ![報表預設集 (含星號)](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. 依序按下「三個垂直橢圓圖示 &gt; **[!UICONTROL 另存新檔」]以建立新預設集。**
 
@@ -183,7 +183,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在圖表左側選取或取消選取體驗，以決定在圖表中顯示或隱藏相對應的體驗。
 
-如果下圖，只有「預設」、「中東」和「總計」會顯示在報表中。亞洲體驗在圖形中隱藏。
+在下圖中，只有預設、中東和總計體驗會顯示在報表中。圖表中的亞洲體驗為隱藏狀態。
 
 ![體驗](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
@@ -198,7 +198,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 每日
 * 每日提升
 
-![報表執行平均值](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
+![報表執行中的平均值](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
