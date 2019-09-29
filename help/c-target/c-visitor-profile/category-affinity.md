@@ -1,8 +1,8 @@
 ---
 description: 類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
 keywords: 相關性;類別相關性
-seo-description: Adobe Target中的類別相似性功能會自動擷取使用者瀏覽的類別，然後計算使用者與該類別的相似性，以便進行定位和劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
-seo-title: 在Adobe Target中使用類別相似性
+seo-description: Adobe Target 中的類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
+seo-title: 在 Adobe Target 中使用類別相關性
 solution: Target
 title: 類別相關性
 topic: Standard
@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 每當有使用者造訪您的網站時，這位訪客專屬的設定檔參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。其中一個特別實用的參數是 `user.categoryId`，這是在產品頁面上指派的 mbox 參數。當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以將類別資訊作為 Mbox 參數 `user.categoryId` 傳遞至任何 Mbox 中 (包括巢狀 Mbox) 來進行記錄，如同 URL 參數 `user.categoryId`，或傳遞至具有全域 Mbox 的 Target 頁面參數中。請洽詢您的客戶代表以取得更多詳細資訊。
 
-使用逗號分隔類別，以包含多個類別的項目。例如:
+使用逗號分隔類別，以在多個類別中包含某個項目。例如:
 
 * `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` 來追蹤使用者最愛的類別。`entity.categoryId` 必須以目前頁面或目前項目類別的建議為基礎。如果您想要使用這兩項功能，請將這兩個值傳遞至Adobe Target。
+>用於 Adobe Target 的類別相關性演算法的 `user.categoryId` 屬性，不同於用於 Adobe Target Recommendations 的產品和內容建議的 `entity.categoryId` 屬性。需要 `user.categoryId`，才能追蹤使用者最喜愛的類別。需要 `entity.categoryId`，才能讓建議以目前頁面或目前項目的類別為依據。若要同時使用這兩項功能，請將這兩個值傳送至 Adobe Target。
 
 ## 類別相關性的商業案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -117,13 +117,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 按一下&#x200B;**[!UICONTROL 「+ 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
 1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「類別相關性」]**。
 
-   ![訪客資料&gt;類別相似性](assets/affinity.png)
+   ![訪客設定檔 &gt; 類別相關性](assets/affinity.png)
 
 1. 選擇所需的類別:
 
-   ![類別相似性&gt;類別](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![類別相關性 &gt; 類別](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
-   類別包括：
+   類別包括:
 
    * 最喜愛的類別
    * 第一個類別
