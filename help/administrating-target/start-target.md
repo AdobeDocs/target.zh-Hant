@@ -22,7 +22,7 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
 
 [!DNL Adobe Admin Console] 中的系統管理員必須藉由邀請您加入，將您新增為 [!DNL Target] 中的使用者。接著，系統管理員應將您新增至一或多個特定角色群組。這兩項工作都是在 [Adobe Admin Console](https://adminconsole.adobe.com) 中執行。
 
-如需詳細資訊，請參閱 [Experience Cloud和核心服務說明中的管理Experience](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) *Cloud使用者和產品*。
+For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud and Core Services help*.
 
 在系統管理員執行這些步驟之後，您將會收到電子郵件邀請函。
 
