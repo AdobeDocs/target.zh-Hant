@@ -21,11 +21,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 >[!NOTE]
 >
->[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
+>[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。如需此授權提供之進階功能的詳細資訊，請參閱 [Target Premium](/help/c-intro/intro.md)。
 
 [使用三步驟引導式工作流程建立 A/B 活動](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)時，您可以選擇使用[!UICONTROL 「針對個人化體驗自動鎖定目標」]選項來分配流量:
 
-![自動鎖定個人化體驗選項](/help/c-activities/assets/auto-target-ui-new.png)
+![個人化體驗選項的自動鎖定目標](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -72,19 +72,19 @@ A/B 活動流量內的[!UICONTROL 「自動鎖定目標」]選項可讓您只要
 * 將個人化流量最大化
 * 自訂分配
 
-![配置目標下拉式清單](/help/c-activities/assets/split-new.png)
+![分配目標下拉式清單](/help/c-activities/assets/split-new.png)
 
 | 活動目標 | 建議的流量分配 | 取捨 |
 |--- |--- |--- |
-| **評估個人化演算法(50/50)**：如果您的目標是測試演算法，請在控制項和目標演算法之間使用50/50分割訪客。此分割可提供提升度更準確的預估。建議使用「隨機體驗」做為您的控制項。 | 50% 控制/ 50% 個人化體驗分割 | <ul><li>使控制與個人化之間的提升度達到最高準確性</li><li>相對較少的訪客將有個人化體驗</li></ul> |
-| **最大化個人化流量(90/10)**：如果您的目標是建立「永遠存在」活動，請將10%的訪客放入控制項，以確保演算法有足夠的資料可繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。不論您的目標為何，在使用特定體驗作為控制時，這都是建議的流量分割。 | 最佳作法是採用 10% - 30% 控制/ 70% - 90% 個人化體驗分割 | <ul><li>將具有個人化體驗的訪客人數最大化</li><li>將提升度最大化</li><li>活動的提升度較不準確</li></ul> |
+| **評估個人化演算法 (50/50)**: 如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議「隨機體驗」搭配使用以作為控制。 | 50% 控制/ 50% 個人化體驗分割 | <ul><li>使控制與個人化之間的提升度達到最高準確性</li><li>相對較少的訪客將有個人化體驗</li></ul> |
+| **最大化個人化流量 (90/10)**: 如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。無論您的目標為何，這是使用特定體驗作為控制時的建議流量分割。 | 最佳作法是採用 10% - 30% 控制/ 70% - 90% 個人化體驗分割 | <ul><li>將具有個人化體驗的訪客人數最大化</li><li>將提升度最大化</li><li>活動的提升度較不準確</li></ul> |
 | **自訂分配** | 視需要手動分割百分比。 | <ul><li>您可能未達到理想的結果。如果不確定，請採用前述任一選項的建議。</li></ul> |
 
-若要調整控制百分比，請按一下配置欄中的圖示。您無法將控制組降到 10% 以下。
+若要調整控制百分比，請按一下分配欄中的圖示。您無法將控制組降到 10% 以下。
 
-![變更自動Target流量分配](/help/c-activities/assets/auto-target-control.png)
+![變更自動鎖定目標流量分配](/help/c-activities/assets/auto-target-control.png)
 
-You can [select a specific experience to use as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or you can use the Random experience option.
+您可以[選取特定體驗以用來作為控制](/help/c-activities/t-automated-personalization/experience-as-control.md)，或者也可以使用隨機體驗選項。
 
 ## 何時應選擇[!UICONTROL 自動鎖定目標]而放棄自動個人化? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -209,13 +209,13 @@ You can [select a specific experience to use as control](/help/c-activities/t-au
 
 當您至少有兩個體驗已建立模型 (綠色勾號)，針對已建立模型的體驗，您就可以開始查看[!UICONTROL 自動鎖定目標]測試的結果。
 
-**我可以指定作為控制項的特定體驗嗎？**
+**是否可以指定要用來作為控制的特定體驗?**
 
-You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+建立 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) (AT) 活動時，您可以選取要用來作為控制的體驗。
 
-此功能可讓您根據活動中設定的流量分配百分比，將整個控制流量路由至特定體驗。然後，您可以評估個人化流量的績效報告，以控制該一個體驗的流量。
+此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。接著，您可以根據該體驗之控制流量，評估個人化流量的效能報表。
 
-For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+如需詳細資訊，請參閱[使用特定體驗作為控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
 ## [!UICONTROL 自動鎖定目標]疑難排解 {#section_23995AB813F24525AF294D20A20875C8}
 
