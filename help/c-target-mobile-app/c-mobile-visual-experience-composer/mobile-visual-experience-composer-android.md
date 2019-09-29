@@ -1,8 +1,8 @@
 ---
 description: Target 的全新 SDK 資料庫可讓開發人員只要設定一次 Android 行動應用程式，便能讓行銷人員使用行動版可視化體驗撰寫器 (VEC)。
 keywords: 行動版 vec;行動版可視化體驗撰寫器;行動版體驗撰寫器選項;設定;android
-seo-description: Adobe Target全新的SDK程式庫可讓開發人員在其Android行動應用程式上執行一次設定，並讓行銷人員使用Mobile Visual Experience Composer(CMS)的功能。
-seo-title: Android-為Adobe Target設定行動應用程式
+seo-description: Adobe target的全新SDK程式庫可讓開發人員在其Android行動應用程式上進行一次性設定，並讓行銷人員使用Mobile Visual Experience Composer(VEC)的功能。
+seo-title: Android —— 為Adobe target設定行動應用程式
 solution: Target
 title: Android - 設定行動應用程式
 topic: Standard
@@ -299,18 +299,18 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
-## 教學課程：在Mobile Android應用程式中實作Experience Cloud {#tutorial}
+## 教學課程: 在行動 Android 應用程式中實作 Experience Cloud {#tutorial}
 
-* [在Mobile Android應用程式中實作Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+* [在行動 Android 應用程式中實作 Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
-完成本教學課程後，您將可：
+完成此教學課程之後，您將能:
 
-* 建立行動啓動屬性
-* 在Android應用程式中安裝Launch屬性
-* 實作下列Adobe Experience Cloud解決方案：
+* 建立行動 Launch 屬性
+* 在 Android 應用程式中安裝 Launch 屬性
+* 實作下列 Adobe Experience Cloud 解決方案:
    * Experience Cloud ID 服務
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* 透過開發、測試和生產環境，在Launch中發佈變更
+* 透過開發、測試和生產環境在 Launch 中發佈變更
