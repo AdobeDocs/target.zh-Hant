@@ -31,11 +31,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 從活動的[!UICONTROL 「概覽」]頁面 (「自動個人化」以外的所有類型)，按一下 **[!UICONTROL 「活動 QA」]連結。**
 
-   ![活動QA連結](assets/qa_link.png)
+   ![活動 QA 連結](assets/qa_link.png)
 
 1. 完成下列設定:
 
-   ![QA連結組態選項](assets/qa_link_config.png)
+   ![QA 連結設定選項](assets/qa_link_config.png)
 
    * **匹配對象規則以查看體驗:** 您有時需要確認對象比對有效果。也有時只想檢查活動的外觀和風格。如果此設定切換到「開啟」位置，測試者必須符合鎖定目標需求，才有資格看到體驗。對於「體驗鎖定目標 (XT)」活動，只會提供單一活動 URL。您看到的體驗取決於您是否符合其中一個鎖定目標規則。
 
