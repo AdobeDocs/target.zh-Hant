@@ -1,11 +1,11 @@
 ---
-description: 'at. js的adobe. target. sendNotifications(選項)函數相關資訊。 '
-keywords: adobe. target. sendNotifications；SendNotifications；sendnotifications；傳送通知；通知；at. js；函數；函數
-seo-description: Adobe Target at. js JavaScript程式庫的adobe. target. sendNotifications(選項)函數的相關資訊。
-seo-title: Adobe Target at. js JavaScript程式庫的adobe. target. sendNotifications(選項)函數的相關資訊。
+description: '有關適用於 at.js 的 adobe.target.sendNotifications(options) 函數的資訊。 '
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;at.js;function
+seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.sendNotifications(options) 函數的資訊。
+seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.sendNotifications(options) 函數的資訊。
 solution: Target
 subtopic: 快速入門
-title: adobe. target. sendNotifications(選項)
+title: adobe.target.sendNotifications(options)
 topic: Standard
 translation-type: tm+mt
 source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
@@ -13,58 +13,58 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 ---
 
 
-# adobe. target. sendNotifications(選項)
+# adobe.target.sendNotifications(options)
 
-此函數會在不使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`使用體驗時，將通知傳送至Target邊緣。
+此函數會在體驗呈現時傳送通知給 Target Edge，而不需要使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`。
 
 >[!NOTE]
 >
->此函數已於at. js2.1.0中推出，適用於2.1.0以上的任何版本。
+>此函數已在 at.js 2.1.0 中推出，且將適用於 2.1.0 以上的任何版本。
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
 | consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。 |
 | 請求 | 物件 | 是 | 請參閱下方的「要求」表格。 |
-| timeout | 數字 | 無 | 要求逾時. 如果未指定，則會使用預設的 at.js 逾時。 |
+| timeout | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
 
 ## 請求
 
 | 欄位名稱 | 類型 | 必要? | 限制 | 說明 |
 | --- | --- | --- | --- | --- |
-| 請求&gt;通知 | 物件陣列 | 是 |  | 顯示內容、點選的選擇器及/或已造訪檢視或mbox的通知。 |
-| 「請求&gt;通知&gt;地址」 | 物件 | 無 |  |  |
-| 「請求&gt;通知&gt;地址&gt; url」 | 字串 | 無 |  | 通知所在的URL。 |
-| 「請求&gt;通知&gt;地址&gt;反向連結URL」 | 字串 | 無 |  | 通知所從的反向連結URL。 |
-| 「請求&gt;通知&gt;參數」 | 物件 | 無 | 參數不允許使用下列名稱：<ul><li>orderId</li><li>orderTotal</li><li>productPurchaseVidds</li></ul>考慮以下事項:<ul><li>上限50個參數限制。</li><li>參數名稱不應空白。</li><li>參數名稱max長度128。</li><li>參數名稱不應以「profile」開頭。</li><li>參數值長度上限5000。</li></ul> |  |
-| 「請求&gt;通知&gt; profileParameters」 | 物件 | 無 | 參數不允許使用下列名稱：<ul><li>orderId</li><li>orderTotal</li><li>productPurchaseVidds</li></ul>考慮以下事項:<ul><li>上限50個參數限制。</li><li>參數名稱不應空白。</li><li>參數名稱max長度128。</li><li>參數名稱不應以「profile」開頭。</li><li>參數值長度上限5000。</li></ul> |  |
-| 「請求&gt;通知&gt;順序」 | 物件 | 無 |  | 說明訂購詳細資訊的物件。 |
-| 「請求&gt;通知&gt;順序&gt; id」 | 字串 | 無 | `<=` 250 個字元. | 訂購 ID. |
-| 「請求&gt;通知&gt;順序&gt;總計」 | 字串 | 無 | `>=` 0 | 訂購總計. |
-| 「請求&gt;通知&gt;訂購&gt; purchasedProductIDs」 | 字串陣列 | 無 | <ul><li>不允許空白值。</li><li>每個產品ID最大長度50。</li><li>產品ID，以逗號分隔並串連，總長度不得超過250個。</li></ul> | 訂購產品ID。 |
-| 「請求&gt;通知&gt;產品」 | 物件 | 無 |  |  |
-| 「請求&gt;通知&gt;產品&gt; id」 | 字串 | 無 | `<=` 128個字元；不能空白。 | 產品 ID. |
-| 「請求&gt;通知&gt; product&gt; categoryId」 | 字串 | 無 | `<=` 128個字元；不能空白。 | 類別ID。 |
-| 「請求&gt;通知&gt; id」 | 字串 | 是 | `<=` 200個字元。 | 通知ID會傳回回應，並指出通知已成功處理。 |
-| 「請求&gt;通知&gt; impressionID」 | 字串 | 無 | `<= 128` 個字元. | 曝光ID用於將目前通知與先前通知或執行要求接合(連結)。如果兩者兩者相符，則第二個和其他後續請求不會對活動或體驗產生新曝光。 |
-| 「請求&gt;通知&gt;類型」 | 字串 | 是 | 「按一下」或「顯示」受到支援。 | 通知類型。 |
-| 「請求&gt;通知&gt;時間戳記」 | 數字`<int64>` | 是 |  | 自UNIX週年起，通知的時間戳記。 |
-| 「請求&gt;通知&gt; token」 | 字串陣列 | 是 |  | 根據通知類型，顯示顯示內容或按下選擇器的代號清單。 |
-| 「請求&gt;通知&gt; mbox」 | 物件 | 無 |  | mbox的通知。 |
-| 「請求&gt;通知&gt; mbox&gt;名稱」 | 字串 | 無 | 不允許空白值。<br>允許的字元：請參閱此表格後的附註。 | mBox 名稱. |
-| 「請求&gt;通知&gt; mbox&gt;狀態」 | 字串 | 無 |  | mbox狀態Token。 |
-| 「請求&gt;通知&gt;檢視」 | 物件 | 無 |  |  |
-| 「請求&gt;通知&gt;檢視&gt; id」 | 整數 `<int64>` | 無 |  | 檢視ID。透過檢視API建立檢視時，指派給檢視的ID。 |
-| 「請求&gt;通知&gt;檢視&gt;名稱」 | 字串 | 無 | `<= 128` 個字元. | 檢視名稱。 |
-| 「請求&gt;通知&gt;檢視&gt;索引鍵」 | 字串 | 無 | `<=` 512個字元。 | 檢視金鑰。經由API與檢視設定的索引鍵。 |
-| 「請求&gt;通知&gt;檢視&gt;狀態」 | 字串 | 無 |  | 檢視狀態Token。 |
+| Request &gt; notifications | 物件陣列 | 是 |  | 顯示內容、點擊選取器及/或已造訪的檢視或 mbox 的通知。 |
+| Request &gt; notifications &gt; address | 物件 | 無 |  |  |
+| Request &gt; notifications &gt; address &gt; url | 字串 | 無 |  | 觸發通知的來源 URL。 |
+| Request &gt; notifications &gt; address &gt; referringUrl | 字串 | 無 |  | 觸發通知的來源引用 URL。 |
+| Request &gt; notifications &gt; parameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
+| Request &gt; notifications &gt; profileParameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
+| Request &gt; notifications &gt; order | 物件 | 無 |  | 說明訂單詳細資料的物件。 |
+| Request &gt; notifications &gt; order &gt; id | 字串 | 無 | `<=` 250 個字元。 | 訂購 ID. |
+| Request &gt; notifications &gt; order &gt; total | 字串 | 無 | `>=` 0 | 訂購總計. |
+| Request &gt; notifications &gt; order &gt; purchasedProductIds | 字串陣列 | 無 | <ul><li>不允許使用任何空白值。</li><li>每個產品 ID 長度上限為 50。</li><li>產品 ID，以逗號分隔並串連，總長度不得超過 250。</li></ul> | 訂購產品 ID。 |
+| Request &gt; notifications &gt; product | 物件 | 無 |  |  |
+| Request &gt; notifications &gt; product &gt; id | 字串 | 無 | `<=` 128 個字元；不得空白。 | 產品 ID. |
+| Request &gt; notifications &gt; product &gt; categoryId | 字串 | 無 | `<=` 128 個字元；不得空白。 | 類別 ID。 |
+| Request &gt; notifications &gt; id | 字串 | 是 | `<=` 200 個字元。 | 回應中將傳回通知 ID，且會包含已成功處理的通知。 |
+| Request &gt; notifications &gt; impressionId | 字串 | 無 | `<= 128` 個字元。 | Impression ID 可用來拼接 (連結) 目前的通知與先前的通知或執行要求。在兩者彼此相符的情況下，第二個和其他後續要求將不會對活動或體驗產生新曝光次數。 |
+| Request &gt; notifications &gt; type | 字串 | 是 | 支援「按一下」或「顯示」。 | 通知類型。 |
+| Request &gt; notifications &gt; timestamp | 數字`<int64>` | 是 |  | 自 UNIX 紀元以來經過時間之通知的時間戳記 (以毫秒為單位)。 |
+| Request &gt; notifications &gt; tokens | 字串陣列 | 是 |  | 根據通知類型，顯示內容或點擊選取器的 Token 清單。 |
+| Request &gt; notifications &gt; mbox | 物件 | 無 |  | mbox 的通知。 |
+| Request &gt; notifications &gt; mbox &gt; name | 字串 | 無 | 不允許使用任何空白值。<br>允許的字元: 請參閱此表格後的備註。 | mBox 名稱。 |
+| Request &gt; notifications &gt; mbox &gt; state | 字串 | 無 |  | mbox 狀態 Token。 |
+| Request &gt; notifications &gt; view | 物件 | 無 |  |  |
+| Request &gt; notifications &gt; view &gt; id | 整數 `<int64>` | 無 |  | 檢視 ID。透過檢視 API 建立檢視時，已指派給檢視的 ID。 |
+| Request &gt; notifications &gt; view &gt; name | 字串 | 無 | `<= 128` 個字元。 | 檢視的名稱。 |
+| Request &gt; notifications &gt; view &gt; key | 字串 | 無 | `<=` 512 個字元。 | 檢視金鑰。已透過 API 使用檢視設定的金鑰。 |
+| Request &gt; notifications &gt; view &gt; state | 字串 | 無 |  | 檢視狀態 Token。 |
 
-**注意**：下列字元可 `Request > notifications > mbox > name`用於：
+**注意**: `Request > notifications > mbox > name` 中允許使用下列字元:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
 ```
 
-## 在轉譯預先擷取的mbox後呼叫sendNotifications()呼叫
+## 呈現預先擷取 mbox 後的 sendNotifications() 呼叫
 
 ```
 function createTokens(options) {
@@ -120,4 +120,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->如果您使用Adobe Analytics，且 `getOffers()` 僅使用預先擷取， `sendNotifications()`則必須在執行後觸發Analytics `sendNotifications()` 請求。其目的在於確保所產生的SDID符合 `sendNotifications()` 傳送至Analytics和Target的SDID。
+>如果您使用 Adobe Analytics、僅具有預先擷取的 `getOffers()` 以及 `sendNotifications()`，必須在執行 `sendNotifications()` 後觸發 Analytics 要求。其目的在於確保 `sendNotifications()` 產生的 SDID 會符合傳送給 Analytics 和 Target 的 SDID。
