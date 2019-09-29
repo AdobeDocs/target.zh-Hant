@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-下列插圖顯示使用Macintosh OS鎖定訪客的對象。
+下圖顯示使用 Macintosh OS 的受眾鎖定目標訪客。
 
 ![](assets/target_os.png)
 
