@@ -21,23 +21,23 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 1. 在 Target Standard 活動清單中，按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 自動個人化」]**。
 
-   ![建立活動：自動個人化](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
+   ![建立活動: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
 1. 若要使用可視化體驗撰寫器 (VEC)，請按一下&#x200B;**[!UICONTROL 「視覺 (預設)」]**。
 
-   ![「建立自動個人化活動」對話方塊](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
+   ![建立 Automated Personalization 活動對話方塊](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了CMS和表單型Experience Composer，Target還提供單頁應用程式CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >除了 VEC 和表單式體驗撰寫器之外，Target 還提供單頁應用程式 VEC 和適用於行動應用程式的 VEC。如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您未看見此選項，則您的組織有Target Standard授權。]
+   >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。]
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 驗證或輸入活動 URL，然後按一下&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -64,13 +64,13 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    | - | 減號 |
    | @ | 「@」符號 |
 
-1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. 按照[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)中的說明修改頁面元素。
 
    您可以從資產管理員一次選取多個影像。此可讓您快速檢視頁面上對活動設定的每個影像。您也可以輕鬆在您的選件中編輯文字元素。編輯元素時，該元素上會出現一個橫條，指出您已變更它。
 
 1. 按一下&#x200B;**[!UICONTROL 「管理內容」]**&#x200B;來設定可用的組合。
 
-   ![「管理內容」選項](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![管理內容選項](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    畫面上方隨即出現對話方塊，並帶有三個選項: 體驗、選件和排除群組。
 
@@ -86,11 +86,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    ![排除圖示暫留](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
 
-   您可以透過選取相關體驗的核取方塊來批次排除/包含體驗，然後按一下對話方塊右上角的「排除」圖示。
+   您可以選取相關體驗的核取方塊，然後按一下對話方塊右上角的排除圖示，以分批排除/包含體驗。
 
-   ![批次排除選項](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
+   ![分批排除選項](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
+   您可以按一下&#x200B;**狀態**&#x200B;下拉式清單以篩選此清單檢視，以顯示僅限排除或僅限包含的活動。
 
 1. (依條件) 按一下&#x200B;**[!UICONTROL 「選件」]**，選取內容片段並將它們指派給報表群組，或只允許特定訪客查看特定具有鎖定目標的選件。
 
@@ -98,11 +98,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    使用[!UICONTROL 「位置」]清單，依位置篩選選件。使用[!UICONTROL 「報表群組」]清單，依報表群組篩選選件。您也可以使用[!UICONTROL 「報表群組」]清單，篩選[!UICONTROL 「未指派的選件」]，為目前未指派任何報表群組的選件，指派報表群組。
 
-   您可以將特定體驗暫留在所要的選件上，然後按一下資料夾圖示，將特定體驗新增至報表群組。
+   您可以將游標移至所需的選件上，然後按一下資料夾圖示，藉此將特定體驗新增至報表群組中。
 
    ![資料夾圖示暫留](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
 
-   您可以在報表群組中批次包含體驗，然後選取相關體驗的核取方塊，然後按一下對話方塊右上角的「報告群組」資料夾圖示按鈕。
+   您可以選取相關體驗的核取方塊，然後按一下對話方塊右上角的報表群組資料夾圖示按鈕，藉此將體驗分批新增至報表群組中。
 
    ![報表群組選項](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
 
@@ -112,7 +112,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 1. (依條件) 按一下&#x200B;**[!UICONTROL 「排除群組」]**&#x200B;來選擇您要從活動中排除的任何元素組合。
 
-   ![「管理內容」對話方塊的「排除群組」索引標籤](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![管理內容對話方塊的排除群組標籤](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。
 
@@ -120,7 +120,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    若要編輯現有的排除群組，請將游標暫留在您要編輯的群組上方，然後按一下鉛筆圖示。
 
-1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
+1. 完成活動內容的設定時，請按一下&#x200B;**[!UICONTROL 完成]**。
 
 1. 如果您曾使用其他 Target 活動類型，**「鎖定目標」**&#x200B;步驟將很熟悉。您可以在此按一下&#x200B;**[!UICONTROL 「自訂分配」]**&#x200B;下拉式清單，然後按一下&#x200B;**「下一步」**，以選取對象並指定會看見控制體驗之訪客的百分比。
 
@@ -128,11 +128,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    ![流量分配目標下拉式清單](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **評估個人化演算法 (50/50):**&#x200B;如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議使用「隨機體驗」做為您的控制項。
-   * **最大化個人化流量 (90/10):**&#x200B;如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。不論您的目標為何，在使用特定體驗作為控制時，這都是建議的流量分割。
+   * **評估個人化演算法 (50/50):**&#x200B;如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議「隨機體驗」搭配使用以作為控制。
+   * **最大化個人化流量 (90/10):**&#x200B;如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。無論您的目標為何，這是使用特定體驗作為控制時的建議流量分割。
    * **自訂分配:** 視需要手動分割百分比。
 
-1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+1. (視條件而定) 從[!UICONTROL 控制]下拉式清單中，[選取要用來作為控制的特定體驗](/help/c-activities/t-automated-personalization/experience-as-control.md)，或選取[!UICONTROL 隨機體驗]。
 
    控制體驗提供比較來判斷自動測試提供了多少提升度。
 
@@ -142,7 +142,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    >
    >在自動個人化活動中，系統會評估每個要求的輸入條件 (URL 鎖定目標、範本規則、對象目標)。在舊版中，會對每個工作階段評估輸入條件。
 
-1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
+1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以顯示&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面。
 1. 使用下列設定來設定活動，然後按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
    | 設定 | 說明 |
