@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 mboxDefine() and mboxUpdate() 函數的資訊。 '
-keywords: mboxDefine；mboxdefine；mbox定義；mboxUpdate；mbox更新；mbox更新；at. js；函數；函數
+keywords: mboxDefine;mbox define;mbox define;mboxUpdate;mboxupdate;mbox update;at.js;function
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxDefine() 和 mboxUpdate() 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxDefine() 和 mboxUpdate() 函數的資訊。
 solution: Target
