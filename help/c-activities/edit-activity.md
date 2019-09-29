@@ -19,17 +19,17 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據您選擇的方法而有所不同。
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## 在活動頁面上使用暫留按鈕來編輯活動 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. 從&#x200B;**[!UICONTROL 「活動」]**&#x200B;頁面中，暫留在您要編輯的活動上，然後按一下&#x200B;**「編輯」]圖示。[!UICONTROL **
 
    ![編輯圖示](/help/c-activities/assets/hover_edit.png)
 
-   Target會在Visual Experience Composer(CMS)中開啓活動，您會看到 [!UICONTROL 「體驗] 」頁面(三步驟引導工作流程中的第一個步驟)。
+   Target 會在可視化體驗撰寫器 (VEC) 中開啟活動，而您會看見[!UICONTROL 體驗]頁面 (三步驟引導式工作流程中的第一步)。
 
-1. 視需要使用 [CMS選項編輯活動](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. 視需要使用 [VEC 選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)編輯活動。
 
-1. 按一下分割按鈕，前往下一個步驟或儲存活動。
+1. 按一下分割按鈕以前往下一個步驟或儲存活動。
 
    ![分割按鈕](/help/c-activities/assets/edit_split_button_2.png)
 
@@ -37,7 +37,7 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
    * **儲存並關閉:**&#x200B;在目前步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL 「儲存並關閉」]**，以儲存您的變更並顯示活動的[!UICONTROL 「概覽」]頁面。
    * **儲存:**&#x200B;在步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL 「儲存」]，以儲存您的變更並停留在該步驟上，讓您可以繼續變更。**&#x200B;等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## 在活動頁面上按一下名稱以開啟活動來編輯活動 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 若要避免逐步執行工作流程，請從「活動」頁面中按一下所需的活動以開啟此活動，然後從&#x200B;**[!UICONTROL 「編輯活動」]下拉式清單中選取選項。**
 
@@ -60,9 +60,9 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
 
 
-## 使用Recommendations Classic中建立的舊活動 {#classic}
+## 使用Recommendations Classic中建立的舊有活動 {#classic}
 
-[!UICONTROL 「活動] 」清單顯示在不同來源建立的活動， [!DNL Recommendations Classic]包括使用內建的舊活動時，可使用下列動作 [!DNL Recommendations Classic]：
+「活 [!UICONTROL 動] 」清單會顯示在各種來源中建立的活動，包括 [!DNL Recommendations Classic]。 使用中建立的舊式活動時，可使用以下操作 [!DNL Recommendations Classic]:
 
 * [!UICONTROL 啟動]
 * [!UICONTROL 停用]
@@ -70,9 +70,9 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 * [!UICONTROL 複製]
 * [!UICONTROL 刪除]
 
-您無法直接編輯 [!DNL Recommendations] 活動。如果您想要編輯活動，則應建立使用 [!DNL Target Premium] 並儲存新建立活動的活動副本。接著可視需要編輯此新建立的活動。
+您無法直接編輯 [!DNL Recommendations] 活動。 如果要編輯活動，應使用建立活動副本，然後保存新 [!DNL Target Premium] 建立的活動。 然後，可視需要編輯新建立的活動。
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## 以草稿形式儲存活動 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 建立尚未儲存的新活動或編輯先前未以草稿形式儲存的活動時，分割按鈕中會顯示「儲存草稿」選項。
 
