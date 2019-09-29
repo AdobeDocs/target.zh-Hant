@@ -2,7 +2,7 @@
 description: 集合是符合建議資格的一組產品或項目。
 keywords: 集合;鎖定目標
 seo-description: 系列是Adobe Target中符合建議資格的一組產品或項目。
-seo-title: Adobe Target中的系列
+seo-title: Adobe target中的系列
 solution: Target
 title: 集合
 title-outputclass: premium
@@ -69,7 +69,7 @@ The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md
 
 You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
 
-![另存新檔](/help/c-recommendations/c-products/assets/save-as.png)
+![另存為](/help/c-recommendations/c-products/assets/save-as.png)
 
 例如，使用 "id &gt; contains" 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合」]。
 
@@ -77,7 +77,7 @@ You can also create collections using Advanced Search on the [Catalog Search](/h
 >
 >「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立集合時，務必注意大小寫。例如，如果您執行 "Holiday" 的搜尋，初始的搜尋清單結果會包含 "Holiday" 和 "holiday"。如果您之後建立一個目錄，目的要傳回包含 "holiday" 的產品，則只會傳回包含 "holiday" 的產品。不會傳回包含 "Holiday" 的產品。
 
-## 訓練影片：在Recommendations中建立系列和排除(7：05)
+## 訓練影片：在Recommendations中建立系列和排除(7:05)
 
 此影片包含下列資訊：
 
