@@ -31,7 +31,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
    >[!NOTE]
    >
-   >已知的問題是，導致有限的客戶使用A4T重新導向，以查看較高比例的點擊點擊率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+   >目前存在一個已知問題，該問題導致搭配 A4T 使用重新導向的部分客戶看見較高的散亂點擊率百分比。請參閱[已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)。
 
 * 假設您建立了一個在特定頁面開放給所有訪客的自動分配活動。由於「自動分配」活動不支援 A4T，因此 [!DNL Target] 會收集所有活動資料。您可能希望 [!DNL Target] 報表中的活動訪客數與相同日期範圍內 [!DNL Analytics] 報表中該頁面的訪客數相符。這是下列所述之預期差異的案例。
 
