@@ -40,4 +40,5 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
    >[!NOTE]
    >
-   >您您活動的「報表來源」必須選取「Adobe Analytics」，「追蹤伺
+   >您您活動的「報表來源」必須選取「Adobe Analytics」，「追蹤伺服器」欄位才能使用。
+
