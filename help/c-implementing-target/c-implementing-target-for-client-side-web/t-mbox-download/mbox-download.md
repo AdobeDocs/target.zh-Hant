@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 若要使用 Target Standard 或 Target Premium，請新增一行程式碼以呼叫 mbox.js。
 
-您可以使用兩個資料庫參考中的一個: [!DNL mbox.js] 或 [!DNL at.js]。[at. js的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 說明兩個程式庫之間的差異。
+您可以使用兩個資料庫參考中的一個: [!DNL mbox.js] 或 [!DNL at.js]。[at.js 的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)說明兩種資料庫之間的差異。
 
 >[!NOTE]
 >
