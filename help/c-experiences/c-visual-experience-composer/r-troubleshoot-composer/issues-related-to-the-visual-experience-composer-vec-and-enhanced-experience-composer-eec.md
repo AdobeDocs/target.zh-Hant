@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
 
-## Target是否支援多級iframes？
+## Target 是否支援多重層級 iframe?
 
-Target不支援多級iframes。如果您的網站載入具有子iframe的iframe，則Target程式庫(at. js和mbox. js)僅與父iframe互動。Target程式庫不會與child iframe互動。
+Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 iframe，Target 資料庫 (at.js and mbox.js) 只會與父項 iframe 互動。Target 資料庫不會與子項 iframe 互動。
 
-因應措施，您可以在體驗中新增頁面iframe的URL。
+作為因應措施，您可以使用子項 iframe 的 URL 在體驗中新增頁面。
 
 ## 當我嘗試編輯頁面時，我只看到了進度環而非我的頁面。(VEC 和 EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
