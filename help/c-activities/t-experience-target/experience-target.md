@@ -16,17 +16,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. 您可以在傳送不同內容變數至不同對象的活動中定義數個規則。
+體驗鎖定目標 (包括[地理定位](/help/c-target/c-audiences/c-target-rules/geo.md)) 對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。您可以在傳送不同內容變數至不同對象的活動中定義數個規則。
 
 在訪客檢視您的網站時，體驗鎖定目標 (XT) 會評估他們，以決定他們是否符合您設定的條件。如果他們符合條件，他們會進入活動，並且針對符合資格對象設計的體驗會顯示。您可以為單一活動內的多個對象建立體驗。
 
 「體驗鎖定目標」是邁向個人化的第一步，通常從進行 A/B 測試著手。行銷人員執行 A/B 測試，並運用報表對象，深入瞭解不同對象對不同體驗的迴響。「體驗鎖定目標」讓行銷人員輕鬆運用這份瞭解，轉換為長期鎖定不同使用者族群的內容。
 
-## 藍本：體驗定位
+## 案例: 體驗鎖定目標
 
-假設您的網站提供戶外設備。您的A/B測試報告指出，您有三種體驗可引起不同受眾的共鳴。為了運用此項探索，您想要在首頁上顯示不同的英雄影像，以吸引這些不同的觀眾，視訪客的位置或嗜好而定。在此案例中，您想要向來自新Jersey的訪客顯示徒步影象，以及向夏威夷訪客顯示瀏覽影像。您也有一個喜歡騎單車的對象。您想要顯示吸引騎單車對象的第三個英雄影像。
+假設您的網站要呈現戶外設備。您的 A/B 測試報表顯示您有三個體驗，能讓不同的受眾產生迴響。為運用此探索，您想要在首頁上顯示不同的主圖影像，根據訪客的位置或興趣來吸引這些不同的受眾。在此案例中，您想要向來自紐澤西的訪客顯示健行影像，並向來自夏威夷的訪客顯示衝浪影像。您也有一個喜歡騎自行車的受眾。您想要顯示能夠吸引自行車受眾的第三個主圖影像。
 
-XT活動可讓您透過吸引每位受眾的不同英雄形象來鎖定這三個受眾。The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. 此影片也會告訴您如何訂購這三種體驗來達成您的目標。Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+XT 活動可讓您將目標鎖定於這三個受眾，並使用能夠吸引各個受眾的不同主圖影像。下列影片&#x200B;*「從 A/B 測試到體驗鎖定目標」*&#x200B;會示範如何建立將目標同時鎖定於兩種狀態的體驗，以及如何建立將目標鎖定於自行車愛好者的第三個體驗。這段影片也會示範如何將這三個體驗加以排序來達成您的目標。請觀看影片，然後繼續[建立體驗鎖定目標活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)。
 
 ## 訓練影片:
 
