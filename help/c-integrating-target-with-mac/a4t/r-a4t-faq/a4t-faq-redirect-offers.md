@@ -23,7 +23,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 >[!NOTE]
 >
->已知的問題是，導致有限的客戶使用A4T重新導向，以查看較高比例的點擊點擊率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>目前存在一個已知問題，該問題導致搭配 A4T 使用重新導向的部分客戶看見較高的散亂點擊率百分比。請參閱[已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)。
 
 ## 在 A4T 中使用重新導向選件有何最低需求? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -41,15 +41,15 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 可能會出現一些資料差異，這在預期之中。如需詳細資訊，請參閱[使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
 
-## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?    {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-使用at. js1.6.3版或更新版本時，這不是問題。此競爭條件僅影響使用舊版的客戶。Target團隊維護兩個版本的at. js：目前版本和第二個最新版本。Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+使用at.js 1.6.3版或更新版本時，這不是問題。 此競爭條件僅影響使用舊版的客戶。 Target團隊維護兩個版本的at.js:目前版本和第二個最新版本。 Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-如果您使用舊版、非支援版本的at. js，可能會發生競爭狀況，可能導致Analytics呼叫在重新導向在第一頁執行之前引發。這會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
+如果您使用舊版、不支援的at.js版本，可能會發生競爭條件，導致Analytics呼叫在重新導向在第一頁執行之前觸發。 這會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 
 建議使用表單式撰寫器來建立重新導向活動，以加速頁面重新導向。原因在於頁面上執行程式碼的地方。另外，對於重新導向會傳回原始頁面的每個體驗，即使是預設體驗，也最好建立重新導向選件。發生誤算時，這可確保所有體驗皆誤算，因此，報表和分析對於測試仍然有效。
 
-您想要對活動中所有體驗使用重新導向選件的一個原因，包括預設(控制)體驗，是為了對所有體驗提供相同的條件。例如，如果預設體驗沒有重新導向選件，但其他體驗有重新導向選件，則沒有重新導向選件的體驗速度會有固有的優勢。建議僅針對暫時性藍本提供重新導向選件，例如測試。不建議針對永久性藍本(例如個人化)提供重新導向選件。決定「贏家」後，您應該移除重新導向，以改善頁面載入效能。
+您可能想要針對活動中的所有體驗(包括預設（控制）體驗)使用重新導向選件的一個原因，是在所有體驗上放置相同的條件。 例如，如果預設體驗沒有重新導向選件，但其他體驗有重新導向選件，則沒有重新導向選件的體驗速度具有固有的優勢。 建議僅針對暫時藍本（例如測試）重新導向選件。 不建議永久藍本（例如個人化）使用重新導向選件。 在您決定「成功者」後，您應移除重新導向以改善頁面載入效能。
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
@@ -74,7 +74,7 @@ For more information about this issue, see the "Redirect offers" information in 
 
 在 VEC 和表單式體驗撰寫器中使用重新導向選件，且頁面上實作訪客 ID 服務時，這些參數會自動加入重新導向 URL 中。如果在 VEC 和表單式撰寫器中使用您自己的自訂重新導向程式碼，務必隨著自訂程式碼傳遞這些參數。
 
-## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦?    {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 您需要與 IT 團隊合作，將這些參數 (`adobe_mc_sdid` 和 `adobe_mc_ref`) 加入白名單。
 
