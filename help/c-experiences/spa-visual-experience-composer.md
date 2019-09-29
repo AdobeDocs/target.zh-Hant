@@ -27,13 +27,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 為了進一步說明檢視，下文將瀏覽這個在 React 中實作的假想線上電子商務網站，並探索一些檢視範例。按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結：[首頁](https://target.enablementadobe.com/react/demo/#/)**
+**連結：首[頁](https://target.enablementadobe.com/react/demo/#/)**
 
 ![首頁](/help/c-experiences/assets/home.png)
 
 當我們導覽到主網站時，立刻就會看到宣傳復活節特賣以及網站上最新發售產品的主圖影像。在這個案例中，檢視可定義為整個首頁。請記下這點，因為我們將在下文的「實作 Adobe Target 檢視」一節中更深入說明。
 
-**連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結：產[品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![產品網站](/help/c-experiences/assets/product-site.png)
 
@@ -47,7 +47,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 我們決定點擊「載入更多」按鈕來探索網站上更多的產品。在此情況下，網站 URL 不會變更。但此處的檢視只能呈現上圖中的第二列產品。「檢視」名稱可以命名為「PRODUCTS-PAGE-2」。
 
-**連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結：結[帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![結帳頁面](/help/c-experiences/assets/checkout.png)
 
@@ -83,7 +83,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    現在，讓我們來看看一些使用範例，瞭解如何在 React 中對假設性的電子商務 SPA 進行叫用 `triggerView()`:
 
-   **連結：[首頁](https://target.enablementadobe.com/react/demo/#/)**
+   **連結：首[頁](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -114,7 +114,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+   **連結：產[品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
    現在，讓我們來看看更複雜的範例。假設我們這些行銷人員想要個人化產品的第二列，讓使用者在點擊「載入更多」按鈕後，把售價標籤變更為紅色。
 
@@ -143,7 +143,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    }
    ```
 
-   **連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **連結：結[帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react 結帳](/help/c-experiences/assets/react6.png)
 
@@ -198,7 +198,7 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 
 **動作**
 
-按一下動作會醒目顯示將套用該動作之網站上的元素。在「檢視」底下建立的每個CMS動作都有下列圖示，如下所示：資訊、編輯、複製、移動和刪除。
+按一下動作會醒目顯示將套用該動作之網站上的元素。在檢視下建立的每個 VEC 動作都有下列圖示，如下所示: 資訊、編輯、原地複製、移動和刪除。
 
 ![修改](/help/c-experiences/assets/modifications.png)
 
@@ -208,8 +208,8 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 | --- | --- |
 | 資訊 | 顯示此動作的詳細資料。 |
 | 編輯 | 可讓您直接編輯該動作的屬性。 |
-| 原地複製 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**注意**：完成複製作業後，您必須透過 [!UICONTROL 瀏覽] 瀏覽至「在CMS中檢視」，以查看複製的動作是否為有效的操作。如果無法將動作套用到檢視，則會出現錯誤. |
-| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] -任何對應頁面載入事件的動作都會套用至網頁應用程式的初始頁面載入。<br>**注意：** 完成移動作業後，您必須透過瀏覽瀏覽至「在CMS中檢視」，以查看移動是否為有效的操作。如果無法將動作套用到檢視，則會出現錯誤 |
+| 原地複製 | 將動作原地複製至一或多個存在於[!UICONTROL 修改]面板上的檢視，或原地複製至一或多個您已在 VEC 中瀏覽及導覽的目標檢視。動作未必會存在於[!UICONTROL 修改]面板中。<br>**附註**: 執行原地複製作業後，您必須透過[!UICONTROL 瀏覽]導覽至 VEC 中的檢視，才能查看該原地複製動作的作業是否有效。如果無法將動作套用到檢視，則會出現錯誤. |
+| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] – 任何對應至頁面載入事件的動作，都會套用到網頁應用程式的初始頁面載入上。<br>**附註** 執行移動作業後，您必須透過瀏覽導覽至 VEC 中的檢視，才能查看該移動作業是否有效。如果無法將動作套用到檢視，則會出現錯誤 |
 | 刪除 | 刪除動作。 |
 
 >[!NOTE]
@@ -371,71 +371,71 @@ adobe.target.getOffers({
 | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | 是 |
 | [多活動傳送](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | 是 |
 
-## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+## SPA VEC 的頁面傳送設定 {#page-delivery-settings}
 
-[!UICONTROL 「頁面傳送] 」設定可讓您設定規則，以決定Target活動應合格及執行對象的時機。
+[!UICONTROL 頁面傳送]設定可讓您設定規則，判斷受眾是否符合 Target 活動且可執行。
 
-To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+若要從 VEC 的三步驟引導式活動建立工作流程內存取[!UICONTROL 頁面傳送]選項，請從&#x200B;**[!UICONTROL 體驗]**&#x200B;步驟中按一下&#x200B;**[!UICONTROL 設定]** (齒輪圖示) &gt; **[!UICONTROL 頁面傳送]**。
 
 ![頁面傳送選項對話方塊](/help/c-experiences/assets/page-delivery.png)
 
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. 此功能適用於任何多頁面應用程式，其中每個頁面與頁面叫用的每次互動都會叫用頁面重新載入，如此. js就會擷取使用者瀏覽至URL的活動。
+例如，如上方所示的[!UICONTROL 頁面傳送]設定所定義，Target 活動會在訪客直接在 `https://www.adobe.com` 上登陸時，*或是*&#x200B;在訪客在任何包含 `https://www.adobe.com/products` 的 URL 上登陸時符合並執行。這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
 
-However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+不過，由於 SPA 的運作方式不同，[!UICONTROL 頁面傳送]的設定方式必須如 SPA VEC 活動中所定義，可將所有動作套用至檢視。
 
-### 範例使用案例
+### 使用案例範例
 
-請考量此範例使用案例：
+請看看這個使用案例範例:
 
-![SPA CMS修改面板](/help/c-experiences/assets/page-delivery-example.png)
+![SPA VEC 修改面板](/help/c-experiences/assets/page-delivery-example.png)
 
-已進行下列變更：
+以下是所做的變更:
 
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* 變更位於下列 URL 下的首頁檢視的背景顏色: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
 * Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x* 的 SPA 中)，那麼會發生什麼情況?
 
 ![頁面傳送對話方塊](/help/c-experiences/assets/spa-page-delivery.png)
 
-下圖顯示在at. js中的「Target Flow- Page Load」請求。*x*:
+下圖顯示 Target 流程 - at.js 2.*x* 中的頁面載入要求:
 
-![Target Flow- at. js2.0頁面載入請求](/help/c-experiences/assets/page-load-request.png)
+![Target 流程 - at.js 2.0 頁面載入要求](/help/c-experiences/assets/page-load-request.png)
 
-**使用者歷程#1**
+**第 1 個使用者旅程**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2。*x* 會將查詢設為Edge，以查看是否有任何活動需要執行URL： [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。
-* 在步驟中，Target Edge會傳回「首頁和產品」檢視的動作，以便在瀏覽器內快取。
+* at.js 2.*x* 會查詢 Edge，以查看下列 URL 是否有任何需要執行的活動: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
+* 在步驟 6 中，Target Edge 會傳回首頁和產品檢視的動作，以便系統快取瀏覽器內的這些動作。
 
-**結果**：使用者會在「首頁」檢視中看到綠色背景顏色。When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+**結果**: 使用者會在首頁檢視中看見綠色的背景顏色。接著，當使用者導覽至 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 時，會看見按鈕的藍色背景顏色，因為系統已快取瀏覽器中的產品檢視下的動作。
 
 Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
-**使用者旅程#2**
+**第 2 個使用者旅程**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2。*x* 會將查詢設為Edge，以查看是否有任何活動需要執行URL： [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
+* at.js 2.*x* 會查詢 Edge，查看下列 URL 是否有任何需要執行的活動: [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products。
 * There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* 因為沒有符合資格的活動，所以不會針對at. js進行任何動作和檢視。*x* 要觸發的x。
+* 由於沒有任何符合的活動，因此沒有任何快取動作和檢視可供 at.js 2.*x* 觸發。
 
-**結果**：即使您已針對 `triggerView()` 「產品檢視」定義了「產品檢視」並透過SPA CMS對「產品檢視」進行了動作，因為您未建立包含「頁面傳送」設定中 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 的規則，所以看不到預期動作。
+**結果**: 即使您已針對產品檢視定義 `triggerView()` 並透過 SPA VEC 對產品檢視執行動作，您不會看見預期的動作，因為您並未建立在頁面傳送設定中包含 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 的規則。
 
 ### 最佳做法
 
-您可以看到，管理使用者歷程可能很困難，因為使用者可以登陸SPA的任何URL，並導覽至任何其他頁面。因此，最好指定包含基本URL的頁面傳送規則，使其包含您整個SPA。如此，您就不需要考慮使用者可能需要進入的所有不同歷程和路徑，才能顯示A/B測試或體驗定位(XT)活動。
+您會發現管理使用者旅程可能相當困難，因為使用者可能會在 SPA 的任何 URL 上登陸，並導覽至任何其他頁面。因此，建議您指定包含基底 URL 的頁面傳送規則，這樣就會包含整個 SPA。如此一來，您就不需要思考使用者為了抵達您要顯示 A/B 測試或體驗鎖定目標 (XT) 活動的頁面，可能會採取的所有不同旅程和路徑。
 
-例如，為瞭解決上述問題，我們可以指定「頁面傳送」設定中的基本URL，如下所示：
+例如，為解決遇到的上述問題，我們可以在頁面傳送設定中指定下列基底 URL:
 
 ![頁面傳送對話方塊](/help/c-experiences/assets/conclusion.png)
 
-如此可確保每當訪客進入SPA並導覽至「首頁」或「頁面檢視」時，就會看到所套用的動作。
+這樣可以確保無論訪客在 SPA 上的哪個位置登陸以及導覽至首頁或頁面檢視，都會看見套用的動作。
 
-Now, whenever you add an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+現在，每當您將動作新增至 SPA VEC 中的檢視，就會顯示下列快顯訊息，提醒您思考[!UICONTROL 頁面傳送]規則。
 
 ![頁面傳送設定訊息](/help/c-experiences/assets/pop-up-message.png)
 
-當您將第一個動作新增至您建立的每個新活動時，會顯示此訊息。This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
+當您為建立的每個新活動將第一個動作新增至檢視時，就會顯示此訊息。此訊息可協助確保組織中的所有人都瞭解如何正確套用這些[!UICONTROL 頁面傳送]規則。
 
 ## 訓練影片: 在 Adobe Target 中使用適用於 SPA 的 VEC
 
