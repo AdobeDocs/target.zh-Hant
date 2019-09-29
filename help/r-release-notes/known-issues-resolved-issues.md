@@ -1,7 +1,7 @@
 ---
 description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
-keywords: 已知問題;已解決的問題;版本說明;bugs;issues;fixes
-seo-description: Information about known issues for this release of Adobe Target. 也包括關於已解決之問題的資訊。
+keywords: 已知問題;已解決的問題;版本說明；錯誤；問題；修正
+seo-description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
 seo-title: Adobe Target 中的已知問題和已解決的問題
 solution: Target
 title: 已知問題和已解決的問題
@@ -27,7 +27,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ### 活動QA預覽連結 {#preview}
 
-[Activity QA preview](/help/c-activities/c-activity-qa/activity-qa.md) links for saved activities might not load if there are too many saved activities in your account. 重新嘗試預覽連結應能運作。 為防止這種情況繼續發生，請封存已儲存且不再被使用的活動。 (TNT-32697)
+[如果帳戶中儲存的活動過多](/help/c-activities/c-activity-qa/activity-qa.md) ，儲存的活動的活動QA預覽連結可能無法載入。 重新嘗試預覽連結應能運作。 To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
 
 ### 重新導向選件 {#redirect}
 
@@ -138,7 +138,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。計劃對 at.js 實施進行更新，以確保可以避免此競爭條件。
 
-此問題已在at.js 1.6.3中修正。
+This issue was fixed in at.js 1.6.3.
 
 ### 排除群組
 
