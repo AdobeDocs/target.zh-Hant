@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## mbox.js 對頁面載入時間有何影響? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+如需詳細資訊，請參閱 [at.js 的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)。
 
 ## 使用 mbox.js 和 document.write{#section_355A3A5BF02F42EEB8271C96EF41590A} 時，在 Google Chrome 中為何出現「剖析器封鎖」警告訊息? 
 
