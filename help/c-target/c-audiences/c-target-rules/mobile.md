@@ -1,8 +1,8 @@
 ---
-description: 根據諸如行動裝置、裝置類型、裝置廠商、螢幕尺寸(依像素)等參數，建立目標行動裝置。
+description: 建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
 keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
-seo-description: 根據諸如行動裝置、裝置類型、裝置廠商、螢幕尺寸(依像素)等參數，在Adobe Target中建立觀眾至目標裝置。
-seo-title: Adobe Target中的行動對象
+seo-description: 在 Adobe Target 中建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
+seo-title: Adobe Target 中的行動受眾
 solution: Target
 title: 行動
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 行動{#mobile}
 
-根據諸如行動裝置、裝置類型、裝置廠商、螢幕尺寸(依像素)等參數，建立目標行動裝置。
+建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
 
 例如，對於從手機進入您頁面的使用者和從電腦造訪的使用者，您想要分別顯示不同內容。在此情況下，您可以選取「行動裝置對象」，再選取&#x200B;**[!UICONTROL 「是手機」]選項，然後新增您認為重要的任何特定詳細資料，例如手機類型、螢幕大小 (畫素）等。**
 
@@ -57,9 +57,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 螢幕寬度 (px)
    >[!NOTE]
    >
-   >由於iOS12.2引進了新的變更，因此以「裝置行銷名稱」和指定iPhone機型的裝置模型所定義的規則受到影響。我們無法再定位安裝iOS12.2的使用者已安裝iOS12.2。不過，如果這些使用者沒有iOS12.2，則iPhone模型鎖定將繼續正常運作。
+   >由於 iOS 12.2 中推出的新變更，若使用指定 iPhone 機型之裝置行銷名稱和裝置型號所定義的規則來建立受眾，則會受到影響。我們無法再鎖定在 iPhone 上安裝 iOS 12.2 的使用者。不過，如果這些使用者沒有 iOS 12.2，iPhone 機型鎖定目標功能則可繼續正常運作。
    >
-   >iOS12.2更新不會影響下列模型的識別，因為這些模型不支援升級至iOS12.2：iPhone、iPhone3 G、iPhone3 GS、iPhone4、iPhone4 s、iPhone5、iPhone5、iPhone5 c、iPad、iPad2、iPad/Retina顯示器、iPad Retina(第代)、iPod Touch和iPod Touch5。
+   >iOS 12.2 更新不會影響下列機型的識別，因為這些機型不支援升級至 iOS 12.2: iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina 顯示器、iPad Retina (第 4 代)、iPod Touch 4 和 iPod Touch 5。
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-下圖顯示使用Google製造的裝置來鎖定訪客的對象，這些裝置是行動裝置。
+下圖顯示受眾鎖定目標訪客，這些訪客使用 Google 所製造的行動裝置。
 
-![目標行動裝置](assets/target_mobile.png)
+![Target 行動裝置](assets/target_mobile.png)
 
 ## 訓練影片: 建立對象
 
