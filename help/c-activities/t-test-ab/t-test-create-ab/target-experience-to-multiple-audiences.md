@@ -13,7 +13,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 ---
 
 
-# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
+# A/B 測試中的多個體驗受眾{#multiple-experience-versions-in-an-a-b-test}
 
 您可以在 A/B 活動中將相同體驗的版本鎖定在不同的對象。您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
 
@@ -37,7 +37,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 1. 選取體驗，然後按一下&#x200B;**[!UICONTROL 設定]** &gt; **[!UICONTROL 受眾]** &gt; **[!UICONTROL 多個受眾]**。
 
-   ![多對象選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![多個受眾選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「新增對象」]**，然後選取您要鎖定的第一個對象。對每個對象重複。
 
