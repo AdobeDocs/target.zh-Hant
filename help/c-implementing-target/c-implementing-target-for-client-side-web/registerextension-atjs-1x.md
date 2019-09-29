@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 registerExtension() 函數的資訊。 '
-keywords: registerExtension；地區擴充；註冊擴充功能；at. js；函數；函數；ClientCode；ServerDomain；globalmboxName；GlobalmboxReade；逾時
+keywords: registerExtension;register extension;register extension;at.js;function;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 registerExtension() 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 tregisterExtension() 函數的資訊。
 solution: Target
