@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 adobe.target.getOffer() 函數的資訊。 '
-keywords: adobe. target. getOffer；GetOffer；getofffer；取得優惠；at. js；函數；函數
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffer(options) 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffer(options) 函數的資訊。
 solution: Target
