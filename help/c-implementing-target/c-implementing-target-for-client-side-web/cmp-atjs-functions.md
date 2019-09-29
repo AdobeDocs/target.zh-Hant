@@ -1,6 +1,6 @@
 ---
 description: 可與 Adobe Target at.js JavaScript 資料庫搭配使用的函數清單。
-keywords: at. js；函數；javascript程式庫
+keywords: at.js；函式；javascript庫
 seo-description: 可與 Adobe Target 中的 at.js JavaScript 資料庫搭配使用的函數清單。
 seo-title: Adobe Target at.js 函數
 solution: Target
@@ -32,6 +32,6 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | [targetPageParams(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | 此方法允許您將參數從要求程式碼外部附加至全域 mbox。 |
 | [targetPageParamsAll(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 此方法允許您將參數從要求程式碼外部附加至所有 mbox。 |
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 提供標準方式來註冊特定的延伸模組。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |
-| [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js自訂事件可讓您得知mbox請求或選件失敗或拒絕的時機。 |
-| [adobe. target. sendNotifications(選項)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js2.1.0) | 此函數會在不使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`使用體驗時，將通知傳送至Target邊緣。<br>**注意**：此函數已於at. js2.1.0中推出，適用於2.1.0以上的任何版本。 |
+| [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at.js 自訂事件可讓您知道 mbox 要求或選件失敗或成功。 |
+| [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | 此函數會在體驗呈現時傳送通知給 Target Edge，而不需要使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`。<br>**注意**: 此函數已在 at.js 2.1.0 中推出，且將適用於 2.1.0 以上的任何版本。 |
 
