@@ -1,8 +1,8 @@
 ---
 description: 您可以根據網路詳細資料建立對象。
 keywords: 鎖定目標;網路;目標網路;isp;網域名稱;連線速度;目標 isp;目標網域名稱;目標連線速度
-seo-description: 您可以根據網路詳細資訊，在Adobe Target中建立觀眾。
-seo-title: 根據網路詳細資訊，在Adobe Target中建立觀眾。
+seo-description: 您可以根據網路詳細資料在 Adobe Target 中建立受眾。
+seo-title: 根據網路詳細資料在 Adobe Target 中建立受眾。
 solution: Target
 title: 網路
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+下圖顯示將目標鎖定於使用 AT&amp;T 且連線速度為[!UICONTROL 行動]之訪客的受眾。
 
 ![網路目標](assets/target_network.png)
 
