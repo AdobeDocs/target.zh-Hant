@@ -79,14 +79,14 @@ source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
    變更背景顏色和影像。
 
    * 顏色 (指定顏色代碼或使用檢色器)
-   * 影像(從檢色器選取影像)
-   * 影像來源(指定外部URL)
+   * 影像 (從影像選擇器選取影像)
+   * 影像來源 (指定外部 URL)
    * 附件
-      * 按一下頂端下拉式清單，選取捲動、固定或本機
-      * 按一下下方下拉式清單以選取重復、重復x、重復、不重復、空格或四捨五入
-   * Clip
-      * 按一下頂端下拉式清單，選取邊框框、填補空間、內容方塊或文字
-      * 按一下下方下拉式清單，選取自動音訊或音訊
+      * 按一下頂端的下拉式清單，選取捲動、固定或本機
+      * 按一下底部的下拉式清單，選取重複、重複 x、重複 y、不重複、空格或圓角
+   * 片段
+      * 按一下頂端的下拉式清單，選取邊框方塊、邊框間距方塊、內容方塊或文字
+      * 按一下底部的下拉式清單，選取自動音訊或音訊
 
 * **印刷樣式**
 
@@ -317,7 +317,7 @@ HTML 選件的大小最多可以是 256KB。
 
 在頁面上移動元素。與[!UICONTROL 「重新排列」]選項不同，[!UICONTROL 「移動」]選項不會移動其他元素來為已移動的元素騰出空間。使用方向鍵來微調此移動。(計劃的增強功能: 支援以確定已移動的元素不會隱藏在其他元素之後。)
 
-在某些情況下，例如當 CSS 限制需要元素保留在其上層元素內時，您無法將元素移出其上層之外。元素無法移出具有下列CSS屬性的容器以外： `overflow: hidden`。
+在某些情況下，例如當 CSS 限制需要元素保留在其上層元素內時，您無法將元素移出其上層之外。An element cannot be moved outside of a container that has following CSS property: .`overflow: hidden`
 
 #### 隱藏
 
@@ -343,7 +343,7 @@ HTML 選件的大小最多可以是 256KB。
 
 ## 考量事項 {#considerations}
 
-* 如果選件包含HTML內容，請參閱at at at. js的「How at. js renders offers with HTML content」(如何使用HTML內容呈現選件)( [How at. js) for](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in How at.js works for more information.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)
 
 ## 使用 DOM 路徑導覽元素 {#dom-path}
 
