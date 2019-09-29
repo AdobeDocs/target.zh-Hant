@@ -1,7 +1,7 @@
 ---
-description: Visual Experience Composer(CMS)提供一個視覺化介面，用於編輯您在「體驗鎖定(XT)」活動中頁面上的體驗。
+description: 可視化體驗撰寫器 (VEC) 提供視覺介面，可用於編輯體驗鎖定目標 (XT) 活動之頁面上的體驗。
 keywords: 建立體驗; 體驗建立; 優先順序; 對象; 體驗; 可視化體驗撰寫器
-seo-description: Adobe Target Visual Experience Composer(CMS)提供一個視覺化介面，用於編輯您在「體驗鎖定(XT)」活動中頁面上的體驗。
+seo-description: Adobe Target 可視化體驗撰寫器 (VEC) 提供視覺介面，可用於編輯體驗鎖定目標 (XT) 活動之頁面上的體驗。
 seo-title: 建立體驗
 solution: Target
 title: 建立體驗
@@ -13,31 +13,31 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 ---
 
 
-# Create experience{#create-experience}
+# 建立體驗{#create-experience}
 
-[!UICONTROL Visual Experience Composer] (CMS)提供一個視覺化介面，用於編輯您在 [!UICONTROL 「體驗鎖定] (XT)」活動中頁面上的體驗。
+The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
 1. 選取您要變更的元素，並進行需要的變更。
 
-   [建立XT活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三部分引導式工作流程([!UICONTROL 體驗])之一會顯示預設 [!UICONTROL A] 與 [!UICONTROL 所有訪客] 對象的預設體驗A。
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
-   ![所有訪客對象](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![所有訪客受眾](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   您所做的任何變更會立即套用至體驗 A。在下列步驟中，您將按一下&#x200B;**[!UICONTROL 新增體驗鎖定目標]**&#x200B;以建立其他體驗。
 
-   將游標移至頁面上的元素時，元素會強調顯示。任何反白顯示的元素都可以使用CMS進行變更。For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   將游標移至頁面上的元素時，元素會強調顯示。任何強調顯示的元素可以使用 VEC 加以更改。如需可以在元素上執行以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
    If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >根據預設，CMS不允許變更包含JavaScript的元素(例如旋轉橫幅)。您可以選擇停用JavaScript，使用CMS變更這些元素。
+   >根據預設，VEC 不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。您可以選取停用JavaScript，以使用VEC來變更這些元素。
 
 1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
-   ![新增體驗定位連結](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+   ![新增體驗鎖定目標連結](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   The [!UICONTROL Choose Audience] dialog box displays. 若要將體驗定位給對象，您必須先選取對象，才能新增體驗。
+   [!UICONTROL 選擇受眾]對話方塊隨即顯示。若要將體驗鎖定至某個受眾，則必須先選取受眾才能新增體驗。
 
    The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -45,35 +45,35 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
    >
    >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-   建立觀眾時，您可以選取位置 (mbox) 並指定該位置的參數。Under [!UICONTROL Custom] (Create Audience &gt; Add Rule &gt; Custom), select the mbox, then specify the desired parameters.
+   建立觀眾時，您可以選取位置 (mbox) 並指定該位置的參數。在[!UICONTROL 自訂] (建立受眾 &gt; 新增規則 &gt; 自動) 下，選取 mbox，然後指定所需的參數。
 
    >[!NOTE]
    >
    >當您開啟對象清單時，系統會自動在背景匯入對象，且匯入的是登入超過 10 分鐘的對象。
 
-1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
+1. 選取體驗要鎖定的一或多個受眾，然後按一下&#x200B;**[!UICONTROL 完成]**。
 
    ![體驗 B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   您會注意到，「體驗B」現在會顯示在上一個插圖中，而這個體驗將會鎖定在「美國訪客」對象中。
+   您會發現體驗 B 現已顯示於上圖中，且此體驗已鎖定至美國訪客受眾。
 
-1. 選取您要變更此體驗的元素並進行所需變更，請參閱上述步驟1。
+1. 選取您要針對此體驗變更的元素，並進行所需的變更 (如以上步驟 1 所述)。
 
-1. 視需要重復上述步驟，以建立其他目標體驗。
+1. 視需要重複上述步驟，建立其他鎖定目標的體驗。
 
-1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
+1. 當您完成體驗設計時，請按一下&#x200B;**[!UICONTROL 下一步]**。
 
    活動圖表顯示:
 
-   ![XT定位圖](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![XT 鎖定目標圖表](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
    >[!NOTE]
    >
    >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
-1. (條件性)在建立或編輯XT活動時拖放對象/體驗配對，以依照所需順序排列配對。
+1. (視條件而定) 在建立或編輯 XT 活動時拖放受眾/體驗配對，以使用所需順序排列配對。
 
-   訪客會依順序、由上到下的體驗進行評估。
+   系統會以由上到下的順序評估訪客的體驗。
 
    ![移動體驗](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
@@ -81,11 +81,11 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
    例如，假設您不知道建立 XT 活動時順序很重要。您後續在測試期間發現，您認為應該符合體驗 B 或 C 資格的訪客卻符合體驗 A 的資格。這可能是因為該對象非互斥卻採用不適當的順序 (例如，體驗 A = 美國，體驗 B = 舊金山，而體驗 C = 加州)。在此案例中，來自美國的所有使用者會符合體驗 A 的資格，即便他們位於舊金山或加州的其他地方。您可以從最多限制到最少限制 (舊金山 &gt; 加州 &gt; 美國) 重新排序對象/體驗配對，而不需重新建立整個活動。
 
-   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. 鎖定在「所有訪客」的體驗，可用來做為體驗鎖定目標活動中的最後一個體驗，以「捕捉」未落入任何其他體驗的任何訪客。
+   如果您有[!UICONTROL 所有訪客]受眾，請確保這不是圖表中的第一個受眾。鎖定在「所有訪客」的體驗，可用來做為體驗鎖定目標活動中的最後一個體驗，以「捕捉」未落入任何其他體驗的任何訪客。
 
 ## 重新命名或編輯體驗
 
-You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
+您可以按一下 XT 活動中某個體驗的[!UICONTROL 編輯] (三個垂直的點) 圖示，並視需要選擇下列選項:
 
 * 重新命名
 * 編輯  
@@ -94,17 +94,17 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 ## 刪除體驗
 
-On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses &gt; **[!UICONTROL Delete]**.
+在&#x200B;**[!UICONTROL 體驗]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 刪除]**。
 
 ![刪除體驗](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## 複製體驗
 
-您可以複製XT活動中的體驗，以便對其進行小幅變更，而無需從頭開始重新建立體驗。
+您可以複製XT活動中的體驗，以便對體驗進行小幅變更，而不需從頭開始重新建立體驗。
 
 在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
 
-![重復體驗](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+![複製體驗](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
 ## 訓練影片:
 
@@ -130,7 +130,7 @@ On the **[!UICONTROL Experiences]** page (the first step in the three-step guide
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hant)
 
-### 使用視覺體驗撰寫器
+### 使用可視化體驗撰寫器
 
 這部影片提供關於使用可視化體驗撰寫器選項的資訊。
 
