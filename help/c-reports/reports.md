@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 報表{#reports}
 
-報表提供有關活動的進度和結果的資訊，可協助您根據資料進行決策。報表資料可幫助您決定何時結束測試、顯示哪個選件是贏家，並提供深入洞察或學習，以決定下一個動作。
+報表提供關於活動進度和結果的資訊，可協助您根據資料進行決策。報表資料可協助您決定要在何時終止測試、顯示哪個選件的體驗是獲勝者，以及提供判斷後續動作所需的前瞻分析或經驗談。
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    例如，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「A/B 測試」]和[!UICONTROL 「體驗鎖定目標」]，並從[!UICONTROL 「狀態」]下拉式清單中選取[!UICONTROL 「上線」]，即可只顯示處於使用中狀態的 A/B 測試和「體驗鎖定目標」活動。
 
-   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型:A/B測試與體驗定位。Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. 您可以視需要取消選取一或多個類型。
+   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型: A/B 測試和體驗鎖定目標。請注意，根據預設會選取三種類型 A/B 測試 (手動、[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md))。您可以視需要取消選取一或多個類型。
 
    ![依類型篩選報表](/help/c-reports/assets/report_filters-new.png)
 
@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    圖例會顯示下列資訊:
 
    * 活動狀態，包括活動執行的日期範圍。
-   * 預計的成功體驗(若有的話)。
+   * 預計的獲勝體驗 (如果有的話)。
    >[!NOTE]
    >
    >至少有一個加入者看過體驗之後，體驗結果才會出現。
