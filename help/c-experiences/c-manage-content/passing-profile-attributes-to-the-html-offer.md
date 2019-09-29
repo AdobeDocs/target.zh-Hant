@@ -33,7 +33,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * HTML 選件代碼: `Get your ${profile.keyword} information here!`
-* 使用者看見: 在這裡取得您的世界盃資訊！
+* 使用者看見: 在這裡取得您的世界盃資訊!
 
 下面的值可以是「取代的代號」:
 
