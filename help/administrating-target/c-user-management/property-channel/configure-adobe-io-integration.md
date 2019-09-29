@@ -1,64 +1,64 @@
 ---
-description: 關於授予Adobe I/整合存取權以存取具有所需角色之所有工作區的資訊。
-keywords: 整合；角色；使用者權限；admin Console
-seo-description: 有關授予現有Adobe I/整合的資訊，請使用Adobe Target中所需角色的所有工作區
-seo-title: 授予Adobe I/O整合存取工作區並指派Adobe Target中的角色
+description: 將Adobe I/O整合存取權授予具有所需角色的所有工作區的相關資訊。
+keywords: 整合；角色；用戶權限；管理控制台
+seo-description: 將現有的Adobe I/O整合存取權授與Adobe Target中所需角色的所有工作區的相關資訊
+seo-title: 將Adobe I/O整合存取權授與Adobe Target中的工作區並指派角色
 solution: Target
 subtopic: 快速入門
-title: 授予Adobe I/O整合存取工作區並指派角色
+title: 將Adobe I/O整合存取權授與工作區並指派角色
 translation-type: tm+mt
 source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 授予Adobe I/整合存取工作區的權限並指派角色
+# ![PREMIUM](/help/assets/premium.png) 授與Adobe I/O整合工作區的存取權並指派角色
 
-[!UICONTROL 企業權限] 允許 [!DNL Target] 客戶使用單一組織，但將其分為不同團隊或工作流程的工作區。
+[!UICONTROL 「企業權限] 」可 [!DNL Target] 讓客戶使用單一組織，但可將其分為不同團隊或工作流程的工作區。
 
 >[!NOTE]
 >
 >屬性和權限功能屬於 [Target Premium](/help/c-intro/intro.md#premium) 解決方案的一部分。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 
-[!UICONTROL 企業權限] 功能可協助您有效擴展團隊內部的最佳化程式。雖然此功能可在 [!DNL Target] UI中使用，但是Admin API會將對應的支援點按至2019年之前。在2019 [!DNL Target] 年月發行的版本中，Adobe已更新管理API，讓您可以使用整合帳戶存取組織中建立的所有工作區。因此，在舊版中，管理員API僅限於預設工作區，2019年月更新授予所有具有 [!UICONTROL 核准者] 存取權的工作區存取權。
+「企 [!UICONTROL 業權限] 」功能有助於跨團隊有效縮放最佳化計畫。 雖然UI中提供此功能， [!DNL Target] 但管理員API直到2019年早些時候都未提供相應的支援。 在2019 [!DNL Target] 年2月發行版本中，Adobe更新了管理API，讓您可以使用整合帳戶存取組織中建立的所有工作區。 因此，雖然之前的管理API僅限預設工作區，但2019年2月的更新會授與具有核准者存取權的所有工作區 [!UICONTROL 的存] 取權。
 
-在2019 [!DNL Target] 年月發行的版本中 [!DNL Target][!UICONTROL ，企業權限] 為客戶提供下列存取控制：
+在2019年9 [!DNL Target] 月發行 [!DNL Target] 時， [!UICONTROL 「企業權限] 」為客戶提供下列存取控制：
 
 * 您可以選擇可套用整合的工作區
-* 您可以將角色套用至Adobe I/整合： [!UICONTROL 核准者]、 [!UICONTROL 編輯者]或 [!UICONTROL 觀察員]。
+* 您可以將角色套用至Adobe I/O整合：核 [!UICONTROL 準者]、 [!UICONTROL 編輯者]或觀 [!UICONTROL 察者]。
 
 此更新支援下列使用案例：
 
-* 將所有工作區的Adobe I/O整合存取權授與 [!UICONTROL 「觀察員」] 角色，而不具有建立或編輯資源的權限。
-* 授予Adobe I/O存取權，以適當的角色選取工作區，讓中央團隊只在少數工作區中進行API驅動的變更。
-* 當團隊準備好要探索API並據以選擇角色時，讓每個團隊都擁有自己的工作區，以便自行整合。
-* 混合並比對上述任何藍本。
+* 將Adobe I/O整合存取權授與具有 [!UICONTROL Observer] （觀察員）角色的所有工作區，以用於報告用途，但無權建立或編輯資源。
+* 授與Adobe I/O整合以適當角色存取選取的工作區，讓中央團隊僅在少數幾個工作區中進行API導向的變更。
+* 每當團隊準備探索API並據以選擇角色時，允許擁有其工作區的每個團隊擁有自己的整合。
+* 混搭上述任何案例。
 
-**需要的動作**：目前針對所有工作區運用API for資源(活動、對象、選件和報告)的客戶，需要將現有的Adobe I/整合存取權授與所有工作區，以依其使用案例使用所需角色。您可以選取「產品描述檔」中的每個 [!DNL Target][!UICONTROL 「產品描述檔][!DNL Adobe Admin Console] 」，並在「 [!UICONTROL 整合] 」索引標籤中新增整合。在月發行版本之前，所有使用 [!UICONTROL 核准者] 存取的整合都會使用，無論 [!UICONTROL 「產品角色」] 下拉式清單中所做的選擇為何。您現在可以選擇所要的角色。
+**Action Needed: Those customers who are currently leveraging APIs for CRUD operations on resources (activities, audiences, offers, and reporting) across all workspaces need to grant their existing Adobe I/O integration access to all workspaces with the desired role as per their use case.** You can do so by selecting each  Product Profile in the  and adding the integration(s) in the Integration tab. [!DNL Target][!DNL Adobe Admin Console]Prior to the September release, all integrations operated using Approver access, regardless of choice made from the Product Role drop-down list. You can now choose the desired role.
 
 >[!NOTE]
 >
->如果未執行此動作，則在2019 [!DNL Target] 年月發行的版本中，存取控制將會啓動，而且如果您目前的設定方式符合此條件，您將會看到存取權限。預先設定整合並無負面反應。您越早越好。視組織中的工作區數而定，此程序只需按幾下滑鼠，即可將現有的整合新增至具有所需角色的工作區。
+>If this action is not performed, after the  September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. [!DNL Target]There is no adverse reaction to setting up integrations in advance. The sooner you make this change, the better. Depending on the number of workspaces in your organization, this process takes only a few clicks to add an existing integration into workspaces with the desired role.
 
-**若要授予Adobe I/整合存取工作區及指派角色的權限：**
+**To grant Adobe I/O integrations access to workspaces and to assign roles:**
 
-1. 開啓 **[Adobe Admin Console](https://adminconsole.adobe.com)**。
+1. Open the Adobe Admin Console.**[](https://adminconsole.adobe.com)**
 
-1. 按一下 **[!UICONTROL 「產品]** 」索引標籤，然後選取所需產品的名稱。
+1. 按一下「 **[!UICONTROL 產品]** 」標籤，然後選取所要產品的名稱。
 
-   ![在Adobe Admin Console中選擇產品](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
+   ![Choose product in Adobe Admin Console](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
 
-1. 選取所要的工作區(產品描述檔)。
+1. 選擇所要的工作區（產品設定檔）。
 
-   ![選取產品描述檔](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
+   ![Select the product profile](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
 
 1. Click the **[!UICONTROL Integrations]** tab.
 
-   ![整合標籤](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
+   ![Integrations tab](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. (條件性)若要新增整合，請按一下 **[!UICONTROL 「新增整合]**」、選取所需的整合，然後按一下 **[!UICONTROL 「儲存]**」。
+1. （條件性）若要新增整合，請按一下「新 **[!UICONTROL 增整合」]**，選取所需的整合，然後按一下「 **[!UICONTROL 儲存」]**。
 
-1. 從 **[!UICONTROL 「產品角色」]** 下拉式清單中，選取該工作區所要的角色：
+1. From the Product Role drop-down list, select the desired role for that workspace:****
 
    * [!UICONTROL 核准者]
    * [!UICONTROL 編輯器]
