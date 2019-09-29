@@ -1,8 +1,8 @@
 ---
-description: Target中支援且不支援的. js外掛程式相關資訊。
-keywords: at. js外掛程式；支援的外掛程式；不支援的外掛程式；Ttmeta；ttmeta；mboxTrack
-seo-description: Adobe Target支援且不支援at. js增效模組的資訊。
-seo-title: at. js增效模組for Adobe Target
+description: Target中支援和不支援at.js外掛程式的相關資訊。
+keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
+seo-description: Adobe Target的at.js外掛程式支援與不支援的相關資訊。
+seo-title: at.js target增效模組
 solution: Target
 title: at.js 外掛程式
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 # at.js plug-ins{#at-js-plug-ins}
 
-Adobe Target中支援且不支援的. js外掛程式相關資訊。
+Adobe Target中支援和不支援at.js外掛程式的相關資訊。
 
 許多人都已針對 [!DNL mbox.js] 建立自訂的外掛程式和回應外掛程式。若不升級這些自訂外掛程式，[!DNL at.js] 可能無法予以支援。
 
