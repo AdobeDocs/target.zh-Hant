@@ -1,10 +1,10 @@
 ---
 description: Target Recommendations活動簡介，這些活動會根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-keywords: Recommendations;introduction;webinar;demo
+keywords: Recommendations;intro;introduction;webinar;demo
 seo-description: Adobe Target Recommendations活動簡介，這些活動會根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-seo-title: Adobe Target中Recommendations活動簡介
+seo-title: Introduction to Recommendations activities in Adobe Target
 solution: Target
-title: Recommendations簡介
+title: Introduction to Recommendations
 title-outputclass: premium
 topic: Premium
 badge: premium
@@ -14,21 +14,21 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations簡介
+# ![PREMIUM](/help/assets/premium.png) Introduction to Recommendations
 
-本文的文字來自Recommendations *簡介網路研討會* ，您可在下方檢視全文。
+The text in this article comes from the Introduction to Recommendations webinar, which you can view in its entirety below.**
 
 *Recommendations 簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
 
 ## 簡介
 
-我們都知道我們在零售業看到的推薦類型。 客戶越來越期待這些建議，並將它們當做探索其他可用選項的起點。 如果你考慮一下自己的購物行為，這些建議會非常有效。 我們中幾乎所有人都買過我們在某處推薦中最先看到的產品，無論是在商店裡還是數字地產上。
+We all know about the kinds of recommendations we see in retail. Increasingly, customers expect these kind of recommendations and use them as a starting point to explore other available options. If you think about your own shopping behavior, these kind of recommendations work really well. Nearly everyone among us has bought a product we saw first in a recommendation somewhere, whether that was in a store or on a digital property.
 
-下圖顯示建議，顯示新手機通常購買的配件，包括充電站、機箱和耳機。
+The following illustration shows a recommendation that displays accessories that are commonly purchased with a new phone, including charging stations, cases, and headphones.
 
-![建議顯示其他人使用新手機購買的配件。](/help/c-recommendations/assets/intro-1.png)
+![Recommendation showing accessories others have purchased with a new phone.](/help/c-recommendations/assets/intro-1.png)
 
-但我們並不總是在想，數位優先品牌如何提升客戶期望。 我們使用媒體和內容的方式越來越受到個人化建議的驅動。 想想你開啟Netflix、Spotify或YouTube時看到的第一件事。 這些品牌以建議開始客戶體驗。 在市面上有更多替代方案可供選擇的情況下，您必須在互動時為客戶找出最相關的內容。
+But what we don’t always think about is how digital-first brands are raising the bar of customer expectations. 我們使用媒體和內容的方式越來越受到個人化建議的驅動。 想想你開啟Netflix、Spotify或YouTube時看到的第一件事。 這些品牌以建議開始客戶體驗。 In a world where more alternatives are available than ever, it’s critical that you can identify the most relevant content for your customer at the point of interaction.
 
 ![顯示數位優先品牌的建議](/help/c-recommendations/assets/intro-2.png)
 
@@ -65,9 +65,9 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 ![顯示建議策略的圖例](/help/c-recommendations/assets/intro-5.png)
 
-* **您要建議哪些項目？** 首先，考慮您要建議的項目。 這可能是產品、影片或內容。
-* **您要在何處顯示建議？** 接下來，請考慮您要在何處提出建議。 大致而言，哪些頻道（網路、行動裝置、店內、資訊站等）。 客戶歷程的哪些部分將包含建議？ 您網站上的哪些頁面將包含建議？
-* **您如何判斷建議是否成功？** 假設您有沒有建議的體驗和建議的體驗，或您有兩種不同的建議類型。 您要如何判斷哪一種體驗對客戶而言是更好的體驗？ 有些量度可能比其他量度更難測量。 例如，建議對「客戶期限值」的影響通常很難直接獲得。 因此，取得較不抽象的量度和更具體的量度通常比較容易，例如每次瀏覽的收入、平均訂購值或點按次數。 在某些情況下，您可能會想要將量度減至最少，例如支援呼叫數。
+* **您要建議哪些項目？** First, think about what items you want to recommend. This could be products, videos, or content.
+* **Where do you want to show recommendations?** Next, think about where you want to make recommendations. 大致而言，哪些頻道（網路、行動裝置、店內、資訊站等）。 What parts of the customer journey will contain recommendations? 您網站上的哪些頁面將包含建議？
+* **您如何判斷建議是否成功？** 假設您有沒有建議的體驗和建議的體驗，或您有兩種不同的建議類型。 您要如何判斷哪一種體驗對客戶而言是更好的體驗？ 有些量度可能比其他量度更難測量。 For example, the impact of recommendations on Customer Lifetime Value is often difficult to directly get to. 因此，取得較不抽象的量度和更具體的量度通常比較容易，例如每次瀏覽的收入、平均訂購值或點按次數。 在某些情況下，您可能會想要將量度減至最少，例如支援呼叫數。
 
 在您制定策略後，您準備開始實施 [!DNL Target Recommendations]。
 
@@ -187,7 +187,7 @@ Target使用標準卡的概念。 標準卡就像個人化的配方。
 
 ### 線上業務規則
 
-最後一步是套用線上業務規則。 這是您根據訪客在數位屬性上的行為，運用網域知識和目前的內容來賦予演算法能力的地方。
+最後一步是套用線上業務規則。 這是您根據訪客在數位屬性上的行為，運用網域知識和目前的內容來賦予演算法的能力。
 
 ![線上商業規則圖示](/help/c-recommendations/assets/intro-18.png)
 
