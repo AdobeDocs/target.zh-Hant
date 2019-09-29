@@ -1,6 +1,6 @@
 ---
-description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有協助。
-seo-description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有協助。
+description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
+seo-description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
 seo-title: 多變數測試的預覽體驗
 solution: Target
 title: 多變數測試的預覽體驗
@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 多變數測試的預覽體驗{#preview-experiences-for-a-multivariate-test}
 
-因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有協助。
+因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
 
 1. 在體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「預覽」]**。
 
@@ -24,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 按一下清單中的體驗來檢視該體驗。
 
-1. To exclude one or more experiences from the multivariate test, select the desired experiences, then click **[!UICONTROL Exclude]**.
+1. 若要將一或多個體驗從多變數測試中排除，請選取所需的體驗，然後按一下&#x200B;**[!UICONTROL 排除]**。
 
    ![排除體驗](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
