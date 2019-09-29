@@ -1,8 +1,8 @@
 ---
-description: 您可以在Adobe Target中建立對象，以定位使用特定瀏覽器或特定瀏覽器選項的使用者瀏覽您的頁面。
+description: 您可以在 Adobe Target 中建立受眾，鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 keywords: 瀏覽器選項;類型;瀏覽器類型;瀏覽器語言;語言;版本;瀏覽器版本
-seo-description: 您可以在Adobe Target中建立對象，以定位使用特定瀏覽器或特定瀏覽器選項的使用者瀏覽您的頁面。
-seo-title: Adobe Target觀眾中的瀏覽器選項
+seo-description: 您可以在 Adobe Target 中建立受眾，鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
+seo-title: Adobe Target 受眾中的瀏覽器選項
 solution: Target
 subtopic: 多變數測試
 title: 瀏覽器
@@ -43,7 +43,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 為對象命名。
 1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 瀏覽器」]**。
 
-   ![規則&gt;瀏覽器](assets/target_browser.png)
+   ![規則 &gt; 瀏覽器](assets/target_browser.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
@@ -56,7 +56,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 下列範例顯示包含 Internet Explorer 版本 10 或 11 使用者的對象:
 
-![Target IE10和11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+![Target IE 10 和 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
 
 ## 瀏覽器選項 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -75,9 +75,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ### 語言 {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
-定位或排除設定為使用特定語言的特定瀏覽器。
+將設為使用特定語言的特定瀏覽器鎖定作為目標或排除。
 
-例如，如果某個選件僅提供英文版，則您可以將其語言設定為英文。或者，如果頁面未啟用雙位元組功能，您可以排除設為東亞語言的瀏覽器。
+例如，如果選件只有英文版，您可以會將語言設為英文的瀏覽器鎖定作為目標。或者，如果頁面未啟用雙位元組功能，您可以排除設為東亞語言的瀏覽器。
 
 在語言比位置更重要的情況下，透過包含或排除瀏覽器語言來鎖定目標訪客，將會比根據地理來鎖定目標更準確。例如，如果您提供以英文撰寫的文章，您可以將目標鎖定在說英語的國家/地區，或將設為英文的瀏覽器作為鎖定目標。對於不以英文為母語的國家/地區中說英語的人，鎖定目標瀏覽器可讓他們閱讀這篇文章。
 
@@ -100,7 +100,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 西班牙語
 * 繁體中文
 
-### 版{#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### 版本 {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 將特定瀏覽器版本鎖定作為目標或排除。
 
