@@ -22,7 +22,7 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 >
 >Target 全域 mbox 作為表單式活動的地點時，不支援追蹤點擊。
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## 設定點擊追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. 在活動的[!UICONTROL 「目標與設定」]頁面上設定您的目標時，請選取&#x200B;**[!UICONTROL 「轉換」]成功量度。**
 1. 針對動作，選取&#x200B;**[!UICONTROL 「點擊元素」]**，然後按一下&#x200B;**[!UICONTROL 「選取元素」]**。
@@ -37,31 +37,31 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 
 當活動加入者點擊選取的元素時，該點擊會被計為轉換。
 
-## Selected Elements panel {#selected-elements}
+## 所選元素面板{#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+若為 A/B 測試、體驗鎖定目標 (XT)、Automated Personalization (AP) 和多變數測試 (MVT) 活動，[!UICONTROL 所選元素]面板會在右側列出點擊追蹤的所有所選元素。
 
-![選取的元素面板](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+![所選元素面板](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. 下表說明可在元素上執行的每個動作：
+當您將游標移至[!UICONTROL 所選元素]面板中的某個元素上時，有一些可套用的動作。下表說明可在元素上執行的各個動作:
 
 | 動作 | 說明 |
 | --- | --- |
-| 資訊 | 顯示元素類型和選取器的完整DOM路徑。 |
-| 編輯   | 可讓您編輯CSS選取器。 |
+| 資訊 | 顯示元素類型和選取器的完整 DOM 路徑。 |
+| 編輯   | 可讓您編輯 CSS 選取器。 |
 | 刪除 | 刪除元素。 |
 
 ### 新增元素
 
-如果您已經知道選取器的DOM路徑，可以按一下面板頂端的加號圖示，手動新增它。
+如果您已知道選取器的 DOM 路徑，您可以按一下位於面板頂端的加號圖示手動新增。
 
 ![新增元素圖示](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### 選取的元素暫留在快顯視窗上
+### 所選元素暫留快顯
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 清單中包含元素的完整DOM路徑，可協助您驗證選取的元素是否用於點按追蹤。
+為點擊追蹤選取多個元素後，您可以在活動的[!UICONTROL 目標與設定]步驟上按一下[!UICONTROL 所選元素]連結，查看針對點擊追蹤所選之元素的完整清單。此清單包含元素的完整 DOM 路徑，可協助您驗證要用於點擊追蹤的所選元素。
 
-![Elements選取的連結](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![所選元素連結](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 考量事項 {#considerations}
 
