@@ -23,13 +23,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在[!UICONTROL 「對象」]方塊中，按一下「編輯」圖示 (三個垂直的點)，然後按一下&#x200B;**[!UICONTROL 「取代對象」]**。
 
-![取代對象選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+![取代受眾選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-依預設，所有訪客皆為對象。但您可以變更對象。對象是從對象資料庫中選取，但您也可以建立僅限於此活動的對象。對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 如果 A/B 測試沒有鎖定特定的目標對象，請選擇預設值:「所有訪客」。
+依預設，所有訪客皆為對象。但您可以變更對象。對象是從對象資料庫中選取，但您也可以建立僅限於此活動的對象。對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫中選取受眾、[建立新受眾](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)或[建立僅限於此活動的受眾](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。如果 A/B 測試沒有鎖定特定的目標對象，請選擇預設值:「所有訪客」。
 
 請注意，您也可以在[!UICONTROL 「選擇對象」]對話方塊中暫留在所需的對象上，以編輯或複製對象，如下所示。如果想要建立一個類似現有對象的對象，則複製對象就很有用。您可以複製對象、進行編輯，然後儲存為新對象。其他活動類型也支援此暫留功能。
 
-![觀眾停留](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+![受眾暫留](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
 建立觀眾時，您可以選取位置 (mbox) 並指定該位置的參數。在「自訂參數」下，選取 mbox，然後指定需要的參數。
 
@@ -41,9 +41,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以指定要加入活動中的合格訪客百分比。例如，您可以選擇包含所有訪客的 50%。
 
-![讀者百分比](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+![受眾百分比](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-You can also choose to let Target [allocate traffic automatically](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+您也可以選擇讓 Target [自動分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
 ## 訓練影片
 
