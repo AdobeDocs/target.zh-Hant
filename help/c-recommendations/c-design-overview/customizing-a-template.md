@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 使用開放原始碼 Velocity 設計語言來自訂建議設計。
 
-## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 有關 Velocity 的資訊，請參閱 [](https://velocity.apache.org)https://velocity.apache.org。
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 您亦可在範本中使用 `algorithm.name` 和 `algorithm.dayCount` 當作變數，因此，一個設計便可用於測試多個條件，而條件名稱可動態地在設計中顯示。藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。甚至，您可以使用這些變數來顯示 `dayCount` (條件中使用的資料天數，例如「過去 2 天最暢銷的商品」等)。
 
-## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 實務範例: 連同建議的產品一起顯示主要項目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 您可以修改設計來連同其他建議的產品一起顯示主要項目。例如，您可以在建議旁邊顯示目前項目當作參考。
 
@@ -180,7 +180,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 當您建立 [!DNL Recommendations] 活動時，如果主要項目取自於訪客的設定檔，例如「上次購買的項目」，則 [!DNL Target] 會在[!UICONTROL 可視化體驗撰寫器] (VEC) 中顯示隨機產品。這是因為當您設計活動時，沒有設定檔可用。訪客檢視頁面時就會看到預期的主要項目。
 
-## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 案例: 以逗號分隔符號取代售價中的小數點 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 您可以修改設計，以歐洲和其他國家/地區採用的逗號分隔符號，取代美國採用的小數點分隔符號。
 
@@ -206,15 +206,15 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
+## 案例: 使用 null 檢查邏輯建立 4x2 預設 Recommendations 設計{#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
+透過 Velocity 指令碼控制實體顯示的動態大小，下列範本可因應 1 對多結果，以免在 [!DNL Recommendations] 傳回的相符實體不足時建立空白的 HTML 元素。最適合使用此指令碼的情況是，備份建議不具有合理意義且已啟用[!UICONTROL 局部範本轉譯]。
 
-下列HTML程式碼片段取代了4x預設設計中現有的HTML部分(為了簡短而不包含CSS)：
+下列 HTML 片段會取代 4x2 預設設計中的現有 HTML 部分 (為了簡潔起見，此處未包含 CSS):
 
-* If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
-* With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
-* 請注意，邏輯不會在多列上平衡實體。例如，如果要顯示五或六個實體，它不會動態變成頂端，而在底部則不會動態變成兩個實體(頂端或底部三個)。第一列開始前，頂端列會顯示四個項目。
+* 如果第五個實體存在，指令碼會插入右 div 標記，並使用 `<div class="at-table-row">` 開啟新的一列。
+* 透過 4x2，最多將可顯示八個結果，但您可以修改 `$count <=8`，將此自訂為較小或較大的清單。
+* 請注意，邏輯不會平衡多個列上的實體。例如，如果有五個或六個要顯示的實體，並不會動態變成三個在頂端、兩個在底部 (或三個在頂端、三個在底部)。開始第二列之前，頂端列會顯示四個項目。
 
 ```
 <div class="at-table">
