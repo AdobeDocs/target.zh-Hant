@@ -20,7 +20,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 如需 TLS 的其他重要資訊，請參閱 [TLS (傳輸層安全性) 加密變更](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
-## [!DNL Target] Standard/Premium介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Standard/Premium 介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 [!DNL Target] Standard/Premium 介面支援下列瀏覽器和裝置:
 
@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (最新版本、最新版本減 1)</li><li>Mozilla Firefox (最新版本、最新版本減 1)</li></ul> |
 | Mac | <ul><li>Firefox (最新版本、最新版本減 1)</li><li>Chrome (最新版本、最新版本減 1)</li></ul> |
 
-## Content delivery {#section_1045A946056441268D40025529918D3D}
+## 內容傳遞 {#section_1045A946056441268D40025529918D3D}
 
 內容傳送已對下列瀏覽器和裝置進行測試:
 
