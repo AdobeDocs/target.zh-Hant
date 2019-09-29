@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 adobe.target.triggerView (viewName, options) 函數的資訊。 '
-keywords: adobe. target. righerView；觸發器檢視；觸發器檢視；觸發器檢視；at. js；函數；函數；ViewName；檢視名稱；檢視名稱
+keywords: adobe.target.triggerView;triggerview;triggerview;at.js;function;viewName;view name;view name
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.triggerView (viewName, options) 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.triggerView (viewName, options) 函數的資訊。
 solution: Target
@@ -25,19 +25,19 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | --- | --- | --- | --- |
 | viewName | 字串 | 是 | 傳入任何名稱作為要代表檢視的字串類型。此檢視名稱會顯示在 VEC 的[!UICONTROL 「修改]」面板中，供行銷人員建立動作和執行其 A/B 和 XT 活動。 |
 | options | 物件 | 無 |  |
-| options &gt; page | 布林值 | 無 | **TRUE:** page 的預設值為 true。當 page=true，會傳送通知至 [!DNL Target] 後端以增加曝光計數。<br>如果沒有與檢視相關聯的活動體驗或活動度量，則不會傳送任何通知。<br>**FALSE:** 當 page=false，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
+| options &gt; page | 布林值 | 無 | **TRUE:** page 的預設值為 true。當 page=true，會傳送通知至 [!DNL Target] 後端以增加曝光計數。<br>如果沒有任何與檢視相關聯的活動體驗或活動量度，則不會傳送任何修改。<br>**FALSE:** 當 page=false，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
 
-## 範例：True
+## 範例: True
 
-`triggerView()` 呼叫以傳送通知至Target後端，以遞增活動印象和其他度量。
+將通知傳送至 Target 後端以增加活動曝光次數和其他量度的 `triggerView()` 呼叫。
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## 範例：False
+## 範例: False
 
-`triggerView()` 呼叫未傳送通知至Target後端以用於曝光計數。
+不將通知傳送至 Target 後端以增加曝光計數的 `triggerView()` 呼叫。
 
 ```
 adobe.target.triggerView("homeView", {page: false})
