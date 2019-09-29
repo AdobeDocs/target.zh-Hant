@@ -1,7 +1,7 @@
 ---
 description: 目錄搜尋可協助您在目錄中尋找產品或內容。
 keywords: 目錄;搜尋
-seo-description: Adobe Target中的目錄搜尋可協助您在目錄中找到產品或內容。
+seo-description: Adobe target中的目錄搜尋可協助您找出目錄中的產品或內容。
 seo-title: Adobe Target中的目錄搜尋
 solution: Target
 title: 目錄搜尋
@@ -19,7 +19,7 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 目錄搜尋可協助您在目錄中尋找產品或內容。
 
-若要存取目錄搜尋，請按一下 **[!UICONTROL 「建議]** &gt; **[!UICONTROL 目錄搜尋]**」。
+若要存取目錄搜尋，請按一 **[!UICONTROL 下「建議]** &gt; **[!UICONTROL 目錄搜尋」]**。
 
 您可以從選項功能表中 (按一下搜尋欄位的向下箭頭時出現) 選取搜尋選項，以精簡搜尋。
 
@@ -40,13 +40,13 @@ In the search results, you click the **[!UICONTROL Environment]** filter to spec
 
 「產品」旁顯示的數字代表在所指定環境中可用的總數之中，符合搜尋詞語的產品數量。
 
-透過動態消息、API或mbox更新收到更新時，目錄會自動重新整理。更新通常在一小時內完成。如果更新正在進行中，則會顯示最近更新的時間。如果未進行更新，則會顯示最新更新開始和完成的時間。
+透過動態消息檔案、API或mbox更新收到更新時，目錄會自動重新整理。 更新通常在一小時內完成。 If updates are in progress, the time that the most recent update started displays. If no updates are in progress, the time that the most recent update started and finished displays.
 
 ## 根據進階搜尋建立系列或排除
 
 You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
 
-![另存新檔](/help/c-recommendations/c-products/assets/save-as.png)
+![另存為](/help/c-recommendations/c-products/assets/save-as.png)
 
 例如，使用 "id &gt; contains" 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合或排除項目」]。
 
