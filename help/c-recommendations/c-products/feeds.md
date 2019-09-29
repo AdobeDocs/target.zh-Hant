@@ -1,7 +1,7 @@
 ---
 description: 使用摘要來將實體匯入 Recommendations。實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
 keywords: Recommendations 摘要;摘要;SAINT;ftp;csv；分類；分析分類
-seo-description: 使用動態消息取得匯入Adobe Recommendations的實體。實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
+seo-description: 使用動態消息將實體匯入Adobe Recommendations。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
 seo-title: 動態消息
 solution: Target
 title: 動態消息
@@ -17,7 +17,7 @@ source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 # ![PREMIUM](/help/assets/premium.png) 摘要{#feeds}
 
-使用摘要來將實體匯入 [!DNL Recommendations]. 您可以使用CSV檔案、Google Product Search摘要格式和Adobe Analytics產品分類來傳送實體。
+使用摘要來將實體匯入 [!DNL Recommendations]. 實體可使用CSV檔案、Google Product Search摘要格式和Adobe Analytics產品分類來傳送。
 
 ## 摘要概覽 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -29,16 +29,16 @@ You can select which columns from your [!DNL Target] product classifications fil
 
 [!UICONTROL 「摘要」]清單 (**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 摘要」]**) 提供您已建立的任何摘要的相關資訊。
 
-![摘要頁面](/help/c-recommendations/c-products/assets/feeds-page.png)
+![動態消息頁面](/help/c-recommendations/c-products/assets/feeds-page.png)
 
-「動態消息」頁面包含下列欄：
+The Feeds page contains the following columns:
 
-* **名稱**：建立期間指定之饋送的名稱。若要編輯摘要的名稱，您必須編輯摘要本身。儲存為新名稱時，摘要會重新整理。
-* **類型**：類型包括 [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、 [Google產品摘要](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和 [Analytics分類](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
-* **狀態**：饋送的目前 [狀態](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **排程**：顯示動態消息的更新排程：每日、每周、每周或永不。
-* **項目**：顯示動態消息中的項目數。
-* **上次更新**&#x200B;日期：顯示上次更新動態消息的日期和時間，以及更新動態消息的人員名稱。If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
+* **名稱**:建立期間指定之動態消息的名稱。 若要編輯摘要的名稱，您必須編輯摘要本身。儲存為新名稱時，摘要會重新整理。
+* **類型**:類型包 [括CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、 [Google產品摘要](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)、 [Analytics分類](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
+* **狀態**:動態消息的目前 [狀態](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
+* **排程**:顯示動態消息的更新排程：每日、每週、每2週或永不。
+* **項目**:顯示動態消息中的項目數。
+* **上次更新**:顯示上次更新動態消息的日期和時間，以及更新動態消息的人員名稱。 If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -56,7 +56,7 @@ You can select which columns from your [!DNL Target] product classifications fil
 
 >[!IMPORTANT]
 >
->請勿在. csv檔案中以雙引號(」)括住值，除非它們是蓄意的。如果您將值含括在雙引號中，則必須藉由將它們含括在另一組雙引號中才能將其逸出。未逸出的雙引號會防止建議饋送正確載入。
+>請勿在。csv檔案中以雙引號(")括住值，除非這些值是有意的。 如果您將值含括在雙引號中，則必須藉由將它們含括在另一組雙引號中才能將其逸出。未逸出的雙引號會使建議饋送無法正確載入。
 
 例如，下列語法不正確:
 
@@ -94,7 +94,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 Google 產品搜尋摘要類型使用 Google 格式。這與 Adobe 的專屬 CSV 上傳格式不同。
 
-如果您有現有的Google產品摘要，可以將它當做匯入檔案使用。
+如果您有現有的Google產品摘要，您可將其用作匯入檔案。
 
 >[!NOTE]
 >
@@ -216,22 +216,22 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
    * CSV
    * Google產品摘要
    * Analytics分類
-   如需CSV和Google產品饋送類型類型的詳細資訊，請參閱 [動態消息概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您也可以 [下載模型CSV指南](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) ，以協助您正確格式化動態消息。
+   如需CSV和Google產品摘要類型的詳細資訊，請參閱摘 [要概觀](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。 您也可以 [下載模型CSV指南](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) ，協助您正確設定動態消息格式。
 
-1. (條件性)如果您選取 **[!UICONTROL CSV]** 或 **[!UICONTROL Google Product Feed]**，請指定可存取饋送的位置。
+1. (Conditional) If you selected CSV or Google Product Feed, specify the location where the feed can be accessed.********
 
-   * **FTP**：如果您選取FTP，請提供FTP伺服器資訊、登入憑證、檔案名稱和FTP目錄。您可以選擇使用 FTP SSL (FTPS)，以更安全地上傳。
+   * **FTP**:如果您選取FTP，請提供FTP伺服器資訊、登入認證、檔案名稱和FTP目錄。 您可以選擇使用 FTP SSL (FTPS)，以更安全地上傳。
 
       支援的FTP伺服器設定：
 
-      * FTP和FTPS必須設定為使用被動式FTP。
-      * 對於FTPS，請設定伺服器接受明確的FTPS連線。
+      * 必須將FTP和FTPS設為使用被動FTP。
+      * 對於FTPS，請配置伺服器以接受顯式FTPS連接。
       * 不支援SFTP。
-      * 您可以手動指定要啓動連線的連接埠(例如 `ftp://ftp.yoursite.com:2121`)。如果您未指定連接埠，則會使用預設的FTP或FTPS連接埠。
-   * **URL**：如果您選取URL，請指定URL。
+      * 您可以手動指定啟動連接的埠(例如， `ftp://ftp.yoursite.com:2121`)。 如果您未指定連接埠，則會使用預設的FTP或FTPS連接埠。
+   * **URL**:如果您選取URL，請指定URL。
 
 
-1. (條件性)如果您選取 **[!UICONTROL 「Analytics分類」]**，請從下拉式清單中選擇報表套裝。
+1. （條件性）如果您選 **[!UICONTROL 取「Analytics分類]**」，請從下拉式清單中選擇報表套裝。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「排程」]選項。
 
@@ -242,7 +242,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
    * 每日
    * 每週
    * 每 2 週
-   * 永不：請勿排程更新。如果不想執行此摘要，請選取此選項。
+   * 永不：請勿排程更新。 如果不想執行此摘要，請選取此選項。
 
 1. 指定您要執行摘要的時間。
 
@@ -281,7 +281,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
 | 正在匯入項目 | Target 正在從摘要檔案匯入項目。 |
-| 摘要已在 *時間成功匯入* | Target已將饋送檔案匯入其內容傳送系統。內容屬性的變更已在內容傳送系統中進行，很快就會反映在傳送的建議中。如果您看不到預期的變更，請稍後再試一次，然後重新整理包含建議的頁面。<br>*注意1：* 如果變更項目屬性的變更會導致項目從建議中排除，排除將立即反映出來。如果新加入項目，或屬性變更造成項目 *不再* 被排除在建議之外，則不會反映在下一個演算法更新後的24小時內。<br>*注意2：* 當顯示此狀態時，更新可能尚未反映在「目錄搜尋」使用者介面中。「目錄搜尋」中會列出個別狀態，指出可搜尋目錄上次更新的日期。 |
+| Feed Imported Successfully at *time* | Target已將動態消息檔案匯入其內容傳送系統。 對項目屬性的變更已在內容傳送系統中進行，並很快會反映在已傳送的建議中。 If you do not see the expected changes, try again shortly and refresh the page containing recommendations.<br>** 附註1:如果項目屬性的變更導致項目被排除在建議之外，則會立即反映排除。 如果新增項目，或變更屬性，導致項目不再從建議中 *排除* ，則直到下次演算法更新（將在24小時內發生）才會反映該項目。<br>** 附註2:顯示此狀態時，更新可能尚未反映在目錄搜尋使用者介面中。 目錄搜尋中會列出另一個狀態，指出可搜尋的目錄上次更新的時間。 |
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
@@ -321,20 +321,20 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解Recommendations中的動態消息(3：01)
+### 瞭解Recommendations中的動態消息(3:01)
 
 此影片包含下列資訊：
 
 * 瞭解摘要的用途
-* 瞭解動態消息的值
+* 瞭解動態消息的價值
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?captions=chi_hant)
 
-### 建立動態消息(6：44)
+### 建立動態消息(6:44)
 
 此影片包含下列資訊：
 
 * 設定動態消息
-* 知道要使用哪種類型的動態消息
+* 瞭解要使用的動態消息類型
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?captions=chi_hant)
