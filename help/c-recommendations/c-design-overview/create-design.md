@@ -48,11 +48,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 訓練影片：在Recommendations中建立自訂設計(3：20)
+## 訓練影片：在Recommendations中建立自訂設計(3:20)
 
-此影片包含下列資訊：
+This video contains the following information:
 
 * 建立自訂設計
-* 瞭解如何在您設計中參考顯示變數
+* 瞭解如何在您的設計中參考顯示變數
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=chi_hant)
