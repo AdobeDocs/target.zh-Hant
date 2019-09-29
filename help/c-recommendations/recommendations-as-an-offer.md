@@ -112,7 +112,7 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
    ![「刪除」圖示](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### 檢視建議選件的狀態 {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
@@ -120,8 +120,8 @@ The recommendations offer's (algorithm) status displays at the bottom of the [!U
 * 結果未就緒
 * 動態消息失敗
 
-![Recommendations選件狀態](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 訓練影片：建議作為選件
+## Training video: Recommendations as an offer
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?captions=chi_hant)
