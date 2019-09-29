@@ -1,7 +1,7 @@
 ---
 description: 在自動個人化 (AP) 活動中使用報表群組的相關資訊。
 keywords: 自動個人化;選件;報表;群組；報告組
-seo-description: 有關在Adobe Target的「自動個人化(AP)」活動中使用報告群組的資訊。
+seo-description: Information about using reporting groups in Automated Personalization (AP) activities in Adobe Target.
 seo-title: 在Adobe Target的「自動個人化(AP)」活動中提供報表群組
 solution: Target
 title: 自動個人化中的選件報表群組
