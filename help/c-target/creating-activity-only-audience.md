@@ -1,8 +1,8 @@
 ---
 description: 在建立活動時，從三個步驟引導工作流程內建立僅限活動的對象。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
 keywords: 對象;對象規則;建立對象;建立對象;僅限活動;僅活動;臨機
-seo-description: 在建立活動時，從Adobe Target三步驟引導式工作流程建立僅限活動的對象。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
-seo-title: 建立僅限於此活動的對象在Adobe Target中
+seo-description: 在建立活動時，從 Adobe Target 三步驟引導式工作流程內建立僅限活動的受眾。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
+seo-title: 在 Adobe Target建立僅限於此活動的對象
 solution: Target
 title: 建立僅限於此活動的對象
 topic: Advanced,Standard,Classic
@@ -15,18 +15,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 建立僅限於此活動的對象{#create-an-activity-only-audience}
 
-在建立活動時，從三個步驟引導工作流程內建立僅限活動的對象。These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
+在建立活動時，從三個步驟引導工作流程內建立僅限活動的對象。這些隨選受眾可用在相同活動內的其他位置，但不會儲存在[!UICONTROL 受眾資料庫]而用於其他活動。
 
 僅限於此活動的對象提供下列優點:
 
-* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
-* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. 因此這些對象會獲得保護，不會受組織中的其他人不必要的變更。
+* 您可以使用僅限於此活動的受眾，建立您僅要使用一次且不想儲存在[!UICONTROL 受眾資料庫]的受眾。這可防止[!UICONTROL 受眾資料庫]雜亂，充滿了您絕不再想要使用的受眾。
+* 在[!UICONTROL 受眾資料庫]中看不到僅限於此活動的受眾。因此這些對象會獲得保護，不會受組織中的其他人不必要的變更。
 
-1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
+1. 建立 [活動](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)時，請在 **[!UICONTROL Target]** 頁面上按一下三個垂直的點，然後按一下&#x200B;**[!UICONTROL 取代受眾]**。
 
    ![步驟結果](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
+1. 在[!UICONTROL 選擇受眾]頁面上，按一下&#x200B;**[!UICONTROL 僅限活動的受眾]**。
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 處理僅限於此活動的對象時，請記得下列資訊:
 
 * 您可以在可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中建立僅限於此活動的對象。此功能會取代舊版 Target 中的細分規則。
-* You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. 儲存對象之後，您無法變更對象類型。
+* 您可以建立要在[!UICONTROL 受眾資料庫]中儲存的活動，以在其他活動中重複使用，或您可以建立僅限於此活動的受眾。儲存對象之後，您無法變更對象類型。
 * 現有活動的細分已移轉至僅限於此活動的對象。
-* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. 在儲存活動之前，會將僅限於此活動的對象顯示為「未使用」。如果維持未使用而您嘗試儲存活動，會顯示警告訊息，通知您將刪除未使用的僅限於此活動的對象。
+* 僅限於此活動的受眾的狀態為[!UICONTROL 已使用]或[!UICONTROL 未使用]。在儲存活動之前，會將僅限於此活動的對象顯示為「未使用」。如果維持未使用而您嘗試儲存活動，會顯示警告訊息，通知您將刪除未使用的僅限於此活動的對象。
 * 您可以在可透過對象選擇器存取的快顯卡上檢視對象定義詳細資料，而不需開啟對象。
 * 您可以[結合多個對象](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立僅限於此活動的對象。
 
