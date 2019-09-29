@@ -1,10 +1,10 @@
 ---
-description: 建立對象以定位符合特定描述檔參數的訪客。
+description: 建立受眾以將目標鎖定於符合特定設定檔參數的訪客。
 keywords: 訪客設定檔;目標訪客設定檔
-seo-description: 在Adobe Target中建立觀眾，以定位符合特定描述檔參數的訪客。
+seo-description: 在 Adobe Target 中建立受眾，將目標鎖定於符合特定設定檔參數的訪客。
 seo-title: 訪客資料
 solution: Target
-title: 使用Adobe Target建立觀眾以定位訪客描述檔
+title: 使用 Adobe Target 建立受眾以將目標鎖定於訪客設定檔
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 訪客資料{#visitor-profile}
 
-建立對象以定位符合特定描述檔參數的訪客。
+建立受眾以將目標鎖定於符合特定設定檔參數的訪客。
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
