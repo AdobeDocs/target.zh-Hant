@@ -83,7 +83,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於設定工作區的詳細資訊。
 
-### Obtain your Workspace ID {#workspace-id}
+### 取得您的 Workspace ID {#workspace-id}
 
 您必須傳遞 Workspace ID，才能在 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中運用企業權限。
 
