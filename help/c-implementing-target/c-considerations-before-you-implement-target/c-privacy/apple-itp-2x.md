@@ -32,22 +32,22 @@ Apple ITP 2.1和2.1對下列 [!DNL Target] 領域的影響：
 
 | 影響 | 詳細資料 |
 | --- | --- |
-| 獨特訪客計數的潛在增加 | 由於有效期間設定為7天（使用ITP 2.1）和1天（使用ITP 2.2），您可能會看到來自Safari瀏覽器的獨特訪客增加。 如果您的訪客在七天(ITP 2.1)或一天(ITP 2.2)後再次造訪您的網域， [!DNL Target] 就必須在您的網域上放置新 [!DNL Target] Cookie來取代過期的Cookie。 新的 [!DNL Target] Cookie會轉換為新的獨特訪客，即使使用者相同。 |
-| 減少活動回顧時 [!DNL Target] 間 | 活動的訪客 [!DNL Target] 資料可能會縮短決策回顧期。 [!DNL Target] Cookie可用來識別訪客身分，並儲存使用者描述檔屬性以進行個人化。 由於 [!DNL Target] Cookie可在七天(ITP 2.1)或一天(ITP 2.2)之後於Safari上過期，因此系結至已清除 [!DNL Target] Cookie的使用者描述檔資料無法用於決策。 |
+| 獨特訪客計數的潛在增加 | Due to the expiration window being set to seven days (with ITP 2.1) and one day (with ITP 2.2), you might see an increase of unique visitors coming from Safari browsers. 如果您的訪客在七天(ITP 2.1)或一天(ITP 2.2)後再次造訪您的網域， [!DNL Target] 就必須在您的網域上放置新 [!DNL Target] Cookie來取代過期的Cookie。 新的 [!DNL Target] Cookie會轉換為新的獨特訪客，即使使用者相同。 |
+| Decreased lookback periods for  activities[!DNL Target] | Visitor profiles for [!DNL Target] activities might have a decreased lookback period for decisioning. [!DNL Target] cookies are leveraged to identity a visitor and store user profile attributes for personalization. Given that  cookies can be expired on Safari after seven days (ITP 2.1) or one day (ITP 2.2), the user profile data that was tied to the purged  cookie cannot be used for decisioning.[!DNL Target][!DNL Target] |
 
-## 我目前的實作是否受 [!DNL Target] 影響？
+## Is my current implementation of [!DNL Target] impacted?
 
-在Safari瀏覽器中，導覽至您有JavaScript程式庫的 [!DNL Target] 網站。 如果您在CNAME [!DNL Target] 的上下文中看到設定的Cookie, `analytics.company.com`則不會受到ITP 2.1或2.2的影響。
+In a Safari browser, navigate to your website on which you have a  JavaScript library. [!DNL Target]If you see a  cookie set in the context of a CNAME, such as , then you are not impacted by ITP 2.1 or 2.2.[!DNL Target]`analytics.company.com`
 
-如果您除了使用Target javaScript程式庫外，還使用Experience Cloud ID(ECID)程式庫，您的實作會受到本文章所列方式的影響： [Safari ITP 2.1對Adobe Experience cloud和Experience platform客戶的影響](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
+If you are using the Experience Cloud ID (ECID) library in addition to the Target JavaScript library, your implementation will be impacted in the ways listed in this article: Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers.[](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)
 
-## 我要如何減輕ITP 2.1、ITP 2.2和未來ITP版本對的影響 [!DNL Target]?
+## How can I mitigate the impact of ITP 2.1, ITP 2.2, and future ITP releases to ?[!DNL Target]
 
-為了減輕ITP 2.1、ITP 2.2和未來ITP發行的影響，請完 [!DNL Target]成下列工作：
+To mitigate the impact of ITP 2.1, ITP 2.2, and future ITP releases to , complete the following tasks:[!DNL Target]
 
-1. 將Experience Cloud ID(ECID)程式庫部署至您的頁面。
+1. Deploy the Experience Cloud ID (ECID) library to your pages.
 
-   ECID程式庫可讓Experience Cloud Core解決方案的人員識別架構。 ECID程式庫可讓您指派永久和唯一的識別碼，以識別不同Experience cloud解決方案中的相同網站訪客及其資料。 ECID程式庫會經常更新，以協助您減輕影響實作的ITP相關變更。
+   The ECID library enables the people identification framework for Experience Cloud Core solutions. The ECID library allows you to identify same site visitors and their data in different Experience Cloud solutions by assigning persistent and unique identifiers. The ECID library will be updated frequently to help you mitigate any ITP-related changes that impact your implementation.
 
    對於ITP 2.1和ITP 2.2, [ECID程式庫4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，必須用於緩解。
 
@@ -61,4 +61,4 @@ Apple ITP 2.1和2.1對下列 [!DNL Target] 領域的影響：
 
 As the industry makes strides to create a more secure web for consumers, [!DNL Adobe Target] is absolutely committed to delivering personalized experiences while meeting and exceeding the privacy expectations of visitors. [!DNL Adobe Target] 除了支援 [Apple的ITP 2.1和ITP 2.2外，已宣佈支援Google的SameSite Chrome政策](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) 。
 
-隨著政策的不斷演變以保護我們的 [!DNL Adobe] 消費者，我們也將繼續支援這些計畫 [!DNL Target]，同時協助客戶提供同級最佳的個人化�
+隨著政策的不斷演變以保護我們的 [!DNL Adobe] 消費者，我們也將繼續支援這些計畫 [!DNL Target]，同時協助客戶提供同級最佳的個人化體驗。
