@@ -2,7 +2,7 @@
 description: 使用行動裝置預覽連結為行動應用程式活動執行簡單的端對端品質確保措施，並且無需任何特殊測試裝置，即可在您的裝置上註冊不同的體驗。
 keywords: qa;preview;preview link;mobile;mobile preview
 seo-description: 使用行動裝置預覽連結為行動應用程式活動執行簡單的端對端品質確保措施，並且無需任何特殊測試裝置，即可在您的裝置上註冊不同的體驗。
-seo-title: 在Adobe target行動裝置中使用行動預覽連結
+seo-title: Using the mobile preview link in Adobe Target mobile
 solution: Target
 title: Target 行動裝置預覽
 topic: Advanced,Standard,Classic
@@ -31,8 +31,8 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
    如需下載適當 SDK 的說明，請參閱:
 
-   * **** iOS:開 [始使用](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html)*Mobile Services iOS說明之前*。
-   * **** Android:開 [始使用](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)*Mobile Services android說明之前*。
+   * **** iOS: Before You start in the Mobile Services iOS Help.[](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html)**
+   * **** Android: Before You start in the Mobile Services Android Help.[](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)**
 
 1. **設定 URL 配置:** 預覽連結使用 URL 配置來開啟您的應用程式。您必須針對預覽指定唯一的 URL 配置。
 
