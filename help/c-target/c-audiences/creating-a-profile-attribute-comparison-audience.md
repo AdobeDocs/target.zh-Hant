@@ -1,8 +1,8 @@
 ---
-description: 定義對象來比較您的Target對象程式庫或僅限活動對象的兩個描述檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+description: 定義 Target 受眾，比較受眾資料庫或僅限此活動受眾中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 keywords: 對象;傾向;設定檔屬性;比較;比較;建立對象;建立對象
-seo-description: 定義對象來比較您的Target對象程式庫或僅限活動對象的兩個描述檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
-seo-title: 建立設定檔屬性比較對象在Adobe Target中
+seo-description: 定義 Target 受眾，比較受眾資料庫或僅限此活動受眾中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+seo-title: 在 Adobe Target 中建立設定檔屬性比較對象
 solution: Target
 title: 建立設定檔屬性比較對象
 topic: Advanced,Standard,Classic
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 建立設定檔屬性比較對象{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). 使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+定義受眾，比較[受眾資料庫](/help/c-target/c-audiences/audiences.md)或[僅限此活動受眾](/help/c-target/creating-activity-only-audience.md)中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 
 >[!NOTE]
 >
@@ -39,17 +39,17 @@ Define an audience to compare two profile attributes for your [Audience library]
 1. 依序按下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象]** &gt; **[!UICONTROL 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
 1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]下拉式清單選取屬性:**
 
-   ![傾向分數1](assets/propensity_score_1.png)
+   ![傾向分數 1](assets/propensity_score_1.png)
 
 1. 選取求值器:
 
-   ![傾向分數2](assets/propensity_score_2.png)
+   ![傾向分數 2](assets/propensity_score_2.png)
 
 1. 從&#x200B;**[!UICONTROL 「選取比較類型」]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 「屬性」]**。
 
    「靜態值」比較類型可讓您將訪客設定檔屬性與特定值比較。
 
-   ![傾向分數3](assets/propensity_score_3.png)
+   ![傾向分數 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
