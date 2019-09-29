@@ -1,7 +1,7 @@
 ---
 description: 在體驗鎖定目標 (XT) 活動中使用量度以判斷造訪是否成功。
 keywords: 體驗鎖定目標; XT; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-seo-description: 使用Adobe Target體驗定位(XT)活動中的度量來判斷瀏覽成功的時機。
+seo-description: 在 Adobe Target 體驗鎖定目標 (XT) 活動中使用量度以判斷造訪是否成功。
 seo-title: 設定量度
 solution: Target (Standard)
 title: 設定量度
