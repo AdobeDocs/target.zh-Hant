@@ -1,12 +1,12 @@
 ---
-keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Target;home；熱門主題；adobe target;standard;premium;target documentation;adobe target documentation
 seo-title: Adobe Target 產品文件
 solution: Target
 title: Adobe Target 產品文件
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2019年9月27日(請[參閱變更內容](r-release-notes/doc-change.md))**
+**上次更新日期：2019年9月30日(請[參閱變更內容](r-release-notes/doc-change.md))**
 
 以下章節依照目標對象的典型職務排列，能引導您在本指南中找到實用連結:
 
@@ -58,4 +58,4 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 | Adobe [!DNL Target] 解決方案說明 | [!DNL Adobe Experience Cloud] 資源 |
 |--- |--- |
-| <ul><li>[Adobe Target Learn &amp; Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API 文件](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target學習與支援](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API 文件](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
