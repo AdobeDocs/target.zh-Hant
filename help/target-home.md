@@ -6,7 +6,7 @@ title: Adobe Target 產品文件
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2019年9月30日(請[參閱變更內容](r-release-notes/doc-change.md))**
+**上次更新日期：2019年10月1日(請[參閱變更內容](r-release-notes/doc-change.md))**
 
 以下章節依照目標對象的典型職務排列，能引導您在本指南中找到實用連結:
 
