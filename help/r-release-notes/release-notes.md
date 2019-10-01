@@ -1,6 +1,6 @@
 ---
 description: 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
-keywords: 發行說明；新功能；發行；更新；更新；發行；增強；增強；修正；錯誤修正
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 seo-description: 這些版本說明提供關於每個 Adobe Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
 seo-title: Adobe Target 版本說明 (最新)
 solution: Target
@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
+source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
 
 ---
 
@@ -21,7 +21,8 @@ source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
 
 此維護髮行包含下列增強功能：
 
-* 數項安全性修正，包括Visual Experience Composer(VEC)中Rich Text Editor(RTE)的安全性更新。 (TGT-35383)
+* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
+* Recommendations Offers can now be added to elements other than DIV (e.g. P, UL, H1), in addition to DIV, in A/B Test and Experience Targeting activities. (TGT-34333)
 
 ## Target Standard/Premium 19.9.1 (2019 年 9 月 10 日)
 
