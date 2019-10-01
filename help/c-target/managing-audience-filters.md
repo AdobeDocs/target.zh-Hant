@@ -1,13 +1,13 @@
 ---
 description: 對象篩選 (或數個對象) 是指共用特定特性或一組特性的訪客群組。
-keywords: 鎖定目標;對象篩選條件;對象
-seo-description: 對象篩選 (或數個對象) 是指共用特定特性或一組特性的訪客群組。
-seo-title: 報表的對象篩選條件
+keywords: 鎖定目標;對象篩選條件;對象；過濾器
+seo-description: Adobe Target（或觀眾）中的觀眾篩選器是一組具有特定特性或一組特性的訪客。
+seo-title: Adobe target中報告的對象篩選
 solution: Target
 title: 報表的對象篩選條件
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -22,8 +22,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在規劃對活動使用對象篩選條件時，請考量下列準則：
 
-* **訪客可能屬於多個對象。**&#x200B;如果設定兩個對象 (例如「新訪客」及「來自 Google 的訪客」)，而且有人同時符合這兩個條件，則此人會納入這兩個對象中來追蹤。因此，對象中的訪客總數和活動中的訪客數並不相符。
-* **啟動行銷活動之前設定對象。**&#x200B;無法回溯擷取對象資料。如果您在啟動活動之前未設定對象篩選條件，然後在活動執行一段時間後，又決定使用對象篩選條件，則無法收集已成過去的資料。
+* **訪客可能屬於多個對象。** If there are two audiences set up (for example, "new visitors" and "visitors from Google"), and a person meets both criteria, then this visitor is counted and tracked in both audiences. 因此，對象中的訪客總數和活動中的訪客數並不相符。
+* **Set up audiences before launching the activity.**&#x200B;無法回溯擷取對象資料。如果您在啟動活動之前未設定對象篩選條件，然後在活動執行一段時間後，又決定使用對象篩選條件，則無法收集已成過去的資料。
 * **從兩個到四個對象開始。**&#x200B;著重於基本資訊，例如流量來源。
 * **視需要重新命名對象。**&#x200B;您可以在不影響資料的情況下重新命名對象，讓對象名稱在正在收集的結果中更有意義，即使活動在使用中也一樣。
 * **輸入精確值。**&#x200B;對象篩選值區分大小寫。例如，若您使用對象來篩選城市，則應使用 "OR" 條件來包含可能的拼字與大小寫變化，例如 "Vienna"、"vienna"、"wien" 和 "Wien"。
@@ -36,6 +36,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 建立適當的活動或測試。 | [活動和測試](/help/c-intro/target-key-concepts.md) |
 | 必要的話，建立對象。 | [建立對象](/help/c-target/c-audiences/create-audience.md) |
 | 必要的話，合併多個對象。 | [合併多個對象](/help/c-target/combining-multiple-audiences.md) |
-| 在活動的「目標與設定」頁面上套用對象。 | A/B 測試: [目標與設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>自動個人化: [自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>體驗鎖定目標: [目標與設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多變數測試: [目標與設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>活動設定: [活動設定](/help/c-activities/activity-settings.md) |
-| 檢視含有對象篩選條件之相關資訊的報表。 | 報表設定 |
+| 在活動的「目標與設定」頁面上套用對象。 | A/B Test: [Goals and Settings](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Goals and Settings](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivariate Test:  [Goals and Settings](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Recommendations activity settings](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Activity Settings: [Activity Settings](/help/c-activities/activity-settings.md) |
+| 檢視含有對象篩選條件之相關資訊的報表。 | [報表設定](/help/c-reports/c-report-settings/report-settings.md) |
 
