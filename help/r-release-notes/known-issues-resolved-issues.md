@@ -1,14 +1,14 @@
 ---
 description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
 keywords: 已知問題;已解決的問題;版本說明；錯誤；問題；修正
-seo-description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
+seo-description: Information about known issues for this release of Adobe Target. 也包括關於已解決之問題的資訊。
 seo-title: Adobe Target 中的已知問題和已解決的問題
 solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ### 活動QA預覽連結 {#preview}
 
-[如果帳戶中儲存的活動過多](/help/c-activities/c-activity-qa/activity-qa.md) ，儲存的活動的活動QA預覽連結可能無法載入。 重新嘗試預覽連結應能運作。 To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
+[如果帳戶中儲存的活動過多](/help/c-activities/c-activity-qa/activity-qa.md) ，儲存的活動的活動QA預覽連結可能無法載入。 重新嘗試預覽連結應能運作。 為防止這種情況繼續發生，請封存已儲存且不再被使用的活動。 (TNT-32697)
 
 ### 重新導向選件 {#redirect}
 
@@ -62,8 +62,9 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 下列是建議活動的已知問題:
 
-* 使用特定設定檔屬性作為條件索引鍵時，發生 Recommendations "error.restapi.algorithmProfileAttributeInvalid" 錯誤。
-* 在建議活動中使用後端促銷活動時，條件包含篩選不會對備用 ER 套用。
+* 實體在60天後即可正確到期，因為沒有透過動態消息或API收到更新；但過期的實體在過期後不會從目錄搜尋索引中移除。 (IRI-857)
+* 標準與設計的「使用資訊」覆蓋無法反映其在A/B和體驗定位活動中的使用情形(TGT-34331)
+* A/B和「體驗定位」活動中的「建議選件」不會顯示Recommendations托盤的視覺化預覽(TGT-33426)
 
 ### 多變數測試 (MVT) 活動
 
