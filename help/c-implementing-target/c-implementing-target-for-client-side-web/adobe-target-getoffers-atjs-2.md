@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 adobe.target.getOffers() 函數的資訊。 '
-keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
+keywords: adobe.target.getOffers;getOffers;get offers;at.js;function;function
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers() 函數的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
+source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。This key is a unique string per visitor. |
+| consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。此索引鍵是每個訪客的唯一字串。 |
 | 請求 | 物件 | 是 | 請參閱下方的「要求」表格。 |
 | timeout | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
 
@@ -76,7 +76,7 @@ source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 adobe.target.getOffers({
     request: {
       prefetch: {
-        views: []
+        views: [{}]
     }
   }
 });
