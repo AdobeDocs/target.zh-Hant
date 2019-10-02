@@ -1,14 +1,14 @@
 ---
-description: 提供最新或即將發行的Adobe target版本功能、增強功能和修正資訊的發行說明。
+description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
 keywords: 發行說明；發行；更新；未來發行；增強；新功能；修正
 seo-description: 提供最新或即將發行的DNL Adobe target版本功能、增強功能和修正資訊的發行說明。
-seo-title: Adobe Target 版本說明 (發行前)
+seo-title: Adobe target搶鮮版注意事項
 solution: Target
 title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 285a09503ba6abaf2bfe19fc2b214c32ebd2de3a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新: 2019 年 9 月 24 日**
+**上次更新: 2019 年 10 月 2 日**
 
 >[!NOTE]
 >
@@ -25,34 +25,20 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 >
 >括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## 公告
-
-**2019年7月31日**
-
-[!UICONTROL 「企業權限] 」可 [!DNL Target] 讓客戶使用單一組織，但可將其分為適用於不同團隊或工作流程的工作區。 「企 [!UICONTROL 業權限] 」功能有助於跨團隊有效縮放最佳化計畫。 雖然此功能可在UI中使用， [!DNL Target] 但管理API在2019年2月發行之前，都缺乏相 [!DNL Target] 應的支援。 Adobe已更新管理API，讓您可以使用整合帳戶存取組織中建立的所有工作區。 因此，雖然之前的管理API僅限於預設工作區，但2019年2月的更新會授與所有具有核准者存取權的工作區 [!UICONTROL 的存] 取權。
-
-在即將推出的2019 [!DNL Target] 年9月版 [!UICONTROL 本中，「企業權限] 」將為客戶提供下列存取控制：
-
-* 您可以選擇可套用整合的工作區
-* 您可以將角色套用至Adobe I/O整合：核 [!UICONTROL 準者]、 [!UICONTROL 編輯者]或觀 [!UICONTROL 察者]。
-
-**需要執行的動作**:目前在所有工作區間運用API進行資源（活動、觀眾、優惠和報告）的CRUD作業的客戶，必須授與其現有的Adobe I/O整合存取權給具有所需角色的所有工作區。 在9月發行之前，所有整合都會使用 [!UICONTROL Approver] （核准者）存取權來運作，不論從「產品角色  」下拉式清單中選取的角色為何。 在即將發行的版本中，您現在可以選取所要的角色。
-
-此動作應於2019年8月 **執行**。 在2019年9 [!DNL Target] 月發行後，存取控制項將會啟動，而且您會觀察到，如果您目前是這樣設定，您只會看到預設工作區的存取權。 預先設定整合角色並無不良後果。
-
-如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。
-
-## Target Standard/Premium 19.9.2 (2019 年 9 月 30 日)
-
-此維護髮行包含下列增強功能：
-
-* 數項安全性修正，包括Visual Experience Composer(VEC)中Rich Text Editor(RTE)的安全性更新。 (TGT-35383)
-
-## Target Standard/Premium 19.9.1 (2019 年 9 月 10 日)
+## 目標平台（待確定日期）
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | 在Target 2019年9月發行中，「企業權限」為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/O整合：批准者、編輯者或觀察者。</li></ul>如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
+| Node.js SDK 1.0版 | The Target Node.js SDK lets you deploy Target server-side.<br>This Node.js SDK helps you easily integrate Target with other Experience Cloud solutions, such as the Adobe Experience Cloud Identity Service, Adobe Analytics, and Adobe Audience Manager.<br>The Node.js SDK introduces best practices and removes complexities when integrating with Adobe Target via our delivery API so that your engineering teams can focus on business logic. The following are notable features that we are introducing in the latest version:<ul><li>Support for prefetching and notifications that allows you to optimize for performance via caching.</li><li>支援在網頁和伺服器端混合整合Target時最佳化效能。 We are introducing a setting called  that will be populated by experiences retrieved via the server-side so that at.js 2.2 will no longer make an additional server call to retrieve the experiences. `serverState`此方法可最佳化頁面載入效能。</li><li> 支援透過Node.js SDK擷取VEC建立的活動，此為新的傳送API所提供。</li><li>開放來源，讓您的開發人員可以為Node.js SDK貢獻心力。</li></ul> |
+| Delivery API | 生產中將提供全新的傳送API端點（/v1/傳送）。 主要功能包括：<ul><li>一個端點，可擷取一或多個mbox的體驗。</li><li>透過API擷取VEC建立的活動。</li><li>支援稱為「檢視」的全新物件，用於單頁應用程式(SPA)和行動應用程式。</li></ul> |
+| at.js 2.2<br><br>andat.js 1.8版 | 這些版本的at.js提供：<ul><li>已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2或at.js 1.8時的效能。</li><li>之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。</li></ul> 為運用這些效能改良功能，請升級至at.js 2.2或at.js 1.8以及ECID Library v4.4。 |
+
+
+## Target Standard/Premium 19.10.1 (2019 年 10 月 22 日)
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) User-Based Recommendations | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and becomes more personalized as the visitor browses your site. |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
