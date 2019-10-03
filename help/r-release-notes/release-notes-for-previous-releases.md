@@ -8,7 +8,7 @@ title: 舊版版本說明
 topic: 建議
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 ---
 
@@ -27,20 +27,20 @@ source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.</li></ul>For step-by-step instructions and more information, see Grant Adobe I/O integrations access to workspaces and assign roles.[](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |
+| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | 在Target 2019年9月發行中，「企業權限」為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/O整合：批准者、編輯者或觀察者。</li></ul>如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 
-### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1 (August 7, 2019)
+### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1（2019年8月7日）
 
-This release of Mobile VEC SDK includes the following enhancements and fixes:
+此版Mobile VEC SDK包含下列增強功能和修正：
 
 (括號內的問題編號供 Adobe 內部使用。)
 
-* Added support for Preview for Visual Activities on mobile device. (TGT-27875)
-* Fixed an issue that caused an Apple Standard violation due to  usage.`UIImagePickerController`
-* Removed GSON dependency from Android SDK. (TGT-31710)
+* 新增支援行動裝置上的「預覽視覺活動」。 (TGT-27875)
+* 修正因使用而導致Apple Standard違規的 `UIImagePickerController` 問題。
+* 已從Android SDK移除GSON相依性。 (TGT-31710)
 * 已刪除其他冗餘Gradle依賴項(TGT-35479)
-* Fixed an issue that caused the delivery offer to not reset at the time of authoring. (TGT-35270)
+* 修正在編寫時，傳送選件無法重設的問題。 (TGT-35270)
 
 ### Target Standard/Premium 19.7.1 (2019 年 7 月 24 日) {#tgt-19-7-1}
 
@@ -52,27 +52,27 @@ This release of Mobile VEC SDK includes the following enhancements and fixes:
 | --- | --- |
 | 行動應用程式可視化體驗撰寫器 | 顯示於應用程式 VEC 中的全新修改面板，顯示您已針對點擊追蹤所設定的元素。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Premium 徽章](/help/assets/premium.png)<br>在 A/B 測試與體驗鎖定目標 (XT) 活動中的建議 | Recommendations 選件 (運算法) 狀態會顯示在包含 Recommendations 選件之 A/B 測試和 XT 活動的概述頁面上。狀態包括: 可用結果、不可用結果和摘要失敗(TGT-33649)<br>請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
-| 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。[Experience Cloud ID library 4.3.0+ must be used.](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)<br>See [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 | 現在，Target 客戶可以利用 Adobe 的 CNAME 認證程式，減少 Apple ITP 2.1 和 ITP 2.2 的影響。<br>With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy [ECID library 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in conjunction with Target’s JavaScript library to mitigate any future ITP releases. ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>See Apple Intelligent Tracking Prevention (ITP) 2.x.[](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
+| 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。[必須使用Experience Cloud ID程式庫4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>請 [參閱at.js 2.x中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
+| Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 | 現在，Target 客戶可以利用 Adobe 的 CNAME 認證程式，減少 Apple ITP 2.1 和 ITP 2.2 的影響。<br>在此版本中，Target與ECID程式庫4.3緊密整合，此程式庫利用伺服器端Cookie來降低ITP 2.1和ITP 2.2的影響。強烈建議Target客戶搭配部署 [ECID程式庫4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，並搭配Target的JavaScript程式庫，以減輕未來的ITP版本。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參 [閱Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增強功能、修正和變更**
 
 * 修正在新增重複值時，Recommendations活動中的排除值無法清除的問題。 (TGT-34996)
-* 您現在可以從「定位」頁面（三部分引導式工作流程的步驟2）移除Recommendations活動中的設計。 請注意，要移除設計，必須選取多個設計。 (TGT-35118)
-* 修正某些客戶的自訂條件卡無法正確載入Target UI或可編輯的問題。 (TGT-35170)
+* You can now remove a design in a Recommendations activity from the Targeting page (Step 2 of the three-part guided workflow). 請注意，要移除設計，必須選取多個設計。 (TGT-35118)
+* Fixed an issue that prevented custom criteria cards for some customers to load properly in the Target UI or to be editable. (TGT-35170)
 
 ### at.js 2.1.1版（2019年7月24日）
 
-This release of at.js is a maintenance release and includes the following enhancements and fixes:
+此版本的at.js是維護髮行，包含下列增強功能和修正：
 
 (括號內的問題編號供 Adobe 內部使用。)
 
-* 修正當使用視覺體驗撰寫器(VEC)「目標與設定」頁面上的「點按追蹤」度量時，觸發多個信標的問題。 (TNT-32812)
+* Fixed an issue that caused multiple beacons to fire when using the Click Tracking metric on the Goals &amp; Settings page in the Visual Experience Composer (VEC). (TNT-32812)
 * 修正導致轉譯 `triggerView()` 選件不超過一次的問題。 (TNT-32780)
 * 已修正請求 `triggerView()` 是否包含Marketing Cloud ID(MCID)資訊的問題。 (TNT-32776)
 * 修正即使沒有儲存的檢 `triggerView()` 視，仍無法觸發通知的問題。 (TNT-32614)
 * 修正因使用decodeURI元件而造成錯誤的問題，此問題會導致URL包含格式錯誤的查詢字串參數時發生問題。 (TNT-32710)
-* 在透過 `Navigator.sendBeacon()` API傳送的傳送請求中，信標標幟現在會設為「true」。 (TNT-32683)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the  API. `Navigator.sendBeacon()`(TNT-32683)
 * 修正Recommendations選件無法在少數客戶的網站上顯示的問題。 客戶可在傳送API呼叫中看到選件內容，但該選件未套用至網站。 (TNT-32680)
 * 修正導致多個體驗的點按追蹤無法如預期般運作的問題。 (TNT-32644)
 * 修正在呈現第一個量度失敗後，at.js無法套用第二個量度的問題。 (TNT-32628)
@@ -2189,10 +2189,6 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
   </tr> 
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> Experience Cloud 通知 </td> 
-   <td colname="col2"> <p>來自 Target 的通知會顯示於所有 Adobe Experience Cloud 解決方案中。啟用或停用活動時，會自動傳送通知。所有能夠存取 Target Standard/Premium 的使用者都能看到這些通知。 </p> <p>通知也會顯示於 Target Standard/Premium 中。 </p> <p>請參閱<a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local">通知</a> </p> </td> 
-  </tr> 
   <tr> 
    <td colname="col1"> 使用者介面改良 </td> 
    <td colname="col2"> <p>此發行版本的使用者介面已大幅變更。幾個最顯著變更為: </p> <p> 
