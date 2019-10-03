@@ -1,6 +1,6 @@
 ---
 description: 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
+keywords: 發行說明；新功能；發行；更新；更新；發行；增強；增強；修正；錯誤修正
 seo-description: 這些版本說明提供關於每個 Adobe Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
 seo-title: 'Adobe Target 版本說明 (最新) '
 solution: Target
@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -19,16 +19,17 @@ source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
 
 ## Target Standard/Premium 19.9.2 (2019 年 9 月 30 日)
 
-This maintenance release includes the following enhancement:
+此維護髮行包含下列增強功能：
 
 * 數項安全性修正，包括Visual Experience Composer(VEC)中Rich Text Editor(RTE)的安全性更新。 (TGT-35383)
 * A/B測試與體驗定位活動中，除了DIV外，現在還可將建議選件新增至DIV以外的元素（例如P、UL、H1）。 (TGT-34333)
+* 事件通知（Target UI中的鈴鐺圖示）已不再可用。 新的通知功能即將推出。
 
 ## Target Standard/Premium 19.9.1 (2019 年 9 月 10 日)
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | 在Target 2019年9月發行中，「企業權限」為客戶提供下列存取控制：<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/O整合：批准者、編輯者或觀察者。</li></ul>如需逐步指示和詳細資訊，請參閱授 [予Adobe I/O整合工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
+| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>您可以選擇可套用整合的工作區。</li><li>您可以將角色套用至Adobe I/O整合：批准者、編輯者或觀察者。</li></ul>For step-by-step instructions and more information, see Grant Adobe I/O integrations access to workspaces and assign roles.[](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |
 
 ## 文件變更、過去的版本說明和 Experience Cloud 版本說明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
