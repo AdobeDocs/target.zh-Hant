@@ -1,14 +1,14 @@
 ---
 description: 根據您使用的 Target 介面以及活動建立功能類型 (可視化體驗撰寫器或表單式撰寫器)，Target 會針對要傳遞至頁面的活動 (或哪些活動) 進行不同判斷。
 keywords: 設定; 優先順序
-seo-description: 根據您使用的 Target 介面以及活動建立功能類型 (可視化體驗撰寫器或表單式撰寫器)，Target 會針對要傳遞至頁面的活動 (或哪些活動) 進行不同判斷。
-seo-title: 優先順序
+seo-description: Adobe target會根據您使用的Target介面和活動建立功能（視覺體驗撰寫器或表單式撰寫器），以不同方式決定要傳送至頁面的活動（或活動）。
+seo-title: Adobe target中的優先順序
 solution: Target
 title: 優先順序
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
