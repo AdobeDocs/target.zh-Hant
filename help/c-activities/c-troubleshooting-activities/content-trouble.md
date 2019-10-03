@@ -1,15 +1,15 @@
 ---
 description: 如果頁面未顯示預期的內容，您應執行一些步驟來除錯內容傳送。
 keywords: 除錯 mbox; 疑難排解 mbox; mbox 問題; 忽隱忽現; mboxDebug; mboxTrace; Token; 除錯工具; 優先順序; 活動優先順序; Adobe Experience Cloud Debugger; orderConfirmPage mbox; SiteCatalyst 購買 mbox; 熱賣; 最暢銷商品
-seo-description: 如果頁面未顯示預期的內容，您應執行一些步驟來除錯內容傳送。
-seo-title: 疑難排解內容傳送
+seo-description: 如果您的頁面未顯示預期的內容，您可以執行一些步驟，以在Adobe Target中除錯內容傳送。
+seo-title: 疑難排解Adobe Target中的內容傳送
 solution: Target
 subtopic: 多變數測試
 title: 疑難排解內容傳送
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -79,7 +79,7 @@ mboxTrace 可讓您接收附加至 mbox 回應的追蹤資訊。追蹤資訊可�
 
 mboxTrace 不會影響您網站的正常功能和外觀。訪客看到的是您的正常 Recommendations 設計。
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 若要使用 mboxDebug，請附加 mboxDebug 參數至 URL 結尾。下列表格含有 mbox 相關 URL 參數的相關資訊。
 
@@ -95,6 +95,10 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客看到的是您�
 | `mboxDebug=x-profile` | 檢視描述檔集合。 |
 | `mboxDebug=x-time` | 顯示每個 mbox 請求的回應時間 |
 | `mboxOverride.browserIp=<Insert IP address>` | 測試地理定位<br>使用這個 URL 參數測試地理定位。輸入 IP 位址作為這個屬性的值，Test&amp;Target 的地理定位功能會評估該 IP 位址，以比對促銷活動中設定的任何定位與群體劃分。 |
+
+>[!NOTE]
+>
+>請確定URL片段位於查詢字串參數之後。 第一個後面的任 `#` 何項目都是片段識別碼，導致除錯參數無法正常運作。
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
