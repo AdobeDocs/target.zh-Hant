@@ -1,14 +1,14 @@
 ---
 description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
 keywords: 已知問題;已解決的問題;版本說明；錯誤；問題；修正
-seo-description: Information about known issues for this release of Adobe Target. 也包括關於已解決之問題的資訊。
+seo-description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
 seo-title: Adobe Target 中的已知問題和已解決的問題
 solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -73,6 +73,10 @@ source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 ### at.js
 
 下列是 at.js 的已知問題:
+
+* 如果您使用at.js 2建立體驗而未進行任何修改。*x* （例如預設體驗），該體驗可能不會計入報表、Analytics for Target(A4T)、Analytics或Google Analytics中。 此外， [ttMeta外掛程式可能無法正常運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
+
+   因應措施是，在體驗內容中使用空白字元。 (TNT-33366)
 
 * 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
@@ -139,7 +143,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。計劃對 at.js 實施進行更新，以確保可以避免此競爭條件。
 
-This issue was fixed in at.js 1.6.3.
+此問題已在at.js 1.6.3中修正。
 
 ### 排除群組
 
