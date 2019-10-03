@@ -1,14 +1,14 @@
 ---
 description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
-keywords: 已知問題;已解決的問題;版本說明；錯誤；問題；修正
-seo-description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
+keywords: 已知問題;已解決的問題;版本說明;bugs;issues;fixes
+seo-description: Information about known issues for this release of Adobe Target. 也包括關於已解決之問題的資訊。
 seo-title: Adobe Target 中的已知問題和已解決的問題
 solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 以下小節列出 [!DNL Target] 的已知問題:
 
-### 活動QA預覽連結 {#preview}
+### Activity QA preview links {#preview}
 
-[如果帳戶中儲存的活動過多](/help/c-activities/c-activity-qa/activity-qa.md) ，儲存的活動的活動QA預覽連結可能無法載入。 重新嘗試預覽連結應能運作。 為防止這種情況繼續發生，請封存已儲存且不再被使用的活動。 (TNT-32697)
+[Activity QA preview](/help/c-activities/c-activity-qa/activity-qa.md) links for saved activities might not load if there are too many saved activities in your account. Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
 
 ### 重新導向選件 {#redirect}
 
@@ -62,9 +62,11 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 下列是建議活動的已知問題:
 
-* 實體在60天後即可正確到期，因為沒有透過動態消息或API收到更新；但過期的實體在過期後不會從目錄搜尋索引中移除。 (IRI-857)
-* 標準與設計的「使用資訊」覆蓋無法反映其在A/B和體驗定位活動中的使用情形(TGT-34331)
-* A/B和「體驗定位」活動中的「建議選件」不會顯示Recommendations托盤的視覺化預覽(TGT-33426)
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API. (TGT-35777)
+* 透過API建立的Recommendations活動可在使用者介面中檢視，但只能透過API編輯
 
 ### 多變數測試 (MVT) 活動
 
@@ -129,7 +131,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 * 當摘要中的項目與前次執行相同時，建議摘要索引會顯示「等候索引」。傳送所需的產品擷取不受影響。(RECS-6663)
 
-   Target 19.4.2版中已修正此問題。
+   This issue was fixed in the Target 19.4.2 release.
 
 * Recommendations 摘要耗費較預期更長的時間。(COR-2836)
 
