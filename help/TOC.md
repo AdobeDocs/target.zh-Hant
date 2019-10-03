@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [Android - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [在行動版 VEC 中設定點擊追蹤](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 伺服器端: 實作 Target {#server-side}
       + [發行說明- API和SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [伺服器端: 實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [活動 QA 概覽](c-activities/c-activity-qa/activity-qa.md)
       + [活動 QA 書籤小程式](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [使用透過伺服器端傳送的活動 QA](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [活動通知](c-activities/notifications.md)
 + 受眾 {#audiences}
    + [對象概覽](c-target/target.md)
    + [鎖定目標如何運作](c-target/target-how-target-works.md)
