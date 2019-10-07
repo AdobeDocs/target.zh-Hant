@@ -1,19 +1,19 @@
 ---
 description: Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的推薦方法。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
-keywords: 實作;adobe launch;launch;競爭;重新導向
-seo-description: Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的推薦方法。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
+keywords: 實作;adobe launch;launch;競爭;重新導向體驗平台啟動
+seo-description: Adobe Experience Platform Launch是Adobe的新一代標籤管理平台，是建置Adobe Target的首選方法。 Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
 seo-title: 使用 Adobe Launch 實作 Target
 title: 使用 Adobe Launch 實作 Target
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # 使用 Adobe Launch 實作 Target{#implement-target-using-adobe-launch}
 
-Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的推薦方法。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
+Adobe Experience Platform Launch是Adobe的新一代標籤管理平台，是建置Adobe Target的首選方法。 Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
 
 ## 使用 Adobe Launch 實作 Target {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
