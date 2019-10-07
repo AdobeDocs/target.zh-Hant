@@ -1,6 +1,6 @@
 ---
-description: 觀看訓練影片來協助您善用 Target Standard 和 Target Premium。
-keywords: Target Standard;Target Premium;訓練影片;youtube;影片;影片訓練
+description: 觀看訓練影片，協助您充份運用Adobe Target Standard和Target Premium。
+keywords: 訓練影片；youtube；影片；視訊訓練；教學課程；教學課程；影片
 seo-description: 觀看訓練影片來協助您善用 Target Standard 和 Target Premium。
 seo-title: Adobe Target Standard 和 Premium 的訓練影片
 solution: Target
@@ -8,7 +8,7 @@ title: Adobe Target Standard 和 Premium 的訓練影片
 topic: 進階
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
