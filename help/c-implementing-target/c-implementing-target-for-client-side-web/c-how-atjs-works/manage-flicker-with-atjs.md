@@ -1,6 +1,6 @@
 ---
 description: 關於 Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止閃爍的資訊。
-keywords: 忽隱忽現;Target Standard;at.js;實作
+keywords: flicker;at.js；實現
 seo-description: 關於 Adobe Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止忽隱忽現的資訊。
 seo-title: Adobe Target at.js 處理忽隱忽現情況的方式
 solution: Target
@@ -8,7 +8,7 @@ title: At.js 處理忽隱忽現情況的方式
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 忽隱忽現是指預設內容在換成活動內容之前短暫顯示給訪客。忽隱忽現不理想，因為可能造成訪客混淆。
 
-## 使用自動建立的全域 mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## 使用自動建立的全域mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
 若您在設定 at.js 時啟用了[「自動建立全域 Mbox」](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13)設定，at.js 會透過變更頁面載入時的不透明度設定，來處理忽隱忽現的情形。at.js載入時，會將元素的不透明度設定變更為「0」， <body> 讓訪客一開始無法看到頁面。接收到 Target 回應後，或若偵測到 Target 要求有錯誤，at.js 會將不透明度重設為「1」。這種做法可確保訪客只能在活動內容套用之後才看得到頁面。
 
@@ -103,11 +103,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 body {opacity: 0 !important}
 ```
 
-## 處理 at.js 2.x 中 triggerView() 忽隱忽現的情形
+## 在at.js 2.x中管理triggerView()的閃爍
 
 使用 `triggerView()` 顯示 SPA 中的目標內容時，會自動提供處理忽隱忽現問題的功能。這表示不需要手動新增預先隱藏邏輯。at.js 2.x 會在套用目標內容之前，預先隱藏需要顯示檢視的位置。
 
-## 透過 getOffer() 和 applyOffer() 處理忽隱忽現的情形
+## 使用getOffer()和applyOffer()管理Flicker
 
 因為 `getOffer()` 和 `applyOffer()` 都是低階 API，並沒有內建的忽隱忽現控制項。您可以將選取器或 HTML 元素當作選項傳給 `applyOffer()`，在此情況下，`applyOffer()` 會將活動內容新增至特定元素，不過在叫用 `getOffer()` 和 `applyOffer()` 之前，您必須確定元素已適當隱藏。
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 利用 At.js 1.x 中的 mboxCreate() 來使用地區 mbox (at.js 2.x 不支援)
+## 在at.js 1.x中搭配使用mboxCreate()的區域mbox（at.js 2.x不支援）
 
 如果您使用地區 mbox 實作，則可以使用 `mboxCreate()` 搭配您佈建的頁面，類似下列範例程式碼:
 
