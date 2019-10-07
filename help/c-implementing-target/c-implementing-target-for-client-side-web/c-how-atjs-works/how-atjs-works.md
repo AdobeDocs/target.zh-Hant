@@ -1,21 +1,21 @@
 ---
-description: Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
-keywords: 系統圖表;忽隱忽現;Target Standard;at.js;實作;javascript庫；js
+description: 目標系統圖示，顯示為使用at.js自動建立的全域mbox所傳送或收集的呼叫和資訊流程。
+keywords: 系統圖；flicker;at.js;implementation;javascript庫；js
 seo-description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
-seo-title: Adobe Target at.js 如何運作
+seo-title: Adobe Target at.js javaScript程式庫的運作方式
 solution: Target
 title: at.js 如何運作
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # at.js 如何運作{#how-at-js-works}
 
-若要實作 [!DNL Adobe Target] 用戶端，您必須使用 at.js 資料庫。
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
 在 [!DNL Adobe Target] 的用戶端實作中，[!DNL Target] 會將與活動相關聯的體驗直接提供給用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。在用戶端實作中，您可以使用 WYSIWYG 編輯器、[可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 或非視覺化介面[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)，建立您的測試和個人化體驗。
 
@@ -91,7 +91,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 重要注意事項：
 
-* at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
+* at.js不提供任何遠端指令碼執行順序的保證，因為這些指令碼會以非同步方式載入。
 * 內嵌指令碼不應與遠端指令碼有任何相依性，因為這些指令碼會在稍後載入並執行。
 
 ## 訓練影片: at.js 2.x 架構圖表
