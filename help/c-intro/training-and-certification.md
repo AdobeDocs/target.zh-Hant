@@ -1,22 +1,22 @@
 ---
-description: Adobe 訓練服務提供課程與認證。
-keywords: 概覽和參考
-seo-description: Adobe 訓練服務提供課程與認證。
-seo-title: 訓練與認證
+description: Adobe訓練服務提供Adobe產品和解決方案（包括Adobe Target）的課程與認證。
+keywords: 訓練；認證；目標；線上課程；課程；課程；課程
+seo-description: Adobe訓練服務提供Adobe產品和解決方案（包括Adobe Target）的課程與認證。
+seo-title: Adobe產品與解決方案（包括Adobe Target）的訓練與認證
 solution: Target
 subtopic: 快速入門
-title: 訓練與認證
+title: Adobe target的訓練與認證
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # 訓練與認證{#training-and-certification}
 
-Adobe 訓練服務提供課程與認證。
+Adobe訓練服務提供Adobe產品和解決方案（包括Adobe Target）的課程與認證。
 
 如需講師授課和線上課程的清單，請造訪 [Adobe 客戶訓練網站](https://training.adobe.com/training/courses.html#solution=adobeTarget)。
 
