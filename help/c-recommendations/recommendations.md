@@ -1,8 +1,8 @@
 ---
 description: Recommendations 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-keywords: Recommendations;Recommendations條件;建議演算法;Recommendations 活動;條件;建議鎖定目標
-seo-description: Recommendations 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-seo-title: 建議
+keywords: Recommendations;Recommendations條件；Recommendations算法；Recommendations活動；Recommendations目標；recs
+seo-description: Adobe target中的Recommendations活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
+seo-title: Adobe Target Recommendations
 solution: Target
 title: 建議
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
