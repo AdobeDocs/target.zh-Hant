@@ -1,14 +1,14 @@
 ---
 description: Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需工具，讓您量身打造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
-keywords: Target Standard;建議;Target Premium;自動個人化;自動鎖定目標;權限
+keywords: Target Standard;建議;Target Premium;自動個人化;自動鎖定目標;權限；什麼是adobe的目標；
 seo-description: Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需工具，讓您量身打造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
-seo-title: Target 簡介
+seo-title: Adobe Target 簡介
 solution: Target
 title: Target 簡介
 topic: 進階
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
