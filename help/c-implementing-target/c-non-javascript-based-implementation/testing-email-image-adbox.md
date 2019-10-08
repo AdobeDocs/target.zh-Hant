@@ -1,14 +1,14 @@
 ---
 description: 動態測試電子郵件中的影像，甚至在某人開啟電子郵件時迅速變更那些影像。
-keywords: 電子郵件;adbox
-seo-description: 動態測試電子郵件中的影像，甚至在某人開啟電子郵件時迅速變更那些影像。
-seo-title: 測試電子郵件影像 Adbox
+keywords: 電子郵件；adbox；電子郵件影像adbox
+seo-description: 使用Adobe Target，動態測試電子郵件中的影像，甚至在有人開啟電子郵件時即時變更這些影像。
+seo-title: 使用Adobe Target測試電子郵件影像Adbox
 solution: Target
 title: 測試電子郵件影像 Adbox
 topic: 建議
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -28,12 +28,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **電子郵件影像 adbox 的簡單程式碼:**
 
 ```
-<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+<img src="https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
 mbox={email_header}&
 mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
 mboxXDomain=disabled&
 mboxSession={123456}&
-mboxPC={123456}” border=“0"/>
+mboxPC={123456}” border=:"0"/>
 ```
 
 其中以下的值是您專屬的:
