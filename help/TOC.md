@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 + Target 版本說明 {#release-notes}
    + [Target 版本說明 (最新)](r-release-notes/release-notes.md)
    + [Target 版本說明 (發行前)](r-release-notes/target-release-notes.md)
+   + [Target Insider電子報](/help/r-release-notes/target-insider-newsletter.md)
    + [已知問題和已解決的問題](r-release-notes/known-issues-resolved-issues.md)
    + [系統狀態更新和主動通知](r-release-notes/system-status-updates.md)
    + [文件變更](r-release-notes/doc-change.md)
@@ -42,7 +43,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
       + 企業使用者權限 {#enterprise}
          + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [設定企業權限](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [將Adobe I/O整合存取權授與工作區並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic 整合](administrating-target/scene7-settings.md)
    + [主機](administrating-target/hosts.md)
    + [回應 Token](administrating-target/response-tokens.md)
@@ -53,10 +54,10 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
       + [準備實作 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + 隱私權與安全性 {#privacy}
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [隱私權與資料保護法規](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [隱私權與資料保護規範](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [內容安全性政策(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 將資料傳入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -278,7 +279,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
       + [設定檔屬性](c-target/c-visitor-profile/profile-parameters.md)
       + [類別相關性](c-target/c-visitor-profile/category-affinity.md)
       + [客戶屬性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyId的即時描述檔同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyId 的即時設定檔同步](c-target/c-visitor-profile/3rd-party-id.md)
       + [設定檔和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 鎖定目標和對象常見問題集 {#faq-audiences}
       + [鎖定目標和對象常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -342,7 +343,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
    + [報表常見問題集](c-reports/reporting-frequently-asked-questions.md)
 + 建議 {#recommendations}
    + [建議概覽](c-recommendations/recommendations.md)
-   + [Recommendations簡介](c-recommendations/introduction-to-recommendations.md)
+   + [Recommendations 簡介](c-recommendations/introduction-to-recommendations.md)
    + [計劃和實作建議](c-recommendations/plan-implement.md)
    + 實體 {#entities}
       + [實體概覽](c-recommendations/c-products/products.md)
