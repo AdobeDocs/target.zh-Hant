@@ -1,6 +1,6 @@
 ---
 description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
-keywords: 設定檔指令碼;設定檔指令碼屬性;設定檔指令碼最佳作法;除錯
+keywords: 配置檔案指令碼；配置檔案指令碼屬性；配置檔案指令碼最佳實踐；debug;debugging;scripts；配置檔案指令碼；屬性；參數
 seo-description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
 seo-title: Adobe Target 中的設定檔屬性
 solution: Target
@@ -8,7 +8,7 @@ title: 設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -125,7 +125,7 @@ if (mbox.name == 'Track_Interest') {
 * 請勿超過 1,300 個字元或 50 個迴圈反覆。
 * 請勿超過 2,000 個 JavaScript 指令。Target 具有每個指令碼 2,000 個 JavaScript 指示的限制，但這無法僅透過手動讀取 JavaScript 來計算。例如，Rhino 將所有函數呼叫和「新的」呼叫視為 100 個指示。此外，任何輸入資料的大小，例如 URL 值，皆可能影響指示計數。
 * 不僅要注意指令碼效能，還要注意所有指令碼的綜合效能。我們建議的最佳作法是總共少於 5,000 條指示。指示的計算數量並不明顯，但需要注意的重要事項是超過 2 KB 的指令碼會自動停用。您可以執行的指令碼數量沒有設定限制，但每個指令碼會在每次 mbox 呼叫時執行。視需要執行多個指令碼。
-* 在規則運算式中，在開頭具有點星(例如： `/.*match/`) `/a|.*b/`幾乎不需要。 規則運算式搜尋會從字串中的所有位置開始(除非系結為 `^`)，因此已假設dot-star。 如果這種規則運算式與足夠長的輸入資料（可能低至幾百個字元）相符，則指令碼執行可中斷。
+* 在規則運算式中，開頭幾乎永遠不需要有點星號 (例如: `/.*match/`、`/a|.*b/`)。規則運算式搜尋會從字串中的所有位置開始 (除非受到 `^` 限制)，因此已假設點星號。如果此類規則運算式符合長度足夠的輸入資料 (可能至少有數百個字元)，指令碼執行可能會中斷。
 * 如果全部失敗，將指令碼包覆在 try/catch 中。
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
