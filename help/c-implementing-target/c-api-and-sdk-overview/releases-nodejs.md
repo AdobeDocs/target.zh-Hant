@@ -7,14 +7,14 @@ solution: Target
 title: 發行說明- Target Node.js SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # 發行說明- Target Node.js SDK
 
-與Adobe Target的Node.js SDK相關的發行說明。
+與 [Adobe Target Node.js SDK相關的發行說明](https://github.com/adobe/target-nodejs-sdk)。
 
 ## 1.0.0版（2019年10月9日）
 
