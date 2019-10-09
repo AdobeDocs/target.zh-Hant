@@ -1,6 +1,6 @@
 ---
 description: 目標系統圖示，顯示為使用at.js自動建立的全域mbox所傳送或收集的呼叫和資訊流程。
-keywords: 系統圖；flicker;at.js;implementation;javascript庫；js
+keywords: 系統圖；flicker;at.js；實施；javascript庫；js;atjs
 seo-description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
 seo-title: Adobe Target at.js javaScript程式庫的運作方式
 solution: Target
@@ -8,7 +8,7 @@ title: at.js 如何運作
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 此外，還實作了下列 Experience Cloud 核心服務: Adobe Launch、「對象」和「訪客 ID 服務」。
 
-## at.js 1.*x* 和 at.js 2.x 工作流程圖表之間有何差異?
+## at.js 1的差異為何。*x* 和 at.js 2.x 工作流程圖表之間有何差異?
 
 請參閱[從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)，深入瞭解 2.O 中引入哪些與 1.*x* 版有所差異之處。
 
@@ -68,7 +68,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 ## at.js 1.x 圖表
 
-![目標流量- at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Target 流程 - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 步驟 | 說明 | 呼叫 | 說明 |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | [!DNL Target] 根據 URL、mbox 參數和設定檔資料，決定要傳回給訪客的活動和體驗。 | 6 | 已鎖定的目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>體驗會儘快出現，不會有忽隱忽現的預設內容。 |
 | 7 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 | 8 | [!DNL Target] 資料會透過 SDID 來比對 [!DNL Analytics] 資料，然後經過處理放入 [!DNL Analytics] 報表儲存體中。然後就可以在 [!DNL Analytics] 與 [!DNL Target] 中，透過 [!DNL Analytics for Target] (A4T) 報表來檢視 <br>[!DNL Analytics] 資料。 |
 
-## at.js如何使用HTML內容呈現選件 {#render}
+## at.js 如何呈現具有 HTML 內容的選件 {#render}
 
-使用HTML內容轉換選件時，at.js會套用下列演算法：
+呈現具有 HTML 內容的選件時，at.js 會套用下列演算法:
 
-1. 影像會預先載入(如果HTML內容 `<img>` 中有任何標籤)。
+1. 預先載入影像 (如果 HTML 內容中有任何 `<img>` 標記)。
 
-1. HTML內容會附加至DOM節點。
+1. 將 HTML 內容附加至 DOM 節點。
 
-1. 內嵌指令碼會執行(程式碼包含在 `<script>` 標籤中)。
+1. 執行內嵌指令碼 (含括在 `<script>` 標記中的程式碼)。
 
-1. 遠端指令碼會以非同步方式載入並執行(`<script>` 具有屬性 `src` 的標籤)。
+1. 非同步載入並執行遠端指令碼 (具有 `src` 屬性的 `<script>` 標記)。
 
-重要注意事項：
+重要注意事項:
 
-* at.js不提供任何遠端指令碼執行順序的保證，因為這些指令碼會以非同步方式載入。
-* 內嵌指令碼不應與遠端指令碼有任何相依性，因為這些指令碼會在稍後載入並執行。
+* at.js 不對遠端指令碼的執行順序提供任何保證，因為這些會以非同步的方式載入。
+* 內嵌指令碼在遠端指令碼上不應有任何相依性，因為這些會在之後載入及執行。
 
 ## 訓練影片: at.js 2.x 架構圖表
 
@@ -100,4 +100,4 @@ at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Clou
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hant)
 
-如需 [詳細資訊，請參閱瞭解at.js 2.x的運作方式](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
