@@ -1,14 +1,14 @@
 ---
 description: 使用 at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
-keywords: 單頁應用程式實作;實作單頁應用程式;spa;at.js 2.x;at.js；單頁應用程式；單頁應用程式
+keywords: 單頁應用程式實作;實作單頁應用程式;spa;at.js 2.x;at.js;單一頁面應用程式;單一頁面應用程式;Spa;SPA
 seo-description: 使用 Adobe Target at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
-seo-title: 在Adobe target中實作單頁應用程式
+seo-title: Adobe Target 中的實作單一頁面應用程式
 solution: Target
 title: 實作單頁應用程式
 topic: 標準
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -53,7 +53,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
 我們決定按一下「載入更多」按鈕，探索這個網站上的更多產品。在此情況下，網站 URL 不會變更。但此處的檢視只能呈現上圖中的第二列產品。該檢視的名稱可為「PRODUCTS-PAGE-2」。
 
-**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結：結[帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![結帳頁面](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
    以下提供幾個範例使用案例，說明如何在 React 中叫用 `triggerView()` 函數以用於我們的假想電子商務 SPA:
 
-   **Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+   **連結：首[頁](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link: Products Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**連結：產[品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 現在，讓我們來看看更複雜的範例。假設我們是行銷人員，我們想在使用者按下「載入更多」按鈕後，將「價格」標籤的顏色變更為紅色，用這個方式將第二列產品個人化。
 
@@ -147,7 +147,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
  }
 ```
 
-**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結：結[帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![react 結帳](/help/c-experiences/assets/react6.png)
 
@@ -281,13 +281,13 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hant)
 
-See Understanding how at.js 2.x works for more information.[](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
 ### 在 SPA 中實作 at.js 2.x
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=chi_hant)
 
-See Implement Adobe Target's at.js 2.x in a Single Page Application (SPA) for more information.[](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html)
+如需 [詳細資訊，請參閱在單頁應用程式(SPA)中實作Adobe Target的at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
 
 ### 在 Adobe Target 中使用適用於 SPA 的 VEC
 
