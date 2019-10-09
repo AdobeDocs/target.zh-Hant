@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 10 月 9 日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了主題。 |
+|  | [發行說明——目標伺服器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新主題。 |
+|  | [發行說明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主題。 |
+|  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關V1/Delivery API和Node.js SDK版本的資訊。 |
 | 2019 年 10 月 8 日 | [Target Insider電子報](/help/r-release-notes/target-insider-newsletter.md) | 新主題，其中包含第一批電子報的連結，還有更多內容。 |
 | 2019 年 10 月 3 日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列項目： <ul><li>使用at.js 2建立體驗時，無須修改的已知問題和解決方法。*x資料庫* 。</li><li>透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。</li><li>透過API建立的建議活動可在使用者介面中檢視，但只能透過API編輯。</li></ul> |
 |  | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 新增附註至「mboxDebug」區段。 |
@@ -40,9 +44,9 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 | 2019 年 9 月 10 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Standard/Premium 19.9.1版的資訊。 |
 | 2019年9月9日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 已新增「考量事項」區段。 |
 |  | [Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 更新整個主題的文字。 |
-|  | [內容安全性政策(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) |  新主題。 |
+|  | [內容安全性政策(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新主題。 |
 | 2019年9月6日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 19.9.1（2019年9月10日）版本的資訊。 |
-|  | [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) |  新主題。 |
+|  | [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主題。 |
 | 2019 年 9 月 4 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
 | 2019 年 8 月 23 日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | 更新 `AndroidManifest.xml` 中的程式碼片段。 |
 | 2019 年 8 月 22 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 移除在行動應用程式 ID 中使用禁止字元的相關資訊。不再有任何限制。 |
@@ -75,8 +79,8 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 |  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新下列章節:「預期的條件處理時間」。 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度的相關考量事項。 |
 | 2019 年 8 月 1 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增企業權限 API 支援的相關重要公告。 |
-|  | [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |  新主題。 |
-| 2019 年 7 月 31 日 | [Recommendations 簡介](/help/c-recommendations/introduction-to-recommendations.md) |  新主題。 |
+|  | [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主題。 |
+| 2019 年 7 月 31 日 | [Recommendations 簡介](/help/c-recommendations/introduction-to-recommendations.md) | 新主題。 |
 |  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 新增最近查看的項目的相關備註。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 新增有關活動 QA 預覽連結的已知問題。 |
 | 2019 年 7 月 29 日 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | 新增常見問題集:「我的 [!UICONTROL 體驗鎖定目標] (XT) 報表為何包含控制體驗的量度?」 |
@@ -365,7 +369,7 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 |  | [關於對象](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | 新增處理 Adobe Audience Manager (AAM) 中遭刪除 Target 活動參考對象的資訊。 |
 |  | [at.js 整合](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | 更新了主題。 |
 |  | [不使用標籤管理程式實作 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新所有章節。新增章節:「at.js 實作」。 |
-|  | 版本 18.10.1[版本說明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+|  | 版本 18.10.1 [版本說明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 18.9.1 (2018 年 9 月 26 日) {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -535,7 +539,7 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>版本 18.9.1<a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> 版本說明 </a> </p> </td> 
+   <td colname="col2"> <p>版本 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> 版本說明 </a> </p> </td> 
    <td colname="col3"> <p>此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 </p> </td> 
   </tr> 
  </tbody> 
@@ -701,7 +705,7 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>版本 18.8.1<a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> 版本說明 </a> </p> </td> 
+   <td colname="col2"> <p>版本 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> 版本說明 </a> </p> </td> 
    <td colname="col3"> <p>此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 </p> </td> 
   </tr> 
  </tbody> 
