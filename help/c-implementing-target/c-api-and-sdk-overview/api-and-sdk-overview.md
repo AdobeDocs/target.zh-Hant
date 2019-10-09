@@ -1,95 +1,58 @@
 ---
-description: Target 伺服器端傳送 API、Recommendations API 與 NodeJS SDK 的相關資訊。
-keywords: 伺服器端; API; SDK; nodejs; node js; Recommendations API
-seo-description: Adobe Target 伺服器端傳送 API、Recommendations API 與 NodeJS SDK 的相關資訊。
-seo-title: 伺服器端實作 Adobe Target
+description: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
+keywords: 伺服器端；伺服器端；api;sdk;node.js;nodejs;nodejs;recommendations api;api:api
+seo-description: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
+seo-title: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
 solution: Target
 title: 伺服器端實作 Target
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
 
 # 伺服器端: 實作 Target{#server-side-implement-target}
 
-提供 [!DNL Adobe Target] 伺服器端傳送 API、伺服器端分批傳送 API、NodeJS SDK、[!DNL Target Recommendations] API 和 [!DNL Target Classic] API (已停止支援) 的相關資訊。
+伺服器 [!DNL Adobe Target] 端傳送API、Node.js SDK和API的相 [!DNL Target Recommendations] 關資訊。
 
 下列程序會發生在 [!DNL Target] 的伺服器端實作中:
 
 1. 用戶端裝置會透過伺服器提出體驗的要求。
 1. 伺服器會將該要求傳送至 [!DNL Target]。
 1. [!DNL Target] 會將回應傳送回伺服器。
-1. 伺服器會決定要將哪個體驗提供給用戶端裝置，以供其呈現。
+1. 您的伺服器會決定要提供哪些體驗給用戶端裝置，以供其呈現。
 
-體驗不需要顯示在瀏覽器中；體驗可以透過語音助理或透過某些其他非視覺體驗或非瀏覽器型裝置，顯示在電子郵件或資訊站中。由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。
+體驗不需要在瀏覽器中顯示。 體驗可透過電子郵件或資訊站、語音助理或其他非視覺化體驗或非瀏覽器裝置顯示。 由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。
 
-下節列出多種 API 和 NodeJS SDK，並提供額外資訊:
+以下各節提供有關各種API和NodeJS SDK的詳細資訊：
 
-## 伺服器端傳送 API
+## 伺服器傳送API
 
-Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/#server-side-delivery)
+Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
-`/rest/v1/mbox`
+`/rest/v1/delivery`
 
-[!DNL Target] 可讓您的應用程式從任一瀏覽器、行動裝置甚至另一台伺服器執行 mbox 呼叫。伺服器端傳送 API 經過專門設計，以將 [!DNL Target] 與任一執行 HTTP/HTTPS 呼叫的伺服器端平台整合。
+透過 [!DNL Target] 傳送API，您可以：
 
-您可使用 API 來整合您的自訂應用程式與 [!DNL Target].這對要傳送鎖定至聯網電視、資訊站或店內數位螢幕等非瀏覽器型 IoT 裝置的組織特別有用。
+* 跨網路提供體驗，包括SPA、行動通道以及非瀏覽器型IoT裝置，例如連線電視、資訊站或店內數位螢幕。
+* 從任何可進行HTTP/s呼叫的伺服器端平台或應用程式提供體驗。
+* 不論訪客使用何種通道或裝置與您的業務互動，都能為訪客提供一致的個人化體驗。
+* 在伺服器上的作業階段中快取訪客的體驗，以避免多個API呼叫，進而獲得更佳的效能。
+* 與產品 [!DNL Adobe Experience Cloud] (例如 [!DNL Adobe Analytics]、 [!DNL Adobe Audience Manager] (AAM)和伺服器端 [!DNL Experience Cloud ID Service] )完美整合。
 
-端點只能傳回一般 mbox 的選件。您亦僅能從單一 mbox 擷取內容。
+## Node.js SDK
 
-本 API 會採用 RESTful 作法來實作現有的 mbox 功能。
+連結： [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
 
-本 API 不會處理 Cookie 或重新導向呼叫。
+Node.js SDK是一套複雜的軟體開發套件，可免除管理Cookie、工作階段以及與產品（例如、和）整 [!DNL Experience Cloud] 合時的 [!DNL Analytics]繁 [!DNL Experience Cloud Visitor ID Service]雜工作 [!DNL Audience Manager]。 在幕後，Node.js SDK使用 `/rest/v1/delivery` API。 以下是Node.js SDK支援的一些顯著功能：
 
-## 伺服器端批次傳送 API
+* **** 支援預回遷和通知，讓您透過快取最佳化效能：您可以使用Node.js SDK在Node.js伺服器上擷取體驗並在本機快取體驗，以盡量減少伺服器對應用程式的呼叫 [!DNL Target] 並最佳化其效能。
+* **** 能夠檢索VEC建立的活動：在伺服器端擷取VEC建立的活動。 包含VEC建立之活動的回應包含選擇器，可用來僅預先隱藏頁面中需要個人化的部分。 這可協助您最佳化頁面的「第一個內容上色」量度 [，這是企業在](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Google PageRank系統中獲得高分的重要KPI [](https://en.wikipedia.org/wiki/PageRank) 。
 
-Link: [Server Side Batch Delivery APIs](https://developers.adobetarget.com/api/#server-side-batch-delivery)
-
-`/rest/v2/batchmbox`
-
-批次傳送 API 可讓您的應用程式以單一呼叫，即可從多個 mbox 要求內容。此 API 亦具備預先擷取模式，可讓行動應用程式、伺服器等用戶端透過一次要求從多個 mbox 擷取內容、在本地快取，接著在有使用者造訪這些 mbox 時通知 [!DNL Target]。
-
-端點只能傳回一般 mbox 的選件。由於您可以從多個 mbox 擷取內容，為求效能，使用批次 mbox API 更理所當然。此 API 可讓您不用執行多個 HTTP 要求。多個 HTTP 要求可能所費不。
-
-## NodeJS SDK
-
-連結： [NodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
-
-雖說是「多套」 SDK，目前我們只有一套 SDK，也就是 NodeJS SDK。
-
-NodeJS SDK 是 NodeJS 核心 HTTP/HTTPS 模組的輕薄包裝函式。NodeJS SDK API 在背景使用相同的伺服器端傳送 API。
-
-對應關係如下:
-
-* `MarketingCloudClient.getOffer() \*- invokes \*/res/v1/mbox endpoint`
-* `MarketingCloudClient.getOffers() \*- invokes \*/res/v2/batchmbox endpoint`
-
-## [!DNL Target Recommendations] API
+## Target Recommendations API
 
 Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations)
 
-Recommendations API 可讓您以程式設計方式與 Target 的 Recommendations 伺服器互動。這些 API 可與一系列應用程式堆疊整合，執行一些您通常得透過使用者介面操作的功能。
-
-## [!DNL Target Classic] API
-
-我們已停止支援 [!DNL Target Classic] UI 與 API。如需關於轉換為 Target 現代化 API 的詳細資訊，請參閱[從 Target Legacy API 轉換為 Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2)。
-
->[!NOTE]
->撰寫 API (用來建立活動、選件、對象等) 不支援跨來源資源共用 (CORS)。
-
-## 伺服器端傳送 API 和 NodeJS SDK 間的差異 {#section_10336B7934F54CE98E35907A4748A4A4}
-
-許多客戶會不大清楚伺服器端傳送 API 和 NodeJS SDK 間的差異，尤其牽涉到效能時。
-
-下列的常見問題集應可協助您判斷要採用何者:
-
-**何時該採用「原始」伺服器端傳送 API，何時要使用 NodeJS SDK?**
-
-理想上，如果您的後端技術採用的是 NodeJS，那麼選擇 NodeJS SDK 很合理。SDK 會負責許多細節作業，像是 Cookie、標題、承載等等。這樣您就可以專注在應用程式核心上。
-
-**採用 NodeJS SDK 就能讓我獲得效能改善嗎?**
-
-很抱歉，我們沒有任何效能數據。不過，一般來說，NodeJS 事件驅動架構 應該可為 NodeJS SDK 提供良好效能。請注意，大部分的時間都是花在 [!DNL Target] 後端。NodeJS SDK 幾乎不負責處理工作。SDK 基本上是負責封裝 [!DNL Target] 要求，並剖析 [!DNL Target] 回應。
+The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
