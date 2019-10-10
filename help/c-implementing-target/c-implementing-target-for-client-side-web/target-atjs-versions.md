@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 版本詳細資料
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
+source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
 
 ---
 
@@ -21,11 +21,29 @@ source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 >
 >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。
 
-## at.js 2.2和1.8版（2019年10月10日）
+## at.js 2.2版（2019年10月10日）
 
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| at.js 2.2<br><br>andat.js 1.8版 | 這些版本的at.js提供：<ul><li>已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2或at.js 1.8時的效能。</li><li>之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。</li></ul> 為善用這些效能改良功能，升級至at.js 2.2或at.js 1.8以及ECID程式庫v4.4.<br>at.js 2.2提供：<ul><li>**serverState**:at.js v2.2+中提供的設定，可在實作Target的混合整合時用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。<br>如需詳細資訊，請參閱targetGlobalSettings中的 ["serverState"](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+此版本的at.js包含下列增強功能和修正：
+
+* 已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2時的效能。
+* 之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。
+
+   >[!NOTE]
+   >
+   >將您的ECID Launch Extension升級至v4.4，以運用此效能增強功能。
+
+* at.js 2.2版也提供名為的新設定 `serverState`。 當實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。 For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+
+## at.js 1.8版（2019年10月10日）
+
+此版本的at.js包含下列增強功能和修正：
+
+* 已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 1.8時的效能。
+* 之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。
+
+>[!NOTE]
+>
+>將您的ECID Launch Extension升級至v4.4，以運用此效能增強功能。
 
 ## at.js 版本 2.1.1 (2019 年 7 月 24 日)
 
