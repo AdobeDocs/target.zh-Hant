@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 版本詳細資料
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 
 ---
 
@@ -21,23 +21,29 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 >
 >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。
 
-## at.js 2.1.1版（2019年7月24日）
+## at.js 2.2和1.8版（2019年10月10日）
 
-此版本的at.js是維護髮行，包含下列增強功能和修正：
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| at.js 2.2<br><br>andat.js 1.8版 | 這些版本的at.js提供：<ul><li>已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2或at.js 1.8時的效能。</li><li>之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。</li></ul> 為善用這些效能改良功能，升級至at.js 2.2或at.js 1.8以及ECID程式庫v4.4.<br>at.js 2.2提供：<ul><li>**serverState**:at.js v2.2+中提供的設定，可在實作Target的混合整合時用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。<br>如需詳細資訊，請參閱targetGlobalSettings中的 ["serverState"](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+
+## at.js 版本 2.1.1 (2019 年 7 月 24 日)
+
+此 at.js 版本為維護版本，包含下列增強功能和修正:
 
 (括號內的問題編號供 Adobe 內部使用。)
 
-* 修正當使用視覺體驗撰寫器(VEC)「目標與設定」頁面上的「點按追蹤」度量時，觸發多個信標的問題。 (TNT-32812)
-* 修正導致轉譯 `triggerView()` 選件不超過一次的問題。 (TNT-32780)
-* 已修正請求 `triggerView()` 是否包含Marketing Cloud ID(MCID)資訊的問題。 (TNT-32776)
-* 修正即使沒有儲存的檢 `triggerView()` 視，仍無法觸發通知的問題。 (TNT-32614)
-* Fixed an issue that caused an error due to the use of decodeURIcomponent that caused issues when the URL contains a malformed query string parameter. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
-* Fixed an issue that prevented Recommendations offers from displaying on websites for a few customers. Customers could see the offer content in the delivery API call but the offer was not applied on the website. (TNT-32680)
-* Fixed an issue that caused click-tracking across multiple experiences to not work as expected. (TNT-32644)
-* Fixed an issue that prevented at.js from applying the second metric after the rendering of the first metric fails. (TNT-32628)
-* Fixed an issue when passing  using the  function that caused the request payload to not be present in either the query parameters or in the request payload. `mboxThirdPartyId``targetPageParams`(TNT-32613)
-* Fixed an issue that caused display and click notification responses to be blocked in Chromium-based browsers (including Google Chrome). (TNT-32290)
+* 修正在可視化體驗撰寫器 (VEC) 的目標與設定頁面上使用點擊追蹤量度時，導致多個指標引發的問題。(TNT-32812)
+* 修正導致 `triggerView()` 無法多次呈現選件的問題。(TNT-32780)
+* 修正 `triggerView()` 的問題，確保要求包含 Marketing Cloud ID (MCID) 資訊。(TNT-32776)
+* 修正在即使沒有已儲存的視圖時，仍阻止 `triggerView()` 通知引發的問題。(TNT-32614)
+* 修正由於使用 decodeURIcomponent 而導致錯誤的問題，在 URL 包含故障的查詢字串參數時會造成問題。(TNT-32710)
+* 在透過 `Navigator.sendBeacon()` API 傳送的傳送要求內容中，指標標幟現已設定為「true」。(TNT-32683)
+* 修正 Recommendations 選件無法在一些客戶的網站上顯示的問題。客戶可以看到傳送 API 呼叫中的選件內容，但網站上未套用該選件。(TNT-32680)
+* 修正導致多個體驗中點擊追蹤無法如運期般運作的問題。(TNT-32644)
+* 修正在無法呈現第一個量度後，阻止 at.js 套用第二個量度的問題。(TNT-32628)
+* 修正使用 `targetPageParams` 函數傳送 `mboxThirdPartyId` 時發生的問題，導致要求裝載無法出現於查詢參數或要求裝載中。(TNT-32613)
+* 修正導致基於 Chromium 的瀏覽器 (包括 Google Chrome) 封鎖顯示和點按通知回應的問題。(TNT-32290)
 
 ## at.js version 2.1.0 (2019 年 6 月 3 日)
 
@@ -190,7 +196,7 @@ at.js 1.3.0 版現已可用。
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
-   如需詳細資訊，請參閱[at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)。
+   如需詳細資訊，請參閱 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)。
 
 * 您可以使用來自資料提供者的其他參數來擴大 at.js 要求。資料提供者應新增至 `window.targetGlobalSettings` 下的 `dataProviders key`。
 
