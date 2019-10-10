@@ -1,6 +1,6 @@
 ---
 description: 此頁面列出對 Target 文件的重要變更。
-keywords: target 文件變更記錄;文件更新
+keywords: target 文件變更記錄;文件更新；新主題；編輯
 seo-description: 此頁面列出 Adobe Target 文件的重要變更。
 seo-title: Adobe Target 產品文件中的文件變更。
 solution: Target
@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 新增區段："serverState." |
+|  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增at.js 2.2和at.js 1.8版的相關資訊。 |
+|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增at.js 2.2和at.js 1.8版的相關資訊。 |
 | 2019 年 10 月 9 日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了主題。 |
 |  | [發行說明——目標伺服器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新主題。 |
 |  | [發行說明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主題。 |
