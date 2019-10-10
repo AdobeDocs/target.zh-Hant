@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 targetGlobalSettings() 函數的資訊。 '
-keywords: targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;at.js;function;clientCode;clientdomain;serverCookieDomain;cookieDomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiImeout;dedentContentContentComeoutStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServerTimeout;optoutEnabled;optout;selectorsPollingTimeout;dataProviers
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 
 | 設定 | 類型 | 預設值 | 說明 |
 |--- |--- |--- |--- |
+| serverState | 請參閱下方的「serverState」。 | 請參閱下方的「serverState」。 | 請參閱下方的「serverState」。 |
 | clientCode | 字串 | 透過 UI 設定值 | 代表用戶端代碼 |
 | serverDomain | 字串 | 透過 UI 設定值 | 代表 Target Edge 伺服器 |
 | cookieDomain | 字串 | 如果可能，設為上層網域 | 代表儲存 Cookie 時使用的網域 |
@@ -175,3 +176,145 @@ var weatherProvider = {
 
 * 如果新增至 `window.targetGlobalSettings.dataProviders` 的資料提供者非同步，則會並行執行。訪客 API 要求將與新增至 `window.targetGlobalSettings.dataProviders` 的函數並行執行，以允許最低的等候時間。
 * at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，則資料提供者應該確定已將該資料快取，並且當叫用該提供者函數時，可做為第二個叫用的快取資料。
+
+## serverState {#server-state}
+
+`serverState` 是at.js v2.2+中可用的設定，可在實作Target的混合整合時用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。
+
+### 先決條件
+
+您必須有混合整合 [!DNL Target]。
+
+* **伺服器端**: 您必須使用新的 [傳送API](https://developers.adobetarget.com/api/delivery-api/) 或 [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **用戶端**:您必須使 [用at.js 2.2版或更新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+
+### 程式碼範例
+
+若要進一步瞭解其運作方式，請參閱下列您在伺服器上的程式碼範例。 程式碼假設您使用 [Target Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
+
+```
+// First, we fetch the offers via Target Node.js SDK API, as usual
+const targetResponse = await targetClient.getOffers(options);
+// A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
+const serverState = {
+  request: targetResponse.request,
+  response: targetResponse.response
+};
+// Finally, we should set window.targetGlobalSettings.serverState in the returned page, by replacing it in a page template, for example
+const PAGE_TEMPLATE = `
+<!doctype html>
+<html>
+<head>
+  ...
+  <script>
+    window.targetGlobalSettings = {
+      overrideMboxEdgeServer: true,
+      serverState: ${JSON.stringify(serverState, null, " ")}
+    };
+  </script>
+  <script src="at.js"></script>
+</head>
+...
+</html>
+`;
+// Return PAGE_TEMPLATE to the client ...
+```
+
+檢視預回 `serverState` 遷的範例物件JSON外觀如下：
+
+```
+{
+ "request": {
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "context": {
+   "channel": "web",
+   "timeOffsetInMinutes": 0
+  },
+  "experienceCloud": {
+   "analytics": {
+    "logging": "server_side",
+    "supplementalDataId": "7D3AA246CC99FD7F-1B3DD2E75595498E"
+   }
+  },
+  "prefetch": {
+   "views": [
+    {
+     "address": {
+      "url": "my.testsite.com/"
+     }
+    }
+   ]
+  }
+ },
+ "response": {
+  "status": 200,
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "client": "testclient",
+  "edgeHost": "mboxedge21.tt.omtrdc.net",
+  "prefetch": {
+   "views": [
+    {
+     "name": "home",
+     "key": "home",
+     "options": [
+      {
+       "type": "actions",
+       "content": [
+        {
+         "type": "setHtml",
+         "selector": "#app > DIV.app-container:eq(0) > DIV.page-container:eq(0) > DIV:nth-of-type(2) > SECTION.section:eq(0) > DIV.container:eq(1) > DIV.heading:eq(0) > H1.title:eq(0)",
+         "cssSelector": "#app > DIV:nth-of-type(1) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > SECTION:nth-of-type(1) > DIV:nth-of-type(2) > DIV:nth-of-type(1) > H1:nth-of-type(1)",
+         "content": "<span style=\"color:#FF0000;\">Latest</span> Products for 2020"
+        }
+       ],
+       "eventToken": "t0FRvoWosOqHmYL5G18QCZNWHtnQtQrJfmRrQugEa2qCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+       "responseTokens": {
+        "profile.memberlevel": "0",
+        "geo.city": "dublin",
+        "activity.id": "302740",
+        "experience.name": "Experience B",
+        "geo.country": "ireland"
+       }
+      }
+     ],
+     "state": "J+W1Fq18hxliDDJonTPfV0S+mzxapAO3d14M43EsM9f12A6QaqL+E3XKkRFlmq9U"
+    }
+   ]
+  }
+ }
+}
+```
+
+頁面載入瀏覽器後，at.js會立即套用所有選件， [!DNL Target] 而不 `serverState` 會針對邊緣觸發任何網路呼 [!DNL Target] 叫。 此外，at.js只會預先隱藏內容擷取伺服器端提供選件的DOM元素，因此會對頁面載入效能和使用者體驗產生積極影響。 [!DNL Target]
+
+### 重要注意事項
+
+Consider the following when using `serverState`:
+
+* 目前，at.js v2.2僅支援透過serverState提供以下體驗：
+
+   * 在頁面載入時執行的VEC建立活動。
+   * 預先擷取的檢視。
+
+      若是使用 [!DNL Target] Views的SPA `triggerView()` 和at.js API, at.js v2.2會快取伺服器端預先擷取之所有View的內容，並在每個View觸發時立即套用這些內容 `triggerView()`，而不會再對Target觸發任何額外的內容擷取呼叫。
+
+   * **注意**: 目前，不支援在伺服器端擷取的mbox `serverState`。
+
+* 套用選 `serverState `件時，at.js會考慮並設定 `pageLoadEnabled` , `viewsEnabled` 例如，如果設定為false，則不會套用「頁面載入 `pageLoadEnabled` 選件」。
+
+   若要開啟這些設定，請啟用 **[UICONTROL設定&gt;實作&gt;編輯設定&gt;頁面載入啟用中的切換]**。
+
+   ![頁面載入啟用的設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+### 其他資源
+
+若要進一步瞭解 `serverState` 運作方式，請查看下列資源：
+
+* [程式碼範例](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
+* [單頁應用程式(SPA)範例應用程式 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)。
