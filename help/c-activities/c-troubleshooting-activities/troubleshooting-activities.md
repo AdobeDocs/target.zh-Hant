@@ -8,7 +8,7 @@ title: 疑難排解活動
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -22,6 +22,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >除了下列疑難排解資訊，請參閱[疑難排解 Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 中提供的連結，取得其他疑難排解主題、常見問題集和疑難排解活動與其他 [!DNL Adobe Target] 功能的其他實用資訊。
 
 以下各節包含您可能會遇到的問題，並提供建議的解決方案。
+
+## 我使用Target UI建立活動，但無法透過API進行更新。
+
+使用Target UI建立的活 *動* ，只能透過Target UI更新。 透過API建立的活動 *只能* 透過API更新。 嘗試使用建立活動所用的相同方法（UI或API）來更新活動。
 
 ## 您看到的是預設內容。
 
