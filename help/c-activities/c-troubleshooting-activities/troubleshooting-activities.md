@@ -8,7 +8,7 @@ title: 疑難排解活動
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ## 我使用Target UI建立活動，但無法透過API進行更新。
 
-使用Target UI建立的活 *動* ，只能透過Target UI更新。 透過API建立的活動 *只能* 透過API更新。 嘗試使用建立活動所用的相同方法（UI或API）來更新活動。
+使用Target UI建立的活動應透過Target UI更新。 透過API建立的活動應透過API更新。 例如，如果您最初使用API建立活動，但稍後透過Target UI編輯活動，則不會更新所有變更。 所有變更都儲存在後端，並可進行其他API呼叫來更新。
+
+最佳實務是，嘗試使用與原始建立活動相同的方法（UI或API）來更新活動。
 
 ## 您看到的是預設內容。
 
