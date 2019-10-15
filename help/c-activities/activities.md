@@ -1,21 +1,21 @@
 ---
-description: 活動可讓您測試頁面設計以及鎖定特定對象的內容。
-keywords: 活動清單;活動;活動類型;編輯活動;活動動作;活動屬性;活動清單篩選條件;活動限制
-seo-description: Adobe Target 中的活動可讓您測試頁面設計以及鎖定特定對象的內容。
-seo-title: Adobe Target 中的活動
+description: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
+keywords: 活動清單；活動；活動；活動類型；編輯活動；活動；活動；活動屬性；活動清單過濾；活動限制；個人化；個人化
+seo-description: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計
+seo-title: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
 solution: Target
 title: 活動
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
 
 ---
 
 
 # 活動{#activities}
 
-活動可讓您測試頁面設計以及鎖定特定對象的內容。活動會決定網站訪客可能遇到的體驗。
+Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
 
 例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個登陸頁面以一般夏季服飾為主。此活動會決定條件來控制各個登陸頁面何時出現，也會決定量度來判斷哪個頁面較成功。此活動設定在滿足特定條件時 (例如在特定日期之間) 開始或結束，或在核准活動後開始，並於停用時結束。
 
@@ -28,7 +28,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | 活動類型 | 說明 |
 |--- |--- |
 | [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。<br>**注意:** 您現在可以[在 A/B 測試活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
-| [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。<br>**注意:** 您現在可以[在自動分配活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。<br>**注意:** 您現在可以[在自動分配活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動鎖定目標使用進階機器學習來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。<br>**注意:** 您現在可以[在自動鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 資料](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以將活動設為使用 [!DNL Adobe Analytics] 作為報表來源。此活動類型需要您將 [!DNL Adobe Experience Cloud] 帳戶與 [!DNL Analytics] 和 [!DNL Target] 連結在一起。 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。 |
@@ -95,7 +95,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 ![活動搜尋](/help/c-activities/assets/activities_search_new.png)
 
-搜尋欄位包含下拉式功能表，可讓您指定下列其中一個搜尋篩選條件，以縮小搜尋範圍:   [!UICONTROL 活動名稱]和 [!UICONTROL URL]。
+搜尋欄位包含下拉式功能表，可讓您指定下列其中一個搜尋篩選條件，以縮小搜尋範圍:[!UICONTROL 活動名稱]和 [!UICONTROL URL]。
 
 ### 活動清單篩選器
 
@@ -141,7 +141,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | 每個體驗中的選件 | 350 |
 | 量度中的點擊追蹤選取器 | 50 |
 | 量度中的 Mbox | 50 |
-| 對象和位置 | 50對象和位置 (Mbox) 組合不得超過 50 個。 |
+| 對象和位置 | 50 對象和位置 (Mbox) 組合不得超過 50 個。 |
 
 如果您超過任何這些上限，則無法儲存活動。
 
