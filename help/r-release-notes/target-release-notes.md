@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
+source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
 
 ---
 
@@ -33,13 +33,13 @@ source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
 
 ### 增強功能、修正和變更
 
-* 對Adobe Unified shell的變更。
+* 更改殼 [!DNL Experience Cloud] 層。
 
    Adobe會更新現有的殼層（解決方案頂端的黑條），以統一並改善您在所有解決 [!DNL Experience Cloud] 方案中的使用 [!DNL Adobe Experience Cloud] 體驗。
 
    目前的工作流程沒有變更，而這些看似簡單的變更，旨在以小型但重要的方式讓您的生活更輕鬆。
 
-   當您登入時， [!DNL Adobe Experience Cloud]將會進入新的Unified Shell。 它看起來與上一個Shell非常相似，頂部有黑條，但提供了以下改進：
+   當您登入時， [!DNL Adobe Experience Cloud]會將您帶到新殼層。 其外觀與上一個外殼非常相似，頂部有黑條，但提供了以下改進：
 
    * 更輕鬆地在Identity Management System(IMS)組織之間切換，或切換至不同的 [!EExperience cloud解決方案] 。
    * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也在「說明」功能表中新增了意見回應機制，讓您更輕鬆地報告問題或分享您的想法。
@@ -54,13 +54,13 @@ source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
 
       ![Recs Classic深層連結](/help/r-release-notes/assets/recs-classic.png)
 
-      如果您使 [!DNL Search&Promote]用，您必須直接前往連結。 從內部到達Search&amp;Promote的路徑已 [!DNL Adobe Target] 完全移除。
-   * 「通知 [!DNL Target] 」下拉式清單中的「通知」  ，目前不再顯示通知。
+      如果您使 [!DNL Search&Promote]用，您必須直接前往連結。 從內部到達 [!DNL Search&Promote] 的路徑已 [!DNL Adobe Target] 完全移除。
+   * 目前 [!DNL Target] 殼層中「通知」下拉式清單 [!UICONTROL 中] ，不會再顯示通知。
    >[!NOTE]
    >
    >這些功能不會一次推出，也不會一起推出給所有客戶。 從2019年10月22日的19.10.1版開始，我們將在 [!DNL Target Standard/Premium] 未來幾天內推出這些功能。
    >
-   >在新Shell的推出過程中，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
+   >作為新殼層轉出的一部分，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
