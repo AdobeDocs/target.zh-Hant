@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js Cookie
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -35,7 +35,7 @@ at.js 會產生一個工作階段 ID 並將其儲存於 Cookie 中。第一個�
 
 因此，at.js 2.0.0 不支援第三方 Cookie 和跨網域追蹤。
 
-## at.js 1。*x* Cookie 行為 {#at-js-1x-cookie-behavior}
+## at.js 1.*x* Cookie 行為 {#at-js-1x-cookie-behavior}
 
 針對 at.js 1.*x* 版，Cookie 的行為取決於其為第一方 Cookie、具有第一方 Cookie 的第三方 Cookie，還是獨立的第三方 Cookie。
 
@@ -112,7 +112,7 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 | Cookie 名稱 | mbox。 |
 | Cookie 網域 | 您從中提供內容的第一層與第二層網域。因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`。 |
 | 伺服器網域 | `clientcode.tt.omtrdc.net`，使用您帳戶的用戶端代碼。 |
-| Cookie 持續時間 | Cookie 會從訪客上一次登入開始，在訪客的瀏覽器中繼續存在兩個星期。您無法變更 Cookie 持續時間。 |
+| Cookie 持續時間 | 自訪客上次登入後兩年，Cookie仍會留在訪客的瀏覽器上。 您無法變更 Cookie 持續時間。 |
 | P3P 原則 | 此 Cookie 會依大部分瀏覽器中預設設定的要求，以 P3P 原則進行發佈。P3P 原則會為瀏覽器指出是誰提供此 Cookie，以及將如何使用此資訊。 |
 
 此 Cookie 會保留一些值，以管理您訪客體驗 促銷活動的方式:
