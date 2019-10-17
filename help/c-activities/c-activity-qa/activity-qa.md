@@ -8,7 +8,7 @@ title: 活動 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -27,9 +27,9 @@ source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
 * 能夠單獨預覽體驗，或結合其他滿足傳送條件 (頁面/mbox/對象) 的已上線活動一起預覽。
 * 能夠 QA 整個使用者旅程。您可以利用 QA 連結來存取一次您的網站，然後在活動 QA 期間瀏覽整個網站。您會停留在活動 QA 中直到結束工作階段，或直到您使用[QA Target 書籤小程式](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)強迫自己離開活動 QA。如果活動橫跨多個網頁，此功能特別有用。
 
->[!NOTE]
->
->對於第2版的at.js實作而言，這是正確的。*x或* 更新版本。 for at.js 1.*x* 和mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
+   >[!NOTE]
+   >
+   >對於第2版的at.js實作而言，這是正確的。*x或* 更新版本。 for at.js 1.*x* 和mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
 
 ## 存取和共用 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
