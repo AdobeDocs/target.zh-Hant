@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
+source-git-commit: 0a9cf0e98f5f833402b96f37df5513325222ad19
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新: 2019 年 10 月 2 日**
+**上次更新: 2019 年 10 月 17 日**
 
 >[!NOTE]
 >
@@ -39,6 +39,37 @@ source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 | 功能/增強功能 | 說明 |
 | --- | --- |
 | ![Premium badge](/help/assets/premium.png) User-Based Recommendations | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>此准則可讓您為新訪客和舊訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當訪客瀏覽您的網站時，建議清單會變得更個人化。 |
+
+### 增強功能、修正和變更
+
+* 對Adobe Unified shell的變更。
+
+   Adobe會更新現有的殼層（解決方案頂端的黑條），以統一並改善您在所有解決 [!DNL Experience Cloud] 方案中的使用 [!DNL Adobe Experience Cloud] 體驗。
+
+   目前的工作流程沒有變更，而這些看似簡單的變更，旨在以小型但重要的方式讓您的生活更輕鬆。
+
+   當您登入時， [!DNL Adobe Experience Cloud]將會進入新的Unified Shell。 它看起來與上一個Shell非常相似，頂部有黑條，但提供了以下改進：
+
+   * 更輕鬆地在Identity Management System(IMS)組織之間切換，或切換至不同的 [!EExperience cloud解決方案] 。
+   * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也在「說明」功能表中新增了意見回應機制，讓您更輕鬆地報告問題或分享您的想法。
+   * 已改善淨啟動子分數(NPS)功能。 有時，有些客戶會以比 [!DNL Target] 我們預期的更高頻率看到調查。 此外，調查模式過去會干擾您的工作流程。 我們已完全更新此功能，使它成為不再干擾的小型調查。 此外，有了新的設計，我們可以確保更好地控制調查的頻率。
+   * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下Shell上的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁可讓客戶繼續使 [!DNL Target Standard/Premium]用 [!DNRecommendations Classic]，或 [!DNL Search&Promote]，如下所示：
+
+      ![登陸頁面](/help/r-release-notes/assets/landing.png)
+
+      我們已取消所有客戶的登陸頁面。 現在，您一律可以按一下圖示 [!UICONTROL 直接進入「活動清單] 」 [!DNL Target] 頁面。
+
+      如果您使 [!DNL Recommendations Classic]用，您可以直接前往解決方案，或從Recommendations標籤上建立的簡短連結  ，如下所示：
+
+      ![Recs Classic深層連結](/help/r-release-notes/assets/recs-classic.png)
+
+      如果您使 [!DNL Search&Promote]用，您必須直接前往連結。 從內部到達Search&amp;Promote的路徑已 [!DNL Adobe Target] 完全移除。
+   * 「通知 [!DNL Target] 」下拉式清單中的「通知」  ，目前不再顯示通知。
+   >[!NOTE]
+   >
+   >這些功能不會一次推出，也不會一起推出給所有客戶。 從2019年10月22日的19.10.1版開始，我們將在 [!DNL Target Standard/Premium] 未來幾天內推出這些功能。
+   >
+   >在新Shell的推出過程中，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
