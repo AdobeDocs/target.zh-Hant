@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
+source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
 
 ---
 
@@ -33,29 +33,25 @@ source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
 
 ### 增強功能、修正和變更
 
-* 更改殼 [!DNL Experience Cloud] 層。
+* 當您登入時， [!DNL Adobe Experience Cloud]將會進入新的標題導覽。 它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
 
-   Adobe會更新現有的殼層（解決方案頂端的黑條），以統一並改善您在所有解決 [!DNL Experience Cloud] 方案中的使用 [!DNL Adobe Experience Cloud] 體驗。
+   * 更輕鬆地在 [!DNL Identity Management System] (IMS)組織間切換或切換至不同的解決方案。
+   * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
 
-   目前的工作流程沒有變更，而這些看似簡單的變更，旨在以小型但重要的方式讓您的生活更輕鬆。
-
-   當您登入時， [!DNL Adobe Experience Cloud]會將您帶到新殼層。 其外觀與上一個外殼非常相似，頂部有黑條，但提供了以下改進：
-
-   * 更輕鬆地在Identity Management System(IMS)組織之間切換，或切換至不同的 [!EExperience cloud解決方案] 。
-   * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也在「說明」功能表中新增了意見回應機制，讓您更輕鬆地報告問題或分享您的想法。
-   * 已改善淨啟動子分數(NPS)功能。 有時，有些客戶會以比 [!DNL Target] 我們預期的更高頻率看到調查。 此外，調查模式過去會干擾您的工作流程。 我們已完全更新此功能，使它成為不再干擾的小型調查。 此外，有了新的設計，我們可以確保更好地控制調查的頻率。
-   * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下Shell上的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁可讓客戶繼續使 [!DNL Target Standard/Premium]用 [!DNRecommendations Classic]，或 [!DNL Search&Promote]，如下所示：
+   * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
+   * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下頁首中的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁可讓客戶繼續使 [!DNL Target Standard/Premium]用、 [!DNL Search&Promote]或 [!DNl Recommendations Classic]，如下所示：
 
       ![登陸頁面](/help/r-release-notes/assets/landing.png)
 
-      我們已取消所有客戶的登陸頁面。 現在，您一律可以按一下圖示 [!UICONTROL 直接進入「活動清單] 」 [!DNL Target] 頁面。
+      我們已取消所有客戶的登陸頁面。 現在，只要按一下新標題導覽列中的 [!UICONTROL 圖示，您就一律會直接進入「活][!DNL Target] 動清單」頁面。
 
       如果您使 [!DNL Recommendations Classic]用，您可以直接前往解決方案，或從Recommendations標籤上建立的簡短連結  ，如下所示：
 
       ![Recs Classic深層連結](/help/r-release-notes/assets/recs-classic.png)
 
       如果您使 [!DNL Search&Promote]用，您必須直接前往連結。 從內部到達 [!DNL Search&Promote] 的路徑已 [!DNL Adobe Target] 完全移除。
-   * 目前 [!DNL Target] 殼層中「通知」下拉式清單 [!UICONTROL 中] ，不會再顯示通知。
+
+   * 頁首的 [!DNL Target] 「通知」下拉式清單 [!UICONTROL 中] ，目前無法使用的通知。
    >[!NOTE]
    >
    >這些功能不會一次推出，也不會一起推出給所有客戶。 從2019年10月22日的19.10.1版開始，我們將在 [!DNL Target Standard/Premium] 未來幾天內推出這些功能。
