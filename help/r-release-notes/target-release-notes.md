@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
+source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
    * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
 
    * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
-   * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下頁首中的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁可讓客戶繼續使 [!DNL Target Standard/Premium]用、 [!DNL Search&Promote]或 [!DNl Recommendations Classic]，如下所示：
+   * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下頁首中的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁允許客戶繼續使用 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
 
       ![登陸頁面](/help/r-release-notes/assets/landing.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
 
       ![Recs Classic深層連結](/help/r-release-notes/assets/recs-classic.png)
 
-      如果您使 [!DNL Search&Promote]用，您必須直接前往連結。 從內部到達 [!DNL Search&Promote] 的路徑已 [!DNL Adobe Target] 完全移除。
+      如果您使 [!DNL Search&Promote]用，您必須直接前往 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。 從內部到達 [!DNL Search&Promote] 的路徑已 [!DNL Adobe Target] 完全移除。
 
    * 頁首的 [!DNL Target] 「通知」下拉式清單 [!UICONTROL 中] ，目前無法使用的通知。
    >[!NOTE]
