@@ -8,7 +8,7 @@ title: 活動 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
    您也可以在網站上以帶有空白值的 `at_preview_token` 參數 (例如，`https://www.mysite.com/?at_preview_token=`) 來載入頁面，以手動強迫自己離開。
 
 * 如果您在建立活動時指定「URL 是」[表單式撰寫器中的細分](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可視化體驗撰寫器中的頁面傳送選項)](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，則 QA URL 沒有作用，因為活動 QA 會附加 URL 參數。若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
-* 如果您有at.js 1。*x* 或mbox.js，如果您的瀏覽器封鎖第三方Cookie，則「活動QA」模式不會自黏。 在這些情況下，您必須將預覽參數新增至導覽至的每個URL。
+* 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他封鎖第三方Cookie的瀏覽器，則x或mbox.js的「活動QA」模式將不嚴格。 在這些情況下，您必須將預覽參數新增至您導覽至的每個URL。
 * 如果活動使用多個體驗對象 (例如，相同活動中包含的 US 和 UK 網站)，則這四個組合 (體驗 A/ US 網站、體驗 A/ UK 網站、體驗 B/ US 網站、體驗 B/ UK 網站) 不會產生 QA 連結。只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。UK QA 的人無法看見 US 網站。
 * 所有 `at_preview` 參數和值皆已完成 URL 編碼。一切通常皆沒問題，不過，某些客戶可能有負載平衡器或 Web 伺服器，會嘗試將查詢字串參數再一次編碼。
 
