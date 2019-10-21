@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
+source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Premium badge](/help/assets/premium.png) User-Based Recommendations | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>此准則可讓您為新訪客和舊訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當訪客瀏覽您的網站時，建議清單會變得更個人化。 |
+| ![Premium badge](/help/assets/premium.png) User-Based Recommendations<br>（2019年10月24日） | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>此准則可讓您為新訪客和舊訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當訪客瀏覽您的網站時，建議清單會變得更個人化。<br>如需詳細資訊，請參閱「准則／演算法」中的「使 [用者建議」](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
 
 ### 增強功能、修正和變更
 
@@ -56,7 +56,7 @@ source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
    >
    >這些功能不會一次推出，也不會一起推出給所有客戶。 從2019年10月22日的19.10.1版開始，我們將在 [!DNL Target Standard/Premium] 未來幾天內推出這些功能。
    >
-   >作為新殼層轉出的一部分，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
+   >在新導覽列的推出過程中，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
