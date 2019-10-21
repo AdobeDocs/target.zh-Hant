@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -16,6 +16,13 @@ source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 # 文件變更{#documentation-changes}
 
 此頁面主要列示 [!DNL Adobe Target] 文件的重要變更。
+
+## Adobe Target/Standard/Premium 19.10.1（2019年10月22日）
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 2019 年 10 月 22 日 |  |  |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 19.10.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target/Standard/Premium 19.9.1（2019年9月30日）
 
