@@ -1,7 +1,7 @@
 ---
 description: 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
-keywords: recommendations;recommendations 活動;條件；算法
-seo-description: Criteria in Adobe Target are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
+keywords: recommendations;recommendations 活動;條件;演算法
+seo-description: Adobe Target 中的條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
 seo-title: 標準
 solution: Target
 title: 標準
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 | 最近查看的項目 | 建議訪客最近看過的項目，例如訪客上次造訪網站時查看的項目，或此刻最夯的文章。<br>「最近查看的項目」演算法會傳回某個[環境](/help/administrating-target/hosts.md)中特定訪客活動的結果。如果兩個網站分屬不同環境，且訪客在兩個網站之間切換，演算法僅會傳回相應網站的最近查看項目。<br>此條件類型不受限於集合。<ul><li>最近查看的項目</li></ul>**注意:** 您無法對備用建議使用「最近查看的項目」條件。<br>您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。<ul><li>如同建議中的其他條件一樣，「最近查看」條件也可設定。</li><li>您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。</li></ul>可能的使用案例包括:<ul><li>經營多種業務的跨國公司可能讓訪客看到遍及多種數位屬性的項目。在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。這會防止在另一個數位屬性的網站上顯示「最近查看的項目」。</li></ul> |
 
 
-## 條件/演算法 {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## 條件/演算法 {#criteria-algorithms}
 
 [!DNL Target Recommendations] 採用複雜的演算法，用於判斷訪客的動作何時符合活動中設定的條件。建議金鑰決定可用的建議邏輯選項。
 
@@ -58,6 +58,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 | 最暢銷商品 | 多數完成的訂單中包含的項目。單一訂單中相同項目的多個單位視為一份訂單。 |
 | 檢視次數最多 | 最常檢視的項目或媒體。 |
 | 最近查看的項目/媒體 | 訪客最近檢視的項目。使用此條件時，您應更新 Target 設計來處理先前檢視的項目數不足以顯示而出現空白建議的情況。 |
+| 使用者建議 | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>此准則可讓您為新訪客和舊訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當使用者瀏覽您的網站時，建議清單會變得更個人化。<br>檢視和購買都可用來決定建議的項目。 指定的建議金鑰（例如目前項目）可用來套用您選取的任何包含規則篩選。 例如，您可以:<ul><li>排除不符合特定條件的項目（產品無存貨、30天前發佈的文章、評為R的影片等）</li><li>將包含的項目限制為單一類別或目前類別</li></ul> |
 
 >[!NOTE] {class="- topic/note "}
 >
@@ -75,11 +76,11 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 按一下&#x200B;**[!UICONTROL 「演算法資訊」]索引標籤，即可查看選取條件的一般資訊，包括名稱、說明、垂直產業、頁面類型、建議金鑰、建議邏輯和演算法 ID。**
 
-![演算法資訊標籤](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
+![演算法資訊索引標籤](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 按一下&#x200B;**[!UICONTROL 「演算法使用情形」]索引標籤，即可查看參照選取條件的活動清單。**&#x200B;卡片會列出使用中和非使用中的活動。按一下「已上線活動」或「非使用中活動」下拉式清單，即可查看參照該條件的完整活動清單。您可以按一下活動連結以開啟活動並編輯。
 
-![「標準使用」頁籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![條件使用情形索引標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## 判斷條件結果何時可就緒播放 {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +92,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 下圖顯示 Recommendations 活動「概覽」頁面上的活動圖表。您也可以在步驟 2 的活動建立工作流程期間，查看活動圖表，並附有條件狀態結果。
 
-![「概述條件狀態」頁](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
+![概覽頁面上的條件狀態](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 狀態結果包括下列項目: 可用結果、不可用結果、摘要失敗，如下方圖表所示:
 
