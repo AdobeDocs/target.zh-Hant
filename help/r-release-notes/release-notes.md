@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
 | --- | --- |
 | ![Premium badge](/help/assets/premium.png) User-Based Recommendations<br>（2019年10月24日） | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>此准則可讓您為新訪客和舊訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當訪客瀏覽您的網站時，建議清單會變得更個人化。<br>如需詳細資訊，請參閱「准則／演算法」中的「使 [用者建議」](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
 
-### 增強功能、修正和變更
+### Adobe Experience cloud導覽
 
 * 當您登入時， [!DNL Adobe Experience Cloud]將會進入新的標題導覽。 它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
 
@@ -48,7 +48,7 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
    * 頁首的 [!DNL Target] 「通知」下拉式清單 [!UICONTROL 中] ，目前無法使用的通知。
    >[!NOTE]
    >
-   >這些功能不會一次推出，也不會一起推出給所有客戶。 從2019年10月22日的19.10.1版開始，我們將在 [!DNL Target Standard/Premium] 未來幾天內推出這些功能。
+   >這些功能不會一次推出，也不會一起推出給所有客戶。 我們將在未來幾週內推出這些功能，從 [!DNL Target Standard/Premium] 19.10.1（2019年10月22日）版本開始。
    >
    >在新導覽列的推出過程中，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
 
