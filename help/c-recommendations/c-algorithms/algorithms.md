@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | 潛在客戶開發/B2B/金融服務 | 轉換但未購買 |
 | 媒體/出版 | 參與 |
 
-## 建議金鑰 {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您選取的建議金鑰決定條件類型。提供幾個條件類型，當您設定 [!DNL Recommendations] 活動時會以條件卡呈現。
 
@@ -43,6 +43,35 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | 人氣 | 建議最熱門項目，例如相關類別中最熱門的影片，或您網站上最常被看到的產品。<ul><li>人氣</li></ul> |
 | 最近查看的項目 | 建議訪客最近看過的項目，例如訪客上次造訪網站時查看的項目，或此刻最夯的文章。<br>「最近查看的項目」演算法會傳回某個[環境](/help/administrating-target/hosts.md)中特定訪客活動的結果。如果兩個網站分屬不同環境，且訪客在兩個網站之間切換，演算法僅會傳回相應網站的最近查看項目。<br>此條件類型不受限於集合。<ul><li>最近查看的項目</li></ul>**注意:** 您無法對備用建議使用「最近查看的項目」條件。<br>您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。<ul><li>如同建議中的其他條件一樣，「最近查看」條件也可設定。</li><li>您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。</li></ul>可能的使用案例包括:<ul><li>經營多種業務的跨國公司可能讓訪客看到遍及多種數位屬性的項目。在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。這會防止在另一個數位屬性的網站上顯示「最近查看的項目」。</li></ul> |
 
+## Using a custom recommendations key {#custom-key}
+
+您也可以根據自訂描述檔屬性的值來建議。
+
+>[!NOTE]
+>
+>自訂描述檔參數可透過JavaScript、API或整合傳遞至Target。 如需自訂描述檔屬性的詳細資訊，請參閱 [訪客描述檔](/help/c-target/c-visitor-profile/visitor-profile.md)。)
+
+例如，假設您想根據使用者最近新增至其佇列的影片來顯示建議的影片。
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+
+Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+
+![「建立新標準」對話框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+
+例如，假設您想要顯示來自使用者最愛品牌的暢銷商品。
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+
+Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+
+[!UICONTROL 依下列唯一值分組]選項隨即顯示。選取比對至您已選擇之索引鍵的實體屬性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+
+[!DNL Recommendations] 現在會針對每個品牌產生「最暢銷商品」清單，並根據「最愛品牌」描述檔屬性中儲存的值，向使用者顯示適當的「最暢銷商品  」清單。
+
+![「最暢銷商品」屬性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## 條件/演算法 {#criteria-algorithms}
 
