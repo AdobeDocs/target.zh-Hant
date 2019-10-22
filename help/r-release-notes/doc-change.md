@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 10 月 22 日 | [條件/演算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 已新增「使用者建議」的列。 |
+|  | [標準](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 新增區段："使用自訂建議金鑰。" |
 |  | [目標與受眾常見問答集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增常見問答："建立複雜的URL字串時，是 [!DNL Target] 否評估整個URL?" |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.10.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
