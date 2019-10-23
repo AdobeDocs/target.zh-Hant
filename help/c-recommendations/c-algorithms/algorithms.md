@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 43051f3ab2687a07fbeedc0551aa4337509e4f2a
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -63,7 +63,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 例如，假設您想要顯示來自使用者最愛品牌的暢銷商品。
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
 
 1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
@@ -71,7 +71,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 1. 選取比對至您已選擇之索引鍵的實體屬性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
+   [!DNL Recommendations] 現在會針對每個品牌產生「最暢銷商品」清單，並根據「最愛品牌」描述檔屬性中儲存的值，向使用者顯示適當的「最暢銷商品  」清單。
 
    ![「最暢銷商品」屬性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
