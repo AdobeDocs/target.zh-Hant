@@ -1,5 +1,5 @@
 ---
-description: 對象會決定將看見已鎖定目標活動中內容和體驗的人。
+description: Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
 keywords: 對象;對象規則;建立對象;建立對象;鎖定目標對象;報表對象;報表對象;區段;自訂設定檔參數;對象定義;對象清單
 seo-description: Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
 seo-title: 在 Adobe Target 中建立受眾
@@ -8,14 +8,14 @@ title: 建立對象
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
 
 # 建立對象{#create-audiences}
 
-對象會決定將看見已鎖定目標活動中內容和體驗的人。
+Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
 
 可使用鎖定目標之處皆可使用對象。鎖定目標活動時，您可以從[!UICONTROL 受眾]清單選取可重複使用的受眾、[建立活動專屬受眾](/help/c-target/creating-activity-only-audience.md)，以及將其鎖定目標，或[合併多個受眾](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選受眾。
 
