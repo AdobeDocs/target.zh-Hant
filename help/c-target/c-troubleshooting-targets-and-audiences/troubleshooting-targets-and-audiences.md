@@ -8,7 +8,7 @@ title: 鎖定目標和對象常見問題集
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
@@ -26,6 +26,10 @@ source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
 計算參數的第 `Category` 一個實例並忽略第 `Category` 二參數。
+
+最佳做法是將多個值與單一類別相關聯，如下所示：
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## 建置對象時，為什麼在 Target 資料庫下預先建置的對象會出現在其他類別中? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
