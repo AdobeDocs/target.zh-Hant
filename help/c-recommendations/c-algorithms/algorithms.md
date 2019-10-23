@@ -1,8 +1,8 @@
 ---
 description: 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
-keywords: recommendations;recommendations 活動;條件;演算法
-seo-description: Adobe Target 中的條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
-seo-title: 標準
+keywords: recommendations;recommendations 活動;條件；算法；建議鍵；自定義鍵；行業垂直；零售；電子商務；潛在客戶開發；b2b；金融服務；媒體；發佈
+seo-description: Adobe Target Recommendations中的准則是規則，可根據一組預先設定的訪客行為來決定要推薦哪些產品。
+seo-title: Adobe Target Recommendations中的條件
 solution: Target
 title: 標準
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: 43051f3ab2687a07fbeedc0551aa4337509e4f2a
 
 ---
 
@@ -43,37 +43,39 @@ source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 | 人氣 | 建議最熱門項目，例如相關類別中最熱門的影片，或您網站上最常被看到的產品。<ul><li>人氣</li></ul> |
 | 最近查看的項目 | 建議訪客最近看過的項目，例如訪客上次造訪網站時查看的項目，或此刻最夯的文章。<br>「最近查看的項目」演算法會傳回某個[環境](/help/administrating-target/hosts.md)中特定訪客活動的結果。如果兩個網站分屬不同環境，且訪客在兩個網站之間切換，演算法僅會傳回相應網站的最近查看項目。<br>此條件類型不受限於集合。<ul><li>最近查看的項目</li></ul>**注意:** 您無法對備用建議使用「最近查看的項目」條件。<br>您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。<ul><li>如同建議中的其他條件一樣，「最近查看」條件也可設定。</li><li>您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。</li></ul>可能的使用案例包括:<ul><li>經營多種業務的跨國公司可能讓訪客看到遍及多種數位屬性的項目。在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。這會防止在另一個數位屬性的網站上顯示「最近查看的項目」。</li></ul> |
 
-## Using a custom recommendations key {#custom-key}
+## 使用自訂建議金鑰 {#custom-key}
 
 您也可以根據自訂描述檔屬性的值來建議。
 
 >[!NOTE]
 >
->自訂描述檔參數可透過JavaScript、API或整合傳遞至Target。 如需自訂描述檔屬性的詳細資訊，請參閱 [訪客描述檔](/help/c-target/c-visitor-profile/visitor-profile.md)。)
+>自訂描述檔參數可透過JavaScript、API或整合傳遞至Target。 如需自訂描述檔屬性的詳細資訊，請參閱「訪客 [描述檔」](/help/c-target/c-visitor-profile/visitor-profile.md)。
 
-例如，假設您想根據使用者最近新增至其佇列的影片來顯示建議的影片。
+例如，假設您想根據使用者最近新增至佇列的影片來顯示建議的影片。
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
-Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
 
-![「建立新標準」對話框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+   ![「建立新標準」對話框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
 If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
 
 例如，假設您想要顯示來自使用者最愛品牌的暢銷商品。
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
 
-Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
-[!UICONTROL 依下列唯一值分組]選項隨即顯示。選取比對至您已選擇之索引鍵的實體屬性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+   [!UICONTROL 依下列唯一值分組]選項隨即顯示。
 
-[!DNL Recommendations] 現在會針對每個品牌產生「最暢銷商品」清單，並根據「最愛品牌」描述檔屬性中儲存的值，向使用者顯示適當的「最暢銷商品  」清單。
+1. 選取比對至您已選擇之索引鍵的實體屬性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-![「最暢銷商品」屬性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
 
-## 條件/演算法 {#criteria-algorithms}
+   ![「最暢銷商品」屬性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+
+## Criteria/algorithms {#criteria-algorithms}
 
 [!DNL Target Recommendations] 採用複雜的演算法，用於判斷訪客的動作何時符合活動中設定的條件。建議金鑰決定可用的建議邏輯選項。
 
@@ -97,7 +99,7 @@ Then select the [!UICONTROL Recommendation Logic] you want to use with this key 
 
 所有一天條件每日執行兩次。所有一週及更久條件每日執行一次。網站相關性條件每日執行一次。備用條件每日執行兩次。
 
-## 查看條件資訊 {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 您可以將游標移至卡片上並按一下卡片上的「資訊」圖示，這樣無需開啟條件，即可在快顯卡上查看條件詳情。
 
@@ -111,7 +113,7 @@ Then select the [!UICONTROL Recommendation Logic] you want to use with this key 
 
 ![條件使用情形索引標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## 判斷條件結果何時可就緒播放 {#section_03F328C07F234692B6D996DF745584B3}
+## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
 
 在活動圖表中，條件卡現在會指出結果何時可就緒播放。掌握結果是否以就緒播放可協助您判斷您的活動是否已準備好啟動以推送上線。亦可協助您瞭解條件是否有任何問題。
 
