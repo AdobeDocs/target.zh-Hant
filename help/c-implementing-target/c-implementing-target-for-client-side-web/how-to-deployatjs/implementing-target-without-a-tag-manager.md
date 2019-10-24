@@ -9,7 +9,7 @@ title: 不使用標籤管理程式實作 Target
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -112,7 +112,7 @@ ov2/c_target-configure-atjs.xml
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   用步驟 1 取得的用戶端代碼取代 ` < *`client code`*>`。
+   Replace `client code` with the client code from Step 1.
 
    載入此 URL 的結果應該類似下列範例:
 
@@ -132,9 +132,9 @@ ov2/c_target-configure-atjs.xml
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * 用您的管理員編號取代 ` < *`admin number`*>`。
-   * 用步驟 1 取得的用戶端代碼取代 ` < *`client code`*>`。
-   * 用所需的 [ [!DNL at.js] 版本號碼 ](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (例如 1.6.2) 取代 ` < *`version number`*>`。
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
    >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
@@ -207,7 +207,7 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 * 應使用 HTML5 Doctype (如 `<!doctype html>`)。不支援或舊版 doctype 可能會造成 Target 無法提出要求。
 * 「預先連結」和「預先擷取」可能有助於加速網頁載入。如果使用這兩項設定，務必將 `<client code>` 替換為您的專屬用戶端代碼，可在&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定」]**&#x200B;頁面進行。
 * 如果有資料層，最好在 at.js 載入前，盡可能在網頁的 `<head>` 中詳細定義。這個位置能讓您在 Target 最大限度運用這類資料進行個人化。
-* 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。此外，這些函數亦可儲存於[!UICONTROL 「編輯 at.js 設定」]頁面的[!UICONTROL 「程式庫標題」]部分，並存入 at.js 程式庫本身。如需特殊函數的詳細資訊，請參閱[at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
+* 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。此外，這些函數亦可儲存於[!UICONTROL 「編輯 at.js 設定」]頁面的[!UICONTROL 「程式庫標題」]部分，並存入 at.js 程式庫本身。如需特殊函數的詳細資訊，請參閱 [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 * 如果使用 jQuery 等 JavaScript 輔助函式庫，請在 Target 前加入這些函式庫，以便在建立 Target 體驗時使用這些函式庫的語法和方法。
 * 在網頁的 `<head>` 中加入 at.js。
 
