@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 10 月 24 日 | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 更新下列常見問答集中的文字：「為什麼Target有時候無法顯示建議？」 |
+|  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增附註至影響舊版at.js（2.2.0版舊版）的已知問題。 |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已新增有關使用A4T之活動之成功度量之預設行為的附註。 |
 | 2019 年 10 月 22 日 | [條件/演算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 已新增「使用者建議」的列。 |
 |  | [標準](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 新增區段："使用自訂建議金鑰。" |
 |  | [目標與受眾常見問答集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增常見問答："建立複雜的URL字串時，是 [!DNL Target] 否評估整個URL?" |
