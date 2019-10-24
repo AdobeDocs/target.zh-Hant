@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 版本詳細資料
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
 >
 >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。
 
-## at.js 2.2版（2019年10月10日）
+## at.js 2.2.0版（2019年10月10日）
 
 此版本的at.js包含下列增強功能和修正：
 
@@ -34,7 +34,7 @@ source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
 
 * at.js 2.2版也提供名為的新設定 `serverState`。 當實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。 For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
-## at.js 1.8版（2019年10月10日）
+## at.js 1.8.0版（2019年10月10日）
 
 此版本的at.js包含下列增強功能和修正：
 
