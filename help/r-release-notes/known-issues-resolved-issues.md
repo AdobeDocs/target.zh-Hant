@@ -1,14 +1,14 @@
 ---
 description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
 keywords: 已知問題;已解決的問題;版本說明；錯誤；問題；修正
-seo-description: Information about known issues for this release of Adobe Target. 也包括關於已解決之問題的資訊。
+seo-description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
 seo-title: Adobe Target 中的已知問題和已解決的問題
 solution: Target
 title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 以下小節列出 [!DNL Target] 的已知問題:
 
-### 活動QA預覽連結 {#preview}
+### 活動 QA 預覽連結 {#preview}
 
-[如果帳戶中儲存的活動過多](/help/c-activities/c-activity-qa/activity-qa.md) ，儲存的活動的活動QA預覽連結可能無法載入。 重新嘗試預覽連結應能運作。 為防止這種情況繼續發生，請封存已儲存且不再被使用的活動。 (TNT-32697)
+如果帳戶中有太多已儲存的活動，已儲存活動的[活動 QA 預覽](/help/c-activities/c-activity-qa/activity-qa.md)連結可能會無法載入。重試預覽連結應可解決此問題。為避免繼續發生此問題，請封存不再需要使用的已儲存活動。(TNT-32697)
 
 ### 重新導向選件 {#redirect}
 
@@ -72,13 +72,17 @@ source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 在 MVT 活動中，在檢查度量時，表格和圖表中顯示的獲勝者不一致。如果使用者從摘要切換為圖表檢視，然後切換回摘要檢視，變更度量然後切換至圖表檢視，就會發生此情況。發生此問題時，摘要檢視一律會顯示正確的獲勝者。如果使用者從未在摘要檢視間切換圖表檢視，圖表便會檢視顯示正確的獲勝者。
 
-### at.js
+### at.js {#atjs}
 
 下列是 at.js 的已知問題:
 
-* 如果您使用at.js 2建立體驗而未進行任何修改。*x* （例如預設體驗），該體驗可能不會計入報表、Analytics for Target(A4T)、Analytics或Google Analytics中。 此外， [ttMeta外掛程式可能無法正常運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
+* 如果您使用at.js 2.1.1或更舊版本（例如預設體驗）建立沒有修改的體驗，該體驗可能不會計入報表、Analytics for Target(A4T)、Adobe Analytics或Google Analytics。 此外， [ttMeta外掛程式可能無法正常運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
 
    因應措施是，在體驗內容中使用空白字元。 (TNT-33366)
+
+   >[!NOTE]
+   >
+   >此問題的修正已包含在at.js 2.2.0中。您應升級至最 [新版本或at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ，或僅針對2.2.0之前的at.js版本使用上述解決方法。
 
 * 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
@@ -131,7 +135,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 * 當摘要中的項目與前次執行相同時，建議摘要索引會顯示「等候索引」。傳送所需的產品擷取不受影響。(RECS-6663)
 
-   This issue was fixed in the Target 19.4.2 release.
+   Target 19.4.2 版本已修正此問題。
 
 * Recommendations 摘要耗費較預期更長的時間。(COR-2836)
 
@@ -145,7 +149,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。計劃對 at.js 實施進行更新，以確保可以避免此競爭條件。
 
-此問題已在at.js 1.6.3中修正。
+at.js 1.6.3 已修正此問題。
 
 ### 排除群組
 
