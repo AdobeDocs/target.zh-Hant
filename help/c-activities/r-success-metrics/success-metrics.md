@@ -1,28 +1,32 @@
 ---
-description: 在 Target Standard 中，已針對報表和追蹤用途預先設定了成功量度。
-keywords: 鎖定目標; 成功; 轉換量度; 頁面分數量度; 頁面檢視量度; 收入量度; 網站逗留時間量度; 預估值; 進階設定
-seo-description: 在 Target Standard 中，已針對報表和追蹤用途預先設定了成功量度。
-seo-title: 成功量度
+description: 在Adobe target中，成功度量已預先設定，以用於報告和追蹤目的。
+keywords: 定位；成功；轉換量度；頁面分數量度；頁面檢視量度；收入量度；網站逗留時間量度；估計值；進階設定；成功量度
+seo-description: 在Adobe target中，成功度量已預先設定，以用於報告和追蹤目的。
+seo-title: Adobe target中的成功度量
 solution: Target
 title: 成功量度
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # 成功量度{#success-metrics}
 
-在 Target Standard 中，已針對報表和追蹤用途預先設定了成功量度。
+在Adobe target中，成功度量已預先設定，以用於報告和追蹤目的。
 
 成功量度是用來測量活動成功的參數。成功量度包含重要的商務測量，可讓您判斷 Target 活動中指定體驗或選件的成功程度。例如，您可以判斷新選件是否會提高每位訪客帶來的收入，或將項目新增至購物車的機會。成功量度非常適合用於探索關於註冊、訂購或購買漏斗的問題，但也適合探索關於訪客或客戶參與度的問題。
 
 為了跟上 [!DNL Target Standard] 簡化測試建立的目標，應用程式會處理在 [!DNL Target Classic] 中手動完成的部分組態。例如，成功量度是使用最佳選項預先設定。
 
-依預設，[!DNL Target Standard] 中的轉換事件是設為「計入一次並將加入者保持在活動中」。轉換只會計入一次，而不會重複將轉換計入，並且訪客一律會看見測試內容。
+By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. 轉換只會計入一次，而不會重複將轉換計入，並且訪客一律會看見測試內容。
 
 設為「增加計數並讓使用者留在活動中」的收入量度只會記錄相同訪客所下的第一個訂單的訂單詳細資料。所有後續訂單會增加轉換計數，但將不會對 RPV/AOV/銷售額新增收入，且將不會包括在訂單詳細資料報表中。
+
+>[!NOTE]
+>
+>使用 [Analytics作為報告來源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動的預設行為是「遞增計數並讓使用者留在活動中」,「每個參加者一次」。
 
 下列為可使用的成功量度:
 
