@@ -1,8 +1,8 @@
 ---
 description: 關於建議活動常見問題集 (FAQ) 的清單。
 keywords: 疑難排解;常見問題集;FAQ;建議;特殊字元;屬性加權;內容相似度
-seo-description: 關於建議活動常見問題集 (FAQ) 的清單。
-seo-title: Recommendations 常見問題集
+seo-description: 關於Adobe Target Recommendations活動的常見問題(FAQ)清單。
+seo-title: Adobe Target Recommendations常見問答集
 solution: Target
 title: Recommendations 常見問題集
 title-outputclass: premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations 常見問題集{#recommendations-faq}
 
-關於建議活動常見問題集 (FAQ) 的清單。
+關於Adobe Target Recommendations活動的常見問題(FAQ)清單。
 
 ## 目錄中的項目更新要多久時間才會反映在網站上?
 
@@ -54,7 +54,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 建立「建議」活動時，為何不是所有條件都可供選擇，包括自訂條件?    {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 建立「建議」活動時，為何不是所有條件都可供選擇，包括自訂條件? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 可用的條件取決於目前類別。建立建議選件時，演算法選擇器會根據類別 ID 來顯示條件。
 
@@ -87,7 +87,7 @@ Target 具有[篩選不相容的條件](../../c-recommendations/plan-implement.m
 * 未從頁面上觸發任何 mbox (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Target 參數未定義。
 
-## 如果「建議」中的集合變成零 (0)，怎麼辦?    {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## 如果「建議」中的集合變成零 (0)，怎麼辦? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 如果您看到一個集合原先不是零而現在變成零，請考量下列資訊:
 
@@ -115,13 +115,13 @@ Target 具有[篩選不相容的條件](../../c-recommendations/plan-implement.m
 
 ![](assets/content_similarity_example.png)
 
-## 為何 Target 有時無法顯示建議?    {#section_DB3F40673AED42228E407C05437D99E9}
+## 為何 Target 有時無法顯示建議? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target 有時會因為可用的建議數量不夠而無法顯示建議。
 
-每個條件產生的值數量是設計中指定之實體數量的 5 倍。產生 5 倍的值之後會套用執行階段篩選 (例如、詳細目錄、mbox 屬性比對)，最後在傳送時可能會少於 5 倍的值。若要減少這種情況發生，請隱藏其他實體來增加設計中的實體數量。
+每個條件產生的值數量是設計中指定之實體數量的 3 倍。產生 3 倍的值之後會套用執行階段篩選 (例如、詳細目錄、mbox 屬性比對)，最後在傳送時可能會少於 3 倍的值。若要減少這種情況發生，請隱藏其他實體來增加設計中的實體數量。
 
-可以在設計開始時使用以下 JavaScript 來增加請求實體的數量。在此範例中，請求的實體計數為 50 (5x10)。
+可以在設計開始時使用以下 JavaScript 來增加請求實體的數量。在此範例中，請求的實體計數為 30 (3x10)。
 
 ```
 #foreach($entity in $entities) 
@@ -138,7 +138,7 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 您當然可以嘗試在單一呼叫中傳送 50,000 個產品。如果失敗，您應該將其分成幾個批次。我們通常建議客戶將其呼叫分成 5,000 或 10,000 個產品批次，以降低系統負載造成逾時的可能性。
 
-## 建立建議條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱?    {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## 建立建議條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 根據 mbox 參數建立建議條件、促銷活動或範本測試規則時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
@@ -151,11 +151,11 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 如果編輯現有條件、促銷活動或範本測試規則，則篩選條件將顯示建立期間提供的 mbox 名稱。
 
-## 定義新對象後，為何無法儲存舊版 Recommendations 活動?    {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定義新對象後，為何無法儲存舊版 Recommendations 活動? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 請確定對象有唯一的名稱。若您為對象指定了與現有對象相同的名稱，則無法儲存舊版 Recommendations 活動 (2016 年 10 月以前建立的 Recommendations 活動)。
 
-## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少?    {#section_20F1AF4839A447B9889B246D6E873538}
+## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少? {#section_20F1AF4839A447B9889B246D6E873538}
 
 摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，我們建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。「Target 限制」頁面上提供了對於所需欄長度的[其他限制](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
