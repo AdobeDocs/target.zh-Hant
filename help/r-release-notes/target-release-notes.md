@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
 
 ## Target Standard/Premium 20.1.1
 
-下一個Target版本將於2020年1月推出。 確切的日期和功能將在此公佈。
+Target Standard/Premium 20.1.1版將於2020年1月推出。 其確切日期、功能和增強功能將會在此公佈。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
