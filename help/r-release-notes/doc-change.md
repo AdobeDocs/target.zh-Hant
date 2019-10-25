@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -21,6 +21,12 @@ source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 10 月 25 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 已新增附註，說明如何區分已驗證使用者與非已驗證使用者。 |
+|  | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在「考量事項」下新增項目，說明不會評估內部mbox參數的定位。 |
+|  | [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 完全更新主題並移除過時的範例。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增附註連結至Target傳送API檔案，以協助您瞭解請求／回應的可用類型（陣列、字串等）。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增附註連結至Target傳送API檔案，以協助您瞭解請求／回應的可用類型（陣列、字串等）。 |
+|  | [網站頁面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 新增「疑難排解」區段。 |
 | 2019 年 10 月 24 日 | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 更新下列常見問答集中的文字：「為什麼Target有時候無法顯示建議？」 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增附註至影響舊版at.js（2.2.0版舊版）的已知問題。 |
 |  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已新增有關使用A4T之活動之成功度量之預設行為的附註。 |
