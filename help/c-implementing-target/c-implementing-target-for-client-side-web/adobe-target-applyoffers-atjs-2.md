@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 adobe.target.applyOffers() 函數的資訊。 '
-keywords: adobe.target.applyOffers;applyOffers;applyoffers;applyoffers;at.js;functions;function
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;函數;函數
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -27,6 +27,10 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | 回應 | 物件 | 是 | 回應來自 `getOffers()` 的物件。<br>請參閱下方的「要求」表格。 |
 
 ## 回應
+
+>[!NOTE]
+>
+>請參閱 [Delivery API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) ，以取得下列所有欄位可接受類型的相關資訊。
 
 | 欄位名稱 | 說明 |
 | --- | --- |
