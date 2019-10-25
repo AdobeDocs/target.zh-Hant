@@ -8,7 +8,7 @@ title: 疑難排解 Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -70,6 +70,7 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 * [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [鎖定目標和對象常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md)
+* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
 
 ## 內容
 
@@ -127,7 +128,7 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 ## 行動應用程式
 
 * [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
-* [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 報表
 
