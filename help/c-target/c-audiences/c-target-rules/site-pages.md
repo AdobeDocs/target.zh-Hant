@@ -1,21 +1,21 @@
 ---
 description: 定位位在某個特定頁面上的訪客或具有特定 mbox 參數的訪客。
 keywords: 網站頁面;目標網站頁面;鎖定目標;目前頁面;目標目前頁面;上一頁;目標上一頁;登陸頁面;目標登陸頁面;mbox;目標 mbox
-seo-description: 定位位在某個特定頁面上的訪客或具有特定 mbox 參數的訪客。
-seo-title: 網頁
+seo-description: 您可以使用Adobe Target定位位於特定頁面或具有特定mbox參數的訪客。
+seo-title: Adobe target中的網站頁面
 solution: Target
 title: 網頁
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # 網頁{#site-pages}
 
-定位位在某個特定頁面上的訪客或具有特定 mbox 參數的訪客。
+您可以定位位於特定頁面或具有特定mbox參數的訪客。
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 如下所示:
 
 ![](assets/site_pages.png)
+
+## 疑難排解 {#ts}
+
+* 若要讓著陸頁面對象正常運作，請求必須正確設 `mboxReferrer` 定mbox參數。 at.js javaScript程式庫會 `mboxReferrer` 使用從頁面擷取 `document.referrer`。
+
+   如果未正確設定這些參數，訪客在導覽至後續頁面後可能會離開活動。 例如，若著陸 `document.referrer` 頁面上使用了該變數，但後續頁面上未使用，則無 [!DNL Target] 法確保訪客仍留在活動中。
+
+   如果您遇到這種情況，請考慮執行下列操作之一：
+
+   * 請確定您的網站已正確 `document.referrer` 載入。
+   * 傳遞 [mbox參數](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , [!DNL Target] 以便用於定位目的。
+   * 使用 [A/B測試活動](/help/c-activities/t-test-ab/test-ab.md) ，而非著陸頁面活動。 A/B測試活動不會切換相同訪客的體驗。
+   * 請改用 [訪客資料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
 ## 訓練影片: 建立對象
 
