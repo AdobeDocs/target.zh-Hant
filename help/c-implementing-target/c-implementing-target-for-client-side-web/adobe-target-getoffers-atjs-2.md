@@ -1,6 +1,6 @@
 ---
 description: '有關適用於 at.js 的 adobe.target.getOffers() 函數的資訊。 '
-keywords: adobe.target.getOffers;getOffers;get offers;at.js;function;function
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;函數;函數
 seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
 seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers() 函數的資訊。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -28,6 +28,10 @@ source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 | timeout | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
 
 ## 請求
+
+>[!NOTE]
+>
+>請參閱 [Delivery API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) ，以取得下列所有欄位可接受類型的相關資訊。
 
 | 欄位名稱 | 必要? | 限制 | 說明 |
 | --- | --- | --- | --- |
