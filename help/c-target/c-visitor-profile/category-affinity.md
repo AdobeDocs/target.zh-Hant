@@ -8,7 +8,7 @@ title: 類別相關性
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -131,6 +131,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 第三個類別
    * 第四個類別
    * 第五個類別
+   「我的最愛類別」和「第一個類別」選項是相同的。
 
 1. 選擇評估工具:
 
