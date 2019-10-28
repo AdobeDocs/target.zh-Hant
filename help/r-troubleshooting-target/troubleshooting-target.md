@@ -2,13 +2,13 @@
 description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
 keywords: 疑難排解 target;疑難排解 target
 seo-description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
-seo-title: 疑難排解 Target
+seo-title: 疑難排解Adobe Target
 solution: Target
 title: 疑難排解 Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 * [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [鎖定目標和對象常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [網站頁面](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## 內容
 
