@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -21,7 +21,6 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019 年 10 月 25 日 | [mbox3rdPartyID 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 已新增附註，說明如何區分已驗證使用者與非已驗證使用者。 |
 |  | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在「考量事項」下新增項目，說明不會評估內部mbox參數的定位。 |
 |  | [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 完全更新主題並移除過時的範例。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增附註連結至Target傳送API檔案，以協助您瞭解請求／回應的可用類型（陣列、字串等）。 |
