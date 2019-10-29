@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 按一下&#x200B;**[!UICONTROL 「演算法使用情形」]索引標籤，即可查看參照選取條件的活動清單。**&#x200B;卡片會列出使用中和非使用中的活動。按一下「已上線活動」或「非使用中活動」下拉式清單，即可查看參照該條件的完整活動清單。您可以按一下活動連結以開啟活動並編輯。
 
 ![條件使用情形索引標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-在活動圖表中，條件卡現在會指出結果何時可就緒播放。掌握結果是否以就緒播放可協助您判斷您的活動是否已準備好啟動以推送上線。亦可協助您瞭解條件是否有任何問題。
-
->[!NOTE]
->
->如需有關載入時間的討論，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)中的「預計條件處理時間」。
-
-下圖顯示 Recommendations 活動「概覽」頁面上的活動圖表。您也可以在步驟 2 的活動建立工作流程期間，查看活動圖表，並附有條件狀態結果。
-
-![概覽頁面上的條件狀態](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-狀態結果包括下列項目: 可用結果、不可用結果、摘要失敗，如下方圖表所示:
-
-![](assets/criteria_status_multi.png)
 
