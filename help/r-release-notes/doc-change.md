@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 10 月 29 日 | [內容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 新增附註。 |
+|  | [預覽並啟動您的Recommendations活動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新主題。 |
 | 2019 年 10 月 25 日 | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在「考量事項」下新增項目，說明不會評估內部mbox參數的定位。 |
 |  | [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 完全更新主題並移除過時的範例。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增附註連結至Target傳送API檔案，以協助您瞭解請求／回應的可用類型（陣列、字串等）。 |
@@ -100,7 +101,6 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新說明分類程序需要多久才能完成的相關備註。 |
 |  | [隱私權與資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新主題，加入加州消費者隱私保護法 (CCPA) 的相關資訊。 |
 | 2019 年 8 月 6 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 Target 行動版 VEC SDK iOS 2.1.0 和 Android 1.1.0 版本的版本說明。 |
-|  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新下列章節:「預期的條件處理時間」。 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度的相關考量事項。 |
 | 2019 年 8 月 1 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增企業權限 API 支援的相關重要公告。 |
 |  | [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主題。 |
