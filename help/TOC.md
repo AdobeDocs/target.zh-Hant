@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -370,6 +370,7 @@ source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
       + [選取條件](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations 活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [預覽並啟動您的Recommendations活動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [選件形式的建議](c-recommendations/recommendations-as-an-offer.md)
    + 常見問題 {#recommendations-faq}
       + [Recommendations 常見問題集](c-recommendations/c-recommendations-faq/recommendations-faq.md)
