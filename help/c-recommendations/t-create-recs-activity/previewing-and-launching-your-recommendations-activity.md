@@ -10,7 +10,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 建立活動後，執 [!DNL Recommendations] 行演算法以產生建議。 此演算法可能需要數小時才能執行。
 
+您可以在列出標準狀態的「活動概述」圖中檢查演 [!UICONTROL 算法是否已完成] 。 The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity's [!UICONTROL Overview] page:
 
 ![「Recommendations活動概述」頁](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -36,7 +37,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 * [!UICONTROL 結果未就緒]:表示演算法尚未完成執行。
 * [!UICONTROL 摘要失敗]:指出無法擷取自訂條件饋送檔案。
 
-![結果對話框](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![結果對話框](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## 演算法需要多久才能執行？
 
@@ -48,7 +49,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定通常會導致演算法重新執行。視所做的變更而定，在重新執行完成之前，先前計算的建議可能無法使用，或對於較大的變更，只有備份或預設內容可在重新執行完成之前使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
 
-## Adobe Analytics
+### Adobe Analytics
 
 如果條件使用 [!DNL Adobe Analytics] 做為行為資料來源，建立後，條件可用時間會根據其他條件是否已使用選取的報表套裝和回顧期間而定。
 
