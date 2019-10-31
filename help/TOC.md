@@ -4,7 +4,7 @@ audience: 使用者
 user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/zh-Hant/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -120,7 +120,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
          + [mbox.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js 版本詳細資料](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
          + 瞭解全域 mbox {#global-mbox}
-            + [瞭解全域 mbox 概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+            + [瞭解全域mbox概觀](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
             + [自訂全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
             + [使用來自舊版實作的全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
             + [傳遞參數至全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
@@ -360,6 +360,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
       + [上傳自訂條件](c-recommendations/c-algorithms/recommendations-csv.md)
       + [使用動態和靜態包含規則](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [使用備份建議](c-recommendations/c-algorithms/backup-recs.md)
+      + [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + 設計 {#recommendations-design}
       + [設計概覽](c-recommendations/c-design-overview/design-overview.md)
       + [建立設計](c-recommendations/c-design-overview/create-design.md)
