@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: 從 at.js 1.*x* 升級為 at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 不需要，您不需要在呼叫 `triggerView()` 之前新增預先隱藏程式碼。at.js 2.*x* 會在顯示和套用檢視之前，處理預先隱藏和忽隱忽現的邏輯。
 
+### 這是at.js 1.*at* .js 2不支援建立觀眾的x參數。*x*? {#audience-parameters}
+
+使用at.js 2時，目前不 *支援* 下列at.js 1.x參數來建立觀眾。*x* 中的頁面載入要求:
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## at.js 相容性
 
 下表說明 at.js。2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -411,112 +424,6 @@ at.js 2.*x*，就像 at.js 1.*x*，使用自訂事件 `at-request-succeeded` 來
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-(at.js 1.*x* 參數)
-
-訪客的瀏覽器視窗高度。
-
-at.js 2.*x* JSON 裝載:
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-(at.js 1.*x* 參數)
-
-訪客的瀏覽器視窗寬度。
-
-at.js 2.*x* JSON 裝載:
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-(at.js 1.*x* 參數)
-
-時區時差。
-
-at.js 2.*x* JSON 裝載:
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-(at.js 1.*x* 參數)
-
-訪客的畫面高度。
-
-at.js 2.*x* JSON 裝載:
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-(at.js 1.*x* 參數)
-
-訪客的畫面寬度。
-
-at.js 2.*x* JSON 裝載:
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-(at.js 1.*x* 參數)
-
-訪客的畫面色彩深度。
-
-at.js 2.*x* JSON 裝載:
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 
