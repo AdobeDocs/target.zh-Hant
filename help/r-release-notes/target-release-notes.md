@@ -8,7 +8,7 @@ title: Target 版本說明 (發行前)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 ---
 
@@ -17,13 +17,19 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新: 2019 年 10 月 23 日**
+**上次更新: 2019 年 10 月 230 日**
 
 >[!NOTE]
 >
 >以下版本說明包含發行前版本的資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能相同或有所不同，端視發行的時間而定。
 >
 >括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## Target Standard/Premium 19.10.2 (2019 年 10 月 31 日)
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) 搭配多值屬性使用 | 有時，您想要使用多值欄位。 考量下列範例:<ul><li>您提供影片給使用者。 某部電影有多位演員。</li><li>你賣音樂會的票。 給定用戶有多個喜愛的樂隊。</li><li>你賣衣服。 T恤衫有多種尺寸。</li></ul>若要處理這些案例中的建議，您可以將多值資料傳遞至Target Recommendations，並使用特殊的多值運算子。 |
 
 ## Target Standard/Premium 20.1.1
 
