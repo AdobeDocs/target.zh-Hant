@@ -1,22 +1,22 @@
 ---
-description: 關於全域 mbox 的資訊，此名稱用來指稱您 Target 實作中每個網頁頂端進行的單一伺服器呼叫。
+description: 全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
 keywords: 全域 mbox;實作 mbox.js;實作 at.js
-seo-description: 關於全域 mbox 的資訊，此名稱用來指稱您 Target 實作中每個網頁頂端進行的單一伺服器呼叫。
+seo-description: 全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
 seo-title: 瞭解全域 mbox
 solution: Target
 subtopic: 快速入門
-title: 瞭解全域 mbox
+title: 瞭解全域 mbox建立設定檔屬性比較對象
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
 
 # 瞭解全域 mbox{#understand-the-global-mbox}
 
-關於全域 mbox 的資訊，此名稱用來指稱您 Target 實作中每個網頁頂端進行的單一伺服器呼叫。
+全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
 
 依預設，全域 mbox 的名稱為 [!DNL target-global-mbox]。必要的話，可以為您的帳戶來重新命名它。
 
