@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -21,7 +21,11 @@ source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019 年 10 月 30 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Premium 19.10.2（2019年10月31日）版本的資訊。 |
+| 2019 年 10 月 31 日 | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主題。 |
+|  | [從 at.js 1.*x* 升級為 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 新增區段：「哪個at.js 1.*at* .js 2不支援建立觀眾的x參數。*x*?" |
+|  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增有關新增額外空格至範本規則的已知問題。 |
+|  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Premium 19.10.2版本的資訊。 |
+| 2019 年 10 月 30 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的Target Premium 19.10.2（2019年10月31日）版本的資訊。 |
 | 2019 年 10 月 29 日 | [內容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 新增附註。 |
 |  | [預覽並啟動您的Recommendations活動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新主題。 |
 | 2019 年 10 月 25 日 | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在「考量事項」下新增項目，說明不會評估內部mbox參數的定位。 |
