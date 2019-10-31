@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 10 月 30 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Premium 19.10.2（2019年10月31日）版本的資訊。 |
 | 2019 年 10 月 29 日 | [內容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 新增附註。 |
 |  | [預覽並啟動您的Recommendations活動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新主題。 |
 | 2019 年 10 月 25 日 | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在「考量事項」下新增項目，說明不會評估內部mbox參數的定位。 |
