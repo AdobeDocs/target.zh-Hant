@@ -8,7 +8,7 @@ title: Target 版本說明 (最新)
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -18,6 +18,12 @@ source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能和修正的資訊。此外，Target API、SDK、JavaScript程式庫(at.js)的發行說明，以及其他平台變更（如適用）也會隨附。
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## Target Standard/Premium 19.10.2 (2019 年 10 月 31 日)
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Multi-value屬性 | 有時，您想要使用多值欄位。 考量下列範例:<ul><li>您提供影片給使用者。 某部電影有多位演員。</li><li>你賣音樂會的票。 給定用戶有多個喜愛的樂隊。</li><li>你賣衣服。 T恤衫有多種尺寸。</li></ul>若要處理這些案例中的建議，您可以將多值資料傳遞至Target Recommendations，並使用特殊的多值運算子。<br>如需詳細資訊，請 [參閱使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
 
 ## Target Standard/Premium 19.10.1 (2019 年 10 月 22 日)
 
