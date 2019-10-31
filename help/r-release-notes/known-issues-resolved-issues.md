@@ -8,7 +8,7 @@ title: 已知問題和已解決的問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節列出 [!DNL Target] 的已知問題:
+
+### 頁面傳送 {#page-delivery}
+
+如果您新增範本規則，例如頁面傳送中的URL包含(/checkout, /cart) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，則規則中會加上空格的前置詞。 這是一個外觀問題，不會影響觀眾定義的建立和選件的傳送。 (TGT-35916)
 
 ### 活動 QA 預覽連結 {#preview}
 
