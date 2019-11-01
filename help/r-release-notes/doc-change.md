@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -22,8 +22,8 @@ source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 10 月 31 日 | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主題。 |
-|  | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新主題。 |
-|  | [從 at.js 1.*x* 升級為 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 新增區段：「哪個at.js 1.*at* .js 2不支援建立觀眾的x參數。*x*?" |
+|  | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) |  新主題。 |
+|  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 新增區段：「哪個at.js 1.*at* .js 2不支援建立觀眾的x參數。*x*?" |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增有關新增額外空格至範本規則的已知問題。 |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Premium 19.10.2版本和Target Java SDK版本的資訊。 |
 | 2019 年 10 月 30 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的Target Premium 19.10.2（2019年10月31日）版本的資訊。 |
