@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
 
 ---
 
@@ -62,7 +62,7 @@ entity.genre=[“genre1”, “genre2”]
 
 **限制**:
 
-* 您無法對自訂實體屬性使用預先定義的實體屬性名稱(請參閱[實體屬性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F))。
+* 您無法對自訂實體屬性使用預先定義的實體屬性名稱。(請參閱[實體屬性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F))。
 * 屬性 `entity.environment` 由系統保留，並且無法用於自訂實體屬性。嘗試使用 `entity.environment`、摘要或 API 來傳遞 `targetPageParams` 會被忽略。
 * 陣列必須包含單一值類型。不支援混合值陣列 (`["AB",1,true]`)。
 * 含有巢狀 JSON 陣列 (`[10,12,[1,2,3]]`) 的多值屬性視為單值屬性。
@@ -122,13 +122,13 @@ using the Delivery and Save entities APIs.
 
 當您對演算法包含規則、目錄規則和排除規則中的多值自訂屬性套用運算子時，如果清單中至少一個值通過運算 (布林 *or*)，則結果為 *true*。
 
-在下列範例中，規則是`message contains abc`。
+在下列範例中，規則是 `message contains abc`。
 
 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有值包含 `abc`。
 
 案例 2: `entity.genre = ["abcde","de","ef"]`。結果為 true，因為某個值包含 `abc`。
 
-對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，假設運算子是`notEquals`，如果任何值相符，則結果為 *false*。
+對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，假設運算子是 `notEquals`，如果任何值相符，則結果為 *false*。
 
 請參閱下表，以瞭解演算法包含規則、目錄規則和排除規則中的運算子行為。
 
@@ -158,7 +158,7 @@ using the Delivery and Save entities APIs.
 
 在設計中將 `entity.genre=["genre1","genre2"]` 當成 `$entity<N>.genre` 來參照時，結果就是 `genre1, genre2`。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [實體屬性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
 
