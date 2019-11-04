@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年11月4日 | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新下列常見問答集下的文字：「我為何會看到警告訊息，例如'遺失選擇器的動作'?」 |
 | 2019 年 10 月 31 日 | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主題。 |
 |  | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) |  新主題。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 新增區段：「哪個at.js 1.*at* .js 2不支援建立觀眾的x參數。*x*?" |
