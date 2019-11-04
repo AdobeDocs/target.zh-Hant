@@ -8,7 +8,7 @@ subtopic: 快速入門
 title: at.js 常見問題
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -198,12 +198,14 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 }
 ```
 
-## 為何會看到警告訊息，例如「動作缺少選取器」?    {#section_C36BED5B16634361A1BA46FCB731489D}
+## 為何會看到警告訊息，例如「動作缺少選取器」? {#section_C36BED5B16634361A1BA46FCB731489D}
 
 這些訊息與 [!DNL at.js] 功能無關。[!DNL at.js] 程式庫會嘗試報告 DOM 中找不到的任何事物。
 
 如果您看到此警告訊息，以下為可能的根本原因:
 
+* 頁面是動態建立的，at.js找不到元素。
+* 使用者位於慢速網路，且at.js無法在DOM中找到選擇器。
 * 執行活動的頁面結構已變更。如果您在可視化體驗撰寫器 (VEC) 中重新開啟活動，應該會看到警告訊息。您應該更新活動，以便找到所有必要元素。
 * 基礎頁面是單頁應用程式 (SPA) 的一部分，或頁面包含的元素出現在頁面很下方，而 [!DNL at.js]「選取器輪詢機制」找不到這些元素。提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 任何點擊追蹤量度會嘗試將本身新增至每個頁面，而不論設定此量度的 URL。雖然無害，但此狀況會導致這些訊息大量出現。[!DNL at.js] 最新版本會嘗試阻擋這些訊息，但許多客戶仍然在使用舊版的 [!DNL at.js] 或 [!DNL mbox.js]。
@@ -222,7 +224,7 @@ Secure 只有在頁面是經由 HTTPS 來載入時，能透過 JavaScript 設定
 
 為確保 Target 能正確追蹤使用者，且由於 Cookie 都是在用戶端產生，Target 不會使用這兩種旗標。
 
-## at.js 觸發網路要求的頻率為何?    {#section_57C5235DF7694AF093A845D73EABADFD}
+## at.js 觸發網路要求的頻率為何? {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target 會在伺服器端執行其所有決策。這表示 at.js 會在每次頁面重新載入或叫用 at.js 公用 API 時，觸發網路要求。
 
@@ -230,7 +232,7 @@ Adobe Target 會在伺服器端執行其所有決策。這表示 at.js 會在每
 
 at.js 會試圖長時間避免預先隱藏 HTML BODY 或其他 DOM 元素，但這取決於網路條件或活動設定。at.js 提供的[設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)可用於自訂隱藏 CSS 樣式的 BODY 設定，如此一來您就可以僅預先隱藏頁面的某些部份，而不用隱藏整個 HTML BODY。期望是那些部分包含了必須「個人化」的 DOM 元素。
 
-## 在使用者符合活動資格的一般情況下，事件的序列為何?    {#section_56E6F448E901403FB77DF02F44C44452}
+## 在使用者符合活動資格的一般情況下，事件的序列為何? {#section_56E6F448E901403FB77DF02F44C44452}
 
 由於 at.js 要求為非同步 `XMLHttpRequest`，因此我們會執行下列步驟:
 
@@ -250,11 +252,11 @@ at.js 會試圖長時間避免預先隱藏 HTML BODY 或其他 DOM 元素，但�
 
 at.js 不會讓頁面無法呈現。使用者可能會注意到頁面上有一些空白區域，其代表 Target 將自訂的元素。若要套用的內容並未包含許多遠端資產 (例如 SCRIPT 或 IMG)，則所有內容皆應快速呈現。
 
-## 完全快取的頁面會如何影響上述情況? 其餘頁面內容載入後，活動內容是否更有可能明顯可見?    {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## 完全快取的頁面會如何影響上述情況? 其餘頁面內容載入後，活動內容是否更有可能明顯可見? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 若頁面快取在靠近使用者位置的 CDN 上，但不靠近 Target Edge，則使用者可能會看到一些延遲。Target Edge 在全球均勻分佈，因此大多數情況下這都不會是問題。
 
-## 是否可以顯示主圖影像，然後在短暫的延遲後進行更換?    {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## 是否可以顯示主圖影像，然後在短暫的延遲後進行更換? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 考量到下列情況:
 
