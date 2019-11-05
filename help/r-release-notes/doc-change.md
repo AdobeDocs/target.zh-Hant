@@ -8,7 +8,7 @@ title: 文件變更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 11 月 5 日 | [網站頁面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 已更新「疑難排解」區段中的文字。 |
 | 2019年11月4日 | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新下列常見問答集下的文字：「我為何會看到警告訊息，例如'遺失選擇器的動作'?」 |
 | 2019 年 10 月 31 日 | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主題。 |
 |  | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) |  新主題。 |
