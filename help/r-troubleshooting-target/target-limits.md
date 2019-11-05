@@ -8,7 +8,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
 
 ---
 
@@ -37,9 +37,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 對象名稱
 
-**上限**: 256 個字元。
-
-超過 256 個字元的值會遭截斷。
+**上限**: 255 個字元。
 
 ## 對象
 
@@ -47,7 +45,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## categoryId 參數
 
-**上限**: 250 個字元。
+**上限**: 128 個字元。
 
 ## 客戶屬性名稱
 
@@ -80,7 +78,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 體驗名稱
 
-**上限**: 20 個字元。
+**上限**: 50 個字元。
 
 ## 每個活動的體驗
 
@@ -217,8 +215,9 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 鎖定目標規則
 
-**建議的限制**: 每個鎖定目標規則 2,500 個不重複的值。
+**建議的限制**:每個定位規則值2,500個字元。
 
 **建議的限制**: 各個鎖定目標規則中每個受眾 30,000 個不重複的值。
 
 **建議的限制**: 每個活動 100,000 個不重複的鎖定目標規則值。
+
