@@ -8,7 +8,7 @@ title: 網頁
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -59,13 +59,10 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ## 疑難排解 {#ts}
 
-* 若要讓著陸頁面對象正常運作，請求必須正確設 `mboxReferrer` 定mbox參數。 at.js javaScript程式庫會 `mboxReferrer` 使用從頁面擷取 `document.referrer`。
+* 若要讓著陸頁面對象正常運作，請求必須設定 `mboxReferrer` at.js javaScript程式庫使用屬性從頁面擷取的參數(對於「傳送API `context.address.referringUrl` 」參數) `document.referrer` 。 此 `HTMLDocument` 屬性會傳回使用者已導覽之頁面的URI。 當使用者直接導覽至頁面時，此屬性的值是空的字串（不是透過連結，而是透過書籤）。
 
-   如果未正確設定這些參數，訪客在導覽至後續頁面後可能會離開活動。 例如，若著陸 `document.referrer` 頁面上使用了該變數，但後續頁面上未使用，則無 [!DNL Target] 法確保訪客仍留在活動中。
+   如果此行為不符合您的要求，請考慮執行下列其中一個動作：
 
-   如果您遇到這種情況，請考慮執行下列操作之一：
-
-   * 請確定您的網站已正確 `document.referrer` 載入。
    * 傳遞 [mbox參數](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , [!DNL Target] 以便用於定位目的。
    * 使用 [A/B測試活動](/help/c-activities/t-test-ab/test-ab.md) ，而非著陸頁面活動。 A/B測試活動不會切換相同訪客的體驗。
    * 請改用 [訪客資料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
