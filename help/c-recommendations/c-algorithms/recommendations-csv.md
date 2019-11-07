@@ -1,16 +1,10 @@
 ---
-description: 上傳 CSV 檔案來自訂您的建議。
 keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
-seo-description: 上傳 CSV 檔案來自訂您的建議。
-seo-title: 上傳自訂條件
-solution: Target
+description: 上傳 CSV 檔案來自訂您的建議。
 title: 上傳自訂條件
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
