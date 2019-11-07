@@ -1,14 +1,11 @@
 ---
-description: 從 mbox.js 移轉至 at.js 是簡單直接的程序。
 keywords: Target;at.js;移轉至 at.js;整備;稽核 at.js;整合 at.js
-seo-description: 從 mbox.js 移轉至 at.js 是簡單直接的程序。
-seo-title: 如何從 mbox.js 移轉至 at.js
-solution: Target
+description: 從 mbox.js 移轉至 at.js 是簡單直接的程序。
 title: 如何從 mbox.js 移轉至 at.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -78,7 +75,7 @@ source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
    * Ensighten
    * Tealium
    * Signal/BrightTag
-   如需詳細資訊，請參閱[at.js 整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
+   如需詳細資訊，請參閱 [at.js 整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
 
    >[!NOTE]
    >
@@ -117,4 +114,4 @@ source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
    如需如何使用代碼編輯器來執行此動作的相關資訊，請參閱[代碼編輯器](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。
 
-* 因為所有 mbox 現在非同步，它們將不會封鎖頁面呈現或在其觸發的訂單中傳回。如需詳細資訊，請參閱以下主題中的「資料收集」:  [at.js 限制](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。
+* 因為所有 mbox 現在非同步，它們將不會封鎖頁面呈現或在其觸發的訂單中傳回。如需詳細資訊，請參閱以下主題中的「資料收集」: [at.js 限制](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。
