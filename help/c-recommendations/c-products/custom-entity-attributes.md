@@ -1,16 +1,10 @@
 ---
-description: 使用單值和多值自訂實體屬性，來定義關於目錄中項目的其他資訊。
 keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
-seo-description: 使用單值和多值自訂實體屬性，來定義關於目錄中項目的其他資訊。
-seo-title: 自訂實體屬性
-solution: Target
+description: 使用單值和多值自訂實體屬性，來定義關於目錄中項目的其他資訊。
 title: 自訂實體屬性
-title-outputclass: premium
-topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
-badge: premium
 translation-type: tm+mt
-source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
