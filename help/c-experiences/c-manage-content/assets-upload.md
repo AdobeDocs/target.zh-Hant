@@ -1,14 +1,11 @@
 ---
-description: 您可以將項目新增至「影像選件」清單。
 keywords: 內容; 更新內容; 資產; 上傳內容; 上傳資產
-seo-description: 您可以將項目新增至「影像選件」清單。
-seo-title: 上傳內容
-solution: Target
+description: 您可以將項目新增至「影像選件」清單。
 title: 上傳內容
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
