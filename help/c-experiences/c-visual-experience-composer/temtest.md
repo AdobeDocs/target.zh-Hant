@@ -1,14 +1,10 @@
 ---
-description: 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
 keywords: 範本測試; 範本; 類似頁面上有相同體驗; 範本測試
-seo-description: 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
-seo-title: 在類似頁面上包含相同體驗
-solution: Target
+description: 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
 title: 在類似頁面上包含相同體驗
-topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
