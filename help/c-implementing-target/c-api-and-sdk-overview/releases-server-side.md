@@ -1,13 +1,10 @@
 ---
-description: 與Adobe Target伺服器端API和SDK相關的發行說明
 keywords: at.js;api;release;updates;apis;sdks；伺服器端；伺服器端；api;delivery api
-seo-description: 與Adobe Target伺服器端API相關的發行說明。
-seo-title: 與Adobe Target伺服器端API相關的發行說明。
-solution: Target
-title: 發行說明——目標伺服器端API
+description: 與Adobe Target伺服器端API相關的發行說明。
+title: 與Adobe Target伺服器端API相關的發行說明。
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
