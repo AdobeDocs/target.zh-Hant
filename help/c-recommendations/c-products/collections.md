@@ -1,16 +1,10 @@
 ---
-description: 集合是符合建議資格的一組產品或項目。
 keywords: 集合;鎖定目標
-seo-description: 系列是Adobe Target中符合建議資格的一組產品或項目。
-seo-title: Adobe target中的系列
-solution: Target
-title: 集合
-title-outputclass: premium
-topic: Premium
+description: 集合是 Adobe Target 中符合建議資格的一組產品或項目。
+title: Adobe Target 中的集合
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +17,7 @@ source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 請使用集合以在邏輯分組中組織產品。例如，如果某些項目在一個區域中銷售，但在另一個區域中沒有上市，您可能需要建立集合來排除未於訪客區域銷售的項目。您也可以使用集合來組織季節性項目，或使用業務上適合的任何其他組織參數。
 
-The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. 集合可讓您確保只顯示必須出現在位置中的產品。
+針對建議內每個條件而產生的[備用建議](/help/c-recommendations/c-algorithms/backup-recs.md)也會使用此集合，因此，只有集合中的項目才會納入備用建議中。集合可讓您確保只顯示必須出現在位置中的產品。
 
 每個條件每次執行時皆會重建或更新集合。
 
@@ -43,7 +37,7 @@ The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md
 
 1. 依序按下&#x200B;**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 集合」]**，即可顯示現有集合清單。
 
-   ![系列清單](assets/collections_list.png)
+   ![集合清單](assets/collections_list.png)
 
    [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
 
@@ -65,11 +59,11 @@ The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 使用進階搜尋建立系列
+## 使用進階搜尋建立集合
 
-You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+您也可以使用[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md)頁面上的進階搜尋 ([!UICONTROL Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋])，以建立集合。
 
-![另存為](/help/c-recommendations/c-products/assets/save-as.png)
+![另存新檔](/help/c-recommendations/c-products/assets/save-as.png)
 
 例如，使用 "id &gt; contains" 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合」]。
 
@@ -77,11 +71,11 @@ You can also create collections using Advanced Search on the [Catalog Search](/h
 >
 >「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立集合時，務必注意大小寫。例如，如果您執行 "Holiday" 的搜尋，初始的搜尋清單結果會包含 "Holiday" 和 "holiday"。如果您之後建立一個目錄，目的要傳回包含 "holiday" 的產品，則只會傳回包含 "holiday" 的產品。不會傳回包含 "Holiday" 的產品。
 
-## 訓練影片：在Recommendations中建立系列和排除(7:05)
+## 訓練影片: 在 Recommendations 中建立集合和排除 (7:05)
 
-此影片包含下列資訊：
+此影片包含下列資訊:
 
-* 建立系列
-* 建立排除
+* 建立集合
+* 建立排除項目
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=chi_hant)
