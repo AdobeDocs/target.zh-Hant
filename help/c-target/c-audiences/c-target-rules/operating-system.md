@@ -1,14 +1,11 @@
 ---
-description: 您可以鎖定使用某個作業系統的訪客。
 keywords: 鎖定目標;目標作業系統;作業系統;目標 os;os;目標 linux;linux;目標 windows;windows;目標 macintosh;macintosh;mac;目標 mac;win;目標 win
-seo-description: 您可以鎖定使用某個作業系統的訪客。
-seo-title: '作業系統 '
-solution: Target
+description: 您可以鎖定使用某個作業系統的訪客。
 title: '作業系統 '
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
