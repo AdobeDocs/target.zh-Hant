@@ -1,15 +1,10 @@
 ---
-description: 特製的報表可供自動個人化的使用者使用。
 keywords: 鎖定目標;AP 報表;自動個人化報表;活動層級報表;選件層級報表;選件詳細資料報表
-seo-description: 特製的報表可供自動個人化的使用者使用。
-seo-title: 自動個人化摘要報表
-solution: Target
+description: 特製的報表可供自動個人化的使用者使用。
 title: 自動個人化摘要報表
-title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
