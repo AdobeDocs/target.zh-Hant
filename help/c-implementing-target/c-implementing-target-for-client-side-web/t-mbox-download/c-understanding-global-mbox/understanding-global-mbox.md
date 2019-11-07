@@ -1,15 +1,12 @@
 ---
-description: 全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
 keywords: 全域 mbox;實作 mbox.js;實作 at.js
-seo-description: 全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
-seo-title: 瞭解全域 mbox
-solution: Target
+description: 全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
+title: 瞭解全域 mbox
 subtopic: 快速入門
-title: 瞭解全域 mbox建立設定檔屬性比較對象
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
