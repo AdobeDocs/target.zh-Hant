@@ -1,14 +1,11 @@
 ---
-description: 關於訪客如何可以隨著其設定檔的演進，在體驗鎖定目標 (XT) 活動中的體驗之間切換的資訊。
 keywords: 優先順序; 體驗建立; 體驗; 對象; 切換體驗; 可視化體驗撰寫器
-seo-description: 關於訪客如何可以隨著其設定檔的演進，在體驗鎖定目標 (XT) 活動中的體驗之間切換的資訊。
-seo-title: 切換體驗鎖定目標中的體驗
-solution: Target
+description: 關於訪客如何可以隨著其設定檔的演進，在體驗鎖定目標 (XT) 活動中的體驗之間切換的資訊。
 title: 切換體驗鎖定目標中的體驗
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
