@@ -1,14 +1,10 @@
 ---
 description: 在自動個人化活動中，您可以將選件鎖定在特定對象。
-seo-description: 在自動個人化活動中，您可以將選件鎖定在特定對象。
-seo-title: 鎖定自動個人化選件
-solution: Target、Analytics
 title: 鎖定自動個人化選件
-title-outputclass: premium
+solution: Target、Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
