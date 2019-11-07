@@ -1,15 +1,12 @@
 ---
-description: 可協助您在使用 Analytics 做為報表來源時最小化膨脹後造訪和訪客計數影響的資訊。
 keywords: 部分資料;A4T;差異;analytics for target;孤立;虛擬報表套裝;虛設項目;疑難排解;未拼接;膨脹;未指定
-seo-description: 可協助您在使用 Analytics 做為報表來源時最小化膨脹後造訪和訪客計數影響的資訊。
-seo-title: 在 A4T 中將膨脹的造訪和訪客計數減到最少
-solution: Target
-subtopic: 多變數測試
+description: 可協助您在使用 Analytics 做為報表來源時最小化膨脹後造訪和訪客計數影響的資訊。
 title: 在 A4T 中將膨脹的造訪和訪客計數減到最少
+subtopic: 多變數測試
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -61,7 +58,7 @@ Adobe 對於自己的資料準確性和品質感到自豪。觸發 [!DNL Target]
 | ![步驟 1](assets/step1_icon.png) | 確定在 [!DNL Target] 中選取的報表套裝與將呈現活動所在位置頁面上的相同。 |
 | ![步驟 2](assets/step2_icon.png) | 確保 visitorAPI.js、appMeasurement.js、at.js / mbox.js 資料庫都採用 A4T 相容的版本。若要進一步瞭解實作需求，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)。 |
 | ![步驟 3](assets/step3_icon.png) | 檢查以確定已在離開頁面的所有 [!DNL Target] 和 [!DNL Analytics] 呼叫上設定 SDID，並且它們相符。<br/>使用網路分析器或偵錯工具來執行此動作，以確保 `mboxMCSDID` 呼叫上的 [!DNL Target] 參數符合 [!DNL Analytics] 呼叫中的 SDID 參數。 |
-| ![步驟 4](assets/step4_icon.png) | 確認實作資料庫在您的網站上以正確的順序載入網站。如需詳細資訊，請參閱[Analytics 用於 Target 的實作](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
+| ![步驟 4](assets/step4_icon.png) | 確認實作資料庫在您的網站上以正確的順序載入網站。如需詳細資訊，請參閱 [Analytics 用於 Target 的實作](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
 
 ## 我如何知道我有多少部分資料? {#section_89B663E2824A4805AB934153508A0F4B}
 
