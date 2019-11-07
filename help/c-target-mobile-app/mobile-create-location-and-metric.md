@@ -1,13 +1,11 @@
 ---
-description: 若要在您的行動應用程式中使用 Target，請建立位置和成功量度。
 keywords: 行動應用程式;行動應用程式位置;target mobile 應用程式;mobile target 位置;行動應用程式成功量度
-seo-description: 若要在您的行動應用程式中使用 Target，請建立位置和成功量度。
-seo-title: iOS - 建立 Target 位置和成功量度
+description: 若要在您的行動應用程式中使用 Target，請建立位置和成功量度。
 title: iOS - 建立 Target 位置和成功量度
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
