@@ -1,14 +1,10 @@
 ---
-description: 您可以對資料庫中的資產執行許多工作。
 keywords: 內容資料庫; 資產; 注釋; 複製; 刪除資產; 下載資產; 編輯內容; 共用卡片; 檢視內容屬性
-seo-description: 您可以對資料庫中的資產執行許多工作。
-seo-title: 使用程式庫中的內容
-solution: Target
+description: 您可以對資料庫中的資產執行許多工作。
 title: 使用程式庫中的內容
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
