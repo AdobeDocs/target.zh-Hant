@@ -1,12 +1,10 @@
 ---
-description: Adobe 動態標籤管理 (DTM) 為 Adobe 的舊版標籤管理程式。
 keywords: 實作;標籤管理程式;dtm;at.js;動態標籤管理
-seo-description: Adobe 動態標籤管理 (DTM) 為 Adobe 的舊版標籤管理程式。
-seo-title: 使用動態標籤管理 (DTM) 實作 Target
+description: Adobe 動態標籤管理 (DTM) 為 Adobe 的舊版標籤管理程式。
 title: 使用動態標籤管理 (DTM) 實作 Target
 uuid: 27374cb5-a700-4c50-a36e-e575f35b74e6
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
