@@ -1,14 +1,10 @@
 ---
-description: 依關鍵字搜尋資產並儲存搜尋資料夾 (稱為使用搜尋結果自動更新的智慧型收集)。
 keywords: 內容資料庫; 資產; 搜尋; 智慧型集合; 搜尋資料夾; 篩選條件
-seo-description: 依關鍵字搜尋資產並儲存搜尋資料夾 (稱為使用搜尋結果自動更新的智慧型收集)。
-seo-title: 搜尋內容和建立智慧型收集
-solution: Target
+description: 依關鍵字搜尋資產並儲存搜尋資料夾 (稱為使用搜尋結果自動更新的智慧型收集)。
 title: 搜尋內容和建立智慧型收集
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
