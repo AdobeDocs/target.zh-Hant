@@ -1,15 +1,12 @@
 ---
-description: 如何解讀自動鎖定目標摘要報表的相關資訊。
 keywords: 報表;自動鎖定目標;AT
-seo-description: 如何解讀自動鎖定目標摘要報表的相關資訊。
-seo-title: 自動鎖定目標摘要報表
-solution: Target
-subtopic: 多變數測試
+description: 如何解讀自動鎖定目標摘要報表的相關資訊。
 title: 自動鎖定目標摘要報表
+subtopic: 多變數測試
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
