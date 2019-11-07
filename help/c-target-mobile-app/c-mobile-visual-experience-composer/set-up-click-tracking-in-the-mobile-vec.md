@@ -1,14 +1,11 @@
 ---
-description: 行動版可視化體驗撰寫器 (VEC) 支援設定 Target 活動的點擊追蹤目標。
 keywords: 行動應用程式 VEC;行動版可視化體驗撰寫器;行動版體驗撰寫器選項;行動體驗選項;目標檢視;點按;點擊追蹤;追蹤
-seo-description: 行動版可視化體驗撰寫器 (VEC) 支援設定 Adobe Target 活動的點擊追蹤目標。
-seo-title: 在行動應用程式 VEC 中設定點擊追蹤
-solution: Target
+description: 行動版可視化體驗撰寫器 (VEC) 支援設定 Adobe Target 活動的點擊追蹤目標。
 title: 在行動應用程式 VEC 中設定點擊追蹤
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -50,7 +47,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 * 在行動應用程式 VEC 中，只能選取已附加點按處理常式的元素。
 * 您可以瀏覽至應用程式的任何區段，但請確定已為您選取以進行點擊追蹤的元素區段定義[檢視](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views)。
 * 編輯活動時，若已在步驟 1 中選取裝置，則無需再次選取裝置。但是，若直接登陸點擊追蹤頁面，您會看到可選取授權裝置的裝置選取畫面。
-* 「修改」面板會顯示在「行動應用程式VEC」中，顯示您為點按追蹤設定的元素。
+* 顯示於應用程式 VEC 中的修改面板，顯示您已針對點擊追蹤所設定的元素。
 
-   ![顯示點按追蹤的修改面板
+   ![顯示點擊追蹤的修改面板
    ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
