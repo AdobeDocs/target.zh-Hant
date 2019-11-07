@@ -1,14 +1,11 @@
 ---
-description: '有關適用於 at.js 的自訂事件的資訊。 '
-keywords: 自定義事件；at.js；請求失敗；請求成功；內容呈現失敗；內容呈現成功；庫載入；請求開始；內容呈現開始；內容呈現無選件；內容呈現重新顯示
-seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
-seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
-solution: Target
+keywords: 自訂事件;at.js;要求失敗;要求成功;內容呈現失敗;內容呈現成功;資料庫已載入;要求開始;內容呈現開始;內容呈現無選件;內容呈現重新導向
+description: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
+title: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
 subtopic: 快速入門
-title: at.js 自訂事件
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -49,6 +46,6 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 
 ## 訓練影片: 回應 Token 和 at.js 自訂事件 {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
-觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件以共用從 Target 到第三方系統的設定檔資訊。
+觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hant)
