@@ -1,17 +1,11 @@
 ---
-description: 關於新增使用者至您的 Target 實作; 建立工作區、使用者群組和屬性; 更新您的 Target 實作以包括 at_property 參數; 以及指定角色和權限所需工作的資訊。
 keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬性; 屬性; at_property; 角色; 權限
-seo-description: 關於新增使用者至您的 Adobe Target 實作; 建立工作區、使用者群組和屬性; 更新您的 Target 實作以包括 at_property 參數; 以及指定角色和權限所需工作的資訊。
-seo-title: 設定企業權限
-solution: Target
-subtopic: 快速入門
+description: 關於新增使用者至您的 Adobe Target 實作; 建立工作區、使用者群組和屬性; 更新您的 Target 實作以包括 at_property 參數; 以及指定角色和權限所需工作的資訊。
 title: 設定企業權限
-title-outputclass: premium
-topic: Premium
+subtopic: 快速入門
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -169,7 +163,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
       ![](assets/property_token_3.png)
 
-      如需關於如何對 at.js 執行此動作的資訊，請參閱[targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
+      如需關於如何對 at.js 執行此動作的資訊，請參閱 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
 ## 步驟 6: 指定角色和權限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
