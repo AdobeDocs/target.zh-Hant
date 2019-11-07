@@ -1,14 +1,11 @@
 ---
-description: '有關適用於 at.js 的 adobe.target.trackEvent(options) 函數的資訊。 '
-keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
-seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
-seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
-solution: Target
+keywords: adobe.target.trackEvent;trackEvent;trackevent;追蹤事件;at.js;函數;函數;preventDefault;preventdefault;防止預設
+description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
+title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
 subtopic: 快速入門
-title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -17,7 +14,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 此函數會觸發要求以報告使用者動作，例如點擊和轉換。它不會在回應中傳遞活動。
 
-然後這些事件追蹤 mbox 呼叫可以用來定義活動中的量度。For more information, see Success Metrics and Track Conversions.[](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)[](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
+然後這些事件追蹤 mbox 呼叫可以用來定義活動中的量度。如需詳細資訊，請參閱[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)和[追蹤轉換](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
 
 以下是 API 詳細資料:
 
