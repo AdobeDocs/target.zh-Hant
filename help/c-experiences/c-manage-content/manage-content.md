@@ -1,13 +1,10 @@
 ---
-description: 使用選件資料庫來管理您的代碼選件和影像選件內容。
 keywords: 內容; 資產; 管理內容; 選件; 管理資產; 進入選擇模式; 選擇模式
-seo-description: 使用選件資料庫來管理您的代碼選件和影像選件內容。
-seo-title: 選件
-solution: Target
+description: 使用選件資料庫來管理您的代碼選件和影像選件內容。
 title: 選件
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
