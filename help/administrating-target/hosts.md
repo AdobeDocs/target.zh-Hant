@@ -1,14 +1,11 @@
 ---
-description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 keywords: 主機; 主機群組; 環境; 疑難排解; 最佳作法
-seo-description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
-seo-title: 主機
-solution: Target
+description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
