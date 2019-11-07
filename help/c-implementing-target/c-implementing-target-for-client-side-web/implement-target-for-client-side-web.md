@@ -1,13 +1,10 @@
 ---
-description: 有關為用戶端 Web 實作 Target 的資訊。
-seo-description: 有關為用戶端 Web 實作 Adobe Target 的資訊。
-seo-title: 為用戶端 Web 實作 Adobe Target
-solution: Target
-title: 概覽 - 為用戶端 Web 實作 Target
+description: 有關為用戶端 Web 實作 Adobe Target 的資訊。
+title: 為用戶端 Web 實作 Adobe Target
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
