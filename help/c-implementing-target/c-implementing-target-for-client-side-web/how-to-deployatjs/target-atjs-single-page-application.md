@@ -1,14 +1,11 @@
 ---
-description: 使用 at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
-keywords: 單頁應用程式實作;實作單頁應用程式;spa;at.js 2.x;at.js;單一頁面應用程式;單一頁面應用程式;Spa;SPA
-seo-description: 使用 Adobe Target at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
-seo-title: Adobe Target 中的實作單一頁面應用程式
-solution: Target
-title: 實作單頁應用程式
+keywords: 單頁應用程式實施；實施單頁應用程式；spa;at.js 2.x;at.js；單頁應用程式；單頁應用程式；spa;SPA
+description: 使用 Adobe Target at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
+title: Adobe Target 中的實作單一頁面應用程式
 topic: 標準
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
