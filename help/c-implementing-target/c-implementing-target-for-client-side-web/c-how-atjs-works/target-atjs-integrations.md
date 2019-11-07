@@ -1,14 +1,11 @@
 ---
-description: 關於與 Target 的常見整合和其對 at.js 支援狀態的資訊。
 keywords: at.js 整合;支援的整合;不支援的整合;第三方整合
-seo-description: 關於與 Target 的常見整合和其對 at.js 支援狀態的資訊。
-seo-title: at.js 整合
-solution: Target
+description: 關於與 Target 的常見整合和其對 at.js 支援狀態的資訊。
 title: at.js 整合
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
