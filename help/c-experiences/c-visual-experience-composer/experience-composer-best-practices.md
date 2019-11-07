@@ -1,14 +1,11 @@
 ---
-description: 下列最佳作法可協助讓您的體驗如預期般運作。使用可視化體驗撰寫器 (VEC) 時，還有其他您應該注意的提示和限制。
 keywords: 可視化體驗撰寫器; 可視化體驗撰寫器最佳作法; 可視化體驗撰寫器限制; 可視化體驗撰寫器警告; VEC 最佳作法; VEC
-seo-description: 下列最佳作法可協助讓您的體驗如預期般運作。使用可視化體驗撰寫器 (VEC) 時，還有其他您應該注意的提示和限制。
-seo-title: 可視化體驗撰寫器最佳作法和限制
-solution: Target
+description: 下列最佳作法可協助讓您的體驗如預期般運作。使用可視化體驗撰寫器 (VEC) 時，還有其他您應該注意的提示和限制。
 title: 可視化體驗撰寫器最佳作法和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
