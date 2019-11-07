@@ -1,15 +1,12 @@
 ---
-description: Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本。
 keywords: 實作;Mbox;mbox.js;下載 mbox.js;設定 mbox.js
-seo-description: Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本。
-seo-title: 下載 mbox.js
-solution: Target
-subtopic: 快速入門
+description: Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本。
 title: 下載 mbox.js
+subtopic: 快速入門
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
