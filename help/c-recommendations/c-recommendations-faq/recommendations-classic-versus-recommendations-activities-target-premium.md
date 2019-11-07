@@ -1,16 +1,10 @@
 ---
-description: 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
 keywords: 建議;建議演算法;recommendations 活動;recommendations classic
-seo-description: 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
-seo-title: Target Premium 中的 Recommendations 傳統版與 Recommendations 活動的比較
-solution: Target
+description: 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
 title: Target Premium 中的 Recommendations 傳統版與 Recommendations 活動的比較
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
