@@ -1,14 +1,10 @@
 ---
-description: 您可以直接在 HTML 或 JSON 選件上顯示設定檔值和活動資訊。
 keywords: 動態資料;資產;資料;選件;個人化選件;個人化選件;token 取代
-seo-description: 您可以直接在 HTML 或 JSON 選件上顯示設定檔值和活動資訊。
-seo-title: 將動態資料傳遞至選件
-solution: Target
+description: 您可以直接在 HTML 或 JSON 選件上顯示設定檔值和活動資訊。
 title: 將動態資料傳遞至選件
-topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
