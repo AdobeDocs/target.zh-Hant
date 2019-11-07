@@ -1,14 +1,11 @@
 ---
-description: 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 keywords: 自動流量分配;鎖定目標;增加計數並讓使用者留在活動中;流量分配
-seo-description: 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
-seo-title: 自動分配
-solution: Target
+description: 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -44,7 +41,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 ## 自動分配與 A//B 或 自動個人化的使用時機 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 當您想要從一開始便最佳化活動，並盡快識別勝出體驗時，請使用&#x200B;**自動分配**。更常提供表現優異的體驗可增進整體活動效能。
-* 當您想要在最化佳網站之前查明所有活動的效能時，請使用標準&#x200B;**[A//B 測試](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。A/B 測試有助於您將所有體驗排名，而自動流量分配會找出最佳表現者，但不保證較差表現者之間的差異性。
+* 當您想要在最化佳網站之前查明所有活動的效能時，請使用標準&#x200B;**[A/B 測試](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。A/B 測試有助於您將所有體驗排名，而自動流量分配會找出最佳表現者，但不保證較差表現者之間的差異性。
 * 使用[當您想要將最複雜的演算法最佳化時可以使用自動個人化](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)，例如根據個人設定檔屬性建立預測的機器學習模型。自動流量分配會考慮體驗的整體行為 (如同標準 A/B 測試)，不會區別訪客。
 
 ## 主要優點 {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -171,7 +168,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 **使用自動分配時，我可以利用樣本大小計算機來預估活動識別出獲勝者所需的時間嗎?**
 
-您可以利用現有的[樣本大小計算機](https://docs.adobe.com/content/target-microsite/testcalculator.html)，並適當套用 Bonferroni 校正，以取得測試執行時間長短的預估值。Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you. 電腦可粗略估計所需的樣本大小。 在我們的範例中，已看到自動分配活動遠比此樣本大小更早結束。
+您可以利用現有的[樣本大小計算機](https://docs.adobe.com/content/target-microsite/testcalculator.html)，並適當套用 Bonferroni 校正，以取得測試執行時間長短的預估值。使用自動分配活動的計算器是可選的，因為自動分配將為您聲明一個成功者。 電腦可粗略估計所需的樣本大小。 在我們的範例中，已看到自動分配活動遠比此樣本大小更早結束。
 
 **是否應從自動分配活動中移除表現欠佳的體驗，以加速決定獲勝者的程序?**
 
