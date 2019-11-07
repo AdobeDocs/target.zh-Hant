@@ -1,14 +1,11 @@
 ---
-description: 下載說明 Adobe Target 中 (Recommendations 除外) 不同活動類型的互動式 PDF。
 keywords: 活動指南; 活動; 活動; 活動類型; 活動動作
-seo-description: 下載說明 Adobe Target 中 (Recommendations 除外) 不同活動類型的互動式 PDF。
-seo-title: Target 活動類型
-solution: Target
+description: 下載說明 Adobe Target 中 (Recommendations 除外) 不同活動類型的互動式 PDF。
 title: Target 活動類型
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
