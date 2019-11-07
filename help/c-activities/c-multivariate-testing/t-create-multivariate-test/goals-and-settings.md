@@ -1,14 +1,11 @@
 ---
-description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 keywords: 活動設定;mvt目標和設定;多元化目標和設定;報表設定;目標量度;成功度量;相依成功量度;進階設定;主要目標;其他量度;目標;優先順序;期間;報告解決方案;目標;報表的對象;在遞增此量度之前必須先達到的成功量度;使用者遇到此目標量度後會發生什麼情況;說明
-seo-description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
-seo-title: 目標與設定
-solution: Target
+description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 title: 目標與設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
