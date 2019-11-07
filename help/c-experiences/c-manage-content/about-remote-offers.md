@@ -1,14 +1,11 @@
 ---
-description: 使用遠端選件來主控 Target 所參考且位於 Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
 keywords: 遠端選件; 遠端選件選取矩陣; 快取內容; 動態內容
-seo-description: 使用遠端選件來主控 Target 所參考且位於 Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
-seo-title: 建立遠端選件
-solution: Target
+description: 使用遠端選件來主控 Target 所參考且位於 Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
 title: 建立遠端選件
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
