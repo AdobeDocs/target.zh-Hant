@@ -1,13 +1,11 @@
 ---
-description: 您可以以名稱值組的方式將關於位置或使用者的其他資訊傳送至 Target。
 keywords: 行動應用程式;行動應用程式傳送資料;target 行動應用程式;行動自訂使用者資料;行動應用程式自訂資料
-seo-description: 您可以以名稱值組的方式將關於位置或使用者的其他資訊傳送至 Target。
-seo-title: iOS - 傳送自訂使用者資料
+description: 您可以以名稱值組的方式將關於位置或使用者的其他資訊傳送至 Target。
 title: iOS - 傳送自訂使用者資料
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
