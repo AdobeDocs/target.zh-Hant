@@ -1,15 +1,12 @@
 ---
-description: 關於您可以用來將資料放入 Target 的各種方法的資訊，包括頁面參數、頁面內設定檔屬性、指令碼設定檔屬性、資料提供者、大量設定檔更新 API、單一設定檔更新 AP 和客戶屬性。
 keywords: 實作; 設定; 頁面參數; tomcat; URL 編碼; 頁面內設定檔屬性; mbox 參數; 指令碼設定檔屬性; 大量設定檔更新 API; 單一檔案更新 API; 客戶屬性; 資料提供者
-seo-description: 關於您可以用來將資料放入 Target 的各種方法的資訊，包括頁面參數、頁面內設定檔屬性、指令碼設定檔屬性、資料提供者、大量設定檔更新 API、單一設定檔更新 AP 和客戶屬性。
-seo-title: 將資料傳入 Target 的方法
-solution: Target
-subtopic: 快速入門
+description: 關於您可以用來將資料放入 Target 的各種方法的資訊，包括頁面參數、頁面內設定檔屬性、指令碼設定檔屬性、資料提供者、大量設定檔更新 API、單一設定檔更新 AP 和客戶屬性。
 title: 將資料傳入 Target 的方法
+subtopic: 快速入門
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
