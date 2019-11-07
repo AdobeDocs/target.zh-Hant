@@ -1,11 +1,9 @@
 ---
 description: 在 Adobe Target 中使用可視化體驗撰寫器 (VEC)，建立您要包含在多變數測試 (MVT) 中的選件。
-seo-description: 在 Adobe Target 中使用可視化體驗撰寫器 (VEC)，建立您要包含在多變數測試 (MVT) 中的選件。
-seo-title: 使用 Adobe Target 在多變數測試 (MVT) 中建立組合
-title: 建立組合
+title: 使用 Adobe Target 在多變數測試 (MVT) 中建立組合
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -60,7 +58,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 建立多變數測試時，若您認可之後必須使用離線報表進行分析的警告，您現在可以從測試排除超過 10% 的體驗。
 * 利用預覽功能來避免不需要的內容組合。例如，您可能有兩個影像在相同件商品或服務上提供不同的折扣。在相同個頁面上同時顯示這些影像不合邏輯，很可能造成混淆。
 * 使用流量估算程式來確定您的測試是針對頁面所接收的流量而設計。確定流量估算程式對您的測試組態指示綠燈，使得您可以取得所需的結果。
-* 您必須至少測試三個元素。如果少於這個數目，請執行一系列的A/B 測試。
+* 您必須至少測試三個元素。如果少於這個數目，請執行一系列的 A/B 測試。
 * 建議您每個元素的替代項目之間必須有大幅差異。
 * 雖非必要，但每個元素最好有相同的替代項數量。
 
