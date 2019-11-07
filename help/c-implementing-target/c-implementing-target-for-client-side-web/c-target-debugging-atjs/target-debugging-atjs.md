@@ -1,13 +1,11 @@
 ---
-description: 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
 keywords: at.js;除錯 at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox 醒目提示
-seo-description: 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
-seo-title: 使用 Adobe Experience Cloud Debugger 除錯 at.js
+description: 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
 title: 使用 Adobe Experience Cloud Debugger 除錯 at.js
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
