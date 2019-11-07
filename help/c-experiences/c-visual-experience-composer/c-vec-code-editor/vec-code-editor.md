@@ -1,15 +1,12 @@
 ---
-description: 修改頁面的相關資訊，可讓您查看頁面修改內容及新增額外修改內容 (CSS 選取器、Mbox 及自訂程式碼)。
 keywords: CSS 選取器; 自訂程式碼; 程式碼編輯器; Mobile Web Experience Editor
-seo-description: 修改頁面的相關資訊，可讓您查看頁面修改內容及新增額外修改內容 (CSS 選取器、Mbox 及自訂程式碼)。
-seo-title: 修改
-solution: Target
-subtopic: 代碼編輯器
+description: 修改頁面的相關資訊，可讓您查看頁面修改內容及新增額外修改內容 (CSS 選取器、Mbox 及自訂程式碼)。
 title: 修改
+subtopic: 代碼編輯器
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
