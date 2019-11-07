@@ -1,13 +1,10 @@
 ---
 description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
-seo-description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
-seo-title: 多變數測試的預覽體驗
-solution: Target
 title: 多變數測試的預覽體驗
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
