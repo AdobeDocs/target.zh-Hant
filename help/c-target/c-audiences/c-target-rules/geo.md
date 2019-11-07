@@ -1,14 +1,12 @@
 ---
-description: 根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者來鎖定使用者。
 keywords: 鎖定目標;a4t;地理;地理鎖定目標;地理鎖定目標準確度;國家;州;城市;郵遞區號;dma;行動電信業者;城市碼;區域碼;都市碼;設定檔指令碼;地理鎖定目標設定檔指令碼;地理鎖定目標行動
-seo-description: 根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者，使用 Adobe Target 受眾來鎖定使用者。
-seo-title: 地理
+description: 根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者，使用 Adobe Target 受眾來鎖定使用者。
+title: 地理
 solution: Target、Analytics
-title: 地理 Adobe Target 中的鎖定目標
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
