@@ -1,13 +1,10 @@
 ---
-description: 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
 keywords: 鎖定目標; 體驗鎖定目標; XT; 登陸頁面; 登陸頁面促銷活動
-seo-description: 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
-seo-title: 體驗鎖定目標
-solution: Target
+description: 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
 title: 體驗鎖定目標
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
