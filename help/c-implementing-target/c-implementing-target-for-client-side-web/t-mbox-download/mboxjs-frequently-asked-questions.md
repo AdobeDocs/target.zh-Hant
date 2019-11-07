@@ -1,14 +1,11 @@
 ---
-description: 關於 mbox.js 常見問題的回答。
 keywords: mbox.js faq;mbox.js 常見問題集;document.write;tt.omtrdc.net;剖析器封鎖
-seo-description: 關於 mbox.js 常見問題的回答。
-seo-title: mbox.js 常見問題
-solution: Target
-subtopic: 快速入門
+description: 關於 mbox.js 常見問題的回答。
 title: mbox.js 常見問題
+subtopic: 快速入門
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
