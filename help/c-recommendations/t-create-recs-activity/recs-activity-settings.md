@@ -1,17 +1,11 @@
 ---
-description: 有數個設定可用來說明和控制建議活動。
 keywords: Recommendations;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
-seo-description: Adobe Target 中有數個設定可用來說明和控制建議活動。
-seo-title: Adobe Target 中的 Recommendations 活動設定
-solution: Target
-subtopic: 建議
-title: Recommendations 活動設定
-title-outputclass: premium
-topic: Premium
+description: Adobe Target 中有數個設定可用來說明和控制建議活動。
+title: Adobe Target 中的 Recommendations 活動設定
+subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
