@@ -1,16 +1,10 @@
 ---
-description: 因為 Automated Personalization 活動會比較頁面上的多個選件，使用每個體驗預覽頁面很有幫助。
 keywords: Recommendations
-seo-description: 因為 Automated Personalization (AP) 活動會比較頁面上的多個選件，使用每個體驗預覽頁面會很有幫助。
-seo-title: 在 Adobe Target 可視化體驗撰寫器中預覽 Automated Personalization (AP) 活動的體驗
-solution: Target
-title: 可視化體驗撰寫器中自動個人化的預覽體驗
-title-outputclass: premium
-topic: Premium
+description: 因為 Automated Personalization (AP) 活動會比較頁面上的多個選件，使用每個體驗預覽頁面會很有幫助。
+title: 在 Adobe Target 可視化體驗撰寫器中預覽 Automated Personalization (AP) 活動的體驗
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
