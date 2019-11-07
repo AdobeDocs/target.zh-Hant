@@ -1,16 +1,10 @@
 ---
-description: Adobe Target 會自動收集和使用各種資料，在 Automated Personalization (AP) 和自動鎖定目標 (AT) 活動中建置其個人化演算法。當訪客進入 AP 或 AT 活動時，將會傳送資訊的快照至一組「訓練記錄」(個人化演算法將學習的訪客資料)。
 keywords: 環境資料;工作階段資料;地理資料;地理位置資料;裝置資料;行動資料;屬性;設定檔屬性
-seo-description: Adobe Target 會自動收集和使用各種資料，在 Automated Personalization (AP) 和自動鎖定目標 (AT) 活動中建置其個人化演算法。當訪客進入 AP 或 AT 活動時，將會傳送資訊的快照至一組「訓練記錄」(個人化演算法將學習的訪客資料)。
-seo-title: Adobe Target 個人化演算法的資料收集
-solution: Target
-title: Target 個人化演算法的資料收集
-title-outputclass: premium
-topic: Premium
+description: Adobe Target 會自動收集和使用各種資料，在 Automated Personalization (AP) 和自動鎖定目標 (AT) 活動中建置其個人化演算法。當訪客進入 AP 或 AT 活動時，將會傳送資訊的快照至一組「訓練記錄」(個人化演算法將學習的訪客資料)。
+title: Adobe Target 個人化演算法的資料收集
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
-badge: premium
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
