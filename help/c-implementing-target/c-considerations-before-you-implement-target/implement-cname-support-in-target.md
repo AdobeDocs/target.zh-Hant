@@ -1,14 +1,11 @@
 ---
+keywords: client care;cname;certificate program;cookies;certificate;amc;adobe受管理證書
 description: 有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。
-keywords: 客戶服務; CNAME; 憑證程式; 規範名稱; Cookie; 憑證;amc;adobe受管理證書
-seo-description: 有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。
-seo-title: CNAME 與 Adobe Target
-solution: Target
 title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b7a80326b0b89f6fe3bac70ccc6941be09d14ac1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -31,4 +28,4 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. 當這些CNAMES就緒時，Adobe將與DigiCert合作，在Adobe的生產伺服器上購買並安裝憑證。
 
-1. 完成前述工作後，您必須將 `serverDomain` 更新至at.js中的新CNAME。
+1. 完成上述工作後，您必須在 at.js 中將 `serverDomain` 更新為新 CNAME。
