@@ -1,15 +1,12 @@
 ---
-description: 可協助您設定 Target 的資訊，包括偏好設定、實作、使用者管理、屬性、Scene7 設定、主機管理和回應 Token。
 keywords: 實作;設定
-seo-description: 可協助您設定 Adobe Target 的資訊，包括偏好設定、實作、使用者管理、屬性、Scene7 設定、主機管理和回應 Token。
-seo-title: 管理 Adobe Target
-solution: Target
+description: 可協助您設定 Adobe Target 的資訊，包括偏好設定、實作、使用者管理、屬性、Scene7 設定、主機管理和回應 Token。
+title: 管理 Adobe Target
 subtopic: 快速入門
-title: 管理 Target
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
