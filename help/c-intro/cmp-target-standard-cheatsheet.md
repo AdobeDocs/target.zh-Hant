@@ -1,14 +1,11 @@
 ---
-description: 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
 keywords: Target Standard;faq;常見問題;速查表
-seo-description: 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
-seo-title: Target 最佳化和個人化常見問題集
-solution: Target
+description: 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
 title: Target 最佳化和個人化常見問題集
 topic: 進階
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -41,7 +38,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 **我應該使用哪個實作 JavaScript 檔案，at.js 或 mbox.js?**
 
-at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的舊版本。請參閱[at.js 的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)，瞭解這兩種資料庫之間的差異。所有新客戶應使用 at.js。
+at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的舊版本。請參閱 [at.js 的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)，瞭解這兩種資料庫之間的差異。所有新客戶應使用 at.js。
 
 所有現有 mbox.js 客戶應該移轉至 at.js。在進行轉變之前，進一步瞭解[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)中牽涉的步驟。
 
@@ -303,7 +300,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我應該如何解譯報表?**
 
-我們已嘗試使用如下的功能，盡可能讓報表直覺化:    [信賴區間長條圖、提升界限、顯著性/可信度和多個度量選項、表格和圖表檢視、執行平均等等](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以實現功能強大且容易的報表分析。顯然地，如果您使用 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活動進行進一步分析對象，便可查看 Analytics。
+我們已嘗試使用如下的功能，盡可能讓報表直覺化: [信賴區間長條圖、提升界限、顯著性/可信度和多個度量選項、表格和圖表檢視、執行平均等等](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以實現功能強大且容易的報表分析。顯然地，如果您使用 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活動進行進一步分析對象，便可查看 Analytics。
 
 ## 回應 Token {#section_C2A7118B4B62482A9D630C2212112A3D}
 
