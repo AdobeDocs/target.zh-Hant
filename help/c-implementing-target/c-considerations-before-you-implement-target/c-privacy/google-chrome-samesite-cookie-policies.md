@@ -1,22 +1,19 @@
 ---
-description: 自 Google Chrome 版本 76 起可開始使用 Target 和 SameSite IETF 標準的相關資訊。
-keywords: google;samesite;Cookies;chrome 80;ietf
-seo-description: Google Chrome 版本 80 推出的 Adobe Target 和 SameSite IETF 標準的相關資訊。
-seo-title: Adobe target和Google的SameSite cookie政策
-solution: Target
+keywords: google;samesite;cookies;chrome 80;ietf
+description: Google Chrome 版本 80 推出的 Adobe Target 和 SameSite IETF 標準的相關資訊。
+title: Adobe target和Google的SameSite cookie政策
 subtopic: 快速入門
-title: Google Chrome SameSite Cookie 原則
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # Google Chrome SameSite Cookie 原則
 
-Google將開始針對從Chrome 80開始的使用者，預設為實施新的Cookie政策。 Chrome 80預計於2020年初推出。 本文將說明您需要瞭解的有關新SameSite cookie政策、如 [!DNL Adobe Target] 何支援這些政策，以及如何使用 [!DNL Target] 來符合Google Chrome的新SameSite cookie政策。
+谷歌將開始根據預設，為從Chrome 80開始的用戶實施新的Cookie政策。 Chrome 80計畫於2020年初推出。 本文將說明您需要瞭解的有關新SameSite cookie政策、如 [!DNL Adobe Target] 何支援這些政策，以及如何使用 [!DNL Target] 來符合Google Chrome的新SameSite cookie政策。
 
 從Chrome 80開始，網頁開發人員必須明確指定哪些Cookie可以跨網站運作。 這是谷歌計畫為改善網路隱私和安全性而發佈的眾多公告中的首次。
 
@@ -32,21 +29,21 @@ Cookie很重要，因為它們可增強使用者在瀏覽網頁時的體驗。 �
 
 假設一家名為「朋友」的社交媒體公司提供「分享」按鈕，讓其他網站實作，讓「朋友」使用者在「朋友」動態消息中分享網站的內容。 現在，使用者會在使用「分享」按鈕的新聞網站上閱讀新聞文章，並按一下該按鈕以自動張貼至其「朋友」帳戶。
 
-若要這麼做，瀏覽器會在載入新聞文章時從 `platform.friends.com` 中擷取「朋友分享」按鈕。 在此程式中，瀏覽器會將包含使用者登入認證的朋友Cookie附加至朋友伺服器的請求。 This allows Friends to post the news article in its feed on the user’s behalf without requiring the user to log in.
+若要這麼做，瀏覽器會在載入新聞文章時從 `platform.friends.com` 中擷取「朋友分享」按鈕。 在此程式中，瀏覽器會將包含使用者登入認證的朋友Cookie附加至朋友伺服器的請求。 這可讓「朋友」代表使用者在動態消息中張貼新聞文章，而不需要使用者登入。
 
-這一切皆可透過使用第三方Cookie來實現。 In this case, the third-party cookie is saved on the browser for , so that  can make the post in the Friends app on the user’s behalf.`platform.friends.com``platform.friends.com`
+這一切皆可透過使用第三方Cookie來實現。 在這種情況下，協力廠商Cookie會儲存在瀏覽器上 `platform.friends.com`, `platform.friends.com` 以便代表使用者在朋友應用程式中張貼。
 
-If you imagine for a moment how to achieve this use case without third-party cookies, the user would have to follow a lot of manual steps. First, the user would have to copy the link to the news article. Second, the user would have to log into the Friends app separately. Then, the user would click on the Create Post button. Then the user would copy and paste the link in the text field, and finally click Post. As you can see, third-party cookies immensely help the user experience as manual steps can be drastically reduced.
+如果您想像一下如何在沒有第三方Cookie的情況下達成此使用案例，使用者將必須執行許多手動步驟。 首先，使用者必須複製新聞文章的連結。 其次，使用者必須個別登入「朋友」應用程式。 然後，使用者會按一下「建立貼文」按鈕。 然後，使用者會複製並貼上文字欄位中的連結，最後按一下「貼文」。 如您所見，協力廠商Cookie可大幅降低手動步驟的使用體驗。
 
-More generally, third-party cookies make it possible for data to be stored on a user’s browser without requiring that user to explicitly visit a website.
+更一般地說，協力廠商Cookie可讓資料儲存在使用者的瀏覽器上，而不需要該使用者明確造訪網站。
 
-## Security concerns
+## 安全性顧慮
 
-Although cookies enhance user experiences and power advertising, they can also introduce security vulnerabilities like Cross-Site Request Forgery (CSRF) attacks. 例如，如果使用者登入銀行網站以支付信用卡帳單而離開網站而未登出，然後在同一作業中瀏覽至惡意網站，則可能會發生CSRF攻擊。 The malicious site could include code that makes a request to the banking site that executes when the page loads. 由於使用者仍可驗證至銀行網站，因此作業Cookie可用來啟動CSRF攻擊，從使用者的銀行帳戶啟動資金轉移事件。 This is because whenever you visit a site, all the cookies are attached in the HTTP request. 由於這些安全方面的擔憂，谷歌現在正試圖緩解這些擔憂。
+雖然Cookie可增強使用者體驗並強化廣告功能，但也可能會引入跨網站偽造要求(CSRF)攻擊等安全性弱點。 例如，如果使用者登入銀行網站以支付信用卡帳單而離開網站而未登出，然後在同一作業中瀏覽至惡意網站，則可能會發生CSRF攻擊。 惡意網站可能包含對銀行網站提出要求的程式碼，該要求會在頁面載入時執行。 由於使用者仍可驗證至銀行網站，因此作業Cookie可用來啟動CSRF攻擊，從使用者的銀行帳戶啟動資金轉移事件。 這是因為每當您造訪網站時，所有Cookie都會附加在HTTP請求中。 由於這些安全方面的擔憂，谷歌現在正試圖緩解這些擔憂。
 
 ## Target如何使用Cookie?
 
-With all that said, let’s see how  uses cookies. [!DNL Target]In order for you to use  in the first place, you need to install the  JavaScript library on your site. [!DNL Target][!DNL Target]這可讓您將第一方Cookie置於瀏覽您網站之使用者的瀏覽器中。 當您的使用者與您的網站互動時，您可以透過JavaScript程式庫將使用者的行為與興趣資 [!DNL Target] 料傳遞給您。 JavaScript [!DNL Target] 程式庫使用第一方Cookie來擷取有關使用者的識別資訊，以對應至使用者的行為和興趣資料。 然後，這些資料便可用來 [!DNL Target] 推動您的個人化活動。
+儘管如此，讓我們來看看Cookie的使 [!DNL Target] 用方式。 您必須先在網 [!DNL Target] 站上安裝JavaScript程式 [!DNL Target] 庫，才能開始使用。 這可讓您將第一方Cookie置於瀏覽您網站之使用者的瀏覽器中。 當您的使用者與您的網站互動時，您可以透過JavaScript程式庫將使用者的行為與興趣資 [!DNL Target] 料傳遞給您。 JavaScript [!DNL Target] 程式庫使用第一方Cookie來擷取有關使用者的識別資訊，以對應至使用者的行為和興趣資料。 然後，這些資料便可用來 [!DNL Target] 推動您的個人化活動。
 
 Target也（有時）使用第三方Cookie。 如果您擁有多個網站，且這些網站位於不同網域，而您想要追蹤這些網站的使用者歷程，則可運用跨網域追蹤功能來使用協力廠商Cookie。 透過在 [!DNL Target] JavaScript程式庫中啟用跨網域追蹤，您的帳戶就會開始使用第三方Cookie。 當使用者從一個網域跳至另一個網域時，瀏覽器會與後端伺服器通訊 [!DNL Target]，而在此程式中，會建立協力廠商Cookie並放在使用者的瀏覽器上。 透過使用者瀏覽器上的協力廠商Cookie, [!DNL Target] 為單一使用者在不同網域上提供一致的體驗。
 
@@ -90,27 +87,27 @@ However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] 
 | 目標JavaScript程式庫 | SameSite 依預設 Cookie = 啟用 | 不含 SameSite 的 Cookie 必須是安全狀態 = 啟用 |
 | --- | --- | --- |
 | mbox.js，僅含第一方Cookie。 | 沒有影響。 | 如果您未使用跨網域追蹤，則不會產生任何影響。 |
-| mbox.js with cross-domain tracking enabled. | No impact. | 您必須為您的網站啟用HTTPS通訊協定。<br>[!DNL Target] uses a third-party cookie to track users and Google requires third-party cookies to have  and Secure flag. `SameSite = None`The Secure flag requires your sites must use the HTTPS protocol. |
-| at.js 1.*x* with first-party cookie. | No impact. | 如果您未使用跨網域追蹤，則不會產生任何影響。 |
-| at.js 1.*x* with cross-domain tracking enabled. | No impact. | 您必須為您的網站啟用HTTPS通訊協定。<br>[!DNL Target] uses a third-party cookie to track users and Google requires third-party cookies to have  and Secure flag. `SameSite = None`The Secure flag requires your sites must use the HTTPS protocol. |
-| at.js 2.*x* | No impact. | 沒有影響。 |
+| mbox.js，並啟用跨網域追蹤。 | 沒有影響。 | 您必須為您的網站啟用HTTPS通訊協定。<br>[!DNL Target] 使用協力廠商Cookie來追蹤使用者，而Google則要求協力廠商Cookie具有「安全」 `SameSite = None` 標幟。 安全標幟要求您的網站必須使用HTTPS通訊協定。 |
+| at.js 1.*x* with first-party cookie. | 沒有影響。 | 如果您未使用跨網域追蹤，則不會產生任何影響。 |
+| at.js 1.*x* ，並啟用跨網域追蹤。 | 沒有影響。 | 您必須為您的網站啟用HTTPS通訊協定。<br>[!DNL Target] 使用協力廠商Cookie來追蹤使用者，而Google則要求協力廠商Cookie具有「安全」 `SameSite = None` 標幟。 安全標幟要求您的網站必須使用HTTPS通訊協定。 |
+| at.js 2.*x* | 沒有影響。 | 沒有影響。 |
 
 ## Target需要做什麼？
 
-So, what did we need to do in our platform to help you comply with the new Google Chrome 80+ SameSite cookie policies?
+那麼，我們在我們的平台中需要做什麼來協助您符合新的Google Chrome 80+ SameSite cookie政策？
 
 | 目標JavaScript程式庫 | SameSite 依預設 Cookie = 啟用 | 不含 SameSite 的 Cookie 必須是安全狀態 = 啟用 |
 | --- | --- | --- |
-| mbox.js with first-party cookie only. | 沒有影響。 | No impact if you are not using cross-domain tracking. |
+| mbox.js，僅含第一方Cookie。 | 沒有影響。 | 如果您未使用跨網域追蹤，則不會產生任何影響。 |
 | mbox.js，並啟用跨網域追蹤。 | 沒有影響。 | [!DNL Target] 在呼 `SameSite = None` 叫伺服器時，將安全標幟新 [!DNL Target] 增至第三方Cookie。 |
-| at.js 1.*x* with first-party cookie. | 沒有影響。 | No impact if you are not using cross-domain tracking. |
-| at.js 1.*x* 啟用跨網域追蹤。 | No impact. | at.js 1.*x* 啟用跨網域追蹤。 |
+| at.js 1.*x* with first-party cookie. | 沒有影響。 | 如果您未使用跨網域追蹤，則不會產生任何影響。 |
+| at.js 1.*x* ，並啟用跨網域追蹤。 | 沒有影響。 | at.js 1.*x* ，並啟用跨網域追蹤。 |
 | at.js 2.*x* | 沒有影響。 | 沒有影響。 |
 
 ## 如果您不改用HTTPS通訊協定，會有什麼影響？
 
-唯一會影響您的使用案例是，如果您是透過mbox.js或at.js 1使用 [!DNL Target] 跨網域追蹤功能。*x* 版本不支援此函數。若不改用Google所要求的HTTPS，您將會看到網域中的獨特訪客數量出現尖峰，因為Google會捨棄我們使用的第三方Cookie。 由於第三方Cookie將會被捨棄， [!DNL Target] 因此當使用者從一個網域導覽至另一個網域時，將無法為該使用者提供一致且個人化的體驗。 協力廠商Cookie主要用於識別在您擁有的網域間瀏覽的單一使用者。
+唯一會影響您的使用案例是，如果您是透過mbox.js或at.js 1使用 [!DNL Target] 跨網域追蹤功能。*x* 不提供跨網域追蹤的立即可用支援。若不改用Google所要求的HTTPS，您將會看到網域中的獨特訪客數量出現尖峰，因為Google會捨棄我們使用的第三方Cookie。 由於第三方Cookie將會被捨棄， [!DNL Target] 因此當使用者從一個網域導覽至另一個網域時，將無法為該使用者提供一致且個人化的體驗。 協力廠商Cookie主要用於識別在您擁有的網域間瀏覽的單一使用者。
 
 ## 結論
 
-隨著業界大步邁向為消費者建立更安全的網路， [!DNL Adobe] 我們絕對致力於協助客戶以確保使用者安全和隱私的方式提供個人化體驗。 All you need to do is follow the aforementioned best practices and take advantage of  to comply with Google Chrome’s new SameSite Cookie Policies.[!DNL Target]
+隨著業界大步邁向為消費者建立更安全的網路， [!DNL Adobe] 我們絕對致力於協助客戶以確保使用者安全和隱私的方式提供個人化體驗。 您只需要遵循上述最佳實務，並善用 [!DNL Target] Google Chrome的新SameSite cookie政策。
