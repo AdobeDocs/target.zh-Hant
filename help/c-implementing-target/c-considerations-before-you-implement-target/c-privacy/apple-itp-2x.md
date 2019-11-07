@@ -1,14 +1,11 @@
 ---
-description: 關於 Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 之資訊。
 keywords: apple;ITP;智慧型追蹤預防
-seo-description: 關於 Adobe Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 之資訊。
-seo-title: Adobe Target 和 Apple ITP 支援
-solution: Target
+description: 關於 Adobe Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 之資訊。
+title: Adobe Target 和 Apple ITP 支援
 subtopic: 快速入門
-title: Apple ITP 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -49,7 +46,7 @@ Apple ITP 2.1 和 2.1 會影響 [!DNL Target] 的以下方面:
 
    ECID 資料庫會針對 Experience Cloud Core 解決方案啟用使用者識別架構。ECID 資料庫可讓您指派持續和唯一的 ID，在不同的 Experience Cloud 解決方案中識別相同的網站訪客及其資料。ECID 資料庫會經常更新，協助您減少任何 ITP 相關變更對實施的影響。
 
-   For ITP 2.1 and ITP 2.2, [ECID library 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) must be utilized for mitigation.
+   對於ITP 2.1和ITP 2.2, [ECID程式庫4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，必須用於緩解。
 
 1. 在 Adobe Analytics Managed Certificate 方案中使用 Adobe 的 CNAME 並註冊。
 
