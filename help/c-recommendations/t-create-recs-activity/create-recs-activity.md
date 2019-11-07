@@ -1,16 +1,10 @@
 ---
-description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 keywords: 建立建議;Recommendations 活動;新建議;建議概覽
-seo-description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
-seo-title: 建立 Recommendations 活動
-solution: Target
+description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 title: 建立 Recommendations 活動
-title-outputclass: premium
-topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +29,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。]
+   >上圖中的[!UICONTROL [選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。]
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/c-intro/intro.md#premium)，請選擇[工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -145,7 +139,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 1. 完成後，按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 指定您的活動設定。
 
-   例如，輸入活動的名稱 (必要) 和目標 (可選)。如需關於設定的資訊，請參閱[Recommendations 活動設定](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
+   例如，輸入活動的名稱 (必要) 和目標 (可選)。如需關於設定的資訊，請參閱 [Recommendations 活動設定](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
 
    >[!NOTE]
    >
@@ -171,6 +165,6 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
    當多個活動設為傳送內容至相同的頁面時會發生活動衝突，並且可能造成顯示未預期的內容。
 
-## 訓練影片：建立Recommendations活動(7:15)
+## 訓練影片: 建立 Recommendations 活動 (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=chi_hant)
