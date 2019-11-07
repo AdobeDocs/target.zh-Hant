@@ -1,15 +1,12 @@
 ---
-description: 依預設，Target Standard 會建立名為 target-global-mbox 的全域 mbox，用來執行 Target Standard 中建立的活動。不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 Target Standard 活動。
 keywords: 全域 mbox;target classic;使用來自 target classic 的全域 mbox
-seo-description: 依預設，Target Standard 會建立名為 target-global-mbox 的全域 mbox，用來執行 Target Standard 中建立的活動。不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 Target Standard 活動。
-seo-title: 使用來自舊版實作的全域 mbox
-solution: Target
-subtopic: 快速入門
+description: 依預設，Target Standard 會建立名為 target-global-mbox 的全域 mbox，用來執行 Target Standard 中建立的活動。不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 Target Standard 活動。
 title: 使用來自舊版實作的全域 mbox
+subtopic: 快速入門
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -43,4 +40,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    所有現有活動都會更新為使用指定的全域 mbox，包括先前已建立和實施的活動。
    **疑難排解全域 Mbox 實施***全域 mbox 為什麼不會載入，或為什麼頁面載入時載入全域 mbox 發生延遲?*
 
-確定 mbox.js 參考是頁面上的第一個 JavaScript 呼叫。針對此問題的其他解決方案，請參閱[mbox.js 實作](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
+確定 mbox.js 參考是頁面上的第一個 JavaScript 呼叫。針對此問題的其他解決方案，請參閱 [mbox.js 實作](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
