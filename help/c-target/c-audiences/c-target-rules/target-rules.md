@@ -1,13 +1,10 @@
 ---
-description: 您可以定位數個類別。每個類別會如同標籤般運作，這可讓您為每個類別建立定位規則 (或群組)。
 keywords: 鎖定目標;目標類別;目標條件;audience manager;自訂設定檔參數;訪客設定檔;自訂使用者參數;目標規則
-seo-description: 您可以定位數個類別。每個類別會如同標籤般運作，這可讓您為每個類別建立定位規則 (或群組)。
-seo-title: 對象的類別
-solution: Target
+description: 您可以定位數個類別。每個類別會如同標籤般運作，這可讓您為每個類別建立定位規則 (或群組)。
 title: 對象的類別
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
