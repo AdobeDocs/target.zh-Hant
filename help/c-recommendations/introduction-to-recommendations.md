@@ -1,202 +1,196 @@
 ---
-description: Target Recommendations活動簡介，這些活動會根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-keywords: Recommendations;intro;introduction;webinar;demo
-seo-description: Adobe Target Recommendations活動簡介，這些活動會根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-seo-title: Introduction to Recommendations activities in Adobe Target
-solution: Target
-title: Introduction to Recommendations
-title-outputclass: premium
-topic: Premium
-badge: premium
+keywords: Recommendations;introduction;webinar;demo
+description: Adobe Target Recommendations 活動簡介，可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
+title: Adobe Target 中的 Recommendations 活動簡介
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Introduction to Recommendations
+# ![PREMIUM](/help/assets/premium.png) Recommendations 簡介
 
-The text in this article comes from the Introduction to Recommendations webinar, which you can view in its entirety below.**
+本文中的文字內容來自&#x200B;*Recommendations 簡介*&#x200B;網路研討會，您可在下方查看其完整內容。
 
 *Recommendations 簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
 
 ## 簡介
 
-We all know about the kinds of recommendations we see in retail. Increasingly, customers expect these kind of recommendations and use them as a starting point to explore other available options. If you think about your own shopping behavior, these kind of recommendations work really well. Nearly everyone among us has bought a product we saw first in a recommendation somewhere, whether that was in a store or on a digital property.
+我們都瞭解在零售業所看到的建議種類。客戶對這些種類的建議有越來越高的期望，並使用它們做為探索其他可用選項的起點。如果您思考一下自己的購物行為，就會發現這些種類的建議十分有效。我們當中的所有人幾乎都買了在某處 (無論是商店或是數位屬性) 的建議中第一眼看到的產品。
 
-The following illustration shows a recommendation that displays accessories that are commonly purchased with a new phone, including charging stations, cases, and headphones.
+下圖說明顯示經常搭配新手機購買之配件的建議，包括充電座、保護套和耳機。
 
-![Recommendation showing accessories others have purchased with a new phone.](/help/c-recommendations/assets/intro-1.png)
+![顯示其他人已搭配新手機購買之配件的建議。](/help/c-recommendations/assets/intro-1.png)
 
-But what we don’t always think about is how digital-first brands are raising the bar of customer expectations. 我們使用媒體和內容的方式越來越受到個人化建議的驅動。 想想你開啟Netflix、Spotify或YouTube時看到的第一件事。 這些品牌以建議開始客戶體驗。 In a world where more alternatives are available than ever, it’s critical that you can identify the most relevant content for your customer at the point of interaction.
+但我們未必會思考的是，數位優先品牌如何提高客戶期望的標準。我們使用媒體和內容的方式，越來越受到個人化建議的推動。試想一下您在開啟 Netflix、Spotify 或 YouTube 時第一眼看到的內容。這些品牌透過建議開啟了客戶體驗。在有越來越多可用替代選項的世界中，您必須在客戶進行互動的時間點為其找出最相關的內容，這一點至關重要。
 
 ![顯示數位優先品牌的建議](/help/c-recommendations/assets/intro-2.png)
 
-行銷人員 [!DNL Adobe Target] 可運用來推動跨多種產業、客戶類型和通道的個人化體驗。
+行銷人員使用 [!DNL Adobe Target] 推動各行各業、各種客戶類型及管道的個人化體驗。
 
-[!DNL Adobe Target] 隨處提供個人化內容。
+[!DNL Adobe Target] 可隨時隨地提供個人化內容。
 
-![圖示顯示Target如何在不同位置提供建議](/help/c-recommendations/assets/intro-3.png)
+![插圖顯示 Target 如何在各種位置提供建議](/help/c-recommendations/assets/intro-3.png)
 
-* **發佈**:網頁發行者 [!DNL Target Recommendations] 可使用來向網站訪客推薦文章，並推動參與度的提升。
-* **教學影片**:使 [!DNL Adobe Creative Cloud] 用 [!DNL Target] 來向Photoshop應用程式中的Photoshop使用者推薦教學影片。
-* **遊戲**:遊戲公司會 [!DNL Target] 用來推薦遊戲和內容給遊戲機上的用戶。
-* **B2B銷售**:企 [業對企業公司使用Target向B2B潛在客戶推薦影片、白皮書和部落格文章；提供下載；並為現有客戶提供協助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
+* **發佈**: 網站發佈商使用 [!DNL Target Recommendations] 向網站訪客建議文章並促進更多互動。
+* **影片教學課程**: [!DNL Adobe Creative Cloud] 使用 [!DNL Target]，在 Photoshop 應用程式中向 Photoshop 使用者建議影片教學課程。
+* **遊戲**: 遊戲公司使用 [!DNL Target]，在使用者的遊戲主機上向其建議遊戲和內容。
+* **B2B 銷售**: [企業對企業公司使用 Target，向 B2B 潛在客戶建議影片、白皮書和部落格文章、提供下載，以及為現有客戶提供協助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
 * **旅行**:德 [國旅遊書記使用Target為旅客推薦酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
-* **零售**:領 [先的B2B零售商使用Target來推薦熱門類別和產品，以便在瀏覽器及其行動應用程式中傳回訪客](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
+* **零售**: [某個領先業界的 BB 零售商使用 Target，向瀏覽器及其行動應用程式中的回訪訪客建議最熱門的類別與產品](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
 
-這些只是客戶使用Target提供個人化建議的一些方式。
+這些只是客戶使用 Target 提供個人化建議的一些方式。
 
-什麼是最佳建議？
+提供絕佳建議需要哪些要素?
 
-![圖例顯示提供最佳建議的三個元素](/help/c-recommendations/assets/intro-4.png)
+![插圖顯示提供絕佳建議之三個元素](/help/c-recommendations/assets/intro-4.png)
 
-絕佳的建議應切實相關且個人化。 這表示您需要三件事來推動相關性和個人化：
+絕佳建議應提供相關且個人化的內容。也就是說，您需要下列三個要素，來促進相關性和個人化:
 
-* **行銷人員控制** ，以協助推動建議項目的相關性。 身為行銷人員，您可以將有價值的內容帶入表格中，並知道您的產品或內容屬性與建議模型相關。 如果您在執行視訊網站，您知道使用者可能有興趣觀看同一位導演的影片，但可能不在乎觀看由同一工作室製作的影片。 [!DNL Target] 讓您運用控制項來增強此領域知識的演算法。
-* **精巧的模型** ，可讓您瞭解目錄和互動事件中的數百萬個項目。 [!DNL Target] 擁有十年累積經驗的精密機器學習功能，我們每年處理數十億的建議。
-* **使用者內容** ，以確保建議及時且與您的使用者相關。 您不想推薦剛剛觀看的影片，或是剛加入購物車的襯衫。 Target的豐富使用者個人檔案可用於建議，以確保個人化。
+* **行銷人員控制**，協助促進建議項目的相關性。身為行銷人員，您負責提供寶貴的內容，而且您知道哪些產品屬性或內容與建議模型相關且可供考慮。如果您經營影片網站，您知道使用者可能有興趣觀賞來自同一位導演的影片，但可能不想觀賞同一個電影製片廠所製作的電影。[!DNL Target] 能讓您擁有控制的能力，可讓您透過此領域知識增強演算法。
+* **精密的模型**，將目錄和互動事件中的數百萬個項目轉換成有意義的資料。[!DNL Target] 具有根據長達十年經驗所打造的精密機器學習功能，而且我們每年處理數十億個建議。
+* **使用者內容**，確保可為使用者提供及時且相關的建議。您不會想要建議某個使用者剛看過的影片，或某位使用者剛新增至其購物車的襯衫。Target 的豐富使用者設定檔可用於建議，以確保提供個人化內容。
 
-## 實作目標建議
+## 實作 Target Recommendations
 
-從策略開始。
+首先，請從策略開始。
 
-![顯示建議策略的圖例](/help/c-recommendations/assets/intro-5.png)
+![插圖顯示建議策略](/help/c-recommendations/assets/intro-5.png)
 
-* **您要建議哪些項目？** First, think about what items you want to recommend. This could be products, videos, or content.
-* **Where do you want to show recommendations?** Next, think about where you want to make recommendations. 大致而言，哪些頻道（網路、行動裝置、店內、資訊站等）。 What parts of the customer journey will contain recommendations? 您網站上的哪些頁面將包含建議？
-* **您如何判斷建議是否成功？** 假設您有沒有建議的體驗和建議的體驗，或您有兩種不同的建議類型。 您要如何判斷哪一種體驗對客戶而言是更好的體驗？ 有些量度可能比其他量度更難測量。 For example, the impact of recommendations on Customer Lifetime Value is often difficult to directly get to. 因此，取得較不抽象的量度和更具體的量度通常比較容易，例如每次瀏覽的收入、平均訂購值或點按次數。 在某些情況下，您可能會想要將量度減至最少，例如支援呼叫數。
+* **您想要建議哪些項目?** 首先，請思考您想要建議哪些項目。可能是產品、影片或內容。
+* **您要在哪個位置顯示建議?** 接下來，請思考您要在哪個位置提供建議。廣泛來說，就是哪些管道 (網路、行動裝置、店內、資訊站等)? 客戶使用之旅的哪些環節會包含建議? 網站上的哪些頁面會包含建議?
+* **如何判斷建議是否成功?** 假設您有一個不含建議的體驗以及一個含有建議的體驗，或者您有兩個不同類型的建議。如何判斷哪個體驗對客戶來說是更好的體驗? 某些量度可能比其他量度更難測量。例如，建議對客戶期限值的影響通常很難直接取得。因此，通常取得一個較不抽象的量度以及一個較明確的量度會比較簡單，例如每次造訪帶來的收入、平均訂購值或點按次數。在某些情況下，您可能會想要將量度最小化，例如支援服務通話的數量。
 
-在您制定策略後，您準備開始實施 [!DNL Target Recommendations]。
+在想出策略之後，您就可以開始實施 [!DNL Target Recommendations] 了。
 
-建立建議實作涉及三個廣泛步驟：
+建立建議實施包含三個廣泛的步驟:
 
-![顯示建立建議實作步驟的圖例](/help/c-recommendations/assets/intro-6.png)
+![插圖顯示建立建議實施之步驟](/help/c-recommendations/assets/intro-6.png)
 
 1. 教導 [!DNL Target] 您的內容或產品。
 1. 擷取使用者行為。
-1. 取得具有適當內容的建議。
+1. 透過正確的內容取得建議。
 
-### 教授 [!DNL Target] 您的內容或產品
+### 教導 [!DNL Target] 您的內容或產品
 
-當您從開始時， [!DNL Recommendations]會傳遞您要建議之每個項目的相關資訊。 [!DNL Target] 提供數種整合選項來建立目錄。
+開始使用 [!DNL Recommendations] 時，您傳送有關您要建議之所有項目的資訊。[!DNL Target] 提供可建立目錄的多個整合選項。
 
-![圖示顯示如何教授Target有關您的內容或產品](/help/c-recommendations/assets/intro-7.png)
+![插圖顯示如何教導 Target 您的內容或產品](/help/c-recommendations/assets/intro-7.png)
 
-最簡單、最常用的方法，是每天或每週從產品資訊管理系統或內容管理系統傳送CSV檔案。 但您也可以使用 [!DNL Adobe Target] Javascript程式庫從頁面傳遞資料層的資訊、運用我們的API直接從來源系統傳遞資訊，或使用我們的整合（如果您已將型錄資料傳遞至） [!DNL Adobe Analytics][!DNL Analytics]。
+最簡單且最常用的方法就是，每天或每週從您的產品資訊管理系統或內容管理系統傳送 CSV 檔案。但您也可以使用 [!DNL Adobe Target] JavaScript 程式庫從頁面傳送資料層上的資訊、運用 API 直接從來源系統傳送資訊，或是如果您已將目錄資料傳送至 [!DNL Analytics]，則使用 [!DNL Adobe Analytics] 整合。
 
-有時，您可能會想要搭配使用多個選項，例如，透過CSV檔案每日傳送大部分資料，並透過API更頻繁地傳送庫存更新。
+有時候您可能會想要一起使用多個選項，例如，每天透過 CSV 檔案傳送大多數資料，以及透過 API 更頻繁地傳送庫存更新。
 
-您的IT部門通常會參與協助設定此步驟。
+IT 部門通常會參與此過程並協助您完成設定。
 
-無論您選擇何種方法，您都應將每個項目的中繼資料納入三個類別：
+無論您選擇哪種方法，都應在三個類別中包含有關各個項目的中繼資料:
 
-![顯示目錄中繼資料資訊的插圖](/help/c-recommendations/assets/intro-8.png)
+![插圖顯示目錄的中繼資料資訊](/help/c-recommendations/assets/intro-8.png)
 
-* 您要向接收建議之使用者顯示的資料。 例如，影片名稱和縮圖影像URL。
-* 適用於套用行銷和銷售控制的資料。 例如，影片的分級，以便您不建議使用NC-17影片。
-* 用於確定項目與其他項目的相似性的資料。 例如，電影的類型或電影中的演員。
+* 您要向收到建議的使用者顯示的資料。例如，電影名稱和縮圖影像 URL。
+* 適合用於套用行銷和推銷控制的資料。例如，電影分級，以免建議 NC-17 電影。
+* 適合用於判斷項目與其他項目之相似度的資料。例如，電影類型或電影中的演員。
 
 ### 擷取使用者行為
 
-接著，您應新增標籤或運用現有的實 [!DNL Analytics] 作來追蹤驅動演算法的轉換事件（例如檢視和購買） [!DNL Target] 。
+接下來，您應新增標記或運用現有 [!DNL Analytics] 實施，追蹤推動 [!DNL Target] 演算法的轉換事件 (例如檢視和購買)。
 
-![顯示如何擷取使用者行為的圖例](/help/c-recommendations/assets/intro-9.png)
+![插圖顯示如何擷取使用者行為](/help/c-recommendations/assets/intro-9.png)
 
-您需要確保您 [!DNL Target] 的使用者已瞭解所檢視和購買的項目。 如果購買與您的內容無關，您可能想要追蹤不同類型的轉換事件，例如下載PDF、完成調查、訂閱電子報、觀看視訊等。
+您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同類型的轉換事件，例如下載 PDF、完成問卷、訂閱電子報、觀看影片等。
 
-如果您已使用 [!DNL Target] 在網站上執行A/B測試活動，則可能已完成此步驟。 或者，如果您已使用 [!DNL Adobe Analytics] 來報告網站瀏覽和轉換行為，則可以用 [!DNL Analytics] 作行為資料來源。 如果不是，請使用標籤管理器(例如 [Adobe Launch)來設定此設定最簡單](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。 您也可以透過即時API，將離線或應用程式內互動 [!DNL Target] 傳送至。
+如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 等標籤管理員進行此設定。您也可以透過即時 API 將離線或應用程式內的互動傳送至 [!DNL Target]。
 
-### 取得具有適當內容的建議
+### 透過正確的內容取得建議
 
-在互動時傳遞有關使用者和內容的資訊，以傳回相 [!DNL Target] 關的個人化建議。
+在進行互動的時間點將使用者與內容的相關資訊傳送至 [!DNL Target]，以傳回相關和個人化建議。
 
-![圖示說明如何取得具有正確內容的建議](/help/c-recommendations/assets/intro-10.png)
+![插圖顯示如何透過正確的內容取得建議](/help/c-recommendations/assets/intro-10.png)
 
-除了匯總的使用者行為外，您還需要傳遞顯 [!DNL Target] 示建議的特定內容。 這包括有關頁面的資訊和來自使用者設定檔的資訊。 [!DNL Target] 使用此資訊來提供個人化建議。 例如，在零售網站上，您想瞭解訪客目前檢視的產品和產品類別。 您也想要瞭解該使用者的相關資訊（最愛品牌、最愛的產品類別、忠誠度層等）。 這項資訊很重要，因 [!DNL Target] 此可以篩選項目並改善建議的個人化。
+除了彙總形式的使用者行為以外，您還必須將顯示建議之特定內容傳送給 [!DNL Target]。這包括頁面的相關資訊和來自使用者設定檔的資訊。[!DNL Target] 使用此資訊提供個人化建議。例如，在零售網站上，您想要瞭解訪客正在檢視的產品和產品類別。您也想要瞭解關於該使用者的資訊 (最愛的品牌、最愛的產品類別、忠誠度級別等)。此資訊非常重要，這樣 [!DNL Target] 才能篩選項目並改善建議的個人化成效。
 
-## 建立您的第一個Recommendations活動
+## 建立第一個 Recommendations 活動
 
-什麼是活 [!DNL Recommendations] 動？
+什麼是 [!DNL Recommendations] 活動?
 
-![圖示顯示進行良好建議活動的部分](/help/c-recommendations/assets/intro-11.png)
+![插圖顯示建立良好 Recommendations 活動之環節](/help/c-recommendations/assets/intro-11.png)
 
-活 [!DNL Recommendations] 動由下列元件組成：
+[!DNL Recommendations] 活動由下列元件構成:
 
-* **觀眾**:誰應該看到這些建議？
-* **標準**:建議哪些項目？
-* **設計**:建議項目的顯示方式？
+* **受眾**: 誰應該看到這些建議?
+* **條件**: 應建議哪些項目?
+* **設計**: 應如何顯示建議項目?
 
-![顯示構成建議活動的內容的圖示：觀眾、准則和設計](/help/c-recommendations/assets/intro-12.png)
+![插圖顯示構成 Recommendations 活動的元素: 受眾、條件和設計](/help/c-recommendations/assets/intro-12.png)
 
-立即可用， [!DNL Target] 包括14個內建受眾、42個內建標準和10個內建設計範本。 您可以自訂這些項目，或新增您自己的項目。 我們之前曾舉辦過 [有關在中建立受眾的網路研討會](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)[!DNL Target]。 本節著重於定義標準，此標準定義將建議哪些項目。
+[!DNL Target] 隨附立即可用的 14 個內建受眾、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本節重點在於如何定義條件，這會定義將建議哪些項目。
 
-Target使用標準卡的概念。 標準卡就像個人化的配方。
+Target 使用條件卡的概念。條件卡就像個人化的方式。
 
-![標準卡插圖](/help/c-recommendations/assets/intro-13.png)
+![條件卡插圖](/help/c-recommendations/assets/intro-13.png)
 
-選擇或建立正確的准則，以達到您想要的個人化效果，這一點非常重要。 標準就像漏斗，將您從整個目錄帶到最終的建議集。
+請務必選擇或建立正確的條件，以達到您想要的個人化結果。條件就像漏斗，能將您從整個目錄帶到最終的一組建議。
 
-![漏斗圖](/help/c-recommendations/assets/intro-14.png)
+![漏斗插圖](/help/c-recommendations/assets/intro-14.png)
 
-以下各節將說明此漏斗的各個部分，以及它們的運作方式 [!DNL Target]:
+以下章節說明此漏斗的各個環節及其在 [!DNL Target] 中的運作方式:
 
-### 靜態篩選（系列和排除）
+### 靜態篩選 (集合和條件)
 
-靜態篩選器是廣泛適用的與目錄屬性相關的規則，您預期不會經常變更。
+靜態篩選是可範圍適用的規則，與您不希望經常變更的目錄屬性相關。
 
-![系列與排除的圖示](/help/c-recommendations/assets/intro-16.png)
+![集合和排除插圖](/help/c-recommendations/assets/intro-16.png)
 
-例如，在內容內容內容中，您可能想要將所有影片納入建議中，但排除NC-17等級的影片。 在零售環境中，您可能在世界不同地區擁有多個品牌，但您只想建議美國提供的產品。 您也可能想從地區私有標籤中排除產品。
+例如，在內容環境中，您可能會想要在建議中包含所有電影，但排除分級為 NC-17 的電影。在零售內容中，您可能有位於全世界不同區域的多個品牌，但您只想要建議可在美國提供的產品。您可能也會想要從地區私人標籤中排除產品。
 
-這些都是廣泛適用的型錄屬性，您可能想要在多個建議中使用，但您不預期這些屬性會經常變更。
+這些全都是可廣泛適用的目錄屬性，您可能想要用於多個建議，且不希望它們經常變更。
 
-### 演算法（建議金鑰和邏輯）
+### 演算法 (建議索引鍵和邏輯)
 
-下一步是選擇建議金鑰和邏輯。 這是您決定建議之依據的地方。
+下一步是選擇建議索引鍵和邏輯。這是您決定建議之基礎的位置。
 
 ![演算法插圖](/help/c-recommendations/assets/intro-17.png)
 
-您首先需要選擇的建議金鑰。 建議金鑰是您「尋找」的項目，以選擇建議。 這是您的建議所依據的。
+您需要選擇的第一個項目是建議索引鍵。建議索引鍵是您「查詢」以選擇建議的內容。這是建議所根據的內容。
 
-您的建議可以以下列項目為基礎：
+建議可以根據下列內容:
 
-* 訪客目前檢視的項目
-* 訪客目前檢視的類別
+* 訪客目前正在檢視的項目
+* 訪客目前正在檢視的類別
 * 訪客上次購買或新增至購物車的項目
-* 與訪客或項目相關的自訂屬性
+* 與某個訪客戶項目有關的自訂屬性
 
-然後，您會根據這些索引鍵，選擇所需的建議邏輯：
+接著，您可根據這些索引鍵選擇想要的建議邏輯:
 
 * 具有類似屬性的項目
-* 特定類別中檢視次數最多的項目
-* 購買此項目的客戶也購買了這些項目
+* 某個特定類別中檢視次數最多的項目
+* 已購買此項目的客戶也購買了這些項目
 * 自訂屬性
 
-立即可用，包 [!DNL Target] 含演算法組合。
+[!DNL Target] 隨附一應俱全且立即可用的演算法。
 
-![演算法組合圖](/help/c-recommendations/assets/intro-15.png)
+![一應俱全的演算法插圖](/help/c-recommendations/assets/intro-15.png)
 
-* **人氣型演算法包括** 「檢視次數最多」和「最暢銷商品」。
-* **內容型演算法包括** 「內容相似性」。
-* **以項目為基礎的協作篩選演算法** ，包括「已檢視／已檢視」、「已檢視／已購買」和「已購買／已購買」。 請注意，「購買」可以是任何轉換。
-* **個人化演算法** ，包括「最近檢視」、「網站親和力」和個人檔案增強的協作篩選。
-* **運用您自己的演算法** ，讓您使用自己的自訂演算法。
+* **基於人氣的演算法**&#x200B;包含檢視次數最多和最暢銷商品。
+* **基於內容的演算法**&#x200B;包含內容相似度。
+* **基於項目的合作篩選演算法**&#x200B;包含已檢視/已檢視、已檢視/已購買，以及已購買/已購買。請注意，「已購買」可能是任何轉換。
+* **個人化演算法**&#x200B;包含最近查看的、網站相關性，以及已增強設定檔的合作篩選。
+* **自備演算法**&#x200B;可讓您使用自己的自訂演算法。
 
 ### 線上業務規則
 
-最後一步是套用線上業務規則。 這是您根據訪客在數位屬性上的行為，運用網域知識和目前的內容來賦予演算法的能力。
+最後一個步驟是套用線上業務規則。透過此步驟，您可讓演算法擁有領域知識，以及根據訪客正在數位屬性上執行之作業的目前內容。
 
-![線上商業規則圖示](/help/c-recommendations/assets/intro-18.png)
+![線上業務規則插圖](/help/c-recommendations/assets/intro-18.png)
 
-例如，在內容內容中，您可能想要排除訪客先前已觀看的影片、建議同一導演的影片，或是提升同一類別的影片。 在零售環境中，您可能想要排除無存貨產品、顯示價格範圍在$5到$500之間的項目，或提升相同品牌的項目。
+例如，在內容環境中，您可能會想要排除訪客之前已觀看的電影、建議同一位導演的電影，或提升相同類型的電影。在零售內容中，您可能會想要排除沒有庫存的產品、顯示價格範圍介於 $5 到 $500 美元之間的項目，或提升來自相同品牌的項目。
 
 ## 示範
 
-完成上述建議漏斗說明中說明的工作後，您將留有最終建議。 若要在內部觀看產品內展示 [!DNL Target]，示範將於21:00開始於 *Adobe Target基本概念網路研討會(連結至下方*)。
+在您如上所述完成建議漏斗插圖中的工作後，就剩下最終建議了。若要觀看 [!DNL Target] 內的產品內示範，此示範會在 21:00 於 *Adobe Target 基礎網路研討會*&#x200B;中開始進行，連結如下。
 
 ## Adobe Target 基礎網路研討會: Recommendations 簡介 {#intro-to-recs}
 
-[Recommendations簡介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Recommendations 簡介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
