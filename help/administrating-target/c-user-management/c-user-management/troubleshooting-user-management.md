@@ -1,14 +1,11 @@
 ---
-description: 疑難排解關於在 Adobe Target 中管理使用者的資訊。
 keywords: 對 Target 進行疑難排解; 使用者; 使用者管理
-seo-description: 疑難排解關於在 Adobe Target 中管理使用者的資訊。
-seo-title: 疑難排解使用者管理
-solution: Target
+description: 疑難排解關於在 Adobe Target 中管理使用者的資訊。
 title: 疑難排解使用者管理
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
