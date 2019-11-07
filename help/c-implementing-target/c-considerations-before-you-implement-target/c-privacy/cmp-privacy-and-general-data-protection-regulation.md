@@ -1,56 +1,53 @@
 ---
-description: 有關歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的資訊，以及這些規定對您的組織和Adobe Target有何影響。
-keywords: gdpr;eu；歐盟；隱私；常見問題；常見問題；加州消費者隱私法；ccpa；隱私；資料保護；退出；退出；政府；法規
-seo-description: 有關歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的資訊，以及這些規定對您的組織和Adobe Target有何影響。
-seo-title: 有關歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的資訊，以及這些規定對您的組織和Adobe Target有何影響。
-solution: Target
-title: 隱私權與資料保護法規
+keywords: gdpr;eu;歐盟;隱私權;常見問題集;常見問題集;加州消費者隱私保護法;ccpa;隱私權;資料保護;選擇退出;選擇退出;政府;規範
+description: 歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私權要求的相關資訊，以及這些規範對您的組織和 Adobe Target 有何影響。
+title: 歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私權要求的相關資訊，以及這些規範對您的組織和 Adobe Target 有何影響。
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# 隱私權與資料保護法規 {#privacy-and-general-data-protection-regulation-gdpr}
+# 隱私權與資料保護規範 {#privacy-and-general-data-protection-regulation-gdpr}
 
-有關歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的資訊，以及這些規定對您的組織和Adobe Target有何影響。
+歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私權要求的相關資訊，以及這些規範對您的組織和 Adobe Target 有何影響。
 
-## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
+## 隱私權與資料保護規範 (GDPR) 概覽 {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
-2018年5月25日，歐盟的GDPR生效。 如需與您自身相關的詳細資訊，請參閱 [GDPR 與您的業務](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
+自 2018 年 5 月 25 日起，歐盟的 GDPR 已正式生效。如需與您自身相關的詳細資訊，請參閱 [GDPR 與您的業務](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
 
-When [!DNL Adobe] is providing software and services to an enterprise, [!DNL Adobe] is acting as a Data Processor for any personal data it processes and stores as part of providing these services. As a Data Processor, [!DNL Adobe] processes personal data in accordance with your company's permission and instructions (for example, as set out in your agreement with [!DNL Adobe]).
+當 [!DNL Adobe] 向企業提供軟體和服務時，為了提供這些服務，[!DNL Adobe] 會以資料處理者的角色處理和儲存任何個人資料。身為資料處理者，[!DNL Adobe] 會根據貴公司的權限和指示 (例如，依照您與 [!DNL Adobe] 的合約規定) 處理個人資料。
 
-As the Data Controller, you determine the personal data that [!DNL Adobe] processes and stores on your behalf. If you use [!DNL Adobe Experience Cloud] solutions, [!DNL Adobe] might host personal data for you, depending on the solutions you use and the information you choose to send to your [!DNL Adobe Experience Cloud] account. 如需詳細的範例清單，請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/privacy/marketing-cloud.html#collect)。
+身為資料控管者，您可以決定由 [!DNL Adobe] 代表您處理和儲存的個人資料。如果使用 [!DNL Adobe Experience Cloud] 解決方案，則 [!DNL Adobe] 可能會根據您使用的解決方案，以及您選擇傳送到 [!DNL Adobe Experience Cloud] 帳戶的資訊，為您託管個人資料。如需詳細的範例清單，請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/privacy/marketing-cloud.html#collect)。
 
-[!DNL Adobe Experience Cloud] 為資料掌控者提供GDPR就緒API，讓他們完成下列工作：
+[!DNL Adobe Experience Cloud] 為資料控管者提供 GDPR 完備的 API，可讓資料控管者完成下列工作:
 
-* 存取儲存在 中的資料主體資訊[!DNL Target]
-* 刪除儲存在 中的資料主體資訊[!DNL Target]
+* 存取儲存在 [!DNL Target] 中的資料主體資訊
+* 刪除儲存在 [!DNL Target] 中的資料主體資訊
 
 如需詳細資訊，請參閱:
 
 * [Adobe 一般資料保護規範 API 網站](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [GDPR 文件](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
 
-## 加州消費者隱私權法案(CCPA)總覽
+## 加州消費者隱私保護法 (CCPA) 概覽
 
-加州消費者隱私法(CCPA)為加州消費者提供個人資訊的新權利，並對在加州經營業務的特定實體規定資料保護責任。 CCPA自2020年1月1日起生效。
+加州消費者隱私保護法 (CCPA) 為加州消費者提供關於其個人資訊的新權利，並對在加州執行業務的某些實體施加資料保護責任。CCPA 將於 2020 年 1 月 1 日生效。
 
-從高度上講，該法賦予加州人幾項主要權利，包括：
+整體來說，此法律賦予加州人多項重要權利，包括下列權利:
 
-* 要求資訊（資料存取）
-* 選擇退出個人資訊銷售（一項非常廣泛界定的權利，可選擇退出與第三方分享資訊）
-* 刪除個人資訊
-* 得知個人資訊已公開或出售
+* 要求資訊 (資料存取)
+* 選擇退出個人資訊銷售 (這是一項定義非常廣泛的權利，可選擇退出與協力廠商分享資訊)
+* 要求刪除個人資訊
+* 在個人資訊已公開或銷售時收到通知
 
-如果您正忙於為去年歐洲的隱私權法(GDPR)做好準備，其中一些權利可能已經很熟悉，而您完成的大部分工作可能會被再利用。
+如果您去年忙著為歐洲的隱私權法律 (GDPR) 做好準備，您可能很熟悉這裡的其中一些權利，而您已完成的許多工作可能可以另作他用。
 
-## Adobe Target and [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe Target 和 [!DNL Experience Platform Launch] 選擇加入 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] 透過提供選擇加入功能支援， [!DNL Launch] 以協助支援您的同意管理策略。 Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Launch] you'll need to select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the [!DNL Launch] extension installation view. 如需詳細資訊，請參閱 [Launch 文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
+[!DNL Target] 透過 [!DNL Launch] 支援選擇加入功能，有助於支援同意管理策略。選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Launch] 預先核准 [!DNL Target] 標記。若要啟用在 [!DNL Target] at.js 資料庫中使用選擇加入的功能，您應使用 `targetGlobalSettings` 並新增 `optinEnabled=true` 設定。在 [!DNL Launch] 中，您會需要以 [!DNL Launch] 擴充程式安裝檢視，從 [!UICONTROL GDPR 選擇加入]下拉式清單中選取「啟用」。如需詳細資訊，請參閱 [Launch 文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
 
 下列程式碼片段會向您示範如何啟用 `optinEnabled=true` 設定:
 
@@ -62,15 +59,15 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->at.js 1.7.0版和at.js 2.1.0版或更新版本支援選擇加入功能。 at.js 2.0.0和2.0.1版不支援選擇加入。
+>at.js 1.7.0 版和 at.js 2.1.0 或更新版本可支援選擇加入功能。at.js 2.0.0 版和 2.0.1 版不支援選擇加入。
 >
->Using [!DNL Experience Platform Launch] to manage opt-in is the recommended approach. Further granular control exists in [!DNL Launch] to hide selected elements of your page prior to [!DNL Target] firing that are helpful to leverage as part of your consent strategy.
+>建議使用 [!DNL Experience Platform Launch] 管理選擇加入。[!DNL Launch] 中可更仔細控制，可在 [!DNL Target] 引發前隱藏選取的頁面元素，當作同意策略十分實用。
 
 使用「選擇加入」時，該考慮三種情況:
 
-1. **[!DNL Target]標[!DNL Launch]簽是透過(或先前已[!DNL Target]核准的資料主體**)預先核准：標 [!DNL Target] 簽並非為獲得同意而持有，且功能如預期。
-1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「FALSE」:** 標記僅在向客戶取得同意後觸發。[!DNL Target]取得同意前，僅可使用預設內容。After consent is received, [!DNL Target] is called and personalized content is available to the data subject (visitor). 由於收到同意前只能使用預設內容，因此運用適當策略非常重要，例如遮住整個頁面或可個人化內容的啟動顯示畫面。這可確保資料主體 (訪客) 的體驗一致。
-1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「TRUE」:** 標記僅在向客戶取得同意後觸發。[!DNL Target]取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。[!DNL Target]`bodyHiddenStyle` 預設為 `body { opacity:0;`}，會隱藏 HTML 內文標記。建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。This setup configures [!DNL Target] so that it hides the page content container only. 如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **[!DNL Target]標記是透過[!DNL Launch]預先核准 (或資料主體先前核准[!DNL Target]):**[!DNL Target] 標記不會為同意保留，並照常運作。
+1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「FALSE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。收到同意後，系統會呼叫 [!DNL Target]，資料主體 (訪客) 即可使用個人化內容。由於收到同意前只能使用預設內容，因此運用適當策略非常重要，例如遮住整個頁面或可個人化內容的啟動顯示畫面。這可確保資料主體 (訪客) 的體驗一致。
+1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「TRUE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 [!DNL Target] 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。`bodyHiddenStyle` 預設為 `body { opacity:0;`}，會隱藏 HTML 內文標記。建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。這項設定會將 [!DNL Target] 設定為只隱藏頁面內容容器。如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    情況 3 的建議頁面設定如下:
 
@@ -100,29 +97,29 @@ window.targetGlobalSettings = {
    #pageContent { opacity:0;}
    ```
 
-## 隱私權與資料保護法規常見問答集 {#concept_41F88DE95D2943178BEC382736B5C038}
+## 隱私權與資料保護規範常見問題集 {#concept_41F88DE95D2943178BEC382736B5C038}
 
-關於歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)以及Target特定其他國際隱私權要求的常見問題。
+歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及 Target 專用之其他國際隱私權要求的相關常見問題集。
 
-### Adobe對這些法規的政策為何？ {#section_A6849628D6524C80A6E16946DC5D25A9}
+### Adobe 針對這些規範採取什麼原則? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
-[!DNL Adobe]身為資料處理者， 已符合相關規範或致力於履行我們的義務。我們擁有經過認證的安全性與隱私權控制的穩固基礎，並在2018年5月截止日期之前增強了產品。 企業客戶有責任實作這些增強功能，以及更新任何必要的政策和程序。
+[!DNL Adobe] 身為資料處理者， 已符合相關規範或致力於履行我們的義務。我們在經認證的安全性與設計的隱私權控制方面擁有穩固的基礎，並已於 2018 年 5 月的截止日期前持續增強產品功能。企業客戶有責任實作這些增強功能，以及更新任何必要的政策和程序。
 
-### Will my company, the Data Controller, need to submit a GDPR or CCPA request to each [!DNL Adobe Experience Cloud] solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### 我們公司身為資料控管者，需要針對每個使用的 [!DNL Adobe Experience Cloud]解決方案提交 GDPR 或 CCPA 要求嗎? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
-No, [!DNL Adobe] is providing a central way to help Data Controllers meet their GDPR and CCPA requirements. 資料控管者無需直接處理每一個解決方案。
+不需要，[!DNL Adobe]會以集中的方式協助資料控管者符合其 GDPR 和 CCPA 的規範要求。資料控管者無需直接處理每一個解決方案。
 
-All GDPR and CCPA requests across [!DNL Experience Cloud] solutions, including [!DNL Target], will be made through a central Adobe API, currently called the GDPR API. The API will then complete the request across the Data Controller's [!DNL Experience Cloud] solution suite.
+[!DNL Experience Cloud]解決方案 (包括 [!DNL Target]) 的所有 GDPR 和 CCPA 要求，將透過目前稱為 GDPR API 的中央 Adobe API 來執行。此 API 便會完成資料控管者的 [!DNL Experience Cloud] 解決方案套裝上的所有要求。
 
-### What information will [!DNL Adobe] enable our customers to delete in response to a data subject/user request? {#section_4B51D00924EC4166B2442218B69214F0}
+### [!DNL Adobe] 提交資料主體/使用者要求後， 會讓客戶刪除哪些資訊? {#section_4B51D00924EC4166B2442218B69214F0}
 
-The information related to an individual visitor within [!DNL Target] is contained within the [!DNL Target] Visitor Profile. [!DNL Target] 會讓客戶刪除與其訪客設定檔中之 ID 相關的所有資料。如需描述檔資料儲存的范 [!DNL Target] 例，請參 [閱訪客描述檔](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)。
+有關 [!DNL Target] 中的個別訪客資訊會包含在 [!DNL Target] 訪客設定檔中。[!DNL Target] 會讓客戶刪除與其訪客設定檔中之 ID 相關的所有資料。如需設定檔資料 [!DNL Target] 儲存的範例，請參閱[訪客設定檔](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)。
 
 不會識別特定個人的彙總或匿名資料 (例如報告資料)，或與特定個人不相關的資料 (例如內容資料)，則不在使用者刪除要求的範圍之內。
 
-[!DNL Target]長達 90 天未使用的 訪客設定檔會依預設刪除，您無需採取任何動作。
+[!DNL Target] 長達 90 天未使用的 訪客設定檔會依預設刪除，您無需採取任何動作。
 
-### What IDs are supported to help customers complete a GDPR or CCPA access and deletion request for [!DNL Target]? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### 哪些 ID 受到支援，並且可協助客戶完成針對 [!DNL Target] 的 GDPR 或 CCPA 存取及刪除要求? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 [!DNL Target] 支援下列 ID 類型，以便找出客戶設定檔:
 
@@ -134,17 +131,17 @@ The information related to an individual visitor within [!DNL Target] is contain
 
 >[!NOTE]
 >
->Although [!DNL Target] supports both first-party and third-party cross-domain cookies, first-party [!DNL Target] cookies only are recommended for GDPR and CCPA.
+>雖然 [!DNL Target] 對第一方和協力廠商跨網域 Cookie 均有支援，但只建議將第一方 [!DNL Target] Cookie 用於 GDPR 和 CCPA。
 
-### How does [!DNL Target] handle consent management? {#section_C86BF5EE4FAA47039659850E7594A6BA}
+### [!DNL Target] 如何處理同意管理? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-GDPR和CCPA在您需要取得同意時不會改變，但會改變您取得同意的方式。 每個客戶的同意策略會根據其資料收集和使用實務，以及其隱私權政策來訂定。Consent management isn’t supported by and shouldn’t be achieved via [!DNL Target] for GDPR and CCPA.
+GDPR 和 CCPA 並未變更您必須取得同意的時間，而是改變您取得同意的方式。每個客戶的同意策略會根據其資料收集和使用實務，以及其隱私權政策來訂定。[!DNL Target] 不支援 GDPR 和 CCPA 的同意管理，也不應作為達成此功能的工具。
 
 [!DNL Adobe] 目前並未提供同意管理解決方案，但市場中已開發各種工具，可有效應付新需求中的部分內容。For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
 
-[!DNL Target] 確實會透過提供選擇加入功能支援， [!DNL Launch] 以支援您的同意管理策略。 Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. Using [!DNL Launch] to manage opt-in is the recommended approach. Further granular control exists in [!DNL Launch] to hide select elements of your page prior to the [!DNL Target] firing that might be helpful to leverage as part of your consent strategy.
+[!DNL Target] 透過 [!DNL Launch] 支援選擇加入功能，以支援同意管理策略。選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Launch] 預先核准 [!DNL Target] 標記。建議使用 [!DNL Launch] 管理選擇加入。[!DNL Launch] 中可更仔細控制，可在 [!DNL Target] 引發前隱藏特定頁面元素，當作同意策略十分實用。
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Also, see the *Adobe Target and Experience Platform Launch opt-in* section above.
+For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). 另請參閱上方的 *Adobe Target 和 Experience Platform Launch 選擇加入*&#x200B;一節。
 
 ### AdobePrivacy.js 會將資訊提交至 GDPR API 嗎? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -152,13 +149,13 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 ### removeIdentities 會移除哪些內容? {#section_D3A1591EA1B84C499CE1563DEAF32448}
 
-[!DNL removeIdentities]*僅會*[!DNL Adobe]從瀏覽器移除身分資料，而此動作完全取決於 解決方案是否已實作此程式碼。
+[!DNL removeIdentities] *僅會*[!DNL Adobe]從瀏覽器移除身分資料，而此動作完全取決於 解決方案是否已實作此程式碼。
 
-For example, [!DNL Target] deletes the cookies storing its IDs, but [!DNL Adobe Audience Manager] (AAM) does not delete the demdex ID that is stored in a third-party cookie.
+例如，[!DNL Target] 會刪除儲存訪客 ID 的 Cookie，但 [!DNL Adobe Audience Manager] (AAM) 不會刪除儲存在協力廠商 Cookie 中的 demdex ID。
 
-### What information needs to be included in a Target GDPR or CCPA request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### Target GDPR 或 CCPA 要求需要包含哪些資訊? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-In addition to the requirements from Central Privacy Service, a valid GDPR or CCPA message for [!DNL Target] contains:
+除了集中隱私權服務的需求，[!DNL Target] 接受的有效 GDPR 或 CCPA 訊息包含:
 
 ```
 { 
@@ -197,20 +194,20 @@ In addition to the requirements from Central Privacy Service, a valid GDPR or CC
 }
 ```
 
-### 透過 GDPR API，我應該可以得到哪些回應類型?    {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### 透過 GDPR API，我應該可以得到哪些回應類型?   {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | 要求狀態 | Target 回應訊息 | 藍本 |
 |--- |--- |--- |
-| 正在處理 | 正在處理 | Target已收到GDPR或CCPA要求並正在處理中。 |
-| 完成 | 不適用 - 公司環境不適用 | GDPR或CCPA請求中的IMS ID未對應至任何Target用戶端。<br>請注意，某些公司擁有多個 IMS ID。您必須在佈建 Target 之處提交 IMS ID。 |
-| 完成 | 不適用 - 使用者環境不適用 | 特定訪客或資料主體的GDPR或CCPA要求中提供的ID不存在於Target描述檔儲存區中。<br>請注意，如果您企圖提交 Target 不支援的名稱空間 ID 類型 (請參閱上方提及支援的 ID 部分)，也會傳回這樣的結果。 |
+| 正在處理 | 正在處理 | Target 已收到 GDPR 或 CCPA 要求，且正在處理中。 |
+| 完成 | 不適用 - 公司環境不適用 | GDPR 或 CCPA 要求中的 IMS ID 未對應到任何 Target 用戶端。<br>請注意，某些公司擁有多個 IMS ID。您必須在佈建 Target 之處提交 IMS ID。 |
+| 完成 | 不適用 - 使用者環境不適用 | Target 設定檔存放區中沒有在 GDPR 或 CCPA 要求中提供的特定訪客或資料主體的 ID。<br>請注意，如果您企圖提交 Target 不支援的名稱空間 ID 類型 (請參閱上方提及支援的 ID 部分)，也會傳回這樣的結果。 |
 | 錯誤 | 錯誤訊息 (詳細資訊會視錯誤類型而定) | 擷取或刪除要求的資料主體設定檔時發生錯誤。<br>因應存取要求上傳至 Azure 時發生錯誤。 |
 
 ### Target 針對存取要求傳送至 GDPR API 的回應是什麼? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
-Responses to access data requests contain a summary of the [!DNL Target] profile for the visitor in question. Note that this return is sent to the [!DNL Experience Cloud] GDPR API, which in turn sends Data Controllers a response.
+存取資料要求的回應包含特定訪客的 [!DNL Target] 設定檔摘要。請注意，此傳回內容會傳送至 [!DNL Experience Cloud] GDPR API，並傳送回應給資料控管者。
 
-A sample [!DNL Target] access API response could look like this:
+[!DNL Target] 存取 API 回應的範例看起來可能會像這樣:
 
 ```
 { 
@@ -251,16 +248,16 @@ A sample [!DNL Target] access API response could look like this:
 
 | 欄位 | 說明 |
 |--- |--- |
-| jobId | 指出來自Central GDPR API的GDPR或CCPA工作ID。 |
+| jobId | 表示中央 GDPR API 中的 GDPR 或 CCPA 工作 ID。 |
 | imsOrgID | 為您的公司提供唯一識別碼。 |
-| namespace | 亦稱為資料來源。請參閱「支援哪些ID來協助客戶完成Target的GDPR或CCPA存取和刪除要求？」 GDPR 存取及刪除要求?」 |
-| type | 您要求存取GDPR或CCPA資料的ID類型。 Target 接受多種 ID 類型，部分為標準型，有些則為 Target 專用型。請參閱「支援哪些ID來協助客戶完成Target的GDPR或CCPA存取和刪除要求？」 GDPR 存取及刪除要求?」 |
-| value | namespace/資料來源的 ID。請參閱「支援哪些ID來協助客戶完成Target的GDPR或CCPA存取和刪除要求？」 ，以瞭解接受的值。 |
+| namespace | 亦稱為資料來源。請參閱「哪些 ID 受到支援，並且可協助客戶完成針對 Target 的 GDPR 或 CCPA 存取及刪除要求?」GDPR 存取及刪除要求?」 |
+| type | 您要求 GDPR 或 CCPA 資料存取權限的 ID 類型。Target 接受多種 ID 類型，部分為標準型，有些則為 Target 專用型。請參閱「哪些 ID 受到支援，並且可協助客戶完成針對 Target 的 GDPR 或 CCPA 存取及刪除要求?」GDPR 存取及刪除要求?」 |
+| value | namespace/資料來源的 ID。請參閱「哪些 ID 受到支援，並且可協助客戶完成針對 Target 的 GDPR 或 CCPA 存取及刪除要求?」，以瞭解接受的值。 |
 | 整合程式碼 | 整合程式碼為易記的資料來源名稱，比起使用資料來源 ID，可協助您更輕鬆地追蹤資料來源。 |
 
-當有多個值可用來識別設定檔時，每個有效的識別碼都會有一個設定檔檔案。The profile file(s) are sent to the central GDPR Azure Blob through the GDPR Central API, in the format of [!DNL Target] Profile JSON response.
+當有多個值可用來識別設定檔時，每個有效的識別碼都會有一個設定檔檔案。設定檔檔案會透過 GDPR 中央 API，以 [!DNL Target] 設定檔的 JSON 回應格式傳送至集中的 GDPR Azure Blob。
 
-A sample [!DNL Target] Profile JSON could look like the following example:
+[!DNL Target] 設定檔 JSON 的範例看起來可能像下面的例子:
 
 ```
 {"profileAttributes": 
@@ -280,15 +277,15 @@ A sample [!DNL Target] Profile JSON could look like the following example:
 
 | 欄位 | 說明 |
 |--- |--- |
-| Sample_Parameter | Many pieces of information in the [!DNL Target] profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the [!DNL Target] profile using the Profile Update API. 如需詳細資訊，請 [參閱將資料匯入Target的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)。 |
+| Sample_Parameter | [!DNL Target] 設定檔中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，參數是使用設定檔更新 API 上傳到 [!DNL Target] 設定檔中。如需詳細資訊，請參閱[將資料傳入 Target 的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)。 |
 | user.ReturnTimeOfDay | 此標準欄位包含使用者最近回訪的時間。 |
 | firstSessionStart | 此標準欄位包含使用者首次工作階段開始的時間。 |
-| user.sessionCountScript | Many pieces of information in the [!DNL Target] profile are uploaded or directly provided by the Data Controller. 在此範例中，設定檔指令碼會遞增此訪客針對資料管控者網站執行工作階段的次數。如需詳細資訊，請參閱[設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md)。 |
+| user.sessionCountScript | [!DNL Target] 設定檔中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，設定檔指令碼會遞增此訪客針對資料管控者網站執行工作階段的次數。如需詳細資訊，請參閱[設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md)。 |
 
 >[!NOTE]
 >
->This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. 傳回的內容取決於特定訪客設定檔中的資訊。
+>此為 [!DNL Target] 設定檔 JSON 的簡短版本，以供說明使用。[!DNL Target] 設定檔的許多欄位並非標準欄位。傳回的內容取決於特定訪客設定檔中的資訊。
 
-### Target 支援 IP 模糊化功能嗎?    {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target 支援 IP 模糊化功能嗎?   {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] 如果您選擇將IP模糊化用作GDPR或CCPA實作策略的一部分，則支援IP模糊化。 For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
