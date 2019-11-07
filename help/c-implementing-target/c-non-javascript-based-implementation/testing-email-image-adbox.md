@@ -1,14 +1,11 @@
 ---
-description: 動態測試電子郵件中的影像，甚至在某人開啟電子郵件時迅速變更那些影像。
 keywords: 電子郵件；adbox；電子郵件影像adbox
-seo-description: 使用Adobe Target，動態測試電子郵件中的影像，甚至在有人開啟電子郵件時即時變更這些影像。
-seo-title: 使用Adobe Target測試電子郵件影像Adbox
-solution: Target
-title: 測試電子郵件影像 Adbox
+description: 使用Adobe Target，動態測試電子郵件中的影像，甚至在有人開啟電子郵件時即時變更這些影像。
+title: 使用Adobe Target測試電子郵件影像Adbox
 topic: 建議
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
