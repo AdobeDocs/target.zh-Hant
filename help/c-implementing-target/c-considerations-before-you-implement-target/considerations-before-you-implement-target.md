@@ -1,15 +1,12 @@
 ---
-description: 實作 Adobe Target 前應注意的考量事項。
 keywords: 實作;實施
-seo-description: 實作 Adobe Target 前應注意的考量事項。
-seo-title: 實作之前
-solution: Target
-subtopic: 快速入門
+description: 實作 Adobe Target 前應注意的考量事項。
 title: 實作之前
+subtopic: 快速入門
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
