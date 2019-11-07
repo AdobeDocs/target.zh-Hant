@@ -1,15 +1,12 @@
 ---
-description: Adobe Target 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 keywords: 瀏覽器;必要條件;需求;internet explorer;chrome;firefox;safari;android;surface
-seo-description: Adobe Target 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
-seo-title: 受支援的瀏覽器
-solution: Target
-subtopic: 快速入門
+description: Adobe Target 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 title: 受支援的瀏覽器
+subtopic: 快速入門
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
