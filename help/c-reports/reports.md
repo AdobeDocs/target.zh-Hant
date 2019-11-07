@@ -1,15 +1,12 @@
 ---
-description: 報表提供關於活動效能的資訊。
 keywords: 報表;封鎖 ip 位址;根據 ip 位址封鎖訪客;下載報表;csv
-seo-description: 報表提供關於活動效能的資訊
-seo-title: 報表
-solution: Target
-subtopic: 多變數測試
+description: 報表提供關於活動效能的資訊
 title: 報表
+subtopic: 多變數測試
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->您可封鎖來自特定 IP 位址的訪客，不計算在報表中。請聯絡 Client Care 以設定 IP 過濾器。此篩選在使用[Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) 作為報表來源時不適用。
+>您可封鎖來自特定 IP 位址的訪客，不計算在報表中。請聯絡 Client Care 以設定 IP 過濾器。此篩選在使用 [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) 作為報表來源時不適用。
 
 ## 特定活動類型的報表資訊 {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -42,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    例如，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「A/B 測試」]和[!UICONTROL 「體驗鎖定目標」]，並從[!UICONTROL 「狀態」]下拉式清單中選取[!UICONTROL 「上線」]，即可只顯示處於使用中狀態的 A/B 測試和「體驗鎖定目標」活動。
 
-   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型: A/B 測試和體驗鎖定目標。請注意，根據預設會選取三種類型 A/B 測試 (手動、[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md))。您可以視需要取消選取一或多個類型。
+   下圖顯示的[!UICONTROL 「類型」]下拉式清單中已選取兩個類型: A/B 測試和體驗鎖定目標。請注意，根據預設會選取三種類型 A/B 測試 (手動、[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md))。您可以視需要取消選取一或多個類型。
 
    ![依類型篩選報表](/help/c-reports/assets/report_filters-new.png)
 
