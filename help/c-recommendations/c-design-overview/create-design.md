@@ -1,16 +1,10 @@
 ---
-description: 設計可定義建議出現在頁面上的方式。
 keywords: 建議設計;建立設計;複製設計
-seo-description: 設計可定義建議出現在頁面上的方式。
-seo-title: 建立設計
-solution: Target
+description: 設計可定義建議出現在頁面上的方式。
 title: 建立設計
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -48,11 +42,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 訓練影片：在Recommendations中建立自訂設計(3:20)
+## 訓練影片: 在 Recommendations 中建立自訂設計 (3:20)
 
-This video contains the following information:
+此影片包含下列資訊:
 
 * 建立自訂設計
-* 瞭解如何在您的設計中參考顯示變數
+* 瞭解如何參考設計中的顯示變數
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=chi_hant)
