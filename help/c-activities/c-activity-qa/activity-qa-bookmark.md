@@ -1,14 +1,11 @@
 ---
-description: 此資訊可協助您使用Adobe Target QA書籤小工具來強制Target從QA模式釋放您。
 keywords: qa;預覽;書籤小程式;預覽連結
-seo-description: 此資訊可協助您使用Adobe Target QA書籤小工具來強制Target從QA模式釋放您。
-seo-title: Adobe Target的活動QA書籤小工具
-solution: Target
-title: 活動 QA 書籤小程式
+description: 此資訊可協助您使用Adobe Target QA書籤小工具來強制Target從QA模式釋放您。
+title: Adobe Target的活動QA書籤小工具
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
