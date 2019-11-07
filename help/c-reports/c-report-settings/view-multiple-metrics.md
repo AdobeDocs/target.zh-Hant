@@ -1,14 +1,10 @@
 ---
-description: 選取要在報表中檢視的多個量度。
 keywords: Target;報表;報表設定;多個量度;量度
-seo-description: 使用Adobe Target選取多個度量以在報表中檢視。
-seo-title: 使用Adobe Target在報表中檢視多個量度
-solution: Target
-title: 在報表中檢視多個量度
-topic: Premium
+description: 使用Adobe Target選取多個度量以在報表中檢視。
+title: 使用Adobe Target在報表中檢視多個量度
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
