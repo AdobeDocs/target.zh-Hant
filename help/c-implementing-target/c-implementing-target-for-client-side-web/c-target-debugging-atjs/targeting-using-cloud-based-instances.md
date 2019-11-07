@@ -1,13 +1,10 @@
 ---
-description: 關於客戶使用雲端型例項來測試 Adobe Target 時所面臨問題的資訊。
 keywords: 雲端例項;公用尾碼清單;公用尾碼;Cookie;第一方 Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-seo-description: 關於客戶使用雲端型例項來測試 Adobe Target 時所面臨問題的資訊。
-seo-title: 使用雲端型例項搭配 Target
-solution: Target
+description: 關於客戶使用雲端型例項來測試 Adobe Target 時所面臨問題的資訊。
 title: 使用雲端型例項搭配 Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
