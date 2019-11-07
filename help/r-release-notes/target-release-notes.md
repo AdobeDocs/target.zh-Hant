@@ -1,14 +1,11 @@
 ---
-description: 提供最新或即將發行的Adobe target版本功能、增強功能和修正資訊的發行說明。
 keywords: 發行說明；發行；更新；未來發行；增強；新功能；修正
-seo-description: 提供最新或即將發行的DNL Adobe target版本功能、增強功能和修正資訊的發行說明。
-seo-title: Adobe target搶鮮版注意事項
-solution: Target
-title: Target 版本說明 (發行前)
+description: 提供最新或即將發行的DNL Adobe target版本功能、增強功能和修正資訊的發行說明。
+title: Adobe target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
