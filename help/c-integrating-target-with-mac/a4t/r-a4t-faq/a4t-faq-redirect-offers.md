@@ -1,14 +1,11 @@
 ---
-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於重新導向選件問題的回答。
 keywords: faq;常見問題集;analytics for target;a4T;重新導向;重新導向選件;adobe-mc-sdid;adobe_mc_ref
-seo-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於重新導向選件問題的回答。
-seo-title: 重新導向選件 - A4T 常見問題集
-solution: Target
+description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於重新導向選件問題的回答。
 title: 重新導向選件 - A4T 常見問題集
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -41,17 +38,17 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 可能會出現一些資料差異，這在預期之中。如需詳細資訊，請參閱[使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
 
-## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?    {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-使用at.js 1.6.3版或更新版本時，這不是問題。 此競爭條件僅影響使用舊版的客戶。 Target團隊維護兩個版本的at.js:目前版本和第二個最新版本。 Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+使用 at.js 1.6.3 版或更新版本時，這並非問題。此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
-如果您使用舊版、不支援的at.js版本，可能會發生競爭條件，導致Analytics呼叫在重新導向在第一頁執行之前觸發。 這會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
+如果您使用不支援的較舊 at.js 版本，可能會發生競爭條件，而可能導致 Analytics 呼叫在重新導向於第一個頁面上執行前引發。這會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 
 建議使用表單式撰寫器來建立重新導向活動，以加速頁面重新導向。原因在於頁面上執行程式碼的地方。另外，對於重新導向會傳回原始頁面的每個體驗，即使是預設體驗，也最好建立重新導向選件。發生誤算時，這可確保所有體驗皆誤算，因此，報表和分析對於測試仍然有效。
 
-您可能想要針對活動中的所有體驗(包括預設（控制）體驗)使用重新導向選件的一個原因，是在所有體驗上放置相同的條件。 例如，如果預設體驗沒有重新導向選件，但其他體驗有重新導向選件，則沒有重新導向選件的體驗速度具有固有的優勢。 建議僅針對暫時藍本（例如測試）重新導向選件。 不建議永久藍本（例如個人化）使用重新導向選件。 在您決定「成功者」後，您應移除重新導向以改善頁面載入效能。
+您可能想要將重新導向選件用於活動中的所有體驗 (包括預設 (控制) 體驗) 的一個原因是，想要對所有體驗設定相同的條件。例如，如果預設體驗沒有重新導向選件，但其他體驗有重新導向選件，沒有重新導向選件之體驗的速度會有沿用的優勢。建議僅將重新導向選件用於臨時案例，例如測試。不建議將重新導向選件用於永久案例，例如個人化。決定「獲勝者」後，您應移除重新導向以改善頁面載入效能。
 
-For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+如需此問題的詳細資訊，請參閱[已知問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)中的「重新導向選件」資訊。
 
 ## 如果我使用 mbox.js JavaScript 程式庫，可以在 A4T 中使用重新導向選件嗎? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
@@ -74,7 +71,7 @@ For more information about this issue, see the "Redirect offers" information in 
 
 在 VEC 和表單式體驗撰寫器中使用重新導向選件，且頁面上實作訪客 ID 服務時，這些參數會自動加入重新導向 URL 中。如果在 VEC 和表單式撰寫器中使用您自己的自訂重新導向程式碼，務必隨著自訂程式碼傳遞這些參數。
 
-## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦?    {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 您需要與 IT 團隊合作，將這些參數 (`adobe_mc_sdid` 和 `adobe_mc_ref`) 加入白名單。
 
