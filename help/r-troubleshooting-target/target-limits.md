@@ -1,14 +1,11 @@
 ---
-description: 有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制(選件大小、對象、設定檔、值、參數等) 的資訊。
 keywords: 字元限制;mbox 參數;批次傳送 api;描述檔參數;限制;內建描述檔;上限;限制;限制;字元;最佳作法;orderid;orderTotal;mbox3rdPartyID;類別;categoryID
-seo-description: 有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制(選件大小、對象、設定檔、值、參數等) 的資訊。
-seo-title: 限制
-solution: Target
+description: 有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制(選件大小、對象、設定檔、值、參數等) 的資訊。
 title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
