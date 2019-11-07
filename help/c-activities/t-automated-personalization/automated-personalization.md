@@ -1,16 +1,11 @@
 ---
-description: 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同選件變數，以便個人化內容並促進提升度。
 keywords: 自動個人化; 對象; 整體; 隨機森林
-seo-description: 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同選件變數，以便個人化內容並促進提升度。
-seo-title: 自動個人化
-solution: Target
+description: 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同選件變數，以便個人化內容並促進提升度。
 title: 自動個人化
-title-outputclass: premium
 topic: 進階
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
