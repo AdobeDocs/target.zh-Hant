@@ -1,13 +1,9 @@
 ---
 description: 有時活動不會如預期般進行。以下是使用自動個人化時您可能面臨的一些潛在挑戰，以及一些建議的解決方案。
-seo-description: 有時活動不會如預期般進行。以下是使用自動個人化時您可能面臨的一些潛在挑戰，以及一些建議的解決方案。
-seo-title: 疑難排解自動個人化
 title: 疑難排解自動個人化
-title-outputclass: premium
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
