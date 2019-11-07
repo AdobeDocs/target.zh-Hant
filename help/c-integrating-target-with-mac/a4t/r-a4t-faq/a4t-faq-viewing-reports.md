@@ -1,14 +1,11 @@
 ---
-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
 keywords: faq;常見問題集;analytics for target;a4T;報表;檢視報表;計數方法;曝光次數;訪客;造訪;預設量度;活動轉換;未指定
-seo-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
-seo-title: 檢視報表 - A4T 常見問題集
-solution: Target
+description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
 title: 檢視報表 - A4T 常見問題集
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -25,7 +22,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 * 訪客
 * 瀏覽次數
 
-## 我可以為 Target 報表設定預設量度嗎?   {#section_50C20D286AA042CCA958184C9C0767DD}
+## 我可以為 Target 報表設定預設量度嗎? {#section_50C20D286AA042CCA958184C9C0767DD}
 
 對於「活動」報表，管理員可變更預設量度，以便每次執行報表時顯示同樣的量度。否則，報表會預設顯示您上次套用至上個報表的量度。
 
@@ -37,7 +34,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 可搭配計算量度將區段套用至量度。想要建立一種新的成功事件時通常會這樣做。例如，如果您想要查看活動產生多少再度訪問的訪客，或有多少訪客在特定頁面上看到您的測試。請注意，目前無法為計算度量產生提升度和可信度。
 
-## 檢視報表時應該使用訪客、活動曝光次數或造訪?   {#metrics}
+## 檢視報表時應該使用訪客、活動曝光次數或造訪? {#metrics}
 
 有多種選項，各有其優點:
 
@@ -52,7 +49,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 * 使用者符合活動資格，且內容已從 [!DNL Target] 傳回時，上述所有量度都會觸發。這不一定表示使用者已經看到選件。若活動體驗位於下半部，且使用者並未向下捲動頁面，則雖然 [!DNL Target] 已提供選件，但使用者並未看到選件。
 * [!UICONTROL 活動曝光次數] (由 [!DNL Target] 測量) 和[!UICONTROL 例項] (由 [!DNL Analytics] 測量) 相等，除非相同活動的相同頁面上有多個 mbox 呼叫。這會導致系統計算多個[!UICONTROL 活動曝光次數]，但僅有單一[!UICONTROL 例項]。
-* 在中使 [!UICONTROL 用「活動印象] 」和「活動 [!UICONTROL 轉換」度量] 時，請確定兩個度量都套 [!DNL Analysis Workspace]用了相同的Touch  歸因模型。 您可以按一下欄設定齒輪，啟用「非預設歸因模 [!UICONTROL 型」]，然後選取「相 [!UICONTROL 同觸控」來套用模型]。 進一步瞭解 [Analytics工具指南中的屬性](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) IQ概觀 *，以*&#x200B;瞭解歸因。
+* 在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度時，請確保兩個量度皆已套用 [!UICONTROL 相同接觸點]歸因模型。若要套用模型，請按一下欄設定齒輪圖示，啟用[!UICONTROL 非預設歸因模型]，然後選取[!UICONTROL 相同接觸點]。進一步瞭解 [Analytics工具指南中的屬性](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) IQ概觀 *，以*&#x200B;瞭解歸因。
 
 ## 如果市場行銷人員在活動設定期間挑選 Analytics 量度，「活動轉換」是什麼意思? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +59,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 ![](assets/unspecified.png)
 
-在其他報表中，「未指定」表示資料不符合分類規則，但這在 A4T 中絕對不會發生。如果看到「未指定」，就表示分類服務尚未執行。活動資料通常需要24到72小時才會顯示在報表中。 即使在此之前活動不會出現在報表中，但這些活動相關的所有訪客資料皆會記錄下來，當分類完成時即會出現。
+在其他報表中，「未指定」表示資料不符合分類規則，但這在 A4T 中絕對不會發生。如果看到「未指定」，就表示分類服務尚未執行。通常需要 24 到 72 小時，活動資料才會出現在報表中。即使在此之前活動不會出現在報表中，但這些活動相關的所有訪客資料皆會記錄下來，當分類完成時即會出現。
 
 分類期過後，從網站收集完資料的大約一小時後，資料就會出現在這些報表中。報表中的所有量度、區段和值，來自於您設定活動時所選取的報表套裝。
 
@@ -122,7 +119,7 @@ For more information, see [Conversion Variables (eVar](https://docs.adobe.com/co
 
 您可以將 Target 變數持續的時間縮短到一個工作階段，不過，對於不太可能在相同工作階段內發生轉換事件的測試，這通常會造成問題。
 
-## Analytics 中為何有時會在多個體驗中統計相同位訪客?   {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Analytics 中為何有時會在多個體驗中統計相同位訪客? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 下列清單說明 Analytics 中為何在多個體驗中可能會計入相同訪客的原因:
 
