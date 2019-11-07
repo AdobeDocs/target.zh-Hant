@@ -1,13 +1,10 @@
 ---
-description: 在您可以建立成功的測試之前，Adobe Target 中的多變數測試需要一些計劃。
 keywords: 多變數測試;mvt;mvt 計劃;多變數測試計劃
-seo-description: 在您可以建立成功的測試之前，Adobe Target 中的多變數測試需要一些計劃。
-seo-title: 在 Adobe Target 中計劃多變數測試
-solution: Target
-title: 計劃多變數測試
+description: 在您可以建立成功的測試之前，Adobe Target 中的多變數測試需要一些計劃。
+title: 在 Adobe Target 中計劃多變數測試
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
