@@ -1,15 +1,12 @@
 ---
-description: 將資料下載為 .csv 格式，以快速匯入至 Excel、Access 或其他資料分析程式。
 keywords: 報表;下載報表;csv;成功量度;訂單詳細資料
-seo-description: 以。csv格式下載資料，以便使用Adobe Target快速匯入至Excel、Access或其他資料分析程式。
-seo-title: 使用Adobe Target將資料下載為CSV檔案
-solution: Target
+description: 以。csv格式下載資料，以便使用Adobe Target快速匯入至Excel、Access或其他資料分析程式。
+title: 使用Adobe Target將資料下載為CSV檔案
 subtopic: 多變數測試
-title: 將資料下載為 CSV 檔案
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
