@@ -1,14 +1,11 @@
 ---
-description: 位置貢獻報表顯示每個元素和每個選件的效能。
 keywords: mvt;多變數測試;位置貢獻報表
-seo-description: 位置貢獻報表顯示每個元素和每個選件的效能。
-seo-title: 位置貢獻報表 (MVT)
-solution: Target
+description: 位置貢獻報表顯示每個元素和每個選件的效能。
 title: 位置貢獻報表 (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
