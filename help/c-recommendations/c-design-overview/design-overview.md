@@ -1,14 +1,10 @@
 ---
-description: 關於可定義建議在頁面上出現方式的設計的概覽資訊。
 keywords: 建議設計;範本;建立設計;傳送;輸出
-seo-description: 關於可定義建議在頁面上出現方式的設計的概覽資訊。
-seo-title: 設計概覽
-solution: Target
+description: 關於可定義建議在頁面上出現方式的設計的概覽資訊。
 title: 設計概覽
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +23,7 @@ Target 也可以將您的建議當成 JSON 物件來傳送，然後就可用於�
 
 下列範例顯示透過表單式編輯器來設定活動時，如何傳回 JSON 回應。
 
-1. 從「設計程式庫」或表單式工作流程內建立設計。如果您嘗試在可視化體驗撰寫器 (VEC) 工作流程內這樣做，則無法建立除了 HTML 設計以外的任何項目，此設計會包裝在`<div>`中作為點擊追蹤用途。
+1. 從「設計程式庫」或表單式工作流程內建立設計。如果您嘗試在可視化體驗撰寫器 (VEC) 工作流程內這樣做，則無法建立除了 HTML 設計以外的任何項目，此設計會包裝在 `<div>` 中作為點擊追蹤用途。
 1. 確定「HTML 設計」選項已關閉:
 
    ![](assets/html_design_toggle.png)
@@ -91,7 +87,7 @@ Target 也可以將您的建議當成 JSON 物件來傳送，然後就可用於�
 | 參數 | 值 |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 用戶端代碼 (位於 ../target/products.html#recsSettings  &gt; Recommendations API Token &gt; 用戶端代碼。 |
-| `[YOUR_MBOX_NAME]` | The name you've selected in the "locations" section of the form-based Recommendations, in this case Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | 您在表單型Recommendations的「位置」區段中選取的名稱，在此例中為Sample_Recs_Response。 |
 | `[ENTITY_ID`] | 目錄中之項目的 `entity.id`。 |
 | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
 
