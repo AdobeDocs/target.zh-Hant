@@ -1,14 +1,11 @@
 ---
-description: 有關如何使用 Adobe Launch、不使用標記管理程式，或使用 Adobe 動態標籤管理 (DTM) 部署 Adobe Target JavaScript 程式庫和 at.js 的資訊。
 keywords: 實作;at.js;javascript 資料庫
-seo-description: 有關如何使用 Adobe Launch、不使用標記管理程式，或使用 Adobe 動態標籤管理 (DTM) 部署 Adobe Target JavaScript 程式庫和 at.js 的資訊。
-seo-title: 如何部署 at.js
-solution: Target
+description: 有關如何使用 Adobe Launch、不使用標記管理程式，或使用 Adobe 動態標籤管理 (DTM) 部署 Adobe Target JavaScript 程式庫和 at.js 的資訊。
 title: 如何部署 at.js
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
