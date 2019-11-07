@@ -1,16 +1,10 @@
 ---
-description: 新增提示的項目並控制其在您的 Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
 keywords: 促銷活動;前端促銷活動;後端促銷活動;促銷活動類型
-seo-description: 新增提示的項目並控制其在您的 Adobe Target Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
-seo-title: 在 Adobe Target Recommendations 設計中新增促銷活動。
-solution: Target
-title: 新增促銷活動
-title-outputclass: premium
-topic: Premium
+description: 新增提示的項目並控制其在您的 Adobe Target Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
+title: 在 Adobe Target Recommendations 設計中新增促銷活動。
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
