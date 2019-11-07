@@ -1,14 +1,11 @@
 ---
-description: 透過伺服器端傳送使用 QA URL，來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
 keywords: qa;伺服器端;伺服器端;預覽;預覽連結
-seo-description: 透過伺服器端傳送使用 QA URL，來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
-seo-title: 使用透過伺服器端傳送的活動 QA
-solution: Target
+description: 透過伺服器端傳送使用 QA URL，來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
 title: 使用透過伺服器端傳送的活動 QA
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
