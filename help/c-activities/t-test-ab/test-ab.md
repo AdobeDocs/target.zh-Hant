@@ -1,13 +1,10 @@
 ---
-description: A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。
 keywords: AB; A/B; AB...n; 比較體驗; 鎖定目標; 比較內容
-seo-description: A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。
-seo-title: A/B 測試
-solution: Target
+description: A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。
 title: A/B 測試
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
