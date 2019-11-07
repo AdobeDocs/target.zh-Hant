@@ -1,13 +1,11 @@
 ---
-description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 keywords: 活動設定; A/B目標與設定; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表對象; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
-seo-description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
-seo-title: 目標與設定
+description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 title: 目標與設定
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
