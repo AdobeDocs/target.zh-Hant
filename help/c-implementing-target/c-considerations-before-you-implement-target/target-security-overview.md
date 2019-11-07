@@ -1,13 +1,10 @@
 ---
-description: 關於 Adobe 所實作以支持資料的安全性和 Adobe Target 體驗的深入方法和安全性程序的資訊。
 keywords: 安全性;安全性實務
-seo-description: 關於 Adobe 所實作以支持資料的安全性和 Adobe Target 體驗的深入方法和安全性程序的資訊。
-seo-title: Target 安全性概覽
-solution: Target
+description: 關於 Adobe 所實作以支持資料的安全性和 Adobe Target 體驗的深入方法和安全性程序的資訊。
 title: Target 安全性概覽
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
