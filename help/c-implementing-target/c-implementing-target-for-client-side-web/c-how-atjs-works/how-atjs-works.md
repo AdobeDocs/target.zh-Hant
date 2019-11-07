@@ -1,14 +1,11 @@
 ---
-description: 目標系統圖示，顯示為使用at.js自動建立的全域mbox所傳送或收集的呼叫和資訊流程。
 keywords: 系統圖；flicker;at.js；實施；javascript庫；js;atjs
-seo-description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
-seo-title: Adobe Target at.js javaScript程式庫的運作方式
-solution: Target
-title: at.js 如何運作
+description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
+title: Adobe Target at.js javaScript程式庫的運作方式
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
