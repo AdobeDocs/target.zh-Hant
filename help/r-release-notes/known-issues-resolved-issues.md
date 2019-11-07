@@ -1,14 +1,10 @@
 ---
-description: 關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
-keywords: 已知問題;已解決的問題;版本說明；錯誤；問題；修正
-seo-description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
-seo-title: Adobe Target 中的已知問題和已解決的問題
-solution: Target
-title: 已知問題和已解決的問題
-topic: Premium
+keywords: 已知問題；已解決問題；發行說明；錯誤；問題；修正
+description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
+title: Adobe Target 中的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
