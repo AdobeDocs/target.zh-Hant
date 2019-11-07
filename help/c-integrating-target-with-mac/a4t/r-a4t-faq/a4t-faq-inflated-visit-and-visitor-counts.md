@@ -1,14 +1,11 @@
 ---
-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於膨脹後造訪和訪客計數問題的回答。
 keywords: faq;常見問題集;analytics for target;a4T;膨脹;造訪;訪客;部分點擊;孤立的;孤立
-seo-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於膨脹後造訪和訪客計數問題的回答。
-seo-title: 膨脹的造訪和訪客計數 - A4T 常見問題集
-solution: Target
+description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於膨脹後造訪和訪客計數問題的回答。
 title: 膨脹的造訪和訪客計數 - A4T 常見問題集
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -29,7 +26,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 如需詳細資訊，請參閱[在 A4T 中將膨脹後造訪和訪客計數最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
-## 我看到造訪次數激增。如何判斷這是否起因於局部資料點閱?   {#section_28506672C6224ED18AC74F6A02F6F811}
+## 我看到造訪次數激增。如何判斷這是否起因於局部資料點閱? {#section_28506672C6224ED18AC74F6A02F6F811}
 
 您可以聯絡 [Adobe 客戶服務](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以擷取「部分資料」報表。[!DNL Analytics] UI 中不直接提供這項資訊。
 
@@ -37,9 +34,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 局部資料點閱通常是實作不當造成，例如報表套裝 ID 不對稱。也有合理的原因，包括頁面緩慢、頁面錯誤、活動中的重新導向選件，或程式庫版本太舊。
 
-如需詳細資訊，請參閱以下的「造成局部資料的原因」:  [在A4T 中將膨脹後造訪和訪客計數最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
+如需詳細資訊，請參閱以下的「造成局部資料的原因」:[在A4T 中將膨脹後造訪和訪客計數最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
-## 我有局部資料點閱。如何清除我的資料?   {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## 我有局部資料點閱。如何清除我的資料? {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 您可以建立實質性報表套裝，將歷史性局部資料從報表中排除。
 
