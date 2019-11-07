@@ -1,11 +1,9 @@
 ---
 description: 關於如何安全地將 at.js 部署至非生產環境的資訊。
-seo-description: 關於如何安全地將 at.js 部署至非生產環境的資訊。
-seo-title: 將 at.js 部署至非生產環境
 title: 將 at.js 部署至非生產環境
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
