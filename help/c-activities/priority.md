@@ -1,14 +1,11 @@
 ---
-description: 根據您使用的 Target 介面以及活動建立功能類型 (可視化體驗撰寫器或表單式撰寫器)，Target 會針對要傳遞至頁面的活動 (或哪些活動) 進行不同判斷。
 keywords: 設定; 優先順序
-seo-description: Adobe target會根據您使用的Target介面和活動建立功能（視覺體驗撰寫器或表單式撰寫器），以不同方式決定要傳送至頁面的活動（或活動）。
-seo-title: Adobe target中的優先順序
-solution: Target
-title: 優先順序
+description: Adobe target會根據您使用的Target介面和活動建立功能（視覺體驗撰寫器或表單式撰寫器），以不同方式決定要傳送至頁面的活動（或活動）。
+title: Adobe target中的優先順序
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -28,7 +25,7 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 訪客符合的所有活動和體驗的內容會傳回至頁面。
-1. 如果每一個活動的內容參考不同的[CSS 選取器](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
+1. 如果每一個活動的內容參考不同的 [CSS 選取器](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
 
    如果有重疊或重複的 CSS 選取器，則會顯示具有最高優先順序的活動內容。在頁面上執行且來自所有活動的結果會計入並反映在報表中。
 
