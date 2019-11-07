@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019 年 11 月 7 日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 已新增adobeQA參數的程式碼範例。 |
 | 2019 年 11 月 5 日 | [網站頁面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 已更新「疑難排解」區段中的文字。 |
 | 2019年11月4日 | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新下列常見問答集下的文字：「我為何會看到警告訊息，例如'遺失選擇器的動作'?」 |
 | 2019 年 10 月 31 日 | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主題。 |
