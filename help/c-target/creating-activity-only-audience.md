@@ -1,14 +1,11 @@
 ---
-description: 在建立活動時，從三個步驟引導工作流程內建立僅限活動的對象。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
 keywords: 對象;對象規則;建立對象;建立對象;僅限活動;僅活動;臨機
-seo-description: 在建立活動時，從 Adobe Target 三步驟引導式工作流程內建立僅限活動的受眾。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
-seo-title: 在 Adobe Target建立僅限於此活動的對象
-solution: Target
-title: 建立僅限於此活動的對象
+description: 在建立活動時，從 Adobe Target 三步驟引導式工作流程內建立僅限活動的受眾。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
+title: 在 Adobe Target建立僅限於此活動的對象
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
