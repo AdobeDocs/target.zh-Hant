@@ -1,16 +1,10 @@
 ---
-description: 自動鎖定目標使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。
 keywords: 自動鎖定目標;鎖定目標;流量分配;常見問題集;faq;疑難排解
-seo-description: 自動鎖定目標使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。
-seo-title: 自動鎖定目標
-solution: Target
 title: 自動鎖定目標
-title-outputclass: premium
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -120,7 +114,7 @@ A/B 活動流量內的[!UICONTROL 「自動鎖定目標」]選項可讓您只要
 
 **Target 會自動使用所有 Experience Cloud 的共用對象來建置個人化模型。**
 
-* 您不需要做任何特定的動作將對象新增至模型。如需關於使用 Experience Cloud 對象搭配 Target 的資訊，請參閱[Experience Cloud 受眾](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* 您不需要做任何特定的動作將對象新增至模型。如需關於使用 Experience Cloud 對象搭配 Target 的資訊，請參閱 [Experience Cloud 受眾](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **市場行銷人員可以上傳離線資料、傾向分數或其他自訂資料，以建立個人化模型。**
 
