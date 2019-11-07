@@ -1,14 +1,11 @@
 ---
-description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 keywords: 活動設定; 體驗鎖定目標與設定; XT 目標與設定; 體驗鎖定目標; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表對象; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
-seo-description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
-seo-title: 目標與設定
-solution: Target
+description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 title: 目標與設定
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
