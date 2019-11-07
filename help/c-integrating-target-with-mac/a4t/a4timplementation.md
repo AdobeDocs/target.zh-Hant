@@ -1,14 +1,10 @@
 ---
-description: 實作 Adobe Analytics 做為 Target (A4T) 的報表來源時，需要數個步驟。
 keywords: A4T;Adobe Analytics;Analytics 型活動;Analytics 報表套裝;報表套裝;Analytics Target 整合;設定報表套裝
-seo-description: 實作 Adobe Analytics 做為 Target (A4T) 的報表來源時，需要數個步驟。
-seo-title: Analytics for Target 實作
-solution: Target
+description: 實作 Adobe Analytics 做為 Target (A4T) 的報表來源時，需要數個步驟。
 title: Analytics for Target 實作
-topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
