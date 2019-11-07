@@ -1,16 +1,10 @@
 ---
-description: 關於 Recommendations 設計常見問題集 (FAQ) 的清單。
 keywords: 建議;常見問題;faq
-seo-description: 關於 Recommendations 設計常見問題集 (FAQ) 的清單。
-seo-title: 設計常見問題集
-solution: Target
+description: 關於 Recommendations 設計常見問題集 (FAQ) 的清單。
 title: 設計常見問題集
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,15 +13,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 關於 Recommendations 設計常見問題集 (FAQ) 的清單。
 
-## 我建議的項目價格不會在小數點右側顯示兩個值。 我要如何顯示？
+## 我的建議項目價格未在小數點右方顯示兩個值。我該如何顯示這些值?
 
-依預設，設計範本中傳 `entity.value`回的數值（例如）不會在小數點後顯示任何尾隨零。 例如，如果項目為$35.00，則 `entity.value` 等於35，而頁面上只顯示35，而非$35.00。
+根據預設，設計範本中所傳回的數值 (例如 `entity.value`) 不會在小數點後顯示任何尾隨零。例如，如果項目為 $35.00 美元，`entity.value` 等於 35 且只會在頁面上顯示 35，而不是 $35.00。
 
-有兩個選項可解決此問題。
+您可以透過兩個選項解決此問題。
 
-* 您可以使用Velocity指令碼或Javascript，將格式套用至傳回的值。
+* 您可以使用 Velocity 指令碼或 JavaScript，將格式設定套用到傳回的值。
 
-* 您可以將項目的價格傳遞到兩個單獨的實體屬性。 第一個可 `entity.value`用於數值比較（例如價格比較規則）。 第二個應是自訂屬性，例如 `entity.displayValue` 將實體值儲存為字串，以允許正確轉譯。
+* 您可以將項目價格傳送到兩個個別的實體屬性。第一個 (`entity.value`) 可用於數值比較 (例如價格比較規則)。第二個應為自訂屬性 (例如 `entity.displayValue`)，可將實體的值儲存為字串，以正確地顯示。
 
    例如，
 
@@ -37,7 +31,7 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 設計中無法顯示類別 ID。因為可能會儲存多個類別，系統無法決定要顯示的類別。
 
-## 如何變更設計才能立即更新?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## 如何變更設計才能立即更新?    {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 更改目前使用中的設計需要一段時間才會更新。若要立即變更設計，請建立新設計，在行銷活動中加以選取，再儲存建議。
 
