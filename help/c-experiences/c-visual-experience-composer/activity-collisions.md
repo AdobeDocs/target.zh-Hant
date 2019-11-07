@@ -1,13 +1,10 @@
 ---
-description: 「活動概覽」頁面上的「衝突」索引標籤會列出網站上的活動衝突。
 keywords: 定位
-seo-description: 「活動概覽」頁面上的「衝突」索引標籤會列出網站上的活動衝突。
-seo-title: 活動衝突
-solution: Target
+description: 「活動概覽」頁面上的「衝突」索引標籤會列出網站上的活動衝突。
 title: 活動衝突
 uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
