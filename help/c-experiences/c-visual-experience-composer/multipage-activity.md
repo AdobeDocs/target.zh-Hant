@@ -1,14 +1,11 @@
 ---
-description: 多頁活動可讓您利用每個頁面的特定設計，來建立多個頁面的歷程記錄。
 keywords: 多頁面; 歷程測試; 多頁面活動
-seo-description: 多頁活動可讓您利用每個頁面的特定設計，來建立多個頁面的歷程記錄。
-seo-title: 多頁活動
-solution: Target
+description: 多頁活動可讓您利用每個頁面的特定設計，來建立多個頁面的歷程記錄。
 title: 多頁活動
 topic: 進階
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
