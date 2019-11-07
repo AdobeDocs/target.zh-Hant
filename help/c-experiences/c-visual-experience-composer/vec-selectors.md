@@ -1,14 +1,11 @@
 ---
-description: 元素選取器是一種可以識別一或多個元素的 CSS 運算式。
 keywords: 體驗鎖定目標; 登陸頁面測試
-seo-description: 元素選取器是一種可以識別一或多個元素的 CSS 運算式。
-seo-title: 可視化體驗撰寫器中使用的元素選取器
-solution: Target
+description: 元素選取器是一種可以識別一或多個元素的 CSS 運算式。
 title: 可視化體驗撰寫器中使用的元素選取器
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
