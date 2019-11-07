@@ -1,16 +1,10 @@
 ---
-description: 關於為條件和促銷活動建立包含規則，以及新增其他動態或靜態篩選規則以獲得較好結果的資訊。
 keywords: 包含規則;包含條件;建議;建立新條件;促銷活動;動態篩選;動態;空白值;忽略篩選規則;靜態篩選;按值篩選;實體屬性比對;設定檔屬性比對;參數比對;靜態篩選
-seo-description: 有關在Adobe Target Recommendations中建立標準和促銷包含規則，以及新增其他動態或靜態篩選規則以取得更佳結果的資訊。
-seo-title: 在Adobe Target Recommendations中使用動態和靜態包含規則
-solution: Target
-title: 使用動態和靜態包含規則
-title-outputclass: premium
-topic: Premium
+description: 有關在Adobe Target Recommendations中建立標準和促銷包含規則，以及新增其他動態或靜態篩選規則以取得更佳結果的資訊。
+title: 在Adobe Target Recommendations中使用動態和靜態包含規則
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
-badge: premium
 translation-type: tm+mt
-source-git-commit: 5ab3258eda4363072b7cec1d4b5284f1d5638472
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
