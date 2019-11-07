@@ -1,16 +1,10 @@
 ---
-description: 目錄搜尋可協助您在目錄中尋找產品或內容。
 keywords: 目錄;搜尋
-seo-description: Adobe target中的目錄搜尋可協助您找出目錄中的產品或內容。
-seo-title: Adobe Target中的目錄搜尋
-solution: Target
-title: 目錄搜尋
-title-outputclass: premium
-topic: Premium
+description: Adobe Target 中的目錄搜尋可協助您在目錄中尋找產品或內容。
+title: Adobe Target 中的目錄搜尋
 uuid: e0876963-5905-4850-a615-953e435f26e9
-badge: premium
 translation-type: tm+mt
-source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,13 +13,13 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 目錄搜尋可協助您在目錄中尋找產品或內容。
 
-若要存取目錄搜尋，請按一 **[!UICONTROL 下「建議]** &gt; **[!UICONTROL 目錄搜尋」]**。
+若要存取目錄搜尋，請按一下 **[!UICONTROL Recommendations]** &gt; **[!UICONTROL 目錄搜尋]**。
 
 您可以從選項功能表中 (按一下搜尋欄位的向下箭頭時出現) 選取搜尋選項，以精簡搜尋。
 
 ![](assets/searchproductsmenu.png)
 
-搜尋選項包括：
+搜尋選項包含下列項目:
 
 * ALL
 * 名稱
@@ -36,17 +30,17 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 **[!UICONTROL 全部]**&#x200B;會使用 OR 邏輯，涵蓋其他所有搜尋條件來搜尋。
 
-In the search results, you click the **[!UICONTROL Environment]** filter to specify the production [host group environment](/help/administrating-target/hosts.md) whose catalog you are displaying. 您也可以捲動瀏覽搜尋結果中的項目，以檢視縮圖和其他產品資訊。
+在搜尋結果中，按一下&#x200B;**[!UICONTROL 環境]**&#x200B;篩選器，以指定您要顯示其中目錄的生產[主機群組環境](/help/administrating-target/hosts.md)。您也可以捲動瀏覽搜尋結果中的項目，以檢視縮圖和其他產品資訊。
 
 「產品」旁顯示的數字代表在所指定環境中可用的總數之中，符合搜尋詞語的產品數量。
 
-透過動態消息檔案、API或mbox更新收到更新時，目錄會自動重新整理。 更新通常在一小時內完成。 If updates are in progress, the time that the most recent update started displays. If no updates are in progress, the time that the most recent update started and finished displays.
+透過摘要檔案、API 或 mbox 更新收到更新時，目錄會自動重新整理。更新通常會在一小時內完成。如果正在進行更新，會顯示最新更新的開始時間。如果沒有任何正在進行的更新，會顯示最新更新的開始和結束時間。
 
-## 根據進階搜尋建立系列或排除
+## 根據進階搜尋建立集合或排除項目
 
-You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+您可以使用目錄搜尋頁面上的進階搜尋 ([!UICONTROL Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋])，以建立[集合](/help/c-recommendations/c-products/collections.md)或[排除項目](/help/c-recommendations/c-products/exclusions.md)。
 
-![另存為](/help/c-recommendations/c-products/assets/save-as.png)
+![另存新檔](/help/c-recommendations/c-products/assets/save-as.png)
 
 例如，使用 "id &gt; contains" 建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 集合或排除項目」]。
 
