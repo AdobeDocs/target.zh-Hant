@@ -1,12 +1,10 @@
 ---
-description: 本節說明如何將 Target 行動應用程式活動資訊傳送到 Adobe Analytics，以便進行 postAhoc 分段。
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-seo-description: 本節說明如何將Adobe Target行動應用程式活動資訊傳送至Adobe Analytics，以利臨機分段。
-seo-title: 傳送Adobe target活動資訊至Adobe Analytics
-title: 將活動資訊傳送到 Adobe Analytics
+description: 本節說明如何將Adobe Target行動應用程式活動資訊傳送至Adobe Analytics，以利臨機分段。
+title: 傳送Adobe target活動資訊至Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 5ba619bc501b7421f3aed0300a35ae8ed798a884
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
