@@ -1,16 +1,10 @@
 ---
-description: 如使用備份建議功能，所有其中建議項目不足的建議將不會顯示預設內容。建議會改為顯示備份演算法的結果。
 keywords: 建議;備用
-seo-description: 如使用備份建議功能，所有其中建議項目不足的建議將不會顯示預設內容。建議會改為顯示備份演算法的結果。
-seo-title: 使用備份建議
-solution: Target
+description: 如使用備份建議功能，所有其中建議項目不足的建議將不會顯示預設內容。建議會改為顯示備份演算法的結果。
 title: 使用備份建議
-title-outputclass: premium
-topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
