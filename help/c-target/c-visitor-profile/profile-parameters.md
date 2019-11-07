@@ -5,7 +5,7 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -252,7 +252,7 @@ if (!user.get('threegroups')) {
 
 您可以在 mbox/設定檔標籤下找到指令碼設定檔參數。您可以撰寫傳回任何 Javascript 類型 (字串、整數、陣列等) 的 Javascript 程式。
 
-### 指令碼設定檔參數範例
+### 指令碼設定檔參數範例 {#examples}
 
 **名稱:** *user.recency*
 
@@ -278,7 +278,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-建立稱為頻率的變數，將其初始化為先前的值，或如果沒有先前的值，則設為 0。如果 mbox 名稱為 `orderThankyouPage`，則會傳回遞增的值。
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. 如果 mbox 名稱為 `orderThankyouPage`，則會傳回遞增的值。
 
 **名稱:** *user.monetaryValue*
 
@@ -290,6 +290,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 建立稱為 `monetaryValue` 的變數，查詢指定訪客目前的值 (或如果沒有先前的值，則設為 0)。如果 mbox 名稱為 `orderThankyouPage`，系統會將先前的值與傳遞給 mbox 的 `orderTotal` 參數的值相加，以傳回新貨幣值。
+
+**** 名稱：adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+建立名為的變 `adobeQA` 數，以追蹤 [Activity QA的使用者](/help/c-activities/c-activity-qa/activity-qa.md)。
+
 
 ### 物件和方法
 
