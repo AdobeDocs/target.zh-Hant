@@ -1,15 +1,12 @@
 ---
-description: 「擷取分數」參與度量會根據指定給網站上造訪頁面的值，從訪客第一眼看到此促銷活動的第一個顯示 mbox 開始計算彙總分數。
 keywords: 擷取分數; 分數
-seo-description: 「擷取分數」參與度量會根據指定給網站上造訪頁面的值，從訪客第一眼看到此促銷活動的第一個顯示 mbox 開始計算彙總分數。
-seo-title: 擷取分數
-solution: Target
-subtopic: 快速入門
+description: 「擷取分數」參與度量會根據指定給網站上造訪頁面的值，從訪客第一眼看到此促銷活動的第一個顯示 mbox 開始計算彙總分數。
 title: 擷取分數
+subtopic: 快速入門
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
