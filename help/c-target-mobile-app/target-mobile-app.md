@@ -1,13 +1,11 @@
 ---
-description: Target 可用於行動應用程式最佳化和個人化
 keywords: 行動應用程式;行動應用程式程序;target 行動應用程式;行動 target 位置;行動應用程式成功量度
-seo-description: Target 可用於行動應用程式最佳化和個人化
-seo-title: 適用於行動應用程式的 Target
+description: Target 可用於行動應用程式最佳化和個人化
 title: 適用於行動應用程式的 Target
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
