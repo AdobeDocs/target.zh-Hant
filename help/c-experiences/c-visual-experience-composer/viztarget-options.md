@@ -1,14 +1,11 @@
 ---
-description: 當您在可視化體驗撰寫器 (VEC) 中按一下頁面元素時，功能表隨即顯示適用於該元素類型的選項。
 keywords: 可視化體驗撰寫器選項; 體驗撰寫器選項; 體驗選項; 編輯文字; 編輯 html; 編輯文字/HTML; 編輯背景顏色; 背景顏色; 插入元素; 編輯連結; 連結; 可視化體驗撰寫器連結; 編輯 CSS; 類別; CSS 類別; 交換選件; 選件交換; 交換影像; 影像交換; 移除項目; 項目移除; 隱藏項目; 項目隱藏; 重新排列; 移動元素; 元素移動; 調整元素大小; 元素調整大小; 元素; 展開選取範圍; 導覽至此連結; 導覽連結; 連結導覽; 導覽; 復原; 重做; 復原/重做
-seo-description: 當您在 Adobe Target 可視化體驗撰寫器 (VEC) 中按一下頁面元素時，功能表隨即顯示適用於該元素類型的選項。
-seo-title: Adobe Target 可視化體驗撰寫器 (VEC) 選項
-solution: Target
-title: 可視化體驗撰寫器選項
+description: 當您在 Adobe Target 可視化體驗撰寫器 (VEC) 中按一下頁面元素時，功能表隨即顯示適用於該元素類型的選項。
+title: Adobe Target 可視化體驗撰寫器 (VEC) 選項
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -317,7 +314,7 @@ HTML 選件的大小最多可以是 256KB。
 
 在頁面上移動元素。與[!UICONTROL 「重新排列」]選項不同，[!UICONTROL 「移動」]選項不會移動其他元素來為已移動的元素騰出空間。使用方向鍵來微調此移動。(計劃的增強功能: 支援以確定已移動的元素不會隱藏在其他元素之後。)
 
-在某些情況下，例如當 CSS 限制需要元素保留在其上層元素內時，您無法將元素移出其上層之外。An element cannot be moved outside of a container that has following CSS property: .`overflow: hidden`
+在某些情況下，例如當 CSS 限制需要元素保留在其上層元素內時，您無法將元素移出其上層之外。元素無法移到有下列 CSS 屬性的容器之外: `overflow: hidden`。
 
 #### 隱藏
 
@@ -343,7 +340,7 @@ HTML 選件的大小最多可以是 256KB。
 
 ## 考量事項 {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in How at.js works for more information.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)
+* 如果選件包含 HTML 內容，請參閱 [at.js 如何運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)中的「at.js 如何呈現具有 HTML 內容的選件」以取得詳細資訊。
 
 ## 使用 DOM 路徑導覽元素 {#dom-path}
 
