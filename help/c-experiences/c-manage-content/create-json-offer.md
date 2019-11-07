@@ -1,14 +1,11 @@
 ---
-description: 在選件資料庫中建立 JSON 選件，以用於表單式體驗撰寫器。
 keywords: 遠端選件; 建立遠端選件
-seo-description: 在選件資料庫中建立 JSON 選件，以用於表單式體驗撰寫器。
-seo-title: 建立 JSON 選件
-solution: Target
+description: 在選件資料庫中建立 JSON 選件，以用於表單式體驗撰寫器。
 title: 建立 JSON 選件
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,9 +21,9 @@ JSON 選件可用於表單式活動中，藉以啟用使用案例，此時 Targe
 * JSON 選件目前只可用於 AB 和 XT 活動。
 * JSON 選件只能用在表單式活動中。
 * 當您使用「伺服器端 API」、「行動裝置 SDK」或 NodeJS SDK 時，可直接擷取 JSON 選件。
-* 在瀏覽器中，「只能」透過 at.js 1.2.3 (或更新版) 和以下方法擷取 JSON 選項: 使用[getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)，需利用 `setJson` 動作來篩選動作。
+* 在瀏覽器中，「只能」透過 at.js 1.2.3 (或更新版) 和以下方法擷取 JSON 選項: 使用 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)，需利用 `setJson` 動作來篩選動作。
 * JSON 選件是以原生 JSON 物件提供，而不是字串。這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
-* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼來明確利用此方法取得選件:  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
+* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼來明確利用此方法取得選件: [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
 * 使用 mbox.js 時不支援 JSON 選件。
 
 ## 建立 JSON 選件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
