@@ -1,15 +1,12 @@
 ---
-description: 關於在非 JavaScript 案例 (例如，使用 AdBox 或重新導向程式) 中實作 Target 的資訊。
 keywords: 實作;mbox.js non javascript;adbox;重新導向程式;mbox
-seo-description: 關於在非 JavaScript 案例 (例如，使用 AdBox 或重新導向程式) 中實作 Target 的資訊。
-seo-title: 電子郵件實作 Target
-solution: Target
-subtopic: 快速入門
+description: 關於在非 JavaScript 案例 (例如，使用 AdBox 或重新導向程式) 中實作 Target 的資訊。
 title: 電子郵件實作 Target
+subtopic: 快速入門
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
