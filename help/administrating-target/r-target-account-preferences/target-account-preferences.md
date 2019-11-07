@@ -1,15 +1,12 @@
 ---
-description: 設定您的帳戶偏好設定以設定 Target Standard 或 Target Premium 以便正確對您的帳戶運作。
 keywords: 帳戶偏好設定; 偏好設定; 網站詳情; 自訂 mbox 名稱; 用於報表的 Experience Cloud 解決方案; 顯示預估收入提升度; CSS 選取器; 使用元素類別; 預設可視化體驗撰寫器 URL; 啟用增強體驗撰寫器; 產生體驗快照; 行動檢視區設定; 垂直產業; 篩選不相容的條件
-seo-description: 設定您的帳戶偏好設定，以將 Adobe Target Standard 或 Target Premium 設定為可搭配您的帳戶正常運作。
-seo-title: 偏好設定
-solution: Target
-subtopic: 快速入門
+description: 設定您的帳戶偏好設定，以將 Adobe Target Standard 或 Target Premium 設定為可搭配您的帳戶正常運作。
 title: 偏好設定
+subtopic: 快速入門
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
