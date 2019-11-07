@@ -1,16 +1,10 @@
 ---
-description: 使用最多五個條件的序列來對建議活動中出現的項目執行更好的控制。
 keywords: 條件序列;多個條件;演算法;條件;建議條件
-seo-description: 使用最多五個條件的序列來對建議活動中出現的項目執行更好的控制。
-seo-title: 建立條件序列
-solution: Target
+description: 使用最多五個條件的序列來對建議活動中出現的項目執行更好的控制。
 title: 建立條件序列
-title-outputclass: premium
-topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -92,9 +86,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 訓練影片：在Recommendations中建立條件(12:33)
+## 訓練影片: 在 Recommendations 中建立條件 (12:33)
 
-此影片包含下列資訊：
+此影片包含下列資訊:
 
 * 建立條件
 * 建立條件序列
