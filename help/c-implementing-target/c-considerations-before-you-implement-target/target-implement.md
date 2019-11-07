@@ -1,13 +1,11 @@
 ---
-description: 透過在網頁上參考 Target 資料庫 (at.js 或 mbox.js) 來實作 Target。
 keywords: document.write;目標;實作;實作目標;dtm;動態標籤管理;at.js;mbox.js;target.js;mbox
-seo-description: 透過在網頁上參考 Target 資料庫 (at.js 或 mbox.js) 來實作 Target。
-seo-title: 瞭解 Target JavaScript 程式庫
+description: 透過在網頁上參考 Target 資料庫 (at.js 或 mbox.js) 來實作 Target。
 title: 瞭解 Target JavaScript 程式庫
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
