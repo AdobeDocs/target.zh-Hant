@@ -1,13 +1,10 @@
 ---
-description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
 keywords: 鎖定目標; 可視化體驗撰寫器; 白名單; 增強可視化體驗撰寫器, VEC, 疑難排解可視化體驗撰寫器; 疑難排解; EEC; 增強體驗撰寫器; TLS; TLS 1.2
-seo-description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
-seo-title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
-solution: Target
+description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
 title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
