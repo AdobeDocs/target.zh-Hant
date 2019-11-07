@@ -1,16 +1,11 @@
 ---
-description: 您可以針對 Target 自動個人化活動產生體驗 URL，以在活動上線供預覽和 QA 用途之前，直接在您的網站上查看體驗內容。體驗 URL 會略過鎖定目標以強制檢視特定體驗。
 keywords: 體驗預覽; 體驗 URL; 產生 URL; 檢視體驗 URL
-seo-description: 您可以針對 Target 自動個人化活動產生體驗 URL，以在活動上線供預覽和 QA 用途之前，直接在您的網站上查看體驗內容。體驗 URL 會略過鎖定目標以強制檢視特定體驗。
-seo-title: 共用體驗 URL 以在 Target 外部預覽自動個人化
-solution: Target
+description: 您可以針對 Target 自動個人化活動產生體驗 URL，以在活動上線供預覽和 QA 用途之前，直接在您的網站上查看體驗內容。體驗 URL 會略過鎖定目標以強制檢視特定體驗。
 title: 共用體驗 URL 以在 Target 外部預覽自動個人化
-title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
