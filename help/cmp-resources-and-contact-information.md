@@ -1,14 +1,11 @@
 ---
-description: 其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
 keywords: 聯絡;法律;技術支援;支援;服務;功能;帳單;意見
-seo-description: 其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
-seo-title: 資源與聯絡資訊
-solution: Target
+description: 其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
 title: 資源與聯絡資訊
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -47,8 +44,8 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 | 主題/播放時間/錄影日期 | 學習目標 |
 |--- |--- |
 | [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017年12月50日 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/c-experiences/experiences.md)。 |
-| [Adobe Target:Analytics/Target整合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40:33<br>日 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱[Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js:優勢與實施最佳做](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>法26:43<br>2018年4月26日 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>At.js 勝過 mbox.js 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul>如需本指南的詳細資訊，請參閱[at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [Adobe Target:Analytics/Target整合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40:33<br>日 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js:優勢與實施最佳做](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>法26:43<br>2018年4月26日 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>At.js 勝過 mbox.js 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul>如需本指南的詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
