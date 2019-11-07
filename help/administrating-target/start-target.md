@@ -1,15 +1,12 @@
 ---
-description: 此小節包含 Target 管理員在收到電子郵件寄送的 Adobe Experience Cloud 加入邀請時應採取的前幾個步驟。
 keywords: 管理;核准者角色;核准者
-seo-description: 此小節包含 Adobe Target 管理員在收到電子郵件寄送的 Adobe Experience Cloud 加入邀請時應採取的前幾個步驟。
-seo-title: 管理員入門
-solution: Target
-subtopic: 快速入門
+description: 此小節包含 Adobe Target 管理員在收到電子郵件寄送的 Adobe Experience Cloud 加入邀請時應採取的前幾個步驟。
 title: 管理員入門
+subtopic: 快速入門
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,7 +19,7 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
 
 [!DNL Adobe Admin Console] 中的系統管理員必須藉由邀請您加入，將您新增為 [!DNL Target] 中的使用者。接著，系統管理員應將您新增至一或多個特定角色群組。這兩項工作都是在 [Adobe Admin Console](https://adminconsole.adobe.com) 中執行。
 
-For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud and Core Services help*.
+如需詳細資訊，請 [參閱「Experience cloud和核心服務」說明](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) , *「管理Experience cloud使用者和產品」*。
 
 在系統管理員執行這些步驟之後，您將會收到電子郵件邀請函。
 
@@ -42,7 +39,7 @@ For more information, see [Manage Experience Cloud users and products](https://d
    >
    >如果您並未連結您的帳戶，將無法存取 [!DNL Target]。
 
-   所有 Experience Cloud 產品會出現在連結的頁面中。Click `Link Target` and enter your Target username and password to access Target Standard.
+   所有 Experience Cloud 產品會出現在連結的頁面中。按一下 `Link Target`，然後輸入您的 Target 使用者名稱和密碼來存取 Target Standard。
 1. 按一下&#x200B;**[!UICONTROL 「繼續前往 Experience Cloud」]**。
 
    此時，您還沒有任何群組設定了供您連結的權利。
