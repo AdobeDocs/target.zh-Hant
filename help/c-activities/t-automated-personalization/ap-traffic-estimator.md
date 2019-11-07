@@ -1,15 +1,10 @@
 ---
 description: 流量估算程式提供的回饋意見可讓您得知是否有足夠的流量讓您的活動成功。
-seo-description: 流量估算程式提供的回饋意見可讓您得知是否有足夠的流量讓您的活動成功。
-seo-title: 預估成功所需的流量
-solution: Target
 title: 預估成功所需的流量
-title-outputclass: premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
