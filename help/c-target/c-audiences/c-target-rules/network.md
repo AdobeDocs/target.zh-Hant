@@ -1,13 +1,10 @@
 ---
-description: 您可以根據網路詳細資料建立對象。
 keywords: 鎖定目標;網路;目標網路;isp;網域名稱;連線速度;目標 isp;目標網域名稱;目標連線速度
-seo-description: 您可以根據網路詳細資料在 Adobe Target 中建立受眾。
-seo-title: 根據網路詳細資料在 Adobe Target 中建立受眾。
-solution: Target
-title: 網路
+description: 您可以根據網路詳細資料在 Adobe Target 中建立受眾。
+title: 根據網路詳細資料在 Adobe Target 中建立受眾。
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
