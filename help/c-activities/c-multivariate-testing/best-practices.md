@@ -1,14 +1,11 @@
 ---
-description: 提供提示，協助您改善效能、避免問題，以及修正在 Adobe Target 中建立和執行多變數測試活動時可能會發生的已知問題。
 keywords: mvt;多變數測試;多變數測試最佳做法;mvt 最佳做法;mvt 組合;mvt 報表
-seo-description: 提供提示，協助您改善效能、避免問題，以及修正在 Adobe Target 中建立和執行多變數測試活動時可能會發生的已知問題。
-seo-title: 使用 Adobe Target 的多變數測試最佳實務
-solution: Target
-title: 多變數測試最佳作法
+description: 提供提示，協助您改善效能、避免問題，以及修正在 Adobe Target 中建立和執行多變數測試活動時可能會發生的已知問題。
+title: 使用 Adobe Target 的多變數測試最佳實務
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
