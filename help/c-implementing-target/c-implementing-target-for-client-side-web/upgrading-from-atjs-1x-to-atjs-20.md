@@ -1,14 +1,11 @@
 ---
-description: 從 at.js 1.*x* 升級為 at.js 2.*x*
 keywords: at.js 版本;at.js 版本;單一頁面應用程式;spa;跨網域;跨網域
-seo-description: 有關如何從 Adobe Target at.js 1.*x* 升級為 at.js 2.0.0 版的詳細資訊
-seo-title: '從 Adobe Target at.js 1.*x* 版升級為 at.js 2.*x* 版 '
-solution: Target
+description: 有關如何從 Adobe Target at.js 1.*x* 升級為 at.js 2.0.0 版的詳細資訊
+title: '從 Adobe Target at.js 1.*x* 版升級為 at.js 2.*x* 版 '
 subtopic: 快速入門
-title: 從 at.js 1.*x* 升級為 at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
