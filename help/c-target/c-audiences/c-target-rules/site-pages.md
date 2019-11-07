@@ -1,14 +1,11 @@
 ---
-description: 定位位在某個特定頁面上的訪客或具有特定 mbox 參數的訪客。
 keywords: 網站頁面;目標網站頁面;鎖定目標;目前頁面;目標目前頁面;上一頁;目標上一頁;登陸頁面;目標登陸頁面;mbox;目標 mbox
-seo-description: 您可以使用Adobe Target定位位於特定頁面或具有特定mbox參數的訪客。
-seo-title: Adobe target中的網站頁面
-solution: Target
-title: 網頁
+description: 您可以使用Adobe Target定位位於特定頁面或具有特定mbox參數的訪客。
+title: Adobe target中的網站頁面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
