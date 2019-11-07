@@ -1,14 +1,11 @@
 ---
 description: 當您要將訪客傳送到不同的頁面而非在相同頁面上顯示內容時，請使用此選項。
-seo-description: 當您要將訪客傳送到不同的頁面而非在相同頁面上顯示內容時，請使用此選項。
-seo-title: 重新導向至 URL
-solution: Target
-subtopic: 多變數測試
 title: 重新導向至 URL
+subtopic: 多變數測試
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
