@@ -1,14 +1,10 @@
 ---
-description: 報表包括數個資料點和視覺化表示，可協助您瞭解與您的活動相關聯的提升度界限和可信度等級。這可協助您正準確地判斷獲勝者。
 keywords: Target;報表;報表設定;環境;提升度;提升度界限;變異數;可信度;控制
-seo-description: 報表包括數個資料點和視覺化表示，可協助您瞭解與您的活動相關聯的提升度界限和可信度等級。這可協助您正準確地判斷獲勝者。
-seo-title: 平均提升度、提升度界限和信賴區間
-solution: Target
+description: 報表包括數個資料點和視覺化表示，可協助您瞭解與您的活動相關聯的提升度界限和可信度等級。這可協助您正準確地判斷獲勝者。
 title: 平均提升度、提升度界限和信賴區間
-topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -40,7 +36,7 @@ Target 報表 UI 中的提升資訊包括:
 
 ![平均提升度和可信度等級報表](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## 如何計算提升度界限?    {#section_1D360781D972483693680BE0F07AEAD1}
+## 如何計算提升度界限? {#section_1D360781D972483693680BE0F07AEAD1}
 
 提升度界限代表特定體驗或選件的提升度超過控制體驗或選件的 95% 信賴區間。籠統來說，即實際提升度大約有 95% 的機會落在這些界限之間。
 
