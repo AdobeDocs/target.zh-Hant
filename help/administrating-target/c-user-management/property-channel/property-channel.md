@@ -1,17 +1,11 @@
 ---
-description: 關於建立屬性和使用屬性和權限功能的資訊，該功能可讓 Target 管理員在 Target 中建立個別的工作區 (產品設定檔)，然後根據這些工作區指派使用者個別頁面、屬性或網站的不同角色和權限。
 keywords: 工作區; 管理屬性; 權限; 產品組態; 產品設定檔; 角色; 專案
-seo-description: 關於建立屬性和使用屬性和權限功能的資訊，該功能可讓 Target 管理員在 Target 中建立個別的工作區 (產品設定檔)，然後根據這些工作區指派使用者個別頁面、屬性或網站的不同角色和權限。
-seo-title: 企業使用者權限
-solution: Target
-subtopic: 快速入門
+description: 關於建立屬性和使用屬性和權限功能的資訊，該功能可讓 Target 管理員在 Target 中建立個別的工作區 (產品設定檔)，然後根據這些工作區指派使用者個別頁面、屬性或網站的不同角色和權限。
 title: 企業使用者權限
-title-outputclass: premium
-topic: Premium
+subtopic: 快速入門
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
