@@ -1,14 +1,11 @@
 ---
-description: 如果所有使用者要瞭解成功的藍圖，Target 可以估計您可能獲得的收入增益。
 keywords: 收入提升度; 收入; 預估收入提升度; 計算提升度; 估計值
-seo-description: 如果所有使用者要瞭解成功的藍圖，Target 可以估計您可能獲得的收入增益。
-seo-title: 預估收入成長
-solution: Target
+description: 如果所有使用者要瞭解成功的藍圖，Target 可以估計您可能獲得的收入增益。
 title: 預估收入成長
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
