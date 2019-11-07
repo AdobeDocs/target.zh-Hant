@@ -1,13 +1,10 @@
 ---
-description: 活動 URL 會決定體驗鎖定目標活動中使用的頁面，以及設計活動時可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
 keywords: 定位
-seo-description: 活動 URL 會決定體驗鎖定目標活動中使用的頁面，以及設計活動時 Adobe Target 可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
-seo-title: 活動 URL
-solution: Target
+description: 活動 URL 會決定體驗鎖定目標活動中使用的頁面，以及設計活動時 Adobe Target 可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
 title: 活動 URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
