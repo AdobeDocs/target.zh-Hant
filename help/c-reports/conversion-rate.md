@@ -1,14 +1,11 @@
 ---
-description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精確度) 和信賴區間。
 keywords: 定位
-seo-description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精確度) 和信賴區間。
-seo-title: 轉換率
-solution: Target
+description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精確度) 和信賴區間。
 title: 轉換率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -134,7 +131,7 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
    | 請求名稱 | 指定要求的名稱。 |
    | 報告日期 | 指定時段和精度。<br>最佳做法是不要為第一個要求選擇超過一小時或一天的資料。所要求的時段越長，資料倉儲檔案處理的時間就越長，最好一律先要求較短時段的資料，以確保檔案傳回預期的結果。接著，前往「要求管理程式」，複製要求，再第二次要求更多資料。此外，如果您將精度切換為「無」以外的任何值，檔案大小會大幅增加。<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | 可用區段 | 視需要套用區段。 |
-   | 劃分 | 選取所需的維度:    標準是內建 (OOTB)，而「自訂」包含 eVars 與屬性。如果需要訪客 ID 層級資訊，建議您使用「訪客 ID」，而非「Experience Cloud 訪客 ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
+   | 劃分 | 選取所需的維度:標準是內建 (OOTB)，而「自訂」包含 eVars 與屬性。如果需要訪客 ID 層級資訊，建議您使用「訪客 ID」，而非「Experience Cloud 訪客 ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
    | 量度 | 選取所需的量度。標準是 OOTB，而「自訂」包含自訂事件。 |
    | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | 計劃傳送 | 輸入要將檔案傳送到哪個電子郵件地址、命名檔案，然後選取[!UICONTROL 「立即傳送」]。<br>注意: 在[!UICONTROL 「進階傳送選項」]下，您可以透過 FTP 傳送檔案<br>![排程傳送](/help/c-reports/assets/datawarehouse3.png)。 |
