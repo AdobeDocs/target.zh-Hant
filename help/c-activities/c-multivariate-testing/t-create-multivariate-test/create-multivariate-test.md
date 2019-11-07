@@ -1,13 +1,10 @@
 ---
-description: Target 中的可視化體驗撰寫器讓您直接在啟用 Target 的頁面上輕鬆建立多變數測試 (MVT)，以及在 Target 內修改頁面的部分。
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-seo-description: Adobe Target 中的可視化體驗撰寫器 (VEC) 讓您直接在啟用 Target 的頁面上輕鬆建立多變數測試 (MVT)，以及在 Target 內修改頁面的部分。
-seo-title: 建立多變數測試
-solution: Target
+description: Adobe Target 中的可視化體驗撰寫器 (VEC) 讓您直接在啟用 Target 的頁面上輕鬆建立多變數測試 (MVT)，以及在 Target 內修改頁面的部分。
 title: 建立多變數測試
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
