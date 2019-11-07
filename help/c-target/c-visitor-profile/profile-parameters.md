@@ -1,14 +1,11 @@
 ---
-description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
 keywords: 配置檔案指令碼；配置檔案指令碼屬性；配置檔案指令碼最佳實踐；debug;debugging;scripts；配置檔案指令碼；屬性；參數
-seo-description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
-seo-title: Adobe Target 中的設定檔屬性
-solution: Target
-title: 設定檔屬性
+description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
+title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
