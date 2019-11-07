@@ -1,13 +1,10 @@
 ---
-description: 使用 mbox.js 實作時要使用的 mbox.js 函數的清單。
 keywords: mbox 函式
-seo-description: 使用 mbox.js 實作時要使用的 mbox.js 函數的清單。
-seo-title: mbox.js 函數
-solution: Target
+description: 使用 mbox.js 實作時要使用的 mbox.js 函數的清單。
 title: mbox.js 函數
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
