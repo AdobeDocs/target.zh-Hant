@@ -1,13 +1,10 @@
 ---
-description: 可協助您在 mbox.js「設定」頁面上設定數個設定的資訊。
 keywords: 進階 mbox.js 設定;用戶端;伺服器網域;xdomain;壓縮層級;用戶端工作階段 ID 支援;secureOnly;用戶端 PC ID 支援;傳遞頁面;反向連結 URL;流量層級;流量持續時間;mboxParameters() 函數主體;mboxSupported() 函數主體;mboxCookieDomain() 函數主體;額外 JavaScript;SiteCatalyst 外掛程式;取得 mbox.js 做為自動解壓縮 JavaScript;忽隱忽現;主體隱藏;隱藏主體
-seo-description: 可協助您在 mbox.js「設定」頁面上設定數個設定的資訊。
-seo-title: 設定 mbox.js
-solution: Target
+description: 可協助您在 mbox.js「設定」頁面上設定數個設定的資訊。
 title: 設定 mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
