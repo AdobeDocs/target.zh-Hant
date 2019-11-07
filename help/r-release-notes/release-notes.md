@@ -1,14 +1,11 @@
 ---
-description: 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
 keywords: 發行說明；新功能；發行；更新；更新；發行；增強；增強；修正；錯誤修正
-seo-description: 這些版本說明提供關於每個 Adobe Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
-seo-title: 'Adobe Target 版本說明 (最新) '
-solution: Target
-title: Target 版本說明 (最新)
+description: 這些版本說明提供關於每個 Adobe Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
+title: 'Adobe Target 版本說明 (最新) '
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
