@@ -1,15 +1,12 @@
 ---
-description: 從 Adobe Experience Cloud 存取 Adobe Target 的指示。
 keywords: Experience Cloud;登入
-seo-description: 從 Adobe Experience Cloud 存取 Adobe Target 的指示。
-seo-title: 從 Adobe Experience Cloud 存取 Target
-solution: Target
-subtopic: 快速入門
+description: 從 Adobe Experience Cloud 存取 Adobe Target 的指示。
 title: 從 Adobe Experience Cloud 存取 Target
+subtopic: 快速入門
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
