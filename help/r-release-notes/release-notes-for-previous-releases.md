@@ -1,14 +1,11 @@
 ---
-description: 舊版 Target 的版本說明，包括 Target Standard/Premium、Target 平台，以及 Target Javascript 程式庫 (at.js 和 mbox.js) 的版本說明。版本說明以發行年月由新到舊排序。
 keywords: 版本說明
-seo-description: 舊版 Target 的版本說明，包括 Target Standard/Premium、Target 平台，以及 Target Javascript 程式庫 (at.js 和 mbox.js) 的版本說明。版本說明以發行年月由新到舊排序。
-seo-title: 舊版版本說明
-solution: Target
+description: 舊版 Target 的版本說明，包括 Target Standard/Premium、Target 平台，以及 Target Javascript 程式庫 (at.js 和 mbox.js) 的版本說明。版本說明以發行年月由新到舊排序。
 title: 舊版版本說明
 topic: 建議
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
