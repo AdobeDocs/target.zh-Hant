@@ -1,13 +1,10 @@
 ---
-description: 使用受眾將不同的內容和體驗鎖定在特定受眾，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的 Web 行銷。
 keywords: 鎖定目標;對象;百分比目標
-seo-description: 使用 Adobe Target 中的受眾功能，將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。
-seo-title: Adobe Target 中的受眾
-solution: Target
-title: 對象
+description: 使用 Adobe Target 中的受眾功能，將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。
+title: Adobe Target 中的受眾
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
