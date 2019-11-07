@@ -1,14 +1,11 @@
 ---
-description: 活動 URL 會決定測試中使用以及設計測試時開啟的頁面。
 keywords: 概覽和參考
-seo-description: 活動 URL 會決定測試中使用以及設計測試時開啟的頁面。
-seo-title: 活動 URL
-solution: Target
+description: 活動 URL 會決定測試中使用以及設計測試時開啟的頁面。
 title: 活動 URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
