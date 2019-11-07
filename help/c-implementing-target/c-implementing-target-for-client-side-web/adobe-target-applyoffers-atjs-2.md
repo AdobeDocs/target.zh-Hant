@@ -1,14 +1,11 @@
 ---
-description: '有關適用於 at.js 的 adobe.target.applyOffers() 函數的資訊。 '
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;函數;函數
-seo-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
-seo-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
-solution: Target
+description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
+title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
 subtopic: 快速入門
-title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
