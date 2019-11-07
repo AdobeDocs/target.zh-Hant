@@ -1,13 +1,10 @@
 ---
-description: 對象篩選 (或數個對象) 是指共用特定特性或一組特性的訪客群組。
-keywords: 鎖定目標;對象篩選條件;對象；過濾器
-seo-description: Adobe Target（或觀眾）中的觀眾篩選器是一組具有特定特性或一組特性的訪客。
-seo-title: Adobe target中報告的對象篩選
-solution: Target
-title: 報表的對象篩選條件
+keywords: 定位；對象篩選；對象；篩選
+description: Adobe Target（或觀眾）中的觀眾篩選器是一組具有特定特性或一組特性的訪客。
+title: Adobe target中報告的對象篩選
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,8 +19,8 @@ source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 在規劃對活動使用對象篩選條件時，請考量下列準則：
 
-* **訪客可能屬於多個對象。** If there are two audiences set up (for example, "new visitors" and "visitors from Google"), and a person meets both criteria, then this visitor is counted and tracked in both audiences. 因此，對象中的訪客總數和活動中的訪客數並不相符。
-* **Set up audiences before launching the activity.**&#x200B;無法回溯擷取對象資料。如果您在啟動活動之前未設定對象篩選條件，然後在活動執行一段時間後，又決定使用對象篩選條件，則無法收集已成過去的資料。
+* **訪客可能屬於多個對象。** 如果設定了兩個對象（例如「新訪客」和「來自Google的訪客」），且一個人同時符合這兩個條件，則會在兩個對象中計算並追蹤此訪客。 因此，對象中的訪客總數和活動中的訪客數並不相符。
+* **在啟動活動之前設定觀眾。**&#x200B;無法回溯擷取對象資料。如果您在啟動活動之前未設定對象篩選條件，然後在活動執行一段時間後，又決定使用對象篩選條件，則無法收集已成過去的資料。
 * **從兩個到四個對象開始。**&#x200B;著重於基本資訊，例如流量來源。
 * **視需要重新命名對象。**&#x200B;您可以在不影響資料的情況下重新命名對象，讓對象名稱在正在收集的結果中更有意義，即使活動在使用中也一樣。
 * **輸入精確值。**&#x200B;對象篩選值區分大小寫。例如，若您使用對象來篩選城市，則應使用 "OR" 條件來包含可能的拼字與大小寫變化，例如 "Vienna"、"vienna"、"wien" 和 "Wien"。
