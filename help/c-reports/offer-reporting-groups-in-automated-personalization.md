@@ -1,16 +1,11 @@
 ---
-description: 在自動個人化 (AP) 活動中使用報表群組的相關資訊。
-keywords: 自動個人化;選件;報表;群組；報告組
-seo-description: Information about using reporting groups in Automated Personalization (AP) activities in Adobe Target.
-seo-title: 在Adobe Target的「自動個人化(AP)」活動中提供報表群組
-solution: Target
-title: 自動個人化中的選件報表群組
-title-outputclass: premium
+keywords: 自動個人化；選件；報告；組；報告組
+description: 有關在Adobe Target的「自動個人化(AP)」活動中使用報告群組的資訊。
+title: 在Adobe Target的「自動個人化(AP)」活動中提供報表群組
 topic: 進階
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
-badge: premium
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -55,5 +50,4 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    若要建立新報表群組以將選定選件指派至該群組，請選取&#x200B;**[!UICONTROL 「新增」]**，命名新報表群組，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
 
-   ![](assets/ap_reporting_groups.png)
-
+   ![](a
