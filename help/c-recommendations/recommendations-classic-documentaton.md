@@ -1,15 +1,9 @@
 ---
-description: Adobe Recommendations Classic 文件。
 keywords: recommendations Classic
-seo-description: Adobe Recommendations Classic 文件。
-seo-title: Adobe Recommendations Classic 文件。
-solution: Target
-title: Recommendations Classic 文件。
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: Adobe Recommendations Classic 文件。
+title: Adobe Recommendations Classic 文件。
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
