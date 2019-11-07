@@ -1,15 +1,12 @@
 ---
-description: 此主題包含的一些建議可用來解決設計 MVT 測試時可能發生的部分問題。
 keywords: Mobile Web Experience Editor
-seo-description: 此主題包含的一些建議可用來解決設計 MVT 測試時可能發生的部分問題。
-seo-title: 疑難排解多變數測試
-solution: Target
-subtopic: 行動檢視區
+description: 此主題包含的一些建議可用來解決設計 MVT 測試時可能發生的部分問題。
 title: 疑難排解多變數測試
+subtopic: 行動檢視區
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
