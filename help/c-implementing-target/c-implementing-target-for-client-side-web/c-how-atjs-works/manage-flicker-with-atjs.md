@@ -1,14 +1,11 @@
 ---
-description: 關於 Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止閃爍的資訊。
 keywords: flicker;at.js；實現
-seo-description: 關於 Adobe Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止忽隱忽現的資訊。
-seo-title: Adobe Target at.js 處理忽隱忽現情況的方式
-solution: Target
-title: At.js 處理忽隱忽現情況的方式
+description: 關於 Adobe Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止忽隱忽現的資訊。
+title: Adobe Target at.js 處理忽隱忽現情況的方式
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +32,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ![Target 流程: at.js 頁面載入要求](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1。*x***
+**at.js 1.*x***
 
 ![](assets/target-flow2.png)
 
