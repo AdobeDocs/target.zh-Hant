@@ -1,14 +1,11 @@
 ---
-description: Adobe Target 行動版可視化體驗撰寫器 (VEC) 可讓開發人員在其 iOS 行動應用程式上執行一次性設定，並能讓行銷人員使用行動應用程式 VEC 的功能。
 keywords: 行動應用程式 VEC;行動版可視化體驗撰寫器;行動版體驗撰寫器選項;設定;ios;apple
-seo-description: Adobe Target 行動版可視化體驗撰寫器 (VEC) 可讓開發人員在其 iOS 行動應用程式上執行一次性設定，並能讓行銷人員使用行動應用程式 VEC 的功能。
-seo-title: iOS - 設定行動應用程式
-solution: Target
+description: Adobe Target 行動版可視化體驗撰寫器 (VEC) 可讓開發人員在其 iOS 行動應用程式上執行一次性設定，並能讓行銷人員使用行動應用程式 VEC 的功能。
 title: iOS - 設定行動應用程式
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
