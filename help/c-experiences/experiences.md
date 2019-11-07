@@ -1,14 +1,11 @@
 ---
-description: 體驗決定當訪客符合活動的對象條件時要顯示的內容。
 keywords: 體驗; 可視化體驗撰寫器; 增強體驗撰寫器; 表單式體驗撰寫器; 表單式撰寫器; 可視化撰寫; 體驗撰寫器; 混合內容, iFrame; iFrame 爆破; 爆破 iFrame; x-frame-options; x frame 選項; 跨來源; 跨來源問題; 驗證工作流程; IP 黑名單; IP 白名單
-seo-description: 體驗決定當訪客符合活動的對象條件時要顯示的內容。
-seo-title: 體驗與選件
-solution: Target
+description: 體驗決定當訪客符合活動的對象條件時要顯示的內容。
 title: 體驗與選件
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
