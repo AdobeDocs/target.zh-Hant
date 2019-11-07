@@ -1,15 +1,12 @@
 ---
-description: Cookie 的行為取決於其屬於第一方 Cookie、具有第一方 Cookie 的第三方 Cookie，或是獨立的第三方 Cookie。
 keywords: 概覽和參考資料;webkit
-seo-description: Cookie 的行為取決於其屬於第一方 Cookie、具有第一方 Cookie 的第三方 Cookie，或是獨立的第三方 Cookie。
-seo-title: mbox.js Cookie
-solution: Target
-subtopic: 快速入門
+description: Cookie 的行為取決於其屬於第一方 Cookie、具有第一方 Cookie 的第三方 Cookie，或是獨立的第三方 Cookie。
 title: mbox.js Cookie
+subtopic: 快速入門
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -26,7 +23,7 @@ See also [Delete the Target cookie](/help/c-implementing-target/c-considerations
 
 ## 何時使用第一方或第三方 Cookie {#section_F71B29420C004A7FA3B1921E619B326E}
 
-您的網站設定會決定您要使用何種 Cookie。嘗試瞭解第一方與第三方 Cookie 時，建議先瞭解 Target 的運作方式。請參閱[Adobe Target 運作方式](../../../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584)，以瞭解詳細資訊。
+您的網站設定會決定您要使用何種 Cookie。嘗試瞭解第一方與第三方 Cookie 時，建議先瞭解 Target 的運作方式。請參閱 [Adobe Target 運作方式](../../../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584)，以瞭解詳細資訊。
 
 cookie 有三種主要的使用狀況:
 
