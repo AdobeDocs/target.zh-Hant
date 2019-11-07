@@ -1,16 +1,11 @@
 ---
-description: 關於將電子郵件與 Recommendations 整合方式的資訊。
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
-seo-description: 關於將電子郵件與 Recommendations 整合方式的資訊。
-seo-title: 將 Recommendations 與電子郵件整合
-solution: Target
+description: 關於將電子郵件與 Recommendations 整合方式的資訊。
 title: 將 Recommendations 與電子郵件整合
-title-outputclass: premium
 topic: 建議
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
