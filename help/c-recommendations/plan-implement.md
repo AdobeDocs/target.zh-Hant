@@ -1,16 +1,10 @@
 ---
-description: 建立建議活動之前需要知道的事項。
 keywords: Recommendations;設定;偏好設定;行業別;篩選不相容的條件;預設主機群組;縮圖基底 url;建議 api token
-seo-description: 建立建議活動之前需要知道的事項。
-seo-title: '計劃和實作 Recommendations '
-solution: Target
+description: 建立建議活動之前需要知道的事項。
 title: '計劃和實作 Recommendations '
-title-outputclass: premium
-topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
-badge: premium
 translation-type: tm+mt
-source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
