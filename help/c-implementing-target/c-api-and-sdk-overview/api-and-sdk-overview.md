@@ -1,14 +1,11 @@
 ---
-description: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
 keywords: 伺服器端；伺服器端；api;sdk;node.js;nodejs;nodejs;recommendations api;api:api
-seo-description: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
-seo-title: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
-solution: Target
-title: 伺服器端實作 Target
+description: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
+title: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
