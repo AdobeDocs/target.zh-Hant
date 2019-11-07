@@ -1,13 +1,10 @@
 ---
 description: 適用原生行動應用程式的可視化體驗撰寫器 (VEC) 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。
-seo-description: 適用原生行動應用程式的可視化體驗撰寫器 (VEC) 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再經過不斷的開發相依性及應用程式發行週期。
-seo-title: 行動應用程式可視化體驗撰寫器
-solution: Target
 title: 行動應用程式可視化體驗撰寫器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -29,7 +26,7 @@ source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 | 程序 | 詳細資料 |
 |--- |--- |
 | 配對 | 以安全的方式授權行動應用程式與裝置可以使用 Target。一部裝置只需執行此步驟一次。 |
-| 編寫 | 編寫[Target 活動](/help/c-activities/activities.md)，並可即時預覽 Target UI 中執行的動作。 |
+| 編寫 | 編寫 [Target 活動](/help/c-activities/activities.md)，並可即時預覽 Target UI 中執行的動作。 |
 | 傳送 | Target 會自動傳送原生行動應用程式的活動。 |
 
 **配對:**
