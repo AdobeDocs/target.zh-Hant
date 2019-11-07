@@ -1,15 +1,12 @@
 ---
-description: 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T) 時遇到的一些常見問題。
 keywords: Analytics 追蹤伺服器;A4T;analytics 區段;報表套裝;不正確資料;孤立;sdid;VisitorAPI.js;mboxMCSDID;虛設;未指定
-seo-description: 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T) 時遇到的一些常見問題。
-seo-title: 疑難排解 Analytics 和 Target 整合 (A4T)
-solution: Target
-subtopic: 多變數測試
+description: 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T) 時遇到的一些常見問題。
 title: 疑難排解 Analytics 和 Target 整合 (A4T)
+subtopic: 多變數測試
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +21,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * [!DNL Target] 中的分類尚未完全處理。
 
-   分類通常需要24到72小時，才能在第一次儲存後對報表進行分類。
+   若要在第一次儲存後分類報表，分類通常需要 24 到 72 小時的時間。
 
 * 報表套裝不含任何資料，但 [!DNL Target] 已嘗試將點閱分類。[!DNL Target] 要直到第一次點閱發生時才能夠分類。
 
@@ -36,7 +33,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 >[!NOTE]
 >
->資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。請記住，第一次儲存後，通常需要24到72小時才能分類報表。
+>資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。請記住，若要在第一次儲存後分類報表，通常需要 24 到 72 小時的時間。
 >
 >列為「未指定」時不會遺失任何資料。分類執行之後，資料會適當地指派給適當的活動。
 
