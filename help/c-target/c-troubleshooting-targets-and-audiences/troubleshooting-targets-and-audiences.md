@@ -1,14 +1,11 @@
 ---
-description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 keywords: 疑難排解;常見問題集;FAQ;目標;對象
-seo-description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
-seo-title: 鎖定目標和對象常見問題集
-solution: Target
+description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 title: 鎖定目標和對象常見問題集
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
