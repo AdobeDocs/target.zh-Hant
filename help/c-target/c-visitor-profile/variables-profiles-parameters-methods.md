@@ -1,14 +1,11 @@
 ---
-description: 此頁面列出在設定檔指令碼中很實用的設定檔、變數和參數。
 keywords: 變數;設定檔;參數;內建設定檔;方法;url 變數;地理設定檔;第三方設定檔;mbox 變數;促銷活動變數;客戶屬性
-seo-description: 此頁面列出在設定檔指令碼中很實用的設定檔、變數和參數。
-seo-title: 設定檔和變數字彙表
-solution: Target
+description: 此頁面列出在設定檔指令碼中很實用的設定檔、變數和參數。
 title: 設定檔和變數字彙表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
