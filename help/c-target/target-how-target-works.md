@@ -1,13 +1,10 @@
 ---
-description: Adobe Target 透過 at.js 或 mbox.js JavaScript 資料庫的方式與您的網頁整合。
 keywords: 鎖定目標;Cookie;第一方 Cookie;第一方 Cookie
-seo-description: Adobe Target 透過 at.js 或 mbox.js JavaScript 資料庫的方式與您的網頁整合。
-seo-title: 鎖定目標如何運作
-solution: Target
+description: Adobe Target 透過 at.js 或 mbox.js JavaScript 資料庫的方式與您的網頁整合。
 title: 鎖定目標如何運作
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
