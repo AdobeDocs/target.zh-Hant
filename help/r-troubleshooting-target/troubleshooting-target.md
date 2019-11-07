@@ -1,14 +1,11 @@
 ---
-description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
 keywords: 疑難排解 target;疑難排解 target
-seo-description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
-seo-title: 疑難排解Adobe Target
-solution: Target
-title: 疑難排解 Target
+description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
+title: 疑難排解Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
