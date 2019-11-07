@@ -1,15 +1,12 @@
 ---
-description: 可協助您的技術人員瞭解 mbox.js 實作和它如何可能影響您的網站的資訊。
 keywords: 實作;mbox.js;dom 操作資料庫;target.js;可視化體驗撰寫器;iframe;angular 網站;單頁應用程式;SPA
-seo-description: 可協助您的技術人員瞭解 mbox.js 實作和它如何可能影響您的網站的資訊。
-seo-title: Mbox.js 的作用
-solution: Target
-subtopic: 快速入門
+description: 可協助您的技術人員瞭解 mbox.js 實作和它如何可能影響您的網站的資訊。
 title: Mbox.js 的作用
+subtopic: 快速入門
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
