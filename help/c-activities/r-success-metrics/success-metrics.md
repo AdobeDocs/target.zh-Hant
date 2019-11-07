@@ -1,13 +1,10 @@
 ---
-description: 在Adobe target中，成功度量已預先設定，以用於報告和追蹤目的。
 keywords: 定位；成功；轉換量度；頁面分數量度；頁面檢視量度；收入量度；網站逗留時間量度；估計值；進階設定；成功量度
-seo-description: 在Adobe target中，成功度量已預先設定，以用於報告和追蹤目的。
-seo-title: Adobe target中的成功度量
-solution: Target
-title: 成功量度
+description: 在Adobe target中，成功度量已預先設定，以用於報告和追蹤目的。
+title: Adobe target中的成功度量
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
