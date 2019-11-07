@@ -1,15 +1,12 @@
 ---
-description: 在 Target Standard 中管理使用者，及在 Target Premium 中管理企業屬性和權限的相關資訊。
 keywords: 新增使用者; 管理使用者; 使用者權限
-seo-description: 在 Target Standard 中管理使用者，及在 Target Premium 中管理企業屬性和權限的相關資訊。
-seo-title: 使用者管理
-solution: Target
-subtopic: 快速入門
+description: 在 Target Standard 中管理使用者，及在 Target Premium 中管理企業屬性和權限的相關資訊。
 title: 使用者管理
+subtopic: 快速入門
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
