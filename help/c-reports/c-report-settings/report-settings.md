@@ -1,14 +1,10 @@
 ---
-description: 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
 keywords: Target;報表;報表設定;預設集;target 預設集;量度;對象;日期範圍;設定;下載;表格檢視;圖表檢視;平均提升度;提升度;提升度界限;信賴區間;信賴;位置貢獻;執行中的平均值;計數方法
-seo-description: 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
-seo-title: 報表設定
-solution: Target
+description: 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
 title: 報表設定
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
