@@ -1,14 +1,10 @@
 ---
-description: 行動檢視區可協助您預覽活動出現在各種大小畫面上的方式。
 keywords: 回應式; 行動檢視區; 檢視區; 裝置; 行動範例; iPhone
-seo-description: 行動檢視區可協助您預覽活動出現在各種大小畫面上的方式。
-seo-title: 回應式體驗的行動檢視區
-solution: Target
+description: 行動檢視區可協助您預覽活動出現在各種大小畫面上的方式。
 title: 回應式體驗的行動檢視區
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
