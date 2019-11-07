@@ -1,15 +1,12 @@
 ---
-description: Adobe Target 已啟用程序和設定，允許您使用 Target 遵守適用的資料隱私權法律。
 keywords: 概覽和參考
-seo-description: Adobe Target 已啟用程序和設定，允許您使用 Target 遵守適用的資料隱私權法律。
-seo-title: 隱私權
-solution: Target
-subtopic: 快速入門
+description: Adobe Target 已啟用程序和設定，允許您使用 Target 遵守適用的資料隱私權法律。
 title: 隱私權
+subtopic: 快速入門
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
