@@ -1,15 +1,12 @@
 ---
-description: 關於使用來自客戶關係管理 (CRM) 資料庫的企業客戶資料，在 Adobe Target 中使用 Adobe 設定檔與對象核心服務中的客戶屬性的資訊進行內容鎖定的資訊。
 keywords: 客戶記錄服務;crs;crm;mbox3rdpartyid;客戶屬性;目標鎖定
-seo-description: 關於使用來自客戶關係管理 (CRM) 資料庫的企業客戶資料，在 Adobe Target 中使用 Adobe 設定檔與對象核心服務中的客戶屬性的資訊進行內容鎖定的資訊。
-seo-title: 客戶屬性建立設定檔屬性比較對象
-solution: Target
+description: 關於使用來自客戶關係管理 (CRM) 資料庫的企業客戶資料，在 Adobe Target 中使用 Adobe 設定檔與對象核心服務中的客戶屬性的資訊進行內容鎖定的資訊。
+title: 客戶屬性建立設定檔屬性比較對象
 subtopic: 快速入門
-title: 客戶屬性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +32,7 @@ Consider the following information as your work with customer attributes and [!D
    >[!DNL at.js] （任何版本）或 [!DNL mbox.js] 58版或更新版本為必要。
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，可能不會將少量百分比的資料上架。
-* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see [Visitor Profile Lifetime](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 如需詳細資訊，請參閱訪 [客資料存留期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有在 `authState` 變更為 UNAUTHENTICATED (1) 時，設定檔才會生效。
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. 如果需要的行為是擷取驗證的設定檔，`vst.myDataSource.authState` 必須具備值 1 (AUTHENTICATED)。
@@ -52,7 +49,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 建立資料檔案。
 
-   從您的 CRM 將客戶資料匯出為 CSV 格式，以建立 .csv 檔案。此外，您也可以建立 zip 或 gzip 檔案進行上傳。Ensure that first row of the CSV file is the header and all rows (customer data) have the same number of entries.
+   從您的 CRM 將客戶資料匯出為 CSV 格式，以建立 .csv 檔案。此外，您也可以建立 zip 或 gzip 檔案進行上傳。請確定CSV檔案的第一列是標題，且所有列（客戶資料）的項目數都相同。
 
    ![](assets/CRS_sample.png)
 
@@ -85,7 +82,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 設定訂閱及啟動屬性來源。
 
-   按一下&#x200B;**[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。[Configure subscriptions](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) sets up the data flow between the [!DNL Experience Cloud] and solutions. 啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
+   按一下&#x200B;**[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。[設定訂閱](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) ，設定和解決方案之間的資 [!DNL Experience Cloud] 料流。 啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
 
    ![](assets/solution.png)
 
@@ -145,7 +142,7 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 | 傳送未根據屬性運作 | Edge 上的設定檔尚未更新。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。 |
 | 實作問題 | 請注意下列實作問題:<ul><li>訪客 ID 未正確傳遞。The ID was passed in `mboxMCGVID` instead of `setCustomerId`.</li><li>傳遞的訪客 ID 正確，但 AUTHENTICATION 狀態未設為 Authenticated。</li><li>`mbox3rdPartyId` 未正確傳遞。</li> |
 | `mboxUpdate` 未正確執行 | `mboxUpdate` 未正確搭配 `mbox3rdPartyId` 執行。 |
-| Customer attributes are not being imported into Target | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
+| 客戶屬性未匯入Target | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
 
 以上第 1 列和第 2 列中的問題大約造成此領域中 60% 的問題。第 3 列中的問題大約造成 30% 的問題。第 4 列中的問題大約造成 5% 的問題。其餘的 5% 則因為雜項問題。
 
