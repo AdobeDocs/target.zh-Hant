@@ -1,15 +1,12 @@
 ---
-description: 啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
 keywords: 實作; API; 設定檔; 設定檔 API 設定
-seo-description: 啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
-seo-title: 設定檔 API 設定
-solution: Target
-subtopic: 快速入門
+description: 啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
 title: 設定檔 API 設定
+subtopic: 快速入門
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
