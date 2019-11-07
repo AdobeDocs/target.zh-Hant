@@ -1,14 +1,11 @@
 ---
-description: 對象會決定哪些網站訪客進入了您的活動。
 keywords: 對象; 選取對象; 選擇對象; 選取器
-seo-description: 對象會決定哪些網站訪客進入了您的活動。
-seo-title: 選取對象
-solution: Target
+description: 對象會決定哪些網站訪客進入了您的活動。
 title: 選取對象
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
