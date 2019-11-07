@@ -1,15 +1,12 @@
 ---
-description: 可協助您為 at.js 和 mbox.js 自訂全域 mbox 的資訊。
 keywords: 全域 mbox;自訂全域 mbox;編輯 mbox.js;編輯 at.js;at.js;實作 mbox.js;實作 at.js
-seo-description: 可協助您為 at.js 和 mbox.js 自訂全域 mbox 的資訊。
-seo-title: 自訂全域 mbox
-solution: Target
-subtopic: 快速入門
+description: 可協助您為 at.js 和 mbox.js 自訂全域 mbox 的資訊。
 title: 自訂全域 mbox
+subtopic: 快速入門
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
