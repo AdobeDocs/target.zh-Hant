@@ -1,13 +1,11 @@
 ---
-description: Frequently Asked Questions about Adobe Target for mobile apps.
 keywords: 行動應用程式；常問問題；常見問題；常見問題；目標行動應用程式
-seo-description: 行動應用程式專用Adobe Target的常見問題。
-seo-title: 行動應用程式專用Adobe Target的常見問題
-title: 行動應用程式的Adobe Target常見問答集
+description: 行動應用程式專用Adobe Target的常見問題。
+title: 行動應用程式專用Adobe Target的常見問題
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -28,7 +26,7 @@ SDK可從 [Adobe Marketing Cloud Git取得](https://github.com/Adobe-Marketing-C
 
 是的，您可以使用我們的行動SDK逐步推出功能。
 
-## For more complex logic, should I develop directly in the app instead of using the Mobile VEC? 如果是，我應使用哪種開發語言？
+## 若是更複雜的邏輯，我是否應直接在應用程式中開發，而非使用Mobile VEC? 如果是，我應使用哪種開發語言？
 
 目前，VEC支援常用的使用案例，例如變更影像、文字、顏色等。 如需進階的使用案例，例如個人化應用程式版面，您必須在程式碼中插入請求／位置(mbox)，並使用 [!DNL Target] Form-Based Experience Composer [](/help/c-experiences/form-experience-composer.md) ，來設計體驗並分配流量。 我們的行動SDK支援Java、Objective c和Swift。 選擇語言取決於您團隊的偏好和資源。
 
@@ -46,20 +44,20 @@ Adobe Experience Platform Mobile SDK目前支援iOS、Android和React。 如需�
 
 ## 我是否需要at.js才能讓Adobe Experience Platform Mobile SDK運作？
 
-不行，您不需要at.js就能使用行動SDK。 at.js is the  JavaScript library for websites. [!DNL Target]The Adobe Experience Platform Mobile SDKs are for mobile apps.
+不行，您不需要at.js就能使用行動SDK。 at.js是網站的 [!DNL Target] JavaScript程式庫。 Adobe Experience Platform Mobile SDK適用於行動應用程式。
 
-## Is Target Mobile a functionality of Adobe Target Premium Product SKU only?
+## Target mobile是否僅為Adobe Target Premium產品SKU的功能？
 
-For Adobe Target Standard customers, you can use our Mobile SDKs for A/B Test and Experience Targeting (XT) activities only. If you want to use Recommendations or AI-powered features in the mobile app, you need an Adobe Target Premium license.[](/help/c-intro/intro.md#premium)
+對於Adobe Target Standard客戶，您只能將我們的行動SDK用於A/B測試和體驗定位(XT)活動。 如果您想要在行動應用程式中使用Recommendations或人工智慧功能，則需要 [Adobe Target Premium授權](/help/c-intro/intro.md#premium) 。
 
-## Can I leverage audiences from Adobe Audience Manager (AAM) in the VEC for Mobile Apps?
+## 我是否可在適用於行動應用程式的VEC中運用Adobe Audience Manager(AAM)的受眾？
 
-Yes, Adobe Experience Platform Mobile SDKs are built for Audience Manager, Analytics, Campaign, and Target. [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)[](https://docs.adobe.com/content/help/en/analytics/landing/home.html)[](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)Your audiences in Audience Manager are shared with .[!DNL Target]
+是的，Adobe Experience Platform Mobile SDK是專為 [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)、 [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)、 [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)和Target打造。 您在Audience manager中的觀眾會與共用 [!DNL Target]。
 
-## Is there a mobile app integration between Adobe Experience Manager (AEM) and Target mobile activities?
+## Adobe Experience Manager(AEM)和Target行動活動之間是否有行動應用程式整合？
 
-It is on our roadmap but there is no timeline yet. Currently, you can share JSON Experience Fragments from AEM to Target and there might be potential to then use them in a mobile app activity.[](/help/c-experiences/c-manage-content/aem-experience-fragments.md)
+它已列在我們的路線圖上，但還沒有時間表。 目前，您可以將JSON [Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) （體驗片段）從AEM共用至Target，然後可能會在行動應用程式活動中使用這些片段。
 
-## Can I add more images using the VEC or only change existing images?
+## 我是否可以使用VEC新增更多影像，或僅變更現有影像？
 
-You can currently change existing images only.
+您目前只能變更現有的影像。
