@@ -1,14 +1,11 @@
 ---
-description: 在 Target 活動中使用在 Adobe Experience Manager (AEM) 中建立的體驗片段，以輔助最佳化或個人化的相關資訊。
 keywords: experience;json;aem;adobe experience manager；匯出至adobe target;experience片段；片段；XF
-seo-description: 有關在Adobe Target活動中使用在Adobe Experience Manager(AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
-seo-title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
-solution: Target
-title: AEM 體驗片段
+description: 有關在Adobe Target活動中使用在Adobe Experience Manager(AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
+title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -56,7 +53,7 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 體驗片段是在 AEM 中建立。如需詳細資訊，請參閱:
 
-* **AEM 6.3**: [Experience Fragments](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in the *Adobe Experience Manager 6.3* documentation.
+* **AEM 6.3**: [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager 6.3檔案中的 *Experience片段* 。
 * **AEM 6.4**: [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.4檔案中的 *Experience片段* 。
 * **AEM 6.5**: [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5檔案中的 *Experience片段* 。
 
@@ -142,7 +139,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 * [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. 請注意，體驗片段「主要」版本會保留在 AEM 中。You cannot edit the experience fragment in [!DNL Target].
-* You can import JSON offers as experience fragments into . [!DNL Target]However, these offers are imported as HTML offers. JSON offers (experience fragments) are currently not fully supported in the  UI.[!DNL Target]
+* 您可以將JSON選件匯入為體驗片段 [!DNL Target]。 不過，這些選件會匯入為HTML選件。 UI目前不完全支援JSON選件（體驗片段） [!DNL Target] 。
 
 ## 訓練影片: 將 AEM 體驗片段用於 Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
