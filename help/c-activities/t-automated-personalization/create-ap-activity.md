@@ -1,16 +1,11 @@
 ---
-description: 自動個人化活動工作流程與其他活動類型的工作流程不同。
 keywords: 自動個人化; 對象; 整體; 隨機森林; 殘差變異; 錯誤變異; 存留期值
-seo-description: 自動個人化活動工作流程與其他活動類型的工作流程不同。
-seo-title: 建立自動個人化活動
-solution: Target
+description: 自動個人化活動工作流程與其他活動類型的工作流程不同。
 title: 建立自動個人化活動
-title-outputclass: premium
 topic: 進階
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
