@@ -1,14 +1,10 @@
 ---
-description: 啟用 Analytics 做為 Target (A4T) 的報表來源時，會在您的資料收集程序中發生數個變更。
 keywords: Recommendations
-seo-description: 啟用 Analytics 做為 Target (A4T) 的報表來源時，會在您的資料收集程序中發生數個變更。
-seo-title: 實作之前Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
-solution: Target
-title: 實作之前
-topic: Premium
+description: 啟用 Analytics 做為 Target (A4T) 的報表來源時，會在您的資料收集程序中發生數個變更。
+title: 實作之前Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
