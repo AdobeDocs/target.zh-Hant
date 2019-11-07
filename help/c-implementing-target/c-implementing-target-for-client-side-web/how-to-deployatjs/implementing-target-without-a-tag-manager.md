@@ -1,15 +1,12 @@
 ---
-description: 不使用標籤管理程式 (Adobe Launch 或動態標籤管理) 實作 Adobe Target 的相關資訊。
 keywords: 訂購確認;orderConfirmPage
-seo-description: 不使用標籤管理程式 (Adobe Launch 或動態標籤管理) 實作 Adobe Target 的相關資訊。
-seo-title: 不使用標籤管理程式實作 Target
-solution: Target
-subtopic: 快速入門
+description: 不使用標籤管理程式 (Adobe Launch 或動態標籤管理) 實作 Adobe Target 的相關資訊。
 title: 不使用標籤管理程式實作 Target
+subtopic: 快速入門
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
