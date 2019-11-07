@@ -1,13 +1,10 @@
 ---
-description: 建立受眾，根據參照至您網站的搜尋引擎或著陸頁面鎖定訪客。
 keywords: 鎖定目標;流量來源;目標流量來源;目標搜尋引擎;搜尋引擎;登陸頁面;目標登陸頁面;引用登陸頁面
-seo-description: 在 Adobe Target 中建立受眾，根據參照至您網站的搜尋引擎或著陸頁面鎖定訪客。
-seo-title: 在 Adobe Target 中鎖定流量來源
-solution: Target
-title: 流量來源
+description: 在 Adobe Target 中建立受眾，根據參照至您網站的搜尋引擎或著陸頁面鎖定訪客。
+title: 在 Adobe Target 中鎖定流量來源
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
