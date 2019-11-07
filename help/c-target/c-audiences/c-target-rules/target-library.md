@@ -1,13 +1,10 @@
 ---
-description: 根據預先建置的鎖定目標規則鎖定使用者。
 keywords: 鎖定目標;Target 資料庫;程式庫
-seo-description: 根據預先建置的鎖定目標規則鎖定使用者。
-seo-title: Target 資料庫
-solution: Target
+description: 根據預先建置的鎖定目標規則鎖定使用者。
 title: Target 資料庫
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
