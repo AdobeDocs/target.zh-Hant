@@ -1,15 +1,9 @@
 ---
-description: 有關使用特殊多值運算子在Adobe Target Recommendations中處理多值欄位的資訊。
 keywords: multi value;attributes;recommendations;multi value;multivalue
-seo-description: 有關使用特殊多值運算子在Adobe Target Recommendations中處理多值欄位的資訊。
-seo-title: 在Adobe Target Recommendations中使用多值屬性
-solution: Target
-title: 使用多值屬性
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: 有關使用特殊多值運算子在Adobe Target Recommendations中處理多值欄位的資訊。
+title: 在Adobe Target Recommendations中使用多值屬性
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
