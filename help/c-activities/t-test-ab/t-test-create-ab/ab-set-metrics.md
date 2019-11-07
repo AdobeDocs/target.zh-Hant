@@ -1,13 +1,11 @@
 ---
-description: 在 A/B 活動中使用量度以判斷造訪是否成功。
 keywords: A/B; 活動量度; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-seo-description: 在 A/B 活動中使用量度以判斷造訪是否成功。
-seo-title: 設定量度
-solution: Target (Standard)
+description: 在 A/B 活動中使用量度以判斷造訪是否成功。
 title: 設定量度
+solution: Target (Standard)
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
