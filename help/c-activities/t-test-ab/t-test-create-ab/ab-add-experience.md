@@ -1,13 +1,10 @@
 ---
-description: 可視化體驗撰寫器提供用於編輯您的頁面上體驗的視覺介面。
 keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
-seo-description: Adobe Target 中的可視化體驗撰寫器 (VEC) 提供用於編輯您的頁面上體驗的視覺介面。
-seo-title: 新增體驗
-solution: Target
+description: Adobe Target 中的可視化體驗撰寫器 (VEC) 提供用於編輯您的頁面上體驗的視覺介面。
 title: 新增體驗
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
