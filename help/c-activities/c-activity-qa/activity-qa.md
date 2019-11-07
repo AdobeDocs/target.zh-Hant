@@ -1,14 +1,11 @@
 ---
-description: 使用 QA URL 來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
 keywords: qa;預覽;預覽連結
-seo-description: 使用 QA URL 來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
-seo-title: 活動 QA
-solution: Target
+description: 使用 QA URL 來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
 title: 活動 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
