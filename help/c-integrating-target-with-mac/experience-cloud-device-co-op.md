@@ -1,14 +1,11 @@
 ---
-description: 提供 Adobe Experience Cloud Device Co-op 的相關資訊。Adobe Experience Cloud Device Co-op 計劃可讓參與者共同合作，以在數位接觸點間更能識別客戶，同時確保最高層級的隱私權和透明度。
 keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;裝置圖表
-seo-description: 提供 Adobe Experience Cloud Device Co-op 的相關資訊。Adobe Experience Cloud Device Co-op 計劃可讓參與者共同合作，以在數位接觸點間更能識別客戶，同時確保最高層級的隱私權和透明度。
-seo-title: Experience Cloud Device Co-op
-solution: Target
+description: 提供 Adobe Experience Cloud Device Co-op 的相關資訊。Adobe Experience Cloud Device Co-op 計劃可讓參與者共同合作，以在數位接觸點間更能識別客戶，同時確保最高層級的隱私權和透明度。
 title: Experience Cloud Device Co-op
 topic: Standard
 uuid: b689a964-613f-4a64-9f15-e9111e6bf945
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
