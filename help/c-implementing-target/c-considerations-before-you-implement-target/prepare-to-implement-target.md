@@ -1,15 +1,12 @@
 ---
-description: 準備實作 Adobe Target 之前，有一些應完成的工作和應收集的資訊。
 keywords: 實作;rfi;索取資訊
-seo-description: 準備實作 Adobe Target 之前，有一些應完成的工作和應收集的資訊。
-seo-title: 準備實作 Adobe Target
-solution: Target
+description: 準備實作 Adobe Target 之前，有一些應完成的工作和應收集的資訊。
+title: 準備實作 Adobe Target
 subtopic: 快速入門
-title: 準備實作 Target
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
