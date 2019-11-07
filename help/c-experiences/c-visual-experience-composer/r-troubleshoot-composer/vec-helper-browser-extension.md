@@ -1,13 +1,10 @@
 ---
-description: 提供使用 Target 可視化體驗撰寫器 (VEC) Helper 瀏覽器擴充功能，在 VEC 內以可靠的方式載入網站來迅速撰寫體驗和保證體驗品質的資訊。
 keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
-seo-description: 提供使用 Adobe Target 可視化體驗撰寫器 (VEC) Helper 瀏覽器擴充功能，在 VEC 內以可靠的方式載入網站來迅速撰寫體驗和保證體驗品質的資訊。
-seo-title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
-solution: Target
-title: 可視化體驗撰寫器 Helper 擴充功能
+description: 提供使用 Adobe Target 可視化體驗撰寫器 (VEC) Helper 瀏覽器擴充功能，在 VEC 內以可靠的方式載入網站來迅速撰寫體驗和保證體驗品質的資訊。
+title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
