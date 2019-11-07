@@ -1,14 +1,11 @@
 ---
-description: 提供關於您可用來編輯現有活動的不同方式的資訊，包括以草稿形式儲存活動。
 keywords: 活動; 活動類型; 編輯活動; 編輯; 草稿
-seo-description: 提供關於您可用來編輯現有活動的不同方式的資訊，包括以草稿形式儲存活動。
-seo-title: 編輯活動或另存為草稿
-solution: Target
+description: 提供關於您可用來編輯現有活動的不同方式的資訊，包括以草稿形式儲存活動。
 title: 編輯活動或另存為草稿
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -60,9 +57,9 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
 
 
-## 使用Recommendations Classic中建立的舊有活動 {#classic}
+## 使用在 Recommendations Classic 中建立的舊版活動 {#classic}
 
-「活 [!UICONTROL 動] 」清單會顯示在各種來源中建立的活動，包括 [!DNL Recommendations Classic]。 使用中建立的舊式活動時，可使用以下操作 [!DNL Recommendations Classic]:
+[!UICONTROL 活動]清單會顯示在各種來源中建立的活動，包括 [!DNL Recommendations Classic]。使用在 [!DNL Recommendations Classic] 中建立的舊版活動時，以下是可供使用的動作:
 
 * [!UICONTROL 啟動]
 * [!UICONTROL 停用]
@@ -70,7 +67,7 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 * [!UICONTROL 複製]
 * [!UICONTROL 刪除]
 
-您無法直接編輯 [!DNL Recommendations] 活動。 如果要編輯活動，應使用建立活動副本，然後保存新 [!DNL Target Premium] 建立的活動。 然後，可視需要編輯新建立的活動。
+您無法直接編輯 [!DNL Recommendations] 活動。若要編輯活動，您應使用 [!DNL Target Premium] 建立活動複本，然後儲存新建立的活動。接著即可視需要編輯這個新建立的活動。
 
 ## 以草稿形式儲存活動 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
