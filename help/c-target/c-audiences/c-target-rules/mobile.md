@@ -1,14 +1,11 @@
 ---
-description: 建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
 keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
-seo-description: 在 Adobe Target 中建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
-seo-title: Adobe Target 中的行動受眾
-solution: Target
-title: 行動
+description: 在 Adobe Target 中建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
+title: Adobe Target 中的行動受眾
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
