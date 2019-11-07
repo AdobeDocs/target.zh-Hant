@@ -1,14 +1,11 @@
 ---
-description: 如果您的活動未出現在網站上，這些疑難排解建議應可協助您尋找您的解決方案。
 keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 出現上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪設定檔指令碼; ajax 無法使用
-seo-description: 如果您的活動未出現在網站上，這些疑難排解建議應可協助您尋找您的解決方案。
-seo-title: 疑難排解活動
-solution: Target
+description: 如果您的活動未出現在網站上，這些疑難排解建議應可協助您尋找您的解決方案。
 title: 疑難排解活動
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
