@@ -1,13 +1,11 @@
 ---
-description: 管理排除的方法包括在 Automated Personalization (AP) 活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
 keywords: 刪除重複資料;允許重複項目;排除重複選件;自動個人化;不允許重複選件
-seo-description: 管理排除的方法包括在 Adobe Target Automated Personalization (AP) 活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
-seo-title: 管理排除項目
-solution: Target、Analytics
+description: 管理排除的方法包括在 Adobe Target Automated Personalization (AP) 活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
 title: 管理排除項目
+solution: Target、Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
