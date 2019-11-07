@@ -1,14 +1,11 @@
 ---
-description: 使用可視化體驗撰寫器在啟用 Target 的頁面上建立體驗鎖定目標活動，以及在 Target 內修改頁面的部分。
-seo-description: 使用可視化體驗撰寫器在啟用 Target 的頁面上建立體驗鎖定目標 (XT) 活動，以及在 Adobe Target 內修改頁面的部分。
-seo-title: 建立體驗鎖定目標活動
-solution: Target
-subtopic: 多變數測試
+description: 使用可視化體驗撰寫器在啟用 Target 的頁面上建立體驗鎖定目標 (XT) 活動，以及在 Adobe Target 內修改頁面的部分。
 title: 建立體驗鎖定目標活動
+subtopic: 多變數測試
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
