@@ -1,14 +1,11 @@
 ---
-description: 此主題包含經常詢問關於舊版 SiteCatalyst 到 Test&Target 整合和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 keywords: faq;常見問題集;analytics for target;a4T;sitecatalyst;行銷活動>方式;test&target;整合
-seo-description: 此主題包含經常詢問關於舊版 SiteCatalyst 到 Test&Target 整合和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
-seo-title: 舊版 SiteCatalyst 到 Test&Target 整合 - A4T 常見問題集
-solution: Target
+description: 此主題包含經常詢問關於舊版 SiteCatalyst 到 Test&Target 整合和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 title: 舊版 SiteCatalyst 到 Test&Target 整合 - A4T 常見問題集
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
