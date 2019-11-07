@@ -1,25 +1,22 @@
 ---
-description: 可視化體驗撰寫器 (VEC) 提供視覺介面，可用於編輯體驗鎖定目標 (XT) 活動之頁面上的體驗。
 keywords: 建立體驗; 體驗建立; 優先順序; 對象; 體驗; 可視化體驗撰寫器
-seo-description: Adobe Target 可視化體驗撰寫器 (VEC) 提供視覺介面，可用於編輯體驗鎖定目標 (XT) 活動之頁面上的體驗。
-seo-title: 建立體驗
-solution: Target
+description: Adobe Target 可視化體驗撰寫器 (VEC) 提供視覺介面，可用於編輯體驗鎖定目標 (XT) 活動之頁面上的體驗。
 title: 建立體驗
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # 建立體驗{#create-experience}
 
-The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
+[!UICONTROL 可視化體驗撰寫器] (VEC) 提供視覺化介面，可用於編輯[!UICONTROL 體驗鎖定目標] (XT) 活動之頁面上的體驗。
 
 1. 選取您要變更的元素，並進行需要的變更。
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   [建立 XT 活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三步驟引導式工作流程的步驟一 ([!UICONTROL 體驗]) 會顯示具有[!UICONTROL 所有訪客]受眾的預設[!UICONTROL 體驗 A]。
 
    ![所有訪客受眾](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +24,19 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    將游標移至頁面上的元素時，元素會強調顯示。任何強調顯示的元素可以使用 VEC 加以更改。如需可以在元素上執行以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   如果您在使用 [!DNL Target Classic] 的頁面上建立 mbox，該 mbox 會以元素的形式出現並顯示 mbox 名稱，且可如同任何其他元素般加以修改。
 
    >[!NOTE]
    >
-   >根據預設，VEC 不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。您可以選取停用JavaScript，以使用VEC來變更這些元素。
+   >根據預設，VEC 不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。您可以選取停用 JavaScript，以使用 VEC 更改這些元素。
 
-1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
+1. 若要建立其他體驗，請按一下&#x200B;**[!UICONTROL 新增體驗鎖定目標]**。
 
    ![新增體驗鎖定目標連結](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    [!UICONTROL 選擇受眾]對話方塊隨即顯示。若要將體驗鎖定至某個受眾，則必須先選取受眾才能新增體驗。
 
-   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   受眾資料庫包含先前已定義的受眾，包括一些隨著 [!DNL Target] 預先建置的共通受眾。您可以從資料庫中選取受眾或[建立新受眾](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
 
    >[!NOTE]
    >
@@ -69,7 +66,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    >[!NOTE]
    >
-   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
+   >如果您從主要頁面以外的來源 (例如在 `akamai.net` 上託管並在 `adobe.com` 上傳送的影像) 傳送影像，該影像不會顯示在流程圖中所顯示頁面的縮圖中。
 
 1. (視條件而定) 在建立或編輯 XT 活動時拖放受眾/體驗配對，以使用所需順序排列配對。
 
@@ -77,7 +74,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    ![移動體驗](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   [!UICONTROL 體驗鎖定目標會假設順序重要。]如果訪客落入第一個對象/體驗配對，即會傳送第一個體驗。
+   [!UICONTROL 體驗鎖定目標]會假設順序重要。如果訪客落入第一個對象/體驗配對，即會傳送第一個體驗。
 
    例如，假設您不知道建立 XT 活動時順序很重要。您後續在測試期間發現，您認為應該符合體驗 B 或 C 資格的訪客卻符合體驗 A 的資格。這可能是因為該對象非互斥卻採用不適當的順序 (例如，體驗 A = 美國，體驗 B = 舊金山，而體驗 C = 加州)。在此案例中，來自美國的所有使用者會符合體驗 A 的資格，即便他們位於舊金山或加州的其他地方。您可以從最多限制到最少限制 (舊金山 &gt; 加州 &gt; 美國) 重新排序對象/體驗配對，而不需重新建立整個活動。
 
@@ -100,7 +97,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
 ## 複製體驗
 
-您可以複製XT活動中的體驗，以便對體驗進行小幅變更，而不需從頭開始重新建立體驗。
+您可以複製 XT 活動中的體驗，不必從頭再次建立體驗，即可進行微幅變更。
 
 在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
 
