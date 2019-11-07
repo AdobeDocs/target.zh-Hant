@@ -1,15 +1,12 @@
 ---
-description: 您可以在 Adobe Admin Console 中新增使用者並管理其權限。
 keywords: 新增使用者; 管理使用者; 使用者權限
-seo-description: 您可以在 Adobe Admin Console 中新增使用者並管理其權限。
-seo-title: 使用者
-solution: Target
-subtopic: 快速入門
+description: 您可以在 Adobe Admin Console 中新增使用者並管理其權限。
 title: 使用者
+subtopic: 快速入門
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
