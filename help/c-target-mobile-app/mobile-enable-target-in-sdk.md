@@ -1,13 +1,11 @@
 ---
-description: 將 Adobe Mobile Services SDK 新增至您的應用程式。
 keywords: 行動應用程式;行動應用程式 sdk;target 行動應用程式;行動 target sdk;行動應用程式 sdk;在 sdk 中啟用 target
-seo-description: 將 Adobe Mobile Services SDK 新增至您的應用程式。
-seo-title: 啟用 SDK 中的 Target
+description: 將 Adobe Mobile Services SDK 新增至您的應用程式。
 title: 啟用 SDK 中的 Target
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
