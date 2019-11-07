@@ -1,15 +1,12 @@
 ---
-description: 此主題顯示如何建立可以在可視化體驗撰寫器 (VEC) 中編輯的輪播。
 keywords: 可視化體驗撰寫器; VEC; 輪播
-seo-description: 此主題顯示如何建立可以在可視化體驗撰寫器 (VEC) 中編輯的輪播。
-seo-title: 建立可在可視化體驗撰寫器中運作的輪播
-solution: Target
-subtopic: 多變數測試
+description: 此主題顯示如何建立可以在可視化體驗撰寫器 (VEC) 中編輯的輪播。
 title: 建立可在可視化體驗撰寫器中運作的輪播
+subtopic: 多變數測試
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
