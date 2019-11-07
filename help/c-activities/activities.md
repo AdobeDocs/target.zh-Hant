@@ -1,14 +1,11 @@
 ---
-description: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
 keywords: 活動清單；活動；活動；活動類型；編輯活動；活動；活動；活動屬性；活動清單過濾；活動限制；個人化；個人化
-seo-description: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計
-seo-title: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
-solution: Target
-title: 活動
+description: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計
+title: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
