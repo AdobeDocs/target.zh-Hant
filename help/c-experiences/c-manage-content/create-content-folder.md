@@ -1,14 +1,11 @@
 ---
-description: 建立資料夾以在選件資料庫中保存項目。
 keywords: 內容; 建立資料夾; 資產; 移動資料夾; 複製資料夾; 刪除資料夾; 下載資料夾; 資料夾
-seo-description: 建立資料夾以在選件資料庫中保存項目。
-seo-title: 建立選件資料夾
-solution: Target
+description: 建立資料夾以在選件資料庫中保存項目。
 title: 建立選件資料夾
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -38,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 檢視資料夾資訊。
 
-### 編輯    ![](assets/icon_edit.png)
+### 編輯 ![](assets/icon_edit.png)
 
 編輯資料夾。
 
