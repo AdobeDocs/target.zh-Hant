@@ -1,14 +1,11 @@
 ---
-description: 如果安全的內容與不安全的內容混合，則某些瀏覽器會封鎖頁面的顯示。
 keywords: 混合的內容; 安全; 不安全; Chomre; 疑難排解, VEC; 可視化體驗撰寫器; 未保護
-seo-description: 如果安全的內容與不安全的內容混合，則某些瀏覽器會封鎖頁面的顯示。
-seo-title: 在您的瀏覽器中啟用混合的內容
-solution: Target
+description: 如果安全的內容與不安全的內容混合，則某些瀏覽器會封鎖頁面的顯示。
 title: 在您的瀏覽器中啟用混合的內容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
