@@ -1,15 +1,12 @@
 ---
-description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將額外的鎖定目標/環境資訊傳遞至 Target 的任何案例中，需要此函數。
 keywords: 全域 mbox 參數;targetPageParams;查詢字串;陣列;json;dtm;動態標籤管理
-seo-description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將額外的鎖定目標/環境資訊傳遞至 Target 的任何案例中，需要此函數。
-seo-title: 傳遞參數至全域 mbox
-solution: Target
-subtopic: 快速入門
+description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將額外的鎖定目標/環境資訊傳遞至 Target 的任何案例中，需要此函數。
 title: 傳遞參數至全域 mbox
+subtopic: 快速入門
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
