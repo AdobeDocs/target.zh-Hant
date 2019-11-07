@@ -1,14 +1,11 @@
 ---
-description: 此主題包含經常詢問關於分類和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 keywords: faq;常見問題集;analytics for target;a4T;分類;分類匯入程式;post-tnt-action
-seo-description: 此主題包含經常詢問關於分類和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
-seo-title: 分類 - A4T 常見問題集
-solution: Target
+description: 此主題包含經常詢問關於分類和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 title: 分類 - A4T 常見問題集
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
