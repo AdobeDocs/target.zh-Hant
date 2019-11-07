@@ -1,16 +1,10 @@
 ---
-description: '在建立包含Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
 keywords: Recommendations;offer;preview;launch
-seo-description: '在建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要先預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
-seo-title: '在建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要先預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
-solution: Target
-subtopic: 建議
-title: 預覽和啟動您的Recommendations活動
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: '在建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要先預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
+title: '在建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要先預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
+subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
