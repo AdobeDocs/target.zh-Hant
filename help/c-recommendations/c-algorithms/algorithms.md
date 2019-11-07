@@ -1,16 +1,10 @@
 ---
-description: 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
-keywords: recommendations;recommendations 活動;條件；算法；建議鍵；自定義鍵；行業垂直；零售；電子商務；潛在客戶開發；b2b；金融服務；媒體；發佈
-seo-description: Adobe Target Recommendations中的准則是規則，可根據一組預先設定的訪客行為來決定要推薦哪些產品。
-seo-title: Adobe Target Recommendations中的條件
-solution: Target
-title: 標準
-title-outputclass: premium
-topic: Premium
+keywords: recommendations;recommendations活動；准則；算法；建議鍵；自訂鍵；行業垂直；零售；eccommerce;lead generation;b2b；金融服務；媒體；發佈
+description: Adobe Target Recommendations中的准則是規則，可根據一組預先設定的訪客行為來決定要推薦哪些產品。
+title: Adobe Target Recommendations中的條件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
