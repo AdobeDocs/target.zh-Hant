@@ -1,14 +1,11 @@
 ---
-description: 可協助您從 Target 舊版 API 使用轉變到 Adobe I/O 上的新 API 的資訊。
 keywords: API; Adobe I/O
-seo-description: 可協助您從 Target 舊版 API 使用轉變到 Adobe I/O 上的新 API 的資訊。
-seo-title: 從 Target 舊版 API 轉變為 Adobe I/O
-solution: Target
+description: 可協助您從 Target 舊版 API 使用轉變到 Adobe I/O 上的新 API 的資訊。
 title: 從 Target 舊版 API 轉變為 Adobe I/O
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 停用 Adobe Target Classic 之後，連接到 Target Classic 帳戶的 API 也已無法使用。本文協助您從舊版 API 型整合移轉至 Adobe I/O 所支援的 Target API。
 
-如需有關 Target API 文件的詳細資訊，請參閱[Target API 與 NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6)。
+如需有關 Target API 文件的詳細資訊，請參閱 [Target API 與 NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6)。
 
 ## 術語 {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
