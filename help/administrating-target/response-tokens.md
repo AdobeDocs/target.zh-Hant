@@ -1,15 +1,12 @@
 ---
-description: 回應 Token 可讓您自動輸出 Target 的特定資訊 (促銷活動詳細資料、使用者設定檔資訊、地理資訊等)，以用於除錯或與第三方系統整合 (例如 Clicktale)
-keywords: 回應 Token; Token; 增效模組;at.js；響應
-seo-description: 回應Token可讓您自動輸出Target特定資訊（活動詳細資訊、使用者設定檔資訊、地理資訊等），以用於除錯或與協力廠商系統整合（例如Clicktale）
-seo-title: Adobe Target 中的回應 Token
-solution: Target
+keywords: 響應令牌；token;plugins;plug-ins;at.js；回應
+description: 回應Token可讓您自動輸出Target特定資訊（活動詳細資訊、使用者設定檔資訊、地理資訊等），以用於除錯或與協力廠商系統整合（例如Clicktale）
+title: Adobe Target 中的回應 Token
 subtopic: 快速入門
-title: 回應 Token
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
