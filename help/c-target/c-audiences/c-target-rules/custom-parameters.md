@@ -1,14 +1,11 @@
 ---
-description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
-seo-description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
-seo-title: Adobe Target 中的自訂參數
-solution: Target
-title: 自訂參數
+description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
+title: Adobe Target 中的自訂參數
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
