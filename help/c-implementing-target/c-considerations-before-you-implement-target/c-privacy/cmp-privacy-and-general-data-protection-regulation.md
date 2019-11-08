@@ -5,7 +5,7 @@ title: 歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (C
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 在個人資訊已公開或銷售時收到通知
 
 如果您去年忙著為歐洲的隱私權法律 (GDPR) 做好準備，您可能很熟悉這裡的其中一些權利，而您已完成的許多工作可能可以另作他用。
+
+>[!NOTE]
+>
+>訪問和刪除適用於CCPA的資料時，會遵循與GDPR相同的流程。
 
 ## Adobe Target 和 [!DNL Experience Platform Launch] 選擇加入 {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 ### Target 支援 IP 模糊化功能嗎?   {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
+
+### 我是否需要採取措施來防止我的資料被分享或出售給第三方？
+
+Target無法允許客戶直接從Target分享或銷售資料給第三方，因此Target不會選擇退出銷售。
