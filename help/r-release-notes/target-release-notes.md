@@ -5,7 +5,7 @@ title: Adobe target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -21,6 +21,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >以下版本說明包含發行前版本的資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能相同或有所不同，端視發行的時間而定。
 >
 >括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## 目標Java SDK 1.0.1版（2019年11月11日）
+
+1.0.1版中已修正下列問題：
+
+* 即使沒有訪客API cookie存在，仍可在Target請求中傳送補充資料ID。
+
+如需詳細資訊，請參 [閱版本注意事項——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
 
 ## 目標平台（2019年10月31日）
 
