@@ -6,7 +6,7 @@ solution: Target、Analytics
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 **波多黎各和香港等地區要如何對應至地理鎖定目標結構?**
 
 波多黎各、香港和其他地區視同個別的「國家/地區」值。
+
+**當活[!DNL Target]動以地理位置定位功能定位時，是否會擷取（並儲存）郵遞區號等資訊？**
+
+否， [!DNL Target] 僅使用作業期間的地理資料，則會捨棄資料。
 
 ## 訓練影片: 建立對象
 
