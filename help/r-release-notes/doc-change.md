@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
 | --- | --- | --- |
 | 2019年11月11日 | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 已新增有關1.0.1版的資訊。 |
 |  | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新整個主題。 |
+|  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 已新增資訊，說 [!DNL Target] 明不儲存地理資訊，例如郵遞區號。 |
 | 2019 年 11 月 8 日 | [Target Insider電子報](/help/r-release-notes/target-insider-newsletter.md) | 已新增其他過去問題的連結。 |
 |  | [隱私權與資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 已更新CCPA區段，新增附註。<br>新增常見問答集，通知客戶Target無法允許客戶直接從Target分享或銷售資料給第三方，因此Target不會選擇退出銷售。 |
 | 2019 年 11 月 7 日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 已新增adobeQA參數的程式碼範例。 |
