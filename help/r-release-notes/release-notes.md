@@ -5,7 +5,7 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: 建議
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能和修正的資訊。此外，Target API、SDK、JavaScript程式庫(at.js)的發行說明，以及其他平台變更（如適用）也會隨附。
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## 目標Java SDK 1.0.1版（2019年11月11日）
+
+1.0.1版中已修正下列問題：
+
+* 即使沒有訪客API cookie存在，仍可在Target請求中傳送補充資料ID。
+
+如需詳細資訊，請參 [閱版本注意事項——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
 
 ## 目標平台（2019年10月31日）
 
