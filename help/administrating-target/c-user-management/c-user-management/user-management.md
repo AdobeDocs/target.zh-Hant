@@ -1,12 +1,12 @@
 ---
-keywords: 新增使用者; 管理使用者; 使用者權限
+keywords: add user;manage user;user permissions
 description: 您可以在 Adobe Admin Console 中新增使用者並管理其權限。
 title: 使用者
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >**[!DNL Target]Premium 客戶:** 如果您看見[!UICONTROL 「屬性」]標籤 ([!UICONTROL 「設定 &gt; 屬性」])，表示您的組織具備 [!DNL Target] Premium 授權。[!DNL Target] Premium 客戶應該遵循[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示，在 [!DNL Adobe Admin Console] 中新增使用者並指派權限。
 
-只有系統管理員使用者可以新增使用者和管理其權限。系統管理員角色是在 [!DNL Experience Cloud] 層級上指派。[!DNL Experience Cloud] 角色與每個解決方案中管理的角色不同。
+若要管理使用者和權限，請參 [閱「企業與團隊使用指南](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) 」中的「管理產品和設定檔」。
 
 當您開始使用 [!DNL Adobe Target] 時，您可以找到 [!DNL Adobe Experience Cloud] 帳戶中預先填入的 ID (結尾是 Adobe.com)。若您需要協助，這些 ID 可供 Adobe 團隊的成員使用，讓他們可以協助處理您的新帳戶及協助您使用 [!DNL Adobe Target]。若要取得協助，請像平常一樣聯絡 Adobe 團隊。
 
@@ -32,7 +32,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 依預設，所有 [!DNL Target] 使用者一開始都具有觀察者權限。
 
-在「使用者」清單中可識別系統管理使用者。如果需要變更您的存取層級，請聯絡其中一位系統管理員使用者。
+管理員使用者會在「使用者」清單中識別。 如果您需要變更存取層級，請連絡其中一個系統管理員使用者。
 
 ## 存取 Adobe Admin Console {#access}
 
