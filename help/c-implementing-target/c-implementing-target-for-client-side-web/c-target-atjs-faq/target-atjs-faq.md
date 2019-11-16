@@ -5,7 +5,7 @@ title: Adobe Target at.js 常見問題
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 36159cc0db41513267bfb9c5ac9bda96bc8120f2
+source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
 
 ---
 
@@ -205,7 +205,9 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 頁面建立緩慢（由於網路速度緩慢），且at.js無法在DOM中找到選擇器。
 * 執行活動的頁面結構已變更。如果您在可視化體驗撰寫器 (VEC) 中重新開啟活動，應該會看到警告訊息。您應該更新活動，以便找到所有必要元素。
 * 基礎頁面是單頁應用程式 (SPA) 的一部分，或頁面包含的元素出現在頁面很下方，而 [!DNL at.js]「選取器輪詢機制」找不到這些元素。提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
-* 任何點擊追蹤量度會嘗試將本身新增至每個頁面，而不論設定此量度的 URL。雖然無害，但此狀況會導致這些訊息大量出現。為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。如需詳細資訊，請參閱 [at.js 版本詳細資料](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)和[下載 at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
+* 任何點擊追蹤量度會嘗試將本身新增至每個頁面，而不論設定此量度的 URL。雖然無害，但此狀況會導致這些訊息大量出現。
+
+   為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。如需詳細資訊，請參閱 [at.js 版本詳細資料](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)和[下載 at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
 ## Target 伺服器呼叫的目標網域 tt.omtrdc.net 為何? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
