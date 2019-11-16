@@ -1,10 +1,10 @@
 ---
-product: Target
-audience: 使用者
-user-guide-title: Adobe Target 說明
-user-guide-url: /content/help/zh-Hant/target/using/target-home.html
+product: target
+audience: end-user
+user-guide-title: Adobe Target Help
+user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
    + A/B 測試 {#abtest}
       + [A/B 測試概覽](c-activities/t-test-ab/test-ab.md)
       + [A/B 測試該執行多久?](c-activities/t-test-ab/sample-size-determination.md)
-      + [九個常見的 A/B 測試陷阱以及避免方式](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [常見的10種A/B測試缺陷及避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + 建立 A/B 測試 {#create}
          + [建立測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
