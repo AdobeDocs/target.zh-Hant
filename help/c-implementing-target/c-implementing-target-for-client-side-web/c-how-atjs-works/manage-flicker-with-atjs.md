@@ -1,11 +1,11 @@
 ---
-keywords: flicker;at.js；實現
+keywords: flicker;at.js;implementation
 description: 關於 Adobe Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止忽隱忽現的資訊。
 title: Adobe Target at.js 處理忽隱忽現情況的方式
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 非同步載入 at.js 可有效避免讓瀏覽器無法呈現；不過，此技術可能導致網頁上忽隱忽現。
 
-您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形，此片段要等到 [!DNL Target] 將相關的 HTML 元素個人化之後才可見。建議使用標記管理員來新增預先隱藏的程式碼片段，例如 Adobe DTM 或新的 Adobe Launch。您必須在載入 at.js 之前新增此程式碼片段。
+您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形，此片段要等到 [!DNL Target] 將相關的 HTML 元素個人化之後才可見。
+
+at.js可以非同步載入，直接內嵌在頁面上，或透過標籤管理器(Adobe Launch、動態標籤管理器(DTM)等)。
+
+如果頁面上內嵌了at.js，則必須先新增程式碼片段，才能載入at.js。 如果您透過標籤管理器載入at.js（此標籤管理器也以非同步方式載入），則必須先新增程式碼片段，再載入標籤管理器。 如果標籤管理器是同步載入的，則指令碼可能會包含在at.js之前的標籤管理器中。
 
 預先隱藏的程式碼片段如下所示:
 
