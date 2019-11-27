@@ -1,11 +1,11 @@
 ---
-keywords: flicker;at.js;implementation
+keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: 關於 Adobe Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止忽隱忽現的資訊。
 title: Adobe Target at.js 處理忽隱忽現情況的方式
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
