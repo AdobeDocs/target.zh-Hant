@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
 
    ![產品索引標籤](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. 按一下所需組態的名稱。
-1. 按一下&#x200B;**[!UICONTROL 「使用者」]**。
+1. 按一下所要的工作區（例如「預設工作區」）。
+
+   ![預設工作區](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    [!UICONTROL 使用者]索引標籤會顯示該工作區中的所有使用者。
 
    ![設定使用者](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. 針對每一個使用者，使用[!UICONTROL 「產品角色」]欄的下拉式清單選取所需的權限角色 (觀察者、編輯者或核准者)。
+1. 使用[!UICONTROL 「產品角色」]欄中每個使用者的下拉式清單，選取需要的權限角色 (核准者、編輯者或觀察者)。
+
+   ![產品角色下拉式清單](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | 角色 | 說明 |
    |--- |--- |
-   | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-   | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | 核准者 | 可以建立、編輯和啟動或停止活動。 |
+   | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+   | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
 
 如需詳細資訊，請參閱&#x200B;*《企業使用者指南》*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
