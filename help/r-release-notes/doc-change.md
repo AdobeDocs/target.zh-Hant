@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年12月2日 | [使用位置服務](/help/c-target-mobile-app/use-location-service.md) | 新主題。 |
 | 2019年11月26日 | [At.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 更新「非同步載入at.js時管理閃爍」中的文字。 |
 |  | [Target Insider電子報](/help/r-release-notes/target-insider-newsletter.md) | 已新增至2019年11月電子報的連結。 |
 |  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新「指定角色和權限」下的文字和影像。 |
