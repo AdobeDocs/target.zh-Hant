@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -139,6 +139,7 @@ source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
          + [iOS - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [在行動版 VEC 中設定點擊追蹤](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [使用位置服務](/help/c-target-mobile-app/use-location-service.md)
    + 伺服器端: 實作 Target {#server-side}
       + [發行說明——目標伺服器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [發行說明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
