@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: 您可以使用Adobe Target定位位於特定頁面或具有特定mbox參數的訪客。
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: 您可以定位在您網站上特定頁面的訪客。
 title: Adobe target中的網站頁面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # 網頁{#site-pages}
 
-您可以定位位於特定頁面或具有特定mbox參數的訪客。
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. 您也可以使用自己的「使用者定義查詢參數」或「使用者定義標題」，以建立網站頁面對象。
+您可以定位在您網站上特定頁面的訪客。
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
@@ -32,7 +28,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
    當您選擇「選取」時，初始下拉式清單中會提供下列 [!UICONTROL 選項]。
 
-   * **目前頁面:**&#x200B;使用者目前所在的頁面，即活動中包含 mbox 的頁面。如果您以活動層級為目標，這可能是含有您用來定義進入條件的 mbox 的頁面，或是顯示內容的頁面。如果您依據體驗進行指向，目前頁面就是顯示 mbox 所在的頁面。對於成功度量或轉換定位，則是這些mbox所在的頁面。
+   * **** 目前頁面：使用者目前所在的頁面。
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
@@ -68,7 +64,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       >
       >在變更子網域或直接更換 URL 時會重設 `landing.url` 物件。
 
-   * **** HTTP標題：此選項會評估訪客存取您網站時看到之第一頁的HTTP標題中的資訊。 例如，如果HTTP標題包含語言資訊，您可以建立包含定位訪客 `Accept-Language: es` 條件的規則。
+   * **** HTTP標題：此選項會評估Target請求的HTTP標題中的資訊。 例如，如果HTTP標題包含語言資訊，您可以建立包含條件的規則，以 `Accept-Language: es` 定位以西班牙文存取頁面的訪客。
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
@@ -79,7 +75,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       * 授權
       * Cache-Control
       * 連線
-      * 內容長度
+      * Content-Length
       * 內容-MDS
       * Content-Type
       * 日期
