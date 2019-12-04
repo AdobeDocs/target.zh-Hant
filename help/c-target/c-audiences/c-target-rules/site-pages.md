@@ -1,11 +1,11 @@
 ---
-keywords: 網站頁面;目標網站頁面;鎖定目標;目前頁面;目標目前頁面;上一頁;目標上一頁;登陸頁面;目標登陸頁面;mbox;目標 mbox
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
 description: 您可以使用Adobe Target定位位於特定頁面或具有特定mbox參數的訪客。
 title: Adobe target中的網站頁面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->對象網站頁面類型和比較運算子，現在會在 Target Classic 中比對類型和比較運算子。您也可以使用自己的「使用者定義查詢參數」或「使用者定義標題」，以建立網站頁面對象。
+>Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. 您也可以使用自己的「使用者定義查詢參數」或「使用者定義標題」，以建立網站頁面對象。
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
 1. 為對象命名。
@@ -24,21 +24,93 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![網頁受眾](assets/target_site_pages.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+1. 按一 **[!UICONTROL 下「選]** 取」下拉式清單，選取下列其中一個選項，然後視需要設定規則。
 
-   * **目前頁面:**&#x200B;使用者目前所在的頁面，即活動中包含 mbox 的頁面。如果您以活動層級為目標，這可能是含有您用來定義進入條件的 mbox 的頁面，或是顯示內容的頁面。如果您依據體驗進行指向，目前頁面就是顯示 mbox 所在的頁面。對於成功量度或轉換指向，那麼它便是那些 mboxe 所在的頁面。
+   規則中後續下拉式清單中的可用選項和評估器會依您選擇的選項而異。 下圖顯示如果選擇「目前頁面」( [!UICONTROL Current Page)的可用選項]:
+
+   ![目前頁面](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
+
+   當您選擇「選取」時，初始下拉式清單中會提供下列 [!UICONTROL 選項]。
+
+   * **目前頁面:**&#x200B;使用者目前所在的頁面，即活動中包含 mbox 的頁面。如果您以活動層級為目標，這可能是含有您用來定義進入條件的 mbox 的頁面，或是顯示內容的頁面。如果您依據體驗進行指向，目前頁面就是顯示 mbox 所在的頁面。對於成功度量或轉換定位，則是這些mbox所在的頁面。
+
+      如果您選擇此選項，第二個下拉式清單中會提供下列選項：
+
+      * URL
+      * 網域
+      * 查詢
+      * 子網域
+      * 頂層網域
+      * 路徑
+      * 雜湊 (#) 片段
    * **上一頁:** 點按目前頁面之前使用者所在的頁面。(使用者必須從上一頁點選至目前頁面，才能讓該頁面受到追蹤。如果使用者是在瀏覽器中輸入新的 URL，則上一頁就不會被追蹤。)本頁面實際內容視乎網站設計而定。舉例來說，如果目前頁面顯示的是有關特定產品的資訊，則上一頁可能是使用者在其中選擇特定商品的分類頁面 (例如顯示多台特定類型相機的頁面)，也可能是引導使用者來到最後頁面的首頁。
+
+      如果您選擇此選項，第二個下拉式清單中會提供下列選項：
+
+      * URL
+      * 網域
+      * 查詢
+      * 子網域
+      * 頂層網域
+      * 路徑
    * **著陸頁面:** 著陸頁面為存取您的網站時，訪客看到的第一頁。例如，如果訪客在 Google 上點按一個連接進入類別頁面，那麼該類別頁面即為著陸頁面。如果該連接引導至您的首頁，那麼首頁即為著陸頁面。按訪客作業記憶著陸頁面。您可以依據此作業中的訪客著陸頁面，在網站實施深度指向。
 
+      如果您選擇此選項，第二個下拉式清單中會提供下列選項：
+
+      * URL
+      * 網域
+      * 查詢
+      * 子網域
+      * 頂層網域
+      * 路徑
+      * 雜湊 (#) 片段
       >[!NOTE]
       >
       >在變更子網域或直接更換 URL 時會重設 `landing.url` 物件。
 
-   * **Mbox:** 您正在定位的 mbox。例如，如果您想要對總計 $100 或以上的訂單進行計數，您可將 `orderTotal` 作為一個 mbox 參數連同在此指定的指向進行傳送。
+   * **** HTTP標題：此選項會評估訪客存取您網站時看到之第一頁的HTTP標題中的資訊。 例如，如果HTTP標題包含語言資訊，您可以建立包含定位訪客 `Accept-Language: es` 條件的規則。
+
+      如果您選擇此選項，第二個下拉式清單中會提供下列選項：
+
+      * 接受
+      * Accept-Charset
+      * Accept-Encoding
+      * Accept-Language
+      * 授權
+      * Cache-Control
+      * 連線
+      * 內容長度
+      * 內容-MDS
+      * Content-Type
+      * 日期
+      * 預期
+      * 「寄件者」
+      * 主機
+      * If-Match
+      * If-Modified-Since
+      * If-None-Match
+      * If-Range
+      * If-Undified-Since
+      * 最大轉發數
+      * Pragma
+      * 代理授權
+      * 範圍
+      * Referer
+      * TE
+      * 升級
+      * User-Agent
+      * 透過
+      * 警告
+   如果您選擇「 [!UICONTROL 當前頁]」、「上一頁 [!UICONTROL 」或「著陸頁]」, [!UICONTROL 則可使用]DomainDomain和Query Page  選項。 選擇這些選項時，請考慮下列事項：
+
    * **網域:** 頁面的完整網域。指定網域時，最佳做法是使用「包含」。例如，「網域等於 facebook.com」不接受 `m.facebook.com` 或 `www.facebook.com`。「網域包含 facebook.com」則會接受 facebook.com 的任何變體。
    * **查詢:** 第一個問號 (?) 之後的 URL 內容。
 
       `foo.html?e0a72cb2a2c7`
+
+
+
+
 
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
