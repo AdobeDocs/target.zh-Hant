@@ -5,7 +5,7 @@ title: Adobe target中的網站頁面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
+source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 使用:
 
 * 查詢參數，如果使用者選取的規則是「目前頁面」、「登陸頁面」或「上一頁」。
-* 標題，如果使用者選取的規則是「HTTP 檔頭」。
+* 標題（如果使用者選取的規則是HTTP標題）。
 
 如下所示:
 
