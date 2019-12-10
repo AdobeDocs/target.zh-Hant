@@ -1,11 +1,11 @@
 ---
-keywords: 字元限制;mbox 參數;批次傳送 api;描述檔參數;限制;內建描述檔;上限;限制;限制;字元;最佳作法;orderid;orderTotal;mbox3rdPartyID;類別;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: 有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制(選件大小、對象、設定檔、值、參數等) 的資訊。
 title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 ---
 
@@ -107,14 +107,38 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **上限**: 下列上限適用於 mbox 參數:
 
+對於標準mbox呼叫：
 * mbox 參數: 每個 mbox 500 個參數。
-* 設定檔參數: 500 個參數。
-* 每個 mbox 的設定檔參數:
+* 描述檔參數：每個mbox有500個參數描述檔參數。
 * 其他參數 (URL、轉介 URL 等): 各參數類型每個 mbox 50 個。
 
-針對 Target 資料庫中記錄的參數，上述上限適用於標準 mbox 要求。除非要求因網頁瀏覽器限制而縮短，否則適用上述限制。
+除非要求因網頁瀏覽器限制而縮短，否則適用上述限制。
 
-如果您在 Mobile Services SDK 使用[批次傳送 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，50 個 mbox 參數、50 個描述檔參數和 50 個其他參數類型限制，即為 API 本身限制。無法使用批次傳送 API，傳送超過上述數量限制的要求。如果要求超過上述限制，API 會傳回下列錯誤訊息:「mboxParameters 數量不得超過 100。」
+如果您在 Mobile Services SDK 使用[批次傳送 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，50 個 mbox 參數、50 個描述檔參數和 50 個其他參數類型限制，即為 API 本身限制。無法使用批次傳送 API，傳送超過上述數量限制的要求。如果請求包含的限制超過這些限制，API會傳回下列錯誤訊息：
+
+"mboxParameters的數目不能超過50。"
+
+端點限制集：
+
+批次mbox v2:
+* mbox參數100
+* mbox參數名稱最大長度128
+* mbox參數值不能為null
+* mbox參數值5000
+* 描述檔參數50
+* 描述檔參數名稱最大長度128
+* 描述檔參數值不能為null
+* 描述檔參數值最大長度256
+
+傳送API端點
+* mbox參數50
+* mbox參數名稱最大長度128
+* mbox參數值不能為null
+* mbox參數值5000
+* 描述檔參數50
+* 描述檔參數名稱最大長度128
+* 描述檔參數值不能為null
+* 描述檔參數值最大長度256
 
 ## mbox 要求 URL
 
