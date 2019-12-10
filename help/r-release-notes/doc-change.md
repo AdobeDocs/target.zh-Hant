@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年12月10日 | [目標限制](/help/r-troubleshooting-target/target-limits.md) | 已更新mbox參數區段。 |
+|  | [標準](/help/c-recommendations/c-algorithms/algorithms.md) | 已新增有關「標準使用」功能支援的附註。 |
 | 2019 年 12 月 5 日 | [網頁](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 更新了主題。 |
 | 2019年12月2日 | [使用位置服務](/help/c-target-mobile-app/use-location-service.md) | 新主題。 |
 | 2019年11月26日 | [At.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 更新「非同步載入at.js時管理閃爍」中的文字。 |
