@@ -1,11 +1,11 @@
 ---
-keywords: 變數;設定檔;參數;內建設定檔;方法;url 變數;地理設定檔;第三方設定檔;mbox 變數;促銷活動變數;客戶屬性
+keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: 此頁面列出在設定檔指令碼中很實用的設定檔、變數和參數。
 title: 設定檔和變數字彙表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | user.setLocal('param_name','value'); |  |
 | user.get('param_name') |  |
 | user.parameter | 持續保存透過設定檔指令碼建立的設定檔屬性。另請參考「系統」設定檔，例如地理位置、造訪計數等。 |
-| profile.get('param_name') |  |
+| profile.get('param_name') | 要獲得要在配置檔案指令碼中使用的配置檔案參數，正確的方法是profile.get('param_name')方法。 |
 | profile.param('param_name'); |  |
 | profile.parameter('parameter_name'); | 對 Mbox 參數持續保存是因為其profile.  首碼。 |
 | profile.browserTime | 訪客的本機瀏覽器時間。如需系統時間，請在描述檔指令碼中建立新的日期物件 |
