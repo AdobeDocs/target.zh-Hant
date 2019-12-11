@@ -1,10 +1,10 @@
 ---
-keywords: 範本測試; 範本; 類似頁面上有相同體驗; 範本測試
+keywords: template testing;template;same experience on similar pages;template test
 description: 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
 title: 在類似頁面上包含相同體驗
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 指定頁面範圍。頁面範圍可以是下列其中一項:
 
-   * URL
+   * URL (如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
    * 網域
    * 路徑
    * 雜湊 (#) 片段 (鎖定後面有 # 符號的 URL 部分。)
