@@ -1,11 +1,11 @@
 ---
-keywords: 疑難排解;常見問題集;FAQ;目標;對象
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 title: 鎖定目標和對象常見問題集
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # 鎖定目標和對象常見問題集{#targets-and-audiences-faq}
 
 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
+
+## Target如何評估定位中的URL? {#url}
+
+Target會根據您在建立活動時是否使用對象URL定位，或是您在建立對象時是否使用URL定位，以不同方式評估URL。
+
+請考慮下列URL:
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**對象URL定位**:若要在建立活動時套用對象URL定位，請在「體驗」頁面（三步驟引導式工作流程的步驟一）上，按一下齒輪圖示、按一下「頁面傳送」，然後指定所要的URL。
+
+![頁面傳送URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+對象URL定位會尋找完全相符的URL。 如果URL相符，Target不會考慮進一步的邏輯。 在上述URL中，如果活動設為開啟，則URL會 `www.example.com`符合下列URL，因為對象URL定位不受查詢限制：
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+作為最佳實務，除了URL上的對象定位外，您也可以指定查詢中可能的特定值。
+
+**URL定位**:若要套用URL定位，在建立對象時，按一下「新增規則」、按一下「網站頁面」、從第一個下拉式清單（「目前頁面」、「上一頁」或「著陸頁面」）中選取選項、從第二個下拉式清單中選取「URL」、指定求值器，然後指定所要的URL。
+
+![網站頁面&gt;目前頁面&gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+URL定位會將URL轉換為一組要評估的規則：
+
+* URL網域= `example.com`
+* 路徑= path1/path2/path3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## 建立複雜的URL字串時，是否 [!DNL Target] 會評估整個URL?
 
