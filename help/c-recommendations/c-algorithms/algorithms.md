@@ -4,7 +4,7 @@ description: Adobe Target Recommendations中的准則是規則，可根據一組
 title: Adobe Target Recommendations中的條件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
 
 ---
 
@@ -105,8 +105,8 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 按一下&#x200B;**[!UICONTROL 「演算法使用情形」]索引標籤，即可查看參照選取條件的活動清單。**&#x200B;卡片會列出使用中和非使用中的活動。按一下「已上線活動」或「非使用中活動」下拉式清單，即可查看參照該條件的完整活動清單。您可以按一下活動連結以開啟活動並編輯。
 
-![條件使用情形索引標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![演算法使用標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->「准則使用」功能目前僅支援Recommendations活動。 目前不支援A/B測試與體驗定位(XT)活動。
+>「演算法使用」功能目前僅支援Recommendations活動。 此功能目前不支援A/B測試與體驗定位(XT)活動。
