@@ -5,7 +5,7 @@ title: Adobe target中的網站頁面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
-      * URL
+      * URL(如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
       * 網域
       * 查詢
       * 子網域
@@ -43,7 +43,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
-      * URL
+      * URL(如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
       * 網域
       * 查詢
       * 子網域
@@ -53,7 +53,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
-      * URL
+      * URL(如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
       * 網域
       * 查詢
       * 子網域
