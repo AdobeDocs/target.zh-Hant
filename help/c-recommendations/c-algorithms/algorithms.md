@@ -4,7 +4,7 @@ description: Adobe Target Recommendations中的准則是規則，可根據一組
 title: Adobe Target Recommendations中的條件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
+source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 ---
 
@@ -109,4 +109,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->「演算法使用」功能目前僅支援Recommendations活動。 此功能目前不支援A/B測試與體驗定位(XT)活動。
+>「演 [!UICONTROL 算法使用] 」功能目前僅支援Recommendations活動。 A/B測試與體驗定位(XT)活動目前不支援此功能，這些活動會將建議 [納入選件中](/help/c-recommendations/recommendations-as-an-offer.md)。
