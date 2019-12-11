@@ -5,7 +5,7 @@ title: 鎖定目標和對象常見問題集
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -22,7 +22,9 @@ Target會根據您在建立活動時是否使用對象URL定位，或是您在�
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**對象URL定位**:若要在建立活動時套用對象URL定位，請在「體驗」頁面（三步驟引導式工作流程的步驟一）上，按一下齒輪圖示、按一下「頁面傳送」，然後指定所要的URL。
+### 對象URL定位
+
+若要在建立活動時套用對象URL定位，請在「體驗」頁面（三步驟引導式工作流程的步驟一）上，按一下齒輪圖示、按一下「頁面傳送」，然後指定所要的URL。
 
 ![頁面傳送URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -32,9 +34,11 @@ Target會根據您在建立活動時是否使用對象URL定位，或是您在�
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-作為最佳實務，除了URL上的對象定位外，您也可以指定查詢中可能的特定值。
+除了URL上的對象定位外，您也可以指定查詢中可能的特定值。
 
-**URL定位**:若要套用URL定位，在建立對象時，按一下「新增規則」、按一下「網站頁面」、從第一個下拉式清單（「目前頁面」、「上一頁」或「著陸頁面」）中選取選項、從第二個下拉式清單中選取「URL」、指定求值器，然後指定所要的URL。
+### URL定位
+
+若要套用URL定位，在建立對象時，按一下「新增規則」、按一下「網站頁面」、從第一個下拉式清單（「目前頁面」、「上一頁」或「著陸頁面」）中選取選項、從第二個下拉式清單中選取「URL」、指定求值器，然後指定所要的URL。
 
 ![網站頁面&gt;目前頁面&gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
