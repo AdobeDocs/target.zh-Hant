@@ -5,7 +5,7 @@ title: 預先擷取選件內容
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 此程序會減少載入時間，避免多個網路呼叫，並允許通知 [!DNL Target] 行動應用程式使用者造訪哪一個 mbox。預先擷取呼叫期間，會擷取並快取所有內容，而且會從快取中擷取此內容，以供包含指定 mbox 名稱之快取內容的所有未來呼叫使用。
 
-搭配 iOS 和 Android 行動版 SDK 用於預先擷取方法時，請考量下列事項:
+在iOS和Android Mobile SDK中使用預回遷方法時，請考慮下列限制：
 
 * 預先擷取內容不會在跨啟動之間持續有效。只要應用程式仍然存在，或直到呼叫 `clearPrefetchCache()` 方法為止，則會快取預先擷取內容。
-* 自動鎖定目標、自動分配和自動個人化活動類型不支援 iOS 和 Android 行動版 SDK 中的預先擷取功能。
+* 自動個人化或 [!UICONTROL Recommendations分配活動類型、或在A/B或XT活動中支援Commendations活動，支援Auto-Personalization] 和Auto-Recommendations流量分配方法、Automated Personalization或 [](/help/c-recommendations/recommendations-as-an-offer.md)Recommendations活動或Commendations活動，預取功能不支援。
 
 如需詳細資訊，包括預先提取方法、公用類別和程式碼範例，請參閱:
 
