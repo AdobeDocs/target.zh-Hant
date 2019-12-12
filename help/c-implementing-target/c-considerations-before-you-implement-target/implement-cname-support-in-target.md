@@ -1,11 +1,11 @@
 ---
-keywords: client care;cname;certificate program；正則名稱；cookies;certificate;amc;adobe受管理證書；digicert；域控制驗證；dcv
+keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: 有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。
 title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 872e2329e7954453b5c8bd4f4885b94f1b02fd1f
+source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 
 ---
 
@@ -65,6 +65,14 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 ### 我已經有CNAME實作，我 [!DNL Adobe Analytics]們可以使用相同的憑證或主機名稱嗎？
 
 否，需 [!DNL Target] 要個別的主機名和證書。
+
+### 我目前的Target實作是否受ITP 2.1或2.2影響？
+
+在Safari瀏覽器中，導覽至您有Target javaScript程式庫的網站。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
+
+只需Analytics CNAME，就可解決Target的ITP問題。 只有在廣告封鎖藍本遭封鎖時，您才需要個別的Target CNAME。
+
+如需ITP的詳細資訊，請 [參閱Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
 
 ### 如何驗證我的CNAME實作已準備好進行流量？
 
