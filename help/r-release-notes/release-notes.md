@@ -1,11 +1,11 @@
 ---
-keywords: 發行說明；新功能；發行；更新；更新；發行；增強；增強；修正；錯誤修正
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 description: 這些版本說明提供關於每個 Adobe Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
 title: 'Adobe Target 版本說明 (最新) '
-topic: 建議
+topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 這些版本說明提供關於每個 Target Standard 和 Target Premium 版本功能、增強功能和修正的資訊。此外，Target API、SDK、JavaScript程式庫(at.js)的發行說明，以及其他平台變更（如適用）也會隨附。
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## 目標Java SDK 1.1.0版（2019年12月16日）
+
+* 由於@hisham-hassan提供開放原始碼貢獻，所以新增了對proxy設定的支援。
+
+如需詳細資訊，請參 [閱版本注意事項——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
 
 ## 目標Java SDK 1.0.1版（2019年11月11日）
 
