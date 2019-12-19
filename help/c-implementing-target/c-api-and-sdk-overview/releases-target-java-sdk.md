@@ -1,10 +1,10 @@
 ---
-keywords: at.js;sdk;release;updates;sdks；伺服器端；伺服器端；java;java sdk
+keywords: at.js;sdk;release;updates;sdks;server side;serverside;server-side;java;java sdk
 description: 與Adobe Target Java SDK相關的發行說明。
 title: 與Adobe Target Java SDK相關的發行說明。
 topic: Standard
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -18,6 +18,14 @@ Java [!DNL Target] SDK可讓您部署 [!DNL Target] 伺服器端。 此Java SDK�
 Java SDK透過我們的傳送API與整合時引入最佳實務並免除複雜性， [!DNL Target] 讓您的工程團隊能夠專注在商業邏輯上。
 
 透過全新的Target Java SDK，在Adobe技術部落格——伺服器 [端最佳化中進一步瞭解Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。
+
+## 1.1.0版（2019年12月16日）
+
+下節提供有關Target Java SDK 1.1.0版的詳細資訊：
+
+### 新增
+
+* 由於@hisham-hassan提供開放原始碼貢獻，所以新增了對proxy設定的支援。
 
 ## 1.0.1版（2019年11月11日）
 
