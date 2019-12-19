@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2019年12月19日 | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 已新增有關1.1.0版的資訊。 |
 | 2019 年 12 月 12 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新常見問答區段。 |
 |  | [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已重新命名主題並新增下列區段：「瞭解自動分配活動中的提升度和可信度報告。」 |
 | 2019 年 12 月 11 日 | [鎖定目標和對象常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增常見問答：「Target如何評估定位中的URL?」 |
