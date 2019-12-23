@@ -5,7 +5,7 @@ title: Adobe target中的網站頁面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 您可以定位在您網站上特定頁面的訪客。
 
-1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 網站頁面」]**。
+1. 按一下「**[!UICONTROL 新增規則]**>**[!UICONTROL &#x200B;網站頁面]**」。
 
    ![網頁受眾](assets/target_site_pages.png)
 
-1. 按一 **[!UICONTROL 下「選]** 取」下拉式清單，選取下列其中一個選項，然後視需要設定規則。
+1. 按一 **[!UICONTROL 下「選]**取」下拉式清單，選取下列其中一個選項，然後視需要設定規則。
 
    規則中後續下拉式清單中的可用選項和評估器會依您選擇的選項而異。 下圖顯示如果選擇「目前頁面」( [!UICONTROL Current Page)的可用選項]:
 
@@ -108,7 +108,7 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 
 
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 您也可以使用自己的「使用者定義查詢參數」或「使用者定義標題」，以建立網站頁面對象。
@@ -132,6 +132,12 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
    * 使用 [A/B測試活動](/help/c-activities/t-test-ab/test-ab.md) ，而非著陸頁面活動。 A/B測試活動不會切換相同訪客的體驗。
    * 請改用 [訪客資料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
+* 在包含逗號的字串上使用「開頭／結尾為」求值器時，請注意，這些值會評估為一組值，其中每個值會以逗號分隔。 例如，如果我們有標題的值： `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 它會針對下列條件取消：
+   * 從zh開始，
+   * 開頭為en,
+   * 以0.7結束，
+   * 以0.8結束。
+
 ## 訓練影片: 建立對象
 
 此影片包括關於使用對象類別的資訊。
@@ -139,4 +145,4 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
