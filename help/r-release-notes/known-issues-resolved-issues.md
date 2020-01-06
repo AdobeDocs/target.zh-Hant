@@ -1,10 +1,10 @@
 ---
-keywords: 已知問題；已解決問題；發行說明；錯誤；問題；修正
+keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
 title: Adobe Target 中的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 
 ---
 
@@ -67,6 +67,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * A/B和「體驗定位」活動中的「建議選件」不會顯示Recommendations托盤的視覺化預覽(TGT-33426)
 * 透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 (TGT-35777)
 * 透過API建立的建議活動可在使用者介面中檢視，但只能透過API編輯。
+* 顯示在「准則」清單（卡片）檢視中的自訂准則饋送狀態會每10分鐘重新整理一次，在某些罕見的情況下可能會超過10分鐘過期。 顯示在自訂准則編輯檢視中的狀態會即時擷取並隨時更新。 (TGT-35896、TGT-36173)
 
 ### 多變數測試 (MVT) 活動
 
@@ -90,12 +91,12 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    只有使用 VEC 的建議活動會發生此問題。
 
-   **解決方案**: 在[!UICONTROL 「Recommendations &gt; 設定」]中停用[!UICONTROL 「篩選不相容的條件」]選項。停用此設定之後，所有條件 (相容的與不相容的) 將顯示在條件選擇器中。(TGT-25949)
+   **解決方案**: 在[!UICONTROL 「Recommendations > 設定」]中停用[!UICONTROL 「篩選不相容的條件」]選項。停用此設定之後，所有條件 (相容的與不相容的) 將顯示在條件選擇器中。(TGT-25949)
 
 * 升級為 at.js 版本 1.0 之後，由於 at.js 與訪客 API 2.2.0 之間的互動，Microsoft Explorer 11 瀏覽器上不會觸發 mbox。此問題會影響 at.js 版本 0.9.6 和更新版本。(TNT-27600)
 * at.js 可能無法與 Cordova/混合式應用程式搭配使用，因為它們目前不支援第一方 Cookie。(TNT-26166)
 
-   **解決方案**: 將 at.js 的 "x-only" 選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
+   **解決方案**: 將 at.js 的 &quot;x-only&quot; 選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
 
 ### mbox.js
 
@@ -105,11 +106,11 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 ### 實作: 全域 Mbox 自動建立
 
-在「實作」索引標籤上 ([!UICONTROL 「設定」&gt;「實作」])，新佈建的租用戶的[!UICONTROL 「全域 Mbox 自動建立」]欄位將預設為 "false"。
+在「實作」索引標籤上 ([!UICONTROL 「設定」>「實作」])，新佈建的租用戶的[!UICONTROL 「全域 Mbox 自動建立」]欄位將預設為 &quot;false&quot;。
 
-佈建後第一次下載 mbox.js 時，所下載的 mbox.js 檔案和 [!UICONTROL  後端中的]「全域 Mbox 自動建立」[!DNL Target]欄位會設為 "true"，但它會在 UI 的[!UICONTROL 「實作」]頁面上繼續顯示為 "false"，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 "true")。
+佈建後第一次下載 mbox.js 時，所下載的 mbox.js 檔案和 [!UICONTROL  後端中的]「全域 Mbox 自動建立」[!DNL Target]欄位會設為 &quot;true&quot;，但它會在 UI 的[!UICONTROL 「實作」]頁面上繼續顯示為 &quot;false&quot;，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 &quot;true&quot;)。
 
-針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js，global\_mbox\_autocreate 會設為 "true"，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
+針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js，global\_mbox\_autocreate 會設為 &quot;true&quot;，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
 
 ### 成功量度
 
@@ -293,7 +294,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### 選件
 
-從「影像選件」資料庫 (「選件 &gt; 影像選件」) 中刪除的影像，仍顯示在 UI 中。在未來版本中，這些已刪除的影像將不再顯示。同時，刪除的影像會顯示在 UI 中，但是會具有已刪除的狀態。(TGT-23793)
+從「影像選件」資料庫 (「選件 > 影像選件」) 中刪除的影像，仍顯示在 UI 中。在未來版本中，這些已刪除的影像將不再顯示。同時，刪除的影像會顯示在 UI 中，但是會具有已刪除的狀態。(TGT-23793)
 
 在 Target 17.4.1 版本中修正 (2017 年 4 月 27 日)。
 
