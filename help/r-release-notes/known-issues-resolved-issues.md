@@ -4,7 +4,7 @@ description: 此版Adobe target的已知問題資訊。 也包括關於已解決
 title: Adobe Target 中的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 * A/B和「體驗定位」活動中的「建議選件」不會顯示Recommendations托盤的視覺化預覽(TGT-33426)
 * 透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 (TGT-35777)
 * 透過API建立的建議活動可在使用者介面中檢視，但只能透過API編輯。
-* 顯示在「准則」清單（卡片）檢視中的自訂准則饋送狀態會每10分鐘重新整理一次，在某些罕見的情況下可能會超過10分鐘過期。 顯示在自訂准則編輯檢視中的狀態會即時擷取並隨時更新。 (TGT-35896、TGT-36173)
+* 「准則」清單（卡片）檢視中顯示的「自訂准則」饋送狀態會每隔10分鐘重新整理一次，在少數情況下可能會超過10分鐘。 「自訂條件」編輯檢視中顯示的狀態會即時擷取，且一律為最新狀態。 (TGT-35896、TGT-36173)
 
 ### 多變數測試 (MVT) 活動
 
