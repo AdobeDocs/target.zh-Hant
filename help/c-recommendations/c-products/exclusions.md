@@ -1,10 +1,10 @@
 ---
-keywords: 排除項目
+keywords: exclusions
 description: 在 Adobe Target 中建立排除清單來防止項目被建議。
 title: Adobe Target 中的排除項目
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **如何建立排除項目:**
 
-1. 按一下&#x200B;**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 排除項目」]**，即可顯示現有排除項目的清單。
+1. 按一下&#x200B;**[!UICONTROL 「Recommendations]**>**[!UICONTROL &#x200B;排除項目」]**，顯示現有排除項目的清單。
 
    ![](assets/exclusions_list.png)
 
@@ -27,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 按一下&#x200B;**[!UICONTROL 「建立排除項目」]**。
 
-1. (依條件) 建立 (或更新) 排除項目時，從&#x200B;**[!UICONTROL 「環境」]**&#x200B;篩選器中選擇一個環境，以便預覽該環境中的排除項目內容。依照預設，會顯示預設主機群組的結果。
+1. (依條件) 建立 (或更新) 排除項目時，從&#x200B;**[!UICONTROL 「環境」]**篩選器中選擇一個環境，以便預覽該環境中的排除項目內容。依照預設，會顯示預設主機群組的結果。
 
    ![建立排除項目](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
@@ -41,15 +41,15 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 使用進階搜尋建立排除項目
 
-您也可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] &gt; [!UICONTROL 目錄搜尋] &gt; [!UICONTROL 進階搜尋」])，以建立排除項目。
+您也可以使用「目錄搜尋」頁面上的「進階搜尋」([!UICONTROL 「Recommendations] > [!UICONTROL 目錄搜尋] > [!UICONTROL 進階搜尋」])，以建立排除項目。
 
-[另存新檔](/help/c-recommendations/c-products/assets/save-as.png)
+![另存新檔](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-例如，使用「id &gt; contains」建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] &gt; [!UICONTROL 排除項目」]。如需詳細資訊，請參閱[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md)。
+例如，使用「id > contains」建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] > [!UICONTROL 排除項目」]。如需詳細資訊，請參閱[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md)。
 
 >[!IMPORTANT]
 >
->「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立排除項目時，務必注意大小寫。例如，如果您執行 "Holiday" 的搜尋，初始的搜尋清單結果會包含 "Holiday" 和 "holiday"。如果您接著建立排除項目而希望排除含有 "holiday" 的產品，則只會排除含有 "holiday" 的產品。不會排除含有 "Holiday" 的產品。
+>「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立排除項目時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您接著建立排除項目而希望排除含有 &quot;holiday&quot; 的產品，則只會排除含有 &quot;holiday&quot; 的產品。不會排除含有 &quot;Holiday&quot; 的產品。
 
 ## 訓練影片: 在 Recommendations 中建立集合和排除 (7:05)
 
@@ -58,4 +58,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 建立集合
 * 建立排除項目
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
