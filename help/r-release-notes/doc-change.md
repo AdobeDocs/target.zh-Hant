@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -18,7 +18,8 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2019年1月6日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增「自訂准則」饋送狀態的已知問題。 |
+| 2020 年 1 月 9 日 | [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字。<br>在2020年3月1日之後，Adobe target將不再支援Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活動傳送、API等的TLS 1.1加密。 請在2020年3月1日之前升級至TLS 1.2，以避免任何問題。 |
+| 2020年1月6日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增「自訂准則」饋送狀態的已知問題。 |
 | 2019年12月19日 | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 已新增有關1.1.0版的資訊。 |
 | 2019 年 12 月 12 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新常見問答區段。 |
 |  | [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已重新命名主題並新增下列區段：「瞭解自動分配活動中的提升度和可信度報告。」 |
