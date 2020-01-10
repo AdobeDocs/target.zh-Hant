@@ -1,10 +1,10 @@
 ---
-keywords: 回應式; 行動檢視區; 檢視區; 裝置; 行動範例; iPhone
+keywords: responsive;mobile viewports;viewport;devices;mobile example;iphone
 description: 行動檢視區可協助您預覽活動出現在各種大小畫面上的方式。
 title: 回應式體驗的行動檢視區
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | Samsung Galaxy Tab 10 | 800w x 1280h | 800w x 1280h |
 | Chromebook Pixel | 1280w x 850h | 2560w x 1700h |
 
-有許多網站都有列出熱門裝置的檢視區大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
+有許多網站都有列出熱門裝置的檢視區大小。例如，請參 [閱https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ，或參閱裝置製造商的網站。
 
 如果您要將活動傳送給使用特定裝置的人，請在活動圖表中選擇適合該裝置的對象。使用「行動裝置 Web 撰寫器」，針對該裝置來編輯活動中的頁面。如果您想要在整個數位體驗中執行活動，並確保在所有裝置上都完美呈現，請勿套用鎖定目標，應該使用行動檢視區以每一種螢幕大小來預覽活動。
 
@@ -73,8 +73,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 建立您的體驗時，請設定您要提供使用的任何行動檢視區。
 
-1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
-1. 在「帳戶偏好設定」頁面的「行動檢視區設定」區段中，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;來新增行動檢視區。
+1. 按一下「**[!UICONTROL 設定]**>**[!UICONTROL &#x200B;偏好設定]**」。
+1. 在「帳戶偏好設定」頁面的「行動檢視區設定」區段中，按一下&#x200B;**[!UICONTROL 「新增」]**來新增行動檢視區。
 
    若要變更現有行動檢視區的組態，請選取該檢視區，然後按一下「編輯」(鉛筆) 圖示。
 
@@ -106,8 +106,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 新增行動檢視區至您的 Target 活動，為行動螢幕建立回應式體驗。
 
 1. 建立活動。
-1. 在可視化體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 「新增行動檢視區」]**。
-1. 按一下&#x200B;**[!UICONTROL 「裝置」]**&#x200B;圖示，然後啟用應該具有行動檢視區的每個裝置。
+1. 在可視化體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「設定」]**齒輪圖示，然後選取**[!UICONTROL 「新增行動檢視區」]**。
+1. 按一下&#x200B;**[!UICONTROL 「裝置」]**圖示，然後啟用應該具有行動檢視區的每個裝置。
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 此使用案例顯示如何使用 Target Standard 的行動檢視區功能為兩個 iPhone 版本 iPhone 6 和 iPhone 6 Plus 設定體驗。
 
-1. 在 Target Standard 中，按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
+1. 在 Target Standard 中，按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「偏好設定」]**。
 1. 在「偏好設定」頁面的「行動檢視區設定」區段中，針對 iPhone 6 和 iPhone 6 plus 建立行動檢視區。
 
    為每個檢視區使用下列設定:
@@ -163,10 +163,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 針對回應性網站預覽和建置體驗
 * 使用覆蓋來強調顯示元素的類型
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target 中的帳戶偏好設定
 
 此影片包括在帳戶偏好設定中設定行動檢視區的相關資訊，從影片的 4:40 開始。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)
