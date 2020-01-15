@@ -1,12 +1,12 @@
 ---
-keywords: 概覽和參考資料;SEO;搜尋引擎最佳化
+keywords: Overview and Reference;SEO;search engine optimization
 description: 'Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合: at.js 或 mbox.js'
 title: Adobe Target 如何運作
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -97,7 +97,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Adobe Target 解決方案在世界各地 Adobe 擁有和 Adobe 租用的資料中心內進行控管。Admin 伺服器完全在 Adobe 擁有的資料中心內進行控管，這些資料中心位於倫敦、新加坡和全美國的多個據點，包括奧勒岡州和維吉尼亞州。Edge 伺服器同時在 Adobe 擁有和 Adobe 租用之 Amazon AWS 資料中心的伺服器上進行控管，這些資料中心位於倫敦、香港、新加坡、東京和雪梨。
+Adobe Target 解決方案在世界各地 Adobe 擁有和 Adobe 租用的資料中心內進行控管。Admin 伺服器完全在 Adobe 擁有的資料中心內進行控管，這些資料中心位於倫敦、新加坡和全美國的多個據點，包括奧勒岡州和維吉尼亞州。Edge Server同時托管於Adobe擁有和Adobe租賃的Amazon AWS資料中心的Adobe伺服器上，這些資料中心位於倫敦、中國香港特區、新加坡、東京和雪梨。
 
 Admin 伺服器位置同時包含資料收集中心和資料處理中心。Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
 
@@ -105,7 +105,7 @@ Admin 伺服器位置同時包含資料收集中心和資料處理中心。Edge 
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前在中國沒有 Edge 網路，中國 [!DNL Target] 客戶的一般使用者效能將繼續受到限制。由於防火長城且該國家內缺乏 Edge 節點，已部署 [!DNL Target] 的網站體驗呈現內容的速度會很緩慢，且頁面載入會受到影響。此外，行銷人員在使用 [!DNL Target] 編寫 UI 時可能會遇到延遲的狀況。
+>[!DNL Adobe Target] 目前在中國沒有 Edge 網路，中國 [!DNL Target] 客戶的一般使用者效能將繼續受到限制。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -139,7 +139,7 @@ Google 鼓勵使用者測試，且已於說明文件中表示只要遵守一些�
 
    Target (作為一種平台) 已設定為將搜尋引擎機器人視同任何使用者。這表示機器人可能會納入您執行的測試中 (如果隨機選取) 並「看見」測試變異。
 
-* **使用 rel="canonical"** - 有時會顧及變異而需要使用不同的 URL 來設定 A/B 測試。在這些情況下，所有變異都應該包含 `rel="canonical"` 標籤來參照原始 (控制) URL。例如，假設 Adobe 針對每一個變異使用不同的 URL 來測試首頁，首頁的下列 canonical 標籤會出現在每一個變異的 `<head>` 標籤中:
+* **使用 rel=&quot;canonical&quot;** - 有時會顧及變異而需要使用不同的 URL 來設定 A/B 測試。在這些情況下，所有變異都應該包含 `rel="canonical"` 標籤來參照原始 (控制) URL。例如，假設 Adobe 針對每一個變異使用不同的 URL 來測試首頁，首頁的下列 canonical 標籤會出現在每一個變異的 `<head>` 標籤中:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
