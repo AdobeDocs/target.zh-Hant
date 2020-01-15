@@ -1,10 +1,10 @@
 ---
-keywords: recommendations feed;feed;SAINT;ftp;csv；分類；分析分類
+keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: 使用摘要來將實體匯入 Adobe Recommendations。實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
 title: 動態消息
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
 
-[!UICONTROL 「摘要」]清單 (**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 摘要」]**) 提供您已建立的任何摘要的相關資訊。
+[!UICONTROL 摘要]清單 (**[!UICONTROL 建議]**>**[!UICONTROL &#x200B;摘要]**) 提供您已建立的任何摘要的相關資訊。
 
 ![摘要頁面](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -33,6 +33,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * **排程**: 顯示摘要的更新排程: 每天、每週、每隔 2 週或永不。
 * **項目**: 顯示摘要中的項目數量。
 * **上次更新**: 顯示上次更新摘要的日期與時間，以及更新摘要的使用者名稱。如果[!UICONTROL 上次更新]摘要顯示「未定義」，表示摘要來自 [!DNL Recommendations Classic]，且無法從 [!DNL Target Premium Recommendations] 內變更。
+
+>[!IMPORTANT]
+>
+>上傳的實體和實體屬性會在61天後到期。 這表示:
+>
+>* 您的動態消息至少應每月執行一次，以確保目錄內容不會過期。
+>* 從動態消息檔案移除項目並不會將該項目從目錄中移除。 若要從目錄中移除項目，請透過Target UI或API手動刪除項目。 或者，修改物料屬性（如庫存）以確保將物料排除在考量之外。
+
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -50,7 +58,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!IMPORTANT]
 >
->請勿在您的 .csv 檔案中將值含括在雙引號 ( " ) 中，除非是刻意的操作。如果您將值含括在雙引號中，則必須藉由將它們含括在另一組雙引號中才能將其逸出。未逸出的雙引號會使建議摘要無法正確載入。
+>請勿在您的 .csv 檔案中將值含括在雙引號 ( &quot; ) 中，除非是刻意的操作。如果您將值含括在雙引號中，則必須藉由將它們含括在另一組雙引號中才能將其逸出。未逸出的雙引號會使建議摘要無法正確載入。
 
 例如，下列語法不正確:
 
@@ -66,7 +74,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->您不能以空白值來覆寫現有值。您必須在原處傳遞另一個值來覆寫它。以售價來說，一般解決辦法是傳入實際的 "NULL" 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
+>您不能以空白值來覆寫現有值。您必須在原處傳遞另一個值來覆寫它。以售價來說，一般解決辦法是傳入實際的 &quot;NULL&quot; 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
 
 產品在成功上傳其實體大約兩小時之後，就可以在管理介面中使用。
 
@@ -200,7 +208,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
-1. 在 Target 介面中，按一下&#x200B;**[!UICONTROL 「建議]** &gt; **[!UICONTROL 摘要]** &gt; **[!UICONTROL 建立摘要」]**。
+1. 從 Target 介面內，按一下「**[!UICONTROL 建議]**>**[!UICONTROL &#x200B;摘要]** > **[!UICONTROL 建立摘要]**」。
 
    ![建立摘要對話方塊](assets/CreateFeed.png)
 
@@ -212,7 +220,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
    * Analytics 分類
    如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]** 或 **[!UICONTROL Google 產品摘要]**，請指定可存取摘要的位置。
+1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]**或**[!UICONTROL  Google 產品摘要]**，請指定可存取摘要的位置。
 
    * **FTP**: 如果您已選取 FTP，請提供 FTP 伺服器資訊、登入認證、檔案名稱和 FTP 目錄。您可以選擇使用 FTP SSL (FTPS)，以更安全地上傳。
 
@@ -227,7 +235,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 1. (視條件而定) 如果您已選取 **[!UICONTROL Analytics 分類]**，請從下拉式清單選擇報表套裝。
 
-1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「排程」]選項。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**箭頭來顯示[!UICONTROL 「排程」]選項。
 
    ![步驟結果](assets/CreateFeedSchedule.png)
 
@@ -242,7 +250,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
    此選項是根據瀏覽器中使用的時區。如果要使用不同時區的時間，則必須根據您的時區來計算該時間。
 
-1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至 [!DNL Target] 定義。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至[!DNL Target]定義。
 
    ![步驟結果](assets/CreatFeedMapping.png)
 
@@ -275,7 +283,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
 | 正在匯入項目 | Target 正在從摘要檔案匯入項目。 |
-| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>*備註 1:* 如果項目屬性的變更導致建議排除了該項目，則會立即顯示排除。如果項目是新增的項目，或屬性變更導致建議&#x200B;*不再*&#x200B;排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。<br>*備註 2:* 顯示此狀態時，目錄搜尋使用者介面可能尚未顯示更新。目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。 |
+| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>*備註 1:*如果項目屬性的變更導致建議排除了該項目，則會立即顯示排除。如果項目是新增的項目，或屬性變更導致建議*&#x200B;不再&#x200B;*排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。<br>*備註 2:* 顯示此狀態時，目錄搜尋使用者介面可能尚未顯示更新。目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。 |
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
@@ -322,7 +330,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 * 瞭解摘要的用途
 * 瞭解摘要的值
 
->[!VIDEO](https://video.tv.adobe.com/v/27695?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 建立摘要 (6:44)
 
@@ -331,4 +339,4 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 * 設定摘要
 * 瞭解要使用哪種摘要類型
 
->[!VIDEO](https://video.tv.adobe.com/v/27696?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
