@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2020年1月15日 | [在瀏覽器中啟用混合內容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 已新增訓練影片和指示，說明如何更新網站設定，以允許最新版Chrome中混合內容。 |
 | 2020 年 1 月 9 日 | [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字。<br>在2020年3月1日之後，Adobe target將不再支援Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活動傳送、API等的TLS 1.1加密。 請在2020年3月1日之前升級至TLS 1.2，以避免任何問題。 |
 | 2020年1月6日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增「自訂准則」饋送狀態的已知問題。 |
 | 2019年12月19日 | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 已新增有關1.1.0版的資訊。 |
