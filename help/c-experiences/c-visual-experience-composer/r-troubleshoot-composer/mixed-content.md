@@ -5,7 +5,7 @@ title: 在瀏覽器中啟用混合內容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -30,19 +30,13 @@ source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
 
 如需詳細資訊，請參閱 *Mozilla Developer Network* (MDN) 網站上的[混合內容](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)。
 
-## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 如果您透過安全連線造訪網站，Google Chrome 將會驗證網頁上的內容已安全地傳輸。
 
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
 請參閱 Google Chrome 說明中的[此頁面有不安全的內容](https://support.google.com/chrome/answer/1342714?hl=en)。
 
-### 訓練影片：在Chrome中啟用VEC（2020年1月）
+### 訓練影片：在Chrome 79.0.3945.117版或更新版本（2020年1月）中啟用VEC
 
 如果您正將VEC與最新版Chrome（79.0.3945.117版或更新版本）搭配使用，則需要更新網站設定。 造訪您網站的訪客不需要完成這些步驟。
 
@@ -60,15 +54,9 @@ target/t_mixed_content_chrome.xml
 
 1. 重新載入VEC頁面。
 
-## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 依預設，Firebox 會封鎖混合了安全和不安全內容的頁面。若要使用 [!DNL Target]，建議您永久變更此設定。
-
-<!-- 
-
-target/t_mixed_content_firefox.xml
-
- -->
 
 1. 在 Firefox 的位址列中，輸入 `about:config`。
 1. 認可 Firefox 顯示的警告訊息。
@@ -77,15 +65,9 @@ target/t_mixed_content_firefox.xml
 
    值會從「True」變更為「False」。值顯示「False」時即為完成。變更此設定之後，建議您重新啟動電腦。
 
-## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Microsoft Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
-依預設，Internet Explorer 會封鎖混合了安全和不安全內容的頁面。若要使用 Target Standard，建議您永久變更此設定。
-
-<!-- 
-
-target/t_mixed_content_ie.xml
-
- -->
+依預設，Internet Explorer 會封鎖混合了安全和不安全內容的頁面。若要使用 Target，建議您永久變更此設定。
 
 1. 在 Internet Explorer 中，按一下設定圖示 >**[!UICONTROL 「網際網路選項」]**。
 1. 開啟[!UICONTROL 「安全性」]索引標籤。
@@ -94,5 +76,5 @@ target/t_mixed_content_ie.xml
 1. 在[!UICONTROL 「雜項」]下，啟用&#x200B;**[!UICONTROL 「顯示混合的內容」]**。
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**>**[!UICONTROL 「是」]**>**[!UICONTROL 「套用」]**。
 
-變更此設定之後，建議您重新啟動電腦。
+我們建議您在變更此設定後重新啟動電腦。
 
