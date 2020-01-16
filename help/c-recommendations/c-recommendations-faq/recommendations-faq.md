@@ -1,10 +1,10 @@
 ---
-keywords: 疑難排解;常見問題集;FAQ;建議;特殊字元;屬性加權;內容相似度
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: 關於Adobe Target Recommendations活動的常見問題(FAQ)清單。
 title: Adobe Target Recommendations常見問答集
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 如果特殊字元破壞陣列，怎麼辦? {#section_D27214116EE443638A60887C7D1C534E}
 
-在 JavaScript 中使用逸出值。引號 ( " ) 會破壞陣列。下列程式碼片段是逸出值的範例:
+在 JavaScript 中使用逸出值。引號 ( &quot; ) 會破壞陣列。下列程式碼片段是逸出值的範例:
 
 ```
 #set($String='') 
@@ -62,7 +62,7 @@ Target 具有[篩選不相容的條件](../../c-recommendations/plan-implement.m
 >
 >此設定僅適用於可視化體驗撰寫器 (VEC) 中建立的活動。此設定不適用於表單式體驗撰寫器中建立的活動 (Target 沒有位置環境定義)。
 
-若要存取[!UICONTROL 篩選不相容的條件]設定，請按一下「[!UICONTROL 建議] &gt; [!UICONTROL 設定]」:
+若要存取[!UICONTROL 篩選不相容的條件]設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」:
 
 ![](assets/recs_settings_filter.png)
 
@@ -168,3 +168,23 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. 擷取內容 URL 時，目前的 mbox 請求參數會替代必要參數。
 
 依預設，新建立的建議會啟用此功能。必須儲存現有的建議來支援動態排除的實體。
+
+## Recommendations內容追蹤中有時傳回的NO_CONTENT回應代表什麼意思？
+
+當請求的演算法和索引鍵組合無法使用建議時，會傳回NO_CONTENT。 一般而言，當演算法的備份停用，且下列一或多個項目也成立時，就會發生此情況：
+
+* 結果尚未準備好。
+
+   這通常發生在首次儲存新建立的活動時，或在變更活動中使用的系列、標準或促銷的設定後。
+
+* 對於請求的演算法／鍵組合，結果已準備就緒，但尚未在最近的邊緣伺服器快取。
+
+   剛提出的請求會啟動快取作業，因此在重新載入數個頁面及／或經過幾分鐘後，應自行解析。
+
+* 結果已就緒，但無法用於提供的鍵值。
+
+   這通常發生在為最近演算法執行後新增至目錄的項目請求建議，並會在下次演算法執行後自行解析時。
+
+* 部分範本轉譯已停用，而且沒有足夠的結果可填滿範本。
+
+   這通常發生在您有動態包含規則時，該規則會從可能的結果中積極篩選許多項目。 要避免此情況，請啟用備份，不要將包含規則應用於備份，或者使用條件順序和不那麼激進的篩選條件。
