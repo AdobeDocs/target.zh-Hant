@@ -20,6 +20,7 @@ source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 | --- | --- | --- |
 | 2020年1月15日 | [在瀏覽器中啟用混合內容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 已新增訓練影片和指示，說明如何更新網站設定，以允許最新版Chrome中混合內容。 |
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增有關上傳和移除實體和實體屬性的附註。 |
+|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：Recommendations內容追蹤中有時傳回的NO_CONTENT回應代表什麼意思？ |
 |  | [建立訂購確認 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | 已新增附註，說明如何使用at.js 2執行訂單確認。*x* 版本不支援此函數。 |
 | 2020 年 1 月 9 日 | [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字。<br>在2020年3月1日之後，Adobe target將不再支援Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活動傳送、API等的TLS 1.1加密。 請在2020年3月1日之前升級至TLS 1.2，以避免任何問題。 |
 | 2020年1月6日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增「自訂准則」饋送狀態的已知問題。 |
