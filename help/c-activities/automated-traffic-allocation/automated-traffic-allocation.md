@@ -1,11 +1,11 @@
 ---
-keywords: 自動流量分配;鎖定目標;增加計數並讓使用者留在活動中;流量分配
+keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: b398c14f3e9b60af58ec0812462e25f495c0baec
 
 ---
 
@@ -80,7 +80,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 | ![第 2 回合](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **第 2 回合**: 在這個回合中，80%的流量會分配給體驗 A 和 D (各 40%)。20% 的流量會隨機分配，因此，這表示 A、B、C 和 D 每個都會獲得 5% 的流量。在此回合中，體驗 B 表現良好。<ul><li>演算法會挑選體驗 D 來進行下一個循環，因為它有最高的轉換率 (如每個活動垂直刻度上的 所示)。</li><li>演算法還會挑選體驗 B 來前進，因為相較剩餘的體驗，它的 Bernstein 95% 信賴區間上界最高。</li></ul>體驗 D 和 B 會前進。 |
 | ![第 3 回合](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **第 3 回合**: 在這個回合中，80%的流量會分配給體驗 B 和 D (各 40%)。20% 的流量會隨機分配，因此，這表示 A、B、C 和 D 每個都會獲得 5% 的流量。在此回合中，體驗 D 持續表現良好，體驗 C 也表現良好。<ul><li>演算法會挑選體驗 D 來進行下一個循環，因為它有最高的轉換率 (如每個活動垂直刻度上的 所示)。</li><li>演算法還會挑選體驗 C 來前進，因為相較於剩餘的體驗，它的 Bernstein 95% 信賴區間上界最高。</li></ul>體驗 D 和 C 會前進。 |
 | ![第 4 回合](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **第 4 回合**: 在此回合中，80% 的流量分配給體驗 C 和 D (各 40%)。20% 的流量會隨機分配，因此，這表示 A、B、C 和 D 每個都會獲得 5% 的流量。在此回合中，體驗 C 表現良好。<ul><li>演算法挑選體驗 C 來前進到下一個回合，因為其轉換率最高 (如每個活動的直垂標度上的 所示)。</li><li>演算法還會挑選體驗 D 來前進，因為相較於剩餘的體驗，它的 Bernstein 95% 信賴區間上界最高。</li></ul>體驗 C 和 D 會前進。 |
-| ![第 n 回合](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **回合 n**:隨著活動進行，表現優異的體驗會開始浮現，過程會持續到出現勝出體驗為止。當轉換率最高的體驗和任何其他體驗的信賴區間不重疊時，即會標示為獲勝者，且會有[徽章會出現在活動的頁面](/help/c-activities/automated-traffic-allocation/determine-winner.md)和「活動」清單中。<ul><li>演算法會挑選體驗 C 成為確定贏家</li></ul>此時，演算法會將 80% 的流量供應給體驗 C，而 20% 的流量持續地隨機供應給所有體驗 (A、B、C、D)。C 總共獲得 85% 的流量。在很罕見的情況下，萬一獲勝者的信賴區間又開始重疊，演算法會回復到上面回合 4 的行為。<br>**重要**: 如果您在過程中太早手動選擇獲勝者，很容易會選出錯誤的體驗。因此，最好等待演算法決定勝出體驗。 |
+| ![第 n 回合](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **回合 n**:隨著活動進行，表現優異的體驗會開始浮現，過程會持續到出現勝出體驗為止。當轉換率最高的體驗和任何其他體驗的信賴區間不重疊時，即會標示為獲勝者，且會有[徽章會出現在活動的頁面](/help/c-activities/automated-traffic-allocation/determine-winner.md)和「活動」清單中。<ul><li>演算法會挑選體驗 C 成為確定贏家</li></ul>此時，演算法會將 80% 的流量供應給體驗 C，而 20% 的流量持續地隨機供應給所有體驗 (A、B、C、D)。C 總共獲得 85% 的流量。在很罕見的情況下，萬一獲勝者的信賴區間又開始重疊，演算法會回復到上面回合 4 的行為。<br>**重要&#x200B;**: 如果您在過程中太早手動選擇獲勝者，很容易會選出錯誤的體驗。因此，最好等待演算法決定勝出體驗。 |
 
 如果活動只有兩個體驗，則兩者會獲得相等的流量，直到 Target 找到具有 90% 可信度的體驗為止。屆時，70% 的流量會分配給獲勝者，30% 分配給失敗者。在該體驗達到 95% 可信度之後，100% 的流量會分配給獲勝者，0% 分配給失敗者。
 
@@ -168,7 +168,9 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 **使用自動分配時，我可以利用樣本大小計算機來預估活動識別出獲勝者所需的時間嗎?**
 
-您可以利用現有的[樣本大小計算機](https://docs.adobe.com/content/target-microsite/testcalculator.html)，並適當套用 Bonferroni 校正，以取得測試執行時間長短的預估值。使用自動分配活動的計算器是可選的，因為自動分配將為您聲明一個成功者。 電腦可粗略估計所需的樣本大小。 在我們的範例中，已看到自動分配活動遠比此樣本大小更早結束。
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. （如同傳統A/B測試，如果您要測試超過2個選件或超過1個轉換量度／假設，請套用Bonferroni修正）。請注意，此計算器專為傳統固定水準A/B測試而設計，僅提供預估。 使用自動分配活動的計算器是可選的，因為自動分配將為您聲明一個成功者——您不需要選擇固定的時間點來查看測試結果——提供的值始終在統計上有效。 在我們的實驗中，我們發現了以下內容：
+* 在測試2個體驗時，自動分配比固定水準測試（即樣本大小計算器建議的時間範圍）更快找到成功者，當體驗之間的效能差異較大時，自動分配會更快找到成功者，但在體驗之間的效能差異較小時，可能需要額外的時間來識別成功者。 在這些情況下，固定水準測試通常會在沒有統計顯著結果的情況下結束。
+* 在測試超過2個體驗時，當單一體驗執行力強於其他所有體驗時，「自動分配」會比固定水準測試（即範例大小計算器建議的時間範圍）更快找到成功者。 當2個或2個以上的體驗都與其他體驗「勝出」，但彼此之間卻緊密相配時，自動分配可能需要額外的時間來判斷哪個體驗更出色。 在這些情況下，固定水準測試通常會以「成功」體驗優於表現欠佳的體驗而告終，但並未指出哪一種體驗更出色。
 
 **是否應從自動分配活動中移除表現欠佳的體驗，以加速決定獲勝者的程序?**
 
@@ -189,7 +191,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### 建立 A/B 測試 (8:36)
 
@@ -198,4 +200,4 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 * 在 Adobe Target 中建立 A/B 活動
 * 使用手動分割或自動流量分配來分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
