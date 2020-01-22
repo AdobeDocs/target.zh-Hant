@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2020 年 1 月 22 日 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新下列常見問答：「使用自動分配時，我是否可以使用樣本大小計算器來估計活動識別成功者所需的時間？」 |
 | 2020年1月15日 | [在瀏覽器中啟用混合內容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 已新增訓練影片和指示，說明如何更新網站設定，以允許最新版Chrome中混合內容。 |
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增有關上傳和移除實體和實體屬性的附註。 |
 |  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：Recommendations內容追蹤中有時傳回的NO_CONTENT回應代表什麼意思？ |
