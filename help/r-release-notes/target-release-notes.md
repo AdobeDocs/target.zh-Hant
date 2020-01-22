@@ -5,7 +5,7 @@ title: Adobe target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**最近更新日期: 2020 年 1 月 8 日**
+**最近更新日期: 2020 年 1 月 22 日**
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 >
 >括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## Target Standard/Premium 20.1.1 (2020 年 1 月 22 日)
+## Target Standard/Premium 20.1.1 (2020 年 1 月 29 日)
 
-Target Standard/Premium 20.1.1版將於2020年1月22日發行。 其功能和增強功能將在此公佈。
+Target Standard/Premium 20.1.1版將於2020年1月29日發行。 其功能和增強功能將在此公佈。
 
 >[!IMPORTANT]
 >
