@@ -5,7 +5,7 @@ title: 決定獲勝者
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -48,11 +48,15 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
 ![](assets/winner_found.png)
 
+>[!IMPORTANT]
+>
+>Target會在預先定義的最小轉換數後顯示成功者；不過，挑選成功者的最終決定應一律以Adobe Target範例大小計算器 [的結果為準](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 Target不會考慮網站的基本轉換率，以及輸入計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最少轉換次數，提前顯示成功者。 如需詳細資訊，請參 [閱範例大小計算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+
 ## 瞭解自動分配活動中的提升度和可信度報告 {#lift-confidence}
 
 在「自動分配」活動中，第一個體驗（依預設命名為「體驗A」）一律會定義為「報表」標籤上的「控制」體驗。 在用來判斷體驗效能的模型中，此體驗並未被視為真正的統計控制項，但會視為報表中某些圖形的參考或基準。
 
-每個體驗的「提升度」數值和95%界限一律會參照已定義的「控制」體驗來計算。 定義的「控制」體驗不能具有相對於自身的提升度，因此會針對此體驗報告空白的「—」值。 與A/B測試不同，在「自動分配」測試中，如果體驗的表現比定義的控制差，則不會報告負提升度值；而顯示"—"。
+每個體驗的「提升度」數值和95%界限一律會參照已定義的「控制」體驗來計算。 定義的「控制」體驗不能具有相對於自身的提升度，因此會針對此體驗報告空白的「—」值。 與A/B測試不同，在「自動分配」測試中，如果體驗的表現比定義的控制差，則不會報告負提升度值；而顯示&quot;—&quot;。
 
 顯示的「信賴區間」列代表體驗轉換率的平均估計值周圍95%的信賴區間。 這些也會針對已定義的「控制」體驗進行色彩編碼。 「控制」體驗的列總是呈彩色灰色。 「控制」體驗信賴區間下方的信賴區間部分會以紅色標示，而「控制」體驗上方的信賴區間部分會以綠色標示。
 
@@ -72,6 +76,6 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
    自動分配顯示在活動的所有體驗之中，所給定體驗是真正獲勝者的機率。這表示只有勝出體驗 (很可能就是獲勝者) 才有非零的信賴值。其他很可能全部都是失敗者，將會顯示 0%。
 
-* 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些信賴等級通常會出現在正常A/B測試完成的約一半時間內（雖然這並不保證）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
+* 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些信賴等級通常會出現在正常A/B測試完成的約一半時間內（雖然這並不保證）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
 * 如果報表完全顯示 0%，可能表示太早進入活動。
 
