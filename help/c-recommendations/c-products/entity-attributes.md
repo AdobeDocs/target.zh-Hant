@@ -1,10 +1,10 @@
 ---
-keywords: 實體;實體屬性;傳遞資訊至 Recommendations;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: 使用實體屬性來傳遞產品或內容資訊至 Recommendations。
 title: 實體屬性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -103,7 +103,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 範例: `'entity.inventory=1'`
 
-**空庫存屬性處理:** 對於傳送，如果您有包含規則、集合規則，或條件設定 (其中 `entity.inventory` &gt; 0 或 `entity.inventory` = 0)，而且產品未設定庫存，則 [!DNL Target] 會將此評估為 TRUE，且包含未設定庫存的產品。這是在預設情況下完成的，因此具有未設定庫存的產品會顯示在建議結果中。
+**空庫存屬性處理:** 對於傳送，如果您有包含規則、集合規則，或條件設定 (其中 `entity.inventory` > 0 或 `entity.inventory` = 0)，而且產品未設定庫存，則 [!DNL Target] 會將此評估為 TRUE，且包含未設定庫存的產品。這是在預設情況下完成的，因此具有未設定庫存的產品會顯示在建議結果中。
 
 同樣地，如果您有一個全域排除規則，其中 `entity.inventory` = 0 且未設定 `entity.inventory`，則 [!DNL Target] 會將此規則評估為 TRUE，並排除該產品。
 
@@ -179,7 +179,11 @@ Recommendations 會傳送演算法中所用的 `productId` 或 `productPurchased
 
 多數預先定義的參數僅接受單一值，以新的值覆寫舊的值。對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
 
-一般來說，顯示資訊 mbox 可能類似於下例: 依自身產品變更以粗體顯示的詳情。
+一般而言，如果您使用at.js 1，顯示資訊mbox可能會類似下列範例。*x* with `mboxCreate`.
+
+>[!NOTE]
+>
+>如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，請使用下列API方法： [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)、getOffers [、applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)，或套用 [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)[](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)Offers。
 
 >[!NOTE]
 >
