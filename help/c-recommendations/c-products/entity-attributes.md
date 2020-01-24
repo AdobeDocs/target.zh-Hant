@@ -4,7 +4,7 @@ description: 使用實體屬性來傳遞產品或內容資訊至 Recommendations
 title: 實體屬性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
 
 ---
 
@@ -183,7 +183,7 @@ Recommendations 會傳送演算法中所用的 `productId` 或 `productPurchased
 
 >[!NOTE]
 >
->如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，請使 [用targePageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。
+>如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，請使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。
 
 >[!NOTE]
 >
