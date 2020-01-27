@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -18,8 +18,10 @@ source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2020年1月27日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列資訊：「如果您使用批次傳送API，每個批次請求的限制為50個mbox。」 |
+| 2020年1月27日 | [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 新增區段：「Adobe部落格。」 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列資訊：「如果您使用批次傳送API，每個批次請求的限制為50個mbox。」 |
 |  | [資源與聯絡資訊](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新連結以開啟支援票證。 |
+|  | [自動鎖定目標摘要報表](/help/c-reports/auto-target-summary-report.md) | 更新文字和影像。 |
 | 2020年1月23日 | [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已新增附註，以使用Adobe Target範例大小計算器來判斷成功者。 |
 |  | [實體屬性](/help/c-recommendations/c-products/entity-attributes.md) | 已新增附註，說明如果您使用at.js 2。*x*, `mboxCreate` 不再支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，使用 `targetPageParams`。 |
 | 2020 年 1 月 22 日 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新下列常見問答：「使用自動分配時，我是否可以使用樣本大小計算器來估計活動識別成功者所需的時間？」 |
