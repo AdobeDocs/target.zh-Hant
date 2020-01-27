@@ -5,12 +5,12 @@ title: 資源與聯絡資訊
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
 
-# 資源與聯絡資訊{#resources-and-contact-information}
+# Resources and contact information{#resources-and-contact-information}
 
 其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
 
@@ -117,6 +117,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 * [請參閱 Experience Cloud 說明頁面，以取得建議、提示及常見問題解答](https://helpx.adobe.com/marketing-cloud.html)
 * [在 Twitter @AdobeExpCare 上簡單說明您的問題](https://twitter.com/adobeexpcare)
+* [開啟票證以取得支援的協助](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [直接聯絡客戶服務團隊](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解決方案的可用性和狀態](https://status.adobe.com/)
 
