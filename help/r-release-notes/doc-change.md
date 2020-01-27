@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -18,8 +18,10 @@ source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2020年1月27日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列資訊：「如果您使用批次傳送API，每個批次請求的限制為50個mbox。」 |
+|  | [資源與聯絡資訊](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新連結以開啟支援票證。 |
 | 2020年1月23日 | [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已新增附註，以使用Adobe Target範例大小計算器來判斷成功者。 |
-|  | [實體屬性](/help/c-recommendations/c-products/entity-attributes.md) | 已新增附註，說明如果您使用at.js 2。*x*, `mboxCreate` 不再支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，使用 `targePageParams`。 |
+|  | [實體屬性](/help/c-recommendations/c-products/entity-attributes.md) | 已新增附註，說明如果您使用at.js 2。*x*, `mboxCreate` 不再支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，使用 `targetPageParams`。 |
 | 2020 年 1 月 22 日 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新下列常見問答：「使用自動分配時，我是否可以使用樣本大小計算器來估計活動識別成功者所需的時間？」 |
 | 2020年1月15日 | [在瀏覽器中啟用混合內容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 已新增訓練影片和指示，說明如何更新網站設定，以允許最新版Chrome中混合內容。 |
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增有關上傳和移除實體和實體屬性的附註。 |
