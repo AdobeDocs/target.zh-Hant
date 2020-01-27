@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -114,9 +114,11 @@ source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 除非要求因網頁瀏覽器限制而縮短，否則適用上述限制。
 
+如果您使用「批次傳送API」，則每個批次請求的限制為50個mbox。
+
 如果您在 Mobile Services SDK 使用[批次傳送 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，50 個 mbox 參數、50 個描述檔參數和 50 個其他參數類型限制，即為 API 本身限制。無法使用批次傳送 API，傳送超過上述數量限制的要求。如果請求包含的限制超過這些限制，API會傳回下列錯誤訊息：
 
-"mboxParameters的數目不能超過50。"
+&quot;mboxParameters的數目不能超過50。&quot;
 
 端點限制集：
 
