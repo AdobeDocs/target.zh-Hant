@@ -1,10 +1,10 @@
 ---
-keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集;重要屬性
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: '自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表: 「自動化區段」與「重要屬性」報表。'
 title: 個人化前瞻分析報表
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -47,7 +47,7 @@ Target 提供許多方法，可以將其他資料傳遞給 Target，使得用於
 
 | 資料類型 | 說明 | 資料類型命名慣例 |
 |--- |--- |--- |
-| 設定檔屬性，包括設定檔指令碼、設定檔更新 API，以及頁面設定檔屬性 | 您決定包括在 Target 使用者設定檔的任何資訊。<br>此資訊可能來自設定檔指令碼、使用設定檔更新 API 上傳的資訊，或字首為 "profile" 的 mbox 內部設定檔參數。 | `Custom - Profile - [parameter name]` |
+| 設定檔屬性，包括設定檔指令碼、設定檔更新 API，以及頁面設定檔屬性 | 您決定包括在 Target 使用者設定檔的任何資訊。<br>此資訊可能來自設定檔指令碼、使用設定檔更新 API 上傳的資訊，或字首為 &quot;profile&quot; 的 mbox 內部設定檔參數。 | `Custom - Profile - [parameter name]` |
 | 頁面參數 (也稱為「mbox 參數」) | 直接透過頁面代碼傳遞的名稱/值對，這些頁面代碼未儲存在訪客的設定檔中，以供未來使用。 | `Custom - Mbox Parameter - [parameter name]` |
 | 客戶屬性 | 客戶屬性可讓您透過 FTP 將訪客設定檔資料上傳至 Experience Cloud。上傳後，即可在 Adobe Analytics 和 Adobe Target 中運用這些資料。 | `Custom - Customer Attributes - [parameter name]` |
 | 共用對象 (Adobe Audience Manager 或 Adobe Analytics) | 透過 Adobe Audience Manager 或 Adobe Analytics 建立並與 Target 共用的對象。 | `Custom - Experience Cloud Segment - [segment name]` |
@@ -55,6 +55,12 @@ Target 提供許多方法，可以將其他資料傳遞給 Target，使得用於
 
 ## 訓練影片: 使用「個人化前瞻分析」報表
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 如需詳細資訊，請 [參閱「在Adobe target中使用個人化見解報表」](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
+
+## Adobe部落格
+
+* 第1部分：從人 [工智慧驅動的個人化魔力中揭開謎底](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* 第二部分：Adobe [Target中個人化AI幕後秘辛](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 第3部分： [馬吉— AI驅動個人化黑匣子問題的解決方案](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
