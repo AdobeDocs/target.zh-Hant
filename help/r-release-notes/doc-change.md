@@ -5,19 +5,20 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
 
 ---
 
 
 # 文件變更{#documentation-changes}
 
-此頁面主要列示 [!DNL Adobe Target] 文件的重要變更。
+This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target/Standard/Premium 19.10.1（2019年10月22日）
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2020年1月28日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已變更Target Standard/Premium 20.1.1發行日期。 發行日期為2020年2月4日。 |
 | 2020年1月27日 | [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 新增區段：「Adobe部落格。」 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列資訊：「如果您使用批次傳送API，每個批次請求的限制為50個mbox。」 |
 |  | [資源與聯絡資訊](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新連結以開啟支援票證。 |
