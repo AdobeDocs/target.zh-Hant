@@ -5,7 +5,7 @@ title: Adobe target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 
 
-**最近更新日期: 2020 年 1 月 27 日**
+**最近更新日期: 2020 年 1 月 28 日**
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
    如需更新實作可能影響的詳細資訊，以及您可能需要採取哪些步驟，請參閱 [TLS（傳輸層安全性）加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 
 
-## Target Standard/Premium 20.1.1 (2020 年 1 月 29 日)
+## Target Standard/Premium 20.1.1 (2020 年 2 月 4 日)
 
 Target Standard/Premium 20.1.1版是維護髮行，包含後端增強功能與改進。 此外，還包含下列修正：
 
