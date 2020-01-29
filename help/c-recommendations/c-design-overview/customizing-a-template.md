@@ -4,7 +4,7 @@ description: 使用開放原始碼 Velocity 設計語言來自訂建議設計。
 title: 使用 Velocity 自訂設計
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -123,14 +123,15 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 ## 在Velocity範本中使用數字
 
 預設情況下，Velocity模板將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以便執行數學運算或將其與其他數值比較。 若要將實體屬性視為數值，請遵循下列步驟：
+
 1. 宣告虛擬變數，並將其初始化為任意整數或雙重值
-2. 請確定您要使用的實體屬性不為空（Target Recommendations的範本剖析器需要用來驗證和儲存範本）
-3. 將entity屬性傳遞至您在 `parseInt` 步驟1 `parseDouble` 中建立的虛擬變數上的或方法，將字串轉換為整數或雙重值
-4. 對新數值執行數學運算或比較
+1. 請確定您要使用的實體屬性不是空白（Target Recommendations的範本剖析器驗證並儲存範本時需要）
+1. 將entity屬性傳遞至您在 `parseInt` 步驟1 `parseDouble` 中建立的虛擬變數上的或方法，將字串轉換為整數或雙重值
+1. 對新數值執行數學運算或比較
 
 **範例：計算折扣價格**
 
-假設您希望將項目的顯示價格降低$0.99以套用折扣。 您可以使用下列方法來達成此結果：
+假設您想要將項目的顯示價格降低$0.99以套用折扣。 您可以使用下列方法來達成此結果：
 
 ```
 #set( $Double = 0.1 )
