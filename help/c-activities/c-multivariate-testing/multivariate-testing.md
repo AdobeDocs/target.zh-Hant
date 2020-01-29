@@ -1,19 +1,19 @@
 ---
-keywords: 多變數測試;mvt;全階乘;mvt 或 a/b;多變數 a/b;流量估算;何時使用 mvt;mvt 考量;多變數
+keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: Adobe Target 中的多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。
 title: 多變數測試
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
 
 ---
 
 
-# 多變數測試{#multivariate-test}
+# 多變項變異數測試{#multivariate-test}
 
 [!DNL Adobe Target] 中的[!UICONTROL 多變數測試] (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。
 
-## MVT 概覽 {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## MVT overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 多變數測試可協助您探索特定元素相較於頁面上的其他元素，對轉換造成的相對影響。也有助於您細分已知有效應的元素組合。
 
@@ -25,11 +25,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 在 Target 中，每一個組合就是一個體驗。多變數測試會比較每一個體驗，讓您看出最成功的組合。同時會收集並分析資料，以瞭解每一個位置和選件如何影響成功量度。
 
-![](assets/multivariate.png){width="672px"}
+![](assets/multivariate.png){width=&quot;672px&quot;}
 
 由於多變數測試可產生的組合較多，需要比 A/B 測試更多的時間和流量。頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。為了獲得實用的結果，您需要瞭解頁面接收的流量，並以正確的時間長度來測試最理想的組合數目，才能得到所需的結果。Target 的[流量估算](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可協助您設計適用於流量的測試。使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。請考量每日的流量水準。活動中的體驗越多，活動需要包含的流量就越多，否則活動需要執行更久。如果流量不是很大，則應該測試較少的組合；否則，產生有意義的測試結果所需的時間可能太長，而顯得無用。
 
-## MVT 術語 {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
+## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
 設定多變數測試時，最好瞭解一些基本術語。
 
@@ -43,7 +43,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **位置:**&#x200B;頁面上的特定內容區域，通常包含在單一 DOM 元素內。在 MVT 方法中，有時會將位置稱為&#x200B;*係數*。全階乘多變數測試會比較您的位置中所有可能的選件組合。
 
-## 何時使用 MVT 或 A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## When to use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 多變數測試與 A/B 測試可以一起用來將頁面最佳化。何時需要一起使用的例子包括:
 
@@ -53,30 +53,33 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * 使用 MVT 測試來判斷最重要的元素，接著對該元素進行更聚焦的 A/B 測試。
 
-   當不同的體驗數目超過五個，且橫跨兩個或更多個元素時，最好考慮先執行 MVT 測試，再執行 A/B 測試。MVT 測試會顯示頁面上的哪些區域最可能改善轉換。這些是市場行銷人員應該專注的元素。例如，MVT 測試可能指出呼叫動作是達成目標最重要的元素。一旦決定哪些元素和內容最有助於達成目標，您就可以執行 A/B 測試來進一步精簡結果，例如將兩個特定的影像相互測試，或比較呼叫動作時的用語或顏色。遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
+   當不同體驗的數量超過5個且涵蓋2個或多個元素時，最好先考慮MVT測試，再執行A/B測試。 MVT 測試會顯示頁面上的哪些區域最可能改善轉換。這些是市場行銷人員應該專注的元素。例如，MVT 測試可能指出呼叫動作是達成目標最重要的元素。一旦決定哪些元素和內容最有助於達成目標，您就可以執行 A/B 測試來進一步精簡結果，例如將兩個特定的影像相互測試，或比較呼叫動作時的用語或顏色。遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
 
 ## 考量事項 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * 在至少有三個元素要測試時，才使用 MVT 測試。如果沒這麼多個，請執行 A/B 測試。
 * 選取您認為將為結果帶來最大影響的頁面元素。
 * 請勿在測試中包含太多元素或位置。數目越多，測試期間就越長。
-* 事先規劃測試設計。一旦測試上線且開始收集和分析資料，就不建議編輯測試。
+* 事先規劃測試設計。在測試上線後，不建議編輯測試，而且會開始收集和分析資料。
 * 建議您將元素與元素之間分開測試。
 
    例如，請勿在相同測試中測試版面配置與內容。
-* 因為體驗數目會增加，請預留額外時間給 QA。
 
-   [!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計學中，「實驗設計」提供許多方法 (或設計) 來判斷會影響結果的因素。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 「田口方法」可讓市場行銷人員建立一組假設，以減少需要測試的體驗排列，進而降低多變數測試的流量需求。在 [!DNL Target] 中，可利用此[離線試算表](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)來運用此功能與測試方法。
+* 因為體驗數目會增加，請預留額外時間給 QA。您也可以使用部分工廠測試來降低多變數測試所需的流量。 如需詳細資訊，請參閱以下部分工廠測試：
 
-   如果您的團隊採用其他「實驗設計」方法，您可以將此計算試算表當作自訂實驗設計的參考實作。
+## 部分工廠測試
 
-   使用離線計算試算表時，請考量下列訣竅:
+[!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計學中，「實驗設計」提供許多方法 (或設計) 來判斷會影響結果的因素。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 「田口方法」可讓市場行銷人員建立一組假設，以減少需要測試的體驗排列，進而降低多變數測試的流量需求。在 [!DNL Target] 中，可利用此[離線試算表](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)來運用此功能與測試方法。
 
-   * 挑選您要變更的元素，以及每一個元素的版本數目 (3x2、4x3 等等)。
-   * 保持編號一致。例如，假設按鈕是元素 1，選項為藍色、綠色和黃色，則藍色按鈕為 1-1、綠色按鈕為 1-2、黃色按鈕為 1-3。
-   * 離線試算表可提供適合所需的體驗數目 (3x2 四個、4x3 九個...等等)。
-   * 使用[可視化體驗撰寫器 (VEC)](/help/c-experiences/experiences.md) 在 A/B 工作流程中建立體驗。您可以使用自訂程式碼、編輯 HTML、WYSIWYG 或任何組合。
-   * 活動結束之後 (根據樣本大小計算機)，透過試算表執行結果來取得其他詳細資料。
+如果您的團隊採用其他「實驗設計」方法，您可以將此計算試算表當作自訂實驗設計的參考實作。
+
+使用離線計算試算表時，請考量下列訣竅:
+
+* 挑選您要變更的元素，以及每一個元素的版本數目 (3x2、4x3 等等)。
+* 保持編號一致。例如，假設按鈕是元素 1，選項為藍色、綠色和黃色，則藍色按鈕為 1-1、綠色按鈕為 1-2、黃色按鈕為 1-3。
+* 離線試算表可提供適合所需的體驗數目 (3x2 四個、4x3 九個...等等)。
+* 使用[可視化體驗撰寫器 (VEC)](/help/c-experiences/experiences.md) 在 A/B 工作流程中建立體驗。您可以使用自訂程式碼、編輯 HTML、WYSIWYG 或任何組合。
+* 活動結束之後 (根據樣本大小計算機)，透過試算表執行結果來取得其他詳細資料。
 
 關於其他考量和最佳作法，請參閱[多變數測試最佳作法](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
 
@@ -86,13 +89,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ### 活動類型 (9:03)
 
-此影片說明 Target Standard/Premium 中的可用活動類型。4:20 開始討論多變數測試。
+此概觀影片說明Target Standard/Premium中可用的活動類型。 4:20 開始討論多變數測試。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型
 * 說明適用所有活動類型的三個步驟引導工作流程
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 建立多變數測試 (9:25)
 
@@ -101,4 +104,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 定義和設計多變數測試
 * 建立多變數測試
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
