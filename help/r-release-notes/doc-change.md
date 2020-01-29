@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2020 年 1 月 29 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 更新文字和程式碼範例。 新的程式碼範例說明如何處理Velocity範本中的數字。 |
 | 2020年1月28日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已變更Target Standard/Premium 20.1.1發行日期。 發行日期為2020年2月4日。 |
 | 2020年1月27日 | [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 新增區段：「Adobe部落格。」 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列資訊：「如果您使用批次傳送API，每個批次請求的限制為50個mbox。」 |
