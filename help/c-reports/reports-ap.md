@@ -4,7 +4,7 @@ description: 特製的報表可供自動個人化的使用者使用。
 title: 自動個人化摘要報表
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 [!UICONTROL 活動層級]報表會比較使用[!UICONTROL 自動個人化]演算法與隨機提供內容 (控制) 兩者的彙總效能。
 
-![](assets/box_plot_ap.jpg)
+![活動層級報表](/help/c-reports/assets/box_plot_ap.png)
 
 A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、期間等等) 仍然適用。如需解釋結果的相關資訊，請參閱[關於轉換率](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)。
 
