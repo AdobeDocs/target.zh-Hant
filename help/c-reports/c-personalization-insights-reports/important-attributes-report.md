@@ -1,10 +1,10 @@
 ---
-keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;faq;常見問題集; 重要屬性
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: 有關「重要屬性」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
 title: 「重要屬性」報表
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 存取「重要屬性」報表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下&#x200B;**[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
+1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   隨即顯示[!UICONTROL 「摘要」]報表，該報表提供活動績效的相關資訊，由第一個螢幕圖示表示。另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
    ![](assets/personalization_insights.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >[!UICONTROL 您啟動活動後的至少 15 天內，將無法使用「重要屬性」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「重要屬性」]圖示。15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「重要屬性」]報表。
 
-1. 啟動活動 15 天後，即可點擊&#x200B;**[!UICONTROL 「重要屬性」]圖示。**
+1. 啟動活動 15 天後，即可點擊&#x200B;**[!UICONTROL 「重要屬性」]**圖示。
 
    ![](assets/model_attribute_ranking.png)
 
