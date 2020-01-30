@@ -1,10 +1,10 @@
 ---
-keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集
-description: 有關「自動化區段」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
+description: 「自動化區段」報表的相關資訊，是Adobe Target中「自動化個人化」(AP)和「自動化目標」(AT)活動使用者可使用的兩個專用報表之一。
 title: 「自動化區段」報表
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 有關「自動化區段」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
 
 >[!NOTE]
->AP 和 AT 活動是 Target Premium 解決方案內建的功能。沒有 Target Premium 授權，這些解決方案未隨附 Target Standard。
+>AP 和 AT 活動是 Target Premium 解決方案內建的功能。They are not included with  Target Standard without a [Target Premium license](/help/c-intro/intro.md#premium).
 >
 >「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。|
 
@@ -22,13 +22,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 存取「自動化區段」報表{#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下&#x200B;**[!UICONTROL 「活動」]**，然後在清單中按一下所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活動。
+1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
 
-   如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
+   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   隨即顯示[!UICONTROL 「摘要」]報表，該報表提供活動績效的相關資訊，由第一個螢幕圖示表示。另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
    ![](assets/personalization_insights.png)
 
@@ -36,9 +36,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >您啟動活動後的至少 15 天內，將無法使用[!UICONTROL 「自動化區段」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「自動化區段」]圖示。15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「自動化區段」]報表。
 
-1. 啟動活動 15 天後，即可點擊&#x200B;**[!UICONTROL 「自動化區段」]圖示。**
+1. 啟動活動 15 天後，即可點擊&#x200B;**[!UICONTROL 「自動化區段」]**圖示。
 
-   ![](assets/model_attribute_ranking.png)
+   ![自動化區段圖示](/help/c-reports/assets/icon-automated-sements.png)
 
 1. 選取所需的日期範圍。
 
