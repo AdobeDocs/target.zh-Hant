@@ -5,7 +5,7 @@ title: Adobe target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-
-
-**最近更新日期: 2020 年 1 月 28 日**
+**最後更新日期: 2020 年 2 月 4 日**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
    如需更新實作可能影響的詳細資訊，以及您可能需要採取哪些步驟，請參閱 [TLS（傳輸層安全性）加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 
 
-## Target Standard/Premium 20.1.1 (2020 年 2 月 4 日)
+## Target Standard/Premium 20.2.1 (2020 年 2 月 19 日)
 
-Target Standard/Premium 20.1.1版是維護髮行，包含後端增強功能與改進。 此外，還包含下列修正：
-
-* 修正現有Adobe for Target(A4T)活動的「目標與設定」頁面上，Adobe Analytics追蹤伺服器欄位空白的問題。 (TGT-35960)
-* 修正使用者介面中，建立類別相似性對象時，第二個下拉式清單中無法顯示您選取範圍的問題。 (TGT-36098)
+Target Standard/Premium 20.2.1預計於2020年2月19日發行。 有關特定功能、增強功能和修正的資訊將於未來幾天公佈於此。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
