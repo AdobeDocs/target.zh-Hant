@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 
 ---
 
@@ -14,7 +14,13 @@ source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target/Standard/Premium 19.10.1（2019年10月22日）
+## Adobe Target Standard/Premium 20.1.1 (2019 年 2 月 4 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 2月4日 | [版本說明](/help/r-release-notes/release-notes.md): 20.1.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+
+## Adobe Target Standard/Premium 19.10.1 (2019 年 10 月 22 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
