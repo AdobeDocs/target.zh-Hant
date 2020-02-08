@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions；什麼是adobe target;
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需工具，讓您量身打造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 title: Adobe Target 簡介
-topic: 進階
+topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -37,6 +37,10 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需�
 ## Target Premium {#premium}
 
 [!DNL Target Premium] 是進階 [!DNL Target] 授權，用於為 [!DNL Target Standard] 新增付費功能。
+
+本說明中的Target Premium主題包括頁面頂端的Premium徽章：
+
+![Premium 徽章](/help/assets/premium.png)
 
 Target Premium 包含下列進階功能:
 
@@ -97,7 +101,7 @@ Target Premium 包含下列進階功能:
 
 [Adobe Target歡迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 訓練影片: 活動類型 (9: 03)
+## ![總覽徽章](/help/assets/overview.png) 訓練影片：活動類型(9:03)
 
 下列影片說明 [!DNL Target Standard/Premium] 中可用的活動類型，以及 Target 的三步驟引導式工作流程如何協助您達成網站目標。
 
@@ -105,4 +109,4 @@ Target Premium 包含下列進階功能:
 * 選取達成目標的適當活動類型
 * 說明適用所有活動類型的三個步驟引導工作流程
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
