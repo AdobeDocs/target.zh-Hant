@@ -1,11 +1,11 @@
 ---
-keywords: 自動個人化; 對象; 整體; 隨機森林
+keywords: automated personalization;Audiences;ensemble;random forest
 description: 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同選件變數，以便個人化內容並促進提升度。
 title: 自動個人化
-topic: 進階
+topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如需[!UICONTROL 自動個人化]和[!UICONTROL 自動鎖定目標]個人化演算法自動收集和使用之資料的相關資訊，請參閱[自動個人化資料收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)。
 
-## 訓練影片: 活動類型
+## ![總覽徽章](/help/assets/overview.png) 訓練影片：活動類型
 
 此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。[!UICONTROL 自動個人化的討論在 5:55 開始。]
 
@@ -80,4 +80,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 選取達成目標的適當活動類型
 * 說明適用所有活動類型的三個步驟引導工作流程
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
