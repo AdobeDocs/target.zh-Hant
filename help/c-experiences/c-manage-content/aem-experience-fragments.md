@@ -1,11 +1,11 @@
 ---
-keywords: experience;json;aem;adobe experience manager；匯出至adobe target;experience片段；片段；XF
+keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: 有關在Adobe Target活動中使用在Adobe Experience Manager(AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
 title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -59,8 +59,8 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 ### 步驟 3: 設定 AEM 讓 Target 共用體驗片段
 
-1. From within AEM, select the desired experience fragment or its containing folder, then click **[!UICONTROL Properties]**.
-2. Click the **[!UICONTROL Cloud Services]** tab, then from the **[!UICONTROL Cloud Service Configuration]** drop-down list, select **[!UICONTROL Adobe Target]**.
+1. 從 AEM 內，選取所需的體驗片段或其收納資料夾，然後按一下&#x200B;**[!UICONTROL 「屬性」]**。
+2. 按一下&#x200B;**[!UICONTROL 「雲端服務」]**&#x200B;標籤，然後從&#x200B;**[!UICONTROL 「雲端服務組態」]**&#x200B;下拉式清單中，選取 **[!UICONTROL Adobe Target]**。
 
    >[!NOTE]
    >
@@ -141,6 +141,10 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. 請注意，體驗片段「主要」版本會保留在 AEM 中。You cannot edit the experience fragment in [!DNL Target].
 * 您可以將JSON選件匯入為體驗片段 [!DNL Target]。 不過，這些選件會匯入為HTML選件。 UI目前不完全支援JSON選件（體驗片段） [!DNL Target] 。
 
-## 訓練影片: 將 AEM 體驗片段用於 Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
+## ![教學課程徽章](/help/assets/overview.png) ·訓練影片：搭配Adobe target使用AEM體驗片段 {#section_C0EDC54063464F41A182492D2045BC64}
 
-下列影片會示範如何設定並使用體驗片段: [搭配 Adobe Target 使用 AEM 體驗片段](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html)。
+以下影片將示範如何設定和使用體驗片段：
+
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+如需詳細資訊，請參 [閱「](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) AEM Sites影片和教學課程」頁面上的「搭配Adobe Target使用體驗片段 ** 」。
