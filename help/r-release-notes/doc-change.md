@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -118,7 +118,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主題。 |
 | 2019 年 9 月 4 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
 | 2019 年 8 月 23 日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | 更新 `AndroidManifest.xml` 中的程式碼片段。 |
-| 2019 年 8 月 22 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 移除在行動應用程式 ID 中使用禁止字元的相關資訊。不再有任何限制。 |
 |  | [自訂參數](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新增章節:「考量事項」。 |
 |  | [上傳自訂條件](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 新增下列句子: 自訂條件更新預設為「累積」。CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。未在 CSV 上傳中指定索引鍵的現有索引鍵/值組將仍可用於傳送，且將在最後一次做為 CSV 檔案一部分上傳的 31 天後過期。 |
 | 2019 年 8 月 20 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 延後推出 Target/Premium 19.8.1 版本 (2019 年 8 月 20 日)。此版本中的內容將於 19.9.1 版本中推出 (2019 年 9 月 24 日)。 |
@@ -135,16 +134,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 2019 年 8 月 14 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新文字並新增訓練影片連結。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 釐清 `consumerID` 索引鍵的相關資訊。 |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新「版面配置 > 移動」區段中的資訊。 |
-| 2019 年 8 月 12 日 | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新相依性和成品的相關資訊。<br>更新 `AndroidManifest.XML` 檔案的程式碼範例。 |
-|  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 更新「Target 行動版 VEC SDK iOS 2.1.0 和 Android 1.1.1」一節中的增強功能和修正清單。 |
-|  | [編輯活動或另存為草稿](/help/c-activities/edit-activity.md#classic) | 新增章節:「使用 Recommendations Classic 中建立的舊版活動」。 |
+| 2019 年 8 月 12 日 | [編輯活動或另存為草稿](/help/c-activities/edit-activity.md#classic) | 新增章節:「使用 Recommendations Classic 中建立的舊版活動」。 |
 | 2019 年 8 月 9 日 | [at.js 如何運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 新增章節:「at.js 如何呈現具有 HTML 內容的選件」。 |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 新增章節:「考量事項」。 |
 | 2019 年 8 月 7 日 | [預先擷取選件內容](/help/c-target-mobile-app/prefetch-offer-content.md) | 新增自動鎖定目標、自動分配和自動個人化活動類型不支援 SDK 中的預先擷取功能的相關備註。 |
 |  | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 更新說明分類程序需要多久才能完成的相關備註。 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新說明分類程序需要多久才能完成的相關備註。 |
 |  | [隱私權與資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新主題，加入加州消費者隱私保護法 (CCPA) 的相關資訊。 |
-| 2019 年 8 月 6 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 Target 行動版 VEC SDK iOS 2.1.0 和 Android 1.1.0 版本的版本說明。 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度的相關考量事項。 |
 | 2019 年 8 月 1 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增企業權限 API 支援的相關重要公告。 |
 |  | [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主題。 |
@@ -152,15 +148,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 新增最近查看的項目的相關備註。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 新增有關活動 QA 預覽連結的已知問題。 |
 | 2019 年 7 月 29 日 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | 新增常見問題集:「我的 [!UICONTROL 體驗鎖定目標] (XT) 報表為何包含控制體驗的量度?」 |
-| 2019 年 7 月 24 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 新增章節: [at.js 2.x 中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
-|  | [Apple 智慧型追蹤預防 (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |  新主題。 |
+| 2019 年 7 月 24 日 | [從 at.js 1.*x* 升級為 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 新增章節: [at.js 2.x 中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple 智慧型追蹤預防 (ITP) 2.*x *](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |  新主題。 |
 |  | [選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新增章節:「檢視 Recommendations 選件的狀態」。 |
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 更新「匯入項目」列並在[摘要狀態](/help/c-recommendations/c-products/feeds.md#status)下方新增「已於&#x200B;*時間*&#x200B;成功匯入摘要」列。 |
 |  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md) | 更新如何重新整理目錄的相關文字。 |
-|  | [在行動應用程式 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 新增顯示您已針對點擊追蹤設定之元素的修改面板的相關資訊。 |
 |  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 新增章節:「機器人」。 |
 |  | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 新增防止規則運算式執行速度緩慢的最佳實務。 |
-|  | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 更新疑難排解一節，說明字元限制不再適用於應用程式名稱。限制僅適用於 ID。 |
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md#steps) | 將支援的 FTP 伺服器設定新增至步驟中。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.1.1 的資訊。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.7.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
@@ -183,7 +177,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Automated Personalization 常見問題集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增常見問題集:「是否可以指定要用來作為控制的特定體驗?」<br>編輯下列常見問題集:「設定 Automated Personalization 活動有何最佳實務?」 |
 |  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 新增指定要用來作為控制的特定體驗的相關資訊和常見問題集。<br>更新「決定流量分配」一節。 |
 |  | [建立自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 新增說明如何選取特定體驗以作為預設的步驟及相關資訊。 |
-|  | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 新增如何管理多個行動應用程式版本的相關資訊。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增報表無法在某些情況下呈現自動鎖定目標活動的相關資訊。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
@@ -200,11 +193,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 移除說明 at.js 2.x 未完全支援 Experience Cloud Debugger 的限制。 |
 | 2019 年 6 月 7 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增章節:「案例: 使用 null 檢查邏輯建立 4x2 預設 Recommendations 設計」。 |
 |  | [Adobe Target Standard 和 Premium 的訓練影片](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新全新 Adobe Target 教學課程網站的連結。 |
-|  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新文字和程式碼片段。 |
 | 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新 `options > page` 參數的說明。 |
 |  | [管理員入門](/help/administrating-target/start-target.md) | 更新整篇文章。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增 Target 19.6.1 版本的初步發行說明。 |
-| 2019 年 6 月 5 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 新增[疑難排解](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)一節。 |
 |  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 更新使用 Adobe Launch (這是偏好使用的部署方法) 部署 at.js 的相關資訊。 |
 |  | [Target 重要概念](/help/c-intro/target-key-concepts.md) | 次要的文字編輯。 |
 | 2019 年 3 月 6 日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增即將發行的 at.js 2.1.0 版本的相關資訊。 |
@@ -242,10 +233,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) | 更新簡介說明文字。 |
 |  | [企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 更新簡介說明文字。 |
 |  | [字彙表](/help/c-intro/glossary.md) | 新增及更新多個項目。 |
-| 2019 年 5 月 22 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 已新增培訓影片。 |
-|  | [iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 新增全新教學課程的連結:<ul><li>在行動 iOS Objective-C 應用程式中實作 Experience Cloud</li><li>在行動 iOS Swift 應用程式中實作 Experience Cloud</li></ul> |
-|  | [Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 新增全新教學課程的連結:<ul><li>在行動 Android 應用程式中實作 Experience Cloud</li></ul> |
-|  | [Target 簡介](/help/c-intro/intro.md#kit) | 新增 Adobe Target Welcome Kit 的連結。 |
+| 2019 年 5 月 22 日 | [Target 簡介](/help/c-intro/intro.md#kit) | 新增 Adobe Target Welcome Kit 的連結。 |
 | 2019 年 5 月 21 日 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新「移動」選項的相關資訊。</li><li>新增備註，說明 VEC 的頁面載入前，甚或頁面完全無法載入時，您可以執行的許多動作。 </li></ul> |
 |  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新文字、更新影像，以及新增訓練影片。 |
 |  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 更新文字和影像。 |
@@ -259,7 +247,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 5 月 15 日 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | 新增備註說明您必須觸發 `at-view-start` 和 `at-view-end` 事件。 |
-| 2019 年 5 月 14 日 | [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)、<br>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)、<br>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)，以及<br>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 新主題。 |
 |  | [將動態資料傳遞至選件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 更新文字。 |
 | 2019 年 5 月 13 日 | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 將在多頁活動中使用 QA 模式的相關項目新增至考量事項清單。 |
 |  | [在類似頁面上包含相同體驗](/help/c-experiences/c-visual-experience-composer/temtest.md) | 更新步驟以與 UI 相符。 |
