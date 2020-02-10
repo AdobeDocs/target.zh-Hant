@@ -1,11 +1,11 @@
 ---
-keywords: 疑難排解 target;疑難排解 target
+keywords: troubleshoot target;troubleshooting target
 description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
 title: 疑難排解Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -124,7 +124,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 行動應用程式
 
-* [行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 * [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 報表
