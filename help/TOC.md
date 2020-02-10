@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 
 ---
 
@@ -134,11 +134,6 @@ source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
       + [傳送活動資訊到 Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target 行動裝置預覽](c-target-mobile-app/target-mobile-preview.md)
       + [預先擷取選件內容](c-target-mobile-app/prefetch-offer-content.md)
-      + 行動應用程式可視化體驗撰寫器 {#composer}
-         + [行動應用程式可視化體驗撰寫器](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
-         + [Android - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
-         + [iOS - 設定行動應用程式](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
-         + [在行動版 VEC 中設定點擊追蹤](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [使用位置服務](/help/c-target-mobile-app/use-location-service.md)
    + 伺服器端: 實作 Target {#server-side}
