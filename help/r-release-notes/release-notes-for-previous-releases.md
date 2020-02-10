@@ -5,7 +5,7 @@ title: 舊版版本說明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
+source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 
 ---
 
@@ -106,19 +106,6 @@ source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 | --- | --- |
 | ![Premium badge](/help/assets/premium.png) Enterprise Permissions | 在Target 2019年9月發行中，「企業權限」為客戶提供下列存取控制：<UL><li>您可以選擇要將整合套用到哪個工作區.</li><li>您可以將角色套用至 Adobe I/O 整合功能: 核准者、編輯者或觀察者。</li></ul>如需逐步指示和詳細資訊，請參閱[授予 Adobe I/O 整合功能對工作區的存取權並指派角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
-
-### Target 行動版 VEC SDK iOS 2.1.0 和 Android 1.1.1 (2019 年 8 月 7 日)
-
-此行動版 VEC SDK 版本包含下列增強功能和修正:
-
-(括號內的問題編號供 Adobe 內部使用。)
-
-* 新增行動裝置上的可視化活動預覽支援。(TGT-27875)
-* 修正由於 `UIImagePickerController` 使用情形而導致 Apple Standard 違反規定的問題。
-* 從 Android SDK 中移除 GSON 相依性。(TGT-31710)
-* 移除其他備援 Gradle 相依性 (TGT-35479)
-* 修正導致傳送選件未在編寫時重設的問題。(TGT-35270)
-
 ### Target Standard/Premium 19.7.1 (2019 年 7 月 24 日) {#tgt-19-7-1}
 
 此版本包含下列新功能和增強功能:
@@ -127,7 +114,6 @@ source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 行動應用程式可視化體驗撰寫器 | 顯示於應用程式 VEC 中的全新修改面板，顯示您已針對點擊追蹤所設定的元素。(TGT-31741)<br> 請參閱[在行動應用程式中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
 | ![Premium 徽章](/help/assets/premium.png)<br>在 A/B 測試與體驗鎖定目標 (XT) 活動中的建議 | Recommendations 選件 (運算法) 狀態會顯示在包含 Recommendations 選件之 A/B 測試和 XT 活動的概述頁面上。狀態包括: 可用結果、不可用結果和摘要失敗(TGT-33649)<br>請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
 | 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。[必須使用Experience Cloud ID程式庫4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>請參閱 [at.js 2.x 中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
 | Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 | 現在，Target 客戶可以利用 Adobe 的 CNAME 認證程式，減少 Apple ITP 2.1 和 ITP 2.2 的影響。<br>在此版本中，Target與ECID程式庫4.3緊密整合，此程式庫利用伺服器端Cookie來降低ITP 2.1和ITP 2.2的影響。強烈建議Target客戶搭配部署 [ECID程式庫4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，並搭配Target的JavaScript程式庫，以減輕未來的ITP版本。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參閱 [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
@@ -168,7 +154,6 @@ source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 | --- | --- |
 | 可視化體驗撰寫器 (VEC) | **新增 VEC 功能表選項**: 當您在 VEC 中按一下頁面元素時，會出現一個功能表，顯示該元素類型的可用選項。<ul><li>您現在可以使用[!UICONTROL 樣式 > 背景]選項，變更背景顏色和所選元素的顏色。(TGT-15001)</li></ul>請參閱[可視化體驗選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的&#x200B;*樣式*。<br>**點擊追蹤改善&#x200B;**: 我們已改善 VEC 和單頁應用程式 (SPA) VEC 內設定點擊追蹤的程序。<ul><li>選取要在點擊追蹤中使用的元素時，所有可用元素的名稱都會顯示在右側的修改面板中，讓您快速輕鬆地選取所需元素。</li><li>三步驟引導式活動工作流程的[!UICONTROL 目標與設定]頁面會顯示數字，代表針對點擊追蹤所選取的元素數量。您可以將游標移至此數字上，查看所有所選元素的名稱。(TGT-33878)</li></ul>請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md)。 |
 | 單頁應用程式視覺化體驗撰寫器 (SPA VEC) | **引導式工作流程**: 此全新引導式工作流程可協助您瞭解應如何設定頁面傳送規則設定，以讓活動在單頁應用程式中成功執行和運作。(TGT-33718)<br> 請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**原地複製修改&#x200B;**: 您現在可以使用 SPA VEC 定義修改，然後原地複製該修改，以用於單頁應用程式中的其他檢視。(TGT-33882)<br>請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。 |
-| 行動版視覺化體驗撰寫器 | **多個應用程式版本**: 您現在可以編寫多個行動應用程式版本的活動。如果版本之間非常類似，這可為您節省時間和精力，您就不必大幅變更應用程式的 UI。(TGT-34231)<br>請參閱[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec)中的「管理多個應用程式版本」。 |
 | ![Premium 徽章](/help/assets/premium.png) Automated Personalization (AP) 和自動鎖定目標 | **使用特定體驗作為控制**: 建立 AP 或自動鎖定目標活動時，您可以選取要用來作為控制的體驗。此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。接著，您可以根據該體驗之控制流量，評估個人化流量的效能報表。將繼續提供目前的控制選項 (隨機提供的體驗)。(TGT-32801、TGT-26572 和 TGT-26571)<br>請參閱[選擇 Automated Personalization 或自動鎖定目標活動的控制權](/help/c-activities/t-automated-personalization/experience-as-control.md)。請注意，此功能有一個[目前已知問題](/help/r-release-notes/known-issues-resolved-issues.md)。<br>**個人化前瞻分析報表&#x200B;**: 這是可讓行銷人員方便使用的屬性命名，當訪客看到特定位置中的特定內容時，可提供更具意義的資訊。(TGT-33421 和 TGT-34957)<br>請參閱[Target 個人化演算法的資料收集](/help/c-activities/t-automated-personalization/ap-data.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) Recommendations | 建立「最近查看的項目」邏輯時，您可以使用「先前建議購買的項目」切換按鈕。(TGT-34030)<br>如需詳細資訊，請參閱「建立條件」中的[最近查看的項目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
 | Google Chrome SameSite Cookie 原則 | Google 最近宣佈自 Chrome 76 起 (該版本預定在 2019 年 7 月 30 日發行)，開發人員必須明確指定哪些 Cookie 可以跨多個網站運作，以及哪些 Cookie 可以追蹤使用者。<br>在產業大幅演進並為消費者打造更安全 Web 環境的同時，Target 全心致力於提供個人化體驗，同時符合並超越訪客對於隱私權的期望。請參閱 <br>[Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
@@ -199,12 +184,6 @@ source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 #### 增強功能、修正和變更
 
 * 在 VEC 中取消載入頁面後，工具列圖示會正常顯示。如果在完全載入頁面前無法執行特定動作，系統會停用相關工具列圖示。(TGT-33811)
-
-### 行動應用程式可視化體驗撰寫器 (2019 年 5 月 14 日) {#mobile-vec-may14-2}
-
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 行動應用程式可視化體驗撰寫器 (VEC) | 行動應用程式 VEC 可讓您在原生行動應用程式中，自己動手建立活動與個人化內容，不必再仰賴不斷的開發相依性及應用程式發行週期。<br>如需詳細資訊，請參閱:<ul><li>[行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 設定行動應用程式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在行動版 VEC 中設定點擊追蹤](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[影片: 行動應用程式可視化體驗撰寫器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.4.2 (2019 年 4 月 30 日) {#release-19-4-2}
 
@@ -2122,7 +2101,7 @@ Adobe Target Standard/Premium 16.7.1 (2016 年 7 月 21 日) 版本包括下列�
 已回報下列已知問題:
 
 * 在多頁活動的頁面 A 上選取「停用 JavaScript」時，所有地方的 JavaScript 都被停用，包括未選取「停用 JavaScript」的其他頁面。
-* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
+* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇&#x200B;**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**&#x200B;做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
 
 * 此文件顯示重新導向 URL 核取方塊預期的行為。不過，由於錯誤，核取方塊預設不會顯示為已選取。此瑕疵近期會修正。
 
@@ -2209,7 +2188,7 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
 已回報下列已知問題:
 
 * 在多頁活動的頁面 A 上選取「停用 JavaScript」時，所有地方的 JavaScript 都被停用，包括未選取「停用 JavaScript」的其他頁面。
-* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
+* 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇&#x200B;**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**&#x200B;做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
 
 ### 新 Target 實作資料庫 at.js 0.8.0 (2016 年 5 月 5 日) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2378,7 +2357,7 @@ mbox.js。因為您有時間可以測試 at.js，也能變更頁面上的實作�
 * Chrome 48 版更新產生一個問題，會造成 Visual Experience Composer 在 Chrome 中運作不正確。Google 正在研發解決辦法。如需相關資訊，請參閱 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。若想暫時解決此問題:
 
    * 使用 Firefox 或 Internet Explorer。
-   * 啟用 Enhanced Experience Composer，您可在「**[!UICONTROL 設定]**>**[!UICONTROL &#x200B;偏好設定]**」標籤中進行設定。
+   * 啟用 Enhanced Experience Composer，您可在「**[!UICONTROL 設定]** > **[!UICONTROL 偏好設定]**」標籤中進行設定。
 
 ### Adobe Target Standard/Premium 16.2.1 (2016 年 2 月 18 日) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2400,7 +2379,7 @@ mbox.js。因為您有時間可以測試 at.js，也能變更頁面上的實作�
 * Chrome 48 版更新產生一個問題，會造成 Visual Experience Composer 在 Chrome 中運作不正確。Google 正在研發解決辦法。如需相關資訊，請參閱 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。若想暫時解決此問題:
 
    * 使用 Firefox 或 Internet Explorer。
-   * 啟用 Enhanced Experience Composer，您可在「**[!UICONTROL 設定]**>**[!UICONTROL &#x200B;偏好設定]**」標籤中進行設定。
+   * 啟用 Enhanced Experience Composer，您可在「**[!UICONTROL 設定]** > **[!UICONTROL 偏好設定]**」標籤中進行設定。
 
 ### Adobe Target Standard/Premium 16.1.1 (2016 年 1 月 28 日) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2478,7 +2457,7 @@ mbox.js。因為您有時間可以測試 at.js，也能變更頁面上的實作�
 * Chrome 48 版更新產生一個問題，會造成 Visual Experience Composer 在 Chrome 中運作不正確。Google 正在研發解決辦法。如需相關資訊，請參閱 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。若想暫時解決此問題:
 
    * 使用 Firefox 或 Internet Explorer。
-   * 啟用 Enhanced Experience Composer，您可在「**[!UICONTROL 設定]**>**[!UICONTROL &#x200B;偏好設定]**」標籤中進行設定。
+   * 啟用 Enhanced Experience Composer，您可在「**[!UICONTROL 設定]** > **[!UICONTROL 偏好設定]**」標籤中進行設定。
 
 ## 2015 版 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3144,7 +3123,7 @@ target/r_release-notes-2014.xml
 **修正**
 
 * 修正在活動間進行瀏覽時，不會產生報告圖表的問題。
-* 修正已選取連結未標示為「已選取 (當使用者按一下&#x200B;**[!UICONTROL 「目標和設定」]**頁面上的[!UICONTROL 「選取連結」]時) 的問題。
+* 修正已選取連結未標示為「已選取 (當使用者按一下&#x200B;**[!UICONTROL 「目標和設定」]**&#x200B;頁面上的[!UICONTROL 「選取連結」]時) 的問題。
 
 * 修正在「[!UICONTROL 概述]」頁面上啟動新活動後，該活動無法顯示在「[!UICONTROL 活動清單]」中的問題。
 
@@ -3395,7 +3374,7 @@ target/r_release-notes-2014.xml
 * 在 Target Standard 中建立「地理位置」對象時，若 Target Advanced 停用「地理位置」，則會發生同步錯誤。
 * 在 CSS 中參照影像時，無法交換該影像。
 * 使用「視覺體驗編譯工具」重新排列的元素無法使用點擊追蹤功能。請避免在重新排列的元素上設定點擊追蹤，直到修正此問題為止。
-* 使用者無法選取已包裝在 mbox 中之內容的&#x200B;**[!UICONTROL 「移除」]**動作。
+* 使用者無法選取已包裝在 mbox 中之內容的&#x200B;**[!UICONTROL 「移除」]**&#x200B;動作。
 
 ### Adobe Target Standard 1.2 (2013 年 10 月 31 日) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3427,7 +3406,7 @@ target/r_release-notes-2014.xml
 
 | 功能 | 說明 |
 |---|---|
-| 從 Target Standard 下載 [!DNL mbox.js] | [!DNL mbox.js] 檔案現在可從 Target Standard 介面的&#x200B;**[!UICONTROL 「設定]**>**[!UICONTROL  實作」]**直接下載。以前此檔案必須從 Target Advanced 下載，或是由您的帳戶代表或顧問提供。 |
+| 從 Target Standard 下載 [!DNL mbox.js] | [!DNL mbox.js] 檔案現在可從 Target Standard 介面的&#x200B;**[!UICONTROL 「設定]** >**[!UICONTROL 實作」]**&#x200B;直接下載。以前此檔案必須從 Target Advanced 下載，或是由您的帳戶代表或顧問提供。 |
 
 此版本包含下列修正和增強功能:
 
