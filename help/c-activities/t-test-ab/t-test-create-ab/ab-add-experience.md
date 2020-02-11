@@ -1,10 +1,10 @@
 ---
-keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
+keywords: Targeting;experience;add experience;experience add
 description: Adobe Target 中的可視化體驗撰寫器 (VEC) 提供用於編輯您的頁面上體驗的視覺介面。
 title: 新增體驗
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -80,21 +80,21 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以複製 A/B 測試中的體驗，不必從頭再次建立體驗，即可進行微幅變更。
 
-在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
+在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 > **[!UICONTROL 「複製」]**。
 
 ![重複體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## 刪除體驗
 
-在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 &gt; **[!UICONTROL 「複製」]**。
+在&#x200B;**[!UICONTROL 「體驗」]**&#x200B;頁面 (三步驟引導式工作流程的第一步)，按一下三個垂直的點 > **[!UICONTROL 「複製」]**。
 
 ![刪除體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## 訓練影片: 使用可視化體驗撰寫器
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 以下的影片提供關於使用可視化體驗撰寫器選項的資訊。(7:17)
 
 * 變更頁面的內容
 * 變更頁面的配置
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
