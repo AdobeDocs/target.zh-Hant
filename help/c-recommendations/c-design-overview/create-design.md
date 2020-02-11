@@ -1,10 +1,10 @@
 ---
-keywords: 建議設計;建立設計;複製設計
+keywords: recommendations design;create design;copy design
 description: 設計可定義建議出現在頁面上的方式。
 title: 建立設計
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 設計可定義建議出現在頁面上的方式。
 
-您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL 「Recommendations」&gt;「設計」]畫面會顯示預設設計卡片和您已建立的任何設計。**&#x200B;您不能編輯或刪除預設設計。
+您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL 「Recommendations」>「設計」]**&#x200B;畫面會顯示預設設計卡片和您已建立的任何設計。您不能編輯或刪除預設設計。
 
-1. 在&#x200B;**[!UICONTROL 「Recommendations &gt; 設計」]**&#x200B;畫面上，將游標移至您要建立的設計的卡片。
+1. 在&#x200B;**[!UICONTROL 「Recommendations > 設計」]**&#x200B;畫面上，將游標移至您要建立的設計的卡片。
 
    ![](assets/Card_CopyDesign.png)
 
@@ -23,13 +23,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    或
 
-   若要建立自訂設計，請在&#x200B;**[!UICONTROL 「Recommendations」&gt;「設計」]畫面上按一下****「建立設計」[!UICONTROL 。]**
+   若要建立自訂設計，請在&#x200B;**[!UICONTROL 「Recommendations」>「設計」]**&#x200B;畫面上按一下&#x200B;**[!UICONTROL 「建立設計」。]**
 
    ![](assets/createDesign.png)
 
 1. 新增&#x200B;**[!UICONTROL 內容名稱]**。
 
-   使用預設設計時，設計名稱和「Copy」將出現在&#x200B;**[!UICONTROL 「內容名稱」]欄位中。**&#x200B;您可以編輯名稱。1.(可選) 按一下來選取要在設計卡片上顯示的影像。
+   使用預設設計時，設計名稱和「Copy」將出現在&#x200B;**[!UICONTROL 「內容名稱」]**&#x200B;欄位中。您可以編輯名稱。1.(可選) 按一下來選取要在設計卡片上顯示的影像。
 1. 編輯設計&#x200B;**[!UICONTROL 程式碼]**。
 
    Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關 Velocity 的資訊，請參閱 [](https://velocity.apache.org)https://velocity.apache.org。
@@ -42,11 +42,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 訓練影片: 在 Recommendations 中建立自訂設計 (3:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 此影片包含下列資訊:
 
 * 建立自訂設計
 * 瞭解如何參考設計中的顯示變數
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
