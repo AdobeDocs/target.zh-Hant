@@ -4,7 +4,7 @@ description: 集合是 Adobe Target 中符合建議資格的一組產品或項�
 title: Adobe Target 中的集合
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 建立收集來組織您要在建議中顯示的產品。
 
-1. 依序按下&#x200B;**[!UICONTROL 「Recommendations]**>**[!UICONTROL &#x200B;集合」]**，即可顯示現有集合清單。
+1. 依序按下&#x200B;**[!UICONTROL 「Recommendations]** > **[!UICONTROL 集合」]**，即可顯示現有集合清單。
 
    ![集合清單](assets/collections_list.png)
 
@@ -43,7 +43,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 1. 按一下&#x200B;**[!UICONTROL 「建立集合」]**。
 
-1. (依條件) 建立 (或更新) 集合時，從&#x200B;**[!UICONTROL 「環境」]**篩選器中選擇一個環境，以便預覽該環境中的集合內容。依照預設，會顯示預設主機群組的結果。
+1. (依條件) 建立 (或更新) 集合時，從&#x200B;**[!UICONTROL 「環境」]**&#x200B;篩選器中選擇一個環境，以便預覽該環境中的集合內容。依照預設，會顯示預設主機群組的結果。
 
    ![建立集合](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
@@ -71,7 +71,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 >
 >「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立集合時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您之後建立一個目錄，目的要傳回包含 &quot;holiday&quot; 的產品，則只會傳回包含 &quot;holiday&quot; 的產品。不會傳回包含 &quot;Holiday&quot; 的產品。
 
-## 訓練影片: 在 Recommendations 中建立集合和排除 (7:05)
+## 訓練影片: 在 Recommendations 中建立集合和排除 (7:05) 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
