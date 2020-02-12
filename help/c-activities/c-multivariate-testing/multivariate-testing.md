@@ -4,7 +4,7 @@ description: Adobe Target 中的多變數測試 (MVT) 會比較頁面上元素�
 title: 多變數測試
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -87,7 +87,7 @@ source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動類型 (9:03)
+### 活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
 
 此概觀影片說明Target Standard/Premium中可用的活動類型。 4:20 開始討論多變數測試。
 
@@ -97,7 +97,7 @@ source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 建立多變數測試 (9:25)
+### 建立多變數測試(9:25)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片說明如何使用 Target 三步驟引導式工作流程來瞭解、規劃和建立多變數測試。
 
