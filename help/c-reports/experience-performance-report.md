@@ -1,10 +1,10 @@
 ---
-keywords: 多變數測試;mvt;體驗效能報表
+keywords: multivariate test;mvt;experience performance report
 description: 體驗效能報表顯示活動中的每個體驗的執行成果。此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
 title: 體驗效能報表 (MVT)
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 體驗效能報表顯示活動中的每個體驗的執行成果。此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
 
-您可以選取一或多個體驗來相互比較。按一下體驗並選取&#x200B;**[!UICONTROL 「預覽」]，在瀏覽器標籤中開啟體驗。**
+您可以選取一或多個體驗來相互比較。按一下體驗並選取&#x200B;**[!UICONTROL 「預覽」]**，在瀏覽器標籤中開啟體驗。
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 在圖形下方，表格顯示有多少位加入者看過每一個體驗，以及與成功量度相關的其他資訊。
 
-## 訓練影片: 建立 MVT 測試
+## 訓練影片: 建立 MVT 測試 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。8:20 開始說明「體驗效能」報表。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
