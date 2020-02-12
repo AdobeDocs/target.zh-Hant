@@ -1,11 +1,11 @@
 ---
-keywords: 多變數; MVT; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
+keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: 在多變數測試中使用量度以判斷造訪是否成功。
 title: 設定量度
-solution: Target (Standard)
+solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    | `-` | 減號 |
    | `@` | 「@」符號 |
 
-## 訓練影片: 活動量度 (7:43)
+## 訓練影片: 活動量度 (7:43) 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用成功量度的資訊。
 
@@ -58,4 +58,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 瞭解和建置轉換、收入和參與量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
