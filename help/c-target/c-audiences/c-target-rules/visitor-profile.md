@@ -1,10 +1,10 @@
 ---
-keywords: 訪客設定檔;目標訪客設定檔
+keywords: visitor profile;target visitor profile
 description: 在 Adobe Target 中建立受眾，將目標鎖定於符合特定設定檔參數的訪客。
 title: 訪客資料
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 建立受眾以將目標鎖定於符合特定設定檔參數的訪客。
 
-1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
+1. 按一下「**[!UICONTROL 新增規則]** > **[!UICONTROL 訪客設定檔]**」。
 
    ![](assets/target_visitor_profile.png)
 
@@ -36,14 +36,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    您可以鎖定自訂設定檔參數和 `user.` 參數。選擇您要用來鎖定目標活動的參數。如果需要的參數並未出現，表示參數尚未由 mbox 觸發。
 
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 訓練影片: 建立對象
+## 訓練影片：建立觀眾 ![概述徽章](/help/assets/overview.png)
 
 此影片包括關於使用對象類別的資訊。
 
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
