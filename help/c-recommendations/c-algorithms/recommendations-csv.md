@@ -1,10 +1,10 @@
 ---
-keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
+keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: 上傳 CSV 檔案來自訂您的建議。
 title: 上傳自訂條件
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * 建立 [!UICONTROL Recommendations] 活動時，請在&#x200B;**[!UICONTROL 「選取條件」]**&#x200B;畫面上按一下[!UICONTROL 「新建」]。您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
 * 編輯 [!UICONTROL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**。您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
-* 在&#x200B;**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**]。您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
+* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」]**。您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立條件」]**。
 
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 輸入條件的簡短&#x200B;**[!UICONTROL 說明]**。
 
    說明應該能協助您識別條件，並且可能包括關於條件用途的資訊。
-1. 選取&#x200B;**[!UICONTROL 「垂直產業」]**。
+1. 選取&#x200B;**[!UICONTROL 垂直產業]**.
 
    其他條件選項可能會根據您選取的垂直產業而變更。
 
@@ -55,7 +55,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    包含規則可以協助您縮減在建議中顯示的項目。請參閱[包含規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。1. 選取 CSV 檔案的所在&#x200B;**[!UICONTROL 位置]**。
 
-   CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]來取得格式正確的 CSV 檔案。**
+   CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]**&#x200B;來取得格式正確的 CSV 檔案。
 
    您有兩個位置選項︰
 
@@ -74,9 +74,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 自訂條件摘要每 24 小時會更新一次。
 
-您可以在「Recommendations &gt; 條件」頁面上每個條件卡片的底端查看您的自訂條件上傳的上傳和同步狀態。編輯自訂條件時，您也可以在「編輯」對話方塊中看見狀態。
+您可以在「Recommendations > 條件」頁面上每個條件卡片的底端查看您的自訂條件上傳的上傳和同步狀態。編輯自訂條件時，您也可以在「編輯」對話方塊中看見狀態。
 
-沒有錯誤的上傳流程應該是「已排程」&gt;「下載摘要檔案」&gt;「正在匯入」&gt;成功。
+沒有錯誤的上傳流程應該是「已排程」>「下載摘要檔案」>「正在匯入」>成功。
 
 如果 Target 遇到上傳的問題，下列是您可能會收到的可能錯誤訊息:
 
@@ -89,7 +89,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 找不到目錄 | 提供伺服器上存在的目錄。 |
 | 找不到檔案 | 提供伺服器上存在於指出目錄中檔案的名稱。 |
 
-## 訓練影片: 在 Recommendations 中建立條件 (12:33)
+## 訓練影片: 在 Recommendations 中建立條件 (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
@@ -97,4 +97,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 建立條件序列
 * 上傳自訂條件
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
