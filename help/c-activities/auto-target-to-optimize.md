@@ -1,10 +1,10 @@
 ---
-keywords: 自動鎖定目標;鎖定目標;流量分配;常見問題集;faq;疑難排解
+keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: 自動鎖定目標
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -247,7 +247,7 @@ AP 活動產生提升度需要四個係數:
 
 例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。A1 相依於 C1。當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。如果訪客轉換 C1 然後轉換 A1，此時仍不會轉換 A1，因為 C1 一旦進行轉換即會釋出訪客。
 
-## 訓練影片: 瞭解自動鎖定目標活動
+## 訓練影片: 瞭解自動鎖定目標活動 概 ![述徽章](/help/assets/overview.png)
 
 本影片說明如何設定[!UICONTROL 自動鎖定目標] A/B 活動。
 
@@ -257,4 +257,4 @@ AP 活動產生提升度需要四個係數:
 * 比較和對照[!UICONTROL 自動鎖定目標]與自動個人化
 * 建立[!UICONTROL 自動鎖定目標]活動
 
->[!VIDEO](https://video.tv.adobe.com/v/18558?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/18558)
