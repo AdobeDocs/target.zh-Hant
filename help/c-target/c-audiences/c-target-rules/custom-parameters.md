@@ -1,11 +1,11 @@
 ---
-keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
+keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 title: Adobe Target 中的自訂參數
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -18,9 +18,9 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 
 當您根據 mbox 參數建立自訂對象時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
-1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. 按一下&#x200B;**[!UICONTROL 新增規則]** &gt; **[!UICONTROL 自訂]**。
+1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
    若要選取需要的參數:
 
@@ -38,7 +38,7 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
    ![自訂參數受眾](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. 在新行中輸入每個值。
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 對象的[定義詳細資料快顯卡](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會顯示「規則」區段中的參數名稱。不會參照用來篩選的 mbox。
@@ -52,11 +52,11 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 * 系統會針對特定 mbox 評估受眾和活動。例如，如果全域 mbox 傳送某個參數，但地區 mbox 並未這麼做，則將目標鎖定於該參數的活動/受眾將不符合位於地區 mbox 上的資格。
 * 不會評估內部mbox參數（例如mboxPC、mboxSession、mbox3rdPartyId、mboxCount、mboxId和mboxVersion）的定位。
 
-## 訓練影片: 建立對象
+## 訓練影片：建立觀眾教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
