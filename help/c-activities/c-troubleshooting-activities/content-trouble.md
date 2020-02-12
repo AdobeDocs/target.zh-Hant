@@ -1,12 +1,12 @@
 ---
-keywords: 除錯 mbox; 疑難排解 mbox; mbox 問題; 忽隱忽現; mboxDebug; mboxTrace; Token; 除錯工具; 優先順序; 活動優先順序; Adobe Experience Cloud Debugger; orderConfirmPage mbox; SiteCatalyst 購買 mbox; 熱賣; 最暢銷商品
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: 如果您的頁面未顯示預期的內容，您可以執行一些步驟，以在Adobe Target中除錯內容傳送。
 title: 疑難排解Adobe Target中的內容傳送
-subtopic: 多變數測試
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 擷取授權 Token:
 
-1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「實作」]**。
 1. 選取&#x200B;**[!UICONTROL 「mbox.js」]**&#x200B;或&#x200B;**[!UICONTROL 「at.js」]**。
 1. 按一下&#x200B;**[!UICONTROL 「產生驗證 Token」]**。
 
@@ -157,14 +157,14 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 新增擴充功能
+### 新增擴充功能 教 ![學課程徽章](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 基本 Target 偵錯
+### 基本目標除錯教 ![學課程徽章](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### Mbox追蹤教 ![學課程徽章](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
