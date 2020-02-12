@@ -1,11 +1,11 @@
 ---
-keywords: 對象;傾向;設定檔屬性;比較;比較;建立對象;建立對象
+keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: 定義 Target 受眾，比較受眾資料庫或僅限此活動受眾中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 title: 在 Adobe Target 中建立設定檔屬性比較對象
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 建立設定檔屬性比較對象 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 依序按下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象]** &gt; **[!UICONTROL 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
-1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]下拉式清單選取屬性:**
+1. 依序按下&#x200B;**[!UICONTROL 「對象]** > **[!UICONTROL 建立對象]** > **[!UICONTROL 新新增規則]** > **[!UICONTROL 訪客設定檔」]**。
+1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]**&#x200B;下拉式清單選取屬性:
 
    ![傾向分數 1](assets/propensity_score_1.png)
 
@@ -56,8 +56,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![](assets/propensity_score_4.png)
 
-## 訓練影片 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## 訓練影片 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} 概 ![觀徽章](/help/assets/overview.png)
 
 觀看下列影片以獲得詳細資訊，並瞭解您可使用此功能的情況:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)
