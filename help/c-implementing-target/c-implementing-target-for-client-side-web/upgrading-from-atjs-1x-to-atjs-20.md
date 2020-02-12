@@ -1,11 +1,11 @@
 ---
-keywords: at.js 版本;at.js 版本;單一頁面應用程式;spa;跨網域;跨網域
+keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: 有關如何從 Adobe Target at.js 1.*x* 升級為 at.js 2.0.0 版的詳細資訊
 title: '從 Adobe Target at.js 1.*x* 版升級為 at.js 2.*x* 版 '
-subtopic: 快速入門
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 下列圖表可協助您瞭解 at.js 2.*x* 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.*x* 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 
-![使用 at.js 2.*x* 的 Target 流程](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![使用 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)的 Target 流程
 
 | 呼叫 | 詳細資料 |
 | --- | --- |
@@ -246,7 +246,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### at.js 中的全域 mbox 名稱仍重要嗎?
 
-客戶可以透過[!UICONTROL 「Target &gt; 設定 &gt; 實作 &gt; 編輯 at.js 設定」]指定全域 mbox 名稱。此設定供 [!DNL Target] Edge 伺服器用來將 execute &gt; pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。強烈建議您確認也已在「[!UICONTROL 設定 &gt; 偏好設定]」頁面中設定同一個全域名稱 (若您仍有頁面使用 at.js 1.*X* 或 mbox.js)，如下圖所示。
+客戶可以透過[!UICONTROL 「Target > 設定 > 實作 > 編輯 at.js 設定」]指定全域 mbox 名稱。此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。強烈建議您確認也已在「[!UICONTROL 設定 > 偏好設定]」頁面中設定同一個全域名稱 (若您仍有頁面使用 at.js 1.*X* 或 mbox.js)，如下圖所示。
 
 ![修改 at.js 對話方塊](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -256,15 +256,15 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### 需要為 at.js 2.*x* 開啟自動建立全域 mbox 設定嗎?
 
-在大多數情況下需要。此設定可告知 at.js 2.*x* 在頁面載入時向 [!DNL Target] Edge 伺服器引發要求。由於全域 mbox 已轉譯為 execute &gt; pageLoad，因此如果您想在頁面載入時觸發要求，便應開啟此設定。
+在大多數情況下需要。此設定可告知 at.js 2.*x* 在頁面載入時向 [!DNL Target] Edge 伺服器引發要求。由於全域 mbox 已轉譯為 execute > pageLoad，因此如果您想在頁面載入時觸發要求，便應開啟此設定。
 
 ### 即使沒有從 at.js 2.*x* 指定 Target 全域 mbox 名稱，現有的 VEC 活動仍會繼續運作嗎?
 
-會，因為 execute &gt; pageLoad 在 [!DNL Target] 後端上的處理方式如同 `target-global-mbox`。
+會，因為 execute > pageLoad 在 [!DNL Target] 後端上的處理方式如同 `target-global-mbox`。
 
 ### 如果我的表單式活動目標鎖定為 `target-global-mbox`，這些活動是否仍會繼續運作?
 
-會，因為 execute &gt; pageLoad 在 [!DNL Target] Edge 伺服器上的處理方式如同 `target-global-mbox`。
+會，因為 execute > pageLoad 在 [!DNL Target] Edge 伺服器上的處理方式如同 `target-global-mbox`。
 
 ### 支援和不支援的 at.js 2.*x* 設定
 
@@ -290,11 +290,11 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### 支援自動建立全域 mbox
 
-此設定可告知 at.js 2.*x* 在頁面載入時向 [!DNL Target] Edge 伺服器引發要求。由於全域 mbox 已轉譯為 execute &gt; pageLoad，且會由 [!DNL Target] Edge 伺服器加以解譯，因此顧客如果希望在頁面載入時觸發要求，便應開啟此功能。
+此設定可告知 at.js 2.*x* 在頁面載入時向 [!DNL Target] Edge 伺服器引發要求。由於全域 mbox 已轉譯為 execute > pageLoad，且會由 [!DNL Target] Edge 伺服器加以解譯，因此顧客如果希望在頁面載入時觸發要求，便應開啟此功能。
 
 ### 支援全域 mbox 名稱
 
-客戶可以透過[!UICONTROL 「Target &gt; 設定 &gt; 實作 &gt; 編輯 at.js 設定」]指定全域 mbox 名稱。此設定供 [!DNL Target] Edge 伺服器用來將 execute &gt; pageLoad 轉譯為輸入的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及建立鎖定全域 mbox 為目標的對象。
+客戶可以透過[!UICONTROL 「Target > 設定 > 實作 > 編輯 at.js 設定」]指定全域 mbox 名稱。此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為輸入的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及建立鎖定全域 mbox 為目標的對象。
 
 ### 以下 at.js 自訂事件適用於 `triggerView()`，還是僅適用於 `applyOffer()` 或 `applyOffers()`?
 
@@ -750,10 +750,10 @@ at.js 2.*x* JSON 裝載:
 
 版本會透過版本參數以查詢字串參數的形式傳送。
 
-## 訓練影片: at.js 2.*x* 架構圖表
+## 訓練影片：at.js 2.*x架構圖* 概 ![述徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增強了 Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 請參 [閱瞭解at.js 2。*x可運作*](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) ，以取得詳細資訊。
