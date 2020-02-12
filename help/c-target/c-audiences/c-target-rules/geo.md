@@ -1,12 +1,12 @@
 ---
-keywords: 鎖定目標;a4t;地理;地理鎖定目標;地理鎖定目標準確度;國家;州;城市;郵遞區號;dma;行動電信業者;城市碼;區域碼;都市碼;設定檔指令碼;地理鎖定目標設定檔指令碼;地理鎖定目標行動
+keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: 根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者，使用 Adobe Target 受眾來鎖定使用者。
 title: 地理
-solution: Target、Analytics
-topic: Reports & Analytics
+solution: Target,Analytics
+topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ## 使用地理鎖定目標建立對象 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 地理」]**。
+1. 按一下「**[!UICONTROL 新增規則]** > **[!UICONTROL 地理]**」。
 
 1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
@@ -38,7 +38,7 @@ source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
    關於行動電信業者，[!DNL Target] 會使用 IP 位址註冊資料 (擁有 IP 位址區塊)，根據[行動裝置國碼 (MCC) 和行動網路碼 (MNC)](https://www.mcc-mnc.com) 來決定適當的行動電信業者。
 
 1. 指定運算子和適當的值。
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 下圖顯示某個受眾，鎖定從緯度大於 44 度和經度小於 22 度之位置存取活動的使用者。
@@ -144,11 +144,11 @@ source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 否， [!DNL Target] 僅使用作業期間的地理資料，則會捨棄資料。
 
-## 訓練影片: 建立對象
+## 訓練影片：建立觀眾教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
