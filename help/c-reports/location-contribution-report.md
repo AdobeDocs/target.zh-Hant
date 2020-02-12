@@ -1,11 +1,11 @@
 ---
-keywords: mvt;多變數測試;位置貢獻報表
+keywords: mvt;multivariate test;location contribution report
 description: 位置貢獻報表顯示每個元素和每個選件的效能。
 title: 位置貢獻報表 (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,8 +30,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![](assets/locationcontributionbottom.png)
 
-## 訓練影片: 建立 MVT 測試
+## 訓練影片: 建立 MVT 測試 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。8:45 開始說明「位置貢獻」報表。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
