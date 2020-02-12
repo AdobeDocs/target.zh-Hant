@@ -4,7 +4,7 @@ description: 行動檢視區可協助您預覽活動出現在各種大小畫面�
 title: 回應式體驗的行動檢視區
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,8 +73,8 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 建立您的體驗時，請設定您要提供使用的任何行動檢視區。
 
-1. 按一下「**[!UICONTROL 設定]**>**[!UICONTROL &#x200B;偏好設定]**」。
-1. 在「帳戶偏好設定」頁面的「行動檢視區設定」區段中，按一下&#x200B;**[!UICONTROL 「新增」]**來新增行動檢視區。
+1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 偏好設定]**」。
+1. 在「帳戶偏好設定」頁面的「行動檢視區設定」區段中，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;來新增行動檢視區。
 
    若要變更現有行動檢視區的組態，請選取該檢視區，然後按一下「編輯」(鉛筆) 圖示。
 
@@ -106,8 +106,8 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 新增行動檢視區至您的 Target 活動，為行動螢幕建立回應式體驗。
 
 1. 建立活動。
-1. 在可視化體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「設定」]**齒輪圖示，然後選取**[!UICONTROL 「新增行動檢視區」]**。
-1. 按一下&#x200B;**[!UICONTROL 「裝置」]**圖示，然後啟用應該具有行動檢視區的每個裝置。
+1. 在可視化體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 「新增行動檢視區」]**。
+1. 按一下&#x200B;**[!UICONTROL 「裝置」]**&#x200B;圖示，然後啟用應該具有行動檢視區的每個裝置。
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -152,7 +152,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 可視化體驗撰寫器 (2/2) (上午 07:29)
+### 可視化體驗撰寫器 (2/2) (上午 07:29) 概 ![述徽章](/help/assets/overview.png)
 
 下列示範影片包含透過可視化體驗撰寫器來使用行動檢視區的相關資訊:
 
@@ -165,7 +165,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target 中的帳戶偏好設定
+### Adobe Target的帳戶偏好設定 ![概述徽章](/help/assets/overview.png)
 
 此影片包括在帳戶偏好設定中設定行動檢視區的相關資訊，從影片的 4:40 開始。
 
