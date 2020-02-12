@@ -1,11 +1,11 @@
 ---
-keywords: 活動設定;mvt目標和設定;多元化目標和設定;報表設定;目標量度;成功度量;相依成功量度;進階設定;主要目標;其他量度;目標;優先順序;期間;報告解決方案;目標;報表的對象;在遞增此量度之前必須先達到的成功量度;使用者遇到此目標量度後會發生什麼情況;說明
+keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 title: 目標與設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -152,7 +152,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動設定 (3:02)
+### 活動設定(3:02)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
@@ -162,13 +162,13 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 建立多變數測試 (9:25)
+### 建立多變數測試(9:25)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。在 7:00 開始討論目標和設定。
 
 * 定義和設計多變數測試
 * 建立多變數測試
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
