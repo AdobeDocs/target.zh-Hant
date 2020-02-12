@@ -5,7 +5,7 @@ title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -141,7 +141,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. 請注意，體驗片段「主要」版本會保留在 AEM 中。You cannot edit the experience fragment in [!DNL Target].
 * 您可以將JSON選件匯入為體驗片段 [!DNL Target]。 不過，這些選件會匯入為HTML選件。 UI目前不完全支援JSON選件（體驗片段） [!DNL Target] 。
 
-## ![教學課程徽章](/help/assets/overview.png) ·訓練影片：搭配Adobe target使用AEM體驗片段 {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM Experience Fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 以下影片將示範如何設定和使用體驗片段：
 
