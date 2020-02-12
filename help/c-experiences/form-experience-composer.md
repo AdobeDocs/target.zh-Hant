@@ -1,11 +1,11 @@
 ---
-keywords: 表單式體驗撰寫器; 表單式撰寫器; 細分
+keywords: form-based experience composer;form-based composer;refinements
 description: 表單式體驗撰寫器提供非視覺的體驗建立。
 title: 表單式體驗撰寫器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**，然後選取您要建立的活動類型。
 
    表單式體驗撰寫器可用於 A/B 測試、體驗鎖定目標、自動個人化和 Recommendations 活動。
-1. 從[!UICONTROL 「新增活動」]對話方塊選取&#x200B;**[!UICONTROL 「表單式體驗撰寫器」]**。
+1. 從&#x200B;**[!UICONTROL 「新增活動」]**&#x200B;對話方塊選取[!UICONTROL 「表單式體驗撰寫器」]。
 
    表單式體驗撰寫器隨即開啟。
 
@@ -63,14 +63,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    **建立 HTML 選件:**
 
    1. 按一下[!UICONTROL 「選件」]，然後選取[!UICONTROL 「代碼選件」]索引標籤。
-   1. 按一下[!UICONTROL 「建立] &gt; [!UICONTROL HTML 選件」]。
+   1. 按一下[!UICONTROL 「建立] > [!UICONTROL HTML 選件」]。
    1. 輸入選件名稱。
    1. 在「程式碼」方塊中，輸入或貼上 HTML 程式碼。
    1. 按一下[!UICONTROL 「儲存」]。
    **建立 JSON 選件:**
 
    1. 按一下[!UICONTROL 「選件」]，然後選取[!UICONTROL 「代碼選件」]索引標籤。
-   1. 按一下「[!UICONTROL 建立] &gt; [!UICONTROL JSON 選件]」。
+   1. 按一下「[!UICONTROL 建立] > [!UICONTROL JSON 選件]」。
    1. 輸入選件名稱。
    1. 在「程式碼」方塊中，輸入或貼上 JSON 程式碼。
    1. 按一下[!UICONTROL 「儲存」]。
@@ -91,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * [建立體驗鎖定目標活動](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [建立 Recommendations 活動](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 訓練影片: 表單式撰寫器
+## 訓練影片: 表單式撰寫器 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片提供表單式撰寫器的示範。
 
@@ -99,4 +99,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 瞭解使用表單式體驗撰寫器與可視化體驗撰寫器的時機
 * 使用細分來鎖定位置
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
