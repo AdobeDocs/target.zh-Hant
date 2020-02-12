@@ -1,11 +1,11 @@
 ---
-keywords: 建立 A/B; A/B 測試; A/B 活動; 新 a/b 活動
+keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: 使用 Target 中的可視化體驗撰寫器直接在啟用 Target 的頁面上建立您的測試，以及在 Target 內修改頁面的部分。
 title: 建立 A/B 測試
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 使用 Target 中的可視化體驗撰寫器直接在啟用 Target 的頁面上建立您的測試，以及在 Target 內修改頁面的部分。
 
-1. 在[!UICONTROL 「活動」]清單中，按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL A/B 測試」]**。
+1. 從[!UICONTROL 「活動」]清單，按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「A/B 測試」]**。
 
    ![建立活動下拉式清單](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -71,7 +71,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    如需在[!UICONTROL 可視化體驗撰寫器]中新增和修改體驗的相關資訊，請參閱[新增體驗](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。若要修改體驗 B，請從步驟 3 開始。
 
-1. 按一下[!UICONTROL 可視化體驗撰寫器]頂端的&#x200B;**[!UICONTROL 鎖定目標]**，以前往三步驟引導工作流程中的下一個步驟。
+1. 按一下&#x200B;**[!UICONTROL 可視化體驗撰寫器]**&#x200B;頂端的[!UICONTROL 鎖定目標]，以前往三步驟引導工作流程中的下一個步驟。
 
    流程圖表隨即開啟。
 
@@ -99,7 +99,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * **[!UICONTROL 自動分配至最佳體驗]**: 系統會自動將多數活動加入者導向表現較佳的體驗。有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。請參閱[自動流量分配](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
    * **[!UICONTROL 針對個人化體驗自動鎖定目標]**: Target 會使用進階機器學習演算法來自動鎖定具有最佳體驗的訪客，以將您的目標最大化。如需詳細資訊，請參閱[自動鎖定目標以最佳化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
-   您也可以按一下&#x200B;**[!UICONTROL 「新增體驗」]，以新增其他體驗至活動。**
+   您也可以按一下&#x200B;**[!UICONTROL 「新增體驗」]**，以新增其他體驗至活動。
 
 1. 在您滿意您的對象和體驗選擇後，請按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;以前往三步驟引導工作流程中的第三個步驟。
 
@@ -111,11 +111,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 建立活動之後，「概覽」標籤會顯示關於活動的資訊，包括活動的圖表。
 
-## 訓練影片: 建立 A/B 測試 (8:36)
+## 訓練影片: 建立 A/B 測試 (8:36) 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片示範如何使用 [!DNL Target] 三個步驟引導工作流程來建立 A/B 測試。
 
 * 在 Adobe Target 中建立 A/B 活動
 * 使用手動分割或自動流量分配來分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
