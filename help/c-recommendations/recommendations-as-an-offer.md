@@ -1,9 +1,9 @@
 ---
-keywords: Recommendations;選件
+keywords: Recommendations;offer
 description: Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 及體驗鎖定目標 (XT) 活動中的選件
 title: Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 及體驗鎖定目標 (XT) 活動中的選件
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >若為 A/B 測試，您可以選擇[「自動分配」](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/c-activities/auto-target-to-optimize.md)選項，以便根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-1. 建立[體驗](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增建議作為選件的元素，選取&#x200B;**[!UICONTROL 插入在前]**、**[!UICONTROL 插入在後]**&#x200B;或&#x200B;**[!UICONTROL 取代為]**&#x200B;動作，然後選取[!UICONTROL 建議]。
+1. 建立[體驗](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增建議作為選件的元素，選取&#x200B;**[!UICONTROL 「插入在前」]**、**[!UICONTROL 「插入在後」]**&#x200B;或&#x200B;**[!UICONTROL 「取代為」]**&#x200B;動作，然後選取[!UICONTROL 「建議」]。
 
-   下圖顯示[!UICONTROL 「插入在後 &gt; 建議」]選項。
+   下圖顯示[!UICONTROL 「插入在後 > 建議」]選項。
 
    ![插入建議作為選件](/help/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -81,7 +81,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 ### 使用「修改」面板編輯建議選件
 
 1. 按一下[!UICONTROL 修改]圖示 **(`</>`)** 以顯示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 將游標停留在所需的動作上，然後按一下&#x200B;**[!UICONTROL 「編輯」]圖示。**
+1. 將游標停留在所需的動作上，然後按一下&#x200B;**[!UICONTROL 「編輯」]**&#x200B;圖示。
 
    ![「修改」面板](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -96,13 +96,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ### 使用「編輯」選單刪除建議選件
 
-1. 按一下您要移除的選件，然後按一下&#x200B;**[!UICONTROL 版面配置 &gt; 移除]**。
+1. 按一下您要移除的選件，然後按一下&#x200B;**[!UICONTROL 「配置 > 移除」]**。
 
    ![移除](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 使用「修改」面板刪除建議選件
 
-1. 按一下[!UICONTROL 修改]圖示 **( &lt;/&gt; )** 以顯示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
+1. 按一下[!UICONTROL 修改]圖示 **( &lt;/> )** 以顯示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
 1. 將游標停留在所需的動作上，然後按一下[!UICONTROL 「刪除」]圖示。
 
    ![「刪除」圖示](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -117,6 +117,6 @@ Recommendations 選件的 (演算法) 狀態會顯示在包含 Recommendations �
 
 ![Recommendations 選件狀態](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 訓練影片：建議作為選件
+## 訓練影片：建議作為選件概 ![述徽章](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/28878)
