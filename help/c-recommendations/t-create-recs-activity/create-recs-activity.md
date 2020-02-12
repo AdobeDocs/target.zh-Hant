@@ -1,10 +1,10 @@
 ---
-keywords: 建立建議;Recommendations 活動;新建議;建議概覽
+keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 title: 建立 Recommendations 活動
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 
-1. 按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL Recommendations」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「Recommendations」]**。
 
    ![建立 Recommendations 活動](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -43,7 +43,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    按[!UICONTROL 「下一步」]時，VEC 會開啟並顯示您的頁面。您可以使用建議取代目前的元素，或插入建議。
 
-1. 按一下您的頁面上的元素，然後如果建議可供元素所在的位置使用，按一下&#x200B;**[!UICONTROL 使用建議取代]**、**[!UICONTROL 插入建議在前]**&#x200B;或&#x200B;**[!UICONTROL 插入建議在後]**。
+1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
    ![Recommendations 選項](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
@@ -69,7 +69,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]核取方塊。**&#x200B;視您的 Recommendations 設定 (**[!UICONTROL 「Recommendations]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示[!UICONTROL 「相容」]選項。如需詳細資訊，請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
+   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。視您的「Recommendations」設定 ([!UICONTROL 「Recommendations] > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示&#x200B;**[!UICONTROL 「相容」]**&#x200B;選項。如需詳細資訊，請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
 
    ![選取條件對話方塊](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -79,8 +79,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
-   * 若要建立新條件，請按一下&#x200B;**[!UICONTROL 建立條件]** &gt; **[!UICONTROL 建立條件]**，然後填寫新條件的資訊。如需關於建立新條件的資訊，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
-   * 您也可以將條件群組為序列。若要建立新條件序列，請按一下&#x200B;**[!UICONTROL 建立條件]** &gt; **[!UICONTROL 建立條件序列]**。請參閱[建立條件序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)以取得相關資訊。
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+   * 您也可以將條件群組為序列。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 請參閱[建立條件序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)以取得相關資訊。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/c-recommendations/c-design-overview/design-overview.md)。
@@ -95,7 +95,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       如果您選取了多個條件，則僅能選取一個設計。
 
-   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成]** &gt; **[!UICONTROL 完成」**]。如需關於建立新設計的資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。如需關於建立新設計的資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -165,6 +165,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    當多個活動設為傳送內容至相同的頁面時會發生活動衝突，並且可能造成顯示未預期的內容。
 
-## 訓練影片: 建立 Recommendations 活動 (7:15)
+## 訓練影片: 建立 Recommendations 活動 (7:15) 教 ![學課程徽章](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
