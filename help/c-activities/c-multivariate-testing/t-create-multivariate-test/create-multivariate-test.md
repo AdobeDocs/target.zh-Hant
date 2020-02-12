@@ -1,10 +1,10 @@
 ---
-keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
+keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Adobe Target 中的可視化體驗撰寫器 (VEC) 讓您直接在啟用 Target 的頁面上輕鬆建立多變數測試 (MVT)，以及在 Target 內修改頁面的部分。
 title: 建立多變數測試
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 [!UICONTROL 多變數測試] (MVT) 需要頁面優先的報表。換句話說，測試會在具有您為頁面所設計體驗的特定 URL 上執行。
 
-1. 按一下&#x200B;**[!UICONTROL 「建立活動]** &gt; **[!UICONTROL 多變數測試」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「多變數測試」]**。
 
    ![建立多變數測試](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -37,7 +37,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
    >
    >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。]
 
-1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作場所](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 為您要測試的頁面[指定 URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
@@ -114,11 +114,11 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;來建立活動。
 
-## 訓練影片: 建立多變數測試 (9:25)
+## 訓練影片：建立多變數測試(9:25)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片示範如何使用 Target 三步驟引導式工作流程來規劃和建立多變數測試。
 
 * 定義和設計多變數測試
 * 建立多變數測試
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
