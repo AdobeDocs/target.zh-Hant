@@ -1,11 +1,11 @@
 ---
-keywords: 工作區; 管理屬性; 權限; 產品組態; 產品設定檔; 角色; 專案
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: 關於建立屬性和使用屬性和權限功能的資訊，該功能可讓 Target 管理員在 Target 中建立個別的工作區 (產品設定檔)，然後根據這些工作區指派使用者個別頁面、屬性或網站的不同角色和權限。
 title: 企業使用者權限
-subtopic: 快速入門
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,13 +24,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以區分您的組織具有的 Standard 或 Premium 授權，方法是按一下 UI 上方的[!UICONTROL 「設定」]連結。[!DNL Target]
 
-* **[!DNL Target Standard]客戶**: 如果您看見[!UICONTROL 「使用者」]標籤 ([!UICONTROL 「設定 &gt; 使用者」])，則您的組織具備 [!DNL Target Standard] 授權。[!DNL Target Standard] 客戶應該遵循[使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的指示，在 Adobe Admin Console 中新增使用者和指派權限。
+* **[!DNL Target Standard]客戶&#x200B;**: 如果您看見[!UICONTROL 「使用者」]標籤 ([!UICONTROL 「設定 > 使用者」])，則您的組織具備[!DNL Target Standard]授權。[!DNL Target Standard]客戶應該遵循[使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的指示，在 Adobe Admin Console 中新增使用者和指派權限。
 
    [!DNL Target Standard] 使用者在按一下「屬性」索引標籤時看見下列錯誤訊息。[!DNL Target] 並沒有問題。[!DNL Target Standard] 使用者無法存取 [!DNL Target Premium] 的[!UICONTROL 「企業權限」]功能。
 
    ![錯誤訊息](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **[!DNL Target Premium]客戶**: 如果您看見[!UICONTROL 「屬性」]標籤 ([!UICONTROL 「設定 &gt; 屬性]」)，則您的組織具備 [!DNL Target Premium] 授權。[!DNL Target Premium] 客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
+* **[!DNL Target Premium]客戶&#x200B;**: 如果您看見[!UICONTROL 「屬性」]標籤 ([!UICONTROL 「設定 > 屬性]」)，則您的組織具備[!DNL Target Premium]授權。[!DNL Target Premium]客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
 
 ## 開始使用企業權限之前
 
@@ -194,7 +194,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 * **受眾建立:**&#x200B;當您建立新的受眾時，會建立在目前選取的工作區中。
 * **選件建立:**&#x200B;當您建立新的選件時，會建立在目前選取的工作區中。
-* **屬性頁面 (「設定」&gt;「屬性」):** 您可以使用[!UICONTROL 「搜尋」]方塊，[!UICONTROL 「管道」]和[!UICONTROL 「產品設定檔」]選項來篩選[!UICONTROL 「屬性」]清單。
+* **屬性頁面 (「設定」>「屬性」):** 您可以使用[!UICONTROL 「搜尋」]方塊，[!UICONTROL 「管道」]和[!UICONTROL 「產品設定檔」]選項來篩選[!UICONTROL 「屬性」]清單。
 
    ![](assets/properties_list.png)
 
@@ -270,7 +270,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 如果重新導向頁面和活動 URL 屬於相同的屬性，點擊追蹤會如運期般運作。如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md)。
 
-## 訓練影片: 企業權限訓練影片 {#section_2FA080303A064242B63FF16CFA6DB31D}
+## 訓練影片：企業權限訓練影片 {#section_2FA080303A064242B63FF16CFA6DB31D} 概 ![觀徽章](/help/assets/overview.png)
 
 學習目標:
 
@@ -278,4 +278,4 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 * 屬性和工作區的概念，以及這些限制和分組工作如何讓您控制使用者的存取層級
 * 供您的組織考慮的不同屬性範例
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
