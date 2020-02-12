@@ -1,12 +1,12 @@
 ---
-keywords: 目標與設定;目標;優先順序;期間
+keywords: Goal &Settings;objective;priority;duration
 description: 使用「活動設定」來管理活動的目標、優先順序和期間。
 title: 活動設定
-subtopic: 多變數測試
+subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * [多變數測試](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 訓練影片: 活動設定
+## 訓練影片: 活動設定 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
@@ -64,4 +64,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hant)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
