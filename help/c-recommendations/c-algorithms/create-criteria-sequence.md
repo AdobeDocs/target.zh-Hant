@@ -1,10 +1,10 @@
 ---
-keywords: 條件序列;多個條件;演算法;條件;建議條件
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 使用最多五個條件的序列來對建議活動中出現的項目執行更好的控制。
 title: 建立條件序列
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -39,9 +39,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 有多個方式可到達[!UICONTROL 「建立條件順序」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 建立 [!UICONTROL Recommendations] 活動時，請在[!UICONTROL 「選取條件」]畫面上按一下&#x200B;**[!UICONTROL 「新建]** &gt; **[!UICONTROL 建立條件序列」]**。您將可以選擇儲存您的新條件順序以搭配其他 [!UICONTROL Recommendations] 活動使用。
-* 編輯 [!UICONTROL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在 [!UICONTROL 選取標準] 畫面上，按一下 **[!UICONTROL 新建]** &gt; **[!UICONTROL 建立標準序列]**。您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
-* 在&#x200B;**[!UICONTROL 「Recommendations**] &gt; **[!UICONTROL 條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件]** &gt; **[!UICONTROL 建立條件序列」**]。您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
+* 建立 [!UICONTROL Recommendations] 活動時，請在[!UICONTROL 「選取條件」]畫面上按一下&#x200B;**[!UICONTROL 「新建」]**>**[!UICONTROL 「建立條件順序」]**。您將可以選擇儲存您的新條件順序以搭配其他 [!UICONTROL Recommendations] 活動使用。
+* 編輯 [!UICONTROL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**>**[!UICONTROL 「建立條件順序」]**。您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
+* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**[!UICONTROL >]**「建立條件順序」]**。您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立條件」]**&#x200B;或&#x200B;**[!UICONTROL 「新建」]**。
 
@@ -54,13 +54,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 輸入序列的&#x200B;**[!UICONTROL 名稱]**。
 
    這是用來說明該條件順序的「內部」名稱。您的網站的訪客將不會看見此名稱。
-1. 如果在序列中使用多個條件填入 [!UICONTROL Recommendations] 設計，請輸入要在頁面上公開顯示的&#x200B;**[!UICONTROL 一般顯示標題]**。
+1. 如果在序列中使用多個條件填入 **[!UICONTROL Recommendations]** 設計，請輸入要在頁面上公開顯示的[!UICONTROL 一般顯示標題]。
 
    例如，如果設計可能包括基於一個以上 [!UICONTROL Recommendations] 金鑰的項目，則可以將「檢視這個的客戶也檢視了...」取代為「給您的建議」。
 1. 輸入條件序列的簡短&#x200B;**[!UICONTROL 說明]**。
 
    說明應該能協助您識別條件序列，並且可能包括關於其用途的資訊。
-1. 選取&#x200B;**[!UICONTROL 「垂直產業」]**。
+1. 選取&#x200B;**[!UICONTROL 垂直產業]**.
 
    您的預設垂直產業隨即自動顯示。
 1. 選取一個&#x200B;**[!UICONTROL 頁面類型]**。
@@ -86,7 +86,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 訓練影片: 在 Recommendations 中建立條件 (12:33)
+## 訓練影片: 在 Recommendations 中建立條件 (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
@@ -94,4 +94,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 建立條件序列
 * 上傳自訂條件
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
