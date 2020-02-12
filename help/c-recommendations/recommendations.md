@@ -4,7 +4,7 @@ description: Adobe target中的Recommendations活動會根據先前的使用者�
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -43,7 +43,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 如需這些事項和其他 [!DNL Recommendations] 條件的相關資訊，請參閱[條件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## ![總覽徽章](/help/assets/overview.png) 訓練影片：活動類型
+## 訓練影片: 活動類型 概 ![述徽章](/help/assets/overview.png)
 
 此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。7:20 處開始討論 [!DNL Recommendations]。
 
@@ -53,7 +53,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 基礎網路研討會: Recommendations 簡介 {#intro-to-recs}
+## Adobe Target 基礎網路研討會: Recommendations 簡介 {#intro-to-recs} 教 ![學課程徽章](/help/assets/tutorial.png)
 
 *Recommendations 簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
 
