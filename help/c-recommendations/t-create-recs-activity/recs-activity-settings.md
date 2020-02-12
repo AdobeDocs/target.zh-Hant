@@ -1,11 +1,11 @@
 ---
-keywords: Recommendations;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Adobe Target 中有數個設定可用來說明和控制建議活動。
 title: Adobe Target 中的 Recommendations 活動設定
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 輸入關於您的活動的備註。
 
-## 訓練影片: 活動設定 (3: 02)
+## 訓練影片：活動設定(3:02)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
@@ -72,4 +72,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
