@@ -1,12 +1,12 @@
 ---
-keywords: 客戶記錄服務;crs;crm;mbox3rdpartyid;客戶屬性;目標鎖定
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
 description: 關於使用來自客戶關係管理 (CRM) 資料庫的企業客戶資料，在 Adobe Target 中使用 Adobe 設定檔與對象核心服務中的客戶屬性的資訊進行內容鎖定的資訊。
-title: 客戶屬性建立設定檔屬性比較對象
-subtopic: 快速入門
+title: Adobe target中的客戶屬性
+subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ The Audiences core service is part of the [!DNL Adobe Experience Cloud] and prov
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
    >[!NOTE]
    >
@@ -33,9 +33,9 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，可能不會將少量百分比的資料上架。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 如需詳細資訊，請參閱訪 [客資料存留期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有在 `authState` 變更為 UNAUTHENTICATED (1) 時，設定檔才會生效。
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有在 `authState` 變更為 UNAUTHENTICATED (1) 時，設定檔才會生效。
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. 如果需要的行為是擷取驗證的設定檔，`vst.myDataSource.authState` 必須具備值 1 (AUTHENTICATED)。
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 如果需要的行為是擷取驗證的設定檔，`vst.myDataSource.authState` 必須具備值 1 (AUTHENTICATED)。
 
 * 您無法在 `mbox3rdPartyID` 中傳送下列字元: 加號 (+) 和正斜線 (/)。
 
@@ -100,7 +100,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 ### 建立鎖定目標對象
 
-在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。清單中的所有客戶屬性都會具備字首 &lt; data_source_name &gt;。視需要將這些屬性與其他資料屬性結合，以建立對象。
+在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。清單中的所有客戶屬性都會具備字首 &lt; data_source_name >。視需要將這些屬性與其他資料屬性結合，以建立對象。
 
 ![目標對象](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -146,8 +146,8 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 以上第 1 列和第 2 列中的問題大約造成此領域中 60% 的問題。第 3 列中的問題大約造成 30% 的問題。第 4 列中的問題大約造成 5% 的問題。其餘的 5% 則因為雜項問題。
 
-## 訓練影片: 使用客戶屬性上傳離線資料 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## 訓練影片: 使用客戶屬性上傳離線資料 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} 教 ![學課程徽章](/help/assets/tutorial.png)
 
-此影片顯示如何將離線 CRM、支援中心、銷售點和其他行銷資料匯入 Experience Cloud People 服務，並使用其已知 ID 將其與訪客建立關聯。
+此影片示範如何將離線CRM、服務台、銷售點和其他行銷資料匯入Experience cloud人員服務，並使用其已知ID將其與訪客建立關聯。
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
