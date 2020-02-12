@@ -5,7 +5,7 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 當訪客瀏覽網站或返回另一個工作階段時，可以使用儲存的描述檔屬性來定位內容，或是記錄群體篩選資訊。
 
-若要建立設定檔屬性，請按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 設定檔指令碼」]**。
+若要建立設定檔屬性，請按一下「**[!UICONTROL 對象]** > **[!UICONTROL 設定檔指令碼]**」。
 
 ![設定檔指令碼標籤](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -24,7 +24,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 | 參數類型 | 說明 |
 |--- |--- |
-| mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | 指令碼 | 直接以 JavaScript 程式碼片段定義。其可儲存諸如客戶總花費金額等執行總數，並透過每個 mbox 請求來執行。請參閱以下的設定檔指令碼屬性。 |
 
 ## 設定檔指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -65,8 +65,8 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-* 在程式碼中使用 `user.get('parameterName')` ') 來參照設定檔指令碼屬性 (包括本身)
-* 儲存下次執行此指令碼時 (下一個 mbox 請求時) 可存取包含 `user.setLocal('variable_name', 'value')` ') 的變數。參考包含 `user.getLocal('variable_name')` ') 的變數。這對您想要參考上次請求的日期與時間的情況下非常有用。
+* 在程式碼中使用 `user.get('parameterName')` &#39;) 來參照設定檔指令碼屬性 (包括本身)
+* 儲存下次執行此指令碼時 (下一個 mbox 請求時) 可存取包含 `user.setLocal('variable_name', 'value')` &#39;) 的變數。參考包含 `user.getLocal('variable_name')` &#39;) 的變數。這對您想要參考上次請求的日期與時間的情況下非常有用。
 * 參數和值區分大小寫。請符合活動或測試期間所收到參數與值的大小寫。
 * 如需更多 JavaScript 語法，請參閱以下「指令碼設定檔參數的 JavaScript 參考資料」一節。
 
@@ -74,7 +74,7 @@ if (mbox.name == 'Track_Interest') {
 
 您可以檢視設定檔指令碼資訊快顯卡，這類似選件資訊卡片。您可以透過設定檔指令碼資訊卡，檢視參考特定設定檔指令碼的活動，及其他實用中繼資料。
 
-例如，藉由將游標移至「設定檔指令碼清單」(「對象 &gt; 設定檔指令碼」) 上的設定檔指令碼，然後按一下「資訊」圖示，即可存取以下設定檔指令碼資訊卡。
+例如，藉由將游標移至「設定檔指令碼清單」(「對象 > 設定檔指令碼」) 上的設定檔指令碼，然後按一下「資訊」圖示，即可存取以下設定檔指令碼資訊卡。
 
 [!UICONTROL 「指令碼資訊」]索引標籤包含下列資訊: 名稱、狀態、Token 類型、指令碼 ID、變更記錄，以及說明。
 
@@ -82,7 +82,7 @@ if (mbox.name == 'Track_Interest') {
 
 [!UICONTROL 「指令碼使用方式」]索引標籤會列出參照所選取設定檔指令碼的活動 (及其工作區)。
 
-![設定檔指令碼資訊卡 &gt; 指令碼使用方式標籤](assets/profile_script_info_card_usage_tab.png)
+![設定檔指令碼資訊卡 > 指令碼使用方式標籤](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -232,7 +232,7 @@ if (!user.get('threegroups')) {
 
 * **使用 mboxTrace 偵錯工具以偵錯設定檔指令碼。**
 
-   此方法需要授權 Token，您可以按一下&#x200B;**[!UICONTROL 「Target]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 產生授權 Token」]**，以產生 Token。
+   此方法需要授權 Token，您可以按一下&#x200B;**[!UICONTROL 「Target]** > **[!UICONTROL 設定]** > **[!UICONTROL 實作]** > **[!UICONTROL 產生授權 Token」]**，以產生 Token。
 
    然後，將這兩個參數加入「?」後的頁面 URL: `mboxTrace=window&authorization=YOURTOKEN`。
 
@@ -344,7 +344,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 邏輯上，「OR」左側和右側的運算式，只有在其中一側為 true 時，才會是 true (否則則為 false)。 |
 | `//` | 檢查來源是否包含目標布林值包含的所有元素 (陣列來源、陣列目標)。<br>`//` 會從目標擷取子字串 (對應 regexp)，然後將其解碼 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>此功能也支援使用常數字串值、分組 (`condition1 || condition2) && condition3`，以及規則運算式 (`/[^a-z]$/.test(landing.referring.url)`。 |
 
-## 訓練影片: 設定檔指令碼
+## 訓練影片：描述檔指令碼 ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包含使用和建立設定檔指令碼的相關資訊。
 
@@ -354,4 +354,4 @@ else if (mbox.param("adobeQA"))
 * 使用「可用 Token」功能表來存取可用的選項
 * 啟用和停用設定檔指令碼
 
->[!VIDEO](https://video.tv.adobe.com/v/17394?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)
