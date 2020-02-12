@@ -5,7 +5,7 @@ title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動工作流程 - 鎖定目標 (2:14)
+### 活動工作流程 - 鎖定目標 (2:14) 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此視訊包含有關如何設定流量分配的資訊。
 
@@ -193,7 +193,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### 建立 A/B 測試 (8:36)
+### 建立A/B測試(8:36)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此視訊示範如何使用 Target 三步驟引導式工作流程來建立 A//B 測試。4:45 開始討論自動流量分配。
 
