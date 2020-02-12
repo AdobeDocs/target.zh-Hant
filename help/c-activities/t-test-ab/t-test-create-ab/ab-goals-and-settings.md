@@ -1,11 +1,11 @@
 ---
-keywords: 活動設定; A/B目標與設定; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表對象; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
+keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
 title: 目標與設定
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動設定 (3:02)
+### 活動設定(3:02)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
@@ -77,11 +77,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 (https://video.tv.adobe.com/v/17381?captions=chi_hant)
 
-### 建立 A/B 測試 (8:36)
+### 建立A/B測試(8:36)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片示範活動設定如何在建立活動時配合三個步驟引導工作流程。在 5:30 開始討論目標和設定。
 
 * 在 Adobe Target 中建立 A/B 活動
 * 使用手動分割或自動流量分配來分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
