@@ -1,10 +1,10 @@
 ---
-keywords: 鎖定目標;對象;百分比目標
+keywords: Targeting;audiences;percentage target
 description: 使用 Adobe Target 中的受眾功能，將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。
 title: Adobe Target 中的受眾
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果驗明訪客屬於目標對象，[!DNL Target] 會根據建立活動時所建立的條件，決定要顯示的體驗。
 
-## 訓練影片: 活動鎖定目標(2:13)
+## 訓練影片: 活動鎖定目標 (2:13)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此視訊包含有關如何設定目標和對象的資訊。
 
@@ -34,4 +34,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
