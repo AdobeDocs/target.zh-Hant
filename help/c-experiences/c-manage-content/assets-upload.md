@@ -1,11 +1,11 @@
 ---
-keywords: 內容; 更新內容; 資產; 上傳內容; 上傳資產
+keywords: content;update content;assets;upload content;upload asset
 description: 您可以將項目新增至「影像選件」清單。
 title: 上傳內容
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 您可以在影像選件清單中新增項目或移除項目。
 
 1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「影像選件」]**&#x200B;標籤。
-1. 按一下&#x200B;**[!UICONTROL 「建立]** &gt; **[!UICONTROL 檔案」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立」]**>**[!UICONTROL 「檔案」]**。
 1. 選取您要新增的項目，然後按一下&#x200B;**[!UICONTROL 「開啟」]**。
 1. 編輯項目的檔案名稱 (如有必要)，然後按一下&#x200B;**[!UICONTROL 「上傳」]**。
 
    項目隨即上傳至資料庫。
 
-## 訓練影片: 內容存放庫
+## 訓練影片: 內容存放庫 概 ![述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。
 
@@ -29,4 +29,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
