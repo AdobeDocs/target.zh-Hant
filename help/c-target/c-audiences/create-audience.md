@@ -1,11 +1,11 @@
 ---
-keywords: 對象;對象規則;建立對象;建立對象
+keywords: audience;audience rules;create audience;creating audience
 description: 您可以建立自訂的對象，並將對象儲存至 Target 資料庫以在您的活動中使用。您可以複製現有對象，然後可以編輯對象以建立類似的對象並結合多個對象。
 title: 在 Target 中建立對象
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    或
 
-   若要複製現有對象，請在[!UICONTROL 「對象」]清單中將游標移至所需對象上方，然後按一下&#x200B;**[!UICONTROL 「複製」]圖示。**&#x200B;然後您可以編輯對象以建立類似的對象。
+   若要複製現有對象，請在[!UICONTROL 「對象」]清單中將游標移至所需對象上方，然後按一下&#x200B;**[!UICONTROL 「複製」]**&#x200B;圖示。然後您可以編輯對象以建立類似的對象。
 
 1. 輸入不重複、描述性的對象名稱。
 1. 按一下&#x200B;**[!UICONTROL 「+ 新增規則」]**。
@@ -56,11 +56,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    新建立的對象會在處理延遲幾秒之後出現在清單中。如果對象未立即在清單中顯示，請嘗試搜尋對象或重新整理清單。
 
-## 訓練影片: 建立對象
+## 訓練影片: 建立對象 概 ![述徽章](/help/assets/overview.png)
 
 此影片包括關於建立對象的資訊。
 
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
