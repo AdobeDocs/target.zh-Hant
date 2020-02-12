@@ -1,11 +1,11 @@
 ---
-keywords: 對象; 選取對象; 選擇對象; 選取器
+keywords: audience;select audience;choose audience;Selectors
 description: 對象會決定哪些網站訪客進入了您的活動。
 title: 選取對象
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 在 Adobe Target 中使用對象 (6:21)
+### 在 Adobe Target 中使用對象 (6:21) 概 ![述徽章](/help/assets/overview.png)
 
 此影片說明如何在 [!DNL Target Standard/Premium] 中使用對象。
 
@@ -56,9 +56,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 將活動鎖定至對象
 * 對活動中的被動報表使用對象
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### 活動工作流程 - 鎖定目標 (2:14)
+### 活動工作流程——定位(2:14)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此視訊包含有關如何設定對象的資訊。
 
@@ -67,6 +67,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 如需詳細資訊，請參閱[對象](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
