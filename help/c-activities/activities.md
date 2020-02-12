@@ -1,11 +1,11 @@
 ---
-keywords: 活動清單；活動；活動；活動類型；編輯活動；活動；活動；活動屬性；活動清單過濾；活動限制；個人化；個人化
+keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計
 title: Adobe target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,14 +24,14 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 | 活動類型 | 說明 |
 |--- |--- |
-| [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。<br>**注意:** 您現在可以[在 A/B 測試活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
-| [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。<br>**注意:** 您現在可以[在自動分配活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
-| [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動鎖定目標使用進階機器學習來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。<br>**注意:** 您現在可以[在自動鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。<br>**注意:**您現在可以[在 A/B 測試活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備[Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。<br>**注意:**您現在可以[在自動分配活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備[Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動鎖定目標使用進階機器學習來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。<br>**注意:**您現在可以[在自動鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備若要使用此功能，您必須具備[Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 資料](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以將活動設為使用 [!DNL Adobe Analytics] 作為報表來源。此活動類型需要您將 [!DNL Adobe Experience Cloud] 帳戶與 [!DNL Analytics] 和 [!DNL Target] 連結在一起。 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。 |
-| [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。<br>**注意:** 您現在可以[在體驗鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。<br>**注意:**您現在可以[在體驗鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備[Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同變數，以便個人化內容並促進轉換。 |
-| [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 建議會根據網站使用者在網站上的活動，決定如何向使用者建議產品。<br>例如，您可能鼓勵買背包的人考慮買登山鞋和登山杖。您可以利用「購買了此項目、也購買了其他項目的使用者」演算法建立建議，以顯示通常一起購買的商品。或者，您可以鼓勵訪客多花一些時間在您的媒體網站上，並利用「瀏覽過此項目、也瀏覽了其他項目的使用者」演算法，根據他們正在看的影片來建議類似的影片。<br>**附註:** 您現在可以在 A/B 測試 (包括自動分配和自動鎖定目標) 與體驗鎖定目標 (XT) 活動中加入建議。請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。 |
+| [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 建議會根據網站使用者在網站上的活動，決定如何向使用者建議產品。<br>例如，您可能鼓勵買背包的人考慮買登山鞋和登山杖。您可以利用「購買了此項目、也購買了其他項目的使用者」演算法建立建議，以顯示通常一起購買的商品。或者，您可以鼓勵訪客多花一些時間在您的媒體網站上，並利用「瀏覽過此項目、也瀏覽了其他項目的使用者」演算法，根據他們正在看的影片來建議類似的影片。<br>**附註:**您現在可以在 A/B 測試 (包括自動分配和自動鎖定目標) 與體驗鎖定目標 (XT) 活動中加入建議。請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 活動清單 {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -67,7 +67,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | 啟動 | 啟動非使用中或已就緒的活動。 |
 | 封存 | 將活動傳送至封存。依預設，已封存的活動不再出現在「活動」清單中。將活動清單的篩選條件變更為包含已封存的活動，以看到這些活動。您可以啟動已封存的活動以再次使用。<br>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | 複製 | 複製活動。任何活動皆可複製。複製活動會以相同名稱建立新活動，後面加上「的複本」。例如，名稱為「瀏覽器選件」的測試會複製為「瀏覽器選件複本」。<br>可視化選件會隨活動一起複製。您可以在複本中放心編輯選件，不會影響原始活動。唯一的例外是「內容/資產」資料夾中儲存的選件和影像。 |
-| 刪除 | 刪除草稿或活動。<BR>**注意**: 已刪除的活動無法復原。除非您非常確定您不會再需要此活動，否則請使用[!UICONTROL 封存]動作。您便可以視需要重新啟用活動。 |
+| 刪除 | 刪除草稿或活動。<BR>**注意&#x200B;**: 已刪除的活動無法復原。除非您非常確定您不會再需要此活動，否則請使用[!UICONTROL 封存]動作。您便可以視需要重新啟用活動。 |
 
 請注意下列關於活動清單的詳細資料:
 
@@ -124,7 +124,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 深入瞭解各項功能，明白您為何該嘗試這些功能，進而充分利用 Adobe Target。提示與秘訣功能提供了影片、使用案例、部落格、文件等的連結。
 
-提示與秘訣功能會定期顯示於「活動清單」頁面上。閱讀完或關閉提示後，直到下個提示出現前，提示都不會再次顯示。您可以選擇透過依序按下「『說明』圖示 &gt; [!UICONTROL 停用『今日秘訣』」]，停用所有顯示的提示。
+提示與秘訣功能會定期顯示於「活動清單」頁面上。閱讀完或關閉提示後，直到下個提示出現前，提示都不會再次顯示。您可以選擇透過依序按下「『說明』圖示 > [!UICONTROL 停用『今日秘訣』」]，停用所有顯示的提示。
 
 ![停用今日秘訣](/help/c-activities/assets/tip-disable-new.png)
 
@@ -168,7 +168,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動類型 (9:03)
+### 活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
 
 此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。
 
@@ -176,9 +176,9 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 * 選取達成目標的適當活動類型
 * 說明適用所有活動類型的三個步驟引導工作流程
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 管理活動 (5:55)
+### 管理活動(5:55)概 ![述徽章](/help/assets/overview.png)
 
 此視訊說明如何使用「活動」清單來管理活動。
 
@@ -186,4 +186,4 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 * 在「活動」清單中尋找活動
 * 編輯、停用、複製和刪除活動
 
->[!VIDEO](https://video.tv.adobe.com/v/18550?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/18550)
