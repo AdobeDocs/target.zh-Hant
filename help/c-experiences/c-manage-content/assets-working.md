@@ -1,10 +1,10 @@
 ---
-keywords: 內容資料庫; 資產; 注釋; 複製; 刪除資產; 下載資產; 編輯內容; 共用卡片; 檢視內容屬性
+keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: 您可以對資料庫中的資產執行許多工作。
 title: 使用程式庫中的內容
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 若要變更代表資料庫中項目的影像，請按一下項目，再按一下&#x200B;**[!UICONTROL 「屬性」]**&#x200B;圖示，接著按一下&#x200B;**[!UICONTROL 「編輯」]**，然後新增影像。
 
-## 訓練影片: 內容存放庫
+## 訓練影片：內容儲存庫 ![概述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。(4:56)
 
@@ -41,4 +41,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
