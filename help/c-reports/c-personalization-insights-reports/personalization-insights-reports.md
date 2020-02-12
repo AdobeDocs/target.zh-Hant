@@ -4,7 +4,7 @@ description: '自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可
 title: 個人化前瞻分析報表
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,7 +53,7 @@ Target 提供許多方法，可以將其他資料傳遞給 Target，使得用於
 | 共用對象 (Adobe Audience Manager 或 Adobe Analytics) | 透過 Adobe Audience Manager 或 Adobe Analytics 建立並與 Target 共用的對象。 | `Custom - Experience Cloud Segment - [segment name]` |
 | 活動內報表對象/區段 | 在「目標和量度」中的設定期間，在 AP 或「自動鎖定目標」活動中定義的對象。 | `Custom - Reporting Segment - [segment name]` |
 
-## 訓練影片: 使用「個人化前瞻分析」報表
+## 訓練影片: 使用「個人化前瞻分析」報表 教 ![學課程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
