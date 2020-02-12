@@ -5,7 +5,7 @@ title: 在瀏覽器中啟用混合內容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 請參閱 Google Chrome 說明中的[此頁面有不安全的內容](https://support.google.com/chrome/answer/1342714?hl=en)。
 
-### 訓練影片：在Chrome 79.0.3945.117版或更新版本（2020年1月）中啟用VEC
+### 訓練影片：在Chrome 79.0.3945.117版或更新版本（2020年1月）中啟用VEC ![概述徽章](/help/assets/overview.png)
 
 如果您正將VEC與最新版Chrome（79.0.3945.117版或更新版本）搭配使用，則需要更新網站設定。 造訪您網站的訪客不需要完成這些步驟。
 
@@ -71,7 +71,7 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 1. 在 Internet Explorer 中，按一下設定圖示 >**[!UICONTROL 「網際網路選項」]**。
 1. 開啟[!UICONTROL 「安全性」]索引標籤。
-1. 選取&#x200B;**[!UICONTROL 「網際網路」]**，然後按一下**[!UICONTROL 「自訂層級」]**。
+1. 選取&#x200B;**[!UICONTROL 「網際網路」]**，然後按一下&#x200B;**[!UICONTROL 「自訂層級」]**。
 1. 選取&#x200B;**[!UICONTROL 「雜項」]**。
 1. 在[!UICONTROL 「雜項」]下，啟用&#x200B;**[!UICONTROL 「顯示混合的內容」]**。
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**>**[!UICONTROL 「是」]**>**[!UICONTROL 「套用」]**。
