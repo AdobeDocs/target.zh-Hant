@@ -4,7 +4,7 @@ description: 使用摘要來將實體匯入 Adobe Recommendations。實體可以
 title: 動態消息
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
 
-[!UICONTROL 摘要]清單 (**[!UICONTROL 建議]**>**[!UICONTROL &#x200B;摘要]**) 提供您已建立的任何摘要的相關資訊。
+[!UICONTROL 摘要]清單 (**[!UICONTROL 建議]** > **[!UICONTROL 摘要]**) 提供您已建立的任何摘要的相關資訊。
 
 ![摘要頁面](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -208,7 +208,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
-1. 從 Target 介面內，按一下「**[!UICONTROL 建議]**>**[!UICONTROL &#x200B;摘要]** > **[!UICONTROL 建立摘要]**」。
+1. 從 Target 介面內，按一下「**[!UICONTROL 建議]** > **[!UICONTROL 摘要]** > **[!UICONTROL 建立摘要]**」。
 
    ![建立摘要對話方塊](assets/CreateFeed.png)
 
@@ -220,7 +220,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
    * Analytics 分類
    如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]**或**[!UICONTROL  Google 產品摘要]**，請指定可存取摘要的位置。
+1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]** 或 **[!UICONTROL Google 產品摘要]**，請指定可存取摘要的位置。
 
    * **FTP**: 如果您已選取 FTP，請提供 FTP 伺服器資訊、登入認證、檔案名稱和 FTP 目錄。您可以選擇使用 FTP SSL (FTPS)，以更安全地上傳。
 
@@ -235,7 +235,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 1. (視條件而定) 如果您已選取 **[!UICONTROL Analytics 分類]**，請從下拉式清單選擇報表套裝。
 
-1. 按&#x200B;**[!UICONTROL 「下一步」]**箭頭來顯示[!UICONTROL 「排程」]選項。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「排程」]選項。
 
    ![步驟結果](assets/CreateFeedSchedule.png)
 
@@ -250,7 +250,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
    此選項是根據瀏覽器中使用的時區。如果要使用不同時區的時間，則必須根據您的時區來計算該時間。
 
-1. 按&#x200B;**[!UICONTROL 「下一步」]**箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至[!DNL Target]定義。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;箭頭來顯示[!UICONTROL 「對應」]選項，然後指定如何將資料對應至 [!DNL Target] 定義。
 
    ![步驟結果](assets/CreatFeedMapping.png)
 
@@ -323,7 +323,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解 Recommendations 中的摘要 (3:01)
+### 瞭解 Recommendations 中的摘要 (3:01) 概 ![述徽章](/help/assets/overview.png)
 
 此影片包含下列資訊:
 
@@ -332,7 +332,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 建立摘要 (6:44)
+### 建立摘要 (6:44) 教 ![學課程徽章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
