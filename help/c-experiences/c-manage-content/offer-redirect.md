@@ -1,11 +1,11 @@
 ---
-keywords: 重新導向選件; 建立重新導向選件; 新增 html 選件; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
+keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: 關於 Adobe Target 中導致瀏覽器重新導向至新頁面之重新導向選件的資訊。
 title: 建立重新導向選件
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。選件則設定為將訪客重新導向至不同頁面。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >您無法在 ajax mbox (`mboxUpdate`) 中使用重新導向選件。
 >
@@ -26,14 +26,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 重新導向選件會執行 JavaScript 程式碼來重新導向瀏覽器。此選件會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。這可讓訪客仍然可以使用瀏覽器中的上一步按鈕。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >如果要傳入登陸頁面的反向連結值，建議您使用 HTML 選件，而不要使用重新導向選件。
 
 **若要建立重新導向選件:**
 
-1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**「代碼選件」]索引標籤。[!UICONTROL **
-1. 按一下&#x200B;**[!UICONTROL 「建立]** &gt; **[!UICONTROL 重新導向選件」]**。
+1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「代碼選件」]**&#x200B;索引標籤。
+1. 按一下&#x200B;**[!UICONTROL 「建立」]**>**[!UICONTROL 「重新導向選件」]**。
 1. 輸入選件名稱。
 1. 輸入唯一內容或您要重新導向的目的地的 URL。此 URL 必須是絕對 URL。
 
@@ -51,11 +51,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    如果使用第一方與第三方的 Cookie 設定，則在跨網域時便不需要傳遞 mbox 工作階段 ID。它會在第三方 Cookie 中持續存在，所以不需要出現在 URL 中。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >在啟動這些測試前，請聯絡您的實作顧問。
 
-## 訓練影片: 內容存放庫 (4:56)
+## 訓練影片：內容儲存庫(4:56)概 ![述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。
 
@@ -63,4 +63,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
