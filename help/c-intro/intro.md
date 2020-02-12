@@ -5,7 +5,7 @@ title: Adobe Target 簡介
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -101,7 +101,7 @@ Target Premium 包含下列進階功能:
 
 [Adobe Target歡迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## ![總覽徽章](/help/assets/overview.png) 訓練影片：活動類型(9:03)
+## 訓練影片：活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
 
 下列影片說明 [!DNL Target Standard/Premium] 中可用的活動類型，以及 Target 的三步驟引導式工作流程如何協助您達成網站目標。
 
