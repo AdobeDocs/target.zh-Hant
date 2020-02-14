@@ -5,7 +5,7 @@ title: 資源與聯絡資訊
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
 
 ---
 
@@ -78,25 +78,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 | 業務影響 | 對您的業務有何影響? 例如，這個問題造成收入減少或導致產品無法使用，有可行的解決方法嗎? |
 | 期望 | 您期望發生什麼事? |
 
-也請準備與特定問題相關的資訊。例如，Client Care 最常接到的問題之一，就是 mboxes 載入太慢。針對這個問題，實用的資料包括:
-
-* Firebug 追蹤，顯示對 URL 或主機的重複性慢速。
-
-   只含一、兩個概略請求的 Gomez 報表，其中的資訊不足以分析或解決問題。
-* 執行 firebug TO 70.42.13.100 之機器的追蹤路徑螢幕畫面。
-
-   這很重要。EDGE 網路遍布全球，因此很難判斷客戶由何處傳出。例如，若您可以在辦公室的電腦上重現問題，並說「我可以在我的電腦上重現這個問題，我位在 EDGE 20 地區。」
-* 您的用戶端代碼和 mbox 名稱 (如果有)。
-* 頁面中嵌入的 mbox 數目。
-
-   頁面上許多 mbox 的其中一個很慢?
-* 指定頁面上指定 mbox 的慢速重複情況?
-
-   提供 Firebug 追蹤可告訴 Client Care 單次案例。如果您可以提供統計資料，例如「我已經測試 50 次，我看到最低是 300ms、最高是 1.1 秒」，將有助於加速解決問題。
-* 有關您的促銷活動任何不尋常的資訊。
-
-   有許多群體嗎? (例如，您在管理介面中每小時更新群體 3 到 4 次?)這項資訊可幫助 Client Care 瞭解此促銷活動的管理介面與 Edge 之間的互動情況。經常更新促銷活動表示經常從中央伺服器重新載入，會強制引發更多遠端呼叫或快取重新載入。
-* 其他任何您認為可能有幫助的資料。
+如需內容傳送問題，請參閱疑難 [排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md) ，以取得可能的解決方案和疑難排解資訊。
 
 ### 發生中斷時 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
