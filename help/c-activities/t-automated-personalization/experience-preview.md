@@ -1,11 +1,11 @@
 ---
-keywords: 體驗預覽; 體驗 URL; 產生 URL; 檢視體驗 URL
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: 您可以針對 Target 自動個人化活動產生體驗 URL，以在活動上線供預覽和 QA 用途之前，直接在您的網站上查看體驗內容。體驗 URL 會略過鎖定目標以強制檢視特定體驗。
 title: 共用體驗 URL 以在 Target 外部預覽自動個人化
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    互動視窗會顯示您的網站上體驗的連結，以獲得在 Target 的可視化體驗撰寫器外部的體驗「真正預覽」。您必須分享來自訊息的連結以分享預覽。按一下連結，然後從頁面複製產生的 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。請改為複製強制回應視窗中的文字，並透過電子郵件傳送給您的團隊。
 1. 按一下&#x200B;**[!UICONTROL 「全部產生」]**，然後按一下每個體驗來預覽。
 
-   如果您之後對體驗進行變更，請確定為您的團隊產生新預覽連結，方法是回到互動視窗，然後按一下&#x200B;**「全部產生」**&#x200B;來取得新連結。
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **注意:** 預覽連結會在新標籤中開啟，並且需要停用您的瀏覽器中的快顯封鎖程式。
 
