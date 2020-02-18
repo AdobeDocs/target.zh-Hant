@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 ---
 
@@ -135,6 +135,10 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
 在這樣做之前，您需要先清除 Cookie。
+
+>[!NOTE]
+>
+>mboxOverride.browserIp僅在at.js 1.*jx中受支援*。 at.js 2不支援此功能。*x* 版本不支援此函數。
 
 **波多黎各和香港等地區要如何對應至地理鎖定目標結構?**
 
