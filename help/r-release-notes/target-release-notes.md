@@ -5,7 +5,7 @@ title: Adobe target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: f710882392f54c13a2161a97b7530796f9a99283
 
 ---
 
@@ -51,7 +51,6 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 * 已修正此問題：透過API建立但未由Target UI中建立之活動所參照的准則，可能會從UI中錯誤刪除。 (TGT-35917)
 * 已實作內容安全性政策(CSP)的安全性改進。 (TGT-36190)
 * 修正將「屬性加權」百分比列滑至最左側時，顯示「NaN%」的問題。 (TGT-36211)
-* 解決客戶無法將「自動個人化」(AP)活動中的演算法從「隨機森林」變更為「殘留變數」的問題。 (TGT-36321)
 * 已解決本地化問題，讓各種語言的UI文字可正確顯示。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
