@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -14,12 +14,18 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 20.2.1 (2020 年 2 月 19 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 2020年2月19日 |  [版本說明](/help/r-release-notes/release-notes.md) | 已新增有關即將淘汰mbox.js程式庫的資訊。 |
+|  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 已新增 `mboxOverride.browserIp` at.js 1支援的附註。*x* 版。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 20.2.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+
 ## Adobe Target Standard/Premium 20.1.1 (2020 年 2 月 4 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2020年2月18日 |  [版本說明](/help/r-release-notes/release-notes.md) | 已新增有關即將淘汰mbox.js程式庫的資訊。 |
-|  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 已新增注意，mboxOverride.browserIp僅在at.js 1中受支援。*x* 版本不支援此函數。 |
 | 2月4日 | [版本說明](/help/r-release-notes/release-notes.md): 20.1.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 19.10.1 (2019 年 10 月 22 日)
