@@ -5,7 +5,7 @@ title: 舊版版本說明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -17,6 +17,15 @@ source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 >[!NOTE]
 >
 >請參閱 [Target 版本說明 (最新)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
+
+## 發行說明- 2020
+
+### Target Standard/Premium 20.1.1 (2020 年 2 月 4 日)
+
+Target Standard/Premium 20.1.1版是維護髮行，包含後端增強功能與改進。 此外，還包含下列修正：
+
+* 修正現有Adobe for Target(A4T)活動的「目標與設定」頁面上，Adobe Analytics追蹤伺服器欄位空白的問題。 (TGT-35960)
+* 修正使用者介面中，建立類別相似性對象時，第二個下拉式清單中無法顯示您選取範圍的問題。 (TGT-36098)
 
 ## 版本說明 - 2019 {#releases-2019}
 
