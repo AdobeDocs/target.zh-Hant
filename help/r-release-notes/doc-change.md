@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2020年2月19日 |  [版本說明](/help/r-release-notes/release-notes.md) | 已新增有關即將淘汰mbox.js程式庫的資訊。 |
+| 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 已新增下列設定的資訊： `pageLoadEnabled` 和 `viewsEnabled`。 |
+| 2 月 19 日 |  [版本說明](/help/r-release-notes/release-notes.md) | 已新增有關即將淘汰mbox.js程式庫的資訊。 |
 |  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 已新增 `mboxOverride.browserIp` at.js 1支援的附註。*x* 版。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已釐清文字，說明Target團隊支援哪些版本的at.js。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 20.2.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
