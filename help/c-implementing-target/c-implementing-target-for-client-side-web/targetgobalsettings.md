@@ -1,11 +1,11 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;at.js;function;clientCode;clientdomain;serverCookieDomain;cookieDomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiImeout;dedentContentContentComeoutStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServerTimeout;optoutEnabled;optout;selectorsPollingTimeout;dataProviers
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -30,7 +30,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | timeout | 數字 | 透過 UI 設定值 | 代表 Target Edge 要求逾時 |
 | globalMboxAutoCreate | 布林值 | 透過 UI 設定值 | 指出是否應觸發全域 mbox 要求 |
 | visitorApiTimeout | 數字 | 2000 毫秒 = 2 秒 | 代表訪客 API 要求逾時 |
-| 已啟用 | 布林值 | true | 指出 at.js 作為資料庫是否已啟用，代表它是否應該執行任何動作。此設定的主要使用案例為選擇退出 Cookie 或會停用 at.js 功能的其他自訂決策 |
+| 已啟用 | 布林值 | true | 啟用後，會自動執行Target要求擷取體驗和DOM操作以呈現體驗。 此外，Target呼叫可透過 `getOffer(s)` /手動 `applyOffer(s)`<br>執行。停用時，Target請求不會自動或手動執行 |
+| pageLoadEnabled | 布林值 | true | 啟用後，自動擷取必須在頁面載入時傳回的體驗 |
+| viewsEnabled | 布林值 | true | 啟用後，會自動擷取必須在頁面載入時傳回的檢視。 at.js 2支援檢視。*僅限* x |
 | defaultContentHiddenStyle | 字串 | visibility: hidden | 僅用於包住使用類別名稱為「mboxDefault」的 DIV，並透過 `mboxUpdate()`、`mboxCreate()` 或 `mboxDefine()` 執行以隱藏預設內容的 mbox |
 | defaultContentVisibleStyle | 字串 | visibility: visible | 僅用於包住使用類別名稱為「mboxDefault」的 DIV，並透過 `mboxUpdate()`、`mboxCreate()` 或 `mboxDefine()` 執行以顯示套用的選件 (若有) 或預設內容的 mbox |
 | bodyHiddenStyle | 字串 | body { opacity: 0 } | 僅當 `globalMboxAutocreate === true` 才使用，以將閃爍的機會最小化。<br>如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。 |
@@ -38,14 +40,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | imsOrgId | 字串 | IMS 組織 ID | 代表 IMS ORG ID |
 | secureOnly | 布林值 | false | 指出 at.js 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。 |
 | overrideMboxEdgeServer | 布林值 | true (從 at.js 1.6.2 版開始) | 指出應使用 `<clientCode>.tt.omtrdc.net` 網域還是 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域。<br>如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie |
-| overrideMboxEdgeServerTimeout | 數字 | 1860000 =&gt; 31 分鐘 | 指出包括 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 存留期。 |
+| overrideMboxEdgeServerTimeout | 數字 | 1860000 => 31 分鐘 | 指出包括 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 存留期。 |
 | optoutEnabled | 布林值 | false | 指出 Target 是否應該呼叫訪客 API `isOptedOut()` 函數。這屬於裝置圖表啟用的一部分。 |
 | selectorsPollingTimeout | 數字 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 推出了這項新設定，且可以透過 `targetGlobalSettings` 覆寫此設定。<br>`selectorsPollingTimeout` 代表用戶端願意等候選取器所識別的所有元素出現在頁面上的時間。<br>透過可視化體驗撰寫器 (VEC) 建立的活動，其具有的選件包含選取器。 |
 | dataProviders | 請參閱下文的「資料提供者」。 | 請參閱下文的「資料提供者」。 | 請參閱下文的「資料提供者」。 |
 
 ## 使用狀況 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-可以在載入 at.js 之前定義此函數，或是在&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作]** &gt; **[!UICONTROL 編輯 at.js 設定]** &gt; **[!UICONTROL 程式碼設定]** &gt; **[!UICONTROL 資料庫標題」]**&#x200B;中定義。
+可以在載入 at.js 之前定義此函數，或是在&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「實作」]**>**[!UICONTROL 「編輯 at.js 設定」]**>**[!UICONTROL 「程式碼設定」]**>**[!UICONTROL 「資料庫標題」]**&#x200B;中定義。
 
 資料庫標頭欄位允許輸入自由格式的 JavaScript。自訂程式碼看起來應該類似於下列範例:
 
@@ -305,7 +307,7 @@ Consider the following when using `serverState`:
 
 * 套用選 `serverState `件時，at.js會考慮並設定 `pageLoadEnabled` , `viewsEnabled` 例如，如果設定為false，則不會套用「頁面載入 `pageLoadEnabled` 選件」。
 
-   若要開啟這些設定，請啟用 **[UICONTROL設定&gt;實作&gt;編輯設定&gt;頁面載入啟用中的切換]**。
+   若要開啟這些設定，請啟用 **[UICONTROL設定>實作>編輯設定>頁面載入啟用中的切換]**。
 
    ![頁面載入啟用的設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
