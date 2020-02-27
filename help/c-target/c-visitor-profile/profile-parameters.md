@@ -5,7 +5,7 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
 
 ---
 
@@ -34,10 +34,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 您可以使用設定檔指令碼來跨多次造訪擷取訪客屬性。設定檔指令碼是 Target 內使用一種伺服器端 JavaScript 來定義的程式碼片段。例如，您可以使用設定檔指令碼來記錄訪客有多頻繁造訪您的網站，以及上次何時造訪。
 
 設定檔指令碼與設定檔參數不同。設定檔參數使用 Target 的 mbox 程式碼實作來擷取訪客的相關資訊。
-
->[!NOTE]
->
->[!DNL Target] 有每個帳戶 1,000 個設定檔指令碼的限制。
 
 ## 建立設定檔指令碼 {#section_CB02F8B97CAF407DA84F7591A7504810}
 
@@ -124,6 +120,17 @@ if (mbox.name == 'Track_Interest') {
 * 不僅要注意指令碼效能，還要注意所有指令碼的綜合效能。我們建議的最佳作法是總共少於 5,000 條指示。指示的計算數量並不明顯，但需要注意的重要事項是超過 2 KB 的指令碼會自動停用。您可以執行的指令碼數量沒有設定限制，但每個指令碼會在每次 mbox 呼叫時執行。視需要執行多個指令碼。
 * 在規則運算式中，開頭幾乎永遠不需要有點星號 (例如: `/.*match/`、`/a|.*b/`)。規則運算式搜尋會從字串中的所有位置開始 (除非受到 `^` 限制)，因此已假設點星號。如果此類規則運算式符合長度足夠的輸入資料 (可能至少有數百個字元)，指令碼執行可能會中斷。
 * 如果全部失敗，將指令碼包覆在 try/catch 中。
+* 限制描述檔指令碼複雜度的建議：描述檔指令碼可執行有限數量的指令。
+
+   作為最佳做法：
+
+   * 盡可能精簡描述檔指令碼。
+   * 避免使用規則運算式，或僅使用非常簡單的規則運算式。 即使是簡單的運算式，也需要大量的指示來評估。
+   * 避免遞回。
+   描述檔指令碼應先經過效能測試，再新增至Target。 所有描述檔指令碼會在每個mbox請求上執行。 如果描述檔指令碼未正確執行，mbox請求的執行時間會較長。 這可能會影響流量和轉換。
+
+   如果描述檔指令碼太複雜，請考慮改用回應Token。
+
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## 用來測試互斥活動的設定檔指令碼 {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
