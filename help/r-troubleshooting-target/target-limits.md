@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
 
 ---
 
@@ -188,7 +188,11 @@ source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ## 設定檔指令碼
 
-**建議的限制**: 300 個使用中的設定檔指令碼。
+**建議的活動配置檔案指令碼限制**:300
+
+**建議的每個帳戶描述檔指令碼總數限制**:零點二萬
+
+**限制描述檔指令碼複雜度的建議**:描述檔指令碼可執行有限數量的指令。 如需詳細資訊，請參 [閱描述檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#best) 中的 [最佳實務](/help/c-target/c-visitor-profile/profile-parameters.md)。
 
 **建議的限制**: 每個設定檔指令碼的迴圈數目最多 500,000 個。
 
