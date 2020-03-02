@@ -5,7 +5,7 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
 
 ---
 
@@ -14,18 +14,26 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於活動的訪客資訊。
 
-當訪客瀏覽網站或返回另一個工作階段時，可以使用儲存的描述檔屬性來定位內容，或是記錄群體篩選資訊。
+使用者描述檔包含網頁訪客的人口統計和行為資訊，例如年齡、性別、購買的產品、上次瀏覽時間等，讓Target用來個人化其為訪客提供的內容。
 
-若要建立設定檔屬性，請按一下「**[!UICONTROL 對象]** > **[!UICONTROL 設定檔指令碼]**」。
+當訪客瀏覽您的網站或返回另一個作業時，可使用描述檔中儲存的描述檔屬性來定位內容或記錄區段篩選資訊。
 
-![設定檔指令碼標籤](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+要設定配置檔案屬性，請執行以下操作：
 
-可用的設定檔屬性類型如下:
+1. 按一 **[!UICONTROL 下「觀眾]** >描述 **[!UICONTROL 檔指令碼」。]**
 
-| 參數類型 | 說明 |
-|--- |--- |
-| mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
-| 指令碼 | 直接以 JavaScript 程式碼片段定義。其可儲存諸如客戶總花費金額等執行總數，並透過每個 mbox 請求來執行。請參閱以下的設定檔指令碼屬性。 |
+   ![設定檔指令碼標籤](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+
+1. 按一下 **[!UICONTROL 建立指令碼]**。
+
+   ![建立設定檔指令碼對話方塊](/help/c-target/c-visitor-profile/assets/create-script.png)
+
+   可用的設定檔屬性類型如下:
+
+   | 參數類型 | 說明 |
+   |--- |--- |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | 描述檔 | 直接以 JavaScript 程式碼片段定義。其可儲存諸如客戶總花費金額等執行總數，並透過每個 mbox 請求來執行。請參閱以下的設定檔指令碼屬性。 |
 
 ## 設定檔指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -43,13 +51,13 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 或
 
-若要複製現有設定檔指令碼，請從[!UICONTROL 「設定檔指令碼」]清單中，暫留在所需的指令碼上，然後按一下&#x200B;**[!UICONTROL 「複製」]**&#x200B;圖示: (assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 然後您可以編輯對象以建立類似的對象。
 
 ![建立設定檔指令碼對話方塊](assets/profile-script.png)
 
-設定檔指令碼會針對每個位置請求，執行設定檔屬性「捕捉器」。收到位置請求時，Target 會決定應執行的活動，並顯示適合該活動及該體驗的內容、追蹤活動成功與否，並且執行任何相關的設定檔指令碼。這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。這些資訊會接著加到該訪客的描述檔中，以便您更有效追蹤訪客在您網站上的活動。
+設定檔指令碼會針對每個位置請求，執行設定檔屬性「捕捉器」。收到位置請求時，Target 會決定應執行的活動，並顯示適合該活動及該體驗的內容、追蹤活動成功與否，並且執行任何相關的設定檔指令碼。這可讓您追蹤有關瀏覽的資訊，例如訪客的位置、一天中的時間、訪客瀏覽網站的次數、訪客之前是否曾購買過等。 這些資訊會接著加到該訪客的描述檔中，以便您更有效追蹤訪客在您網站上的活動。
 
 設定檔指令碼屬性會將 `user.` 標籤插入在屬性名稱前。例如:
 
@@ -60,6 +68,8 @@ if (mbox.name == 'Track_Interest') {
     } 
 }
 ```
+
+請記住下列資訊：
 
 * 在程式碼中使用 `user.get('parameterName')` &#39;) 來參照設定檔指令碼屬性 (包括本身)
 * 儲存下次執行此指令碼時 (下一個 mbox 請求時) 可存取包含 `user.setLocal('variable_name', 'value')` &#39;) 的變數。參考包含 `user.getLocal('variable_name')` &#39;) 的變數。這對您想要參考上次請求的日期與時間的情況下非常有用。
@@ -87,10 +97,9 @@ if (mbox.name == 'Track_Interest') {
 > * 活動中使用的內容或選件使用指令碼變數 (活動中的內嵌選件或「選件」資料庫中的選件)。
 
 
-
 ## Target 在某些情況下會停用設定檔指令碼 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] 在某些情況下會自動停用設定檔指令碼，例如執行太久或有太多指令。
+[!DNL Target] 在特定情況下自動停用描述檔指令碼，例如執行時間過長或指令過多。
 
 設定檔指令碼停用時，Target UI 中的設定檔指令碼旁邊會出現黃色警示圖示，如下所示:
 
@@ -111,25 +120,23 @@ if (mbox.name == 'Track_Interest') {
 
 下列準則主要是為了協助您撰寫儘可能不會出錯或失敗的簡化描述檔指令檔，透過撰寫適當失效的程式碼處理指令碼，而無須強迫系統或指令碼暫停。這些準則是最佳實務的結果，經證明最有執行效率。您可以套用這些準則並搭配由 Rhino 開發社群所擬的原則與建議。
 
-* 在使用者指令碼中，將目前指令碼值設為本地變數，將容錯移轉設為空白字串。
+* 將當前指令碼值設定為用戶指令碼中的本地變數，將故障切換設定為空字串。
 * 藉由確保本地變數不是空白字串來驗證此變數。
-* 使用字串架構操作功能與規則運算式。
+* 使用字串型控制函式與規則運算式。
 * 使用限制迴圈與開放端或 while 迴圈。
 * 請勿超過 1,300 個字元或 50 個迴圈反覆。
 * 請勿超過 2,000 個 JavaScript 指令。Target 具有每個指令碼 2,000 個 JavaScript 指示的限制，但這無法僅透過手動讀取 JavaScript 來計算。例如，Rhino 將所有函數呼叫和「新的」呼叫視為 100 個指示。此外，任何輸入資料的大小，例如 URL 值，皆可能影響指示計數。
 * 不僅要注意指令碼效能，還要注意所有指令碼的綜合效能。我們建議的最佳作法是總共少於 5,000 條指示。指示的計算數量並不明顯，但需要注意的重要事項是超過 2 KB 的指令碼會自動停用。您可以執行的指令碼數量沒有設定限制，但每個指令碼會在每次 mbox 呼叫時執行。視需要執行多個指令碼。
 * 在規則運算式中，開頭幾乎永遠不需要有點星號 (例如: `/.*match/`、`/a|.*b/`)。規則運算式搜尋會從字串中的所有位置開始 (除非受到 `^` 限制)，因此已假設點星號。如果此類規則運算式符合長度足夠的輸入資料 (可能至少有數百個字元)，指令碼執行可能會中斷。
 * 如果全部失敗，將指令碼包覆在 try/catch 中。
-* 限制描述檔指令碼複雜性的建議。
-
-   描述檔指令碼可執行有限數量的指令。
+* 下列建議可協助您限制描述檔指令碼的複雜性。 描述檔指令碼可執行有限數量的指令。
 
    作為最佳做法：
 
    * 盡可能精簡描述檔指令碼。
    * 避免使用規則運算式，或僅使用非常簡單的規則運算式。 即使是簡單的運算式，也需要許多指示來評估。
    * 避免遞回。
-   * 描述檔指令碼應先經過效能測試，再新增至Target。 所有描述檔指令碼會在每個mbox請求上執行。 如果描述檔指令碼未正確執行，mbox請求的執行時間會較長，這可能會影響流量和轉換。
+   * 描述檔指令碼應先經過效能測試，再新增至Target。 所有描述檔指令碼會在每個mbox請求上執行。 如果描述檔指令碼未正確執行，mbox請求的執行時間會較長。 這可能會影響流量和轉換。
    * 如果描述檔指令碼太複雜，請考慮改 [用回應Token](/help/administrating-target/response-tokens.md) 。
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -140,12 +147,12 @@ if (mbox.name == 'Track_Interest') {
 
 測試互斥的活動可避免某個活動中的訪客影響到其他活動的測試結果。當訪客同時參與多個活動時，很難判斷正提升或負提升是否來自訪客在某個活動中的體驗，或者，多個活動之間的互動是否影響一個或多個活動的結果。
 
-例如，您可以測試您電子商務系統的兩個區域。您想要測試將「加入購物車」按鈕從藍色改為紅色。您也想要測試一套新的結帳程序，以將結帳的程序從五個步驟減為兩個步驟。如果這兩個活動都有相同的成功事件 (已完成採購)，則很難判斷紅色按鈕是否改善轉換，或者，同樣的轉換是否也因為結帳程序改善而增加。透過將測試分成互斥的活動，您可以單獨測試每個變更。
+例如，您可以測試您電子商務系統的兩個區域。您可能想要測試如何將「新增至購物車」按鈕設定為紅色而非藍色。 您也想要測試一套新的結帳程序，以將結帳的程序從五個步驟減為兩個步驟。如果兩個活動都有相同的成功事件（完成的購買），則很難判斷紅色按鈕是否改善了轉換，或者這些相同的轉換是否也因為結帳程式的改善而增加。 透過將測試分成互斥的活動，您可以單獨測試每個變更。
 
 使用下列其中一個設定檔指令碼時，請注意下列資訊:
 
 * 設定檔指令碼必須在活動啟動之前執行，而指令碼在活動期間必須保持不變。
-* 此技術會減少活動中的流量，因此可能需要讓活動執行更久。當預估活動的持續時間，您必須考量此事實。
+* 此技術可減少活動中的流量，這可能需要活動運行更長時間。 當預估活動的持續時間，您必須考量此事實。
 
 ### 設定兩個活動
 
@@ -162,17 +169,17 @@ if (!user.get('twogroups')) {
 }
 ```
 
-`if (!user.get('twogroups'))` 決定了 *twogroups* 描述檔屬性是否設定為目前訪客。如果他們是目前訪客，則無需採取任何進一步的動作。
+* `if (!user.get('twogroups'))` 決定了 *twogroups* 描述檔屬性是否設定為目前訪客。如果他們是目前訪客，則無需採取任何進一步的動作。
 
-`var ran_number=Math.floor(Math.random() *99)` 會宣告名稱為 ran_number 的新變數，將值設為 0 到 1 之間的隨機小數，然後乘以 99 並無條件捨去，以建立一個 100 (0-99) 的範圍，這很適合用來指定看到此活動的訪客百分比。
+* `var ran_number=Math.floor(Math.random() *99)` 會宣告名稱為 ran_number 的新變數，將值設為 0 到 1 之間的隨機小數，然後乘以 99 並無條件捨去，以建立一個 100 (0-99) 的範圍，這很適合用來指定看到此活動的訪客百分比。
 
-`if (ran_number <= 49)` 開始了決定訪客會屬於哪個群組的常式。如果傳回的數字是 0-49，那麼此位訪客會被指定至 GroupA。如果該數字是 50-99，那麼此位訪客會被指定至 GroupB。群組會決定訪客可看到的活動。
+* `if (ran_number <= 49)` 開始了決定訪客會屬於哪個群組的常式。如果傳回的數字是 0-49，那麼此位訪客會被指定至 GroupA。如果該數字是 50-99，那麼此位訪客會被指定至 GroupB。群組會決定訪客可看到的活動。
 
-建立設定檔屬性之後，設定第一個活動，規定使用者設定檔參數 user.twogroups 必須符合 GroupA 指定的值，將目標鎖定在所需的人口族群。
+After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
 >[!NOTE]
 >
->在頁面上方的位置選擇一個 mbox。此代碼會決定訪客是否會體驗此促銷活動。只要瀏覽器會在先處理 mbox 的情況下，您便可以使用代碼來設定此值。
+>在頁面上方的位置選擇一個 mbox。此程式碼會決定訪客是否體驗活動。 只要瀏覽器會在先處理 mbox 的情況下，您便可以使用代碼來設定此值。
 
 設定第二個促銷活動，以便使用者描述檔參數 `user.twogroups` 可以符合指定給 GroupB 的值。
 
@@ -256,7 +263,7 @@ if (!user.get('threegroups')) {
 
 ## 指令碼設定檔參數的 JavaScript 參考資料
 
-您需要有初級的 Javascript 知識，才能有效使用指令碼設定檔參數。本節可做為快速參考資料，只需要幾分鐘，就能讓您提高使用此功能的效率。
+必須具備簡單的Javascript知識，才能有效使用指令碼描述檔參數。 本節可做為快速參考資料，只需要幾分鐘，就能讓您提高使用此功能的效率。
 
 您可以在 mbox/設定檔標籤下找到指令碼設定檔參數。您可以撰寫傳回任何 Javascript 類型 (字串、整數、陣列等) 的 Javascript 程式。
 
@@ -312,7 +319,6 @@ else if (mbox.param("adobeQA"))
 
 建立名為的變 `adobeQA` 數，以追蹤 [Activity QA的使用者](/help/c-activities/c-activity-qa/activity-qa.md)。
 
-
 ### 物件和方法
 
 指令碼設定檔參數可參考下列屬性和方法:
@@ -321,7 +327,7 @@ else if (mbox.param("adobeQA"))
 | --- | --- |
 | `page.url` | 目前的 URL。 |
 | `page.protocol` | 用於頁面的通訊協定 (http 或 https)。 |
-| page.domain | 目前的 URL 網域 (第一個正斜線之前的所有內容)。例如，`http://www.acme.com/categories/men_jeans?color=blu e&size=small` 中的 `www.acme.com`。 |
+| `page.domain` | 目前的 URL 網域 (第一個正斜線之前的所有內容)。例如，`http://www.acme.com/categories/men_jeans?color=blu e&size=small` 中的 `www.acme.com`。 |
 | `page.query` | 目前頁面的查詢字串。‘?’ 之後的所有內容。例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
 | `page.param(‘<par_name>’)` | 由 `<par_name>` 指示之參數的值。如果您目前的 URL 是 Google 的搜尋頁面，而您已經輸入 `page.param('hl')`，則就 URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` 而言會得到「en」。 |
 | `page.referrer` | 上述同一組作業適用於轉介者和登陸 (亦即，referrer.url 將會是轉介者的 URL 位址)。 |
