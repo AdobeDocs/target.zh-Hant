@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -275,6 +275,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
       + [訪客設定檔概覽](c-target/c-visitor-profile/visitor-profile.md)
       + [訪客設定檔存留期](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [設定檔屬性](c-target/c-visitor-profile/profile-parameters.md)
+      + [使用描述檔指令碼來測試互斥的活動](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [類別相關性](c-target/c-visitor-profile/category-affinity.md)
       + [客戶屬性](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [mbox3rdPartyId 的即時設定檔同步](c-target/c-visitor-profile/3rd-party-id.md)
