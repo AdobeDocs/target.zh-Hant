@@ -5,7 +5,7 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -99,7 +99,7 @@ if (mbox.name == 'Track_Interest') {
 
 ## Target 在某些情況下會停用設定檔指令碼 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] 在特定情況下自動停用描述檔指令碼，例如執行時間過長或指令過多。
+[!DNL Target] 在特定情況下自動停用描述檔指令碼，例如執行時間太長或指令太多。
 
 設定檔指令碼停用時，Target UI 中的設定檔指令碼旁邊會出現黃色警示圖示，如下所示:
 
@@ -126,7 +126,7 @@ if (mbox.name == 'Track_Interest') {
 * 使用限制迴圈與開放端或 while 迴圈。
 * 請勿超過 1,300 個字元或 50 個迴圈反覆。
 * 請勿超過 2,000 個 JavaScript 指令。Target 具有每個指令碼 2,000 個 JavaScript 指示的限制，但這無法僅透過手動讀取 JavaScript 來計算。例如，Rhino 將所有函數呼叫和「新的」呼叫視為 100 個指示。此外，任何輸入資料的大小，例如 URL 值，皆可能影響指示計數。
-* 不僅要注意指令碼效能，還要注意所有指令碼的綜合效能。我們建議的最佳作法是總共少於 5,000 條指示。指示的計算數量並不明顯，但需要注意的重要事項是超過 2 KB 的指令碼會自動停用。您可以執行的指令碼數量沒有設定限制，但每個指令碼會在每次 mbox 呼叫時執行。視需要執行多個指令碼。
+* 不僅要注意指令碼效能，還要注意所有指令碼的綜合效能。我們建議的最佳作法是總共少於 5,000 條指示。計算指令數目並不明顯，但需要注意的是，超過2,000個指令的指令碼會自動停用。 作用中描述檔指令碼的數目不應超過300個。 每個指令碼都會與每個單一mbox呼叫一起執行。 視需要執行多個指令碼。
 * 在規則運算式中，開頭幾乎永遠不需要有點星號 (例如: `/.*match/`、`/a|.*b/`)。規則運算式搜尋會從字串中的所有位置開始 (除非受到 `^` 限制)，因此已假設點星號。如果此類規則運算式符合長度足夠的輸入資料 (可能至少有數百個字元)，指令碼執行可能會中斷。
 * 如果全部失敗，將指令碼包覆在 try/catch 中。
 * 下列建議可協助您限制描述檔指令碼的複雜性。 描述檔指令碼可執行有限數量的指令。
@@ -140,94 +140,6 @@ if (mbox.name == 'Track_Interest') {
    * 如果描述檔指令碼太複雜，請考慮改 [用回應Token](/help/administrating-target/response-tokens.md) 。
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
-
-## 用來測試互斥活動的設定檔指令碼 {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
-
-您可以使用設定檔屬性來設定測試，以比較兩個或更多個活動，但請勿讓相同訪客參與每一個活動。
-
-測試互斥的活動可避免某個活動中的訪客影響到其他活動的測試結果。當訪客同時參與多個活動時，很難判斷正提升或負提升是否來自訪客在某個活動中的體驗，或者，多個活動之間的互動是否影響一個或多個活動的結果。
-
-例如，您可以測試您電子商務系統的兩個區域。您可能想要測試如何將「新增至購物車」按鈕設定為紅色而非藍色。 您也想要測試一套新的結帳程序，以將結帳的程序從五個步驟減為兩個步驟。如果兩個活動都有相同的成功事件（完成的購買），則很難判斷紅色按鈕是否改善了轉換，或者這些相同的轉換是否也因為結帳程式的改善而增加。 透過將測試分成互斥的活動，您可以單獨測試每個變更。
-
-使用下列其中一個設定檔指令碼時，請注意下列資訊:
-
-* 設定檔指令碼必須在活動啟動之前執行，而指令碼在活動期間必須保持不變。
-* 此技術可減少活動中的流量，這可能需要活動運行更長時間。 當預估活動的持續時間，您必須考量此事實。
-
-### 設定兩個活動
-
-如果要將訪客分組，讓各組看到不同的活動，則您必須建立設定檔屬性。描述檔屬性可將訪客分到兩個或多個群組中的其中一個群組。若要設定稱為 twogroups 的描述檔屬性，您可以建立以下指令碼:
-
-```
-if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number <= 49) { 
-        return 'GroupA'; 
-    } else { 
-        return 'GroupB'; 
-    } 
-}
-```
-
-* `if (!user.get('twogroups'))` 決定了 *twogroups* 描述檔屬性是否設定為目前訪客。如果他們是目前訪客，則無需採取任何進一步的動作。
-
-* `var ran_number=Math.floor(Math.random() *99)` 會宣告名稱為 ran_number 的新變數，將值設為 0 到 1 之間的隨機小數，然後乘以 99 並無條件捨去，以建立一個 100 (0-99) 的範圍，這很適合用來指定看到此活動的訪客百分比。
-
-* `if (ran_number <= 49)` 開始了決定訪客會屬於哪個群組的常式。如果傳回的數字是 0-49，那麼此位訪客會被指定至 GroupA。如果該數字是 50-99，那麼此位訪客會被指定至 GroupB。群組會決定訪客可看到的活動。
-
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
-
->[!NOTE]
->
->在頁面上方的位置選擇一個 mbox。此程式碼會決定訪客是否體驗活動。 只要瀏覽器會在先處理 mbox 的情況下，您便可以使用代碼來設定此值。
-
-設定第二個促銷活動，以便使用者描述檔參數 `user.twogroups` 可以符合指定給 GroupB 的值。
-
-### 設定三個或更多個活動
-
-設定三個或更多個互斥活動類似於設定兩個互斥活動，但您必須變更設定檔屬性 JavaScript，為每個活動建立單獨群組，並決定哪個群組會看到哪個活動。產生隨機數字的方式有所不同，這取決於您是建立奇數個還是偶數個群組。
-
-例如，若要建立四個群組，請使用下列 JavaScript:
-
-```
-if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number <= 24) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 49) { 
-        return 'GroupB'; 
-    } else if (ran_number <= 74) { 
-        return 'GroupC'; 
-    } else { 
-        return 'GroupD'; 
-    } 
-}
-```
-
-在此範例中，用來產生隨機數字 (可將訪客指定至群組) 的算術會與只有兩個群組的情況下完全相同。若隨機產生一個小數，那麼請將它無條件捨去後取整數。
-
-如果您建立了奇數個群組，或是 100 無法除盡的任何數字，那麼您不應該將小數無條件捨去後取整數。不將小數四捨五入的情況可讓您指定一個非整數的範圍。您可以變更此行來執行此作業:
-
-`var ran_number=Math.floor(Math.random()*99);`
-
-到:
-
-`var ran_number=Math.random()*99;`
-
-例如，若要將訪客平均放在三個群組中，請使用下列程式碼:
-
-```
-if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
-    if (ran_number <= 32.33) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 65.66) { 
-        return 'GroupB'; 
-    } else { 
-        return 'GroupC'; 
-    } 
-}
-```
 
 ## 偵錯設定檔指令碼 {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -306,7 +218,7 @@ if (mbox.name == 'orderThankyouPage') {
 
 建立稱為 `monetaryValue` 的變數，查詢指定訪客目前的值 (或如果沒有先前的值，則設為 0)。如果 mbox 名稱為 `orderThankyouPage`，系統會將先前的值與傳遞給 mbox 的 `orderTotal` 參數的值相加，以傳回新貨幣值。
 
-**** 名稱：adobeQA
+**名稱：** adobeQA
 
 ```
 if (page.param("adobeQA"))
