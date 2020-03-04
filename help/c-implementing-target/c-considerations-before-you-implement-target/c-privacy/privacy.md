@@ -1,12 +1,12 @@
 ---
-keywords: 概覽和參考
+keywords: Overview and Reference
 description: Adobe Target 已啟用程序和設定，允許您使用 Target 遵守適用的資料隱私權法律。
 title: 隱私權
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 ---
 
@@ -25,9 +25,15 @@ Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 
 
 啟用此功能時，IP 位址的匿名性已足夠，不再能識別為個人資訊。因此，Adobe Target 的使用便能遵守不允許收集個人資訊之國家/地區的資料隱私權法律。IP 位址模糊化可能會顯著影響城市層級資訊的取得。地區和國家層級資訊則只會受到輕微影響。
 
-另外還有一個設定可模糊化整個 IP 位址。
+請聯絡 Adobe Client Care 以啟用 IP 模糊化功能。
 
-請聯絡 Adobe 客戶服務以啟用 IP 模糊化功能。
+可使用下列設定:
+
+* 無模糊化：Target不會隱藏IP位址的任何部分。
+* 最後八位數字：Target會隱藏IP位址的最後八位元。
+* 完整IP:Target會隱藏整個IP位址。
+
+Target會接收完整的IP位址，並依指定將其模糊化（若設為「最後八位數」或「完整的IP」）。 然後，Target會在作業期間將模糊化的IP位址保留在記憶體中。
 
 ## 地域劃分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
