@@ -1,11 +1,11 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits
-description: 本頁列出依發行順序對Adobe target檔案所做的重要變更。
+description: 本頁列出依發行順序對Adobe Target檔案所做的重要變更。
 title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2月21日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關新Adobe Experience cloud導覽的資訊。 |
+| 3月4日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新整個主題，並對「最佳實務」一節進行廣泛修訂。 |
+| 2月21日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關新Adobe Experience Cloud導覽的資訊。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 已新增下列設定的資訊： `pageLoadEnabled` 和 `viewsEnabled`。 |
 | 2 月 19 日 |  [版本說明](/help/r-release-notes/release-notes.md) | 已新增有關即將淘汰mbox.js程式庫的資訊。 |
 |  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 已新增 `mboxOverride.browserIp` at.js 1支援的附註。*x* 版。 |
@@ -48,7 +49,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增有關上傳和移除實體和實體屬性的附註。 |
 |  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：Recommendations內容追蹤中有時傳回的NO_CONTENT回應代表什麼意思？ |
 |  | [建立訂購確認 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | 已新增附註，說明如何使用at.js 2執行訂單確認。*x* 版本不支援此函數。 |
-| 2020 年 1 月 9 日 | [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字。<br>在2020年3月1日之後，Adobe target將不再支援Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活動傳送、API等的TLS 1.1加密。 請在2020年3月1日之前升級至TLS 1.2，以避免任何問題。 |
+| 2020 年 1 月 9 日 | [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字。<br>在2020年3月1日之後，Adobe Target將不再支援Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活動傳送、API等的TLS 1.1加密。 請在2020年3月1日之前升級至TLS 1.2，以避免任何問題。 |
 | 2020年1月6日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增「自訂准則」饋送狀態的已知問題。 |
 | 2019年12月19日 | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 已新增有關1.1.0版的資訊。 |
 | 2019 年 12 月 12 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新常見問答區段。 |
@@ -96,7 +97,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2019 年 10 月 17 日 | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新主題，說明「活動QA」如何與第三方Cookie搭配運作。 |
-|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新發行說明，加入有關Unified shell變更的資訊。 |
+|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新發行說明，加入有關Unified Shell變更的資訊。 |
 | 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 新增區段：&quot;serverState.&quot; |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增at.js 2.2和at.js 1.8版的相關資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增at.js 2.2和at.js 1.8版的相關資訊。 |
