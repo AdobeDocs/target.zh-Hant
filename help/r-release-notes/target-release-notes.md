@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 * 自2020年3月Target發行起，Analytics for Target(A4T)不再支援下列Adobe Analytics量度：
    * averagevisidpth
    * 機器人
-* 以下量度不再受支援，當使用者第一次修改包含量度的活動時，這些量度會自動轉換為相同量度的新版本：
+* 以下量度不再受支援，當使用者第一次修改包含量度的活動時，這些量度會自動轉換為新的量度版本：
 
    | 過時的量度 | 新增量度 |
    |--- |--- |
