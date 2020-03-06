@@ -5,7 +5,7 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 * 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
 
-## Target Standard/Premium 20.2.1 (2020 年 3 月 3 日)
+## Target Standard/Premium 20.2.1 (2020 年 3 月 9 日)
 
 >[!IMPORTANT]
 >
