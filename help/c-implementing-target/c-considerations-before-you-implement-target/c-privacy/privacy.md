@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -25,8 +25,6 @@ Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 
 
 啟用此功能時，IP 位址的匿名性已足夠，不再能識別為個人資訊。因此，Adobe Target 的使用便能遵守不允許收集個人資訊之國家/地區的資料隱私權法律。IP 位址模糊化可能會顯著影響城市層級資訊的取得。地區和國家層級資訊則只會受到輕微影響。
 
-請聯絡 Adobe Client Care 以啟用 IP 模糊化功能。
-
 可使用下列設定:
 
 * 無模糊化：Target不會隱藏IP位址的任何部分。
@@ -34,6 +32,10 @@ Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 
 * 完整IP:Target會隱藏整個IP位址。
 
 Target會接收完整的IP位址，並依指定將其模糊化（若設為「最後八位數」或「完整的IP」）。 然後，Target會在作業期間將模糊化的IP位址保留在記憶體中。
+
+>[!NOTE]
+>
+>[請連絡Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以判斷您目前使用的設定，或啟用IP模糊化功能。
 
 ## 地域劃分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
