@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
 
 ---
 
@@ -23,7 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [自訂實體屬性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在「使用API」的「實 *作多值屬性* 」 *下方新增程式碼範例*。 |
 |  |  [版本說明](/help/r-release-notes/release-notes.md) | 將發行日期變更為3月9日。 |
 | 3月4日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新整個主題，並對「最佳實務」一節進行廣泛修訂。 |
-|  |  [版本說明](/help/r-release-notes/release-notes.md) | 將發行日期變更為3月9日。 |
+|  |  [版本說明](/help/r-release-notes/release-notes.md) | 指出此發行日期尚未確定。 |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關使用Target for Analytics(A4T)時已過時和變更量度的資訊。 |
 | 2月21日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關新Adobe Experience Cloud導覽的資訊。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 已新增下列設定的資訊： `pageLoadEnabled` 和 `viewsEnabled`。 |
