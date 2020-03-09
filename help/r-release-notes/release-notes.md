@@ -1,11 +1,11 @@
 ---
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
 description: 這些版本說明提供關於每個 Adobe Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
 title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -34,7 +34,9 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 * 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
 
-## Target Standard/Premium 20.2.1 (2020 年 3 月 9 日)
+## Target Standard/Premium 20.2.1（待定）
+
+請在這裡查看該資訊可用的確切日期。
 
 >[!IMPORTANT]
 >
