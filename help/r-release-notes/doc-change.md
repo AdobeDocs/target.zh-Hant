@@ -1,11 +1,11 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits
+keywords: target documentation change log;documentation updates;new topics;edits;updates
 description: 本頁列出依發行順序對Adobe Target檔案所做的重要變更。
 title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 97f48e317b8d73d61c6262884ef689ffba645428
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -18,7 +18,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 3月6日 | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已在「取代IP位址的最後八位元」區段中新增更多資訊。 |
+| 3月9日 | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已在「取代IP位址的最後八位元」區段中新增更多資訊。 |
+|  | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 更新JavaScript中 *傳遞多值參數的程式碼範例*。 |
+|  | [自訂實體屬性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在「使用API」的「實 *作多值屬性* 」 *下方新增程式碼範例*。 |
 |  |  [版本說明](/help/r-release-notes/release-notes.md) | 將發行日期變更為3月9日。 |
 | 3月4日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新整個主題，並對「最佳實務」一節進行廣泛修訂。 |
 |  |  [版本說明](/help/r-release-notes/release-notes.md) | 將發行日期變更為3月9日。 |
