@@ -1,10 +1,10 @@
 ---
-keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 使用單值和多值自訂實體屬性，來定義關於目錄中項目的其他資訊。
 title: 自訂實體屬性
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 多值實體自訂屬性不得包含超過 500 個值。每個個別值限定為 100 個字元以內。所有值的總字元數必須符合單值實體自訂屬性之長度上限的限制 (如上所述)。
 
-## 自訂實體屬性值 {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 自訂實體屬性可以包含單一值或多個值。實體屬性值會顯示在產品檢視中。
 
@@ -61,7 +61,7 @@ entity.genre=[“genre1”, “genre2”]
 * 陣列必須包含單一值類型。不支援混合值陣列 (`["AB",1,true]`)。
 * 含有巢狀 JSON 陣列 (`[10,12,[1,2,3]]`) 的多值屬性視為單值屬性。
 
-## 實作多值屬性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 使用摘要 (CSV)、`targetPageParams`、「傳送 API」 和「儲存實體 API」來上傳產品時，支援多值自訂實體屬性。新值會取代目前值，而不會附加。空白陣列 ([]) 視為沒有值。
 
@@ -109,10 +109,16 @@ function targetPageParams() {
 
 **使用 API** 
 
+您可以使用mbox參數中的「傳送API」，將多值屬性作為包含逸出JSON陣列的字串值來傳遞。
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## 使用運算子處理多值屬性 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 當您對演算法包含規則、目錄規則和排除規則中的多值自訂屬性套用運算子時，如果清單中至少一個值通過運算 (布林 *or*)，則結果為 *true*。
 
@@ -144,7 +150,7 @@ using the Delivery and Save entities APIs.
 >
 >*Double* 是一種 Java 資料類型。對於需要數值的運算子，轉換成倍精準數可避免非數值納入結果中考量。
 
-## 設計中的多值屬性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 多值屬性在設計中參照時會顯示為以逗點區隔的清單。
 
