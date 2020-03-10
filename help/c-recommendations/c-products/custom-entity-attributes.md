@@ -4,7 +4,7 @@ description: 使用單值和多值自訂實體屬性，來定義關於目錄中�
 title: 自訂實體屬性
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
 
 ---
 
@@ -112,7 +112,19 @@ function targetPageParams() {
 您可以使用mbox參數中的「傳送API」，將多值屬性作為包含逸出JSON陣列的字串值來傳遞。
 
 ```
-"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+"execute": {
+    "mboxes": [
+      {
+        "index": 0,
+        "name": "first-mbox",
+        "parameters": {
+          "entity.id": "32323",
+          "entity.categoryId": "My Category",
+          "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]"
+        }
+      }
+    ]
+  }
 ```
 
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
