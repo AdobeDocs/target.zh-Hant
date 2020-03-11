@@ -4,7 +4,7 @@ description: 上傳 CSV 檔案來自訂您的建議。
 title: 上傳自訂條件
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | 找不到目錄 | 提供伺服器上存在的目錄。 |
 | 找不到檔案 | 提供伺服器上存在於指出目錄中檔案的名稱。 |
 
-## 訓練影片: 在 Recommendations 中建立條件 (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## 訓練影片: 在 Recommendations 中建立條件 (12:33) 教 ![學課程徽章](/help/assets/tutorial.png)
 
-此影片包含下列資訊:
+此影片包含下列資訊（有關上傳自訂准則的詳細資訊，從11:43開始）:
 
 * 建立條件
 * 建立條件序列
