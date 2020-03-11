@@ -3,7 +3,7 @@ description: 條件可控制 Adobe Recommendations 活動的內容。建立條�
 title: 建立條件
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -438,7 +438,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 >
 >內容相似度算法可以利用隨機抽樣來計算項目之間的相似度。 因此，項目之間的相似性分級可能會因演算法執行而異。
 
-## 訓練影片：在Recommendations中建立條件(12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
