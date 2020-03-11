@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f26423b4f34ce824383da181deec3a87a7b62cc6
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3月11日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已指出Target Standard/Premium 20.2.1版本將於2020年3月17日發行。 |
 | 3月9日 | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已在「取代IP位址的最後八位元」區段中新增更多資訊。 |
 |  | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 更新JavaScript中 *傳遞多值參數的程式碼範例*。 |
 |  | [自訂實體屬性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在「使用API」的「實 *作多值屬性* 」 *下方新增程式碼範例*。 |
