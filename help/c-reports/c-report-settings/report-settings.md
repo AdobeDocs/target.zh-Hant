@@ -1,10 +1,10 @@
 ---
-keywords: Target;報表;報表設定;預設集;target 預設集;量度;對象;日期範圍;設定;下載;表格檢視;圖表檢視;平均提升度;提升度;提升度界限;信賴區間;信賴;位置貢獻;執行中的平均值;計數方法
+keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
 title: 報表設定
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
 
-若要顯示報表，請按一下&#x200B;**[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下&#x200B;**「報表」]索引標籤。[!UICONTROL **
+若要顯示報表，請按一下&#x200B;**[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;索引標籤。
 
 ![報表 UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
@@ -23,10 +23,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您也可以視需要設定個別活動報表，然後將該設定儲存為預設/我的最愛預設集。檢視活動報表進展時就會顯示這個畫面。
 
-**建立預設集或預設的預設集**
+### 建立預設集或預設預設集
 
-1. 視需要設定活動的報表 (量度、日期範圍、對象、進階設定等)。
-1. 在 **[!UICONTROL Target 預設集]**&#x200B;旁邊，依序按下三個垂直的點圖示 &gt; **[!UICONTROL 「另存新檔」]**。
+1. 視需要設定活動的報表。
+
+   可用的設定，包括量度、日期範圍、對象、進階設定等，說明如下。
+
+1. 在 **[!UICONTROL Target 預設集]**&#x200B;旁邊，依序按下三個垂直的點圖示 > **[!UICONTROL 「另存新檔」]**。
 
    ![報表預設集](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -35,16 +38,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    ![新預設集對話方塊](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. 查看「篩選條件與設定」區段中的資訊，以確保根據需要設定報表，然後指定&#x200B;**[!UICONTROL 「預設集名稱」]** (最多 50 個字元)。
-1. (條件性) 如果您希望將此作為預設/我的最愛報表檢視，請滑動&#x200B;**[!UICONTROL 「將此項目設定為預設的預設集」]切換至「開啟」位置。**
+1. (條件性) 如果您希望將此作為預設/我的最愛報表檢視，請滑動&#x200B;**[!UICONTROL 「將此項目設定為預設的預設集」]**&#x200B;切換至「開啟」位置。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-**選取其他預設集**
+### 選擇不同的預設集
 
-從&#x200B;**[!UICONTROL 「Target 預設集」]下拉式清單選取所需的預設集。**
+從&#x200B;**[!UICONTROL 「Target 預設集」]**&#x200B;下拉式清單選取所需的預設集。
 
 ![預設集下拉式清單](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-**編輯預設集**
+### 編輯預設集
 
 1. 選取要編輯的預設集。
 1. 視需要編輯報表設定 (量度、日期範圍、對象、進階設定等)。
@@ -53,24 +56,24 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![報表預設集 (含星號)](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
-1. 依序按下「三個垂直橢圓圖示 &gt; **[!UICONTROL 另存新檔」]以建立新預設集。**
+1. 依序按下「三個垂直橢圓圖示 > **[!UICONTROL 另存新檔」]**&#x200B;以建立新預設集。
 
    或
 
-   依序按下「三個垂直橢圓圖示 &gt; **[!UICONTROL 更新」]以更新目前的預設集。**
+   依序按下「三個垂直橢圓圖示 > **[!UICONTROL 更新」]**&#x200B;以更新目前的預設集。
 
    ![報表預設更新](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
-**刪除預設集**
+### 刪除預設集
 
 1. 選取要刪除的預設集。
-1. 依序按下三個垂直的點 &gt; **[!UICONTROL 「刪除」]**。
+1. 依序按下三個垂直的點 > **[!UICONTROL 「刪除」]**。
 
    ![報表預設刪除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. 再按一下&#x200B;**[!UICONTROL 「刪除」]以確認刪除。**
+1. 再按一下&#x200B;**[!UICONTROL 「刪除」]**&#x200B;以確認刪除。
 
-**預設集錯誤處理**
+### 預設集錯誤處理
 
 報表中的警示和訊息可讓您知道預設集是否無效。警示或訊息指示您選擇其他對象、量度、主機群組或體驗，以製作有效的預設集。
 
@@ -80,7 +83,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 已刪除一或多個量度，但在預設集定義中參照。例如，您可以從活動中刪除一或多個量度，然後新增量度。
 * 一或多個主機群組 (環境) 不存在，但在預設集定義中參照。
 * 建立預設集之後，已刪除一或多個體驗，但在預設集定義中參照。
-* 預設集的語意無效，因為轉介的實體仍然存在，但是預設集定義在語義上變更的方式已更新。例如，假設您最初建立名為「Revenue on Chrome」的預設集。之後更新活動以測量「轉換」量度，而非「收入」。活動定義的更新在語義方面使預設集定義無效。
+* 預設集的語意無效，因為轉介的實體仍然存在，但是預設集定義在語義上變更的方式已更新。例如，假設您最初建立名為「Revenue on Chrome」的預設集。之後更新活動以測量「轉換」量度，而非「收入」。此活動定義更新會在語義上使預設定義無效。
 
 ## 報表量度 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -92,19 +95,19 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 對象 {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-按一下[!UICONTROL 「對象」]下拉式清單，以變更報表所顯示的[對象](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
+按一下[!UICONTROL 「對象」]下拉式清單，以變更報表所顯示的對象。
 
 如需詳細資訊，請參閱[對象](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
 ## 日期範圍 {#section_A410A768403C4E01891F95CB357E63ED}
 
-「日期範圍」方塊顯示報表的目前日期範圍。按一下下拉式圖示以顯示可讓您變更報表日期範圍的日曆。
+「日期範圍」方塊會顯示報表的目前日期範圍。 按一下下拉式圖示以顯示可讓您變更報表日期範圍的日曆。
 
 ![日曆](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-為報表選取新的&#x200B;**[!UICONTROL 「開始」]**&#x200B;和&#x200B;**「結束」]日期。[!UICONTROL **&#x200B;您也可以使用&#x200B;**[!UICONTROL 「自活動開始起算」]**&#x200B;和&#x200B;**「直到活動結束」]核取方塊。[!UICONTROL **
+為報表選取新的&#x200B;**[!UICONTROL 「開始」]**&#x200B;和&#x200B;**[!UICONTROL 「結束」]**&#x200B;日期。您也可以使用&#x200B;**[!UICONTROL 「自活動開始起算」]**&#x200B;和&#x200B;**[!UICONTROL 「直到活動結束」]**&#x200B;核取方塊。
 
-按一下&#x200B;**[!UICONTROL 「自訂日期」]以選取預先定義的日期範圍: 最近 7 天、最近 15 天，或最近 30 天。**&#x200B;這些預先定義的日期範圍是動態範圍。如果開始日期早於於所選天數，則日曆將顯示從開始日期開始的範圍，一旦開始日期變成晚於活動持續時間增加時選擇的天數，則會動態變更範圍。
+按一下&#x200B;**[!UICONTROL 「自訂日期」]**&#x200B;以選取預先定義的日期範圍: 最近 7 天、最近 15 天，或最近 30 天。這些預先定義的日期範圍是動態範圍。如果開始日期早於於所選天數，則日曆將顯示從開始日期開始的範圍，一旦開始日期變成晚於活動持續時間增加時選擇的天數，則會動態變更範圍。
 
 報表具有下列日期限制:
 
@@ -114,7 +117,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 設定 {#section_D99CE462107D45CABE0960F820E1E972}
 
-按一下齒輪圖示進行報表設定，然後在完成時按一下&#x200B;**[!UICONTROL 「儲存設定」]。**
+按一下齒輪圖示進行報表設定，然後在完成時按一下&#x200B;**[!UICONTROL 「儲存設定」]**。
 
 下圖顯示 A/B 活動的「設定」對話方塊:
 
@@ -146,17 +149,20 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 按一下「重新整理」圖示以重新整理報表的表格和圖表檢視，而不重新整理整個頁面、其設定，或其日期範圍。
 
-## 更多選項 {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 按一下「更多選項」圖示 (三個垂直橢圓)，以存取[!UICONTROL 「編輯活動」]和[!UICONTROL 「檢視體驗 URL」]選項。
 
-## 表格檢視 {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## 檢視選項
 
-按一下&#x200B;**[!UICONTROL 「表格檢視」]圖示，以表格形式來檢視報表。**
+您可以根據活動類型，以各種格式檢視報表。 選擇所要的選項.
 
-## 圖表檢視 {#section_0D24B902A8D142468ADB7EEF1D941786}
+![檢視選項圖示](/help/c-reports/c-report-settings/assets/view-options.png)
 
-按一下&#x200B;**[!UICONTROL 「圖表檢視」]圖示，以圖表形式來檢視報表。**
+* **表格檢視**:按一下「 **[!UICONTROL 表格檢視]** 」圖示，將報表檢視為表格。
+* **圖形檢視**:按一下「 **[!UICONTROL 圖形檢視]** 」圖示，以圖形形式檢視報表。
+* **自動化區段**:(僅適用於自動個人化(AP)和自動目標(AT)活動。)按一下「**自動[!UICONTROL 化區段」圖示] ，以檢視「自 [動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+* **重要屬性**:(僅適用於自動個人化(AP)和自動目標(AT)活動。)按一下**重要[!UICONTROL 屬性圖示] ，檢視重要 [屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
 
 ## 平均提升度、提升度界限和信賴區間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -167,11 +173,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 考慮以下事項:
 
 * 只有以「表格檢視」來檢視報表時才可用。
-* 此功能無法供使用 Analytics 做為報表來源 (A4T) 的活動使用。
+* 此功能無法供以[ Analytics 作為報表來源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
 
 ## 位置貢獻 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-按一下&#x200B;**[!UICONTROL 「位置貢獻」]圖示，將報表切換為依位置來顯示貢獻。**
+按一下&#x200B;**[!UICONTROL 「位置貢獻」]**&#x200B;圖示，將報表切換為依位置來顯示貢獻。
 
 ## 體驗 {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -187,18 +193,21 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 (只有在圖表檢視中檢視報表時才可供使用)
 
+「執行平均值」反映累積轉換（從報告視窗開始到圖形上所呈現的日期）除以累計訪客。
+
 選取所需的圖表檢視:
 
 * 執行中的平均值
 * 執行中的平均值提升
-* 每日
+* 每日 控制
+* 每日目標
 * 每日提升
 
 ![報表執行中的平均值](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
->此下拉式清單的名稱依所選取的檢視而不同，但一定是上述四個檢視的其中一個。
+>此下拉式清單的名稱會視選取的檢視而有所不同，但會是上述其中一個檢視。
 
 ## 計算方法 {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -206,17 +215,17 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以為報表中的圖形選擇計算方法。請注意，自動個人化 (AP) 活動不支援此選項。
 
-若要存取「計數方法」選項，在以圖表模式檢視報表時，請按一下&#x200B;**[!UICONTROL 「我的主要目標」]下拉式清單，然後選取計數方法。**
+若要存取「計數方法」選項，在以圖表模式檢視報表時，請按一下&#x200B;**[!UICONTROL 「我的主要目標」]**&#x200B;下拉式清單，然後選取計數方法。
 
 此計數方法與上述[!UICONTROL 「設定」]對話方塊中選取的方法相同。
 
-![計算方法](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
+![計算方法](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 依預設會以[!UICONTROL 「每日」]模式繪製圖表。
 
-您可以按一下[!UICONTROL 「每日」]下拉式清單，然後選取[!UICONTROL 「累積」]，以變更模式。
+You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
 
-![累積](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
+![累積](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 >[!NOTE]
 >
@@ -226,17 +235,17 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 圖表的預設繪製順序如下:
 
-* A/B 測試 (包括自動分配和自動個人化): 建立體驗的順序 (遞減順序)。
-* 體驗鎖定目標 (XT): 活動中的體驗順序。
-* 多變數測試 (MVT): 體驗名稱按字母順序。
-* 建議: 建立體驗的順序 (遞減順序)。
+* **A/B測試（包括自動分配和自動個人化）**:體驗建立的順序，依遞減順序排列。
+* **體驗定位(XT)**:活動中的體驗順序。
+* **多變數測試(MVT)**:依體驗名稱依字母順序排列。
+* **建議**:體驗建立的順序，依遞減順序排列。
 
 使用計數方法選項時，請注意下列警告:
 
-* 對於「自動鎖定目標」活動，沒有選項可選取「訪客」作為計數方法。「自動鎖定目標」是唯一無法依訪客來繪製的活動類型。
-* 對於使用 Analytics 作為報表來源 (A4T) 的活動，您無法累積繪製訪客、造訪或曝光。
+* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 「自動鎖定目標」是唯一無法依訪客來繪製的活動類型。
+* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-**使用活動有超過 16 個體驗的圖表**
+## 使用活動中有超過16個體驗的圖形
 
 如果活動的體驗少於 16 個，圖表中會以不同顏色繪製每一個體驗。
 
