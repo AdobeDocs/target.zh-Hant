@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -204,9 +204,7 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ## 可重複使用的對象/帳戶
 
-**建議的限制**: 75 個受眾。
-
-如果太多，介面會發生 JavaScript 逾時。
+**建議的限制**: 20,000 個受眾。
 
 ## Target UI 中的指令碼設定檔輸入方塊
 
