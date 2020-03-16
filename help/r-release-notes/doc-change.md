@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -18,7 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新可重複使用的對象／帳戶數。 |
+| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「觀眾，每個帳戶可重複使用」的數量。 |
 | 3月12日 |  [版本說明](/help/r-release-notes/release-notes.md#summit) | 已新增註冊資訊，以免費存取線上數位峰會。 |
 | 3月11日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已指出Target Standard/Premium 20.2.1版本將於2020年3月17日發行。 |
 | 3月9日 | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已在「取代IP位址的最後八位元」區段中新增更多資訊。 |
