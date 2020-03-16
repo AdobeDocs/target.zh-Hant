@@ -1,12 +1,12 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
 description: 關於使用來自客戶關係管理 (CRM) 資料庫的企業客戶資料，在 Adobe Target 中使用 Adobe 設定檔與對象核心服務中的客戶屬性的資訊進行內容鎖定的資訊。
-title: Adobe target中的客戶屬性
+title: Adobe Target中的客戶屬性
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -33,7 +33,7 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，可能不會將少量百分比的資料上架。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 如需詳細資訊，請參閱訪 [客資料存留期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有在 `authState` 變更為 UNAUTHENTICATED (1) 時，設定檔才會生效。
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 如果需要的行為是擷取驗證的設定檔，`vst.myDataSource.authState` 必須具備值 1 (AUTHENTICATED)。
 
@@ -65,8 +65,8 @@ Detailed instructions for completing each of the following tasks can be found in
 
    使用 HTTP 方法可上傳最高 100 MB 的資料檔案。超過100 MB的檔案（最高4 GB）可透過FTP上傳。
 
-   * **** HTTPS:您可以拖放。csv資料檔案，或按一下「瀏 **[!UICONTROL 覽]** 」從檔案系統上傳。
-   * **** FTP:按一下FTP連結， [透過FTP上傳檔案](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。Specify the password, then click **[!UICONTROL Done]**.
+   * **HTTPS:** 您可以拖放。csv資料檔案，或按一下「瀏 **[!UICONTROL 覽]** 」從檔案系統上傳。
+   * **FTP:** 按一下FTP連結， [透過FTP上傳檔案](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。Specify the password, then click **[!UICONTROL Done]**.
 
       現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸成功後，請建立名稱相同且副檔名為。fin的新檔案。 將此空白檔案傳輸至伺服器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
@@ -128,7 +128,7 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 如需關於在 [!DNL Target] 中使用客戶屬性的詳細資訊，請參閱下列資源:
 
-* [建立客戶屬性來源並上傳](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience cloud產品檔案中的資料檔案*
+* [建立客戶屬性來源並上傳](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience Cloud產品檔案中的資料檔案*
 * *數位行銷部落格*&#x200B;中的 [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -148,6 +148,6 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 ## 訓練影片: 使用客戶屬性上傳離線資料 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} 教 ![學課程徽章](/help/assets/tutorial.png)
 
-此影片示範如何將離線CRM、服務台、銷售點和其他行銷資料匯入Experience cloud人員服務，並使用其已知ID將其與訪客建立關聯。
+此影片示範如何將離線CRM、服務台、銷售點和其他行銷資料匯入Experience Cloud人員服務，並使用其已知ID將其與訪客建立關聯。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
