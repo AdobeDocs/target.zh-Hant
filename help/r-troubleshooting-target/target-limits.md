@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -40,6 +40,10 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 **上限**: 每個 mbox、量度或體驗最多 50 個受眾。
 
+## 受眾，可依每個帳戶重複使用
+
+**建議的限制**: 20,000 個受眾。
+
 ## categoryId 參數
 
 **上限**: 128 個字元。
@@ -51,6 +55,12 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 ## 客戶屬性別名 ID
 
 **上限** 50 個字元。
+
+## 客戶屬性，上傳
+
+* **使用HTTP方法的每個上載檔案大小上限**:100 MB。
+* **使用FTP方法每次上載的檔案大小上限**:4 GB。
+* **允許訂閱的屬性數**:5: [!DNL Target Standard] 200: [!DNL Target Premium]。
 
 ## 實體自訂屬性
 
@@ -201,10 +211,6 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 ## 報表受眾/區段
 
 **上限**: 每個活動 50 個報表受眾/區段。
-
-## 可重複使用的對象/帳戶
-
-**建議的限制**: 20,000 個受眾。
 
 ## Target UI 中的指令碼設定檔輸入方塊
 
