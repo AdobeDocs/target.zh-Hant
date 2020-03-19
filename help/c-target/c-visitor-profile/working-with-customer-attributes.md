@@ -1,31 +1,33 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
-description: 關於使用來自客戶關係管理 (CRM) 資料庫的企業客戶資料，在 Adobe Target 中使用 Adobe 設定檔與對象核心服務中的客戶屬性的資訊進行內容鎖定的資訊。
+keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
+description: 使用Adobe Experience Cloud人員核心服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料以在Adobe Target中定位內容的相關資訊。
 title: Adobe Target中的客戶屬性
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
 
 ---
 
 
 # 客戶屬性 {#customer-attributes}
 
-Information about using enterprise customer data from a customer relationship management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud] core service.
+Information about using enterprise customer data from Customer Relationship Management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud People] core service.
 
-透過多個來源收集並儲存在 CRM 資料庫內的企業客戶資料，可用於 [!DNL Target] 來策略性地傳延最相關的內容給客戶，特別是著重在回頭的客戶上。[!DNL Audiences] 核心服務 (先前的 Profiles and Audiences) 利用測試與最佳化來結合資料收集和分析，讓資料和分析可行。
+Enterprise customer data collected through multiple sources and stored inside CRM databases can be used in [!DNL Target] to strategically deliver the most relevant content to customers, specifically focusing on returning customers. Audiences and customer attributes in the [!DNL People] core service (formerly Profiles and Audiences) brings together data collection and analysis with testing and optimization, making data and insights actionable.
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. 上架到 [!DNL Experience Cloud] 的資料可供所有 [!DNL Experience Cloud] 工作流程使用。[!DNL Target] 使用此資料根據屬性定位舊客戶。 [!DNL Adobe Analytics] 會利用這些屬性，並可將這些屬性用於分析和劃分。
+[核心服務中的客戶屬性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) , [!DNL People] 是核心服務的一部分，為企業提供 [!DNL Adobe Experience Cloud] 了將客戶資料推送至平台的工具 [!DNL Experience Cloud] 。
 
-![](assets/crs.png)
+上架到 [!DNL Experience Cloud] 的資料可供所有 [!DNL Experience Cloud] 工作流程使用。[!DNL Target] 使用此資料根據屬性定位舊客戶。 [!DNL Adobe Analytics] 會利用這些屬性，並可將這些屬性用於分析和劃分。
+
+![crs示例](/help/c-target/c-visitor-profile/assets/crs.png)
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
 
    >[!NOTE]
    >
@@ -33,27 +35,41 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，可能不會將少量百分比的資料上架。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 如需詳細資訊，請參閱訪 [客資料存留期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 如果需要的行為是擷取驗證的設定檔，`vst.myDataSource.authState` 必須具備值 1 (AUTHENTICATED)。
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
 
 * 您無法在 `mbox3rdPartyID` 中傳送下列字元: 加號 (+) 和正斜線 (/)。
+
+## 在人員核心服務中訪問客戶屬性
+
+1. 在中，單 [!DNL Adobe Experience Cloud]擊菜單表徵圖(菜 ![單表徵圖](/help/c-target/c-visitor-profile/assets/menu-icon.png) )，然後按一下「 **[!UICONTROL People]**」。
+
+   ![People](/help/c-target/c-visitor-profile/assets/people.png)
+
+1. 按一下「 **[!UICONTROL 客戶屬性]** 」標籤。
+
+   ![客戶屬性標籤](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
 ## Customer attribute workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 完成下列步驟在 [!DNL Target] 使用 CRM 資料，如下圖所示:
 
-![](assets/crm_workflow.png)
+![crm工作流程](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Product Documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
 1. 建立資料檔案。
 
    從您的 CRM 將客戶資料匯出為 CSV 格式，以建立 .csv 檔案。此外，您也可以建立 zip 或 gzip 檔案進行上傳。請確定CSV檔案的第一列是標題，且所有列（客戶資料）的項目數都相同。
 
-   ![](assets/CRS_sample.png)
+   下圖顯示企業客戶資料檔案範例：
 
-   ![](assets/CRS_CSV_sample.png)
+   ![crs樣本](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
+
+   下圖顯示範例企業客戶。csv檔案：
+
+   ![csv範例](/help/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
 
 1. 建立屬性來源及上傳資料檔案。
 
@@ -63,12 +79,11 @@ Detailed instructions for completing each of the following tasks can be found in
    >
    >資料來源名稱和屬性名稱不得有英文句點。
 
-   使用 HTTP 方法可上傳最高 100 MB 的資料檔案。超過100 MB的檔案（最高4 GB）可透過FTP上傳。
+   您的資料檔案必須符合檔案的上傳要求，且不得超過100MB。 如果您的檔案太大，或您有需要定期上傳的資料，您可以改用FTP來上傳檔案。
 
    * **HTTPS:** 您可以拖放。csv資料檔案，或按一下「瀏 **[!UICONTROL 覽]** 」從檔案系統上傳。
    * **FTP:** 按一下FTP連結， [透過FTP上傳檔案](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。Specify the password, then click **[!UICONTROL Done]**.
-
-      現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸成功後，請建立名稱相同且副檔名為。fin的新檔案。 將此空白檔案傳輸至伺服器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+   現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸成功後，請建立名稱相同且副檔名為。fin的新檔案。 將此空白檔案傳輸至伺服器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. 驗證結構。
 
@@ -76,17 +91,17 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Click **[!UICONTROL Save]** after the schema validation is complete. 檔案上傳時間因大小而不同。
 
-   ![](assets/SchemaValidate.png)
+   ![驗證架構](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![](assets/upload1.png)
+   ![上傳結構](/help/c-target/c-visitor-profile/assets/upload1.png)
 
 1. 設定訂閱及啟動屬性來源。
 
    按一下&#x200B;**[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。[設定訂閱](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) ，設定和解決方案之間的資 [!DNL Experience Cloud] 料流。 啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
 
-   ![](assets/solution.png)
+   ![配置解決方案](/help/c-target/c-visitor-profile/assets/solution.png)
 
-   ![](assets/activate.PNG)
+   ![啟動](/help/c-target/c-visitor-profile/assets/activate.png)
 
    執行此步驟時，請注意下列限制:
 
@@ -135,19 +150,40 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 處理客戶屬性和 [!DNL Target] 時，您可能會遇到下列問題:
 
-| 問題 | 詳細資料 |
-|--- |--- |
-| 因為設定檔太大，已移除客戶屬性 | 使用者設定檔中的特定欄位沒有字元限制，但如果設定檔變得大於 64K，則會透過移除最舊的屬性來將它截斷，直到設定檔再次低於 64K 為止。 |
-| 即使在數天之後，屬性亦未列在 [!DNL Target] 的對象資料庫中 | 這通常是管線連線問題。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。 |
-| 傳送未根據屬性運作 | Edge 上的設定檔尚未更新。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。 |
-| 實作問題 | 請注意下列實作問題:<ul><li>訪客 ID 未正確傳遞。The ID was passed in `mboxMCGVID` instead of `setCustomerId`.</li><li>傳遞的訪客 ID 正確，但 AUTHENTICATION 狀態未設為 Authenticated。</li><li>`mbox3rdPartyId` 未正確傳遞。</li> |
-| `mboxUpdate` 未正確執行 | `mboxUpdate` 未正確搭配 `mbox3rdPartyId` 執行。 |
-| 客戶屬性未匯入Target | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
+### 問題1:客戶屬性會移除，因為描述檔過大
 
-以上第 1 列和第 2 列中的問題大約造成此領域中 60% 的問題。第 3 列中的問題大約造成 30% 的問題。第 4 列中的問題大約造成 5% 的問題。其餘的 5% 則因為雜項問題。
+使用者設定檔中的特定欄位沒有字元限制，但如果設定檔變得大於 64K，則會透過移除最舊的屬性來將它截斷，直到設定檔再次低於 64K 為止。
+
+### Issue 2: Attributes not listing in the Audience Library in [!DNL Target], even after several days
+
+這通常是管線連線問題。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
+
+### 問題3:傳送無法根據屬性運作
+
+Edge 上的設定檔尚未更新。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
+
+### 問題四：實施問題
+
+請注意下列實作問題:
+
+* 訪客 ID 未正確傳遞。The ID was passed in `mboxMCGVID` instead of `setCustomerId`.
+* 傳遞的訪客 ID 正確，但 AUTHENTICATION 狀態未設為 Authenticated。
+* `mbox3rdPartyId` 未正確傳遞。
+
+### 問題五：未正確執行 `mboxUpdate`
+
+`mboxUpdate` 未正確搭配 `mbox3rdPartyId` 執行。
+
+### Issue 6: Customer attributes are not being imported into [!DNL Target]
+
+If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
+
+>[!NOTE]
+>
+>以上問題1和問題2在這一領域造成了大約60%的問題。 問題3導致大約30%的問題。 問題4導致大約5%的問題。 其餘的 5% 則因為雜項問題。
 
 ## 訓練影片: 使用客戶屬性上傳離線資料 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} 教 ![學課程徽章](/help/assets/tutorial.png)
 
-此影片示範如何將離線CRM、服務台、銷售點和其他行銷資料匯入Experience Cloud人員服務，並使用其已知ID將其與訪客建立關聯。
+This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
