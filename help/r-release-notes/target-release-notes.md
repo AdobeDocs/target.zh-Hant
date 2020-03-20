@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新日期: 2020 年 9 月 3 日**
+**上次更新日期: 2020 年 20 月 3 日**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    透過將所有客戶移至at.js，我們的工程師和支援人員將能為您提供新功能，並提供您期待從Adobe獲得的支援。
 
 
-## Target Standard/Premium 20.2.1 (2020 年 3 月 17 日)
+## Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 * 已實作內容安全性政策(CSP)的安全性改進。 (TGT-36190)
 * 修正將「屬性加權」百分比列滑至最左側時，顯示「NaN%」的問題。 (TGT-36211)
 * 已解決本地化問題，讓各種語言的UI文字可正確顯示。
-* 自2020年3月Target發行起，Analytics for Target(A4T)不再支援下列Adobe Analytics量度：
-   * averagevisidpth
-   * 機器人
-* 以下量度不再受支援，當使用者第一次修改包含量度的活動時，這些量度會自動轉換為新的量度版本：
+* 我們淘汰目前Adobe Analytics API版本不支援的Adobe Analytics量度，標準化了Adobe Analytics for Target(A4T)活動的可用量度清單。 這可讓我們在未來的Adobe Target版本中擴充A4T支援。
 
-   | 過時的量度 | 新增量度 |
+   已進行下列變更：
+
+   * 「頁面平均逗留時間」已取代為「網站平均逗留時間」。 任何使用此作為主要目標量度的活動都會有「網站平均逗留時間」(注意：測量單位為分鐘（而非秒），在下次編輯活動時選取為主要目標量度。
+   * 「訪客」已由「獨特訪客」取代。 使用此量度作為主要目標量度的任何活動，在下次編輯活動時，都會將「獨特訪客」選為主要目標量度。
+
+* 下列量度已過時，在建立新的A4T活動時，無法再選為主要目標量度。
+
+   | 過時的量度 | 建議的取代量度 |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (附註：以分鐘而非秒為單位測量) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | 每日訪客、每小時訪客、每月訪客、每季訪客、每週訪客、每年訪客 | 獨特訪客 |
+   | 平均存取深度 | n/a。未建議作為主要目標量度 |
+   | 機器人 | n/a。未建議作為主要目標量度 |
+   | 行動裝置當機率、行動裝置平均上一階段作業長度、行動應用程式商店平均排名、行動裝置應用程式效能當機率、行動裝置應用程式商店平均評分 | n/a。未建議作為主要目標量度 |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
