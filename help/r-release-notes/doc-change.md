@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -18,16 +18,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3月20日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已指出Target Standard/Premium 20.2.1版本將於2020年3月23日發行。 |
 | 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「觀眾，每個帳戶可重複使用」的數量。 |
-| 3月12日 |  [版本說明](/help/r-release-notes/release-notes.md#summit) | 已新增註冊資訊，以免費存取線上數位峰會。 |
-| 3月11日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已指出Target Standard/Premium 20.2.1版本將於2020年3月17日發行。 |
+| 3月12日 | [發行說明（目前）](/help/r-release-notes/release-notes.md#summit) | 已新增註冊資訊，以免費存取線上數位峰會。 |
 | 3月9日 | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已在「取代IP位址的最後八位元」區段中新增更多資訊。 |
 |  | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 更新JavaScript中 *傳遞多值參數的程式碼範例*。 |
 |  | [自訂實體屬性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在「使用API」的「實 *作多值屬性* 」 *下方新增程式碼範例*。 |
-|  |  [版本說明](/help/r-release-notes/release-notes.md) | 已指出此版本的日期尚未確定。 |
 | 3月4日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新整個主題，並對「最佳實務」一節進行廣泛修訂。 |
-|  |  [版本說明](/help/r-release-notes/release-notes.md) | 指出此發行日期尚未確定。 |
-|  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關使用Target for Analytics(A4T)時已過時和變更量度的資訊。 |
 | 2月21日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關新Adobe Experience Cloud導覽的資訊。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 已新增下列設定的資訊： `pageLoadEnabled` 和 `viewsEnabled`。 |
 | 2 月 19 日 |  [版本說明](/help/r-release-notes/release-notes.md) | 已新增有關即將淘汰mbox.js程式庫的資訊。 |
