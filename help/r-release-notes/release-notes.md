@@ -5,7 +5,7 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -44,7 +44,7 @@ Adobe峰會已成為虛擬活動！ 從2020年3月31日開始，Adobe提供即�
 
 若要註冊免費存取整個數位活動，請前往數位體 [驗會議：峰會頁](https://www.adobe.com/summit.html) 。
 
-## Target Standard/Premium 20.2.1 (2020 年 3 月 17 日)
+## Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
 
 >[!IMPORTANT]
 >
@@ -57,18 +57,21 @@ Adobe峰會已成為虛擬活動！ 從2020年3月31日開始，Adobe提供即�
 * 已實作內容安全性政策(CSP)的安全性改進。 (TGT-36190)
 * 修正將「屬性加權」百分比列滑至最左側時，顯示「NaN%」的問題。 (TGT-36211)
 * 已解決本地化問題，讓各種語言的UI文字可正確顯示。
-* 自2020年3月Target發行起，Analytics for Target(A4T)不再支援下列Adobe Analytics量度：
-   * averagevisidpth
-   * 機器人
-* 以下量度不再受支援，當使用者第一次修改包含量度的活動時，這些量度會自動轉換為新的量度版本：
+* 我們淘汰目前Adobe Analytics API版本不支援的Adobe Analytics量度，標準化了Adobe Analytics for Target(A4T)活動的可用量度清單。 這可讓我們在未來的Adobe Target版本中擴充A4T支援。
 
-   | 過時的量度 | 新增量度 |
+   已進行下列變更：
+
+   * 「頁面平均逗留時間」已取代為「網站平均逗留時間」。 任何使用此作為主要目標量度的活動都會有「網站平均逗留時間」(注意：測量單位為分鐘（而非秒），在下次編輯活動時選取為主要目標量度。
+   * 「訪客」已由「獨特訪客」取代。 使用此量度作為主要目標量度的任何活動，在下次編輯活動時，都會將「獨特訪客」選為主要目標量度。
+
+* 下列量度已過時，在建立新的A4T活動時，無法再選為主要目標量度。
+
+   | 過時的量度 | 建議的取代量度 |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (附註：以分鐘而非秒為單位測量) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | 每日訪客、每小時訪客、每月訪客、每季訪客、每週訪客、每年訪客 | 獨特訪客 |
+   | 平均存取深度 | n/a。未建議作為主要目標量度 |
+   | 機器人 | n/a。未建議作為主要目標量度 |
+   | 行動裝置當機率、行動裝置平均上一階段作業長度、行動應用程式商店平均排名、行動裝置應用程式效能當機率、行動裝置應用程式商店平均評分 | n/a。未建議作為主要目標量度 |
 
 ## Adobe Experience Cloud導覽（2019年2月22日）
 
