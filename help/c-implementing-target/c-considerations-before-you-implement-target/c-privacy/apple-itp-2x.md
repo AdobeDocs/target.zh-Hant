@@ -1,11 +1,11 @@
 ---
-keywords: apple;ITP;智慧型追蹤預防
+keywords: apple;ITP;intelligent tracking prevention
 description: 關於 Adobe Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 之資訊。
 title: Adobe Target 和 Apple ITP 支援
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | 針對使用 `document.cookie` API 放在瀏覽器上的用戶端 Cookie 設定七天過期的上限。<br>發行日期: 2019 年 2 月 21 日。 |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | 將七天過期的上限大幅縮短為一天。<br>發行日期: 2019 年 4 月 24 日。 |
 
-## 身為 Adobe Target 客戶，這對我有何影響?
+## 身為 Adobe Target 客戶，這對我有何影響? {#impact}
 
-[!DNL Target] 提供 JavaScript 程式庫，讓您在頁面上進行部署，這樣 [!DNL Target] 就能向訪客提供即時個人化內容。有三個 Target JavaScript 程式庫 ([at.js 1.*x* 和 at.js 2 中的 Hide Body 和 Show Body 呼叫。*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md))，可透過 `document.cookie` API 將用戶端 [!DNL Target] Cookie 放在訪客的瀏覽器上。因此，[!DNL Target] Cookie 會受到 Apple ITP 2.1 和 2.2 的影響，且將在七天後過期 (若是 ITP 2.1) 以及在一天後過期 (若是 ITP 2.2)。
+[!DNL Target] 提供 JavaScript 程式庫，讓您在頁面上進行部署，這樣 [!DNL Target] 就能向訪客提供即時個人化內容。有三個 Target JavaScript 程式庫 ([at.js 1.x and at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors&#39; browsers via the `document.cookie` API. 因此，[!DNL Target] Cookie 會受到 Apple ITP 2.1 和 2.2 的影響，且將在七天後過期 (若是 ITP 2.1) 以及在一天後過期 (若是 ITP 2.2)。
 
 Apple ITP 2.1 和 2.1 會影響 [!DNL Target] 的以下方面:
 
@@ -31,6 +31,8 @@ Apple ITP 2.1 和 2.1 會影響 [!DNL Target] 的以下方面:
 | --- | --- |
 | 獨特訪客計數可能會增加 | 由於過期時間設為七天 (若是 ITP 2.1) 和一天 (若是 ITP 2.2)，您可能會發現來自 Safari 瀏覽器的獨特訪客增加。如果訪客在七天後 (ITP 2.1) 或一天後 (ITP 2.2) 重新造訪網域，[!DNL Target] 會強制將新的 [!DNL Target] Cookie 放在網域上，來取代過期的 Cookie。即使是相同的使用者，新的 [!DNL Target] Cookie 會將其轉譯為新的獨特訪客。 |
 | 縮短 [!DNL Target] 活動的回顧期 | [!DNL Target] 活動的訪客設定檔可能已針對決策功能縮短回顧期間。系統會運用 [!DNL Target] Cookie 來識別訪客，並針對個人化儲存使用者設定檔屬性。有鑑於 Safari 上的 [!DNL Target] Cookie 可能會在七天後 (ITP 2.1) 或一天後 (ITP 2.2) 過期，繫結至已清除的 [!DNL Target] Cookie 的使用者設定檔資料則無法用決策功能。 |
+| 基於3rdPartyID的描述檔指令碼 | 由於有效期間設定為7天（使用ITP 2.1）和1天（使用ITP 2.2），因此，以第 [](/help/c-target/c-visitor-profile/profile-parameters.md) 3rdPartyID Cookie為基礎的描述檔指令碼在到期時將停止運作。 |
+| iOS裝置中的QA/預覽URL | 由於有效期間設定為7天（使用ITP 2.1）和1天（使用ITP 2.2）, [QA/預覽URL](/help/c-activities/c-activity-qa/activity-qa.md) 將在過期時停止運作，因為URL是以第3rdPartyID Cookie為基礎。 |
 
 ## 我目前的 [!DNL Target] 實施是否會受到影響?
 
