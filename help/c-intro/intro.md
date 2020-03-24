@@ -5,7 +5,7 @@ title: Adobe Target 簡介
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需�
 
 下列影片可讓您基本上瞭解 Target 及其他 Adobe Experience Cloud 解決方案如何協助您的組織達成目標:
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 [!DNL Adobe Target] 解決方案包含數個元件:
 
