@@ -1,12 +1,12 @@
 ---
-keywords: 報表;下載報表;csv;成功量度;訂單詳細資料
+keywords: reports;download reports;csv;success metrics;order details
 description: 以。csv格式下載資料，以便使用Adobe Target快速匯入至Excel、Access或其他資料分析程式。
 title: 使用Adobe Target將資料下載為CSV檔案
-subtopic: 多變數測試
+subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -21,8 +21,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
-1. 按一下&#x200B;**[!UICONTROL 「報表」]標籤。**
-1. 按一下&#x200B;**[!UICONTROL 「下載」]圖示，然後選取要下載到 Excel 和其他工具中分析的報表類型。**
+1. 按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
+1. 按一下&#x200B;**[!UICONTROL 「下載」]**&#x200B;圖示，然後選取要下載到 Excel 和其他工具中分析的報表類型。
 
    * [!UICONTROL 將報表匯出為CSV]
    * [!UICONTROL 匯出訂單詳細資料至 CSV]
@@ -39,11 +39,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->CSV報表僅包含原始資料，不包含計算量度，例如用於A/B測試的每位訪客收入、提升度或信賴度。 To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV報表僅包含原始資料，不包含計算量度，例如用於A/B測試的每位訪客收入、提升度或信賴度。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 匯出訂單詳細資料至 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-「訂單詳細資料」報表 (在 [!DNL Target Classic] 中稱為「稽核」報表) 顯示訂單的相關資訊，包括:
+「訂單詳細資訊」報表顯示有關訂單的資訊，包括：
 
 * 訂單日期與時間
 * 訂單金額 (若您插入「下單」mbox)
