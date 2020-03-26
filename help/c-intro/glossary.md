@@ -4,7 +4,7 @@ title: Adobe Target 字彙表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -161,7 +161,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 **環境**
 
-主機會整合至環境以便輕鬆管理。預設主機群組為生產、測試和開發。不過，您可以新增主機群組以及重新命名您的現有主機群組。環境在 [!DNL Target Classic] 中稱為「主機群組」。
+主機會整合至環境以便輕鬆管理。預設主機群組為生產、測試和開發。不過，您可以新增主機群組以及重新命名您的現有主機群組。
 
 **體驗**
 
