@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3月25日 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增下列at.js新版本的相關資訊：<ul><li>at.js 2.3.0版</li><li>at.js 1.8.1版</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在「設定」區段中新增下列新列：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>新增下列新小節:<ul><li>內容安全性原則</li></ul> |
 | 3月24日 | [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 已新增有關下列影響的資訊：<ul><li>基於3rdPartyID的描述檔指令碼</li><li>iOS裝置中的QA/預覽URL</li></ul> |
 | 3月20日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已指出Target Standard/Premium 20.2.1版本將於2020年3月23日發行。 |
 | 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「觀眾，每個帳戶可重複使用」的數量。 |
