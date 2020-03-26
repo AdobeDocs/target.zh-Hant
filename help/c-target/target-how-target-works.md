@@ -1,19 +1,17 @@
 ---
-keywords: 鎖定目標;Cookie;第一方 Cookie;第一方 Cookie
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target 透過 at.js 或 mbox.js JavaScript 資料庫的方式與您的網頁整合。
 title: 鎖定目標如何運作
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # 鎖定目標如何運作{#how-targeting-works}
 
-Adobe Target 透過 at.js 或 mbox.js JavaScript 資料庫的方式與您的網頁整合。
-
-[!DNL Target Classic] 會在您想在頁面上顯示目標內容或收集資料的每一個區域周圍使用 mbox。[!DNL Target Standard] 中不需要這些 mbox。反之，每一個頁面只需要參照一個 JavaScript 程式庫，就能執行最佳化活動。
+Adobe Target 透過 at.js 或 mbox.js JavaScript 資料庫的方式與您的網頁整合。每個頁面上參考的一個JavaScript程式庫就是您執行最佳化活動所需的一切。
 
 每當訪客請求已啟用 功能的頁面時，[!DNL Target]Target 就會使用下列程序來提供選件:
 
