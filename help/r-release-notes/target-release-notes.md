@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 以下版本說明提供最新或即將發行之 [!DNL Adobe Target] 版本的功能、增強功能、修正和已知問題等資訊。
 
-**上次更新日期: 2020 年 20 月 3 日**
+**上次更新日期: 2020 年 25 月 3 日**
 
 >[!NOTE]
 >
@@ -38,6 +38,15 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
    >   
    透過將所有客戶移至at.js，我們的工程師和支援人員將能為您提供新功能，並提供您期待從Adobe獲得的支援。
 
+
+## Target at.js（2020年3月25日）
+
+下列是Target at.js JavaScript程式庫的新版本：
+
+* at.js 2.3.0版
+* at.js 1.8.1版
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
 
