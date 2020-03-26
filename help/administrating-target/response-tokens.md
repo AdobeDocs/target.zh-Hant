@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 回應 Token 可讓您自動輸出 Target 的特定資訊 (促銷活動詳細資料、使用者設定檔資訊、地理資訊等)，以用於除錯或與第三方系統整合 (例如 Clicktale)
 
-Adobe Target Classic 有一項功能稱為伺服器外掛程式，可讓您傳送隨著 mbox 回應一起執行的 JavaScript。回應 Token 類似於外掛程式: 可讓您顯露 Target 專用資訊以用於別處。回應 Token 可讓您選擇要採用的變數，然後將變數隨附於 mbox 回應一起傳送。若要這樣做，您只需要利用開關來啟用變數，變數就會隨著 mbox 回應一起傳送，而在網路呼叫中可驗證變數。回應 Token 也可以預覽模式下運作。
+回應 Token 可讓您選擇要採用的變數，然後將變數隨附於 mbox 回應一起傳送。若要這樣做，您只需要利用開關來啟用變數，變數就會隨著 mbox 回應一起傳送，而在網路呼叫中可驗證變數。回應 Token 也可以預覽模式下運作。
 
 外掛程式和回應 Token 之間的主要差異在於，外掛程式會將 JavaScript 傳送至頁面，此頁面會在傳送後立即執行，而回應 Token 會傳送物件，可利用事件接聽程式來讀取並處理此物件。如需詳細資訊，請參閱 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)和本章稍後的範例。回應 Token 方法比較安全，而且在開發和維護第三方整合時較輕鬆。
 
