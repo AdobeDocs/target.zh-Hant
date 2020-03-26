@@ -5,7 +5,7 @@ title: at.js 版本詳細資料
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,6 +17,20 @@ source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 >[!IMPORTANT]
 >
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
+
+## at.js 版本 2.3.0 (2020 年 3 月 25 日)
+
+此 at.js 版本為維護版本，包含下列增強功能和修正:
+
+* 支援在套用傳送的Target選件時，將「內容安全性原則」非設定在附加至頁面DOM的SCRIPT和STYLE標籤上。 客戶可以設 `targetGlobalSettings.cspScriptNonce` 定 `targetGlobalSettings.cspStyleNonce` ，如此at.js就可以在套用的選件上設定對應的指令碼和樣式標籤。 See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* 修正使用Google Closure編譯器編譯at.js以部署Google Tag Manager時的問題。
+* 將at.js檢查Cookie從重新命 `check` 名 `at_check` 為，以避免與客戶實作衝突。
+
+## at.js 版本 1.8.1 (2020 年 3 月 25 日)
+
+此 at.js 版本為維護版本，包含下列增強功能和修正:
+
+* 將at.js檢查Cookie從重新命 `check` 名 `at_check` 為，以避免與客戶實作衝突。
 
 ## at.js 2.2.0版（2019年10月10日）
 
