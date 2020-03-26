@@ -1,10 +1,10 @@
 ---
-keywords: 鎖定目標;Target 資料庫;程式庫
+keywords: Targeting;target library;library
 description: 根據預先建置的鎖定目標規則鎖定使用者。
 title: Target 資料庫
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,13 +15,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Target 資料庫類別中預先建置的對象為舊版對象，並且存在於其他類別。如需詳細資訊和最佳做法，請參閱[目標和對象常見問題](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D)。
 
->[!NOTE]
->
->Target Classic 使用運算式目標，可讓您建立一次複雜的目標，然後重複用於不同的活動、體驗等等。Target Standard/Premium 不含此功能。
-
-1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL Target 資料庫」]**。
+1. 按一下「**[!UICONTROL 新增規則]** > **[!UICONTROL Target 資料庫]**」。
 
    ![定位程式庫](assets/target_library.png)
 
@@ -33,7 +29,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
    Kindle、Silk、iPad、Sony Tablet、TF101、GT-P1000、GT-P1000R、GT-P1000M、SGH-T849、SHW-M180S、GT-I9000T、BNTV250 和 Tablet PC。
 
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 訓練影片: 建立對象
@@ -43,4 +39,4 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
