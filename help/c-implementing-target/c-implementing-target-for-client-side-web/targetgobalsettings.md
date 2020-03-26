@@ -5,7 +5,7 @@ title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSe
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -44,6 +44,8 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 | optoutEnabled | 布林值 | false | 指出 Target 是否應該呼叫訪客 API `isOptedOut()` 函數。這屬於裝置圖表啟用的一部分。 |
 | selectorsPollingTimeout | 數字 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 推出了這項新設定，且可以透過 `targetGlobalSettings` 覆寫此設定。<br>`selectorsPollingTimeout` 代表用戶端願意等候選取器所識別的所有元素出現在頁面上的時間。<br>透過可視化體驗撰寫器 (VEC) 建立的活動，其具有的選件包含選取器。 |
 | dataProviders | 請參閱下文的「資料提供者」。 | 請參閱下文的「資料提供者」。 | 請參閱下文的「資料提供者」。 |
+| cspScriptNonce | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 |
+| cspStyleNonce | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 |
 
 ## 使用狀況 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -175,6 +177,29 @@ var weatherProvider = {
 
 * 如果新增至 `window.targetGlobalSettings.dataProviders` 的資料提供者非同步，則會並行執行。訪客 API 要求將與新增至 `window.targetGlobalSettings.dataProviders` 的函數並行執行，以允許最低的等候時間。
 * at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，則資料提供者應該確定已將該資料快取，並且當叫用該提供者函數時，可做為第二個叫用的快取資料。
+
+## Content Security Policy {#content-security}
+
+at.js 2.3.0+支援在套用傳送的Target選件時，在附加至頁面DOM的SCRIPT和STYLE標籤上設定「內容安全性原則」不可用。
+
+在載入at.js 2.3.0+之前， `targetGlobalSettings.cspScriptNonce` 應先在 `targetGlobalSettings.cspStyleNonce` SCRIPT和STYLEnonces中設定。 請參閱下列範例：
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+在指 `cspScriptNonce` 定 `cspStyleNonce` 和設定後，at.js 2.3.0+會在套用Target選件時，將這些屬性設為附加至DOM的所有SCRIPT和STYLE標籤上的nonce屬性。
 
 ## serverState {#server-state}
 
