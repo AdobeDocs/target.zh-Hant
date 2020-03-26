@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -95,9 +95,9 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 ![與核心 Edge 網站和 Edge 網站對應](assets/edge_network.png)
 
-The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+此影像的來源是 [Adobe Target安全性概觀白皮書](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 。
 
-Adobe Target 解決方案在世界各地 Adobe 擁有和 Adobe 租用的資料中心內進行控管。Admin 伺服器完全在 Adobe 擁有的資料中心內進行控管，這些資料中心位於倫敦、新加坡和全美國的多個據點，包括奧勒岡州和維吉尼亞州。Edge Server同時托管於Adobe擁有和Adobe租賃的Amazon AWS資料中心的Adobe伺服器上，這些資料中心位於倫敦、中國香港特區、新加坡、東京和雪梨。
+Adobe Target 解決方案在世界各地 Adobe 擁有和 Adobe 租用的資料中心內進行控管。Admin 伺服器完全在 Adobe 擁有的資料中心內進行控管，這些資料中心位於倫敦、新加坡和全美國的多個據點，包括奧勒岡州和維吉尼亞州。Edge Server同時托管於Adobe擁有和Adobe租賃的Amazon AWS資料中心，位於倫敦、中國香港特區、新加坡、東京和雪梨。
 
 Admin 伺服器位置同時包含資料收集中心和資料處理中心。Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
 
