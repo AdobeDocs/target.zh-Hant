@@ -5,7 +5,7 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -43,6 +43,15 @@ Adobe峰會已成為虛擬活動！ 從2020年3月31日開始，Adobe提供即�
 * **在未來預見巔峰**:請加入特邀嘉賓切爾西·漢德勒，看看我們實驗室的最新實驗技術。 Adobe Sneaks。
 
 若要註冊免費存取整個數位活動，請前往數位體 [驗會議：峰會頁](https://www.adobe.com/summit.html) 。
+
+## Target at.js（2020年3月25日）
+
+下列是Target at.js JavaScript程式庫的新版本：
+
+* at.js 2.3.0版
+* at.js 1.8.1版
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
 
