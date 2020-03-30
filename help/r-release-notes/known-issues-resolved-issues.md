@@ -1,10 +1,10 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: 此版Adobe target的已知問題資訊。 也包括關於已解決之問題的資訊。
+description: 此版Adobe Target的已知問題資訊。 也包括關於已解決之問題的資訊。
 title: Adobe Target 中的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -77,6 +77,7 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 下列是 at.js 的已知問題:
 
+* 使用2.2.0之前的at.js版本，如果頁面元素上沒有Adobe Analytics代碼（例如按鈕），點按追蹤不會報告Analytics for Target(A4T)中的轉換。 已針對此問題在at.js 2.2.0中引入修正。如 [果您遇到此問題，請升級至最新的at.js版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 。
 * 如果您使用at.js 2.1.1或更舊版本（例如預設體驗）建立沒有修改的體驗，該體驗可能不會計入報表、Analytics for Target(A4T)、Adobe Analytics或Google Analytics。 此外， [ttMeta外掛程式可能無法正常運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
 
    因應措施是，在體驗內容中使用空白字元。 (TNT-33366)
