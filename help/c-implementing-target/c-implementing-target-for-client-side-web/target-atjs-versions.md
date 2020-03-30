@@ -5,7 +5,7 @@ title: at.js 版本詳細資料
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -36,6 +36,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 此版本的at.js包含下列增強功能和修正：
 
+* 已修正此問題：當Adobe Analytics代碼不存在於頁面元素時，點按追蹤不會報告Analytics for Target(A4T)中的轉換。
 * 已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2時的效能。
 * 之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。
 
