@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: fe537a2c2007af59b2eb8abb4aaf3ec5626f2c65
 
 ---
 
@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 3月30日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增影響at.js 2.2.0之前版本的已知問題。當Adobe Analytics代碼不存在於頁面元素時，此問題會導致點按追蹤無法報告Analytics for Target(A4T)中的轉換。 |
-|  | at.js 版本詳細資料 | 已將下列資訊新增至at.js 2.2.0版詳細資訊：<ul><li>修正當Adobe Analytics代碼不存在於頁面元素時，點按追蹤無法報告Analytics for Target(A4T)轉換的問題。</li></ul> |
+|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已將下列資訊新增至at.js 2.2.0版詳細資訊：<ul><li>修正當Adobe Analytics代碼不存在於頁面元素時，點按追蹤無法報告Analytics for Target(A4T)轉換的問題。</li></ul> |
 | 3月25日 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增下列at.js新版本的相關資訊：<ul><li>at.js 2.3.0版</li><li>at.js 1.8.1版</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在「設定」區段中新增下列新列：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>新增下列新小節:<ul><li>內容安全性原則</li></ul> |
 | 3月24日 | [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 已新增有關下列影響的資訊：<ul><li>基於3rdPartyID的描述檔指令碼</li><li>iOS裝置中的QA/預覽URL</li></ul> |
