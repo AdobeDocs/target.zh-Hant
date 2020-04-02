@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fe537a2c2007af59b2eb8abb4aaf3ec5626f2c65
+source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已添加有關使用 `user.header('x-forwarded-for')` 較新的AWS邊緣來檢索用戶IP地址的資訊。 |
+|  | [從 at.js 1.*x* 升級為 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 已新增下列備註:<ul><li>安裝 ECID 資料庫 v4.3.0+ 和 at.js 2.*x* 後，您將能建立橫跨多個唯一網域的活動以及追蹤使用者。請務必注意，此功能只有在工作階段過期後才能運作。</li></ul> |
 | 3月30日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增影響at.js 2.2.0之前版本的已知問題。當Adobe Analytics代碼不存在於頁面元素時，此問題會導致點按追蹤無法報告Analytics for Target(A4T)中的轉換。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已將下列資訊新增至at.js 2.2.0版詳細資訊：<ul><li>修正當Adobe Analytics代碼不存在於頁面元素時，點按追蹤無法報告Analytics for Target(A4T)轉換的問題。</li></ul> |
 | 3月25日 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增下列at.js新版本的相關資訊：<ul><li>at.js 2.3.0版</li><li>at.js 1.8.1版</li></ul> |
