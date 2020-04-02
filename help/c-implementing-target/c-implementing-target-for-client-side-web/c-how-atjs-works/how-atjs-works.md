@@ -1,11 +1,11 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
-title: Adobe Target at.js javaScript程式庫的運作方式
+title: Adobe Target at.js JavaScript程式庫的運作方式
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -91,7 +91,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 * at.js 不對遠端指令碼的執行順序提供任何保證，因為這些會以非同步的方式載入。
 * 內嵌指令碼在遠端指令碼上不應有任何相依性，因為這些會在之後載入及執行。
 
-## 訓練影片：at.js 2.x架構圖概述 ![徽章](/help/assets/overview.png)![概述徽章](/help/assets/overview.png)
+## 訓練影片：at.js 2.x架構圖概述 ![徽章](/help/assets/overview.png)
 
 at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
