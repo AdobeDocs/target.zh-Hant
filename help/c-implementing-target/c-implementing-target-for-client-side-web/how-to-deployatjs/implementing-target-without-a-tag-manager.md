@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 若要開啟[!UICONTROL 「設定」]頁面:
 
 1. 按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「實作」]**。
-1. 選取「**[!UICONTROL at.js]**>**[!UICONTROL &#x200B;編輯 at.js 設定]**」。
+1. 選取「**[!UICONTROL at.js]** > **[!UICONTROL 編輯 at.js 設定]**」。
 
 ## 內容傳送設定 {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -99,7 +99,7 @@ ov2/c_target-configure-atjs.xml
 
 1. 取得用戶端程式碼。
 
-   用戶端程式碼位於 **[!UICONTROL 介面的「]**設定**[!UICONTROL  > ]**實施&#x200B;**[!UICONTROL >]**編輯 at.js 設定[!DNL Target]」頁面頂端。
+   用戶端程式碼位於 **[!UICONTROL 介面的「]**&#x200B;設定&#x200B;**[!UICONTROL >]**&#x200B;實施&#x200B;**[!UICONTROL >]**&#x200B;編輯 at.js 設定[!DNL Target]」頁面頂端。
 
 1. 取得您的管理員編號。
 
@@ -126,7 +126,7 @@ ov2/c_target-configure-atjs.xml
    使用下列結構載入此 URL:
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Replace `admin number` with your admin number.
@@ -202,7 +202,7 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 請考量下列重要注意事項:
 
 * 應使用 HTML5 Doctype (如 `<!doctype html>`)。不支援或舊版 doctype 可能會造成 Target 無法提出要求。
-* 「預先連結」和「預先擷取」可能有助於加速網頁載入。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
+* 「預先連結」和「預先擷取」可能有助於加速網頁載入。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** page.
 * 如果有資料層，最好在 at.js 載入前，盡可能在網頁的 `<head>` 中詳細定義。這個位置能讓您在 Target 最大限度運用這類資料進行個人化。
 * 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。此外，這些函數亦可儲存於[!UICONTROL 「編輯 at.js 設定」]頁面的[!UICONTROL 「程式庫標題」]部分，並存入 at.js 程式庫本身。如需特殊函數的詳細資訊，請參閱 [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 * 如果使用 jQuery 等 JavaScript 輔助函式庫，請在 Target 前加入這些函式庫，以便在建立 Target 體驗時使用這些函式庫的語法和方法。
