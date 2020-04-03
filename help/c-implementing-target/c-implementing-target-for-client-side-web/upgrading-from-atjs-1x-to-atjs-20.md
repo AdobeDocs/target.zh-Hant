@@ -5,7 +5,7 @@ title: '從 Adobe Target at.js 1.*x* 版升級為 at.js 2.*x* 版 '
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -286,7 +286,11 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 不過，at.js 2.*x* 已不再使用 HTTP GET，而是改用 HTTP POST。您現在可透過 at.js 2.*x* 使用 HTTP POST，將 JSON 裝載傳送至 Target Edge 伺服器。這表示檢查瀏覽器是否支援第三方 Cookie 的重新導向要求現在已失效。這是因為 HTTP GET 要求為等冪交易，而 HTTP POST 是非等冪交易且不得任意重複。因此，at.js 2.*x* 中的跨網域追蹤不再提供立即可用支援。只有 at.js 1.*x* 才提供跨網域追蹤的立即可用支援。
 
-如果您想要使用跨網域追蹤，則必須與at.js 2一起安裝 [ECID程式庫v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。*x*。ECID 資料庫的存在是為了管理可用來識別訪客 (甚至是跨網域) 的持續 ID。安裝 ECID 資料庫 v4.3.0+ 和 at.js 2.*x* 後，您將能建立橫跨多個唯一網域的活動以及追蹤使用者。
+如果您想要使用跨網域追蹤，則必須與at.js 2一起安裝 [ECID程式庫v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。*x* 不提供跨網域追蹤的立即可用支援。ECID 資料庫的存在是為了管理可用來識別訪客 (甚至是跨網域) 的持續 ID。
+
+>[!NOTE]
+>
+>安裝 ECID 資料庫 v4.3.0+ 和 at.js 2.*x* 後，您將能建立橫跨多個唯一網域的活動以及追蹤使用者。請務必注意，此功能只有在工作階段過期後才能運作。
 
 ### 支援自動建立全域 mbox
 
