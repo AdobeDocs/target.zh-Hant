@@ -5,7 +5,7 @@ title: 企業使用者權限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -270,7 +270,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 如果重新導向頁面和活動 URL 屬於相同的屬性，點擊追蹤會如運期般運作。如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md)。
 
-## 訓練影片：企業權限訓練影片 {#section_2FA080303A064242B63FF16CFA6DB31D} 概 ![觀徽章](/help/assets/overview.png)
+## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 學習目標:
 
