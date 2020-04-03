@@ -5,7 +5,7 @@ title: Adobe Target 中的實作單一頁面應用程式
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -274,15 +274,15 @@ document.addEventListener("at-view-end", function(e) {
 
 以下影片包含更多資訊:
 
-### 瞭解 at.js 2.x 的運作方式
+### 瞭解 at.js 2.x 的運作方式 概 ![述徽章](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) 概 ![述徽章](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
-### 在 SPA 中實作 at.js 2.x
+### 在SPA教學課程徽章中實作at.js 2. ![x](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) 教 ![學課程徽章](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
 如需 [詳細資訊，請參閱在單頁應用程式(SPA)中實作Adobe Target的at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
 
