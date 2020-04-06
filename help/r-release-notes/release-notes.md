@@ -5,7 +5,7 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -33,16 +33,6 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
    >
 * 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-
-## Summit Live:數位體驗會議 {#summit}
-
-Adobe峰會已成為虛擬活動！ 從2020年3月31日開始，Adobe提供即時數位體驗，讓您盡情發揮所長。 本即時體驗將包含我們主要階段的Keynote演講、最新趨勢與進步的迷你演講、業界領導者成功見解，以及分組會議。
-
-* **即時觀看演講影片**:聽聽趨勢和新產品如何讓您隨時隨地輕鬆改造產業。
-* **探索100多種隨選分析：** 從Adobe、客戶和合作夥伴免費取用超過100個隨選分組研討會。
-* **在未來預見巔峰**:請加入特邀嘉賓切爾西·漢德勒，看看我們實驗室的最新實驗技術。 Adobe Sneaks。
-
-若要註冊免費存取整個數位活動，請前往數位體 [驗會議：峰會頁](https://www.adobe.com/summit.html) 。
 
 ## Target at.js（2020年3月25日）
 
