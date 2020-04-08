@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
+source-git-commit: e1a1feedbb54ebc9f7a534230ae8327b6056d673
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期: 2020 年 25 月 3 日**
+**上次更新時間: 2020 年 4 月 8 月**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -29,43 +29,18 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
    透過將所有客戶移至at.js，我們的工程師和支援人員將能為您提供新功能，並提供您期待從Adobe獲得的支援。
 
 
-## Target at.js（2020年3月25日）
-
-下列是Target at.js JavaScript程式庫的新版本：
-
-* at.js 2.3.0版
-* at.js 1.8.1版
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
-
->[!IMPORTANT]
->
->請參閱上述有關mbox.js取代的資訊。
+## Target Standard/Premium 20.4.1 (2020 年 4 月 27 日)
 
 此發行包含下列增強功能、修正和變更：
 
-* 修正客戶在執行目錄搜尋時無法選取系列的問題。 (TGT-36230)
-* 已修正此問題：透過API建立但未由Target UI中建立之活動所參照的准則，可能會從UI中錯誤刪除。 (TGT-35917)
-* 已實作內容安全性政策(CSP)的安全性改進。 (TGT-36190)
-* 修正將「屬性加權」百分比列滑至最左側時，顯示「NaN%」的問題。 (TGT-36211)
-* 已解決本地化問題，讓各種語言的UI文字可正確顯示。
-* 我們淘汰目前Adobe Analytics API版本不支援的Adobe Analytics量度，標準化了Adobe Analytics for Target(A4T)活動的可用量度清單。 這可讓我們在未來的Adobe Target版本中擴充A4T支援。
-
-   已進行下列變更：
-
-   * 「頁面平均逗留時間」已取代為「網站平均逗留時間」。 任何使用此作為主要目標量度的活動都會有「網站平均逗留時間」(注意：測量單位為分鐘（而非秒），在下次編輯活動時選取為主要目標量度。
-   * 「訪客」已由「獨特訪客」取代。 使用此量度作為主要目標量度的任何活動，在下次編輯活動時，都會將「獨特訪客」選為主要目標量度。
-
-* 下列量度已過時，在建立新的A4T活動時，無法再選為主要目標量度。
-
-   | 過時的量度 | 建議的取代量度 |
-   |--- |--- |
-   | 每日訪客、每小時訪客、每月訪客、每季訪客、每週訪客、每年訪客 | 獨特訪客 |
-   | 平均存取深度 | n/a。未建議作為主要目標量度 |
-   | 機器人 | n/a。未建議作為主要目標量度 |
-   | 行動裝置當機率、行動裝置平均上一階段作業長度、行動應用程式商店平均排名、行動裝置應用程式效能當機率、行動裝置應用程式商店平均評分 | n/a。未建議作為主要目標量度 |
+* 已修正對對象不正確限定裝置和瀏覽器類型的問題。 (TGT-36266)
+* 修正在寬度小於963像素的螢幕上檢視報表資料時無法顯示的問題。 (TGT-36549)
+* 修正「自動個人化」報表無法正確呈現的問題。 (TGT-36619)
+* 修正「視覺體驗撰寫器」(VEC)中某些選項無法正確顯示的問題。 (TGT-36571)
+* 修正Target UI中，當使用者在單一體驗中取代內容後，導致其他Recommendations選件預覽顯示已編輯內容的問題。 (TGT-36053)
+* 修正部分使用者無法從Recommendations目錄刪除項目的問題。 (TGT-36455)
+* 修正使用者無法將Recommendations標準儲存在多頁活動上的問題。 (TGT-36249)
+* 修正Recommendations演算法在延長期間顯示「擷取結果」的顯示問題。 (TGT-36550 和 TGT-36551)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
