@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -98,12 +98,6 @@ source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 **上限**: 256 個字元。
 
 超過限制的值會遭截斷。
-
-## mbox 要求中的 In-mbox 設定檔
-
-**上限**: 50 個設定檔。
-
-第 50 個之後的描述檔全部會被忽略。
 
 ## In-mbox 設定檔名稱
 
