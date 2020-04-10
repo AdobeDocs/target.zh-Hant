@@ -5,7 +5,7 @@ title: Adobe Target 中的實作單一頁面應用程式
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
+source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
 
 ---
 
@@ -269,6 +269,34 @@ document.addEventListener("at-view-end", function(e) {
 雖然這些範例使用 JavaScript 程式碼，但如果您使用 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 等標籤管理員，這一切都能簡化。
 
 如果您按照上述步驟進行，您應該能擁有適用於 SPA 的健全 A4T 解決方案。
+
+## 實作最佳實務
+
+at.js 2.x API可讓您以多種方式自訂 [!DNL Target] 實作，但在此程式中，請務必遵循正確的作業順序。
+
+以下資訊說明您第一次在瀏覽器中載入單頁應用程式時，以及隨後發生的任何檢視變更時，必須遵循的作業順序。
+
+### 初始頁面載入的作業順序
+
+| 步驟 | Action | 詳細資料 |
+| --- | --- | --- |
+| 1 | 載入VisitorAPI JS | 此程式庫負責指派ECID給訪客。 此ID稍後會被網頁上 [!DNL Adobe] 的其他解決方案使用。 |
+| 2 | 載入at.js 2.x | at.js 2.x會載入您用來實作請求和檢視的所有必 [!DNL Target] 要API。 |
+| 3 | 執行請 [!DNL Target] 求 | 如果您有資料層，建議您在執行請求前載入傳送至的重要 [!DNL Target] 資料 [!DNL Target] 。 這可讓您 `targetPageParams` 用來傳送任何要用於定位的資料。 您必須確保在此API呼叫中要求執行> pageLoad以及預回遷>檢視。 如果您已設定 `pageLoadEnabled` 和，則 `viewsEnabled`步驟2會自動執行> pageLoad和prefetch >檢視；否則，您必須使用 `getOffers()` API來提出此要求。 |
+| 4 | 呼叫 `triggerView()` | 由於您 [!DNL Target] 在步驟3中啟動的請求可同時傳回「頁面載入」執行和「檢視」的體驗，因此請確定在傳回請求後 `triggerView()`[!DNL Target] 呼叫，並完成在快取中套用選件。 每個視圖只能執行此步驟一次。 |
+| 5 | 呼叫頁 [!DNL Analytics] 面檢視信標 | 此信標會將與步驟3和4關聯的SDID傳送至資料 [!DNL Analytics] 拼接。 |
+| 6 | 撥打其他電話 `triggerView({"page": false})` | 這是SPA架構的選用步驟，可能會在頁面上重新轉換某些元件，而不會發生檢視變更。 在此類情況下，請務必叫用此API，以確保在SPA [!DNL Target] 架構重新轉換元件後重新套用體驗。 您可以執行此步驟的次數與想要的次數相同，以確 [!DNL Target] 保體驗會持續存在SPA檢視中。 |
+
+### SPA視圖更改的操作順序（無全頁重裝）
+
+| 步驟 | Action | 詳細資料 |
+| --- | --- | --- |
+| 1 | 呼叫 `visitor.resetState()` | 此API可確保在載入新檢視時重新產生SDID。 |
+| 2 | 呼叫 `getOffer()` API以更新快取 | 如果此檢視變更有可能使目前訪客符合更多活動的資格或無法參與活動， [!DNL Target] 則此為可選步驟。 此時，您也可以選擇傳送其他資料至，以啟 [!DNL Target] 用進一步的定位功能。 |
+| 3 | 呼叫 `triggerView()` | 如果您已執行步驟2，則必須等候請求並套用選件 [!DNL Target] 至快取，才能執行此步驟。 每個視圖只能執行此步驟一次。 |
+| 4 | 呼叫 `triggerView()` | 如果您尚未執行步驟2，則可在完成步驟1後立即執行此步驟。 如果您已執行步驟2和步驟3，則應跳過此步驟。 每個視圖只能執行此步驟一次。 |
+| 5 | 呼叫頁 [!DNL Analytics] 面檢視信標 | 此信標會將與步驟2、3和4關聯的SDID傳送至資料 [!DNL Analytics] 拼接。 |
+| 6 | 撥打其他電話 `triggerView({"page": false})` | 這是SPA架構的選用步驟，可能會在頁面上重新轉換某些元件，而不會發生檢視變更。 在此類情況下，請務必叫用此API，以確保在SPA [!DNL Target] 架構重新轉換元件後重新套用體驗。 您可以執行此步驟的次數與想要的次數相同，以確 [!DNL Target] 保體驗會持續存在SPA檢視中。 |
 
 ## 訓練影片
 
