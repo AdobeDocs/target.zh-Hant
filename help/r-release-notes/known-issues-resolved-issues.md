@@ -1,9 +1,9 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: 此版Adobe Target的已知問題資訊。 也包括關於已解決之問題的資訊。
-title: Adobe Target 中的已知問題和已解決的問題
+description: 此版本 Adobe Target 已知問題的相關資訊，也包括已解決問題的相關資訊。
+title: Adobe Target 的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
@@ -11,19 +11,19 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 # 已知問題和已解決的問題{#known-issues-and-resolved-issues}
 
-關於此版本 Target 已知問題的資訊。也包括關於已解決之問題的資訊。
+此版本 Target 已知問題的相關資訊，也包括已解決問題的相關資訊。
 
 >[!NOTE]
 >
->括號內的問題編號供 Adobe 內部使用。
+>括號內的問題編號僅供 Adobe 內部使用。
 
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
-以下小節列出 [!DNL Target] 的已知問題:
+以下小節羅列 [!DNL Target] 的已知問題：
 
 ### 頁面傳送 {#page-delivery}
 
-如果您新增範本規則，例如頁面傳送中的URL包含(/checkout, /cart) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，則規則中會加上空格的前置詞。 這是一個外觀問題，不會影響觀眾定義的建立和選件的傳送。 (TGT-35916)
+如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這僅是格式上的差異，不會影響對象定義建立和選件傳送等作業。(TGT-35916)
 
 ### 活動 QA 預覽連結 {#preview}
 
@@ -31,7 +31,7 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ### 重新導向選件 {#redirect}
 
-下列是重新導向選件的已知問題:
+重新導向選件的已知問題如下：
 
 * 在某些情況下，當在以 Analytics for Target (A4T) 設定的活動中使用重新導向選件時，部分客戶已回報流量分布的較高變異程度。Adobe 工程師目前正在解決此問題。
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
@@ -48,7 +48,7 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
    根據預設，在「體驗 B」上，取消的網站載入範本隨即呈現，且可存取[!UICONTROL 修改]面板，但情況不應如此，因為此體驗已套用重新導向至 URL 範本。系統應顯示重新導向至 URL 範本。
 
-   若要顯示 VEC 中的體驗的正確狀態:
+   若要在 VEC 中顯示體驗的正確狀態：
 
    如果您切換至其他體驗，然後切換回「體驗 B」，[!DNL Target] 會顯示此體驗上已套用的重新導向至 URL 範本，且無法存取[!UICONTROL 修改]面板。(TGT-32138)
 
@@ -60,14 +60,14 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ### Recommendations
 
-下列是建議活動的已知問題:
+Recommendations 活動的已知問題如下：
 
-* 實體在60天後即可正確到期，因為沒有透過動態消息或API收到更新；但過期的實體在過期後不會從目錄搜尋索引中移除。 (IRI-857)
-* 標準與設計的「使用資訊」覆蓋無法反映其在A/B和體驗定位活動中的使用情形(TGT-34331)
-* A/B和「體驗定位」活動中的「建議選件」不會顯示Recommendations托盤的視覺化預覽(TGT-33426)
-* 透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 (TGT-35777)
-* 透過API建立的建議活動可在使用者介面中檢視，但只能透過API編輯。
-* 「准則」清單（卡片）檢視中顯示的「自訂准則」饋送狀態會每隔10分鐘重新整理一次，在少數情況下可能會超過10分鐘。 「自訂條件」編輯檢視中顯示的狀態會即時擷取，且一律為最新狀態。 (TGT-35896、TGT-36173)
+* 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
+* 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
+* A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
+* 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。(TGT-35777)
+* 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
+* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896、TGT-36173)
 
 ### 多變數測試 (MVT) 活動
 
@@ -75,37 +75,37 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ### at.js {#atjs}
 
-下列是 at.js 的已知問題:
+at.js 的已知問題如下：
 
-* 使用2.2.0之前的at.js版本，如果頁面元素上沒有Adobe Analytics代碼（例如按鈕），點按追蹤不會報告Analytics for Target(A4T)中的轉換。 已針對此問題在at.js 2.2.0中引入修正。如 [果您遇到此問題，請升級至最新的at.js版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 。
-* 如果您使用at.js 2.1.1或更舊版本（例如預設體驗）建立沒有修改的體驗，該體驗可能不會計入報表、Analytics for Target(A4T)、Adobe Analytics或Google Analytics。 此外， [ttMeta外掛程式可能無法正常運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
+* 使用 2.2.0 之前的 at.js 版本時，如果頁面元素上沒有 Adobe Analytics 代碼 (例如按鈕)，點擊追蹤不會回報 Analytics for Target (A4T) 的轉換數。at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* 如果您使用 at.js 2.1.1 或更舊版本建立沒有任何修改的體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 的數據之中。此外，[ttMeta 外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)可能會無法正常運作。
 
-   因應措施是，在體驗內容中使用空白字元。 (TNT-33366)
+   若要解決此問題，可在體驗內容中使用空白字元。(TNT-33366)
 
    >[!NOTE]
    >
-   >此問題的修正已包含在at.js 2.2.0中。您應升級至最 [新版本或at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ，或僅針對2.2.0之前的at.js版本使用上述解決方法。
+   >at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。
 
 * 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
-   使用 at.js 時，「相容性」核取方塊會隱藏，使得您看不見不相容的演算法。
+   使用 at.js 時，「相容性」核取方塊會隱藏，使您無法看見不相容的演算法。
 
-   只有使用 VEC 的建議活動會發生此問題。
+   只有使用 VEC 的 Recommendations 活動會發生此問題。
 
-   **解決方案**: 在[!UICONTROL 「Recommendations > 設定」]中停用[!UICONTROL 「篩選不相容的條件」]選項。停用此設定之後，所有條件 (相容的與不相容的) 將顯示在條件選擇器中。(TGT-25949)
+   **因應措施**：在[!UICONTROL 「Recommendations > 設定」]中停用[!UICONTROL 「篩選不相容的條件」]選項。停用此設定之後，所有條件 (相容的與不相容的) 將顯示在條件選擇器中。(TGT-25949)
 
 * 升級為 at.js 版本 1.0 之後，由於 at.js 與訪客 API 2.2.0 之間的互動，Microsoft Explorer 11 瀏覽器上不會觸發 mbox。此問題會影響 at.js 版本 0.9.6 和更新版本。(TNT-27600)
 * at.js 可能無法與 Cordova/混合式應用程式搭配使用，因為它們目前不支援第一方 Cookie。(TNT-26166)
 
-   **解決方案**: 將 at.js 的 &quot;x-only&quot; 選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
+   **因應措施**：將 at.js 的「x-only」選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
 
 ### mbox.js
 
 mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache。at.js 資料庫&#x200B;*不*&#x200B;支援這些語言。
 
-**注意**: 將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
+**注意**：將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
-### 實作: 全域 Mbox 自動建立
+### 實作：全域 Mbox 自動建立
 
 在「實作」索引標籤上 ([!UICONTROL 「設定」>「實作」])，新佈建的租用戶的[!UICONTROL 「全域 Mbox 自動建立」]欄位將預設為 &quot;false&quot;。
 
@@ -123,7 +123,7 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方式不正確。
 
-在修正此問題前，解決方案為使用 Reports &amp; Analytics 的 A4T 資料。
+此問題修正前，請先暫時參考 Reports &amp; Analytics 的 A4T 資料。
 
 ### Target API
 
@@ -135,7 +135,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 ### Recommendations
 
-* 當摘要中的項目與前次執行相同時，建議摘要索引會顯示「等候索引」。傳送所需的產品擷取不受影響。(RECS-6663)
+* 當摘要中的項目與前次執行相同時，Recommendations 摘要索引會顯示「等候索引」。傳送所需的產品擷取不受影響。(RECS-6663)
 
    Target 19.4.2 版本已修正此問題。
 
@@ -145,7 +145,7 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 
 * Recommendation 摘要 UI 未顯示索引的正確狀態。後端工作運作正確，但 UI 無法擷取和顯示目前的狀態。
 
-   在 17.10.1 版本中已獲修正。
+   17.10.1 版已修正此問題。
 
 ### 重新導向選件
 
@@ -186,7 +186,7 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 ### 活動、工作區及刪除活動 API
 
-透過 API 刪除的預設工作區活動，會顯示於 Target UI 中。解決方案為使用 Target UI 刪除預設工作區的所有活動。(TGT-31315)
+透過 API 刪除的預設工作區活動，會顯示於 Target UI 中。請改為使用 Target UI 刪除預設工作區的所有活動。(TGT-31315)
 
 已在 2018 年 10 月 25 日修正
 
@@ -200,19 +200,19 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 如果在 Firefox 和 Internet Explorer 使用代碼編輯器時，在三步驟引導式工作流程的步驟 1 重新載入 VEC，「修改」標籤會無法正確顯示，但 VEC 功能不受影響。(TGT-28730)
 
-在 18.9.1 版本中已獲修正。
+18.9.1 版已修正此問題。
 
 ### 使用「屬性升級」規則的 Recommendations 活動
 
-編輯或複製使用「屬性促銷活動」規則的建議活動時，在按一下「儲存」時顯示「有缺少的欄位」錯誤。
+編輯或複製使用「屬性促銷活動」規則的 Recommendations 活動時，在按一下「儲存」時顯示「有缺少的欄位」錯誤。
 
 在 17.8.1 版本中已獲修正。
 
-### 備份建議
+### 備份 Recommendations
 
-備用建議錯誤地在 Target UI「最近查看的項目」卡上顯示「已啟用」。(TGT-29308)
+備用 Recommendations 錯誤地在 Target UI「最近查看的項目」卡上顯示「已啟用」。(TGT-29308)
 
-在 18.4.1 版本中已獲修正，以便顯示「已停用」。
+18.4.1 版已修正此問題，能順利顯示「已停用」。
 
 ### 自動鎖定目標活動和報表對象
 
@@ -230,7 +230,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 隨著企業權限移轉，所有 Target Premium 使用者管理已從 Adobe Target UI 移至 Adobe Admin Console。
 
-由於移轉，您應該注意兩個可能問題:
+移轉後，請注意兩個可能問題：
 
 * 非管理員使用者會收到電子郵件，指出他們現在可存取 Adobe Target。這表示您的組織移轉已完成。可以忽略電子郵件本身。
 * 在移轉之後，Adobe Admin Console 中出重新出現一些先前已停用使用者的報表。如果 Adobe Admin Console 中已停用的使用者在移轉之前仍出現在您的 Target 使用者清單，這可能是組織的問題。建議管理員在 Admin Console 中檢閱使用者的清單以驗證存取權。
@@ -239,20 +239,20 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### 活動建立
 
-17.6.2 版本的問題可能已影響在 2017 年 6 月 22 日與 2017 年 6 月 29 日之間建立和/或更新的活動。具有下列情況的活動受到影響:
+17.6.2 版本的問題可能已影響在 2017 年 6 月 22 日與 2017 年 6 月 29 日之間建立和/或更新的活動。具有下列情況的活動會受到影響：
 
 * 在體驗鎖定目標 (XT) 中重新排列的任何體驗會還原為原始的順序
-* 活動本機的任何區段規則 (未儲存在對象內) 會遺失: 結合的對象、位置細分和任何規則成功度量。
+* 活動本機的任何區段規則 (未儲存在對象內) 會遺失，包括結合的對象、位置細分和任何規則成功度量。
 
 其他活動未受影響。
 
-**重要:** 此問題未自動修正。您必須重新儲存受影響的任何活動，以修正此問題。
+**重要**：此問題未自動修正。您必須重新儲存受影響的任何活動，以修正此問題。
 
 此問題已在 2017 年 6 月 29 日修正
 
 ### 表單式體驗撰寫器
 
-已回報使用表單式體驗撰寫器時的下列已知問題:
+目前已回報下列使用表單式體驗撰寫器時的已知問題：
 
 * 如果您使用表單式體驗撰寫器搭配自動建立的全域 mbox 以外的 mbox (target-global-mbox)，然後選擇參與量度做為成功量度，則量度只會在活動中使用了該 mbox 的頁面上遞增。做為範例，如果您的 mbox 為 homepage\_mbox，每次造訪帶來的頁面量度為在該造訪期間對 homepage\_mbox 的點擊數。(TGT-22789)
 * 當您在程序的步驟 1 期間使用表單式體驗撰寫器時，刪除體驗鎖定目標 (XT) 活動中的體驗，會擲出 JavaScript 例外。(TGT-24366)
@@ -267,15 +267,15 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 已對 2017 年 5 月 22 日發行的 at.js 版本 0.9.7 進行此問題的修正。
 
-### 報表: A/B 和體驗鎖定目標 (XT) 活動
+### 報表：A/B 和體驗鎖定 (XT) 活動
 
-在 4 月 27 日下午 9:00 PST 與 5 月 5 日上午 6:00 PST 之間，使用「已檢視頁面」轉換動作 (未基於其他度量) 建立或編輯、具有度量的 A/B 和 XT 活動，可能會有不正確記錄的轉換。此問題現在已解決; 不過，在影響期間對這些活動「已檢視頁面」轉換動作的相關報表可能不準確，並且不幸地，無法更正。針對這些活動基於「已檢視頁面」轉換動作的任何決策，建議您僅仰賴於影響期間之前或之後記錄的資料。
+在 4 月 27 日下午 9:00 PST 與 5 月 5 日上午 6:00 PST 之間，使用「已檢視頁面」轉換動作 (未基於其他度量) 建立或編輯、具有度量的 A/B 和 XT 活動，可能會有不正確記錄的轉換。此問題現在已解決；不過，在影響期間對這些活動「已檢視頁面」轉換動作的相關報表可能不準確，並且不幸地，無法更正。針對這些活動基於「已檢視頁面」轉換動作的任何決策，建議您僅仰賴於影響期間之前或之後記錄的資料。
 
 仍可以使用其他度量的報表資料，因為它們不受影響。
 
 已在 Target 17.4.3 hotfix 中修正。
 
-### 選件: A/B 和體驗鎖定目標 (XT) 活動
+### 選件：A/B 和體驗鎖定 (XT) 活動
 
 在具有至少兩個體驗並且是使用表單式體驗撰寫器在 4 月 29 日 (太平洋時間下午 9:00) 與 5 月 1 日星期一 (太平洋時間下午 9:15) 之間建立或編輯的 A/B 和 XT 活動中選件的傳遞和預覽受到影響。僅顯示具有預設內容的選件。
 
@@ -283,7 +283,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### at.js
 
-下列動作造成在使用可視化體驗撰寫器 (VEC) 和 at.js 時未傳遞選件: 移動並重新排列。
+下列動作造成在使用可視化體驗撰寫器 (VEC) 和 at.js 時未傳遞選件：移動並重新排列。
 
 已對 at.js 版本 0.9.6 進行此問題的修正。
 
