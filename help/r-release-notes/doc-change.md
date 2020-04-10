@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 年 4 月 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 新增區段：「實作最佳實務。」 |
 | 7 年 4 月 | [提升度和可信度 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新「為什麼我看不到計算量度的提升度和可信度？」的文字 |
 | 2 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已添加有關使用 `user.header('x-forwarded-for')` 較新的AWS邊緣來檢索用戶IP地址的資訊。 |
 |  | [從 at.js 1.*x* 升級為 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 已新增下列備註:<ul><li>安裝 ECID 資料庫 v4.3.0+ 和 at.js 2.*x* 後，您將能建立橫跨多個唯一網域的活動以及追蹤使用者。請務必注意，此功能只有在工作階段過期後才能運作。</li></ul> |
@@ -121,7 +122,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [發行說明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主題。 |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關V1/Delivery API和Node.js SDK版本的資訊。 |
 | 2019 年 10 月 8 日 | [Target Insider電子報](/help/r-release-notes/target-insider-newsletter.md) | 新主題，其中包含第一批電子報的連結，還有更多內容。 |
-| 2019 年 10 月 3 日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列項目： <ul><li>使用at.js 2建立體驗時，無須修改的已知問題和解決方法。*x資料庫* 。</li><li>透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。</li><li>透過API建立的建議活動可在使用者介面中檢視，但只能透過API編輯。</li></ul> |
+| 2019 年 10 月 3 日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列項目： <ul><li>使用at.js 2建立體驗時，無須修改的已知問題和解決方法。*x資料庫* 。</li><li>透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。</li><li>透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。</li></ul> |
 |  | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 新增附註至「mboxDebug」區段。 |
 | 2029 年 10 月 2 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的資訊。 |
 | 2019 年 10 月 1 日 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 更新「客戶屬性」區段中的文字。 |
