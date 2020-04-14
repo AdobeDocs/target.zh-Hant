@@ -4,7 +4,7 @@ title: Adobe Target 字彙表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ Target Standard 中活動的視覺表示。
 當具有 mbox 的頁面經任何訪客瀏覽時，所有反向連結頁面和頁面 URL 變數都會自動傳遞到 mbox。然後這些 URL 變數便可以用於在報表中顯示定位或群體篩選。
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**瀏覽**
+
+瀏覽有時稱為作業。 瀏覽會在閒置30分鐘後結束，這表示在伺服器要求之間至少已傳送30分鐘給Target。
 
 **訪客**
 
