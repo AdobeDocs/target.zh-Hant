@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ Admin 伺服器位置同時包含資料收集中心和資料處理中心。Edge 
 >
 >[!DNL Adobe Target] 目前在中國沒有 Edge 網路，中國 [!DNL Target] 客戶的一般使用者效能將繼續受到限制。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
+您可以視需要將Target邊緣註解加入白名單。 如需詳細資訊，請參 [閱白名單目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)。
+
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 盡可能確保定位基礎建設的可用度和效能值得信賴。然而，使用者瀏覽器和 Adobe 伺服器之間的通訊中斷可能會造成內容傳輸的中斷。
@@ -131,7 +133,7 @@ Google 鼓勵使用者測試，且已於說明文件中表示只要遵守一些�
 如需詳細資訊，請參閱下列 Google 資源:
 
 * [網站測試和 Google 搜尋](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [實驗和隱匿](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [實驗和隱匿](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 [Google 網站管理員中心部落格](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)文章中已提供準則。雖然文章發佈於 2012 年，但仍為 Google 對這件事的最新表述，準則仍然適用。
 
