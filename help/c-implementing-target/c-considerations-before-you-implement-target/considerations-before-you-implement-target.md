@@ -1,12 +1,12 @@
 ---
-keywords: 實作;實施
+keywords: implement;implementing
 description: 實作 Adobe Target 前應注意的考量事項。
 title: 實作之前
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -28,3 +28,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 - [受支援的瀏覽器](supported-browsers.md)
 - [TLS (傳輸層安全性) 加密變更](tls-transport-layer-security-encryption.md)
 - [CNAME 與 Adobe Target](implement-cname-support-in-target.md)
+- [白名單目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
