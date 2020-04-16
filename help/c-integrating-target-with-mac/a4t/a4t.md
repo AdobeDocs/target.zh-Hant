@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -27,7 +27,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 
 >[!IMPORTANT]
 >
->開始使用 A4T 之前，您必須要求針對整合佈建您的帳戶。使用[此表單](https://www.adobe.com/go/audiences)來要求佈建帳戶。
+>開始使用 A4T 之前，您必須要求針對整合佈建您的帳戶。使用[此表單](https://www.adobe.com/go/audiences_tw)來要求佈建帳戶。
 >
 >此整合可讓 Adobe Analytics 成為 Adobe Target (A4T) 的資料來源，象徵新一代的 Test&amp;Target 至 SiteCatalyst 外掛程式。此外掛程式已淘汰，但仍支援原本已使用的客戶。
 
@@ -118,7 +118,7 @@ Analytics 與 Target 之間的 Analytics for Target 整合為您的最佳化程�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / target整合(A4T)(40:33) !![Tutorial badge](/help/assets/tutorial.png
+### Analytics / Target整合(A4T)(40:33)教學課 ![程徽章](/help/assets/tutorial.png)
 
 這支影片記錄了「[營業時間](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
