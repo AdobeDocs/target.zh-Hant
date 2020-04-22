@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 22 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增區段：描 *述檔批次狀態API v2變更（2020年5月4日）。* |
 | 20 年 4 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增區段： *Adobe Target技能產生器：開發人員聊天，將Adobe Target的mbox.js移轉至at.js。* |
 | 14 年 4 月 | [白名單目標邊緣主機](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新主題。 |
 | 10 年 4 月 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 新增區段：「實作最佳實務。」 |
