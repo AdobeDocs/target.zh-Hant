@@ -5,7 +5,7 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8267de6c27566ec397651d3bfc88aad0818ed8d2
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -20,9 +20,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Adobe的認證授權機構(DigiCert)需要確認Adobe是否已授權在您的網域下產生認證。
 
-   DigiCert會呼叫此程式 [網域控制驗證(DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)，而且在至少下列其中一個DCV方法完成此程式之前，Adobe將不得在您的網域下產生憑證：
+   DigiCert會呼叫此程式 [網域控制驗證(DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)，在下列至少一種DCV方法完成此程式之前，Adobe將不得在您的網域下產生憑證：
 
-   * 最快速的DCV方法是 __DNS CNAME方法__，您可在其中新增DNS CNAME記錄（包含Token）至指向DigiCert DCV主機名稱(dcv.digicert.com)的網域。 此CNAME記錄會向DigiCert指出Adobe已獲得授權，可產生憑證。 Adobe Client Care會將指示與必要的DNS記錄一併傳送給您。 例如：
+   * 最快速的DCV方法是DNS CNAME方法，您可在其中新增DNS CNAME記錄（包含Token）至指向DigiCert DCV主機名稱(`dcv.digicert.com`)的網域。 此CNAME記錄會向DigiCert指出Adobe已獲得授權，可產生憑證。 Adobe Client Care會將指示與必要的DNS記錄一併傳送給您。 例如：
 
       ```
       3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
@@ -30,13 +30,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
       >[!NOTE]
       >
-      >這些DCV Token會在30天後到期，Adobe Client Care會隨時與您聯絡更新的Token。 為了盡快解決您的CNAME要求，請在提交您的要求前，先準備對所有要求的網域進行這些DNS變更。
+      >* 這些DCV Token會在30天後到期，Adobe Client Care會隨時與您聯絡更新的Token。 為了盡快解決您的CNAME要求，請在提交您的要求前，先準備對所有要求的網域進行這些DNS變更。
+         >
+         >
+      * 如果您的網域 [有DNS CAA記錄](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)，則必須 `digicert.com` 新增（如果尚未新增）。 此DNS記錄會指出哪些認證授權機構已授權為網域發行認證。 產生的DNS記錄如下所示： `example.com. IN CAA 0 issue "digicert.com"`。 您可以使 [用G Suite工具箱](https://toolbox.googleapps.com/apps/dig/#CAA) ，判斷您的根網域是否有現有的CAA記錄。 您可以在這裡閱讀更多有關DigiCert如何處理CAA記 [錄](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)。
 
-      >[!NOTE]
-      >
-      >如果您的網域有 [DNS CAA記錄](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)，則您需要新增 `digicert.com` （如果尚未新增）。 此DNS記錄會指出哪些認證授權機構已授權為網域發行認證。 產生的DNS記錄如下所示： `example.com. IN CAA 0 issue "digicert.com"`。 您可以使 [用G Suite工具箱](https://toolbox.googleapps.com/apps/dig/#CAA) ，判斷您的根網域是否有現有的CAA記錄。 您可以在這裡閱讀更多有關DigiCert如何處理CAA記 [錄](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)。
 
-   * DigiCert也會嘗試電子郵件方 __法__，在此方法中，他們會傳送電子郵件至網域的WHOIS資訊中找到的位址，以及預先決定的電子郵件地址(管理員、管理員、網站管理員、主機管理員和郵遞員 `@[domain_name]`)。 如需詳細 [資訊，請參閱DCV方法檔案](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) 。
+   * DigiCert也會嘗試電子郵件方法，其中會傳送電子郵件訊息至網域的WHOIS資訊中的位址，以及預先決定的電子郵件地址(管理員、管理員、網站管理員、主機管理員和郵遞員 `@[domain_name]`)。 如需詳細 [資訊，請參閱DCV方法檔案](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) 。
 
       為加速DCV電子郵件程式，DigiCert提供下列建議：
 
@@ -58,13 +58,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 下列資訊可回答有關在中要求和實作CNAME支援的常見問題 [!DNL Target]:
 
-### 我是否可提供我自己的憑證（又稱攜帶您自己的憑證，亦稱BYOC）? 如果是，程式是什麼？
+### 我是否可提供我自己的憑證（又稱為攜帶您自己的憑證或BYOC）? 如果是，程式是什麼？
 
-是的，您可以提供您自己的憑證，但 __不建議使用__。 當Adobe購買並控制憑證時，Adobe和客戶都能更輕鬆地管理SSL憑證生命週期。 SSL憑證需要每年更新一次，這表示Adobe Client Care必須每年與您聯絡，才能及時傳送新憑證給Adobe。 有些客戶可能每年都無法及時產生更新的憑證，這會危及其實作，因為當憑證過期時， [!DNL Target] 瀏覽器會拒絕連線。
+是的，您可以提供您自己的憑證；但不建議使用。 Adobe和您在購買及控制憑證時，SSL憑證生命週期的管理會變得更輕鬆。 SSL憑證必須每年更新一次，這表示Adobe Client Care必須每年與您聯絡，以便及時傳送新憑證給Adobe。 有些客戶可能每年都無法及時產生更新的憑證，這會危及其實作，因為當憑證過期時， [!DNL Target] 瀏覽器會拒絕連線。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->請注意，如果您要求實 [!DNL Target] 施攜帶自有憑證的CNAME，您每年將負責為Adobe Client Care提供續約憑證。 若您的CNAME憑證在Adobe部署續約的憑證之前到期，將會導致您的特定實作中斷 [!DNL Target] 運作。
+>請注意，如果您要 [!DNL Target] 求實作攜帶自有憑證的CNAME，您有責任每年向Adobe Client Care提供續約憑證。 若您的CNAME憑證在Adobe部署續約的憑證之前到期，將會導致您的特定實作中斷 [!DNL Target] 運作。
 
 1. 略過上述步驟1，但完成步驟2和3。 當您開啟Adobe Client Care票證（步驟3）時，請通知他們您將提供您自己的憑證。
 
@@ -78,7 +78,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 新SSL憑證到期的時間？
 
-2020年9月1日前核發的證書為2年期證書。 2020年9月1日及之後簽發的證書為1年證書。 您可以在這裡閱讀更多有關改用1年證書的 [資訊](https://www.digicert.com/position-on-1-year-certificates)。
+2020年9月1日前核發的證書為兩年期證書。 2020年9月1日或之後簽發的證書為一年期證書。 您可在這裡閱讀更多有關改用一年期證書的 [資訊](https://www.digicert.com/position-on-1-year-certificates)。
 
 ### 我應選擇哪些主機名？ 我應選擇每個網域的主機名？
 
@@ -100,7 +100,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### Adobe/DigiCert是否可將DCV電子郵件傳送至其他電子郵件地址 `<someone>@example.com`?
 
-否，DigiCert（或任何認證機構）將不允許只有網域下有電子郵件地址的任何人授權該網域下的SSL憑證，除非該電子郵件地址也包含在網域的WHOIS資訊或預先確定的位址清單中（請參閱上文）。 這可確保只有經過授權的個人才能核准特定網域的DCV。 如果這對您不可行，我們建議使用DNS CNAME DCV方法（請參閱上文）。
+否，DigiCert（或任何認證機構）將不允許只有網域下有電子郵件地址的任何人授權該網域下的SSL憑證，除非該電子郵件地址也包含在網域的WHOIS資訊或預先確定的位址清單中（請參閱上文）。 這可確保只有授權的個人才能核准特定網域的DCV。 如果這對您不可行，我們建議使用DNS CNAME DCV方法（請參閱上文）。
 
 ### 如何驗證我的CNAME實作已準備好進行流量？
 
@@ -123,7 +123,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    validateEdgeFpsslSni target.example.com
    ```
 
-   如果實作已就緒，您應該會看到如下輸出。 重要部分是所有行都會顯示，這 `CN=target.example.com`些行與我們所需的主機名稱相符。 如果其中任何一 `CN=*.tt.omtrdc.net`個顯示，實 **作** 尚未準備。
+   如果實作已就緒，您應該會看到如下輸出。 重要部分是所有行都顯示，這符 `CN=target.example.com`合我們所需的主機名。 如果其中任何一 `CN=*.tt.omtrdc.net`個顯示，實 **作** 尚未準備。
 
    ```
    $ validateEdgeFpsslSni target.example.com
@@ -150,4 +150,4 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >如果此命令失敗，但 `validateEdgeFpsslSni` 上述命令成功，您可能需要等待DNS更新完全傳播。 DNS記錄具有關聯的 [TTL（存留時間）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) ，它規定這些記錄的DNS回覆的快取到期時間，因此您至少需要等待TTL。 您可以使用 `dig target.example.com` 命令 [](https://toolbox.googleapps.com/apps/dig/#CNAME) 或G套裝工具箱來查閱您的特定TTL。
+   >如果此命令失敗，但 `validateEdgeFpsslSni` 上述命令成功，您可能需要等待DNS更新完全傳播。 DNS記錄具有關聯的 [TTL（存留時間）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) ，該TTL規定了這些記錄的DNS回覆的快取過期時間，因此您至少需要等待TTL。 您可以使用 `dig target.example.com` 命令 [或G套裝工具箱](https://toolbox.googleapps.com/apps/dig/#CNAME) ，來尋找您的特定TTL。
