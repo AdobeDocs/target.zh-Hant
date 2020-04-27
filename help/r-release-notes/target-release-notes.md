@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e9a6545ab65cf1214977f8fa472904527c18a04d
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e9a6545ab65cf1214977f8fa472904527c18a04d
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新時間: 2020 年 4 月 24 月**
+**上次更新時間: 2020 年 4 月 27 月**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -44,7 +44,6 @@ source-git-commit: e9a6545ab65cf1214977f8fa472904527c18a04d
 * 已修正對對象不正確限定裝置和瀏覽器類型的問題。 (TGT-36266)
 * 修正在寬度小於963像素的螢幕上檢視報表資料時無法顯示的問題。 (TGT-36549)
 * 修正「自動個人化」報表無法正確呈現的問題。 (TGT-36619)
-* 修正在使用Analytics for Target(A4t)的「自動分配」和「自動目標」活動中，允許選取不相容量度的問題。 (TGT-36646)
 * 修正「視覺體驗撰寫器」(VEC)中某些選項無法正確顯示的問題。 (TGT-36571)
 * 修正Target UI中，當使用者在單一體驗中取代內容後，導致其他Recommendations選件預覽顯示已編輯內容的問題。 (TGT-36053 和 TGT-36894)
 * 修正部分使用者無法從Recommendations目錄刪除項目的問題。 (TGT-36455)
