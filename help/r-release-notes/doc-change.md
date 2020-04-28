@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 28 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已刪除有關使用較 `user.header('x-forwarded-for')` 新的AWS邊緣來檢索用戶IP地址的資訊。 此命令現在適用於較新的AWS邊緣。 |
+|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 將Target Standard/Premium發行(20.4.1)的日期變更為5月6日。 |
 | 23 年 4 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
 | 22 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增區段：描 *述檔批次狀態API v2變更（2020年5月4日）。* |
 | 20 年 4 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增區段： *Adobe Target技能產生器：開發人員聊天，將Adobe Target的mbox.js移轉至at.js。* |
