@@ -5,7 +5,7 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
+source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 ---
 
@@ -35,20 +35,68 @@ source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 [立即註冊！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
-## Target Standard/Premium 20.4.1 (2020 年 4 月 27 日)
+## Target at.js（2020年3月25日）
+
+下列是Target at.js JavaScript程式庫的新版本：
+
+* at.js 2.3.0版
+* at.js 1.8.1版
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+## Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
+
+>[!IMPORTANT]
+>
+>請參閱上述有關mbox.js取代的資訊。
 
 此發行包含下列增強功能、修正和變更：
 
-* 已修正對對象不正確限定裝置和瀏覽器類型的問題。 (TGT-36266)
-* 修正在寬度小於963像素的螢幕上檢視報表資料時無法顯示的問題。 (TGT-36549)
-* 修正「自動個人化」報表無法正確呈現的問題。 (TGT-36619)
-* 修正「視覺體驗撰寫器」(VEC)中某些選項無法正確顯示的問題。 (TGT-36571)
-* 修正Target UI中，當使用者在單一體驗中取代內容後，導致其他Recommendations選件預覽顯示已編輯內容的問題。 (TGT-36053 和 TGT-36894)
-* 修正部分使用者無法從Recommendations目錄刪除項目的問題。 (TGT-36455)
-* 修正使用者無法將Recommendations標準儲存在多頁活動上的問題。 (TGT-36249)
-* 修正行為資料來源選項按鈕在連續編輯准則第二次時消失的問題。 (TGT-36796)
-* 修正Recommendations演算法在延長期間顯示「擷取結果」的顯示問題。 (TGT-36550 和 TGT-36551)
-* 已更新多種語言本地化的UI字串。
+* 修正客戶在執行目錄搜尋時無法選取系列的問題。 (TGT-36230)
+* 已修正此問題：透過API建立但未由Target UI中建立之活動所參照的准則，可能會從UI中錯誤刪除。 (TGT-35917)
+* 已實作內容安全性政策(CSP)的安全性改進。 (TGT-36190)
+* 修正將「屬性加權」百分比列滑至最左側時，顯示「NaN%」的問題。 (TGT-36211)
+* 已解決本地化問題，讓各種語言的UI文字可正確顯示。
+* 我們淘汰目前Adobe Analytics API版本不支援的Adobe Analytics量度，標準化了Adobe Analytics for Target(A4T)活動的可用量度清單。 這可讓我們在未來的Adobe Target版本中擴充A4T支援。
+
+   已進行下列變更：
+
+   * 「頁面平均逗留時間」已取代為「網站平均逗留時間」。 任何使用此作為主要目標量度的活動都會有「網站平均逗留時間」(注意：測量單位為分鐘（而非秒），在下次編輯活動時選取為主要目標量度。
+   * 「訪客」已由「獨特訪客」取代。 使用此量度作為主要目標量度的任何活動，在下次編輯活動時，都會將「獨特訪客」選為主要目標量度。
+
+* 下列量度已過時，在建立新的A4T活動時，無法再選為主要目標量度。
+
+   | 過時的量度 | 建議的取代量度 |
+   |--- |--- |
+   | 每日訪客、每小時訪客、每月訪客、每季訪客、每週訪客、每年訪客 | 獨特訪客 |
+   | 平均存取深度 | n/a。未建議作為主要目標量度 |
+   | 機器人 | n/a。未建議作為主要目標量度 |
+   | 行動裝置當機率、行動裝置平均上一階段作業長度、行動應用程式商店平均排名、行動裝置應用程式效能當機率、行動裝置應用程式商店平均評分 | n/a。未建議作為主要目標量度 |
+
+## Adobe Experience Cloud導覽（2019年2月22日）
+
+* 當您登入時， [!DNL Adobe Experience Cloud]將會進入新的標題導覽。 它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
+
+   * 更輕鬆地在 [!DNL Identity Management System] (IMS)組織間切換或切換至不同的解決方案。
+   * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
+
+   * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
+   * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下頁首中的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁允許客戶繼續使用 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
+
+      ![登陸頁面](/help/r-release-notes/assets/landing.png)
+
+      我們已取消所有客戶的登陸頁面。 現在，只要按一下新標題導覽列中的 [!UICONTROL 圖示，您就一律會直接進入「活][!DNL Target] 動清單」頁面。
+
+      如果您使 [!DNL Recommendations Classic]用，您可以直接前往解決方案，或從Recommendations標籤上建立的簡短連結  ，如下所示：
+
+      ![Recs Classic深層連結](/help/r-release-notes/assets/recs-classic.png)
+
+      如果您使 [!DNL Search&Promote]用，您必須直接前往 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。 從內部到達 [!DNL Search&Promote] 的路徑已 [!DNL Adobe Target] 完全移除。
+
+   * 頁首的 [!DNL Target] 「通知」下拉式清單 [!UICONTROL 中] ，目前無法使用的通知。
+   >[!NOTE]
+   >
+   >在新導覽列的推出過程中，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
 
 ## 其他發行說明和版本詳細資訊
 
