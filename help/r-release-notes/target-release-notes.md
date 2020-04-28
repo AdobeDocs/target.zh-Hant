@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新時間: 2020 年 4 月 24 月**
+**上次更新時間: 2020 年 4 月 28 月**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -37,7 +37,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 [立即註冊！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
-## Target Standard/Premium 20.4.1 (2020 年 4 月 27 日)
+## Target Standard/Premium 20.4.1 (2020 年 5 月 6 日)
 
 此發行包含下列增強功能、修正和變更：
 
