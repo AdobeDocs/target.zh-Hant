@@ -5,7 +5,7 @@ title: 設定檔和變數字彙表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 | user.daysSinceLastVisit |  |
 | user.browser | 使用者代理程式 |
 | user.header | 所有 `user.header` 描述檔皆是由 mbox 請求標頭資料內建 |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 訪客所在網路連線的公開顯示的 IP 位址。<br>注意：user.header(&#39;x-cluster-client-ip&#39;)標頭在較新的AWS邊緣無法運作。<br>您可以以數個方式取得該資訊，例如 [whatismyip.com](https://www.whatismyip.com/)。IP 位址不是 NAT 位址 (內部位址)，其開頭為 10.、192.168. 或 172。 |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 訪客所在網路連線的公開顯示的 IP 位址。<br>您可以以數個方式取得該資訊，例如 [whatismyip.com](https://www.whatismyip.com/)。IP 位址不是 NAT 位址 (內部位址)，其開頭為 10.、192.168. 或 172。 |
 | user.header(&#39;host&#39;) | 網站主機名稱 |
 | user.header(&#39;cookie&#39;) | 訪客 cookie 資料 |
 | user.header(&#39;user-agent&#39;) | 訪客瀏覽器使用者代理程式 |
