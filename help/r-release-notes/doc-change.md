@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 29 年 4 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增極端訂單報告的已知問題。 |
 | 28 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已刪除有關使用較 `user.header('x-forwarded-for')` 新的AWS邊緣來檢索用戶IP地址的資訊。 此命令現在適用於較新的AWS邊緣。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 將Target Standard/Premium發行(20.4.1)的日期變更為5月6日。 |
 | 23 年 4 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
