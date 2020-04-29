@@ -3,8 +3,8 @@ keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: 此版本 Adobe Target 已知問題的相關資訊，也包括已解決問題的相關資訊。
 title: Adobe Target 的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+translation-type: tm+mt
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -20,6 +20,20 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節羅列 [!DNL Target] 的已知問題：
+
+### 報告與極端訂單
+
+從2019年11月25日到2020年4月26日，一個Target伺服器遇到問題，導致極端訂單值計入收入型報表量度(AOV、RPV)。 從2019年12月19日到2020年4月23日，另一台伺服器遇到了相同問題。 此問題並未影響所有Target伺服器或所有Target客戶。
+
+如果您 *有* :
+
+* 您的Target實作使用不同的伺服器。
+* 您的報表未排除極端訂單。
+* 您使用轉換度量來測量活動。
+* 您的Target活動使用Analytics for Target(A4T)。
+* 您位於亞太地區。
+
+若要判斷此問題是否影響Target實作，請連絡 [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### 頁面傳送 {#page-delivery}
 
