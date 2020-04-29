@@ -4,7 +4,7 @@ description: 此版本 Adobe Target 已知問題的相關資訊，也包括已�
 title: Adobe Target 的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 * 您的Target活動使用Analytics for Target(A4T)。
 * 您位於亞太地區。
 
-若要判斷此問題是否影響Target實作，請連絡 [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+若要判斷此問題是否影響Target報表，請聯絡 [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### 頁面傳送 {#page-delivery}
 
