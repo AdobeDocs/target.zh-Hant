@@ -4,7 +4,7 @@ description: 使用開放原始碼 Velocity 設計語言來自訂建議設計。
 title: 使用 Velocity 自訂設計
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
 
 ---
 
@@ -129,7 +129,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 1. 將entity屬性傳遞至您在 `parseInt` 步驟1 `parseDouble` 中建立的虛擬變數上的或方法，將字串轉換為整數或雙重值
 1. 對新數值執行數學運算或比較
 
-**範例：計算折扣價格**
+**範例： 計算折扣價格**
 
 假設您想要將項目的顯示價格降低$0.99以套用折扣。 您可以使用下列方法來達成此結果：
 
@@ -144,7 +144,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**範例：根據項目的評分選擇要顯示的星數**
+**範例： 根據項目的評分選擇要顯示的星數**
 
 假設您想根據項目的數值平均客戶評分顯示適當數量的星號。 您可以使用下列方法來達成此結果：
 
@@ -169,7 +169,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**範例：根據項目長度（以分鐘為單位）計算時間（以小時和分鐘為單位）**
+**範例： 根據項目長度（以分鐘為單位）計算時間（以小時和分鐘為單位）**
 
 假設您以分鐘儲存影片長度，但想以小時和分鐘來顯示長度。 您可以使用下列方法來達成此結果：
 
@@ -264,6 +264,6 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
             #set($count = $count + 1) 
         #end 
     #end
-    </div>
   </div>
+</div>
 ```
