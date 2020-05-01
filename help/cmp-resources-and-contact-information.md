@@ -5,7 +5,7 @@ title: 資源與聯絡資訊
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
+source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
 
 ---
 
@@ -44,8 +44,8 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 | 主題/播放時間/錄影日期 | 學習目標 |
 |--- |--- |
 | [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017年12月50日 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/c-experiences/experiences.md)。 |
-| [Adobe Target:Analytics/Target整合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40:33<br>日 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js:優勢與實施最佳做](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>法26:43<br>2018年4月26日 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>At.js 勝過 mbox.js 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul>如需本指南的詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [Adobe Target: Analytics/Target整合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40:33<br>日 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js: 優勢與實施最佳做](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>法26:43<br>2018年4月26日 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>At.js 勝過 mbox.js 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul>如需本指南的詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
@@ -97,10 +97,10 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其聯絡的許多種途徑:
 
-* [請參閱 Experience Cloud 說明頁面，以取得建議、提示及常見問題解答](https://helpx.adobe.com/marketing-cloud.html)
+* [請參閱 Experience Cloud 說明頁面，以取得建議、提示及常見問題解答](https://helpx.adobe.com/tw/support/marketing-cloud.html)
 * [在 Twitter @AdobeExpCare 上簡單說明您的問題](https://twitter.com/adobeexpcare)
 * [開啟票證以取得支援的協助](https://experienceleague.adobe.com/?support-solution=Target#support)
-* [直接聯絡客戶服務團隊](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [直接聯絡客戶服務團隊](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解決方案的可用性和狀態](https://status.adobe.com/)
 
 若要收到未來產品增強功能的提前通知，請註冊「Adobe 優先產品更新」:
@@ -113,7 +113,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 ### 意見反應 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我們很歡迎關於本解決方案的任何建議或回饋意見。您可以將對於 Analytics 套裝的增強功能構想和建議[加入我們的 Customer Idea Exchange](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)。
+我們很歡迎關於本解決方案的任何建議或回饋意見。您可將增強功能的概念和建議新增至 [Adobe Target Experience League社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 Click the [!UICONTROL Ideas] tab.
 
 ### 法律資訊 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
