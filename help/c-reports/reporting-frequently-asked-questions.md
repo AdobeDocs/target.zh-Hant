@@ -1,11 +1,11 @@
 ---
-keywords: 疑難排解;量度差異;FAQ;報表
+keywords: troubleshooting;metric discrepancies;FAQ;reports
 description: 關於 Adobe Target 中報表常見問題集的清單。
 title: Adobe Target 的報表常見問題集
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -33,7 +33,7 @@ XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試
 
 若要變更活動報表的環境:
 
-1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的活動，然後按一下&#x200B;**「報表」]標籤。[!UICONTROL **
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
 1. 按一下齒輪圖示進行報表設定。
 
    ![A/B 設定對話方塊](/help/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -49,3 +49,18 @@ XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 如需環境的詳細資訊，請參閱[主機](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+
+## 為什麼我的A/B或MVT活動中體驗之間的流量分割不均？ {#uneven}
+
+例如，我將流量分割設為50/50或33/33/33，但在報告中，我發現體驗之間的分佈大不相同。
+
+報告中有許多可解釋的流量分割不均的原 [!DNL Target] 因：
+
+* 首次啟 [!DNL Target] 動活動時，由於使用邊緣節點架構來最佳化體驗傳遞，流量分 [!DNL Target] 布可能不均勻。 最佳實務是讓活動有時間收集其他資料，然後散發就會標準化。 如需有關架構和 [!DNL Adobe Target] Edge節點的詳細資訊，請參 [閱Adobe Target的運作方式](/help/c-intro/how-target-works.md)。
+* 您使用哪個標準化量度？ 如果您在或 [!DNL Target][!DNL Analytics] 且使用「瀏覽」度量，請記住，這 ****[!DNL Target] 是以訪客為基礎的系統，A/B或MVT測試的流量分佈會指派給訪客層級。 因此，如果您使用「瀏覽」度量檢查活 **[!UICONTROL 動結果]** ，則流量分佈可能會不均勻，因為某些訪客可能有多次瀏覽。
+* A/B和MVT測試的最佳實務是讓流量分割保持均勻。 在測試期間變更體驗之間的流量分佈（例如從90/10變更為50/50），可能會導致不同體驗的訪客不均衡。
+* 如果您遵循上述最佳實務，且流量分割不會隨著時間而標準化，您應檢查下列項目：
+
+   * 您使用最新的at.js程式庫嗎？ 如需目前版本和相關發行說明的詳細資訊，請參 [閱at.js版本詳細資訊](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+
+   * 是重新導向測試嗎？ 頁面上觸發標籤的時間不正確可能導致不均勻的流量分割，尤其是當使 [!DNL Analytics] 用作活動的資料來源時 [!DNL Target] 。 如需使用Analytics for Target(A4T)修正重新導向活動上不均衡流量分配的詳細資訊，請參閱重新導向選 [件- A4T常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。
