@@ -5,7 +5,7 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -18,18 +18,19 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 4 年 5 月 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 新增常見問答： 「為什麼我的A/B或MVT活動中體驗之間的流量分割不均？」 |
 | 29 年 4 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增極端訂單報告的已知問題。 |
 | 28 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已刪除有關使用較 `user.header('x-forwarded-for')` 新的AWS邊緣來檢索用戶IP地址的資訊。 此命令現在適用於較新的AWS邊緣。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 將Target Standard/Premium發行(20.4.1)的日期變更為5月6日。 |
 | 23 年 4 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
-| 22 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增區段：描 *述檔批次狀態API v2變更（2020年5月4日）。* |
-| 20 年 4 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增區段： *Adobe Target技能產生器：開發人員聊天，將Adobe Target的mbox.js移轉至at.js。* |
+| 22 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增區段： *描述檔批次狀態API v2變更（2020年5月4日）。* |
+| 20 年 4 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增區段： *Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js。* |
 | 14 年 4 月 | [白名單目標邊緣主機](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新主題。 |
-| 10 年 4 月 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 新增區段：「實作最佳實務。」 |
+| 10 年 4 月 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 新增區段： 「實作最佳實務。」 |
 | 7 年 4 月 | [提升度和可信度 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新「為什麼我看不到計算量度的提升度和可信度？」的文字 |
 | 2 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已添加有關使用 `user.header('x-forwarded-for')` 較新的AWS邊緣來檢索用戶IP地址的資訊。 |
 |  | [從 at.js 1.*x* 升級為 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 已新增下列備註:<ul><li>安裝 ECID 資料庫 v4.3.0+ 和 at.js 2.*x* 後，您將能建立橫跨多個唯一網域的活動以及追蹤使用者。請務必注意，此功能只有在工作階段過期後才能運作。</li></ul> |
-| 3月30日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增影響at.js 2.2.0之前版本的已知問題。當Adobe Analytics代碼不存在於頁面元素時，此問題會導致點按追蹤無法報告Analytics for Target(A4T)中的轉換。 |
+| 3月30日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增影響at.js 2.2.0之前版本的已知問題。 當Adobe Analytics代碼不存在於頁面元素時，此問題會導致點按追蹤無法報告Analytics for Target(A4T)中的轉換。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已將下列資訊新增至at.js 2.2.0版詳細資訊：<ul><li>修正當Adobe Analytics代碼不存在於頁面元素時，點按追蹤無法報告Analytics for Target(A4T)轉換的問題。</li></ul> |
 | 3月25日 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增下列at.js新版本的相關資訊：<ul><li>at.js 2.3.0版</li><li>at.js 1.8.1版</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在「設定」區段中新增下列新列：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>新增下列新小節:<ul><li>內容安全性原則</li></ul> |
@@ -60,23 +61,23 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 2020 年 1 月 29 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 更新文字和程式碼範例。 新的程式碼範例說明如何處理Velocity範本中的數字。 |
 | 2020年1月28日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已變更Target Standard/Premium 20.1.1發行日期。 發行日期為2020年2月4日。 |
-| 2020年1月27日 | [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 新增區段：「Adobe部落格。」 |
-|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列資訊：「如果您使用批次傳送API，每個批次請求的限制為50個mbox。」 |
+| 2020年1月27日 | [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 新增區段： 「Adobe部落格。」 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已新增下列資訊： 「如果您使用批次傳送API，每個批次請求的限制為50個mbox。」 |
 |  | [資源與聯絡資訊](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新連結以開啟支援票證。 |
 |  | [自動鎖定目標摘要報表](/help/c-reports/auto-target-summary-report.md) | 更新文字和影像。 |
 | 2020年1月23日 | [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已新增附註，以使用Adobe Target範例大小計算器來判斷成功者。 |
 |  | [實體屬性](/help/c-recommendations/c-products/entity-attributes.md) | 已新增附註，說明如果您使用at.js 2。*x*, `mboxCreate` 不再支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，使用 `targetPageParams`。 |
-| 2020 年 1 月 22 日 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新下列常見問答：「使用自動分配時，我是否可以使用樣本大小計算器來估計活動識別成功者所需的時間？」 |
+| 2020 年 1 月 22 日 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新下列常見問答： 「使用自動分配時，我是否可以使用樣本大小計算器來估計活動識別成功者所需的時間？」 |
 | 2020年1月15日 | [在瀏覽器中啟用混合內容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 已新增訓練影片和指示，說明如何更新網站設定，以允許最新版Chrome中混合內容。 |
 |  | [動態消息](/help/c-recommendations/c-products/feeds.md) | 已新增有關上傳和移除實體和實體屬性的附註。 |
-|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：Recommendations內容追蹤中有時傳回的NO_CONTENT回應代表什麼意思？ |
+|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答： Recommendations內容追蹤中有時傳回的NO_CONTENT回應代表什麼意思？ |
 |  | [建立訂購確認 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | 已新增附註，說明如何使用at.js 2執行訂單確認。*x* 版本不支援此函數。 |
 | 2020 年 1 月 9 日 | [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新文字。<br>在2020年3月1日之後，Adobe Target將不再支援Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活動傳送、API等的TLS 1.1加密。 請在2020年3月1日之前升級至TLS 1.2，以避免任何問題。 |
 | 2020年1月6日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增「自訂准則」饋送狀態的已知問題。 |
 | 2019年12月19日 | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 已新增有關1.1.0版的資訊。 |
 | 2019 年 12 月 12 日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新常見問答區段。 |
-|  | [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已重新命名主題並新增下列區段：「瞭解自動分配活動中的提升度和可信度報告。」 |
-| 2019 年 12 月 11 日 | [鎖定目標和對象常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增常見問答：「Target如何評估定位中的URL?」 |
+|  | [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已重新命名主題並新增下列區段： 「瞭解自動分配活動中的提升度和可信度報告。」 |
+| 2019 年 12 月 11 日 | [鎖定目標和對象常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增常見問答： 「Target如何評估定位中的URL?」 |
 | 2019年12月10日 | [目標限制](/help/r-troubleshooting-target/target-limits.md) | 已更新mbox參數區段。 |
 |  | [標準](/help/c-recommendations/c-algorithms/algorithms.md) | 已新增有關「標準使用」功能支援的附註。 |
 | 2019 年 12 月 5 日 | [網頁](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 更新了主題。 |
@@ -84,7 +85,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 2019年11月26日 | [At.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 更新「非同步載入at.js時管理閃爍」中的文字。 |
 |  | [Target Insider電子報](/help/r-release-notes/target-insider-newsletter.md) | 已新增至2019年11月電子報的連結。 |
 |  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新「指定角色和權限」下的文字和影像。 |
-| 2019 年 11 月 15 日 | [常見的10種A/B測試缺陷及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 新增「Pitfall 7:在測試期間變更流量分配。」 |
+| 2019 年 11 月 15 日 | [常見的10種A/B測試缺陷及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 新增「Pitfall 7: 在測試期間變更流量分配。」 |
 | 2019年11月11日 | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 已新增有關1.0.1版的資訊。 |
 |  | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新整個主題。 |
 |  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 已新增資訊，說 [!DNL Target] 明不儲存地理資訊，例如郵遞區號。 |
@@ -92,10 +93,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [隱私權與資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 已更新CCPA區段，新增附註。<br>新增常見問答集，通知客戶Target無法允許客戶直接從Target分享或銷售資料給第三方，因此Target不會選擇退出銷售。 |
 | 2019 年 11 月 7 日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 已新增adobeQA參數的程式碼範例。 |
 | 2019 年 11 月 5 日 | [網站頁面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 已更新「疑難排解」區段中的文字。 |
-| 2019年11月4日 | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新下列常見問答集下的文字：「我為何會看到警告訊息，例如&#39;遺失選擇器的動作&#39;?」 |
+| 2019年11月4日 | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新下列常見問答集下的文字： 「我為何會看到警告訊息，例如&#39;遺失選擇器的動作&#39;?」 |
 | 2019 年 10 月 31 日 | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主題。 |
 |  | [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) |  新主題。 |
-|  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 新增區段：「哪個at.js 1.*at* .js 2不支援建立觀眾的x參數。*x*?&quot; |
+|  | [從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 新增區段： 「哪個at.js 1.*at* .js 2不支援建立觀眾的x參數。*x*?&quot; |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增有關新增額外空格至範本規則的已知問題。 |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Premium 19.10.2版本和Target Java SDK版本的資訊。 |
 | 2019 年 10 月 30 日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的Target Premium 19.10.2（2019年10月31日）版本的資訊。 |
@@ -106,12 +107,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增附註連結至Target傳送API檔案，以協助您瞭解請求／回應的可用類型（陣列、字串等）。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增附註連結至Target傳送API檔案，以協助您瞭解請求／回應的可用類型（陣列、字串等）。 |
 |  | [網站頁面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 新增「疑難排解」區段。 |
-| 2019 年 10 月 24 日 | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 更新下列常見問答集中的文字：「為什麼Target有時候無法顯示建議？」 |
+| 2019 年 10 月 24 日 | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 更新下列常見問答集中的文字： 「為什麼Target有時候無法顯示建議？」 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增附註至影響舊版at.js（2.2.0版舊版）的已知問題。 |
 |  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已新增有關使用A4T之活動之成功度量之預設行為的附註。 |
 | 2019 年 10 月 22 日 | [條件/演算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 已新增「使用者建議」的列。 |
-|  | [標準](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 新增區段：&quot;使用自訂建議金鑰。&quot; |
-|  | [目標與受眾常見問答集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增常見問答：&quot;建立複雜的URL字串時，是 [!DNL Target] 否評估整個URL?&quot; |
+|  | [標準](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 新增區段： &quot;使用自訂建議金鑰。&quot; |
+|  | [目標與受眾常見問答集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增常見問答： &quot;建立複雜的URL字串時，是 [!DNL Target] 否評估整個URL?&quot; |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 19.10.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target/Standard/Premium 19.9.1（2019年9月30日）
@@ -120,10 +121,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 2019 年 10 月 17 日 | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新主題，說明「活動QA」如何與第三方Cookie搭配運作。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新發行說明，加入有關Unified Shell變更的資訊。 |
-| 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 新增區段：&quot;serverState.&quot; |
+| 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 新增區段： &quot;serverState.&quot; |
 |  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增at.js 2.2和at.js 1.8版的相關資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增at.js 2.2和at.js 1.8版的相關資訊。 |
-|  | [疑難排解活動](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 新增區段：「我使用Target UI建立活動，但無法透過API更新。」 |
+|  | [疑難排解活動](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 新增區段： 「我使用Target UI建立活動，但無法透過API更新。」 |
 | 2019 年 10 月 9 日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了主題。 |
 |  | [發行說明——目標伺服器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新主題。 |
 |  | [發行說明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主題。 |
