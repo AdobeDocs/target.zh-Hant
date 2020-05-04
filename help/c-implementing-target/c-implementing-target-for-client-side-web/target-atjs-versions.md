@@ -5,7 +5,7 @@ title: at.js 版本詳細資料
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -17,6 +17,8 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 >[!IMPORTANT]
 >
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
+>
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升級at.js的偏好方法。 擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成擴充功能的新版本，並以升級形式提供 [!DNL Launch] 至目錄中。 如需詳細資訊，請參 [閱Experience Platform Launch使用指](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 南中的Extension Upgrade **。
 
 ## at.js 版本 2.3.0 (2020 年 3 月 25 日)
 
