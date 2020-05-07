@@ -5,7 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 >[!NOTE]
 >
->* **mbox.js淘汰**: 自2020年8月30日起，Adobe Target將不再支援mbox.js程式庫。 在2020年8月30日發佈後，從mbox.js進行的所有呼叫都將失敗，並影響您執行Target活動的頁面。 我們建議所有客戶在此日期前移轉至最新版的at.js程式庫，以避免您網站出現任何潛在問題。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 請參 *閱Adobe Target技能產生器： 開發人員聊天、將Adobe Target的mbox.js移轉至下方的at.js* ，以取得註冊即將進行的開發人員聊天的相關資訊。
+>* **mbox.js淘汰**: 自2020年8月30日起，Adobe Target將不再支援mbox.js程式庫。 在2020年8月30日發佈後，從mbox.js進行的所有呼叫都將失敗，並影響您執行Target活動的頁面。 我們建議所有客戶在此日期前移轉至最新版的at.js程式庫，以避免您網站出現任何潛在問題。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 請參 *閱Adobe Target技能產生器： 開發人員聊天，將Adobe Target的mbox.js移轉至下方的at.js* ，以取得詳細資訊。
    >
    >   
    雖然目前支援mbox.js，但自2017年7月起，我們尚未提供此程式庫的功能更新。 較新的at.js提供許多優於mbox.js的優點。 除了其他優點外，at.js可改善Web實作的頁面載入時間、改善安全性，並為單頁應用程式提供更佳的實作選項。
@@ -31,11 +34,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 ## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
-與Adobe Target產品經理David Son一起，說明將mbox.js移轉至at.js的優點。 聽聽最新的at.js更新，瞭解其增強功能以及這些功能如何與技術領域的大趨勢一致，以及一些實用秘訣，以確保您在從mbox.js移轉至at.js時，能夠從Target中獲取同樣多的價值。 Adobe Target開發人員不會想錯過這個！
-
-5月5日，星期二，上午8:00 - 9:00(PDT)
-
-[立即註冊！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 ## Target Standard/Premium 20.4.1 (2020 年 5 月 6 日)
 
