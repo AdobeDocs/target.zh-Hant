@@ -1,18 +1,21 @@
 ---
-keywords: qa;preview；預覽連結；adobe target;target
+keywords: qa;preview;preview links;adobe target;target
 description: 使用Adobe Target QA URL可輕鬆執行端對端活動QA，其中包含預覽連結（不會變更）、選擇性受眾定位，以及與即時活動資料保持區隔的QA報告。
 title: 活動 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1489'
+ht-degree: 88%
 
 ---
 
 
 # 活動 QA {#activity-qa}
 
-使用Adobe target中的QA URL來執行簡易的端對端活動QA，其中包含預覽連結（不會變更）、選擇性的受眾定位，以及與即時活動資料保持區隔的QA報告。
+使用Adobe Target中的QA URL來執行簡易的端對端活動QA，其中包含預覽連結（不會變更）、選擇性的受眾定位，以及與即時活動資料保持區隔的QA報告。
 
 ## 概述 {#section_11B761A522A14E61978275772210A4C2}
 
@@ -30,7 +33,7 @@ source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ## 存取和共用 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 從活動的[!UICONTROL 「概覽」]頁面 (「自動個人化」以外的所有類型)，按一下 **[!UICONTROL 「活動 QA」]連結。**
+1. 從活動的[!UICONTROL 「概覽」]頁面 (「自動個人化」以外的所有類型)，按一下 **[!UICONTROL 「活動 QA」]**&#x200B;連結。
 
    ![活動 QA 連結](assets/qa_link.png)
 
@@ -49,7 +52,7 @@ source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
       * 如果您測試的活動與其他已上線的活動之間有衝突，則會套用[標準優先順序規則](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。因此，您可能看不到想要 QA 的活動。
       * 已檢視的活動會增加量度，但僅限於 QA 報表環境中。
 
-1. 按一下 **[!UICONTROL 「完成」]以儲存變更。**
+1. 按一下 **[!UICONTROL 「完成」]**&#x200B;以儲存變更。
 1. 與組織的成員共用活動連結 URL 以便測試。
 
    活動連結永不過期，如果有人變更活動或體驗，您不需要重送連結。不過，如果您從對象資料庫取得不同的對象，而非只編輯活動，則會產生新連結，將需要重新共用。
@@ -72,7 +75,7 @@ source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
    您也可以在網站上以帶有空白值的 `at_preview_token` 參數 (例如，`https://www.mysite.com/?at_preview_token=`) 來載入頁面，以手動強迫自己離開。
 
 * 如果您在建立活動時指定「URL 是」[表單式撰寫器中的細分](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可視化體驗撰寫器中的頁面傳送選項)](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，則 QA URL 沒有作用，因為活動 QA 會附加 URL 參數。若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
-* 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他封鎖第三方Cookie的瀏覽器，則x或mbox.js的「活動QA」模式將不嚴格。 在這些情況下，您必須將預覽參數新增至您導覽至的每個URL。
+* 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他封鎖第三方Cookie的瀏覽器，則x或mbox.js的「活動QA」模式將不嚴格。 在這些情況下，您必須將預覽參數新增至您導覽至的每個URL。 如果您已實作 [CNAME，也是如此](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
 * 如果活動使用多個體驗對象 (例如，相同活動中包含的 US 和 UK 網站)，則這四個組合 (體驗 A/ US 網站、體驗 A/ UK 網站、體驗 B/ US 網站、體驗 B/ UK 網站) 不會產生 QA 連結。只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。UK QA 的人無法看見 US 網站。
 * 所有 `at_preview` 參數和值皆已完成 URL 編碼。一切通常皆沒問題，不過，某些客戶可能有負載平衡器或 Web 伺服器，會嘗試將查詢字串參數再一次編碼。
 
@@ -92,4 +95,4 @@ source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
    | `adobe_mc_ref` |  |  | 將預設頁面的轉介 URL 傳給新頁面。與 `AppMeasurement.js` 2.1 版 (或更新版) 一起使用時，[!DNL Adobe Analytics] 會在新頁面上將此參數值當作轉介 URL。 |
    | `adobe_mc_sdid` |  |  | 將補充資料 [!DNL Supplemental Data Id] (SDID) 和 [!DNL Experience Cloud Org Id] 從預設頁面傳給新頁面，以便 Analytics for Target (A4T) 將預設頁面的 Target 要求與新頁面的 Analytics 要求「拼接」起來。 |
 
-* Target QA 模式 UI 只會顯示多頁活動中的體驗的第一個 URL。假設的情況試，您正在建立旅程測試，並將從 URL1 移轉到 URL2。不過，若要單獨前往 URL2，請複製根據 URL1 提供的所有 URL 參數，並在放置 "?" 後將其套用至 URL2，  就像您在 URL1 中看到的一樣。
+* Target QA 模式 UI 只會顯示多頁活動中的體驗的第一個 URL。假設的情況試，您正在建立旅程測試，並將從 URL1 移轉到 URL2。不過，若要單獨前往 URL2，請複製根據 URL1 提供的所有 URL 參數，並在放置 &quot;?&quot; 後將其套用至 URL2，  就像您在 URL1 中看到的一樣。
