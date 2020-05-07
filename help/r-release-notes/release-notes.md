@@ -5,7 +5,10 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 >[!NOTE]
 >
->* **mbox.js淘汰**:自2020年8月30日起，Adobe Target將不再支援mbox.js程式庫。 在2020年8月30日發佈後，從mbox.js進行的所有呼叫都將失敗，並影響您執行Target活動的頁面。 我們建議所有客戶在此日期前移轉至最新版的at.js程式庫，以避免您網站出現任何潛在問題。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 請參 *閱Adobe Target技能產生器：開發人員聊天、將Adobe Target的mbox.js移轉至下方的at.js* ，以取得註冊即將進行的開發人員聊天的相關資訊。
+>* **mbox.js淘汰**: 自2020年8月30日起，Adobe Target將不再支援mbox.js程式庫。 在2020年8月30日發佈後，從mbox.js進行的所有呼叫都將失敗，並影響您執行Target活動的頁面。 我們建議所有客戶在此日期前移轉至最新版的at.js程式庫，以避免您網站出現任何潛在問題。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 請參 *閱Adobe Target技能產生器： 開發人員聊天，將Adobe Target的mbox.js移轉至下方的at.js* ，以取得詳細資訊。
    >
    >   
    雖然目前支援mbox.js，但自2017年7月起，我們尚未提供此程式庫的功能更新。 較新的at.js提供許多優於mbox.js的優點。 除了其他優點外，at.js可改善Web實作的頁面載入時間、改善安全性，並為單頁應用程式提供更佳的實作選項。
@@ -27,13 +30,9 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## Adobe Target Skill Builder:開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
+## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
-與Adobe Target產品經理David Son一起，說明將mbox.js移轉至at.js的優點。 聽聽最新的at.js更新，瞭解其增強功能以及這些功能如何與技術領域的大趨勢一致，以及一些實用秘訣，以確保您在從mbox.js移轉至at.js時，能夠從Target中獲取同樣多的價值。 Adobe Target開發人員不會想錯過這個！
-
-5月5日，星期二，上午8:00 - 9:00(PDT)
-
-[立即註冊！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 ## Target at.js（2020年3月25日）
 
@@ -61,7 +60,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
    已進行下列變更：
 
-   * 「頁面平均逗留時間」已取代為「網站平均逗留時間」。 任何使用此作為主要目標量度的活動都會有「網站平均逗留時間」(注意：測量單位為分鐘（而非秒），在下次編輯活動時選取為主要目標量度。
+   * 「頁面平均逗留時間」已取代為「網站平均逗留時間」。 任何使用此作為主要目標量度的活動都會有「網站平均逗留時間」(注意： 測量單位為分鐘（而非秒），在下次編輯活動時選取為主要目標量度。
    * 「訪客」已由「獨特訪客」取代。 使用此量度作為主要目標量度的任何活動，在下次編輯活動時，都會將「獨特訪客」選為主要目標量度。
 
 * 下列量度已過時，在建立新的A4T活動時，無法再選為主要目標量度。
@@ -69,16 +68,16 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
    | 過時的量度 | 建議的取代量度 |
    |--- |--- |
    | 每日訪客、每小時訪客、每月訪客、每季訪客、每週訪客、每年訪客 | 獨特訪客 |
-   | 平均存取深度 | n/a。未建議作為主要目標量度 |
-   | 機器人 | n/a。未建議作為主要目標量度 |
-   | 行動裝置當機率、行動裝置平均上一階段作業長度、行動應用程式商店平均排名、行動裝置應用程式效能當機率、行動裝置應用程式商店平均評分 | n/a。未建議作為主要目標量度 |
+   | 平均存取深度 | n/a。 未建議作為主要目標量度 |
+   | 機器人 | n/a。 未建議作為主要目標量度 |
+   | 行動裝置當機率、行動裝置平均上一階段作業長度、行動應用程式商店平均排名、行動裝置應用程式效能當機率、行動裝置應用程式商店平均評分 | n/a。 未建議作為主要目標量度 |
 
 ## Adobe Experience Cloud導覽（2019年2月22日）
 
 * 當您登入時， [!DNL Adobe Experience Cloud]將會進入新的標題導覽。 它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
 
    * 更輕鬆地在 [!DNL Identity Management System] (IMS)組織間切換或切換至不同的解決方案。
-   * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
+   * 改進的使用者說明： 搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
 
    * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
    * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下頁首中的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁允許客戶繼續使用 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
