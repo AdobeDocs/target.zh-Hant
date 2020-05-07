@@ -3,7 +3,10 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 產品文件
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 63%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新: 2020 年 5 月 4 日 ([查看變更](r-release-notes/doc-change.md))**
+**最近更新: 2020 年 5 月 7 日 ([查看變更](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son將代管開發人員聊天，討論將mbox.js移轉至at.js的優點。 如需詳細資訊，請參 [閱Adobe Target技能產生器： 開發人員聊天，將Adobe Target的mbox.js移轉至at.js](/help/r-release-notes/release-notes.md#skill-builder)。
+>隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 以下章節依照目標對象的典型職務排列，能引導您在本指南中找到實用連結:
 
