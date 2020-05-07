@@ -5,7 +5,10 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +36,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
       >* 這些DCV Token會在30天後到期，Adobe Client Care會隨時與您聯絡更新的Token。 為了盡快解決您的CNAME要求，請在提交您的要求前，先準備對所有要求的網域進行這些DNS變更。
          >
          >
-      * 如果您的網域 [有DNS CAA記錄](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)，則必須 `digicert.com` 新增（如果尚未新增）。 此DNS記錄會指出哪些認證授權機構已授權為網域發行認證。 產生的DNS記錄如下所示： `example.com. IN CAA 0 issue "digicert.com"`。 您可以使 [用G Suite工具箱](https://toolbox.googleapps.com/apps/dig/#CAA) ，判斷您的根網域是否有現有的CAA記錄。 您可以在這裡閱讀更多有關DigiCert如何處理CAA記 [錄](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)。
+      * 如果您的網域 [有DNS CAA記錄](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)，則必須 `digicert.com` 新增（如果尚未新增）。 此DNS記錄會指出哪些認證授權機構已授權為網域發行認證。 產生的DNS記錄如下所示： `example.com. IN CAA 0 issue "digicert.com"`. 您可以使 [用G Suite工具箱](https://toolbox.googleapps.com/apps/dig/#CAA) ，判斷您的根網域是否有現有的CAA記錄。 您可以在這裡閱讀更多有關DigiCert如何處理CAA記 [錄](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)。
 
 
    * DigiCert也會嘗試電子郵件方法，其中會傳送電子郵件訊息至網域的WHOIS資訊中的位址，以及預先決定的電子郵件地址(管理員、管理員、網站管理員、主機管理員和郵遞員 `@[domain_name]`)。 如需詳細 [資訊，請參閱DCV方法檔案](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) 。
@@ -60,7 +63,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 我是否可提供我自己的憑證（又稱為攜帶您自己的憑證或BYOC）? 如果是，程式是什麼？
 
-是的，您可以提供您自己的憑證；但不建議使用。 Adobe和您在購買及控制憑證時，SSL憑證生命週期的管理會變得更輕鬆。 SSL憑證必須每年更新一次，這表示Adobe Client Care必須每年與您聯絡，以便及時傳送新憑證給Adobe。 有些客戶可能每年都無法及時產生更新的憑證，這會危及其實作，因為當憑證過期時， [!DNL Target] 瀏覽器會拒絕連線。
+是的，您可以提供您自己的憑證； 但不建議使用。 Adobe和您在購買及控制憑證時，SSL憑證生命週期的管理會變得更輕鬆。 SSL憑證必須每年更新一次，這表示Adobe Client Care必須每年與您聯絡，以便及時傳送新憑證給Adobe。 有些客戶可能每年都無法及時產生更新的憑證，這會危及其實作，因為當憑證過期時， [!DNL Target] 瀏覽器會拒絕連線。
 
 >[!IMPORTANT]
 >
@@ -90,9 +93,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 否，需 [!DNL Target] 要個別的主機名和證書。
 
-### 我目前的Target實作是否受ITP 2.1或2.2影響？
+### 我目前的Target實作是否受ITP 2.x影響？
 
-在Safari瀏覽器中，導覽至您有Target JavaScript程式庫的網站。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
+在Safari瀏覽器中，導覽至您有Target JavaScript程式庫的網站。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
 
 只需Analytics CNAME，就可解決Target的ITP問題。 只有在廣告封鎖藍本遭封鎖時，您才需要個別的Target CNAME。
 
