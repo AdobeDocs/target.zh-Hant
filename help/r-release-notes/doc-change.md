@@ -5,7 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '7548'
+ht-degree: 81%
 
 ---
 
@@ -18,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 7 年 5 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 您可以透過連結觀看未來30天的網路研討會。 |
+|  | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新「考量事項」區段。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已更新「設定」下的「overrideMboxEdgeServer」列。 |
+| 6 年 5 月 | [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 已新增有關ITP 2.3的資訊。 |
 | 4 年 5 月 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 新增常見問答： 「為什麼我的A/B或MVT活動中體驗之間的流量分割不均？」 |
 | 29 年 4 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增極端訂單報告的已知問題。 |
 | 28 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已刪除有關使用較 `user.header('x-forwarded-for')` 新的AWS邊緣來檢索用戶IP地址的資訊。 此命令現在適用於較新的AWS邊緣。 |
