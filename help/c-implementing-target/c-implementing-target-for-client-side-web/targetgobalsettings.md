@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1532'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 | 設定 | 類型 | 預設值 | 說明 |
 |--- |--- |--- |--- |
-| serverState | 請參閱下方的「serverState」。 | 請參閱下方的「serverState」。 | 請參閱下方的「serverState」。 |
+| serverState | 請參閱下方的「混合個人化」。 | 請參閱下方的「混合個人化」。 | 請參閱下方的「混合個人化」。 |
 | clientCode | 字串 | 透過 UI 設定值 | 代表用戶端代碼 |
 | serverDomain | 字串 | 透過 UI 設定值 | 代表 Target Edge 伺服器 |
 | cookieDomain | 字串 | 如果可能，設為上層網域 | 代表儲存 Cookie 時使用的網域 |
@@ -39,7 +42,7 @@ source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 | bodyHidingEnabled | 布林值 | true | 當 `target-global-mbox` 用來傳遞在 可視化體驗撰寫器中建立的選件時，用來控制閃爍，也稱為視覺選件 |
 | imsOrgId | 字串 | IMS 組織 ID | 代表 IMS ORG ID |
 | secureOnly | 布林值 | false | 指出 at.js 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。 |
-| overrideMboxEdgeServer | 布林值 | true (從 at.js 1.6.2 版開始) | 指出應使用 `<clientCode>.tt.omtrdc.net` 網域還是 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域。<br>如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie |
+| overrideMboxEdgeServer | 布林值 | true (從 at.js 1.6.2 版開始) | 指出應使用 `<clientCode>.tt.omtrdc.net` 網域還是 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域。<br>如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie。目前無法使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | 數字 | 1860000 => 31 分鐘 | 指出包括 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 存留期。 |
 | optoutEnabled | 布林值 | false | 指出 Target 是否應該呼叫訪客 API `isOptedOut()` 函數。這屬於裝置圖表啟用的一部分。 |
 | selectorsPollingTimeout | 數字 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 推出了這項新設定，且可以透過 `targetGlobalSettings` 覆寫此設定。<br>`selectorsPollingTimeout` 代表用戶端願意等候選取器所識別的所有元素出現在頁面上的時間。<br>透過可視化體驗撰寫器 (VEC) 建立的活動，其具有的選件包含選取器。 |
@@ -73,8 +76,8 @@ window.targetGlobalSettings = {
 
 | 影片 | 說明 |
 |--- |--- |
-| [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | 資料提供者這項功能可以讓您輕鬆將資料從第三方傳入 Target。第三方可能是氣象服務、DMP，甚至是您自己的 Web 服務。接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。 |
-| [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | 實作詳細資料和範例，說明如何使用 Adobe Target 的 dataProviders 功能，從第三方資料提供者擷取資料，並將其傳遞到 Target 請求。 |
+| [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-feature-video-use.html) | 資料提供者這項功能可以讓您輕鬆將資料從第三方傳入 Target。第三方可能是氣象服務、DMP，甚至是您自己的 Web 服務。接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。 |
+| [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-technical-video-implement.html) | 實作詳細資料和範例，說明如何使用 Adobe Target 的 dataProviders 功能，從第三方資料提供者擷取資料，並將其傳遞到 Target 請求。 |
 
 `window.targetGlobalSettings.dataProviders` 設定是資料提供者的陣列。
 
@@ -201,7 +204,7 @@ window.targetGlobalSettings = {
 
 在指 `cspScriptNonce` 定 `cspStyleNonce` 和設定後，at.js 2.3.0+會在套用Target選件時，將這些屬性設為附加至DOM的所有SCRIPT和STYLE標籤上的nonce屬性。
 
-## serverState {#server-state}
+## 混合個人化 {#server-state}
 
 `serverState` 是at.js v2.2+中可用的設定，可在實作Target的混合整合時用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。
 
@@ -209,8 +212,8 @@ window.targetGlobalSettings = {
 
 您必須有混合整合 [!DNL Target]。
 
-* **伺服器端**: 您必須使用新的 [傳送API](https://developers.adobetarget.com/api/delivery-api/) 或 [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
-* **用戶端**:您必須使 [用at.js 2.2版或更新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* **伺服器端**:  您必須使用新的 [傳送API](https://developers.adobetarget.com/api/delivery-api/) 或 [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **用戶端**: 您必須使 [用at.js 2.2版或更新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### 程式碼範例
 
@@ -328,7 +331,7 @@ Consider the following when using `serverState`:
 
       若是使用 [!DNL Target] Views的SPA `triggerView()` 和at.js API, at.js v2.2會快取伺服器端預先擷取之所有View的內容，並在每個View觸發時立即套用這些內容 `triggerView()`，而不會再對Target觸發任何額外的內容擷取呼叫。
 
-   * **注意**: 目前，不支援在伺服器端擷取的mbox `serverState`。
+   * **注意**:  目前，不支援在伺服器端擷取的mbox `serverState`。
 
 * 套用選 `serverState `件時，at.js會考慮並設定 `pageLoadEnabled` , `viewsEnabled` 例如，如果設定為false，則不會套用「頁面載入 `pageLoadEnabled` 選件」。
 
