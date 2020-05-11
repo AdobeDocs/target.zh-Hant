@@ -1,11 +1,14 @@
 ---
-keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
+keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
 description: 關於將電子郵件與 Recommendations 整合方式的資訊。
 title: 將 Recommendations 與電子郵件整合
-topic: 建議
+topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 95%
 
 ---
 
@@ -104,16 +107,16 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br> (某些類型的條件為必要: 檢視/檢視、檢視/購買、購買/購買) | *entity_id* | 建議所根據的 productId，例如購物車中放棄的產品或先前的購買。<br>如果條件要求，rawbox 呼叫必須包括 `entity.id`。 |  |
 | `entity.event.detailsOnly` | true | 如果傳遞了 `entity.id`，則非常建議您也傳遞此參數，以防止要求為了不要扭曲產品檢視式的演算法，而遞增專為某項目調整的頁面檢視數量。 |  |
 | `entity.categoryId`<br> (某些類型的條件為必要: 依檢視次數最多類別和依最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |  |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。<br> 請注意，如果 `mboxDefault` URL中使用的網域未列入白名單，您可能會面臨「開啟重新導向弱點」的風險。 為避免重新導向程式連結或協力廠商未 `mboxDefault` 經授權地使用，我們建議您使用「授權的主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參閱[主機](https://developers.adobetarget.com/api/#server-side-delivery)。 |  |
 | `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |  |
-| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 "thirdPartyId"，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
+| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 &quot;thirdPartyId&quot;，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:**請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供`mboxSession`和`mboxPC`的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 
 **選用參數**:
 
 | 參數 | 值 | 說明 | 驗證 |
 |--- |--- |--- |--- |
-| `mboxPC`<br> (可選) | *mboxPCId* | Target 訪客 ID。如果您想要追蹤使用者在多次造訪間完全回到您的網站，或使用使用者設定檔參數時，請使用此值。<br>此值必須是使用者的實際 Adobe Target PCID，它會從網站匯出至您的 CRM。電子郵件提供者會從您的 CRM 或資料倉儲擷取此 ID，並使用它做為此參數的值。<br>當建議屬於 A/B 活動時，`mboxPC` 值對於追蹤多次造訪間的度量追蹤的訪客網站行為也很實用。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
-| `mboxNoRedirect`<br> (可選) | 1 | 依預設，在找不到可傳遞的內容時會將呼叫端重新導向。用來停用預設行為。 |  |
+| `mboxPC`<br>(可選) | *mboxPCId* | Target 訪客 ID。如果您想要追蹤使用者在多次造訪間完全回到您的網站，或使用使用者設定檔參數時，請使用此值。<br>此值必須是使用者的實際 Adobe Target PCID，它會從網站匯出至您的 CRM。電子郵件提供者會從您的 CRM 或資料倉儲擷取此 ID，並使用它做為此參數的值。<br>當建議屬於 A/B 活動時，`mboxPC` 值對於追蹤多次造訪間的度量追蹤的訪客網站行為也很實用。<br>**注意:**請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供`mboxSession`和`mboxPC`的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
+| `mboxNoRedirect`<br>(可選) | 1 | 依預設，在找不到可傳遞的內容時會將呼叫端重新導向。用來停用預設行為。 |  |
 | `mbox3rdPartyId` | *xxx* | 如果您有要用於設定檔鎖定目標的自訂訪客 ID，請使用此值。 |  |
 
 **潛在的 Target 伺服器回應**:
@@ -121,7 +124,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | 回應 | 說明 |
 |--- |--- |
 | //錯誤: | 當它無法傳回內容時由負載平衡器產生 |
-| success | `mboxNoRedirect` 參數設為 'true'，而伺服器未傳回任何建議 (亦即，沒有 mbox 的相符項目或伺服器快取未初始化)。 |
+| success | `mboxNoRedirect` 參數設為 &#39;true&#39;，而伺服器未傳回任何建議 (亦即，沒有 mbox 的相符項目或伺服器快取未初始化)。 |
 | bad request | 遺漏 `mbox` 參數。<ul><li>`mboxDefault` 或 `mboxNoRedirect` 參數未指定。</li><li>`mboxTrace` 要求參數已指定但 `mboxNoRedirect` 未指定。</li><li>當 mbox 名稱的結尾是 `mboxTarget` 尾碼時，`-clicked` 參數未指定。</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 當要求的相符項目不存在時，`mboxDefault` 未指定，並且 `mboxNoRedirect` 參數未指定。 |
 | `Invalid mbox name:= MBOX_NAME` | 指出 `mbox` 參數包括無效的字元。 |
@@ -133,4 +136,4 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 使用該選項， Recommendations 伺服器無法直接追蹤建議的效能，或將流量分入多個演算法/範本組合。同時，建議未繫結至訪客設定檔。
 
-如需下載 API 的詳細資訊，請參閱[「舊版 API &gt; 下載」](../../assets/adobe-recommendations-classic.pdf)。
+如需下載 API 的詳細資訊，請參閱[「舊版 API > 下載」](../../assets/adobe-recommendations-classic.pdf)。
