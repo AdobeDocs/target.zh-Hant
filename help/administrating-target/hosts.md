@@ -5,10 +5,10 @@ title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1820'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 
 ![](assets/hosts_list.png)
 
-## 辨識主機 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 關於必須符合條件，[!DNL Target] 才能識別主機並將它新增至主機清單的資訊。
 
@@ -63,7 +63,7 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 >
 >即使您重新命名「生產」環境，亦無法刪除此環境。這是您提供最終使用中活動與測試的地方。預設環境不允許檢視非使用中的行銷活動。
 
-## 管理主機和環境 {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 可協助您管理主機和環境 (主機群組) 的資訊，包括設定報表的預設主機、建立白名單、變更環境的名稱、將主機移動至另一個環境，以及刪除主機或環境。
 
@@ -72,7 +72,7 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 
 ![](assets/hosts_list.png)
 
-## 篩選、排序或搜尋主機清單 {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 若要依環境篩選[!UICONTROL 「主機」]清單，請按一下&#x200B;**[!UICONTROL 「全部」]**&#x200B;下拉式清單，然後選取所需的環境 (生產、預備、開發或您建立的自訂環境)。
 
@@ -80,11 +80,11 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 
 若要搜尋[!UICONTROL 「主機」]清單，請在「搜尋」方塊中輸入搜尋詞彙。
 
-## 選取多個主機 {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 若要選取多個主機，請選取所需主機的[!UICONTROL 「名稱」]欄旁邊的核取方塊。然後，您可以移動或刪除全部已選取的主機。
 
-## 建立環境 {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. 從[!UICONTROL 「主機」]清單，按一下&#x200B;**[!UICONTROL 「環境」]**&#x200B;索引標籤。
 1. 按一下&#x200B;**[!UICONTROL 「建立環境」]**。
@@ -92,7 +92,7 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 1. 為環境指定所需的使用中模式: [!UICONTROL 使用中的活動]或[!UICONTROL 使用中或非使用中的活動]。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 設定報告的預設主機 {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 您可以選取想要的環境作為所有活動報表的預設環境。
 
@@ -108,7 +108,7 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 >
 >[!DNL Recommendations]如果主機會切換主機群組， 的使用者必須重建其行為資料庫和產品資料庫。
 
-## 建立白名單來指定獲授權將 mbox 呼叫傳送至 Target 的主機。{#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 您可以建立白名單，指定獲授權可將 mbox 呼叫傳送至 [!DNL Target] 的主機 (網域)。其他產生呼叫的所有主機將收到註銷的授權錯誤回應。依預設，在「生產」環境中，包含 mbox 呼叫的任何主機都會向 [!DNL Target] 註冊，且可以存取所有使用中和已批准的活動。如果這不是理想的作法，您可以改為使用白名單，記錄適合執行 mbox 呼叫和接收 [!DNL Target] 內容的特定主機。所有主機將持續出現在[!UICONTROL 「主機」]清單中，環境仍可用來組合這些主機並指派不同層級給各主機，例如主機是否可以看到使用中和/或非使用中的行銷活動。
 
@@ -134,20 +134,20 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 
 您也可以建立黑名單，在[!DNL Target]「主機不包含」[!UICONTROL 方塊中新增所需的主機，以指定不能將 mbox 呼叫傳送至 ] 的主機 (網域)。
 
-## 變更環境的名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. 從[!UICONTROL 「主機」]清單，按一下&#x200B;**[!UICONTROL 「環境」]**&#x200B;索引標籤。
 1. 暫留在所需的環境上，然後按一下&#x200B;**[!UICONTROL 「編輯」]**&#x200B;圖示。
 1. 變更環境名稱。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 將主機移至不同環境 {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. 從[!UICONTROL 「主機」]清單中，暫留在您要移動的主機上。
 1. 按一下&#x200B;**[!UICONTROL 「移動」]**&#x200B;圖示。
 1. 從下拉式清單中選取所需的環境，然後按一下勾號圖示。
 
-## 刪除主機 {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 您不再需要使用某個主機時，可以將它刪除。
 
@@ -159,7 +159,7 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 >
 >如有任何人瀏覽到主機上的 mbox 頁面，則主機會再次列出。
 
-## 刪除環境 {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 您可以刪除不再需要的環境。
 
