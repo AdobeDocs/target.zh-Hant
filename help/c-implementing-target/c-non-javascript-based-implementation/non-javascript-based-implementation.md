@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 86%
+source-wordcount: '420'
+ht-degree: 82%
 
 ---
 
@@ -36,4 +36,4 @@ AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表�
 * 若要使用 AdBox 本身的第一方 Cookie，您必須在 URL 中傳遞 mBox 工作階段。請連絡您的帳戶代表來進行這項作業。
 * 若要使用第一方 Cookie 來追蹤廣告點按次數，請在 URL 中傳遞 mbox 工作階段。請連絡您的帳戶代表來進行這項作業。
 * 若要在相同頁面上使用多個 AdBox，則您必須在 URL 中傳遞 Mbox 作業。請連絡您的帳戶代表來進行這項作業。您在相同頁面上可能擁有一個 AdBox 和一個「重新導向程式」連結 (因為「重新導向程式」實際上位於第二個頁面)。
-* 請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參閱[主機](/help/administrating-target/hosts.md)。
+* 請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參 [閱「建立白名單」，指定授權在主機中傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 的 *主機*。
