@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
 workflow-type: tm+mt
-source-wordcount: '7548'
+source-wordcount: '7601'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 11 年 5 月 | [主機](/help/administrating-target/hosts.md) | 已新增有關使用包含重新導向和白名單的ubox功能的資訊。 |
+|  | [使用重新導向程式](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
+|  | [將 Recommendations 與電子郵件整合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
+|  | [電子郵件: 實作 Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
 | 7 年 5 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 您可以透過連結觀看未來30天的網路研討會。 |
 |  | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新「考量事項」區段。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已更新「設定」下的「overrideMboxEdgeServer」列。 |
