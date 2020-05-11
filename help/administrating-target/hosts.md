@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 96%
 
 ---
 
@@ -120,6 +123,8 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 如果未授權的主機進行了 mbox 呼叫，該呼叫會以 `/* no display - unauthorized mbox host */` 回應。
+
+如果您使用的ubox功 [!DNL Target]能，請注意，此白名單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定白名單，Adobe將無法驗證重新導向URL並防止潛在的惡意重新導向。
 
 白名單優先於環境。在使用白名單功能前，應先清除所有主機，只讓白名單允許的主機顯示在主機清單中。接著可將主機移至想要的環境中。
 
