@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '7601'
+source-wordcount: '7641'
 ht-degree: 81%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.2.1 (2020 年 2 月 19 日)
+## Adobe Target Standard/Premium 20.4.1 (2020 年 5 月 6 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
@@ -29,6 +29,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新「考量事項」區段。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已更新「設定」下的「overrideMboxEdgeServer」列。 |
 | 6 年 5 月 | [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 已新增有關ITP 2.3的資訊。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 20.4.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+
+## Adobe Target Standard/Premium 20.2.1 (2020 年 2 月 19 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
 | 4 年 5 月 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 新增常見問答： 「為什麼我的A/B或MVT活動中體驗之間的流量分割不均？」 |
 | 29 年 4 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增極端訂單報告的已知問題。 |
 | 28 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已刪除有關使用較 `user.header('x-forwarded-for')` 新的AWS邊緣來檢索用戶IP地址的資訊。 此命令現在適用於較新的AWS邊緣。 |
