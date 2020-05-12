@@ -5,10 +5,10 @@ title: 將 Recommendations 與電子郵件整合
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 93%
+source-wordcount: '1434'
+ht-degree: 92%
 
 ---
 
@@ -70,12 +70,12 @@ rawbox 類似於 mbox 要求，但是是用於非 Web 環境，例如電子郵�
 
 您使用的電子郵件系統應該有能力處理這些案例:
 
-**收到有效的回應，但沒有提供建議。**
+### 收到有效回應，但沒有建議
 
 * 在此情況中，回應會是設為 mboxDefault 參數值的內容。請參閱以下有關此參數的說明。
 * 電子郵件提供者應該具有預設的建議 HTML 區塊，以在此情況下使用。
 
-**Target 伺服器會逾時，並且不會傳回任何資料。**
+### Target伺服器逾時並傳回，但沒有資料
 
 * 在此情況中，Target 伺服器將傳回下列內容:
 
@@ -87,13 +87,13 @@ rawbox 類似於 mbox 要求，但是是用於非 Web 環境，例如電子郵�
    * 去除該特定電子郵件並繼續下一個電子郵件。
    * 將該特定電子郵件加入佇列，並在初始執行結束時以批次形式重新執行失敗的電子郵件。
 
-**樣本要求 URL:**
+### 樣本要求 URL
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**必要的參數:**
+### 必要的參數: {#reqparams}
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br> (某些類型的條件為必要: 檢視/檢視、檢視/購買、購買/購買) | *entity_id* | 建議所根據的 productId，例如購物車中放棄的產品或先前的購買。<br>如果條件要求，rawbox 呼叫必須包括 `entity.id`。 |  |
 | `entity.event.detailsOnly` | true | 如果傳遞了 `entity.id`，則非常建議您也傳遞此參數，以防止要求為了不要扭曲產品檢視式的演算法，而遞增專為某項目調整的頁面檢視數量。 |  |
 | `entity.categoryId`<br> (某些類型的條件為必要: 依檢視次數最多類別和依最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |  |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。<br> 請注意，如果 `mboxDefault` URL中使用的網域未列入白名單，您可能會面臨「開啟重新導向弱點」的風險。 為避免重新導向程式連結或協力廠商未 `mboxDefault` 經授權地使用，我們建議您使用「授權的主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參 [閱「建立白名單」，指定授權在主機中傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 的 *主機*。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。 <br> *安全性最佳實務*: 請注意，如果 `mboxDefault` URL中使用的網域未列入白名單，您可能會面臨「開啟重新導向弱點」的風險。 為避免重新導向程式連結或協力廠商未 `mboxDefault` 經授權地使用，我們建議您使用「授權的主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參 [閱「建立白名單」，指定授權在主機中傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 的 *主機*。 |  |
 | `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |  |
 | `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 &quot;thirdPartyId&quot;，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:**請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供`mboxSession`和`mboxPC`的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 
-**選用參數**:
+### 選用參數
 
 | 參數 | 值 | 說明 | 驗證 |
 |--- |--- |--- |--- |
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(可選) | 1 | 依預設，在找不到可傳遞的內容時會將呼叫端重新導向。用來停用預設行為。 |  |
 | `mbox3rdPartyId` | *xxx* | 如果您有要用於設定檔鎖定目標的自訂訪客 ID，請使用此值。 |  |
 
-**潛在的 Target 伺服器回應**:
+### 潛在的 Target 伺服器回應
 
 | 回應 | 說明 |
 |--- |--- |
