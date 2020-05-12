@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 82%
 
 ---
@@ -29,6 +29,10 @@ AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表�
 | AdBox | 將不同的影像傳回至廣告 | 變更廣告的內容 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 重新導向選件 | 影像 URL |
 | 重新導向程式 | 將訪客重新導向至其他網頁 | 變更廣告的著陸頁面 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 重新導向選件 | 網頁 URL |
 
+## 安全性最佳實務 {#security}
+
+請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參 [閱「建立白名單」，指定授權在主機中傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 的 *主機*。
+
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 
 * 沒有像標準 mbox 那樣的用戶端逾時。如果 Target 完全故障，則訪客不會看見任何廣告內容，甚至是預設內容。
@@ -36,4 +40,3 @@ AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表�
 * 若要使用 AdBox 本身的第一方 Cookie，您必須在 URL 中傳遞 mBox 工作階段。請連絡您的帳戶代表來進行這項作業。
 * 若要使用第一方 Cookie 來追蹤廣告點按次數，請在 URL 中傳遞 mbox 工作階段。請連絡您的帳戶代表來進行這項作業。
 * 若要在相同頁面上使用多個 AdBox，則您必須在 URL 中傳遞 Mbox 作業。請連絡您的帳戶代表來進行這項作業。您在相同頁面上可能擁有一個 AdBox 和一個「重新導向程式」連結 (因為「重新導向程式」實際上位於第二個頁面)。
-* 請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參 [閱「建立白名單」，指定授權在主機中傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 的 *主機*。
