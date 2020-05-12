@@ -5,7 +5,7 @@ title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
 workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 92%
@@ -126,7 +126,7 @@ Target 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域�
 
 >[!IMPORTANT]
 >
->*安全性最佳實務*: 如果您使用的ubox功 [!DNL Target]能，請注意，此白名單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定白名單，Adobe將無法驗證重新導向URL並防止潛在的惡意重新導向。
+>**安全性最佳實務**: 如果您使用的ubox功 [!DNL Target]能，請注意，此白名單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定白名單，Adobe將無法驗證重新導向URL並防止潛在的惡意重新導向。
 >
 >白名單優先於環境。在使用白名單功能前，應先清除所有主機，只讓白名單允許的主機顯示在主機清單中。接著可將主機移至想要的環境中。
 
