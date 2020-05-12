@@ -5,7 +5,10 @@ title: 舊版版本說明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+workflow-type: tm+mt
+source-wordcount: '29277'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +22,69 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 >請參閱 [Target 版本說明 (最新)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明- 2020
+
+### Target at.js（2020年3月25日）
+
+下列是Target at.js JavaScript程式庫的新版本：
+
+* at.js 2.3.0版
+* at.js 1.8.1版
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+### Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
+
+>[!IMPORTANT]
+>
+>請參閱上述有關mbox.js取代的資訊。
+
+此發行包含下列增強功能、修正和變更：
+
+* 修正客戶在執行目錄搜尋時無法選取系列的問題。 (TGT-36230)
+* 已修正此問題：透過API建立但未由Target UI中建立之活動所參照的准則，可能會從UI中錯誤刪除。 (TGT-35917)
+* 已實作內容安全性政策(CSP)的安全性改進。 (TGT-36190)
+* 修正將「屬性加權」百分比列滑至最左側時，顯示「NaN%」的問題。 (TGT-36211)
+* 已解決本地化問題，讓各種語言的UI文字可正確顯示。
+* 我們淘汰目前Adobe Analytics API版本不支援的Adobe Analytics量度，標準化了Adobe Analytics for Target(A4T)活動的可用量度清單。 這可讓我們在未來的Adobe Target版本中擴充A4T支援。
+
+   已進行下列變更：
+
+   * 「頁面平均逗留時間」已取代為「網站平均逗留時間」。 任何使用此作為主要目標量度的活動都會有「網站平均逗留時間」(注意： 測量單位為分鐘（而非秒），在下次編輯活動時選取為主要目標量度。
+   * 「訪客」已由「獨特訪客」取代。 使用此量度作為主要目標量度的任何活動，在下次編輯活動時，都會將「獨特訪客」選為主要目標量度。
+
+* 下列量度已過時，在建立新的A4T活動時，無法再選為主要目標量度。
+
+   | 過時的量度 | 建議的取代量度 |
+   |--- |--- |
+   | 每日訪客、每小時訪客、每月訪客、每季訪客、每週訪客、每年訪客 | 獨特訪客 |
+   | 平均存取深度 | n/a。 未建議作為主要目標量度 |
+   | 機器人 | n/a。 未建議作為主要目標量度 |
+   | 行動裝置當機率、行動裝置平均上一階段作業長度、行動應用程式商店平均排名、行動裝置應用程式效能當機率、行動裝置應用程式商店平均評分 | n/a。 未建議作為主要目標量度 |
+
+### Adobe Experience Cloud導覽（2019年2月22日）
+
+* 當您登入時， [!DNL Adobe Experience Cloud]將會進入新的標題導覽。 它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
+
+   * 更輕鬆地在 [!DNL Identity Management System] (IMS)組織間切換或切換至不同的解決方案。
+   * 改進的使用者說明： 搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
+
+   * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
+   * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下頁首中的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁允許客戶繼續使用 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
+
+      ![登陸頁面](/help/r-release-notes/assets/landing.png)
+
+      我們已取消所有客戶的登陸頁面。 現在，只要按一下新標題導覽列中的 [!UICONTROL 圖示，您就一律會直接進入「活][!DNL Target] 動清單」頁面。
+
+      如果您使 [!DNL Recommendations Classic]用，您可以直接前往解決方案，或從Recommendations標籤上建立的簡短連結  ，如下所示：
+
+      ![Recs Classic深層連結](/help/r-release-notes/assets/recs-classic.png)
+
+      如果您使 [!DNL Search&Promote]用，您必須直接前往 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。 從內部到達 [!DNL Search&Promote] 的路徑已 [!DNL Adobe Target] 完全移除。
+
+   * 頁首的 [!DNL Target] 「通知」下拉式清單 [!UICONTROL 中] ，目前無法使用的通知。
+   >[!NOTE]
+   >
+   >在新導覽列的推出過程中，您也會注意到一些URL變更。 所有先前的書籤化連結都會繼續運作，但我們鼓勵您將新連結加入書籤，以加快開啟速度。
 
 ### Target Standard/Premium 20.1.1 (2020 年 2 月 4 日)
 
@@ -66,7 +132,7 @@ Target Standard/Premium 20.1.1版是維護髮行，包含後端增強功能與�
 * 當您登入時， [!DNL Adobe Experience Cloud]將會進入新的標題導覽。 它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
 
    * 更輕鬆地在 [!DNL Identity Management System] (IMS)組織間切換或切換至不同的解決方案。
-   * 改進的使用者說明：搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
+   * 改進的使用者說明： 搜尋結果包括產品文 [!DNL Target] 件、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您發揮最大效益 [!DNL Target]。 我們也直接在「說明」功能表中新增了意見回 [!UICONTROL 饋機制] ，讓您更輕鬆地報告問題或分享您的想法。
 
    * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
    * 已改善登入流程。 以前，所 [!DNL Target] 有客戶在按一下頁首中的圖示後，就會著陸 [!DNL Target] 至Target登陸頁面。 然後，本頁允許客戶繼續使用 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
@@ -92,7 +158,7 @@ Target Standard/Premium 20.1.1版是維護髮行，包含後端增強功能與�
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| at.js 2.2<br><br>andat.js 1.8版 | 這些版本的at.js提供：<ul><li>已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2或at.js 1.8時的效能。</li><li>之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。</li></ul> 為善用這些效能改良功能，升級至at.js 2.2或at.js 1.8以及ECID程式庫v4.4.<br>at.js 2.2提供：<ul><li>**serverState**:at.js v2.2+中提供的設定，可在實作Target的混合整合時用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。<br>如需詳細資訊，請參閱targetGlobalSettings中的 [&quot;serverState&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+| at.js 2.2<br><br>andat.js 1.8版 | 這些版本的at.js提供：<ul><li>已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2或at.js 1.8時的效能。</li><li>之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。</li></ul> 為善用這些效能改良功能，升級至at.js 2.2或at.js 1.8以及ECID程式庫v4.4.<br>at.js 2.2提供：<ul><li>**serverState**: at.js v2.2+中提供的設定，可在實作Target的混合整合時用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。<br>如需詳細資訊，請參閱targetGlobalSettings中的 [&quot;serverState&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
 
 ### 目標平台（2019年10月9日）
 
@@ -125,7 +191,7 @@ Target Standard/Premium 20.1.1版是維護髮行，包含後端增強功能與�
 | --- | --- |
 | ![Premium 徽章](/help/assets/premium.png)<br>在 A/B 測試與體驗鎖定目標 (XT) 活動中的建議 | Recommendations 選件 (運算法) 狀態會顯示在包含 Recommendations 選件之 A/B 測試和 XT 活動的概述頁面上。狀態包括: 可用結果、不可用結果和摘要失敗(TGT-33649)<br>請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
 | 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。[必須使用Experience Cloud ID程式庫4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>請參閱 [at.js 2.x 中的跨網域追蹤支援](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 | 現在，Target 客戶可以利用 Adobe 的 CNAME 認證程式，減少 Apple ITP 2.1 和 ITP 2.2 的影響。<br>在此版本中，Target與ECID程式庫4.3緊密整合，此程式庫利用伺服器端Cookie來降低ITP 2.1和ITP 2.2的影響。強烈建議Target客戶搭配部署 [ECID程式庫4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，並搭配Target的JavaScript程式庫，以減輕未來的ITP版本。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參閱 [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| Target 可透過 Experience Cloud ID (ECID) 資料庫 4.3 支援 Apple 的 ITP 2.1 和 ITP 2.2 | 現在，Target 客戶可以利用 Adobe 的 CNAME 認證程式，減少 Apple ITP 2.1 和 ITP 2.2 的影響。<br>在此版本中，Target與ECID程式庫4.3緊密整合，此程式庫利用伺服器端Cookie來降低ITP 2.1和ITP 2.2的影響。 強烈建議Target客戶搭配部署 [ECID程式庫4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，並搭配Target的JavaScript程式庫，以減輕未來的ITP版本。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參閱 [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增強功能、修正和變更**
 
