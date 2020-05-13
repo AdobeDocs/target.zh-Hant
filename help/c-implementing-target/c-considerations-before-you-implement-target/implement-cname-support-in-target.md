@@ -5,9 +5,9 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -154,3 +154,8 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >[!NOTE]
    >
    >如果此命令失敗，但 `validateEdgeFpsslSni` 上述命令成功，您可能需要等待DNS更新完全傳播。 DNS記錄具有關聯的 [TTL（存留時間）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) ，該TTL規定了這些記錄的DNS回覆的快取過期時間，因此您至少需要等待TTL。 您可以使用 `dig target.example.com` 命令 [或G套裝工具箱](https://toolbox.googleapps.com/apps/dig/#CNAME) ，來尋找您的特定TTL。
+
+## 已知限制
+
+* 當您有CNAME和at.js 1.x時，QA模式將不會自黏，因為它是以第三方Cookie為基礎。 因應措施是將預覽參數新增至您導覽至的每個URL。 當您有CNAME和at.js 2.x時，QA模式會很嚴格。
+* 目前 `overrideMboxEdgeServer` 設定無法與CNAME搭配運作。 此設定應設為 `false` ，以避免請求失敗。
