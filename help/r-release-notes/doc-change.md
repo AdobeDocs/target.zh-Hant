@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '7650'
+source-wordcount: '7664'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 14 年 5 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關描述檔批次狀態API v2變更的資訊。 |
 | 13 年 5 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 新增「已知限制」區段。 |
 | 11 年 5 月 | [主機](/help/administrating-target/hosts.md) | 已新增有關使用包含重新導向和白名單的ubox功能的資訊。 |
 |  | [使用重新導向程式](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
