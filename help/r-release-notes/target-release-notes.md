@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 19%
+source-wordcount: '342'
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最近更新: 2020 年 5 月 4 日**
+**最近更新: 2020 年 5 月 14 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -39,75 +39,6 @@ ht-degree: 19%
 ## Target Standard/Premium 20.5.1 (2020 年 6 月 10 日)
 
 此版本的詳細資訊將發佈於此處。
-
-## 配置檔案批狀態API v2更改（日期待定）
-
-在5月4日發行中，描述檔批次狀態將只會傳回行層級的失敗資料（不會傳回成功資料）。 API將會傳回失敗的描述檔ID。
-
-舊版和新版API回應如下：
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**我們目前將回應視為：**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**在5月4日之後，我們將做出回應：**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
