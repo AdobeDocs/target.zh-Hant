@@ -5,10 +5,10 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 34%
+source-wordcount: '843'
+ht-degree: 32%
 
 ---
 
@@ -33,6 +33,75 @@ ht-degree: 34%
 ## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
 隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+
+## 描述檔批次狀態API v2變更（2020年5月14日）
+
+在5月20日發行中，描述檔批次狀態將只會傳回行層級失敗資料（不會傳回成功資料）。 API將會傳回失敗的描述檔ID。
+
+舊版和新版API回應如下：
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**我們目前將回應視為：**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**在5月4日之後，我們將做出回應：**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## Target Standard/Premium 20.4.1 (2020 年 5 月 6 日)
 
