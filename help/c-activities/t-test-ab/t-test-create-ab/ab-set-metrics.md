@@ -5,7 +5,10 @@ title: 設定量度
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    可用的設定取決於您使用的成功量度。
 
-   如果已啟用，[!UICONTROL 「轉換的預計值」]欄位 (「頁面分數」量度無法使用) 可提供目標的值。此值可讓 Target 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。資料類型為貨幣。此欄位會在使用者指出滿足目標所採取的動作之後逐漸顯示。請參閱[預估收入中的提升度](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE)以取得詳細資訊。
+   如果已啟用，[!UICONTROL 「轉換的預計值」]欄位 (「頁面分數」量度無法使用) 可提供目標的值。此值可讓 Target 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。資料類型為貨幣。此欄位會在使用者指出滿足目標所採取的動作之後逐漸顯示。請參閱[預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
 
    成功量度的正確組態對於確保您可取得預期的資料來說很重要。
 
@@ -52,7 +55,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | - | 減號 |
 | @ | 「@」符號 |
 
-## 訓練影片: 活動量度 (7:43) 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 活動量度 (7:43) ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用成功量度的資訊。
 
