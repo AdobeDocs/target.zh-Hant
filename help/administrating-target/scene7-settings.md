@@ -1,18 +1,21 @@
 ---
 description: Target Standard 可以與 Adobe Dynamic Media Classic (先前的 Scene7) 整合以在內容庫中提供數位資產管理 (DAM)。
-title: Dynamic Media Classic 整合
-subtopic: 快速入門
+title: Dynamic Media Classic 整合 配置整合
+subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 95%
 
 ---
 
 
 # Dynamic Media Classic 整合{#scene-settings}
 
-Target Standard 可以與 Adobe Dynamic Media Classic (先前的 Scene7) 整合以在內容庫中提供數位資產管理 (DAM)。
+Target 可以與 Adobe Dynamic Media Classic (先前的 Scene7) 整合以在內容庫中提供數位資產管理 (DAM)。
 
 >[!NOTE]
 >
@@ -26,9 +29,10 @@ Target Standard 可以與 Adobe Dynamic Media Classic (先前的 Scene7) 整合�
 
 請注意，來自 Dynamic Media 之影像的儲存 URL 和最終發行 URL 是不同的，並且任何人「不應」使用影像儲存連結來建立選件，因為傳送在此情況下將無法作用。使用者必須使用我們的文件中所說明的影像選件功能。
 
-若要與 Dynamic Media Classic (Scene7) 整合，您必須指定一些資訊如下。
+若要與Dynamic Media Classic(Scene7)整合，您必須指定下列資訊。
 
-1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL Scene7 設定」]**。
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
 1. 指定下列 Dynamic Media Classic 帳戶資訊:
 
    **地區:** 您的 Dynamic Media 帳戶的地區: 北美、歐洲或亞洲。
@@ -38,4 +42,5 @@ Target Standard 可以與 Adobe Dynamic Media Classic (先前的 Scene7) 整合�
    **電子郵件地址:** 用來登入 Dynamic Media Classic (Scene7) 的電子郵件地址。
 
    **密碼:** 用來登入 Dynamic Media Classic (Scene7) 的密碼。
+
 1. 按一下&#x200B;**[!UICONTROL 「提交」]**。
