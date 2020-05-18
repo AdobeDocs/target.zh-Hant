@@ -5,9 +5,9 @@ title: 舊版版本說明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29277'
+source-wordcount: '29260'
 ht-degree: 92%
 
 ---
@@ -449,7 +449,7 @@ Target Standard/Premium 20.1.1版是維護髮行，包含後端增強功能與�
   </tr> 
   <tr> 
    <td colname="col1"> <p>活動的報表來源 </p> </td> 
-   <td colname="col2"> <p>您可以在<span class="wintitle">「設定</span> &gt; <span class="wintitle">偏好設定」</span>，選取<span class="keyword">「Target」</span>或<span class="keyword">「Adobe Analytics」</span>當作活動的報表來源。您也可以選擇根據活動選取您的報表來源。 </p> <p>自此版本起，在<span class="wintitle">「偏好設定」</span>或根據活動選擇報表來源時，應注意重要工作流程考量事項。 </p> <p>請參閱<a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">偏好設定</a>。 </p> </td> 
+   <td colname="col2"> <p>您可以在<span class="wintitle">「設定</span> &gt; <span class="wintitle">偏好設定」</span>，選取<span class="keyword">「Target」</span>或<span class="keyword">「Adobe Analytics」</span>當作活動的報表來源。您也可以選擇根據活動選取您的報表來源。 </p> <p>自此版本起，在<span class="wintitle">「偏好設定」</span>或根據活動選擇報表來源時，應注意重要工作流程考量事項。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3391,7 +3391,7 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 估計收入增益 </td> 
-   <td colname="col2"> <p>如果所有使用者要瞭解成功的藍圖，Target 可以估計您可能獲得的收入增益。 </p> <p>如果測試期間持續目前的趨勢，此功能可估計成功藍圖可能實現的增益金額，以及您在測試期間內的訪客總數，並顯示如果每位訪客達到成功藍圖的情況下，您可能實現的增益。 </p> <p> 估計的準確性取決於因素的數目，包括如果持續目前趨勢的預計數目。這些是根據過去效益的估計值，不應拿來作為財務指導方針。未來的結果可能會有差異。 </p> <p>請參閱<a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local">預估收入中的提升度</a>。 </p> </td> 
+   <td colname="col2"> <p>如果所有使用者要瞭解成功的藍圖，Target 可以估計您可能獲得的收入增益。 </p> <p>如果測試期間持續目前的趨勢，此功能可估計成功藍圖可能實現的增益金額，以及您在測試期間內的訪客總數，並顯示如果每位訪客達到成功藍圖的情況下，您可能實現的增益。 </p> <p> 估計的準確性取決於因素的數目，包括如果持續目前趨勢的預計數目。這些是根據過去效益的估計值，不應拿來作為財務指導方針。未來的結果可能會有差異。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 還原/取消復原 </td> 
