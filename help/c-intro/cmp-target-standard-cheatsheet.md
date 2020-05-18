@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard;faq;常見問題;速查表
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
 title: Target 最佳化和個人化常見問題集
-topic: 進階
+topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +134,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 提供兩個選項:
 
 * 預設，具有三個層級 (低/中/高)
-* 自訂，範圍從 0 到 999。針對「自訂」，請啟用「微調優先順序」功能 (「設定」&gt;「偏好設定」)。
+* 自訂，範圍從 0 到 999。針對「自訂」，請啟用「微調優先順序」功能 (「設定」>「偏好設定」)。
 
 ## 受眾 {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -195,7 +198,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我有多個網域。其中一個網域必須已啟用增強體驗撰寫器，而其他網域則需要將它停用。我應該怎麼做?**
 
-您一律可以使用[活動層級的增強體驗撰寫器選項](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)來覆寫預設設定 (「設定」&gt;「偏好設定」)。
+您一律可以使用[活動層級的增強體驗撰寫器選項](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)來覆寫預設設定 (「設定」>「偏好設定」)。
 
 **為什麼我看不到可交換影像的選項?**
 
@@ -253,7 +256,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **為什麼我的 QA 程序中沒有發生內容傳送?**
 
-您的網站的元素上可能有動態 ID、重複的 ID 或動態類別。您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。請參閱 [CSS 選取器](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)。
+您的網站的元素上可能有動態 ID、重複的 ID 或動態類別。您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。請參閱 [CSS 選取器](/help/administrating-target/visual-experience-composer-set-up.md#css)。
 
 **為什麼我看不到需要的選件/體驗，而是看到一些其他活動?**
 
