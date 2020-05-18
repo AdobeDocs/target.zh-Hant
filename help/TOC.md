@@ -5,7 +5,10 @@ user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 93%
 
 ---
 
@@ -33,9 +36,15 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 + 管理 Target {#administer}
    + [管理 Target 概覽](administrating-target/administrating-target.md)
    + [管理員入門](administrating-target/start-target.md)
-   + 設定偏好設定 {#preferences}
-      + [偏好設定](administrating-target/r-target-account-preferences/target-account-preferences.md)
-      + [預估收入成長](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [設定視覺體驗撰寫器](/help/administrating-target/visual-experience-composer-set-up.md)
+   + 報表 {#reporting}
+      + [設定報表](/help/administrating-target/reporting.md)
+      + [預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Dynamic Media Classic 整合](administrating-target/scene7-settings.md)
+   + [實施](/help/administrating-target/implementation.md)
+   + [主機](administrating-target/hosts.md)
+   + [環境](/help/administrating-target/environments.md)
+   + [回應 Token](administrating-target/response-tokens.md)
    + 管理使用者 {#manage-users}
       + [使用者管理](administrating-target/c-user-management/user-management.md)
       + 使用者 {#users}
@@ -45,9 +54,6 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
          + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [設定企業權限](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media Classic 整合](administrating-target/scene7-settings.md)
-   + [主機](administrating-target/hosts.md)
-   + [回應 Token](administrating-target/response-tokens.md)
 + 實作 Target {#implement-target}
    + [實作 Target 概覽](c-implementing-target/implementing-target.md)
    + 實作之前 {#before-implement}
