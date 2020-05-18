@@ -1,10 +1,13 @@
 ---
-keywords: 定位
+keywords: Targeting
 description: 活動 URL 會決定體驗鎖定目標活動中使用的頁面，以及設計活動時 Adobe Target 可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
 title: 活動 URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 都相符。
    >
-   >根據預設，VEC 或表單式體驗撰寫器會開啟[帳戶偏好設定](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)中指定的頁面。您可以在活動建立期間指定不同的頁面。
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). 您可以在活動建立期間指定不同的頁面。
    >
    >如果您指定的網站 URL 不包括 Target Standard JavaScript 程式碼，則無法選取頁面元素。
 
@@ -43,4 +46,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * mbox 參數
    可以使用「與」或「或」將其他規則加入活動 URL。您新增的所有規則會使用「與」彼此進行評估。
 
-1. 完成後，按一下&#x200B;**[!UICONTROL 「儲存」]。**
+1. 完成後，按一下&#x200B;**[!UICONTROL 「儲存」]**。
