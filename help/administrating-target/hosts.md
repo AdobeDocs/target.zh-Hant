@@ -5,10 +5,10 @@ title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 68%
+source-wordcount: '1232'
+ht-degree: 65%
 
 ---
 
@@ -101,6 +101,10 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 如果在 API 呼叫中傳入 `mboxHost`，則會針對傳入的環境來記錄轉換。If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 您也可以建立黑名單，在[!DNL Target]「主機不包含」[!UICONTROL 方塊中新增所需的主機，以指定不能將 mbox 呼叫傳送至 ] 的主機 (網域)。
+
+>[!NOTE]
+>
+>由於「授權主機」清單同時用於mbox主機和預設的重新導向主機，因此您必須新增所有已核准使用Adobe Target Javascript SDK(at.js) *AND* ubox預設重新導向URL中使用的網域。 您也必須在未來新增任何類似網域至白名單。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
