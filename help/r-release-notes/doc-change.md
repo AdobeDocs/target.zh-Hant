@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 36%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 20 年 5 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的Target Standard/Premium 20.6.1（2020年6月10日）版本的資訊。 |
+|  | [主機](/help/administrating-target/hosts.md) | 在「安全性最佳實務」一節中新增附註。 |
 | 14 年 5 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關描述檔批次狀態API v2變更的資訊。 |
 | 13 年 5 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 新增「已知限制」區段。 |
 | 11 年 5 月 | [主機](/help/administrating-target/hosts.md) | 已新增有關使用包含重新導向和白名單的ubox功能的資訊。 |
