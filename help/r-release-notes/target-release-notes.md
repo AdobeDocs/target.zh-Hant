@@ -5,9 +5,9 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最近更新: 2020 年 5 月 14 日**
+**最近更新: 2020 年 5 月 20 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -36,9 +36,12 @@ ht-degree: 22%
 
 隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
-## Target Standard/Premium 20.5.1 (2020 年 6 月 10 日)
+## Target Standard/Premium 20.6.1 (2020 年 6 月 10 日)
 
-此版本的詳細資訊將發佈於此處。
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| 發佈者角色 | 此新角色類似於當前的「觀察者」角色（可以查看活動，但不能建立或編輯活動）。 不過，「發佈者」角色對於作用中的活動具有額外權限。 |
+| 管理<br>頁面舊稱「設定」。 | 「設定」頁面已重新命名為「管理」，而且所有功能表項目的UI已更新，以改善工作流程和易用性。<br>可用的功能表項目包括：<ul><li>可視化體驗撰寫器</li><li>報表</li><li>Scene7 設定</li><li>實施</li><li>屬性</li><li>主機</li><li>環境</li><li>回應 Token</li><li>使用者</li></ul> |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
