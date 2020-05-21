@@ -1,12 +1,15 @@
 ---
-keywords: Analytics 作為報表來源;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T
 description: 在 Adobe Target (A4T) 中建立 Adobe Analytics 型活動的使用者帳戶需求。
 title: 使用者權限需求
-solution: Target、Analytics
-topic: Reports & Analytics
+solution: Target,Analytics
+topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 63%
 
 ---
 
@@ -35,20 +38,19 @@ For more information, see [Organizations and account linking](https://docs.adobe
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 在 [!DNL Adobe Analytics] 中完成下列工作:
 
 ### 設定 Analytics 報表套裝的存取權
 
-您必須是&#x200B;**[!UICONTROL 所有報表存取]**&#x200B;群組的成員，或您所屬的群組在您要使用的報表套裝中必須至少可存取一個報表，您才能為 Analytics 啟動的活動建立或檢視報表。如果無法檢視報表，請確定您是這其中一個群組的成員。
+Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. 如果無法檢視報表，請確定您是這其中一個群組的成員。
 
 如需詳細資訊，請參 [閱產品設定檔和群組](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
 
 ### 設定 Web 服務存取群組的存取權。
 
-您必須屬於 [!DNL Adobe Analytics] 中的 Web 服務存取群組，才能使用 [!DNL Analytics] 做為 [!DNL Target] 的報表來源。
+您必須屬於 [!DNL Analytics] 中的 Web 服務存取群組，才能使用 [!DNL Analytics] 做為 [!DNL Target] 的報表來源。
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
