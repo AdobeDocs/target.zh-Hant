@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '860'
 ht-degree: 36%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 21 年 5 月 | [白名單目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 已新 `mboxedge30.tt.omtrdc.net` 增至清單。 |
 | 20 年 5 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的Target Standard/Premium 20.6.1（2020年6月10日）版本的資訊。 |
 |  | [主機](/help/administrating-target/hosts.md) | 在「安全性最佳實務」一節中新增附註。 |
 | 14 年 5 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關描述檔批次狀態API v2變更的資訊。 |
