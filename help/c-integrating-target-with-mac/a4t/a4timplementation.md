@@ -1,35 +1,38 @@
 ---
-keywords: A4T;Adobe Analytics;Analytics 型活動;Analytics 報表套裝;報表套裝;Analytics Target 整合;設定報表套裝
+keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: 實作 Adobe Analytics 做為 Target (A4T) 的報表來源時，需要數個步驟。
 title: Analytics for Target 實作
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '877'
+ht-degree: 65%
 
 ---
 
 
 # Analytics for Target 實作{#analytics-for-target-implementation}
 
-實作 Adobe Analytics 做為 Target (A4T) 的報表來源時，需要數個步驟。
+Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Target] (A4T).
 
-## 實施步驟 {#section_73961BAD5BB4430A95E073DE5C026277}
+## Implementation steps {#section_73961BAD5BB4430A95E073DE5C026277}
 
-下表說明將此整合部署至網站所需的步驟。
+以下各節將說明將此整合部署至您網站所需的步驟。
 
 ## 步驟 1: 要求佈建給 Analytics 和 Target
 
-將 Analytics 實作成 Target 的報表來源之後，您必須佈建給 Analytics 和 Target。[使用此表單請求布建](http://www.adobe.com/go/audiences)。
+After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [使用此表單請求布建](http://www.adobe.com/go/audiences)。
 
 ## 步驟 2: 設定使用者權限
 
-必須符合使用者帳戶需求，您才能在 Adobe Target 中建立 Adobe Analytics 型活動。請參閱[使用者權限需求](/help/c-integrating-target-with-mac/a4t/account-reqs.md)。
+User account requirements must be met before you can create an [!DNL Analytics]-based activity in [!DNL Target]. 請參閱[使用者權限需求](/help/c-integrating-target-with-mac/a4t/account-reqs.md)。
 
 ## 步驟 3: 實作 Experience Cloud 訪客 ID 服務
 
-訪客 ID 服務可讓您在 Experience Cloud 解決方案之間識別使用者。您必須實作或移轉至必要的 Experience Cloud 訪客 ID 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
+訪客 ID 服務可讓您在 [!DNL Adobe Experience Cloud] 解決方案之間識別使用者。您必須實作或移轉至必要的 Experience Cloud 訪客 ID 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-請參閱 Experience Cloud 訪客 ID 服務說明文件中的[實作 Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html)。
+See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
 ## 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
 
@@ -71,9 +74,9 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 
 VisitorAPI.js 必須在 at.js 或 mbox.js 之前載入。如果您更新現有的 at.js 或 mbox.js 檔案，務必驗證載入順序。
 
-針對 Target 設定立即可用設定的方法以及就實施觀點而言的 Analytics 整合，就是使用頁面所傳遞的 SDID，自動將 Target 和 Analytics 要求一起拼接在後端上。
+The way the out-of-the-box settings are configured for [!DNL Target] and [!DNL Analytics] integration from an implementation perspective is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically for you.
 
-不過，如果您想要進一步掌控將 Target 相關分析資料傳送至 Analytics 以用於報表用途的方式和時間，而且您不想選擇加入讓 Target 和 Analytics 透過 SDID 自動拼接分析資料的預設設定，則您可透過 **window.targetGlobalSettings** 設定 **analyticsLogging = client_side**。注意: 任何 2.1 以下的版本均不支援此方法。
+However, if you want more control on how and when to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes, and you do not want to opt-in to the default settings of having [!DNL Target] and [!DNL Analytics] automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 注意: 任何 2.1 以下的版本均不支援此方法。
 
 例如:
 
@@ -83,7 +86,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-此設定具有全域效果，也就是說，at.js 發出的所有呼叫都會在 Target 要求中傳送 **analyticsLogging: "client_side"**，而且會為所有要求傳回分析裝載。設定後，傳回的裝載格式如下所示:
+此設定具有全域效果，也就是說，at.js 發出的所有呼叫都會在 要求中傳送 **analyticsLogging: &quot;client_side&quot;**，而且會為所有要求傳回分析裝載。[!DNL Target]設定後，傳回的裝載格式如下所示:
 
 ```
 "analytics": {
@@ -96,7 +99,7 @@ window.targetGlobalSettings = {
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-如果不需要全域設定，且偏好使用更隨需提供的方法，則您可將 **analyticsLogging: "client_side"** 傳入，藉此使用 at.js 函數 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 來達成此目標。只會針對此呼叫傳回分析裝載，且 Target 後端不會將裝載轉送至 Analytics。透過採用此方法，所有 at.js Target 要求都不會根據預設傳回裝載，而是只會在需要和指定時傳回。
+如果不需要全域設定，且偏好使用更隨需提供的方法，則您可將 **analyticsLogging: &quot;client_side&quot;** 傳入，藉此使用 at.js 函數 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 來達成此目標。The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
 例如:
 
@@ -152,11 +155,11 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to [!DNL Analytics] via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 步驟8: 驗證實作 {#step8}
 
-更新 JavaScript 程式庫之後載入頁面，以確認 Target 呼叫中的 mboxMCSDID 參數值符合 Analytics 頁面檢視呼叫中的 sdid 參數值。
+更新 JavaScript 程式庫之後載入頁面，以確認 呼叫中的 `mboxMCSDID`[!DNL Target] 參數值符合 頁面檢視呼叫中的 `sdid`[!DNL Analytics] 參數值。
 
 在單一頁面應用程式 (SPA) 中，不一定能夠預測呼叫訂單，所以這項確認尤其重要。
 
@@ -168,8 +171,8 @@ The payload can then be forwarded to Analytics via the [Data Insertion API](http
 
 ## 步驟10: 啟用以 Analytics 作為 Target 的報表來源的選項
 
-在 Target 中，按一下[!UICONTROL 「設定」 &gt; 「偏好設定」]，然後選擇[!UICONTROL 「為每個活動選取」]或 [!UICONTROL Adobe Analytics] 以啟用選項。
+在 [!DNL Target] 中，按一下&#x200B;**[!UICONTROL 「設定」 > 「偏好設定」]**，然後選擇&#x200B;**[!UICONTROL 「為每個活動選取」]**&#x200B;或 **[!UICONTROL Adobe Analytics]** 以啟用選項。
 
-* 「為每個活動選取」可讓您在建立每個活動時選擇 Target 或 Analytics。
-* Adobe Analytics 會將 Analytics 設為您建立的所有活動的報表來源。
+* **[!UICONTROL 「為每個活動選取」可讓您在建立每個活動時選擇 或 。]**[!DNL Target][!DNL Analytics]
+* **[!UICONTROL Adobe 會將 Analytics 設為您建立的所有活動的報表來源。]**[!DNL Analytics]
 
