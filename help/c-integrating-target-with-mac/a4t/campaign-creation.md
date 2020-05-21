@@ -1,44 +1,49 @@
 ---
-keywords: a4t;A4T;使用 Analytics 作為 Target 的報告來源
+keywords: a4t;A4T;Analytics as the reporting source for Target
 description: 您可以在 Target Standard/Premium 中設定活動以使用 Adobe Analytics 做為報表來源 (A4T)。
 title: 活動建立
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 39%
 
 ---
 
 
 # 活動建立{#activity-creation}
 
-您可以在 Target Standard/Premium 中設定活動以使用 Adobe Analytics 做為報表來源 (A4T)。
+You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
-設定使用 Analytics 做為報表來源的活動之前，請建立活動的目標，例如改善每位訪客帶來的收入 (RPV) 或增加購物車的點擊次數。選擇活動的最終成功量度。儘管您隨時可以在 Analytics 中選取其他的量度，您仍必須指定預期此測試產生作用的特定量度。
+Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. 選擇活動的最終成功量度。Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-建立使用 Analytics 作為報表來源的 Target Standard 活動與設定一般的 Target Standard 活動類似，但有一些差異。例如，在建立活動時您無法選取報表的區段，因為檢視報表時可以套用 Analytics 中可用的所有區段。
+Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
 1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**。
 
    >[!NOTE]
    >
-   >如果使用 Analytics 作為報表來源，活動名稱不能包含「%」字元。
+   >An activity name cannot include the &quot;%&quot; character if [!DNL Analytics] is used as the reporting source.
 
 1. 選取活動類型並開始設定活動。
 1. 進入活動建立流程的&#x200B;**[!UICONTROL 「設定」]**&#x200B;部分時，請選擇&#x200B;**[!UICONTROL 「Adobe Analytics」]**&#x200B;並指定您的公司。
 1. 選擇一個報表套裝。
 
-   您可以選擇 Adobe Analytics 中可供您使用的任何報表套裝。報表套裝會定義所收集的資料將可供使用的位置。報表套裝清單中未包括虛擬報表套裝。
+   You can choose any report suite that is available to you in [!DNL Analytics]. 報表套裝會定義所收集的資料將可供使用的位置。報表套裝清單中未包括虛擬報表套裝。
 
    選取報表套裝時，您可能遇到兩個可能的錯誤:
 
    * 您遇到沒有可用的報表套裝的錯誤，但您的帳戶已正確設定。
-   您可能需要洽詢您的 Analytics 公司。如果您的 Experience Cloud 帳戶已綁定至多個 Analytics 公司，請從 Target 登出，並在適當的公司上登入 Analytics。然後回到 Target，接著報表套裝將會載入。
+
+      You might need to check your [!DNL Analytics] company. If your [!DNL Adobe Experience Cloud] account is tied to more than one [!DNL Analytics] company, log out of [!DNL Target], and log in to [!DNL Analytics] under the right company. Then return to [!DNL Target], and the report suites will load.
 
    * 您並未看到所預期的報表套裝。
-   只有佈建為連接至 Adobe Target 的報表套裝才可供選取。如果沒看到您要找的報表套裝，請先登出再登入 Adobe Experience Cloud，然後再試一次。
 
-   如果報表套裝仍未出現在清單中，請[請聯絡客戶服務](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+      Only report suites that are provisioned to connect to [!DNL Target] will be available for selection. If you don&#39;t see the report suite(s) you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again.
+   If the report suite(s) is still missing from the list, please [contact Customer Care](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
 1. 指定您的追蹤伺服器。
 
    請參閱[使用 Analytics 追蹤伺服器](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
@@ -46,11 +51,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 定義體驗。
 1. 指定活動目標。
 
-   您需要選取要用作每個測試目標的成功量度。您的活動目標為代表成功活動的轉換活動。最佳作法永遠不要執行未以某些特定方式改善目標的測試。您可以在 Analytics 量度選取器中選擇任何可用的 Analytics 量度。
+   您必須選取成功度量，以用作每個活動的目標。 您的活動目標為代表成功活動的轉換活動。最佳作法永遠不要執行未以某些特定方式改善目標的測試。You can choose any [!DNL Analytics] metric available in the [!DNL Analytics] metric selector.
 
    >[!NOTE]
    >
-   >您可以傳送自訂 Target 型量度至 Analytics，而非仰賴於 Analytics 資料。例如，您可以監控頁面上的點擊，Analytics 一般不會追蹤這個部分。此自訂量度會自動從 Target 伺服器傳送至 Analytics，並在 Analytics 量度選取器中顯示為「Target 轉換」量度。如果您選擇使用 Analytics 量度，則 Target 轉換量度會為空白。
+   >You can send a custom Target-based metric to [!DNL Analytics] rather than relying only on [!DNL Analytics] data. For example, you can monitor clicking on a page, which is usually not tracked by [!DNL Analytics]. This custom metric is sent to [!DNL Analytics] automatically from the [!DNL Target] server, and appears as the &quot;[!DNL Target] Conversion&quot; metric in the metrics selector in [!DNL Analytics]. The [!DNL Target] Conversion metric is empty if you choose to use [!DNL Analytics] metrics.
 
    設定目標並不表示您無法在評估測試結果時使用其他量度。不過，目標為您要對活動改善之項目的提示。
 
@@ -58,7 +63,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    >[!NOTE]
    >
-   >在設定 Analytics 作為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。在 Target 活動報表可以取得 Analytics 區段。
+   >When setting up an activity after setting up [!DNL Analytics] as your reporting source, there is no option to set up audiences for reporting. [!DNL Analytics] 區段可在「活動」報 [!DNL Target] 表中使用。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-
