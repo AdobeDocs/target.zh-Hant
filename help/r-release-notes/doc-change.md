@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: 2167de7512e16a7b91aa276baa0cfdc35dcafeaa
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 36%
+source-wordcount: '895'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 26 年 5 月 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 已新增下列資訊： 「停用指令碼後，參數仍保留在描述檔中。 如果使用者的設定檔已包含用於活動對象的參數，則該活動將符合該使用者的資格。」 |
 | 21 年 5 月 | [白名單目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 已新 `mboxedge30.tt.omtrdc.net` 增至清單。 |
 | 20 年 5 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的Target Standard/Premium 20.6.1（2020年6月10日）版本的資訊。 |
 |  | [主機](/help/administrating-target/hosts.md) | 在「安全性最佳實務」一節中新增附註。 |
