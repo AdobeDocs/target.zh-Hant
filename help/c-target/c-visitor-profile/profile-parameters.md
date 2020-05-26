@@ -5,7 +5,10 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+workflow-type: tm+mt
+source-wordcount: '2414'
+ht-degree: 80%
 
 ---
 
@@ -75,6 +78,8 @@ if (mbox.name == 'Track_Interest') {
 * 儲存下次執行此指令碼時 (下一個 mbox 請求時) 可存取包含 `user.setLocal('variable_name', 'value')` &#39;) 的變數。參考包含 `user.getLocal('variable_name')` &#39;) 的變數。這對您想要參考上次請求的日期與時間的情況下非常有用。
 * 參數和值區分大小寫。請符合活動或測試期間所收到參數與值的大小寫。
 * 如需更多 JavaScript 語法，請參閱以下「指令碼設定檔參數的 JavaScript 參考資料」一節。
+* 停用指令碼後，參數仍會保留在描述檔中。 如果使用者的設定檔已包含用於活動對象的參數，則該活動將符合該使用者的資格。
+* 配置檔案指令碼在活動中使用時無法刪除。
 
 ## 檢視設定檔指令碼資訊卡 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -270,7 +275,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 邏輯上，「OR」左側和右側的運算式，只有在其中一側為 true 時，才會是 true (否則則為 false)。 |
 | `//` | 檢查來源是否包含目標布林值包含的所有元素 (陣列來源、陣列目標)。<br>`//` 會從目標擷取子字串 (對應 regexp)，然後將其解碼 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>此功能也支援使用常數字串值、分組 (`condition1 || condition2) && condition3`，以及規則運算式 (`/[^a-z]$/.test(landing.referring.url)`。 |
 
-## 訓練影片：描述檔指令碼 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片： 描述檔指令碼 ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包含使用和建立設定檔指令碼的相關資訊。
 
