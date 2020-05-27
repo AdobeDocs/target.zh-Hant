@@ -5,98 +5,99 @@ title: 企業使用者權限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '2899'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 企業使用者權限{#enterprise-user-permissions}
 
-企業使用者權限是一種正式管理整個企業的 Target 使用者存取權限的方法。根據不同的部門、全域位置、管道和其他邏輯群組，將使用者新增至 Target、根據其角色指派權限，以及建立團隊的工作區。您可以將觀察者、編輯者和核准者的角色指派給使用者。
+Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
-## 判斷您是否可存取企業使用者權限
+## 判斷您是否擁有企業使用者權限的存取權
 
 >[!NOTE]
 >
->屬性和權限功能屬於 Target Premium 解決方案的一部分。在沒有 Target Premium 授權的 Target Standard 中無法使用。
+>屬性和權限功能屬於  Premium 解決方案的一部分。[!DNL Target]在沒有 [!DNL Target] Premium 授權的 [!DNL Target] Standard 中無法使用。
 >
->您的 Target 實作可以使用任何版本的 at.js 或 mbox.js。
+>Your [!DNL Target] implementation can be using any version of at.js or mbox.js.
 
-您可以區分您的組織具有的 Standard 或 Premium 授權，方法是按一下 UI 上方的[!UICONTROL 「設定」]連結。[!DNL Target]
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]客戶&#x200B;**: 如果您看見[!UICONTROL 「使用者」]標籤 ([!UICONTROL 「設定 > 使用者」])，則您的組織具備[!DNL Target Standard]授權。[!DNL Target Standard]客戶應該遵循[使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的指示，在 Adobe Admin Console 中新增使用者和指派權限。
+* **[!DNL Target Standard]客戶&#x200B;**: 如果您看到「使[!UICONTROL 用者]」標籤([!UICONTROL 「管理>使用者]」)（而非「屬性」標籤），則您的組織會擁有[!DNL Target Standard]授權。[!DNL Target Standard]客戶應依照「使用者」中的[指示](/help/administrating-target/c-user-management/c-user-management/user-management.md)，在中新增使用者並指派權限[!DNL Adobe Admin Console]。
 
-   [!DNL Target Standard] 使用者在按一下「屬性」索引標籤時看見下列錯誤訊息。[!DNL Target] 並沒有問題。[!DNL Target Standard] 使用者無法存取 [!DNL Target Premium] 的[!UICONTROL 「企業權限」]功能。
-
-   ![錯誤訊息](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
-
-* **[!DNL Target Premium]客戶&#x200B;**: 如果您看見[!UICONTROL 「屬性」]標籤 ([!UICONTROL 「設定 > 屬性]」)，則您的組織具備[!DNL Target Premium]授權。[!DNL Target Premium]客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
+* **[!DNL Target Premium]客戶&#x200B;**: 如果您看到「屬[!UICONTROL 性]」標籤([!UICONTROL 「設定」>「屬性]」)和「使用者」標籤[!UICONTROL ，則您的組織會擁有][!DNL Target Premium]授權。[!DNL Target Premium]客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
 
 ## 開始使用企業權限之前
 
 >[!IMPORTANT]
 >
->在繼續行使企業權限之前，請確定您已閱讀以下的[注意事項](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2)一節。
+>Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
-## 此小節中使用的字詞和定義 {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-在本小節中將使用下列字詞，並且對想要在 Target Premium 中使用屬性和權限功能的使用者來說，可能是新字詞。
+The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
 
 ### 屬性
 
-屬性的本質類似於 Dynamic Tag Management (啟動) 內的屬性，因為它們使用唯一的程式碼片段來加以區分。
+Properties are similar in nature to those within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
 
 Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多個網域和子網域的任何群組。
 
-屬性的啟用方式是透過新增特定名稱/值組做為參數以搭配對 Target 的任何呼叫 (mbox 和 API 等)。屬性屬於特定管道 (Web、行動電話、電子郵件或 API/其他)。
+屬性的啟用方式是透過新增特定名稱/值組做為參數以搭配到 [!DNL Target].
+
+屬性屬於特定管道 (Web、行動電話、電子郵件或 API/其他)。
 
 ### 工作區 (產品設定檔)
 
-工作區可讓組織將特定一組使用者指派至特定一組屬性。工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
+工作區可讓組織將特定一組使用者指派至特定一組屬性。工作區有許多地方皆與 [!DNL Adobe Analytics] 中的報表套裝相似。
 
-注意: 工作區在 Adobe Admin Console for Enterprise 中稱為產品設定檔。
+Note: Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].
 
 如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
 
 使用者可以屬於多個工作區並且甚至可具有每個工作區內不同的角色。
 
-透過在工作區之間移動，使用者可以有 Adobe Target 的不同檢視，類似於 Analytics 使用者可透過在報表套裝之間移動而有 Analytics 的不同檢視。
+Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
 
 工作區可以包含完全不同的對象、代碼選件和活動。
 
 在新企業權限模型移轉之前建立的所有對象和活動將於「預設工作區」中群組在一起，以下會討論。
 
-所有透過 Adobe Experience Manager (AEM)、Adobe Mobile Services 和 Adobe Target Classic 建立的活動將會是「預設工作區」的一部分。
+All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the &quot;Default Workspace.&quot;
 
 ### 預設工作區
 
-Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織移轉至新企業權限模型期間合併到單一工作區，稱為「預設工作區」。
+All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called &quot;Default Workspace&quot; during your organization&#39;s migration to the new Enterprise Permissions model.
 
 >[!IMPORTANT]
 >
 >請勿刪除預設工作區。
 
-對所有 Target 功能的所有使用者角色和存取，將保持與移轉至新企業權限模型之前完全相同。
+All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
 
 ### 使用者群組
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
-### 角色與權限
+### 角色和權限
 
-角色和權限會決定使用者在您的 Target 實作中建立和管理活動所具備的存取層級。在 Target 中，角色包括下列:
+角色和權限會決定使用者在您的 [!DNL Target] 實作中建立和管理活動所具備的存取層級。在 [!DNL Target] 中，角色包括下列:
 
-* 觀察者: 可以檢視活動，但無法建立或編輯活動。
-* 編輯者: 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。
-* 核准者: 可以建立、編輯和啟動或停止活動。
+* **[!UICONTROL 觀察者]**: 可以檢視活動，但無法建立或編輯活動。
+* **[!UICONTROL 編輯器]**: 可在活動上線前建立和編輯活動，但無法核准活動啟動。
+* **[!UICONTROL 批准者]**: 可以建立、編輯、啟用或停止活動。
 
 ### 管道
 
-管道是指您的 Target 活動傳送所在的內容類型: 網頁、行動應用程式、電子郵件訊息等。
+管道是指您的 [!DNL Target] 活動傳送所在的內容類型: 網頁、行動應用程式、電子郵件訊息等。
 
 建立新活動時，它是在目前選取的工作區中建立。您將在第一個對話方塊中看到通道選取選項，讓您選擇活動需要的通道: Web、行動應用程式、電子郵件或其他/API。
 
-## 權限概觀 {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Permissions overview {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 下列資訊說明先前在 [!DNL Target] 中執行權限的方式，以及如何使用[!UICONTROL 屬性]和[!UICONTROL 權限]功能來加以執行。
 
@@ -134,7 +135,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 在此範例中，Jan 看不到產品頁面、俄羅斯網站和求職網站。
 
-## 使用案例 {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## 使用案例案例案例 {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 下列使用案例有助於瞭解屬性、專案、角色和權限如何能協助您使用 [!DNL Target] 達成您的行銷目標:
 
@@ -180,7 +181,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 * **Diana**: Diana 現在是組織的分析師，並且已獲授與醫院網站和消費者網站的觀察者權限，該權限提供她對活動的唯讀存取。Diana 可以檢視活動，但無法建立或編輯活動。
 
-## Target UI 屬性和權限接觸點 {#section_3414371393BB42999A268628B5456EC9}
+## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
 您可以在 [!DNL Target] UI 的多個位置看到新的權限功能。
 
@@ -194,13 +195,13 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
 
 * **受眾建立:**&#x200B;當您建立新的受眾時，會建立在目前選取的工作區中。
 * **選件建立:**&#x200B;當您建立新的選件時，會建立在目前選取的工作區中。
-* **屬性頁面 (「設定」>「屬性」):** 您可以使用[!UICONTROL 「搜尋」]方塊，[!UICONTROL 「管道」]和[!UICONTROL 「產品設定檔」]選項來篩選[!UICONTROL 「屬性」]清單。
+* **「屬性」頁（設定>屬性）:** 您可以使用「搜 [!UICONTROL 尋] 」方塊來搜尋 [!UICONTROL 「屬性] 」清單。
 
    ![](assets/properties_list.png)
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-在 Target Premium 中使用或設定屬性和權限時，請考慮以下事項:
+Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
 * **重要**: 請勿刪除具有活動的工作區。如果發生此情況，請洽詢客戶服務來復原這些活動。
 * 使用「所有我的工作區」檢視時:
@@ -210,12 +211,17 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
    * 在「所有我的工作區」檢視中建立活動、對象或選件時，您必須選取要建立項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
    * 在「所有我的工作區」檢視中複製活動、對象或選件時，您必須選取要複製項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
 
-* 下列「設定」頁面上的任何設定可以由任何工作區中的任何核准者控制:
+* 以下「管理」頁面上的任何設定都可由任何工作區中的任何「批准者」控制：
 
-   * 偏好設定
-   * 實施
+   * 可視化體驗撰寫器
+   * 報表
    * Scene7 設定
+   * 實施
+   * 屬性
    * 主機
+   * 環境
+   * 回應 Token
+   * 使用者
 
 * 使用者無法將資源從一個工作區 (產品設定檔) 移動至另一個。不過支援複製。
 * 從 [!DNL Audiences] 頁面檢視對象時，頁面載入的速度會低於預期。如果您以任何方式與搜尋列互動，對象會較快顯示。這是已知問題，將會在隨後的更新中修正。此問題不會影響在活動建立工作流程期間選取對象。
@@ -234,7 +240,7 @@ Admin Console 內的所有現有工作區 (產品設定檔)，會在您的組織
    * 使用下列解決方案或方法建立的活動、對象、代碼選件、影像選件或任何其他資源，無法透過企業權限模型控制，但將成為預設工作區的一部分: Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services 和透過 API 建立的資源。透過 API 建立的資源包括活動、對象、代碼選件和影像選件。
    * 影像選件 (儲存在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的資產) 目前無法透過企業權限模型控制。
    * clickTracking 和重新導向，只有在目的地連結或目的地頁面屬於活動中所包含屬性的一部分時才有作用。此外，使用 `targetPageParams()` 函數時，clickTracking 可能無法使用。`targetPageParamsAll()` 為建議的函數。
-   Target 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。如果 Token (1) 不存在，(2) 未在活動設定 (VEC 內) 時偵測到，或 (3) 未透過 `targetPageParamsAll()` 函數傳遞至 clickTracking mbox，度量將不會遞增，並將顯示為「0」。
+   [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。如果 Token (1) 不存在，(2) 未在活動設定 (VEC 內) 時偵測到，或 (3) 未透過 `targetPageParamsAll()` 函數傳遞至 clickTracking mbox，度量將不會遞增，並將顯示為「0」。
 
    對於使用重新導向的活動也是相同的情況。目的地頁面必須具有 `at_property` Token，並且需在 VEC 內設定時辨識。
 
