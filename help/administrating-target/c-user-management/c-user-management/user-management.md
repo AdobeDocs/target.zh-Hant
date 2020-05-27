@@ -6,43 +6,46 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 62%
 
 ---
 
 
 # 使用者{#users}
 
-您可以在 Adobe Admin Console 中新增使用者並管理其權限。
+You can add users and manage their permissions in the [!DNL Adobe Admin Console].
 
 >[!NOTE]
 >
 >[!UICONTROL 屬性和權限功能屬於 ] Premium 解決方案的一部分。[!DNL Target]在沒有 [!DNL Target] Premium 授權的 [!DNL Target] Standard 中無法使用。
->您可以區分您的組織具有的 Standard 或 Premium 授權，方法是按一下 UI 上方的[!UICONTROL 「設定」]連結。[!DNL Target]
+>You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->**[!DNL Target]Standard 客戶:**如果您看見[!UICONTROL 「使用者」]標籤 ([!UICONTROL 「設定 > 使用者」])，表示您的組織具備[!DNL Target]Standard 授權。[!DNL Target Standard 客戶應該遵循本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派權限。
+>**[!DNL Target]標準客戶&#x200B;**: 如果您看到「使[!UICONTROL 用者]」標籤(「管[!UICONTROL 理」>「使用者」])（而非「屬性」標籤），則您的組織會擁有「標準****[!DNL Target]」授權。 [!DNL Target Standard 客戶應該遵循本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派權限。
 >
->**[!DNL Target]Premium 客戶:**如果您看見[!UICONTROL 「屬性」]標籤 ([!UICONTROL 「設定 > 屬性」])，表示您的組織具備[!DNL Target]Premium 授權。[!DNL Target]Premium 客戶應該遵循[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示，在[!DNL Adobe Admin Console]中新增使用者並指派權限。
+>**[!DNL Target]Premium客戶&#x200B;**: 如果您看到「使[!UICONTROL 用者]」標籤和「屬性[!UICONTROL 」標籤(]「管理」>「屬性[!UICONTROL 」)，您的組織會擁有][!DNL Target]Premium授權。[!DNL Target]Premium 客戶應該遵循[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示，在[!DNL Adobe Admin Console]中新增使用者並指派權限。
 
-若要管理使用者和權限，請參 [閱「企業與團隊使用指南](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) 」中的「管理產品和設定檔」。
+若要管理使用者和權限，請參 [閱「企業與團隊使用指南](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) 」中 *的「管理產品和設定檔」*。
 
 當您開始使用 [!DNL Adobe Target] 時，您可以找到 [!DNL Adobe Experience Cloud] 帳戶中預先填入的 ID (結尾是 Adobe.com)。若您需要協助，這些 ID 可供 Adobe 團隊的成員使用，讓他們可以協助處理您的新帳戶及協助您使用 [!DNL Adobe Target]。若要取得協助，請像平常一樣聯絡 Adobe 團隊。
 
-在新使用者使用其 Adobe Experience Cloud 帳戶登入，然後透過按一下[!UICONTROL 「」卡片來登入 ] 之前，您不會在[!DNL Target Standard/Premium]「使用者」[!DNL Target]頁面上看見新使用者列出。
+You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her [!DNL Adobe Experience Cloud] account and then logs in to [!DNL Target Standard/Premium].
 
 依預設，所有 [!DNL Target] 使用者一開始都具有觀察者權限。
 
-管理員使用者會在「使用者」清單中識別。 如果您需要變更存取層級，請連絡其中一個系統管理員使用者。
+Admin users are identified in the [!UICONTROL Users] list. 如果您需要變更存取層級，請連絡其中一個系統管理員使用者。
 
 ## 存取 Adobe Admin Console {#access}
 
 若為 Adobe Admin Console 中執行的工作，請遵循下列步驟來存取控制台:
 
-1. 移至 [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) > 使用 Adobe ID 登入 (如果尚未登入)。
+1. 在中，按 [!DNL Target]一下「 **[!UICONTROL 管理]** >使 **[!UICONTROL 用者]** >使 **[!UICONTROL 用者管理]**」。
 
    或
 
-   如果您已登入 Experience Cloud，請前往 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然後按一下頂端導覽列中的[!UICONTROL 應用程式]圖示 > 按一下右側的&#x200B;**[!UICONTROL 管理]**。
+   Go to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/), then sign in using your Adobe ID, if you have not already logged in.
 
 1. (條件式) 如果您可以存取一個以上組織的 [!DNL Admin Console for Enterprise]，請按一下右上角或上方導覽列中的使用者頭像，然後選取需要的組織。
 
@@ -62,9 +65,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ## 指定角色和權限 {#roles-permissions}
 
-只有系統管理員可以在 [!DNL Target] 中設定使用者角色。例如，Standard 核准者使用者也必須有 Experience Cloud 管理員權限，才能將觀察者變更為核准者。
+只有系統管理員可以在 [!DNL Target] 中設定使用者角色。For example, a Standard approver user cannot change an observer to an approver, without also having [!DNL Experience Cloud] Admin rights.
 
-系統管理員使用者必須將使用者新增至系統。系統不會自動新增使用者。使用者要收到來自 Experience Cloud 的電子郵件所邀請，而且在註冊其帳戶之前必須先確認電子郵件位址。
+系統管理員使用者必須將使用者新增至系統。系統不會自動新增使用者。They are invited by email from the [!DNL Experience Cloud] and must confirm their email addresses before their accounts are registered.
 
 1. [](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)在 Admin Console 中，按一下&#x200B;**[!UICONTROL 「產品」]**，然後選取所需產品的名稱。
 
