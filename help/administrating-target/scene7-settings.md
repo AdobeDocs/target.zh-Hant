@@ -5,10 +5,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 95%
+source-wordcount: '436'
+ht-degree: 94%
 
 ---
 
@@ -32,6 +32,8 @@ Target 可以與 Adobe Dynamic Media Classic (先前的 Scene7) 整合以在內�
 若要與Dynamic Media Classic(Scene7)整合，您必須指定下列資訊。
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
+   ![Scene7頁面](/help/administrating-target/assets/scene7.png)
 
 1. 指定下列 Dynamic Media Classic 帳戶資訊:
 
