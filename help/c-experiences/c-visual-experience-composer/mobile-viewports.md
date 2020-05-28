@@ -4,7 +4,10 @@ description: 行動檢視區可協助您預覽活動出現在各種大小畫面�
 title: 回應式體驗的行動檢視區
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | Google Pixel | 411w x 731h | 1080w x 1920h |
 | Google Pixel XL | 411w x 731h | 1440w x 2560h |
 | Google Pixel 2 | 411w x 731h | 1080w x 1920h |
-| Google Pixel 2 XL | 411w x 731h | 1440w x 2560h |
+| Google Pixel 2 XL | 411w x 823h | 1440w x 2880h |
 | Samsung Galaxy Note 5 | 480w x 853h | 1440w x 2560h |
 | LG G5 | 480w x 853h | 1440w x 2560h |
 | One Plus 3 | 480w x 853h | 1080w x 1920h |
@@ -152,7 +155,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 可視化體驗撰寫器 (2/2) (上午 07:29) 概 ![述徽章](/help/assets/overview.png)
+### 可視化體驗撰寫器 (2/2) (上午 07:29) ![概述徽章](/help/assets/overview.png)
 
 下列示範影片包含透過可視化體驗撰寫器來使用行動檢視區的相關資訊:
 
