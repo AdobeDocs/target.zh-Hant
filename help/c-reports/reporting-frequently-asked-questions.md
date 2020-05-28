@@ -5,10 +5,10 @@ title: Adobe Target 的報表常見問題集
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 39%
+source-wordcount: '983'
+ht-degree: 35%
 
 ---
 
@@ -37,6 +37,14 @@ ht-degree: 39%
 * 在符合舊訪客的條件並計為舊訪客後，訪客會返回網站。
 
 即使此訪客同時計入「新訪客」和「舊訪客」區段，在活動的整體訪客計數中仍會被計為單一訪客。
+
+「新訪客」和「舊訪客」計數的差異，也取決於您如何設定活動的成 [功度量](/help/c-activities/r-success-metrics/success-metrics.md):
+
+考量下列範例:
+
+許多新訪客瀏覽您的網站並符合活動資格。 這些新訪客會計入「新訪客」區段。 所有這些訪客也記錄了該活動的瀏覽。
+
+有些訪客點擊轉換量度，此量度已設定為「增量計數、釋放使用者並允許再入」。 假設其中有些使用者多次點擊轉換度量，轉換度量不會增加。 不過，若有設定，有些使用者可能會點擊轉換度量，然後返回首頁，再次符合活動資格以記錄新的瀏覽。
 
 ## 我的 [!UICONTROL 體驗鎖定目標] (XT) 報表為何包含控制體驗的量度?
 
