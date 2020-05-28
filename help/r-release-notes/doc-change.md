@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '930'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 28 年 5 月 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | 新增下列新常見問答： <ul><li>「新訪客」和「舊訪客」量度的計數方式為何？</li></ul> |
 | 27 年 5 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Analytics for Target(A4T)支援自動配置活動的資訊。 |
 | 26 年 5 月 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 已新增下列資訊： 「停用指令碼後，參數仍保留在描述檔中。 如果使用者的設定檔已包含用於活動對象的參數，則該活動將符合該使用者的資格。」 |
 | 21 年 5 月 | [白名單目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 已新 `mboxedge30.tt.omtrdc.net` 增至清單。 |
