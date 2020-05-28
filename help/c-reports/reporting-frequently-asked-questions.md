@@ -5,10 +5,10 @@ title: Adobe Target 的報表常見問題集
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 35%
+source-wordcount: '1012'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 35%
 
 ## 「新訪客」和「舊訪客」量度的計數方式為何？
 
-考慮以下事項:
+以下資訊說明如何計算新訪客和舊訪客，並提供兩個區段的總和不一定總和為總訪客數的範例。
 
 **新訪客**: 如果符合下列條件之一，則「新訪客」區段會包含訪客：
 
@@ -31,16 +31,16 @@ ht-degree: 35%
 
 如果這兩個區段套用至活動，「新訪客」區段和「舊訪客」區段不一定總會加總訪客數。
 
-考慮到上述新訪客和舊訪客的條件，請考慮下列範例：
+請考慮以下範例，以上述「新訪客」和「舊訪客」的條件為例：
 
 * 訪客首次瀏覽網站，並計為新訪客。
 * 在符合舊訪客的條件並計為舊訪客後，訪客會返回網站。
 
 即使此訪客同時計入「新訪客」和「舊訪客」區段，在活動的整體訪客計數中仍會被計為單一訪客。
 
-「新訪客」和「舊訪客」計數的差異，也取決於您如何設定活動的成 [功度量](/help/c-activities/r-success-metrics/success-metrics.md):
+「新訪客」和「舊訪客」計數的差異，也取決於您如何設定活動的成 [功度量](/help/c-activities/r-success-metrics/success-metrics.md)。
 
-考量下列範例:
+例如:
 
 許多新訪客瀏覽您的網站並符合活動資格。 這些新訪客會計入「新訪客」區段。 所有這些訪客也記錄了該活動的瀏覽。
 
