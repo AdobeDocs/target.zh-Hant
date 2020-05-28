@@ -1,14 +1,14 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: 關於 Adobe Target 中報表常見問題集的清單。
 title: Adobe Target 的報表常見問題集
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 50%
+source-wordcount: '862'
+ht-degree: 39%
 
 ---
 
@@ -16,6 +16,27 @@ ht-degree: 50%
 # 報表常見問題集{#reporting-faq}
 
 關於 [!DNL Target] 中報表常見問題的清單。
+
+## 「新訪客」和「舊訪客」量度的計數方式為何？
+
+考慮以下事項:
+
+**新訪客**: 如果符合下列條件之一，則「新訪客」區段會包含訪客：
+
+* 這是訪客首次造訪網站。
+* 這是訪客自清除Cookie後第一次造訪網站。
+* 這是訪客自訪客描述檔存留期過期以來，首次 [造訪網站](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) 。
+
+**舊訪客**: 如果使用者先前瀏覽網站，離開至少30分鐘，並使用相同的Cookie再次返回網站，則該訪客會納入「舊訪客」區段。 只要訪客在設定檔存留期之內回來，就是再度訪問的訪客。
+
+如果這兩個區段套用至活動，「新訪客」區段和「舊訪客」區段不一定總會加總訪客數。
+
+考慮到上述新訪客和舊訪客的條件，請考慮下列範例：
+
+* 訪客首次瀏覽網站，並計為新訪客。
+* 在符合舊訪客的條件並計為舊訪客後，訪客會返回網站。
+
+即使此訪客同時計入「新訪客」和「舊訪客」區段，在活動的整體訪客計數中仍會被計為單一訪客。
 
 ## 我的 [!UICONTROL 體驗鎖定目標] (XT) 報表為何包含控制體驗的量度?
 
