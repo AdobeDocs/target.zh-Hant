@@ -4,7 +4,7 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ ht-degree: 0%
 * 將內容擷取自動化至Target Recommendations
 * 追蹤建議內容的效能，以及它與潛在客戶開發的關聯性
 
-2020年6月4日星期四上午10時至上午10時45分 (EST)
+**2020年6月4日星期四**
+
+**上午10點至上午10點45分 (EST)**
 
 若要註冊，請造 [訪Adobe Experience League網站上的註冊頁面](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
 
