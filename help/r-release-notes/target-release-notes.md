@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '457'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最近更新: 2020 年 5 月 27 日**
+**上次更新: 2020 年 6 月 1 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -30,11 +30,10 @@ ht-degree: 20%
    >
    >   
    透過將所有客戶移至at.js，我們的工程師和支援人員將能為您提供新功能，並提供您期待從Adobe獲得的支援。
+   >
+   >
+* **目標公告**: 請參閱Target公告頁面，以取得近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。 如需詳細資訊，請參閱 [Target公告](/help/r-release-notes/target-announcements.md)。
 
-
-## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
-
-隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 ## Target Standard/Premium 20.6.1 (2020 年 6 月 10 日)
 
