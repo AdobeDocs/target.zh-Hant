@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 ## Adobe Target Skill Builder: 如何 `Adobe.com` 使用Adobe Sensei AI個人化體驗
 
-身為網際網路上最大的B2E網站之一， `Adobe.com` Adobe Experience Cloud已充份發揮其「客戶零」的作用，在全球B2B和B2C使用案例中採用各種解決方案。 個人化是數位化的目的地，服務於眾多人物，包括實際操作的創意人員、非技術的行銷人員和深度技術化的IT購買者，對Adobe.com的成功至關重要。
+**2020年6月4日星期四**
+
+**上午10點至上午10點45分 (EST)**
+
+身為網際網路上最大的B2E網站之一， `Adobe.com` Adobe Experience Cloud已充份發揮其「客戶零」的作用，在全球B2B和B2C使用案例中採用各種解決方案。 個人化是數位化的目的地，服務於眾多人物，包括實際操作的創意人員、非技術的行銷人員和深度技術化的IT購買者，對於個人化的成功至關重要 `Adobe.com`。
 
 加入產品經理Tamer Mina和Mark Tuyay，一起展示個人化如何運作的真實故事 `Adobe.com`。 在此網路研討會中，您將學習如何：
 
@@ -26,10 +30,6 @@ ht-degree: 0%
 * 使用流暢的體驗，將建議的內容 `Adobe.com`
 * 將內容擷取自動化至Target Recommendations
 * 追蹤建議內容的效能，以及它與潛在客戶開發的關聯性
-
-**2020年6月4日星期四**
-
-**上午10點至上午10點45分 (EST)**
 
 若要註冊，請造 [訪Adobe Experience League網站上的註冊頁面](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
 
