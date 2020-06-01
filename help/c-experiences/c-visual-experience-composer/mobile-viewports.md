@@ -4,10 +4,10 @@ description: 行動檢視區可協助您預覽活動出現在各種大小畫面�
 title: 回應式體驗的行動檢視區
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 97%
+source-wordcount: '1346'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,14 @@ ht-degree: 97%
 
 | 裝置 | 檢視區大小 | 裝置解析度 |
 |---|---|---|
+| iPhone SE | 375w x 667h | 750w x 1334h |
+| iPhone 11 Pro Max | 414w x 896h | 1242w x 2688h |
+| iPhone 11 Xs最大值 | 414w x 896h | 1242w x 2688h |
+| iPhone 11 | 414w x 896h | 828w x 1792h |
+| iPhone 11 Xr | 414w x 896h | 828w x 1792h |
+| iPhone 11 Pro | 375w x 812h | 1125w x 2436h |
+| iPhone 11 X | 375w x 812h | 1125 寬 x 2436 高 |
+| iPhone 11 Xs | 375w x 812h | 1125w x 2436h |
 | iPhone X | 375w x 812h | 1125w x 2436h |
 | iPhone 8 Plus | 414w x 736h | 1080w x 1920h |
 | iPhone 8 | 375w x 667h | 750w x 1334h |
