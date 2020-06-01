@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 34%
+source-wordcount: '962'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6月1日 | [回應式體驗的行動檢視區](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | 更新Apple iPhone 11、Apple iPhone SE和Google Pixel 2 XL機型的檢視區尺寸和解析度。 |
+| 6月1日 | [Target公告](/help/r-release-notes/target-announcements.md) | 已新增頁面，以宣佈即將舉行的Target事件。 |
+|  | [回應式體驗的行動檢視區](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | 更新Apple iPhone 11、Apple iPhone SE和Google Pixel 2 XL機型的檢視區尺寸和解析度。 |
 | 28 年 5 月 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | 新增下列新常見問答： <ul><li>「新訪客」和「舊訪客」量度的計數方式為何？</li></ul> |
 | 27 年 5 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Analytics for Target(A4T)支援自動配置活動的資訊。 |
 | 26 年 5 月 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 已新增下列資訊： 「停用指令碼後，參數仍保留在描述檔中。 如果使用者的設定檔已包含用於活動對象的參數，則該活動將符合該使用者的資格。」 |
