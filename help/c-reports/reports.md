@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
+source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 | 活動類型 | 詳細資料 |
 |--- |--- |
 | [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | 若要瞭解提升度與可信度，以及 [!DNL Target] 中使用的統計方法，請參閱[計劃 A/B 測試](/help/c-activities/t-test-ab/sample-size-determination.md)。 |
+| [解譯自動分配報表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 在Target UI中檢查重要指標，包括提升度和信賴度，以解譯自動分配A/B活動的結果。 |
 | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) (AT) | AT 活動之[!UICONTROL 摘要]報表的相關資訊。如需詳細資訊，請參閱[自動鎖定目標摘要報表](/help/c-reports/auto-target-summary-report.md)。<br>AT 和 AP 活動之兩個[!UICONTROL 「個人化前瞻分析」]報表的相關資訊:[!UICONTROL 「自動化區段」]報表和[!UICONTROL 「重要屬性」]報表。如需詳細資訊，請參閱[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [](/help/c-activities/t-automated-personalization/automated-personalization.md)自動個人化 (AP) | AP 活動之兩個[!UICONTROL 「自動個人化摘要」]報表的相關資訊:[!UICONTROL 「活動層級」]報表和[!UICONTROL 「選件層級」]報表。如需詳細資訊，請參閱[自動個人化摘要報表](/help/c-reports/reports-ap.md)。<br>AT 和 AP 活動之兩個[!UICONTROL 「個人化前瞻分析」]報表的相關資訊:[!UICONTROL 「自動化區段」]報表和[!UICONTROL 「重要屬性」]報表。如需詳細資訊，請參閱[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | MVT 活動之兩個報表的相關資訊:[!UICONTROL 「體驗效能」]報表和[!UICONTROL 「位置貢獻」]報表。如需詳細資訊，請參閱[體驗效能報表](/help/c-reports/experience-performance-report.md) (MVT) 和[位置貢獻報表](/help/c-reports/location-contribution-report.md) (MVT)。 |
@@ -43,7 +47,7 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 
    ![依類型篩選報表](/help/c-reports/assets/report_filters-new.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「報表」]**標籤。
+1. 按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
 
    每一個報表都包含圖例來協助您瞭解報表。
 
@@ -65,12 +69,12 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
    * [!UICONTROL 匯出報表至 CSV]
    * [!UICONTROL 匯出訂單詳細資料至 CSV]
 
-1. (可選) 按一下&#x200B;**[!UICONTROL 「表格檢視」]**和**[!UICONTROL 「圖表檢視」]**圖示，以切換報表格式。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「表格檢視」]**&#x200B;和&#x200B;**[!UICONTROL 「圖表檢視」]**&#x200B;圖示，以切換報表格式。
 
    視您選取的報表類型而定，其他檢視和報表可能可用：
 
    | 報表類型 | 檢視 |
    | --- | --- |
-   | 自動鎖定目標 | 按一下「 **[!UICONTROL 自動化區段]**」或「**[!UICONTROL &#x200B;重要屬性]** 」圖示。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此報表顯示影響模型及其相對重要性的常見屬性。</li></ul> |
-   | 自動個人化 (AP) | 除了「自動個人化 [摘要」報表](/help/c-reports/reports-ap.md)，您還可以按一下「自動化區段 **[!UICONTROL 」或「重]**要屬性**** 」圖示。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此報表顯示影響模型及其相對重要性的常見屬性。</li></ul> |
+   | 自動鎖定目標 | 按一下「 **[!UICONTROL 自動化區段]** 」或「 **[!UICONTROL 重要屬性]** 」圖示。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此報表顯示影響模型及其相對重要性的常見屬性。</li></ul> |
+   | 自動個人化 (AP) | 除了「自動個人化 [摘要」報表](/help/c-reports/reports-ap.md)，您還可以按一下「自動化區段 **[!UICONTROL 」或「重]** 要屬性 **** 」圖示。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此報表顯示影響模型及其相對重要性的常見屬性。</li></ul> |
    | 多變數測試 (MVT) | 除了「體驗效 [能」報表](/help/c-reports/experience-performance-report.md)，您還可以按一下「位置貢獻 [](/help/c-reports/location-contribution-report.md) 」圖示，以切換報表，依位置顯示貢獻。 |
