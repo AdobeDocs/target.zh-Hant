@@ -4,34 +4,38 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# Target公告
+# 定位公告和事件
 
 近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
 
-## Adobe Target Skill Builder: 如何 `Adobe.com` 使用Adobe Sensei AI個人化體驗
+## Adobe Target社群問答咖啡休息
 
-**2020年6月4日星期四**
+**2020年6月10日星期三**
 
-**上午10點至上午10點45分 (EST)**
+**上午10:00至11:00 (PST)**
 
-身為網際網路上最大的B2E網站之一， `Adobe.com` Adobe Experience Cloud已充份發揮其「客戶零」的作用，在全球B2B和B2C使用案例中採用各種解決方案。 個人化是數位化的目的地，服務於眾多人物，包括實際操作的創意人員、非技術的行銷人員和深度技術化的IT購買者，對於個人化的成功至關重要 `Adobe.com`。
+請加入我們，參加即將舉行的社 [!DNL Adobe Target] 群問答咖啡休息會！ 這是我們最近開始的系列活動的一部分，我們的內部專家會直接與您討論我們舉辦的「咖啡休息」論壇。 將它設想成 [!DNL Adobe Target] 社群論壇，相當於AMA(Ask Me Anything)或Twitter聊天。
 
-加入產品經理Tamer Mina和Mark Tuyay，一起展示個人化如何運作的真實故事 `Adobe.com`。 在此網路研討會中，您將學習如何：
+產品經 [!DNL Target] 理David Son將回答您的所有問題。 David的專業領域包括：
 
-* 毋需手動更新，讓內容保持相關性和新鮮感
-* 使用流暢的體驗，將建議的內容 `Adobe.com`
-* 將內容擷取自動化至Target Recommendations
-* 追蹤建議內容的效能，以及它與潛在客戶開發的關聯性
+* at.js
+* 行動
+* 合金
+* API
 
-若要註冊，請造 [訪Adobe Experience League網站上的註冊頁面](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
+但是，請隨時隨地詢問任何與Target相關的問題。
+
+您只需要登入 [Adobe Target社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) ，才能參與。
+
+[按一下這裡報名](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
