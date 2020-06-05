@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 * at.js
 * 行動
-* 合金
+* Adobe Experience Platform - AEP Web SDK（合金）
 * API
 
 但是，請隨時隨地詢問任何與Target相關的問題。
