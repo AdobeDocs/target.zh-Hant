@@ -1,11 +1,14 @@
 ---
-keywords: faq;常見問題集;analytics for target;a4T;重新導向;重新導向選件;adobe-mc-sdid;adobe_mc_ref
+keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於重新導向選件問題的回答。
 title: 重新導向選件 - A4T 常見問題集
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +76,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-您需要與 IT 團隊合作，將這些參數 (`adobe_mc_sdid` 和 `adobe_mc_ref`) 加入白名單。
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## 如果不使用 A4T 來處理重新導向活動，且不想在 URL 中多出這些額外的參數，怎麼辦? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 因為編碼兩次，當訪客 API 嘗試將 `adobe_mc_sdid` 值解碼時，就無法擷取 SDID 值並產生新的 SDID。這會導致傳給 Target 和 Analytics 的 SDID 值不正確，且您在 Analytics 報表中會看到重新導向分割不平均。
 
-建議您洽詢 IT 團隊，確定 `adobe_mc_ref` 和 `adobe_mc_sdid`·已加入白名單，因此這些值絕不會轉換。
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## 為何需要將轉介 URL傳給新頁面? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
