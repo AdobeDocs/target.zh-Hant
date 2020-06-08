@@ -5,9 +5,9 @@ title: 行動應用程式專用Adobe Target的常見問題
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Platform Mobile SDK目前支援iOS、Android和React。 如需�
 
 ## Target Mobile是否僅為Adobe Target Premium產品SKU的功能？
 
-對於Adobe Target Standard客戶，您只能將我們的行動SDK用於A/B測試和體驗定位(XT)活動。 如果您想要在行動應用程式中使用Recommendations或人工智慧功能，則需要 [Adobe Target Premium授權](/help/c-intro/intro.md#premium) 。
+無.對 [!DNL Adobe Target Standard] 於客戶，您只能搭配「行動應用程式」附加元件，將我們的行動SDK用於A/B測試和體驗目標(XT) [!DNL Target Standard] 活動。 如果您想要在行動應用程式中使用Recommendations或人工智慧功能，則需要 [Adobe Target Premium授權](/help/c-intro/intro.md#premium) 。
 
 ## Adobe Experience Manager(AEM)和Target行動活動之間是否有行動應用程式整合？
 
