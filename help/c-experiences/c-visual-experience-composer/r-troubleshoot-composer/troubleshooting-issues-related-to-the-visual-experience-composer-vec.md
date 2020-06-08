@@ -83,6 +83,7 @@ ht-degree: 100%
          >透過 Requestly 處理的標頭須區分大小寫。
 
       * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**[!UICONTROL 「包含」]**，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。
+
       ![](assets/chrome_extension.png)
 
 
