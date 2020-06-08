@@ -5,7 +5,7 @@ title: 舊版版本說明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29260'
 ht-degree: 92%
@@ -1814,7 +1814,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>增強的可視化體驗撰寫器 (VEC) </p> </td> 
-   <td colname="col2"> <p>更新增強的可視化體驗撰寫器 (VEC) 的 IP 位址。 </p> <p>如果您將用於 VEC 的 IP 位址加入白名單，請新增 IP 位址。 </p> <p>如需詳細資訊，請參閱<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">疑難排解可視化體驗撰寫器</a>。 </p> </td> 
+   <td colname="col2"> <p>更新增強的可視化體驗撰寫器 (VEC) 的 IP 位址。 </p> <p>如果您允許列出用於VEC的IP位址，請新增新的IP位址。 </p> <p>如需詳細資訊，請參閱<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">疑難排解可視化體驗撰寫器</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
