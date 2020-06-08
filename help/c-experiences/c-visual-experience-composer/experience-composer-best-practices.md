@@ -1,11 +1,14 @@
 ---
-keywords: 可視化體驗撰寫器; 可視化體驗撰寫器最佳作法; 可視化體驗撰寫器限制; 可視化體驗撰寫器警告; VEC 最佳作法; VEC
+keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: 下列最佳作法可協助讓您的體驗如預期般運作。使用可視化體驗撰寫器 (VEC) 時，還有其他您應該注意的提示和限制。
 title: 可視化體驗撰寫器最佳作法和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +31,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **您可以在帳戶層級 (已針對在帳戶中建立的所有活動啟用) 或是在個別活動層級啟用增強體驗撰寫器。**
 
-若要在帳戶層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 &gt; 偏好設定]」，然後將開關切換至「開啟」位置。
+若要在帳戶層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 > 偏好設定]」，然後將開關切換至「開啟」位置。
 
-在可視化體驗撰寫器中建立活動時，若要在活動層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 &gt; URL]」，然後將開關切換至「開啟」位置。
+在可視化體驗撰寫器中建立活動時，若要在活動層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 > URL]」，然後將開關切換至「開啟」位置。
 
-**如果不會在網站的安全頁面上載入「增強可視化體驗撰寫器」，您可以將特定的 IP 位址加入白名單。**
+**如果Enhanced Visual Experience Composer無法載入網站的安全頁面，您可以允許列出某些IP位址。**
 
-將下列 IP 位址加入白名單，可解決無法載入「增強可視化體驗撰寫器」的問題。這些 IP 位址用於 Adobe 的伺服器，用於增強體驗撰寫器 Proxy。只有針對活動編輯才需要這些資訊。您網站的訪客不需要將這些 IP 位址加入白名單。
+載入「增強視覺體驗撰寫器」時的問題可透過允許列出下列IP位址來解決。 這些 IP 位址用於 Adobe 的伺服器，用於增強體驗撰寫器 Proxy。只有針對活動編輯才需要這些資訊。您網站的訪客不需要列出這些IP位址。
 
 美國: 52.55.99.45、54.80.158.92 和 54.204.197.253
 
@@ -292,7 +295,7 @@ Mbox 內不允許「編輯類別」和「重新排列」等動作。Mbox 內容�
 
 **從內容庫 (Scene7) 插入影像並編輯 HTML 會破壞影像 url。**
 
-在 'customHeaderMessage' div 內新增錨點元素和一些虛構文字:
+在 &#39;customHeaderMessage&#39; div 內新增錨點元素和一些虛構文字:
 
 ```
 <a href="#"> 
