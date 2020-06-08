@@ -5,10 +5,10 @@ title: 活動 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 88%
 
    建議您洽詢 IT 團隊，確定所有預覽參數皆已加入白名單中，所以這些值絕不會轉換。
 
-   下表列出您網域中可加入白名單中的參數:
+   下表列出了可在域中列出的參數：
 
    | 參數 | 類型 | 值 | 說明 |
    |--- |--- |--- |--- |
