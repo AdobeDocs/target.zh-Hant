@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2346'
+ht-degree: 94%
 
 ---
 
@@ -107,7 +110,7 @@ Admin 伺服器位置同時包含資料收集中心和資料處理中心。Edge 
 >
 >[!DNL Adobe Target] 目前在中國沒有 Edge 網路，中國 [!DNL Target] 客戶的一般使用者效能將繼續受到限制。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-您可以視需要將Target邊緣註解加入白名單。 如需詳細資訊，請參 [閱白名單目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)。
+如有需要，您可以允許列出「目標」邊緣註解。 如需詳細資訊，請參 [閱allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)。
 
 ## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
