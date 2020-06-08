@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
 
-[!DNL Target] 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域出現時，就會自動運作 (除非您已設定白名單或黑名單)。這樣也可讓您針對未知或無法預測的其他網域進行廣告測試。
+[!DNL Target] 不限制可傳送和接收mbox的主機，因此，當出現新的伺服器或網域時，它們會自動運作（除非您已設定allowlist或區塊清單）。 這樣也可讓您針對未知或無法預測的其他網域進行廣告測試。
 
 若要管理主機，請按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 主機]**」。
 
@@ -70,11 +70,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-您可以建立白名單，指定獲授權可將 mbox 呼叫傳送至 [!DNL Target] 的主機 (網域)。其他產生呼叫的所有主機將收到註銷的授權錯誤回應。依預設，在「生產」環境中，包含 mbox 呼叫的任何主機都會向 [!DNL Target] 註冊，且可以存取所有使用中和已批准的活動。如果這不是理想的作法，您可以改為使用白名單，記錄適合執行 mbox 呼叫和接收 [!DNL Target] 內容的特定主機。所有主機將持續出現在[!UICONTROL 「主機」]清單中，環境仍可用來組合這些主機並指派不同層級給各主機，例如主機是否可以看到使用中和/或非使用中的行銷活動。
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 其他產生呼叫的所有主機將收到註銷的授權錯誤回應。依預設，在「生產」環境中，包含 mbox 呼叫的任何主機都會向 [!DNL Target] 註冊，且可以存取所有使用中和已批准的活動。If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. 所有主機將持續出現在[!UICONTROL 「主機」]清單中，環境仍可用來組合這些主機並指派不同層級給各主機，例如主機是否可以看到使用中和/或非使用中的行銷活動。
 
-若要建立白名單:
+要建立允許清單：
 
 1. 從「主 [!UICONTROL 機] 」清單中，按一 **[!UICONTROL 下「授權主機」]**。
 1. 啟用「啟 **[!UICONTROL 用授權主機」以進行內容傳送]** 。
@@ -92,9 +92,9 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**: 如果您使用的ubox功 [!DNL Target]能，請注意，此白名單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定白名單，Adobe將無法驗證重新導向URL並防止潛在的惡意重新導向。
+>**安全性最佳實務**: 如果您使用的ubox功 [!DNL Target]能，請注意，此允許清單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定允許清單，Adobe將無法驗證重新導向URL並防止潛在的惡意重新導向。
 >
->白名單優先於環境。在使用白名單功能前，應先清除所有主機，只讓白名單允許的主機顯示在主機清單中。接著可將主機移至想要的環境中。
+>允許清單優先於環境。 在使用allowlist功能之前，應清除所有主機，然後僅允許清單允許的主機顯示在主機清單中。 接著可將主機移至想要的環境中。
 
 有時，來自其他網站的網域會出現在您的環境中。如果網域對您的at.js或mbox.js進行呼叫，網域會出現在清單中。 例如，若有人將您的其中一個網頁複製到他們的伺服器，則您環境中就會出現該網域。您也可以從編目引擎、語言翻譯工具網站或本機磁碟中看見網域。
 
@@ -104,7 +104,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!NOTE]
 >
->由於「授權主機」清單同時用於mbox主機和預設的重新導向主機，因此您必須新增所有已核准使用Adobe Target Javascript SDK(at.js) *AND* ubox預設重新導向URL中使用的網域。 您也必須在未來新增任何類似網域至白名單。
+>由於「授權主機」清單同時用於mbox主機和預設的重新導向主機，因此您必須新增所有已核准使用Adobe Target Javascript SDK(at.js) *AND* ubox預設重新導向URL中使用的網域。 您還必須在未來將任何新的類似域添加到allowlist中。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
