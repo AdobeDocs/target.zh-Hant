@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 33%
+source-wordcount: '1040'
+ht-degree: 32%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 6月8日 | [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 更新下列常見問答集的文字： 「Target Mobile是否僅限Adobe Target Premium產品SKU的功能？」 |
+|  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新整個主題。 |
 | 6月5日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增6月10日Adobe Target Coffee Break的相關資訊。 |
 |  | [提升度和可信度 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | 更新下列常見問答集的文字： 「為什麼我看不到計算量度的提升度和信心？」 |
 | 6月4日 | [A4T 報表](/help/c-integrating-target-with-mac/a4t/reporting.md) | 已更新「Analytics中的報表」區段。 |
