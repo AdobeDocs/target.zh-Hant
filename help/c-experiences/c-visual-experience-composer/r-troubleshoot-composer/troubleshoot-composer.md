@@ -1,10 +1,13 @@
 ---
-keywords: 鎖定目標; 可視化體驗撰寫器; 白名單; 增強可視化體驗撰寫器, VEC, 疑難排解可視化體驗撰寫器; 疑難排解; EEC; 增強體驗撰寫器; TLS; TLS 1.2
+keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
 title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
