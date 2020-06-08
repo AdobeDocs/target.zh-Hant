@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 73%
@@ -60,11 +60,11 @@ ht-degree: 73%
 
       >[!IMPORTANT]
       >
-      >請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」將預設的重新導向URL網域列入白名單。 Target會使用主機來將您要允許重新導向的網域列入白名單。 如需詳細資訊，請參 [閱「建立白名單」，指定授權在主機中傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 的 *主機*。
+      >請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參 [閱「建立允許清單」，指定在「主機」中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 之主 *機*。
 
 
 1. 驗證重新導向程式。
-   1. *安全性最佳實務*: 請確定重新導向程式中使用的網域已列入白名單，如上所述。 如果您使用未列入白名單的網域，Adobe會封鎖對該網域的任何呼叫，以防止惡意使用者使用「重新導向程式」重新導向至可能有惡意的網域。
+   1. *安全性最佳實務*: 請確定允許列出重新導向程式中使用的網域，如上所述。 如果您使用未允許列出的網域，Adobe會封鎖對該網域的任何呼叫，以防止惡意使用者使用「重新導向程式」重新導向至可能有惡意的網域。
    1. 請將「重新導向程式 URL」插入到瀏覽器中，然後重新整理。
    1. 登入您的帳戶，重新整理您的 mbox 清單，然後確認新的「重新導向程式」是否已列為 mbox。
 1. 如果要測試某個廣告的不同目的地，請分別為每個版本建立[重新導向選件](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
