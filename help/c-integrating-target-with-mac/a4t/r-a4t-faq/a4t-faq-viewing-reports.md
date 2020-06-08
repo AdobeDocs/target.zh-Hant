@@ -1,63 +1,64 @@
 ---
-keywords: faq;常見問題集;analytics for target;a4T;報表;檢視報表;計數方法;曝光次數;訪客;造訪;預設量度;活動轉換;未指定
+keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
 title: 檢視報表 - A4T 常見問題集
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+workflow-type: tm+mt
+source-wordcount: '1992'
+ht-degree: 63%
 
 ---
 
 
 # 檢視報表 - A4T 常見問題集{#view-reports-a-t-faq}
 
-此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
+This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
-## 什麼是計數方法? 如何使用? {#section_E9C21C47B5BE4E54BABF0CD7F03D3945}
+## 是否可以在 Analysis Workspace 中檢視我的 Target 活動資料? {#workspace}
 
-計數方法指定 Target 以什麼作為轉換率的分母。選擇如下:
+您可用來 [!DNL Analysis Workspace] 分析您的活 [!DNL Target] 動和體驗。 「 [Analytics for Target」面板](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ，可讓您檢視最多3個成功度量的提升度與可信度。 您也可以使用表格和視覺化來深入挖掘。
 
-* 曝光次數
-* 訪客
-* 瀏覽次數
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## 我可以為 Target 報表設定預設量度嗎? {#section_50C20D286AA042CCA958184C9C0767DD}
+## 分析工作區中可套用區段的位置？ {#segmentation}
 
-對於「活動」報表，管理員可變更預設量度，以便每次執行報表時顯示同樣的量度。否則，報表會預設顯示您上次套用至上個報表的量度。
+區段最常套用至區段拖放區域中的面板頂端。 區段會套用至面板中的所有表格和視覺化。 此技巧對於查看測試如何影響一部分人最有用（例如，此測試對英國人的表現如何）?
 
-For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
+## 當我套用特定Target活動的點擊區段時，為什麼會看到傳回的不相關體驗？ {#activity-segmentation}
 
-## 何時將區段套用至量度 (搭配計算量度) 及何時將區段套用至報表? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
+傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。(注意： 客戶服務可視需要調整此有效期間)。 當訪客在此有效期期間瀏覽網站時，他們是許多活動的一部 [!DNL Target] 分，所有活動都會收集在維度中。
 
-套用至報表的區段如同在 Target Classic 中套用區段。此技巧對於了解測試如何影響一群人很有用 (例如，如何針對在英國的人執行此測試)。
+因此，當您分段某個活動以呈現在點擊中時，您將會獲得該活動的所有體驗，再加上該點擊上持續存在的 ** 任何其他體驗。
 
-可搭配計算量度將區段套用至量度。想要建立一種新的成功事件時通常會這樣做。例如，如果您想要查看活動產生多少再度訪問的訪客，或有多少訪客在特定頁面上看到您的測試。請注意，目前無法為計算度量產生提升度和可信度。
+## 我是否應將訪客、瀏覽或活動曝光次數用作我的標準化量度（即計算方法）? {#metrics}
 
-## 檢視報表時應該使用訪客、活動曝光次數或造訪? {#metrics}
-
-有多種選項，各有其優點:
+A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算方法，會成為提升度計算的分母。 也會影響在套用可信度計算前彙總資料的方式。
 
 * 使用者首次符合活動資格時，***獨特訪客***&#x200B;會增加一次。
 * 一旦使用者 (獨特訪客) 進入活動，即使未在後續的造訪檢視該活動，***造訪***&#x200B;也會在每個工作階段增加一次。
-* 每次提供活動內容時，***活動曝光次數***&#x200B;都會增加。(由 Target 測量)
-* 提供活動內容時，***例項***&#x200B;會在每個頁面上增加一次。(由 Analytics 測量)
+* 每次提供活動內容時，***活動曝光次數***&#x200B;都會增加。(測量方 [!DNL Target]式)。
 
 訪客檢視包含活動的頁面時，系統會為該訪客設定包含活動名稱的變數。如需瞭解每個計數方法如何進行比較，請參閱下列的詳細案例。
 
 考慮以下事項:
 
-* 使用者符合活動資格，且內容已從 [!DNL Target] 傳回時，上述所有量度都會觸發。這不一定表示使用者已經看到選件。若活動體驗位於下半部，且使用者並未向下捲動頁面，則雖然 [!DNL Target] 已提供選件，但使用者並未看到選件。
+* All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. 這不一定表示使用者已經看到選件。若活動體驗位於下半部，且使用者並未向下捲動頁面，則雖然 [!DNL Target] 已提供選件，但使用者並未看到選件。
 * [!UICONTROL 活動曝光次數] (由 [!DNL Target] 測量) 和[!UICONTROL 例項] (由 [!DNL Analytics] 測量) 相等，除非相同活動的相同頁面上有多個 mbox 呼叫。這會導致系統計算多個[!UICONTROL 活動曝光次數]，但僅有單一[!UICONTROL 例項]。
-* 在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度時，請確保兩個量度皆已套用 [!UICONTROL 相同接觸點]歸因模型。若要套用模型，請按一下欄設定齒輪圖示，啟用[!UICONTROL 非預設歸因模型]，然後選取[!UICONTROL 相同接觸點]。進一步瞭解 [Analytics工具指南中的屬性](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) IQ概觀 *，以*&#x200B;瞭解歸因。
+
+## 為什麼「分析工作區」中的「活動印象」和「活動轉換」比「報告與分析」高？ {#sametouch}
+
+[!DNL Reports & Analytics] 套用相同的觸控歸因模型至「活動印象」和「活動轉換」，而 [!DNL Analysis Workspace] 顯示原始量度，因為維度的持續性可能會造成誇大 [!DNL Target] 量度。
+
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. 若要套用模型，請按一下欄設定齒輪圖示，啟用[!UICONTROL 非預設歸因模型]，然後選取[!UICONTROL 相同接觸點]。進一步瞭解 [Analytics工具指南中的屬性](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) IQ概觀 *，以*&#x200B;瞭解歸因。
 
 ## 如果市場行銷人員在活動設定期間挑選 Analytics 量度，「活動轉換」是什麼意思? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
-如果選取 Analytics 量度作為活動的轉換量度，則「活動轉換」會空白。
+&quot;Activity conversions&quot; will be empty if an [!DNL Analytics] metric was selected as the conversion metric for the activity.
 
 ## 我在 Analytics 報表中為何看到「未指定」? 這是什麼意思? {#unspecified}
-
-![](assets/unspecified.png)
 
 在其他報表中，「未指定」表示資料不符合分類規則，但這在 A4T 中絕對不會發生。如果看到「未指定」，就表示分類服務尚未執行。通常需要 24 到 72 小時，活動資料才會出現在報表中。即使在此之前活動不會出現在報表中，但這些活動相關的所有訪客資料皆會記錄下來，當分類完成時即會出現。
 
@@ -65,15 +66,15 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 ## 為什麼即便在活動已停用後，仍會將 Target 量度傳送到 Analytics? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。必要時，客戶服務可調整此期限。不過，此設定全域適用所有活動，因此不應針對一個案例進行調整。
+傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。如有需要，客戶服務可以調整此有效期。 不過，此設定全域適用所有活動，因此不應針對一個案例進行調整。
 
-您可能看到此期限過後傳送至 Analytics 的 Target 變數，因為到期是 90 天，前提是該使用未看過另一個已啟用 A4T 的 Target 活動。如果使用者在第 45 天回到網站並看到另一個活動，則整個 A4T eVar 值的計數器會重設為 90 天。這表示從第 1 天開始的第一個行銷活動，現在最多會持續到 45 + 90 = 135 天。如果使用者持續回來，最後您可能會在報表中看到從很舊的活動傳送至 Analytics 的量度。當使用者刪除 Cookie 且沒有回到網站時，該活動中的數字會下降，但您仍然會看到。
+You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. 如果使用者在第 45 天回到網站並看到另一個活動，則整個 A4T eVar 值的計數器會重設為 90 天。這表示從第 1 天開始的第一個行銷活動，現在最多會持續到 45 + 90 = 135 天。If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. 當使用者刪除 Cookie 且沒有回到網站時，該活動中的數字會下降，但您仍然會看到。
 
 這表示對於在活動進行期間參與的訪客，當活動結束後，活動會持續收集頁面檢視和造訪等，最多 90 天。不過，如果您查看[!UICONTROL 活動曝光次數]量度，應該不會看到活動結束後的任何曝光次數。
 
 這是正常可預期的情況。A4T 變數的作用如同任何其他與使用者相關聯的 eVar 值，直到期間到期為止 (90 天)。因此，如果活動只進行兩週，則至少接下來 90 天，值仍然會與使用者相關聯。
 
-最佳作法是只檢視該活動進行那段期間的報表。在 Analytics 中檢視活動時，依預設會正確設定日期，除非您手動延長日期，就報表而言，這不會有問題。
+最佳作法是只檢視該活動進行那段期間的報表。The dates should be set correctly by default when you view the activity in [!DNL Analytics], so unless you have manually extended the date this shouldn’t be an issue from a reporting standpoint.
 
 舉例來說，假設 A4T 變數在 90 天後到期，而我們的測試從 1 月 1 日進行到 1 月 15 日。
 
@@ -96,7 +97,6 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 | XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
-
 接著，使用者在 4 月 1 日回來，檢視另外五個頁面並購物。這第一個 eVar 值的 90 天期限在 4 月 1 日重設，所以我們會在報表中看見。使用者看到的所有 Target 活動皆獲得轉換的點數，但轉換總數已去除重複性。
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 | 訂單 |
@@ -105,7 +105,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | 總計 | 2 | 20 | 3 | 1 | 1 |
 
-因為兩個體驗皆在轉換之前被看到，所以皆獲得訂單的「點數」。但系統中僅會有一個訂單生效，並透過總計反映出來。在 Target 報表中，因為您是對照 Target 活動與活動來看何者較成功，使用者看過的所有活動皆獲得點數並不影響。您是在比較單一活動內兩個項目的結果，而使用者不可能在相同個活動中看到不同的體驗，所以不必擔心訂單點數交叉污染。
+因為兩個體驗皆在轉換之前被看到，所以皆獲得訂單的「點數」。但系統中僅會有一個訂單生效，並透過總計反映出來。For [!DNL Target] reporting, because you aren’t putting a [!DNL Target] activity against another activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. 您是在比較單一活動內兩個項目的結果，而使用者不可能在相同個活動中看到不同的體驗，所以不必擔心訂單點數交叉污染。
 
 For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
@@ -113,19 +113,19 @@ For more information, see [Conversion Variables (eVar](https://docs.adobe.com/co
 
 執行 A/B 測試時 (採用 Student t 檢定 (可信度量度) 來選擇測試的獲勝者)，其中一項假設是固定時間範圍。除非查看固定樣本大小，否則此測試在統計學上無效。
 
-只有當您查看的一段時間比實際測試更短時，「獨特訪客」量度在 Analytics 和 Target 中才會不同。如果尚未達到您的樣本大小，測試就不太可靠。如需詳細資訊，請參閱 [Evan Miller 網站](https://www.evanmiller.org/index.html)上的 [如何不執行 A/B 測試](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+The [!UICONTROL Unique Visitors] metric is different in [!DNL Analytics] and [!DNL Target] only when you are looking at a period of time that is shorter than the actual test. 如果尚未達到您的樣本大小，測試就不太可靠。如需詳細資訊，請參閱 [Evan Miller 網站](https://www.evanmiller.org/index.html)上的 [如何不執行 A/B 測試](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
-「獨特訪客」量度顯示已在指定期間造訪網站並接觸到測試的人數。這些人仍然為測試的一部分，應該計算在內。如果只想看一週內接觸到的人數，您可以建立已有活動曝光的訪客區段，並套用至報表。
+The [!UICONTROL Unique Visitors] metric displays the number of people who have been exposed to the test who have visited the site during the specified time period. 這些人仍然為測試的一部分，應該計算在內。如果只想看一週內接觸到的人數，您可以建立已有活動曝光的訪客區段，並套用至報表。
 
-您可以將 Target 變數持續的時間縮短到一個工作階段，不過，對於不太可能在相同工作階段內發生轉換事件的測試，這通常會造成問題。
+You can shorten the amount of time the [!DNL Target] variable persists down to a session; however, that is usually problematic for tests where the conversion event isn’t as likely to happen within the same session.
 
 ## Analytics 中為何有時會在多個體驗中統計相同位訪客? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
-下列清單說明 Analytics 中為何在多個體驗中可能會計入相同訪客的原因:
+The following list explains reasons why the same visitor could be counted in multiple experiences in [!DNL Analytics]:
 
-* Target 設定檔到期，但 Analytics Cookie 仍然存在。在此情況下，Target 會重新評估使用者，但 Analytics 會將訪客視為相同人。
-* 如果訪客使用 `mbox3rdPartyId`，當匿名訪客與其第三方 ID 設定檔合併時，Target 會將訪客安排到不同的體驗，以符合第三方 ID。如需詳細資訊，請參閱 [mbox3rdPartyID 的即時設定檔同步](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
-* Analytics 和 Target 可能對相同位訪客以不同方式來追蹤不同裝置，Target 和 Analytics 中設定的第三方 ID 不同。
+* The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
+* 如果訪客使用 `mbox3rdPartyId`，當匿名訪客與其第三方 ID 設定檔合併時， 會將訪客安排到不同的體驗，以符合第三方 ID。[!DNL Target]如需詳細資訊，請參閱 [mbox3rdPartyID 的即時設定檔同步](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
+* [!DNL Analytics] 可能是以不同的方式，跟蹤不同的裝置，與追蹤這些 [!DNL Target] 裝置不同： 協力廠商ID的設定與 [!DNL Target] Analytics中的不同。
 
 ## A4T 是否支援虛擬報表套裝?
 
@@ -133,12 +133,6 @@ For more information, see [Conversion Variables (eVar](https://docs.adobe.com/co
 
 ## 是否可以在使用 A4T 的活動啟用後變更該活動中的流量分配百分比?
 
-若在活動啟用後變更該活動中的流量分配百分比，可能會在 Analytics 中導致不一致的報表，因為此變更只會影響新訪客。再度訪問的訪客不會受到影響。
+Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. 再度訪問的訪客不會受到影響。
 
 您應採用的最佳實務是，停止現有活動，然後建立新活動，而不是在啟用後變更百分比。新活動的報表會從新訪客開始，而來自再度訪問的訪客的資料不會導致不一致的報表。
-
-## 是否可以在 Adobe Analysis Workspace 中檢視我的 Target 活動資料?
-
-您可以使用 [!DNL Adobe Analysis Workspace] 更進一步深入瞭解並以視覺化方式呈現資料，或發掘隱藏於表面下的分析。
-
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
