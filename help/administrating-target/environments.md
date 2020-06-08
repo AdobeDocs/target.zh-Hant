@@ -1,14 +1,14 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 title: 環境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
 
-[!DNL Target] 不限制可傳送和接收 mbox 的主機，有新的伺服器或網域出現時，就會自動運作 (除非您已設定白名單或黑名單)。這樣也可讓您針對未知或無法預測的其他網域進行廣告測試。
+[!DNL Target] 不限制可傳送和接收mbox的主機，因此，當出現新的伺服器或網域時，它們會自動運作（除非您已設定allowlist或區塊清單）。 這樣也可讓您針對未知或無法預測的其他網域進行廣告測試。
 
 若要管理環境，請按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 環境]**」。
 
