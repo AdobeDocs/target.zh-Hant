@@ -31,12 +31,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 28 年 5 月 | [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md) | 新增下列新常見問答： <ul><li>「新訪客」和「舊訪客」量度的計數方式為何？</li></ul> |
 | 27 年 5 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Analytics for Target(A4T)支援自動配置活動的資訊。 |
 | 26 年 5 月 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 已新增下列資訊： 「停用指令碼後，參數仍保留在描述檔中。 如果使用者的設定檔已包含用於活動對象的參數，則該活動將符合該使用者的資格。」 |
-| 21 年 5 月 | [白名單目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 已新 `mboxedge30.tt.omtrdc.net` 增至清單。 |
+| 21 年 5 月 | [允許列出目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 已新 `mboxedge30.tt.omtrdc.net` 增至清單。 |
 | 20 年 5 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關即將發行的Target Standard/Premium 20.6.1（2020年6月10日）版本的資訊。 |
 |  | [主機](/help/administrating-target/hosts.md) | 在「安全性最佳實務」一節中新增附註。 |
 | 14 年 5 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關描述檔批次狀態API v2變更的資訊。 |
 | 13 年 5 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 新增「已知限制」區段。 |
-| 11 年 5 月 | [主機](/help/administrating-target/hosts.md) | 已新增有關使用包含重新導向和白名單的ubox功能的資訊。 |
+| 11 年 5 月 | [主機](/help/administrating-target/hosts.md) | 已新增有關使用包含重新導向和allowlists的ubox功能的資訊。 |
 |  | [使用重新導向程式](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
 |  | [將 Recommendations 與電子郵件整合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
 |  | [電子郵件: 實作 Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
@@ -57,7 +57,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 23 年 4 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
 | 22 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增區段： *描述檔批次狀態API v2變更（2020年5月4日）。* |
 | 20 年 4 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增區段： *Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js。* |
-| 14 年 4 月 | [白名單目標邊緣主機](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新主題。 |
+| 14 年 4 月 | [Allowlist Target邊緣主機](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新主題。 |
 | 10 年 4 月 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 新增區段： 「實作最佳實務。」 |
 | 7 年 4 月 | [提升度和可信度 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新「為什麼我看不到計算量度的提升度和可信度？」的文字 |
 | 2 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已添加有關使用 `user.header('x-forwarded-for')` 較新的AWS邊緣來檢索用戶IP地址的資訊。 |
