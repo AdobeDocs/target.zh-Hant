@@ -1,10 +1,13 @@
 ---
-keywords: 鎖定目標; 可視化體驗撰寫器; 白名單; VEC; 疑難排解可視化體驗撰寫器; 疑難排解; TLS; TLS 1.2
+keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: 顯示在某些情況下，有時候會發生在可視化體驗撰寫器 (VEC) 中的問題。
 title: 疑難排解可視化體驗撰寫器的相關問題
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果問題是在增強體驗撰寫器中發生，請嘗試關閉增強體驗撰寫器，並改為使用可視化體驗撰寫器。
 
-若要停用增強體驗撰寫器，請前往&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**，並關閉&#x200B;**[!UICONTROL 「啟用增強體驗撰寫器」]**&#x200B;選項。
+若要停用增強體驗撰寫器，請前往&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「偏好設定」]**，並關閉&#x200B;**[!UICONTROL 「啟用增強體驗撰寫器」]**&#x200B;選項。
 
 有些使用者在主控台中看見下列錯誤訊息:
 
@@ -72,14 +75,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       * 將&#x200B;**[!UICONTROL 「新增」]**&#x200B;切換為&#x200B;**[!UICONTROL 「移除」]**。
       * 將&#x200B;**[!UICONTROL 「要求」]**&#x200B;切換為&#x200B;**[!UICONTROL 「回應」]**。
-      * 輸入 "X-Frame-Options" 作為標頭名稱。
-      * 重複先前的步驟並輸入 "x-frame-options" 作為標頭名稱。
+      * 輸入 &quot;X-Frame-Options&quot; 作為標頭名稱。
+      * 重複先前的步驟並輸入 &quot;x-frame-options&quot; 作為標頭名稱。
 
          >[!NOTE]
          >
          >透過 Requestly 處理的標頭須區分大小寫。
 
-      * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**「包含」]，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。[!UICONTROL **
+      * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**[!UICONTROL 「包含」]**，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。
       ![](assets/chrome_extension.png)
 
 
@@ -94,7 +97,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 在 Firefox 上安裝 Modify Response Headers，並重新啟動瀏覽器。
 1. 從您的 Firefox 擴充功能，選取「Modify Response Headers」擴充功能。
 1. 按一下&#x200B;**[!UICONTROL 「偏好設定」]**。
-1. 從「動作」下拉式功能表選取&#x200B;**[!UICONTROL 「篩選」]。**
+1. 從「動作」下拉式功能表選取&#x200B;**[!UICONTROL 「篩選」]**。
 1. 在「Header Name」欄位中，輸入: **[!UICONTROL X-Frame-Options]**。
 1. 重複步驟 4 和 5 來使用 **[!UICONTROL x-frame-options]** 新增篩選條件。
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
@@ -115,7 +118,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 啟動 VEC 活動的 URL 時，主控台顯示下列錯誤訊息:「未捕捉的參考錯誤: _AT 未定義。」(僅限 VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
-如果您嘗試傳送可視化體驗撰寫器 (VEC) 促銷活動，並且尚未更新從 Target 使用者介面下載的 mbox.js，同時將[!UICONTROL 「支援可視化體驗撰寫器活動」]選項啟用 ([!UICONTROL 「設定」]&gt;[!UICONTROL 「實施」]&gt;[!UICONTROL 「mbox.js」]&gt;[!UICONTROL 「編輯 mbox.js 設定」])，即會發生此錯誤。
+如果您嘗試傳送可視化體驗撰寫器 (VEC) 促銷活動，並且尚未更新從 Target 使用者介面下載的 mbox.js，同時將[!UICONTROL 「支援可視化體驗撰寫器活動」]選項啟用 ([!UICONTROL 「設定」]>[!UICONTROL 「實施」]>[!UICONTROL 「mbox.js」]>[!UICONTROL 「編輯 mbox.js 設定」])，即會發生此錯誤。
 
 請確保此設定已啟用，然後在您的網站上下載和更新 mbox.js。
 
