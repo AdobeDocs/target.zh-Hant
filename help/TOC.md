@@ -5,7 +5,7 @@ user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 93%
@@ -67,7 +67,7 @@ ht-degree: 93%
          + [Google Chrome SameSite Cookie 原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [內容安全性政策(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [允許列出目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+         + [允許列出目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + 將資料傳入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
