@@ -5,7 +5,7 @@ title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 57%
@@ -70,7 +70,7 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#allowlist}
 
 You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 其他產生呼叫的所有主機將收到註銷的授權錯誤回應。依預設，在「生產」環境中，包含 mbox 呼叫的任何主機都會向 [!DNL Target] 註冊，且可以存取所有使用中和已批准的活動。If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. 所有主機將持續出現在[!UICONTROL 「主機」]清單中，環境仍可用來組合這些主機並指派不同層級給各主機，例如主機是否可以看到使用中和/或非使用中的行銷活動。
 
