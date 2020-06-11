@@ -5,10 +5,10 @@ title: 活動 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 87%
 
    因為這會編碼兩次，當我們嘗試將 `at_preview_token` 解碼時，Target 無法擷取正確的 Token 值，導致預覽無法正常運作。
 
-   建議您洽詢 IT 團隊，確定所有預覽參數皆已加入白名單中，所以這些值絕不會轉換。
+   我們建議您與IT團隊交談，以確保所有預覽參數皆可列出，以避免以任何方式轉換這些值。
 
    下表列出了可在域中列出的參數：
 
