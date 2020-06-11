@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
@@ -31,7 +31,7 @@ AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表�
 
 ## 安全性最佳實務 {#security}
 
-請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參 [閱「建立允許清單」，指定在「主機」中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#whitelist) 之主 *機*。
+請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參 [閱「建立允許清單」，指定在「主機」中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#allowlist) 之主 *機*。
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 
