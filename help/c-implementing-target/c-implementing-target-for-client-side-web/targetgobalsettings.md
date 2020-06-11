@@ -1,14 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 63%
+source-wordcount: '1638'
+ht-degree: 42%
 
 ---
 
@@ -23,32 +23,165 @@ ht-degree: 63%
 
 您可以覆寫下列設定:
 
-| 設定 | 類型 | 預設值 | 說明 |
-|--- |--- |--- |--- |
-| serverState | 請參閱下方的「混合個人化」。 | 請參閱下方的「混合個人化」。 | 請參閱下方的「混合個人化」。 |
-| clientCode | 字串 | 透過 UI 設定值 | 代表用戶端代碼 |
-| serverDomain | 字串 | 透過 UI 設定值 | 代表 Target Edge 伺服器 |
-| cookieDomain | 字串 | 如果可能，設為上層網域 | 代表儲存 Cookie 時使用的網域 |
-| crossDomain | 字串 | 透過 UI 設定值 | 指出跨網域追蹤是否已啟用。<br>允許的值為:<ul><li>已停用</li><li>已啟用</li><li>僅 x</li></ul> |
-| timeout | 數字 | 透過 UI 設定值 | 代表 Target Edge 要求逾時 |
-| globalMboxAutoCreate | 布林值 | 透過 UI 設定值 | 指出是否應觸發全域 mbox 要求 |
-| visitorApiTimeout | 數字 | 2000 毫秒 = 2 秒 | 代表訪客 API 要求逾時 |
-| 已啟用 | 布林值 | true | 啟用後，會自動執行Target要求擷取體驗和DOM操作以呈現體驗。 此外，Target呼叫可透過 `getOffer(s)` /手動 `applyOffer(s)`<br>執行。停用時，Target請求不會自動或手動執行 |
-| pageLoadEnabled | 布林值 | true | 啟用後，自動擷取必須在頁面載入時傳回的體驗 |
-| viewsEnabled | 布林值 | true | 啟用後，會自動擷取必須在頁面載入時傳回的檢視。 at.js 2支援檢視。*僅限* x |
-| defaultContentHiddenStyle | 字串 | visibility: hidden | 僅用於包住使用類別名稱為「mboxDefault」的 DIV，並透過 `mboxUpdate()`、`mboxCreate()` 或 `mboxDefine()` 執行以隱藏預設內容的 mbox |
-| defaultContentVisibleStyle | 字串 | visibility: visible | 僅用於包住使用類別名稱為「mboxDefault」的 DIV，並透過 `mboxUpdate()`、`mboxCreate()` 或 `mboxDefine()` 執行以顯示套用的選件 (若有) 或預設內容的 mbox |
-| bodyHiddenStyle | 字串 | body { opacity: 0 } | 僅當 `globalMboxAutocreate === true` 才使用，以將閃爍的機會最小化。<br>如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。 |
-| bodyHidingEnabled | 布林值 | true | 當 `target-global-mbox` 用來傳遞在 可視化體驗撰寫器中建立的選件時，用來控制閃爍，也稱為視覺選件 |
-| imsOrgId | 字串 | IMS 組織 ID | 代表 IMS ORG ID |
-| secureOnly | 布林值 | false | 指出 at.js 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。 |
-| overrideMboxEdgeServer | 布林值 | true (從 at.js 1.6.2 版開始) | 指出應使用 `<clientCode>.tt.omtrdc.net` 網域還是 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域。<br>如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie。目前無法使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
-| overrideMboxEdgeServerTimeout | 數字 | 1860000 => 31 分鐘 | 指出包括 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 存留期。 |
-| optoutEnabled | 布林值 | false | 指出 Target 是否應該呼叫訪客 API `isOptedOut()` 函數。這屬於裝置圖表啟用的一部分。 |
-| selectorsPollingTimeout | 數字 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 推出了這項新設定，且可以透過 `targetGlobalSettings` 覆寫此設定。<br>`selectorsPollingTimeout` 代表用戶端願意等候選取器所識別的所有元素出現在頁面上的時間。<br>透過可視化體驗撰寫器 (VEC) 建立的活動，其具有的選件包含選取器。 |
-| dataProviders | 請參閱下文的「資料提供者」。 | 請參閱下文的「資料提供者」。 | 請參閱下文的「資料提供者」。 |
-| cspScriptNonce | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 |
-| cspStyleNonce | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 | 請參閱下方的「內容安全性政策」。 |
+### bodyHiddenStyle
+
+* **類型:** 字串
+* **預設值**: body { opacity: 0 }
+* **說明**: 僅用於 `globalMboxAutocreate === true` 將閃爍的可能性降到最低。
+
+   如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
+
+### bodyHidingEnabled
+
+* **類型**: 布林值
+* **預設值**: true
+* **說明**: 當用來傳送在Visual Experience Composer中 `target-global-mbox` 建立的選件（亦稱為視覺選件）時，用來控制閃爍。
+
+### clientCode
+
+* **類型:** 字串
+* **預設值**: 透過UI設定的值。
+* **說明**: 代表用戶端代碼。
+
+### cookieDomain
+
+* **類型:** 字串
+* **預設值**: 如果可能，請設為頂層網域。
+* **說明**: 代表儲存Cookie時使用的網域。
+
+### crossDomain
+
+* **類型:** 字串
+* **預設值**: 透過UI設定的值。
+* **說明**: 指出是否啟用跨網域追蹤。 允許的值包括： 停用、啟用或僅限x-only。
+
+### cspScriptNonce
+
+* **類型**: 請參 [閱下方的內容安全](#content-security) 政策。
+* **預設值**: 請參 [閱下方的內容安全](#content-security) 政策。
+* **說明**: 請參 [閱下方的內容安全](#content-security) 政策。
+
+### cspStyleNonce
+
+* **類型**: 請參 [閱下方的內容安全](#content-security) 政策。
+* **預設值**: 請參 [閱下方的內容安全](#content-security) 政策。
+* **說明**: 請參 [閱下方的內容安全](#content-security) 政策。
+
+### dataProviders
+
+* **類型**: 請參 [閱下方的資料](#data-providers) 提供者。
+* **預設值**: 請參 [閱下方的資料](#data-providers) 提供者。
+* **說明**: 請參 [閱下方的資料](#data-providers) 提供者。
+
+### defaultContentHiddenStyle
+
+* **類型:** 字串
+* **預設值**: 可見性： 隱藏
+* **說明**: 僅用於包裝使用DIV與類別名稱&quot;mboxDefault&quot;並透過、或執行以隱 `mboxCreate()`藏預 `mboxUpdate()`設 `mboxDefine()` 內容的mbox。
+
+### defaultContentVisibleStyle
+
+* **類型:** 字串
+* **預設值**: 可見性： visel
+* **說明**: 僅用於包裝使用DIV與類別名稱「mboxDefault」並透過、 `mboxCreate()``mboxUpdate()``mboxDefine()` 或顯示套用的選件（如果有或預設內容）的mbox。
+
+### deviceIdLifetime
+
+* **類型**: 數字
+* **預設值**: 6324480000 ms = 2年
+* **說明**: Cookie中持 `deviceId` 續的時間量。
+
+### 已啟用
+
+* **類型**: 布林值
+* **預設值**: true
+* **說明**: 啟用後，會自 [!DNL Target] 動執行擷取體驗的要求和轉譯體驗的DOM操作。 此外， [!DNL Target] 呼叫可透過 `getOffer(s)` /手動執行 `applyOffer(s)`。
+
+   停用時， [!DNL Target] 不會自動或手動執行請求。
+
+### globalMboxAutoCreate
+
+* **類型**: 數字
+* **預設值**: 透過UI設定的值。
+* **說明**: 指出全域mbox請求是否應引發。
+
+### imsOrgId
+
+* **類型**: Sting
+* **預設值**: true
+* **說明**: 代表IMS組織ID。
+
+### optoutEnabled
+
+* **類型**: 布林值
+* **預設值**: false
+* **說明**: 指出Target是否應呼叫訪客API `isOptedOut()` 函式。 這屬於裝置圖表啟用的一部分。
+
+### overrideMboxEdgeServer
+
+* **類型**: 布林值
+* **預設值**: true(true開頭為at.js 1.6.2版
+* **說明**: 指出我們應使用網 `<clientCode>.tt.omtrdc.net` 域或網 `mboxedge<clusterNumber>.tt.omtrdc.net` 域。
+
+   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 目前無法使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+
+### overrideMboxEdgeServerTimeout
+
+* **類型**: 數字
+* **預設值**: 1860000 => 31分鐘
+* **說明**: 指出包含值的Cookie存 `mboxedge<clusterNumber>.tt.omtrdc.net` 留期。
+
+### pageLoadEnabled
+
+* **類型**: 布林值
+* **預設值**: true
+* **說明**: 啟用後，會自動擷取必須在頁面載入時傳回的體驗。
+
+### secureOnly
+
+* **類型**: 布林值
+* **預設值**: false
+* **說明**: 指出at.js應僅使用HTTPS，還是允許根據頁面通訊協定在HTTP和HTTPS之間切換。
+
+### selectorsPollingTimeout
+
+* **類型**: 數字
+* **預設值**: 5000 ms = 5 s
+* **說明**: 在at.js 0.9.6中，引 [!DNL Target] 入此可透過覆寫的新設定 `targetGlobalSettings`。
+
+   The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
+
+   透過可視化體驗撰寫器 (VEC) 建立的活動，其具有的選件包含選取器。
+
+### serverDomain
+
+* **類型:** 字串
+* **預設值**: 透過UI設定的值。
+* **說明**: 代表Target邊緣伺服器。
+
+### serverState
+
+* **類型**: 請參 [閱下方的Hybrid](#server-state) personalization。
+* **預設值**: 請參 [閱下方的Hybrid](#server-state) personalization。
+* **說明**: 請參 [閱下方的Hybrid](#server-state) personalization。
+
+### timeout
+
+* **類型**: 數字
+* **預設值**: 透過UI設定的值。
+* **說明**: 代表邊緣 [!DNL Target] 請求逾時。
+
+### viewsEnabled
+
+* **類型**: 布林值
+* **預設值**: true
+* **說明**: 啟用後，會自動擷取必須在頁面載入時傳回的檢視。 at.js 2支援檢視。*x* 版。
+
+### visitorApiTimeout
+
+* **類型**: 數字
+* **預設值**: 2000 ms = 2 s
+* **說明**: 代表訪 [!UICONTROL 客API請求] 逾時。
 
 ## 使用狀況 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
