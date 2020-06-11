@@ -5,7 +5,7 @@ title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 4e1b4d31ba28e21513d314041add5231c9a3062a
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 22%
@@ -89,7 +89,7 @@ After performing the preceding tasks, the experience fragment displays on the [!
 
 >[!IMPORTANT]
 >
->The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;master&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+>The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
 您可以將滑鼠指標暫留在清單中的體驗片段上，然後按一下「 [!UICONTROL View] 」（檢視）圖示「 ![View」（檢視）圖示](assets/icon_info.png) ，以檢視體驗片段的其他資訊，包括其公開選件傳送URL及其路 [!DNL AEM] 徑。
 
@@ -141,7 +141,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 ## 考量事項 {#considerations}
 
 * [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;master&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * 您可以將JSON選件匯入為體驗片段 [!DNL Target]。 不過，這些選件會匯入為HTML選件。 UI目前不完全支援JSON選件（體驗片段） [!DNL Target] 。
 
 ## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
