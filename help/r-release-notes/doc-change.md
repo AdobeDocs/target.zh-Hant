@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 32%
+source-wordcount: '1059'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 6月12日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 新增關於 `deviceIdLifetime` 設定的詳細資訊。 |
+|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增at.js 1.8.2和at.js 2.3.1版本的相關資訊。 |
 | 6月8日 | [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 更新下列常見問答集的文字： 「Target Mobile是否僅限Adobe Target Premium產品SKU的功能？」 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新整個主題。 |
 | 6月5日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增6月10日Adobe Target Coffee Break的相關資訊。 |
