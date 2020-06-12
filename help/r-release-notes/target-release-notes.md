@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 20%
+source-wordcount: '495'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 6 月 10 日**
+**上次更新: 2020 年 6 月 12 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -34,6 +34,20 @@ ht-degree: 20%
    >
 * **目標公告**: 請參閱Target公告頁面，以取得近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。 如需詳細資訊，請參閱 [Target公告](/help/r-release-notes/target-announcements.md)。
 
+
+## at.js 1.8.2和at.js 2.3.1版本（2020年6月15日）
+
+已在at.js程式庫中進行下 [!DNL Target] 列改進和修正：
+
+### at.js 1.8.2
+
+* 使用CNAME和Edge覆寫時，at.js 1.*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35064)
+
+### at.js 2.3.1
+
+* 透過targetGlobalSettings `deviceIdLifetime` 可覆蓋 [設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)
+* 使用CNAME和Edge覆寫時，at.js 2.*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35065)
+* 使用分機v2 [!DNL Target] 和分機 [!DNL Launch] 時， [!DNL Adobe Analytics] 請延 [!DNL Launch] 遲呼 [!DNL Target][!DNL Analytics]`sendBeacon` 叫。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (2020 年 6 月 17 日)
 
