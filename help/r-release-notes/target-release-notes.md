@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 18%
+source-wordcount: '504'
+ht-degree: 17%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 18%
 
 ### at.js 1.8.2
 
-* 使用CNAME和Edge覆寫時，at.js 1.*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35064)
+* 修正使用CNAME和Edge Override(at.js 1)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35064)
 
 ### at.js 2.3.1
 
 * 透過targetGlobalSettings `deviceIdLifetime` 可覆蓋 [設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)
-* 使用CNAME和Edge覆寫時，at.js 2.*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35065)
-* 使用分機v2 [!DNL Target] 和分機 [!DNL Launch] 時， [!DNL Adobe Analytics] 請延 [!DNL Launch] 遲呼 [!DNL Target][!DNL Analytics]`sendBeacon` 叫。 (TNT-36407、TNT-35990、TNT-36000)
+* 修正使用CNAME和Edge Override(at.js 2)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35065)
+* 已修正使用擴充功能v2 [!DNL Target] 和擴充功能時， [!DNL Launch] 延遲 [!DNL Adobe Analytics] 呼叫的問 [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 題。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (2020 年 6 月 17 日)
 
