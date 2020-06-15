@@ -5,10 +5,10 @@ title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSe
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 42%
+source-wordcount: '1648'
+ht-degree: 41%
 
 ---
 
@@ -90,6 +90,10 @@ ht-degree: 42%
 * **類型**: 數字
 * **預設值**: 6324480000 ms = 2年
 * **說明**: Cookie中持 `deviceId` 續的時間量。
+
+>[!NOTE]
+>
+>deviceIdLifetime設定在at.js 2.3.1版或更新版本中可覆寫。
 
 ### 已啟用
 
