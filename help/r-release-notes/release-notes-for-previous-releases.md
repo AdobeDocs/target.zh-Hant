@@ -5,10 +5,10 @@ title: 舊版版本說明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
 workflow-type: tm+mt
-source-wordcount: '29260'
-ht-degree: 92%
+source-wordcount: '29530'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,91 @@ ht-degree: 92%
 >請參閱 [Target 版本說明 (最新)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明- 2020
+
+### 描述檔批次狀態API v2變更（2020年5月14日）
+
+在5月20日發行中，描述檔批次狀態將只會傳回行層級失敗資料（不會傳回成功資料）。 API將會傳回失敗的描述檔ID。
+
+舊版和新版API回應如下：
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**我們目前將回應視為：**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**在5月4日之後，我們將做出回應：**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+### Target Standard/Premium 20.4.1 (2020 年 5 月 6 日)
+
+此發行包含下列增強功能、修正和變更：
+
+* 已修正對對象不正確限定裝置和瀏覽器類型的問題。 (TGT-36266)
+* 修正在寬度小於963像素的螢幕上檢視報表資料時無法顯示的問題。 (TGT-36549)
+* 修正「自動個人化」報表無法正確呈現的問題。 (TGT-36619)
+* 修正在使用Analytics for Target(A4t)的「自動分配」和「自動目標」活動中，允許選取不相容量度的問題。 (TGT-36646)
+* 修正「視覺體驗撰寫器」(VEC)中某些選項無法正確顯示的問題。 (TGT-36571)
+* 修正Target UI中，當使用者在單一體驗中取代內容後，導致其他Recommendations選件預覽顯示已編輯內容的問題。 (TGT-36053 和 TGT-36894)
+* 修正部分使用者無法從Recommendations目錄刪除項目的問題。 (TGT-36455)
+* 修正使用者無法將Recommendations標準儲存在多頁活動上的問題。 (TGT-36249)
+* 修正行為資料來源選項按鈕在連續編輯准則第二次時消失的問題。 (TGT-36796)
+* 修正Recommendations演算法在延長期間顯示「擷取結果」的顯示問題。 (TGT-36550 和 TGT-36551)
+* 已更新多種語言本地化的UI字串。
 
 ### Target at.js（2020年3月25日）
 
