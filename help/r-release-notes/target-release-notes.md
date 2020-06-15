@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 15%
+source-wordcount: '472'
+ht-degree: 18%
 
 ---
 
@@ -34,20 +34,6 @@ ht-degree: 15%
    >
 * **目標公告**: 請參閱Target公告頁面，以取得近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。 如需詳細資訊，請參閱 [Target公告](/help/r-release-notes/target-announcements.md)。
 
-
-## at.js 1.8.2和at.js 2.3.1版本（2020年6月15日）
-
-已在at.js程式庫中進行下 [!DNL Target] 列改進和修正：
-
-### at.js 1.8.2
-
-* 修正使用CNAME和Edge Override(at.js 1)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35064)
-
-### at.js 2.3.1
-
-* 透過targetGlobalSettings `deviceIdLifetime` 可覆蓋 [設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)
-* 修正使用CNAME和Edge Override(at.js 2)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35065)
-* 已修正使用擴充功能v2 [!DNL Target] 和擴充功能時， [!DNL Launch] 延遲 [!DNL Adobe Analytics] 呼叫的問 [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 題。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (2020 年 6 月 17 日)
 
