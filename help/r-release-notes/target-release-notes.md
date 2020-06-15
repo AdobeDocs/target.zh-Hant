@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 17%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 6 月 12 日**
+**上次更新: 2020 年 6 月 15 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -55,6 +55,7 @@ ht-degree: 17%
 | --- | --- |
 | 目標分析 (A4T) 支援自動分配活動 | 在6月發行時，「自動配置」測試將支援 [Target的Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此整合可讓您使用Auto-Allocate的多重授權功能，來推動流量流向成功體驗，同時使用Adobe Analytics目標量度和／或Adobe Analytics報告與分析功能。 如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試和體驗定位活動搭配使用，一切就緒！ |
 | 發佈者角色 | 此新角色類似於當前的「觀察者」角色（可以查看活動，但不能建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
+| 2020年6月25日 [!DNL Analysis Workspace]<br>提供A4T支援 | [!UICONTROL Analytics for Target] (A4T)現在支援 [!DNL Analysis Workspace]。 「 [!UICONTROL Analytics for Target(A4T)」面板] ，可讓您分析 [!DNL Adobe Target] 中的活動和體驗 [!DNL Analysis Workspace]。<br>如需詳細資訊，請 [參閱「分析工具指南」中的](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 「Analytics for Target(A4T) *」面板*。 |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
