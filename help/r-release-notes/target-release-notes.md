@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 18%
+source-wordcount: '529'
+ht-degree: 17%
 
 ---
 
@@ -42,6 +42,12 @@ ht-degree: 18%
 | 目標分析 (A4T) 支援自動分配活動 | 在6月發行時，「自動配置」測試將支援 [Target的Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此整合可讓您使用Auto-Allocate的多重授權功能，來推動流量流向成功體驗，同時使用Adobe Analytics目標量度和／或Adobe Analytics報告與分析功能。 如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試和體驗定位活動搭配使用，一切就緒！ |
 | 發佈者角色 | 此新角色類似於當前的「觀察者」角色（可以查看活動，但不能建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
 | 2020年6月25日 [!DNL Analysis Workspace]<br>提供A4T支援 | [!UICONTROL Analytics for Target] (A4T)現在支援 [!DNL Analysis Workspace]。 「 [!UICONTROL Analytics for Target(A4T)」面板] ，可讓您分析 [!DNL Adobe Target] 中的活動和體驗 [!DNL Analysis Workspace]。<br>如需詳細資訊，請 [參閱「分析工具指南」中的](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 「Analytics for Target(A4T) *」面板*。 |
+
+### 增強功能、修正和變更
+
+* 在Target UI中進行改良，讓指定全域mbox變得更輕鬆。 (TGT-15280)
+* 修正造成「訪客」量度儲存在活動定義而非「獨特訪客」中的問題。 (TGT-37098)
+* 修正UI中導致 [!DNL Target] 垂直捲軸在「觀眾」頁面上無法正確運 [!UICONTROL 作的問題] 。 (TGT-36968)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
