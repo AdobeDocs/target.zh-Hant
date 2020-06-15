@@ -5,9 +5,9 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '515'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 17%
 
 ### 增強功能、修正和變更
 
-* 在Target UI中進行改良，讓指定全域mbox變得更輕鬆。 (TGT-15280)
 * 修正造成「訪客」量度儲存在活動定義而非「獨特訪客」中的問題。 (TGT-37098)
 * 修正UI中導致 [!DNL Target] 垂直捲軸在「觀眾」頁面上無法正確運 [!UICONTROL 作的問題] 。 (TGT-36968)
 
