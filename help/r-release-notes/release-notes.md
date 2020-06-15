@@ -5,10 +5,10 @@ title: 'Adobe Target 版本說明 (最新) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 32%
+source-wordcount: '957'
+ht-degree: 30%
 
 ---
 
@@ -32,6 +32,15 @@ ht-degree: 32%
 
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## at.js 1.8.2和at.js 2.3.1版本（2020年6月15日）
+
+已在at.js程式庫中進行下 [!DNL Target] 列改進和修正：
+
+| 功能/增強功能 | 說明 |
+| --- | --- |
+| at.js 1.8.2 | 此版本的at.js是維護髮行，包含下列修正：<ul><li>修正使用CNAME和Edge Override(at.js 1)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35064)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正:<ul><li>透過targetGlobalSettings `deviceIdLifetime` 可覆蓋 [設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)</li><li>修正使用CNAME和Edge Override(at.js 2)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35065)</li><li>已修正使用擴充功能v2 [!DNL Target] 和擴充功能時， [!DNL Launch] 延遲 [!DNL Adobe Analytics] 呼叫的問 [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 題。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 
 ## 描述檔批次狀態API v2變更（2020年5月14日）
 
