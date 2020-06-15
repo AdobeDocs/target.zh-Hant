@@ -5,7 +5,10 @@ title: at.js 版本詳細資料
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+workflow-type: tm+mt
+source-wordcount: '3947'
+ht-degree: 86%
 
 ---
 
@@ -19,6 +22,20 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升級at.js的偏好方法。 擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成擴充功能的新版本，並以升級形式提供 [!DNL Launch] 至目錄中。 如需詳細資訊，請參 [閱Experience Platform Launch使用指](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 南中的Extension Upgrade **。
+
+## at.js 1.8.2（2020年6月15日）
+
+此版本的at.js是維護髮行，包含下列修正：
+
+* 修正使用CNAME和Edge Override(at.js 1)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35064)
+
+## at.js 2.3.1版本（2020年6月15日）
+
+此 at.js 版本為維護版本，包含下列增強功能和修正:
+
+* 透過targetGlobalSettings `deviceIdLifetime` 可覆蓋 [設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)
+* 修正使用CNAME和Edge Override(at.js 2)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35065)
+* 已修正使用擴充功能v2 [!DNL Target] 和擴充功能時， [!DNL Launch] 延遲 [!DNL Adobe Analytics] 呼叫的問 [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 題。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## at.js 版本 2.3.0 (2020 年 3 月 25 日)
 
@@ -228,6 +245,7 @@ at.js 1.3.0 版現已可用。
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
+
    如需詳細資訊，請參閱 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)。
 
 * 您可以使用來自資料提供者的其他參數來擴大 at.js 要求。資料提供者應新增至 `window.targetGlobalSettings` 下的 `dataProviders key`。
