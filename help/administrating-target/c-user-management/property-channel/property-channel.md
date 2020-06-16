@@ -5,9 +5,9 @@ title: 企業使用者權限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2948'
 ht-degree: 85%
 
 ---
@@ -87,9 +87,12 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 角色和權限會決定使用者在您的 [!DNL Target] 實作中建立和管理活動所具備的存取層級。在 [!DNL Target] 中，角色包括下列:
 
-* **[!UICONTROL 觀察者]**: 可以檢視活動，但無法建立或編輯活動。
-* **[!UICONTROL 編輯器]**: 可在活動上線前建立和編輯活動，但無法核准活動啟動。
-* **[!UICONTROL 批准者]**: 可以建立、編輯、啟用或停止活動。
+| 角色 | 說明 |
+|--- |--- |
+| 核准者 | 可以建立、編輯和啟動或停止活動。 |
+| 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+| 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
+| 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
 
 ### 管道
 
@@ -115,10 +118,10 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 | 角色 | 說明 |
 |--- |--- |
-| 觀察者 | 具有活動的唯讀存取權。可以檢視活動，但無法建立或編輯活動。 |
-| 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
 | 核准者 | 可以建立、編輯和啟動或停止活動。 |
-
+| 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+| 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
+| 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
 務必注意，每個使用者的角色會套用至您的帳戶中包含 [!DNL Target] 標記的每個頁面、屬性或網站上，如下所示:
 
 ![](assets/permissions_2.png)
@@ -240,6 +243,7 @@ Consider the following when using or configuring properties and permissions in [
    * 使用下列解決方案或方法建立的活動、對象、代碼選件、影像選件或任何其他資源，無法透過企業權限模型控制，但將成為預設工作區的一部分: Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services 和透過 API 建立的資源。透過 API 建立的資源包括活動、對象、代碼選件和影像選件。
    * 影像選件 (儲存在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的資產) 目前無法透過企業權限模型控制。
    * clickTracking 和重新導向，只有在目的地連結或目的地頁面屬於活動中所包含屬性的一部分時才有作用。此外，使用 `targetPageParams()` 函數時，clickTracking 可能無法使用。`targetPageParamsAll()` 為建議的函數。
+
    [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。如果 Token (1) 不存在，(2) 未在活動設定 (VEC 內) 時偵測到，或 (3) 未透過 `targetPageParamsAll()` 函數傳遞至 clickTracking mbox，度量將不會遞增，並將顯示為「0」。
 
    對於使用重新導向的活動也是相同的情況。目的地頁面必須具有 `at_property` Token，並且需在 VEC 內設定時辨識。
