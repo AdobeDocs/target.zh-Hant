@@ -6,10 +6,10 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 47%
+source-wordcount: '1257'
+ht-degree: 46%
 
 ---
 
@@ -62,7 +62,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | 活動類型 | A4T 相容? | 備註 (若適用) |
 |--- |--- |--- |
 | 手動分割流量的 A//B 活動 | 是 |  |
-| 自動分配的 A/B 活動 | 無 |  |
+| 自動分配的 A/B 活動 | 是 | 請參 [閱Analytics for Target(A4T)對自動配置活動的支援](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
 | 自動鎖定目標的 A/B 活動 | 無 |  |
 | 體驗鎖定目標 (XT) | 是 |  |
 | 多變數測試 (MVT) | 是 | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
