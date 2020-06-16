@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: bd95e4bcd3d8e8de5cb231e0632c73a24b36995e
+source-git-commit: 86b2f0eba5c995967b93b516c224140cc4771420
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 44%
+source-wordcount: '86'
+ht-degree: 68%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 44%
 # 管理 Target{#administer-target}
 
 可協助您設定 Adobe Target 的資訊，包括偏好設定、實作、使用者管理、屬性、Scene7 設定、主機管理和回應 Token。
-
->[!NOTE]
->
->下面列出的本節主題已更新，讓您在Target Standard/Premium 20.5.1版本（2020年6月17日）即將推出的UI變更中搶先登峰造極。 這些主題中的資訊適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
