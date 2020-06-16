@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '1484'
+ht-degree: 92%
 
 ---
 
@@ -34,9 +37,9 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
    如需詳細資訊，請參閱[下載 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-1. 在 [!DNL Target] 中，按一下「**[!UICONTROL 設定]** > **[!UICONTROL 回應 Token]**」。
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens.png)
+   ![](assets/response_tokens-new.png)
 
 1. 啟動所需的回應 Token，例如 `activity.id`、`option.id`等等。
 
@@ -62,9 +65,9 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
    >
    >含特殊字元的參數不會顯示在清單中。僅支援英數字元和底線。
 
-1. (依條件) 如果您想要使用設定檔參數作為回應 Token，但此參數尚未透過 mbox 呼叫來傳遞，因此尚未載入至 Target UI 中，您可以使用「建立」按鈕將設定檔新增至 UI。
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   按一下&#x200B;**[!UICONTROL 「建立」]**，提供 Token 名稱，然後按一下&#x200B;**[!UICONTROL 「啟動」]**。
+   按一 **[!UICONTROL 下「新增回應Token]**」、提供Token名稱，然後按一下「 **[!UICONTROL 啟動]**」。
 
    ![](assets/response_token_create.png)
 
@@ -279,7 +282,7 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 </script>
 ```
 
-## 訓練影片: 回應 Token 與 at.js 自訂事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 回應 Token 與 at.js 自訂事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![教學課程徽章](/help/assets/tutorial.png)
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
 
