@@ -1,10 +1,13 @@
 ---
-keywords: 整合;角色;使用者權限;admin console
+keywords: integration;roles;user permissions;admin console
 description: 關於在 Adobe Target 中授予現有 Adobe I/O 整合功能可使用所需角色存取所有工作區之權限的資訊。
 title: 在 Adobe Target 中授予 Adobe I/O 整合功能對工作區的存取權並指派角色
-subtopic: 快速入門
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -57,7 +60,9 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 1. 從&#x200B;**[!UICONTROL 產品角色]**&#x200B;下拉式清單中，選取該工作區的所需角色。
 
-   * [!UICONTROL 核准者]
-   * [!UICONTROL 編輯器]
-   * [!UICONTROL 觀察者]
-   ![選擇產品設定檔角色](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | 角色 | 說明 |
+   |--- |--- |
+   | 核准者 | 可以建立、編輯和啟動或停止活動。 |
+   | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+   | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
+   | 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
