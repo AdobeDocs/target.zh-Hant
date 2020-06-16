@@ -4,7 +4,10 @@ description: 使用實體屬性來傳遞產品或內容資訊至 Recommendations
 title: 實體屬性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
+source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+workflow-type: tm+mt
+source-wordcount: '1009'
+ht-degree: 94%
 
 ---
 
@@ -194,35 +197,25 @@ Recommendations 會傳送演算法中所用的 `productId` 或 `productPurchased
  
 mboxCreate('productPage', 
  
-'entity.id= 
-<b>67833</b>', 
+'entity.id=67833', 
  
-'entity.name= 
-<b>GIANTS VS ROCKIES 5/12</b>', 
+'entity.name=GIANTS VS ROCKIES 5/12', 
  
-'entity.categoryId= 
-<b>BASEBALL, GIANTS, SF BAY AREA</b>', 
+'entity.categoryId=BASEBALL, GIANTS, SF BAY AREA', 
  
-'entity.pageUrl= 
-<b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
+'entity.pageUrl=../baseball/giants-tix/giantsvrockies5.12.2000-67833', 
  
-'entity.venue= 
-<b>AT&T PARK</b>', 
+'entity.venue=AT&T PARK', 
  
-'entity.secondary= 
-<b>ROCKIES</b>', 
+'entity.secondary=ROCKIES', 
  
-'entity.thumbnailUrl= 
-<b>../baseball/giants-tix/giants-136px.gif</b>', 
+'entity.thumbnailUrl=../baseball/giants-tix/giants-136px.gif', 
  
-'entity.message= 
-<b>FAMILY SPECIAL</b>', 
+'entity.message=FAMILY SPECIAL', 
  
-'entity.value= 
-<b>15.99</b>', 
+'entity.value=15.99', 
  
-'entity.inventory= 
-<b>1</b>' 
+'entity.inventory=1' 
  
 ); 
  
