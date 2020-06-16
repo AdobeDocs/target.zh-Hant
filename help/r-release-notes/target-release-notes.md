@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
+source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 17%
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 6 月 15 日**
+**上次更新: 2020 年 6 月 17 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
