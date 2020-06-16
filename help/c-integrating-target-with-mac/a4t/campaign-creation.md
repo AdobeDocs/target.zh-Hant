@@ -5,10 +5,10 @@ title: 活動建立
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 39%
+source-wordcount: '1130'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 39%
 You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. 選擇活動的最終成功量度。Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
+
+## 建立使用Analytics做為報告來源的活動
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
@@ -66,3 +68,58 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
    >When setting up an activity after setting up [!DNL Analytics] as your reporting source, there is no option to set up audiences for reporting. [!DNL Analytics] 區段可在「活動」報 [!DNL Target] 表中使用。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
+## Analytics for Target(A4T)支援自動配置活動 {#a4t-aa}
+
+我們已升級Adobe Target至Adobe Analytics整合，稱為 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+
+[!UICONTROL 自動配置活動] ，現在支援 [!UICONTROL Analytics for Target]。 此整合可讓您使用自動配置的多重授權功能，來推動流量流向成功體驗，同時使用目標量度 [!DNL Adobe Analytics] 及／或報告 [!DNL Adobe Analytics] 和分析功能。 如果您已實作 [A4T以搭配A/B測試和體驗定位活動使用](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)，您就可開始使用！
+
+若要開始執行:
+
+1. 建立A/B測試活動，並選取「自 **[!UICONTROL 動配置至最佳體驗」]** ，做為「定位」頁 **[!UICONTROL 面上的「流量分]** 配方法  」。
+1. 在「目 **[!UICONTROL 標與設定」頁面上，為您的「報表來源]********** 」選取「Adobe Analytics」，然後選取與您所要的最佳化目標對應的報表套裝。
+1. 選擇主要目標量度。
+
+   選擇 **[!UICONTROL 轉換]** ，以 [!DNL Adobe Target] 用來指定最佳化目標。
+
+   或
+
+   選擇 **[!UICONTROL 使用Analytics量度]** ，然後從中選取量度 [!DNL Analytics] 以用作最佳化目標。 您可以使用現成可用的轉換 [!DNL Analytics] 量度或自訂 [!DNL Analytics] 事件。
+
+1. 儲存並啟動您的活動。
+
+   [!UICONTROL 「自動分配] 」會使用您選取的量度來最佳化活動，將訪客帶往體驗，以最大化您的目標量度。
+
+1. 使用「 **[!UICONTROL 報表]** 」標籤，依據您選擇的量度來檢視活動的 [!DNL Adobe Analytics] 報表。 按一 **[!UICONTROL 下Analytics中的檢視]** ，深入探索並進一步細分您的報告資料。
+
+### 支援的目標量度
+
+A4T for [!UICONTROL Auto-Allocate] 可讓您選擇下列任何量度類型作為最佳化的主要目標量度：
+
+* [!DNL Adobe Target] 轉換量度
+* [!DNL Adobe Analytics] 轉換量度
+* [!DNL Adobe Analytics] 個自訂事件
+
+A4T for [!UICONTROL Auto-Allocate] ，要求您選擇以二項式事件（即發生或未發生的事件）為基礎的量度，例如點按、轉換、訂購等。 （這些類型的事件有時也稱為Bernoulli、二進位或離散事件。）
+
+A4T for [!UICONTROL Auto-Allocate] 不支援連續度量的最佳化，例如收入、訂購的產品數、作業期間、作業中的頁面檢視次數等。 （這些不支援的量度類型有時也稱為非二項式或非伯努利量度。）
+
+下列量度類型不支援做為主要目標量度：
+
+* [!DNL Adobe Target] 參與度與收入度量
+* [!DNL Adobe Analytics] 參與度與收入度量
+
+   >[!NOTE]
+   >
+   >您可能會選擇參與和收 [!DNL Analytics] 入量度作為主要目標量度，因為無法 [!DNL Target] 識別所有的參與和收入量度 [!DNL Analytics]。 請小心，只從中選取二項式轉換量度或自訂事件 [!DNL Analytics]。
+
+* Adobe Analytics計算量度
+
+### 限制與附註
+
+* 活動啟動後，報表來源 [!DNL Analytics] 無法 [!DNL Target] 從變更為，反之亦然。
+* 雖然計算量度不支援做為主要目標量度，但通常可以選擇自訂事件作為主要目標量度，以達到預期結果。 例如，如果您想要最佳化度量（例如「每位訪客表單填寫」），請選取與「表單填寫」對應的自訂事件作為主要目標度量。 [!DNL Target] 自動標準化每次瀏覽的轉換量度，以考慮不均勻的流量分佈，因此不需要使用計算量度來執行標準化。
+* [!DNL Target] 在「自動配置A4T」實作中使用「相同觸控」歸因模型。
+
+如需詳細資訊，請參 [閱「Analytics工具指南](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 」中的 *「歸因概述」*。
