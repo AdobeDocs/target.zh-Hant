@@ -5,10 +5,10 @@ title: 設定企業權限
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '1418'
+ht-degree: 75%
 
 ---
 
@@ -74,6 +74,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
       * 在 [!DNL Admin Console for Enterprise] 內建立新工作區。
       * 對工作區指派 Target 屬性。
+
    您可以使用這些工作區來依地區、事業單位、網站區段或透過您選擇的任何其他方法來對不同團隊劃分存取權。使用者可以屬於多個工作區並且可具有每個工作區內不同的角色。
 
 1. 遵循&#x200B;*《企業使用者指南》*&#x200B;的[建立和管理產品組態](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的指示。
@@ -172,22 +173,28 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 1. 在 Admin Console 中，按一下&#x200B;****「產品」，然後選取所需產品的名稱。
 
-   ![工作區](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![工作區](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. 按一下所需設定檔的名稱。
+1. 按一下所要描述檔的名稱（例如預設工作區）。
+
+   ![預設工作區](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. 按一下&#x200B;**[!UICONTROL 「使用者」]**。
 
    [!UICONTROL 使用者]索引標籤會顯示該工作區中的所有使用者。
 
-   ![設定使用者](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![設定使用者](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 使用[!UICONTROL 「產品角色」]欄中每個使用者的下拉式清單，選取需要的權限角色 (核准者、編輯者或觀察者)。
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![產品角色下拉式清單](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 角色 | 說明 |
    |--- |--- |
-   | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-   | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | 核准者 | 可以建立、編輯和啟動或停止活動。 |
+   | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+   | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
+   | 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
 
    如需詳細資訊，請參閱&#x200B;*《企業使用者指南》*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
