@@ -5,10 +5,10 @@ title: 實作 Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 66%
 如需詳細資訊，請參閱「實作目標」下的 [各種主題](/help/c-implementing-target/implementing-target.md)。
 
 適用於本頁設定的資訊，可在「實作目標」上找 [到，毋需標籤管理器](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
+
+>[!NOTE]
+>
+>本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 >[!NOTE]
 >
