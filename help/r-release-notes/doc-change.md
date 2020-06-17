@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 33%
 # 文件變更{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.5.1 (2020 年 6 月 17 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 6月17日 | [活動建立](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已新增有關Analytics for Target(A4T)支援自動配置活動的資訊。 |
+|  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 已在「指定角色和權限」 [!UICONTROL 下新增] 「發佈 *者」角色的相關資訊*。 |
+|  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已在步驟6下新增 [!UICONTROL Publisher] 角 *色的相關資訊： 指定角色和權限*。 |
+|  | [企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 已新增連結至 *Office時數： Target Premium Workspaces工作階段*。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 20.5.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 20.4.1 (2020 年 5 月 6 日)
 
