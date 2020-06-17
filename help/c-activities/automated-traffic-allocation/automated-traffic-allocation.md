@@ -5,7 +5,10 @@ title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3026'
+ht-degree: 89%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # 自動分配{#auto-allocate}
 
 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
-
->[!IMPORTANT]
->
->自動分配不支援 [!DNL Target for Analytics] (A4T) 報表。
 
 [使用三步驟引導式工作流程建立 A/B 活動](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)時，您可以選擇[!UICONTROL 「自動分配至最佳體驗」]選項。
 
@@ -92,10 +91,6 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 ## 注意事項 {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**Analytics for Target (A4T) 中不再支援自動分配 A/B 活動**
-
-自 16.10.1.0 版起 (2016/10/25)，Target 不再支援 Analytics 作為自動分配 A/B 活動的報表來源。已啟用 A4T 的任何使用中自動分配 A/B 活動，將會切換至「手動」模式 (相等流量分配)。
-
 **自動分配功能只使用一個進階量度設定: 增加計數並讓使用者留在活動中**
 
 不支援下列進階量度設定: 增加計數、釋放使用者、允許再進入並增加計數，以及釋放使用者並禁止再進入。
@@ -131,6 +126,10 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
    例如，「七折促銷只到今天」暗示訪客今天應該成交，但「首購五折」就不會讓人感到相同的急迫性。
 
 ## 常見問題 {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** Analytics for Target(A4T)是否支援自動配置活動？
+
+是.如需詳細資訊，請 [參閱「活動建立」中自動配置活動的Analytics for Target(A4T)](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*支援*。
 
 **再度訪問的訪客會自動重新分配到表現優異的體驗嗎?** 
 
@@ -168,7 +167,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 **使用自動分配時，我可以利用樣本大小計算機來預估活動識別出獲勝者所需的時間嗎?**
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. （如同傳統A/B測試，如果您要測試超過兩個選件或超過一個轉換量度／假設，請套用Bonferroni修正）。請注意，此計算器專為傳統固定水準A/B測試而設計，僅提供預估。 使用自動分配活動的計算器是可選的，因為自動分配將為您聲明一個成功者——您不需要選擇固定的時間點來查看測試結果——提供的值始終在統計上有效。 在我們的實驗中，我們發現了以下內容：
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. （如同傳統A/B測試，如果您要測試超過兩個選件或超過一個轉換量度／假設，請套用Bonferroni修正）。 請注意，此計算器專為傳統固定水準A/B測試而設計，僅提供預估。 使用自動分配活動的計算器是可選的，因為自動分配將為您聲明一個成功者——您不需要選擇固定的時間點來查看測試結果——提供的值始終在統計上有效。 在我們的實驗中，我們發現了以下內容：
 * 在測試兩個體驗時，自動分配比固定水準測試（即範例大小計算器建議的時間範圍）更快找到成功者，當體驗之間的效能差異較大時，自動分配可能需要額外的時間來識別成功者。 在這些情況下，固定水準測試通常會在沒有統計顯著結果的情況下結束。
 * 在測試兩個以上的體驗時，當單一體驗執行力強於其他所有體驗時，「自動分配」會比固定水準測試（即範例大小計算器建議的時間範圍）更快找到成功者。 當兩個或兩個以上的體驗都與其他體驗「勝出」，但彼此緊密相配時，「自動配置」可能需要額外的時間來判斷哪個體驗更優越。 在這些情況下，固定水準測試通常會以「成功」體驗優於表現欠佳的體驗而告終，但並未指出哪一種體驗更出色。
 
@@ -182,7 +181,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動工作流程 - 鎖定目標 (2:14) 教 ![學課程徽章](/help/assets/tutorial.png)
+### 活動工作流程 - 鎖定目標 (2:14) ![教學課程徽章](/help/assets/tutorial.png)
 
 此視訊包含有關如何設定流量分配的資訊。
 
