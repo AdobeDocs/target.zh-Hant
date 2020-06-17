@@ -5,9 +5,9 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. 確定您的SSL憑證需要的主機名稱清單（請參閱常見問答集）。
 
-1. 針對每個主機名稱，在DNS中建立指向一般主機名稱的CNAME [!DNL Target] 記錄 `clientcode.tt.omtrdc.net`。 例如，如果您的客戶代碼是客戶代碼，而您建議的主機名 `target.example.com`稱是，則您的DNS CNAME記錄應該如下所示：
+1. 針對每個主機名稱，在DNS中建立指向一般主機名稱的CNAME [!DNL Target] 記錄 `clientcode.tt.omtrdc.net`。
+
+   例如，如果您的客戶代碼是「客戶」，而您建議的主機名稱是 `target.example.com`，則您的DNS CNAME記錄應如下所示：
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -31,10 +33,10 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe的認證機構DigiCert在此步驟完成前無法核發憑證，因此Adobe在此步驟完成前無法完成您對CNAME實作的要求。
+   >* Adobe的認證授權機構DigiCert必須等到此步驟完成後，才能核發認證。 因此，Adobe必須等到此步驟完成後，才能完成您對CNAME實作的要求。
 
 
-1. 填寫下清單格，並在您開啟Adobe Client Care票證 [要求CNAME支援時加入該表格](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C):
+1. 填寫下清單格，並在您開啟Adobe Client Care票證 [要求CNAME支援時加入該表格](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] client code:
    * SSL憑證主機名稱(範例： `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. 如果Adobe要購買憑證，Adobe將與DigiCert合作，在Adobe的生產伺服器上購買及部署您的憑證。
 
-   如果客戶購買憑證(BYOC),Adobe客戶服務會將您透過您選擇的憑證授權機構購買憑證時需要用到的憑證簽署要求(CSR)寄回給您。 一旦核發憑證後，您將需要將憑證副本和任何中間憑證傳回Adobe Client Care以進行部署。
+   如果客戶購買憑證(BYOC),Adobe客戶服務會傳送憑證簽署要求(CSR)給您，當您透過您選擇的憑證授權機構購買憑證時，需要使用此要求。 在核發憑證後，您必須將憑證副本和任何中間憑證傳回Adobe Client Care進行部署。
 
    當您的實作準備就緒時，Adobe Client Care會通知您。
 
@@ -90,7 +92,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 部署CNAME實作時，我可能會預期發生何種服務中斷？
 
-在部署憑證時（包括憑證續約），不會中斷服務。 不過，當您將Target實作程式碼(`serverDomain` at.js)中的主機名稱變更為新的CNAME主機名稱(`target.example.com`)時，網頁瀏覽器會將舊訪客視為新訪客，其描述檔資料將會遺失，因為舊主機名稱(`clientcode.tt.omtrdc.net`)下的舊Cookie會因瀏覽器安全性模型而無法存取。 這只是一次性中斷，只有在初次切換新CNAME時，憑證續約不會有相同的效果，因為主機名稱不會變更。
+在部署憑證時（包括憑證續約），不會中斷服務。 不過，當您將實作程式碼( [!DNL Target] at.js)中的主機名稱變更為新的CNAME主機名稱(`serverDomain` )時，網頁瀏覽器會將舊訪客視為新訪客，其描述檔資料將會遺失，因為舊主機名稱(`target.example.com``clientcode.tt.omtrdc.net`)下的舊Cookie由於瀏覽器安全性模型而無法存取。 只有在初次切換新CNAME時，才會發生一次中斷。 憑證續約沒有相同的效果，因為主機名稱並未變更。
 
 ### 我的CNAME實作會使用何種金鑰類型和憑證簽名演算法？
 
