@@ -6,17 +6,21 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 回應 Token{#response-tokens}
 
-回應 Token 可讓您自動輸出 Target 的特定資訊 (促銷活動詳細資料、使用者設定檔資訊、地理資訊等)，以用於除錯或與第三方系統整合 (例如 Clicktale)
+回應 Token 可讓您自動輸出 Target 的特定資訊 (促銷活動詳細資料、使用者設定檔資訊、地理資訊等)，以用於除錯或與第三方系統整合 (例如 Clicktale).
+
+>[!NOTE]
+>
+>本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 回應 Token 可讓您選擇要採用的變數，然後將變數隨附於 mbox 回應一起傳送。若要這樣做，您只需要利用開關來啟用變數，變數就會隨著 mbox 回應一起傳送，而在網路呼叫中可驗證變數。回應 Token 也可以預覽模式下運作。
 
