@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 17%
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 目標分析 (A4T) 支援自動分配活動 | 在6月發行時，「自動配置」測試將支援 [Target的Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此整合可讓您使用Auto-Allocate的多重授權功能，來推動流量流向成功體驗，同時使用Adobe Analytics目標量度和／或Adobe Analytics報告與分析功能。 如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試和體驗定位活動搭配使用，一切就緒！ |
-| 發佈者角色 | 此新角色類似於當前的「觀察者」角色（可以查看活動，但不能建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
-| 2020年6月25日 [!DNL Analysis Workspace]<br>提供A4T支援 | [!UICONTROL Analytics for Target] (A4T)現在支援 [!DNL Analysis Workspace]。 「 [!UICONTROL Analytics for Target(A4T)」面板] ，可讓您分析 [!DNL Adobe Target] 中的活動和體驗 [!DNL Analysis Workspace]。<br>如需詳細資訊，請 [參閱「分析工具指南」中的](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 「Analytics for Target(A4T) *」面板*。 |
+| 目標分析 (A4T) 對自動分 [!UICONTROL 配活動的支援] | [!UICONTROL 自動配置活動] ，現在支援 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用 [!UICONTROL Auto-Allocate] multi-firled Bandit功能，將流量驅動至成功體驗，同時使用 [!UICONTROL Adobe Analytics] 目標量度及／或  Adobe Analytics報告與分析功能。<br>如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試和體驗定位活動搭配使用，一切就緒！<br>如需詳細資訊，請 [參閱「活動建立」中自動配置活動的Analytics for Target(A4T)](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*支援*。 |
+| [!UICONTROL 發佈者] 角色 | 此新角色類似於當前的 [!UICONTROL Observer] 角色（可以查看活動，但不能建立或編輯活動）。 不過，「發 [!UICONTROL 布者] 」角色具有啟動活動的額外權限。<br>如需詳細資訊，請參閱: <ul><li>**Target Standard使用者**: [在「使用者」中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *權限*。</li><li>**Target Premium使用者**: [步驟6: 在「設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 」中 *指定角色和權限*。</li></ul> |
+| 2020年6月25日 [!DNL Analysis Workspace]<br>提供A4T支援 | [!UICONTROL Analytics for Target] (A4T)現在支援 [!DNL Analysis Workspace]。 「 [!UICONTROL Analytics for Target(A4T)」面板] ，可讓您分析 [!DNL Adobe Target] 中的活動和體驗 [!DNL Analysis Workspace]。<br>如需詳細資訊，請 [參閱「A4T報表」和「](/help/c-integrating-target-with-mac/a4t/reporting.md) Analytics工具指南」中「Analytics中的報表」(位於 *A4T報表和Analytics for Target* (A4T)面板) [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**。 |
 
 ### 增強功能、修正和變更
 
