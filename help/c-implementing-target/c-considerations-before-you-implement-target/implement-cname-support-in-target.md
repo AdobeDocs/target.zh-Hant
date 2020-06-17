@@ -5,9 +5,9 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1145'
 ht-degree: 2%
 
 ---
@@ -92,15 +92,11 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 部署CNAME實作時，我可能會預期發生何種服務中斷？
 
-在部署憑證時（包括憑證續約），不會中斷服務。 不過，當您將實作程式碼( [!DNL Target] at.js)中的主機名稱變更為新的CNAME主機名稱(`serverDomain` )時，網頁瀏覽器會將舊訪客視為新訪客，其描述檔資料將會遺失，因為舊主機名稱(`target.example.com``clientcode.tt.omtrdc.net`)下的舊Cookie由於瀏覽器安全性模型而無法存取。 只有在初次切換新CNAME時，才會發生一次中斷。 憑證續約沒有相同的效果，因為主機名稱並未變更。
+在部署憑證時（包括憑證續約），不會中斷服務。 不過，當您將實作程式碼( [!DNL Target] at.js)中的主機名稱變更為新的CNAME主機名稱(`serverDomain` )時，網頁瀏覽器會將舊訪客視為新訪客，其描述檔資料將會遺失，因為舊主機名稱(`target.example.com``clientcode.tt.omtrdc.net`)下的舊Cookie由於瀏覽器安全性模型而無法存取。 只有在初次切換新CNAME時，才會發生一次中斷。 憑證續約沒有相同的效果，因為主機名稱不會變更。
 
 ### 我的CNAME實作會使用何種金鑰類型和憑證簽名演算法？
 
 預設情況下，所有證書都是RSA SHA-256 ，密鑰是RSA 2048位。 目前不支援大於2048位元的金鑰大小。
-
-### Adobe/DigiCert是否可將DCV電子郵件傳送至其他電子郵件地址 `<someone>@example.com`?
-
-否，DigiCert（或任何認證機構）將不允許只有網域下有電子郵件地址的任何人授權該網域下的SSL憑證，除非該電子郵件地址也包含在網域的WHOIS資訊或預先確定的位址清單中（請參閱上文）。 這可確保只有授權的個人才能核准特定網域的DCV。 如果這對您不可行，我們建議使用DNS CNAME DCV方法（請參閱上文）。
 
 ### 如何驗證我的CNAME實作已準備好進行流量？
 
@@ -123,7 +119,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    validateEdgeFpsslSni target.example.com
    ```
 
-   如果實作已就緒，您應該會看到如下輸出。 重要部分是所有行都顯示，這符 `CN=target.example.com`合我們所需的主機名。 如果其中任何一 `CN=*.tt.omtrdc.net`個顯示，實 **作** 尚未準備。
+   如果實作已就緒，您應該會看到如下輸出。 重要部分是所有行都會顯示，這 `CN=target.example.com`些行與我們所需的主機名稱相符。 如果其中任何一 `CN=*.tt.omtrdc.net`個顯示，實 **作** 尚未準備。
 
    ```
    $ validateEdgeFpsslSni target.example.com
