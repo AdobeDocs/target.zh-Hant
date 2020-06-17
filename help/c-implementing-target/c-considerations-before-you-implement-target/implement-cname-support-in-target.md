@@ -5,9 +5,9 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1252'
 ht-degree: 2%
 
 ---
@@ -21,39 +21,36 @@ Instructions for working with Adobe Client Care to implement CNAME (Canonical Na
 
 Perform the following steps to request CNAME support in [!DNL Target]:
 
-1. Adobe的認證授權機構(DigiCert)需要確認Adobe是否已授權在您的網域下產生認證。
+1. 確定您的SSL憑證需要的主機名稱清單（請參閱常見問答集）。
 
-   DigiCert會呼叫此程式 [網域控制驗證(DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)，在下列至少一種DCV方法完成此程式之前，Adobe將不得在您的網域下產生憑證：
-
-   * 最快速的DCV方法是DNS CNAME方法，您可在其中新增DNS CNAME記錄（包含Token）至指向DigiCert DCV主機名稱(`dcv.digicert.com`)的網域。 此CNAME記錄會向DigiCert指出Adobe已獲得授權，可產生憑證。 Adobe Client Care會將指示與必要的DNS記錄一併傳送給您。 例如：
-
-      ```
-      3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
-      ```
-
-      >[!NOTE]
-      >
-      >* 這些DCV Token會在30天後到期，Adobe Client Care會隨時與您聯絡更新的Token。 為了盡快解決您的CNAME要求，請在提交您的要求前，先準備對所有要求的網域進行這些DNS變更。
-         >
-         >
-      * 如果您的網域 [有DNS CAA記錄](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)，則必須 `digicert.com` 新增（如果尚未新增）。 此DNS記錄會指出哪些認證授權機構已授權為網域發行認證。 產生的DNS記錄如下所示： `example.com. IN CAA 0 issue "digicert.com"`. 您可以使 [用G Suite工具箱](https://toolbox.googleapps.com/apps/dig/#CAA) ，判斷您的根網域是否有現有的CAA記錄。 您可以在這裡閱讀更多有關DigiCert如何處理CAA記 [錄](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)。
-
-
-   * DigiCert也會嘗試電子郵件方法，其中會傳送電子郵件訊息至網域的WHOIS資訊中的位址，以及預先決定的電子郵件地址(管理員、管理員、網站管理員、主機管理員和郵遞員 `@[domain_name]`)。 如需詳細 [資訊，請參閱DCV方法檔案](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) 。
-
-      為加速DCV電子郵件程式，DigiCert提供下列建議：
-
-      「請確認您的註冊/WHOIS提供者未蒙蔽或移除相關電子郵件地址。 如果是，請瞭解他們是否提供方式（例如匿名電子郵件地址、網頁表格）讓認證授權機構存取您網域的WHOIS資料。」
-
-1. 在網域的DNS上建立指向一般主機名稱的CNAME記錄 `clientcode.tt.omtrdc.net`。 例如，如果您的客戶代碼是客戶代碼，而您建議的主機名 `target.example.com`稱是，則您的DNS CNAME記錄應該如下所示：
+1. 針對每個主機名稱，在DNS中建立指向一般主機名稱的CNAME [!DNL Target] 記錄 `clientcode.tt.omtrdc.net`。 例如，如果您的客戶代碼是客戶代碼，而您建議的主機名 `target.example.com`稱是，則您的DNS CNAME記錄應該如下所示：
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
    ```
 
-1. 開啟 [Adobe Client Care票證，要求您呼叫的CNAME](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C) 支 [!DNL Target] 援。
+   >[!NOTE]
+   >
+   >* Adobe的認證機構DigiCert在此步驟完成前無法核發憑證，因此Adobe在此步驟完成前無法完成您對CNAME實作的要求。
 
-   Adobe將與DigiCert合作，在Adobe的生產伺服器上購買及部署您的憑證。 DigiCert將啟動DCV程式，當您的實作準備就緒時，Adobe Client Care會通知您。
+
+1. 填寫下清單格，並在您開啟Adobe Client Care票證 [要求CNAME支援時加入該表格](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C):
+
+   * Adobe [!DNL Target] client code:
+   * SSL憑證主機名稱(範例： `target.example.com target.example.org`):
+   * SSL憑證購買者（強烈建議使用Adobe，請參閱常見問答集）: Adobe/客戶
+   * 如果客戶購買憑證（亦即BYOC），請填寫下列其他詳細資訊：
+      * 憑證組織(範例： 範例公司):
+      * 證書組織單位(可選，例如： 行銷):
+      * 憑證國家(範例： 美國):
+      * 憑證狀態／地區(範例： 加州):
+      * 認證城市(範例： 聖荷西):
+
+1. 如果Adobe要購買憑證，Adobe將與DigiCert合作，在Adobe的生產伺服器上購買及部署您的憑證。
+
+   如果客戶購買憑證(BYOC),Adobe客戶服務會將您透過您選擇的憑證授權機構購買憑證時需要用到的憑證簽署要求(CSR)寄回給您。 一旦核發憑證後，您將需要將憑證副本和任何中間憑證傳回Adobe Client Care以進行部署。
+
+   當您的實作準備就緒時，Adobe Client Care會通知您。
 
 1. 完成上述工作後，Adobe Client Care已通知您實作已就緒，您必須在at.js中將 `serverDomain` 更新為新的CNAME。
 
@@ -61,23 +58,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 下列資訊可回答有關在中要求和實作CNAME支援的常見問題 [!DNL Target]:
 
-### 我是否可提供我自己的憑證（又稱為攜帶您自己的憑證或BYOC）? 如果是，程式是什麼？
+### 我是否可提供我自己的憑證（又稱為攜帶您自己的憑證或BYOC）?
 
 是的，您可以提供您自己的憑證； 但不建議使用。 Adobe和您在購買及控制憑證時，SSL憑證生命週期的管理會變得更輕鬆。 SSL憑證必須每年更新一次，這表示Adobe Client Care必須每年與您聯絡，以便及時傳送新憑證給Adobe。 有些客戶可能每年都無法及時產生更新的憑證，這會危及其實作，因為當憑證過期時， [!DNL Target] 瀏覽器會拒絕連線。
 
 >[!IMPORTANT]
 >
 >請注意，如果您要 [!DNL Target] 求實作攜帶自有憑證的CNAME，您有責任每年向Adobe Client Care提供續約憑證。 若您的CNAME憑證在Adobe部署續約的憑證之前到期，將會導致您的特定實作中斷 [!DNL Target] 運作。
-
-1. 略過上述步驟1，但完成步驟2和3。 當您開啟Adobe Client Care票證（步驟3）時，請通知他們您將提供您自己的憑證。
-
-   Adobe會產生並傳送憑證簽署要求(CSR)給您。
-
-1. 使用CSR透過您選擇的認證授權機構(CA)購買認證。
-
-1. 傳送新的公開憑證至Adobe。 Adobe代表將會將公開憑證部署在其生產伺服器上。
-
-1. 在Adobe Client Care通知您實作已就緒後，完成步驟4。
 
 ### 新SSL憑證到期的時間？
 
@@ -101,6 +88,14 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 如需ITP的詳細資訊，請 [參閱Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
 
+### 部署CNAME實作時，我可能會預期發生何種服務中斷？
+
+在部署憑證時（包括憑證續約），不會中斷服務。 不過，當您將Target實作程式碼(`serverDomain` at.js)中的主機名稱變更為新的CNAME主機名稱(`target.example.com`)時，網頁瀏覽器會將舊訪客視為新訪客，其描述檔資料將會遺失，因為舊主機名稱(`clientcode.tt.omtrdc.net`)下的舊Cookie會因瀏覽器安全性模型而無法存取。 這只是一次性中斷，只有在初次切換新CNAME時，憑證續約不會有相同的效果，因為主機名稱不會變更。
+
+### 我的CNAME實作會使用何種金鑰類型和憑證簽名演算法？
+
+預設情況下，所有證書都是RSA SHA-256 ，密鑰是RSA 2048位。 目前不支援大於2048位元的金鑰大小。
+
 ### Adobe/DigiCert是否可將DCV電子郵件傳送至其他電子郵件地址 `<someone>@example.com`?
 
 否，DigiCert（或任何認證機構）將不允許只有網域下有電子郵件地址的任何人授權該網域下的SSL憑證，除非該電子郵件地址也包含在網域的WHOIS資訊或預先確定的位址清單中（請參閱上文）。 這可確保只有授權的個人才能核准特定網域的DCV。 如果這對您不可行，我們建議使用DNS CNAME DCV方法（請參閱上文）。
@@ -114,7 +109,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    ```
    function validateEdgeFpsslSni {
        domain=$1
-       for edge in mboxedge{17,21,22,26,{28..32},34,35,37,38}.tt.omtrdc.net; do
+       for edge in mboxedge{31,32,{34..38}}.tt.omtrdc.net; do
            echo "$edge: $(curl -sSv --connect-to $domain:443:$edge:443 https://$domain 2>&1 | grep subject:)"
        done
    }
@@ -130,17 +125,11 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    ```
    $ validateEdgeFpsslSni target.example.com
-   mboxedge17.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge21.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge22.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge26.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge28.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge29.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge30.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge31.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge32.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge34.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge35.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge36.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge37.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```
