@@ -5,10 +5,10 @@ title: 企業使用者權限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -280,7 +280,11 @@ Consider the following when using or configuring properties and permissions in [
 
 如果重新導向頁面和活動 URL 屬於相同的屬性，點擊追蹤會如運期般運作。如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md)。
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## 訓練影片
+
+以下影片含有本文章探討之概念的詳細資訊。
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 學習目標:
 
@@ -289,3 +293,14 @@ Consider the following when using or configuring properties and permissions in [
 * 供您的組織考慮的不同屬性範例
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### 辦公時間： Target Premium工作區
+
+這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
+
+* 建立工作區（產品設定檔）
+* 建立屬性
+* 新增使用者
+* 更新實作
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
