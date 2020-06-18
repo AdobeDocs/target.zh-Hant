@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1222'
 ht-degree: 34%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 6月17日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
+|  | [回應 Token](/help/administrating-target/response-tokens.md) | 已新增有關「自動目標」和「自動個人化」活 [!UICONTROL 動流量分配方法][!UICONTROL 的回應Token] 。 |
 |  | [活動建立](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已新增有關Analytics for Target(A4T)支援自動配置活動的資訊。 |
 |  | [使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 已在「指定角色和權限」 [!UICONTROL 下新增] 「發佈 *者」角色的相關資訊*。 |
 |  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已在步驟6下新增 [!UICONTROL Publisher] 角 *色的相關資訊： 指定角色和權限*。 |
