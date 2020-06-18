@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1570'
 ht-degree: 87%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 87%
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分<br>配方法僅 [!UICONTROL 適用於「自動目標] 」和「 [!UICONTROL 自動個人化] 」活動。 | `experience.trafficAllocationId` | 如果訪客收到來自「控制」流量的體驗，則傳回0；如果訪客收到來自「目標」流量分佈的體驗，則傳回1。 |
-   |  | `experience.trafficAllocationType` | 分別傳回「控制」和「已定位」。 |
+   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客收到來自「控制」流量的體驗，則傳回0；如果訪客收到來自「目標」流量分佈的體驗，則傳回1。 |
+   |  | `experience.trafficAllocationType` | 傳回「控制」或「已定位」。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
 
