@@ -5,10 +5,10 @@ title: 提升度和可信度 - A4T 常見問題集
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 55%
+source-wordcount: '496'
+ht-degree: 50%
 
 ---
 
@@ -42,9 +42,7 @@ ht-degree: 55%
 
 ## A4T 如何處理可信度計算? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T 對平方和資料採用非二進位量度計算。變數是利用平方和資料來計算。極端順序不納入考量。
-
-任何 Analytics 區段皆可套用至報表。在其他區段選項以外出現「極端順序」的原因在此。也可建立量度來做限制，例如訪客的轉換次數。
+A4T 對平方和資料採用非二進位量度計算。變數是利用平方和資料來計算。極端順序不納入考量。此外，信賴計算不適用於多個選件的Bonferroni修正。
 
 ## 提升度和可信度可用在隨選和報表產生器中嗎? 如果不是原生功能，我可以在產生器中自行操作嗎? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
