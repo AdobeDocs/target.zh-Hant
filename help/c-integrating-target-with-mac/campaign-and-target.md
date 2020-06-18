@@ -1,22 +1,25 @@
 ---
-keywords: 概覽和參考
+keywords: Overview and Reference
 description: 使用 Target 搭配 Adobe Campaign 來最佳化電子郵件內容。
 title: 將 Target 與 Adobe Campaign 整合
 topic: Standard
-uuid: 1a5b70e6-d501-4b52-bec8-4ae2e419d331
+uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c652be30b0dfede94457f402a8b540a35096bdb4
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 51%
 
 ---
 
 
 # 將 Target 與 Adobe Campaign 整合{#integrate-target-with-adobe-campaign}
 
-使用 Target 搭配 Adobe Campaign 來最佳化電子郵件內容。
+Use [!DNL Target] with [!DNL Adobe Campaign] to optimize email content.
 
-若要將電子郵件內容最佳化 (例如，針對男性和女性收件者，分別顯示不同選件)，您可以在 Target 中建立重新導向選件，然後利用 Adobe Campaign 來管理電子郵件選件。
+To optimize your email content--for example, to display different offers for male and female recipients--you can create a redirect offer in [!DNL Target], then use [!DNL Adobe Campaign] to manage the email offers.
 
-開啟電子郵件時即會進行整合。當客戶開啟電子郵件時，即會呼叫 Target 並顯示動態版的內容。內容包含所有瀏覽器皆支援的靜態影像。Target 會在對象或工作階段等級上追蹤對選件的反應，且這項資料會出現在 Target 報表中。
+開啟電子郵件時即會進行整合。When the customer opens the email, a call is made to [!DNL Target] and a dynamic version of the content appears. 內容包含所有瀏覽器皆支援的靜態影像。[!DNL Target] 會在對象或工作階段等級上追蹤對選件的反應，且這項資料會出現在 報表中。[!DNL Target]
 
 Target 可以追蹤下列資料:
 
@@ -24,41 +27,47 @@ Target 可以追蹤下列資料:
 * IP 位址
 * 地理位置
 * 與 Target 中的訪客 ID 相關聯的區段 (遵守法律許可)
-* 來自 Campaign Datamart 的資料
+* Data from [!DNL Campaign] Datamart
 
 具有幾項限制:
 
 * 因為僅能使用影像，內容無法個人化。
-* Adobe Campaign 中不會將追蹤合併。
+* Tracking is not consolidated in [!DNL Adobe Campaign].
 * 沒有統一的使用者體驗。
 
-   您必須使用 Target 和 Campaign 來設定整合的不同部分:
+   You must use both [!DNL Target] and [!DNL Campaign] to set up different parts of the integration:
 
-   * Target 中的 rawbox 和體驗
-   * Campaign 中的傳送
+   *  中的 rawbox 和體驗[!DNL Target]
+   >[!NOTE]
+   >
+   >使用rawbox和時，請參 [!DNL Target]閱「建立允許清單」下的重要安全性聲明，此清單指定已授權將mbox呼叫傳送至Target的主機 [](/help/administrating-target/hosts.md#allowlist)。
+
+   * The delivery in [!DNL Campaign]
+
+
 
 ## 開始之前 {#section_FF19BF1BCA064260930BF6C141313B0E}
 
-使用 Adobe Campaign 來設定鎖定目標的電子郵件選件之前，請在 Target 中設定下列各項:
+Before you use [!DNL Adobe Campaign] to set up your targeted email offers, set up the following in [!DNL Target]:
 
-* 兩個或更多個 Target 重新導向選件
+* Two or more [!DNL Target] redirect offers
 
    See [Create redirect offer](/help/c-experiences/c-manage-content/offer-redirect.md).
 * 具有每個選件的體驗以及所需[成功量度](/help/c-activities/r-success-metrics/success-metrics.md)的 Target 活動。
 
    請參閱[重新導向至 URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
-在設定整合的 Campaign 部分之前，請先在 Target 中啟動活動。
+Start the activity in [!DNL Target] before setting up the [!DNL Campaign] portion of the integration.
 
 ## 在 Adobe Campaign 電子郵件中包含 Target 選件 {#section_B201BBE27A704E18AF0D553F35695837}
 
-1. 在 Adobe Campaign 中建立電子郵件。
-1. 在電子郵件屬性中，按一下&#x200B;**[!UICONTROL 「包含]** &gt; **[!UICONTROL Adobe Target 提供的動態影像」]**。
+1. Create an email in [!DNL Adobe Campaign].
+1. 在電子郵件屬性中，按一下&#x200B;**[!UICONTROL 「包含」]** > **[!UICONTROL 「Adobe Target 提供的動態影像」]**。
 1. 從共用資產中選取預設影像。
 1. 指定位置 (rawbox)。
 1. 新增任何其他決策參數，例如收件者的性別。
 1. 預覽電子郵件，並為每個選件至少選取一位收件者 (在此範例中是一男一女)。
-1. 在 Campaign 中，定義您用來控制活動的 Target Edge 伺服器，以及租用戶的名稱。
-1. 指定用於 Experience Cloud 的外部帳戶，讓您可存取 Experience Cloud 中的資源。
+1. In [!DNL Campaign], define the [!DNL Target] Edge server you are using to control the activity and the name of the tenant.
+1. Specify the external account used for the [!DNL Adobe Experience Cloud] so you can access the resources in the [!DNL Experience Cloud].
 
-如需詳細資訊，請參閱 Adobe Campaign 說明文件。
+For more information, refer to the [!DNL Adobe Campaign] documentation.
