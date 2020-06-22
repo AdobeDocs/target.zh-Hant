@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 說明
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 93%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 93%
    + 報表 {#reporting}
       + [設定報表](/help/administrating-target/reporting.md)
       + [預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Dynamic Media Classic 整合](administrating-target/scene7-settings.md)
+   + [Scene7設定](administrating-target/scene7-settings.md)
    + [實施](/help/administrating-target/implementation.md)
    + [主機](administrating-target/hosts.md)
    + [環境](/help/administrating-target/environments.md)
