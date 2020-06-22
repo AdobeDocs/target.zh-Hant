@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '888'
+ht-degree: 48%
 
 ---
 
@@ -42,6 +42,18 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 依預設，所有 [!DNL Target] 使用者一開始都具有觀察者權限。
 
 Admin users are identified in the [!UICONTROL Users] list. 如果您需要變更存取層級，請連絡其中一個系統管理員使用者。
+
+## 從Target檢視使用者資訊
+
+您可以在Target環境中檢視目前使用者的清單，包括其每個工作區的角色，以及直接從Target內部傳送的電子郵件地址。
+
+若要檢視「使用者」頁面，請按一 **[!UICONTROL 下「管理]** >使 **[!UICONTROL 用者」]**。
+
+![Target中的使用者清單](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+
+>[!NOTE]
+>
+>若要管理現有使用者或新增使用者，您必須使用 [!UICONTROL Adobe Admin Console]，如下所述。
 
 ## 存取 Adobe Admin Console {#access}
 
