@@ -6,23 +6,23 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 87%
+source-wordcount: '1571'
+ht-degree: 85%
 
 ---
 
 
 # 回應 Token{#response-tokens}
 
-回應 Token 可讓您自動輸出 Target 的特定資訊 (促銷活動詳細資料、使用者設定檔資訊、地理資訊等)，以用於除錯或與第三方系統整合 (例如 Clicktale).
+Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
 >[!NOTE]
 >
 >本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
-回應 Token 可讓您選擇要採用的變數，然後將變數隨附於 mbox 回應一起傳送。若要這樣做，您只需要利用開關來啟用變數，變數就會隨著 mbox 回應一起傳送，而在網路呼叫中可驗證變數。回應 Token 也可以預覽模式下運作。
+回應 Token 可讓您選擇要採用的變數，然後將變數隨附於 mbox 回應一起傳送。若要這樣做，您只需要利用開關來啟用變數，變數就會隨著 mbox 回應一起傳送，而在網路呼叫中可驗證變數。Response tokens work in [!UICONTROL Preview] mode as well.
 
 外掛程式和回應 Token 之間的主要差異在於，外掛程式會將 JavaScript 傳送至頁面，此頁面會在傳送後立即執行，而回應 Token 會傳送物件，可利用事件接聽程式來讀取並處理此物件。如需詳細資訊，請參閱 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)和本章稍後的範例。回應 Token 方法比較安全，而且在開發和維護第三方整合時較輕鬆。
 
