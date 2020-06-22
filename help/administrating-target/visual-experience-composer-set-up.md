@@ -4,10 +4,10 @@ description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定�
 title: 設定Adobe Target Visual Experience Composer
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # 設定視覺體驗撰寫器
 
 透過指 [!DNL Adobe Target] 定其一般設定、行動檢視埠設定和CSS選擇器，來設定Visual Experience Composer  (VEC)。
+
+>[!NOTE]
+>
+>下面列出的本節主題已更新，讓您在20.6.1版（2020年7月）中的 [!DNL Target Standard/Premium] UI變更搶先登峰造極。 這些主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 若要存取「 [!UICONTROL Visual Experience Composer] 」設定頁面，請按一下「 **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer」]。**
 
@@ -38,15 +42,15 @@ ht-degree: 57%
 
 ### 啟用增強體驗撰寫器
 
-允許在 iframe-busting 網站以及含有混合內容的網站上編輯。有些網站可能與增強版不相容。 取消選取此選項，可回復為原始的Visual Experience Composer。 此選擇不會影響網站上的活動傳送。
+允許在 iframe-busting 網站以及含有混合內容的網站上編輯。有些網站可能與增強版不相容。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 此選擇不會影響網站上的活動傳送。
 
 如需詳細資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
-您也可以在活動層級啟用「增強的體驗撰寫器」。
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### 載入混合內容
 
-在使用增強體驗撰寫器 (EEC) 開啟網站時啟用混合內容。Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 例如，如果：
 
