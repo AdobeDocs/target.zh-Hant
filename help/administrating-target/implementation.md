@@ -5,17 +5,17 @@ title: 實作 Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 32%
 
 ---
 
 
 # 實施
 
-開始使用 [!DNL Adobe Target] 之前，您應該在您的網站上實作它、瞭解一些基本概含和字詞、熟悉 [!DNL Target] 如何運作以及如何與您的基礎架構整合，以及瞭解 [!DNL Target] 系統如何追蹤訪客。
+Before you start using [!DNL Adobe Target], you should implement it on your site, understand a few basic concepts and terms; be familiar with how [!DNL Target] works and integrates with your infrastructure; and understand how visitors are tracked by the [!DNL Target] system.
 
 如需詳細資訊，請參閱「實作目標」下的 [各種主題](/help/c-implementing-target/implementing-target.md)。
 
