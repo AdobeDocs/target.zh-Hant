@@ -5,10 +5,10 @@ title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1127'
+ht-degree: 54%
 
 ---
 
@@ -24,12 +24,6 @@ ht-degree: 0%
 主機管理的主要目標是確保網站上沒有意外出現非使用中的內容。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 主機是指您在任何專案階段進行期間支援內容的任何所在網站伺服器 (或網站網域)。系統會識別所有做為 mbox 的主機。
-
-主機會整合至環境以便輕鬆管理。例如，您可能有許多主機聚集在兩個或三個環境中。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 您可以新增環境並重新命名環境 (如需要)。
-
-One environment, the default environment, is pre-named [!UICONTROL Production]. 即使重新命名此預設環境，亦無法刪除此環境。[!DNL Target] 假設這是您提供最終批准活動與測試的地方。
-
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
 
 [!DNL Target] 不限制可傳送和接收mbox的主機，因此，當出現新的伺服器或網域時，它們會自動運作（除非您已設定allowlist或區塊清單）。 這樣也可讓您針對未知或無法預測的其他網域進行廣告測試。
 
@@ -62,7 +56,7 @@ When an mbox request is received from new websites or domains, these new domains
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. 這是最安全的環境，因為它不允許從這些主機檢視未批准的活動。
 
-1. （條件性）按一下「移動」 ![圖示(移動圖示](/help/administrating-target/assets/icon-move.png) )，將主機移至「開 [!UICONTROL 發]」、「 [!UICONTROL 測試]」或其他環境。
+1. （條件性）按一 **[!UICONTROL 下「移動]** 」圖示( ![移動圖示](/help/administrating-target/assets/icon-move.png) )，將主機移入「開發 [!UICONTROL 」、「Staging]」或「StagingLink」或其他環境。
 
 >[!NOTE]
 >
@@ -122,8 +116,6 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 >如有任何人瀏覽到主機上的 mbox 頁面，則主機會再次列出。
 
 ## 疑難排解主機 {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-在 [!DNL Adobe Target] 中管理和疑難排解主機的最佳作法。
 
 如果遇到主機方面的問題，請嘗試下列疑難排解訣竅:
 
