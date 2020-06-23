@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 6 月 17 日**
+**上次更新: 2020 年 6 月 23 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -35,19 +35,45 @@ ht-degree: 14%
 * **目標公告**: 請參閱Target公告頁面，以取得近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。 如需詳細資訊，請參閱 [Target公告](/help/r-release-notes/target-announcements.md)。
 
 
-## Target Standard/Premium 20.5.1 (2020 年 6 月 17 日)
+## Target Standard/Premium 20.6.1（2020年7月，確切日期待定）
 
-| 功能/增強功能 | 說明 |
-| --- | --- |
-| 目標分析 (A4T) 對自動分 [!UICONTROL 配活動的支援] | [!UICONTROL 自動配置活動] ，現在支援 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用 [!UICONTROL Auto-Allocate] multi-firled Bandit功能，將流量驅動至成功體驗，同時使用 [!UICONTROL Adobe Analytics] 目標量度及／或  Adobe Analytics報告與分析功能。<br>如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試和體驗定位活動搭配使用，一切就緒！<br>如需詳細資訊，請 [參閱「活動建立」中自動配置活動的Analytics for Target(A4T)](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*支援*。 |
-| 用於自動定位和自動個人化活動的流量分配方法的回應Token | 已 [將兩個回應Token新增至](/help/administrating-target/response-tokens.md) Auto-Target [!UICONTROL 和] Automated Personalization  （自動個人化）活動，以判斷訪客是因為被指派至「控制」或「目標」流量而收到特定體驗。<ul><li>`experience.trafficAllocationId` 如果訪客從「控制」流量中收到體驗，則會傳回0；如果訪客從「已定位」流量分佈中收到體驗，則會傳回1。</li><li>`experience.trafficAllocationType` 將會傳回「控制」或「已定位」。</li></ul>如需控制與目標流量的詳細資訊，請參 [閱選取「自動個人化」或「自動目標」活動的控制項](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
-| [!UICONTROL 發佈者] 角色 | 此新角色類似於當前的 [!UICONTROL Observer] 角色（可以查看活動，但不能建立或編輯活動）。 不過，「發 [!UICONTROL 布者] 」角色具有啟動活動的額外權限。<br>如需詳細資訊，請參閱: <ul><li>**Target Standard使用者**: [在「使用者」中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *權限*。</li><li>**Target Premium使用者**: [步驟6: 在「設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 」中 *指定角色和權限*。</li></ul> |
-| 2020年6月25日 [!DNL Analysis Workspace]<br>提供A4T支援 | [!UICONTROL Analytics for Target] (A4T)現在支援 [!DNL Analysis Workspace]。 「 [!UICONTROL Analytics for Target(A4T)」面板] ，可讓您分析 [!DNL Adobe Target] 中的活動和體驗 [!DNL Analysis Workspace]。<br>如需詳細資訊，請 [參閱「A4T報表」和「](/help/c-integrating-target-with-mac/a4t/reporting.md) Analytics工具指南」中「Analytics中的報表」(位於 *A4T報表和Analytics for Target* (A4T)面板) [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**。 |
+此版本包含下列增強功能:
 
-### 增強功能、修正和變更
+### Analytics for Target(A4T)支援 [!UICONTROL Auto-Target活動]
 
-* 修正造成「訪客」量度儲存在活動定義而非「獨特訪客」中的問題。 (TGT-37098)
-* 修正UI中導致 [!DNL Target] 垂直捲軸在「觀眾」頁面上無法正確運 [!UICONTROL 作的問題] 。 (TGT-36968)
+[!UICONTROL Auto-Target活動] ，現在支援 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+
+此整合使用進階的機器學習功能，從多個高效能行銷人員定義的體驗中選擇，以個人化內容並推動轉化。 自動鎖定目標會根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
+
+如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試活動搭配使用，一切就緒！
+
+### [!UICONTROL 管理區] UI重新整理
+
+我們已更新「管 [!UICONTROL 理] 」區段(先前稱為 [!UICONTROL 「管理員]」)及其頁面，讓您的工作流程更輕鬆、更有效率。
+
+重點包括：
+
+* **[!UICONTROL 「視覺體驗撰寫器]」頁面&#x200B;**: 這個新頁面(「管**[!UICONTROL 理&#x200B;]**>視覺**[!UICONTROL 體驗撰寫器&#x200B;]**」)可讓您：
+
+   * 設定VEC的一般設定(指定預設URL、啟用 [!UICONTROL Enhanced Experience Composer]、載入混合內容，以及在活動流程圖中產生體驗快照)
+   * 設定行動檢視區
+   * 設定CSS選擇器
+
+* **[!UICONTROL 報告頁]**: 這個新頁面(「管**[!UICONTROL 理&#x200B;]**>報表**[!UICONTROL 」)可讓您設定一般設定，以用於套用&#x200B;]**至整個帳戶的報表[!DNL Target][!DNL Target]中。
+
+   可用的設定包括：
+
+   * 用於 [!DNL Adobe Experience Cloud] 報告的解決方案
+   * 用於報告的時區
+   * 用於報告的貨幣
+   * 要排除在報告之外的IP位址
+   * 是否在報告中顯示預估的收入提升
+   * 是否啟用細粒度的優先順序
+
+* 上一頁 [!UICONTROL 的「主機] 」已分割為兩個新頁面：
+
+   * [!UICONTROL 主機]
+   * [!UICONTROL 環境]
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
