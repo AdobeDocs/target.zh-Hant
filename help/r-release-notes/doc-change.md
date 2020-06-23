@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1273'
 ht-degree: 33%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 6月23日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關6月24日Adobe Target Coffee Break的資訊。 |
 |  | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 已新增注意，不建議建立使用另一個描述檔指令碼中一個描述檔指令碼結果的相依描述檔指令碼。 |
+|  | [at.js 如何運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 已新增下列視訊： 辦公時間： at.js秘訣與概觀 |
 | 6月17日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
 |  | [回應 Token](/help/administrating-target/response-tokens.md) | 已新增有關「自動目標」和「自動個人化」活 [!UICONTROL 動流量分配方法][!UICONTROL 的回應Token] 。 |
 |  | [活動建立](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已新增有關Analytics for Target(A4T)支援自動配置活動的資訊。 |
