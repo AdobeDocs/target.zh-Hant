@@ -5,10 +5,10 @@ title: 將 Recommendations 與電子郵件整合
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 92%
+source-wordcount: '1459'
+ht-degree: 90%
 
 ---
 
@@ -63,6 +63,10 @@ curl -X POST \
 ## Option 2: Use a rawbox email template {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 rawbox 類似於 mbox 要求，但是是用於非 Web 環境，例如電子郵件服務提供者 (ESP)。因為您沒有 [!DNL mbox.js] 或 [!DNL at.js] 可在 rawbox 要求中使用，您必須手動建立您的要求。以下範例說明如何在電子郵件中使用 rawbox 要求。
+
+>[!NOTE]
+>
+>使用rawbox和時，請參 [!DNL Target]閱「建立允許清單」下的重要安全性聲明，此清單指定已授權將mbox呼叫傳送至Target的主機 [](/help/administrating-target/hosts.md#allowlist)。
 
 透過該方法，您可在電子郵件中追蹤建議的效能，以正常方式測試建議，並繼續在網站上追蹤。
 
