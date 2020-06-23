@@ -5,7 +5,10 @@ title: Adobe Target at.js JavaScript程式庫的運作方式
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -91,10 +94,27 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 * at.js 不對遠端指令碼的執行順序提供任何保證，因為這些會以非同步的方式載入。
 * 內嵌指令碼在遠端指令碼上不應有任何相依性，因為這些會在之後載入及執行。
 
-## 訓練影片：at.js 2.x架構圖概述 ![徽章](/help/assets/overview.png)
+## 訓練影片
+
+以下影片含有本文章探討之概念的詳細資訊。
+
+### at.js 2.x架構圖概述 ![徽章](/help/assets/overview.png)
 
 at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+
+### 辦公時間： at.js秘訣與概觀（2019年6月26日）教學課 ![程徽章](/help/assets/tutorial.png)
+
+這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
+
+* 使用at.js的優點
+* at.js設定
+* 閃爍處理
+* Debugging at.js
+* 已知問題
+* 常見問題解答
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
