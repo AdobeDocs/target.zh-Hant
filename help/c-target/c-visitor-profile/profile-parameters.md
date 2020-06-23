@@ -5,10 +5,10 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 80%
+source-wordcount: '2442'
+ht-degree: 79%
 
 ---
 
@@ -80,6 +80,7 @@ if (mbox.name == 'Track_Interest') {
 * 如需更多 JavaScript 語法，請參閱以下「指令碼設定檔參數的 JavaScript 參考資料」一節。
 * 停用指令碼後，參數仍會保留在描述檔中。 如果使用者的設定檔已包含用於活動對象的參數，則該活動將符合該使用者的資格。
 * 配置檔案指令碼在活動中使用時無法刪除。
+* 不建議在另一個描述檔指令碼中建立使用一個描述檔指令碼結果的相依描述檔指令碼。 不保證描述檔指令碼的執行順序。
 
 ## 檢視設定檔指令碼資訊卡 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
