@@ -5,9 +5,9 @@ title: Adobe Target at.js JavaScript程式庫的運作方式
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1108'
 ht-degree: 88%
 
 ---
@@ -66,6 +66,14 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | Analytics 資料傳送至資料收集伺服器。 |
 | 6 | Target 資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 A4T 報表來檢視 Analytics 資料。 |
 
+### at.js 2.x架構圖概述 ![徽章](/help/assets/overview.png)
+
+at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+
 ## at.js 1.x 圖表
 
 ![Target 流程 - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
@@ -76,6 +84,19 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | 提出全域 mbox 請求，含所有已設定的參、MCID、SDID 和客戶 ID (可選)。 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從[!UICONTROL 對象資料庫]中要求合格對象 (例如從 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共用的對象)。<br>客戶屬性會透過批次程序傳送至 [!DNL Profile Store]。 |
 | 5 | [!DNL Target] 根據 URL、mbox 參數和設定檔資料，決定要傳回給訪客的活動和體驗。 | 6 | 已鎖定的目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>體驗會儘快出現，不會有忽隱忽現的預設內容。 |
 | 7 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 | 8 | [!DNL Target] 資料會透過 SDID 來比對 [!DNL Analytics] 資料，然後經過處理放入 [!DNL Analytics] 報表儲存體中。然後就可以在 <br>[!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] (A4T) 報表來檢視 [!DNL Analytics for Target] 資料。 |
+
+### 辦公時間： at.js秘訣與概觀（2019年6月26日）教學課 ![程徽章](/help/assets/tutorial.png)
+
+這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
+
+* 使用at.js的優點
+* at.js設定
+* 閃爍處理
+* Debugging at.js
+* 已知問題
+* 常見問題解答
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
 
 ## at.js 如何呈現具有 HTML 內容的選件 {#render}
 
@@ -93,28 +114,3 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 * at.js 不對遠端指令碼的執行順序提供任何保證，因為這些會以非同步的方式載入。
 * 內嵌指令碼在遠端指令碼上不應有任何相依性，因為這些會在之後載入及執行。
-
-## 訓練影片
-
-以下影片含有本文章探討之概念的詳細資訊。
-
-### at.js 2.x架構圖概述 ![徽章](/help/assets/overview.png)
-
-at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
-
->[!VIDEO](https://video.tv.adobe.com/v/26250)
-
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
-
-### 辦公時間： at.js秘訣與概觀（2019年6月26日）教學課 ![程徽章](/help/assets/tutorial.png)
-
-這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
-
-* 使用at.js的優點
-* at.js設定
-* 閃爍處理
-* Debugging at.js
-* 已知問題
-* 常見問題解答
-
->[!VIDEO](https://video.tv.adobe.com/v/27959)
