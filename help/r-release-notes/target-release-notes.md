@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 19%
+source-wordcount: '684'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 6 月 23 日**
+**上次更新: 2020 年 6 月 24 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -49,9 +49,18 @@ ht-degree: 19%
 
 ### [!UICONTROL 管理區] UI重新整理
 
-我們已更新「管 [!UICONTROL 理] 」區段(先前稱為 [!UICONTROL 「管理員]」)及其頁面，讓您的工作流程更輕鬆、更有效率。
+我們使用新技術堆疊逐漸重寫整個 [!DNL Target] UI，以提供改善的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 刷新的第一個部分是 [!UICONTROL Setup] （設定）部分，該部分已更名為 [!UICONTROL Administration]（管理）。
 
-重點包括：
+在重新整理時，您將可以使用「管理」區段中的頁面輕鬆執行許多 [!UICONTROL 動作] ，例如：
+
+* 從「實作」標籤(「管理 [!UICONTROL >實作] 」)下載最新的at.js ********&#x200B;檔案。
+* 自訂您的at.js設定，並可輕鬆檢閱變更(「管&#x200B;**[!UICONTROL 理]** >實 **[!UICONTROL 作]**」)。
+* 修改增強的報表設定，例如預設貨幣和時區、要排除在報表外的IP等。 (管&#x200B;**[!UICONTROL 理]** >報 **[!UICONTROL 告]**)
+* 基於隱私權原因模糊化訪客IP位&#x200B;**[!UICONTROL 址(]** 「管理 **[!UICONTROL >]**&#x200B;實作」)
+* 在Adobe Admin Console（「管理」>「使用者」）中管理使用者之前，檢視每個工作區及其角色的&#x200B;**[!UICONTROL 現有]****[!UICONTROL 使用者清單]**。
+* 在「管理」區段中搜尋並篩選所 [!UICONTROL 有表格] 。
+
+重大變動包括：
 
 * **[!UICONTROL 「視覺體驗撰寫器]」頁面&#x200B;**: 這個新頁面(「管**[!UICONTROL 理&#x200B;]**>視覺**[!UICONTROL 體驗撰寫器&#x200B;]**」)可讓您：
 
