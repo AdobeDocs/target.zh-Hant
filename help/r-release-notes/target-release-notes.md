@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ ht-degree: 15%
 * 基於隱私權原因模糊化訪客IP位&#x200B;**[!UICONTROL 址(]** 「管理 **[!UICONTROL >]**&#x200B;實作」)
 * 在Adobe Admin Console（「管理」>「使用者」）中管理使用者之前，檢視每個工作區及其角色的&#x200B;**[!UICONTROL 現有]****[!UICONTROL 使用者清單]**。
 * 在「管理」區段中搜尋並篩選所 [!UICONTROL 有表格] 。
-
-重大變動包括：
-
-* **[!UICONTROL 「視覺體驗撰寫器]」頁面&#x200B;**: 這個新頁面(「管**[!UICONTROL 理&#x200B;]**>視覺**[!UICONTROL 體驗撰寫器&#x200B;]**」)可讓您：
-
-   * 設定VEC的一般設定(指定預設URL、啟用 [!UICONTROL Enhanced Experience Composer]、載入混合內容，以及在活動流程圖中產生體驗快照)
-   * 設定行動檢視區
-   * 設定CSS選擇器
-
-* **[!UICONTROL 報告頁]**: 這個新頁面(「管**[!UICONTROL 理&#x200B;]**>報表**[!UICONTROL 」)可讓您設定一般設定，以用於套用&#x200B;]**至整個帳戶的報表[!DNL Target][!DNL Target]中。
-
-   可用的設定包括：
-
-   * 用於 [!DNL Adobe Experience Cloud] 報告的解決方案
-   * 用於報告的時區
-   * 用於報告的貨幣
-   * 要排除在報告之外的IP位址
-   * 是否在報告中顯示預估的收入提升
-   * 是否啟用細粒度的優先順序
-
-* 上一頁 [!UICONTROL 的「主機] 」已分割為兩個新頁面：
-
-   * [!UICONTROL 主機]
-   * [!UICONTROL 環境]
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
