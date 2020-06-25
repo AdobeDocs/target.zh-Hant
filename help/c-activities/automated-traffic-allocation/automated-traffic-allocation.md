@@ -5,9 +5,9 @@ title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3014'
 ht-degree: 89%
 
 ---
@@ -83,7 +83,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 如果活動只有兩個體驗，則兩者會獲得相等的流量，直到 Target 找到具有 90% 可信度的體驗為止。屆時，70% 的流量會分配給獲勝者，30% 分配給失敗者。在該體驗達到 95% 可信度之後，100% 的流量會分配給獲勝者，0% 分配給失敗者。
 
-在自動分配活動的模型就緒之後 (每個體驗至少有 1,000 位訪客和 50 次轉換)，即不允許從 UI 執行下列操作:
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * 將「流量配置」模式切換為「手動」
 * 變更目標量度類型
