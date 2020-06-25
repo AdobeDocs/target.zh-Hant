@@ -1,11 +1,14 @@
 ---
-keywords: 訓練影片；youtube；影片；視訊訓練；教學課程；教學課程；影片
+keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: 觀看訓練影片來協助您善用 Target Standard 和 Target Premium。
 title: Adobe Target Standard 和 Premium 的訓練影片
-topic: 進階
+topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## Adobe Target - 教學課程和影片
 
-一系列使用方法影片和教學課程，重點說明 [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 頁面上提供的 Target 功能。
+A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
 
 ![Experience League 影片](/help/c-intro/assets/experience-league.png)
 
