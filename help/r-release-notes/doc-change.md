@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1287'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 6月25日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.6.1版本（2020年7月）的資訊。 |
 | 6月23日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關6月24日Adobe Target Coffee Break的資訊。 |
 |  | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 已新增注意，不建議建立使用另一個描述檔指令碼中一個描述檔指令碼結果的相依描述檔指令碼。 |
 |  | [at.js 如何運作](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 已新增下列視訊： 辦公時間： at.js秘訣與概觀 |
