@@ -1,11 +1,14 @@
 ---
-keywords: 遠端選件; 遠端選件選取矩陣; 快取內容; 動態內容
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: 使用遠端選件來主控 Target 所參考且位於 Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
 title: 建立遠端選件
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -30,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **建立遠端選件:**
 
-1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**「代碼選件」]索引標籤。[!UICONTROL **
-1. 按一下&#x200B;**[!UICONTROL 「建立]** &gt; **[!UICONTROL 遠端選件」]**。
+1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「代碼選件」]**&#x200B;索引標籤。
+1. 按一下&#x200B;**[!UICONTROL 「建立」]** > **[!UICONTROL 「遠端選件」]**。
 
    ![](assets/remote_offer_ui.png)
 
@@ -78,6 +81,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 內容更新 | 每 2 個小時快取 | 每次要求時立即更新 |
 | 載入時間 | 更快 | 較慢，因為處理請求 |
 | 可在頁面上看到 JavaScript | 是 | 否，但可以透過 URL 傳遞 |
-| 選件可以包含 JavaScript | 是 | 無 |
+| 選件可以包含 JavaScript | 是 | 是 |
 | 選件 URL | 絕對或相對 | 相對 |
 | 請求的電腦 | Adobe 伺服器 | 訪客的電腦，具有訪客的 Cookie |
