@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 >
 >本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
-回應 Token 可讓您選擇要採用的變數，然後將變數隨附於 mbox 回應一起傳送。若要這樣做，您只需要利用開關來啟用變數，變數就會隨著 mbox 回應一起傳送，而在網路呼叫中可驗證變數。Response tokens work in [!UICONTROL Preview] mode as well.
+回應Token可讓您選擇要運用的變數，然後讓這些變數可作為Target回應的一部分傳送。 為此，您只需使用開關啟用變數，變數就會隨Target回應一併傳送，並可在網路呼叫中驗證。 Response tokens work in [!UICONTROL Preview] mode as well.
 
 外掛程式和回應 Token 之間的主要差異在於，外掛程式會將 JavaScript 傳送至頁面，此頁面會在傳送後立即執行，而回應 Token 會傳送物件，可利用事件接聽程式來讀取並處理此物件。如需詳細資訊，請參閱 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)和本章稍後的範例。回應 Token 方法比較安全，而且在開發和維護第三方整合時較輕鬆。
 
@@ -62,7 +62,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客收到來自「控制」流量的體驗，則傳回0；如果訪客收到來自「目標」流量分佈的體驗，則傳回1。 |
+   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「目標」流量分佈收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已定位」。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
