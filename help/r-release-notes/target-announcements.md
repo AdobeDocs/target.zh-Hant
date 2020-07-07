@@ -4,10 +4,10 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 0%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
@@ -16,18 +16,21 @@ ht-degree: 0%
 
 近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
 
-## Adobe Target Q&amp;A Coffee Break
+## Adobe Target社群問答咖啡休息
 
-* **2020年6月24日星期三**
-* **上午10:00至11:00 (PDT)**
+* **7月8日星期三**
+* **上午10:00 - 11:00 (PST)**
 
-我們將由Ram Parthasarathy（亦稱@ram_adobe）加入，該公司的主要產品經理 [!DNL Adobe Experience Cloud]。 Ram將登入，直接與 [!DNL Adobe Target Community] 您討論您有關其專業 [!DNL Target] 領域的問題：
+Adobe Target資深產品經理Rob Hornick將會與我們一起，他將登入Adobe Target社群，直接與您討論您有關Target專業領域的問題：
 
-* 一般主 [!DNL Target] 題
-* 下一個最佳優惠
-* 選件決策
+* 個人化
+* 機器學習與人工智慧
+* Recommendations
+* 自動分配
+* 自動鎖定目標
+* 自動個人化
 
-若要註冊， [請造訪Adobe Target社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286)。
+若要註冊， [請造訪Adobe Target社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558)。
 
 ## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
