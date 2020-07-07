@@ -5,10 +5,10 @@ title: 企業使用者權限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '2996'
-ht-degree: 84%
+source-wordcount: '2999'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多個網域和子網域的任何群組。
 
-屬性的啟用方式是透過新增特定名稱/值組做為參數以搭配到 [!DNL Target].
+透過新增特定名稱／值對作為參數與任何呼叫（Target呼叫、api呼叫等）來啟用屬性 到 [!DNL Target].
 
 屬性屬於特定管道 (Web、行動電話、電子郵件或 API/其他)。
 
@@ -244,7 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * 影像選件 (儲存在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的資產) 目前無法透過企業權限模型控制。
    * clickTracking 和重新導向，只有在目的地連結或目的地頁面屬於活動中所包含屬性的一部分時才有作用。此外，使用 `targetPageParams()` 函數時，clickTracking 可能無法使用。`targetPageParamsAll()` 為建議的函數。
 
-   [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。如果 Token (1) 不存在，(2) 未在活動設定 (VEC 內) 時偵測到，或 (3) 未透過 `targetPageParamsAll()` 函數傳遞至 clickTracking mbox，度量將不會遞增，並將顯示為「0」。
+   [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
 
    對於使用重新導向的活動也是相同的情況。目的地頁面必須具有 `at_property` Token，並且需在 VEC 內設定時辨識。
 
