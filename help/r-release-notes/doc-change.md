@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 33%
+source-wordcount: '1312'
+ht-degree: 32%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 7 年 7 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關7月8日Adobe Target Coffee Break的資訊。 |
 | 6月25日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.6.1版本（2020年7月）的資訊。 |
 |  | [Target檔案總覽](/help/r-release-notes/target-documentation.md) | 新主題，詳細說明不同的檔案 [!DNL Target] 來源。 |
 | 6月23日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關6月24日Adobe Target Coffee Break的資訊。 |
