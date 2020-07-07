@@ -5,10 +5,10 @@ title: 設定企業權限
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1469'
+ht-degree: 70%
 
 ---
 
@@ -104,7 +104,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## 步驟 4.Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-屬性的啟用方式是透過新增特定名稱/值組做為參數以搭配對 Target 的任何呼叫 (mbox 和 API 等)。
+透過新增特定名稱／值對作為參數與任何呼叫（Target呼叫、api呼叫等）來啟用屬性 對 Target 的任何呼叫 (mbox 和 API 等)。
 
 屬性屬於特定管道 (Web、行動電話、電子郵件和 API/其他)。
 
@@ -129,7 +129,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-若要使用 [!DNL Target] 使用者權限功能，您必須將 `at_property` 參數新增至點擊  (mbox、API 等等) 的任何呼叫。[!DNL Target]
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **若要取得`at_property`參數程式碼:**
 
