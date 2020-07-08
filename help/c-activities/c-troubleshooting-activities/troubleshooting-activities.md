@@ -1,11 +1,14 @@
 ---
-keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 出現上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪設定檔指令碼; ajax 無法使用
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: 如果您的活動未出現在網站上，這些疑難排解建議應可協助您尋找您的解決方案。
 title: 疑難排解活動
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 83%
 
 ---
 
@@ -54,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **選項:**
 
-* 前往可視化體驗撰寫器，按一下「URL &gt; 進階 &gt; [目前頁面]」。
+* 前往可視化體驗撰寫器，按一下「URL > 進階 > [目前頁面]」。
 
 ## 出現上一個體驗，而非新的體驗。
 
@@ -76,7 +79,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 當您加入 Target 中成為使用者時，需要具有「核准者」角色，才能建立活動。
 
 * 請要求帳戶的管理員將您變成「核准者」。
-* 如果您是管理員，請在 Target Standard 中從「設定 &gt; 使用者」將「核准者」角色授與您自己。
+* 如果您是管理員，請在 Target Standard 中從「設定 > 使用者」將「核准者」角色授與您自己。
 
    請參閱[將核准者角色指派給您自己](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -135,10 +138,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 再刪除一次。出現成功訊息。
 * 等待大約 10 分鐘，讓 Target Standard/Premium 匯入器執行。匯入器會更新設定檔指令碼清單。
 
-## 部分 ajax mbox 呼叫無法運作。
+## Some ajax [!DNL Target] calls are not working.
 
-**注意:** 具有相同 mbox 名稱但不同參數的多個 ajax mbox 呼叫將無法在相同頁面上運作。僅會發出第一次呼叫。
+**注意:**[!DNL Target] 具有相同 名稱但不同參數的多個 ajax 呼叫將無法在相同頁面上運作。僅會發出第一次呼叫。
 
-## 您已使用 Target API 來啟動活動，但活動在 Target UI 中顯示「非使用中」狀態。
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 執行特定動作時 (例如在 UI 外部使用 Target API 來啟動活動)，更新最多可能需要 10 分鐘才會傳播至 UI。
