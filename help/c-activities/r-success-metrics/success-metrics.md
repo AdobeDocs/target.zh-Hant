@@ -4,10 +4,10 @@ description: 在Adobe Target中，成功度量已預先設定，以用於報告�
 title: Adobe Target中的成功度量
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
@@ -35,14 +35,14 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 | 轉換 | 轉換型 | 轉換為當訪客在您定義的網站上執行某個動作時 (按一下按鈕、檢視頁面、完成調查或進行購買)。轉換可以每位訪客或每次任何訪客完成轉換時計入一次。 |
 | 收入 | 轉換型 | 造訪產生的收入。您可以從以下收入量度中選擇: <ul><li>每位訪客帶來的收入 (RPV)</li><li>平均訂購值 (AOV)</li><li>銷售總額</li></ul> |
 | 頁面檢視 | 參與型 | 每個不重複訪客都會被計為轉換。 |
-| 網站逗留時間 | 參與型 | 從訪客看到活動的第一個顯示 mbox 開始，一直到載入 mbox 作業的最後一頁為止，造訪所花費的時間 (以秒為單位)。 |
-| 自訂得分 | 參與型 | 根據指定給網站上造訪頁面的值，從訪客第一眼看到此活動的第一個顯示 mbox 開始計算彙總分數。 |
+| 網站逗留時間 | 參與型 | 從訪客看到活動的第一個顯示Target請求到載入作業中包含請求的最終頁面，瀏覽的逗留時間（以秒為單位）。 |
+| 自訂得分 | 參與型 | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 若為參與型量度 (非以轉換和收入為基礎的量度)，訪客每次瀏覽均須重新取得活動資格，以增加該工作階段計數。相關量度會在重新取得資格後開始增加計數，並在各訪客的工作階段結束後停止。閒置 30 分鐘後，工作階段就會結束。因此，您不會在測試當下看到結果，但可在該工作階段結束後幾分鐘內得知所有結果。
 
 您也可以建立自訂成功量度。
 
-選取成功量度之後，請選取訪客為了達成目標採取的動作。例如，選擇轉換量度，將它設為每位訪客計算一次，然後設定當訪客檢視某些頁面 (或一組頁面)、檢視特定 mbox 或點擊特定連結時是否達到成功。
+選取成功量度之後，請選取訪客為了達成目標採取的動作。For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 如果已啟用，某個「轉換的預計值」欄位 (「頁面分數」量度不可用) 可提供目標的值，但不適用其他量度。此值可讓 [!DNL Target] 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。針對所有收入量度 (每位訪客帶來的收入、平均訂購值、銷售總額和訂購)，預估會使用「每位訪客帶來的收入」。資料類型為貨幣。請參閱[預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
 
