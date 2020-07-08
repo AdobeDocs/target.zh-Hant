@@ -1,10 +1,13 @@
 ---
-keywords: 環境資料;工作階段資料;地理資料;地理位置資料;裝置資料;行動資料;屬性;設定檔屬性
+keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target 會自動收集和使用各種資料，在 Automated Personalization (AP) 和自動鎖定目標 (AT) 活動中建置其個人化演算法。當訪客進入 AP 或 AT 活動時，將會傳送資訊的快照至一組「訓練記錄」(個人化演算法將學習的訪客資料)。
 title: Adobe Target 個人化演算法的資料收集
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | Experience Cloud 區段 | Audience Manager 或 Analytics 中所建立的受眾且在整個 Experience Cloud 中共用 | `Custom - Experience Cloud Audience - [Audience Name]` | 自訂資料 |
 | [地理位置資料](#geo) | 有關訪客所在位置的資訊。<br>請參閱下方的「地理位置資料」。 | `Geo - [geo attribute]` | 城市<br>國家/地區<br>區域/州<br>郵遞區號<br>緯度<br>經度<br>ISP 或行動電信業者 |
 | 設定檔屬性 | 透過更新 API 直接上傳至 Target 設定檔的設定檔指令碼或屬性 | `Custom - Visitor Profile - [attribute name]` | 自訂資料 |
-| 反向連結 URL 參數 | 一般來說，反向連結 URL 為參考起始 mbox 呼叫的特定頁面的 URL。<br>請注意，此變數可能受到您的網站上使用者的活動以及網站的技術實作影響。 | `Custom - [Referring URL Parameter] - [Parameter value]` | 自訂資料 |
+| 反向連結 URL 參數 | 一般而言，反向連結URL是指引導Target呼叫的特定頁面的URL。<br>請注意，此變數可能受到您的網站上使用者的活動以及網站的技術實作影響。 | `Custom - [Referring URL Parameter] - [Parameter value]` | 自訂資料 |
 | 報表區段 | 活動設定中所設定的任何區段。 | `Reporting Segment -[Segment Name]` | 自訂資料 |
 | [工作階段資料](#session) | 存取活動時，訪客在工作階段中的行為的相關資訊。 | `Visitor Profile - [Attribute Name]` | 訪客設定檔 - 開始最近一次瀏覽 |
 | URL 參數 | Target 會檢查 URL 來擷取 URL 參數。 | `Custom - URL Parameter - [URL Parameter]` | 自訂資料 |
@@ -96,13 +99,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 訪客設定檔 - 第一次造訪 | 指定使用者與 Target 互動時的第一次造訪的時間。 | 雙倍，毫秒 |
 | 訪客設定檔 - 自上次造訪以來的時數 | 指定自上次造訪此特定活動以來的時數。 | 雙倍 (僅限正整數) 1、2、3 等 |
 | 訪客設定檔 - 位置/內容的曝光次數 | 指定特定活動中特定位置/內容組合的曝光次數。 | 雙倍 (僅限正整數) 1、2、3 等 |
-| 訪客設定檔 - 上次 Target 互動 | 指定上次與 Target 互動的時間。互動會在每個 mbox 要求中發生，因為目前的 Target 實施會更新每個要求上的設定檔。 | 雙倍，毫秒 |
+| 訪客設定檔 - 上次 Target 互動 | 指定上次與 Target 互動的時間。Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | 雙倍，毫秒 |
 | 訪客設定檔 - 活動前檢視的頁面 | 指定在訪客進入活動之前的頁面檢視總數 (曝光次數)，包括目前的造訪/工作階段。 | 雙倍 (僅限正整數) 1、2、3 等 |
 | 訪客設定檔 - 目前造訪中的頁面檢視數 | 指定在訪客進入活動之前，目前造訪/工作階段中的頁面檢視數。更準確地說，也就是曝光次數。這些曝光並不是真正的頁面檢視數，而是要求已到達 Target 的次數。針對逾時或是使用者未收到或檢視內容的任何其他原因，Target 無法將其加以區分。 | 雙倍 (僅限正整數) |
-| 訪客設定檔 - 目前造訪開始時間 | 指定 Target 的目前造訪/工作階段開始的時間。可以初始化 Target 的造訪，而不需要進入活動。只需要呼叫任何 mbox 即可。訪客在進入活動並拍攝快照之前可能需要一些時間。 | 雙倍，毫秒 |
+| 訪客設定檔 - 目前造訪開始時間 | 指定 Target 的目前造訪/工作階段開始的時間。可以初始化 Target 的造訪，而不需要進入活動。All that is required is a call to any [!DNL Target] request. 訪客在進入活動並拍攝快照之前可能需要一些時間。 | 雙倍，毫秒 |
 | 訪客設定檔 - 開始最近一次瀏覽 | 指定 Target 的上次造訪/工作階段開始的時間。此屬性會在工作階段過期時更新。<br>如果這是訪客的第一個工作階段，則會產生 `LAST_SESSION_START = 0.` | 雙倍，毫秒 |
 | 訪客設定檔 - 初次進入活動時自最近一次造訪以來的時間 | 指定上一個工作階段與使用者進入活動且執行快照之間的時間的持續時間。 | 雙倍，毫秒 |
-| 訪客設定檔 - 進入活動之前的造訪時間 | 指定上次與 Target 進行互動以及目前造訪開始時間之間的差異。此屬性可視為在使用者進入活動且執行快照之前的造訪/工作階段持續時間。<br>當工作階段開始且同一個 mbox 呼叫已觸發上次更新時間時 ，則會出現負值。負值應視為 0 (零)。 | 雙倍，毫秒 |
+| 訪客設定檔 - 進入活動之前的造訪時間 | 指定上次與 Target 進行互動以及目前造訪開始時間之間的差異。此屬性可視為在使用者進入活動且執行快照之前的造訪/工作階段持續時間。<br>[!DNL Target]當工作階段開始且同一個 呼叫已觸發上次更新時間時 ，則會出現負值。負值應視為 0 (零)。 | 雙倍，毫秒 |
 | 訪客設定檔 - 瀏覽總數 | 指定指定造訪/工作階段總數。不包含目前的造訪/工作階段。 | 雙倍 (僅限正整數) 1、2、3 等 |
 | 訪客設定檔 - 活動的總造訪次數 | 指定特定活動的造訪次數。如果之前沒有任何造訪，則會傳回 0 (零)。 | 雙倍 (僅限正整數) 1、2、3 等 |
 | 訪客設定檔 - 包含轉換之活動的總造訪次數 | 指定造訪期間至少有一個轉換時，特定活動的造訪/工作階段數目。 | 雙倍 |
