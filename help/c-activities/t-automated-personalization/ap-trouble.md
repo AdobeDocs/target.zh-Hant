@@ -3,7 +3,10 @@ description: 有時活動不會如預期般進行。以下是使用自動個人�
 title: 疑難排解自動個人化
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +39,7 @@ AP 活動產生提升度需要數個係數:
 
 ## 我的 AP 活動 URL 在不正確的頁面顯示選件內容。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
-在 AP 中，URL 和範本測試規則會新增至 mbox 輸入限制 (例如，target-global-mbox)，在此只會對它們評估一次。一旦使用者符合行銷活動的資格，即不會重新評估 mbox 層級的鎖定目標規則。不過，鎖定目標對象會新增至位置鎖定目標規則。
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. 一旦使用者符合活動資格，就不會重新評估Target-request層級的定位規則。 不過，鎖定目標對象會新增至位置鎖定目標規則。
 
 **解決方案:** 以行銷活動輸入對象的形式新增必要的範本規則。在每個要求/呼叫時都會進行對象評估。
 
