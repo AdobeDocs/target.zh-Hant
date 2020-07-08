@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 81%
+source-wordcount: '1567'
+ht-degree: 78%
 
 ---
 
@@ -51,7 +51,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    | 類型 | 參數 | 附註 |
    |--- |--- |--- |
-   | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，一個頁面上有兩個 mbox 傳送兩個不同活動，第二個 mbox 將同時包含這兩個活動。 |
+   | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.isNewSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.daysSinceLastVisit` | 傳回訪客上次造訪後所經過的天數。 |
@@ -62,7 +62,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「目標」流量分佈收到體驗，則傳回1。 |
+   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客收到來自「控制」流量的體驗，則傳回0；如果訪客收到來自「目標」流量分佈的體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已定位」。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
@@ -71,7 +71,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    >
    >含特殊字元的參數不會顯示在清單中。僅支援英數字元和底線。
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    按一 **[!UICONTROL 下「新增回應Token]**」、提供Token名稱，然後按一下「 **[!UICONTROL 啟動]**」。
 
@@ -79,7 +79,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. 建立活動。
 
-使用 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)接聽 mbox 回應並讀取回應 Token。
+使用 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)接聽 回應並讀取回應 Token。[!DNL Target]
 
 下列程式碼範例直接將 [!DNL at.js] 自訂事件處理常式新增至 HTML 頁面:
 
@@ -136,15 +136,15 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **如果在網站的某些頁面上使用 at.js 1.1 (或更新版)，但在其他頁面上使用 mbox.js，將會發生什麼情形?**
 
-回應 Token 會傳送至 [!DNL at.js] mbox 回應，但不會傳送至 [!DNL mbox.js] 回應。
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **我可以同時使用 Target Classic 外掛程式和回應 Token 嗎?**
 
 外掛程式和回應 Token 平行可用，但未來將淘汰外掛程式。
 
-**回應 Token 是透過所有 mbox 回應來傳送? 還是只透過傳送活動的 mbox 來傳送?**
+**回應Token是透過所有回應傳遞[!DNL Target]，還是僅透過回應[!DNL Target]傳遞活動傳遞？**
 
-回應 Token 只會透過傳送活動的 mbox 來傳送。
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **我的 Target Classic 外掛程式包含 JavaScript。如何使用回應 Token 來複寫其功能?**
 
