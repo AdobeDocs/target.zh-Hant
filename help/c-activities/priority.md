@@ -1,11 +1,14 @@
 ---
-keywords: 設定; 優先順序
-description: Adobe target會根據您使用的Target介面和活動建立功能（視覺體驗撰寫器或表單式撰寫器），以不同方式決定要傳送至頁面的活動（或活動）。
-title: Adobe target中的優先順序
+keywords: settings;priority
+description: Adobe Target會根據您使用的Target介面和活動建立功能（視覺體驗撰寫器或表單式撰寫器），以不同方式決定要傳送至頁面的活動（或活動）。
+title: Adobe Target中的優先順序
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1167'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 根據您使用的 Target 介面以及活動建立功能類型 (可視化體驗撰寫器或表單式撰寫器)，Target 會針對要傳遞至頁面的活動 (或哪些活動) 進行不同判斷。
 
-## 僅限 Target Standard/Premium 可視化體驗撰寫器，或僅限使用全域 mbox 的表單式撰寫器 {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 如果您的公司僅使用 Target Standard/Premium 和可視化體驗撰寫器，則同一個呼叫可能傳回多個活動的內容。活動依據下列決策流程來傳送:
 
@@ -46,8 +49,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果您的公司使用 Target Standard/Premium 中的表單式撰寫器和 Target Standard/Premium 可視化體驗撰寫器，則可以傳送來自多個可視化體驗撰寫器活動的內容，但從表單式工作流程只能傳送一個活動的內容。活動傳遞是使用下列決策流程決定:
 
-1. Target 伺服器呼叫隨附 mbox 和 URL 的相關資訊而傳到 Target。
-1. Target Classic 和 Standard 標準提取該 mbox 中執行的每一個活動。
+1. Target server call comes to Target with information about the [!DNL Target] request and URL.
+1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
 1. Target 會嘗試將訪客匹配到活動。
 
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
@@ -63,17 +66,17 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果兩個已鎖定的目標活動有相同的優先順序，則會顯示最近檢視的活動。如果訪客是首次前往頁面，則顯示最近啟動的活動。
 
-## Target Standard/Premium 表單式撰寫器搭配非全域 Mbox {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >此資訊也適用在 Target Classic 中建立的任何執行中的促銷活動。
 
-如果您的公司在表單式撰寫器中使用全域 mbox 以外的 mbox，則每次呼叫只能傳回一個活動的內容。活動傳遞是使用下列決策流程決定:
+If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. 活動傳遞是使用下列決策流程決定:
 
-1. Target 伺服器呼叫隨附 mbox 和 URL 的相關資訊而傳到 Target。
-1. Target 提取該 mbox 上執行的每一個活動。
-1. Target 嘗試匹配訪客和最高優先順序活動。
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target] 提取該請求中執行的每個 [!DNL Target] 活動。
+1. [!DNL Target] 嘗試匹配訪客和最高優先順序活動。
 
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
 
@@ -88,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >視您的設定而定，優先順序值會有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。如需詳細資訊，請參閱[活動設定](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
 
-**兩個 Target Classic 行銷活動使用非全域 mbox**
+**兩個Target Classic促銷活動使用非全域Target請求**
 
 * 行銷活動 1: homePageHero，offer1，優先順序高
 * 行銷活動 2: homePageHero，offer2，優先順序低
@@ -136,4 +139,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
