@@ -5,10 +5,10 @@ title: 活動 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 85%
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 85%
 * 與團隊成員分享的連結，無論體驗或活動如何更新，這些連結皆不可能變更或需要重新產生。這可讓您完整測試整個使用者旅程中的活動。
 * 可選擇是否考量對象狀況，這讓市場行銷人員測試鎖定目標條件或忽略鎖定目標條件，以 QA 體驗的外觀，而不必配合對象狀況。
 * 擷取 QA 報表，讓市場行銷人員可以確認量度如預期增加，且 QA 報表資料和生產報表 (適用於非 A4T 報表) 分開。
-* 能夠單獨預覽體驗，或結合其他滿足傳送條件 (頁面/mbox/對象) 的已上線活動一起預覽。
+* 能夠單獨預覽體驗，或與符合傳送條件的其他即時活動（頁面/Target要求／觀眾）搭配預覽。
 * 能夠 QA 整個使用者旅程。您可以利用 QA 連結來存取一次您的網站，然後在活動 QA 期間瀏覽整個網站。您會停留在活動 QA 中直到結束工作階段，或直到您使用[QA Target 書籤小程式](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)強迫自己離開活動 QA。如果活動橫跨多個網頁，此功能特別有用。
 
    >[!NOTE]
@@ -45,7 +45,7 @@ ht-degree: 85%
 
       如果此設定切換到「關閉」位置，則按一下連結所顯示的體驗不在乎您是否符合資格。執行 QA 時，您可以在是否需要顧及對象鎖定目標之間來回切換。
 
-   * **顯示所有其他活動的預設內容:**&#x200B;如果此選項切換到「開啟」位置，則其他所有活動皆會顯示預設內容 (例如，單獨顯示預覽，而不考慮相同個頁面/Mbox 上的其他所有已上線活動。
+   * **顯示所有其他活動的預設內容：** 如果此選項切換至「開啟」位置，則會針對所有其他活動顯示預設內容(例如，預覽會單獨顯示，而不會考慮同一頁面／請求上的所有其他即時活動[!DNL Target] 。
 
       如果此設定切換為「關閉」，請考量下列事項:
 
@@ -90,7 +90,7 @@ ht-degree: 85%
    | `at_preview_token` | 加密的字串 | 強制；無預設值 | 此加密實體包含可在 QA 模式中執行的促銷活動 ID 清單。 |
    | `at_preview_index` | 字串 | 空白 | 參數格式為 `<campaignIndex>` 或 `<campaignIndex>_< experienceIndex>`<br>兩個索引的開頭皆為 1。 |
    | `at_preview_listed_activities_only` | 布林值 (true/false) | 預設值: false | 若設為「true」，則 `at_preview_index` 參數中指定的所有促銷活動都會經過處理。<br>若設為「false」，即使預覽 Token 中未指定促銷活動，頁面的所有促銷活動都會經過處理。 |
-   | `at_preview_evaluate_as_true_audience_ids` | 字串 | 空白 | segmentId-s 的底線分隔 (「_」) 清單在 mbox 要求的範圍內，應一律 (在鎖定目標和報表層級上) 評為「true」。 |
+   | `at_preview_evaluate_as_true_audience_ids` | 字串 | 空白 | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
    | `_AT_Debug` | 字串 | 視窗或主控台 | 主控台記錄或新視窗。 |
    | `adobe_mc_ref` |  |  | 將預設頁面的轉介 URL 傳給新頁面。與 `AppMeasurement.js` 2.1 版 (或更新版) 一起使用時，[!DNL Adobe Analytics] 會在新頁面上將此參數值當作轉介 URL。 |
    | `adobe_mc_sdid` |  |  | 將補充資料 [!DNL Supplemental Data Id] (SDID) 和 [!DNL Experience Cloud Org Id] 從預設頁面傳給新頁面，以便 Analytics for Target (A4T) 將預設頁面的 Target 要求與新頁面的 Analytics 要求「拼接」起來。 |
