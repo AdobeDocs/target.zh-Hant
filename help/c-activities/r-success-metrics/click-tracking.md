@@ -1,12 +1,15 @@
 ---
-keywords: 點擊追蹤; 追蹤點擊; 點擊; AppMeasurement
+keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target 可讓您追蹤任何元素上的點擊做為成功量度。
 title: 點擊追蹤
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +20,11 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 
 >[!NOTE]
 >
->Target 全域 mbox 作為表單式活動的地點時，不支援追蹤點擊。
+>當全域Target請求用作表單型活動中的位置時，不支援追蹤點按。
 
 ## 設定點擊追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 在活動的[!UICONTROL 「目標與設定」]頁面上設定您的目標時，請選取&#x200B;**[!UICONTROL 「轉換」]成功量度。**
+1. 在活動的[!UICONTROL 「目標與設定」]頁面上設定您的目標時，請選取&#x200B;**[!UICONTROL 「轉換」]**&#x200B;成功量度。
 1. 針對動作，選取&#x200B;**[!UICONTROL 「點擊元素」]**，然後按一下&#x200B;**[!UICONTROL 「選取元素」]**。
 
    您的頁面隨即在[!UICONTROL 可視化體驗撰寫器] (VEC) 中開啟。
@@ -113,4 +116,4 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 * 瞭解和建置轉換、收入和參與量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
