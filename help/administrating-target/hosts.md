@@ -5,10 +5,10 @@ title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 54%
+source-wordcount: '1128'
+ht-degree: 26%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
+>本主題中的資訊已更新，讓您在 [!DNL Target] Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 主機管理的主要目標是確保網站上沒有意外出現非使用中的內容。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
-主機是指您在任何專案階段進行期間支援內容的任何所在網站伺服器 (或網站網域)。系統會識別所有做為 mbox 的主機。
+主機是指從中提出請求的 [!DNL Target] 任何網域。 在網站上，它通常是提出 `location.hostname` 請求的URL的屬 [!DNL Target] 性。
 
-[!DNL Target] 不限制可傳送和接收mbox的主機，因此，當出現新的伺服器或網域時，它們會自動運作（除非您已設定allowlist或區塊清單）。 這樣也可讓您針對未知或無法預測的其他網域進行廣告測試。
+依預設， [!DNL Target] 不會限制可發出請求並接收回 [!DNL Target] 應的 [!DNL Target] 主機。 當新主機發出請求時，它們會自動運作。 這也可讓您在您不知道或無法預測的不同網域上進行測試。 如果要覆蓋此預設行為，可以設定允許清單或塊清單以限制將使用哪些主機 [!DNL Target]。
 
 若要管理主機，請按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 主機]**」。
 
@@ -35,15 +35,15 @@ ht-degree: 54%
 
 要識別主機並將其添加到「主 [!UICONTROL 機] 」清單中，必須滿足以下條件：
 
-* 主機上至少必須有一個 mbox
-* 主機上的頁面必須具有下列:
+* At least one [!DNL Target] request must exist on the host
+* 主機上的頁面必須具有以下內容：
 
    * 精確的at.js或mbox.js參考
-   * mbox 或自動產生的全域 mbox 呼叫
+   * 請求 [!DNL Target] 或自動產生的全域請 [!DNL Target] 求
 
-* 必須在瀏覽器中檢視具有 mbox 的網頁
+* The page with the [!DNL Target] request must be viewed in a browser
 
-在檢視過頁面之後，主機就會列在[!UICONTROL 「主機」]清單中，可讓您在環境中管理它，以及預覽和啟動活動及測試。
+After the page is viewed, the host is listed in the [!UICONTROL Hosts] list, allowing you to manage it in an environment, as well as preview and launch activities and tests.
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
@@ -68,9 +68,9 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#allowlist}
+## Create allowlists that specify hosts that are authorized to send Target requests to Target. {#allowlist}
 
-You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 其他產生呼叫的所有主機將收到註銷的授權錯誤回應。依預設，在「生產」環境中，包含 mbox 呼叫的任何主機都會向 [!DNL Target] 註冊，且可以存取所有使用中和已批准的活動。If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. 所有主機將持續出現在[!UICONTROL 「主機」]清單中，環境仍可用來組合這些主機並指派不同層級給各主機，例如主機是否可以看到使用中和/或非使用中的行銷活動。
+You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. 所有其他產生請求的主機將收到註解的授權錯誤回應。 By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
 
 要建立允許清單：
 
@@ -86,11 +86,11 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-如果未授權的主機進行了 mbox 呼叫，該呼叫會以 `/* no display - unauthorized mbox host */` 回應。
+If a [!DNL Target] request is made on an unauthorized host, the call will respond with `/* no display - unauthorized mbox host */`.
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**: 如果您使用的ubox功 [!DNL Target]能，請注意，此允許清單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定允許清單，Adobe將無法驗證重新導向URL並防止潛在的惡意重新導向。
+>**安全性最佳實務**: 如果您使用的ubox功 [!DNL Target]能，請注意，此允許清單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定允許清單， [!DNL Adobe] 將無法驗證重新導向URL並防止潛在的惡意重新導向。
 >
 >允許清單優先於環境。 在使用allowlist功能之前，應清除所有主機，然後僅允許清單允許的主機顯示在主機清單中。 接著可將主機移至想要的環境中。
 
@@ -98,11 +98,11 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 如果在 API 呼叫中傳入 `mboxHost`，則會針對傳入的環境來記錄轉換。If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
-您也可以建立黑名單，在[!DNL Target]「主機不包含」[!UICONTROL 方塊中新增所需的主機，以指定不能將 mbox 呼叫傳送至 ] 的主機 (網域)。
+You can also create a denylist that specifies hosts (domains) than cannot send [!DNL Target] requests to [!DNL Target] by adding the desired hosts in the [!UICONTROL Host Does Not Contain] box.
 
 >[!NOTE]
 >
->由於「授權主機」清單同時用於mbox主機和預設的重新導向主機，因此您必須新增所有已核准使用Adobe Target Javascript SDK(at.js) *AND* ubox預設重新導向URL中使用的網域。 您還必須在未來將任何新的類似域添加到allowlist中。
+>由於「授權主機」清單同時用於主機 [!DNL Target] 和預設的重新導向主機，因此您必須新增所有已核准使用 [!DNL Adobe Target] Javascript SDK(at.js) *AND* ubox預設重新導向URL中所有網域的現有網域。 您還必須在未來將任何新的類似域添加到allowlist中。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
@@ -113,22 +113,22 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 >[!NOTE]
 >
->如有任何人瀏覽到主機上的 mbox 頁面，則主機會再次列出。
+>如果有人瀏覽到包含主機請求的頁面，則主機將 [!DNL Target] 再次列出。
 
 ## 疑難排解主機 {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
 如果遇到主機方面的問題，請嘗試下列疑難排解訣竅:
 
-**主機未顯示在您帳戶的 mbox 清單中.**
+**主機不會出現在您帳戶的清單中。**
 
 * 在瀏覽器中重新整理[!UICONTROL 「主機」]頁面。
-* 確認mbox代碼正確，包括at.js或mbox.js參考。
-* 嘗試瀏覽至主機的其中一個 mbox。可能是主機的 mbox 不曾在瀏覽器中轉譯。
+* 確認請 [!DNL Target] 求正確，包括at.js或mbox.js參考。
+* Try browsing to one of the [!DNL Target] requests on the host. It&#39;s possible that no [!DNL Target] request on the host was ever rendered in a browser.
 
 **[!UICONTROL 主機]清單中出現隨機或未知的網域。**
 
-如果從某個網域呼叫 [!DNL Target]，該網域便會顯示在此清單中。通常，您可以從編目引擎、語言翻譯工具網站或本機磁碟中看見網域。如果列出的網域不是您團隊使用的網域，則可以按一下[!UICONTROL 刪除]將它移除。
+A domain appears in this list if a request to [!DNL Target] is made from the domain. 通常，您可以從編目引擎、語言翻譯工具網站或本機磁碟中看見網域。如果列出的網域不是您團隊使用的網域，則可以按一下[!UICONTROL 刪除]將它移除。
 
-**我的 mbox 呼叫傳回 /* no display - unauthorized mbox host */**。
+**我的[!DNL Target]請求傳回/*無顯示——未授權的mbox主機*/。**
 
-如果未授權的主機進行了 mbox 呼叫，該呼叫會以 /* no display - unauthorized mbox host */ 回應。
+If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
