@@ -1,29 +1,32 @@
 ---
-keywords: 擷取分數; 分數
-description: 「擷取分數」參與度量會根據指定給網站上造訪頁面的值，從訪客第一眼看到此促銷活動的第一個顯示 mbox 開始計算彙總分數。
+keywords: capture score;score
+description: 「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示「目標請求」開始計算匯總分數。
 title: 擷取分數
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 52%
 
 ---
 
 
 # 擷取分數{#capture-score}
 
-「擷取分數」參與度量會根據指定給網站上造訪頁面的值，從訪客第一眼看到此促銷活動的第一個顯示 mbox 開始計算彙總分數。
+The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
 
 下列範例會說明如何計算促銷活動中的分數參與，這個促銷活動會測試兩種體驗，一種包含貓的圖片，另一種則包含狗的圖片。
 
 ![](assets/example_score.png)
 
-在本範例中，第一位訪客會看到貓的圖片。假設根據頁面值判定全域 mbox 通過頁面分數。若行銷人員已擷取與 `**any mbox**` 相關聯的成功量度擷取頁面計數參與，則會針對在貓圖片的四周顯示 mbox 後出現的任何 mbox 要求累計瀏覽分數。
+在本範例中，第一位訪客會看到貓的圖片。Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
 
 第一頁將分數加 1，第二頁加 0.25，第三頁加 0.10，第四頁加 0.10，總共是 1.45。這可以解讀為貨幣或點數。在個別的瀏覽中，訪客會看到「狗」的圖片，雖然訪客檢視的頁面較少，但由於訪客檢視的重要頁面較多，因此仍會獲得高於其他瀏覽的 2.10 分數。
 
-您可以考慮透過傳遞 adbox 和重新導向程式，來採用贏取成本和附屬單位連結收入，如以下的頁面流程中所述。請注意，在此範例中，文章頁面上的所有 mbox 皆會傳遞分數，其可能代表已知的 CPM。
+您可以考慮透過傳遞 adbox 和重新導向程式，來採用贏取成本和附屬單位連結收入，如以下的頁面流程中所述。Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
 
 ![](assets/example_score2.png)
 
@@ -33,30 +36,30 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 指定頁面分數共有以下兩種方法:
 
-* 在 mbox 程式碼中，建立以下的 mbox 參數:`mboxPageValue`。
+* 在請求 [!DNL Target] 中，建立名為的參數 `mboxPageValue`。
 
    範例: `('global_mbox', 'mboxPageValue=10');`
 
-   每次檢視含有該 mbox 的頁面時，皆會將特定值新增至分數。若頁面上有多個 mbox 包含分數值，則頁面分數即為所有 mbox 值的總分數。`mboxPageValue` 是保留的參數，用於將值傳入 mbox 以擷取參與分數。可傳入正值和負值。每位訪客造訪後會計算總和，以計算該次造訪的總分數。
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. 如果頁面上的多個請求包含分數值，則頁面的分數是所有請求值的總和。 `mboxPageValue` 是保留的參數，用於傳遞Target請求中的值，以擷取參與分數。 可傳入正值和負值。每位訪客造訪後會計算總和，以計算該次造訪的總分數。
 
 * 在頁面 URL 中傳入 `?mboxPageValue=n` 參數。
 
    範例: `https://www.mydomain.com?mboxPageValue=5`
 
-   您可使用此方法，將特定值新增至頁面上每個 mbox 的分數。例如，若您傳入 `?mboxPageValue=10` 參數，且頁面上共有三個 mbox，則頁面分數為 30。
+   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->位於促銷活動第一個顯示 mbox 上方的 mbox 不會計入分數。
+>位於活動第一個顯示請求上方的 [!DNL Target] 定位請求將不會包含在分數中。
 
-建議的最佳實務是在 mbox 程式碼中指定值。這可讓您根據每個 mbox 的內容，獲得更精確的測量值。
+Best practice is to assign values in the [!DNL Target] request. 這可讓您根據每個請求的內容，精確測量值。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >為了便於維護，您可以在 [!DNL at.js] 或 [!DNL mbox.js] 檔案中，運用某些條件式 JavaScript 邏輯來設定網站的頁面分數值指派。這樣便無須在頁面中新增更多程式碼。請連絡您的帳戶顧問以取得協助。
 
-您可以併用兩種方法，但可能會導致分數高於預期值。例如，若您為前三個 mbox 指派的值為 10，而第四個 mbox 沒有分數，然後傳入 URL 參數 `?mboxPageValue=5`，則您的頁面分數為 50，其中三個具有指定值的 mbox 分數為 30，而頁面上的四個 mbox 各獲得 5 分。
+您可以併用兩種方法，但可能會導致分數高於預期值。For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
 
-計數器會從第一個顯示 mbox 開始計數，而非登入 mbox。例如，若您在沒有顯示 mbox 的首頁上進入促銷活動，然後連結至包含顯示 mbox 的類別頁面，則計數器會在您移至類別頁面時開始計數。
+計數器以第一個顯示請求開始，而非輸入請求。 例如，如果您在沒有顯示請求的首頁上輸入活動，然後連結至包含顯示請求的目錄頁面，則計數器會在您移至目錄頁面時開始計算。
 
 您也可以針對需要花費金錢或不適合訪客瀏覽的特定頁面，來傳遞負值。負值也會影響整體分數。您可以在訪客透過廣告到達的頁面上使用此方法，以瞭解 CPC 的價格。或者舉例來說，此方法可用於支援或連絡頁面，而您可以從中瞭解訪客可能透過此頁面呼叫或要求協助。
