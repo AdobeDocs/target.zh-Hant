@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 68%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 如果頁面未顯示預期的內容，您應執行一些步驟來除錯內容傳送。
 
 * 請仔細檢查您的活動或促銷活動程式碼。錯字或其他錯誤都可能導致預期的內容無法顯示。
-* 使用 mboxTrace 或 mboxDebug 來疑難排解 mbox。
-* 使用 Adobe Experience Cloud Debugger，與 mboxDebug 提供的資訊大多相同的易用工具，來針對 mbox 進行疑難排解。
+* Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request.
+* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
 
-如果您在頁面上設定 Target 以確保引發 mbox 以及設定 Cookie，mboxDebug 會很有用。但是，這不會深入到偵錯內容傳送時很有用的詳細程度。如果您的活動未顯示在頁面上，或是顯示不想要的內容，請使用 mboxTrace 來詳細檢查和偵錯頁面。
+mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. 但是，這不會深入到偵錯內容傳送時很有用的詳細程度。如果您的活動未顯示在頁面上，或是顯示不想要的內容，請使用 mboxTrace 來詳細檢查和偵錯頁面。
 
 ## 擷取授權 Token 以用於偵錯工具 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -39,7 +42,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace 可讓您接收附加至 mbox 回應的追蹤資訊。追蹤資訊可反映 mbox 呼叫的結果 (例如，轉換或印象) 以及可協助判斷為何發生此特定結果的任何其他資料，例如在促銷活動中所進行選擇內的一組可用分支。請使用此資訊來對內容傳送除錯。
+mboxTrace enables you to receive trace information attached to [!DNL Target] responses. Trace information reflects the outcome of a [!DNL Target] call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. 請使用此資訊來對內容傳送除錯。
 
 以下是可用的參數:
 
@@ -78,7 +81,7 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客看到的是您�
 
 ## mboxDebug {#mboxdebug}
 
-若要使用 mboxDebug，請附加 mboxDebug 參數至 URL 結尾。下列表格含有 mbox 相關 URL 參數的相關資訊。
+若要使用 mboxDebug，請附加 mboxDebug 參數至 URL 結尾。The following table contains information about [!DNL Target] response-related URL parameters.
 
 >[!NOTE]
 >
@@ -86,11 +89,11 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客看到的是您�
 
 | URL 參數 | 用途 |
 |--- |--- |
-| `mboxDebug=1` | 除錯工具<br>將此參數新增至任何已定義 mbox 的 URL 會開啟彈出式視窗，其中含有重要的除錯詳細資訊。Cookie 資訊、PCid 及作業 ID 值會出現，而且所有的 mbox URL 都會顯示。按一下 mbox URL 可顯示該 mbox 的回應。如需詳細資訊，請參閱 [mbox_debug.pdf](/help/assets/mbox_debug.pdf)。 |
+| `mboxDebug=1` | Debugger<br>Adding this parameter to any URL with Target requests defined opens a pop-up window with valuable debugging details. Cookie 資訊、PCid 及作業 ID 值會出現，而且所有的 URL 都會顯示。Click on a Target request URL to show the response for that [!DNL Target] request. 如需詳細資訊，請參閱 [mbox_debug.pdf](/help/assets/mbox_debug.pdf)。 |
 | `mboxDebug=x-cookie` | 修改 Cookie |
 | `mboxDisable=1` | 停用頁面上的 mbox |
 | `mboxDebug=x-profile` | 檢視描述檔集合。 |
-| `mboxDebug=x-time` | 顯示每個 mbox 請求的回應時間 |
+| `mboxDebug=x-time` | Show response time for each [!DNL Target] request |
 | `mboxOverride.browserIp=<Insert IP address>` | 測試地理定位<br>使用這個 URL 參數測試地理定位。輸入 IP 位址作為這個屬性的值，Test&amp;Target 的地理定位功能會評估該 IP 位址，以比對促銷活動中設定的任何定位與群體劃分。 |
 
 >[!NOTE]
@@ -99,11 +102,11 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客看到的是您�
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 Mbox Trace 工具來檢查活動、對象資格以及訪客設定檔。
+Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。驗證至Experience Cloud，您可以使用功能強大的MboxTrace工具來檢查您的活動、受眾資格以及訪客資料。
 
 如需詳細資訊，請觀看下方的訓練影片:
 
-如需詳細資訊，請 [參閱使用Adobe Experience cloud除錯程式除錯at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
+如需詳細資訊，請 [參閱使用Adobe Experience Cloud除錯程式除錯at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
 ## 如果在傳送期間 target.js 無法載入 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -111,21 +114,21 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 ## 最暢銷商品未出現在建議中 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SIteCatalyst: purchase`* mbox 無法用於「購買」演算法流量資料。請改用 *`orderConfirmPage`* mbox。
+The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. 請改用 *`orderConfirmPage`* 呼叫。
 
 ## 檢查活動優先順序 {#section_3D0DD07240F0465BAF655D0804100AED}
 
-以 [!DNL Target Standard/Premium] 建立的表單式活動，可能與 [!DNL Target Classic] UI 中的活動發生衝突，兩者有相同的優先順序且使用
+Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
 ## 自訂程式碼在 Internet Explorer 8 中未產生預期結果。{#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target 不再支援 IE 8。
 
-## 使用 mbox.js 時全域 Mbox 傳送的 JavaScript 內容未載入。{#section_03EC9B9C410B4F52A7FCD81840311709}
+## JavaScript content delivered by the global [!DNL Target] request doesn&#39;t load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 升級至 [!DNL mbox.js] 版本 58 或更新版。
 
-Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即對全域 mbox 執行非 JavaScript 內容。針對全域 mbox 的 `<script>` 標籤內的 JavaScript 內容會在觸發 `DOMContentLoaded` 事件之後執行。這個內容傳遞順序可確保全域 mbox 的 JavaScript 內容受到傳遞並正確呈現。
+mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
 ## Target Cookie 未設定 {#section_77AFEB541C0B495EB67E29A4475DF960}
 
@@ -141,23 +144,23 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
 如果重新導向與遠端選件使用無效的 URL，可能會無法傳送。
 
-若為重新導向選件，mbox 可包含 `/* invalid redirect offer URL */`
+For redirect offers, the [!DNL Target] response can contain `/* invalid redirect offer URL */`
 
 或
 
-若為遠端選件，mbox 可包含 `/* invalid remote offer URL */`
+For remote offers, the [!DNL Target] response can contain `/* invalid remote offer URL */`
 
-您可在瀏覽器中或使用 mboxTrace 來檢查 mbox 回應。請參閱 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 以取得有效 URL 的詳細資訊。
+You can check the [!DNL Target] response in the browser or using mboxTrace. 請參閱 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 以取得有效 URL 的詳細資訊。
 
-## 我的網站未觸發 mbox。
+## 我的網站上未觸發目標請求。
 
-如果您使用無效的 doctype，at.js 則不會觸發 Target mbox。at.js 需要 HTML 5 doctype。
+如果您使用無效的doctype,at.js不會觸發Target請求。 at.js 需要 HTML 5 doctype。
 
 ## 訓練影片
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 新增擴充功能 教 ![學課程徽章](/help/assets/tutorial.png)
+### 新增擴充功能 ![教學課程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
