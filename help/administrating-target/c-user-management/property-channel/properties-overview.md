@@ -5,7 +5,7 @@ title: 設定企業權限
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 70%
@@ -153,7 +153,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    * **透過[!DNL Adobe Launch]中的「全域參數」:**
 
-      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **透過[!DNL Dynamic Tag Management]中的「全域參數」:**
 
