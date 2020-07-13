@@ -1,11 +1,14 @@
 ---
-keywords: 定位
+keywords: Targeting
 description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精確度) 和信賴區間。
 title: 轉換率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >在所有資料中，若傳遞 `orderID`，則會忽略重複訂單。稽核報表會列出忽略的重複訂單。
 
@@ -104,7 +107,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 
 [下載的 CSV 報表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -121,8 +124,8 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 **使用[!DNL Analytics]資料匯出功能來這樣做:**
 
 1. 登入 [!DNL Adobe Analytics]。
-1. 按一下&#x200B;**[!UICONTROL 「工具]** &gt; **[!UICONTROL 資料倉儲」]**。
-1. 在&#x200B;**[!UICONTROL 「資料倉儲要求」]標籤上，填寫欄位。**
+1. 按一下「**[!UICONTROL 工具]** > **[!UICONTROL 資料倉儲]**」。
+1. 在&#x200B;**[!UICONTROL 「資料倉儲要求」]**&#x200B;標籤上，填寫欄位。
 
    如需每一個欄位的相關資訊，請參閱[資料倉儲](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
 
@@ -134,11 +137,11 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
    | 劃分 | 選取所需的維度:標準是內建 (OOTB)，而「自訂」包含 eVars 與屬性。如果需要訪客 ID 層級資訊，建議您使用「訪客 ID」，而非「Experience Cloud 訪客 ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
    | 量度 | 選取所需的量度。標準是 OOTB，而「自訂」包含自訂事件。 |
    | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
-   | 計劃傳送 | 輸入要將檔案傳送到哪個電子郵件地址、命名檔案，然後選取[!UICONTROL 「立即傳送」]。<br>注意: 在[!UICONTROL 「進階傳送選項」]下，您可以透過 FTP 傳送檔案<br>![排程傳送](/help/c-reports/assets/datawarehouse3.png)。 |
+   | 計劃傳送 | 輸入要將檔案傳送到哪個電子郵件地址、命名檔案，然後選取[!UICONTROL 「立即傳送」]。<br>注意: 在[!UICONTROL 「進階傳送選項」]<br>![下，您可以透過 FTP 傳送檔案排程傳送](/help/c-reports/assets/datawarehouse3.png)。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「請求此報表」]**。
 
-   檔案傳送最多可能需要 72 小時，視所要求的資料量而定。您隨時可以按一下「[!UICONTROL 工具] &gt; [!UICONTROL 資料倉儲] &gt; [!UICONTROL 要求管理程式]」，以檢查要求的進度。
+   檔案傳送最多可能需要 72 小時，視所要求的資料量而定。您隨時可以按一下「[!UICONTROL 工具] > [!UICONTROL 資料倉儲] > [!UICONTROL 要求管理程式]」，以檢查要求的進度。
 
    如果您想要再次要求從前要求過的資料，您可以視需要從[!UICONTROL 「要求管理程式」]複製舊的要求。
 
@@ -180,6 +183,6 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 
    單次造訪可能包含多次曝光，例如首頁。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >計數通常是由 Cookie 和作業活動所決定。不過，若您達到活動的最終轉換點，然後重新進入活動，則會將您視為該活動的新加入者和新的造訪。即使您的 PCID 和 `sessionID` 值未變更，亦會採取此處理方式。
