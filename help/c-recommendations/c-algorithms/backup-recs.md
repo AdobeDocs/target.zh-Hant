@@ -1,10 +1,13 @@
 ---
-keywords: 建議;備用
+keywords: recommendation;backup;back up
 description: 如使用備份建議功能，所有其中建議項目不足的建議將不會顯示預設內容。建議會改為顯示備份演算法的結果。
 title: 使用備份建議
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果備用建議不分組，可能會顯示第 499 個最常檢視的項目、接著第 200 個最常檢視的項目、接著第 380 個最常檢視的項目，以此類推。分組程序可確保最先建議檢視次數最多的項目。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >如果您將項目群組至目錄，建議內針對每個演算法產生的備用建議也會使用該目錄，因此只有目錄中的項目會包含在備用建議中。
 
