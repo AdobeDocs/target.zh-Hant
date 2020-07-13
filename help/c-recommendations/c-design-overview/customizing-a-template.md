@@ -4,7 +4,10 @@ description: 使用開放原始碼 Velocity 設計語言來自訂建議設計。
 title: 使用 Velocity 自訂設計
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 65%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >如果要在表示變數名稱已完成的標籤之前，在變數值之後添加文本，則可使用正式符號括住變數名稱。 例如: `${entity1.thumbnailUrl}.gif`。
 
