@@ -5,7 +5,10 @@ title: 建立重新導向選件
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。選件則設定為將訪客重新導向至不同頁面。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >您無法在 ajax mbox (`mboxUpdate`) 中使用重新導向選件。
 >
@@ -26,7 +29,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 重新導向選件會執行 JavaScript 程式碼來重新導向瀏覽器。此選件會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。這可讓訪客仍然可以使用瀏覽器中的上一步按鈕。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >如果要傳入登陸頁面的反向連結值，建議您使用 HTML 選件，而不要使用重新導向選件。
 
@@ -51,11 +54,11 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    如果使用第一方與第三方的 Cookie 設定，則在跨網域時便不需要傳遞 mbox 工作階段 ID。它會在第三方 Cookie 中持續存在，所以不需要出現在 URL 中。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >在啟動這些測試前，請聯絡您的實作顧問。
 
-## 訓練影片：內容儲存庫(4:56)概 ![述徽章](/help/assets/overview.png)
+## 訓練影片： 內容儲存庫(4:56)概 ![述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。
 
