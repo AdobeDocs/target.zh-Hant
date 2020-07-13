@@ -1,19 +1,22 @@
 ---
-keywords: 實作;mbox.js 非 javascript;mbox;adbox
-description: 使用Adobe target在非現場實作中提供影像。
+keywords: Implementation;mbox.js non javascript;mbox;adbox
+description: 使用Adobe Target在非現場實作中提供影像。
 title: 使用Adobe Target建立影像的Adbox
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
 
 # 為影像建立 Adbox{#create-an-adbox-for-an-image}
 
-使用AdBox，在使用Adobe target的非現場實作中提供影像。
+使用AdBox，在使用Adobe Target的非現場實作中提供影像。
 
 AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox 是使用特殊的「AdBox URL」建立，此 URL 會將「廣告」mbox (或 AdBox) 載入到您的 Adobe 帳戶。請在您的活動中使用此 AdBox 取代 mbox。請在電子郵件或其他非 JavaScript 實施中使用 AdBox URL 而非直接影像參考。
 
@@ -29,9 +32,9 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
    * 其中 `myClientCode` 代表貴公司的用戶端代碼。您的公司用戶端代碼為全部小寫並且不帶特殊字元。
 
-      * **at.js:** 您的用戶端代碼可在 [!UICONTROL  介面的]「設定 &gt; 實作 &gt; 編輯 at.js 設定」[!DNL Target]頁面最上方取得。
+      * **at.js:** 您的用戶端代碼可在 [!UICONTROL  介面的]「設定 > 實作 > 編輯 at.js 設定」[!DNL Target]頁面最上方取得。
 
-      * **mbox.js:** 您的用戶端代碼可在[!UICONTROL 「設定 &gt; 實作 &gt; 編輯 Mbox.js 設定」]頁面最上方取得。
+      * **mbox.js:** 您的用戶端代碼可在[!UICONTROL 「設定 > 實作 > 編輯 Mbox.js 設定」]頁面最上方取得。
    * 其中 `image` 是呼叫類型。在此範例中，它是一個影像。
 
    * 其中 `emailHeroImage123_320x200` 是 AdBox 的名稱。
@@ -43,7 +46,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
 1. 為每個替代影像建立[重新導向選件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE]
    >
    >AdBox 必須以「重新導向選件」或是預設的內容選件載入。其他選件類型將無法運作。因為 AdBox 是 URL，它只能顯示所收到的 URL，所以只有「重新導向選件」可以運作。
 
