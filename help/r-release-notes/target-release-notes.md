@@ -5,10 +5,10 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 17%
+source-wordcount: '572'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 6 月 24 日**
+**上次更新日期: 2020 年 7 月 13 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -51,6 +51,16 @@ ht-degree: 17%
 * 基於隱私權原因模糊化訪客IP位&#x200B;**[!UICONTROL 址(]** 「管理 **[!UICONTROL >]**&#x200B;實作」)
 * 在Adobe Admin Console（「管理」>「使用者」）中管理使用者之前，檢視每個工作區及其角色的&#x200B;**[!UICONTROL 現有]****[!UICONTROL 使用者清單]**。
 * 在「管理」區段中搜尋並篩選所 [!UICONTROL 有表格] 。
+
+### 增強功能、修正和變更
+
+此發行包含下列增強功能、修正和變更：
+
+* 修正重新整理後網站偏好設定無法保留的問題。 (TGT-37239)
+* 修正「在後面插入 [!UICONTROL >影像」無] 法與可縮放向量圖形(SVG)影像一起正常運作的問題。 (TGT-37242)
+* 修正具有「發佈者」角色的 [!UICONTROL 使用者] ，無法刪除草稿活動的問題。 (TGT-37358)
+* 修正在選取「我的所有工作區」時，使用者無 [!UICONTROL 法編輯活動] 的問題。 (TGT-37276)
+* 增強現有的描述檔指令碼資訊卡與觀眾使用資訊。 (TGT-37302)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
