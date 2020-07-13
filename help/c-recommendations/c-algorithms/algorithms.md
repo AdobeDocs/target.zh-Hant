@@ -4,7 +4,10 @@ description: Adobe Target Recommendations中的准則是規則，可根據一組
 title: Adobe Target Recommendations中的條件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1631'
+ht-degree: 74%
 
 ---
 
@@ -75,7 +78,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 標準 | 說明 |
 |--- |--- |
-| 具有類似屬性的項目/媒體 | 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。<br>**注意:** 如果您選取「具有類似屬性的項目/媒體」，便可選擇設定內容相似度規則。 |
+| 具有類似屬性的項目/媒體 | 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。<br>**注意:**如果您選取「具有類似屬性的項目/媒體」，便可選擇設定內容相似度規則。 |
 | 瀏覽過此項目、也瀏覽了其他項目的使用者 | 建議在檢視所指定項目的相同工作階段中，最常檢視的項目。 |
 | 瀏覽過此項目、但購買了其他項目的使用者 | 建議在檢視所指定項目的相同工作階段中，最常購買的項目。此條件傳回在檢視這個產品之後購買的其他產品，而指定的產品未包含在結果集合中。 |
 | 購買了此項目、也購買了其他項目的使用者 | 建議當客戶購買所指定項目的同時，最常購買的項目。 |
@@ -85,7 +88,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 | 最近查看的項目/媒體 | 訪客最近檢視的項目。使用此條件時，您應更新 Target 設計來處理先前檢視的項目數不足以顯示而出現空白建議的情況。 |
 | 使用者建議 | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>此准則可讓您為新訪客和舊訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當使用者瀏覽您的網站時，建議清單會變得更個人化。<br>檢視和購買都可用來決定建議的項目。 指定的建議金鑰（例如目前項目）可用來套用您選取的任何包含規則篩選。 例如，您可以:<ul><li>排除不符合特定條件的項目（產品無存貨、30天前發佈的文章、評為R的影片等）</li><li>將包含的項目限制為單一類別或目前類別</li></ul> |
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >如果執行建議時變更其條件，將會失去報表資料。
 
@@ -99,11 +102,11 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![條件卡暫留](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-按一下&#x200B;**[!UICONTROL 「演算法資訊」]索引標籤，即可查看選取條件的一般資訊，包括名稱、說明、垂直產業、頁面類型、建議金鑰、建議邏輯和演算法 ID。**
+按一下&#x200B;**[!UICONTROL 「演算法資訊」]**&#x200B;索引標籤，即可查看選取條件的一般資訊，包括名稱、說明、垂直產業、頁面類型、建議金鑰、建議邏輯和演算法 ID。
 
 ![演算法資訊索引標籤](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-按一下&#x200B;**[!UICONTROL 「演算法使用情形」]索引標籤，即可查看參照選取條件的活動清單。**&#x200B;卡片會列出使用中和非使用中的活動。按一下「已上線活動」或「非使用中活動」下拉式清單，即可查看參照該條件的完整活動清單。您可以按一下活動連結以開啟活動並編輯。
+按一下&#x200B;**[!UICONTROL 「演算法使用情形」]**&#x200B;索引標籤，即可查看參照選取條件的活動清單。卡片會列出使用中和非使用中的活動。按一下「已上線活動」或「非使用中活動」下拉式清單，即可查看參照該條件的完整活動清單。您可以按一下活動連結以開啟活動並編輯。
 
 ![演算法使用標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
