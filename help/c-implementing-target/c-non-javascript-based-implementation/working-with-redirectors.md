@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 73%
+source-wordcount: '680'
+ht-degree: 72%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 73%
 
 1. 請確認對所有的環境來說，所有的體驗、預設內容與報表都如預期般在所有瀏覽器類型上運作。
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >* mbox 的「選件預覽」或「瀏覽」不支援重新導向程式。直接在瀏覽器中預覽體驗。
    >* `mboxDebug` 不能用於重新導向程式。
