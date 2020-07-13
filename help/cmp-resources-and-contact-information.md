@@ -5,7 +5,7 @@ title: 資源與聯絡資訊
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -70,7 +70,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 如有技術問題或要記錄錯誤，您可連絡客戶服務。若要以電話聯絡客戶服務，請撥打 1-800-497-0335。Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. 若被要求選取產品選項，請按 3 聯絡 Target 團隊。
 
-寄送電子郵件給客戶服務: [!DNL tt-support@adobe.com]。
+寄送電子郵件給客戶服務: [!DNL customercare@adobe.com]。
 
 為求快速分類您的問題，在連絡我們時請備妥下列基本資訊:
 
