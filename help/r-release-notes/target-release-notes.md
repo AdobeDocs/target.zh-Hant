@@ -5,9 +5,9 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
+source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 16%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 16%
 * 修正「在後面插入 [!UICONTROL >影像」無] 法與可縮放向量圖形(SVG)影像一起正常運作的問題。 (TGT-37242)
 * 修正具有「發佈者」角色的 [!UICONTROL 使用者] ，無法刪除草稿活動的問題。 (TGT-37358)
 * 修正在選取「我的所有工作區」時，使用者無 [!UICONTROL 法編輯活動] 的問題。 (TGT-37276)
-* 增強現有的描述檔指令碼資訊卡與觀眾使用資訊。 (TGT-37302)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
