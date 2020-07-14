@@ -1,10 +1,13 @@
 ---
-keywords: 疑難排解; 常見問題集; FAQ; 自動個人化
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: 關於自動個人化 (AP) 常見問題集 (FAQ) 的清單。
 title: 自動個人化常見問題集
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -103,3 +106,9 @@ AP 活動產生提升度需要四個係數:
 ## 訪客在 AP 活動中為何看到不應該看到的體驗? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 在每個工作階段都會評估一次自動個人化活動。如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增選件，則除了先前顯示的選件，使用者還會看到新內容。因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
+
+## 我可以在「自動個人化」活動的中途變更目標量度嗎？ {#change-metric}
+
+我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
+
+此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
