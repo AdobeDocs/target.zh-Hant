@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 14 年 7 月 | [自動配置](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、<br>[自動定位](/help/c-activities/auto-target-to-optimize.md),<br><br>[以及自動個人化](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增常見問答集，建議您不要在活動中途變更目標量度。 |
 | 7 年 7 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關7月8日Adobe Target Coffee Break的資訊。 |
 | 6月25日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.6.1版本（2020年7月）的資訊。 |
 |  | [Target檔案總覽](/help/r-release-notes/target-documentation.md) | 新主題，詳細說明不同的檔案 [!DNL Target] 來源。 |
