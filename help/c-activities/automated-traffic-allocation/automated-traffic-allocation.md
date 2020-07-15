@@ -5,10 +5,10 @@ title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 84%
+source-wordcount: '3134'
+ht-degree: 83%
 
 ---
 
@@ -88,6 +88,10 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 * 將「流量配置」模式切換為「手動」
 * 變更目標量度類型
 * 變更「進階設定」面板中的選項
+
+## 瞭解自動分配的運作方式
+
+如需詳細資訊，請參 [閱「自動分配」可讓您比手動測試更快速地完成測試並獲得更高的收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
 ## 注意事項 {#section_5C83F89F85C14FD181930AA420435E1D}
 
