@@ -5,7 +5,10 @@ title: Adobe Target 簡介
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 96%
 
 ---
 
@@ -13,12 +16,6 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 # Target 簡介{#introduction-to-target}
 
 Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需工具，讓您量身打造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
-
-下列影片可讓您基本上瞭解 Target 及其他 Adobe Experience Cloud 解決方案如何協助您的組織達成目標:
-
->[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
-
->[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 [!DNL Adobe Target] 解決方案包含數個元件:
 
@@ -101,7 +98,7 @@ Target Premium 包含下列進階功能:
 
 [Adobe Target歡迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 訓練影片：活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
+## 訓練影片： 活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
 
 下列影片說明 [!DNL Target Standard/Premium] 中可用的活動類型，以及 Target 的三步驟引導式工作流程如何協助您達成網站目標。
 
