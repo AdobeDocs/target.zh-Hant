@@ -5,7 +5,7 @@ title: Adobe Target搶鮮版注意事項
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
+source-git-commit: 26447c745cf56f3e04ad477bc05446e5d8ab76c1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 16%
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期: 2020 年 7 月 13 日**
+**上次更新日期: 2020 年 7 月 22 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 * **目標公告**: 請參閱Target公告頁面，以取得近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。 如需詳細資訊，請參閱 [Target公告](/help/r-release-notes/target-announcements.md)。
 
 
-## Target Standard/Premium 20.7.1 (2020 年 7 月 21 日)
+## Target Standard/Premium 20.7.1 (2020 年 7 月 22 日)
 
 此版本包含下列增強功能:
 
