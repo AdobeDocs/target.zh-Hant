@@ -5,7 +5,10 @@ title: 目標與設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +39,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-如果未在「設定」 中啟用此選項 (預設值)，請指定優先順序: 低、中或高。
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-若要啟用微調優先順序，請按一下「設定」，然後將「啟用微調優先順序」選項切換到「開啟」位置。
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 如果已啟用此選項，請指定介於 0 和 999 之間的值:
 
