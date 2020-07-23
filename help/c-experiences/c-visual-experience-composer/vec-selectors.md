@@ -1,11 +1,14 @@
 ---
-keywords: 體驗鎖定目標; 登陸頁面測試
+keywords: Experience Targeting;Landing Page Test
 description: 元素選取器是一種可以識別一或多個元素的 CSS 運算式。
 title: 可視化體驗撰寫器中使用的元素選取器
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以在 Mozilla 開發人員網路 (MDN) 上的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文件中，找到關於 CSS 選取器的基本資訊。
 
-您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下&#x200B;**[!UICONTROL 「設定 &gt; 偏好設定」]**，然後選擇您偏好的 CSS 選取器。
+您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一 **[!UICONTROL 下「管理>視覺體驗撰寫器]**」，然後選擇您偏好的CSS選擇器。
 
 ![](assets/css_selectors.png)
 
@@ -68,9 +71,9 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
 
    在此範例中，
 
-   選取器: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (「&gt;」表示直屬子項。)
+   選取器: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (「>」表示直屬子項。)
 
-   `eq` 會向索引表示一個元素有 "tagName=UL"，第一個類別是 `navigation`。因此，`index` 為 0。如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
+   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。因此，`index` 為 0。如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
 1. 如果元素不含類別，Target 會對元素使用 `tagName`，並往父元素周遊，直到遇到 `<HTML>` 元素或具有 ID 的元素為止。
 
@@ -89,7 +92,7 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
    </div>
    ```
 
-   選取器: `#container` &gt; `ul.navigation(0)` &gt; `li:nth-of-type(4)`
+   選取器: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
    您可以[在 CSS Tricks 網頁上進一步瞭解 nth-of-type](https://css-tricks.com/almanac/selectors/n/nth-of-type/)。
 
