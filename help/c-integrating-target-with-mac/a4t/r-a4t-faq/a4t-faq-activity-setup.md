@@ -1,11 +1,14 @@
 ---
-keywords: faq;常見問題集;analytics for target;a4T;活動設定
+keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: 此主題包含經常詢問關於活動設定和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 title: 活動設定 - A4T 常見問題集
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -24,13 +27,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 建立新活動時，為何無法選取 Analytics 作為報表來源? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-您可以在「設定」中變更「報表設定」選項。
+您可以在「管理」中變更「報表設定」選項。
 
-1. 在 Adobe Target 中，按一下&#x200B;**[!UICONTROL 「設定」]**。
+1. In Adobe Target, click **[!UICONTROL Administration]**.
 1. 在&#x200B;**[!UICONTROL 「用於報表的 Experience Cloud 解決方案」]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL 「為每個活動選取」]**。
 
 ![](assets/select-per-activity.png)
 
-**[!UICONTROL 「目標與設定」]畫面中會啟用****「報表來源」[!UICONTROL 下拉式清單，以供您建立和編輯活動。]**
+**[!UICONTROL 「目標與設定」]**&#x200B;畫面中會啟用&#x200B;**[!UICONTROL 「報表來源」下拉式清單，以供您建立和編輯活動。]**
 
-若要一律使用 Analytics 作為報表來源，請在「設定」中從下拉式清單選取 **[!UICONTROL Adobe Analytics]。**
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
