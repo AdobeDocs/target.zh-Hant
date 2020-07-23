@@ -1,12 +1,15 @@
 ---
-keywords: 全域 mbox;target classic;使用來自 target classic 的全域 mbox
+keywords: global mbox;target classic;use global mbox from target classic
 description: 依預設，Target Standard 會建立名為 target-global-mbox 的全域 mbox，用來執行 Target Standard 中建立的活動。不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 Target Standard 活動。
 title: 使用來自舊版實作的全域 mbox
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 若想同時在 [!DNL Target Standard] 和您的舊版實施中使用現有的全域 mbox，您必須設定幾個參數。
 
-1. 前往 [!DNL Target Standard]，然後按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. Go to [!DNL Target Standard], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    預設會啟用「[!UICONTROL 自動建立全域 Mbox]」，而自訂全域 mbox 命名為 `target-global-mbox`。
 1. 如果您想使用現有的 mbox，請停用「[!UICONTROL 自動建立全域 Mbox]」，並在「[!UICONTROL 自訂全域 Mbox]」欄位中指定先前建立之全域 mbox 的名稱。
@@ -33,8 +36,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 下載新的 mbox.js 檔案並在您的網站上參考該檔案。
 
    使用新 mbox.js 檔案更新您的生產網站後，即可設定您的偏好設定。
-1. 按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 偏好設定」]**。
-1. 在「[!UICONTROL 自訂全域 Mbox]」欄位中，指定您在「實施」頁面上選取之全域 mbox 的名稱。
+1. 按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 視覺體驗撰寫器]**」。
+1. In the [!UICONTROL Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
 1. 按一下&#x200B;**[!UICONTROL 「提交」]**。
 
    所有現有活動都會更新為使用指定的全域 mbox，包括先前已建立和實施的活動。
