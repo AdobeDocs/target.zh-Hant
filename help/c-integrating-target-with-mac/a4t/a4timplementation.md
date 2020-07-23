@@ -4,10 +4,10 @@ description: 實作 Adobe Analytics 做為 Target (A4T) 的報表來源時，需
 title: Analytics for Target 實作
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 65%
+source-wordcount: '879'
+ht-degree: 63%
 
 ---
 
@@ -171,7 +171,7 @@ The payload can then be forwarded to [!DNL Analytics] via the [Data Insertion AP
 
 ## 步驟10: 啟用以 Analytics 作為 Target 的報表來源的選項
 
-在 [!DNL Target] 中，按一下&#x200B;**[!UICONTROL 「設定」 > 「偏好設定」]**，然後選擇&#x200B;**[!UICONTROL 「為每個活動選取」]**&#x200B;或 **[!UICONTROL Adobe Analytics]** 以啟用選項。
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL 「為每個活動選取」可讓您在建立每個活動時選擇 或 。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL Adobe 會將 Analytics 設為您建立的所有活動的報表來源。]**[!DNL Analytics]
