@@ -5,10 +5,10 @@ title: 設定企業權限
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 70%
+source-wordcount: '1476'
+ht-degree: 69%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 70%
 # ![PREMIUM](/help/assets/premium.png) 設定企業權限{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
-
->[!NOTE]
->
->本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 >[!NOTE]
 >
@@ -206,7 +202,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 如何設定 Target 工作區 (6:55) ![教學課程徽章](/help/assets/tutorial.png)
+>[!NOTE]
+>
+>「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視訊中的資訊通常正確； 不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+
+### 如何設定目標工作區(6:55)教學 ![課程徽章](/help/assets/tutorial.png)
 
 此影片說明如何建立工作區。
 
