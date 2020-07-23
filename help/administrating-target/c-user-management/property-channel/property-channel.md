@@ -5,10 +5,10 @@ title: 企業使用者權限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 82%
+source-wordcount: '3053'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]客戶&#x200B;**: 如果您看到「使[!UICONTROL 用者]」標籤([!UICONTROL 「管理>使用者]」)（而非「屬性」標籤），則您的組織會擁有[!DNL Target Standard]授權。[!DNL Target Standard]客戶應依照「使用者」中的[指示](/help/administrating-target/c-user-management/c-user-management/user-management.md)，在中新增使用者並指派權限[!DNL Adobe Admin Console]。
 
-* **[!DNL Target Premium]客戶&#x200B;**: 如果您看到「屬[!UICONTROL 性]」標籤([!UICONTROL 「設定」>「屬性]」)和「使用者」標籤[!UICONTROL ，則您的組織會擁有][!DNL Target Premium]授權。[!DNL Target Premium]客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
+* **[!DNL Target Premium]客戶&#x200B;**: 如果您看到「屬[!UICONTROL 性]」標籤([!UICONTROL 「管理」>「屬性]」)和「使用者」標籤[!UICONTROL ，則您的組織會擁有][!DNL Target Premium]授權。[!DNL Target Premium]客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
 
 ## 開始使用企業權限之前
 
@@ -198,7 +198,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 * **受眾建立:**&#x200B;當您建立新的受眾時，會建立在目前選取的工作區中。
 * **選件建立:**&#x200B;當您建立新的選件時，會建立在目前選取的工作區中。
-* **「屬性」頁（設定>屬性）:** 您可以使用「搜 [!UICONTROL 尋] 」方塊來搜尋 [!UICONTROL 「屬性] 」清單。
+* **屬性頁（管理>屬性）:** 您可以使用「搜 [!UICONTROL 尋] 」方塊來搜尋 [!UICONTROL 「屬性] 」清單。
 
    ![](assets/properties_list.png)
 
@@ -302,5 +302,9 @@ Consider the following when using or configuring properties and permissions in [
 * 建立屬性
 * 新增使用者
 * 更新實作
+
+>[!NOTE]
+>
+>「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確； 不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
