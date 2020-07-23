@@ -1,11 +1,14 @@
 ---
-keywords: SPA VEC; React; Angular; react.js; SPA 可視化體驗撰寫器; SPA 體驗撰寫器選項; 單一頁面應用程式; SPA; 行動體驗選項; Target 檢視
+keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Adobe Target 中適用於單頁應用程式 (SPA) 的可視化體驗撰寫器 (VEC) 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在 React 和 Angular 等最熱門的架構上建立活動。
 title: 單一頁面應用程式 (SPA) 可視化體驗撰寫器
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3692'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +27,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 為了進一步說明檢視，下文將瀏覽這個在 React 中實作的假想線上電子商務網站，並探索一些檢視範例。按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結：首[頁](https://target.enablementadobe.com/react/demo/#/)**
+**連結：[首頁網站](https://target.enablementadobe.com/react/demo/#/)**
 
 ![首頁](/help/c-experiences/assets/home.png)
 
 當我們導覽到主網站時，立刻就會看到宣傳復活節特賣以及網站上最新發售產品的主圖影像。在這個案例中，檢視可定義為整個首頁。請記下這點，因為我們將在下文的「實作 Adobe Target 檢視」一節中更深入說明。
 
-**連結：產[品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![產品網站](/help/c-experiences/assets/product-site.png)
 
@@ -44,7 +47,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 我們決定點擊「載入更多」按鈕來探索網站上更多的產品。在此情況下，網站 URL 不會變更。但此處的檢視只能呈現上圖中的第二列產品。「檢視」名稱可以命名為「PRODUCTS-PAGE-2」。
 
-**連結：結[帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![結帳頁面](/help/c-experiences/assets/checkout.png)
 
@@ -64,7 +67,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![實作詳細資料對話方塊](/help/c-experiences/assets/imp-200.png)
 
-   透過 Adobe Target UI，在[!UICONTROL 設定 &gt; 實作]下載 at.js 2.x。也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
 
 1. 在您的網站上實作 at.js 2.x 的最新函數: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
@@ -76,11 +79,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    | --- | --- | --- | --- | --- |
    | viewName | 字串 | 是 | 1. 尾端無空格。<br>2.不得空白。<br>3.所有頁面的檢視名稱都不得重複。<br>4.**警告**: 檢視名稱的開頭或結尾不能為「`/`」。這是因為客戶通常會從 URL 路徑中擷取檢視名稱。對我們來說，「home」和「`/home`」是不一樣的。<br>5.**警告**: 同一個檢視不應使用 `{page: true}` 選項連續觸發多次。 | 傳入任何名稱作為要代表檢視的字串類型。此檢視名稱會顯示在 VEC 的[!UICONTROL 「修改」]面板中，供行銷人員建立動作和執行 A/B 與 XT 活動。 |
    | options | 物件 | 無 |  |  |
-   | options &gt; page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。當 `page=true`，會傳送通知至 Edge 伺服器以增加曝光計數。<br>**FALSE**: 當 `page=false`，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
+   | options > page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。當 `page=true`，會傳送通知至 Edge 伺服器以增加曝光計數。<br>**FALSE **: 當`page=false`，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
 
    現在，讓我們來看看一些使用範例，瞭解如何在 React 中對假設性的電子商務 SPA 進行叫用 `triggerView()`:
 
-   **連結：首[頁](https://target.enablementadobe.com/react/demo/#/)**
+   **連結：[首頁網站](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -111,7 +114,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **連結：產[品網站](https://target.enablementadobe.com/react/demo/#/products)**
+   **連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
    現在，讓我們來看看更複雜的範例。假設我們這些行銷人員想要個人化產品的第二列，讓使用者在點擊「載入更多」按鈕後，把售價標籤變更為紅色。
 
@@ -140,7 +143,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    }
    ```
 
-   **連結：結[帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react 結帳](/help/c-experiences/assets/react6.png)
 
@@ -205,8 +208,8 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 | --- | --- |
 | 資訊 | 顯示此動作的詳細資料。 |
 | 編輯 | 可讓您直接編輯該動作的屬性。 |
-| 原地複製 | 將動作原地複製至一或多個存在於[!UICONTROL 修改]面板上的檢視，或原地複製至一或多個您已在 VEC 中瀏覽及導覽的目標檢視。動作未必會存在於[!UICONTROL 修改]面板中。<br>**附註**: 執行原地複製作業後，您必須透過[!UICONTROL 瀏覽]導覽至 VEC 中的檢視，才能查看該原地複製動作的作業是否有效。如果無法將動作套用到檢視，則會出現錯誤. |
-| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] – 任何對應至頁面載入事件的動作，都會套用到網頁應用程式的初始頁面載入上。<br>**附註** 執行移動作業後，您必須透過瀏覽導覽至 VEC 中的檢視，才能查看該移動作業是否有效。如果無法將動作套用到檢視，則會出現錯誤 |
+| 原地複製 | 將動作原地複製至一或多個存在於[!UICONTROL 修改]面板上的檢視，或原地複製至一或多個您已在 VEC 中瀏覽及導覽的目標檢視。動作未必會存在於[!UICONTROL 修改]面板中。<br>**附註&#x200B;**: 執行原地複製作業後，您必須透過[!UICONTROL 瀏覽]導覽至 VEC 中的檢視，才能查看該原地複製動作的作業是否有效。如果無法將動作套用到檢視，則會出現錯誤. |
+| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] – 任何對應至頁面載入事件的動作，都會套用到網頁應用程式的初始頁面載入上。<br>**附註&#x200B;**執行移動作業後，您必須透過瀏覽導覽至 VEC 中的檢視，才能查看該移動作業是否有效。如果無法將動作套用到檢視，則會出現錯誤 |
 | 刪除 | 刪除動作。 |
 
 >[!NOTE]
@@ -335,7 +338,7 @@ adobe.target.getOffers({
 | 活動類型 | 支援? |
 | --- | --- |
 | [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | 是 |
-| A/B 測試和體驗鎖定目標(XT) 活動中的<br>[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) | 是 |
+| A/B 測試和體驗鎖定目標(XT) 活動中的[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)<br> | 是 |
 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 |
 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 是 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 無 |
@@ -372,7 +375,7 @@ adobe.target.getOffers({
 
 [!UICONTROL 頁面傳送]設定可讓您設定規則，判斷受眾是否符合 Target 活動且可執行。
 
-若要從 VEC 的三步驟引導式活動建立工作流程內存取[!UICONTROL 頁面傳送]選項，請從&#x200B;**[!UICONTROL 體驗]**&#x200B;步驟中按一下&#x200B;**[!UICONTROL 設定]** (齒輪圖示) &gt; **[!UICONTROL 頁面傳送]**。
+若要從 VEC 的三步驟引導式活動建立工作流程內存取[!UICONTROL 頁面傳送]選項，請從&#x200B;**[!UICONTROL 體驗]**&#x200B;步驟中按一下&#x200B;**[!UICONTROL 設定]** (齒輪圖示) > **[!UICONTROL 頁面傳送]**。
 
 ![頁面傳送選項對話方塊](/help/c-experiences/assets/page-delivery.png)
 
@@ -436,6 +439,6 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 
 ## 訓練影片: 在 Adobe Target 中使用適用於 SPA 的 VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
