@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 72%
+source-wordcount: '659'
+ht-degree: 69%
 
 ---
 
@@ -47,9 +47,8 @@ ht-degree: 72%
 
    * 其中 `yourclientcode` 代表貴公司的用戶端代碼。您的公司用戶端代碼為全部小寫並且不帶特殊字元。
 
-      * **at.js:** 您的用戶端代碼可在 [!UICONTROL  介面的]「設定 > 實作 > 編輯 at.js 設定」[!DNL Target]頁面最上方取得。
+      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js:** 您的用戶端代碼可在[!UICONTROL 「設定 > 實作 > 編輯 Mbox.js 設定」]頁面最上方取得。
    * `redirectorlink_456` 代表重新導向程式 mbox 的名稱，會顯示在您用於促銷活動和測試的帳戶中。
 
       重新導向程式的功能與其他 mbox 不同，但外觀就如同您帳戶中的其他 mbox 一樣。請為重新導向程式命名，以便容易區別它們和您帳戶中其他標準類型的 mbox。作為最佳作法，請從名稱為 &#39;redirectorlink&#39; 的 mbox 開始。
@@ -61,7 +60,6 @@ ht-degree: 72%
       >[!IMPORTANT]
       >
       >請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參 [閱「建立允許清單」，指定在「主機」中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#allowlist) 之主 *機*。
-
 
 1. 驗證重新導向程式。
    1. *安全性最佳實務*: 請確定允許列出重新導向程式中使用的網域，如上所述。 如果您使用未允許列出的網域，Adobe會封鎖對該網域的任何呼叫，以防止惡意使用者使用「重新導向程式」重新導向至可能有惡意的網域。
