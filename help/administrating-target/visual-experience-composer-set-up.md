@@ -4,10 +4,10 @@ description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定�
 title: 設定Adobe Target Visual Experience Composer
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 52%
+source-wordcount: '694'
+ht-degree: 51%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 52%
 # 設定視覺體驗撰寫器
 
 透過指 [!DNL Adobe Target] 定其一般設定、行動檢視埠設定和CSS選擇器，來設定Visual Experience Composer  (VEC)。
-
->[!NOTE]
->
->下面列出的本節主題已更新，讓您在20.6.1版（2020年7月）中的 [!DNL Target Standard/Premium] UI變更搶先登峰造極。 這些主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 若要存取「 [!UICONTROL Visual Experience Composer] 」設定頁面，請按一下「 **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer」]。**
 
@@ -104,5 +100,9 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 此影片包括關於帳戶偏好設定的資訊。
 
 * 說明 中可用的帳戶設定[!DNL Target Standard]
+
+>[!NOTE]
+>
+>「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確； 不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
