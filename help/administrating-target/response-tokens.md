@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 78%
+source-wordcount: '1574'
+ht-degree: 77%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 78%
 # 回應 Token{#response-tokens}
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
-
->[!NOTE]
->
->本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 回應Token可讓您選擇要運用的變數，然後讓這些變數可作為Target回應的一部分傳送。 為此，您只需使用開關啟用變數，變數就會隨Target回應一併傳送，並可在網路呼叫中驗證。 Response tokens work in [!UICONTROL Preview] mode as well.
 
@@ -291,5 +287,9 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 ## 訓練影片: 回應 Token 與 at.js 自訂事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![教學課程徽章](/help/assets/tutorial.png)
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
+
+>[!NOTE]
+>
+>「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確； 不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
