@@ -5,7 +5,10 @@ title: '從 Adobe Target at.js 1.*x* 版升級為 at.js 2.*x* 版 '
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2747'
+ht-degree: 93%
 
 ---
 
@@ -246,7 +249,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### at.js 中的全域 mbox 名稱仍重要嗎?
 
-客戶可以透過[!UICONTROL 「Target > 設定 > 實作 > 編輯 at.js 設定」]指定全域 mbox 名稱。此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。強烈建議您確認也已在「[!UICONTROL 設定 > 偏好設定]」頁面中設定同一個全域名稱 (若您仍有頁面使用 at.js 1.*X* 或 mbox.js)，如下圖所示。
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*X* 或 mbox.js)，如下圖所示。
 
 ![修改 at.js 對話方塊](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -298,7 +301,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### 支援全域 mbox 名稱
 
-客戶可以透過[!UICONTROL 「Target > 設定 > 實作 > 編輯 at.js 設定」]指定全域 mbox 名稱。此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為輸入的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及建立鎖定全域 mbox 為目標的對象。
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit]. 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為輸入的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及建立鎖定全域 mbox 為目標的對象。
 
 ### 以下 at.js 自訂事件適用於 `triggerView()`，還是僅適用於 `applyOffer()` 或 `applyOffers()`?
 
@@ -754,7 +757,7 @@ at.js 2.*x* JSON 裝載:
 
 版本會透過版本參數以查詢字串參數的形式傳送。
 
-## 訓練影片：at.js 2.*x架構圖* 概 ![述徽章](/help/assets/overview.png)
+## 訓練影片： at.js 2.*x架構圖* 概 ![述徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增強了 Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
