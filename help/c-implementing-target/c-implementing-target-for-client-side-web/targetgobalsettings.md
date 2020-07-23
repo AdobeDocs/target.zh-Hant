@@ -5,10 +5,10 @@ title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSe
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 41%
+source-wordcount: '1647'
+ht-degree: 40%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 41%
 
 ## 使用狀況 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-可以在載入 at.js 之前定義此函數，或是在&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「實作」]**>**[!UICONTROL 「編輯 at.js 設定」]**>**[!UICONTROL 「程式碼設定」]**>**[!UICONTROL 「資料庫標題」]**&#x200B;中定義。
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 資料庫標頭欄位允許輸入自由格式的 JavaScript。自訂程式碼看起來應該類似於下列範例:
 
@@ -472,7 +472,7 @@ Consider the following when using `serverState`:
 
 * 套用選 `serverState `件時，at.js會考慮並設定 `pageLoadEnabled` , `viewsEnabled` 例如，如果設定為false，則不會套用「頁面載入 `pageLoadEnabled` 選件」。
 
-   若要開啟這些設定，請啟用 **[UICONTROL設定>實作>編輯設定>頁面載入啟用中的切換]**。
+   若要開啟這些設定，請啟用 **[UICONTROL管理>實作>編輯>頁面載入啟用中的切換]**。
 
    ![頁面載入啟用的設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
