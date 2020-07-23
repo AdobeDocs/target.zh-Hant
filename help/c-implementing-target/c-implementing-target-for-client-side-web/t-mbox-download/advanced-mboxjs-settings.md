@@ -1,10 +1,13 @@
 ---
-keywords: 進階 mbox.js 設定;用戶端;伺服器網域;xdomain;壓縮層級;用戶端工作階段 ID 支援;secureOnly;用戶端 PC ID 支援;傳遞頁面;反向連結 URL;流量層級;流量持續時間;mboxParameters() 函數主體;mboxSupported() 函數主體;mboxCookieDomain() 函數主體;額外 JavaScript;SiteCatalyst 外掛程式;取得 mbox.js 做為自動解壓縮 JavaScript;忽隱忽現;主體隱藏;隱藏主體
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: 可協助您在 mbox.js「設定」頁面上設定數個設定的資訊。
 title: 設定 mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您帳戶的用戶端代碼。
 
-檢視[!UICONTROL 「設定」&gt;「實作」&gt;「編輯 Mbox.js 設定」]時，上方的用戶端為您的帳戶的用戶端代碼。
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## 逾時
 
 Target 要求逾時。
 
-檢視[!UICONTROL 「設定 &gt; 實作 &gt; 編輯 Mbox.js 設定」]時，壓縮層級後的逾時即為您的 Target 要求逾時。依預設，此值設為 15 秒，但建議您將它設定為介於 2 秒與 5 秒之間的值。
+檢視「管 [!UICONTROL 理>實作]」時，「逾時（秒）」設定是您的Target請求逾時。 依預設，此值設為 15 秒，但建議您將它設定為介於 2 秒與 5 秒之間的值。
 
 ## XDomain
 
@@ -47,7 +50,7 @@ Target 要求逾時。
 
 例如:
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## mboxSupported() 函數主體
 
@@ -55,7 +58,7 @@ return "test=123";
 
 例如:
 
-return !navigator.userAgent.indexOf('Safari') ! = -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) ! = -1;
 
 可接受或除排下列瀏覽器:
 
@@ -70,7 +73,7 @@ return !navigator.userAgent.indexOf('Safari') ! = -1;
 
 例如:
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## 額外 JavaScript
 
