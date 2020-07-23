@@ -5,10 +5,10 @@ title: 可視化體驗撰寫器最佳作法和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 98%
+source-wordcount: '2448'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 **您可以在帳戶層級 (已針對在帳戶中建立的所有活動啟用) 或是在個別活動層級啟用增強體驗撰寫器。**
 
-若要在帳戶層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 > 偏好設定]」，然後將開關切換至「開啟」位置。
+To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
 
 在可視化體驗撰寫器中建立活動時，若要在活動層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 > URL]」，然後將開關切換至「開啟」位置。
 
