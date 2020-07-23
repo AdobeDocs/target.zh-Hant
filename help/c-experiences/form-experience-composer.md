@@ -5,7 +5,10 @@ title: 表單式體驗撰寫器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +32,14 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 1. 為活動命名。
 1. 選取位置。
 
-   在「選取位置」方塊中按一下時，會出現可用位置的清單。選取這些位置中的一個。若要選擇透過 target.js 提供的全域位置，請選擇「target-global-mbox」。
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. 選取這些位置中的一個。若要選擇透過 target.js 提供的全域位置，請選擇「target-global-mbox」。
 
-   您也可以輸入此處未列出的位置。如果您尚未在頁面上建立或檢視 mbox，則此項目相當實用。輸入位置的名稱。輸入尚未存在的位置時請注意。如果拼字或大寫不符合進行 mbox 呼叫時使用的拼字或大寫，將不會傳送活動。手動輸入的位置會儲存至清單。
+   您也可以輸入此處未列出的位置。如果您尚未在頁面上建立或檢視 mbox，則此項目相當實用。輸入位置的名稱。輸入尚未存在的位置時請注意。如果拼字或大寫不符合進行 mbox 呼叫時使用的拼字或大寫，將不會傳送活動。手動輸入的位置將保存到可用位置清單中。 下次嘗試選擇手動輸入的位置時，該位置將可從「選擇位置 [!UICONTROL 」(Select Location] )下拉清單中為該活動提供。
+
+   >[!NOTE]
+   >
+   >在建立活動期間建立手動輸入的位置不會自動建立新位置。 位置名稱僅保存在活動的上下文中。 當有內容傳送呼叫時，就會建立位置。 在建立位置後，它將可用於其他活動，以建立觀眾等。 從可用位置的下拉式清單。
+
 1. 按一下&#x200B;**[!UICONTROL 「新增對象細分」]**，然後選擇一或多個此活動的[對象](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
    ![](assets/location_refinements_2.png)
@@ -52,6 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 按一下[!UICONTROL 「變更影像選件」]。
    1. 選取需要的影像，然後按一下[!UICONTROL 「編輯連結」]。
    1. 指定您的網站上需要的 URL 或頁面，然後按一下[!UICONTROL 「更新」]。
+
    **變更 JSON 選件:** 選擇 JSON 選件。
 
    **變更體驗片段:** 選擇體驗片段。
@@ -67,6 +76,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 輸入選件名稱。
    1. 在「程式碼」方塊中，輸入或貼上 HTML 程式碼。
    1. 按一下[!UICONTROL 「儲存」]。
+
    **建立 JSON 選件:**
 
    1. 按一下[!UICONTROL 「選件」]，然後選取[!UICONTROL 「代碼選件」]索引標籤。
@@ -74,6 +84,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 輸入選件名稱。
    1. 在「程式碼」方塊中，輸入或貼上 JSON 程式碼。
    1. 按一下[!UICONTROL 「儲存」]。
+
    針對 Recommendations 活動，內容下拉式清單會提供您「新增建議」選項。按一下&#x200B;**[!UICONTROL 「新增建議」]**，然後選取頁面類型。然後遵循介面中定義的步驟來[建立Recommendations 活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 
    在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。
@@ -84,14 +95,14 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    ![](assets/change_criteria_2.png)
 
-1. (選用，適用於 AB 活動、自動個人化和體驗鎖定目標) 若要對其他位置重複此程序，請按一下「`Add Location`」，然後設定位置與內容。
-1. 按一下&#x200B;**[!UICONTROL 「繼續」]**，然後照常對您的活動類型完成活動建立步驟。
+1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [建立 A/B 測試](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [建立體驗鎖定目標活動](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [建立 Recommendations 活動](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 訓練影片: 表單式撰寫器 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 表單式撰寫器 ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片提供表單式撰寫器的示範。
 
