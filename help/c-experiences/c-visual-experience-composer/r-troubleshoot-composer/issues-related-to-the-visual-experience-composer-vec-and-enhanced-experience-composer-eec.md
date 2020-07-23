@@ -4,10 +4,10 @@ description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些
 title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 
 
 ## 我無法編輯 iFrame-busting 網站的體驗。(VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-此問題可透過啟用增強體驗撰寫器來解決。按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「偏好設定」]**，然後選取可啟用增強體驗撰寫器的核取方塊。增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。這允許在 iFrame-busting 網站上進行編輯，並允許在您尚未新增 Adobe Target 程式碼的網站和頁面上進行編輯。在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。[]
+此問題可透過啟用增強體驗撰寫器來解決。Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。這允許在 iFrame-busting 網站上進行編輯，並允許在您尚未新增 Adobe Target 程式碼的網站和頁面上進行編輯。在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。[]
 
 >[!NOTE]
 >
