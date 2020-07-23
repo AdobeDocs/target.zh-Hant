@@ -5,10 +5,10 @@ title: 環境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '654'
+ht-degree: 67%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 63%
 # 環境
 
 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
-
->[!NOTE]
->
->本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 主機會整合至環境以便輕鬆管理。例如，您可能有許多主機聚集在兩個或三個環境中。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 您可以新增環境並重新命名環境 (如需要)。
 
