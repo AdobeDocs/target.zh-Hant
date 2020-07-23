@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -24,14 +27,15 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-   如果未在[!UICONTROL 「設定」] 中啟用此選項 (預設值)，請指定優先順序: 低、中或高。
+   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-   若要啟用微調優先順序，請按一下[!UICONTROL 「設定」]，然後將[!UICONTROL 「啟用微調優先順序」]選項切換到「開啟」位置。
+   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
 
    如果已啟用此選項，請指定介於 0 和 999 之間的值:
 
    * 0 = 低
    * 999 = 高
+
    對於在舊版 [!DNL Target Standard/Premium] 中建的立活動，低優先順序會轉換為 0，中會轉換為 5，而高則轉換為 10。您可以視需要調整這些值。
 
    >[!NOTE]
@@ -54,7 +58,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 * [多變數測試](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 訓練影片: 活動設定 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 活動設定 ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
