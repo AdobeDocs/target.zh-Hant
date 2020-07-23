@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 68%
+source-wordcount: '1316'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,14 @@ mboxDebug is especially useful when you are setting up [!DNL Target] on your pag
 
 擷取授權 Token:
 
-1. 按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「實作」]**。
-1. 選取&#x200B;**[!UICONTROL 「mbox.js」]**&#x200B;或&#x200B;**[!UICONTROL 「at.js」]**。
-1. 按一下&#x200B;**[!UICONTROL 「產生驗證 Token」]**。
+1. 按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 施」]**。
+1. 在「除錯工具」區段中，按一下「 **[!UICONTROL 產生新驗證Token]**」。
 
-   ![產生授權 Token](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![產生新的驗證Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. 將產生的 Token 當作參數新增至 URL，以啟用其中一個進階偵錯工具。
 
-   ![授權 Token](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![授權 Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
