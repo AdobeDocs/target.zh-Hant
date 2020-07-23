@@ -1,12 +1,15 @@
 ---
-keywords: 實作;Mbox;mbox.js;下載 mbox.js;設定 mbox.js
+keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
 description: Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本。
 title: 下載 mbox.js
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +20,7 @@ Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本
 
 若要使用 [!DNL Adobe Target][!UICONTROL  可視化體驗編輯程式]，您必須隨著您的 [!DNL mbox.js] 檔案包括額外的一行 JavaScript。
 
-1. 在 [!DNL Target Standard] 中按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 實作」]**。
+1. 按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 施]** 」 [!DNL Target Standard]。
 1. 按一下&#x200B;**[!UICONTROL 「下載 mbox.js」]**，並依照提示操作來儲存檔案。
 1. (條件式) 如果您使用 [!DNL mbox.js] 版本 60 或更新版本，您可以設定資料庫以依預設自動隱藏頁面內容直到 mbox 載入，以減少回應式網站上的閃爍。
 
