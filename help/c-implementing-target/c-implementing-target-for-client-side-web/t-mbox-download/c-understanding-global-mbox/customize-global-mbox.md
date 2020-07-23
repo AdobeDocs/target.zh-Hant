@@ -1,12 +1,15 @@
 ---
-keywords: 全域 mbox;自訂全域 mbox;編輯 mbox.js;編輯 at.js;at.js;實作 mbox.js;實作 at.js
+keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: 可協助您為 at.js 和 mbox.js 自訂全域 mbox 的資訊。
 title: 自訂全域 mbox
-subtopic: 快速入門
+subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +20,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 編輯 mbox.js。
 
-   前往&#x200B;**[!UICONTROL 「Target]** &gt; **[!UICONTROL 設定]** &gt; **[!UICONTROL 實作」]**。
+   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * 針對 mbox.js，按一下&#x200B;**[!UICONTROL 「編輯 mbox.js 設定」]**。
    * 針對 [!DNL at.js]，請選取「實施方式」下的&#x200B;**[!UICONTROL 「at.js」]**，然後按一下&#x200B;**[!UICONTROL 「編輯 mbox.js 設定」]**。
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. 編輯 [!DNL mbox.js] 或 [!DNL at.js]
@@ -29,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   完成後按一下&#x200B;**[!UICONTROL 「儲存」]。**
+   完成後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 在您的網站上實施 [!DNL mbox.js] 或 [!DNL at.js] 資料庫。
 
 * 若使用 mbox.js，請參閱 [Mbox.js 實作](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
