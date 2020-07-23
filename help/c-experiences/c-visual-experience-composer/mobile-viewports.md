@@ -4,10 +4,10 @@ description: 行動檢視區可協助您預覽活動出現在各種大小畫面�
 title: 回應式體驗的行動檢視區
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 96%
+source-wordcount: '1343'
+ht-degree: 93%
 
 ---
 
@@ -86,12 +86,12 @@ ht-degree: 96%
 
 建立您的體驗時，請設定您要提供使用的任何行動檢視區。
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 偏好設定]**」。
-1. 在「帳戶偏好設定」頁面的「行動檢視區設定」區段中，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;來新增行動檢視區。
+1. 按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 視覺體驗撰寫器]**」。
+1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add]** to add a mobile viewport.
 
    若要變更現有行動檢視區的組態，請選取該檢視區，然後按一下「編輯」(鉛筆) 圖示。
 
-   ![](assets/viewpoert_add.png)
+   ![添加視區](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
 1. 輸入行動檢視區的名稱。
 
@@ -111,6 +111,7 @@ ht-degree: 96%
    * Windows
    * Symbian
    * Blackberry
+
    如果您使用[增強體驗撰寫器](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)並選擇作業系統，Target 會在您檢視頁面時模擬該裝置。例如，如果您的回應式網站在 Android 與 iOS 上的外觀有一些不同，Target 會模擬該行為。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -139,8 +140,8 @@ ht-degree: 96%
 
 此使用案例顯示如何使用 Target Standard 的行動檢視區功能為兩個 iPhone 版本 iPhone 6 和 iPhone 6 Plus 設定體驗。
 
-1. 在 Target Standard 中，按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「偏好設定」]**。
-1. 在「偏好設定」頁面的「行動檢視區設定」區段中，針對 iPhone 6 和 iPhone 6 plus 建立行動檢視區。
+1. 在Target中，按一下「 **[!UICONTROL 管理]**」。
+1. 在「行動視區設定」區段中，建立iPhone 6和iPhone 6 plus的行動視區。
 
    為每個檢視區使用下列設定:
 
