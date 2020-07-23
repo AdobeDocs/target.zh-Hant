@@ -4,10 +4,10 @@ description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定�
 title: 在Adobe Target中設定報表
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 31%
+source-wordcount: '666'
+ht-degree: 33%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 31%
 # 在Target中設定報表
 
 設定一般設定，以用於套 [!DNL Adobe Target] 用至整個帳戶的報 [!DNL Target] 告。
-
->[!NOTE]
->
->本主題中的資訊已更新，讓您在Target Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 若要存取「報 [!UICONTROL 告] 」設定頁面，請按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 報告]」。**
 
