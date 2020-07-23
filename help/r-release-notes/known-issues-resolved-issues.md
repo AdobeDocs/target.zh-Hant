@@ -4,7 +4,10 @@ description: 此版本 Adobe Target 已知問題的相關資訊，也包括已�
 title: Adobe Target 的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節羅列 [!DNL Target] 的已知問題：
-
-### 報告與極端訂單
-
-從2019年11月25日到2020年4月26日，一個Target伺服器遇到問題，導致極端訂單值計入收入型報表量度(AOV、RPV)。 從2019年12月19日到2020年4月23日，另一台伺服器遇到了相同問題。 此問題並未影響所有Target伺服器或所有Target客戶。
-
-如果您 *有* :
-
-* 您的Target實作使用不同的伺服器。
-* 您的報表未排除極端訂單。
-* 您使用轉換度量來測量活動。
-* 您的Target活動使用Analytics for Target(A4T)。
-* 您位於亞太地區。
-
-若要判斷此問題是否影響Target報表，請聯絡 [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### 頁面傳送 {#page-delivery}
 
@@ -121,7 +110,7 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 ### 實作：全域 Mbox 自動建立
 
-在「實作」索引標籤上 ([!UICONTROL 「設定」>「實作」])，新佈建的租用戶的[!UICONTROL 「全域 Mbox 自動建立」]欄位將預設為 &quot;false&quot;。
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 佈建後第一次下載 mbox.js 時，所下載的 mbox.js 檔案和 [!UICONTROL  後端中的]「全域 Mbox 自動建立」[!DNL Target]欄位會設為 &quot;true&quot;，但它會在 UI 的[!UICONTROL 「實作」]頁面上繼續顯示為 &quot;false&quot;，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 &quot;true&quot;)。
 
@@ -146,6 +135,20 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 ## 已解決的問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 由於上述的已知問題已解決，我們會將其移至以下小節，並在必要時新增其他備註。
+
+### 報告與極端訂單
+
+從2019年11月25日到2020年4月26日，一個Target伺服器遇到問題，導致極端訂單值計入收入型報表量度(AOV、RPV)。 從2019年12月19日到2020年4月23日，另一台伺服器遇到了相同問題。 此問題並未影響所有Target伺服器或所有Target客戶。
+
+如果您 *有* :
+
+* 您的Target實作使用不同的伺服器。
+* 您的報表未排除極端訂單。
+* 您使用轉換度量來測量活動。
+* 您的Target活動使用Analytics for Target(A4T)。
+* 您位於亞太地區。
+
+若要判斷此問題是否影響Target報表，請聯絡 [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### Recommendations
 
