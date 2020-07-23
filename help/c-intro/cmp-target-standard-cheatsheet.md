@@ -5,10 +5,10 @@ title: Target 最佳化和個人化常見問題集
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,7 +134,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 提供兩個選項:
 
 * 預設，具有三個層級 (低/中/高)
-* 自訂，範圍從 0 到 999。針對「自訂」，請啟用「微調優先順序」功能 (「設定」>「偏好設定」)。
+* 自訂，範圍從 0 到 999。對於「自訂」，請啟用「精細的優先順序」功能（「管理>視覺體驗撰寫器」）。
 
 ## 受眾 {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -198,7 +198,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我有多個網域。其中一個網域必須已啟用增強體驗撰寫器，而其他網域則需要將它停用。我應該怎麼做?**
 
-您一律可以使用[活動層級的增強體驗撰寫器選項](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)來覆寫預設設定 (「設定」>「偏好設定」)。
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **為什麼我看不到可交換影像的選項?**
 
