@@ -5,10 +5,10 @@ title: 疑難排解活動
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 83%
+source-wordcount: '799'
+ht-degree: 81%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 83%
 當您加入 Target 中成為使用者時，需要具有「核准者」角色，才能建立活動。
 
 * 請要求帳戶的管理員將您變成「核准者」。
-* 如果您是管理員，請在 Target Standard 中從「設定 > 使用者」將「核准者」角色授與您自己。
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    請參閱[將核准者角色指派給您自己](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
