@@ -5,10 +5,10 @@ title: 主機
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 25%
+source-wordcount: '1079'
+ht-degree: 26%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 25%
 # 主機{#hosts}
 
 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
-
->[!NOTE]
->
->本主題中的資訊已更新，讓您在 [!DNL Target] Standard/Premium 20.6.1版（2020年7月）即將推出的UI變更中搶先登峰造極。 本主題中顯示的大部分資訊都適用於目前的使用者介面； 不過，選項可能位於稍微不同的位置。
 
 主機管理的主要目標是確保網站上沒有意外出現非使用中的內容。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
