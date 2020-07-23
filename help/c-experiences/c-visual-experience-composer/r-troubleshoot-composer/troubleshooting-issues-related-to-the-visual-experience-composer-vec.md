@@ -4,10 +4,10 @@ description: 顯示在某些情況下，有時候會發生在可視化體驗撰�
 title: 疑難排解可視化體驗撰寫器的相關問題
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 如果問題是在增強體驗撰寫器中發生，請嘗試關閉增強體驗撰寫器，並改為使用可視化體驗撰寫器。
 
-若要停用增強體驗撰寫器，請前往&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「偏好設定」]**，並關閉&#x200B;**[!UICONTROL 「啟用增強體驗撰寫器」]**&#x200B;選項。
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 有些使用者在主控台中看見下列錯誤訊息:
 
@@ -116,10 +116,6 @@ ht-degree: 100%
    按一下瀏覽器位址列 URL 左側的圖示，然後按一下&#x200B;**[!UICONTROL 「停用此頁面上的保護」]**
 * 您輸入了無效的 URL。
 * 您尚未在您的帳戶設定頁面中輸入預設 URL。
-
-## 啟動 VEC 活動的 URL 時，主控台顯示下列錯誤訊息:「未捕捉的參考錯誤: _AT 未定義。」(僅限 VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-如果您嘗試傳送可視化體驗撰寫器 (VEC) 促銷活動，並且尚未更新從 Target 使用者介面下載的 mbox.js，同時將[!UICONTROL 「支援可視化體驗撰寫器活動」]選項啟用 ([!UICONTROL 「設定」]>[!UICONTROL 「實施」]>[!UICONTROL 「mbox.js」]>[!UICONTROL 「編輯 mbox.js 設定」])，即會發生此錯誤。
 
 請確保此設定已啟用，然後在您的網站上下載和更新 mbox.js。
 
