@@ -1,10 +1,13 @@
 ---
-keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
+keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: 提供使用 Adobe Target 可視化體驗撰寫器 (VEC) Helper 瀏覽器擴充功能，在 VEC 內以可靠的方式載入網站來迅速撰寫體驗和保證體驗品質的資訊。
 title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,7 @@ Chrome 的 VEC Helper 瀏覽器擴充功能解決了客戶現依賴 [!DNL Target
 ## 取得並安裝 VEC Helper 瀏覽器擴充功能
 
 1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
-1. 按一下[!UICONTROL 「新增至 Chrome &gt; 新增擴充功能」]。
+1. 按一下[!UICONTROL 「新增至 Chrome > 新增擴充功能」]。
 1. 若要使用擴充功能，請在 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)中時，按一下 Chrome 瀏覽器工具列上的 VEC Helper 瀏覽器擴充功能圖示 (![VEC Helper 圖示](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
 
 下圖顯示已啟用[!UICONTROL 插入 Target 資料庫]設定的 VEC Helper:
@@ -51,7 +54,7 @@ Chrome 的 VEC Helper 瀏覽器擴充功能解決了客戶現依賴 [!DNL Target
 
    請注意，此標記為全域設定。VEC 中開啟的所有網站都會啟用或停用此標記。因此，假如您將此標記設為「開啟」，然後開啟已使用 at.js 實作的網站，您會收到一則訊息，通知您 at.js 已載入。我們預計大部分客戶都會在網頁上實作 at.js，且都會使用預設設定 (即「關閉」)。
 
-* 此擴充功能會載入最新版本的 at.js (由 [!DNL Target UI] 中的[!UICONTROL 「設定 &gt; 實作」]提供)。
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * 在 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)下使用此擴充功能來插入 at.js 時，您必須另外開啟一個 Chrome 分頁。此 Chrome 分頁必須授權給您建立活動的相同 [!DNL Adobe Experience Cloud] 組織。
 * 以下訊息有助於您瞭解:
 
