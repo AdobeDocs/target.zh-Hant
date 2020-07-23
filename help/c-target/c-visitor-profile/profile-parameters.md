@@ -5,10 +5,10 @@ title: Adobe Target 中的設定檔屬性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 79%
+source-wordcount: '2446'
+ht-degree: 77%
 
 ---
 
@@ -158,7 +158,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **新增設定檔指令碼作為回應 Token 以偵錯設定檔指令碼:**
 
-   在 Target 中，按一下&#x200B;**[!UICONTROL 「設定」]**，按一下&#x200B;**[!UICONTROL 「回應 Token」]**，然後啟用您要除錯的設定檔指令碼。
+   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
    每當您使用 Target 為網站載入頁面時，Target 的部分回應將包含您提供之設定檔指令碼的值，如下所示:
 
@@ -166,7 +166,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **使用 mboxTrace 偵錯工具以偵錯設定檔指令碼。**
 
-   此方法需要授權 Token，您可以按一下&#x200B;**[!UICONTROL 「Target]** > **[!UICONTROL 設定]** > **[!UICONTROL 實作]** > **[!UICONTROL 產生授權 Token」]**，以產生 Token。
+   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
    然後，將這兩個參數加入「?」後的頁面 URL: `mboxTrace=window&authorization=YOURTOKEN`。
 
