@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -14,16 +14,30 @@ ht-degree: 0%
 
 # 定位公告和事件
 
-近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
+有關即將舉辦之活動的公告和資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
 
-## Adobe Target社群與Jon Tehero的Coffee Break
+## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
-* **上午10:00至11:00 (PST)**
-* **2020年7月22日星期三**
+在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類： 願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
 
-Jon Tehero將會加入我們，他是數位體驗的群組產品經理，將會登入Adobe Target社群，直接與您聊天，回答您有關其專業領域的Adobe Target熱門問題。
+## 網路研討會： HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
-[在Adobe Target社群中註冊](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)。
+* **8:00 - 9:00 a.m. (PDT)**
+* **2020年8月6日星期四**
+
+麥肯錫數位報告稱，「在大約8週內，我們在消費者和企業數位應用方面，已經進步了5年。」 *
+
+消費者需求正在快速發展，而HSBC已採用Adobe Target的最佳化功能，以快速測試並個人化新客戶歷程，將特定開發和推出的時間從6個月縮短至1週！
+
+加入Adobe和HSBC參加此網路研討會以瞭解：
+
+* HSBC的最佳化和個人化努力如何推動組織快速變革
+* AI &amp; Analytics如何加速其工作，並提供清楚、重大的業務影響
+* 匯豐如何建立成功的大規模計畫，提供超過3000項活動
+
+[在這裡註冊參加這個精彩的網路研討會](https://hsbc-targetai.experienceleague.adobeevents.com/)。
+
+*麥肯錫文章： 「[COVID-19的恢復將是數字的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),」 2020年5月
 
 ## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
