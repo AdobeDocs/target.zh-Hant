@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 31%
+source-wordcount: '1483'
+ht-degree: 32%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 31%
 # 文件變更{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.7.1 (2020 年 7 月 27 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 27 年 7 月 | [管理 Target](/help/administrating-target/administrating-target.md) | 更新此頁面上所有連結主題的文字，以反映「管理」頁面的新UI [!UICONTROL 變更] 。 |
+|  | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 進行下列變更: <ul><li>已新增下列網路研討會的註冊資訊： 「HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化。」</li><li>已新增有關Adobe在Gartner個人化引擎魔力像限中再次獲評為領導者的資訊。</li></ul> |
+|  | [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) | 第4步下的澄清資訊： 選擇位置。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 20.7.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 20.5.1 (2020 年 6 月 17 日)
 
