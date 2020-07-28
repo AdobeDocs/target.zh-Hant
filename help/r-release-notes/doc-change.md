@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 31%
+source-wordcount: '1661'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 28 年 7 月 | [個人化洞察報告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)、自<br>[動化區段報告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>以及重 [要屬性報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 已更新附註中的文字。 |
+| 28 年 7 月 | [個人化洞察報告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)、自<br>[動化區段報告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>以及重 [要屬性報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 更新主題頂部附註中的文字。 |
+|  | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 已新增下列常見問題集:<ul><li>在執行「自動配置」活動時，我是否可以使用「重設報表資料」選項？</li><li>自動分配構建模型如何與環境相關？</li></ul> |
+|  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 已新增下列常見問答集:<ul><li>我是否可在執行自動定位活動時使用「重設報表資料」選項？</li></ul>更新「考量事項」區段中的文字。 |
+|  | [自動個人化常見問答集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 已新增下列常見問題集:<ul><li>執行「自動個人化」活動時，我是否可以使用「重設報表資料」選項？</li><li>Automated Personalization如何建立與環境相關的模型？</li></ul> |
 |  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 已新增有關Internet Explorer和未知元素的資訊。 |
 |  | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，有可能少量的資料（大量生產批次的0.1%）無法封存。 |
 | 27 年 7 月 | [管理 Target](/help/administrating-target/administrating-target.md) | 更新此頁面上所有連結主題的文字，以反映「管理」頁面的新UI [!UICONTROL 變更] 。 |
