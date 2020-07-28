@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 37%
 
 ---
 
@@ -33,7 +36,7 @@ Consider the following information as your work with customer attributes and [!D
    >
    >[!DNL at.js] （任何版本）或 [!DNL mbox.js] 58版或更新版本為必要。
 
-* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，可能不會將少量百分比的資料上架。
+* [!DNL Adobe] 不保證來自CRM資料庫的100%客戶屬性（訪客資料）資料會載入 [!DNL Experience Cloud] ，因此可用於定位 [!DNL Target]。 在我們目前的設計中，有可能少量的資料（大量生產批次的0.1%）無法封存。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 如需詳細資訊，請參閱訪 [客資料存留期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
@@ -83,6 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    * **HTTPS:** 您可以拖放。csv資料檔案，或按一下「瀏 **[!UICONTROL 覽]** 」從檔案系統上傳。
    * **FTP:** 按一下FTP連結， [透過FTP上傳檔案](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。Specify the password, then click **[!UICONTROL Done]**.
+
    現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸成功後，請建立名稱相同且副檔名為。fin的新檔案。 將此空白檔案傳輸至伺服器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. 驗證結構。
@@ -154,7 +158,7 @@ You might encounter the following issues when working with customer attributes a
 >
 >問題1和問題2造成該領域大約60%的問題。 問題3導致大約30%的問題。 問題4導致大約5%的問題。 其餘的 5% 則因為雜項問題。
 
-### 問題1:客戶屬性會移除，因為描述檔過大
+### 問題1: 客戶屬性會移除，因為描述檔過大
 
 使用者設定檔中的特定欄位沒有字元限制，但如果設定檔變得大於 64K，則會透過移除最舊的屬性來將它截斷，直到設定檔再次低於 64K 為止。
 
@@ -162,11 +166,11 @@ You might encounter the following issues when working with customer attributes a
 
 這通常是管線連線問題。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
 
-### 問題3:傳送無法根據屬性運作
+### 問題3: 傳送無法根據屬性運作
 
 Edge 上的設定檔尚未更新。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
 
-### 問題四：實施問題
+### 問題四： 實施問題
 
 請注意下列實作問題:
 
@@ -174,7 +178,7 @@ Edge 上的設定檔尚未更新。作為解決方案，請要求您的客戶屬
 * 傳遞的訪客 ID 正確，但 AUTHENTICATION 狀態未設為 Authenticated。
 * `mbox3rdPartyId` 未正確傳遞。
 
-### 問題五：未正確執行 `mboxUpdate`
+### 問題五： `mboxUpdate` 未正確執行
 
 `mboxUpdate` 未正確搭配 `mbox3rdPartyId` 執行。
 
