@@ -5,10 +5,10 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 33%
+source-wordcount: '1573'
+ht-degree: 31%
 
 ---
 
@@ -21,6 +21,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 28 年 7 月 | [個人化洞察報告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)、自<br>[動化區段報告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>以及重 [要屬性報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 已更新附註中的文字。 |
+|  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 已新增有關Internet Explorer和未知元素的資訊。 |
+|  | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，有可能少量的資料（大量生產批次的0.1%）無法封存。 |
 | 27 年 7 月 | [管理 Target](/help/administrating-target/administrating-target.md) | 更新此頁面上所有連結主題的文字，以反映「管理」頁面的新UI [!UICONTROL 變更] 。 |
 |  | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 進行下列變更: <ul><li>已新增下列網路研討會的註冊資訊： 「HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化。」</li><li>已新增有關Adobe在Gartner個人化引擎魔力像限中再次獲評為領導者的資訊。</li></ul> |
 |  | [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md) | 第4步下的澄清資訊： 選擇位置。 |
