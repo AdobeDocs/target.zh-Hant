@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 產品文件
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 61%
@@ -17,7 +17,7 @@ ht-degree: 61%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新: 2020 年 7 月 24 日 ([查看變更](r-release-notes/doc-change.md))**
+**最近更新: 2020 年 7 月 28 日 ([查看變更](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
