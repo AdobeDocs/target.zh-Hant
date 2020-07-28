@@ -4,10 +4,10 @@ title: 自動鎖定目標
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 96%
+source-wordcount: '3517'
+ht-degree: 91%
 
 ---
 
@@ -32,11 +32,18 @@ A/B 活動流量內的[!UICONTROL 「自動鎖定目標」]選項可讓您只要
 
 不同於 A/B 活動對特定訪客採用固定的體驗分配，[!UICONTROL 自動鎖定目標]會隨著每次造訪來最佳化指定的業務目標。如同在[!UICONTROL 自動個人化]中，依預設，[!UICONTROL 自動鎖定目標]也會保留一部分活動流量作為控制組以測量提升度。在活動中會提供隨機體驗給控制組中的訪客。
 
-使用[!UICONTROL 自動鎖定目標]時請謹記一些重要事項:
+## 考量事項
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * 您無法將特定活動從[!UICONTROL 自動鎖定目標]切換到自動個人化，反之亦然。
 * 在活動上線之後，您無法從手動流量分配 (傳統 A/B 測試) 切換到[!UICONTROL 自動鎖定目標]，反之亦然。
-* 使用主機和環境時 (主機群組)，只會針對「生產」環境建立模型。所有環境皆會貢獻資料來為「生產」行銷活動建立模型。
+* 建立一個模型，用以識別個人化策略的效能與隨機提供的流量，以及將所有流量傳送至整體成功體驗。 此模型僅會在預設環境中考慮點擊和轉換。
+
+   來自第二組模型的流量會針對每個模型群組(AP)或體驗(AT)建立。 對於這些模型，會考慮所有環境的點擊和轉換。
+
+   因此，無論環境如何，請求都會以相同的模型提供，但是，多個流量應來自預設環境，以確保所識別的整體成功體驗與實際行為一致。
+
 * 您必須使用至少兩個體驗。
 
 ## 術語 {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -221,6 +228,10 @@ A/B 活動流量內的[!UICONTROL 「自動鎖定目標」]選項可讓您只要
 我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
 
 此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
+
+### 我是否可在執行自動定位活動時使用「重設報表資料」選項？
+
+不建議 [!UICONTROL 對「自動目標] 」活 [!UICONTROL 動使用「重設報表資料] 」選項。 雖然會移除可見的報表資料，但此選項不會從「自動目標」模型移除 [!UICONTROL 所有培訓記錄] 。 請建立新活 [!UICONTROL 動並取消啟用原始活動，而不] 是使用「重設報表資料」選項來自動定位活動。 (注意： 本指南也適用於「自 [!UICONTROL 動配置] 」和「自  動個人化」活動。)
 
 ## [!UICONTROL 自動鎖定目標]疑難排解 {#section_23995AB813F24525AF294D20A20875C8}
 
