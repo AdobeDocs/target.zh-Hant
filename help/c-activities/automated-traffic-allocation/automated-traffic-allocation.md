@@ -5,10 +5,10 @@ title: 自動分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -185,9 +185,21 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 ### 我可以在自動分配活動中途變更目標量度嗎？ {#change-metric}
 
-我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
+我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
 
 此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
+
+### 在執行「自動配置」活動時，我是否可以使用「重設報表資料」選項？
+
+不建議 [!UICONTROL 對「自動配置] 」活 [!UICONTROL 動使用「重設報表資料] 」選項。 雖然它會移除可見的報告資料，但此選項不會從「自動分配」模型移除 [!UICONTROL 所有培訓記錄] 。 不要對「自動 [!UICONTROL 分配」活動使用「重] 設報表資料」選項  ，請建立新活動並停用原始活動。 (注意： 本指南也適用於 [!UICONTROL Auto-Target] 和 [!UICONTROL Automated Personalization] 活動。)
+
+### 自動分配構建模型如何與環境相關？
+
+[!UICONTROL Auto-Allocate] （自動分配）僅根據預設環境中記錄的流量和轉換行為來建立模型。 依預設， [!UICONTROL Production] 是預設環境，但可在「Target管理>環 [境」中變更](/help/administrating-target/environments.md)。
+
+如果點擊發生在其他（非預設）環境，則流量會根據在預設環境中觀察到的轉換行為進行分配。 該點擊的結果（轉換或非轉換）將記錄為報告用途，但不會計入「自動分 [!UICONTROL 配」模型中] 。
+
+選取其他環境時，報表會顯示該環境的流量和轉換。 報表的預設選取環境永遠是所選取的帳戶範圍預設值。 預設環境不能按活動設定。
 
 ## 訓練影片 {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
