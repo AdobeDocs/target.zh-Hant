@@ -4,10 +4,10 @@ description: 此版本 Adobe Target 已知問題的相關資訊，也包括已�
 title: Adobe Target 的已知問題和已解決的問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3261'
-ht-degree: 94%
+source-wordcount: '3352'
+ht-degree: 91%
 
 ---
 
@@ -135,6 +135,10 @@ Analysis Workspace 目前計算 Target 活動曝光次數和轉換次數的方�
 ### GEO定位
 
 2020年5月10日，我們更新了GEO提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值； 不過，現有對象中的值沒有逗號。 並非我們所有的傳送伺服器都受到此項變更的影響。 因此，在2020年5月10日至7月22日之間，使用這些值的觀眾可能無法符合所有正確訪客的資格。
+
+### 顯示「處理」標籤的影像0ffer
+
+「選件」頁面上的影像選件有時會在影像上傳後數小時內保留「處理」標籤。 在大多數情況下，這是僅標籤的問題： 影像選件仍可用於活動中並傳送。 不過，在某些情況下，影像選件可能無法用於「取代內容>影像」動作。 如果發生此情況，您應該再次上傳影像選件，並在數小時後檢查影像選件是否可供取代。 (TGT-37458)
 
 ## 已解決的問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
