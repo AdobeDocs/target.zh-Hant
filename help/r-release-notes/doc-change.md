@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1706'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 31 年 7 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增已知問題： &quot;顯示「處理」標籤的影像選件。&quot; |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增程式碼範例， `getoffers()` 以用於執行pageLoad。 |
 |  | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關即將於8月5日舉行的Adobe Target社群咖啡會的註冊資訊。 |
 | 28 年 7 月 | [個人化洞察報告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)、自<br>[動化區段報告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>以及重 [要屬性報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 更新主題頂部附註中的文字。 |
 |  | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 已新增下列常見問題集:<ul><li>在執行「自動配置」活動時，我是否可以使用「重設報表資料」選項？</li><li>自動分配構建模型如何與環境相關？</li></ul> |
