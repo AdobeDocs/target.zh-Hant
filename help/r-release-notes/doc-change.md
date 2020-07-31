@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1676'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 31 年 7 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增已知問題： &quot;顯示「處理」標籤的影像選件。&quot; |
 | 28 年 7 月 | [個人化洞察報告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)、自<br>[動化區段報告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>以及重 [要屬性報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 更新主題頂部附註中的文字。 |
 |  | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 已新增下列常見問題集:<ul><li>在執行「自動配置」活動時，我是否可以使用「重設報表資料」選項？</li><li>自動分配構建模型如何與環境相關？</li></ul> |
 |  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 已新增下列常見問答集:<ul><li>我是否可在執行自動定位活動時使用「重設報表資料」選項？</li></ul>更新「考量事項」區段中的文字。 |
