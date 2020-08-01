@@ -5,10 +5,10 @@ title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.g
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 94%
+source-wordcount: '1224'
+ht-degree: 95%
 
 ---
 
@@ -271,4 +271,14 @@ adobe.target.getOffers({
 
 下列範例說明如何使用getOffers()搭配at.js 2執行pageLoad。*x*
 
-adobe.target.getOffers({request: {execute: {pageLoad: {parameters: {}}});
+```
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {
+                parameters: {}
+            }
+        }
+    }
+});
+```
