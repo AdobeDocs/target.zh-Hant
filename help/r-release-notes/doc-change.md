@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8月3日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已新增附註，釐清「 [!UICONTROL 增量計數] 」選項對於訪客與瀏覽的意義。 |
 | 31 年 7 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增已知問題： &quot;顯示「處理」標籤的影像選件。&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增程式碼範例， `getoffers()` 以用於執行pageLoad。 |
 |  | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關即將於8月5日舉行的Adobe Target社群咖啡會的註冊資訊。 |
