@@ -4,10 +4,10 @@ description: 在Adobe Target中，成功度量已預先設定，以用於報告�
 title: Adobe Target中的成功度量
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,10 @@ A/B 測試、自動個人化、體驗鎖定目標和多變數測試活動中支�
 | 增加計數並將使用者保持在活動中 | 指定計數的遞增方式:<ul><li>每次進入則計數加一 (預設)</li><li>在每次曝光時，排除頁面重新整理</li><li>在每次曝光時</li></ul> |
 | 增加計數，釋出使用者並允許重新進入 | 選取訪客重新進入活動時會看見的體驗:<ul><li>相同體驗 (預設)</li><li>隨機體驗</li><li>未見的體驗</li></ul> |
 | 增加計數，釋出使用者並限制重新進入 | 決定使用者看見的內容而非活動內容:<ul><li>相同體驗，無追蹤 (預設)</li><li>預設內容，或其他活動內容</li></ul> |
+
+>[!NOTE]
+>
+>如果您將量度設定為其中一個「 [!UICONTROL 增量計數] 」選項（上述），則量度計數只會在訪客層級每位進入者正確遞增一次。 在瀏覽層級，每次瀏覽一次新作業的度量計數都會遞增一次。
 
 ## 訓練影片: 活動量度
 
