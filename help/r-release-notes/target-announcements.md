@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Adobe Target產品經理Cristinel Anastasoaie將會加入我們，他將登入Ad
 [在這裡註冊參加這個精彩的網路研討會](https://hsbc-targetai.experienceleague.adobeevents.com/)。
 
 *麥肯錫文章： 「[COVID-19的恢復將是數字的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),」 2020年5月
+
+## 網路研討會： 使用人工智慧和Adobe Target的個人化策略
+
+* **8:00 - 9:00 a.m. (PDT)**
+* **2020年8月13日星期四**
+
+[請在這裡註冊參加此網路研討會](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
 
 ## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
