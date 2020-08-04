@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 89%
+source-wordcount: '299'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 ## [!DNL Target] Standard/Premium 介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-[!DNL Target] Standard/Premium 介面支援下列瀏覽器和裝置:
+The [!DNL Target] interface supports the following browsers and devices:
 
 | 裝置類型 | 瀏覽器版本 |
 |--- |--- |
