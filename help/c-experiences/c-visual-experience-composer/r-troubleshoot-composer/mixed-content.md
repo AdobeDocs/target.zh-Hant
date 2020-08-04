@@ -5,10 +5,10 @@ title: 在瀏覽器中啟用混合內容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 36%
+source-wordcount: '558'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
 
-![](assets/mixed_content_warning.gif)
+![混合內容警告](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 以前，雖然不允許混合內容，但您在建立活動時，仍可在三步驟引導式工作流程的步驟 1 中執行一些動作。[!DNL Target] 現在禁止在步驟 1 執行動作。顯示此訊息時，您必須先啟用混合內容，才能繼續建立活動。
 
