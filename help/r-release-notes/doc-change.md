@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1754'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 8月4日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增「使用人工智慧與Adobe Target的個人化策略」網路研討會的註冊資訊，該網路研討會將於8月13日舉行。 |
+|  | [在瀏覽器中啟用混合內容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 更新了主題。 |
 | 8月3日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已新增附註，釐清「 [!UICONTROL 增量計數] 」選項對於訪客與瀏覽的意義。 |
 | 31 年 7 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增已知問題： &quot;顯示「處理」標籤的影像選件。&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增程式碼範例， `getoffers()` 以用於執行pageLoad。 |
