@@ -4,10 +4,10 @@ title: 刪除Adobe Target Cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 79bcd452a9faa0883272d2e686efd7c4ddfa34a2
+source-git-commit: 871250ecaadafa7e9b56fad7e211f258767e3c18
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 您可以刪除瀏 [!DNL Target] 覽器Cookie(mbox)，以便在測試期間驗證所有體驗。
 
-If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
+If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and shown a new experience. 有數種方式能夠刪除您的 mbox ，但不會刪除您所有的瀏覽器 Cookie。
 
 >[!NOTE]
 >
@@ -36,6 +36,8 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
 79.0 版
 
+### 刪除與 `adobe.com`
+
 1. 按一下「 **Firefox** 」選單>「 **偏好設定**」。
 1. 按一下「 **隱私與安全** 」標籤。
 1. 在「 **Cookie和網站資料」下**，按一 **下「管理資料」**。
@@ -43,7 +45,15 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
    >[!NOTE]
    >
-   >這會刪除與網站相關的所有 `adobe.com` Cookie。 如果您想要刪除或編輯網站的個別Cookie，可以在開發人員工具的儲 [存偵測器中這麼做](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector)。 您應刪除的特定Cookie名為「mbox」。
+   >這會刪除與網站相關的所有 `adobe.com` Cookie。 如果您想要刪除網站的個別Cookie，請依照下列指示進行。
+
+### 刪除個別Cookie(mbox)
+
+1. 在Firefox中，按一下「 **工具** >網頁開 **發人員** >儲存檢 **視器」**。
+1. Click the **Advanced** tab.
+1. 導覽至包含您要刪除之Cookie的網頁。
+1. 展開「 **Cookie** 」區段，然後按一下 `https://experience.adobe.com`。
+1. 以滑鼠右鍵按一 **下mbox** Cookie，然後按一 **下刪除**。
 
 ## 從Microsoft Edge刪除目標Cookie
 
@@ -59,14 +69,18 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
 13.1.2 版
 
+### 刪除與 `adobe.com`
+
 1. 按一下「 **Safari** 」功能表> **偏好設定**。
 1. Click the **Privacy** tab.
 1. 按一 **下「管理網站資料**」。
 1. 選取您要刪除之Cookie的網站，然後按一下「移除 **」**。
 
->[!NOTE]
->
->這會刪除與網站相關的所有 `adobe.com` Cookie。 如果您要刪除網站的個別Cookie，請依照下列指示進行：
+   >[!NOTE]
+   >
+   >這會刪除與網站相關的所有 `adobe.com` Cookie。 如果您想要刪除網站的個別Cookie，請依照下列指示進行。
+
+### 刪除個別Cookie(mbox)
 
 1. 按一下「 **Safari** 」功能表> **偏好設定**。
 1. Click the **Advanced** tab.
