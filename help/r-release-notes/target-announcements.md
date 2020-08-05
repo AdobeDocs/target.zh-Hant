@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
+source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,6 @@ ht-degree: 0%
 ## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
 在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類： 願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
-
-## Adobe Target社群咖啡休息
-
-* **上午10:00 - 11:00 (PDT)**
-* **2020年8月5日星期三**
-
-Adobe Target產品經理Cristinel Anastasoaie將會加入我們，他將登入Adobe Target社群，直接與您聊天，回答您有關他專業領域的Adobe Target熱門問題：
-
-* Adobe Target使用者介面
-* Adobe Target整合
-* 企業權限和工作區
-
-[在Adobe Target社群中註冊。](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## 網路研討會： HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
