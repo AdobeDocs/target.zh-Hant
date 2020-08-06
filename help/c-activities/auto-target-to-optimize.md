@@ -4,10 +4,10 @@ title: 自動鎖定目標
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -198,14 +198,17 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 如果您想對[!UICONTROL 自動鎖定目標]活動中的內容進行重大改變，最佳作法是啟動新的活動，使其他檢閱報表的使用者不會將過去的結果與不同內容混淆或聯繫起來。
 
-### 模型建置需要等候多久?
+### 模型建置需要等候多久? {#how-long}
 
-在[!UICONTROL 自動鎖定目標]活動中建立模型所需的時間，通常取決於流向您所選活動位置的流量，以及活動成功量度。
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-針對[!UICONTROL 自動鎖定目標]，可以使用簡易的經驗法則來瞭解流量需求:
+[!UICONTROL Auto-Target不會嘗試針對特定體驗建立個人化模型，直到該體驗至少有50次轉換。] 此外，如果所建立的模型品質不足(如使用稱為AUC [](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)(AUC)的量度進行離線評估，以判斷是否有「測試」資料)，則不會使用模型以個人化方式為流量提供服務。
 
-* **當轉換是成功量度時:**&#x200B;每個體驗每日有 1,000 次造訪和至少 50 次轉換，此外，活動至少必須有 7,000 次造訪和 350 次轉換。
-* **當每次造訪帶來的收入為您的成功量度時:**&#x200B;每個體驗每天 1,000 次造訪和至少 50 次轉換，此外，活動必須每個體驗至少 1,000 次轉換。RPV 通常需要更多資料才能建置模型，原因是造訪收入相較於轉換率一般會存在較高的資料變數。
+Auto-Target的模型建立需 [!UICONTROL 要進一步考慮]:
+
+* 當活動上線後， [!UICONTROL Auto-Target] 嘗試建立模型時，會考慮最多45天隨機提供的資料（例如控制流量，加上演算法所保留的額外隨機提供的資料）。
+* 當「每 [!UICONTROL 次瀏覽收入] 」是您的成功度量時，由於與轉換率相比，瀏覽收入中通常存在較高的資料差異，這些活動通常需要更多資料才能建立模型。
+* 由於模型是以每個體驗為基礎建立，因此以另一個體驗取代一個體驗意味著必須針對新體驗收集足夠的流量（即至少50次轉換），才能重新建立個人化模型。
 
 ### 我的活動中已建立一個模型。對該體驗的的造訪是否經過個人化? 
 
@@ -225,7 +228,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 ### 我可以在自動定位活動中途變更目標量度嗎？ {#change-metric}
 
-我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
+我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
 
 此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
 
