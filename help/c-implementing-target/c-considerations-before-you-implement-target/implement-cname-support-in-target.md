@@ -5,9 +5,9 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
+source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -40,13 +40,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    * Adobe [!DNL Target] client code:
    * SSL憑證主機名稱(範例： `target.example.com target.example.org`):
-   * SSL憑證購買者（強烈建議使用Adobe，請參閱常見問答集）: Adobe/客戶
+   * SSL憑證購買者（強烈建議使用Adobe，請參閱常見問答集）:Adobe/客戶
    * 如果客戶購買憑證（亦即BYOC），請填寫下列其他詳細資訊：
-      * 憑證組織(範例： 範例公司):
-      * 證書組織單位(可選，例如： 行銷):
-      * 憑證國家(範例： 美國):
-      * 憑證狀態／地區(範例： 加州):
-      * 認證城市(範例： 聖荷西):
+      * 憑證組織(範例：範例公司):
+      * 證書組織單位(可選，例如：行銷):
+      * 憑證國家(範例：美國):
+      * 憑證狀態／地區(範例：加州):
+      * 認證城市(範例：聖荷西):
 
 1. 如果Adobe要購買憑證，Adobe將與DigiCert合作，在Adobe的生產伺服器上購買及部署您的憑證。
 
@@ -62,7 +62,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 我是否可提供我自己的憑證（又稱為攜帶您自己的憑證或BYOC）?
 
-是的，您可以提供您自己的憑證； 但不建議使用。 Adobe和您在購買及控制憑證時，SSL憑證生命週期的管理會變得更輕鬆。 SSL憑證必須每年更新一次，這表示Adobe Client Care必須每年與您聯絡，以便及時傳送新憑證給Adobe。 有些客戶可能每年都無法及時產生更新的憑證，這會危及其實作，因為當憑證過期時， [!DNL Target] 瀏覽器會拒絕連線。
+是的，您可以提供您自己的憑證；但不建議使用。 Adobe和您在購買及控制憑證時，SSL憑證生命週期的管理會變得更輕鬆。 SSL憑證必須每年更新一次，這表示Adobe Client Care必須每年與您聯絡，以便及時傳送新憑證給Adobe。 有些客戶可能每年都無法及時產生更新的憑證，這會危及其實作，因為當憑證過期時， [!DNL Target] 瀏覽器會拒絕連線。
 
 >[!IMPORTANT]
 >
@@ -146,3 +146,4 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 * 當您有CNAME和at.js 1.x時，QA模式將不會自黏，因為它是以第三方Cookie為基礎。 因應措施是將預覽參數新增至您導覽至的每個URL。 當您有CNAME和at.js 2.x時，QA模式會很嚴格。
 * 目前 `overrideMboxEdgeServer` 設定無法與CNAME搭配運作。 此設定應設為 `false` ，以避免請求失敗。
+* 使用CNAME時，Target呼叫的Cookie標題大小可能會增加。 我們建議將Cookie大小維持在8KB以下。
