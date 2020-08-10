@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1429'
 ht-degree: 91%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 91%
          + [舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 時 Target 與 Analytics 之間的預期資料變異](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud 受眾](c-integrating-target-with-mac/mmp.md)
+   + [將Target與Adobe Audience Manager整合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [將 Target 與 Adobe Campaign 整合](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + 活動 {#activities}
