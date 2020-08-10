@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,18 @@ ht-degree: 0%
 
 ## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
-在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類： 願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
 
-## 網路研討會： HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
+## 網路研討會：使用人工智慧和Adobe Target的個人化策略
 
-* **8:00 - 9:00 a.m. (PDT)**
-* **2020年8月6日星期四**
+* **8:00 - 9:00 a.m.(PDT)**
+* **2020年8月13日星期四**
+
+[請在這裡註冊參加此網路研討會](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
+
+## 網路研討會：HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
+
+* **在接下來的30天中，您可以按一下這裡以檢視網路研討會[錄制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 麥肯錫數位報告稱，「在大約8週內，我們在消費者和企業數位應用方面，已經進步了5年。」 *
 
@@ -37,15 +43,8 @@ ht-degree: 0%
 
 [在這裡註冊參加這個精彩的網路研討會](https://hsbc-targetai.experienceleague.adobeevents.com/)。
 
-*麥肯錫文章： 「[COVID-19的恢復將是數字的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),」 2020年5月
+*麥肯錫文章：「[COVID-19的恢復將是數字的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),」 2020年5月
 
-## 網路研討會： 使用人工智慧和Adobe Target的個人化策略
-
-* **8:00 - 9:00 a.m. (PDT)**
-* **2020年8月13日星期四**
-
-[請在這裡註冊參加此網路研討會](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
-
-## Adobe Target Skill Builder: 開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
+## Adobe Target Skill Builder:開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
 隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
