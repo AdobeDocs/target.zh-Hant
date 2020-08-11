@@ -4,10 +4,10 @@ description: 行動檢視器可協助您預覽Adobe Target活動在各種大小�
 title: 行動檢視區，提供互動式體驗
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 65%
+source-wordcount: '1402'
+ht-degree: 70%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-此使用案例說明如何為兩個iPhone版本設定體驗：iPhone 11 Pro Max和iPhone SE。
+此使用案例說明如何為兩個iPhone版本設定體驗：iPhone 6和iPhone 6 Plus。
 
-1. 在Target中，按一下「 **[!UICONTROL 管理]**」。
-1. 在「行 **[!UICONTROL 動視區設定]** 」區段中，建立iPhone 11 Pro Max和iPhone SE的行動視區。
+1. 按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 視覺體驗撰寫器]**」。
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    為每個檢視區使用下列設定:
 
    | 名稱 | 寬度 | 高度 | 作業系統  |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS 應用程式 |
-   | iPhone SE | 375 | 667 | iOS  |
+   | iPhone 6 | 375 | 667 | iOS  |
+   | iPhone 6 Plus | 414 | 736 | iOS  |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. 使用您要定位的體驗建立活動。
-1. 選擇您要定位給從iPhone 11 Pro Max或iPhone SE存取您網站的訪客的體驗。
+1. 選取您要對從 iPhone 6 或 iPhone 6 Plus 存取您的網站的訪客鎖定的體驗。
 1. 選取您的目標時，按一下&#x200B;**[!UICONTROL 「建立對象」]**，然後設定對象，如下圖所示:
 
    ![](assets/iphoneaudiences.png)
 
-   由於手機可旋轉成橫向，需要高度和寬度同時大於320，因此當結合iPhone裝置機型時，只有iPhone 11 Pro Max和iPhone SE才能符合這個條件。
+   因為手機可以旋轉為橫向，在結合 iPhone 裝置型號時，若同時要求高度和寬度大於 320，便會建立僅 6 和 6 Plus 能夠符合的條件。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 如您一般的作法繼續設定您的活動。
 
