@@ -1,11 +1,14 @@
 ---
-keywords: 伺服器端；伺服器端；api;sdk;node.js;nodejs;nodejs;recommendations api;api:api
+keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
 title: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 2ba4a211221286b26dc39f26be43cb0564b7be01
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 11%
 
 ---
 
@@ -45,12 +48,12 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/deliver
 
 Node.js SDK是一套複雜的軟體開發套件，可免除管理Cookie、工作階段以及與產品（例如、和）整 [!DNL Experience Cloud] 合時的 [!DNL Analytics]繁 [!DNL Experience Cloud Visitor ID Service]雜工作 [!DNL Audience Manager]。 在幕後，Node.js SDK使用 `/rest/v1/delivery` API。 以下是Node.js SDK支援的一些顯著功能：
 
-* **** 支援預回遷和通知，讓您透過快取最佳化效能：您可以使用Node.js SDK在Node.js伺服器上擷取體驗並在本機快取體驗，以盡量減少伺服器對應用程式的呼叫 [!DNL Target] 並最佳化其效能。
-* **** 能夠檢索VEC建立的活動：在伺服器端擷取VEC建立的活動。 包含VEC建立之活動的回應包含選擇器，可用來僅預先隱藏頁面中需要個人化的部分。 這可協助您最佳化頁面的「第一個內容上色」量度 [，這是企業在](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Google PageRank系統中獲得高分的重要KPI [](https://en.wikipedia.org/wiki/PageRank) 。
+* **支援預回遷和通知，讓您透過快取最佳化效能：** 您可以使用Node.js SDK在Node.js伺服器上擷取體驗並在本機快取體驗，以盡量減少伺服器對應用程式的呼叫 [!DNL Target] 並最佳化其效能。
+* **能夠檢索VEC建立的活動：** 在伺服器端擷取VEC建立的活動。 包含VEC建立之活動的回應包含選擇器，可用來僅預先隱藏頁面中需要個人化的部分。 這可協助您最佳化頁面的「第一個內容上色」量度 [，這是企業在](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Google PageRank系統中獲得高分的重要KPI [](https://en.wikipedia.org/wiki/PageRank) 。
 
 ## 目標Java SDK
 
-連結：目 [標Java SDK](https://github.com/adobe/target-java-sdk)
+連結： [目標Java SDK](https://github.com/adobe/target-java-sdk)
 
 Java SDK是一套複雜的軟體開發套件，可免除管理Cookie、工作階段以及與解決方案（例如、和）整 [!DNL Adobe Experience Cloud] 合的複雜 [!DNL Adobe Analytics]工作 [!DNL Experience Cloud Visitor ID Service]流程 [!DNL Adobe Audience Manager]。 在幕後，Java SDK使用 `/rest/v1/delivery` API。 以下是Java SDK支援的一些重要功能：
 
@@ -59,6 +62,6 @@ Java SDK是一套複雜的軟體開發套件，可免除管理Cookie、工作階
 
 ## Target Recommendations API
 
-Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations)
+連結： [Target Recommendations API](https://developers.adobetarget.com/api/recommendations) 和 [Adobe Recommendations API概觀](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)。
 
 The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
