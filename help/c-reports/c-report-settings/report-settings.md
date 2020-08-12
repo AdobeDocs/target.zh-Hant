@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
 title: 報表設定
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 84%
 
 ---
 
@@ -161,8 +165,8 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 * **表格檢視**:按一下「 **[!UICONTROL 表格檢視]** 」圖示，將報表檢視為表格。
 * **圖形檢視**:按一下「 **[!UICONTROL 圖形檢視]** 」圖示，以圖形形式檢視報表。
-* **自動化區段**:(僅適用於自動個人化(AP)和自動目標(AT)活動。)按一下「**自動[!UICONTROL 化區段」圖示] ，以檢視「自 [動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
-* **重要屬性**:(僅適用於自動個人化(AP)和自動目標(AT)活動。)按一下**重要[!UICONTROL 屬性圖示] ，檢視重要 [屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
+* **自動化區段**:(僅適用於自動個人化(AP)和自動目標(AT)活動。) 按一下「**自動[!UICONTROL 化區段」圖示] ，以檢視「自 [動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+* **重要屬性**:(僅適用於自動個人化(AP)和自動目標(AT)活動。) 按一下**重要[!UICONTROL 屬性圖示] ，檢視重要 [屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
 
 ## 平均提升度、提升度界限和信賴區間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
