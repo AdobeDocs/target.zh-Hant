@@ -2,10 +2,14 @@
 keywords: order confirmation;orderConfirmPage
 description: 訂購確認 mbox 會記錄關於您的網站上訂單的詳細資料，並允許根據收入和訂單報告。訂購確認 mbox 也可以促進建議演算法，例如「購買了產品 x、也購買了產品 y 的使用者」
 title: 建立訂購確認 mbox - mbox.js
+feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +26,7 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 * 您也可以為at.js 1建立訂單確認mbox。*x* .使用相同方法；但是，方 [!DNL at.js] 法是最好的。 如需詳細資訊，請參閱[追蹤轉換](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
    >
    >
-* 如果您使用at.js 2。*x*, `mboxCreate` 不再支援。 如需使用at.js 2的訂購確認。*x*，請使用下列追蹤相關API: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)[和sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+* 如果您使用at.js 2。*x*, `mboxCreate` 不再支援。 如需使用at.js 2的訂購確認。*x*，請使用下列追蹤相關API: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 和 [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
 
 
 1. 在訂單詳細資料頁面中，請依照下方的模式插入 mbox 指令檔。
