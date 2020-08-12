@@ -2,9 +2,13 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: 使用選件資料庫來管理您的代碼選件和影像選件內容。
 title: 選件
+feature: null
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +87,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 * 重新導向 URL 類型
 * 絕對或相對 URL
 
-## 訓練影片: 內容存放庫 概 ![述徽章](/help/assets/overview.png)
+## 訓練影片: 內容存放庫 ![概述徽章](/help/assets/overview.png)
 
 此影片包含管理選件的相關資訊。
 
