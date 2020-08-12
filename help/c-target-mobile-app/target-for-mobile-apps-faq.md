@@ -2,10 +2,11 @@
 keywords: mobile app;frequently asked questions;faq;target mobile app
 description: 行動應用程式專用Adobe Target的常見問題。
 title: 行動應用程式專用Adobe Target的常見問題
+feature: null
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
