@@ -1,10 +1,14 @@
 ---
 description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
 title: 多變數測試的預覽體驗
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +37,5 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    依預設，所有體驗都包括在多變數測試中。若要納入已排除的體驗，請選取排除的體驗，然後按一下&#x200B;**[!UICONTROL 「包含」]**。
 
-按一下&#x200B;**[!UICONTROL 「結束預覽模式」]**&#x200B;以回到體驗撰寫器，讓您可以進行變更，或按一下&#x200B;**「繼續」]以前往測試摘要。[!UICONTROL **
+按一下&#x200B;**[!UICONTROL 「結束預覽模式」]**&#x200B;以回到體驗撰寫器，讓您可以進行變更，或按一下&#x200B;**[!UICONTROL 「繼續」]** 以前往測試摘要。
 
