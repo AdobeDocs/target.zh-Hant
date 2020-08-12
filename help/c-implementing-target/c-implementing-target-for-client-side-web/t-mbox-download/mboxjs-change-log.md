@@ -1,11 +1,15 @@
 ---
-keywords: mbox.js 變更;mbox.js 版本
+keywords: mbox.js changes;mbox.js versions
 description: 本頁面顯示每個 mbox.js 版本的變更。
 title: mbox.js 版本詳細資料
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2320'
+ht-degree: 99%
 
 ---
 
