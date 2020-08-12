@@ -1,12 +1,16 @@
 ---
-keywords: Analytics 追蹤伺服器;A4T;analytics 區段;報表套裝;不正確資料;孤立;sdid;VisitorAPI.js;mboxMCSDID;虛設;未指定
+keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
 description: 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T) 時遇到的一些常見問題。
 title: 疑難排解 Analytics 和 Target 整合 (A4T)
-subtopic: 多變數測試
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 100%
 
 ---
 
