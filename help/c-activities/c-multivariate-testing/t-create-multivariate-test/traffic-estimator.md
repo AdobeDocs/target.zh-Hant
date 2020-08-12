@@ -1,10 +1,14 @@
 ---
 description: 因為多變數測試會比較多個體驗，請務必瞭解若要提供有意義的結果需要多少流量。流量估算程式會使用關於您的頁面和待測試體驗數量的統計資料，以預估讓測試成功所需的流量和測試持續時間。
 title: 預估成功測試所需的流量
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -41,6 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * [!UICONTROL 一般轉換率]: 轉換率會根據您的估計或來自您分析系統的過去資料而以百分比表示
    * [!UICONTROL 預估每日訪客人數]: 這是根據鎖定目標條件所得到的可能檢視此頁面的訪客數量。這可能根據您的分析資料。
    * [!UICONTROL 測試持續時間]: 活動要執行的天數。
+
    流量估算程式會使用這些統計資料來判斷執行成功測試所需的調整。
 
    在接近流量估算程式頂端，您輸入的值會經過計算並顯示結果。
@@ -53,6 +58,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 減少選件組合的數量和位置的數量。
    * 增加測試的持續時間。
+
    調整數量直到流量估算程式指出您有足夠的流量為止，然後據以設計您的測試。
 
    ![](assets/estimatorok.png)
