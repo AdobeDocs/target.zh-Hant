@@ -2,10 +2,11 @@
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
 title: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
+feature: null
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 2ba4a211221286b26dc39f26be43cb0564b7be01
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 11%
