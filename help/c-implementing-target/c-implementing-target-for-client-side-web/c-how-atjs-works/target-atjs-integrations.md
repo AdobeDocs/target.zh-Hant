@@ -1,11 +1,15 @@
 ---
-keywords: at.js 整合;支援的整合;不支援的整合;第三方整合
+keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
 description: 關於與 Target 的常見整合和其對 at.js 支援狀態的資訊。
 title: at.js 整合
+feature: null
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 90%
 
 ---
 
