@@ -1,12 +1,16 @@
 ---
-keywords: 概覽和參考資料;webkit
+keywords: Overview and Reference;webkit
 description: Cookie 的行為取決於其屬於第一方 Cookie、具有第一方 Cookie 的第三方 Cookie，或是獨立的第三方 Cookie。
 title: mbox.js Cookie
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1565'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +33,7 @@ cookie 有三種主要的使用狀況:
 
 1. 單一網域。
 
-   所有測試都會在單一高階網域 ([!DNL `www.domain.com`]、[!DNL store.domain.com]、[!DNL anysub.domain.com] 等) 中進行。
+   所有測試都會在單一高階網域 ([!DNL anysub.domain.com]、[!DNL `www.domain.com`]、[!DNL store.domain.com] 等) 中進行。
 
    方法: 只使用第一方 Cookie。這是預設值。
 
@@ -138,4 +142,4 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 | 受影響的功能 | 詳細資料 |
 |--- |--- |
 | 支援選擇退出 | Apple 的 WebKit 追蹤變更會暫停選擇退出支援。<br>Target 選擇退出會在 `clientcode.tt.omtrdc.net` 網域中使用 Cookie。如需更多詳細資料，請參閱[隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)。<br>Target 支援兩種選擇退出:<ul><li>由用戶端決定 (用戶端管理選擇退出連結)。</li><li>透過 Adobe 讓所有客戶的使用者退出所有 Target 功能。</li></ul>兩種方法都使用第三方 Cookie。 |
-| Target 活動 | 客戶可以選擇[設定檔存留期長度](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)供其 Target 帳戶使用 - 最長 90 天。問題是如果帳戶的設定檔存留期超過 30 天，且第一方 Cookie 因為客戶的網域已標示為跨網站追蹤而被清除，則在 Target 中的以下幾方面，Safari 訪客的行為會受影響:<br>**Target 報表**: 如果 Safari 使用者進入活動，30 天之後回訪，然後轉換，則該使用者就算成兩個訪客和一次轉換。<br>對於使用 Analytics 作為報表來源 (A4T) 的活動，也同樣是此行為。<br>**設定檔與活動成員資格**:<ul><li>第一方 Cookie 到期時會清除設定檔資料。</li><li>第一方 Cookie 到期時會清除活動成員資格。</li><li> 對於採用第三方 Cookie 實作或第一方和第三方 Cookie 實作的帳戶，Target 在 Safari 中沒有作用。請注意，這不是新的行為。Safari 暫時還不允許第三方 Cookie。</li></ul><br>**建議:** 如果擔心客戶網域可能標示為跨工作階段追蹤訪客，最好在 Target 中將設定檔存留期設為 30 天或更少。這樣可確保在 Safari 和所有其他瀏覽器中以類似方式追蹤使用者。 |
+| Target 活動 | 客戶可以選擇[設定檔存留期長度](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)供其 Target 帳戶使用 - 最長 90 天。問題是如果帳戶的設定檔存留期超過 30 天，且第一方 Cookie 因為客戶的網域已標示為跨網站追蹤而被清除，則在 Target 中的以下幾方面，Safari 訪客的行為會受影響:<br>**Target 報表&#x200B;**: 如果 Safari 使用者進入活動，30 天之後回訪，然後轉換，則該使用者就算成兩個訪客和一次轉換。<br>對於使用 Analytics 作為報表來源 (A4T) 的活動，也同樣是此行為。<br>**設定檔與活動成員資格**:<ul><li>第一方 Cookie 到期時會清除設定檔資料。</li><li>第一方 Cookie 到期時會清除活動成員資格。</li><li> 對於採用第三方 Cookie 實作或第一方和第三方 Cookie 實作的帳戶，Target 在 Safari 中沒有作用。請注意，這不是新的行為。Safari 暫時還不允許第三方 Cookie。</li></ul><br>**建議:**如果擔心客戶網域可能標示為跨工作階段追蹤訪客，最好在 Target 中將設定檔存留期設為 30 天或更少。這樣可確保在 Safari 和所有其他瀏覽器中以類似方式追蹤使用者。 |
