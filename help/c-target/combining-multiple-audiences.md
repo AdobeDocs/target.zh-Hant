@@ -1,11 +1,15 @@
 ---
-keywords: 對象;對象規則;合併對象;排除;新增排除項目;隨選對象
+keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 description: 快速結合多個對象 (包括 Adobe Experience Cloud 對象和 Target 對象)，以建立隨選對象。您也可以從規則建立排除規則和排除對象。
 title: 在 Adobe Target 中合併多個受眾
+feature: null
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +38,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![步驟結果](assets/combine_multiple_audiences1.png)
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 「合併多個對象」]。**
+1. 按一下右上角的&#x200B;**[!UICONTROL 「合併多個對象」]**。
 
    ![步驟結果](assets/combine_multiple_audiences2.png)
 
@@ -48,13 +52,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       ![](assets/combine_multiple_audiences3.png)
 
-      請注意，兩個瀏覽器類型對象之間的運算子是 "AND"。選取 AND 下拉式清單並變更為「OR」，即可針對使用 Firefox 或 Safari 的新訪客建立新的合併對象。請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
+      請注意，兩個瀏覽器類型對象之間的運算子是 &quot;AND&quot;。選取 AND 下拉式清單並變更為「OR」，即可針對使用 Firefox 或 Safari 的新訪客建立新的合併對象。請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
 
       >[!NOTE]
       >
       >合併對象時，運算子 (AND 或 OR) 必須保持相同。您不能混用 &amp; 比對運算子。
 
-   1. 若要將排除項目新增至規則，請按一下&#x200B;**[!UICONTROL 「排除項目]** &gt; **[!UICONTROL 新增排除項目」]**。
+   1. 若要將排除項目新增至規則，請按一下&#x200B;**[!UICONTROL 「排除項目」]** > **[!UICONTROL 「新增排除項目」]**。
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -68,7 +72,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       此合併對象包含您的網站上所有使用 Safari 或 Firefox 的新訪客 (排除來自 San Francisco 的新訪客)。
 
-   1. 若要從規則中排除對象，請按一下&#x200B;**[!UICONTROL 「排除項目]** &gt; **[!UICONTROL 排除此對象」]**。
+   1. 若要從規則中排除對象，請按一下&#x200B;**[!UICONTROL 「排除項目」]** > **[!UICONTROL 「排除此對象」]**。
 
       例如，您可以建立合併的對象來包含網站的所有新訪客，但排除使用 Firefox 的新訪客。不需要建立合併的對象來明確包含多個瀏覽器 (Safari、Chrome 和 Internet Explorer)，但又不包含 Firefox，直接排除使用 Firefox 的訪客更輕鬆又快速。
 
@@ -78,8 +82,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以在活動的[!UICONTROL 「目標與設定」]頁面上建立隨選合併對象，以用於量度鎖定目標。例如，若要使用合併的對象以根據轉換來建立鎖定目標，請執行下列動作:
 
-1. 編輯或建立[活動](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，在&#x200B;**[!UICONTROL 「目標與設定」]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL 「轉換」]作為成功量度，然後選取**「已檢視 Mbox」**作為動作。**
-1. 在&#x200B;**[!UICONTROL 「搜尋 Mbox」]欄位中選取所需的 Mbox。**
+1. 編輯或建立[活動](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，在&#x200B;**[!UICONTROL 「目標與設定」]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL 「轉換」]**&#x200B;作為成功量度，然後選取「已檢視 Mbox」**[!UICONTROL 作為動作。]**
+1. 在&#x200B;**[!UICONTROL 「搜尋 Mbox」]**&#x200B;欄位中選取所需的 Mbox。
 
    ![](assets/combine_multiple_audiences4.png)
 
@@ -104,15 +108,15 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以在編輯現有活動時建立隨選合併對象。
 
-1. 在[!UICONTROL 「活動」]頁面中，暫留在所需的活動上，然後按一下&#x200B;**[!UICONTROL 「編輯」]圖示。**
+1. 在[!UICONTROL 「活動」]頁面中，暫留在所需的活動上，然後按一下&#x200B;**[!UICONTROL 「編輯」]** 圖示。
 
    或
 
    按一下所需的活動以開啟，然後按一下&#x200B;**[!UICONTROL 「編輯活動」]**。
 
-1. 按一下&#x200B;**[!UICONTROL 設定]** &gt; **[!UICONTROL 受眾]** &gt; **[!UICONTROL 多個受眾]**。
+1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![設定 &gt; 受眾 &gt; 多個受眾](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![設定 > 受眾 > 多個受眾](/help/c-target/assets/combine_multiple_audiences7.png)
 
 1. 按一下活動目前對象旁的更多選項圖示 (垂直三個點)，然後按一下&#x200B;**[!UICONTROL 「變更對象」]**。
 
