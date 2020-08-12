@@ -2,9 +2,10 @@
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
 description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定Adobe Target Visual Experience Composer(VEC)。
 title: 設定Adobe Target Visual Experience Composer
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -95,7 +96,7 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 >
 >Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)。
 
-## 訓練影片： 帳戶偏好設定(7:33)概 ![觀徽章](/help/assets/overview.png)
+## 訓練影片：帳戶偏好設定(7:33)概 ![觀徽章](/help/assets/overview.png)
 
 此影片包括關於帳戶偏好設定的資訊。
 
@@ -103,6 +104,6 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確； 不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+>「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
