@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: 對象會決定哪些網站訪客進入了您的活動。
 title: 選取對象
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +50,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 在 Adobe Target 中使用對象 (6:21) 概 ![述徽章](/help/assets/overview.png)
+### 在 Adobe Target 中使用對象 (6:21) ![概述徽章](/help/assets/overview.png)
 
 此影片說明如何在 [!DNL Target Standard/Premium] 中使用對象。
 
