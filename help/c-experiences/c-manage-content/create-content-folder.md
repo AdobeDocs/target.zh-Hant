@@ -1,11 +1,15 @@
 ---
-keywords: 內容; 建立資料夾; 資產; 移動資料夾; 複製資料夾; 刪除資料夾; 下載資料夾; 資料夾
+keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: 建立資料夾以在選件資料庫中保存項目。
 title: 建立選件資料夾
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 建立資料夾以在選件資料庫中保存項目。
 
 1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「代碼選件」]**&#x200B;或&#x200B;**[!UICONTROL 「影像選件」]**&#x200B;標籤 (如果適用)。
-1. 按一下&#x200B;**[!UICONTROL 「建立]** &gt; **[!UICONTROL 資料夾」]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立」]**>**[!UICONTROL 「資料夾」]**。
 1. 填寫欄位: 
 
    | 欄位 | 說明 |
