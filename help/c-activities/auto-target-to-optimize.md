@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: 自動鎖定目標
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -228,13 +229,13 @@ Auto-Target的模型建立需 [!UICONTROL 要進一步考慮]:
 
 ### 我可以在自動定位活動中途變更目標量度嗎？ {#change-metric}
 
-我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
+我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
 
 此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
 
 ### 我是否可在執行自動定位活動時使用「重設報表資料」選項？
 
-不建議 [!UICONTROL 對「自動目標] 」活 [!UICONTROL 動使用「重設報表資料] 」選項。 雖然會移除可見的報表資料，但此選項不會從「自動目標」模型移除 [!UICONTROL 所有培訓記錄] 。 請建立新活 [!UICONTROL 動並取消啟用原始活動，而不] 是使用「重設報表資料」選項來自動定位活動。 (注意： 本指南也適用於「自 [!UICONTROL 動配置] 」和「自  動個人化」活動。)
+不建議 [!UICONTROL 對「自動目標] 」活 [!UICONTROL 動使用「重設報表資料] 」選項。 雖然會移除可見的報表資料，但此選項不會從「自動目標」模型移除 [!UICONTROL 所有培訓記錄] 。 請建立新活 [!UICONTROL 動並取消啟用原始活動，而不] 是使用「重設報表資料」選項來自動定位活動。 (注意：本指南也適用於「自 [!UICONTROL 動配置] 」和「自  動個人化」活動。)
 
 ## [!UICONTROL 自動鎖定目標]疑難排解 {#section_23995AB813F24525AF294D20A20875C8}
 
