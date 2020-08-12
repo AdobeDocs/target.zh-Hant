@@ -1,12 +1,16 @@
 ---
-keywords: 實作;rfi;索取資訊
+keywords: implement;implementing;rfi;request for information
 description: 準備實作 Adobe Target 之前，有一些應完成的工作和應收集的資訊。
 title: 準備實作 Adobe Target
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
