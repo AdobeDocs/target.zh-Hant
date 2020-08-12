@@ -2,10 +2,11 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: 有關在Adobe Target活動中使用在Adobe Experience Manager(AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
 title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
+feature: null
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 22%
@@ -44,7 +45,7 @@ You must be provisioned with the experience fragments functionality within [!DNl
 
 In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perform the following steps:
 
-### 步驟1: 與 [!DNL AEM] [!DNL Target]
+### 步驟1:與 [!DNL AEM] [!DNL Target]
 
 如需詳細資訊，請參閱:
 
@@ -106,6 +107,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    * [!UICONTROL 插入在前]
    * [!UICONTROL 插入在後]
    * [!UICONTROL 與體驗片段交換]
+
    The [!UICONTROL Experience Fragment] list displays all of the content created in [!DNL AEM] that is now natively available from within [!DNL Target].
 
    >[!NOTE]
