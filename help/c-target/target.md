@@ -2,9 +2,13 @@
 keywords: Targeting;audiences;percentage target
 description: 使用 Adobe Target 中的受眾功能，將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。
 title: Adobe Target 中的受眾
+feature: null
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 99%
 
 ---
 
