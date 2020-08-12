@@ -1,10 +1,14 @@
 ---
 description: 字詞定義。
 title: Adobe Target 字彙表
+feature: null
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2291'
+ht-degree: 98%
 
 ---
 
