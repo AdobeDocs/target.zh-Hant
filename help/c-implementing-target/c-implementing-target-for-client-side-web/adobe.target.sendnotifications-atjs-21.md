@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;傳送通知;通知;at.js;函數;函數
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.sendNotifications(options) 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.sendNotifications(options) 函數的資訊。
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 100%
 
 ---
 
@@ -28,32 +32,32 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 欄位名稱 | 類型 | 必要? | 限制 | 說明 |
 | --- | --- | --- | --- | --- |
-| Request &gt; notifications | 物件陣列 | 是 |  | 顯示內容、點擊選取器及/或已造訪的檢視或 mbox 的通知。 |
-| Request &gt; notifications &gt; address | 物件 | 無 |  |  |
-| Request &gt; notifications &gt; address &gt; url | 字串 | 無 |  | 觸發通知的來源 URL。 |
-| Request &gt; notifications &gt; address &gt; referringUrl | 字串 | 無 |  | 觸發通知的來源引用 URL。 |
-| Request &gt; notifications &gt; parameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
-| Request &gt; notifications &gt; profileParameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
-| Request &gt; notifications &gt; order | 物件 | 無 |  | 說明訂單詳細資料的物件。 |
-| Request &gt; notifications &gt; order &gt; id | 字串 | 無 | `<=` 250 個字元。 | 訂購 ID. |
-| Request &gt; notifications &gt; order &gt; total | 字串 | 無 | `>=` 0 | 訂購總計. |
-| Request &gt; notifications &gt; order &gt; purchasedProductIds | 字串陣列 | 無 | <ul><li>不允許使用任何空白值。</li><li>每個產品 ID 長度上限為 50。</li><li>產品 ID，以逗號分隔並串連，總長度不得超過 250。</li></ul> | 訂購產品 ID。 |
-| Request &gt; notifications &gt; product | 物件 | 無 |  |  |
-| Request &gt; notifications &gt; product &gt; id | 字串 | 無 | `<=` 128 個字元；不得空白。 | 產品 ID. |
-| Request &gt; notifications &gt; product &gt; categoryId | 字串 | 無 | `<=` 128 個字元；不得空白。 | 類別 ID。 |
-| Request &gt; notifications &gt; id | 字串 | 是 | `<=` 200 個字元。 | 回應中將傳回通知 ID，且會包含已成功處理的通知。 |
-| Request &gt; notifications &gt; impressionId | 字串 | 無 | `<= 128` 個字元。 | Impression ID 可用來拼接 (連結) 目前的通知與先前的通知或執行要求。在兩者彼此相符的情況下，第二個和其他後續要求將不會對活動或體驗產生新曝光次數。 |
-| Request &gt; notifications &gt; type | 字串 | 是 | 支援「按一下」或「顯示」。 | 通知類型。 |
-| Request &gt; notifications &gt; timestamp | 數字`<int64>` | 是 |  | 自 UNIX 紀元以來經過時間之通知的時間戳記 (以毫秒為單位)。 |
-| Request &gt; notifications &gt; tokens | 字串陣列 | 是 |  | 根據通知類型，顯示內容或點擊選取器的 Token 清單。 |
-| Request &gt; notifications &gt; mbox | 物件 | 無 |  | mbox 的通知。 |
-| Request &gt; notifications &gt; mbox &gt; name | 字串 | 無 | 不允許使用任何空白值。<br>允許的字元: 請參閱此表格後的備註。 | mBox 名稱。 |
-| Request &gt; notifications &gt; mbox &gt; state | 字串 | 無 |  | mbox 狀態 Token。 |
-| Request &gt; notifications &gt; view | 物件 | 無 |  |  |
-| Request &gt; notifications &gt; view &gt; id | 整數 `<int64>` | 無 |  | 檢視 ID。透過檢視 API 建立檢視時，已指派給檢視的 ID。 |
-| Request &gt; notifications &gt; view &gt; name | 字串 | 無 | `<= 128` 個字元。 | 檢視的名稱。 |
-| Request &gt; notifications &gt; view &gt; key | 字串 | 無 | `<=` 512 個字元。 | 檢視金鑰。已透過 API 使用檢視設定的金鑰。 |
-| Request &gt; notifications &gt; view &gt; state | 字串 | 無 |  | 檢視狀態 Token。 |
+| Request > notifications | 物件陣列 | 是 |  | 顯示內容、點擊選取器及/或已造訪的檢視或 mbox 的通知。 |
+| Request > notifications > address | 物件 | 無 |  |  |
+| Request > notifications > address > url | 字串 | 無 |  | 觸發通知的來源 URL。 |
+| Request > notifications > address > referringUrl | 字串 | 無 |  | 觸發通知的來源引用 URL。 |
+| Request > notifications > parameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
+| Request > notifications > profileParameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
+| Request > notifications > order | 物件 | 無 |  | 說明訂單詳細資料的物件。 |
+| Request > notifications > order > id | 字串 | 無 | `<=` 250 個字元。 | 訂購 ID. |
+| Request > notifications > order > total | 字串 | 無 | `>=` 0 | 訂購總計. |
+| Request > notifications > order > purchasedProductIds | 字串陣列 | 無 | <ul><li>不允許使用任何空白值。</li><li>每個產品 ID 長度上限為 50。</li><li>產品 ID，以逗號分隔並串連，總長度不得超過 250。</li></ul> | 訂購產品 ID。 |
+| Request > notifications > product | 物件 | 無 |  |  |
+| Request > notifications > product > id | 字串 | 無 | `<=` 128 個字元；不得空白。 | 產品 ID. |
+| Request > notifications > product > categoryId | 字串 | 無 | `<=` 128 個字元；不得空白。 | 類別 ID。 |
+| Request > notifications > id | 字串 | 是 | `<=` 200 個字元。 | 回應中將傳回通知 ID，且會包含已成功處理的通知。 |
+| Request > notifications > impressionId | 字串 | 無 | `<= 128` 個字元。 | Impression ID 可用來拼接 (連結) 目前的通知與先前的通知或執行要求。在兩者彼此相符的情況下，第二個和其他後續要求將不會對活動或體驗產生新曝光次數。 |
+| Request > notifications > type | 字串 | 是 | 支援「按一下」或「顯示」。 | 通知類型。 |
+| Request > notifications > timestamp | 數字`<int64>` | 是 |  | 自 UNIX 紀元以來經過時間之通知的時間戳記 (以毫秒為單位)。 |
+| Request > notifications > tokens | 字串陣列 | 是 |  | 根據通知類型，顯示內容或點擊選取器的 Token 清單。 |
+| Request > notifications > mbox | 物件 | 無 |  | mbox 的通知。 |
+| Request > notifications > mbox > name | 字串 | 無 | 不允許使用任何空白值。<br>允許的字元: 請參閱此表格後的備註。 | mBox 名稱。 |
+| Request > notifications > mbox > state | 字串 | 無 |  | mbox 狀態 Token。 |
+| Request > notifications > view | 物件 | 無 |  |  |
+| Request > notifications > view > id | 整數 `<int64>` | 無 |  | 檢視 ID。透過檢視 API 建立檢視時，已指派給檢視的 ID。 |
+| Request > notifications > view > name | 字串 | 無 | `<= 128` 個字元。 | 檢視的名稱。 |
+| Request > notifications > view > key | 字串 | 無 | `<=` 512 個字元。 | 檢視金鑰。已透過 API 使用檢視設定的金鑰。 |
+| Request > notifications > view > state | 字串 | 無 |  | 檢視狀態 Token。 |
 
 **注意**: `Request > notifications > mbox > name` 中允許使用下列字元:
 
