@@ -2,10 +2,14 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: 體驗預覽URL可針對Target自動個人化活動產生，以便在活動上線以供預覽和QA之用前，直接在您的網站上查看體驗內容。 體驗預覽URL會略過定位，強制檢視特定體驗。
 title: 使用體驗預覽URL預覽自動個人化活動
+feature: null
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 64%
 
 ---
 
@@ -30,6 +34,7 @@ source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
 
    * 如果您使用可視化體驗撰寫器，則會自動輸入您為活動指定的預設的 URL，並且為您的活動中的每個體驗產生連結。您可以變更此 URL 和新增其他 URL (如需要)。
    * 如果您使用表單式體驗撰寫器，則不會自動輸入預設的 URL。If you haven&#39;t previously created experience preview URLs, click **Add New URL**. 您必須指定您要預覽的所有 URL 以及每個 URL 的名稱。
+
    您可以新增多個 URL，當您執行多頁測試或範本測試，且要在一個以上的頁面上預覽活動時相當實用。
 
    互動視窗會顯示您的網站上體驗的連結，以獲得在 Target 的可視化體驗撰寫器外部的體驗「真正預覽」。您必須分享來自訊息的連結以分享預覽。按一下連結，然後從頁面複製產生的 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。請改為複製強制回應視窗中的文字，並透過電子郵件傳送給您的團隊。
