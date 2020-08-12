@@ -5,9 +5,9 @@ title: Adobe Target 產品文件中的文件變更。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 118ca52beebcc11795b381f7f1fdcea305d2005f
+source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1856'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 8月12日 | [瞭解Target UI](/help/c-intro/understand-the-target-ui.md) | 新主題。 |
+|  | [Adobe Target API總覽](/help/api/api-overview.md) | 新主題。 |
 | 8月10日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增文字，指出使用CNAME時Cookie標題的大小會增加。 |
 |  | [將Target與Adobe Audience Manager整合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新主題。 |
 |  | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 新增連結以檢視下列封存的網路研討會：「HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化。」 |
