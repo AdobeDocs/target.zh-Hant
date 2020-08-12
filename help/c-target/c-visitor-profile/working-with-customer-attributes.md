@@ -2,11 +2,12 @@
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: 使用Adobe Experience Cloud人員核心服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料以在Adobe Target中定位內容的相關資訊。
 title: Adobe Target中的客戶屬性
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 37%
@@ -158,7 +159,7 @@ You might encounter the following issues when working with customer attributes a
 >
 >問題1和問題2造成該領域大約60%的問題。 問題3導致大約30%的問題。 問題4導致大約5%的問題。 其餘的 5% 則因為雜項問題。
 
-### 問題1: 客戶屬性會移除，因為描述檔過大
+### 問題1:客戶屬性會移除，因為描述檔過大
 
 使用者設定檔中的特定欄位沒有字元限制，但如果設定檔變得大於 64K，則會透過移除最舊的屬性來將它截斷，直到設定檔再次低於 64K 為止。
 
@@ -166,11 +167,11 @@ You might encounter the following issues when working with customer attributes a
 
 這通常是管線連線問題。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
 
-### 問題3: 傳送無法根據屬性運作
+### 問題3:傳送無法根據屬性運作
 
 Edge 上的設定檔尚未更新。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
 
-### 問題四： 實施問題
+### 問題四：實施問題
 
 請注意下列實作問題:
 
