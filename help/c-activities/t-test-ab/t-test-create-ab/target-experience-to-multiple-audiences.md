@@ -1,11 +1,15 @@
 ---
-keywords: 多個對象; 體驗版本; 鎖定體驗版本
+keywords: multiple audiences;experience versions;target experience versions
 description: 您可以在 A/B 活動中將相同體驗的版本鎖定在不同的對象。您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
 title: A/B 測試中的多個體驗版本
+feature: null
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    設定將有多個版本的體驗時，請選取每個版本的對象，如下列步驟所示。
 
-1. 選取體驗，然後按一下&#x200B;**[!UICONTROL 設定]** &gt; **[!UICONTROL 受眾]** &gt; **[!UICONTROL 多個受眾]**。
+1. 選取體驗，然後按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「對象」]**>**[!UICONTROL 「多個對象」]**。
 
    ![多個受眾選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
