@@ -1,10 +1,14 @@
 ---
 keywords: Recommendations;offer;preview;launch
-description: '在建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要先預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
-title: '在建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要先預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
+description: '在您建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
+title: '在您建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
+feature: null
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1398'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 建立活動後，執 [!DNL Recommendations] 行演算法以產生建議。 此演算法可能需要數小時才能執行。
 
-您可以在列出標準狀態的「活動概述」圖中檢查演 [!UICONTROL 算法是否已完成] 。 The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity's [!UICONTROL Overview] page:
+您可以在列出標準狀態的「活動概述」圖中檢查演 [!UICONTROL 算法是否已完成] 。 The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity&#39;s [!UICONTROL Overview] page:
 
 ![「Recommendations活動概述」頁](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -33,7 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![結果對話框](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
-## 演算法需要多久才能執行？
+## 演算法要執行多久？
 
 儲存包含條件的活動後， [!DNL Target] 會根據選取的系列、條件、設計和促銷來計算建議。 執行此計算需要一些時間，而時間範圍會根據所選建議邏輯、資料範圍、目錄中的項目數量、客戶已產生的型為資料量，以及所選行為資料來源而有所不同。
 
@@ -41,7 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ### mbox
 
-如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定通常會導致演算法重新執行。視所做的變更而定，在重新執行完成之前，先前計算的建議可能無法使用，或對於較大的變更，只有備份或預設內容可在重新執行完成之前使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
+如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定通常會導致演算法重新執行。視所做的變更而定，先前計算的建議可能在重新執行完成之前無法使用，或對於較大的變更，只有備份或預設內容可在重新執行完成之前使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
 
 ### Adobe Analytics
 
@@ -75,7 +79,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->在QA模式中，瀏覽網站不會影響您描述檔的「最近檢視的項目 [!UICONTROL 」或「] 最近購買的項目 」。此行為是設計為避免生產行為資料的無意污染。 若要預覽「最近檢 [!UICONTROL 視的項目」或「使] 用者導向建議」標準的結果  ，請先在QA模式以外瀏覽網站，然後使用相同的作業來開啟QA模式連結。
+>在QA模式中，瀏覽網站不會影響您描述檔的「最近檢視的項目 [!UICONTROL 」或「] 最近購買的項目 」。此行為是設計為避免生產行為資料的無意污染。 若要預覽「最近檢視的項 [!UICONTROL 目」或「使用] 者導向的建議」標準的結果  ，請先在QA模式以外瀏覽網站，然後使用相同的作業來開啟QA模式連結。
 
 ## 使用CSV下載來預覽建議
 
@@ -121,7 +125,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 複製您要修改的活動和標準。
 1. 變更複製的活動和准則，並等待演算法產生結果。
-1. 預覽新的已修改活動，並確認結果符合需求。
+1. 預覽新的已修改活動，並確認結果符合需要。
 1. 啟動新活動。
 1. 停用舊活動。
 
@@ -129,7 +133,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 複製您要修改的活動和標準。
 1. 變更複製的活動和准則，並等待演算法產生結果。
-1. 預覽新的已修改活動，並確認結果符合需求。
+1. 預覽新的已修改活動，並確認結果符合需要。
 1. 暫停現有活動，並將設定／條件交換至新標準。
 1. 預覽現有活動並確認結果符合需求。
 1. 重新啟動活動。
