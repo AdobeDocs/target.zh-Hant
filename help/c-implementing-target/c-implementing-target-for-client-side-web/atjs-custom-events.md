@@ -2,10 +2,14 @@
 keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## 訓練影片: 回應 Token 和 at.js 自訂事件 {#section_ED304A7137DC42A4BDCD6D57C989F1FA} 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 回應 Token 和 at.js 自訂事件 {#section_ED304A7137DC42A4BDCD6D57C989F1FA} ![教學課程徽章](/help/assets/tutorial.png)
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
 
