@@ -1,11 +1,15 @@
 ---
-keywords: 相關性;類別相關性
+keywords: affinity;category affinity
 description: Adobe Target 中的類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
 title: 在 Adobe Target 中使用類別相關性
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -111,14 +115,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    若要複製現有對象，請在「對象」清單中將游標移至所需對象上方，然後按一下「複製」圖示。然後您可以編輯對象以建立類似的對象。
 
 1. 輸入描述性的對象名稱。
-1. 按一下&#x200B;**[!UICONTROL 「+ 新增規則]** &gt; **[!UICONTROL 訪客設定檔」]**。
+1. 按一下「**[!UICONTROL + 新增規則]** > **[!UICONTROL 訪客設定檔]**」。
 1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「類別相關性」]**。
 
-   ![訪客設定檔 &gt; 類別相關性](assets/affinity.png)
+   ![訪客設定檔 > 類別相關性](assets/affinity.png)
 
 1. 選擇所需的類別:
 
-   ![類別相關性 &gt; 類別](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![類別相關性 > 類別](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    類別包括:
 
@@ -128,6 +132,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 第三個類別
    * 第四個類別
    * 第五個類別
+
    「我的最愛類別」和「第一個類別」選項是相同的。
 
 1. 選擇評估工具:
@@ -136,7 +141,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 不包含 (不區分大小寫)
    * 等於
 
-1. 以個別一行指定每一個新的值 (例如，"shoes")。
+1. 以個別一行指定每一個新的值 (例如，&quot;shoes&quot;)。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 在活動中使用類別相關性觀眾 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
