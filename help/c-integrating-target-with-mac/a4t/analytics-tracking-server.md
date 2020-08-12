@@ -2,9 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: 如果您使用較舊版本的 at.js 或 mbox.js，您必須針對使用 Analytics for Target (A4T) 的活動指定分析追蹤伺服器。
 title: 使用 Analytics 追蹤伺服器
+feature: null
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 53%
@@ -35,6 +36,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * (適用於 CNAME 實施)
    * (適用於非 RDC 實作)
    * (適用於 RDC 實施)
+
    *Company*[!DNL Analytics] 代表 公司名稱，*metrics* 為 CNAME 值的範例，以及 *d1* 為 資料中心的範例。[!DNL Analytics]
 1. 複製欄位的整個內容。
 1. 在您的活動[!UICONTROL 「目標與設定」][!UICONTROL 畫面的]「報表設定」**[!UICONTROL 區段中，於「追蹤伺服器」]**&#x200B;欄位中貼上追蹤伺服器資訊。
