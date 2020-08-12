@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
 title: 檢視報表 - A4T 常見問題集
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -29,7 +30,7 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 
 ## 當我套用特定Target活動的點擊區段時，為什麼會看到傳回的不相關體驗？ {#activity-segmentation}
 
-傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。(注意： 客戶服務可視需要調整此有效期間)。 當訪客在此有效期期間瀏覽網站時，他們是許多活動的一部 [!DNL Target] 分，所有活動都會收集在維度中。
+傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。(注意：客戶服務可視需要調整此有效期間)。 當訪客在此有效期期間瀏覽網站時，他們是許多活動的一部 [!DNL Target] 分，所有活動都會收集在維度中。
 
 因此，當您分段某個活動以呈現在點擊中時，您將會獲得該活動的所有體驗，再加上該點擊上持續存在的 ** 任何其他體驗。
 
@@ -125,7 +126,7 @@ The following list explains reasons why the same visitor could be counted in mul
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
 * 如果訪客使用 `mbox3rdPartyId`，當匿名訪客與其第三方 ID 設定檔合併時， 會將訪客安排到不同的體驗，以符合第三方 ID。[!DNL Target]如需詳細資訊，請參閱 [mbox3rdPartyID 的即時設定檔同步](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
-* [!DNL Analytics] 可能是以不同的方式，跟蹤不同的裝置，與追蹤這些 [!DNL Target] 裝置不同： 協力廠商ID的設定與 [!DNL Target] Analytics中的不同。
+* [!DNL Analytics] 可能是以不同的方式，跟蹤不同的裝置，與追蹤這些 [!DNL Target] 裝置不同：協力廠商ID的設定與 [!DNL Target] Analytics中的不同。
 
 ## A4T 是否支援虛擬報表套裝?
 
