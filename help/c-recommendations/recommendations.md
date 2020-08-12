@@ -2,9 +2,10 @@
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Adobe Target中的Recommendations活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 title: Adobe Target Recommendations
+feature: null
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 89%
