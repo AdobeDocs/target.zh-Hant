@@ -1,10 +1,14 @@
 ---
-keywords: AB; A/B; AB...n; 樣本大小; 樣本大小計算機; 自動分配
+keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: 成功的 A/B 測試需要足夠的訪客數量 (樣本大小) 來改善轉換率，但要如何知道該花多久時間執行 A/B 測試呢? 本文包含有關「自動分配」活動和 Target 樣本大小計算機的資訊，能幫助您確保活動有足夠的訪客數量以完成目標。
 title: A/B 測試該執行多久?
+feature: null
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3108'
+ht-degree: 97%
 
 ---
 
