@@ -1,12 +1,16 @@
 ---
-keywords: Analytics for Target;A4T;使用 Analytics 作為報表來源
+keywords: analytics for target;a4t;analytics as the reporting source
 description: 使用 Analytics 做為您的 Target (A4T) 報表來源，可讓您存取 Target 活動的 Analytics 報表。
 title: Analytics for Target (A4T) 報表
-subtopic: 多變數測試
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: 4132492b-92d7-4b21-b7ca-324e7b898251
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 100%
 
 ---
 
