@@ -1,10 +1,14 @@
 ---
 description: 流量估算程式提供的回饋意見可讓您得知是否有足夠的流量讓您的活動成功。
 title: 預估成功所需的流量
+feature: null
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![流量圖示](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   流量估算程式隨即開啟。您可以再次按一下&#x200B;**[!UICONTROL 「流量」]來隱藏流量估算程式。**
+   流量估算程式隨即開啟。您可以再次按一下&#x200B;**[!UICONTROL 「流量」]**&#x200B;來隱藏流量估算程式。
 
    ![](assets/ap_est.png)
 
@@ -33,6 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 一般轉換率: 轉換率會根據您的估計或來自您分析系統的過去資料而以百分比表示。
    * 預估的每日造訪次數: 這是根據鎖定目標條件，從可檢視活動的訪客得到的每日造訪數量。這可能根據您的分析資料。請注意，此數量應為造訪次數，而非不重複訪客次數。
    * 測試持續時間: 活動要執行的天數。
+
    流量估算程式會使用這些統計資料來判斷執行成功測試所需的調整。
 
    在接近流量估算程式頂端，您輸入的值會經過計算並顯示結果。
@@ -46,6 +51,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 考慮使用自動鎖定目標而非自動個人化，在一個體驗變數中建立具有數個選件變更的體驗。
    * 減少您的自動個人化活動內選件組合的數量。
    * 增加活動的持續時間。
+
    調整數量直到流量估算程式指出您有足夠的流量為止，然後據以設計您的測試。
 
    ![](assets/ap_est_yes.png)
