@@ -2,9 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: 關於自動個人化 (AP) 常見問題集 (FAQ) 的清單。
 title: 自動個人化常見問題集
+feature: null
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 85%
@@ -119,7 +120,7 @@ AP 活動產生提升度需要四個係數:
 
 ### 執行「自動個人化」活動時，我是否可以使用「重設報表資料」選項？
 
-不建議 [!UICONTROL 使用「自動個人化] 」活  動的「重設報表資料」選項。 雖然它會移除可見的報告資料，但此選項不會從「自動個人化」模型移除所 [!UICONTROL 有培訓記錄] 。 您不必為「自 [!UICONTROL 動個人化」活動使用「重設報] 表資料」選項，而是建立新活動並取消啟動原始活動。 (注意： 本指南也適用於 [!UICONTROL 「自動分配] 」 [!UICONTROL 和「自動目標] 」活動。)
+不建議 [!UICONTROL 使用「自動個人化] 」活  動的「重設報表資料」選項。 雖然它會移除可見的報告資料，但此選項不會從「自動個人化」模型移除所 [!UICONTROL 有培訓記錄] 。 您不必為「自 [!UICONTROL 動個人化」活動使用「重設報] 表資料」選項，而是建立新活動並取消啟動原始活動。 (注意：本指南也適用於 [!UICONTROL 「自動分配] 」 [!UICONTROL 和「自動目標] 」活動。)
 
 ### Automated Personalization如何建立與環境相關的模型？
 
