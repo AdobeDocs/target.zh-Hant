@@ -2,9 +2,13 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: 在 Adobe Target 中建立受眾，根據參照至您網站的搜尋引擎或著陸頁面鎖定訪客。
 title: 在 Adobe Target 中鎖定流量來源
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +36,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * 引用登陸頁面: URL
    * 引用登陸頁面: 網域
    * 引用登陸頁面: 查詢
+
    視您的選擇而定，您可能需要提供其他資訊 (求值器及/或值)。
 
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
@@ -39,7 +44,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 您可以將目標鎖定在由特定搜尋引擎轉介至您的網站，或來自特定登陸頁面的使用者。
 
-## 訓練影片: 建立對象 概 ![述徽章](/help/assets/overview.png)
+## 訓練影片: 建立對象 ![概述徽章](/help/assets/overview.png)
 
 此影片包括關於使用對象類別的資訊。
 
