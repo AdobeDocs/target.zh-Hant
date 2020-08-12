@@ -1,12 +1,16 @@
 ---
-keywords: 全域 mbox 參數;targetPageParams;查詢字串;陣列;json;dtm;動態標籤管理
+keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將額外的鎖定目標/環境資訊傳遞至 Target 的任何案例中，需要此函數。
 title: 傳遞參數至全域 mbox
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +44,7 @@ p1=v1&p2=v2&p3=hello%20world
 ```
 
 * 名稱: `targetPageParams`
-* 傳回值: 以 "&amp;" 分隔的參數，含 URL 編碼的參數值。
+* 傳回值: 以 &quot;&amp;&quot; 分隔的參數，含 URL 編碼的參數值。
 
    範例:  
 
@@ -106,7 +110,7 @@ JSON 是傳遞參數的強大方式。Target 使用 JSON 物件索引鍵將複�
 }; 
 ```
 
-值不需經過 URL 編碼。例如，"San Francisco" 不需要將空格編碼。一個空格就足夠。
+值不需經過 URL 編碼。例如，&quot;San Francisco&quot; 不需要將空格編碼。一個空格就足夠。
 
 此範例會將下列資料傳送至 mbox 邊緣:
 
