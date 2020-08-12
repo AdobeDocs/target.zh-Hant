@@ -2,10 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers() 函數的資訊。
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
