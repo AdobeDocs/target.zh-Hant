@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於提升度和可信度問題的回答。
 title: 提升度和可信度 - A4T 常見問題集
+feature: null
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -33,7 +34,7 @@ ht-degree: 50%
 
 提升度和信賴函式目前不支援計算量度。 這是由於Analytics會在匯總層級計算量度，而非在訪客層級計算量度。 信賴度尤其是訪客層級的計算。
 
-非計算（標準）事件支援提升度和可信度。 它們成為提升函式中的分子； 分子本身不能是計算。 分母是標準化量度（印象、瀏覽或訪客）。 標準事件的一些範例包括訂購、收入、活動轉換、自訂事件1-1000等。 這表示一般最佳化度量，例如對話率（訂購／訪客）和RPV（收入／訪客）都支援提升度和可信度。
+非計算（標準）事件支援提升度和可信度。 它們成為提升函式中的分子；分子本身不能是計算。 分母是標準化量度（印象、瀏覽或訪客）。 標準事件的一些範例包括訂購、收入、活動轉換、自訂事件1-1000等。 這表示一般最佳化度量，例如對話率（訂購／訪客）和RPV（收入／訪客）都支援提升度和可信度。
 
 不支援的度量或使用案例的範例包括：
 
