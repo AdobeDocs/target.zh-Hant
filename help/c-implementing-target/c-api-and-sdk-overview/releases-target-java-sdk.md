@@ -2,9 +2,13 @@
 keywords: at.js;sdk;release;updates;sdks;server side;serverside;server-side;java;java sdk
 description: 與Adobe Target Java SDK相關的發行說明。
 title: 與Adobe Target Java SDK相關的發行說明。
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +37,7 @@ Java SDK透過我們的傳送API與整合時引入最佳實務並免除複雜性
 
 ### 固定
 
-* 即使沒有訪客API cookie存在，仍可在Target請求中傳送補充資料ID。
+* 即使沒有訪客API Cookie存在，仍可在Target請求中傳送補充資料ID。
 
 ## 1.0.0版（2019年10月31日）
 
