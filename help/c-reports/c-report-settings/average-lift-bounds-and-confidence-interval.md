@@ -1,10 +1,14 @@
 ---
-keywords: Target;報表;報表設定;環境;提升度;提升度界限;變異數;可信度;控制
+keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: 報表包括數個資料點和視覺化表示，可協助您瞭解與您的活動相關聯的提升度界限和可信度等級。這可協助您正準確地判斷獲勝者。
 title: 平均提升度、提升度界限和信賴區間
+feature: null
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 98%
 
 ---
 
