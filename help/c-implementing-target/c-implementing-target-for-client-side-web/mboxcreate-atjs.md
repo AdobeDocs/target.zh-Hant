@@ -1,11 +1,15 @@
 ---
-keywords: mboxCreate;mboxcreate;mbox 建立;at.js;函數;函數
+keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxCreate(mbox,params) 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxCreate(mbox,params) 函數的資訊。
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
