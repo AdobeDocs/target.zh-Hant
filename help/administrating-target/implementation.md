@@ -2,10 +2,11 @@
 keywords: implement;implementing
 description: 開始使用 Adobe Target 之前，您應該在您的網站上實作它、瞭解一些基本概含和字詞、熟悉 Target 如何運作以及如何與您的基礎架構整合，以及瞭解 Target 系統如何追蹤訪客。
 title: 實作 Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b8eb49876c3759223eb5d6979678f6c6b24963e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 43%
