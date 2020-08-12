@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
 title: 在類似頁面上包含相同體驗
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +76,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 > Target 無法檢查頁面以確定它們能如預期般出現，因此，在將頁面公開之前，請務必使用此功能來測試受影響的頁面。
 
-## 訓練影片: 可視化體驗撰寫器 (2/2) (7:29) 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 可視化體驗撰寫器 (2/2) (7:29) ![教學課程徽章](/help/assets/tutorial.png)
 
 * 重新命名和複製體驗
 * 建立重新導向體驗
