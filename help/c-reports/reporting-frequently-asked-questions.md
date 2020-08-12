@@ -2,10 +2,11 @@
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: 關於 Adobe Target 中報表常見問題集的清單。
 title: Adobe Target 的報表常見問題集
+feature: null
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -42,7 +43,7 @@ ht-degree: 31%
 
 ### 解釋量度計數差異的範例
 
-**範例1**: 如果這兩個區段套用至活動，「新訪客」區段和「舊訪客」區段不一定總會加總訪客數。
+**範例1**:如果這兩個區段套用至活動，「新訪客」區段和「舊訪客」區段不一定總會加總訪客數。
 
 請考慮以下範例，以上述「新訪客」和「舊訪客」的條件為例：
 
@@ -51,7 +52,7 @@ ht-degree: 31%
 
 即使此訪客同時計入「新訪客」和「舊訪客」區段，在活動的整體訪客計數中仍會被計為單一訪客。
 
-**範例2**: 「新訪客」和「舊訪客」計數的差異，也取決於您如何設定活動的成 [功度量](/help/c-activities/r-success-metrics/success-metrics.md)。
+**範例2**:「新訪客」和「舊訪客」計數的差異，也取決於您如何設定活動的成 [功度量](/help/c-activities/r-success-metrics/success-metrics.md)。
 
 例如:
 
