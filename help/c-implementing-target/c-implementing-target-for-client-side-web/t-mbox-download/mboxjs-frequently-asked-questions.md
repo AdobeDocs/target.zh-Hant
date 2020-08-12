@@ -1,11 +1,15 @@
 ---
-keywords: mbox.js faq;mbox.js 常見問題集;document.write;tt.omtrdc.net;剖析器封鎖
+keywords: mbox.js faq;mbox.js frequently asked questions;document.write;tt.omtrdc.net;parser blocking
 description: 關於 mbox.js 常見問題的回答。
 title: mbox.js 常見問題
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 98%
 
 ---
 
