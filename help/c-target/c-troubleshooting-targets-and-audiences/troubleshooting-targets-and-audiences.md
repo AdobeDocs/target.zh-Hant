@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 title: 鎖定目標和對象常見問題集
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -40,7 +44,7 @@ Target會根據您在建立活動時是否使用對象URL定位，或是您在�
 
 若要套用URL定位，在建立對象時，按一下「新增規則」、按一下「網站頁面」、從第一個下拉式清單（「目前頁面」、「上一頁」或「著陸頁面」）中選取選項、從第二個下拉式清單中選取「URL」、指定求值器，然後指定所要的URL。
 
-![網站頁面&gt;目前頁面&gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![網站頁面>目前頁面> URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL定位會將URL轉換為一組要評估的規則：
 
@@ -65,7 +69,7 @@ URL定位會將URL轉換為一組要評估的規則：
 
 ## 建置對象時，為什麼在 Target 資料庫下預先建置的對象會出現在其他類別中? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-Target 資料庫類別中預先建置的對象為舊版對象，並且存在於其他類別。舉例來說，舊版「Target 資料庫 &gt; 新訪客」對象有更新的對應項:「訪客設定檔 &gt; 新訪客」。
+Target 資料庫類別中預先建置的對象為舊版對象，並且存在於其他類別。舉例來說，舊版「Target 資料庫 > 新訪客」對象有更新的對應項:「訪客設定檔 > 新訪客」。
 
 最佳做法是使用較新的對象，因為效能更好。部分客戶使用的可能是舊版、預先建立的對象，因此尚未從 Target 介面中移除。
 
@@ -83,7 +87,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 ## 在 Target、Audience Manager (AAM) 和核心服務中的對象程式庫中，同一對象的名稱為何不同? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-對象名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個對象可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的對象名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 對象時，[!DNL Target] 會在名稱後面附加 "#&lt;number&gt;"。
+對象名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個對象可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的對象名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 對象時，[!DNL Target] 會在名稱後面附加 &quot;#&lt;number>&quot;。
 
 例如，您可能會看到下列對象:「PC 使用者」(在 [!DNL AAM] 中) 和「PC 使用者 #1」(在 [!DNL Target] 中)。
 
@@ -123,4 +127,4 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 例如，
 
-"4e-2" 只等於 "4e-2"，*不*&#x200B;等於 "0.04"。
+&quot;4e-2&quot; 只等於 &quot;4e-2&quot;，*不*&#x200B;等於 &quot;0.04&quot;。
