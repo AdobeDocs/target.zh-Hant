@@ -2,10 +2,11 @@
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
 title: Target 最佳化和個人化常見問題集
+feature: null
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2908'
 ht-degree: 98%
