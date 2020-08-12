@@ -1,10 +1,14 @@
 ---
-keywords: at.js;sdk;node.js;release;updates;sdks；伺服器端；伺服器端；伺服器端
+keywords: at.js;sdk;node.js;release;updates;sdks;server side;serverside;server-side;nodejs
 description: 與Adobe Target伺服器端API相關的發行說明。
 title: 與Adobe Target的Node.js SDK相關的發行說明。
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -53,6 +57,6 @@ Node.js SDK透過我們的傳送API與整合時引入最佳實務並免除複雜
 
 ### 已移除
 
-* Target batchMbox v2 API支援。
-* 已 [移除getOffer()API方法](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) ，請改用 [getOffers()API方法](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) 。
+* Target BatchMbox v2 API支援。
+* 已 [移除getOffer()API方法](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) ，請改 [用getOffers()API方法](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) 。
 
