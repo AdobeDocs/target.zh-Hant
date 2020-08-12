@@ -2,9 +2,10 @@
 keywords: Recommendations
 description: 啟用 Analytics 做為 Target (A4T) 的報表來源時，會在您的資料收集程序中發生數個變更。
 title: 在您實作Adobe Analytics做為Adobe Target(A4T)的報表來源之前
+feature: null
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 57%
@@ -30,7 +31,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 如果您不打算搭配 A4T 使用重新導向選件，則此整合需要您實作下列程式庫版本 (或更新版本)。列出的順序是作業順序。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js 1.8.0版
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js 1.8.0版
 * [!DNL Adobe Target] (根據您的實作): at.js 版本 0.9.1 或 mbox.js 版本 61
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
@@ -38,7 +39,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 若要搭配 A4T 來使用重新導向選件，您必須實作下列程式庫版本 (或更新版本).列出的順序是作業順序。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js 2.3.0版
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js 2.3.0版
 * [!DNL Adobe Target]: at.js 1.6.2 版
 
    **注意:** mbox.js 資料庫不支援使用 A4T 重新導向選件。您的實作必須使用 at.js。
