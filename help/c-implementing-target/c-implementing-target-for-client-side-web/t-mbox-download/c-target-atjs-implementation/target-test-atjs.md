@@ -1,9 +1,13 @@
 ---
 description: 關於如何安全地將 at.js 部署至非生產環境的資訊。
 title: 將 at.js 部署至非生產環境
+feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +24,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如需詳細資訊，請參閱&#x200B;*《使用動態標籤管理來實施 Adobe Target 的最佳作法》*&#x200B;指南中的[選項 3: 使用 DTM 託管的 Target JavaScript 資料庫手動實施 Target](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)。
 
-## 使用 "Requestly" Chrome 擴充功能來對應至另一個檔案
+## 使用 &quot;Requestly&quot; Chrome 擴充功能來對應至另一個檔案
 
 >[!NOTE]
 >
