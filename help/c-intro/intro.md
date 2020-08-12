@@ -5,25 +5,19 @@ title: Adobe Target 簡介
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 96%
+source-wordcount: '906'
+ht-degree: 86%
 
 ---
 
 
 # Target 簡介{#introduction-to-target}
 
-Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需工具，讓您量身打造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
+[!DNL Adobe Target] 為 解決方案，為您提供一切所需工具，讓您量身打造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。[!DNL Adobe Experience Cloud]
 
 [!DNL Adobe Target] 解決方案包含數個元件:
-
-| 元件 | 說明 |
-|--- |--- |
-| Target Standard | 提供視覺化介面來建立和管理 A/B 測試及規則型鎖定目標活動。 |
-| Target Premium | 在 Target Standard 介面中新增進階功能。 |
-| Recommendations Classic | 依據網站上先前的使用者活動，自動顯示可能打動客戶的產品或內容。 |
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
@@ -35,7 +29,7 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，為您提供一切所需�
 
 [!DNL Target Premium] 是進階 [!DNL Target] 授權，用於為 [!DNL Target Standard] 新增付費功能。
 
-本說明中的Target Premium主題包括頁面頂端的Premium徽章：
+[!DNL Target Premium] 本說明中的主題包括頁面頂端的Premium徽章：
 
 ![Premium 徽章](/help/assets/premium.png)
 
@@ -84,7 +78,7 @@ Target Premium 包含下列進階功能:
 
 ### 企業使用者權限
 
-[企業使用者權限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)功能可讓您建立不同的專案 (在 Adobe Admin Console for Enterprise 中稱為「產品設定檔」)，以指派不同權限給單一使用者，也就是該使用者對每一個專案的存取權限。這些獨特的專案可與 Adobe Analytics 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果就是客戶能夠根據區域、環境 (開發/預備/生產)、通路或其他自訂條件，限制其使用者的檢視、編輯和核准存取權。
+[「企業使用者權限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 」功能可讓您建立不同的專案(在中稱為「產品設定檔」 [!DNL Adobe Admin Console for Enterprise])，以允許您為單一使用者指派不同的權限，以指定使用者對每個專案的存取權限。 這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果是，客戶將能夠根據地區、環境（開發／階段/prod）、頻道或其他自訂准則，限制其使用者的檢視、編輯、核准和發佈存取權。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -94,11 +88,11 @@ Target Premium 包含下列進階功能:
 
 ## Experience League: Adobe Target Welcome Kit {#kit}
 
-使用此 Welcome Kit，在 Adobe Target 上建立最佳化和個人化方案! 該套件包含重要資訊、工具和資源，可協助您做好準備並推出您的第一個 Adobe Target 活動，包含短期的快速取得成效，以及長期的最佳化策略。
+使用此 Welcome Kit，在 Adobe Target 上建立最佳化和個人化方案! It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
 
 [Adobe Target歡迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 訓練影片： 活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
+## 訓練影片：活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
 
 下列影片說明 [!DNL Target Standard/Premium] 中可用的活動類型，以及 Target 的三步驟引導式工作流程如何協助您達成網站目標。
 
