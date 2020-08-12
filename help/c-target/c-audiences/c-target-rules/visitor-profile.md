@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: 在 Adobe Target 中建立受眾，將目標鎖定於符合特定設定檔參數的訪客。
 title: 訪客資料
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * 工作階段首頁
    * 不是工作階段首頁
    * 類別相關性
+
    訪客設定檔會針對每個具有新 `mboxPC` 的 mbox 呼叫，建立於本機 Edge 記憶體。30 分鐘未使用後，設定檔會儲存至 Target 資料庫，並可從其他 Edge 存取。
 
    網站訪客在工作階段中途登入並取得 `3rdpartyId` 時，所有先前繫結至 `3rdPartyId` 的載入設定檔屬性都立即可用。
