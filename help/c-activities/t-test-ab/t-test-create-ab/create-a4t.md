@@ -1,10 +1,14 @@
 ---
-keywords: 鎖定目標; Analytics; 追蹤伺服器
+keywords: Targeting;analytics;tracking server
 description: 您可以在 Target Standard 中設定活動以使用 Adobe Analytics 做為報表來源 (A4T)。
 title: 使用 Analytics 資料
+feature: null
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 95%
 
 ---
 
