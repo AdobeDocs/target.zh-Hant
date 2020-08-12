@@ -2,10 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: 關於建立屬性和使用屬性和權限功能的資訊，該功能可讓 Target 管理員在 Target 中建立個別的工作區 (產品設定檔)，然後根據這些工作區指派使用者個別頁面、屬性或網站的不同角色和權限。
 title: 企業使用者權限
+feature: null
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -27,9 +28,9 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]客戶&#x200B;**: 如果您看到「使[!UICONTROL 用者]」標籤([!UICONTROL 「管理>使用者]」)（而非「屬性」標籤），則您的組織會擁有[!DNL Target Standard]授權。[!DNL Target Standard]客戶應依照「使用者」中的[指示](/help/administrating-target/c-user-management/c-user-management/user-management.md)，在中新增使用者並指派權限[!DNL Adobe Admin Console]。
+* **[!DNL Target Standard]客戶&#x200B;**:如果您看到「使[!UICONTROL 用者]」標籤([!UICONTROL 「管理>使用者]」)（而非「屬性」標籤），則您的組織會擁有[!DNL Target Standard]授權。[!DNL Target Standard]客戶應依照「使用者」中的[指示](/help/administrating-target/c-user-management/c-user-management/user-management.md)，在中新增使用者並指派權限[!DNL Adobe Admin Console]。
 
-* **[!DNL Target Premium]客戶&#x200B;**: 如果您看到「屬[!UICONTROL 性]」標籤([!UICONTROL 「管理」>「屬性]」)和「使用者」標籤[!UICONTROL ，則您的組織會擁有][!DNL Target Premium]授權。[!DNL Target Premium]客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
+* **[!DNL Target Premium]客戶&#x200B;**:如果您看到「屬[!UICONTROL 性]」標籤([!UICONTROL 「管理」>「屬性]」)和「使用者」標籤[!UICONTROL ，則您的組織會擁有][!DNL Target Premium]授權。[!DNL Target Premium]客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
 
 ## 開始使用企業權限之前
 
@@ -294,7 +295,7 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 辦公時間： Target Premium工作區
+### 辦公時間：Target Premium工作區
 
 這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
@@ -305,6 +306,6 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!NOTE]
 >
->「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確； 不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+>「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
