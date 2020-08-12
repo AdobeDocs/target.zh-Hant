@@ -2,10 +2,11 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: 允許列出Adobe Target邊緣節點
 title: 允許列出Adobe Target邊緣節點
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
