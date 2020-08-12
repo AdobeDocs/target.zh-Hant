@@ -2,11 +2,15 @@
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: 根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者，使用 Adobe Target 受眾來鎖定使用者。
 title: 地理
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
    * 經度
    * DMA
    * 行動電信業者
+
    會將訪客的 IP 位址與 mbox 請求一併傳遞，每次瀏覽 (作業) 傳遞一次，以解決該訪客的地理定位參數問題。
 
    關於行動電信業者，[!DNL Target] 會使用 IP 位址註冊資料 (擁有 IP 位址區塊)，根據[行動裝置國碼 (MCC) 和行動網路碼 (MNC)](https://www.mcc-mnc.com) 來決定適當的行動電信業者。
