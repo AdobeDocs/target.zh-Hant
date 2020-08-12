@@ -2,9 +2,13 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: 關於Adobe Target Recommendations活動的常見問題(FAQ)清單。
 title: Adobe Target Recommendations常見問答集
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
