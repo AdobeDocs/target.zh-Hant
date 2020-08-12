@@ -2,9 +2,10 @@
 keywords: Targeting
 description: 活動 URL 會決定體驗鎖定目標活動中使用的頁面，以及設計活動時 Adobe Target 可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
 title: 活動 URL
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ ht-degree: 92%
    * 雜湊 (#) 片段
    * 查詢
    * mbox 參數
+
    可以使用「與」或「或」將其他規則加入活動 URL。您新增的所有規則會使用「與」彼此進行評估。
 
 1. 完成後，按一下&#x200B;**[!UICONTROL 「儲存」]**。
