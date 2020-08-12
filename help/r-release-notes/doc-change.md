@@ -2,10 +2,11 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: 本頁列出依發行順序對Adobe Target檔案所做的重要變更。
 title: Adobe Target 產品文件中的文件變更。
+feature: null
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 29%
