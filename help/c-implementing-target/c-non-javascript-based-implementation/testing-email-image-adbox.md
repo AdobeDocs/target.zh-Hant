@@ -1,11 +1,15 @@
 ---
-keywords: 電子郵件；adbox；電子郵件影像adbox
+keywords: email;adbox;email image adbox
 description: 使用Adobe Target，動態測試電子郵件中的影像，甚至在有人開啟電子郵件時即時變更這些影像。
 title: 使用Adobe Target測試電子郵件影像Adbox
-topic: 建議
+feature: null
+topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +41,7 @@ mboxPC={123456}” border=:"0"/>
 
 | 值 | 說明 |
 |--- |--- |
-| clientcode | 公司的用戶端代碼。在 at.js 或 mbox.js 中找出列為 `clientCode='yourclientcode'` ' 的此代碼。全部都是小寫，不包含特殊字元。 |
+| clientcode | 公司的用戶端代碼。在 at.js 或 mbox.js 中找出列為 `clientCode='yourclientcode'` &#39; 的此代碼。全部都是小寫，不包含特殊字元。 |
 | 影像 | 選件類型。對於影像廣告一律為「image」，而對於重新導向程式則為「page」。 |
 | email_header | adbox 的名稱。 |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必要。將 URL 取代為適當的 Adbox 預設內容。此網址必須是絕對參照，並且必須經過 URL 編碼。 |
