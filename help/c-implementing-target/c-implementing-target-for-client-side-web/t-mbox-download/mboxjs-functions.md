@@ -1,10 +1,14 @@
 ---
-keywords: mbox 函式
+keywords: mbox functions
 description: 使用 mbox.js 實作時要使用的 mbox.js 函數的清單。
 title: mbox.js 函數
+feature: null
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 100%
 
 ---
 
