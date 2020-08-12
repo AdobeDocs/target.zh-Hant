@@ -1,11 +1,15 @@
 ---
-keywords: 對象;對象規則;建立對象;建立對象;僅限活動;僅活動;臨機
+keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
 description: 在建立活動時，從 Adobe Target 三步驟引導式工作流程內建立僅限活動的受眾。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
 title: 在 Adobe Target建立僅限於此活動的對象
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
