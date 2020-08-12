@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
 description: 「自動化區段」報表的相關資訊，是Adobe Target中「自動化個人化」(AP)和「自動化目標」(AT)活動使用者可使用的兩個專用報表之一。
 title: 「自動化區段」報表
+feature: null
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
