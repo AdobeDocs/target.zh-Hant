@@ -1,11 +1,15 @@
 ---
-keywords: 資料差異;analytics;差異;差別;a4t;analytics for target;analytics 作為報表來源
+keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
 description: 有關不使用 Analytics 作為報表來源 (A4T) 時 (其可完全消弭資料差異)，Target 和 Adobe Analytics 之間預期資料差異的資訊。
 title: 不使用 A4T 時的預期資料差異
-topic: 進階
+feature: null
+topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 100%
 
 ---
 
