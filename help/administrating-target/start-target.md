@@ -1,12 +1,16 @@
 ---
-keywords: 管理;核准者角色;核准者
+keywords: Administration;approver role;approver
 description: 此小節包含 Adobe Target 管理員在收到電子郵件寄送的 Adobe Experience Cloud 加入邀請時應採取的前幾個步驟。
 title: 管理員入門
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [!DNL Adobe Admin Console] 中的系統管理員必須藉由邀請您加入，將您新增為 [!DNL Target] 中的使用者。接著，系統管理員應將您新增至一或多個特定角色群組。這兩項工作都是在 [Adobe Admin Console](https://adminconsole.adobe.com) 中執行。
 
-如需詳細資訊，請 [參閱「Experience cloud和核心服務」說明](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) , *「管理Experience cloud使用者和產品」*。
+如需詳細資訊，請 [參閱「Experience Cloud和核心服務」說明](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) , *「管理Experience Cloud使用者和產品」*。
 
 在系統管理員執行這些步驟之後，您將會收到電子郵件邀請函。
 
