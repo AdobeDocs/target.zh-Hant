@@ -2,10 +2,11 @@
 keywords: Target Standard;at.js;implementation
 description: at.js 是新的 Adobe Target 實作資料庫，專為典型 Web 實作和單頁應用程式而設計。
 title: 從 mbox.js 移轉至 at.js
+feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: d7c9f8c21a6acf195d416ad37d70c0b72d671ebc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 89%
@@ -27,8 +28,7 @@ at.js 是新的 [!DNL Adobe Target] 實作資料庫，專為典型 Web 實作和
 
 ## at.js 的優點 {#benefits}
 
-下表說明兩個程式庫之間的差異：
-4
+下表說明兩個程式庫之間的差異：4
 |資料庫參考 |說明 |
 |— |— |
 |at.js|at.js會取代mbox.js以用於實作 [!DNL Target] 。<br>除了眾多優點以外，at.js 還能改進 Web 實施的頁面載入時間、改進安全性、避免 Google Chrome 中的 document.write 警告，以及為單頁應用程式提供更好的實施選項。<br>如需詳細資訊，請參閱 [at.js 實作](#implement)。|
