@@ -2,10 +2,11 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: 關於 Adobe Target 中導致瀏覽器重新導向至新頁面之重新導向選件的資訊。
 title: 建立重新導向選件
+feature: null
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 97%
@@ -58,7 +59,7 @@ ht-degree: 97%
 >
 >在啟動這些測試前，請聯絡您的實作顧問。
 
-## 訓練影片： 內容儲存庫(4:56)概 ![述徽章](/help/assets/overview.png)
+## 訓練影片：內容儲存庫(4:56)概 ![述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。
 
