@@ -1,11 +1,15 @@
 ---
-keywords: 自動個人化；選件；報告；組；報告組
+keywords: automated personalization;offer;reporting;group;reporting group
 description: 有關在Adobe Target的「自動個人化(AP)」活動中使用報告群組的資訊。
 title: 在Adobe Target的「自動個人化(AP)」活動中提供報表群組
-topic: 進階
+feature: null
+topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 64%
 
 ---
 
@@ -35,12 +39,12 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    ![](assets/ap_manage_content.png)
 
-1. 按一下[!UICONTROL **「管理內容」]對話方塊頂端的**[!UICONTROL 「選件」]索引標籤。
-1. (條件性) 藉由將游標移至所需的選件上，然後按一下&#x200B;**[!UICONTROL 「報表群組」]資料夾圖示，將特定體驗加入報表群組。**
+1. 按一下&#x200B;**[!UICONTROL 「管理內容」]**&#x200B;對話方塊頂端的[!UICONTROL 「選件」]索引標籤。
+1. (條件性) 藉由將游標移至所需的選件上，然後按一下&#x200B;**[!UICONTROL 「報表群組」]**&#x200B;資料夾圖示，將特定體驗加入報表群組。
 
    ![](assets/ap_manage_content_2.png)
 
-1. (條件性) 藉由選取相關體驗的核取方塊，然後按一下對話方塊右上角的&#x200B;**[!UICONTROL 「報表群組」]資料夾圖示，將體驗批次加入報表群組。**
+1. (條件性) 藉由選取相關體驗的核取方塊，然後按一下對話方塊右上角的&#x200B;**[!UICONTROL 「報表群組」]**&#x200B;資料夾圖示，將體驗批次加入報表群組。
 
    ![](assets/ap_manage_content_3.png)
 
@@ -50,4 +54,5 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    若要建立新報表群組以將選定選件指派至該群組，請選取&#x200B;**[!UICONTROL 「新增」]**，命名新報表群組，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
 
-   ![](a
+   ![](assets/ap_reporting_groups.png)
+
