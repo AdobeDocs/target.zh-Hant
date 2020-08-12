@@ -1,11 +1,15 @@
 ---
-keywords: 收入提升度; 收入; 預估收入提升度; 計算提升度; 估計值
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: 如果所有使用者要瞭解成功的藍圖，Target 可以估計您可能獲得的收入增益。
 title: 預估收入成長
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 預估收入提升度是根據從「主要目標」量度取得的「每次造訪帶來的收入 (RPV)」來計算。
 
-預估提升度採用下列公式計算: (&lt;成功體驗 RPV&gt; - &lt;控制體驗 RPV&lt;)*&lt;活動中的訪客總數&gt;
+預估提升度採用下列公式計算: (&lt;成功體驗 RPV> - &lt;控制體驗 RPV&lt;)*&lt;活動中的訪客總數>
 
 如果縮短格式在小數前只有一位數，則產生的數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K
 
@@ -36,7 +40,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 同樣地，如果勝出體驗顯示超過控制體驗的提升度為 $0.17，且您在測試期間有 192,000 位訪客，只要目前趨勢持續下去，您可以預期收入提升度為 $32,640。
 
-在下列情況，預估收入提升度會顯示為 "---":
+在下列情況，預估收入提升度會顯示為 &quot;---&quot;:
 
 * 沒有足夠的訪客來計算合理的估計值
 * 在量度設定頁面上未提供量度的預計值
