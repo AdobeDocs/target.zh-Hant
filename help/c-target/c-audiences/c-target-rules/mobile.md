@@ -1,11 +1,15 @@
 ---
-keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
+keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
 description: 在 Adobe Target 中建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
 title: Adobe Target 中的行動受眾
+feature: null
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
 
-例如，對於從手機進入您頁面的使用者和從電腦造訪的使用者，您想要分別顯示不同內容。在此情況下，您可以選取「行動裝置對象」，再選取&#x200B;**[!UICONTROL 「是手機」]選項，然後新增您認為重要的任何特定詳細資料，例如手機類型、螢幕大小 (畫素）等。**
+例如，對於從手機進入您頁面的使用者和從電腦造訪的使用者，您想要分別顯示不同內容。在此情況下，您可以選取「行動裝置對象」，再選取&#x200B;**[!UICONTROL 「是手機」]**&#x200B;選項，然後新增您認為重要的任何特定詳細資料，例如手機類型、螢幕大小 (畫素）等。
 
 行動定位是由 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 所提供，這是一項 DotMobi 服務。DeviceAtlas 是全面性的行動裝置資料庫，其中包含從眾多來源 (包括製造商及網路營運商) 彙整而成的資料。這些資料會經過確認、交叉參考及驗證，以建立準確的大型行動裝置資料庫。
 
@@ -38,9 +42,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 使用自訂整合 (不使用 at.js 或 Mobile SDK) 的客戶可自行收集這些參數，然後以 mbox 參數傳遞。
 
-1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象]** &gt; **[!UICONTROL 建立對象」]**。
+1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. 按一下&#x200B;**[!UICONTROL 「新增規則]** &gt; **[!UICONTROL 行動裝置」]**。
+1. 按一下「**[!UICONTROL 新增規則]** > **[!UICONTROL 行動裝置]**」。
 1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * 裝置行銷名稱
@@ -52,6 +56,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 作業系統
    * 螢幕高度 (px)
    * 螢幕寬度 (px)
+
    >[!NOTE]
    >
    >由於 iOS 12.2 中推出的新變更，若使用指定 iPhone 機型之裝置行銷名稱和裝置型號所定義的規則來建立受眾，則會受到影響。我們無法再鎖定在 iPhone 上安裝 iOS 12.2 的使用者。不過，如果這些使用者沒有 iOS 12.2，iPhone 機型鎖定目標功能則可繼續正常運作。
@@ -62,7 +67,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >您可以依行動裝置電信業者來鎖定目標，請使用[地理設定](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。
 
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]並設定對象的其他規則。**
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 下圖顯示受眾鎖定目標訪客，這些訪客使用 Google 所製造的行動裝置。
@@ -76,4 +81,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 建立對象
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
