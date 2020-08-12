@@ -1,12 +1,16 @@
 ---
-keywords: 實作; 設定; 頁面參數; tomcat; URL 編碼; 頁面內設定檔屬性; mbox 參數; 指令碼設定檔屬性; 大量設定檔更新 API; 單一檔案更新 API; 客戶屬性; 資料提供者
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: 關於您可以用來將資料放入 Target 的各種方法的資訊，包括頁面參數、頁面內設定檔屬性、指令碼設定檔屬性、資料提供者、大量設定檔更新 API、單一設定檔更新 AP 和客戶屬性。
 title: 將資料傳入 Target 的方法
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    除了在 IETF 網站上提到的字元外，Target 也允許在查詢字串中包含下列字元:
 
-   `&lt; &gt; # % " { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
    除此之外的字元都必須經過 URL 編碼。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -93,7 +97,7 @@ mboxCreate 程式碼中的參數:
 
 ### 格式
 
-頁面內設定檔屬性以字串名稱/值配對形式，透過伺服器呼叫而傳入 Target，字首 "profile." 會加在屬性名稱之前。
+頁面內設定檔屬性以字串名稱/值配對形式，透過伺服器呼叫而傳入 Target，字首 &quot;profile.&quot; 會加在屬性名稱之前。
 
 屬性名稱和值可自訂 (但有一些「保留名稱」是特定用途)。
 
@@ -148,7 +152,7 @@ mboxCreate 程式碼中的屬性:
 
 ### 格式
 
-指令碼設定檔屬性是在 Target 的「對象」區段中建立。任何屬性名稱都有效，值是 Target 使用者撰寫的 JavaScript 函式的結果。在 Target 中，屬性名稱開頭自動加上 "user."，以方便與頁面內設定檔屬性有所區別。
+指令碼設定檔屬性是在 Target 的「對象」區段中建立。任何屬性名稱都有效，值是 Target 使用者撰寫的 JavaScript 函式的結果。在 Target 中，屬性名稱開頭自動加上 &quot;user.&quot;，以方便與頁面內設定檔屬性有所區別。
 
 程式碼片段以 Rhino JS 語言撰寫，可參考 Token 和其他值。
 
@@ -224,8 +228,8 @@ at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，�
 
 ### 訓練影片:
 
-* [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 大量設定檔更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
