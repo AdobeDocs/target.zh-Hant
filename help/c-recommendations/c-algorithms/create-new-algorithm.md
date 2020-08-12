@@ -1,9 +1,13 @@
 ---
 description: 條件可控制 Adobe Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
 title: 建立條件
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL 零售/電子商務]
    * [!UICONTROL 潛在客戶開發/B2B/金融服務]
    * [!UICONTROL 媒體/出版]
+
    其他條件選項將根據您選取的垂直產業而變更。
 
 1. 選取一個&#x200B;**[!UICONTROL 頁面類型]**。
@@ -94,6 +99,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL 啟用部分設計呈現]
    * [!UICONTROL 顯示備用建議]
    * [!UICONTROL 建議先前購買的項目]
+
    此設定是根據 `productPurchasedId`。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是客戶會回來再次購買的項目，例如洗髮精或其他個人項目，則應該停用此選項。
 
 1. 設定您的&#x200B;**[!UICONTROL 包含規則]**。
@@ -411,7 +417,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 ![](assets/Recs_ContentControls.png)
 
-| 部分設計呈現 | 備份建議 | 結果 |
+| 部分設計呈現 | 備份 Recommendations | 結果 |
 |--- |--- |--- |
 | 已停用 | 已停用 | 如果傳回的建議少於設計呼叫的數目，則會以預設內容取代建議設計，並且不顯示建議。 |
 | 已啟用 | 已停用 | 系統會轉譯設計，但如果傳回的建議少於設計呼叫的數目，則可能包含空格。 |
