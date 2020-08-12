@@ -1,10 +1,14 @@
 ---
-keywords: 可視化體驗撰寫器限制;瀏覽器支援;整合;外掛程式;非同步考量
+keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
 description: at.js 與 mbox.js 之間有一些差異。此小節列出部分差異和限制，以協助您成功使用 at.js。
 title: at.js 限制
+feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
