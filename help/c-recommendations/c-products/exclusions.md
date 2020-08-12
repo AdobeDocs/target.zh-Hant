@@ -2,9 +2,13 @@
 keywords: exclusions
 description: 在 Adobe Target 中建立排除清單來防止項目被建議。
 title: Adobe Target 中的排除項目
+feature: null
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +55,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 >「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立排除項目時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您接著建立排除項目而希望排除含有 &quot;holiday&quot; 的產品，則只會排除含有 &quot;holiday&quot; 的產品。不會排除含有 &quot;Holiday&quot; 的產品。
 
-## 訓練影片: 在 Recommendations 中建立集合和排除 (7:05) 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 在 Recommendations 中建立集合和排除 (7:05) ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
