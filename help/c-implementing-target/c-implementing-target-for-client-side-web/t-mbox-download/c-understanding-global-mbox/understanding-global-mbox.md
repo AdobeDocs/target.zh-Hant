@@ -1,12 +1,16 @@
 ---
-keywords: 全域 mbox;實作 mbox.js;實作 at.js
+keywords: global mbox;implement mbox.js;implement at.js
 description: 全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
 title: 瞭解全域 mbox
-subtopic: 快速入門
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 73%
 
 ---
 
