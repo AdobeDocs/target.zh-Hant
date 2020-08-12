@@ -2,10 +2,14 @@
 keywords: content;update content;assets;upload content;upload asset
 description: 您可以將項目新增至「影像選件」清單。
 title: 上傳內容
+feature: null
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    項目隨即上傳至資料庫。
 
-## 訓練影片: 內容存放庫 概 ![述徽章](/help/assets/overview.png)
+## 訓練影片: 內容存放庫 ![概述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。
 
