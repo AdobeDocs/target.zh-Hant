@@ -1,19 +1,23 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Google Chrome 版本 80 推出的 Adobe Target 和 SameSite IETF 標準的相關資訊。
-title: Adobe target和Google的SameSite cookie政策
-subtopic: 快速入門
+title: Adobe Target和Google的SameSite Cookie政策
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2033'
+ht-degree: 8%
 
 ---
 
 
 # Google Chrome SameSite Cookie 原則
 
-谷歌將開始根據預設，為從Chrome 80開始的用戶實施新的Cookie政策。 Chrome 80計畫於2020年初推出。 本文將說明您需要瞭解的有關新SameSite cookie政策、如 [!DNL Adobe Target] 何支援這些政策，以及如何使用 [!DNL Target] 來符合Google Chrome的新SameSite cookie政策。
+Google將開始針對從Chrome 80開始的使用者，預設為實施新的Cookie政策。 Chrome 80預計於2020年初推出。 本文將說明您需要瞭解的有關新SameSite Cookie政策、如 [!DNL Adobe Target] 何支援這些政策，以及如何使用 [!DNL Target] 來符合Google Chrome的新SameSite Cookie政策。
 
 從Chrome 80開始，網頁開發人員必須明確指定哪些Cookie可以跨網站運作。 這是谷歌計畫為改善網路隱私和安全性而發佈的眾多公告中的首次。
 
@@ -56,10 +60,10 @@ Target也（有時）使用第三方Cookie。 如果您擁有多個網站，且�
 | 值 | 說明 |
 | --- | --- |
 | 嚴格 | 只有在造訪最初設定的網域時，才能存取具有此設定的 Cookie。也就是說，嚴格會完全封鎖 Cookie，以免跨網站使用。這個選項最適合需要高安全性的應用程式，例如銀行。 |
-| 鬆散 | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like `HTTP GET`. 因此，如果協力廠商可使用Cookie，但有額外的安全性優點，可保護使用者不受CSRF攻擊之害，則會使用此選項。 |
+| 鬆散 | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like `HTTP GET`. 因此，如果協力廠商可使用Cookie，但有額外的安全性優點，可保護使用者不受CSRF攻擊之害，則可使用此選項。 |
 | 無 | 使用此設定的Cookie與Cookie目前的運作方式相同。 |
 
-請記住，Chrome 80為使用者提供兩種獨立的設定："SameSite by default cookies"和"Cookies without SameSite必須安全。" 這些設定預設會在Chrome 80中啟用。
+請記住，Chrome 80為使用者提供兩種獨立的設定：&quot;SameSite by default cookies&quot;和&quot;Cookies without SameSite必須安全。&quot; 這些設定預設會在Chrome 80中啟用。
 
 ![「相同站點」對話框](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
 
@@ -94,7 +98,7 @@ However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] 
 
 ## Target需要做什麼？
 
-那麼，我們在我們的平台中需要做什麼來協助您符合新的Google Chrome 80+ SameSite cookie政策？
+那麼，我們在我們的平台中需要做什麼來協助您符合新的Google Chrome 80+ SameSite Cookie政策？
 
 | 目標JavaScript程式庫 | SameSite 依預設 Cookie = 啟用 | 不含 SameSite 的 Cookie 必須是安全狀態 = 啟用 |
 | --- | --- | --- |
@@ -110,4 +114,4 @@ However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] 
 
 ## 結論
 
-隨著業界大步邁向為消費者建立更安全的網路， [!DNL Adobe] 我們絕對致力於協助客戶以確保使用者安全和隱私的方式提供個人化體驗。 您只需要遵循上述最佳實務，並善用 [!DNL Target] Google Chrome的新SameSite cookie政策。
+隨著業界大步邁向為消費者建立更安全的網路， [!DNL Adobe] 我們絕對致力於協助客戶以確保使用者安全和隱私的方式提供個人化體驗。 您只需要遵循上述最佳實務，並善用 [!DNL Target] Google Chrome的新SameSite Cookie政策。
