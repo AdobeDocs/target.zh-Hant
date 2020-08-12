@@ -2,8 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: 有關使用特殊多值運算子在Adobe Target Recommendations中處理多值欄位的資訊。
 title: 在Adobe Target Recommendations中使用多值屬性
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -73,7 +74,7 @@ function targetPageParams() {
 >當將單一值左側與多值右側比較時，目前只有在使用描述檔屬性比對或參數(mbox)屬性比對規則時，標準才支援動態比對多值屬性。 促銷活動、實體屬性比對或包含規則左側的清單目前不支援多值屬性。
 
 
-### 範例： 排除最近監看的項目
+### 範例：排除最近監看的項目
 
 假設您想要防止建議使用者最近10部已觀看影片中的任何影片。 首先，撰寫名為的描述檔 `user.lastWatchedMovies` 指令碼，將最近10個檢視的影片追蹤為JSON陣列。 然後，您可以使用下列包含規則來排除項目：
 
@@ -95,7 +96,7 @@ function targetPageParams() {
 } 
 ```
 
-### 範例： 建議使用者最愛的項目
+### 範例：建議使用者最愛的項目
 
 假設您只想在演奏樂隊是使用者最愛的樂隊之一時，將票證推薦給音樂會。 首先，請確定您有一個稱為的描述檔變 `profile.favoriteBands` 數，其中包含使用者最愛的節區。 然後，請確定您的目錄包含一個屬 `entity.artistPerforming` 性，其中包含演唱會中的藝術家。 然後，您可以使用下列包含規則：
 
@@ -117,7 +118,7 @@ function targetPageParams() {
 }
 ```
 
-### 範例： API建立從使用者最愛的項目推薦標準
+### 範例：API建立從使用者最愛的項目推薦標準
 
 使用多值篩選規則的准則（如所有准則）可透過Adobe I/O API建立。 此處提供範例API呼叫，以建立mbox參數清 `id` 單中包含實體屬性的 `favorites` 准則：
 
