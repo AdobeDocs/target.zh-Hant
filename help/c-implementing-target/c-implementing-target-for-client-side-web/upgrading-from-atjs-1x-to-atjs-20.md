@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: 有關如何從 Adobe Target at.js 1.*x* 升級為 at.js 2.0.0 版的詳細資訊
 title: '從 Adobe Target at.js 1.*x* 版升級為 at.js 2.*x* 版 '
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2747'
 ht-degree: 93%
@@ -757,7 +758,7 @@ at.js 2.*x* JSON 裝載:
 
 版本會透過版本參數以查詢字串參數的形式傳送。
 
-## 訓練影片： at.js 2.*x架構圖* 概 ![述徽章](/help/assets/overview.png)
+## 訓練影片：at.js 2.*x架構圖* 概 ![述徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增強了 Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
