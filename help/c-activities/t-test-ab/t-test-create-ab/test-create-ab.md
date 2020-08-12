@@ -2,10 +2,14 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: 使用 Target 中的可視化體驗撰寫器直接在啟用 Target 的頁面上建立您的測試，以及在 Target 內修改頁面的部分。
 title: 建立 A/B 測試
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +115,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 建立活動之後，「概覽」標籤會顯示關於活動的資訊，包括活動的圖表。
 
-## 訓練影片: 建立 A/B 測試 (8:36) 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 建立 A/B 測試 (8:36) ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片示範如何使用 [!DNL Target] 三個步驟引導工作流程來建立 A/B 測試。
 
