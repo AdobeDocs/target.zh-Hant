@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: 檢視 Target UI 中的指示器，來判斷自動分配 A/B 活動中的獲勝者。
 title: 決定獲勝者
+feature: null
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 49%
@@ -49,13 +50,13 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
 >[!IMPORTANT]
 >
->Target會在預先定義的最小轉換數後顯示成功者； 不過，挑選成功者的最終決定應一律以Adobe Target範例大小計算器 [的結果為準](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 Target不會考慮網站的基本轉換率，以及輸入計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最少轉換次數，提前顯示成功者。 如需詳細資訊，請參 [閱範例大小計算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+>Target會在預先定義的最小轉換數後顯示成功者；不過，挑選成功者的最終決定應一律以Adobe Target範例大小計算器 [的結果為準](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 Target不會考慮網站的基本轉換率，以及輸入計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最少轉換次數，提前顯示成功者。 如需詳細資訊，請參 [閱範例大小計算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
 ## 瞭解自動分配活動中的提升度和可信度報告 {#lift-confidence}
 
 在「自動分配」活動中，第一個體驗（依預設命名為「體驗A」）一律會定義為「報表」標籤上的「控制」體驗。 在用來判斷體驗效能的模型中，此體驗並未被視為真正的統計控制項，但會視為報表中某些圖形的參考或基準。
 
-每個體驗的「提升度」數值和95%界限一律會參照已定義的「控制」體驗來計算。 定義的「控制」體驗不能具有相對於自身的提升度，因此會針對此體驗報告空白的「—」值。 與A/B測試不同，在「自動分配」測試中，如果體驗的表現比定義的控制差，則不會報告負提升度值； 而顯示&quot;—&quot;。
+每個體驗的「提升度」數值和95%界限一律會參照已定義的「控制」體驗來計算。 定義的「控制」體驗不能具有相對於自身的提升度，因此會針對此體驗報告空白的「—」值。 與A/B測試不同，在「自動分配」測試中，如果體驗的表現比定義的控制差，則不會報告負提升度值；而顯示&quot;—&quot;。
 
 顯示的「信賴區間」列代表體驗轉換率的平均估計值周圍95%的信賴區間。 這些也會針對已定義的「控制」體驗進行色彩編碼。 「控制」體驗的列總是呈彩色灰色。 「控制」體驗信賴區間下方的信賴區間部分會以紅色標示，而「控制」體驗上方的信賴區間部分會以綠色標示。
 
