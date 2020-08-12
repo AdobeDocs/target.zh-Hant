@@ -2,9 +2,13 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 使用最多五個條件的序列來對建議活動中出現的項目執行更好的控制。
 title: 建立條件序列
+feature: null
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +90,7 @@ source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
    如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 訓練影片: 在 Recommendations 中建立條件 (12:33) 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 在 Recommendations 中建立條件 (12:33) ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
