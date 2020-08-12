@@ -2,11 +2,15 @@
 keywords: reports;download reports;csv;success metrics;order details
 description: 以。csv格式下載資料，以便使用Adobe Target快速匯入至Excel、Access或其他資料分析程式。
 title: 使用Adobe Target將資料下載為CSV檔案
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
    * [!UICONTROL 將報表匯出為CSV]
    * [!UICONTROL 匯出訂單詳細資料至 CSV]
+
    ![下載選項](/help/c-reports/assets/download-options.png)
 
 ## 匯出報表至 CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
