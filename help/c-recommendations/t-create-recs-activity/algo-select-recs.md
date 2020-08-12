@@ -1,10 +1,14 @@
 ---
-keywords: recommendations;recommendations 活動;條件
+keywords: recommendations;recommendations activity;criteria
 description: 選取要在您的 Adobe Target Recommendations 活動中使用的條件。
 title: 選取條件
+feature: null
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 100%
 
 ---
 
@@ -31,8 +35,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    您可以使用[!UICONTROL 產業類型]篩選、[!UICONTROL 頁面類型]篩選和[!UICONTROL 相容]核取方塊來篩選條件清單。這些選項可協助您找到所需的條件。
 
-   * **產業類型:** 產業類型可用來幫助對 [!DNL Recommendations] 條件進行分類。若要變更您的預設垂直產業，請按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;並選取您需要的預設&#x200B;**「垂直產業」]設定。[!UICONTROL **
+   * **產業類型:** 產業類型可用來幫助對 [!DNL Recommendations] 條件進行分類。若要變更您的預設垂直產業，請按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;並選取您需要的預設&#x200B;**[!UICONTROL 「垂直產業」]**&#x200B;設定。
    * **頁面類型:** 頁面類型可幫助您對您的建議進行分類。也有可為每個頁面類型選擇的內建條件。
-   * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]核取方塊。**&#x200B;您可以在您的 [!DNL Target][!UICONTROL  「偏好設定」]中停用或啟用此選項。
+   * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。您可以在您的 [!DNL Target][!UICONTROL  「偏好設定」]中停用或啟用此選項。
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以顯示[選取設計](/help/c-recommendations/c-design-overview/design-overview.md)對話方塊。
