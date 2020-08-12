@@ -1,9 +1,13 @@
 ---
-keywords: Recommendations;introduction;webinar;demo
+keywords: Recommendations;intro;introduction;webinar;demo
 description: Adobe Target Recommendations 活動簡介，可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 title: Adobe Target 中的 Recommendations 活動簡介
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * **遊戲**: 遊戲公司使用 [!DNL Target]，在使用者的遊戲主機上向其建議遊戲和內容。
 * **B2B 銷售**: [企業對企業公司使用 Target，向 B2B 潛在客戶建議影片、白皮書和部落格文章、提供下載，以及為現有客戶提供協助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
-* **旅行**:德 [國旅遊書記使用Target為旅客推薦酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **旅行**: [德國旅遊書店使用Target為旅客推薦酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
 * **零售**: [某個領先業界的 BB 零售商使用 Target，向瀏覽器及其行動應用程式中的回訪訪客建議最熱門的類別與產品](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
 
