@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: Adobe Target 中的目錄搜尋可協助您在目錄中尋找產品或內容。
 title: Adobe Target 中的目錄搜尋
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 目錄搜尋可協助您在目錄中尋找產品或內容。
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 您可以從選項功能表中 (按一下搜尋欄位的向下箭頭時出現) 選取搜尋選項，以精簡搜尋。
 
@@ -28,9 +32,9 @@ To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  
 * ID
 * 訊息
 
-**[!UICONTROL 全部]**會使用 OR 邏輯，涵蓋其他所有搜尋條件來搜尋。
+**[!UICONTROL 全部]**&#x200B;會使用 OR 邏輯，涵蓋其他所有搜尋條件來搜尋。
 
-在搜尋結果中，按一下&#x200B;**[!UICONTROL 環境]**篩選器，以指定您要顯示其中目錄的生產[主機群組環境](/help/administrating-target/hosts.md)。您也可以捲動瀏覽搜尋結果中的項目，以檢視縮圖和其他產品資訊。
+在搜尋結果中，按一下&#x200B;**[!UICONTROL 環境]**&#x200B;篩選器，以指定您要顯示其中目錄的生產[主機群組環境](/help/administrating-target/hosts.md)。您也可以捲動瀏覽搜尋結果中的項目，以檢視縮圖和其他產品資訊。
 
 「產品」旁顯示的數字代表在所指定環境中可用的總數之中，符合搜尋詞語的產品數量。
 
