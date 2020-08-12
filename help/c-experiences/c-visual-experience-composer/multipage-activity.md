@@ -1,11 +1,15 @@
 ---
-keywords: 多頁面; 歷程測試; 多頁面活動
+keywords: multi-page;journey testing;multipage activity
 description: 多頁活動可讓您利用每個頁面的特定設計，來建立多個頁面的歷程記錄。
 title: 多頁活動
-topic: 進階
+feature: null
+topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 若要將頁面新增至測試:
 
-1. 按一下&#x200B;**[!UICONTROL 「設定」]齒輪圖示。**
+1. 按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示。
 1. 按一下&#x200B;**[!UICONTROL 「新增其他頁面」]**。
 
    畫面左側會出現導覽列。
@@ -35,7 +39,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 使用導覽列來指定您的頁面和設定預設頁面。
 
-   按一下&#x200B;**[!UICONTROL 「新增頁面」]以新增另一個頁面。**
+   按一下&#x200B;**[!UICONTROL 「新增頁面」]**&#x200B;以新增另一個頁面。
 
    按一下三個垂直橢圓圖示以顯示動作選單:
 
