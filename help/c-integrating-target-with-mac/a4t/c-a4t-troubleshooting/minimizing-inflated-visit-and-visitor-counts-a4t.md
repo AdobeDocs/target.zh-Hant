@@ -1,12 +1,16 @@
 ---
-keywords: 部分資料;A4T;差異;analytics for target;孤立;虛擬報表套裝;虛設項目;疑難排解;未拼接;膨脹;未指定
+keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: 可協助您在使用 Analytics 做為報表來源時最小化膨脹後造訪和訪客計數影響的資訊。
 title: 在 A4T 中將膨脹的造訪和訪客計數減到最少
-subtopic: 多變數測試
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +29,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >* Experience Cloud 訪客 ID 服務: visitorAPI.js 版本 2.3.0 或更新版本。
 >* Adobe Analytics: appMeasurement.js 版本 2.1。
 >* Adobe Target: at.js 0.9.6 版或更新版本 (若 A4T 使用重新導向選件，則不包括 1.1.0 版)。
+
 >
 >  
 mbox.js 資料庫不支援使用 A4T 重新導向選件。您的實作必須使用 at.js。
