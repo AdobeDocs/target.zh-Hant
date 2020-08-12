@@ -2,10 +2,11 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 title: 主機
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 26%
@@ -86,7 +87,7 @@ If a [!DNL Target] request is made on an unauthorized host, the call will respon
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**: 如果您使用的ubox功 [!DNL Target]能，請注意，此允許清單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定允許清單， [!DNL Adobe] 將無法驗證重新導向URL並防止潛在的惡意重新導向。
+>**安全性最佳實務**:如果您使用的ubox功 [!DNL Target]能，請注意，此允許清單也會控制重新導向程式可導覽的網 [域清單](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 當您將ubox用作實作的一部分時，請確定您新增任何要重新導向的網域。 如果未指定允許清單， [!DNL Adobe] 將無法驗證重新導向URL並防止潛在的惡意重新導向。
 >
 >允許清單優先於環境。 在使用allowlist功能之前，應清除所有主機，然後僅允許清單允許的主機顯示在主機清單中。 接著可將主機移至想要的環境中。
 
