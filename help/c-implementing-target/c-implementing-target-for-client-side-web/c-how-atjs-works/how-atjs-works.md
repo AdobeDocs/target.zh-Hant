@@ -2,10 +2,11 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
 title: Adobe Target at.js JavaScript程式庫的運作方式
+feature: null
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -85,7 +86,7 @@ See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/
 | 5 | [!DNL Target] 根據 URL、mbox 參數和設定檔資料，決定要傳回給訪客的活動和體驗。 | 6 | 已鎖定的目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>體驗會儘快出現，不會有忽隱忽現的預設內容。 |
 | 7 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 | 8 | [!DNL Target] 資料會透過 SDID 來比對 [!DNL Analytics] 資料，然後經過處理放入 [!DNL Analytics] 報表儲存體中。然後就可以在 <br>[!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] (A4T) 報表來檢視 [!DNL Analytics for Target] 資料。 |
 
-### 視訊——辦公時間： at.js秘訣與概觀（2019年6月26日）
+### 視訊——辦公時間：at.js秘訣與概觀（2019年6月26日）
 
 這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
