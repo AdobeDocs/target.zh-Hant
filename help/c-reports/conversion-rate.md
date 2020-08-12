@@ -2,10 +2,11 @@
 keywords: Targeting
 description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精確度) 和信賴區間。
 title: 轉換率
+feature: null
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
