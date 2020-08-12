@@ -5,9 +5,9 @@ title: CNAME 與 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1183'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >* Adobe的認證授權機構DigiCert必須等到此步驟完成後，才能核發認證。 因此，Adobe必須等到此步驟完成後，才能完成您對CNAME實作的要求。
 
 
-1. 填寫下清單格，並在您開啟Adobe Client Care票證 [要求CNAME支援時加入該表格](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [填妥此表格](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) ，並在您開啟Adobe Client Care [票證要求CNAME支援時加入此表格](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] client code:
    * SSL憑證主機名稱(範例： `target.example.com target.example.org`):
@@ -119,7 +119,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    validateEdgeFpsslSni target.example.com
    ```
 
-   如果實作已就緒，您應該會看到如下輸出。 重要部分是所有行都會顯示，這 `CN=target.example.com`些行與我們所需的主機名稱相符。 如果其中任何一 `CN=*.tt.omtrdc.net`個顯示，實 **作** 尚未準備。
+   如果實作已就緒，您應該會看到如下輸出。 重要部分是所有行都顯示，這符 `CN=target.example.com`合我們所需的主機名。 如果其中任何一 `CN=*.tt.omtrdc.net`個顯示，實 **作** 尚未準備。
 
    ```
    $ validateEdgeFpsslSni target.example.com
