@@ -1,10 +1,14 @@
 ---
-keywords: 建議;建議演算法;recommendations 活動;recommendations classic
+keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
 description: 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
 title: Target Premium 中的 Recommendations 傳統版與 Recommendations 活動的比較
+feature: null
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 100%
 
 ---
 
