@@ -2,11 +2,15 @@
 keywords: reports;auto-target;auto target;AT
 description: 如何解讀自動鎖定目標摘要報表的相關資訊。
 title: 自動鎖定目標摘要報表
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 3faba3d3158bed69ae5d756fb70c97d17110c1d8
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 65%
 
 ---
 
