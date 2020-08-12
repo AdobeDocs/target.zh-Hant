@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
 title: 在 Adobe Target 中建立受眾
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 95%
 
 ---
 
@@ -79,7 +83,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 * Target Standard/Premium 中不再支援運算式目標對象。
 * Target Standard/Premium 不支援一些過時的對象，或已改善運算子，變得更容易使用。因此，定義匯入的對象 (雖然可依定義而運作) 不表示現在同樣可以在 Standard/Premium 中建立。例如，社交對象連同其規則皆可見，但 Target Standard/Premium 不允許建立社交對象。
 
-## 訓練影片: 使用對象 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 使用對象 ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象的資訊。
 
