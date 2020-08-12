@@ -1,10 +1,14 @@
 ---
-keywords: Target;報表;報表設定;多個量度;量度
+keywords: Target;reports;report settings;multiple metrics;metrics
 description: 使用Adobe Target選取多個度量以在報表中檢視。
 title: 使用Adobe Target在報表中檢視多個量度
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +26,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **若要選取多個量度來顯示在報表中:**
 
-1. 若要顯示報表，請按一下&#x200B;**[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下&#x200B;**「報表」]索引標籤。[!UICONTROL **
+1. 若要顯示報表，請按一下&#x200B;**[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;索引標籤。
 1. 按一下&#x200B;**[!UICONTROL 「報表量度」]**&#x200B;下拉式清單，以顯示[!UICONTROL 「顯示量度」]和[!UICONTROL 「隱藏量度」]清單。
 
    ![](assets/multiple_metrics.png)
@@ -41,7 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    在[!UICONTROL 「顯示量度」]清單中，您可以將量度拖放成想要的順序，以重新排列量度。選取的順序會反映在表格檢視和圖表檢視中。若要從[!UICONTROL 「顯示量度」]清單中移除量度，請將滑鼠指標移至量度上，然後按一下 **X** 圖示。
 
-1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]。**
+1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. （條件性）在「表格檢視」中檢視報表時，將滑鼠指標暫留在任何量度的欄標題上，以顯示藍色箭頭。 按一下箭頭可展開表格，來顯示該量度的[!UICONTROL 提升度]和[!UICONTROL 信賴度]。
 
    ![](assets/multiple_metrics_table.png)
