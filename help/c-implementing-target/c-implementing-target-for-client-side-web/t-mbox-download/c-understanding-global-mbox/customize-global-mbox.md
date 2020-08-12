@@ -2,11 +2,12 @@
 keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: 可協助您為 at.js 和 mbox.js 自訂全域 mbox 的資訊。
 title: 自訂全域 mbox
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 97%
