@@ -1,10 +1,14 @@
 ---
 description: 變更記錄會記錄變更您的活動的人員，以及發生變更的時間。
-title: Adobe target中的活動變更記錄
+title: Adobe Target中的活動變更記錄
+feature: null
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 93%
 
 ---
 
