@@ -2,9 +2,13 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: 使用摘要來將實體匯入 Adobe Recommendations。實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
 title: 動態消息
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 93%
 
 ---
 
@@ -102,7 +106,7 @@ Google 產品搜尋摘要類型使用 Google 格式。這與 Adobe 的專屬 CSV
 >
 >不一定要使用 Google 資料。[!DNL Recommendations] 使用與 Google 相同的格式。您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >
@@ -218,6 +222,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
    * CSV
    * Google 產品摘要
    * Analytics 分類
+
    如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]** 或 **[!UICONTROL Google 產品摘要]**，請指定可存取摘要的位置。
@@ -323,7 +328,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解 Recommendations 中的摘要 (3:01) 概 ![述徽章](/help/assets/overview.png)
+### 瞭解 Recommendations 中的摘要 (3:01) ![概述徽章](/help/assets/overview.png)
 
 此影片包含下列資訊:
 
@@ -332,7 +337,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 建立摘要 (6:44) 教 ![學課程徽章](/help/assets/tutorial.png)
+### 建立摘要 (6:44) ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
