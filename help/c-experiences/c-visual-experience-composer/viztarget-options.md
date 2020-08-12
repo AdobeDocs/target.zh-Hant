@@ -1,11 +1,15 @@
 ---
-keywords: 可視化體驗撰寫器選項; 體驗撰寫器選項; 體驗選項; 編輯文字; 編輯 html; 編輯文字/HTML; 編輯背景顏色; 背景顏色; 插入元素; 編輯連結; 連結; 可視化體驗撰寫器連結; 編輯 CSS; 類別; CSS 類別; 交換選件; 選件交換; 交換影像; 影像交換; 移除項目; 項目移除; 隱藏項目; 項目隱藏; 重新排列; 移動元素; 元素移動; 調整元素大小; 元素調整大小; 元素; 展開選取範圍; 導覽至此連結; 導覽連結; 連結導覽; 導覽; 復原; 重做; 復原/重做
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: 當您在 Adobe Target 可視化體驗撰寫器 (VEC) 中按一下頁面元素時，功能表隨即顯示適用於該元素類型的選項。
 title: Adobe Target 可視化體驗撰寫器 (VEC) 選項
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +59,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 使用[!UICONTROL 樣式]面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。
 
-若要存取[!UICONTROL 樣式]面板，請按一下 VEC 中的頁面元素，然後按一下&#x200B;**[!UICONTROL 編輯]** &gt; **[!UICONTROL 樣式]**。
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 [!UICONTROL 樣式]面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。
 
@@ -109,6 +113,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 自動
    * 值 (拖曳滑桿以設定邊界，或指定每個邊界的像素數量)
+
    邊界支援正值和負值。
 
    Target 也支援其他大小單位，例如 rem、pc、em 等。For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 邊框樣式 (無、隱藏、點狀、虛線、實心或雙線)
    * 邊框顏色 (指定顏色代碼或使用檢色器)
    * 邊框寬度 (拖曳滑桿以選取邊框寬度，或以像素指定寬度)
+
    邊框支援 0 以上的寬度刻度。
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **位置**
 
-   從所選元素的目前位置移動該元素。You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   從所選元素的目前位置移動該元素。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    按一下[!UICONTROL 靜態]下拉式清單，以從下列位置選項中選擇:
 
@@ -147,10 +153,12 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 絕對
    * 自黏
    * 固定
+
    按一下每個位置的下拉式圖示，以從下列選項中選擇:
 
    * 自動
    * 值 (拖曳滑桿以設定元素位置，或指定您要移動元素的像素數量)
+
    位置支援正值和負值。
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
@@ -324,7 +332,7 @@ HTML 選件的大小最多可以是 256KB。
 
 移除元素。影像背後的白色空間會移除，而元素所在位置的空間會折疊。
 
-**注意:** 您無法使用此選項移除 "classic" mbox 內的項目 (在 Target Classic 促銷活動內建立的 mbox)。
+**注意:** 您無法使用此選項移除 &quot;classic&quot; mbox 內的項目 (在 Target Classic 促銷活動內建立的 mbox)。
 
 ### 展開區段
 
