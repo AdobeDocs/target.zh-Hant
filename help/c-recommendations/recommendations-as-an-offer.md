@@ -2,8 +2,12 @@
 keywords: Recommendations;offer
 description: Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 及體驗鎖定目標 (XT) 活動中的選件
 title: Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 及體驗鎖定目標 (XT) 活動中的選件
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
