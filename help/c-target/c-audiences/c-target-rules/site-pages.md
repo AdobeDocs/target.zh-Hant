@@ -1,11 +1,15 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: 您可以定位在您網站上特定頁面的訪客。
-title: Adobe target中的網站頁面
+title: Adobe Target中的網站頁面
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 43%
 
 ---
 
@@ -16,11 +20,11 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. 按一下「**[!UICONTROL 新增規則]**>**[!UICONTROL &#x200B;網站頁面]**」。
+1. 按一下「**[!UICONTROL 新增規則]** > **[!UICONTROL 網站頁面]**」。
 
    ![網頁受眾](assets/target_site_pages.png)
 
-1. 按一 **[!UICONTROL 下「選]**取」下拉式清單，選取下列其中一個選項，然後視需要設定規則。
+1. 按一 **[!UICONTROL 下「選]** 取」下拉式清單，選取下列其中一個選項，然後視需要設定規則。
 
    規則中後續下拉式清單中的可用選項和評估器會依您選擇的選項而異。 下圖顯示如果選擇「目前頁面」( [!UICONTROL Current Page)的可用選項]:
 
@@ -28,7 +32,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
    當您選擇「選取」時，初始下拉式清單中會提供下列 [!UICONTROL 選項]。
 
-   * **** 目前頁面：使用者目前所在的頁面。
+   * **目前頁面：** 使用者目前所在的頁面。
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
@@ -60,11 +64,12 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
       * 頂層網域
       * 路徑
       * 雜湊 (#) 片段
+
       >[!NOTE]
       >
       >在變更子網域或直接更換 URL 時會重設 `landing.url` 物件。
 
-   * **** HTTP標題：此選項會評估Target請求的HTTP標題中的資訊。 例如，如果HTTP標題包含語言資訊，您可以建立包含條件的規則，以 `Accept-Language: es` 定位以西班牙文存取頁面的訪客。
+   * **HTTP標題：** 此選項會評估Target請求的HTTP標題中的資訊。 例如，如果HTTP標題包含語言資訊，您可以建立包含條件的規則，以 `Accept-Language: es` 定位以西班牙文存取頁面的訪客。
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
@@ -97,6 +102,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
       * User-Agent
       * 透過
       * 警告
+
    如果您選擇「 [!UICONTROL 當前頁]」、「上一頁 [!UICONTROL 」或「著陸頁]」, [!UICONTROL 則可使用]DomainDomain和Query Page  選項。 選擇這些選項時，請考慮下列事項：
 
    * **網域:** 頁面的完整網域。指定網域時，最佳做法是使用「包含」。例如，「網域等於 facebook.com」不接受 `m.facebook.com` 或 `www.facebook.com`。「網域包含 facebook.com」則會接受 facebook.com 的任何變體。
@@ -108,7 +114,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 
 
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**並設定對象的其他規則。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 您也可以使用自己的「使用者定義查詢參數」或「使用者定義標題」，以建立網站頁面對象。
@@ -124,7 +130,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ## 疑難排解 {#ts}
 
-* 若要讓著陸頁面對象正常運作，請求必須設定 `mboxReferrer` at.js javaScript程式庫使用屬性從頁面擷取的參數(對於「傳送API `context.address.referringUrl` 」參數) `document.referrer` 。 此 `HTMLDocument` 屬性會傳回使用者已導覽之頁面的URI。 當使用者直接導覽至頁面時，此屬性的值是空的字串（不是透過連結，而是透過書籤）。
+* 若要讓著陸頁面對象正常運作，請求必須設定 `mboxReferrer` at.js JavaScript程式庫使用屬性從頁面擷取的參數(對於「傳送API `context.address.referringUrl` 」參數) `document.referrer` 。 此 `HTMLDocument` 屬性會傳回使用者已導覽之頁面的URI。 當使用者直接導覽至頁面時，此屬性的值是空的字串（不是透過連結，而是透過書籤）。
 
    如果此行為不符合您的要求，請考慮執行下列其中一個動作：
 
@@ -132,7 +138,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
    * 使用 [A/B測試活動](/help/c-activities/t-test-ab/test-ab.md) ，而非著陸頁面活動。 A/B測試活動不會切換相同訪客的體驗。
    * 請改用 [訪客資料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
-* 在包含逗號的字串上使用「開頭／結尾為」求值器時，請注意，這些值會評估為一組值，其中每個值會以逗號分隔。 例如，如果我們有標題的值： `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 它會針對下列條件取消：
+* 在包含逗號的字串上使用「開頭／結尾為」求值器時，請注意，這些值會評估為一組值，其中每個值會以逗號分隔。 例如，如果我們有標題的值： `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 它會因下列情況而失效：
    * 從zh開始，
    * 開頭為en,
    * 以0.7結束，
