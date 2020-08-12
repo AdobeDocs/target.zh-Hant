@@ -1,10 +1,14 @@
 ---
-keywords: 定位
+keywords: Targeting
 description: Target 用於自動個人化和自動鎖定目標的主要個人化演算法為隨機森林 (Random Forest)。隨機森林之類的整體方法會使用多個學習演算法，相較於任何建構式學習演算法可獲得更好的預測性效能。自動個人化中的隨機森林演算法為一種分類或迴歸方法，其運作方式是在訓練時建構許多決策。
 title: 隨機森林演算法
+feature: null
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 99%
 
 ---
 
