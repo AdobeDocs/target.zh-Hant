@@ -2,10 +2,14 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: 您可以在 Adobe Target 中建立受眾，鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 title: Adobe Target 受眾中的瀏覽器選項
+feature: null
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +121,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 多個選項是使用「或」連接。
 
-## 訓練影片: 建立對象 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 建立對象 ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
