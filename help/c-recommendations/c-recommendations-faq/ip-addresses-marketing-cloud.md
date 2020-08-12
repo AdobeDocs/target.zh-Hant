@@ -2,9 +2,10 @@
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: 位於奧勒岡資料中心的 Recommendations 摘要處理伺服器中使用的 IP 位址清單，可協助您將防火牆設定為允許源自 Adobe 伺服器的 IP 位址。
 title: Recommendations 摘要處理伺服器使用的 IP 位址
+feature: null
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 87%
