@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: 顯示在某些情況下，有時候會發生在增強體驗撰寫器 (EEC) 中的問題。
 title: 疑難排解增強體驗撰寫器的相關問題
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -40,7 +41,7 @@ ht-degree: 71%
 
    **補救方法：** 允許列出上述IP位址。
 
-* **問題：** 允許列出IP位址，但您的網站不支援TLS 1.2版。 Target目前使用預設的1.2組態。 在Target 18.4.1之前（2018年4月25日），預設組態支援TLS 1.0。 如需詳細資訊，請參 [閱TLS（傳輸層安全性）加密變更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
+* **問題：** 允許列出IP位址，但您的網站不支援TLS 1.2版。Target目前使用預設的1.2組態。在Target 18.4.1之前（2018年4月25日），預設組態支援TLS 1.0。如需詳細資訊，請參 [閱TLS（傳輸層安全性）加密變更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
    **解決方案:** 請參閱下列問題: 增強可視化體驗撰寫器不會在我使用 TLS 1.2 的網站上安全頁面中載入。
 
