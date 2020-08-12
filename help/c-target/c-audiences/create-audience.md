@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience
 description: 您可以建立自訂的對象，並將對象儲存至 Target 資料庫以在您的活動中使用。您可以複製現有對象，然後可以編輯對象以建立類似的對象並結合多個對象。
 title: 在 Target 中建立對象
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    新建立的對象會在處理延遲幾秒之後出現在清單中。如果對象未立即在清單中顯示，請嘗試搜尋對象或重新整理清單。
 
-## 訓練影片: 建立對象 概 ![述徽章](/help/assets/overview.png)
+## 訓練影片: 建立對象 ![概述徽章](/help/assets/overview.png)
 
 此影片包括關於建立對象的資訊。
 
