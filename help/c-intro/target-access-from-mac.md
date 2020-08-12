@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 76%
 
 ---
 
@@ -17,17 +20,13 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## 登入 Adobe Target 並設定您的預設檢視。
 
-1. 登入 [!DNL Experience Cloud] 之後，請按一下導覽列中的應用程式圖示。
+1. 登入 [Adobe Experience Cloud](https://experience.adobe.com/)。
+
+1. 按一下導 **[!UICONTROL 覽列中的]** 「應用程式」圖示，然後按一下「 **[!UICONTROL 目標」]**。
+
+   您也可以按一下 [!DNL Target] 主視窗中的面板，以存取 [!DNL Target] (或您可存 [!DNL Adobe Experience Cloud] 取的任何其他解決方案)。
 
    ![應用程式圖示](/help/c-intro/assets/appmenu-new.png)
-
-1. 在「應用程式」功能表中按一下[!DNL Target]「」圖示。
-
-   ![Target 圖示](/help/c-intro/assets/appmenu-target-new.png)
-
-1. 按一下 **[!UICONTROL 卡片上的]**「啟動」[!DNL Target]。
-
-   ![Target 啟動](/help/c-intro/assets/target-launch-new.png)
 
 1. (可選) 若要將 [!DNL Target] 設定為您的預設檢視，在您登入 [!DNL Experience Cloud] 時，請按一下您的設定檔頭像下的&#x200B;**[!UICONTROL 「編輯設定檔」]**，然後設定您的登陸頁面偏好設定。
 
@@ -35,13 +34,15 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## 變更 Target UI 的預設語言 {#language}
 
-1. 登入 [!DNL Adobe Experience Cloud ] 或 [!DNL Target] 後，請按一下您的個人檔案頭像，然後按一下&#x200B;**[!UICONTROL 編輯個人檔案]**。
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![編輯個人檔案](/help/c-intro/assets/change-language.png)
 
-1. 按一下&#x200B;**[!UICONTROL 編輯個人資訊]**。
+1. 按一 **[!UICONTROL 下「Adobe帳戶]** 」以存取您的個人 [!DNL Adobe] 檔案。
 
-1. 按一下頂端功能表列中的&#x200B;**[!UICONTROL 通訊]**&#x200B;標籤。
+   ![Adobe帳戶](/help/c-intro/assets/adobe-account.png)
+
+1. 按一下 **[!UICONTROL 頂端功能表列的]** 「通知」標籤，然後按一下左側的「 **[!UICONTROL Preferences]** 」標籤。
 
    ![偏好語言](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 1. 選取您的第一 (主要) 語言，然後視需要選取第二語言。
 
-   [!DNL Target] UI 提供下列語言版本:
+   UI [!DNL Target] 提供下列語言版本；雖然如此，通知仍提供更多語言版本：
 
    * 英文
    * 西班牙文
@@ -68,7 +69,7 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## 變更 Target 產品文件的語言 {#doc-lang}
 
-作業系統或瀏覽器設定應該會偵測您慣用的語言，並顯示該語言的文件 (如果有的話)。Target 文件會自動翻譯，並且會在英文版文件做出變更的數小時後與英文版保持同步。
+作業系統或瀏覽器設定應該會偵測您慣用的語言，並顯示該語言的文件 (如果有的話)。[!DNL Target] 文件會自動翻譯，並且會在英文版文件做出變更的數小時後與英文版保持同步。
 
 您可以按一下頁面標頭中的連結，快速地將語言變更為原始英文版。
 
