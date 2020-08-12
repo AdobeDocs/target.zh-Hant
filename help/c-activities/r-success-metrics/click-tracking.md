@@ -2,11 +2,12 @@
 keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target 可讓您追蹤任何元素上的點擊做為成功量度。
 title: 點擊追蹤
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -104,6 +105,7 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 
       * `A` (連結) 標記: 預設行為是導覽至 HREF 屬性定義的 URL。
       * `FORM` 標記: 預設行為是提交表單。
+
    此預設行為可能會干擾 Analytics 點擊追蹤。如果您使用 Analytics，針對點擊追蹤，您應該仰賴於 Analytics 而非 Target。
 
 * 如果頁面上的頁面和活動 URL 屬於不同屬性，系統則不會記錄點擊追蹤。企業使用者權限為 Target Premium 功能。如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
