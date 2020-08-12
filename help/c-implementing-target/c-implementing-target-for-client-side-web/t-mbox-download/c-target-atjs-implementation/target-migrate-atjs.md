@@ -1,11 +1,15 @@
 ---
-keywords: Target;at.js;移轉至 at.js;整備;稽核 at.js;整合 at.js
+keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: 從 mbox.js 移轉至 at.js 是簡單直接的程序。
 title: 如何從 mbox.js 移轉至 at.js
+feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +46,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * mboxCookieDomain()
    * 額外 Javascript
    * 其他位置
+
    不支援大部分的 [mbox.js 物件和方法](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories`)。可能有替代方法能完成您嘗試的動作。
 
    **您在您的任何網頁上是否有[!DNL mbox.js]?**
@@ -58,6 +63,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * AAM (舊版前端)
    * AEM
    * Data Workbench
+
    [!DNL at.js] 不支援部分舊版整合。如需詳細資訊，請參閱[整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)頁面。
 
    **您將[!DNL Target]與任何第三方工具整合嗎?**
@@ -67,6 +73,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * Demandbase
    * Clicktale
    * 其他
+
    這些整合可能需要經過調整，才能與 [!DNL at.js] 搭配使用。如需詳細資訊，請參閱[整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)頁面。
 
    **您有使用標記管理程式嗎?**
@@ -75,6 +82,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * Ensighten
    * Tealium
    * Signal/BrightTag
+
    如需詳細資訊，請參閱 [at.js 整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
 
    >[!NOTE]
@@ -104,7 +112,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    並且建置時會預期 [!DNL mbox.js] 已在頁面上方新增額外的 `<div>` 元素。因為 [!DNL at.js] 未在頁面上方新增 `<div>` 元素，此選取器將不再能與 [!DNL at.js] 搭配使用。
 
-   在 VEC 中的 URL 上使用 [!DNL at.js] 重新建立活動，或在 VEC 中使用&#x200B;**[!UICONTROL 「&lt;/&gt; 代碼]** &gt; **[!UICONTROL 修改」]**&#x200B;選項手動更新選取器，即可解決此問題。
+   在 VEC 中的 URL 上使用 [!DNL at.js] 重新建立活動，或在 VEC 中使用&#x200B;**[!UICONTROL 「&lt;/> 代碼」]**>**[!UICONTROL 「修改」]**&#x200B;選項手動更新選取器，即可解決此問題。
 
    若要補救此問題，您應該在 BODY 之後的第一個 DIV 元素中，從第 n 個輸入數字減 1。在以上範例中，經過編輯的代碼會是:
 
