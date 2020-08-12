@@ -2,9 +2,13 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 title: 建立 Recommendations 活動
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -61,6 +65,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * 搜尋結果頁面
    * 感謝頁面
    * 其他
+
    ![選取頁面類型選項](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. 選取[一或多個條件](/help/c-recommendations/c-algorithms/algorithms.md)。
@@ -165,6 +170,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    當多個活動設為傳送內容至相同的頁面時會發生活動衝突，並且可能造成顯示未預期的內容。
 
-## 訓練影片: 建立 Recommendations 活動 (7:15) 教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 建立 Recommendations 活動 (7:15) ![教學課程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
