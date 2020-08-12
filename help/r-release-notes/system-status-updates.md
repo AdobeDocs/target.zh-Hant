@@ -1,11 +1,15 @@
 ---
-keywords: 系統更新;疑難排解;維護;系統狀態;更新狀態
+keywords: system update;troubleshooting;maintenance;system status;update status
 description: 使用 Adobe「系統狀態」頁面來檢視 Adobe 產品和 Experience Cloud 解決方案，包括 Target 的狀態。此頁面可協助您判斷您遇到的問題是否是因為系統更新或日常的維護。
 title: 系統狀態更新
+feature: null
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 98%
 
 ---
 
