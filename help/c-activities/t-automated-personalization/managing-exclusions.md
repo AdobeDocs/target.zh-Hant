@@ -1,11 +1,15 @@
 ---
-keywords: 刪除重複資料;允許重複項目;排除重複選件;自動個人化;不允許重複選件
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: 管理排除的方法包括在 Adobe Target Automated Personalization (AP) 活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
 title: 管理排除項目
-solution: Target、Analytics
+feature: null
+solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +34,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 在[!UICONTROL 「管理內容」]對話方塊中，按一下&#x200B;**[!UICONTROL 「排除群組」]**。
 
-   ![管理內容 &gt; 排除群組對話方塊](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![管理內容 > 排除群組對話方塊](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    如果您先前已建立排除群組，則會出現在清單中。如果您尚未建立排除群組，則會提示您建立。
 
@@ -56,7 +60,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 例如，您可能在有 12 個選件的六個位置頁面上有一個活動。相同選件有可能放入活動中的一或多個位置。此功能可防止重複選件同時顯示在相同活動內的不同位置。
 
-按一下&#x200B;**[!UICONTROL 「設定]** &gt; **[!UICONTROL 重複選件」]**，然後按一下&#x200B;**[!UICONTROL 「允許重複項目」]**&#x200B;或&#x200B;**[!UICONTROL 「不允許重複項目」]**。
+按一下「**[!UICONTROL 設定]** > **[!UICONTROL 重複選件]**」，然後按一下&#x200B;**[!UICONTROL 「允許重複項目」]**&#x200B;或&#x200B;**[!UICONTROL 「不允許重複項目」]**。
 
 ![重複選件選項](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **若要使用可視化體驗撰寫器 (VEC) 來排除預設內容:**
 
-1. 在[建立或編輯 AP 活動](/help/c-activities/t-automated-personalization/create-ap-activity.md)時，選取您要取代的內容，然後按一下以存取&#x200B;**[!UICONTROL 變更文字/HTML]**、**[!UICONTROL 變更影像]**&#x200B;或&#x200B;**[!UICONTROL 變更背景顏色]**。
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊 **「包含」** (或在「選取內容」畫面中取消勾選「預設影像/影片」)。
 
    視內容/選件類型而定，[!UICONTROL 「包含」]核取方塊的位置會稍微不同。
@@ -122,7 +126,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 **若要使用表單式體驗撰寫器來排除預設內容:**
 
 1. 在建立或編輯 AP 活動時，按一下&#x200B;**[!UICONTROL 「內容」]**&#x200B;下的&#x200B;**[!UICONTROL 「變更文字/HTML」]**&#x200B;或&#x200B;**[!UICONTROL 「變更影像選件」]**。
-1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的 **[!UICONTROL 「包含」]** (或在「選取內容」畫面中取消勾選「預設影像/影片」)。
+1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊 **[!UICONTROL 「包含」]** (或在「選取內容」畫面中取消勾選「預設影像/影片」)。
 
    視內容/選件類型而定，「包含」核取方塊的位置會稍微不同。
 
