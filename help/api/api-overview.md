@@ -4,19 +4,19 @@ description: 有關Adobe Target API的資訊，包括管理、傳送、報告和
 title: Adobe Target API總覽
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Target API總覽
 
-Adobe Target API可依類型分組。
+[!DNL Adobe Target] API可依類型分組。
 
-| API 類型 | 它可讓您 | 下載連結 | 其他實用連結 |
+| API類型 | 它可讓您 | 下載連結 | 其他實用連結 |
 | --- | --- | --- |--- |
 | 管理 | 建立、修改和刪除活動、觀眾、選件和其他物件(包括 [!DNL Recommendations] 實體、准則、設計等)。 API [!DNL Recommendations] 是一種管理API。) | <UL><li>[Target Admin API Postman Collection](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [在](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)*Adobe Target教學課程中使用Recommendations API* |
 | 傳送 | 從中擷取最佳化和個人化的 [!DNL Target] 內容，以便傳送給使用者。 | [Target Delivery API Postman Collection](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
@@ -25,6 +25,12 @@ Adobe Target API可依類型分組。
 
 >[!NOTE]
 >
->請注意管理 **API** (包括 [!DNL Recommendations] API)與傳送API（可讓您設定Adobe Target的各個方面）之 ****&#x200B;間的區別，傳送API可讓您擷取內容。 管理API需要驗證，而傳送API則不需要。
+>管理API（包括API） [!DNL Target] 和傳送API之間有 [!DNL Recommendations] 重要的 [!DNL Target] 區別：
 >
->若要使用Adobe Target管理API，您首先需要使用Adobe I/O來設定驗證。如需詳細資訊，請參 [閱Adobe Target教學課程](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html)*中的設定驗證*。
+>* 管理API可讓您設定UI中 [!DNL Target] 您也可設定的各 [!DNL Target] 個方面。 管理API需要驗證。
+   >
+   >
+* 傳送API可讓您擷取內容。 傳送API不需要驗證。
+>
+>
+若要使 [!DNL Target] 用管理API，您必須先使用Adobe I/O來設定驗證。如需詳細資訊，請參 [閱Adobe Target教學課程](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html)*中的設定驗證*。
