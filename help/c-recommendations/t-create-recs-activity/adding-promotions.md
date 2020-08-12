@@ -1,10 +1,14 @@
 ---
-keywords: 促銷活動;前端促銷活動;後端促銷活動;促銷活動類型
+keywords: promotions;front promotions;back promotions;promotions type
 description: 新增提示的項目並控制其在您的 Adobe Target Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
 title: 在 Adobe Target Recommendations 設計中新增促銷活動。
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 99%
 
 ---
 
@@ -48,14 +52,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 選取&#x200B;**[!UICONTROL 「項目清單」]**&#x200B;並輸入 `entity.id` 值，將您要促銷的特定項目以逗號區隔。
 
-      如果您的清單包括的項目多於為促銷活動設定的位置數量，您可以選取&#x200B;**[!UICONTROL 「隨機排列項目順序」]核取方塊，以變更在您的設計中顯示的促銷的項目。**&#x200B;若選擇此選項，Target 從對每次造訪設定的整個促銷活動中，隨機選取在範本中為促銷活動啟用項目數量。
+      如果您的清單包括的項目多於為促銷活動設定的位置數量，您可以選取&#x200B;**[!UICONTROL 「隨機排列項目順序」]**&#x200B;核取方塊，以變更在您的設計中顯示的促銷的項目。若選擇此選項，Target 從對每次造訪設定的整個促銷活動中，隨機選取在範本中為促銷活動啟用項目數量。
 
-   * 選取&#x200B;**[!UICONTROL 「依屬性促銷」]，並新增規則以定義您要促銷的項目的屬性。**
+   * 選取&#x200B;**[!UICONTROL 「依屬性促銷」]**，並新增規則以定義您要促銷的項目的屬性。
 
       如果您選取「依屬性促銷」，您可以建立動態匹配。如需詳細資訊，請參閱[使用動態和靜態包含規則](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
-   * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]，並選擇您要促銷的項目集合。**&#x200B;您可以建立新的集合用於促銷活動。請參閱[建立集合](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
+   * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]**，並選擇您要促銷的項目集合。您可以建立新的集合用於促銷活動。請參閱[建立集合](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. Click **[!UICONTROL Save.]**.
 
 促銷活動會套用至活動中的所有體驗。
