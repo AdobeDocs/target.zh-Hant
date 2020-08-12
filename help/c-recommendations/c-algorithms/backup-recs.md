@@ -2,9 +2,10 @@
 keywords: recommendation;backup;back up
 description: 如使用備份建議功能，所有其中建議項目不足的建議將不會顯示預設內容。建議會改為顯示備份演算法的結果。
 title: 使用備份建議
+feature: null
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
