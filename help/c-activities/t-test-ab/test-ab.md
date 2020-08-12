@@ -2,9 +2,13 @@
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。
 title: A/B 測試
+feature: null
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +31,7 @@ A/B 測試非常適合用來進行可能會包含新版面的大型變更，或�
 
 當不同體驗的數量超出五個，並跨兩個或多個位置，在執行您的 A/B 測試之前考慮 [MVT 測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md)是好主意。多變數測試會顯示頁面上的哪些區域最可能改善轉換。這些是行銷人員應該著重的位置。例如，MVT 測試可能顯示對動作的呼叫是符合您的目標的最重要位置。一旦您決定哪個位置和內容對於幫助您符合您的目標最有用，您可以執行 A/B 測試來進一步微調結果，例如對彼此測試兩個特定影像，或比較對動作呼叫的用字或色彩。遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
 
-## 訓練影片: 活動類型 (9: 03) 概 ![述徽章](/help/assets/overview.png)
+## 訓練影片: 活動類型 (9: 03) ![概述徽章](/help/assets/overview.png)
 
 此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。
 
