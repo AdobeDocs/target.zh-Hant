@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: 在 Target Standard 中管理使用者，及在 Target Premium 中管理企業屬性和權限的相關資訊。
 title: 使用者管理
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -28,6 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
    * 您會看到「使 [!UICONTROL 用者] 」標籤(「 [!UICONTROL 管理] >使 [!UICONTROL 用者] 」)
    * 您將看 *到* 「屬性」頁籤(「管理」(Administration) [!UICONTROL 「屬性」(] Properties)選  項卡>)
+
    [!DNL Target] Standard 客戶應該遵循[使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的指示，在 Adobe Admin Console 中新增使用者和指派權限。
 
 * **Target Premium客戶：** 如果您的組織有 [!DNL Target] Premium授權，您將會在Target UI中遵守下列規定：
