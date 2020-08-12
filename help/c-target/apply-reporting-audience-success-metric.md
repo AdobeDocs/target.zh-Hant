@@ -1,10 +1,14 @@
 ---
-keywords: 鎖定目標;對象;報表;成功量度
+keywords: Targeting;audience;reporting;success metric
 description: 在 Adobe Target 中選擇符合報表受眾使用者資格的成功量度。
 title: 在 Adobe Target 中將報表受眾套用至成功量度
+feature: null
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
