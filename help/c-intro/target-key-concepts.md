@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: 能幫助您瞭解 Adobe Target 特色與功能之重要概念的相關資訊。
 title: Target 重要概念
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
