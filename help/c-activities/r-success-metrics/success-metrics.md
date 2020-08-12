@@ -2,9 +2,10 @@
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
 description: 在Adobe Target中，成功度量是用來測量活動成功的參數。 成功量度包含重要的商務測量，可讓您判斷 Target 活動中指定體驗或選件的成功程度。
 title: Adobe Target中的成功度量
+feature: null
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 52%
@@ -40,7 +41,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 | 自訂得分 | 參與型 | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 | 網站逗留時間 | 參與型 | Time spent in the visit (in seconds) from the point the visitor sees the activity&#39;s first display [!DNL Target] request to the load of the final page with a request in the session. |
 
-若為參與型量度 (非以轉換和收入為基礎的量度)，訪客每次瀏覽均須重新取得活動資格，以增加該工作階段計數。相關量度會在重新取得資格後開始增加計數，並在各訪客的工作階段結束後停止。閒置 30 分鐘後，工作階段就會結束。因此，測試時不會立即看到結果； 不過，該作業的所有結果都可在作業結束後的幾分鐘內取得。
+若為參與型量度 (非以轉換和收入為基礎的量度)，訪客每次瀏覽均須重新取得活動資格，以增加該工作階段計數。相關量度會在重新取得資格後開始增加計數，並在各訪客的工作階段結束後停止。閒置 30 分鐘後，工作階段就會結束。因此，測試時不會立即看到結果；不過，該作業的所有結果都可在作業結束後的幾分鐘內取得。
 
 ## 自訂成功度量
 
