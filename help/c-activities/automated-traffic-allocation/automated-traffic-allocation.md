@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 title: 自動分配
+feature: null
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -191,7 +192,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 ### 在執行「自動配置」活動時，我是否可以使用「重設報表資料」選項？
 
-不建議 [!UICONTROL 對「自動配置] 」活 [!UICONTROL 動使用「重設報表資料] 」選項。 雖然它會移除可見的報告資料，但此選項不會從「自動分配」模型移除 [!UICONTROL 所有培訓記錄] 。 不要對「自動 [!UICONTROL 分配」活動使用「重] 設報表資料」選項  ，請建立新活動並停用原始活動。 (注意： 本指南也適用於 [!UICONTROL Auto-Target] 和 [!UICONTROL Automated Personalization] 活動。)
+不建議 [!UICONTROL 對「自動配置] 」活 [!UICONTROL 動使用「重設報表資料] 」選項。 雖然它會移除可見的報告資料，但此選項不會從「自動分配」模型移除 [!UICONTROL 所有培訓記錄] 。 不要對「自動 [!UICONTROL 分配」活動使用「重] 設報表資料」選項  ，請建立新活動並停用原始活動。 (注意：本指南也適用於 [!UICONTROL Auto-Target] 和 [!UICONTROL Automated Personalization] 活動。)
 
 ### 自動分配構建模型如何與環境相關？
 
