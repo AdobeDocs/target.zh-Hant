@@ -2,11 +2,11 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: 本頁列出依發行順序對Adobe Target檔案所做的重要變更。
 title: Adobe Target 產品文件中的文件變更。
-feature: null
+feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 29%
@@ -118,7 +118,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 10 年 4 月 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 新增區段：「實作最佳實務。」 |
 | 7 年 4 月 | [提升度和可信度 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新「為什麼我看不到計算量度的提升度和可信度？」的文字 |
 | 2 年 4 月 | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已添加有關使用 `user.header('x-forwarded-for')` 較新的AWS邊緣來檢索用戶IP地址的資訊。 |
-|  | [從 at.js 1.*x* 升級為 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 已新增下列備註:<ul><li>安裝 ECID 資料庫 v4.3.0+ 和 at.js 2.*x* 後，您將能建立橫跨多個唯一網域的活動以及追蹤使用者。請務必注意，此功能只有在工作階段過期後才能運作。</li></ul> |
+|  | [從 at.js 1.*x* 升級為 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 已新增下列備註:<ul><li>安裝 ECID 資料庫 v4.3.0+ 和 at.js 2.*x* 後，您將能建立橫跨多個唯一網域的活動以及追蹤使用者。請務必注意，此功能只有在工作階段過期後才能運作。</li></ul> |
 | 3月30日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 已新增影響at.js 2.2.0之前版本的已知問題。當Adobe Analytics代碼不存在於頁面元素時，此問題會導致點按追蹤無法報告Analytics for Target(A4T)中的轉換。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已將下列資訊新增至at.js 2.2.0版詳細資訊：<ul><li>修正當Adobe Analytics代碼不存在於頁面元素時，點按追蹤無法報告Analytics for Target(A4T)轉換的問題。</li></ul> |
 | 3月25日 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增下列at.js新版本的相關資訊：<ul><li>at.js 2.3.0版</li><li>at.js 1.8.1版</li></ul> |
