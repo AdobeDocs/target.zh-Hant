@@ -2,10 +2,10 @@
 keywords: exclusions
 description: 在 Adobe Target 中建立排除清單來防止項目被建議。
 title: Adobe Target 中的排除項目
-feature: null
+feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 99%
