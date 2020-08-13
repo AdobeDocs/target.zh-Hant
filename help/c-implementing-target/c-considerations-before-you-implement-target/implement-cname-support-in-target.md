@@ -2,11 +2,11 @@
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: 有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。
 title: CNAME 與 Adobe Target
-feature: null
+feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. 如果Adobe要購買憑證，Adobe將與DigiCert合作，在Adobe的生產伺服器上購買及部署您的憑證。
 
-   如果客戶購買憑證(BYOC),Adobe客戶服務會傳送憑證簽署要求(CSR)給您，當您透過您選擇的憑證授權機構購買憑證時，需要使用此要求。 在核發憑證後，您必須將憑證副本和任何中間憑證傳回Adobe Client Care進行部署。
+   如果客戶購買憑證(BYOC),Adobe客戶服務會傳送憑證簽署要求(CSR)給您，當您透過您選擇的憑證授權機構購買憑證時，需要使用此要求。 在核發憑證後，您必須將憑證副本和任何中間憑證傳回Adobe Client Care以進行部署。
 
    當您的實作準備就緒時，Adobe Client Care會通知您。
 
