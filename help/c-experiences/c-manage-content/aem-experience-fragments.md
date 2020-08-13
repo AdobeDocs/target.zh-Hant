@@ -2,11 +2,11 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: 有關在Adobe Target活動中使用在Adobe Experience Manager(AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
 title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
-feature: null
+feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 22%
@@ -49,17 +49,17 @@ In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perfo
 
 如需詳細資訊，請參閱:
 
-* **[!DNL AEM]6.3 **:[在](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)Adobe Experience Manager 6.3檔案中選擇Adobe Analytics和Adobe Target__。
-* **[!DNL AEM]6.4 **:[在](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)Adobe Experience Manager 6.4檔案中選擇Adobe Analytics和Adobe Target__。
-* **[!DNL AEM]6.5 **:[在](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)Adobe Experience Manager 6.5檔案中選擇Adobe Analytics和Adobe Target **。
+* **[!DNL AEM]6.3**: [在](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) Adobe Experience Manager 6.3檔案中選擇Adobe Analytics和Adobe Target __ 。
+* **[!DNL AEM]6.4**: [在](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) Adobe Experience Manager 6.4檔案中選擇Adobe Analytics和Adobe Target __ 。
+* **[!DNL AEM]6.5**: [在](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) Adobe Experience Manager 6.5檔案中選擇Adobe Analytics和Adobe Target ** 。
 
 ### 步驟 2: 建立體驗片段
 
 Experience fragments are created in [!DNL AEM]. 如需詳細資訊，請參閱:
 
-* **[!DNL AEM]6.3 **:[在](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)Adobe Experience Manager 6.3檔案中體驗片段&#x200B;**。
-* **[!DNL AEM]6.4 **:[Adobe Experience Manager 6](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html).4文&#x200B;*件中的體驗片段*。
-* **[!DNL AEM]6.5 **:[在](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)Adobe Experience Manager 6.5檔案中體驗片段&#x200B;**。
+* **[!DNL AEM]6.3**: [在](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager 6.3檔案中體驗片段 ** 。
+* **[!DNL AEM]6.4**: [Adobe Experience Manager 6](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) .4文 *件中的體驗片段* 。
+* **[!DNL AEM]6.5**: [在](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5檔案中體驗片段 ** 。
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -76,9 +76,9 @@ Experience fragments are created in [!DNL AEM]. 如需詳細資訊，請參閱:
 
 視您的版 [!DNL AEM] 本而定，請參閱下列連結以取得逐步指示：
 
-* **[!DNL AEM]6.3 **:[在](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager 6.3檔案中，將體驗片段匯出至Target **。
-* **[!DNL AEM]6.4 **:[在](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)Adobe Experience Manager 6.4檔案中將體驗片段匯出至Target **。
-* **[!DNL AEM]6.5 **:[在](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager 6.5檔案中將體驗片段匯出至Target **。
+* **[!DNL AEM]6.3**: [在](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.3檔案中，將體驗片段匯出至Target ** 。
+* **[!DNL AEM]6.4**: [在](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4檔案中將體驗片段匯出至Target ** 。
+* **[!DNL AEM]6.5**: [在](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5檔案中將體驗片段匯出至Target ** 。
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
