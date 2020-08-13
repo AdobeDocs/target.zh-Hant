@@ -2,11 +2,11 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: 此頁面列出在設定檔指令碼中很實用的設定檔、變數和參數。
 title: 設定檔和變數字彙表
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 93%
@@ -88,7 +88,7 @@ ht-degree: 93%
 | mbox3rdPartyId | mbox 參數，用來將客戶 ID 同步至 Target 的 mboxPCID。客戶 ID 為您的公司用來追蹤訪客的 ID，例如 CRM ID、會員 ID 或類似的項目。然後此 ID 可用來新增資訊，透過設定檔 API 和[客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)。 |
 | mboxPageValue | 在每個 mbox 呼叫中，會指定一個值給頁面。 |
 | mboxDebug | 僅用於除錯資訊。新增至頁面 URL，mbox.js 會在此頁面尋找它。 |
-| mboxOverride.browserIp | 設定和實際位置不同的地理區域，讓您可以測試某個項目在其他位置看起來如何。<br>**注意:**只有在測試活動並且不在生產中時，才應該使用 mboxOverride 參數。使用任何 mboxOverride 參數可能造成使用[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T) 時的報表差異。在測試時，您應該使用[活動 QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，以在將活動推送至您的即時環境之前，確保您的活動可如預期般運作。 |
+| mboxOverride.browserIp | 設定和實際位置不同的地理區域，讓您可以測試某個項目在其他位置看起來如何。<br>**注意:** 只有在測試活動並且不在生產中時，才應該使用 mboxOverride 參數。使用任何 mboxOverride 參數可能造成使用 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 時的報表差異。在測試時，您應該使用[活動 QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，以在將活動推送至您的即時環境之前，確保您的活動可如預期般運作。 |
 
 ## 客戶屬性 {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
