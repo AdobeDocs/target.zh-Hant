@@ -2,11 +2,11 @@
 keywords: mboxDefine;mboxdefine;mbox define;mboxUpdate;mboxupdate;mbox update;at.js;functions;function
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxDefine() 和 mboxUpdate() 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxDefine() 和 mboxUpdate() 函數的資訊。
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
