@@ -2,11 +2,11 @@
 keywords: api;adobe i/o
 description: 可協助您從 Target 舊版 API 使用轉變到 Adobe I/O 上的新 API 的資訊。
 title: 從 Target 舊版 API 轉變為 Adobe I/O
-feature: null
+feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
