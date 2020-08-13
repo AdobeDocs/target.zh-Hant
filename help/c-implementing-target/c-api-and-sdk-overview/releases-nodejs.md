@@ -2,10 +2,10 @@
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;serverside;server-side;nodejs
 description: 與Adobe Target伺服器端API相關的發行說明。
 title: 與Adobe Target的Node.js SDK相關的發行說明。
-feature: null
+feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
