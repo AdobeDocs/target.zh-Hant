@@ -1,11 +1,11 @@
 ---
 description: 在自動個人化活動中，您可以將選件鎖定在特定對象。
 title: 鎖定自動個人化選件
-feature: null
+feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
