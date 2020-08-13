@@ -2,10 +2,10 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
 title: 在類似頁面上包含相同體驗
-feature: null
+feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 96%
