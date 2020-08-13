@@ -2,12 +2,12 @@
 keywords: capture score;score
 description: 「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示「目標請求」開始計算匯總分數。
 title: 擷取分數
-feature: null
+feature: success metrics
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
