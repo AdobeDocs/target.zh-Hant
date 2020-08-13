@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: 您可以在 Target Standard/Premium 中設定活動以使用 Adobe Analytics 做為報表來源 (A4T)。
 title: 活動建立
-feature: null
+feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 21%
@@ -113,7 +113,7 @@ A4T for [!UICONTROL Auto-Allocate] 不支援連續度量的最佳化，例如收
 
    >[!NOTE]
    >
-   >您可能會選擇參與和收 [!DNL Analytics] 入量度作為主要目標量度，因為無 [!DNL Target] 法識別所有參與和收入量度 [!DNL Analytics]。 請小心，只從中選取二項式轉換量度或自訂事件 [!DNL Analytics]。
+   >您可能會選擇參與和收 [!DNL Analytics] 入量度作為主要目標量度，因為無法 [!DNL Target] 識別所有的參與和收入量度 [!DNL Analytics]。 請小心，只從中選取二項式轉換量度或自訂事件 [!DNL Analytics]。
 
 * Adobe Analytics計算量度
 
