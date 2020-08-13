@@ -2,10 +2,10 @@
 keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: 您可以定位數個類別。每個類別會如同標籤般運作，這可讓您為每個類別建立定位規則 (或群組)。
 title: 對象的類別
-feature: null
+feature: audiences
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 98%
