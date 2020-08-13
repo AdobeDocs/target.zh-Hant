@@ -2,11 +2,11 @@
 keywords: audience;select audience;choose audience;Selectors
 description: 對象會決定哪些網站訪客進入了您的活動。
 title: 選取對象
-feature: null
+feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
