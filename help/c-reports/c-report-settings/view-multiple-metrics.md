@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;multiple metrics;metrics
 description: 使用Adobe Target選取多個度量以在報表中檢視。
 title: 使用Adobe Target在報表中檢視多個量度
-feature: null
+feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 70%
