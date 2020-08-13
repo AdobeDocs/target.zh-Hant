@@ -2,11 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Adobe Target 中適用於單頁應用程式 (SPA) 的可視化體驗撰寫器 (VEC) 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在 React 和 Angular 等最熱門的架構上建立活動。
 title: 單一頁面應用程式 (SPA) 可視化體驗撰寫器
-feature: null
+feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -80,7 +80,7 @@ ht-degree: 93%
    | --- | --- | --- | --- | --- |
    | viewName | 字串 | 是 | 1. 尾端無空格。<br>2.不得空白。<br>3.所有頁面的檢視名稱都不得重複。<br>4.**警告**: 檢視名稱的開頭或結尾不能為「`/`」。這是因為客戶通常會從 URL 路徑中擷取檢視名稱。對我們來說，「home」和「`/home`」是不一樣的。<br>5.**警告**: 同一個檢視不應使用 `{page: true}` 選項連續觸發多次。 | 傳入任何名稱作為要代表檢視的字串類型。此檢視名稱會顯示在 VEC 的[!UICONTROL 「修改」]面板中，供行銷人員建立動作和執行 A/B 與 XT 活動。 |
    | options | 物件 | 無 |  |  |
-   | options > page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。當 `page=true`，會傳送通知至 Edge 伺服器以增加曝光計數。<br>**FALSE **: 當`page=false`，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
+   | options > page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。當 `page=true`，會傳送通知至 Edge 伺服器以增加曝光計數。<br>**FALSE**: 當 `page=false`，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
 
    現在，讓我們來看看一些使用範例，瞭解如何在 React 中對假設性的電子商務 SPA 進行叫用 `triggerView()`:
 
@@ -209,8 +209,8 @@ VEC 的[「修改」](/help/c-experiences/c-visual-experience-composer/c-vec-cod
 | --- | --- |
 | 資訊 | 顯示此動作的詳細資料。 |
 | 編輯 | 可讓您直接編輯該動作的屬性。 |
-| 原地複製 | 將動作原地複製至一或多個存在於[!UICONTROL 修改]面板上的檢視，或原地複製至一或多個您已在 VEC 中瀏覽及導覽的目標檢視。動作未必會存在於[!UICONTROL 修改]面板中。<br>**附註&#x200B;**: 執行原地複製作業後，您必須透過[!UICONTROL 瀏覽]導覽至 VEC 中的檢視，才能查看該原地複製動作的作業是否有效。如果無法將動作套用到檢視，則會出現錯誤. |
-| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] – 任何對應至頁面載入事件的動作，都會套用到網頁應用程式的初始頁面載入上。<br>**附註&#x200B;**執行移動作業後，您必須透過瀏覽導覽至 VEC 中的檢視，才能查看該移動作業是否有效。如果無法將動作套用到檢視，則會出現錯誤 |
+| 原地複製 | 將動作原地複製至一或多個存在於[!UICONTROL 修改]面板上的檢視，或原地複製至一或多個您已在 VEC 中瀏覽及導覽的目標檢視。動作未必會存在於[!UICONTROL 修改]面板中。<br>**附註**: 執行原地複製作業後，您必須透過[!UICONTROL 瀏覽]導覽至 VEC 中的檢視，才能查看該原地複製動作的作業是否有效。如果無法將動作套用到檢視，則會出現錯誤. |
+| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] – 任何對應至頁面載入事件的動作，都會套用到網頁應用程式的初始頁面載入上。<br>**附註** 執行移動作業後，您必須透過瀏覽導覽至 VEC 中的檢視，才能查看該移動作業是否有效。如果無法將動作套用到檢視，則會出現錯誤 |
 | 刪除 | 刪除動作。 |
 
 >[!NOTE]
