@@ -1,11 +1,11 @@
 ---
 description: 流量估算程式提供的回饋意見可讓您得知是否有足夠的流量讓您的活動成功。
 title: 預估成功所需的流量
-feature: null
+feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
