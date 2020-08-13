@@ -2,10 +2,10 @@
 keywords: promotions;front promotions;back promotions;promotions type
 description: 新增提示的項目並控制其在您的 Adobe Target Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
 title: 在 Adobe Target Recommendations 設計中新增促銷活動。
-feature: null
+feature: recs creation
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 99%
