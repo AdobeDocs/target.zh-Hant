@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe Target Recommendations中的准則是規則，可根據一組預先設定的訪客行為來決定要推薦哪些產品。
 title: Adobe Target Recommendations中的條件
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 標準 | 說明 |
 |--- |--- |
-| 具有類似屬性的項目/媒體 | 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。<br>**注意:**如果您選取「具有類似屬性的項目/媒體」，便可選擇設定內容相似度規則。 |
+| 具有類似屬性的項目/媒體 | 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。<br>**注意:** 如果您選取「具有類似屬性的項目/媒體」，便可選擇設定內容相似度規則。 |
 | 瀏覽過此項目、也瀏覽了其他項目的使用者 | 建議在檢視所指定項目的相同工作階段中，最常檢視的項目。 |
 | 瀏覽過此項目、但購買了其他項目的使用者 | 建議在檢視所指定項目的相同工作階段中，最常購買的項目。此條件傳回在檢視這個產品之後購買的其他產品，而指定的產品未包含在結果集合中。 |
 | 購買了此項目、也購買了其他項目的使用者 | 建議當客戶購買所指定項目的同時，最常購買的項目。 |
