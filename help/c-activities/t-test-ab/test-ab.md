@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。
 title: A/B 測試
-feature: null
+feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 99%
