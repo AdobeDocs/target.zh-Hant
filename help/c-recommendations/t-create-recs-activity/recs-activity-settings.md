@@ -2,11 +2,11 @@
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Adobe Target 中有數個設定可用來說明和控制建議活動。
 title: Adobe Target 中的 Recommendations 活動設定
-feature: null
+feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 98%
