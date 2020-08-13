@@ -2,11 +2,11 @@
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: 關於訪客如何可以隨著其設定檔的演進，在體驗鎖定目標 (XT) 活動中的體驗之間切換的資訊。
 title: 切換體驗鎖定目標中的體驗
-feature: null
+feature: xt
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
