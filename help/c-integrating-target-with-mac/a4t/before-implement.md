@@ -2,10 +2,10 @@
 keywords: Recommendations
 description: 啟用 Analytics 做為 Target (A4T) 的報表來源時，會在您的資料收集程序中發生數個變更。
 title: 在您實作Adobe Analytics做為Adobe Target(A4T)的報表來源之前
-feature: null
+feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 57%
