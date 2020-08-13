@@ -2,11 +2,11 @@
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: 建立資料夾以在選件資料庫中保存項目。
 title: 建立選件資料夾
-feature: null
+feature: offers
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
