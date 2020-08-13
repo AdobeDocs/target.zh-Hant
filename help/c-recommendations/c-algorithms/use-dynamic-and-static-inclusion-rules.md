@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: 有關在Adobe Target Recommendations中建立標準和促銷包含規則，以及新增其他動態或靜態篩選規則以取得更佳結果的資訊。
 title: 在Adobe Target Recommendations中使用動態和靜態包含規則
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 75%
@@ -41,7 +41,7 @@ ht-degree: 75%
 |--- |--- |--- |
 | **動態篩選** | **實體屬性比對:**&#x200B;比較一批潛在的建議項目與使用者已有互動的特定項目，以動態篩選。<br>例如，僅建議符合目前項目品牌的項目。 | 等於<br>不等於<br>介於<br>包含<br>不包含<br>開頭為<br>結尾為<br>值存在<br>值不存在<br>大於或等於<br>小於或等於 |
 |  | **設定檔屬性比對:**&#x200B;比較項目 (實體) 與使用者設定檔中的值，以動態篩選。<br>例如，僅建議符合訪客最喜愛品牌的項目。 | 等於<br>不等於<br>包含<br>不包含<br>開頭為<br>結尾為<br>大於或等於<br>小於或等於<br>介於 |
-|  | **參數比對:**&#x200B;比較項目 (實體) 與請求 (API 或 mbox) 中的值，以動態篩選。<br>例如，僅建議符合「產業」頁面參數的內容。<br>**重要:**如果活動是在 2016 年 10 月 31 日之前建立，假如使用「參數比對」篩選，則傳送會失敗。若想暫時解決此問題，請:<ul><li>建立新活動，並在其中新增條件。</li><li>使用不包含「參數比對」篩選的條件。</li><li>從條件中移除「參數比對」篩選。</li></ul> | 等於<br>不等於<br>包含<br>不包含<br>開頭為<br>結尾為<br>大於或等於<br>小於或等於<br>介於 |
+|  | **參數比對:**&#x200B;比較項目 (實體) 與請求 (API 或 mbox) 中的值，以動態篩選。<br>例如，僅建議符合「產業」頁面參數的內容。<br>**重要:** 如果活動是在 2016 年 10 月 31 日之前建立，假如使用「參數比對」篩選，則傳送會失敗。若想暫時解決此問題，請:<ul><li>建立新活動，並在其中新增條件。</li><li>使用不包含「參數比對」篩選的條件。</li><li>從條件中移除「參數比對」篩選。</li></ul> | 等於<br>不等於<br>包含<br>不包含<br>開頭為<br>結尾為<br>大於或等於<br>小於或等於<br>介於 |
 | **按值篩選** | **靜態篩選:**&#x200B;手動輸入一或多個要篩選的靜態值。<br>例如，僅建議 MPAA 評等為 &quot;G&quot; 或 &quot;PG&quot; 的內容。 | 等於<br>不等於<br>包含<br>不包含<br>開頭為<br>結尾為<br>值存在<br>值不存在<br>大於或等於<br>小於或等於 |
 
 >[!NOTE]
