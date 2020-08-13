@@ -2,12 +2,12 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: 如果您的頁面未顯示預期的內容，您可以執行一些步驟，以在Adobe Target中除錯內容傳送。
 title: 疑難排解Adobe Target中的內容傳送
-feature: null
+feature: activities
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
