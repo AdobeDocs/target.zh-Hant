@@ -2,10 +2,10 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: 使用摘要來將實體匯入 Adobe Recommendations。實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
 title: 動態消息
-feature: null
+feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 93%
@@ -288,7 +288,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
 | 正在匯入項目 | Target 正在從摘要檔案匯入項目。 |
-| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>*備註 1:*如果項目屬性的變更導致建議排除了該項目，則會立即顯示排除。如果項目是新增的項目，或屬性變更導致建議*&#x200B;不再&#x200B;*排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。<br>*備註 2:* 顯示此狀態時，目錄搜尋使用者介面可能尚未顯示更新。目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。 |
+| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>*備註 1:* 如果項目屬性的變更導致建議排除了該項目，則會立即顯示排除。如果項目是新增的項目，或屬性變更導致建議&#x200B;*不再*&#x200B;排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。<br>*備註 2:* 顯示此狀態時，目錄搜尋使用者介面可能尚未顯示更新。目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。 |
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
