@@ -2,11 +2,11 @@
 keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
 title: 使用 Adobe Experience Cloud Debugger 除錯 at.js
-feature: null
+feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 82%
