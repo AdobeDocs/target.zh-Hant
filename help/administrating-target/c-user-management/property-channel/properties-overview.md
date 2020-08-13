@@ -2,11 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: 關於新增使用者至您的 Adobe Target 實作; 建立工作區、使用者群組和屬性; 更新您的 Target 實作以包括 at_property 參數; 以及指定角色和權限所需工作的資訊。
 title: 設定企業權限
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
