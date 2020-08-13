@@ -2,12 +2,12 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe "Analytics for Target" (A4T) 是交叉解決方案的整合，可讓您根據 Analytics 轉換量度和對象區段來建立活動。這個整合可讓您使用 Analytics 報表來檢查您的結果。如果您使用 Analytics 做為活動的報表來源，則該活動的所有報表和區段都會根據 Analytics 資料收集。
 title: Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
-feature: null
+feature: a4t general
 subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 46%
