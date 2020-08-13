@@ -2,11 +2,11 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: 您可以在 Adobe Target 中建立受眾，鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 title: Adobe Target 受眾中的瀏覽器選項
-feature: null
+feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
