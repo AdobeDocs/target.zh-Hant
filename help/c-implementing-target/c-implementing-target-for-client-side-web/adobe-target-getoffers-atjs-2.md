@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
 title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers() 函數的資訊。
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
@@ -40,7 +40,7 @@ ht-degree: 95%
 | request > id > thirdPartyId | 無 | 大小上限 = 128 |  |  |
 | Request > experienceCloud | 無 |  |  |
 | Request > experienceCloud > analytics | 無 |  | Adobe Analytics 整合 |
-| Request > experienceCloud > analytics > logging | 無 | 必須在頁面上實作下列項目:<ul><li>訪客 ID 服務</li><li>Appmeasurement.js</li></ul> | 支援以下的值:<br>**client_side **: 指定後，會向呼叫者傳回分析裝載，呼叫者應將其用來透過資料插入 API 傳送給 Adobe Analytics。<br>**server_side**: 這是預設值，其中 Target 和 Analytics 後端會使用 SDID 將多個呼叫拼接在一起以用於報表用途。 |
+| Request > experienceCloud > analytics > logging | 無 | 必須在頁面上實作下列項目:<ul><li>訪客 ID 服務</li><li>Appmeasurement.js</li></ul> | 支援以下的值:<br>**client_side**: 指定後，會向呼叫者傳回分析裝載，呼叫者應將其用來透過資料插入 API 傳送給 Adobe Analytics。<br>**server_side**: 這是預設值，其中 Target 和 Analytics 後端會使用 SDID 將多個呼叫拼接在一起以用於報表用途。 |
 | request > prefetch | 無 |  |  |
 | request > prefetch > views | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭<br>不允許的名稱: 「orderId」、「orderTotal」、「productPurchasedId」 | 傳遞參數以用於擷取使用中活動內的相關檢視。 |
 | request > prefetch > views > profileParameters | 無 | 計數上限 50<br>名稱不得空白<br>名稱長度 `<=` 128<br>值長度 `<=` 5000<br>名稱不得以「profile」開頭 | 傳入設定檔參數以用於擷取使用中活動內的相關檢視。 |
