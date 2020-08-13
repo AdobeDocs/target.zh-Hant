@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
 title: 在 Adobe Target 中建立受眾
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 | 對象類型 | 詳細資料 |
 |--- |--- |
 | 行動裝置對象 | 行銷名稱、廠商和型號<br>`matches | does not match` 運算子會出現，而非 `equals | does not equal`<br>![匯入的行動裝置對象](/help/c-target/c-audiences/assets/imported_mobile_audience.png)。 |
-| 訪客-行為對象 | **user.categoryAffinity:** `categoryAffinity` 搭配 `FAVORITE` 參數。<br>![匯入的類別相關性](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**監控:**監控服務等於 true。<br>**無監控服務:**&#x200B;監控服務等於 false。<br>![匯入的監控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 訪客-行為對象 | **user.categoryAffinity:** `categoryAffinity` 搭配 `FAVORITE` 參數。<br>![匯入的類別相關性&#x200B;](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**監控:** 監控服務等於 true。<br>**無監控服務:**&#x200B;監控服務等於 false。<br>![匯入的監控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | 使用 NOT 運算子的對象 | **單一規則:** Target 會以 `[All Visitor AND [NOT [rule]` 格式顯示對象。單一 NOT 規則搭配 AND 與 `AllVisitor` 來顯示對象。<br>![匯入的 Not 對象](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 使用匯入的對象時，請記住下列重點:
