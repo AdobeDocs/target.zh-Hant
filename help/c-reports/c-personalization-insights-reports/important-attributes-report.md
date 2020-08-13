@@ -2,10 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: 有關「重要屬性」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
 title: 「重要屬性」報表
-feature: null
+feature: reports
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 94%
