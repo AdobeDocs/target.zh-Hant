@@ -2,12 +2,12 @@
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: 關於您可以用來將資料放入 Target 的各種方法的資訊，包括頁面參數、頁面內設定檔屬性、指令碼設定檔屬性、資料提供者、大量設定檔更新 API、單一設定檔更新 AP 和客戶屬性。
 title: 將資料傳入 Target 的方法
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 96%
