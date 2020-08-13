@@ -2,10 +2,10 @@
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: 此版本 Adobe Target 已知問題的相關資訊，也包括已解決問題的相關資訊。
 title: Adobe Target 的已知問題和已解決的問題
-feature: null
+feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 88%
