@@ -2,12 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: 不使用標籤管理程式 (Adobe Launch 或動態標籤管理) 實作 Adobe Target 的相關資訊。
 title: 不使用標籤管理程式實作 Target
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -58,8 +58,8 @@ ht-degree: 66%
 
 啟用頁面載入(自動建立全域mbox|選擇是否將全域mbox呼叫內嵌在at.js檔案中，以便在每次頁面載入時自動觸發。|
 |全域mbox|選取全域mbox的名稱。 依預設，此名稱為 target-global-mbox。<br>對於 at.js，mbox 名稱中可以使用特殊字元 (包括 &amp;)。|
-|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. 在訪客工作階段期間會繼續嘗試其他呼叫。預設值為 5 秒。<br>at.js 程式庫會使用 `XMLHttpRequest` 中的逾時設定。逾時是在觸發請求時開始計時，而於 [!DNL Target] 從伺服器收到回應時停止。如需詳細資訊，請參閱 Mozilla 開發人員網路上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在收到回應之前就發生指定的逾時，則會顯示預設內容，而訪客可能算為活動的參與者，因為所有資料收集都發生在 [!DNL Target] 邊緣。如果請求到達 [!DNL Target] 邊緣，訪客即納入計算。<br>設定逾時設定時，請考量下列事項:<ul><li>如果值太低，即使訪客應該算為活動的參與者，使用者還是可能幾乎都看到預設內容。</li><li>如果值太高，而如果您長時間使用本文隱藏，訪客可能會在網頁上看到空白區域或空白頁面。</li></ul>若要充分瞭解 mbox 回應時間，請在瀏覽器的開發人員工具中查看「網路」標籤。您也可以使用第三方 Web 效能監控工具，例如 Catchpoint。<br>**注意&#x200B;**:[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)設定可確保[!DNL Target]不會為了訪客 API 回應而等待太久。此設定和這裡說明的 at.js 逾時設定不影響彼此。|
-|描述檔存留期|此設定會決定訪客描述檔的儲存時間。 依預設，訪客設定檔會儲存兩週。最多可增加至 90 天。<br>若要變更描述檔存留期設定，請連絡[Client Care](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。|
+|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. 在訪客工作階段期間會繼續嘗試其他呼叫。預設值為 5 秒。<br>at.js 程式庫會使用 `XMLHttpRequest` 中的逾時設定。逾時是在觸發請求時開始計時，而於 [!DNL Target] 從伺服器收到回應時停止。如需詳細資訊，請參閱 Mozilla 開發人員網路上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在收到回應之前就發生指定的逾時，則會顯示預設內容，而訪客可能算為活動的參與者，因為所有資料收集都發生在 [!DNL Target] 邊緣。如果請求到達 [!DNL Target] 邊緣，訪客即納入計算。<br>設定逾時設定時，請考量下列事項:<ul><li>如果值太低，即使訪客應該算為活動的參與者，使用者還是可能幾乎都看到預設內容。</li><li>如果值太高，而如果您長時間使用本文隱藏，訪客可能會在網頁上看到空白區域或空白頁面。</li></ul>若要充分瞭解 mbox 回應時間，請在瀏覽器的開發人員工具中查看「網路」標籤。您也可以使用第三方 Web 效能監控工具，例如 Catchpoint。<br>**注意**: [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 設定可確保 [!DNL Target] 不會為了訪客 API 回應而等待太久。此設定和這裡說明的 at.js 逾時設定不影響彼此。|
+|描述檔存留期|此設定會決定訪客描述檔的儲存時間。 依預設，訪客設定檔會儲存兩週。最多可增加至 90 天。<br>若要變更描述檔存留期設定，請連絡 [Client Care](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。|
 
 ### 一種主要實現方法
 
