@@ -2,12 +2,12 @@
 keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: 使用「重新導向程式」的方式和您在測試中使用 mbox 類似。
 title: 使用重新導向程式
-feature: null
+feature: email implementation
 subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
