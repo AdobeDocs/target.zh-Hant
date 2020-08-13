@@ -2,11 +2,11 @@
 keywords: target user interface;user interface;ui
 description: 瞭解Adobe Target使用者介面
 title: 瞭解Target UI
-feature: null
+feature: intro
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -70,7 +70,7 @@ An *organization* is the entity that enables an administrator to configure group
 
 ## 對象
 
-按一下「 **[!UICONTROL 觀眾]** 」標籤以顯示「觀 [!UICONTROL 眾] 」清單，您可在此清單中建立新觀眾並管理現有觀眾。
+按一下「 **[!UICONTROL 觀眾]** 」標籤以顯示「觀 [!UICONTROL 眾] 」清單，您可在此建立新觀眾並管理現有觀眾。
 
 ![對象清單](/help/c-intro/assets/audience-list.png)
 
