@@ -2,11 +2,11 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: 體驗預覽URL可針對Target自動個人化活動產生，以便在活動上線以供預覽和QA之用前，直接在您的網站上查看體驗內容。 體驗預覽URL會略過定位，強制檢視特定體驗。
 title: 使用體驗預覽URL預覽自動個人化活動
-feature: null
+feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
