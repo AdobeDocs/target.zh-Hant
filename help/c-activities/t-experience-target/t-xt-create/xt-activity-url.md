@@ -2,10 +2,10 @@
 keywords: Targeting
 description: 活動 URL 會決定體驗鎖定目標活動中使用的頁面，以及設計活動時 Adobe Target 可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
 title: 活動 URL
-feature: null
+feature: xt
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
