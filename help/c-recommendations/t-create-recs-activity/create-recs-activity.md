@@ -2,10 +2,10 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 title: 建立 Recommendations 活動
-feature: null
+feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 94%
