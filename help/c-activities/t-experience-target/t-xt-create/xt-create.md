@@ -1,12 +1,12 @@
 ---
 description: 使用可視化體驗撰寫器在啟用 Target 的頁面上建立體驗鎖定目標 (XT) 活動，以及在 Adobe Target 內修改頁面的部分。
 title: 建立體驗鎖定目標活動
-feature: null
+feature: xt
 subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
