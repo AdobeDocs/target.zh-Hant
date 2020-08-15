@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1894'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8月14日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增Recommendations活動中有關QA的已知問題。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已新增文字，指出如果您正在傳 `serverState` 回的 `<script>` 內容中使用和使用標籤，請確定您的HTML內容是 `<\/script>` 否使用 `</script>`。 |
 | 8月12日 | [瞭解Target UI](/help/c-intro/understand-the-target-ui.md) | 新主題。 |
 |  | [Adobe Target API總覽](/help/api/api-overview.md) | 新主題。 |
 | 8月10日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增文字，指出使用CNAME時Cookie標題的大小會增加。 |
