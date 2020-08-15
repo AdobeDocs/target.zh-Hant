@@ -5,9 +5,9 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 88%
 ### 活動 QA 預覽連結 {#preview}
 
 如果帳戶中有太多已儲存的活動，已儲存活動的[活動 QA 預覽](/help/c-activities/c-activity-qa/activity-qa.md)連結可能會無法載入。重試預覽連結應可解決此問題。為避免繼續發生此問題，請封存不再需要使用的已儲存活動。(TNT-32697)
+
+### Recommendations活動的QA模式
+
+如果活動中使用的標準是項目型或類別型型，則已知問題會防止預覽。 (TNT-37455)
 
 ### 重新導向選件 {#redirect}
 
