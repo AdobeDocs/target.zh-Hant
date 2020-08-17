@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
 workflow-type: tm+mt
-source-wordcount: '30025'
+source-wordcount: '29471'
 ht-degree: 89%
 
 ---
@@ -1457,13 +1457,6 @@ target/r_release-notes-2018.xml
       <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>進行變更以確保點擊追蹤不會干預可見性屬性。點擊追蹤元素會以 <span class="codeph">at-element-click-tracking</span> CSS 類別標記，而非 <span class="codeph">at-element-marker</span>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 18 日</b> </p> <p> <span class="filepath">mbox.js</span> 版本 63 現已可用。如需詳細資訊，請參閱<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">下載 mbox.js</a>。 </p> <p><span class="filepath">mbox.js</span> 63 版中包括下列增強功能和修正: </p> <p> 
-     <ul id="ul_F876FABA804A459D84387102DC38B7DC"> 
-      <li id="li_E840AFDFAD394F5E9CDF52FABCA27EF7">修正使用 <span class="codeph">mboxDefine()</span> 和 <span class="codeph">mboxUpdate()</span> 產生 SDID 時的問題。這只會影響頁面上有訪客 API 的用戶端。 </li> 
-     </ul> </p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -1581,41 +1574,6 @@ target/r_release-notes-2018.xml
    `marketingCloudMetadata(remoteModifiedBy)`
 
    此匯入工作將在活動頁面開啟時執行，最多延遲十分鐘。(KB-1526)
-
-### Target 平台變更 (2017 年 7 月 18 日) {#section_08A2B80060FE4833B1BDD12D1AF5E3D6}
-
-<table id="table_17607030DA7948819F73FA9F2B22AB5B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 變更 </th> 
-   <th colname="col2" class="entry"> 詳細資料 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 18 日</b> </p> <p> <span class="filepath">mbox.js</span> 版本 63 現已可用。如需詳細資訊，請參閱<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">下載 mbox.js</a>。 </p> <p><span class="filepath">mbox.js</span> 63 版中包括下列增強功能和修正: </p> <p> 
-     <ul id="ul_6C88DB6332A94858B278F7F846E2F8EB"> 
-      <li id="li_597D15CAD9DA44008FEC01E6BB3CB9A7">修正使用 <span class="codeph">mboxDefine()</span> 和 <span class="codeph">mboxUpdate()</span> 產生 SDID 時的問題。這只會影響頁面上有訪客 API 的用戶端。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 7 日</b> </p> <p> <span class="filepath">at.js</span> 1.0 版現已可用。如需詳細資訊，請參閱<a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">下載 at.js</a>。 </p> <p><span class="filepath">at.js</span> 版本 1.0 中包括下列增強功能和修正: </p> <p> 
-     <ul id="ul_4407D3923CE34CD8AD7120A2580A34DF"> 
-      <li id="li_34C8D0572A0340DF99294DD33E352D2C"> <p>支援非同步載入 at.js，可讓頁面載入更快速。 </p> </li> 
-      <li id="li_BC944624B3104418854140484E682D69"> <p>支援在非同步載入 at.js 時預先隱藏頁面內容。 </p> </li> 
-      <li id="li_F9D0AD095A2A425CB78772DDE8FCCF97"> <p>停用內容傳遞時有更好的錯誤訊息。 </p> </li> 
-      <li id="li_4B32468665A34FC0AF66C1CD15DE7AFC"> <p>傳遞多個活動時的效能改善。 </p> </li> 
-      <li id="li_48EAD25A4077411E954CCCDB95058924"> <p>支援 YUI Compressor。 </p> </li> 
-      <li id="li_3598B4223C0A478D956A7EC618BFBCD6"> <p>在活動傳遞期間的自訂事件 Bug/錯誤報表。 </p> </li> 
-      <li id="li_28A5DDF1A9D64D66BF8BD0E89E5BD69B"> <p>修正 Microsoft Internet Explorer 11 中的效能問題。 </p> </li> 
-      <li id="li_BB1C11A76FB14341AB7699F2C7753377"> <p><span class="codeph">getOffer()</span> 函數在部分網站上發生錯誤的修正。 </p> </li> 
-      <li id="li_4C7F3DE9A0A346C38E9EDCE21C83843D"> <p>以非同步方式載入 Target 資料庫。 </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Target Standard/Premium 17.6.2 (2017 年 6 月 22 日) {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -1844,14 +1802,6 @@ target/r_release-notes-2018.xml
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>已新增 <span class="codeph">secureOnly</span> 設定，指出 <span class="codeph">at.js</span> 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。這是進階的設定，預設值為 False 並且可透過 <span class="codeph">targetGlobalSettings</span> 覆寫。(TNT-26183) </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="wintitle">「舊版瀏覽器支援」</span>選項可在 <span class="codeph">at.js</span> 版本 0.9.3 和更早版本中取得。此選項已在 <span class="codeph">at.js</span> 版本 0.9.4 中移除。 </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 設定</a>。 </p> </li> 
      </ul> </p> <p>如需每個 <span class="codeph">at.js</span> 版本中變更的詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本詳細資料</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mbox.js</span> 版本 62 </p> </td> 
-   <td colname="col2"> <p>2017 年 1 月 18 日 </p> <p> <span class="codeph"> mbox.js</span> 版本 62 包括下列增強功能和修正: </p> <p> 
-     <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
-      <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>修正在 Google Chrome 瀏覽器中檢視時，重新導向活動中的閃爍問題。(TNT-24928) </p> </li> 
-      <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p>已新增 <span class="codeph">secureOnly</span> 設定，指出 <span class="codeph">mbox.js</span> 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。這是進階的設定，預設值為 False。(TNT-26183) </p> <p>如需詳細資訊，請參閱<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local">設定 mbox.js</a>。 </p> </li> 
-     </ul> </p> <p>如需每個 <span class="codeph">mbox.js</span> 版本中變更的詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">mbox.js 版本詳細資料</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2111,27 +2061,6 @@ target/r_release-notes-2018.xml
 
 * 如果是在可視化體驗撰寫器中使用[!UICONTROL 使用 JavaScript 呈現]選項搭配自訂代碼，則目前不支援該選項。
 
-### Target 平台變更 (2016 年 8 月) {#section_8D8BA8C628E747338C84564EC34CE0FD}
-
-<table id="table_0035B0D7ECD444C68B1B6CB0F150C55E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 變更 </th> 
-   <th colname="col2" class="entry"> 詳細資料 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js 61 版</span> </p> </td> 
-   <td colname="col2"> <p>2016 年 8 月 23 日 </p> <p> <span class="filepath"> mbox.js</span> 版本 61 在 8 月版本中包括下列: </p> <p> 
-     <ul id="ul_DC4E5AB3B48A4D2D9B08B6CDA5DFE8FB"> 
-      <li id="li_B52F3AE60D324C2A8FAD03C1495F26D7"> <p> <span class="filepath">mbox.js</span> 版本 61 現在是 <span class="keyword">Target Standard/Premium</span> 和 <span class="keyword">Target Classic</span> 使用者介面中的預設下載。 </p> </li> 
-      <li id="li_41C2D2E552BF4F8E8A4375AF368F7728"> <p>已新增 <span class="codeph">optoutEnabled</span> 設定以支援未來的 Adobe Experience Cloud 選擇退出功能。預設值為 false。如果此屬性已啟用，所有要求會非同步對 <span class="filepath">/ajax</span> 端點執行，就如同 60 版。 </p> </li> 
-     </ul> </p> <p>若要進一步瞭解 <span class="filepath"> mbox.js </span> 61 版中的所有變更，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">mbox.js 版本詳細資料</a>。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Adobe Target Standard/Premium 16.8.1 (2016 年 8 月 23 日) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard/Premium 16.8.1 (2016 年 8 月 23 日) 版本包括下列功能和增強功能:
@@ -2199,10 +2128,6 @@ Adobe Target Standard/Premium 16.8.1 (2016 年 8 月 23 日) 版本包括下列�
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js</span> 0.9.1 版 </p> </td> 
    <td colname="col2"> <p>2016 年 7 月 14 日 </p> <p> <span class="filepath">at.js</span> 0.9.1 版現已可用。 </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js 版本詳細資料</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js 61 版</span> </p> </td> 
-   <td colname="col2"> <p>2016 年 7 月 28 日 </p> <p> <span class="codeph">mbox.js</span> 版本 61 現已可供下載。版本 61 目前不是預設的下載版本。 </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">mbox.js 版本詳細資料</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2398,16 +2323,6 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
 * 非同步實作表示舊式整合 (如 Test&amp;Target 至 SiteCatalyst 外掛程式) 可能無法運作。
 * 不支援參考 mbox.js 物件和方法的 Target 外掛程式。
 * 所有對 Target 的呼叫都是透過 XMLHTTPRequest，而內容是透過 JSON 傳回。
-
-### Target 平台變更 {#section_8295A808A4CE405C9DA2893E7935238E}
-
-* [Mbox.js 版本 60](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#section_3BDAB885FA13444A8D35940A4BFF5825) 現在是預設的下載版本。
-* 不再主動測試 Mbox.js 50 版之前的舊版。如果您尚未更新實作，請務必在所有 Target 內容傳送和報告收集上執行額外 QA。
-* 已從 Target 移除 Flash 促銷活動和其他 Flash 相關項目。
-* Target 介面不再支援 Internet Explorer 10。
-* Internet Explorer 8、9 和 10 的內容傳送支援預計於即將發行版本中結束。
-
-   隨著 Microsoft 結束對這些瀏覽器的主動支援，未來版本也將停止對這些瀏覽器進行主動測試。Target 仍會繼續傳送內容至這些瀏覽器，但您應測試報表的內容傳送和資料收集。
 
 ### Adobe Target Standard/Premium 16.4.1 修正 (2016 年 5 月 5 日) {#section_70552F61E83140C7B4D2A245198B630E}
 
@@ -3175,9 +3090,6 @@ target/r_release-notes-2015.xml
 **已知問題**
 
 * 當您使用 Analytics 做為 Target 的報表來源時，Target Standard/Premium 中多變數測試的 Target 型轉換事件不會列入報告。此問題預期近期會修正。
-* mbox.js 版本 56 已移動「額外 JavaScript」區段，因此會在全域 mbox 之前執行。
-
-   v56+ 中的所有設定都使用命名空間。如果在「額外 JavaScript」中有宣告函數，前面都必須加上 window。請參閱 [mbox.js 變更記錄](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html)。
 
 ### Adobe Target 15.2.1 (2015 年 2 月 19 日) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
