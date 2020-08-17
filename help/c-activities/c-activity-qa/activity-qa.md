@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 79%
 ## 考量事項 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * 自動個人化 (AP) 除外，所有活動類型的[!UICONTROL 「概覽」]頁面上皆會顯示[!UICONTROL 「活動 QA」]連結。您可以使用[預覽連結](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)以顯示 AP 活動。
+* 如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結應可解決此問題。為避免繼續發生此問題，請封存不再需要使用的已儲存活動。
 * 以 Analytics 作為報表來源 (A4T) 的活動皆有活動 QA URL。使用活動 QA 執行 QA 時所產生的點閱，將會流向活動資料所流向的相同個報表套裝 (即使活動上線後)。
 * 針對已封存的活動或超過結束日期的活動，活動 QA 不會顯示內容。若停用已結束的活動，您必須再次儲存活動以使活動 QA 運作。
 * 匯入到 Target Standard/Premium 的活動 (例如，從 Target Classic) 不支援 QA URL。
