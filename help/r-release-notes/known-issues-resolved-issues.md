@@ -5,9 +5,9 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ ht-degree: 88%
 
 ### 頁面傳送 {#page-delivery}
 
-如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這僅是格式上的差異，不會影響對象定義建立和選件傳送等作業。(TGT-35916)
-
-### 活動 QA 預覽連結 {#preview}
-
-如果帳戶中有太多已儲存的活動，已儲存活動的[活動 QA 預覽](/help/c-activities/c-activity-qa/activity-qa.md)連結可能會無法載入。重試預覽連結應可解決此問題。為避免繼續發生此問題，請封存不再需要使用的已儲存活動。(TNT-32697)
+如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這僅是格式上的差異，不會影響對象定義建立和選件傳送等作業。(TGT-35920)
 
 ### Recommendations活動的QA模式
 
@@ -43,10 +39,6 @@ ht-degree: 88%
 
 * 在某些情況下，當在以 Analytics for Target (A4T) 設定的活動中使用重新導向選件時，部分客戶已回報流量分布的較高變異程度。Adobe 工程師目前正在解決此問題。
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
-
-### 使用自訂體驗作為控制時，自動鎖定目標活動的圖表報表無法呈現
-
-如果所有體驗中都沒有資料 (0 次造訪)，自動鎖定目標活動的圖表報表無法在「差別」模式 (平均提升度和每日提升度) 中呈現。如果控制體驗設為自訂，在活動初期期間可能會發生這種情況。此功能在其他模式 (執行中的平均值控制和已鎖定目標、每日控制和已鎖定目標，以及瀏覽次數) 中可正常運作。只要有一些資料 (非零次造訪)，報表就會如預期般呈現。
 
 ### 在 VEC 內取消載入頁面 {#cancel}
 
@@ -107,12 +99,6 @@ at.js 的已知問題如下：
 
    **因應措施**：將 at.js 的「x-only」選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
 
-### mbox.js
-
-mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache。at.js 資料庫&#x200B;*不*&#x200B;支援這些語言。
-
-**注意**：將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
-
 ### 實作：全域 Mbox 自動建立
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -148,6 +134,18 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 ## 已解決的問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 由於上述的已知問題已解決，我們會將其移至以下小節，並在必要時新增其他備註。
+
+### 使用自訂體驗作為控制時，自動鎖定目標活動的圖表報表無法呈現
+
+如果所有體驗中都沒有資料 (0 次造訪)，自動鎖定目標活動的圖表報表無法在「差別」模式 (平均提升度和每日提升度) 中呈現。如果控制體驗設為自訂，在活動初期期間可能會發生這種情況。此功能在其他模式 (執行中的平均值控制和已鎖定目標、每日控制和已鎖定目標，以及瀏覽次數) 中可正常運作。只要有一些資料 (非零次造訪)，報表就會如預期般呈現。
+
+Target 19.7.1 版本已修正此問題。
+
+### mbox.js
+
+mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache。at.js 資料庫&#x200B;*不*&#x200B;支援這些語言。
+
+**注意**：將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
 ### 報告與極端訂單
 
