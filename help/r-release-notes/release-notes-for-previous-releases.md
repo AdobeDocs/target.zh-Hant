@@ -1,14 +1,14 @@
 ---
 keywords: Release notes
-description: 舊版 Target 的版本說明，包括 Target Standard/Premium、Target 平台，以及 Target Javascript 程式庫 (at.js 和 mbox.js) 的版本說明。版本說明以發行年月由新到舊排序。
+description: 舊版Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。 版本說明以發行年月由新到舊排序。
 title: 舊版版本說明
 feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '29471'
+source-wordcount: '29011'
 ht-degree: 89%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 # 舊版版本說明{#release-notes-for-previous-releases}
 
-舊版 Target 的版本說明，包括 Target Standard/Premium、Target 平台，以及 Target Javascript 程式庫 (at.js 和 mbox.js) 的版本說明。版本說明以發行年月由新到舊排序。
+舊版Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。 版本說明以發行年月由新到舊排序。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 89%
 
 ### 描述檔批次狀態API v2變更（2020年5月14日）
 
-在5月20日發行中，描述檔批次狀態將只會傳回行層級的失敗資料（不會傳回成功資料）。 API將會傳回失敗的描述檔ID。
+在5月20日發行中，描述檔批次狀態將只會傳回行層級失敗資料（不會傳回成功資料）。 API將會傳回失敗的描述檔ID。
 
 舊版和新版API回應如下：
 
@@ -142,10 +142,6 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
-
->[!IMPORTANT]
->
->請參閱上述有關mbox.js取代的資訊。
 
 此發行包含下列增強功能、修正和變更：
 
@@ -1185,11 +1181,7 @@ target/r_release-notes-2018.xml
       <li id="li_97BC1B7295364ACDAD3FB07005ED592F"> <p>已修正當 <span class="codeph">targetPageParams()</span> 傳回空白字串時，造成 <span class="codeph">getOffer() params</span> 失敗的問題。(TNT-28359) </p> </li> 
       <li id="li_B542D4A4E37141BA8BE79D416E1B58DB"> <p>已修正使用僅 x 產生工作階段 ID 的問題。(TNT-28361) </p> </li> 
      </ul> </p> <p>at.js 的預設逾時已從 15 秒變更為 5 秒。 </p> <p>如果您目前的設定為 15 秒，它將會更新為新的預設值 5 秒。如果您先前將它變更為不同的值，則您的設定將不受影響。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>mbox.js 的預設逾時已從 15 秒變更為 5 秒。 </p> <p>如果您目前的設定為 15 秒，它將會更新為新的預設值 5 秒。如果您先前將它變更為不同的值，則您的設定將不受影響。 </p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -1472,7 +1464,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>回應 Token </p> </td> 
-   <td colname="col2"> <p>回應 Token 可讓您在傳送活動的 Target 回應中 (即顯示 mbox) 自動輸出合格的變數 (例如，設定檔屬性)。回應 Token 可以用於偵錯用途或用於與第三方提供者 (例如 Clicktale) 整合。 </p> <p>回應 Token 類似於 <span class="keyword">Adobe Target Classic</span> 伺服器外掛程式，並提供這兩個解決方案之間的同等功能。 </p> <p> <p>注意: 回應 Token 附隨於 <span class="filepath">at.js</span> 1.1 或更新版本提供。回應 Token 不支援搭配 <span class="codeph">mbox.js</span> 使用。 </p> </p> <p>如需詳細資訊，請參閱<a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">回應 Token</a>。 </p> </td> 
+   <td colname="col2"> <p>回應 Token 可讓您在傳送活動的 Target 回應中 (即顯示 mbox) 自動輸出合格的變數 (例如，設定檔屬性)。回應 Token 可以用於偵錯用途或用於與第三方提供者 (例如 Clicktale) 整合。 </p> <p>回應 Token 類似於 <span class="keyword">Adobe Target Classic</span> 伺服器外掛程式，並提供這兩個解決方案之間的同等功能。 </p> <p> <p>Note:  Response tokens are available with <span class="filepath"> at.js </span> 1.1 or later.</span>. </p> </p> <p>如需詳細資訊，請參閱<a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">回應 Token</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1648,10 +1640,6 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-此 [!DNL Target] 版本包括針對客戶的下列增強功能和修正: (括號內的問題編號供 Adobe 內部使用):
-
-* 修正 [!DNL mbox.js] 的 XSS 安全性問題。此修正為伺服器端修正，不需要進行 [!DNL mbox.js] 更新。
-
 ### Target Standard/Premium 17.4.1 (2017 年 4 月 27 日) {#section_24E6889AF1E0405497F6F77A407A9A46}
 
 此版本包含下列功能和增強功能:
@@ -1768,7 +1756,7 @@ target/r_release-notes-2018.xml
 * [!UICONTROL 活動]頁面上的[!UICONTROL 建立活動]按鈕現在於清單中載入所有活動名稱之前已作用中。這項改善可讓使用者更快速建立新活動，特別是當帳戶有許多已設定的活動時。(TGT-21470)
 * 對增強體驗撰寫器 (EEC) 進行增強，以改善透過 Proxy 存取執行 HTTPS 的網站載入時間。Target 不再透過 Proxy 擷取靜態資源。(TGT-21793)
 * 在[!UICONTROL 「目標與設定」]頁面上進行效能改善，尤其是當活動定義了許多度量的載入時間時。(TGT-21654)
-* 在使用 [!UICONTROL Analytics for Target] (A4T) 報表的所有活動的[!UICONTROL 「目標與設定」]頁面上新增工具提示，通知使用者如果活動的頁面已載入 at.js (版本 0.9.1 或更新版本) 或 mbox.js (版本 61 或更新版本)，則不需要追蹤伺服器。(TGT-22607)
+* Added a tool tip on the [!UICONTROL Goals &amp; Settings] page of all activities using [!UICONTROL Analytics for Target] (A4T) reporting informing users that a tracking server is not required if the activity&#39;s pages have at.js (version 0.9.1 or later) loaded. (TGT-22607)
 * 度量名稱現在會顯示在[!UICONTROL 「目標與設定」]頁面上，使用者不需展開每個度量即可檢視整個度量名稱。此改善可讓使用者更快速且更有效率地編輯度量。(TGT-21276)
 * 您現在可以將 [!DNL Recommendations] 包含規則套用至自訂條件 (透過 CSV 上傳)，正如同任何其他條件。(TGT-21896)
 * 改善使用者介面和[!UICONTROL 「選件」]頁面的使用性，尤其是建立或管理資料夾和建立選件時。(TGT-22509 和 TGT-22187)
@@ -1798,7 +1786,7 @@ target/r_release-notes-2018.xml
    <td colname="col1"> <p> <span class="codeph"> at.js</span> 0.9.4 版 </p> </td> 
    <td colname="col2"> <p>2017 年 1 月 18 日 </p> <p> <span class="codeph"> at.js</span> 版本 0.9.4 包含下列變更: </p> <p> 
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
-      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox 名稱現在可以包含特殊字元，包括 &amp; 符號，以與使用 <span class="codeph">mbox.js</span> 的 mbox 名稱命名需求一致。(TNT-26144) </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 設定</a>。 </p> </li> 
+      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox名稱現在可以包含特殊字元，包括&amp;符號(&amp;)。 (TNT-26144) </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 設定</a>。 </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>已新增 <span class="codeph">secureOnly</span> 設定，指出 <span class="codeph">at.js</span> 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。這是進階的設定，預設值為 False 並且可透過 <span class="codeph">targetGlobalSettings</span> 覆寫。(TNT-26183) </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="wintitle">「舊版瀏覽器支援」</span>選項可在 <span class="codeph">at.js</span> 版本 0.9.3 和更早版本中取得。此選項已在 <span class="codeph">at.js</span> 版本 0.9.4 中移除。 </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 設定</a>。 </p> </li> 
      </ul> </p> <p>如需每個 <span class="codeph">at.js</span> 版本中變更的詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本詳細資料</a>。 </p> </td> 
@@ -2010,7 +1998,7 @@ target/r_release-notes-2018.xml
    <td colname="col1"> <p> <span class="codeph"> at.js</span> 0.9.2 版 </p> </td> 
    <td colname="col2"> <p>2016 年 9 月 21 日 </p> <p> <span class="codeph">at.js</span> 0.9.2 版現已可用。 </p> <p> 
      <ul id="ul_0778A9049C9D48A7B6CB4B79A95F0F4C"> 
-      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>已新增 <span class="codeph">optoutEnabled</span> 設定，以啟用或停用裝置圖表選擇退出。如果此設定設為 <span class="codeph">true</span>，並且訪客選擇退出追蹤，訪客的瀏覽器將不會進行任何 mbox 呼叫。裝置圖表目前處於 Beta 版。此設定預設會設為 <span class="codeph">false</span>，但如果您使用裝置圖表，則必須設為 <span class="codeph">true</span>。類似的選項屬於 <span class="codeph">mbox.js</span> v61。 </p> </li> 
+      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>已新增 <span class="codeph">optoutEnabled</span> 設定，以啟用或停用裝置圖表選擇退出。如果此設定設為 <span class="codeph">true</span>，並且訪客選擇退出追蹤，訪客的瀏覽器將不會進行任何 mbox 呼叫。裝置圖表目前處於 Beta 版。此設定預設會設為 <span class="codeph">false</span>，但如果您使用裝置圖表，則必須設為 <span class="codeph">true</span>。</p> </li> 
       <li id="li_663462C0680049F89CA8FE1853F31807"> <p>已針對通知機制新增 <span class="codeph">CustomEvent</span> 支援。之前，您無法透過標準 DOM API (例如 <span class="codeph">document.addEventListener()</span>) 來使用 <span class="codeph">at.js</span> 事件通知機制。現在您可以使用 <span class="codeph">document.addEventListener()</span> 來訂閱 <span class="codeph">at.js</span> 事件，例如要求事件和內容呈現事件。 </p> </li> 
       <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>已修正關於可視化體驗撰寫器 (VEC) 選件建立的問題。在此版本之前，Target 會隱藏選取器，並且只有在所有選取器都符合時才取消隱藏。在 <span class="codeph">at.js</span> 0.9.2 中，Target 會在選取器符合時便加以取消隱藏。 </p> </li> 
      </ul> </p> <p>如需詳細資訊，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js 版本詳細資料</a>。 </p> </td> 
@@ -2271,8 +2259,7 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
       <li id="li_19045C86E1524649B56F82416934EF13">使用內容資料庫 </li> 
       <li id="li_8E89F3691A6F4400A2DFDFE5186DFA83">使用設定檔指令碼 </li> 
       <li id="li_2EBB2B61BFA24F5FB858C0551AB20F70">設定帳戶偏好設定 </li> 
-      <li id="li_E1886818C7BF4F36B07EC293F1A45911">瞭解可視化體驗撰寫器模式 </li> 
-      <li id="li_F74D2BA5ACD04595B658955A489602E5">設定和實作 mbox.js </li> 
+      <li id="li_E1886818C7BF4F36B07EC293F1A45911">瞭解可視化體驗撰寫器模式 </li>  
       <li id="li_A87B876298344B2987BDC5FFD5580EC0">建立和管理 Target 使用者 </li> 
       <li id="li_F90E1083444E4DBAA8C406AC293C0FD6">設定成功度量 </li> 
      </ul> </p> </td> 
@@ -2306,12 +2293,6 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
 
 at.js 是新的 Target 實作程式庫，專為典型 Web 實作和單頁應用程式而設計。
 
-at.js 取代了 Adobe Target 實作的 mbox.js。
-
->[!NOTE]
->
->雖然 at.js 已取代 mbox.js，但我們仍支援 mbox.js。對於大多數人來說，at.js 的優點多於 mbox.js。因為您有時間可以測試 at.js，也能變更頁面上的實作。
-
 除了眾多優點以外，at.js 還能改進 Web 實作的頁面載入時間、改進安全性，以及為單頁應用程式提供更好的實作選項。
 
 at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
@@ -2321,7 +2302,6 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
 * Visual Experience Composer 重新導向無法運作。
 * 不支援 Internet Explorer 8 版之前的舊版。
 * 非同步實作表示舊式整合 (如 Test&amp;Target 至 SiteCatalyst 外掛程式) 可能無法運作。
-* 不支援參考 mbox.js 物件和方法的 Target 外掛程式。
 * 所有對 Target 的呼叫都是透過 XMLHTTPRequest，而內容是透過 JSON 傳回。
 
 ### Adobe Target Standard/Premium 16.4.1 修正 (2016 年 5 月 5 日) {#section_70552F61E83140C7B4D2A245198B630E}
@@ -2424,14 +2404,12 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>搶先看: </p> <p>新 Target 實作資料庫 at.js </p> </td> 
-   <td colname="col2"> <p> <p>附註: 此「搶先看」可透過 API 下載取得。在即將發行版本中將可透過 Target 介面取得。在此期間，您可下載 at.js 程式庫、在您的環境中進行測試，以及部署至 Target 生產實作。 </p> </p> <p> at.js 是新的 Target 實作程式庫，專為典型 Web 實作和單頁應用程式而設計。 </p> <p> at.js 取代了 Adobe Target 實作的 mbox.js。 </p> <p> <p>附註: 雖然 at.js 已取代 mbox.js，但我們仍會支援 mbox.js，不過對於大多數人來說，at.js 的優點多於 
-mbox.js。因為您有時間可以測試 at.js，也能變更頁面上的實作。 </p> </p> <p>除了眾多優點以外，at.js 還能改進 Web 實作的頁面載入時間、改進安全性，以及為單頁應用程式提供更好的實作選項。 </p> <p>at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。 </p> <p>實作 at.js 時，請注意以下事項: </p> <p> 
+   <td colname="col2"> <p> <p>附註: 此「搶先看」可透過 API 下載取得。在即將發行版本中將可透過 Target 介面取得。在此期間，您可下載 at.js 程式庫、在您的環境中進行測試，以及部署至 Target 生產實作。 </p> </p> <p> at.js 是新的 Target 實作程式庫，專為典型 Web 實作和單頁應用程式而設計。 </p></p> <p>除了眾多優點以外，at.js 還能改進 Web 實作的頁面載入時間、改進安全性，以及為單頁應用程式提供更好的實作選項。 </p> <p>at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。 </p> <p>實作 at.js 時，請注意以下事項: </p> <p> 
      <ul id="ul_8C50C669AA7B4464A5FDECFCFD8662ED"> 
       <li id="li_6065B208480D46178055B40A2654E0C6">Visual Experience Composer 重新導向無法運作。 </li> 
       <li id="li_A2FABD3C21994511A45DED84283E526E">不支援 Internet Explorer 8 版之前的舊版。 </li> 
-      <li id="li_04499B391F784B89B09A1D6329B1C790">非同步實作表示舊式整合 (如 Test&amp;Target 至 SiteCatalyst 外掛程式) 可能無法運作。 </li> 
-      <li id="li_D3C00EF206154038A54F53CA40B34DC3"> 不支援參考 mbox.js 物件和方法的 Target 外掛程式。 </li> 
-     </ul> </p> <p>如需相關文件，請參閱 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local">at.js 實作</a>。 </p> </td> 
+      <li id="li_04499B391F784B89B09A1D6329B1C790">非同步實作表示舊式整合 (如 Test&amp;Target 至 SiteCatalyst 外掛程式) 可能無法運作。 </li>  
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 相依成功量度 </td> 
@@ -2840,21 +2818,13 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>不使用表單型體驗撰寫器建立活動。而是透過表單來選擇位置和選件。以此方式，即可以在電子郵件、行動應用程式、資訊站和使用可視化體驗撰寫器無法運作的其他位置中傳送 Target Standard 活動。 </p> <p>請參閱<a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">表單式體驗撰寫器</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>新 mbox.js </p> </td> 
-   <td colname="col2"> <p> mbox.js 58 版可以確保在進行 Target 呼叫前，Experience Cloud 訪客 ID 服務已準備就緒。這可確保透過「個人資料和對象」核心服務共用的對象資料，可用於同一次點擊。不過，在 Target 等候服務傳回時，頁面可能發生忽隱忽現的問題，因此在升級前請務必執行完整 QA。此 mbox.js 版本僅可透過 API 取得。 </p></td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> 可設定的成功度量 </td> 
    <td colname="col2"> <p> 微調的選項可讓您判斷如何計算成功度量。選項包括計算每個曝光次數的量度或每位訪客一次，以及選擇是否在活動中保留使用者或是加以移除。這等同於 Target Classic 中所提供成功度量的「進階選項」。 </p> <p>請參閱<a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">成功量度</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 增強: 已移除體驗鎖定目標體驗限制。 </td> 
    <td colname="col2"> 先前體驗鎖定目標中十個體驗的限制已移除。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mbox.js 管理和編輯選項 </td> 
-   <td colname="col2"> <p>所有 mbox.js 組態和編輯現在可在 Target Standard 內取得。您不再需要在 Target Classic 中進行修改。 </p> <p>請參閱<a href="https://marketing-beta.adobe.com/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external">進階 mbox.js 設定</a>。 </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"> 3rdPartyId 資料的即時描述檔同步 </td> 
    <td colname="col2"> 網站訪客在作業中期登入並取得 3rdpartyId 時，所有繫結至 3rdPartyId 的先前載入描述檔屬性現在都立即可用。請參閱<a href="../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local">訪客資料</a>。 </td> 
@@ -2876,7 +2846,6 @@ target/r_release-notes-2015.xml
 
 * Analytics 作為 Target 的報表來源現在支援 XT 活動。
 * 修正造成在 Analytics 中顯示的控制體驗，在活動上線之後變更的問題。
-* 修正會在新佈建的使用者下載 mbox.js 時影響 target.js 啟用的問題。
 * 修正在建立對象/群體期間，URL 中 # 後面的值被視為路徑的一部分的問題。
 
 **已知問題**
@@ -3106,14 +3075,6 @@ target/r_release-notes-2015.xml
   <tr> 
    <td colname="col1"> <p class="premium">新活動類型: Recommendations </p> </td> 
    <td colname="col2"> <p>Recommendations 活動可依據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。 </p> <p>Recommendations 屬於 Target Premium 解決方案的一部分。Target Standard 若沒有 Target Premium 授權則不包含此功能。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> mbox.js 56 版 </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_4D4AEAC314964ECFA6C3A2669233060F"> 
-      <li id="li_F71CE15AD70E4A6E9216521E8AE2B102"> 對 Premium Recommendations 進行了變更，以支援在全域 mbox 中傳遞參數 </li> 
-      <li id="li_11F777D04DE04B848F681997C6458C8B"> 新增 5 秒逾時至 target.js 載入呼叫。在極少數情況下，檔案不會載入，頁面仍會轉譯但不顯示任何 Target Standard 活動。 </li> 
-     </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3495,17 +3456,9 @@ target/r_release-notes-2014.xml
 * 增強圖表，當測試上線少於兩天時，將預設為每小時的結果。
 * 修正造成複製非同步的活動失敗的問題。
 * 新增鍵盤輸入功能至位置的下拉式功能表。
-* 修正自 Target Standard 下載的 [!DNL mbox.js] 檔案名稱為 [!DNL mboxEditor.at.js] 的問題。
-
 * 改善刪除活動中使用的選件時顯示的錯誤訊息。
 
 ### Adobe Target Standard 1.1 (2013 年 10 月 18 日) {#section_79FA6A61D2284D41A34F00014A342F07}
-
-此版本包含下列功能:
-
-| 功能 | 說明 |
-|---|---|
-| 從 Target Standard 下載 [!DNL mbox.js] | The [!DNL mbox.js] file can now be downloaded directly from **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in the Target Standard interface. 以前此檔案必須從 Target Advanced 下載，或是由您的帳戶代表或顧問提供。 |
 
 此版本包含下列修正和增強功能:
 
