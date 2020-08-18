@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1814'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [使用重新導向程式](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
 |  | [將 Recommendations 與電子郵件整合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
 |  | [電子郵件: 實作 Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 已新增有關使用主機以避免「開啟重新導向弱點」的資訊。 |
-| 7 年 5 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 隨著mbox.js即將於2020年8月30日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 您可以透過連結觀看未來30天的網路研討會。 |
 |  | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新「考量事項」區段。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已更新「設定」下的「overrideMboxEdgeServer」列。 |
 | 6 年 5 月 | [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 已新增有關ITP 2.3的資訊。 |
@@ -115,7 +114,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 將Target Standard/Premium發行(20.4.1)的日期變更為5月6日。 |
 | 23 年 4 月 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主題。 |
 | 22 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增區段： *描述檔批次狀態API v2變更（2020年5月4日）。* |
-| 20 年 4 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 新增區段： *Adobe Target Skill Builder:開發人員聊天，將Adobe Target的mbox.js移轉至at.js。* |
 | 14 年 4 月 | [Allowlist Target邊緣主機](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 新主題。 |
 | 10 年 4 月 | [實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 新增區段：「實作最佳實務。」 |
 | 7 年 4 月 | [提升度和可信度 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新「為什麼我看不到計算量度的提升度和可信度？」的文字 |
@@ -135,7 +133,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 3月4日 | [設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新整個主題，並對「最佳實務」一節進行廣泛修訂。 |
 | 2月21日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關新Adobe Experience Cloud導覽的資訊。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 已新增下列設定的資訊： `pageLoadEnabled` 和 `viewsEnabled`。 |
-| 2 月 19 日 |  [版本說明](/help/r-release-notes/release-notes.md) | 已新增有關即將淘汰mbox.js程式庫的資訊。 |
 |  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 已新增 `mboxOverride.browserIp` at.js 1支援的附註。*x* 版。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已釐清文字，說明Target團隊支援哪些版本的at.js。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 20.2.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
