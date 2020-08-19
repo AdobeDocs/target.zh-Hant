@@ -7,25 +7,25 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 97%
+source-wordcount: '381'
+ht-degree: 73%
 
 ---
 
 
 # 傳遞參數至全域 mbox{#pass-parameters-to-a-global-mbox}
 
-JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將額外的鎖定目標/環境資訊傳遞至 Target 的任何案例中，需要此函數。
+JavaScript `targetPageParams` 函數用來將參數傳遞至全域 mbox。This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
-例如，在「建議」活動中，使用參數來代表目前正在檢視的產品或類別。
+For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
-在頁面上，用來呼叫 JavaScript 函式的程式碼必須出現在全域 mbox 之前，而不論全域 mbox 是從 mbox.js 中觸發，還是手動包含在頁面程式碼中。
+呼叫JavaScript函式的程式碼必須位於頁面上的全域mbox之前，不論全域mbox是作為at.js的一部分引發，還是手動包含在頁面程式碼中。
 
 >[!NOTE]
 >
->如果您要將參數新增至頁面上的所有 mbox 而非僅新增至非全域 mbox，請使用 [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 函數 (僅限 at.js)。
+>If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
 
 您可以透過下列任何方式，利用 `target-global-mbox` 函數將參數傳入 `targetPageParams()`:
 
