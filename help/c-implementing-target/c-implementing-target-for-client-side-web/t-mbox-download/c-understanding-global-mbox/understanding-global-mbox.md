@@ -7,19 +7,19 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 73%
+source-wordcount: '208'
+ht-degree: 86%
 
 ---
 
 
 # 瞭解全域 mbox{#understand-the-global-mbox}
 
-全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
+關於全域 mbox 的資訊，此名稱用來指稱在您的 [!DNL Adobe Target] 實作中的每個網頁頂端進行的單一伺服器呼叫。
 
-依預設，全域 mbox 的名稱為 [!DNL target-global-mbox]。必要的話，可以為您的帳戶來重新命名它。
+依預設，全域 mbox 的名稱為 `target-global-mbox`。必要的話，可以為您的帳戶來重新命名它。
 
 一般 mbox (非全域 mbox) 和全域 mbox 之間有幾項差異，包括:
 
