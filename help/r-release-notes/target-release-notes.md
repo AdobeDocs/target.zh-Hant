@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 19%
+source-wordcount: '685'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 8 月 5 日**
+**上次更新: 2020 年 8 月 20 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -41,7 +41,21 @@ ht-degree: 19%
 
 ## Target Standard/Premium 20.9.1 (2020 年 9 月 2 日)
 
-此版本中的新功能、增強功能和修正將在此更新。
+此發行包含下列增強功能、修正和變更：
+
+* 修正在切換組織後載入新的「管理」頁面時， **[!UICONTROL 顯示錯誤]** 的問題。 (TGT-37730)
+* 修正「管理>實作」頁面上顯示錯誤用戶端代碼 **[!UICONTROL 的顯示問題]** 。 (TGT-37849)
+* 修正在成功載入VEC後，使用者有時無法在 **[!UICONTROL Visual Experience Composer]** (VEC)中使用編輯功能的問題。 (TGT-37162)
+* 修正使用者在切換組織後，有時無法從「管理>實作」頁 **[!UICONTROL 面下載at.js的問題]** 。 (TGT-37668)
+* 修正「體驗 **[!UICONTROL 定位]** (XT)」活動中，導致體驗在較長時間內顯示「擷取結果」的問題。 (TGT-37684)
+* 已改善僅限鍵盤使用者的導覽和功能。 (TGT-34479 和 TGT-34473)
+* 在UI中新增標籤，以協助使用者使用輔助技術。 (TGT-34480)
+* 改進刪除活動中目前使用的行動檢視區時的錯誤訊息。 錯誤訊息現在會顯示：「此視區目前與一或多個活動相關聯。 您必須先從這些活動中移除視區，才能刪除它。」 (TGT-37030)
+* 在VEC中新增支援，可允許在符合頁面中多個元素的css選擇器上追蹤點按。 (TGT-37323)
+* 修正某些使用者無法顯示「活動」清單 **[!UICONTROL 的問]** 題。 顯示以下錯誤消息：&quot;無法擷取URL建議。&quot; 在Adobe後端系統中，使用其FirstName(FirstName/r/n)中傳回歸位的使用者發生錯誤。 (TGT-37330)
+* 修正當工作區名稱(在適用於企業的 **[!UICONTROL Adobe Admin Console中指定]******)包含縮寫符號時，使用者無法顯示「活動」頁面的問題。 (TGT-37709)
+* 現在載入時會停用at.js下載按鈕，以防止使用者 [!DNL Target] 多次按一下下載按鈕時傳送多個請求。 (TGT-37633)
+* 修正導致准則上次修改值不正確的 [!DNL Recommendations] 問題。 (TGT-37666)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
