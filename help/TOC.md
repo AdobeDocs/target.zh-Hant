@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
+source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 91%
+source-wordcount: '1443'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 91%
    + [舊版版本說明](r-release-notes/release-notes-for-previous-releases.md)
 + 簡介 {#introduction}
    + [Target 簡介](c-intro/intro.md)
+   + [Adobe Target歡迎套件](/help/c-intro/target-welcome-kit.md)
    + [從 Adobe Experience Cloud 存取 Target](c-intro/target-access-from-mac.md)
    + [Target 重要概念](c-intro/target-key-concepts.md)
    + [瞭解Target UI](/help/c-intro/understand-the-target-ui.md)
