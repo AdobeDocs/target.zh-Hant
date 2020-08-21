@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 93%
+source-wordcount: '2751'
+ht-degree: 92%
 
 ---
 
@@ -313,7 +313,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 是的，at.js 自訂事件也適用於 `triggerView()`。
 
-### 文中說明呼叫含有 `triggerView()` 的 `{“page” : “true”}` 時，系統會傳送通知至 [!DNL Target] 後端並增加曝光次數。那麼也會造成設定檔指令碼執行嗎?
+### It says when I call `triggerView()` with &amp;lbrace;`“page” : “true”`&amp;rbrace;, it will send a notification to the [!DNL Target] backend and increase the impression. 那麼也會造成設定檔指令碼執行嗎?
 
 對 [!DNL Target] 後端發出預先擷取呼叫時，會執行設定檔指令碼，接著會加密受影響的設定檔資料，然後傳回用戶端。叫用含有 `{"page": "true"}` 的 `triggerView()` 後，會傳送通知並附上加密的設定檔資料。此時 [!DNL Target] 後端會將設定檔資料解密並儲存至資料庫中。
 
