@@ -5,10 +5,10 @@ title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 74%
+source-wordcount: '1282'
+ht-degree: 72%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 74%
 * EEC對所 *有使用者* 都無法運作，因為它無法在上設定Cookie的SameSite屬性 `adobemc.com domain`。 若沒有此屬性，瀏覽器將拒絕這些Cookie，導致EEC失敗。
 
 Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴充功能會覆寫Cookie屬性，以視需 `SameSite="none"` 要設定屬性。 您可 [在這裡找到更新的擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+
+對於您自己的網站Cookie，您必須依名稱指定Cookie。 將Cookie滑 [!UICONTROL 桿切換] 至開啟位置，然後依名稱指定Cookie。
+
+![VEC Helper擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### 替代方案與解決方法
 
