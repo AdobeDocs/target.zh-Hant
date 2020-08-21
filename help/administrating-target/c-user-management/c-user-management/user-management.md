@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '893'
 ht-degree: 48%
 
 ---
@@ -24,7 +24,7 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 >[!UICONTROL 屬性和權限功能屬於 ] Premium 解決方案的一部分。[!DNL Target]在沒有 [!DNL Target] Premium 授權的 [!DNL Target] Standard 中無法使用。
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->* **[!DNL Target]標準客戶**:如果您看到「使 [!UICONTROL 用者] 」標籤(「管[!UICONTROL 理」>「使用者」])（而非「屬性」標籤），則您的組織會擁有「標準 ****[!DNL Target] 」授權。 [!DNL Target Standard 客戶應該遵循本文的指示，在 [!DNL Adobe Admin Console] 中新增使用者並指派權限。
+>* **[!DNL Target]標準客戶**:如果您看到「使 [!UICONTROL 用者] 」標籤(「管[!UICONTROL 理」>「使用者」])（而非「屬性」標籤），則您的組織會擁有「標準 ****[!DNL Target] 」授權。 [!DNL Target] Standard 客戶應該遵循本文的指示，在 [!DNL Adobe Admin Console] 中新增使用者並指派權限。
    >
    >
 * **[!DNL Target]Premium客戶**:如果您看到「使 [!UICONTROL 用者] 」標籤和「屬性 [!UICONTROL 」標籤(] 「管理」>「屬性[!UICONTROL 」)，您的組織會擁有][!DNL Target] Premium授權。 [!DNL Target] Premium 客戶應該遵循[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示，在 [!DNL Adobe Admin Console] 中新增使用者並指派權限。
