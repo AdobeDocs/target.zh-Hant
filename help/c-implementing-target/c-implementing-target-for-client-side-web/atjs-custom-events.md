@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -48,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## 訓練影片: 回應 Token 和 at.js 自訂事件 {#section_ED304A7137DC42A4BDCD6D57C989F1FA} ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 回應 Token 和 at.js 自訂事件 ![教學課程徽章](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
 
