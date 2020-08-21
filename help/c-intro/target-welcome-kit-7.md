@@ -4,9 +4,9 @@ description: Adobe Target歡迎套件——第7章
 title: Adobe Target歡迎套件——第7章
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 * **用你知道的。** 您可能已經非常瞭解客戶，並且對客戶會產生共鳴的理解也相當清楚。 運用它來開發個人化體驗。
 * **使用您的分析解決方案。** 在您的網站上尋找客戶退出購買流程或跳離頁面的位置。 請先檢閱頁面，並假設可能導致它們退出的項目，然後再執行您想要的動作。
-* **運用您的觀察力。** 查看您網站上的幾個關鍵頁面，並運用直覺來識別需要改進的項目。 或許產品詳細資訊頁面太擁擠、太勞累，請簡化。 也許很難找到購買按鈕，請將它移至更顯眼的位置。
+* **運用您的觀察力。** 檢視您網站上的幾個關鍵頁面，並運用直覺來識別需要改進的項目。 或許產品詳細資訊頁面太擁擠、太勞累，請簡化。 也許很難找到購買按鈕，請將它移至更顯眼的位置。
 * **看看您的競爭對手。** 快速檢視您競爭者的網站，可能會發現您認為在推動業務成果方面非常有效的設計、優惠、復本和其他元素。 考慮在您的網站上嘗試這些方法的方法。
 * **利用客戶意見回應。** 您的客戶可能會透過線上調查或客戶服務電話，為您提供改善其體驗的想法。 找出幾個人提到的痛點，並提出可能消除它的體驗。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 使用活動計畫員計畫活動
 
-我們已將下列Activity Planner加入為獨立PDF（請參閱下面），您可以一而再、再而三地加以儲存和使用。 要運行有效活動，您需要填寫計畫員的每個區域。 在您和其他人腦力激蕩想法時，使用此工具來測試和個人化活動。
+我們已將 [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) (Adobe Target Activity Planner)加入為獨立PDF，您可以一而再、再而三地儲存和使用。 要運行有效活動，您需要填寫計畫員的每個區域。 在您和其他人腦力激蕩想法時，使用此工具來測試和個人化活動。
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
