@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 99%
@@ -60,7 +60,7 @@ ht-degree: 99%
 
    ![](assets/propensity_score_4.png)
 
-## 訓練影片 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} 概 ![觀徽章](/help/assets/overview.png)
+## 訓練影片 ![概觀徽章](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 觀看下列影片以獲得詳細資訊，並瞭解您可使用此功能的情況:
 
