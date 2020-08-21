@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 將不透明度設為 0，可隱藏頁面內容以避免忽隱忽現的情形發生，但瀏覽器仍會輸出頁面，並載入 CSS、影像等所有必要資產。
 
-若不透明度設為 0 仍無法在您的實作上順利運作，您也可以透過自訂 `bodyHiddenStyle`，並設為 `body {visibility:hidden !important}`}，來管理忽隱忽現的問題。您可依適用您特定環境的條件，使用值 body `{opacity:0 !important`} 或 `body {visibility:hidden !important}` 其中之一。
+若不透明度設為 0 仍無法在您的實作上順利運作，您也可以透過自訂 `bodyHiddenStyle`，並設為 `body {visibility:hidden !important}`}，來管理忽隱忽現的問題。You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
 下圖顯示 js 1.*x* 和 at.js 2.x。
 
