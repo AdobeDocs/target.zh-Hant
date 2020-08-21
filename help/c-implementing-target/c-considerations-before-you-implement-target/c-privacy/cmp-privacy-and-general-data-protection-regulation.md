@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '2276'
 ht-degree: 93%
@@ -75,7 +75,7 @@ window.targetGlobalSettings = {
 
 1. **[!DNL Target]標記是透過[!DNL Launch]預先核准 (或資料主體先前核准[!DNL Target]):**[!DNL Target] 標記不會為同意保留，並照常運作。
 1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「FALSE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。收到同意後，系統會呼叫 [!DNL Target]，資料主體 (訪客) 即可使用個人化內容。由於收到同意前只能使用預設內容，因此運用適當策略非常重要，例如遮住整個頁面或可個人化內容的啟動顯示畫面。這可確保資料主體 (訪客) 的體驗一致。
-1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「TRUE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 [!DNL Target] 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。`bodyHiddenStyle` 預設為 `body { opacity:0;`}，會隱藏 HTML 內文標記。建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。這項設定會將 [!DNL Target] 設定為只隱藏頁面內容容器。如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「TRUE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 [!DNL Target] 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。這項設定會將 [!DNL Target] 設定為只隱藏頁面內容容器。如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    情況 3 的建議頁面設定如下:
 
