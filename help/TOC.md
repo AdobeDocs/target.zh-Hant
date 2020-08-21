@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 90%
+source-wordcount: '1479'
+ht-degree: 88%
 
 ---
 
@@ -29,10 +29,17 @@ ht-degree: 90%
    + [舊版版本說明](r-release-notes/release-notes-for-previous-releases.md)
 + 簡介 {#introduction}
    + [Target 簡介](c-intro/intro.md)
-   + [Adobe Target歡迎套件](/help/c-intro/target-welcome-kit.md)
    + [從 Adobe Experience Cloud 存取 Target](c-intro/target-access-from-mac.md)
    + [Target 重要概念](c-intro/target-key-concepts.md)
    + [瞭解Target UI](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Target歡迎套件 {#welcome}
+      + [Adobe Target歡迎套件總覽](/help/c-intro/target-welcome-kit.md)
+      + [第一章：簡介](/help/c-intro/target-welcome-kit-1.md)
+      + [第二章：Adobe Target總覽](/help/c-intro/target-welcome-kit-2.md)
+      + [第三章：開發您的測試和個人化概念](/help/c-intro/target-welcome-kit-3.md)
+      + [第四章：使用Target的秘訣](/help/c-intro/target-welcome-kit-4.md)
+      + [第五章：測試和個人化活動的靈感](/help/c-intro/target-welcome-kit-5.md)
+      + [第六章：容易避免的陷阱](/help/c-intro/target-welcome-kit-6.md)
    + [字彙表](c-intro/glossary.md)
    + [Adobe Target 如何運作](c-intro/how-target-works.md)
    + [訓練與認證](c-intro/training-and-certification.md)
