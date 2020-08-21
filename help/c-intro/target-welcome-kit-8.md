@@ -4,9 +4,9 @@ description: Adobe Target歡迎套件——第8章
 title: Adobe Target歡迎套件——第8章
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 在傳達這些結果時，如同在講故事一樣，處理這些結果會很有幫助。 讓它變得有趣，並清楚地說明測試或個人化的內容，以及原因和結果。 使用審閱結果的人員所瞭解的語言和術語。
 
-我們在Microsoft PowerPoint中加入了「執行摘要結果」範本（請參閱下文）。 使用您組織的色彩配置和標誌重新命名，並使用它來呈現您第一次測試或個人化活動的結果。 和Activity Planner一樣，歡迎套件也隨附於此處，做為獨立檔案，但我們也新增了它的影像，以及範本每個區域要包含的資訊類型範例。
+我們在Microsoft PowerPoint中已 [加入「執行摘要結果](/help/assets/executive-summary.zip) 」範本。 使用您組織的色彩配置和標誌重新命名，並使用它來呈現您第一次測試或個人化活動的結果。 和Activity Planner一樣，歡迎套件也隨附於此處，做為獨立檔案，但我們也新增了它的影像，以及範本每個區域要包含的資訊類型範例。
 
 ![執行摘要報告](/help/c-intro/assets/executive-summary-report.png)
