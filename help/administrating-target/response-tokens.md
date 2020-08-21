@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -285,7 +285,7 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 </script>
 ```
 
-## 訓練影片: 回應 Token 與 at.js 自訂事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 回應 Token 與 at.js 自訂事件 ![教學課程徽章](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
 
