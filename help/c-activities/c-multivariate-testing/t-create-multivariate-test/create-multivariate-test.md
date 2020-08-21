@@ -5,10 +5,10 @@ title: 建立多變數測試
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。]
+   >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
 1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -100,7 +100,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
    ![](assets/estimator2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以前往[!UICONTROL 鎖定目標]頁面。]
+1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.
 
 1. 選擇對象和符合您要讓其進入活動之訪客的百分比。
 
