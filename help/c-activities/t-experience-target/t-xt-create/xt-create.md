@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -48,7 +48,7 @@ ht-degree: 100%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。]
+   >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
 1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
