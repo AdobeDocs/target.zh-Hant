@@ -6,9 +6,9 @@ feature: vec
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2403'
 ht-degree: 95%
 
 ---
@@ -200,7 +200,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    請注意，CSS 編輯器只會顯示目前工作階段的詳細資料。如果您儲存變更然後重新開啟編輯器，即使您再次選取相同的元素，先前變更的相關詳細資料也不會顯示在編輯器中。
 
-   >[!I重要]
+   >[!IMPORTANT]
    >
    >您可以使用 CSS 編輯器套用背景影像，但可能會導致忽隱忽現的情形。請在部署前測試您的變更。
 
