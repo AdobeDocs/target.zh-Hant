@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target歡迎套件——第6章
-title: Adobe Target歡迎套件——第6章
+description: Adobe Target歡迎套件——第6章——易於避免的陷阱
+title: Adobe Target歡迎套件——第6章——易於避免的陷阱
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 現在啟動最佳化和個人化計畫的好處是，已經做了一段時間的人，已經發現了許多容易犯的錯誤。 只要知道這些陷阱，您就能輕鬆避免或修正它們。
 
-如需詳 [細資訊，請參閱十種常見的A/B測試陷阱](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) ，以及如何避免。 除了該文章中介紹的概念外，請隨時保留這份簡短清單，以避免或修正這些常見的測試和個人化缺陷。
+>[!NOTE]
+>
+>如需詳 [細資訊，請參閱十種常見的A/B測試陷阱](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) ，以及如何避免。 除了該文章中介紹的概念外，請隨時保留這份簡短清單，以避免或修正這些常見的測試和個人化缺陷。
 
 | 陷阱 | 解決方案 |
 | --- | --- |
