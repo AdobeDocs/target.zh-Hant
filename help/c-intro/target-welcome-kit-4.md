@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target歡迎套件——第4章
-title: Adobe Target歡迎套件——第4章
+description: Adobe Target歡迎套件——第4章——使用Target的秘訣
+title: Adobe Target歡迎套件——第4章——使用Target的秘訣
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 提示3:從Target匯出資料，以便與協力廠商工具搭配使用。
 
-使用回應Token，管理員可輕鬆將資料從協力 [!DNL Target] 廠商工具取出和放入。 當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。 例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，您可以使用您的資料來查看誰看到體驗A，誰看到體驗B。您也可以使用回應Token，將資 [!DNL Target] 料匯出至內部資料倉庫。 只要按一下「管理」，然後將所要之回應Token旁的開關切換至開啟位置。 接著，建立活動。 然後，資料就可以傳輸給第三方廠商。 您可以使用除錯 [!DNL Target] 工具來驗證是否匯出資料。
+使用回應Token，管理員可輕鬆將資料從協力 [!DNL Target] 廠商工具取出和放入。 當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。 例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，則您可以使用您的資料來查看哪些人看到體驗A，哪些人看到體驗B。您也可以使用回應Token，將資 [!DNL Target] 料匯出至內部資料倉庫。 只要按一下「管理」，然後將所要之回應Token旁的開關切換至開啟位置。 接著，建立活動。 然後，資料就可以傳輸給第三方廠商。 您可以使用除錯 [!DNL Target] 工具來驗證是否匯出資料。
 
 如需 [逐步指示](/help/administrating-target/response-tokens.md) ，請參閱回應Token。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 反向連結. 反向連結網站和促銷活動
 * 時間。 每日時間、一週中的天數和季節性因素
 * 離線. 在實體商店瀏覽及購買模式
-* 環境. 原始國家／地區、作業系統、瀏覽器類型
+* 環境. 原產國、作業系統、瀏覽器類型
 
 ## 提示5:為使用者提供完成工作所需的存取權等級。
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
 使用「體驗版本」，您可以針對您想要的受眾，執行一項包含各種變數的測試。 例如，您可以建立提供免運費的橫幅廣告，包括美國、英國和歐盟客戶的影像和貨幣變化，而不需針對三個不同的受眾執行測試。
 
-如需 [逐步指示，請參閱Adobe Target中A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)[](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 和體驗版本中的多個體驗對象。
+如需 [逐步指示，請參閱Adobe Target中A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)[](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 和體驗版本的多重體驗觀眾。
 
-## 提示八：在類似頁面上複製活動體驗以節省時間。
+## 提示8:在類似頁面上複製活動體驗以節省時間。
 
 在單一網頁上建立變數（例如新的按鈕顏色），並自動套用至共用相同範本的所有頁面。 您可以指定頁面，或將變數套用至網站上所有類似的頁面。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 設定活動以使用QA參數的好處之一，就是您可以與團隊中的每個人共用這些連結。 您可以讓更多人知道此活動，並確保他們在點擊測試變體時，不認為網站運作不正常。
 
-完成測試後，您可以通訊促銷活動啟動、測試結果，尤其是所學的課程，協助您建立對測試結果的認知和興趣。 與組織中的每個人分享結果也避免重新測試假設、教育每個人有效的概念，並協助他們根據您的發現，從根本上挑戰自己對有效的概念。 您最好準備一個範本，每次都用來分享您的發現和關鍵學習。
+完成測試後，您可以通訊促銷活動啟動、測試結果，尤其是所學的課程，協助您建立對測試結果的認知和興趣。 與組織中的每個人分享結果也避免重新測試假設、教育每個人什麼有效，並協助他們根據您的發現，從根本上挑戰自己對什麼有效的想法。 您最好準備一個範本，每次都用來分享您的發現和關鍵學習。
 然後，考慮建立可共用的書籍或Microsoft PowerPoint資料夾，以累積擷取這些學習內容。
 
 ## 提示20:運用行動功能來建立更具創意的行動活動。
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 ## 請記住
 
-在接下來的章節之前，請先考慮以下想法：「測試和個人化活動的靈感。」
+在我們進入下一章之前，請先考慮以下想法：「測試和個人化活動的靈感。」
 
 ### 當您建立測試時，不要裝飾，要有意為之。
 
