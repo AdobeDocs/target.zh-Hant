@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target歡迎套件——第3章
-title: Adobe Target歡迎套件——第3章
+description: Adobe Target歡迎套件——第3章——開發您的測試和個人化概念
+title: Adobe Target歡迎套件——第3章——開發您的測試和個人化概念
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
