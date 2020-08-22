@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target歡迎套件——第9章
-title: Adobe Target歡迎套件——第9章
+description: Adobe Target歡迎套件——第9章——後續步驟和資源
+title: Adobe Target歡迎套件——第9章——後續步驟和資源
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 第九章：後續步驟和資源
 
-我們已涵蓋您進行第一項活動的基本知識。 我們希望此活動向您和您的公司展示運用最佳化和個人化的 [!DNL Adobe Target] 絕佳潛力，進而影響業務獲利。 這只是個開始。 您該思考第二項活動將著重於哪些內容了嗎？ 考慮建立您要執行之活動的優先順序清單。 您將訝於，您會以多快的速度，依活動瞭解活動如何改善客戶體驗並推動業務成功。
+我們已涵蓋您進行第一項活動的基本知識。 我們希望此活動向您和您的公司展示運用最佳化和個人化的 [!DNL Adobe Target] 絕佳潛力，進而影響業務獲利。 這只是個開始。 您該思考第二項活動的重點了嗎？ 考慮建立您要執行之活動的優先順序清單。 您將訝於，您會以多快的速度，依活動瞭解活動如何改善客戶體驗並推動業務成功。
 
-順便說一下，您有許多方法可進一步瞭解測試、個人化和使用 [!DNL Target]。 請檢閱下列資源清單，以開始建立該知識。 在我們的網路研討會上聆聽、閱讀Adobe Target部落格、參加Adobe峰會，並在Adobe Target線上社群中積極參與。 別忘了，我們總是在這裡協助您啟動計畫，並讓它邁向成功之路。 隨時伸手。
+順便說一下，您有許多方法可進一步瞭解測試、個人化和使用 [!DNL Target]。 請檢閱下列資源清單，以開始建立該知識。 在我們的網路研討會上聆聽、閱讀Adobe Target部落格、參加Adobe峰會，並在Adobe Target線上社群中積極參與。 別忘了，我們總是來協助您啟動計畫，讓它邁向成功之路。 隨時伸手。
 
 我們已整理好有條理的重要資訊清單，以協助您進一步瞭解如何使用最佳化和個人化 [!DNL Target]。
 
