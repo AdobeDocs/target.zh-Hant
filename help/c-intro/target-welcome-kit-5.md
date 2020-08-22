@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target歡迎套件——第5章
-title: Adobe Target歡迎套件——第5章
+description: Adobe Target歡迎套件——第5章——測試和個人化活動的靈感
+title: Adobe Target歡迎套件——第5章——測試和個人化活動的靈感
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 構想6:別讓訪客走向死衚衕。
 
-如果從Google轉介給您的訪客收到過期或無存貨的內容，請使用建議重新與他們互動，為他們提供另一次購買的機會。
+如果從Google轉介給您的訪客收到過期或無存貨的內容，請使用建議重新與他們互動，為他們提供另一個購買的機會。
 
 例如，在產品詳細資訊頁面上加入建議，以根據訪客在作業中的行為和類別相似性，向看過無存貨產品的訪客顯示類似、個人化建議或最近檢視的項目。 使用者只要按一下滑鼠，就可檢視這些內容，讓您有另一個機會在您的網站上與他們互動，或讓他們進行購買。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## 請記住
 
-在接下來的章節之前，請先考慮以下想法：「容易避免的陷阱。」
+在我們進入下一章之前，請先考慮以下想法：「容易避免的陷阱。」
 
 ### 測試持續時間最佳實務
 
