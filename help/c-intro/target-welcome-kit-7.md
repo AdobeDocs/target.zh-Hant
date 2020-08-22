@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target歡迎套件——第7章
-title: Adobe Target歡迎套件——第7章
+description: Adobe Target歡迎套件——第7章——建立並執行您的第一個Target活動
+title: Adobe Target歡迎套件——第7章——建立並執行您的第一個Target活動
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,13 @@ ht-degree: 0%
 * **看看您的競爭對手。** 快速檢視您競爭者的網站，可能會發現您認為在推動業務成果方面非常有效的設計、優惠、復本和其他元素。 考慮在您的網站上嘗試這些方法的方法。
 * **利用客戶意見回應。** 您的客戶可能會透過線上調查或客戶服務電話，為您提供改善其體驗的想法。 找出幾個人提到的痛點，並提出可能消除它的體驗。
 
-當您提出測試構想時，請記住，您應該能夠解釋（最好是使用資料）為何您建議的測試構想能夠改善對業務而言重要的客戶體驗和指標。
+當您提出測試構想時，請記住，您應該能夠解釋（最好是使用資料）為何您建議的測試構想能夠改善對業務而言重要的客戶體驗和度量。
 
 ## 使用活動計畫員計畫活動
 
-我們已將 [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) (Adobe Target Activity Planner)加入為獨立PDF，您可以一而再、再而三地儲存和使用。 要運行有效活動，您需要填寫計畫員的每個區域。 在您和其他人腦力激蕩想法時，使用此工具來測試和個人化活動。
+我們已將 [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) (Adobe Target Activity Planner)加入為獨立PDF，您可以一而再、再而三地儲存和使用。 按一下連結以檢視PDF檔案。 以滑鼠右鍵下載PDF檔案。
+
+要運行有效活動，您需要填寫計畫員的每個區域。 在您和其他人腦力激蕩想法時，使用此工具來測試和個人化活動。
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
@@ -98,7 +100,7 @@ ht-degree: 0%
 
 ### 結果如何？
 
-活動完成後，請記錄結果，並務必將這些結果與原始假說、您在活動中使用的任何重要對象，以及上述您要評估活動結果的主要和次要成功度量聯繫起來。 下一章將討論如何交流這些活動成果。
+活動完成後，請記錄結果，並務必將這些結果與原始假設、您在活動中使用的任何重要對象，以及上述您要評估活動結果的主要和次要成功度量聯繫起來。 下一章將討論如何交流這些活動成果。
 
 ### 在活動中需要改進哪些內容／後續步驟？
 
