@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '3978'
+source-wordcount: '3977'
 ht-degree: 85%
 
 ---
@@ -175,7 +175,7 @@ at.js 1.7.0 提供 Adobe 選擇加入支援。「Adobe 選擇加入」是簡化 
 
 此版本也修正 Target 可能將重新導向 URL 參數覆寫為來自重新導向 URL 之參數的問題。
 
->[! 注意]
+>[!NOTE]
 >
 >如果您需要 GDPR 的 Adobe 選擇加入支援，目前必須使用 at.js 1.7.0 或 2.1.0。<br>如需所有版本的清單，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
