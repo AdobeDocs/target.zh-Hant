@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target歡迎套件——第2章
-title: Adobe Target歡迎套件——第2章
+description: Adobe Target歡迎套件——第2章- Target總覽
+title: Adobe Target歡迎套件——第2章- Target總覽
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2504'
 ht-degree: 17%
 
 ---
@@ -28,17 +28,17 @@ ht-degree: 17%
 
 | 活動類型 | 詳細資料 |
 | --- | --- |
-| 體驗鎖定目標 (XT) | 根據一組使用者定義的規則和准則，將內容傳送給特定的觀眾。 **[!UICONTROL 當您瞭解受眾有價值，並且對體驗產生共鳴時]** ,「體驗定位」對於將特定體驗或內容定位給特定受眾非常有用。 [了解詳情](/help/c-activities/t-experience-target/experience-target.md)。 |
 | A/B 測試 | 比較您網站或其他數位客戶觸點上的兩種或兩種以上體驗或優惠的變化，以瞭解哪些變化在預先指定的測試期間對關鍵業務衡量標準有最大改善。 A/B測試非常適合進行大型變更，例如新的網頁版面配置、不同的網站導覽方式，或對複製、影像和行動要求按鈕等數位體驗的個別元素進行不同的處理方式。 [了解詳情](/help/c-activities/t-test-ab/test-ab.md)。 |
-| 多變數測試 (MVT) | 比較頁面上各種元素或數位體驗的可能組合——例如3種不同的背景影像、2種不同的復本和2種不同的按鈕顏色。 MVT會決定哪些組合對特定對象的效能最佳，以及哪些元素對結果的影響最大。 [了解詳情](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | 自動分配 | 識別兩個或更多體驗中效能最佳的體驗，並自動重新分配更多流量給成功者，以在測試持續執行和學習時提高轉化率。 使用由人工智慧提供支援 [!DNL Adobe Sensei]。 [了解詳情](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| Auto-Target<br>(Premium) | 運用Adobe Sensei人工智慧， [!DNL Target] 根據個別客戶個人檔案以及先前具有類似個人檔案的訪客的行為，判斷並提供每位訪客的最佳體驗。 Auto-Target可讓您大規模個人化。 |
+| Auto-Target<br>(Premium) | 運用Adobe Sensei人工智慧， [!DNL Target] 根據個別客戶個人檔案以及先前具有類似個人檔案的訪客的行為，判斷並提供每位訪客的最佳體驗。 Auto-Target可讓您大規模個人化。 [了解詳情](/help/c-activities/auto-target-to-optimize.md)。 |
 | Automated Personalization<br>(Premium) | 使用進階的機器學習演算法和由選件提供支援的自動化功能，來檢視選件中不同的影像、複製和其他元素組合，並根據最佳達成商業目標（例如提高轉換率或每位訪客收入）的目標，為每位訪客提供最佳組合。 [!DNL Adobe Sensei] [了解詳情](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
+| 體驗鎖定目標 (XT) | 根據一組使用者定義的規則和准則，將內容傳送給特定的觀眾。 **[!UICONTROL 當您瞭解受眾有價值，並且對體驗產生共鳴時]** ,「體驗定位」對於將特定體驗或內容定位給特定受眾非常有用。 [了解詳情](/help/c-activities/t-experience-target/experience-target.md)。 |
+| 多變數測試 (MVT) | 比較頁面上各種元素或數位體驗的可能組合——例如3種不同的背景影像、2種不同的復本和2種不同的按鈕顏色。 MVT會決定哪些組合對特定對象的效能最佳，以及哪些元素對結果的影響最大。 [了解詳情](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | Recommendations<br>(Premium) | 使用Adobe Sensei AI，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。 [了解詳情](/help/c-recommendations/recommendations.md)。 |
 
 ## 頻道
 
-您可以隨處 [!DNL Target] 測試和個人化數位體驗——傳統的數位觸點，例如您的網站、行動網站和行動應用程式，也可以在資訊站、電子郵件、IoT裝置、遊戲主機，甚至語音助理（例如Alexa和Cortana）上測試和個人化數位體驗。 許多公司都開始 [!DNL Target] 在其網站上使用。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動通道現在至關重要。 最理想的情況是，您可以跨所有觸點連結訪客的體驗，以提供順暢、一致的體驗。
+您可以隨處 [!DNL Target] 測試和個人化數位體驗——傳統的數位觸點，例如您的網站、行動網站和行動應用程式，也可以在觸點（例如資訊站、電子郵件、IoT裝置、遊戲主機）上測試和個人化數位體驗，甚至在語音助理（例如Alexa和Cortana）上也可使用。 許多公司都開始 [!DNL Target] 在其網站上使用。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動通道現在至關重要。 最理想的情況是，您可以跨所有觸點連結訪客的體驗，以提供順暢、一致的體驗。
 
 | 管道 | 詳細資料 |
 | --- | --- |
@@ -94,12 +94,12 @@ ht-degree: 17%
 
 | 整合 | 詳細資料 |
 | --- | --- |
-| Adobe Experience Cloud | [!DNL Target] 與其他解決方案一起提供 [!DNL Adobe Experience Cloud] 了嵌入式功能，可大規模個人化體驗。 搭配 [!DNL Target] Adobe Analytics、 [Experience Cloud Audiences、Adobe Adobe Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)[](/help/c-integrating-target-with-mac/mmp.md)[](/help/c-integrating-target-with-mac/campaign-and-target.md)[](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)[](/help/c-experiences/c-manage-content/aem-experience-fragments.md) 、Adobe Manager Campaign(AEM)、Experience Manager Adobe Experience Manager(AEM)運用其強大功能。 |
+| Adobe Experience Cloud | [!DNL Target] 與其他解決方案一起提供 [!DNL Adobe Experience Cloud] 了嵌入式功能，可大規模個人化體驗。 搭配 [!DNL Target] Adobe Analytics、 [Experience Cloud Audiences、Adobe Adobe Adobe Adobe Manager Campaign](/help/c-integrating-target-with-mac/a4t/a4t.md)[](/help/c-integrating-target-with-mac/mmp.md)[](/help/c-integrating-target-with-mac/campaign-and-target.md)[](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)[](/help/c-experiences/c-manage-content/aem-experience-fragments.md) (AEM)、Experience Manager Adobe Experience Manager(AEM)運用強大的功能。 |
 | Target API(Premium) | [!UICONTROL Target] 提供超過40個API，您可使用這些API將Adobe Target與第一方、第二方和第三方系統整合。 [了解詳情](/help/api/api-overview.md)。 |
 
 ## 請記住
 
-在接下來的章節之前，請先考慮以下想法：「開發您的測試和個人化概念。」
+在我們進入下一章之前，請先考慮以下想法：「開發您的測試和個人化概念。」
 
 ### 最佳化的最佳範例
 
