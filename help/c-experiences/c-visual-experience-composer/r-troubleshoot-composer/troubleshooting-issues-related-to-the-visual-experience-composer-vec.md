@@ -5,9 +5,9 @@ title: 疑難排解可視化體驗撰寫器的相關問題
 feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,7 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]
 >除了下列資訊外，您還可以使用適用於 Google Chrome 的 [Adobe Target VEC Helper 瀏覽器擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
 
->[!Note]
+>[!NOTE]
 >
 >這些外掛程式僅應用於 VEC 編輯環境中。
 >
