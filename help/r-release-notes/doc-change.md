@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1939'
 ht-degree: 29%
 
 ---
@@ -22,12 +22,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8月24日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 更新「進階設定」區段。 |
 | 8月21日 | [Adobe Target歡迎套件總覽](/help/c-intro/target-welcome-kit.md) | 新文章和子主題。 |
 | 8月20日 | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 已新增下列章節：「最近宣佈的Google Chrome SameSite Cookie實施政策對VEC和EEC有何影響？」 |
 |  | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | 已更新下列文字：「如果您選取多個元素，如果進入者點按任一個選取的元素，點按就會被計算。 若要個別計算每個項目，請為每個元素設定個別的成功量度。若要按一下頁面上的數個元素來計算一個項目，請編輯「CSS元素選擇器」以符合多個元素。」 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.9.1（2020年9月2日）發行的資訊。 |
 | 8月14日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增Recommendations活動中有關QA的已知問題。 |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已新增文字，指出如果您正在傳 `serverState` 回的 `<script>` 內容中使用和使用標籤，請確定您的HTML內容是 `<\/script>` 否使用 `</script>`。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已新增文字，指出如果您在傳回的 `serverState` 內容 `<script>` 中使用和使用標籤，請確定您的HTML內容使用 `<\/script>` 而非標籤 `</script>`。 |
 | 8月12日 | [瞭解Target UI](/help/c-intro/understand-the-target-ui.md) | 新主題。 |
 |  | [Adobe Target API總覽](/help/api/api-overview.md) | 新主題。 |
 | 8月10日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增文字，指出使用CNAME時Cookie標題的大小會增加。 |
