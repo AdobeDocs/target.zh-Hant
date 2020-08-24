@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '960'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 97%
 
    ![透過暫留排除體驗](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   或者，您可以選取相關體驗的核取方塊，然後按一下對話方塊右上角的 **[UICONTROL 排除]**&#x200B;圖示，以分批排除/包含體驗。勾選一或多個體驗時，[!UICONTROL 排除]圖示就會出現。
+   或者，您可以選取相關體驗的核取方塊，然後按一下對話方塊右上角的 **[!UICONTROL 排除]**&#x200B;圖示，以分批排除/包含體驗。勾選一或多個體驗時，[!UICONTROL 排除]圖示就會出現。
 
    ![分批排除體驗](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
