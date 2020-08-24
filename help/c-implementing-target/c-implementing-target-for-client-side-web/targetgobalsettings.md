@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 39%
 
 ---
@@ -458,7 +458,7 @@ const PAGE_TEMPLATE = `
 
 頁面載入瀏覽器後，at.js會立即套用所有選件， [!DNL Target] 而不 `serverState` 會針對邊緣觸發任何網路呼 [!DNL Target] 叫。 此外，at.js只會預先隱藏內容擷取伺服器端提供選件的DOM元素，因此會對頁面載入效能和使用者體驗產生積極影響。 [!DNL Target]
 
-### 重要注意事項
+### 重要附註
 
 Consider the following when using `serverState`:
 
@@ -473,7 +473,7 @@ Consider the following when using `serverState`:
 
 * 套用選 `serverState `件時，at.js會考慮並設定 `pageLoadEnabled` , `viewsEnabled` 例如，如果設定為false，則不會套用「頁面載入 `pageLoadEnabled` 選件」。
 
-   若要開啟這些設定，請啟用 **[UICONTROL管理>實作>編輯>頁面載入啟用中的切換]**。
+   若要開啟這些設定，請啟用「管理 **[!UICONTROL >實作]>編輯[!UICONTROL >啟]**&#x200B;用載入頁面」中的切換。
 
    ![頁面載入啟用的設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
