@@ -5,10 +5,10 @@ title: Adobe Target中的成功度量
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 52%
+source-wordcount: '1129'
+ht-degree: 47%
 
 ---
 
@@ -57,7 +57,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## 進階設定 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-使用進階設定來管理測量成功的方式。選項包括計算每個曝光次數的量度或每位訪客一次，以及選擇是否在活動中保留使用者或是加以移除。
+使用進階設定來管理測量成功的方式。選項包括新增相依性、選擇是否讓使用者留在活動中或移除它們，以及是否對每個參與者或每個曝光計算一次量度。
 
 若要存取「進 [!UICONTROL 階設定] 」選項，請按一 **[!UICONTROL 下垂直橢圓]** > **[!UICONTROL 進階設定]**。
 
@@ -67,21 +67,27 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 >
 >如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-您也可以使用進階設定來建立相依成功量度，只有在訪客先達到另一個量度時才遞增一個量度。
+### 添加相依性
+
+您可以使用進階設定來建立相依的成功度量，只有當訪客先到達另一個度量時，才會遞增一個度量。
 
 ![新增相依性](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 例如，測試轉換可能只有在轉換之前訪客點擊了選件，或是達到特定頁面時才有效。
 
-A/B 測試、自動個人化、體驗鎖定目標和多變數測試活動中支援相依成功量度。Recommendations 活動目前不支援相依成功量度。
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->相依成功量度在下列情況下不會轉換:
->
->* 如果您建立循環相依性，其中的 metric1 相依於 metric2，而 metric2 相依於 metric1，則這兩個量度都不會轉換。
->* 自動個人化活動會在達到轉換量度時釋出使用者並重新開始活動，因此相依於轉換量度的任何量度永遠不會轉換。
+* [!UICONTROL Recommendations 活動。]所有其他活動類型均支援此功能。
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* 「已檢視頁面」度量類型。
+* 可視化體驗撰寫器 (VEC) 活動的「按一下元素」度量類型。
 
+相依成功量度在下列情況下不會轉換:
+
+* 如果您建立循環相依性，其中的 metric1 相依於 metric2，而 metric2 相依於 metric1，則這兩個量度都不會轉換。
+* 自動個人化活動會在達到轉換量度時釋出使用者並重新開始活動，因此相依於轉換量度的任何量度永遠不會轉換。
+
+### 使用者達到此目標量度後會發生什麼事?
 
 使用進階設定來判斷使用者達到目標量度之後要執行的動作。下表顯示了可用選項：
 
@@ -94,6 +100,14 @@ A/B 測試、自動個人化、體驗鎖定目標和多變數測試活動中支�
 >[!NOTE]
 >
 >如果您將量度設定為其中一個「 [!UICONTROL 增量計數] 」選項（上述），則量度計數只會在訪客層級每位進入者正確遞增一次。 在瀏覽層級，每次瀏覽一次新作業的度量計數都會遞增一次。
+
+### 計數將如何增加:
+
+選擇所要的行為：
+
+* 每個參加者一次
+* 每次曝光（排除頁面重新整理）
+* 在每次曝光時
 
 ## 訓練影片: 活動量度
 
