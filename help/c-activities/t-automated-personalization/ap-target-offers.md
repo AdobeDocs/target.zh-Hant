@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 1. 選取所需的選件，然後選擇您要符合查看該選件之資格的受眾。
 
-   若要針對單一選件設定鎖定目標，請將游標移至所需的選件上，然後按一下&#x200B;**[!UICONTORL 鎖定目標]**&#x200B;圖示。
+   若要針對單一選件設定鎖定目標，請將游標移至所需的選件上，然後按一下&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;圖示。
 
    若要針對多個選件設定鎖定目標，請選取所需選件的核取方塊，然後按一下顯示於清單右上角的 **[!UICONTROL 鎖定目標]圖示。
 
