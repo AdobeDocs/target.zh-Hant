@@ -4,7 +4,7 @@ title: Adobe Target 可視化體驗撰寫器 (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -91,7 +91,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 * 想要將更多範本測試規則新增至頁面傳送條件
 * 想要在透過 EEC 或僅限 iframe 載入頁面時覆寫全域增強體驗撰寫器 (EEC) 切換，可能依頁面而有所不同
 
-取消在 VEC 內載入頁面後，您可以在活動中的體驗之間切換，而不需要等候頁面載入。若要再次在 VEC 內查看頁面，您必須按一下&#x200B;**[!UICONTOL 重新載入]**&#x200B;按鈕。
+取消在 VEC 內載入頁面後，您可以在活動中的體驗之間切換，而不需要等候頁面載入。若要再次在 VEC 內查看頁面，您必須按一下&#x200B;**[!UICONTROL 重新載入]**&#x200B;按鈕。
 
 >[!IMPORTANT]
 >
