@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 22%
+source-wordcount: '1100'
+ht-degree: 23%
 
 ---
 
@@ -34,7 +34,7 @@ Experience fragments represent a huge step forward to link the content/experienc
 
 ## 要求 {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNl Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). 您的客戶代表可協助確認您是否符合使用此功能的要求。
+You must be provisioned with the experience fragments functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). 您的客戶代表可協助確認您是否符合使用此功能的要求。
 
 * [!DNL Adobe Experience Manager] 6.4（或更新版本）。
 * [!DNL Adobe Experience Manager] 6.3 SP2（或更新版本）。
@@ -77,7 +77,7 @@ Experience fragments are created in [!DNL AEM]. 如需詳細資訊，請參閱:
 視您的版 [!DNL AEM] 本而定，請參閱下列連結以取得逐步指示：
 
 * **[!DNL AEM]6.3**: [在](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.3檔案中，將體驗片段匯出至Target ** 。
-* **[!DNL AEM]6.4**: [在](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4檔案中將體驗片段匯出至Target ** 。
+* **[!DNL AEM]6.4**: [在](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4檔案中，將體驗片段匯出至Target ** 。
 * **[!DNL AEM]6.5**: [在](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5檔案中將體驗片段匯出至Target ** 。
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
@@ -131,7 +131,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **若要使用表單型體驗撰寫器來使用體驗片段：**
 
-1. 在 [!DNL Target中]，在建立或編輯表單式體驗撰寫器中的體驗時，選取您要插入內容的頁面上的位置，然後選取「變更體驗片段 [」以顯示「體驗片段](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)[!DNL AEM]**** 」清單撰寫器。
+1. 在 [!DNL Target]建立或編輯表單型體驗撰寫器中的體驗時 [，選取您要插入內容的頁面位置，然後選取](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)Change Experience Fragment [!DNL AEM] ，以顯示 **** Choose an Experience Fragment Composer。
 
    ![](assets/experience_fragment_list.png)
 
