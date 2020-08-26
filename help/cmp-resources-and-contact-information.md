@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -59,9 +59,9 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 除了 Target 相關課程，還有其他 Adobe 解決方案的課程，例如 Analytics、Campaign、Adobe Experience Manager (AEM)、Primetime、Audience Manager 及更多課程。
 
-## 聯絡 Adobe 客戶服務 {#reference_ACA3391A00EF467B87930A450050077C}
+## 連絡 Adobe 客戶服務 {#reference_ACA3391A00EF467B87930A450050077C}
 
-Client Care 已準備好要協助您解決任何可能發生的問題。此頁面包含連絡 Client Care 尋求解決辦法時所需要的資訊。
+「客戶服務」準備幫助您解決任何可能出現的問題。此頁面包含連絡「客戶服務」以加快解決問題時所需要的資訊。
 
 ### 基本資訊 {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
