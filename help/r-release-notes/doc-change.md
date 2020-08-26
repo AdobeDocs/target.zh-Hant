@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
+source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1948'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8月26日 | [搭配Target Recommendations使用Adobe Analytics](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新主題。 |
 | 8月24日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 更新「進階設定」區段。 |
 | 8月21日 | [Adobe Target歡迎套件總覽](/help/c-intro/target-welcome-kit.md) | 新文章和子主題。 |
 | 8月20日 | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 已新增下列章節：「最近宣佈的Google Chrome SameSite Cookie實施政策對VEC和EEC有何影響？」 |
