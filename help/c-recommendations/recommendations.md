@@ -5,17 +5,17 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 89%
+source-wordcount: '929'
+ht-degree: 59%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-Recommendations 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
+[!DNL Adobe Target Recommendations] 活動會根據先前的使用者活動、偏好設定或其他條件，自動顯示可能吸引訪客的產品、服務或內容。 [!DNL Target Recommendations] 有助於將訪客引導至他們可能不知道的相關項目。 [!DNL Recommendations] 可讓您在適當的時間和地點為訪客提供相關內容。
 
 >[!NOTE]
 >
@@ -36,18 +36,34 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 ![](assets/velocity_example.png)
 
-建議會判斷向客戶建議產品的方式，取決於客戶在網站上的行為。例如:
+建議會根據訪客在網站上的活動，決定對訪客建議產品的方式。 例如:
 
 | 所需的動作 | 建議 |
 |--- |--- |
 | 鼓勵購買背包的使用者考慮購買登山鞋和登山杖。 | 使用「購買了此項目、也購買了其他項目的使用者」條件，建立顯示經常一起購買項目的建議。 |
 | 根據訪客觀賞的影片來建議類似的媒體內容，以吸引訪客在您的媒體網站上停留更久。 | 使用「瀏覽過此項目、也瀏覽了其他項目的使用者」條件，建立建議其他影片的建議。 |
 | 建議檢視了關於在您的銀行存款計劃的客戶也閱讀關於 IRA 帳戶的資訊。 | 使用「瀏覽過此項目、但購買了其他項目的使用者」條件，顯示人員在檢視一個產品而沒有顯示建議中第一個產品之後購買的其他產品。 |
-</table>
 
 如需這些事項和其他 [!DNL Recommendations] 條件的相關資訊，請參閱[條件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 訓練影片: 活動類型 ![概述徽章](/help/assets/overview.png)
+## 詞彙
+
+開始使用之前 [!DNL Recommendations]，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，不必擔心，當您設定活動時，您會更熟悉這些詞 [!DNL Recommendations] 語。
+
+| 術語 | 定義 |
+| --- | --- |
+| 活動 | 中的活動 [!DNL Target] 可讓您針對特定受眾個人化內容並測試頁面設計。 [!DNL Recommendations] 只是中的眾多活動類型之一 [!DNL Target]。 如需詳細資訊，請參 [閱Target活動類型](/help/c-activities/target-activities-guide.md)。 |
+| 實體 | 實體會參考您要建議的項目。實體可以是產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。如需詳細資訊，請參閱實 [體](/help/c-recommendations/c-products/products.md)。 |
+| 動態消息 | 動態消息用於將實體匯入 [!DNL Recommendations]。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。如需詳細資訊，請參閱[摘要](/help/c-recommendations/c-products/feeds.md)。 |
+| 目錄 | 目錄是指您的整個產品集（實體）。 您的型錄可包含許多系列——以邏輯區間組織產品的方式。 |
+| 集合 | 系列是指一組類似或相關的項目，例如單一產品類別。 不過，只要符合業務的需要，您可以將任何項目分組到類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區受到歡迎的項目。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
+| 標準 | 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。<br>標準的幾個範例包括： <ul><li>購買了此項目、也購買了其他項目的使用者</li><li>瀏覽過此項目、也瀏覽了其他項目的使用者</li><li>具有類似屬性的項目</li><li>上次購買的項目</li><li>最喜愛的類別</li></ul>  如需詳細資訊，請參閱[條件](/help/c-recommendations/c-algorithms/algorithms.md)。 |
+| 設計 | 設計會定義活動中建議的 [!DNL Recommendations] 外觀，例如列、欄、表格或格線。 本文最上方的插圖顯示4 x 1設計。 For more information, see [Create a design](/help/c-recommendations/c-design-overview/create-design.md). |
+| 位置 | 位置是指您執行活動以進行個人化和最佳化目的之網頁、行動應用程式或電子郵件上的特定內容區域。 |
+| 對象 | 觀眾是類似活動進入者的群組，他們會看到目標活動。 受眾是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。受眾功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如需詳細資訊，請參閱[對象](/help/c-target/target.md)。 |
+| 建議作為選件 | 可讓您在A/B測試（包括自動分配和自動定位）和體驗定位(XT)活動中加入建議的功能。 如需詳細資訊，請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。 |
+
+## 訓練影片：活動類型 ![概述徽章](/help/assets/overview.png)
 
 此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。7:20 處開始討論 [!DNL Recommendations]。
 
