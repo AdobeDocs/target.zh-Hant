@@ -6,10 +6,10 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 99%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[!UICONTROL [選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。]
+   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/c-intro/intro.md#premium)，請選擇[工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
