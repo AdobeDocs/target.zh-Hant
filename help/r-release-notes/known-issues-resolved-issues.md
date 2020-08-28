@@ -5,10 +5,10 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '3521'
-ht-degree: 85%
+source-wordcount: '3657'
+ht-degree: 82%
 
 ---
 
@@ -24,6 +24,22 @@ ht-degree: 85%
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節羅列 [!DNL Target] 的已知問題：
+
+### 報表
+
+目前，轉換的增量會根據使用對象而有所不同。
+
+例如，對於相同的訪客，如果轉換計數設定為遞增「每個參與者一次：」
+
+* 受眾：瀏覽層級轉換的「所有合格訪客」僅增加一次。 這是預期的行為。
+* 受眾：每次瀏覽層級轉換的「新訪客」會錯誤地遞增，而不是只增加一次。 這不是預期的行為。
+
+如果轉換計數設為遞增「每次曝光：」
+
+* 受眾：訪客層級轉換的「所有合格訪客」只會錯誤地增加一次，而不是每次增加。 這不是預期的行為。
+* 受眾：每次訪客層級轉換的「新訪客」都會增加。 這是預期的行為。
+
+請注意，此問題僅與報 [!DNL Target] 告有關。 使用Analytics for Target  (A4T)報表時，不會發生此問題。
 
 ### 頁面傳送 {#page-delivery}
 
