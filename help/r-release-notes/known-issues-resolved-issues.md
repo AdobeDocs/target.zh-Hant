@@ -5,10 +5,10 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -122,6 +122,12 @@ at.js 的已知問題如下：
 ## 已解決的問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 由於上述的已知問題已解決，我們會將其移至以下小節，並在必要時新增其他備註。
+
+### 使用Google Chrome 80+版時，未在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中載入的頁面
+
+此已知問題與Google在變更Cookie的預設行為時，從Chrome 80版開始，未使用「相同網站屬性」。 在變更前，Chrome會將不含SameSite屬性的所有Cookie預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更Cookie在GET和POST要求上的傳送方式。 請參 [閱SameSite更新](https://www.chromium.org/updates/same-site)。
+
+如需詳細資訊和修正，請參閱「最近宣佈的Google Chrome SameSite Cookie實施政策如何影響VEC和EEC?」 in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### 使用自訂體驗作為控制時，自動鎖定目標活動的圖表報表無法呈現
 
