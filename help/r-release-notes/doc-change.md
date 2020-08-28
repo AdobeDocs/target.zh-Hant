@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '2015'
 ht-degree: 29%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 8月28日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已更新下列項目：<ul><li>已新增至「已知問題」區段：「報告——轉換目前的增量依使用對象而異。」</li><li>已新增至「已解決的問題」區段：「使用Google Chrome 80+版時，Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中未載入的頁面。」</li></ul> |
+|  | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | mbox.js的取代日期已從2020年8月30日變更為2021年1月18日。 |
 | 8月26日 | [搭配Target Recommendations使用Adobe Analytics](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新主題。 |
 | 8月24日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 更新「進階設定」區段。 |
 | 8月21日 | [Adobe Target歡迎套件總覽](/help/c-intro/target-welcome-kit.md) | 新文章和子主題。 |
