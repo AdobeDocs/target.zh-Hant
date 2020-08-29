@@ -5,10 +5,10 @@ title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 85%
 
 ---
 
@@ -23,8 +23,9 @@ Google Chrome 的 [!DNL Adobe Target] 可視化體驗撰寫器 (VEC) Helper 瀏�
 * 網站架設在 iFrame 中。
 * 網站尚未實作 at.js 資料庫。
 * 外部無法存取客戶的 QA 和/或預備網站 (網站為內部網站)。
+* 您使用的Google Chrome 80+搭配增強的SameSite Cookie實施政策。 如需詳細資訊，請 [參閱最近宣佈的Google Chrome SameSite Cookie實施政策如何影響VEC和EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-Chrome 的 VEC Helper 瀏覽器擴充功能解決了客戶現依賴 [!DNL Target] [!UICONTROL 增強體驗撰寫器]或第三方擴充功能 (例如 Requestly) 會遇到的網站載入問題。
+The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly.
 
 使用 VEC Helper 擴充功能的好處:
 
