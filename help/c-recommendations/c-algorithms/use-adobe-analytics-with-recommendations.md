@@ -4,9 +4,9 @@ description: 使用Adobe Analytics做為行為資料來源可讓客戶使用Adob
 title: 搭配使用Adobe Analytics和Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '988'
 ht-degree: 2%
 
 ---
@@ -148,3 +148,16 @@ ht-degree: 2%
    ![映射部分](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
+## 常見問題
+
+當您搭配使用時，請考慮下列常見 [!DNL Analytics] 問答 [!DNL Target]集：
+
+### 在mbox `entity.id` 呼叫 `entity.categoryId` 中傳遞所需的 [!DNL Target] 和值嗎？
+
+是的，這兩個值仍為必要值。 其餘屬性可透過動態消息傳 [!DNL Analytics] 遞，如本文所述。
+
+### 我是否可以使用動態包含規則，例如實體參數會使用動態消息方法比對描述 [!DNL Analytics] 檔屬性？
+
+是的，你可以。 該方法在單獨使用時 [!DNL Target] 類似。 但是，在這種情況下，您必須留意時間因素。 應與描述檔變數相符的實體變數，會依據日後可能出現在頁面上的資料層而定。
+
