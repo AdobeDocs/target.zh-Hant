@@ -4,9 +4,9 @@ description: 使用Adobe Analytics做為行為資料來源可讓客戶使用Adob
 title: 搭配使用Adobe Analytics和Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 3%
 
 ### 部署步驟
 
-假設所有預先要求皆已具備，Adobe Target Recommendations團隊必須執行下列工作：
+假設所有預先要求都已就緒，團隊必須執行下列工 [!DNL Adobe Target Recommendations] 作：
 
->[重要]
+>[!IMPORTANT]
 >
->以下步驟是供說明之用。 請注意，Recommendations團隊的成員目前必須執行這些步驟。 [如需詳細資訊，請連絡 客戶服務。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+>以下步驟僅供說明之用。 團隊成員目前必 [!DNL Recommendations] 須執行這些步驟。 [如需詳細資訊，請連絡 客戶服務。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 1. 在中 [!DNL Target]，按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 作]** 」以取得您 [!DNL Target] 的用戶端代碼。
 
