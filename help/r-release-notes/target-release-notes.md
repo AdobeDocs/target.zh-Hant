@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 405715f1ee1afd1d298dc7f1ef0cd3599620cbca
+source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 11%
@@ -58,7 +58,7 @@ ht-degree: 11%
 * 修正當工作區名稱(在適用於企業的 [!UICONTROL Adobe Admin Console中指定])包含縮寫符號時，使用者無法顯示「活動」頁面的問題。 (TGT-37709)
 * 修正「自動  分配」活動中，選取最佳化和轉換量度時，即使已指定報表套裝，錯誤訊息仍會錯誤告知使用者選取報表套裝的問題。 (TGT-37689)
 * 修正導覽至「定位」頁面後，有時造 [!UICONTROL 成「目標與設定」頁面上的量度空白的] 問題  。 (TGT-37691)
-* 修正導致准則上次修改值不正確的 [!DNL Recommendations] 問題。 (TGT-37666)
+* 修正導致准則上次修改的值不正確的 [!DNL Recommendations] 問題。 (TGT-37666)
 * 修正mbox ID顯示在「mbox」下拉式清單中，而非mbox名稱的問題。 (TGT-37739)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
