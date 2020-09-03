@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 30%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,39 +37,27 @@ ht-degree: 30%
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## at.js 2.3.2（2020年7月24日）
-
-此版本的at.js是維護髮行，包含下列修正：
-
-* 修正指令碼或程式碼新增預設屬性至視窗或檔案時的錯誤。
-
-## Target Standard/Premium 20.7.1 (2020 年 7 月 27 日)
-
-此版本包含下列變更:
-
-### [!UICONTROL 管理區] UI重新整理
-
-我們使用新技術堆疊逐漸重寫整個 [!DNL Target] UI，以提供改善的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 刷新的第一個部分是 [!UICONTROL Setup] （設定）部分，該部分已更名為 [!UICONTROL Administration]（管理）。
-
-在重新整理時，您將可以使用「管理」區段中的頁面輕鬆執行許多 [!UICONTROL 動作] ，例如：
-
-* 從「實作」標籤(「管理 [!UICONTROL >實作] 」)下載最新的at.js ********&#x200B;檔案。
-* 自訂您的at.js設定，並可輕鬆檢閱變更(「管&#x200B;**[!UICONTROL 理]** >實 **[!UICONTROL 作]**」)。
-* 修改增強的報表設定，例如預設貨幣和時區、要排除在報表外的IP等。 (管&#x200B;**[!UICONTROL 理]** >報 **[!UICONTROL 告]**)
-* 基於隱私權原因模糊化訪客IP位&#x200B;**[!UICONTROL 址(]** 「管理 **[!UICONTROL >]**&#x200B;實作」)
-* 在Adobe Admin Console（「管理」>「使用者」）中管理使用者之前，檢視每個工作區及其角色的&#x200B;**[!UICONTROL 現有]****[!UICONTROL 使用者清單]**。
-* 在「管理」區段中搜尋並篩選所 [!UICONTROL 有表格] 。
-
-如需詳細資訊，請參 [閱管理目標概述](/help/administrating-target/administrating-target.md)。
-
-### 增強功能、修正和變更
+## Target Standard/Premium 20.8.1 (2020 年 9 月 2 日)
 
 此發行包含下列增強功能、修正和變更：
 
-* 修正重新整理後網站偏好設定無法保留的問題。 (TGT-37239)
-* 修正「在後面插入 [!UICONTROL >影像」無] 法與可縮放向量圖形(SVG)影像一起正常運作的問題。 (TGT-37242)
-* 修正具有「發佈者」角色的 [!UICONTROL 使用者] ，無法刪除草稿活動的問題。 (TGT-37358)
-* 修正在選取「我的所有工作區」時，使用者無 [!UICONTROL 法編輯活動] 的問題。 (TGT-37276)
+* 修正在切換組織後載入新的「管理」頁面時， [!UICONTROL 顯示錯誤] 的問題。 (TGT-37730)
+* 修正導致「管理>實作」頁面上顯示錯誤用戶端 [!UICONTROL 代碼的顯示問題] 。 (TGT-37849)
+* 修正在成功載入VEC後，使用者有時無法在 [!UICONTROL Visual Experience Composer] (VEC)中使用編輯功能的問題。 (TGT-37162)
+* 修正即使已安裝VEC Helper擴充功能，仍無法在VEC和Enhanced Experience Composer(EEC)中載入頁面的問題。 這是由於Google Chrome 80+的變更。 下載更 [新的VEC Helper擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。 (TGT-37893)
+* 修正使用者在切換組織後，有時無法從「管理>實作」頁 [!UICONTROL 面下載at.js的問題] 。 (TGT-37668)
+* 現在載入時會停用at.js下載按鈕，以防止使用者 [!DNL Target] 多次按一下下載按鈕時傳送多個請求。 (TGT-37633)
+* 修正「體驗 [!UICONTROL 定位] (XT)」活動中，導致體驗在較長時間內顯示「擷取結果」的問題。 (TGT-37684)
+* 已改善僅限鍵盤使用者的導覽和功能。 (TGT-34479 和 TGT-34473)
+* 在UI中新增標籤，以協助使用者使用輔助技術。 (TGT-34480)
+* 改進刪除活動中目前使用的行動檢視區時的錯誤訊息。 錯誤訊息現在會顯示：「此視區目前與一或多個活動相關聯。 您必須先從這些活動中移除視區，才能刪除它。」 (TGT-37030)
+* 在VEC中新增支援，可允許在符合頁面中多個元素的css選擇器上追蹤點按。 (TGT-37323)
+* 修正某些使用者無法顯示「活動」清單 [!UICONTROL 的問] 題。 顯示以下錯誤消息：&quot;無法擷取URL建議。&quot; 在Adobe後端系統中，使用其FirstName(FirstName/r/n)中傳回歸位的使用者發生錯誤。 (TGT-37330)
+* 修正當工作區名稱(在適用於企業的 [!UICONTROL Adobe Admin Console中指定])包含縮寫符號時，使用者無法顯示「活動」頁面的問題。 (TGT-37709)
+* 修正「自動  分配」活動中，選取最佳化和轉換量度時，即使已指定報表套裝，錯誤訊息仍會錯誤告知使用者選取報表套裝的問題。 (TGT-37689)
+* 修正導覽至「定位」頁面後，有時造 [!UICONTROL 成「目標與設定」頁面上的量度空白的] 問題  。 (TGT-37691)
+* 修正導致准則上次修改的值不正確的 [!DNL Recommendations] 問題。 (TGT-37666)
+* 修正mbox ID顯示在「mbox」下拉式清單中，而非mbox名稱的問題。 (TGT-37739)
 
 ## 其他發行說明和版本詳細資訊
 
