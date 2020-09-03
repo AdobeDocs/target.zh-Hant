@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '29011'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,40 @@ ht-degree: 89%
 >請參閱 [Target 版本說明 (最新)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明- 2020
+
+### at.js 2.3.2（2020年7月24日）
+
+此版本的at.js是維護髮行，包含下列修正：
+
+* 修正指令碼或程式碼新增預設屬性至視窗或檔案時的錯誤。
+
+### Target Standard/Premium 20.7.1 (2020 年 7 月 27 日)
+
+此版本包含下列變更:
+
+#### [!UICONTROL 管理區] UI重新整理
+
+我們使用新技術堆疊逐漸重寫整個 [!DNL Target] UI，以提供改善的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 刷新的第一個部分是 [!UICONTROL Setup] （設定）部分，該部分已更名為 [!UICONTROL Administration]（管理）。
+
+在重新整理時，您將可以使用「管理」區段中的頁面輕鬆執行許多 [!UICONTROL 動作] ，例如：
+
+* 從「實作」標籤(「管理 [!UICONTROL >實作] 」)下載最新的at.js ********&#x200B;檔案。
+* 自訂您的at.js設定，並可輕鬆檢閱變更(「管&#x200B;**[!UICONTROL 理]** >實 **[!UICONTROL 作]**」)。
+* 修改增強的報表設定，例如預設貨幣和時區、要排除在報表外的IP等。 (管&#x200B;**[!UICONTROL 理]** >報 **[!UICONTROL 告]**)
+* 基於隱私權原因模糊化訪客IP位&#x200B;**[!UICONTROL 址(]** 「管理 **[!UICONTROL >]**&#x200B;實作」)
+* 在Adobe Admin Console（「管理」>「使用者」）中管理使用者之前，檢視每個工作區及其角色的&#x200B;**[!UICONTROL 現有]****[!UICONTROL 使用者清單]**。
+* 在「管理」區段中搜尋並篩選所 [!UICONTROL 有表格] 。
+
+如需詳細資訊，請參 [閱管理目標概述](/help/administrating-target/administrating-target.md)。
+
+#### 增強功能、修正和變更
+
+此發行包含下列增強功能、修正和變更：
+
+* 修正重新整理後網站偏好設定無法保留的問題。 (TGT-37239)
+* 修正「在後面插入 [!UICONTROL >影像」無] 法與可縮放向量圖形(SVG)影像一起正常運作的問題。 (TGT-37242)
+* 修正具有「發佈者」角色的 [!UICONTROL 使用者] ，無法刪除草稿活動的問題。 (TGT-37358)
+* 修正在選取「我的所有工作區」時，使用者無 [!UICONTROL 法編輯活動] 的問題。 (TGT-37276)
 
 ### Target Standard/Premium 20.5.1 (2020 年 6 月 17 日)
 
@@ -49,7 +83,7 @@ ht-degree: 89%
 
 ### 描述檔批次狀態API v2變更（2020年5月14日）
 
-在5月20日發行中，描述檔批次狀態將只會傳回行層級失敗資料（不會傳回成功資料）。 API將會傳回失敗的描述檔ID。
+在5月20日發行中，描述檔批次狀態將只會傳回行層級的失敗資料（不會傳回成功資料）。 API將會傳回失敗的描述檔ID。
 
 舊版和新版API回應如下：
 
