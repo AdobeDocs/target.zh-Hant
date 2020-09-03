@@ -6,10 +6,10 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 77%
 * **使用HTTP方法的每個上載檔案大小上限**:100 MB。
 * **使用FTP方法每次上載的檔案大小上限**:4 GB。
 * **允許訂閱的屬性數**:5: [!DNL Target Standard] 200: [!DNL Target Premium]。
+
+## 實體
+
+可在設計中參照 (明確寫在程式碼中或透過迴圈) 的實體數上限是 99。
 
 ## 實體自訂屬性
 
