@@ -5,7 +5,7 @@ title: 設定Adobe Target Visual Experience Composer
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -37,7 +37,7 @@ ht-degree: 51%
 
 設定[!UICONTROL 可視化體驗撰寫器]所使用的預設 URL。這是每當您為每個新增活動設定體驗時會使用的預設頁面 (例如您的首頁)。如果您不設定預設的 URL，則必須在建立活動時，為每個活動輸入 URL。
 
-### 啟用增強體驗撰寫器
+### 啟用增強體驗撰寫器 {#eec}
 
 允許在 iframe-busting 網站以及含有混合內容的網站上編輯。有些網站可能與增強版不相容。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 此選擇不會影響網站上的活動傳送。
 
