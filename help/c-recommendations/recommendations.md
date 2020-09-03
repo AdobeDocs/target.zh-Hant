@@ -5,10 +5,10 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 59%
 | 術語 | 定義 |
 | --- | --- |
 | 活動 | 中的活動 [!DNL Target] 可讓您針對特定受眾個人化內容並測試頁面設計。 [!DNL Recommendations] 只是中的眾多活動類型之一 [!DNL Target]。 如需詳細資訊，請參 [閱Target活動類型](/help/c-activities/target-activities-guide.md)。 |
-| 實體 | 實體會參考您要建議的項目。實體可以是產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。如需詳細資訊，請參閱實 [體](/help/c-recommendations/c-products/products.md)。 |
+| 實體 | 實體會參考您要建議的項目。實體可以是產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。 For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | 動態消息 | 動態消息用於將實體匯入 [!DNL Recommendations]。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。如需詳細資訊，請參閱[摘要](/help/c-recommendations/c-products/feeds.md)。 |
 | 目錄 | 目錄是指您的整個產品集（實體）。 您的型錄可包含許多系列——以邏輯區間組織產品的方式。 |
 | 集合 | 系列是指一組類似或相關的項目，例如單一產品類別。 不過，只要符合業務的需要，您可以將任何項目分組到類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區受到歡迎的項目。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
