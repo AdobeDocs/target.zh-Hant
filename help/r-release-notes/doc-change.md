@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '2024'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 28%
 # 文件變更{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.8.1 (2020 年 9 月 2 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 9月2日 | [版本說明](/help/r-release-notes/release-notes.md): 20.8.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 20.7.1 (2020 年 7 月 27 日)
 
