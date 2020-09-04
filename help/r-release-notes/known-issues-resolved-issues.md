@@ -5,10 +5,10 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 82%
 ### 頁面傳送 {#page-delivery}
 
 如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這僅是格式上的差異，不會影響對象定義建立和選件傳送等作業。(TGT-35920)
+
+### QA預覽連結
+
+如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結應可解決此問題。封存已儲存的活動，這些活動不再主動用來防止此問題持續發生。 (TNT-37294)
 
 ### Recommendations活動的QA模式
 
