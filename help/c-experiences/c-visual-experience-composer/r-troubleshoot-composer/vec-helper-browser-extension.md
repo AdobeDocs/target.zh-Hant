@@ -5,10 +5,10 @@ title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 59%
+source-wordcount: '847'
+ht-degree: 58%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 59%
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-某些網站無法可靠地在 VEC 中開啟的可能原因:
+>[!NOTE]
+>
+>VEC Helper瀏覽器是Chrome擴充功能。 使用Mozilla Firefox時，不需要此擴充功能。
+
+## 某些網站無法可靠地在 VEC 中開啟的可能原因
 
 * 網站的安全性原則過於嚴格。
 * 網站架設在 iFrame 中。
@@ -27,7 +31,7 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
 
-使用 VEC Helper 擴充功能的好處:
+## 使用 VEC Helper 擴充功能的好處
 
 * 所有的 iFrame 爆破標頭 (例如 X-Frame-Options 和 Content-Security-Policy) 會以隱含的方式從網站上移除。不再需要建立複雜的 Requestly 規則即可完成相同工作。
 * 如果網站上未包含 [!DNL Target] at.js JavaScript 資料庫，您可以使用擴充功能來插入資料庫，這樣就能為網站撰寫體驗。接著可以使用預覽連結來建立活動和保證品質。
