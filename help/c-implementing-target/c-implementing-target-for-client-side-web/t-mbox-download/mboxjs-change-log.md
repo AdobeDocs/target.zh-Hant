@@ -6,10 +6,10 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -147,9 +147,9 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
 此版本中進行了下列變更:
 
-* 為 Target Standard 自動建立的全域 mbox 回應不再使用 document.write() 或建立 <div> 元素。
+* 為 Target Standard 自動建立的全域 mbox 回應不再使用 document.write() 或建立`<div>`元素。
 
-   如此，mbox.js 檔案就不需要是頁面之 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 中的最後一個項目。升級至此新版本時，建議進行強式 QA。
+   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. 升級至此新版本時，建議進行強式 QA。
 
    此項變更可能造成傳送某些選件類型時的行為變更。以下是需要考慮的特定條件:
 
@@ -227,7 +227,7 @@ mbox.js 57 版也包含重要修正:
 
 **發行日期:** 2014 年 9 月 30 日
 
-將全域 mbox 實作從 document.write 變更為 AJAX。如此，mbox.js 檔案就不需要是頁面之 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 小節。此版本僅可透過 API 取得。用戶端可下載並使用此 mbox.js 檔案。有些網站使用此實作時會發生內容忽隱忽現的問題，因此請在網站上驗證整合。
+將全域 mbox 實作從 document.write 變更為 AJAX。如此，mbox.js 檔案就不需要是頁面之`<head>`小節。此版本僅可透過 API 取得。用戶端可下載並使用此 mbox.js 檔案。有些網站使用此實作時會發生內容忽隱忽現的問題，因此請在網站上驗證整合。
 
 ## mbox 53 版
 
