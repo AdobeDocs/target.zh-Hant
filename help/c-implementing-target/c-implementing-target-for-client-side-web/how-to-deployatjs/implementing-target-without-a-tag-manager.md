@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -127,7 +127,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 若要從 [!DNL at.js] 介面下載 [!DNL Target]:
 
 1. 按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 施」]**。
-1. 在「實 [!UICONTROL 作方法] 」區段中，按一 **[!UICONTROL 下所需at.js版本旁的「下載]** 」按鈕。
+1. 在「實 [!UICONTROL 作方法] 」區段中，按一下所 **[!UICONTROL 要at.js版本旁的「下載]** 」按鈕。
 
 ### Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
@@ -184,7 +184,6 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 ```
 <!doctype html> 
 <html> 
- 
 <head> 
     <meta charset="utf-8"> 
     <title>Title of the Page</title> 
@@ -227,12 +226,10 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
     <!--Target's JavaScript SDK, at.js--> 
     <script src="at.js"></script> 
     <!--/at.js--> 
-</head> 
- 
+</head>
 <body> 
     The default content of the page 
 </body> 
- 
 </html>
 ```
 
