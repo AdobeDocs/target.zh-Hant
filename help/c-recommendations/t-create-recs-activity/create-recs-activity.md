@@ -5,7 +5,7 @@ title: 建立 Recommendations 活動
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 93%
@@ -84,8 +84,8 @@ ht-degree: 93%
 
       有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
-   * 您也可以將條件群組為序列。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 請參閱[建立條件序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)以取得相關資訊。
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 您也可以將條件群組為序列。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 如需詳 [細資訊，請參閱](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) 「建立准則序列」。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/c-recommendations/c-design-overview/design-overview.md)。
