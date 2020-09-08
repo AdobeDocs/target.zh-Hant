@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '29297'
+ht-degree: 88%
 
 ---
 
@@ -1940,7 +1940,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: 條件設定順序 </td> 
-   <td colname="col2"> <p>在單一體驗中使用最多五個預先建立的條件集，對向訪客呈現的建議有更大的控制。 </p> <p>如需詳細資訊，請參閱<a href="../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local">建立條件順序</a>。 </p> </td> 
+   <td colname="col2"> <p>在單一體驗中使用最多五個預先建立的條件集，對向訪客呈現的建議有更大的控制。 </p> <p>如需詳細資訊，請參閱 <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> Create Criteria Sequences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: 插入外部促銷活動 </td> 
