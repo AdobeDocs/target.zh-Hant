@@ -5,15 +5,15 @@ title: Adobe Target Recommendations中的條件
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 條件{#criteria}
+# ![PREMIUM](/help/assets/premium.png) 條件
 
 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
 
@@ -107,10 +107,10 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![演算法資訊索引標籤](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-按一下&#x200B;**[!UICONTROL 「演算法使用情形」]**&#x200B;索引標籤，即可查看參照選取條件的活動清單。卡片會列出使用中和非使用中的活動。按一下「已上線活動」或「非使用中活動」下拉式清單，即可查看參照該條件的完整活動清單。您可以按一下活動連結以開啟活動並編輯。
+按一下&#x200B;**[!UICONTROL 「演算法使用情形」]**&#x200B;索引標籤，即可查看參照選取條件的活動清單。卡片會列出活動中、非活動中和草稿活動。 按一下「即時活動／非活動／草稿活動」下拉式清單，以檢視參照該准則之活動的完整清單。 您可以按一下活動連結以開啟活動並編輯。
 
 ![演算法使用標籤](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->「演 [!UICONTROL 算法使用] 」功能目前僅支援Recommendations活動。 A/B測試與體驗定位(XT)活動目前不支援此功能，這些活動會將建議 [納入選件中](/help/c-recommendations/recommendations-as-an-offer.md)。
+>「演 [!UICONTROL 算法使用] 」功能目前僅支援Recommendations活動。 A/B測試、自動分配、自動定位和體驗定位(XT)活動目前不支援此功能，這些活動將建議 [納入選件中](/help/c-recommendations/recommendations-as-an-offer.md)。
