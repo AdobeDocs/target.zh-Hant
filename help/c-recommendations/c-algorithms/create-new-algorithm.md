@@ -4,39 +4,45 @@ title: 建立條件
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3615'
-ht-degree: 98%
+source-wordcount: '3759'
+ht-degree: 91%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 建立條件{#create-criteria}
 
-條件可控制 Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
+條件可控制 [!UICONTROL Recommendations] 活動的內容。建立條件以顯示最適合您的活動的建議。
 
-## 建立條件 {#task_8A9CB465F28D44899F69F38AD27352FE}
+## 建立新條件
 
-條件可控制 [!DNL Recommendations] 活動的內容。建立條件以顯示最適合您的活動的建議。
+以下各節說明如何建立新標準。
+
+### 存取「建立新准則」畫面
 
 有多個方式可進入[!UICONTROL 「建立新條件」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 建立 [!DNL Recommendations]**[!UICONTROL 活動時，請在「選取條件」]**&#x200B;畫面上按一下[!UICONTROL 「新建」]。您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
-* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**。您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
-* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」]**。您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
+* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. 您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
+* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
+* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
 
-1. 按一下&#x200B;**[!UICONTROL 「建立條件」]**&#x200B;或&#x200B;**[!UICONTROL 「新建」]**。
+以下步驟假定您使用第一 [!UICONTROL 種方法訪問「建立新標準] 」螢幕：「建 **[!UICONTROL 議]** > **[!UICONTROL 准則]** 」程式庫畫面。
 
-   ![建立條件按鈕](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. 按一 **[!UICONTROL 下「建議]** > **[!UICONTROL 准則]**」。
 
-1. 選取&#x200B;**[!UICONTROL 「建立條件」]**。
+1. 按一 **[!UICONTROL 下「建立條件]** > **[!UICONTROL 建立條件]**」。
 
    ![建立新條件](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### 填寫「基本資訊」區段
 
 1. 輸入&#x200B;**[!UICONTROL 條件名稱]**。
 
    這是用來說明該條件的「內部」名稱。例如，您可能想要將您的條件稱為「利潤最高的產品」，但您不想要將該標題公開顯示。請參閱下一個步驟來設定公開顯示的標題。
+
+   ![「基本資訊」部分](/help/c-recommendations/c-algorithms/assets/basic-information.png)
 
 1. 輸入公開顯示的&#x200B;**[!UICONTROL 顯示標題]**，以在使用此條件的任何 Recommendations 頁面上顯示。
 
@@ -44,7 +50,7 @@ ht-degree: 98%
 
 1. 輸入條件的簡短&#x200B;**[!UICONTROL 說明]**。
 
-   說明應該能協助您識別條件，並且可能包括關於條件用途的資訊。
+   說明應協助您識別標準，並可能包含標準用途的相關資訊。
 
 1. 選取&#x200B;**[!UICONTROL 垂直產業]**:
 
@@ -72,7 +78,11 @@ ht-degree: 98%
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### 指定您的資料來源選項
+
 1. 設定&#x200B;**[!UICONTROL 資料範圍]**，以便在決定要顯示哪些建議時，限定要使用的可用歷史使用者行為資料的時間範圍。
+
+   ![資料範圍滑桿](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    如果您的網站經常有大量流量和行為變更，請選擇較短的資料時段。較短的時段可讓 [!DNL Recommendations] 對於市場和您的業務中的變更更具回應力。例如，較短的時段表示 [!DNL Recommendations] 將在您的訪客開始季節性購物 (例如開學購物或聖誕節) 時偵測訪客行為中的變更，並將對這些購物季建議適當的項目。
 
@@ -86,45 +96,63 @@ ht-degree: 98%
    * 一個月
    * 兩個月
 
-1. 選取需要的&#x200B;**[!UICONTROL 行為資料來源]**: [!UICONTROL mbox] 或 [!UICONTROL Analytics]。
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   ![「行為資料源」部分](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    如果您選擇 [!UICONTROL Analytics]，請選取需要的報表套裝。
 
-   如需詳細資訊，請參 [閱「搭配使用Adobe Analytics與Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)」。
+   如需詳細資訊，請參 [閱下方的Adobe Analytics](#analytics) , [並搭配使用Adobe Analytics和Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
-1. 設定&#x200B;**[!UICONTROL 內容]**&#x200B;規則。
+### 指定內容設定
 
-   內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。
+設定[!UICONTROL 內容]規則。
 
-   選取適當的切換:
+內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。
 
-   * [!UICONTROL 啟用部分設計呈現]
-   * [!UICONTROL 顯示備用建議]
-   * [!UICONTROL 建議先前購買的項目]
+![內容區段](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   此設定是根據 `productPurchasedId`。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是客戶會回來再次購買的項目，例如洗髮精或其他個人項目，則應該停用此選項。
+1. （可選）將「部 **[!UICONTROL 分設計演算]** 」切換至「開啟」位置。
 
-1. 設定您的&#x200B;**[!UICONTROL 包含規則]**。
+   將會填入盡可能多的槽，但設計範本可能包含剩餘槽的空白空間。
+
+1. （可選）將「顯 **[!UICONTROL 示備份建議]** 」切換至「開啟」位置。
+
+   從您的網站上隨機選擇檢視次數最多的產品，以填入設計中剩餘的空白位置。
+
+   如需詳細資訊，請參 [閱使用備份建議](/help/c-recommendations/c-algorithms/backup-recs.md)。
+
+1. （條件性）如果您在上 **[!UICONTROL 一步驟中選取「顯示備份建議]** 」，則可以啟用「套 **[!UICONTROL 用包含規則至備份建議」]**。
 
    包含規則可決定將在您的建議中包括哪些項目。可用的選項取決於您的垂直產業。
 
    如需更多詳細資料，請參閱[包含規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。
 
-1. 設定&#x200B;**[!UICONTROL 屬性加權]**。
+1. （可選）投影片「 **[!UICONTROL 建議先前購買的項目]** 」會切換至「開啟」位置。
 
-   您可以新增多個規則，以依據關於內容目錄的重要說明或中繼資料來「推進」演算法。例如，您可以對在售項目套用較高的加權，以便在建議中更頻繁地顯示它們。
+   此設定是根據 `productPurchasedId`。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是客戶會回來再次購買的項目，例如洗髮精或其他個人項目，則應該停用此選項。
 
-   請參閱[屬性加權](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)。
+### 指定包含規則
 
-1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
+![包含規則](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取&#x200B;**[!UICONTROL 「儲存條件以供稍後使用」]**&#x200B;核取方塊。如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
+For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Adobe Analytics
+### 指定屬性加權
+
+您可以新增多個規則，以依據關於內容目錄的重要說明或中繼資料來「推進」演算法。例如，您可以對在售項目套用較高的加權，以便在建議中更頻繁地顯示它們。
+
+請參閱[屬性加權](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)。
+
+完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
+如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取&#x200B;**[!UICONTROL 「儲存條件以供稍後使用」]**&#x200B;核取方塊。如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
+
+### Adobe Analytics {#analytics}
 
 如果條件使用 [!DNL Adobe Analytics] 做為行為資料來源，建立後，條件可用時間會根據其他條件是否已使用選取的報表套裝和回顧期間而定。
 
-* **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。此時間範圍取決於 [!DNL Analytics] 系統負載。
+* **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。This time frame is dependent on the [!DNL Analytics] system load.
 * **使用已可取得之報表套裝的全新或已編輯的條件**: 建立新條件或編輯現有條件時，如果所選報表套裝已搭配 [!DNL Target Recommendations] 使用，且資料範圍小於或等於所選資料範圍，資料即可立即使用且不需要一次性設定。在此情況下，或是在未修改所選報表套裝或資料範圍時已編輯演算法的設定，演算法會在 12 小時內執行或重新執行。
 * **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。例如，針對[!UICONTROL 已檢視的相關性]建議，當使用者檢視某個產品時，產品檢視追蹤呼叫會以近乎即時的速度傳送到 [!DNL Analytics]。[!DNL Analytics] 資料會在隔天很早推送到 [!DNL Target]，且 [!DNL Target] 會在 12 小時內執行演算法。
 
