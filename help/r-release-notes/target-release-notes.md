@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '852'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 8 月 31 日**
+**上次更新: 2020 年 9 月 9 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -38,6 +38,12 @@ ht-degree: 11%
    >
 * **目標公告**:請參閱Target公告頁面，以取得近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。 如需詳細資訊，請參閱 [Target公告](/help/r-release-notes/target-announcements.md)。
 
+
+## Target Standard/Premium 20.8.2 (2020 年 9 月 10 日)
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 在准則順序中控制建議槽 | 「准則序列」現在可讓您控制每個建議准則佔用的槽數，讓您混合和比對不同類型的項目或不同演算法邏輯。<br>如需詳 [細資訊，請參閱](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 「建立准則序列」。 |
 
 ## Target Standard/Premium 20.8.1 (2020 年 9 月 2 日)
 
