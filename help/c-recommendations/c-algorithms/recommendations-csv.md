@@ -5,10 +5,10 @@ title: 上傳自訂條件
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ ht-degree: 98%
    如需依據索引鍵的條件之相關詳細資訊，請參閱[讓建議以建議索引鍵為依據](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
 1. 設定&#x200B;**[!UICONTROL 內容]**&#x200B;規則。
 
-   內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。選取適當的切換。請參閱[內容設定](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)。
+   內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。選取適當的切換。請參閱 [指定內容設定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
 1. 設定您的&#x200B;**[!UICONTROL 包含規則]**。
 
-   包含規則可以協助您縮減在建議中顯示的項目。請參閱[包含規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。1. 選取 CSV 檔案的所在&#x200B;**[!UICONTROL 位置]**。
+   包含規則可以協助您縮減在建議中顯示的項目。See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. 選取 CSV 檔案的所在&#x200B;**[!UICONTROL 位置]**。
 
    CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]**&#x200B;來取得格式正確的 CSV 檔案。
 
