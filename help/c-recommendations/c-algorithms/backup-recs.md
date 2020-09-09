@@ -5,7 +5,7 @@ title: 使用備份建議
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 備份建議的使用通常是初始設定期間與實施團隊進行討論的內容之一。如要在實施後變更備份建議設定，請聯絡客戶經理。
 
-如果「啟用部分設計呈現」(請參閱[內容設定](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) 未啟用，且範本未顯示，則會改為顯示備份建議或預設內容。
+如果「啟用部分設計呈現」(請參閱[內容設定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)) 未啟用，且範本未顯示，則會改為顯示備份建議或預設內容。
