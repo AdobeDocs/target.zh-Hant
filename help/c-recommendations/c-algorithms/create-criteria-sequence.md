@@ -5,7 +5,7 @@ title: 建立條件序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ ht-degree: 43%
 
    將會填入盡可能多的槽，但設計範本可能包含剩餘槽的空白空間。
 
-1. （可選）切割「 **[!UICONTROL 備份建議]** 」切換至「開啟」位置。
+1. （可選）將「備 **[!UICONTROL 份建議]** 」切換至「開啟」位置。
 
    從您的網站上隨機選擇檢視次數最多的產品，以填入設計中剩餘的空白位置。
 
