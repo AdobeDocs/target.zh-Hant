@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1095'
+ht-degree: 25%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 0%
 
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## Target Standard/Premium 20.8.2 (2020 年 9 月 10 日)
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 在准則順序中控制建議槽 | 「准則序列」現在可讓您控制每個建議准則佔用的槽數，讓您混合和比對不同類型的項目或不同演算法邏輯。<br>如需詳 [細資訊，請參閱](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 「建立准則序列」。 |
 
 ## Target Standard/Premium 20.8.1 (2020 年 9 月 2 日)
 
