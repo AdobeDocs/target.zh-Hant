@@ -5,7 +5,7 @@ title: 建立條件序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -132,7 +132,7 @@ ht-degree: 43%
 
    條件序列會出現在條件清單中。
 
-   如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+   如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md)。
 
 ## 訓練影片: 在 Recommendations 中建立條件 (12:33) ![教學課程徽章](/help/assets/tutorial.png)
 
