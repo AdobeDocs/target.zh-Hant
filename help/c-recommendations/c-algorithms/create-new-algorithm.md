@@ -1,11 +1,11 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting
 description: 條件可控制 Adobe Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
 title: 建立條件
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 250cf8be318cf67257b822b62dc81dfcce0fe88b
+source-git-commit: 35bd6358f1deaaccbf3f272c0f3ff53ed39fb332
 workflow-type: tm+mt
 source-wordcount: '3609'
 ht-degree: 85%
