@@ -1,13 +1,14 @@
 ---
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;
 description: 條件可控制 Adobe Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
 title: 建立條件
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
+source-git-commit: 250cf8be318cf67257b822b62dc81dfcce0fe88b
 workflow-type: tm+mt
-source-wordcount: '3759'
-ht-degree: 91%
+source-wordcount: '3609'
+ht-degree: 85%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 91%
 
    ![建立新條件](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-### 填寫「基本資訊」區段
+### 填寫「基本資訊」區段 {#info}
 
 1. 輸入&#x200B;**[!UICONTROL 條件名稱]**。
 
@@ -68,15 +69,15 @@ ht-degree: 91%
 
 1. 選取一個&#x200B;**[!UICONTROL 建議索引鍵]**。
 
-   如需依據索引鍵的條件之相關詳細資訊，請參閱[讓建議以建議索引鍵為依據](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
+   如需依據索引鍵的條件之相關詳細資訊，請參閱[讓建議以建議索引鍵為依據](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
 
 1. 選取&#x200B;**[!UICONTROL 「建議邏輯」]**。
 
-   如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+   如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md)。
 
    >[!NOTE]
    >
-   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
 ### 指定您的資料來源選項
 
@@ -98,17 +99,25 @@ ht-degree: 91%
 
 1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
+   >[!NOTE]
+   >
+   >只有當 [!UICONTROL 您的實作使用Analytics for Target][](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)時，才會顯示「行為資料來源」區段。
+
    ![「行為資料源」部分](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    如果您選擇 [!UICONTROL Analytics]，請選取需要的報表套裝。
 
-   如需詳細資訊，請參 [閱下方的Adobe Analytics](#analytics) , [並搭配使用Adobe Analytics和Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
+   If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria, as explained below:
 
-### 指定內容設定
+   * **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。This time frame is dependent on the [!DNL Analytics] system load.
+   * **使用已可取得之報表套裝的全新或已編輯的條件**: 建立新條件或編輯現有條件時，如果所選報表套裝已搭配 [!DNL Target Recommendations] 使用，且資料範圍小於或等於所選資料範圍，資料即可立即使用且不需要一次性設定。在此情況下，或是在未修改所選報表套裝或資料範圍時已編輯演算法的設定，演算法會在 12 小時內執行或重新執行。
+   * **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。例如，針對[!UICONTROL 已檢視的相關性]建議，當使用者檢視某個產品時，產品檢視追蹤呼叫會以近乎即時的速度傳送到 [!DNL Analytics]。[!DNL Analytics] 資料會在隔天很早推送到 [!DNL Target]，且 [!DNL Target] 會在 12 小時內執行演算法。
 
-設定[!UICONTROL 內容]規則。
+   如需詳細資訊，請參 [閱「搭配使用Adobe Analytics與Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)」。
 
-內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。
+### 指定內容設定 {#content}
+
+內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。Recommendations 條件可能傳回較您的設計所需更少的建議。例如，如果您的設計有5個項目的空間，但您的准則只會建議3個項目，您可以保留空余空間，或使用備份建議來填滿額外空間。
 
 ![內容區段](/help/c-recommendations/c-algorithms/assets/content.png)
 
@@ -126,35 +135,112 @@ ht-degree: 91%
 
    包含規則可決定將在您的建議中包括哪些項目。可用的選項取決於您的垂直產業。
 
-   如需更多詳細資料，請參閱[包含規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。
+   如需更多詳細資料，請參閱 [請在下方指定包含規則](#inclusion) 。
 
 1. （可選）投影片「 **[!UICONTROL 建議先前購買的項目]** 」會切換至「開啟」位置。
 
-   此設定是根據 `productPurchasedId`。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是客戶會回來再次購買的項目，例如洗髮精或其他個人項目，則應該停用此選項。
+   此設定是根據 `productPurchasedId`。預設行為是不推薦先前購買的項目。大多數情況下，您不會想推銷客戶最近已購買的項目。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是人們反複回來購買的物品，例如洗髮水或其他個人物品，您應啟用此選項。
 
-### 指定包含規則
+下列矩陣顯示使用「部分設計演算」和「備 [!UICONTROL 份建議」選項時][!UICONTROL 將觀察的結果] :
+
+| 部分設計呈現 | 備份 Recommendations | 結果 |
+|--- |--- |--- |
+| 已停用 | 已停用 | 如果傳回的建議少於設計呼叫的數目，則會以預設內容取代建議設計，並且不顯示建議。 |
+| 已啟用 | 已停用 | 系統會轉譯設計，但如果傳回的建議少於設計呼叫的數目，則可能包含空格。 |
+| 已啟用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會轉譯部分設計。<br>如果條件未傳回任何建議，並且包含規則將備用建議限制為零，則會以預設內容來取代設計。 |
+| 已停用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會以預設內容取代設計，並且不顯示建議。 |
+
+### Specify content similarity rules {#similarity}
+
+使用[!UICONTROL 內容相似度]規則根據項目或媒體屬性來提出建議。
+
+>[!NOTE]
+>
+>If you selected **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** as your [recommendation logic](#info), you will have the option to set content similarity rules.
+
+內容相似度會比較項目屬性關鍵字並根據不同項目有多少共通的關鍵字進行建議。根據內容相似度的建議不需要過去的資料即可傳送強大的結果。
+
+使用內容相似度來產生建議對於新項目來說尤其有效，它不太可能在使用&#x200B;*瀏覽過此項目、也瀏覽了其他項目的使用者*&#x200B;和根據過去行為之其他邏輯的建議中顯示。您也可以使用內容相似度，為沒有過去的購買或其他歷史資料的新訪客產生實用的建議。
+
+選取&#x200B;**[!UICONTROL 「項目」]**/**[!UICONTROL 「具有類似屬性的媒體」]**&#x200B;時，您有選項可建立規則，以增加或減少在決定建議時特定項目屬性的重要性。對於書籍之類的項目，您可能想要增強&#x200B;*風格*、*作者*、*系列*&#x200B;之類屬性的重要性，以建議類似的書籍。
+
+![](assets/ContentSimilarity.png)
+
+因為內容相似度使用關鍵字來比較項目，有些屬性，例如&#x200B;*訊息*&#x200B;或&#x200B;*說明*&#x200B;可能會對比較產生「雜訊」。您可以建立規則來忽略這些屬性。
+
+依預設，所有屬性會設為&#x200B;*「基線」*。除非您要變更此設定，否則您不需建立規則。
+
+>[!NOTE]
+>
+>內容相似度算法可以利用隨機抽樣來計算項目之間的相似度。 因此，項目之間的相似性分級可能會因演算法執行而異。
+
+### 指定包含規則 {#inclusion}
 
 ![包含規則](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+
+有數個選項可以協助您縮減在建議中顯示的項目。您可以在建立條件或促銷活動時使用包含規則。
+
+包含規則屬於可選; 不過，設定這些詳細資料可讓您對於建議中出現的項目擁有更多控制。您設定的每個詳細資訊都會進一步縮小顯示條件。
+
+例如，您可以選擇只顯示存貨超過 50 雙且價格介於 $25 和 $45 之間的女鞋。您也可以加權每個屬性，讓對於您業務更為重要的項目可以更常顯示。
+
+另一個範例是，您可以選擇對造訪您的網站、僅來自特定城市且擁有所需大學學位的訪客顯示職缺。
+
+包含規則選項可能因垂直產業而不同。依預設，包含規則會套用至備用建議。
+
+>[!IMPORTANT]
+>
+>您應該謹慎使用包含規則。例如，如果您的組織具有規則，要求在顯示某個品牌時不建議其他品牌，則這些選項很有用。不過，此功能有機會成本。將活動條件通常會顯示的某些項目限制為不要顯示時，您可能會遺失提升度百分比。
+
+利用 AND 聯合包含規則。必須符合所有規則，才能在建議中納入某個項目。
+
+如先前所提及，若要建立簡單的包含規則，僅顯示存貨大於 50 且價格介於 $25 與 $45 之間的女鞋，請執行下列步驟:
+
+1. 設定您要建議之產品的價格範圍。
+1. 設定您要建議之產品的存貨量下限。
+1. 設定建議只在項目符合您的特定條件時才顯示。
+
+   ![](assets/Recs_InclusionRules.png)
+
+   您可以指定僅在符合清單中的其中一項屬性，或不符合一項或多項指定的條件時，才包括項目。
+
+   可用的評估工具取決於您在第一個下拉式清單中選擇的值。您可以列出多個項目。這些項目會使用 OR 來評估。
+
+   多個規則會使用 AND 來結合。
+
+   >[!NOTE]
+   >
+   >此選項會限制建議中所顯示的項目。不會限制在哪些頁面中顯示建議。若要限制建議顯示的位置，請在體驗撰寫器中選取頁面。
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ### 指定屬性加權
 
-您可以新增多個規則，以依據關於內容目錄的重要說明或中繼資料來「推進」演算法。例如，您可以對在售項目套用較高的加權，以便在建議中更頻繁地顯示它們。
+您可以新增多個規則，以根據內容目錄的重要說明或中繼資料來「微調」演算法，以便更有可能顯示某些項目。
 
-請參閱[屬性加權](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)。
+例如，您可以對在售項目套用較高的加權，以便在建議中更頻繁地顯示它們。不完全排除非售項目，但它們的顯示頻率較低。多種加權屬性皆可套用至相同的演算法，並能依據建議中的拆分流量測試加權屬性。
+
+1. 選擇值。
+
+   根據數個可用條件中的一個，值會決定較可能顯示的項目類型。
+
+1. 選擇一個求值器。
+
+1. 輸入關鍵字以完成規則屬性。
+
+   例如，完整規則可能是&quot;Category contains substring shoes&quot;。
+
+   ![](assets/Recs_AttributeWeighting.png)
+
+1. 選取要指派至規則的加權。
+
+   選項範圍從 0 到 100 (增量為 25)。
+
+1. 如有需要，可新增其他規則。
 
 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取&#x200B;**[!UICONTROL 「儲存條件以供稍後使用」]**&#x200B;核取方塊。如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
-
-### Adobe Analytics {#analytics}
-
-如果條件使用 [!DNL Adobe Analytics] 做為行為資料來源，建立後，條件可用時間會根據其他條件是否已使用選取的報表套裝和回顧期間而定。
-
-* **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。This time frame is dependent on the [!DNL Analytics] system load.
-* **使用已可取得之報表套裝的全新或已編輯的條件**: 建立新條件或編輯現有條件時，如果所選報表套裝已搭配 [!DNL Target Recommendations] 使用，且資料範圍小於或等於所選資料範圍，資料即可立即使用且不需要一次性設定。在此情況下，或是在未修改所選報表套裝或資料範圍時已編輯演算法的設定，演算法會在 12 小時內執行或重新執行。
-* **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。例如，針對[!UICONTROL 已檢視的相關性]建議，當使用者檢視某個產品時，產品檢視追蹤呼叫會以近乎即時的速度傳送到 [!DNL Analytics]。[!DNL Analytics] 資料會在隔天很早推送到 [!DNL Target]，且 [!DNL Target] 會在 12 小時內執行演算法。
 
 ## 讓建議以建議索引鍵為依據 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -180,7 +266,7 @@ Recommendations 會顯示對指定項目感興趣的訪客的其他項目。
 
 選取此選項時，必須將 `entity.id` 值作為顯示 mbox 的參數傳遞。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * [!UICONTROL 具有類似屬性的項目]
 * [!UICONTROL 瀏覽過此項目、也瀏覽了其他項目的使用者]
@@ -188,7 +274,7 @@ Recommendations 會顯示對指定項目感興趣的訪客的其他項目。
 * [!UICONTROL 購買了此項目、也購買了其他項目的使用者]
 * [!UICONTROL 網站相關性]
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 單一項目頁面，例如產品頁面。
 
@@ -202,12 +288,12 @@ Recommendations 會將項目顯示在指定的產品類別中。
 
 選取此選項時，必須將 `entity.categoryId` 值作為參數傳入顯示 mbox。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * 最暢銷商品
 * 檢視次數最多
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 單一類別頁面。
 
@@ -219,7 +305,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 選取此選項時，設定檔屬性中必須呈現 `entity.id` 值。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * [!UICONTROL 瀏覽過此項目、也瀏覽了其他項目的使用者]
 * [!UICONTROL 瀏覽過此項目、但購買了其他項目的使用者]
@@ -230,11 +316,11 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 如果金鑰為自訂設定檔屬性，而演算法類型為「檢視次數最多」或「最暢銷商品」，則系統會顯示稱為「依下列唯一值分組:」的新下拉式清單，其中有已知實體屬性 (除了 ID、類別、利潤、值、存貨和環境) 的清單。此為必填欄位。
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 可以在任何頁面上使用。
 
-**使用自訂建議索引鍵**
+#### 使用自訂建議索引鍵
 
 您可以讓建議以自訂設定檔屬性的值為依據。例如，假設您要依據訪客最近新增至其佇列中的電影顯示推薦電影。
 
@@ -261,7 +347,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 建議由每位獨特訪客上次購買的項目確定。這會自動擷取，因此無需向頁面傳遞任何值。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * [!UICONTROL 具有類似屬性的項目]
 * [!UICONTROL 瀏覽過此項目、也瀏覽了其他項目的使用者]
@@ -269,7 +355,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 * [!UICONTROL 購買了此項目、也購買了其他項目的使用者]
 * [!UICONTROL 網站相關性]
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 首頁、我的帳戶頁面、離站廣告。
 
@@ -279,7 +365,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 建議由每位獨特訪客上次檢視的項目確定。這會自動擷取，因此無需向頁面傳遞任何值。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * [!UICONTROL 具有類似屬性的項目]
 * [!UICONTROL 瀏覽過此項目、也瀏覽了其他項目的使用者]
@@ -287,7 +373,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 * [!UICONTROL 購買了此項目、也購買了其他項目的使用者]
 * [!UICONTROL 網站相關性]
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 首頁、我的帳戶頁面、離站廣告。
 
@@ -305,7 +391,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 例如，在一次作業中先後檢視 surfboardA 和 surfboardB，結果為 A: 10、B: 5。作業結束之後，結果為 A: 5、B: 2.5。如果您在下次作業時檢視相同項目，值會變更為 A: 15、B: 7.5。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * [!UICONTROL 具有類似屬性的項目]
 * [!UICONTROL 瀏覽過此項目、也瀏覽了其他項目的使用者]
@@ -313,7 +399,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 * [!UICONTROL 購買了此項目、也購買了其他項目的使用者]
 * [!UICONTROL 網站相關性]
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 一般頁面，例如首頁或登陸頁面及離站廣告。
 
@@ -330,12 +416,12 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 例如，在一次作業中先後檢視 categoryA 和 categoryB，結果為 A: 9、B: 10。如果您在下次作業時檢視相同項目，值會變更為 A: 20 B: 9。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * [!UICONTROL 最暢銷商品]
 * [!UICONTROL 檢視次數最多]
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 一般頁面，例如首頁或登陸頁面及離站廣告。
 
@@ -343,13 +429,13 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 建議由網站上的項目人氣確定。人氣包括依據 mbox 資料的最暢銷商品和檢視次數最多的產品，如果使用 Adobe Analytics，則還依據產品報表中的所有可用量度。項目的排名是根據您選取的建議邏輯。
 
-**邏輯 (條件)**
+#### 邏輯 (條件)
 
 * [!UICONTROL 最暢銷商品]
 * [!UICONTROL 檢視次數最多]
 * 產品報表量度 (如果您使用 Adobe Analytics)
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 一般頁面，例如首頁或登陸頁面及離站廣告。
 
@@ -359,120 +445,13 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 現在，「最近檢視的項目」條件會傳回指定[環境](/help/administrating-target/hosts.md)的特定結果。如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的項目。
 
-**使用您網站上的哪個位置**
+#### 使用您網站上的哪個位置
 
 一般頁面，例如首頁或登陸頁面及離站廣告。
 
 >[!NOTE]
 >
 >最近查看的項目會尊重排除全域設定和針對活動所選的收集設定。如果全域排除排除了某個項目，或所選收集中未包含某個項目，則不會顯示該項目；因此，使用最近查看的項目條件時，通常應使用「所有收集」設定。
-
-## 包含規則 {#task_28DB20F968B1451481D8E51BAF947079}
-
-有數個選項可以協助您縮減在建議中顯示的項目。您可以在建立條件或促銷活動時使用包含規則。
-
-包含規則屬於可選; 不過，設定這些詳細資料可讓您對於建議中出現的項目擁有更多控制。您設定的每個詳細資訊都會進一步縮小顯示條件。
-
-例如，您可以選擇只顯示存貨超過 50 雙且價格介於 $25 和 $45 之間的女鞋。您也可以加權每個屬性，讓對於您業務更為重要的項目可以更常顯示。
-
-另一個範例是，您可以選擇對造訪您的網站、僅來自特定城市且擁有所需大學學位的訪客顯示職缺。
-
-包含規則選項可能因垂直產業而不同。依預設，包含規則會套用至備用建議。
-
->[!NOTE]
->
->您應該謹慎使用包含規則。例如，如果您的組織具有規則，要求在顯示某個品牌時不建議其他品牌，則這些選項很有用。不過，此功能有機會成本。將活動條件通常會顯示的某些項目限制為不要顯示時，您可能會遺失提升度百分比。
-
-利用 AND 聯合包含規則。必須符合所有規則，才能在建議中納入某個項目。
-
-如先前所提及，若要建立簡單的包含規則，僅顯示存貨大於 50 且價格介於 $25 與 $45 之間的女鞋，請執行下列步驟:
-
-1. 設定您要建議之產品的價格範圍。
-1. 設定您要建議之產品的存貨量下限。
-1. 設定建議只在項目符合您的特定條件時才顯示。
-
-   ![](assets/Recs_InclusionRules.png)
-
-   您可以指定僅在符合清單中的其中一項屬性，或不符合一項或多項指定的條件時，才包括項目。
-
-   可用的評估工具取決於您在第一個下拉式清單中選擇的值。您可以列出多個項目。這些項目會使用 OR 來評估。
-
-   多個規則會使用 AND 來結合。
-
-   >[!NOTE]
-   >
-   >此選項會限制建議中所顯示的項目。不會限制在哪些頁面中顯示建議。若要限制建議顯示的位置，請在體驗撰寫器中選取頁面。
-
-## 屬性加權 {#task_2AEDA0DB15B74770B76F6982B24C2E42}
-
-使用屬性加權來「微調」演算法，使得某些項目更可能顯示。行銷人員可依據關於內容目錄的重要說明或中繼資料來影響演算法。
-
-給予在售項目更高的加權，以便在建議中更頻繁地顯示它們。不完全排除非售項目，但它們的顯示頻率較低。多種加權屬性皆可套用至相同的演算法，並能依據建議中的拆分流量測試加權屬性。
-
-1. 選擇值。
-
-   根據數個可用條件中的一個，值會決定較可能顯示的項目類型。
-
-1. 選擇一個求值器。
-1. 輸入關鍵字以完成規則屬性。
-
-   例如，完成的規則會是「類別包含鞋子」。
-
-   ![](assets/Recs_AttributeWeighting.png)
-
-1. 選取要指派至規則的加權。
-
-   選項範圍從 0 到 100 (增量為 25)。
-
-1. 如有需要，可新增其他規則。
-
-## 內容設定 {#concept_BC16005C7A1E4F1A87E33D16221F4A96}
-
-[!UICONTROL 內容]設定會決定在您的設計建議的顯示方式。
-
-[!UICONTROL Recommendations] 條件可能傳回較您的設計所需更少的建議。例如，您的設計可能有五個可用「位置」，但條件僅傳回三個建議的項目。[!UICONTROL 內容]設定會控制發生此情況時，呈現建議的方式。
-
-內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。
-
-選取適當的切換:
-
-* [!UICONTROL 啟用部分設計呈現]
-* [!UICONTROL 顯示備用建議]
-* [!UICONTROL 對備用建議套用包含規則]
-* [!UICONTROL 建議先前購買的項目]
-
-   此設定是根據 `productPurchasedId` 設定檔值。預設行為是不推薦先前購買的項目。大多數情況下，您不會想推銷客戶最近已購買的項目。如果客戶通常會重複購買特定項目，啟用此功能即可繼續推薦先前購買的項目。
-
-如果您啟用&#x200B;**[!UICONTROL 「顯示備用建議」]**，系統會依預設啟用對備用建議套用[包含規則](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)的選項。
-
-![](assets/Recs_ContentControls.png)
-
-| 部分設計呈現 | 備份 Recommendations | 結果 |
-|--- |--- |--- |
-| 已停用 | 已停用 | 如果傳回的建議少於設計呼叫的數目，則會以預設內容取代建議設計，並且不顯示建議。 |
-| 已啟用 | 已停用 | 系統會轉譯設計，但如果傳回的建議少於設計呼叫的數目，則可能包含空格。 |
-| 已啟用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會轉譯部分設計。<br>如果條件未傳回任何建議，並且包含規則將備用建議限制為零，則會以預設內容來取代設計。 |
-| 已停用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會以預設內容取代設計，並且不顯示建議。 |
-
-## 內容相似度 {#concept_5402DAFA279C4E46A9A449526889A0CB}
-
-使用[!UICONTROL 內容相似度]規則根據項目或媒體屬性來提出建議。
-
-內容相似度會比較項目屬性關鍵字並根據不同項目有多少共通的關鍵字進行建議。根據內容相似度的建議不需要過去的資料即可傳送強大的結果。
-
-使用內容相似度來產生建議對於新項目來說尤其有效，它不太可能在使用&#x200B;*瀏覽過此項目、也瀏覽了其他項目的使用者*&#x200B;和根據過去行為之其他邏輯的建議中顯示。您也可以使用內容相似度，為沒有過去的購買或其他歷史資料的新訪客產生實用的建議。
-
-選取&#x200B;**[!UICONTROL 「項目」]**/**[!UICONTROL 「具有類似屬性的媒體」]**&#x200B;時，您有選項可建立規則，以增加或減少在決定建議時特定項目屬性的重要性。對於書籍之類的項目，您可能想要增強&#x200B;*風格*、*作者*、*系列*&#x200B;之類屬性的重要性，以建議類似的書籍。
-
-![](assets/ContentSimilarity.png)
-
-因為內容相似度使用關鍵字來比較項目，有些屬性，例如&#x200B;*訊息*&#x200B;或&#x200B;*說明*&#x200B;可能會對比較產生「雜訊」。您可以建立規則來忽略這些屬性。
-
-依預設，所有屬性會設為&#x200B;*「基線」*。除非您要變更此設定，否則您不需建立規則。
-
->[!NOTE]
->
->內容相似度算法可以利用隨機抽樣來計算項目之間的相似度。 因此，項目之間的相似性分級可能會因演算法執行而異。
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
