@@ -5,10 +5,10 @@ title: 建立條件序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 57%
+source-wordcount: '1106'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 57%
 
    垂直產業和頁面類型可共同用來分類您儲存的條件順序，讓您可輕鬆對其他 [!UICONTROL Recommendations] 活動重複使用順序。
 
-## 建立條件序列
+## 建立序列 {#sequence}
 
 序列順序定義填充設計的順序。 如果條件1沒有足夠的建議來填入您的設計，其餘的槽將填入條件2等。
 
@@ -84,11 +84,27 @@ ht-degree: 57%
 
 1. On the [!UICONTROL Select Criteria] screen, select a criteria.
 
+   您可以使用「搜尋」方塊和篩選下拉式清單來尋找所需的准則。
+
    ![選取條件](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-1. 繼續將條件新增至序列。 您可以新增最多五個條件至順序。
+1. （選擇性）投 **[!UICONTROL 影片「限制傳回的項目數]** 」會切換至「開啟」位置，然後指定項目數（介於1到50之間）。
+
+   ![限制傳回的項目數，切換](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   為協助您瞭解「限制傳回 [!UICONTROL 的項目數」選項的值] ，請考慮下列使用案例：
+
+   * **使用案例1**:您想要在單一建議托盤中混合使用不同種類的項目。 例如，您想要展示混搭的外套（夾克）和上衣（襯衫、T恤）。 若要達成此目的，請使用「系列」作業，其中包含您設計中任何位置所需的所有潛在產品類型。 然後，使用限制條件僅包含外套的靜態篩選器來設定您的第一個准則，並使用限制條件僅包含頂端的靜態篩選器來設定您的第二個准則。 最後，將兩個准則新增至准則序列，並將第一個准則限制為2個槽。
+
+      Recommendations托盤在您的網站上可能如下所示：
+
+      ![精選產品建議托盤](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **使用案例2**:您需要混合使用替代項目和互補項目。 設定一個准則以使用已檢視／已檢視演算法，並使用動態篩選，將建議項目限制為目前項目的類別。 設定第二個條件以使用已檢視／購買的演算法，並使用動態篩選，其中僅包含不符合目前項目類別的建議項目。 最後，將兩個准則新增至序列，並將第一個准則限制為2個槽。
+
+1. 繼續將其他條件新增至序列。 您可以新增最多五個條件至順序。
 
 ## 指定備份內容
 
@@ -115,8 +131,6 @@ ht-degree: 57%
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    條件序列會出現在條件清單中。
-
-   ![](assets/CriteriaSequenceCard.png)
 
    如需關於建議邏輯選項的詳細資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
