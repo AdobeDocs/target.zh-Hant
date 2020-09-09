@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '29297'
+source-wordcount: '29291'
 ht-degree: 88%
 
 ---
@@ -758,7 +758,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>檢視在其「條件」卡上參照所選取條件的活動清單。卡片會列出使用中和非使用中的活動。(TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>從活動圖表中，「條件」卡會立即顯示何時可以顯示結果。(TGT-27673) </p> <p>請參閱<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">條件</a>。 </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>從活動圖表中，「條件」卡會立即顯示何時可以顯示結果。(TGT-27673) </p> <p>請參閱<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">條件</a>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1055,7 +1055,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>「自訂條件」現在可設定，正如同建議中的其他條件一般。 </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>您可以使用與任何其他條件的相同方式使用收集、排除和包含 (包括價格和存貨的特殊規則)。已支援集合和排除。此版本新增了排除。 </p> </li> 
-     </ul> </p> <p>如需詳細資訊，請參閱<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">標準</a>。 </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>如需詳細資訊，請參閱<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">標準</a>。 </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: 最近查看的條件的包含規則、集合和排除 </p> </td> 
@@ -1063,7 +1063,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>「最近檢視的」條件現在可設定，正如同建議中的其他條件一般。 </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>您可以使用與任何其他條件的相同方式使用收集、排除和包含 (包括價格和存貨的特殊規則)。已支援集合和排除。此版本新增了排除。 </p> </li> 
-     </ul> </p> <p>如需詳細資訊，請參閱<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">標準</a>。 </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>如需詳細資訊，請參閱<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">標準</a>。 </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Launch 適用的 Target 延伸模組 </p> </td> 
@@ -2622,7 +2622,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">排除過去的購買項目 </p> </td> 
-   <td colname="col2"> <p>Target 現在會自動從訪客的建議中排除之前購買的項目。可針對任何條件停用此選項。 </p> <p>所有立即可用的條件現在都已啟用此選項，包括用於在此發行之前版本中所執行活動的條件。如果不想排除過去的購買項目，請編輯這些活動。 </p> <p>請參閱<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">包含規則</a>。 </p> </td> 
+   <td colname="col2"> <p>Target 現在會自動從訪客的建議中排除之前購買的項目。可針對任何條件停用此選項。 </p> <p>所有立即可用的條件現在都已啟用此選項，包括用於在此發行之前版本中所執行活動的條件。如果不想排除過去的購買項目，請編輯這些活動。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> 屬性加權 </p> </td> 
@@ -2645,7 +2645,7 @@ target/r_release-notes-2015.xml
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">符合指定之 entity.id 並使用相似屬性之項目的自訂屬性 </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">具有相似屬性的上次檢視項目 </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">具有相似屬性的檢視次數最多項目 </li> 
-     </ul> </p> <p>請參閱<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">包含規則</a>。 </p> </td> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 新活動清單篩選器 </td> 
@@ -2664,7 +2664,7 @@ target/r_release-notes-2015.xml
       <li id="li_1B44AB35B045416B8D8B72C428750822">更多這類內容 </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">更多這類投影片 </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">更多這類產品 </li> 
-     </ul> </p> <p>請參閱<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">條件</a>。 </p> </td> 
+     </ul> </p> <p>請參閱<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">條件</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 增強: 已改善使用 Analytics 做為您的報表來源時顯示的報表詳細資料。 </td> 
@@ -2997,7 +2997,7 @@ target/r_release-notes-2015.xml
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Premium 中現在支援 Recommendations Classic 功能 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
-      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> 局部範本轉譯 <p>請參閱<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local">內容設定</a>。 </p> </li> 
+      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> 局部範本轉譯 <p>請參閱<a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local">內容設定</a>。 </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> 指定每個條件的備份規則 </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> 對產品摘要支援 FTPS</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> 自訂演算法現在以條件的形式自動顯示</li> 
