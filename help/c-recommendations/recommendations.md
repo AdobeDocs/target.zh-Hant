@@ -5,10 +5,10 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 59%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 | 根據訪客觀賞的影片來建議類似的媒體內容，以吸引訪客在您的媒體網站上停留更久。 | 使用「瀏覽過此項目、也瀏覽了其他項目的使用者」條件，建立建議其他影片的建議。 |
 | 建議檢視了關於在您的銀行存款計劃的客戶也閱讀關於 IRA 帳戶的資訊。 | 使用「瀏覽過此項目、但購買了其他項目的使用者」條件，顯示人員在檢視一個產品而沒有顯示建議中第一個產品之後購買的其他產品。 |
 
-如需這些事項和其他 [!DNL Recommendations] 條件的相關資訊，請參閱[條件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+如需這些事項和其他 [!DNL Recommendations] 條件的相關資訊，請參閱[條件](../c-recommendations/c-algorithms/algorithms.md)。
 
 ## 詞彙
 
