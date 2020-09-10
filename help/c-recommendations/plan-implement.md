@@ -5,7 +5,7 @@ title: '計劃和實作 Recommendations '
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -27,7 +27,7 @@ ht-degree: 96%
 |--- |--- |--- |
 | ![步驟 1](/help/c-recommendations/assets/step1_red.png) | JavaScript 程式庫 | 每一個頁面都需要參考 at.js 0.9.1 版 (或更新版) 或 mbox.js 版本 55 (或更新版)。所有將使用 Target 活動的頁面都需要此實作步驟，其中可能包含索引鍵，例如產品或類別 ID。<BR>如需 at.js 的相關資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。<br>如需 mbox.js 的相關資訊，請參閱[Mbox.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。 |
 | ![步驟 2](/help/c-recommendations/assets/step2_red.png) | 密鑰 | 此索引鍵決定建議中顯示的產品或內容類型。例如，索引鍵可能是產品類別。請參閱[讓建議以建議金鑰為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。 |
-| ![步驟 3](/help/c-recommendations/assets/step3_red.png) | 屬性 | 屬性可以針對您想顯示的產品，提供更具體的相關資訊。例如，您可能需要顯示特定價格範圍內的產品，或符合庫存臨界值的項目。屬性可以在 mbox 中提供，或透過[摘要](/help/c-recommendations/c-products/feeds.md)。<br>請參閱[[指定包含規則](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)。 |
+| ![步驟 3](/help/c-recommendations/assets/step3_red.png) | 屬性 | 屬性可以針對您想顯示的產品，提供更具體的相關資訊。例如，您可能需要顯示特定價格範圍內的產品，或符合庫存臨界值的項目。屬性可以在 mbox 中提供，或透過[摘要](/help/c-recommendations/c-products/feeds.md)。<br>請參 [閱指定包含規則](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)。 |
 | ![步驟 4](/help/c-recommendations/assets/step4_red.png) | 排除項目 | 「排除項目」決定在建議中不要出現的特定項目。<br>請參閱[排除項目](/help/c-recommendations/c-products/exclusions.md)。 |
 | ![步驟 5](/help/c-recommendations/assets/step5_red.png) | 購買詳細資料 | 採購完成時，購買詳細資料提供採購項目及訂單的相關資訊。 |
 
