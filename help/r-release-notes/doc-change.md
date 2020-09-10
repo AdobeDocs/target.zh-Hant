@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2179'
 ht-degree: 30%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 9月10日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Standard/Premium 20.9.2版本的資訊，其中包含下列新功能：在准則順序中控制建議槽。 |
+|  | [建立條件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 已新增「限制傳回的項目數」功能的相關資訊。 |
 | 9月9日 | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 已新增JavaScript程式碼以搭配at.js 2使用。*x* 版本不支援此函數。 |
 | 9月3日 | [可視化體驗撰寫器 Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 已更新「取得並安裝VEC Helper瀏覽器擴充功能」區段，其中包含Cookie名稱和網域的相關資訊。 |
 |  | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新「最近宣佈的Google Chrome SameSite Cookie實施政策如何影響VEC和EEC?」 區段，其中包含Cookie名稱和網域的相關資訊。 |
