@@ -5,7 +5,7 @@ title: 上傳自訂條件
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 97%
@@ -51,7 +51,7 @@ ht-degree: 97%
    產業垂直和頁面類型可共同用來分類您儲存的條件，讓您可輕鬆對其他 [!UICONTROL Recommendations] 活動重複使用條件。
 1. 選取一個&#x200B;**[!UICONTROL 建議索引鍵]**。
 
-   如需依據索引鍵的條件之相關詳細資訊，請參閱[讓建議以建議索引鍵為依據](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
+   如需依據索引鍵的條件之相關詳細資訊，請參閱[讓建議以建議索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 1. 設定&#x200B;**[!UICONTROL 內容]**&#x200B;規則。
 
    內容規則會決定如果建議的項目數量無法滿足您設計時所要發生的情況。例如，如果您的設計有五個項目的空間，但您的條件造成只有建議三個項目，您可以將剩餘空間保留空白，或您可以使用備用建議來填滿額外的空間。選取適當的切換。請參閱 [指定內容設定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
