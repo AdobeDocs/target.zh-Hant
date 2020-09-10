@@ -4,7 +4,7 @@ description: Adobe Target歡迎套件——第1章——簡介
 title: Adobe Target歡迎套件——第1章——簡介
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -29,3 +29,4 @@ ht-degree: 0%
 現在，我們要確定您立即以正確的方式使用它。
 
 為協助您完成此工作，我們建立了此歡迎套件，其中包含重要資訊、工具和資源，可協助您準備並啟動您的第一項 [!DNL Target] 活動。 從長遠看，這些內容也為成功構建優化和個性化方案奠定了基礎。
+
