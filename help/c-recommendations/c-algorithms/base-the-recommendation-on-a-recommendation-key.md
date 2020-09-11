@@ -5,10 +5,10 @@ title: 讓建議以建議索引鍵為依據
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 70%
+source-wordcount: '2889'
+ht-degree: 69%
 
 ---
 
@@ -231,7 +231,20 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 根據設計中的位置數量，使用訪客的歷史 (跨工作階段) 以呈現訪客已檢視的前 *x* 個項目。
 
-現在，「最近檢視的項目」條件會傳回指定[環境](/help/administrating-target/hosts.md)的特定結果。如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的項目。
+The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的項目。
+
+>[!NOTE]
+>
+>You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+
+您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。
+
+* 如同建議中的其他條件一樣，「最近查看」條件也可設定。
+* 您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。
+
+可能的使用案例包括:
+
+經營多種業務的跨國公司可能讓訪客看到遍及多種數位屬性的項目。在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。這可防止最近檢視的項目顯示在其他數位屬性的網站上。
 
 #### 使用您網站上的哪個位置
 
@@ -239,7 +252,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 >[!NOTE]
 >
->最近查看的項目會尊重排除全域設定和針對活動所選的收集設定。如果全域排除排除了某個項目，或所選收集中未包含某個項目，則不會顯示該項目；因此，使用最近查看的項目條件時，通常應使用「所有收集」設定。
+>[!UICONTROL 「最近檢視的項目] 」會同時包含活動的排除全域設定和選取的系列設定。 If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
 
 ## 建議邏輯
 
