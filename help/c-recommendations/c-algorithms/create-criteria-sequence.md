@@ -5,10 +5,10 @@ title: 建立條件序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ ht-degree: 43%
 
    說明應協助您識別標準順序，並可能包含其用途的相關資訊。
 
-1. 選取&#x200B;**[!UICONTROL 垂直產業]**.
+1. 根據建議活動的目標，選擇垂直產業。
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | 垂直產業 | 目標 |
+   |--- |--- |
+   | 零售/電子商務 | 轉換帶動購買 |
+   | 潛在客戶開發/B2B/金融服務 | 轉換但未購買 |
+   | 媒體/出版 | 參與 |
+
+   您的預設垂直產業隨即自動顯示。
+
+   其他條件選項將根據您選取的垂直產業而變更。
 
 1. 選取一個&#x200B;**[!UICONTROL 頁面類型]**。
 
