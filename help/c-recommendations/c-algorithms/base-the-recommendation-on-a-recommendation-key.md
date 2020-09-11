@@ -5,10 +5,10 @@ title: 讓建議以建議索引鍵為依據
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 72%
+source-wordcount: '2777'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 「建議金鑰」下拉式清單中 [!UICONTROL 提供下列建議金鑰] :
 
-### 目前項目
+### 目前項目 {#current-item}
 
 建議由訪客正在檢視的項目確定。
 
@@ -54,7 +54,7 @@ Recommendations 會顯示對指定項目感興趣的訪客的其他項目。
 * 單一項目頁面，例如產品頁面。
 * 請勿在 null 搜尋結果頁面上使用。
 
-### 目前類別
+### 目前類別 {#current-category}
 
 建議由訪客正在檢視的產品類別確定。
 
@@ -133,7 +133,29 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
    ![建立新條件對話方塊 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### 上次購買的項目
+### 最喜愛的類別 {#favorite-category}
+
+建議由接收最多活動的類別確定，而使用的方法與「檢視次數最多的項目」的相同，只不過是以類別計分，而並非產品。
+
+這由最新/頻率條件判斷，方式如下:
+
+* 第一個類別檢視 10 點
+* 每個後續檢視 5 點
+
+第一次造訪的類別會獲得 10 點。後續對相同類別的造訪會獲得 5 點。隨著每次造訪，之前已檢視的非目前類別會減少 1。
+
+例如，在一次作業中先後檢視 categoryA 和 categoryB，結果為 A: 9、B: 10。如果您在下次作業時檢視相同項目，值會變更為 A: 20 B: 9。
+
+#### 邏輯 (條件)
+
+* [!UICONTROL 最暢銷商品]
+* [!UICONTROL 檢視次數最多]
+
+#### 使用您網站上的哪個位置
+
+* 一般頁面，例如首頁或登陸頁面及離站廣告。
+
+### 上次購買的項目 {#last-purchased}
 
 建議由每位獨特訪客上次購買的項目確定。這會自動擷取，因此無需向頁面傳遞任何值。
 
@@ -150,7 +172,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 首頁、我的帳戶頁面、離站廣告。
 * 請勿在產品頁面或與購買相關的頁面上使用。
 
-### 上次檢視的項目
+### 上次檢視的項目 {#last-viewed}
 
 建議由每位獨特訪客上次檢視的項目確定。這會自動擷取，因此無需向頁面傳遞任何值。
 
@@ -167,7 +189,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 首頁、我的帳戶頁面、離站廣告。
 * 請勿在產品頁面或與購買相關的頁面上使用。
 
-### 檢視次數最多的項目
+### 檢視次數最多的項目 {#most-viewed}
 
 建議由檢視次數最多的項目確定，而使用的方法與最喜愛類別的相同。
 
@@ -191,29 +213,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 一般頁面，例如首頁或登陸頁面及離站廣告。
 
-### 最喜愛的類別
-
-建議由接收最多活動的類別確定，而使用的方法與「檢視次數最多的項目」的相同，只不過是以類別計分，而並非產品。
-
-這由最新/頻率條件判斷，方式如下:
-
-* 第一個類別檢視 10 點
-* 每個後續檢視 5 點
-
-第一次造訪的類別會獲得 10 點。後續對相同類別的造訪會獲得 5 點。隨著每次造訪，之前已檢視的非目前類別會減少 1。
-
-例如，在一次作業中先後檢視 categoryA 和 categoryB，結果為 A: 9、B: 10。如果您在下次作業時檢視相同項目，值會變更為 A: 20 B: 9。
-
-#### 邏輯 (條件)
-
-* [!UICONTROL 最暢銷商品]
-* [!UICONTROL 檢視次數最多]
-
-#### 使用您網站上的哪個位置
-
-* 一般頁面，例如首頁或登陸頁面及離站廣告。
-
-### 人氣
+### 人氣 {#popularity}
 
 建議由網站上的項目人氣確定。人氣包括依據 mbox 資料的最暢銷商品和檢視次數最多的產品，如果使用 Adobe Analytics，則還依據產品報表中的所有可用量度。項目的排名是根據您選取的建議邏輯。
 
@@ -247,7 +247,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 「建議邏輯」下拉式清單中提供 [!UICONTROL 下列建議邏輯] （條件）:
 
-### 具有類似屬性的項目/媒體
+### 具有類似屬性的項目/媒體 {#similar-attributes}
 
 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。
 
@@ -264,7 +264,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次檢視的項目
 * 檢視次數最多的項目
 
-### 檢視次數最多
+### 檢視次數最多 {#most-viewed-logic}
 
 顯示網站上最常檢視的項目或媒體。
 
@@ -277,9 +277,11 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 最喜愛的類別
 * 人氣
 
-### 購買了此項目、也購買了其他項目的使用者
+### 購買了此項目、也購買了其他項目的使用者 {#bought-bought}
 
 建議當客戶購買所指定項目的同時，最常購買的項目。
+
+這個邏輯會傳回購買後購買的其他產品；結果集中不包含指定的產品。
 
 此邏輯可讓您在購物車摘要頁面上顯示建議，例如顯示其他購買者也購買的項目，借此增加交叉銷售機會。 例如，如果訪客購買套裝，建議可顯示其他訪客隨套裝一起購買的其他項目，例如領帶、連衣鞋和袖扣。 當訪客檢閱其購買項目時，您會提供其他建議。
 
@@ -291,9 +293,11 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次檢視的項目
 * 檢視次數最多的項目
 
-### 瀏覽過此項目、但購買了其他項目的使用者
+### 瀏覽過此項目、但購買了其他項目的使用者 {#viewed-bought}
 
 建議在檢視所指定項目的相同工作階段中，最常購買的項目。此條件傳回在檢視這個產品之後購買的其他產品，而指定的產品未包含在結果集合中。
+
+此邏輯會傳回檢視後購買的其他產品；結果集中不包含指定的產品。
 
 此邏輯可讓您在產品頁面上顯示建議，例如顯示檢視該項目的其他訪客購買的項目，借此增加交叉銷售機會。 例如，如果訪客正在檢視釣竿，建議可顯示其他訪客購買的其他項目，例如釣具盒、捲軸和釣魚鈎。 當訪客瀏覽您的網站時，您會為他們提供額外的購買建議。
 
@@ -305,9 +309,11 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次檢視的項目
 * 檢視次數最多的項目
 
-### 瀏覽過此項目、也瀏覽了其他項目的使用者
+### 瀏覽過此項目、也瀏覽了其他項目的使用者 {#viewed-viewed}
 
 建議在檢視所指定項目的相同工作階段中，最常檢視的項目。
+
+這個邏輯會傳回檢視過此產品的其他使用者檢視過的產品；結果集中不包含指定的產品。
 
 此邏輯可讓您建議其他檢視過項目的訪客也檢視的項目，以建立額外的轉換機會。 例如，在您網站上檢視道路腳踏車的訪客也可能會檢視腳踏車頭盔、騎單車套件、鎖等等。 您可以使用此邏輯建立建議，建議其他產品以協助您增加收入。
 
@@ -319,13 +325,15 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次檢視的項目
 * 檢視次數最多的項目
 
-### 網站相關性
+### 網站相關性 {#site-affinity}
 
 根據項目之間關係的必然性來建議項目。您可以使用「包含規則」滑桿來設定此條件，以決定呈現建議之前需要多少資料。例如，如果選擇「非常強」，則會建議符合確定性最強的產品。
 
 例如，如果您設定非常強的相關性，且您的設計包含五個項目，其中三個符合連線強度臨界值，則不符合最低強度需求的兩個項目不會出現在建議中，而會由您定義的備用項目取代。具有最強相關性的項目會先顯示。
 
 例如，線上零售商可以建議訪客在後續瀏覽中，在過去工作階段中顯示感興趣的項目。 系統會擷取每個訪客作業的活動，以根據時近和頻率模型計算相似性。 當此訪客返回您的網站時，網站相似性會用來根據您網站上的過去動作顯示建議。
+
+某些客戶具有相異產品集合和相異網站行為，如果他們設定弱網站相關性，可能會獲得最佳結果。
 
 此邏輯可與下列建議索引鍵搭配使用：
 
@@ -334,7 +342,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次檢視的項目
 * 檢視次數最多的項目
 
-### 最暢銷商品
+### 最暢銷商品 {#top-sellers}
 
 顯示包含在最完成訂單中的項目。 單一訂單中相同項目的多個單位視為一份訂單。
 
@@ -345,7 +353,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 最喜愛的類別
 * 人氣
 
-### 使用者建議
+### 使用者建議 {#user-based}
 
 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。
 
