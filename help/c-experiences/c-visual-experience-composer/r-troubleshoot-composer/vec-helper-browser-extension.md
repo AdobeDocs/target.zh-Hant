@@ -5,10 +5,10 @@ title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 58%
+source-wordcount: '880'
+ht-degree: 56%
 
 ---
 
@@ -35,6 +35,9 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
 * 所有的 iFrame 爆破標頭 (例如 X-Frame-Options 和 Content-Security-Policy) 會以隱含的方式從網站上移除。不再需要建立複雜的 Requestly 規則即可完成相同工作。
 * 如果網站上未包含 [!DNL Target] at.js JavaScript 資料庫，您可以使用擴充功能來插入資料庫，這樣就能為網站撰寫體驗。接著可以使用預覽連結來建立活動和保證品質。
+
+   請注意，使用「增強的體驗撰寫器」(EEC)時，擴充功能不會在at.js中插入，但SameSite Cookie功能仍然存在。 若要在網頁上注入at.js，請關閉EEC。
+
 * [即使沒有](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) Enhanced Experience Composer [!UICONTROL (EEC)，也支援行動] 檢視區。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
 * 管理多位客戶網站與 [!DNL Target] 帳戶的合作夥伴現在擁有一套簡單的機制可支援 VEC 載入工作，而不必在第三方工作中管理多個規則。
