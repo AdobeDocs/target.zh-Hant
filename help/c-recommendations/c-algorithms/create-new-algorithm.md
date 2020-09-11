@@ -5,10 +5,10 @@ title: 建立條件
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 67%
+source-wordcount: '2422'
+ht-degree: 66%
 
 ---
 
@@ -53,11 +53,13 @@ ht-degree: 67%
 
    說明應協助您識別標準，並可能包含標準用途的相關資訊。
 
-1. 選取&#x200B;**[!UICONTROL 垂直產業]**:
+1. 根據建議活動的目標，選擇垂直產業。
 
-   * [!UICONTROL 零售/電子商務]
-   * [!UICONTROL 潛在客戶開發/B2B/金融服務]
-   * [!UICONTROL 媒體/出版]
+   | 垂直產業 | 目標 |
+   |--- |--- |
+   | 零售/電子商務 | 轉換帶動購買 |
+   | 潛在客戶開發/B2B/金融服務 | 轉換但未購買 |
+   | 媒體/出版 | 參與 |
 
    其他條件選項將根據您選取的垂直產業而變更。
 
