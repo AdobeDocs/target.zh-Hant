@@ -5,10 +5,10 @@ title: Adobe Target Recommendations中的條件
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 73%
+source-wordcount: '1135'
+ht-degree: 68%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 73%
 
 ## 垂直產業 {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-您需要根據建議活動的目標，選取垂直產業。
+您可以根據建議活動的目標選擇垂直的產業。 視您選擇的產業垂直而定，
 
 | 垂直產業 | 目標 |
 |--- |--- |
@@ -35,11 +35,11 @@ ht-degree: 73%
 
 | 條件類型 | 密鑰 |
 |--- |--- |
-| 目前頁面活動 | 根據使用者在目前頁面上的行為來建議項目。例如，訪客在檢視特定文章時，可能想看同類型的其他文章。<ul><li>目前項目</li><li>目前類別</li></ul> |
-| 自訂 | 根據自訂屬性來建議項目。<ul><li>自訂屬性</li></ul>根據自訂屬性來建議時，您必須選取自訂屬性，然後選取建議類型。<br>對於您自己的自訂條件輸出，您可以執行即時篩選。例如，您可以將建議的項目限制在來自訪客最喜愛的類別或品牌的內容。此功能可讓您結合離線計算與即時篩選。<br>此功能表示對於離線計算的建議或自訂策展清單，您可以使用 Target 來新增個人化。這結合資料科學家的本領和研究，與 Adobe 的實測可靠傳送、執行階段篩選、A/B 測試、鎖定目標、報表、整合及其他。<br>連同在自訂條件上增加包含規則，這還可以根據訪客的興趣，將原本靜態的建議轉換成動態建議。<ul><li>就像建議中的其他條件一樣，自訂條件也可設定。</li><li>您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。</li></ul>可能的使用案例包括:<ul><li>您想從自訂策展清單中建議電影，但僅限於訪客還沒看過。</li><li>您想執行離線演算法，並利用結果來強化建議，但您需要確定絕不會建議沒有庫存的項目。</li><li>您想只包含此訪客最喜愛的類別中的項目。</li></ul> |
-| 過去行為 | 根據訪客以往如何回應項目來建議項目。例如，購買特定牌品的人很可能購買相同牌品的其他項目。<ul><li>上次購買的項目</li><li>上次檢視的項目</li><li>檢視次數最多的項目</li><li>最喜愛的類別</li></ul> |
-| 人氣 | 建議最熱門項目，例如相關類別中最熱門的影片，或您網站上最常被看到的產品。<ul><li>人氣</li></ul> |
-| 最近查看的項目 | 建議訪客最近看過的項目，例如訪客上次造訪網站時查看的項目，或此刻最夯的文章。<br>「最近查看的項目」演算法會傳回某個[環境](/help/administrating-target/hosts.md)中特定訪客活動的結果。如果兩個網站分屬不同環境，且訪客在兩個網站之間切換，演算法僅會傳回相應網站的最近查看項目。<br>此條件類型不受限於集合。<ul><li>最近查看的項目</li></ul>**注意:** 您無法對備用建議使用「最近查看的項目」條件。<br>您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。<ul><li>如同建議中的其他條件一樣，「最近查看」條件也可設定。</li><li>您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。</li></ul>可能的使用案例包括:<ul><li>經營多種業務的跨國公司可能讓訪客看到遍及多種數位屬性的項目。在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。這會防止在另一個數位屬性的網站上顯示「最近查看的項目」。</li></ul> |
+| 目前頁面活動 | 根據使用者在目前頁面上的行為來建議項目。例如，訪客在檢視特定文章時，可能想看同類型的其他文章。<ul><li>[目前項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-item)</li><li>[目前類別](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-category)</li></ul> |
+| 自訂 | 根據自訂屬性來建議項目。<ul><li>[自訂屬性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>根據自訂屬性來建議時，您必須選取自訂屬性，然後選取建議類型。 |
+| 過去行為 | 根據訪客以往如何回應項目來建議項目。例如，購買特定牌品的人很可能購買相同牌品的其他項目。<ul><li>[上次購買的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[上次檢視的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[檢視次數最多的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[最喜愛的類別](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
+| 人氣 | 建議最熱門項目，例如相關類別中最熱門的影片，或您網站上最常被看到的產品。<ul><li>[人氣](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
+| 最近查看的項目 | 建議訪客最近看過的項目，例如訪客上次造訪網站時查看的項目，或此刻最夯的文章。<br>「最近查看的項目」演算法會傳回某個[環境](/help/administrating-target/hosts.md)中特定訪客活動的結果。如果兩個網站分屬不同環境，且訪客在兩個網站之間切換，演算法僅會傳回相應網站的最近查看項目。<br>此條件類型不受限於集合。<ul><li>[最近查看的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**注意:** 您無法對備用建議使用「最近查看的項目」條件。<br>您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。<ul><li>如同建議中的其他條件一樣，「最近查看」條件也可設定。</li><li>您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。</li></ul>可能的使用案例包括:<ul><li>經營多種業務的跨國公司可能讓訪客看到遍及多種數位屬性的項目。在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。這會防止在另一個數位屬性的網站上顯示「最近查看的項目」。</li></ul> |
 
 ## 使用自訂建議金鑰 {#custom-key}
 
@@ -79,15 +79,14 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 標準 | 說明 |
 |--- |--- |
-| 具有類似屬性的項目/媒體 | 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。<br>**注意:** 如果您選取「具有類似屬性的項目/媒體」，便可選擇設定內容相似度規則。 |
-| 瀏覽過此項目、也瀏覽了其他項目的使用者 | 建議在檢視所指定項目的相同工作階段中，最常檢視的項目。 |
-| 瀏覽過此項目、但購買了其他項目的使用者 | 建議在檢視所指定項目的相同工作階段中，最常購買的項目。此條件傳回在檢視這個產品之後購買的其他產品，而指定的產品未包含在結果集合中。 |
-| 購買了此項目、也購買了其他項目的使用者 | 建議當客戶購買所指定項目的同時，最常購買的項目。 |
-| 網站相關性 | 根據項目之間關係的必然性來建議項目。您可以使用「包含規則」滑桿來設定此條件，以決定呈現建議之前需要多少資料。例如，如果選擇「非常強」，則會建議符合確定性最強的產品。<br>例如，如果您設定非常強的相關性，且您的設計包含五個項目，其中三個符合連線強度臨界值，則不符合最低強度需求的兩個項目不會出現在建議中，而會由您定義的備用項目取代。具有最強相關性的項目會先顯示。<br>某些客戶具有相異產品集合和相異網站行為，如果他們設定弱網站相關性，可能會獲得最佳結果。 |
-| 最暢銷商品 | 多數完成的訂單中包含的項目。單一訂單中相同項目的多個單位視為一份訂單。 |
-| 檢視次數最多 | 最常檢視的項目或媒體。 |
-| 最近查看的項目/媒體 | 訪客最近檢視的項目。使用此條件時，您應更新 Target 設計來處理先前檢視的項目數不足以顯示而出現空白建議的情況。 |
-| 使用者建議 | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。<br>此准則可讓您為新訪客和舊訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當使用者瀏覽您的網站時，建議清單會變得更個人化。<br>檢視和購買都可用來決定建議的項目。 指定的建議金鑰（例如目前項目）可用來套用您選取的任何包含規則篩選。 例如，您可以:<ul><li>排除不符合特定條件的項目（產品無存貨、30天前發佈的文章、評為R的影片等）</li><li>將包含的項目限制為單一類別或目前類別</li></ul> |
+| [具有類似屬性的項目/媒體](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#similar-attributes) | 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。 |
+| [瀏覽過此項目、也瀏覽了其他項目的使用者](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-viewed) | 建議在檢視所指定項目的相同工作階段中，最常檢視的項目。 |
+| [瀏覽過此項目、但購買了其他項目的使用者](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-bought) | 建議在檢視所指定項目的相同工作階段中，最常購買的項目。 |
+| [購買了此項目、也購買了其他項目的使用者](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#bought-bought) | 建議當客戶購買所指定項目的同時，最常購買的項目。 |
+| [網站相關性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | 根據項目之間關係的必然性來建議項目。 |
+| [最暢銷商品](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | 多數完成的訂單中包含的項目。單一訂單中相同項目的多個單位視為一份訂單。 |
+| [檢視次數最多](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | 最常檢視的項目或媒體。 |
+| [使用者建議](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。 |
 
 >[!NOTE]
 >
