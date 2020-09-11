@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Adobe Target Recommendations中的准則是規則，可根據一組預先設定的訪客行為來決定要推薦哪些產品。
+description: Adobe Target中的准則是規則，可根據一組預先確定的訪客行為來決定要推薦哪些產品或內容。
 title: Adobe Target Recommendations中的條件
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 68%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 條件
 
-條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. 條件可以基於人氣趨勢、訪客的目前和過去行為，或類似的產品和內容。您可以新增多個條件，將多個建議類型彼此測試。
 
-條件決定什麼動作會產生什麼建議。您可以新增多個條件，將多個建議類型彼此測試。
+以下各節將進一步說明准則索引鍵和可用於每個索引鍵的建議邏輯。 按一下連結，以取得詳細資訊。
 
 ## 垂直產業 {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-您可以根據建議活動的目標選擇垂直的產業。 視您選擇的產業垂直而定，
+建立准則時，您會根據建議活動的目標選取垂直的產業。
 
 | 垂直產業 | 目標 |
 |--- |--- |
@@ -29,9 +29,15 @@ ht-degree: 68%
 | 潛在客戶開發/B2B/金融服務 | 轉換但未購買 |
 | 媒體/出版 | 參與 |
 
+其他條件選項會根據您選取的產業垂直而變更。 您可以在「建議>設定」頁面上設定預設的 **[!UICONTROL 產業垂直]** ，或為每個標準指定產業垂直。
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您選取的建議金鑰決定條件類型。提供幾個條件類型，當您設定 [!DNL Recommendations] 活動時會以條件卡呈現。
+
+![「標準」頁](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+下表說明各種准則類型及其隨附的鍵。 按一下連結，以取得每個索引鍵的詳細資訊。
 
 | 條件類型 | 密鑰 |
 |--- |--- |
@@ -39,7 +45,7 @@ ht-degree: 68%
 | 自訂 | 根據自訂屬性來建議項目。<ul><li>[自訂屬性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>根據自訂屬性來建議時，您必須選取自訂屬性，然後選取建議類型。 |
 | 過去行為 | 根據訪客以往如何回應項目來建議項目。例如，購買特定牌品的人很可能購買相同牌品的其他項目。<ul><li>[上次購買的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[上次檢視的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[檢視次數最多的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[最喜愛的類別](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | 人氣 | 建議最熱門項目，例如相關類別中最熱門的影片，或您網站上最常被看到的產品。<ul><li>[人氣](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| 最近查看的項目 | 建議訪客最近看過的項目，例如訪客上次造訪網站時查看的項目，或此刻最夯的文章。<br>「最近查看的項目」演算法會傳回某個[環境](/help/administrating-target/hosts.md)中特定訪客活動的結果。如果兩個網站分屬不同環境，且訪客在兩個網站之間切換，演算法僅會傳回相應網站的最近查看項目。<br>此條件類型不受限於集合。<ul><li>[最近查看的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**注意:** 您無法對備用建議使用「最近查看的項目」條件。<br>您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。<ul><li>如同建議中的其他條件一樣，「最近查看」條件也可設定。</li><li>您可以使用[收集](/help/c-recommendations/c-products/collections.md)、[排除](/help/c-recommendations/c-products/exclusions.md)和[包含](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (包括用於價格和存貨的特殊規則) 的方式與任何其他條件相同。</li></ul>可能的使用案例包括:<ul><li>經營多種業務的跨國公司可能讓訪客看到遍及多種數位屬性的項目。在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。這會防止在另一個數位屬性的網站上顯示「最近查看的項目」。</li></ul> |
+| [最近查看的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 建議訪客最近檢視的項目，例如訪客上次瀏覽您網站時所檢視的項目，或目前趨勢最高的文章。 |
 
 ## 使用自訂建議金鑰 {#custom-key}
 
