@@ -5,9 +5,9 @@ title: 上傳自訂條件
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1893'
 ht-degree: 66%
 
 ---
@@ -49,11 +49,13 @@ ht-degree: 66%
 
    說明應協助您識別標準，並可能包含標準用途的相關資訊。
 
-1. 選取&#x200B;**[!UICONTROL 垂直產業]**:
+1. 根據建議活動的目標，選擇垂直產業。
 
-   * [!UICONTROL 零售/電子商務]
-   * [!UICONTROL 潛在客戶開發/B2B/金融服務]
-   * [!UICONTROL 媒體/出版]
+   | 垂直產業 | 目標 |
+   |--- |--- |
+   | 零售/電子商務 | 轉換帶動購買 |
+   | 潛在客戶開發/B2B/金融服務 | 轉換但未購買 |
+   | 媒體/出版 | 參與 |
 
    其他條件選項將根據您選取的垂直產業而變更。
 
