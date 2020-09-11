@@ -4,7 +4,7 @@ description: 有關使用特殊多值運算子在Adobe Target Recommendations中
 title: 在Adobe Target Recommendations中使用多值屬性
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -72,7 +72,6 @@ function targetPageParams() {
 >[!NOTE]
 >
 >當將單一值左側與多值右側比較時，目前只有在使用描述檔屬性比對或參數(mbox)屬性比對規則時，標準才支援動態比對多值屬性。 促銷活動、實體屬性比對或包含規則左側的清單目前不支援多值屬性。
-
 
 ### 範例：排除最近監看的項目
 
