@@ -1,21 +1,21 @@
 ---
 keywords: recommendation;backup;back up
-description: 如使用備份建議功能，所有其中建議項目不足的建議將不會顯示預設內容。建議會改為顯示備份演算法的結果。
+description: 如果您在Adobe Target中使用備份建議功能，則任何沒有足夠建議項目的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
 title: 使用備份建議
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 使用備用建議{#use-a-backup-recommendation}
 
-如使用備份建議功能，所有其中建議項目不足的建議將不會顯示預設內容。建議會改為顯示備份演算法的結果。
+如果您在Adobe Target中使用備份建議功能，則任何沒有足夠建議項目的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
 
 如果您未使用備份建議，而建議沒有足夠的項目來顯示，則系統會對使用者顯示預設內容。
 
