@@ -1,14 +1,14 @@
 ---
 keywords: recommendation;backup;back up
 description: 如果您在Adobe Target中使用備份建議功能，則任何沒有足夠建議項目的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
-title: 使用備份建議
+title: 使用備份建議 在Adobe Target Recommendations中
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '523'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 90%
 如果您在Adobe Target中使用備份建議功能，則任何沒有足夠建議項目的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
 
 如果您未使用備份建議，而建議沒有足夠的項目來顯示，則系統會對使用者顯示預設內容。
+
+>[!NOTE]
+>
+>「建立條件」主題的「內容」區段中會包含其他資訊 [](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) ，包括矩陣，其中說明搭配使用「部分設計演算」和「顯示備份建議」選項時，您會觀察到的結果。
 
 使用演算法資料後，備份建議功能會始終使用網站上檢視次數最多的項目來填充任何剩余區段。例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
 
