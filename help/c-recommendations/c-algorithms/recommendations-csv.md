@@ -5,7 +5,7 @@ title: 上傳自訂條件
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ ht-degree: 63%
 
 1. （條件性）填入「包含規則」區 [段中的資](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) 訊。
 
-1. (「屬性加權」區段中的資 [訊條件填](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 寫。
+1. （條件性）填入「屬性加權」區 [段中的資訊](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 。
 
 1. 在「上 **[!UICONTROL 傳CSV]** 」區段中，選 **[!UICONTROL 取CSV檔案的位置]** 。
 
