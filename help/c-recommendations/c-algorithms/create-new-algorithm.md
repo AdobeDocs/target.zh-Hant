@@ -5,7 +5,7 @@ title: 建立條件
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -81,7 +81,7 @@ ht-degree: 66%
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## 資料來源
+## 資料來源 {#data-source}
 
 1. 設定&#x200B;**[!UICONTROL 資料範圍]**，以便在決定要顯示哪些建議時，限定要使用的可用歷史使用者行為資料的時間範圍。
 
@@ -224,7 +224,7 @@ Content rules determine what happens if the number of recommended items does not
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## 屬性加權
+## 屬性加權 {#weighting}
 
 您可以根據內容目錄的重要資訊或中繼資料新增多個規則來「微調」演算法，讓某些項目更有可能顯示。
 
