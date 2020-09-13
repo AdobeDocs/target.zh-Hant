@@ -1,21 +1,22 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 使用單值和多值自訂實體屬性，來定義關於目錄中項目的其他資訊。
-title: 自訂實體屬性
+title: Adobe Target中的自訂實體屬性
 feature: entities
+mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 95%
+source-wordcount: '1377'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 自訂實體屬性{#custom-entity-attributes}
 
-使用單值和多值自訂實體屬性，來定義關於目錄中項目的其他資訊。
+Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
 
 ## 限制 {#limits}
 
@@ -33,15 +34,11 @@ ht-degree: 95%
 
 含單一值的自訂實體屬性與單值預先定義的實體屬性以相同方式形成:
 
-```
-entity.genre=genre1
-```
+`entity.genre=genre1`
 
 多值自訂實體屬性必須以有效的 JSON 陣列形成來傳送:
 
-```
-entity.genre=[“genre1”, “genre2”]
-```
+`entity.genre=[“genre1”, “genre2”]`
 
 [!DNL Recommendations] 所支援的有效 JSON 陣列範例:
 
@@ -104,7 +101,7 @@ function targetPageParams() {
 
 ![](assets/multi-value_example_excel.png)
 
-轉換為 [!DNL .csv] 格式時，試算表軟體會在儲存格內容兩側加上雙引號，以防止將儲存格內的逗號當作欄分隔符號。對於您包含在自訂多值屬性中的 JSON 字串值，兩側也會加上雙引號。這會造成直接處理原始檔案很不方便。例如:
+轉換為 .csv 格式時，試算表軟體會在儲存格內容兩側加上雙引號，以防止將儲存格內的逗號當作欄分隔符號。對於您包含在自訂多值屬性中的 JSON 字串值，兩側也會加上雙引號。這會造成直接處理原始檔案很不方便。例如:
 
 * 試算表: `["1","2","3"]`
 * 原始: `"[""1"",""2"",""3""]"`
@@ -131,8 +128,7 @@ function targetPageParams() {
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
-using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
 
 ## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,27 +136,118 @@ using the Delivery and Save entities APIs.
 
 在下列範例中，規則是 `message contains abc`。
 
-案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有值包含 `abc`。
-
-案例 2: `entity.genre = ["abcde","de","ef"]`。結果為 true，因為某個值包含 `abc`。
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有值包含 `abc`。
+* 案例 2: `entity.genre = ["abcde","de","ef"]`。結果為 true，因為某個值包含 `abc`。
 
 對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，假設運算子是 `notEquals`，如果任何值相符，則結果為 *false*。
 
-請參閱下表，以瞭解演算法包含規則、目錄規則和排除規則中的運算子行為。
+請參閱下列章節，瞭解演算法包含規則、目錄規則和排除規則中的運算元行為。
 
-| 運算元 | 行為 | 範例 |
-|--- |--- |--- |
-| 等於 | 如果有任何屬性值等於輸入值，則結果為 true。 | `genre equals abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值等於 `abc`。<br>案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 true，因為有一個值等於 `abc`。<br>案例 3: `entity.genre = ["abcde", "de", "ef"]`。結果為 false，因為 `abc` 不等於清單中的任何元素。 |
-| 不等於 | 如果沒有任何屬性值等於輸入值，則結果為 true。 | `genre not equals abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值等於 `abc`。<br>案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 false，因為有一個值等於 `abc`。<br>案例 3: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為 `abc` 不等於清單中的任何元素。 |
-| 包含 | 如果屬性的任何值包含輸入值，則結果為 true。 | `genre contains abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有值包含 `abc`。<br>案例 2: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為某個值包含 `abc`。 |
-| 不包含 | 如果屬性的任何值都不包含輸入值，則結果為 true。 | `genre does not contain abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值包含 `abc`。<br>案例 2: `entity.genre = ["abcde", "de", "ef"]`。規則的結果為 false，因為有一個值包含 `abc`。 |
-| 開始於 | 如果屬性的任何值以輸入值開頭，則結果為 true。 | `genre starts with abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值開頭為 `abc`。<br>案例 2: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為某個值的開頭為 `abc`。<br>案例 3: `entity.genre = ["ab", "de", "abc"]`。結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。 |
-| 終止於 | 如果屬性的任何值結尾是輸入值，則結果為 true。 | `genre ends with abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值結尾是 `abc`。<br>案例 2: `entity.genre = ["deabc", "de", "ef"]`。結果為 true，因為有一個值結尾是 `abc`。 |
-| 大於或等於 (僅限數值) | 屬性值會轉換為 double。執行規則時會略過無法轉換的屬性。<br>處理之後，如有任何屬性值大於或等於輸入值，則結果為 true。 | `price greater than or equal to 100`<br>案例 1: `entity.price = ["10", "20", "45"]`。結果為 false，因為沒有任何值大於或等於 100。系統會略過值 `de`，因為無法將它轉換為 double。<br>案例 2: `entity.price = ["100", "101", "90", "80"]`。結果為 true，因為有兩個值大於或等於 100。 |
-| 小於或等於 (僅限數值) | 屬性值會轉換為 double。執行規則時會略過無法轉換的屬性。<br>處理之後，如有任何屬性值小於或等於輸入值，則結果為 true。 | `price less than or equal to 100`<br>案例 1: `entity.price = ["101", "200", "141"]`。結果為 false，因為沒有任何值小於或等於 100。系統會略過值 `de`，因為無法將它轉換為 double。<br>案例 2: `entity.price = ["100", "101", "90", "80"]`。結果為 true，因為有兩個值小於或等於 100。 |
-| 動態符合 (僅適用於以項目為基礎的演算法) | 如果有任何屬性值符合輸入值，則結果為 true。 | `genre matches abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值符合 `abc`。<br>案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 true，因為有一個值符合 `abc`。 |
-| 動態不符合 (僅適用於以項目為基礎的演算法) | 如果有任何屬性值符合輸入值，則結果為 false。 | `genre does not match abc`<br>案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值符合 `abc`。<br>案例 2: `entity.genre = ["abc", "de", "ef"]`。規則的結果為 false，因為有一個值符合 `abc`。 |
-| 動態範圍 (僅適用於以項目為基礎的演算法、數值) | 如果有任何數字屬性值落在指定的範圍內，則結果為 true。 | `price dynamically ranges in 80% to 120% of 100`<br>案例 1: `entity.price = ["101", "200", "125"]`。結果為 true，因為 `101` 在 100 的 80% 到 120% 範圍內。系統會略過值 `de`，因為無法將它轉換為 double。<br>案例 2: `entity.price = ["130", "191", "60", "75"]`。結果為 false，因為沒有任何值在 100 的 80% 到 120% 範圍內。 |
+### 等於
+
+如果有任何屬性值等於輸入值，則結果為 true。
+
+範例: `genre equals abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值等於 `abc`。
+* 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 true，因為有一個值等於 `abc`。
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. 結果為 false，因為 `abc` 不等於清單中的任何元素。
+
+### 不等於
+
+如果沒有任何屬性值等於輸入值，則結果為 true。
+
+範例: `genre not equals abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值等於 `abc`。
+* 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 false，因為有一個值等於 `abc`。
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. 結果為 true，因為 `abc` 不等於清單中的任何元素。
+
+### 包含
+
+如果屬性的任何值包含輸入值，則結果為 true。
+
+範例: `genre contains abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有值包含 `abc`。
+* 案例 2: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為某個值包含 `abc`。
+
+### 不包含
+
+如果屬性的任何值都不包含輸入值，則結果為 true。
+
+範例: `genre does not contain abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值包含 `abc`。
+* 案例 2: `entity.genre = ["abcde", "de", "ef"]`。規則的結果為 false，因為有一個值包含 `abc`。
+
+### 開始於
+
+如果屬性的任何值以輸入值開頭，則結果為 true。
+
+範例: `genre starts with abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值開頭為 `abc`。
+* 案例 2: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為某個值的開頭為 `abc`。
+* Case 3: `entity.genre = ["ab", "de", "abc"]`. 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
+
+### 終止於
+
+如果屬性的任何值結尾是輸入值，則結果為 true。
+
+範例: `genre ends with abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值結尾是 `abc`。
+* 案例 2: `entity.genre = ["deabc", "de", "ef"]`。結果為 true，因為有一個值結尾是 `abc`。
+
+### 大於或等於 (僅限數值)
+
+屬性值會轉換為 double。執行規則時會略過無法轉換的屬性。
+
+處理之後，如有任何屬性值大於或等於輸入值，則結果為 true。
+
+範例: `price greater than or equal to 100`
+
+* 案例 1: `entity.price = ["10", "20", "45"]`。結果為 false，因為沒有任何值大於或等於 100。系統會略過值 `de`，因為無法將它轉換為 double。
+* 案例 2: `entity.price = ["100", "101", "90", "80"]`。結果為 true，因為有兩個值大於或等於 100。
+
+### 小於或等於 (僅限數值)
+
+屬性值會轉換為 double。執行規則時會略過無法轉換的屬性。
+
+處理之後，如有任何屬性值小於或等於輸入值，則結果為 true。
+
+範例: `price less than or equal to 100`
+
+* 案例 1: `entity.price = ["101", "200", "141"]`。結果為 false，因為沒有任何值小於或等於 100。系統會略過值 `de`，因為無法將它轉換為 double。
+* 案例 2: `entity.price = ["100", "101", "90", "80"]`。結果為 true，因為有兩個值小於或等於 100。
+
+### 動態符合 (僅適用於以項目為基礎的演算法)
+
+如果有任何屬性值符合輸入值，則結果為 true。
+
+範例: `genre matches abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值符合 `abc`。
+* 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 true，因為有一個值符合 `abc`。
+
+### 動態不符合 (僅適用於以項目為基礎的演算法)
+
+如果有任何屬性值符合輸入值，則結果為 false。
+
+範例: `genre does not match abc`
+
+* 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值符合 `abc`。
+* 案例 2: `entity.genre = ["abc", "de", "ef"]`。規則的結果為 false，因為有一個值符合 `abc`。
+
+### 動態範圍 (僅適用於以項目為基礎的演算法、數值)
+
+如果任何數值屬性值位於指定範圍內，則結果為true。
+
+範例: `price dynamically ranges in 80% to 120% of 100`
+
+* 案例 1: `entity.price = ["101", "200", "125"]`。結果為 true，因為 `101` 在 100 的 80% 到 120% 範圍內。系統會略過值 `de`，因為無法將它轉換為 double。
+* 案例 2: `entity.price = ["130", "191", "60", "75"]`。結果為 false，因為沒有任何值在 100 的 80% 到 120% 範圍內。
 
 >[!NOTE]
 >
@@ -168,7 +255,7 @@ using the Delivery and Save entities APIs.
 
 ## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-多值屬性在設計中參照時會顯示為以逗點區隔的清單。
+在設計中參考多值屬性時，多值屬性會以逗號分隔的清單顯示。
 
 範例:  
 
