@@ -1,29 +1,38 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: 使用摘要來將實體匯入 Adobe Recommendations。實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
-title: 動態消息
+description: 使用動態消息將實體匯入Adobe Target Recommendations。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
+title: Adobe Target建議中的動態消息
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 93%
+source-wordcount: '2520'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 摘要{#feeds}
 
-使用摘要來將實體匯入 [!DNL Recommendations]。實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。
+使用摘要來將實體匯入 [!DNL Adobe Target Recommendations]。實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。
 
 ## 摘要概覽 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 摘要可用來傳遞[實體](/help/c-recommendations/c-products/products.md)或擴增 mbox 資料的資訊，此資訊無法在頁面上取得，或直接從頁面傳送很不安全，例如利潤、COGS 等。
 
-您可以選取要將 [!DNL Target] 產品分類檔案或 Google Product Search 檔案中的哪些欄位傳送至 [!DNL Recommendations] 伺服器。這些各個項目的相關資料片段可用於範本顯示和控制建議。
+動態消息可讓您將詳細的項目資訊 [!DNL Recommendations]傳遞至，例如產品ID、類別、名稱、訊息和其他屬性。
 
-如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
+您可以選取要將 [!DNL Target] 產品分類檔案或 Google Product Search 檔案中的哪些欄位傳送至 [!DNL Recommendations] 伺服器。
+
+然後，可使用每個項目的這些資料片段：
+
+* 在設計中顯示值
+* 定義條件包含規則
+* 將項目排序至不同的系列
+* 將排除套用至建議
+
+項目說明可使用動態消息 [!DNL Target] 或mbox傳遞至。 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
 
 [!UICONTROL 摘要]清單 (**[!UICONTROL 建議]** > **[!UICONTROL 摘要]**) 提供您已建立的任何摘要的相關資訊。
 
@@ -46,9 +55,13 @@ ht-degree: 93%
 >* 從動態消息檔案移除項目並不會將該項目從目錄中移除。 若要從目錄中移除項目，請透過Target UI或API手動刪除項目。 或者，修改物料屬性（如庫存）以確保將物料排除在考量之外。
 
 
-## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+## 來源類型
 
-您可以使用 Adobe 專屬 CSV 上傳格式來建立 `.csv` 檔案。此檔案包含產品的保留屬性和自訂屬性相關的顯示資訊。若要上傳實作特有的屬性，請以您要使用的屬性名稱取代標題列中的 `CustomN`。在下列範例中,`entity.Custom1` 已取代為 `entity.availability`。然後您可以將檔案大量上傳至 [!DNL Recommendations] 伺服器。
+實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。
+
+### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+
+您可以使用 Adobe 專屬 CSV 上傳格式來建立 .csv 檔案。此檔案包含產品的保留屬性和自訂屬性相關的顯示資訊。若要上傳實作特有的屬性，請以您要使用的屬性名稱取代標題列中的 `CustomN`。在下列範例中,`entity.Custom1` 已取代為 `entity.availability`。然後您可以將檔案大量上傳至 [!DNL Recommendations] 伺服器。
 
 使用 .csv 格式比 Google Feed 格式更好的理由如下:
 
@@ -78,7 +91,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->您不能以空白值來覆寫現有值。您必須在原處傳遞另一個值來覆寫它。以售價來說，一般解決辦法是傳入實際的 &quot;NULL&quot; 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
+>您不能以空白值來覆寫現有值。您必須在其位置傳遞另一個值，才能覆寫它。 以售價來說，一般解決辦法是傳入實際的 &quot;NULL&quot; 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
 
 產品在成功上傳其實體大約兩小時之後，就可以在管理介面中使用。
 
@@ -96,7 +109,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 Google 產品搜尋摘要類型使用 Google 格式。這與 Adobe 的專屬 CSV 上傳格式不同。
 
@@ -106,13 +119,13 @@ Google 產品搜尋摘要類型使用 Google 格式。這與 Adobe 的專屬 CSV
 >
 >不一定要使用 Google 資料。[!DNL Recommendations] 使用與 Google 相同的格式。您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >
 >託管 Google 摘要內容的伺服器上必須允許使用 POST 方法。
 
-由於 [!DNL Recommendations] 使用者已設定 [!DNL .xml] 或 [!DNL .txt] 摘要透過 URL 或 FTP 傳送至 Google，實體摘要會接受該產品資料並將其用於建置建議目錄。指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
+Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
 
 如果您將 Google Product Search 用於實體摘要上傳，您仍然需要將產品頁面 mbox 放置在要顯示建議的頁面上，或是根據檢視來追蹤演算法傳遞的產品檢視。
 
@@ -195,17 +208,18 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 Analytics 產品分類是建議唯一可用的分類。For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
->使用 Analytics 產品分類將實體資料匯入到 Recommendations 之前，請注意這不是推薦的方法。
+>Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
 >
 > 請注意下列警告:
+>
 >* 更新實體屬性會引起額外延遲，最多 24 小時。
->* Target 僅支援「產品分類」。Analytics 產品 SKU 必須對應至與 Recommendations `entity.id` 相同的等級。您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
+>* [!DNL Target] 僅支援產品分類。 The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. 您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
 
 
 ## 建立摘要 {#steps}
@@ -288,7 +302,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
 | 正在匯入項目 | Target 正在從摘要檔案匯入項目。 |
-| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>*備註 1:* 如果項目屬性的變更導致建議排除了該項目，則會立即顯示排除。如果項目是新增的項目，或屬性變更導致建議&#x200B;*不再*&#x200B;排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。<br>*備註 2:* 顯示此狀態時，目錄搜尋使用者介面可能尚未顯示更新。目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。 |
+| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>附註:<ul><li>如果項目屬性的變更導致項目被排除在建議之外，則會立即反映排除。 如果項目是新增的項目，或屬性變更導致建議&#x200B;*不再*&#x200B;排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。</li><li>顯示此狀態時，更新可能尚未反映在目錄搜尋使用者介面中。 目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。</li></ul> |
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
@@ -296,7 +310,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 >[!IMPORTANT]
 >
->上傳的實體會在 61 天後過期。這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。如果項目未至少每隔 60 天包含在摘要檔案 (或其他實體更新方法) 中，Adobe Target 會推斷該項目已不再相關，並且會將其從目錄中移除。
+>上傳的實體會在 61 天後過期。這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
 
 ### 摘要狀態指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -308,6 +322,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 | 黃色狀態指示器 | 當摘要或摘要索引延遲摘要頻率的 25% 時，就會出現黃色狀態點。例如，假設摘要設定為每日執行，如果索引在排程時間之後的六小時未完成，則會顯示黃色點。注意: 一旦摘要狀態為「等候索引佇列」，新更新的值即可在傳遞和條件處理中提供使用。 |
 | 白色狀態指示器 | 當摘要未排程時，白色狀態點表示摘要尚未執行。 |
 | 紅色狀態指示器 | 如果摘要無法將資料上傳至伺服器，則會出現紅色狀態指示器。 |
+
 考量下列範例:
 
 **範例 1:**
