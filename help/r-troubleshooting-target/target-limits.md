@@ -6,10 +6,10 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1021'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ ht-degree: 0%
 
 ## 實體自訂屬性
 
-**上限**: 長度上限取決於語言。
+您最多可包含100個自訂實體屬性
+
+**限制**:字元長度上限視語言而定。
 
 * 15,000 個字元 (單值、單位元和雙位元語言)
 * 500 個值，每個值 100 個字元 (多值)
