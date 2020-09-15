@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1271'
 ht-degree: 46%
 
 ---
@@ -63,8 +63,8 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | 活動類型 | A4T 相容? | 備註 (若適用) |
 |--- |--- |--- |
 | 手動分割流量的 A//B 活動 | 是 |  |
-| 自動分配的 A/B 活動 | 是 | 請參 [閱Analytics for Target(A4T)對自動配置活動的支援](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
-| 自動鎖定目標的 A/B 活動 | 無 |  |
+| 自動分配的 A/B 活動 | 是 | 請參 [閱Analytics for Target(A4T)對「自動分配」和「自動目標」活動的支援](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
+| 自動鎖定目標的 A/B 活動 | 是 | 請參 [閱Analytics for Target(A4T)對「自動分配」和「自動目標」活動的支援](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
 | 體驗鎖定目標 (XT) | 是 |  |
 | 多變數測試 (MVT) | 是 | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
 | 自動個人化 (AP) 活動 | 無 |  |
