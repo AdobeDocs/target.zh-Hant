@@ -5,9 +5,9 @@ title: Adobe Target 中的目錄搜尋
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 您可以使用 [!UICONTROL 進階搜尋] ，進一步細化搜尋結果，或將搜尋結果儲存為系 [列](/help/c-recommendations/c-products/collections.md) 或 [排除](/help/c-recommendations/c-products/exclusions.md)。
 
-1. 按一下進 **[!UICONTROL 階搜尋]**。
+1. 按一下「進 **[!UICONTROL 階搜尋]** 」連結。
 
    ![「高級搜索」頁](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 ## 刷新目錄
 
-當您上傳第一個動態消息時，目錄的索引會自動建立，並根據指定的排程重新整理。
+當您上傳第一個動態消息時，目錄的索引會自動建立，並根據指定的排程 [重新整理](/help/c-recommendations/c-products/feeds.md#steps)。
 
 透過摘要檔案、API 或 mbox 更新收到更新時，目錄會自動重新整理。更新通常會在一小時內完成。如果正在進行更新，會顯示最新更新的開始時間。如果沒有任何正在進行的更新，會顯示最新更新的開始和結束時間。
 
@@ -118,7 +118,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 1. 執行進 [階搜尋](#advanced-search)。
 
-1. （可選）按一下「 **[!UICONTROL 另存新檔]**」，然後按一 **[!UICONTROL 下「系列]** 」 **[!UICONTROL 或「排除]**」。
+1. 按一 **[!UICONTROL 下「另存新檔]**」，然後按一 **[!UICONTROL 下「系列]** 」 **[!UICONTROL 或「排除]**」。
 
    ![另存為選項](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -149,6 +149,8 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    ![修改篩選器連結](/help/c-recommendations/c-products/assets/modify-filters.png)
 
 1. 選取所要的搜尋Facet（ID、名稱、訊息等）。
+
+   ![新增篩選](/help/c-recommendations/c-products/assets/add-filters.png)
 
 請記住，其他篩選Facet僅適用於目前作業。
 
