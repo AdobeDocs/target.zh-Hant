@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+例如:
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## at.js 2的活動QA書籤小工具。*x*
 
 與at.js 1相反。*x*,at.js 2.*x不支援* 協力廠商Cookie，而QA模式僅適用於第一方網域（透過at.js所設定的第一方Cookie）。 因此，在at.js 2中。*x*,QA模式作業僅在用戶端進行管理，且不會將QA模式Cookie傳送至Target。
@@ -70,8 +76,3 @@ javascript:(
 
 按一下瀏覽器工具列上的書籤小工具。
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
-
-例如:
-
-`https://www.mysite.com/?at_preview_token=`
