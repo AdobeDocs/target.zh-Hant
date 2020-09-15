@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 24%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 25%
 
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## Target Standard/Premium 20.8.3 (2020 年 9 月 15 日)
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Analytics for Target(A4T)支援自動定位活動 | [!UICONTROL Auto-Target活動] ，現在支援 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用 [!UICONTROL Auto-Target] ensemble機器學習演算法，根據每位訪客的描述檔、行為和上下文來選擇最佳體驗。<br>如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試和體驗定位活動搭配使用，一切就緒！<br>如需詳細資訊，請參 [閱「活動建立」中「自動分配」和「自動定位」活動的Analytics for Target(A4T)](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*支援*。 |
 
 ## Target Standard/Premium 20.8.2 (2020 年 9 月 10 日)
 
