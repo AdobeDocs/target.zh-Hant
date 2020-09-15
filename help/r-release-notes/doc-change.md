@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 30%
+source-wordcount: '2275'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9月15日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Standard/Premium 20.8.3版的資訊，此版本包含Analytics for Target(A4T)對自動定位活動的支援。 在舊版中新增了對「自動分配」活動的支援。 |
+|  | [Analytics for Target(A4T)支援「自動配置」和「自動定位」活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 | 已新增有關A4T支援在Auto-Target活動中的資訊。 |
+|  | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新文字，指出以空值載入您網站上的頁面，以手動方式強制自己退出QA模式的方 `at_preview_token` 法會套用至at.js 1。*x* 版。 |
+|  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md) | 更新整個主題。 |
 | 9月10日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Standard/Premium 20.9.2版本的資訊，其中包含下列新功能：在准則順序中控制建議槽。 |
 |  | [建立條件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 已新增「限制傳回的項目數」功能的相關資訊。 |
 | 9月9日 | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 已新增JavaScript程式碼以搭配at.js 2使用。*x* 版本不支援此函數。 |
