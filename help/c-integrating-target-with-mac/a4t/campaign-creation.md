@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 18%
 
 ---
@@ -76,10 +76,10 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 此整合可讓您：
 
-* 使 [用Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多重武裝強盜功能，將流量推動至成功體驗。
-* 使用 [Auto-Target](/help/c-activities/auto-target-to-optimize.md)的整合機器學習演算法，根據每位訪客的個人檔案、行為和內容，為其選擇最佳體驗。
+* 使 [用Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多重武裝強盜功能，將流量推動至成功體驗
+* 使 [用Auto-Target](/help/c-activities/auto-target-to-optimize.md)的整合機器學習演算法，根據每位訪客的描述檔、行為和上下文來選擇最佳體驗
 
-同時使用目標 [!DNL Adobe Analytics] 量度和豐 [!DNL Adobe Analytics]富的報告與分析功能。
+同時使用目標 [!DNL Adobe Analytics] 量度和豐 [!DNL Adobe Analytics]富的報告和分析功能。
 
 如果您已實作 [A4T以搭配A/B測試和體驗定位活動使用](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)，則不需要額外的設定，您就可以開始了！
 
@@ -95,11 +95,13 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 1. 選擇主要目標量度。
 
    * 選擇 **[!UICONTROL 轉換]** ，以 [!DNL Adobe Target] 用來指定最佳化目標。
-   * 選擇 **[!UICONTROL 使用Analytics量度]** ，然後從中選取量度 [!DNL Analytics] 以用作最佳化目標。 您可以使用現成可用的轉換 [!DNL Analytics] 量度或自訂 [!DNL Analytics] 事件。
+   * 選擇 **[!UICONTROL 使用Analytics量度]** ，然後從中選取量度 [!DNL Analytics] 以用作最佳化目標。 您可以使用現成可用的轉換 [!DNL Analytics] 度量或自訂 [!DNL Analytics] 事件。
 
 1. 儲存並啟動您的活動。
 
    [!UICONTROL 「自動分配] 」會使用您選取的量度來最佳化活動，將訪客帶往體驗，以最大化您的目標量度。
+
+   或
 
    [!UICONTROL Auto-Target將使用您選取的量度來最佳化活動，將訪客帶向個人化的最佳體驗。]
 
@@ -128,11 +130,11 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 ### 限制與附註
 
-* 活動啟動後，報表來源 [!DNL Analytics] 無法 [!DNL Target] 從變更為，反之亦然。
+* 啟動活動後，報表來源 [!DNL Analytics] 無法 [!DNL Target] 從變更為，反之亦然。
 * 雖然計算量度不支援做為主要目標量度，但通常可以選擇自訂事件作為主要目標量度，以達到預期結果。 例如，如果您想要最佳化度量（例如「每位訪客表單填寫」），請選取與「表單填寫」對應的自訂事件作為主要目標度量。 [!DNL Target] 自動標準化每次瀏覽的轉換量度，以考慮不均勻的流量分佈，因此不需要使用計算量度來執行標準化。
 * [!DNL Target] 在「自動配置 [!UICONTROL A4T」實作中使用「相] 同觸控」歸因模型。
 * [!UICONTROL 自動分配] (Auto-Allocate)模型會照常每兩小時進行一次培訓。
-* [!UICONTROL 自動目標] (Auto-Target)機型會照常每24小時進行一次培訓。 不過，來自轉換事件資 [!DNL Analytics] 料會延遲6至24小時。 這表示流量的分佈將追 [!DNL Target] 蹤記錄在中的最新事件 [!DNL Adobe Analytics]。 在活動首次啟動後的48小時內，效果最大；活動的效能將更密切地反映經過五 [!DNL Adobe Analytics] 天后的轉換行為。 您應考慮在 [!UICONTROL 活動開始後的前五天內，使用「自動配置] 」而非「自動定位」的短期活動。
+* [!UICONTROL 自動目標] (Auto-Target)機型會照常每24小時進行一次培訓。 不過，來自轉換事件資 [!DNL Analytics] 料會延遲6至24小時。 此延遲表示流量的分佈將追 [!DNL Target] 蹤記錄在中的最新事件 [!DNL Analytics]。 在活動首次啟動後的48小時內，效果最大；活動的效能將更密切地反映經過五 [!DNL Analytics] 天后的轉換行為。 您應考慮對 [!UICONTROL 於短期活動使用「自動分配] 」，而非「自動目標」，這些活動在活動生命週期的前五天內產生大部分流量。
 * 當使 [!DNL Analytics] 用作自動目標活動的  資料來源時，會話會被視為在經過六小時後結束。 六小時後發生的轉換將不會計算在內。
 
 如需詳細資訊，請參 [閱「分析工具指南」中的](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) 「歸因 *模型」和回顧視窗*。
