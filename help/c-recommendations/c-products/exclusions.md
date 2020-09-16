@@ -5,21 +5,27 @@ title: Adobe Target 中的排除項目
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 55%
+source-wordcount: '597'
+ht-degree: 45%
 
 ---
 
 
 # 排除項目{#exclusions}。
 
-建立排除，以 [!DNL Adobe Target Recommendations] 防止向訪客建議產品或內容。
+建立排除，以 [!DNL Adobe Target Recommendations] 防止向訪客建議產品或內容。 排除是不應建議給訪客的產品或內容子集。
 
-排除是不應建議給訪客的產品或內容子集。 例如，您可以使用排除來防止產品或內容顯示在已中止或屬於敏感性的建議中（例如評分不適合所有內容評分的影片）。
+整個帳戶都可使用排除。 與在建立  Recommendations活動時為每個體驗指定特定系列的系列不同，排除套用至帳戶內的所有活動。 在建立活動期間，沒有指定排除群組的選項。
 
-整個帳戶都可使用排除。
+您使用排除的一些範例包括：
+
+* 已中止的產品
+* 秋季／冬季目錄現在是唯一應該線上上顯示的目錄。 夏季型錄中的任何項目都無法再購買。
+* 在大部分頁面／螢幕上（成人產品、NC-17影片等）可能不適合建議的項目
+* 含有不完整中繼資料欄位的產品（遺失縮圖、價格或其他重要中繼資料）
+* 不應建議的產品（系統中可能存在某種產品的SKU，但它不是可購買的項目，或是QA團隊模擬購買而不實際訂購某些產品的假SKU等）
 
 >[!IMPORTANT]
 >
