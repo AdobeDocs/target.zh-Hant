@@ -5,10 +5,10 @@ title: Adobe Target 中的集合
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ ht-degree: 69%
 >
 >「進階搜尋」功能不區分大小寫，不過傳送時傳回的產品會以區分大小寫的搜尋為依據。此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立集合時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您之後建立一個目錄，目的要傳回包含 &quot;holiday&quot; 的產品，則只會傳回包含 &quot;holiday&quot; 的產品。不會傳回包含 &quot;Holiday&quot; 的產品。
 
+## 編輯、複製或刪除系列
+
+將滑鼠指標暫留在清單中所要的系列上，然後按一下適當的圖示：編輯、複製或刪除。
+
+![系列的暫留圖示](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+您可以複製現有的系列，以建立複製的系列，然後再加以修改。 這可讓您以更輕鬆的方式建立類似的排除。
+
+請注意，系列可在整個帳戶中使用。 在刪除系列之前，請務必考慮這一點。 無法復原已刪除的系列。
+
 ## 在Recommendations活動中使用系列
 
 1. 使用上述其中一種方法建立系列。
 
 1. 按一 **[!UICONTROL 下「活]** 動」 [並建立新的Recommendations活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ，或編輯現有活動。
 
-1. 在「體 **[!UICONTROL 驗]** 」頁面（三部分引導式工作流程的步驟2）上，按一下您放置建議的位置，然後按一下「變更 **[!UICONTROL 系列」]**。
+1. 在您選取標準和設計後，若您選取所 [!UICONTROL 要的系列] ，就會顯示「選項」頁面。
+
+   ![選擇系列選項](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. （條件性）若要變更現有的系列設定，請在「 **[!UICONTROL Experiences]** 」（三部分引導式工作流程的步驟2）頁面上，按一下您放置建議的位置，按一下「 **[!UICONTROL Change Collection]**」，然後選取所要的系列。
 
    ![變更系列選項](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. 在「新增 **[!UICONTROL 系列」頁面]** ，然後選取所要的系列。
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
