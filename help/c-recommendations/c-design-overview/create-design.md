@@ -5,10 +5,10 @@ title: 建立設計
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 40%
+source-wordcount: '988'
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,11 @@ ht-degree: 40%
 
 您可以在活動建立程式期間，從Visual Experience Composer(VEC)或設計程式庫建立活動建立以外的設計。 以下章節假設您是從程式庫建立設計，但步驟類似。
 
-## 根據預設設計建立設計
+## 建立設計
+
+您可以根據預設設計建立設計，或建立自訂設計。
+
+### 根據預設設計建立設計
 
 1. 按一 **[!UICONTROL 下「建議]** >設 **[!UICONTROL 計]** 」以顯示 [!UICONTROL 「設計] 」庫。
 
@@ -56,9 +60,9 @@ ht-degree: 40%
 
 1. （條件性）視需要編 **[!UICONTROL 輯設]**&#x200B;計程式碼。
 
-   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關 Velocity 的資訊，請參閱 [](https://velocity.apache.org)https://velocity.apache.org。
+   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請造訪 [https://velocity.apache.org](https://velocity.apache.org) ，以及使 [用Velocity自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以 <div> 標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。
+   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以 <div> 標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。投影片 [!UICONTROL HTML Design] （HTML設計）切換至「關閉」位置，以使用非HTML程式碼。
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ ht-degree: 40%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 建立自訂設計
+### 建立自訂設計
 
 1. 按一 **[!UICONTROL 下「建議]** >設 **[!UICONTROL 計]** 」以顯示 [!UICONTROL 「設計] 」庫。
 
@@ -81,6 +85,18 @@ ht-degree: 40%
    如需詳細資訊，請參閱上述步驟4中的資訊。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
+## 編輯、複製或刪除設計
+
+請記住，您無法編輯或複製預設設計；您只能複製預設設計。
+
+將滑鼠指標暫留在 [!UICONTROL Design程式庫中] ，然後按一下適當的圖示：編輯、複製或刪除。
+
+![設計的暫留圖示](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+您可以複製現有設計以建立複製設計，然後再加以修改。 這可讓您輕鬆建立類似的設計。
+
+請注意，整個帳戶都提供設計。 在刪除設計之前，請務必考慮這一點。 無法刪除的設計。
 
 ## JSON 範例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
