@@ -5,10 +5,10 @@ title: 建立設計
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 40%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 95%
 
 設計可定義建議出現在頁面上的方式。
 
-您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL 「Recommendations」>「設計」]**&#x200B;畫面會顯示預設設計卡片和您已建立的任何設計。您不能編輯或刪除預設設計。
+您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。「建 **[!UICONTROL 議>設計]** 」畫面會顯示預設設計卡片和您帳戶中建立的任何設計。
 
-1. 在&#x200B;**[!UICONTROL 「Recommendations > 設計」]**&#x200B;畫面上，將游標移至您要建立的設計的卡片。
+當您處理設計時，請記住下列資訊：
+
+* 您可以使用預設設計來建立建議設計，或建立自訂設計。
+* 不能編輯或刪除預設設計。
+* 您可以編輯、複製或刪除自訂設計。
+* 要根據預設設計建立設計，必須先複製設計，然後編輯該副本。
+
+此圖顯示預設的1 x 4設計：
+
+![1 x 4預設設計](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+下圖顯示自訂設計：
+
+![自訂設計](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+您可以在活動建立程式期間，從Visual Experience Composer(VEC)或設計程式庫建立活動建立以外的設計。 以下章節假設您是從程式庫建立設計，但步驟類似。
+
+## 根據預設設計建立設計
+
+1. 按一 **[!UICONTROL 下「建議]** >設 **[!UICONTROL 計]** 」以顯示 [!UICONTROL 「設計] 」庫。
+
+   ![設計資料庫](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. 將滑鼠指標暫留在卡片上，以便建立設計，然後按一下「復 **[!UICONTROL 制]** 」圖示。
 
    ![](assets/Card_CopyDesign.png)
 
-1. 若要複製和編輯現有設計，請按一下&#x200B;**[!UICONTROL 「複製」]**&#x200B;圖示。
-
-   或
-
-   若要建立自訂設計，請在&#x200B;**[!UICONTROL 「Recommendations」>「設計」]**&#x200B;畫面上按一下&#x200B;**[!UICONTROL 「建立設計」。]**
+   將顯 [!UICONTROL 示「建立設計] 」(Create Design)對話框。
 
    ![](assets/createDesign.png)
 
-1. 新增&#x200B;**[!UICONTROL 內容名稱]**。
+1. 在「資 **[!UICONTROL 訊]** 」面板中，新增「內 **[!UICONTROL 容名稱]** 」和可選的預覽影像，以顯示在設計卡片上。
 
-   使用預設設計時，設計名稱和「Copy」將出現在&#x200B;**[!UICONTROL 「內容名稱」]**&#x200B;欄位中。您可以編輯名稱。1.(可選) 按一下來選取要在設計卡片上顯示的影像。
-1. 編輯設計&#x200B;**[!UICONTROL 程式碼]**。
+   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. 您可以編輯名稱。您也可以選取要在設計卡上顯示的影像。
+
+1. （條件性）視需要編 **[!UICONTROL 輯設]**&#x200B;計程式碼。
 
    Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關 Velocity 的資訊，請參閱 [](https://velocity.apache.org)https://velocity.apache.org。
 
@@ -42,20 +62,37 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >可在設計中參照 (明確寫在程式碼中或透過迴圈) 的實體數上限是 99。
+   >在設計中可參考的實體（硬式編碼或透過循環）數目上限為99。
+
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
+## 建立自訂設計
+
+1. 按一 **[!UICONTROL 下「建議]** >設 **[!UICONTROL 計]** 」以顯示 [!UICONTROL 「設計] 」庫。
+
+1. 按一 **[!UICONTROL 下「建立設計]**」。
+
+   如果您想要在現有設計的基礎上建立新的自訂設計，請將滑鼠移至所要的設計上，然後按一下「復 [!UICONTROL 制] 」圖示。 然後，您可以編輯復本以建立新的自訂設計。
+
+1. 新增內容 **[!UICONTROL 名稱]** ，以及選用的預覽影像。
+
+1. （條件性）視需要編 **[!UICONTROL 輯設]**&#x200B;計程式碼。
+
+   如需詳細資訊，請參閱上述步驟4中的資訊。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## JSON 範例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-下列範例顯示透過表單式編輯器來設定活動時，如何傳回 JSON 回應。
+下列範例說明如何在透過表單編輯器設定活動時傳回JSON回應。
 
-1. 從「設計程式庫」或表單式工作流程內建立設計。如果您嘗試在可視化體驗撰寫器 (VEC) 工作流程內這樣做，則無法建立除了 HTML 設計以外的任何項目，此設計會包裝在 `<div>` 中作為點擊追蹤用途。
+1. 從設計程式庫或表單工作流程中建立設計。 If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+
 1. 確定「HTML 設計」選項已關閉:
 
    ![](assets/html_design_toggle.png)
 
-1. 下列程式碼是您可貼到設計中的一個範例:
+1. 以下程式碼是您可貼入設計的範例：
 
    ```
        #* 
@@ -84,24 +121,22 @@ ht-degree: 95%
        }  
    ```
 
-1. 設定一個使用此設計的表單式建議活動。
+1. Set up a form-based [!DNL Recommendations] activity that uses this design.
 
-   1. 導覽至「活動」頁面。
-   1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**。
-   1. 選取&#x200B;**[!UICONTROL 「Recommendations」]**。
-   1. 在&#x200B;**[!UICONTROL 「選擇體驗撰寫器」]**&#x200B;下，選取&#x200B;**[!UICONTROL 「表單」]**。
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「Recommendations」]**。
+   1. 在「選 **[!UICONTROL 擇Experience Composer]**」下，選 **[!UICONTROL 擇「表單]**」，然後按「 **[!UICONTROL 下一步]**」。
    1. 在位置下，輸入文字: &quot;Sample_Recs_Response&quot;
    1. 在&#x200B;**[!UICONTROL 「預設內容」]**&#x200B;下，按向下箭頭，然後按一下&#x200B;**[!UICONTROL 「新增建議」]**。
    1. 選擇頁面類型。這會決定下一個畫面的起始篩選。
    1. 選取條件卡，然後按&#x200B;**[!UICONTROL 「下一步」]**。
-   1. 選取您在上一步建立的設計，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
+   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
    1. 完成設定程序。
    1. 按一下&#x200B;**[!UICONTROL 「非使用中」]**&#x200B;旁的向右箭頭，然後選取&#x200B;**[!UICONTROL 「啟動」]**。
 
 1. 在設定並啟動活動之後，您可以設定請求範例來取回全新的 JSON 回應。
 
-   從您儲存活動那時起，Target 需要建立模型來支援所選取的條件組態。根據許多因素而定，這需要一些時間。模型建立後就會顯示結果。
+   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. 根據許多因素而定，這需要一些時間。模型建立後就會顯示結果。
 
    例如:
 
@@ -111,18 +146,18 @@ ht-degree: 95%
 
    where
 
-| 參數 | 值 |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Target 用戶端代碼 (位於 ../target/products.html#recsSettings  > Recommendations API Token > 用戶端代碼。 |
-| `[YOUR_MBOX_NAME]` | 您在表單型Recommendations的「位置」區段中選取的名稱，在此例中為Sample_Recs_Response。 |
-| `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
-| `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
+   | 參數 | 值 |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Target 用戶端代碼 (位於 ../target/products.html#recsSettings  > Recommendations API Token > 用戶端代碼。 |
+   | `[YOUR_MBOX_NAME]` | 您在表單型Recommendations的「位置」區段中選取的名稱，在此例中為Sample_Recs_Response。 |
+   | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
+   | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
 
 當演算法執行之後，而且也有結果，則回應會如下所示:
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## 其他 JSON 物件要訣和技巧 {#section_C305673C68944749969DB239E3221DC2}
+## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
 您也可以使用下列語法來設定設計，只傳回一份簡單的以逗號分隔的項目清單:
 
@@ -130,7 +165,7 @@ ht-degree: 95%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。此設計範例也傳回活動詳細資料、Target 設定檔詳細資料 (如適用)，以及與傳回的項目相關聯的其他 `entity.attributes`。
+或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```
     {   
