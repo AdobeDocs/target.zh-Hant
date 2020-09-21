@@ -5,10 +5,10 @@ title: 建立 Recommendations 活動
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 93%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -49,9 +49,15 @@ ht-degree: 93%
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   只有符合建議資格時，您網站的訪客才會看到建議內容。 不符合建議資格的訪客將會看到預設內容。
+
    ![Recommendations 選項](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   使用建議取代元素會刪除目前的內容，並將它以您的建議取代。
+   * **[!UICONTROL 取代Recommendations]**:以建議取代元素會刪除目前的內容，並以建議取代。 當訪客瀏覽您的網站並符合建議資格時，他們會在指定區域看到建議項目，而非現有內容。
+   * **[!UICONTROL 先插入建議]**:在選取的元素之前插入建議，將建議的內容置於該元素之前。 根據您的頁面建構，建議會顯示在所選元素的上方或左側。
+   * **[!UICONTROL 在下列項目後插入建議]**:在選取的元素後插入建議，將建議的內容放在該元素後。 依您的頁面建構而定，建議會顯示在選取元素的下方或右側。
+
+   「展 **[!UICONTROL 開選取範圍]** 」選項可讓您展開選取的位置（父容器），以協助您更輕鬆地識別並包含所要的頁面元素。
 
 1. 選取頁面類型。
 
@@ -70,7 +76,7 @@ ht-degree: 93%
 
 1. 選取[一或多個條件](/help/c-recommendations/c-algorithms/algorithms.md)。
 
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。依預設，[!UICONTROL 「選取條件」]畫面會顯示與您的垂直產業和您選取的頁面類型相容的條件。您可以變更這些選項以顯示其他條件。
+   條件會以卡片的形式顯示，顯示每個條件的相關資訊。By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. 您可以變更這些選項以顯示其他條件。
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ ht-degree: 93%
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包括數個預先設定的設計。您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包含數種預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![選取設計對話方塊](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ ht-degree: 93%
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
    您有選項可將促銷活動新增至您的建議。如需關於新增前端和後端促銷活動的詳細資訊，請參閱[新增促銷活動](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    VEC 畫面會在您的頁面上顯示建議的設計。
@@ -158,7 +165,8 @@ ht-degree: 93%
 
    * 啟動活動
    * 編輯活動
-   * 將活動釘選至您的 Experience Cloud board
+   * 將活動分享到您的Experience Cloud摘要
+   * QA活動
    * 檢視您的體驗 URL
    * 下載資料
    * 變更可看見控制體驗的活動加入者百分比
@@ -166,6 +174,7 @@ ht-degree: 93%
    * 檢視您的設計的代碼
 
 1. (可選) 開啟[!UICONTROL 「報表」]頁面來檢視可顯示您的 [!DNL Recommendations] 活動效能的報表。
+
 1. (可選) 開啟[!UICONTROL 「衝突」]頁面以檢視可能發生的任何[活動衝突](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)。
 
    當多個活動設為傳送內容至相同的頁面時會發生活動衝突，並且可能造成顯示未預期的內容。
