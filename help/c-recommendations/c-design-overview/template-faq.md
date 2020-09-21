@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: 關於 Recommendations 設計常見問題集 (FAQ) 的清單。
+description: 關於Adobe Target建議設計的常見問題(FAQ)清單。
 title: 設計常見問題集
 feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 設計常見問題集{#design-faq}
 
-關於 Recommendations 設計常見問題集 (FAQ) 的清單。
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
 
 ## 我的建議項目價格未在小數點右方顯示兩個值。我該如何顯示這些值?
 
 根據預設，設計範本中所傳回的數值 (例如 `entity.value`) 不會在小數點後顯示任何尾隨零。例如，如果項目為 $35.00 美元，`entity.value` 等於 35 且只會在頁面上顯示 35，而不是 $35.00。
 
-您可以透過兩個選項解決此問題。
+有兩個選項可解決此問題：
 
 * 您可以使用 Velocity 指令碼或 JavaScript，將格式設定套用到傳回的值。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 如何變更設計才能立即更新?    {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-更改目前使用中的設計需要一段時間才會更新。若要立即變更設計，請建立新設計，在行銷活動中加以選取，再儲存建議。
+更改目前使用中的設計需要一段時間才會更新。若要立即變更設計，請建立新設計、在活動中選取它，然後儲存建議。
 
 ## 如何擷取重要資訊以顯示在設計中? 範例: 如果想要顯示重要產品的類別，如何在 Velocity 設計中編寫該值? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 如何將現存的實體值改為空白? 例如，促銷活動結束時需要清空項目的 entity.message。{#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-傳送 JavaScript 不斷行空格似乎有助於執行此操作。由開發人員傳入 `\u00A0` 當作值。範例: `entity.message=\u00A0`。您可以考慮沒有值時以此為預設值，而非使用 null。
+傳送JavaScript不中斷的空格似乎可以做到。 由開發人員傳入 `\u00A0` 當作值。範例: `entity.message=\u00A0`。您可以考慮沒有值時以此為預設值，而非使用 null。
 
 ## 我可以在「建議」設計中使用設定檔指令碼嗎? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
