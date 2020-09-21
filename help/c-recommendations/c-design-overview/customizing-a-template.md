@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: 使用開放原始碼 Velocity 設計語言來自訂建議設計。
+description: 使用開放原始碼Velocity設計語言，在Adobe Target Recommendations中自訂建議設計。
 title: 使用 Velocity 自訂設計
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '1014'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自訂設計{#customize-a-design-using-velocity}
 
-使用開放原始碼 Velocity 設計語言來自訂建議設計。
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ $entities[0].categoriesList[2]
 
 >[!NOTE]
 >
->可在設計中參照 (明確寫在程式碼中或透過迴圈) 的實體數上限是 99。範本指令碼長度最多可以包含 65,000 個字元。
+>在設計中可參考的實體（硬式編碼或透過循環）數目上限為99。 範本指令碼長度最多可以包含 65,000 個字元。
 
 例如，如果想要讓範本顯示類似下方的內容︰
 
@@ -126,14 +126,14 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 在Velocity範本中使用數字
 
-預設情況下，Velocity模板將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以便執行數學運算或將其與其他數值比較。 若要將實體屬性視為數值，請遵循下列步驟：
+預設情況下，Velocity模板將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以便執行數學運算或將其與其他數值比較。 要將實體屬性視為數值，請執行以下步驟：
 
-1. 宣告虛擬變數，並將其初始化為任意整數或雙重值
-1. 請確定您要使用的實體屬性不是空白（Target Recommendations的範本剖析器驗證並儲存範本時需要）
-1. 將entity屬性傳遞至您在 `parseInt` 步驟1 `parseDouble` 中建立的虛擬變數上的或方法，將字串轉換為整數或雙重值
-1. 對新數值執行數學運算或比較
+1. 宣告虛擬變數，並將其初始化為任意整數或雙重值。
+1. 請確定您要使用的實體屬性不是空白（Target Recommendations的範本剖析器驗證並儲存範本時需要）。
+1. 將entity屬性傳入您在步 `parseInt` 驟1中 `parseDouble` 建立的虛擬變數的或方法中，將字串轉換為整數或雙重值。
+1. 對新數值執行數學運算或比較。
 
-**範例：計算折扣價格**
+### 範例：計算折扣價格
 
 假設您想要將項目的顯示價格降低$0.99以套用折扣。 您可以使用下列方法來達成此結果：
 
@@ -148,9 +148,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**範例：根據項目的評分選擇要顯示的星數**
+### 範例：根據項目的評分選擇要顯示的星數
 
-假設您想根據項目的數值平均客戶評分顯示適當數量的星號。 您可以使用下列方法來達成此結果：
+假設您想根據項目的數值平均客戶評分顯示適當的星數。 您可以使用下列方法來達成此結果：
 
 ```
 #set( $Double = 0.1 )
@@ -173,7 +173,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**範例：根據項目長度（以分鐘為單位）計算時間（以小時和分鐘為單位）**
+### 範例：根據項目長度（以分鐘為單位）計算時間（以小時和分鐘為單位）
 
 假設您以分鐘儲存影片長度，但想以小時和分鐘來顯示長度。 您可以使用下列方法來達成此結果：
 
