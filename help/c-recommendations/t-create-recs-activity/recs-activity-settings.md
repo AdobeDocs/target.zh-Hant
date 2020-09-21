@@ -6,17 +6,17 @@ feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 98%
+source-wordcount: '384'
+ht-degree: 89%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations 活動設定{#recommendations-activity-settings}
 
-可用於說明和控制 [!UICONTROL Recommendations] 活動的設定之相關資訊。
+Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 
 ![Recommendations 目標和設定頁面](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 `-`
 `@`
 
-如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。新名稱為原始名稱附加時間戳記的唯一名稱。這個新名稱會顯示在 Target Standard/Premium 和 [!UICONTROL Recommendations Classic] 中。
+如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。新名稱為原始名稱附加時間戳記的唯一名稱。This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
 
 ## 目標
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 ## 報表設定
 
-* **報表來源:** 選取報表來源: Adobe Target 或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。活動上線後，請勿變更報表來源。在活動上線後變更報表來源會導致不一致的報表。
+* **報告來源：** 選擇報告來源： [!DNL Adobe Target] 或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。 活動上線後，請勿變更報表來源。在活動上線後變更報表來源會導致不一致的報表。
 * **目標量度:** 選取判斷活動是否成功的成功量度。
 * **其他度量:** 設定要在您的報表中使用的其他成功度量。
 * **報表對象:** 定義篩選報表時可以使用的對象。
