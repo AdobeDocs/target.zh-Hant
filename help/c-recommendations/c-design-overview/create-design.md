@@ -5,7 +5,7 @@ title: 建立設計
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 33%
@@ -62,7 +62,7 @@ ht-degree: 33%
 
    Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請造訪 [https://velocity.apache.org](https://velocity.apache.org) ，以及使 [用Velocity自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以 <div> 標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。投影片 [!UICONTROL HTML Design] （HTML設計）切換至「關閉」位置，以使用非HTML程式碼。
+   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以`<div>`標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。投影片 [!UICONTROL HTML Design] （HTML設計）切換至「關閉」位置，以使用非HTML程式碼。
 
    >[!NOTE]
    >
