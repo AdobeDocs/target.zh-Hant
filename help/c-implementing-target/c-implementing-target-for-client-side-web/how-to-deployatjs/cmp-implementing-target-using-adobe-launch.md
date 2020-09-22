@@ -5,10 +5,10 @@ title: 使用 Adobe Launch 實作 Target
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
@@ -29,7 +29,7 @@ Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的�
 | [Adobe Launch 文件](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | 關於部署及管理為相關客戶體驗提供支援所需的所有分析、行銷和廣告標籤資訊。 |
 | [Adobe Target擴充功能檔案](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | 使用 Launch 實作 Target 的相關資訊。 |
 
-## 使用 Target 啟動擴充功能實作 at.js 的優點 {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 只有在使用 Adobe Launch 實作 at.js 時，才適用以下優點。基於此原因，我們強烈建議您使用 Adobe Launch 而非 DTM，或手動實作 at.js。
 
