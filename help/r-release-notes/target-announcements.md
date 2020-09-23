@@ -5,9 +5,9 @@ title: Target公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,6 @@ ht-degree: 0%
 ## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
 在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
-
-## 網路研討會：使用人工智慧和Adobe Target的個人化策略
-
-* **8:00 - 9:00 a.m.(PDT)**
-* **2020年8月13日星期四**
-
-[請在這裡註冊參加此網路研討會](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
 
 ## 網路研討會：HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
