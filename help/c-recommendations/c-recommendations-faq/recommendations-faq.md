@@ -5,10 +5,10 @@ title: Adobe Target Recommendations常見問答集
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png) Recommendations 常見問題集{#recommendations-faq}
 
 關於Adobe Target Recommendations活動的常見問題(FAQ)清單。
+
+## 當我搜尋具有數值的自訂屬性時，目錄搜尋為何無法顯示正確的結果？
+
+當您對具有數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
+
+目前，沒有可讓客戶變更屬性類型的功能。 若要進行變更，請開 [啟客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，此問題會參照需要將類型從字串變更為數值的屬性。
 
 ## 目錄中的項目更新要多久時間才會反映在網站上?
 
