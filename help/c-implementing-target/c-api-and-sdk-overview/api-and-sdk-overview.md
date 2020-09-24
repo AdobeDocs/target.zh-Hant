@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -60,6 +60,12 @@ Java SDK是一套複雜的軟體開發套件，可免除管理Cookie、工作階
 
 * **支援預回遷和通知，讓您透過快取最佳化效能**:您可以使用JavaSDK在Java伺服器上擷取體驗並在本機快取體驗，以便將伺服器呼叫次數減至最少並最佳化您 [!DNL Target] 的應用程式效能。
 * **可擷取VEC建立的活動**:在伺服器端擷取VEC建立的活動。 包含VEC建立之活動的回應包含選擇器，可用來僅預先隱藏頁面中需要個人化的部分。 這可協助您最佳化頁面的「第一個內容上色 [」量度，這是企業在](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)[](https://en.wikipedia.org/wiki/PageRank) Google PageRank系統中獲得高分的重要KPI。
+
+## Adobe Target開發人員
+
+連結： [Adobe Target開發人員](http://developers.adobetarget.com/)
+
+Adobe Target開發人員網站可協助您在 [!DNL Target] 用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實作。 您也可以將資料 [!DNL Target] 匯出至協力廠商解決方案。
 
 ## Target Recommendations API
 
