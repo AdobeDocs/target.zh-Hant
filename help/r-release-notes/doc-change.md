@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2323'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9月23日 | [使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | 使用瀏覽器開發人員工具的資訊 [!DNL Adobe Experience Platform Debugger] 更新整個主題。 |
+|  | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已更新「user.header(&#39;x-forwarded-for&#39;)」列，指出「user.header(&#39;x-cluster-client-ip&#39;)」已過時。 |
+|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.9.1（2020年9月30日）版本的資訊。 |
 | 9月15日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增有關Target Standard/Premium 20.8.3版的資訊，此版本包含Analytics for Target(A4T)對自動定位活動的支援。 在舊版中新增了對「自動分配」活動的支援。 |
 |  | [Analytics for Target(A4T)支援「自動配置」和「自動定位」活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 | 已新增有關A4T支援在Auto-Target活動中的資訊。 |
 |  | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新文字，指出以空值載入您網站上的頁面，以手動方式強制自己退出QA模式的方 `at_preview_token` 法會套用至at.js 1。*x* 版。 |
