@@ -5,7 +5,7 @@ title: 使用 Analytics 追蹤伺服器
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 27%
@@ -13,9 +13,9 @@ ht-degree: 27%
 ---
 
 
-# 使用 Analytics 追蹤伺服器{#use-an-analytics-tracking-server}
+# 使用 Analytics 追蹤伺服器
 
-If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ If you are using an older version of at.js or mbox.js, you must specify an analy
 >
 >團 [!DNL Target] 隊支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
 
-## 使用Adobe Experience Platform Debugger取得分析追蹤伺服器
+## 使用Adobe Experience Platform Debugger取得Analytics追蹤伺服器
 
 您應該在將傳送活動的頁面上檢視偵錯程式，以確保選取正確的追蹤伺服器。您也可以為每個帳戶指定預設的追蹤伺服器。請連絡客戶服務來指定或修改預設值。
 
@@ -37,7 +37,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. 按一 **[!UICONTROL 下左側導覽功]** 能表中的「分析」。
 
-   The analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
    * **第一方追蹤伺服器**:如果請求的主機名稱符合您所在的網域，則會是第一方追蹤伺服器。 例如，如果您在， `adobe.com`則 `adobe.com` 是第一方追蹤伺服器。
    * **協力廠商追蹤伺服器**:協力廠商追蹤伺服器通 `[company].sc.omtrdc.net` 常是公司名稱所在的位置，但一律以結尾 `sc.omtrdc.net`。
@@ -51,7 +51,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    >
    >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
-## 使用您瀏覽器的「開發人員工具」取得分析追蹤伺服器
+## 使用您瀏覽器的「開發人員工具」取得Analytics追蹤伺服器
 
 應在傳送活動的頁面上檢視「開發人員工具」，以確保您選擇正確的追蹤伺服器。 您也可以為每個帳戶指定預設的追蹤伺服器。請連絡客戶服務來指定或修改預設值。
 
@@ -61,7 +61,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. 篩選以 `/ss,` 顯示分析請求。
+1. 篩選以 `/ss,` 顯示Analytics請求。
 
    ![含/ss搜尋的Chrome開發人員工具](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
