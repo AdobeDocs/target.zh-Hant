@@ -5,10 +5,10 @@ title: Adobe Target 中的目錄搜尋
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    您也可以按一下您要從作用中區段移至非作用中區段之欄旁的刪除圖示(x)。
 
 請記住，您所做的任何變更都只會套用至目前的作業。
+
+## 常見問題 {#faq}
+
+請參閱下列常見問答集，以取得目錄搜 [!UICONTROL 尋功能的說] 明：
+
+### 當我搜尋具有數值的自訂屬性時，目錄搜尋為何無法顯示正確的結果？
+
+當您對具有數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
+
+目前，沒有可讓客戶變更屬性類型的功能。 若要進行變更，請開 [啟客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，此問題會參照需要將類型從字串變更為數值的屬性。
