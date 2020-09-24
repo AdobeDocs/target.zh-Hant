@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
 description: 'Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合: at.js 或 mbox.js'
 title: Adobe Target 如何運作
 feature: intro
@@ -7,15 +7,15 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 94%
+source-wordcount: '2398'
+ht-degree: 82%
 
 ---
 
 
-# Adobe Target 如何運作{#how-adobe-target-works}
+# Adobe Target 如何運作
 
 有關 Adobe Target 如何運作的資訊，包括 Target JavaScript 資料庫 (at.js and mbox.js) 以及 Target 中包含的各種活動類型的相關資訊。
 
@@ -89,31 +89,51 @@ Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合:
 
 Recommendations 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 
-## Edge 網路 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-「Edge」是按地理區域分配服務的架構，可確保對一般使用者的請求內容有最短的回應時間，無論他們身在何處。
+「Edge」是地理上分散的服務架構，可確保使用者在要求內容時的最佳回應時間，而不論使用者在全球的何處。
 
-為了改進回應時間，Edge 環境只會控管活動邏輯和已快取的設定檔及選件資訊。活動和選件資料庫、[!DNL Analytics] 資料、API 和市場行銷人員使用者介面都存放在 Adobe 的中央資料環境中。接著會將更新傳送至 Edge 節點。中央環境和 Edge 節點會自動同步，以持續更新已快取的活動資料。也會在每個 Edge 儲存 1:1 模型，因此更複雜的請求也能在 Edge 上處理。
+為了改善回應時間，Target Edges僅托管活動邏輯、快取描述檔和選件資訊。
 
-每個 Edge 節點有所有必要的資訊，可回應使用者的內容請求及追蹤該請求的分析資料。使用者請求會被轉至最近的 Edge 節點。
+Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 更新會傳送至「目標邊緣」。 Central叢集和Edge叢集會自動同步，以持續更新快取的活動資料。 所有1:1模型也會儲存在每個邊緣，因此這些更複雜的要求也可以在邊緣上處理。
 
-![與核心 Edge 網站和 Edge 網站對應](assets/edge_network.png)
+每個邊緣叢集都具備回應使用者內容要求及追蹤該要求之分析資料所需的所有資訊。 使用者要求會路由至最接近的邊緣叢集。
 
-此影像的來源是 [Adobe Target安全性概觀白皮書](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 。
+如需詳細資訊，請參閱 [Adobe Target 安全性概覽](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
 
-Adobe Target 解決方案在世界各地 Adobe 擁有和 Adobe 租用的資料中心內進行控管。Admin 伺服器完全在 Adobe 擁有的資料中心內進行控管，這些資料中心位於倫敦、新加坡和全美國的多個據點，包括奧勒岡州和維吉尼亞州。Edge Server同時托管於Adobe擁有和Adobe租賃的Amazon AWS資料中心，位於倫敦、中國香港特區、新加坡、東京和雪梨。
+The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
-Admin 伺服器位置同時包含資料收集中心和資料處理中心。Edge 網站位置僅包含資料收集中心。每個報表套裝會被指派至特定的資料處理中心。
+中央群集位置同時包含資料收集中心和資料處理中心。 邊緣叢集位置僅包含資料收集中心。 每個報表套裝會被指派至特定的資料處理中心。
 
-不是由單一位置回應所有鎖定目標請求，而是由最靠近訪客的 Edge 環境來處理請求，因此可減輕網路/網際網路行經時間的影響。
+客戶站點活動資料由七個邊緣群集中最靠近的群集收集，並定向到客戶的預定中央群集目標(三個位置之一：Oregon、Dublin、Singapore)，以進行處理。 訪客資料會儲存在離網站訪客最近的Edge Cluster（位置包括中央叢集位置，以及維吉尼亞、阿姆斯特丹、雪梨、東京和香港）。
+
+請求由離訪客最近的邊緣叢集處理，而非回應單一位置的所有定位請求，因此可減輕網路／網際網路旅行時間的影響。
+
+Target Central Clusters位於以下位置：
+
+* 美國俄勒岡州
+* 愛爾蘭都柏林
+* 新加坡共和國
+
+Target Edge Clusters位於：
+
+* 印度孟買
+* 日本東京
+* 美國維吉尼亞州
+* 美國俄勒岡州
+* 澳洲雪梨
+* 愛爾蘭都柏林
+* 新加坡共和國
+
+此服 [!DNL Target Recommendations] 務位於俄勒岡州 [!DNL Adobe] 的資料中心。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前在中國沒有 Edge 網路，中國 [!DNL Target] 客戶的一般使用者效能將繼續受到限制。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] 目前中國沒有Edge Cluster，而且一般使用者的效能仍將受限於中國 [!DNL Target] 客戶。 Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-如有需要，您可以允許列出「目標」邊緣註解。 如需詳細資訊，請參 [閱allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
+您可以視需要允許列出目標邊緣叢集。 如需詳細資訊，請參 [閱allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
-## 受保護的使用體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 盡可能確保定位基礎建設的可用度和效能值得信賴。然而，使用者瀏覽器和 Adobe 伺服器之間的通訊中斷可能會造成內容傳輸的中斷。
 
