@@ -5,9 +5,9 @@ title: Adobe Target 中的目錄搜尋
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    請注意，您可以使用搜尋自動完成功能。 在下圖中，輸入&quot;bik&quot;會傳回包含&quot;bike&quot;字詞的所有產品。
 
    ![搜尋自動完成](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >當您對具有數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
+   >
+   >目前，沒有可讓客戶變更屬性類型的功能。 若要進行變更，請開 [啟客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，此問題會參照需要將類型從字串變更為數值的屬性。
 
 1. 您也可以使用篩選器來尋找所需的產品。 在下列範例中，展開「系列」 [!UICONTROL 面並選取] 「腳踏車工具」，您目錄中會顯示所有腳踏車工具。
 
@@ -170,12 +176,3 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 請記住，您所做的任何變更都只會套用至目前的作業。
 
-## 常見問題 {#faq}
-
-請參閱下列常見問答集，以取得目錄搜 [!UICONTROL 尋功能的說] 明：
-
-### 當我搜尋具有數值的自訂屬性時，目錄搜尋為何無法顯示正確的結果？
-
-當您對具有數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
-
-目前，沒有可讓客戶變更屬性類型的功能。 若要進行變更，請開 [啟客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，此問題會參照需要將類型從字串變更為數值的屬性。
