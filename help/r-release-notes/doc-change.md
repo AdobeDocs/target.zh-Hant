@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2361'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 9月24日 | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新at.js 2活動QA書籤小工具的程式碼。*x* 版本不支援此函數。 |
 |  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md#faq) | 新增「常見問答」區段。 |
+|  | [Target 的運作方式](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | 更新「邊緣網路」中所列的目標叢集和目標中央叢集位置。 |
 | 9月23日 | [使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | 使用瀏覽器開發人員工具的資訊 [!DNL Adobe Experience Platform Debugger] 更新整個主題。 |
 |  | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已更新「user.header(&#39;x-forwarded-for&#39;)」列，指出「user.header(&#39;x-cluster-client-ip&#39;)」已過時。 |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.9.1（2020年9月30日）版本的資訊。 |
