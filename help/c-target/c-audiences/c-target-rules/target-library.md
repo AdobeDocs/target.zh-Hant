@@ -1,14 +1,14 @@
 ---
 keywords: Targeting;target library;library
 description: 根據預先建置的鎖定目標規則鎖定使用者。
-title: Target 資料庫
+title: Adobe Target觀眾中的Target程式庫選項
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 96%
 
 ---
 
