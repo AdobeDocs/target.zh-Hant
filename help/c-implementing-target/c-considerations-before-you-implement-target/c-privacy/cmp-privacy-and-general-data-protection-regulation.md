@@ -1,14 +1,14 @@
 ---
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: 歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私權要求的相關資訊，以及這些規範對您的組織和 Adobe Target 有何影響。
-title: 歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私權要求的相關資訊，以及這些規範對您的組織和 Adobe Target 有何影響。
+title: 隱私權與資料保護規範
 feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
 workflow-type: tm+mt
-source-wordcount: '2276'
+source-wordcount: '2250'
 ht-degree: 93%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->存取和刪除適用於CCPA的資料的程式與GDPR的程式相同。
+>訪問和刪除適用於CCPA的資料時，會遵循與GDPR相同的流程。
 
 ## Adobe Target 和 [!DNL Experience Platform Launch] 選擇加入 {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -300,4 +300,4 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 ### 我是否需要採取措施來防止我的資料被分享或出售給第三方？
 
-Target無法允許客戶直接從Target分享或銷售資料給第三方，因此Target不會選擇退出銷售。
+Target無法允許客戶直接從Target分享或銷售資料給第三方，因此不會選擇退出Target銷售。
