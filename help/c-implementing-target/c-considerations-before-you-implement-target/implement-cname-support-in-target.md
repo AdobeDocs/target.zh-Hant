@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 2%
@@ -34,8 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe的認證授權機構DigiCert必須等到此步驟完成後，才能核發認證。 因此，Adobe必須等到此步驟完成後，才能完成您對CNAME實作的要求。
-
+   >Adobe的認證授權機構DigiCert必須等到此步驟完成後，才能核發認證。 因此，Adobe必須等到此步驟完成後，才能完成您對CNAME實作的要求。
 
 1. [填妥此表格](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) ，並在您開啟Adobe Client Care [票證要求CNAME支援時加入此表格](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
@@ -93,7 +92,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 部署CNAME實作時，我可能會預期發生何種服務中斷？
 
-在部署憑證時（包括憑證續約），不會中斷服務。 不過，當您將實作程式碼( [!DNL Target] at.js)中的主機名稱變更為新的CNAME主機名稱(`serverDomain` )時，網頁瀏覽器會將舊訪客視為新訪客，其描述檔資料將會遺失，因為舊主機名稱(`target.example.com``clientcode.tt.omtrdc.net`)下的舊Cookie由於瀏覽器安全性模型而無法存取。 只有在初次切換新CNAME時，才會發生一次中斷。 憑證續約沒有相同的效果，因為主機名稱不會變更。
+在部署憑證時（包括憑證續約），不會中斷服務。 不過，當您將實作程式碼( [!DNL Target] at.js)中的主機名稱變更為新的CNAME主機名稱(`serverDomain` )時，網頁瀏覽器會將舊訪客視為新訪客，其描述檔資料將會遺失，因為舊主機名稱(`target.example.com``clientcode.tt.omtrdc.net`)下的舊Cookie由於瀏覽器安全性模型而無法存取。 只有在初次切換新CNAME時，才會發生一次中斷。 憑證續約沒有相同的效果，因為主機名稱並未變更。
 
 ### 我的CNAME實作會使用何種金鑰類型和憑證簽名演算法？
 
