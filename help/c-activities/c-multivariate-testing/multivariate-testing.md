@@ -5,9 +5,9 @@ title: 多變數測試
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1440'
 ht-degree: 91%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 在 Target 中，每一個組合就是一個體驗。多變數測試會比較每一個體驗，讓您看出最成功的組合。同時會收集並分析資料，以瞭解每一個位置和選件如何影響成功量度。
 
-![](assets/multivariate.png){width=&quot;672px&quot;}
+![](assets/multivariate.png)
 
 由於多變數測試可產生的組合較多，需要比 A/B 測試更多的時間和流量。頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。為了獲得實用的結果，您需要瞭解頁面接收的流量，並以正確的時間長度來測試最理想的組合數目，才能得到所需的結果。Target 的[流量估算](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可協助您設計適用於流量的測試。使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。請考量每日的流量水準。活動中的體驗越多，活動需要包含的流量就越多，否則活動需要執行更久。如果流量不是很大，則應該測試較少的組合；否則，產生有意義的測試結果所需的時間可能太長，而顯得無用。
 
