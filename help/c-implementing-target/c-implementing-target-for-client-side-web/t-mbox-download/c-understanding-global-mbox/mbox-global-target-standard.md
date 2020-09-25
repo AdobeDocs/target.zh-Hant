@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 52%
@@ -45,6 +45,6 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 下列常見問答集可用來疑難排解全域mbox實作：
 
-### 全域 mbox 為什麼不會載入，或為什麼頁面載入時載入全域 mbox 發生延遲?*
+### 全域 mbox 為什麼不會載入，或為什麼頁面載入時載入全域 mbox 發生延遲?
 
 請確定at.js參考是頁面上的第一個JavaScript呼叫。 如需此問題的其他解決方案，請參 [閱全域mbox常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)。
