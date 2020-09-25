@@ -1,14 +1,14 @@
 ---
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: 在 Adobe Target 中建立受眾，根據參照至您網站的搜尋引擎或著陸頁面鎖定訪客。
-title: 在 Adobe Target 中鎖定流量來源
+title: Adobe Target觀眾中的流量來源選項
 feature: audiences
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 99%
+source-wordcount: '235'
+ht-degree: 96%
 
 ---
 
