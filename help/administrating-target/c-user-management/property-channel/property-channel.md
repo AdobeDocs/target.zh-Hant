@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -123,6 +123,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
 | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
 | 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
+
 務必注意，每個使用者的角色會套用至您的帳戶中包含 [!DNL Target] 標記的每個頁面、屬性或網站上，如下所示:
 
 ![](assets/permissions_2.png)
