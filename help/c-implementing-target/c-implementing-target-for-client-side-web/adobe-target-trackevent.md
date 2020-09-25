@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
-title: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
+title: adobe.target.trackEvent(options)
 feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
