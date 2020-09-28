@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,10 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics
 
 ## 我在報表中看到的資料量不符預期。 {#section_75002584FA63456D8D9086172925DD8D}
 
-檢閱您的實作，尤其是訪客有資格使用體驗的頁面，並確定 [!DNL Target] 和 [!DNL Analytics] 呼叫中的補充資料 ID 相符。在 [!DNL Target] 呼叫中，`mboxMCSDID` 參數包含補充 ID。在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
+檢閱您的實作，尤其是訪客有資格使用體驗的頁面，並確定 [!DNL Target] 和 [!DNL Analytics] 呼叫中的補充資料 ID 相符。
+
+* **at.js 1.x**:在呼叫 [!DNL Target] 中，附加ID包含在參數中 `mboxMCSDID` 。 在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
+* **at.js 2.x**:附加ID會在HTTP標題中傳回，作為值 `experienceCloud.analytics.supplementalDataId`。
 
 如果 [!DNL Target] 呼叫中沒有補充 ID，請確認 [!DNL VisitorAPI.js] 檔案是在 [!DNL at.js] 或 [!DNL mbox.js] 之前載入。如果 [!DNL Analytics] 呼叫中沒有補充 ID，請確認 [!DNL Target] 呼叫在 [!DNL Analytics] 呼叫之前執行。
 
