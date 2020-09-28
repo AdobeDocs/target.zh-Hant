@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 90%
 
 ---
 
@@ -81,6 +81,12 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics
 
 * **at.js 1.x**:在呼叫 [!DNL Target] 中，附加ID包含在參數中 `mboxMCSDID` 。 在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
 * **at.js 2.x**:附加ID會在HTTP標題中傳回，作為值 `experienceCloud.analytics.supplementalDataId`。
+
+要檢查補充ID，最簡單的方式是使用Adobe Experience Platform Debugger。
+
+如果您尚未安裝除錯程式，請參 [閱Adobe Experience Platform除錯程式簡介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+
+![除錯程式](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 如果 [!DNL Target] 呼叫中沒有補充 ID，請確認 [!DNL VisitorAPI.js] 檔案是在 [!DNL at.js] 或 [!DNL mbox.js] 之前載入。如果 [!DNL Analytics] 呼叫中沒有補充 ID，請確認 [!DNL Target] 呼叫在 [!DNL Analytics] 呼叫之前執行。
 
