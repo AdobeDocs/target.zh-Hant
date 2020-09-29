@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 23%
+source-wordcount: '1118'
+ht-degree: 22%
 
 ---
 
@@ -145,6 +145,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * 您可以將JSON選件匯入為體驗片段 [!DNL Target]。 不過，這些選件會匯入為HTML選件。 UI目前不完全支援JSON選件（體驗片段） [!DNL Target] 。
+* 您無法使用Adobe IO建立體驗片段。 您必須使用AEM建立體驗片段，如上所述。
 
 ## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
