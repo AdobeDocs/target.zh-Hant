@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics
 檢閱您的實作，尤其是訪客有資格使用體驗的頁面，並確定 [!DNL Target] 和 [!DNL Analytics] 呼叫中的補充資料 ID 相符。
 
 * **at.js 1.x**:在呼叫 [!DNL Target] 中，附加ID包含在參數中 `mboxMCSDID` 。 在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
-* **at.js 2.x**:附加ID會在HTTP標題中傳回，作為值 `experienceCloud.analytics.supplementalDataId`。
+* **at.js 2.x**:在呼 [!DNL Target] 叫中，附加ID會在HTTP標題中傳回為的值 `experienceCloud.analytics.supplementalDataId`。 在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
 
 要檢查補充ID，最簡單的方式是使用Adobe Experience Platform Debugger。
 
