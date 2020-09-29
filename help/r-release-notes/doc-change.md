@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2420'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9月29日 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | 已新增有關如何在at.js 1.x和at.js 2.x中檢查補充ID的資訊。 |
 | 9月24日 | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新at.js 2活動QA書籤小工具的程式碼。*x* 版本不支援此函數。 |
 |  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md#faq) | 已新增有關使用數值搜尋自訂屬性的附註。 |
 |  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：「當我搜尋具有數值的自訂屬性時，為什麼目錄搜尋無法顯示正確的結果？」 |
