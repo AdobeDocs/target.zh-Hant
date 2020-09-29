@@ -1,18 +1,18 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
-title: Adobe Target 產品文件
+title: Adobe Target指南
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '663'
 ht-degree: 60%
 
 ---
 
 
-# [!DNL Adobe Target] 產品文件{#adobe-target-product-documentation}
+# [!DNL Adobe Target]指引
 
 ![橫幅](assets/target-home-banner-simple.png)
 
