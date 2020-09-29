@@ -1,13 +1,15 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 title: Adobe Target指南
+description: 檢視Target指南的首頁。
+seo-description: Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 30038caf8c859e8ce127c77b16ba967dae7cd998
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 60%
+source-wordcount: '709'
+ht-degree: 61%
 
 ---
 
