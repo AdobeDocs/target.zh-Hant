@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 24%
+source-wordcount: '1237'
+ht-degree: 23%
 
 ---
 
@@ -36,6 +36,14 @@ ht-degree: 24%
 
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## Target Standard/Premium 20.9.1 (2020 年 9 月 30 日)
+
+此維護髮行包含下列增強功能、修正和變更：
+
+* 已改善僅限鍵盤使用者的導覽和功能。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
+* 在UI中新增標籤，以協助使用者使用輔助技術。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
+* 改善UI中影像和文字的文字和色彩對比。 (TGT-34513)
 
 ## Target Standard/Premium 20.8.3 (2020 年 9 月 15 日)
 
