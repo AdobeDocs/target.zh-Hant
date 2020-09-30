@@ -5,9 +5,9 @@ title: Target公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ ht-degree: 0%
 ## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
 在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## 網路研討會：使用Adobe Target和Analytics進行規模調整的最適化個人化
+
+* **2020年10月27日星期二**
+* **8am PT |上午10點CT |東部時間上午11點**
+* **持續時間：60分鐘**
+
+目前，數位應用程式的普及率正在大幅提升，為數位客戶帶來全新的細分，對於找到他們需要的產品以及獲得卓越的服務與客戶服務抱有很高期望。 個人化對於適應即時變化，為未來發展您的業務至關重要。
+
+在此網路研討會中，我們將展示如何對見解和受眾細分放心地採取行動，確保各行業的公司都能運用人工智慧個人化（AI支援的個人化）快速發展其業務，並全面瞭解Analytics強化報告的效能影響。 [!DNL Adobe Target][!DNL Analytics]
+
+在此網路研討會中，您將學習：
+
+* 如何在和之間實現獨一無二的伺服器到伺服器 [!DNL Adobe Analytics] 整合 [!DNL Adobe Target] ，實現統一的個人檔案、受眾和報告，從而實現效能驅動的快速個人化
+* 關於公司如何在「分析癱瘓」中節省時間的秘訣與訣竅，並迅速將關鍵客戶互動大規模個人化
+
+[在這裡註冊參加這個精彩的活動。](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
 
 ## 網路研討會：HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
