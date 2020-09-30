@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '29263'
-ht-degree: 88%
+source-wordcount: '29830'
+ht-degree: 86%
 
 ---
 
@@ -23,6 +23,40 @@ ht-degree: 88%
 >請參閱 [Target 版本說明 (最新)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明- 2020
+
+### Target Standard/Premium 20.8.3 (2020 年 9 月 15 日)
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Analytics for Target(A4T)支援自動定位活動 | [!UICONTROL Auto-Target活動] ，現在支援 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用 [!UICONTROL Auto-Target] ensemble機器學習演算法，根據每位訪客的描述檔、行為和上下文來選擇最佳體驗。<br>如果您已實作 [A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便與A/B測試和體驗定位活動搭配使用，一切就緒！<br>如需詳細資訊，請參 [閱「活動建立」中「自動分配」和「自動定位」活動的Analytics for Target(A4T)](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*支援*。 |
+
+### Target Standard/Premium 20.8.2 (2020 年 9 月 10 日)
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Control recommendations slots within criteria sequences | 「准則序列」現在可讓您控制每個建議准則佔用的槽數，讓您混合和比對不同類型的項目或不同演算法邏輯。<br>如需詳 [細資訊，請參閱](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 「建立准則序列」。 |
+
+### Target Standard/Premium 20.8.1 (2020 年 9 月 2 日)
+
+此發行包含下列增強功能、修正和變更：
+
+* 修正在切換組織後載入新的「管理」頁面時， [!UICONTROL 顯示錯誤] 的問題。 (TGT-37730)
+* 修正導致「管理>實作」頁面上顯示錯誤用戶端 [!UICONTROL 代碼的顯示問題] 。 (TGT-37849)
+* 修正在成功載入VEC後，使用者有時無法在 [!UICONTROL Visual Experience Composer] (VEC)中使用編輯功能的問題。 (TGT-37162)
+* 修正即使已安裝VEC Helper擴充功能，仍無法在VEC和Enhanced Experience Composer(EEC)中載入頁面的問題。 這是由於Google Chrome 80+的變更。 下載更 [新的VEC Helper擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。 (TGT-37893)
+* 修正使用者在切換組織後，有時無法從「管理>實作」頁 [!UICONTROL 面下載at.js的問題] 。 (TGT-37668)
+* 現在載入時會停用at.js下載按鈕，以防止使用者 [!DNL Target] 多次按一下下載按鈕時傳送多個請求。 (TGT-37633)
+* 修正「體驗 [!UICONTROL 定位] (XT)」活動中，導致體驗在較長時間內顯示「擷取結果」的問題。 (TGT-37684)
+* 已改善僅限鍵盤使用者的導覽和功能。 (TGT-34479 和 TGT-34473)
+* 在UI中新增標籤，以協助使用者使用輔助技術。 (TGT-34480)
+* 改進刪除活動中目前使用的行動檢視區時的錯誤訊息。 錯誤訊息現在會顯示：「此視區目前與一或多個活動相關聯。 您必須先從這些活動中移除視區，才能刪除它。」 (TGT-37030)
+* 在VEC中新增支援，可允許在符合頁面中多個元素的css選擇器上追蹤點按。 (TGT-37323)
+* 修正某些使用者無法顯示「活動」清單 [!UICONTROL 的問] 題。 顯示以下錯誤消息：&quot;無法擷取URL建議。&quot; 在Adobe後端系統中，使用其FirstName(FirstName/r/n)中傳回歸位的使用者發生錯誤。 (TGT-37330)
+* 修正當工作區名稱(在適用於企業的 [!UICONTROL Adobe Admin Console中指定])包含縮寫符號時，使用者無法顯示「活動」頁面的問題。 (TGT-37709)
+* 修正「自動  分配」活動中，選取最佳化和轉換量度時，即使已指定報表套裝，錯誤訊息仍會錯誤告知使用者選取報表套裝的問題。 (TGT-37689)
+* 修正導覽至「定位」頁面後，有時造 [!UICONTROL 成「目標與設定」頁面上的量度空白的] 問題  。 (TGT-37691)
+* 修正導致准則上次修改的值不正確的 [!DNL Recommendations] 問題。 (TGT-37666)
+* 修正mbox ID顯示在「mbox」下拉式清單中，而非mbox名稱的問題。 (TGT-37739)
 
 ### at.js 2.3.2（2020年7月24日）
 
