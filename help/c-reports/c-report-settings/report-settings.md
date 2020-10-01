@@ -1,29 +1,32 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: 可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
+description: 這些資訊可協助您設定要顯示在Adobe Target報表中的元素。 可以儲存報表設定以供稍後使用。
 title: 報表設定
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 84%
+source-wordcount: '1887'
+ht-degree: 69%
 
 ---
 
 
 # 報表設定{#report-settings}
 
-可協助您設定要在報表中所顯示元素的資訊。可以儲存報表設定以供稍後使用。
+Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. 可以儲存報表設定以供稍後使用。
 
-若要顯示報表，請按一下&#x200B;**[!UICONTROL 「活動」]**，從清單按一下需要的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;索引標籤。
+若要顯示報表:
 
-![報表 UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，然後從清單按一下需要的活動。
+1. 按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
+
+   ![報表 UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target 預設集 {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-視需要設定個別活動報表後，您最多可以儲存十個不同的預設集 (量度、日期範圍、對象、進階設定等)。所有 Target 使用者皆可顯示、編輯和刪除各種預設集 (無論建立者是誰)。
+視需要設定個別活動報表後，您最多可以儲存十個不同的預設集 (量度、日期範圍、對象、進階設定等)。All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
 
 您也可以視需要設定個別活動報表，然後將該設定儲存為預設/我的最愛預設集。檢視活動報表進展時就會顯示這個畫面。
 
@@ -41,8 +44,8 @@ ht-degree: 84%
 
    ![新預設集對話方塊](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. 查看「篩選條件與設定」區段中的資訊，以確保根據需要設定報表，然後指定&#x200B;**[!UICONTROL 「預設集名稱」]** (最多 50 個字元)。
-1. (條件性) 如果您希望將此作為預設/我的最愛報表檢視，請滑動&#x200B;**[!UICONTROL 「將此項目設定為預設的預設集」]**&#x200B;切換至「開啟」位置。
+1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ### 選擇不同的預設集
@@ -75,7 +78,7 @@ ht-degree: 84%
 
    ![報表預設刪除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. 再按一下&#x200B;**[!UICONTROL 「刪除」]**&#x200B;以確認刪除。
+1. 再按一 **[!UICONTROL 下「刪除]** 」以確認刪除（已刪除的預設集無法復原）。
 
 ### 預設集錯誤處理
 
@@ -109,7 +112,7 @@ ht-degree: 84%
 
 ![日曆](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-為報表選取新的&#x200B;**[!UICONTROL 「開始」]**&#x200B;和&#x200B;**[!UICONTROL 「結束」]**&#x200B;日期。您也可以使用&#x200B;**[!UICONTROL 「自活動開始起算」]**&#x200B;和&#x200B;**[!UICONTROL 「直到活動結束」]**&#x200B;核取方塊。
+為報表選取新的&#x200B;**[!UICONTROL 「開始」]**&#x200B;和&#x200B;**[!UICONTROL 「結束」]**&#x200B;日期。You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
 
 按一下&#x200B;**[!UICONTROL 「自訂日期」]**&#x200B;以選取預先定義的日期範圍: 最近 7 天、最近 15 天，或最近 30 天。這些預先定義的日期範圍是動態範圍。如果開始日期早於於所選天數，則日曆將顯示從開始日期開始的範圍，一旦開始日期變成晚於活動持續時間增加時選擇的天數，則會動態變更範圍。
 
@@ -121,7 +124,10 @@ ht-degree: 84%
 
 ## 設定 {#section_D99CE462107D45CABE0960F820E1E972}
 
-按一下齒輪圖示進行報表設定，然後在完成時按一下&#x200B;**[!UICONTROL 「儲存設定」]**。
+若要設定報表設定：
+
+1. 按一下齒輪圖示，進行所需的變更（如下所述）。
+1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 下圖顯示 A/B 活動的「設定」對話方塊:
 
@@ -129,29 +135,45 @@ ht-degree: 84%
 
 視選取的活動類型而定，選項會有所不同:
 
-* **計數方法:**&#x200B;選取所需的方法:
+### 計算方法
 
-   * 訪客
-   * 瀏覽次數
-   * 活動曝光次數
+選擇所需的方法：
 
-* **控制:**&#x200B;選取用於計算和比較提升度的控制體驗。
-* **環境:**&#x200B;選取用於報表的環境 (主機群組)。如需詳細資訊，請參閱[主機](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
-* **重設報表資料:**&#x200B;重設報表資料以移除舊資料。目前的訪客將保留在活動中。此選項僅限於具有核准者權限的人使用。
+* 訪客
+* 瀏覽次數
+* 活動曝光次數
 
-   >[!IMPORTANT]
-   >
-   >此為永久性動作，無法還原。
+### 控制
 
-* **排除極端值:**[!UICONTROL 「排除極端值」]切換適用於具有「收入」和「參與」量度類型的活動。如需詳細資訊，請參閱[排除極端訂單](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
+選取計算和比較提升度時要使用的控制體驗。
+
+### 環境
+
+選擇要用於報告的環境（主機組）。 如需詳細資訊，請參閱[主機](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+
+### 重設報告資料
+
+重設報告資料以移除舊資料。 目前的訪客將保留在活動中。This option is available only for those with [!UICONTROL Approver] permissions.
+
+>[!IMPORTANT]
+>
+>此為永久性動作，無法還原。
+
+### 排除極端值
+
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 如需詳細資訊，請參閱[排除極端訂單](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
 
 ## 下載 {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-按「下載」圖示來下載 [!DNL .csv] 格式的報表資料，以快速匯入至 Excel、Access 或其他資料分析程式。如需詳細資訊，請參閱[將資料下載為 CSV 檔案](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)。
+Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+
+![下載圖示](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+如需詳細資訊，請參閱[將資料下載為 CSV 檔案](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)。
 
 ## 重新整理 {#section_E203729F2F314DF3856D2EE67C60B370}
 
-按一下「重新整理」圖示以重新整理報表的表格和圖表檢視，而不重新整理整個頁面、其設定，或其日期範圍。
+Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
 
 ## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -203,23 +225,20 @@ ht-degree: 84%
 
 * 執行中的平均值
 * 執行中的平均值提升
-* 每日 控制
-* 每日目標
+* 每日
 * 每日提升
 
 ![報表執行中的平均值](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->此下拉式清單的名稱會視選取的檢視而有所不同，但會是上述其中一個檢視。
+此下拉式清單的名稱會視選取的檢視而有所不同，但會是上述其中一個檢視。
 
 ## 計算方法 {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (只有在圖表檢視中檢視報表時才可供使用)
 
-您可以為報表中的圖形選擇計算方法。請注意，自動個人化 (AP) 活動不支援此選項。
+您可以為報表中的圖形選擇計算方法。Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
 
-若要存取「計數方法」選項，在以圖表模式檢視報表時，請按一下&#x200B;**[!UICONTROL 「我的主要目標」]**&#x200B;下拉式清單，然後選取計數方法。
+To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
 
 此計數方法與上述[!UICONTROL 「設定」]對話方塊中選取的方法相同。
 
