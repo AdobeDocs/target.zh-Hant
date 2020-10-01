@@ -1,59 +1,72 @@
 ---
-description: 流量估算程式提供的回饋意見可讓您得知是否有足夠的流量讓您的活動成功。
+keywords: traffic estimator;automated personalization;ap
+description: 「流量估計器」提供意見回饋，讓您知道您是否有足夠的流量讓Adobe Target活動成功。
 title: 預估成功所需的流量
 feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 25%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 預估成功所需的流量{#estimate-the-traffic-required-for-success}
 
-流量估算程式提供的回饋意見可讓您得知是否有足夠的流量讓您的活動成功。
+The [!UICONTROL Traffic Estimator] provides feedback that lets you know whether you have sufficient traffic for your [!DNL Adobe Target] activity to succeed.
 
-因為自動個人化活動會使用多個選件組合，請務必瞭解若要提供有意義的結果需要多少流量。流量估算程式會使用關於您的頁面和待測試體驗數量的統計資料，以預估讓活動成功所需的流量和測試持續時間。
+Because an [!UICONTROL Automated Personalization] activity uses multiple offer combinations, it is important to know how much traffic is required to provide meaningful results. The [!UICONTROL Traffic Estimator] uses statistics about your page and the number of experiences being tested to estimate the amount of traffic and the test duration needed to make the activity successful.
 
-流量估算程式會透過比較預估頁面曝光次數和頁面的一般轉換率，來決定是否有足夠的流量可產生個人化模型。理想上，對於成功的活動，正確的樣本大小可確保個人化內容會在活動持續期間的 50% 或 14 天內就緒 (以較少者為準)。這可讓您有充分的時間來取得個人化內容並學習要傳送的內容。
+The [!UICONTROL Traffic Estimator] determines if there is enough traffic to generate personalized models, by comparing the estimated page impressions and typical conversion rate for the pages. 理想上，對於成功的活動，正確的樣本大小可確保個人化內容會在活動持續期間的 50% 或 14 天內就緒 (以較少者為準)。這可讓您有充分的時間來取得個人化內容並學習要傳送的內容。
 
-請記住，Target 會隨機提供體驗，直到建立個人化演算法為止。當選件的模型就緒時每個選件旁的勾選記號圖示會顯示，並且 Target 可以開始傳送個人化的內容因為僅能在模型就緒之後預期提升度，視覺說明可讓您設定正確的預期。使用可視化體驗撰寫器 (VEC) 中的流量估算程式來取得模型何時會就緒的指導方針。
+Remember that [!DNL Target] randomly serves experiences until the personalization algorithms are built. The checkmark icon beside each offer shows when the model for that offer is ready and [!DNL Target] is able to begin delivering personalized content. 因為僅能在模型就緒之後預期提升度，視覺說明可讓您設定正確的預期。Use the [!UICONTROL Traffic Estimator] in the [!UICONTROL Visual Experience Composer] (VEC) to get a guideline of when the models will be ready.
 
-1. 在體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「流量」]**。
+## 使用流量估計器
+
+1. From the [!UICONTROL Visual Experience Composer], click **[!UICONTROL Traffic]**.
 
    ![流量圖示](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   流量估算程式隨即開啟。您可以再次按一下&#x200B;**[!UICONTROL 「流量」]**&#x200B;來隱藏流量估算程式。
+   The [!UICONTROL Traffic Estimator] opens. You can click **[!UICONTROL Traffic]** again to hide the [!UICONTROL Traffic Estimator].
 
    ![](assets/ap_est.png)
 
 1. 提供一般轉換率 (或您從此活動預期的轉換率)、預估每日活動曝光次數和測試持續期間。
 
-   * 內容組合數量: 在執行任何排除之後，根據要隨活動建立的體驗數量自動計算。
-   * 一般轉換率: 轉換率會根據您的估計或來自您分析系統的過去資料而以百分比表示。
-   * 預估的每日造訪次數: 這是根據鎖定目標條件，從可檢視活動的訪客得到的每日造訪數量。這可能根據您的分析資料。請注意，此數量應為造訪次數，而非不重複訪客次數。
-   * 測試持續時間: 活動要執行的天數。
+   * **選件數**:根據在排除任何項目後作為活動一部分建立的體驗數自動計算。
+   * **一般轉換率**: 轉換率會根據您的估計或來自您分析系統的過去資料而以百分比表示.
+   * **預計每日瀏覽次數**:這是根據定位條件，能夠檢視活動的訪客每天的瀏覽次數。 這可能根據您的分析資料。請注意，此數量應為造訪次數，而非不重複訪客次數。
+   * **測試持續時間**: 活動要執行的天數。
 
-   流量估算程式會使用這些統計資料來判斷執行成功測試所需的調整。
+   The [!UICONTROL Traffic Estimato]r uses these statistics to determine what adjustments are needed to run a successful test.
 
-   在接近流量估算程式頂端，您輸入的值會經過計算並顯示結果。
+   Near the top of the [!UICONTROL Traffic Estimator], the values you entered are calculated and the results are shown.
 
    ![](assets/ap_est_no.png)
 
-   當您變更數量時，預估即會變更。例如，如果您要測試大量組合，並且您的轉換率和曝光次數太低，流量估算程式會顯示測試執行需要多久時間才會成功。或者，如果您的流量很低，流量估算程式可能會建議較低數量的選件組合，讓您可以執行測試達需要的天數。
+   當您變更數量時，預估即會變更。For example, if you are testing a large number of combinations and your conversion rate and impressions are too low, the [!UICONTROL Traffic Estimator] shows how long the test will need to run to be successful. Or, if your traffic is low, the [!UICONTROL Traffic Estimator] might suggest a lower number of offer combinations so you can run the test the desired number of days.
 
    如果您沒有足夠的流量，您可以執行以下一個或所有動作:
 
-   * 考慮使用自動鎖定目標而非自動個人化，在一個體驗變數中建立具有數個選件變更的體驗。
-   * 減少您的自動個人化活動內選件組合的數量。
+   * Consider using an [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation.
+   * Reduce the number of offer combinations within your [!UICONTROL Automated Personalization] activity.
    * 增加活動的持續時間。
 
-   調整數量直到流量估算程式指出您有足夠的流量為止，然後據以設計您的測試。
+   Adjust the numbers until the [!UICONTROL Traffic Estimator] says you have sufficient traffic, then design your test accordingly.
 
    ![](assets/ap_est_yes.png)
 
-   如果流量足夠，「流量」圖示會顯示綠色的核取記號。如果流量不足，圖示會顯示紅色的警告標籤。
+   If the traffic is sufficient, the [!UICONTROL Traffic] icon shows a green check. 如果流量不足，圖示會顯示紅色的警告標籤。
+
+## 關於流量估計器的常見問題
+
+使用流量估計器時，請考慮下列常 [!UICONTROL 見問答]:
+
+### 為什麼我 [!DNL Target] 的AP活動流量足夠時，不建立個人化模型？
+
+在特定情況下，您的流量可能足夠大，以建立個人化模型，但該流量可能會通知 [!DNL Target] ，個人化模型與隨機模型之間沒有有意義的差異。 雖然模型已內建並測 [!DNL Target] 試過，但由於模型並未明顯優於隨機模型，因此無法部署。
+
+模型沒有比隨機選擇好的一個可能原因，是選件彼此之間沒有明顯的差異。 如果是這樣，您可以嘗試讓選件更具視覺差異或變更內容本身，以增加選件的差異。
