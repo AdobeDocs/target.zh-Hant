@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1335'
 ht-degree: 18%
 
 ---
@@ -130,10 +130,18 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 ### 限制與附註
 
+**自動分配和自動目標**
+
 * 啟動活動後，報表來源 [!DNL Analytics] 無法 [!DNL Target] 從變更為，反之亦然。
 * 雖然計算量度不支援做為主要目標量度，但通常可以選擇自訂事件作為主要目標量度，以達到預期結果。 例如，如果您想要最佳化度量（例如「每位訪客表單填寫」），請選取與「表單填寫」對應的自訂事件作為主要目標度量。 [!DNL Target] 自動標準化每次瀏覽的轉換量度，以考慮不均勻的流量分佈，因此不需要使用計算量度來執行標準化。
 * [!DNL Target] 在「自動配置 [!UICONTROL A4T」實作中使用「相] 同觸控」歸因模型。
+
+**自動分配**
+
 * [!UICONTROL 自動分配] (Auto-Allocate)模型會照常每兩小時進行一次培訓。
+
+**自動鎖定目標**
+
 * [!UICONTROL 自動目標] (Auto-Target)機型會照常每24小時進行一次培訓。 不過，來自轉換事件資 [!DNL Analytics] 料會延遲6至24小時。 此延遲表示流量的分佈將追 [!DNL Target] 蹤記錄在中的最新事件 [!DNL Analytics]。 在活動首次啟動後的48小時內，效果最大；活動的效能將更密切地反映經過五 [!DNL Analytics] 天后的轉換行為。 您應考慮對 [!UICONTROL 於短期活動使用「自動分配] 」，而非「自動目標」，這些活動在活動生命週期的前五天內產生大部分流量。
 * 當使 [!DNL Analytics] 用作自動目標活動的  資料來源時，會話會被視為在經過六小時後結束。 六小時後發生的轉換將不會計算在內。
 
