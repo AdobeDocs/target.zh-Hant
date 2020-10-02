@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 25%
@@ -69,4 +69,4 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
 在特定情況下，您的流量可能足夠大，以建立個人化模型，但該流量可能會通知 [!DNL Target] ，個人化模型與隨機模型之間沒有有意義的差異。 雖然模型已內建並測 [!DNL Target] 試過，但由於模型並未明顯優於隨機模型，因此無法部署。
 
-模型沒有比隨機選擇好的一個可能原因，是選件彼此之間沒有明顯的差異。 如果是這樣，您可以嘗試讓選件更具視覺差異或變更內容本身，以增加選件的差異。
+模型未比隨機選件好的一個可能原因是選件彼此差異不大。 如果是這樣，您可以嘗試讓選件更具視覺差異或變更內容本身，以增加選件的差異。
