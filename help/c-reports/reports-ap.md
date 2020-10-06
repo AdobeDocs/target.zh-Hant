@@ -1,25 +1,25 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: 特製的報表可供自動個人化的使用者使用。
+description: Adobe Target中「自動個人化」活動的使用者可使用專用報表。
 title: 自動個人化摘要報表
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 94%
+source-wordcount: '388'
+ht-degree: 68%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 自動個人化摘要報表{#automated-personalization-summary-reports}
 
-特製的報表可供自動個人化的使用者使用。
+Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->自動個人化屬於 [!DNL Target Premium] 解決方案的一部分。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!DNL Target Premium] 解決方案提供[!UICONTROL 自動個人化]功能。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
 
 1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的[!UICONTROL 「自動個人化」]活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
 
@@ -41,7 +41,7 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 
 隨機森林 (Random Forest) 體驗的[!UICONTROL 選件層級]報表中，會比較每個套用演算法的選件與同樣的隨機提供選件 (控制) 兩者的效能。因此，在此檢視中，選件不應該相互比較。
 
-按一下體驗演算法 (隨機森林或控制)，以檢視「選件層級」報表。
+Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -50,3 +50,19 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 >[!NOTE]
 >
 >時鐘圖示表示演算法模型還在建立中。勾號圖示表示已建立基礎演算法。
+
+## 自動化區段
+
+按一下「自 [!UICONTROL 動化區段] 」圖示。 此報表顯示不同訪客對您AP/AT活動中的選件／體驗的回應方式。 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。
+
+![自動化區段圖示](/help/c-reports/assets/icon-automated-sements-ap.png)
+
+如需詳細資訊，請參閱「自 [動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+
+## 重要屬性
+
+按一下「重 [!UICONTROL 要屬性] 」表徵圖。 此報表顯示在不同活動中，不同屬性對於模型決定個人化的方式更重要（或更少）。 此報表顯示影響模型及其相對重要性的常見屬性。
+
+![重要屬性圖示](/help/c-reports/assets/icon-important-attributes-ap.png)
+
+如需詳細資訊，請參閱「重 [要屬性」報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
