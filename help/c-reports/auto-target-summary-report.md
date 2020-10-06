@@ -1,41 +1,50 @@
 ---
-keywords: reports;auto-target;auto target;AT
-description: 如何解讀自動鎖定目標摘要報表的相關資訊。
+keywords: reports;auto-target;auto target;AT;report
+description: 有關如何解譯Adobe Target中「自動目標摘要」報表的資訊。
 title: 自動鎖定目標摘要報表
 feature: reports
 subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 65%
+source-wordcount: '666'
+ht-degree: 55%
 
 ---
 
 
-# 自動鎖定目標摘要報表{#auto-target-summary-report}
+# ![PREMIUM](/help/assets/premium.png) Auto-Target摘要報表{#auto-target-summary-report}
 
-有關如何解譯「自動目標摘要」報表的資訊。
+Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
 
-要顯示「自動目標摘要」報表，請執行以下操作：
+>[!NOTE]
+>
+>[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
 
-1. 在「活 [!UICONTROL 動] 」頁面中，按一下所要的「自動定位」活動。
+要顯示「自 [!UICONTROL 動目標摘要」報表] :
 
-   如果您有許多活動，則可從「類型」、「狀態」、「屬性」、「報告來源」、「體驗撰寫器」、「量度類型」和「活動來源」下拉式清單中選取選項，以篩選清單。
+1. 在「活 [!UICONTROL 動] 」頁面中，按一下所 [!UICONTROL 要的「自動定位] 」活動。
 
-1. 按一下[!UICONTROL 「報表」]標籤。
+   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+
+1. 按一下「 [!UICONTROL 報表] 」標籤，然後按一下所要的圖示：
+
+   * 表格檢視
+   * 圖表檢視
+   * 自動化區段
+   * 重要屬性
 
 ## 表格檢視
 
-下圖顯示使用Auto-Target時，「表格檢視」中的典型摘要報表外觀：
+下圖顯示在檢視「自動定位」活動報表時， [!UICONTROL 「表格檢視] 」中  典型摘要報表的外觀：
 
 ![自動定位表格檢視報表](/help/c-reports/assets/at-table-view.png)
 
-解讀自動鎖定目標報表時的一些秘訣和考量:
+Some tips and considerations as you interpret your [!UICONTROL Auto-Target] reports:
 
-* 表格中的許多列有助於瞭解活動效能。
+* 表格中的各列可協助您瞭解活動效能。
 
    * 在報表頁面上，表格中最上方的兩列指出，在指派給控制的訪客 (亦即隨機提供的體驗) 與指派給個人化演算法的訪客之間，A/B 測試的結果。此資訊可用來對照隨機提供的控制，以測量個人化演算法的表現。
    * 剩餘的列會顯示體驗等級的結果。對於每個體驗，兩種訪客的平均回應之間會相互比較: 以隨機提供的控制來顯示體驗，或利用個人化演算法來顯示體驗。
@@ -46,13 +55,13 @@ ht-degree: 65%
    * 在此情況下，為了加速活動來為所有體驗建立模型，更多流量會傳送至未建立模型的體驗。
    * 至少必須有兩個體驗已建立模型 (綠色勾號)，如此個人化才會開始。
 
-* 在自動鎖定目標中，比較體驗 A 的轉換率與體驗 B 的轉換率不是正確的比較。問題在於智慧地或隨機地提供時 (即與控制相比)，體驗 A 何時表現較佳。市場行銷人員也要小心解讀個別體驗的提升度，因為個人化演算法會嘗試以整個活動的成功量度而最佳化，而非針對每個體驗。
+* Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. 問題在於智慧地或隨機地提供時 (即與控制相比)，體驗 A 何時表現較佳。市場行銷人員也要小心解讀個別體驗的提升度，因為個人化演算法會嘗試以整個活動的成功量度而最佳化，而非針對每個體驗。
 * 提升度最高的體驗可視為在母體內有最大的差異性。亦即，演算法已找到一個最類似於該特定體驗的區段。
 * 表格中的各欄顯示瀏覽次數、轉換率、平均提升度和信賴等級以及信賴度。 如需詳細資訊，請參閱[平均提升度、提升度界限和信賴區間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)。
 
 ## 圖表檢視
 
-下圖顯示使用Auto-Target時，「圖形檢視」中典型摘要報表的外觀：
+下圖顯示在「圖形檢視」中檢視「自動 [!UICONTROL 定位」活動報表時] ,  典型摘要報表的外觀：
 
 ![自動目標圖形檢視報表](/help/c-reports/assets/at-graph-view.png)
 
@@ -62,7 +71,7 @@ ht-degree: 65%
 
 ## 自動化區段
 
-按一下「自動化區段」圖示。 此報表顯示不同訪客對您AP/AT活動中的選件／體驗的回應方式。 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。
+按一下「自 [!UICONTROL 動化區段] 」圖示。 此報表顯示不同訪客對您AP/AT活動中的選件／體驗的回應方式。 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。
 
 ![自動化區段圖示](/help/c-reports/assets/icon-automated-sements.png)
 
@@ -70,8 +79,8 @@ ht-degree: 65%
 
 ## 重要屬性
 
-按一下「重要屬性」圖示。 此報表顯示在不同活動中，不同屬性對於模型決定個人化的方式更重要（或更少）。 此報表顯示影響模型及其相對重要性的常見屬性。
+按一下「重 [!UICONTROL 要屬性] 」表徵圖。 此報表顯示在不同活動中，不同屬性對於模型決定個人化的方式更重要（或更少）。 此報表顯示影響模型及其相對重要性的常見屬性。
 
 ![重要屬性圖示](/help/c-reports/assets/icon-important-attributes.png)
 
-如需詳細資訊，請參閱重 [要屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
+如需詳細資訊，請參閱「重 [要屬性」報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
