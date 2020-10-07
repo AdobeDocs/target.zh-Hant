@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2505'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10月7日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.10.1版的資訊。 |
 | 10月1日 | [預估成功所需的流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 新增「常見問答」區段。 |
 | 9月30日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增下列即時網路研討會的相關資訊：<ul><li>使用Adobe Target和Analytics進行規模調整的最適化個人化</li></ul> |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 20.9.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
