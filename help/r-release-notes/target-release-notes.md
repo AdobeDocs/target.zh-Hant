@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 18%
+source-wordcount: '526'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 9 月 23 日**
+**上次更新: 2020 年 10 月 7 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -39,13 +39,13 @@ ht-degree: 18%
 * **目標公告**:請參閱Target公告頁面，以取得近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。 如需詳細資訊，請參閱 [Target公告](/help/r-release-notes/target-announcements.md)。
 
 
-## Target Standard/Premium 20.9.1 (2020 年 9 月 30 日)
+## Target Standard/Premium 20.10.1 (2020 年 10 月 27 日)
 
-此維護髮行包含下列增強功能、修正和變更：
+此版本包含下列新功能：
 
-* 已改善僅限鍵盤使用者的導覽和功能。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
-* 在UI中新增標籤，以協助使用者使用輔助技術。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
-* 改善UI中影像和文字的文字和色彩對比。 (TGT-34513)
+| 功能 | 詳細資料 |
+| --- | --- |
+| 裝置上決策 | 「裝置上決策」可讓行銷人員和產品開發人員在使用者的裝置內、跨通道，以接近零的延遲，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。 裝置上決策功能可讓行銷人員（現在也是產品開發人員）直接在使用者裝置內測試和最佳化體驗，將即時、情境式體驗的決策和載入時間縮短至幾乎為零。<br>裝置上決策可讓您將所有個人化和實驗指示編譯到「最佳化工件」上，這些工件會載入到客戶裝置上。 這些零延遲的工件可讓行銷人員一對一個人化、行為重新鎖定，以及即時產品和內容建議，同時讓開發人員和產品擁有者直接存取程式碼，以測試使用者體驗，並鎖定和階段產品發佈，即時進行調整。 而且，由於裝置上決策會以原生方式與產品連 [!DNL Adobe Experience Cloud] 接， [!DNL Target] 所以使用者可以快速分析並加速體驗反覆。 |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
