@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2537'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10月8日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 已新增下列已解決問題：<ul><li>[自動定位報表](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>將下列問題從「已知問題」區段移至「已解決問題」區段：<ul><li>[報表](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
+|  | [混合實作](/help/c-implementing-target/hybrid-implementation.md) | 新主題。 |
 | 10月7日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.10.1版的資訊。 |
 | 10月1日 | [預估成功所需的流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 新增「常見問答」區段。 |
 | 9月30日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增下列即時網路研討會的相關資訊：<ul><li>使用Adobe Target和Analytics進行規模調整的最適化個人化</li></ul> |
