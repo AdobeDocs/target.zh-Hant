@@ -5,9 +5,9 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
+source-git-commit: 4abd3678914c3866b08f56c5594df285cd903e08
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3794'
 ht-degree: 80%
 
 ---
@@ -129,7 +129,7 @@ at.js 的已知問題如下：
 
 ### 自動定位報表(#at-metrics)
 
-已解決從9月15日下午2 [!DNL Adobe Target Premium] :30  開始影響使用者「自動目標」報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換量度的報表(「已檢[!UICONTROL 視頁面]」或「已點[!UICONTROL 按mbox]」)時，轉換率報告不正確。 目前沒有已知的傳送問題。
+已解決從9月15日下午2 [!DNL Adobe Target Premium] :30  開始影響使用者「自動目標」報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換度量的報表(使用「已檢視頁面 [!UICONTROL 」或「已點按mbox]」選項設定)時，會錯誤報告轉換率。 目前沒有已知的傳送問題。
 
 要重新同步並更正報告，請執行以下操作：
 
