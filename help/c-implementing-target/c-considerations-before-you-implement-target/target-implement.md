@@ -2,11 +2,11 @@
 keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox
 description: 透過在網頁上參考 Target 資料庫 (at.js 或 mbox.js) 來實作 Target。
 title: 瞭解 Target JavaScript 程式庫
-feature: null
+feature: implementation general
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 | 程式庫參考 | 說明 |
 |--- |--- |
 | at.js | at.js 取代了 實施的 mbox.js。[!DNL Target]<br>除了眾多優點以外，at.js 還能改進 Web 實施的頁面載入時間、改進安全性、避免 Google Chrome 中的 document.write 警告，以及為單頁應用程式提供更好的實施選項。<br>如需詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
-| mbox.js | 在 [!DNL Target] 16.3.1 (2016 年 3 月) 之前的版本中，[!DNL Target] 需要呼叫 mbox.js 來建立全域 mbox，[!DNL Target] 需要此全域 mbox 才能傳送活動、追蹤點擊，以及追蹤大部分成功量度。此檔案包含所有活動所需的資料庫。您不需要維護不同的活動特定版本檔案。<br>如果您的頁面上已有來自舊型 [!DNL Target] 實作的包裝 mbox，則這些 mbox 仍可用在新介面中。仍需要更新的 mbox.js 檔案，但可以使用可視化體驗撰寫器為活動選取這些 mbox 並加以編輯。<br>[!DNL Target] Standard 和 Premium 會以 target.js 檔案的參照來更新和補充 mbox.js。target.js 檔案是由 Adobe 管理。此 Target.js 檔案可讓您使用可視化體驗撰寫器來編輯任何頁面的內容，即使該頁面不含預先定義的 mbox 也一樣。您必須在網站的每一個頁面上參照此檔案。<br>如需詳細資訊，請參閱 [mbox.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。<br>**重要&#x200B;**: 仍支援 mbox.js 資源庫，但將不會提供功能更新。所有客戶應該移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br>。 |
+| mbox.js | 在 [!DNL Target] 16.3.1 (2016 年 3 月) 之前的版本中，[!DNL Target] 需要呼叫 mbox.js 來建立全域 mbox，[!DNL Target] 需要此全域 mbox 才能傳送活動、追蹤點擊，以及追蹤大部分成功量度。此檔案包含所有活動所需的資料庫。您不需要維護不同的活動特定版本檔案。<br>如果您的頁面上已有來自舊型 [!DNL Target] 實作的包裝 mbox，則這些 mbox 仍可用在新介面中。仍需要更新的 mbox.js 檔案，但可以使用可視化體驗撰寫器為活動選取這些 mbox 並加以編輯。<br>[!DNL Target] Standard 和 Premium 會以 target.js 檔案的參照來更新和補充 mbox.js。target.js 檔案是由 Adobe 管理。此 Target.js 檔案可讓您使用可視化體驗撰寫器來編輯任何頁面的內容，即使該頁面不含預先定義的 mbox 也一樣。您必須在網站的每一個頁面上參照此檔案。<br>如需詳細資訊，請參閱 [mbox.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。<br>**重要**: 仍支援 mbox.js 資源庫，但將不會提供功能更新。所有客戶應該移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br>。 |
 
 ## at.js 和 mbox.js 對頁面載入時間的影響 {#section_16630CD0FF0A498EB596A51381366A5A}
 
