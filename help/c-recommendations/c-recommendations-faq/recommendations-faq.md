@@ -5,7 +5,7 @@ title: Adobe Target Recommendations常見問答集
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -198,3 +198,4 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 * 部分範本轉譯已停用，而且沒有足夠的結果可填滿範本。
 
    這通常發生在您有動態包含規則時，該規則會從可能的結果中積極篩選許多項目。 要避免此情況，請啟用備份，不要將包含規則應用於備份，或者使用條件順序和不那麼激進的篩選條件。
+
