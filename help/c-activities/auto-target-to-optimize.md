@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: Adobe Target中的Auto-Target使用進階的機器學習功能，從多個高效能行銷人員定義的體驗中選擇，以個人化內容並推動轉化。 自動鎖定目標會根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
 title: 自動鎖定目標
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 85%
+source-wordcount: '3744'
+ht-degree: 83%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自動鎖定目標{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) 自動鎖定目標
 
 [!UICONTROL 自動鎖定目標]使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中加以選取，以便個人化內容並促進轉換。自動鎖定目標會根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
 
@@ -21,11 +22,19 @@ ht-degree: 85%
 >
 >[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。如需此授權提供之進階功能的詳細資訊，請參閱 [Target Premium](/help/c-intro/intro.md)。
 
+## 使用Auto-Target的實際成功案例 {#success}
+
+一家主要服裝零售商最近使用 [!UICONTROL Auto-Target] 活動搭配十種產品類別型體驗（加上隨機控制），為每位訪客提供正確的內容。 「[!UICONTROL 新增至購物車]」被選為主要最佳化度量。 目標體驗平均提升29.09%。 建立 [!UICONTROL Auto-Target模型後] ，活動設定為90%的個人化體驗。
+
+短短10天，就實現了170多萬美元的提升。
+
+繼續閱讀，瞭解如何使用 [!UICONTROL Auto-Target] ，為您的組織增加營收和提升度。
+
+## 概述 {#section_972257739A2648AFA7E7556B693079C9}
+
 [使用三步驟引導式工作流程建立 A/B 活動](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)時，您可以選擇使用[!UICONTROL 「針對個人化體驗自動鎖定目標」]選項來分配流量:
 
 ![個人化體驗選項的自動鎖定目標](/help/c-activities/assets/auto-target-ui-new.png)
-
-## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
 A/B 活動流量內的[!UICONTROL 「自動鎖定目標」]選項可讓您只要按一下即可駕馭機器學習，以根據市場行銷人員定義的一組體驗進行個人化。[!UICONTROL 相較於傳統的 A/B 測試或自動分配，「自動鎖定目標」旨在決定要顯示給每個訪客的體驗，讓最佳化發揮到極致。]不同於 A/B 活動的目標是找出單一獲勝者，[!UICONTROL 自動鎖定目標]會自動為特定訪客決定最佳體驗 (根據其設定檔及其他情境資訊)，以實現高度個人化的體驗。
 
@@ -117,7 +126,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 * 此量度可以是以轉換為基礎，或以收入為基礎 (具體而言，即「每次造訪帶來的收入」)。
 
-**演算法不支援使用[!DNL Analytics]作為資料來源或報表端點。**
+**演算法不支援使用 [!DNL Analytics] 作為資料來源或報表端點。**
 
 **Target 會自動收集關於訪客的資訊以建置個人化模型。**
 
@@ -229,7 +238,7 @@ Auto-Target的模型建立需 [!UICONTROL 要進一步考慮]:
 
 ### 我可以在自動定位活動中途變更目標量度嗎？ {#change-metric}
 
-我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
+我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
 
 此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
 
