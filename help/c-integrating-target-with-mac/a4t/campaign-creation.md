@@ -1,26 +1,26 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: 您可以在 Target Standard/Premium 中設定活動以使用 Adobe Analytics 做為報表來源 (A4T)。
-title: 活動建立
+title: 建立使用A4T做為報告來源的活動
 feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e501100ba149472169f11072fd1663095dd40612
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1367'
 ht-degree: 17%
 
 ---
 
 
-# 活動建立{#activity-creation}
+# 建立使用Analytics做為報告來源的活動
 
 You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. 選擇活動的最終成功量度。Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## 建立使用Analytics做為報告來源的活動
+## 建立活動
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
