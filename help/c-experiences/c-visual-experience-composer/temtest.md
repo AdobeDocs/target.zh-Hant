@@ -1,23 +1,23 @@
 ---
 keywords: template testing;template;same experience on similar pages;template test
-description: 如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
-title: 在類似頁面上包含相同體驗
+description: 使用Adobe Target中的頁面範本為您的頁面提供結構，或是您的頁面包含類似元素時，測試類似結構頁面元素的變化。
+title: 在使用Adobe Target的類似頁面上加入相同的體驗
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 45%
 
 ---
 
 
-# 在類似頁面上包含相同體驗{#include-the-same-experience-on-similar-pages}
+# 在類似頁面上包含相同體驗
 
-如果您使用頁面範本來提供結構給頁面，或如果您的頁面包含類似元素，則此功能可讓您以類似的結構化頁面元素來測試變數。
+使用中的頁面范 [!DNL Adobe Target] 本為您的頁面提供結構，或是您的頁面包含類似元素時，測試類似結構化頁面元素或整個網域的變化。
 
-為了正確運作，必須在具有非常類似結構的頁面上使用此功能。或包含在所有頁面上相同結構的範本元素。
+若要正常運作，此功能必須用於結構類似或包含結構相同之範本元素的頁面上。
 
 >[!IMPORTANT]
 >
@@ -30,12 +30,14 @@ ht-degree: 96%
 * 新增橫幅至所有產品頁面
 * 變更文章範本的配置
 
-下列示範影片包括關於使用範本的資訊:
+您可以指定包含變更元素的頁面，或跨網站或網域套用變更。
 
-您可以指定包括變更元素的頁面，或在您的網站上套用變更。
+1. Create  or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. 按[活動](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)一文所述建立活動。
-1. 若要指定顯示體驗的頁面，請在可視化體驗撰寫器中按一下齒輪圖示，然後選取&#x200B;**[!UICONTROL 頁面傳送]**。
+1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+   ![齒輪圖示>頁面傳送](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
+
 1. 按一下&#x200B;**[!UICONTROL 新增範本規則]**，然後指定您要新增體驗的頁面的條件。
 
 1. 指定頁面範圍。頁面範圍可以是下列其中一項:
@@ -43,13 +45,13 @@ ht-degree: 96%
    * URL (如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
    * 網域
    * 路徑
-   * 雜湊 (#) 片段 (鎖定後面有 # 符號的 URL 部分。)
+   * 雜湊 (#) 片段 （定位#符號後面URL的部分）。
    * 查詢
    * 參數
 
 1. 選擇一個運算子。
 
-   運算子可指定運算子之後的項目與頁面範圍的相關性。可用的運算子為:
+   運算子可指定運算子之後的項目與頁面範圍的相關性。可用運算子包括：
 
    * 包含
    * 不包含
@@ -66,17 +68,39 @@ ht-degree: 96%
 
    >[!IMPORTANT]
    >
-   >多個項目使用 `OR` 邏輯，表示清單中的任何單一項目都會讓條件成立。
+   >多個項目使用OR邏輯，這表示清單中的任何單一項目都會使條件成真。
 
-1. 如果需要，請按一下&#x200B;**[!UICONTROL 新增範本規則]**&#x200B;並重複先前步驟中的程序來輸入其他條件。
+1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
 
-   以 AND 邏輯聯合多個規則。Adobe Target 會將體驗新增至符合指定條件的所有頁面。
+   以 AND 邏輯聯合多個規則。[!DNL Target] 會將體驗新增至符合指定條件的所有頁面。
 
 >[!IMPORTANT]
 >
-> Target 無法檢查頁面以確定它們能如預期般出現，因此，在將頁面公開之前，請務必使用此功能來測試受影響的頁面。
+> [!DNL Target] 無法檢查頁面以確定它們能如預期般出現，因此，在將頁面公開之前，請務必使用此功能來測試受影響的頁面。
 
-## 訓練影片: 可視化體驗撰寫器 (2/2) (7:29) ![教學課程徽章](/help/assets/tutorial.png)
+## 使用個案
+
+請檢閱下列使用案例，以瞭解在您的網站上使用範本規則的方式：
+
+### 在整個網域中呈現相同的活動
+
+您可能會考慮針對下列使用案例，使用範本規則在整個網域中呈現相同的活動：
+
+* 要包含全局頁眉或頁腳
+* 若要包含全域橫幅（例如，COVID-19公告）
+* 若要納入全球免運費促銷
+
+1. Create or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+
+1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+1. 按一 **[!UICONTROL 下新增範本規則]** > **[!UICONTROL 網域]**。
+
+1. 從「選 **[!UICONTROL 擇求值器]** 」下拉式清單中，選取「 **[!UICONTROL 包含]**」，然後指定網域。
+
+   ![網域包含](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
+
+## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * 重新命名和複製體驗
 * 建立重新導向體驗
