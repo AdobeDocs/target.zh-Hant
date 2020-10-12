@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 67%
+source-wordcount: '1386'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +25,21 @@ ht-degree: 67%
 
 mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. 但是，這不會深入到偵錯內容傳送時很有用的詳細程度。如果您的活動未顯示在頁面上，或是顯示不想要的內容，請使用 mboxTrace 來詳細檢查和偵錯頁面。
 
-## 擷取授權 Token 以用於偵錯工具 {#section_BED130298E794D1FA229DB7C3358BA54}
+## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 由於 mboxTrace 和 mboxDebug 會公開促銷活動資料和描述檔資料給外部對象，因此需要授權權仗。在[!DNL Target]UI 中可以擷取授權 Token。授權 Token 的有效期限為六小時。
+
+您必須具備下列其中一個使用者權限才能產生驗證Token:
+
+* 至少 [!UICONTROL 是Editor] (或 [!UICONTROL Approver])權限
+
+   如需客戶的詳細資 [!DNL Target Standard] 訊，請參 [閱「指定使用者中的角色和](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 權限」 **。 如需客戶的詳細資 [!DNL Target Premium] 訊，請參 [閱設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
+
+* 工作區／產品設定檔層級上的管理員角色
+
+   工作區僅供客 [!DNL Target Premium] 戶使用。 For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* 產品層級的管理權限(Sysadmin權 [!DNL Adobe Target] 限)
 
 擷取授權 Token:
 
@@ -53,7 +65,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 | `?mboxTrace=window` | 列印至彈出式視窗做為 JSON 字串 |
 | `?mboxTrace=disable` | 關閉追蹤作業模式 |
 
-**mboxTrace 呼叫範例**
+**範例mboxTrace呼叫**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -66,7 +78,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 * **不相符**: 請求在此呼叫中不符合那些群體或目標的資格。
 * **相符**: 請求符合指定的群體或目標的資格。
 
-**在 Recommendations 頁面上使用 mboxTrace**: 使用 mboxTrace 詳細資料視窗，新增 mboxTrace 做為具有建議之頁面上的查詢參數，以取代該頁面的 Recommendations 設計，此可顯示關於您建議的深入資訊，包括下列項目:
+**在建議頁面上使用mboxTrace**:將mboxTrace新增為含建議之頁面上的查詢參數，會以mboxTrace詳細資料視窗取代頁面上的Recommendations設計，此視窗會顯示建議的深入資訊，包括：
 
 * 傳回的建議以較請求的建議
 * 使用的索引鍵，以及是否產生建議
@@ -116,7 +128,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. 請改用 *`orderConfirmPage`* 呼叫。
 
-## 檢查活動優先順序 {#section_3D0DD07240F0465BAF655D0804100AED}
+## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
@@ -130,7 +142,7 @@ Target 不再支援 IE 8。
 
 mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
-## Target Cookie 未設定 {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 如果您的網站有子網域，例如 [!DNL us.domain.com]，但您需要將 Target Cookie 設定在 [!DNL domain.com] (而不是 [!DNL us.domain.com])，則必須覆寫 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 
