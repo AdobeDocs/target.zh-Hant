@@ -1,11 +1,11 @@
 ---
-keywords: Recommendations;offer;preview;launch
+keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: '在您建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
 title: '在您建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。 '
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
