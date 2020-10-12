@@ -1,27 +1,27 @@
 ---
 keywords: implementation;api;profile;profile api settings;authentication token
-description: 啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
-title: 設定檔 API 設定
+description: 透過Adobe Target API啟用或停用批次更新的驗證，並產生描述檔驗證Token。
+title: Adobe Target中的設定檔API設定
 feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 64%
+source-wordcount: '313'
+ht-degree: 40%
 
 ---
 
 
-# 設定檔 API 設定{#profile-api-settings}
+# 設定檔 API 設定
 
-啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
+透過Adobe Target API啟用或停用批次更新的驗證，並產生描述檔驗證Token。
 
-[!DNL Adobe Target] 會為每一個使用者建立和維護一個設定檔: This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] 會為每一個使用者建立和維護一個設定檔: This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit; however, you can update a profile individually or in bulk via API.
 
-為了提高安全性，您可以要求「大量更新 API」呼叫必須在要求的標頭中傳送有效的存取 Token。Users with [!UICONTROL Approver] permissions can generate and enable profile API authentication tokens.
+為了提高安全性，您可以要求「大量更新 API」呼叫必須在要求的標頭中傳送有效的存取 Token。
 
 **若要使用 Target UI 來要求驗證和產生存取 Token:**
 
@@ -30,12 +30,23 @@ ht-degree: 64%
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Pfofile Authentication Token]**.
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Profile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
    Token 會根據[!UICONTROL 「到期時間」]方塊中列出的時間而到期。
 
+   您必須具備下列其中一個使用者權限才能產生驗證Token:
+
+   * 至少 [!UICONTROL 是Editor] (或 [!UICONTROL Approver])權限
+
+      如需客戶的詳細資 [!DNL Target Standard] 訊，請參 [閱「指定使用者中的角色和](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 權限」 **。 如需客戶的詳細資 [!DNL Target Premium] 訊，請參 [閱設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
+
+   * 工作區／產品設定檔層級上的管理員角色
+
+      工作區僅供客 [!DNL Target Premium] 戶使用。 For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * 產品層級的管理權限(Sysadmin權 [!DNL Adobe Target] 限)
    >[!NOTE]
    >
    >您也可以透過 API 來產生設定檔驗證 Token。如需詳細資訊，請參閱 [Adobe Target Developers 網站](https://developers.adobetarget.com/)上的[設定檔](https://developers.adobetarget.com/api/#profiles)。
