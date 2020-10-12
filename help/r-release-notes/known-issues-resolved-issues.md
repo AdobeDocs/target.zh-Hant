@@ -5,15 +5,15 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '3793'
-ht-degree: 80%
+source-wordcount: '3898'
+ht-degree: 77%
 
 ---
 
 
-# 已知問題和已解決的問題{#known-issues-and-resolved-issues}
+# 已知問題和已解決的問題
 
 此版本 Target 已知問題的相關資訊，也包括已解決問題的相關資訊。
 
@@ -24,6 +24,12 @@ ht-degree: 80%
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節羅列 [!DNL Target] 的已知問題：
+
+### 自動分配和自動目標活動的Analytics for Target(A4T)量度
+
+UI中存在目前已知的問題，可讓使用者選擇不支援的參與和收入量度作為您在「自動分配」和「自動目標」活動中進行最佳化的主要目 [!DNL Target] 標量度  。 支援轉換度量；不支援參與和收 *入量度* 。 如果您選取參與或收入目標量度，則不會建立最佳化模型（即使Target UI目前允許您選取不支援的目標量度）。
+
+如需支援和不支援的目標度量清單，請參閱「建立 [使用Analytics作為報告來源的活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*」中的「支援的目標度量」*。 (TNT-38409)
 
 ### 頁面傳送 {#page-delivery}
 
