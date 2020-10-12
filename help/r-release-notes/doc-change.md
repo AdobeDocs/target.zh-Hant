@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2610'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 10月12日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新 [擷取授權Token，以便與除錯工具搭配使用](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) ，以指出您必須產生驗證Token的權限層級。 |
 |  | [設定檔 API 設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 更新主題，指出您必須產生驗證Token的權限層級。 |
+|  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 使用Auto-Target新增實際成功案例。 |
 |  | [在類似頁面上包含相同體驗](/help/c-experiences/c-visual-experience-composer/temtest.md) | 已新增區段，說明如何在整個網域中呈現相同的活動。 |
 | 10月8日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 已新增下列已解決問題：<ul><li>[自動定位報表](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>將下列問題從「已知問題」區段移至「已解決問題」區段：<ul><li>[報表](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [混合實作](/help/c-implementing-target/hybrid-implementation.md) | 新主題。 |
