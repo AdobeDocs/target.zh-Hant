@@ -5,9 +5,9 @@ title: Target公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ ht-degree: 0%
 ## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
 在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## 網路研討會：透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試
+
+行銷人員、產品擁有者和開發人員比以往更需要在網站、應用程式以及與客戶聯繫的其他任何地方，最佳化整體客戶體驗。 具備資料孤島和複雜實作的多種工具無法解決問題。
+
+在這個即時網路研討會中，請與Adobe Target產品專家一起討論如何在裝置上將關鍵體驗最佳化決策移至本機執行，而無延遲，為客戶開啟精彩的新使用案例，同時提升網站效能。
+
+* **2020年11月10日星期二**
+* **10am PT | 12pm CT |東部時間下午1點**
+
+[在這裡註冊參加這個精彩的活動。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## 網路研討會：使用Adobe Target和Analytics進行規模調整的最適化個人化
 
@@ -40,7 +51,7 @@ ht-degree: 0%
 
 ## 網路研討會：HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
-* **在接下來的30天中，您可以按一下這裡以檢視網路研討會[錄制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
+* **在接下來的30天中，您可以按一下這裡以檢視網路研討會 [錄制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 麥肯錫數位報告稱，「在大約8週內，我們在消費者和企業數位應用方面，已經進步了5年。」 *
 
