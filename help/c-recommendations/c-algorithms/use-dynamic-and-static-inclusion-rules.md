@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 35%
+source-wordcount: '2125'
+ht-degree: 34%
 
 ---
 
@@ -66,59 +66,12 @@ ht-degree: 35%
 
 當您  想要顯示符合訪客描述檔中儲存之值（例如大小或我的最愛品牌）的建議時，請使用描述檔屬性符合。
 
-下列範例說明如何使用描述檔 [!UICONTROL 屬性符合]:
+下列案例說明如何使用描述檔 [!UICONTROL 屬性符合]:
 
 * 一家銷售眼鏡的公司把遊客喜愛的畫格顏色儲存為「胡桃木」。 針對該特定訪客，建議設定為僅傳回符合彩色「胡桃」的眼鏡影格。
 * 描述檔參數可定義為訪客瀏覽公司網站時的服裝尺寸（例如，「小」、「中」或「大」）。 建議可設定為符合該描述檔參數，並傳回僅針對使用者偏好服裝尺寸的特定產品。
 
-讓我們來看一個範例，建議符合訪客描述檔中設定之服裝大小的服裝。
-
-產品頁面在 `entity.size` mbox呼叫中傳送（下圖中的紅色箭頭）。
-
-您可以建立描 [述檔指令碼](/help/c-target/c-visitor-profile/profile-parameters.md) ，從訪客瀏覽的最後一頁擷取訪客的描述檔屬性和值。
-
-例如，
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-描述檔指令碼會從名 `entity.size` 為mbox擷取值， `target-global-mbox` 並將它傳回為名為描述檔屬 `user.size` 性（下圖中的藍色箭頭）。
-
-![大小mbox呼叫](/help/c-recommendations/c-algorithms/assets/size.png)
-
-建立建議准則時，按一下「新 [!UICONTROL 增篩選規則]」，然後選 [!UICONTROL 取「描述檔屬性符合」]。
-
-![描述檔屬性比對圖例](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-如果您 `user.size` 的描述檔已載入 [!DNL Target]，當您設定規則以符合mbox呼叫(`size`)中傳入的值至描述檔指令碼名稱(`user.size`)時，該描述檔會顯示在下拉式清單中以進行比對。
-
-然後，您可以選取「size」「equals」（等於）儲存在「user.size」中的值／文字，以便設定檔屬性符合。
-
-建立描述檔屬性規則後，這些規則會篩選出所有具有不符合訪客儲存的描述檔屬性的建議。
-
-如需描述檔屬性比對如何影響建議的視覺化範例，請考慮銷售粉絲的網站。
-
-當訪客點按此網站上的粉絲影像時，每個頁面會根據影像中的粉絲大小 `entity.size` ，來設定參數值。
-
-假設您已建立描述檔指令碼，以追蹤並計算其值設定為小 `entity.size` 或大的次數。
-
-如果訪客接著返回首頁，他或她會根據是否點按了更多小粉絲或大粉絲，看到篩選的建議。
-
-根據在網站上檢視更多小粉絲的建議：
-
-![小粉絲建議](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-根據在網站上檢視更多大型粉絲的建議：
-
-![大型粉絲建議](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+如需更多範例和指示，請參閱下 [方的描述檔屬性符合範例](#section_9873E2F22E094E479569D05AD5BB1D40) 。
 
 #### 參數比對
 
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### 範例3:推薦符合訪客大小的衣服
+
+讓我們來看一個範例，建議符合訪客描述檔中設定之服裝大小的服裝。
+
+產品頁面在 `entity.size` mbox呼叫中傳送（下圖中的紅色箭頭）。
+
+您可以建立描 [述檔指令碼](/help/c-target/c-visitor-profile/profile-parameters.md) ，從訪客瀏覽的最後一頁擷取訪客的描述檔屬性和值。
+
+例如，
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+描述檔指令碼會從名 `entity.size` 為mbox擷取值， `target-global-mbox` 並將它傳回為名為描述檔屬 `user.size` 性（下圖中的藍色箭頭）。
+
+![大小mbox呼叫](/help/c-recommendations/c-algorithms/assets/size.png)
+
+建立建議准則時，按一下「新 [!UICONTROL 增篩選規則]」，然後選 [!UICONTROL 取「描述檔屬性符合」]。
+
+![描述檔屬性比對圖例](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+如果您 `user.size` 的描述檔已載入 [!DNL Target]，當您設定規則以符合mbox呼叫(`size`)中傳入的值至描述檔指令碼名稱(`user.size`)時，該描述檔會顯示在下拉式清單中以進行比對。
+
+然後，您可以選取「size」「equals」（等於）儲存在「user.size」中的值／文字，以便設定檔屬性符合。
+
+建立描述檔屬性規則後，這些規則會篩選出所有具有不符合訪客儲存的描述檔屬性的建議。
+
+### 範例4:根據大小推薦項目
+
+如需描述檔屬性比對如何影響建議的視覺化範例，請考慮銷售粉絲的網站。
+
+當訪客點按此網站上的粉絲影像時，每個頁面會根據影像中的粉絲大小 `entity.size` ，來設定參數值。
+
+假設您已建立描述檔指令碼，以追蹤並計算其值設定為小 `entity.size` 或大的次數。
+
+如果訪客接著返回首頁，他或她會根據是否點按了更多小粉絲或大粉絲，看到篩選的建議。
+
+根據在網站上檢視更多小粉絲的建議：
+
+![小粉絲建議](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+根據在網站上檢視更多大型粉絲的建議：
+
+![大型粉絲建議](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## 實體屬性匹配示例
 
 [!UICONTROL 「實體屬性符合] 」可讓您只建議符合使用者目前檢視之項目中屬性的項目、使用者最近檢視的項目、使用者最近購買的項目、使用者最常檢視的項目，或訪客描述檔中自訂屬性中儲存的項目，如下列範例所示。
 
-### 範例3:升級銷售更昂貴的產品
+### 範例5:升級銷售更昂貴的產品
 
 假設您是服裝零售商，並想鼓勵使用者考慮更高的價格，因此獲利更多的商品。 您可以使用「等於」和「介於」運算子來促銷來自相同類別和相同品牌的更昂貴項目。 例如，鞋類零售商可以推廣更貴的跑鞋，以向上銷售看跑鞋的訪客。
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### 範例4:推廣私有標籤產品
+### 範例6:推廣私有標籤產品
 
 您可以混合動態和靜態篩選來促銷私用標籤產品。 例如，辦公室供應公司可以推廣公司房屋品牌的碳粉盒，以促使查看碳粉的訪客進行更有利可圖的銷售，並推廣公司房屋品牌的鋼筆，以促使查看碳粉的訪客進行更有利可圖的銷售。
 
