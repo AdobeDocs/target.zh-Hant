@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2684'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10月13日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增下列定於2020年11月10日舉行的即時網路研討會的相關資訊：<ul><li>透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試</li></ul> |
+|  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增下列定於2020年11月10日舉行的即時網路研討會的相關資訊：<ul><li>透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試</li></ul> |
 | 10月12日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新 [擷取授權Token，以便與除錯工具搭配使用](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) ，以指出您必須產生驗證Token的權限層級。 |
 |  | [設定檔 API 設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 更新主題，指出您必須產生驗證Token的權限層級。 |
 |  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 使用Auto-Target新增實際成功案例。 |
