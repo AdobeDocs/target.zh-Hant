@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 13%
+source-wordcount: '778'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 10 月 7 日**
+**上次更新: 2020 年 10 月 14 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -46,6 +46,18 @@ ht-degree: 13%
 | 功能 | 詳細資料 |
 | --- | --- |
 | 裝置上決策 | 「裝置上決策」可讓行銷人員和產品開發人員在使用者的裝置內、跨通道，以接近零的延遲，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。 裝置上決策功能可讓行銷人員（現在也是產品開發人員）直接在使用者裝置內測試和最佳化體驗，將即時、情境式體驗的決策和載入時間縮短至幾乎為零。<br>裝置上決策可讓您將所有個人化和實驗指示編譯到「最佳化工件」上，這些工件會載入到客戶裝置上。 這些零延遲的工件可讓行銷人員一對一個人化、行為重新鎖定，以及即時產品和內容建議，同時讓開發人員和產品擁有者直接存取程式碼，以測試使用者體驗，並鎖定和階段產品發佈，即時進行調整。 而且，由於裝置上決策會以原生方式與產品連 [!DNL Adobe Experience Cloud] 接， [!DNL Target] 所以使用者可以快速分析並加速體驗反覆。<br>**立即註冊參加即時網路研討會。** 與Adobe Target產品專家一起討論如何在裝置上將關鍵體驗最佳化決策移至本機執行，而無延遲，為客戶開啟令人振奮的新使用案例，同時提升網站效能。<ul><li>2020年11月10日</li><li>上午10點PT /下午12點CT /下午1點ET</li><li>[在此處註冊](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+
+此發行包含下列增強功能、修正和變更：
+
+* 修正「平均提升度信賴 [!UICONTROL 區間」和「信賴度] 」無法顯示在「總計 [!UICONTROL 」列報] 表中的問 [!DNL Auto-Target] 題  。 所有個別體驗的度量都會正確顯示。 (TGT-37301)
+* 修正從9月15 [!DNL Adobe Target Premium] 日下午2  :30開始影響使用者「自動定位」報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換度量的報表時(使用「已檢視頁面[!UICONTROL 」或「已點按mbox]」選項設定)，轉換率報告不正確。 目前沒有已知的傳送問題。 如需如何重新同步和更正報表的詳細資訊，請參閱「已知問題中已解決的問題」 [(Resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) in *Known issues)和「已解決的問題」(Resolved issues)下的「自動定位」(* Auto-Target)報表 **。
+* 在「目錄搜尋」 [!UICONTROL 表格中新增可選的「上次更新的At] 」欄和「上次更新的At  」篩選。 此增強功能可節省時間和精力，因為您不需要開啟每個個別項目來查看上次更新的時間，而且您可以依上次更新項目的日期進行篩選。
+
+   ![「上次更新於」欄和篩選器圖示](/help/r-release-notes/assets/column-and-filter.png)
+
+* 已改善僅限鍵盤使用者的導覽和功能。
+* 在UI中新增標籤，以協助使用者使用輔助技術。
+* 改善UI中影像和文字的文字和色彩對比。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
