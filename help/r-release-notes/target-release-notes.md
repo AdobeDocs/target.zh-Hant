@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '803'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2020 年 10 月 14 日**
+**上次更新: 2020 年 10 月 15 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -55,9 +55,10 @@ ht-degree: 10%
 
    ![「上次更新於」欄和篩選器圖示](/help/r-release-notes/assets/column-and-filter.png)
 
-* 已改善僅限鍵盤使用者的導覽和功能。
-* 在UI中新增標籤，以協助使用者使用輔助技術。
-* 改善UI中影像和文字的文字和色彩對比。
+* 已進行更新，以協助Target UI符合 [Web內容協助工具方針](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 A級和AA成功准則(WCAG 2.0 AA)。 (TGT-34384 和 TGT-24679)
+* 對內容安全性政策(CSP)做了改進。 (TGT-37035)
+* 引入一種方式，指定用戶端程式碼為使用CNAME的客戶的參數。 (TNT-38571)
+
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
