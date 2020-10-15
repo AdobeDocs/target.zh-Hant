@@ -6,10 +6,10 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 78%
+source-wordcount: '3368'
+ht-degree: 76%
 
 ---
 
@@ -82,7 +82,9 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 | ![第 4 回合](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **第 4 回合**: 在此回合中，80% 的流量分配給體驗 C 和 D (各 40%)。20% 的流量會隨機分配，因此，這表示 A、B、C 和 D 每個都會獲得 5% 的流量。在此回合中，體驗 C 表現良好。<ul><li>演算法挑選體驗 C 來前進到下一個回合，因為其轉換率最高 (如每個活動的直垂標度上的 所示)。</li><li>演算法還會挑選體驗 D 來前進，因為相較於剩餘的體驗，它的 Bernstein 95% 信賴區間上界最高。</li></ul>體驗 C 和 D 會前進。 |
 | ![第 n 回合](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **回合 n**:隨著活動進行，表現優異的體驗會開始浮現，過程會持續到出現勝出體驗為止。當轉換率最高的體驗和任何其他體驗的信賴區間不重疊時，即會標示為獲勝者，且會有[徽章會出現在活動的頁面](/help/c-activities/automated-traffic-allocation/determine-winner.md)和「活動」清單中。<ul><li>演算法會挑選體驗 C 成為確定贏家</li></ul>此時，演算法會將 80% 的流量供應給體驗 C，而 20% 的流量持續地隨機供應給所有體驗 (A、B、C、D)。C 總共獲得 85% 的流量。在很罕見的情況下，萬一獲勝者的信賴區間又開始重疊，演算法會回復到上面回合 4 的行為。<br>**重要**: 如果您在過程中太早手動選擇獲勝者，很容易會選出錯誤的體驗。因此，最好等待演算法決定勝出體驗。 |
 
-如果活動只有兩個體驗，則兩者會獲得相等的流量，直到 Target 找到具有 90% 可信度的體驗為止。屆時，70% 的流量會分配給獲勝者，30% 分配給失敗者。在該體驗達到 95% 可信度之後，100% 的流量會分配給獲勝者，0% 分配給失敗者。
+>[!NOTE]
+>
+>If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. 此時，2/3的流量會分配給成功者，1/3的流量會分配給失敗者。 之後，當體驗達到95%的信賴度時，90%的流量會分配給成功者，10%會分配給失敗者。 我們總是會維持某些流量會傳送至「遺失」體驗，以避免長期誤報（亦即保留一些探索）。
 
 After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
@@ -186,7 +188,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 ### 我可以在自動分配活動中途變更目標量度嗎？ {#change-metric}
 
-我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
+我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
 
 此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
 
