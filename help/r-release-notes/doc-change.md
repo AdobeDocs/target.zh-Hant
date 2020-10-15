@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2716'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10月15日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已更新Target Standard/Premium 20.10.1版的發行前附註（2020年10月27日）。 |
 | 10月14日 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 已新增關於「自動分配」活動（僅包含兩個體驗）流量分配的附註。 |
 | 10月13日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增下列定於2020年11月10日舉行的即時網路研討會的相關資訊：<ul><li>透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試</li></ul> |
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增下列定於2020年11月10日舉行的即時網路研討會的相關資訊：<ul><li>透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試</li></ul> |
