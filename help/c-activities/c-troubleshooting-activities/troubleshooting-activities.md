@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -109,7 +109,7 @@ ht-degree: 81%
 
 ## mbox.js 會將 head 中所有後續的程式碼丟入 body 中。
 
-**驗證:** 檢視原始碼，查明在 mbox.js 檔案後面到結尾 </body> 標記之前是否有宣告。
+**驗證:** 檢視原始碼，查明在 mbox.js 檔案後面到結尾`</body>`標記之前是否有宣告。
 
 **選項:**
 
