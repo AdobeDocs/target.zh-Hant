@@ -5,7 +5,7 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -240,7 +240,7 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 此問題已解決。
 
-### at.js
+### at.js {#at-js-2}
 
 升級為 at.js 版本 1.0 之後，由於 at.js 與訪客 API 2.2.0 之間的互動，Microsoft Explorer 11 瀏覽器上不會觸發 mbox。此問題會影響 at.js 版本 0.9.6 和更新版本。(TNT-27600)
 
@@ -252,7 +252,7 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 已在 2018 年 11 月修正。
 
-### at.js
+### at.js {#at-js-3}
 
 使用 at.js 1.6.0 版時，Analytics for Target (A4T) 會重新導向，但不具活動資格。
 
@@ -294,7 +294,7 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
-### at.js
+### at.js {#at-js-4}
 
 用於擷取儲存 Cookie 時應該使用的上層網域的演算法在 at.js 版本 0.9.6 中已變更。因為此變更，無法將 Cookie 儲存至使用 IP 的位址。大部分時候，IP 位址是用於測試用途，但做為解決辦法，您可以使用 DNS 項目調整本機機器上的主機檔案，或是使用 targetGlobalSettings() at.js 函數來插入程式碼片段以支援 IP 位址。
 
@@ -335,7 +335,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 第二個問題已在 Target 17.6.1 版本 (2017 年 6 月) 中修正。
 
-### at.js
+### at.js {#at-js-5}
 
 自從 Target 17.4.1 版本 (2017 年 4 月 27日) 以來，使用可視化體驗撰寫器 (VEC) 中的「插入影像」動作會造成使用 at.js 資料庫時無法傳遞選件內容。
 
@@ -355,7 +355,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 已在 Target 17.4.3 hotfix 中修正。
 
-### at.js
+### at.js {#at-js-6}
 
 下列動作造成在使用可視化體驗撰寫器 (VEC) 和 at.js 時未傳遞選件：移動並重新排列。
 
@@ -379,7 +379,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 此問題在 Recommendations 版本 (2018 年 3 月 22 日) 之後已修正。在 Recommendations 版本之後，如果未在 mbox 要求中傳遞 entity.id，Target 會略過實體型動態規則。
 
-### at.js
+### at.js {#at-js-7}
 
 當使用者嘗試在更新 at.js 設定之後從「實作」詳細資料頁面下載 at.js 時，會下載 mbox.js 而非 at.js。(TGT-23069)
 
