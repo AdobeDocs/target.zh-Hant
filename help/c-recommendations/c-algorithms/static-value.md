@@ -4,32 +4,19 @@ description: 手動輸入一或多個靜態值，以使用Adobe Target Recommend
 title: 依Adobe Target Recommendations中包含規則中的靜態值篩選
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 75%
+source-wordcount: '160'
+ht-degree: 73%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Static Filter
 
-手動輸入一或多個靜態值，以使用Adobe Target Recommendations中的包含規則進行篩選。
+手動輸入一個或多個靜態值，以使用中的包含規則進行篩 [!DNL Adobe Target][!DNL Recommendations]選。
 
 例如，僅建議 MPAA 評等為 &quot;G&quot; 或 &quot;PG&quot; 的內容。
-
-可用運算子：
-
-* 等於
-* 不等於
-* 包含
-* 不包含
-* 開始於
-* 終止於
-* 值存在
-* 值不存在
-* 大於或等於
-* 小於或等於
 
 >[!NOTE]
 >
