@@ -4,9 +4,9 @@ description: 在Adobe Target Recommendations中動態篩選，將潛在建議項
 title: Adobe Target Recommendations中動態包含規則中依實體屬性比對篩選
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,17 @@ ht-degree: 0%
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
-例如，只建議符合目前項目品牌的項目，如下列範例所示：
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
-如果「品牌著陸頁面」上的mbox傳 `entity.brand=Nike`回，則僅會傳回Nike產品並顯示在該頁面上。 同樣地，在阿迪達斯的品牌登陸頁面上，只會傳回阿迪達斯產品。 使用這種類型的動態包含規則時，使用者只需指定一個建議規則，即可在所有品牌頁面傳回相關品牌結果，而不需指定系列或靜態篩選以符合每個品牌名稱。
+例如，建議只使用符合目前項目品牌的項目，如下列範例所示：
 
-## 實體屬性匹配示例
+如果「品牌著陸頁面」上的mbox傳 `entity.brand=Nike`回，則僅會傳回Nike產品並顯示在該頁面上。 同樣地，在阿迪達斯的品牌登陸頁面上，只會傳回阿迪達斯產品。 使用這種類型的動態包含規則時，使用者只需指定一個建議規則，即可在所有品牌頁面傳回相關品牌結果，而不需指定系列或靜態篩選來符合每個品牌名稱。
+
+請注意，您必須在這些 `entity.brand` 著陸頁面的mbox中傳送，才能運作。
+
+## 實體屬性符合範例
 
 [!UICONTROL 「實體屬性符合] 」可讓您僅建議符合的項目，例如：
 
@@ -29,6 +35,24 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 * 使用者最近購買的項目
 * 使用者最常檢視的項目
 * 儲存在訪客描述檔中自訂屬性的項目
+
+### 根據品牌推薦項目
+
+建立實體屬性規則後，這些規則會篩選出所有具有與頁面上所傳遞之實體值不相符屬性的建議。
+
+下列範例顯示與頁面上顯示的產品品牌相符的建議：
+
+當您造訪具有Nike產品的頁面時，頁面會將參數值設 `entity.brand` 為&quot;Nike&quot;。
+
+![Target呼叫範例](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+在頁面上的建議中，您只會看到Nike產品。
+
+![Nike建議](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+如果您接著檢視阿迪達斯產品頁面， `entity.brand` 值就會重設為「Adidas」，而您會看到在Adidas產品頁面上推薦的Adidas產品。
+
+![Adidas推薦](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### 升級銷售更昂貴的產品
 
