@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1563'
 ht-degree: 86%
 
 ---
@@ -384,7 +384,12 @@ ht-degree: 86%
       + [建立條件序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [讓建議以建議索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [上傳自訂條件](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [使用動態和靜態包含規則](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamic and static inclusion rules {#dynamic-static}
+         + [使用動態和靜態包含規則](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [實體屬性比對](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [設定檔屬性比對](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [參數比對](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [靜態濾鏡](/help/c-recommendations/c-algorithms/static-value.md)
       + [使用備份建議](c-recommendations/c-algorithms/backup-recs.md)
       + [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [搭配使用Adobe Analytics和Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
