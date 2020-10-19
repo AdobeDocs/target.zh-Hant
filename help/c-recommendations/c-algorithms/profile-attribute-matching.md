@@ -4,9 +4,9 @@ description: 透過比較項目（實體）與使用者設定檔中的值，在A
 title: 在Adobe Target Recommendations中動態包含規則中依描述檔屬性比對篩選
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 5%
 透過比較 [!DNL Adobe Target] 項目(實 [!DNL Recommendations] 體)與使用者設定檔中的值，動態篩選。
 
 當您  想要顯示符合訪客描述檔中儲存之值（例如大小或我的最愛品牌）的建議時，請使用描述檔屬性符合。
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 下列案例說明如何使用描述檔 [!UICONTROL 屬性符合]:
 
@@ -72,7 +76,7 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 ![大小mbox呼叫](/help/c-recommendations/c-algorithms/assets/size.png)
 
-建立建議准則時，按一下「新 [!UICONTROL 增篩選規則]」，然後選 [!UICONTROL 取「描述檔屬性符合」]。
+建立建議准則時，按一下「新 **[!UICONTROL 增篩選規則]**」，然後選 **[!UICONTROL 取「描述檔屬性符合」]**。
 
 ![描述檔屬性比對圖例](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 然後，您可以選取「size」「equals」（等於）儲存在「user.size」中的值／文字，以便設定檔屬性符合。
 
+![大小示例](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 建立描述檔屬性規則後，這些規則會篩選出所有具有不符合訪客儲存的描述檔屬性的建議。
 
 ### 根據大小推薦項目
 
-如需描述檔屬性比對如何影響建議的視覺化範例，請考慮銷售粉絲的網站。
+如需描述檔屬性比對如何影響建議的視覺化範例，請考慮銷售電風扇的網站。
 
 當訪客點按此網站上的粉絲影像時，每個頁面會根據影像中的粉絲大小 `entity.size` ，來設定參數值。
 
