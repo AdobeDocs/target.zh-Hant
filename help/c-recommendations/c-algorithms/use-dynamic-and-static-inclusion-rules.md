@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 45%
+source-wordcount: '1062'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 45%
 
 Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
 
-對於條件和促銷活動，建立和使用包含規則的過程很相似，就如同使用案例和範例很相似一樣。本節將涵蓋標準和促銷活動以及包含規則的使用。
+>[!NOTE]
+>
+>對於條件和促銷活動，建立和使用包含規則的過程很相似，就如同使用案例和範例很相似一樣。本節將涵蓋標準和促銷活動以及包含規則的使用。
 
 ## 將篩選規則新增至條件 {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -36,7 +38,7 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 ## 篩選類型 {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-以下章節列出標準和促銷、動態篩選和依值篩選的篩選選項類型：
+以下各節列出標準和促銷活動 [!UICONTROL 的「動態篩選] 」 [!UICONTROL 和「依值篩選] 」的篩選選項類型：
 
 ### 動態篩選
 
@@ -44,9 +46,9 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 * 動態包含規則會比對使用者描述檔參數或mbox呼叫中的屬性，以提供建議。
 
-   例如，您可以建立「最受歡迎的准則」建議，然後針對傳回的建議集，針對使用者存取顯示建議之頁面時所傳遞的屬性即時篩選任何建議。
+   例如，您可以建立「最受歡迎的准則」建議，然後針對傳回的建議集建立建議，然後針對使用者存取顯示建議的頁面時傳遞的屬性，即時篩選任何建議。
 
-* 使用靜態規則來限制建議中包含的項目（而非系列）。
+* 使用靜態規則來限制建議中包含的項目（而非使用系列）。
 
 * 您可以視需要建立任意數量的動態包含規則。 包含規則是以 AND 運算子來結合。必須符合所有規則，才能在建議中納入某個項目。
 
@@ -54,9 +56,9 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 | 動態篩選選項 | 詳細資料 |
 | --- | --- |
-| [實體屬性比對](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | 透過比較潛在建議項目群組與使用者已互動的特定項目，動態篩選。<br>當您想要顯示最有可能吸引訪客的建議（例如訪客的最愛品牌）時，請使用「實體屬性符合」。 |
+| [實體屬性比對](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | 透過比較潛在建議項目群組與使用者已互動的特定項目，動態篩選。<br>當您  想要顯示最有可能吸引訪客的建議（例如訪客的最愛品牌）時，請使用「實體屬性符合」。 |
 | [設定檔屬性比對](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | 透過比較項目（實體）與使用者描述檔中的值，動態篩選。<br>當您  想要顯示符合訪客描述檔中儲存之值（例如大小或我的最愛品牌）的建議時，請使用描述檔屬性符合。 |
-| [參數比對](/help/c-recommendations/c-algorithms/parameter-matching.md) | 透過比較項目（實體）與請求中的值（API或mbox），動態篩選。<br>使用參數符合可建議符合頁面參數或訪客參數的內容，例如裝置尺寸或地理位置。 |
+| [參數比對](/help/c-recommendations/c-algorithms/parameter-matching.md) | 透過比較項目（實體）與請求中的值（API或mbox），動態篩選。<br>使用 [!UICONTROL 參數符合] ，建議符合頁面參數或訪客參數的內容，例如裝置尺寸或地理位置。 |
 
 ### 按值篩選
 
@@ -68,37 +70,15 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 ## 動態准則和促銷範例
 
-動態條件搭配促銷活動比靜態條件搭配促銷活動更強大，結果和參與度也更佳。
+動態標準和促銷比靜態標準和促銷強大得多，可產生更佳的結果和參與度。
 
-下列範例將提供您關於如何在行銷活動中使用動態促銷的一般概念：
+以下範例提供如何在行銷活動中使用動態促銷的一般概念：
 
-### 等於
-
-在動態促銷中使用「等於」運算子，當訪客在您的網站上檢視項目（例如產品、文章或影片）時，您可從以下網站促銷其他項目：
-
-* 相同品牌
-* 相同種類
-* 相同類別 AND 來自於自主品牌
-* 相同商店
-
-### 不等於
-
-在動態促銷中使用「不等於」運算子，當訪客在您的網站上檢視項目（例如產品、文章或影片）時，您可以從以下位置促銷其他項目：
-
-* 不同影集
-* 不同內容類型
-* 不同產品系列
-* 不同樣式 ID
-
-### 介於
-
-在動態促銷中使用「介於」運算子，當訪客在您的網站上檢視項目（例如產品、文章或影片）時，您可以促銷其他項目：
-
-* 較貴
-* 較便宜
-* 成本加或減 30%
-* 同一季的最後幾集
-* 同一套書的前幾本
+| 運算元 | 範例 |
+| --- | --- |
+| 等於 | 在動態促銷中使用「等於」運算子，當訪客在您的網站上檢視項目（例如產品、文章或影片）時，您可從以下網站促銷其他項目：<ul><li>相同品牌</li><li>相同種類</li><li>相同類別 AND 來自於自主品牌</li><li>相同商店</li></ul> |
+| 不等於 | 在動態促銷中使用「不等於」運算子，當訪客在您的網站上檢視項目（例如產品、文章或影片）時，您可以從以下位置促銷其他項目：<ul><li>不同影集</li><li>不同內容類型</li><li>不同產品系列</li><li>不同樣式 ID</li></ul> |
+| 介於 | 在動態促銷中使用「介於」運算子，當訪客在您的網站上檢視項目（例如產品、文章或影片）時，您可以促銷其他項目：<ul><li>較貴</li><li>較便宜</li><li>成本加或減 30%</li><li>同一季的最後幾集</li><li>同一套書的前幾本</li></ul> |
 
 ## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -112,9 +92,10 @@ You can choose several options to handle empty values when filtering by [!UICONT
 
 | Action | 可用於 | 詳細資料 |
 |--- |--- |--- |
-| 忽略此篩選規則 | 設定檔屬性比對<br>參數比對 | 這是設定檔屬性比對和參數比對的預設動作。<br>此選項會指定忽略規則。例如，假設有三個篩選規則，而第三個規則未傳遞任何值，為了避免不傳回任何結果，您可以直接用空白值忽略第三個規則。 |
-| 不促銷任何項目 | 實體屬性匹<br>配配置檔案屬<br>性匹配參數匹配 | 這是實體屬性比對的預設動作。<br>[!DNL Target]在新增此選項的值之前，此動作代表 處理空白值的方式，也就是不顯示此條件的任何結果。 |
-| 使用靜態值 | 實體屬性比對<br>設定檔屬性比對<br>參數比對 | 如果值為空白，您可以選擇使用靜態值。 |
+| [!UICONTROL 忽略此篩選規則] | [!UICONTROL 描述檔屬性比對][!UICONTROL 與參數比對] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>此選項會指定忽略規則。例如，假設有三個篩選規則，而第三個規則未傳遞任何值，為了避免不傳回任何結果，您可以直接用空白值忽略第三個規則。 |
+| [!UICONTROL 不要顯示此准則的任何結果]<br>（僅限准則） | [!UICONTROL 實體屬性匹配]、描述 [!UICONTROL 檔屬性匹配]、參數 [!UICONTROL 匹配] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]在新增此選項的值之前，此動作代表 處理空白值的方式，也就是不顯示此條件的任何結果。 |
+| [!UICONTROL 不促銷任何項目<br>（僅限促銷）] | [!UICONTROL 實體屬性匹配]、描述 [!UICONTROL 檔屬性匹配]、參數 [!UICONTROL 匹配] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]在新增此選項的值之前，此動作代表 處理空白值的方式，也就是不顯示此條件的任何結果。 |
+| [!UICONTROL 使用靜態值] | [!UICONTROL 實體屬性匹配]、描述 [!UICONTROL 檔屬性匹配]、參數 [!UICONTROL 匹配] | 如果值為空白，您可以選擇使用靜態值。 |
 
 ## 注意事項 {#section_A889FAF794B7458CA074DEE06DD0E345}
 
