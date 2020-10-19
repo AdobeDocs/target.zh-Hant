@@ -4,10 +4,10 @@ description: 透過比較項目（實體）與請求（API或mbox）中的值，
 title: Adobe Target Recommendations中動態包含規則中的依參數符合篩選
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 27%
+source-wordcount: '318'
+ht-degree: 10%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 27%
 例如，只建議符合「產業」頁面參數或其他參數的內容，例如裝置尺寸或地理位置，如下列範例所示。
 
 * 螢幕寬度和高度的Mbox參數可用來定位行動訪客，並僅建議行動裝置和附件。
+* 建立建議規則，只傳回符合或超過訪客使用頁面檢視之行動裝置螢幕高度的暢銷行動電話。
 * 區域地理位置參數可用來在冬季傳回工具建議。 在下雪的地區，遊客可以建議使用吹雪機和其他降雪工具，但在沒有下雪的地區，不建議使用。
 
 >[!NOTE]
@@ -30,14 +31,16 @@ ht-degree: 27%
 >* 從條件中移除「參數比對」篩選。
 
 
-可用運算子：
+## 參數匹配示例
 
-* 等於
-* 不等於
-* 包含
-* 不包含
-* 開始於
-* 終止於
-* 大於或等於
-* 小於或等於
-* 介於
+[!UICONTROL 「參數符合] 」可讓您建議符合頁面參數或訪客參數的內容，例如裝置維度或地理位置，如下列範例：
+
+[!DNL Recommendations] 可比對呼叫中傳送的參數 [!DNL Target] 值。 在此例中， [!DNL Target] 根據呼叫中傳送的螢幕高度和寬度參數，偵測訪客使用的是行動裝置，並只會建議 [!DNL Target] 行動裝置的項目。
+
+請考慮下列Target呼叫範例：
+
+![目標呼叫](/help/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+
+訪客在檢視的頁面上，會看到行動裝置產品。
+
+![行動裝置產品](/help/c-recommendations/c-algorithms/assets/phones.png)
