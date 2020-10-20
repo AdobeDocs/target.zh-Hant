@@ -4,10 +4,10 @@ description: 手動輸入一或多個靜態值，以使用Adobe Target Recommend
 title: 依Adobe Target Recommendations中包含規則中的靜態值篩選
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 73%
+source-wordcount: '212'
+ht-degree: 49%
 
 ---
 
@@ -16,10 +16,16 @@ ht-degree: 73%
 
 手動輸入一個或多個靜態值，以使用中的包含規則進行篩 [!DNL Adobe Target][!DNL Recommendations]選。
 
-例如，僅建議 MPAA 評等為 &quot;G&quot; 或 &quot;PG&quot; 的內容。
+例如，僅建議內容的「動態圖片關聯」(MPA)評分為「G」或「PG」。
 
 >[!NOTE]
 >
 >如果您熟悉 Target 17.6.1 版 (2017 年 6 月) 之前包含規則的設定方式，您將注意到一些選項和運算子已變更。只會顯示適用於所選取選項的那些運算子，而一些運算子已重新命名 (「符合」現在是「等於」)，以便更為一致且直覺。在此版本之前建立的所有現有排除規則皆已自動移轉至新結構。您不需要重新處理結構。
+
+## 建議評等為G或PG的內容
+
+若要建立含靜態值的包含規則，以建議MPA評分為「G」或「PG」的內容（排除「R」和「NC17」內容），您可以建立兩個篩選規則：「影片評等為g-adied」和「影片評等為pg-adied」，如下所示。
+
+![影片評分範例](/help/c-recommendations/c-algorithms/assets/movies.png)
 
 您可以視需要建立許多包含規則。包含規則是以 AND 運算子來結合。必須符合所有規則，才能在建議中納入某個項目。
