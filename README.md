@@ -1,11 +1,16 @@
 ---
-source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
-translation-type: ht
+source-git-commit: 1911fc7f9fb82d57a995184e904fb993646ad2c1
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 73%
 
 ---
 # 投稿文章
 
-Matt 正在測試拉取要求
+| EXL-PR | EXL | 預覽 | 啟動 | 已發佈 | 說明 |
+|--- |--- |--- |--- |--- |--- |
+| [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/lastBuild/) | [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/lastBuild) | [預覽URL](https://experienceleague.corp.adobe.com/docs/target/using/target-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [即時URL](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 歡迎本社群以及不屬於文件團隊的 Adobe 員工一同投稿。
 
@@ -15,13 +20,13 @@ Matt 正在測試拉取要求
 
 ## 有關您對 Adobe 內容的參與
 
-請參閱 [Adobe 文件投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe Docs投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 視您的身分和您要參與的變更種類，投稿方式會有所不同:
 
 ### 微幅修改
 
-如果您出於善意要提出微幅更新，請前往文章，然後按一下文章中的&#x200B;**「編輯」**&#x200B;連結，以前往文章的 GitHub 來源。接著，即可使用 GitHub UI 來提出更新。請參閱一般的 [Adobe 文件投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)，以瞭解詳情。
+如果您出於善意要提出微幅更新，請前往文章，然後按一下文章中的&#x200B;**「編輯」**&#x200B;連結，以前往文章的 GitHub 來源。接著，即可使用 GitHub UI 來提出更新。See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 您在此存放庫中對文件和程式碼範例所提交的微幅更正或說明，皆受 Adobe 使用條款保障。
 
@@ -43,14 +48,14 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群投稿人以使用 GitHub UI 來進行基本編輯，或取用存放庫來進行重大投稿。
 
-請參閱 [Adobe 文件投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 以瞭解詳情。
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## 如何利用 Markdown 來將主題格式化
 
 此存放庫中的所有文章皆使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，請參閱:
 
-* [Markdown 基本概念 (英文)](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可列印的 Markdown 速查表 (英文)](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown基本概念](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [可列印的下拉式標籤表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 標籤
 
