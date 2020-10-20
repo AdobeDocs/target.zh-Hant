@@ -4,9 +4,9 @@ description: 在Adobe Target Recommendations中動態篩選，將潛在建議項
 title: Adobe Target Recommendations中動態包含規則中依實體屬性比對篩選
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 例如，建議只使用符合目前項目品牌的項目，如下列範例所示：
 
-如果「品牌著陸頁面」上的mbox傳 `entity.brand=Nike`回，則僅會傳回Nike產品並顯示在該頁面上。 同樣地，在阿迪達斯的品牌登陸頁面上，只會傳回阿迪達斯產品。 使用這種類型的動態包含規則時，使用者只需指定一個建議規則，即可在所有品牌頁面傳回相關品牌結果，而不需指定系列或靜態篩選來符合每個品牌名稱。
+如果「品牌著陸頁面」上的mbox傳 `entity.brand=brandA`回，則只會傳回並顯示該頁面上的品牌A產品。 同樣地，在品牌B的品牌著陸頁面上，只會傳回品牌B產品。 使用這種類型的動態包含規則時，使用者只需指定一個建議規則，即可在所有品牌頁面傳回相關品牌結果，而不需指定系列或靜態篩選來符合每個品牌名稱。
 
 請注意，您必須在這些 `entity.brand` 著陸頁面的mbox中傳送，才能運作。
 
@@ -42,21 +42,23 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 下列範例顯示與頁面上顯示的產品品牌相符的建議：
 
-當您造訪具有Nike產品的頁面時，頁面會將參數值設 `entity.brand` 為&quot;Nike&quot;。
+當您造訪具有品牌A產品的頁面時，該頁面會將參數值設 `entity.brand` 為「品牌A」。
 
 ![Target呼叫範例](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-在頁面上的建議中，您只會看到Nike產品。
+在頁面上的建議中，您只會看到品牌A產品。
 
-![Nike建議](/help/c-recommendations/c-algorithms/assets/nike.png)
+![品牌A建議](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-如果您接著檢視阿迪達斯產品頁面， `entity.brand` 值就會重設為「Adidas」，而您會看到在Adidas產品頁面上推薦的Adidas產品。
+如果您接著檢視品牌B產品頁面， `entity.brand` 值將重設為「品牌B」，您會看到品牌B產品頁面上建議的品牌B產品。
 
-![Adidas推薦](/help/c-recommendations/c-algorithms/assets/adidas.png)
+![品牌B建議](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### 升級銷售更昂貴的產品
 
-假設您是服裝零售商，並想鼓勵使用者考慮更高的價格，因此獲利更多的商品。 您可以使用「等於」和「介於」運算子來促銷來自相同類別和相同品牌的更昂貴項目。 例如，鞋類零售商可促銷更貴的跑鞋，以向上銷售看跑鞋的訪客，如下列程式碼範例：
+假設您是服裝零售商，並想鼓勵使用者考慮更高的價格，因此獲利更多的商品。 您可以使用「等於」和「介於」運算子來促銷來自相同類別和相同品牌的更昂貴項目。 例如，鞋類零售商可促銷更貴的跑鞋，以向上銷售看跑鞋的訪客，如下列範例：
+
+![追加銷售](/help/c-recommendations/c-algorithms/assets/upsell.png)
 
 ```
 Entity Attribute Matching
@@ -71,7 +73,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 ### 推廣私有標籤產品
 
-您可以混合動態和靜態篩選來促銷私用標籤產品。 例如，辦公室供應公司可以推廣公司房屋品牌的碳粉盒，以促使查看碳粉的訪客獲利更多，並推廣公司房屋品牌的鋼筆，以促使查看鋼筆的訪客獲利更多，如下列程式碼範例：
+您可以混合動態和靜態篩選來促銷私用標籤產品。 例如，辦公室供應公司可以推廣公司房屋品牌的碳粉盒，以促使查看碳粉的訪客獲利更多，並推廣公司房屋品牌的鋼筆，以促使查看鋼筆的訪客獲利更多，如以下範例：
+
+![House Brand](/help/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching
