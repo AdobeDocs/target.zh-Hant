@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3744'
+source-wordcount: '3731'
 ht-degree: 83%
 
 ---
@@ -125,8 +125,6 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 **演算法會持續針對單一目標量度而最佳化。**
 
 * 此量度可以是以轉換為基礎，或以收入為基礎 (具體而言，即「每次造訪帶來的收入」)。
-
-**演算法不支援使用 [!DNL Analytics] 作為資料來源或報表端點。**
 
 **Target 會自動收集關於訪客的資訊以建置個人化模型。**
 
