@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 10%
+source-wordcount: '869'
+ht-degree: 9%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 10%
 * 已進行更新，以協助Target UI符合 [Web內容協助工具方針](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 A級和AA成功准則(WCAG 2.0 AA)。 (TGT-34384 和 TGT-24679)
 * 對內容安全性政策(CSP)做了改進。 (TGT-37035)
 * 引入一種方式，指定用戶端程式碼為使用CNAME的客戶的參數。 (TNT-38571)
-
+* [!DNL Adobe Experience Cloud] 文檔正在移至 [!DNL Experience League]。 在10月期間，所有發行說明、文章、影片和教學課程都會從目前位置移 `docs.adobe.com` 至 [!DNL Experience League]。 此舉可確保從單一位置提供所有學習、自助、啟用和社群內容。 發生此變更時，您不需執行任何動作，因為所有連結都會重新導向至 [!DNL Experience League]。 當切換開始時，我們會更新版本注意事項。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
