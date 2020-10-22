@@ -6,9 +6,9 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -145,5 +145,5 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 ## 已知限制
 
 * 當您有CNAME和at.js 1.x時，QA模式將不會自黏，因為它是以第三方Cookie為基礎。 因應措施是將預覽參數新增至您導覽至的每個URL。 當您有CNAME和at.js 2.x時，QA模式會很嚴格。
-* 目前 `overrideMboxEdgeServer` 設定無法與CNAME搭配運作。 此設定應設為 `false` ，以避免請求失敗。
+* 目前 `overrideMboxEdgeServer` 當使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，設定無法與CNAME一起正常運作。如果您使用舊版at.js，則應將此設定為 `false` 以避免請求失敗。 或者，您應考 [慮將at.js更新為較新](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 、支援的版本。
 * 使用CNAME時，Target呼叫的Cookie標題大小可能會增加。 我們建議將Cookie大小維持在8KB以下。
