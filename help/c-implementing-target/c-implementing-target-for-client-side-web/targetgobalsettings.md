@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 39%
+source-wordcount: '1698'
+ht-degree: 38%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 39%
 * **預設值**:true(true開頭為at.js 1.6.2版
 * **說明**:指出我們應使用網 `<clientCode>.tt.omtrdc.net` 域或網 `mboxedge<clusterNumber>.tt.omtrdc.net` 域。
 
-   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 目前無法使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 當使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，目前無法使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) 。如果這是您的問題，請考 [慮將at.js更新為較新](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 、支援的版本。
 
 ### overrideMboxEdgeServerTimeout
 
@@ -473,7 +473,7 @@ Consider the following when using `serverState`:
 
 * 套用選 `serverState `件時，at.js會考慮並設定 `pageLoadEnabled` , `viewsEnabled` 例如，如果設定為false，則不會套用「頁面載入 `pageLoadEnabled` 選件」。
 
-   若要開啟這些設定，請啟用「管理 **[!UICONTROL >實作]>編輯[!UICONTROL >啟]**&#x200B;用載入頁面」中的切換。
+   若要開啟這些設定，請啟用「管理 **[!UICONTROL >實作] >編輯 [!UICONTROL >啟]**&#x200B;用載入頁面」中的切換。
 
    ![頁面載入啟用的設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
