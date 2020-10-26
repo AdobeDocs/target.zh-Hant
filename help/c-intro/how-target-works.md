@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 每個邊緣叢集都具備回應使用者內容要求及追蹤該要求之分析資料所需的所有資訊。 使用者要求會路由至最接近的邊緣叢集。
 
-如需詳細資訊，請參閱 [Adobe Target 安全性概覽](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
+如需詳細資訊，請參閱 [Adobe Target 安全性概覽](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data 
 客戶站點活動資料由七個邊緣群集中最靠近的群集收集，並定向到客戶的預定中央群集目標(三個位置之一：Oregon、Dublin、Singapore)，以進行處理。 訪客資料會儲存在離網站訪客最近的Edge Cluster（位置包括中央叢集位置，以及維吉尼亞、阿姆斯特丹、雪梨、東京和香港）。
 
 請求由離訪客最近的邊緣叢集處理，而非回應單一位置的所有定位請求，因此可減輕網路／網際網路旅行時間的影響。
+
+![目標伺服器映射類型](/help/c-intro/assets/target-servers.png)
 
 Target Central Clusters位於以下位置：
 
