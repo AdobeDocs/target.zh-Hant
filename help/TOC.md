@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 86%
+source-wordcount: '1548'
+ht-degree: 87%
 
 ---
 
@@ -162,9 +162,6 @@ ht-degree: 86%
       + [使用位置服務](/help/c-target-mobile-app/use-location-service.md)
    + 伺服器端: 實作 Target {#server-side}
       + [伺服器端: 實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [發行說明——目標伺服器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [發行說明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [發行說明——目標Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [從 Target 舊版 API 轉變為 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + [混合實作](/help/c-implementing-target/hybrid-implementation.md)
    + 電子郵件: 實作 Target {#implement-email}
