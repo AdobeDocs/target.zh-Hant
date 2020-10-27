@@ -5,10 +5,10 @@ title: Analytics for Target 實作
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 63%
+source-wordcount: '904'
+ht-degree: 50%
 
 ---
 
@@ -43,21 +43,21 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 如需移轉，請參 [閱「Analytics實施指南」中的「移轉至JavaScript適](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 用的AppMeasurement」 **。
 
-## 步驟 5: 下載並更新 at.js 或 mbox.js
+## 步驟5:下載並更新at.js
 
-您必須使用生產帳戶來實作或移轉至必要的 at.js 或 mbox.js 版本。不需要修改程式碼。
+您必須使用生產帳戶實作或移轉至所需版本的at.js。 不需要修改程式碼。
 
 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-## 步驟6: 託管 at.js 或 mbox. js
+## 步驟6:主機at.js
 
-如果先前已部署 at.js 或 mbox. js，您可以用更新的版本取代現有的檔案。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
+如果您先前已部署at.js，則可以用更新版本取代現有檔案。 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
 否則，此檔案可以與訪客 ID 服務和 AppMeasurement for JavaScript 檔案一起裝載。這些檔案必須裝載於您網站所有頁面皆能存取的 Web 伺服器上。下一個步驟需要用到這些檔案的路徑。
 
-## 步驟 7: 在所有網頁上參照 at.js 或 mbox.js {#step7}
+## Step 7: Reference at.js on all site pages {#step7}
 
-將 at.js 或 mbox.js 加到 VisitorAPI.js 之下，請在每個頁面的標記中新增下列這行程式碼:
+在每個頁面的標籤中新增下列程式碼行，將at.js納入VisitorAPI.js下方：
 
 at.js:
 
@@ -66,14 +66,7 @@ at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-mbox.js:
-
-```
-<script language="JavaScript" type="text/javascript"
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
-```
-
-VisitorAPI.js 必須在 at.js 或 mbox.js 之前載入。如果您更新現有的 at.js 或 mbox.js 檔案，務必驗證載入順序。
+VisitorAPI.js必須先於at.js載入。如果您要更新現有的at.js或mbox.js檔案，請務必確認載入順序。
 
 The way the out-of-the-box settings are configured for [!DNL Target] and [!DNL Analytics] integration from an implementation perspective is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically for you.
 
@@ -98,7 +91,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 請注意，對於 [!UICONTROL Auto-Allocate] 和  Auto-Target活動，您也需要轉發sessionId。 如需詳細資訊，請 [參閱](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) Adobe Target傳送API指南中的Adobe Analytics for Target(A4T) **
 
 如果不需要全域設定，且偏好使用更隨需提供的方法，則您可將 **analyticsLogging: &quot;client_side&quot;** 傳入，藉此使用 at.js 函數 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 來達成此目標。The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
