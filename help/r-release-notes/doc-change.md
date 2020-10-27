@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 28%
+source-wordcount: '2872'
+ht-degree: 29%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 28%
 # 文件變更{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.10.1 (2020 年 10 月 28 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 10月28日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 已新增新 *[Adobe Target SDK入口網站的連結](https://adobetarget-sdks.gitbook.io/docs/)* 。 |
+|  | [建立使用Analytics做為報告來源的活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已新增資訊，指 `analyticsLogging = client_side`出如果您使用 `sessionId`[!DNL Analytics] Analytics作為報告來源(A4T)並搭配Auto-Target活動時，您必須將值傳遞至。 |
+|  | [Analytics for Target 實作](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 已新增資訊，指 [!UICONTROL 出若是使用「自動配置] 」和「自動 [!UICONTROL 定位] 」活動， `analyticsLogging = client_side`您也需要轉送sessionId。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 20.10.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 20.9.1 (2020 年 9 月 30 日)
 
