@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 26%
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## Target Standard/Premium 20.10.1 (2020 年 10 月 28 日)
+## Target Standard/Premium 20.10.1 (2020 年 10 月 27 日)
 
 此版本包含下列新功能：
 
