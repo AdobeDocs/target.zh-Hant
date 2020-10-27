@@ -5,9 +5,9 @@ title: Target公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 2%
 | [Adobe Target開發人員](http://developers.adobetarget.com/) | 有關Adobe Target開發人員網站的資訊可協助您在 [!DNL Target] 用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實作。 您也可以將資料 [!DNL Target] 匯出至協力廠商解決方案。 |
 | [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/) | Recommendations API的相 [!UICONTROL 關資訊] ，可讓您以程式設計方式與Recommendations伺服器 [!DNL Target] 互動。 These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [伺服器端傳送 API](https://developers.adobetarget.com/api/delivery-api/) | Adobe Target傳送API的相關資源資訊。 |
-| [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | 有關Node.js SDK的資訊，這是一套複雜的軟體開發套件，可免除管理Cookie、工作階段以及與解決方案(例如、 [!DNL Adobe Experience Cloud] 、 [!DNL Target]和)整合的複雜工作 [!DNL Adobe Analytics][!DNL Experience Cloud Visitor ID Service][!DNL Audience Manager]。 |
-| [目標Java SDK](https://github.com/adobe/target-java-sdk) | 有關Java SDK的資訊，這是一套複雜的軟體開發套件，可免除管理Cookie、工作階段以及與解決方案(例如、 [!DNL Adobe Experience Cloud] 、和)整合的復 [!DNL Target]雜工作 [!DNL Adobe Analytics][!DNL Experience Cloud Visitor ID Service][!DNL Adobe Audience Manager]。 |
+| [目標伺服器端SDK](https://adobetarget-sdks.gitbook.io/docs/) | 說明如何使用SDK [!DNL Target] 部署伺服器端。 |
 | [目標Adobe.IO檔案](http://developers.adobetarget.com/api/#introduction) | 有關使用Adobe.IO整合來管理活動、觀眾、優惠、屬性、報表、mbox、環境和描述檔的Adobe Target管理與描述檔REST API的資訊。 |
 | [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | 在行動應用程式 [!DNL Target] 上實作的相關資訊。 |
 
