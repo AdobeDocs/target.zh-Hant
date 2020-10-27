@@ -6,10 +6,10 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 11%
+source-wordcount: '371'
+ht-degree: 21%
 
 ---
 
@@ -43,29 +43,11 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/deliver
 * 在伺服器上的作業階段中快取訪客的體驗，以避免多個API呼叫，進而獲得更佳的效能。
 * 與產品 [!DNL Adobe Experience Cloud] (例如 [!DNL Adobe Analytics]、 [!DNL Adobe Audience Manager] (AAM)和伺服器端 [!DNL Experience Cloud ID Service] )完美整合。
 
-## Node.js SDK
+## 伺服器端SDK
 
-連結： [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
+連結： [Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/)
 
-Node.js SDK是一套複雜的軟體開發套件，可免除管理Cookie、工作階段以及與產品（例如、和）整 [!DNL Experience Cloud] 合時的 [!DNL Analytics]繁 [!DNL Experience Cloud Visitor ID Service]雜工作 [!DNL Audience Manager]。 在幕後，Node.js SDK使用 `/rest/v1/delivery` API。 以下是Node.js SDK支援的一些顯著功能：
-
-* **支援預回遷和通知，讓您透過快取最佳化效能：** 您可以使用Node.js SDK在Node.js伺服器上擷取體驗並在本機快取體驗，以盡量減少伺服器對應用程式的呼叫 [!DNL Target] 並最佳化其效能。
-* **能夠檢索VEC建立的活動：** 在伺服器端擷取VEC建立的活動。 包含VEC建立之活動的回應包含選擇器，可用來僅預先隱藏頁面中需要個人化的部分。 這可協助您最佳化頁面的「第一個內容上色」量度 [，這是企業在](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Google PageRank系統中獲得高分的重要KPI [](https://en.wikipedia.org/wiki/PageRank) 。
-
-## 目標Java SDK
-
-連結： [目標Java SDK](https://github.com/adobe/target-java-sdk)
-
-Java SDK是一套複雜的軟體開發套件，可免除管理Cookie、工作階段以及與解決方案（例如、和）整 [!DNL Adobe Experience Cloud] 合的複雜 [!DNL Adobe Analytics]工作 [!DNL Experience Cloud Visitor ID Service]流程 [!DNL Adobe Audience Manager]。 在幕後，Java SDK使用 `/rest/v1/delivery` API。 以下是Java SDK支援的一些重要功能：
-
-* **支援預回遷和通知，讓您透過快取最佳化效能**:您可以使用JavaSDK在Java伺服器上擷取體驗並在本機快取體驗，以便將伺服器呼叫次數減至最少並最佳化您 [!DNL Target] 的應用程式效能。
-* **可擷取VEC建立的活動**:在伺服器端擷取VEC建立的活動。 包含VEC建立之活動的回應包含選擇器，可用來僅預先隱藏頁面中需要個人化的部分。 這可協助您最佳化頁面的「第一個內容上色 [」量度，這是企業在](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)[](https://en.wikipedia.org/wiki/PageRank) Google PageRank系統中獲得高分的重要KPI。
-
-## Adobe Target開發人員
-
-連結： [Adobe Target開發人員](http://developers.adobetarget.com/)
-
-Adobe Target開發人員網站可協助您在 [!DNL Target] 用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實作。 您也可以將資料 [!DNL Target] 匯出至協力廠商解決方案。
+伺服 [!DNL Adobe Target] 器端SDK檔案入口網站可協助您以自選 [!DNL Target] 語言在伺服器上實作。
 
 ## Target Recommendations API
 
