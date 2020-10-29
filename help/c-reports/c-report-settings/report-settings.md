@@ -5,10 +5,10 @@ title: 報表設定
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 69%
+source-wordcount: '1891'
+ht-degree: 68%
 
 ---
 
@@ -119,7 +119,7 @@ Information to help you set the elements you want to appear in your report in [!
 報表具有下列日期限制:
 
 * 報表的開始日期必須在最近兩年內。
-* 每日報表限制為 100 天。
+* 優惠群組報表自今天起不得超過99天。
 * 每小時報表限制為 15 天。
 
 ## 設定 {#section_D99CE462107D45CABE0960F820E1E972}
