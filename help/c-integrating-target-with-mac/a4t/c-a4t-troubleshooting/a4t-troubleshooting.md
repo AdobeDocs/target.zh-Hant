@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,9 +73,13 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics
 
 ## 我需要的報表套裝未出現。 {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-在 Target Standard/Premium 中出現的報表套裝清單，就是以 Analytics 當作 Target 的報表來源時已設定的報表套裝清單。這表示可能不會看到您擁有的每一個報表套裝。如果沒看到您要尋找的報表套裝，請聯絡客戶服務來啟用它。
+在 Target Standard/Premium 中出現的報表套裝清單，就是以 Analytics 當作 Target 的報表來源時已設定的報表套裝清單。這表示可能不會看到您擁有的每一個報表套裝。
 
-## 我在報表中看到的資料量不符預期。 {#section_75002584FA63456D8D9086172925DD8D}
+此外，如果您使用多個報表來源，報表套裝也必須出現在Target中預設的報表來源集中。 否則，報表套裝將不會出現。
+
+如果您仍未看到所尋找的報表套裝，請連絡客戶服務以啟用它。
+
+## 我在報表中看到的資料量不符預期。{#section_75002584FA63456D8D9086172925DD8D}
 
 檢閱您的實作，尤其是訪客有資格使用體驗的頁面，並確定 [!DNL Target] 和 [!DNL Analytics] 呼叫中的補充資料 ID 相符。
 
