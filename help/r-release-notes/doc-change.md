@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2913'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3 年 11 月 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 更新下列疑難排解主題：&quot;我需要的報表套裝不會顯示。&quot; |
 | 10月28日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 已新增注意，首次訪客只能在用戶端初始化，不能在伺服器端初始化。 |
 | 10月27日 | [伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 已新增新 *[Adobe Target SDK入口網站的連結](https://adobetarget-sdks.gitbook.io/docs/)* 。 |
 |  | [建立使用Analytics做為報告來源的活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 已新增資訊，指 `analyticsLogging = client_side`出如果您使用 `sessionId`[!DNL Analytics] Analytics作為報告來源(A4T)並搭配Auto-Target活動時，您必須將值傳遞至。 |
