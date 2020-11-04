@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 97%
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 與[!UICONTROL 自動鎖定目標]類似，[!UICONTROL 自動個人化]使用隨機森林演算法 (一種主流的資料科學整體方法) 作為主要的個人化演算法，用來決定要向訪客顯示的最佳體驗。[!UICONTROL 自動個人化在測試的探索階段很重要。]鎖定多種訪客時，允許機器學習以決定最有效的內容也相當實用。演算法會隨著時間學習預測最有效的內容，並顯示最可能達成您的目標的內容。
 
-To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
+To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 行銷人員在他們的網站上實作一個檔案，這可讓他們指向和點擊任何內容，然後使用 VEC ([!UICONTROL 可視化體驗撰寫器]) 為該區域以可視方式建立並選取其他內容選項。接著，演算法會根據系統所擁有有關訪客的行為資料，自動判斷要為每一個人提供何種內容，藉此提供個人化的體驗。因為[!UICONTROL 自動個人化]可以適應訪客行為中的變更，它可以在不設定結束日期的情況下執行，以持續提供提升度和個人化。這有時稱為「一律開啟」模式。在瞭解從最佳化發現的提升度之前，行銷人員不需要執行測試、分析結果，然後傳送獲勝者 (這是實施標準 A/B 活動成果的標準作業順序)。
 
@@ -33,14 +33,14 @@ To find more information about how [!UICONTROL Automated Personalization] differ
 | 術語 | 定義 |
 |---|---|
 | 多臂吃角子老虎機 | 最佳化的多臂吃角子老虎機方法可平衡探索學習和該學習的利用。 |
-| 隨機森林 | 隨機森林是先進的機器學習方法。就資料科學而言，這是利用根據訪客和造訪屬性來建構大量決策樹而實現的整體分類或迴歸方法。在 Target 內，隨機森林可用來針對每個特定訪客，決定何種體驗預期轉換的可能性最高 (或每次造訪帶來的收入最高)。如需關於 Target 中隨機森林的資訊，請參閱[隨機森林演算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)。 |
+| 隨機森林 | 隨機森林是先進的機器學習方法。就資料科學而言，這是利用根據訪客和造訪屬性來建構大量決策樹而實現的整體分類或迴歸方法。在 Target 內，隨機森林可用來針對每個特定訪客，決定何種體驗預期轉換的可能性最高 (或每次造訪帶來的收入最高)。如需關於 Target 中隨機森林的資訊，請參閱[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。 |
 | Thompson 取樣 | Thompson 取樣的目標是要判斷哪個體驗是整體最佳 (非個人化)，同時將找到該體驗的「成本」降至最低。即便兩個體驗之間沒有統計上的差異，Thompson 取樣仍一律會挑選獲勝者。如需詳細資訊，請參閱 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)。 |
 
 使用[!UICONTROL 自動個人化]時，請考慮下列詳細資料:
 
 **自動個人化使用隨機森林演算法來進行個人化。**
 
-隨機森林是先進的機器學習方法。就資料科學而言，這是利用根據訪客和造訪屬性來建構大量決策樹而實現的整體分類或迴歸方法。在 Target 內，隨機森林可用來針對每個特定訪客，決定何種體驗預期轉換的可能性最高 (或每次造訪帶來的收入最高)。例如，使用 Chrome 的訪客為金級忠誠成員，並且在星期二存取您的網站更可能會使用體驗 A 進行轉換，而來自紐約的訪客更可能使用體驗 B 進行轉換。如需 Target 中隨機森林的相關資訊，請參閱[隨機森林演算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)。
+隨機森林是先進的機器學習方法。就資料科學而言，這是利用根據訪客和造訪屬性來建構大量決策樹而實現的整體分類或迴歸方法。在 Target 內，隨機森林可用來針對每個特定訪客，決定何種體驗預期轉換的可能性最高 (或每次造訪帶來的收入最高)。例如，使用 Chrome 的訪客為金級忠誠成員，並且在星期二存取您的網站更可能會使用體驗 A 進行轉換，而來自紐約的訪客更可能使用體驗 B 進行轉換。如需 Target 中隨機森林的相關資訊，請參閱[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
 **個人化模型會為每次造訪最佳化。**
 
@@ -60,11 +60,11 @@ To find more information about how [!UICONTROL Automated Personalization] differ
 
 **Target 會自動收集關於訪客的資訊以建置個人化模型。**
 
-* 如需[!UICONTROL 自動鎖定目標]和[!UICONTROL 自動個人化]中所使用的屬性相關資訊，請參閱[自動個人化資料收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)。
+* 如需[!UICONTROL 自動鎖定目標]和[!UICONTROL 自動個人化]中所使用的屬性相關資訊，請參閱[自動個人化資料收集](/help/c-activities/t-automated-personalization/ap-data.md)。
 
 **[!DNL Adobe Experience Cloud]Target 會自動使用所有 共用對象，以建立個人化模型。**
 
-* 您不需執行任何特定動作，即可將對象新增至模型。如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 對象](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)。
+* 您不需執行任何特定動作，即可將對象新增至模型。如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 對象](/help/c-integrating-target-with-mac/mmp.md)。
 
 **行銷人員可以上傳離線資料、傾向分數或其他自訂資料來建置個人化模型。**
 
@@ -74,7 +74,7 @@ To find more information about how [!UICONTROL Automated Personalization] differ
 * [設定檔參數](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 * [設定檔更新的伺服器端 API](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
-如需[!UICONTROL 自動個人化]和[!UICONTROL 自動鎖定目標]個人化演算法自動收集和使用之資料的相關資訊，請參閱[自動個人化資料收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)。
+如需[!UICONTROL 自動個人化]和[!UICONTROL 自動鎖定目標]個人化演算法自動收集和使用之資料的相關資訊，請參閱[自動個人化資料收集](/help/c-activities/t-automated-personalization/ap-data.md)。
 
 ## ![總覽徽章](/help/assets/overview.png) 訓練影片：活動類型
 
