@@ -6,7 +6,7 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 17%
@@ -77,7 +77,7 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 此整合可讓您：
 
 * 使 [用Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多重武裝強盜功能，將流量推動至成功體驗
-* 使用 [Auto-Target](/help/c-activities/auto-target-to-optimize.md)』s ensemble machine learning algorithm，根據每位訪客的個人資料、行為和上下文，為其選擇最佳體驗，同時使用目標量度和豐富的報 [!DNL Adobe Analytics][!DNL Adobe Analytics]告和分析功能。
+* 使用 [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)』s ensemble machine learning algorithm，根據每位訪客的個人資料、行為和上下文，為其選擇最佳體驗，同時使用目標量度和豐富的報 [!DNL Adobe Analytics][!DNL Adobe Analytics]告和分析功能。
 
 請確定您已實 [作A4T，以便搭配A/B測試和體驗定位活動使用](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您正在使 `analyticsLogging = client_side`用，您也需要將值 `sessionId` 傳遞至 [!DNL Analytics]。 如需詳細資訊，請 [參閱「Adobe Target SDK」指南中的](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)*Analytics for Target(A4T)報表* 。
 
