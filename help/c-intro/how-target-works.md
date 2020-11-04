@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -59,7 +59,7 @@ Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合:
 
 ### 自動鎖定目標(AT)
 
-如需詳細資訊，請參閱[自動鎖定目標](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
+如需詳細資訊，請參閱[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md)。
 
 自動鎖定目標使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。
 
