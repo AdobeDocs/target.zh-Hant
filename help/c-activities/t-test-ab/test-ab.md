@@ -5,7 +5,7 @@ title: A/B測試概觀
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ A manual [!UICONTROL A/B Test] activity (sometimes referred to as an A/B...N tes
 | --- | --- |
 | [!UICONTROL 手動 A/B 測試] | 比較兩個或多個體驗，以瞭解何者最能改善整個預先指定的測試期間的轉換。<br>本節說明如何設定手動 [!UICONTROL A/B測試活動] ，但其他類型  A/B測試活動的步驟類似。 |
 | [!UICONTROL 自動分配] | 找出兩個或多個體驗中的獲勝者，然後將流量重新導向獲勝者，以隨著測試執行和學習增加轉換。<br>要瞭解使用自動分配活動的優點，請參閱 [A/B測試和自動分配概述中的自動分配](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)*(Auto-Allocate*[](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md))。 |
-| ![Premium徽章](/help/assets/premium.png)[!UICONTROL 自動定位] | 使用進階機器學習來個人化內容，並透過找到多個高執行效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。<br>如需詳細資訊，請 [參閱自動定位](/help/c-activities/auto-target-to-optimize.md)。 |
+| ![Premium徽章](/help/assets/premium.png)[!UICONTROL 自動定位] | 使用進階機器學習來個人化內容，並透過找到多個高執行效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。<br>如需詳細資訊，請 [參閱自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
 如需這些 [!UICONTROL A/B測試活動適合您的詳細資訊] ，請參閱互動式 [Adobe Target活動指南PDF](/help/c-activities/target-activities-guide.md)。
 
