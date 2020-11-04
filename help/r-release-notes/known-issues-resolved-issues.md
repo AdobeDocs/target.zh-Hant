@@ -5,7 +5,7 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -48,7 +48,7 @@ UI中存在目前已知的問題，可讓使用者選擇不支援的參與和收
 重新導向選件的已知問題如下：
 
 * 在某些情況下，當在以 Analytics for Target (A4T) 設定的活動中使用重新導向選件時，部分客戶已回報流量分布的較高變異程度。Adobe 工程師目前正在解決此問題。
-* at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
+* at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
 ### 在 VEC 內取消載入頁面 {#cancel}
 
