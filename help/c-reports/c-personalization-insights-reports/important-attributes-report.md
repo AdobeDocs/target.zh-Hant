@@ -5,7 +5,7 @@ title: 「重要屬性」報表
 feature: reports
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 94%
@@ -27,7 +27,7 @@ ht-degree: 94%
 * [!UICONTROL 「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。]也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
    >
    >
-* [!UICONTROL 「個人化前瞻分析] 」報表僅在從「報 [!UICONTROL 表量度」下拉式清單中選取「] 主要目標  」時才可用。
+* [!UICONTROL 「個人化前瞻分析] 」報表僅在從「報 [!UICONTROL 表量度」下拉式清單中選取「] 主要目標  」時可用。
    >
    >
 * 「個人化前瞻分析」報表僅支援於[預設環境](../../administrating-target/hosts.md)中使用。
@@ -40,7 +40,7 @@ ht-degree: 94%
 
 ## 存取「重要屬性」報表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity from the list.
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
