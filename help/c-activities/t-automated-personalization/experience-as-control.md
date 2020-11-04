@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # ![PREMIUM](/help/assets/premium.png): 選取 Automated Personalization 或自動目標活動的控制權
 
-在建立 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) (AT) 活動時，您可以選取要用來作為控制的隨機提供的體驗或特定體驗。
+在建立 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) 活動時，您可以選取要用來作為控制的隨機提供的體驗或特定體驗。
 
 此功能可讓您根據活動中設定的流量配置百分比，將控制流量傳送至相關體驗。接著，您可以根據該控制之控制流量，評估個人化流量的效能報表。
 
