@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 87%
+source-wordcount: '1555'
+ht-degree: 86%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 87%
       + [A/B 測試該執行多久?](c-activities/t-test-ab/sample-size-determination.md)
       + [常見的10種A/B測試缺陷及避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + 建立 A/B 測試 {#create}
-         + [建立測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [選取對象](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 87%
          + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [A/B 測試中的多個體驗受眾](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動分配 {#auto-allocate}
-      + [自動分配](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [自動分配概述](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [建立自動分配活動](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [解譯自動分配報表](c-activities/automated-traffic-allocation/determine-winner.md)
       + [自動分配可讓您比手動測試更快完成測試並獲得更高收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [自動鎖定目標](c-activities/auto-target-to-optimize.md)
