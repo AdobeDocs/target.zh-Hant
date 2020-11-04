@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 在此情況下，您需要的是體驗的地理特定版本，讓您可以對非地理定位控制測試地理定位體驗。
 
-1. [建立一個 A/B 活動](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)，如同您一般的作法。
+1. [建立一個 A/B 活動](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)，如同您一般的作法。
 
    設定將有多個版本的體驗時，請選取每個版本的對象，如下列步驟所示。
 
