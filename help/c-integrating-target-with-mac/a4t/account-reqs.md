@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 63%
+source-wordcount: '267'
+ht-degree: 51%
 
 ---
 
@@ -45,13 +45,11 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ### 設定 Analytics 報表套裝的存取權
 
-Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. 如果無法檢視報表，請確定您是這其中一個群組的成員。
+若要在指定的報表套裝上使用A4T，您必須擁有該報表套裝的存取權。 若要在 [!UICONTROL Admin Console中存取]，請按一下產 [!DNL Analytics] 品設定檔，然後按一下「 [!UICONTROL 權限] 」標籤。 然後您就可以看到描述檔可存取的報表套裝。 請確定您要存取的報表套裝是您所 [!DNL Target] 屬產品設定檔中所列的報表套裝之一。
 
-如需詳細資訊，請參 [閱產品設定檔和群組](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
+下圖為可存取所有報表套裝的產品設定檔範例：
 
-### 設定 Web 服務存取群組的存取權。
-
-您必須屬於 [!DNL Analytics] 中的 Web 服務存取群組，才能使用 [!DNL Analytics] 做為 [!DNL Target] 的報表來源。
+![「管理控制台權限」標籤](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
