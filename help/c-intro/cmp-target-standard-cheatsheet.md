@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2903'
 ht-degree: 98%
 
 ---
@@ -64,7 +64,7 @@ at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的
 
 **我可以以某個層級的個人化作為活動的必要部分來執行活動嗎?**
 
-請查看[具有自動鎖定目標的 A/B 測試](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)選項。
+請參閱 [自動定位選項](/help/c-activities/auto-target-to-optimize.md) 。
 
 **我如何知道哪個類型的活動最適合我的需要?**
 
