@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 98%
@@ -28,7 +28,7 @@ ht-degree: 98%
 |--- |--- |
 | ![圖示](/help/c-activities/assets/icon_ab.png)<br/>手動 A/B 測試 | 比較兩個或多個體驗，以瞭解何者最能改善整個預先指定的測試期間的轉換。如需詳細資訊，請參閱 [A/B 測試](/help/c-activities/t-test-ab/test-ab.md)。 |
 | ![自動分配圖示](/help/c-activities/assets/icon_auto_allocate.png)<br/>自動分配 | 找出兩個或多個體驗中的獲勝者，然後將流量重新導向獲勝者，以隨著測試執行和學習增加轉換。如需詳細資訊，請參閱[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| ![AT 圖示](/help/c-activities/assets/icon_auto_target.png)<br/>自動鎖定目標 | 使用進階機器學習來個人化內容，並透過找到多個高執行效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。如需詳細資訊，請參閱「[自動鎖定目標以獲得個人化體驗](/help/c-activities/auto-target-to-optimize.md)」。 |
+| ![AT 圖示](/help/c-activities/assets/icon_auto_target.png)<br/>自動鎖定目標 | 使用進階機器學習來個人化內容，並透過找到多個高執行效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。如需詳細資訊，請參閱「[自動鎖定目標以獲得個人化體驗](/help/c-activities/auto-target/auto-target-to-optimize.md)」。 |
 | ![AP 圖示](/help/c-activities/assets/icon_ap.png)<br/>自動個人化 (AP) | 使用進階機器學習來個人化內容，並透過結合特定選件或訊息來促進轉換，然後根據訪客的個別客戶設定檔比對訪客的不同選件變數。如需詳細資訊，請參閱[自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | ![MVT 圖示](/help/c-activities/assets/icon_mvt.png)<br/>多變數測試 (MVT) | 比較頁面上元素間選件的組合，以查看哪個組合對特定對象的執行效果最佳。此外，找出頁面的哪個元素在整個預先指定的測試期間最能改善轉換。如需詳細資訊，請參閱[多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | ![XT 圖示](/help/c-activities/assets/icon_xt.png)<br/>體驗鎖定目標 (XT) | 根據一組市場行銷人員定義的規則和條件為特定對象傳送內容。如需詳細資訊，請參閱[體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md)。 |
