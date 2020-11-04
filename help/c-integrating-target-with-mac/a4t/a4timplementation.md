@@ -5,9 +5,9 @@ title: Analytics for Target 實作
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '900'
 ht-degree: 50%
 
 ---
@@ -91,7 +91,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 請注意，對於 [!UICONTROL Auto-Allocate] 和  Auto-Target活動，您也需要轉發sessionId。 如需詳細資訊，請 [參閱](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) Adobe Target傳送API指南中的Adobe Analytics for Target(A4T) **
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 請注意，對於 [!UICONTROL Auto-Allocate] 和  Auto-Target活動，您也需要轉發sessionId。 如需詳細資訊，請 [參閱「Adobe Target SDK」指南中的](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)*Analytics for Target(A4T)報表* 。
 
 如果不需要全域設定，且偏好使用更隨需提供的方法，則您可將 **analyticsLogging: &quot;client_side&quot;** 傳入，藉此使用 at.js 函數 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 來達成此目標。The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
