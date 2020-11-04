@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '29837'
 ht-degree: 86%
@@ -1085,7 +1085,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自動個人化 (AP) 和自動鎖定目標活動 </p> </td> 
-   <td colname="col2"> <p>其他指導方針會在 UI 和「說明」中提供，以幫助您在自動個人化 (AP) 和自動鎖定目標活動中更有效率地配置流量百分比。 </p> <p>如需詳細資訊，請參閱<a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">決定流量分配</a>和<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">建立 Automated Personalization 活動</a>。 </p> </td> 
+   <td colname="col2"> <p>其他指導方針會在 UI 和「說明」中提供，以幫助您在自動個人化 (AP) 和自動鎖定目標活動中更有效率地配置流量百分比。 </p> <p>如需詳細資訊，請參閱<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">決定流量分配</a>和<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">建立 Automated Personalization 活動</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: 自訂條件的包含規則、集合和排除 </p> </td> 
@@ -1311,8 +1311,8 @@ target/r_release-notes-2018.xml
    <td colname="col1" class="premium"> <p>自動鎖定目標 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自動鎖定目標活動現在支援區段層級的報表。(TGT-22777) </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以變更自動鎖定目標活動的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自動鎖定目標活動現在支援區段層級的報表。(TGT-22777) </p> <p>如需詳細資訊，請參閱「<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以變更自動鎖定目標活動的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>如需詳細資訊，請參閱「<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1489,7 +1489,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA 模式 </p> </td> 
-   <td colname="col2"> <p>執行簡易的活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。 </p> <p>如需詳細資訊，請參閱<a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local">活動 QA </a>. </p> </td> 
+   <td colname="col2"> <p>執行簡易的活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。 </p> <p>如需詳細資訊，請參閱<a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">活動 QA </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1553,7 +1553,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>自動鎖定目標 </p> </td> 
-   <td colname="col2"> <p>自動鎖定目標現在可供所有 Target Premium 客戶使用。 </p> <p>自動鎖定目標使用進階機器學習，來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。 </p> <p>使用三個步驟引導工作流程建立 A/B 活動時，您可以選擇使用<span class="wintitle">「針對個人化體驗自動鎖定目標」</span>選項來配置流量: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
+   <td colname="col2"> <p>自動鎖定目標現在可供所有 Target Premium 客戶使用。 </p> <p>自動鎖定目標使用進階機器學習，來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。 </p> <p>使用三個步驟引導工作流程建立 A/B 活動時，您可以選擇使用<span class="wintitle">「針對個人化體驗自動鎖定目標」</span>選項來配置流量: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>如需詳細資訊，請參閱「<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 報告 </td> 
-   <td colname="col2"> <p><b>檢視多個目標/度量:</b> 您現在可以檢視 A/B 和體驗鎖定目標 (XT) 活動中的多個度量，不含<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自動分配</a>和<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標</a> A/B 活動。 </p> <p>如需詳細資訊，請參閱<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在報告中檢視多個度量</a>。 </p> </td> 
+   <td colname="col2"> <p><b>檢視多個目標/度量:</b> 您現在可以檢視 A/B 和體驗鎖定目標 (XT) 活動中的多個度量，不含<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自動分配</a>和<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標</a> A/B 活動。 </p> <p>如需詳細資訊，請參閱<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在報告中檢視多個度量</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1986,7 +1986,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>搶先看</b> </p> A/B 活動中的自動鎖定目標 </td> 
-   <td colname="col2"> <p> <p>注意: 此「搶先看」供應項目已在此版本中針對一些客戶啟用，以供測試和回饋。 </p> </p> <p>自動鎖定 A/B 測試中的體驗，以將適當的體驗提供給適當的訪客。 </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
+   <td colname="col2"> <p> <p>注意: 此「搶先看」供應項目已在此版本中針對一些客戶啟用，以供測試和回饋。 </p> </p> <p>自動鎖定 A/B 測試中的體驗，以將適當的體驗提供給適當的訪客。 </p> <p>如需詳細資訊，請參閱「<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2517,7 +2517,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
 
 | 功能 | 說明 |
 |---|---|
-| 依據百分比定位活動項目。 | 您現在可以將 [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 和[多變數](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)活動中的項目數限制在訪客或對象成員的百分比。例如，您可將項目限制為所有訪客的 50%，或「加州人」觀眾的 45%。 |
+| 依據百分比定位活動項目。 | 您現在可以將 [A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 和[多變數](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)活動中的項目數限制在訪客或對象成員的百分比。例如，您可將項目限制為所有訪客的 50%，或「加州人」觀眾的 45%。 |
 | 在自動配置中支援收入、訂購和參與 | 您現在可選擇收入 (RPV)、訂購和參與量度做為已選取「自動配置」之 A/B 活動的目標。以前只支援轉換量度。請參閱[自動流量分配](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。 |
 | 依來源篩選 | 您現在可依建立活動的來源，篩選活動清單。選項包括 Adobe Target 和 Adobe Experience Manager。請參閱[活動](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 |
 | 自動個人化效能增強功能 | 自動個人化已經過重新設計，針對大量選件/位置組合的執行效能更佳。 |
@@ -2583,7 +2583,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 下載成功量度報表 </p> </td> 
-   <td colname="col2"> <p> 可下載其中列出所有成功量度的單一 csv 檔案，而非只有最終活動目標的報表。 </p> <p>請參閱<a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local">報表</a>。 </p> </td> 
+   <td colname="col2"> <p> 可下載其中列出所有成功量度的單一 csv 檔案，而非只有最終活動目標的報表。 </p> <p>請參閱<a href="/help/c-reports/reports.md" format="dita" scope="local">報表</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3052,7 +3052,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B 測試和體驗鎖定目標: 三個步驟活動建立流程 </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local">建立 A/B </a>和<a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local">體驗鎖定目標</a>活動，以三個步驟而非四個步驟。此變更會使得建立這些活動的程序更類似其他活動類型 (例如自動個人化和多變數測試) 的工作流程。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local">建立 A/B </a>和<a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local">體驗鎖定目標</a>活動，以三個步驟而非四個步驟。此變更會使得建立這些活動的程序更類似其他活動類型 (例如自動個人化和多變數測試) 的工作流程。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analytics 做為報表來源可供大多數活動類型使用。 </p> </td> 
