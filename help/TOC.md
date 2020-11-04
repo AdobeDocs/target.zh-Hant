@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 86%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 86%
       + [建立自動分配活動](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [解譯自動分配報表](c-activities/automated-traffic-allocation/determine-winner.md)
       + [自動分配可讓您比手動測試更快完成測試並獲得更高收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [自動鎖定目標](c-activities/auto-target-to-optimize.md)
+   + 自動鎖定目標 {#auto-target}
+      + [自動定位概觀](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [建立自動定位活動](/help/c-activities/auto-target/create-auto-target.md)
+      + [自動定位疑難排解與常見問答集](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + 自動個人化 {#automated-personalization}
       + [自動個人化概覽](c-activities/t-automated-personalization/automated-personalization.md)
       + [隨機森林演算法](c-activities/t-automated-personalization/algo-random-forest.md)
