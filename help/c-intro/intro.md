@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '903'
 ht-degree: 86%
 
 ---
@@ -46,7 +46,7 @@ Target Premium 包含下列進階功能:
 
 ### 自動鎖定目標
 
-[針對個人化體驗自動鎖定目標](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)功能採用先進的機器學習技術，可識別多個市場行銷人員定義的高成效體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供針對每位訪客量身打造的最佳體驗，以便個人化內容並提高轉換次數。
+[自動鎖定目標使用進階機器學習來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。](/help/c-activities/auto-target-to-optimize.md)
 
 ### 建議
 
