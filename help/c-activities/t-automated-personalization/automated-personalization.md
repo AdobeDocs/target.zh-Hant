@@ -6,10 +6,10 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 98%
+source-wordcount: '1020'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 與[!UICONTROL 自動鎖定目標]類似，[!UICONTROL 自動個人化]使用隨機森林演算法 (一種主流的資料科學整體方法) 作為主要的個人化演算法，用來決定要向訪客顯示的最佳體驗。[!UICONTROL 自動個人化在測試的探索階段很重要。]鎖定多種訪客時，允許機器學習以決定最有效的內容也相當實用。演算法會隨著時間學習預測最有效的內容，並顯示最可能達成您的目標的內容。
 
-如需關於[!UICONTROL 自動個人化]與[!UICONTROL 自動鎖定目標]間差異之處的詳細資訊，請參閱[針對個人化體驗自動鎖定目標](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
+To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
 
 行銷人員在他們的網站上實作一個檔案，這可讓他們指向和點擊任何內容，然後使用 VEC ([!UICONTROL 可視化體驗撰寫器]) 為該區域以可視方式建立並選取其他內容選項。接著，演算法會根據系統所擁有有關訪客的行為資料，自動判斷要為每一個人提供何種內容，藉此提供個人化的體驗。因為[!UICONTROL 自動個人化]可以適應訪客行為中的變更，它可以在不設定結束日期的情況下執行，以持續提供提升度和個人化。這有時稱為「一律開啟」模式。在瞭解從最佳化發現的提升度之前，行銷人員不需要執行測試、分析結果，然後傳送獲勝者 (這是實施標準 A/B 活動成果的標準作業順序)。
 
