@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '29837'
 ht-degree: 86%
@@ -1311,8 +1311,8 @@ target/r_release-notes-2018.xml
    <td colname="col1" class="premium"> <p>自動鎖定目標 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自動鎖定目標活動現在支援區段層級的報表。(TGT-22777) </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以變更自動鎖定目標活動的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自動鎖定目標活動現在支援區段層級的報表。(TGT-22777) </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以變更自動鎖定目標活動的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1553,7 +1553,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>自動鎖定目標 </p> </td> 
-   <td colname="col2"> <p>自動鎖定目標現在可供所有 Target Premium 客戶使用。 </p> <p>自動鎖定目標使用進階機器學習，來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。 </p> <p>使用三個步驟引導工作流程建立 A/B 活動時，您可以選擇使用<span class="wintitle">「針對個人化體驗自動鎖定目標」</span>選項來配置流量: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
+   <td colname="col2"> <p>自動鎖定目標現在可供所有 Target Premium 客戶使用。 </p> <p>自動鎖定目標使用進階機器學習，來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。 </p> <p>使用三個步驟引導工作流程建立 A/B 活動時，您可以選擇使用<span class="wintitle">「針對個人化體驗自動鎖定目標」</span>選項來配置流量: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 報告 </td> 
-   <td colname="col2"> <p><b>檢視多個目標/度量:</b> 您現在可以檢視 A/B 和體驗鎖定目標 (XT) 活動中的多個度量，不含<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自動分配</a>和<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自動鎖定目標</a> A/B 活動。 </p> <p>如需詳細資訊，請參閱<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在報告中檢視多個度量</a>。 </p> </td> 
+   <td colname="col2"> <p><b>檢視多個目標/度量:</b> 您現在可以檢視 A/B 和體驗鎖定目標 (XT) 活動中的多個度量，不含<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自動分配</a>和<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標</a> A/B 活動。 </p> <p>如需詳細資訊，請參閱<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在報告中檢視多個度量</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1986,7 +1986,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>搶先看</b> </p> A/B 活動中的自動鎖定目標 </td> 
-   <td colname="col2"> <p> <p>注意: 此「搶先看」供應項目已在此版本中針對一些客戶啟用，以供測試和回饋。 </p> </p> <p>自動鎖定 A/B 測試中的體驗，以將適當的體驗提供給適當的訪客。 </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
+   <td colname="col2"> <p> <p>注意: 此「搶先看」供應項目已在此版本中針對一些客戶啟用，以供測試和回饋。 </p> </p> <p>自動鎖定 A/B 測試中的體驗，以將適當的體驗提供給適當的訪客。 </p> <p>如需詳細資訊，請參閱「<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自動鎖定目標以獲得個人化體驗</a>」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
