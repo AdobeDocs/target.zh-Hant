@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的
 
 **我可以以某個層級的個人化作為活動的必要部分來執行活動嗎?**
 
-請參閱 [自動定位選項](/help/c-activities/auto-target-to-optimize.md) 。
+請參閱 [自動定位選項](/help/c-activities/auto-target/auto-target-to-optimize.md) 。
 
 **我如何知道哪個類型的活動最適合我的需要?**
 
@@ -120,7 +120,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我如何對我剛剛建立的活動進行預覽和 QA?**
 
-請使用[功能強大的 QA 模式功能](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)來執行 QA。您可以與您的 QA 團隊共用連結，並同時端對端測試活動，包括報表，以非常確定在活動上線後，它能如預期並如測試般運作。
+請使用[功能強大的 QA 模式功能](/help/c-activities/c-activity-qa/activity-qa.md)來執行 QA。您可以與您的 QA 團隊共用連結，並同時端對端測試活動，包括報表，以非常確定在活動上線後，它能如預期並如測試般運作。
 
 **我如何使用 Target 的決策功能來獲得可以在單一頁面應用程式 (SPA) 或伺服器端整合中使用的體驗/選件?**
 
@@ -167,7 +167,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 * [目標分析 (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [客戶屬性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [對象](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [對象](/help/c-integrating-target-with-mac/mmp.md)
 
 ## 體驗 {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ You can always use [Enhanced Experience Composer option at the activity level](.
 
 * [客戶屬性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [對象](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [對象](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **我可以在多個使用者區段上分解報表嗎?**
