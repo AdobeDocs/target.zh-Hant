@@ -4,7 +4,7 @@ description: Adobe Target歡迎套件——第2章- Target總覽
 title: Adobe Target歡迎套件——第2章- Target總覽
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 17%
@@ -30,7 +30,7 @@ ht-degree: 17%
 | --- | --- |
 | A/B 測試 | 比較您網站或其他數位客戶觸點上的兩種或兩種以上體驗或優惠的變化，以瞭解哪些變化在預先指定的測試期間對關鍵業務衡量標準有最大改善。 A/B測試非常適合進行大型變更，例如新的網頁版面配置、不同的網站導覽方式，或對複製、影像和行動要求按鈕等數位體驗的個別元素進行不同的處理方式。 [了解詳情](/help/c-activities/t-test-ab/test-ab.md)。 |
 | 自動分配 | 識別兩個或更多體驗中效能最佳的體驗，並自動重新分配更多流量給成功者，以在測試持續執行和學習時提高轉化率。 使用由人工智慧提供支援 [!DNL Adobe Sensei]。 [了解詳情](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| Auto-Target<br>(Premium) | 運用Adobe Sensei人工智慧， [!DNL Target] 根據個別客戶個人檔案以及先前具有類似個人檔案的訪客的行為，判斷並提供每位訪客的最佳體驗。 Auto-Target可讓您大規模個人化。 [了解詳情](/help/c-activities/auto-target-to-optimize.md)。 |
+| Auto-Target<br>(Premium) | 運用Adobe Sensei人工智慧， [!DNL Target] 根據個別客戶個人檔案以及先前具有類似個人檔案的訪客的行為，判斷並提供每位訪客的最佳體驗。 Auto-Target可讓您大規模個人化。 [了解詳情](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | Automated Personalization<br>(Premium) | 使用進階的機器學習演算法和由選件提供支援的自動化功能，來檢視選件中不同的影像、複製和其他元素組合，並根據最佳達成商業目標（例如提高轉換率或每位訪客收入）的目標，為每位訪客提供最佳組合。 [!DNL Adobe Sensei] [了解詳情](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | 體驗鎖定目標 (XT) | 根據一組使用者定義的規則和准則，將內容傳送給特定的觀眾。 **[!UICONTROL 當您瞭解受眾有價值，並且對體驗產生共鳴時]** ,「體驗定位」對於將特定體驗或內容定位給特定受眾非常有用。 [了解詳情](/help/c-activities/t-experience-target/experience-target.md)。 |
 | 多變數測試 (MVT) | 比較頁面上各種元素或數位體驗的可能組合——例如3種不同的背景影像、2種不同的復本和2種不同的按鈕顏色。 MVT會決定哪些組合對特定對象的效能最佳，以及哪些元素對結果的影響最大。 [了解詳情](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
