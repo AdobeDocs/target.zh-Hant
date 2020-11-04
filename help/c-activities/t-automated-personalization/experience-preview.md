@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -20,7 +20,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->「自動個人化」的體驗預覽URL與「活動QA」模式不同。 活動 QA 模式可讓您為其他類型的活動建立活動 URL。如需詳細資訊，請參閱[活動 QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)。
+>「自動個人化」的體驗預覽URL與「活動QA」模式不同。 活動 QA 模式可讓您為其他類型的活動建立活動 URL。如需詳細資訊，請參閱[活動 QA](/help/c-activities/c-activity-qa/activity-qa.md)。
 >
 >AP活動的體驗預覽URL僅在使用at.js 1.x時可用。at.js 2.x目前不支援AP活動的體驗預覽URL。
 
