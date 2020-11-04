@@ -5,9 +5,9 @@ title: 自動個人化常見問題集
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1962'
 ht-degree: 85%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 ## 設定自動個人化活動有何最佳作法? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* 如果您想個人化低流量的頁面，或想針對您要個人化的體驗進行結構化變更，請考慮使用自動鎖定目標來代替自動個人化。請參閱[針對個人化體驗自動鎖定目標](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
+* 如果您想個人化低流量的頁面，或想針對您要個人化的體驗進行結構化變更，請考慮使用自動鎖定目標來代替自動個人化。請參閱 [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md).
 * 在您打算於自動個人化活動中使用的選件和位置之間，請考慮完成 A/B 活動，以確定位置和選項件會影響最佳化目標。如果 A/B 活動未展現明顯的差異，則自動個人化也很可能無法帶來提升度。
 
    * 如果 A/B…N 測試顯示體驗之間沒有統計顯著差異，可能是您考慮的選件彼此的差異不夠、您選取的位置不會影響成功量度，或最佳化目標在轉換漏斗中太遠，以致於不受您所選擇的選件所影響。
@@ -114,7 +114,7 @@ AP 活動產生提升度需要四個係數:
 
 ### 我可以在「自動個人化」活動的中途變更目標量度嗎？ {#change-metric}
 
-我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 如果活動運行後更改目標度量，我們不保證會發生什麼情況。
+我們不建議您在活動中途變更目標量度。 雖然在使用 [!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
 
 此建議適用 [!UICONTROL 於使用Auto-Allocate]、 [!UICONTROL Auto-Target]和 [!UICONTROL Automated Personalization] (Automated Personalization)活動( [!DNL Target][!DNL Analytics] A4T)作為報告來源。
 
