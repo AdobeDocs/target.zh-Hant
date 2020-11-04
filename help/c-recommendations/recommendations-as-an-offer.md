@@ -4,7 +4,7 @@ description: Adobe Recommendations 作為 A/B 測試 (包括自動分配和自�
 title: Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 及體驗鎖定目標 (XT) 活動中的選件
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 98%
@@ -31,7 +31,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >若為 A/B 測試，您可以選擇[「自動分配」](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/c-activities/auto-target-to-optimize.md)選項，以便根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
+   >若為 A/B 測試，您可以選擇[「自動分配」](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/c-activities/auto-target/auto-target-to-optimize.md)選項，以便根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
 1. 建立[體驗](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增建議作為選件的元素，選取&#x200B;**[!UICONTROL 「插入在前」]**、**[!UICONTROL 「插入在後」]**&#x200B;或&#x200B;**[!UICONTROL 「取代為」]**&#x200B;動作，然後選取[!UICONTROL 「建議」]。
 
@@ -84,7 +84,7 @@ ht-degree: 98%
 
 ### 使用「修改」面板編輯建議選件
 
-1. 按一下[!UICONTROL 修改]圖示 **(`</>`)** 以顯示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
+1. 按一下[!UICONTROL 修改]圖示 **( `</>` )** 以顯示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
 1. 將游標停留在所需的動作上，然後按一下&#x200B;**[!UICONTROL 「編輯」]**&#x200B;圖示。
 
    ![「修改」面板](/help/c-recommendations/assets/recs-offer-modifications.png)
