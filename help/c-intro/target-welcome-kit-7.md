@@ -4,7 +4,7 @@ description: Adobe Target歡迎套件——第7章——建立並執行您的第
 title: Adobe Target歡迎套件——第7章——建立並執行您的第一個Target活動
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 路由3:人工智慧和自動化在規模化個人化訪客中的應用
 
-您只要在A/B測試設定工作流程的第二個步驟中選取 [Auto-Target](/help/c-activities/auto-target-to-optimize.md) ，即可設定AI導向的活動，讓每位訪客在數個訪客中獲得最佳體驗。 當您不知道哪些體驗會引起不同訪客的共鳴時，將Auto-Target與您的第一個活動搭配使用會非常有用。 有了Auto-Target，您就可讓機器學習即時評估預測屬性並為其評分，並決定訪客的哪些屬性對決定要提供哪些體驗最為重要。
+您只要在A/B測試設定工作流程的第二個步驟中選取 [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) ，即可設定AI導向的活動，讓每位訪客在數個訪客中獲得最佳體驗。 當您不知道哪些體驗會引起不同訪客的共鳴時，將Auto-Target與您的第一個活動搭配使用會非常有用。 有了Auto-Target，您就可讓機器學習即時評估預測屬性並為其評分，並決定訪客的哪些屬性對決定要提供哪些體驗最為重要。
 
 範例：銷售多種手機品牌和機型的電信公司開啟Auto-Target，使用自動化和機器學習來判斷其首頁或行動應用程式開啟畫面上的4種不同體驗或優惠中，哪一種最能引起廣大訪客的共鳴。
 
