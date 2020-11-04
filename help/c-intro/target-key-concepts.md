@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 98%
@@ -33,7 +33,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 |--- |--- |
 | [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。<br>**注意:** 您現在可以[在 A/B 測試活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。<br>**注意:** 您現在可以[在自動分配活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
-| [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動鎖定目標使用進階機器學習來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。<br>**注意:** 您現在可以[在自動鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動鎖定目標使用進階機器學習來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。<br>**注意:** 您現在可以[在自動鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 資料](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以將活動設為使用 [!DNL Adobe Analytics] 作為報表來源。此活動類型需要您將 [!DNL Adobe Experience Cloud] 帳戶與 [!DNL Analytics] 和 [!DNL Target] 連結在一起。 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。 |
 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。<br>**注意:** 您現在可以[在體驗鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
