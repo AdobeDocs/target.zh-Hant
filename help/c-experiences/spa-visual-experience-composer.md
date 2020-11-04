@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -28,13 +28,13 @@ ht-degree: 93%
 
 為了進一步說明檢視，下文將瀏覽這個在 React 中實作的假想線上電子商務網站，並探索一些檢視範例。按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結：[首頁網站](https://target.enablementadobe.com/react/demo/#/)**
+**連結： [首頁網站](https://target.enablementadobe.com/react/demo/#/)**
 
 ![首頁](/help/c-experiences/assets/home.png)
 
 當我們導覽到主網站時，立刻就會看到宣傳復活節特賣以及網站上最新發售產品的主圖影像。在這個案例中，檢視可定義為整個首頁。請記下這點，因為我們將在下文的「實作 Adobe Target 檢視」一節中更深入說明。
 
-**連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結： [產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![產品網站](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
 我們決定點擊「載入更多」按鈕來探索網站上更多的產品。在此情況下，網站 URL 不會變更。但此處的檢視只能呈現上圖中的第二列產品。「檢視」名稱可以命名為「PRODUCTS-PAGE-2」。
 
-**連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結： [結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![結帳頁面](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ ht-degree: 93%
 
    現在，讓我們來看看一些使用範例，瞭解如何在 React 中對假設性的電子商務 SPA 進行叫用 `triggerView()`:
 
-   **連結：[首頁網站](https://target.enablementadobe.com/react/demo/#/)**
+   **連結： [首頁網站](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ ht-degree: 93%
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+   **連結： [產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
    現在，讓我們來看看更複雜的範例。假設我們這些行銷人員想要個人化產品的第二列，讓使用者在點擊「載入更多」按鈕後，把售價標籤變更為紅色。
 
@@ -144,7 +144,7 @@ ht-degree: 93%
    }
    ```
 
-   **連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **連結： [結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react 結帳](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ adobe.target.getOffers({
 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 |
 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 是 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 無 |
-| [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 無 |
+| [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md) | 無 |
 | [自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md) | 無 |
 | [Recommendations](/help/c-recommendations/recommendations.md) | 無 |
 
-**如果我們安裝 at.js 2.x 並在網站上實作了`triggerView()`，在 SPA VEC 不支援自動鎖定目標的情況下，該如何執行自動鎖定目標 A/B 活動?**
+**如果我們安裝 at.js 2.x 並在網站上實作了 `triggerView()`，在 SPA VEC 不支援自動鎖定目標的情況下，該如何執行自動鎖定目標 A/B 活動?**
 
 如果您希望使用自動鎖定目標 A/B 活動，可以移動所有的動作，讓它們在 VEC 中的「頁面載入事件」上執行。暫留在每個動作上，然後按一下[!UICONTROL 「移動到頁面載入事件」]按鈕。完成後，您可以在下一步中為流量分配方法選取「自動鎖定目標」。
 
