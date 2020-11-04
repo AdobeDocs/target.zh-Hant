@@ -5,15 +5,15 @@ title: 多變數測試
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1441'
 ht-degree: 91%
 
 ---
 
 
-# 多變項變異數測試{#multivariate-test}
+# 多變數測試概覽
 
 [!DNL Adobe Target] 中的[!UICONTROL 多變數測試] (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。
 
