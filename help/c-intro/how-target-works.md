@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -40,7 +40,7 @@ Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合:
 
 ### A/B 測試
 
-如需詳細資訊，請參閱[建立 A/B 測試](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)。
+如需詳細資訊，請參閱[建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
 基本 A/B 測試中顯示的內容是根據您為每一個體驗所選擇的百分比，從您指派給活動的資產中隨機挑選。因為這樣的隨機流量分割，在平分百分比之前可能需要許多初始流量。例如，如果您建立兩個體驗，則會隨機挑選開始的體驗。如果流量小，該百分比的訪客可能全偏到其中一個體驗。隨著流量增加，百分比會更平均。
 
@@ -59,7 +59,7 @@ Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合:
 
 ### 自動鎖定目標(AT)
 
-如需詳細資訊，請參閱[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md)。
+如需詳細資訊，請參閱[自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)。
 
 自動鎖定目標使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。
 
