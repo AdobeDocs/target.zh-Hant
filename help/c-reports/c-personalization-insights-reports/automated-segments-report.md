@@ -5,7 +5,7 @@ title: 「自動化區段」報表
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -40,7 +40,7 @@ ht-degree: 92%
 
 ## 存取「自動化區段」報表{#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -119,7 +119,7 @@ ht-degree: 92%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)。如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)。
 
 **何謂自動化區段?**
 
@@ -127,7 +127,7 @@ ht-degree: 92%
 
 自動化區段是由特定屬性的特定值 (或值範圍) 所組成。如需自動化區段的範例，請參閱上面的步驟 5。請注意，區段可以重疊。
 
-若要深入瞭解隨機森林個人化演算法 (該演算法是 Target 個人化模型的基礎)，請參閱[隨機森林演算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)。
+若要深入瞭解隨機森林個人化演算法 (該演算法是 Target 個人化模型的基礎)，請參閱[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
 **決定自動化區段順序的因素為何? **
 
