@@ -5,7 +5,7 @@ title: 自動個人化常見問題集
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## 是否可以指定要用來作為控制的特定體驗?
 
-建立 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) (AT) 活動時，您可以選取要用來作為控制的體驗。
+建立 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) 活動時，您可以選取要用來作為控制的體驗。
 
 此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。接著，您可以根據該體驗之控制流量，評估個人化流量的效能報表。
 
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 ## 設定自動個人化活動有何最佳作法? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* 如果您想個人化低流量的頁面，或想針對您要個人化的體驗進行結構化變更，請考慮使用自動鎖定目標來代替自動個人化。請參閱 [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md).
+* 如果您想個人化低流量的頁面，或想針對您要個人化的體驗進行結構化變更，請考慮使用自動鎖定目標來代替自動個人化。請參閱 [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * 在您打算於自動個人化活動中使用的選件和位置之間，請考慮完成 A/B 活動，以確定位置和選項件會影響最佳化目標。如果 A/B 活動未展現明顯的差異，則自動個人化也很可能無法帶來提升度。
 
    * 如果 A/B…N 測試顯示體驗之間沒有統計顯著差異，可能是您考慮的選件彼此的差異不夠、您選取的位置不會影響成功量度，或最佳化目標在轉換漏斗中太遠，以致於不受您所選擇的選件所影響。
@@ -79,7 +79,7 @@ AP 活動產生提升度需要四個係數:
 
 ### 自動個人化如何分配活動的流量? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-自動個人化會根據針對每個模型建立的最新[隨機森林演算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)模型，將訪客安排至預測成功量度最高的體驗。此預測是根據訪客的特定資訊和造訪情境。
+自動個人化會根據針對每個模型建立的最新[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)模型，將訪客安排至預測成功量度最高的體驗。此預測是根據訪客的特定資訊和造訪情境。
 
 例如，假設 AP 活動有兩個位置，而位置各有兩個選件。在第一個位置，選件 A 對特定訪客的預測轉換率為 3%，選件 B 的預測轉換率為 1%。在第二個位置，選件 C 對相同位訪客的預測轉換率為 2%，選件 D 的預測轉換率為 5%。因此，自動個人化會提供含有選件 A 和選件 D 的體驗給此訪客。
 
