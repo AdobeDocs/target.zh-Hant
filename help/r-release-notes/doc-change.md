@@ -6,7 +6,7 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2913'
 ht-degree: 29%
@@ -42,7 +42,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增下列定於2020年11月10日舉行的即時網路研討會的相關資訊：<ul><li>透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試</li></ul> |
 | 10月12日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新 [擷取授權Token，以便與除錯工具搭配使用](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) ，以指出您必須產生驗證Token的權限層級。 |
 |  | [設定檔 API 設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 更新主題，指出您必須產生驗證Token的權限層級。 |
-|  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 使用Auto-Target新增實際成功案例。 |
+|  | [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md) | 使用Auto-Target新增實際成功案例。 |
 |  | [在類似頁面上包含相同體驗](/help/c-experiences/c-visual-experience-composer/temtest.md) | 已新增區段，說明如何在整個網域中呈現相同的活動。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增下列已知問題：<ul><li>自動分配和自動目標活動的Analytics for Target(A4T)量度</li></ul> |
 | 10月8日 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 已新增下列已解決問題：<ul><li>[自動定位報表](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>將下列問題從「已知問題」區段移至「已解決問題」區段：<ul><li>[報表](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
@@ -95,7 +95,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 8月10日 | [CNAME 與 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增文字，指出使用CNAME時Cookie標題的大小會增加。 |
 |  | [將Target與Adobe Audience Manager整合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新主題。 |
 |  | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 新增連結以檢視下列封存的網路研討會：「HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化。」 |
-| 8月6日 | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md#how-long) | 更新下列常見問答集的文字：「我應該等待多久才能建立模型？」 |
+| 8月6日 | [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md#how-long) | 更新下列常見問答集的文字：「我應該等待多久才能建立模型？」 |
 |  | [分類 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 已更新定位類型的文字。 |
 | 8月5日 | [刪除 Target Cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | 更新整個主題。 |
 | 8月4日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增「使用人工智慧與Adobe Target的個人化策略」網路研討會的註冊資訊，該網路研討會將於8月13日舉行。 |
@@ -106,7 +106,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關即將於8月5日舉行的Adobe Target社群咖啡會的註冊資訊。 |
 | 28 年 7 月 | [個人化洞察報告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)、自<br>[動化區段報告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>以及重 [要屬性報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 更新主題頂部附註中的文字。 |
 |  | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 已新增下列常見問題集:<ul><li>在執行「自動配置」活動時，我是否可以使用「重設報表資料」選項？</li><li>自動分配構建模型如何與環境相關？</li></ul> |
-|  | [自動鎖定目標](/help/c-activities/auto-target-to-optimize.md) | 已新增下列常見問答集:<ul><li>我是否可在執行自動定位活動時使用「重設報表資料」選項？</li></ul>更新「考量事項」區段中的文字。 |
+|  | [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md) | 已新增下列常見問答集:<ul><li>我是否可在執行自動定位活動時使用「重設報表資料」選項？</li></ul>更新「考量事項」區段中的文字。 |
 |  | [自動個人化常見問答集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 已新增下列常見問題集:<ul><li>執行「自動個人化」活動時，我是否可以使用「重設報表資料」選項？</li><li>Automated Personalization如何建立與環境相關的模型？</li></ul> |
 |  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 已新增有關Internet Explorer和未知元素的資訊。 |
 |  | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我們目前的設計中，有可能少量的資料（大量生產批次的0.1%）無法封存。 |
@@ -122,7 +122,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 年 7 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關7月22日Adobe Target Coffee Break的資訊。 |
 | 15 年 7 月 | [自動分配可讓您比手動測試更快完成測試並獲得更高收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新主題。 |
-| 14 年 7 月 | [自動配置](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、<br>[自動定位](/help/c-activities/auto-target-to-optimize.md),<br><br>[以及自動個人化](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增常見問答集，建議您不要在活動中途變更目標量度。 |
+| 14 年 7 月 | [自動配置](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、<br>[自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md),<br><br>[以及自動個人化](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增常見問答集，建議您不要在活動中途變更目標量度。 |
 | 7 年 7 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關7月8日Adobe Target Coffee Break的資訊。 |
 | 6月25日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增有關Target Standard/Premium 20.6.1版本（2020年7月）的資訊。 |
 |  | [Target檔案總覽](/help/r-release-notes/target-documentation.md) | 新主題，詳細說明不同的檔案 [!DNL Target] 來源。 |
