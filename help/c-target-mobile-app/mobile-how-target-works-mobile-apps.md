@@ -4,7 +4,7 @@ title: Target 在行動應用程式中如何運作
 feature: mobile implementation
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Mobile SDK 會連絡 Target 伺服器來取得內容以及其他資料點�
 
 *目標位置*&#x200B;又稱為 mbox。應用程式中識別的位置可供測試或個人化 (例如，主畫面的歡迎訊息)。測試建立程序期間會識別這些位置。
 
-A *[成功量度](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)*&#x200B;是使用者執行的動作，可指出特定的活動是否成功 (例如，註冊、購物、訂票等)。
+A *[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)*&#x200B;是使用者執行的動作，可指出特定的活動是否成功 (例如，註冊、購物、訂票等)。
 
 ![](assets/mobile-target-location.png)
 
