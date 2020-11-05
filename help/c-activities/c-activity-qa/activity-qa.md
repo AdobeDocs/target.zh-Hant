@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
@@ -26,7 +26,7 @@ ht-degree: 80%
 * 可選擇是否考量對象狀況，這讓市場行銷人員測試鎖定目標條件或忽略鎖定目標條件，以 QA 體驗的外觀，而不必配合對象狀況。
 * 擷取 QA 報表，讓市場行銷人員可以確認量度如預期增加，且 QA 報表資料和生產報表 (適用於非 A4T 報表) 分開。
 * 能夠單獨預覽體驗，或與符合傳送條件的其他即時活動（頁面/Target要求／觀眾）搭配預覽。
-* 能夠 QA 整個使用者旅程。您可以利用 QA 連結來存取一次您的網站，然後在活動 QA 期間瀏覽整個網站。您會停留在活動 QA 中直到結束工作階段，或直到您使用[QA Target 書籤小程式](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)強迫自己離開活動 QA。如果活動橫跨多個網頁，此功能特別有用。
+* 能夠 QA 整個使用者旅程。您可以利用 QA 連結來存取一次您的網站，然後在活動 QA 期間瀏覽整個網站。您會停留在活動 QA 中直到結束工作階段，或直到您使用[QA Target 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)強迫自己離開活動 QA。如果活動橫跨多個網頁，此功能特別有用。
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ ht-degree: 80%
 
       如果此設定切換為「關閉」，請考量下列事項:
 
-      * 如果您測試的活動與其他已上線的活動之間有衝突，則會套用[標準優先順序規則](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。因此，您可能看不到想要 QA 的活動。
+      * 如果您測試的活動與其他已上線的活動之間有衝突，則會套用[標準優先順序規則](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。因此，您可能看不到想要 QA 的活動。
       * 已檢視的活動會增加量度，但僅限於 QA 報表環境中。
 
 1. 按一下 **[!UICONTROL 「完成」]**&#x200B;以儲存變更。
@@ -66,17 +66,17 @@ ht-degree: 80%
 
 ## 考量事項 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 自動個人化 (AP) 除外，所有活動類型的[!UICONTROL 「概覽」]頁面上皆會顯示[!UICONTROL 「活動 QA」]連結。您可以使用[預覽連結](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)以顯示 AP 活動。
+* 自動個人化 (AP) 除外，所有活動類型的[!UICONTROL 「概覽」]頁面上皆會顯示[!UICONTROL 「活動 QA」]連結。您可以使用[預覽連結](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)以顯示 AP 活動。
 * 如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結應可解決此問題。為避免繼續發生此問題，請封存不再需要使用的已儲存活動。
 * 以 Analytics 作為報表來源 (A4T) 的活動皆有活動 QA URL。使用活動 QA 執行 QA 時所產生的點閱，將會流向活動資料所流向的相同個報表套裝 (即使活動上線後)。
 * 針對已封存的活動或超過結束日期的活動，活動 QA 不會顯示內容。若停用已結束的活動，您必須再次儲存活動以使活動 QA 運作。
 * 匯入到 Target Standard/Premium 的活動 (例如，從 Target Classic) 不支援 QA URL。
 * 在自動分配、自動鎖定目標和建議活動中，模型不受活動 QA 中擷取的造訪所影響。
-* 因為活動 QA 有黏性，當您在活動 QA 中瀏覽網站後，您的 Target 工作階段必須到期，否則需要由 Target 幫您脫離活動 QA，才能像一般訪客一樣檢視您的網站。使用[Target QA 書籤小程式](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)強迫自己離開活動 QA。
+* 因為活動 QA 有黏性，當您在活動 QA 中瀏覽網站後，您的 Target 工作階段必須到期，否則需要由 Target 幫您脫離活動 QA，才能像一般訪客一樣檢視您的網站。使用[Target QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)強迫自己離開活動 QA。
 
    您也可以在網站上以帶有空白值的 `at_preview_token` 參數 (例如，`https://www.mysite.com/?at_preview_token=`) 來載入頁面，以手動強迫自己離開。
 
-* 如果您在建立活動時指定「URL 是」[表單式撰寫器中的細分](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可視化體驗撰寫器中的頁面傳送選項)](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，則 QA URL 沒有作用，因為活動 QA 會附加 URL 參數。若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
+* 如果您在建立活動時指定「URL 是」[表單式撰寫器中的細分](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可視化體驗撰寫器中的頁面傳送選項)](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，則 QA URL 沒有作用，因為活動 QA 會附加 URL 參數。若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
 * 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他封鎖第三方Cookie的瀏覽器，則x或mbox.js的「活動QA」模式將不嚴格。 在這些情況下，您必須將預覽參數新增至您導覽至的每個URL。 如果您已實作 [CNAME，也是如此](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
 * 如果活動使用多個體驗對象 (例如，相同活動中包含的 US 和 UK 網站)，則這四個組合 (體驗 A/ US 網站、體驗 A/ UK 網站、體驗 B/ US 網站、體驗 B/ UK 網站) 不會產生 QA 連結。只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。UK QA 的人無法看見 US 網站。
 * 所有 `at_preview` 參數和值皆已完成 URL 編碼。一切通常皆沒問題，不過，某些客戶可能有負載平衡器或 Web 伺服器，會嘗試將查詢字串參數再一次編碼。
