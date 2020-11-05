@@ -5,7 +5,7 @@ title: 自動個人化常見問題集
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -36,7 +36,7 @@ ht-degree: 85%
 
    * 如果 A/B…N 測試顯示體驗之間沒有統計顯著差異，可能是您考慮的選件彼此的差異不夠、您選取的位置不會影響成功量度，或最佳化目標在轉換漏斗中太遠，以致於不受您所選擇的選件所影響。
 
-* 請務必使用[流量估算](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以瞭解在自動個人化活動中建立個人化模型所需的時間。
+* 請務必使用[流量估算](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以瞭解在自動個人化活動中建立個人化模型所需的時間。
 * 開始展開活動之前，根據目標決定控制與目標之間的分配。
 
    請根據活動目標和您已選取的控制類型，考慮下列三種情況:
@@ -75,7 +75,7 @@ AP 活動產生提升度需要四個係數:
 
 動作的最佳措施是先使用簡易、非個人化的 A/B 測試來確定組成活動體驗的內容和位置對整體回應率確實產生影響。務必提早計算樣本大小，以確保有足夠檢定力可看見合理的提升度，並在固定期間執行 A/B 測試而不停止它或進行任何變更。如果 A/B 測試結果對一或多個體驗顯示統計顯著的提升度，則個人化活動可能將正常運作。當然，即便在體驗的整體回應率沒有產生影響時，個人化也能運作。一般來說，問題源自選件/位置對要使用統計精確度偵測的最佳化目標沒有夠大的影響。
 
-如需詳細資訊，[自動個人化疑難排解](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
+如需詳細資訊，[自動個人化疑難排解](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
 
 ### 自動個人化如何分配活動的流量? {#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -89,7 +89,7 @@ AP 活動產生提升度需要四個係數:
 
 ### 模型建置需要等候多久? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-在活動中建立模型所需的時間，通常取決於流向您所選活動位置的流量，以及活動成功量度。使用[流量估算](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以預測在活動中建立模型所需的時間。
+在活動中建立模型所需的時間，通常取決於流向您所選活動位置的流量，以及活動成功量度。使用[流量估算](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以預測在活動中建立模型所需的時間。
 
 ### 我的活動內已建立一個模型。對該體驗的造訪會個人化嗎? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
