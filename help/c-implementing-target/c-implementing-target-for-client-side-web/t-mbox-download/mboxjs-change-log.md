@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ ht-degree: 98%
 >
 >建議所有的 mbox.js 使用者升級至 57 版或更新版本。當 `target.js` 無法載入時，部分使用者遇到逾時問題。版本 57 已修正該問題。不過，如果您使用 [!DNL Experience Cloud Visitor ID] 服務，則需要 58 版或更新版本。
 
-Target 回應來自您頁面呼叫的方法，取決於您所使用的 Target 資料庫、是否實作訪客 ID，以及是否有訪客 ID。如需詳細資訊，請參閱[各資料庫版本的 Target 呼叫回應](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)。
+Target 回應來自您頁面呼叫的方法，取決於您所使用的 Target 資料庫、是否實作訪客 ID，以及是否有訪客 ID。如需詳細資訊，請參閱[各資料庫版本的 Target 呼叫回應](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)。
 
 >[!NOTE]
 >
->將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
+>將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
 ## mbox.js 版本 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ window.targetGlobalSettings = {
 
 * V60 非同步呼叫
 
-   使用 v60 搭配訪客 ID 服務時，所有 mbox 呼叫都會非同步進行。這是 mbox 一直以來運作方式的變更，因此，如果升級至此版本請注意。檢閱[文件的](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)非同步考量事項 [!DNL at.js] 小節 ([!DNL at.js] 也使用非同步呼叫) 來瞭解部分風險。
+   使用 v60 搭配訪客 ID 服務時，所有 mbox 呼叫都會非同步進行。這是 mbox 一直以來運作方式的變更，因此，如果升級至此版本請注意。檢閱[文件的](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)非同步考量事項 [!DNL at.js] 小節 ([!DNL at.js] 也使用非同步呼叫) 來瞭解部分風險。
 * 新訪客案例可能會閃爍
 
    使用 v58 到 v60 搭配訪客 ID 服務時，mbox 呼叫將等候訪客 ID 設定 (或等候發生逾時) 才觸發。這會發生在新訪客的第一個頁面載入上。
