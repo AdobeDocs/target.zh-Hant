@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -37,7 +37,7 @@ You can tell whether your organization has a Standard or Premium license by clic
    * 您將看到「屬 [!UICONTROL 性] 」標籤(「管 [!UICONTROL 理] >屬 [!UICONTROL 性] 」)
    * 您也會看到「使用者 [!UICONTROL 」標籤] (「管 [!UICONTROL 理] >使 [!UICONTROL 用者] 」)
 
-      [!DNL Target] Premium客戶應依照「企業使用者權 [限」和「設定企](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 業權限 [」中的指示，在中新增使用者並指派權限](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)[!DNL Adobe Admin Console]。
+      [!DNL Target] Premium客戶應依照「企業使用者權 [限」和「設定企](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 業權限 [」中的指示，在中新增使用者並指派權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)[!DNL Adobe Admin Console]。
 
 下圖顯示 [!UICONTROL Premium帳戶的] 「管理 [!DNL Target] 」頁面。 請注意，「屬 [!UICONTROL 性] 」和「 [!UICONTROL 使用者] 」標籤皆可使用：
 
