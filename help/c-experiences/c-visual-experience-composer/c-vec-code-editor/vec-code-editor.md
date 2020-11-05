@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 修改頁面的相關資訊，可讓您查看頁面修改內容及新增額外修改內容 (CSS 選取器、Mbox 及自訂程式碼)。
 
-「修改」頁面顯示在可視化體驗撰寫器 (VEC) 中對頁面所做的所有變更，並可讓您藉由點擊頁面上的每個元素並[選取動作以進行其他變更](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。您所做的每項變更都顯示為[!UICONTROL 修改]清單中的個別動作或元素。您也可以新增修改，包括以下修改類型: CSS 選取器、Mbox。和自訂程式碼。
+「修改」頁面顯示在可視化體驗撰寫器 (VEC) 中對頁面所做的所有變更，並可讓您藉由點擊頁面上的每個元素並[選取動作以進行其他變更](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。您所做的每項變更都顯示為[!UICONTROL 修改]清單中的個別動作或元素。您也可以新增修改，包括以下修改類型: CSS 選取器、Mbox。和自訂程式碼。
 
 ## 修改概觀 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >若要在表單式體驗撰寫器中開啟「修改」面板，請建立或編輯 HTML 選件。如需詳細資訊，請參閱 [表格式體驗撰寫器](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
+   >若要在表單式體驗撰寫器中開啟「修改」面板，請建立或編輯 HTML 選件。如需詳細資訊，請參閱 [表格式體驗撰寫器](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
 
    [!UICONTROL 「修改」]頁面隨即開啟，畫面分成左側的可視化模式和右側的「修改」面板。按一下[!UICONTROL 「固定」]圖示，沿著 Target UI 的側邊垂直固定「修改」面板，或水平固定在底部。請注意，下圖中的體驗 A 先前沒有任何修改。
 
@@ -191,7 +191,7 @@ ht-degree: 100%
 
 * 新增 Adobe Target 體驗範本以用於自訂程式碼。Target 體驗範為具有可設定輸入的預先編碼樣本，以用於執行常見的行銷人員使用案例。這些體驗範本可透過 VEC 或表單式體驗撰寫器免費提供給開發人員和行銷人員，做為執行常見使用案例的起點。使用案例包括 lightbox、carousel、countdown 等。
 
-   如需詳細資訊，請參閱[體驗範本](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)。
+   如需詳細資訊，請參閱[體驗範本](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)。
 
 ## 自訂程式碼最佳作法 {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ ht-degree: 100%
 
 換句話說，如果新增帶有文字的元素，然後在個別動作中，使用不同的文字編輯該元素，則「修改」面板會將這兩個動作顯示為個別元素。編輯元素時，您會建立可修改您原始建立元素的新元素，包含編輯的文字。如果您之後刪除原始元素，編輯後文字將找不到編輯後的元素，因此將不會顯示。第二個元素會維持在元素的清單中，但它不會影響頁面，因為它變更的元素已不再存在。
 
-***我在指令碼中使用`document.write`來建立的元素沒有出現在我預期的地方。***
+***我在指令碼中使用 `document.write` 來建立的元素沒有出現在我預期的地方。***
 
 指令碼會非同步執行。此經常造成 `document.write` 動作出現在頁面上的錯誤位置。Adobe 建議不要在自訂程式碼建立的指令碼中使用 `document.write`。
 
