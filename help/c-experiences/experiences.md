@@ -6,7 +6,7 @@ feature: experiences
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -26,6 +26,6 @@ Target 提供下列體驗撰寫器:
 
 | 類型 | 詳細資料 |
 | --- | --- |
-| [可視化體驗撰寫器 (VEC)](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC 是 Adobe Target 的其中一項主要功能。VEC 是一種編輯器，可讓行銷人員和設計人員使用視覺化介面來建立和變更內容。您可以進行許多設計選擇，而不需直接編輯程式碼。您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。 |
-| [表單式體驗撰寫器](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | 表單式體驗撰寫器提供非視覺的體驗建立。此功能可讓 Target Standard A/B 測試、體驗鎖定目標、自動個人化和 Recommendations 活動在電子郵件、資訊站和使用可視化體驗撰寫器無法運作的其他位置中傳送。 |
+| [可視化體驗撰寫器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC 是 Adobe Target 的其中一項主要功能。VEC 是一種編輯器，可讓行銷人員和設計人員使用視覺化介面來建立和變更內容。您可以進行許多設計選擇，而不需直接編輯程式碼。您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。 |
+| [表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | 表單式體驗撰寫器提供非視覺的體驗建立。此功能可讓 Target Standard A/B 測試、體驗鎖定目標、自動個人化和 Recommendations 活動在電子郵件、資訊站和使用可視化體驗撰寫器無法運作的其他位置中傳送。 |
 | [單一頁面應用程式 (SPA) 可視化體驗撰寫器 (VEC)](/help/c-experiences/spa-visual-experience-composer.md) | 適用於 SPA 的 VEC 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在熱門架構 (React 和 Angular) 上建立 A/B 測試和體驗鎖定目標 (XT) 活動。 |
