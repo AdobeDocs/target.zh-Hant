@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
@@ -47,7 +47,7 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-對象的[定義詳細資料快顯卡](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會顯示「規則」區段中的參數名稱。不會參照用來篩選的 mbox。
+對象的[定義詳細資料快顯卡](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會顯示「規則」區段中的參數名稱。不會參照用來篩選的 mbox。
 
 >[!NOTE]
 >
