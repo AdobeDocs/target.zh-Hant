@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 97%
@@ -148,7 +148,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 在活動中增加這些項目的數目也會造成活動在 Target 內同步化的時間更久。
 
-關於可視化體驗撰寫器的其他限制，請參閱[可視化體驗撰寫器限制](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+關於可視化體驗撰寫器的其他限制，請參閱[可視化體驗撰寫器限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 ## 針對在 Target 外部更新的活動而匯入到 Target 的屬性 {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
