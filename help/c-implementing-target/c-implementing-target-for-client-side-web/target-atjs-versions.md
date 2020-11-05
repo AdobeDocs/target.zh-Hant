@@ -6,7 +6,7 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3977'
 ht-degree: 85%
@@ -228,7 +228,7 @@ at.js 版本 1.5.0 現已可用。
 * `at-request-succeeded` 事件的詳細資訊內含重新導向旗標。這個旗標是用來判斷頁面是否會重新導向至其他 URL。如果您想知道該 URL，請訂閱 `at-content-rendering-redirect`。(TNT-29834)
 * 修正 `window.targetGlobalSettings.enabled` 在執行階段例外設為 false 時會失敗的問題。(TNT-29829)
 * 修正使用自訂程式碼觸發全域 mbox 要求，以及使用主體隱藏時，造成頁面在可視化體驗撰寫器 (VEC) 載入失敗的問題。(TNT-29795)
-* 新增對 `screenOrientation`、`devicePixelRatio` 和 `webGLRenderer` 的支援。這些新 Target 要求參數可用於偵測 iPhone X 和其他新型裝置。如需詳細資訊，請參閱[行動](../../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)。(TNT-29781)
+* 新增對 `screenOrientation`、`devicePixelRatio` 和 `webGLRenderer` 的支援。這些新 Target 要求參數可用於偵測 iPhone X 和其他新型裝置。如需詳細資訊，請參閱[行動](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)。(TNT-29781)
 * 修正偶爾未傳送 Adobe Audience Manager (AAM) 位置提示的問題。(TNT-29695)
 * 若瀏覽器支援 at.js 1.5.0，at.js 1.5.0 會切換為 MutationObserver 進行選取器輪詢。at.js 1.0.0 以前的版本使用 MutationObserver polyfill，已證實會造成問題。為避免 polyfill 問題，版本 1.5.0 使用下列虛擬程式碼，決定要使用哪個排程機制:
 
@@ -264,13 +264,13 @@ at.js 1.3.0 版現已可用。
 * at.js 已改善事件和點擊追蹤功能。at.js 使用 `navigator.sendBeacon()` 來傳送事件追蹤資料，並將在不支援 `navigator.sendBeacon()` 時退回同步 XHR。此次遞補主要影響 Internet Explorer 10 和 11 與一些版本的 Safari。Safari 將在近期的 iOS 11.3 版本中新增對 `navigator.sendBeacon()` 的支援。
 * at.js 現在可以呈現選件，即便頁面是在背景索引標籤中開啟亦然。部分 Target 客戶會在 `requestAnimationFrame()` 因背景標籤的瀏覽器節流行為而停用時遭遇問題。
 * 此版本新增了許多效能改善，包括檢查 Chrome CPU 設定檔時較短的呼叫堆疊。
-* at.js 1.3.0 不再支援 Microsoft Internet Explorer 9 上的內容傳送如需詳細資訊，請參閱[支援的瀏覽器](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)。今後，所有要求會透過 `XMLHttpRequest` 執行，具有 CORS 支援而不沒有 JSONP 要求。此變更大幅改善安全性。
+* at.js 1.3.0 不再支援 Microsoft Internet Explorer 9 上的內容傳送如需詳細資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)。今後，所有要求會透過 `XMLHttpRequest` 執行，具有 CORS 支援而不沒有 JSONP 要求。此變更大幅改善安全性。
 
 ## at.js 版本 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
 [!DNL at.js] 版本 1.2.3 現在已可用。
 
-* 新增 JSON 選件的支援。只有在使用表單式體驗撰寫器建立的活動中才支援 JSON 選件。目前使用 JSON 選件的唯一方式是透過直接 API 呼叫。請參閱[建立 JSON 選件](../../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)。
+* 新增 JSON 選件的支援。只有在使用表單式體驗撰寫器建立的活動中才支援 JSON 選件。目前使用 JSON 選件的唯一方式是透過直接 API 呼叫。請參閱[建立 JSON 選件](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)。
 
 ## at.js 版本 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
@@ -308,7 +308,7 @@ at.js 1.3.0 版現已可用。
 
 [!DNL at.js] 版本 1.1 中包括下列增強功能和修正:
 
-* 已新增回應 Token 處理。如需詳細資訊，請參閱[回應 Token](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)。
+* 已新增回應 Token 處理。如需詳細資訊，請參閱[回應 Token](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)。
 * 已解決問題，使得 `document.currentScript polyfill` 不會干預 Angular 1.X。
 * 進行變更以確保點擊追蹤不會干預可見性屬性。點擊追蹤元素會以 `at-element-click-tracking` CSS 類別標記，而非 `at-element-marker`。
 
@@ -326,7 +326,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 * 在活動傳遞期間的自訂事件 Bug/錯誤報表。
 * 修正 Microsoft Internet Explorer 11 中的效能問題。
 * `getOffer()` 函數在部分網站上發生錯誤的修正。
-* 以非同步方式載入 Target 資料庫。如需詳細資訊，請參閱 [at.js 常見問題](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)。
+* 以非同步方式載入 Target 資料庫。如需詳細資訊，請參閱 [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)。
 
 ## at.js 版本 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -342,7 +342,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
 [!DNL at.js] 版本 0.9.6 中包括下列增強功能和修正:
 
-* 重新導向選件支援 A4T。下載和安裝 [!DNL at.js] 版本 0.9.6 之後，您可以在使用 [!DNL Adobe Analytics] 做為 [!DNL Target] (A4T) 報表來源的活動中使用重新導向選件。除了 [!DNL at.js] 版本 0.9.6，還有您的實作必須符合以便使用重新導向選件和 A4T 的其他基本需求。如需詳細資訊和須知的其他重要資訊，請參閱[重新導向選件 - A4T 常見問題集](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
+* 重新導向選件支援 A4T。下載和安裝 [!DNL at.js] 版本 0.9.6 之後，您可以在使用 [!DNL Adobe Analytics] 做為 [!DNL Target] (A4T) 報表來源的活動中使用重新導向選件。除了 [!DNL at.js] 版本 0.9.6，還有您的實作必須符合以便使用重新導向選件和 A4T 的其他基本需求。如需詳細資訊和須知的其他重要資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 * 在 [!DNL at.js] 0.9.6 之前，當頁面上存在訪客 API，並且 `visitorApiTimeout` 設定太積極時， 可能會遇到 [!DNL Target]Target 要求中未傳送任何 MCID 資料的情況。這可能在使用 A4T 時導致 [!DNL Analytics] 中的問題，例如散亂的點擊。
 
    在 [!DNL at.js] 0.9.6 中此行為已變更，即便 `visitorApiTimeout` 設為假設 1 毫秒，Target 將嘗試收集 SDID、追蹤伺服器和客戶 ID 資料，並在 Target 要求中傳送那些資料。
@@ -361,7 +361,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
 * mbox 名稱現在可以包含特殊字元，包括 &amp; 符號，以與使用 mbox.js 的 mbox 名稱命名需求一致。
 
-   如需允許的特殊字元的清單，請參閱 [at.js 設定](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)。
+   如需允許的特殊字元的清單，請參閱 [at.js 設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)。
 
 * 已新增 `secureOnly` 設定，指出 at.js 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。這是進階的設定，預設值為 False 並且可透過 `targetGlobalSettings` 覆寫。
 * [!UICONTROL 「舊版瀏覽器支援」]選項可在 at.js 版本 0.9.3 和更早版本中取得。此選項已在 at.js 版本 0.9.4 中移除。
