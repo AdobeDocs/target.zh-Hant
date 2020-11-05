@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 98%
@@ -93,7 +93,7 @@ ht-degree: 98%
 
 1. (依條件) 按一下&#x200B;**[!UICONTROL 「選件」]**，選取內容片段並將它們指派給報表群組，或只允許特定訪客查看特定具有鎖定目標的選件。
 
-   如需詳細資訊，請參閱[自動個人化中的選件報表群組](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)。
+   如需詳細資訊，請參閱[自動個人化中的選件報表群組](/help/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)。
 
    使用[!UICONTROL 「位置」]清單，依位置篩選選件。使用[!UICONTROL 「報表群組」]清單，依報表群組篩選選件。您也可以使用[!UICONTROL 「報表群組」]清單，篩選[!UICONTROL 「未指派的選件」]，為目前未指派任何報表群組的選件，指派報表群組。
 
@@ -107,7 +107,7 @@ ht-degree: 98%
 
    請務必瞭解報表群組影響 Target 建置其模型的方式。因此，建議您僅在計劃於活動上線時取代或新增選件時才使用報表群組。如果對已上線活動推出新選件，將新選件放到具有現有類似選件的群組中，可允許機器使用已為其群組中其他選件所收集的資料，以學習新選件的相關資訊。您永遠不應將所有選件放置在單一報表群組中。
 
-   如需將選件鎖定在特定對象的相關資訊，請參閱[Target AP 選件](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)。
+   如需將選件鎖定在特定對象的相關資訊，請參閱[Target AP 選件](/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)。
 
 1. (依條件) 按一下&#x200B;**[!UICONTROL 「排除群組」]**&#x200B;來選擇您要從活動中排除的任何元素組合。
 
@@ -171,4 +171,4 @@ ht-degree: 98%
 
 按一下&#x200B;**[!UICONTROL 「建立」]**&#x200B;之後，活動摘要隨即出現。按一下&#x200B;**「預覽體驗」**&#x200B;即可預覽體驗傳遞後的外觀。隨即會出現彈出視窗，您可用來檢視和共用網站上 AP 體驗的連結，以獲得在 Target 可視化體驗撰寫器外部的「實際預覽」體驗。您必須分享來自訊息的連結以分享預覽。按一下連結，然後直接從頁面複製 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。
 
-如需關於報表的資訊，請參閱[自動個人化報表](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)。
+如需關於報表的資訊，請參閱[自動個人化報表](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)。
