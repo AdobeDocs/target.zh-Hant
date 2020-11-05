@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -50,8 +50,8 @@ Adobe 對於自己的資料準確性和品質感到自豪。觸發 [!DNL Target]
 * **不相符的報表套裝 ID (實作):** 在活動設定指定的報表套裝不符合傳送測試所在頁面上的報表套裝。這看起來像是部分資料，因為資料無法在 [!DNL Analytics] 伺服器上協調。
 * **緩慢頁面:** 因為 [!DNL Target] 呼叫在頁面的最上方，而 [!DNL Analytics] 呼叫一般是在頁面底端，如果頁面載入緩慢，會增加訪客在 [!DNL Target] 呼叫觸發之後，但在 [!DNL Analytics] 呼叫之前離開頁面的可能性。在連線往往較緩慢的行動網站上，這可能特別造成問題。
 * **頁面錯誤:** 如果發生 JavaScript 錯誤或每個接觸點 (Experience Cloud ID 服務、Target 和 Analytics) 都未觸發的其他案例，便會造成部分資料。
-* **[!DNL Target]活動中的重新導向選件:** 針對使用 A4T 活動中的重新導向選件，您的實作必須符合某些最低需求。此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
-* **舊版資料庫:** 在過去幾年，Adobe 已對我們的 JavaScript 資料庫 ([!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`) 進行多項改善，以確定盡可能有效率地傳送資料。若要進一步瞭解實作需求，請參閱[實作之前](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
+* **[!DNL Target] 活動中的重新導向選件:** 針對使用 A4T 活動中的重新導向選件，您的實作必須符合某些最低需求。此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
+* **舊版資料庫:** 在過去幾年，Adobe 已對我們的 JavaScript 資料庫 ([!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`) 進行多項改善，以確定盡可能有效率地傳送資料。若要進一步瞭解實作需求，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
 
 ## 減少部分資料的最佳做法為何? {#section_065C38501527451C8058278054A1818D}
 
