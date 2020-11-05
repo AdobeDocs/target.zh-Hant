@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 使用「選擇加入」時，該考慮三種情況:
 
-1. **[!DNL Target]標記是透過[!DNL Launch]預先核准 (或資料主體先前核准[!DNL Target]):**[!DNL Target] 標記不會為同意保留，並照常運作。
-1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「FALSE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。收到同意後，系統會呼叫 [!DNL Target]，資料主體 (訪客) 即可使用個人化內容。由於收到同意前只能使用預設內容，因此運用適當策略非常重要，例如遮住整個頁面或可個人化內容的啟動顯示畫面。這可確保資料主體 (訪客) 的體驗一致。
-1. **[!DNL Target]標記「不會」預先核准且`bodyHidingEnabled`為「TRUE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 [!DNL Target] 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。這項設定會將 [!DNL Target] 設定為只隱藏頁面內容容器。如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **[!DNL Target] 標記是透過 [!DNL Launch] 預先核准 (或資料主體先前核准 [!DNL Target]):**[!DNL Target] 標記不會為同意保留，並照常運作。
+1. **[!DNL Target] 標記「不會」預先核准且 `bodyHidingEnabled` 為「FALSE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。收到同意後，系統會呼叫 [!DNL Target]，資料主體 (訪客) 即可使用個人化內容。由於收到同意前只能使用預設內容，因此運用適當策略非常重要，例如遮住整個頁面或可個人化內容的啟動顯示畫面。這可確保資料主體 (訪客) 的體驗一致。
+1. **[!DNL Target] 標記「不會」預先核准且 `bodyHidingEnabled` 為「TRUE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 [!DNL Target] 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。這項設定會將 [!DNL Target] 設定為只隱藏頁面內容容器。如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    情況 3 的建議頁面設定如下:
 
@@ -121,7 +121,7 @@ window.targetGlobalSettings = {
 
 ### [!DNL Adobe] 提交資料主體/使用者要求後， 會讓客戶刪除哪些資訊? {#section_4B51D00924EC4166B2442218B69214F0}
 
-有關 [!DNL Target] 中的個別訪客資訊會包含在 [!DNL Target] 訪客設定檔中。[!DNL Target] 會讓客戶刪除與其訪客設定檔中之 ID 相關的所有資料。如需設定檔資料 [!DNL Target] 儲存的範例，請參閱[訪客設定檔](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)。
+有關 [!DNL Target] 中的個別訪客資訊會包含在 [!DNL Target] 訪客設定檔中。[!DNL Target] 會讓客戶刪除與其訪客設定檔中之 ID 相關的所有資料。如需設定檔資料 [!DNL Target] 儲存的範例，請參閱[訪客設定檔](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)。
 
 不會識別特定個人的彙總或匿名資料 (例如報告資料)，或與特定個人不相關的資料 (例如內容資料)，則不在使用者刪除要求的範圍之內。
 
@@ -296,7 +296,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 ### Target 支援 IP 模糊化功能嗎?   {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
+如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
 
 ### 我是否需要採取措施來防止我的資料被分享或出售給第三方？
 
