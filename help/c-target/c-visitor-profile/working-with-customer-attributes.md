@@ -1,13 +1,13 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: 使用Adobe Experience Cloud人員核心服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料以在Adobe Target中定位內容的相關資訊。
+description: 使用Adobe Experience Cloud People核心服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料以在Adobe Target中定位內容的相關資訊。
 title: Adobe Target中的客戶屬性
 feature: visitor profiles
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 37%
@@ -38,7 +38,7 @@ Consider the following information as your work with customer attributes and [!D
    >[!DNL at.js] （任何版本）或 [!DNL mbox.js] 58版或更新版本為必要。
 
 * [!DNL Adobe] 不保證來自CRM資料庫的100%客戶屬性（訪客資料）資料會載入 [!DNL Experience Cloud] ，因此可用於定位 [!DNL Target]。 在我們目前的設計中，有可能少量的資料（大量生產批次的0.1%）無法封存。
-* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 如需詳細資訊，請參閱訪 [客資料存留期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 如需詳細資訊，請參閱訪 [客資料存留期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
