@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 86%
@@ -38,7 +38,7 @@ Target Premium 包含下列進階功能:
 
 ### 自動個人化
 
-[自動個人化](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)提供進階的機器學習演算法，以產生個人化的體驗，並改善數位體驗的轉換率。
+[自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)提供進階的機器學習演算法，以產生個人化的體驗，並改善數位體驗的轉換率。
 
 自動個人化 (以前的 Test&amp;Target 1:1) 會記錄網站上的訪客活動，建立訪客的設定檔，將內容的目標鎖定在類似的訪客上。它會追蹤內容的回應 (個人與所有人口族群)，然後使用精密的模型建立方法，藉由記錄每件已知的訪客資料來自動個別定位。
 
@@ -50,7 +50,7 @@ Target Premium 包含下列進階功能:
 
 ### 建議
 
-[Recommendations 活動可依據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)Recommendations 可協助引導客戶至他們可能不知道的相關項目。
+[Recommendations 活動可依據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 
 建議會判斷向客戶建議產品的方式，取決於客戶在網站上的行為。例如:
 
@@ -79,13 +79,13 @@ Target Premium 包含下列進階功能:
 
 ### 企業使用者權限
 
-[「企業使用者權限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 」功能可讓您建立不同的專案(在中稱為「產品設定檔」 [!DNL Adobe Admin Console for Enterprise])，以允許您為單一使用者指派不同的權限，以指定使用者對每個專案的存取權限。 這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果是，客戶將能夠根據地區、環境（開發／階段/prod）、頻道或其他自訂准則，限制其使用者的檢視、編輯、核准和發佈存取權。
+[「企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 」功能可讓您建立不同的專案(在中稱為「產品設定檔」 [!DNL Adobe Admin Console for Enterprise])，以允許您為單一使用者指派不同的權限，以指定使用者對每個專案的存取權限。 這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果是，客戶將能夠根據地區、環境（開發／階段/prod）、頻道或其他自訂准則，限制其使用者的檢視、編輯、核准和發佈存取權。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 [!DNL Recommendations Classic] 會依據網站上先前的使用者行為，自動顯示可能吸引客戶的產品或內容。「建議」有助於將客戶導向他們原本可能不知道的項目，提升網站產生的銷售額。
 
-如需詳細資訊，請參閱[建議傳統版本說明文件](../assets/adobe-recommendations-classic.pdf)。
+如需詳細資訊，請參閱[建議傳統版本說明文件](/help/assets/adobe-recommendations-classic.pdf)。
 
 ## Experience League: Adobe Target Welcome Kit {#kit}
 
