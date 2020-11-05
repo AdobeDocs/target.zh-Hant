@@ -5,7 +5,7 @@ title: 建立 Recommendations 活動
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 78%
@@ -80,7 +80,7 @@ ht-degree: 78%
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。視您的「Recommendations」設定 ([!UICONTROL 「Recommendations] > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示&#x200B;**[!UICONTROL 「相容」]**&#x200B;選項。如需詳細資訊，請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
+   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。視您的「Recommendations」設定 ([!UICONTROL 「Recommendations] > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示&#x200B;**[!UICONTROL 「相容」]**&#x200B;選項。如需詳細資訊，請參閱[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
 
    ![選取條件對話方塊](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -90,13 +90,13 @@ ht-degree: 78%
 
       有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](../../c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。
    * 您也可以將條件群組為序列。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 如需詳 [細資訊，請參閱](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) 「建立准則序列」。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包含數種預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包含數種預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![選取設計對話方塊](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -106,11 +106,11 @@ ht-degree: 78%
 
       如果您選取了多個條件，則僅能選取一個設計。
 
-   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。如需關於建立新設計的資訊，請參閱[建立設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。如需關於建立新設計的資訊，請參閱[建立設計](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
-   您有選項可將促銷活動新增至您的建議。如需關於新增前端和後端促銷活動的詳細資訊，請參閱[新增促銷活動](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   您有選項可將促銷活動新增至您的建議。如需關於新增前端和後端促銷活動的詳細資訊，請參閱[新增促銷活動](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -136,7 +136,7 @@ ht-degree: 78%
 
       >[!NOTE]
       >
-      >除了選取現有對象，您還可以[建立僅限於此活動的對象](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或是[結合多個對象](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)來建立隨選對象而非建立新對象。
+      >除了選取現有對象，您還可以[建立僅限於此活動的對象](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或是[結合多個對象](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)來建立隨選對象而非建立新對象。
 
       依預設，所有使用者都會看到建議。不過，您可以將建議鎖定在特定對象。
 
@@ -151,7 +151,7 @@ ht-degree: 78%
 1. 完成後，按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 指定您的活動設定。
 
-   例如，輸入活動的名稱 (必要) 和目標 (可選)。如需關於設定的資訊，請參閱 [Recommendations 活動設定](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
+   例如，輸入活動的名稱 (必要) 和目標 (可選)。如需關於設定的資訊，請參閱 [Recommendations 活動設定](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
 
    >[!NOTE]
    >
