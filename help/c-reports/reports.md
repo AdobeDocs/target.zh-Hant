@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 64%
@@ -45,8 +45,8 @@ Reports provide information about the progress and results of your [!DNL Adobe T
    >
    >至少有一個加入者看過體驗之後，體驗結果才會出現。
 
-1. (選用) 視需要[設定報表](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)。
-1. (選用) [下載 CSV 格式的報表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)，以便在 Excel 和其他工具中進行分析。
+1. (選用) 視需要[設定報表](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)。
+1. (選用) [下載 CSV 格式的報表](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)，以便在 Excel 和其他工具中進行分析。
 
    可使用下列選項: 
 
@@ -82,4 +82,4 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 
 您可封鎖來自特定 IP 位址的訪客，不計算在報表中。例如，這有助於封鎖來自內部訪客的報告資料。
 
-[請聯絡 Client Care 以設定 IP 過濾器。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)當使用Analytics for Target [](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T)做為報表來源時，此篩選不適用。
+[請聯絡 Client Care 以設定 IP 過濾器。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)當使用Analytics for Target [](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T)做為報表來源時，此篩選不適用。
