@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->除了下列疑難排解資訊，請參閱[疑難排解 Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 中提供的連結，取得其他疑難排解主題、常見問題集和疑難排解活動與其他 [!DNL Adobe Target] 功能的其他實用資訊。
+>除了下列疑難排解資訊，請參閱[疑難排解 Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 中提供的連結，取得其他疑難排解主題、常見問題集和疑難排解活動與其他 [!DNL Adobe Target] 功能的其他實用資訊。
 
 以下各節包含您可能會遇到的問題，並提供建議的解決方案。
 
@@ -82,7 +82,7 @@ ht-degree: 81%
 * 請要求帳戶的管理員將您變成「核准者」。
 * If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
-   請參閱[將核准者角色指派給您自己](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
+   請參閱[將核准者角色指派給您自己](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
 ## 頁面的結構自從設定活動後已變更。
 
@@ -92,7 +92,7 @@ ht-degree: 81%
 
 * 重建活動。
 
-如需關於頁面修改如何影響 Target 顯示功能的資訊，請參閱[頁面修改案例](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如需關於頁面修改如何影響 Target 顯示功能的資訊，請參閱[頁面修改案例](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 ## 頁面的結構在頁面載入期間 (執行階段) 已修改。
 
@@ -105,7 +105,7 @@ ht-degree: 81%
 * 更新頁面程式碼 (使用 ID) 來唯一識別每個將測試的元素。
 * 如上所述，停止動態修改類別或同層級。
 
-如需關於頁面修改如何影響 Target 顯示功能的資訊，請參閱[頁面修改案例](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如需關於頁面修改如何影響 Target 顯示功能的資訊，請參閱[頁面修改案例](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 ## mbox.js 會將 head 中所有後續的程式碼丟入 body 中。
 
