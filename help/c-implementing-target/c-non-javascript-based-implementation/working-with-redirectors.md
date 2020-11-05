@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 * 找到達成最多轉換的著陸頁面
 
-如需有關決定正確設定的說明，請參閱[非 JavaScript 型實作](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
+如需有關決定正確設定的說明，請參閱[非 JavaScript 型實作](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
 
 ## Create a redirector {#redirector}
 
@@ -66,10 +66,10 @@ ht-degree: 69%
    1. *安全性最佳實務*:請確定允許列出重新導向程式中使用的網域，如上所述。 如果您使用未允許列出的網域，Adobe會封鎖對該網域的任何呼叫，以防止惡意使用者使用「重新導向程式」重新導向至可能有惡意的網域。
    1. 請將「重新導向程式 URL」插入到瀏覽器中，然後重新整理。
    1. 登入您的帳戶，重新整理您的 mbox 清單，然後確認新的「重新導向程式」是否已列為 mbox。
-1. 如果要測試某個廣告的不同目的地，請分別為每個版本建立[重新導向選件](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
+1. 如果要測試某個廣告的不同目的地，請分別為每個版本建立[重新導向選件](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 1. 建立促銷活動。
 
-   請參閱[非 JavaScript 型實作](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以瞭解符合您目標的正確設定。
+   請參閱[非 JavaScript 型實作](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以瞭解符合您目標的正確設定。
 1. 完成促銷活動上的品質保證。
 
    以包含重新導向程式 URL 的 `<a href>` 建立一個虛擬頁面。範例:
