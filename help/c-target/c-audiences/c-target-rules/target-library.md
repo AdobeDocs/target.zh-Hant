@@ -5,7 +5,7 @@ title: Adobe Target觀眾中的Target程式庫選項
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 根據預先建置的鎖定目標規則鎖定使用者。
 
-Target 資料庫類別中預先建置的對象為舊版對象，並且存在於其他類別。如需詳細資訊和最佳做法，請參閱[目標和對象常見問題](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D)。
+Target 資料庫類別中預先建置的對象為舊版對象，並且存在於其他類別。如需詳細資訊和最佳做法，請參閱[目標和對象常見問題](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D)。
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
