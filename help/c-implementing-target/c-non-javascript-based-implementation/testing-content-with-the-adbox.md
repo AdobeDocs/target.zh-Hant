@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 77%
@@ -21,7 +21,7 @@ ht-degree: 77%
 
 AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox 是使用特殊的「AdBox URL」建立，此 URL 會將「廣告」mbox (或 AdBox) 載入到您的 Adobe 帳戶。請在您的活動中使用此 AdBox 取代 mbox。請在電子郵件或其他非 JavaScript 實施中使用 AdBox URL 而非直接影像參考。
 
-如需關於選擇正確設定的說明，請參閱 [非 JavaScript 型實作](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
+如需關於選擇正確設定的說明，請參閱 [非 JavaScript 型實作](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
 
 1. 建立 AdBox URL:
 
@@ -43,7 +43,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
       此網址必須經過 URL 編碼，且必須為絕對參照。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
-1. 為每個替代影像建立[重新導向選件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
+1. 為每個替代影像建立[重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
 1. 建立活動。
 
-   請參閱[非 JavaScript 型實作](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以瞭解符合您目標的正確設定。
+   請參閱[非 JavaScript 型實作](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以瞭解符合您目標的正確設定。
 1. 完成活動上的品質保證。
 
    作為最佳作法，請建立一份虛擬頁面，然後確認對您所有的環境來說，所有的體驗、預設內容與報表都如預期般在所有瀏覽器類型上運作。
