@@ -6,10 +6,10 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 87%
+source-wordcount: '2014'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 87%
 >[!NOTE]
 >
 >[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。如需此授權提供之進階功能的詳細資訊，請參閱 [Target Premium](/help/c-intro/intro.md)。
+>
+>[!UICONTROL Analytics for Target] (A4T)支援 [!UICONTROL Auto-Target活動] 。 如需詳細資訊，請 [參閱建立使用Analytics作為報告來源的活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。
 
 ## 使用Auto-Target的實際成功案例 {#success}
 
