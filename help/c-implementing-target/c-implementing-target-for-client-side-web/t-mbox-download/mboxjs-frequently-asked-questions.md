@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 98%
@@ -26,13 +26,13 @@ ht-degree: 98%
 
 在許多情況下，如果在 mbox.js 檔案內使用 `document.write` 函式，則使用 Chrom 時會出現此主控台訊息。這是警告訊息，應該不影響活動設定程序。
 
-防止此狀況的最佳方式是[將 Target 實作移轉至 at.js JavaScript 程式庫](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)，此程式庫不使用 `document.write` 函式。使用 at.js 比使用 mbox.js 的好處更多。如需詳細資訊，請參閱 [at.js 常見問題](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)。
+防止此狀況的最佳方式是[將 Target 實作移轉至 at.js JavaScript 程式庫](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)，此程式庫不使用 `document.write` 函式。使用 at.js 比使用 mbox.js 的好處更多。如需詳細資訊，請參閱 [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)。
 
 ## 為什麼在我的網頁上 mbox 不會觸發? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
  客戶有時使用雲端型例項搭配 [!DNL Target]Target 進行測試或簡單的概念證明用途。這些網域和許多其他網域均屬於[公用字尾清單](https://publicsuffix.org/list/public_suffix_list.dat)。
 
-如果您使用這些網域，則現代瀏覽器不會儲存 Cookie，除非您使用 targetGlobalSettings() 自訂 `cookieDomain` 設定。如需詳細資訊，請參閱[使用雲端型例項搭配 Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)。
+如果您使用這些網域，則現代瀏覽器不會儲存 Cookie，除非您使用 targetGlobalSettings() 自訂 `cookieDomain` 設定。如需詳細資訊，請參閱[使用雲端型例項搭配 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)。
 
 ## Target 伺服器呼叫的目標網域 tt.omtrdc.net 為何? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
