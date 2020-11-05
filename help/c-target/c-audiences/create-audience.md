@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%
@@ -54,7 +54,7 @@ ht-degree: 99%
    規則可讓您將對象限制在網站訪客的子集。
 1. 選取規則類型。
 
-   每個規則類型都有其專屬的參數。請參閱[對象的類別](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的對象規則的詳細資訊。
+   每個規則類型都有其專屬的參數。請參閱[對象的類別](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的對象規則的詳細資訊。
 1. 定義規則參數。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
