@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 94%
@@ -25,7 +25,7 @@ Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本
 1. 按一下&#x200B;**[!UICONTROL 「下載 mbox.js」]**，並依照提示操作來儲存檔案。
 1. (條件式) 如果您使用 [!DNL mbox.js] 版本 60 或更新版本，您可以設定資料庫以依預設自動隱藏頁面內容直到 mbox 載入，以減少回應式網站上的閃爍。
 
-   如需詳細資訊，請參閱 [mbox.js 進階設定](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)中的「抑制頁面載入忽隱忽現」。
+   如需詳細資訊，請參閱 [mbox.js 進階設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)中的「抑制頁面載入忽隱忽現」。
 
 1. 在網站上建立 [!DNL mbox.js] 參考。
 
