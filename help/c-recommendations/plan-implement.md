@@ -5,7 +5,7 @@ title: '計劃和實作 Recommendations '
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -111,7 +111,7 @@ function targetPageParams() {
 }
 ```
 
-如需更多您在不同頁面上可能使用的程式碼範例，請參閱[根據頁面類型的實作](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+如需更多您在不同頁面上可能使用的程式碼範例，請參閱[根據頁面類型的實作](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 
 ## 根據頁面類型實作 {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 例如，您要在產品頁面上呈現的建議類型與在類別頁面或您的首頁上的可能不同。針對每個頁面，您可以在 mbox 呼叫之前執行特定函數，以顯示適當的建議。
 
-如需關於範例中屬性的資訊，請參閱[實體屬性](../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。
+如需關於範例中屬性的資訊，請參閱[實體屬性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。
 
 需要有效的 JSON 格式。
 
@@ -130,11 +130,11 @@ function targetPageParams() {
 包含建議的所有頁面需要在頁面上有 [!DNL at.js] 或 [!DNL mbox.js] 參考。新增下列其中一個參考至具有建議的所有頁面:
 
 ```
-<script src="../at.js /></script>
+<script src="/help/at.js /></script>
 ```
 
 ```
-<script src="../mbox.js /></script>
+<script src="/help/mbox.js /></script>
 ```
 
 此實作需要:
@@ -143,9 +143,9 @@ function targetPageParams() {
 
 * [!DNL mbox.js] 必須包括 [!DNL target.js] 的參照 ([!DNL at.js] 不需要 [!DNL target.js] 的參照)
 
-如需關於實作 [!DNL at.js] 的詳細資訊，請參閱[如何部署 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)。
+如需關於實作 [!DNL at.js] 的詳細資訊，請參閱[如何部署 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)。
 
-如需關於實作 [!DNL mbox.js] 的詳細資訊，請參閱 [Mbox.js 實作](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
+如需關於實作 [!DNL mbox.js] 的詳細資訊，請參閱 [Mbox.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
 
 如需關於這兩個 Target Javascript 資料庫之間差異的詳細資訊，請參閱 [at.js 的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)。
 
@@ -198,8 +198,8 @@ function targetPageParams() {
 
 在感謝頁面上，您會想要顯示訂購總計和訂購 ID，以及顯示所購買的產品，而不建議其他項目。您可以實作第二個 mbox 來擷取訂購資訊。
 
-* 如果您使用 at.js，請參閱[追蹤轉換](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
-* 若您使用 mbox.js，請參閱[建立訂購確認 mbox - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
+* 如果您使用 at.js，請參閱[追蹤轉換](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
+* 若您使用 mbox.js，請參閱[建立訂購確認 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
 
 ## 設定 {#concept_C1E1E2351413468692D6C21145EF0B84}
 
