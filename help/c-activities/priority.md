@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -29,7 +29,7 @@ ht-degree: 88%
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 訪客符合的所有活動和體驗的內容會傳回至頁面。
-1. 如果每一個活動的內容參考不同的 [CSS 選取器](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
+1. 如果每一個活動的內容參考不同的 [CSS 選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
 
    如果有重疊或重複的 CSS 選取器，則會顯示具有最高優先順序的活動內容。在頁面上執行且來自所有活動的結果會計入並反映在報表中。
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->視您的設定而定，優先順序值會有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。如需詳細資訊，請參閱[活動設定](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
+>視您的設定而定，優先順序值會有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。如需詳細資訊，請參閱[活動設定](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
 
 **兩個Target Classic促銷活動使用非全域Target請求**
 
