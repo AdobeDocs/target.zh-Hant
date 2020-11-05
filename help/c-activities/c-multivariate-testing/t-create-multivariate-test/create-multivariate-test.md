@@ -5,7 +5,7 @@ title: 建立多變數測試
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 97%
@@ -29,7 +29,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
    >
    >可用的活動類型取決於您的 Target 帳戶。有些活動類型可能不會出現在您的清單中。例如，[!UICONTROL Automated Personalization] 是 [Target Premium 功能](/help/c-intro/intro.md#premium)。
    >
-   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱[Target 活動類型](/help/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
+   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱[Target 活動類型](/help/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
 
 1. 視需要選取&#x200B;**[!UICONTROL 視覺 (預設)]**。
 
@@ -43,7 +43,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 為您要測試的頁面[指定 URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+1. 為您要測試的頁面[指定 URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
    | - | 減號 |
    | @ | 「@」符號 |
 
-1. [在每個位置中建立選件](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
+1. [在每個位置中建立選件](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
    ![編輯文字/HTML 對話方塊](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
@@ -88,7 +88,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
    ![排除體驗](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
-1. [使用流量估算程式](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)來測試您的測試計劃的可行性。
+1. [使用流量估算程式](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)來測試您的測試計劃的可行性。
 
    ![流量指標](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
@@ -110,11 +110,11 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
    >[!NOTE]
    >
-   >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-1. [檢閱測試摘要](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)，並進行任何需要的變更，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+1. [檢閱測試摘要](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)，並進行任何需要的變更，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
-1. [指定測試的目標與設定](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
+1. [指定測試的目標與設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;來建立活動。
 
