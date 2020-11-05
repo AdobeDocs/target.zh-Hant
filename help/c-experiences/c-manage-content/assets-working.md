@@ -5,7 +5,7 @@ title: 使用程式庫中的內容
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 1. 按一下&#x200B;**[!UICONTROL 「選件」]**，選取&#x200B;**[!UICONTROL 「代碼選件」]**&#x200B;或&#x200B;**[!UICONTROL 「影像選件」]**&#x200B;標籤，然後找到您要使用的資產。
 
-   如需搜尋選件資料庫和建立智慧型集合的相關資訊，請參閱[篩選與搜尋內容](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
+   如需搜尋選件資料庫和建立智慧型集合的相關資訊，請參閱[篩選與搜尋內容](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
 
 1. 將游標暫留在您要使用的項目上方，然後選取動作。若要存取並執行下列某些動作，您必須先按一下選取圖示 (核取方塊)，然後選擇想要的動作 (例如刪除)。
 
