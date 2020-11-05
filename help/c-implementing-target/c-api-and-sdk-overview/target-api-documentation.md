@@ -6,7 +6,7 @@ feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 停用 Adobe Target Classic 之後，連接到 Target Classic 帳戶的 API 也已無法使用。本文協助您從舊版 API 型整合移轉至 Adobe I/O 所支援的 Target API。
 
-如需有關 Target API 文件的詳細資訊，請參閱 [Target API 與 NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6)。
+如需有關 Target API 文件的詳細資訊，請參閱 [Target API 與 NodeJS SDK](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6)。
 
 ## 術語 {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
