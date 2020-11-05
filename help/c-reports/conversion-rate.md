@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 此數字代表再次執行測試時會產生重複結果的可能性。可信度大於或等於 99.995% 時會四捨五入為 100.00%。
 
-請參閱[信賴等級與信賴區間](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
+請參閱[信賴等級與信賴區間](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
 
 ## 零售資料 {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 
 ## 可信度計算以及如何離線執行計算 {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-[下載的 CSV 報表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
+[下載的 CSV 報表](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ To calculate these calculated metrics, download the Target&#39;s [Complete Confi
 
 例如，假設您想最佳化每位訪客的頁面檢視，則需要匯出每位訪客在指定時間範圍內的頁面檢視總數樣本，或許是幾天 (所有您需要的就是幾千個資料點)。接著，您會求每一個值的平方，並算出總和 (此處的運算順序很重要)。然後，在「完整信賴度計算機」中會使用此「平方和」值。針對這些值，使用該試算表的「收入」區段。
 
-**使用[!DNL Analytics]資料匯出功能來這樣做:**
+**使用 [!DNL Analytics] 資料匯出功能來這樣做:**
 
 1. 登入 [!DNL Adobe Analytics]。
 1. 按一下「**[!UICONTROL 工具]** > **[!UICONTROL 資料倉儲]**」。
