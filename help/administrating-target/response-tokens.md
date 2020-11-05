@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. 確保您使用 [!DNL at.js] 版本 1.1 或更新版本。
 
-   如需詳細資訊，請參閱[下載 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
+   如需詳細資訊，請參閱[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -59,7 +59,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客收到來自「控制」流量的體驗，則傳回0；如果訪客收到來自「目標」流量分佈的體驗，則傳回1。 |
+   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「目標」流量分佈收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已定位」。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
@@ -113,7 +113,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    });
    ```
 
-如果您要將一切都放在單一檔案中，可以將下列程式碼片段新增至資料庫頁尾 [at.js 設定頁面](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)。
+如果您要將一切都放在單一檔案中，可以將下列程式碼片段新增至資料庫頁尾 [at.js 設定頁面](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)。
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 外掛程式和回應 Token 平行可用，但未來將淘汰外掛程式。
 
-**回應Token是透過所有回應傳遞[!DNL Target]，還是僅透過回應[!DNL Target]傳遞活動傳遞？**
+**回應Token是透過所有回應傳遞 [!DNL Target] ，還是僅透過回應 [!DNL Target] 傳遞活動傳遞？**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
