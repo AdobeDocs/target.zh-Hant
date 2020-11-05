@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 [!DNL Adobe Target] 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 
-如需 TLS 的其他重要資訊，請參閱 [TLS (傳輸層安全性) 加密變更](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
+如需 TLS 的其他重要資訊，請參閱 [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
 ## [!DNL Target] Standard/Premium 介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -45,4 +45,4 @@ The [!DNL Target] interface supports the following browsers and devices:
 * 針對 [!DNL at.js] 實作，[!DNL Target] 會在舊版 Internet Explorer 中並可能在以上所列瀏覽器的舊版本中顯示預設內容。針對 [!DNL mbox.js] 實作，[!DNL Target] 會嘗試呈現內容但可能不會成功。
 * Internet Explorer將所有未知元素（例如自訂元素）視為相同的元素類型。 因此，傳送無法與自訂元素搭配使用。
 * [!DNL Target] 會在以上未列出的瀏覽器中和使用[怪異模式](https://en.wikipedia.org/wiki/Quirks_mode)的瀏覽器中顯示預設內容。at.js 需要可呈現標準模式的 doctype，例如: `<!DOCTYPE html>`。
-* Adobe 傳送基礎架構已受保護，2018 年 9 月 12 日起不再支援 TLS 1.0 裝置和瀏覽器。請參閱 [TLS (傳輸層安全性) 加密變更](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)，瞭解這項變更帶來的整體影響。
+* Adobe 傳送基礎架構已受保護，2018 年 9 月 12 日起不再支援 TLS 1.0 裝置和瀏覽器。請參閱 [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)，瞭解這項變更帶來的整體影響。
