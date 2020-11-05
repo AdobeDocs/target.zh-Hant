@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 98%
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->使用 Mobile SDK 的客戶不須採取任何動作，即可使用這項功能。使用 at.js 的客戶必須[升級至 at.js 版本 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (或更新版本)。
+>使用 Mobile SDK 的客戶不須採取任何動作，即可使用這項功能。使用 at.js 的客戶必須[升級至 at.js 版本 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (或更新版本)。
 
 您可以選擇多個行動裝置屬性。多個選擇是利用 OR 來結合。
 
@@ -65,7 +65,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >您可以依行動裝置電信業者來鎖定目標，請使用[地理設定](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。
+   >您可以依行動裝置電信業者來鎖定目標，請使用[地理設定](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。
 
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
