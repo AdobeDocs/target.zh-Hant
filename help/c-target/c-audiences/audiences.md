@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 
 ![活動 > 受眾定義](assets/audience_definition_list.png)
 
-按一下[!UICONTROL 「對象使用狀況」]標籤，以查看參照該對象的其他活動 (如適用)。這樣可讓您在編輯對象時，避免不慎影響其他活動。資訊包括已上線活動、非使用中的活動、已封存的活動，以及同步活動。此功能適用於所有對象 (資料庫對象和[僅限於此活動的對象](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))。
+按一下[!UICONTROL 「對象使用狀況」]標籤，以查看參照該對象的其他活動 (如適用)。這樣可讓您在編輯對象時，避免不慎影響其他活動。資訊包括已上線活動、非使用中的活動、已封存的活動，以及同步活動。此功能適用於所有對象 (資料庫對象和[僅限於此活動的對象](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))。
 
 如果一個對象結合另一個對象，而合併的對象用來建立活動，則兩個對象的使用狀況資訊會列出新建立的活動。
 
