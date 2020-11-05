@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 35%
@@ -83,4 +83,4 @@ Click to view the full [!DNL Analytics] report directly from the activity report
 
 您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。
 
-如需詳細資訊，請參閱[對 Analytics for Target (A4T) 執行離線計算](../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
+如需詳細資訊，請參閱[對 Analytics for Target (A4T) 執行離線計算](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
