@@ -5,7 +5,7 @@ title: Adobe Target 中的集合
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 61%
@@ -47,7 +47,7 @@ ht-degree: 61%
 
    ![暫留圖示：編輯、複製和刪除](/help/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
+   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立集合」]**。
 
