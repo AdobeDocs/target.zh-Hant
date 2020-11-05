@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 80%
@@ -33,7 +33,7 @@ ht-degree: 80%
 
 * 從 [!DNL Target] 至 [!DNL Analytics] 的分類呼叫失敗。
 
-   [請聯絡客戶服務](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得協助。
+   [請聯絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得協助。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 80%
 
 ## 我的 Analytics資料顯示自啟動 A4T 以來抬高的造訪或訪客計數。 {#section_4BE374E573D44FB7918611699B74F58E}
 
-如需詳細資訊，請參閱[在 A4T 中將膨脹後造訪和訪客計數最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
+如需詳細資訊，請參閱[在 A4T 中將膨脹後造訪和訪客計數最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
 ## 預估收入成長量度未顯示正確資料。{#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -51,7 +51,7 @@ Analytics 中沒有提升度和可信度詳細資料。不過，在 Target 中�
 
 ## 活動未出現在 Analytics 報表中。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以確定您的 Analytics 追蹤伺服器設定正確。
+A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以確定您的 Analytics 追蹤伺服器設定正確。
 
 >[!NOTE]
 >
@@ -94,4 +94,4 @@ If you still don&#39;t see the report suite you are looking for, contact [Client
 
 如果 [!DNL Target] 呼叫中沒有補充 ID，請確認 [!DNL VisitorAPI.js] 檔案是在 [!DNL at.js] 或 [!DNL mbox.js] 之前載入。如果 [!DNL Analytics] 呼叫中沒有補充 ID，請確認 [!DNL Target] 呼叫在 [!DNL Analytics] 呼叫之前執行。
 
-如需詳細資訊，請參閱 [Analytics for Target 實作](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A)，或聯絡[客戶服務](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+如需詳細資訊，請參閱 [Analytics for Target 實作](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A)，或聯絡[客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
