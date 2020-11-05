@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 83%
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 根據預設，訪客設定檔會在該訪客 14 天未使用後過期。但可延長此描述檔存留期。
 
-[請聯絡 Client Care 或您的 Adobe 顧問](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，即可免費延長描述檔存留期。存留期最長可設為 90 天。
+[請聯絡 Client Care 或您的 Adobe 顧問](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，即可免費延長描述檔存留期。存留期最長可設為 90 天。
 
 您使用的 [!DNL Target] JavaScript 資料庫 ([!DNL at.js] 或 [!DNL mbox.js]) 會決定您是否需要下載新檔案:
 
