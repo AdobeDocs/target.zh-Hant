@@ -5,7 +5,7 @@ title: at.js 限制
 feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -25,18 +25,18 @@ at.js 與 mbox.js 之間有一些差異。此小節列出部分差異和限制�
 
 ## 整合和外掛程式 {#section_D92E31170176406AAC7B5005F03D3425}
 
-[!DNL mbox.js] 中沒有 [!DNL at.js] 內的某些函式。[!DNL at.js] 不再支援內部 [mbox.js 物件和方法](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` 及其他，例如 `mboxFactoryDefault`)。這是刻意設計，目的是不勸阻您不要「駭入」[!DNL at.js] 來開發不受支援的功能，這些功能長期而言會削弱實施，導致實施無法升級。本說明文件的 API 頁面涵蓋唯一公開的方法。因此:
+[!DNL mbox.js] 中沒有 [!DNL at.js] 內的某些函式。[!DNL at.js] 不再支援內部 [mbox.js 物件和方法](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` 及其他，例如 `mboxFactoryDefault`)。這是刻意設計，目的是不勸阻您不要「駭入」[!DNL at.js] 來開發不受支援的功能，這些功能長期而言會削弱實施，導致實施無法升級。本說明文件的 API 頁面涵蓋唯一公開的方法。因此:
 
-* 舊型頁面式[整合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)搭配其他 Adobe 解決方案可能無法運作，應該升級至更新的伺服器端整合。
-* [針對 mbox.js 開發的自訂外掛程式](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)可能無法運作，除非針對 [!DNL at.js] 進行過更新。
+* 舊型頁面式[整合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)搭配其他 Adobe 解決方案可能無法運作，應該升級至更新的伺服器端整合。
+* [針對 mbox.js 開發的自訂外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)可能無法運作，除非針對 [!DNL at.js] 進行過更新。
 
-   務必將所有[外掛程式](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均納入測試中。
+   務必將所有[外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均納入測試中。
 
 ## 非同步考量 {#section_B586360A3DD34E2995AE25A18E3FB953}
 
 因為所有 mbox 現在非同步，它們將不會封鎖頁面呈現或在其觸發的訂單中傳回。
 
-* 如果您在[表單式體驗撰寫器](../../../../c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22)中使用全域 mbox，請注意 HTML 選件應該僅包含 `<style>`、`<script>` 以及 `<link>` 標籤。
+* 如果您在[表單式體驗撰寫器](/help/c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22)中使用全域 mbox，請注意 HTML 選件應該僅包含 `<style>`、`<script>` 以及 `<link>` 標籤。
 
    傳送期間，[!DNL at.js] 會在套用全域 mbox 選件時，篩選出所有其他的 HTML 標籤。全域 mbox 選件會套用至 HTML HEAD，不允許使用 DIV、SPAN 等。例如，無法套用 `<div>test</div>`，因為 `<div>` 標籤只能在 HTML BODY 中使用。
 
