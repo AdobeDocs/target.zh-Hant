@@ -5,10 +5,10 @@ title: 建立設計
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 33%
+source-wordcount: '989'
+ht-degree: 32%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 33%
 
    | 參數 | 值 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target 用戶端代碼 (位於 ../target/products.html#recsSettings  > Recommendations API Token > 用戶端代碼。 |
+   | `[YOUR_CLIENT_CODE]` | 目標用戶端代碼(可從「/help/target/products.html#recsSettings > Recommendations API Token >用戶端代碼」取得)。 |
    | `[YOUR_MBOX_NAME]` | 您在表單型Recommendations的「位置」區段中選取的名稱，在此例中為Sample_Recs_Response。 |
    | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
