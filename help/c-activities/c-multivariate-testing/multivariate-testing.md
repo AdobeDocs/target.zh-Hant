@@ -5,7 +5,7 @@ title: 多變數測試
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 ![](assets/multivariate.png)
 
-由於多變數測試可產生的組合較多，需要比 A/B 測試更多的時間和流量。頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。為了獲得實用的結果，您需要瞭解頁面接收的流量，並以正確的時間長度來測試最理想的組合數目，才能得到所需的結果。Target 的[流量估算](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可協助您設計適用於流量的測試。使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。請考量每日的流量水準。活動中的體驗越多，活動需要包含的流量就越多，否則活動需要執行更久。如果流量不是很大，則應該測試較少的組合；否則，產生有意義的測試結果所需的時間可能太長，而顯得無用。
+由於多變數測試可產生的組合較多，需要比 A/B 測試更多的時間和流量。頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。為了獲得實用的結果，您需要瞭解頁面接收的流量，並以正確的時間長度來測試最理想的組合數目，才能得到所需的結果。Target 的[流量估算](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可協助您設計適用於流量的測試。使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。請考量每日的流量水準。活動中的體驗越多，活動需要包含的流量就越多，否則活動需要執行更久。如果流量不是很大，則應該測試較少的組合；否則，產生有意義的測試結果所需的時間可能太長，而顯得無用。
 
 ## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -85,7 +85,7 @@ ht-degree: 91%
 * 使用[可視化體驗撰寫器 (VEC)](/help/c-experiences/experiences.md) 在 A/B 工作流程中建立體驗。您可以使用自訂程式碼、編輯 HTML、WYSIWYG 或任何組合。
 * 活動結束之後 (根據樣本大小計算機)，透過試算表執行結果來取得其他詳細資料。
 
-關於其他考量和最佳作法，請參閱[多變數測試最佳作法](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
+關於其他考量和最佳作法，請參閱[多變數測試最佳作法](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
 
 ## 訓練影片:
 
