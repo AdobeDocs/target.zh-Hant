@@ -5,7 +5,7 @@ title: 在 Adobe Target 中將報表受眾套用至成功量度
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 「套用於」下拉式清單可能提供三種類別: 進入活動的任何訪客、僅限到達活動中特定步驟的訪客，或僅限達到轉換的訪客。或者，換一種說法，您可以指定訪客必須到達活動進入頁面上的 Mbox、定義活動中途某一點的 Mbox，或活動最後的轉換 Mbox。
 
-[成功量度](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)必須先設定給活動才可使用。如果您尚未定義成功量度，則從下拉式清單中只會看到兩個選項: 「促銷活動項目」和「轉換」。
+[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)必須先設定給活動才可使用。如果您尚未定義成功量度，則從下拉式清單中只會看到兩個選項: 「促銷活動項目」和「轉換」。
 
 將報表對象套用至成功量度時，請考量下列資訊:
 
