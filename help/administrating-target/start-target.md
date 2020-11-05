@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ ht-degree: 92%
    此時，您還沒有任何群組設定了供您連結的權利。
 1. 如果需要，可觀看為您介紹 [!DNL Adobe Experience Cloud] 的影片。
 1. 若要查看您的新權限和存取產品，請從 [!DNL Adobe Experience Cloud] 登出，然後重新登入。
-1. 繼續下一個步驟，[指派核准者角色給您自己](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
+1. 繼續下一個步驟，[指派核准者角色給您自己](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
 ## 指派核准者角色給您自己 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
