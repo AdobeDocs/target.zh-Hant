@@ -5,7 +5,7 @@ title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器
 feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,7 +21,7 @@ VEC 是 Adobe Target 的其中一項主要功能。VEC 是一項編輯器，可�
 
 EEC 是 VEC 的擴充功能，可幫助您編輯 iframe-busting 網站或尚未納入 Target 實施頁面的體驗。如果您在 VEC 中開啟您的頁面遇到問題，請嘗試使用 EEC。
 
-如需關於 VEC 和 EEC 的資訊，請參閱[體驗](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+如需關於 VEC 和 EEC 的資訊，請參閱[體驗](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
 請注意，有些問題對 VEC 和 EEC 均會造成影響，而有些問題只會影響其中一個撰寫器。如需詳細資訊，請參閱相關頁面。
 
