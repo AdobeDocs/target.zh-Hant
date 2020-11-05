@@ -5,7 +5,7 @@ title: Adobe Target建議中的動態消息
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2520'
 ht-degree: 85%
@@ -237,7 +237,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
    * Google 產品摘要
    * Analytics 分類
 
-   如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]** 或 **[!UICONTROL Google 產品摘要]**，請指定可存取摘要的位置。
 
@@ -275,7 +275,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 1. (可選) 如果要讓摘要屬於某個環境 (主機群組)，請選取主機群組。
 
-   依預設，摘要會屬於所有主機群組。這可確保此摘要中的項目可以在任何環境中使用。如需詳細資訊，請參閱[主機](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+   依預設，摘要會屬於所有主機群組。這可確保此摘要中的項目可以在任何環境中使用。如需詳細資訊，請參閱[主機](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
