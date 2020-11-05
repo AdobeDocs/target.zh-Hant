@@ -5,7 +5,7 @@ title: 新增體驗
 feature: ab
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9213d4c09cd6fa8cf76ca5325d1bcf3c12ad72f1
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 90%
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 可視化體驗撰寫器 (VEC) 提供用於新增及編輯您的頁面上體驗的視覺介面。
 
-如需關於體驗的其他詳細資料，請參閱[體驗](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+如需關於體驗的其他詳細資料，請參閱[體驗](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
 1. 按一下&#x200B;**[!UICONTROL 「新增體驗」]**。
 
