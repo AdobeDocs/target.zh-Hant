@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -20,7 +20,7 @@ ht-degree: 50%
 
 ## 我可以對 A4T 執行離線計算嗎? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。如需詳細資訊，請參閱[信賴等級與信賴區間](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)中的「對 Target (A4T) 執行離線計算」。
+您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。如需詳細資訊，請參閱[信賴等級與信賴區間](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)中的「對 Target (A4T) 執行離線計算」。
 
 ## 如何計算提升度? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
