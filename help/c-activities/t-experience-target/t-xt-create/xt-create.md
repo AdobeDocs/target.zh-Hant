@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
    >
    >可用的活動類型取決於您的 Target 帳戶。有些活動類型可能不會出現在您的清單中。例如，[!UICONTROL Automated Personalization] 是 [Target Premium 功能](/help/c-intro/intro.md#premium)。
    >
-   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱[Target 活動類型](/help/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
+   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱[Target 活動類型](/help/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
 
 1. 視需要選取&#x200B;**[!UICONTROL 視覺 (預設)]**。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定[活動 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+1. 指定[活動 URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    如果您的帳戶[設定了預設的 URL](/help/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。您可以視需要將預設 URL 變更為其他 URL。
 
@@ -81,4 +81,4 @@ ht-degree: 100%
 
    如需逐步指示，請參閱[新增體驗](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)。
 
-1. 指定活動的[目標與設定](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
+1. 指定活動的[目標與設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
