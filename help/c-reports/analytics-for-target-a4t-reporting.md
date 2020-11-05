@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 4132492b-92d7-4b21-b7ca-324e7b898251
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 100%
@@ -19,4 +19,4 @@ ht-degree: 100%
 
 使用 Analytics 做為您的 Target (A4T) 報表來源，可讓您存取 Target 活動的 Analytics 報表。
 
-如需 A4T 報表的詳細資訊，請參閱 [Adobe Analytics 作為 Adobe Target (A4T) 的報表來源](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)一節中的 [ A4T 報表](../c-integrating-target-with-mac/a4t/reporting.md#concept_716AF8D545AD404EAAEE99A6DB7B9483)。
+如需 A4T 報表的詳細資訊，請參閱 [Adobe Analytics 作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)一節中的 [ A4T 報表](/help/c-integrating-target-with-mac/a4t/reporting.md#concept_716AF8D545AD404EAAEE99A6DB7B9483)。
