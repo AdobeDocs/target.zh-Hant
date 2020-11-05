@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+>除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
 在[!UICONTROL 「對象」]方塊中，按一下「編輯」圖示 (三個垂直的點)，然後按一下&#x200B;**[!UICONTROL 「取代對象」]**。
 
 ![取代受眾選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-依預設，所有訪客皆為對象。但您可以變更對象。對象是從對象資料庫中選取，但您也可以建立僅限於此活動的對象。對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫中選取受眾、[建立新受眾](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)或[建立僅限於此活動的受眾](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。如果 A/B 測試沒有鎖定特定的目標對象，請選擇預設值:「所有訪客」。
+依預設，所有訪客皆為對象。但您可以變更對象。對象是從對象資料庫中選取，但您也可以建立僅限於此活動的對象。對象資料庫包含先前已定義的對象，包括一些隨著 Target 預先建置的共通對象。您可以從資料庫中選取受眾、[建立新受眾](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)或[建立僅限於此活動的受眾](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。如果 A/B 測試沒有鎖定特定的目標對象，請選擇預設值:「所有訪客」。
 
 請注意，您也可以在[!UICONTROL 「選擇對象」]對話方塊中暫留在所需的對象上，以編輯或複製對象，如下所示。如果想要建立一個類似現有對象的對象，則複製對象就很有用。您可以複製對象、進行編輯，然後儲存為新對象。其他活動類型也支援此暫留功能。
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 ![受眾百分比](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-您也可以選擇讓 Target [自動分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+您也可以選擇讓 Target [自動分配流量](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
 ## 訓練影片
 
@@ -73,4 +73,4 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-如需詳細資訊，請參閱[對象](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+如需詳細資訊，請參閱[對象](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
