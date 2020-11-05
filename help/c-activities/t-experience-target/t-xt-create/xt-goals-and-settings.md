@@ -6,7 +6,7 @@ feature: xt
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 97%
@@ -69,7 +69,7 @@ To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!U
 
 選取 Analytics 做為 Target 的報表來源時，請選取 Analytics 報表套裝來接收 Target 活動資料。若要這麼做，請先從您帳戶繫結的 Analytics 公司中選擇任一，接著為該活動選取適當的報表套裝。只有佈建為連接至 Adobe Target 的報表套裝才可供選取。如果沒看到您要找的報表套裝，請先登出再登入 Adobe Experience Cloud，然後再試一次。如果報表套裝仍未出現在清單中，請聯絡客戶服務。
 
-Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤伺服器」欄位中將出現預設的追蹤伺服器。如果您使用一部以上的追蹤伺服器，您應該檢查以確保您在此欄位中包括了正確的追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)以取得詳細資訊。
+Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤伺服器」欄位中將出現預設的追蹤伺服器。如果您使用一部以上的追蹤伺服器，您應該檢查以確保您在此欄位中包括了正確的追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)以取得詳細資訊。
 
 如果已在您的帳戶設定中指定了報表解決方案，則會使用指定的解決方案，並且此設定不會顯示。
 
@@ -81,7 +81,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 選取訪客為了達成目標採取的動作。例如，選擇轉換量度，然後設定判斷達到成功時的參數。
 
-如需關於設定量度的詳細資訊，請參閱[設定量度](../../../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB)。
+如需關於設定量度的詳細資訊，請參閱[設定量度](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB)。
 
 >[!NOTE]
 >
@@ -152,7 +152,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 * 選取「增加計數、釋出使用者以及允許重新進入」以指定如果使用者重新進入活動，使用者會看見的體驗。
 * 選取「增加計數、釋出使用者以及禁止重新進入」以指定使用者會看見的內容，而非活動內容。
 
-請參閱[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。
+請參閱[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。
 
 ## 訓練影片: 活動設定 (3: 02)
 
