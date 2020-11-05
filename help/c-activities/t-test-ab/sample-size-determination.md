@@ -5,7 +5,7 @@ title: A/B 測試該執行多久?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ A successful [!UICONTROL A/B Test] activity requires an adequate number of visit
 
 >[!IMPORTANT]
 >
->提前停止活動是您在執行A/B測試時可能會遭遇的十大陷阱之一。 如需詳細資訊，請 [參閱十種常見的A/B測試陷阱以及如何避免](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
+>提前停止活動是您在執行A/B測試時可能會遭遇的十大陷阱之一。 如需詳細資訊，請 [參閱十種常見的A/B測試陷阱以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
 
 [!DNL Target] 提供工具，協助您的活動擁有足夠大的樣本大小，以達成轉換目標：自動分配。
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 自動分配可降低這
 
 使用[!UICONTROL 自動分配]功能時，在活動達到最低轉換次數且有足夠信賴度之前，[!DNL Target] 會在活動頁面頂端顯示徽章，指出「尚未有贏家」。[!DNL Target]然後， 會透過在活動頁面的頂端顯示徽章，宣告成功體驗。
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe Target 樣本大小計算機 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
