@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->此功能僅適用於[訪客設定檔](../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)類別。
+>此功能僅適用於[訪客設定檔](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)類別。
 
 ## 概述 {#section_303CBC78194D49A2A004945D425441E1}
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 您可以建立一個對象，定義成購買餐廳家具的傾向大於購買客廳家具的傾向。Target 便會動態比較特定訪客在餐廳與客廳上的傾向分數，判斷該訪客是否符合此對象。
 
-如需詳細資訊，請參閱[將資料傳入 Target 的方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)。
+如需詳細資訊，請參閱[將資料傳入 Target 的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)。
 
 ## 建立設定檔屬性比較對象 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
