@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
@@ -41,11 +41,11 @@ ht-degree: 79%
    >
    >在建立活動期間建立手動輸入的位置不會自動建立新位置。 位置名稱僅保存在活動的上下文中。 當有內容傳送呼叫時，就會建立位置。 在建立位置後，它將可用於其他活動，以建立觀眾等。 從可用位置的下拉式清單。
 
-1. 按一下&#x200B;**[!UICONTROL 「新增對象細分」]**，然後選擇一或多個此活動的[對象](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
+1. 按一下&#x200B;**[!UICONTROL 「新增對象細分」]**，然後選擇一或多個此活動的[對象](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
    ![](assets/location_refinements_2.png)
 
-   在表單式體驗撰寫器中，細分已由完整的對象功能取代。現有活動的細分已移轉至[僅限於此活動的對象](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
+   在表單式體驗撰寫器中，細分已由完整的對象功能取代。現有活動的細分已移轉至[僅限於此活動的對象](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 1. 選取您要在該位置中顯示的內容類型。
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ ht-degree: 79%
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [建立體驗鎖定目標活動](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [建立 Recommendations 活動](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [建立體驗鎖定目標活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [建立 Recommendations 活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## 訓練影片: 表單式撰寫器 ![教學課程徽章](/help/assets/tutorial.png)
 
