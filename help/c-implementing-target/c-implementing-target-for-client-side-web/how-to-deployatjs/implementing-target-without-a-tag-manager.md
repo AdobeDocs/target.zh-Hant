@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: f3877d05d583bdb4690a2638efd874bbfff6154e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
@@ -21,7 +21,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->[推薦使用 Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 實作 Target 和 at.js 程式庫。下列資訊不適用於使用 Adobe Launch 實作 Target。
+>[推薦使用 Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 實作 Target 和 at.js 程式庫。下列資訊不適用於使用 Adobe Launch 實作 Target。
 
 若要存取「實 [!UICONTROL 施] 」頁面，請按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 施」]**。
 
@@ -118,10 +118,10 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
 >[!NOTE]
 >
->* [推薦使用 Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 實作 Target 和 at.js 程式庫。下列資訊不適用於使用 Adobe Launch 實作 Target。
+>* [推薦使用 Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 實作 Target 和 at.js 程式庫。下列資訊不適用於使用 Adobe Launch 實作 Target。
    >
    >
-* Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
 
 ### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
@@ -173,7 +173,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
    >[!IMPORTANT]
    >
-   >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+   >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
    載入此 URL 會開始下載自訂的 [!DNL at.js] 檔案。
 
@@ -181,7 +181,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
 at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 
-一般 Target 實作 (不使用 [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 或[動態標籤管理](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)這類標籤管理程式) 看起來就像這樣:
+一般 Target 實作 (不使用 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 或[動態標籤管理](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)這類標籤管理程式) 看起來就像這樣:
 
 ```
 <!doctype html> 
