@@ -5,7 +5,7 @@ title: Target Premium 中的 Recommendations 傳統版與 Recommendations 活動
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ ht-degree: 100%
 
 條件都依照行業別、頁面類型和實施來預先設定和排序。例如，您可以尋找適合零售業的條件，以用於產品頁面，顯示來自特定類別的產品 (由 `entity.categoryID` 參數定義)。
 
-如需使用和建立條件的相關資訊，請參閱[條件](../../c-recommendations/c-algorithms/algorithms.md)。
+如需使用和建立條件的相關資訊，請參閱[條件](/help/c-recommendations/c-algorithms/algorithms.md)。
 
 ## 工作流程 {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 [!DNL Recommendations] 工作流程已簡化。不需要填寫複雜的表單，您可以遵循可視化工作流程:
 
 1. 選取條件。
-1. 選取預先建立的[設計](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+1. 選取預先建立的[設計](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 1. 預覽建議結果。
 
 ## 視覺預覽 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
