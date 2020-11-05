@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ ht-degree: 97%
 
 ## 最佳實務 {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**對於 mbox.js 57 版和更新版本，以及 at.js，請將 mbox.js 或 at. js 參考置於頁面`<head>`區段的上方。**
+**對於 mbox.js 57 版和更新版本，以及 at.js，請將 mbox.js 或 at. js 參考置於頁面 `<head>` 區段的上方。**
 
 如果您還使用「訪客 API 服務」，請將訪客 API 指令碼放在 mbox.js 或 at.js 上方。
 
-**如果是 57 版之前的 mbox.js，請將 mbox.js 程式碼置於頁面的`<head>`區段中越低的位置越好。**
+**如果是 57 版之前的 mbox.js，請將 mbox.js 程式碼置於頁面的 `<head>` 區段中越低的位置越好。**
 
 將 mbox.js 放在 `<head>` 區段最後，後面不能有其他宣告。否則，任何指令碼或連結標記會移至 `<body>` 區段中。
 
@@ -99,9 +99,9 @@ OR
 
 換句話說，如果您使用文字新增元素，然後在個別的動作中使用不同文字編輯了該元素，則代碼編輯器會將這兩個動作顯示為個別的元素。編輯元素時，您會建立可修改您原始建立元素的新元素，包含編輯的文字。如果您之後刪除原始元素，編輯後文字將找不到編輯後的元素，因此將不會顯示。第二個元素會維持在元素的清單中，但它不會影響頁面，因為它變更的元素已不再存在。
 
-請參閱[可視化體驗撰寫器中使用的元素選取器](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)。
+請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)。
 
-**透過 RTF 編輯器來設計文字元素的樣式時，請使用`<b>`和`<i>`標記。**
+**透過 RTF 編輯器來設計文字元素的樣式時，請使用 `<b>` 和 `<i>` 標記。**
 
 * 對於粗體文字，請使用 `<b>` 而非 `<strong>`。
 * 對於斜體文字，請使用 `<i>` 而非 `<em>`。
@@ -112,7 +112,7 @@ OR
 
 某些表單欄位可能是提交時的必要欄位。移除這些表單欄位會影響提交。
 
-**請勿在指令碼內包含`mboxCreate`。**
+**請勿在指令碼內包含 `mboxCreate`。**
 
 因為 `mboxCreate` 會使用`document.write`，不建議在指令碼內包含 `mboxCreate`。請改用 `mboxDefine` 和 `mboxUpdate`，以達到相同目的。
 
@@ -151,7 +151,7 @@ OR
 
 在此範例中，VEC 中選取整個錨點元素，如果執行鎖定目標，將對其他元素造成不利影響。
 
-**請勿在 JavaScript 程式碼中使用`top`或`self`變數。**
+**請勿在 JavaScript 程式碼中使用 `top` 或 `self` 變數。**
 
 當增強體驗撰寫器已啟用時，top 和 self 變數的值會更新，以停用 iframe 爆破。使用 X-frame-options 標頭來新增 iframe 爆破，而非自訂 JavaScript 程式碼。
 
@@ -190,7 +190,7 @@ OR
 
 **「移動」功能不支援 z-index。**
 
-因為沒有 z-index 功能，被移動的元素無法移至另一個元素上方。如需詳細資料，請參閱[限制](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+因為沒有 z-index 功能，被移動的元素無法移至另一個元素上方。如需詳細資料，請參閱[限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 **重新排列元素會影響點擊追蹤。**
 
@@ -198,7 +198,7 @@ OR
 
 這是因為用於傳送活動內容的程式碼和用於追蹤點擊的程式碼，同時位於傳送至頁面的一段程式碼內。如果您瀏覽至另一個頁面並設定點擊追蹤，則活動內容程式碼和點擊追蹤程式碼都會傳送至該頁面。如果點擊追蹤頁面的頁面結構類似於執行測試的頁面，則測試內容也可能出現在點擊追蹤頁面上。
 
-**在本身為 mbox 的`<div>`中插入元素可能沒有作用。**
+**在本身為 mbox 的 `<div>` 中插入元素可能沒有作用。**
 
 如果 mbox 包含選件，假如 mbox 實作不正確，則插入元素可能以 insertBefore 出現，而不是 insertAfter。
 
