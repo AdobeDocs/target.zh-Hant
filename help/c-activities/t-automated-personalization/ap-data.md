@@ -5,7 +5,7 @@ title: Adobe Target 個人化演算法的資料收集
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 若要進一步瞭解關於 Target 個人化演算法，請參閱[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
-下表顯示 Automated Personalization 和自動鎖定目標依預設收集的資料 (行銷人員不需要執行任何動作)，以及在[個人化前瞻分析報表](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用於指示這些屬性的命名慣例。您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表顯示 Automated Personalization 和自動鎖定目標依預設收集的資料 (行銷人員不需要執行任何動作)，以及在[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用於指示這些屬性的命名慣例。您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 資料類型 | 說明 | 資料類型命名慣例 | 範例屬性 |
 | --- | --- | --- | --- |
