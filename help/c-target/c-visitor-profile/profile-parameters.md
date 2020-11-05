@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 77%
@@ -122,7 +122,7 @@ if (mbox.name == 'Track_Interest') {
 * 參照了未定義的變數。
 * 參照了無效的值。這通常起因於沒有適當驗證所參照的 URL 值和使用者輸入的其他資料。
 * 使用了太多 JavaScript 指令。Target 具有每個指令碼 2,000 個 JavaScript 指示的限制，但這無法僅透過手動讀取 JavaScript 來計算。例如，Rhino 將所有函數呼叫和「新的」呼叫視為 100 個指示。這表示對任何函式的任何呼叫都會使用100個指令。 此外，任何輸入資料的大小，例如 URL 值，皆可能影響指示計數。
-* 請注意下節[最佳做法](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)中醒目提示的項目。
+* 請注意下節[最佳做法](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)中醒目提示的項目。
 
 ## 最佳實務 {#best}
 
@@ -179,7 +179,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否能夠使用設定檔指令碼從資料層中的頁面擷取資訊?**
 
-由於設定檔指令碼於伺服器端執行，因此其無法直接讀取頁面。必須透過 mbox 要求或其他[將資料傳入 Target 的方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)傳遞資料。將資料傳入 Target 後，設定檔指令碼即可將資料讀取為 mbox 參數或設定檔參數。
+由於設定檔指令碼於伺服器端執行，因此其無法直接讀取頁面。必須透過 mbox 要求或其他[將資料傳入 Target 的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)傳遞資料。將資料傳入 Target 後，設定檔指令碼即可將資料讀取為 mbox 參數或設定檔參數。
 
 ## 指令碼設定檔參數的 JavaScript 參考資料
 
