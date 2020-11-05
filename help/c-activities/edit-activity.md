@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 100%
@@ -98,7 +98,7 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
 如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
 
-如需工作區和「企業使用者權限」功能的相關資訊，請參閱[企業使用者權限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
+如需工作區和「企業使用者權限」功能的相關資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
 如果環境中已啟用「企業使用者權限」，您可以將活動複製到同一個工作區，或另一個工作區。您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從[!UICONTROL 「活動」]頁面中暫留在您要複製的活動上，按一下[!UICONTROL 「複製」]圖示，然後從下拉式清單中選取所需的工作區。
 
