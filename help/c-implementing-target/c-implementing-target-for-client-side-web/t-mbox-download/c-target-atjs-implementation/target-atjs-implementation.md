@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -63,7 +63,7 @@ at.js 是新的 [!DNL Adobe Target] 實作資料庫，專為典型 Web 實作和
 
 ## 訓練影片: at.js - 優點與最佳實務實作 ![概述徽章](/help/assets/overview.png)
 
-這支影片記錄了「[營業時間](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，這是一項 Adobe 客戶服務團隊主導的計劃。
+這支影片記錄了「[營業時間](/help/cmp-resources-and-contact-information.md)」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
 * at.js 資料庫的運作原理
 * At.js 勝過 mbox.js 之處
