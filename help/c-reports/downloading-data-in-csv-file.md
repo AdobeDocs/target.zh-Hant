@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%
@@ -57,7 +57,7 @@ ht-degree: 83%
 
 * 訂單標幟 (重複或巨量訂購)
 
-   如果訂單與上個月資料的平均訂購值 (直到計算完成的時間點為止) 相差超過 +/- 3 個標準偏差，就視為極端訂單。一旦活動執行超過一小時或直到 15 筆訂單之後 (以先到者為準)，活動便會排除其極端訂單。如需詳細資訊，請參閱[排除極端訂單](../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
+   如果訂單與上個月資料的平均訂購值 (直到計算完成的時間點為止) 相差超過 +/- 3 個標準偏差，就視為極端訂單。一旦活動執行超過一小時或直到 15 筆訂單之後 (以先到者為準)，活動便會排除其極端訂單。如需詳細資訊，請參閱[排除極端訂單](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
 
 * 產品 ID
 
