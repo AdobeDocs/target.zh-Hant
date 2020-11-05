@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3369'
 ht-degree: 75%
@@ -41,8 +41,8 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 ## 自動分配與 A//B 或 自動個人化的使用時機 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 當您想要從一開始便最佳化活動，並盡快識別勝出體驗時，請使用&#x200B;**自動分配**。更常提供表現優異的體驗可增進整體活動效能。
-* 當您想要在最化佳網站之前查明所有活動的效能時，請使用標準&#x200B;**[A/B 測試](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。A/B 測試有助於您將所有體驗排名，而自動流量分配會找出最佳表現者，但不保證較差表現者之間的差異性。
-* 使用[當您想要將最複雜的演算法最佳化時可以使用自動個人化](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)，例如根據個人設定檔屬性建立預測的機器學習模型。自動流量分配會考慮體驗的整體行為 (如同標準 A/B 測試)，不會區別訪客。
+* 當您想要在最化佳網站之前查明所有活動的效能時，請使用標準&#x200B;**[A/B 測試](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。A/B 測試有助於您將所有體驗排名，而自動流量分配會找出最佳表現者，但不保證較差表現者之間的差異性。
+* 使用[當您想要將最複雜的演算法最佳化時可以使用自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)，例如根據個人設定檔屬性建立預測的機器學習模型。自動流量分配會考慮體驗的整體行為 (如同標準 A/B 測試)，不會區別訪客。
 
 ## 主要優點 {#section_0913BF06F73C4794862561388BBDDFF0}
 
