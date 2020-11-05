@@ -4,7 +4,7 @@ title: Adobe Target 可視化體驗撰寫器 (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 >
 >如果暫留狀態依賴 JavaScript，請確定未選取&#x200B;**[!UICONTROL 「停用 JavaScript」]**。JavaScript 必須啟用才能編輯 JavaScript 元素。
 
-如需 VEC 中可用選項的相關資訊，請參閱[可視化體驗撰寫器選項](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
+如需 VEC 中可用選項的相關資訊，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
 
 您可以在頁面載入時 (或頁面無法載入後) 在頁面上執行一些修改，或者也可以在 VEC 中取消頁面載入。如需詳細資訊，請參閱:
 
@@ -133,7 +133,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 
 ### 辦公時間：Visual Experience Composer教學 ![課程徽章](/help/assets/tutorial.png)
 
-這支影片記錄了「[營業時間](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，這是一項 Adobe 客戶服務團隊主導的計劃。
+這支影片記錄了「[營業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
 * VEC 運作原理
 * 如何避免 VEC 的常見問題
