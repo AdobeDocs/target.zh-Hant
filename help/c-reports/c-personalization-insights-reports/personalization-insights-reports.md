@@ -5,7 +5,7 @@ title: 個人化前瞻分析報表
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 71%
@@ -30,7 +30,7 @@ ht-degree: 71%
 * [!UICONTROL 「個人化前瞻分析] 」報表僅在從「報 [!UICONTROL 表量度」下拉式清單中選取「] 主要目標  」時可用。
    >
    >
-* 「個人化前瞻分析」報表僅支援於[預設環境](../../administrating-target/hosts.md)中使用。
+* 「個人化前瞻分析」報表僅支援於[預設環境](/help/administrating-target/hosts.md)中使用。
    >
    >
 * [!UICONTROL 「個人化洞見] 」報表僅針對處於「即時」狀態且已啟動並接收至少15天流量的活動產生。
