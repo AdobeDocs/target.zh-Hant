@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 ## 使用自動建立的全域mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-若您在設定 at.js 時啟用了[「自動建立全域 Mbox」](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13)設定，at.js 會透過變更頁面載入時的不透明度設定，來處理忽隱忽現的情形。at.js載入時，會將元素的不透明度設定變更為「0」，`<body>`讓訪客一開始無法看到頁面。接收到 Target 回應後，或若偵測到 Target 要求有錯誤，at.js 會將不透明度重設為「1」。這種做法可確保訪客只能在活動內容套用之後才看得到頁面。
+若您在設定 at.js 時啟用了[「自動建立全域 Mbox」](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13)設定，at.js 會透過變更頁面載入時的不透明度設定，來處理忽隱忽現的情形。at.js載入時，會將元素的不透明度設定變更為「0」，`<body>`讓訪客一開始無法看到頁面。接收到 Target 回應後，或若偵測到 Target 要求有錯誤，at.js 會將不透明度重設為「1」。這種做法可確保訪客只能在活動內容套用之後才看得到頁面。
 
 如果您在設定 at.js 時啟用此設定，則 at.js 會將 HTML BODY 樣式不透明度設定為 0。收到來自 Target 的回應之後，at.js 會將 HTML BODY 不透明度重設為 1。
 
