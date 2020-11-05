@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 使用體驗預覽URL與團隊成員分享體驗，並跨瀏覽器和環境分享QA體驗，毋需建立個別的QA活動。 如果網站很複雜，或如果您的安全性原則不允許在模擬器中檢視網站，此功能特別有用。
 
-1. 建立[自動個人化活動](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)或按一下活動以開啟。
+1. 建立[自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)或按一下活動以開啟。
 
    活動不需要上線即可預覽體驗。
 1. 在活動摘要頁面上，按一下垂直三點圖示，然後按一下 **[!UICONTROL 「檢視體驗 URL」]**。
