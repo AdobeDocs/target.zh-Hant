@@ -5,7 +5,7 @@ title: 使用 Analytics 資料
 feature: a4t general
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 95%
@@ -27,7 +27,7 @@ For detailed information about setting up Analytics as the data source for Targe
 
 選取 Analytics 做為 Target 的報表來源時，請選取 Analytics 報表套裝來接收 Target 活動資料。若要這麼做，請先從您帳戶繫結的 Analytics 公司中選擇任一，接著為該活動選取適當的報表套裝。只有佈建為連接至 Adobe Target 的報表套裝才可供選取。如果沒看到您要找的報表套裝，請先登出再登入 Adobe Experience Cloud，然後再試一次。如果報表套裝仍未出現在清單中，請聯絡客戶服務。
 
-Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤伺服器」欄位中將出現預設的追蹤伺服器。如果您使用一部以上的追蹤伺服器，您應該檢查以確保您在此欄位中包括了正確的追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)以取得詳細資訊。
+Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤伺服器」欄位中將出現預設的追蹤伺服器。如果您使用一部以上的追蹤伺服器，您應該檢查以確保您在此欄位中包括了正確的追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)以取得詳細資訊。
 
 >[!NOTE]
 >
