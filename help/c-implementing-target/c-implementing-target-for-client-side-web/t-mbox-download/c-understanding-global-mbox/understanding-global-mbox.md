@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -28,6 +28,6 @@ ht-degree: 86%
 | 一般 mbox 通常會以 `<DIV>` 標籤包住內容。 | 全域 mbox 為「空白」，不會包住任何內容。 |
 | 只來自一個活動的內容可以透過一般 mbox 來傳送。 | 來自多個活動的內容可以透過傳給全域 mbox 的一個回應來傳送。 |
 
-如果透過全域 mbox 或多個一般 mbox 傳送多個活動，[!DNL Target] [會決定優先順序](../../../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)，並按照此優先順序將活動傳送至網頁。
+如果透過全域 mbox 或多個一般 mbox 傳送多個活動，[!DNL Target] [會決定優先順序](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)，並按照此優先順序將活動傳送至網頁。
 
-使用 [!DNL Target] 函式，可將其他頁面層級資料連同全域 mbox 一起傳送至 `targetPageParams`。這類似於 mbox 參數功能。如需詳細資訊，請參閱[將參數傳遞至全域 mbox](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
+使用 [!DNL Target] 函式，可將其他頁面層級資料連同全域 mbox 一起傳送至 `targetPageParams`。這類似於 mbox 參數功能。如需詳細資訊，請參閱[將參數傳遞至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
