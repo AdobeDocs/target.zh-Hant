@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -51,7 +51,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
