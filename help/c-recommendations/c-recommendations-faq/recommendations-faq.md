@@ -5,7 +5,7 @@ title: Adobe Target Recommendations常見問答集
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-Target 具有[篩選不相容的條件](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)設定，可控制演算法選擇器的智慧型篩選。
+Target 具有[篩選不相容的條件](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)設定，可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 ## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少? {#section_20F1AF4839A447B9889B246D6E873538}
 
-摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，我們建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。「Target 限制」頁面上提供了對於所需欄長度的[其他限制](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
+摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，我們建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。「Target 限制」頁面上提供了對於所需欄長度的[其他限制](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
 ## 是否可以動態地排除實體?
 
