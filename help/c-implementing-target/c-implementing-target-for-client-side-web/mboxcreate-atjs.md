@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 `mboxCreate()` 現在使用「json」端點而非「standard」端點，且非同步觸發。因此:
 
-* [偵錯](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)有一些不同。
+* [偵錯](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)有一些不同。
 * 避免選件程式碼需要同步，封鎖呼叫。
 
    例如，設定後續進入頁面之網站程式碼或其他 mbox 所使用 JavaScript 變數的選件。
