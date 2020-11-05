@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 22%
@@ -20,7 +20,7 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 >[!NOTE]
 >
->This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. 如需詳細資訊，請參閱以下的[需求](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)。
+>This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. 如需詳細資訊，請參閱以下的[需求](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)。
 
 ## 概述 {#section_95A91830530F493B81C5C9CDB9B783EA}
 
@@ -98,11 +98,11 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 >[!NOTE]
 >
->To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
+>To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
 
 **若要使用VEC使用體驗片段：**
 
-1. 在 [!DNL Target]中，在 [Visual Experience Composer中建立或編輯體驗時，按一下您要插入內容之頁面上的位置，然後選取所要的選項以顯示「](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)[!DNL AEM] 選擇體驗片段」清單。
+1. 在 [!DNL Target]中，在 [Visual Experience Composer中建立或編輯體驗時，按一下您要插入內容之頁面上的位置，然後選取所要的選項以顯示「](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)[!DNL AEM] 選擇體驗片段」清單。
 
    * [!UICONTROL 插入在前]
    * [!UICONTROL 插入在後]
@@ -122,16 +122,16 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    如需有關設定各種活動類型的詳細資訊，請參閱下列主題:
 
    * **A/B 測試:** [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **自動分配:** [自動分配](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **自動分配:** [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **自動定位：**[自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):**[建立 Automated Personalization 活動](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **多變數測試 (MVT):** [建立多變數測試](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **建議:** [建立建議活動](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **Automated Personalization (AP):**[建立 Automated Personalization 活動](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **多變數測試 (MVT):** [建立多變數測試](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
+   * **建議:** [建立建議活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **若要使用表單型體驗撰寫器來使用體驗片段：**
 
-1. 在 [!DNL Target]建立或編輯表單型體驗撰寫器中的體驗時 [，選取您要插入內容的頁面位置，然後選取](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)Change Experience Fragment [!DNL AEM] ，以顯示 **** Choose an Experience Fragment Composer。
+1. 在 [!DNL Target]建立或編輯表單型體驗撰寫器中的體驗時 [，選取您要插入內容的頁面位置，然後選取](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)Change Experience Fragment [!DNL AEM] ，以顯示 **** Choose an Experience Fragment Composer。
 
    ![](assets/experience_fragment_list.png)
 
