@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -53,11 +53,11 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 >[!NOTE]
 >
->若要將屬性從多值變成單值，您必須刪除目錄並上傳產品資料。刪除目錄並不會刪除與產品 ID 相關聯的歷程資料。如需相關資訊，請參閱 *Adobe 建議傳統版本*&#x200B;說明文件中的[從系統中刪除所有項目](../../assets/adobe-recommendations-classic.pdf)。
+>若要將屬性從多值變成單值，您必須刪除目錄並上傳產品資料。刪除目錄並不會刪除與產品 ID 相關聯的歷程資料。如需相關資訊，請參閱 *Adobe 建議傳統版本*&#x200B;說明文件中的[從系統中刪除所有項目](/help/assets/adobe-recommendations-classic.pdf)。
 
 **限制**:
 
-* 您無法對自訂實體屬性使用預先定義的實體屬性名稱。(請參閱[實體屬性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F))。
+* 您無法對自訂實體屬性使用預先定義的實體屬性名稱。(請參閱[實體屬性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F))。
 * 屬性 `entity.environment` 由系統保留，並且無法用於自訂實體屬性。嘗試使用 `entity.environment`、摘要或 API 來傳遞 `targetPageParams` 會被忽略。
 * 陣列必須包含單一值類型。不支援混合值陣列 (`["AB",1,true]`)。
 * 含有巢狀 JSON 陣列 (`[10,12,[1,2,3]]`) 的多值屬性視為單值屬性。
@@ -263,4 +263,4 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 ## 相關主題:
 
-* [實體屬性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [實體屬性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
