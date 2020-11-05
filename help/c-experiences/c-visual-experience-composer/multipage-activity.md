@@ -6,7 +6,7 @@ feature: vec
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 938001261bdba5cb0437c1d5e02789af1b232154
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 例如，您可能要測試某個選件，在購買超過某個金額時提供免運費。您可能想要讓該選件出現在您的登陸頁面、類別頁面和某些產品頁面，但想要它有不同的大小且位在每個頁面類型上不同位置。您可以在首頁上顯示一個顯眼的選件，然後在其他相關頁面上以較小的選件強化該選件。
 
-您也可以使用多頁活動來為您的桌面和非回應式行動網站定義不同的配置。如果網站有獨立的手機版，例如 [!DNL m.mysite.com]，而不是 [!DNL `www.mysite.com`]，您應該改為建立[多頁面活動](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，並以獨立頁面新增 [!DNL m.mysite.com]，然後套用行動編輯，對相同體驗中的桌面版和行動版完成適當的變更。若為回應式行動網站，請使用[行動體驗編](../../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)。
+您也可以使用多頁活動來為您的桌面和非回應式行動網站定義不同的配置。如果網站有獨立的手機版，例如 [!DNL m.mysite.com]，而不是 [!DNL `www.mysite.com`]，您應該改為建立[多頁面活動](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，並以獨立頁面新增 [!DNL m.mysite.com]，然後套用行動編輯，對相同體驗中的桌面版和行動版完成適當的變更。若為回應式行動網站，請使用[行動體驗編](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)。
 
 >[!NOTE]
 >
->多頁面活動是針對同一選件在多個頁面上有不同外觀的活動而設計。如果選件在所有頁面上皆呈現相同外觀，使用[範本測試](../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)會更有效率。
+>多頁面活動是針對同一選件在多個頁面上有不同外觀的活動而設計。如果選件在所有頁面上皆呈現相同外觀，使用[範本測試](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)會更有效率。
 
-您可以對多頁面測試中的每一個頁面指定範本規則。例如，在首頁和所有類別頁面上執行多頁面測試時，您可以在多頁面測試中對類別頁面套用範本規則。請參閱[在類似頁面上包含相同體驗](../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
+您可以對多頁面測試中的每一個頁面指定範本規則。例如，在首頁和所有類別頁面上執行多頁面測試時，您可以在多頁面測試中對類別頁面套用範本規則。請參閱[在類似頁面上包含相同體驗](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
 
 若要將頁面新增至測試:
 
