@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 94%
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## Analytics for Target (A4T) 支援重新導向選件嗎? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-是，前提是您的實作使用 [!DNL at.js]。不過，您的實作必須符合下列最低需求，才能在以 Analytics 作為報表來源的活動中使用[重新導向選件](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
+是，前提是您的實作使用 [!DNL at.js]。不過，您的實作必須符合下列最低需求，才能在以 Analytics 作為報表來源的活動中使用[重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
 >[!NOTE]
 >
