@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 95%
@@ -76,7 +76,7 @@ Target 可讓您追蹤任何元素上的點擊做為成功量度。
 
    如需詳細資訊，請參閱&#x200B;*可視化體驗撰寫器選項*&#x200B;中的[使用 DOM 路徑導覽元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
-* 您可以瀏覽至不同頁面，以追蹤您可能不會變更內容之頁面上的點擊。必須在活動中包括這個不同的頁面，使用[多頁功能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，並且必須已在其上實施 [!DNL at.js] 或 [!DNL mbox.js]。
+* 您可以瀏覽至不同頁面，以追蹤您可能不會變更內容之頁面上的點擊。必須在活動中包括這個不同的頁面，使用[多頁功能](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，並且必須已在其上實施 [!DNL at.js] 或 [!DNL mbox.js]。
 * 如果您選取多個元素，當加入者點擊所選取元素的任何一個時，即會計入該點擊。若要個別計算每個項目，請為每個元素設定個別的成功量度。若要按一下頁面上的數個元素來計算一個項目，請編輯「CSS元素選擇器」以比對多個元素。
 * 確定選取您要追蹤的元素層級。例如，在指定按鈕時，請確定您選取連結而非按鈕文字。
 * 點擊事件會傳送到與點擊相同的頁面上的 [!DNL Target]。
