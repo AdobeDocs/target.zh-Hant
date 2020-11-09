@@ -3,11 +3,8 @@ keywords: global mbox;target classic;use global mbox from target classic
 description: 依預設，Target Standard 會建立名為 target-global-mbox 的全域 mbox，用來執行 Target Standard 中建立的活動。不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 Target Standard 活動。
 title: 使用來自舊版實作的全域 mbox
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 52%
