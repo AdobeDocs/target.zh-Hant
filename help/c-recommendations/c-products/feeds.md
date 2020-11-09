@@ -5,9 +5,9 @@ title: Adobe Target建議中的動態消息
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2518'
 ht-degree: 85%
 
 ---
@@ -210,7 +210,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 產品分類是建議唯一可用的分類。For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+Analytics 產品分類是建議唯一可用的分類。For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
