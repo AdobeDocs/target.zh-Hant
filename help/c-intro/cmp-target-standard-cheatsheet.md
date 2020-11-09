@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ You can always use [Enhanced Experience Composer option at the activity level](/
 
 **我可以確保在使用者可能擁有的所有裝置間會一致地提供相同的體驗嗎?**
 
-請查看我們的 [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)，它可讓您透過 Co-op 的強大功能，決定性地和概率性地連結使用者的多個裝置。
+請查看我們的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)，它可讓您透過 Co-op 的強大功能，決定性地和概率性地連結使用者的多個裝置。
 
 如果您已採用 Co-op，「目標與設定」頁面上的簡易旗標會啟用該功能。報表現在也變更為反映人物而非訪客。請洽詢您的 Adobe 聯絡人，以進一步瞭解此功能，因為此功能並未在所有區域提供。
 
