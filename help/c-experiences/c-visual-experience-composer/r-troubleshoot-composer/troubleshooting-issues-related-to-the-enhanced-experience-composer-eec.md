@@ -3,9 +3,8 @@ keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experie
 description: 顯示在某些情況下，有時候會發生在增強體驗撰寫器 (EEC) 中的問題。
 title: 疑難排解增強體驗撰寫器的相關問題
 feature: vec
-uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
