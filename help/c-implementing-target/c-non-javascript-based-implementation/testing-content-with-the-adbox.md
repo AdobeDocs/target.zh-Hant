@@ -3,11 +3,8 @@ keywords: Implementation;mbox.js non javascript;mbox;adbox
 description: 使用Adobe Target在非現場實作中提供影像。
 title: 使用Adobe Target建立影像的Adbox
 feature: email implementation
-subtopic: Getting Started
-topic: Standard
-uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 77%
