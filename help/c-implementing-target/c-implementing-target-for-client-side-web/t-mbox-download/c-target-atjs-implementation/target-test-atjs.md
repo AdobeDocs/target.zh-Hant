@@ -4,9 +4,9 @@ title: 將 at.js 部署至非生產環境
 feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 92%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 儲存資料庫之後，使用 DTM Switch 工具來對生產程式碼測試它。這也將讓您的 Adobe 顧問易於支援您。
 
-如需詳細資訊，請參閱&#x200B;*《使用動態標籤管理來實施 Adobe Target 的最佳作法》*&#x200B;指南中的[選項 3: 使用 DTM 託管的 Target JavaScript 資料庫手動實施 Target](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)。
+如需詳細資訊，請參閱&#x200B;*《使用動態標籤管理來實施 Adobe Target 的最佳作法》*&#x200B;指南中的[選項 3: 使用 DTM 託管的 Target JavaScript 資料庫手動實施 Target](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)。
 
 ## 使用 &quot;Requestly&quot; Chrome 擴充功能來對應至另一個檔案
 
