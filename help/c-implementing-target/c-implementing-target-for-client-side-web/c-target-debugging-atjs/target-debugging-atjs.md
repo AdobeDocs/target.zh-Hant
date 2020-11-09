@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 82%
+source-wordcount: '180'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 82%
 
 您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 Mbox Trace 工具來檢查活動、對象資格以及訪客設定檔。
 
-如需詳細資訊，請檢閱 [Adobe Experience Cloud Debugger 擴充功能文件](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)。您可以在[工具](https://docs.adobe.com/content/help/en/debugger/using/tools.html)區段找到 Target 的特定資訊。
+如需詳細資訊，請檢閱 [Adobe Experience Cloud Debugger 擴充功能文件](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。您可以在[工具](https://experienceleague.adobe.com/docs/debugger/using/tools.html)區段找到 Target 的特定資訊。
 
 ## 訓練影片
 
