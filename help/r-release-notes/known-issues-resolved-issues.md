@@ -5,10 +5,10 @@ title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 77%
+source-wordcount: '3895'
+ht-degree: 78%
 
 ---
 
@@ -113,7 +113,7 @@ at.js 的已知問題如下：
 
 ### 目標分析 (A4T)
 
-在分析工作區中使用Target活動曝光和轉換時，請套用「相同觸控」歸因IQ模型至量度，以確保計數準確。 若要套用 [非預設歸因模型](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵以修 **改欄設定>啟用使用非預設歸因模型>選取相同觸控模型**。 若未套用此模型，這些指標就會被誇大。
+在分析工作區中使用Target活動曝光和轉換時，請套用「相同觸控」歸因IQ模型至量度，以確保計數準確。 若要套用 [非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵以修 **改欄設定>啟用使用非預設歸因模型>選取相同觸控模型**。 若未套用此模型，這些指標就會被誇大。
 
 所有目前的Analytics套件都能搭配Attribution IQ新增此模型。 如果您無權存取Attribution IQ，請依賴「報告與分析」中的A4T資料。
 
