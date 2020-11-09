@@ -3,11 +3,8 @@ keywords: Experience Cloud;sign in;language;default ui language;default language
 description: 從 Adobe Experience Cloud 存取 Adobe Target 的指示。
 title: 從 Adobe Experience Cloud 存取 Target
 feature: intro
-subtopic: Getting Started
-topic: Standard
-uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 76%
