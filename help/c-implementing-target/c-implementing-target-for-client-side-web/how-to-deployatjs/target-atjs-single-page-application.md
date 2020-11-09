@@ -3,10 +3,8 @@ keywords: single page application implementation;implement single page applicati
 description: 使用 Adobe Target at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
 title: Adobe Target 中的實作單一頁面應用程式
 feature: implementation general
-topic: standard
-uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -34,13 +32,13 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
 為了進一步說明檢視，下文將瀏覽這個在 React 中實作的假想線上電子商務網站，並探索一些檢視範例。按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結：[首頁網站](https://target.enablementadobe.com/react/demo/#/)**
+**連結： [首頁網站](https://target.enablementadobe.com/react/demo/#/)**
 
 ![首頁](/help/c-experiences/assets/home.png)
 
 導覽至首頁時，可以馬上看到宣傳復活節特賣活動的主圖影像，以及網站上販售的最新產品。在這個案例中，檢視可定義為整個首頁。請記下這點，因為我們將在下文的「實作 Adobe Target 檢視」一節中更深入說明。
 
-**連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結： [產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![產品網站](/help/c-experiences/assets/product-site.png)
 
@@ -54,7 +52,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
 我們決定按一下「載入更多」按鈕，探索這個網站上的更多產品。在此情況下，網站 URL 不會變更。但此處的檢視只能呈現上圖中的第二列產品。該檢視的名稱可為「PRODUCTS-PAGE-2」。
 
-**連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結： [結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![結帳頁面](/help/c-experiences/assets/checkout.png)
 
@@ -88,7 +86,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
    以下提供幾個範例使用案例，說明如何在 React 中叫用 `triggerView()` 函數以用於我們的假想電子商務 SPA:
 
-   **連結：[首頁網站](https://target.enablementadobe.com/react/demo/#/)**
+   **連結： [首頁網站](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -119,7 +117,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**連結：[產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結： [產品網站](https://target.enablementadobe.com/react/demo/#/products)**
 
 現在，讓我們來看看更複雜的範例。假設我們是行銷人員，我們想在使用者按下「載入更多」按鈕後，將「價格」標籤的顏色變更為紅色，用這個方式將第二列產品個人化。
 
@@ -148,7 +146,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
  }
 ```
 
-**連結：[結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結： [結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![react 結帳](/help/c-experiences/assets/react6.png)
 
