@@ -6,10 +6,10 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 82%
+source-wordcount: '234'
+ht-degree: 84%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 82%
 
 您通常會為不同的使用者群組建立測試檢視，讓他們更輕鬆查看測試結果。在 Analytics 中，可建立書籤來儲存目前的報表檢視，包括量度、日期範圍、區段和其他資料。
 
-如需詳細資訊，請參閱「書 [簽管理器](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html)」。
+如需詳細資訊，請參閱「書 [簽管理器](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html)」。
 
 ## 如何確保與我的最佳化團隊共用量度和區段? {#section_38BCA134A2F64C21B670CBD4491B7099}
 
 如果您在測試中使用特殊量度和區段，可考慮為您的最佳化團隊建立使用者群組。請讓群組而非個別成員來共用這些量度和區段，以確保他們皆能夠存取區段和量度。只有管理員才能與群組共用。
 
-See [Sharing segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) and [Sharing calculated metrics](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+See [Sharing segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) and [Sharing calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
