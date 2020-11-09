@@ -3,10 +3,8 @@ keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loa
 description: 有關 Adobe Target at.js JavaScript 資料庫的常見問題解答。
 title: Adobe Target at.js 常見問題
 feature: client-side
-subtopic: Getting Started
-uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2652'
 ht-degree: 94%
