@@ -3,9 +3,8 @@ keywords: dynamic data;assets;data;offers;personalized offers;personal offers;to
 description: 您可以直接在 HTML 或 JSON 選件上顯示設定檔值和活動資訊。
 title: 將動態資料傳遞至選件
 feature: offers
-uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
