@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: 此主題包含經常詢問關於活動設定和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 title: 活動設定 - A4T 常見問題集
 feature: a4t troubleshooting
-topic: Standard
-uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 89%
