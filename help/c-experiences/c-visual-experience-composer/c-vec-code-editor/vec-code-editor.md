@@ -3,11 +3,8 @@ keywords: css selector;custom code;code editor;Mobile Web Experience Editor
 description: 修改頁面的相關資訊，可讓您查看頁面修改內容及新增額外修改內容 (CSS 選取器、Mbox 及自訂程式碼)。
 title: 修改
 feature: vec
-subtopic: Code Editor
-topic: Standard
-uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
