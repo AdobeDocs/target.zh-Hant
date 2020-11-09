@@ -4,9 +4,8 @@ description: 在 Adobe Target 體驗鎖定目標 (XT) 活動中使用量度以�
 title: 設定量度
 feature: xt
 solution: Target
-uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 99%
