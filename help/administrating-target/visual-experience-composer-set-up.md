@@ -3,9 +3,8 @@ keywords: visual experience composer;vec;default url;enhanced experience compose
 description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定Adobe Target Visual Experience Composer(VEC)。
 title: 設定Adobe Target Visual Experience Composer
 feature: administration general
-topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
