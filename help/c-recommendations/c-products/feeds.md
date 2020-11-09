@@ -3,9 +3,8 @@ keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics clas
 description: 使用動態消息將實體匯入Adobe Target Recommendations。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
 title: Adobe Target建議中的動態消息
 feature: data feed
-uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2518'
 ht-degree: 85%
