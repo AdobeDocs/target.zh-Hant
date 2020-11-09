@@ -3,10 +3,8 @@ keywords: qa;server side;server-side;preview;preview links
 description: 透過伺服器端傳送使用 QA URL，來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
 title: 使用透過伺服器端傳送的活動 QA
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
