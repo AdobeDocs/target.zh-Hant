@@ -3,10 +3,8 @@ keywords: Overview and Reference
 description: 使用 Target 搭配 Adobe Campaign 來最佳化電子郵件內容。
 title: 將 Target 與 Adobe Campaign 整合
 feature: campaign
-topic: Standard
-uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 51%
