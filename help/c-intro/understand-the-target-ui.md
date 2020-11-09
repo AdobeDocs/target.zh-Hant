@@ -3,10 +3,8 @@ keywords: target user interface;user interface;ui
 description: 瞭解Adobe Target使用者介面
 title: 瞭解Target UI
 feature: intro
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -40,7 +38,7 @@ An *organization* is the entity that enables an administrator to configure group
 
 ## 說明
 
-「說明」圖示可讓您存取資訊、影片、部落格等，以協助您更有效 [!DNL Target] 地使用。 您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供意見回 [!DNL Target] 饋，讓我們瞭解我們的工作。
+「說明」圖示可讓您存取資訊、影片、部落格等，以協助您更有 [!DNL Target] 效地使用。 您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供意見回 [!DNL Target] 饋，讓我們瞭解我們的工作。
 
 ![說明](/help/c-intro/assets/help.png)
 
@@ -70,7 +68,7 @@ An *organization* is the entity that enables an administrator to configure group
 
 ## 對象
 
-按一下「 **[!UICONTROL 觀眾]** 」標籤以顯示「觀 [!UICONTROL 眾] 」清單，您可在此建立新觀眾並管理現有觀眾。
+按一下「 **[!UICONTROL 觀眾]** 」標籤以顯示「觀 [!UICONTROL 眾] 」清單，您可在此清單中建立新觀眾並管理現有觀眾。
 
 ![對象清單](/help/c-intro/assets/audience-list.png)
 
