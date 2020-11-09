@@ -3,9 +3,8 @@ keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traff
 description: Adobe Target 中的多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。
 title: 多變數測試
 feature: mvt
-uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
