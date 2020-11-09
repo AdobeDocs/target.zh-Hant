@@ -3,10 +3,8 @@ keywords: settings;priority
 description: Adobe Target會根據您使用的Target介面和活動建立功能（視覺體驗撰寫器或表單式撰寫器），以不同方式決定要傳送至頁面的活動（或活動）。
 title: Adobe Target中的優先順序
 feature: activities
-topic: Standard
-uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
