@@ -4,9 +4,8 @@ description: 管理排除的方法包括在 Adobe Target Automated Personalizati
 title: 管理排除項目
 feature: ap
 solution: Target,Analytics
-uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 97%
