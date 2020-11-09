@@ -3,10 +3,8 @@ keywords: Release notes
 description: 舊版Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。 版本說明以發行年月由新到舊排序。
 title: 舊版版本說明
 feature: release notes
-topic: Recommendations
-uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '29813'
 ht-degree: 86%
