@@ -5,9 +5,9 @@ title: Target公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 | 檔案類型 | 說明 |
 | --- | --- |
 | [Adobe Target產品檔案](/help/target-home.md)<br>（本指南） | 概觀資訊、步驟和螢幕擷取畫面，著重於透過使 [!DNL Target] 用者介面互動。 本指南概述所有可用的動作和選項，包括要避免的「疑問」。 這是使用 [!DNL Target] UI的最詳細資源。 |
-| [Adobe Target教學課程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | 影片和教學課程可協助您學習許多元件 [!DNL Target]。 |
+| [Adobe Target教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | 影片和教學課程可協助您學習許多元件 [!DNL Target]。 |
 | [Adobe Experience League Target內容庫](https://guided.adobe.com/#recommended/solutions/target) | 一系列操作說明影片和教學課程，其中反白顯示頁 [!DNL Target] 面上的 [!DNL Adobe Target Experience League] 功能。 |
 | [Adobe Experience Platform Launch Target檔案](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 有關使用新 [!DNL Target] 一代標 [!DNL Adobe Experience Platform Launch]簽管理平台（來自）實作的資訊 [!DNL Adobe]。 這是實作的偏好方法 [!DNL Target]。 |
 | [Adobe 客戶服務營業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 「辦公時間」的相關資訊，此為Adobe客戶服務團隊牽頭的計畫。 These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
