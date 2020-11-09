@@ -6,9 +6,9 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1615'
 ht-degree: 96%
 
 ---
@@ -128,7 +128,7 @@ To calculate these calculated metrics, download the Target&#39;s [Complete Confi
 1. 按一下「**[!UICONTROL 工具]** > **[!UICONTROL 資料倉儲]**」。
 1. 在&#x200B;**[!UICONTROL 「資料倉儲要求」]**&#x200B;標籤上，填寫欄位。
 
-   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
+   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
 
    | 欄位 | 說明 |
    |--- |--- |
@@ -148,8 +148,8 @@ To calculate these calculated metrics, download the Target&#39;s [Complete Confi
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立 Data Warehouse 請求](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [資料倉庫最佳實務](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [建立 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [資料倉庫最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 計算方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
