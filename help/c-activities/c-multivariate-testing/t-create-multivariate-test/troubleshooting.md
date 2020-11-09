@@ -3,11 +3,8 @@ keywords: Mobile Web Experience Editor
 description: 此主題包含的一些建議可用來解決設計 MVT 測試時可能發生的部分問題。
 title: 疑難排解多變數測試
 feature: mvt
-subtopic: Mobile Viewports
-topic: Standard
-uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
