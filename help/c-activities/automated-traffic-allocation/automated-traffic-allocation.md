@@ -3,10 +3,8 @@ keywords: automated traffic allocation;targeting;Increment Count and Keep User i
 description: 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 title: 自動分配
 feature: reports
-topic: Standard
-uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3369'
 ht-degree: 75%
