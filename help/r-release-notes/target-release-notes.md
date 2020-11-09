@@ -3,10 +3,8 @@ keywords: release notes;releases;updates;future release;enhancements;new feature
 description: 提供最新或即將發行的DNL Adobe Target版本功能、增強功能和修正資訊的發行說明。
 title: Adobe Target搶鮮版注意事項
 feature: null
-topic: Standard
-uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 10%
