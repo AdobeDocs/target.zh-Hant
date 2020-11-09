@@ -3,10 +3,8 @@ keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;re
 description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 title: 主機
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 26%
@@ -126,6 +124,6 @@ You can also create a denylist that specifies hosts (domains) than cannot send [
 
 A domain appears in this list if a request to [!DNL Target] is made from the domain. 通常，您可以從編目引擎、語言翻譯工具網站或本機磁碟中看見網域。如果列出的網域不是您團隊使用的網域，則可以按一下[!UICONTROL 刪除]將它移除。
 
-**我的[!DNL Target]請求傳回/*無顯示——未授權的mbox主機*/。**
+**我的 [!DNL Target] 請求傳回/*無顯示——未授權的mbox主機*/。**
 
 If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
