@@ -3,10 +3,8 @@ keywords: workspaces;manage property;permissions;product configuration;product p
 description: 關於建立屬性和使用屬性和權限功能的資訊，該功能可讓 Target 管理員在 Target 中建立個別的工作區 (產品設定檔)，然後根據這些工作區指派使用者個別頁面、屬性或網站的不同角色和權限。
 title: 企業使用者權限
 feature: user management
-subtopic: Getting Started
-uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
