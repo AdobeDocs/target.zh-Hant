@@ -3,10 +3,8 @@ keywords: audience;propensity;profile attribute;compare;comparison;create audien
 description: 定義 Target 受眾，比較受眾資料庫或僅限此活動受眾中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 title: 在 Adobe Target 中建立設定檔屬性比較對象
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 99%
