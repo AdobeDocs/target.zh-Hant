@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2652'
 ht-degree: 94%
 
 ---
@@ -91,7 +91,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 若要非同步載入 at.js:
 
-* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * 您也可以在載入 at.js 的指令碼標記中新增 async 屬性，就能非同步載入 at.js。您應該使用如下的指令碼:
 
    ```
@@ -111,7 +111,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形， 它會隱藏頁面 (或指定部分)，然後在 at.js 和全域要求完全載入後顯示內容。您必須在載入 at.js 之前新增此程式碼片段。
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 如果您是透過同步 DTM 實作部署 at.js，可透過頁面頂端觸發的頁面載入規則新增預先隱藏的程式碼片段。
 
