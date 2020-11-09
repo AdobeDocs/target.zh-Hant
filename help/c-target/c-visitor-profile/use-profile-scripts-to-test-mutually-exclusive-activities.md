@@ -3,10 +3,8 @@ keywords: Profile script;profile script attributes;mutually exclusive activities
 description: 您可以使用設定檔屬性來設定測試，以比較兩個或更多個活動，但請勿讓相同訪客參與每一個活動。
 title: 使用描述檔指令碼來測試互斥的活動
 feature: visitor profiles
-topic: Advanced,Standard,Classic
-uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
@@ -52,7 +50,7 @@ After you create the profile attribute, set up the first activity to target the 
 
 >[!NOTE]
 >
->在頁面上方的位置選擇一個 mbox。此程式碼可判斷訪客是否體驗活動。 只要瀏覽器會在先處理 mbox 的情況下，您便可以使用代碼來設定此值。
+>在頁面上方的位置選擇一個 mbox。此程式碼會決定訪客是否體驗活動。 只要瀏覽器會在先處理 mbox 的情況下，您便可以使用代碼來設定此值。
 
 設定第二個促銷活動，以便使用者描述檔參數 `user.twogroups` 可以符合指定給 GroupB 的值。
 
