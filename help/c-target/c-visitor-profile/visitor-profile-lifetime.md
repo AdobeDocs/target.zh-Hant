@@ -3,11 +3,8 @@ keywords: Overview and Reference
 description: 依預設，訪客描述檔會儲存 14 天。但可延長此描述檔存留期。
 title: 訪客設定檔存留期
 feature: visitor profiles
-subtopic: Getting Started
-topic: Standard
-uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 83%
