@@ -3,9 +3,8 @@ keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Ex
 description: 如果您使用較舊版本的 at.js 或 mbox.js，您必須針對使用 Analytics for Target (A4T) 的活動指定分析追蹤伺服器。
 title: 使用 Analytics 追蹤伺服器
 feature: a4t general
-uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 27%
