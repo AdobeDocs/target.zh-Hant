@@ -3,9 +3,8 @@ description: 在自動個人化活動中，您可以將選件鎖定在特定對�
 title: 鎖定自動個人化選件
 feature: ap
 solution: Target,Analytics
-uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
