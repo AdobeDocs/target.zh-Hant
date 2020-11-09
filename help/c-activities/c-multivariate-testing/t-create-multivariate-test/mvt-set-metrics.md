@@ -4,9 +4,8 @@ description: 在多變數測試中使用量度以判斷造訪是否成功。
 title: 設定量度
 feature: mvt
 solution: Target
-uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
