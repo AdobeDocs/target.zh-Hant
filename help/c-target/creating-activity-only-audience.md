@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience;activity onl
 description: 在建立活動時，從 Adobe Target 三步驟引導式工作流程內建立僅限活動的受眾。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
 title: 在 Adobe Target建立僅限於此活動的對象
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
