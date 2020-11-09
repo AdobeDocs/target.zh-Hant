@@ -3,11 +3,8 @@ keywords: google;samesite;cookies;chrome 80;ietf
 description: Google Chrome 版本 80 推出的 Adobe Target 和 SameSite IETF 標準的相關資訊。
 title: Adobe Target和Google的SameSite Cookie政策
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 8%
@@ -17,7 +14,7 @@ ht-degree: 8%
 
 # Google Chrome SameSite Cookie 原則
 
-Google將開始針對從Chrome 80開始的使用者，預設為實施新的Cookie政策。 Chrome 80預計於2020年初推出。 本文將說明您需要瞭解的有關新SameSite Cookie政策、如 [!DNL Adobe Target] 何支援這些政策，以及如何使用 [!DNL Target] 來符合Google Chrome的新SameSite Cookie政策。
+谷歌將開始根據預設，為從Chrome 80開始的用戶實施新的Cookie政策。 Chrome 80計畫於2020年初推出。 本文將說明您需要瞭解的有關新SameSite Cookie政策、如 [!DNL Adobe Target] 何支援這些政策，以及如何使用 [!DNL Target] 來符合Google Chrome的新SameSite Cookie政策。
 
 從Chrome 80開始，網頁開發人員必須明確指定哪些Cookie可以跨網站運作。 這是谷歌計畫為改善網路隱私和安全性而發佈的眾多公告中的首次。
 
