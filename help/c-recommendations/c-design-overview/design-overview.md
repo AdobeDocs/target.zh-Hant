@@ -3,9 +3,8 @@ keywords: recommendations design;template;create design;delivery;output
 description: Adobe Target Recommendations中的設計可定義建議在頁面上的顯示方式。 設計會定義建議的版面和格式，以改善訪客參與度、轉換率和收入。
 title: 設計概覽
 feature: designs
-uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 30%
