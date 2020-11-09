@@ -5,10 +5,10 @@ title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 68%
+source-wordcount: '1368'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 68%
 
 Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴充功能會覆寫Cookie屬性，以視需 `SameSite="none"` 要設定屬性。 您可 [在這裡找到更新的擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 如需有關安裝和使用VEC Helper Extension的詳細資訊，請參閱 [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-對於您自己的網站Cookie，您必須依名稱指定Cookie。 將 [!UICONTROL Cookie滑桿切換] 至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請 [參閱Experience Cloud介面使](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) 用指南中的Adobe Target Cookie **。
+對於您自己的網站Cookie，您必須依名稱指定Cookie。 將 [!UICONTROL Cookie滑桿切換] 至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請 [參閱Experience Cloud介面使](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) 用指南中的Adobe Target Cookie **。
 
 ![Cookie在VEC協助工具擴充功能中切換](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
