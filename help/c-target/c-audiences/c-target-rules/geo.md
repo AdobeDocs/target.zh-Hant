@@ -4,10 +4,8 @@ description: 根據使用者的地理位置，包括其國家/地區、州/省�
 title: Adobe Target觀眾中的地理選項
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ ht-degree: 88%
 
 波多黎各、香港和其他地區視同個別的「國家/地區」值。
 
-**當活[!DNL Target]動以地理位置定位功能定位時，是否會擷取（並儲存）郵遞區號等資訊？**
+**當活 [!DNL Target] 動以地理位置定位功能定位時，是否會擷取（並儲存）郵遞區號等資訊？**
 
 否， [!DNL Target] 僅使用作業期間的地理資料，則會捨棄資料。
 
