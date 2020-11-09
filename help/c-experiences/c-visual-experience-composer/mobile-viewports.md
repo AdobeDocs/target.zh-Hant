@@ -3,9 +3,8 @@ keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web des
 description: 行動檢視器可協助您預覽Adobe Target活動在各種大小螢幕上的顯示效果。
 title: 行動檢視區，提供互動式體驗
 feature: vec
-uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 68%
