@@ -3,9 +3,8 @@ keywords: product;collections
 description: 實體會使用 Adobe Target 參考您要建議的項目。實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
 title: Adobe Target 中的實體
 feature: entities
-uuid: 1940dd31-b416-413e-aa6c-babbc8883d47
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
