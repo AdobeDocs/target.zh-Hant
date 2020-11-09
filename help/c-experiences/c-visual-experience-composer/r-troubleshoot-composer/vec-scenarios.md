@@ -3,9 +3,8 @@ keywords: Recommendations
 description: 此主題中的案例顯示對您的頁面進行的變更如何影響 Target 顯示體驗的功能。
 title: 頁面修改案例
 feature: vec
-uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
