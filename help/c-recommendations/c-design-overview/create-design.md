@@ -3,9 +3,8 @@ keywords: recommendations design;create design;copy design
 description: 設計可定義建議出現在頁面上的方式。
 title: 建立設計
 feature: designs
-uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 32%
