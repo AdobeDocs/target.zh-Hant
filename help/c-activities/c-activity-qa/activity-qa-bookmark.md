@@ -3,10 +3,8 @@ keywords: qa;preview;bookmarklet;preview links
 description: 此資訊可協助您使用Adobe Target QA書籤小工具來強制Target從QA模式釋放您。
 title: Adobe Target的活動QA書籤小工具
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
