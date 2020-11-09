@@ -3,9 +3,8 @@ keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
 description: 本節說明如何將Adobe Target行動應用程式活動資訊傳送至Adobe Analytics，以利臨機分段。
 title: 傳送Adobe Target活動資訊至Adobe Analytics
 feature: mobile implementation
-uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 31%
