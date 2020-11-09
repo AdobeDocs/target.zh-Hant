@@ -3,10 +3,8 @@ keywords: Profile script;profile script attributes;profile script best practices
 description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
 title: Adobe Target 中的設定檔屬性
 feature: visitor profiles
-topic: Advanced,Standard,Classic
-uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 77%
