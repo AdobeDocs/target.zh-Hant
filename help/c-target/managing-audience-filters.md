@@ -3,9 +3,8 @@ keywords: Targeting;audience filter;audiences;filter
 description: Adobe Target（或觀眾）中的觀眾篩選器是一組具有特定特性或一組特性的訪客。
 title: Adobe Target中報告的對象篩選
 feature: audiences
-uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 80%
