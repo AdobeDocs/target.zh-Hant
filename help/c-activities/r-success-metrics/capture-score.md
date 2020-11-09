@@ -3,11 +3,8 @@ keywords: capture score;score
 description: 「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示「目標請求」開始計算匯總分數。
 title: 擷取分數
 feature: success metrics
-subtopic: Getting Started
-topic: Standard
-uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
@@ -41,7 +38,7 @@ The Capture Score engagement metric calculates an aggregated score based on the 
 
    範例: `('global_mbox', 'mboxPageValue=10');`
 
-   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. 如果頁面上的多個請求包含分數值，則頁面的分數是所有請求值的總和。 `mboxPageValue` 是保留的參數，用於傳遞Target請求中的值，以擷取參與分數。 可傳入正值和負值。每位訪客造訪後會計算總和，以計算該次造訪的總分數。
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. 如果頁面上的多個請求包含分數值，則頁面的分數是所有請求值的總和。 `mboxPageValue` 是保留的參數，用於傳遞Target請求中的值以擷取參與分數。 可傳入正值和負值。每位訪客造訪後會計算總和，以計算該次造訪的總分數。
 
 * 在頁面 URL 中傳入 `?mboxPageValue=n` 參數。
 
