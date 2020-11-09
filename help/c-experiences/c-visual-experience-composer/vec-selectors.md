@@ -3,10 +3,8 @@ keywords: Experience Targeting;Landing Page Test
 description: 元素選取器是一種可以識別一或多個元素的 CSS 運算式。
 title: 可視化體驗撰寫器中使用的元素選取器
 feature: vec
-topic: Standard
-uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
