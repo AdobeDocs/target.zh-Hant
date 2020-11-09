@@ -3,10 +3,8 @@ keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud deb
 description: 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
 title: 使用 Adobe Experience Cloud Debugger 除錯 at.js
 feature: troubleshooting general
-topic: Target
-uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 83%
