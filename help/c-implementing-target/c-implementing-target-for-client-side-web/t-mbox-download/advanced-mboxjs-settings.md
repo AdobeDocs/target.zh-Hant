@@ -3,9 +3,8 @@ keywords: advanced mbox.js settings;client;server domain;xdomain;compression lev
 description: 可協助您在 mbox.js「設定」頁面上設定數個設定的資訊。
 title: 設定 mbox.js
 feature: null
-uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 91%
