@@ -3,11 +3,8 @@ keywords: at.js;functions;javascript library
 description: 可與 Adobe Target 中的 at.js JavaScript 資料庫搭配使用的函數清單。
 title: Adobe Target at.js 函數
 feature: client-side
-subtopic: Getting Started
-topic: Standard
-uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
