@@ -3,9 +3,8 @@ keywords: announcements;skill builder;developer chat;coffee break;events
 description: 近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
 title: Target公告
 feature: release notes
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
