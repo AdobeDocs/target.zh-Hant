@@ -3,10 +3,8 @@ keywords: remote offer;remote offer selection matrix;cached content;dynamic cont
 description: 使用遠端選件來主控 Target 所參考且位於 Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
 title: 建立遠端選件
 feature: offers
-topic: Standard
-uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 92%
