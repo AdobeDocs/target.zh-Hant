@@ -3,9 +3,8 @@ keywords: Targeting;visual experience composer;enhanced visual experience compos
 description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
 title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器
 feature: vec
-uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
