@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1936'
 ht-degree: 96%
 
 ---
@@ -337,8 +337,8 @@ Target Standard 客戶可使用 5 個屬性，Target Premium 客戶可使用 200
 
 ### 代碼範例
 
-Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### 相關資訊的連結
 
-[建立客戶屬性來源及上傳資料檔案](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+[建立客戶屬性來源及上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
