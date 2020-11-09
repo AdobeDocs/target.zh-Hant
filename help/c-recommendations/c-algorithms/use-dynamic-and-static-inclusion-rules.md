@@ -4,9 +4,8 @@ description: 有關在Adobe Target Recommendations中建立標準和促銷包含
 title: 在Adobe Target Recommendations中使用動態和靜態包含規則
 feature: criteria
 mini-toc-levels: 3
-uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 39%
