@@ -2,9 +2,8 @@
 description: 在 Adobe Target 中使用可視化體驗撰寫器 (VEC)，建立您要包含在多變數測試 (MVT) 中的選件。
 title: 使用 Adobe Target 在多變數測試 (MVT) 中建立組合
 feature: mvt
-uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
