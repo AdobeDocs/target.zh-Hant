@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1513'
 ht-degree: 98%
 
 ---
@@ -103,7 +103,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 |--- |--- |
 | 可重複使用的對象 | 可重複使用的對象可供任何活動選取。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
 | 自訂群體 | 自訂區段 (也稱為行銷活動專用區段) 專供 Target Classic 中的行銷活動使用。它們是某個促銷活動的一部分，不可在其他促銷活動中重複使用。 |
-| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用對象。See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
+| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用對象。See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
 
 如需瞭解訪客設定檔如何追蹤網站訪客的相關資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 
