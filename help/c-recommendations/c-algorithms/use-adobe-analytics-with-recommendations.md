@@ -4,9 +4,9 @@ description: 使用Adobe Analytics做為行為資料來源可讓客戶使用Adob
 title: 搭配使用Adobe Analytics和Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 >
 >如果它是內容網站，則必須將各個內容片段視為「產品」，以及該內容的相關屬性(例如：作者名稱、發佈日期、內容標題、發行月等) 必須作為屬性傳遞。 類別層級或類別類型的詳細程度應由業務根據使用案例需求決定。
 
-如需如何設定產品變數的詳細資訊，請參閱 [Analytics實作指南](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html)*中的產品*。 該檔案中的部分附註需要由部署人員自行決定(例如：類別)。 建議您在進行此活動前，先與Adobe諮詢。
+如需如何設定產品變數的詳細資訊，請參閱 [Analytics實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)*中的產品*。 該檔案中的部分附註需要由部署人員自行決定(例如：類別)。 建議您在進行此活動前，先與Adobe諮詢。
 
 ### 考量事項
 
