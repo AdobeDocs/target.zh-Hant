@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1111'
 ht-degree: 22%
 
 ---
@@ -77,7 +77,7 @@ Experience fragments are created in [!DNL AEM]. 如需詳細資訊，請參閱:
 視您的版 [!DNL AEM] 本而定，請參閱下列連結以取得逐步指示：
 
 * **[!DNL AEM]6.3**: [在](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.3檔案中，將體驗片段匯出至Target ** 。
-* **[!DNL AEM]6.4**: [在](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4檔案中，將體驗片段匯出至Target ** 。
+* **[!DNL AEM]6.4**: [在](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4檔案中，將體驗片段匯出至Target ** 。
 * **[!DNL AEM]6.5**: [在](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5檔案中將體驗片段匯出至Target ** 。
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
@@ -157,4 +157,4 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 >
 >4: [!DNL AEM] 54討論的深層連結功能已移除。
 
-如需詳細資訊，請參 [閱「](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) AEM Sites影片和教學課程」頁面上的「搭配Adobe Target使用體驗片段 ** 」。
+如需詳細資訊，請參 [閱「](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) AEM Sites影片和教學課程」頁面上的「搭配Adobe Target使用體驗片段 ** 」。
