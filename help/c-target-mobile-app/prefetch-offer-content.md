@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 62%
+source-wordcount: '233'
+ht-degree: 63%
 
 ---
 
@@ -27,5 +27,5 @@ ht-degree: 62%
 
 如需詳細資訊，包括預先提取方法、公用類別和程式碼範例，請參閱:
 
-* **iOS:** [預回遷iOS中的選件內容](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) ，請參閱 *Mobile Services iOS SDK說明*。
-* **Android:** [在Mobile](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) Services Android SDK說明 *中預回遷選件內容*。
+* **iOS:** [預回遷iOS中的選件內容](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) ，請參閱 *Mobile Services iOS SDK說明*。
+* **Android:** [在Mobile](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) Services Android SDK說明 *中預回遷選件內容*。
