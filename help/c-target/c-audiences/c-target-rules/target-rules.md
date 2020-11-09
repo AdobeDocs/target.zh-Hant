@@ -3,9 +3,8 @@ keywords: Targeting;target categories;target conditions;audience manager;custom 
 description: 您可以定位數個類別。每個類別會如同標籤般運作，這可讓您為每個類別建立定位規則 (或群組)。
 title: 對象的類別
 feature: audiences
-uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 98%
