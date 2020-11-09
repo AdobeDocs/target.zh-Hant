@@ -6,9 +6,9 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 
 可使用鎖定目標之處皆可使用對象。鎖定目標活動時，您可以從[!UICONTROL 受眾]清單選取可重複使用的受眾、[建立活動專屬受眾](/help/c-target/creating-activity-only-audience.md)，以及將其鎖定目標，或[合併多個受眾](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選受眾。
 
-您也可以使用 [!DNL Analytics] 收集的對象資料，以用於 [!DNL Adobe Target] 和 [!DNL Experience Cloud] 解決方案中即時鎖定目標和個人化。請參 [閱核心](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 「服務使 *用指南」中的「觀眾」*。
+您也可以使用 [!DNL Analytics] 收集的對象資料，以用於 [!DNL Adobe Target] 和 [!DNL Experience Cloud] 解決方案中即時鎖定目標和個人化。請參 [閱核心](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 「服務使 *用指南」中的「觀眾」*。
 
 [!DNL Target] 定義兩種對象:
 
