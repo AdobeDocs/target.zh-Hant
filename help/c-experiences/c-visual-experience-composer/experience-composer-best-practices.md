@@ -3,10 +3,8 @@ keywords: visual experience composer;visual experience composer best practices;v
 description: 下列最佳作法可協助讓您的體驗如預期般運作。使用可視化體驗撰寫器 (VEC) 時，還有其他您應該注意的提示和限制。
 title: 可視化體驗撰寫器最佳作法和限制
 feature: vec
-topic: Classic
-uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
