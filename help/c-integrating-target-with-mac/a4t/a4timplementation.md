@@ -5,9 +5,9 @@ title: Analytics for Target 實作
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '894'
 ht-degree: 50%
 
 ---
@@ -33,15 +33,15 @@ User account requirements must be met before you can create an [!DNL Analytics]-
 
 訪客 ID 服務可讓您在 [!DNL Adobe Experience Cloud] 解決方案之間識別使用者。您必須實作或移轉至必要的 Experience Cloud 訪客 ID 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
+See [Implement the Experience Cloud ID Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
 ## 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
 
 您必須實作或移轉至必要的 appMeasurement.js 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-如需新實作，請參 [閱Analytics實施指南中的](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)*JavaScript實施概觀*。
+如需新實作，請參 [閱Analytics實施指南中的](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)*JavaScript實施概觀*。
 
-如需移轉，請參 [閱「Analytics實施指南」中的「移轉至JavaScript適](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 用的AppMeasurement」 **。
+如需移轉，請參 [閱「Analytics實施指南」中的「移轉至JavaScript適](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 用的AppMeasurement」 **。
 
 ## 步驟5:下載並更新at.js
 
