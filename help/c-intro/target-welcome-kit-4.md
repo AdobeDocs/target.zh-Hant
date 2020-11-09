@@ -4,9 +4,9 @@ description: Adobe Target歡迎套件——第4章——使用Target的秘訣
 title: Adobe Target歡迎套件——第4章——使用Target的秘訣
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 例如，您可以將銷售點系統的購買資料與訪客資料建立關聯。 若要這麼做，只需建立包含最多200個離線變數的CSV檔案，然後透過檔案上傳直接上傳至檔案，或使用 [!DNL Adobe Experience Cloud] FTP來代管並排程您的檔案，以定期更新。 一旦您的客戶屬性 [!DNL Adobe Experience Cloud]進入，您就可以將它們對應至 [!DNL Experience Cloud] 解 [!DNL Adobe Analytics] 決方案，例如可供分 [!DNL Target] 析、測試和個人化的解決方案。
 
-請參 [閱自訂屬性](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) ，以取得逐步指示。
+請參 [閱自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) ，以取得逐步指示。
 
 **很高興知道**:由於 [!DNL Target] 此平台是一個開放且不可知的平台，可以與不同的技術搭配運作，因此您可以以多種不同的方式新增CRM或購買的資料。 這表示您可以選擇最適合您組織的方法。
 
