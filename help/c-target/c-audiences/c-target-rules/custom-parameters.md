@@ -3,10 +3,8 @@ keywords: custom parameters;target custom parameters;targetpageparams;targeting 
 description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 title: Adobe Target 中的自訂參數
 feature: audiences
-topic: Standard
-uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
