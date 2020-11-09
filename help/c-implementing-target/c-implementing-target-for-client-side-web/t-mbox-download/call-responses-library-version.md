@@ -2,9 +2,8 @@
 description: Target 進行和回應來自您頁面呼叫的方法，取決於您所使用的 Target 資料庫、是否實作 Experience Cloud 訪客 ID，以及是否有訪客 ID 存在。
 title: 根據 mbox.js 程式庫版本鎖定頁面方法
 feature: null
-uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 100%
