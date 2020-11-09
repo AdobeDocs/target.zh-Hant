@@ -3,9 +3,8 @@ keywords: template testing;template;same experience on similar pages;template te
 description: 使用Adobe Target中的頁面範本為您的頁面提供結構，或是您的頁面包含類似元素時，測試類似結構頁面元素的變化。
 title: 在使用Adobe Target的類似頁面上加入相同的體驗
 feature: experiences
-uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 45%
