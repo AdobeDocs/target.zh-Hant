@@ -3,9 +3,8 @@ keywords: implement;implementing;implementation;adobe launch;launch;race;redirec
 description: Adobe Experience Platform Launch是Adobe的新一代標籤管理平台，是建置Adobe Target的首選方法。 Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
 title: 使用 Adobe Launch 實作 Target
 feature: implementation with launch
-uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 81%
