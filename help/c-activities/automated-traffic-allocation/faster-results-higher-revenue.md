@@ -3,9 +3,8 @@ keywords: automated traffic allocation;targeting;auto-allocate
 description: 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 title: 自動分配可讓您比手動測試更快完成測試並獲得更高收入
 feature: auto-allocate
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
@@ -19,13 +18,13 @@ ht-degree: 5%
 
 ## 自動分配流量
 
-如果您想要在活動中以更頻繁和更早的時間提供成功體驗，同時移除或降低挑選樣本大小、信賴等級和其他統計概念的設定和計算成本， [!UICONTROL Auto-Allocate] 就是您的最佳選擇。
+如果您想要在活動中以更頻繁和更早的時間提供成功體驗，同時移除或降低挑選樣本大小、信賴等級和其他統計概念的設定和計算成本，則「自動分配  」是您的最佳選項。
 
 ## 自動分配如何運作？
 
 [!UICONTROL 自動配置] (Auto-Allocate)採用多武裝強盜的原理。 如果這個詞不熟悉，一個持械的強盜就是老虎機的口語(想想：拉斯維加斯)。 將流量的自動分配視為具有多個插槽的電腦，在這種情況下，測試各種變化，並首先平均拉出所有控制點。 隨著時間的推移，一台或多台電腦或測試變化可能會比其他電腦支付更多。 當這種情況發生時，賭徒自然會開始拉下贏得更多賭徒的把手。 在流量分配詞語中， [!DNL Adobe Target] 將為更多訪客提供更多成功的體驗或體驗。
 
-請考慮以下兩週A/B活動的圖例。 有了 [!UICONTROL 自動配置]，當成功體驗出現時， [!UICONTROL Target] 會在測試初期將更多流量轉移到該成功者。
+請考慮以下兩週A/B活動的圖例。 隨著 [!UICONTROL 成功體驗的出現], [!UICONTROL Target] 會在測試初期將更多流量轉移給該成功者。
 
 ![自動分配圖](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
