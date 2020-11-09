@@ -3,9 +3,8 @@ keywords: content;assets;manage content;offers;manage assets;enter selection mod
 description: 使用選件資料庫來管理您的代碼選件和影像選件內容。
 title: 選件
 feature: offers
-uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 98%
