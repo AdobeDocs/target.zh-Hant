@@ -3,10 +3,8 @@ keywords: automated personalization;offer;reporting;group;reporting group
 description: 有關在Adobe Target的「自動個人化(AP)」活動中使用報告群組的資訊。
 title: 在Adobe Target的「自動個人化(AP)」活動中提供報表群組
 feature: reports
-topic: Advanced
-uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 64%
