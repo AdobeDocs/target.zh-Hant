@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;st
 description: A/B 測試會形成多數數位行銷最佳化程式的骨幹，協助行銷人員為其訪客和客戶提供最佳化和鎖定的體驗。本節概述公司在Adobe Target中執行A/B測試時，會遭遇的九大重大陷阱。 其中也包括避免這些問題的方式，使您的公司可透過其測試成果達到更高的 ROI，並在其報告的 A/B 測試結果中擁有更高的可信度。
 title: 九個常見的 A/B 測試陷阱以及避免方式
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
