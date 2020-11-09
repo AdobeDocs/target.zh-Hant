@@ -5,9 +5,9 @@ title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 56%
 
 ---
@@ -66,7 +66,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    * 如需SameSite=None屬性瀏覽器修正的詳細資訊，請參閱「最近宣佈的Google Chrome SameSite Cookie實施政策如何影響VEC和EEC?」 in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請 [參閱Experience Cloud介面使](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) 用指南中的Adobe Target Cookie **。
+   * Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請 [參閱Experience Cloud介面使](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) 用指南中的Adobe Target Cookie **。
 
 ## 附註
 
