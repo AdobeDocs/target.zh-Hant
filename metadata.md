@@ -2,17 +2,15 @@
 cloud: experience-cloud
 product: target
 solution: Target
-solution-title: 學習與支援
-solution-hub-url: https://helpx.adobe.com/tw/support/target.html
-solution-image: assets/target-icon-24.png
-getting-started-title: 快速入門
-getting-started-url: https://helpx.adobe.com/tw/target/get-started.html
-tutorials-title: 教學課程
-tutorials-url: https://helpx.adobe.com/tw/target/kt/index/target-videos.html
-git-repo: https://github.com/AdobeDocs/target.en
+audience: end-user
+type: Documentation
+git-repo: https://git.corp.adobe.com/AdobeDocs/target.zh-Hant
 index: true
 translation-type: tm+mt
-source-git-commit: 184f1dad7cab80f67af7a77664f1c1acd27059a4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 100%
 
 ---
 
