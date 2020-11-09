@@ -3,10 +3,8 @@ keywords: visual experience composer options;experience composer options;experie
 description: 當您在 Adobe Target 可視化體驗撰寫器 (VEC) 中按一下頁面元素時，功能表隨即顯示適用於該元素類型的選項。
 title: Adobe Target 可視化體驗撰寫器 (VEC) 選項
 feature: vec
-topic: Standard
-uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 95%
