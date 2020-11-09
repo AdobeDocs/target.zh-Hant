@@ -3,11 +3,8 @@ keywords: implement;implementing;setting up;setup;page parameter;tomcat;url enco
 description: 關於您可以用來將資料放入 Target 的各種方法的資訊，包括頁面參數、頁面內設定檔屬性、指令碼設定檔屬性、資料提供者、大量設定檔更新 API、單一設定檔更新 AP 和客戶屬性。
 title: 將資料傳入 Target 的方法
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 96%
