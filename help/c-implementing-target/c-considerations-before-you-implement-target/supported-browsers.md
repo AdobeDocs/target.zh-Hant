@@ -3,11 +3,8 @@ keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;s
 description: Adobe Target 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 title: 受支援的瀏覽器
 feature: reference general
-subtopic: Getting Started
-topic: Standard
-uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
