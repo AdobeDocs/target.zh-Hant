@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於膨脹後造訪和訪客計數問題的回答。
 title: 膨脹的造訪和訪客計數 - A4T 常見問題集
 feature: a4t troubleshooting
-topic: Standard
-uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
