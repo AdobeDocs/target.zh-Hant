@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 93%
 
    如需下載適當 SDK 的說明，請參閱:
 
-   * **iOS:**[在您開始使用](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) 「 *Mobile Services iOS說明」之前*。
-   * **Android:**[在您開始使用](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) 「 *Mobile Services Android說明」之前*。
+   * **iOS:**[在您開始使用](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) 「 *Mobile Services iOS說明」之前*。
+   * **Android:**[在您開始使用](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) 「 *Mobile Services Android說明」之前*。
 
 1. **設定 URL 配置:** 預覽連結使用 URL 配置來開啟您的應用程式。您必須針對預覽指定唯一的 URL 配置。
 
