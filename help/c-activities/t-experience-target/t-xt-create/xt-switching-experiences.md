@@ -3,10 +3,8 @@ keywords: priority;experience create;priority;experience;audience;experience;swi
 description: 關於訪客如何可以隨著其設定檔的演進，在體驗鎖定目標 (XT) 活動中的體驗之間切換的資訊。
 title: 切換體驗鎖定目標中的體驗
 feature: xt
-topic: Advanced,Standard,Classic
-uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
