@@ -3,9 +3,8 @@ keywords: auto-target;targeting;traffic allocation;frequently asked questions;fa
 description: 疑難排解和Adobe Target中自動定位的常見問題。
 title: 自動定位疑難排解與常見問答集
 feature: auto-target
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 76%
