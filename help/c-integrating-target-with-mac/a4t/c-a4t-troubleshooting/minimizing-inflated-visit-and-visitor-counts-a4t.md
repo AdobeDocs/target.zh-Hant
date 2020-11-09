@@ -6,10 +6,10 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 96%
+source-wordcount: '1345'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe 對於自己的資料準確性和品質感到自豪。觸發 [!DNL Target]
 
 **部分資料點擊:** 使用者有時不會維持在頁面上夠長的時間，因而無法傳送 [!DNL Analytics] 呼叫，但是 [!DNL Target] 會有正確的 MCID。這會造成部分資料點擊 (沒有 [!DNL Analytics] 頁面檢視的點擊)。如果這些使用者回到您的網站並檢視包含 [!DNL Analytics] 程式碼的頁面，即會將他們正確計為回頭的訪客。如果您的頁面上只有 [!DNL Analytics] 程式碼，則您會遺漏這些點擊。有些用戶端不想要這些點擊的資料，因為它們會讓某些度量 (造訪) 膨脹和讓其他度量 (每次造訪的頁面檢視、每次造訪時間等) 壓縮。您也將看見沒有任何頁面檢視的造訪。不過，保留此資料仍有有效的原因。
 
-為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的資料庫，或建立排除這些點擊的[虛擬報表套裝](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。For step-by-step instructions, see [Create virtual report suites](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
+為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的資料庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。For step-by-step instructions, see [Create virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
 
 下圖顯示虛擬報表套裝的區段定義:
 
@@ -99,7 +99,7 @@ Adobe 對於自己的資料準確性和品質感到自豪。觸發 [!DNL Target]
 
 **孤立點擊:** 少數情況下，使用者未持在頁面上夠長的時間，使得 Analytics 呼叫和 Target 未取得正確的 MCID。我們將這些定義為「孤立」點擊。這些點擊代表的是客戶很少回來，以及他們不當地膨脹了造訪和訪客計數。
 
-若要將這些「孤立」點擊最小化，您可以建立可排除這些點擊的[虛擬報表套裝](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)，如以上所述。
+若要將這些「孤立」點擊最小化，您可以建立可排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)，如以上所述。
 
 ## 這對我的 [!DNL Target] 報表有何意義? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
