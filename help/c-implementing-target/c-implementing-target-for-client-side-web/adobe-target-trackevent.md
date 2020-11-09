@@ -3,10 +3,8 @@ keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functi
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
 title: adobe.target.trackEvent(options)
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 78%
