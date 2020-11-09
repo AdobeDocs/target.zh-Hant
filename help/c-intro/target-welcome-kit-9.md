@@ -4,9 +4,9 @@ description: Adobe Target歡迎套件——第9章——後續步驟和資源
 title: Adobe Target歡迎套件——第9章——後續步驟和資源
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 第九章：後續步驟和資源
 
-我們已涵蓋您進行第一項活動的基本知識。 我們希望此活動向您和您的公司展示運用最佳化和個人化的 [!DNL Adobe Target] 絕佳潛力，進而影響業務獲利。 這只是個開始。 您該思考第二項活動的重點了嗎？ 考慮建立您要執行之活動的優先順序清單。 您將訝於，您會以多快的速度，依活動瞭解活動如何改善客戶體驗並推動業務成功。
+我們已涵蓋您進行第一項活動的基本知識。 我們希望此活動向您和您的公司展示運用最佳化和個人化的 [!DNL Adobe Target] 絕佳潛力，進而影響業務獲利。 這只是個開始。 您該思考第二項活動將著重於哪些內容了嗎？ 考慮建立您要執行之活動的優先順序清單。 您將訝於，您會以多快的速度，依活動瞭解活動如何改善客戶體驗並推動業務成功。
 
 順便說一下，您有許多方法可進一步瞭解測試、個人化和使用 [!DNL Target]。 請檢閱下列資源清單，以開始建立該知識。 在我們的網路研討會上聆聽、閱讀Adobe Target部落格、參加Adobe峰會，並在Adobe Target線上社群中積極參與。 別忘了，我們總是來協助您啟動計畫，讓它邁向成功之路。 隨時伸手。
 
@@ -23,14 +23,14 @@ ht-degree: 0%
 ## 資源連結
 
 * **設定Adobe Target**:協助您管理的資 [!DNL Adobe Target]訊，包括 [!UICONTROL Visual Experience Composer][!DNL Scene7] (VEC)、報告、設定、實作、主機、環境、回應Token和使用者的設定設定。 See [Administer Target Overview](/help/administrating-target/administrating-target.md).
-* **Adobe Target產品檔案**:您需要瞭解的Adobe Target一切。 See the [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html).
+* **Adobe Target產品檔案**:您需要瞭解的Adobe Target一切。 See the [Adobe Target product documentation](https://experienceleague.adobe.com/docs/target/using/target-home.html).
 * **Adobe Target API和SDK檔案**:瞭解如何在用戶 [!DNL Target] 端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實作。 此外，還要瞭解如何與協力 [!DNL Target] 廠商解決方案交換資料。 請參 [閱Adobe Target API總覽](/help/api/api-overview.md)。
 * **Adobe Target活動指南**:介紹您可在中使用的不同活動 [!DNL Target]。 See [Target activity types](/help/c-activities/target-activities-guide.md).
 * **Adobe Target客戶服務**:被困在問題上？ Adobe Target使用者可隨時以電子郵件或電洽方式取得支援！ 請參閱「 [Target企業支援」頁面](https://helpx.adobe.com/contact/enterprise-support.ec.html#target)。
 
 ## 訓練與實施
 
-* **Adobe Target教學課程**:瞭解基本知識或精進技能。 請參閱 [Adobe Target教學課程頁面](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)。
+* **Adobe Target教學課程**:瞭解基本知識或精進技能。 請參閱 [Adobe Target教學課程頁面](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)。
 * **Adobe Target隨選培訓**:探索我們提供的各種Target課程。 請參閱 [Adobe訓練與教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK) 頁面。
 * **Adobe Target影片：** 狂歡觀看影 [!DNL Target] 片，觀看成功故事和解決方案功能。 See [Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)
 * **網路研討會系列**:Adobe Target基本概念。 加入我們的客戶成功網路研討會系列，探討與Adobe Target使用者一起進行最佳化的基本概念。 See [Target Basics Webinar Series](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
