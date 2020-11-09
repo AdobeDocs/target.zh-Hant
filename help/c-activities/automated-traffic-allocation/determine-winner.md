@@ -3,10 +3,8 @@ keywords: automated traffic allocation;targeting;winner;statistical guarantee;co
 description: 檢視 Target UI 中的指示器，來判斷自動分配 A/B 活動中的獲勝者。
 title: 決定獲勝者
 feature: auto-allocate
-topic: Standard
-uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 49%
