@@ -3,11 +3,8 @@ keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dy
 description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將額外的鎖定目標/環境資訊傳遞至 Target 的任何案例中，需要此函數。
 title: 傳遞參數至全域 mbox
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 74%
