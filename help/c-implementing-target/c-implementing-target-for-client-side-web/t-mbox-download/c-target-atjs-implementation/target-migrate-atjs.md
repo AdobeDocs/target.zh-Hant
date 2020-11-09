@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >如果您目前未使用標籤管理程式來部署 [!DNL Target]，現在不妨考慮使用。Adobe 的[動態標籤管理](https://dtm.adobe.com)供 [!DNL Target] 客戶免費使用，且是部署 [!DNL Target] 的建議方法。如需詳細資訊，請參閱[用動態標籤管理來實施 Adobe Target 的最佳作法](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)。
+   >如果您目前未使用標籤管理程式來部署 [!DNL Target]，現在不妨考慮使用。Adobe 的[動態標籤管理](https://dtm.adobe.com)供 [!DNL Target] 客戶免費使用，且是部署 [!DNL Target] 的建議方法。如需詳細資訊，請參閱[用動態標籤管理來實施 Adobe Target 的最佳作法](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)。
 
 1. 確認所有目前的活動和整合皆如預期般運作。
 
