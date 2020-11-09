@@ -3,10 +3,8 @@ keywords: Targeting;target operating system;operating system;target os;os;target
 description: 您可以鎖定使用某個作業系統的訪客。
 title: Adobe Target觀眾中的作業系統選項
 feature: audiences
-topic: Classic
-uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 92%
