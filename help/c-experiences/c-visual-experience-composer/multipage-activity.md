@@ -3,10 +3,8 @@ keywords: multi-page;journey testing;multipage activity
 description: 多頁活動可讓您利用每個頁面的特定設計，來建立多個頁面的歷程記錄。
 title: 多頁活動
 feature: vec
-topic: Advanced
-uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
