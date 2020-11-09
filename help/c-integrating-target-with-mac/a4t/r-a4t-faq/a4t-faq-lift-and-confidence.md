@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;re
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於提升度和可信度問題的回答。
 title: 提升度和可信度 - A4T 常見問題集
 feature: a4t troubleshooting
-topic: Standard
-uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
