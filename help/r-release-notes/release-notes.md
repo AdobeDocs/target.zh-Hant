@@ -3,10 +3,8 @@ keywords: Release notes;new features;releases;updates;update;release;enhancement
 description: 這些版本說明提供關於每個 Adobe Target Standard 和 Target Premium 版本功能、增強功能、修正和已知問題的資訊。
 title: 'Adobe Target 版本說明 (最新) '
 feature: release notes
-topic: Recommendations
-uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 27%
