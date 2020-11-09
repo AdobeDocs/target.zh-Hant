@@ -3,11 +3,8 @@ keywords: implement;implementing;rfi;request for information
 description: 準備實作 Adobe Target 之前，有一些應完成的工作和應收集的資訊。
 title: 準備實作 Adobe Target
 feature: implementation pre-reqs
-subtopic: Getting Started
-topic: Standard
-uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
