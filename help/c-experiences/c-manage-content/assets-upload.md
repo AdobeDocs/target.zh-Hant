@@ -6,10 +6,10 @@ feature: offers
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 89%
+source-wordcount: '107'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 89%
 
 此影片包括關於管理內容的資訊。
 
-* [Experience Cloud 資產資料庫](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
