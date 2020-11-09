@@ -2,10 +2,8 @@
 description: 因為多變數測試會比較多個體驗，請務必瞭解若要提供有意義的結果需要多少流量。流量估算程式會使用關於您的頁面和待測試體驗數量的統計資料，以預估讓測試成功所需的流量和測試持續時間。
 title: 預估成功測試所需的流量
 feature: mvt
-topic: Standard
-uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
