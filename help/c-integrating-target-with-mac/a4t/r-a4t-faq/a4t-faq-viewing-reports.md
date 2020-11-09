@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;report;reports
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
 title: 檢視報表 - A4T 常見問題集
 feature: a4t troubleshooting
-topic: Standard
-uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 63%
