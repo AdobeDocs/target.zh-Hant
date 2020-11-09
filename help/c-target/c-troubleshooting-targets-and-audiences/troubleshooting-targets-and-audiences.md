@@ -3,10 +3,8 @@ keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 title: 鎖定目標和對象常見問題集
 feature: audiences
-topic: Standard
-uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 69%
@@ -26,7 +24,7 @@ Target會根據您在建立活動時是否使用對象URL定位，或是您在�
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### 對象URL定位 {#url-1}
+### 對象URL定位
 
 若要在建立活動時套用對象URL定位，請在「體驗」頁面（三步驟引導式工作流程的步驟一）上，按一下齒輪圖示、按一下「頁面傳送」，然後指定所要的URL。
 
@@ -40,7 +38,7 @@ Target會根據您在建立活動時是否使用對象URL定位，或是您在�
 
 除了URL上的對象定位外，您也可以指定查詢中可能的特定值。
 
-### URL定位 {#url-1-1}
+### URL定位
 
 若要套用URL定位，在建立對象時，按一下「新增規則」、按一下「網站頁面」、從第一個下拉式清單（「目前頁面」、「上一頁」或「著陸頁面」）中選取選項、從第二個下拉式清單中選取「URL」、指定求值器，然後指定所要的URL。
 
