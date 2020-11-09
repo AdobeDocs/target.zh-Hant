@@ -2,10 +2,8 @@
 description: 刪除 Target 瀏覽器 Cookie，如此才可驗證所有的體驗。
 title: 刪除Adobe Target Cookie
 feature: privacy and security
-topic: Standard
-uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 9%
@@ -46,7 +44,7 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
    >[!NOTE]
    >
-   >這會刪除與網站相關的所有 `adobe.com` Cookie。 如果您想要刪除網站的個別Cookie，請依照下列指示進行。
+   >這會刪除與網站相關的所有Cookie `adobe.com` 。 如果您想要刪除網站的個別Cookie，請依照下列指示進行。
 
 ### 刪除個別Cookie(mbox)
 
@@ -79,7 +77,7 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
    >[!NOTE]
    >
-   >這會刪除與網站相關的所有 `adobe.com` Cookie。 如果您想要刪除網站的個別Cookie，請依照下列指示進行。
+   >這會刪除與網站相關的所有Cookie `adobe.com` 。 如果您想要刪除網站的個別Cookie，請依照下列指示進行。
 
 ### 刪除個別Cookie(mbox)
 
