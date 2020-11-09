@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 我是否應使 [!DNL Adobe Experience Platform Launch] 用來部署SDK，或我是否可部署SDK而不使用 [!DNL Launch]?
 
-SDK可從 [Adobe Marketing Cloud Git取得](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)。 如果您不使用 [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)，則必須管理您自己的設定檔案，並在應用程式中加以管理。
+SDK可從 [Adobe Marketing Cloud Git取得](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)。 如果您不使用 [Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)，則必須管理您自己的設定檔案，並在應用程式中加以管理。
 
 ## 目前有哪些SDK可供使用？
 
