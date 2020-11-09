@@ -5,10 +5,10 @@ title: 使用程式庫中的內容
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: '511'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 
 此影片包括關於管理內容的資訊。(4:56)
 
-* [Experience Cloud 資產資料庫](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
