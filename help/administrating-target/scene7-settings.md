@@ -1,4 +1,5 @@
 ---
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
 description: Target Standard可與Adobe Dynamic Media Classic整合，以在內容庫中提供數位資產管理(DAM)。
 title: Dynamic Media Classic整合組態整合
 feature: administration general
@@ -6,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
+source-git-commit: b1dbed6f911cb4e8542855322022f75b7779878f
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '399'
 ht-degree: 21%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 21%
 
 # Scene7設定 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
+[!DNL Target] 可與整合， [!DNL Adobe Dynamic Media Classic] 以在內容庫中提供數位資產 [!UICONTROL 管理(DAM)]。
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ If you already have a [!DNL Dynamic Media] account, you can supply your existing
 
 >[!NOTE]
 >
->新客戶或新使用者 [!DNL Dynamic Media Classic] 不再支援Adobe Target的限制使用免費帳戶。 現有登入認證如常運作。
+>新客戶或新使用者不 [!DNL Dynamic Media Classic] 再支 [!DNL Adobe Target] 援限制使用的免費帳戶。 現有的登入認證可正常運作。
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 設定完此設定後，可在 [Visual Experience Composer(VEC)和表單型體驗撰寫器中，使用交換／變更影像選件的選項](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。 You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
