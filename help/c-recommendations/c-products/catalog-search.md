@@ -3,12 +3,11 @@ keywords: catalog;search
 description: Adobe Target 中的目錄搜尋可協助您在目錄中尋找產品或內容。
 title: Adobe Target 中的目錄搜尋
 feature: catalog
-uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1016'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -156,7 +155,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 1. 選取所要的搜尋Facet（ID、名稱、訊息等）。
 
-   ![新增篩選](/help/c-recommendations/c-products/assets/add-filters.png)
+   ![新增篩選條件](/help/c-recommendations/c-products/assets/add-filters.png)
 
 請記住，其他篩選Facet僅適用於目前作業。
 
