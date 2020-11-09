@@ -3,11 +3,8 @@ keywords: add user;manage user;user permissions
 description: 在 Target Standard 中管理使用者，及在 Target Premium 中管理企業屬性和權限的相關資訊。
 title: 使用者管理
 feature: user management
-subtopic: Getting Started
-topic: Standard
-uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
