@@ -5,9 +5,9 @@ title: 使用 Analytics 追蹤伺服器
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. From the page on which you are creating your activity, open the [!DNL Adobe Experience Platform Debugger].
 
-   如果您尚未安裝除錯程式，請參 [閱Adobe Experience Platform除錯程式簡介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+   如果您尚未安裝除錯程式，請參 [閱Adobe Experience Platform除錯程式簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -68,7 +68,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    追蹤伺服器是請求的主機名稱。
 
    * **第一方追蹤伺服器**:如果請求的主機名稱符合您所在的網域，則會是第一方追蹤伺服器。 例如，如果您在， `adobe.com`則 `adobe.com` 是第一方追蹤伺服器。
-   * **協力廠商追蹤伺服器**:協力廠商追蹤伺服器通 `[company].sc.omtrdc.net` 常是公司名稱所在的位置，但一律以結尾 `sc.omtrdc.net`。
+   * **協力廠商追蹤伺服器**:協力廠商追蹤伺服器通常 `[company].sc.omtrdc.net` 是公司名稱所在的位置，但一律以結尾 `sc.omtrdc.net`。
    * **CNAME實作**: `sstats.adobe.com` 是CNAME第一方追蹤伺服器針對https（安全）要求的範例。 `stats.adobe.com` 是CNAME第一方要求http（非安全）頁面的範例。
 
 1. 複製欄位的整個內容。
