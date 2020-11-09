@@ -3,9 +3,8 @@ keywords: content library;assets;search;smart collections;search folder;filter
 description: 依關鍵字搜尋資產並儲存搜尋資料夾 (稱為使用搜尋結果自動更新的智慧型收集)。
 title: 搜尋內容和建立智慧型收集
 feature: offers
-uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
