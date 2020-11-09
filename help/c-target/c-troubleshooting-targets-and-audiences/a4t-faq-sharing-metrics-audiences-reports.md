@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;segments;a4T;share
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於共用量度、對象和報表問題的回答。
 title: 共用量度、對象和報表 - A4T 常見問題集
 feature: a4t troubleshooting
-topic: Standard
-uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 84%
