@@ -5,10 +5,10 @@ title: 選件
 feature: offers
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 97%
+source-wordcount: '476'
+ht-degree: 98%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 此影片包含管理選件的相關資訊。
 
-* [Experience Cloud 資產資料庫](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 選件
 * 可視化體驗撰寫器中的自訂 HTML 選件
 
