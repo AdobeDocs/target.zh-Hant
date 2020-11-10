@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fb843aef10721d138fa652c818d90295b606247e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -27,30 +27,28 @@ ht-degree: 0%
 在這個即時網路研討會中，請與Adobe Target產品專家一起討論如何在裝置上將關鍵體驗最佳化決策移至本機執行，而無延遲，為客戶開啟精彩的新使用案例，同時提升網站效能。
 
 * **2020年11月10日星期二**
-* **10am PT | 12pm CT |東部時間下午1點**
+* **上午10點（太平洋標準時間） |中國科技委下午12點 |東部時間下午1點**
 
 [在這裡註冊參加這個精彩的活動。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
-## 網路研討會：使用Adobe Target和Analytics進行規模調整的最適化個人化
+## Adobe Target社群問答咖啡休息
 
-* **2020年10月27日星期二**
-* **8am PT |上午10點CT |東部時間上午11點**
-* **持續時間：60分鐘**
+* **2020年11月11日星期三**
+* **上午8點（太平洋標準時間）**
 
-目前，數位應用程式的普及率正在大幅提升，為數位客戶帶來全新的細分，對於找到他們需要的產品以及獲得卓越的服務與客戶服務抱有很高期望。 個人化對於適應即時變化，為未來發展您的業務至關重要。
+我們的專家將是資深產 [!DNL Adobe Target] 品經理David Son，他將分享以下主題的見解和專業知識：
 
-在此網路研討會中，我們將展示如何對見解和受眾細分放心地採取行動，確保各行業的公司都能運用人工智慧個人化（AI支援的個人化）快速發展其業務，並全面瞭解Analytics強化報告的效能影響。 [!DNL Adobe Target][!DNL Analytics]
+* 裝置上決策
+* At.js
+* 行動
+* AEP Web SDK
+* API
 
-在此網路研討會中，您將學習：
-
-* 如何在和之間實現獨一無二的伺服器到伺服器 [!DNL Adobe Analytics] 整合 [!DNL Adobe Target] ，實現統一的個人檔案、受眾和報告，從而實現效能驅動的快速個人化
-* 關於公司如何在「分析癱瘓」中節省時間的秘訣與訣竅，並迅速將關鍵客戶互動大規模個人化
-
-[在這裡註冊參加這個精彩的活動。](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
+[按一下這裡報名.](https://adobe.ly/2H3MBX9)
 
 ## 網路研討會：HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
-* **在接下來的30天中，您可以按一下這裡以檢視網路研討會 [錄制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
+* **您可以按一下這裡以檢視網 [路研討會錄制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 麥肯錫數位報告稱，「在大約8週內，我們在消費者和企業數位應用方面，已經進步了5年。」 *
 
@@ -62,10 +60,8 @@ ht-degree: 0%
 * AI &amp; Analytics如何加速其工作，並提供清楚、重大的業務影響
 * 匯豐如何建立成功的大規模計畫，提供超過3000項活動
 
-[在這裡註冊參加這個精彩的網路研討會](https://hsbc-targetai.experienceleague.adobeevents.com/)。
-
 *麥肯錫文章：「[COVID-19的恢復將是數字的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),」 2020年5月
 
 ## Adobe Target Skill Builder:開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
-隨著mbox.js即將於2021年1月18日被淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 在接下來的30天中，您可 [以檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+隨著mbox.js即將於2021年1月18日被淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。 您可以 [在這裡檢視網路研討會錄制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
