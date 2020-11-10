@@ -4,21 +4,21 @@ description: Adobe Target 會自動收集和使用各種資料，在 Automated P
 title: Adobe Target 個人化演算法的資料收集
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1754'
+ht-degree: 91%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Target 個人化演算法的資料收集{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) Target 個人化演算法的資料收集
 
- Target 會自動收集和使用各種資料，在 Automated Personalization (AP) 和自動鎖定目標 (AT) 活動中建置其個人化演算法。當訪客進入 AP 或 AT 活動時，將會傳送資訊的快照至一組「訓練記錄」(個人化演算法將學習的訪客資料)。
+[!DNL Adobe Target] 在 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] (AT)活動中自動收集和使用各種資料來建立其個人化演算法。 當訪客進入AP或AT活動時，資訊快照會傳遞至一組「訓練記錄」（個人化演算法將學習的訪客資料）。
 
-若要進一步瞭解關於 Target 個人化演算法，請參閱[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
+To learn more about the Target personalization algorithms, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-下表顯示 Automated Personalization 和自動鎖定目標依預設收集的資料 (行銷人員不需要執行任何動作)，以及在[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用於指示這些屬性的命名慣例。您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 資料類型 | 說明 | 資料類型命名慣例 | 範例屬性 |
 | --- | --- | --- | --- |
