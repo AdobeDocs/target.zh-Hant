@@ -4,10 +4,10 @@ description: 此主題包含經常詢問關於分類和使用 Analytics 做為 T
 title: 分類 - A4T 常見問題集
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 67%
+source-wordcount: '244'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,7 @@ TNT 變數的字串格式為 `activityID:experienceID:targettype|event`。
 * Event = 0 代表體驗進入。
 * Event = 1 代表體驗造訪。
 * Event = 2 代表活動曝光次數。
+* 事件= 3-32766代表分析成功度量ID。
 * Event = 32767 代表活動轉換。
 
 You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). 您也可以聯絡「工程服務」，連同點擊資料摘要一起取得此檔案作為查閱表。
