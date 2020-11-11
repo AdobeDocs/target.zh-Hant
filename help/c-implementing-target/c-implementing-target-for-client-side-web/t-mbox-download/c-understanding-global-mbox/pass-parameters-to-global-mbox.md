@@ -1,20 +1,20 @@
 ---
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
-description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將額外的鎖定目標/環境資訊傳遞至 Target 的任何案例中，需要此函數。
+description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將其他目標／內容資訊傳入Adobe Target的任何情況下，都需要這個選項。
 title: 傳遞參數至全域 mbox
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 74%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 
 # 傳遞參數至全域 mbox{#pass-parameters-to-a-global-mbox}
 
-JavaScript `targetPageParams` 函數用來將參數傳遞至全域 mbox。This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
+The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
 For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
@@ -34,7 +34,7 @@ For example, in a [!DNL Recommendations] activity, use the parameters to represe
 
 在將全域 mbox 新增至頁面之前，您必須定義 JavaScript 函式。名稱必須是 `targetPageParams`。
 
-**查詢字串**
+## 查詢字串
 
 ```
 p1=v1&p2=v2&p3=hello%20world
@@ -72,7 +72,7 @@ p1=v1&p2=v2&p3=hello%20world
 * p2=v2
 * p3=hello world
 
-**陣列**
+## 陣列
 
 ```
 <!--window.-->targetPageParams = function() { 
@@ -88,7 +88,7 @@ p1=v1&p2=v2&p3=hello%20world
 * b=2
 * c=hello world
 
-**JSON**
+## JSON
 
 JSON 是傳遞參數的強大方式。Target 使用 JSON 物件索引鍵將複雜的結構平扁化為簡單參數。
 
@@ -113,5 +113,5 @@ JSON 是傳遞參數的強大方式。Target 使用 JSON 物件索引鍵將複�
 
 * a=1
 * b=2
-* `profile.age`=26
+* `profile.memberStatus`=金
 * `profile.country.city`=San Francisco
