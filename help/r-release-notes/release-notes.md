@@ -4,10 +4,10 @@ description: 這些版本說明提供關於每個 Adobe Target Standard 和 Targ
 title: 'Adobe Target 版本說明 (最新) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 26%
+source-wordcount: '918'
+ht-degree: 27%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 26%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [裝置上決策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗定位(XT)活動類型中的關鍵個人化和實驗指示編譯為「最佳化工件：」 JSON物件，這些物件會透過CDN載入到客戶裝置上。 而且，由於裝置上的決策功能會以原生方式與產品連 [!DNL Adobe Experience Cloud] 接， [!DNL Target] 所以使用者可以快速分析並加速體驗的改變。<br>如需詳細資訊，請 *[參閱](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Adobe Target SDK指南中的裝置上決策簡介 **。<br>**立即註冊參加即時網路研討會。** 與Adobe Target產品專家一起討論如何在裝置上將關鍵體驗最佳化決策移至本機執行，而無延遲，為客戶開啟令人振奮的新使用案例，同時提升網站效能。<ul><li>2020年11月10日</li><li>上午10點PT /下午12點CT /下午1點ET</li><li>[在此處註冊](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| [裝置上決策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗定位(XT)活動類型中的關鍵個人化和實驗指示編譯為「最佳化工件：」 JSON物件，這些物件會透過CDN載入到客戶裝置上。 而且，由於裝置上的決策功能會以原生方式與產品連 [!DNL Adobe Experience Cloud] 接， [!DNL Target] 所以使用者可以快速分析並加速體驗的改變。<br>如需詳細資訊，請 *[參閱](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Adobe Target SDK指南中的裝置上決策簡介 **。 |
 
 此發行包含下列增強功能、修正和變更：
 
