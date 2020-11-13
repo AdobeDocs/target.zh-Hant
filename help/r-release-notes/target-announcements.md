@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ ht-degree: 0%
 * **上午10點（太平洋標準時間） |中國科技委下午12點 |東部時間下午1點**
 
 [在這裡註冊參加這個精彩的活動。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Adobe Target社群問答咖啡休息
-
-* **2020年11月11日星期三**
-* **上午8點（太平洋標準時間）**
-
-我們的專家將是資深產 [!DNL Adobe Target] 品經理David Son，他將分享以下主題的見解和專業知識：
-
-* 裝置上決策
-* At.js
-* 行動
-* AEP Web SDK
-* API
-
-[按一下這裡報名.](https://adobe.ly/2H3MBX9)
 
 ## 網路研討會：HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
