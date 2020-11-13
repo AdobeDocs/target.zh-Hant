@@ -4,10 +4,10 @@ description: 這些版本說明提供關於每個 Adobe Target Standard 和 Targ
 title: 'Adobe Target 版本說明 (最新) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 27%
+source-wordcount: '974'
+ht-degree: 26%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 27%
 
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## at.js 2.3.3（2020年11月13日）
+
+此版本的at.js是維護髮行，包含下列修正：
+
+* 修正與mbox點按追蹤和A4T相關的問題。
 
 ## Target Standard/Premium 20.10.1 (2020 年 10 月 27 日)
 
