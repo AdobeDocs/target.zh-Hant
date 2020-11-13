@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: 關於每個版本 at.js 中變更的詳細資料。
+keywords: at.js releases;at.js versions;release notes
+description: 每個Adobe Target版本at.js中變更的詳細資訊。
 title: at.js 版本詳細資料
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3975'
-ht-degree: 86%
+source-wordcount: '4003'
+ht-degree: 85%
 
 ---
 
 
-# at.js 版本詳細資料 {#at-js-version-details}
+# at.js 版本詳細資料
 
 有關 [!DNL Adobe Target] at.js JavaScript 資料庫每個版本中的變更的詳細資料。
 
@@ -21,6 +21,12 @@ ht-degree: 86%
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升級at.js的偏好方法。 擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成擴充功能的新版本，並以升級形式提供 [!DNL Launch] 至目錄中。 如需詳細資訊，請參 [閱Experience Platform Launch使用指](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 南中的Extension Upgrade **。
+
+## at.js 2.3.3（2020年11月13日）
+
+此版本的at.js是維護髮行，包含下列修正：
+
+* 修正與mbox點按追蹤和A4T相關的問題。
 
 ## at.js 2.3.2（2020年7月24日）
 
