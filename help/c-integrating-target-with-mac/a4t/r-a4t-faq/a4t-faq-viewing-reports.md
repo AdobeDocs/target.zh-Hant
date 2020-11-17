@@ -4,10 +4,10 @@ description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) �
 title: 檢視報表 - A4T 常見問題集
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 58%
+source-wordcount: '2196'
+ht-degree: 57%
 
 ---
 
@@ -138,13 +138,11 @@ Changing the traffic allocation percentage in an activity after activation can c
 
 ## 在使用A4T的Auto-Target活動中，如何在Analytics中計算瀏覽次數和轉換評價？
 
-在訪客符合活動資格後，所有轉換評分都會系結至該活動。
+當訪客符合A4T活動的資格、檢視內容或轉換時，會將事件資料傳送至 [!DNL Target] , [!DNL Analytics]以便將頁面上發生的轉換事件和其他點按流事件歸因於相關活動 [!DNL Analytics][!DNL Target] 和體驗。
 
-考慮以下事項:
+以下是檢視報表時應注意的幾 [!DNL Analytics] 點：
 
-* 如果轉換發生在分析視窗外，轉換將不會顯示在報表中。 您的報告視窗應從活動的開始日期開始。
-* 不符合活動資格的訪客可能會增加訪客計數 [!DNL Analytics]，即使他或她可能看不到活動傳送的內容。
-* 如果訪客在不同瀏覽中符合多個體驗的資格，則轉換評分會歸因於上次檢視的體驗。
-* 如果分析視窗之前發生活動的初始輸入，後續的瀏覽和轉換仍會計入分析視窗。 不過，這可能會扭曲 [!DNL Analytics] 報表。
-* 活動會附加起來，作為清單變數；但是，體驗會被覆寫，但轉換的評分會歸因於上次檢視的體驗。
-* 如果訪客在後續瀏覽中重新進入活動，一名訪客可增加兩個不同體驗的瀏覽。
+* 一般而言，您的報告視窗應一律從活動的開始日期開始。
+* 如果轉換發生在報表視窗之外，轉換將不會顯示在中 [!DNL Analytics]。
+* 當訪客在 [!UICONTROL Auto-Target][!DNL Target]活動流量的「目標」部分看到不同的體驗時，例如，他們的個人檔案或內容已變更，而機器學習演算法決定他們更可能根據新體驗進行轉換。 這與一般A/B測試活動不同，這些活動會在瀏覽期間吸引訪客體驗。
+* 如果訪客在瀏覽間看到多個體驗，則任何轉換一律會歸因於訪客上次看見的體驗；但是，訪客所看見的每個體驗的瀏覽計數都會增加。 這可能會人為降低在報表中「已定位」維度下檢視體驗時的[!UICONTROL 每次體驗轉][!DNL Adobe Analytics] 換率。
