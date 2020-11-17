@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: 疑難排解和Adobe Target中自動定位的常見問題。
 title: 自動定位疑難排解與常見問答集
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 73%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -37,11 +37,15 @@ ht-degree: 73%
 
 您的最佳流量分配分割取決於您要完成的工作。
 
-如果您的目標是要盡可能個人化流量，則您可以在活動的期限內維持90%的目標鎖定和10%的控制權。 如果您的目標是進行個人化演算法與控制的比較實驗，則50/50分割是最佳選擇。
+如果您的目標是要盡可能個人化流量，則您可以在活動的期限內維持90%的目標鎖定和10%的控制權。 如果您的目標是進行個人化演算法與控制的比較實驗，則50/50分割最適合活動的存留期。
 
-### 如果報表日期範圍改變，指出該體驗已建立模型的勾號是否會隨之更新?
+最佳實務是在活動的期限內維持流量分配分割，讓訪客不會在目標體驗與控制體驗之間切換。
 
-否，代表模型產生的勾號只顯示目前為止建立的模型。無法返回查看模型何時完成。
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### 如果訪客沒有看到[!UICONTROL 自動鎖定目標]活動就轉換，該轉換會計入我的活動中嗎?
 
