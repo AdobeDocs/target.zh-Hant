@@ -4,10 +4,10 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '2994'
-ht-degree: 29%
+source-wordcount: '3020'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 年 11 月 | [活動設定 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增下列常見問答：「訪客在使用A4T的Auto-Target活動中，可以在不同瀏覽中切換目標體驗和控制體驗嗎？」 |
 |  | [自動定位疑難排解與常見問答集](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 新增下列常見問答：「您是否建議我們在建立模型之前，將自動目標與90（控制項）/10（目標）分割搭配使用？」 |
+|  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 新增下列常見問答：「在使用A4T的Auto-Target活動中，如何在Analytics中計算瀏覽次數和轉換評分？」 |
 | 13 年 11 月 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.3.3 的資訊。 |
 | 10 年 11 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關定於11月11日舉行的Adobe Target社群問答咖啡會的資訊。 |
 | 3 年 11 月 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 更新下列疑難排解主題：&quot;我需要的報表套裝不會顯示。&quot; |
