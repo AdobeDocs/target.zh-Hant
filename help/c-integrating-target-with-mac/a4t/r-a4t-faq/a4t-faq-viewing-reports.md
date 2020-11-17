@@ -4,15 +4,15 @@ description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) �
 title: 檢視報表 - A4T 常見問題集
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 63%
+source-wordcount: '2177'
+ht-degree: 58%
 
 ---
 
 
-# 檢視報表 - A4T 常見問題集{#view-reports-a-t-faq}
+# 檢視報表 - A4T 常見問題集
 
 This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
@@ -135,3 +135,16 @@ The following list explains reasons why the same visitor could be counted in mul
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. 再度訪問的訪客不會受到影響。
 
 您應採用的最佳實務是，停止現有活動，然後建立新活動，而不是在啟用後變更百分比。新活動的報表會從新訪客開始，而來自再度訪問的訪客的資料不會導致不一致的報表。
+
+## 在使用A4T的Auto-Target活動中，如何在Analytics中計算瀏覽次數和轉換評價？
+
+在訪客符合活動資格後，所有轉換評分都會系結至該活動。
+
+考慮以下事項:
+
+* 如果轉換發生在分析視窗外，轉換將不會顯示在報表中。 您的報告視窗應從活動的開始日期開始。
+* 不符合活動資格的訪客可能會增加訪客計數 [!DNL Analytics]，即使他或她可能看不到活動傳送的內容。
+* 如果訪客在不同瀏覽中符合多個體驗的資格，則轉換評分會歸因於上次檢視的體驗。
+* 如果分析視窗之前發生活動的初始輸入，後續的瀏覽和轉換仍會計入分析視窗。 不過，這可能會扭曲 [!DNL Analytics] 報表。
+* 活動會附加起來，作為清單變數；但是，體驗會被覆寫，但轉換的評分會歸因於上次檢視的體驗。
+* 如果訪客在後續瀏覽中重新進入活動，一名訪客可增加兩個不同體驗的瀏覽。
