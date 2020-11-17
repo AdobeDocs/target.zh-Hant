@@ -4,10 +4,10 @@ description: 此主題包含經常詢問關於活動設定和使用 Analytics �
 title: 活動設定 - A4T 常見問題集
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '432'
+ht-degree: 42%
 
 ---
 
@@ -47,10 +47,3 @@ To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Ado
 
 * 在定位的流量「貯體」中後，如果機器學習模型判斷新瀏覽有不同的體驗，則訪客可以被傳送至與瀏覽不同的體驗。
 * 在指派給流量的控制「貯體」後，訪客一律會看到相同的體驗，因為體驗指派是以訪客visitorId的確定性偽隨機雜湊為基礎。
-
-## 是否建議我們使用自訂的Auto Target和A4T模型，並搭配90(Control)/10(Targeted)分割，直到模型建立為止？
-
-您的最佳流量分配分割取決於您要完成的工作。
-
-如果您的目標是要盡可能個人化流量，則您可以在活動的期限內維持90%的目標鎖定和10%的控制權。 如果您的目標是進行個人化演算法與控制的比較實驗，則50/50分割是最佳選擇。
-
