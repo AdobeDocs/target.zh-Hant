@@ -4,17 +4,17 @@ description: 此版本 Adobe Target 已知問題的相關資訊，也包括已�
 title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3895'
-ht-degree: 78%
+source-wordcount: '3957'
+ht-degree: 76%
 
 ---
 
 
 # 已知問題和已解決的問題
 
-此版本 Target 已知問題的相關資訊，也包括已解決問題的相關資訊。
+有關已知問題的資訊 [!DNL Adobe Target]。 也包括已解決問題的相關資訊。
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ at.js 的已知問題如下：
 ### 顯示「處理」標籤的影像選件
 
 「選件」頁面上的影像選件有時會在影像上傳後數小時內保留「處理」標籤。 在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並傳送。 不過，在某些情況下，影像選件可能無法用於「取代內容>影像」動作。 如果發生此情況，您應該再次上傳影像選件，並在數小時後檢查影像選件是否可供取代。 (TGT-37458)
+
+### 報告——可下載。csv報告中的資料與Target UI中顯示的報告不一致。
+
+如果活動使用多個度量，則為下載產生的報表會不一致。 可下載的報表僅根據報表設定產生，並會針對使用的任何其他量度考慮相同的值。
+
+真相來源永遠是UI中顯示的報 [!DNL Target] 表。
 
 ## 已解決的問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
