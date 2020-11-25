@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 24 年 11 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增下列已知問題：<ul><li>[報告——可下載。csv報告中的資料與Target UI中顯示的報告不一致。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>已新增下列已解決問題：<ul><li>[Analytics for Target (A4T) 報表](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [量度定義 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 新增下列常見問答：「在設定我的目標量度時，為什麼無法存取進階設定選項？」 |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已調整附註中有關使用A4T之活動的文字。 |
 | 17 年 11 月 | [活動設定 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增下列常見問答：「訪客在使用A4T的Auto-Target活動中，可以在不同瀏覽中切換目標體驗和控制體驗嗎？」 |
 |  | [自動定位疑難排解與常見問答集](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 新增下列常見問答：「您是否建議我們在建立模型之前，將自動目標與90（控制項）/10（目標）分割搭配使用？」 |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 新增下列常見問答：「在使用A4T的Auto-Target活動中，如何在Analytics中計算瀏覽次數和轉換評分？」 |
