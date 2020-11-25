@@ -4,10 +4,10 @@ description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) �
 title: 檢視報表 - A4T 常見問題集
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 57%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,12 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。(注意：客戶服務可視需要調整此有效期間)。 當訪客在此有效期期間瀏覽網站時，他們是許多活動的一部 [!DNL Target] 分，所有活動都會收集在維度中。
 
 因此，當您分段某個活動以呈現在點擊中時，您將會獲得該活動的所有體驗，再加上該點擊上持續存在的 ** 任何其他體驗。
+
+## 在設定目標量度時，我為何無法存取進階設定？
+
+對於使用 [!DNL Analytics] 作為報告來源(A4T)的活動，目標量度一律會使用「[!UICONTROL Increment Count &amp; Keep User in Activity]」（增量計數與保留使用者）和「[!UICONTROL On Every Impression]」（每次曝光）設定。 這是不 *可配置的* 。
+
+如需詳細資訊，請參閱「設定目標量度時，我為何無法存取進階設定選項？」 in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## 我是否應將訪客、瀏覽或活動曝光次數用作我的標準化量度（即計算方法）? {#metrics}
 
