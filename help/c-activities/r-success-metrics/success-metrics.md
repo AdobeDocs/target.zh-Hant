@@ -4,15 +4,15 @@ description: 在Adobe Target中，成功度量是用來測量活動成功的參�
 title: Adobe Target中的成功度量
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1138'
 ht-degree: 47%
 
 ---
 
 
-# 成功量度{#success-metrics}
+# 成功量度
 
 In [!DNL Adobe Target] success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a [!DNL Target] activity.
 
@@ -28,7 +28,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->使用 [Analytics作為報告來源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動的預設行為為「增量計數並保留使用者參與活動[!UICONTROL 」，並且「每個參加者]一次」。
+>對於使用 [Analytics作為報告來源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動，目標量度一律會使用「活動中的增量計數與保留使用者[!UICONTROL 」和「每]次曝光」設定。 這是不 *可配置的* 。
 
 下列為可使用的成功量度:
 
