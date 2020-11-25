@@ -4,10 +4,10 @@ description: 此主題包含經常詢問關於活動設定和使用 Analytics �
 title: 活動設定 - A4T 常見問題集
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 42%
+source-wordcount: '498'
+ht-degree: 36%
 
 ---
 
@@ -19,6 +19,12 @@ This topic contains answers to questions that are frequently asked about activit
 ## Analytics 作為報表來源 (A4T) 時支援哪些活動類型?{#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 如需完整清單，請參閱 [Adobe Analytics 作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)中的「支援的活動類型」。
+
+## 在設定目標量度時，我為何無法存取進階設定？
+
+對於使用 [!DNL Analytics] 作為報告來源(A4T)的活動，目標量度一律會使用「[!UICONTROL Increment Count &amp; Keep User in Activity]」（增量計數與保留使用者）和「[!UICONTROL On Every Impression]」（每次曝光）設定。 這是不 *可配置的* 。
+
+如需詳細資訊，請參閱「設定目標量度時，我為何無法存取進階設定選項？」 in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## 我剛才建立了活動。為何沒看到任何資料進入? {#section_9F8092BE4225442896F926540292F221}
 
