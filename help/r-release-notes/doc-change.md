@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3115'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 1 年 12 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 內嵌網路研討會錄影，以「透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試」。 |
 | 24 年 11 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增下列已知問題：<ul><li>[報告——可下載。csv報告中的資料與Target UI中顯示的報告不一致。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>已新增下列已解決問題：<ul><li>[Analytics for Target (A4T) 報表](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [量度定義 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 新增下列常見問答：「在設定我的目標量度時，為什麼無法存取進階設定選項？」 |
 |  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已調整附註中有關使用A4T之活動的文字。 |
