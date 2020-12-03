@@ -4,9 +4,9 @@ description: 此版本 Adobe Target 已知問題的相關資訊，也包括已�
 title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
+source-git-commit: 16a626878cab97dd81b22d3d2a170df80a025afb
 workflow-type: tm+mt
-source-wordcount: '4326'
+source-wordcount: '4327'
 ht-degree: 70%
 
 ---
@@ -73,7 +73,7 @@ Recommendations 活動的已知問題如下：
 * 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。(TGT-35777)
 * 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
 * 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896、TGT-36173)
-* 「准則」和「設計」卡片無法顯示使用活動的正確數目。 如果「標準」或「設計」用於AB活動，則不會考慮該活動，而卡片可能會顯示實際未使用設計／標準。
+* 標準和設計卡片無法顯示使用活動的正確數目。 如果A/B活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。
 
 ### 多變數測試 (MVT) 活動
 
