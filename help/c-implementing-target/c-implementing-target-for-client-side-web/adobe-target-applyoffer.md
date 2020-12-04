@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.ta
 title: adobe.target.applyOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
+# adobe.target.applyOffer(options)
 
 此函數用來套用回應內容。
 
@@ -32,7 +32,7 @@ options 參數是強制性的，並且具有下列結構:
 
 下列範例顯示如何將 `getOffer` 和 `applyOffer` 一起使用:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "mbox",   
   "success": function(offers) {           
