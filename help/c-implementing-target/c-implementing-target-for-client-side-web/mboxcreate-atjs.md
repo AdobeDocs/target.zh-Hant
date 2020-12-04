@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxCrea
 title: mboxCreate(mbox,params) - at.js 1.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 範例
 
-```
+```javascript
 <div class="mboxDefault"> 
   default content to replace by offer 
 </div> 
