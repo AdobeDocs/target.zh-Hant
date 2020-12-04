@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.ta
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 使用 getOffer() 新增參數，並使用 applyOffer() 進行 success-handling:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 使用 getOffer() 新增參數和設定檔參數，並使用 applyOffer() 進行 success-handling:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ adobe.target.getOffer({
 
 &quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot; 客戶會定義的函數之預留位置。
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ adobe.target.getOffer({
 
 ## 範例
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
