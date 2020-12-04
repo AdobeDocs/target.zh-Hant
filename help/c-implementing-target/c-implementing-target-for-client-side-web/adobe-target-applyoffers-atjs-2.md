@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.ta
 title: adobe.target.applyOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 95%
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 ## applyOffers() 呼叫範例
 
-```
+```javascript
 adobe.target.applyOffers({response:{
   "execute": {
     "pageLoad": {
@@ -110,7 +110,7 @@ adobe.target.applyOffers({response:{
 
 ## 與 `getOffers()` 和 `applyOffers()` 鏈結的 Promise 呼叫範例，因為這些函數是以 Promise 為基底
 
-```
+```javascript
 adobe.target.getOffers({...})
 .then(response => adobe.target.applyOffers({ response: response }))
 .then(() => console.log("Success"))
