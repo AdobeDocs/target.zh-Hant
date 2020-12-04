@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事
 title: at.js 自訂事件
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 96%
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 ## 使用狀況 {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
-```
+```javascript
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) { 
   console.log('Event', event); 
 });
