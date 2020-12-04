@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGl
 title: targetGlobalSettings()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 38%
@@ -192,7 +192,7 @@ This function can be defined before at.js is loaded or in **[!UICONTROL Administ
 
 資料庫標頭欄位允許輸入自由格式的 JavaScript。自訂程式碼看起來應該類似於下列範例:
 
-```
+```javascript
 window.targetGlobalSettings = {  
    timeout: 200, // using custom timeout  
    visitorApiTimeout: 500, // using custom API timeout  
@@ -228,7 +228,7 @@ window.targetGlobalSettings = {
 
 下列範例顯示的資料提供者正在使用同步執行:
 
-```
+```javascript
 var syncDataProvider = { 
   name: "simpleDataProvider", 
   version: "1.0.0", 
@@ -248,7 +248,7 @@ window.targetGlobalSettings = {
 
 如果您要新增至 Target 要求的參數是從第三方服務 (例如 Bluekai、Demandbase 等等) 擷取，以下是範例:
 
-```
+```javascript
 var blueKaiDataProvider = { 
    name: "blueKai", 
    version: "1.0.0", 
@@ -271,7 +271,7 @@ at.js 處理 `window.targetGlobalSettings.dataProviders` 之後，Target 要求�
 
 下列範例使用資料提供者來收集天氣 API 資料，並將資料以參數形式在 Target 要求中傳送。Target 要求會將額外的參數，例如 `country` 和 `weatherCondition`。
 
-```
+```javascript
 var weatherProvider = { 
       name: "weather-api", 
       version: "1.0.0", 
@@ -323,7 +323,7 @@ at.js 2.3.0+支援在套用傳送的Target選件時，在附加至頁面DOM的SC
 
 在載入at.js 2.3.0+之前， `targetGlobalSettings.cspScriptNonce` 應先在 `targetGlobalSettings.cspStyleNonce` SCRIPT和STYLEnonces中設定。 請參閱下列範例：
 
-```
+```javascript
 ...
 <head>
  <script nonce="<script_nonce_value>">
@@ -355,7 +355,7 @@ window.targetGlobalSettings = {
 
 若要進一步瞭解其運作方式，請參閱下列您在伺服器上的程式碼範例。 程式碼假設您使用 [Target Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
 
-```
+```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
 const targetResponse = await targetClient.getOffers(options);
 // A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
