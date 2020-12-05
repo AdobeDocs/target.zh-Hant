@@ -4,10 +4,10 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.ta
 title: adobe.target.getOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1219'
+ht-degree: 92%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 95%
 | request > execute > mboxes > mbox > order > total | 無 | `>=` 0 | 使用指定的訂單總金額為特定 mbox 擷取選件。 |
 | request > execute > mboxes > mbox > order > purchasedProductIds | 無 | 無空白值<br>每個值的長度上限 = 50<br>串連並以逗號分隔<br>產品 ID 總長度 `<=` 250 | 使用指定的已購產品 ID 為特定 mbox 擷取選件。 |
 
-## 為所有檢視呼叫 `getOffers()`
+## 針對所有檢視呼叫getOffers()
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
       prefetch: {
@@ -85,9 +85,9 @@ adobe.target.getOffers({
 });
 ```
 
-## 呼叫 `getOffers()` 以使用傳入的參數和設定檔參數擷取最新的檢視
+## 呼叫getOffers()以擷取具有傳入參數和描述檔參數的最新檢視
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     "prefetch": {
@@ -106,9 +106,9 @@ adobe.target.getOffers({
 });
 ```
 
-## 呼叫 `getOffers()` 以使用傳入的參數和設定檔參數擷取 mbox。
+## 呼叫getOffers()以擷取含有參數和描述檔參數傳入的mbox。
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     execute: {
@@ -135,7 +135,7 @@ adobe.target.getOffers({
 
 ## 呼叫 getOffers() 以從用戶端擷取分析裝載
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 
 **回應**:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
@@ -193,7 +193,7 @@ at.js 2.x 可讓您透過 `getOffers()` API 擷取多個 mbox。您也可以擷�
 
 下列範例顯示已實作 at.js 2.x 的單一 HTML 頁面:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -215,7 +215,7 @@ at.js 2.x 可讓您透過 `getOffers()` API 擷取多個 mbox。您也可以擷�
 
 要求和呈現的程式碼可能如下列範例所示:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     prefetch: {
@@ -266,11 +266,11 @@ adobe.target.getOffers({
 
 請注意，此範例使用 `prefetch > mboxes`，但您也可以使用 `execute > mboxes`。請務必確認，如果您在 `getOffers()` 中使用預先擷取，則在 `applyOffers()` 叫用中也應使用預先擷取。
 
-## 呼叫 `getOffers()` 以執行pageLoad
+## 呼叫getOffers()以執行pageLoad
 
 下列範例說明如何使用getOffers()搭配at.js 2執行pageLoad。*x*
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
         execute: {
