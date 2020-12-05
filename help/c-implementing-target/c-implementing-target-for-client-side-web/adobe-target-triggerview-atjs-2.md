@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.ta
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 92%
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 將通知傳送至 Target 後端以增加活動曝光次數和其他量度的 `triggerView()` 呼叫。
 
-```
+```javascript
 adobe.target.triggerView("homeView")
 ```
 
@@ -38,6 +38,6 @@ adobe.target.triggerView("homeView")
 
 不將通知傳送至 Target 後端以增加曝光計數的 `triggerView()` 呼叫。
 
-```
+```javascript
 adobe.target.triggerView("homeView", {page: false})
 ```
