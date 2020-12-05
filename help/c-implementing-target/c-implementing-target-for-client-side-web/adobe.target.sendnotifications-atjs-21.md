@@ -4,7 +4,7 @@ description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.ta
 title: adobe.target.sendNotifications(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## 呈現預先擷取 mbox 後的 sendNotifications() 呼叫
 
-```
+```javascript
 function createTokens(options) {
   return options.map(e => e.eventToken);
 }
