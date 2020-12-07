@@ -4,7 +4,7 @@ description: 此主題中的案例顯示對您的頁面進行的變更如何影�
 title: 頁面修改案例
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
@@ -32,7 +32,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 **插入的元素:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -48,7 +48,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 在可以記錄:
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
@@ -58,7 +58,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 之後:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
@@ -73,7 +73,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 **插入的元素:**
 
-```
+```html
 <ul class="nav"> 
    <li class="item"> Sale </li> 
    <li> class="item"> Offers </li> 
@@ -92,7 +92,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 在可以記錄:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
@@ -102,7 +102,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 之後 (理想結果):
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="item"> Sale</li>
@@ -121,7 +121,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 **插入的元素:**
 
-```
+```html
 <ul class="nav"> 
    <li class="men-section"> Men Clothes</li> 
    <li class="women-section"> Women Clothes</li> 
@@ -140,7 +140,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 在可以記錄:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
@@ -150,7 +150,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 之後:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>
@@ -169,7 +169,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 **移除的元素:**
 
-```
+```html
 <li class="men-section"> Men </li>
 ```
 
@@ -185,7 +185,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 在可以記錄:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -196,7 +196,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 之後:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="women-section">Women</li>
@@ -210,7 +210,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 **移除的元素:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -226,7 +226,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 在可以記錄:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -238,7 +238,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 之後:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -253,7 +253,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 **移除的元素:**
 
-```
+```html
 <li class="women-shoes">Women</li>
 ```
 
@@ -269,7 +269,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 在可以記錄:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -280,7 +280,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 之後
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
        <li class="men-section">Men</li>
@@ -294,7 +294,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 **變更的元素:**
 
-```
+```html
 <li class="women-section">Women</li>
 ```
 
@@ -310,7 +310,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 在可以記錄:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -321,7 +321,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。在此情況下
 
 之後 (理想結果):
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
