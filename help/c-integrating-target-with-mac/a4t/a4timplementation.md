@@ -4,7 +4,7 @@ description: 實作 Adobe Analytics 做為 Target (A4T) 的報表來源時，需
 title: Analytics for Target 實作
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 50%
@@ -60,7 +60,7 @@ See [Implement the Experience Cloud ID Service for Target](https://experiencelea
 
 at.js:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 例如:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 此設定具有全域效果，也就是說，at.js 發出的所有呼叫都會在 要求中傳送 **analyticsLogging: &quot;client_side&quot;**，而且會為所有要求傳回分析裝載。[!DNL Target]設定後，傳回的裝載格式如下所示:
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ The payload can then be forwarded to Analytics via the [Data Insertion API](http
 
 例如:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ adobe.target.getOffers({
 
 回應如下所示:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
