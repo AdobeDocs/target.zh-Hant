@@ -5,10 +5,10 @@ description: 檢視Target指南的首頁。
 seo-description: Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 feature: landing
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: e1d0ac580eb33d3cb3d177b6b7aa3a91e72e62e5
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '703'
+ht-degree: 62%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 63%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新: 2020 年 11 月 24 日 ([查看變更](r-release-notes/doc-change.md))**
+**上次更新日期：2020年12月7日(請 [參閱變更內容](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
->**Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者**
+>Adobe Target最近在下列報表中獲評為領導者：
 >
->在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+>**[Forrester針對體驗最佳化平台的Wave報告。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告。
+>
+>**[Gartner個人化引擎魔力像限。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** 在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe Target再次獲評為領導者。
 
 以下章節依照目標對象的典型職務排列，能引導您在本指南中找到實用連結:
 
