@@ -5,7 +5,7 @@ title: Adobe Target中的自訂實體屬性
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -73,7 +73,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 下列範例顯示如何使用 `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ function targetPageParams() {
 
 您可以使用mbox參數中的「傳送API」，將多值屬性作為包含逸出JSON陣列的字串值來傳遞。
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
