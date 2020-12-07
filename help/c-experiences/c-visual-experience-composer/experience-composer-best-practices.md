@@ -4,7 +4,7 @@ description: 下列最佳作法可協助讓您的體驗如預期般運作。使�
 title: 可視化體驗撰寫器最佳作法和限制
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ OR
 
 例如，假設您的程式碼如下，則無法在 VEC 中將 Shopping Cart 文字鎖定為目標:
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ OR
 
 在網站上「關閉」iframe 爆破技術，並檢查是否在虛擬頁面的 iframe 內正常開啟。例如:
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ OR
 
 例如，假設頁面包含:
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ Mbox 內不允許「編輯類別」和「重新排列」等動作。Mbox 內容�
 
 *不正確:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ Mbox 內不允許「編輯類別」和「重新排列」等動作。Mbox 內容�
 
 *正確:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ Mbox 內不允許「編輯類別」和「重新排列」等動作。Mbox 內容�
 
 在 &#39;customHeaderMessage&#39; div 內新增錨點元素和一些虛構文字:
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ Mbox 內不允許「編輯類別」和「重新排列」等動作。Mbox 內容�
 
 插入影像之後，看起來如下:
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
