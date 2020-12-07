@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,17 @@ ht-degree: 0%
 
 有關即將舉辦之活動的公告和資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
 
+## Adobe在Forrester Wave報告中獲評為體驗最佳化平台的領導者
+
+Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其在此領域的產品Adobe Target Premium。 Adobe在目前的產品和市場狀況類別，以及建議和平台體驗標準中，獲得所有參與廠商的最高分。 在體驗最佳化技術創新及支援服務標準方面，Target Premium也獲得最高分。 此報告以對10家體驗最佳化平台提供者進行全面評估為基礎，涵蓋22個標準。
+
+在 [Adobe Blog上閱讀相關資訊](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。
+
 ## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
-在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。
+
+[在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
 
 ## 網路研討會：透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試
 
