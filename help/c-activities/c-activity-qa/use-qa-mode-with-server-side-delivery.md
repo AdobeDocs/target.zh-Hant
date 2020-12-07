@@ -4,7 +4,7 @@ description: 透過伺服器端傳送使用 QA URL，來執行簡易的端對端
 title: 使用透過伺服器端傳送的活動 QA
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 以下程式碼範例說明伺服器端呼叫的活動 QA:
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
