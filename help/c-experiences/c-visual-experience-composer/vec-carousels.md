@@ -4,7 +4,7 @@ description: 此主題顯示如何建立可以在可視化體驗撰寫器 (VEC) 
 title: 建立可在可視化體驗撰寫器中運作的輪播
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 1. 建立靜態的 HTML 預留位置。
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>
