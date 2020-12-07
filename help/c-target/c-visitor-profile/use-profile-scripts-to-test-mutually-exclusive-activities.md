@@ -4,7 +4,7 @@ description: 您可以使用設定檔屬性來設定測試，以比較兩個或�
 title: 使用描述檔指令碼來測試互斥的活動
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 如果要將訪客分組，讓各組看到不同的活動，則您必須建立設定檔屬性。描述檔屬性可將訪客分到兩個或多個群組中的其中一個群組。若要設定稱為 twogroups 的描述檔屬性，您可以建立以下指令碼:
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ After you create the profile attribute, set up the first activity to target the 
 
 例如，若要建立四個群組，請使用下列 JavaScript:
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ if (!user.get('fourgroups')) {
 
 例如，若要將訪客平均放在三個群組中，請使用下列程式碼:
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
