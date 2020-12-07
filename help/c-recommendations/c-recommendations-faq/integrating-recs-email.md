@@ -4,7 +4,7 @@ description: 關於將電子郵件與 Recommendations 整合方式的資訊。
 title: 將 Recommendations 與電子郵件整合
 feature: recommendations general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 90%
@@ -28,7 +28,7 @@ ht-degree: 90%
 
 下列程式碼是 API 傳送要求的範例:
 
-```
+```javascript
 curl -X POST \ 
   'https://clientcode.tt.omtrdc.net/rest/v1/mbox/?client=clientcode' \ 
   -H 'authorization: Bearer 3423614b-4843-4664-83c4-c6c3f6c8869b' \ 
