@@ -4,7 +4,7 @@ description: Adobe Target 中適用於單頁應用程式 (SPA) 的可視化體�
 title: 單一頁面應用程式 (SPA) 可視化體驗撰寫器
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -88,7 +88,7 @@ ht-degree: 93%
 
    行銷人員如果要在整個主網站上執行 A/B 測試，會想要將檢視命名為「主頁」(可從 URL 擷取):
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ ht-degree: 93%
 
    ![react 產品](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ ht-degree: 93%
 
    假設現在行銷人員想執行 A/B 測試，以瞭解當選取「快捷配送」時，相較於讓這兩種配送選項的按鈕均保持藍色，按鈕從藍色變為紅色是否能增加轉換次數。
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ at.js 2.x 的標準工作流程是當網站載入時，所有的檢視和動作�
 
 您可以使用 at.js 2.x 支援的新函數 `getOffers()` 和 `applyOffers()`:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
