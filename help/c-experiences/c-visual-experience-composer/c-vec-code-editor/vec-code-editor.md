@@ -4,7 +4,7 @@ description: 修改頁面的相關資訊，可讓您查看頁面修改內容及�
 title: 修改
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ ht-degree: 100%
 
    例如，若要變更元素的顏色:
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
    例如，若要定義覆蓋元素的類別:
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ ht-degree: 100%
 
    例如，使用下列 HTML 程式碼片段，採用以上定義的 CSS 類別來建立覆蓋 `<div>`:
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * 在 DOM 就緒時交換，使用 jQuery
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 * 在 DOM 就緒上交換，無 jQuery (不支援 Internet Explorer 8)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ ht-degree: 100%
 
    優點在於此交換比 DOM 就緒上更早發生。此外掛程式會處理預先隱藏和顯示，在元素上需要有 ID。
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 * 自訂重新導向，傳遞現有參數、`s_tnt` 參數 (適用於舊版與 Analytic 的整合)、轉介者參數及 mbox 工作階段
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 例如:
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
