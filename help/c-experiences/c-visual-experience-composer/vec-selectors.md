@@ -4,7 +4,7 @@ description: 元素選取器是一種可以識別一或多個元素的 CSS 運�
 title: 可視化體驗撰寫器中使用的元素選取器
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -36,7 +36,7 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
 
    例如:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- Selector is computed for this element -->
        <ul class="navigation">
@@ -55,7 +55,7 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
 
    例如:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
@@ -78,7 +78,7 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
 
    例如:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
