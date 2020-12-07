@@ -4,7 +4,7 @@ description: 設計可定義建議出現在頁面上的方式。
 title: 建立設計
 feature: designs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 32%
@@ -109,7 +109,7 @@ ht-degree: 32%
 
 1. 以下程式碼是您可貼入設計的範例：
 
-   ```
+   ```javascript
        #* 
        * "Return a simple list of recommended entity ids"   
        *#
@@ -182,7 +182,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 
 或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
-```
+```javascript
     {   
      "adobeRecommendations": {   
       "notes": {   
