@@ -4,7 +4,7 @@ description: 在選件資料庫中建立 JSON 選件，以用於表單式體驗�
 title: 建立 JSON 選件
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ JSON 選件可用於表單式活動中，藉以啟用使用案例，此時 Targe
 
 其範例如下:
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 傳給成功回呼的動作是物件陣列。假設有單一 JSON 選件，其內容為:
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ adobe.target.getOffer({
 
 動作陣列會有此結構:
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ adobe.target.getOffer({
 
 假設下列 JSON 選件傳送至您的網頁:
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ adobe.target.getOffer({
 
 下列程式碼顯示如何存取「greeting」屬性:
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
