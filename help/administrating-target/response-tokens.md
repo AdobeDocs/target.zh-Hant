@@ -4,7 +4,7 @@ description: 回應Token可讓您自動輸出Target特定資訊（活動詳細�
 title: Adobe Target 中的回應 Token
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -77,7 +77,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 下列程式碼範例直接將 [!DNL at.js] 自訂事件處理常式新增至 HTML 頁面:
 
-```
+```html
 <html> 
   <head> 
     .... 
@@ -104,7 +104,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. 在程式碼編輯器中，將下列程式碼附加至 [!DNL at.js]:
 
-   ```
+   ```json
    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
      console.log("Request succeeded", e.detail); 
    });
@@ -112,7 +112,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 如果您要將一切都放在單一檔案中，可以將下列程式碼片段新增至資料庫頁尾 [at.js 設定頁面](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)。
 
-```
+```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
   console.log("Request succeeded", e.detail); 
 });
@@ -168,7 +168,7 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 
 在 HTML 頁面中新增下列程式碼，即可透過 at.js 將資料傳送至 Google Analytics:
 
-```
+```javascript
 <script type="text/javascript"> 
   (function(i, s, o, g, r, a, m) { 
     i['GoogleAnalyticsObject'] = r; 
@@ -234,7 +234,7 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 
 將下列程式碼新增至 HTML 頁面，即可建立等同於 ttMeta 的外掛程式作為偵錯用途:
 
-```
+```javascript
 <script type="text/javascript" > 
   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
     window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
