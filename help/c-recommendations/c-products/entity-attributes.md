@@ -4,7 +4,7 @@ description: 使用實體屬性將產品或內容資訊傳遞至Adobe Target Rec
 title: 實體屬性
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 91%
@@ -40,7 +40,7 @@ ht-degree: 91%
 
 所有實體參數屬性均區分大小寫。
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ mboxCreate('productPage',
 
 例如，在下列程式碼中，Womens 類別又區分為數個子類別:
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 在以下範例中，第一個 mbox 呼叫將更新目錄和行為資料。第二個 mbox 呼叫將僅更新目錄。
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
