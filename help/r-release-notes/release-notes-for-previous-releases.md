@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: 舊版Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。 版本說明以發行年月由新到舊排序。
+description: 舊版Adobe Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。 版本說明以發行年月由新到舊排序。
 title: 舊版版本說明
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '29813'
+source-wordcount: '29814'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 86%
 
 # 舊版版本說明{#release-notes-for-previous-releases}
 
-舊版Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。 版本說明以發行年月由新到舊排序。
+舊版Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。
+
+版本說明以發行年月由新到舊排序。
 
 >[!NOTE]
 >
