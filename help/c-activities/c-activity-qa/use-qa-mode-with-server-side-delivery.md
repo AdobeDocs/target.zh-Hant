@@ -1,13 +1,13 @@
 ---
 keywords: qa;server side;server-side;preview;preview links
-description: 透過伺服器端傳送使用 QA URL，來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
+description: 使用Adobe Target QA URL與伺服器端傳送，透過預覽連結（不會變更）、選擇性的受眾定位以及與即時活動資料保持區隔的QA報告，輕鬆執行端對端活動QA。
 title: 使用透過伺服器端傳送的活動 QA
 feature: qa
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 88%
+source-wordcount: '383'
+ht-degree: 80%
 
 ---
 
