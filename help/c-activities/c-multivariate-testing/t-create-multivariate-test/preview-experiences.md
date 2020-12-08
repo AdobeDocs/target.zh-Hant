@@ -1,11 +1,11 @@
 ---
 description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
-title: 多變數測試的預覽體驗
+title: 多變數測試的預覽體驗建立設定檔屬性比較對象
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
