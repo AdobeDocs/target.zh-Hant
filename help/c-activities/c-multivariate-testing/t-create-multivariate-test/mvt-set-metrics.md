@@ -1,14 +1,14 @@
 ---
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: 在多變數測試中使用量度以判斷造訪是否成功。
+description: 在Adobe Target多變數測試中使用量度來判斷瀏覽成功的時間。
 title: 設定量度
 feature: mvt
 solution: Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 99%
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
