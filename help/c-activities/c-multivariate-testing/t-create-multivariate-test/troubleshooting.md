@@ -1,20 +1,20 @@
 ---
 keywords: Mobile Web Experience Editor
-description: 此主題包含的一些建議可用來解決設計 MVT 測試時可能發生的部分問題。
+description: 本主題包含解決在Adobe Target中設計MVT測試時可能發生之問題的建議。
 title: 疑難排解多變數測試
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 77%
 
 ---
 
 
 # 疑難排解多變數測試{#troubleshoot-multivariate-tests}
 
-此主題包含的一些建議可用來解決設計 MVT 測試時可能發生的部分問題。
+本主題包含解決在Adobe Target中設計MVT測試時可能發生之問題的建議。
 
 * 編輯活動時，如果您使用 Analytics 型量度，而報表套裝未載入 (顯示進度環)，請將量度切換至 Target 量度，然後再次切換至 Analytics 型量度。報表套裝現在應該會載入。
 * 如果對已在執行的測試進行變更，您可能會重設測試及其資料。
