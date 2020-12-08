@@ -1,13 +1,13 @@
 ---
 keywords: Overview and Reference
-description: 測試摘要可為您的多變數測試提供視覺概覽。
+description: 測試摘要提供Adobe Target多變數測試的視覺化總覽。
 title: 測試摘要
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 87%
 
 ---
 
