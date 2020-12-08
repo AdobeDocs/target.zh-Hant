@@ -1,13 +1,13 @@
 ---
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
-description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
+description: 在Adobe Target中組織您的網站和前制環境，以方便管理和分開報告。
 title: 環境
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 67%
+source-wordcount: '657'
+ht-degree: 65%
 
 ---
 
