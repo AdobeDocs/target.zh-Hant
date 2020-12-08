@@ -1,13 +1,13 @@
 ---
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
+description: 在Adobe Target中組織您的網站和前制環境，以方便管理和分開報告。
 title: 主機
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 26%
+source-wordcount: '1082'
+ht-degree: 25%
 
 ---
 
