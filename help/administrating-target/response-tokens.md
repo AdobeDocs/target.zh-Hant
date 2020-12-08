@@ -1,12 +1,12 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: 回應Token可讓您自動輸出Target特定資訊（活動詳細資訊、使用者設定檔資訊、地理資訊等），以用於除錯或與協力廠商系統整合（例如Clicktale）
+description: 回應Token可讓您自動輸出Adobe Target特定資訊（活動詳細資訊、使用者設定檔資訊、地理資訊等），以用於除錯或與協力廠商系統整合（例如Clicktale）
 title: Adobe Target 中的回應 Token
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1575'
 ht-degree: 77%
 
 ---
