@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其
 在此錄制的網路研討會中，Adobe Target產品專家討論如何在裝置上將關鍵體驗最佳化決策移至本機執行，而無延遲，為客戶開啟令人振奮的新使用案例，同時提升網站效能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[在這裡註冊參加這個精彩的活動。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## 網路研討會：HSBC如何運用Adobe Target和AI快速最佳化並大規模傳遞個人化
 
