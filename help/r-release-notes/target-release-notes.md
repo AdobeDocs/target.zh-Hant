@@ -4,9 +4,9 @@ description: 提供最新或即將發行的DNL Adobe Target版本功能、增強
 title: Adobe Target搶鮮版注意事項
 feature: null
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '771'
 ht-degree: 10%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 10%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 裝置上決策 | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗定位(XT)活動類型中的關鍵個人化和實驗指示編譯為「最佳化工件：」 JSON物件，這些物件會透過CDN載入到客戶裝置上。 而且，由於裝置上的決策功能會以原生方式與產品連 [!DNL Adobe Experience Cloud] 接， [!DNL Target] 所以使用者可以快速分析並加速體驗的改變。<br>如需詳細資訊，請 *[參閱](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Adobe Target SDK指南中的裝置上決策簡介 **。<br>觀看錄制的網路研討會，請參閱： [Adobe Target中的裝置上決策](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=chi_hant)。 |
+| [裝置上決策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗定位(XT)活動類型中的關鍵個人化和實驗指示編譯為「最佳化工件：」 JSON物件，這些物件會透過CDN載入到客戶裝置上。 而且，由於裝置上的決策功能會以原生方式與產品連 [!DNL Adobe Experience Cloud] 接， [!DNL Target] 所以使用者可以快速分析並加速體驗的改變。<br>如需詳細資訊，請參閱*[裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
 
 此發行包含下列增強功能、修正和變更：
 
