@@ -4,9 +4,9 @@ description: '裝置上決策功能可讓您在伺服器上快取您的Adobe Tar
 title: 裝置上決策
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ ht-degree: 0%
 * 顯示範例Node.JS SDK程式碼，其中包含裝置上決策所需的關鍵組態
 * 在瀏覽器中展示結果
 
-在本視訊結束前，您將能夠：
-
-* 說明裝置上決策及其優點
-* 啟用裝置上決策功能， [!DNL Target]
-* 建立表單式撰寫器活動，以便與裝置上的決策一起使用
-* 請造訪 [Adobe Target SDK檔案，進一步瞭解裝置上決策所需的SDK設定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* 瞭解使用者透過裝置上決策提供的內容將體驗哪些內容
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+如需更多影片和教學課程，請參閱 [Adobe Target教學課程指南](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 。
