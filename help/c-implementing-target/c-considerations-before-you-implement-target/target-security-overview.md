@@ -4,15 +4,15 @@ description: 關於 Adobe 所實作以支持資料的安全性和 Adobe Target �
 title: Target 安全性概覽
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
 
-# Target 安全性概覽{#target-security-overview}
+# Target 安全性概述
 
 關於 Adobe 所實作以支持資料的安全性和 Adobe Target 體驗的深入方法和安全性程序的資訊。
 
