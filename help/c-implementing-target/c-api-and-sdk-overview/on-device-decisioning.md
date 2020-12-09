@@ -4,7 +4,7 @@ description: '裝置上決策功能可讓您在伺服器上快取您的Adobe Tar
 title: 裝置上決策
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 裝置上決策
 
-裝置上決策功能可讓您快取伺服器上的 [!DNL Adobe Target] A/B測試與 [!UICONTROL Experience Targeting][!DNL Adobe Target](XT)活動，並在接近零延遲的延遲下執行記憶體內決策，而不會封鎖網路對邊緣網路的要求。
+裝置上決策功能可讓您快取伺服器上的 [!DNL Adobe Target] A/B測試與 [!UICONTROL Experience Targeting][!DNL Adobe Target] (XT)活動，並在接近零延遲的延遲下執行記憶體內決策，而不會封鎖網路的網路要求。
 
 如需詳細資訊，請 [參閱](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) Adobe Target SDK檔案中的裝置上決策簡介 *[](https://adobetarget-sdks.gitbook.io/docs/)*。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 教學課程：裝置上決策
 
-[!DNL Adobe Targe]在裝置上進行決策可提供接近零的延遲內容。
+[!DNL Adobe Target] 裝置上決策可讓內容傳送接近零延遲。
 
 這段7分鐘的影片：
 
