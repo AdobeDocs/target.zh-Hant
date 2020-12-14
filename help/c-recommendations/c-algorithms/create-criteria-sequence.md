@@ -1,20 +1,20 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: 使用最多5個標準的序列，對Adobe Target Recommendations活動中出現的項目進行更大的控制。
 title: 建立條件序列
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 36%
+source-wordcount: '808'
+ht-degree: 35%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 建立條件序列
 
-使用最多五個條件的序列來對 [!UICONTROL Recommendations] 活動中出現的項目執行更好的控制。
+使用最多五個條件的序列來對 [!UICONTROL Recommendations] 活動中出現的項目執行更好的控制。您也可以限制傳回的項目數（有時稱為「槽層級控制」）。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 36%
 
    ![限制傳回的項目數，切換](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   為協助您瞭解「限制傳回 [!UICONTROL 的項目數」選項的值] ，請考慮下列使用案例：
+   為協助您瞭解「限制傳回的項 [!UICONTROL 目數」選項的值] （有時稱為「槽層級控制」），請考慮下列使用案例：
 
    * **使用案例1**:您想要在單一建議托盤中混合使用不同種類的項目。 例如，您想要展示混搭的外套（夾克）和上衣（襯衫、T恤）。 若要達成此目的，請使用「系列」作業，其中包含您設計中任何位置所需的所有潛在產品類型。 然後，使用限制條件僅包含外套的靜態篩選器來設定您的第一個准則，並使用限制條件僅包含頂端的靜態篩選器來設定您的第二個准則。 最後，將兩個准則新增至准則序列，並將第一個准則限制為2個槽。
 
