@@ -4,7 +4,7 @@ description: 其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡�
 title: 資源與聯絡資訊
 feature: reference general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -121,7 +121,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 ### 法律資訊 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2019 Adobe Systems Incorporated.All rights reserved.
+* © 2020 Adobe Systems Incorporated.All rights reserved.
 * Published by Adobe Systems Incorporated.
 
 [Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
