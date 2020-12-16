@@ -14,15 +14,15 @@ ht-degree: 65%
 
 # 傳遞參數至全域 mbox{#pass-parameters-to-a-global-mbox}
 
-The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
+JavaScript `targetPageParams`函式可用來將參數傳遞至[!DNL Adobe Target]中的全域mbox。 在要將其他定位／上下文資訊傳入[!DNL Target]的任何情況下，都需要此項資訊。
 
-For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
+例如，在[!DNL Recommendations]活動中，使用參數來表示目前正在檢視的產品或類別。
 
 呼叫JavaScript函式的程式碼必須位於頁面上的全域mbox之前，不論全域mbox是作為at.js的一部分引發，還是手動包含在頁面程式碼中。
 
 >[!NOTE]
 >
->If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
+>如果您想要將參數新增至頁面上的所有mbox，而不只是全域mbox，請使用[targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)函式。
 
 您可以透過下列任何方式，利用 `target-global-mbox` 函數將參數傳入 `targetPageParams()`:
 
