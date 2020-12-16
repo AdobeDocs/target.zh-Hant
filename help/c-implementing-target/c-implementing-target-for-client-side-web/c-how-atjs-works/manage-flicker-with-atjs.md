@@ -26,7 +26,7 @@ ht-degree: 80%
 
 將不透明度設為 0，可隱藏頁面內容以避免忽隱忽現的情形發生，但瀏覽器仍會輸出頁面，並載入 CSS、影像等所有必要資產。
 
-若不透明度設為 0 仍無法在您的實作上順利運作，您也可以透過自訂 `bodyHiddenStyle`，並設為 `body {visibility:hidden !important}`}，來管理忽隱忽現的問題。You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
+若不透明度設為 0 仍無法在您的實作上順利運作，您也可以透過自訂 `bodyHiddenStyle`，並設為 `body {visibility:hidden !important}`}，來管理忽隱忽現的問題。您可以使用值body `{opacity:0 !important}`或`body {visibility:hidden !important}`，以最適合您的特定情況為準。
 
 下圖顯示 js 1.*x* 和 at.js 2.x。
 
