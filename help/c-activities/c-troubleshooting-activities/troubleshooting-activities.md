@@ -78,7 +78,7 @@ ht-degree: 81%
 當您加入 Target 中成為使用者時，需要具有「核准者」角色，才能建立活動。
 
 * 請要求帳戶的管理員將您變成「核准者」。
-* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
+* 如果您是管理員，請在Target中為自己指定&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;的「核准者」角色。
 
    請參閱[將核准者角色指派給您自己](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -137,10 +137,10 @@ ht-degree: 81%
 * 再刪除一次。出現成功訊息。
 * 等待大約 10 分鐘，讓 Target Standard/Premium 匯入器執行。匯入器會更新設定檔指令碼清單。
 
-## Some ajax [!DNL Target] calls are not working.
+## 某些ajax [!DNL Target]呼叫無法運作。
 
 **注意:**[!DNL Target] 具有相同 名稱但不同參數的多個 ajax 呼叫將無法在相同頁面上運作。僅會發出第一次呼叫。
 
-## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
+## 您使用Target API啟動活動，但活動在Target UI中顯示[!UICONTROL Inactive]的狀態。
 
 執行特定動作時 (例如在 UI 外部使用 Target API 來啟動活動)，更新最多可能需要 10 分鐘才會傳播至 UI。
