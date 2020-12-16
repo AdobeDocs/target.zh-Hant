@@ -26,13 +26,13 @@ ht-degree: 87%
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Banner Carousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Banner Carousel  {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 [Banner Carousel 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。此輪播不會透過影像自動旋轉，可按一下左箭頭和右箭頭直接進行互動。
 
 ![](assets/exp-template-banner-carousel.png)
 
-## Banner Countdown {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Banner Countdown  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 [Banner Countdown 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)為中央有倒數計時的大型橫幅，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 
 ![](assets/exp-template-button-builder.png)
 
-## Lightbox with Countdown {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox with Countdown  {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [Lightbox with Countdown 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)為中央有倒數計時的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
