@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: 建立排除 [!DNL Adobe Target Recommendations] 以防止向訪客建議產品或內容。
+description: 在 [!DNL Adobe Target Recommendations] 中建立排除，以防止建議訪客使用產品或內容。
 title: Adobe Target 中的排除項目
 feature: entities
 translation-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 45%
 
 # 排除項目{#exclusions}。
 
-建立排除，以 [!DNL Adobe Target Recommendations] 防止向訪客建議產品或內容。 排除是不應建議給訪客的產品或內容子集。
+在[!DNL Adobe Target Recommendations]中建立排除，以防止建議訪客使用產品或內容。 排除是不應建議給訪客的產品或內容子集。
 
-整個帳戶都可使用排除。 與在建立  Recommendations活動時為每個體驗指定特定系列的系列不同，排除套用至帳戶內的所有活動。 在建立活動期間，沒有指定排除群組的選項。
+整個帳戶都可使用排除。 不同於在建立[!UICONTROL Recommendations]活動時為每個體驗指定特定系列的系列，排除項目會套用至帳戶中的所有活動。 在建立活動期間，沒有指定排除群組的選項。
 
 您使用排除的一些範例包括：
 
@@ -54,7 +54,7 @@ ht-degree: 45%
 
 ## 使用進階搜尋建立排除項目
 
-You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+您也可以在[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md#save-as)頁面（[!UICONTROL 建議] > [!UICONTROL 目錄搜尋] > [!UICONTROL 進階搜尋]）上使用[!UICONTROL 進階搜尋]建立排除。
 
 ![另存為對話框](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -62,7 +62,7 @@ You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalo
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. 此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立排除項目時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您接著建立排除項目而希望排除含有 &quot;holiday&quot; 的產品，則只會排除含有 &quot;holiday&quot; 的產品。不會排除含有 &quot;Holiday&quot; 的產品。
+>[!UICONTROL 進階搜尋]功能不區分大小寫；不過，在傳送時傳回的產品會以區分大小寫的搜尋為基礎。 此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立排除項目時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您接著建立排除項目而希望排除含有 &quot;holiday&quot; 的產品，則只會排除含有 &quot;holiday&quot; 的產品。不會排除含有 &quot;Holiday&quot; 的產品。
 
 ## 編輯、複製或刪除排除項目
 
@@ -74,7 +74,7 @@ You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalo
 
 請注意，整個帳戶都有排除項目。 在刪除排除前，請務必考慮這一點。 無法刪除排除。
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## 訓練影片：在Recommendations中建立系列和排除(7:05)![教學課程標章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
