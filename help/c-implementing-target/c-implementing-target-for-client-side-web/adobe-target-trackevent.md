@@ -22,7 +22,7 @@ ht-degree: 78%
 
 | 機碼 | 類型 | 必要 | 說明 |
 |--- |--- |--- |--- |
-| mbox | 字串 | 是 | mbox <br>**nameNote**:如果觸發trackEvent()呼叫時的mbox名稱已在頁面上引發，則會重設trackEvent()的SDID，其值會與頁面上的Target呼叫不同。 但是，觸發具有不同mbox名稱的trackEvent()呼叫會使trackEvent()呼叫的SDID與頁面上的頁面載入請求/triggerView()呼叫保持一致。 |
+| mbox | 字串 | 是 | Mbox名稱&#x200B;<br>**Note**:如果觸發trackEvent()呼叫時的mbox名稱已在頁面上引發，則會重設trackEvent()的SDID，其值會與頁面上的Target呼叫不同。 但是，觸發具有不同mbox名稱的trackEvent()呼叫會使trackEvent()呼叫的SDID與頁面上的頁面載入請求/triggerView()呼叫保持一致。 |
 | selector | 字串 | 無 | 用來尋找 HTML 元素的 CSS 選取器。事件接聽程式將附加至找到的元素。 |
 | type | 字串 | 無 | 代表已註冊的事件類型。它可以是 HTML 已知事件，如: 按一下、按下滑鼠等等，也可以是自訂 HTML 事件。 |
 | preventDefault | 布林值 | 無 | 指出是否在事件接聽程式回呼中使用 `event.preventDefault()`。預設值設為 false。<br>**注意**: 僅支援 `form[submit] and `a[click]。由於複雜度和要支援的案例數量太大，不支援其他案例。 |
