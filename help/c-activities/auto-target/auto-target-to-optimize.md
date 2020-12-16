@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Auto-Target總覽
+# ![](/help/assets/premium.png) PREMIUMAuto-Target概觀
 
 [!UICONTROL 自動鎖定目標]使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中加以選取，以便個人化內容並促進轉換。自動鎖定目標會根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
 
@@ -20,15 +20,15 @@ ht-degree: 86%
 >
 >[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。如需此授權提供之進階功能的詳細資訊，請參閱 [Target Premium](/help/c-intro/intro.md)。
 >
->[!UICONTROL Analytics for Target] (A4T)支援 [!UICONTROL Auto-Target活動] 。 如需詳細資訊，請 [參閱建立使用Analytics作為報告來源的活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。
+>[!UICONTROL Analytics for Target] (A4T)支援「自 [!UICONTROL 動定位] 」活動。如需詳細資訊，請參閱[建立使用Analytics作為報告來源的活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。
 
-## 使用Auto-Target的實際成功案例 {#success}
+## 使用Auto-Target {#success}的實際成功案例
 
-一家主要服裝零售商最近使用 [!UICONTROL Auto-Target] 活動搭配十種產品類別型體驗（加上隨機控制），為每位訪客提供正確的內容。 「[!UICONTROL 新增至購物車]」被選為主要最佳化度量。 目標體驗平均提升29.09%。 建立 [!UICONTROL Auto-Target模型後] ，活動設定為90%的個人化體驗。
+一家主要服裝零售商最近使用[!UICONTROL Auto-Target]活動搭配十種產品類別型體驗（加上隨機控制），為每位訪客提供正確的內容。 &quot;[!UICONTROL 新增至購物車]&quot;被選為主要最佳化度量。 目標體驗平均提升29.09%。 建立[!UICONTROL Auto-Target]模型後，活動會設為90%的個人化體驗。
 
 短短10天，就實現了170多萬美元的提升。
 
-繼續閱讀，瞭解如何使用 [!UICONTROL Auto-Target] ，為您的組織增加營收和提升度。
+繼續閱讀以瞭解如何使用[!UICONTROL Auto-Target]來增加組織的提升度和收入。
 
 ## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,7 +44,7 @@ A/B 活動流量內的[!UICONTROL 「自動鎖定目標」]選項可讓您只要
 
 ## 考量事項
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+使用[!UICONTROL Auto-Target]時，應牢記以下幾點重要事項：
 
 * 您無法將特定活動從[!UICONTROL 自動鎖定目標]切換到自動個人化，反之亦然。
 * 在活動上線之後，您無法從手動流量分配 (傳統 A/B 測試) 切換到[!UICONTROL 自動鎖定目標]，反之亦然。
@@ -76,7 +76,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 | [上傳資料供 Target 的個人化演算法使用](/help/c-activities/t-automated-personalization/algo-random-forest.md) | 有幾種方式可輸入資料供[!UICONTROL 自動鎖定目標]和自動個人化模型使用。 |
 | [Target 個人化演算法的資料收集](/help/c-activities/t-automated-personalization/ap-data.md) | Target 的個人化演算法會自動收集各種資料。 |
 
-## 決定流量分配 {#section_AB3656F71D2D4C67A55A24B38092958F}
+## 決定流量分配  {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 視活動的目標而定，您可能在控制體驗與個人化體驗之間選擇不同的流量分配。最佳作法是在活動上線之前就決定此目標。
 
@@ -162,7 +162,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 如需詳細資訊，請參閱[報表](/help/c-reports/reports.md)一節中的[自動鎖定目標摘要報表](/help/c-reports/auto-target-summary-report.md)。
 
-## 訓練影片：瞭解自動定位活動 ![概述徽章](/help/assets/overview.png)
+## 訓練影片：瞭解自動定位活動![概述徽章](/help/assets/overview.png)
 
 本影片說明如何設定[!UICONTROL 自動鎖定目標] A/B 活動。
 
