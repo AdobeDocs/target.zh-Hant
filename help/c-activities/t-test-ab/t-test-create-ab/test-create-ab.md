@@ -14,15 +14,15 @@ ht-degree: 64%
 
 # 建立 A/B 測試
 
-Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
+使用[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer](VEC)，直接在[!DNL Target]啟用的頁面上建立[!UICONTROL A/B Test]活動，並修改[!DNL Target]內頁面的部分。
 
 >[!NOTE]
 >
->除了「手動（預設） [!UICONTROL A/B測試」活動(在本節中討論] )外， [!DNL Target] 還提供了兩種  A/B測試活動： [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標]。
+>除了手動（預設）[!UICONTROL A/B測試]活動（在本節中討論）外，[!DNL Target]還提供了兩種額外類型的[!UICONTROL A/B測試]活動：[!UICONTROL 自動分配]和[!UICONTROL 自動目標]。
 >
->請參 [閱A/B測試概觀中](/help/c-activities/t-test-ab/test-ab.md#types)*的A/B測試活動類型*。
+>請參閱&#x200B;*A/B測試概述*&#x200B;中的[A/B測試活動類型](/help/c-activities/t-test-ab/test-ab.md#types)。
 
-要建立手動 [!UICONTROL A/B測試活動] :
+要建立手動[!UICONTROL A/B測試]活動：
 
 1. 從&#x200B;**[!UICONTROL 「活動」]**&#x200B;清單，按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「A/B 測試」]**。
 
@@ -38,15 +38,15 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    ![建立A/B測試活動](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)。
+   如果您偏好使用[!UICONTROL 表單型體驗撰寫器]，請選擇[!UICONTROL 表單]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了VEC和表單型體 [!UICONTROL 驗撰寫器外], [!DNL Target] 還提供單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL 表單型體驗撰寫器]外，[!DNL Target]還提供單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[[!UICONTROL 選擇工作區]](/help/administrating-target/c-user-management/property-channel/property-channel.md)選項是 [Target Premium](/help/c-intro/intro.md) 功能。Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >上圖中的[[!UICONTROL 選擇工作區]](/help/administrating-target/c-user-management/property-channel/property-channel.md)選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看到此選項，您的組織擁有[!UICONTROL Target Standard]授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/c-intro/intro.md#premium)，請選擇[工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -89,9 +89,9 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    流程圖表將引導您進行選擇活動對象和設定體驗的步驟。
 
-1. 在「對 [!UICONTROL 像] 」方塊中，按一下編輯圖示（三個垂直的省略號），按一下「取代對象 **[!UICONTROL 」，然]**[](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) 後選取活動的對象。
+1. 在[!UICONTROL 對象]方塊中，按一下編輯圖示（三個垂直橢圓），按一下「取代對象&#x200B;]**」，然後[選取您活動的對象](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)。**[!UICONTROL 
 
-   By default, the audience is set to [!UICONTROL All Visitors].
+   依預設，觀眾會設為[!UICONTROL 所有訪客]。
 
 1. 選擇符合您要讓其進入活動之訪客的百分比。
 
@@ -109,24 +109,24 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    * **[!UICONTROL 自動分配至最佳體驗]**: 系統會自動將多數活動加入者導向表現較佳的體驗。有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。請參閱[自動流量分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-   * **[!UICONTROL 自動鎖定個人化體驗]**: [!DNL Target] 使用進階的機器學習來識別多個高效能、行銷人員定義的體驗，以個人化內容並推動轉化，然後根據訪客的個人客戶個人檔案和類似訪客的過往行為，為訪客提供量身打造的體驗。 如需詳細資訊，請 [參閱自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。
-   You can also click **[!UICONTROL Add]** to add another experience to the activity.
+   * **[!UICONTROL 自動鎖定個人化體驗]**: [!DNL Target] 使用進階的機器學習來識別多個高效能、行銷人員定義的體驗，以個人化內容並推動轉化，然後根據訪客的個人客戶個人檔案和類似訪客的過往行為，為訪客提供量身打造的體驗。如需詳細資訊，請參閱[自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。
+   您也可以按一下「新增&#x200B;****」，將其他體驗新增至活動。
 
-1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
+1. 當您對受眾、體驗選擇和流量分配選擇感到滿意時，請按一下「下一步」，移至三步驟引導式工作流程的第三步。****
 
 1. 指定活動的[目標與設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
 
    ![A/B 活動設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 按一 **[!UICONTROL 下「儲存並關閉]** 」或 **[!UICONTROL 「儲存]**」。
+1. 按一下「儲存並關閉」或「儲存」。]**]****[!UICONTROL **[!UICONTROL 
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+建立活動後，[!UICONTROL 概述]頁籤顯示有關活動的資訊，包括活動的圖。
 
-## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
+## 訓練影片：建立A/B測試(8:36)![教學課程標章](/help/assets/tutorial.png)
 
 此影片示範如何使用 [!DNL Target] 三個步驟引導工作流程來建立 A/B 測試。
 
-* 建立 [!UICONTROL A/B測試活動] ，位於 [!DNL Adobe Target]
+* 在[!DNL Adobe Target]中建立[!UICONTROL A/B測試]活動
 * 使用手動分割或自動流量分配來分配流量
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
