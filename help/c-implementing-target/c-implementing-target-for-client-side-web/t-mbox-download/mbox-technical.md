@@ -33,7 +33,7 @@ Target Standard 需要 [!DNL mbox.js] 版本 58 或更新版。有關如何下�
 
 [!DNL Target.js] 控制 Standard 使用的 DOM 操作程式庫。為了顯示網站的內容，[!DNL target.js] 會參考 [!DNL sizzle.js] (1.10.8 版之前)。[!DNL Sizzle.js] 會啟用 HTML 元素選取器。除了 [!DNL sizzle.js]，只使用原生 JavaScript。不需要 jquery。
 
-此外，使用下列程式碼片段來輪詢 DOM:
+此外，使用下列程式碼片段來輪詢 DOM: 
 `https://github.com/dperini/ContentLoaded`
 
 ## Target.js 和可視化體驗撰寫器 {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
@@ -43,7 +43,7 @@ Target Standard 需要 [!DNL mbox.js] 版本 58 或更新版。有關如何下�
 * 產生縮圖: [!DNL https://html2canvas.hertzen.com/]
 * 跨網域查詢: [!DNL Admin.js]、[!DNL CDQ.base.js]、[!DNL CDQ.host.js]、[!DNL admin.css]，用於跨 iFrame 傳送訊息。這些指令碼可讓 Adobe 在頁面之間傳送資料。
 
-## 關於 Angular 網站和單頁應用程式的考量 {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## 關於 Angular 網站和單頁應用程式的考量  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 如果您在 Angular 網站或任何單頁應用程式 (SPA) 中實作 Target，應該使用 at.js 程式庫，而不是 mbox.js。
 
