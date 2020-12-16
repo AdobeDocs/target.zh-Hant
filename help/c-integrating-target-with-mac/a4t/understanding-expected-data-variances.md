@@ -36,7 +36,7 @@ ht-degree: 100%
 
    如需支援 A4T 的活動類型完整清單，請參閱[支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)。
 
-## *不使用* A4T 時的預期資料差異 {#expected-not-using-a4t}
+## *不使用* A4T 時的預期資料差異  {#expected-not-using-a4t}
 
 即使是使用相似的資料集，有 15-20% 的差異也是正常的。算法不同的系統可能會導致更高的資料差異，高達 35-50%。在某些情況下，差異可能還會更高。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 預期的資料差異可能是因為技術與業務差異所致。
 
-### 技術差異的範例 {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### 技術差異的範例  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 下列的技術差異可能造成資料差異:
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 * 時區考量
 * 可計算的裝置差異
 
-### 業務差異的範例 {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### 業務差異的範例  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 下列的業務差異可能造成資料差異:
 
