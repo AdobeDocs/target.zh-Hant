@@ -20,7 +20,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->「建立條件」主題的「內容」區段中會包含其他資訊 [](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) ，包括矩陣，其中說明搭配使用「部分設計演算」和「顯示備份建議」選項時，您會觀察到的結果。
+>Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)主題的[Content部分包含其他資訊，包括矩陣，說明搭配使用[!UICONTROL Partial Design Rendering]和[!UICONTROL Show Backup Recommendations]選項時，您將觀察到的結果。
 
 使用演算法資料後，備份建議功能會始終使用網站上檢視次數最多的項目來填充任何剩余區段。例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
 
