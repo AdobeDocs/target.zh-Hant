@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Entity Attribute Matching
+# ![PREMIUMEntity屬](/help/assets/premium.png) 性匹配
 
-Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+將潛在建議項目的群組與使用者已互動的特定項目進行比較，以動態篩選[!DNL Adobe Target] [!DNL Recommendations]。
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>建立和使用包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)以取得標準和促銷的[程式與使用案例和範例類似。
 
 例如，建議只使用符合目前項目品牌的項目，如下列範例所示：
 
-如果「品牌著陸頁面」上的mbox傳 `entity.brand=brandA`回，則只會傳回並顯示該頁面上的品牌A產品。 同樣地，在品牌B的品牌著陸頁面上，只會傳回品牌B產品。 使用這種類型的動態包含規則時，使用者只需指定一個建議規則，即可在所有品牌頁面傳回相關品牌結果，而不需指定系列或靜態篩選來符合每個品牌名稱。
+如果品牌著陸頁面上的mbox傳回`entity.brand=brandA`，則僅傳回品牌A產品並顯示在該頁面上。 同樣地，在品牌B的品牌著陸頁面上，只會傳回品牌B產品。 使用這種類型的動態包含規則時，使用者只需指定一個建議規則，即可在所有品牌頁面傳回相關品牌結果，而不需指定系列或靜態篩選來符合每個品牌名稱。
 
-請注意，您必須在這些 `entity.brand` 著陸頁面的mbox中傳送，才能運作。
+請注意，您必須在這些著陸頁面的mbox中傳送`entity.brand`，才能運作。
 
 ## 實體屬性符合範例
 
-[!UICONTROL 「實體屬性符合] 」可讓您僅建議符合的項目，例如：
+[!UICONTROL 「實體屬] 性匹配」可讓您僅建議符合的項目，例如：
 
 * 用戶當前查看的項目中的屬性
 * 使用者最近檢視的項目
@@ -42,7 +42,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 下列範例顯示與頁面上顯示的產品品牌相符的建議：
 
-當您造訪具有品牌A產品的頁面時，該頁面會將參數值設 `entity.brand` 為「品牌A」。
+當您造訪具有品牌A產品的頁面時，頁面會將`entity.brand`參數的值設為&quot;BrandA&quot;。
 
 ![Target呼叫範例](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 ![品牌A建議](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-如果您接著檢視品牌B產品頁面， `entity.brand` 值將重設為「品牌B」，您會看到品牌B產品頁面上建議的品牌B產品。
+如果您接著檢視品牌B產品頁面，`entity.brand`值將重設為「品牌B」，您會看到品牌B產品頁面上建議的品牌B產品。
 
 ![品牌B建議](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
