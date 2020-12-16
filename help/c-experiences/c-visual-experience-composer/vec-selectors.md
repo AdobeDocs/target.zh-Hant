@@ -18,7 +18,7 @@ ht-degree: 90%
 
 您可以在 Mozilla 開發人員網路 (MDN) 上的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文件中，找到關於 CSS 選取器的基本資訊。
 
-您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一 **[!UICONTROL 下「管理>視覺體驗撰寫器]**」，然後選擇您偏好的CSS選擇器。
+您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下「**[!UICONTROL 管理> Visual Experience Composer]**」，然後選擇您偏好的CSS選擇器。
 
 ![](assets/css_selectors.png)
 
