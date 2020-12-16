@@ -46,7 +46,7 @@ ht-degree: 96%
 
 若控制值為 0，則無百分比提升度。
 
-## 信賴度 (統計顯著性) {#section_35DB6724813D40C7B0808DE18FE595C1}
+## 信賴度 (統計顯著性)  {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 此數字代表再次執行測試時會產生重複結果的可能性。可信度大於或等於 99.995% 時會四捨五入為 100.00%。
 
@@ -102,11 +102,11 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 * **樣本尺寸:** 樣本增大，區間就縮小或變窄。這代表您的報表越來越接近成功度量的真值，因此為有利狀況。
 * **標準偏差較小:** 結果越近似 (例如相似的 AOV、數字或每日轉換訪客)，便越會縮小標準偏差。
 
-## 可信度計算以及如何離線執行計算 {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## 可信度計算以及如何離線執行計算  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 [下載的 CSV 報表](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+若要計算這些計算量度，請下載Target的[完整信賴計算器](/help/assets/complete_confidence_calculator.xlsx) Excel檔案以輸入活動值，或檢閱Target](/help/assets/statistical-calculations.pdf)使用的[統計計算。
 
 >[!NOTE]
 >
