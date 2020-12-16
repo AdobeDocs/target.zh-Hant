@@ -16,17 +16,17 @@ ht-degree: 69%
 
 在特定條件下，顯示問題和其他問題有時會在Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中發生。
 
-## 最近宣佈的Google Chrome SameSite Cookie實施政策對VEC和EEC有何影響？ {#samesite}
+## 最近宣佈的Google Chrome SameSite Cookie實施政策對VEC和EEC有何影響？{#samesite}
 
 透過最新變更（2020年8月），所有使用Chrome 80+瀏覽器版本的使用者：
 
-* 無 *法在* VEC網站的受密碼保護頁面中使用VEC（安裝或未啟用VEC Helper擴充功能）。 這是因為其網站登入Cookie將被視為第三方Cookie，不會隨登入請求傳送。 唯一的例外是當客戶網站登入Cookie已將SameSite參數設為「無」時。
-* 在編 *輯活動時* (當活動 [!DNL Target] 尚未在網站上時)將無法下載程式庫。 這是因為下載呼叫是從客戶網域向安全的Adobe網域進行，並會被拒絕為未驗證。
-* EEC對所 *有使用者* 都無法運作，因為它無法在上設定Cookie的SameSite屬性 `adobemc.com domain`。 若沒有此屬性，瀏覽器將拒絕這些Cookie，導致EEC失敗。
+* *not*&#x200B;是否能在其網站受密碼保護的頁面中使用VEC（安裝或未啟用VEC Helper擴充功能）。 這是因為其網站登入Cookie將被視為第三方Cookie，不會隨登入請求傳送。 唯一的例外是當客戶網站登入Cookie已將SameSite參數設為「無」時。
+* *not*&#x200B;是否能在編輯活動時（當活動不在網站上時）下載[!DNL Target]程式庫。 這是因為下載呼叫是從客戶網域向安全的Adobe網域進行，並會被拒絕為未驗證。
+* EEC將&#x200B;*not*&#x200B;函式用於所有用戶，因為它無法在`adobemc.com domain`上為Cookie設定SameSite屬性。 若沒有此屬性，瀏覽器將拒絕這些Cookie，導致EEC失敗。
 
-Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴充功能會覆寫Cookie屬性，以視需 `SameSite="none"` 要設定屬性。 您可 [在這裡找到更新的擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 如需有關安裝和使用VEC Helper Extension的詳細資訊，請參閱 [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴充功能會覆寫Cookie屬性，以視需要設定`SameSite="none"`屬性。 [更新的擴充功能可在此處找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 如需有關安裝和使用VEC Helper Extension的詳細資訊，請參閱[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-對於您自己的網站Cookie，您必須依名稱指定Cookie。 將 [!UICONTROL Cookie滑桿切換] 至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請 [參閱Experience Cloud介面使](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) 用指南中的Adobe Target Cookie **。
+對於您自己的網站Cookie，您必須依名稱指定Cookie。 將[!UICONTROL Cookie]滑桿切換至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面使用指南*&#x200B;中的[Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
 
 ![Cookie在VEC協助工具擴充功能中切換](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,13 +34,13 @@ Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴
 
 使用下列其中一個選項來確保VEC和EEC繼續如預期般運作：
 
-* 下載並使用更新的 [VEC Helper擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+* 下載並使用更新的[VEC Helper擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
 * 使用Mozilla Firefox瀏覽器。 Firefox尚未執行此政策。
-* 繼續使用Chrome，但將標幟 `chrome://flags/#same-site-by-default-cookies` 設為「停用」。
+* 繼續使用Chrome，但將`chrome://flags/#same-site-by-default-cookies`標幟設為「已停用」。
 
    >[!NOTE]
    >
-   >如果Cookie ** 的SameSite屬性已設為「Lax」或「Strict」（嚴格），則這是不夠的。
+   >如果Cookie的SameSite屬性已設定為「Lax」或「Strict」，則&#x200B;*not*&#x200B;就足夠了。
 
 ## Target 是否支援多重層級 iframe?
 
@@ -93,7 +93,7 @@ Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 
 
 ## 我無法編輯 iFrame-busting 網站的體驗。(VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-此問題可透過啟用增強體驗撰寫器來解決。Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。這允許在 iFrame-busting 網站上進行編輯，並允許在您尚未新增 Adobe Target 程式碼的網站和頁面上進行編輯。在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。[]
+此問題可透過啟用增強體驗撰寫器來解決。按一下「**[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗撰寫器]**」，然後選取啟用「增強體驗撰寫器」的核取方塊。 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。這允許在 iFrame-busting 網站上進行編輯，並允許在您尚未新增 Adobe Target 程式碼的網站和頁面上進行編輯。在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。[]
 
 >[!NOTE]
 >
