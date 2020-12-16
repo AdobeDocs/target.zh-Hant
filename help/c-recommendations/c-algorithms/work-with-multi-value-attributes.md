@@ -20,9 +20,9 @@ ht-degree: 0%
 * 你賣音樂會的票。 給定用戶有多個喜愛的樂隊。
 * 你賣衣服。 T恤衫有多種尺寸。
 
-若要處理這些案例中的建議，您可以將多值資料傳遞至並使 [!DNL Target Recommendations] 用特殊的多值運算子。
+若要處理這些案例中的建議，您可將多值資料傳遞至[!DNL Target Recommendations]，並使用特殊的多值運算子。
 
-若要允 [!DNL Recommendations] 許識別多值資料，應以JSON陣列形式傳送，如下列程式碼範例所示。
+若要允許[!DNL Recommendations]識別多值資料，應以JSON陣列傳送，如下列程式碼範例所示。
 
 ## 在JavaScript中傳遞多值參數
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-如需詳細資訊，請參 [閱在自訂實體屬性中實](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)*施多值屬性*。
+如需詳細資訊，請參閱&#x200B;*自訂實體屬性*&#x200B;中的[實作多值屬性](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
 
 ## 在CSV檔案中傳遞多值實體屬性
 
@@ -60,7 +60,7 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-當根據上述格式將實體屬性、描述檔屬性或mbox參數提供為多值時， [!DNL Recommendations] 會自動推斷欄位為多值。
+當根據上述格式將實體屬性、描述檔屬性或mbox參數提供為多值時，[!DNL Recommendations]會自動推斷欄位為多值。
 
 以下運算子可用於多值實體、描述檔和mbox屬性：
 
@@ -75,7 +75,7 @@ function targetPageParams() {
 
 ### 範例：排除最近監看的項目
 
-假設您想要防止建議使用者最近10部已觀看影片中的任何影片。 首先，撰寫名為的描述檔 `user.lastWatchedMovies` 指令碼，將最近10個檢視的影片追蹤為JSON陣列。 然後，您可以使用下列包含規則來排除項目：
+假設您想要防止建議使用者最近10部已觀看影片中的任何影片。 首先，撰寫名為`user.lastWatchedMovies`的描述檔指令碼，以追蹤最後10個檢視的影片為JSON陣列。 然後，您可以使用下列包含規則來排除項目：
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ function targetPageParams() {
 
 ### 範例：建議使用者最愛的項目
 
-假設您只想在演奏樂隊是使用者最愛的樂隊之一時，將票證推薦給音樂會。 首先，請確定您有一個稱為的描述檔變 `profile.favoriteBands` 數，其中包含使用者最愛的節區。 然後，請確定您的目錄包含一個屬 `entity.artistPerforming` 性，其中包含演唱會中的藝術家。 然後，您可以使用下列包含規則：
+假設您只想在演奏樂隊是使用者最愛的樂隊之一時，將票證推薦給音樂會。 首先，請確定您有名為`profile.favoriteBands`的描述檔變數，其中包含使用者最愛的節區。 然後，請確定您的目錄包含屬性`entity.artistPerforming`，其中包含演唱會中的藝術家。 然後，您可以使用下列包含規則：
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 ### 範例：API建立從使用者最愛的項目推薦標準
 
-使用多值篩選規則的准則（如所有准則）可透過Adobe I/O API建立。 此處提供範例API呼叫，以建立mbox參數清 `id` 單中包含實體屬性的 `favorites` 准則：
+使用多值篩選規則的准則（如所有准則）可透過Adobe I/O API建立。 此處提供範例API呼叫，以建立實體屬性`id`包含在mbox參數清單`favorites`中的准則：
 
 ```
 curl -X POST \
