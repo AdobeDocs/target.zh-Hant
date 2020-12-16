@@ -41,7 +41,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->CSV報表僅包含原始資料，不包含計算量度，例如用於A/B測試的每位訪客收入、提升度或信賴度。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV報表僅包含原始資料，不包含計算量度，例如用於A/B測試的每位訪客收入、提升度或信賴度。 若要計算這些計算量度，請下載Target的[完整信賴計算器](/help/assets/complete_confidence_calculator.xlsx) Excel檔案以輸入活動值，或檢閱Target](/help/assets/statistical-calculations.pdf)使用的[統計計算。
 
 ## 匯出訂單詳細資料至 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -80,7 +80,7 @@ ht-degree: 83%
 * 透過 `ProductPurchasedId` mbox 參數傳遞的值會列在「訂單詳細資料」報表中。
 * 最佳作法是納入 `orderID` 與 `orderTotal`。這樣可以自動忽略重複的訂單。
 
-## 注意事項 {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## 注意事項  {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 下列資訊適用於「下載」選項:
 
