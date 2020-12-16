@@ -21,10 +21,10 @@ ht-degree: 85%
 >* 如果使用者在您的網站上進行購買，建議您實作訂購確認 mbox，即便您對報表使用 Analytics for Target (A4T) 亦然。
    >
    >
-* 您也可以為at.js 1建立訂單確認mbox。*x* .使用相同方法；但是，方 [!DNL at.js] 法是最好的。 如需詳細資訊，請參閱[追蹤轉換](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
+* 您也可以為at.js 1建立訂單確認mbox。*使* 用相同方法；但是，方 [!DNL at.js] 法是優選的。如需詳細資訊，請參閱[追蹤轉換](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
    >
    >
-* 如果您使用at.js 2。*x*, `mboxCreate` 不再支援。 如需使用at.js 2的訂購確認。*x*，請使用下列追蹤相關API: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 和 [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+* 如果您使用at.js 2。*x*, `mboxCreate` 不再支援。如需使用at.js 2的訂購確認。*x*，請使用下列追蹤相關API: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 和 [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
 
 
 1. 在訂單詳細資料頁面中，請依照下方的模式插入 mbox 指令檔。
