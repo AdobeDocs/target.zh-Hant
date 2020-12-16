@@ -119,7 +119,7 @@ ht-degree: 99%
 
 多個選項是使用「或」連接。
 
-## 訓練影片: 建立對象 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 建立對象  ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
