@@ -14,29 +14,29 @@ ht-degree: 18%
 
 # 使用者管理{#user-management}
 
-Information about managing users in [!DNL Target] Standard and managing enterprise [!UICONTROL Properties] and [!UICONTROL Permissions] in [!DNL Target] Premium.
+有關在[!DNL Target]標準版中管理用戶以及在[!DNL Target] Premium中管理企業[!UICONTROL 屬性]和[!UICONTROL 權限]的資訊。
 
 >[!NOTE]
 >
->屬性和權限功能屬於 [!UICONTROL  解決方案的一部分。][!DNL Target Premium]在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。如需進階Premium功能的詳細資 [!DNL Target] 訊，請參閱Target簡 [介中的](/help/c-intro/intro.md#premium) Target Premium **。
+>屬性和權限功能屬於 [!UICONTROL  解決方案的一部分。][!DNL Target Premium]在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。如需[!DNL Target]進階Premium功能的詳細資訊，請參閱&#x200B;*Target*&#x200B;中的[Target Premium](/help/c-intro/intro.md#premium)。
 
-You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
+您可以按一下[!DNL Target] UI頂端的[!UICONTROL 管理]連結，來判斷您的組織是否擁有Standard或Premium授權。
 
-* **目標標準客戶：** 如果貴組織有 [!DNL Target] Standard授權，您會在UI中遵守下列規 [!DNL Target] 定：
+* **目標標準客戶：** 如果您的組織有 [!DNL Target] 標準授權，您會在UI中遵守下列 [!DNL Target] 規定：
 
-   * 您會看到「使 [!UICONTROL 用者] 」標籤(「 [!UICONTROL 管理] >使 [!UICONTROL 用者] 」)
-   * 您將看 *到* 「屬性」頁籤(「管理」(Administration) [!UICONTROL 「屬性」(] Properties)選  項卡>)
+   * 您將看到[!UICONTROL Users]標籤([!UICONTROL Administration] > [!UICONTROL Users])
+   * 您將&#x200B;*not*&#x200B;看到[!UICONTROL 屬性]標籤（[!UICONTROL 管理] >屬性[!UICONTROL ）]
 
    [!DNL Target] Standard 客戶應該遵循[使用者](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的指示，在 Adobe Admin Console 中新增使用者和指派權限。
 
-* **Target Premium客戶：** 如果您的組織有 [!DNL Target] Premium授權，您將會在Target UI中遵守下列規定：
+* **Target Premium客戶：如** 果您的組織有 [!DNL Target] Premium授權，您將在Target UI中遵守下列規定：
 
-   * 您將看到「屬 [!UICONTROL 性] 」標籤(「管 [!UICONTROL 理] >屬 [!UICONTROL 性] 」)
-   * 您也會看到「使用者 [!UICONTROL 」標籤] (「管 [!UICONTROL 理] >使 [!UICONTROL 用者] 」)
+   * 您將看到[!UICONTROL 屬性]標籤（[!UICONTROL 管理] > [!UICONTROL 屬性]）
+   * 您也會看到「[!UICONTROL 使用者]」標籤（[!UICONTROL 管理] > [!UICONTROL 使用者]）
 
-      [!DNL Target] Premium客戶應依照「企業使用者權 [限」和「設定企](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 業權限 [」中的指示，在中新增使用者並指派權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)[!DNL Adobe Admin Console]。
+      [!DNL Target] Premium客戶應依照「企業使用者權 [限」和「設](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 定企業 [權限」中的指](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) 示，在中新增使用者及指派權限 [!DNL Adobe Admin Console]。
 
-下圖顯示 [!UICONTROL Premium帳戶的] 「管理 [!DNL Target] 」頁面。 請注意，「屬 [!UICONTROL 性] 」和「 [!UICONTROL 使用者] 」標籤皆可使用：
+下圖顯示[!DNL Target] Premium帳戶的[!UICONTROL Administration]頁面。 請注意，[!UICONTROL Properties]和[!UICONTROL Users]標籤都可用：
 
 ![「管理」頁籤](/help/administrating-target/assets/premium.png)
 
