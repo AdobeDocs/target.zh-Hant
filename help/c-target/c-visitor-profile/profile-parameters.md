@@ -22,11 +22,11 @@ ht-degree: 77%
 
 要設定配置檔案屬性，請執行以下操作：
 
-1. 按一 **[!UICONTROL 下「觀眾]** >描述 **[!UICONTROL 檔指令碼」。]**
+1. 按一下「**[!UICONTROL 觀眾]** > **[!UICONTROL 描述檔指令碼」。]**
 
    ![設定檔指令碼標籤](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
-1. 按一下 **[!UICONTROL 建立指令碼]**。
+1. 按一下&#x200B;**[!UICONTROL 建立指令碼]**。
 
    ![建立設定檔指令碼對話方塊](/help/c-target/c-visitor-profile/assets/create-script.png)
 
@@ -34,7 +34,7 @@ ht-degree: 77%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。如需詳細資訊，請參閱Adobe Target API檔案](http://developers.adobetarget.com/api/#updating-profiles)中的[描述檔更新。 |
    | 描述檔 | 直接以 JavaScript 程式碼片段定義。其可儲存諸如客戶總花費金額等執行總數，並透過每個 mbox 請求來執行。請參閱以下的設定檔指令碼屬性。 |
 
 ## 設定檔指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 或
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+若要複製現有的描述檔指令碼，請從[!UICONTROL 描述檔指令碼]清單中，將滑鼠指標暫留在所要的指令碼上，然後按一下&#x200B;**[!UICONTROL 複製]**&#x200B;圖示：![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 然後您可以編輯對象以建立類似的對象。
 
@@ -143,9 +143,9 @@ if (mbox.name == 'Track_Interest') {
    * 避免使用規則運算式，或僅使用非常簡單的規則運算式。 即使是簡單的運算式，也需要許多指示來評估。
    * 避免遞回。
    * 描述檔指令碼應先經過效能測試，再新增至Target。 所有描述檔指令碼會在每個mbox請求上執行。 如果描述檔指令碼未正確執行，mbox請求的執行時間會較長。 這可能會影響流量和轉換。
-   * 如果描述檔指令碼太複雜，請考慮改 [用回應Token](/help/administrating-target/response-tokens.md) 。
+   * 如果描述檔指令碼太複雜，請考慮改用[回應Token](/help/administrating-target/response-tokens.md)。
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* 如需詳細資訊，請參閱JS Rhino引擎檔案：[https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html)。
 
 ## 偵錯設定檔指令碼 {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -157,7 +157,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **新增設定檔指令碼作為回應 Token 以偵錯設定檔指令碼:**
 
-   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+   在Target中，按一下「管理」****，按一下「回應Token」]**，然後啟用您要除錯的描述檔指令碼。**[!UICONTROL 
 
    每當您使用 Target 為網站載入頁面時，Target 的部分回應將包含您提供之設定檔指令碼的值，如下所示:
 
@@ -165,7 +165,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **使用 mboxTrace 偵錯工具以偵錯設定檔指令碼。**
 
-   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
+   此方法需要授權Token，您可以在[!UICONTROL 除錯工具]區段中按一下「管理」「****>>「實施」「]**>**[!UICONTROL &#x200B;產生授權Token」，以產生此授權Token。********
 
    然後，將這兩個參數加入「?」後的頁面 URL: `mboxTrace=window&authorization=YOURTOKEN`。
 
@@ -181,11 +181,12 @@ if (mbox.name == 'Track_Interest') {
 
 ## 指令碼設定檔參數的 JavaScript 參考資料
 
-必須具備簡單的Javascript知識，才能有效使用指令碼描述檔參數。 本節可做為快速參考資料，只需要幾分鐘，就能讓您提高使用此功能的效率。
+必須具備簡單的Javascript知識，才能有效使用指令碼描述檔
+參數。 本節可做為快速參考資料，只需要幾分鐘，就能讓您提高使用此功能的效率。
 
 您可以在 mbox/設定檔標籤下找到指令碼設定檔參數。您可以撰寫傳回任何 Javascript 類型 (字串、整數、陣列等) 的 Javascript 程式。
 
-### 指令碼設定檔參數範例 {#examples}
+### 指令碼設定檔參數範例  {#examples}
 
 **名稱:** *user.recency*
 
@@ -211,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. 如果 mbox 名稱為 `orderThankyouPage`，則會傳回遞增的值。
+建立名為`frequency`的變數，將其初始化為上一個值或0（如果沒有上一個值）。 如果 mbox 名稱為 `orderThankyouPage`，則會傳回遞增的值。
 
 **名稱:** *user.monetaryValue*
 
@@ -235,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-建立名為的變 `adobeQA` 數，以追蹤 [Activity QA的使用者](/help/c-activities/c-activity-qa/activity-qa.md)。
+建立名為`adobeQA`的變數以跟蹤[活動QA](/help/c-activities/c-activity-qa/activity-qa.md)的用戶。
 
 ### 物件和方法
 
@@ -252,7 +253,7 @@ else if (mbox.param("adobeQA"))
 | `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 與頁面的該項目類似，但適用於登陸頁面。 |
 | `mbox.name` | 使用中的 mbox 名稱。 |
 | `mbox.param(‘<par_name>’)` | 根據使用中 mbox 的指定名稱的 mbox 參數。 |
-| `profile.get(‘<par_name>’)` | 根據 `<par_name>` 名稱之由用戶端建立的使用者設定檔參數。例如，如果使用者設定名為「性別」的設定檔參數，可使用「profile.gender」擷取此值。傳回為目前訪客設定的「`profile.<par_name>`」的值；如果沒有設定任何值，則會傳回 null。請注意， `profile.get(<par_name>)` 是限定為函式呼叫。 |
+| `profile.get(‘<par_name>’)` | 根據 `<par_name>` 名稱之由用戶端建立的使用者設定檔參數。例如，如果使用者設定名為「性別」的設定檔參數，可使用「profile.gender」擷取此值。傳回為目前訪客設定的「`profile.<par_name>`」的值；如果沒有設定任何值，則會傳回 null。請注意，`profile.get(<par_name>)`是限定函式調用。 |
 | `user.get(‘<par_name>’)` | 傳回為目前訪客設定的「`user.<par_name>`」的值；如果沒有設定任何值，則會傳回 null。 |
 | `user.categoryAffinity` | 傳回最佳類別的名稱。 |
 | `user.categoryAffinities` | 傳回具有最佳類別的陣列。 |
@@ -276,7 +277,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 邏輯上，「OR」左側和右側的運算式，只有在其中一側為 true 時，才會是 true (否則則為 false)。 |
 | `//` | 檢查來源是否包含目標布林值包含的所有元素 (陣列來源、陣列目標)。<br>`//` 會從目標擷取子字串 (對應 regexp)，然後將其解碼 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>此功能也支援使用常數字串值、分組 (`condition1 || condition2) && condition3`，以及規則運算式 (`/[^a-z]$/.test(landing.referring.url)`。 |
 
-## 訓練影片：描述檔指令碼 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片：描述檔指令碼![教學課程標章](/help/assets/tutorial.png)
 
 此影片包含使用和建立設定檔指令碼的相關資訊。
 
