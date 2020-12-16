@@ -26,26 +26,26 @@ ht-degree: 94%
 * [!UICONTROL 「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。]也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
    >
    >
-* [!UICONTROL 「個人化前瞻分析] 」報表僅在從「報 [!UICONTROL 表量度」下拉式清單中選取「] 主要目標  」時可用。
+* [!UICONTROL 「個人] 化分析」報表僅在從「報 [!UICONTROL 表度] 量」下拉式清單中選  取「主要Goalis」時才可用。
    >
    >
 * 「個人化前瞻分析」報表僅支援於[預設環境](/help/administrating-target/hosts.md)中使用。
    >
    >
-* [!UICONTROL 「個人化洞見] 」報表僅針對處於「即時」狀態且已啟動並接收至少15天流量的活動產生。
+* [!UICONTROL 個人] 化洞察報告只會針對處於「即時」狀態且已啟  動並接收至少15天流量的活動產生。
 
 
 在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。此報表顯示影響模型及其相對重要性的常見屬性。
 
 ## 存取「重要屬性」報表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. 按一下「**[!UICONTROL 活動]**」，然後按一下清單中所要的「自動個人化」[或「自動目標」](/help/c-activities/auto-target/auto-target-to-optimize.md)活動。](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)[
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
+   會顯示「自動個人化摘要」或「自動目標摘要」報表，其中提供有關活動效能的資訊，由第一個螢幕圖示表示。 ](/help/c-reports/auto-target-summary-report.md)[](/help/c-reports/reports-ap.md)[另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
    ![](assets/personalization_insights.png)
 
