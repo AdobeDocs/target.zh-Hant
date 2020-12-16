@@ -14,7 +14,7 @@ ht-degree: 68%
 
 # ![PREMIUM](/help/assets/premium.png) 設定企業權限{#configure-enterprise-permissions}
 
-Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+有關將用戶添加到[!DNL Target]實施所需任務的資訊；建立工作區、使用者群組和屬性；更新您的[!DNL Target]實作以包含`at_property`參數；並指定角色和權限。
 
 >[!NOTE]
 >
@@ -31,29 +31,29 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 | 5: 更新您的實作以包括 `at_property` 參數 | [!DNL Target] UI、at.js 函數、[!DNL Adobe Launch] 或 [!DNL Dynamic Tag Management] |
 | 6: 指定角色和權限 | [!DNL Adobe Admin Console for Enterprise] |
 
-For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
+對於在[!DNL Adobe Admin Console for Enterprise]中執行的這些任務，請按照以下步驟訪問控制台：
 
-1. 在Adobe Target中，按一下「管 **[!UICONTROL 理]** >屬 **[!UICONTROL 性]** >指 **[!UICONTROL 派屬性至工作區」]**。
+1. 在Adobe Target中，按一下「**[!UICONTROL 管理]** > **[!UICONTROL 屬性]** > **[!UICONTROL 將屬性指派給Workspaces]**」。
 
    或
 
-   Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+   如果您尚未登入，請前往[https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) >使用您的Adobe ID登入。
 
 
 1. (條件式) 如果您可以存取一個以上組織的 [!DNL Admin Console for Enterprise]，請按一下右上角或上方導覽列中的使用者頭像，然後選取需要的組織。
 
-## 步驟 1.Add users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
+## 步驟 1.新增使用者（選用）{#section_A92AF0F921B743FEB9E9033433BD816A}
 
 開始使用新的[!UICONTROL 「屬性」]功能時，所有使用者管理必須在 [!DNL Adobe Admin Console for Enterprise] 中執行。不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
 
 1. [在 Admin Console 中](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下頁面頂端的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤 > **[!UICONTROL 新增使用者]**，以建立新使用者或編輯現有的使用者。
 1. 遵循&#x200B;*《企業使用者指南》*&#x200B;的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示。
 
-## 步驟 2.Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## 步驟 2.建立工作區（產品設定檔）{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
 工作區（產品設定檔）可讓組織將一組特定使用者指派給一組特定屬性。 工作區有許多地方皆與 [!DNL Analytics] 中的報表套裝相似。
 
-Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within [!DNL Admin Console], assigning [!DNL Target] properties to these workspaces, and moving users from the &quot;Default Workspace&quot; configuration to these newer, limited-access workspaces.
+組織可以開始利用企業權限功能，方法是在[!DNL Admin Console]中建立新的工作區，將[!DNL Target]屬性指派給這些工作區，並將使用者從「預設工作區」設定移至這些較新的有限存取工作區。
 
 客戶可以使用這些工作區來依地區、事業單位、網站區段或透過其選擇的任何其他方法來對不同團隊區分存取權。
 
@@ -81,7 +81,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於設定工作區的詳細資訊。
 
-### Obtain your workspace ID {#workspace-id}
+### 取得您的工作區ID {#workspace-id}
 
 您必須傳遞 Workspace ID，才能在 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中運用企業權限。
 
@@ -90,14 +90,14 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
-## 步驟 3.Create user groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## 步驟 3.建立使用者群組（選用）{#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
 1. 在 Admin Console 中，按一下頁面頂端的&#x200B;**[!UICONTROL 「使用者」]**&#x200B;索引標籤 > **[!UICONTROL 「使用者群組」]**，以建立新使用者群組或編輯現有的使用者群組。
 1. 遵循[《企業使用者指南》](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)的&#x200B;*管理產品設定的使用者和群組*&#x200B;中的指示。
 
-## 步驟 4.Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
+## 步驟 4.建立屬性{#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
 透過新增特定名稱／值對作為參數與任何呼叫（Target呼叫、api呼叫等）來啟用屬性 對 Target 的任何呼叫 (mbox 和 API 等)。
 
@@ -105,7 +105,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 **提示**: 請觀看下方的訓練影片，瞭解關於如何建立屬性的詳細資訊。
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 屬性]**&#x200B;以顯示[!UICONTROL 屬性]清單。
 1. 按一下&#x200B;**「建立屬性」**。
 
    ![新屬性對話方塊](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -116,15 +116,15 @@ Organizations can begin taking advantage of Enterprise permissions functionality
    * **說明:** 指定此屬性的可選說明。
    * **管道:** 選取屬性需要的管道: Web、行動應用程式、電子郵件或其他/API (例如電視盒或 PlayStation 主控台)。
 
-1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. 按一下&#x200B;**[!UICONTROL Copy]**，將程式碼複製到剪貼簿中，當您執行[5中的步驟時，將會使用：更新您的實作以包含at_property參數](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
 1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於建立屬性的詳細資訊。
 
-## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
+## 步驟5:更新您的實作以包含at_property參數{#section_9B17A59807A94712BE642942442EBBC8}
 
-To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
+若要使用[!DNL Target]使用者權限功能，您必須將`at_property`參數新增至任何正在點擊[!DNL Target]的呼叫（Target呼叫、api呼叫等）。
 
 **若要取得 `at_property` 參數程式碼:**
 
@@ -132,7 +132,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    或
 
-   In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+   在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 屬性]**&#x200B;以顯示[!UICONTROL 屬性]清單。
 
    1. 將滑鼠游標移至所需屬性的[!UICONTROL 「上次更新時間」]欄以顯示[!UICONTROL 「程式碼」]圖示，並按一下該圖示。
 
@@ -142,13 +142,13 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       ![屬性程式碼](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. Update your [!DNL Target] implementation with the implementation code obtained in the previous step.
+1. 使用上一步驟中取得的實作程式碼更新您的[!DNL Target]實作。
 
    更新您的 [!DNL Target] 實作有數個方式。例如，下列方法可以用於網頁:
 
    * **透過 [!DNL Adobe Launch] 中的「全域參數」:**
 
-      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      如需詳細資訊，請參閱&#x200B;*Adobe Experience Platform Launch*&#x200B;檔案中的[新增全域目標參數](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)。
 
    * **透過 [!DNL Dynamic Tag Management] 中的「全域參數」:**
 
@@ -156,7 +156,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       如需詳細資訊，請參閱&#x200B;*動態標籤管理產品文件*&#x200B;中的[全域參數 - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
 
-   * **透過targetPageParams()函式：** 將下列程式碼置於 `<head>` 標籤中，位於at.js或mbox.js參考上方。
+   * **透過targetPageParams()函式：** 在at.js或mbox.js參考 `<head>` 上方的標籤中置入下列程式碼。
 
       ![](assets/property_token_1.png)
 
@@ -168,7 +168,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       如需關於如何對 at.js 執行此動作的資訊，請參閱 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
-## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## 步驟6:指定角色和權限{#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. 在 Admin Console 中，按一下&#x200B;****「產品」，然後選取所需產品的名稱。
 
@@ -184,7 +184,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    ![設定使用者](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+1. 使用[!UICONTROL 產品角色]欄中每個使用者的下拉式清單，選擇所要的權限角色（核准者、編輯者、觀察者或發佈者）。
 
    ![產品角色下拉式清單](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -203,9 +203,9 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!NOTE]
 >
->「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視訊中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+>[!DNL Target] [!UICONTROL Administration]功能表UI（先前稱為[!UICONTROL Setup]）已重新設計，以提供改善的效能、縮短發布新功能時所需的維護時間，並改善整個產品的使用者體驗。 以下視訊中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
-### 如何設定目標工作區(6:55)教學 ![課程徽章](/help/assets/tutorial.png)
+### 如何設定目標工作區(6:55)![教學課程標章](/help/assets/tutorial.png)
 
 此影片說明如何建立工作區。
 
@@ -219,7 +219,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
+### 如何在Adobe Target中建立屬性(3:05)![教學課程標章](/help/assets/tutorial.png)
 
 * 如何在 [!DNL Adobe Target] 介面中建立屬性
 * 如何產生要包括在您的屬性實作中的屬性 Token
