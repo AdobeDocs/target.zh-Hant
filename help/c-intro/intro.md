@@ -78,7 +78,7 @@ Target Premium 包含下列進階功能:
 
 ### 企業使用者權限
 
-[「企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 」功能可讓您建立不同的專案(在中稱為「產品設定檔」 [!DNL Adobe Admin Console for Enterprise])，以允許您為單一使用者指派不同的權限，以指定使用者對每個專案的存取權限。 這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果是，客戶將能夠根據地區、環境（開發／階段/prod）、頻道或其他自訂准則，限制其使用者的檢視、編輯、核准和發佈存取權。
+[「企業使](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 用者權限」功能可讓您建立不同的專案(在中稱為「產品設定檔」 [!DNL Adobe Admin Console for Enterprise])，以允許您為單一使用者指派不同的權限，以指定使用者對每個專案的存取權限。這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果是，客戶將能夠根據地區、環境（開發／階段/prod）、頻道或其他自訂准則，限制其使用者的檢視、編輯、核准和發佈存取權。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -88,11 +88,11 @@ Target Premium 包含下列進階功能:
 
 ## Experience League: Adobe Target Welcome Kit {#kit}
 
-使用此 Welcome Kit，在 Adobe Target 上建立最佳化和個人化方案! It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
+使用此 Welcome Kit，在 Adobe Target 上建立最佳化和個人化方案! 它包含重要資訊、工具和資源，可協助您準備並啟動第一個[!DNL Adobe Target]活動，並提供短期快速贏取和長期最佳化策略。
 
 [Adobe Target歡迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 訓練影片：活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
+## 訓練影片：活動類型(9:03)![概述徽章](/help/assets/overview.png)
 
 下列影片說明 [!DNL Target Standard/Premium] 中可用的活動類型，以及 Target 的三步驟引導式工作流程如何協助您達成網站目標。
 
