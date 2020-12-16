@@ -26,13 +26,13 @@ ht-degree: 91%
 
 您帳戶的用戶端代碼。
 
-When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
+在檢視[!UICONTROL 管理>實施]時，頂端的用戶端是您帳戶的用戶端代碼。
 
 ## 逾時
 
 Target 要求逾時。
 
-檢視「管 [!UICONTROL 理>實作]」時，「逾時（秒）」設定是您的Target請求逾時。 依預設，此值設為 15 秒，但建議您將它設定為介於 2 秒與 5 秒之間的值。
+檢視[!UICONTROL 管理>實作]時，逾時（秒）設定是您的Target請求逾時。 依預設，此值設為 15 秒，但建議您將它設定為介於 2 秒與 5 秒之間的值。
 
 ## XDomain
 
