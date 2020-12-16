@@ -32,7 +32,7 @@ ht-degree: 78%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
+   >上圖中的[!UICONTROL [選擇工作場所]](/help/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/c-intro/intro.md#premium)，請選擇[工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -46,17 +46,17 @@ ht-degree: 78%
 
    按[!UICONTROL 「下一步」]時，VEC 會開啟並顯示您的頁面。您可以使用建議取代目前的元素，或插入建議。
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. 按一下頁面上的元素，然後如果該元素所在位置有建議，請按一下「取代w/ Recommendations ]**」、「在]**&#x200B;之前插入建議」或「在&#x200B;]**之後插入建議」。**[!UICONTROL **[!UICONTROL **[!UICONTROL 
 
    只有符合建議資格時，您網站的訪客才會看到建議內容。 不符合建議資格的訪客將會看到預設內容。
 
    ![Recommendations 選項](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL 取代Recommendations]**:以建議取代元素會刪除目前的內容，並以建議取代。 當訪客瀏覽您的網站並符合建議資格時，他們會在指定區域看到建議項目，而非現有內容。
-   * **[!UICONTROL 先插入建議]**:在選取的元素之前插入建議，將建議的內容置於該元素之前。 根據您的頁面建構，建議會顯示在所選元素的上方或左側。
-   * **[!UICONTROL 在下列項目後插入建議]**:在選取的元素後插入建議，將建議的內容放在該元素後。 依您的頁面建構而定，建議會顯示在選取元素的下方或右側。
+   * **[!UICONTROL 取代Recommendations]**:以建議取代元素會刪除目前的內容，並以建議取代。當訪客瀏覽您的網站並符合建議資格時，他們會在指定區域看到建議項目，而非現有內容。
+   * **[!UICONTROL 先插入建議]**:在選取的元素之前插入建議，將建議的內容置於該元素之前。根據您的頁面建構，建議會顯示在所選元素的上方或左側。
+   * **[!UICONTROL 在下列項目後插入建議]**:在選取的元素後插入建議，將建議的內容放在該元素後。依您的頁面建構而定，建議會顯示在選取元素的下方或右側。
 
-   「展 **[!UICONTROL 開選取範圍]** 」選項可讓您展開選取的位置（父容器），以協助您更輕鬆地識別並包含所要的頁面元素。
+   **[!UICONTROL 展開選取範圍]**&#x200B;選項可讓您展開選取的位置（父容器），以協助您更輕鬆地識別並包含所要的頁面元素。
 
 1. 選取頁面類型。
 
@@ -75,7 +75,7 @@ ht-degree: 78%
 
 1. 選取[一或多個條件](/help/c-recommendations/c-algorithms/algorithms.md)。
 
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. 您可以變更這些選項以顯示其他條件。
+   條件會以卡片的形式顯示，顯示每個條件的相關資訊。依預設，[!UICONTROL 選擇標準]畫面會顯示與您的產業垂直及您在上一步驟中選取的頁面類型相容的標準。 您可以變更這些選項以顯示其他條件。
 
    >[!NOTE]
    >
@@ -89,13 +89,13 @@ ht-degree: 78%
 
       有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 如需關於建立新條件的資訊，請參閱[建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您也可以將條件群組為序列。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 如需詳 [細資訊，請參閱](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) 「建立准則序列」。
+   * 若要建立新標準，請按一下「建立標準&#x200B;**** > **[!UICONTROL 建立標準]**」，然後填寫新標準的資訊。 如需關於建立新條件的資訊，請參閱[建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 您也可以將條件群組為序列。要建立新標準序列，請按一下「建立標準」。 ****]****[!UICONTROL &#x200B;如需詳細資訊，請參閱[建立准則序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包含數種預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包含數種預先設定的設計。您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![選取設計對話方塊](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -178,6 +178,6 @@ ht-degree: 78%
 
    當多個活動設為傳送內容至相同的頁面時會發生活動衝突，並且可能造成顯示未預期的內容。
 
-## 訓練影片: 建立 Recommendations 活動 (7:15) ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 建立 Recommendations 活動 (7:15)  ![教學課程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
