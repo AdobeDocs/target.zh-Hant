@@ -37,7 +37,7 @@ ht-degree: 100%
 
 每個影像會變成該位置中的個別體驗。
 
-## HTML 選件 {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML 選件  {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 在一個位置內測試多個文字/HTML 選件，以判斷最成功的選件。
 
