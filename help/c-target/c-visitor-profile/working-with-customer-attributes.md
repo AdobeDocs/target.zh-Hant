@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: 使用Adobe Experience Cloud People核心服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料以在Adobe Target中定位內容的相關資訊。
+description: 使用Adobe Experience Cloud人員服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料以在Adobe Target中定位內容的相關資訊。
 title: Adobe Target中的客戶屬性
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1488'
 ht-degree: 37%
 
 ---
 
 
-# 客戶屬性 {#customer-attributes}
+# 客戶屬性
 
-有關使用[!DNL Adobe Enterprise Cloud People]核心服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料，以在[!DNL Adobe Target]中定位內容的資訊。
+有關使用[!DNL Adobe Enterprise Cloud People]服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料，以在[!DNL Adobe Target]中定位內容的資訊。
 
-透過多個來源收集並儲存在CRM資料庫中的企業客戶資料，可用於[!DNL Target]，以策略性方式向客戶傳遞最相關的內容，尤其是針對舊客戶。 [!DNL People]核心服務（先前稱為「設定檔與對象」）中的受眾和客戶屬性將資料收集與分析與測試與最佳化結合在一起，讓資料與洞見成為可操作的。
+透過多個來源收集並儲存在CRM資料庫中的企業客戶資料，可用於[!DNL Target]，以策略性方式向客戶傳遞最相關的內容，尤其是針對舊客戶。 [!DNL People]服務（先前稱為「設定檔與對象」）中的受眾和客戶屬性將資料收集與分析與測試與最佳化結合在一起，讓資料與見解可行。
 
 ## 客戶屬性概觀{#section_B4099971FA4B48598294C56EAE86B45A}
 
-[核心](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 服務中 [!DNL People] 的客戶屬性是其中一 [!DNL Adobe Experience Cloud] 部分，為企業提供將客戶資料推送至平台的 [!DNL Experience Cloud] 工具。
+[服務](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 中的客 [!DNL People] 戶屬性是服務的一部 [!DNL Adobe Experience Cloud] 分，為企業提供將客戶資料推送至平台的 [!DNL Experience Cloud] 工具。
 
 上架到 [!DNL Experience Cloud] 的資料可供所有 [!DNL Experience Cloud] 工作流程使用。[!DNL Target] 使用此資料根據屬性定位舊客戶。[!DNL Adobe Analytics] 會利用這些屬性，並可將這些屬性用於分析和劃分。
 
@@ -28,7 +28,7 @@ ht-degree: 37%
 
 請考慮以下資訊作為您使用客戶屬性和[!DNL Target]的工作：
 
-* 在使用[!DNL People]核心服務中的[!UICONTROL 客戶屬性]功能之前，您必須符合一些先決條件要求。 如需詳細資訊，請參閱[*Experience Cloud和核心服務產品檔案*&#x200B;中&lt;a0/>&lt;customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)中的「上傳客戶屬性的先決條件」。
+* 您必須符合一些先決條件要求，才能使用[!DNL People]服務中的[!UICONTROL 客戶屬性]功能。 如需詳細資訊，請參閱&#x200B;*Experience Cloud服務與管理檔案*&#x200B;中[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)中的「上傳客戶屬性的先決條件」。
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ ht-degree: 37%
 
 * 您無法在 `mbox3rdPartyID` 中傳送下列字元: 加號 (+) 和正斜線 (/)。
 
-## 在人員核心服務中訪問客戶屬性
+## 在人員服務中訪問客戶屬性
 
 1. 在[!DNL Adobe Experience Cloud]中，按一下菜單表徵圖（![菜單表徵圖](/help/c-target/c-visitor-profile/assets/menu-icon.png)），然後按一下&#x200B;**[!UICONTROL People]**。
 
@@ -58,7 +58,7 @@ ht-degree: 37%
 
 ![crm工作流程](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-有關完成下列每項工作的詳細說明，請參閱[「建立客戶屬性來源」和「Experience Cloud與核心服務產品檔案」中的「上傳資料檔案」。**](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)
+有關完成下列每項工作的詳細說明，請參閱[「Experience Cloud Services and Administration」（體驗雲端服務與管理）檔案&#x200B;*中的「建立客戶屬性來源並上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)」。*
 
 1. 建立資料檔案。
 
@@ -141,11 +141,11 @@ ht-degree: 37%
 
 ### 使用 Experience Cloud ID 服務
 
-如果您使用 Experience Cloud ID 服務，您需要設定客戶 ID 和驗證狀態，才能在鎖定目標中使用客戶屬性。如需詳細資訊，請參閱&#x200B;*Experience Cloud身分服務說明*&#x200B;中的[客戶ID和驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
+如果您使用 Experience Cloud ID 服務，您需要設定客戶 ID 和驗證狀態，才能在鎖定目標中使用客戶屬性。如需詳細資訊，請參閱&#x200B;*Experience Cloud ID服務說明*&#x200B;中的[客戶ID和驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
 如需關於在 [!DNL Target] 中使用客戶屬性的詳細資訊，請參閱下列資源:
 
-* [建立客戶屬性來源並上傳](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)  *Experience Cloud產品檔案中的資料檔案*
+* [建立客戶屬性來源並上傳](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud Services和管理檔案 *中的資料檔案*
 * *數位行銷部落格*&#x200B;中的 [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客戶常遇到的問題{#section_BE0F70E563F64294B17087DE2BC1E74C}
