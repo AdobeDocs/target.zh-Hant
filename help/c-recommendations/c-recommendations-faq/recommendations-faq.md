@@ -20,7 +20,7 @@ ht-degree: 80%
 
 當您對具有數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
 
-目前，沒有可讓客戶變更屬性類型的功能。 若要進行變更，請開 [啟客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，此問題會參照需要將類型從字串變更為數值的屬性。
+目前，沒有可讓客戶變更屬性類型的功能。 要進行更改，請[開啟一個客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，該問題引用需要將類型從字串更改為數字的屬性。
 
 ## 目錄中的項目更新要多久時間才會反映在網站上?
 
@@ -57,7 +57,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 建立「建議」活動時，為何不是所有條件都可供選擇，包括自訂條件? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 建立「建議」活動時，為何不是所有條件都可供選擇，包括自訂條件?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 可用的條件取決於目前類別。建立建議選件時，演算法選擇器會根據類別 ID 來顯示條件。
 
@@ -90,7 +90,7 @@ Target 具有[篩選不相容的條件](/help/c-recommendations/plan-implement.m
 * 未從頁面上觸發任何 mbox (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Target 參數未定義。
 
-## 如果「建議」中的集合變成零 (0)，怎麼辦? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## 如果「建議」中的集合變成零 (0)，怎麼辦?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 如果您看到一個集合原先不是零而現在變成零，請考量下列資訊:
 
@@ -118,7 +118,7 @@ Target 具有[篩選不相容的條件](/help/c-recommendations/plan-implement.m
 
 ![](assets/content_similarity_example.png)
 
-## 為何 Target 有時無法顯示建議? {#section_DB3F40673AED42228E407C05437D99E9}
+## 為何 Target 有時無法顯示建議?  {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target 有時會因為可用的建議數量不夠而無法顯示建議。
 
@@ -141,7 +141,7 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 您當然可以嘗試在單一呼叫中傳送 50,000 個產品。如果失敗，您應該將其分成幾個批次。我們通常建議客戶將其呼叫分成 5,000 或 10,000 個產品批次，以降低系統負載造成逾時的可能性。
 
-## 建立建議條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## 建立建議條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 根據 mbox 參數建立建議條件、促銷活動或範本測試規則時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
@@ -154,11 +154,11 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 如果編輯現有條件、促銷活動或範本測試規則，則篩選條件將顯示建立期間提供的 mbox 名稱。
 
-## 定義新對象後，為何無法儲存舊版 Recommendations 活動? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定義新對象後，為何無法儲存舊版 Recommendations 活動?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 請確定對象有唯一的名稱。若您為對象指定了與現有對象相同的名稱，則無法儲存舊版 Recommendations 活動 (2016 年 10 月以前建立的 Recommendations 活動)。
 
-## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少? {#section_20F1AF4839A447B9889B246D6E873538}
+## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少?  {#section_20F1AF4839A447B9889B246D6E873538}
 
 摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，我們建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。「Target 限制」頁面上提供了對於所需欄長度的[其他限制](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
@@ -168,13 +168,13 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 若要啟用排除功能，請使用 `excludedIds` mbox 參數。此參數指向逗號分隔的實體 ID 清單。例如, `mboxCreate(..., "excludedIds=1,2,3,4,5")`。要求建議時會傳送值。
 
-排除僅針對目前的Target呼叫執行；後續Target呼叫中不會排除項目，除非 `excludedIds` 再次傳遞值。 若要從每個頁面上的建議中排除購物車中的項目，請繼續在每個頁 `excludedIds` 面上傳遞值。
+排除僅針對目前的Target呼叫執行；後續Target呼叫中不會排除項目，除非再次傳遞`excludedIds`值。 若要從每個頁面上的建議中排除購物車中的項目，請繼續在每個頁面上傳遞`excludedIds`值。
 
 >[!NOTE]
 >
 >如果排除太多實體，則建議會以沒有足夠實體可填入建議範本的情況來處理。
 
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. 擷取內容 URL 時，目前的 mbox 請求參數會替代必要參數。
+若要排除`entityIds`，請將`&excludes=${mbox.excludedIds}`代號附加至選件內容URL。 擷取內容 URL 時，目前的 mbox 請求參數會替代必要參數。
 
 依預設，新建立的建議會啟用此功能。必須儲存現有的建議來支援動態排除的實體。
 
