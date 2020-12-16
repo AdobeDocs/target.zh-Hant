@@ -129,7 +129,7 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 ![插圖顯示構成 Recommendations 活動的元素: 受眾、條件和設計](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 隨附立即可用的 14 個內建受眾、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本節重點在於如何定義條件，這會定義將建議哪些項目。
+[!DNL Target] 隨附立即可用的 14 個內建受眾、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦過[關於在[!DNL Target]中建立觀眾](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
 
 Target 使用條件卡的概念。條件卡就像個人化的方式。
 
