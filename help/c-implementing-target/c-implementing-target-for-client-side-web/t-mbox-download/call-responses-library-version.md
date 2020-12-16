@@ -54,7 +54,7 @@ Target 進行和回應來自您頁面呼叫的方法，取決於您所使用的 
 | 自動建立全域 mbox | 自動建立全域 mbox - 同步 | 自動建立全域 mbox - 同步 | 自動建立全域 mbox - 同步 | 自動建立全域 mbox - 同步 |
 | mboxCreate | 標準 | 標準 | 標準 | 標準 |
 
-## 訪客 ID 實作存在，但未設定訪客 ID {#section_29888A119C7A4753AD287FC845AA63F4}
+## 訪客 ID 實作存在，但未設定訪客 ID  {#section_29888A119C7A4753AD287FC845AA63F4}
 
 如果尚未設定訪客 ID，則不會有使用者的 [!DNL Experience Cloud] 訪客 Cookie。頁面會呼叫訪客 ID 服務來取得訪客 ID。會以呼叫 [!DNL Target]Target 的 ID 來等待回應。
 
@@ -69,7 +69,7 @@ Target 進行和回應來自您頁面呼叫的方法，取決於您所使用的 
 | 自動建立全域 mbox | 自動建立全域 mbox - 同步 | 自動建立全域 mbox - 非同步 | 自動建立全域 mbox - 非同步 | 自動建立全域 mbox - 非同步 |
 | mboxCreate | 標準 | ajax | ajax | ajax |
 
-## 訪客 ID 實作存在，訪客 ID 也存在 {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## 訪客 ID 實作存在，訪客 ID 也存在  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 如果訪客 ID Cookie 存在，[!DNL Target] 就不需要呼叫訪客 ID 服務。在此情況下，顯示內容之前不需要等待訪客 ID 服務。若為版本 57 至 59，則是使用 **autocreate global mbox - synchronous** 類型，所以頁面會等待 [!DNL Target] 的呼叫返回，才繼續載入。這可確保預設內容不會忽隱忽現。若為 v60，則是使用 **global mbox-asynchronous type**，以確保 [!DNL Target] 會等待 [!DNL Experience Cloud] 退出服務有所回應。退出服務是 2016 年秋天推出的 Data Co-op 的一部分。因為所有呼叫皆使用 ajax 來傳回，請勿在 [!DNL mbox.js] 60 版中使用 `document.write()`。
 
