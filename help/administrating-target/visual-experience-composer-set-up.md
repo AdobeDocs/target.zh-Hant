@@ -14,13 +14,13 @@ ht-degree: 51%
 
 # 設定視覺體驗撰寫器
 
-透過指 [!DNL Adobe Target] 定其一般設定、行動檢視埠設定和CSS選擇器，來設定Visual Experience Composer  (VEC)。
+指定[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定&lt;a0/> &lt;a1/>。
 
-若要存取「 [!UICONTROL Visual Experience Composer] 」設定頁面，請按一下「 **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer」]。**
+要訪問[!UICONTROL Visual Experience Composer]配置頁，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]。**
 
 >[!NOTE]
 >
->請注意，此頁面上的設定會套用至整個帳 [!DNL Target] 戶。
+>請注意，此頁面上的設定會套用至整個[!DNL Target]帳戶。
 
 ![「Visual Experience Composer」配置頁](/help/administrating-target/assets/vec.png)
 
@@ -36,17 +36,17 @@ ht-degree: 51%
 
 設定[!UICONTROL 可視化體驗撰寫器]所使用的預設 URL。這是每當您為每個新增活動設定體驗時會使用的預設頁面 (例如您的首頁)。如果您不設定預設的 URL，則必須在建立活動時，為每個活動輸入 URL。
 
-### 啟用增強體驗撰寫器 {#eec}
+### 啟用增強體驗撰寫器  {#eec}
 
-允許在 iframe-busting 網站以及含有混合內容的網站上編輯。有些網站可能與增強版不相容。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 此選擇不會影響網站上的活動傳送。
+允許在 iframe-busting 網站以及含有混合內容的網站上編輯。有些網站可能與增強版不相容。 取消選取此選項，可回復為原始的[!UICONTROL  Visual Experience Composer]。 此選擇不會影響網站上的活動傳送。
 
 如需詳細資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
-You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
+您也可以在活動層級啟用[!UICONTROL Enhanced Experience Composer]。
 
 ### 載入混合內容
 
-Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+使用[!UICONTROL Enhanced Experience Composer](EEC)開啟網站時啟用混合內容。 啟用此選項可避免透過[!DNL Target]代理伺服器載入靜態資源的額外開銷。
 
 例如，如果：
 
@@ -57,13 +57,13 @@ Enable mixed content while opening a website using the [!UICONTROL Enhanced Expe
 
 啟用體驗快照會在活動工作流程圖表中產生您的體驗的縮圖。停用快照可能對部分使用者造成較快速的效能。
 
-## ![Premium badge](/help/assets/premium.png) Mobile Viewport設定
+## ![Premium徽](/help/assets/premium.png) 章Mobile Viewport設定
 
 您可以新增裝置以在預覽體驗時使用。每個裝置有相關聯的對象。
 
 ![「移動視區配置」部分](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click [!UICONTROL Save].
+按一下「新增」、指定行動檢視區的描述性名稱、指定寬度和高度、選取所要的作業系統，然後按一下「儲存」。[!UICONTROL **]**
 
 如需如何新增行動檢視區的詳細資訊，請參閱[行動檢視區設定](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 
@@ -93,9 +93,9 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)。
+>在[!UICONTROL Automated Personalization]和[!UICONTROL 多變數測試]活動中，無法覆寫每個活動的設定。  如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)。
 
-## 訓練影片：帳戶偏好設定(7:33)概 ![觀徽章](/help/assets/overview.png)
+## 訓練影片：帳戶偏好設定(7:33)![概述徽章](/help/assets/overview.png)
 
 此影片包括關於帳戶偏好設定的資訊。
 
@@ -103,6 +103,6 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+>[!DNL Target] [!UICONTROL Administration]功能表UI（先前稱為[!UICONTROL Setup]）已重新設計，以提供改善的效能、縮短發布新功能時所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
