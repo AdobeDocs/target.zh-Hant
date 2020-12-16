@@ -14,9 +14,9 @@ ht-degree: 33%
 
 # 在Target中設定報表
 
-設定一般設定，以用於套 [!DNL Adobe Target] 用至整個帳戶的報 [!DNL Target] 告。
+設定一般設定，以用於套用至整個[!DNL Target]帳戶的[!DNL Adobe Target]報表。
 
-若要存取「報 [!UICONTROL 告] 」設定頁面，請按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 報告]」。**
+要訪問[!UICONTROL Reporting]配置頁，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Reporting]。**
 
 您可以在此頁面上指定下列設定：
 
@@ -29,7 +29,7 @@ ht-degree: 33%
 
 >[!NOTE]
 >
->請注意，排除設定的時區、貨幣和IP位址會套用至使用報告的活 [!DNL Target] 動。 這些設定不適用於使用 [Analytics for Target(A4T)] (/help/c-integrating-target-with-mac/a4t/a4t.md)做為報告來源的活動。
+>請注意，排除設定的時區、貨幣和IP位址會套用至使用[!DNL Target]報告的活動。 這些設定不適用於使用[Analytics for Target(A4T)]作為報告來源(/help/c-integrating-target-with-mac/a4t/a4t.md)的活動。
 
 ![報告頁面](/help/administrating-target/assets/reporting.png)
 
@@ -41,10 +41,10 @@ ht-degree: 33%
 
 選擇報表來源時，請考量下列資訊:
 
-* 如果在此將報表來源設為&#x200B;**[!DNL Target]**「」，便不得啟用將「」當作報表來源的活動。[!DNL Analytics]You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL 不論選取的報表來源為何] ，都允許自動個人化(AP)活動的建立、啟動和停用。 Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* 如果在此將報表來源設為&#x200B;**[!DNL Target]**「」，便不得啟用將「」當作報表來源的活動。[!DNL Analytics]您必須將活動中的報告源更改為[!DNL Target]，或將報告源更改為&#x200B;**[!UICONTROL 管理] >報告[!UICONTROL 中的**[!UICONTROL &#x200B;選擇每個活動&#x200B;]**。]**
+* 如果報告源設定為&#x200B;**[!DNL Analytics]**，則不允許激活使用[!DNL Target]作為報告源的活動（報告源指定為&#x200B;**[!UICONTROL 每活動]目標）**。 您必須將活動中的報告源更改為[!DNL Analytics]，或將報告引擎更改為&#x200B;**[!UICONTROL 管理] >報告[!UICONTROL 中的**[!UICONTROL  Select per activity ]**。]**
+* 如果將報表來源設為&#x200B;**[!UICONTROL Select per activity]**，您可以建立、啟用和停用所選報表來源支援的活動。 如需支援活動的矩陣，請參閱&#x200B;*Adobe Analytics中的[支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作為Adobe Target(A4t)*&#x200B;的報表來源。
+* [!UICONTROL 不論選取的報告來源為何] ，都允許自動個人化(AP)活動的建立、啟動和停用。當您選擇[Adobe Analytics作為Adobe Target(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)的報表來源時，不支援自動個人化活動。 即使您指定[!DNL Analytics]作為報告來源，[!DNL Target]也會用作「自動個人化」活動的報告來源。 如需詳細資訊，請參閱&#x200B;*Adobe Analytics中的[支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作為Adobe Target(A4t)*&#x200B;的報表來源。
 
 ## 報告時區
 
@@ -64,7 +64,7 @@ ht-degree: 33%
 
 如果您輸入目標的貨幣值，您可以選擇顯示預計的收入提升。 [!DNL Target]如果所有使用者要瞭解成功的藍圖， 可以估計您可能獲得的收入增益。預估提升度功能依預設會停用。
 
-Only [!DNL Experience Cloud] Admin users can enable or disable this feature. 如果已停用預估的提升度，則介面中不會出現對應的欄位。停用功能不會造成資料遺失，包括用於預估的資料。預估是根據收集的資料，而無論功能是否已啟用。
+只有[!DNL Experience Cloud]管理員使用者可以啟用或停用此功能。 如果已停用預估的提升度，則介面中不會出現對應的欄位。停用功能不會造成資料遺失，包括用於預估的資料。預估是根據收集的資料，而無論功能是否已啟用。
 
 如需詳細資訊，請參閱 [預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。
 
