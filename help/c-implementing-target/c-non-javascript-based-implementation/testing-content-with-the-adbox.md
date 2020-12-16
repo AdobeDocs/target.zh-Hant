@@ -30,7 +30,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
    * 其中 `myClientCode` 代表貴公司的用戶端代碼。您的公司用戶端代碼為全部小寫並且不帶特殊字元。
 
-      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
+      您的用戶端程式碼位於[!DNL Target]介面的[!UICONTROL 管理>實作]頁面頂端。
 
    * 其中 `image` 是呼叫類型。在此範例中，它是一個影像。
 
@@ -38,7 +38,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
    * 其中 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是 mbox 的預設內容。這必須為影像。
 
-      此網址必須經過 URL 編碼，且必須為絕對參照。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
+      此網址必須經過 URL 編碼，且必須為絕對參照。您可以使用[HTML URL編碼參考](https://www.w3schools.com/tags/ref_urlencode.asp)快速編碼URL。
 
 1. 為每個替代影像建立[重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
