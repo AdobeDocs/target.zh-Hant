@@ -14,35 +14,35 @@ ht-degree: 75%
 
 # A/B 測試該執行多久?
 
-A successful [!UICONTROL A/B Test] activity requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
+成功的[!UICONTROL A/B測試]活動需要足夠數量的訪客（樣本大小）來改善您的轉換率，但您如何知道執行A/B測試需要多長時間？ 本文包含[!UICONTROL 自動分配]活動和[!UICONTROL Adobe Target]範例大小計算器的相關資訊，以協助您確保活動有足夠數量的訪客達成目標。
 
 在活動剛開始的幾天，如果其中一個選件表現得比其他選件好很多或差很多，就會很想停止活動。不過，當觀察值數目太少時，觀察到正提升度或負提升度極有可能只是機遇，因為轉換率以很少的訪客數目來算平均值。隨著活動收集更多的資料點，轉換率就會往真正長期值收斂。
 
 >[!IMPORTANT]
 >
->提前停止活動是您在執行A/B測試時可能會遭遇的十大陷阱之一。 如需詳細資訊，請 [參閱十種常見的A/B測試陷阱以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
+>提前停止活動是您在執行A/B測試時可能會遭遇的十大陷阱之一。 如需詳細資訊，請參閱[十個常見的A/B測試陷阱，以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
 
 [!DNL Target] 提供工具，協助您的活動擁有足夠大的樣本大小，以達成轉換目標：自動分配。
 
 ## 自動分配 {#auto-allocate}
 
-An [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)活動是一種A/B測試，可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以增加轉換，同時測試繼續執行和學習。
 
 標準 A/B 測試有其固有成本。您必須耗費流量來測量每個體驗的效能，並透過分析來定奪勝出體驗。即使在您認定某些體驗勝過其他體驗之後，流量分布仍然固定。另外，很難決定樣本大小，必須等到活動執行完整個過程，您才能對獲勝者採取動作。即使完成所有作業，已識別出的獲勝者仍有可能不是真正贏家。
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 自動分配可降低這項成本及定奪勝出體驗時的額外負荷。][!UICONTROL 自動分配會監控所有體驗的目標量度效能，並依比例將更多新加入者安排到表現優異的體驗。]有足夠的流量保留來探索其他體驗。即使活動仍在執行，您仍可在結果上看到活動的益處：最佳化與學習並行進行。
+解決方案是[!UICONTROL 自動分配]。 [!UICONTROL 自動分配可降低這項成本及定奪勝出體驗時的額外負荷。][!UICONTROL 自動分配會監控所有體驗的目標量度效能，並依比例將更多新加入者安排到表現優異的體驗。]有足夠的流量保留來探索其他體驗。即使活動仍在執行，您仍可在結果上看到活動的益處：最佳化與學習並行進行。
 
 [!UICONTROL 自動分配會逐漸將訪客移往勝出體驗，您不必等到活動結束才決定獲勝者。]您會更快從提升中受益，因為原本安排到較差體驗的活動加入者會看到潛在的勝出體驗。
 
 使用[!UICONTROL 自動分配]功能時，在活動達到最低轉換次數且有足夠信賴度之前，[!DNL Target] 會在活動頁面頂端顯示徽章，指出「尚未有贏家」。[!DNL Target]然後， 會透過在活動頁面的頂端顯示徽章，宣告成功體驗。
 
-For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+如需詳細資訊，請參閱[自動配置概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
 
 ## Adobe Target 樣本大小計算機 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. 手動A/B測試是固定水準測試，因此計算器非常有用。 使用計算器進行自動 [!UICONTROL 分配] (Auto-Allocate [!UICONTROL )活動是可選的，因為] Auto-Allocate會為您宣告成功者。 電腦可粗略估計所需的樣本大小。 如需有關如何使用此計算機的詳細資訊，請繼續閱讀。
+如果您選擇使用手動[!UICONTROL A/B測試]活動，而不是[!UICONTROL 自動分配],[!DNL Target]樣本大小計算器可幫助您確定成功測試所需的樣本大小。 手動A/B測試是固定水準測試，因此計算器非常有用。 使用[!UICONTROL 自動分配]活動的計算器是可選的，因為[!UICONTROL 自動分配]會為您聲明一個成功者。 電腦可粗略估計所需的樣本大小。 如需有關如何使用此計算機的詳細資訊，請繼續閱讀。
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+在設定A/B測試之前，請存取Adobe Target [範例大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。
 
 ![Adobe Target 樣本大小計算機](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -74,7 +74,7 @@ Before setting up your A/B test, access the Adobe Target [sample size calculator
 
 測試的重要性等級可決定測試報告兩個不同選件之間轉換率差異的可能性，而實際上兩者並無實際差異。 這稱為偽陽性或第一型誤差。重要性層級是使用者指定的臨界值，是誤報容忍度與測試中必須包含的訪客數量之間的權衡。
 
-在 A/B 測試中，最初會假設兩個選件有相同的轉換率。然後，根據此假設來計算觀察結果的機率。If this probability (the p-value) is smaller than some predefined threshold (the significance level), [!DNL Target] concludes that the initial assumption--that both offers have the same conversion rate--is incorrect and, therefore, the conversion rates of A and B are statistically different at the given significance level.
+在 A/B 測試中，最初會假設兩個選件有相同的轉換率。然後，根據此假設來計算觀察結果的機率。如果此概率（p值）小於某些預先定義的閾值（重要性級別）,[!DNL Target]得出結論，初始假設（兩個選件具有相同的轉換率）是不正確的，因此，在給定的重要性級別上，A和B的轉換率在統計上是不同的。
 
 A/B 測試中常用的顯著水準是 5%，這對應於信賴水準 95% (信賴水準 = 100% - 顯著水準)。信賴水準 95% 表示每次執行測試時，即使選件之間沒有差異，仍有 5% 的機會偵測到統計顯著的提升度。
 
@@ -142,7 +142,7 @@ A/B 測試的統計檢定力是指偵測到某個數量的轉換率有實質差�
 
 使用「每次造訪帶來的收入 (RPV)」作為量度時，將會多增加一個變異數來源，因為 RPV 是每次訂購的收入與轉換率的乘積 (RPV = 收入 / 訪客數 = (每次訂購的收入 * 訂購數) / 訪客數 = 每次訂購的收入 * (訪客數 * CTR) / 訪客數 = 每次訂購的收入 * CTR)，各有自己的變異數。轉換率的變異可以直接使用數學模型來估計，但每個訂單的收入變異是活動特有的。 因此，請使用過去活動中此差異的相關知識，或執行A/B測試數天，以估計收入差異。 差異是根據CSV下載檔案中的「銷售總和」、「銷售總和平方」和「訪客數」的值計算。 建立後，使用試算表計算完成測試所需的時間。
 
-樣本大小計算機 (上方提供的連結) 可協助您設定 RPV 量度。When you open the calculator, you&#39;ll see a tab labeled [!UICONTROL RPV Metric]. 使用 RPV 版的計算機時需要下列資訊:
+樣本大小計算機 (上方提供的連結) 可協助您設定 RPV 量度。當您開啟計算器時，您會看到標有[!UICONTROL RPV量度]的標籤。 使用 RPV 版的計算機時需要下列資訊:
 
 * 控制選件的訪客數目
 * 控制選件的總收入
@@ -155,12 +155,12 @@ A/B 測試的統計檢定力是指偵測到某個數量的轉換率有實質差�
 
 一般而言，使用RPV做為量度需要20-30%的長時間，才能在相同測量提升度層級上達到相同的統計信賴等級。 這是因為RPV在每次轉換時會增加不同順序大小的差異。 在選擇直線轉換率和RPV作為最終業務決策依據的量度時，應考慮這一點。
 
-## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
+## 比較多個選件{#section_1474113764224D0B85472D8B023CCA15}的修正
 
 每次比較兩個選件時，得到偽陽性 (即使轉換率沒有差異也觀察到統計顯著差異) 的機會等於顯著水準。例如，假設有五個選件 A/B/C/D/E，其中 A 是控制選件，然後執行四次比較 (控制對 B、控制對 C、控制對 D、控制對 E)，即使信賴水準是 95%，偽陽性的機率也會有 18.5%，因為 Pr (至少一個偽陽性) = 1 - Pr (沒有偽陽性) = 1 - 0.95 = 18.5%。在此背景下，偽陽性的定義是回報指出控制優於對立或對立優於控制，但其實兩者之間沒有差異。
 
 ## 結論 {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-By using an [!UICONTROL Auto-Allocate] activity, [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. [!UICONTROL 自動分配可讓您輕鬆達成轉換目標，同時消除猜測工作。]
+透過使用[!UICONTROL 自動分配]活動，[!DNL Target]可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以在測試持續執行和學習的同時提高轉化率。 [!UICONTROL 自動分配可讓您輕鬆達成轉換目標，同時消除猜測工作。]
 
 利用本文介紹的樣本大小計算機 (上方提供的連結)，並依照所建議的時間量來執行測試，就可確保一定能執行高品質的 A/B 測試，且符合您認為可滿足特定測試的偽陽性率和偽陰性率。如此可確保測試一致，且能夠可靠地偵測到您所尋找的提升度。
