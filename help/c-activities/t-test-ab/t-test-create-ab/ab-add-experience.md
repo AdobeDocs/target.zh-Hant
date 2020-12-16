@@ -30,7 +30,7 @@ ht-degree: 90%
 
    將游標移至頁面上的元素時，元素會強調顯示。任何強調顯示的元素可以使用體驗撰寫器加以更改。
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   如果您使用Target Classic（舊稱Test&amp;Target）在頁面上建立[!DNL Target]請求，則該[!DNL Target]請求會以顯示請求名稱的元素顯示，而且可像修改任何其他元素一樣加以修改。
 
    如需可以在顯示頁面上執行元素以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -93,7 +93,7 @@ ht-degree: 90%
 
 ![刪除體驗選項](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## 訓練影片：使用Visual Experience Composer ![教學課程徽章](/help/assets/tutorial.png)
 
 以下的影片提供關於使用可視化體驗撰寫器選項的資訊。(7:17)
 
