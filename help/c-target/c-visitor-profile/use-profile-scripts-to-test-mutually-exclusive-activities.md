@@ -12,7 +12,7 @@ ht-degree: 81%
 ---
 
 
-# Use profile scripts to test mutually exclusive activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# 使用描述檔指令碼來測試互斥活動{#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 您可以使用設定檔屬性來設定測試，以比較兩個或更多個活動，但請勿讓相同訪客參與每一個活動。
 
@@ -46,7 +46,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` 開始了決定訪客會屬於哪個群組的常式。如果傳回的數字是 0-49，那麼此位訪客會被指定至 GroupA。如果該數字是 50-99，那麼此位訪客會被指定至 GroupB。群組會決定訪客可看到的活動。
 
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
+建立描述檔屬性後，請設定第一個活動，要求使用者描述檔參數`user.twogroups`符合為GroupA指定的值，以定位所需的人口族群。
 
 >[!NOTE]
 >
