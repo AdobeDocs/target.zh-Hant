@@ -92,4 +92,4 @@ ht-degree: 92%
 
 可在描述檔指令碼中參考客戶屬性 ，格式為 `crs.get('<Datasource Name>.<Attribute name>')`。
 
-這些屬性也可做為描述檔指令碼中的代號，以及直接用在選件中，不需要先使用描述檔指令碼。代號的格式為: `${crs.datasourceName.attributeName}`。請注意，應從任 `datasourceName` 何API呼叫中移除空格。
+這些屬性也可做為描述檔指令碼中的代號，以及直接用在選件中，不需要先使用描述檔指令碼。代號的格式為: `${crs.datasourceName.attributeName}`。請注意，`datasourceName`中的空格應從任何API呼叫中移除。
