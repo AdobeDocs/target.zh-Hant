@@ -12,7 +12,7 @@ ht-degree: 95%
 ---
 
 
-# adobe.target.applyOffers(options) - at.js 2.x
+# adobe.target.applyOffers(options)- at.js 2.x
 
 此函數可讓您套用一個以上由 `adobe.target.getOffers()` 擷取的選件。
 
@@ -22,14 +22,14 @@ ht-degree: 95%
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| selector | 字串 | 無 | HTML 元素或 CSS 選取器過去會識別 [!DNL Target] 應該放置選件內容的 HTML 元素。If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | 字串 | 無 | HTML 元素或 CSS 選取器過去會識別 [!DNL Target] 應該放置選件內容的 HTML 元素。如果未提供選擇器，[!DNL Target]會假設要使用的HTML元素是HTML HEAD。 |
 | 回應 | 物件 | 是 | 回應來自 `getOffers()` 的物件。<br>請參閱下方的「要求」表格。 |
 
 ## 回應
 
 >[!NOTE]
 >
->請參閱 [Delivery API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) ，以取得下列所有欄位可接受類型的相關資訊。
+>如需下列所有欄位可接受類型的詳細資訊，請參閱[傳送API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 欄位名稱 | 說明 |
 | --- | --- |
