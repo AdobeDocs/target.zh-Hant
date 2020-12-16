@@ -18,7 +18,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->遠端選件僅能在表單式撰寫器中建立。Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
+>遠端選件僅能在表單式撰寫器中建立。內容會插入至[!DNL Target]請求位置，因此這些位置很可能不適用於全域[!DNL Target]請求。
 >
 >[!DNL Target Classic] 包含類似的功能: [!UICONTROL 您網站上的選件]和 [!UICONTROL Test&amp;Target 外部的選件]。
 
@@ -46,7 +46,7 @@ ht-degree: 92%
    | 選項 | 說明 |
    |--- |--- |
    | 已快取 | 快取遠端選件的內容由 Target 提供。<br>[!DNL Target] 每兩小時會從遠端 URL 擷取內容，然後將內容儲存在 Target 內。當訪客載入的網站有一個體驗包含遠端選件時，Target 會傳送此選件。<br>因為登入 Target 的人無法變更內容，讓快取遠端選件得以提供增強的安全性。若要變更內容，此人需要登入內容管理或其他系統，然後在那裡變更內容。<br>您可以為快取遠端選件指定絕對或相對 URL。 |
-   | 動態 | 動態遠端選件由內容管理或其他系統提供，而非由 Target 提供。<br>每當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓 Target 定期快取內容再傳送。相反地，您想要呼叫裝載內容的系統，可能傳入特定的資訊，使得傳回的選件隨著每個使用者而動態變化或不同。<br>例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端選件，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。<br>按一 [!UICONTROL 下「新增參數] 」以新增一或多個請 [!DNL Target] 求或請求參數。 |
+   | 動態 | 動態遠端選件由內容管理或其他系統提供，而非由 Target 提供。<br>每當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓 Target 定期快取內容再傳送。相反地，您想要呼叫裝載內容的系統，可能傳入特定的資訊，使得傳回的選件隨著每個使用者而動態變化或不同。<br>例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端選件，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。<br>按一 [!UICONTROL 下「新] 增參數」以新增一或多 [!DNL Target] 個請求或請求參數。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -54,7 +54,7 @@ ht-degree: 92%
 
 在活動中使用遠端選件的最佳作法:
 
-* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
+* 如果您的選件與[!DNL Target]請求位於相同的網域中，則使用[!UICONTROL  Cached]選項可讓您使用相對URL來描述選件位置。
 
    這表示當您將行銷活動從測試伺服器移至生產環境時，不需要手動變更 URL 即可自動存取內容。
 
