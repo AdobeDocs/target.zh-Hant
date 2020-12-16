@@ -76,7 +76,7 @@ Adobe 對於自己的資料準確性和品質感到自豪。觸發 [!DNL Target]
 
 **部分資料點擊:** 使用者有時不會維持在頁面上夠長的時間，因而無法傳送 [!DNL Analytics] 呼叫，但是 [!DNL Target] 會有正確的 MCID。這會造成部分資料點擊 (沒有 [!DNL Analytics] 頁面檢視的點擊)。如果這些使用者回到您的網站並檢視包含 [!DNL Analytics] 程式碼的頁面，即會將他們正確計為回頭的訪客。如果您的頁面上只有 [!DNL Analytics] 程式碼，則您會遺漏這些點擊。有些用戶端不想要這些點擊的資料，因為它們會讓某些度量 (造訪) 膨脹和讓其他度量 (每次造訪的頁面檢視、每次造訪時間等) 壓縮。您也將看見沒有任何頁面檢視的造訪。不過，保留此資料仍有有效的原因。
 
-為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的資料庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。For step-by-step instructions, see [Create virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
+為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的資料庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。如需逐步指示，請參閱&#x200B;*Analytics元件指南*&#x200B;中的[建立虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
 
 下圖顯示虛擬報表套裝的區段定義:
 
