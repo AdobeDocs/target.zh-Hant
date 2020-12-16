@@ -36,7 +36,7 @@ ht-degree: 98%
 
 如需更多詳細資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)矩陣。請注意，有以下兩個方面: Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
 
-## Target JavaScript 資料庫 (at.js 和 mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Target JavaScript 資料庫 (at.js 和 mbox.js)  {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **我應該使用哪個實作 JavaScript 檔案，at.js 或 mbox.js?**
 
@@ -62,7 +62,7 @@ at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的
 
 **我可以以某個層級的個人化作為活動的必要部分來執行活動嗎?**
 
-請參閱 [自動定位選項](/help/c-activities/auto-target/auto-target-to-optimize.md) 。
+查看[自動目標](/help/c-activities/auto-target/auto-target-to-optimize.md)選項。
 
 **我如何知道哪個類型的活動最適合我的需要?**
 
@@ -189,7 +189,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我們也提供[表單式方法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能也必須求助您的 IT 部門來 [allowlist Adobe&#39;s proxy servers](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
+也請閱讀[增強體驗撰寫器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能也必須求助您的 IT 部門來  [allowlist Adobe的代理服](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 務器。
 
 **我有回應式網站。建立活動時，我如何確定我考慮的是重要裝置?**
 
@@ -197,7 +197,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我有多個網域。其中一個網域必須已啟用增強體驗撰寫器，而其他網域則需要將它停用。我應該怎麼做?**
 
-You can always use [Enhanced Experience Composer option at the activity level](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
+您一律可以在活動層級](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)使用「增強的體驗撰寫器」選項來覆寫預設設定（「管理>視覺體驗撰寫器」）。[
 
 **為什麼我看不到可交換影像的選項?**
 
