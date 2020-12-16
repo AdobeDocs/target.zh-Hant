@@ -73,7 +73,7 @@ window.targetGlobalSettings = {
 
 1. **[!DNL Target] 標記是透過 [!DNL Launch] 預先核准 (或資料主體先前核准 [!DNL Target]):**[!DNL Target] 標記不會為同意保留，並照常運作。
 1. **[!DNL Target] 標記「不會」預先核准且 `bodyHidingEnabled` 為「FALSE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。收到同意後，系統會呼叫 [!DNL Target]，資料主體 (訪客) 即可使用個人化內容。由於收到同意前只能使用預設內容，因此運用適當策略非常重要，例如遮住整個頁面或可個人化內容的啟動顯示畫面。這可確保資料主體 (訪客) 的體驗一致。
-1. **[!DNL Target] 標記「不會」預先核准且 `bodyHidingEnabled` 為「TRUE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 [!DNL Target] 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。這項設定會將 [!DNL Target] 設定為只隱藏頁面內容容器。如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **[!DNL Target] 標記「不會」預先核准且 `bodyHidingEnabled` 為「TRUE」:**[!DNL Target] 標記僅在向客戶取得同意後觸發。取得同意前，僅可使用預設內容。但由於 `bodyHidingEnabled` 設為 True，`bodyHiddenStyle` 會指定在觸發 [!DNL Target] 標記前隱藏的頁面內容 (或資料主體拒絕選擇加入，而顯示預設內容)。依預設，`bodyHiddenStyle`設為`body { opacity:0;}`，會隱藏HTML內文標籤。 建議的頁面設定如下，將頁面內容放入一個容器，並將同意管理程式對話方塊放入另一個容器，即可隱藏頁面所有內容，而不是同意管理程式對話方塊。這項設定會將 [!DNL Target] 設定為只隱藏頁面內容容器。如需如何設定上述設定的詳細資訊，請參閱 [ Launch 文件](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    情況 3 的建議頁面設定如下:
 
@@ -132,7 +132,7 @@ window.targetGlobalSettings = {
 | 使用者 ID | 命名空間 ID 類型 | 命名空間 ID | 定義 |
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID，先前稱為訪客 ID 或 Marketing Cloud ID。您可以使用 JavaScript API 找到此 ID (請參閱下方的詳細資料)。 |
-| TnT ID/Cookie ID(TNTID) | Standard | 9 | 在訪客的瀏覽器中設為 Cookie 的 Target 識別碼。您可以使用 JavaScript API 找到此 ID (請參閱下方的詳細資料)。 |
+| TnT ID/Cookie ID(TNTID) | 標準 | 9 | 在訪客的瀏覽器中設為 Cookie 的 Target 識別碼。您可以使用 JavaScript API 找到此 ID (請參閱下方的詳細資料)。 |
 | 第三方 ID/CRM ID(THIRDPARTYID) | Target 專用 | 不適用 | 此情況為您向 Target 提供您的 CRM 或客戶的其他唯一識別碼資訊。 |
 
 >[!NOTE]
@@ -143,11 +143,11 @@ window.targetGlobalSettings = {
 
 GDPR 和 CCPA 並未變更您必須取得同意的時間，而是改變您取得同意的方式。每個客戶的同意策略會根據其資料收集和使用實務，以及其隱私權政策來訂定。[!DNL Target] 不支援 GDPR 和 CCPA 的同意管理，也不應作為達成此功能的工具。
 
-[!DNL Adobe] 目前並未提供同意管理解決方案，但市場中已開發各種工具，可有效應付新需求中的部分內容。For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
+[!DNL Adobe] 目前並未提供同意管理解決方案，但市場中已開發各種工具，可有效應付新需求中的部分內容。有關一般隱私權工具的詳細資訊，包括同意管理員，請參閱&#x200B;*國際隱私專業人士協會(iaap)*&#x200B;網站上的[2017年隱私權技術廠商報告](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)。
 
 [!DNL Target] 透過 [!DNL Launch] 支援選擇加入功能，以支援同意管理策略。選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Launch] 預先核准 [!DNL Target] 標記。建議使用 [!DNL Launch] 管理選擇加入。[!DNL Launch] 中可更仔細控制，可在 [!DNL Target] 引發前隱藏特定頁面元素，當作同意策略十分實用。
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). 另請參閱上方的 *Adobe Target 和 Experience Platform Launch 選擇加入*&#x200B;一節。
+如需有關GDPR、CCPA和[!DNL Launch]的詳細資訊，請參閱[ The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。 另請參閱上方的 *Adobe Target 和 Experience Platform Launch 選擇加入*&#x200B;一節。
 
 ### AdobePrivacy.js 會將資訊提交至 GDPR API 嗎? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -200,7 +200,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 }
 ```
 
-### 透過 GDPR API，我應該可以得到哪些回應類型?   {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### 透過 GDPR API，我應該可以得到哪些回應類型?    {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | 要求狀態 | Target 回應訊息 | 藍本 |
 |--- |--- |--- |
@@ -292,7 +292,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 >
 >此為 [!DNL Target] 設定檔 JSON 的簡短版本，以供說明使用。[!DNL Target] 設定檔的許多欄位並非標準欄位。傳回的內容取決於特定訪客設定檔中的資訊。
 
-### Target 支援 IP 模糊化功能嗎?   {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target 支援 IP 模糊化功能嗎?    {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
 
