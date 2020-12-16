@@ -92,7 +92,7 @@ ht-degree: 99%
 
 1. 繼續進行[步驟 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的對象」以建立結合的對象。
 
-## 建立合併的對象以用於報表 {#section_4682D342EFBB43C38E54B99B3A1E14CD}
+## 建立合併的對象以用於報表  {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 您可以在活動的[!UICONTROL 「目標與設定」]頁面上建立隨選合併對象，以用於報表。
 
@@ -112,7 +112,7 @@ ht-degree: 99%
 
    按一下所需的活動以開啟，然後按一下&#x200B;**[!UICONTROL 「編輯活動」]**。
 
-1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. 按一下「設定&#x200B;**** > **[!UICONTROL 觀眾]** > **[!UICONTROL 多個觀眾]**」。
 
    ![設定 > 受眾 > 多個受眾](/help/c-target/assets/combine_multiple_audiences7.png)
 
