@@ -147,7 +147,7 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
 * 為 Target Standard 自動建立的全域 mbox 回應不再使用 document.write() 或建立`<div>`元素。
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. 升級至此新版本時，建議進行強式 QA。
+   這樣，mbox.js檔案就不需要成為頁面`<head>`中的最後一個項目。 升級至此新版本時，建議進行強式 QA。
 
    此項變更可能造成傳送某些選件類型時的行為變更。以下是需要考慮的特定條件:
 
