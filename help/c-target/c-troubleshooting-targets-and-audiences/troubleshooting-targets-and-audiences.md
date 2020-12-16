@@ -16,7 +16,7 @@ ht-degree: 69%
 
 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 
-## Target如何評估定位中的URL? {#url}
+## Target如何評估定位中的URL?{#url}
 
 Target會根據您在建立活動時是否使用對象URL定位，或是您在建立對象時是否使用URL定位，以不同方式評估URL。
 
@@ -30,7 +30,7 @@ Target會根據您在建立活動時是否使用對象URL定位，或是您在�
 
 ![頁面傳送URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-對象URL定位會尋找完全相符的URL。 如果URL相符，Target不會考慮進一步的邏輯。 在上述URL中，如果活動設為開啟，則URL會 `www.example.com`符合下列URL，因為對象URL定位不受查詢限制：
+對象URL定位會尋找完全相符的URL。 如果URL相符，Target不會考慮進一步的邏輯。 在上述URL中，如果活動設定為在`www.example.com`上觸發，則URL會符合下列URL，因為對象URL定位不受查詢限制：
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -51,7 +51,7 @@ URL定位會將URL轉換為一組要評估的規則：
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 建立複雜的URL字串時，是否 [!DNL Target] 會評估整個URL?
+## 建立複雜的URL字串時，[!DNL Target]是否會評估整個URL?
 
 如果您在URL字串中使用相同的參數名稱多次，HTTP會考慮第一個參數名稱，並忽略具有相同名稱的後續參數。
 
@@ -59,7 +59,7 @@ URL定位會將URL轉換為一組要評估的規則：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-計算參數的第 `Category` 一個實例並忽略第 `Category` 二參數。
+評估`Category`參數的第一個實例，並忽略第二個`Category`參數。
 
 最佳做法是將多個值與單一類別相關聯，如下所示：
 
@@ -71,11 +71,11 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 最佳做法是使用較新的對象，因為效能更好。部分客戶使用的可能是舊版、預先建立的對象，因此尚未從 Target 介面中移除。
 
-## 如何知道對象之間如何分割流量? {#section_067EEFB956E7465CBF77EC86834470AB}
+## 如何知道對象之間如何分割流量?  {#section_067EEFB956E7465CBF77EC86834470AB}
 
 依預設，流量會在體驗之間平均分割。不過，您可以指定每個體驗的百分比目標。在這種情況下會產生亂數，使用此數字選擇顯示的體驗。結果百分比可能和指定目標不完全相同，但流量更多表示體驗分割就會更接近定位目標。
 
-## 如果使用者符合活動的資格，而該活動包含多個體驗和多個合格對象，將會顯示哪一個體驗? {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## 如果使用者符合活動的資格，而該活動包含多個體驗和多個合格對象，將會顯示哪一個體驗?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 使用者的資格會符合活動的 [!UICONTROL Target] 頁面上所顯示的第一個體驗/對象。
 
@@ -93,7 +93,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 部分 Target 對象是預先定義的，例如「新訪客」和「再度訪問的訪客」。使用者無法重新命名這些對象。
 
-## Target 使用者介面中為何不顯示所有設定檔參數? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Target 使用者介面中為何不顯示所有設定檔參數?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 [!DNL Target]，則可以使用 [!UICONTROL 設定檔更新] API 方法來傳遞它們。如需詳細資訊，請參閱 Adobe Target API 文件中的[設定檔更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
@@ -101,7 +101,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 在每個工作階段都會評估一次自動個人化活動。如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增選件，則除了先前顯示的選件，使用者還會看到新內容。因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
 
-## 為什麼透過 API 建立之對象所做的變更未反映在 Target UI 中? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## 為什麼透過 API 建立之對象所做的變更未反映在 Target UI 中?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 與選件和設定檔指令碼不同，API 對於 Target Standard 建立之對象所做的變更目前未同步回 Target UI。
 
