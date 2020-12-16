@@ -16,11 +16,11 @@ ht-degree: 78%
 
 Adobe Target 已啟用程序和設定，允許您使用 Target 遵守適用的資料隱私權法律。
 
-## IP位址的集合 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## IP位址集{#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 您網站訪客的 IP 位址將傳輸到 Adobe 資料處理中心 (DPC)。視訪客的網路設定而定，此 IP 位址不一定代表訪客電腦的 IP 位址。例如，該 IP 位址可能是網路位址轉譯 (NAT) 防火牆、HTTP Proxy 或內部閘道的外部 IP 位址。Target 不會儲存使用者的任何 IP 位址或任何個人身分識別資訊 (PII)。IP 位址僅在工作階段期間由 Target 使用 (記憶體內部，永不保留)。
 
-## 取代IP位址的最後八位元 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## 取代IP位址的最後八位元{#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 Adobe Target 啟用。啟用此設定時，當 Adobe 收集到 IP 位址時，就會立即隱藏 IP 位址的最後八位元 (最後一部分)。在對 IP 位址進行任何處理前 (包括選用的 IP 位址地理查閱)，就會執行這種匿名方式。
 
@@ -36,7 +36,7 @@ Target會接收完整的IP位址，並依指定將其模糊化（若設為「最
 
 >[!NOTE]
 >
->[請連絡Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以判斷您目前使用的設定，或啟用IP模糊化功能。
+>[請連絡Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Care，以判斷您目前使用的設定或啟用IP模糊化功能。
 
 ## 地域劃分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -44,7 +44,7 @@ Target會接收完整的IP位址，並依指定將其模糊化（若設為「最
 
 如果 IP 位址完全模糊，則無法使用 GeoSegmentation 和地理位置定位。
 
-## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## 退出連結{#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 您可以在您的網站中新增選擇退出連結，讓訪客能夠選擇退出所有 計數及內容傳遞。
 
@@ -59,4 +59,4 @@ Target會接收完整的IP位址，並依指定將其模糊化（若設為「最
 
 ## 隱私權與資料保護規範
 
-See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+請參閱[隱私權與資料保護法規](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)，以取得歐盟通用資料保護法規(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的相關資訊，以及這些規定對您的組織和Adobe Target有何影響。
