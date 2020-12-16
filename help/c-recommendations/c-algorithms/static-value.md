@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Static Filter
+# ![PERTIMtatic](/help/assets/premium.png) 篩選
 
-手動輸入一個或多個靜態值，以使用中的包含規則進行篩 [!DNL Adobe Target][!DNL Recommendations]選。
+手動輸入一個或多個靜態值，以使用[!DNL Adobe Target] [!DNL Recommendations]中的包含規則進行篩選。
 
 例如，僅建議內容的「動態圖片關聯」(MPA)評分為「G」或「PG」。
 
