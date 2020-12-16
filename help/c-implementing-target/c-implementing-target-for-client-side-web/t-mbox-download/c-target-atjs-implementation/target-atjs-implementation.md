@@ -59,7 +59,7 @@ at.js 是新的 [!DNL Adobe Target] 實作資料庫，專為典型 Web 實作和
 
 * 特別針對單頁應用程式/MVC 架構來設計的函式
 
-## 訓練影片: at.js - 優點與最佳實務實作 ![概述徽章](/help/assets/overview.png)
+## 訓練影片: at.js - 優點與最佳實務實作  ![概述徽章](/help/assets/overview.png)
 
 這支影片記錄了「[營業時間](/help/cmp-resources-and-contact-information.md)」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
