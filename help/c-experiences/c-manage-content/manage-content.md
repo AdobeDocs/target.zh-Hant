@@ -34,7 +34,7 @@ ht-degree: 98%
 
 ![](assets/offer-picker-large.png)
 
-## 檢視選件定義 {#section_6B059DD121434E6292CAB393507D010E}
+## 檢視選件定義  {#section_6B059DD121434E6292CAB393507D010E}
 
 在「選件資料庫」中，您可以在快顯卡片上檢視選件定義詳細資料，而不需要開啟選件。
 
@@ -86,7 +86,7 @@ ht-degree: 98%
 * 重新導向 URL 類型
 * 絕對或相對 URL
 
-## 訓練影片: 內容存放庫 ![概述徽章](/help/assets/overview.png)
+## 訓練影片: 內容存放庫  ![概述徽章](/help/assets/overview.png)
 
 此影片包含管理選件的相關資訊。
 
