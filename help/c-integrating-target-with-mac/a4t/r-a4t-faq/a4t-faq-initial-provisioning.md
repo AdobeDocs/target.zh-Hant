@@ -32,7 +32,7 @@ ht-degree: 100%
 
 如果發生佈建問題，請檢查 A4T 是否佈建正確。
 
-## 報表套裝為何沒有載入? {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## 報表套裝為何沒有載入?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 如發生任何這些問題，請檢查下列事項:
 
@@ -40,14 +40,14 @@ ht-degree: 100%
 * 如果您在相同體驗 Experience Cloud 公司使用多個 Analytics 公司登入，請確定您上次登入的 Analytics 公司已繫結至整合的 Target 帳戶。
 * 如果已登入 Experience Cloud 數小時，Analytics 工作階段有時會到期。請登出再登入來再試一次。
 
-## 在 Target 中為何看不到 Analytics 選項? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## 在 Target 中為何看不到 Analytics 選項?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 請參閱「為什麼我的報表套裝未載入」? above.此問題的根本原因是相同的。
 
-## 在 Analytics 中為何看不到 A4T 報表? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## 在 Analytics 中為何看不到 A4T 報表?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 請參閱「為什麼我的報表套裝未載入」? above.此問題的根本原因是相同的。
 
-## 我的報表在 Target 中為何空白? {#section_3837104757464CB488C5A83014A669A1}
+## 我的報表在 Target 中為何空白?  {#section_3837104757464CB488C5A83014A669A1}
 
 請參閱「為什麼我的報表套裝未載入」? above.此問題的根本原因是相同的。
