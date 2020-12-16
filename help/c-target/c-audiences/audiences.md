@@ -18,7 +18,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 
 可使用鎖定目標之處皆可使用對象。鎖定目標活動時，您可以從[!UICONTROL 受眾]清單選取可重複使用的受眾、[建立活動專屬受眾](/help/c-target/creating-activity-only-audience.md)，以及將其鎖定目標，或[合併多個受眾](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選受眾。
 
-您也可以使用 [!DNL Analytics] 收集的對象資料，以用於 [!DNL Adobe Target] 和 [!DNL Experience Cloud] 解決方案中即時鎖定目標和個人化。請參 [閱核心](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 「服務使 *用指南」中的「觀眾」*。
+您也可以使用 [!DNL Analytics] 收集的對象資料，以用於 [!DNL Adobe Target] 和 [!DNL Experience Cloud] 解決方案中即時鎖定目標和個人化。請參閱&#x200B;*核心服務使用指南*&#x200B;中的[觀眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 
 [!DNL Target] 定義兩種對象:
 
@@ -40,7 +40,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 * 若對象已在 AAM 中刪除，[!UICONTROL 「對象」]清單和對象選擇器中皆會顯示警告圖示。UI 中的工具提示也表示對象已在 AAM 中刪除。
 * 若嘗試將多個對象與已刪除的對象合併，或嘗試儲存參考已刪除對象的活動，系統會顯示警告訊息。
 
-您也可以鎖定自訂設定檔參數和 `user.` 參數。When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 如果需要的參數並未出現，表示參數尚未由 mbox 觸發。在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
+您也可以鎖定自訂設定檔參數和 `user.` 參數。新增對象時，按一下「新增規則&#x200B;**[!UICONTROL > >**[!UICONTROL &#x200B;訪客資料&#x200B;]**」，然後選擇您要用來定位活動的參數。]**&#x200B;如果需要的參數並未出現，表示參數尚未由 mbox 觸發。在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
 
 使用搜尋方塊來搜尋您的[!UICONTROL 對象]清單。您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
@@ -81,7 +81,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 * Target Standard/Premium 中不再支援運算式目標對象。
 * Target Standard/Premium 不支援一些過時的對象，或已改善運算子，變得更容易使用。因此，定義匯入的對象 (雖然可依定義而運作) 不表示現在同樣可以在 Standard/Premium 中建立。例如，社交對象連同其規則皆可見，但 Target Standard/Premium 不允許建立社交對象。
 
-## 訓練影片: 使用對象 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 使用對象  ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象的資訊。
 
