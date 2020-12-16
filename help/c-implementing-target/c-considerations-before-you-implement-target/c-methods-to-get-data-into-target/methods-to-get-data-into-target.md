@@ -56,7 +56,7 @@ ht-degree: 96%
 
    `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
-   除此之外的字元都必須經過 URL 編碼。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
+   除此之外的字元都必須經過 URL 編碼。此標準指定下列格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示：
 
    ![](assets/ietf1.png)
 
@@ -296,7 +296,7 @@ CRM 或其他內部系統中儲存關於訪客的實用資料 (您希望持續�
 
 ### 代碼範例
 
-支援 GET 和 POST。 `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+支援 GET 和 POST。  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### 相關資訊的連結
 
@@ -334,7 +334,7 @@ Target Standard 客戶可使用 5 個屬性，Target Premium 客戶可使用 200
 
 ### 代碼範例
 
-Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+如需詳細資訊，請參閱[建立客戶屬性來源並上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)。
 
 ### 相關資訊的連結
 
