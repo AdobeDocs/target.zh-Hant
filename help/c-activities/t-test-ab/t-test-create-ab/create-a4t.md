@@ -16,7 +16,7 @@ ht-degree: 95%
 
 您可以在 Target Standard 中設定活動以使用 Adobe Analytics 做為報表來源 (A4T)。
 
-For detailed information about setting up Analytics as the data source for Target, see [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+如需將Analytics設為Target資料來源的詳細資訊，請參閱[Adobe Analytics做為Adobe Target的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
 
 設定使用 Analytics 做為報表來源的活動之前，請建立活動的目標，例如改善每位訪客帶來的收入 (RPV) 或增加購物車的點擊次數。選擇促銷活動的最終成功量度。儘管您隨時可以在 Analytics 中選取其他的量度，您仍必須指定預期此測試產生作用的特定量度。
 
