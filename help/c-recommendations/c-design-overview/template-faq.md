@@ -14,7 +14,7 @@ ht-degree: 85%
 
 # ![PREMIUM](/help/assets/premium.png) 設計常見問題集{#design-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+關於[!DNL Adobe Target]建議設計的常見問題(FAQ)清單。
 
 ## 我的建議項目價格未在小數點右方顯示兩個值。我該如何顯示這些值?
 
@@ -34,7 +34,7 @@ List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendati
 
 設計中無法顯示類別 ID。因為可能會儲存多個類別，系統無法決定要顯示的類別。
 
-## 如何變更設計才能立即更新?    {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## 如何變更設計才能立即更新?     {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 更改目前使用中的設計需要一段時間才會更新。若要立即變更設計，請建立新設計、在活動中選取它，然後儲存建議。
 
