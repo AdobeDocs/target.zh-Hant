@@ -44,7 +44,7 @@ ht-degree: 95%
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
 | `<label>` | `<p>` |
 
 #### 背景色彩
@@ -53,11 +53,11 @@ ht-degree: 95%
 
 **注意:** 此選項無法供設定了背景影像的元素使用。
 
-#### 樣式 {#styles}
+#### 樣式  {#styles}
 
 使用[!UICONTROL 樣式]面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+若要存取[!UICONTROL Styles]面板，請從VEC中按一下頁面元素，然後按一下「編輯&#x200B;]**>**[!UICONTROL  Styles ]**」。**[!UICONTROL 
 
 [!UICONTROL 樣式]面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。
 
@@ -114,7 +114,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    邊界支援正值和負值。
 
-   Target 也支援其他大小單位，例如 rem、pc、em 等。For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target 也支援其他大小單位，例如 rem、pc、em 等。如需這些單位的詳細資訊，請參閱[網頁樣式表CSS秘訣與訣竅](https://www.w3.org/Style/Examples/007/units.en.html)。
 
 * **邊框間距**
 
@@ -124,7 +124,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    邊框間距支援 0 以上的寬度刻度。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Target也支援[其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em等。
 
 * **邊框**
 
@@ -138,11 +138,11 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    邊框支援 0 以上的寬度刻度。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Target也支援[其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em等。
 
 * **位置**
 
-   從所選元素的目前位置移動該元素。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   從所選元素的目前位置移動該元素。您可以變更元素的頂端、底部、左側、右側和[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)位置。
 
    按一下[!UICONTROL 靜態]下拉式清單，以從下列位置選項中選擇:
 
@@ -159,7 +159,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    位置支援正值和負值。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Target也支援[其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em等。
 
 * **大小**
 
@@ -316,7 +316,7 @@ HTML 選件的大小最多可以是 256KB。
 
 **注意:** 不能對行內元素調整大小。
 
-#### 移動 {#move}
+#### 移動  {#move}
 
 在頁面上移動元素。與[!UICONTROL 「重新排列」]選項不同，[!UICONTROL 「移動」]選項不會移動其他元素來為已移動的元素騰出空間。使用方向鍵來微調此移動。(計劃的增強功能: 支援以確定已移動的元素不會隱藏在其他元素之後。)
 
