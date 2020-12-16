@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Plan and implement Recommendations {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlan和實施Recommendations  {#plan-and-implement-recommendations}
 
 建立建議活動之前需要知道的事項。
 
@@ -81,7 +81,7 @@ ht-degree: 96%
 
 最近執行的資料集較優先。如果您先傳遞摘要，再更新頁面參數，則會顯示頁面參數中的變更，以取代摘要中傳遞的資訊。
 
-## 範例二: 在產品 (或內容) 詳細資料頁面上傳遞所有參數 {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
+## 範例二: 在產品 (或內容) 詳細資料頁面上傳遞所有參數  {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 如果您在頁面上傳遞所有參數，則可以更新頁面來快速完成更新。在某些組織裡，這需要 IT 或網頁設計團隊參與。
 
@@ -93,7 +93,7 @@ ht-degree: 96%
    * `entity.categoryId`
    * 所有其他屬性
 
-## 程式碼範例 {#section_6E8A73376F30468BB549F337C4C220B1}
+## 程式碼範例  {#section_6E8A73376F30468BB549F337C4C220B1}
 
 例如，您可以在產品或內容頁面的標題區段中使用下列程式碼:
 
@@ -204,7 +204,7 @@ function targetPageParams() {
 
 使用設定來管理您的 [!DNL Recommendations] 實作。
 
-To access the [!UICONTROL Recommendations Settings] options, open [!DNL Target] in the [!DNL Adobe Experience Cloud], then click **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
+若要存取「Recommendations設定」[!UICONTROL 選項，請開啟[!DNL Adobe Experience Cloud]中的[!DNL Target]，然後按一下「Recommendations ]**>**[!UICONTROL &#x200B;設定」]**。**
 
 ![](assets/recs_settings.png)
 
@@ -212,7 +212,7 @@ To access the [!UICONTROL Recommendations Settings] options, open [!DNL Target] 
 
 | 設定 | 說明 |
 |--- |--- |
-| 自訂全域 Mbox | (可選) 指定用來提供 [!DNL Target] 活動的自訂全域 mbox。By default, the global mbox used by [!DNL Target] is used for [!DNL Recommendations].<br>注意：此選項在「管理」頁 [!DNL Target] 面 [!UICONTROL 上設定] 。 開啟 [!DNL Target]，然後按一 [!UICONTROL 下「管理] >視 [!UICONTROL 覺體驗撰寫器」]。 |
+| 自訂全域 Mbox | (可選) 指定用來提供 [!DNL Target] 活動的自訂全域 mbox。依預設，[!DNL Target]使用的全域mbox會用於[!DNL Recommendations]。<br>注意：此選項在「管理」頁 [!DNL Target]  面上設定。開啟[!DNL Target]，然後按一下「管理」>「視覺體驗撰寫器」[!UICONTROL >「管理」。] |
 | 垂直產業 | 行業別用於協助將建議條件分類。這有助於團隊的成員尋找特定頁面適合的條件，例如最適合購物車頁面或媒體頁面的條件。 |
 | 篩選不相容的條件 | 啟用此選項只會顯示讓所選頁面傳遞必要資料的條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您要讓活動可以使用不相容的條件，請取消勾選此選項。<br>如果您使用標記管理解決方案，建議您停用此選項。<br>如需此選項的詳細資訊，請參閱 [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)。 |
 | 預設主機群組 | 選取預設主機群組。<br>主機群組可用來將目錄中可用項目區分為不同用途。例如，您可以將主機群組用於開發和生產環境、不同品牌或不同地理位置。依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。提供的建議取決於要求中指定的主機群組。<br>如果沒有看見您的產品，請確定您使用正確的主機群組。例如，假設您將建議設定為使用測試環境，並將主機群組設為「測試」，則可能需要在測試環境中重建集合，才會顯示產品。若要查看每個環境中可用的產品，請對每個環境使用「目錄搜尋」。您也可以針對所選的環境 (主機群組)，預覽 Recommendations 集合和排除項目的內容。<br>**注意:** 變更選定環境後，您必須按一下「搜尋」來更新傳回的結果。<br>[!UICONTROL 「環境」]篩選器可在 [!DNL Target] UI 中的以下位置使用:<ul><li>「目錄搜尋」(「建議 > 目錄搜尋」)</li><li>「建立集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 新建」])</li><li>「更新集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 編輯」])</li><li>「建立排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 新建」])</li><li>「更新排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 編輯」])</li></ul>如需詳細資訊，請參閱[主機](/help/administrating-target/hosts.md)。 |
