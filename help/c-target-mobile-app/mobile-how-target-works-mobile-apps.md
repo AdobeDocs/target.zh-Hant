@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Adobe Mobile SDK 會連絡 Target 伺服器來取得內容以及其他資料點，對使用者顯示正確的體驗。
 
-## 目標位置和成功量度 {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
+## 目標位置和成功量度  {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
 *目標位置*&#x200B;又稱為 mbox。應用程式中識別的位置可供測試或個人化 (例如，主畫面的歡迎訊息)。測試建立程序期間會識別這些位置。
 
