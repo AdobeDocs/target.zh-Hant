@@ -18,29 +18,29 @@ ht-degree: 63%
 
 有多個方式可進入[!UICONTROL 「建立新條件」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. 您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
-* 當您使用 [!DNL Recommendations][!UICONTROL Visual Experience Composer] (VEC)進行活動時，在頁面上的元素和 [!UICONTROL Click Web後，您會立即被帶到] Select Select Reperience Composer(Visual Experience Composer (VEC)螢幕)的Recommendations。 然後，您可以選取可用的標準，或按一下「建 **[!UICONTROL 立標準」]**。 如果您建立新標準，您可以選擇儲存標準以用於其他活 [!DNL Recommendations] 動。 For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
+* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面上，按一下「建立准則&#x200B;]**>**[!UICONTROL &#x200B;建立准則&#x200B;]**」。**[!UICONTROL &#x200B;您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
+* 當您使用[!UICONTROL Visual Experience Composer](VEC)建立[!DNL Recommendations]活動時，在您頁面上選取元素並按一下「取代w/ Recommendations]、[!UICONTROL Insert Recommendations Before]」後，會立即進入[!UICONTROL 「選擇准則」畫面或[!UICONTROL 在]之後插入建議。 然後，您可以選擇可用標準，也可以按一下&#x200B;**[!UICONTROL 建立標準]**。 如果您建立新標準，您可以選擇儲存標準，以便與其他[!DNL Recommendations]活動搭配使用。 如需詳細資訊，請參閱[建立建議活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在[!UICONTROL 選擇標準]螢幕上，按一下&#x200B;**[!UICONTROL 建立標準]**。 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
 
-以下步驟假定您使用第一 [!UICONTROL 種方法訪問「建立新標準] 」螢幕：「建 **[!UICONTROL 議]** > **[!UICONTROL 准則]** 」程式庫畫面。
+以下步驟假定您使用第一種方法訪問[!UICONTROL 建立新標準]螢幕：**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面。
 
-1. 按一 **[!UICONTROL 下「建議]** > **[!UICONTROL 准則]**」。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 准則]**」。
 
-1. 按一 **[!UICONTROL 下「建立條件]** >上 **[!UICONTROL 傳自訂條件」]**。
+1. 按一下「建立准則&#x200B;**** > **[!UICONTROL 上傳自訂准則]**」。
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. 填寫[基本資訊](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info)部分中的資訊。
 
-1. 填寫「資料來源」區 [段中的資訊](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 。
+1. 填寫[資料來源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)區段中的資訊。
 
-1. Fill in the information in the [Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) section.
+1. 填寫[Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)區段中的資訊。
 
-1. （條件性）填寫「內容相似性」區 [段中的資](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) 訊。
+1. （條件性）填寫[內容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)區段中的資訊。
 
-1. （條件性）填入「包含規則」區 [段中的資](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) 訊。
+1. （條件性）填寫[包含規則](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)區段中的資訊。
 
-1. （條件性）填入「屬性加權」區 [段中的資訊](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 。
+1. （條件性）填寫[屬性加權](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting)區段中的資訊。
 
-1. 在「上 **[!UICONTROL 傳CSV]** 」區段中，選 **[!UICONTROL 取CSV檔案的位置]** 。
+1. 在&#x200B;**[!UICONTROL 上傳CSV]**&#x200B;區段中，選擇CSV檔案的&#x200B;**[!UICONTROL 位置]**。
 
    ![上傳CSV區段](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
@@ -49,7 +49,7 @@ ht-degree: 63%
    您有兩個位置選項︰
 
    * **FTP:** 若要從 FTP 伺服器上傳 CSV 檔案，請選取 **[!UICONTROL FTP]**，然後輸入必要的資訊。您有選項可使用 SSL，其使用 FTPS 通訊協定來安全地傳輸您的 CSV 檔案。
-   * **URL:** 若要從URL上傳CSV檔案，請選取 **[!UICONTROL URL]**，然後輸入動態消息URL。
+   * **URL：若** 要從URL上傳CSV檔案，請選取 **[!UICONTROL URL]**，然後輸入動態消息URL。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -67,7 +67,7 @@ ht-degree: 63%
 
 沒有錯誤的上傳流程應該是「已排程」>「下載摘要檔案」>「正在匯入」>成功。
 
-The following are possible error messages you might receive if [!DNL Target] encounters a problem with the upload:
+如果[!DNL Target]遇到上傳問題，您可能會收到以下錯誤訊息：
 
 | 錯誤訊息 | 詳細資料 |
 |--- |--- |
@@ -78,7 +78,7 @@ The following are possible error messages you might receive if [!DNL Target] enc
 | 找不到目錄 | 提供伺服器上存在的目錄。 |
 | 找不到檔案 | 提供伺服器上存在於指出目錄中檔案的名稱。 |
 
-## 訓練影片: 在 Recommendations 中建立條件 (12:33) ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 在 Recommendations 中建立條件 (12:33)  ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包含下列資訊（有關上傳自訂准則的詳細資訊，從11:43開始）:
 
