@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # 使用來自舊版實作的全域 mbox{#use-a-global-mbox-from-a-legacy-implementation}
 
-By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. 不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 [!DNL Target] 活動。
+依預設，[!DNL Target]會建立名為target-global-mbox的全域mbox，用來執行在[!DNL Target]中建立的活動。 不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 [!DNL Target] 活動。
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 若想同時在 [!DNL Target] 和您的舊版實施中使用現有的全域 mbox，您必須設定幾個參數。
 
-1. Go to [!DNL Target], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. 前往[!DNL Target]，然後按一下「管理&#x200B;**[!UICONTROL >**[!UICONTROL &#x200B;實施&#x200B;]**」。]**
 
-   By default, **[!UICONTROL Page load enabled (Auto-create global mbox]** is enabled, and the custom global mbox is named `target-global-mbox`.
+   依預設，**[!UICONTROL 頁面載入已啟用(自動建立全域mbox]**&#x200B;已啟用，而自訂全域mbox的名稱為`target-global-mbox`。
 
-1. If you want to use an existing mbox, disable **[!UICONTROL Page load enabled (Auto-create global mbox]**, and specify the name of a previously created global mbox in the **[!UICONTROL Global Mbox]** field.
+1. 如果您想要使用現有的mbox，請停用啟用&#x200B;**[!UICONTROL 頁面載入（自動建立全域mbox]**），並在&#x200B;**[!UICONTROL 全域Mbox]**&#x200B;欄位中指定先前建立之全域mbox的名稱。
 
-   The [!UICONTROL Global Mbox] drop-down lists all mboxes in your account. 如果您想要使用尚不存在的mbox，請建立mbox。
+   [!UICONTROL 全域Mbox]下拉式清單會列出您帳戶中的所有mbox。 如果您想要使用尚不存在的mbox，請建立mbox。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -44,4 +44,4 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 ### 全域 mbox 為什麼不會載入，或為什麼頁面載入時載入全域 mbox 發生延遲?
 
-請確定at.js參考是頁面上的第一個JavaScript呼叫。 如需此問題的其他解決方案，請參 [閱全域mbox常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)。
+請確定at.js參考是頁面上的第一個JavaScript呼叫。 如需此問題的其他解決方案，請參閱[全域mbox常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)。
