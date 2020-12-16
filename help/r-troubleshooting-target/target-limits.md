@@ -62,7 +62,7 @@ ht-degree: 76%
 
 * **使用HTTP方法的每個上載檔案大小上限**:100 MB。
 * **使用FTP方法每次上載的檔案大小上限**:4 GB。
-* **允許訂閱的屬性數**:5: [!DNL Target Standard] 200: [!DNL Target Premium]。
+* **允許訂閱的屬性數**:5個 [!DNL Target Standard] 買，200個 [!DNL Target Premium]。
 
 ## 實體
 
@@ -204,7 +204,7 @@ ht-degree: 76%
 
 **建議的每個帳戶描述檔指令碼總數限制**:零點二萬
 
-**限制描述檔指令碼複雜度的建議**:描述檔指令碼可執行有限數量的指令。 如需詳細資訊，請參 [閱描述檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#best) 中的 *最佳實務*。
+**限制描述檔指令碼複雜度的建議**:描述檔指令碼可執行有限數量的指令。如需詳細資訊，請參閱&#x200B;*描述檔屬性*&#x200B;中的[最佳實務](/help/c-target/c-visitor-profile/profile-parameters.md#best)。
 
 ## 屬性
 
