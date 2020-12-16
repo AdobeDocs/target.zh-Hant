@@ -22,7 +22,7 @@ ht-degree: 84%
 >
 >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 都相符。
 
-By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). 您可以在活動建立期間指定不同的頁面。
+依預設，[!UICONTROL Visual Experience Composer](VEC)會開啟在[Visual Experience Composer設定](/help/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您可以在活動建立期間指定不同的頁面。
 
 若要在 VEC 開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 頁面傳送]**，再指定 URL。
 
