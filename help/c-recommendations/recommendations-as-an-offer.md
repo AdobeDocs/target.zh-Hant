@@ -121,6 +121,6 @@ Recommendations 選件的 (演算法) 狀態會顯示在包含 Recommendations �
 
 ![Recommendations 選件狀態](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 訓練影片：建議作為選件概 ![述徽章](/help/assets/overview.png)
+## 訓練影片：建議作為選件![概述標章](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
