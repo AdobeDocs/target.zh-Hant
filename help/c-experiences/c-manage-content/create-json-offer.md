@@ -128,7 +128,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 依 JSON 選件類型來篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## 依 JSON 選件類型來篩選選件  {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 您可以按一下&#x200B;**[!UICONTROL 「類型」]**&#x200B;下拉式清單，然後選取 **[!UICONTROL JSON]** 核取方塊，依 JSON 選件類型來篩選「選件資料庫」。
 
