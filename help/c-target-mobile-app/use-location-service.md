@@ -18,6 +18,6 @@ ht-degree: 0%
 
 Adobe Experience Platform Location Service(Location Service)是地理位置服務，可讓具備位置感知的行動應用程式使用豐富且簡單易用的SDK介面，加上有彈性的興趣點資料庫(POI)，來瞭解位置環境。
 
-您可以搭配使用Location Service與Target，以運用 [](https://experienceleague.adobe.com/docs/launch/using/overview.html) Adobe Experience Platform Launch中的規則，將您的Places資料附加至您的Adobe Target SDK事件。
+您可以搭配使用Location Service with Target，運用[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)中的規則，將您的Places資料附加至Adobe Target SDK事件。
 
-如需詳細資訊，請 [參閱](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) Adobe Experience Platform Location Service指南中的「搭配Adobe Target使用位置服務」 [](https://experienceleague.adobe.com/docs/places/using/home.html)。
+如需詳細資訊，請參閱[Adobe體驗平台位置服務指南](https://experienceleague.adobe.com/docs/places/using/home.html)中的[搭配Adobe Target使用位置服務](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html)。
