@@ -12,15 +12,15 @@ ht-degree: 68%
 ---
 
 
-# Mobile Viewports for responsive experiences{#mobile-viewports-for-responsive-experiences}
+# 回應式體驗的行動檢視器{#mobile-viewports-for-responsive-experiences}
 
-Mobile viewports help you preview how your [!DNL Target] activities appear on screens of various sizes.
+行動檢視器可協助您預覽[!DNL Target]活動在各種大小螢幕上的顯示方式。
 
 行動視訊埠預覽功能是專為可在各種裝置、視窗或螢幕大小上呈現良好效果的互動式網站所設計。 互動式網站會自動調整並調整以適應任何螢幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
 
 >[!NOTE]
 >
-> * 如果網站具回應力，而桌面頁面中的相同元素也透過不同的組態用於行動頁面中，請使用行動檢視區。If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * 如果網站具回應力，而桌面頁面中的相同元素也透過不同的組態用於行動頁面中，請使用行動檢視區。如果您有個別的行動網站具有個別的結構，例如`m.mysite.com`，請改用[多頁活動](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
    >
    >
 * 行動檢視區被重新導向選件覆蓋所重疊時會無法使用。
@@ -28,7 +28,7 @@ Mobile viewports help you preview how your [!DNL Target] activities appear on sc
 
 檢視區是以螢幕上的網頁所填入的矩形大小來定義。即瀏覽器視窗減去捲軸和工具列之後的大小。瀏覽器使用「CSS 像素」。對於許多裝置，例如有視網膜螢幕的裝置，檢視區小於公布的裝置解析度。
 
-以下為某些熱門裝置的檢視區和解析度。Remember to use the viewport size in [!DNL Target]. 有許多網站都有列出熱門裝置的檢視區大小。例如，請參 [閱https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ，或參閱裝置製造商的網站。
+以下為某些熱門裝置的檢視區和解析度。請記得在[!DNL Target]中使用視區大小。 有許多網站都有列出熱門裝置的檢視區大小。例如，請參閱[https://viewportsizer.com/devices/](https://viewportsizer.com/devices/)或參閱裝置製造商的網站。
 
 | 裝置 | 檢視區大小 | 裝置解析度 |
 |---|---|---|
@@ -76,9 +76,9 @@ Mobile viewports help you preview how your [!DNL Target] activities appear on sc
 
 如果您要將活動傳送給使用特定裝置的人，請在活動圖表中選擇適合該裝置的對象。使用「行動裝置 Web 撰寫器」，針對該裝置來編輯活動中的頁面。如果您想要在整個數位體驗中執行活動，並確保在所有裝置上都完美呈現，請勿套用鎖定目標，應該使用行動檢視區以每一種螢幕大小來預覽活動。
 
-如果您有回應式網站，則網站通常設計成由特定螢幕大小的裝置所存取時，就在不同檢視中開啟。觸發新檢視的螢幕大小稱為 CSS 中斷點。CSS中斷點是網站內容根據裝置寬度而回應的點，可顯示最佳的訪客版面。 CSS中斷點也稱為媒 [體查詢](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
+如果您有回應式網站，則網站通常設計成由特定螢幕大小的裝置所存取時，就在不同檢視中開啟。觸發新檢視的螢幕大小稱為 CSS 中斷點。CSS中斷點是網站內容根據裝置寬度而回應的點，可顯示最佳的訪客版面。 CSS中斷點也稱為[媒體查詢](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
 
-Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences is displayed in a mobile viewport in the [!DNL Target] interface. 若要開啟每一個螢幕大小的檢視，請在畫面頂端按一下該檢視區。
+將CSS中斷點儲存在[!DNL Target]中，以便預覽您所定義的每個檢視的體驗。 這些體驗都會顯示在[!DNL Target]介面的行動檢視區中。 若要開啟每一個螢幕大小的檢視，請在畫面頂端按一下該檢視區。
 
 如果網站不具回應力，只要活動已鎖定特定裝置為目標，您仍可使用「行動裝置 Web 撰寫器」來檢視網站。
 
@@ -86,16 +86,16 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
 >
 >雖然您可以在行動檢視區內編輯體驗，但這些變更會套用至所有檢視區和裝置，而不只是您正在使用的檢視區。 同樣地，在標準桌面檢視中編輯體驗時，將會變更所有螢幕大小的頁面，而不只是桌面檢視。目前，不支援針對個別檢視區來變更頁面。
 
-## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
+## 行動視區設定{#task_B4B161499DC0470584ED922A4D20FCAB}
 
 建立您的體驗時，請設定您要提供使用的任何行動檢視區。
 
-1. 按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 視覺體驗撰寫器]**」。
-1. 若要新增行動檢視區，請在「行動檢視區 **[!UICONTROL 設定」區段中]** ，按一 **[!UICONTROL 下「新增」]**。
+1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗撰寫器]**」。
+1. 要添加新的移動視區，請在&#x200B;**[!UICONTROL 移動視區配置]**&#x200B;部分中按一下&#x200B;**[!UICONTROL 添加]**。
 
    ![添加視區](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
-   To change the configuration of an existing mobile viewport, select that viewport, then click the [!UICONTROL Edit] (pencil) icon.
+   若要變更現有行動檢視區的設定，請選取該檢視區，然後按一下「編輯」([!UICONTROL )圖示（鉛筆）。]
 
 1. 輸入行動檢視區的名稱。
 
@@ -115,7 +115,7 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
    * Symbian
    * Blackberry
 
-   如果您使用[增強體驗撰寫器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)並選擇作業系統， 會在您檢視頁面時模擬該裝置。[!DNL Target]If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   如果您使用[增強體驗撰寫器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)並選擇作業系統， 會在您檢視頁面時模擬該裝置。[!DNL Target]例如，若您的回應式網站上的Android與iOS的外觀和感覺不同，[!DNL Target]會模擬該行為。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -123,11 +123,11 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
 >
 >如果您嘗試刪除正在使用的行動檢視區，會顯示下列訊息：「此視區目前與一或多個活動相關聯。 您必須先從這些活動中移除視區，才能刪除它。」
 
-## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## 建立互動式體驗{#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
+將行動檢視區加入您的[!DNL Target]活動，以建立行動螢幕的互動式體驗。
 
-1. 建立所 [需活動](/help/c-activities/activities.md)。
+1. 建立所需的[活動](/help/c-activities/activities.md)。
 1. 在可視化體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 「新增行動檢視區」]**。
 
    ![新增行動檢視區選項](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
@@ -150,12 +150,12 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    ![方向選項](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## 使用案例：定位兩個iPhone版本{#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
 此使用案例說明如何為兩個iPhone版本設定體驗：iPhone 6和iPhone 6 Plus。
 
-1. 按一 **[!UICONTROL 下「管理]** > **[!UICONTROL 視覺體驗撰寫器]**」。
-1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
+1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗撰寫器]**」。
+1. 在&#x200B;**[!UICONTROL 行動視區設定]**&#x200B;區段中，建立iPhone 6和iPhone 6 plus的行動視區。
 
    為每個檢視區使用下列設定:
 
@@ -180,7 +180,7 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 可視化體驗撰寫器 (2/2) (上午 07:29) ![概述徽章](/help/assets/overview.png)
+### 可視化體驗撰寫器 (2/2) (上午 07:29)  ![概述徽章](/help/assets/overview.png)
 
 下列示範影片包含透過可視化體驗撰寫器來使用行動檢視區的相關資訊:
 
@@ -193,7 +193,7 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target的帳戶偏好設定 ![概述徽章](/help/assets/overview.png)
+### Adobe Target中的帳戶偏好設定![概述徽章](/help/assets/overview.png)
 
 此視訊包含設定行動視訊的相關資訊，從視訊的4:40開始。
 
