@@ -44,14 +44,14 @@ ht-degree: 100%
    確定流量估算程式對您的測試組態指示綠燈，使得您可以取得所需的結果。
 * 建議您每個元素的替代項目之間必須有大幅差異。
 
-## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
+## 分析  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * 經常使用[位置貢獻報表](/help/c-reports/location-contribution-report.md)來監控每個位置和每個選件的效能。
 * 在[體驗效能報表](/help/c-reports/experience-performance-report.md)中，使用「最佳前五名」或「最差前五名」篩選所顯示的資料來進行決策。
 
    [!UICONTROL 全部]篩選器會使得您難以擷取需要的資訊，並且不是所有體驗都可以顯示在圖表中。如果想要查看不在最佳或最差前五名之內的特定體驗，請使用[!UICONTROL 全部]篩選。
 
-## 後續事項 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## 後續事項  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * 雖然 [!DNL Target] 可讓您編輯已上線的活動，請注意，編輯進行中的活動可能會將測試重設。因此，報表可能無法識別某些變更。只有在選件資料庫中變更 HTML 選件是安全的。
 
