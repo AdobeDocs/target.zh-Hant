@@ -36,7 +36,7 @@ Adobe 會分階段將客戶轉移至 TLS 1.2。對於那些已經符合 1.2 規�
 
 雖然我們強烈建議大家繼續使用 TLS 1.2，不過如果您是新客戶但&#x200B;*不*&#x200B;支援 TLS 1.2，請聯絡客戶服務，告知他們您需要針對增強體驗撰寫器使用 TLS 1.1。但是，請計畫改用TLS 1.2，因為您在2020年3月1日之後也不受支援。
 
-## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
+## 活動傳送{#section_46CA5943E4354B259014C2BF340AECD6}
 
 自2020年3月1日起，Target伺服器將不再支援TLS 1.1。透過這項變更，Target伺服器將不再接受使用舊版裝置或不支援TLS 1.2（或更新版本）之Web瀏覽器的訪客的要求。 因此，僅支援 TLS 1.1 (或預設支援 TLS 1.1) 的舊裝置和瀏覽器將不會從 Adobe Target 接收活動內容。將呈現該網站的預設內容。
 
@@ -56,7 +56,7 @@ Adobe 會分階段將客戶轉移至 TLS 1.2。對於那些已經符合 1.2 規�
 * 請注意，Target 報表中的訪客數量可能顯著下降。
 * 您可能需要變更專門針對不支援TLS 1.2之舊版裝置或瀏覽器所建立的觀眾。傳送至這些裝置和瀏覽器將不再有效。
 
-For more details about supported browsers and their versions, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+如需支援瀏覽器及其版本的詳細資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)。
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -66,11 +66,11 @@ For more details about supported browsers and their versions, see [Supported Bro
 * 使用 Java 8 的 API 用戶端已預設為 TLS 1.2，應該不會受到影響。
 * 使用其他架構的 API 用戶端需聯絡其供應商，以瞭解 TLS 1.2 支援的詳細資訊。
 
-## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
+## 存取Experience Cloud解決方案介面{#section_748870ADE77B4CBEB18518DC784E64E5}
 
 由於 Target Standard/Premium 介面要求使用[最新的網頁瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)，我們並未預見任何問題。如果您無法連接到 Target，則應該將瀏覽器升級到最新版本。
 
-## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
+## 如何檢查瀏覽器使用的TLS版本{#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
 若要使用Google Chrome檢查您網站上的TLS版本：
 
@@ -87,7 +87,7 @@ For more details about supported browsers and their versions, see [Supported Bro
 >
 >這些指示目前已發佈，可能會有所變更。 如果這些指示改變，快速網際網路搜尋應該會有所幫助。  其他瀏覽器也有類似的步驟。
 
-## 支援1.2以下TLS版本的瀏覽器預期行為 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## 支援1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F}以下TLS版本的瀏覽器預期行為
 
 本節說明僅在使用at.js或mbox.js實施時，支援1.2以下TLS版本的瀏覽器會有何期待。 為了進行比較，本節也說明支援TLS 1.2的瀏覽器有何期待。
 
