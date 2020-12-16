@@ -31,9 +31,9 @@ ht-degree: 79%
 1. 為活動命名。
 1. 選取位置。
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. 選取這些位置中的一個。若要選擇透過 target.js 提供的全域位置，請選擇「target-global-mbox」。
+   按一下[!UICONTROL 選擇位置]框後，將顯示可用位置清單。 選取這些位置中的一個。若要選擇透過 target.js 提供的全域位置，請選擇「target-global-mbox」。
 
-   您也可以輸入此處未列出的位置。如果您尚未在頁面上建立或檢視 mbox，則此項目相當實用。輸入位置的名稱。輸入尚未存在的位置時請注意。如果拼字或大寫不符合進行 mbox 呼叫時使用的拼字或大寫，將不會傳送活動。手動輸入的位置將保存到可用位置清單中。 下次嘗試選擇手動輸入的位置時，該位置將可從「選擇位置 [!UICONTROL 」(Select Location] )下拉清單中為該活動提供。
+   您也可以輸入此處未列出的位置。如果您尚未在頁面上建立或檢視 mbox，則此項目相當實用。輸入位置的名稱。輸入尚未存在的位置時請注意。如果拼字或大寫不符合進行 mbox 呼叫時使用的拼字或大寫，將不會傳送活動。手動輸入的位置將保存到可用位置清單中。 下次嘗試選擇手動輸入的位置時，該位置將可從該活動的[!UICONTROL 選擇位置]下拉清單中使用。
 
    >[!NOTE]
    >
@@ -94,14 +94,14 @@ ht-degree: 79%
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. （可選，對於AB活動、自動個人化和體驗定位）若要針對其他位置重複此程式，請按一下「新增位置」並設定位置和內容。]****[!UICONTROL 
+1. 按一下「下一步」(**[!UICONTROL Next)]**，然後按照您的活動類型正常完成活動建立步驟。
 
 * [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [建立體驗鎖定目標活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [建立 Recommendations 活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 訓練影片: 表單式撰寫器 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 表單式撰寫器  ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片提供表單式撰寫器的示範。
 
