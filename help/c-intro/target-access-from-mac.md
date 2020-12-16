@@ -18,11 +18,11 @@ ht-degree: 76%
 
 ## 登入 Adobe Target 並設定您的預設檢視。
 
-1. 登入 [Adobe Experience Cloud](https://experience.adobe.com/)。
+1. 登入[Adobe Experience Cloud](https://experience.adobe.com/)。
 
-1. 按一下導 **[!UICONTROL 覽列中的]** 「應用程式」圖示，然後按一下「 **[!UICONTROL 目標」]**。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL App圖示]**，然後按一下&#x200B;**[!UICONTROL Target]**。
 
-   您也可以按一下 [!DNL Target] 主視窗中的面板，以存取 [!DNL Target] (或您可存 [!DNL Adobe Experience Cloud] 取的任何其他解決方案)。
+   您也可以按一下主視窗中的[!DNL Target]面板，以存取[!DNL Target]（或您可存取的任何其他[!DNL Adobe Experience Cloud]解決方案）。
 
    ![應用程式圖示](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ ht-degree: 76%
 
 ## 變更 Target UI 的預設語言 {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
+1. 登入[!DNL Adobe Experience Cloud ]或[!DNL Target]後，按一下您的描述檔頭像，然後按一下「編輯偏好設定&#x200B;]**」。**[!UICONTROL 
 
    ![編輯個人檔案](/help/c-intro/assets/change-language.png)
 
-1. 按一 **[!UICONTROL 下「Adobe帳戶]** 」以存取您的個人 [!DNL Adobe] 檔案。
+1. 按一下&#x200B;**[!UICONTROL Adobe Account]**&#x200B;以存取您的[!DNL Adobe]個人檔案。
 
    ![Adobe帳戶](/help/c-intro/assets/adobe-account.png)
 
-1. 按一下 **[!UICONTROL 頂端功能表列的]** 「通知」標籤，然後按一下左側的「 **[!UICONTROL Preferences]** 」標籤。
+1. 按一下頂部菜單欄中的&#x200B;**[!UICONTROL 通知]**&#x200B;頁籤，然後按一下左側的&#x200B;**[!UICONTROL 首選項]**&#x200B;頁籤。
 
    ![偏好語言](/help/c-intro/assets/prefered-language.png)
 
@@ -48,7 +48,7 @@ ht-degree: 76%
 
 1. 選取您的第一 (主要) 語言，然後視需要選取第二語言。
 
-   UI [!DNL Target] 提供下列語言版本；雖然如此，通知仍提供更多語言版本：
+   [!DNL Target] UI提供下列語言版本；雖然如此，通知仍提供更多語言版本：
 
    * 英文
    * 西班牙文
