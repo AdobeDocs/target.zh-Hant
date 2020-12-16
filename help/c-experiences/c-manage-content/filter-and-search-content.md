@@ -21,7 +21,7 @@ ht-degree: 100%
 * [依關鍵字搜尋資產](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [儲存智慧型集合](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## 依關鍵字搜尋資產 {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## 依關鍵字搜尋資產  {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. 按一下「**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產庫」]。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 1. 在搜尋方塊中，輸入您想尋找的資產的關鍵字，然後按 Enter 鍵。
 
-## 儲存智慧型集合 {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## 儲存智慧型集合  {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 您可以建立已儲存的搜尋，稱為智慧型集合，在執行類似搜尋時即可節省時間。已儲存的搜尋會建立智慧型集合，這會隨著搜尋結果而自動更新。
 
