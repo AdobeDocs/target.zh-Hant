@@ -30,8 +30,8 @@ ht-degree: 94%
 
    如需下載適當 SDK 的說明，請參閱:
 
-   * **iOS:**[在您開始使用](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) 「 *Mobile Services iOS說明」之前*。
-   * **Android:**[在您開始使用](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) 「 *Mobile Services Android說明」之前*。
+   * **iOS：啟** [動Mobile Services ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iOS *說明前*。
+   * **Android：啟** [動Mobile ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)  *Services Android說明之前*。
 
 1. **設定 URL 配置:** 預覽連結使用 URL 配置來開啟您的應用程式。您必須針對預覽指定唯一的 URL 配置。
 
