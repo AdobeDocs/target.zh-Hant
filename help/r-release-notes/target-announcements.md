@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其在此領域的產品Adobe Target Premium。 Adobe在目前的產品和市場狀況類別，以及建議和平台體驗標準中，獲得所有參與廠商的最高分。 在體驗最佳化技術創新及支援服務標準方面，Target Premium也獲得最高分。 此報告以對10家體驗最佳化平台提供者進行全面評估為基礎，涵蓋22個標準。
 
-在 [Adobe Blog上閱讀相關資訊](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。
+在[Adobe部落格](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)上閱讀相關資訊。
 
 ## Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者
 
@@ -50,7 +50,7 @@ Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其
 * AI &amp; Analytics如何加速其工作，並提供清楚、重大的業務影響
 * 匯豐如何建立成功的大規模計畫，提供超過3000項活動
 
-*麥肯錫文章：「[COVID-19的恢復將是數字的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),」 2020年5月
+*麥肯錫文章：&quot;[COVID-19恢復將是digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; 2020年5月
 
 ## Adobe Target Skill Builder:開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
