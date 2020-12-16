@@ -23,7 +23,7 @@ ht-degree: 91%
 
    項目隨即上傳至資料庫。
 
-## 訓練影片: 內容存放庫 ![概述徽章](/help/assets/overview.png)
+## 訓練影片: 內容存放庫  ![概述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。
 
