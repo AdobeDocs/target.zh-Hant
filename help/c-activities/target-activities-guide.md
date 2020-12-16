@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](/help/assets/activities_guide_82817.pdf).
+>為獲得最佳體驗並與他人分享，請下載互動式[Adobe Target活動指南PDF](/help/assets/activities_guide_82817.pdf)。
 
 ## 它有什麼作用? {#section_4ECAACC68723402EB3649033190E1BBC}
 
