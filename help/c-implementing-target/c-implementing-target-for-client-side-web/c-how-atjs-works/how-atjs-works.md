@@ -14,7 +14,7 @@ ht-degree: 88%
 
 # at.js 如何運作{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
+若要實作[!DNL Adobe Target]用戶端，您必須使用at.js JavaScript程式庫。
 
 在 [!DNL Adobe Target] 的用戶端實作中，[!DNL Target] 會將與活動相關聯的體驗直接提供給用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。在用戶端實作中，您可以使用 WYSIWYG 編輯器、[可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 或非視覺化介面[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)，建立您的測試和個人化體驗。
 
@@ -24,7 +24,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 如需詳細資訊，請參閱 [Target JavaScript 資料庫](/help/c-intro/how-target-works.md#libraries)。
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 此外，還實作了下列 Experience Cloud 核心服務: Adobe Launch、「對象」和「訪客 ID 服務」。
+在下面所示的[!DNL Target]實施中，實施了以下[!DNL Adobe Experience Cloud]解決方案：Analytics、Target和Audience Manager。 此外，還實作了下列 Experience Cloud 核心服務: Adobe Launch、「對象」和「訪客 ID 服務」。
 
 ## at.js 1的差異為何。*x* 和 at.js 2.x 工作流程圖表之間有何差異?
 
@@ -58,7 +58,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 | 步驟 | 詳細資料 |
 | --- | --- |
-| 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
+| 3 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
 | 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
 | 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
@@ -71,7 +71,7 @@ at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Clou
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+如需詳細資訊，請參閱[瞭解at.js 2.x的運作方式](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)。
 
 ## at.js 1.x 圖表
 
@@ -79,8 +79,8 @@ See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/
 
 | 步驟 | 說明 | 呼叫 | 說明 |
 |--- |--- |--- |--- |
-| 1 | 如果使用者已驗證，呼叫會傳回 [!DNL Experience Cloud ID] (MCID)；另一個呼叫會同步客戶 ID。 | 2 | at.js 程式庫會同步載入並隱藏文件本文。 |
-| 3 | 提出全域 mbox 請求，含所有已設定的參、MCID、SDID 和客戶 ID (可選)。 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從[!UICONTROL 對象資料庫]中要求合格對象 (例如從 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共用的對象)。<br>客戶屬性會透過批次程序傳送至 [!DNL Profile Store]。 |
+| 3 | 如果使用者已驗證，呼叫會傳回 [!DNL Experience Cloud ID] (MCID)；另一個呼叫會同步客戶 ID。 | 2 | at.js 程式庫會同步載入並隱藏文件本文。 |
+| 1 | 提出全域 mbox 請求，含所有已設定的參、MCID、SDID 和客戶 ID (可選)。 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從[!UICONTROL 對象資料庫]中要求合格對象 (例如從 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共用的對象)。<br>客戶屬性會透過批次程序傳送至 [!DNL Profile Store]。 |
 | 5 | [!DNL Target] 根據 URL、mbox 參數和設定檔資料，決定要傳回給訪客的活動和體驗。 | 6 | 已鎖定的目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>體驗會儘快出現，不會有忽隱忽現的預設內容。 |
 | 7 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 | 8 | [!DNL Target] 資料會透過 SDID 來比對 [!DNL Analytics] 資料，然後經過處理放入 [!DNL Analytics] 報表儲存體中。然後就可以在 <br>[!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] (A4T) 報表來檢視 [!DNL Analytics for Target] 資料。 |
 
