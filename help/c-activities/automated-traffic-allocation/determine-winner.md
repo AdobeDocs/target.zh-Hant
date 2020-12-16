@@ -12,7 +12,7 @@ ht-degree: 48%
 ---
 
 
-# 解譯自動分配報表 {#determine-a-winner}
+# 解譯自動分配報告{#determine-a-winner}
 
 在Target UI中檢查重要指標，包括提升度和信賴度，以解譯自動分配A/B活動的結果。
 
@@ -20,9 +20,9 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->如需宣告成功者的一般資訊，請參 [閱十種常見的A/B測試陷阱以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)。
+>如需宣告成功者的一般資訊，請參閱[10個常見A/B測試陷阱以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)。
 
-## 識別成功體驗 {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## 識別成功體驗{#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 使用[!UICONTROL 自動分配]功能時，在活動達到最低轉換次數且有足夠信賴度之前，[!DNL Target] 會在活動頁面頂端顯示徽章，指出「尚未有贏家」。
 
@@ -36,7 +36,7 @@ ht-degree: 48%
 >
 >「自動分配」活動旨在所有選項之中找出最佳體驗，而不只與控制項進行成對比較而已。
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## 自動分配{#section_7AF3B93E90BA4B80BC9FC4783B6A389C}的統計保證
 
 A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有效誤判率。這表示在活動的所有體驗之中，只有 5% 的時間，決定的獲勝者實際上不是最佳體驗。如果是 A/A 測試 (使用相同的體驗)，我們發現測試有小於 5% 的時間。A/A 測試 (使用相同的體驗) 的預期行為是無限期執行，所以獲勝者徽章永遠不會出現。
 
@@ -48,9 +48,9 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
 >[!IMPORTANT]
 >
->Target會在預先定義的最小轉換數後顯示成功者；不過，挑選成功者的最終決定應一律以Adobe Target範例大小計算器 [的結果為準](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 Target不會考慮網站的基本轉換率，以及輸入計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最少轉換次數，提前顯示成功者。 如需詳細資訊，請參 [閱範例大小計算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+>Target會在預先定義的最小轉換數後顯示成功者；不過，挑選成功者的最終決定應一律以Adobe Target [範例大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)的結果為準。 Target不會考慮網站的基本轉換率，以及輸入計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最少轉換次數，提前顯示成功者。 如需詳細資訊，請參閱[範例大小計算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
-## 瞭解自動分配活動中的提升度和可信度報告 {#lift-confidence}
+## 瞭解自動分配活動中的提升度和可信度報告{#lift-confidence}
 
 在「自動分配」活動中，第一個體驗（依預設命名為「體驗A」）一律會定義為「報表」標籤上的「控制」體驗。 在用來判斷體驗效能的模型中，此體驗並未被視為真正的統計控制項，但會視為報表中某些圖形的參考或基準。
 
@@ -74,6 +74,6 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
    自動分配顯示在活動的所有體驗之中，所給定體驗是真正獲勝者的機率。這表示只有勝出體驗 (很可能就是獲勝者) 才有非零的信賴值。其他很可能全部都是失敗者，將會顯示 0%。
 
-* 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些信賴等級通常會出現在正常A/B測試完成的約一半時間內（雖然這並不保證）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
+* 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些信賴等級通常會出現在正常A/B測試完成的約一半時間內（雖然這並不保證）。 要確定正常A/B測試運行的時間，請使用[示例大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html) :外掛控制項的轉換率（在「基線轉換率」中）、「提升度」中為「5%」，而「信賴度」中為95%。 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
 * 如果報表完全顯示 0%，可能表示太早進入活動。
 
