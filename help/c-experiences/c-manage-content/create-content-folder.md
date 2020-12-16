@@ -37,7 +37,7 @@ ht-degree: 100%
 
 檢視資料夾資訊。
 
-### 編輯 ![](assets/icon_edit.png)
+### 編輯  ![](assets/icon_edit.png)
 
 編輯資料夾。
 
