@@ -37,7 +37,7 @@ mbox3rdPartyId 為公司的訪客 ID，例如公司忠誠計劃的會員 ID。
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 當 [!DNL Adobe Experience Cloud][!DNL Target] ID(EDID)變更（例如訪客變更裝置）時，即使描述檔可能會根據mbox3rdPartyId合併，但仍有活動資訊，也不會追蹤目標。 For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] 當 [!DNL Adobe Experience Cloud] ID(EDID)變更（例如訪客變更裝置）時，即使描述檔可能會根據mbox3rdPartyId進行合併，但 [!DNL Target] 仍有活動資訊，也不會追蹤目標。對於使用相同EDID（使用相同裝置存取頁面的訪客）識別的訪客，[!DNL Analytics for Target](A4T)應如預期般運作。
 
 ## 考量事項 {#considerations}
 
