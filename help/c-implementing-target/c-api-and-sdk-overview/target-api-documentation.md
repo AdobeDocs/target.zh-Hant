@@ -27,7 +27,7 @@ ht-degree: 93%
 | 舊版 API | 連結至 Target Classic 帳戶的 API。這些 API 呼叫是根據使用者名稱和密碼式驗證，並使用主機名稱 `testandtarget.omniture.com`。如果您的 API 呼叫在要求 URL 中包含使用者名稱和密碼，您必須轉變為 Adobe I/O API。 |
 | Adobe I/O | : Adobe I/O 是 Target API 的新入口。這些 API 會連接至您的 Target Standard/Premium 帳戶。Adobe I/O 上的 Target API 採用 JWT 型驗證，這是安全企業 API 方面的業界標準。 |
 
-## 時間表 {#section_A478EBF637554A2DB5A31661955121ED}
+## 時間表  {#section_A478EBF637554A2DB5A31661955121ED}
 
 我們停止支援 Target Classic 時，也就停止支援舊版 API。
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 此時間表不影響建議傳統版 API。
 
-## 對等方法 {#section_DDB42CCC172545B09CB728D794CC466B}
+## 對等方法  {#section_DDB42CCC172545B09CB728D794CC466B}
 
 下表列出與舊版 API 方法對等的新版 Target API 方法。相較於舊版 API 所提供的 XML 回應，新版 API 會傳回 JSON。
 
@@ -66,6 +66,6 @@ ht-degree: 93%
 
 如果需要例外狀況，請聯絡您的「客戶成功經理」。
 
-## 說明 {#section_591F850E2B7A4342B1C233693425415C}
+## 說明  {#section_591F850E2B7A4342B1C233693425415C}
 
 如果您有任何疑問，或需要協助您移轉至 Adobe I/O 上的新版 Target API，請聯絡 Adobe Target 客戶服務 (tt-support@adobe.com)。
