@@ -14,7 +14,7 @@ ht-degree: 66%
 
 # ![PREMIUM](/help/assets/premium.png) 建立條件{#create-criteria}
 
-[!UICONTROL Adobe Target] [!UICONTROL Recommendations中的條件] 可控制 [!UICONTROL Recommendations活動的] 內容。 建立條件以顯示最適合您的活動的建議。這些條件會使用訪客的動作來決定要顯示哪些內容或產品。
+[!UICONTROL Adobe Target][!UICONTROL Recommendations]中的准則控制您[!UICONTROL Recommendations]活動的內容。 建立條件以顯示最適合您的活動的建議。這些條件會使用訪客的動作來決定要顯示哪些內容或產品。
 
 以下各節說明如何建立新標準。
 
@@ -22,15 +22,15 @@ ht-degree: 66%
 
 有多個方式可進入[!UICONTROL 「建立新條件」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. 您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
-* 當您使用 [!DNL Recommendations][!UICONTROL Visual Experience Composer] (VEC)進行活動時，在頁面上的元素和 [!UICONTROL Click Web後，您會立即被帶到] Select Select Reperience Composer(Visual Experience Composer (VEC)螢幕)的Recommendations。 然後，您可以選取可用的標準，或按一下「建 **[!UICONTROL 立標準」]**。 如果您建立新標準，您可以選擇儲存標準以用於其他活 [!DNL Recommendations] 動。 For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
+* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面上，按一下「建立准則&#x200B;]**>**[!UICONTROL &#x200B;建立准則&#x200B;]**」。**[!UICONTROL &#x200B;您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
+* 當您使用[!UICONTROL Visual Experience Composer](VEC)建立[!DNL Recommendations]活動時，在您頁面上選取元素並按一下「取代w/ Recommendations]、[!UICONTROL Insert Recommendations Before]」後，會立即進入[!UICONTROL 「選擇准則」畫面或[!UICONTROL 在]之後插入建議。 然後，您可以選擇可用標準，也可以按一下&#x200B;**[!UICONTROL 建立標準]**。 如果您建立新標準，您可以選擇儲存標準，以便與其他[!DNL Recommendations]活動搭配使用。 如需詳細資訊，請參閱[建立建議活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在[!UICONTROL 選擇標準]螢幕上，按一下&#x200B;**[!UICONTROL 建立標準]**。 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
 
-以下步驟假定您使用第一 [!UICONTROL 種方法訪問「建立新標準] 」螢幕：「建 **[!UICONTROL 議]** > **[!UICONTROL 准則]** 」程式庫畫面。
+以下步驟假定您使用第一種方法訪問[!UICONTROL 建立新標準]螢幕：**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面。
 
-1. 按一 **[!UICONTROL 下「建議]** > **[!UICONTROL 准則]**」。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 准則]**」。
 
-1. 按一 **[!UICONTROL 下「建立條件]** > **[!UICONTROL 建立條件]**」。
+1. 按一下「建立准則&#x200B;**** > **[!UICONTROL 建立准則]**」。
 
    ![建立新條件](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
@@ -78,7 +78,7 @@ ht-degree: 66%
 
    >[!NOTE]
    >
-   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
+   >如果您選擇「**[!UICONTROL 項目]**/ **[!UICONTROL 具有相似屬性的媒體]**」，則可以選擇設定[內容相似性規則](#similarity)。
 
 ## 資料來源 {#data-source}
 
@@ -98,37 +98,37 @@ ht-degree: 66%
    * 一個月
    * 兩個月
 
-1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+1. （條件性）選擇所需的&#x200B;**[!UICONTROL 行為資料來源]**:[!UICONTROL mboxes]或[!UICONTROL Analytics]。
 
    >[!NOTE]
    >
-   >只有當 [!UICONTROL 您的實作使用Analytics for Target][](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)時，才會顯示「行為資料來源」區段。
+   >只有當您的實作使用[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)時，才會顯示[!UICONTROL 行為資料來源]區段。
 
    ![「行為資料源」部分](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    如果您選擇 [!UICONTROL Analytics]，請選取需要的報表套裝。
 
-   If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria, as explained below:
+   如果條件使用[!DNL Adobe Analytics]作為行為資料來源，則建立後，條件可用性的時間取決於所選報表套裝和回顧視窗是否已用於任何其他條件，如下所述：
 
-   * **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。This time frame is dependent on the [!DNL Analytics] system load.
+   * **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。此時間範圍取決於[!DNL Analytics]系統負載。
    * **使用已可取得之報表套裝的全新或已編輯的條件**: 建立新條件或編輯現有條件時，如果所選報表套裝已搭配 [!DNL Target Recommendations] 使用，且資料範圍小於或等於所選資料範圍，資料即可立即使用且不需要一次性設定。在此情況下，或是在未修改所選報表套裝或資料範圍時已編輯演算法的設定，演算法會在 12 小時內執行或重新執行。
    * **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。例如，針對[!UICONTROL 已檢視的相關性]建議，當使用者檢視某個產品時，產品檢視追蹤呼叫會以近乎即時的速度傳送到 [!DNL Analytics]。[!DNL Analytics] 資料會在隔天很早推送到 [!DNL Target]，且 [!DNL Target] 會在 12 小時內執行演算法。
 
-   如需詳細資訊，請參 [閱「搭配使用Adobe Analytics與Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)」。
+   如需詳細資訊，請參閱[使用Adobe Analytics搭配Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
 ## 內容 {#content}
 
-Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). [!DNL Recommendations] 條件可能傳回較您的設計所需更少的建議。例如，如果您的設計有四個項目的插槽，但您的條件只會建議兩個項目，您可以將其餘的插槽留空，或者您可以使用備份建議來填滿額外的插槽。
+內容規則會決定如果建議的項目數未填入[建議設計](/help/c-recommendations/c-design-overview/design-overview.md)時會發生什麼情況。 [!DNL Recommendations] 條件可能傳回較您的設計所需更少的建議。例如，如果您的設計有四個項目的插槽，但您的條件只會建議兩個項目，您可以將其餘的插槽留空，或者您可以使用備份建議來填滿額外的插槽。
 
 ![內容區段](/help/c-recommendations/c-algorithms/assets/content.png)
 
-1. （可選）將「部 **[!UICONTROL 分設計演算]** 」切換至「開啟」位置。
+1. （可選）將&#x200B;**[!UICONTROL 部分設計演算]**&#x200B;切換至「開啟」位置。
 
    將會填入盡可能多的槽，但設計範本可能包含剩餘槽的空白空間。 如果此選項已停用，而且沒有足夠的內容來填滿所有可用的位置，則不會提供建議，而會改為顯示預設內容。
 
    如果您想要將建議與空白位置搭配使用，請啟用此選項。 如果您希望根據您的准則以內容填入建議槽，並填入空白槽，而且網站上已填入類似或熱門內容，請使用備份建議，如下一步所述。
 
-1. （可選）將「顯 **[!UICONTROL 示備份建議]** 」切換至「開啟」位置。
+1. （可選）將&#x200B;**[!UICONTROL 顯示備份建議]**&#x200B;切換至「開啟」位置。
 
    從您的網站上隨機選擇檢視次數最多的產品，以填入設計中剩餘的空白位置。
 
@@ -136,9 +136,9 @@ Content rules determine what happens if the number of recommended items does not
 
    ![4 x 1設計](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   假設您的准則只會建議兩個項目。 如果啟用「部 [!UICONTROL 分設計渲染] 」(Partial Design Rendering)選項，前兩個插槽將被填充，但其餘兩個插槽仍為空。 不過，如果您啟用「顯 [!UICONTROL 示備份建議」選項] ，則前兩個插槽會根據您的指定條件填入，其餘兩個插槽則會根據您的備份建議填入。
+   假設您的准則只會建議兩個項目。 如果您啟用「部分設計演算」([!UICONTROL  Partial Design Rendering)]選項，前兩個插槽會填滿，但其餘兩個插槽仍為空。 但是，如果您啟用「顯示備份建議」選項，則前兩個插槽會根據您的指定標準填充，其餘兩個插槽則會根據備份建議填充。][!UICONTROL 
 
-   下列矩陣顯示使用「部分設計演算」和「備 [!UICONTROL 份建議」選項時][!UICONTROL 將觀察的結果] :
+   下列矩陣顯示使用[!UICONTROL 部分設計演算]和[!UICONTROL 備份建議]選項時將觀察到的結果：
 
    | 部分設計呈現 | 備份 Recommendations | 結果 |
    |--- |--- |--- |
@@ -147,15 +147,15 @@ Content rules determine what happens if the number of recommended items does not
    | 已啟用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會轉譯部分設計。<br>如果條件未傳回任何建議，並且包含規則將備用建議限制為零，則會以預設內容來取代設計。 |
    | 已停用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會以預設內容取代設計，並且不顯示建議。 |
 
-   如需詳細資訊，請參 [閱使用備份建議](/help/c-recommendations/c-algorithms/backup-recs.md)。
+   如需詳細資訊，請參閱[使用備份建議](/help/c-recommendations/c-algorithms/backup-recs.md)。
 
-1. （條件性）如果您在上 **[!UICONTROL 一步驟中選取「顯示備份建議]** 」，則可以啟用「套 **[!UICONTROL 用包含規則至備份建議」]**。
+1. （條件性）如果您在上一步驟中選取了「顯示備份建議」**[!UICONTROL ，則可啟用「套用包含規則至備份建議」]**。****
 
    包含規則會決定哪些項目包含在建議中。 可用的選項取決於您的垂直產業。
 
-   如需更多詳細資料，請參閱 [請在下方指定包含規則](#inclusion) 。
+   如需更多詳細資料，請參閱  [請在下方指定](#inclusion) 包含規則。
 
-1. （可選）投影片「 **[!UICONTROL 建議先前購買的項目]** 」會切換至「開啟」位置。
+1. （可選）將&#x200B;**[!UICONTROL 建議先前購買的項目]**&#x200B;切換至「開啟」位置。
 
    此設定是根據 `productPurchasedId`。預設行為是不推薦先前購買的項目。大多數情況下，您不會想推銷客戶最近已購買的項目。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是人們反複回來購買的物品，例如洗髮水或其他個人物品，您應啟用此選項。
 
@@ -165,7 +165,7 @@ Content rules determine what happens if the number of recommended items does not
 
 >[!NOTE]
 >
->If you selected **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** as your [recommendation logic](#info), you will have the option to set content similarity rules.
+>如果您選擇&#x200B;**[!UICONTROL Items]**/ **[!UICONTROL 具有相似屬性的媒體]**&#x200B;做為[建議邏輯](#info)，您將可以選擇設定內容相似性規則。
 
 內容相似度會比較項目屬性關鍵字並根據不同項目有多少共通的關鍵字進行建議。根據內容相似度的建議不需要過去的資料即可傳送強大的結果。
 
@@ -221,7 +221,7 @@ Content rules determine what happens if the number of recommended items does not
    >
    >此選項會限制建議中所顯示的項目。不會限制在哪些頁面中顯示建議。若要限制建議顯示的位置，請在體驗撰寫器中選取頁面。
 
-For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+如需詳細資訊，請參閱[使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)。
 
 ## 屬性加權 {#weighting}
 
@@ -251,7 +251,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取&#x200B;**[!UICONTROL 「儲存條件以供稍後使用」]**&#x200B;核取方塊。如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
 
-## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
+## 訓練影片：在Recommendations中建立條件(12:33)![教學課程標章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
