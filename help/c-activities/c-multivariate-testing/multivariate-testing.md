@@ -16,7 +16,7 @@ ht-degree: 91%
 
 [!DNL Adobe Target] 中的[!UICONTROL 多變數測試] (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。
 
-## MVT overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## MVT概觀{#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 多變數測試可協助您探索特定元素相較於頁面上的其他元素，對轉換造成的相對影響。也有助於您細分已知有效應的元素組合。
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 由於多變數測試可產生的組合較多，需要比 A/B 測試更多的時間和流量。頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。為了獲得實用的結果，您需要瞭解頁面接收的流量，並以正確的時間長度來測試最理想的組合數目，才能得到所需的結果。Target 的[流量估算](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可協助您設計適用於流量的測試。使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。請考量每日的流量水準。活動中的體驗越多，活動需要包含的流量就越多，否則活動需要執行更久。如果流量不是很大，則應該測試較少的組合；否則，產生有意義的測試結果所需的時間可能太長，而顯得無用。
 
-## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
+## MVT術語{#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
 設定多變數測試時，最好瞭解一些基本術語。
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 **位置:**&#x200B;頁面上的特定內容區域，通常包含在單一 DOM 元素內。在 MVT 方法中，有時會將位置稱為&#x200B;*係數*。全階乘多變數測試會比較您的位置中所有可能的選件組合。
 
-## When to use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## 何時使用MVT與A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 多變數測試與 A/B 測試可以一起用來將頁面最佳化。何時需要一起使用的例子包括:
 
@@ -72,7 +72,7 @@ ht-degree: 91%
 
 ## 部分工廠測試
 
-[!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計學中，「實驗設計」提供許多方法 (或設計) 來判斷會影響結果的因素。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 「田口方法」可讓市場行銷人員建立一組假設，以減少需要測試的體驗排列，進而降低多變數測試的流量需求。在 [!DNL Target] 中，可利用此[離線試算表](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)來運用此功能與測試方法。
+[!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計學中，「實驗設計」提供許多方法 (或設計) 來判斷會影響結果的因素。這種方法之一是用[Taguchi方法](https://en.wikipedia.org/wiki/Taguchi_methods)進行部分工廠測試。 「田口方法」可讓市場行銷人員建立一組假設，以減少需要測試的體驗排列，進而降低多變數測試的流量需求。在 [!DNL Target] 中，可利用此[離線試算表](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)來運用此功能與測試方法。
 
 如果您的團隊採用其他「實驗設計」方法，您可以將此計算試算表當作自訂實驗設計的參考實作。
 
@@ -90,7 +90,7 @@ ht-degree: 91%
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動類型(9:03)概 ![述徽章](/help/assets/overview.png)
+### 活動類型(9:03)![概述徽章](/help/assets/overview.png)
 
 此概觀影片說明Target Standard/Premium中可用的活動類型。 4:20 開始討論多變數測試。
 
@@ -100,7 +100,7 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 建立多變數測試(9:25)教學 ![課程徽章](/help/assets/tutorial.png)
+### 建立多變數測試(9:25)![教學課程標章](/help/assets/tutorial.png)
 
 此影片說明如何使用 Target 三步驟引導式工作流程來瞭解、規劃和建立多變數測試。
 
