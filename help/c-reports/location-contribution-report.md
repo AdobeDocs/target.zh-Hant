@@ -32,7 +32,7 @@ ht-degree: 98%
 
 ![](assets/locationcontributionbottom.png)
 
-## 訓練影片: 建立 MVT 測試 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 建立 MVT 測試  ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。8:45 開始說明「位置貢獻」報表。
 
