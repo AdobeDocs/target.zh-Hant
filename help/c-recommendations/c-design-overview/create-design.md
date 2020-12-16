@@ -16,7 +16,7 @@ ht-degree: 32%
 
 設計可定義建議出現在頁面上的方式。
 
-您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。「建 **[!UICONTROL 議>設計]** 」畫面會顯示預設設計卡片和您帳戶中建立的任何設計。
+您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL Recommendations > Designs]**&#x200B;螢幕會顯示預設設計卡片和您帳戶中建立的任何設計。
 
 當您處理設計時，請記住下列資訊：
 
@@ -41,27 +41,27 @@ ht-degree: 32%
 
 ### 根據預設設計建立設計
 
-1. 按一 **[!UICONTROL 下「建議]** >設 **[!UICONTROL 計]** 」以顯示 [!UICONTROL 「設計] 」庫。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**」以顯示「[!UICONTROL Designs]」程式庫。
 
    ![設計資料庫](/help/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. 將滑鼠指標暫留在卡片上，以便建立設計，然後按一下「復 **[!UICONTROL 制]** 」圖示。
+1. 將滑鼠指標暫留在卡片上，以便建立設計，然後按一下&#x200B;**[!UICONTROL Copy]**&#x200B;圖示。
 
    ![](assets/Card_CopyDesign.png)
 
-   將顯 [!UICONTROL 示「建立設計] 」(Create Design)對話框。
+   將顯示[!UICONTROL 建立設計]對話框。
 
    ![](assets/createDesign.png)
 
-1. 在「資 **[!UICONTROL 訊]** 」面板中，新增「內 **[!UICONTROL 容名稱]** 」和可選的預覽影像，以顯示在設計卡片上。
+1. 在&#x200B;**[!UICONTROL 資訊]**&#x200B;面板中，新增&#x200B;**[!UICONTROL 內容名稱]**&#x200B;和可選的預覽影像，以顯示在設計卡片上。
 
-   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. 您可以編輯名稱。您也可以選取要在設計卡上顯示的影像。
+   當您使用預設設計時，設計名稱和「複製」會顯示在&#x200B;**[!UICONTROL 內容名稱]**&#x200B;欄位中。 您可以編輯名稱。您也可以選取要在設計卡上顯示的影像。
 
-1. （條件性）視需要編 **[!UICONTROL 輯設]**&#x200B;計程式碼。
+1. （條件性）視需要編輯設計&#x200B;**[!UICONTROL 程式碼]**。
 
-   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請造訪 [https://velocity.apache.org](https://velocity.apache.org) ，以及使 [用Velocity自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
+   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請參閱[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)自訂設計。
 
-   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以`<div>`標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。投影片 [!UICONTROL HTML Design] （HTML設計）切換至「關閉」位置，以使用非HTML程式碼。
+   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以`<div>`標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。投影[!UICONTROL HTML Design]切換至「關閉」位置，以使用非HTML程式碼。
 
    >[!NOTE]
    >
@@ -71,15 +71,15 @@ ht-degree: 32%
 
 ### 建立自訂設計
 
-1. 按一 **[!UICONTROL 下「建議]** >設 **[!UICONTROL 計]** 」以顯示 [!UICONTROL 「設計] 」庫。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**」以顯示「[!UICONTROL Designs]」程式庫。
 
-1. 按一 **[!UICONTROL 下「建立設計]**」。
+1. 按一下「建立設計」。****
 
-   如果您想要在現有設計的基礎上建立新的自訂設計，請將滑鼠移至所要的設計上，然後按一下「復 [!UICONTROL 制] 」圖示。 然後，您可以編輯復本以建立新的自訂設計。
+   如果您想要在現有設計的基礎上建立新的自訂設計，請將滑鼠移至所要的設計上，然後按一下[!UICONTROL Copy]圖示。 然後，您可以編輯復本以建立新的自訂設計。
 
-1. 新增內容 **[!UICONTROL 名稱]** ，以及選用的預覽影像。
+1. 新增&#x200B;**[!UICONTROL 內容名稱]**&#x200B;和選用的預覽影像。
 
-1. （條件性）視需要編 **[!UICONTROL 輯設]**&#x200B;計程式碼。
+1. （條件性）視需要編輯設計&#x200B;**[!UICONTROL 程式碼]**。
 
    如需詳細資訊，請參閱上述步驟4中的資訊。
 
@@ -89,7 +89,7 @@ ht-degree: 32%
 
 請記住，您無法編輯或複製預設設計；您只能複製預設設計。
 
-將滑鼠指標暫留在 [!UICONTROL Design程式庫中] ，然後按一下適當的圖示：編輯、複製或刪除。
+將滑鼠指標暫留在[!UICONTROL Design]程式庫中所要的設計上，然後按一下適當的圖示：編輯、複製或刪除。
 
 ![設計的暫留圖示](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
@@ -101,7 +101,7 @@ ht-degree: 32%
 
 下列範例說明如何在透過表單編輯器設定活動時傳回JSON回應。
 
-1. 從設計程式庫或表單工作流程中建立設計。 If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+1. 從設計程式庫或表單工作流程中建立設計。 如果您嘗試在Visual Experience Composer(VEC)工作流程中進行此動作，則無法建立HTML設計以外的其他項目，而HTML設計會包裝在`<div>`中，以用於點按追蹤。
 
 1. 確定「HTML 設計」選項已關閉:
 
@@ -136,22 +136,22 @@ ht-degree: 32%
        }  
    ```
 
-1. Set up a form-based [!DNL Recommendations] activity that uses this design.
+1. 設定使用此設計的表單型[!DNL Recommendations]活動。
 
-   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. 導覽至&#x200B;**[!UICONTROL 活動]**&#x200B;頁面。
    1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「Recommendations」]**。
-   1. 在「選 **[!UICONTROL 擇Experience Composer]**」下，選 **[!UICONTROL 擇「表單]**」，然後按「 **[!UICONTROL 下一步]**」。
+   1. 在&#x200B;**[!UICONTROL 選擇「Experience Composer」]**&#x200B;下，選擇「**[!UICONTROL Form]**」，然後按一下「**[!UICONTROL Next」（下一步）。]**
    1. 在位置下，輸入文字: &quot;Sample_Recs_Response&quot;
    1. 在&#x200B;**[!UICONTROL 「預設內容」]**&#x200B;下，按向下箭頭，然後按一下&#x200B;**[!UICONTROL 「新增建議」]**。
    1. 選擇頁面類型。這會決定下一個畫面的起始篩選。
    1. 選取條件卡，然後按&#x200B;**[!UICONTROL 「下一步」]**。
-   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
+   1. 選擇您在上一步中建立的設計，然後按一下&#x200B;**[!UICONTROL Next]**。
    1. 完成設定程序。
    1. 按一下&#x200B;**[!UICONTROL 「非使用中」]**&#x200B;旁的向右箭頭，然後選取&#x200B;**[!UICONTROL 「啟動」]**。
 
 1. 在設定並啟動活動之後，您可以設定請求範例來取回全新的 JSON 回應。
 
-   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. 根據許多因素而定，這需要一些時間。模型建立後就會顯示結果。
+   從您儲存活動時起，[!DNL Target]將需要建立模型以支援選取的准則設定。 根據許多因素而定，這需要一些時間。模型建立後就會顯示結果。
 
    例如:
 
@@ -172,7 +172,7 @@ ht-degree: 32%
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
+## 其他JSON物件提示與秘訣{#section_C305673C68944749969DB239E3221DC2}
 
 您也可以使用下列語法來設定設計，只傳回一份簡單的以逗號分隔的項目清單:
 
@@ -180,7 +180,7 @@ ht-degree: 32%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
+或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。此設計範例也會傳回活動詳細資料、Target Profile詳細資料（如適用），以及與傳回項目相關的其他`entity.attributes`。
 
 ```javascript
     {   
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
+## 訓練影片：在Recommendations中建立自訂設計(3:20)![概述徽章](/help/assets/overview.png)
 
 此影片包含下列資訊:
 
