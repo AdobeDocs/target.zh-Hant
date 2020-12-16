@@ -99,7 +99,7 @@ ht-degree: 97%
 
 **若要使用可視化體驗撰寫器 (VEC) 來排除預設內容:**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. 在[建立或編輯AP活動](/help/c-activities/t-automated-personalization/create-ap-activity.md)時，選擇要替換的內容並按一下以訪問&#x200B;**[!UICONTROL 更改文本/HTML]**、**[!UICONTROL 更改影像]**&#x200B;或&#x200B;**[!UICONTROL 更改背景顏色]**。
 1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊 **「包含」** (或在「選取內容」畫面中取消勾選「預設影像/影片」)。
 
    視內容/選件類型而定，[!UICONTROL 「包含」]核取方塊的位置會稍微不同。
