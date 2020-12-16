@@ -22,7 +22,7 @@ ht-degree: 88%
 
 [!UICONTROL 企業權限]功能可促進跨團隊最佳化程式的有效資源調度。雖然 [!DNL Target] UI 提供了此功能，不過 Admin API 在 2019 年初之前一直都缺乏對應的支援。在 [!DNL Target] 2019 年 2 月版本中，Adobe 已更新 Admin API，讓您能夠使用整合帳戶來存取組織中建立的所有工作區。因此，雖然之前 Admin API 限制為僅限預設工作區，但 2019 年 2 月更新已授予可使用[!UICONTROL 核准者]存取權來存取所有工作區。
 
-With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
+在2019年9月的[!DNL Target]版本中，[!DNL Target] [!UICONTROL 企業權限]為客戶提供下列存取控制：
 
 * 您可以選擇要將整合套用到哪個工作區
 * 您可以將角色套用至 Adobe I/O 整合功能: [!UICONTROL 核准者]、[!UICONTROL 編輯者]或[!UICONTROL 觀察者]。
@@ -42,7 +42,7 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 **如何授予 Adobe I/O 整合功能對工作區的存取權並指派角色:**
 
-1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. 開啟&#x200B;**[Adobe Admin Console](https://adminconsole.adobe.com)**。
 
 1. 按一下&#x200B;**[!UICONTROL 產品]**&#x200B;索引標籤，然後選取所需的產品名稱。
 
