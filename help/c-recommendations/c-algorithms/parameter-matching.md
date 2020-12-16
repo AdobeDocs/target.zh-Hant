@@ -12,7 +12,7 @@ ht-degree: 10%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Parameter Matching
+# ![](/help/assets/premium.png) PREMIUMParameter匹配
 
 透過比較項目（實體）與請求中的值（API或mbox），動態篩選。
 
@@ -33,9 +33,9 @@ ht-degree: 10%
 
 ## 參數匹配示例
 
-[!UICONTROL 「參數符合] 」可讓您建議符合頁面參數或訪客參數的內容，例如裝置維度或地理位置，如下列範例：
+[!UICONTROL 參] 數匹配可讓您建議符合頁面參數或訪客參數的內容，例如裝置維度或地理位置，如下列範例所示：
 
-[!DNL Recommendations] 可比對呼叫中傳送的參數 [!DNL Target] 值。 在此例中， [!DNL Target] 根據呼叫中傳送的螢幕高度和寬度參數，偵測訪客使用的是行動裝置，並只會建議 [!DNL Target] 行動裝置的項目。
+[!DNL Recommendations] 可比對呼叫中傳送的參數 [!DNL Target] 值。在此例中，[!DNL Target]會根據[!DNL Target]呼叫中傳送的螢幕高度和寬度參數，偵測訪客是否使用行動裝置，並僅建議使用行動裝置的項目。
 
 請考慮下列Target呼叫範例：
 
