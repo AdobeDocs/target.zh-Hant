@@ -14,26 +14,26 @@ ht-degree: 64%
 
 # ![PREMIUM](/help/assets/premium.png) 自動個人化中的選件報表群組{#offer-reporting-groups-in-automated-personalization}
 
-Information about using reporting groups in [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
+有關在[自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活動中使用報告組的資訊。
 
 報表群組執行兩個重要功能:
 
 * 這些功能可讓您查看 AP 活動報表中分組的選件。
-* They play a key role with how the [!DNL Target] personalization models function.
+* 他們在[!DNL Target]個人化模型的運作方式上扮演了關鍵角色。
 
-When you use reporting groups, [!DNL Target] creates only one personalization model for each reporting group instead of each offer in your AP activity using the data from all offers in that group.
+當您使用報表群組時，[!DNL Target]只會針對每個報表群組建立一個個人化模型，而非使用該群組中所有選件的資料，在AP活動中建立每個選件。
 
 如果您的活動設定沒有足夠的資料來為每個選件建立個人化模型，則報表群組可幫助減少使用「自動個人化」的資料要求。報表群組也可以藉由分組類似選件來幫助解決新選件的「冷啟動」問題，以便每個模型獲得更多資料以進行訓練。模組化群組也可用於定期向 AP 活動提供新選件的活動。
 
-如果訪客以相同的方式回應群組中的所有選件，則此方法很有效。最佳做法是對類似訪客群組以類似方式回應的選件進行分組。換句話說，群組選件具有類似的轉換率。您永遠不應將所有選件放置在單一報表群組中。Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
+如果訪客以相同的方式回應群組中的所有選件，則此方法很有效。最佳做法是對類似訪客群組以類似方式回應的選件進行分組。換句話說，群組選件具有類似的轉換率。您永遠不應將所有選件放置在單一報表群組中。將所有選件或分組選件以非常不同的轉換率可能會降低[!DNL Target]個人化模型的效能。
 
 >[!NOTE]
 >
->如果從特定模組化群組中移除或替換選件，則也會從模組化群組中刪除看到該特定選件的歷史流量。In other words, deleted offers do not contribute to what data is used for the [!DNL Target] personalization models to learn.
+>如果從特定模組化群組中移除或替換選件，則也會從模組化群組中刪除看到該特定選件的歷史流量。換言之，刪除的選件不會影響[!DNL Target]個人化模型所要學習的資料。
 
 **若要設定報表群組:**
 
-1. On the [!UICONTROL Experiences] page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
+1. 在AP活動的[!UICONTROL Experiences]頁面上，按一下&#x200B;**[!UICONTROL 管理內容]**&#x200B;表徵圖。
 
    ![](assets/ap_manage_content.png)
 
@@ -46,7 +46,7 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    ![](assets/ap_manage_content_3.png)
 
-1. (Conditional) To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
+1. （條件性）若要將選取的選件指派給現有的報表群組，請選取&#x200B;**[!UICONTROL Existing]**，從下拉式清單中選取所要的報表群組，然後按一下「套用&#x200B;****」。
 
    或
 
