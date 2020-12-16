@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # 設計概覽{#design-overview}
 
-中的設計 [!DNL Adobe Target Recommendations] 定義建議在頁面上的顯示方式。 設計會定義建議的版面和格式，以改善訪客參與度、轉換率和收入。
+[!DNL Adobe Target Recommendations]中的設計定義建議在頁面上的顯示方式。 設計會定義建議的版面和格式，以改善訪客參與度、轉換率和收入。
 
 [!DNL Recommendations] 提供數種預設（預建）設計，或者您可以自行建立。
 
