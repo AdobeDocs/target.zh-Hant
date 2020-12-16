@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# adobe.target.triggerView (viewName, options) - at.js 2.x
+# adobe.target.triggerView(viewName, options)- at.js 2.x
 
 每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。應為單頁應用程式 (SPA) 實作 `adobe.target.triggerView()`，以便使用可視化體驗撰寫器 (VEC) 來建立 A/B 測試和體驗鎖定目標 (XT) 活動。如果沒有在網站上 `adobe.target.triggerView()` 實作，VEC 就無法用於 SPA。如需詳細資訊，請參閱[實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 | --- | --- | --- | --- |
 | viewName | 字串 | 是 | 傳入任何名稱作為要代表檢視的字串類型。此檢視名稱會顯示在 VEC 的[!UICONTROL 「修改]」面板中，供行銷人員建立動作和執行其 A/B 和 XT 活動。 |
 | options | 物件 | 無 |  |
-| options > page | 布林值 | 無 | **TRUE:** page 的預設值為 true。當 page=true，會傳送通知至 [!DNL Target] 後端以增加曝光計數。<br>呼叫時，通知一律會依預設傳送， `triggerView` 但選項>頁面設為false時除外。<br>**FALSE:** 當 page=false，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
+| options > page | 布林值 | 無 | **TRUE:** page 的預設值為 true。當 page=true，會傳送通知至 [!DNL Target] 後端以增加曝光計數。<br>在呼叫時，通知一律會依預設 `triggerView` 傳送，但選項>頁面設為false時除外。<br>**FALSE:** 當 page=false，不會傳送通知以增加曝光計數。只有當您想重新呈現頁面上含有某個選件的元件時，才應使用此項目。 |
 
 ## 範例: True
 
