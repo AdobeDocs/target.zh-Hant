@@ -99,7 +99,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
    ![](assets/estimator2.png)
 
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.
+1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;進入[!UICONTROL Targeting]頁面。
 
 1. 選擇對象和符合您要讓其進入活動之訪客的百分比。
 
@@ -117,7 +117,7 @@ Target 指向和點按編輯程式可讓您挑選任何位置並新增多個選�
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;來建立活動。
 
-## 訓練影片：建立多變數測試(9:25)教學 ![課程徽章](/help/assets/tutorial.png)
+## 訓練影片：建立多變數測試(9:25)![教學課程標章](/help/assets/tutorial.png)
 
 此影片示範如何使用 Target 三步驟引導式工作流程來規劃和建立多變數測試。
 
