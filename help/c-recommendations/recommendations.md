@@ -14,7 +14,7 @@ ht-degree: 59%
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-[!DNL Adobe Target Recommendations] 活動會根據先前的使用者活動、偏好設定或其他條件，自動顯示可能吸引訪客的產品、服務或內容。 [!DNL Target Recommendations] 有助於將訪客引導至他們可能不知道的相關項目。 [!DNL Recommendations] 可讓您在適當的時間和地點為訪客提供相關內容。
+[!DNL Adobe Target Recommendations] 活動會根據先前的使用者活動、偏好設定或其他條件，自動顯示可能吸引訪客的產品、服務或內容。[!DNL Target Recommendations] 有助於將訪客引導至他們可能不知道的相關項目。[!DNL Recommendations] 可讓您在適當的時間和地點為訪客提供相關內容。
 
 >[!NOTE]
 >
@@ -47,22 +47,22 @@ ht-degree: 59%
 
 ## 詞彙
 
-開始使用之前 [!DNL Recommendations]，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，不必擔心，當您設定活動時，您會更熟悉這些詞 [!DNL Recommendations] 語。
+開始使用[!DNL Recommendations]之前，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，請放心，當您設定[!DNL Recommendations]活動時，您會更熟悉這些詞語。
 
 | 術語 | 定義 |
 | --- | --- |
-| 活動 | 中的活動 [!DNL Target] 可讓您針對特定受眾個人化內容並測試頁面設計。 [!DNL Recommendations] 只是中的眾多活動類型之一 [!DNL Target]。 如需詳細資訊，請參 [閱Target活動類型](/help/c-activities/target-activities-guide.md)。 |
-| 實體 | 實體會參考您要建議的項目。實體可以是產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。 For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
-| 動態消息 | 動態消息用於將實體匯入 [!DNL Recommendations]。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。如需詳細資訊，請參閱[摘要](/help/c-recommendations/c-products/feeds.md)。 |
+| 活動 | [!DNL Target]中的活動可讓您將內容個人化給特定對象，並測試頁面設計。 [!DNL Recommendations] 只是中的眾多活動類型之一 [!DNL Target]。如需詳細資訊，請參閱[目標活動類型](/help/c-activities/target-activities-guide.md)。 |
+| 實體 | 實體會參考您要建議的項目。實體可以是產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。 如需詳細資訊，請參閱[Entities](/help/c-recommendations/c-products/products.md)。 |
+| 動態消息 | 動態消息用於將實體導入到[!DNL Recommendations]。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。如需詳細資訊，請參閱[摘要](/help/c-recommendations/c-products/feeds.md)。 |
 | 目錄 | 目錄是指您的整個產品集（實體）。 您的型錄可包含許多系列——以邏輯區間組織產品的方式。 |
-| 集合 | 系列是指一組類似或相關的項目，例如單一產品類別。 不過，只要符合業務的需要，您可以將任何項目分組到類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區受到歡迎的項目。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
+| 集合 | 系列是指一組類似或相關的項目，例如單一產品類別。 不過，只要符合業務的需要，您可以將任何項目分組到類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區受到歡迎的項目。如需詳細資訊，請參閱[Collections](/help/c-recommendations/c-products/collections.md)。 |
 | 標準 | 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。<br>標準的幾個範例包括： <ul><li>購買了此項目、也購買了其他項目的使用者</li><li>瀏覽過此項目、也瀏覽了其他項目的使用者</li><li>具有類似屬性的項目</li><li>上次購買的項目</li><li>最喜愛的類別</li></ul>  如需詳細資訊，請參閱[條件](/help/c-recommendations/c-algorithms/algorithms.md)。 |
-| 設計 | 設計會定義活動中建議的 [!DNL Recommendations] 外觀，例如列、欄、表格或格線。 本文最上方的插圖顯示4 x 1設計。 For more information, see [Create a design](/help/c-recommendations/c-design-overview/create-design.md). |
+| 設計 | 設計會定義[!DNL Recommendations]活動中建議的外觀，例如列、欄、表格或格線。 本文最上方的插圖顯示4 x 1設計。 如需詳細資訊，請參閱[建立設計](/help/c-recommendations/c-design-overview/create-design.md)。 |
 | 位置 | 位置是指您執行活動以進行個人化和最佳化目的之網頁、行動應用程式或電子郵件上的特定內容區域。 |
 | 對象 | 觀眾是類似活動進入者的群組，他們會看到目標活動。 受眾是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。受眾功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如需詳細資訊，請參閱[對象](/help/c-target/target.md)。 |
 | 建議作為選件 | 可讓您在A/B測試（包括自動分配和自動定位）和體驗定位(XT)活動中加入建議的功能。 如需詳細資訊，請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。 |
 
-## 訓練影片：活動類型 ![概述徽章](/help/assets/overview.png)
+## 訓練影片：活動類型![概述徽章](/help/assets/overview.png)
 
 此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。7:20 處開始討論 [!DNL Recommendations]。
 
