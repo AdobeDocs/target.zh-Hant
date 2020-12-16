@@ -28,11 +28,11 @@ ht-degree: 91%
 
 多數預先定義的參數僅接受單一值，以新的值覆寫舊的值。對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
 
-一般而言，如果您使用at.js 1，顯示資訊mbox可能會類似下列範例。*x* with `mboxCreate`.
+一般而言，如果您使用at.js 1，顯示資訊mbox可能會類似下列範例。** xwith `mboxCreate`。
 
 >[!NOTE]
 >
->* 如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。 若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，請使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 如需此範例，請參閱「計 [划並實作建議」](/help/c-recommendations/plan-implement.md)。
+>* 如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，請使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。如需範例，請參閱[計畫並實作Recommendations](/help/c-recommendations/plan-implement.md)。
 
 >
 
