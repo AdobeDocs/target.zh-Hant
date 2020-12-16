@@ -11,7 +11,7 @@ ht-degree: 86%
 ---
 
 
-# Adobe Target 指南 {#using}
+# Adobe Target 指南  {#using}
 
 + [Adobe Target指南首頁](target-home.md)
 + Target 版本說明 {#release-notes}
@@ -29,7 +29,7 @@ ht-degree: 86%
    + [從 Adobe Experience Cloud 存取 Target](c-intro/target-access-from-mac.md)
    + [Target 重要概念](c-intro/target-key-concepts.md)
    + [瞭解Target UI](/help/c-intro/understand-the-target-ui.md)
-   + Adobe Target歡迎套件 {#welcome}
+   + Adobe Target歡迎套件{#welcome}
       + [Adobe Target歡迎套件總覽](/help/c-intro/target-welcome-kit.md)
       + [第一章：簡介](/help/c-intro/target-welcome-kit-1.md)
       + [第二章：Adobe Target總覽](/help/c-intro/target-welcome-kit-2.md)
@@ -71,7 +71,7 @@ ht-degree: 86%
    + 實作之前 {#before-implement}
       + [實作之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [準備實作 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 隱私權與安全性 {#privacy}
+      + 隱私權與安全性{#privacy}
          + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隱私權與資料保護規範](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
@@ -177,7 +177,7 @@ ht-degree: 86%
       + 疑難排解 Analytics 和 Target 整合 (A4T) {#troubleshoot-a4t}
          + [疑難排解 A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [在 A4T 中將膨脹的造訪和訪客計數減到最少](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + A4T 常見問題 {#a4t-faq}
+      + A4T 常見問題  {#a4t-faq}
          + [初始佈建 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [活動設定 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [檢視報表 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -308,7 +308,7 @@ ht-degree: 86%
       + [共用量度、對象和報表 - A4T 常見問題集](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + 體驗與選件 {#experiences}
    + [體驗與選件概覽](c-experiences/experiences.md)
-   + 可視化體驗撰寫器 (VEC) {#vec}
+   + 可視化體驗撰寫器 (VEC)  {#vec}
       + [可視化體驗撰寫器概覽](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [可視化體驗撰寫器選項](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [在類似頁面上包含相同體驗](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 86%
       + [建立條件序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [讓建議以建議索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [上傳自訂條件](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + 動態和靜態包含規則{#dynamic-static}
          + [使用動態和靜態包含規則](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [實體屬性比對](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [設定檔屬性比對](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
