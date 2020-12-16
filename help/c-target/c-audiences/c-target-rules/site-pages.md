@@ -22,19 +22,19 @@ ht-degree: 43%
 
    ![網頁受眾](assets/target_site_pages.png)
 
-1. 按一 **[!UICONTROL 下「選]** 取」下拉式清單，選取下列其中一個選項，然後視需要設定規則。
+1. 按一下「選擇&#x200B;****」下拉式清單，選取下列其中一個選項，然後視需要設定規則。
 
-   規則中後續下拉式清單中的可用選項和評估器會依您選擇的選項而異。 下圖顯示如果選擇「目前頁面」( [!UICONTROL Current Page)的可用選項]:
+   規則中後續下拉式清單中的可用選項和評估器會依您選擇的選項而異。 下圖顯示如果選擇[!UICONTROL 目前頁面]，則可用的選項：
 
    ![目前頁面](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   當您選擇「選取」時，初始下拉式清單中會提供下列 [!UICONTROL 選項]。
+   當您選擇[!UICONTROL 選擇]時，初始下拉式清單中提供下列選項。
 
    * **目前頁面：** 使用者目前所在的頁面。
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
-      * URL(如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+      * URL（如需Target如何評估URL的詳細資訊，請參閱[目標與觀眾常見問答集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)）。
       * 網域
       * 查詢
       * 子網域
@@ -45,7 +45,7 @@ ht-degree: 43%
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
-      * URL(如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+      * URL（如需Target如何評估URL的詳細資訊，請參閱[目標與觀眾常見問答集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)）。
       * 網域
       * 查詢
       * 子網域
@@ -55,7 +55,7 @@ ht-degree: 43%
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
-      * URL(如需Target如何評估URL的詳細資訊，請參 [閱Targets和觀眾常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+      * URL（如需Target如何評估URL的詳細資訊，請參閱[目標與觀眾常見問答集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)）。
       * 網域
       * 查詢
       * 子網域
@@ -67,7 +67,7 @@ ht-degree: 43%
       >
       >在變更子網域或直接更換 URL 時會重設 `landing.url` 物件。
 
-   * **HTTP標題：** 此選項會評估Target請求的HTTP標題中的資訊。 例如，如果HTTP標題包含語言資訊，您可以建立包含條件的規則，以 `Accept-Language: es` 定位以西班牙文存取頁面的訪客。
+   * **HTTP標題：** 此選項會評估Target請求的HTTP標題中的資訊。例如，如果HTTP標題包含語言資訊，您可以建立包含`Accept-Language: es`條件的規則，以定位以西班牙文存取頁面的訪客。
 
       如果您選擇此選項，第二個下拉式清單中會提供下列選項：
 
@@ -101,7 +101,7 @@ ht-degree: 43%
       * 透過
       * 警告
 
-   如果您選擇「 [!UICONTROL 當前頁]」、「上一頁 [!UICONTROL 」或「著陸頁]」, [!UICONTROL 則可使用]DomainDomain和Query Page  選項。 選擇這些選項時，請考慮下列事項：
+   如果您選擇「目前頁面」[!UICONTROL 、「上一頁」[!UICONTROL 或「著陸頁面」[!UICONTROL ，則可使用「網域」]和「查詢」[!UICONTROL 選項。 ]]]選擇這些選項時，請考慮下列事項：
 
    * **網域:** 頁面的完整網域。指定網域時，最佳做法是使用「包含」。例如，「網域等於 facebook.com」不接受 `m.facebook.com` 或 `www.facebook.com`。「網域包含 facebook.com」則會接受 facebook.com 的任何變體。
    * **查詢:** 第一個問號 (?) 之後的 URL 內容。
@@ -128,15 +128,16 @@ ht-degree: 43%
 
 ## 疑難排解 {#ts}
 
-* 若要讓著陸頁面對象正常運作，請求必須設定 `mboxReferrer` at.js JavaScript程式庫使用屬性從頁面擷取的參數(對於「傳送API `context.address.referringUrl` 」參數) `document.referrer` 。 此 `HTMLDocument` 屬性會傳回使用者已導覽之頁面的URI。 當使用者直接導覽至頁面時，此屬性的值是空的字串（不是透過連結，而是透過書籤）。
+* 若要讓著陸頁面對象正常運作，請求必須設定`mboxReferrer`參數（對於傳送API,`context.address.referringUrl`參數）,at.js JavaScript程式庫會使用`document.referrer`屬性從頁面擷取。 此`HTMLDocument`屬性會傳回使用者已導覽之頁面的URI。 當使用者直接導覽至頁面時，此屬性的值是空的字串（不是透過連結，而是透過書籤）。
 
    如果此行為不符合您的要求，請考慮執行下列其中一個動作：
 
-   * 傳遞 [mbox參數](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , [!DNL Target] 以便用於定位目的。
-   * 使用 [A/B測試活動](/help/c-activities/t-test-ab/test-ab.md) ，而非著陸頁面活動。 A/B測試活動不會切換相同訪客的體驗。
-   * 請改用 [訪客資料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
+   * 將[mbox參數](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)傳遞至[!DNL Target]以用於定位目的。
+   * 使用[A/B測試活動](/help/c-activities/t-test-ab/test-ab.md)，而非著陸頁面活動。 A/B測試活動不會切換相同訪客的體驗。
+   * 請改用[訪客資料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md)。
 
-* 在包含逗號的字串上使用「開頭／結尾為」求值器時，請注意，這些值會評估為一組值，其中每個值會以逗號分隔。 例如，如果我們有標題的值： `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 它會因下列情況而失效：
+* 在包含逗號的字串上使用「開頭／結尾為」求值器時，請注意這些
+會評估為一組值，其中每個值會以逗號分隔。 例如，如果我們有標題的值：`Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7`它會針對下列條件取消：
    * 從zh開始，
    * 開頭為en,
    * 以0.7結束，
