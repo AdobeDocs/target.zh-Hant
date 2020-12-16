@@ -25,9 +25,9 @@ ht-degree: 90%
 
    如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   如果[!UICONTROL Administration] > [!UICONTROL Reporting]（預設值）中未啟用此選項，請指定優先順序：低、中或高。
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   要啟用細粒度優先順序，請按一下「管理」>「報告」[!UICONTROL ，然後將「啟用細粒度優先順序」]選項切換到「開啟」位置。]][!UICONTROL [!UICONTROL 
 
    如果已啟用此選項，請指定介於 0 和 999 之間的值:
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [多變數測試](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 訓練影片: 活動設定 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 活動設定  ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
