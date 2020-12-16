@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.target.getOffers（選項）- at.js 2.x
 
 此函數可讓您透過傳入多個 mbox 來擷取多個選件。此外，還可針對使用中活動內的所有檢視擷取多個選件。
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->請參閱 [Delivery API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) ，以取得下列所有欄位可接受類型的相關資訊。
+>如需下列所有欄位可接受類型的詳細資訊，請參閱[傳送API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 欄位名稱 | 必要? | 限制 | 說明 |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+然後，可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉送至Adobe Analytics。
 
 ## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料 {#multiple}
 
