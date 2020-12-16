@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # ![PREMIUM](/help/assets/premium.png) 企業使用者權限{#enterprise-user-permissions}
 
-Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
+企業使用者權限是正式管理企業內部使用者存取[!DNL Target]的方式。 將使用者新增至[!DNL Target]、根據其角色指派權限，並根據不同的部門、全域位置、頻道和其他邏輯群組為團隊建立工作區。 您可以為用戶分配[!UICONTROL Observer]、[!UICONTROL Editor]或[!UICONTROL Approver]的角色。
 
 ## 判斷您是否擁有企業使用者權限的存取權
 
@@ -22,27 +22,27 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 >
 >屬性和權限功能屬於  Premium 解決方案的一部分。[!DNL Target]在沒有 [!DNL Target] Premium 授權的 [!DNL Target] Standard 中無法使用。
 >
->Your [!DNL Target] implementation can be using any version of at.js or mbox.js.
+>您的[!DNL Target]實作可以使用任何版本的at.js或mbox.js。
 
-You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
+您可以按一下[!DNL Target] UI頂端的[!UICONTROL 管理]連結，來判斷您的組織是否擁有Standard或Premium授權。
 
-* **[!DNL Target Standard]客戶**:如果您看到「使 [!UICONTROL 用者] 」標籤([!UICONTROL 「管理>使用者]」)（而非「屬性」標籤），則您的組織會擁有 [!DNL Target Standard] 授權。 [!DNL Target Standard]客戶應依照「使用者」中的 [指示](/help/administrating-target/c-user-management/c-user-management/user-management.md) ，在中新增使用者並指派權限 [!DNL Adobe Admin Console]。
+* **[!DNL Target Standard]客戶**:如果您看到「用  戶」表([!UICONTROL 「管理」>「用戶」])(而非「屬  性」表)，則您的組織擁有 [!DNL Target Standard] 許可證。[!DNL Target Standard]客戶應依照「使用者」中的 [](/help/administrating-target/c-user-management/c-user-management/user-management.md) 指示，在中新增使用者及指派權限 [!DNL Adobe Admin Console]。
 
-* **[!DNL Target Premium]客戶**:如果您看到「屬 [!UICONTROL 性] 」標籤([!UICONTROL 「管理」>「屬性]」)和「使用者」標籤 [!UICONTROL ，則您的組織會擁有][!DNL Target Premium] 授權。 [!DNL Target Premium] 客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
+* **[!DNL Target Premium]客戶**:如果您看到「屬  性」(「管[!UICONTROL 理」>「屬性]」)和「用戶」(  Users)表，則您的組織具有 [!DNL Target Premium] 許可證。[!DNL Target Premium] 客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
 
 ## 開始使用企業權限之前
 
 >[!IMPORTANT]
 >
->Ensure that you read the [Caveats](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
+>請務必先閱讀下面的[Penouns](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2)一節，然後再繼續使用企業權限。
 
-## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## 本節{#section_F8D229544FEA41C3BC2EFD1F95AA0116}中使用的詞語和定義
 
-The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
+本節使用下列詞語，對想要使用[!DNL Target] Premium中「屬性」和「權限」功能的使用者可能是新手。
 
 ### 屬性
 
-Properties are similar in nature to those within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
+屬性的性質與[!DNL Adobe Platform Launch]中的屬性類似，因為屬性使用唯一的程式碼片段來區分它們。
 
 Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多個網域和子網域的任何群組。
 
@@ -54,29 +54,29 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 工作區可讓組織將特定一組使用者指派至特定一組屬性。工作區有許多地方皆與 [!DNL Adobe Analytics] 中的報表套裝相似。
 
-Note: Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].
+注意：工作區在[!DNL Adobe Admin Console for Enterprise]中稱為[!UICONTROL 產品描述檔]。
 
 如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
 
 使用者可以屬於多個工作區並且甚至可具有每個工作區內不同的角色。
 
-Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
+使用者可在工作區之間移動，以獲得[!DNL Adobe Target]的不同檢視，類似於[!DNL Analytics]使用者在報表套裝之間移動，以獲得[!DNL Analytics]的不同檢視。
 
 工作區可以包含完全不同的對象、代碼選件和活動。
 
 在新企業權限模型移轉之前建立的所有對象和活動將於「預設工作區」中群組在一起，以下會討論。
 
-All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the &quot;Default Workspace.&quot;
+透過[!DNL Adobe Experience Manager](AEM)、[!DNL Adobe Mobile Services]和[!DNL Adobe Target Classic]建立的所有活動都將屬於「預設工作區」。
 
 ### 預設工作區
 
-All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called &quot;Default Workspace&quot; during your organization&#39;s migration to the new Enterprise Permissions model.
+在您組織移轉至新的企業權限模型期間，[!DNL Admin Console]內的所有現有工作區（產品設定檔）都會合併到名為「預設工作區」的單一工作區中。
 
 >[!IMPORTANT]
 >
 >請勿刪除預設工作區。
 
-All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
+所有用戶角色和對所有[!DNL Target]功能的訪問權與遷移到新企業權限模型之前完全相同。
 
 ### 使用者群組
 
@@ -99,7 +99,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 建立新活動時，它是在目前選取的工作區中建立。您將在第一個對話方塊中看到通道選取選項，讓您選擇活動需要的通道: Web、行動應用程式、電子郵件或其他/API。
 
-## Permissions overview {#section_DC2172520DA84605B218A5E9FB6D187A}
+## 權限概述{#section_DC2172520DA84605B218A5E9FB6D187A}
 
 下列資訊說明先前在 [!DNL Target] 中執行權限的方式，以及如何使用[!UICONTROL 屬性]和[!UICONTROL 權限]功能來加以執行。
 
@@ -138,7 +138,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 在此範例中，Jan 看不到產品頁面、俄羅斯網站和求職網站。
 
-## 使用案例案例案例 {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## 使用案例方案{#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 下列使用案例有助於瞭解屬性、專案、角色和權限如何能協助您使用 [!DNL Target] 達成您的行銷目標:
 
@@ -184,7 +184,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 * **Diana**: Diana 現在是組織的分析師，並且已獲授與醫院網站和消費者網站的觀察者權限，該權限提供她對活動的唯讀存取。Diana 可以檢視活動，但無法建立或編輯活動。
 
-## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
+## Target UI屬性和權限觸點{#section_3414371393BB42999A268628B5456EC9}
 
 您可以在 [!DNL Target] UI 的多個位置看到新的權限功能。
 
@@ -198,13 +198,13 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 * **受眾建立:**&#x200B;當您建立新的受眾時，會建立在目前選取的工作區中。
 * **選件建立:**&#x200B;當您建立新的選件時，會建立在目前選取的工作區中。
-* **屬性頁（管理>屬性）:** 您可以使用「搜 [!UICONTROL 尋] 」方塊來搜尋 [!UICONTROL 「屬性] 」清單。
+* **「屬性」頁（「管理」>「屬性」）:** 您可以使用  Searchbox來搜尋「屬  性」清單。
 
    ![](assets/properties_list.png)
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
+在[!DNL Target] Premium中使用或設定屬性和權限時，請考慮下列事項：
 
 * **重要**: 請勿刪除具有活動的工作區。如果發生此情況，請洽詢客戶服務來復原這些活動。
 * 使用「所有我的工作區」檢視時:
@@ -244,7 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * 影像選件 (儲存在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的資產) 目前無法透過企業權限模型控制。
    * clickTracking 和重新導向，只有在目的地連結或目的地頁面屬於活動中所包含屬性的一部分時才有作用。此外，使用 `targetPageParams()` 函數時，clickTracking 可能無法使用。`targetPageParamsAll()` 為建議的函數。
 
-   [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
+   [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。如果Token不存在(1)、(2)在活動設定時（在VEC中）未偵測到，或(3)未透過`targetPageParamsAll()`函式傳遞至clickTracking Target呼叫，度量將不會增加，並顯示為&quot;0&quot;。
 
    對於使用重新導向的活動也是相同的情況。目的地頁面必須具有 `at_property` Token，並且需在 VEC 內設定時辨識。
 
@@ -284,7 +284,7 @@ Consider the following when using or configuring properties and permissions in [
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+### 訓練影片：企業權限訓練影片![概觀徽章](/help/assets/overview.png)
 
 學習目標:
 
@@ -305,6 +305,6 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!NOTE]
 >
->「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+>[!DNL Target] [!UICONTROL Administration]功能表UI（先前稱為[!UICONTROL Setup]）已重新設計，以提供改善的效能、縮短發布新功能時所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
