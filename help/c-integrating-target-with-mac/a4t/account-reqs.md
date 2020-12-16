@@ -29,25 +29,25 @@ ht-degree: 49%
 
 [!DNL Analytics] 和 [!DNL Target] 使用者帳戶必須連結至 Adobe ID。
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+如需詳細資訊，請參閱[組織和帳戶連結](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)。
 
 ### 設定 Experience Cloud 群組成員資格
 
 您必須是具有 [!DNL Analytics] 和 [!DNL Target] 存取權之一或多個 [!DNL Experience Cloud] 群組的成員。
 
-For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+如需詳細資訊，請參閱[管理Experience Cloud使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
+設定對[!DNL Analytics]報表套裝的存取：
 
 若要在指定的報表套裝上使用A4T，您必須擁有該報表套裝的存取權。
 
-1. 在「管 **[!UICONTROL 理控制台]**」中，按一下 [!DNL Analytics] 產品設定檔，然後按一下「權 **[!UICONTROL 限]** 」標籤。
+1. 在&#x200B;**[!UICONTROL 管理控制台]**&#x200B;中，按一下[!DNL Analytics]產品設定檔，然後按一下&#x200B;**[!UICONTROL 權限]**&#x200B;標籤。
 
    然後您就可以看到描述檔可存取的報表套裝。
 
-1. 請確定您要存取的報表套裝是您 [!DNL Target] 所屬產品設定檔中所列的報表套裝之一。
+1. 請確定您要在[!DNL Target]中存取的報表套裝是您所屬產品設定檔中所列的報表套裝之一。
 
    下圖為可存取所有報表套裝的產品設定檔範例：
 
