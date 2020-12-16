@@ -38,7 +38,7 @@ ht-degree: 71%
 
 * **問題:** 您的網站網域 (ISP) 正在封鎖增強體驗撰寫器。
 
-   **補救方法：** 允許列出上述IP位址。
+   **Remedy:** 允許列出上述IP位址。
 
 * **問題：** 允許列出IP位址，但您的網站不支援TLS 1.2版。Target目前使用預設的1.2組態。在Target 18.4.1之前（2018年4月25日），預設組態支援TLS 1.0。如需詳細資訊，請參 [閱TLS（傳輸層安全性）加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
@@ -46,7 +46,7 @@ ht-degree: 71%
 
 ## EEC 不會在我使用 TLS 1.0 的網站上安全頁面中載入。(僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-您可能會看見以上的「增強可視化體驗撰寫器不會在我的網站上安全頁面中載入」中所述的錯誤訊息。if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+您可能會看見以上的「增強可視化體驗撰寫器不會在我的網站上安全頁面中載入」中所述的錯誤訊息。如果上述IP位址已允許列出，但您的網站不支援TLS 1.2版。Target目前使用預設的1.2組態。在Target 18.4.1之前（2018年4月25日），預設組態支援TLS 1.0。如需詳細資訊，請參閱[TLS（傳輸層安全性）加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
 若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
 
