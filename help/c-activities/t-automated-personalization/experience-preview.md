@@ -12,7 +12,7 @@ ht-degree: 64%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview使用體驗預覽URL自動個人化活動{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUMP使用體驗預覽URL審核自動個人化活動](/help/assets/premium.png) {#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 體驗預覽URL可針對Target自動個人化活動產生，以便在活動上線以供預覽和QA之用前，直接在您的網站上查看體驗內容。 體驗預覽URL會略過定位，強制檢視特定體驗。
 
@@ -31,14 +31,14 @@ ht-degree: 64%
 1. 檢閱和/或指定您的 URL。
 
    * 如果您使用可視化體驗撰寫器，則會自動輸入您為活動指定的預設的 URL，並且為您的活動中的每個體驗產生連結。您可以變更此 URL 和新增其他 URL (如需要)。
-   * 如果您使用表單式體驗撰寫器，則不會自動輸入預設的 URL。If you haven&#39;t previously created experience preview URLs, click **Add New URL**. 您必須指定您要預覽的所有 URL 以及每個 URL 的名稱。
+   * 如果您使用表單式體驗撰寫器，則不會自動輸入預設的 URL。如果您先前未建立體驗預覽URL，請按一下「新增URL」。 ****&#x200B;您必須指定您要預覽的所有 URL 以及每個 URL 的名稱。
 
    您可以新增多個 URL，當您執行多頁測試或範本測試，且要在一個以上的頁面上預覽活動時相當實用。
 
    互動視窗會顯示您的網站上體驗的連結，以獲得在 Target 的可視化體驗撰寫器外部的體驗「真正預覽」。您必須分享來自訊息的連結以分享預覽。按一下連結，然後從頁面複製產生的 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。請改為複製強制回應視窗中的文字，並透過電子郵件傳送給您的團隊。
 1. 按一下&#x200B;**[!UICONTROL 「全部產生」]**，然後按一下每個體驗來預覽。
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
+   如果您接著變更體驗，請務必返回模式視窗，然後按一下「續約連結」(Renew Links)**以取得新連結，為團隊產生新的預覽連結。**
 
    **注意:** 預覽連結會在新標籤中開啟，並且需要停用您的瀏覽器中的快顯封鎖程式。
 
