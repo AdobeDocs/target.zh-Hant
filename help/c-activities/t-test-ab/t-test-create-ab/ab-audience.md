@@ -48,7 +48,7 @@ ht-degree: 98%
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 在 Adobe Target 中使用對象 (6:21) ![概述徽章](/help/assets/overview.png)
+### 在 Adobe Target 中使用對象 (6:21)  ![概述徽章](/help/assets/overview.png)
 
 此影片說明如何在 [!DNL Target Standard/Premium] 中使用對象。
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### 活動工作流程——定位(2:14)教學 ![課程徽章](/help/assets/tutorial.png)
+### 活動工作流程——定位(2:14)![教學課程標章](/help/assets/tutorial.png)
 
 此視訊包含有關如何設定對象的資訊。
 
