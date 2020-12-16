@@ -21,9 +21,9 @@ ht-degree: 63%
 在iOS和Android Mobile SDK中使用預回遷方法時，請考慮下列限制：
 
 * 預先擷取內容不會在跨啟動之間持續有效。只要應用程式仍然存在，或直到呼叫 `clearPrefetchCache()` 方法為止，則會快取預先擷取內容。
-* 自動個人化或 [!UICONTROL Recommendations分配活動類型、或在A/B或XT活動中支援Commendations活動，支援Auto-Personalization] 和Auto-Recommendations流量分配方法、Automated Personalization或 [](/help/c-recommendations/recommendations-as-an-offer.md)Recommendations活動或Commendations活動，都不支援預回遷功能。
+* [!UICONTROL 自動分配]和[!UICONTROL 自動目標]流量分配方法、[!UICONTROL 自動個人化]或[!UICONTROL 建議]活動類型或A/B或XT活動](/help/c-recommendations/recommendations-as-an-offer.md)中的建議不支援預回遷功能。[
 
 如需詳細資訊，包括預先提取方法、公用類別和程式碼範例，請參閱:
 
-* **iOS:** [預回遷iOS中的選件內容](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) ，請參閱 *Mobile Services iOS SDK說明*。
-* **Android:** [在Mobile](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) Services Android SDK說明 *中預回遷選件內容*。
+* **iOS：在**  [Mobile Services iOS SDK說明](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) 的iOS *中預回遷選件內容*。
+* **Android：在**  [Mobile Services Android SDK說明](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) 的 *Android中預回遷選件內容*。
