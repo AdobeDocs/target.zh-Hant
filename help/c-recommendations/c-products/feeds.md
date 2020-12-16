@@ -20,7 +20,7 @@ ht-degree: 85%
 
 摘要可用來傳遞[實體](/help/c-recommendations/c-products/products.md)或擴增 mbox 資料的資訊，此資訊無法在頁面上取得，或直接從頁面傳送很不安全，例如利潤、COGS 等。
 
-動態消息可讓您將詳細的項目資訊 [!DNL Recommendations]傳遞至，例如產品ID、類別、名稱、訊息和其他屬性。
+動態消息可讓您將詳細的項目資訊傳入[!DNL Recommendations]，例如產品ID、類別、名稱、訊息和其他屬性。
 
 您可以選取要將 [!DNL Target] 產品分類檔案或 Google Product Search 檔案中的哪些欄位傳送至 [!DNL Recommendations] 伺服器。
 
@@ -31,7 +31,7 @@ ht-degree: 85%
 * 將項目排序至不同的系列
 * 將排除套用至建議
 
-項目說明可使用動態消息 [!DNL Target] 或mbox傳遞至。 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
+項目說明可使用動態消息或mbox傳遞至[!DNL Target]。 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
 
 [!UICONTROL 摘要]清單 (**[!UICONTROL 建議]** > **[!UICONTROL 摘要]**) 提供您已建立的任何摘要的相關資訊。
 
@@ -108,7 +108,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### Google  {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 Google 產品搜尋摘要類型使用 Google 格式。這與 Adobe 的專屬 CSV 上傳格式不同。
 
@@ -118,13 +118,13 @@ Google 產品搜尋摘要類型使用 Google 格式。這與 Adobe 的專屬 CSV
 >
 >不一定要使用 Google 資料。[!DNL Recommendations] 使用與 Google 相同的格式。您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。實體饋送可透過。xml、.txt或。tsv傳送至[!DNL Recommendations]，並可使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定義的[屬性。 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >
 >託管 Google 摘要內容的伺服器上必須允許使用 POST 方法。
 
-Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
+由於[!DNL Recommendations]使用者已設定。xml或。txt摘要以透過URL或FTP傳送至Google，實體摘要會接受該產品資料，並使用它來建立建議目錄。 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
 
 如果您將 Google Product Search 用於實體摘要上傳，您仍然需要將產品頁面 mbox 放置在要顯示建議的頁面上，或是根據檢視來追蹤演算法傳遞的產品檢視。
 
@@ -207,21 +207,21 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analytics 產品分類  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 產品分類是建議唯一可用的分類。For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
->Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
+>在使用Analytics產品分類將實體資料匯入[!DNL Recommendations]之前，請注意，這不是偏好的方法。
 >
 > 請注意下列警告:
 >
 >* 更新實體屬性會引起額外延遲，最多 24 小時。
->* [!DNL Target] 僅支援產品分類。 The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. 您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
+>* [!DNL Target] 僅支援產品分類。Analytics產品SKU必須與[!DNL Recommendations] `entity.id`對應至相同的層級。 您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
 
 
-## 建立摘要 {#steps}
+## 建立摘要  {#steps}
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
@@ -236,7 +236,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
    * Google 產品摘要
    * Analytics 分類
 
-   如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您也可以[下載CSV模型指南](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv)，協助您正確設定動態消息格式。
 
 1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]** 或 **[!UICONTROL Google 產品摘要]**，請指定可存取摘要的位置。
 
@@ -284,7 +284,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 當狀態顯示「成功」時，表示找到檔案且剖析正確。在檔案編列索引之前，[!DNL Recommendations] 內沒有資訊可用，這需要一些時間，視檔案大小而定。如果處理程序失敗，表示找不到檔案 (例如，您使用不正確的 URL，或 FTP 資訊不正確) 或剖析錯誤。
 
-## 摘要狀態和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
+## 摘要狀態和指示器  {#concept_E475986720D1400999868B3DFD14A7A0}
 
 關於可能的摘要狀態和其指示器的資訊。
 
@@ -309,7 +309,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 >[!IMPORTANT]
 >
->上傳的實體會在 61 天後過期。這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
+>上傳的實體會在 61 天後過期。這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。如果某個項目至少每60天不包含一次在動態消息檔案（或其他實體更新方法）中，[!DNL Adobe Target]會推斷該項目不再相關，並從目錄中移除該項目。
 
 ### 摘要狀態指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +342,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解 Recommendations 中的摘要 (3:01) ![概述徽章](/help/assets/overview.png)
+### 瞭解 Recommendations 中的摘要 (3:01)  ![概述徽章](/help/assets/overview.png)
 
 此影片包含下列資訊:
 
@@ -351,7 +351,7 @@ Analytics 產品分類是建議唯一可用的分類。For more information abou
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 建立摘要 (6:44) ![教學課程徽章](/help/assets/tutorial.png)
+### 建立摘要 (6:44)  ![教學課程徽章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
