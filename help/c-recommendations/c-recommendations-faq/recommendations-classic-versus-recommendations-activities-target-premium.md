@@ -61,7 +61,7 @@ ht-degree: 100%
 1. 選取預先建立的[設計](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 1. 預覽建議結果。
 
-## 視覺預覽 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## 視覺預覽  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 設定建議之後即可預覽，並進行任何必要的變更，而不需要先在頁面上建立，然後再測試。從 [!DNL Target] 內可以使用預覽。
 
