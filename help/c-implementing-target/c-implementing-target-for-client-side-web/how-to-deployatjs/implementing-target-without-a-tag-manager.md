@@ -14,13 +14,13 @@ ht-degree: 70%
 
 # 不使用標籤管理程式實作 Target{#implement-target-without-a-tag-manager}
 
-有關不使用標 [!DNL Adobe Target] 簽管理器（或）實作[!DNL Adobe Launch] 的 [!DNL Dynamic Tag Manager]資訊。
+有關不使用標籤管理器（[!DNL Adobe Launch]或[!DNL Dynamic Tag Manager]）實作[!DNL Adobe Target]的資訊。
 
 >[!NOTE]
 >
 >[推薦使用 Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 實作 Target 和 at.js 程式庫。下列資訊不適用於使用 Adobe Launch 實作 Target。
 
-若要存取「實 [!UICONTROL 施] 」頁面，請按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 施」]**。
+要訪問[!UICONTROL 實施]頁，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實施]**。
 
 您可以在此頁面上指定下列設定：
 
@@ -51,7 +51,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->這些設定會套用至所有 [!DNL Target] .js程式庫。 在「實作方法」區 [!UICONTROL 段中執行變更] ，您需要下載程式庫並在實作中更新它。
+>這些設定會套用至所有[!DNL Target] .js程式庫。 在[!UICONTROL 實作方法]區段中執行變更後，您需要下載程式庫並在實作中更新它。
 
 | 設定 | 說明 |
 | --- | --- |
@@ -66,13 +66,13 @@ ht-degree: 70%
 >
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
 
-若要下載所需的at.js版本，請按一下適當的「下 **[!UICONTROL 載]** 」按鈕。
+若要下載所需的at.js版本，請按一下適當的&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。
 
-若要編輯at.js設定，請按一 **[!UICONTROL 下所要]** at.js版本旁的「編輯」。
+若要編輯at.js設定，請按一下所要at.js版本旁的&#x200B;**[!UICONTROL Edit]**。
 
 >[!IMPORTANT]
 >
->在變更這些預設設定之前，請洽詢 [Client Care](/help/cmp-resources-and-contact-information.md) ，以免影響您目前的實作。
+>在變更這些預設設定之前，請諮詢[Client Care](/help/cmp-resources-and-contact-information.md)，以免影響您目前的實作。
 
 除了上述設定外，還提供下列特定at.js設定：
 
@@ -85,17 +85,17 @@ ht-degree: 70%
 
 啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
 
-For more information, see [Profile API settings](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+如需詳細資訊，請參閱[描述檔API設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)。
 
 ### 除錯工具
 
-產生授權Token以使用進階的除 [!DNL Target] 錯工具。 Click **[!UICONTROL Generate New Authentication Token]**.
+產生授權Token以使用進階的[!DNL Target]除錯工具。 按一下「產生新驗證Token ]**」。**[!UICONTROL 
 
 ![產生新的驗證Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### 隱私權
 
-這些設定可讓您依照相 [!DNL Target] 關的資料隱私法使用。
+這些設定可讓您使用[!DNL Target]，以符合適用的資料隱私法。
 
 從「模糊化訪客IP位址」下拉式清單中選擇所要的設定：
 
@@ -111,7 +111,7 @@ For more information, see [Profile API settings](/help/c-implementing-target/c-c
 
 ## 下載 at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
-Instructions to download the library using the [!DNL Target] interface or the Download API.
+使用[!DNL Target]介面或下載API下載程式庫的指示。
 
 >[!NOTE]
 >
@@ -121,20 +121,20 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 * Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
 
-### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
+### 使用Target介面{#section_1F5EE401C2314338910FC57F9592894E}下載at.js
 
 若要從 [!DNL at.js] 介面下載 [!DNL Target]:
 
-1. 按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 施」]**。
-1. 在「實 [!UICONTROL 作方法] 」區段中，按一下所 **[!UICONTROL 要at.js版本旁的「下載]** 」按鈕。
+1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 實施]**」。
+1. 在[!UICONTROL 實作方法]區段中，按一下所需at.js版本旁的&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。
 
-### Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### 使用Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}下載at.js
 
 若要使用 API 來下載 [!DNL at.js]:
 
 1. 取得用戶端程式碼。
 
-   Your client code is available at the top of the **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** page of the [!DNL Target] interface.
+   您的客戶端代碼位於[!DNL Target]介面的&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實施]**&#x200B;頁面的頂部。
 
 1. 取得您的管理員編號。
 
@@ -144,7 +144,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Replace `client code` with the client code from Step 1.
+   將`client code`取代為步驟1的用戶端程式碼。
 
    載入此 URL 的結果應該類似下列範例:
 
@@ -164,9 +164,9 @@ Instructions to download the library using the [!DNL Target] interface or the Do
    https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
-   * Replace `admin number` with your admin number.
-   * Replace `client code` with the client code from Step 1.
-   * Replace `version number` with the desired at.js version number (for example, 2.2).
+   * 將`admin number`取代為您的管理員編號。
+   * 將`client code`取代為步驟1的用戶端程式碼。
+   * 將`version number`取代為所需的at.js版本號碼（例如2.2）。
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
    載入此 URL 會開始下載自訂的 [!DNL at.js] 檔案。
 
-## at.js implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js實作{#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 
@@ -235,13 +235,13 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 請考量下列重要注意事項:
 
 * 應使用 HTML5 Doctype (如 `<!doctype html>`)。不支援或舊版 doctype 可能會造成 Target 無法提出要求。
-* 「預先連結」和「預先擷取」可能有助於加速網頁載入。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page.
+* 「預先連結」和「預先擷取」可能有助於加速網頁載入。如果您使用這些設定，請確定您以您自己的用戶端程式碼取代`<client code>`，您可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實施]頁面取得。
 * 如果有資料層，最好在 at.js 載入前，盡可能在網頁的 `<head>` 中詳細定義。這個位置能讓您在 Target 最大限度運用這類資料進行個人化。
 * 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。此外，這些函數亦可儲存於[!UICONTROL 「編輯 at.js 設定」]頁面的[!UICONTROL 「程式庫標題」]部分，並存入 at.js 程式庫本身。如需特殊函數的詳細資訊，請參閱 [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 * 如果使用 jQuery 等 JavaScript 輔助函式庫，請在 Target 前加入這些函式庫，以便在建立 Target 體驗時使用這些函式庫的語法和方法。
 * 在網頁的 `<head>` 中加入 at.js。
 
-## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
+## 追蹤轉換{#task_E85D2F64FEB84201A594F2288FABF053}
 
 訂購確認 mbox 會記錄關於您的網站上訂單的詳細資料，並允許根據收入和訂單報告。訂購確認 mbox 也可以促進建議演算法，例如「購買了產品 x、也購買了產品 y 的使用者」
 
