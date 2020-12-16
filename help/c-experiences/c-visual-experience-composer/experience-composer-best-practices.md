@@ -30,7 +30,7 @@ ht-degree: 97%
 
 **您可以在帳戶層級 (已針對在帳戶中建立的所有活動啟用) 或是在個別活動層級啟用增強體驗撰寫器。**
 
-To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
+若要在帳戶層級啟用「增強的體驗撰寫器」，請按一下「管理> Visual Experience Composer]」，然後將切換器切換至「開啟」位置。[!UICONTROL 
 
 在可視化體驗撰寫器中建立活動時，若要在活動層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 > URL]」，然後將開關切換至「開啟」位置。
 
@@ -182,7 +182,7 @@ OR
 </html>
 ```
 
-## 注意事項 {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## 注意事項  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 使用可視化體驗撰寫器來設計活動時，請注意下列警告。
 
