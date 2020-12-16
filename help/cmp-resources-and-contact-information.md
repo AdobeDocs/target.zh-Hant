@@ -12,7 +12,7 @@ ht-degree: 79%
 ---
 
 
-# Resources and contact information{#resources-and-contact-information}
+# 資源與聯絡資訊{#resources-and-contact-information}
 
 其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
 
@@ -45,11 +45,11 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 | 主題/播放時間/錄影日期 | 學習目標 |
 |--- |--- |
-| [at.js秘訣與概觀](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>2019年6月26<br>日59:12 | 您將學習：<ul><li>使用at.js的優點</li><li>at.js設定</li><li>閃爍處理</li><li>Debugging at.js</li><li>已知問題</li><li>常見問題解答</li></ul>For more information, see [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
-| [Target Premium Workspaces](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018年9月4日 | 您將能學習到:<ul><li>建立工作區（產品設定檔）</li><li>建立屬性</li><li>新增使用者</li><li>更新實作</li></ul>如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
-| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017年12月50日 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/c-experiences/experiences.md)。 |
-| [Adobe Target:Analytics/Target整合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40:33<br>日 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js:優勢與實施最佳做](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>法26:43<br>2018年4月26日 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>At.js 勝過 mbox.js 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul>如需本指南的詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [at.js秘訣與概觀](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>2019年6月26<br>日59:12 | 您將學習：<ul><li>使用at.js的優點</li><li>at.js設定</li><li>閃爍處理</li><li>Debugging at.js</li><li>已知問題</li><li>常見問題解答</li></ul>如需詳細資訊，請參閱[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)。 |
+| [Target Premium Workspaces](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49 <br>2018年9月4日 | 您將能學習到:<ul><li>建立工作區（產品設定檔）</li><li>建立屬性</li><li>新增使用者</li><li>更新實作</li></ul>如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
+| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23 <br>2017年12月50日 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/c-experiences/experiences.md)。 |
+| [Adobe Target:Analytics/Target整合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33 <br>2018年1月 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js:優勢與實施最佳做](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>法26:43 <br>2018年4月26日 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>At.js 勝過 mbox.js 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul>如需本指南的詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 「客戶服務」準備幫助您解決任何可能出現的問題。此頁面包含連絡「客戶服務」以加快解決問題時所需要的資訊。
 
-### 基本資訊 {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### 基本資訊  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 如果您遇到問題或在使用 Target 方面有疑問，您有多種選擇
 
-For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare).
+如有疑問，您可以向[Experience Cloud社群](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)的Adobe Target專家提出問題，或在Twitter上向我們提出問題，來信請寄至[@AdobeExpCare](https://twitter.com/adobeexpcare)。
 
-如有技術問題或要記錄錯誤，您可連絡客戶服務。若要以電話聯絡客戶服務，請撥打 1-800-497-0335。Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. 若被要求選取產品選項，請按 3 聯絡 Target 團隊。
+如有技術問題或要記錄錯誤，您可連絡客戶服務。若要以電話聯絡客戶服務，請撥打 1-800-497-0335。在[Adobe數位行銷客戶服務地區電話號碼](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)頁面上，可找到美國以外地區的免付費電話。 若被要求選取產品選項，請按 3 聯絡 Target 團隊。
 
 寄送電子郵件給客戶服務: [!DNL customercare@adobe.com]。
 
@@ -82,7 +82,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 | 業務影響 | 對您的業務有何影響? 例如，這個問題造成收入減少或導致產品無法使用，有可行的解決方法嗎? |
 | 期望 | 您期望發生什麼事? |
 
-如需內容傳送問題，請參閱疑難 [排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md) ，以取得可能的解決方案和疑難排解資訊。
+如需內容傳送問題，請參閱[疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md)以取得可能的解決方案和疑難排解資訊。
 
 ### 發生中斷時 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
@@ -97,7 +97,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 此項資訊可協助您聯絡 Adobe 並瞭解使用本產品與文件的相關法律問題。
 
-### 說明和技術支援 {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### 說明和技術支援  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其聯絡的許多種途徑:
 
@@ -115,9 +115,9 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 根據您的解決方案設定，本文件中說明的某些選項可能無法使用。因為每個帳戶都是獨一無二，所以關於定價、到期日、條款和條件的資訊請參閱您的合約。若您想要新增或變更服務層級，或有關於目前服務的疑問，請聯絡您的客戶經理。
 
-### 意見反應 {#section_8154D6D712054220A90D85FA8E92933E}
+### 意見反應  {#section_8154D6D712054220A90D85FA8E92933E}
 
-我們很歡迎關於本解決方案的任何建議或回饋意見。您可將增強功能的概念和建議新增至 [Adobe Target Experience League社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 Click the [!UICONTROL Ideas] tab.
+我們很歡迎關於本解決方案的任何建議或回饋意見。您可將增強功能構想和建議新增至[Adobe Target體驗聯盟社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 按一下[!UICONTROL Ideas]頁籤。
 
 ### 法律資訊 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
@@ -128,4 +128,4 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners.更新資訊／其他協力廠商程式碼資訊，請參閱[https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/)。
