@@ -28,7 +28,7 @@ ht-degree: 80%
 
    >[!NOTE]
    >
-   >對於第2版的at.js實作而言，這是正確的。*x或* 更新版本。 for at.js 1.*x* 和mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
+   >對於第2版的at.js實作而言，這是正確的。** x或更新版本。for at.js 1.** xand mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
 
 ## 存取和共用 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -44,7 +44,7 @@ ht-degree: 80%
 
       如果此設定切換到「關閉」位置，則按一下連結所顯示的體驗不在乎您是否符合資格。執行 QA 時，您可以在是否需要顧及對象鎖定目標之間來回切換。
 
-   * **顯示所有其他活動的預設內容：** 如果此選項切換至「開啟」位置，則會針對所有其他活動顯示預設內容(例如，預覽會單獨顯示，而不會考慮同一頁面／請求上的所有其他即時活動[!DNL Target] 。
+   * **顯示所有其他活動的預設內容：** 如果此選項被切換至「開啟」位置，則會針對所有其他活動顯示預設內容(例如，預覽會單獨顯示，而不會考慮相同頁面／請求上的所有其他即時[!DNL Target] 活動。
 
       如果此設定切換為「關閉」，請考量下列事項:
 
@@ -58,7 +58,7 @@ ht-degree: 80%
 
    每個活動連結 URL (用於體驗 A、體驗 B 等)可讓您從相應的體驗啟動使用者旅程。您可以按一下為體驗所產生的 URL，然後繼續正常的網站瀏覽，在多個頁面上查看體驗 (如果有多個頁面存在)。即使體驗橫跨多個頁面 (範本測試或多頁測試)，每個體驗也只會產生一個 URL。
 
-   因為活動 QA 有黏性，您可以導覽網站來查看其他頁面。請注意，對於第2版的at.js實作而言，這是正確的。*x或* 更新版本。 for at.js 1.*x* 和mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
+   因為活動 QA 有黏性，您可以導覽網站來查看其他頁面。請注意，對於第2版的at.js實作而言，這是正確的。** x或更新版本。for at.js 1.** xand mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
 
 1. 若要查看從活動連結 URL 產生的報表，請按一下活動的 **[!UICONTROL 「報表」]** 頁面，按一下 **[!UICONTROL 「設定」]** 圖示 (![](assets/icon_gear.png))，然後從 **[!UICONTROL 「環境」]** 下拉式清單中選取 **[!UICONTROL 「QA 模式」]**。
 
@@ -75,7 +75,7 @@ ht-degree: 80%
    您也可以在網站上以帶有空白值的 `at_preview_token` 參數 (例如，`https://www.mysite.com/?at_preview_token=`) 來載入頁面，以手動強迫自己離開。
 
 * 如果您在建立活動時指定「URL 是」[表單式撰寫器中的細分](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可視化體驗撰寫器中的頁面傳送選項)](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，則 QA URL 沒有作用，因為活動 QA 會附加 URL 參數。若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
-* 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他封鎖第三方Cookie的瀏覽器，則x或mbox.js的「活動QA」模式將不嚴格。 在這些情況下，您必須將預覽參數新增至您導覽至的每個URL。 如果您已實作 [CNAME，也是如此](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
+* 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他封鎖第三方Cookie的瀏覽器，則x或mbox.js的「活動QA」模式將不嚴格。在這些情況下，您必須將預覽參數新增至您導覽至的每個URL。 如果您已實作[CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)，則情況也相同。
 * 如果活動使用多個體驗對象 (例如，相同活動中包含的 US 和 UK 網站)，則這四個組合 (體驗 A/ US 網站、體驗 A/ UK 網站、體驗 B/ US 網站、體驗 B/ UK 網站) 不會產生 QA 連結。只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。UK QA 的人無法看見 US 網站。
 * 所有 `at_preview` 參數和值皆已完成 URL 編碼。一切通常皆沒問題，不過，某些客戶可能有負載平衡器或 Web 伺服器，會嘗試將查詢字串參數再一次編碼。
 
@@ -90,7 +90,7 @@ ht-degree: 80%
    | `at_preview_token` | 加密的字串 | 強制；無預設值 | 此加密實體包含可在 QA 模式中執行的促銷活動 ID 清單。 |
    | `at_preview_index` | 字串 | 空白 | 參數格式為 `<campaignIndex>` 或 `<campaignIndex>_< experienceIndex>`<br>兩個索引的開頭皆為 1。 |
    | `at_preview_listed_activities_only` | 布林值 (true/false) | 預設值: false | 若設為「true」，則 `at_preview_index` 參數中指定的所有促銷活動都會經過處理。<br>若設為「false」，即使預覽 Token 中未指定促銷活動，頁面的所有促銷活動都會經過處理。 |
-   | `at_preview_evaluate_as_true_audience_ids` | 字串 | 空白 | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
+   | `at_preview_evaluate_as_true_audience_ids` | 字串 | 空白 | 在[!DNL Target]請求範圍中，應一律（在目標和報告層級）評估為&quot;true&quot;的區段Id清單(&quot;_&quot;)以底線分隔。 |
    | `_AT_Debug` | 字串 | 視窗或主控台 | 主控台記錄或新視窗。 |
    | `adobe_mc_ref` |  |  | 將預設頁面的轉介 URL 傳給新頁面。與 `AppMeasurement.js` 2.1 版 (或更新版) 一起使用時，[!DNL Adobe Analytics] 會在新頁面上將此參數值當作轉介 URL。 |
    | `adobe_mc_sdid` |  |  | 將補充資料 [!DNL Supplemental Data Id] (SDID) 和 [!DNL Experience Cloud Org Id] 從預設頁面傳給新頁面，以便 Analytics for Target (A4T) 將預設頁面的 Target 要求與新頁面的 Analytics 要求「拼接」起來。 |
