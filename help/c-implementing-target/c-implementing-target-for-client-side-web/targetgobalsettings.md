@@ -34,7 +34,7 @@ ht-degree: 38%
 
 * **類型**:布林值
 * **預設值**:true
-* **說明**:當用來傳送在Visual Experience Composer中 `target-global-mbox` 建立的選件（亦稱為視覺選件）時，用來控制閃爍。
+* **說明**:用於控制閃爍， `target-global-mbox` 當用來傳送在Visual Experience Composer中建立的選件時，也稱為視覺選件。
 
 ### clientCode
 
@@ -52,37 +52,37 @@ ht-degree: 38%
 
 * **類型:** 字串
 * **預設值**:透過UI設定的值。
-* **說明**:指出是否啟用跨網域追蹤。 允許的值包括：停用、啟用或僅限x-only。
+* **說明**:指出是否啟用跨網域追蹤。允許的值包括：停用、啟用或僅限x-only。
 
 ### cspScriptNonce
 
-* **類型**:請參 [閱下方的內容安全](#content-security) 政策。
-* **預設值**:請參 [閱下方的內容安全](#content-security) 政策。
-* **說明**:請參 [閱下方的內容安全](#content-security) 政策。
+* **類型**:請參 [閱以下內](#content-security) 容保全政策。
+* **預設值**:請參 [閱以下內](#content-security) 容保全政策。
+* **說明**:請參 [閱以下內](#content-security) 容保全政策。
 
 ### cspStyleNonce
 
-* **類型**:請參 [閱下方的內容安全](#content-security) 政策。
-* **預設值**:請參 [閱下方的內容安全](#content-security) 政策。
-* **說明**:請參 [閱下方的內容安全](#content-security) 政策。
+* **類型**:請參 [閱以下內](#content-security) 容保全政策。
+* **預設值**:請參 [閱以下內](#content-security) 容保全政策。
+* **說明**:請參 [閱以下內](#content-security) 容保全政策。
 
 ### dataProviders
 
-* **類型**:請參 [閱下方的資料](#data-providers) 提供者。
-* **預設值**:請參 [閱下方的資料](#data-providers) 提供者。
-* **說明**:請參 [閱下方的資料](#data-providers) 提供者。
+* **類型**:請參 [閱以](#data-providers) 下資料提供者。
+* **預設值**:請參 [閱以](#data-providers) 下資料提供者。
+* **說明**:請參 [閱以](#data-providers) 下資料提供者。
 
 ### defaultContentHiddenStyle
 
 * **類型:** 字串
 * **預設值**:可見性：隱藏
-* **說明**:僅用於包裝使用DIV與類別名稱&quot;mboxDefault&quot;並透過、或執行以隱 `mboxCreate()`藏預 `mboxUpdate()`設 `mboxDefine()` 內容的mbox。
+* **說明**:僅用於包裝使用DIV與類別名稱&quot;mboxDefault&quot;並透過、或隱藏預 `mboxCreate()`設內容的 `mboxUpdate()` `mboxDefine()` mbox。
 
 ### defaultContentVisibleStyle
 
 * **類型:** 字串
 * **預設值**:可見性：visel
-* **說明**:僅用於包裝使用DIV與類別名稱「mboxDefault」並透過、 `mboxCreate()``mboxUpdate()``mboxDefine()` 或顯示套用的選件（如果有或預設內容）的mbox。
+* **說明**:僅用於包裝使用DIV與類別名稱&quot;mboxDefault&quot;並透過、或透過 `mboxCreate()`、 `mboxUpdate()`或 `mboxDefine()` 顯示套用的選件（如果有或預設內容）的mbox。
 
 ### deviceIdLifetime
 
@@ -98,9 +98,9 @@ ht-degree: 38%
 
 * **類型**:布林值
 * **預設值**:true
-* **說明**:啟用後，會自 [!DNL Target] 動執行擷取體驗的要求和轉譯體驗的DOM操作。 此外， [!DNL Target] 呼叫可透過 `getOffer(s)` /手動執行 `applyOffer(s)`。
+* **說明**:啟用後，會自 [!DNL Target] 動執行擷取體驗的要求和轉譯體驗的DOM操作。此外，[!DNL Target]呼叫可以透過`getOffer(s)` / `applyOffer(s)`手動執行。
 
-   停用時， [!DNL Target] 不會自動或手動執行請求。
+   停用時，[!DNL Target]請求不會自動或手動執行。
 
 ### globalMboxAutoCreate
 
@@ -118,7 +118,7 @@ ht-degree: 38%
 
 * **類型**:布林值
 * **預設值**:false
-* **說明**:指出Target是否應呼叫訪客API `isOptedOut()` 函式。 這屬於裝置圖表啟用的一部分。
+* **說明**:指出Target是否應呼叫訪客API `isOptedOut()` 函式。這屬於裝置圖表啟用的一部分。
 
 ### overrideMboxEdgeServer
 
@@ -126,7 +126,7 @@ ht-degree: 38%
 * **預設值**:true(true開頭為at.js 1.6.2版
 * **說明**:指出我們應使用網 `<clientCode>.tt.omtrdc.net` 域或網 `mboxedge<clusterNumber>.tt.omtrdc.net` 域。
 
-   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 當使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，目前無法使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) 。如果這是您的問題，請考 [慮將at.js更新為較新](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 、支援的版本。
+   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 當使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，目前無法與[CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)搭配使用。如果這是您的問題，請考慮將[at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)更新為較新的支援版本。
 
 ### overrideMboxEdgeServerTimeout
 
@@ -152,7 +152,7 @@ ht-degree: 38%
 * **預設值**:5000 ms = 5 s
 * **說明**:在at.js 0.9.6中，引 [!DNL Target] 入此可透過覆寫的新設定 `targetGlobalSettings`。
 
-   The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
+   `selectorsPollingTimeout`設定代表用戶端願意等待選擇器所識別的所有元素出現在頁面上的時間。
 
    透過可視化體驗撰寫器 (VEC) 建立的活動，其具有的選件包含選取器。
 
@@ -164,9 +164,9 @@ ht-degree: 38%
 
 ### serverState
 
-* **類型**:請參 [閱下方的Hybrid](#server-state) personalization。
-* **預設值**:請參 [閱下方的Hybrid](#server-state) personalization。
-* **說明**:請參 [閱下方的Hybrid](#server-state) personalization。
+* **類型**:請參 [閱以](#server-state) 下混合個人化。
+* **預設值**:請參 [閱以](#server-state) 下混合個人化。
+* **說明**:請參 [閱以](#server-state) 下混合個人化。
 
 ### timeout
 
@@ -178,17 +178,17 @@ ht-degree: 38%
 
 * **類型**:布林值
 * **預設值**:true
-* **說明**:啟用後，會自動擷取必須在頁面載入時傳回的檢視。 at.js 2支援檢視。*x* 版。
+* **說明**:啟用後，會自動擷取必須在頁面載入時傳回的檢視。at.js 2支援檢視。*x* 版。
 
 ### visitorApiTimeout
 
 * **類型**:數字
 * **預設值**:2000 ms = 2 s
-* **說明**:代表訪 [!UICONTROL 客API請求] 逾時。
+* **說明**:代表訪 [!UICONTROL 客] API請求逾時。
 
 ## 使用狀況 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+此函式可在載入at.js之前定義，或在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**&#x200B;中定義。
 
 資料庫標頭欄位允許輸入自由格式的 JavaScript。自訂程式碼看起來應該類似於下列範例:
 
@@ -223,7 +223,7 @@ window.targetGlobalSettings = {
 |--- |--- |--- |
 | name | 字串 | 提供者的名稱。 |
 | version | 字串 | 提供者版本。此機碼將用於提供者演進。 |
-| timeout | 數字 | 如果這是網路要求，則代表提供者逾時。此機碼為選用。 |
+| 超時 | 數字 | 如果這是網路要求，則代表提供者逾時。此機碼為選用。 |
 | provider | 函數 | 包括提供者資料擷取邏輯的函數。<br>函數有單一必要參數: `callback`。callback 參數為函數，僅應該在成功擷取資料或發生錯誤時叫用。<br>callback 預期兩個參數:<ul><li>error: 指出是否發生錯誤。如果各項都正常，則此參數應該設為 null。</li><li>params: JSON 物件，代表將在 Target 要求中傳送的參數。</li></ul> |
 
 下列範例顯示的資料提供者正在使用同步執行:
@@ -317,11 +317,11 @@ var weatherProvider = {
 * 如果新增至 `window.targetGlobalSettings.dataProviders` 的資料提供者非同步，則會並行執行。訪客 API 要求將與新增至 `window.targetGlobalSettings.dataProviders` 的函數並行執行，以允許最低的等候時間。
 * at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，則資料提供者應該確定已將該資料快取，並且當叫用該提供者函數時，可做為第二個叫用的快取資料。
 
-## Content Security Policy {#content-security}
+## 內容安全性策略{#content-security}
 
 at.js 2.3.0+支援在套用傳送的Target選件時，在附加至頁面DOM的SCRIPT和STYLE標籤上設定「內容安全性原則」不可用。
 
-在載入at.js 2.3.0+之前， `targetGlobalSettings.cspScriptNonce` 應先在 `targetGlobalSettings.cspStyleNonce` SCRIPT和STYLEnonces中設定。 請參閱下列範例：
+在at.js 2.3.0+載入之前，SCRIPT和STYLEnonces應相應地設定在`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`中。 請參閱下列範例：
 
 ```javascript
 ...
@@ -338,22 +338,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-在指 `cspScriptNonce` 定 `cspStyleNonce` 和設定後，at.js 2.3.0+會在套用Target選件時，將這些屬性設為附加至DOM的所有SCRIPT和STYLE標籤上的nonce屬性。
+在指定`cspScriptNonce`和`cspStyleNonce`設定後，at.js 2.3.0+會在套用Target選件時附加至DOM的所有SCRIPT和STYLE標籤上，將這些設定設為nonce屬性。
 
-## 混合個人化 {#server-state}
+## 混合個人化{#server-state}
 
-`serverState` 是at.js v2.2+中可用的設定，可在實作Target的混合整合時用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。
+`serverState` 是at.js v2.2+中可用的設定，可在實作Target的混合整合時用來最佳化頁面效能。混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。
 
 ### 先決條件
 
-您必須有混合整合 [!DNL Target]。
+您必須有[!DNL Target]的混合整合。
 
-* **伺服器端**: 您必須使用新的 [傳送API](https://developers.adobetarget.com/api/delivery-api/) 或 [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **伺服器端**:您必須使用新的 [傳送](https://developers.adobetarget.com/api/delivery-api/) API [或Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
 * **用戶端**:您必須使 [用at.js 2.2版或更新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### 程式碼範例
 
-若要進一步瞭解其運作方式，請參閱下列您在伺服器上的程式碼範例。 程式碼假設您使用 [Target Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
+若要進一步瞭解其運作方式，請參閱下列您在伺服器上的程式碼範例。 程式碼假設您使用[Target Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
 
 ```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -383,7 +383,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-檢視預回 `serverState` 遷的範例物件JSON外觀如下：
+檢視預回遷的範例`serverState`物件JSON如下所示：
 
 ```
 {
@@ -454,32 +454,32 @@ const PAGE_TEMPLATE = `
 }
 ```
 
-頁面載入瀏覽器後，at.js會立即套用所有選件， [!DNL Target] 而不 `serverState` 會針對邊緣觸發任何網路呼 [!DNL Target] 叫。 此外，at.js只會預先隱藏內容擷取伺服器端提供選件的DOM元素，因此會對頁面載入效能和使用者體驗產生積極影響。 [!DNL Target]
+頁面載入瀏覽器後，at.js會立即套用`serverState`的所有[!DNL Target]選件，而不會針對[!DNL Target]邊緣觸發任何網路呼叫。 此外，at.js只會預先隱藏[!DNL Target]選件在擷取的伺服器端內容中可用的DOM元素，因此會對頁面載入效能和使用者體驗產生積極影響。
 
 ### 重要附註
 
-Consider the following when using `serverState`:
+使用`serverState`時，請考慮以下事項：
 
 * 目前，at.js v2.2僅支援透過serverState提供以下體驗：
 
    * 在頁面載入時執行的VEC建立活動。
    * 預先擷取的檢視。
 
-      若是使用 [!DNL Target] Views的SPA `triggerView()` 和at.js API, at.js v2.2會快取伺服器端預先擷取之所有View的內容，並在每個View觸發時立即套用這些內容 `triggerView()`，而不會再對Target觸發任何額外的內容擷取呼叫。
+      若SPA在at.js API中使用[!DNL Target]檢視和`triggerView()`,at.js v2.2會快取伺服器端預先擷取之所有檢視的內容，並在每個檢視透過`triggerView()`觸發時立即套用這些內容，同樣不會引發對Target的任何額外內容擷取呼叫。
 
-   * **注意**: 目前，不支援在伺服器端擷取的mbox `serverState`。
+   * **注意**:目前，不支援在伺服器端擷取的mbox `serverState`。
 
-* 套用選 `serverState `件時，at.js會考慮並設定 `pageLoadEnabled` , `viewsEnabled` 例如，如果設定為false，則不會套用「頁面載入 `pageLoadEnabled` 選件」。
+* 套用`serverState `選件時，at.js會考慮`pageLoadEnabled`和`viewsEnabled`設定，例如，如果`pageLoadEnabled`設定為false，則不會套用「頁面載入選件」。
 
-   若要開啟這些設定，請啟用「管理 **[!UICONTROL >實作] >編輯 [!UICONTROL >啟]**&#x200B;用載入頁面」中的切換。
+   若要開啟這些設定，請啟用「**[!UICONTROL 管理] > [!UICONTROL 實施] > [!UICONTROL 編輯] > [!UICONTROL 啟用頁面載入]**」中的切換。
 
    ![頁面載入啟用的設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
-* 如果您在傳回的 `serverState` 內容中 `<script>` 使用和使用標籤，請確定您的HTML內容 `<\/script>` 使用而非 `</script>`。 如果您使 `</script>`用，瀏覽器會解 `</script>` 譯為內嵌SCRIPT的結尾，並可能中斷HTML頁面。
+* 如果您使用`serverState`並在傳回的內容中使用`<script>`標籤，請確定您的HTML內容使用`<\/script>`而非`</script>`。 如果您使用`</script>`，瀏覽器會將`</script>`解譯為內嵌SCRIPT的結尾，並可能中斷HTML頁面。
 
 ### 其他資源
 
-若要進一步瞭解 `serverState` 運作方式，請查看下列資源：
+若要進一步瞭解`serverState`的運作方式，請查看下列資源：
 
 * [程式碼範例](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
 * [單頁應用程式(SPA)範例應用程式 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)。
