@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # ![PREMIUM](/help/assets/premium.png) 自訂實體屬性{#custom-entity-attributes}
 
-Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
+使用[!DNL Adobe Target Recommendations]中的單值和多值自訂實體屬性，定義目錄中項目的其他資訊。
 
 ## 限制 {#limits}
 
@@ -25,7 +25,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 多值實體自訂屬性不得包含超過 500 個值。每個個別值限定為 100 個字元以內。所有值的總字元數必須符合單值實體自訂屬性之長度上限的限制 (如上所述)。
 
-## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
+## 自訂實體屬性值{#section_313331A9F8194A89B5EDD89363018651}
 
 自訂實體屬性可以包含單一值或多個值。實體屬性值會顯示在產品檢視中。
 
@@ -61,7 +61,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 * 陣列必須包含單一值類型。不支援混合值陣列 (`["AB",1,true]`)。
 * 含有巢狀 JSON 陣列 (`[10,12,[1,2,3]]`) 的多值屬性視為單值屬性。
 
-## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## 實施多值屬性{#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 使用摘要 (CSV)、`targetPageParams`、「傳送 API」 和「儲存實體 API」來上傳產品時，支援多值自訂實體屬性。新值會取代目前值，而不會附加。空白陣列 ([]) 視為沒有值。
 
@@ -127,9 +127,9 @@ function targetPageParams() {
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
+如需使用「傳送」和「儲存」實體API的詳細資訊，請參閱[Adobe Recommendations API檔案](http://developers.adobetarget.com/api/recommendations)。
 
-## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 使用具有多值屬性{#section_83C2288A805242D9A02EBC4F07DEE945}的運算子
 
 當您對演算法包含規則、目錄規則和排除規則中的多值自訂屬性套用運算子時，如果清單中至少一個值通過運算 (布林 *or*)，則結果為 *true*。
 
@@ -150,7 +150,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值等於 `abc`。
 * 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 true，因為有一個值等於 `abc`。
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. 結果為 false，因為 `abc` 不等於清單中的任何元素。
+* 案例3:`entity.genre = ["abcde", "de", "ef"]`。 結果為 false，因為 `abc` 不等於清單中的任何元素。
 
 ### 不等於
 
@@ -160,7 +160,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值等於 `abc`。
 * 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 false，因為有一個值等於 `abc`。
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. 結果為 true，因為 `abc` 不等於清單中的任何元素。
+* 案例3:`entity.genre = ["abcde", "de", "ef"]`。 結果為 true，因為 `abc` 不等於清單中的任何元素。
 
 ### 包含
 
@@ -188,7 +188,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值開頭為 `abc`。
 * 案例 2: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為某個值的開頭為 `abc`。
-* Case 3: `entity.genre = ["ab", "de", "abc"]`. 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
+* 案例3:`entity.genre = ["ab", "de", "abc"]`。 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
 
 ### 終止於
 
@@ -252,7 +252,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 >
 >*Double* 是一種 Java 資料類型。對於需要數值的運算子，轉換成倍精準數可避免非數值納入結果中考量。
 
-## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## 設計{#section_F672E4F6E1D44B3196B7ADE89334ED4A}中的多值屬性
 
 在設計中參考多值屬性時，多值屬性會以逗號分隔的清單顯示。
 
