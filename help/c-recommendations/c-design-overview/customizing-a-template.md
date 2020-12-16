@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自訂設計{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+使用開放原始碼Velocity設計語言，在[!DNL Adobe Target Recommendations]中自訂建議設計。
 
 ## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -129,7 +129,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 1. 宣告虛擬變數，並將其初始化為任意整數或雙重值。
 1. 請確定您要使用的實體屬性不是空白（Target Recommendations的範本剖析器驗證並儲存範本時需要）。
-1. 將entity屬性傳入您在步 `parseInt` 驟1中 `parseDouble` 建立的虛擬變數的或方法中，將字串轉換為整數或雙重值。
+1. 在步驟1中建立的虛擬變數上，將entity屬性傳遞至`parseInt`或`parseDouble`方法，將字串轉換為整數或雙重值。
 1. 對新數值執行數學運算或比較。
 
 ### 範例：計算折扣價格
@@ -185,7 +185,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 使用建議的產品顯示關鍵項目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 顯示包含建議產品{#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}的關鍵項目
 
 您可以修改設計來連同其他建議的產品一起顯示主要項目。例如，您可以在建議旁邊顯示目前項目當作參考。
 
@@ -208,7 +208,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 當您建立 [!DNL Recommendations] 活動時，如果主要項目取自於訪客的設定檔，例如「上次購買的項目」，則 [!DNL Target] 會在[!UICONTROL 可視化體驗撰寫器] (VEC) 中顯示隨機產品。這是因為當您設計活動時，沒有設定檔可用。訪客檢視頁面時就會看到預期的主要項目。
 
-## 在字串值中執行替換 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 在字串值{#section_01F8C993C79F42978ED00E39956FA8CA}中執行替換
 
 您可以修改設計以取代字串中的值。 例如，以歐洲和其他國家使用的逗號分隔字元取代美國使用的小數點分隔字元。
 
@@ -234,7 +234,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## 自訂範本大小並檢查空白值 {#default}
+## 自訂範本大小並檢查空白值{#default}
 
 透過 Velocity 指令碼控制實體顯示的動態大小，下列範本可因應 1 對多結果，以免在 [!DNL Recommendations] 傳回的相符實體不足時建立空白的 HTML 元素。最適合使用此指令碼的情況是，備份建議不具有合理意義且已啟用[!UICONTROL 局部範本轉譯]。
 
