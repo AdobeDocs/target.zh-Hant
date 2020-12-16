@@ -42,7 +42,7 @@ ht-degree: 61%
 
    ![集合清單](assets/collections_list.png)
 
-   「系 [!UICONTROL 列] 」頁面會顯示現有系列的清單。 按一下「建立系列」按鈕，即可 [!UICONTROL 建立新的系列] 。 您也可以將滑鼠指標暫留在所要的系列上，然後按一下所要的圖示，以編輯、複製和刪除現有的系列。
+   「[!UICONTROL 系列]」頁面會顯示您現有系列的清單。 按一下「建立系列」按鈕，即可建立新的系列。 您也可以將滑鼠指標暫留在所要的系列上，然後按一下所要的圖示，以編輯、複製和刪除現有的系列。
 
    ![暫留圖示：編輯、複製和刪除](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -92,17 +92,17 @@ ht-degree: 61%
 
 1. 使用上述其中一種方法建立系列。
 
-1. 按一 **[!UICONTROL 下「活]** 動」 [並建立新的Recommendations活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ，或編輯現有活動。
+1. 按一下「活動」**[!UICONTROL 「活動」]**&#x200B;和「a2/」建立新的Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)活動或編輯現有活動。[
 
-1. 在您選取標準和設計後，若您選取所 [!UICONTROL 要的系列] ，就會顯示「選項」頁面。
+1. 在您選取准則和設計後，若您選取所要的系列，會顯示[!UICONTROL Options]頁面。
 
    ![選擇系列選項](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. （條件性）若要變更現有的系列設定，請在「 **[!UICONTROL Experiences]** 」（三部分引導式工作流程的步驟2）頁面上，按一下您放置建議的位置，按一下「 **[!UICONTROL Change Collection]**」，然後選取所要的系列。
+1. （條件性）若要變更現有的系列設定，請在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面（三部分引導式工作流程的步驟2）上，按一下您放置建議的位置，按一下「變更系列&#x200B;]**」，然後選取所要的系列。**[!UICONTROL 
 
    ![變更系列選項](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## 訓練影片：在Recommendations中建立系列和排除(7:05)![教學課程標章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
