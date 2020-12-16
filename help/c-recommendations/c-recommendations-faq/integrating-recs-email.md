@@ -59,13 +59,13 @@ curl -X POST \
 
 如需詳細資訊，請參閱[傳送 API 文件](https://developers.adobetarget.com/api/#server-side-delivery)。
 
-## Option 2: Use a rawbox email template {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## 選項2:使用rawbox電子郵件範本{#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 rawbox 類似於 mbox 要求，但是是用於非 Web 環境，例如電子郵件服務提供者 (ESP)。因為您沒有 [!DNL mbox.js] 或 [!DNL at.js] 可在 rawbox 要求中使用，您必須手動建立您的要求。以下範例說明如何在電子郵件中使用 rawbox 要求。
 
 >[!NOTE]
 >
->使用rawbox和時，請參 [!DNL Target]閱「建立允許清單」下的重要安全性聲明，此清單指定已授權將mbox呼叫傳送至Target的主機 [](/help/administrating-target/hosts.md#allowlist)。
+>使用rawbox和[!DNL Target]時，請參閱[建立允許清單下的重要安全性注意事項，此清單指定授權將mbox呼叫傳送至Target](/help/administrating-target/hosts.md#allowlist)的主機。
 
 透過該方法，您可在電子郵件中追蹤建議的效能，以正常方式測試建議，並繼續在網站上追蹤。
 
@@ -110,7 +110,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br> (某些類型的條件為必要: 檢視/檢視、檢視/購買、購買/購買) | *entity_id* | 建議所根據的 productId，例如購物車中放棄的產品或先前的購買。<br>如果條件要求，rawbox 呼叫必須包括 `entity.id`。 |  |
 | `entity.event.detailsOnly` | true | 如果傳遞了 `entity.id`，則非常建議您也傳遞此參數，以防止要求為了不要扭曲產品檢視式的演算法，而遞增專為某項目調整的頁面檢視數量。 |  |
 | `entity.categoryId`<br> (某些類型的條件為必要: 依檢視次數最多類別和依最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |  |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。 <br> **安全性最佳實務**:請注意，如果未列出 `mboxDefault` URL中使用的網域，您可能會面臨「開啟重新導向弱點」的風險。 為避免重新導向程式連結或協力廠商未 `mboxDefault` 經授權地使用，建議您使用「已授權的主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參 [閱「建立允許清單」，指定在「主機」中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#allowlist) 之主 *機*。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。  <br> **安全性最佳實務**:請注意，如果 `mboxDefault` URL中使用的網域未列出，您可能會面臨「開啟重新導向弱點」的風險。為避免第三方未授權使用重新導向程式連結或`mboxDefault`，建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參閱[建立允許清單，指定在&#x200B;*Hosts*&#x200B;中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#allowlist)的主機。 |  |
 | `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |  |
 | `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 &quot;thirdPartyId&quot;，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 
