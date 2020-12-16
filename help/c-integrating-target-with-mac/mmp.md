@@ -16,4 +16,4 @@ ht-degree: 78%
 
 Experience Cloud Audiences 讓 Adobe Experience Cloud 解決方案得以傳達並分享關於網站訪客的資訊，讓每個解決方案均可使用相同資料。
 
-如需詳細資訊，請參 [閱核心](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 「服務使 *用指南」中的「觀眾」*。
+如需詳細資訊，請參閱&#x200B;*核心服務使用指南*&#x200B;中的[觀眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
