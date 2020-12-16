@@ -29,7 +29,7 @@ ht-degree: 98%
       |---|---|---|---|
       | Cablevision | Cablevision Systems Corp. | *.optonline.net | 68.196.130.239 |
       | CenturyLink | Qwest Communications Company, LLC | *.centurylink.net | 64.40.65.0 |
-      | Charter Communications | Charter Communications | *.charter.com | 71.85.225.124 |
+      | Charter Communications | 憲章通訊 | *.charter.com | 71.85.225.124 |
       | Comcast | Comcast Cable Communications, Inc. | *.comcast.net | 76.27.24.28 |
       | Cox | Cox Communications Inc. | *cox.net | 68.224.174.22 |
       | Speakeasy | MegaPath Corporation | *.speakeasy.net | 66.93.240.0 |
