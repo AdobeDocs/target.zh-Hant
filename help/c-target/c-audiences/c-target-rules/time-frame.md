@@ -52,7 +52,7 @@ ht-degree: 96%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 訓練影片：建立觀眾 ![概述徽章](/help/assets/overview.png)
+## 訓練影片：建立觀眾![概觀標章](/help/assets/overview.png)
 
 此影片包括關於使用對象類別的資訊。
 
