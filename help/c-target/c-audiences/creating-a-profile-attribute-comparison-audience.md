@@ -58,7 +58,7 @@ ht-degree: 99%
 
    ![](assets/propensity_score_4.png)
 
-## 訓練影片 ![概觀徽章](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## 訓練影片![概觀徽章](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 觀看下列影片以獲得詳細資訊，並瞭解您可使用此功能的情況:
 
