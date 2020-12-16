@@ -28,7 +28,7 @@ Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的�
 | [Adobe Launch 文件](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 關於部署及管理為相關客戶體驗提供支援所需的所有分析、行銷和廣告標籤資訊。 |
 | [Adobe Target擴充功能檔案](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | 使用 Launch 實作 Target 的相關資訊。 |
 
-## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## 使用Target Launch擴充功能{#section_48B3F938B6F8491DAF798E0DB54EF304}實作at.js的優點
 
 只有在使用 Adobe Launch 實作 at.js 時，才適用以下優點。基於此原因，我們強烈建議您使用 Adobe Launch 而非 DTM，或手動實作 at.js。
 
