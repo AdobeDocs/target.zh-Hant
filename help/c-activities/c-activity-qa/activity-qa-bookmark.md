@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # 活動 QA 書籤小程式{#activity-qa-bookmarklet}
 
-Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+協助您使用[!DNL Target] QA書籤小工具強制[!DNL Target]從QA模式釋放您的資訊。
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 ## at.js 1的活動QA書籤小工具。*x*
 
-由於[QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)有黏性，當您以 QA 模式來瀏覽網站後，您的 工作階段必須到期，否則需要由 幫您脫離 QA 模式，才能像一般訪客一樣檢視您的網站。[!DNL Target][!DNL Target]Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
+由於[QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)有黏性，當您以 QA 模式來瀏覽網站後，您的 工作階段必須到期，否則需要由 幫您脫離 QA 模式，才能像一般訪客一樣檢視您的網站。[!DNL Target][!DNL Target]使用QA [!DNL Target]書籤小工具強制自己退出QA模式。
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+若要使用[!DNL Target] QA書籤小工具，請建立包含下列JavaScript程式碼的書籤小工具，並將它新增至瀏覽器的書籤工具列：
 
 ```javascript
 javascript:(
@@ -43,7 +43,7 @@ javascript:(
 )();
 ```
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+您也可以透過以空值載入含有`at_preview_token`參數之網站上的頁面，手動強制自己退出QA模式。
 
 例如:
 
@@ -51,9 +51,9 @@ You can also manually force yourself out of QA mode by loading a page on your si
 
 ## at.js 2的活動QA書籤小工具。*x*
 
-與at.js 1相反。*x*,at.js 2.*x不支援* 協力廠商Cookie，而QA模式僅適用於第一方網域（透過at.js所設定的第一方Cookie）。 因此，在at.js 2中。*x*,QA模式作業僅在用戶端進行管理，且不會將QA模式Cookie傳送至Target。
+與at.js 1相反。*x*,at.js 2.** xdoes不支援協力廠商Cookie，而QA模式僅適用於第一方網域（透過at.js所設定的第一方Cookie）。因此，在at.js 2中。*x*,QA模式作業僅在用戶端進行管理，且不會將QA模式Cookie傳送至Target。
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+若要使用[!DNL Target] QA書籤小工具，請建立包含下列JavaScript程式碼的書籤小工具，並將它新增至瀏覽器的書籤工具列：
 
 ```javascript
 javascript:(
