@@ -66,7 +66,7 @@ ht-degree: 93%
 
    ![實作詳細資料對話方塊](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
+   透過位於[!UICONTROL 管理>實作]的Adobe Target UI下載at.js 2.x。 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
 
 1. 在您的網站上實作 at.js 2.x 的最新函數: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
@@ -358,7 +358,7 @@ adobe.target.getOffers({
 | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 是 |
 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
-## 支援的功能 {#supported-features}
+## 支援的功能  {#supported-features}
 
 | 功能 | 支援? |
 | --- | --- |
@@ -391,9 +391,9 @@ adobe.target.getOffers({
 以下是所做的變更:
 
 * 變更位於下列 URL 下的首頁檢視的背景顏色: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 已變更「產品」檢視中位於URL下方的按鈕顏色：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x* 的 SPA 中)，那麼會發生什麼情況?
+以上範例為準，當我們設定[!UICONTROL 頁面傳送]設定時，將會發生什麼情況：[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)在具有at.js 2的SPA中。*x* 的 SPA 中)，那麼會發生什麼情況?
 
 ![頁面傳送對話方塊](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +403,19 @@ With the example above in mind, what would happen when we configure [!UICONTROL 
 
 **第 1 個使用者旅程**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* 使用者直接導覽至[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。
 * at.js 2.*x* 會查詢 Edge，以查看下列 URL 是否有任何需要執行的活動: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
 * 在步驟 6 中，Target Edge 會傳回首頁和產品檢視的動作，以便系統快取瀏覽器內的這些動作。
 
 **結果**: 使用者會在首頁檢視中看見綠色的背景顏色。接著，當使用者導覽至 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 時，會看見按鈕的藍色背景顏色，因為系統已快取瀏覽器中的產品檢視下的動作。
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+注意：導覽至[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)的使用者未觸發頁面載入。
 
 **第 2 個使用者旅程**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 使用者直接導覽至[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
 * at.js 2.*x* 會查詢 Edge，查看下列 URL 是否有任何需要執行的活動: [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products。
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 沒有符合[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)條件的活動。
 * 由於沒有任何符合的活動，因此沒有任何快取動作和檢視可供 at.js 2.*x* 觸發。
 
 **結果**: 即使您已針對產品檢視定義 `triggerView()` 並透過 SPA VEC 對產品檢視執行動作，您不會看見預期的動作，因為您並未建立在頁面傳送設定中包含 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 的規則。
@@ -440,4 +440,4 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+如需詳細資訊，請參閱Adobe Target中的[使用單一頁面應用程式的視覺體驗撰寫器(SPA VEC)。](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)
