@@ -14,18 +14,18 @@ ht-degree: 31%
 
 # 將活動資訊傳送到 Adobe Analytics{#send-activity-information-to-adobe-analytics}
 
-This section describes how to send [!DNL Target] mobile app activity information to Adobe [!DNL Analytics] for post hoc segmentation.
+本節說明如何傳送[!DNL Target]行動應用程式活動資訊至Adobe [!DNL Analytics]以進行臨機後區段。
 
 **必要條件**
 
-* This integration requires that [!DNL Analytics] and [!DNL Target] are implemented using the mobile SDK.
-* Ensure that your report suite is enabled to receive activity information from [!DNL Target].
+* 此整合需要[!DNL Analytics]和[!DNL Target]是使用行動SDK實作。
+* 請確定您的報表套裝已啟用，可從[!DNL Target]接收活動資訊。
 
-   This is usually done by adding the [!DNL Target] client code to the [!DNL Analytics] report suite. 如果您正在使用 SiteCatalyst-Test&amp;Target 整合來處理網頁活動，該功能可能已啟用。如果您對這個步驟有任何問題，請連絡 Adobe 客戶服務。
+   這通常是透過將[!DNL Target]用戶端程式碼新增至[!DNL Analytics]報表套裝來完成。 如果您正在使用 SiteCatalyst-Test&amp;Target 整合來處理網頁活動，該功能可能已啟用。如果您對這個步驟有任何問題，請連絡 Adobe 客戶服務。
 
 1. 取得活動資訊。
 
-   If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
+   如果您的體驗內容包含類似下列的字串，[!DNL Target]會傳回您可傳送至[!DNL Analytics]的活動資訊：
 
    ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
@@ -41,9 +41,9 @@ This section describes how to send [!DNL Target] mobile app activity information
    }
    ```
 
-   In this example, a node with the variable `tntVal` is added to obtain the activity information. 請為其他體驗新增類似的程式碼，並附上適當標題和訊息。
+   在此示例中，添加了變數`tntVal`的節點以獲取活動資訊。 請為其他體驗新增類似的程式碼，並附上適當標題和訊息。
 
-   This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. 這表示活動ID、體驗ID和流量類型。 The following is a sample response from [!DNL Target]:
+   此字串會在[!DNL Target]的回應中傳遞一個數字（例如115110:0:0）。 這表示活動ID、體驗ID和流量類型。 以下是來自[!DNL Target]的範例回應：
 
    ```javascript
    { 
@@ -55,13 +55,13 @@ This section describes how to send [!DNL Target] mobile app activity information
 
 1. 剖析 JSON 物件。
 
-   Parse the response that came back from [!DNL Target] in the callback. You can use `NSJSONSerialization` to parse this response and store it in a dictionary or an array.
+   剖析回呼中從[!DNL Target]傳回的回應。 您可以使用`NSJSONSerialization`來剖析此回應，並將它儲存在字典或陣列中。
 
-   有關詳細資訊， [請參閱NSJSONSerialization文檔](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) 。
+   有關詳細資訊，請參閱[NSJSONSerialization文檔](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error)。
 
 1. 將資料傳送到 [!DNL Analytics].
 
-   將剖析後的活動資訊 (如前述回應中的 `tntVal`) 新增到 呼叫中的內容資料物件。[!DNL Analytics]This [!DNL Analytics] call containing the context data can be fired immediately or it can wait until the next [!DNL Analytics] call is fired.
+   將剖析後的活動資訊 (如前述回應中的 `tntVal`) 新增到 呼叫中的內容資料物件。[!DNL Analytics]此[!DNL Analytics]呼叫包含上下文資料，可立即引發，或等到下一個[!DNL Analytics]呼叫引發為止。
 
    例如，它可以在 `targetLoadRequest` 呼叫的回呼中觸發:
 
@@ -72,5 +72,5 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    >[!NOTE]
    >
-   >`&&tnt` 是行動 SDK 中保留的事件索引鍵。The post-classification of the `tntVal` variable in [!DNL Analytics] works in the same way in the mobile SDK as it does on the web (JavaScript). After the information is processed in [!DNL Analytics], you should see activity and experience names in the [!DNL Analytics] interface.
+   >`&&tnt` 是行動 SDK 中保留的事件索引鍵。[!DNL Analytics]中`tntVal`變數的後置分類在行動SDK中的運作方式與在網頁上相同(JavaScript)。 在[!DNL Analytics]中處理資訊後，您應會在[!DNL Analytics]介面中看到活動和體驗名稱。
 
