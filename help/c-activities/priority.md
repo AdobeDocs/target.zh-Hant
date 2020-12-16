@@ -16,7 +16,7 @@ ht-degree: 88%
 
 根據您使用的 Target 介面以及活動建立功能類型 (可視化體驗撰寫器或表單式撰寫器)，Target 會針對要傳遞至頁面的活動 (或哪些活動) 進行不同判斷。
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 僅限Target Standard/Premium Visual Experience Composer或僅使用全域Target請求的表單型撰寫器{#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 如果您的公司僅使用 Target Standard/Premium 和可視化體驗撰寫器，則同一個呼叫可能傳回多個活動的內容。活動依據下列決策流程來傳送:
 
@@ -40,7 +40,7 @@ ht-degree: 88%
    * 如果只有一個活動有對象鎖定目標，則會顯示該活動。
    * 如果所有或全部均無鎖定目標，則顯示先核准的活動。
 
-## Target Standard/Premium 表單式撰寫器和 Target Standard/Premium 可視化體驗撰寫器 {#section_4620253E1CE942DD830724C7822B175F}
+## Target Standard/Premium 表單式撰寫器和 Target Standard/Premium 可視化體驗撰寫器  {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ ht-degree: 88%
 
 如果您的公司使用 Target Standard/Premium 中的表單式撰寫器和 Target Standard/Premium 可視化體驗撰寫器，則可以傳送來自多個可視化體驗撰寫器活動的內容，但從表單式工作流程只能傳送一個活動的內容。活動傳遞是使用下列決策流程決定:
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. Target伺服器呼叫會帶來有關[!DNL Target]請求和URL的資訊至Target。
+1. Target Classic和Standard會提取該[!DNL Target]請求中執行的每個活動。
 1. Target 會嘗試將訪客匹配到活動。
 
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
@@ -65,15 +65,15 @@ ht-degree: 88%
 
 如果兩個已鎖定的目標活動有相同的優先順序，則會顯示最近檢視的活動。如果訪客是首次前往頁面，則顯示最近啟動的活動。
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 具有非全域目標請求的Target Standard/Premium表單式撰寫器{#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >此資訊也適用在 Target Classic 中建立的任何執行中的促銷活動。
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. 活動傳遞是使用下列決策流程決定:
+如果您的公司在表單型撰寫器中使用全域[!DNL Target]請求以外的[!DNL Target]請求，則每次呼叫只能傳回來自一個活動的內容。 活動傳遞是使用下列決策流程決定:
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target]伺服器呼叫會傳至[!DNL Target]，其中包含[!DNL Target]要求和URL的相關資訊。
 1. [!DNL Target] 提取該請求中執行的每個 [!DNL Target] 活動。
 1. [!DNL Target] 嘗試匹配訪客和最高優先順序活動。
 
