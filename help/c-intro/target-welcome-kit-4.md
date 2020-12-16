@@ -14,39 +14,39 @@ ht-degree: 0%
 
 # 第四章：使用Target的秘訣
 
-根據我們與許多使用者 [!DNL Target] 的合作，我們觀察到您如何從解決方案中獲得更大價 [!DNL Target] 值。 我們在本章中提供的許多秘訣中已加以總結。 雖然您可能還沒準備好立即使用這些概念，但請繼續閱讀這份清單。 您使用解決方案的經驗越多，計畫越成熟，您就會越瞭解這些秘訣如何協助您完成更多工作 [!DNL Target]。
+根據我們與許多[!DNL Target]使用者合作的成果，我們觀察到您從[!DNL Target]解決方案中獲得更多價值的方式。 我們在本章中提供的許多秘訣中已加以總結。 雖然您可能還沒準備好立即使用這些概念，但請繼續閱讀這份清單。 您使用解決方案的經驗越多，程式越成熟，您就會越瞭解這些秘訣如何協助您透過[!DNL Target]完成更多工作。
 
 ## 提示1:透過增加訪客個人檔案，深化個人化。
 
-您可以立即使用資料 [!DNL Target] 個人化體驗。 但是，將您自己的資料加入組合中，以更深度的個人化。 您可以使用來自歷史資料和來自 [!DNL Adobe Analytics] 的即時資料來擴充個人檔案 [!DNL Adobe Audience Manager]。 您也可以使用「客戶屬性」(Customer Attributes)，這是「人員」核心服務中的一項功能 [!DNL Adobe Experience Cloud]，輕鬆將CRM資料、第二方合作夥伴資料及第三方購買的資料匯入其中 [!DNL Target]。
+您可以立即使用[!DNL Target]資料個人化體驗。 但是，將您自己的資料加入組合中，以更深度的個人化。 您可以使用[!DNL Adobe Analytics]的歷史資料和[!DNL Adobe Audience Manager]的即時資料來擴充您的個人檔案。 您也可以使用[!DNL Adobe Experience Cloud]中「人員」核心服務中的「客戶屬性」功能，輕鬆將CRM資料、第二方合作夥伴資料及第三方購買的資料匯入[!DNL Target]。
 
-例如，您可以將銷售點系統的購買資料與訪客資料建立關聯。 若要這麼做，只需建立包含最多200個離線變數的CSV檔案，然後透過檔案上傳直接上傳至檔案，或使用 [!DNL Adobe Experience Cloud] FTP來代管並排程您的檔案，以定期更新。 一旦您的客戶屬性 [!DNL Adobe Experience Cloud]進入，您就可以將它們對應至 [!DNL Experience Cloud] 解 [!DNL Adobe Analytics] 決方案，例如可供分 [!DNL Target] 析、測試和個人化的解決方案。
+例如，您可以將銷售點系統的購買資料與訪客資料建立關聯。 若要這麼做，只需建立包含最多200個離線變數的CSV檔案，然後透過檔案上傳直接上傳至[!DNL Adobe Experience Cloud]，或使用FTP代管並排程您的檔案，以定期更新。 一旦您的客戶屬性位於[!DNL Adobe Experience Cloud]中，您就可以將它們對應至[!DNL Experience Cloud]解決方案，例如[!DNL Adobe Analytics]和[!DNL Target]，以便用於分析、測試和個人化。
 
-請參 [閱自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) ，以取得逐步指示。
+如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。
 
-**很高興知道**:由於 [!DNL Target] 此平台是一個開放且不可知的平台，可以與不同的技術搭配運作，因此您可以以多種不同的方式新增CRM或購買的資料。 這表示您可以選擇最適合您組織的方法。
+**很高興知道**:由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增CRM或購買的資料。這表示您可以選擇最適合您組織的方法。
 
-如需 [詳細資訊，請參閱將資料匯入Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) 的方法。
+如需詳細資訊，請參閱[將資料匯入Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)的方法。
 
 ## 提示2:將Target受眾與其他Adobe Experience Cloud受眾混合，以更深度的個人化。
 
-混合不同解決方案的受 [!DNL Adobe Experience Cloud] 眾，可讓您更全面地瞭解客戶，並更深入地個人化客戶。 例如，雖然提供 [!DNL Target] 即時觀眾資料，但提供歷 [!DNL Adobe Analytics] 史觀眾資料。 結合這兩者可協助您識別客戶的行為何時一致，以及何時可能有機會對新行為採取行動。 建立活動時，只要按一下「所有訪客」旁的下拉式選單即可。 接著，核取最多20個觀眾的方塊，按一下「合併多個觀眾」，然後按一下「儲存」。
+混合不同[!DNL Adobe Experience Cloud]解決方案的受眾，可讓您更全面地瞭解客戶，並更深入地個人化客戶。 例如，雖然[!DNL Target]提供即時觀眾資料，但[!DNL Adobe Analytics]提供歷史觀眾資料。 結合這兩者可協助您識別客戶的行為何時一致，以及何時可能有機會對新行為採取行動。 建立活動時，只要按一下「所有訪客」旁的下拉式選單即可。 接著，核取最多20個觀眾的方塊，按一下「合併多個觀眾」，然後按一下「儲存」。
 
-如需 [逐步指示](/help/c-target/combining-multiple-audiences.md) ，請參閱結合多個觀眾。
+如需逐步指示，請參閱[結合多個觀眾](/help/c-target/combining-multiple-audiences.md)。
 
-**很高興知道**: [!DNL Adobe Audience Manager] 觀眾會自動 [!DNL Target] 使用。 但 [!DNL Adobe Analytics] 是觀眾共用需要手動設定。 在中的觀眾建立程式中，只要勾選標示「將此設為Experience Cloud觀眾」的方塊即可 [!DNL Analytics]。 然後，按 [!DNL Target]一下「匯入Experience Cloud觀眾」。
+**很高興知道**: [!DNL Adobe Audience Manager] 觀眾會自動 [!DNL Target] 使用。但[!DNL Adobe Analytics]觀眾共用需要手動設定。 在[!DNL Analytics]的觀眾建立程式中，只要勾選標示「將此設為Experience Cloud觀眾」的方塊即可。 然後，從[!DNL Target]按一下「匯入Experience Cloud觀眾」。
 
 ## 提示3:從Target匯出資料，以便與協力廠商工具搭配使用。
 
-使用回應Token，管理員可輕鬆將資料從協力 [!DNL Target] 廠商工具取出和放入。 當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。 例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，則您可以使用您的資料來查看哪些人看到體驗A，哪些人看到體驗B。您也可以使用回應Token，將資 [!DNL Target] 料匯出至內部資料倉庫。 只要按一下「管理」，然後將所要之回應Token旁的開關切換至開啟位置。 接著，建立活動。 然後，資料就可以傳輸給第三方廠商。 您可以使用除錯 [!DNL Target] 工具來驗證是否匯出資料。
+使用回應Token，管理員可輕鬆將資料從[!DNL Target]取出並放入協力廠商工具。 當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。 例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，則您可以使用您的資料來查看哪些人看到體驗A，哪些人看到體驗B。您也可以使用回應Token，將[!DNL Target]資料匯出至內部資料倉庫。 只要按一下「管理」，然後將所要之回應Token旁的開關切換至開啟位置。 接著，建立活動。 然後，資料就可以傳輸給第三方廠商。 您可以使用除錯工具來驗證[!DNL Target]是否正在匯出資料。
 
-如需 [逐步指示](/help/administrating-target/response-tokens.md) ，請參閱回應Token。
+如需逐步指示，請參閱[回應Token](/help/administrating-target/response-tokens.md)。
 
 **有用的提示**:在管理員啟動與第三方相關的回應Token之前，開發人員必須先與該第三方公司建立合作關係。
 
-如需 [逐步指示](/help/administrating-target/response-tokens.md) ，請參閱回應Token。
+如需逐步指示，請參閱[回應Token](/help/administrating-target/response-tokens.md)。
 
-**請先執行此動作**:請確定您使用的是at.js 1.1版或更新版本。 如果您使用舊版，將會看到回應Token，但at.js將無法使用。
+**請先執行此動作**:請確定您使用的是at.js 1.1版或更新版本。如果您使用舊版，將會看到回應Token，但at.js將無法使用。
 
 ## 提示4:從這些關鍵變數建立受眾，以增加活動的價值。
 
@@ -62,45 +62,45 @@ ht-degree: 0%
 
 讓您輕鬆處理組織的資料，同時保有其安全性。 [!DNL Target Premium] 可讓管理員控制授予不同內部和外部團隊的存取權等級。
 
-如需詳 [細資訊，請參閱](/help/administrating-target/c-user-management/property-channel/property-channel.md) 「企業使用者權限」。
+如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 **有用的提示**:新增使用者時，如果先前未將團隊成員的名稱新增至您的組織，例如第三方代理商員工的名稱，輸入其電子郵件地址和密碼將觸發電子郵件邀請以加入團隊的工作區。
 
-使用Target Standard? 您仍可以 [為具有唯讀](/help/administrating-target/c-user-management/c-user-management/user-management.md) 、編輯和核准者角色的使用者指派三個存取層級！
+使用Target Standard? 您仍然可以[為具有唯讀、編輯和批准者角色的用戶分配三個訪問級別](/help/administrating-target/c-user-management/c-user-management/user-management.md)!
 
 ## 提示6:透過測試產品在客戶歷程中的每個頁面，瞭解產品在客戶歷程中的表現。
 
 瞭解在您網站上跨多個頁面的客戶歷程中，免費運送等優惠的成效。
 
-如需 [逐步指示](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) ，請參閱多頁活動。
+如需逐步指示，請參閱[多頁活動](/help/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 
-**有用的提示**:在您指定頁面範圍後變更URL將會重設體驗。 這表示您指定的變數將不再出現。 如果您需要變更URL，請記得重新定義體驗。
+**有用的提示**:在您指定頁面範圍後變更URL將會重設體驗。這表示您指定的變數將不再出現。 如果您需要變更URL，請記得重新定義體驗。
 
 ## 提示7:測試包含不同對象的選件，以發現對象是否有不同的偏好。
 
 使用「體驗版本」，您可以針對您想要的受眾，執行一項包含各種變數的測試。 例如，您可以建立提供免運費的橫幅廣告，包括美國、英國和歐盟客戶的影像和貨幣變化，而不需針對三個不同的受眾執行測試。
 
-如需 [逐步指示，請參閱Adobe Target中A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)[](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 和體驗版本的多重體驗觀眾。
+如需逐步指示，請參閱Adobe Target中的[A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和[體驗版本中的&lt;a0/>多個體驗對象。](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)
 
 ## 提示8:在類似頁面上複製活動體驗以節省時間。
 
 在單一網頁上建立變數（例如新的按鈕顏色），並自動套用至共用相同範本的所有頁面。 您可以指定頁面，或將變數套用至網站上所有類似的頁面。
 
-如需 [逐步指示，請參閱在類似頁面上加入](/help/c-experiences/c-visual-experience-composer/temtest.md) 相同的體驗。
+如需逐步指示，請參閱[在類似頁面上加入相同的體驗。](/help/c-experiences/c-visual-experience-composer/temtest.md)
 
 ## 提示9:建立一次性受眾，以減少觀眾程式庫的雜亂。
 
 如果您鎖定的是您知道不會再鎖定的群體（例如，受意外天氣事件影響的客戶），建立一次性使用的受眾可協助您完成工作，而不會增加觀眾庫的雜亂。 這可讓您更輕鬆地找到您一再使用的受眾。
 
-如需 [逐步指示](/help/c-target/creating-activity-only-audience.md) ，請參閱建立僅限活動的觀眾。
+如需逐步指示，請參閱[建立僅限活動的觀眾](/help/c-target/creating-activity-only-audience.md)。
 
-**高要求的功能**:我們的客戶要求我們盡可能避免單一使用對象自動儲存至觀眾程式庫。 現在，他們不再需要手動刪除對象，讓其資料庫井然有序。
+**高要求的功能**:我們的客戶要求我們盡可能避免單一使用對象自動儲存至觀眾程式庫。現在，他們不再需要手動刪除對象，讓其資料庫井然有序。
 
 ## 提示十：不讓測試執行標準QA程式，以更快的速度執行簡單測試。
 
 沒有什麼比讓活動準備就緒，然後等待數週，以完成標準QA流程更糟的了。 您只需將幾個QA連結傳遞給同事，即可在各種瀏覽器上試用，以進行大部分的QA活動。 您最可能想要針對大幅改變網站功能的工作進行更多QA測試，但實際上，這些活動應該更少，而更基本的活動應該更多。 新增更佳的權限控制，讓更少的人能將內容完全推展至現場，也增加了有意義的限制，讓您在不犧牲速度和效率的情況下完成所需的工作。 另一個選擇是擁有指定的IT資源，以便及時監督QA流程。
 
-如需 [逐步指示](/help/c-activities/c-activity-qa/activity-qa.md) ，請參閱活動QA。
+如需逐步指示，請參閱[活動QA](/help/c-activities/c-activity-qa/activity-qa.md)。
 
 ## 提示11:在高流量頁面上執行測試，讓測試更快達到統計意義。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 * 頁面的轉換率是多少？
 * 您預期需要執行測試多久才能放心地稱為完成？
 
-**實用提示**:使用Target范 [例大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html) ，協助判斷成功測試所需的範例大小。
+**實用提示**:使用Target范 [例大小計](https://docs.adobe.com/content/target-microsite/testcalculator.html) 算器協助判斷成功測試所需的範例大小。
 
 ## 提示12:設計更簡單的測試，以確保您能夠建立並實作這些測試。
 
