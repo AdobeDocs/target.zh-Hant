@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # ![PREMIUM](/help/assets/premium.png) 條件
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. 條件可以基於人氣趨勢、訪客的目前和過去行為，或類似的產品和內容。您可以新增多個條件，將多個建議類型彼此測試。
+[!DNL Adobe Target]中的准則是規則，可根據一組預先確定的訪客行為來決定要推薦哪些產品或內容。 條件可以基於人氣趨勢、訪客的目前和過去行為，或類似的產品和內容。您可以新增多個條件，將多個建議類型彼此測試。
 
 以下各節將進一步說明准則索引鍵和可用於每個索引鍵的建議邏輯。 按一下連結，以取得詳細資訊。
 
@@ -28,9 +28,9 @@ Criteria in [!DNL Adobe Target] are rules that determine which products or conte
 | 潛在客戶開發/B2B/金融服務 | 轉換但未購買 |
 | 媒體/出版 | 參與 |
 
-其他條件選項會根據您選取的產業垂直而變更。 您可以在「建議>設定」頁面上設定預設的 **[!UICONTROL 產業垂直]** ，或為每個標準指定產業垂直。
+其他條件選項會根據您選取的產業垂直而變更。 您可以在&#x200B;**[!UICONTROL Recommendations > Settings]**&#x200B;頁面上設定預設產業垂直，也可以為每個准則指定產業垂直。
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## 建議索引鍵{#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您選取的建議金鑰決定條件類型。提供幾個條件類型，當您設定 [!DNL Recommendations] 活動時會以條件卡呈現。
 
@@ -46,39 +46,39 @@ Criteria in [!DNL Adobe Target] are rules that determine which products or conte
 | 人氣 | 建議最熱門項目，例如相關類別中最熱門的影片，或您網站上最常被看到的產品。<ul><li>[人氣](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
 | [最近查看的項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 建議訪客最近檢視的項目，例如訪客上次瀏覽您網站時所檢視的項目，或目前趨勢最高的文章。 |
 
-## 使用自訂建議金鑰 {#custom-key}
+## 使用自訂建議金鑰{#custom-key}
 
 您也可以根據自訂描述檔屬性的值來建議。
 
 >[!NOTE]
 >
->自訂描述檔參數可透過JavaScript、API或整合傳遞至Target。 如需自訂描述檔屬性的詳細資訊，請參閱「訪客 [描述檔」](/help/c-target/c-visitor-profile/visitor-profile.md)。
+>自訂描述檔參數可透過JavaScript、API或整合傳遞至Target。 如需自訂描述檔屬性的詳細資訊，請參閱[訪客描述檔](/help/c-target/c-visitor-profile/visitor-profile.md)。
 
 例如，假設您想根據使用者最近新增至佇列的影片來顯示建議的影片。
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. 從[!UICONTROL 建議金鑰]下拉式清單中選取您的自訂描述檔屬性（例如[!UICONTROL 上次新增至Watchlist]）。
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. 選擇您的[!UICONTROL 建議邏輯]（例如，[!UICONTROL 檢視此項、檢視該]的人員）。
 
    ![「建立新標準」對話框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+如果您的自訂描述檔屬性不直接符合單一實體ID，則必須向[!DNL Recommendations]說明您要如何符合實體。
 
 例如，假設您想要顯示來自使用者最愛品牌的暢銷商品。
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. 從[!UICONTROL 建議金鑰]下拉式清單中選取您的自訂描述檔屬性（例如[!UICONTROL 最愛品牌]）。
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. 選擇您要使用此索引鍵的[!UICONTROL 建議邏輯]（例如[!UICONTROL 最暢銷商品]）。
 
    [!UICONTROL 依下列唯一值分組]選項隨即顯示。
 
-1. 選取比對至您已選擇之索引鍵的實體屬性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+1. 選取比對至您已選擇之索引鍵的實體屬性。在此例中，[!UICONTROL 最愛品牌]與`entity.brand`相符。
 
-   [!DNL Recommendations] 現在會針對每個品牌產生「最暢銷商品」清單，並根據「最愛品牌」描述檔屬性中儲存的值，向使用者顯示適當的「最暢銷商品  」清單。
+   [!DNL Recommendations] 現在會針對每個品牌產生「最暢銷商品」清單，並根據「我的最愛品牌設定檔」屬性中儲存的值，向使用者顯示適當的「最暢銷商品」  清單。
 
    ![「最暢銷商品」屬性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## Criteria/algorithms {#criteria-algorithms}
+## 准則／演算法{#criteria-algorithms}
 
 [!DNL Target Recommendations] 採用複雜的演算法，用於判斷訪客的動作何時符合活動中設定的條件。建議金鑰決定可用的建議邏輯選項。
 
@@ -101,7 +101,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 所有一天條件每日執行兩次。所有一週及更久條件每日執行一次。網站相關性條件每日執行一次。備用條件每日執行兩次。
 
-## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## 查看標準資訊{#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 您可以將游標移至卡片上並按一下卡片上的「資訊」圖示，這樣無需開啟條件，即可在快顯卡上查看條件詳情。
 
@@ -117,4 +117,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->「演 [!UICONTROL 算法使用] 」功能目前僅支援Recommendations活動。 A/B測試、自動分配、自動定位和體驗定位(XT)活動目前不支援此功能，這些活動將建議 [納入選件中](/help/c-recommendations/recommendations-as-an-offer.md)。
+>[!UICONTROL 演算法使用]功能目前僅支援Recommendations活動。 A/B測試、自動分配、自動定位和體驗定位(XT)活動目前不支援此功能，這些活動包含[建議作為選件](/help/c-recommendations/recommendations-as-an-offer.md)。
