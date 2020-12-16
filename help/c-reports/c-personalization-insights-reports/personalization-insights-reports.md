@@ -26,26 +26,26 @@ ht-degree: 71%
 * [!UICONTROL 「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。]也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
    >
    >
-* [!UICONTROL 「個人化前瞻分析] 」報表僅在從「報 [!UICONTROL 表量度」下拉式清單中選取「] 主要目標  」時可用。
+* [!UICONTROL 「個人] 化分析」報表僅在從「報 [!UICONTROL 表度] 量」下拉式清單中選  取「主要Goalis」時才可用。
    >
    >
 * 「個人化前瞻分析」報表僅支援於[預設環境](/help/administrating-target/hosts.md)中使用。
    >
    >
-* [!UICONTROL 「個人化洞見] 」報表僅針對處於「即時」狀態且已啟動並接收至少15天流量的活動產生。
+* [!UICONTROL 個人] 化洞察報告只會針對處於「即時」狀態且已啟  動並接收至少15天流量的活動產生。
 
 
 ## 「個人化前瞻分析」報表概覽 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-[!UICONTROL 「個人化前瞻分析」]報表的目標是提供有關 AP 和 AT 活動背後的 Target 個人化模型如何個人化訪客流量的更多資訊。The [Random Forest algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) is the basis for the [!DNL Target] personalization models.
+[!UICONTROL 「個人化前瞻分析」]報表的目標是提供有關 AP 和 AT 活動背後的 Target 個人化模型如何個人化訪客流量的更多資訊。[隨機森林算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)是[!DNL Target]個人化模型的基礎。
 
-Because the goal of the [!UICONTROL Personalization Insights] reports is to understand how the [!DNL Target] personalization models decided to send which visitor to what piece(s) of content, the [!UICONTROL Personalization Insights] reports reflect only a sub-segment of all the traffic served by your AP or AT activity. 具體而言，這兩份報表反映了使用個人化模型的所有流量。換句話說，[!UICONTROL 「個人化前瞻分析」]報表不會將整體成功案例模型提供的控制流量或流量納入考量。
+由於[!UICONTROL 個人化前瞻分析]報表的目的是瞭解[!DNL Target]個人化模型決定如何將哪個訪客傳送至內容片段，因此[!UICONTROL 個人化前瞻分析]報表僅反映您AP或AT活動所提供之所有流量的子區段。 具體而言，這兩份報表反映了使用個人化模型的所有流量。換句話說，[!UICONTROL 「個人化前瞻分析」]報表不會將整體成功案例模型提供的控制流量或流量納入考量。
 
-有兩 [!UICONTROL 份「個人化見解] 」報表可供使用：
+提供兩份[!UICONTROL 個人化見解]報表：
 
 | 報表 | 詳細資料 |
 |--- |--- |
-| [!UICONTROL 自動化區段] | 不同訪客對您的 AP/AT 活動中的選件/體驗有不同的反應。This report shows how different automated segments defined by the [!DNL Target] personalization models responded to the offers/experiences in the activity. |
+| [!UICONTROL 自動化區段] | 不同訪客對您的 AP/AT 活動中的選件/體驗有不同的反應。此報表顯示由[!DNL Target]個人化模型定義的不同自動化區段對活動中選件／體驗的回應方式。 |
 | [!UICONTROL 重要屬性] | 在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。此報表顯示影響模型及其相對重要性的常見屬性。 |
 
 ## 解譯「個人化前瞻分析」中的屬性 {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
@@ -65,14 +65,14 @@ Because the goal of the [!UICONTROL Personalization Insights] reports is to unde
 | 共用對象 (Adobe Audience Manager 或 Adobe Analytics) | 透過 Adobe Audience Manager 或 Adobe Analytics 建立並與 Target 共用的對象。 | `Custom - Experience Cloud Segment - [segment name]` |
 | 活動內報表對象/區段 | 在「目標和量度」中的設定期間，在 AP 或「自動鎖定目標」活動中定義的對象。 | `Custom - Reporting Segment - [segment name]` |
 
-## 訓練影片: 使用「個人化前瞻分析」報表 ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 使用「個人化前瞻分析」報表  ![教學課程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-如需詳細資訊，請 [參閱「在Adobe Target中使用個人化見解報表」](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
+如需詳細資訊，請參閱[在Adobe Target中使用個人化洞察報告](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
 
 ## Adobe部落格
 
-* 第1部分： [從人工智慧驅動的個人化魔力中揭開謎團](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* 第二部分： [Adobe Target中個人化AI的幕後秘辛](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* 第3部分： [MAGIX — AI驅動個人化黑匣子問題的解決方案](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* 第1部分：[從AI驅動的個人化魔力中揭開謎底](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* 第二部分：[Adobe Target中個人化AI幕後秘辛](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 第3部分：[MAGIX — AI驅動個人化黑匣子問題的解決方案](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
