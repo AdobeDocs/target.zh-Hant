@@ -26,7 +26,7 @@ ht-degree: 93%
 
    將游標移至頁面上的元素時，元素會強調顯示。任何強調顯示的元素可以使用 VEC 加以更改。如需可以在元素上執行以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   如果您使用[!DNL Target Classic]在頁面上建立[!DNL Target]請求，則該[!DNL Target]請求會以顯示請求名稱的元素顯示，而且可像修改任何其他元素一樣加以修改。
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ ht-degree: 93%
    >
    >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-   建立對象時，您可以選取位置並指定該位置的參數。 Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   建立對象時，您可以選取位置並指定該位置的參數。 在「[!UICONTROL 自訂]」（「建立對象>新增規則>自訂」）下，選取位置，然後指定所需的參數。
 
    >[!NOTE]
    >
