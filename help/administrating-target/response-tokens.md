@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # 回應 Token{#response-tokens}
 
-Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
+回應Token可讓您自動輸出特定於[!DNL Target]（活動詳細資訊、使用者設定檔資訊、地理資訊等）的資訊，以便用於除錯或與協力廠商系統整合（例如Clicktale）。
 
-回應Token可讓您選擇要運用的變數，然後讓這些變數可作為Target回應的一部分傳送。 為此，您只需使用開關啟用變數，變數就會隨Target回應一併傳送，並可在網路呼叫中驗證。 Response tokens work in [!UICONTROL Preview] mode as well.
+回應Token可讓您選擇要運用的變數，然後讓這些變數可作為Target回應的一部分傳送。 為此，您只需使用開關啟用變數，變數就會隨Target回應一併傳送，並可在網路呼叫中驗證。 回應Token也能在[!UICONTROL 預覽]模式中運作。
 
 外掛程式和回應 Token 之間的主要差異在於，外掛程式會將 JavaScript 傳送至頁面，此頁面會在傳送後立即執行，而回應 Token 會傳送物件，可利用事件接聽程式來讀取並處理此物件。如需詳細資訊，請參閱 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)和本章稍後的範例。回應 Token 方法比較安全，而且在開發和維護第三方整合時較輕鬆。
 
@@ -35,7 +35,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    如需詳細資訊，請參閱[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. 在[!DNL Target]中，按一下「**[!UICONTROL 管理]** > **[!UICONTROL 響應Token]**」。
 
    ![](assets/response_tokens-new.png)
 
@@ -45,7 +45,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    | 類型 | 參數 | 附註 |
    |--- |--- |--- |
-   | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，在含有兩個[!DNL Target]請求傳送兩個不同活動的頁面上，第二個請求包含兩個活動。 |
    |  | `profile.isFirstSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.isNewSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.daysSinceLastVisit` | 傳回訪客上次造訪後所經過的天數。 |
@@ -56,7 +56,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分配方法<br>(僅適 [!UICONTROL 用於「自動目標] 」和「自  動個人化」活動)。 | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「目標」流量分佈收到體驗，則傳回1。 |
+   | 流量分配方法<br>（僅適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動）。 | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「目標」流量分佈收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已定位」。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
@@ -65,9 +65,9 @@ Response tokens let you automatically output information specific to [!DNL Targe
    >
    >含特殊字元的參數不會顯示在清單中。僅支援英數字元和底線。
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. （條件性）如果您想使用描述檔參數做為回應Token，但參數尚未透過[!DNL Target]請求傳遞，因此尚未載入Target UI，則可使用[!UICONTROL 新增回應Token]按鈕將描述檔新增至UI。
 
-   按一 **[!UICONTROL 下「新增回應Token]**」、提供Token名稱，然後按一下「 **[!UICONTROL 啟動]**」。
+   按一下「新增回應Token」，提供Token名稱，然後按一下「啟動」。********
 
    ![](assets/response_token_create.png)
 
@@ -130,15 +130,15 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **如果在網站的某些頁面上使用 at.js 1.1 (或更新版)，但在其他頁面上使用 mbox.js，將會發生什麼情形?**
 
-Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
+回應Token會傳送至[!DNL at.js] Target回應，但不會傳送至[!DNL mbox.js]回應。
 
 **我可以同時使用 Target Classic 外掛程式和回應 Token 嗎?**
 
 外掛程式和回應 Token 平行可用，但未來將淘汰外掛程式。
 
-**回應Token是透過所有回應傳遞 [!DNL Target] ，還是僅透過回應 [!DNL Target] 傳遞活動傳遞？**
+**回應Token是透過所有回應傳遞， [!DNL Target] 還是僅透過回應 [!DNL Target] 傳遞活動傳遞？**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+回應Token僅透過傳送活動的[!DNL Target]回應傳送。
 
 **我的 Target Classic 外掛程式包含 JavaScript。如何使用回應 Token 來複寫其功能?**
 
@@ -164,7 +164,7 @@ Target 不會自動關閉 Token。如果您刪除設定檔指令碼，且不想�
 
 Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重新整理時移除。不過，如果您有一個已開啟且移除的屬性 (例如，您將一個當作 Token 的設定檔指令碼移除)，則要等到您關閉該指令碼，指令碼才會從屬性清單中移除。只有在刪除或重新命名已關閉的屬性時，Target 才會從清單中移除這些屬性。
 
-## 透過 at.js 將資料傳送至 Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
+## 透過 at.js 將資料傳送至 Google Analytics  {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 在 HTML 頁面中新增下列程式碼，即可透過 at.js 將資料傳送至 Google Analytics:
 
@@ -230,7 +230,7 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 </script>
 ```
 
-## 偵錯 (類似於 ttMeta 外掛程式) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## 偵錯 (類似於 ttMeta 外掛程式)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 將下列程式碼新增至 HTML 頁面，即可建立等同於 ttMeta 的外掛程式作為偵錯用途:
 
@@ -288,6 +288,6 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 
 >[!NOTE]
 >
->「管 [!DNL Target] 理」功能表UI(舊稱 [!UICONTROL Setup])已重新設計，以提供改善的效能、減少發佈新功能時所需的維護時間，並改善整個產品的使用體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+>[!DNL Target] [!UICONTROL Administration]功能表UI（先前稱為[!UICONTROL Setup]）已重新設計，以提供改善的效能、縮短發布新功能時所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
