@@ -16,13 +16,13 @@ ht-degree: 90%
 
 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 
-For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
+如需詳細資訊，請參閱[將參數傳遞至全域mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。
 
 當您根據 mbox 參數建立自訂對象時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
-1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
+1. 按一下「新增規則&#x200B;**[!UICONTROL > >**[!UICONTROL &#x200B;自訂&#x200B;]**」。]**
 
    若要選取需要的參數:
 
@@ -56,7 +56,7 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 * 系統會針對特定 mbox 評估受眾和活動。例如，如果全域 mbox 傳送某個參數，但地區 mbox 並未這麼做，則將目標鎖定於該參數的活動/受眾將不符合位於地區 mbox 上的資格。
 * 不會評估內部mbox參數（例如mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCVID、mboxMCGVID、mboxCount、mboxId和mboxVersion）的定位。
 
-## 訓練影片：建立觀眾教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片：建立觀眾![教學課程標章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
