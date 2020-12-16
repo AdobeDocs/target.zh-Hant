@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # 讓建議以建議索引鍵為依據
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+根據索引鍵的建議會使用訪客行為上下文來顯示[!DNL Adobe Target] [!DNL Recommendations]活動的相關結果。
 
 有兩種類型的建議: 
 
@@ -24,14 +24,14 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 各條件均在自己的標籤中定義。流量平均分入不同的條件測試中。換句話說，如果您有兩個條件，流量會在它們之間平均分配。如果您有兩個條件和兩個設計，流量會在四個組合中平均分割。您也可指定可看到預設內容的訪客比例，以進行比較。這種情況下，指定比例的訪客看到預設內容，其餘的分入條件和設計組合之間。
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. 建立新標準，或選取現有標準，然後按一下「編輯」(Edit)]**。**[!UICONTROL 
+1. 若要變更建議金鑰，請從[!UICONTROL 建議金鑰]下拉式清單中選取新金鑰，然後按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 更新]**。
 
    因為不同邏輯會對應至不同建議金鑰，而不同建議會將自身借出，以放置在不同類型的頁面上。如需每個建議索引鍵的詳細資訊，請參閱下列章節。
 
 ## 建議金鑰
 
-「建議金鑰」下拉式清單中 [!UICONTROL 提供下列建議金鑰] :
+從[!UICONTROL 建議金鑰]下拉式清單中可使用下列建議金鑰：
 
 ### 目前項目 {#current-item}
 
@@ -54,7 +54,7 @@ Recommendations 會顯示對指定項目感興趣的訪客的其他項目。
 * 單一項目頁面，例如產品頁面。
 * 請勿在 null 搜尋結果頁面上使用。
 
-### 目前類別 {#current-category}
+### 目前類別  {#current-category}
 
 建議由訪客正在檢視的產品類別確定。
 
@@ -72,7 +72,7 @@ Recommendations 會將項目顯示在指定的產品類別中。
 * 單一類別頁面。
 * 請勿在 null 搜尋結果頁面上使用。
 
-### 自訂屬性 {#custom}
+### 自訂屬性  {#custom}
 
 Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x* 或設定檔。*x* 屬性。
 
@@ -82,7 +82,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 
 對於您自己的自訂條件輸出，您可以執行即時篩選。例如，您可以將建議的項目限制在來自訪客最喜愛的類別或品牌的內容。此功能可讓您結合離線計算與即時篩選。
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. 這結合資料科學家的本領和研究，與 Adobe 的實測可靠傳送、執行階段篩選、A/B 測試、鎖定目標、報表、整合及其他。
+此功能表示您可以使用[!DNL Target]在離線計算建議或自訂清單上新增個人化。 這結合資料科學家的本領和研究，與 Adobe 的實測可靠傳送、執行階段篩選、A/B 測試、鎖定目標、報表、整合及其他。
 
 連同在自訂條件上增加包含規則，這還可以根據訪客的興趣，將原本靜態的建議轉換成動態建議。
 
@@ -172,7 +172,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 首頁、我的帳戶頁面、離站廣告。
 * 請勿在產品頁面或與購買相關的頁面上使用。
 
-### 上次檢視的項目 {#last-viewed}
+### 上次檢視的項目  {#last-viewed}
 
 建議由每位獨特訪客上次檢視的項目確定。這會自動擷取，因此無需向頁面傳遞任何值。
 
@@ -189,7 +189,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 首頁、我的帳戶頁面、離站廣告。
 * 請勿在產品頁面或與購買相關的頁面上使用。
 
-### 檢視次數最多的項目 {#most-viewed}
+### 檢視次數最多的項目  {#most-viewed}
 
 建議由檢視次數最多的項目確定，而使用的方法與最喜愛類別的相同。
 
@@ -213,7 +213,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 一般頁面，例如首頁或登陸頁面及離站廣告。
 
-### 人氣 {#popularity}
+### 人氣  {#popularity}
 
 建議由網站上的項目人氣確定。人氣包括依據 mbox 資料的最暢銷商品和檢視次數最多的產品，如果使用 Adobe Analytics，則還依據產品報表中的所有可用量度。項目的排名是根據您選取的建議邏輯。
 
@@ -227,15 +227,15 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 一般頁面，例如首頁或登陸頁面及離站廣告。
 
-### 最近查看的項目 {#recently-viewed}
+### 最近查看的項目  {#recently-viewed}
 
 根據設計中的位置數量，使用訪客的歷史 (跨工作階段) 以呈現訪客已檢視的前 *x* 個項目。
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的項目。
+「最近查看的項目」條件返回特定於給定[環境](/help/administrating-target/hosts.md)的結果。 如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的項目。
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>備份建議不能使用[!UICONTROL 最近查看的項目]標準。
 
 您可以篩選「最近查看的項目/媒體」，以便僅顯示具有特定屬性的項目。
 
@@ -252,13 +252,13 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 >[!NOTE]
 >
->[!UICONTROL 「最近檢視的項目] 」會同時包含活動的排除全域設定和選取的系列設定。 If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL 「最近檢] 視的項目」會同時排除活動的全域設定和選取的系列設定。如果項目被全域排除，或未包含在選取的系列中，則不會顯示該項目。因此，使用[!UICONTROL 最近檢視的項目]標準時，通常應使用「所有系列」設定。
 
 ## 建議邏輯
 
 [!DNL Target Recommendations] 採用複雜的演算法，用於判斷訪客的動作何時符合活動中設定的條件。建議金鑰決定可用的建議邏輯選項。
 
-「建議邏輯」下拉式清單中提供 [!UICONTROL 下列建議邏輯] （條件）:
+[!UICONTROL 建議邏輯]下拉式清單中提供下列建議邏輯（准則）:
 
 ### 具有類似屬性的項目/媒體 {#similar-attributes}
 
@@ -268,7 +268,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 使用內容相似性產生建議對新項目特別有效，因為新項目不太可能使用「檢視過此的人」、「檢視過的人」和其他基於過去行為的邏輯顯示在建議中。 您也可以使用內容相似度，為沒有過去的購買或其他歷史資料的新訪客產生實用的建議。
 
-如需詳細資訊，請參 [閱內容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)。
+如需詳細資訊，請參閱[內容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)。
 
 此邏輯可與下列建議索引鍵搭配使用：
 
@@ -366,7 +366,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 * 最喜愛的類別
 * 人氣
 
-### 使用者建議 {#user-based}
+### 使用者型建議{#user-based}
 
 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。
 
