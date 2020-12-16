@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升級at.js的偏好方法。 擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成擴充功能的新版本，並以升級形式提供 [!DNL Launch] 至目錄中。 如需詳細資訊，請參 [閱Experience Platform Launch使用指](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 南中的Extension Upgrade **。
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升級at.js的偏好方法。擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成新版擴充功能，並在[!DNL Launch]目錄中提供升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用指南*&#x200B;中的[Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
 
 ## at.js 2.3.3（2020年11月13日）
 
@@ -38,29 +38,29 @@ ht-degree: 85%
 
 此版本的at.js是維護髮行，包含下列修正：
 
-* 修正使用CNAME和Edge Override(at.js 1)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35064)
+* 修正使用CNAME和Edge Override(at.js 1)時的問題。** x可能會錯誤建立伺服器網域，導致請 [!DNL Target] 求失敗。(TNT-35064)
 
 ## at.js 2.3.1版本（2020年6月15日）
 
 此 at.js 版本為維護版本，包含下列增強功能和修正:
 
-* 透過targetGlobalSettings `deviceIdLifetime` 可覆蓋 [設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)
-* 修正使用CNAME和Edge Override(at.js 2)時的問題。*x可能* 會錯誤建立伺服器網域，導致請求 [!DNL Target] 失敗。 (TNT-35065)
-* 已修正使用擴充功能v2 [!DNL Target] 和擴充功能時， [!DNL Launch] 延遲 [!DNL Adobe Analytics] 呼叫的問 [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 題。 (TNT-36407、TNT-35990、TNT-36000)
+* 透過[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)將`deviceIdLifetime`設定設為可覆寫。 (TNT-36349)
+* 修正使用CNAME和Edge Override(at.js 2)時的問題。** x可能會錯誤建立伺服器網域，導致請 [!DNL Target] 求失敗。(TNT-35065)
+* 修正使用[!DNL Target] [!DNL Launch]擴充功能v2和[!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target]延遲[!DNL Analytics] `sendBeacon`呼叫的問題。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## at.js 版本 2.3.0 (2020 年 3 月 25 日)
 
 此 at.js 版本為維護版本，包含下列增強功能和修正:
 
-* 支援在套用傳送的Target選件時，將「內容安全性原則」非設定在附加至頁面DOM的SCRIPT和STYLE標籤上。 客戶可以設 `targetGlobalSettings.cspScriptNonce` 定 `targetGlobalSettings.cspStyleNonce` ，如此at.js就可以在套用的選件上設定對應的指令碼和樣式標籤。 See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* 支援在套用傳送的Target選件時，將「內容安全性原則」非設定在附加至頁面DOM的SCRIPT和STYLE標籤上。 客戶可以設定`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，如此at.js就可以在套用的選件上設定對應的指令碼和樣式標籤nonces。 如需詳細資訊，請參閱[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 修正使用Google Closure編譯器編譯at.js以部署Google Tag Manager時的問題。
-* 將at.js檢查Cookie從重新命 `check` 名 `at_check` 為，以避免與客戶實作衝突。
+* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶實作衝突。
 
 ## at.js 版本 1.8.1 (2020 年 3 月 25 日)
 
 此 at.js 版本為維護版本，包含下列增強功能和修正:
 
-* 將at.js檢查Cookie從重新命 `check` 名 `at_check` 為，以避免與客戶實作衝突。
+* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶實作衝突。
 
 ## at.js 2.2.0版（2019年10月10日）
 
@@ -74,7 +74,7 @@ ht-degree: 85%
    >
    >將您的ECID Launch Extension升級至v4.4，以運用此效能增強功能。
 
-* at.js 2.2版也提供名為的新設定 `serverState`。 當實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js 2.2版也提供名為`serverState`的新設定。 當實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。如需詳細資訊，請參閱[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)中的「serverState」。
 
 ## at.js 1.8.0版（2019年10月10日）
 
