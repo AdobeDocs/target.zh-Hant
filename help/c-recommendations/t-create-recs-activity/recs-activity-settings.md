@@ -14,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations 活動設定{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+有關可用於描述和控制[!UICONTROL Recommendations]活動[!DNL Adobe Target]的設定的資訊。
 
 ![Recommendations 目標和設定頁面](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ Information about the settings you can use to describe and control a [!UICONTROL
 `-`
 `@`
 
-如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。新名稱為原始名稱附加時間戳記的唯一名稱。This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。新名稱為原始名稱附加時間戳記的唯一名稱。此新名稱會同時顯示在[!DNL Target Standard/Premium]和[!UICONTROL  Recommendations Classic]中。
 
 ## 目標
 
@@ -55,7 +55,7 @@ Information about the settings you can use to describe and control a [!UICONTROL
 
 ## 報表設定
 
-* **報告來源：** 選擇報告來源： [!DNL Adobe Target] 或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。 活動上線後，請勿變更報表來源。在活動上線後變更報表來源會導致不一致的報表。
+* **報告來源：** 選擇報告來源： [!DNL Adobe Target] 或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。活動上線後，請勿變更報表來源。在活動上線後變更報表來源會導致不一致的報表。
 * **目標量度:** 選取判斷活動是否成功的成功量度。
 * **其他度量:** 設定要在您的報表中使用的其他成功度量。
 * **報表對象:** 定義篩選報表時可以使用的對象。
@@ -64,7 +64,7 @@ Information about the settings you can use to describe and control a [!UICONTROL
 
 輸入關於您的活動的備註。
 
-## 訓練影片：活動設定(3:02)教學 ![課程徽章](/help/assets/tutorial.png)
+## 訓練影片：活動設定(3:02)![教程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
