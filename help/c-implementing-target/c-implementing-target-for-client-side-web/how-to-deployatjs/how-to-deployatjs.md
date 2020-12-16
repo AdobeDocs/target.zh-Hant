@@ -20,8 +20,8 @@ ht-degree: 57%
 
 * **[使用 Adobe Launch 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的推薦方法。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
 * **[不使用標籤管理員實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: 您可以不使用標籤管理員 (Adobe Launch 或動態標籤管理) 實作 Target。
-* **[使用動態標籤管理實作目標](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**:您可以使用Adobe的舊版標籤管理程式Adobe動態標籤管理(DTM)來實作Target。 Adobe Launch 為實作 Target 和 at.js 程式庫最新的推薦方法。如需進行新的 Target 實作，請使用 Launch。
-* **使用協力廠商標籤管理器實作Target**: [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是實作Target的偏好方法；不過，您也可以使用協力廠商標籤管理器（例如Tealium、Ensighten、Google標籤等）來實作Target。 如需使用Launch的優點清單，請參 [閱使用Target Launch擴充功能實作at.js的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304)。
+* **[使用動態標籤管理實作目標](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**:您可以使用Adobe的舊版標籤管理程式Adobe動態標籤管理(DTM)來實作Target。Adobe Launch 為實作 Target 和 at.js 程式庫最新的推薦方法。如需進行新的 Target 實作，請使用 Launch。
+* **使用協力廠商標籤管理器實作Target**: [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是實作Target的偏好方法；不過，您也可以使用協力廠商標籤管理器（例如Tealium、Ensighten、Google標籤等）來實作Target。如需使用Launch的優點清單，請參閱[使用Target Launch擴充功能實作at.js的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304)。
 
    不過，如果您知道如何在沒有標籤管理程式的情況下實作Target，則可以輕鬆地使用協力廠商標籤管理程式來實作，而不是在網站程式碼中硬式編碼at.js。
 
