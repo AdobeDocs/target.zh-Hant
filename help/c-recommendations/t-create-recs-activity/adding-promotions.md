@@ -4,15 +4,15 @@ description: 新增提示的項目並控制其在您的 Adobe Target Recommendat
 title: 在 Adobe Target Recommendations 設計中新增促銷活動。
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 99%
+source-wordcount: '679'
+ht-degree: 60%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 新增促銷活動{#add-promotions}
+# ![PREMIUM](/help/assets/premium.png) 新增促銷活動
 
 新增提示的項目並控制其在您的 Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
 
@@ -51,13 +51,32 @@ ht-degree: 99%
 
    * 選取&#x200B;**[!UICONTROL 「項目清單」]**&#x200B;並輸入 `entity.id` 值，將您要促銷的特定項目以逗號區隔。
 
-      如果您的清單包括的項目多於為促銷活動設定的位置數量，您可以選取&#x200B;**[!UICONTROL 「隨機排列項目順序」]**&#x200B;核取方塊，以變更在您的設計中顯示的促銷的項目。若選擇此選項，Target 從對每次造訪設定的整個促銷活動中，隨機選取在範本中為促銷活動啟用項目數量。
-
    * 選取&#x200B;**[!UICONTROL 「依屬性促銷」]**，並新增規則以定義您要促銷的項目的屬性。
 
       如果您選取「依屬性促銷」，您可以建立動態匹配。如需詳細資訊，請參閱[使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
-   * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]**，並選擇您要促銷的項目集合。您可以建立新的集合用於促銷活動。請參閱[建立集合](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
+   * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]**，並選擇您要促銷的項目集合。
+
+      您可以建立新的集合用於促銷活動。請參閱[建立集合](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
+   如果您選擇「 **[!UICONTROL 項目清單]** 」作為「促銷 **[!UICONTROL 類型」]**，請視需要選 **** 取「隨機項目順序」核取方塊。
+
+   「項目清單」的預  設排序順序是根據您在Target UI或API中輸入的順序。
+
+   If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+
+   如果實體沒有屬 `entity.value` 性（例如，您不銷售產品），您可以將數值傳入屬 `entity.value` 性中，例如發佈日期。 在此情況下，可根據最近的發佈日期，以遞減順序來提升提升項目。 屬 `entity.value` 性為double類型；它不接受字串。
+
+   如果您選取「依 [!UICONTROL 屬性升級] 」或「  升級系列」選項，則不適用隨機化順序的選項。
+
+   使用「依屬性提升 [!UICONTROL 」或「] 提升系列 [!UICONTROL 」選項來提升特定項目時，項目顯示的預設順序是根據屬性，以遞減數]`entity.value` 值順序排列。
+
+   下表說明這些選項之間的差異：
+
+   | 促銷類型 | 預設排序 | 備份排序 | 動態篩選選項 |
+   | --- | --- | --- | --- |
+   | 項目清單 | 在Target UI/API中輸入的訂單 | 隨機（透過UI/API選取時） | 無 |
+   | 按屬性升級 | entity.value（遞減順序） | 對每個請求進行隨機化（當沒有entity.value屬性時） | 無 |
+   | 促銷系列 | entity.value（遞減順序） | 對每個請求進行隨機化（當沒有entity.value屬性時） | 無 |
 
 1. Click **[!UICONTROL Save.]**.
 
