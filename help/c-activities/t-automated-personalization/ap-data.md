@@ -14,11 +14,11 @@ ht-degree: 91%
 
 # ![PREMIUM](/help/assets/premium.png) Target 個人化演算法的資料收集
 
-[!DNL Adobe Target] 在 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] (AT)活動中自動收集和使用各種資料來建立其個人化演算法。 當訪客進入AP或AT活動時，資訊快照會傳遞至一組「訓練記錄」（個人化演算法將學習的訪客資料）。
+[!DNL Adobe Target] 在 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] (AT)活動中，自動收集並使用各種資料來建立其個人化演算法。當訪客進入AP或AT活動時，資訊快照會傳遞至一組「訓練記錄」（個人化演算法將學習的訪客資料）。
 
-To learn more about the Target personalization algorithms, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
+若要進一步瞭解Target個人化演算法，請參閱[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
-The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表顯示預設由[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]收集的資料，行銷人員無需執行任何動作，以及[Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用來指示這些屬性的命名慣例。 您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 資料類型 | 說明 | 資料類型命名慣例 | 範例屬性 |
 | --- | --- | --- | --- |
@@ -99,10 +99,10 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 | 訪客設定檔 - 第一次造訪 | 指定使用者與 Target 互動時的第一次造訪的時間。 | 雙倍，毫秒 |
 | 訪客設定檔 - 自上次造訪以來的時數 | 指定自上次造訪此特定活動以來的時數。 | 雙倍 (僅限正整數) 1、2、3 等 |
 | 訪客設定檔 - 位置/內容的曝光次數 | 指定特定活動中特定位置/內容組合的曝光次數。 | 雙倍 (僅限正整數) 1、2、3 等 |
-| 訪客設定檔 - 上次 Target 互動 | 指定上次與 Target 互動的時間。Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | 雙倍，毫秒 |
+| 訪客設定檔 - 上次 Target 互動 | 指定上次與 Target 互動的時間。每個[!DNL Target]請求都會發生互動，因為[!DNL Target]的目前實作會更新每個請求的描述檔。 | 雙倍，毫秒 |
 | 訪客設定檔 - 活動前檢視的頁面 | 指定在訪客進入活動之前的頁面檢視總數 (曝光次數)，包括目前的造訪/工作階段。 | 雙倍 (僅限正整數) 1、2、3 等 |
 | 訪客設定檔 - 目前造訪中的頁面檢視數 | 指定在訪客進入活動之前，目前造訪/工作階段中的頁面檢視數。更準確地說，也就是曝光次數。這些曝光並不是真正的頁面檢視數，而是要求已到達 Target 的次數。針對逾時或是使用者未收到或檢視內容的任何其他原因，Target 無法將其加以區分。 | 雙倍 (僅限正整數) |
-| 訪客設定檔 - 目前造訪開始時間 | 指定 Target 的目前造訪/工作階段開始的時間。可以初始化 Target 的造訪，而不需要進入活動。All that is required is a call to any [!DNL Target] request. 訪客在進入活動並拍攝快照之前可能需要一些時間。 | 雙倍，毫秒 |
+| 訪客設定檔 - 目前造訪開始時間 | 指定 Target 的目前造訪/工作階段開始的時間。可以初始化 Target 的造訪，而不需要進入活動。您只需要呼叫任何[!DNL Target]要求。 訪客在進入活動並拍攝快照之前可能需要一些時間。 | 雙倍，毫秒 |
 | 訪客設定檔 - 開始最近一次瀏覽 | 指定 Target 的上次造訪/工作階段開始的時間。此屬性會在工作階段過期時更新。<br>如果這是訪客的第一個工作階段，則會產生 `LAST_SESSION_START = 0.` | 雙倍，毫秒 |
 | 訪客設定檔 - 初次進入活動時自最近一次造訪以來的時間 | 指定上一個工作階段與使用者進入活動且執行快照之間的時間的持續時間。 | 雙倍，毫秒 |
 | 訪客設定檔 - 進入活動之前的造訪時間 | 指定上次與 Target 進行互動以及目前造訪開始時間之間的差異。此屬性可視為在使用者進入活動且執行快照之前的造訪/工作階段持續時間。<br>[!DNL Target]當工作階段開始且同一個 呼叫已觸發上次更新時間時 ，則會出現負值。負值應視為 0 (零)。 | 雙倍，毫秒 |
