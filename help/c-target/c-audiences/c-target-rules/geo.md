@@ -50,24 +50,24 @@ ht-degree: 88%
 
 ## 準確度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動數據連線時，地理查閱的準確度會受到一些因素的影響，包括位置、提供者與 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之間的資料關係，以及其他因素。行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動數據連線時，地理查閱的準確度會受到一些因素的影響，包括位置、提供者與 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之間的資料關係，以及其他因素。行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
 
 下表顯示 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 針對有線或 WiFi 網際網路連線所提出的 IP 型地理位置資訊的準確度。DigitalEnvoy 提供的資料是業界最準確的。全球準確度在國家/地區層級超過 99.9%，在城市層級也能達到 97%。準確度資訊不適用於行動通訊基地台網路。
 
 | 國家 | 狀態 | 城市 | 地區 |
 |--- |--- |--- |--- |
 | 美國 | 99.99% | 96% | 94% |
-| 加拿大 | 99.99% | 96% | 94% |
-| 歐洲 | 99.99% |  |  |
-| 英國 | 99.99% |  | 87% |
-| 德國 | 99.99% | 95% | 93% |
+| 加拿大 | 百分之九十九點九九 | 96% | 94% |
+| 歐洲 | 百分之九十九點九九 |  |  |
+| 英國 | 百分之九十九點九九 |  | 87% |
+| 德國 | 百分之九十九點九九 | 95% | 93% |
 | 斯堪地那維亞 | 99% | 90% 出頭 | 約 85% |
-| 西班牙 | 99.99% | 約 90% | 95% 以上 |
+| 西班牙 | 百分之九十九點九九 | 約 90% | 95% 以上 |
 | 亞洲 | 99% | 約 95% | 90% 出頭 |
-| 日本 | 99.99% | 約 95% | 90% 出頭 |
-| 澳大利亞 | 99.99% | 94% | 91% |
+| 日本 | 百分之九十九點九九 | 約 95% | 90% 出頭 |
+| 澳大利亞 | 百分之九十九點九九 | 94% | 91% |
 
-## 在設定檔指令碼中使用地理鎖定目標 {#section_92C93138542C4A94997E3F4BE3F5DA28}
+## 在設定檔指令碼中使用地理鎖定目標  {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
 您可以在設定檔指令碼中使用地理資訊。
 
@@ -116,7 +116,7 @@ ht-degree: 88%
 
 **行動裝置的地理鎖定目標如何運作?**
 
-絕大多數的行動裝置使用者透過 WiFi 存取內容，這表示 Target 的 IP 型地理鎖定目標可以像桌上型電腦一樣準確。透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+絕大多數的行動裝置使用者透過 WiFi 存取內容，這表示 Target 的 IP 型地理鎖定目標可以像桌上型電腦一樣準確。透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
 
 **地理功能如何處理來自 AOL 的訪客?**
 
@@ -141,7 +141,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` 僅在at.js 1.*jx中支援* 。 at.js 2不支援此功能。*x* 版本不支援此函數。
+>`mboxOverride.browserIp` is supported in at.js 1.** jxonly.at.js 2不支援此功能。*x* 版本不支援此函數。
 
 **波多黎各和香港等地區要如何對應至地理鎖定目標結構?**
 
@@ -149,9 +149,9 @@ ht-degree: 88%
 
 **當活 [!DNL Target] 動以地理位置定位功能定位時，是否會擷取（並儲存）郵遞區號等資訊？**
 
-否， [!DNL Target] 僅使用作業期間的地理資料，則會捨棄資料。
+否，[!DNL Target]僅使用作業期間的地理資料，則會捨棄資料。
 
-## 訓練影片：建立觀眾教 ![學課程徽章](/help/assets/tutorial.png)
+## 訓練影片：建立觀眾![教學課程標章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
