@@ -20,7 +20,7 @@ ht-degree: 86%
 
 ## [!DNL Target] Standard/Premium 介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-The [!DNL Target] interface supports the following browsers and devices:
+[!DNL Target]介面支援下列瀏覽器和裝置：
 
 | 裝置類型 | 瀏覽器版本 |
 |--- |--- |
