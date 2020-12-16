@@ -12,7 +12,7 @@ ht-degree: 98%
 ---
 
 
-# registerExtension() - at.js 1.x
+# registerExtension()- at.js 1.x
 
 提供標準方式來註冊特定的延伸模組。
 
@@ -45,7 +45,7 @@ options 參數是強制性的，並且具有下列結構:
 | globalMboxAutoCreate | 布林值 | 指出自動建立是否已啟用 |
 | timeout | 數字 | 要求逾時 |
 
-## 記錄器模組方法 {#section_10AF62B49AEF48F981E950D26E176138}
+## 記錄器模組方法  {#section_10AF62B49AEF48F981E950D26E176138}
 
 | 機碼 | 類型 | 說明 |
 |--- |--- |--- |
