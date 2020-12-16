@@ -16,9 +16,9 @@ ht-degree: 59%
 
 協助您自訂at.js之全域mbox的資訊。
 
-1. 按一 **[!UICONTROL 下「管理]** >實 **[!UICONTROL 施」]**。
+1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 實施]**」。
 
-1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
+1. 停用&#x200B;**[!UICONTROL 啟用頁面載入（自動建立全域mbox）]**，然後新增您要用來傳送[!DNL Target]活動的自訂全域mbox名稱。
 
    此自訂全域 mbox 也用於點擊追蹤。
 
@@ -26,9 +26,9 @@ ht-degree: 59%
 
 1. 完成後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-1. Implement the [!DNL at.js] library on your site.
+1. 在您的網站上實作[!DNL at.js]程式庫。
 
-   如需 [詳細資訊，請參閱如何部署at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) 。
+   如需詳細資訊，請參閱[如何部署at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)。
 
 1. 計算您的發行轉變所需的時間。
 
