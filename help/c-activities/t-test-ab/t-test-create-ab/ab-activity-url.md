@@ -24,7 +24,7 @@ ht-degree: 93%
 
 ## 指定不同的 URL
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+依預設，[!UICONTROL Visual Experience Composer]會開啟在[Visual Experience Composer設定](/help/administrating-target/visual-experience-composer-set-up.md)中指定的頁面
 . 您可以在活動建立期間指定不同的頁面。
 
 若要在[!UICONTROL 可視化體驗撰寫器]開啟之後顯示不同頁面，請按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示，然後選取 **[!UICONTROL 「頁面傳送」]**。在「活動 URL」欄位中輸入 URL。
