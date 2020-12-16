@@ -38,9 +38,9 @@ ht-degree: 94%
 
 如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+如果S[!UICONTROL Administration] > [!UICONTROL Reporting]（預設值）未啟用此選項，請指定優先順序：低、中或高。
 
-To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+要啟用細粒度優先順序，請按一下「管理」「 > [!UICONTROL 報告」「]」，然後將「啟用細粒度優先順序」選項切換為「開啟」位置。
 
 如果已啟用此選項，請指定介於 0 和 999 之間的值:
 
@@ -154,7 +154,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動設定(3:02)教學 ![課程徽章](/help/assets/tutorial.png)
+### 活動設定(3:02)![教程徽章](/help/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 
@@ -166,7 +166,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 建立多變數測試(9:25)教學 ![課程徽章](/help/assets/tutorial.png)
+### 建立多變數測試(9:25)![教學課程標章](/help/assets/tutorial.png)
 
 此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。在 7:00 開始討論目標和設定。
 
