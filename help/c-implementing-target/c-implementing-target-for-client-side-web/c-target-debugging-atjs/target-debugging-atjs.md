@@ -24,14 +24,14 @@ ht-degree: 83%
 
 下列影片會逐步引導您進行除錯程序:
 
-### 新增 Adobe Experience Cloud Debugger 擴充功能 ![概述徽章](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### 新增 Adobe Experience Cloud Debugger 擴充功能  ![概述徽章](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### 使用Adobe Experience Cloud除錯程式進行基本目標除錯![概觀標章](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox追蹤概 ![觀徽章](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Mbox追蹤![概觀標章](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
