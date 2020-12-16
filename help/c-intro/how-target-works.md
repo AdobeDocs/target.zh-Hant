@@ -86,19 +86,19 @@ Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合:
 
 Recommendations 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 
-## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## 邊緣網路{#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 「Edge」是地理上分散的服務架構，可確保使用者在要求內容時的最佳回應時間，而不論使用者在全球的何處。
 
 為了改善回應時間，Target Edges僅托管活動邏輯、快取描述檔和選件資訊。
 
-Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 更新會傳送至「目標邊緣」。 Central叢集和Edge叢集會自動同步，以持續更新快取的活動資料。 所有1:1模型也會儲存在每個邊緣，因此這些更複雜的要求也可以在邊緣上處理。
+活動和內容資料庫、[!DNL Analytics]資料、API和行銷人員使用者介面都存放在Adobe的Central Clusters中。 更新會傳送至「目標邊緣」。 Central叢集和Edge叢集會自動同步，以持續更新快取的活動資料。 所有1:1模型也會儲存在每個邊緣，因此這些更複雜的要求也可以在邊緣上處理。
 
 每個邊緣叢集都具備回應使用者內容要求及追蹤該要求之分析資料所需的所有資訊。 使用者要求會路由至最接近的邊緣叢集。
 
 如需詳細資訊，請參閱 [Adobe Target 安全性概覽](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
 
-The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
+[!DNL Adobe Target]解決方案代管於全球Adobe擁有和Adobe租賃的資料中心。
 
 中央群集位置同時包含資料收集中心和資料處理中心。 邊緣叢集位置僅包含資料收集中心。 每個報表套裝會被指派至特定的資料處理中心。
 
@@ -124,15 +124,15 @@ Target Edge Clusters位於：
 * 愛爾蘭都柏林
 * 新加坡共和國
 
-此服 [!DNL Target Recommendations] 務位於俄勒岡州 [!DNL Adobe] 的資料中心。
+[!DNL Target Recommendations]服務位於俄勒岡州的[!DNL Adobe]資料中心。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中國沒有Edge Cluster，而且一般使用者的效能仍將受限於中國 [!DNL Target] 客戶。 Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] 目前中國沒有Edge Cluster，而且一般使用者的效能仍將受限於中 [!DNL Target] 國客戶。由於防火牆和國家／地區缺乏Edge叢集，部署[!DNL Target]的網站的轉換速度會變慢，而頁面載入也會受到影響。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
-您可以視需要允許列出目標邊緣叢集。 如需詳細資訊，請參 [閱allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
+您可以視需要允許列出目標邊緣叢集。 如需詳細資訊，請參閱[allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
-## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## 受保護的使用者體驗{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 盡可能確保定位基礎建設的可用度和效能值得信賴。然而，使用者瀏覽器和 Adobe 伺服器之間的通訊中斷可能會造成內容傳輸的中斷。
 
@@ -194,7 +194,7 @@ Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示�
 
 ## 機器人 {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 識別為由機器人產生的流量仍會提供內容 (例如一般使用者)，確保其符合 SEO 指導方針。在視為一般使用者的情況下，使用機器人流量可能會扭曲 A/B 測試或個人化演算法。因此，如果 Target 活動中偵測到已知機器人，則會以稍微不同的方式看待流量。移除機器人流量可提供更準確的使用者活動測量。
+Adobe Target使用[DeviceAtlas](https://deviceatlas.com/)來偵測已知的機器人。 識別為由機器人產生的流量仍會提供內容 (例如一般使用者)，確保其符合 SEO 指導方針。在視為一般使用者的情況下，使用機器人流量可能會扭曲 A/B 測試或個人化演算法。因此，如果 Target 活動中偵測到已知機器人，則會以稍微不同的方式看待流量。移除機器人流量可提供更準確的使用者活動測量。
 
 具體而言，針對已知機器人流量，Target 不會:
 
