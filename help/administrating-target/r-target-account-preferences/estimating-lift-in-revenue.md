@@ -2,9 +2,9 @@
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Adobe Target可以估計所有使用者檢視成功體驗時，您可獲得的收入提升。
 title: 預估收入成長
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 96%
