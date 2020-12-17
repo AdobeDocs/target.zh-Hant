@@ -2,9 +2,9 @@
 keywords: add user;manage user;user permissions
 description: 有關在Adobe Target Standard中管理使用者以及在Adobe Target Premium中管理企業屬性和權限的資訊。
 title: 使用者管理
-feature: user management
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 18%
