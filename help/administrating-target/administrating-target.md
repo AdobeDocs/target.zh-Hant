@@ -2,9 +2,9 @@
 keywords: setting up;setup;set-up;set up;administration
 description: 協助您設定Adobe Target的資訊，包括偏好設定、實作、使用者管理、屬性、Scene7設定、主機管理和回應Token。
 title: 管理 Adobe Target
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
