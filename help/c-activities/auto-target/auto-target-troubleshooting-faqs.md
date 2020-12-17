@@ -4,10 +4,10 @@ description: 疑難排解和Adobe Target中自動定位的常見問題。
 title: 自動定位疑難排解與常見問答集
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 71%
+source-wordcount: '1902'
+ht-degree: 68%
 
 ---
 
@@ -143,3 +143,9 @@ AP 活動產生提升度需要四個係數:
 在[!UICONTROL 自動鎖定目標]活動中，轉換量度 (無論是最佳化目標或事後目標) 一旦轉換，即會從體驗中釋放使用者，而活動也會重新開始。
 
 例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。A1 相依於 C1。當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。如果訪客轉換 C1 然後轉換 A1，此時仍不會轉換 A1，因為 C1 一旦進行轉換即會釋出訪客。
+
+### 如果我從Auto-Target活動中移除單一體驗，會發生什麼情況？
+
+[!DNL Target] 根據每個體驗建立一個模型，因此移除一個體 [!DNL Target] 驗意味著只需建立一個模型，而不會影響其他體驗的模型。
+
+例如，假設您有一個[!UICONTROL Auto-Target]活動，其中包含8個體驗，而您不喜歡單個體驗的效能。 您可以移除該體驗，而不會影響其餘7個體驗的模型。
