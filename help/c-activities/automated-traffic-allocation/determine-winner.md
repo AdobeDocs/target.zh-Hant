@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: 在Adobe Target UI中檢視指標，以判斷「自動分配A/B」活動中的成功者。
-title: 決定獲勝者
-feature: auto-allocate
+description: 在Adobe Target UI中檢查重要指標，包括提升度和信賴度，以解譯自動分配A/B活動的結果。
+title: 解譯自動分配報表
+feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 48%
+source-wordcount: '1115'
+ht-degree: 47%
 
 ---
 
