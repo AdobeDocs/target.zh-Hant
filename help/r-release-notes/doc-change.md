@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 16 年 12 月 | [自動定位疑難排解與常見問答集](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 新增下列常見問答：「如果我從Auto-Target活動移除單一體驗，會發生什麼情況？」 |
 | 9 年 12 月 | [裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新主題。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 將下列問題從「已知問題」區段移至「已解決問題」區段：&quot;顯示「處理」標籤的影像選件。&quot; |
 | 1 年 12 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 內嵌網路研討會錄影，以「透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試」。 |
