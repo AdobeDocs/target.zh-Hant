@@ -4,7 +4,7 @@ description: 疑難排解和Adobe Target中自動定位的常見問題。
 title: 自動定位疑難排解與常見問答集
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 68%
@@ -108,6 +108,12 @@ No, check marks for model generation show only the models built to date. There's
 
 不建議對[!UICONTROL 自動目標]活動使用[!UICONTROL 重設報表資料]選項。 雖然它會移除可見的報告資料，但此選項不會從[!UICONTROL Auto-Target]模型移除所有培訓記錄。 您不必為[!UICONTROL 自動目標]活動使用[!UICONTROL 重設報表資料]選項，而是建立新活動並停用原始活動。 (注意：本指南也適用於[!UICONTROL 自動分配]和[!UICONTROL 自動個人化]活動。)
 
+### 如果我從Auto-Target活動中移除單一體驗，會發生什麼情況？
+
+[!DNL Target] 根據每個體驗建立一個模型，因此移除一個體 [!DNL Target] 驗意味著只需建立一個模型，而不會影響其他體驗的模型。
+
+例如，假設您有一個[!UICONTROL Auto-Target]活動，其中包含8個體驗，而您不喜歡單個體驗的效能。 您可以移除該體驗，而不會影響其餘7個體驗的模型。
+
 ## [!UICONTROL 自動鎖定目標]疑難排解 {#section_23995AB813F24525AF294D20A20875C8}
 
 有時活動不會如預期般進行。以下是使用[!UICONTROL 自動鎖定目標]可能面臨的一些挑戰，以及一些建議的解決方案。
@@ -144,8 +150,3 @@ AP 活動產生提升度需要四個係數:
 
 例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。A1 相依於 C1。當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。如果訪客轉換 C1 然後轉換 A1，此時仍不會轉換 A1，因為 C1 一旦進行轉換即會釋出訪客。
 
-### 如果我從Auto-Target活動中移除單一體驗，會發生什麼情況？
-
-[!DNL Target] 根據每個體驗建立一個模型，因此移除一個體 [!DNL Target] 驗意味著只需建立一個模型，而不會影響其他體驗的模型。
-
-例如，假設您有一個[!UICONTROL Auto-Target]活動，其中包含8個體驗，而您不喜歡單個體驗的效能。 您可以移除該體驗，而不會影響其餘7個體驗的模型。
