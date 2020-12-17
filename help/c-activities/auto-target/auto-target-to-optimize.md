@@ -2,9 +2,9 @@
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 description: Adobe Target中的Auto-Target使用進階的機器學習功能，從多個高效能行銷人員定義的體驗中選擇，以個人化內容並推動轉化。 自動鎖定目標會根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
 title: 自動定位概觀
-feature: auto-target
+feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 86%
