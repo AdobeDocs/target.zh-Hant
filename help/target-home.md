@@ -3,9 +3,9 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 指南
 description: 檢視Target指南的首頁。
 seo-description: Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
-feature: landing
+feature: Overview
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 62%
