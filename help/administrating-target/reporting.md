@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定Adobe Target Visual Experience Composer(VEC)。
+description: 設定一般設定，以用於套用至整個Target帳戶的Adobe Target報表。 您可以設定Adobe Experience Cloud解決方案以用於報告（Target或Analytics）、用於報告的時區和貨幣格式、要排除在報告之外的IP位址，以及是否顯示預估的營收提升度以及報告中的精細優先順序。
 title: 在Adobe Target中設定報表
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 33%
+source-wordcount: '708'
+ht-degree: 31%
 
 ---
 
