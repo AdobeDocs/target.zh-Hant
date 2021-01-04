@@ -4,7 +4,7 @@ description: 此資訊可協助您使用Adobe Target QA書籤小工具來強制T
 title: Adobe Target的活動QA書籤小工具
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -12,7 +12,7 @@ ht-degree: 26%
 ---
 
 
-# 活動 QA 書籤小程式{#activity-qa-bookmarklet}
+# 活動 QA 書籤小程式
 
 協助您使用[!DNL Target] QA書籤小工具強制[!DNL Target]從QA模式釋放您的資訊。
 
