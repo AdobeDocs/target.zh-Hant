@@ -2,22 +2,21 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: 在Adobe Target多變數測試中使用量度來判斷瀏覽成功的時間。
 title: 設定量度
-feature: mvt
-solution: Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 94%
+source-wordcount: '317'
+ht-degree: 85%
 
 ---
 
 
-# 設定量度{#set-metrics}
+# 設定多變數測試的量度
 
-在多變數測試中使用量度以判斷造訪是否成功。
+在Adobe Target多變數測試中使用量度來判斷瀏覽成功的時間。
 
-如需關於成功量度的詳細資訊，請參閱[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
+如需成功度量的詳細資訊，請參閱[成功度量](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
 1. 指定活動的目標。
 1. 選取[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
