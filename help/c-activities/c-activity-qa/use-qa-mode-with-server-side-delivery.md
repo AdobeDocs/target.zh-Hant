@@ -4,17 +4,17 @@ description: 使用Adobe Target QA URL與伺服器端傳送，透過預覽連結
 title: 使用透過伺服器端傳送的活動 QA
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# 使用透過伺服器端傳送的活動 QA{#use-activity-qa-with-server-side-delivery}
+# 使用透過伺服器端傳送的活動 QA
 
-透過伺服器端傳送使用 QA URL，來執行簡易的端對端活動 QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的 QA 報表。
+使用[!DNL Adobe Target]中伺服器端傳送的QA URL，以輕鬆執行端對端活動QA，其中包含預覽連結，不會變更、選擇性受眾定位，以及與即時活動資料保持區隔的QA報告。
 
 活動 QA 標準實作支援透過 `qa_mode` 參數傳遞 `pageUrl` 參數。此方法適用於標準/ajax [!DNL Target]呼叫。 但若為伺服器對伺服器呼叫，無法使用 `pageUrl` 時，則對 Mobile SDK 而言不是最佳方式。
 
