@@ -1,13 +1,13 @@
 ---
 keywords: integration;roles;user permissions;admin console
-description: 關於在 Adobe Target 中授予現有 Adobe I/O 整合功能可使用所需角色存取所有工作區之權限的資訊。
+description: 將現有的Adobe I/O整合存取權授與Adobe Target中具有所需角色的所有工作區
 title: 在 Adobe Target 中授予 Adobe I/O 整合功能對工作區的存取權並指派角色
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '613'
+ht-degree: 85%
 
 ---
 
