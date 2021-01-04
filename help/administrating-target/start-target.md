@@ -1,20 +1,20 @@
 ---
 keywords: Administration;approver role;approver
-description: 此小節包含 Adobe Target 管理員在收到電子郵件寄送的 Adobe Experience Cloud 加入邀請時應採取的前幾個步驟。
+description: Adobe Target管理員在收到Adobe Experience Cloud的電子郵件邀請後，應該採取的第一步。
 title: 管理員入門
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 93%
+source-wordcount: '399'
+ht-degree: 84%
 
 ---
 
 
-# 管理員入門{#administrator-first-steps}
+# 管理員入門
 
-此小節包含 [!DNL Target] 管理員在收到電子郵件所寄送 [!DNL Adobe Experience Cloud] 加入邀請時應採取的前幾個步驟。
+本文包含[!DNL Adobe Target]管理員在收到電子郵件邀請至[!DNL Adobe Experience Cloud]後應採取的第一步。
 
 ## 受邀加入 Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 
