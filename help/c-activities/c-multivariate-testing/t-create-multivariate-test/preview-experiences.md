@@ -1,21 +1,22 @@
 ---
-description: 因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
-title: 多變數測試的預覽體驗建立設定檔屬性比較對象
-feature: mvt
+keywords: multivariate;mvt;preview;experiences
+description: 由於Adobe Target中的多變數測試會比較頁面上的多個體驗，因此預覽包含每個體驗的頁面會很有幫助。
+title: 在Adobe Target中預覽多變數測試的體驗
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
 
 # 多變數測試的預覽體驗{#preview-experiences-for-a-multivariate-test}
 
-因為多變數測試會比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
+由於[!DNL Adobe Target]中的[!UICONTROL 多變數測試]會比較頁面上的多個體驗，因此預覽包含每個體驗的頁面會很有幫助。
 
-1. 在體驗撰寫器中，按一下&#x200B;**[!UICONTROL 「預覽」]**。
+1. 在Visual Experience Composer(VEC)中，按一下「預覽」。****
 
    所有體驗的清單隨即出現。
 
