@@ -4,7 +4,7 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -54,6 +54,6 @@ Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其
 
 ## Adobe Target Skill Builder:開發人員聊天，將Adobe Target的mbox.js移轉至at.js {#skill-builder}
 
-隨著mbox.js即將於2021年1月18日被淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。
+隨著mbox.js即將於2021年3月31日淘汰，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。
 
 [在這裡檢視網路研討會錄影](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
