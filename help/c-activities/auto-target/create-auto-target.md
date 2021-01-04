@@ -1,13 +1,13 @@
 ---
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
-description: 使用Adobe Target中的Visual Experience Composer，直接在啟用Target的頁面上建立自動配置A/B測試活動，並修改Target內頁面的部分。
+description: 使用Adobe Target中的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立自動目標A/B測試活動，並修改Target內頁面的部分。
 title: 建立自動定位活動
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '897'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 59%
 使用[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer](VEC)，直接在[!DNL Target]啟用的頁面上建立[!UICONTROL Auto-Target]A/B測試]活動，並修改[!DNL Target]內頁面的部分。[!UICONTROL 
 
 >[!NOTE]
+>
+>[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。如需此授權提供之進階功能的詳細資訊，請參閱 [Target Premium](/help/c-intro/intro.md)。
 >
 >除了[!UICONTROL Auto-Target] [!UICONTROL A/B測試]活動（本文討論）外，[!DNL Target]還提供了兩種額外的[!UICONTROL A/B測試]活動：[!UICONTROL 手動（預設）]和[!UICONTROL 自動分配]。
 >
