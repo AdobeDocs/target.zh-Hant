@@ -4,9 +4,9 @@ description: 有關Adobe Target API的資訊，包括管理、傳送、報告和
 title: Adobe Target API總覽
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Adobe Target API總覽
 
-[!DNL Adobe Target] API可依類型分組。
+[!DNL Adobe Target] API可依類型分組：管理、傳送、報告和描述檔API。
 
 | API類型 | 它可讓您 | 下載連結 | 其他實用連結 |
 | --- | --- | --- |--- |
