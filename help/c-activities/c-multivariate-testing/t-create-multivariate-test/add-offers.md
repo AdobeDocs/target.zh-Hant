@@ -1,19 +1,20 @@
 ---
+keywords: mvt;multivariate test;offers;combinations
 description: 在 Adobe Target 中使用可視化體驗撰寫器 (VEC)，建立您要包含在多變數測試 (MVT) 中的選件。
 title: 使用 Adobe Target 在多變數測試 (MVT) 中建立組合
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 96%
 
 ---
 
 
-# 建立組合{#create-combinations}
+# 建立組合
 
-在 Adobe Target 中使用可視化體驗撰寫器 (VEC)，建立您要包含在多變數測試 (MVT) 中的選件。
+使用[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer](VEC)建立您要納入[!UICONTROL 多變數測試](MVT)中的選件。
 
 如需有關如何使用 VEC 建立及編輯選件的詳細資訊，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
