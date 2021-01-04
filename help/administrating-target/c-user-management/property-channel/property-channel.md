@@ -1,12 +1,12 @@
 ---
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-description: 有關建立屬性和使用「屬性與權限」功能的資訊，這些功能可讓Adobe Target管理員在Target中建立個別的工作區（產品設定檔），然後根據這些工作區為個別頁面、屬性或網站指派不同的角色與權限。
+description: 建立屬性並使用「屬性與權限」功能，讓Adobe Target管理員在Target中建立個別的工作區（產品設定檔），然後根據這些工作區為個別頁面、屬性或網站指派不同的角色與權限。
 title: 企業使用者權限
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3052'
 ht-degree: 80%
 
 ---
