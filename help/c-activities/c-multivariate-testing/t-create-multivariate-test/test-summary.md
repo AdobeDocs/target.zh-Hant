@@ -2,19 +2,19 @@
 keywords: Overview and Reference
 description: 測試摘要提供Adobe Target多變數測試的視覺化總覽。
 title: 測試摘要
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 87%
+ht-degree: 76%
 
 ---
 
 
-# 測試摘要{#test-summary}
+# 測試摘要
 
-測試摘要可為您的多變數測試提供視覺概覽。
+測試摘要提供您[!DNL Adobe Target] [!UICONTROL 多變數測試]的視覺化概觀。
 
 ![測試摘要對話方塊](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
