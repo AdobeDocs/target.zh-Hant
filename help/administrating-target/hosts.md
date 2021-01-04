@@ -4,17 +4,17 @@ description: 在Adobe Target中組織您的網站和前制環境，以方便管�
 title: 主機
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 25%
+source-wordcount: '1083'
+ht-degree: 24%
 
 ---
 
 
 # 主機{#hosts}
 
-組織您的網站和生產前環境，適用於簡易管理和分開的報表。
+在[!DNL Adobe Target]中組織您的網站和前制環境，以方便管理和分開報告。
 
 主機管理的主要目標是確保網站上沒有意外出現非使用中的內容。主機管理也可讓您依[environment](/help/administrating-target/environments.md)區隔報表資料。
 
