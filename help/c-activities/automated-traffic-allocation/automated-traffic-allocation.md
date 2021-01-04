@@ -1,20 +1,20 @@
 ---
-keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: Adobe Target中的「自動分配」活動可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以在測試繼續執行和學習時提高轉化率。
+keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation;auto-allocate;auto allocate
+description: Adobe Target中的「自動分配」活動可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以在測試繼續執行和學習時提高轉換率。
 title: 自動分配
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3374'
-ht-degree: 74%
+source-wordcount: '3377'
+ht-degree: 73%
 
 ---
 
 
 # 自動分配概述
 
-自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
+[!DNL Adobe Target]中的「自動分配」活動可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以在測試繼續執行和學習時增加轉換。
 
 使用三步引導式工作流程建立A/B活動時，您可以選擇「自動配置至最佳體驗」選項[!UICONTROL 。]
 
