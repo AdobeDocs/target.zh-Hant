@@ -1,40 +1,40 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
-description: 自動個人化活動工作流程與其他活動類型的工作流程不同。
+keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+description: Adobe Target中的「自動個人化」活動工作流程會因其他活動類型的工作流程而有所不同。
 title: 建立自動個人化活動
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 98%
+source-wordcount: '2040'
+ht-degree: 92%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 建立自動個人化活動{#create-an-automated-personalization-activity}
+# ![PREMIUM](/help/assets/premium.png) 建立自動個人化活動
 
-自動個人化活動工作流程與其他活動類型的工作流程不同。
+[!DNL Adobe Target]中的[!UICONTROL 自動個人化](AP)活動工作流程與其他活動類型的工作流程不同。
 
-1. 從 Target Standard 活動清單，按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「自動個人化」]**。
+1. 從[!DNL Target] [!UICONTROL 活動]清單中，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 自動個人化]**。
 
    ![建立活動: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 若要使用可視化體驗撰寫器 (VEC)，請按一下&#x200B;**[!UICONTROL 「視覺 (預設)」]**。
+1. 若要使用[!UICONTROL Visual Experience Composer](VEC)，請按一下「**[!UICONTROL Visual(Default)]**」。
 
    ![建立 Automated Personalization 活動對話方塊](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL 「表單」]。如需詳細資訊，請參閱[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)。
+   如果您偏好使用[!UICONTROL 表單型體驗撰寫器]，請選擇[!UICONTROL 表單]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了 VEC 和表單式體驗撰寫器之外，Target 還提供單頁應用程式 VEC 和適用於行動應用程式的 VEC。如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL 表單式體驗撰寫器]外，[!DNL Target]還提供「單頁應用程式VEC」和「行動應用程式的VEC」。 ][!UICONTROL 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
    >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
-1. (視條件而定) 如果您是 Target Premium 客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （條件性）如果您是[!DNL Target] Premium客戶，請[選擇工作區](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 驗證或輸入活動 URL，然後按一下&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
    具有指定 URL 的頁面會在可視化體驗撰寫器中開啟。
 
-1. 若要對活動命名，請按一下「名稱」欄位並輸入您的活動名稱。
+1. 要命名活動，請按一下&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位並鍵入活動名稱。
 
    ![名稱欄位](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
