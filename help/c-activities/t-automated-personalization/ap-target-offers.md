@@ -1,21 +1,21 @@
 ---
-keywords: automated personalization;offers
+keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: 在自動個人化活動中，您可以將選件鎖定在特定對象。
-title: 鎖定自動個人化選件
-feature: ap
+title: 鎖定自動個人化選件建立設定檔屬性比較對象
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 鎖定自動個人化選件{#target-automated-personalization-offers}
 
-在 Automated Personalization (AP) 活動中，您可以將選件鎖定在特定對象。
+在[!DNL Adobe Target] [!DNL Automated Personalization](AP)活動中，您可以將選件鎖定在特定對象。
 
 使用這項功能可減少特定訪客可看到的選件數量。舉例來說，假設 AP 活動有三個選件。選件 1 有目標規則，限制向對象 A 曝光。有兩位訪客看過這個 AP 活動。
 
