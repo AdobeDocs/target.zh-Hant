@@ -1,9 +1,10 @@
 ---
+keywords: Experience Targeting;xt;create
 description: 使用可視化體驗撰寫器在啟用 Target 的頁面上建立體驗鎖定目標 (XT) 活動，以及在 Adobe Target 內修改頁面的部分。
 title: 建立體驗鎖定目標活動
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
