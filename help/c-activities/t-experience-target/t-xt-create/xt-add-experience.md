@@ -1,20 +1,20 @@
 ---
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: Adobe Target 可視化體驗撰寫器 (VEC) 提供視覺介面，可用於編輯體驗鎖定目標 (XT) 活動之頁面上的體驗。
+description: Adobe Target中的Adobe Target Visual Experience Composer(VEC)提供視覺化介面，可在「體驗定位」(XT)活動中編輯頁面上的體驗。
 title: 建立體驗
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 93%
+source-wordcount: '971'
+ht-degree: 88%
 
 ---
 
 
-# 建立體驗{#create-experience}
+# 在體驗定位(XT)活動中建立體驗
 
-[!UICONTROL 可視化體驗撰寫器] (VEC) 提供視覺化介面，可用於編輯[!UICONTROL 體驗鎖定目標] (XT) 活動之頁面上的體驗。
+[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer](VEC)提供視覺化介面，可在[!UICONTROL Experience Targeting](XT)活動中編輯您頁面上的體驗。
 
 1. 選取您要變更的元素，並進行需要的變更。
 
