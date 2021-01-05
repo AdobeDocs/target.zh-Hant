@@ -1,10 +1,10 @@
 ---
-keywords: Targeting
+keywords: Multivariate Tests;activity url
 description: 「活動URL」會決定用於Adobe Target多變數測試(MVT)的頁面，並在Adobe Target中設計測試時開啟。
 title: 活動 URL
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 84%
