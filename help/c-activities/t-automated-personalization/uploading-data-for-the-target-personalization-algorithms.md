@@ -1,21 +1,22 @@
 ---
-description: 建置個人化模型時，離線資料 (例如 CRM 資訊或客戶流失傾向分數) 可能具有重大價值。
+keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+description: 在Adobe Target自動個人化(AP)活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能非常有價值。
 title: 上傳用於 Target 個人化演算法的資料
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 82%
 
 ---
 
 
-# 上傳用於 Target 個人化演算法的資料{#upload-data-for-target-s-personalization-algorithms}
+# 上傳用於 Target 個人化演算法的資料
 
-建置個人化模型時，離線資料 (例如 CRM 資訊或客戶流失傾向分數) 可能具有重大價值。
+在[!DNL Adobe Target] [!UICONTROL 自動個人化](AP)活動中建立個人化模型時，離線資料（如CRM資訊或客戶流失傾向分數）可能非常有價值。
 
-有數種方式可以在自動個人化 (AP) 和自動鎖定目標個人化演算法中輸入資料。除了[將資料傳入 Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 的方法以外，我們的演算法中也使用 Experience Cloud 共用對象 (Adobe Analytics、Audience Management) 和活動內報表對象。
+有數種方式可以在[!UICONTROL 自動個人化] (AP) 和[!UICONTROL 自動鎖定目標]個人化演算法中輸入資料。除了[將資料傳入 Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 的方法以外，我們的演算法中也使用 Experience Cloud 共用對象 (Adobe Analytics、Audience Management) 和活動內報表對象。
 
 如需自動個人化和自動鎖定目標個人化演算法自動收集和使用之資料的相關資訊，請參閱[自動個人化資料收集](/help/c-activities/t-automated-personalization/ap-data.md)。
 
