@@ -4,10 +4,10 @@ description: 您可以直接在 HTML 或 JSON 選件上顯示設定檔值和活�
 title: 將動態資料傳遞至選件
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 `${user.parameter}`
 
-在 Recommendations 設計中使用動態屬性時，您必須在貨幣符號 (「$」) 的前面插入反斜線 (「\」)，才能正確地呈現動態值: `\${user.endpoint.lastViewedEntity}`
+在Recommendations設計中使用動態屬性時，您必須在貨幣符號($)前插入反斜線(\)，才能正確呈現動態值：`\${user.endpoint.lastViewedEntity}`
 
 這些變數會在伺服器端取代為值，所以不需要引號或其他 JavaScript 即可正確顯示。
 
