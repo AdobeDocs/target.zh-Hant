@@ -1,10 +1,10 @@
 ---
-keyword: traffic estimate;traffic estimator
+keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
 description: 因為多變數測試會比較多個體驗，請務必瞭解若要提供有意義的結果需要多少流量。Adobe Target流量估計器會使用您頁面的統計資料和所測試體驗的數量，來估計流量量和測試成功所需的測試持續時間。
 title: 預估成功測試所需的流量
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 93%
