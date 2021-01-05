@@ -2,22 +2,21 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: 在 Adobe Target 體驗鎖定目標 (XT) 活動中使用量度以判斷造訪是否成功。
 title: 設定量度
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 99%
+source-wordcount: '321'
+ht-degree: 89%
 
 ---
 
 
-# 設定量度{#set-metrics}
+# 在體驗定位(XT)活動中設定量度
 
-在體驗鎖定目標 (XT) 活動中使用量度以判斷造訪是否成功。
+在[!DNL Adobe Target] [!UICONTROL 體驗定位](XT)活動中使用量度來判斷瀏覽成功的時間。
 
-如需關於成功量度的詳細資訊，請參閱[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
+如需成功度量的詳細資訊，請參閱[成功度量](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
 1. 指定活動的目標。
 1. 選取[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
