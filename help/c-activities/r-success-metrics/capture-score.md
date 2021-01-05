@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: 「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示「目標請求」開始計算匯總分數。
+description: Adobe Target中的「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示「目標請求」開始計算匯總分數。
 title: 擷取分數
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# 擷取分數{#capture-score}
+# 擷取分數
 
-「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示[!DNL Target]請求開始計算匯總分數。
+[!DNL Adobe Target]中的「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示[!DNL Target]請求開始計算匯總分數。
 
 下列範例會說明如何計算促銷活動中的分數參與，這個促銷活動會測試兩種體驗，一種包含貓的圖片，另一種則包含狗的圖片。
 
@@ -28,7 +28,7 @@ ht-degree: 51%
 
 ![](assets/example_score2.png)
 
-**指定頁面分數**
+## 指派頁面分數
 
 您可以根據頁面的價值，在網站上為任何頁面指定一個值。例如，烹飪網站在精選文章頁面銷售廣告所賺取的金錢，可能會比在體驗區段更多。因此，精選文章的價值會高於體驗區段。頁面分數可讓您開發瀏覽的整體「值」，因此閱讀越多精選文章的使用者較僅瀏覽體驗的使用者獲得更多「點數」。
 
