@@ -1,21 +1,21 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
 description: 管理排除的方法包括在 Adobe Target Automated Personalization (AP) 活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
 title: 管理排除項目
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 97%
+source-wordcount: '965'
+ht-degree: 94%
 
 ---
 
 
-# ![Premium 徽章](/help/assets/premium.png) 管理排除{#manage-exclusions}
+# ![Premium 徽章](/help/assets/premium.png) 管理排除
 
-管理排除的方法包括在 Automated Personalization (AP) 活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
+透過建立排除群組、排除重複選件、排除特定體驗，以及排除[!UICONTROL Automated Personalization](AP)活動中[!DNL Adobe Target][!UICONTROL Automated Personalization](AP)活動中的預設內容，管理排除。
 
 ## 建立排除群組 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
