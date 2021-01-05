@@ -2,9 +2,9 @@
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target 會自動收集和使用各種資料，在 Automated Personalization (AP) 和自動鎖定目標 (AT) 活動中建置其個人化演算法。當訪客進入 AP 或 AT 活動時，將會傳送資訊的快照至一組「訓練記錄」(個人化演算法將學習的訪客資料)。
 title: Adobe Target 個人化演算法的資料收集
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1754'
 ht-degree: 91%
