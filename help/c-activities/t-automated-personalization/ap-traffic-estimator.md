@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: 「流量估計器」提供意見回饋，讓您知道您是否有足夠的流量讓Adobe Target活動成功。
 title: 預估成功所需的流量
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 預估成功所需的流量{#estimate-the-traffic-required-for-success}
+# ![PREMIUM](/help/assets/premium.png) 預估成功所需的流量
 
 [!UICONTROL 流量估計器]提供反饋，讓您知道是否有足夠的流量使[!DNL Adobe Target]活動成功。
 
