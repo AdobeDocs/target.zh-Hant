@@ -1,20 +1,20 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest
-description: 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同選件變數，以便個人化內容並促進提升度。
+keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
+description: Adobe Target中的自動個人化(AP)活動會結合優惠或訊息，並使用進階機器學習，根據個別客戶個人檔案來比對每個訪客的不同優惠變化，以個人化內容並提升提升提升度。
 title: 自動個人化
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 97%
+source-wordcount: '1027'
+ht-degree: 89%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自動個人化{#automated-personalization}
+# ![](/help/assets/premium.png) PREMIUMA自動個人化(AP)
 
-[!UICONTROL 自動個人化] (AP) 結合選件或訊息，並使用進階機器學習，根據訪客的個別客戶設定檔來比對每位訪客的不同選件變數，以便個人化內容並促進提升度。
+[!UICONTROL 自動個人化]  [!DNL Adobe Target] (AP)活動結合選件或訊息，並使用進階的機器學習，根據每位訪客的個別客戶個人檔案來比對不同的選件變化，以個人化內容並推動提升度。
 
 >[!NOTE]
 >
