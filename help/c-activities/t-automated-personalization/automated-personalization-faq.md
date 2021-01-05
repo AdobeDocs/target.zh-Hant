@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: 關於自動個人化 (AP) 常見問題集 (FAQ) 的清單。
 title: 自動個人化常見問題集
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 85%
 
 ---
 
 
-# ![PREMIUMA自動個](/help/assets/premium.png) 人化常見問答集{#automated-personalization-faq}
+# ![PREMIUMA自動個](/help/assets/premium.png) 人化常見問答集
 
 關於自動個人化 (AP) 常見問題集 (FAQ) 的清單。
 
@@ -53,7 +53,7 @@ ht-degree: 85%
 
 ## 常見問題
 
-在處理自動分配活動時，請參閱以下常見問答和答案：
+當您處理[!UICONTROL Automated Personalization]活動時，請參閱下列常見問答和答案：
 
 ### 自動個人化有哪些限制?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
