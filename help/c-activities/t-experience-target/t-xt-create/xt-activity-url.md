@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: 活動 URL 會決定體驗鎖定目標活動中使用的頁面，以及設計活動時 Adobe Target 可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
+keywords: Experience Targeting;xt;activity url;url
+description: 「活動URL」會決定Adobe Target Experience Targeting活動中使用的頁面，並在設計活動時在Visual Experience Composer(VEC)或Form-Based Experience Composer中開啟的頁面。
 title: 活動 URL
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 92%
+source-wordcount: '280'
+ht-degree: 66%
 
 ---
 
 
-# 活動 URL{#activity-url}
+# 體驗定位(XT)活動中的活動URL
 
-活動 URL 會決定體驗鎖定目標 (XT) 活動中使用的頁面，以及設計活動時可視化體驗撰寫器 (VEC) 或表單式體驗撰寫器中開啟的頁面。
+[!UICONTROL 活動URL]會決定在[!DNL Adobe Target] [!UICONTROL 體驗定位](XT)活動中使用的頁面，當活動時，該頁面會在[!UICONTROL 視覺體驗撰寫器](VEC)或[!UICONTROL 表單式體驗撰寫器]中開啟是設計的。
 
 1. 在[建立 XT 活動](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)期間出現提示時，請指定活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下&#x200B;**[!UICONTROL 「建立活動」]**。
 
