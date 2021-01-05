@@ -1,13 +1,13 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: 'Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合: at.js 或 mbox.js'
 title: Adobe Target 如何運作
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 82%
+source-wordcount: '2438'
+ht-degree: 79%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 82%
 
 ## Target JavaScript 資料庫 {#libraries}
 
-Adobe Target 透過下列兩個 JavaScript 程式庫之一與網站進行整合: at.js 或 mbox.js
+Adobe Target透過JavaScript程式庫與網站整合：
 
 * **at.js**: [at.js 資料庫](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是新的 Target 實作資料庫。at.js 程式庫改善 Web 實作的頁面載入時間，並且為單頁應用程式提供更好的實作選項。at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **mbox.js:** mbox.js 程式庫為舊版的 Target 實作程式庫。系統仍支援 mbox.js 程式庫，但將不會提供功能更新。
+* **Adobe Experience Platform Web SDK:**  [Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK是新的用戶端JavaScript程式庫，可讓客戶 [!DNL Adobe Experience Cloud] 透過 [!DNL Experience Cloud] Edge Network [!DNL Adobe Experience Platform] 與各種服務互動。
+* **mbox.js:**[ mbox.js 程式庫為舊版的 Target 實作程式庫。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.js程式庫在2021年3月31日之前仍受支援，但不會有功能更新。
 
 >[!IMPORTANT]
 >
