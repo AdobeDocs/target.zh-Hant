@@ -2,9 +2,9 @@
 keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: 在您可以建立成功的測試之前，Adobe Target 中的多變數測試需要一些計劃。
 title: 在 Adobe Target 中計劃多變數測試
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 ---
 
 
-# 計劃多變數測試{#plan-a-multivariate-test}
+# 計劃多變數測試
 
 在您可以建立成功的測試之前，[!DNL Adobe Target] 中的[!UICONTROL 多變數測試] (MVT) 需要一些計劃。
 
