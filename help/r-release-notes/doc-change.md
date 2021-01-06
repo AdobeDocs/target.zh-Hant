@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3248'
 ht-degree: 28%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2021年1月4日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 將Target不再支援mbox.js的日期從2021年1月18日變更為2021年3月31日。 |
+| 6 年 1 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增下列即時網路研討會的資訊和註冊資訊：<ul><li>大規模個人化成功案例：Forrester Wave的主要調查結果，體驗最佳化平台。</li></ul> |
+| 1 月 4 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 將Target不再支援mbox.js的日期從2021年1月18日變更為2021年3月31日。 |
 | 18 年 12 月 | [A/A測試](/help/c-activities/t-test-ab/aa-testing.md) | 新主題。 |
 | 17 年 12 月 | [Adobe Analytics 作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md) | 更新表格，指出Java SDK支援A4T。 |
 | 16 年 12 月 | [自動定位疑難排解與常見問答集](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 新增下列常見問答：「如果我從Auto-Target活動移除單一體驗，會發生什麼情況？」 |
