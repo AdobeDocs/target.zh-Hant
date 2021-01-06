@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events
+keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
 description: 近期活動的相關資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
 title: Target公告
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
+source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 
 有關即將舉辦之活動的公告和資訊，包括Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
 
+## Adobe Target的認可
+
+Adobe Target最近被Forrester和Gartner評為市場領導者。
+
 | 研究服務 | 詳細資料 |
 | --- | --- |
-| Forrester | Adobe在Forrester Wave中獲評為體驗最佳化平台的領導者。<br>Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其在此領域的產品Adobe Target Premium。Adobe在目前的產品和市場狀況類別，以及建議和平台體驗標準中，獲得所有參與廠商的最高分。 在體驗最佳化技術創新及支援服務標準方面，Target Premium也獲得最高分。 此報告以對10家體驗最佳化平台提供者進行全面評估為基礎，涵蓋22個標準。<br>在 [Adobe Blog上閱讀相關資訊](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
-| Gartner | Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者。<br>在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。<br>[在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
+| Forrester | **Adobe在Forrester Wave中獲評為體驗最佳化平台的領導者。**<br> Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其在此領域的產品Adobe Target Premium。Adobe在目前的產品和市場狀況類別，以及建議和平台體驗標準中，獲得所有參與廠商的最高分。 在體驗最佳化技術創新及支援服務標準方面，Target Premium也獲得最高分。 此報告以對10家體驗最佳化平台提供者進行全面評估為基礎，涵蓋22個標準。<br>在 [Adobe Blog上閱讀相關資訊](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
+| Gartner | **Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者。**<br>&#x200B;在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。<br>[在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
 ## 網路研討會：大規模個人化成功案例：Forrester Wave的主要調查結果，體驗最佳化平台
 
