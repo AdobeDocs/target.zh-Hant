@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Target Skill Builder研討會�
 title: Target公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,21 @@ Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其
 在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。 Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。
 
 [在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## 網路研討會：大規模個人化成功案例：Forrester Wave的主要調查結果，體驗最佳化平台
+
+* **1月19日星期二**
+* **上午8點PT |上午10點CT | 11 a.m. ET**
+* **持續時間：60分鐘**
+* **[在此處註冊](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+
+大規模最佳化客戶體驗的能力現在對於滿足客戶的動態需求以及目前新數位訪客的激增至關重要。 體驗最佳化平台（例如[!DNL Adobe Target]）可部署在您的數位屬性中，以運用手動和人工智慧驅動的行為定位、測試和建議功能，在適當的時間快速為客戶決定並提供適當的體驗。 與我們及我們的特邀嘉賓James McCormick一起，參加Forrester的首席分析師，討論2020年第4季度Forrester Wave的主要發現。
+
+在此網路研討會中，您將瞭解：
+
+* 塑造個人化和體驗最佳化工具演變的產業趨勢
+* 領先體驗最佳化平台的主要功能
+* 大規模優化客戶體驗以實現最大業務影響的最佳實踐
 
 ## 網路研討會：透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試
 
