@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: 您可以對資料庫中的資產執行許多工作。
+description: Adobe Target的程式庫中有許多工作可對資產執行。
 title: 使用程式庫中的內容
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# 使用程式庫中的內容{#work-with-content-in-the-library}
+# 使用程式庫中的內容
 
-提供您可以對內容資料庫中的資產執行之工作的相關資訊。
+有關您可在[!DNL Adobe Target]內容庫中對資產執行的任務的資訊。
 
 1. 按一下&#x200B;**[!UICONTROL 「選件」]**，選取&#x200B;**[!UICONTROL 「代碼選件」]**&#x200B;或&#x200B;**[!UICONTROL 「影像選件」]**&#x200B;標籤，然後找到您要使用的資產。
 
