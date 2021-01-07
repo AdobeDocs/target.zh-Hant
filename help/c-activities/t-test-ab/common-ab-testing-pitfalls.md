@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: A/B 測試會形成多數數位行銷最佳化程式的骨幹，協助行銷人員為其訪客和客戶提供最佳化和鎖定的體驗。本節概述公司在Adobe Target中執行A/B測試時，會遭遇的九大重大陷阱。 其中也包括避免這些問題的方式，使您的公司可透過其測試成果達到更高的 ROI，並在其報告的 A/B 測試結果中擁有更高的可信度。
+description: Adobe Target中的A/B測試是大部分數位行銷最佳化計畫的骨幹，可協助行銷人員為訪客和客戶提供最佳化和針對性的體驗。 本節概述公司在Adobe Target中執行A/B測試時，會遭遇的九大重大陷阱。 其中也包括避免這些問題的方式，使您的公司可透過其測試成果達到更高的 ROI，並在其報告的 A/B 測試結果中擁有更高的可信度。
 title: 九個常見的 A/B 測試陷阱以及避免方式
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
-ht-degree: 88%
+source-wordcount: '3922'
+ht-degree: 87%
 
 ---
 
 
-# 常見的10種A/B測試缺陷及避免方法{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# 常見的10種A/B測試缺陷及避免方法
 
-A/B 測試會形成多數數位行銷最佳化程式的骨幹，協助行銷人員為其訪客和客戶提供最佳化和鎖定的體驗。本節說明公司在執行A/B測試時，最常遭遇的十大陷阱。 其中也包括避免這些問題的方式，使您的公司可透過其測試成果達到更高的 ROI，並在其報告的 A/B 測試結果中擁有更高的可信度。
+[!DNL Adobe Target]中的A/B測試是大部分數位行銷最佳化計畫的骨幹，可協助行銷人員為訪客和客戶提供最佳化、有針對性的體驗。 本節說明公司在執行A/B測試時，最常遭遇的十大陷阱。 其中也包括避免這些問題的方式，使您的公司可透過其測試成果達到更高的 ROI，並在其報告的 A/B 測試結果中擁有更高的可信度。
 
 ## Pitfall 1:忽略重要性級別{#section_55F5577A13C6470BA1417C2B735C6B1D}的影響
 
