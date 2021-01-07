@@ -2,9 +2,9 @@
 keywords: a/b;a/a;aa;
 description: 在使用Adobe Target在您的網站上執行A/A測試之前，請務必瞭解A/A測試是什麼、您為何可能想執行A/A測試、您應執行測試的時間，以及如何解譯結果。
 title: A/A測試
-feature: A/B tests
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 1%
