@@ -2,19 +2,19 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: 關於 Adobe Target 中導致瀏覽器重新導向至新頁面之重新導向選件的資訊。
 title: 建立重新導向選件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 97%
+source-wordcount: '562'
+ht-degree: 95%
 
 ---
 
 
-# 建立重新導向選件{#create-redirect-offers}
+# 建立重新導向選件
 
-「重新導向選件」會使瀏覽器重新導向至新的頁面。
+重新導向Adobe Target中的選件會導致瀏覽器重新導向至新頁面。
 
 您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。選件則設定為將訪客重新導向至不同頁面。
 
