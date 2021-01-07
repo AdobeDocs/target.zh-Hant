@@ -2,11 +2,11 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: 透過Adobe Target API啟用或停用批次更新的驗證，並產生描述檔驗證Token。
 title: Adobe Target中的設定檔API設定
-feature: api
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 40%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 設定檔 API 設定
 
-透過Adobe Target API啟用或停用批次更新的驗證，並產生描述檔驗證Token。
+透過[!DNL Adobe Target] API啟用或停用批次更新的驗證，並產生描述檔驗證Token。
 
 [!DNL Adobe Target] 會為每一個使用者建立和維護一個設定檔: 此描述檔會儲存在[!DNL Target]邊緣叢集上，並在每次瀏覽後即時更新；不過，您可以個別或透過API大量更新描述檔。
 
