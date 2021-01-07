@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: 建立資料夾以在選件資料庫中保存項目。
+description: 建立檔案夾，以在Adobe Target的「選件」程式庫中儲存項目。
 title: 建立選件資料夾
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# 建立選件資料夾{#create-offer-folder}
+# 建立選件資料夾
 
-建立資料夾以在選件資料庫中保存項目。
+建立檔案夾，以在Adobe Target的「選件」程式庫中儲存項目。
 
 1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「代碼選件」]**&#x200B;或&#x200B;**[!UICONTROL 「影像選件」]**&#x200B;標籤 (如果適用)。
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**>**[!UICONTROL 「資料夾」]**。
