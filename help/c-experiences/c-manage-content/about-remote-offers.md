@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: 使用遠端選件來主控 Target 所參考且位於 Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
+description: 使用遠端選件，將Target參考的Adobe Target以外的內容裝載在網站上，並傳遞給使用者的網站。 此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
 title: 建立遠端選件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
 
-# 建立遠端選件{#create-remote-offers}
+# 建立遠端選件
 
-使用遠端選件來主控 Target 所參考且位於 Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
+使用遠端選件來主控 所參考且位於 [!DNL Adobe Target]Target 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
 
 >[!NOTE]
 >
