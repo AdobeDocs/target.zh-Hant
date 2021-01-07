@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: 變更記錄會記錄變更您的活動的人員，以及發生變更的時間。
 title: Adobe Target中的活動變更記錄
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 93%
+source-wordcount: '100'
+ht-degree: 77%
 
 ---
 
 
-# 活動變更記錄{#activity-change-log}
+# 活動變更記錄
 
-變更記錄會記錄變更您的活動的人員，以及發生變更的時間。
+[!DNL Adobe Target]中的更改日誌提供了更改活動的人員和更改發生時間的記錄。
 
 1. 開啟活動，然後按一下&#x200B;**[!UICONTROL 「變更記錄」]**。
 
