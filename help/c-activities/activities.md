@@ -2,19 +2,19 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Adobe Target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計
 title: Adobe Target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2092'
 ht-degree: 97%
 
 ---
 
 
-# 活動{#activities}
+# 活動
 
-Adobe Target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計。
+[!DNL Adobe Target]中的活動可讓您將內容個人化給特定對象，並測試頁面設計。
 
 例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個登陸頁面以一般夏季服飾為主。此活動會決定條件來控制各個登陸頁面何時出現，也會決定量度來判斷哪個頁面較成功。此活動設定在滿足特定條件時 (例如在特定日期之間) 開始或結束，或在核准活動後開始，並於停用時結束。
 
