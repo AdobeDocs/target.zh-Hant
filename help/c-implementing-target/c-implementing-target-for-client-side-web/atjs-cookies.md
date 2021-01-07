@@ -2,9 +2,9 @@
 keywords: at.js;2.0;1.x;cookies
 description: 有關 Adobe Target at.js 2.x 和 at.js 1.x 如何處理 Cookie 的詳細資訊
 title: Adobe Target at.js Cookie
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 98%
