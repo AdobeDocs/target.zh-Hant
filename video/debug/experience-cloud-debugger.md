@@ -1,16 +1,20 @@
 ---
+keywords: experience cloud debugger;mbox trace
+description: 使用Adobe Experience Cloud除錯程式除錯Adobe Target。
 title: 使用 Experience Cloud Debugger 除錯 Target
-feature: null
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 41%
+source-wordcount: '70'
+ht-degree: 34%
 
 ---
 
 
 # 使用 Experience Cloud Debugger 除錯 Target
+
+使用[!DNL Adobe Experience Cloud Debugger]調試[!DNL Adobe Target]。
 
 ## 新增擴充功能
 
