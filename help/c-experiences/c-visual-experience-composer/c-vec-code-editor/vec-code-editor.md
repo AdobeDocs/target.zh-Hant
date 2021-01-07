@@ -1,22 +1,22 @@
 ---
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: 修改頁面的相關資訊，可讓您查看頁面修改內容及新增額外修改內容 (CSS 選取器、Mbox 及自訂程式碼)。
+description: Adobe Target中「修改」頁面的相關資訊，可讓您檢視對頁面的修改並新增其他修改（CSS選擇器、Mbox和自訂代碼）。
 title: 修改
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2107'
+ht-degree: 95%
 
 ---
 
 
 # 修改{#modifications}
 
-修改頁面的相關資訊，可讓您查看頁面修改內容及新增額外修改內容 (CSS 選取器、Mbox 及自訂程式碼)。
+[!DNL Adobe Target]中「修改」頁面的相關資訊，可讓您檢視對頁面的修改並新增其他修改（CSS選擇器、Mbox和自訂代碼）。
 
-「修改」頁面顯示在可視化體驗撰寫器 (VEC) 中對頁面所做的所有變更，並可讓您藉由點擊頁面上的每個元素並[選取動作以進行其他變更](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。您所做的每項變更都顯示為[!UICONTROL 修改]清單中的個別動作或元素。您也可以新增修改，包括以下修改類型: CSS 選取器、Mbox。和自訂程式碼。
+「修改」頁面顯示在Visual Experience Composer(VEC)中對頁面所做的所有變更，並可讓您按一下頁面上的每個元素，然後[選取動作](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)進行其他變更。 您所做的每項變更都顯示為[!UICONTROL 修改]清單中的個別動作或元素。您也可以新增修改，包括以下修改類型: CSS 選取器、Mbox。和自訂程式碼。
 
 ## 修改概觀 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
