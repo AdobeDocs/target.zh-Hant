@@ -1,20 +1,20 @@
 ---
 keywords: multi-page;journey testing;multipage activity
-description: 多頁活動可讓您利用每個頁面的特定設計，來建立多個頁面的歷程記錄。
+description: Adobe Target中的多頁活動可讓您建立多個頁面的動態，而且每個頁面都有特定的設計。
 title: 多頁活動
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 87%
 
 ---
 
 
-# 多頁活動{#multipage-activity}
+# 多頁活動
 
-多頁活動可讓您利用每個頁面的特定設計，來建立多個頁面的歷程記錄。
+[!DNL Adobe Target]中的多頁活動可讓您建立多頁的內文，其中包含每個頁面的特定設計。
 
 例如，您可能要測試某個選件，在購買超過某個金額時提供免運費。您可能想要讓該選件出現在您的登陸頁面、類別頁面和某些產品頁面，但想要它有不同的大小且位在每個頁面類型上不同位置。您可以在首頁上顯示一個顯眼的選件，然後在其他相關頁面上以較小的選件強化該選件。
 
