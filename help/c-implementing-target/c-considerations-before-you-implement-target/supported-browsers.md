@@ -2,9 +2,9 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 title: 受支援的瀏覽器
-feature: reference general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# 受支援的瀏覽器{#supported-browsers}
+# 受支援的瀏覽器
 
 [!DNL Adobe Target] 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 
