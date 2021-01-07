@@ -2,9 +2,9 @@
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
 description: '裝置上決策功能可讓您在伺服器上快取您的Adobe Target A/B和體驗目標(XT)活動，並在接近零延遲的情況下執行記憶體內決策，而不會封鎖Adobe Target邊緣網路的網路要求。 '
 title: 裝置上決策
-feature: server-side
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
