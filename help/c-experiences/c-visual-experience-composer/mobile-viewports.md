@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: 行動檢視器可協助您預覽Adobe Target活動在各種大小螢幕上的顯示效果。
 title: 行動檢視區，提供互動式體驗
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 68%
@@ -12,9 +12,9 @@ ht-degree: 68%
 ---
 
 
-# 回應式體驗的行動檢視器{#mobile-viewports-for-responsive-experiences}
+# 行動檢視區，提供互動式體驗
 
-行動檢視器可協助您預覽[!DNL Target]活動在各種大小螢幕上的顯示方式。
+行動檢視器可協助您預覽[!DNL Adobe Target]活動在各種大小螢幕上的顯示方式。
 
 行動視訊埠預覽功能是專為可在各種裝置、視窗或螢幕大小上呈現良好效果的互動式網站所設計。 互動式網站會自動調整並調整以適應任何螢幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
 
