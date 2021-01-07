@@ -4,7 +4,7 @@ description: Adobe Target伺服器端傳送API、SDK和Target Recommendations AP
 title: Adobe Target伺服器端傳送API、Node.js SDK和Target Recommendations API的相關資訊。
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# 伺服器端: 實作 Target{#server-side-implement-target}
+# 伺服器端: 實作 Target
 
 有關[!DNL Adobe Target]伺服器端傳送API、SDK和[!DNL Target Recommendations] API的資訊。
 
