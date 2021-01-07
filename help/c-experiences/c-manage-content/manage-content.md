@@ -1,20 +1,20 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: 使用選件資料庫來管理您的代碼選件和影像選件內容。
+description: 使用Adobe Target中的選件程式庫來管理您的程式碼選件和影像選件內容。
 title: 選件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
 
 # 選件{#offers}
 
-使用選件資料庫來管理您的代碼選件和影像選件內容。
+使用[!DNL Adobe Target]中的選件程式庫來管理您的程式碼選件和影像選件內容。
 
 >[!NOTE]
 >
