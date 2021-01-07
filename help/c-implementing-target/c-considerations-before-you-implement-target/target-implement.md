@@ -1,33 +1,34 @@
 ---
-keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox
-description: 透過在網頁上參考 Target 資料庫 (at.js 或 mbox.js) 來實作 Target。
+keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+description: 在您的網頁上參照Target程式庫（at.js或mbox.js），以實作Adobe Target。
 title: 瞭解 Target JavaScript 程式庫
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '709'
+ht-degree: 74%
 
 ---
 
 
-# 瞭解 [!DNL Target]JavaScript 資料庫{#understand-the-target-javascript-libraries}
+# 瞭解 [!DNL Target]JavaScript 資料庫
 
-透過在網頁上參考 [!DNL Target] 資料庫 (at.js 或 mbox.js) 來實作 [!DNL Target]。
+在您的網頁上參照[!DNL Adobe Target]程式庫（Adobe Experience Platform Web SDK、at.js或mbox.js），實作[!DNL Target]。
 
 >[!NOTE]
 >
 >將不再開發 mbox.js 資料庫。所有客戶應該從 mbox.js 移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
-## 兩個程式庫之間的差異 {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## 目標JavaScript程式庫之間的差異{#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
-下表說明兩個程式庫之間的差異:
+下表說明[!DNL Target] JavaScript程式庫之間的差異：
 
 | 程式庫參考 | 說明 |
 |--- |--- |
-| at.js | at.js 取代了 實施的 mbox.js。[!DNL Target]<br>除了眾多優點以外，at.js 還能改進 Web 實施的頁面載入時間、改進安全性、避免 Google Chrome 中的 document.write 警告，以及為單頁應用程式提供更好的實施選項。<br>如需詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
-| mbox.js | 在 [!DNL Target] 16.3.1 (2016 年 3 月) 之前的版本中，[!DNL Target] 需要呼叫 mbox.js 來建立全域 mbox，[!DNL Target] 需要此全域 mbox 才能傳送活動、追蹤點擊，以及追蹤大部分成功量度。此檔案包含所有活動所需的資料庫。您不需要維護不同的活動特定版本檔案。<br>如果您的頁面上已有來自舊型 [!DNL Target] 實作的包裝 mbox，則這些 mbox 仍可用在新介面中。仍需要更新的 mbox.js 檔案，但可以使用可視化體驗撰寫器為活動選取這些 mbox 並加以編輯。<br>[!DNL Target] Standard 和 Premium 會以 target.js 檔案的參照來更新和補充 mbox.js。target.js 檔案是由 Adobe 管理。此 Target.js 檔案可讓您使用可視化體驗撰寫器來編輯任何頁面的內容，即使該頁面不含預先定義的 mbox 也一樣。您必須在網站的每一個頁面上參照此檔案。<br>如需詳細資訊，請參閱 [mbox.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。<br>**重要**: 仍支援 mbox.js 資源庫，但將不會提供功能更新。所有客戶應該移轉至 at.js。如需詳細資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br>。 |
+| Adobe Experience Platform Web SDK | [!UICONTROL Adobe Experience Platform Web SDK]可讓您透過Adobe Experience Edge Network與[!DNL Experience Cloud]（包括[!DNL Target]）中的各種服務互動。 如果您選擇移轉至[!DNL Adobe Experience Platform Web SDK]，請參閱&#x200B;*網頁SDK指南*&#x200B;中的[什麼是Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)。 如需[!DNL Target]特定資訊，請參閱[Target overview](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)。 |
+| at.js | at.js取代[!DNL [!DNL Target]]實作的mbox.js。<br>除了眾多優點以外，at.js 還能改進 Web 實施的頁面載入時間、改進安全性、避免 Google Chrome 中的 document.write 警告，以及為單頁應用程式提供更好的實施選項。<br>如需詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| mbox.js | 在 [!DNL Target] 16.3.1 (2016 年 3 月) 之前的版本中，[!DNL Target] 需要呼叫 mbox.js 來建立全域 mbox，[!DNL Target] 需要此全域 mbox 才能傳送活動、追蹤點擊，以及追蹤大部分成功量度。此檔案包含所有活動所需的資料庫。您不需要維護不同的活動特定版本檔案。<br>如果您的頁面上已有來自舊型 [!DNL Target] 實作的包裝 mbox，則這些 mbox 仍可用在新介面中。仍需要更新的 mbox.js 檔案，但可以使用可視化體驗撰寫器為活動選取這些 mbox 並加以編輯。<br>[!DNL Target] Standard 和 Premium 會以 target.js 檔案的參照來更新和補充 mbox.js。target.js 檔案是由 Adobe 管理。此 Target.js 檔案可讓您使用可視化體驗撰寫器來編輯任何頁面的內容，即使該頁面不含預先定義的 mbox 也一樣。您必須在網站的每一個頁面上參照此檔案。<br>如需詳細資訊，請參閱 [mbox.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。<br>**重要**:自2021年3月31日起， [!DNL Adobe Target] 將不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。 我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免您網站出現任何潛在問題。<br> |
 
 ## at.js 和 mbox.js 對頁面載入時間的影響 {#section_16630CD0FF0A498EB596A51381366A5A}
 
