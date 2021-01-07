@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: 顯示在某些情況下，有時候會發生在可視化體驗撰寫器 (VEC) 中的問題。
+description: 在某些情況下，Adobe Target Visual Experience Composer(VEC)有時會發生顯示問題。
 title: 疑難排解可視化體驗撰寫器的相關問題
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 92%
 
 ---
 
 
-# 疑難排解可視化體驗撰寫器的相關問題{#troubleshooting-issues-related-to-the-visual-experience-composer}
+# 疑難排解與Visual Experience Composer相關的問題
 
-顯示在某些情況下，有時候會發生在可視化體驗撰寫器 (VEC) 中的問題。
+在某些情況下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中有時會發生顯示問題。
 
 ## 在可視化體驗撰寫器中開啟我的網站時，Target 資料庫未載入。(僅限 VEC)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
