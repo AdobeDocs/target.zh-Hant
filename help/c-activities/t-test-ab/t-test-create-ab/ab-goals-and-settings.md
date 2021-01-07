@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: 「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
+description: 在Adobe Target的「目標與設定」頁面中，您可輸入有關測試目標的資訊。
 title: 目標與設定
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 96%
+source-wordcount: '1264'
+ht-degree: 93%
 
 ---
 
 
-# 目標與設定 {#goals-and-settings}
+# 目標與設定
 
-「目標與設定」頁面為您輸入關於測試目標之資訊的位置。
+在[!DNL Adobe Target]的「目標和設定」頁面中，您可輸入有關測試目標的資訊。
 
 可用的設定視您使用 Target 或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) 作為資料來源而定。
 
