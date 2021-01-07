@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: 活動 URL 會決定測試中使用以及設計測試時開啟的頁面。
+description: 「活動URL」會決定測試中使用的頁面，以及使用Adobe Target設計測試時開啟的頁面。
 title: 活動 URL
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '296'
+ht-degree: 78%
 
 ---
 
 
-# 活動 URL{#activity-url}
+# 活動 URL
 
-活動 URL 會決定測試中使用以及設計測試時開啟的頁面。
+「活動URL」會決定測試中使用的頁面，以及使用Adobe Target設計測試時開啟的頁面。
 
 在建立活動期間出現提示時，請指定活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下&#x200B;**[!UICONTROL 「建立」]**。
 
