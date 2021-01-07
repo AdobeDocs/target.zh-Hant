@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: 此主題中的案例顯示對您的頁面進行的變更如何影響 Target 顯示體驗的功能。
+description: 本主題中的藍本說明對頁面所做的變更如何影響Adobe Target顯示體驗的能力。
 title: 頁面修改案例
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
 
-# 頁面修改案例 {#page-modification-scenarios}
+# 頁面修改案例
 
-此主題中的案例顯示對您的頁面進行的變更如何影響 Target 顯示體驗的功能。
+本主題中的藍本說明對頁面所做的變更如何影響Adobe Target顯示體驗的能力。
 
 Target 選取器會決定在何處顯示體驗。如果在 Target 外修改頁面，變更可能會造成 Target 無法顯示體驗。
 
