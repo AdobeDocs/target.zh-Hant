@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: 如果安全的內容與不安全的內容混合，則某些瀏覽器會封鎖頁面的顯示。
 title: 在瀏覽器中啟用混合內容
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -12,7 +12,7 @@ ht-degree: 35%
 ---
 
 
-# 在瀏覽器中啟用混合內容{#enabling-mixed-content-in-your-browser}
+# 在瀏覽器中啟用混合內容
 
 如果同時載入HTTPS（安全）*和* HTTP（不安全）內容以顯示相同的網頁，且初始要求在HTTPS上是安全的，則會發生混合內容。
 
