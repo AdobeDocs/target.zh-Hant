@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: 您可以將項目新增至「影像選件」清單。
+description: 您可以在Adobe Target的「影像選件」清單中新增項目。
 title: 上傳內容
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 91%
+source-wordcount: '111'
+ht-degree: 68%
 
 ---
 
 
-# 上傳內容{#upload-content}
+# 上傳內容
 
-您可以在影像選件清單中新增項目或移除項目。
+您可以在[!DNL Adobe Target]的「影像選件」清單中新增項目或移除項目。
 
 1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「影像選件」]**&#x200B;標籤。
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**>**[!UICONTROL 「檔案」]**。
