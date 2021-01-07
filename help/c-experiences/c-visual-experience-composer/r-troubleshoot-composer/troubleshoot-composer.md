@@ -2,21 +2,21 @@
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
 title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
 
-# 疑難排解可視化體驗撰寫器和增強體驗撰寫器{#troubleshooting-the-visual-experience-composer-and-enhanced-experience-composer}
+# 疑難排解可視化體驗撰寫器和增強體驗撰寫器
 
-顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
+在某些情況下，在[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)和[!UICONTROL Enhanced Experience Composer](EEC)中有時會出現顯示問題。
 
-VEC 是 Adobe Target 的其中一項主要功能。VEC 是一項編輯器，可讓行銷人員和設計人員使用視覺介面來建立和變更內容。您可以進行許多設計選擇，而不需直接編輯程式碼。您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
+VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 是一項編輯器，可讓行銷人員和設計人員使用視覺介面來建立和變更內容。您可以進行許多設計選擇，而不需直接編輯程式碼。您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
 
 EEC 是 VEC 的擴充功能，可幫助您編輯 iframe-busting 網站或尚未納入 Target 實施頁面的體驗。如果您在 VEC 中開啟您的頁面遇到問題，請嘗試使用 EEC。
 
