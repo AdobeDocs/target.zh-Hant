@@ -1,31 +1,31 @@
 ---
-keywords: Targeting
-description: 「活動概覽」頁面上的「衝突」索引標籤會列出網站上的活動衝突。
+keywords: targeting;collisions;conflicts
+description: Adobe Target中「活動概述」頁面上的「衝突」標籤會列出您網站上的活動衝突。
 title: 活動衝突
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 83%
 
 ---
 
 
-# 活動衝突{#activity-collisions}
+# 活動衝突
 
-「活動概覽」頁面上的「衝突」索引標籤會列出網站上的活動衝突。
+[!DNL Adobe Target]中「活動概述」頁面上的[!UICONTROL 衝突]標籤會列出您網站上的活動衝突。][!UICONTROL 
 
 有多個活動設定成在相同頁面上提供內容時，就會發生活動衝突。如果發生活動衝突，您可能無法在頁面上看到您預期的內容。
 
 如果活動有潛在的衝突，活動概覽頁面上會顯示[!UICONTROL 「衝突」]標籤。系統會列出相同 URL 上的所有活動，而無論每個活動中鎖定的任何對象為何。開啟此標籤以顯示可能衝突的活動清單。按一下清單中的某個活動，可檢視該活動的概述頁面。如果衝突改變預期的體驗，請編輯活動。
 
-「衝突」清單可協助您:
+[!UICONTROL 衝突]清單可幫助您：
 
 * 在設定新活動之前，查明頁面上是否已有測試在執行。
 * 如果預期的內容沒有出現，請對活動進行疑難排解。
 
-「衝突」清單會顯示每個用到 Mbox 和使用相同 URL 的 Target Standard 案例。對於每個潛在的衝突，此清單會顯示活動 URL、可能發生衝突的 Mbox 名稱，以及這兩個條件皆符合的任何活動。如果有多個 Mbox，則每個皆會列出。
+[!UICONTROL 衝突]清單會顯示使用mbox且使用相同URL的每個[!DNL Target]藍本。 對於每個潛在的衝突，此清單會顯示活動 URL、可能發生衝突的 Mbox 名稱，以及這兩個條件皆符合的任何活動。如果有多個 Mbox，則每個皆會列出。
 
 此清單會列出每個潛在衝突的狀態和優先順序，還有其他資訊。您可以利用狀態和優先順序，協助您判斷衝突發生的可能性。例如，如果兩個活動之間有潛在衝突，而其中一個活動非使用中，則沒有實際的衝突，除非這個非使用中的活動啟動。如果具有相同優先順序和相同對象的兩個已上線活動之間有潛在衝突，則會發生衝突。您可以變更優先順序和狀態來防止衝突。
 
