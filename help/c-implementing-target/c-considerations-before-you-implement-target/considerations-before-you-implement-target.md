@@ -2,19 +2,19 @@
 keywords: implement;implementing
 description: 實作 Adobe Target 前應注意的考量事項。
 title: 實作之前
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 96%
+source-wordcount: '111'
+ht-degree: 90%
 
 ---
 
 
-# 實作之前{#before-you-implement}
+# 實作之前
 
-實作 Adobe Target 前應注意的考量事項。
+實施[!DNL Adobe Target]之前，您應考慮的事項。
 
 本節包含開發人員針對其實作所需收集的資訊、隱私權考量事項、Cookie 的相關討論、各種將資料傳入 Target 的方法清單、安全性考量事項，及 TLS (傳輸層安全性) 加密的相關資訊。
 
