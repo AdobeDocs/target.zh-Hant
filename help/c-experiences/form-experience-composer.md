@@ -1,20 +1,20 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: 表單式體驗撰寫器提供非視覺的體驗建立。
+description: Adobe Target表單型體驗撰寫器提供非視覺化的體驗建立。
 title: 表單式體驗撰寫器
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 79%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
 
 # 表單式體驗撰寫器{#form-based-experience-composer}
 
-表單式體驗撰寫器是一種非可視化體驗和選件建立介面，適合在可視化體驗撰寫器無法使用或不實用的情況下，用於建立可供 A/B 測試、體驗鎖定目標、Automated Personalization 和 Recommendations 活動使用的體驗。例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
+[!DNL Adobe Target] [!UICONTROL 表單型體驗撰寫器]是非視覺化體驗，當視覺化體驗撰寫器無法使用或實際使用時，&lt;a2/>提供建立介面，對建立用於A/B測試、體驗定位、自動個人化和建議活動的體驗非常有用。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
 
 如果是建立 Recommendations 活動，則沒有體驗。選擇您的條件和設計。如果您選擇多個條件或設計，Target 會自動產生體驗。
 
