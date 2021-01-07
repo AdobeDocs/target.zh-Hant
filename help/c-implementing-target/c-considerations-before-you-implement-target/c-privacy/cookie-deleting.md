@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: 刪除 Target 瀏覽器 Cookie，如此才可驗證所有的體驗。
 title: 刪除Adobe Target Cookie
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 9%
@@ -11,9 +12,9 @@ ht-degree: 9%
 ---
 
 
-# 刪除 Target Cookie{#delete-the-target-cookie}
+# 刪除 Target Cookie
 
-您可以刪除[!DNL Target]瀏覽器Cookie(mbox)，以便在測試期間驗證所有體驗。
+您可以刪除[!DNL Adobe Target]瀏覽器Cookie(mbox)，以便在測試期間驗證所有體驗。
 
 如果沒有[!DNL Target] Cookie(mbox)，則會將您視為新訪客並顯示新體驗。 有數種方式能夠刪除您的 mbox ，但不會刪除您所有的瀏覽器 Cookie。
 
