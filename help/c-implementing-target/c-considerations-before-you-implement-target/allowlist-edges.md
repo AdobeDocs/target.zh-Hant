@@ -2,11 +2,11 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: 允許列出Adobe Target邊緣節點
 title: 允許列出Adobe Target邊緣節點
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 允許列出目標邊緣節點
 
-資訊和最新主機清單，協助您列出Adobe [!DNL Target]邊緣。
+幫助您列出[!DNL Adobe Target]邊的資訊和最新主機清單。
 
 邊緣是地理上分散的服務架構，可確保最佳回應時間給要求內容的使用者，而不論使用者在全球的何處。 每個邊緣節點都具備回應使用者內容要求及追蹤該要求之分析資料所需的所有資訊。 用戶請求被路由到最近的邊緣節點。 如需詳細資訊，請參閱&#x200B;*Adobe [!DNL Target]如何運作*&#x200B;中的[邊緣網路](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)。
 
