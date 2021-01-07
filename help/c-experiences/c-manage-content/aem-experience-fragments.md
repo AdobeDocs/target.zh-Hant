@@ -2,9 +2,9 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: 有關在Adobe Target活動中使用在Adobe Experience Manager(AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
 title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
-feature: aem
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 22%
@@ -12,7 +12,7 @@ ht-degree: 22%
 ---
 
 
-# AEM 體驗片段{#aem-experience-fragments}
+# AEM 體驗片段
 
 有關在[!DNL Target]活動中使用[!DNL Adobe Experience Manager](AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
 
