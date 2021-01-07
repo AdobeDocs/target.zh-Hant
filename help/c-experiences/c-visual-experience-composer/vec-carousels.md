@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: 此主題顯示如何建立可以在可視化體驗撰寫器 (VEC) 中編輯的輪播。
+description: 本主題說明如何建立可在Adobe Target Visual Experience Composer(VEC)中編輯的轉盤。
 title: 建立可在可視化體驗撰寫器中運作的輪播
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 74%
 
 ---
 
 
-# 建立可在可視化體驗撰寫器中運作的輪播{#creating-carousels-that-work-in-the-visual-experience-composer}
+# 建立可在可視化體驗撰寫器中運作的輪播
 
-此主題顯示如何建立可以在可視化體驗撰寫器 (VEC) 中編輯的輪播。
+本主題說明如何建立可在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中編輯的轉盤。
 
 使用下列步驟時，[!DNL Target] 一律知道已選取投影片會有正確投影片的「選取器」，即便在幾秒後它在可視化體驗撰寫器中已變更。
 
