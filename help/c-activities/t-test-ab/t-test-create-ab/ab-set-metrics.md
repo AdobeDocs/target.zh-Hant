@@ -1,23 +1,22 @@
 ---
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: 在 A/B 活動中使用量度以判斷造訪是否成功。
+description: 在Adobe Target A/B活動中使用量度來判斷瀏覽成功的時間。
 title: 設定量度
-feature: ab
-solution: Target
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 99%
+source-wordcount: '314'
+ht-degree: 86%
 
 ---
 
 
-# 設定量度{#set-metrics}
+# 設定量度
 
-在 A/B 活動中使用量度以判斷造訪是否成功。
+在[!DNL Adobe Target] A/B活動中使用量度來判斷瀏覽成功的時間。
 
-如需關於成功量度的詳細資訊，請參閱[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
+如需成功度量的詳細資訊，請參閱[成功度量](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
 1. 指定活動的目標。
 1. 選取[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
