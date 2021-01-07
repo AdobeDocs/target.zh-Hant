@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;create remote offer
-description: 在選件資料庫中建立 JSON 選件，以用於表單式體驗撰寫器。
+description: 在Adobe Target的選件程式庫中建立JSON選件，以便用於表單型體驗撰寫器。
 title: 建立 JSON 選件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 91%
 
 ---
 
 
 # 建立 JSON 選件{#create-json-offers}
 
-在選件資料庫中建立 JSON 選件，以用於表單式體驗撰寫器。
+在[!DNL Adobe Target]的[!UICONTROL 選件程式庫]中建立JSON選件，以用於[!UICONTROL 表單式體驗撰寫器]。
 
 JSON 選件可用於表單式活動中，藉以啟用使用案例，此時 Target 需要決定以 JSON 格式傳送選件，供 SPA 架構或伺服器端整合取用。
 
