@@ -2,9 +2,9 @@
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Google Chrome 版本 80 推出的 Adobe Target 和 SameSite IETF 標準的相關資訊。
 title: Adobe Target和Google的SameSite Cookie政策
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 8%
