@@ -1,19 +1,20 @@
 ---
-description: 當您要將訪客傳送到不同的頁面而非在相同頁面上顯示內容時，請使用此選項。
+kewords: redirect;redirect url;send to different page
+description: 當您要將訪客傳送至不同頁面，而非在相同頁面上顯示內容時，請在Adobe Target中使用「重新導向至URL」選項。
 title: 重新導向至 URL
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
 
-# 重新導向至 URL{#redirect-to-a-url}
+# 重新導向至 URL
 
-當您要將訪客傳送到不同的頁面而非在相同頁面上顯示內容時，請使用此選項。
+當您要將訪客傳送至不同頁面，而非在相同頁面上顯示內容時，請使用[!UICONTROL 重新導向至[!DNL Adobe Target]中的URL]選項。
 
 您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。在「體驗動作」功能表中，透過按一下體驗的字母標籤，接著選擇&#x200B;**[!UICONTROL 「重新導向至 URL」]**，然後指定頁面 B 的 URL 來找到。選件會設定為將訪客重新導向至不同頁面。
 
