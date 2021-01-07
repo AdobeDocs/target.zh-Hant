@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: 對象會決定哪些網站訪客進入了您的活動。
+description: 觀眾會決定哪些網站訪客是進入您的Adobe Target活動的。
 title: 選取對象
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# 選取對象{#select-audience}
+# 選取對象
 
-對象會決定哪些網站訪客進入了您的活動。
+觀眾會決定哪些網站訪客是進入您的[!DNL Adobe Target]活動的。
 
 >[!NOTE]
 >
