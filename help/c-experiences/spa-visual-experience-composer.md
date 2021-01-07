@@ -2,9 +2,9 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Adobe Target 中適用於單頁應用程式 (SPA) 的可視化體驗撰寫器 (VEC) 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在 React 和 Angular 等最熱門的架構上建立活動。
 title: 單一頁面應用程式 (SPA) 可視化體驗撰寫器
-feature: spa vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 ---
 
 
-# 單一頁面應用程式 (SPA) 可視化體驗撰寫器 {#single-page-app-spa-visual-experience-composer}
+# 單一頁面應用程式 (SPA) 可視化體驗撰寫器
 
 在 [!DNL Adobe Target] 中，[!UICONTROL 可視化體驗撰寫器] (VEC) 為行銷人員提供自助式功能，以建立活動並個人化體驗，這些可以透過 Adobe Target 的全域 Mbox 在傳統多頁應用程式上以動態方式傳送。不過，這有賴擷取頁面載入上的選件或後續伺服器呼叫，但會導致延遲，如下圖所示。由於這種作法會減損使用者體驗與應用程式效能，因此在單頁應用程式 (SPA) 上成效不彰。
 
