@@ -4,17 +4,17 @@ description: Adobe Target可與Adobe Dynamic Media Classic（之前稱為Scene7�
 title: Dynamic Media Classic整合組態整合
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 2e80c972e432ce97596c856dd396b8f1be05a61a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 22%
 
 ---
 
 
-# Scene7設定
+# Dynamic Media Classic（之前稱為Scene7）組態
 
-[!DNL Adobe Target] 可與(舊 [!DNL Adobe Dynamic Media Classic] 稱Scene7)整合，以在內容庫中提供數位資 [!UICONTROL 產管理]。
+[!DNL Adobe Target] 可與(先前 [!DNL Adobe Dynamic Media Classic] )整合， [!DNL Scene7]以在內容庫中提供數位資產 [!UICONTROL 管理(DAM)]。
 
 >[!NOTE]
 >
