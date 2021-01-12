@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3283'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 12 年 1 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target Standard/Premium 21.1.1版的發行前資訊（2021年1月19日）。 |
 | 11 年 1 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增1月13日Adobe Target社群問答咖啡會的資訊和註冊資訊。 |
 | 6 年 1 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增下列即時網路研討會的資訊和註冊資訊：<ul><li>大規模個人化成功案例：Forrester Wave的主要調查結果，體驗最佳化平台。</li></ul> |
 | 1 月 4 日 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 將Target不再支援mbox.js的日期從2021年1月18日變更為2021年3月31日。 |
