@@ -2,9 +2,9 @@
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 description: 建立建議活動之前需要知道的事項。
 title: '計劃和實作 Recommendations '
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -204,7 +204,7 @@ function targetPageParams() {
 
 使用設定來管理您的 [!DNL Recommendations] 實作。
 
-若要存取「Recommendations設定」[!UICONTROL 選項，請開啟[!DNL Adobe Experience Cloud]中的[!DNL Target]，然後按一下「Recommendations ]**>**[!UICONTROL &#x200B;設定」]**。**
+若要存取「Recommendations設定」[!UICONTROL 選項，請開啟[!DNL Adobe Experience Cloud]中的[!DNL Target]，然後按一下「Recommendations ]**>**[!UICONTROL &#x200B;設定」]**。]**[!UICONTROL 
 
 ![](assets/recs_settings.png)
 
