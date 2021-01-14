@@ -2,9 +2,9 @@
 keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
 description: 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
 title: Target Premium 中的 Recommendations 傳統版與 Recommendations 活動的比較
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
