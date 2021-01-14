@@ -2,9 +2,9 @@
 keywords: global mbox;implement mbox.js;implement at.js
 description: 全域mbox的相關資訊，此名稱用於指代Adobe Target實作中每個網頁頂端所做的單一伺服器呼叫。
 title: 瞭解全域 mbox
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# 瞭解全域 mbox{#understand-the-global-mbox}
+# 瞭解全域 mbox
 
 關於全域 mbox 的資訊，此名稱用來指稱在您的 [!DNL Adobe Target] 實作中的每個網頁頂端進行的單一伺服器呼叫。
 
