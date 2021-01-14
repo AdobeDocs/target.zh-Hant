@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: 這些資訊可協助您設定要顯示在Adobe Target報表中的元素。 可以儲存報表設定以供稍後使用。
 title: 報表設定
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
@@ -111,7 +111,7 @@ ht-degree: 68%
 
 ![日曆](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-為報表選取新的&#x200B;**[!UICONTROL 「開始」]**&#x200B;和&#x200B;**[!UICONTROL 「結束」]**&#x200B;日期。您也可以使用&#x200B;**[!UICONTROL 「從活動開始」和「直到活動結束」複選框。****]**
+為報表選取新的&#x200B;**[!UICONTROL 「開始」]**&#x200B;和&#x200B;**[!UICONTROL 「結束」]**&#x200B;日期。您也可以使用&#x200B;**[!UICONTROL 「從活動開始」和「直到活動結束」複選框。]******
 
 按一下&#x200B;**[!UICONTROL 「自訂日期」]**&#x200B;以選取預先定義的日期範圍: 最近 7 天、最近 15 天，或最近 30 天。這些預先定義的日期範圍是動態範圍。如果開始日期早於於所選天數，則日曆將顯示從開始日期開始的範圍，一旦開始日期變成晚於活動持續時間增加時選擇的天數，則會動態變更範圍。
 
