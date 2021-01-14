@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Adobe Target中「自動個人化」活動的使用者可使用專用報表。
 title: 自動個人化摘要報表
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 68%
@@ -40,7 +40,7 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 
 隨機森林 (Random Forest) 體驗的[!UICONTROL 選件層級]報表中，會比較每個套用演算法的選件與同樣的隨機提供選件 (控制) 兩者的效能。因此，在此檢視中，選件不應該相互比較。
 
-按一下體驗演算法（隨機森林或控制項）以檢視「選件層級」報表。][!UICONTROL 
+按一下體驗演算法（隨機森林或控制項）以檢視「選件層級」報表。
 
 ![](assets/ap_OfferLevelRpt.png)
 
