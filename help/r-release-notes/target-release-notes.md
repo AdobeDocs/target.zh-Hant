@@ -4,10 +4,10 @@ description: 提供最新或即將發行的DNL Adobe Target版本功能、增強
 title: Adobe Target搶鮮版注意事項
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 83612ef2fa8d76f9318b0b9637203fefd82215ee
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 19%
+source-wordcount: '671'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 19%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最近更新日期: 2021 年 1 月 12 日**
+**最近更新日期: 2021 年 1 月 14 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -49,7 +49,6 @@ ht-degree: 19%
 * 修正使用者無法從[!UICONTROL 自動個人化](AP)活動中的選件中移除對象的問題。 (TGT-39058)
 * 修正部分客戶的「對象資訊」卡顯示錯誤時段（開始和結束日期）的問題。 (TGT-39150)
 * 修正某些客戶無法在[!UICONTROL 預設工作區]中看到活動清單的問題。 (TGT-38526)
-* 將[!DNL Target] UI和API中選件的大小限制提高至1 MB。 (TGT-38304)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
