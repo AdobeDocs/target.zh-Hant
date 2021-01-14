@@ -2,17 +2,17 @@
 keywords: global mbox;target classic;use global mbox from target classic
 description: 依預設，Target Standard 會建立名為 target-global-mbox 的全域 mbox，用來執行 Target Standard 中建立的活動。不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 Target Standard 活動。
 title: 使用來自舊版實作的全域 mbox
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
 
-# 使用來自舊版實作的全域 mbox{#use-a-global-mbox-from-a-legacy-implementation}
+# 從舊版實作使用全域mbox
 
 依預設，[!DNL Target]會建立名為target-global-mbox的全域mbox，用來執行在[!DNL Target]中建立的活動。 不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 [!DNL Target] 活動。
 
