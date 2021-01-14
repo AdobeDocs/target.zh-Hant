@@ -4,9 +4,9 @@ description: 這些版本說明提供關於每個 Adobe Target Standard 和 Targ
 title: 'Adobe Target 版本說明 (最新) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '963'
 ht-degree: 26%
 
 ---
@@ -30,11 +30,12 @@ ht-degree: 26%
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## at.js 2.3.3（2020年11月13日）
+## at.js 2.4.0（2021年1月14日）
 
 此版本的at.js是維護髮行，包含下列修正：
 
-* 修正與mbox點按追蹤和A4T相關的問題。
+* 新增對傳送API customerId的統一設定檔／平台ID支援
+* 修正無效樣式標籤插入
 
 ## Target Standard/Premium 20.10.1 (2020 年 10 月 27 日)
 
@@ -47,7 +48,7 @@ ht-degree: 26%
 此發行包含下列增強功能、修正和變更：
 
 * 修正[!UICONTROL 平均提升度信賴區間]和[!UICONTROL 信賴區間]無法顯示在[!UICONTROL 總計]列之[!DNL Auto-Target]報表中的問題。 所有個別體驗的度量都會正確顯示。 (TGT-37301)
-* 修正從9月15日下午2:30開始影響[!DNL Adobe Target Premium]使用者[!UICONTROL  Auto-Target]報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換度量的報表時（使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按mbox]」選項設定），轉換率報告不正確。 目前沒有已知的傳送問題。 有關如何重新同步和更正報告的資訊，請參閱&#x200B;**&lt;a4/>&lt;已解決問題&#x200B;**&#x200B;中的[自動目標報告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
+* 修正從9月15日下午2:30開始影響[!DNL Adobe Target Premium]使用者[!UICONTROL  Auto-Target]報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換度量的報表時（使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按mbox]」選項設定），轉換率報告不正確。 目前沒有已知的傳送問題。 有關如何重新同步和更正報告的資訊，請參閱&#x200B;**&lt;已解決問題&#x200B;**&#x200B;中的[自動目標報告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
 * 在[!UICONTROL 目錄搜尋]表格中新增可選[!UICONTROL 上次更新日期]欄，以及[!UICONTROL 上次更新日期]篩選。 此增強功能可節省時間和精力，因為您不需要開啟每個個別項目來查看上次更新的時間，而且您可以依上次更新項目的日期進行篩選。
 
    ![「上次更新於」欄和篩選器圖示](/help/r-release-notes/assets/column-and-filter.png)
