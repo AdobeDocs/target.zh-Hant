@@ -4,10 +4,10 @@ description: 每個Adobe Target版本at.js中變更的詳細資訊。
 title: at.js 版本詳細資料
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 85%
+source-wordcount: '4034'
+ht-degree: 84%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 85%
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升級at.js的偏好方法。擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成新版擴充功能，並在[!DNL Launch]目錄中提供升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用指南*&#x200B;中的[Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+
+## at.js 2.4.0（2021年1月14日）
+
+此版本的at.js是維護髮行，包含下列修正：
+
+* 新增對傳送API customerId的統一設定檔／平台ID支援
+* 修正無效樣式標籤插入
 
 ## at.js 2.3.3（2020年11月13日）
 
