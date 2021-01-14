@@ -2,9 +2,9 @@
 keywords: Release notes
 description: 舊版Adobe Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。 版本說明以發行年月由新到舊排序。
 title: 舊版版本說明
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29814'
 ht-degree: 86%
@@ -96,7 +96,7 @@ ht-degree: 86%
 此發行包含下列增強功能、修正和變更：
 
 * 修正重新整理後網站偏好設定無法保留的問題。 (TGT-37239)
-* 修正「在[!UICONTROL  > ]影像[!UICONTROL 後面插入」無法與可縮放向量圖形(SVG)影像正常運作的問題。 ](TGT-37242)
+* 修正「在] > [!UICONTROL 影像]後面插入」無法與可縮放向量圖形(SVG)影像正常運作的問題。 [!UICONTROL (TGT-37242)
 * 修正具有[!UICONTROL Publisher]角色的使用者無法刪除草稿活動的問題。 (TGT-37358)
 * 修正當選取「我的所有工作區」([!UICONTROL All My Workspaces])時，使用者無法編輯活動的問題。 (TGT-37276)
 
