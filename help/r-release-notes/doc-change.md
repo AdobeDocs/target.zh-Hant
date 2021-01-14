@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3292'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 14 年 1 月 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 版本 2.4.0 的資訊。 |
 | 12 年 1 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target Standard/Premium 21.1.1版的發行前資訊（2021年1月19日）。 |
 | 11 年 1 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增1月13日Adobe Target社群問答咖啡會的資訊和註冊資訊。 |
 | 6 年 1 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增下列即時網路研討會的資訊和註冊資訊：<ul><li>大規模個人化成功案例：Forrester Wave的主要調查結果，體驗最佳化平台。</li></ul> |
