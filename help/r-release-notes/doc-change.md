@@ -2,9 +2,9 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: 本頁列出依發行順序對Adobe Target檔案所做的重要變更。
 title: Adobe Target 產品文件中的文件變更。
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '3283'
 ht-degree: 28%
