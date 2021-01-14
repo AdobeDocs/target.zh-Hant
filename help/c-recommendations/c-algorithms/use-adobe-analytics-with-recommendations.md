@@ -2,9 +2,9 @@
 keywords: behavioral data source;analytics;recommendations;criteria;product variables
 description: 使用Adobe Analytics做為行為資料來源可讓客戶使用Adobe Recommendations中以檢視為基礎和／或購買為基礎的行為資料。
 title: 搭配使用Adobe Analytics和Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 3%
