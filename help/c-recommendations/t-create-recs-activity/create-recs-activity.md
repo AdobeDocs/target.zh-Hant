@@ -2,9 +2,9 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 title: 建立 Recommendations 活動
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 78%
@@ -90,7 +90,7 @@ ht-degree: 78%
       有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
    * 若要建立新標準，請按一下「建立標準&#x200B;**** > **[!UICONTROL 建立標準]**」，然後填寫新標準的資訊。 如需關於建立新條件的資訊，請參閱[建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您也可以將條件群組為序列。要建立新標準序列，請按一下「建立標準」。 ****]****[!UICONTROL &#x200B;如需詳細資訊，請參閱[建立准則序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)。
+   * 您也可以將條件群組為序列。要建立新標準序列，請按一下「建立標準」。 ********&#x200B;如需詳細資訊，請參閱[建立准則序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/c-recommendations/c-design-overview/design-overview.md)。
