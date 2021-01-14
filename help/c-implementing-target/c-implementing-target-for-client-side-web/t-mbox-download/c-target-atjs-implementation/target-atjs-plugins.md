@@ -2,9 +2,9 @@
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: 關於 Adobe Target 支援和不支援的 at.js 外掛程式之資訊。
 title: Adobe Target 的 at.js 外掛程式
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 ---
 
 
-# At.js 外掛程式{#at-js-plug-ins}
+# At.js 外掛程式
 
 關於 Adobe Target 中支援和不支援的 at.js 外掛程式之資訊。
 
