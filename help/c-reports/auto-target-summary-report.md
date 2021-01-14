@@ -2,9 +2,9 @@
 keywords: reports;auto-target;auto target;AT;report
 description: 有關如何解譯Adobe Target中「自動目標摘要」報表的資訊。
 title: 自動鎖定目標摘要報表
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 55%
