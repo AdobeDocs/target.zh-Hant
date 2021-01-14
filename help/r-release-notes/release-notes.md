@@ -4,7 +4,7 @@ description: 這些版本說明提供關於每個 Adobe Target Standard 和 Targ
 title: 'Adobe Target 版本說明 (最新) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 26%
@@ -34,8 +34,8 @@ ht-degree: 26%
 
 此版本的at.js是維護髮行，包含下列修正：
 
-* 新增對傳送API customerId的統一設定檔／平台ID支援
-* 修正無效樣式標籤插入
+* 新增對傳送API customerId的統一設定檔／平台ID支援。
+* 修正無效樣式標籤插入。
 
 ## Target Standard/Premium 20.10.1 (2020 年 10 月 27 日)
 
