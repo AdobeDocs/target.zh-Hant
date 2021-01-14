@@ -2,9 +2,9 @@
 keywords: recommendations;frequently asked questions;faq
 description: 關於Adobe Target建議設計的常見問題(FAQ)清單。
 title: 設計常見問題集
-feature: designs
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 85%
