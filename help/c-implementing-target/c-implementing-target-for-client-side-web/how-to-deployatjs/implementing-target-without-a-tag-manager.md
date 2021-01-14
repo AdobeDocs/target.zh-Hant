@@ -2,9 +2,9 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: 不使用標籤管理程式 (Adobe Launch 或動態標籤管理) 實作 Adobe Target 的相關資訊。
 title: 不使用標籤管理程式實作 Target
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
@@ -12,7 +12,7 @@ ht-degree: 70%
 ---
 
 
-# 不使用標籤管理程式實作 Target{#implement-target-without-a-tag-manager}
+# 不使用標籤管理程式實作 Target
 
 有關不使用標籤管理器（[!DNL Adobe Launch]或[!DNL Dynamic Tag Manager]）實作[!DNL Adobe Target]的資訊。
 
