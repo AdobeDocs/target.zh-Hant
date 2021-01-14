@@ -2,9 +2,9 @@
 keywords: collection;Targeting
 description: 集合是 Adobe Target 中符合建議資格的一組產品或項目。
 title: Adobe Target 中的集合
-feature: entities
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 61%
