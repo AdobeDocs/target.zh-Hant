@@ -2,9 +2,9 @@
 keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
 description: 新增提示的項目並控制其在您的 Adobe Target Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
 title: 在 Adobe Target Recommendations 設計中新增促銷活動。
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 180a8064019e8d4a44db13923aad7422f67ccf3f
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 60%
@@ -64,7 +64,7 @@ ht-degree: 60%
 
    如果您的實體沒有`entity.value`屬性（例如，您不銷售產品），您可以將數值傳入`entity.value`屬性，例如發佈日期。 在此情況下，可根據最近的發佈日期，以遞減順序來提升提升項目。 `entity.value`屬性為double類型；它不接受字串。
 
-   如果您選取「依屬性提升」或「提升系列」選項，則不適用隨機化順序的選項。**[!UICONTROL ****]**
+   如果您選取「依屬性提升」或「提升系列」選項，則不適用隨機化順序的選項。********
 
    當使用[!UICONTROL Promote by Attribute]或[!UICONTROL Promote a Collection]選項來提升特定項目時，項目的顯示順序預設是以`entity.value`屬性為基礎，依數值遞減順序。
 
