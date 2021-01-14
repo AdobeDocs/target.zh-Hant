@@ -2,9 +2,9 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: 使用 Adobe Target at.js 2.x 實作單頁應用程式 (SPA) 的相關資訊。
 title: Adobe Target 中的實作單一頁面應用程式
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -12,7 +12,7 @@ ht-degree: 74%
 ---
 
 
-# 實作單頁應用程式{#single-page-application-implementation}
+# 實作單頁應用程式
 
 傳統的網站採用「頁面至頁面」導覽模型 (又稱為「多頁應用程式」)，網站設計與 URL 緊密結合，而從某網頁轉換到另一個網頁，需要頁面載入。單頁應用程式 (SPA) 這類新式 Web 應用程式採用的模型，則可加速瀏覽器 UI 演算速度，且通常與頁面重新載入無關。這些體驗通常會透過客戶互動觸發，例如捲動、點按和游標動作。隨著現代網路環境的不斷演進，傳統的一般事件 (例如頁面載入) 與部署個人化與實驗法之間的相關性已失效。
 
@@ -210,7 +210,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 | --- | --- |
 | 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
-| 1 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
+| 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
 | 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
 | 5 | Analytics 資料傳送至資料收集伺服器。 |
 | 6 | Target 資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 A4T 報表來檢視 Analytics 資料。 |
@@ -284,7 +284,7 @@ at.js 2.x API可讓您以多種方式自訂[!DNL Target]實作，但在此程式
 | --- | --- | --- |
 | 1 | 載入VisitorAPI JS | 此程式庫負責指派ECID給訪客。 此ID稍後會被網頁上的其他[!DNL Adobe]解決方案使用。 |
 | 2 | 載入at.js 2.x | at.js 2.x會載入您用來實作[!DNL Target]請求和檢視的所有必要API。 |
-| 1 | 執行[!DNL Target]請求 | 如果您有資料層，建議您在執行[!DNL Target]請求前，先載入傳送至[!DNL Target]所需的重要資料。 這可讓您使用`targetPageParams`來傳送您要用於定位的任何資料。 您必須確保在此API呼叫中要求執行> pageLoad以及預回遷>檢視。 如果您已設定`pageLoadEnabled`和`viewsEnabled`，則步驟2會自動執行> pageLoad和prefetch >檢視；否則，您必須使用`getOffers()` API才能提出此要求。 |
+| 3 | 執行[!DNL Target]請求 | 如果您有資料層，建議您在執行[!DNL Target]請求前，先載入傳送至[!DNL Target]所需的重要資料。 這可讓您使用`targetPageParams`來傳送您要用於定位的任何資料。 您必須確保在此API呼叫中要求執行> pageLoad以及預回遷>檢視。 如果您已設定`pageLoadEnabled`和`viewsEnabled`，則步驟2會自動執行> pageLoad和prefetch >檢視；否則，您必須使用`getOffers()` API才能提出此要求。 |
 | 4 | 呼叫 `triggerView()` | 由於您在步驟3中啟動的[!DNL Target]要求可同時傳回「頁面載入」執行和「檢視」的體驗，因此請確定在傳回[!DNL Target]要求後呼叫`triggerView()`，並完成對快取的選件套用。 每個視圖只能執行此步驟一次。 |
 | 5 | 呼叫[!DNL Analytics]頁面檢視信標 | 此信標會將與步驟3和4相關聯的SDID傳送至[!DNL Analytics]以進行資料拼接。 |
 | 6 | 呼叫其他`triggerView({"page": false})` | 這是SPA架構的選用步驟，可能會在頁面上重新轉換某些元件，而不會發生檢視變更。 在這種情況下，請務必叫用此API，以確保在SPA架構重新轉換元件後重新套用[!DNL Target]體驗。 您可以執行此步驟的次數與想要確保[!DNL Target]體驗持續存在於SPA檢視中的次數相同。 |
@@ -295,7 +295,7 @@ at.js 2.x API可讓您以多種方式自訂[!DNL Target]實作，但在此程式
 | --- | --- | --- |
 | 1 | 呼叫 `visitor.resetState()` | 此API可確保在載入新檢視時重新產生SDID。 |
 | 2 | 呼叫`getOffers()` API以更新快取 | 如果此檢視變更有可能使目前訪客符合[!DNL Target]更多活動的資格，或使其不符合活動資格，則此為可選步驟。 此時，您也可以選擇傳送其他資料至[!DNL Target]，以啟用進一步的定位功能。 |
-| 1 | 呼叫 `triggerView()` | 如果您已執行步驟2，則必須等待[!DNL Target]請求，並將選件套用至快取，才能執行此步驟。 每個視圖只能執行此步驟一次。 |
+| 3 | 呼叫 `triggerView()` | 如果您已執行步驟2，則必須等待[!DNL Target]請求，並將選件套用至快取，才能執行此步驟。 每個視圖只能執行此步驟一次。 |
 | 4 | 呼叫 `triggerView()` | 如果您尚未執行步驟2，則可在完成步驟1後立即執行此步驟。 如果您已執行步驟2和步驟3，則應跳過此步驟。 每個視圖只能執行此步驟一次。 |
 | 5 | 呼叫[!DNL Analytics]頁面檢視信標 | 此信標會將與步驟2、3和4關聯的SDID傳送至[!DNL Analytics]以進行資料拼接。 |
 | 6 | 呼叫其他`triggerView({"page": false})` | 這是SPA架構的選用步驟，可能會在頁面上重新轉換某些元件，而不會發生檢視變更。 在這種情況下，請務必叫用此API，以確保在SPA架構重新轉換元件後重新套用[!DNL Target]體驗。 您可以執行此步驟的次數與想要確保[!DNL Target]體驗持續存在於SPA檢視中的次數相同。 |
