@@ -2,9 +2,9 @@
 keywords: Target Standard;at.js;implementation
 description: at.js 是新的 Adobe Target 實作資料庫，專為典型 Web 實作和單頁應用程式而設計。
 title: 從 mbox.js 移轉至 at.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# 從 mbox.js 移轉至 at.js{#migrate-from-mbox-js-to-at-js}
+# 從 mbox.js 移轉至 at.js
 
 at.js 是新的 [!DNL Adobe Target] 實作資料庫，專為典型 Web 實作和單頁應用程式而設計。
 
