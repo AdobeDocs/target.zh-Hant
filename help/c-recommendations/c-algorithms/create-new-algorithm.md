@@ -2,9 +2,9 @@
 keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: 條件可控制 Adobe Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
 title: 建立條件
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -23,7 +23,7 @@ ht-degree: 66%
 有多個方式可進入[!UICONTROL 「建立新條件」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面上，按一下「建立准則&#x200B;]**>**[!UICONTROL &#x200B;建立准則&#x200B;]**」。**[!UICONTROL &#x200B;您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
-* 當您使用[!UICONTROL Visual Experience Composer](VEC)建立[!DNL Recommendations]活動時，在您頁面上選取元素並按一下「取代w/ Recommendations]、[!UICONTROL Insert Recommendations Before]」後，會立即進入[!UICONTROL 「選擇准則」畫面或[!UICONTROL 在]之後插入建議。 然後，您可以選擇可用標準，也可以按一下&#x200B;**[!UICONTROL 建立標準]**。 如果您建立新標準，您可以選擇儲存標準，以便與其他[!DNL Recommendations]活動搭配使用。 如需詳細資訊，請參閱[建立建議活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 當您使用[!UICONTROL Visual Experience Composer](VEC)建立[!DNL Recommendations]活動時，在您頁面上選取元素並按一下「取代w/ Recommendations]、[!UICONTROL Insert Recommendations Before]」後，會立即進入[!UICONTROL 「選擇准則」畫面或[!UICONTROL 在]之後插入建議。 ][!UICONTROL 然後，您可以選擇可用標準，也可以按一下&#x200B;**[!UICONTROL 建立標準]**。 如果您建立新標準，您可以選擇儲存標準，以便與其他[!DNL Recommendations]活動搭配使用。 如需詳細資訊，請參閱[建立建議活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在[!UICONTROL 選擇標準]螢幕上，按一下&#x200B;**[!UICONTROL 建立標準]**。 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
 
 以下步驟假定您使用第一種方法訪問[!UICONTROL 建立新標準]螢幕：**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面。
@@ -136,7 +136,7 @@ ht-degree: 66%
 
    ![4 x 1設計](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   假設您的准則只會建議兩個項目。 如果您啟用「部分設計演算」([!UICONTROL  Partial Design Rendering)]選項，前兩個插槽會填滿，但其餘兩個插槽仍為空。 但是，如果您啟用「顯示備份建議」選項，則前兩個插槽會根據您的指定標準填充，其餘兩個插槽則會根據備份建議填充。][!UICONTROL 
+   假設您的准則只會建議兩個項目。 如果您啟用「部分設計演算」([!UICONTROL  Partial Design Rendering)]選項，前兩個插槽會填滿，但其餘兩個插槽仍為空。 但是，如果您啟用「顯示備份建議」選項，則前兩個插槽會根據您的指定標準填充，其餘兩個插槽則會根據備份建議填充。
 
    下列矩陣顯示使用[!UICONTROL 部分設計演算]和[!UICONTROL 備份建議]選項時將觀察到的結果：
 
@@ -149,7 +149,7 @@ ht-degree: 66%
 
    如需詳細資訊，請參閱[使用備份建議](/help/c-recommendations/c-algorithms/backup-recs.md)。
 
-1. （條件性）如果您在上一步驟中選取了「顯示備份建議」**[!UICONTROL ，則可啟用「套用包含規則至備份建議」]**。****
+1. （條件性）如果您在上一步驟中選取了「顯示備份建議」**[!UICONTROL ，則可啟用「套用包含規則至備份建議」]**。]****[!UICONTROL 
 
    包含規則會決定哪些項目包含在建議中。 可用的選項取決於您的垂直產業。
 
