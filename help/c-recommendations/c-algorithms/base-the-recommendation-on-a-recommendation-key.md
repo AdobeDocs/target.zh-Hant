@@ -2,10 +2,10 @@
 keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: 根據索引鍵的建議會使用訪客行為上下文來顯示Adobe Target Recommendations活動的相關結果。
 title: 讓建議以建議索引鍵為依據
-feature: criteria
+feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2889'
 ht-degree: 69%
