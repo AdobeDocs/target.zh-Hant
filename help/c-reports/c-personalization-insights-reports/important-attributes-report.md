@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: 有關「重要屬性」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
 title: 「重要屬性」報表
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 94%
@@ -45,7 +45,7 @@ ht-degree: 94%
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   會顯示「自動個人化摘要」或「自動目標摘要」報表，其中提供有關活動效能的資訊，由第一個螢幕圖示表示。 ](/help/c-reports/auto-target-summary-report.md)[](/help/c-reports/reports-ap.md)[另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
+   會顯示「自動個人化摘要」或「自動目標摘要」報表，其中提供有關活動效能的資訊，由第一個螢幕圖示表示。 [](/help/c-reports/reports-ap.md)[](/help/c-reports/auto-target-summary-report.md)另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
    ![](assets/personalization_insights.png)
 
