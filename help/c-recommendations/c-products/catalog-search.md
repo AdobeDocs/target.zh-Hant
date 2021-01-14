@@ -2,9 +2,9 @@
 keywords: catalog;search
 description: Adobe Target 中的目錄搜尋可協助您在目錄中尋找產品或內容。
 title: Adobe Target 中的目錄搜尋
-feature: catalog
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 20%
