@@ -4,7 +4,7 @@ description: 每個Adobe Target版本at.js中變更的詳細資訊。
 title: at.js 版本詳細資料
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4034'
 ht-degree: 84%
@@ -26,8 +26,8 @@ ht-degree: 84%
 
 此版本的at.js是維護髮行，包含下列修正：
 
-* 新增對傳送API customerId的統一設定檔／平台ID支援
-* 修正無效樣式標籤插入
+* 新增對傳送API customerId的統一設定檔／平台ID支援。
+* 修正無效樣式標籤插入。
 
 ## at.js 2.3.3（2020年11月13日）
 
