@@ -4,7 +4,7 @@ description: 在您的網頁上參照Target程式庫（at.js或mbox.js），以�
 title: 瞭解 Target JavaScript 程式庫
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 76%
