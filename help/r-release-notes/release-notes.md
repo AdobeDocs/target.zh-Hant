@@ -4,10 +4,10 @@ description: 這些版本說明提供關於每個 Adobe Target Standard 和 Targ
 title: 'Adobe Target 版本說明 (最新) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 26%
+source-wordcount: '943'
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 26%
 >
 >**mbox.js生命週期結束**:自2021年3月31日起， [!DNL Adobe Target] 將不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。 我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。
 >
->* **Adobe Experience Platform Web SDK**:Adobe  [!UICONTROL Experience Platform Web ] SDK可讓您透過Adobe Experience Edge Network [!DNL Experience Cloud] (包括 [!DNL Target])與各種服務互動。如果您選擇移轉至[!DNL Adobe Experience Platform Web SDK]，請參閱&#x200B;*網頁SDK指南*&#x200B;中的[什麼是Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)。 如需[!DNL Target]特定資訊，請參閱[Target overview](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)。
+>* **Adobe Experience Platform Web SDK**:Adobe  [!UICONTROL Experience Platform Web ] SDK可讓您透過Adobe Experience Edge Network [!DNL Experience Cloud] (包括 [!DNL Target])與各種服務互動。如果您選擇移轉至[!DNL Adobe Experience Platform Web SDK]，請參閱&#x200B;*網頁SDK指南*&#x200B;中的[什麼是Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。
    >
    >
 * **at.js**:at.js JavaScript程式庫提供許多優於mbox.js的優點。除了其他優點，at.js可改善Web實作的頁面載入時間、改善安全性，並為單頁應用程式提供更佳的實作選項。 如果您選擇移轉至at.js，請參閱[At.js的運作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)和[Adobe Target技能產生器：開發人員聊天，將Adobe Target的mbox.js移轉至at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
