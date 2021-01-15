@@ -4,10 +4,10 @@ description: 有關Adobe Target運作方式的資訊，包括有關Adobe Experie
 title: Adobe Target 如何運作
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 70%
+source-wordcount: '2504'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 70%
 
 Adobe Target透過[!DNL AEP Web SDK]或JavaScript程式庫與網站整合：
 
-* **Adobe Experience Platform Web SDK:**  [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK是新的用戶端JavaScript程式庫，可讓客戶 [!DNL Adobe Experience Cloud] 透過 [!DNL Experience Cloud] Edge Network [!DNL Target]與(包括 [!DNL Adobe Experience Platform] )中的各種服務互動。如需[!DNL Target]特定資訊，請參閱[Target overview](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)。
+* **Adobe Experience Platform Web SDK:**  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK是新的用戶端JavaScript程式庫，可讓客戶 [!DNL Adobe Experience Cloud] 透過 [!DNL Experience Cloud] Edge Network [!DNL Target]與(包括 [!DNL Adobe Experience Platform] )中的各種服務互動。
 * **at.js**: [at.js 資料庫](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是新的 Target 實作資料庫。at.js 程式庫改善 Web 實作的頁面載入時間，並且為單頁應用程式提供更好的實作選項。at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js:**[ mbox.js 程式庫為舊版的 Target 實作程式庫。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.js程式庫在2021年3月31日之前都受支援，但不會有功能更新。
 
 >[!IMPORTANT]
 >
->所有客戶應移轉至[!DNL AEP Web SDK]或最新版本的at.js。 如需詳細資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)或[從mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)移轉至at.js。
+>所有客戶應移轉至[!DNL AEP Web SDK]或最新版本的at.js。 如需詳細資訊，請參閱[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)或[從mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)移轉至at.js。
 
 您必須在網站上的每個頁面上參考[!DNL AEP Web SDK]或at.js。 例如，您可以將其中一個新增至全域標題。 或者，請考慮使用[Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)。
 
