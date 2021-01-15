@@ -4,7 +4,7 @@ description: 若要使用Adobe Target Standard或Target Premium，請新增一�
 title: mbox.js 實作
 feature: null
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 32%
