@@ -4,10 +4,10 @@ description: 此版本 Adobe Target 已知問題的相關資訊，也包括已�
 title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
-source-wordcount: '4296'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,15 @@ ht-degree: 70%
 
 ### Recommendations
 
-Recommendations 活動的已知問題如下：
+以下是[!UICONTROL Recommendations]活動的已知問題：
+
+* 複製具有活動促銷的[!UICONTROL Recommendation]活動時，複製活動中的任何變更目前也會影響原始活動，反之亦然。 (TGT-39155)
+
+   臨時解決方法：
+
+   * 停用活動促銷
+   * 複製活動
+   * 在每個活動中重新啟用促銷
 
 * 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
 * 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
