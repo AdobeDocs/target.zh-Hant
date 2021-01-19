@@ -4,10 +4,10 @@ description: 這些版本說明提供關於每個 Adobe Target Standard 和 Targ
 title: 'Adobe Target 版本說明 (最新) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 27%
+source-wordcount: '852'
+ht-degree: 36%
 
 ---
 
@@ -28,7 +28,25 @@ ht-degree: 27%
 >
 雖然目前支援mbox.js（直到2021年3月31日），但自2017年7月起，我們尚未提供此程式庫的功能更新。 透過將所有客戶移至[!UICONTROL Adobe Experience Platform Web SDK]或at.js，我們的工程師和支援人員將能為您提供新功能，並提供您期待從Adobe獲得的支援。
 
+(括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## Target Standard/Premium 21.1.1 (2021 年 1 月 19 日)
+
+此維護髮行包含下列增強功能、修正和變更。
+
 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+* 在[!UICONTROL Auto-Target]活動中使用[!UICONTROL Analytics作為報告來源](A4T)時，新增在選取[!DNL Adobe Analytics]度量時的警告。 [!UICONTROL 自動定位] 模型已最佳化，可搭配二進位（轉換型）量度運作。選擇連續度量（例如收入）可能會有次優結果，而[!UICONTROL 個人化洞察]報表可能不準確。 (TGT-38926)
+* 在[!UICONTROL Auto-Target Summary]報表中為使用A4T的[!UICONTROL Auto-Target]活動新增狀態圖示。 在報表中，每個體驗旁的綠色勾號圖示表示已為該體驗產生個人化機器學習模型。時鐘圖示表示提供的流量還不足以建立模型。(TGT-38925)
+* 產生使用A4T和[!DNL Analytics]轉換度量的[!UICONTROL 自動化區段]和[!UICONTROL 重要屬性]活動的[!UICONTROL 自動目標]報表，其外觀與使用[!DNL Target]作為報表來源時相同。 (TGT-38931)
+* 在[!UICONTROL Recommendations] [!UICONTROL Collections]清單中新增環境篩選選項。 (TGT-38353)
+* 修正在[!UICONTROL Recommendations]系列中顯示錯誤產品計數的問題。 (TGT-39162)
+* 新增[!UICONTROL 上次更新]篩選至[!UICONTROL Recommendations] [!UICONTROL 目錄搜尋]。 (TGT-38340)
+* 修正[!UICONTROL Recommendations]中，在變更產業垂直後造成[!UICONTROL 建立序列]頁面擱置的問題。 (TGT-38160)
+* 修正啟用Device Co-op且使用者從[!DNL Target]作為報告來源變更為[!DNL Analytics](A4T)時，無法儲存活動的問題。 (TGT-38163)
+* 修正使用者無法從[!UICONTROL 自動個人化](AP)活動中的選件中移除對象的問題。 (TGT-39058)
+* 修正部分客戶的「對象資訊」卡顯示錯誤時段（開始和結束日期）的問題。 (TGT-39150)
+* 修正某些客戶無法在[!UICONTROL 預設工作區]中看到活動清單的問題。 (TGT-38526)
 
 ## at.js 2.4.0（2021年1月14日）
 
@@ -36,27 +54,6 @@ ht-degree: 27%
 
 * 新增對傳送API customerId的統一設定檔／平台ID支援。
 * 修正無效樣式標籤插入。
-
-## Target Standard/Premium 20.10.1 (2020 年 10 月 27 日)
-
-此版本包含下列新功能：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| [裝置上決策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗定位(XT)活動類型中的關鍵個人化和實驗指示編譯為「最佳化工件：」 JSON物件，這些物件會透過CDN載入到客戶裝置上。而且，由於裝置上的決策功能會以原生方式與[!DNL Adobe Experience Cloud]產品連接，[!DNL Target]使用者可獲得快速分析和更快速的體驗互動。<br>如需詳細資訊，請參閱*[裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
-
-此發行包含下列增強功能、修正和變更：
-
-* 修正[!UICONTROL 平均提升度信賴區間]和[!UICONTROL 信賴區間]無法顯示在[!UICONTROL 總計]列之[!DNL Auto-Target]報表中的問題。 所有個別體驗的度量都會正確顯示。 (TGT-37301)
-* 修正從9月15日下午2:30開始影響[!DNL Adobe Target Premium]使用者[!UICONTROL  Auto-Target]報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換度量的報表時（使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按mbox]」選項設定），轉換率報告不正確。 目前沒有已知的傳送問題。 有關如何重新同步和更正報告的資訊，請參閱&#x200B;**&lt;已解決問題&#x200B;**&#x200B;中的[自動目標報告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
-* 在[!UICONTROL 目錄搜尋]表格中新增可選[!UICONTROL 上次更新日期]欄，以及[!UICONTROL 上次更新日期]篩選。 此增強功能可節省時間和精力，因為您不需要開啟每個個別項目來查看上次更新的時間，而且您可以依上次更新項目的日期進行篩選。
-
-   ![「上次更新於」欄和篩選器圖示](/help/r-release-notes/assets/column-and-filter.png)
-
-* 已進行更新，以協助Target UI符合[Web內容協助工具准則](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A和AA Success Criteria(WCAG 2.0 AA)。 (TGT-34384 和 TGT-24679)
-* 對內容安全性政策(CSP)做了改進。 (TGT-37035)
-* 引入一種方式，指定用戶端程式碼為使用CNAME的客戶的參數。 (TNT-38571)
-* [!DNL Adobe Experience Cloud] 文檔正在移至 [!DNL Experience League]。在10月期間，所有發行說明、文章、影片和教學課程都將從目前位於`docs.adobe.com`的位置移至[!DNL Experience League]。 此舉可確保從單一位置提供所有學習、自助、啟用和社群內容。 發生此變更時，您不需要執行任何動作，因為所有連結都會重新導向至[!DNL Experience League]。 當切換開始時，我們會更新版本注意事項。
 
 ## 其他發行說明和版本詳細資訊
 
