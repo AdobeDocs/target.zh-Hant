@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: 有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制(選件大小、對象、設定檔、值、參數等) 的資訊。
 title: 限制
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 76cdf65fcfe89a149c9dccd725328d22d4f74363
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1035'
+ht-degree: 71%
 
 ---
 
 
-# 限制{#limits}
+# 限制
 
-有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制(選件大小、對象、設定檔、值、參數等) 的資訊。
+有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制[!DNL Adobe Target] 中會影響活動和其他元素之字元限制與其他限制 (選件大小、對象、設定檔、值、參數等) 的資訊。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >接近或超過指定為「建議」的限制時，效能可能會下降。介面載入時間緩慢，也可能是由複雜的活動造成，例如一個活動中有許多對象、目標和體驗。
 >
->複雜度高的活動應由 Adobe 諮詢服務審閱過，並先在有限制的環境中測試過，再正式上線。
+>高度複雜的活動應先與[!DNL Adobe]咨詢部門一起審查，並在有限的環境中進行測試，然後才能發佈到生產環境。
 
 ## 活動
 
