@@ -6,8 +6,8 @@ feature: known issues
 translation-type: tm+mt
 source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4337'
+ht-degree: 69%
 
 ---
 
