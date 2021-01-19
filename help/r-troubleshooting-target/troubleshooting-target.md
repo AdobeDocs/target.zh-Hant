@@ -2,9 +2,9 @@
 keywords: troubleshoot target;troubleshooting target
 description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
 title: 疑難排解Adobe Target
-feature: troubleshooting general
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# 疑難排解 Target{#troubleshoot-target}
+# 疑難排解 Target
 
 可協助您解決 [!DNL Adobe Target] 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
 
