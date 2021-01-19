@@ -4,10 +4,10 @@ description: 舊版Adobe Target的發行說明，包括Target Standard/Premium�
 title: 舊版版本說明
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '29814'
-ht-degree: 86%
+source-wordcount: '30243'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,37 @@ ht-degree: 86%
 >
 >請參閱 [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
+## 發行說明- 2021
+
+### at.js 2.4.0（2021年1月14日）
+
+此版本的at.js是維護髮行，包含下列修正：
+
+* 新增對傳送API customerId的統一設定檔／平台ID支援。
+* 修正無效樣式標籤插入。
+
 ## 發行說明- 2020
+
+### Target Standard/Premium 20.10.1 (2020 年 10 月 27 日)
+
+此版本包含下列新功能：
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| [裝置上決策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度與效能攸關——在客戶見解與使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗定位(XT)活動類型中的關鍵個人化和實驗指示編譯為「最佳化工件：」 JSON物件，這些物件會透過CDN載入到客戶裝置上。而且，由於裝置上的決策功能會以原生方式與[!DNL Adobe Experience Cloud]產品連接，[!DNL Target]使用者可獲得快速分析和更快速的體驗互動。<br>如需詳細資訊，請參閱*[裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
+
+此發行包含下列增強功能、修正和變更：
+
+* 修正[!UICONTROL 平均提升度信賴區間]和[!UICONTROL 信賴區間]無法顯示在[!UICONTROL 總計]列之[!DNL Auto-Target]報表中的問題。 所有個別體驗的度量都會正確顯示。 (TGT-37301)
+* 修正從9月15日下午2:30開始影響[!DNL Adobe Target Premium]使用者[!UICONTROL  Auto-Target]報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換度量的報表時（使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按mbox]」選項設定），轉換率報告不正確。 目前沒有已知的傳送問題。 有關如何重新同步和更正報告的資訊，請參閱&#x200B;**&lt;已解決問題&#x200B;**&#x200B;中的[自動目標報告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
+* 在[!UICONTROL 目錄搜尋]表格中新增可選[!UICONTROL 上次更新日期]欄，以及[!UICONTROL 上次更新日期]篩選。 此增強功能可節省時間和精力，因為您不需要開啟每個個別項目來查看上次更新的時間，而且您可以依上次更新項目的日期進行篩選。
+
+   ![「上次更新於」欄和篩選器圖示](/help/r-release-notes/assets/column-and-filter.png)
+
+* 已進行更新，以協助Target UI符合[Web內容協助工具准則](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A和AA Success Criteria(WCAG 2.0 AA)。 (TGT-34384 和 TGT-24679)
+* 對內容安全性政策(CSP)做了改進。 (TGT-37035)
+* 引入一種方式，指定用戶端程式碼為使用CNAME的客戶的參數。 (TNT-38571)
+* [!DNL Adobe Experience Cloud] 文檔正在移至 [!DNL Experience League]。在10月期間，所有發行說明、文章、影片和教學課程都將從目前位於`docs.adobe.com`的位置移至[!DNL Experience League]。 此舉可確保從單一位置提供所有學習、自助、啟用和社群內容。 發生此變更時，您不需要執行任何動作，因為所有連結都會重新導向至[!DNL Experience League]。 當切換開始時，我們會更新版本注意事項。
 
 ### Target Standard/Premium 20.9.1 (2020 年 9 月 30 日)
 
