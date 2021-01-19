@@ -4,10 +4,10 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '3292'
-ht-degree: 28%
+source-wordcount: '3387'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,15 @@ ht-degree: 28%
 # 文件變更{#documentation-changes}
 
 本頁列出對[!DNL Adobe Target]產品文檔所做的重要更改。
+
+## Adobe Target Standard/Premium 21.1.1 (2021 年 1 月 19 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 19 年 1 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增Target 21.1.1版的相關資訊（2021年1月19日）。 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已更新`productPurchasedID`參數的文字。 |
+|  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增在複製具有作用中促銷的[!UICONTROL Recommendation]活動時的已知問題。 複製活動中的任何更改也會影響原始活動，反之亦然。 此外還包含暫時的因應措施。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 21.1.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 20.10.1 (2020 年 10 月 28 日)
 
