@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
 translation-type: tm+mt
-source-git-commit: fb6edb18e19faf6e1aab0878d0e9a6e0d5a0703a
+source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,42 +88,43 @@ ht-degree: 85%
       + [CNAME 與 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + 用戶端 Web: 實作 Target {#client-side}
       + [概覽: 為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + at.js 如何運作 {#at-js}
-         + [at.js 運作方式概覽](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-         + [At.js 處理忽隱忽現情況的方式](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
-         + [at.js 整合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
-      + 如何部署 at.js {#deploy-at-js}
-         + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-         + [使用 Adobe Launch 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-         + [不使用標籤管理程式實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-         + [使用 Dynamic Tag Management (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-         + [實作單頁應用程式](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-      + at.js 函數 {#functions-overview}
-         + [at.js 函數概覽](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-         + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-         + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-         + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-         + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-         + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-         + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-         + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
-         + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
-         + [mboxDefine() 和 mboxUpdate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
-         + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
-         + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
-         + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
-         + [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
-         + [使用 Adobe Experience Cloud Debugger 除錯 at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-         + [使用雲端型例項搭配 Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
-      + at.js 常見問題集 {#faq-at-js}
-         + [at.js 常見問題集](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-         + [全域 mbox 常見問題](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
-      + [at.js 版本詳細資料](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-      + [從 at.js 1.x 升級為 at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
-      + [at.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + mbox.js 實作 {#mbox-implement}
+      + Adobe Experience Platform Web SDK實作{#aep-implementation}
+         + [AEP Web SDK總覽](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + at.js實作{#at-js-implementation}
+         + at.js 如何運作 {#at-js}
+            + [at.js 運作方式概覽](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+            + [At.js 處理忽隱忽現情況的方式](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
+            + [at.js 整合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
+         + 如何部署 at.js {#deploy-at-js}
+            + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
+            + [使用 Adobe Launch 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [不使用標籤管理程式實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+            + [使用 Dynamic Tag Management (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [實作單頁應用程式](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+         + at.js 函數 {#functions-overview}
+            + [at.js 函數概覽](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
+            + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+            + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+            + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+            + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+            + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+            + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+            + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+            + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
+            + [mboxDefine() 和 mboxUpdate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
+            + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
+            + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
+            + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
+            + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+            + [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
+            + [使用 Adobe Experience Cloud Debugger 除錯 at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+            + [使用雲端型例項搭配 Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+         + at.js 常見問題集 {#faq-at-js}
+            + [at.js 常見問題集](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
+         + [at.js 版本詳細資料](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+         + [從 at.js 1.x 升級為 at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+         + [at.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+      + mbox.js實作（舊版）{#mbox-implement}
          + [mbox.js 實作概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + 從 mbox.js 移轉至 at.js {#migrate-mbox}
             + [從 mbox.js 移轉至 at.js 概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
@@ -140,11 +141,12 @@ ht-degree: 85%
          + [mbox.js 函數](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
          + [mbox.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js 版本詳細資料](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
-         + 瞭解全域 mbox {#global-mbox}
-            + [瞭解全域mbox概觀](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-            + [自訂全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-            + [使用來自舊版實作的全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-            + [傳遞參數至全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+      + 瞭解全域 mbox {#global-mbox}
+         + [瞭解全域mbox概觀](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [自訂全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
+         + [使用來自舊版實作的全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [傳遞參數至全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [全域 mbox 常見問題](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + 適用於行動應用程式的 Target {#mobile-apps}
       + [適用於行動應用程式的 Target 概覽](c-target-mobile-app/target-mobile-app.md)
       + [Target 在行動應用程式中如何運作](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
