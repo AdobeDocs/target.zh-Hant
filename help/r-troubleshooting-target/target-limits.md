@@ -4,10 +4,10 @@ description: 有關 Adobe Target 中會影響活動和其他元素之字元限�
 title: 限制
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 76cdf65fcfe89a149c9dccd725328d22d4f74363
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -194,9 +194,7 @@ ht-degree: 76%
 
 ## productPurchasedId 參數
 
-**上限**: 每個逗號分隔值最多 47 個字元。
-
-系統會截斷超出的部分。
+**限制**:每個逗號分隔值47個字元，總共250個字元。超過47個字元的個別值可能會被系統截斷。 超過250個字元的總長度可能會導致400錯誤。
 
 ## 設定檔指令碼
 
