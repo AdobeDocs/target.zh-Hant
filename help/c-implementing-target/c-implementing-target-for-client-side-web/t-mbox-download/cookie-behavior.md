@@ -4,10 +4,10 @@ description: Cookie 的行為取決於其屬於第一方 Cookie、具有第一�
 title: mbox.js Cookie
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 99%
+source-wordcount: '1638'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 99%
 Cookie 的行為取決於其屬於第一方 Cookie、具有第一方 Cookie 的第三方 Cookie，或是獨立的第三方 Cookie。
 
 >[!IMPORTANT]
+>
+>**mbox.js生命週期結束**:自2021年3月31日起， [!DNL Adobe Target] 將不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。
+>
+>我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
+
+>[!NOTE]
 >
 >本主題包含 `mboxSession` 和 `mboxPC` 的相關資訊。我們的實作最佳實務建議您不要使用 Cookie 資料連結或儲存任何敏感資訊: `mboxSession` 或 `mboxPC`。
 
