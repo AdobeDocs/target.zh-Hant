@@ -4,10 +4,10 @@ description: 使用 mbox.js 實作時要使用的 mbox.js 函數的清單。
 title: mbox.js 函數
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 58%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 100%
 # mbox.js 函數{#mbox-js-functions}
 
 使用 mbox.js 實作時要使用的 mbox.js 函數的清單。
+
+>[!IMPORTANT]
+>
+>**mbox.js生命週期結束**:自2021年3月31日起， [!DNL Adobe Target] 將不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。
+>
+>我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 >[!NOTE]
 >
