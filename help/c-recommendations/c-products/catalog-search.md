@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: Adobe Target 中的目錄搜尋可協助您在目錄中尋找產品或內容。
-title: Adobe Target 中的目錄搜尋
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: 瞭解如何使用Recommendations目錄搜尋來尋找產品或內容、建立系列或排除、從目錄移除項目等。
+title: 如何使用Recommendations目錄搜尋
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 目錄搜尋{#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalog搜尋
 
-[!UICONTROL 目錄搜尋]頁面可協助您在目錄中找到產品或內容。
+[!DNL Adobe Recommendations]中的[!UICONTROL 目錄搜尋]頁面可協助您找出目錄中的產品或內容。 您在此頁面上可執行的最基本工作是搜尋項目。 此外，您還可以變更環境、將搜尋結果儲存至系列或排除、新增篩選Facet，以及修改表格中的欄、新增搜尋Facet等。
 
-目錄是指您的整個產品集（實體）。 您的型錄可包含許多系列——以邏輯區間組織產品的方式。
+目錄是指您的整個產品集（實體）。 您的目錄可包含許多系列，這是在邏輯區間中組織產品的方式。
+
+## 存取目錄搜尋
 
 若要存取[!UICONTROL 目錄搜尋]頁面，請按一下&#x200B;**[!UICONTROL 建議]** > **[!UICONTROL 目錄搜尋]**。
 
 ![「目錄搜索」頁](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-您在此頁面上可執行的最基本工作是搜尋項目。 此外，還可以改變環境；將搜尋結果儲存至系列或排除；新增、移除或重新排清單格中的欄，並將新的搜尋Facet新增至[!UICONTROL Filters]面板。
 
 ## 搜尋項目
 
@@ -61,7 +61,7 @@ ht-degree: 20%
    >
    >當您對具有數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
    >
-   >目前，沒有可讓客戶變更屬性類型的功能。 要進行更改，請[開啟一個客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，該問題引用需要將類型從字串更改為數字的屬性。
+   >目前，沒有可讓您變更屬性類型的功能。 要進行更改，請[開啟一個客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，該問題引用需要將類型從字串更改為數字的屬性。
 
 1. 您也可以使用篩選器來尋找所需的產品。 在下列範例中，展開[!UICONTROL Collections]面並選取「Bike Tools」，目錄中會顯示所有腳踏車工具。
 
@@ -153,7 +153,7 @@ ht-degree: 20%
 
    ![修改篩選器連結](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 選取所要的搜尋Facet（ID、名稱、訊息等）。
+1. 選擇所要的搜尋刻面（ID、名稱、訊息等），然後按一下「儲存」。****
 
    ![新增篩選條件](/help/c-recommendations/c-products/assets/add-filters.png)
 
