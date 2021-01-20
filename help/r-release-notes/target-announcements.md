@@ -4,9 +4,9 @@ description: 近期活動的相關資訊，包括Adobe Target Skill Builder研�
 title: Target公告
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,6 @@ Adobe Target最近被Forrester和Gartner評為市場領導者。
 | --- | --- |
 | Forrester | **Adobe在Forrester Wave中獲評為體驗最佳化平台的領導者。**<br> Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其在此領域的產品Adobe Target Premium。Adobe在目前的產品和市場狀況類別，以及建議和平台體驗標準中，獲得所有參與廠商的最高分。 在體驗最佳化技術創新及支援服務標準方面，Target Premium也獲得最高分。 此報告以對10家體驗最佳化平台提供者進行全面評估為基礎，涵蓋22個標準。<br>在 [Adobe Blog上閱讀相關資訊](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
 | Gartner | **Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者。**<br>&#x200B;在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。<br>[在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
-
-## Adobe Target社群問答咖啡休息
-
-* **1月13日星期三**
-* **上午8點PT |上午10點CT | 11 a.m. ET**
-* **持續時間：60分鐘**
-* **[按一下這裡以取得詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
-
-Adobe Target的資深產品經理Robert Calangiu將會與我們一起參與，他將在這裡登入Adobe Target社群，直接就此主題與您討論您有關Adobe Target專業領域的問題：
-
-* 目標設定和管理員UI
-* A4T整合
-* AEM整合
-* 一般Adobe Target UI
-* 在[註冊此事件時，您所包含問題的回應](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/)（但是可選）
 
 ## 網路研討會：大規模個人化成功案例：Forrester Wave的主要調查結果，體驗最佳化平台
 
