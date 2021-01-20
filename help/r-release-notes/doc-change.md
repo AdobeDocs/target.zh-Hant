@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3395'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 20 年 1 月 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新主題。 |
 | 19 年 1 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增Target 21.1.1版的相關資訊（2021年1月19日）。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已更新`productPurchasedID`參數的文字。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增在複製具有作用中促銷的[!UICONTROL Recommendation]活動時的已知問題。 複製活動中的任何更改也會影響原始活動，反之亦然。 此外還包含暫時的因應措施。 |
