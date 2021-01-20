@@ -4,10 +4,10 @@ description: 可協助您在 mbox.js「設定」頁面上設定數個設定的�
 title: 設定 mbox.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 91%
+source-wordcount: '402'
+ht-degree: 74%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 91%
 # 設定 mbox.js
 
 可協助您在 mbox.js「設定」頁面上設定數個設定的資訊。
+
+>[!IMPORTANT]
+>
+>**mbox.js生命週期結束**:自2021年3月31日起， [!DNL Adobe Target] 將不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。
+>
+>我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 [!DNL mbox.js] 函數程式庫的預設設定可為大部分的 [!DNL Target] 客戶提供需求。
 
