@@ -4,10 +4,10 @@ description: 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T)
 title: 疑難排解 Analytics 和 Target 整合 (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,13 +32,27 @@ ht-degree: 80%
 
    [請聯絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得協助。
 
+如果您依「Analytics for Target」維度劃分「未指定」列，且它不包含活動ID，表示所有項目皆已正確分類。  如果活動ID列在此處，則會作為分類問題的指示。
+
 >[!NOTE]
 >
 >資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。請記住，若要在第一次儲存後分類報表，通常需要 24 到 72 小時的時間。
 >
 >列為「未指定」時不會遺失任何資料。分類執行之後，資料會適當地指派給適當的活動。
 
-## 我的 Analytics資料顯示自啟動 A4T 以來抬高的造訪或訪客計數。  {#section_4BE374E573D44FB7918611699B74F58E}
+
+## A4T活動報表包含一列含有大量「未指定」事件。{#added_unspecified_events}
+
+報表中可能會顯示「未指定」事件列，這取決於您用來顯示資料的量度。
+
+通常，如果您在報表中選擇非特定目標的公用度量（例如頁面檢視、瀏覽、獨特訪客等），就會顯示此列。
+在此情況下，「未指定」列將包含所有與Target活動無關的頁面檢視、瀏覽和獨特訪客。
+該列不會有任何與Target相關的資訊（例如，沒有訪客、瀏覽或印象）。 如需詳細資訊，請參閱*Analytics技術說明*&#x200B;中報告](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)中的[「未指定」、「無」、「其他」和「未知」。
+
+如果您在報表中選擇特定於Target的量度，則不會顯示「未指定」列。
+唯一可避免在報表中完全包含此變數的方法，是針對從該頁面傳送的每個請求設定Target呼叫，這並非常常見或必要。
+
+## 我的 Analytics資料顯示自啟動 A4T 以來抬高的造訪或訪客計數。{#section_4BE374E573D44FB7918611699B74F58E}
 
 如需詳細資訊，請參閱[在 A4T 中將膨脹後造訪和訪客計數最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
