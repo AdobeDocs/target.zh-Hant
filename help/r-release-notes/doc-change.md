@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3442'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 21 年 1 月 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 新增區段：&quot;A4T活動報表包含一列含有大量「未指定」事件。&quot; |
+|  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新下列章節：「為何在Analytics報表中看到「未指定」? 這是什麼意思?&quot; |
 | 20 年 1 月 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新主題。 |
 | 19 年 1 月 | [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增Target 21.1.1版的相關資訊（2021年1月19日）。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 已更新`productPurchasedID`參數的文字。 |
