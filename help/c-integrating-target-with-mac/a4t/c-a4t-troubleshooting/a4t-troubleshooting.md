@@ -4,7 +4,7 @@ description: 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T)
 title: 疑難排解 Analytics 和 Target 整合 (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
+source-git-commit: aeb18e5e27e821769e22e1fb4c36d2abb46c2950
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 71%
@@ -40,12 +40,11 @@ ht-degree: 71%
 
 ## A4T活動報表包含一列含有大量「未指定」事件。{#added_unspecified_events}
 
-根據您用來顯示資料的量度，一律會顯示未指定的事件列。\
-如果您使用僅限Target的量度，將不會顯示該「未指定」列。
-如果您使用較常見的量度，該列將會再次出現在報表中。
+根據您用來顯示資料的量度，一律會顯示未指定的事件列。
 
-該「未指定」行項目不會有任何與Target相關的資訊（例如，沒有訪客／瀏覽／印象）。\
-唯一避免在報表中出現此變數的方法，是絕對針對從該頁面傳送的每個請求設定Target，這沒有意義。
+如果您使用僅限Target的量度，將不會顯示該「未指定」列。 如果您使用較常見的量度，該列將會再次出現在報表中。
+
+該「未指定」行項目不會有任何與Target相關的資訊（例如，沒有訪客／瀏覽／印象）。 唯一避免在報表中出現此變數的方法，是絕對針對從該頁面傳送的每個請求設定Target，這沒有意義。
 
 ## 我的 Analytics資料顯示自啟動 A4T 以來抬高的造訪或訪客計數。{#section_4BE374E573D44FB7918611699B74F58E}
 
