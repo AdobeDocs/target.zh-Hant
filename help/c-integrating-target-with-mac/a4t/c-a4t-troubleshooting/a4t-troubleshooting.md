@@ -4,15 +4,15 @@ description: 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T)
 title: 疑難排解 Analytics 和 Target 整合 (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 63%
 
 ---
 
 
-# 疑難排解 Analytics 和 Target 整合 (A4T){#troubleshoot-the-analytics-and-target-integration-a-t}
+# 疑難排解 Analytics 和 Target 整合 (A4T)
 
 此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T) 時遇到的一些常見問題。
 
@@ -40,17 +40,15 @@ ht-degree: 63%
 >
 >列為「未指定」時不會遺失任何資料。分類執行之後，資料會適當地指派給適當的活動。
 
-
 ## A4T活動報表包含一列含有大量「未指定」事件。{#added_unspecified_events}
 
-報表中可能會顯示「未指定」事件列，這取決於您用來顯示資料的量度。
+報表中可能會顯示「[!UICONTROL Unspecified]」事件列，這取決於您用來顯示資料的量度。
 
-通常，如果您在報表中選擇非特定目標的公用度量（例如頁面檢視、瀏覽、獨特訪客等），就會顯示此列。
-在此情況下，「未指定」列將包含所有與Target活動無關的頁面檢視、瀏覽和獨特訪客。
-該列不會有任何與Target相關的資訊（例如，沒有訪客、瀏覽或印象）。 如需詳細資訊，請參閱*Analytics技術說明*&#x200B;中報告](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)中的[「未指定」、「無」、「其他」和「未知」。
+通常，如果您在報表中選擇非[!DNL Target]特定的公用度量（例如[!UICONTROL 頁面檢視]、[!UICONTROL 瀏覽]、[!UICONTROL 獨特訪客]等），就會顯示此列。 在此例中，[!UICONTROL &quot;Unspecified&quot;]列包含與[!DNL Target]活動無關的所有[!UICONTROL 頁面檢視]、[!UICONTROL 瀏覽]和[!UICONTROL 獨特訪客]。
 
-如果您在報表中選擇特定於Target的量度，則不會顯示「未指定」列。
-唯一可避免在報表中完全包含此變數的方法，是針對從該頁面傳送的每個請求設定Target呼叫，這並非常常見或必要。
+該列沒有任何[!DNL Target]相關資訊（例如，沒有訪客、瀏覽或印象）。 如需詳細資訊，請參閱&#x200B;*Analytics技術說明*&#x200B;中報告](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)中的[「未指定」、「無」、「其他」和「未知」。
+
+如果您在報表中選擇[!DNL Target]特定度量，則不會顯示[!UICONTROL &quot;Unspecified&quot;]列。 唯一避免在報表中加入此變數的方法，是針對從該頁面傳送的每個請求設定[!DNL Target]呼叫，這並非常常見或必要。
 
 ## 我的 Analytics資料顯示自啟動 A4T 以來抬高的造訪或訪客計數。{#section_4BE374E573D44FB7918611699B74F58E}
 
