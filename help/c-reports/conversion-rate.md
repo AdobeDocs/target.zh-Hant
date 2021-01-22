@@ -4,9 +4,9 @@ description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精�
 title: 轉換率
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 >
 >計數通常是由 Cookie 和作業活動所決定。不過，若您達到活動的最終轉換點，然後重新進入活動，則會將您視為該活動的新加入者和新的造訪。即使您的 PCID 和 `sessionID` 值未變更，亦會採取此處理方式。
 
-## Target為何使用學生的t-tests?{#t-test}
+## 為什麼Target建議使用學生的t-tests?{#t-test}
 
 A/B測試是比較控制變數中某些業務量度（也稱為體驗）的平均值與一個或多個替代體驗中該量度的平均值的實驗。
 
