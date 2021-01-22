@@ -4,7 +4,7 @@ description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精�
 title: 轉換率
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 72%
@@ -208,4 +208,4 @@ A/B測試是比較控制變數中某些業務量度（也稱為體驗）的平�
 
 **Mann-Whitney U測試**&#x200B;是非參數測試，適用於平均業務量度（對於每個變體）的抽樣分佈不正常時。 但是，如前所述，線上測試涉及的流量大小，中心極限定理通常適用，因此t-test可以安全地應用。
 
-當測試有兩個以上的體驗時（「A/Bn測試」），可套用更複雜的方法，例如&#x200B;**ANOVA**（將t測試歸納為兩個以上的變體）。 但是，ANOVA回答的問題是「所有變體是否具有相同的平均值」，而在典型的A/Bn測試中，我們更感興趣的是哪個特定變體&#x200B;_最好。_&#x200B;因此，在[!DNL Target]中，我們會套用常規t-test，比較每個變體與控制項，並使用Bonferroni修正來計算多個比較。
+當測試有兩個以上的體驗時（「A/Bn測試」），可套用更複雜的方法，例如&#x200B;**ANOVA**（將t測試歸納為兩個以上的變體）。 但是，ANOVA回答的問題是「所有變體是否具有相同的平均值」，而在典型的A/Bn測試中，我們更感興趣的是&#x200B;_哪個特定變體_&#x200B;最好。 因此，在[!DNL Target]中，我們會套用常規t-test，比較每個變體與控制項，並使用Bonferroni修正來計算多個比較。
