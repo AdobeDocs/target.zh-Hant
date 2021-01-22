@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '3454'
+source-wordcount: '3455'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 22 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md#t-test) | 已新增下列章節：「Target為何使用學生t-tests?」 |
+| 22 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md#t-test) | 已新增下列章節：「Target為何建議使用學生t-tests?」 |
 | 21 年 1 月 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 新增區段：&quot;A4T活動報表包含一列含有大量「未指定」事件。&quot; |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新下列章節：「為何在Analytics報表中看到「未指定」? 這是什麼意思?&quot; |
 | 20 年 1 月 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新主題。 |
