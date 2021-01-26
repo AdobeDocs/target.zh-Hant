@@ -4,7 +4,7 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 350d401accc7e7d937185c9a65d01a3f5266271e
+source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 29%
@@ -20,7 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 26 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md#t-test) | 已釐清Target在學生t測驗中如何使用「平方和」。 |
+| 26 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md) | 已釐清Target在學生t測驗中如何使用「平方和」。 |
 | 22 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md#t-test) | 已新增下列章節：「Target為何建議使用學生t-tests?」 |
 | 21 年 1 月 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 新增區段：&quot;A4T活動報表包含一列含有大量「未指定」事件。&quot; |
 |  | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新下列章節：「為何在Analytics報表中看到「未指定」? 這是什麼意思?&quot; |
