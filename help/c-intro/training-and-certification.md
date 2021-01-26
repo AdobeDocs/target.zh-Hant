@@ -2,9 +2,9 @@
 keywords: training;certification;target;online courses;courses;class;classes
 description: Adobe訓練服務提供Adobe產品和解決方案（包括Adobe Target）的課程與認證。
 title: Adobe產品與解決方案（包括Adobe Target）的訓練與認證
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 48%
