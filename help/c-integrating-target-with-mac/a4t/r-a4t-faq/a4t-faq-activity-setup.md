@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: 此主題包含經常詢問關於活動設定和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 title: 活動設定 - A4T 常見問題集
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 36%
@@ -22,7 +22,7 @@ ht-degree: 36%
 
 ## 在設定目標量度時，我為何無法存取進階設定？
 
-對於使用[!DNL Analytics]作為報告來源(A4T)的活動，目標量度一律會使用「[!UICONTROL 在活動中增加計數並保留使用者」和「每次曝光時]」設定。 這是&#x200B;*not*&#x200B;可配置的。
+對於使用[!DNL Analytics]作為報告來源(A4T)的活動，目標量度一律會使用「[!UICONTROL 在活動中增加計數並保留使用者」和「每次曝光時]」設定。 ][!UICONTROL 這是&#x200B;*not*&#x200B;可配置的。
 
 如需詳細資訊，請參閱「設定目標量度時，我為何無法存取進階設定選項？」 在[量度定義- A4T常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)中。
 
