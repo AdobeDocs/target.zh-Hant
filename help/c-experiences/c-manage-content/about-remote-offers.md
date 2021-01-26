@@ -4,9 +4,9 @@ description: 我可以使用遠端選件來代管外部內容嗎？
 title: 建立遠端選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 59%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 59%
 
 以下資訊可協助您瞭解兩個選項之間的差異：
 
-### 快取的URL類型
+### 快取的URL
 
 快取遠端選件的內容由 [!DNL Target] 提供。
 
@@ -92,7 +92,7 @@ ht-degree: 59%
 
 您可以為快取遠端選件指定絕對或相對 URL。
 
-### 動態URL類型
+### 動態URL
 
 動態遠端選件由內容管理或其他系統提供，而非由 [!DNL Target] 提供。
 
