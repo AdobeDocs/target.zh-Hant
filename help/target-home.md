@@ -5,7 +5,7 @@ description: 檢視Target指南的首頁。
 seo-description: Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 350d401accc7e7d937185c9a65d01a3f5266271e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 62%
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2021年1月22日(請 [參閱變更內容](r-release-notes/doc-change.md) )**
+**上次更新日期：2021年1月26日(請 [參閱變更內容](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
