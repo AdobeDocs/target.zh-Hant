@@ -2,9 +2,9 @@
 keywords: target user interface;user interface;ui
 description: 瞭解Adobe Target使用者介面
 title: 瞭解Target UI
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -84,7 +84,7 @@ ht-degree: 28%
 
 體驗可以是選件、影像、文字、按鈕、影片或將這些不同元素加以組合，放在頁面、整個網頁或一組頁面上，可能會形成購買漏斗或一些其他的頁面邏輯順序。也可以是語音助理的回應、客戶服務指令碼，或甚至是飲料機的個人化口味。您可以在 [!DNL Target] 活動中測試或個人化體驗。
 
-如需[選件](/help/c-experiences/c-manage-content/manage-content.md)中選件類型的深入資訊，請參閱[!DNL Target]選件&lt;a1/>，並進一步瞭解[!UICONTROL 選件]清單的使用者介面。
+如需[選件](/help/c-experiences/c-manage-content/manage-content.md)中選件類型的深入資訊，請參閱[!DNL Target]選件，並進一步瞭解[!UICONTROL 選件]清單的使用者介面。
 
 ## Recommendations
 
