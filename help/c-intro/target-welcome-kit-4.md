@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target歡迎套件——第4章——使用Target的秘訣
 title: Adobe Target歡迎套件——第4章——使用Target的秘訣
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -80,9 +80,9 @@ ht-degree: 0%
 
 使用「體驗版本」，您可以針對您想要的受眾，執行一項包含各種變數的測試。 例如，您可以建立提供免運費的橫幅廣告，包括美國、英國和歐盟客戶的影像和貨幣變化，而不需針對三個不同的受眾執行測試。
 
-如需逐步指示，請參閱Adobe Target中的[A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和[體驗版本中的&lt;a0/>多個體驗對象。](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)
+如需逐步指示，請參閱Adobe Target中的[A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和[體驗版本中的](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)多個體驗對象。
 
-## 提示8:在類似頁面上複製活動體驗以節省時間。
+## 提示8:在類似頁面上複製活動體驗，以節省時間。
 
 在單一網頁上建立變數（例如新的按鈕顏色），並自動套用至共用相同範本的所有頁面。 您可以指定頁面，或將變數套用至網站上所有類似的頁面。
 
