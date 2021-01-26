@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
 description: 此主題包含經常詢問關於佈建 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 title: 初始佈建 - A4T 常見問題集
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
