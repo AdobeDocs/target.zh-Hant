@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
 description: 此主題包含經常詢問關於量度定義和使用 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
 title: 量度定義 - A4T 常見問題集
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 65%
@@ -24,7 +24,7 @@ ht-degree: 65%
 
 [!UICONTROL 進階設定]選項不適用於使用[!DNL Analytics]作為報告來源(A4T)的活動。
 
-對於使用A4T的活動，目標量度一律會使用「[!UICONTROL 活動中增量計數與保留使用者」和「每次曝光時]」設定。 這是&#x200B;*not*&#x200B;可配置的。
+對於使用A4T的活動，目標量度一律會使用「[!UICONTROL 活動中增量計數與保留使用者」和「每次曝光時]」設定。 ][!UICONTROL 這是&#x200B;*not*&#x200B;可配置的。
 
 對於非A4T活動，您可使用[進階設定選項](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)來管理測量成功的方式。 選項包括新增相依性、選擇是否讓使用者留在活動中或移除它們，以及是否對每個參與者或每個曝光計算一次量度。 通過按一下垂直橢圓狀圖> [!UICONTROL 高級設定]來訪問非A4T活動中的[!UICONTROL 高級設定]選項，如下所示：
 
