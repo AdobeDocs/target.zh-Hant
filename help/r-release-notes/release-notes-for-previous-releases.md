@@ -4,10 +4,10 @@ description: 舊版Adobe Target的發行說明，包括Target Standard/Premium�
 title: 舊版版本說明
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
 workflow-type: tm+mt
-source-wordcount: '30243'
-ht-degree: 85%
+source-wordcount: '30548'
+ht-degree: 84%
 
 ---
 
@@ -23,6 +23,24 @@ ht-degree: 85%
 >請參閱 [Target 版本說明 (最新)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明- 2021
+
+### Target Standard/Premium 21.1.1 (2021 年 1 月 19 日)
+
+此維護髮行包含下列增強功能、修正和變更。
+
+括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+* 在[!UICONTROL Auto-Target]活動中使用[!UICONTROL Analytics作為報告來源](A4T)時，新增在選取[!DNL Adobe Analytics]度量時的警告。 [!UICONTROL 自動定位] 模型已最佳化，可搭配二進位（轉換型）量度運作。選擇連續度量（例如收入）可能會有次優結果，而[!UICONTROL 個人化洞察]報表可能不準確。 (TGT-38926)
+* 在[!UICONTROL Auto-Target Summary]報表中為使用A4T的[!UICONTROL Auto-Target]活動新增狀態圖示。 在報表中，每個體驗旁的綠色勾號圖示表示已為該體驗產生個人化機器學習模型。時鐘圖示表示提供的流量還不足以建立模型。(TGT-38925)
+* 產生使用A4T和[!DNL Analytics]轉換度量的[!UICONTROL 自動化區段]和[!UICONTROL 重要屬性]活動的[!UICONTROL 自動目標]報表，其外觀與使用[!DNL Target]作為報表來源時相同。 (TGT-38931)
+* 在[!UICONTROL Recommendations] [!UICONTROL Collections]清單中新增環境篩選選項。 (TGT-38353)
+* 修正在[!UICONTROL Recommendations]系列中顯示錯誤產品計數的問題。 (TGT-39162)
+* 新增[!UICONTROL 上次更新]篩選至[!UICONTROL Recommendations] [!UICONTROL 目錄搜尋]。 (TGT-38340)
+* 修正[!UICONTROL Recommendations]中，在變更產業垂直後造成[!UICONTROL 建立序列]頁面擱置的問題。 (TGT-38160)
+* 修正啟用Device Co-op且使用者從[!DNL Target]作為報告來源變更為[!DNL Analytics](A4T)時，無法儲存活動的問題。 (TGT-38163)
+* 修正使用者無法從[!UICONTROL 自動個人化](AP)活動中的選件中移除對象的問題。 (TGT-39058)
+* 修正部分客戶的「對象資訊」卡顯示錯誤時段（開始和結束日期）的問題。 (TGT-39150)
+* 修正某些客戶無法在[!UICONTROL 預設工作區]中看到活動清單的問題。 (TGT-38526)
 
 ### at.js 2.4.0（2021年1月14日）
 
