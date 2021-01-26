@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於重新導向選件問題的回答。
 title: 重新導向選件 - A4T 常見問題集
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 94%
