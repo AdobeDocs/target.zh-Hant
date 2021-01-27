@@ -4,10 +4,10 @@ description: 我可以使用遠端選件來代管外部內容嗎？
 title: 建立遠端選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 54%
+source-wordcount: '998'
+ht-degree: 51%
 
 ---
 
@@ -29,6 +29,9 @@ ht-degree: 54%
 * 表單
 * 計算器
 * 利率更新
+* 電子郵件
+* 資訊站
+* 語音助理
 
 ## 從「代碼選件」頁面建立遠端選件
 
@@ -103,6 +106,8 @@ ht-degree: 54%
 ## 在活動中使用遠端選件
 
 您必須使用[!UICONTROL 表單型體驗撰寫器]套用遠端選件。 您目前無法使用VEC套用遠端選件。
+
+[!DNL Adobe Target][!UICONTROL 表單型體驗撰寫器]是非視覺化體驗和選件建立介面，對於建立用於[!UICONTROL A/B測試]、[!UICONTROL 體驗定位](XT)、[!UICONTROL 自動個人化](XT)的體驗非常有用AP)和[!UICONTROL Recommendations]活動（當視覺體驗視覺化視覺化調整器無法使用或實際使用時）。 例如，您可以使用[!UICONTROL 表單型體驗撰寫器]來建立使用遠端選件的體驗。
 
 1. 在[!UICONTROL 表單型體驗撰寫器]中建立或編輯活動。
 
