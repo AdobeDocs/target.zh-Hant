@@ -4,10 +4,10 @@ description: 我可以使用遠端選件來代管外部內容嗎？
 title: 建立遠端選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 59%
+source-wordcount: '934'
+ht-degree: 54%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->您可在「選件」>「程式碼選件」頁面或[Forms-Based Experience Composer](/help/c-experiences/form-experience-composer.md)中建立遠端選件。 您無法在Visual Experience Composer(VEC)中建立遠端選件。 內容會插入至[!DNL Target]請求位置，因此這些位置很可能不適用於全域[!DNL Target]請求。
+>您可在[!UICONTROL 選件] > [!UICONTROL 代碼選件]頁面或[表單型體驗撰寫器](/help/c-experiences/form-experience-composer.md)中建立遠端選件。 您無法在Visual Experience Composer(VEC)中建立或套用遠端選件。 內容會插入至[!DNL Target]請求位置，因此這些位置很可能不適用於全域[!DNL Target]請求。
 >
 >[!DNL Target Classic] 包含類似的功能: [!UICONTROL 您網站上的選件]和 [!UICONTROL Test&amp;Target 外部的選件]。
 
@@ -78,11 +78,11 @@ ht-degree: 59%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 重新導向URL類型：快取或動態{#url-type}
+### 重新導向URL類型：快取或動態{#url-type}
 
 以下資訊可協助您瞭解兩個選項之間的差異：
 
-### 快取的URL
+#### 快取的URL
 
 快取遠端選件的內容由 [!DNL Target] 提供。
 
@@ -92,13 +92,31 @@ ht-degree: 59%
 
 您可以為快取遠端選件指定絕對或相對 URL。
 
-### 動態URL
+#### 動態URL
 
 動態遠端選件由內容管理或其他系統提供，而非由 [!DNL Target] 提供。
 
 每當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓 [!DNL Target] 定期快取內容再傳送。您會改為呼叫代管內容的系統，可能會傳入特定資訊，讓傳回的選件對每個使用者都是動態（或不同）的。 例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端選件，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。
 
 您可以按一下「新增參數」，新增一或多個「[!DNL Target]請求」或請求參數。****
+
+## 在活動中使用遠端選件
+
+您必須使用[!UICONTROL 表單型體驗撰寫器]套用遠端選件。 您目前無法使用VEC套用遠端選件。
+
+1. 在[!UICONTROL 表單型體驗撰寫器]中建立或編輯活動。
+
+   如需詳細的逐步指示，請參閱[表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md)。
+
+1. 指定所需位置，並視需要新增任何受眾調整。
+
+1. 按一下&#x200B;**[!UICONTROL Content]**&#x200B;區段中的下拉式清單，然後按一下&#x200B;**[!UICONTROL 變更遠端選件]**。
+
+   ![變更遠端選件選項](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. 從[!UICONTROL 選擇遠端選件]對話方塊中選擇所要的遠端選件，然後按一下&#x200B;**[!UICONTROL 完成]**。
+
+1. 完成活動的設定。
 
 ## 使用遠端選件的最佳範例{#section_7718512D08E14121B6F6B8C38134F4BC}
 
