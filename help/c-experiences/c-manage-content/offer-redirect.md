@@ -4,10 +4,10 @@ description: 我是否可以使用重新導向選件來讓瀏覽器重新導向�
 title: 建立重新導向選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ ht-degree: 48%
 
 1. 完成活動的設定。
 
-## 訓練影片：內容儲存庫(4:56)![概述徽章](/help/assets/overview.png)
+## 訓練影片：表單式撰寫器![教學課程標章](/help/assets/tutorial.png)
 
-此影片包括關於管理內容的資訊。
+此影片提供表單型撰寫器的示範，您可使用它來建立重新導向選件。
 
-* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
-* 自訂 HTML 選件
-* 可視化體驗撰寫器中的自訂 HTML 選件
+* 使用表單式體驗撰寫器建立活動
+* 瞭解使用表單式體驗撰寫器與可視化體驗撰寫器的時機
+* 使用細分來鎖定位置
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
