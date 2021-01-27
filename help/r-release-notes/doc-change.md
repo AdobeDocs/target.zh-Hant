@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3480'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 27 年 1 月 | [建立重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md) | 更新了主題。 |
+|  | [建立遠端選件](/help/c-experiences/c-manage-content/about-remote-offers.md) | 更新了主題。 |
 | 26 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md) | 已釐清Target在學生t測驗中如何使用「平方和」。 |
 | 22 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md#t-test) | 已新增下列章節：「Target為何建議使用學生t-tests?」 |
 | 21 年 1 月 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 新增區段：&quot;A4T活動報表包含一列含有大量「未指定」事件。&quot; |
