@@ -4,31 +4,35 @@ description: Adobe Target表單型體驗撰寫器提供非視覺化的體驗建�
 title: 表單式體驗撰寫器
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
 
 # 表單式體驗撰寫器{#form-based-experience-composer}
 
-[!DNL Adobe Target] [!UICONTROL 表單型體驗撰寫器]是非視覺化體驗，當視覺化體驗撰寫器無法使用或實際使用時，&lt;a2/>提供建立介面，對建立用於A/B測試、體驗定位、自動個人化和建議活動的體驗非常有用。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
+[!DNL Adobe Target] [!UICONTROL 表單型體驗撰寫器]是非視覺化體驗，當視覺化體驗撰寫器無法使用或實際使用時，提供建立介面，對建立用於A/B測試、體驗定位、自動個人化和建議活動的體驗非常有用。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
 
 如果是建立 Recommendations 活動，則沒有體驗。選擇您的條件和設計。如果您選擇多個條件或設計，Target 會自動產生體驗。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**，然後選取您要建立的活動類型。
 
    表單式體驗撰寫器可用於 A/B 測試、體驗鎖定目標、自動個人化和 Recommendations 活動。
-1. 從&#x200B;**[!UICONTROL 「新增活動」]**&#x200B;對話方塊選取[!UICONTROL 「表單式體驗撰寫器」]。
+1. 從[!UICONTROL 建立活動]對話方塊中，選擇&#x200B;**[!UICONTROL 表單型體驗撰寫器]**。
+
+1. （條件性）選擇工作區和屬性。
+
+1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
    表單式體驗撰寫器隨即開啟。
 
    ![](assets/location_refinements.png)
 
    如果您要建立 Recommendations 活動，則此畫面會不同。Recommendations 活動未包括體驗。
-1. 為活動命名。
+1. 按一下「[!UICONTROL 未命名活動]」以命名活動。
 1. 選取位置。
 
    按一下[!UICONTROL 選擇位置]框後，將顯示可用位置清單。 選取這些位置中的一個。若要選擇透過 target.js 提供的全域位置，請選擇「target-global-mbox」。
@@ -64,9 +68,9 @@ ht-degree: 72%
 
    **變更體驗片段:** 選擇體驗片段。
 
-   **變更重新導向選件:** 選擇重新導向選件。
+   **變更重新導向選件:** 選擇重新導向選件。如需詳細資訊，請參閱「建立重新導向選件」[。](/help/c-experiences/c-manage-content/offer-redirect.md)
 
-   **變更遠端選件:** 選擇遠端選件。
+   **變更遠端選件:** 選擇遠端選件。如需詳細資訊，請參閱[建立遠端選件](/help/c-experiences/c-manage-content/about-remote-offers.md)。
 
    **建立 HTML 選件:**
 
@@ -94,7 +98,7 @@ ht-degree: 72%
 
    ![](assets/change_criteria_2.png)
 
-1. （可選，對於AB活動、自動個人化和體驗定位）若要針對其他位置重複此程式，請按一下「新增位置」並設定位置和內容。]****[!UICONTROL 
+1. （可選，對於AB活動、自動個人化和體驗定位）若要針對其他位置重複此程式，請按一下「新增位置」並設定位置和內容。****
 1. 按一下「下一步」(**[!UICONTROL Next)]**，然後按照您的活動類型正常完成活動建立步驟。
 
 * [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
