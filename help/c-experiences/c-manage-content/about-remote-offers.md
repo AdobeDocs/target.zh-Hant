@@ -4,9 +4,9 @@ description: 我可以使用遠端選件來代管外部內容嗎？
 title: 建立遠端選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1047'
 ht-degree: 51%
 
 ---
@@ -156,3 +156,13 @@ ht-degree: 51%
 | 選件可以包含 JavaScript | 是 | 是 |
 | 選件 URL | 絕對或相對 | 相對 |
 | 請求的電腦 | Adobe 伺服器 | 訪客的電腦，具有訪客的 Cookie |
+
+## 訓練影片：表單式撰寫器![教學課程標章](/help/assets/tutorial.png)
+
+此影片提供表單型撰寫器的示範，您可使用它來建立遠端選件。
+
+* 使用表單式體驗撰寫器建立活動
+* 瞭解使用表單式體驗撰寫器與可視化體驗撰寫器的時機
+* 使用細分來鎖定位置
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
