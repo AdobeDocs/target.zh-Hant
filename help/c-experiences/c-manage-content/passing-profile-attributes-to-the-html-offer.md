@@ -1,13 +1,13 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: 您可以直接在Adobe Target的HTML或JSON選件中顯示描述檔值和活動資訊。
+description: 如何直接在HTML或JSON選件中傳遞描述檔值和活動資訊？
 title: 將動態資料傳遞至選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 88%
+source-wordcount: '491'
+ht-degree: 81%
 
 ---
 
@@ -52,15 +52,21 @@ ht-degree: 88%
 
 ## 實施
 
-若為傳入 mbox 的設定檔參數，請使用語法: `${profile.parameter}` 若為以設定檔指令碼建立的設定檔參數，請使用語法:
+若是傳遞至mbox的描述檔參數，請使用語法：
+
+`${profile.parameter}`
+
+對於在配置檔案指令碼中建立的配置檔案參數，請使用語法：
 
 `${user.parameter}`
 
-在Recommendations設計中使用動態屬性時，您必須在貨幣符號($)前插入反斜線(\)，才能正確呈現動態值：`\${user.endpoint.lastViewedEntity}`
+在[!DNL Recommendations]設計中使用動態屬性時，必須在美元符號($)前插入反斜線(\)，以便動態值正確呈現：
+
+`\${user.endpoint.lastViewedEntity}`
 
 這些變數會在伺服器端取代為值，所以不需要引號或其他 JavaScript 即可正確顯示。
 
-也可為您想開放給選件的值指定預設值。語法如下:
+您也可以為要公開給選件的值指定預設值。 語法如下:
 
 `${user.testAttribute default="All Items!"}`
 
