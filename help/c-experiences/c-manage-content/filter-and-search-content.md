@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: 依關鍵字搜尋資產並儲存搜尋資料夾 (稱為使用搜尋結果自動更新的智慧型收集)。
+description: 如何依關鍵字搜尋資產並儲存搜尋資料夾？
 title: 搜尋內容和建立智慧型收集
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ ht-degree: 100%
 
 本節包含下列資訊:
 
-* [依關鍵字搜尋資產](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [儲存智慧型集合](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## 依關鍵字搜尋資產  {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## 依關鍵字{#section_2465A71BC95942588F586B1EC8B9E5DB}搜尋資產
 
 1. 按一下「**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產庫」]。
 
