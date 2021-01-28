@@ -4,9 +4,9 @@ description: 此版本 Adobe Target 已知問題的相關資訊，也包括已�
 title: Adobe Target 的已知問題和已解決的問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '4337'
+source-wordcount: '4365'
 ht-degree: 69%
 
 ---
@@ -75,6 +75,7 @@ ht-degree: 69%
    * 複製活動
    * 在每個活動中重新啟用促銷
 
+* 當[!DNL Target]傳回含getOffer()的JSON選件時，會傳回JSON類型。 不過，如果您傳回JSON Recommendations，則會以HTML類型傳回。
 * 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
 * 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
