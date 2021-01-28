@@ -4,10 +4,10 @@ description: 如何在選件程式庫中建立資料夾？
 title: 建立選件資料夾
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 11%
+source-wordcount: '245'
+ht-degree: 21%
 
 ---
 
@@ -30,17 +30,7 @@ ht-degree: 11%
 
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 
-### 代碼選件選項
-
-在檢視「代碼選件[!UICONTROL 」頁面時，您可以將滑鼠指標暫留在選件或資料夾上，然後選取適當的圖示，對項目執行下列動作。]
-
-![「程式碼選件」標籤上的暫留圖示](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
-
-* **資訊**:檢視選件的資訊。
-* **編輯**:編輯資料夾或選件。
-* **複製**:複製選件。複製並編輯選件可讓您輕鬆建立類似的新選件。
-* **移動**:按一下「移動」圖示，導覽至您要將選件或資料夾移至的位置，然後按一下 **** Dropicon。例如，您可以將一個或多個資料夾移動到另一個資料夾以建立子資料夾。 按一下「清除選取範圍」，以取消選取您選取的選件或資料夾。
-* **刪除**:刪除選件或資料夾。
+如需您可對選件和資料夾執行之工作的詳細資訊，請參閱[使用資產程式庫中的內容](/help/c-experiences/c-manage-content/assets-working.md)。
 
 ## 影像選件資料夾
 
@@ -66,46 +56,4 @@ ht-degree: 11%
 
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 
-### 在卡片檢視和清單檢視之間切換
-
-若要在[!UICONTROL 卡片檢視]和[!UICONTROL 清單檢視]之間切換，請按一下內容庫右上角的[!UICONTROL 卡片檢視]圖示或[!UICONTROL 清單檢視]圖示。 您也可以使用[!UICONTROL 檢視設定]，在檢視[!UICONTROL 清單檢視]時進一步設定欄。
-
-下圖顯示了查看[!UICONTROL 清單視圖]時的可用選項：
-
-![清單檢視選項](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
-### 影像選件選項
-
-在檢視「影像選件」[!UICONTROL 頁面時，您可以將滑鼠指標暫留在選件或資料夾上，然後選取適當的圖示，對項目執行下列動作。]
-
-下圖顯示了在查看[!UICONTROL 卡片視圖]時的懸停錶徵圖。
-
-![在「卡片檢視」中時，將滑鼠暫留在「影像選件」標籤上的圖示](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
-
-下圖顯示了查看[!UICONTROL 清單視圖]時的懸停錶徵圖。 若要顯示圖示，請按一下清單中的項目。
-
-![在「清單檢視」中時，「影像選件」標籤上的暫留圖示](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
-
-* **選擇**:選擇要在其上執行以下操作的一個或多個資料夾：
-
-   * 下載
-   * 複製
-   * 移動
-   * 刪除
-
-   選取要執行下列動作的一或多個影像選件：
-
-   * 共用
-   * 下載
-   * 檢視屬性
-   * 編輯
-   * 注釋
-   * 移動
-
-
-* **下載**:下載影像選件或資料夾及其內容。
-* **檢視屬性**:檢視項目的屬性。請務必按一下「[!UICONTROL 基本]」標籤和「[!UICONTROL 進階]」標籤，以檢視所有可用資訊。
-* **更多動作**:在卡片檢視中顯示其 [!UICONTROL 他選項]。
-* **編輯**:編輯資料夾或選件。
-* **註解**:新增註解至影像選件。
-* **複製**:複製選件。複製並編輯選件可讓您輕鬆建立類似的新選件。
+如需您可對選件和資料夾執行之工作的詳細資訊，請參閱[使用資產程式庫中的內容](/help/c-experiences/c-manage-content/assets-working.md)。
