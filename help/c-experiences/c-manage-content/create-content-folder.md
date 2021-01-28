@@ -4,9 +4,9 @@ description: 如何在選件程式庫中建立資料夾？
 title: 建立選件資料夾
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 21%
 
 ---
@@ -62,13 +62,15 @@ ht-degree: 21%
 
    指定您和其他人可以在清單檢視中重新排序資料夾的位置。
 
-1. （可選）若要在[!UICONTROL 卡片檢視]和[!UICONTROL 清單檢視]之間切換，請按一下內容庫右上角的[!UICONTROL 卡片檢視]圖示或[!UICONTROL 清單檢視]圖示。 您也可以使用[!UICONTROL 檢視設定]，在檢視[!UICONTROL 清單檢視]時進一步設定欄。
-
-   下圖顯示了查看[!UICONTROL 清單視圖]時的可用選項：
-
-   ![清單檢視選項](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
+
+### 在卡片檢視和清單檢視之間切換
+
+若要在[!UICONTROL 卡片檢視]和[!UICONTROL 清單檢視]之間切換，請按一下內容庫右上角的[!UICONTROL 卡片檢視]圖示或[!UICONTROL 清單檢視]圖示。 您也可以使用[!UICONTROL 檢視設定]，在檢視[!UICONTROL 清單檢視]時進一步設定欄。
+
+下圖顯示了查看[!UICONTROL 清單視圖]時的可用選項：
+
+![清單檢視選項](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### 影像選件選項
 
