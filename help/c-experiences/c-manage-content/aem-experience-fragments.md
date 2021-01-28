@@ -1,12 +1,12 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-description: 有關在Adobe Target活動中使用在Adobe Experience Manager(AEM)中建立的體驗片段以協助最佳化或個人化的資訊。
+description: 如何在Target活動中使用AEM體驗片段？
 title: Adobe Target中的Adobe Experience Manager(AEM)體驗片段
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1101'
 ht-degree: 22%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 22%
 >
 >體驗片段目前會以HTML選件的形式匯入至[!DNL Target]。 請注意，體驗片段「primary」版本仍保留在[!DNL AEM]中。 您無法在[!DNL Target]中編輯體驗片段。
 
-您可以將滑鼠指標暫留在清單中的體驗片段上，然後按一下「檢視」圖示「檢視」圖示「[!UICONTROL 檢視」圖示「]」，以檢視體驗片段的其他資訊，包括其公開選件傳送URL及其![路徑。](assets/icon_info.png)[!DNL AEM]
+您可以將滑鼠指標暫留在清單中的體驗片段上，然後按一下「檢視」圖示「檢視」圖示「![檢視」圖示「](assets/icon_info.png)」，以檢視體驗片段的其他資訊，包括其公開選件傳送URL及其[!DNL AEM]路徑。
 
 您可以使用[Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC)或[表單型體驗撰寫器](/help/c-experiences/form-experience-composer.md)來使用[!DNL Target]活動中的體驗片段。
 
@@ -155,4 +155,4 @@ ht-degree: 22%
 >
 >已移除4:54討論的[!DNL AEM]深層連結功能。
 
-如需詳細資訊，請參閱[AEM網站影片和教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)頁面上的「搭配Adobe Target使用體驗片段」。**
+如需詳細資訊，請參閱&#x200B;*AEM網站影片和教學課程*&#x200B;頁面上的「搭配Adobe Target使用體驗片段」。[](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)
