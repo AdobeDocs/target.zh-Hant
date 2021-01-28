@@ -4,10 +4,10 @@ description: 每個Adobe Target版本at.js中變更的詳細資訊。
 title: at.js 版本詳細資料
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
 workflow-type: tm+mt
-source-wordcount: '4034'
-ht-degree: 84%
+source-wordcount: '4069'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 84%
 
 此版本的at.js是維護髮行，包含下列修正：
 
-* 修正與mbox點按追蹤和A4T相關的問題。
+* 修正與mbox點按追蹤和A4T相關的問題。 按一下0n,Target會使用正確的mbox和mbox參數引發傳送API呼叫。 但是，SDID與[!DNL Analytics]呼叫中的SDID不符，因此沒有點擊拼接和轉換。 (TNT-38372)
 
 ## at.js 2.3.2（2020年7月24日）
 
