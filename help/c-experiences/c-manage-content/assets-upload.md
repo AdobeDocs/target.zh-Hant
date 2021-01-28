@@ -1,29 +1,42 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: 您可以在Adobe Target的「影像選件」清單中新增項目。
+description: 如何上傳影像以當做影像選件使用？
 title: 上傳內容
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 68%
+source-wordcount: '215'
+ht-degree: 17%
 
 ---
 
 
 # 上傳內容
 
-您可以在[!DNL Adobe Target]的「影像選件」清單中新增項目或移除項目。
+您可以將影像上傳至[!DNL Adobe Target]中的[!UICONTROL 影像選件]清單，以在活動中當做影像選件使用。 您也可以在活動中不再需要影像選件時加以刪除。
 
-1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「影像選件」]**&#x200B;標籤。
+## 將影像選件新增至清單
+
+1. 按一下「**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**」。
+
+   ![選件>影像選件](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**>**[!UICONTROL 「檔案」]**。
-1. 選取您要新增的項目，然後按一下&#x200B;**[!UICONTROL 「開啟」]**。
-1. 編輯項目的檔案名稱 (如有必要)，然後按一下&#x200B;**[!UICONTROL 「上傳」]**。
+1. 瀏覽並選擇要添加的項目，然後按一下&#x200B;**[!UICONTROL Open]**。
+1. 視需要編輯項目的檔案名，然後按一下&#x200B;**[!UICONTROL Upload]**。
 
-   項目隨即上傳至資料庫。
+## 刪除影像選件或檔案夾
 
-## 訓練影片: 內容存放庫  ![概述徽章](/help/assets/overview.png)
+若要在[!UICONTROL 卡片檢視]和[!UICONTROL 清單檢視]之間切換，請按一下內容庫右上角的[!UICONTROL 卡片檢視]圖示或[!UICONTROL 清單檢視]圖示。
+
+從[!UICONTROL 卡片檢視]，將滑鼠指標暫留在所要的影像選件或資料夾上，按一下「選取&#x200B;****」圖示（核取標籤），然後按一下「刪除&#x200B;****」。
+
+從[!UICONTROL 清單檢視]中，按一下清單左側的影像縮圖影像以選擇所要的影像選件或資料夾，然後按一下&#x200B;**[!UICONTROL 刪除]**，如下所示：
+
+![刪除選定項目](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
+
+## 訓練影片：內容儲存庫![概述徽章](/help/assets/overview.png)
 
 此影片包括關於管理內容的資訊。
 
