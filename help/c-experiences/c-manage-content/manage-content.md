@@ -4,10 +4,10 @@ description: 如何管理程式碼和影像選件？
 title: 選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 40%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 40%
 
    視您的權限而定，您可能看不到所有選項的圖示。 例如，具有[!UICONTROL Observer]權限的使用者無權使用[!UICONTROL Copy]選項。
 
+   如需您可對選件和檔案夾執行之工作的詳細資訊，請參閱[使用資產程式庫中的內容](/help/c-experiences/c-manage-content/assets-working.md)。
+
 1. （可選）將滑鼠指標暫留在[!UICONTROL 影像選件]標籤上所要的影像選件或資料夾上，然後按一下所要的圖示，以執行其他工作。
 
    ![影像選件選項](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ ht-degree: 40%
    * 編輯
    * 注釋
    * 複製
+
+   如需您可對選件和檔案夾執行之工作的詳細資訊，請參閱[使用資產程式庫中的內容](/help/c-experiences/c-manage-content/assets-working.md)。
 
 ## 檢視選件定義{#section_6B059DD121434E6292CAB393507D010E}
 
