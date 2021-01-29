@@ -1,65 +1,58 @@
 ---
-keywords: content library;assets;search;smart collections;search folder;filter
-description: 如何依關鍵字搜尋資產並儲存搜尋資料夾？
-title: 搜尋內容和建立智慧型收集
+keywords: content library;assets;search;filter
+description: 如何依關鍵字搜尋資產？
+title: 搜尋內容
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 13%
 
 ---
 
 
-# 搜尋內容和建立智慧型收集
+# 搜尋內容
 
-依關鍵字搜尋資產並儲存搜尋資料夾 (稱為使用搜尋結果自動更新的智慧型收集)。
+在[!DNL Adobe Target]的[!UICONTROL 選件]程式庫中，依關鍵字搜尋資產。
 
-本節包含下列資訊:
+## 依關鍵字搜尋代碼選件
 
-## 依關鍵字{#section_2465A71BC95942588F586B1EC8B9E5DB}搜尋資產
+1. 按一下「**[!UICONTROL 選件]** > **[!UICONTROL 程式碼選件]**」。
+1. 在[!UICONTROL Search]方塊中輸入所需關鍵字。
 
-1. 按一下「**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產庫」]。
+   請注意，您也可以使用[!UICONTROL Type]和[!UICONTROL Source]下拉式清單進行篩選，以進一步細化搜尋。
 
-   您可以按一下右上角的[!UICONTROL 「卡片檢視」]圖示，以卡片檢視格式來顯示資產。
+## 依關鍵字{#section_2465A71BC95942588F586B1EC8B9E5DB}搜尋影像選件
 
-   或
+1. 按一下「**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**」。
 
-   您可以按一下右上角的[!UICONTROL 「清單檢視」]圖示，以清單檢視格式來顯示資產。
+1. （可選）在[!UICONTROL 卡片檢視]和[!UICONTROL 清單檢視]之間切換，按一下內容庫右上角的[!UICONTROL 卡片檢視]圖示或[!UICONTROL 清單檢視]圖示。 您也可以使用[!UICONTROL 檢視設定]，在檢視[!UICONTROL 清單檢視]時進一步設定欄。
+
+   下圖顯示了查看[!UICONTROL 清單視圖]時的可用選項：
+
+   ![清單檢視選項](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. 按一下左上角的&#x200B;**[!UICONTROL 「僅內容」]**&#x200B;圖示，以顯示搜尋方塊。
 
-   ![](assets/search_assets.png)
+   ![「僅限內容」選項](/help/c-experiences/c-manage-content/assets/content-only.png)
 
 1. 在搜尋方塊中，輸入您想尋找的資產的關鍵字，然後按 Enter 鍵。
 
-## 儲存智慧型集合  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+1. （可選）使用&#x200B;**[!UICONTROL 篩選器和選項]**&#x200B;窗格進一步細化搜尋。
 
-您可以建立已儲存的搜尋，稱為智慧型集合，在執行類似搜尋時即可節省時間。已儲存的搜尋會建立智慧型集合，這會隨著搜尋結果而自動更新。
+   ![篩選與選項窗格](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-1. 按一下「**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**」以存取[!UICONTROL 「資產庫」]。
+   您可依下列項目篩選：
 
-   ![](assets/content.png)
-
-1. 按一下左上角的&#x200B;**[!UICONTROL 「僅內容」]**&#x200B;圖示，在左邊欄中顯示[!UICONTROL 「篩選和選項」]畫面。
-1. 按一下&#x200B;**[!UICONTROL 「瀏覽」]**&#x200B;圖示，以顯示[!UICONTROL 「選取路徑」]對話方塊。
-
-   ![](assets/browse_folders.png)
-
-1. 瀏覽並選取所需的資料夾，以作為智慧型集合的基礎，然後按一下&#x200B;**[!UICONTROL 「確認」]**&#x200B;圖示。
-
-   ![](assets/browse_folders2.png)
-
-1. (可選) 選取各種選項以縮短篩選條件，例如，檔案類型和大小。
-1. 按一下&#x200B;**[!UICONTROL 「篩選和選項」]**&#x200B;畫面底端的[!UICONTROL 「儲存智慧型集合」]，以顯示「儲存」選項。
-
-   ![](assets/save_smart_collection_options.png)
-
-1. 指定智慧型集合的名稱，如果要讓 **[!UICONTROL 帳戶中的所有使用者都能夠存取此智慧型集合，請選取]**「公用」[!DNL Target]核取方塊，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
-
-   智慧型集合會新增至已儲存的搜尋清單，供未來使用:
-
-   ![](assets/saved_smart_collection.png)
-
-您可以從[!UICONTROL 「已儲存的搜尋」]下拉式清單中選取智慧型集合以開啟它，然後按一下[!UICONTROL 「編輯智慧型集合」]，以編輯已儲存的智慧型集合。
+   * 檔案類型：影像、檔案、多媒體或封存。
+   * 檔案大小：小型、中型或大型
+   * 上次修改日期：小時、日、周、月或年。
+   * 核准狀態：已核准或已拒絕。
+   * 到期狀態：已過期。
+   * 平均評分：1到5
+   * 方向：水準、垂直或正方形。
+   * 樣式：顏色或黑白。
+   * 使用分數：最小到最大
+   * 印象分數：最小到最大
+   * 按一下「分數」:1到5
