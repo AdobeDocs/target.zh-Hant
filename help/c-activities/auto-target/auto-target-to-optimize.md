@@ -4,9 +4,9 @@ description: Adobe Target中的Auto-Target使用進階的機器學習功能，�
 title: 自動定位概觀
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。如需此授權提供之進階功能的詳細資訊，請參閱 [Target Premium](/help/c-intro/intro.md)。
 >
->[!UICONTROL Analytics for Target] (A4T)支援「自 [!UICONTROL 動定位] 」活動。如需詳細資訊，請參閱[建立使用Analytics作為報告來源的活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。
+>[!UICONTROL Analytics for Target] (A4T)支援「自 [!UICONTROL 動定位] 」活動。如需詳細資訊，請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。
 
 ## 使用Auto-Target {#success}的實際成功案例
 
