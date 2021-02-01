@@ -4,9 +4,9 @@ description: 如何使用「自動個人化摘要」報表？
 title: 自動個人化摘要報表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '632'
 ht-degree: 41%
 
 ---
@@ -73,7 +73,7 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 
 ## 常見問題
 
-### 「活動層級」和「選件層級」報表之間的資料是否有差異？
+### 為什麼「活動層級」和「選件層級」報表之間的資料有差異？
 
 **[!UICONTROL 活動] 級別報告**:「活動層級」報 [!UICONTROL 表] 上記錄的瀏覽次數會擷取控制體驗與「目標」流量。目標流量包括探索流量和個人化流量的混合。
 
