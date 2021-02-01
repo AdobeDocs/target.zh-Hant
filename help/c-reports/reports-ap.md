@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Adobe Target中「自動個人化」活動的使用者可使用專用報表。
+description: 如何使用「自動個人化摘要」報表？
 title: 自動個人化摘要報表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 68%
+source-wordcount: '626'
+ht-degree: 41%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自動個人化摘要報表{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) 自動個人化摘要報表
 
 專門報告適用於[!DNL Adobe Target]中[!UICONTROL  Automated Personalization]活動的用戶。
 
@@ -24,9 +24,14 @@ ht-degree: 68%
 
    如果您有許多活動，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「自動個人化」]，以篩選清單。
 
-1. (可選) 按[!UICONTROL 「下載」]圖示，以下載依所有可用成功量度分解的摘要檢視 (例如，比較「控制」與「目標」流量)。
+1. (可選) 按&#x200B;**[!UICONTROL 「下載」]**&#x200B;圖示，以下載依所有可用成功量度分解的摘要檢視 (例如，比較「控制」與「目標」流量)。
 
 [!UICONTROL 自動個人化]提供下列報表:
+
+* 活動層級
+* 選件層級
+* 自動化區段
+* 重要屬性
 
 ## 活動級別報告{#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -48,7 +53,17 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 
 >[!NOTE]
 >
->時鐘圖示表示演算法模型還在建立中。勾號圖示表示已建立基礎演算法。
+>時鐘圖示表示演算法模型還在建立中。複選標籤表徵圖表示已建立基本算法。
+
+## 「活動層級」和「選件層級」報表之間的資料差異
+
+**[!UICONTROL 活動] 級別報告**:「活動層級」報 [!UICONTROL 表] 上記錄的瀏覽次數會擷取控制體驗與「目標」流量。目標流量包括探索流量和個人化流量的混合。
+
+**選件層級報表**:「選件層級」報 [!UICONTROL 表記] 錄的曝光次數會擷取每個選件的曝光次數。因此，在具有多個位置的活動中，所有報告群組中，[!UICONTROL 選件層級]報告中記錄的瀏覽總數等於[!UICONTROL 活動層級]報告中針對控制或目標流量記錄的瀏覽次數乘以活動中的位置總數。 在預設內容為可用選項的位置發生預設內容的曝光記錄在「預設內容」選件群組中。 未指派給報告群組的選件印象會記錄在「未分組」選件群組中。
+
+>[!NOTE]
+
+[!UICONTROL 選件層級]報表中記錄的曝光次數，可能不是[!UICONTROL 活動層級]報表中記錄之瀏覽次數的精確整數倍。 這是由於擷取網路上的報告資料流量時，會發生輕微差異（一般差異率低於5%）。 因此，當活動啟動後活動中可用的位置數量變更時，印象數量將不是精確倍數。
 
 ## 自動化區段
 
