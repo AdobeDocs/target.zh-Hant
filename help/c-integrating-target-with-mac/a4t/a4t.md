@@ -4,9 +4,9 @@ description: Adobe "Analytics for Target" (A4T) 是交叉解決方案的整合�
 title: Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1300'
 ht-degree: 45%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 45%
 | 活動類型 | A4T 相容? | 備註 (若適用) |
 |--- |--- |--- |
 | 手動分割流量的 A//B 活動 | 是 |  |
-| 自動分配的 A/B 活動 | 是 | 請參閱[Analytics for Target(A4T)支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
-| 自動鎖定目標的 A/B 活動 | 是 | 請參閱[Analytics for Target(A4T)支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
+| 自動分配的 A/B 活動 | 是 | 請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| 自動鎖定目標的 A/B 活動 | 是 | 請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 | 體驗鎖定目標 (XT) | 是 |  |
 | 多變數測試 (MVT) | 是 | 需要以mbox為基礎的目標量度目標，才能取得[!UICONTROL 元素貢獻]報表。  [!UICONTROL 元素貢獻]報表目前不支援[!DNL Analytics]量度。 |
 | 自動個人化 (AP) 活動 | 無 |  |
