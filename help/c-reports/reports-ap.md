@@ -4,9 +4,9 @@ description: 如何使用「自動個人化摘要」報表？
 title: 自動個人化摘要報表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 41%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 41%
 
 # ![PREMIUM](/help/assets/premium.png) 自動個人化摘要報表
 
-專門報告適用於[!DNL Adobe Target]中[!UICONTROL  Automated Personalization]活動的用戶。
+[!DNL Adobe Target]中的[!UICONTROL 自動個人化]活動的用戶可以使用專門的摘要報告。
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 **選件層級報表**:「選件層級」報 [!UICONTROL 表記] 錄的曝光次數會擷取每個選件的曝光次數。因此，在具有多個位置的活動中，所有報告群組中，[!UICONTROL 選件層級]報告中記錄的瀏覽總數等於[!UICONTROL 活動層級]報告中針對控制或目標流量記錄的瀏覽次數乘以活動中的位置總數。 在預設內容為可用選項的位置發生預設內容的曝光記錄在「預設內容」選件群組中。 未指派給報告群組的選件印象會記錄在「未分組」選件群組中。
 
 >[!NOTE]
-
-[!UICONTROL 選件層級]報表中記錄的曝光次數，可能不是[!UICONTROL 活動層級]報表中記錄之瀏覽次數的精確整數倍。 這是由於擷取網路上的報告資料流量時，會發生輕微差異（一般差異率低於5%）。 因此，當活動啟動後活動中可用的位置數量變更時，印象數量將不是精確倍數。
+>
+>[!UICONTROL 選件層級]報表中記錄的曝光次數，可能不是[!UICONTROL 活動層級]報表中記錄之瀏覽次數的精確整數倍。 這是由於擷取網路上的報告資料流量時，會發生輕微差異（一般差異率低於5%）。 因此，當活動啟動後活動中可用的位置數量變更時，印象數量將不是精確倍數。
