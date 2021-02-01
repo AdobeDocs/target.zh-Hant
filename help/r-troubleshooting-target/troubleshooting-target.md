@@ -4,9 +4,9 @@ description: 可協助您解決 Adobe Target 中問題的主題清單，包括�
 title: 疑難排解Adobe Target
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 96%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 96%
 
 * [自動個人化常見問題集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [疑難排解自動個人化](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [自動個人化摘要報表](/help/c-reports/reports-ap.md)
 
 ### 多變數測試 (MVT)
 
