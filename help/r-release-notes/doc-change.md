@@ -4,9 +4,9 @@ description: 本頁列出依發行順序對Adobe Target檔案所做的重要變�
 title: Adobe Target 產品文件中的文件變更。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2月1日 | [自動個人化摘要報表](/help/c-reports/reports-ap.md) | 新增區段：「活動層級和選件層級報表之間的資料差異。」 |
+| 2月1日 | [自動個人化摘要報表](/help/c-reports/reports-ap.md) | 新增區段：「常問的問題。」 |
 | 27 年 1 月 | [建立重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md) | 更新了主題。 |
 |  | [建立遠端選件](/help/c-experiences/c-manage-content/about-remote-offers.md) | 更新了主題。 |
 | 26 年 1 月 | [轉換率](/help/c-reports/conversion-rate.md) | 已釐清Target在學生t測驗中如何使用「平方和」。 |
