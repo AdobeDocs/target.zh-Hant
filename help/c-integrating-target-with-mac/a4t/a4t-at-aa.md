@@ -4,9 +4,9 @@ description: 我是否可將A4T與「自動定位」和「自動配置」活動�
 title: A4T支援自動分配和自動定位活動
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ A4T整合可讓您：
 
 1. 在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上，為&#x200B;**[!UICONTROL 報表來源]**&#x200B;選取&#x200B;**[!UICONTROL Adobe Analytics]**，並選取與您所要最佳化目標對應的報表套裝。
 
+   ![「目標與設定」頁面上的「報告來源」區段](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. 選擇主要目標量度。
 
    * 選擇&#x200B;**[!UICONTROL 轉換]**&#x200B;以使用[!DNL Adobe Target]指定最佳化目標。
    * 選擇&#x200B;**[!UICONTROL 使用Analytics量度]**，然後從[!DNL Analytics]中選取量度，以用作最佳化目標。 您可以使用現成可用的[!DNL Analytics]轉換度量或[!DNL Analytics]自訂事件。
+
+   如需詳細資訊，請參閱下方的[支援的目標量度](#supported)。
 
 1. 儲存並啟動您的活動。
 
@@ -51,7 +55,7 @@ A4T整合可讓您：
 
 1. 使用&#x200B;**[!UICONTROL 報表]**&#x200B;標籤，依您選擇的[!DNL Adobe Analytics]量度來檢視您活動的報表。 按一下「Analytics中的檢視」，深入探索並進一步細分報表資料。****
 
-## 支援的目標量度
+## 支援的目標量度{#supported}
 
 [!UICONTROL A4] T for  [!UICONTROL Auto-] Allocate和 [!UICONTROL Auto-] Target可讓您選擇下列任一量度類型作為最佳化的主要目標量度：
 
@@ -89,6 +93,6 @@ A4T整合可讓您：
 ### 自動鎖定目標
 
 * [!UICONTROL 自動定] 位機型會照常每24小時進行一次培訓。但是，來自[!DNL Analytics]的轉換事件資料會延遲6到24小時。 此延遲表示[!DNL Target]的流量分配將跟蹤[!DNL Analytics]中記錄的最新事件。 在初始啟動活動後的前48小時內，效果最大。 活動的效能將更密切地反映經過五天後的[!DNL Analytics]轉換行為。 您應考慮在活動生命週期的前五天內，使用[!UICONTROL 自動分配]取代[!UICONTROL 自動目標]的短期活動。
-* 當使用[!DNL Analytics]作為[!UICONTROL 自動目標]活動的資料源時，會將會話視為在經過六小時後結束。 六小時後發生的轉換將不會計算在內。
+* 當使用[!DNL Analytics]作為[!UICONTROL 自動目標]活動的資料源時，會將會話視為在經過6小時後結束。 六小時後發生的轉換將不會計算在內。
 
 如需詳細資訊，請參閱&#x200B;*分析工具指南*&#x200B;中的[歸因模型和回顧windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)。
