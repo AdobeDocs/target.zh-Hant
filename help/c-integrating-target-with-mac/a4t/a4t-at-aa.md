@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;使用 Analytics 作為 Target 的報告來源
 description: 我是否可將A4T與「自動定位」和「自動配置」活動搭配使用？
 title: A4T支援自動分配和自動定位活動
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ A4T整合可讓您：
 
    * [!UICONTROL 自動分配以獲得最佳體驗]
    * [!UICONTROL 自動鎖定個人化體驗]
+
+   ![流量分配方法選項：手動、自動分配和自動目標](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    如需詳細資訊和逐步指示，請參閱[建立自動分配活動](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)和[建立自動目標活動](/help/c-activities/auto-target/create-auto-target.md)。
 
@@ -87,6 +89,6 @@ A4T整合可讓您：
 ### 自動鎖定目標
 
 * [!UICONTROL 自動定] 位機型會照常每24小時進行一次培訓。但是，來自[!DNL Analytics]的轉換事件資料會延遲6到24小時。 此延遲表示[!DNL Target]的流量分配將跟蹤[!DNL Analytics]中記錄的最新事件。 在初始啟動活動後的前48小時內，效果最大。 活動的效能將更密切地反映經過五天後的[!DNL Analytics]轉換行為。 您應考慮在活動生命週期的前五天內，使用[!UICONTROL 自動分配]取代[!UICONTROL 自動目標]的短期活動。
-* 當使用[!DNL Analytics]作為[!UICONTROL 自動目標]活動的資料源時，會將會話視為在經過6小時後結束。 六小時後發生的轉換將不會計算在內。
+* 當使用[!DNL Analytics]作為[!UICONTROL 自動目標]活動的資料源時，會將會話視為在經過六小時後結束。 六小時後發生的轉換將不會計算在內。
 
 如需詳細資訊，請參閱&#x200B;*分析工具指南*&#x200B;中的[歸因模型和回顧windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)。
