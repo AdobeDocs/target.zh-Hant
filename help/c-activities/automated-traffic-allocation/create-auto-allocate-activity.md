@@ -1,13 +1,13 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: 建立自動分配；A/B測試；自動分配活動；新建a/b活動；自動分配；自動分配到最佳體驗；分配；自動分配
 description: 使用Adobe Target中的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立自動分配A/B測試活動，並修改Target內頁面的部分。
 title: 建立自動分配活動
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 61%
+source-wordcount: '916'
+ht-degree: 58%
 
 ---
 
@@ -120,7 +120,11 @@ ht-degree: 61%
 
    ![A/B 活動設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 按一下「儲存並關閉」或「儲存」。]**]****[!UICONTROL **[!UICONTROL 
+   >[!NOTE]
+   >
+   >如果您要將此活動與[ Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)搭配使用，請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)的重要資訊。
+
+1. 按一下「儲存並關閉」或「儲存」。********
 
 建立活動後，[!UICONTROL 概述]頁籤顯示有關活動的資訊，包括活動的圖。
 
