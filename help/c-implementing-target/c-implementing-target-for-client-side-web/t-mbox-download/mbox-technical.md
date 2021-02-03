@@ -1,13 +1,13 @@
 ---
-keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
+keywords: 實作;mbox.js;dom 操作資料庫;target.js;可視化體驗撰寫器;iframe;angular 網站;單頁應用程式;SPA
 description: 可協助您的技術人員瞭解 mbox.js 實作和它如何可能影響您的網站的資訊。
-title: Mbox.js 的作用
-feature: null
+title: mbox.js 的作用
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 81%
 
 ---
 
