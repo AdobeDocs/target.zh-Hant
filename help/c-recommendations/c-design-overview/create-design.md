@@ -1,12 +1,12 @@
 ---
-keywords: recommendations design;create design;copy design
+keywords: 建議設計;建立設計;複製設計
 description: 設計可定義建議出現在頁面上的方式。
 title: 建立設計
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '995'
 ht-degree: 32%
 
 ---
