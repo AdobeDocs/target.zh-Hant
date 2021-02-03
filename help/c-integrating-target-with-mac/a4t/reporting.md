@@ -1,13 +1,13 @@
 ---
-keywords: analytics for target;a4t;analytics as the reporting source
+keywords: Analytics for Target;A4T;使用 Analytics 作為報表來源
 description: 使用 Analytics 做為您的 Target (A4T) 報表來源，可讓您存取 Target 活動的 Analytics 報表。
 title: A4T 報表
-feature: a4t reports
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 35%
+source-wordcount: '677'
+ht-degree: 36%
 
 ---
 
