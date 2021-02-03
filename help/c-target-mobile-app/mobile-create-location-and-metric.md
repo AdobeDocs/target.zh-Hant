@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
+keywords: 行動應用程式;行動應用程式位置;target mobile 應用程式;mobile target 位置;行動應用程式成功量度
 description: 若要在您的行動應用程式中使用 Target，請建立位置和成功量度。
-title: iOS - 建立 Target 位置和成功量度
-feature: mobile implementation
+title: IOS —— 建立目標位置和成功度量
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
