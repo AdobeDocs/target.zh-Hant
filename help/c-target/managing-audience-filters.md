@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience filter;audiences;filter
+keywords: 定位；對象篩選；對象；篩選
 description: Adobe Target（或觀眾）中的觀眾篩選器是一組具有特定特性或一組特性的訪客。
-title: Adobe Target中報告的對象篩選
-feature: audiences
+title: 報表的對象篩選
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 80%
+source-wordcount: '484'
+ht-degree: 81%
 
 ---
 
