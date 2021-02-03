@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
+keywords: 疑難排解;常見問題集;FAQ;目標;對象
 description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
-title: 鎖定目標和對象常見問題集
-feature: audiences
+title: 目標與受眾常見問答集
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 69%
+source-wordcount: '942'
+ht-degree: 68%
 
 ---
 
