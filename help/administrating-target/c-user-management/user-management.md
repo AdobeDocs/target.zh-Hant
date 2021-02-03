@@ -1,13 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
+keywords: 新增使用者; 管理使用者; 使用者權限
 description: 在Adobe Target Standard中管理使用者，並在Adobe Target Premium中管理企業屬性和權限。
 title: 使用者管理
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 18%
+source-wordcount: '232'
+ht-degree: 20%
 
 ---
 
