@@ -1,13 +1,13 @@
 ---
-keywords: implementation;api;profile;profile api settings;authentication token
+keywords: 實施；api；配置檔案；配置檔案api設定；驗證令牌
 description: 透過Adobe Target API啟用或停用批次更新的驗證，並產生描述檔驗證Token。
-title: Adobe Target中的設定檔API設定
+title: 描述檔 API 設定
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 40%
+source-wordcount: '316'
+ht-degree: 41%
 
 ---
 
