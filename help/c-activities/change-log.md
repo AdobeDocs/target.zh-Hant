@@ -1,13 +1,13 @@
 ---
-keywords: activity change log;change log
+keywords: 活動更改日誌；更改日誌
 description: 變更記錄會記錄變更您的活動的人員，以及發生變更的時間。
-title: Adobe Target中的活動變更記錄
-feature: activities
+title: 活動變更記錄
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 77%
+source-wordcount: '102'
+ht-degree: 78%
 
 ---
 
