@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: 鎖定目標;Target 資料庫;程式庫
 description: 根據預先建置的鎖定目標規則鎖定使用者。
-title: Adobe Target觀眾中的Target程式庫選項
-feature: audiences
+title: Target 資料庫 觀眾中的選項
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
