@@ -1,12 +1,12 @@
 ---
-keywords: multiple audiences;experience versions;target experience versions
+keywords: 多個對象; 體驗版本; 鎖定體驗版本
 description: 您可以在Adobe Target A/B活動中將相同體驗的版本定位給不同的觀眾。 您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
 title: A/B 測試中的多個體驗版本
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '614'
 ht-degree: 94%
 
 ---
