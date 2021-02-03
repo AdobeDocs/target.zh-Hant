@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: 網頁；目標網頁；目標；目標當前頁；目標當前頁；上一頁；目標上一頁；著陸頁；目標著陸頁；http標頭
 description: 您可以定位在您網站上特定頁面的訪客。
-title: Adobe Target觀眾中的網站頁面選項
-feature: audiences
+title: 觀眾中的網站頁面選項
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 43%
+source-wordcount: '883'
+ht-degree: 42%
 
 ---
 
