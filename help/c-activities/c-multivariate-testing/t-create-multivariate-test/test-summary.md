@@ -1,13 +1,13 @@
 ---
-keywords: summary
+keywords: 摘要
 description: 測試摘要提供Adobe Target多變數測試的視覺化總覽。
 title: 測試摘要
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 73%
+source-wordcount: '106'
+ht-degree: 72%
 
 ---
 
