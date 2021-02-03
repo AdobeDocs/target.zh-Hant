@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
+keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集;重要屬性
 description: '自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表: 「自動化區段」與「重要屬性」報表。'
 title: 個人化前瞻分析報表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 71%
+source-wordcount: '740'
+ht-degree: 72%
 
 ---
 
