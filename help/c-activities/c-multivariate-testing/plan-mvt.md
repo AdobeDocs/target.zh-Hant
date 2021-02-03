@@ -1,12 +1,12 @@
 ---
-keywords: multivariate test;mvt;mvt plan;multivariate test plan
+keywords: 多變數測試;mvt;mvt 計劃;多變數測試計劃
 description: 在您可以建立成功的測試之前，Adobe Target 中的多變數測試需要一些計劃。
-title: 在 Adobe Target 中計劃多變數測試
+title: 計劃多變數測試
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '293'
 ht-degree: 99%
 
 ---
