@@ -1,12 +1,12 @@
 ---
-keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
+keywords: 全域 mbox 參數;targetPageParams;查詢字串;陣列;json;dtm;動態標籤管理
 description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將其他目標／內容資訊傳入Adobe Target的任何情況下，都需要這個選項。
-title: 傳遞參數至全域 mbox
+title: 將參數傳遞至全域mbox
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 65%
 
 ---
