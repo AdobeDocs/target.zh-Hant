@@ -1,12 +1,12 @@
 ---
-keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
+keywords: 可視化體驗撰寫器選項; 體驗撰寫器選項; 體驗選項; 編輯文字; 編輯 html; 編輯文字/HTML; 編輯背景顏色; 背景顏色; 插入元素; 編輯連結; 連結; 可視化體驗撰寫器連結; 編輯 CSS; 類別; CSS 類別; 交換選件; 選件交換; 交換影像; 影像交換; 移除項目; 項目移除; 隱藏項目; 項目隱藏; 重新排列; 移動元素; 元素移動; 調整元素大小; 元素調整大小; 元素; 展開選取範圍; 導覽至此連結; 導覽連結; 連結導覽; 導覽; 復原; 重做; 復原/重做
 description: 當您在 Adobe Target 可視化體驗撰寫器 (VEC) 中按一下頁面元素時，功能表隨即顯示適用於該元素類型的選項。
-title: Adobe Target 可視化體驗撰寫器 (VEC) 選項
+title: 視覺體驗撰寫器(VEC)選項
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2478'
 ht-degree: 94%
 
 ---
