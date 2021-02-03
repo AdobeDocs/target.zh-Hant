@@ -1,12 +1,12 @@
 ---
-keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
+keywords: client care;cname;certificate program；正則名稱；cookies;certificate;amc;adobe受管理證書；digicert；域控制驗證；dcv
 description: 有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。
-title: CNAME 與 Adobe Target
+title: CNAME
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1225'
 ht-degree: 2%
 
 ---
@@ -138,10 +138,10 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果此命令失敗，但上述`validateEdgeFpsslSni`命令成功，則可能需要等待DNS更新完全傳播。 DNS記錄具有關聯的[TTL（存留時間）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records)，該&lt;a1/>規定了這些記錄的DNS回覆的快取過期時間，因此您至少需要等待TTL。 您可以使用`dig target.example.com`命令或[G套件工具箱](https://toolbox.googleapps.com/apps/dig/#CNAME)來查找特定TTL。
+   >如果此命令失敗，但上述`validateEdgeFpsslSni`命令成功，則可能需要等待DNS更新完全傳播。 DNS記錄具有關聯的[TTL（存留時間）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records)，該規定了這些記錄的DNS回覆的快取過期時間，因此您至少需要等待TTL。 您可以使用`dig target.example.com`命令或[G套件工具箱](https://toolbox.googleapps.com/apps/dig/#CNAME)來查找特定TTL。
 
 ## 已知限制
 
 * 當您有CNAME和at.js 1.x時，QA模式將不會自黏，因為它是以第三方Cookie為基礎。 因應措施是將預覽參數新增至您導覽至的每個URL。 當您有CNAME和at.js 2.x時，QA模式會很嚴格。
-* 目前，當使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，`overrideMboxEdgeServer`設定無法與CNAME搭配運作。如果您使用舊版at.js，應將此設定為`false`以避免請求失敗。 或者，您應考慮將at.js[更新為較新、支援的版本。](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* 目前，當使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，`overrideMboxEdgeServer`設定無法與CNAME搭配運作。如果您使用舊版at.js，應將此設定為`false`以避免請求失敗。 或者，您應考慮將at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)更新為較新、支援的版本。[
 * 使用CNAME時，Target呼叫的Cookie標題大小可能會增加。 我們建議將Cookie大小維持在8KB以下。
