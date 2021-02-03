@@ -1,12 +1,12 @@
 ---
-keywords: at.js releases;at.js versions;release notes
+keywords: at.js版本；at.js版本；發行說明
 description: 每個Adobe Target版本at.js中變更的詳細資訊。
 title: at.js 版本詳細資料
 feature: at.js
 translation-type: tm+mt
-source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4069'
+source-wordcount: '4075'
 ht-degree: 83%
 
 ---
