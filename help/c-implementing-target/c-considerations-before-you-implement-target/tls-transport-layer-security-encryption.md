@@ -1,12 +1,12 @@
 ---
-keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
+keywords: tls;tls 1.0；傳輸層安全；加密；tls 1.1;tls 1.2
 description: Adobe 和 Target 如何使用 TLS (傳輸層安全性) 維持最高安全性標準，提升客戶資料安全性的相關變更資訊。
 title: TLS (傳輸層安全性) 加密變更
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1238'
 ht-degree: 61%
 
 ---
