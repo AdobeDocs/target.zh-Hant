@@ -1,14 +1,14 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
+keywords: 重複；允許重複；排除重複選件；自動個人化；不允許重複選件；排除；預設內容；排除組；
 description: 管理排除的方法包括在 Adobe Target Automated Personalization (AP) 活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
-title: 管理排除項目
+title: 管理排除
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 94%
+source-wordcount: '981'
+ht-degree: 92%
 
 ---
 
