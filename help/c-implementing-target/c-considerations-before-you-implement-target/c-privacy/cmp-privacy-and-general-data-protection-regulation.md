@@ -1,13 +1,13 @@
 ---
-keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
-description: 歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私權要求的相關資訊，以及這些規範對您的組織和 Adobe Target 有何影響。
-title: 隱私權與資料保護規範
+keywords: gdpr;eu;歐盟;隱私權;常見問題集;常見問題集;加州消費者隱私保護法;ccpa;隱私權;資料保護;選擇退出;選擇退出;政府;規範
+description: 有關歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的資訊，以及這些規定對您的組織和Adobe Target有何影響。
+title: 隱私權與資料保護法規
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2248'
-ht-degree: 91%
+source-wordcount: '2270'
+ht-degree: 90%
 
 ---
 
