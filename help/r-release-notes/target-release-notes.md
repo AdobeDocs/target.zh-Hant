@@ -1,12 +1,12 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
-description: 提供最新或即將發行的DNL Adobe Target版本功能、增強功能和修正資訊的發行說明。
-title: Adobe Target搶鮮版注意事項
+keywords: 發行說明；發行；更新；未來發行；增強；新功能；修正；更新；搶鮮版
+description: 即將發行的版本包含哪些功能？
+title: 搶鮮版注意事項
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '493'
 ht-degree: 27%
 
 ---
