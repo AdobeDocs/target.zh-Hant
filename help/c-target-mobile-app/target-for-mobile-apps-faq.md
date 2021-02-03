@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;frequently asked questions;faq;target mobile app
+keywords: 行動應用程式；常問問題；常見問題；常見問題；目標行動應用程式
 description: 行動應用程式專用Adobe Target的常見問題。
-title: 行動應用程式專用Adobe Target的常見問題
-feature: mobile implementation
+title: 行動應用程式Target的常見問題
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
