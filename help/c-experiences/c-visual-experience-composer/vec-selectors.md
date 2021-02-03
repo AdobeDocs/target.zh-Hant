@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;Landing Page Test
+keywords: 體驗鎖定目標; 登陸頁面測試
 description: 元素選取器是一種可以識別一或多個元素的 CSS 運算式。
-title: 可視化體驗撰寫器中使用的元素選取器
+title: 可視化體驗撰寫器中使用的元素選取器 (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 90%
+source-wordcount: '412'
+ht-degree: 91%
 
 ---
 
