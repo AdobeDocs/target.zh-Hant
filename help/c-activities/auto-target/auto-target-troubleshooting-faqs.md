@@ -1,12 +1,12 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
+keywords: auto-target；定位；流量分配；常見問題；常見問題；疑難排解；故障排除；流量
 description: 疑難排解和Adobe Target中自動定位的常見問題。
 title: 自動定位疑難排解與常見問答集
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1914'
 ht-degree: 68%
 
 ---
