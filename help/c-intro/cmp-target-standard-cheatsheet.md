@@ -1,13 +1,13 @@
 ---
-keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
+keywords: Target Standard;faq;常見問題;速查表
 description: 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
-title: Target 最佳化和個人化常見問題集
+title: 最佳化與個人化常見問答集
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2901'
-ht-degree: 98%
+source-wordcount: '2909'
+ht-degree: 97%
 
 ---
 
