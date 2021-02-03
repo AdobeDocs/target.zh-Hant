@@ -1,13 +1,13 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: 訪客設定檔;目標訪客設定檔
 description: 在 Adobe Target 中建立受眾，將目標鎖定於符合特定設定檔參數的訪客。
-title: Adobe Target觀眾中的訪客資料選項
-feature: audiences
+title: 觀眾中的訪客資料選項
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 94%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 
