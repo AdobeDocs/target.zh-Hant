@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementing;implementation;tag manager;dtm;at.js;dynamic tag management
+keywords: 實作;標籤管理程式;dtm;at.js;動態標籤管理
 description: Adobe 動態標籤管理 (DTM) 為 Adobe 的舊版標籤管理程式。
-title: 使用動態標籤管理 (DTM) 實作 Target
+title: '使用 Dynamic Tag Management (DTM) 實作 '
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 92%
+source-wordcount: '94'
+ht-degree: 93%
 
 ---
 
