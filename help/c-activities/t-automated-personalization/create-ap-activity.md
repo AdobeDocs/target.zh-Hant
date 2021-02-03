@@ -1,12 +1,12 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+keywords: 自動個人化；ap；觀眾；ensemble；隨機森林；殘差方差；誤差方差；存留值
 description: Adobe Target中的「自動個人化」活動工作流程會因其他活動類型的工作流程而有所不同。
 title: 建立自動個人化活動
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2053'
 ht-degree: 92%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL 表單式體驗撰寫器]外，[!DNL Target]還提供「單頁應用程式VEC」和「行動應用程式的VEC」。 ][!UICONTROL 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL 表單式體驗撰寫器]外，[!DNL Target]還提供「單頁應用程式VEC」和「行動應用程式的VEC」。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
