@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementing;rfi;request for information
+keywords: 實作;rfi;索取資訊
 description: 準備實作 Adobe Target 之前，有一些應完成的工作和應收集的資訊。
-title: 準備實作 Adobe Target
+title: 準備實施
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 93%
 
 ---
 
