@@ -1,13 +1,13 @@
 ---
-keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
+keywords: 內容; 建立資料夾; 資產; 移動資料夾; 複製資料夾; 刪除資料夾; 下載資料夾; 資料夾
 description: 如何在選件程式庫中建立資料夾？
 title: 建立選件資料夾
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 21%
+source-wordcount: '258'
+ht-degree: 25%
 
 ---
 
