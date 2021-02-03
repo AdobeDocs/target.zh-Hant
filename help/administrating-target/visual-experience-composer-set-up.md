@@ -1,20 +1,20 @@
 ---
-keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
+keywords: 視覺體驗撰寫器；vec；預設url；增強的體驗撰寫器；eec；混合內容；體驗快照；移動視區；css選擇器
 description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定Adobe Target Visual Experience Composer(VEC)。
-title: 設定Adobe Target Visual Experience Composer
+title: 設定視覺體驗撰寫器(Vec)
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 51%
+source-wordcount: '712'
+ht-degree: 50%
 
 ---
 
 
 # 設定視覺體驗撰寫器
 
-指定[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定&lt;a0/> &lt;a1/>。
+指定[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定 。
 
 要訪問[!UICONTROL Visual Experience Composer]配置頁，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]。**
 
@@ -63,7 +63,7 @@ ht-degree: 51%
 
 ![「移動視區配置」部分](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-按一下「新增」、指定行動檢視區的描述性名稱、指定寬度和高度、選取所要的作業系統，然後按一下「儲存」。[!UICONTROL **]**
+按一下「新增」、指定行動檢視區的描述性名稱、指定寬度和高度、選取所要的作業系統，然後按一下「儲存」。****
 
 如需如何新增行動檢視區的詳細資訊，請參閱[行動檢視區設定](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 
