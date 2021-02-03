@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
+keywords: faq;常見問題集;analytics for target;a4T;報表;檢視報表;計數方法;曝光次數;訪客;造訪;預設量度;活動轉換;未指定
 description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於檢視報表問題的回答。
-title: 檢視報表 - A4T 常見問題集
+title: 檢視報表- A4T常見問答集
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2368'
 ht-degree: 54%
 
 ---
@@ -89,28 +89,28 @@ A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算�
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 使用者在 2 月 1 日回來並檢視其他五個頁面，且沒有遇到更多的 Target 活動，而原始活動已非使用中。即使活動已不再進行，仍然會透過 eVar 持續性來追蹤使用者。現在，資料看起來像這樣:
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 1 | 10 | 2 | 3 |
 
 使用者在 3 月 1 日回來，看到新的活動 ABC。使用者還檢視五個頁面。因為活動 XYZ 仍透過持續性在追蹤使用者，接著使用者就遇到 ABC，我們在報表中會看到兩行項目:
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 3 | 3 |
 
 接著，使用者在 4 月 1 日回來，檢視另外五個頁面並購物。這第一個 eVar 值的 90 天期限在 4 月 1 日重設，所以我們會在報表中看見。使用者看到的所有 Target 活動皆獲得轉換的點數，但轉換總數已去除重複性。
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 | 訂單 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 3 | 3 |
-| ABC | 1 | 10 | 2 | 3 | 1 |
-| 總計 | 2 | 20 | 3 | 3 | 3 |
+| XYZ | 3 | 20 | 4 | 3 | 3 |
+| ABC | 3 | 10 | 2 | 3 | 3 |
+| 總計 | 2 | 20 | 1 | 1 | 3 |
 
 因為兩個體驗皆在轉換之前被看到，所以皆獲得訂單的「點數」。但系統中僅會有一個訂單生效，並透過總計反映出來。對於[!DNL Target]報表，由於您未將[!DNL Target]活動放在其他活動上，以查看哪個活動更成功，因此使用者所看到的所有活動是否都獲得評價並不重要。 您是在比較單一活動內兩個項目的結果，而使用者不可能在相同個活動中看到不同的體驗，所以不必擔心訂單點數交叉污染。
 
