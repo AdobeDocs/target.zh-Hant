@@ -1,14 +1,14 @@
 ---
-keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: 建議金鑰；建議邏輯；當前類別；自訂屬性；上次購買項目；上次查看項目；最多查看項目；最多查看項目；最多查看項目；最愛類別；人氣；最近查看項目；最近購買；上次查看；最近查看；最近查看；最近查看
 description: 根據索引鍵的建議會使用訪客行為上下文來顯示Adobe Target Recommendations活動的相關結果。
-title: 讓建議以建議索引鍵為依據
+title: 讓建議以建議金鑰為依據
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2889'
-ht-degree: 69%
+source-wordcount: '2924'
+ht-degree: 68%
 
 ---
 
