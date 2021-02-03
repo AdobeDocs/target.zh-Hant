@@ -1,13 +1,13 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
+keywords: analytics追蹤伺服器；A4T;Adobe Experience Cloud除錯程式；Adobe Experience Platform除錯程式；報告來源；開發人員工具
 description: 如果您使用較舊版本的 at.js 或 mbox.js，您必須針對使用 Analytics for Target (A4T) 的活動指定分析追蹤伺服器。
-title: 使用 Analytics 追蹤伺服器
+title: 使用Analytics追蹤伺服器
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 27%
+source-wordcount: '713'
+ht-degree: 25%
 
 ---
 
