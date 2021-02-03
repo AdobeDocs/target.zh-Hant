@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
+keywords: 對象;對象規則;合併對象;排除;新增排除項目;隨選對象
 description: 快速結合多個對象 (包括 Adobe Experience Cloud 對象和 Target 對象)，以建立隨選對象。您也可以從規則建立排除規則和排除對象。
-title: 在 Adobe Target 中合併多個受眾
-feature: audiences
+title: 合併多個對象
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 99%
 
 ---
