@@ -1,12 +1,12 @@
 ---
-keywords: traffic estimator;automated personalization;ap;estimate traffic
+keywords: 流量估計器；自動個人化；ap；估計流量
 description: 「流量估計器」提供意見回饋，讓您知道您是否有足夠的流量讓Adobe Target活動成功。
 title: 預估成功所需的流量
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '738'
 ht-degree: 25%
 
 ---
