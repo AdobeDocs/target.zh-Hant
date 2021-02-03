@@ -1,12 +1,12 @@
 ---
-keywords: random forest;decision tree;ap;Automated Personalization
+keywords: 隨機森林；決策樹；ap；自動個人化
 description: Target 用於自動個人化和自動鎖定目標的主要個人化演算法為隨機森林 (Random Forest)。隨機森林之類的整體方法會使用多個學習演算法，相較於任何建構式學習演算法可獲得更好的預測性效能。自動個人化中的隨機森林演算法為一種分類或迴歸方法，其運作方式是在訓練時建構許多決策。
 title: 隨機森林演算法
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1463'
 ht-degree: 97%
 
 ---
