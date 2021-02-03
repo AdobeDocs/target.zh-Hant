@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;offer;reporting;group;reporting group
+keywords: 自動個人化；選件；報告；組；報告組
 description: 有關在Adobe Target的「自動個人化(AP)」活動中使用報告群組的資訊。
-title: 在Adobe Target的「自動個人化(AP)」活動中提供報表群組
+title: 自動個人化(AP)活動中的選件報告群組
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 64%
+source-wordcount: '433'
+ht-degree: 63%
 
 ---
 
