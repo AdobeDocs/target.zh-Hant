@@ -1,13 +1,13 @@
 ---
-keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
+keywords: report;reporting;reporting;experience cloud解決方案；時區；時區；貨幣；排除IP；估計收入提升；收入提升；收入提升；細粒度優先順序；細粒度
 description: 設定一般設定，以用於套用至整個Target帳戶的Adobe Target報表。 您可以設定Adobe Experience Cloud解決方案以用於報告（Target或Analytics）、用於報告的時區和貨幣格式、要排除在報告之外的IP位址，以及是否顯示預估的營收提升度以及報告中的精細優先順序。
-title: 在Adobe Target中設定報表
+title: 設定報表
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 31%
+source-wordcount: '728'
+ht-degree: 30%
 
 ---
 
