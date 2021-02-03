@@ -1,18 +1,18 @@
 ---
-keywords: security;security practices
+keywords: 安全性;安全性實務
 description: 關於 Adobe 所實作以支持資料的安全性和 Adobe Target 體驗的深入方法和安全性程序的資訊。
-title: Target 安全性概覽
+title: 安全性概觀
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 92%
 
 ---
 
 
-# Target 安全性概述
+# Target 安全性概覽
 
 [!DNL Adobe] 為了加強資料和 [!DNL Adobe Target] 體驗的安全性，而實作的深度方法與安全性程序的相關資訊。
 
