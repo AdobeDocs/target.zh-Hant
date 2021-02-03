@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;location service;adobe experience cloud location service;pois;points of interest;sdk;location
+keywords: 行動應用程式；行動應用程式位置；目標行動應用程式；行動目標位置；定位服務；adobe體驗雲端位置服務；pois；地標；sdk；位置
 description: 本主題概述如何在Adobe Target中使用Adobe Experience Platform Location Service。
 title: 使用位置服務
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
