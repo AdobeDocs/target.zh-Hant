@@ -1,12 +1,12 @@
 ---
-keywords: vec;visual experience composer; vec;iframe;extension;browser
+keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
 description: 提供使用 Adobe Target 可視化體驗撰寫器 (VEC) Helper 瀏覽器擴充功能，在 VEC 內以可靠的方式載入網站來迅速撰寫體驗和保證體驗品質的資訊。
-title: Adobe Target 可視化體驗撰寫器 (VEC) Helper 擴充功能
+title: Visual Experience Composer(VEC)Helper Extension
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 56%
 
 ---
@@ -47,7 +47,7 @@ Google Chrome的[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC
 1. 按一下&#x200B;**[!UICONTROL 「新增至 Chrome > 新增擴充功能」]**。
 1. 在[!DNL Target]中開啟VEC。
 1. 若要使用擴充功能，請在 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)中時，按一下 Chrome 瀏覽器工具列上的 VEC Helper 瀏覽器擴充功能圖示 (![VEC Helper 圖示](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
-1. （條件性）如果網頁尚未包含&#x200B;]**at.js JavaScript程式庫，請投影片「插入目標程式庫」**[!UICONTROL &#x200B;切換至「開啟」位置。[!DNL Target]
+1. （條件性）如果網頁尚未包含[!DNL Target] at.js JavaScript程式庫，請投影片「插入目標程式庫」]**切換至「開啟」位置。**[!UICONTROL 
 
    下圖顯示已啟用[!UICONTROL 插入 Target 資料庫]設定的 VEC Helper:
 
