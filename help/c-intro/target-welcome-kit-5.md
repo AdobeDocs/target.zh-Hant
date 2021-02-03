@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
 description: Adobe Target歡迎套件——第5章——測試和個人化活動的靈感
-title: Adobe Target歡迎套件——第5章——測試和個人化活動的靈感
+title: 歡迎套件——第5章——測試和個人化活動的靈感
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
