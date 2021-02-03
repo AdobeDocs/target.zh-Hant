@@ -1,13 +1,13 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
+keywords: apple;ITP；智慧跟蹤預防；experience cloud id;ecid
 description: 透過Experience Cloud ID(ECID)程式庫4.3，瞭解Apple ITP 2.x的Adobe Target支援。
-title: Adobe Target 和 Apple ITP 支援
+title: Target和Apple ITP支援
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 53%
+source-wordcount: '905'
+ht-degree: 52%
 
 ---
 
