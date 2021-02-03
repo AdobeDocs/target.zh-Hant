@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: 近期活動的相關資訊，包括Adobe Target Skill Builder研討會、開發人員聊天、網路研討會和Target Coffee Break研討會。
-title: Target公告
+keywords: 公告；技能建立者；開發人員聊天；咖啡休息；活動；forrester;gartner；網路研討會
+description: 我可以在哪裡找到近期活動和網路研討會？
+title: 公告與活動
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
