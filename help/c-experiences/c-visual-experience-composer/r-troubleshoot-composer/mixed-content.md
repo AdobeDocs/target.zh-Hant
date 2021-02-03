@@ -1,12 +1,12 @@
 ---
-keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
+keywords: 混合內容；安全；不安全；chrome；疑難排解；vec；視覺體驗撰寫器；不安全；http;https;firefox;internet explorer
 description: 如果安全的內容與不安全的內容混合，則某些瀏覽器會封鎖頁面的顯示。
-title: 在瀏覽器中啟用混合內容
+title: 在您的瀏覽器中啟用混合的內容
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '574'
 ht-degree: 35%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 35%
 
 如果您正將VEC與最新版Chrome（79.0.3945.117版或更新版本）搭配使用，則需要更新網站設定。 您網站的訪客不需要完成這些步驟。
 
-1. 按一下鎖定或警告圖示，然後按一下「網站設定」**[!UICONTROL 。]**
+1. 按一下鎖定或警告圖示，然後按一下「網站設定」]**。**[!UICONTROL 
 
    ![網站設定](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -79,7 +79,7 @@ ht-degree: 35%
 
 如果您正將VEC與最新版Edge搭配使用，則需要更新網站設定。 您網站的訪客不需要完成這些步驟。
 
-1. 按一下鎖定或警告圖示，然後按一下「網站權限&#x200B;**[!UICONTROL 」。]**
+1. 按一下鎖定或警告圖示，然後按一下「網站權限&#x200B;]**」。**[!UICONTROL 
 
    ![Microsoft Edge中的網站權限](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
