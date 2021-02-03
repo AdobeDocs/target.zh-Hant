@@ -1,13 +1,13 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: 目標與設定；目標；優先順序；持續時間
 description: 使用Adobe Target中的「活動設定」來管理活動的目標、優先順序和持續時間。
 title: 活動設定
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '409'
+ht-degree: 82%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 83%
 
    如果[!UICONTROL Administration] > [!UICONTROL Reporting]（預設值）中未啟用此選項，請指定優先順序：低、中或高。
 
-   要啟用細粒度優先順序，請按一下「管理」>「報告」[!UICONTROL ，然後將「啟用細粒度優先順序」]選項切換到「開啟」位置。]][!UICONTROL [!UICONTROL 
+   要啟用細粒度優先順序，請按一下「管理」>「報告」[!UICONTROL ，然後將「啟用細粒度優先順序」]選項切換到「開啟」位置。][!UICONTROL 
 
    如果已啟用此選項，請指定介於 0 和 999 之間的值:
 
