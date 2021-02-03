@@ -1,13 +1,13 @@
 ---
-keywords: implementation;mbox;download mbox.js;download api;mbox.js api
+keywords: 實施；mbox；下載mbox.js；下載api;mbox.js api
 description: 若要使用Adobe Target Standard或Target Premium，請新增一行程式碼以呼叫mbox.js。
 title: mbox.js 實作
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 52%
+source-wordcount: '264'
+ht-degree: 50%
 
 ---
 
