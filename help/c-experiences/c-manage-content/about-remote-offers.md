@@ -1,13 +1,13 @@
 ---
-keywords: remote offer;remote offer selection matrix;cached content;dynamic content;url type
+keywords: 遠程選件；遠程選件選擇矩陣；快取內容；動態內容；url類型
 description: 我可以使用遠端選件來代管外部內容嗎？
 title: 建立遠端選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 51%
+source-wordcount: '1059'
+ht-degree: 50%
 
 ---
 
