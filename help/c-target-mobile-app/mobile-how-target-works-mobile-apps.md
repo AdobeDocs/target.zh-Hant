@@ -1,9 +1,9 @@
 ---
 description: Adobe Mobile SDK 會連絡 Target 伺服器來取得內容以及其他資料點，對使用者顯示正確的體驗。
-title: Target 在行動應用程式中如何運作
-feature: mobile implementation
+title: Target 在行動應用程式中的運作方式
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
