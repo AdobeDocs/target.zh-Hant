@@ -1,13 +1,13 @@
 ---
-keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
+keywords: 時間範圍;開始日期;結束日期;開始/結束日期;目標排程;週劃分;日劃分;劃分
 description: 您可以新增開始/結束日期和時間，以鎖定在特定時間範圍期間造訪您的網站的使用者。您也可以設定「週與日劃分」選項，來為對象鎖定目標建立週期性模式。
-title: Adobe Target觀眾中的時間範圍選項
-feature: audiences
+title: 觀眾中的時間範圍選項
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 96%
+source-wordcount: '425'
+ht-degree: 97%
 
 ---
 
