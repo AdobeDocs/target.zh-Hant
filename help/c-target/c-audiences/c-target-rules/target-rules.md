@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: 鎖定目標;目標類別;目標條件;audience manager;自訂設定檔參數;訪客設定檔;自訂使用者參數;目標規則
 description: 您可以定位數個類別。每個類別會如同標籤般運作，這可讓您為每個類別建立定位規則 (或群組)。
 title: 對象的類別
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '386'
 ht-degree: 98%
 
 ---
