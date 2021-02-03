@@ -1,13 +1,13 @@
 ---
-keywords: qa;preview;bookmarklet;preview links
+keywords: qa;預覽;書籤小程式;預覽連結
 description: 此資訊可協助您使用Adobe Target QA書籤小工具來強制Target從QA模式釋放您。
-title: Adobe Target的活動QA書籤小工具
+title: 活動 QA 小書籤
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 26%
+source-wordcount: '263'
+ht-degree: 28%
 
 ---
 
