@@ -1,13 +1,13 @@
 ---
-keywords: multivariate;mvt;preview;experiences
+keywords: 多變數；mvt;preview;experiences
 description: 由於Adobe Target中的多變數測試會比較頁面上的多個體驗，因此預覽包含每個體驗的頁面會很有幫助。
-title: 在Adobe Target中預覽多變數測試的體驗
+title: 多變數測試(MVT)的預覽體驗
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 69%
+source-wordcount: '200'
+ht-degree: 68%
 
 ---
 
