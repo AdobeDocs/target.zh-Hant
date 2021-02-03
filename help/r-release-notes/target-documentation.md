@@ -1,12 +1,12 @@
 ---
-keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: Adobe Target檔案提供多種格式，包括使用者介面、SKD和API的概觀、教學課程和指南。
-title: Target公告
+keywords: adobe target;target;documentation;api;api;api;sdk;sdk;sdk；教學課程；doc;documentation
+description: 我可以在哪裡找到Target檔案？
+title: 檔案概觀
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
