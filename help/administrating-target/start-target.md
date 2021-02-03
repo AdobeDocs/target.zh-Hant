@@ -1,12 +1,12 @@
 ---
-keywords: Administration;approver role;approver
+keywords: 管理;核准者角色;核准者
 description: Adobe Target管理員在收到Adobe Experience Cloud的電子郵件邀請後，應該採取的第一步。
 title: 管理員入門
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '403'
 ht-degree: 84%
 
 ---
