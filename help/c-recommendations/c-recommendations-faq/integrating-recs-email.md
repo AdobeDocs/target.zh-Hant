@@ -1,12 +1,12 @@
 ---
-keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
+keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
 description: 關於將電子郵件與 Recommendations 整合方式的資訊。
-title: 將 Recommendations 與電子郵件整合
+title: 將建議與電子郵件整合
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1475'
 ht-degree: 90%
 
 ---
