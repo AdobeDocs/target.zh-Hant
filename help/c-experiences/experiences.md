@@ -1,13 +1,13 @@
 ---
-keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
+keywords: 體驗；視覺體驗撰寫器；增強的體驗撰寫器；表單基礎體驗撰寫器；表單撰寫器；視覺撰寫器；體驗撰寫器；混合內容；iframe;iframe;iframe busting;bustiframe;x-frame-options;x畫格選項；交叉來源問題；驗證工作流程
 description: Adobe Target中的體驗會決定當訪客符合活動的觀眾條件時，會顯示哪些內容。
-title: 體驗與選件
+title: 體驗與優惠
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 89%
+source-wordcount: '376'
+ht-degree: 80%
 
 ---
 
