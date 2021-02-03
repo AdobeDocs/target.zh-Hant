@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;xt;activity url;url
+keywords: 體驗定位；xt;activity url;url
 description: 「活動URL」會決定Adobe Target Experience Targeting活動中使用的頁面，並在設計活動時在Visual Experience Composer(VEC)或Form-Based Experience Composer中開啟的頁面。
 title: 活動 URL
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '286'
+ht-degree: 65%
 
 ---
 
