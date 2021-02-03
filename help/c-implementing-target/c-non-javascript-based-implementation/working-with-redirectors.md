@@ -1,12 +1,12 @@
 ---
-keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
+keywords: 實作;mbox.js non javascript;重新導向程式;每次點擊成本;每次點擊收入
 description: 使用「重新導向程式」的方式和您在測試中使用 mbox 類似。
-title: 使用重新導向程式
-feature: email implementation
+title: 與重新導向程式搭配使用
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '670'
 ht-degree: 69%
 
 ---
