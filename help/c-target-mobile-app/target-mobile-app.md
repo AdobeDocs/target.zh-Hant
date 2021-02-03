@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
+keywords: 行動應用程式;行動應用程式程序;target 行動應用程式;行動 target 位置;行動應用程式成功量度
 description: Target 可用於行動應用程式最佳化和個人化
 title: 適用於行動應用程式的 Target
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 95%
+source-wordcount: '132'
+ht-degree: 96%
 
 ---
 
