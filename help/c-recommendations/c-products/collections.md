@@ -1,12 +1,12 @@
 ---
-keywords: collection;Targeting
+keywords: 集合;鎖定目標
 description: 集合是 Adobe Target 中符合建議資格的一組產品或項目。
-title: Adobe Target 中的集合
+title: 集合
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 61%
 
 ---
