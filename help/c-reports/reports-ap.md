@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
+keywords: 定位；AP報告；自動個人化報告；活動級別報告；選件級別報告；選件詳細資訊報告；常見問題
 description: 如何使用「自動個人化摘要」報表？
 title: 自動個人化摘要報表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 24680f707928201b9390c0e71e54fc549c81e165
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 41%
+source-wordcount: '649'
+ht-degree: 40%
 
 ---
 
