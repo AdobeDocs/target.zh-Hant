@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;webkit
+keywords: 概覽和參考資料;webkit
 description: Cookie 的行為取決於其屬於第一方 Cookie、具有第一方 Cookie 的第三方 Cookie，或是獨立的第三方 Cookie。
 title: mbox.js Cookie
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1642'
 ht-degree: 94%
 
 ---
