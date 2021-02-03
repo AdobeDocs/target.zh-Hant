@@ -4,7 +4,7 @@ description: 使用Adobe Target中的Visual Experience Composer(VEC)，直接在
 title: 建立自動分配活動
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 58%
