@@ -1,12 +1,12 @@
 ---
-keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
+keywords: at.js faq;at.js 常見問題集;忽隱忽現;載入工器;頁面載入器;跨網域;檔案大小;x-網域;at.js 與 mbox.js;僅限 x;safari;單頁應用程式;缺少選取器;選取器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 位址;httponly;HttpOnly;安全;ip;Cookie 網域
 description: 有關 Adobe Target at.js JavaScript 資料庫的常見問題解答。
-title: Adobe Target at.js 常見問題
+title: at.js 常見問題
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2698'
 ht-degree: 94%
 
 ---
@@ -89,7 +89,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 若要非同步載入 at.js:
 
-* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。如需詳細資訊，請參閱「使用Launch在網站中實作Experience Cloud」教學課程的[新增Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)一節。](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)[
+* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。如需詳細資訊，請參閱「使用Launch在網站中實作Experience Cloud」教學課程的[新增Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)一節。[](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)
 * 您也可以在載入 at.js 的指令碼標記中新增 async 屬性，就能非同步載入 at.js。您應該使用如下的指令碼:
 
    ```
@@ -109,7 +109,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形， 它會隱藏頁面 (或指定部分)，然後在 at.js 和全域要求完全載入後顯示內容。您必須在載入 at.js 之前新增此程式碼片段。
 
-如果您透過非同步的Launch實作部署at.js，請務必在啟動內嵌程式碼之前，直接將預先隱藏的程式碼片段加入您的頁面，如[在Launch教學課程中實作網站Experience Cloud中的「新增目標預先隱藏程式碼片段](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)」一節所述。](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)[
+如果您透過非同步的Launch實作部署at.js，請務必在啟動內嵌程式碼之前，直接將預先隱藏的程式碼片段加入您的頁面，如[在Launch教學課程中實作網站Experience Cloud中的「新增目標預先隱藏程式碼片段](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)」一節所述。[](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)
 
 如果您是透過同步 DTM 實作部署 at.js，可透過頁面頂端觸發的頁面載入規則新增預先隱藏的程式碼片段。
 
