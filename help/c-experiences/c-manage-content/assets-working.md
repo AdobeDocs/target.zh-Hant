@@ -1,13 +1,13 @@
 ---
-keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
+keywords: 內容資料庫; 資產; 注釋; 複製; 刪除資產; 下載資產; 編輯內容; 共用卡片; 檢視內容屬性
 description: 如何在內容庫中使用資產
-title: 使用程式庫中的內容
+title: 在資料庫中處理內容
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 37%
+source-wordcount: '743'
+ht-degree: 38%
 
 ---
 
