@@ -1,12 +1,12 @@
 ---
-keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
+keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
 description: 在 Adobe Target 中建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
-title: Adobe Target觀眾中的行動選項
-feature: audiences
+title: 觀眾中的行動選項
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '604'
 ht-degree: 98%
 
 ---
