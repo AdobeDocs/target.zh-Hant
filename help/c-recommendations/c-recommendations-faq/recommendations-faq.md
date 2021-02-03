@@ -1,12 +1,12 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
+keywords: 疑難排解;常見問題集;FAQ;建議;特殊字元;屬性加權;內容相似度
 description: 關於Adobe Target Recommendations活動的常見問題(FAQ)清單。
-title: Adobe Target Recommendations常見問答集
+title: Target Recommendations常見問答集
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2031'
 ht-degree: 80%
 
 ---
