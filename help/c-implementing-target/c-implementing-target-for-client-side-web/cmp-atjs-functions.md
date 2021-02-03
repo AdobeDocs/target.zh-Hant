@@ -1,12 +1,12 @@
 ---
-keywords: at.js;functions;javascript library
+keywords: at.js;函數;JavaScript 程式庫
 description: 可與 Adobe Target 中的 at.js JavaScript 資料庫搭配使用的函數清單。
-title: Adobe Target at.js 函數
+title: at.js 函數
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
