@@ -1,12 +1,12 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
+keywords: 包含規則；包含條件；建議；促銷；動態過濾；動態；配置檔案屬性匹配
 description: 透過比較項目（實體）與使用者設定檔中的值，在Adobe Target Recommendations中動態篩選。
-title: 在Adobe Target Recommendations中動態包含規則中依描述檔屬性比對篩選
+title: 目標建議中動態包含規則中的描述檔屬性匹配篩選
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '485'
 ht-degree: 7%
 
 ---
