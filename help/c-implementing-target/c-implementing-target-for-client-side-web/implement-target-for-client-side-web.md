@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementation;at.js;adobe experience platform web sdk;aep web sdk
+keywords: 實施；實施；at.js;adobe體驗平台網頁sdk;aep網頁sdk
 description: 有關使用at.js為用戶端網頁實作Adobe Target的資訊。
-title: 為用戶端 Web 實作 Adobe Target
+title: 實作用戶端網路專用的Adobe Target
 feature: at.js
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 20%
+source-wordcount: '341'
+ht-degree: 18%
 
 ---
 
