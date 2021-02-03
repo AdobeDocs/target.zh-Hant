@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;act
-description: 能幫助您瞭解 Adobe Target 特色與功能之重要概念的相關資訊。
-title: Target 重要概念
+keywords: 概覽和參考資料;act
+description: 我要如何理解和使用Target?
+title: 重要概念
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1507'
 ht-degree: 98%
 
 ---
