@@ -1,13 +1,13 @@
 ---
 keywords: recommendations Classic
 description: Adobe Recommendations Classic 文件。
-title: Adobe Recommendations Classic 文件。
+title: Adobe Recommendations Classic檔案
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 76%
+source-wordcount: '103'
+ht-degree: 72%
 
 ---
 
