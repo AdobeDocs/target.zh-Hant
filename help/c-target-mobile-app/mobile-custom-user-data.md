@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
+keywords: 行動應用程式;行動應用程式傳送資料;target 行動應用程式;行動自訂使用者資料;行動應用程式自訂資料
 description: 您可以以名稱值組的方式將關於位置或使用者的其他資訊傳送至 Target。
-title: iOS - 傳送自訂使用者資料
-feature: mobile implementation
+title: IOS —— 傳送自訂使用者資料
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 98%
 
 ---
 
