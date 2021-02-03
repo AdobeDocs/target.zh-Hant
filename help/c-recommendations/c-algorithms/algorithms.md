@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
+keywords: recommendations;recommendations活動；准則；算法；建議鍵；自訂鍵；行業垂直；零售；eccommerce;lead generation;b2b；金融服務；媒體；發佈
 description: Adobe Target中的准則是規則，可根據一組預先確定的訪客行為來決定要推薦哪些產品或內容。
-title: Adobe Target Recommendations中的條件
+title: 目標建議中的標準
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 53%
+source-wordcount: '1079'
+ht-degree: 52%
 
 ---
 
