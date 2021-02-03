@@ -1,13 +1,13 @@
 ---
-keywords: template testing;template;same experience on similar pages;template test
+keywords: 範本測試; 範本; 類似頁面上有相同體驗; 範本測試
 description: 使用Adobe Target中的頁面範本為您的頁面提供結構，或是您的頁面包含類似元素時，測試類似結構頁面元素的變化。
-title: 在使用Adobe Target的類似頁面上加入相同的體驗
+title: 在類似頁面上包含相同體驗
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 45%
+source-wordcount: '615'
+ht-degree: 47%
 
 ---
 
