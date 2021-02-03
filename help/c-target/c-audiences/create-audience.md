@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;create audience;creating audience
+keywords: 對象;對象規則;建立對象;建立對象
 description: 您可以建立自訂的對象，並將對象儲存至 Target 資料庫以在您的活動中使用。您可以複製現有對象，然後可以編輯對象以建立類似的對象並結合多個對象。
-title: 在 Target 中建立對象
-feature: audiences
+title: 建立觀眾
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '478'
 ht-degree: 99%
 
 ---
