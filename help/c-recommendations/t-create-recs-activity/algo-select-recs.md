@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm
+keywords: 建議；建議活動；條件；算法
 description: 選取要在您的 Adobe Target Recommendations 活動中使用的條件。
 title: 選取條件
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 82%
+source-wordcount: '386'
+ht-degree: 81%
 
 ---
 
