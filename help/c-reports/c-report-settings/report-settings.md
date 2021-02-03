@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
+keywords: Target;報表;報表設定;預設集;target 預設集;量度;對象;日期範圍;設定;下載;表格檢視;圖表檢視;平均提升度;提升度;提升度界限;信賴區間;信賴;位置貢獻;執行中的平均值;計數方法
 description: 這些資訊可協助您設定要顯示在Adobe Target報表中的元素。 可以儲存報表設定以供稍後使用。
 title: 報表設定
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 68%
+source-wordcount: '1922'
+ht-degree: 69%
 
 ---
 
