@@ -1,12 +1,12 @@
 ---
-keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
+keywords: 動態資料;資產;資料;選件;個人化選件;個人化選件;token 取代
 description: 如何直接在HTML或JSON選件中傳遞描述檔值和活動資訊？
 title: 將動態資料傳遞至選件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '502'
 ht-degree: 81%
 
 ---
