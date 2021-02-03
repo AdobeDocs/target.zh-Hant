@@ -1,13 +1,13 @@
 ---
-keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;functions;function
+keywords: adobe.target.applyOffer;applyOffer;applyoffer;套用選件;at.js;函數;函數
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffer(options) 函數的資訊。
-title: adobe.target.applyOffer(options)
+title: Adobe.Target.Applyoffer(Options)
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 98%
 
 ---
 
