@@ -1,13 +1,13 @@
 ---
-keywords: implement;at.js;javascript library
+keywords: 實作;at.js;javascript 資料庫
 description: 有關如何使用 Adobe Launch、不使用標記管理程式，或使用 Adobe 動態標籤管理 (DTM) 部署 Adobe Target JavaScript 程式庫和 at.js 的資訊。
-title: 如何部署 at.js
+title: 如何部署at.js
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 57%
+source-wordcount: '312'
+ht-degree: 56%
 
 ---
 
