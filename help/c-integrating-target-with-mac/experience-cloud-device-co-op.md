@@ -1,13 +1,13 @@
 ---
-keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;device graph
+keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;裝置圖表
 description: 提供 Adobe Experience Cloud Device Co-op 的相關資訊。Adobe Experience Cloud Device Co-op 計劃可讓參與者共同合作，以在數位接觸點間更能識別客戶，同時確保最高層級的隱私權和透明度。
-title: Experience Cloud Device Co-op
+title: Experience Cloud Device Co-Op
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 84%
+source-wordcount: '187'
+ht-degree: 83%
 
 ---
 
