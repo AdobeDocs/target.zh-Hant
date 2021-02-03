@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: 概覽和參考
 description: 訪客設定檔包含關於您的訪客如何使用您的頁面，和其他最佳化內容位置的資訊
 title: 訪客設定檔
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
