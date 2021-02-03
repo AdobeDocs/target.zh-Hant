@@ -1,18 +1,18 @@
 ---
-keywords: activity settings;goals and settings;multivariate;mvt
+keywords: 活動設定；目標和設定；多變數；mvt
 description: 在Adobe Target的「目標與設定」頁面中，您可輸入有關測試目標的資訊。
 title: 目標與設定
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 93%
+source-wordcount: '1265'
+ht-degree: 92%
 
 ---
 
 
-# 目標與設定 （多變數測試）
+# 目標與設定（多變數測試）
 
 在Adobe Target的「目標與設定」頁面中，您可輸入[!UICONTROL 多變數](MVT)測試目標的相關資訊。
 
