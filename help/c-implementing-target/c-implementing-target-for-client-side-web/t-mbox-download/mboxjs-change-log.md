@@ -1,12 +1,12 @@
 ---
-keywords: mbox.js changes;mbox.js versions
+keywords: mbox.js 變更;mbox.js 版本
 description: 本頁面顯示每個 mbox.js 版本的變更。
 title: mbox.js 版本詳細資料
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2397'
 ht-degree: 95%
 
 ---
