@@ -1,13 +1,13 @@
 ---
-keywords: recommendation;backup;back up
+keywords: 建議;備用
 description: 如果您在Adobe Target中使用備份建議功能，則任何沒有足夠建議項目的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
-title: 使用備份建議 在Adobe Target Recommendations中
+title: 在Target Recommendations中使用備份建議
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 83%
+source-wordcount: '526'
+ht-degree: 82%
 
 ---
 
