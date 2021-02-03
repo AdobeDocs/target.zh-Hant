@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: 概覽和參考
 description: 依預設，訪客描述檔會儲存 14 天。但可延長此描述檔存留期。
-title: 訪客設定檔存留期
-feature: visitor profiles
+title: 訪客描述檔存留期
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 83%
 
 ---
