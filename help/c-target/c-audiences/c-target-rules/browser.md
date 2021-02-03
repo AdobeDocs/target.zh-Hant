@@ -1,12 +1,12 @@
 ---
-keywords: browser options;type;browser type;browser language;language;version;browser version
+keywords: 瀏覽器選項;類型;瀏覽器類型;瀏覽器語言;語言;版本;瀏覽器版本
 description: 您可以在 Adobe Target 中建立受眾，鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
-title: Adobe Target 受眾中的瀏覽器選項
-feature: audiences
+title: 瀏覽器選項對象
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '656'
 ht-degree: 99%
 
 ---
