@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
+keywords: 疑難排解；量度差異；常見問答；報告；新訪客；新訪客；舊訪客；舊訪客；舊訪客；回訪；新瀏覽
 description: 關於 Adobe Target 中報表常見問題集的清單。
-title: Adobe Target 的報表常見問題集
+title: 報表常見問題集
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 31%
+source-wordcount: '1124'
+ht-degree: 30%
 
 ---
 
