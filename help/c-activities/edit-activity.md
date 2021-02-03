@@ -1,13 +1,13 @@
 ---
-keywords: activities;activity;activity types;edit activity;edit;draft
+keywords: 活動; 活動類型; 編輯活動; 編輯; 草稿
 description: 有關您可以編輯Adobe Target中現有活動的不同方式的資訊，包括以草稿形式儲存活動。
 title: 編輯活動或另存為草稿
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 96%
+source-wordcount: '1123'
+ht-degree: 95%
 
 ---
 
