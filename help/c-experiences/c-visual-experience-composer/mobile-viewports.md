@@ -1,12 +1,12 @@
 ---
-keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
+keywords: 響應；移動視區；視區；設備；移動；響應網頁設計；rwd
 description: 行動檢視器可協助您預覽Adobe Target活動在各種大小螢幕上的顯示效果。
-title: 行動檢視區，提供互動式體驗
+title: 回應式體驗的行動檢視區
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1453'
 ht-degree: 68%
 
 ---
