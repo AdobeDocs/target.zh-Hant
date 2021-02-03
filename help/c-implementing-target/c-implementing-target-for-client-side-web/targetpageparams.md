@@ -1,12 +1,12 @@
 ---
-keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;page parameters;at.js;functions;function
+keywords: targetPageParams;targetpageparams;pageParams;pageparams;頁面參數;頁面參數;at.js;函數;函數
 description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetPageParams() 函數的資訊。
-title: targetPageParams()
+title: Targetpageparams()
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '150'
 ht-degree: 88%
 
 ---
