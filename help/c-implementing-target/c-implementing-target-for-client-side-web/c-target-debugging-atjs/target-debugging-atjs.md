@@ -1,13 +1,13 @@
 ---
-keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
+keywords: at.js;除錯 at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox 醒目提示
 description: 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
-title: 使用 Adobe Experience Cloud Debugger 除錯 at.js
+title: 使用Adobe Experience Cloud除錯程式除錯At.Js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 83%
+source-wordcount: '196'
+ht-degree: 81%
 
 ---
 
