@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
 description: Adobe Target歡迎套件——第4章——使用Target的秘訣
-title: Adobe Target歡迎套件——第4章——使用Target的秘訣
+title: 歡迎套件——第4章——使用Target的秘訣
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2880'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 如需逐步指示，請參閱Adobe Target中的[A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和[體驗版本中的](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)多個體驗對象。
 
-## 提示8:在類似頁面上複製活動體驗，以節省時間。
+## 提示8:在類似頁面上複製活動體驗以節省時間。
 
 在單一網頁上建立變數（例如新的按鈕顏色），並自動套用至共用相同範本的所有頁面。 您可以指定頁面，或將變數套用至網站上所有類似的頁面。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 設定活動以使用QA參數的好處之一，就是您可以與團隊中的每個人共用這些連結。 您可以讓更多人知道此活動，並確保他們在點擊測試變體時，不認為網站運作不正常。
 
-完成測試後，您可以通訊促銷活動啟動、測試結果，尤其是所學的課程，協助您建立對測試結果的認知和興趣。 與組織中的每個人分享結果也避免重新測試假設、教育每個人什麼有效，並協助他們根據您的發現，從根本上挑戰自己對什麼有效的想法。 您最好準備一個範本，每次都用來分享您的發現和關鍵學習。
+完成測試後，您可以通訊促銷活動啟動、測試結果，尤其是所學的課程，協助您建立對測試結果的認知和興趣。 與組織中的每個人分享結果也避免重新測試假設、教育每個人有效的概念，並協助他們根據您的發現，從根本上挑戰自己對有效的概念。 您最好準備一個範本，每次都用來分享您的發現和關鍵學習。
 然後，考慮建立可共用的書籍或Microsoft PowerPoint資料夾，以累積擷取這些學習內容。
 
 ## 提示20:運用行動功能來建立更具創意的行動活動。
