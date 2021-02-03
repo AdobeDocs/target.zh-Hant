@@ -1,13 +1,13 @@
 ---
-keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
+keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
 description: 上傳 CSV 檔案來自訂您的建議。
 title: 上傳自訂條件
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 63%
+source-wordcount: '698'
+ht-degree: 64%
 
 ---
 
