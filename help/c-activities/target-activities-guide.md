@@ -1,12 +1,12 @@
 ---
-keywords: activities guide;activities;activity;activity types;activity actions
+keywords: 活動指南; 活動; 活動; 活動類型; 活動動作
 description: 下載說明 Adobe Target 中 (Recommendations 除外) 不同活動類型的互動式 PDF。
-title: Target 活動類型
+title: 活動類型
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1467'
 ht-degree: 97%
 
 ---
