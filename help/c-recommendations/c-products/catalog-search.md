@@ -1,12 +1,12 @@
 ---
-keywords: catalog search;catalog;search;exclusion;collection;filter
+keywords: 目錄搜索；目錄；搜索；排除；收集；過濾器
 description: 瞭解如何使用Recommendations目錄搜尋來尋找產品或內容、建立系列或排除、從目錄移除項目等。
 title: 如何使用Recommendations目錄搜尋
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1038'
 ht-degree: 17%
 
 ---
