@@ -1,13 +1,13 @@
 ---
-keywords: troubleshoot target;troubleshooting target;users;user management
+keywords: 對 Target 進行疑難排解; 使用者; 使用者管理
 description: 疑難排解關於在 Adobe Target 中管理使用者的資訊。
-title: 疑難排解Adobe Target中的使用者管理
+title: 疑難排解使用者管理
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 25%
+source-wordcount: '79'
+ht-degree: 32%
 
 ---
 
