@@ -1,12 +1,12 @@
 ---
-keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
+keywords: 除錯 mbox; 疑難排解 mbox; mbox 問題; 忽隱忽現; mboxDebug; mboxTrace; Token; 除錯工具; 優先順序; 活動優先順序; Adobe Experience Cloud Debugger; orderConfirmPage mbox; SiteCatalyst 購買 mbox; 熱賣; 最暢銷商品
 description: 如果您的頁面未顯示預期的內容，您可以執行一些步驟，以在Adobe Target中除錯內容傳送。
-title: 疑難排解Adobe Target中的內容傳送
+title: 疑難排解內容傳送
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1410'
 ht-degree: 60%
 
 ---
@@ -41,7 +41,7 @@ mboxDebug在您設定頁面上的[!DNL Target]，以確定[!DNL Target]請求已
 擷取授權 Token:
 
 1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 實施]**」。
-1. 在「除錯工具」區段中，按一下「產生新驗證Token **[!UICONTROL 」。]**
+1. 在「除錯工具」區段中，按一下「產生新驗證Token ]**」。**[!UICONTROL 
 
    ![產生新的驗證Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -115,7 +115,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 如需詳細資訊，請觀看下方的訓練影片:
 
-如需詳細資訊，請參閱「使用Adobe Experience Cloud除錯程式[除錯at.js」。](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+如需詳細資訊，請參閱「使用Adobe Experience Cloud除錯程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)除錯at.js」。[
 
 ## 如果在傳送期間 target.js 無法載入 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
