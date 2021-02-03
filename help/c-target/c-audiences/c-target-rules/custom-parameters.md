@@ -1,12 +1,12 @@
 ---
-keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
+keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
 description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
-title: Adobe Target 中的自訂參數
-feature: audiences
+title: 自訂參數
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 90%
 
 ---
