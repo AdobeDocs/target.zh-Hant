@@ -1,13 +1,13 @@
 ---
-keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
+keywords: recommendations feed;feed;SAINT;ftp;csv；分類；分析分類
 description: 使用動態消息將實體匯入Adobe Target Recommendations。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和/或 Adobe Analytics 產品分類來進行傳送。
-title: Adobe Target建議中的動態消息
+title: 目標建議中的動態消息
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2518'
-ht-degree: 85%
+source-wordcount: '2526'
+ht-degree: 84%
 
 ---
 
