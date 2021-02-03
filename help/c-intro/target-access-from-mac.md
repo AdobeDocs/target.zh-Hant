@@ -1,13 +1,13 @@
 ---
-keywords: Experience Cloud;sign in;language;default ui language;default language
-description: 從 Adobe Experience Cloud 存取 Adobe Target 的指示。
-title: 從 Adobe Experience Cloud 存取 Target
+keywords: Experience Cloud；登入；語言；預設ui語言；預設語言
+description: 如何從Adobe Experience Cloud存取Target?
+title: 從Adobe Experience Cloud存取Target
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 76%
+source-wordcount: '402'
+ht-degree: 69%
 
 ---
 
