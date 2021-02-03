@@ -1,12 +1,12 @@
 ---
-keywords: Click tracking;track clicks;clicks;AppMeasurement
+keywords: 點擊追蹤; 追蹤點擊; 點擊; AppMeasurement
 description: Adobe Target可讓您將任何元素的點按次數作為成功度量進行追蹤。
-title: 點擊追蹤
+title: 點按次數追蹤
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '881'
 ht-degree: 92%
 
 ---
