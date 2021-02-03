@@ -1,13 +1,13 @@
 ---
-keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
+keywords: 實作;Mbox;mbox.js;下載 mbox.js;設定 mbox.js
 description: Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本。
 title: 下載 mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 67%
+source-wordcount: '267'
+ht-degree: 68%
 
 ---
 
