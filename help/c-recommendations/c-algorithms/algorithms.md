@@ -1,12 +1,12 @@
 ---
 keywords: recommendations;recommendations活動；准則；算法；建議鍵；自訂鍵；行業垂直；零售；eccommerce;lead generation;b2b；金融服務；媒體；發佈
-description: Adobe Target中的准則是規則，可根據一組預先確定的訪客行為來決定要推薦哪些產品或內容。
-title: 目標建議中的標準
+description: 瞭解如何在Adobe Target Recommendations中使用標準。 准則是根據一組預先確定的訪客行為來決定要推薦哪些內容的規則。
+title: 如何在Target Recommendations中使用條件？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 52%
 
 ---
