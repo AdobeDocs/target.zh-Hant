@@ -1,13 +1,13 @@
 ---
 keywords: 對象;對象規則;合併對象;排除;新增排除項目;隨選對象
-description: 快速結合多個對象 (包括 Adobe Experience Cloud 對象和 Target 對象)，以建立隨選對象。您也可以從規則建立排除規則和排除對象。
-title: 合併多個對象
+description: 瞭解如何即時合併多個觀眾（包括Adobe Experience Cloud觀眾和Target觀眾），以建立臨機觀眾。
+title: 我是否可結合多個觀眾以建立新觀眾？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 99%
+source-wordcount: '905'
+ht-degree: 95%
 
 ---
 
