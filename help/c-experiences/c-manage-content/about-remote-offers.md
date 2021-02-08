@@ -1,13 +1,13 @@
 ---
 keywords: 遠程選件；遠程選件選擇矩陣；快取內容；動態內容；url類型
-description: 我可以使用遠端選件來代管外部內容嗎？
-title: 建立遠端選件
+description: 瞭解如何使用Adobe Target中的遠端選件來代管外部內容（CMS或其他系統中的內容）。 瞭解您為何可能想要使用遠端選件。
+title: 如何建立遠端選件？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 50%
+source-wordcount: '1082'
+ht-degree: 49%
 
 ---
 
