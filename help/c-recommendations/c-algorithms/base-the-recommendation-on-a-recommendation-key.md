@@ -1,14 +1,14 @@
 ---
 keywords: 建議金鑰；建議邏輯；當前類別；自訂屬性；上次購買項目；上次查看項目；最多查看項目；最多查看項目；最多查看項目；最愛類別；人氣；最近查看項目；最近購買；上次查看；最近查看；最近查看；最近查看
-description: 根據索引鍵的建議會使用訪客行為上下文來顯示Adobe Target Recommendations活動的相關結果。
-title: 讓建議以建議金鑰為依據
+description: 瞭解如何根據使用訪客行為上下文的索引鍵來使用建議，以顯示Adobe Target Recommendations活動中的相關結果。
+title: 我要如何以建議金鑰為基礎？
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 
