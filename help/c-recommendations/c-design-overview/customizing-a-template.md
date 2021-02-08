@@ -1,13 +1,13 @@
 ---
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
-description: 使用開放原始碼Velocity設計語言，在Adobe Target Recommendations中自訂建議設計。
-title: 使用Velocity自訂設計
+description: 瞭解如何使用開放原始碼Velocity設計語言，在Adobe Target Recommendations中自訂建議設計。
+title: 如何使用Velocity自訂設計？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 61%
+source-wordcount: '1027'
+ht-degree: 60%
 
 ---
 
