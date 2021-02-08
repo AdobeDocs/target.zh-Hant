@@ -1,12 +1,12 @@
 ---
 keywords: 准則序列；多准則；算法；准則；建議准則；序列；返回的項目數；插槽級別控制；插槽
-description: 使用最多5個標準的序列，對Adobe Target Recommendations活動中出現的項目進行更大的控制。
-title: 建立條件序列
+description: 瞭解如何設定最多5個准則的序列，以對出現在Adobe Target Recommendations活動中的項目進行更大的控制。
+title: 如何在Recommendations中建立條件序列？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
