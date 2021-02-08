@@ -1,13 +1,14 @@
 ---
 keywords: 瀏覽器;必要條件;需求;internet explorer;chrome;firefox;safari;android;surface
-description: Adobe Target 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
-title: 受支援的瀏覽器
+description: 瞭解Adobe Target支援哪些網際網路瀏覽器來傳送其介面和內容。
+title: Target支援哪些瀏覽器？
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 86%
+source-wordcount: '308'
+ht-degree: 80%
 
 ---
 
