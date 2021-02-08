@@ -1,14 +1,13 @@
 ---
 keywords: Target;home；熱門主題；adobe target;standard;premium;target documentation;adobe target documentation
-title: Adobe Target 指南
-description: 我可以在哪裡找到Target檔案？
-seo-description: Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
+title: 我可以在哪裡找到Target檔案？
+description: 瞭解如何使用Adobe Target個人化客戶體驗，以便在您的網站和行動網站、應用程式及其他數位通道上獲得最大收益。
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 62%
+source-wordcount: '698'
+ht-degree: 58%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 62%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新: 2021 年 2 月 1 日 ([查看變更](r-release-notes/doc-change.md))**
+**最近更新: 2021 年 2 月 8 日 ([查看變更](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
