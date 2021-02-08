@@ -1,13 +1,13 @@
 ---
 keywords: mvt；多變數測試；offers；組合
-description: 在 Adobe Target 中使用可視化體驗撰寫器 (VEC)，建立您要包含在多變數測試 (MVT) 中的選件。
-title: 在多變數測試(MVT)中建立組合
+description: 瞭解如何使用Adobe Target中的視覺體驗撰寫器(VEC)來建立您要納入多變數測試(MVT)的選件。
+title: 如何在多變數測試(MVT)中建立組合？
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '511'
+ht-degree: 88%
 
 ---
 
