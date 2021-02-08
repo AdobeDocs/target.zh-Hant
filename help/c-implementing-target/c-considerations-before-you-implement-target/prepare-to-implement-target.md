@@ -1,13 +1,14 @@
 ---
 keywords: 實作;rfi;索取資訊
-description: 準備實作 Adobe Target 之前，有一些應完成的工作和應收集的資訊。
-title: 準備實施
+description: 在實作Adobe Target之前，請先瞭解您應處理的考量事項。 在準備實作Target時，完成必要的工作並收集資訊。
+title: 如何準備實施Target?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 93%
+source-wordcount: '279'
+ht-degree: 84%
 
 ---
 
