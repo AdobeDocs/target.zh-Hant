@@ -1,12 +1,13 @@
 ---
 keywords: 混合部署；混合；伺服器端；伺服器端；客戶端；客戶端；客戶端；混合實現
-description: Adobe Target提供獨特的混合部署模型，以個人化、混合用戶端和伺服器端實作。
-title: 混合實作
+description: 瞭解Adobe Target針對個人化、混合用戶端與伺服器端實作的獨特混合部署模型。
+title: 什麼是混合目標實作？
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
