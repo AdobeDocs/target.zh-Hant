@@ -1,13 +1,13 @@
 ---
 keywords: 疑難排解；量度差異；常見問答；報告；新訪客；新訪客；舊訪客；舊訪客；舊訪客；回訪；新瀏覽
-description: 關於 Adobe Target 中報表常見問題集的清單。
-title: 報表常見問題集
+description: 探索有關Adobe Target報表的常見問題與解答清單。
+title: 我可以在哪裡找到有關Target報表的問題答案？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 30%
+source-wordcount: '1135'
+ht-degree: 29%
 
 ---
 
