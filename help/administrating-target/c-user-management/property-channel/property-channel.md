@@ -1,12 +1,13 @@
 ---
 keywords: 工作區; 管理屬性; 權限; 產品組態; 產品設定檔; 角色; 專案
-description: 建立屬性並使用「屬性與權限」功能，讓Adobe Target管理員在Target中建立個別的工作區（產品設定檔），然後根據這些工作區為個別頁面、屬性或網站指派不同的角色與權限。
-title: 企業使用者權限
+description: 瞭解如何建立個別的工作區（產品設定檔），然後為使用者指派不同的角色和權限給個別頁面、屬性或網站。
+title: 什麼是企業使用者權限，以及如何使用？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3053'
 ht-degree: 80%
 
 ---
