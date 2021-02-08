@@ -1,13 +1,13 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: 有關 Adobe Target 中會影響活動和其他元素之字元限制與其他限制(選件大小、對象、設定檔、值、參數等) 的資訊。
-title: 限制
+keywords: character limit;mbox參數；批次傳送api;profile參數；limits;built in profiles;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;categoryID；疑難排解
+description: 檢視字元限制和其他限制（選件大小、對象、設定檔、值、參數等）的清單 (選件大小、對象、設定檔、值、參數等) 的資訊。
+title: 檢閱字元限制和其他限制（選件大小、對象、設定檔、值、參數等）的清單 (選件大小、對象、設定檔、值、參數等) 的資訊。
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 71%
+source-wordcount: '1086'
+ht-degree: 67%
 
 ---
 
