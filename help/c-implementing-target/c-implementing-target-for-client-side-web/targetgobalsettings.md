@@ -1,13 +1,14 @@
 ---
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;at.js;function;clientCode;clientdomain;serverCookieDomain;cookieDomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiImeout;dedentContentContentComeoutStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServerTimeout;optoutEnabled;optout;selectorsPollingTimeout;dataProviders;Hybriders;deviceIdLifetime
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetGlobalSettings() 函數的資訊。
-title: Targetglobalsettings()
+description: 使用Adobe Target at.js JavaScript程式庫的targetGlobalSettings()函式來覆寫設定，而不是使用Target UI或REST API。
+title: 如何使用targetGlobalSettings()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 37%
+source-wordcount: '1753'
+ht-degree: 36%
 
 ---
 
