@@ -1,13 +1,13 @@
 ---
 keywords: 已知問題；已解決問題；發行說明；錯誤；問題；修正
-description: 我可以在哪裡找到已知問題和已解決的問題？
-title: 已知問題和已解決的問題
+description: 在Adobe Target中尋找已知問題的相關資訊，包括解決方法資訊。 問題解決後，會移至「已解決」區段。
+title: 我可以在哪裡找到已知問題和已解決問題的相關資訊？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4355'
-ht-degree: 69%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 69%
 * 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
 * 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
-* 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。(TGT-35777)
+* 透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 同樣地，如果您在Target UI中建立任何這些項目，並稍後透過API加以編輯，這些變更將不會反映在Target UI中。 透過API編輯的項目應繼續透過API編輯，以避免遺失任何修改。  (TGT-35777)
 * 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
 * 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896、TGT-36173)
 * 標準和設計卡片無法顯示使用活動的正確數目。 如果A/B活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。 (TGT-36621、TGT-37217)
