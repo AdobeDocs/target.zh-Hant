@@ -1,12 +1,12 @@
 ---
 keywords: 活動清單；活動；活動；活動類型；編輯活動；活動；活動；活動屬性；活動清單過濾；活動限制；個人化；個人化
-description: Adobe Target中的活動可讓您針對特定受眾個人化內容，並測試頁面設計
-title: 將內容個人化給特定受眾並測試頁面設計
+description: 瞭解Adobe Target中的活動如何讓您針對特定受眾個人化內容並測試頁面設計
+title: 我要如何使用Target個人化內容並測試頁面設計？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2109'
 ht-degree: 96%
 
 ---
