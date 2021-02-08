@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;追蹤事件;at.js;函數;函數;preventDefault;preventdefault;防止預設
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.trackEvent(options) 函數的資訊。
-title: Adobe.Target.Trackevent(Options)
+description: 使用Adobe Target at.js JavaScript程式庫的adobe.target.trackEvent()函式，觸發報告使用者動作的要求，例如您網站上的點按和轉換。
+title: 我要如何使用adobe.target.trackEvent()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 79%
+source-wordcount: '329'
+ht-degree: 70%
 
 ---
 
