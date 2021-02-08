@@ -1,12 +1,12 @@
 ---
 keywords: 自動流量分配；目標；成功者；統計保證；可信度；確定成功者；提升；可信度；預設；預設體驗；自動分配
-description: 透過檢查重要指標（包括提升度和信賴度），解譯Adobe Target中自動分配A/B活動的結果。
-title: 解譯自動分配報表
+description: 瞭解如何透過檢查重要指標（包括提升度和信賴度）來解譯Adobe Target中「自動配置A/B」活動的結果。
+title: 如何解譯自動分配報表？
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 46%
 
 ---
