@@ -1,13 +1,13 @@
 ---
 keywords: 集合;鎖定目標
-description: 集合是 Adobe Target 中符合建議資格的一組產品或項目。
-title: 集合
+description: 瞭解如何在Adobe Target Recommendations中使用系列。 集合是符合建議資格的一組產品或項目。
+title: 如何在Recommendations活動中使用系列？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 61%
+source-wordcount: '880'
+ht-degree: 60%
 
 ---
 
