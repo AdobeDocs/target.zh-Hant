@@ -1,13 +1,13 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: 報表提供Adobe Target活動效能的相關資訊
-title: 報表
+keywords: 報告；塊IP地址；塊IP地址訪客；下載報告；csv；報告
+description: 瞭解如何使用Adobe Target中的報表功能來檢查您活動的效能。 根據您的資料做出更明智的決策，以提高投資報酬率。
+title: 如何檢視報表？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 64%
+source-wordcount: '860'
+ht-degree: 61%
 
 ---
 
