@@ -1,13 +1,14 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
-description: Adobe Target 已啟用程序和設定，允許您使用 Target 遵守適用的資料隱私權法律。
-title: 隱私權
+keywords: 隱私權；ip位址；地域劃分；退出；退出；退出；資料隱私；政府法規；gdpr;cpa
+description: 瞭解Adobe Target如何遵守適用的資料隱私法，包括IP位址的收集和處理，以及選擇退出指示。
+title: Target如何處理隱私權問題？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 78%
+source-wordcount: '658'
+ht-degree: 73%
 
 ---
 
