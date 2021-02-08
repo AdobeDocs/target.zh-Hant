@@ -1,13 +1,14 @@
 ---
 keywords: 管理;核准者角色;核准者
-description: Adobe Target管理員在收到Adobe Experience Cloud的電子郵件邀請後，應該採取的第一步。
-title: 管理員入門
+description: 收到Adobe Experience Cloud的電子郵件邀請後，Adobe Target管理員應先執行第一項工作。
+title: 我要從何處開始管理Target?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 84%
+source-wordcount: '408'
+ht-degree: 83%
 
 ---
 
