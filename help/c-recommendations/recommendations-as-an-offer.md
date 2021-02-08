@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;選件
-description: Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 及體驗鎖定目標 (XT) 活動中的選件
-title: A/B測試（包括自動分配和自動定位）和體驗定位(XT)活動中的選件建議
+description: 瞭解如何在A/B測試（包括自動分配和自動定位）和體驗定位(XT)活動中，將Adobe Recommendations當做選件。
+title: 如何在其他活動類型中使用建議作為選件？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 95%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 
