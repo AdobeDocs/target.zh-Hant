@@ -1,13 +1,13 @@
 ---
 keywords: 響應；移動視區；視區；設備；移動；響應網頁設計；rwd
-description: 行動檢視器可協助您預覽Adobe Target活動在各種大小螢幕上的顯示效果。
-title: 回應式體驗的行動檢視區
+description: 行動檢視器可協助您瞭解Adobe Target活動在各種大小螢幕上的顯示效果。 尋找常用裝置檢視區大小和解析度的清單。
+title: 如何使用行動檢視器來提供互動式體驗？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 68%
+source-wordcount: '1467'
+ht-degree: 67%
 
 ---
 
