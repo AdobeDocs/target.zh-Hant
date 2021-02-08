@@ -1,13 +1,14 @@
 ---
 keywords: 實作; 設定; 頁面參數; tomcat; URL 編碼; 頁面內設定檔屬性; mbox 參數; 指令碼設定檔屬性; 大量設定檔更新 API; 單一檔案更新 API; 客戶屬性; 資料提供者
-description: 有關您可用來將資料匯入Adobe Target的各種方法的資訊，包括頁面參數、頁面內描述檔屬性、指令碼描述檔屬性、資料提供者、大量描述檔更新API、單一描述檔更新API和客戶屬性。
-title: 將資料匯入Target的方法
+description: 將資料匯入Target（頁面參數、描述檔屬性、指令碼描述檔屬性、資料提供者、單一和大量描述檔更新API、客戶屬性）。
+title: 如何將資料匯入Target?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 92%
+source-wordcount: '1956'
+ht-degree: 93%
 
 ---
 
