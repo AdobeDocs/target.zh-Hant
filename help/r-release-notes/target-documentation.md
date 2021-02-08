@@ -1,12 +1,12 @@
 ---
 keywords: adobe target;target;documentation;api;api;api;sdk;sdk;sdk；教學課程；doc;documentation
-description: 我可以在哪裡找到Target檔案？
-title: 檔案概觀
+description: 存取Adobe Target檔案，包括線上說明、教學課程、影片和開發人員檔案（SDK、API和JavaScript程式庫）。
+title: 我可以在哪裡找到Target的檔案？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
