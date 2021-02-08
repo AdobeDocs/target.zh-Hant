@@ -1,13 +1,14 @@
 ---
 keywords: at.js faq;at.js 常見問題集;忽隱忽現;載入工器;頁面載入器;跨網域;檔案大小;x-網域;at.js 與 mbox.js;僅限 x;safari;單頁應用程式;缺少選取器;選取器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 位址;httponly;HttpOnly;安全;ip;Cookie 網域
-description: 有關 Adobe Target at.js JavaScript 資料庫的常見問題解答。
-title: at.js 常見問題
+description: 閱讀有關Adobe Target at.js JavaScript程式庫之常見問題的解答。
+title: at.js有哪些常見問題和答案？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2698'
-ht-degree: 94%
+source-wordcount: '2703'
+ht-degree: 93%
 
 ---
 
