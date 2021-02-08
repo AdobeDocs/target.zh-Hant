@@ -1,12 +1,13 @@
 ---
-keywords: content security policy;csp;at.js;whitelist;allowlist;flicker;pre-hide;pre-hiding;prehiding
-description: 使用Adobe Target at.js 2.1或更新版本時，您應新增的內容安全性政策(CSP)指令相關資訊。
-title: 內容安全性政策(CSP)
+keywords: 內容安全策略；csp;at.js;whitelist;allowlist;flicker;pre-hide;pre-hide;pre-hiding;pre-hiding
+description: 瞭解使用Adobe Target時應新增的內容安全性政策(CSP)指示。
+title: Target如何處理內容安全性政策(CSP)?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
