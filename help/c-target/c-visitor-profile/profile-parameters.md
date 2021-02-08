@@ -1,13 +1,13 @@
 ---
 keywords: 配置檔案指令碼；配置檔案指令碼屬性；配置檔案指令碼最佳實踐；debug;debugging;scripts；配置檔案指令碼；屬性；參數
-description: 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於 Adobe Target 活動的訪客資訊。
-title: ' 設定檔屬性'
+description: 瞭解儲存在訪客描述檔中的訪客特定屬性，以提供可用於Adobe Target活動的相關資訊。
+title: 什麼是描述檔屬性？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 77%
+source-wordcount: '2453'
+ht-degree: 76%
 
 ---
 
