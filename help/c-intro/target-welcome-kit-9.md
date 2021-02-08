@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第9章——後續步驟和資源
-title: 歡迎套件——第9章——後續步驟和資源
+description: 您已在Adobe Target中建立您的第一個活動。 接下來呢？ 使用本文尋找其他資源、訓練教學課程和操作說明影片的連結。
+title: 我可以在哪裡找到其他資源，以更有效率地使用Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
