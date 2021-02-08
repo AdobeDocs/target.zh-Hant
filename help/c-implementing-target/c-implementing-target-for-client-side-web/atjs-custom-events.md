@@ -1,13 +1,14 @@
 ---
 keywords: 自訂事件;at.js;要求失敗;要求成功;內容呈現失敗;內容呈現成功;資料庫已載入;要求開始;內容呈現開始;內容呈現無選件;內容呈現重新導向
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的自訂事件的資訊。
-title: at.js自訂事件
+description: 使用Adobe Target at.js JavaScript程式庫的自訂事件，在mbox請求或選件失敗或成功時收到通知。
+title: 如何使用at.js自訂事件？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 92%
 
 ---
 
