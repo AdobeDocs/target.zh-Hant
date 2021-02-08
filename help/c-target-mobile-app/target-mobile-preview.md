@@ -1,13 +1,14 @@
 ---
 keywords: qa;預覽;預覽連結;行動裝置;行動裝置預覽
-description: 使用行動裝置預覽連結為行動應用程式活動執行簡單的端對端品質確保措施，並且無需任何特殊測試裝置，即可在您的裝置上註冊不同的體驗。
-title: 在Target Mobile中使用行動預覽連結
+description: 使用行動預覽連結，針對行動應用程式活動執行端對端QA。 您可以註冊不同的體驗，毋需使用特殊的測試裝置。
+title: 如何在Target Mobile中使用行動預覽連結？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '609'
+ht-degree: 82%
 
 ---
 
@@ -76,10 +77,16 @@ ht-degree: 92%
      }
    ```
 
-   若要讓「行動裝置預覽」可對 Android 正常運作，您也必須在 [!DNL AndroidManifest.xml] 中新增下列程式碼片段:
+   若要讓「行動預覽」適用於Android，您也必須在[!DNL AndroidManifest.xml]中新增下列程式碼片段（如果使用Adobe Mobile SDK第5版）:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   如果您使用Adobe Mobile SDK第4版，請使用下列程式碼片段：
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## 產生預覽連結 {#section_D9D58173FFF34E9BB75EBF357273F128}
