@@ -4,9 +4,9 @@ description: 透過Adobe Target產品檔案的重要新增和變更，隨時掌�
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3522'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2月8日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | 已新增您應新增至Adobe Mobile SDK第4版之AndroidManifest.xml檔案的程式碼片段。 |
 | 2月1日 | [自動個人化摘要報表](/help/c-reports/reports-ap.md) | 新增區段：「常問的問題。」 |
 | 27 年 1 月 | [建立重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md) | 更新了主題。 |
 |  | [建立遠端選件](/help/c-experiences/c-manage-content/about-remote-offers.md) | 更新了主題。 |
