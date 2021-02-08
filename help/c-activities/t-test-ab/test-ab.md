@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n；比較體驗；定位；比較內容；自動定位；自動分配
-description: 手動A/B測試活動會比較您的兩個或多個網站內容版本，以查看哪個版本在預先指定的測試期間最能改善您的轉換。
-title: A/B測試概述
+description: 瞭解Adobe Target中不同類型的A/B測試活動——手動、自動分配和自動目標。 選擇適合您的。
+title: Target中提供哪些A/B活動類型？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 38%
 
 ---
