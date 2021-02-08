@@ -1,12 +1,13 @@
 ---
 keywords: API; Adobe I/O
-description: 協助您在Adobe I/O上使用從Adobe Target舊版API轉換至新API的資訊。
-title: 從舊版API轉換至Adobe I/O
+description: 瞭解如何從Adobe Target Classic舊版API轉換至Adobe I/O上的新API。
+title: 如何從舊版API轉換至Adobe I/O?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 89%
 
 ---
