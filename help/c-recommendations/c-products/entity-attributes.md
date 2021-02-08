@@ -1,13 +1,13 @@
 ---
 keywords: 實體;實體屬性;傳遞資訊至 Recommendations;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
-description: 使用實體屬性將產品或內容資訊傳遞至Adobe Target Recommendations。
-title: 實體屬性
+description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至Adobe Target Recommendations。
+title: 如何使用實體屬性？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 91%
+source-wordcount: '1050'
+ht-degree: 90%
 
 ---
 
