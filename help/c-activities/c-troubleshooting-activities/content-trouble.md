@@ -1,12 +1,12 @@
 ---
 keywords: 除錯 mbox; 疑難排解 mbox; mbox 問題; 忽隱忽現; mboxDebug; mboxTrace; Token; 除錯工具; 優先順序; 活動優先順序; Adobe Experience Cloud Debugger; orderConfirmPage mbox; SiteCatalyst 購買 mbox; 熱賣; 最暢銷商品
-description: 如果您的頁面未顯示預期的內容，您可以執行一些步驟，以在Adobe Target中除錯內容傳送。
-title: 疑難排解內容傳送
+description: 尋找建議，協助您在頁面未顯示預期內容時修正問題。 瞭解如何在Adobe Target中除錯內容傳送。
+title: 如何疑難排解內容傳送？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1413'
 ht-degree: 60%
 
 ---
