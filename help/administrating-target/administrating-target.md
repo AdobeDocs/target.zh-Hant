@@ -1,13 +1,14 @@
 ---
 keywords: 設定；設定；設定；設定；設定；管理
 description: 設定Adobe Target，包括偏好設定、實作、使用者管理、屬性、Scene7設定、主機管理和回應Token。
-title: 管理
+title: 如何管理Target?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 14%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
