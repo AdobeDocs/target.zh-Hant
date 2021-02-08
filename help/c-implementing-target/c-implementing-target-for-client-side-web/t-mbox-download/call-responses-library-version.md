@@ -1,12 +1,13 @@
 ---
-description: Target 進行和回應來自您頁面呼叫的方法，取決於您所使用的 Target 資料庫、是否實作 Experience Cloud 訪客 ID，以及是否有訪客 ID 存在。
-title: mbox.js程式庫版本的頁面方法
+description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版的at.js。
+title: mbox.js使用哪些頁面方法？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 91%
+source-wordcount: '929'
+ht-degree: 88%
 
 ---
 
