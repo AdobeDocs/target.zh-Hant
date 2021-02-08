@@ -1,13 +1,13 @@
 ---
 keywords: 鎖定目標;對象;報表;成功量度
-description: 在 Adobe Target 中選擇符合報表受眾使用者資格的成功量度。
-title: 套用報告對象至成功度量
+description: 瞭解如何在Adobe Target中選擇使用者符合報告對象資格的成功度量。
+title: 我可以將報表對象套用至成功度量嗎？
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 97%
+source-wordcount: '297'
+ht-degree: 90%
 
 ---
 
