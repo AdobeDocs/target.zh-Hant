@@ -1,13 +1,13 @@
 ---
 keywords: 目標用戶介面；用戶介面；ui
-description: 如何使用使用者介面(UI)?
-title: 瞭解使用者介面
+description: 熟悉使用者介面並尋找更深入資訊的連結，協助您充分運用Target。
+title: 如何使用Target UI?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 28%
+source-wordcount: '817'
+ht-degree: 27%
 
 ---
 
