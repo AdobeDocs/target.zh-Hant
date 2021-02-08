@@ -1,13 +1,13 @@
 ---
 keywords: Analytics for Target;A4T;使用 Analytics 作為報表來源
-description: 使用 Analytics 做為您的 Target (A4T) 報表來源，可讓您存取 Target 活動的 Analytics 報表。
-title: Analytics for Target (A4T) 報表
+description: 瞭解如何使用Analytics for Target(A4T)。 A4T整合可讓您存取強穩的Adobe Analytics報表，以用於Adobe Target活動。
+title: 如何使用Analytics for Target(A4T)報表？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '97'
+ht-degree: 62%
 
 ---
 
