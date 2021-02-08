@@ -1,13 +1,13 @@
 ---
 keywords: 對象;對象規則;建立對象;建立對象;僅限活動;僅活動;臨機
-description: 在建立活動時，從 Adobe Target 三步驟引導式工作流程內建立僅限活動的受眾。這些隨選對象可用在相同活動內的其他位置，但不會儲存在對象資料庫而用於其他活動。
-title: 建立僅限活動的對象
+description: 瞭解如何在Adobe Target中建立僅供目前活動使用且未儲存在「對象程式庫」中的活動對象。
+title: 我可以建立只使用一次的對象嗎？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 99%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 
