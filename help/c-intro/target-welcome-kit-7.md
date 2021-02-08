@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第7章——建立並執行您的第一個Target活動
-title: 歡迎套件——第7章——建立並執行您的第一個Target活動
+description: 讓我們開始使用您在Adobe Target中的第一項活動，讓您的投資報酬率達到最高。
+title: 我需要在Target中建立我的第一個活動。 我該從哪開始？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
