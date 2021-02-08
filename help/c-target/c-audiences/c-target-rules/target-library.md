@@ -1,13 +1,13 @@
 ---
 keywords: 鎖定目標;Target 資料庫;程式庫
-description: 根據預先建置的鎖定目標規則鎖定使用者。
-title: Target 資料庫 觀眾中的選項
+description: 瞭解如何使用預先建立的舊版受眾鎖定訪客。 最佳實務是使用較新的受眾類別來改善效能。
+title: 我可以根據預先建立的定位規則來定位訪客嗎？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 98%
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
