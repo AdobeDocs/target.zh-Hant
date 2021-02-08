@@ -1,12 +1,12 @@
 ---
 keywords: Target;報表;報表設定;預設集;target 預設集;量度;對象;日期範圍;設定;下載;表格檢視;圖表檢視;平均提升度;提升度;提升度界限;信賴區間;信賴;位置貢獻;執行中的平均值;計數方法
-description: 這些資訊可協助您設定要顯示在Adobe Target報表中的元素。 可以儲存報表設定以供稍後使用。
-title: 報表設定
+description: 瞭解如何在Adobe Target中設定報表設定，包括量度、對象、日期範圍等。
+title: 如何設定報表設定？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1918'
 ht-degree: 69%
 
 ---
