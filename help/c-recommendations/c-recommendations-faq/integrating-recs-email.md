@@ -1,13 +1,13 @@
 ---
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
-description: 關於將電子郵件與 Recommendations 整合方式的資訊。
-title: 將建議與電子郵件整合
+description: 瞭解如何將電子郵件與Adobe Target Recommendations整合，包括使用Target傳送API、rawbox範本和僅下載範本。
+title: 如何將Recommendations與電子郵件整合？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 90%
+source-wordcount: '1490'
+ht-degree: 88%
 
 ---
 
