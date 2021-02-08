@@ -1,13 +1,13 @@
 ---
 keywords: 內容庫；資產；搜索；過濾
-description: 如何依關鍵字搜尋資產？
-title: 搜尋內容
+description: 瞭解如何在Adobe Target選件程式庫中搜尋程式碼和影像選件。
+title: 如何搜尋選件程式庫中的內容？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
