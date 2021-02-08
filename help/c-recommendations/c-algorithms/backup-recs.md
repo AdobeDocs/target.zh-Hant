@@ -1,13 +1,13 @@
 ---
 keywords: 建議;備用
-description: 如果您在Adobe Target中使用備份建議功能，則任何沒有足夠建議項目的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
-title: 在Target Recommendations中使用備份建議
+description: 瞭解如何在Adobe Target Recommendations中使用備份建議。 建議沒有足夠的建議項目時，會顯示備份演算法的結果。
+title: 如何在Recommendations中使用備份建議？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 82%
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
