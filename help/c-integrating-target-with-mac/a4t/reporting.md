@@ -1,13 +1,13 @@
 ---
 keywords: Analytics for Target;A4T;使用 Analytics 作為報表來源
-description: 使用 Analytics 做為您的 Target (A4T) 報表來源，可讓您存取 Target 活動的 Analytics 報表。
-title: A4T 報表
+description: 瞭解如何使用Analytics for Target(A4T)。 A4T提供使用Analytics量度和觀眾區隔之Target活動的Analytics報表存取權。
+title: 如何在A4T中使用報表？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 36%
+source-wordcount: '688'
+ht-degree: 32%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 36%
 
 ## Target 中的報表 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
-當[!DNL Analytics]用作報告來源時，[!DNL Target]中的報告會顯示從[!DNL Analytics]收集的資料。 此報告與其他[!DNL Target]報告有所不同：
+當[!DNL Analytics]用作報告來源時，[!DNL Target]中的報告會顯示從[!DNL Analytics]收集的資料。 此報告與其他[!DNL Target]報告有些不同：
 
 * [!UICONTROL 觀眾]清單顯示[!DNL Analytics]報表套裝的觀眾。
 * [!UICONTROL 量度]清單顯示透過[!DNL Analytics]可用的每個量度。
