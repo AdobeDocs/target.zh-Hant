@@ -4,10 +4,10 @@ description: 透過Adobe Target產品檔案的重要新增和變更，隨時掌�
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 29%
+source-wordcount: '3600'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 29%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2月8日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | 已新增您應新增至Adobe Mobile SDK第4版之AndroidManifest.xml檔案的程式碼片段。 |
+|  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已澄清下列已知問題：<ul><li>透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 同樣地，如果您在Target UI中建立任何這些項目，並稍後透過API加以編輯，這些變更將不會反映在Target UI中。 透過API編輯的項目應繼續透過API編輯，以避免遺失任何修改。</li></ul> |
 | 2月1日 | [自動個人化摘要報表](/help/c-reports/reports-ap.md) | 新增區段：「常問的問題。」 |
 | 27 年 1 月 | [建立重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md) | 更新了主題。 |
 |  | [建立遠端選件](/help/c-experiences/c-manage-content/about-remote-offers.md) | 更新了主題。 |
