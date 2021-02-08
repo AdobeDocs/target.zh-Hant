@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;experience targeting;xt;landing page;landing page campaign
-description: 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
-title: 體驗鎖定目標
+keywords: 鎖定目標; 體驗鎖定目標; XT; 登陸頁面; 登陸頁面促銷活動
+description: 瞭解如何使用Adobe Target中的「體驗定位」(XT)活動，根據一組行銷人員定義的規則和標準，將內容傳遞給特定的觀眾。
+title: 什麼是體驗定位(XT)活動？
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 93%
 
 ---
 
