@@ -1,13 +1,13 @@
 ---
 keywords: 重新導向選件; 建立重新導向選件; 新增 html 選件; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
-description: 我是否可以使用重新導向選件來讓瀏覽器重新導向至新頁面？
-title: 建立重新導向選件
+description: '瞭解如何在Adobe Target中建立重新導向選件，以使瀏覽器重新導向至新頁面。 '
+title: 如何建立重新導向選件？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 49%
+source-wordcount: '1190'
+ht-degree: 48%
 
 ---
 
