@@ -1,13 +1,14 @@
 ---
 keywords: 實作;mbox.js non javascript;adbox;重新導向程式;mbox
-description: 關於在非 JavaScript 案例 (例如，使用 AdBox 或重新導向程式) 中實作 Target 的資訊。
-title: 電子郵件實作
+description: 瞭解如何在非JavaScript案例中實作Adobe Target，例如使用AdBox或重新導向程式。
+title: 如何實作電子郵件的Target?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 81%
+source-wordcount: '436'
+ht-degree: 77%
 
 ---
 
