@@ -1,13 +1,13 @@
 ---
 keywords: 內容; 更新內容; 資產; 上傳內容; 上傳資產
-description: 如何上傳影像以當做影像選件使用？
-title: 上傳內容
+description: 瞭解如何上傳影像以在Adobe Target中當做影像選件使用。
+title: 如何將內容上傳至選件程式庫？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '233'
+ht-degree: 18%
 
 ---
 
