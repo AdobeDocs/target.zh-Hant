@@ -1,13 +1,13 @@
 ---
 keywords: 概覽和參考
-description: 訪客設定檔包含關於您的訪客如何使用您的頁面，和其他最佳化內容位置的資訊
-title: 訪客設定檔
+description: 進一步瞭解訪客描述檔，其中包含訪客如何使用您的頁面和其他最佳化內容位置的資訊。
+title: 什麼是訪客資料？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 78%
 
 ---
 
