@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: 在某些情況下，Adobe Target Visual Experience Composer(VEC)和「增強體驗撰寫器」(EEC)有時會發生顯示問題。
-title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
+keywords: 定位；視覺體驗撰寫器；白名單；白名單；allowlist;allowlist;enhanced視覺體驗撰寫器；vec；疑難排解視覺體驗撰寫器；疑難排解；eec；增強的體驗撰寫器；tls;tls 1.2
+description: 瞭解如何疑難排解Adobe Target Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)在特定條件下有時會發生的問題。
+title: 如何疑難排解與Visual Experience Composer和Enhanced Experience Composer相關的問題？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 67%
+source-wordcount: '1403'
+ht-degree: 65%
 
 ---
 
