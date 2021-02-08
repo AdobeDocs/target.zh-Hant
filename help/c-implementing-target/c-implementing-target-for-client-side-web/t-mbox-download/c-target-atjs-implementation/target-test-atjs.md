@@ -1,13 +1,14 @@
 ---
 keywords: at.js；非生產；非生產；部署
-description: 關於如何安全地將 at.js 部署至非生產環境的資訊。
-title: 將 at.js 部署至非生產環境
+description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版的at.js。
+title: 如何將at.js部署至非生產環境？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 91%
+source-wordcount: '392'
+ht-degree: 82%
 
 ---
 
