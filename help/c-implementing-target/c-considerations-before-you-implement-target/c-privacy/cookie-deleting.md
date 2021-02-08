@@ -1,13 +1,14 @@
 ---
 keywords: cookie;cookie；刪除cookie；刪除目標cookie;google chrome;chrome;mozilla firefox;microsoft edge;safari
-description: 刪除 Target 瀏覽器 Cookie，如此才可驗證所有的體驗。
-title: 刪除 Target Cookie
+description: 瞭解如何刪除您的Target瀏覽器Cookie，以便驗證您的體驗。
+title: 如何刪除目標Cookie?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 9%
+source-wordcount: '428'
+ht-degree: 5%
 
 ---
 
