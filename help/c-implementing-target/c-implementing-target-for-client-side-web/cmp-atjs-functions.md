@@ -1,13 +1,14 @@
 ---
 keywords: at.js;函數;JavaScript 程式庫
-description: 可與 Adobe Target 中的 at.js JavaScript 資料庫搭配使用的函數清單。
-title: at.js 函數
+description: 檢視可與Adobe Target中1.x和2.x版at.js JavaScript程式庫搭配使用的函式清單。
+title: 我可以搭配at.js使用哪些函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 94%
 
 ---
 
