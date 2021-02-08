@@ -1,13 +1,13 @@
 ---
 keywords: 活動更改日誌；更改日誌
-description: 變更記錄會記錄變更您的活動的人員，以及發生變更的時間。
-title: 活動變更記錄
+description: 存取Adobe Target中活動的變更記錄，以檢視變更您活動的人員及變更發生時間的記錄。
+title: 如何查看活動更改日誌？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
