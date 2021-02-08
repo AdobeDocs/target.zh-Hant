@@ -1,13 +1,14 @@
 ---
 keywords: 新增使用者; 管理使用者; 使用者權限
-description: 在Adobe Target Standard中管理使用者，並在Adobe Target Premium中管理企業屬性和權限。
-title: 使用者管理
+description: 瞭解如何在Adobe Target Standard中管理使用者，以及如何在Adobe Target Premium中管理企業屬性和權限。
+title: 如何設定使用者管理？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 20%
+source-wordcount: '239'
+ht-degree: 19%
 
 ---
 
