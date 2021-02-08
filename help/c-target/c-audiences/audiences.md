@@ -1,13 +1,13 @@
 ---
 keywords: 對象;對象規則;建立對象;建立對象;鎖定目標對象;報表對象;報表對象;區段;自訂設定檔參數;對象定義;對象清單
-description: Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
-title: 建立觀眾
+description: 瞭解如何使用Adobe Target中的「觀眾」頁面，以及如何檢視包含觀眾詳細資料和使用資訊的「觀眾定義」卡片。
+title: 如何使用對象清單？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: '911'
+ht-degree: 92%
 
 ---
 
