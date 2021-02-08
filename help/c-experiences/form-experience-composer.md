@@ -1,13 +1,13 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: Adobe Target表單型體驗撰寫器提供非視覺化的體驗建立。
-title: 表單式體驗撰寫器
+keywords: 表單式體驗撰寫器; 表單式撰寫器; 細分
+description: 瞭解如何使用Adobe Target表單型體驗撰寫器建立非視覺化體驗。 當VEC不可用或不實用時，請使用此編寫器。
+title: 如何使用表單型體驗撰寫器？
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 68%
+source-wordcount: '801'
+ht-degree: 66%
 
 ---
 
