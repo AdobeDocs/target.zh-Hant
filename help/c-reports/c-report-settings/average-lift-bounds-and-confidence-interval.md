@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: 報表包含數個資料點和視覺化呈現，可協助您瞭解與Adobe Target活動相關的提升度界限和信賴等級，以協助您更精確地判斷成功者。
-title: 平均提升度、提升度界限和信賴區間
+keywords: Target;報表;報表設定;環境;提升度;提升度界限;變異數;可信度;控制
+description: 瞭解如何解譯Adobe Target報表，其中包含資料點和視覺化表示法，以協助您瞭解活動的提升度界限和信賴等級。
+title: 如何檢視平均提升度、提升度界限和信賴區間？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 73%
+source-wordcount: '817'
+ht-degree: 72%
 
 ---
 
