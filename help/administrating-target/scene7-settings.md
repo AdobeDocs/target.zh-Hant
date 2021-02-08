@@ -1,12 +1,13 @@
 ---
 keywords: scene7；動態媒體經典；數字資產管理；資產；dam；內容庫；交換影像
-description: Adobe Target可與Adobe Dynamic Media Classic（之前稱為Scene7）整合，以在內容庫中提供數位資產管理(DAM)。
-title: Dynamic Media Classic整合
+description: 瞭解如何將Adobe Target與Adobe Dynamic Media Classic（之前稱為Scene7）整合，以便在內容庫中提供數位資產管理(DAM)。
+title: 如何設定Dynamic Media Classic(Scene7)整合？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '403'
 ht-degree: 21%
 
 ---
