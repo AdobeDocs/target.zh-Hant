@@ -1,13 +1,14 @@
 ---
 keywords: 環境；疑難排解；最佳做法；ubox；重定向；白名單；黑名單；區塊清單；allowlist
-description: 在Adobe Target中組織您的網站和前制環境，以方便管理和分開報告。
-title: 環境
+description: 瞭解如何使用Adobe Target中的環境來組織您的網站和生產前環境，以方便管理和分開報告。
+title: 什麼是環境，我要如何使用？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '682'
+ht-degree: 63%
 
 ---
 
