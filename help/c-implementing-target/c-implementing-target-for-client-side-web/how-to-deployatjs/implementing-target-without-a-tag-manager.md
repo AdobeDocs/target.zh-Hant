@@ -1,13 +1,14 @@
 ---
 keywords: 實施目標；實施；實施at.js；標籤管理器
-description: 不使用標籤管理程式 (Adobe Launch 或動態標籤管理) 實作 Adobe Target 的相關資訊。
-title: 不使用標籤管理器實施
+description: 瞭解如何指定設定（帳戶詳細資訊、實作方法等） 來實作Adobe Target at.js程式庫，而不需使用標籤管理器。
+title: 我是否可在沒有標籤管理員的情況下實作Target?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1555'
+ht-degree: 68%
 
 ---
 
