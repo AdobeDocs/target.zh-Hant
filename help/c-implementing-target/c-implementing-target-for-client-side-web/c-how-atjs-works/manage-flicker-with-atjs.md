@@ -1,13 +1,14 @@
 ---
 keywords: flicker;at.js；實現；非同步；非同步；同步；同步
-description: 關於 Adobe Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止忽隱忽現的資訊。
-title: at.js 管理 Flicker 的方式
+description: 瞭解at.js和Adobe Target如何在載入頁面或應用程式期間防止閃爍（預設內容在被活動內容取代前會立即顯示）。
+title: at.js如何管理Flicker?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 80%
+source-wordcount: '668'
+ht-degree: 76%
 
 ---
 
