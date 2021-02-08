@@ -1,13 +1,13 @@
 ---
 keywords: 鎖定目標;目標作業系統;作業系統;目標 os;os;目標 linux;linux;目標 windows;windows;目標 macintosh;macintosh;mac;目標 mac;win;目標 win
-description: 您可以鎖定使用某個作業系統的訪客。
-title: 作業系統  觀眾中的選項
+description: 瞭解如何定位使用特定作業系統（Linux、Macintosh或Windows）的訪客。
+title: 我是否可以根據作業系統定位訪客？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '129'
+ht-degree: 82%
 
 ---
 
