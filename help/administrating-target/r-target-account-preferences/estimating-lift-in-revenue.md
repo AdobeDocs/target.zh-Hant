@@ -1,13 +1,14 @@
 ---
 keywords: 收入提升度; 收入; 預估收入提升度; 計算提升度; 估計值
-description: 使用Adobe Target來估計所有使用者檢視成功體驗時您可獲得的收入提升。
-title: 預估收入提升
+description: 估計每位訪客如果看到成功體驗、趨勢在測試期間仍如常，您可能達到的提升度。
+title: 我估計收入的提升度為何？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
