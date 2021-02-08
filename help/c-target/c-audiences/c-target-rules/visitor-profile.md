@@ -1,13 +1,13 @@
 ---
 keywords: 訪客設定檔;目標訪客設定檔
-description: 在 Adobe Target 中建立受眾，將目標鎖定於符合特定設定檔參數的訪客。
-title: 觀眾中的訪客資料選項
+description: 瞭解如何在Adobe Target中建立觀眾，以鎖定符合新訪客或舊訪客、類別相似性等特定描述檔參數的訪客。
+title: 我可以定位符合特定描述檔參數的訪客嗎？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '242'
+ht-degree: 83%
 
 ---
 
