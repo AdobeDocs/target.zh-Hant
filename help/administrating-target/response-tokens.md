@@ -1,12 +1,13 @@
 ---
 keywords: 響應令牌；token;plugins;plug-ins;at.js；回應
-description: 回應Token可讓您自動輸出Adobe Target特定資訊（活動詳細資訊、使用者設定檔資訊、地理資訊等），以用於除錯或與協力廠商系統整合（例如Clicktale）
-title: 回應 Token
+description: 瞭解如何在Adobe Target中使用回應Token，以輸出特定資訊，以用於除錯和整合第三方系統（例如Clicktale）。
+title: 什麼是回應Token，我要如何使用它們？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1580'
 ht-degree: 77%
 
 ---
