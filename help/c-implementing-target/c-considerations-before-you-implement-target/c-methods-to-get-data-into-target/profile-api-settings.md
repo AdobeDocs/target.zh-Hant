@@ -1,13 +1,14 @@
 ---
 keywords: 實施；api；配置檔案；配置檔案api設定；驗證令牌
-description: 透過Adobe Target API啟用或停用批次更新的驗證，並產生描述檔驗證Token。
-title: 描述檔 API 設定
+description: 瞭解如何透過Adobe Target API設定批次更新的驗證，並產生描述檔驗證Token。
+title: 如何使用描述檔API設定來啟用或停用批次更新？
 feature: APIs/SDKs
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 41%
+source-wordcount: '327'
+ht-degree: 38%
 
 ---
 
