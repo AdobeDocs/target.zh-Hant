@@ -1,12 +1,12 @@
 ---
-description: 字詞定義。
-title: 字彙表
+description: Adobe Target中使用的不同詞語代表什麼意思？ 尋找常用詞語的定義，協助您進一步瞭解Target。
+title: 我可以在哪裡找到Target中使用的詞語和定義？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 98%
+source-wordcount: '2316'
+ht-degree: 97%
 
 ---
 
