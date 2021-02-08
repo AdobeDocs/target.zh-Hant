@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
-description: 在您建立包含Adobe Target Recommendations選件的Recommendations、A/B測試或體驗定位(XT)活動後，您會想要預覽它，以確保在啟動活動前有結果可供使用。 Target Recommendations提供多種方式來預覽建議。
-title: 預覽並啟動您的Recommendations活動
+description: '瞭解如何在啟動活動前預覽Adobe Target Recommendations活動，以確保結果可供使用。 '
+title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 16%
+source-wordcount: '1350'
+ht-degree: 17%
 
 ---
 
