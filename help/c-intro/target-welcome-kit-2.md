@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第2章- Target總覽
-title: 歡迎套件——第2章——總覽
+description: 深入瞭解Adobe Target。 瞭解可用活動、通道、實作、整合等。
+title: 我可以在哪裡找到Target的高階簡介？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2520'
 ht-degree: 17%
 
 ---
