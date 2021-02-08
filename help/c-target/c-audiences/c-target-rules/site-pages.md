@@ -1,12 +1,12 @@
 ---
 keywords: 網頁；目標網頁；目標；目標當前頁；目標當前頁；上一頁；目標上一頁；著陸頁；目標著陸頁；http標頭
-description: 您可以定位在您網站上特定頁面的訪客。
-title: 觀眾中的網站頁面選項
+description: 瞭解如何使用Adobe Target定位您網站上特定頁面的訪客。
+title: 我可以根據網站頁面定位訪客嗎？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 42%
 
 ---
