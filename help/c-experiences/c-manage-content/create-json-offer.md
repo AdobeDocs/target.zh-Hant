@@ -1,13 +1,13 @@
 ---
 keywords: 遠端選件; 建立遠端選件
-description: 如何建立JSON選件？
-title: 建立 JSON 選件
+description: 瞭解如何在Adobe Target中建立JSON選件，以便在表單架構的Experience Composer中使用。 JSON選件對於SPA架構或伺服器端整合非常有用。
+title: 如何建立JSON選件？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 58%
+source-wordcount: '411'
+ht-degree: 54%
 
 ---
 
