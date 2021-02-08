@@ -1,10 +1,10 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集
-description: 「自動化區段」報表的相關資訊，是Adobe Target中「自動化個人化」(AP)和「自動化目標」(AT)活動使用者可使用的兩個專用報表之一。
-title: 自動化區段報表
+description: 透過檢視「自動化區段」報表，瞭解Adobe Target個人化模型所定義的不同區段如何回應活動中的選件／體驗。
+title: 什麼是「自動化區段」報表？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
