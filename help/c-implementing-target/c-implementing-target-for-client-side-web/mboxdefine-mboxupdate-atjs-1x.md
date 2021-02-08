@@ -1,13 +1,14 @@
 ---
 keywords: mboxDefine;mboxdefine;mbox 定義;mboxUpdate;mboxupdate;mbox 更新;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxDefine() 和 mboxUpdate() 函數的資訊。
-title: Mboxdefine()和Mboxupdate()- at.js 1.x
+description: 使用Adobe Target at.js JavaScript程式庫的mboxDefine()和mboxUpdate()函式來定義或更新mbox。 (at.js 1.x)
+title: 我要如何使用mboxDefine()和mboxUpdate()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 97%
+source-wordcount: '197'
+ht-degree: 85%
 
 ---
 
