@@ -1,13 +1,13 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;faq;常見問題集; 重要屬性
-description: 有關「重要屬性」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
-title: 重要屬性報表
+description: 瞭解如何使用Adobe Target中的「重要屬性」報表，顯示影響個人化模型的主要屬性及其相對重要性。
+title: 什麼是重要屬性報表？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 94%
+source-wordcount: '1656'
+ht-degree: 92%
 
 ---
 
