@@ -1,13 +1,13 @@
 ---
 keywords: 自動個人化；選件；報告；組；報告組
-description: 有關在Adobe Target的「自動個人化(AP)」活動中使用報告群組的資訊。
-title: 自動個人化(AP)活動中的選件報告群組
+description: 瞭解如何在Adobe Target Automated Personalization活動中使用選件報告群組。 使用報告群組，Target只會為每個報告群組建立一個個人化模型。
+title: 我可以在自動個人化活動中使用選件報告群組嗎？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 63%
+source-wordcount: '448'
+ht-degree: 61%
 
 ---
 
