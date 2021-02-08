@@ -1,13 +1,14 @@
 ---
 keywords: 系統圖；flicker;at.js；實施；javascript庫；js;atjs
-description: Adobe Target 系統圖表，顯示呼叫的流程和使用 at.js 自動建立的全域 mbox 所傳送或收集的資訊。
-title: at.js Javascript程式庫的運作方式
+description: 瞭解Target at.js JavaScript程式庫如何運作，包括系統圖表，以協助您瞭解頁面載入時的工作流程。
+title: at.js Javascript程式庫如何運作？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
