@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;introduction;webinar;demo
-description: Adobe Target Recommendations 活動簡介，可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-title: Recommendations活動簡介
+description: 瞭解Adobe Target中的Recommendations活動，這些活動會根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的內容。
+title: 什麼是Recommendations活動？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2131'
-ht-degree: 96%
+source-wordcount: '2117'
+ht-degree: 95%
 
 ---
 
