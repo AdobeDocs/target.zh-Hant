@@ -1,12 +1,12 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷；動態過濾；動態；實體屬性匹配
-description: 在Adobe Target Recommendations中動態篩選，將潛在建議項目的群組與使用者已互動的特定項目進行比較。
-title: Target Recommendations中動態包含規則中依實體屬性比對的篩選
+description: 瞭解如何在Adobe Target Recommendations中將潛在項目群組與使用者已互動的特定項目進行比較，以進行動態篩選。
+title: 如何依Recommendations活動中的實體屬性符合來篩選？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
