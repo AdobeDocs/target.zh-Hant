@@ -1,12 +1,13 @@
 ---
 keywords: 實施；實施；白名單；白名單；allowlist;allowlist;edge;edge
-description: 允許列出Adobe Target邊緣節點
-title: Allowlist Target Edge節點
+description: 檢視主機清單，協助您列出Adobe Target邊緣（地理位置分散的服務節點，可確保使用者的回應時間達到最佳）。
+title: 如何允許列出目標邊緣節點？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
