@@ -1,13 +1,14 @@
 ---
-keywords: global mbox;target classic;use global mbox from target classic
-description: 依預設，Target Standard 會建立名為 target-global-mbox 的全域 mbox，用來執行 Target Standard 中建立的活動。不過，若您已為您的舊版實作在頁面上建立全域 mbox，則可將該 mbox 用於您的 Target Standard 活動。
-title: 使用來自舊版實作的全域 mbox
+keywords: 全域 mbox;target classic;使用來自 target classic 的全域 mbox
+description: 瞭解如果您已在舊版實作的頁面上建立全域mbox，如何將舊版全域mbox用於Adobe Target活動。
+title: 我是否可從舊版實作使用全域mbox?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 50%
+source-wordcount: '303'
+ht-degree: 36%
 
 ---
 
