@@ -1,13 +1,13 @@
 ---
 keywords: 定位；AP報告；自動個人化報告；活動級別報告；選件級別報告；選件詳細資訊報告；常見問題
-description: 如何使用「自動個人化摘要」報表？
-title: 自動個人化摘要報表
+description: 瞭解如何解譯Adobe Target中的「自動個人化摘要」報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
+title: 如何使用自動個人化摘要報表？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 40%
+source-wordcount: '671'
+ht-degree: 38%
 
 ---
 
