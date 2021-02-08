@@ -1,13 +1,14 @@
 ---
 keywords: at.js;除錯 at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox 醒目提示
-description: 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
-title: 使用Adobe Experience Cloud除錯程式除錯At.Js
+description: 使用Adobe Experience Cloud Debugger檢視您的程式庫設定、檢查請求、開啟主控台記錄、停用Target呼叫請求等。
+title: 如何使用Adobe Experience Cloud Debugger對at.Js進行除錯？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 81%
+source-wordcount: '201'
+ht-degree: 69%
 
 ---
 
