@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第5章——測試和個人化活動的靈感
-title: 歡迎套件——第5章——測試和個人化活動的靈感
+description: 我可以在哪裡找到使用Adobe Target進行測試和個人化活動的想法和靈感。
+title: 我可以從哪裡找到測試和個人化工作的靈感？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
