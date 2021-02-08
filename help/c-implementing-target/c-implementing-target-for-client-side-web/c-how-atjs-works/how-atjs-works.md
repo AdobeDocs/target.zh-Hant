@@ -59,7 +59,7 @@ ht-degree: 85%
 
 | 步驟 | 詳細資料 |
 | --- | --- |
-| 3 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
+| 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
 | 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
 | 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
@@ -81,7 +81,7 @@ at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Clou
 | 步驟 | 說明 | 呼叫 | 說明 |
 |--- |--- |--- |--- |
 | 3 | 如果使用者已驗證，呼叫會傳回 [!DNL Experience Cloud ID] (MCID)；另一個呼叫會同步客戶 ID。 | 2 | at.js 程式庫會同步載入並隱藏文件本文。 |
-| 3 | 提出全域 mbox 請求，含所有已設定的參、MCID、SDID 和客戶 ID (可選)。 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從[!UICONTROL 對象資料庫]中要求合格對象 (例如從 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共用的對象)。<br>客戶屬性會透過批次程序傳送至 [!DNL Profile Store]。 |
+| 1 | 提出全域 mbox 請求，含所有已設定的參、MCID、SDID 和客戶 ID (可選)。 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從[!UICONTROL 對象資料庫]中要求合格對象 (例如從 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共用的對象)。<br>客戶屬性會透過批次程序傳送至 [!DNL Profile Store]。 |
 | 5 | [!DNL Target] 根據 URL、mbox 參數和設定檔資料，決定要傳回給訪客的活動和體驗。 | 6 | 已鎖定的目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>體驗會儘快出現，不會有忽隱忽現的預設內容。 |
 | 7 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 | 8 | [!DNL Target] 資料會透過 SDID 來比對 [!DNL Analytics] 資料，然後經過處理放入 [!DNL Analytics] 報表儲存體中。然後就可以在 <br>[!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] (A4T) 報表來檢視 [!DNL Analytics for Target] 資料。 |
 
