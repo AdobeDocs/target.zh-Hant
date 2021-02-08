@@ -82,7 +82,7 @@ ht-degree: 0%
 
 如需逐步指示，請參閱Adobe Target中的[A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和[體驗版本中的](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)多個體驗對象。
 
-## 提示8:在類似頁面上複製活動體驗以節省時間。
+## 提示8:在類似頁面上複製活動體驗，以節省時間。
 
 在單一網頁上建立變數（例如新的按鈕顏色），並自動套用至共用相同範本的所有頁面。 您可以指定頁面，或將變數套用至網站上所有類似的頁面。
 
