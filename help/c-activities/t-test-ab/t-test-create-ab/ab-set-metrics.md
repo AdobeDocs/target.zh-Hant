@@ -1,13 +1,13 @@
 ---
 keywords: A/B; 活動量度; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-description: 在Adobe Target A/B活動中使用量度來判斷瀏覽成功的時間。
-title: 設定量度
+description: 瞭解如何在Adobe Target A/B活動中指定度量，以判斷瀏覽何時成功，例如轉換、收入和參與。
+title: 如何在A/B活動中設定目標量度？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 87%
+source-wordcount: '348'
+ht-degree: 82%
 
 ---
 
