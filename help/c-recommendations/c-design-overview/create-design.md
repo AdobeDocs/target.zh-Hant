@@ -1,13 +1,13 @@
 ---
 keywords: 建議設計;建立設計;複製設計
-description: 設計可定義建議出現在頁面上的方式。
-title: 建立設計
+description: 瞭解如何使用預設設計建立Adobe Target Recommendations設計，或建立最符合頁面版面的自訂設計。
+title: 如何在Recommendations中建立設計？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 32%
+source-wordcount: '1018'
+ht-degree: 30%
 
 ---
 
