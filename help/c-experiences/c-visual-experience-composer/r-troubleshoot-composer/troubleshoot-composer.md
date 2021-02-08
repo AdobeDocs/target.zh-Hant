@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: 顯示有時發生在可視化體驗撰寫器 (VEC) 中與在某些情況下發生在增強體驗撰寫器 (EEC) 中的問題。
-title: 疑難排解可視化體驗撰寫器和增強體驗撰寫器
+keywords: 定位；視覺體驗撰寫器；增強的視覺體驗撰寫器；vec；疑難排解視覺體驗撰寫器；疑難排解；eec；增強的體驗撰寫器；tls;tls 1.2
+description: 瞭解如何在特定條件下疑難排解Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中有時發生的問題。
+title: 我要如何疑難排解Visual Experience Composer和Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 91%
+source-wordcount: '248'
+ht-degree: 70%
 
 ---
 
