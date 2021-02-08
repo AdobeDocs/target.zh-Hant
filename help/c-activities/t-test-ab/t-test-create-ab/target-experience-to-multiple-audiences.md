@@ -1,13 +1,13 @@
 ---
 keywords: 多個對象; 體驗版本; 鎖定體驗版本
-description: 您可以在Adobe Target A/B活動中將相同體驗的版本定位給不同的觀眾。 您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
-title: A/B 測試中的多個體驗版本
+description: 瞭解如何在Adobe Target A/B活動中將相同體驗的版本定位給不同的觀眾。
+title: 我可以在A/B活動中使用多個體驗版本嗎？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
