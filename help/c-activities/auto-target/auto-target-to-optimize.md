@@ -1,12 +1,12 @@
 ---
 keywords: 自動鎖定目標;鎖定目標;流量分配;常見問題集;faq;疑難排解
-description: Adobe Target中的Auto-Target使用進階的機器學習功能，從多個高效能行銷人員定義的體驗中選擇，以個人化內容並推動轉化。 自動鎖定目標會根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
-title: 自動定位概觀
+description: 瞭解Target中的「自動定位」活動如何根據客戶個人檔案和類似訪客的行為，為每位訪客提供最符合客戶需求的體驗。
+title: 什麼是自動定位活動？
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2008'
 ht-degree: 85%
 
 ---
