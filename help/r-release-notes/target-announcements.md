@@ -1,12 +1,12 @@
 ---
 keywords: 公告；技能建立者；開發人員聊天；咖啡休息；活動；forrester;gartner；網路研討會
-description: 我可以在哪裡找到近期活動和網路研討會？
-title: 公告與活動
+description: 閱讀公告並註冊Adobe Target活動，包括Skill Builder研討會、開發人員與產品經理聊天、網路研討會等。
+title: 我可以在哪裡找到Target公告和事件？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
