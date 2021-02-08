@@ -1,13 +1,13 @@
 ---
 keywords: 範本測試; 範本; 類似頁面上有相同體驗; 範本測試
-description: 使用Adobe Target中的頁面範本為您的頁面提供結構，或是您的頁面包含類似元素時，測試類似結構頁面元素的變化。
-title: 在類似頁面上包含相同體驗
+description: 瞭解如何使用Adobe Target Visual Experience Composer(VEC)，在結構類似或包含相同範本元素的多個頁面上加入相同的體驗。
+title: 我可以在類似的頁面上加入相同的體驗嗎？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 47%
+source-wordcount: '618'
+ht-degree: 46%
 
 ---
 
