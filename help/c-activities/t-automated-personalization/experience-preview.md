@@ -1,13 +1,13 @@
 ---
 keywords: 體驗預覽; 體驗 URL; 產生 URL; 檢視體驗 URL
-description: 體驗預覽URL可針對Target自動個人化活動產生，以便在活動上線以供預覽和QA之用前，直接在您的網站上查看體驗內容。 體驗預覽URL會略過定位，強制檢視特定體驗。
-title: 使用體驗預覽URL預覽自動個人化活動
+description: 瞭解如何使用Adobe Target Automated Personalization活動的體驗預覽URL，在活動上線前直接在您的網站上查看體驗內容。
+title: 如何在自動個人化活動中使用Experience Preview URLS?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 64%
+source-wordcount: '783'
+ht-degree: 65%
 
 ---
 
