@@ -1,12 +1,13 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: 在Adobe Target中組織您的網站和前制環境，以方便管理和分開報告。
-title: 主機
+keywords: 主機；主機；主機組；疑難排解；最佳做法；ubox；重定向；重定向；白名單；allowlist；黑名單；區塊清單
+description: 瞭解如何在Adobe Target中組織網站和製作前環境，以方便管理和分開報告。
+title: 什麼是主機，我要如何使用它們？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1108'
 ht-degree: 24%
 
 ---
@@ -51,7 +52,7 @@ ht-degree: 24%
 
    預設情況下，新識別的主機放置在[!UICONTROL Production]環境中。 這是最安全的環境，因為它不允許從這些主機檢視未批准的活動。
 
-1. （條件性）按一下「移動」圖示（**[!UICONTROL 「移動」圖示![「移動」圖示](/help/administrating-target/assets/icon-move.png)），將主機移入「開發」[!UICONTROL 、「測試」]或其他環境。**]
+1. （條件性）按一下「移動」圖示（**[!UICONTROL 「移動」圖示![「移動」圖示](/help/administrating-target/assets/icon-move.png)），將主機移入「開發」[!UICONTROL 、「測試」]或其他環境。]**][!UICONTROL 
 
 >[!NOTE]
 >
