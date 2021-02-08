@@ -1,13 +1,13 @@
 ---
 keywords: 建議
-description: Adobe Target中的Recommendations活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-title: 建議 活動
+description: 在Adobe Target中尋找有關Recommendations活動的資訊，這些活動會根據先前的使用者活動自動顯示可能吸引客戶的產品或內容。
+title: 我可以在哪裡找到有關Recommendations活動的資訊？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 47%
+source-wordcount: '83'
+ht-degree: 32%
 
 ---
 
