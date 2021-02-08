@@ -1,13 +1,13 @@
 ---
 keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
-description: 提供使用 Adobe Target 可視化體驗撰寫器 (VEC) Helper 瀏覽器擴充功能，在 VEC 內以可靠的方式載入網站來迅速撰寫體驗和保證體驗品質的資訊。
-title: Visual Experience Composer(VEC)Helper Extension
+description: 瞭解為何某些網站在Visual Experience Composer(VEC)中無法可靠地開啟。 VEC Helper瀏覽器擴充功能可讓您可靠地在VEC中載入網站。
+title: 我要如何使用Visual Experience Composer(VEC)Helper Extension?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 56%
+source-wordcount: '890'
+ht-degree: 52%
 
 ---
 
