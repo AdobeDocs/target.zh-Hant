@@ -1,13 +1,14 @@
 ---
 keywords: 全域mbox；自訂全域mbox；編輯at.js;at.js；實作at.js
-description: 協助您自訂at.js之全域mbox的資訊。
-title: 自訂全域 mbox
+description: 瞭解如何在Adobe Target的「管理——實作」頁面上自訂at.js的全域mbox。
+title: 如何自訂全域mbox?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 50%
 
 ---
 
