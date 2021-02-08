@@ -1,13 +1,13 @@
 ---
 keywords: 體驗；視覺體驗撰寫器；增強的體驗撰寫器；表單基礎體驗撰寫器；表單撰寫器；視覺撰寫器；體驗撰寫器；混合內容；iframe;iframe;iframe busting;bustiframe;x-frame-options;x畫格選項；交叉來源問題；驗證工作流程
-description: Adobe Target中的體驗會決定當訪客符合活動的觀眾條件時，會顯示哪些內容。
-title: 體驗與優惠
+description: 進一步瞭解Adobe Experience Composer - Visual Experience Composer(VEC)、表單式Experience Composer和單頁視覺化Experience Composer。
+title: Target提供哪些體驗作曲家？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 80%
+source-wordcount: '381'
+ht-degree: 79%
 
 ---
 
