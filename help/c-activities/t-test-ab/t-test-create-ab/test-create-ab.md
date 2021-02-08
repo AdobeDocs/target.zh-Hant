@@ -1,13 +1,13 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: 使用Adobe Target中的Visual Experience Composer，直接在啟用Target的頁面上建立A/B測試活動，並修改Target內頁面的部分。
-title: 建立 A/B 測試
+keywords: 建立A/B;A/B測試；A/B活動；新建a/b活動；建立a/b
+description: 瞭解如何使用Adobe Target中的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立A/B測試活動。
+title: 如何建立A/B測試？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 64%
+source-wordcount: '864'
+ht-degree: 63%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 64%
 
    ![A/B 活動設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 按一下「儲存並關閉」或「儲存」。]**]****[!UICONTROL **[!UICONTROL 
+1. 按一下「儲存並關閉」或「儲存」。********
 
 建立活動後，[!UICONTROL 概述]頁籤顯示有關活動的資訊，包括活動的圖。
 
