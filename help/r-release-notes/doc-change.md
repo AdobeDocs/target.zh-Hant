@@ -1,12 +1,12 @@
 ---
 keywords: 目標文檔更改日誌；文檔更新；新主題；編輯；更新；更新
-description: 對檔案做了哪些變更？
-title: 文件變更
+description: 透過Adobe Target產品檔案的重要新增和變更，隨時掌握最新動態。
+title: 我可以在哪裡檢視Target的檔案更新？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3487'
+source-wordcount: '3500'
 ht-degree: 29%
 
 ---
