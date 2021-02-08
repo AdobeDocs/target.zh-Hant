@@ -1,13 +1,13 @@
 ---
 keywords: 概覽和參考
-description: 使用 Target 搭配 Adobe Campaign 來最佳化電子郵件內容。
-title: 將 與 Adobe Campaign 整合
+description: 瞭解如何搭配Adobe Campaign使用Adobe Target來最佳化電子郵件內容。
+title: 如何將Target與Adobe Campaign整合？
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 47%
 
 ---
 
