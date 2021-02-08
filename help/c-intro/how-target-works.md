@@ -1,12 +1,12 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo；搜尋引擎最佳化；edge叢集， central clusters;at.js;mbox.js;
-description: 有關Adobe Target運作方式的資訊，包括有關Adobe Experience Platform Web SDK、Target JavaScript程式庫（at.js和mbox.js）的資訊，以及您可在Target中建立的各種活動類型。
-title: Target的運作方式
+description: 瞭解Adobe Target的運作方式，包括Target JavaScript程式庫（at.js和AEP Web SDK）、Adobe資料中心和SEO測試的相關資訊。
+title: Target如何運作？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2516'
 ht-degree: 70%
 
 ---
