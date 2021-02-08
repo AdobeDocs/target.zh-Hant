@@ -1,13 +1,13 @@
 ---
 keywords: 准則；算法；行業垂直；頁面類型；建議鍵；建議邏輯；資料範圍；行為資料源；部分設計；備份建議；包括規則；屬性加權；當前類別；自定義屬性；上次購買項目；上次查看項目；最多查看項目；最多查看項目；最多查看項；最近查看；最近查看
-description: 條件可控制 Adobe Recommendations 活動的內容。建立條件以顯示最適合您的活動的建議。
-title: 建立條件
+description: 瞭解如何建立控制Adobe Recommendations活動內容的准則，以顯示最適合您活動的建議。
+title: 如何在Recommendations中建立條件？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 65%
+source-wordcount: '2485'
+ht-degree: 64%
 
 ---
 
