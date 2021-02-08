@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第3章——開發您的測試和個人化概念
-title: 歡迎套件——第3章——開發您的測試和個人化概念
+description: 在Adobe Target中建立活動之前，先瞭解六個步驟，以說明改進測試和個人化構想的實證程式。
+title: 我要如何開發測試和個人化概念？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
