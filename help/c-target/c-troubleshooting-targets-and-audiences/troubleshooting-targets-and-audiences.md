@@ -1,13 +1,13 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;目標;對象
-description: 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
-title: 目標與受眾常見問答集
+description: 檢視有關體驗鎖定和Adobe Target活動中使用之觀眾的常見問答集(FAQ)。
+title: 我可以在哪裡找到有關目標和對象的問題和答案？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 
