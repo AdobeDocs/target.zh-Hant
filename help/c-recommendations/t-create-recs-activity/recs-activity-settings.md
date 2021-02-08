@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
-description: Adobe Target 中有數個設定可用來說明和控制建議活動。
-title: Recommendations 活動設定
+description: 瞭解如何設定用來說明和控制Adobe Target中Recommendations活動的設定。
+title: 如何設定Recommendations活動設定？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 90%
+source-wordcount: '397'
+ht-degree: 84%
 
 ---
 
