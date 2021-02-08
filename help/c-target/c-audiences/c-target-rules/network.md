@@ -1,13 +1,13 @@
 ---
 keywords: 鎖定目標;網路;目標網路;isp;網域名稱;連線速度;目標 isp;目標網域名稱;目標連線速度
-description: 您可以根據網路詳細資料在 Adobe Target 中建立受眾。
-title: 觀眾中的網路選項
+description: 瞭解如何根據網路詳細資訊（例如ISP、網域名稱和連線速度）在Adobe Target中建立觀眾。
+title: 我是否可以根據網路選項定位訪客？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 98%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
