@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;Recommendations准則；Recommendations算法；Recommendations活動；准則；Recommendations定位；recs
-description: Adobe Target中的Recommendations活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
-title: 目標建議
+description: 瞭解Adobe Target中的Recommendations活動，這些活動會根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的內容。
+title: 什麼是Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 59%
+source-wordcount: '930'
+ht-degree: 58%
 
 ---
 
