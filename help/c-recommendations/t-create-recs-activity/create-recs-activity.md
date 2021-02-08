@@ -1,13 +1,13 @@
 ---
 keywords: 建立建議;Recommendations 活動;新建議;建議概覽
-description: 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
-title: 建立 Recommendations 活動
+description: 瞭解如何使用Adobe Target Visual Experience Composer(VEC)直接在啟用Target的頁面上建立Recommendations活動。
+title: 如何建立Recommendations活動？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 78%
+source-wordcount: '1309'
+ht-degree: 76%
 
 ---
 
