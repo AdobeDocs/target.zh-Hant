@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions；什麼是adobe target;
-description: 什麼是Target?
+description: 瞭解Adobe Target Standard和Adobe Target Premium的基本資訊。 Target Premium包含標準產品中無法使用的進階功能。
 landing-page-description: 將客戶體驗個人化，以利您將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
-title: 簡介
+title: 什麼是Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 82%
+source-wordcount: '945'
+ht-degree: 80%
 
 ---
 
