@@ -1,13 +1,14 @@
 ---
 keywords: 實作;at.js;javascript 資料庫
-description: 有關如何使用 Adobe Launch、不使用標記管理程式，或使用 Adobe 動態標籤管理 (DTM) 部署 Adobe Target JavaScript 程式庫和 at.js 的資訊。
-title: 如何部署at.js
+description: 瞭解如何使用Adobe Experience Platform Launch或不使用標籤管理器來部署Adobe Target at.js JavaScript程式庫。
+title: 如何部署at.js?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 56%
+source-wordcount: '308'
+ht-degree: 49%
 
 ---
 
