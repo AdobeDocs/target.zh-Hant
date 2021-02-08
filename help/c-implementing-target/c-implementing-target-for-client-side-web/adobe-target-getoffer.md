@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffer(options) 函數的資訊。
-title: Adobe.Target.Getoffer(Options)
+description: 使用adobe.target.getOffer()函式及其Adobe Target at.js程式庫的選項，觸發要求以取得Target選件。
+title: 我要如何使用adobe.target.getOffer()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
