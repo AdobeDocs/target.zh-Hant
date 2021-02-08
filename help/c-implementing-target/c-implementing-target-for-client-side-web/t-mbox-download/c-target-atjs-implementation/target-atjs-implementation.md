@@ -1,13 +1,14 @@
 ---
-keywords: Target Standard;at.js;implementation
-description: at.js 是新的 Adobe Target 實作資料庫，專為典型 Web 實作和單頁應用程式而設計。
-title: 從 mbox.js 移轉至 at.js
+keywords: Target Standard;at.js;實作
+description: 瞭解如何移轉至at.js，這是Adobe Target的全新實作庫，專為一般網頁實作和單頁應用程式(SPA)所設計。
+title: 如何從mbox.js移轉至at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 96%
+source-wordcount: '596'
+ht-degree: 91%
 
 ---
 
