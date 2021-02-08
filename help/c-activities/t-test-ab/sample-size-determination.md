@@ -1,13 +1,13 @@
 ---
 keywords: AB;A/B;AB...n；樣本大小；樣本大小計算器；自動分配；自動分配；計算器
-description: 在Adobe Target中成功進行A/B測試需要足夠數量的訪客（樣本大小）來改善您的轉換率，但您如何知道執行A/B測試需要多久？ 本文包含「自動分配」活動和Adobe Target範例大小計算器的相關資訊，可協助您確保活動有足夠數量的訪客達成目標。
-title: 您應執行A/B測試多久？
+description: 瞭解執行A/B測試的時間。 在Adobe Target中成功進行A/B測試需要足夠數量的訪客（樣本大小）來提升轉換率。
+title: 我應執行A/B測試多久？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3118'
-ht-degree: 73%
+source-wordcount: '3083'
+ht-degree: 74%
 
 ---
 
