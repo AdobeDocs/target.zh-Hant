@@ -1,13 +1,13 @@
 ---
 keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 出現上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪設定檔指令碼; ajax 無法使用
-description: 如果您的Adobe Target活動未顯示在您的網站上，這些疑難排解建議應該會協助您找到解決方案。
-title: 疑難排解活動
+description: 尋找疑難排解建議，以免您的Adobe Target活動出現在您的網站上。
+title: 如何排除活動故障？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '838'
+ht-degree: 78%
 
 ---
 
