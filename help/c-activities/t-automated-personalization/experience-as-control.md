@@ -1,14 +1,14 @@
 ---
 keywords: 體驗;控制;automated personalization;自動鎖定目標
-description: 在 Adobe Target 中建立 Automated Personalization (AP) 或自動鎖定目標活動時，選取要用來作為控制的體驗。
-title: 使用特定體驗做為控制
+description: 瞭解如何在Adobe Target中建立「自動個人化」(AP)或「自動目標」活動時，選取要當做控制項的體驗。
+title: 如何在AP活動中使用特定體驗作為控制？
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 99%
+source-wordcount: '765'
+ht-degree: 95%
 
 ---
 
