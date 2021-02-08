@@ -1,13 +1,14 @@
 ---
-keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
-description: at.js 與 mbox.js 之間有一些差異。此小節列出部分差異和限制，以協助您成功使用 at.js。
-title: at.js 限制
+keywords: 可視化體驗撰寫器限制;瀏覽器支援;整合;外掛程式;非同步考量
+description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版的at.js。
+title: at.js和mbox.js之間有何差異？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 92%
 
 ---
 
