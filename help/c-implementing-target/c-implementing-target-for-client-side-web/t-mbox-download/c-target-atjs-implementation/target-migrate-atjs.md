@@ -1,13 +1,14 @@
 ---
-keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
-description: 從 mbox.js 移轉至 at.js 是簡單直接的程序。
+keywords: Target;at.js;移轉至 at.js;整備;稽核 at.js;整合 at.js
+description: 瞭解如何移轉至at.js，這是Adobe Target的全新實作庫，專為一般網頁實作和單頁應用程式(SPA)所設計。
 title: 如何從 mbox.js 移轉至 at.js
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 99%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
