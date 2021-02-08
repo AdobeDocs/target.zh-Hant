@@ -1,13 +1,13 @@
 ---
 keywords: 建議；建議活動；條件；算法
-description: 選取要在您的 Adobe Target Recommendations 活動中使用的條件。
-title: 選取條件
+description: 瞭解如何選取要在Adobe Target Recommendations活動中使用的標準（決定要建議哪些產品或內容的規則）。
+title: 如何為Recommendations活動選擇標準？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 81%
+source-wordcount: '405'
+ht-degree: 74%
 
 ---
 
