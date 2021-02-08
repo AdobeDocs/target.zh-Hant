@@ -1,13 +1,13 @@
 ---
 keywords: 定位；對象篩選；對象；篩選
-description: Adobe Target（或觀眾）中的觀眾篩選器是一組具有特定特性或一組特性的訪客。
-title: 報表的對象篩選
+description: 瞭解如何使用Adobe Target中的觀眾篩選器，來檢視共用特定特性或一組特性之訪客群組的資料。
+title: 我是否可以使用對象篩選來建立報表？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 81%
+source-wordcount: '492'
+ht-degree: 79%
 
 ---
 
