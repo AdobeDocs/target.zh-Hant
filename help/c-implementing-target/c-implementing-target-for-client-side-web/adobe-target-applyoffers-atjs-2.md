@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffers(options) 函數的資訊。
-title: Adobe.Target.Applyoffers（選項）- at.js 2.x
+description: 使用Adobe Target at.js JavaScript程式庫的adobe.target.applyOffers()函式，在回應中套用多個選件。 (at.js 2.x)
+title: 如何使用adobe.target.applyOffers()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 94%
+source-wordcount: '809'
+ht-degree: 92%
 
 ---
 
 
-# adobe.target.applyOffers(options)- at.js 2.x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 此函數可讓您套用一個以上由 `adobe.target.getOffers()` 擷取的選件。
 
