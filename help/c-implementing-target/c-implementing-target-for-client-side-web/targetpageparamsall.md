@@ -1,13 +1,14 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;頁面參數;頁面參數;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 targetPageParamsAll() 函數的資訊。
-title: Targetpageparamsall()
+description: 使用Adobe Target at.js JavaScript程式庫的targetPageParamsAll()函式，將參數附加至請求程式碼以外的所有mbox。
+title: 我要如何使用targetPageParamsAll()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 87%
+source-wordcount: '169'
+ht-degree: 71%
 
 ---
 
