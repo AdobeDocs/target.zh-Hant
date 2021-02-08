@@ -1,13 +1,13 @@
 ---
 keywords: qa;預覽;書籤小程式;預覽連結
-description: 此資訊可協助您使用Adobe Target QA書籤小工具來強制Target從QA模式釋放您。
-title: 活動 QA 小書籤
+description: 瞭解如何使用Adobe Target QA書籤小工具強制Target從QA模式釋放您。
+title: 如何使用活動QA書籤小工具？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 27%
 
 ---
 
