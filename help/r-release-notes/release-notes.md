@@ -1,13 +1,13 @@
 ---
 keywords: 發行說明；新功能；發行；更新；更新；發行；增強；增強；修正；錯誤修正；更新
-description: 目前版本包含哪些新功能？
-title: 發行說明（目前）
+description: 瞭解Adobe Target最新版本中包含的新功能、增強功能和修正，包括SDK、API和JavaScript程式庫。
+title: 目前版本包含哪些新功能？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 40%
+source-wordcount: '714'
+ht-degree: 39%
 
 ---
 
