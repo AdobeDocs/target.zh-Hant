@@ -1,13 +1,13 @@
 ---
 keywords: 內容; 建立資料夾; 資產; 移動資料夾; 複製資料夾; 刪除資料夾; 下載資料夾; 資料夾
 description: 如何在選件程式庫中建立資料夾？
-title: 建立選件資料夾
+title: 瞭解如何在Adobe Target選件程式庫中建立檔案夾，以存放程式碼和影像選件，以及其他檔案夾。
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 25%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 
