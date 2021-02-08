@@ -1,13 +1,14 @@
 ---
 keywords: 實施；實施；at.js;adobe體驗平台網頁sdk;aep網頁sdk
-description: 有關使用at.js為用戶端網頁實作Adobe Target的資訊。
-title: 實作用戶端網路專用的Adobe Target
+description: 瞭解如何使用Adobe Experience Platform Web SDK(AEP Web SDK)或Target at.js JavaScript程式庫，為用戶端網路實作Adobe Target。
+title: 如何實作用戶端Web的Target
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 18%
+source-wordcount: '358'
+ht-degree: 17%
 
 ---
 
