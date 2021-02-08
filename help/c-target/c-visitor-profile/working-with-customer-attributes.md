@@ -1,12 +1,12 @@
 ---
 keywords: 客戶關係管理；客戶記錄服務；crs;crs;crm;mbox3rdpartyid；客戶屬性；定位；csv;crm;adobe experience Cloud人員
-description: 使用Adobe Experience Cloud人員服務中的客戶屬性，從客戶關係管理(CRM)資料庫使用企業客戶資料以在Adobe Target中定位內容的相關資訊。
-title: 客戶屬性
+description: 瞭解如何在Adobe Target中使用客戶關係管理(CRM)資料庫中的企業客戶資料進行內容定位。
+title: 什麼是客戶屬性，我要如何使用這些屬性？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 37%
 
 ---
