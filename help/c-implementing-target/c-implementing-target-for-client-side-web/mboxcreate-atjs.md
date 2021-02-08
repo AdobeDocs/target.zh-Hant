@@ -1,13 +1,14 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox 建立;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 mboxCreate(mbox,params) 函數的資訊。
-title: Mboxcreate(Mbox,Params)- at.js 1.x
+description: 使用Adobe Target at.js JavaScript程式庫的mboxCreate()函式，將選件套用至最靠近的DIV，並具有mboxDefault類別名稱。 (at.js 1.x)
+title: 如何使用mboxCreate()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 97%
+source-wordcount: '204'
+ht-degree: 85%
 
 ---
 
