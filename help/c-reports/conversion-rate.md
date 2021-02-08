@@ -1,13 +1,13 @@
 ---
 keywords: 定位
-description: 每次體驗皆會回報轉換率、提升度、信賴 (統計精確度) 和信賴區間。
-title: 轉換率
+description: 瞭解Adobe Target如何顯示及計算每個體驗的轉換率、提升度、信賴（統計意義）和信賴區間。
+title: 如何檢視轉換率、提升度和信賴等級？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2173'
-ht-degree: 71%
+source-wordcount: '2187'
+ht-degree: 70%
 
 ---
 
