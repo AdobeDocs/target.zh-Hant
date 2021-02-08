@@ -1,13 +1,13 @@
 ---
 keywords: 自動個人化；ap；觀眾；ensemble；隨機森林；殘差方差；誤差方差；存留值
-description: Adobe Target中的「自動個人化」活動工作流程會因其他活動類型的工作流程而有所不同。
-title: 建立自動個人化活動
+description: 瞭解如何使用視覺體驗撰寫器(VEC)在Adobe Target中建立自動個人化(AP)活動。
+title: 如何建立自動個人化活動？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 92%
+source-wordcount: '2057'
+ht-degree: 91%
 
 ---
 
