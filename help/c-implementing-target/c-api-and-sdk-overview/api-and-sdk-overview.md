@@ -1,12 +1,13 @@
 ---
 keywords: 伺服器端；伺服器端；api;sdk;node.js;nodejs;nodejs;recommendations api;api:api
-description: Adobe Target伺服器端傳送API、SDK和Target Recommendations API的相關資訊。
-title: 伺服器端傳送API、Node.js SDK和Recommendations API的相關資訊
+description: 瞭解Adobe Target伺服器端傳送API、SDK和Target Recommendations API。
+title: 我可以從哪裡瞭解Target伺服器端傳送API和SDK?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
