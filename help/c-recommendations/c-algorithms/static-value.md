@@ -1,13 +1,13 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷；動態過濾；靜態過濾
-description: 手動輸入一或多個靜態值，以使用Adobe Target Recommendations中的包含規則進行篩選。
-title: 依Adobe Target建議中包含規則中的靜態值篩選
+description: 瞭解如何在Adobe Target Recommendations中手動輸入一或多個靜態值，以使用包含規則進行篩選。
+title: 如何依Recommendations活動中的靜態值篩選？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 46%
+source-wordcount: '227'
+ht-degree: 45%
 
 ---
 
