@@ -1,13 +1,14 @@
 ---
 keywords: 雲端例項;公用尾碼清單;公用尾碼;Cookie;第一方 Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: 關於客戶使用雲端型例項來測試 Adobe Target 時所面臨問題的資訊。
-title: 使用雲端型例項
+description: 探索客戶在使用雲端執行個體測試Adobe Target或進行概念驗證時所面臨的問題（與解決方案有關）。
+title: 我是否可將Target與雲端執行個體搭配使用？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '170'
+ht-degree: 81%
 
 ---
 
