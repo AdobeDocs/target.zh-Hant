@@ -1,13 +1,13 @@
 ---
-keywords: multi-page;journey testing;multipage activity
-description: Adobe Target中的多頁活動可讓您建立多個頁面的動態，而且每個頁面都有特定的設計。
-title: 多頁活動
+keywords: 多頁面; 歷程測試; 多頁面活動
+description: 瞭解如何在Adobe Target中建立多頁活動，讓您使用每個頁面專用的設計，在多個頁面上建立動態。
+title: 如何建立多頁活動？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 85%
 
 ---
 
