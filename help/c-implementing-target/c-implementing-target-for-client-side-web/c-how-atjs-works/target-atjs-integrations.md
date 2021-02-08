@@ -1,13 +1,14 @@
 ---
 keywords: at.js 整合;支援的整合;不支援的整合;第三方整合
-description: 關於與 Target 的常見整合和其對 at.js 支援狀態的資訊。
-title: at.js 整合
+description: 檢視Adobe Target at.js支援（且不支援）的整合，包括Analytics for Target(A4T)、Experience Cloud ID服務等。
+title: at.js支援哪些整合？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 91%
+source-wordcount: '575'
+ht-degree: 86%
 
 ---
 
