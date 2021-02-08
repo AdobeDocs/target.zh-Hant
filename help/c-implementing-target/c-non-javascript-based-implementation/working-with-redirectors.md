@@ -1,13 +1,14 @@
 ---
 keywords: 實作;mbox.js non javascript;重新導向程式;每次點擊成本;每次點擊收入
-description: 使用「重新導向程式」的方式和您在測試中使用 mbox 類似。
-title: 與重新導向程式搭配使用
+description: 瞭解如何在電子郵件實作中使用重新導向程式，就像您在Adobe Target活動中使用mbox的方式一樣。
+title: 如何與重新導向程式搭配使用？
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 69%
+source-wordcount: '680'
+ht-degree: 66%
 
 ---
 
