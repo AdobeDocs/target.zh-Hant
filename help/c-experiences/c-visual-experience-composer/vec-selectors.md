@@ -1,13 +1,13 @@
 ---
 keywords: 體驗鎖定目標; 登陸頁面測試
-description: 元素選取器是一種可以識別一或多個元素的 CSS 運算式。
-title: 可視化體驗撰寫器中使用的元素選取器 (VEC)
+description: '元素選擇器是可識別一或多個元素的CSS運算式。 瞭解如何在Adobe Target Visual Experience Composer(VEC)中使用元素選擇器。 '
+title: 我是否可在Visual Experience Composer(VEC)中使用元素選擇器？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 82%
 
 ---
 
