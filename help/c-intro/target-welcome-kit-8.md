@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第8章——傳達您的活動結果
-title: 歡迎套件——第8章——傳達您的活動成果
+description: 只需使用「執行摘要結果」範本，即可協助您透過Adobe Target活動傳達成功。
+title: 我要如何與組織分享Target活動的結果？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
