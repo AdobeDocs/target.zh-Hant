@@ -1,13 +1,13 @@
 ---
 keywords: 促銷；前面促銷；後面促銷；促銷類型；項目清單；按屬性促銷；促銷系列
-description: 新增提示的項目並控制其在您的 Adobe Target Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
-title: 在Target Recommendations設計中新增促銷
+description: 瞭解如何新增推廣項目並控制其在Adobe Target Recommendations設計中的位置。 您可以新增靜態和動態促銷活動。
+title: 如何在Recommendations設計中新增促銷？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 58%
+source-wordcount: '699'
+ht-degree: 56%
 
 ---
 
