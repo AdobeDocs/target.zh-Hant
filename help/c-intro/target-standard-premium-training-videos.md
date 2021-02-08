@@ -1,13 +1,13 @@
 ---
 keywords: 訓練影片；youtube；影片；視訊訓練；教學課程；教學課程；影片
 description: 觀看訓練影片來協助您善用 Target Standard 和 Target Premium。
-title: 訓練影片
+title: 我可以在哪裡找到Target訓練影片？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 67%
+source-wordcount: '169'
+ht-degree: 63%
 
 ---
 
