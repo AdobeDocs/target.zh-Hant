@@ -1,13 +1,13 @@
 ---
 keywords: analytics追蹤伺服器；A4T;Adobe Experience Cloud除錯程式；Adobe Experience Platform除錯程式；報告來源；開發人員工具
-description: 如果您使用較舊版本的 at.js 或 mbox.js，您必須針對使用 Analytics for Target (A4T) 的活動指定分析追蹤伺服器。
-title: 使用Analytics追蹤伺服器
+description: '瞭解如果您使用舊版at.js或mbox.js，如何為使用Analytics for Target(A4T)的活動指定Analytics追蹤伺服器。 '
+title: 如何使用Analytics追蹤伺服器？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 25%
+source-wordcount: '717'
+ht-degree: 22%
 
 ---
 
