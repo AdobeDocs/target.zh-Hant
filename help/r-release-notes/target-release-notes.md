@@ -1,13 +1,13 @@
 ---
 keywords: 發行說明；發行；更新；未來發行；增強；新功能；修正；更新；搶鮮版
-description: 即將發行的版本包含哪些功能？
-title: 搶鮮版注意事項
+description: 瞭解即將發行的Adobe Target版本中包含的新功能、增強功能和修正，包括SDK、API和JavaScript程式庫。
+title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 27%
+source-wordcount: '514'
+ht-degree: 26%
 
 ---
 
