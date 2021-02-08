@@ -1,13 +1,13 @@
 ---
 keywords: 鎖定目標;流量來源;目標流量來源;目標搜尋引擎;搜尋引擎;登陸頁面;目標登陸頁面;引用登陸頁面
-description: 在 Adobe Target 中建立受眾，根據參照至您網站的搜尋引擎或著陸頁面鎖定訪客。
-title: 觀眾中的流量來源選項
+description: 瞭解如何在Adobe Target中建立觀眾，以根據將訪客引薦至您網站的搜尋引擎或登陸頁面來定位訪客。
+title: 我是否可依據搜尋引擎或反向連結網站定位訪客？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 97%
+source-wordcount: '261'
+ht-degree: 85%
 
 ---
 
