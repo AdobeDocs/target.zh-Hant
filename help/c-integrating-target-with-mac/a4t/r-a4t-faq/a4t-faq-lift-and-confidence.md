@@ -1,13 +1,13 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;提升度;隨選;報表產生器;可信度
-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於提升度和可信度問題的回答。
-title: 提升度和可信度- A4T常見問答集
+description: 使用Analytics for Target(A4T)時，尋找提升度和可信度問題的解答。 A4T可讓您使用Analytics報表來處理Target活動。
+title: 我可以在哪裡找到有關A4T提升度與信賴度的資訊？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 50%
+source-wordcount: '517'
+ht-degree: 45%
 
 ---
 
