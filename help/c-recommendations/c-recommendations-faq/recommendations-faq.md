@@ -1,12 +1,12 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;建議;特殊字元;屬性加權;內容相似度
-description: 關於Adobe Target Recommendations活動的常見問題(FAQ)清單。
-title: Target Recommendations常見問答集
+description: 檢視Adobe Target Recommendations活動的常見問題與解答清單。
+title: 我可以在哪裡找到Target建議的問題和答案？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2041'
 ht-degree: 80%
 
 ---
