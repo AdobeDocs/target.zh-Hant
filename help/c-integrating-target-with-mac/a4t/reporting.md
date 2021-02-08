@@ -59,7 +59,7 @@ ht-degree: 32%
 
 ## Target 中的報表 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
-當[!DNL Analytics]用作報告來源時，[!DNL Target]中的報告會顯示從[!DNL Analytics]收集的資料。 此報告與其他[!DNL Target]報告有些不同：
+當[!DNL Analytics]用作報告來源時，[!DNL Target]中的報告會顯示從[!DNL Analytics]收集的資料。 此報告與其他[!DNL Target]報告有所不同：
 
 * [!UICONTROL 觀眾]清單顯示[!DNL Analytics]報表套裝的觀眾。
 * [!UICONTROL 量度]清單顯示透過[!DNL Analytics]可用的每個量度。
