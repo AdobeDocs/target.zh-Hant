@@ -1,13 +1,13 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;膨脹;造訪;訪客;部分點擊;孤立的;孤立
-description: 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於膨脹後造訪和訪客計數問題的回答。
-title: 膨脹後造訪和訪客計數 - A4T 常見問答集
+description: 使用Analytics for Target(A4T)時，尋找有關誇大瀏覽和訪客計數的問題解答。 瞭解如何將「部分資料」減到最低。
+title: 我可以在哪裡找到有關A4T誇大瀏覽和訪客計數的常見問答集？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 94%
 
 ---
 
