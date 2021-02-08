@@ -1,14 +1,14 @@
 ---
 keywords: 自動個人化；選件；目標；對象；目標規則；目標
-description: 在自動個人化活動中，您可以將選件鎖定在特定對象。
-title: '自動個人化優惠 '
+description: 瞭解如何使用Adobe Target中的「自動個人化」(AP)活動，將個別優惠鎖定在特定的受眾。
+title: 我要如何定位自動個人化優惠？
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
