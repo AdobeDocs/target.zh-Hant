@@ -1,13 +1,13 @@
 ---
 keywords: 目標與設定；目標；優先順序；持續時間
-description: 使用Adobe Target中的「活動設定」來管理活動的目標、優先順序和持續時間。
-title: 活動設定
+description: 瞭解如何使用Adobe Target中的「活動設定」來管理活動的目標、優先順序和持續時間。
+title: 如何指定活動設定？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 82%
+source-wordcount: '416'
+ht-degree: 80%
 
 ---
 
