@@ -1,13 +1,13 @@
 ---
 keywords: 對象;傾向;設定檔屬性;比較;比較;建立對象;建立對象
-description: 定義 Target 受眾，比較受眾資料庫或僅限此活動受眾中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
-title: 建立設定檔屬性比較對象
+description: 瞭解如何定義對象，以比較Target對象程式庫或僅限活動對象中的兩個描述檔屬性。
+title: 我是否可以比較兩個用於觀眾的描述檔屬性？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 99%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
