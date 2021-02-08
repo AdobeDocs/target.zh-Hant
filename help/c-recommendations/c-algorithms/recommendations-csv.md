@@ -1,13 +1,13 @@
 ---
 keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
-description: 上傳 CSV 檔案來自訂您的建議。
-title: 上傳自訂條件
+description: 瞭解如何上傳CSV檔案，以自訂Adobe Target Recommendations中的建議。
+title: 如何在Recommendations中上傳自訂條件？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 64%
+source-wordcount: '710'
+ht-degree: 61%
 
 ---
 
