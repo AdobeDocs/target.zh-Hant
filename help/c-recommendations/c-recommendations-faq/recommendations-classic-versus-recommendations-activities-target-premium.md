@@ -1,13 +1,13 @@
 ---
 keywords: 建議;建議演算法;recommendations 活動;recommendations classic
-description: 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
-title: Target Premium中的Recommendations Classic與Recommendations活動
+description: 檢閱資訊，協助您瞭解Target Premium中舊有Recommendations Classic和Recommendations活動之間的差異。
+title: Target Premium中Recommendations Classic和Recommendations之間有何差異？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 95%
 
 ---
 
