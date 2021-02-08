@@ -1,12 +1,12 @@
 ---
 keywords: 版本說明
-description: 我可以在哪裡找到舊版的相關資訊？
-title: 舊版發行說明
+description: 檢視舊版Adobe Target中包含的功能、增強功能和修正清單。
+title: 舊版包含哪些功能？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '30512'
+source-wordcount: '30521'
 ht-degree: 85%
 
 ---
