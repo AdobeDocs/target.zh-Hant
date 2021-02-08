@@ -1,13 +1,13 @@
 ---
 keywords: 相關性;類別相關性
-description: Adobe Target 中的類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
-title: 使用類別相似性
+description: 瞭解Adobe Target中的類別相似性，此類別相似性會自動擷取使用者瀏覽的類別，然後計算使用者對類別的相似性，以便進行定位和劃分。
+title: 什麼是類別相似性？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 98%
+source-wordcount: '812'
+ht-degree: 94%
 
 ---
 
