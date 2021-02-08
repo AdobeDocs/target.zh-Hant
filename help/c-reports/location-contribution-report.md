@@ -1,13 +1,13 @@
 ---
 keywords: mvt;多變數測試;位置貢獻報表
-description: 位置貢獻報表顯示每個元素和每個選件的效能。
-title: 位置貢獻報表 (MVT)
+description: 瞭解如何針對Adobe Target體驗定位活動使用「位置貢獻」報表，以顯示每個元素和每個選件的效能。
+title: 如何針對多變數測試使用位置貢獻報表？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 99%
+source-wordcount: '219'
+ht-degree: 83%
 
 ---
 
