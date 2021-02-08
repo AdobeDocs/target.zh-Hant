@@ -1,13 +1,13 @@
 ---
-keywords: product;collections
-description: 實體會使用 Adobe Target 參考您要建議的項目。實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
-title: Adobe Target 中的實體
+keywords: 產品;集合
+description: 瞭解Adobe Target Recommendations中的實體。 實體是指您要建議使用Target的項目，例如文章、影片或產品。
+title: 如何使用實體？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 72%
 
 ---
 
