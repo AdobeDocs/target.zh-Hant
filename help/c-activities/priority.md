@@ -1,12 +1,12 @@
 ---
 keywords: 設定; 優先順序
-description: Adobe Target會根據您使用的Target介面和活動建立功能（視覺體驗撰寫器或表單式撰寫器），以不同方式決定要傳送至頁面的活動（或活動）。
-title: 優先順序
+description: 瞭解Adobe Target如何根據您使用的Target介面和活動建立功能，以不同方式決定要傳送至頁面的活動（或活動）。
+title: Target如何為不同活動指派優先順序？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 88%
 
 ---
