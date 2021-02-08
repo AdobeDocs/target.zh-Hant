@@ -1,12 +1,12 @@
 ---
 keywords: 建立自動定位；A/B測試；自動定位活動；新的a/b活動；自動定位；個人化體驗的自動定位；個人化
-description: 使用Adobe Target中的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立自動目標A/B測試活動，並修改Target內頁面的部分。
-title: 建立自動定位活動
+description: 瞭解如何使用Adobe Target中的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立自動目標A/B測試活動。
+title: 如何建立自動定位活動？
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '937'
 ht-degree: 58%
 
 ---
