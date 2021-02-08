@@ -1,13 +1,14 @@
 ---
 keywords: 實作;實施
-description: 實作 Adobe Target 前應注意的考量事項。
-title: 實作之前
+description: 在實作Adobe Target之前，請先瞭解您應處理的考量事項。
+title: 實作前，我應該知道什麼？
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 90%
+source-wordcount: '117'
+ht-degree: 76%
 
 ---
 
