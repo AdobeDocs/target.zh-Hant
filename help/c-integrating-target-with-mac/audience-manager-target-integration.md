@@ -1,12 +1,12 @@
 ---
-keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate;integration
-description: Target/Audience Manager整合可讓您將Audience Manager區段傳送至Adobe Target
-title: 將Target與Adobe Audience Manager(AAM)整合
+keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate；整合
+description: 瞭解如何使用Target/Audience Manager整合，將Audience Manager(AAM)區段傳送至Adobe Target。
+title: 我要如何將Target與Adobe Audience Manager(AAM)整合？
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
