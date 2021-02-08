@@ -1,13 +1,13 @@
 ---
 keywords: 環境資料;工作階段資料;地理資料;地理位置資料;裝置資料;行動資料;屬性;設定檔屬性
-description: Adobe Target 會自動收集和使用各種資料，在 Automated Personalization (AP) 和自動鎖定目標 (AT) 活動中建置其個人化演算法。當訪客進入 AP 或 AT 活動時，將會傳送資訊的快照至一組「訓練記錄」(個人化演算法將學習的訪客資料)。
-title: 個人化演算法的資料收集
+description: 瞭解Adobe Target在「自動個人化」(AP)和「自動目標」(AT)活動中收集和使用哪些資料來建立其個人化演算法。
+title: 收集哪些資料以建立個人化演算法？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 91%
+source-wordcount: '1737'
+ht-degree: 89%
 
 ---
 
