@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: 關於訪客如何可以隨著其設定檔的演進，在體驗鎖定目標 (XT) 活動中的體驗之間切換的資訊。
-title: 切換體驗鎖定目標中的體驗
+keywords: 優先順序; 體驗建立; 體驗; 對象; 切換體驗; 可視化體驗撰寫器
+description: 瞭解訪客如何在Adobe Target體驗定位(XT)活動中隨著其個人檔案的發展而切換體驗。
+title: 訪客是否可在體驗定位活動中切換體驗？
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 96%
 
 ---
 
