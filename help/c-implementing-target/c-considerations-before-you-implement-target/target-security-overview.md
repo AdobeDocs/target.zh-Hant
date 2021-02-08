@@ -1,13 +1,14 @@
 ---
 keywords: 安全性;安全性實務
-description: 關於 Adobe 所實作以支持資料的安全性和 Adobe Target 體驗的深入方法和安全性程序的資訊。
-title: 安全性概觀
+description: 瞭解Adobe用來加強資料安全性和Adobe Target體驗的程式。 下載Adobe Target安全性概觀白皮書。
+title: Target如何處理我的資料安全性？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 92%
+source-wordcount: '165'
+ht-degree: 74%
 
 ---
 
