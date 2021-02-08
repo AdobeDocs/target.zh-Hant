@@ -1,13 +1,13 @@
 ---
 keywords: 時間範圍;開始日期;結束日期;開始/結束日期;目標排程;週劃分;日劃分;劃分
-description: 您可以新增開始/結束日期和時間，以鎖定在特定時間範圍期間造訪您的網站的使用者。您也可以設定「週與日劃分」選項，來為對象鎖定目標建立週期性模式。
-title: 觀眾中的時間範圍選項
+description: 瞭解如何使用開始／結束日期和時間來定位在特定時段內瀏覽您網站的使用者。 您也可以設定「周」和「日分割」選項。
+title: 我可以定位在特定時間瀏覽我網站的訪客嗎？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
