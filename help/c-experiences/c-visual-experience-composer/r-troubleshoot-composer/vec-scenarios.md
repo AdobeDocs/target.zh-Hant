@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: 本主題中的藍本說明對頁面所做的變更如何影響Adobe Target顯示體驗的能力。
-title: 頁面修改案例
+description: 探索常見案例，顯示在Visual Experience Composer(VEC)中對頁面所做的變更如何影響Adobe Target顯示體驗的能力。
+title: 哪些是常見的頁面修改藍本？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 90%
 
 ---
 
