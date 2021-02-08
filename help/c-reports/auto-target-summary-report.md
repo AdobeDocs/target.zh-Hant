@@ -1,13 +1,13 @@
 ---
 keywords: reports;auto-target;auto target;AT;report
-description: 有關如何解譯Adobe Target中「自動目標摘要」報表的資訊。
-title: 自動鎖定目標摘要報表
+description: 瞭解如何解譯Adobe Target中的「自動目標摘要」報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
+title: 如何使用自動定位摘要報表？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 55%
+source-wordcount: '690'
+ht-degree: 53%
 
 ---
 
