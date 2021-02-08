@@ -1,13 +1,13 @@
 ---
 keywords: 疑難排解 target;疑難排解 target
-description: 可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
-title: 疑難排解
+description: 檢閱可協助您解決Adobe Target中問題的主題清單，包括疑難排解主題、常見問答集(FAQ)和其他實用主題。
+title: 如何疑難排解Target?
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 96%
+source-wordcount: '445'
+ht-degree: 90%
 
 ---
 
