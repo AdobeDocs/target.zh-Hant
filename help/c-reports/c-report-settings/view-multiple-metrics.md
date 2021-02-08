@@ -1,13 +1,13 @@
 ---
 keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
-description: 使用Adobe Target選取多個度量以在報表中檢視。
-title: 在報表中檢視多個量度
+description: 瞭解如何使用Adobe Target選取多個度量以在報表中檢視。
+title: 如何在報表中檢視多個量度？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 
