@@ -1,13 +1,13 @@
 ---
 keywords: 自動個人化；應用；預覽；排除體驗；
-description: 因為 Automated Personalization (AP) 活動會比較頁面上的多個選件，使用每個體驗預覽頁面會很有幫助。
-title: 在Visual Experience Composer(VEC)中預覽自動個人化體驗
+description: 瞭解如何使用視覺體驗撰寫器(VEC)在Adobe Target的「自動個人化」(AP)活動中預覽每個體驗。
+title: 如何在VEC中預覽自動個人化體驗？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 55%
+source-wordcount: '259'
+ht-degree: 47%
 
 ---
 
