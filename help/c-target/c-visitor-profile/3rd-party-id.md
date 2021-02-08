@@ -1,13 +1,13 @@
 ---
 keywords: mbox;mbox3rdPartyId;設定檔同步中;設定檔同步;PCID
-description: 關於即時設定檔的資訊
-title: Mbox3Rdpartyid的即時個人檔案同步
+description: 瞭解如何使用mbox3rdPartyId，即您組織的訪客ID，例如會籍ID或您組織的忠誠度方案。
+title: 我要如何使用mbox3rdPartyId的即時描述檔同步？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 80%
+source-wordcount: '547'
+ht-degree: 76%
 
 ---
 
