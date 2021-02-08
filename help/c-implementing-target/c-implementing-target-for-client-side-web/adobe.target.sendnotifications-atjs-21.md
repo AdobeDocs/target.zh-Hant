@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;傳送通知;通知;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.sendNotifications(options) 函數的資訊。
-title: Adobe.Target.Sendnotifications(Options)
+description: 使用at.js的adobe.target.sendNotifications()，在呈現體驗時，不使用applyOffer傳送通知至Target邊緣。 (at.js.2.1 +)
+title: 我要如何使用adobe.target.sendNotifications()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
