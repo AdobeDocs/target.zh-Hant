@@ -1,13 +1,13 @@
 ---
 keywords: qa;preview；預覽連結；adobe target;target
-description: 使用Adobe Target QA URL可輕鬆執行端對端活動QA，其中包含預覽連結（不會變更）、選擇性受眾定位，以及與即時活動資料保持區隔的QA報告。
-title: 活動 QA
+description: 瞭解如何使用Adobe Target QA URL來執行簡易的端對端活動QA，其中包含預覽連結（不會變更）、選擇性的受眾定位，以及與即時活動資料保持區隔的QA報告。
+title: 如何進行QA活動？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 80%
+source-wordcount: '1542'
+ht-degree: 79%
 
 ---
 
