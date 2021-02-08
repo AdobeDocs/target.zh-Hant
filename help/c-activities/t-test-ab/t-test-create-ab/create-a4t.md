@@ -1,13 +1,13 @@
 ---
 keywords: 定位；analytics；追蹤伺服器；定位分析；a4t
-description: 您可以在Adobe Target Standard中設定活動，以使用Adobe Analytics做為報告來源(A4T)。
-title: 使用 Analytics 資料
+description: 瞭解如何設定Adobe Target中的活動，以使用Adobe Analytics做為報告來源。 此整合稱為Analytics for Target(A4T)。
+title: 如何在Target中使用Analytics資料？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 88%
+source-wordcount: '554'
+ht-degree: 85%
 
 ---
 
