@@ -1,13 +1,14 @@
 ---
 keywords: 全域 mbox 參數;targetPageParams;查詢字串;陣列;json;dtm;動態標籤管理
-description: JavaScript targetPageParams 函數用來將參數傳遞至全域 mbox。在要將其他目標／內容資訊傳入Adobe Target的任何情況下，都需要這個選項。
-title: 將參數傳遞至全域mbox
+description: 瞭解如何使用targetPageParams函式，將其他定位或內容資訊傳入Adobe Target全域mbox。
+title: 如何將參數傳遞至全域mbox?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 65%
+source-wordcount: '385'
+ht-degree: 63%
 
 ---
 
