@@ -1,13 +1,14 @@
 ---
 keywords: 行動應用程式;行動應用程式程序;target 行動應用程式;行動 target 位置;行動應用程式成功量度
-description: Target 可用於行動應用程式最佳化和個人化
-title: 適用於行動應用程式的 Target
+description: 瞭解如何使用Adobe Target來最佳化和個人化行動應用程式，並透過反覆測試、以規則為基礎和以人工智慧為動力的個人化。
+title: 我是否可將Target與行動應用程式搭配使用？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 96%
+source-wordcount: '145'
+ht-degree: 77%
 
 ---
 
