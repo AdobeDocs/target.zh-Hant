@@ -1,13 +1,14 @@
 ---
 keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
-description: Adobe Target 預先擷取功能會使用 iOS 和 Android Mobile SDK，透過快取伺服器回應盡量以最少次數擷取選件。
-title: 預先擷取選件內容
+description: 使用iOS和Android Mobile SDK中的Adobe Target預回遷功能，透過快取伺服器回應，盡可能少地擷取選件內容。
+title: 我可以預先擷取行動應用程式的選件內容嗎？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 47%
 
 ---
 
