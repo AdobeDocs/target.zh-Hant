@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.getOffers(options) 函數的資訊。
-title: Adobe.Target.Getoffers（選項）- at.js 2.x
+description: 使用adobe.target.getOffers()函式及其Adobe Target at.js程式庫的選項，觸發請求以取得多個Target選件。 (at.js 2.x)
+title: 如何使用adobe.target.getOffers()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 92%
+source-wordcount: '1240'
+ht-degree: 90%
 
 ---
 
 
-# adobe.target.getOffers（選項）- at.js 2.x
+# adobe.target.getOffers(options) - at.js 2.x
 
 此函數可讓您透過傳入多個 mbox 來擷取多個選件。此外，還可針對使用中活動內的所有檢視擷取多個選件。
 
