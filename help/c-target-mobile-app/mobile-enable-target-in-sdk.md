@@ -1,13 +1,14 @@
 ---
 keywords: 行動應用程式;行動應用程式 sdk;target 行動應用程式;行動 target sdk;行動應用程式 sdk;在 sdk 中啟用 target
-description: 將 Adobe Mobile Services SDK 新增至您的應用程式。
-title: 啟用 SDK 中的 Target
+description: 瞭解如何將Adobe Mobile Services SDK新增至您的行動應用程式。
+title: 如何在Adobe Mobile SDK中啟用Target?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 90%
+source-wordcount: '259'
+ht-degree: 81%
 
 ---
 
