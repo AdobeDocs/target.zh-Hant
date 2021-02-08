@@ -1,13 +1,14 @@
 ---
 keywords: 視覺體驗撰寫器；vec；預設url；增強的體驗撰寫器；eec；混合內容；體驗快照；移動視區；css選擇器
-description: 指定Adobe Target Visual Experience Composer(VEC)的一般設定、行動檢視埠設定和CSS選擇器，以設定Adobe Target Visual Experience Composer(VEC)。
-title: 設定視覺體驗撰寫器(Vec)
+description: 瞭解如何透過指定Adobe Target Visual Experience Composer(VEC)的一般設定、行動檢視埠設定和CSS選擇器來設定。
+title: 如何設定視覺體驗撰寫器(VEC)?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 50%
+source-wordcount: '718'
+ht-degree: 49%
 
 ---
 
