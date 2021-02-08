@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第1章——簡介
-title: 歡迎套件——第1章——簡介
+description: 開始使用Adobe Target進行最佳化與個人化計畫。 Adobe Target歡迎套件是您的好起點。
+title: 如何開始使用Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
