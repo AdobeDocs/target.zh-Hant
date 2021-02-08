@@ -1,13 +1,13 @@
 ---
 keywords: 可視化體驗撰寫器; VEC; 輪播
-description: 本主題說明如何建立可在Adobe Target Visual Experience Composer(VEC)中編輯的轉盤。
-title: 建立可在視覺體驗撰寫器中運作的轉盤
+description: 瞭解如何建立可在Adobe Target Visual Experience Composer(VEC)中編輯的轉盤。
+title: 如何在Visual Experience Composer中建立輪盤？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 69%
+source-wordcount: '154'
+ht-degree: 70%
 
 ---
 
