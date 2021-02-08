@@ -1,13 +1,13 @@
 ---
 keywords: Target;報表;報表設定;極端訂單;極端值
-description: 您可以排除極值，以免影響Adobe Target中的報表，如此一來，少數不尋常的訂單不會影響您的活動結果。 異常訂單的範例可能是為整個團隊購買制服的教練，而非購買個別制服的個別購買者。
-title: 在報表中排除極端值
+description: 瞭解如何排除極端值而不影響Adobe Target中的報表，讓少數不尋常的訂單不會影響您的活動結果。
+title: 如何在報表中排除極端值？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 74%
+source-wordcount: '330'
+ht-degree: 71%
 
 ---
 
