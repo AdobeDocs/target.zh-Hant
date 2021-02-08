@@ -1,12 +1,12 @@
 ---
 keywords: 自動流量分配；目標；自動分配；自動分配
-description: Adobe Target中的「自動分配」活動可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以在測試繼續執行和學習時提高轉化率。
-title: 自動分配可讓您比手動測試更快完成測試並獲得更高收入
+description: 瞭解Adobe Target中的「自動分配」活動如何識別兩個或更多體驗中的成功者，並自動將更多流量重新分配給成功者。
+title: 自動分配活動能獲得更快的結果和更高的收入嗎？
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
