@@ -1,12 +1,12 @@
 ---
-keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: 如何管理程式碼和影像選件？
-title: 選件
+keywords: 內容; 資產; 管理內容; 選件; 管理資產; 進入選擇模式; 選擇模式
+description: 瞭解如何使用Adobe Target中的選件程式庫來管理程式碼和影像選件。
+title: 如何管理程式碼和影像選件？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 37%
 
 ---
