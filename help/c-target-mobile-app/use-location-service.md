@@ -1,12 +1,13 @@
 ---
 keywords: 行動應用程式；行動應用程式位置；目標行動應用程式；行動目標位置；定位服務；adobe體驗雲端位置服務；pois；地標；sdk；位置
-description: 本主題概述如何在Adobe Target中使用Adobe Experience Platform Location Service。
-title: 使用位置服務
+description: 瞭解如何使用Adobe Experience Platform Location Service，讓您的行動應用程式具備位置感知能力。
+title: 如何使用Adobe位置服務？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
