@@ -1,13 +1,13 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4t;佈建;adobe Experience Cloud
-description: 此主題包含經常詢問關於佈建 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
-title: 初始佈建 - A4T 常見問答集
+description: 尋找有關Analytics for Target(A4T)布建常見問題的解答，這些問題可讓您針對Target活動使用Analytics報表。
+title: 我可以在哪裡找到有關A4T初始布建的資訊？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 92%
 
 ---
 
