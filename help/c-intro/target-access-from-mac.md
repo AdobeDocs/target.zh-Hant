@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud；登入；語言；預設ui語言；預設語言
-description: 如何從Adobe Experience Cloud存取Target?
-title: 從Adobe Experience Cloud存取Target
+description: 瞭解如何從Adobe Experience Cloud存取Target、設定您的預設檢視，以及變更Target UI和檔案的語言。
+title: 如何從Adobe Experience Cloud存取Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 69%
+source-wordcount: '419'
+ht-degree: 67%
 
 ---
 
