@@ -1,13 +1,13 @@
 ---
 keywords: 建議設計;範本;建立設計;傳送;輸出
-description: Adobe Target Recommendations中的設計可定義建議在頁面上的顯示方式。 設計會定義建議的版面和格式，以改善訪客參與度、轉換率和收入。
-title: 設計概覽
+description: 瞭解如何使用Adobe Target Recommendations中的設計來定義建議在頁面上的顯示方式（1X4、1X6、2X2等）。
+title: 如何在Recommendations中使用設計？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
