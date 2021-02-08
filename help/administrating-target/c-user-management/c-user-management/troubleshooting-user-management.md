@@ -1,13 +1,14 @@
 ---
 keywords: 對 Target 進行疑難排解; 使用者; 使用者管理
 description: 疑難排解關於在 Adobe Target 中管理使用者的資訊。
-title: 疑難排解使用者管理
+title: 如何排除使用者管理的問題？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 32%
+source-wordcount: '84'
+ht-degree: 30%
 
 ---
 
