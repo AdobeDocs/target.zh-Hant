@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;函數;函數;viewName;viewname;檢視名稱
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.triggerView (viewName, options) 函數的資訊。
-title: Adobe.Target.Triggerview(Viewname, Options)- at.js 2.x
+description: 使用adobe.target.triggerView()函式，將Adobe Target at.js JavaScript程式庫用於單頁應用程式(SPA)。 (at.js 2.x)
+title: 如何使用adobe.target.triggerView()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
 
-# adobe.target.triggerView(viewName, options)- at.js 2.x
+# adobe.target.triggerView (viewName, options) - at.js 2.x
 
 每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。應為單頁應用程式 (SPA) 實作 `adobe.target.triggerView()`，以便使用可視化體驗撰寫器 (VEC) 來建立 A/B 測試和體驗鎖定目標 (XT) 活動。如果沒有在網站上 `adobe.target.triggerView()` 實作，VEC 就無法用於 SPA。如需詳細資訊，請參閱[實作單頁應用程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 
