@@ -1,13 +1,13 @@
 ---
 keywords: 自動個人化；ap；上傳資料；離線資料；個人化算法；自動目標；自動目標；最佳實踐
-description: 在Adobe Target自動個人化(AP)活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能非常有價值。
-title: 上傳個人化演算法的資料
+description: 瞭解在Adobe Target自動個人化(AP)活動中建立個人化模型時如何上傳離線資料，例如CRM資訊。
+title: 如何上傳個人化演算法的資料？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 76%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
