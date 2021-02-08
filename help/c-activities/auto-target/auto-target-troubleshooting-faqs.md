@@ -1,12 +1,12 @@
 ---
 keywords: auto-target；定位；流量分配；常見問題；常見問題；疑難排解；故障排除；流量
-description: 疑難排解和Adobe Target中自動定位的常見問題。
-title: 自動定位疑難排解與常見問答集
+description: 探索Adobe Target中有關自動定位活動的疑難排解主題和常見問題。
+title: 如何疑難排解自動定位活動？
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
