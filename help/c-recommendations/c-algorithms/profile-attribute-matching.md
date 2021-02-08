@@ -1,13 +1,13 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷；動態過濾；動態；配置檔案屬性匹配
-description: 透過比較項目（實體）與使用者設定檔中的值，在Adobe Target Recommendations中動態篩選。
-title: 目標建議中動態包含規則中的描述檔屬性匹配篩選
+description: 瞭解如何透過比較項目（實體）與使用者設定檔中的值，在Adobe Target Recommendations中動態篩選。
+title: 如何依Recommendations活動中的描述檔屬性比對來篩選？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 7%
+source-wordcount: '487'
+ht-degree: 6%
 
 ---
 
