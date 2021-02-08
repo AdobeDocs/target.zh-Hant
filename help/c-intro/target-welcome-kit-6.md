@@ -1,12 +1,12 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: Adobe Target歡迎套件——第6章——易於避免的陷阱
-title: 歡迎套件——第6章——易於避免的陷阱
+description: 從他人的錯誤中學習，以便在使用Adobe Target做為測試和個人化策略的一部分時，不會犯相同的錯誤。
+title: 使用Target時常見的錯誤為何，如何避免？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
