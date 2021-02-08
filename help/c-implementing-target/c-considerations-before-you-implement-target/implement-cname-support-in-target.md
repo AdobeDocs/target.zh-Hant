@@ -1,13 +1,14 @@
 ---
 keywords: client care;cname;certificate program；正則名稱；cookies;certificate;amc;adobe受管理證書；digicert；域控制驗證；dcv
-description: 有關使用 Adobe 客戶服務在 Adobe Target 中實作 CNAME (規範名稱) 支援的資訊。
-title: CNAME
+description: 與Adobe Client Care合作，在Adobe Target中實作CNAME（標準名稱）支援，以處理廣告封鎖問題或ITP相關Cookie政策。
+title: 如何在Target中使用CNAME?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 2%
+source-wordcount: '1237'
+ht-degree: 0%
 
 ---
 
