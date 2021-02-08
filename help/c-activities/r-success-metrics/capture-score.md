@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: Adobe Target中的「擷取分數」參與度量會根據指派給網站上瀏覽之頁面的值，從訪客首次看到促銷活動的第一個顯示「目標請求」開始計算匯總分數。
-title: 擷取分數
+keywords: 擷取分數; 分數
+description: 瞭解Adobe Target中的「擷取分數」參與度量，該量度會根據指派給網站上瀏覽之頁面的值來計算匯總分數。
+title: 什麼是擷取分數量度？
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 
