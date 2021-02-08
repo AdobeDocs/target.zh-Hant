@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;套用選件;at.js;函數;函數
-description: 有關適用於 Adobe Target at.js JavaScript 資料庫的 adobe.target.applyOffer(options) 函數的資訊。
-title: Adobe.Target.Applyoffer(Options)
+description: 使用Adobe Target at.js JavaScript程式庫的adobe.target.applyOffer()函式來套用回應內容。
+title: 我要如何使用adobe.target.applyOffer()函式？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 98%
+source-wordcount: '176'
+ht-degree: 86%
 
 ---
 
