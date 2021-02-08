@@ -1,13 +1,13 @@
 ---
 keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
-description: 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
-title: 自訂參數
+description: 瞭解如何將自訂參數傳遞至Adobe Target，以便用於觀眾。
+title: 我是否可以根據自訂參數來定位訪客？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '411'
+ht-degree: 84%
 
 ---
 
