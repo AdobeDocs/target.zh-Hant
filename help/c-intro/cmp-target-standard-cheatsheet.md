@@ -1,13 +1,13 @@
 ---
 keywords: Target Standard;faq;常見問題;速查表
-description: 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
-title: 最佳化與個人化常見問答集
+description: 探索有關使用Adobe Target功能的常見問題清單，以及更多資訊的資訊和連結。
+title: 我可以在哪裡找到有關最佳化和個人化問題的答案？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 97%
+source-wordcount: '2917'
+ht-degree: 96%
 
 ---
 
