@@ -1,20 +1,20 @@
 ---
-keywords: targeting;collisions;conflicts
-description: Adobe Target中「活動概述」頁面上的「衝突」標籤會列出您網站上的活動衝突。
-title: 活動衝突
+keywords: 定位；衝突；衝突
+description: 當設定多個活動以將內容傳送至相同頁面時，就會發生衝突。 瞭解如何使用Adobe Target避免衝突。
+title: 如何避免活動衝突？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
 
 # 活動衝突
 
-[!DNL Adobe Target]中「活動概述」頁面上的[!UICONTROL 衝突]標籤會列出您網站上的活動衝突。][!UICONTROL 
+[!DNL Adobe Target]中「活動概述」頁面上的[!UICONTROL 衝突]標籤會列出您網站上的活動衝突。
 
 有多個活動設定成在相同頁面上提供內容時，就會發生活動衝突。如果發生活動衝突，您可能無法在頁面上看到您預期的內容。
 
