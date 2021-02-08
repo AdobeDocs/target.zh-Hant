@@ -1,13 +1,13 @@
 ---
 keywords: 系統更新;疑難排解;維護;系統狀態;更新狀態
-description: 我可以在何處檢視Adobe產品和Experience Cloud解決方案的狀態？
-title: 系統狀態更新
+description: 檢視Adobe Target的目前狀態，協助您判斷可能遇到的問題是系統更新或例行維護所致。
+title: 我可以在何處檢視Target和其他Adobe產品的狀態？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '329'
+ht-degree: 87%
 
 ---
 
