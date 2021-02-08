@@ -1,13 +1,14 @@
 ---
 keywords: 實施；實施；實施；adobe啟動；啟動；賽跑；重新導向；體驗平台啟動
-description: Adobe Experience Platform Launch是Adobe的新一代標籤管理平台，是建置Adobe Target的首選方法。 Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
-title: '使用 Adobe Launch 實作 '
+description: 瞭解如何使用Adobe Experience Platform Launch（實作Adobe Target的慣用方法）實作Adobe Target at.js程式庫。
+title: 如何使用Adobe Launch實作Target?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 79%
+source-wordcount: '454'
+ht-degree: 76%
 
 ---
 
