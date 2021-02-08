@@ -1,13 +1,14 @@
 ---
 keywords: 行動應用程式;行動應用程式傳送資料;target 行動應用程式;行動自訂使用者資料;行動應用程式自訂資料
-description: 您可以以名稱值組的方式將關於位置或使用者的其他資訊傳送至 Target。
-title: IOS —— 傳送自訂使用者資料
+description: 瞭解如何以名稱值配對的形式，將有關位置或使用者的其他資訊傳送至Adobe Target，以協助您建立自訂觀眾。
+title: 如何在iOS應用程式中傳送自訂使用者資料？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 98%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
