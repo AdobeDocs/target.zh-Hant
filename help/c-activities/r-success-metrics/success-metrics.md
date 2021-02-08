@@ -1,13 +1,13 @@
 ---
 keywords: 定位；成功；轉換量度；頁面分數量度；頁面檢視量度；收入量度；網站逗留時間量度；估計值；進階設定；進階設定；相依性；相依性；增量計數、釋放使用者和允許再入；增量計數、釋放使用者和再入桿
-description: 在Adobe Target中，成功度量是用來測量活動成功的參數。 成功量度包含重要的商務測量，可讓您判斷 Target 活動中指定體驗或選件的成功程度。
-title: 成功量度
+description: 瞭解Adobe Target中的成功度量，協助您判斷活動是否成功。 成功度量包括轉換、收入、頁面檢視、自訂計分和網站逗留時間。
+title: 什麼是成功度量？
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 45%
+source-wordcount: '1173'
+ht-degree: 43%
 
 ---
 
