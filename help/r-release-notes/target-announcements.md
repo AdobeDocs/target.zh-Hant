@@ -4,10 +4,10 @@ description: 閱讀公告並註冊Adobe Target活動，包括Skill Builder研討
 title: 我可以在哪裡找到Target公告和事件？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
@@ -25,20 +25,20 @@ Adobe Target最近被Forrester和Gartner評為市場領導者。
 | Forrester | **Adobe在Forrester Wave中獲評為體驗最佳化平台的領導者。**<br> Adobe在《The Forrester Wave:體驗最佳化平台，2020年第4季度報告其在此領域的產品Adobe Target Premium。Adobe在目前的產品和市場狀況類別，以及建議和平台體驗標準中，獲得所有參與廠商的最高分。 在體驗最佳化技術創新及支援服務標準方面，Target Premium也獲得最高分。 此報告以對10家體驗最佳化平台提供者進行全面評估為基礎，涵蓋22個標準。<br>在 [Adobe Blog上閱讀相關資訊](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
 | Gartner | **Adobe再次在Gartner個人化引擎魔力像限中獲評為領導者。**<br>&#x200B;在2020年第三年度的Gartner個人化引擎魔力像限報告中，Adobe再次獲評為領導者。Gartner個人化引擎魔力像限評估了15個標準的供應商，這些標準分為兩類：願景的完整性與執行能力。<br>[在Adobe部落格上閱讀相關資訊](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
-## 網路研討會：大規模個人化成功案例：Forrester Wave的主要調查結果，體驗最佳化平台
+## Adobe Target社群問答咖啡休息
 
-* **1月19日星期二**
-* **上午8點PT |上午10點CT | 11 a.m. ET**
-* **持續時間：60分鐘**
-* **[在這裡註冊](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)。**
+* **2月24日星期三**
+* **上午9點（太平洋標準時間） | CST上午11點 |東部時間中午12點**
+* **持續時間60分鐘**
+* **[此處提供更多資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
 
-大規模最佳化客戶體驗的能力現在對於滿足客戶的動態需求以及目前新數位訪客的激增至關重要。 體驗最佳化平台（例如[!DNL Adobe Target]）可部署在您的數位屬性中，以運用手動和人工智慧驅動的行為定位、測試和建議功能，在適當的時間快速為客戶決定並提供適當的體驗。 與我們及我們的特邀嘉賓James McCormick一起，參加Forrester的首席分析師，討論2020年第4季度Forrester Wave的主要發現。
+Adobe Target資深產品經理Rob Hornick將加入我們。 Rob將回答您有關Target及其專業領域的問題：
 
-在此網路研討會中，您將瞭解：
-
-* 塑造個人化和體驗最佳化工具演變的產業趨勢
-* 領先體驗最佳化平台的主要功能
-* 大規模優化客戶體驗以實現最大業務影響的最佳實踐
+* Recommendations
+* 自動分配
+* 自動鎖定目標
+* 自動個人化
+* 機器學習與人工智慧
 
 ## 網路研討會：透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試
 
