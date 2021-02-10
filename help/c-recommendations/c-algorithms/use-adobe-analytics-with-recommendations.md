@@ -4,10 +4,10 @@ description: 瞭解如何使用Adobe Analytics作為行為資料來源，從Targ
 title: 如何搭配Target Recommendations使用Adobe Analytics?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 3%
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
@@ -57,83 +57,7 @@ ht-degree: 3%
 
 為快速決策要使用哪些資料來源，如果使用者每天產生大量有機資料，而且對歷史資料的依賴性不大，則使用[!DNL Target] mbox做為行為資料來源是相當適合的。 如果最近產生的有機資料可用性較低，如果您想要將[!DNL Analytics]資料儲存在上，則使用[!DNL Analytics]作為行為資料來源是最適合的。
 
-### 部署步驟
-
-假設所有先決條件都已就緒，則[!DNL Adobe Target Recommendations]團隊必須執行下列工作：
-
->[!IMPORTANT]
->
->以下步驟僅供說明之用。 [!DNL Recommendations]團隊的成員當前必須執行這些步驟。 [如需詳細資訊，請連絡 客戶服務。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
-
-1. 在[!DNL Target]中，按一下「**[!UICONTROL 管理]** > **[!UICONTROL 實施]**」以取得您的[!DNL Target]用戶端程式碼。
-
-   ![用戶端代碼](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. 取得您的[!DNL Analytics]報表套裝。
-
-   使用您的[!DNL Analytics]生產網站報表套裝。 這是追蹤您已部署[!DNL Recommendations]的網站的報表套裝。
-
-1. 在[!DNL Analytics]中，按一下「**[!UICONTROL 管理]** > **[!UICONTROL 資料饋送]**」。
-
-   ![設定>資料饋送](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. 按一下「新增&#x200B;****」以建立新的動態消息。
-
-   ![新增動態消息](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. 填寫動態消息資訊：
-
-   * **名稱**:重新收集產品饋送
-   * **報表套裝**:您預先決定的報表套裝
-   * **電子郵件**:為管理員使用者指定任何適當的地址
-   * **饋送間隔**:選擇所需間隔
-   * **延遲處理**:沒有延遲。
-   * **開始和結束日期**:連續饋送
-
-   ![摘要資訊區段](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. 填寫&#x200B;**[!UICONTROL Destination]**&#x200B;部分中的詳細資訊：
-
-   >[!NOTE]
-   > 
-   >執行此步驟前，請洽詢[!DNL Adobe Analytics]團隊。
-
-   * **類型**:FTP
-   * **Host**: `xxx.yyy.com`
-   * **路徑**:您的 [!DNL Target] 用戶端代碼
-   * **使用者名稱**:指定您的使用者名稱
-   * **密碼**:指定您的密碼
-
-   螢幕擷取僅供參考。 您的部署將擁有不同的認證。 執行此步驟時，請洽詢[!DNL Adobe Analytics]團隊或客戶服務。
-
-   ![目標區](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. 填寫&#x200B;**[!UICONTROL 資料欄]**&#x200B;定義：
-
-   * **壓縮格式**:Gzip
-   * **封裝類型**:單一檔案
-   * **資訊清單：** 完成檔案
-
-      ![壓縮格式、封裝類型和資訊清單設定](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **包含的欄**:
-
-      >[!IMPORTANT]
-      >
-      >欄必須依此處說明的相同順序新增。 按下列順序選擇列，然後為每個列按一下&#x200B;**[!UICONTROL 添加]**。
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * visit_num
-
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-
-   ![「資料列定義」部分](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-這樣，[!DNL Analytics]側的設定就完成了。 現在，是時候在[!DNL Target]端映射這些變數，以持續提供行為資料了。
+現在，是時候在[!DNL Target]端映射這些變數，以持續提供行為資料了。
 
 ## 在Target中實施
 
