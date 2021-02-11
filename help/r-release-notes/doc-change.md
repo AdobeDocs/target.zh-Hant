@@ -4,9 +4,9 @@ description: 透過Adobe Target產品檔案的重要新增和變更，隨時掌�
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 40196dbae080f248d21aa8f4b3722863e846be16
+source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
 workflow-type: tm+mt
-source-wordcount: '3619'
+source-wordcount: '3626'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2月11日 | ![Target 的運作方式](/help/c-intro/how-target-works.md) | 更新「機器人」區段。 |
 | 2月10日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關2021年2月24日星期三Adobe Target社群問答咖啡時段的資訊。 |
 | 2月8日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | 已新增您應新增至Adobe Mobile SDK第4版之AndroidManifest.xml檔案的程式碼片段。 |
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已澄清下列已知問題：<ul><li>透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 同樣地，如果您在Target UI中建立任何這些項目，並稍後透過API加以編輯，這些變更將不會反映在Target UI中。 透過API編輯的項目應繼續透過API編輯，以避免遺失任何修改。</li></ul> |
