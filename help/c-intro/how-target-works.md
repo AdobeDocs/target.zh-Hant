@@ -4,10 +4,10 @@ description: 瞭解Adobe Target的運作方式，包括Target JavaScript程式�
 title: Target如何運作？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 70%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示�
 
 ## 機器人 {#bots}
 
-Adobe Target使用[DeviceAtlas](https://deviceatlas.com/)來偵測已知的機器人。 識別為由機器人產生的流量仍會提供內容 (例如一般使用者)，確保其符合 SEO 指導方針。在視為一般使用者的情況下，使用機器人流量可能會扭曲 A/B 測試或個人化演算法。因此，如果 Target 活動中偵測到已知機器人，則會以稍微不同的方式看待流量。移除機器人流量可提供更準確的使用者活動測量。
+Adobe Target使用[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/)量度「isRobot」，根據「請求標題」中傳遞的使用者代理字串來偵測已知機器人。
+
+>[!NOTE]
+>
+> 對於[!DNL Server Side]請求，在[請求的「上下文」節點](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)中傳遞的值優先於用戶代理字串進行機器人檢測。
+
+識別為由機器人產生的流量仍會提供內容 (例如一般使用者)，確保其符合 SEO 指導方針。在視為一般使用者的情況下，使用機器人流量可能會扭曲 A/B 測試或個人化演算法。因此，如果 Target 活動中偵測到已知機器人，則會以稍微不同的方式看待流量。移除機器人流量可提供更準確的使用者活動測量。
 
 具體而言，針對已知機器人流量，Target 不會:
 
