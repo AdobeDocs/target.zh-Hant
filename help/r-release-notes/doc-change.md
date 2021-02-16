@@ -4,9 +4,9 @@ description: 透過Adobe Target產品檔案的重要新增和變更，隨時掌�
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3641'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2月16日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新搶鮮版注意事項中選件限制大小的文字。 |
 | 2月11日 | [Target 的運作方式](/help/c-intro/how-target-works.md) | 更新「機器人」區段。 |
 | 2月10日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關2021年2月24日星期三Adobe Target社群問答咖啡時段的資訊。 |
 | 2月8日 | [Target 行動裝置預覽](/help/c-target-mobile-app/target-mobile-preview.md) | 已新增您應新增至Adobe Mobile SDK第4版之AndroidManifest.xml檔案的程式碼片段。 |
@@ -97,7 +98,7 @@ ht-degree: 28%
 | 9月29日 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | 已新增有關如何在at.js 1.x和at.js 2.x中檢查補充ID的資訊。 |
 | 9月24日 | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新at.js 2活動QA書籤小工具的程式碼。*x* 版本不支援此函數。 |
 |  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md#faq) | 已新增有關使用數值搜尋自訂屬性的附註。 |
-|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：「當我搜尋具有數值的自訂屬性時，為什麼目錄搜尋無法顯示正確的結果？」 |
+|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：「當我搜尋具有數值的自訂屬性時，目錄搜尋為何無法顯示正確的結果？」 |
 |  | [Target 的運作方式](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | 更新「邊緣網路」中所列的目標叢集和目標中央叢集位置。 |
 | 9月23日 | [使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | 已更新整個主題，其中包含[!DNL Adobe Experience Platform Debugger]和瀏覽器開發人員工具的資訊。 |
 |  | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已更新「user.header(&#39;x-forwarded-for&#39;)」列，指出「user.header(&#39;x-cluster-client-ip&#39;)」已過時。 |
