@@ -5,10 +5,10 @@ title: Adobe Target中的各種字元、大小和其他限制為何？
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 65%
+source-wordcount: '1086'
+ht-degree: 64%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 65%
    * 描述檔參數值不能為null
    * 描述檔參數值最大長度256
 
-   **傳送API端點**
+   **傳送API端點**:
 
    * mbox參數50
    * mbox參數名稱最大長度128
@@ -194,11 +194,11 @@ ht-degree: 65%
 
 ### 選件大小
 
-* **上限**: 下列大小上限適用於選件:
+下列大小限制適用於選件：
 
-   * HTML 選件為 256 KB.
-   * 來自 UI 的視覺選件為 64 KB.
-   * 來自 API 512 KB.
+* HTML 選件為 256 KB.
+* 來自 UI 的視覺選件為 64 KB.
+* 來自 API 512 KB.
 
    如果使用全域 mbox，此上限適用於針對頁面傳回的整組內容。限制選件大小可改進頁面載入時間。如果超過限制，會顯示下列訊息: 
 
