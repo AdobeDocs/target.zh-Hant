@@ -4,10 +4,10 @@ description: 瞭解即將發行的Adobe Target版本中包含的新功能、增�
 title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: e0d61de20501f40ea6b61db83be346072df997f0
+source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 25%
+source-wordcount: '363'
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最後更新日期: 2021 年 2 月 10 日**
+**最後更新日期: 2021 年 2 月 16 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -32,7 +32,14 @@ ht-degree: 25%
 
 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-* 透過API將允許的選件大小從512 KB提高至1 MB。 (TGT-38304)
+* 增加允許的選件大小：
+
+   | 類型 | 上一個限制 | 新限制 |
+   | --- | --- | --- |
+   | HTML | 256KB | 1024KB |
+   | Target UI的視覺化選件 | 64KB | 每個體驗1024 KB |
+   | 透過API | 512KB | 1024KB |
+
 * 修正當客戶在活動的[!UICONTROL 目標與設定]頁面上按一下編輯相依性時，無法顯示目前相依性的問題。 (TGT-39340)
 * 修正重新整理工作區的[!UICONTROL 對象庫]時的問題。 在重新整理之前，會顯示目前所選工作區的對象。 重新整理後，會顯示[!UICONTROL 預設工作區]及其觀眾。 目前的工作區及其觀眾現在會在重新整理後持續存在。 (TGT-38871)
 * 修正複製[!UICONTROL Recommendations]活動，並稍後變更其准則順序來編輯原始活動的問題。 原始活動中標準序列的更改也錯誤地應用於複製的活動。 (TGT-39155)
