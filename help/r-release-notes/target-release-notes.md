@@ -4,10 +4,10 @@ description: 瞭解即將發行的Adobe Target版本中包含的新功能、增�
 title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
+source-git-commit: 3e4b05553100efff697beec0824108f28d80ccb2
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 本文包含發行前資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最後更新日期: 2021 年 2 月 16 日**
+**最後更新日期: 2021 年 2 月 17 日**
 
 若要檢視最新版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -26,7 +26,7 @@ ht-degree: 26%
 >
 >我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
-## Target Standard/Premium 21.2.1 (2021 年 3 月 2 日)
+## Target Standard/Premium 21.2.1（2021年3月9日和10日）
 
 此維護髮行包含下列增強功能、修正和變更。
 
