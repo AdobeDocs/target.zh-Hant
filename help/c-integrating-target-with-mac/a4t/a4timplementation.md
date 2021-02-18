@@ -4,9 +4,9 @@ description: 依照在Adobe Target和Adobe Analytics解決方案中實作Analyti
 title: 如何實作Target的Analytics(A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 48%
 
 ---
@@ -32,15 +32,15 @@ ht-degree: 48%
 
 訪客 ID 服務可讓您在 [!DNL Adobe Experience Cloud] 解決方案之間識別使用者。您必須實作或移轉至必要的 Experience Cloud 訪客 ID 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-請參閱&#x200B;*Experience Cloud訪客ID服務*&#x200B;檔案中的[實作Target適用的Experience Cloud ID服務。](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html)
+請參閱&#x200B;*Experience Cloud訪客ID服務*&#x200B;檔案中的[實作Target適用的Experience Cloud ID服務。](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)
 
 ## 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
 
 您必須實作或移轉至必要的 appMeasurement.js 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-如需新實作，請參閱&#x200B;*Analytics實作指南*&#x200B;中的[JavaScript實作概觀](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)。
+如需新實作，請參閱&#x200B;*Analytics實作指南*&#x200B;中的[JavaScript實作概觀](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)。
 
-如需移轉，請參閱&#x200B;*Analytics實施指南*&#x200B;中的[移轉至JavaScript適用的AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html)。
+如需移轉，請參閱&#x200B;*Analytics實施指南*&#x200B;中的[移轉至JavaScript適用的AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)。
 
 ## 步驟5:下載並更新at.js
 
@@ -69,7 +69,7 @@ VisitorAPI.js必須先於at.js載入。如果您要更新現有的at.js或mbox.j
 
 從實作的角度，為[!DNL Target]和[!DNL Analytics]整合設定現成可用的方式是使用從頁面傳遞的SDID，自動為您將後端的[!DNL Target]和[!DNL Analytics]要求接合在一起。
 
-不過，如果您想要進一步控制如何及何時將與[!DNL Target]相關的分析資料傳送至[!DNL Analytics]以用於報告，而您不想選擇預設設定，即讓[!DNL Target]和[!DNL Analytics]自動透過SDID將分析資料接合，則您可以透過&#x200B;**視窗設定** analyticsLogging = client_side **.targetGlobalSettings**。 注意: 任何 2.1 以下的版本均不支援此方法。
+不過，如果您想要進一步控制如何及何時將與[!DNL Target]相關的分析資料傳送至[!DNL Analytics]以用於報告，而您不想選擇預設設定，即讓[!DNL Target]和[!DNL Analytics]透過SDID自動接合分析資料，則您可以透過&#x200B;**視窗設定** analyticsLogging = client_side **.targetGlobalSettings**。 注意: 任何 2.1 以下的版本均不支援此方法。
 
 例如:
 
