@@ -2,12 +2,12 @@
 keywords: 已知問題；已解決問題；發行說明；錯誤；問題；修正
 description: 在Adobe Target中尋找已知問題的相關資訊，包括解決方法資訊。 問題解決後，會移至「已解決」區段。
 title: 我可以在哪裡找到已知問題和已解決問題的相關資訊？
-feature: Release Notes
+feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 67%
+source-wordcount: '4374'
+ht-degree: 58%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 67%
 
 ### 自動分配和自動目標活動的Analytics for Target(A4T)量度
 
-[!DNL Target] UI中存在目前已知的問題，可讓使用者選擇不支援的參與和收入量度作為[!UICONTROL 自動分配]和[!UICONTROL 自動目標]活動中最佳化的主要目標量度。 支援轉換度量；參與和收入度量&#x200B;*不支援*。 如果您選取參與或收入目標量度，則不會建立最佳化模型（即使[!DNL Target] UI目前可讓您選取不支援的目標量度）。
+[!DNL Target] UI可讓使用者選擇不支援的參與和收入量度作為[!UICONTROL 自動分配]和[!UICONTROL 自動目標]活動中最佳化的主要目標量度。 支援轉換度量；參與和收入度量&#x200B;*不支援*。 如果您選取參與或收入目標量度，則不會建立最佳化模型。
 
 如需支援和不支援的目標度量清單，請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 (TNT-38409)
 
 ### 頁面傳送 {#page-delivery}
 
-如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這僅是格式上的差異，不會影響對象定義建立和選件傳送等作業。(TGT-35920)
+如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這些額外空間是修飾性的，不會影響觀眾定義的建立和選件傳送。 (TGT-35920)
 
 ### QA預覽連結
 
-如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結應可解決此問題。封存已儲存的活動，這些活動不再主動用來防止此問題持續發生。 (TNT-37294)
+如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結。 封存已儲存的活動，這些活動不再主動用來防止此問題持續發生。 (TNT-37294)
 
 ### Recommendations活動的QA模式
 
@@ -46,20 +46,20 @@ ht-degree: 67%
 
 重新導向選件的已知問題如下：
 
-* 在某些情況下，當在以 Analytics for Target (A4T) 設定的活動中使用重新導向選件時，部分客戶已回報流量分布的較高變異程度。Adobe 工程師目前正在解決此問題。
+* 在設定Analytics for Target(A4T)的活動中使用重新導向選件時，有限數量的客戶報告流量分佈的差異程度較高。
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
-### 在 VEC 內取消載入頁面 {#cancel}
+### 取消在Visual Experience Composer(VEC){#cancel}中載入頁面
 
 * 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定目標] (XT) 活動時，目前存在下列已知問題。
 
-   在 VEC 三步驟引導式工作流程的步驟一中，當您取消頁面載入時，VEC 中的[!UICONTROL 修改]面板隨即顯示，且體驗 (例如「體驗B」) 上會套用重新導向至 URL 範本。當您繼續步驟二或步驟三然後回到步驟一時，會發生下列情況。
+   在其中一個VEC引導式工作流程中，當您取消頁面載入時，VEC中會顯示[!UICONTROL Modifications]面板，並將重新導向至URL範本套用至體驗（例如「體驗B」）。 當您繼續步驟二或步驟三然後回到步驟一時，會發生下列情況。
 
    根據預設，在「體驗 B」上，取消的網站載入範本隨即呈現，且可存取[!UICONTROL 修改]面板，但情況不應如此，因為此體驗已套用重新導向至 URL 範本。系統應顯示重新導向至 URL 範本。
 
    若要在 VEC 中顯示體驗的正確狀態：
 
-   如果您切換至其他體驗，然後切換回「體驗 B」，[!DNL Target] 會顯示此體驗上已套用的重新導向至 URL 範本，且無法存取[!UICONTROL 修改]面板。(TGT-32138)
+   如果您切換至其他體驗，然後切換回「體驗B」,[!DNL Target]會顯示套用至此體驗之URL範本的重新導向，且無法存取[!UICONTROL 修改]面板。 (TGT-32138)
 
 * 若為單頁應用程式 (SPA) 網站，取消載入不會允許您編輯[!UICONTROL 修改]面板下的動作。
 
@@ -79,29 +79,29 @@ ht-degree: 67%
 * 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
 * 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
-* 透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 同樣地，如果您在Target UI中建立任何這些項目，並稍後透過API加以編輯，這些變更將不會反映在Target UI中。 透過API編輯的項目應繼續透過API編輯，以避免遺失任何修改。  (TGT-35777)
+* 透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 同樣地，如果您在Target UI中建立任何這些項目，並稍後透過API加以編輯，這些變更不會反映在Target UI中。 透過API編輯的項目應繼續透過API編輯，以避免遺失任何修改。 (TGT-35777)
 * 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
-* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896、TGT-36173)
+* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。「自訂條件」編輯檢視中顯示的狀態會即時擷取，且一律為最新狀態。 (TGT-35896、TGT-36173)
 * 標準和設計卡片無法顯示使用活動的正確數目。 如果A/B活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。 (TGT-36621、TGT-37217)
 
 ### 多變數測試 (MVT) 活動
 
-在 MVT 活動中，在檢查度量時，表格和圖表中顯示的獲勝者不一致。如果使用者從摘要切換為圖表檢視，然後切換回摘要檢視，變更度量然後切換至圖表檢視，就會發生此情況。發生此問題時，摘要檢視一律會顯示正確的獲勝者。如果使用者從未在摘要檢視間切換圖表檢視，圖表便會檢視顯示正確的獲勝者。
+在MVT活動中，在檢查量度時，表格和圖形中顯示的成功者不一致。 如果用戶從「摘要」切換到「圖形視圖」，然後切換回「摘要視圖」，更改度量，然後切換到「圖形視圖」，就會發生這種情況。 發生此問題時，摘要檢視一律會顯示正確的獲勝者。如果使用者從未在摘要檢視間切換圖表檢視，圖表便會檢視顯示正確的獲勝者。
 
 ### at.js {#atjs}
 
 at.js 的已知問題如下：
 
-* 使用 2.2.0 之前的 at.js 版本時，如果頁面元素上沒有 Adobe Analytics 代碼 (例如按鈕)，點擊追蹤不會回報 Analytics for Target (A4T) 的轉換數。at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* 使用2.2.0之前的at.js版本，如果頁面元素上沒有Adobe Analytics代碼（例如按鈕），點按追蹤不會報告Analytics for Target(A4T)中的轉換。 at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 * 如果您使用 at.js 2.1.1 或更舊版本建立沒有任何修改的體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 的數據之中。此外，[ttMeta 外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)可能會無法正常運作。
 
    若要解決此問題，可在體驗內容中使用空白字元。(TNT-33366)
 
    >[!NOTE]
    >
-   >at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。
+   >此問題的修正已包含在at.js 2.2.0中。升級至[最新版本或at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對2.2.0之前的at.js版本使用上述解決方法。
 
-* 將頁面載入可視化體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用建議的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
+* 當頁面載入至Visual Experience Composer(VEC)時，Target必須判斷全域mbox設定是已啟用還是已停用，以及使用者嘗試在VEC中套用建議的位置是否存在entityID或categoryID。 條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
    使用 at.js 時，「相容性」核取方塊會隱藏，使您無法看見不相容的演算法。
 
@@ -116,23 +116,23 @@ at.js 的已知問題如下：
 
 ### 成功量度
 
-將進階選項「計數將如何增加」設為「在每次曝光時」或「在每次曝光時 (不含頁面重新整理)」的成功度量，無法使用做為另一個 度量所相依的成功度量。
+將進階選項「計數如何遞增」設為「每次曝光」或「每次曝光（排除重新整理）」的成功度量無法用作其他度量所依賴的成功度量。
 
-當成功度量設為在每次曝光時遞增時，Target 會在每次訪客造訪此成功度量時便再次計入訪客。然後 Target 會將成功度量「會員資格」重設為 0，使得它可以在下一次曝光時再次計入。因此，如果另一個度量要求先看見此度量，Target 永不會將該使用者辨識為已看見第一個度量。
+當成功度量設定為每次曝光增加時，Target會在每次訪客造訪此成功度量時再次計算訪客。 然後 Target 會將成功度量「會員資格」重設為 0，使得它可以在下一次曝光時再次計入。因此，如果其他量度需要先檢視此量度，Target永遠不會識別使用者已檢視第一個量度。
 
 ### 目標分析 (A4T)
 
 在分析工作區中使用Target活動曝光和轉換時，請套用「相同觸控」歸因IQ模型至量度，以確保計數準確。 若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵，以修改欄設定>啟用使用非預設歸因模型>選取相同觸控模型&#x200B;**。**&#x200B;若未套用此模型，這些指標就會被誇大。
 
-所有目前的Analytics套件都能搭配Attribution IQ新增此模型。 如果您無權存取Attribution IQ，請依賴「報告與分析」中的A4T資料。
+所有目前的Analytics套件都可搭配Attribution IQ來新增此模型。 如果您無權存取Attribution IQ，請依賴「報告與分析」中的A4T資料。
 
 ### Target API
 
 客戶無法透過 Adobe I/O 上的 v3 版本 A/B 活動 API，針對自動分配活動執行 CRUD 作業。
 
-### GEO定位
+### 地理定位
 
-2020年5月10日，我們更新了GEO提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。 並非我們所有的傳送伺服器都受到此項變更的影響。 因此，在2020年5月10日至7月22日之間，使用這些值的觀眾可能無法符合所有正確訪客的資格。
+2020年5月10日，Adobe更新了GEO提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。 並非所有Adobe傳送伺服器都受此項變更影響。 因此，在2020年5月10日至7月22日之間，使用這些值的觀眾可能無法符合所有正確訪客的資格。
 
 ### 報告——可下載。csv報告中的資料與Target UI中顯示的報告不一致。{#csv}
 
@@ -142,19 +142,19 @@ at.js 的已知問題如下：
 
 ## 已解決的問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-由於上述的已知問題已解決，我們會將其移至以下小節，並在必要時新增其他備註。
+已解決上述已知問題後，這些問題會移至下列章節。如有需要，會新增其他附註。
 
 ### 顯示「處理」標籤的影像選件
 
 「選件」頁面上的影像選件有時會在影像上傳後數小時內保留「處理」標籤。 在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並傳送。 (MCUI-10264、TGT-37458)
 
-這在Target Standard/Premium 20.10.1版中已修正。
+此問題已在Target Standard/Premium 20.10.1版中修正。
 
 ### Analytics for Target (A4T) 報表
 
 已解決與A4T相關的下列問題：
 
-* 使用[!DNL Analytics]目標度量影響A4T活動的問題，此問題會導致A4T報告顯示意外的流量分割或人為誇大的轉換。
+* 使用[!DNL Analytics]目標度量影響A4T活動的問題，造成A4T報表顯示未預期的流量分割或人為誇大的轉換。
 
    此問題會影響下列條件下的A4T報表：
 
@@ -441,7 +441,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### Analytics for Target (A4T) 報表
 
-切換報表度量時，報表未更新。這是 UI 問題。對於報表資料收集或傳送沒有影響。(TGT-22970)
+切換報表度量時，報表未更新。此問題僅影響UI。 對於報表資料收集或傳送沒有影響。(TGT-22970)
 
 在 Target 17.2.2.0 版本 (2017 年 2 月 24 日) 中修正。
 
