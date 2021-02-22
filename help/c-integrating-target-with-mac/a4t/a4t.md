@@ -2,12 +2,12 @@
 keywords: a4t;analytics;analytics for target;analytics 報表來源;adobe analytics 作為 target 的報表來源
 description: 使用Analytics for Target(A4T)根據Analytics轉換量度和受眾區段建立活動，並使用Analytics報表來檢查結果。
 title: 什麼是Analytics for Target(A4T)?
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 41%
+source-wordcount: '1283'
+ht-degree: 42%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 41%
 
 所有[!DNL Analytics]度量（包括計算度量）都可在[!DNL Target]和[!DNL Analytics]的「目標活動」報表中使用。 同樣地，[!DNL Analytics]中可用的任何區段都可套用至兩個解決方案。 活動啟動後，或甚至活動完成後，您都可以將量度或對象套用至[!DNL Target]中的報表。
 
-每個量度都包含在內，包括[!DNL Analytics]內建的任何客戶或計算量度。
+每個量度都包含在內，包括[!DNL Analytics]內建的任何自訂或計算量度。
 
 分類期過後，從網站收集完資料的大約一小時後，資料就會出現在這些報表中。報表中的所有量度、區段和值，來自於您設定活動時所選取的報表套裝。
 
@@ -51,7 +51,7 @@ ht-degree: 41%
 * 使用[!DNL Analytics]做為報表來源時，僅允許一個mbox型量度。
 * 從[!DNL Target]到[!DNL Analytics]的伺服器對伺服器呼叫會將活動和體驗資訊傳送至[!DNL Analytics]。 此整合不會導致對[!DNL Target]或[!DNL Analytics]進行其他伺服器呼叫。
 
-   在某些情況下，從[!DNL Target]到[!DNL Analytics]的分類呼叫可能會失敗，而活動不會在[!DNL Analytics]中顯示資料。 如果發生此情況，請參閱[疑難排解Analytics與Target整合(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您也可以[連絡Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)以取得進一步協助。
+   在某些情況下，從[!DNL Target]到[!DNL Analytics]的分類可能會失敗，而活動不會在[!DNL Analytics]中顯示資料。 如果發生此情況，請參閱[疑難排解Analytics與Target整合(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您也可以[連絡Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)以取得進一步協助。
 
 ## 支援的活動類型{#section_F487896214BF4803AF78C552EF1669AA}
 
