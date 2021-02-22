@@ -2,11 +2,11 @@
 keywords: 目標文檔更改日誌；文檔更新；新主題；編輯；更新；更新
 description: 透過Adobe Target產品檔案的重要新增和變更，隨時掌握最新動態。
 title: 我可以在哪裡檢視Target的檔案更新？
-feature: Release Notes
+feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3661'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2月22日 | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新下列常見問答：<ul><li>分析工作區中可套用區段的位置？</li></ul> |
 | 2月16日 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新搶鮮版注意事項中選件限制大小的文字。 |
 | 2月11日 | [Target 的運作方式](/help/c-intro/how-target-works.md) | 更新「機器人」區段。 |
 | 2月10日 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 已新增有關2021年2月24日星期三Adobe Target社群問答咖啡時段的資訊。 |
