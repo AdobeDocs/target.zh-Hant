@@ -2,12 +2,12 @@
 keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
 description: 瞭解為何某些網站在Visual Experience Composer(VEC)中無法可靠地開啟。 VEC Helper瀏覽器擴充功能可讓您可靠地在VEC中載入網站。
 title: 我要如何使用Visual Experience Composer(VEC)Helper Extension?
-feature: Visual Experience Composer (VEC)
+feature: 可視化體驗撰寫器 (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 52%
+source-wordcount: '885'
+ht-degree: 51%
 
 ---
 
@@ -32,10 +32,10 @@ Google Chrome的[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC
 
 ## 使用 VEC Helper 擴充功能的好處
 
-* 所有的 iFrame 爆破標頭 (例如 X-Frame-Options 和 Content-Security-Policy) 會以隱含的方式從網站上移除。不再需要建立複雜的 Requestly 規則即可完成相同工作。
+* 所有的 iFrame 爆破標頭 (例如 X-Frame-Options 和 Content-Security-Policy) 會以隱含的方式從網站上移除。您不再需要建立複雜的Requestly規則。
 * 如果網站上未包含 [!DNL Target] at.js JavaScript 資料庫，您可以使用擴充功能來插入資料庫，這樣就能為網站撰寫體驗。接著可以使用預覽連結來建立活動和保證品質。
 
-   請注意，使用「增強的體驗撰寫器」(EEC)時，擴充功能不會在at.js中插入，但SameSite Cookie功能仍然存在。 若要在網頁上注入at.js，請關閉EEC。
+   請注意，使用「增強體驗撰寫器」(EEC)時，擴充功能不會在at.js中插入，但SameSite Cookie功能仍然存在。 若要在網頁上注入at.js，請關閉EEC。
 
 * [即使](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) 沒有增強的體驗撰寫器( [!UICONTROL Enhanced Experience Composer] ,EEC)，也支援行動檢視器。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
@@ -72,7 +72,7 @@ Google Chrome的[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC
 * 實作必須使用 [!DNL Target] at.js 資料庫。您無法將 mbox.js 實作用於擴充功能。
 * 擴充功能中的[!UICONTROL 「插入 Target 資料庫」]標記預設為「關閉」。如果您要在尚未針對 [!DNL Target] 實作的網站上使用 VEC，可以啟用此標記。
 
-   請注意，此標記為全域設定。VEC 中開啟的所有網站都會啟用或停用此標記。例如，如果您將此標幟設為「on」，並開啟已使用at.js實作的網站，您會收到一則訊息，通知您at.js已載入。 我們預計大部分客戶的頁面上都會實施at.js，並會使用預設的「off」設定。
+   此標幟是全域設定。 VEC 中開啟的所有網站都會啟用或停用此標記。例如，如果您將此標幟設為「on」，並開啟已使用at.js實作的網站，您會收到一則訊息，通知您at.js已載入。 Adobe預期大部分客戶已在其頁面上實作at.js，並使用預設的「off」設定。
 
 * 擴充功能會載入可從[!UICONTROL 管理>實作]中的[!DNL Target UI]取得的最新版at.js。
 * 在 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)下使用此擴充功能來插入 at.js 時，您必須另外開啟一個 Chrome 分頁。此 Chrome 分頁必須授權給您建立活動的相同 [!DNL Adobe Experience Cloud] 組織。
