@@ -4,9 +4,9 @@ description: 透過Adobe Target產品檔案的重要新增和變更，隨時掌�
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3659'
 ht-degree: 28%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 28%
 |  | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 將下列問題從「已知問題」區段移至「已解決問題」區段：&quot;顯示「處理」標籤的影像選件。&quot; |
 | 1 年 12 月 | [定位公告和事件](/help/r-release-notes/target-announcements.md) | 內嵌網路研討會錄影，以「透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試」。 |
 | 24 年 11 月 | [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md) | 已新增下列已知問題：<ul><li>[報告——可下載。csv報告中的資料與Target UI中顯示的報告不一致。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>已新增下列已解決問題：<ul><li>[Analytics for Target (A4T) 報表](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
-|  | [量度定義 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 新增下列常見問答：「在設定我的目標量度時，為什麼無法存取進階設定選項？」 |
+|  | [量度定義 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 新增下列常見問答：「設定目標量度時，為什麼無法存取進階設定選項？」 |
 |  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已調整附註中有關使用A4T之活動的文字。 |
 | 17 年 11 月 | [活動設定 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增下列常見問答：「訪客在使用A4T的Auto-Target活動中，可以在不同瀏覽中切換目標體驗和控制體驗嗎？」 |
 |  | [自動定位疑難排解與常見問答集](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 新增下列常見問答：「您是否建議我們在建立模型之前，將自動目標與90（控制項）/10（目標）分割搭配使用？」 |
@@ -231,7 +231,7 @@ ht-degree: 28%
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在「設定」區段中新增下列新列：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>新增下列新小節:<ul><li>內容安全性原則</li></ul> |
 | 3月24日 | [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 已新增有關下列影響的資訊：<ul><li>基於3rdPartyID的描述檔指令碼</li><li>iOS裝置中的QA/預覽URL</li></ul> |
 | 3月20日 | [發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已指出Target Standard/Premium 20.2.1版本將於2020年3月23日發行。 |
-| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「觀眾，每個帳戶可重複使用」的數量。 |
+| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 已更新「觀眾，每個帳戶可重複使用」的數量。 |
 | 3月12日 | [發行說明（目前）](/help/r-release-notes/release-notes.md#summit) | 已新增註冊資訊，以免費存取線上數位峰會。 |
 | 3月9日 | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已在「取代IP位址的最後八位元」區段中新增更多資訊。 |
 |  | [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 更新&#x200B;*中的程式碼範例，在JavaScript*&#x200B;中傳遞多值參數。 |
