@@ -2,11 +2,11 @@
 keywords: faq;常見問題集;analytics for target;a4T;量度;量度定義
 description: 尋找有關量度定義和使用Analytics for Target(A4T)的問題解答。 A4T可讓您將Analytics報表與Adobe Target活動搭配使用。
 title: 我可以在哪裡找到有關A4T量度定義的資訊？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 58%
 
 ---
