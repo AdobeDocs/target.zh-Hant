@@ -4,9 +4,9 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 84%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 84%
       + [第8章：傳達您的活動成果](/help/c-intro/target-welcome-kit-8.md)
       + [第九章：後續步驟和資源](/help/c-intro/target-welcome-kit-9.md)
    + [字彙表](c-intro/glossary.md)
-   + [Adobe Target 如何運作](c-intro/how-target-works.md)
+   + [Target 的運作方式](c-intro/how-target-works.md)
    + [訓練與認證](c-intro/training-and-certification.md)
    + [Adobe Target Standard 和 Premium 的訓練影片](c-intro/target-standard-premium-training-videos.md)
    + [Target 最佳化和個人化常見問題集](c-intro/cmp-target-standard-cheatsheet.md)
