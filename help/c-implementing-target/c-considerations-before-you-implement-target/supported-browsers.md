@@ -2,13 +2,13 @@
 keywords: 瀏覽器;必要條件;需求;internet explorer;chrome;firefox;safari;android;surface
 description: 瞭解Adobe Target支援哪些網際網路瀏覽器來傳送其介面和內容。
 title: Target支援哪些瀏覽器？
-feature: Implementation
-role: Developer
+feature: 實施
+role: 開發人員
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 80%
+source-wordcount: '310'
+ht-degree: 58%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 [!DNL Adobe Target] 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 
-如需 TLS 的其他重要資訊，請參閱 [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
+有關TLS的更多重要資訊，請參見[TLS（傳輸層安全）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
 ## [!DNL Target] Standard/Premium 介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -25,8 +25,8 @@ ht-degree: 80%
 
 | 裝置類型 | 瀏覽器版本 |
 |--- |--- |
-| Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (最新版本、最新版本減 1)</li><li>Mozilla Firefox (最新版本、最新版本減 1)</li></ul> |
-| Mac | <ul><li>Firefox (最新版本、最新版本減 1)</li><li>Chrome (最新版本、最新版本減 1)</li></ul> |
+| Windows | <ul><li>Microsoft Edge</li><li>Google Chrome（最新，最新減1）</li><li>Mozilla Firefox（最新，最新減1）</li></ul> |
+| Mac | <ul><li>Firefox（最新，最新減1）</li><li>Chrome（最新，最新減1）</li></ul> |
 
 ## 內容傳遞 {#section_1045A946056441268D40025529918D3D}
 
@@ -34,9 +34,9 @@ ht-degree: 80%
 
 | 裝置類型 | 瀏覽器版本 |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 和 10.在模擬模式中測試。<br>**注意:** at.js 1.3.0 (和更新版本) 不再支援 Microsoft Internet Explorer 9 上的內容傳遞。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (最新版本、最新版本減 1)</li><li>Firefox (最新版本、最新版本減 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (最新版本)<br>**注意:** 如需 Safari 如何處理第一方和第三方 Cookie 的相關資訊，請參閱 [Target Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)。</li><li>Firefox (最新版本、最新版本減 1)</li><li>Chrome (最新版本、最新版本減 1)</li></ul> |
-| 行動裝置/平板電腦 | <ul><li>Apple iOS (最新版本)</li><li>Android 裝置和平板電腦 (Android 4 和更新版本)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 和 10.在模擬模式中測試。<br>**注意:** at.js 1.3.0 (和更新版本) 不再支援 Microsoft Internet Explorer 9 上的內容傳遞。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome（最新，最新減1）</li><li>Firefox（最新，最新減1）</li></ul> |
+| Mac | <ul><li>Apple Safari（最新）<br>**Note**:如需Safari如何處理第一方和第三方Cookie的詳細資訊，請參閱[目標Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)。</li><li>Firefox（最新，最新減1）</li><li>Chrome（最新，最新減1）</li></ul> |
+| 行動裝置/平板電腦 | <ul><li>Apple iOS（最新）</li><li>Android 裝置和平板電腦 (Android 4 和更新版本)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 請注意下列事項：
 
