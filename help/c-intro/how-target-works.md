@@ -4,7 +4,7 @@ description: 瞭解Adobe Target的運作方式，包括Target JavaScript程式�
 title: Target如何運作？
 feature: 概述
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 31%
@@ -56,7 +56,7 @@ ht-degree: 31%
 
 ### 自動分配
 
-「自動配置」可識別兩個或多個體驗中的成功者。 自動分配會自動將更多流量重新分配給成功體驗，以在測試持續執行和學習時提高轉化率。
+「自動配置」可識別兩個或多個體驗中的成功者。 自動分配會自動將更多流量重新分配給成功體驗，這有助於在測試持續執行和學習的同時提高轉化率。
 
 如需詳細資訊，請參閱[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
@@ -134,7 +134,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中國沒有Edge Cluster，而且訪客的效能仍受限於中 [!DNL Target] 國客戶。由於防火牆和國家／地區缺乏邊緣叢集，部署[!DNL Target]的網站體驗可能會受到影響。 體驗的轉譯速度可能會變慢，而頁面載入也會受到影響。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
+>[!DNL Adobe Target] 目前中國沒有Edge Cluster，而且訪客的效能對於中國客戶 [!DNL Target] 仍然有限。由於防火牆和國家／地區缺乏邊緣叢集，部署[!DNL Target]的網站體驗可能會受到影響。 體驗的轉譯速度可能會變慢，而頁面載入也會受到影響。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
 如果需要，可以允許列出[!DNL Target]邊緣群集。 如需詳細資訊，請參閱[allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
@@ -174,9 +174,9 @@ Adobe 藉由效能最佳化以及保衛效能的方式保護使用體驗。
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **使用302（臨時）重新導向**:在測試中變數頁面使用個別URL的例項中，Google建議使用302重新導向，將流量導向至測試變數。302重新導向會告訴搜尋引擎，重新導向是暫時的，而且只有在測試執行時才會生效。
+* **使用302（臨時）重新導向**:在測試中變數頁面使用個別URL的例項中，Google建議使用302重新導向，將流量導向至測試變數。302重新導向會告訴搜尋引擎，重新導向是暫時的，而且只有在測試執行時，才有效。
 
-   302重新導向是伺服器端重新導向，而[!DNL Target]與大部分最佳化提供者一起使用用戶端功能。 因此，此區域中[!DNL Target]未完全符合Google的建議。 然而，這種做法只影響到一小部分測試。 透過[!DNL Target]執行測試的標準方法會呼叫在單一URL中變更內容，因此不需要重新導向。 客戶必須使用多個URL來表示其測試變數時，會有例項。 在這些情況下，[!DNL Target]使用JavaScript `window.location`命令。 此命令會指示使用者測試變數，但不會明確表示重新導向是301或302。
+   302重新導向是伺服器端重新導向，而[!DNL Target]與大部分最佳化提供者一起使用用戶端功能。 因此，重新導向是[!DNL Target]未完全符合Google建議的區域。 然而，這種做法只影響到一小部分測試。 透過[!DNL Target]執行測試的標準方法會呼叫在單一URL中變更內容，因此不需要重新導向。 客戶必須使用多個URL來表示其測試變數時，會有例項。 在這些情況下，[!DNL Target]使用JavaScript `window.location`命令。 此命令會指示使用者測試變數，但不會明確表示重新導向是301或302。
 
    Adobe會持續尋找可行的解決方案，以完全符合搜尋引擎的方針。 對於必須使用個別URL進行測試的客戶，Adobe確信正確實施標準標籤可降低與此方法相關的風險。
 
