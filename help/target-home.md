@@ -4,10 +4,10 @@ title: 我可以在哪裡找到Target檔案？
 description: 瞭解如何使用Adobe Target個人化客戶體驗，以便在您的網站和行動網站、應用程式及其他數位通道上獲得最大收益。
 feature: 概述
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 58%
+ht-degree: 45%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 58%
 - [Target 簡介](c-intro/intro.md): 說明 [!DNL Target] 解決方案的核心概念。
 - 將 Target 與 Adobe Experience Cloud 整合: 說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 及 [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
 - [Adobe Target教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html):提供教學課程和影片，協助您充份運用Target。
-- [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md): 提供本指南包含的疑難排解資訊連結，包括有關字元限制與其他限制 (選件大小、對象、設定檔、值、參數) 的資訊。[!DNL Target] 中會影響活動和其他元素之字元限制與其他限制 (選件大小、對象、設定檔、值、參數等) 的資訊。
+- [疑難排解目標](r-troubleshooting-target/troubleshooting-target.md):提供本指南所含疑難排解資訊的連結，包括影響活動和其他元素的字元限制和其他限制（選件大小、觀眾、設定檔、值、參數等）的相關資訊 [!DNL Target]。
 - [適用於行動應用程式的 Target](c-target-mobile-app/target-mobile-app.md): 說明如何使用 [!DNL Target] 來將行動應用程式最佳化及個人化。
-- [資源與聯絡資訊](cmp-resources-and-contact-information.md): 提供其他資訊的相關資訊，協助您瞭解 [!DNL Target] 功能，以及在需要協助時如何聯絡 [!DNL Adobe]。
+- [資源與聯絡資訊](cmp-resources-and-contact-information.md):提供更多資源的相關資訊，以協助您瞭解 [!DNL Target] 功能，以及在需要協助 [!DNL Adobe] 時如何聯絡。
 
-## 市場行銷人員  {#marketers}
+## 市場行銷人員 {#marketers}
 
 - [活動](c-activities/activities.md): 說明如何設定、管理 [!DNL Target] 活動及確保品質。
-- [對象](c-target/target.md): 說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
+- [觀眾](c-target/target.md):說明如何判斷哪些人在目標活動中看到內容和體驗。
 - [體驗與選件](c-experiences/experiences.md): 說明如何指定當訪客滿足活動的對象條件時，要顯示哪些內容。
 - [建議](c-recommendations/recommendations.md): 說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
 
@@ -71,7 +71,7 @@ ht-degree: 58%
 
 ## 分析人員  {#analysts}
 
-- [對象](c-target/target.md): 說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
+- [觀眾](c-target/target.md):說明如何判斷哪些人在目標活動中看到內容和體驗。
 - [報表](c-reports/reports.md): 說明如何解讀活動績效
 
 ## 品質保證工程師  {#qa}
