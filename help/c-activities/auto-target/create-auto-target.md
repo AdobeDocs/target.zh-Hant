@@ -1,13 +1,13 @@
 ---
-keywords: 建立自動定位；A/B測試；自動定位活動；新的a/b活動；自動定位；個人化體驗的自動定位；個人化
-description: 瞭解如何使用Adobe Target中的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立自動目標A/B測試活動。
+keywords: 建立自動目標；A/B測試；自動目標活動；新的a/b活動；自動目標；個性化體驗的自動目標；個性化；優化
+description: 瞭解如何使用Adobe Target的Visual Experience Composer(VEC)，直接在Target-enabled頁面上建立您的Auto-Target A/B Test活動。
 title: 如何建立自動定位活動？
-feature: Auto-Target
+feature: 自動鎖定目標
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 58%
+source-wordcount: '933'
+ht-degree: 56%
 
 ---
 
@@ -64,14 +64,10 @@ ht-degree: 58%
 
    ![名稱欄位](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   活動名稱中不允許下列字元:
+   活動名稱不能以下列任何字元開頭：
 
    | 字元 | 說明 |
    |--- |--- |
-   | `/` | 正斜線 |
-   | `?` | 問號 |
-   | `#` | 數字符號 |
-   | `:` | 冒號 |
    | `=` | 等號 |
    | `+` | 加號 |
    | `-` | 減號 |
