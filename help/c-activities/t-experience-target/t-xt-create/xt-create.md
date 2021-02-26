@@ -1,18 +1,18 @@
 ---
 keywords: 體驗定位；xt；建立
-description: 瞭解如何使用Adobe Target中的視覺體驗撰寫器(VEC)，在啟用Target的頁面上建立體驗定位(XT)活動。
+description: 瞭解如何使用Adobe Target的視覺體驗撰寫器(VEC)，在啟用Target的頁面上建立體驗定位(XT)活動。
 title: 如何建立體驗定位活動？
-feature: Experience Targeting
+feature: 體驗鎖定目標
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 91%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
 
-# 建立體驗鎖定目標活動{#create-an-experience-targeting-activity}
+# 建立體驗鎖定目標活動
 
 使用[!UICONTROL 可視化體驗撰寫器] (VEC) 在啟用 Target 的頁面上建立[!UICONTROL 體驗鎖定目標] (XT) 活動，以及在 [!DNL Adobe Target] 內修改頁面的部分。
 
@@ -62,14 +62,10 @@ ht-degree: 91%
 
    ![名稱欄位](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   活動名稱中不允許下列字元:
+   活動名稱不能以下列任何字元開頭：
 
    | 字元 | 說明 |
    |--- |--- |
-   | `/` | 正斜線 |
-   | `?` | 問號 |
-   | `#` | 數字符號 |
-   | `:` | 冒號 |
    | `=` | 等號 |
    | `+` | 加號 |
    | `-` | 減號 |
