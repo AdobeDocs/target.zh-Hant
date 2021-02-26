@@ -1,13 +1,13 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何在Adobe Target中使用視覺體驗撰寫器(VEC)，直接在啟用Target的頁面上建立多變數測試(MVT)。
+description: 瞭解如何使用Adobe Target的視覺體驗撰寫器(VEC)，直接在Target啟用的頁面上建立多變數測試(MVT)。
 title: 如何建立多變數測試？
-feature: Multivariate Tests
+feature: 多變數測試
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 89%
+source-wordcount: '569'
+ht-degree: 87%
 
 ---
 
@@ -56,18 +56,14 @@ ht-degree: 89%
 
    ![活動名稱欄位](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   活動名稱中不允許下列字元:
+   活動名稱不能以下列任何字元開頭：
 
    | 字元 | 說明 |
    |--- |--- |
-   | / | 正斜線 |
-   | ? | 問號 |
-   | # | 數字符號 |
-   | : | 冒號 |
-   | = | 等號 |
-   | + | 加號 |
-   | - | 減號 |
-   | @ | 「@」符號 |
+   | `=` | 等號 |
+   | `+` | 加號 |
+   | `-` | 減號 |
+   | `@` | 「@」符號 |
 
 1. [在每個位置中建立選件](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
