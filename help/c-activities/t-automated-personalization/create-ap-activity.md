@@ -1,12 +1,12 @@
 ---
 keywords: 自動個人化；ap；觀眾；ensemble；隨機森林；殘差方差；誤差方差；存留值
-description: 瞭解如何使用視覺體驗撰寫器(VEC)在Adobe Target中建立自動個人化(AP)活動。
-title: 如何建立自動個人化活動？
-feature: Automated Personalization
+description: 瞭解如何使用視覺體驗撰寫器(VEC)在Adobe Target建立Automated Personalization(AP)活動。
+title: 如何建立Automated Personalization活動？
+feature: 自動個人化
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2053'
 ht-degree: 91%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 91%
 
 # ![PREMIUM](/help/assets/premium.png) 建立自動個人化活動
 
-[!DNL Adobe Target]中的[!UICONTROL 自動個人化](AP)活動工作流程與其他活動類型的工作流程不同。
+[!DNL Adobe Target]中的[!UICONTROL Automated Personalization](AP)活動工作流與其他活動類型的工作流不同。
 
-1. 從[!DNL Target] [!UICONTROL 活動]清單中，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 自動個人化]**。
+1. 在[!DNL Target][!UICONTROL 活動]清單中，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL Automated Personalization]**。
 
    ![建立活動: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
@@ -48,18 +48,14 @@ ht-degree: 91%
 
    ![名稱欄位](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   活動名稱中不允許下列字元:
+   活動名稱不能以下列任何字元開頭：
 
    | 字元 | 說明 |
    |--- |--- |
-   | / | 正斜線 |
-   | ? | 問號 |
-   | # | 數字符號 |
-   | : | 冒號 |
-   | = | 等號 |
-   | + | 加號 |
-   | - | 減號 |
-   | @ | 「@」符號 |
+   | `=` | 等號 |
+   | `+` | 加號 |
+   | `-` | 減號 |
+   | `@` | 「@」符號 |
 
 1. 按照[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)中的說明修改頁面元素。
 
