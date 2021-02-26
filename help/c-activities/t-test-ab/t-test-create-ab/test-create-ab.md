@@ -1,13 +1,13 @@
 ---
 keywords: 建立A/B;A/B測試；A/B活動；新建a/b活動；建立a/b
-description: 瞭解如何使用Adobe Target中的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立A/B測試活動。
+description: 瞭解如何使用Adobe Target的Visual Experience Composer(VEC)，直接在Target啟用的頁面上建立A/B測試活動。
 title: 如何建立A/B測試？
-feature: A/B Tests
+feature: A/B 測試
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 63%
+source-wordcount: '861'
+ht-degree: 61%
 
 ---
 
@@ -62,14 +62,10 @@ ht-degree: 63%
 
    ![名稱欄位](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   活動名稱中不允許下列字元:
+   活動名稱不能以下列任何字元開頭：
 
    | 字元 | 說明 |
    |--- |--- |
-   | `/` | 正斜線 |
-   | `?` | 問號 |
-   | `#` | 數字符號 |
-   | `:` | 冒號 |
    | `=` | 等號 |
    | `+` | 加號 |
    | `-` | 減號 |
