@@ -67,7 +67,7 @@ Target 包含下列進階功能:
 
 ### 建議作為選件
 
-[Recommendations做為](/help/c-recommendations/recommendations-as-an-offer.md) 選件可讓您在 [!UICONTROL A/B測試、自動分配、自]動目標 [!UICONTROL 、Auto-Target]   和Reperience Targeting(XT)活動中加入建議。
+[Recommendations的](/help/c-recommendations/recommendations-as-an-offer.md) 優惠方案可讓您在 [!UICONTROL A/B測試、自動分配、自動]目標 [!UICONTROL 、Auto-Target]   、Experience Targeting(XT)活動中加入建議。
 
 這項功能開啟了全新功能，例如:
 
@@ -94,7 +94,7 @@ Target 包含下列進階功能:
 
 使用此歡迎套件，在[!DNL Adobe Target]上建立您的最佳化和個人化計畫。 歡迎套件包含重要資訊、工具和資源，可協助您準備並啟動第一個[!DNL Target]活動。 本套件包含短期快速贏取和長期最佳化策略的概念。
 
-[Adobe Target歡迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[《Adobe Target歡迎套件》](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## 訓練影片：活動類型(9:03)![概述徽章](/help/assets/overview.png)
 
