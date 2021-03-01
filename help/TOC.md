@@ -31,9 +31,9 @@ ht-degree: 84%
    + [Target 重要概念](c-intro/target-key-concepts.md)
    + [瞭解Target UI](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target歡迎套件{#welcome}
-      + [Adobe Target歡迎套件總覽](/help/c-intro/target-welcome-kit.md)
+      + [Adobe Target歡迎套件概述](/help/c-intro/target-welcome-kit.md)
       + [第一章：簡介](/help/c-intro/target-welcome-kit-1.md)
-      + [第二章：Adobe Target總覽](/help/c-intro/target-welcome-kit-2.md)
+      + [第二章：Adobe Target](/help/c-intro/target-welcome-kit-2.md)
       + [第三章：開發您的測試和個人化概念](/help/c-intro/target-welcome-kit-3.md)
       + [第四章：使用Target的秘訣](/help/c-intro/target-welcome-kit-4.md)
       + [第五章：測試和個人化活動的靈感](/help/c-intro/target-welcome-kit-5.md)
@@ -53,7 +53,7 @@ ht-degree: 84%
    + 報表 {#reporting}
       + [設定報表](/help/administrating-target/reporting.md)
       + [預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Scene7設定](administrating-target/scene7-settings.md)
+   + [Scene7組態](administrating-target/scene7-settings.md)
    + [實施](/help/administrating-target/implementation.md)
    + [主機](administrating-target/hosts.md)
    + [環境](/help/administrating-target/environments.md)
@@ -89,7 +89,7 @@ ht-degree: 84%
       + [CNAME 與 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + 用戶端 Web: 實作 Target {#client-side}
       + [概覽: 為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Adobe Experience Platform Web SDK實作{#aep-implementation}
+      + Adobe Experience Platform網頁SDK實作{#aep-implementation}
          + [AEP Web SDK總覽](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js實作{#at-js-implementation}
          + at.js 如何運作 {#at-js}
@@ -236,7 +236,7 @@ ht-degree: 84%
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
       + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
       + [自動個人化常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [使用體驗預覽URL預覽自動個人化活動](c-activities/t-automated-personalization/experience-preview.md)
+      + [使用體驗預覽URL預覽Automated Personalization活動](c-activities/t-automated-personalization/experience-preview.md)
       + [疑難排解自動個人化](c-activities/t-automated-personalization/ap-trouble.md)
    + 體驗鎖定目標 {#experience-targeting}
       + [體驗鎖定目標概覽](c-activities/t-experience-target/experience-target.md)
@@ -395,7 +395,7 @@ ht-degree: 84%
          + [靜態濾鏡](/help/c-recommendations/c-algorithms/static-value.md)
       + [使用備份建議](c-recommendations/c-algorithms/backup-recs.md)
       + [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [搭配使用Adobe Analytics和Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [使用Adobe Analytics與Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + 設計 {#recommendations-design}
       + [設計概覽](c-recommendations/c-design-overview/design-overview.md)
       + [建立設計](c-recommendations/c-design-overview/create-design.md)
@@ -418,5 +418,5 @@ ht-degree: 84%
    + [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)
    + [限制](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
-   + [Adobe Target API總覽](/help/api/api-overview.md)
+   + [Adobe TargetAPI概觀](/help/api/api-overview.md)
 + [資源與聯絡資訊](cmp-resources-and-contact-information.md)
