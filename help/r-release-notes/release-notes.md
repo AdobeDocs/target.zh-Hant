@@ -1,13 +1,13 @@
 ---
 keywords: 發行說明；新功能；發行；更新；更新；發行；增強；增強；修正；錯誤修正；更新
-description: 瞭解Adobe Target最新版本中包含的新功能、增強功能和修正，包括SDK、API和JavaScript程式庫。
+description: 了解 Adobe Target 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 資料庫。
 title: 目前版本包含哪些新功能？
-feature: Release Notes
+feature: '  版本說明 '
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 39%
+source-wordcount: '716'
+ht-degree: 42%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 39%
 * 在[!UICONTROL Auto-Target]活動中使用[!UICONTROL Analytics作為報告來源](A4T)時，新增在選取[!DNL Adobe Analytics]度量時的警告。 [!UICONTROL 自動定位] 模型已最佳化，可搭配二進位（轉換型）量度運作。選擇連續度量（例如收入）可能會有次優結果，而[!UICONTROL 個人化洞察]報表可能不準確。 (TGT-38926)
 * 在[!UICONTROL Auto-Target Summary]報表中為使用A4T的[!UICONTROL Auto-Target]活動新增狀態圖示。 在報表中，每個體驗旁的綠色勾號圖示表示已為該體驗產生個人化機器學習模型。時鐘圖示表示提供的流量還不足以建立模型。(TGT-38925)
 * 產生使用A4T和[!DNL Analytics]轉換度量的[!UICONTROL 自動化區段]和[!UICONTROL 重要屬性]活動的[!UICONTROL 自動目標]報表，其外觀與使用[!DNL Target]作為報表來源時相同。 (TGT-38931)
-* 在[!UICONTROL Recommendations] [!UICONTROL Collections]清單中新增環境篩選選項。 (TGT-38353)
-* 修正在[!UICONTROL Recommendations]系列中顯示錯誤產品計數的問題。 (TGT-39162)
-* 新增[!UICONTROL 上次更新]篩選至[!UICONTROL Recommendations] [!UICONTROL 目錄搜尋]。 (TGT-38340)
-* 修正[!UICONTROL Recommendations]中，在變更產業垂直後造成[!UICONTROL 建立序列]頁面擱置的問題。 (TGT-38160)
+* 在[!UICONTROL Recommendations][!UICONTROL 系列]清單中新增環境篩選選項。 (TGT-38353)
+* 修正[!UICONTROL Recommendations]系列中顯示錯誤產品計數的問題。 (TGT-39162)
+* 新增[!UICONTROL 上次更新]篩選至[!UICONTROL Recommendations][!UICONTROL 目錄搜尋]。 (TGT-38340)
+* 修正[!UICONTROL Recommendations]中，在變更產業垂直後，造成[!UICONTROL 建立序列]頁面擱置的問題。 (TGT-38160)
 * 修正啟用Device Co-op且使用者從[!DNL Target]作為報告來源變更為[!DNL Analytics](A4T)時，無法儲存活動的問題。 (TGT-38163)
-* 修正使用者無法從[!UICONTROL 自動個人化](AP)活動中的選件中移除對象的問題。 (TGT-39058)
+* 修正使用者無法從[!UICONTROL Automated Personalization](AP)活動中的選件移除對象的問題。 (TGT-39058)
 * 修正部分客戶的「對象資訊」卡顯示錯誤時段（開始和結束日期）的問題。 (TGT-39150)
 * 修正某些客戶無法在[!UICONTROL 預設工作區]中看到活動清單的問題。 (TGT-38526)
 
@@ -63,7 +63,7 @@ ht-degree: 39%
 |--- |--- |
 | 文件變更 | 檢視在版本說明中可能未涵蓋的手冊更新詳細資訊。<br>如需詳細資訊，請參閱[文件變更](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | 舊版版本說明 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。<br>如需詳細資訊，請參閱[舊版版本說明](/help/r-release-notes/release-notes-for-previous-releases.md). |
-| Adobe Experience Cloud 版本說明 | 檢視 Adobe Experience Cloud 解決方案的最新版本說明。<br>如需詳細資訊，請參 [閱Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)。 |
+| Adobe Experience Cloud 版本說明 | 檢視 Adobe Experience Cloud 解決方案的最新版本說明。<br>如需詳細資訊，請參閱 [Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)。 |
 
 ## 發行前資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
