@@ -2,12 +2,12 @@
 keywords: 部分資料;A4T;差異;analytics for target;孤立;虛擬報表套裝;虛設項目;疑難排解;未拼接;膨脹;未指定
 description: 瞭解如何在使用Analytics for Target(A4t)時，將誇大的「瀏覽」和「訪客」計數的影響降到最低。 瞭解「部分資料」是什麼，以及如何減少資料。
 title: 如何將A4T中誇大的瀏覽次數和訪客計數降至最低？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 94%
+source-wordcount: '1372'
+ht-degree: 82%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 >[!IMPORTANT]
 >在 2016 年 11 月 14 日，Adobe Analytics 已針對 Target 使用 Analytics 報表 (A4T) 的客戶變更部分資料的處理方式。這些變更讓 Adobe Target 資料更能與 Adobe Analytics 的資料模型對應。這些變更已對使用 A4T 的所有客戶展開。這些變更特別能解決在執行 Target 活動時，有些客戶所注意到膨脹的訪客計數的問題。
 >
->請注意，此變更不可回溯。如果您的歷史報表顯示膨脹的計數，而您想要將它們從報表中排除，您可以建立虛擬報表套裝，如下所示。
+>此變更不溯及既往。如果您的歷史報表顯示膨脹的計數，而您想要將它們從報表中排除，您可以建立虛擬報表套裝，如下所示。
 >
->此外，已更新數個 JavaScript 資料庫，以幫助將膨脹的計數降至最低。建議您升級為下列資料庫版本 (或更新版本):
+>此外，已更新數個JavaScript程式庫，以協助將誇大的計數降至最低。 Adobe建議您升級至下列程式庫版本（或更新版本）:
 >
 >* Experience Cloud 訪客 ID 服務: visitorAPI.js 版本 2.3.0 或更新版本。
 >* Adobe Analytics: appMeasurement.js 版本 2.1。
@@ -33,21 +33,21 @@ mbox.js 資料庫不支援使用 A4T 重新導向選件。您的實作必須使�
 
 ## 哪些部分有所變更? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-使用 [!DNL Adobe Analytics] 來測量 [!DNL Target] 活動 (稱為 A4T) 時，[!DNL Analytics] 會收集當頁面上沒有 [!DNL Target] 活動時無法使用的額外資料。這是因為 [!DNL Target] 活動會在頁面頂端觸發呼叫，但是 [!DNL Analytics] 一般是在頁面底部觸發其資料收集呼叫。在目前的 A4T 實作中，我們會在每當 [!DNL Target] 活動作用中時包括此額外的資料。此後，我們僅在同時觸發 [!DNL Target] 和 [!DNL Analytics] 標記時，才會納入此額外資料。
+當[!DNL Adobe Analytics]用於測量[!DNL Target]活動（稱為A4T）時，[!DNL Analytics]會收集頁面上沒有[!DNL Target]活動時無法使用的額外資料。 這是因為 [!DNL Target] 活動會在頁面頂端觸發呼叫，但是 [!DNL Analytics] 一般是在頁面底部觸發其資料收集呼叫。在A4T至今的實作中，當[!DNL Target]活動處於活動狀態時，Adobe會包含此附加資料。 今後，Adobe僅在[!DNL Target]和[!DNL Analytics]標籤都已引發時，才會包含此額外資料。
 
 ## Adobe 為何做出此變更? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe 對於自己的資料準確性和品質感到自豪。觸發 [!DNL Target] 標記，但未觸發 [!DNL Analytics] 標記時，我們會記錄「部分資料」(有時稱為「未拼接的點擊」)，這些資料不會被 [!DNL Analytics] 擷取，因為沒有 [!DNL Target] 活動。儘管在 [!DNL Analytics] 報表中包含此部分資料可提供額外的資訊，它也會在沒有 [!DNL Target] 活動執行的期間產生與歷史資料的不一致。這可能會造成隨著時間分析趨勢之 [!DNL Analytics] 使用者的問題。為了確保 [!DNL Analytics] 中資料的一致性，我們將排除所有部分資料。
+Adobe 對於自己的資料準確性和品質感到自豪。當[!DNL Target]標籤觸發，但[!DNL Analytics]標籤未觸發時，Adobe會記錄「部分資料」（有時稱為「未接合點擊」），如果沒有[!DNL Target]活動，則[!DNL Analytics]不會擷取此資料。 儘管在 [!DNL Analytics] 報表中包含此部分資料可提供額外的資訊，它也會在沒有 [!DNL Target] 活動執行的期間產生與歷史資料的不一致。這可能會造成隨著時間分析趨勢之 [!DNL Analytics] 使用者的問題。為確保[!DNL Analytics]中的資料一致性，Adobe會排除所有部分資料。
 
 ## 是什麼造成了部分資料? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-我們在 [!DNL Analytics] 中發現一些客戶的部分資料比率很高。這可能造成實作不完整，但也有正當原因。
+Adobe看到[!DNL Analytics]中部分資料率較高的客戶。 這可能造成實作不完整，但也有正當原因。
 
 部分資料經確認的原因包括下列:
 
 * **不相符的報表套裝 ID (實作):** 在活動設定指定的報表套裝不符合傳送測試所在頁面上的報表套裝。這看起來像是部分資料，因為資料無法在 [!DNL Analytics] 伺服器上協調。
 * **緩慢頁面:** 因為 [!DNL Target] 呼叫在頁面的最上方，而 [!DNL Analytics] 呼叫一般是在頁面底端，如果頁面載入緩慢，會增加訪客在 [!DNL Target] 呼叫觸發之後，但在 [!DNL Analytics] 呼叫之前離開頁面的可能性。在連線往往較緩慢的行動網站上，這可能特別造成問題。
-* **頁面錯誤:** 如果發生 JavaScript 錯誤或每個接觸點 (Experience Cloud ID 服務、Target 和 Analytics) 都未觸發的其他案例，便會造成部分資料。
+* **頁面錯誤：** 如果有JavaScript錯誤或其他觸點未觸發的案例(Experience CloudID服務、Target和Analytics)，則會產生部分資料結果。
 * **[!DNL Target] 活動中的重新導向選件:** 針對使用 A4T 活動中的重新導向選件，您的實作必須符合某些最低需求。此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
 * **舊版資料庫:** 在過去幾年，Adobe 已對我們的 JavaScript 資料庫 ([!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`) 進行多項改善，以確定盡可能有效率地傳送資料。若要進一步瞭解實作需求，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
 
