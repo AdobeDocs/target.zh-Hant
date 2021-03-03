@@ -2,27 +2,27 @@
 keywords: Analytics 追蹤伺服器;A4T;analytics 區段;報表套裝;不正確資料;孤立;sdid;VisitorAPI.js;mboxMCSDID;虛設;未指定
 description: 探索客戶在使用Analytics for Target(A4T)時遇到的常見問題。
 title: 如何疑難排解Analytics和Target整合(A4T)
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 61%
+source-wordcount: '1003'
+ht-degree: 42%
 
 ---
 
 
 # 疑難排解 Analytics 和 Target 整合 (A4T)
 
-此主題涵蓋使用 Analytics 做為 Target 的報表來源 (A4T) 時遇到的一些常見問題。
+本主題涵蓋使用[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)的報告來源時遇到的一些常見問題。
 
 ## 活動在 Analytics 中未顯示資料，而是列為「未指定」。{#unspecified}
 
-發生此情形有幾個原因:
+資料顯示為「未指定」的原因有幾個：
 
 * [!DNL Target] 中的分類尚未完全處理。
 
-   若要在第一次儲存後分類報表，分類通常需要 24 到 72 小時的時間。
+   分類通常需要24到72小時，才能在第一次儲存後對報表進行分類。
 
 * 報表套裝不含任何資料，但 [!DNL Target] 已嘗試將點閱分類。[!DNL Target] 要直到第一次點閱發生時才能夠分類。
 
@@ -32,15 +32,15 @@ ht-degree: 61%
 
    [請聯絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得協助。
 
-如果您依「Analytics for Target」維度劃分「未指定」列，且它不包含活動ID，表示所有項目皆已正確分類。  如果活動ID列在此處，則會作為分類問題的指示。
+如果您依「Analytics for Target」維度劃分「未指定」列，且它不包含活動ID，表示所有項目皆已正確分類。 如果活動ID列在此處，則會作為分類問題的指示。
 
 >[!NOTE]
 >
->資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。請記住，若要在第一次儲存後分類報表，通常需要 24 到 72 小時的時間。
+>有時資料會在報表中正確顯示，但會因為新增的活動尚未完成分類而回復為「未指定」。 請記住，在第一次儲存後，通常需要24到72小時來分類報表。
 >
 >列為「未指定」時不會遺失任何資料。分類執行之後，資料會適當地指派給適當的活動。
 
-## A4T活動報表包含一列含有大量「未指定」事件。{#added_unspecified_events}
+## A4T活動報表包含一列含有許多「未指定」事件。{#added_unspecified_events}
 
 報表中可能會顯示「[!UICONTROL Unspecified]」事件列，這取決於您用來顯示資料的量度。
 
@@ -60,31 +60,31 @@ Analytics 中沒有提升度和可信度詳細資料。不過，在 Target 中�
 
 ## 活動未出現在 Analytics 報表中。  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以確定您的 Analytics 追蹤伺服器設定正確。
+A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱  [使用Analytics追蹤](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) 伺服器，確定您的Analytics追蹤伺服器已正確設定。
 
 >[!NOTE]
 >
->如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。mbox.js 或 at.js 資料庫會自動傳送追蹤伺服器值至 [!DNL Target]。在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
+>如果您使用mbox.js 61版（或更新版本）或at.js 0.9.1版（或更新版本），則在建立活動期間不需要指定追蹤伺服器。 mbox.js 或 at.js 資料庫會自動傳送追蹤伺服器值至 [!DNL Target]。在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
 ## 我的 Analytics 區段未出現在 Target 中。  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 開啟建立 A4T 活動之前，請確定您具備正確權限:
 
-* 您必須屬於 Adobe Analytics 中的「Web 服務存取」群組，才能使用 Analytics 作為 Target 的報表來源。
-* 您必須是具有 Analytics and Target 存取權之一或多個 Experience Cloud 群組的成員。
+* 屬於Adobe Analytics的「網站服務存取」群組，可使用Analytics做為Target的報表來源
+* 成為一或多個可存取Analytics和Target的Experience Cloud群組的成員。
 * 請確認 Analytics 和 Target 出現在左導覽的「行銷應用程式」區段中。
 
 ## 跳出率、跳出和離開量度在報表中顯示為正數。  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
-這是已知問題。
+這些量度在報表中顯示為正面是已知問題。
 
 雖然這些量度為負數，但提升度會在 Target 報表中顯示為正數。例如，即便您想要較低的跳出率仍顯示了較高的跳出率，因為獲勝者會具有最高的提升度。根據報表進行決策時，請注意這些和類似的量度，以及是否您偏好減少或增加這些數字。
 
 ## 我需要的報表套裝不會顯示。{#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-顯示在[!DNL Target Standard/Premium]中的報表套裝清單是已設定[!DNL Analytics]為[!DNL Target](A4T)報表來源的報表套裝清單。 這表示可能不會看到您擁有的每一個報表套裝。
+顯示在[!DNL Target Standard/Premium]中的報表套裝清單是已設定[!DNL Analytics]為[!DNL Target](A4T)報表來源的報表套裝清單。 您可能看不到每個報表套裝。
 
-此外，如果您使用多個報表來源，報表套裝也必須位於[!DNL Target]中預設的報表來源集中；否則，報表套裝將不會顯示。
+如果您使用多個報表來源，報表套裝也必須出現在[!DNL Target]中預設的報表來源集中。 如果報表套裝不在預設的報表來源中，則不會顯示報表套裝。
 
 如果您仍未看到要尋找的報表套裝，請連絡[Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以啟用它。
 
@@ -95,9 +95,9 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics
 * **at.js 1.x**:在呼 [!DNL Target] 叫中，附加ID包含在參 `mboxMCSDID` 數中。在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
 * **at.js 2.x**:在呼 [!DNL Target] 叫中，附加ID會在HTTP標題中傳回為的值 `experienceCloud.analytics.supplementalDataId`。在 [!DNL Analytics] 呼叫中，`sdid` 參數包含補充 ID。
 
-要檢查補充ID，最簡單的方式是使用Adobe Experience Platform Debugger。
+檢查附加ID最簡單的方式是使用Adobe Experience Platform除錯程式。
 
-如果您尚未安裝除錯程式，請參閱[ Adobe Experience Platform Debugger簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+如果尚未安裝調試程式，請參閱[Adobe Experience Platform調試程式簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
 ![除錯程式](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
