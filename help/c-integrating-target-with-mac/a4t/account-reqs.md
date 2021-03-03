@@ -1,14 +1,14 @@
 ---
 keywords: Analytics作為報告來源；a4t;A4T；需求
-description: 瞭解如何使用Analytics for Target(A4T)，設定在Adobe Target中建立以Adobe Analytics為基礎的活動所需的使用者帳戶需求。
+description: 瞭解如何使用Analytics for Target(A4T)，設定在Adobe Target建立以Adobe Analytics為基礎之活動的必要使用者帳戶需求。
 title: A4T需要哪些使用者權限要求？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 38%
+source-wordcount: '313'
+ht-degree: 36%
 
 ---
 
@@ -39,11 +39,9 @@ ht-degree: 38%
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-設定對[!DNL Analytics]報表套裝的存取：
+若要在指定的報表套裝上使用A4T，您必須擁有該報表套裝的存取權，並授與對[!DNL Web Services Access]群組的存取權。
 
-若要在指定的報表套裝上使用A4T，您必須擁有該報表套裝的存取權。
-
-1. 在&#x200B;**[!UICONTROL 管理控制台]**&#x200B;中，按一下[!DNL Analytics]產品設定檔，然後按一下&#x200B;**[!UICONTROL 權限]**&#x200B;標籤。
+1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，按一下[!DNL Analytics]產品配置檔案，然後按一下&#x200B;**[!UICONTROL 權限]**&#x200B;頁籤。
 
    然後您就可以看到描述檔可存取的報表套裝。
 
@@ -51,7 +49,12 @@ ht-degree: 38%
 
    下圖為可存取所有報表套裝的產品設定檔範例：
 
-   ![「管理控制台權限」標籤](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Admin Console權限頁籤](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. 配置對[!UICONTROL Web服務訪問]組的訪問。
+
+   必須訪問[!DNL Analytics]中的[!UICONTROL Web服務訪問]組，才能使用[!DNL Analytics]作為[!DNL Target]的報告源。
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
