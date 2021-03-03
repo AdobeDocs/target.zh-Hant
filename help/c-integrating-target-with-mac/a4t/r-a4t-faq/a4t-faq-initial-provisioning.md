@@ -2,19 +2,19 @@
 keywords: faq;常見問題集;analytics for target;a4t;佈建;adobe Experience Cloud
 description: 尋找有關Analytics for Target(A4T)布建常見問題的解答，這些問題可讓您針對Target活動使用Analytics報表。
 title: 我可以在哪裡找到有關A4T初始布建的資訊？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '489'
+ht-degree: 68%
 
 ---
 
 
 # 初始佈建 - A4T 常見問題集{#initial-provisioning-a-t-faq}
 
-此主題包含經常詢問關於佈建 Analytics 做為 Target 報表來源 (A4T) 問題的回答。
+本主題包含有關將[!DNL Adobe Analytics]設為[!DNL Adobe Target](A4T)報告來源的常見問題的解答。
 
 ## 如何設定多頁 A4T 活動?
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 定義 Analytics 活動時，在可以選取報表套裝之前，您同時需要 Analytics 使用者帳戶和 Target 使用者帳戶。必須依說明文件所述來設定您的使用者帳戶。請參閱[使用者權限需求](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
-只要您是可存取 Analytics 和 Target 的 Experience Cloud 群組的成員，且擁有所有報表套裝的存取權，您在&#x200B;**[!UICONTROL 「建立活動」]**&#x200B;下即會看見使用 Analytics 建立 A/B 測試的選項。
+您是一或多個Experience Cloud群組的成員，可存取Analytics和Target，而且您可存取所有報表套裝，您應在&#x200B;**[!UICONTROL 「建立活動]**」下看到使用Analytics建立A/B測試的選項。
 
 如果發生佈建問題，請檢查 A4T 是否佈建正確。
 
@@ -36,13 +36,13 @@ ht-degree: 92%
 
 如發生任何這些問題，請檢查下列事項:
 
-* 確定 Experience Cloud 中已連結您的 Analytics 和 Target 帳戶。
-* 如果您在相同體驗 Experience Cloud 公司使用多個 Analytics 公司登入，請確定您上次登入的 Analytics 公司已繫結至整合的 Target 帳戶。
+* 請確定您的Analytics和Target帳戶已連結至Experience Cloud。
+* 有些客戶在同一家Experience Cloud公司中使用多個Analytics公司登入。 如果您使用多次登入，請確定您最後登入的Analytics公司是系結至整合的Target帳戶的公司。
 * 如果已登入 Experience Cloud 數小時，Analytics 工作階段有時會到期。請登出再登入來再試一次。
 
 ## 在 Target 中為何看不到 Analytics 選項?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-請參閱「為什麼我的報表套裝未載入」? above.此問題的根本原因是相同的。
+請參閱「為什麼我的報表套裝未載入」? 超過. 此問題的根本原因是相同的。
 
 ## 在 Analytics 中為何看不到 A4T 報表?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
