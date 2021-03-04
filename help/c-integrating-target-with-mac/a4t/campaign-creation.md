@@ -1,22 +1,22 @@
 ---
 keywords: a4t;A4T;使用 Analytics 作為 Target 的報告來源
-description: 瞭解如何在Adobe Target中設定使用Adobe Analytics作為報告來源(A4T)的活動。
+description: 瞭解如何在Adobe Target設定使用Adobe Analytics作為報告來源(A4T)的活動。
 title: 如何建立使用A4T的活動？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 33%
+source-wordcount: '650'
+ht-degree: 32%
 
 ---
 
 
 # 建立使用Analytics做為報告來源的活動
 
-您可以設定[!DNL Target]中的活動，使用[!DNL Adobe Analytics]做為報告來源(A4T)。
+您可以設定[!DNL Adobe Target]中的活動，使用[!DNL Adobe Analytics]做為報告來源(A4T)。
 
-在您設定使用[!DNL Analytics]作為報告來源的活動之前，請先建立活動的目標，例如提高每位訪客的收入(RPV)或增加購物車的點按。 選擇活動的最終成功量度。雖然您可以隨時在[!DNL Analytics]中選取其他量度，但您仍必須指定您預期此測試會影響的特定量度。
+在您設定使用[!DNL Analytics]作為報告來源的活動之前，請先建立活動的目標，例如提高每位訪客的收入(RPV)或增加購物車的點按。 選擇活動的最終成功量度。雖然您可以隨時在[!DNL Analytics]中選取更多量度，但您仍必須指定您預期此測試會影響的特定量度。
 
 ## 建立活動
 
@@ -35,18 +35,18 @@ ht-degree: 33%
 1. 進入活動建立流程的&#x200B;**[!UICONTROL 「設定」]**&#x200B;部分時，請選擇&#x200B;**[!UICONTROL 「Adobe Analytics」]**&#x200B;並指定您的公司。
 1. 選擇一個報表套裝。
 
-   您可以選擇[!DNL Analytics]中任何可用的報表套裝。 報表套裝會定義所收集的資料將可供使用的位置。報表套裝清單中未包括虛擬報表套裝。
+   您可以選擇[!DNL Analytics]中任何可用的報表套裝。 報表套裝會定義收集資料的可用位置。 報表套裝清單中未包括虛擬報表套裝。
 
    選取報表套裝時，您可能遇到兩個可能的錯誤:
 
    * 您遇到沒有可用的報表套裝的錯誤，但您的帳戶已正確設定。
 
-      您可能需要檢查[!DNL Analytics]公司。 如果您的[!DNL Adobe Experience Cloud]帳戶系結至多個[!DNL Analytics]公司，請登出[!DNL Target]，然後登入右公司下方的[!DNL Analytics]。 然後返回[!DNL Target]，報表套裝就會載入。
+      檢查您的[!DNL Analytics]公司。 如果您的[!DNL Adobe Experience Cloud]帳戶系結至多個[!DNL Analytics]公司，請登出[!DNL Target]，然後登入右公司下的[!DNL Analytics]。 然後返回[!DNL Target]，報表套裝就會載入。
 
    * 您並未看到所預期的報表套裝。
 
-      只有已布建以連線至[!DNL Target]的報表套裝才可供選取。 如果您未看到預期的報表套裝，請先嘗試登出並重新登入[!DNL Adobe Experience Cloud]以再試一次。
-   如果報表套裝仍未從清單中遺失，請[連絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+      只有已布建以連線至[!DNL Target]的報表套裝可供選取。 如果您未看到預期的報表套裝，請先嘗試登出並登入[!DNL Adobe Experience Cloud]以再試一次。
+   如果清單中仍有一或多個報表套裝遺失，請[連絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 1. 指定您的追蹤伺服器。
 
@@ -59,7 +59,7 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >您可以傳送自訂的Target型量度至[!DNL Analytics]，而不只依賴[!DNL Analytics]資料。 例如，您可以監視在頁面上的點按情況，通常不會由[!DNL Analytics]追蹤。 此自訂量度會自動從[!DNL Target]伺服器傳送至[!DNL Analytics]，並顯示為[!DNL Analytics]量度選擇器中的「[!DNL Target]轉換」量度。 如果您選擇使用[!DNL Analytics]度量，則「[!DNL Target]轉換」度量為空。
+   >您可以傳送自訂的Target型量度至[!DNL Analytics]，而不只依賴[!DNL Analytics]資料。 例如，您可以監控點按頁面的情況，通常不會由[!DNL Analytics]追蹤。 此自訂量度會自動從[!DNL Target]伺服器傳送至[!DNL Analytics]，並顯示為[!DNL Analytics]量度選擇器中的「[!DNL Target]轉換」量度。 如果您選擇使用[!DNL Analytics]度量，則「[!DNL Target]轉換」度量為空。
 
    設定目標並不表示您無法在評估測試結果時使用其他量度。不過，目標為您要對活動改善之項目的提示。
 
