@@ -2,23 +2,23 @@
 keywords: Analytics for Target;A4T;使用 Analytics 作為報表來源
 description: 瞭解如何使用Analytics for Target(A4T)。 A4T提供使用Analytics量度和觀眾區隔之Target活動的Analytics報表存取權。
 title: 如何在A4T中使用報表？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 32%
+source-wordcount: '689'
+ht-degree: 30%
 
 ---
 
 
 # A4T 報表{#a-t-reporting}
 
-使用[!DNL Analytics]作為[!DNL Target](A4T)的報告來源，可讓您存取[!DNL Target]活動的[!DNL Analytics]報告。
+使用[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)的報告來源，可讓您存取[!DNL Target]活動的[!DNL Analytics]報告。
 
 您可以在[!DNL Analytics]和[!DNL Target]中檢視活動的報表。
 
-如需使用[!DNL Target]的[!DNL Analytics]報告最佳實務，請造訪此Adobe Spark頁面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。[
+如需使用[!DNL Target]的[!DNL Analytics]報告最佳實務，請造訪本Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。[
 
 ## 概述 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -55,7 +55,7 @@ ht-degree: 32%
 >
 >如果[!DNL Analytics]中的[!UICONTROL Target活動]報表列出「未指定」，而非列出您的活動，則需要對您布建的帳戶進行更新。 請聯絡客戶服務以解決此問題。
 
-如需詳細資訊和範例，請開啟[Analytics &amp; Target:Adobe Experience League提供的分析最佳實務](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教學課程。
+如需詳細資訊和範例，請開啟[Analytics &amp; Target:分析最佳做法](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教學課程，由Adobe Experience League提供。
 
 ## Target 中的報表 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -66,7 +66,7 @@ ht-degree: 32%
 
    每個量度都可用，包括[!DNL Analytics]內建的任何自訂或計算量度。
 
-   請注意，任何增加的數字在報表中都顯示為正數，即使您其實不希望增加也一樣。例如，即便您想要較低的跳出率仍顯示了較高的跳出率，因為獲勝者會具有最高的提升度。根據報表進行決策時，請注意這些和類似的量度，以及是否您偏好減少或增加這些數字。
+   任何增加的數字都會在報告中顯示為正面，即使不希望增加也是如此。 例如，即便您想要較低的跳出率仍顯示了較高的跳出率，因為獲勝者會具有最高的提升度。根據報表進行決策時，請注意這些和類似的量度，以及是否您偏好減少或增加這些數字。
 
 您可以在活動開始後或甚至測試完成後，將量度或對象套用至[!DNL Target]中的報表。 您事先完全不需要知道要測量什麼。
 
