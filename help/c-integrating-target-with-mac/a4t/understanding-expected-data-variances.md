@@ -2,49 +2,45 @@
 keywords: 資料差異;analytics;差異;差別;a4t;analytics for target;analytics 作為報表來源
 description: 瞭解不使用Analytics for Target(A4T)時，Adobe Target與Analytics之間預期的資料差異，這可完全消除資料差異。
 title: Analytics和A4T之間的預期資料差異為何？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 95%
+source-wordcount: '773'
+ht-degree: 49%
 
 ---
 
 
-# 使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異{#expected-data-variances-when-not-using-a-t}
+# 使用和不使用A4T時，Adobe Target和Adobe Analytics之間的預期資料差異
 
 有關&#x200B;*使用*&#x200B;和&#x200B;*不使用* Analytics 做為報表來源 (A4T) 時，[!DNL Target] 和 Adobe [!DNL Analytics] 之間預期資料差異的資訊。A4T 可大幅減少資料差異.
 
 ## 使用 A4T 時的預期資料差異 {#expected-using-a4t}
 
-若使用 A4T，活動的 Analytics 與 Target 報表皆僅使用 Analytics 資料，因此 Target 活動報表中的解決方案之間沒有差異。但是，在某些情況下，客戶可能會將 Target 資料與 A4T 整合範圍以外的 Analytics 資料進行比較，因此，請體驗下列所述的差異問題。
+若使用 A4T，活動的 Analytics 與 Target 報表皆僅使用 Analytics 資料，因此 Target 活動報表中的解決方案之間沒有差異。但是，在某些情況下，客戶會比較Target資料與A4T整合範圍以外的Analytics資料，因此會體驗以下所述的差異問題。
 
-以下是一些您可能會遇到預期資料差異的案例:
+以下是一些您可體驗預期資料差異的情況：
 
-* A4T 允許 Target 點擊 (頁面頂端) 發生的可能性，但不允許 Analytics 點擊 (頁面底部) 發生。舉例來說，如果使用者載入頁面，但瀏覽器在觸發 Analytics 呼叫前關閉。在這些案例中，A4T 會從我們的資料中排除 Target 點擊。原因在於，若允許在沒有實際 Analytics 呼叫的情況下，將 Target 點擊 (同樣位於頁面頂端) 計算為 Analytics 點擊，則會產生與 Analytics 中的資料集不一致的情況 (訪客膨脹等)。
+* A4T 允許 Target 點擊 (頁面頂端) 發生的可能性，但不允許 Analytics 點擊 (頁面底部) 發生。例如，假設訪客載入頁面，但在觸發Analytics呼叫前關閉瀏覽器。 在這些情況下，A4T會從資料中排除Target點擊。 在沒有實際Analytics呼叫時，允許Target點擊（同樣是頁面頂端）計為Analytics點擊，會造成與Analytics中的資料集（訪客膨脹等）不一致。
 
-   若已在 Target 中將重新導向測試設定為分割流量 50/50 (或 25/25/25/25 等)，使用者行為可能無法除盡。如果您看到不平均的分割，這就表示相較於其他群組，某個使用者群組無法在登陸頁面上執行 Analytics 呼叫。這種某個群組無法執行 Analytics 呼叫的情況導致了該使用者的 Target 點擊遭到排除，產生不平均的問題。
+   如果在Target中設定重新導向測試以分割流量50/50（或25/25/25/25等），使用者行為可能不會平均分割。 如果您看到不均勻的分割，這隻表示一組使用者未能在登陸頁面上執行Analytics呼叫，而其他群組執行的次數比其他群組更多。 這種某個群組無法執行 Analytics 呼叫的情況導致了該使用者的 Target 點擊遭到排除，產生不平均的問題。
 
-   這是我們希望在 Adobe Experience Platform 上邁向 A4T 的同時，能在未來處理的問題。我們的團隊正在努力尋找在不同時間點發生的這些頁面上的不同事件的最佳處理方法。
+   Adobe希望在Adobe團隊為Adobe Experience Platform的A4T而努力的同時，在未來解決這一問題。 Adobe團隊正在決定如何處理頁面上不同時間發生的這些不同事件。
 
    >[!NOTE]
    >
    >目前存在一個已知問題，該問題導致搭配 A4T 使用重新導向的部分客戶看見較高的散亂點擊率百分比。請參閱[已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)。
 
-* 假設您建立了一個在特定頁面開放給所有訪客的自動分配活動。由於「自動分配」活動不支援 A4T，因此 [!DNL Target] 會收集所有活動資料。您可能希望 [!DNL Target] 報表中的活動訪客數與相同日期範圍內 [!DNL Analytics] 報表中該頁面的訪客數相符。這是下列所述之預期差異的案例。
+## *不使用* A4T 時的預期資料差異 {#expected-not-using-a4t}
 
-   如需支援 A4T 的活動類型完整清單，請參閱[支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)。
-
-## *不使用* A4T 時的預期資料差異  {#expected-not-using-a4t}
-
-即使是使用相似的資料集，有 15-20% 的差異也是正常的。算法不同的系統可能會導致更高的資料差異，高達 35-50%。在某些情況下，差異可能還會更高。
+即使是使用相似的資料集，有 15-20% 的差異也是正常的。算法不同的系統可能會導致更高的資料差異，高達 35-50%。有時候，差異可能更大。
 
 雖然實際的資料可能會大幅不同，但趨勢通常會是一致的。只要差異與趨勢保持一致，這些資料還是十分重要而且非常有用。如果差異與趨勢不一致，可能表示某個設定不正確。此時請連絡您的帳戶代表以取得協助。
 
-[!DNL Analytics] 使用的系統是根據瀏覽次數與交易，但是 使用的是以訪客為主的度量。[!DNL Target]這表示無論訪客何時開啟頁面，都會將其計入 [!DNL Analytics] 中的瀏覽數，但在符合活動中設定的條件之前，[!DNL Target] 不會計算瀏覽數。
+[!DNL Analytics] 使用的系統是根據瀏覽次數與交易，但是 使用的是以訪客為主的度量。[!DNL Target]每當訪客開啟頁面時，它會計為[!DNL Analytics]中的瀏覽，但[!DNL Target]直到符合活動中設定的條件後，才會計算瀏覽。
 
-[!DNL Target] 中的報表根據定義活動時選取的轉換 mbox 顯示成效，但此轉換 mbox 資料不會傳送到 [!DNL Analytics]，其專用的轉換變數是由您的 [!DNL Analytics] 標籤實作所定義。在您預期會有相同資料的情況下 (例如，如果零售商的訂購確認頁面同時包含轉換 mbox 和 [!DNL Analytics] 購買事件)，資料可能會因這些標籤的位置而有所不同。一般而言，兩種產品報表中的趨勢應該是類似的。
+[!DNL Target]中的報表會根據定義活動時選取的轉換mbox來顯示效能。 不過，此轉換mbox資料不會傳送至[!DNL Analytics]，因為[!DNL Analytics]標籤實作會定義其自己的轉換變數。 當您預期相同的資料時（例如，零售商的訂單確認頁面同時包含轉換mbox和[!DNL Analytics]購買事件），資料可能會因這些標籤的位置而有所不同。 一般而言，兩個產品報表的趨勢相似。
 
 預期的資料差異可能是因為技術與業務差異所致。
 
@@ -64,7 +60,7 @@ ht-degree: 95%
 
 * 訪客與瀏覽度量之間的差異
 * 鎖定目標的活動不包括某些訪客
-* 可將單一 mbox 放在多個頁面上，計算其中每個頁面上的訪客
-* 活動優先順序可能包括某些訪客，且排除頁面上的其他訪客
-* 轉換過一次的訪客在重新進入活動時可以再次計入
+* 多個頁面上的單一mbox，計算每個頁面的訪客數
+* 活動優先順序可包含頁面上的某些訪客，並排除其他訪客
+* 已轉換一次的訪客在重新進入活動時可重新計算
 * [!DNL Analytics] 會計算所有瀏覽和訪客的所有轉換次數，但 [!DNL Target] 僅會計算活動中包含之瀏覽和訪客的轉換次數。
