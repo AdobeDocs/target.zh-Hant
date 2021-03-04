@@ -2,19 +2,19 @@
 keywords: A4T;Adobe Analytics;Analytics 型活動;Analytics 報表套裝;報表套裝;Analytics Target 整合;設定報表套裝
 description: 依照在Adobe Target和Adobe Analytics解決方案中實作Analytics for Target(A4T)所需的步驟進行。
 title: 如何實作Target的Analytics(A4T)?
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 48%
+source-wordcount: '890'
+ht-degree: 30%
 
 ---
 
 
 # Analytics for Target 實作{#analytics-for-target-implementation}
 
-將[!DNL Adobe Analytics]實作[!DNL Target](A4T)的報告來源時，需要幾個步驟。
+將[!DNL Adobe Analytics]實作[!DNL Adobe Target](A4T)的報告來源時，需要幾個步驟。
 
 ## 實施步驟{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -30,13 +30,13 @@ ht-degree: 48%
 
 ## 步驟 3: 實作 Experience Cloud 訪客 ID 服務
 
-訪客 ID 服務可讓您在 [!DNL Adobe Experience Cloud] 解決方案之間識別使用者。您必須實作或移轉至必要的 Experience Cloud 訪客 ID 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
+訪客 ID 服務可讓您在 [!DNL Adobe Experience Cloud] 解決方案之間識別使用者。實作或移轉至Experience Cloud訪客ID的必要版本。 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-請參閱&#x200B;*Experience Cloud訪客ID服務*&#x200B;檔案中的[實作Target適用的Experience Cloud ID服務。](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)
+請參閱&#x200B;*Experience Cloud訪客ID服務*&#x200B;檔案中的[實作Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)Experience CloudID服務。
 
 ## 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
 
-您必須實作或移轉至必要的 appMeasurement.js 版本。如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
+實作或移轉至所需版本的appMeasurement.js。 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
 如需新實作，請參閱&#x200B;*Analytics實作指南*&#x200B;中的[JavaScript實作概觀](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)。
 
@@ -44,7 +44,7 @@ ht-degree: 48%
 
 ## 步驟5:下載並更新at.js
 
-您必須使用生產帳戶實作或移轉至所需版本的at.js。 不需要修改程式碼。
+使用您的生產帳戶實作或移轉至所需版本的at.js。 不需要修改程式碼。
 
 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
@@ -65,11 +65,11 @@ at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-VisitorAPI.js必須先於at.js載入。如果您要更新現有的at.js或mbox.js檔案，請務必確認載入順序。
+VisitorAPI.js必須先於at.js載入。 如果您要更新現有的at.js或mbox.js檔案，請務必確認載入順序。
 
-從實作的角度，為[!DNL Target]和[!DNL Analytics]整合設定現成可用的方式是使用從頁面傳遞的SDID，自動為您將後端的[!DNL Target]和[!DNL Analytics]要求接合在一起。
+從實作的角度來看，[!DNL Target]和[!DNL Analytics]整合的預設設定是使用從頁面傳遞的SDID，自動將後端的[!DNL Target]和[!DNL Analytics]要求接合在一起。
 
-不過，如果您想要進一步控制如何及何時將與[!DNL Target]相關的分析資料傳送至[!DNL Analytics]以用於報告，而您不想選擇預設設定，即讓[!DNL Target]和[!DNL Analytics]透過SDID自動接合分析資料，則您可以透過&#x200B;**視窗設定** analyticsLogging = client_side **.targetGlobalSettings**。 注意: 任何 2.1 以下的版本均不支援此方法。
+您可以控制如何及何時將與[!DNL Target]相關的分析資料傳送至[!DNL Analytics]以利報告。 如果您不想選擇預設設定，讓[!DNL Target]和[!DNL Analytics]透過SDID自動接合分析資料，請透過&#x200B;**window.targetGlobalSettings**&#x200B;設定&#x200B;**analyticsLogging = client_side**。 注意: 任何 2.1 以下的版本均不支援此方法。
 
 例如:
 
@@ -79,7 +79,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-此設定具有全域效果，也就是說，at.js 發出的所有呼叫都會在 要求中傳送 **analyticsLogging: &quot;client_side&quot;**，而且會為所有要求傳回分析裝載。[!DNL Target]設定後，傳回的裝載格式如下所示:
+此設定具有全域效果，這表示at.js進行的每個呼叫都有&#x200B;**analyticsLogging:在[!DNL Target]請求中傳送的&quot;client_side&quot;**，並會針對每個請求傳回分析裝載。 設定此選項時，傳回的裝載格式如下：
 
 ```javascript
 "analytics": {
@@ -90,9 +90,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-然後，可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉送至Analytics。 請注意，對於[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動，您也需要轉送sessionId。 如需詳細資訊，請參閱&#x200B;*Adobe Target SDK*&#x200B;指南中的[ Analytics for Target(A4T)reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)。
+然後，可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉送至Analytics。 對於「自動分配」和「自動目標」活動，您也必須轉發sessionId。 如需詳細資訊，請參閱&#x200B;*Adobe TargetSDK*&#x200B;指南中的[Analytics for Target(A4T)reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)。
 
-如果不需要全域設定，且偏好使用更隨需提供的方法，則您可將 **analyticsLogging: &quot;client_side&quot;** 傳入，藉此使用 at.js 函數 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 來達成此目標。僅會傳回此呼叫的分析裝載，且[!DNL Target]後端不會將裝載轉送至[!DNL Analytics]。 透過採用此方法，每個at.js [!DNL Target]要求預設不會傳回裝載，而是只會在需要並指定時才傳回。
+如果不需要全域設定，而更偏好隨選方法，請傳入&#x200B;**analyticsLogging:&quot;client_side&quot;**。 [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)僅會傳回此呼叫的分析裝載，且[!DNL Target]後端不會將裝載轉送至[!DNL Analytics]。 依循此方法，每個at.js [!DNL Target]請求預設會傳回裝載，但只會在需要並指定時才傳回。
 
 例如:
 
@@ -154,17 +154,17 @@ adobe.target.getOffers({
 
 更新 JavaScript 程式庫之後載入頁面，以確認 呼叫中的 `mboxMCSDID`[!DNL Target] 參數值符合 頁面檢視呼叫中的 `sdid`[!DNL Analytics] 參數值。
 
-在單一頁面應用程式 (SPA) 中，不一定能夠預測呼叫訂單，所以這項確認尤其重要。
+請務必確認這些值在「單頁應用程式」(SPA)中是否相符，因為呼叫的順序並不總是可預測。
 
-**注意:** 這些值必須相符，A4T 才能正常運作。
+**注意：**  A4T必須符合這些值才能正常運作。
 
 ## 步驟 9: (可選) 移除先前的整合程式碼
 
-建議移除先前的整合，以簡化實作，也不必解決系統之間的差異。您可以移除先前為了 SC 至 T&amp;T 整合而可能部署的任何程式碼，包括 `mboxLoadSCPlugin`。
+Adobe建議您移除先前的整合，以簡化實作，並消除系統間不一致的問題。 您可以移除您為舊版SC部署的任何程式碼至T&amp;T整合，包括`mboxLoadSCPlugin`。
 
 ## 步驟10: 啟用以 Analytics 作為 Target 的報表來源的選項
 
-在[!DNL Target]中，按一下「管理> Visual Experience Composer」]**，然後選擇「依活動選擇****或**[!UICONTROL  Adobe Analytics ]**」以啟用選項。**[!UICONTROL 
+在[!DNL Target]中，按一下「管理」>「Visual Experience Composer」]**，然後選擇「Select per activity」（每活動）]**&#x200B;或「**[!UICONTROL Adobe Analytics」]**&#x200B;以啟用選項。**[!UICONTROL **[!UICONTROL 
 
 * **[!UICONTROL 「為每個活動選取」可讓您在建立每個活動時選擇 或 。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL Adobe 會將 Analytics 設為您建立的所有活動的報表來源。]**[!DNL Analytics]
