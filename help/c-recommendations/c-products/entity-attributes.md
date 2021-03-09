@@ -1,18 +1,18 @@
 ---
 keywords: 實體;實體屬性;傳遞資訊至 Recommendations;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
-description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至Adobe Target Recommendations。
+description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至Adobe Target·Recommendations。
 title: 如何使用實體屬性？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 90%
+source-wordcount: '1064'
+ht-degree: 89%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 實體屬性{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) 實體屬性
 
 使用實體屬性來傳遞產品或內容資訊至 [!DNL Adobe Target Recommendations].
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->* `entity.id` 必須符合 `productPurchasedId` 傳送至訂單確認頁面和Adobe Analytics產 `productId` 品報表中所使用的項目。
+>* `entity.id` 必須符合 `productPurchasedId` 傳送至訂單確認頁面和用於 `productId` Adobe Analytics產品報表的項目。
    >
    >
 * 提供的實體屬性值會在 61 天後過期。這表示您應確實針對目錄中的每個項目，每個月至少傳送一次每個實體屬性的最新值至 Target Recommendations。
@@ -32,7 +32,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->* 如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。若要使用at.js 2將產品或內容資訊傳遞至Recommendations。*x*，請使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。如需範例，請參閱[計畫並實作Recommendations](/help/c-recommendations/plan-implement.md)。
+>* 如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。使用at.js 2將產品或內容資訊傳遞給Recommendations。*x*，請使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。如需範例，請參閱[規劃並實施Recommendations](/help/c-recommendations/plan-implement.md)。
 
 >
 
@@ -86,7 +86,7 @@ mboxCreate('productPage',
 
 該必需的參數用於識別產品。該英數字元 ID 必須在所有使用的 [!DNL Adobe Experience Cloud] 產品中保持一致 (包括 [!DNL Analytics])，以便各種產品識別項目並共用相關資料。
 
-`entity.id` 值不得包含斜線、&amp; 符號、問號、百分比符號、逗號，或其他在 REST API 呼叫中傳送時需要 URL 編碼的標點符號字元。但可使用連字號和底線。`entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
+`entity.id`*值不得包含斜線、&amp; 符號、問號、百分比符號、逗號，或其他在 REST API 呼叫中傳送時需要 URL 編碼的標點符號字元。*&#x200B;但可使用連字號和底線。`entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
 
 範例: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 定義項目的價格或價值。
 
 範例: `'entity.value=15.99'`
+
+entity.value僅支援小數格式（例如15.99）。 不支援逗號格式(15,99)。
 
 ### entity.margin
 
