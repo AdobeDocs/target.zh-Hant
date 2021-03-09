@@ -4,9 +4,9 @@ description: 隨時更新Adobe Target產品檔案的重要新增和變更。
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3740'
 ht-degree: 29%
 
 ---
@@ -14,14 +14,15 @@ ht-degree: 29%
 
 # Adobe Target 產品文件中的
 
-本頁列出對[!DNL Adobe Target]產品文檔所做的重要更改。
+本頁列出對[!DNL Adobe Target]產品文檔所做的重大更改。
 
 ## Adobe Target Standard/Premium 21.2.1 (2021 年 3 月 9 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | 已更新允許的選件大小限制。 |
+| 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>已更新允許的選件大小限制。</li><li>已修正categoryId參數的字元限制。</li></ul> |
 |  | [允許列出目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已更新[!DNL Target]邊緣IP位址。 |
+|  | [實體屬性](/help/c-recommendations/c-products/entity-attributes.md) | 新增文字以指出entity.value必須是十進位格式（例如15.99，而非15,99）。 |
 |  | [版本說明](/help/r-release-notes/release-notes.md): 21.2.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 21.1.1 (2021 年 1 月 19 日)
@@ -107,7 +108,7 @@ ht-degree: 29%
 | 9月29日 | [疑難排解 Analytics 和 Target 整合 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | 已新增有關如何在at.js 1.x和at.js 2.x中檢查補充ID的資訊。 |
 | 9月24日 | [活動 QA 書籤小程式](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新at.js 2活動QA書籤小工具的程式碼。*x* 版本不支援此函數。 |
 |  | [目錄搜尋](/help/c-recommendations/c-products/catalog-search.md#faq) | 已新增有關使用數值搜尋自訂屬性的附註。 |
-|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：「當我搜尋具有數值的自訂屬性時，為什麼目錄搜尋無法顯示正確的結果？」 |
+|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：「當我搜尋具有數值的自訂屬性時，目錄搜尋為何無法顯示正確的結果？」 |
 |  | [Target 的運作方式](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | 更新「邊緣網路」中所列的目標叢集和目標中央叢集位置。 |
 | 9月23日 | [使用 Analytics 追蹤伺服器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | 已更新整個主題，其中包含[!DNL Adobe Experience Platform Debugger]和瀏覽器開發人員工具的資訊。 |
 |  | [設定檔和變數字彙表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已更新「user.header(&#39;x-forwarded-for&#39;)」列，指出「user.header(&#39;x-cluster-client-ip&#39;)」已過時。 |
