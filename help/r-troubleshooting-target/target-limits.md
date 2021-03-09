@@ -5,7 +5,7 @@ title: Adobe Target的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 63%
@@ -53,7 +53,7 @@ ht-degree: 63%
 
 ## categoryId 參數
 
-* **上限**: 128 個字元。
+* **上限**: 250 個字元。
 
 ## 客戶屬性
 
