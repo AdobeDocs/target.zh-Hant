@@ -1,14 +1,14 @@
 ---
 keywords: character limit;mbox參數；批次傳送api;profile參數；limits;built in profiles;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;categoryID；疑難排解
 description: 檢視字元限制和其他限制（選件大小、對象、設定檔、值、參數等）的清單 (選件大小、對象、設定檔、值、參數等) 的資訊。
-title: Adobe Target中的各種字元、大小和其他限制為何？
-feature: Troubleshooting
+title: Adobe Target的各種字元、大小和其他限制是什麼？
+feature: 疑難排解
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 64%
+source-wordcount: '1090'
+ht-degree: 63%
 
 ---
 
@@ -192,13 +192,13 @@ ht-degree: 64%
 
 * **建議的限制**: 總共 50,000 個選件。
 
-### 選件大小
+### 選件大小 {#offer-size}
 
 下列大小限制適用於選件：
 
-* HTML 選件為 256 KB.
-* 來自 UI 的視覺選件為 64 KB.
-* 來自 API 512 KB.
+* HTML 選件為 1024 KB.
+* UI提供的視覺化選件有1024 KB（每個體驗）。
+* 來自 API 1024 KB.
 
    如果使用全域 mbox，此上限適用於針對頁面傳回的整組內容。限制選件大小可改進頁面載入時間。如果超過限制，會顯示下列訊息: 
 
@@ -222,7 +222,7 @@ ht-degree: 64%
 
 * **建議的每個帳戶描述檔指令碼總數限制**:零點二萬
 
-* **限制描述檔指令碼複雜度的建議**:描述檔指令碼可執行有限數量的指令。如需詳細資訊，請參閱&#x200B;*描述檔屬性*&#x200B;中的[最佳實務](/help/c-target/c-visitor-profile/profile-parameters.md#best)。
+* **Recommendations限制描述檔指令碼複雜度**:描述檔指令碼可執行有限數量的指令。如需詳細資訊，請參閱&#x200B;*描述檔屬性*&#x200B;中的[最佳實務](/help/c-target/c-visitor-profile/profile-parameters.md#best)。
 
 ## 屬性
 
