@@ -4,10 +4,10 @@ description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至Adob
 title: 如何使用實體屬性？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 89%
 >* `entity.id` 必須符合 `productPurchasedId` 傳送至訂單確認頁面和用於 `productId` Adobe Analytics產品報表的項目。
    >
    >
-* 提供的實體屬性值會在 61 天後過期。這表示您應確實針對目錄中的每個項目，每個月至少傳送一次每個實體屬性的最新值至 Target Recommendations。
+* 提供的實體屬性值會在 61 天後過期。此過期表示您必須確保每個實體屬性的最新值會針對目錄中的每個項目，每月至少傳遞一次至TargetRecommendations。
 
 
 多數預先定義的參數僅接受單一值，以新的值覆寫舊的值。對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
 
-一般而言，如果您使用at.js 1，顯示資訊mbox可能會類似下列範例。** xwith `mboxCreate`。
+一般而言，如果您使用at.js 1，顯示資訊mbox看起來與下列範例類似。** xwith `mboxCreate`。
 
 >[!NOTE]
 >
->* 如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。使用at.js 2將產品或內容資訊傳遞給Recommendations。*x*，請使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。如需範例，請參閱[規劃並實施Recommendations](/help/c-recommendations/plan-implement.md)。
+>* 如果您使用at.js 2。*x*, `mboxCreate` （如下例所用）不再受支援。使用at.js 2將產品或內容資訊傳遞給Recommendations。*x*，請使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。如需範例，請參閱[規劃並實作Recommendations](/help/c-recommendations/plan-implement.md)。
 
 >
 
 
 
-所有實體參數屬性均區分大小寫。
+所有實體參數屬性都區分大小寫。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -102,7 +102,7 @@ mboxCreate('productPage',
 
 支援多個值 (以逗號分隔值的清單)。
 
-目前頁面的類別。其中可能包括多個類別，例如子區段的子項 cardigans (即 womens、womens:sweaters、womens:sweaters:cardigans)。多個類別應該以逗號區隔。
+目前頁面的類別。entity.categoryID可包含多個類別，例如子分段的羊毛衫（例如womens、womens:sweaters、womens:sweaters:cardigans）。 多個類別必須以逗號分隔。
 
 `categoryId` 限定為 250 字元以內。
 
@@ -118,7 +118,7 @@ mboxCreate('productPage',
 
 若使用類別型建議，請使用逗號來區隔類別值。以逗號區隔的值都會成為類別。您也可以使用不同的分隔符號來定義子類別，例如冒號 (:)，用以區隔類別值中的子類別。
 
-例如，在下列程式碼中，Womens 類別又區分為數個子類別:
+例如，在以下代碼中，婦女類別被分為幾個子類別：
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 範例: `'entity.inventory=1'`
 
-**空庫存屬性處理:** 對於傳送，如果您有包含規則、集合規則，或條件設定 (其中 `entity.inventory` > 0 或 `entity.inventory` = 0)，而且產品未設定庫存，則 [!DNL Target] 會將此評估為 TRUE，且包含未設定庫存的產品。這是在預設情況下完成的，因此具有未設定庫存的產品會顯示在建議結果中。
+**空庫存屬性處理：** 對於交貨，如果包含規則、收集規則或標準設定為 `entity.inventory` > 0或 `entity.inventory` = 0且產品未設定庫存，則將此值評估為 [!DNL Target] TRUE並包括未設定庫存的產品。因此，未設定庫存的產品會顯示在建議結果中。
 
 同樣地，如果您有一個全域排除規則，其中 `entity.inventory` = 0 且未設定 `entity.inventory`，則 [!DNL Target] 會將此規則評估為 TRUE，並排除該產品。
 
-**已知問題:** 產品搜尋與未設定庫存值屬性的傳送不一致。例如，若規則中包含 `entity.inventory` = 0，「產品搜尋」將不會顯示未設定庫存值的產品。
+**已知問題:** 產品搜尋與未設定庫存值屬性的傳送不一致。例如，對於`entity.inventory` = 0的規則，「產品搜尋」不會顯示未設定庫存值的產品。
 
 ### entity.value
 
@@ -194,12 +194,12 @@ entity.value僅支援小數格式（例如15.99）。 不支援逗號格式(15,9
 
 支援多個值 (JSON 陣列)。
 
-定義最多 100 個自訂變數，用以提供項目的額外資訊。您可為各個自訂屬性指定任何未使用的屬性名稱。例如，您可以建立稱為 `entity.genre` 的自訂屬性，以定義書籍或電影。或者，票務公司可就次要參與者的活動地點來建立屬性，包括體育賽事中的客隊或音樂會中的開幕表演。
+定義最多 100 個自訂變數，用以提供項目的額外資訊。您可為各個自訂屬性指定任何未使用的屬性名稱。例如，您可以建立名為`entity.genre`的自訂屬性來定義書籍或影片。 票務供應商可以建立輔助表演者的活動場地屬性，例如體育賽事中的訪問團隊或音樂會中的開幕表演。
 
 限制:
 
 * 您無法對自訂實體屬性使用預先定義的實體屬性名稱。
-* 屬性 entity.environment 由系統保留，並且無法用於自訂實體屬性。嘗試使用 targetPageParams、摘要或 API 來傳遞 entity.environment 將被忽略。
+* 屬性 entity.environment 由系統保留，並且無法用於自訂實體屬性。會忽略使用targetPageParams、feed或API傳遞entity.environment的嘗試。
 
 範例:
 
@@ -223,7 +223,7 @@ entity.value僅支援小數格式（例如15.99）。 不支援逗號格式(15,9
 
 範例: `'entity.event.detailsOnly=true'`
 
-在以下範例中，第一個 mbox 呼叫將更新目錄和行為資料。第二個 mbox 呼叫將僅更新目錄。
+在下列範例中，第一個mbox呼叫會更新目錄和行為資料。 第二個mbox呼叫僅會更新目錄。
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
