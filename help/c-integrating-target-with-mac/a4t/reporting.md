@@ -1,13 +1,13 @@
 ---
-keywords: Analytics for Target;A4T;使用 Analytics 作為報表來源
+keywords: target的分析；a4t;analytics作為報告來源；analytics
 description: 瞭解如何使用Analytics for Target(A4T)。 A4T提供使用Analytics量度和觀眾區隔之Target活動的Analytics報表存取權。
 title: 如何在A4T中使用報表？
 feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 30%
+source-wordcount: '690'
+ht-degree: 28%
 
 ---
 
