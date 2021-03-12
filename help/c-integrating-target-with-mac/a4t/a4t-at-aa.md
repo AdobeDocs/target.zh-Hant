@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe Target建立使用Analytics作為報告來源(
 title: A4T是否支援自動分配和自動定位活動？
 feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 2%
 
 ---
 
@@ -96,3 +96,11 @@ A4T整合可讓您：
 * 當使用[!DNL Analytics]作為[!UICONTROL 自動目標]活動的資料源時，會話會在經過6小時後結束。 六小時後發生的轉換不會計算在內。
 
 如需詳細資訊，請參閱&#x200B;*分析工具指南*&#x200B;中的[歸因模型和回顧windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)。
+
+## 教學課程：如何在Analysis Workspace為自動目標活動設定A4T報告{#tutorial}
+
+雖然[!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]中提供豐富的分析功能，但必須對預設[!UICONTROL  Analytics for Target]面板進行一些修改，才能正確解譯自動定位活動。 由於實驗活動（手動A/B和[!UICONTROL 自動分配]）和個人化活動（[!UICONTROL 自動目標]）之間的差異，需要進行這些修改。
+
+本教學課程會逐步帶您進行分析[!UICONTROL Workspace]中[!UICONTROL Auto-Target]活動的建議修改。
+
+如需詳細資訊，請參閱&#x200B;*Adobe TargetTutorials*&#x200B;中的[如何在Analysis Workspace設定A4T報表以取得自動目標活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html)。
