@@ -4,10 +4,10 @@ description: 隨時更新Adobe Target產品檔案的重要新增和變更。
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '3740'
-ht-degree: 29%
+source-wordcount: '3767'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3月12日 | [A4T支援自動分配和自動定位活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 新增下列新教學課程：<ul><li>如何在Analysis Workspace設定A4T報表以進行Auto-Target活動</li></ul> |
 | 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>已更新允許的選件大小限制。</li><li>已修正categoryId參數的字元限制。</li></ul> |
 |  | [允許列出目標邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已更新[!DNL Target]邊緣IP位址。 |
 |  | [實體屬性](/help/c-recommendations/c-products/entity-attributes.md) | 新增文字以指出entity.value必須是十進位格式（例如15.99，而非15,99）。 |
