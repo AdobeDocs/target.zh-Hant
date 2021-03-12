@@ -4,7 +4,7 @@ title: 我可以在哪裡找到Target檔案？
 description: 瞭解如何使用Adobe Target來個人化客戶體驗，以便在您的網站和行動網站、應用程式及其他數位通道上獲得最大收益。
 feature: 概述
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2021年3月9日(請 [參閱變更內容](r-release-notes/doc-change.md) )**
+**上次更新日期：2021年3月12日(請 [參閱變更內容](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
