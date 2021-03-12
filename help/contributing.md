@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 投稿人授權合約
 
-本專案的所有第三方投稿都須附有經過簽署的投稿人授權。如此一來，Adobe 才有權限將您的投稿內容連同專案重新分配。請到 [SOME LINK] (還沒有連結) 簽署我們的 CLA。您只需要提交 Adobe CLA 一次，所以如果您之前已經提交過，應該就沒問題了！
+本專案的所有第三方投稿都須附有經過簽署的投稿人授權。如此一來，Adobe 才有權限將您的投稿內容連同專案重新分配。您只需要提交 Adobe CLA 一次，所以如果您之前已經提交過，應該就沒問題了！
 
 ## 程式碼審核
 
