@@ -4,10 +4,10 @@ description: 尋找在使用Analytics for Target(A4T)時，常被問及有關檢
 title: 尋找有關使用A4T檢視報表的問題解答？
 feature: 目標分析 (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 40%
+source-wordcount: '2434'
+ht-degree: 39%
 
 ---
 
@@ -55,6 +55,8 @@ A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算�
 * 當使用者符合活動資格且從[!DNL Target]傳回內容時，會觸發上述度量。 這不一定表示使用者已經看到選件。若活動體驗位於下半部，且使用者並未向下捲動頁面，則雖然 [!DNL Target] 已提供選件，但使用者並未看到選件。
 * [!UICONTROL 活動曝光次數] (由 [!DNL Target] 測量) 和[!UICONTROL 例項] (由 [!DNL Analytics] 測量) 相等，除非相同活動的相同頁面上有多個 mbox 呼叫。這會導致系統計算多個[!UICONTROL 活動曝光次數]，但僅有單一[!UICONTROL 例項]。
 
+如需詳細資訊，請參閱&#x200B;*Adobe TargetTutorials*&#x200B;中的[如何在Analysis Workspace設定A4T報表以取得自動目標活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html)。
+
 ## 為什麼Analysis Workspace的「活動印象」和「活動轉換」比「報告與分析」高？{#sametouch}
 
 [!DNL Reports & Analytics] 套用相同的觸控歸因模型至「活動印象」和「活動轉換」，而顯 [!DNL Analysis Workspace] 示原始量度，因為維度的持續性可能會造成誇 [!DNL Target] 大。
@@ -91,28 +93,28 @@ A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算�
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 使用者在 2 月 1 日回來並檢視其他五個頁面，且沒有遇到更多的 Target 活動，而原始活動已非使用中。即使活動已不再進行，仍然會透過 eVar 持續性來追蹤使用者。現在，資料看起來像這樣:
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 1 |
+| XYZ | 1 | 10 | 2 | 3 |
 
 使用者在 3 月 1 日回來，看到新的活動 ABC。使用者還檢視五個頁面。由於活動XYZ仍在通過持久性跟蹤用戶，並且該用戶隨後設定了ABC，因此您將在報告中看到兩個行項目：
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 3 | 1 |
 
 接著，使用者在 4 月 1 日回來，檢視另外五個頁面並購物。第一個eVar值的90天到期時間會在4月1日重設，因此您會在報表中看到。 使用者看到的所有 Target 活動皆獲得轉換的點數，但轉換總數已去除重複性。
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 | 訂單 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 3 |
-| 總計 | 2 | 20 | 1 | 3 | 1 |
+| XYZ | 1 | 20 | 4 | 3 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 3 |
+| 總計 | 2 | 20 | 3 | 1 | 3 |
 
 由於轉換前都曾看到這兩種體驗，因此都能獲得訂單的「評分」。 但系統中僅會有一個訂單生效，並透過總計反映出來。對於[!DNL Target]報表，由於您未將[!DNL Target]活動放在其他活動上，以查看哪個活動更成功，因此使用者所看到的所有活動是否都獲得評價並不重要。 您正在比較單一活動中兩個項目的結果。使用者不可能在同一活動中看到不同的體驗，因此您不必擔心訂單信用的交叉污染。
 
