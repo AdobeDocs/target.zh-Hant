@@ -1,12 +1,12 @@
 ---
-description: Adobe Target中使用的不同詞語代表什麼意思？ 尋找常用詞語的定義，協助您進一步瞭解Target。
+description: Adobe Target的不同術語是什麼意思？ 尋找常用詞語的定義，協助您進一步瞭解Target。
 title: 我可以在哪裡找到Target中使用的詞語和定義？
-feature: Overview
+feature: 概述
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 97%
+source-wordcount: '2472'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 **對象**
 
-將看到鎖定活動的一組類似的活動加入者。具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。受眾功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標受眾，Target 會根據建立活動期間所定義的條件，決定要顯示的體驗。
+將看到鎖定活動的一組類似的活動加入者。具有相同特徵的一組人員，例如來自中西部的新訪客、舊訪客或help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds。 受眾功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標受眾，Target 會根據建立活動期間所定義的條件，決定要顯示的體驗。
 
 **自動分配**
 
@@ -239,9 +239,21 @@ Target Standard 中活動的視覺表示。
 
 **多變數測試**
 
-多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。
+多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功
 
-## O  {#section_A2C1A057EC87445CBDB535E80C371105}
+## N
+
+**新訪客**
+
+如果符合下列條件之一，則「新訪客」區段會包含訪客：
+
+* 這是訪客首次造訪網站。
+* 這是訪客自清除Cookie後第一次造訪網站。
+* 這是訪客自[訪客資料存留期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)過期後首次瀏覽網站。
+
+如需詳細資訊，請參閱[如何計算新訪客和舊訪客量度？](/help/c-reports/reporting-frequently-asked-questions.md#methodology) 在報告問答中。與下方的「舊訪客」對比。
+
+## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **目標**
 
@@ -278,6 +290,12 @@ Target Standard 中活動的視覺表示。
 **轉介 URL 參數**
 
 將值傳遞給目的地頁面的 mbox，作為轉介 URL 參數和值。使用這些來定位訪客來源，例如，
+
+**再度訪問的訪客**
+
+如果使用者先前瀏覽網站，離開至少30分鐘，並使用相同的Cookie再次返回網站，則該訪客會納入「舊訪客」區段。 只要訪客在其描述檔存留期內回訪，此訪客即為舊訪客。
+
+如需詳細資訊，請參閱「報告問答」中的「新增訪客和舊訪客」量度計數](/help/c-reports/reporting-frequently-asked-questions.md#methodology)。與上述「新訪客」對比。[
 
 **角色**
 
