@@ -1,21 +1,21 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;套用選件;at.js;函數;函數
-description: 使用Adobe Target at.js JavaScript程式庫的adobe.target.applyOffer()函式來套用回應內容。
+description: 使用Adobe Targetat.js JavaScript程式庫的adobe.target.applyOffer()函式來套用回應內容。
 title: 我要如何使用adobe.target.applyOffer()函式？
 feature: at.js
-role: Developer
+role: 開發人員
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 86%
+source-wordcount: '177'
+ht-degree: 72%
 
 ---
 
 
 # adobe.target.applyOffer(options)
 
-此函數用來套用回應內容。
+此函式用於應用具有[!DNL Adobe Target]的響應內容。
 
 >[!NOTE]
 >
@@ -26,8 +26,8 @@ options 參數是強制性的，並且具有下列結構:
 | 機碼 | 類型 | 必要 | 說明 |
 |--- |--- |--- |--- |
 | mbox | 字串 | 是 | mbox 名稱<br>利用 at.js 1.3.0 (和更新版本)，Target 可強制使用 mbox 機碼。此機碼在過去為必要，但現在 Target 會強制使用它，以確保 Target 有正確的驗證，且客戶能正確使用函數。 |
-| selector | 字串或 DOM 元素 | 無 | HTML 元素或 CSS 選取器過去會識別 Target 應該放置選件內容的 HTML 元素。如果未提供選取器，Target 會假設我們應該使用的 HTML 元素為 HTML HEAD。 |
-| offer | 陣列 | 是 | 應該套用至元素的動作陣列。 |
+| selector | 字串或 DOM 元素 | 無 | HTML 元素或 CSS 選取器過去會識別 Target 應該放置選件內容的 HTML 元素。如果未提供選擇器，Target會假設HTML元素應使用HTMLHEAD。 |
+| 優惠 | 陣列 | 是 | 應該套用至元素的動作陣列。 |
 
 ## 範例 {#section_D8D6A17B73DE4542937CDB687193A5CC}
 
