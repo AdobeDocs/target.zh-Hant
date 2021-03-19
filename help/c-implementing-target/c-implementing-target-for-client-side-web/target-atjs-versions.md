@@ -1,13 +1,13 @@
 ---
 keywords: at.js版本；at.js版本；發行說明
-description: 檢視每個Adobe Target版本at.js JavaScript程式庫變更的詳細資訊。
+description: 檢視Adobe Targetat.js JavaScript程式庫各版本變更的詳細資訊。
 title: at.js的每個版本包含哪些內容？
 feature: at.js
-role: Developer
+role: 開發人員
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4104'
 ht-degree: 83%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 83%
 >
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升級at.js的偏好方法。擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成新版擴充功能，並在[!DNL Launch]目錄中提供升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用指南*&#x200B;中的[Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+>[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis是升級at.js的偏好方法。擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成新版擴充功能，並在[!DNL Launch]目錄中提供升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用指南*&#x200B;中的[擴充升級](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
 
 ## at.js 2.4.0（2021年1月14日）
 
@@ -74,9 +74,10 @@ ht-degree: 83%
 
 此版本的at.js包含下列增強功能和修正：
 
-* 已修正此問題：當Adobe Analytics代碼不存在於頁面元素時，點按追蹤不會報告Analytics for Target(A4T)中的轉換。
-* 已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2時的效能。
+* 已修正此問題：當頁面元素上未顯示Adobe Analytics代碼時，點按追蹤不會報告Analytics for Target(A4T)中的轉換。
+* 已改善在網頁上同時使用Experience CloudID服務(ECID)v4.4和at.js 2.2時的效能。
 * 之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。
+* 已修正錯誤的預取檢視處理，其中預設選件的事件Token未包含在傳送的通知中。
 
    >[!NOTE]
    >
@@ -88,7 +89,7 @@ ht-degree: 83%
 
 此版本的at.js包含下列增強功能和修正：
 
-* 已改善在網頁上同時使用Experience Cloud ID Service(ECID)v4.4和at.js 1.8時的效能。
+* 已改善在網頁上同時使用Experience CloudID服務(ECID)v4.4和at.js 1.8時的效能。
 * 之前，ECID曾進行兩次封鎖呼叫，之後at.js才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。
 
 >[!NOTE]
