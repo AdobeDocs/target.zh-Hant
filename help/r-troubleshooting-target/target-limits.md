@@ -5,9 +5,9 @@ title: Adobe Target的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 63%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 63%
 
 ## 設定檔指令碼
 
-* **建議的活動配置檔案指令碼限制**:300
+* **建議的活動描述檔指令碼限制（已啟用的指令碼）**:300
 
 * **建議的每個帳戶描述檔指令碼總數限制**:零點二萬
 
