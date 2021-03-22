@@ -1,14 +1,14 @@
 ---
 keywords: 響應令牌；token;plugins;plug-ins;at.js；回應
-description: 瞭解如何在Adobe Target中使用回應Token，以輸出特定資訊，以用於除錯和整合第三方系統（例如Clicktale）。
+description: 瞭解如何在Adobe Target輸出特定資訊時使用回應Token，以便用於除錯和整合第三方系統（例如Clicktale）。
 title: 什麼是回應Token，我要如何使用它們？
-feature: Administration & Configuration
-role: Administrator
+feature: 管理與設定
+role: 管理員
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 77%
+source-wordcount: '1575'
+ht-degree: 76%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->回應Token可與at.js 1.1或更新版本搭配使用。 回應 Token 不支援搭配 mbox.js 使用。
+>回應Token可與at.js 1.1或更新版本搭配使用。
 
 | 使用中的 Target 資料庫 | 建議的動作 |
 |--- |--- |
 | at.js | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js 中有部分外掛程式所依賴的內部方法，但 at js 中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。如需詳細資訊，請參閱 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
-| mbox.js | 使用 mbox.js 時會繼續支援並傳送外掛程式。<br>不過，對於使用 mbox.js 和外掛程式的客戶，建議改用 at.js 和回應 Token。如需有關使用 at.js 優於 mbox.js 的資訊，請參閱 [at.js 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。如需移轉的相關資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在 Target Classic 淘汰之後 (2017 年 11 月)，您可能需要聯絡客戶服務來編輯或停用現有外掛程式。在 Target Classic 淘汰之前，您應該稽核外掛程式並停用無用的外掛程式。<br>您無法在 Target Standard/Premium 中建立新的外掛程式。請改為使用回應 Token。<br>您應停用舊版 SiteCatalyst 增效模組，並改用[以 Adobe Analytics 取代，作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。應該停用 ttMeta 外掛程式並換成 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
+| mbox.js | 使用mbox.js時，外掛程式仍會繼續受到支援和傳送。<br>不過，對於使用 mbox.js 和外掛程式的客戶，建議改用 at.js 和回應 Token。如需有關使用 at.js 優於 mbox.js 的資訊，請參閱 [at.js 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。如需移轉的相關資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在 Target Classic 淘汰之後 (2017 年 11 月)，您可能需要聯絡客戶服務來編輯或停用現有外掛程式。在 Target Classic 淘汰之前，您應該稽核外掛程式並停用無用的外掛程式。<br>您無法在 Target Standard/Premium 中建立新的外掛程式。請改為使用回應 Token。<br>您應停用舊版 SiteCatalyst 增效模組，並改用[以 Adobe Analytics 取代，作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。應該停用 ttMeta 外掛程式並換成 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
 
 ## 使用回應 Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -57,7 +57,7 @@ ht-degree: 77%
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分配方法<br>（僅適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動）。 | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「目標」流量分佈收到體驗，則傳回1。 |
+   | 流量分配方法<br>(僅適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動)。 | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「目標」流量分佈收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已定位」。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
