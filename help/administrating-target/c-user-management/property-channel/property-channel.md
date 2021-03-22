@@ -2,20 +2,20 @@
 keywords: 工作區; 管理屬性; 權限; 產品組態; 產品設定檔; 角色; 專案
 description: 瞭解如何建立個別的工作區（產品設定檔），然後為使用者指派不同的角色和權限給個別頁面、屬性或網站。
 title: 什麼是企業使用者權限，以及如何使用？
-feature: Administration & Configuration
-role: Administrator
+feature: 管理與設定
+role: 管理員
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '3053'
-ht-degree: 80%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 企業使用者權限{#enterprise-user-permissions}
 
-企業使用者權限是正式管理企業內部使用者存取[!DNL Target]的方式。 將使用者新增至[!DNL Target]、根據其角色指派權限，並根據不同的部門、全域位置、頻道和其他邏輯群組為團隊建立工作區。 您可以為用戶分配[!UICONTROL Observer]、[!UICONTROL Editor]或[!UICONTROL Approver]的角色。
+企業使用者權限是正式管理企業內部使用者存取[!DNL Adobe Target]的一種方式。 將使用者新增至[!DNL Target]、根據其角色指派權限，並根據不同的部門、全域位置、頻道和其他邏輯群組為團隊建立工作區。 您可以為用戶分配[!UICONTROL Observer]、[!UICONTROL Editor]或[!UICONTROL Approver]的角色。
 
 ## 判斷您是否擁有企業使用者權限的存取權
 
@@ -23,11 +23,11 @@ ht-degree: 80%
 >
 >屬性和權限功能屬於  Premium 解決方案的一部分。[!DNL Target]在沒有 [!DNL Target] Premium 授權的 [!DNL Target] Standard 中無法使用。
 >
->您的[!DNL Target]實作可以使用任何版本的at.js或mbox.js。
+>您的[!DNL Target]實作可以使用任何版本的at.js。
 
 您可以按一下[!DNL Target] UI頂端的[!UICONTROL 管理]連結，來判斷您的組織是否擁有Standard或Premium授權。
 
-* **[!DNL Target Standard]客戶**:如果您看到「用  戶」表([!UICONTROL 「管理」>「用戶」])(而非「屬  性」表)，則您的組織擁有 [!DNL Target Standard] 許可證。[!DNL Target Standard]客戶應依照「使用者」中的 [](/help/administrating-target/c-user-management/c-user-management/user-management.md) 指示，在中新增使用者及指派權限 [!DNL Adobe Admin Console]。
+* **[!DNL Target Standard]客戶**:如果您看到  Userstab([!UICONTROL 管理>使用者])(而非屬  性表)，您的組織就擁有授 [!DNL Target Standard] 權。[!DNL Target Standard] 客戶應依照「使用者」中的 [](/help/administrating-target/c-user-management/c-user-management/user-management.md) 指示，在中新增使用者及指派權限 [!DNL Adobe Admin Console]。
 
 * **[!DNL Target Premium]客戶**:如果您看到「屬  性」(「管[!UICONTROL 理」>「屬性]」)和「用戶」(  Users)表，則您的組織具有 [!DNL Target Premium] 許可證。[!DNL Target Premium] 客戶應該遵循本文和[設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
 
@@ -39,15 +39,15 @@ ht-degree: 80%
 
 ## 本節{#section_F8D229544FEA41C3BC2EFD1F95AA0116}中使用的詞語和定義
 
-本節使用下列詞語，對想要使用[!DNL Target] Premium中「屬性」和「權限」功能的使用者可能是新手。
+本節中會使用下列詞語，對想要使用[!DNL Target] Premium中「屬性與權限」功能的使用者可能是新手。
 
 ### 屬性
 
-屬性的性質與[!DNL Adobe Platform Launch]中的屬性類似，因為屬性使用唯一的程式碼片段來區分它們。
+屬性的性質與[!DNL Adobe Platform Launch]中的屬性類似，因為它們使用唯一的程式碼片段來區分它們。
 
 Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多個網域和子網域的任何群組。
 
-透過新增特定名稱／值對作為參數與任何呼叫（Target呼叫、api呼叫等）來啟用屬性 到 [!DNL Target].
+將特定名稱／值對新增為參數，並透過對[!DNL Target]的任何呼叫（Target呼叫、api呼叫等）來啟用屬性。
 
 屬性屬於特定管道 (Web、行動電話、電子郵件或 API/其他)。
 
@@ -65,9 +65,9 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 工作區可以包含完全不同的對象、代碼選件和活動。
 
-在新企業權限模型移轉之前建立的所有對象和活動將於「預設工作區」中群組在一起，以下會討論。
+所有在新企業權限模型移轉之前建立的對象和活動，都會分組在「預設工作區」中，如下所述。
 
-透過[!DNL Adobe Experience Manager](AEM)、[!DNL Adobe Mobile Services]和[!DNL Adobe Target Classic]建立的所有活動都將屬於「預設工作區」。
+透過[!DNL Adobe Experience Manager](AEM)、[!DNL Adobe Mobile Services]和[!DNL Adobe Target Classic]建立的所有活動都屬於「預設工作區」。
 
 ### 預設工作區
 
@@ -77,11 +77,11 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 >
 >請勿刪除預設工作區。
 
-所有用戶角色和對所有[!DNL Target]功能的訪問權與遷移到新企業權限模型之前完全相同。
+所有用戶角色和對所有[!DNL Target]功能的訪問權都與遷移到新企業權限模型之前相同。
 
 ### 使用者群組
 
-您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
+您可以建立使用者群組，例如開發人員、分析師、行銷人員、主管等。 然後，您可以跨多個Adobe產品和工作區指派權限。 跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
 ### 角色和權限
 
@@ -98,13 +98,13 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 管道是指您的 [!DNL Target] 活動傳送所在的內容類型: 網頁、行動應用程式、電子郵件訊息等。
 
-建立新活動時，它是在目前選取的工作區中建立。您將在第一個對話方塊中看到通道選取選項，讓您選擇活動需要的通道: Web、行動應用程式、電子郵件或其他/API。
+當您建立活動時，會在目前選取的工作區中建立活動。 您會在第一個對話方塊中看到渠道選擇選項，可讓您為活動選擇所要的渠道：網路、行動應用程式、電子郵件或其他/API。
 
 ## 權限概述{#section_DC2172520DA84605B218A5E9FB6D187A}
 
 下列資訊說明先前在 [!DNL Target] 中執行權限的方式，以及如何使用[!UICONTROL 屬性]和[!UICONTROL 權限]功能來加以執行。
 
-新的[!UICONTROL 權限]功能可讓您建立不同的專案 (在 [!DNL Adobe Admin Console for Enterprise] 中稱為「產品設定檔」)，以允許您為單一使用者指派不同權限，支配該使用者對每個專案的存取權利。這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果是客戶將可以限制檢視、編輯和核准對其使用者的存取權根據區域、環境 (dev/stage/prod)、管道，或其他自訂條件，如下所示:
+新的[!UICONTROL Permissions]功能可讓您建立不同的專案（在[!DNL Adobe Admin Console for Enterprise]中稱為「產品設定檔」）。 專案可讓您為指定每個專案之使用者存取權限的單一使用者指派不同權限。 這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果是，客戶可以根據地區、環境（開發／階段/prod）、頻道或其他自訂准則，限制其使用者的檢視、編輯和核准存取權，如下所示：
 
 ![](assets/permissions.png)
 
@@ -133,7 +133,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 在此範例中，Jan 具有美國首頁和美國網站的核准者權限，以及法國網站的觀察者權限。
 
-再者，Jan 將看不到 [!DNL Target] 中她沒有權限可查看的頁面、屬性或網站，如下所示:
+此外，Jan在[!DNL Target]中看不到她沒有查看權限的頁面、屬性或網站，如下所示：
 
 ![](assets/permissions_4.png)
 
@@ -157,7 +157,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 * **Ernie**: Ernie 是組織的行銷經理，負責在美國的行銷。
 
-   因為 Ernie 是組織的新人，並且對 Target 沒什麼經驗，他具有美國首頁、美國網站和產品頁面的編輯者權限。利用編輯者權限，Ernie 可以建立活動並在活動上線之前加以編輯，但無法核准活動的啟動—具有核准權限的某人，比方說 Jan，必須先核准活動，之後才可以將活動放入生產。
+   由於Ernie對組織相當新，而且對Target經驗不足，因此他擁有美國首頁、美國網站和產品頁面的編輯權限。 Ernie具有編輯器權限，可以在活動上線之前建立和編輯活動。他無法核准活動的啟動——具有「核准」權限的人員（例如Jan）必須先核准活動，才能投入生產。
 
    因為 Ernie 沒有需要他看到俄羅斯網站、法國網站或求職網站的角色，他看不到這些網站的活動。
 
@@ -179,7 +179,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 * **Ernie**: Ernie 是組織的行銷經理，負責消費者產品領域的行銷。
 
-   因為 Ernie 是組織的新人，並且對 Target 沒什麼經驗，他具有消費者網站的編輯者權限。利用編輯者權限，Ernie 可以建立活動並在活動上線之前加以編輯，但無法核准活動的啟動—具有消費者網站核准權限的某人，但在此情況下並非 Jan，必須先核准活動，之後才可以將活動放入生產。
+   由於Ernie對組織相當新，對Target經驗不足，因此他具有消費者網站的編輯者權限。 Ernie具有編輯器權限，可以在活動上線之前建立和編輯活動。他無法核准活動的啟動——對「消費者網站」具有「核准」權限的人，但在此案例中不是Jan，必須先核准活動，活動才能投入生產。
 
    因為 Ernie 沒有需要他看到醫院網站的角色，他看不到該網站的活動。
 
@@ -193,12 +193,12 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
    ![](assets/workspace_drop-down.png)
 
-* **活動建立:** 建立新活動時，它是在目前選取的工作區中建立。您將在第一個對話方塊中看到通道選取選項，讓您選擇活動需要的通道: Web、行動應用程式、電子郵件或其他/API。
+* **活動建立：** 建立活動時，它將在當前選定的工作區中建立。您會在第一個對話方塊中看到渠道選擇選項，可讓您為活動選擇所要的渠道：網路、行動應用程式、電子郵件或其他/API。
 
    ![](assets/channel_options.png)
 
-* **受眾建立:**&#x200B;當您建立新的受眾時，會建立在目前選取的工作區中。
-* **選件建立:**&#x200B;當您建立新的選件時，會建立在目前選取的工作區中。
+* **建立對象：** 當您建立對象時，會在目前選取的工作區中建立對象。
+* **選件建立：** 當您建立選件時，會在目前選取的工作區中建立選件。
 * **「屬性」頁（「管理」>「屬性」）:** 您可以使用  Searchbox來搜尋「屬  性」清單。
 
    ![](assets/properties_list.png)
@@ -207,11 +207,11 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 在[!DNL Target] Premium中使用或設定屬性和權限時，請考慮下列事項：
 
-* **重要**: 請勿刪除具有活動的工作區。如果發生此情況，請洽詢客戶服務來復原這些活動。
+* **重要**: 請勿刪除具有活動的工作區。如果您刪除含活動的工作區，請與客戶服務合作以恢復這些活動。
 * 使用「所有我的工作區」檢視時:
 
    * 您可以查看具有適當角色和權限可存取之所有工作區的活動、對象和選件。
-   * 當您選取「所有我的工作區」檢視時，會在「活動」、「對象」和「選件」頁面中新增一欄，其列出與項目相關聯之該項目的工作區，以及與該項目相關聯的使用者權限 (觀察者、編輯者或核准者)，
+   * 當您選取「[!UICONTROL 所有我的工作區]」檢視時，「活動」、「對象」和「選件」頁面會新增一欄。 此欄列出項目的工作區以及與該項目關聯的用戶權限（觀察員、編輯者或批准者）,
    * 在「所有我的工作區」檢視中建立活動、對象或選件時，您必須選取要建立項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
    * 在「所有我的工作區」檢視中複製活動、對象或選件時，您必須選取要複製項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
 
@@ -219,7 +219,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
    * 可視化體驗撰寫器
    * 報表
-   * Scene7設定
+   * Scene7組態
    * 實施
    * 屬性
    * 主機
@@ -228,24 +228,24 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
    * 使用者
 
 * 使用者無法將資源從一個工作區 (產品設定檔) 移動至另一個。不過支援複製。
-* 從 [!DNL Audiences] 頁面檢視對象時，頁面載入的速度會低於預期。如果您以任何方式與搜尋列互動，對象會較快顯示。這是已知問題，將會在隨後的更新中修正。此問題不會影響在活動建立工作流程期間選取對象。
+* 從 [!DNL Audiences] 頁面檢視對象時，頁面載入的速度會低於預期。如果您以任何方式與搜尋列互動，對象會較快顯示。此問題已知，並將在即將進行的更新中修正。 此問題不會影響在活動建立工作流程期間選取對象。
 * 下列資源屬於新企業權限模型:
 
    * 在啟用客戶的權限之後，於 Target Standard/Premium 內建立的活動、對象和代碼選件。(注意: 客戶必須取得使用 Target Premium 的授權。)
-   * 您可以將屬性新增至「預設工作區」中的現有活動; 不過，這可能變更。
-   * 只有在 Target Premium (啟用企業權限之後) 內建立的新資源 (例如活動、代碼選件和對象) 將可供透過權限限制使用。
+   * 屬性可新增至預設工作區中的現有活動；但是，這種方法可能會改變。
+   * 只有在Target Premium中（啟用「企業權限」後）建立的新資源（例如活動、程式碼選件和對象）可供依權限進行限制。
    * 外部資源僅可供預設工作區中的使用者使用。預設工作區中的使用者的角色將全域適用 (所有 Target 要求 和所有 Target 資源)。
 
 * 下列資源&#x200B;*不*&#x200B;屬於新企業權限模型:
 
    * 影像選件
    * 所有建議資源，包括條件資料庫、設計資料庫、目錄、建議設定。
-   * 在啟用企業權限之前於 Target Premium 內建立的現有資源 (例如活動、代碼選件和對象) 可供複製，但無法移至其他工作區。
-   * 使用下列解決方案或方法建立的活動、對象、代碼選件、影像選件或任何其他資源，無法透過企業權限模型控制，但將成為預設工作區的一部分: Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services 和透過 API 建立的資源。透過 API 建立的資源包括活動、對象、代碼選件和影像選件。
-   * 影像選件 (儲存在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的資產) 目前無法透過企業權限模型控制。
-   * clickTracking 和重新導向，只有在目的地連結或目的地頁面屬於活動中所包含屬性的一部分時才有作用。此外，使用 `targetPageParams()` 函數時，clickTracking 可能無法使用。`targetPageParamsAll()` 為建議的函數。
+   * 在啟用「企業權限」之前，在Target Premium中建立的現有資源（例如活動、程式碼選件和對象）可以複製，但無法移至其他工作區。
+   * 使用下列解決方案或方法建立的活動、對象、程式碼選件、影像選件或任何其他資源無法由「企業權限」模型控制，但是屬於「預設工作區」的一部分：Target Classic、Adobe Experience Manager(AEM)、AdobeMobile Services和透過API建立的資源。 透過 API 建立的資源包括活動、對象、代碼選件和影像選件。
+   * 影像選件(儲存在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的資產目前無法由「企業權限」模型控制。
+   * 當目標連結或目標頁面是活動所包含之屬性的一部分時，clickTracking和重新導向會運作。 此外，使用`targetPageParams()`函式時，clickTracking可能無法運作。 `targetPageParamsAll()` 為建議的函數。
 
-   [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。如果Token不存在(1)、(2)在活動設定時（在VEC中）未偵測到，或(3)未透過`targetPageParamsAll()`函式傳遞至clickTracking Target呼叫，度量將不會增加，並顯示為&quot;0&quot;。
+   [!DNL Target] 目前需要在發生追蹤所在的任何頁面上具有 `at_property` Token。如果Token(1)不存在、(2)在活動設定時（在VEC中）未偵測到，或(3)未透過`targetPageParamsAll()`函式傳遞至clickTracking Target呼叫，度量不會增加，並顯示為&quot;0&quot;。
 
    對於使用重新導向的活動也是相同的情況。目的地頁面必須具有 `at_property` Token，並且需在 VEC 內設定時辨識。
 
@@ -259,25 +259,25 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 ### 我可以將活動從一個工作區移動至另一個工作區嗎?
 
-很抱歉，您無法將活動從一個工作區移動至另一個工作區。不過，您可以將活動複製到任何工作區，知道該報表資料將不會繼續存在。如需詳細資訊，請參閱[使用工作區時複製/編輯活動](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)中的「使用工作區時複製/編輯活動」。
+很抱歉，您無法將活動從一個工作區移動至另一個工作區。但是，您可以將活動複製到任何工作區，因為報告資料不會隨附。 如需詳細資訊，請參閱[使用工作區時複製/編輯活動](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)中的「使用工作區時複製/編輯活動」。
 
-移轉之前建立的活動會繼續在「預設工作區」中以相同方式執行，除非它們是經過編輯和指派的屬性。在特定工作區下的活動將採用指派給該工作區的屬性，因此，行為可能不會與移轉之前的相同。
+移轉之前建立的活動會繼續在「預設工作區」中以相同方式執行，除非它們是經過編輯和指派的屬性。特定工作區下的活動會保留指派給該工作區的屬性，因此，行為可能與移轉前不同。
 
 ### 即使在已指派屬性的情況下，為何仍出現錯誤訊息，指出沒有任何與此活動相關聯的屬性?
 
-如果您已使用 [!DNL Adobe Launch] 實作 [!DNL Target]，而系統出現錯誤訊息，指出沒有任何與此活動相關聯的屬性，請使用 `targetPageParams` 函數傳送 `at_property` 參數。
+如果您已使用 [!DNL Adobe Experience Platform Launch] 實作 [!DNL Target]，而系統出現錯誤訊息，指出沒有任何與此活動相關聯的屬性，請使用 `targetPageParams` 函數傳送 `at_property` 參數。
 
 ### 如果重新導向頁面和活動 URL 屬於不同屬性，是否會記錄點擊追蹤轉換?
 
 如果頁面上的頁面和活動 URL 屬於不同屬性，系統則不會記錄點擊追蹤。
 
-假設情況如下 (同時適用於 at.js 和 mbox.js):
+假設有下列情況:
 
 * Page1 屬於 Property1。
 * Page2 屬於 Property2。
 * 在活動中，Page1 會重新導向到 Page2，這包含點擊追蹤。
 
-當訪客在瀏覽器中開啟 Page1 時，系統會將他重新導向至 Page2。因為 Page2 沒有傳送活動的資格，其 Target 呼叫在其回應中不會包含點擊追蹤。
+當訪客在瀏覽器中開啟Page1時，會將訪客重新導向至Page2。 因為 Page2 沒有傳送活動的資格，其 Target 呼叫在其回應中不會包含點擊追蹤。
 
 如果重新導向頁面和活動 URL 屬於相同的屬性，點擊追蹤會如運期般運作。如需詳細資訊，請參閱[點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md)。
 
@@ -306,6 +306,6 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]功能表UI（先前稱為[!UICONTROL Setup]）已重新設計，以提供改善的效能、縮短發布新功能時所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
+>[!DNL Target] [!UICONTROL Administration]功能表UI（先前稱為[!UICONTROL Setup]）已重新設計，以提供改善的效能、縮短發布新功能時所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊正確；不過，選項可能位於稍微不同的位置。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
