@@ -1,12 +1,12 @@
 ---
 keywords: qa;preview；預覽連結；adobe target;target
-description: 瞭解如何使用Adobe Target QA URL來執行簡易的端對端活動QA，其中包含預覽連結（不會變更）、選擇性的受眾定位，以及與即時活動資料保持區隔的QA報告。
+description: 瞭解如何使用Adobe TargetQA URL來執行簡易的端對端活動QA，並提供預覽連結（不會變更）、選擇性的受眾定位，以及與即時活動資料保持區隔的QA報告。
 title: 如何進行QA活動？
-feature: Activities
+feature: 活動
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1539'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >對於第2版的at.js實作而言，這是正確的。** x或更新版本。for at.js 1.** xand mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
+   >對於第2版的at.js實作而言，這是正確的。** x或更新版本。for at.js 1.** ximplementations，這只有在訪客的瀏覽器未封鎖第三方Cookie時才成立。
 
 ## 存取和共用 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -58,7 +58,7 @@ ht-degree: 79%
 
    每個活動連結 URL (用於體驗 A、體驗 B 等)可讓您從相應的體驗啟動使用者旅程。您可以按一下為體驗所產生的 URL，然後繼續正常的網站瀏覽，在多個頁面上查看體驗 (如果有多個頁面存在)。即使體驗橫跨多個頁面 (範本測試或多頁測試)，每個體驗也只會產生一個 URL。
 
-   因為活動 QA 有黏性，您可以導覽網站來查看其他頁面。請注意，對於第2版的at.js實作而言，這是正確的。** x或更新版本。for at.js 1.** xand mbox.js實作中，只有在訪客的瀏覽器未封鎖第三方Cookie時，才會出現此情況。
+   因為活動 QA 有黏性，您可以導覽網站來查看其他頁面。請注意，對於第2版的at.js實作而言，這是正確的。** x或更新版本。for at.js 1.** ximplementations，這只有在訪客的瀏覽器未封鎖第三方Cookie時才成立。
 
 1. 若要查看從活動連結 URL 產生的報表，請按一下活動的 **[!UICONTROL 「報表」]** 頁面，按一下 **[!UICONTROL 「設定」]** 圖示 (![](assets/icon_gear.png))，然後從 **[!UICONTROL 「環境」]** 下拉式清單中選取 **[!UICONTROL 「QA 模式」]**。
 
