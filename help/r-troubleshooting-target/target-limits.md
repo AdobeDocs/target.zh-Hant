@@ -5,10 +5,10 @@ title: Adobe Target的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 63%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ ht-degree: 63%
 ### 實體數
 
 * 可在設計中參照 (明確寫在程式碼中或透過迴圈) 的實體數上限是 99。
+* 建議的最佳效能限制是，每個環境的目錄數量不超過1,000,000個項目，而所有環境的目錄數量不超過10,000,000個項目。
+* 每個環境的最大限制為10,000,000個項目，而所有環境的上限為100,000,000個項目。 如果您每個環境有1,000,000到10,000,000個項目，[!UICONTROL 目錄搜尋] UI的效能會受到影響。 [!DNL Target Recommendations]但是，仍會持續提出並提供建議。
 
 ### 實體自訂屬性
 
