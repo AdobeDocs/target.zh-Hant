@@ -1,25 +1,25 @@
 ---
 keywords: 鎖定目標;a4t;地理;地理鎖定目標;地理鎖定目標準確度;國家;州;城市;郵遞區號;dma;行動電信業者;城市碼;區域碼;都市碼;設定檔指令碼;地理鎖定目標設定檔指令碼;地理鎖定目標行動
-description: 瞭解如何根據使用者的地理位置（包括其國家／地區、城市、郵遞區號等）建立Adobe Target受眾以鎖定使用者。
+description: 瞭解如何建立Adobe Target受眾，以根據其地理位置（包括其國家／地區、城市、郵遞區號等）鎖定使用者。
 title: 我可以定位訪客所在位置嗎？
-feature: Audiences
+feature: 對象
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 85%
+source-wordcount: '999'
+ht-degree: 68%
 
 ---
 
 
-# 地理{#geo}
+# 地理
 
-根據使用者的地理位置，包括其國家/地區、州/省、城市、郵遞區號、DMA 或行動電信業者來鎖定使用者。
+使用[!DNL Adobe Target]中的對象，根據其地理位置（包括其國家／地區、州／省、城市、郵遞區號、DMA或行動電信業者）來定位使用者。
 
 地理位置參數可讓您依據訪客的地理位置來鎖定目標活動和體驗。您可以根據國家、州/省、城市、郵遞區號、緯度、經度、DMA 或行動電信業者來包含或排除訪客。此資料會根據訪客的 IP 位址，與每一個 Target 請求一併傳送。選取這些參數就像任何定位值一樣。
 
-## 使用地理鎖定目標建立對象 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## 建立地理定位{#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}的對象
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名。
@@ -50,7 +50,7 @@ ht-degree: 85%
 
 ## 準確度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動數據連線時，地理查閱的準確度會受到一些因素的影響，包括位置、提供者與 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之間的資料關係，以及其他因素。行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。另外，訪客的 IP 位址可能對應至 ISP 位置，而此位置可能與訪客的實際位置不同。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
+地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動數據連線時，地理查閱的準確度會受到一些因素的影響，包括位置、提供者與 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之間的資料關係，以及其他因素。行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。此外，訪客的IP位址可能會對應至訪客的ISP位置，這可能與訪客的實際位置不同。 使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
 
 下表顯示 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 針對有線或 WiFi 網際網路連線所提出的 IP 型地理位置資訊的準確度。DigitalEnvoy 提供的資料是業界最準確的。全球準確度在國家/地區層級超過 99.9%，在城市層級也能達到 97%。準確度資訊不適用於行動通訊基地台網路。
 
@@ -116,11 +116,11 @@ ht-degree: 85%
 
 **行動裝置的地理鎖定目標如何運作?**
 
-絕大多數的行動裝置使用者透過 WiFi 存取內容，這表示 Target 的 IP 型地理鎖定目標可以像桌上型電腦一樣準確。透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
+大部分行動裝置使用者透過WiFi存取內容，這表示Target的IP地理定位與桌上型電腦一樣精確。 透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
 
 **地理功能如何處理來自 AOL 的訪客?**
 
-由於 AOL 使用代理伺服器處理流量的方式之故，我們只能夠在國家/地區層級上鎖定目標。所以，舉例來說，鎖定法國為目標的行銷活動就會成功鎖定法國的 AOL 使用者為目標。但是定位至巴黎的促銷活動，便無法成功定位巴黎的 AOL 使用者。如果您希望特別定位 AOL 使用者，則您可以將區域欄位設定為「aol」。事實上，您可以指定兩個定位條件來定位美國的 AOL 使用者國家完全符合「美國」，而地區完全符合「aol」。
+由於AOL代理其流量的方式，[!DNL Target]只能在國家／地區層級定位流量。 例如，定位至法國的促銷活動成功定位法國的AOL使用者。 但是定位至巴黎的促銷活動無法成功定位巴黎的AOL使用者。 如果您希望特別定位 AOL 使用者，則您可以將區域欄位設定為「aol」。事實上，您可以指定兩個定位條件來定位美國的 AOL 使用者國家完全符合「美國」，而地區完全符合「aol」。
 
 **地理鎖定目標提供的位置精度如何?**
 
@@ -133,15 +133,17 @@ ht-degree: 85%
 
 **如何以來自不同位置的使用者身分來測試我的活動?**
 
-您可以用不同位置的 IP 位址來覆寫您的 IP 位址，然後使用 `mboxOverride.browserIp url` 參數。所以，如果貴公司位於英國，但您的全球促銷活動目標訪客位在紐西蘭的奧克蘭，則您可以使用這種 URL，假設 `60.234.0.39` 是奧克蘭境內的 IP 位址:
+* **at.js 1.*x***:您可以使用不同位置的IP位址覆寫您的IP位址，並使用參 `mboxOverride.browserIp url` 數。所以，如果貴公司位於英國，但您的全球促銷活動目標訪客位在紐西蘭的奧克蘭，則您可以使用這種 URL，假設 `60.234.0.39` 是奧克蘭境內的 IP 位址:
 
-`https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
+   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
-在這樣做之前，您需要先清除 Cookie。
+   在測試活動前先清除Cookie。
 
->[!NOTE]
->
->`mboxOverride.browserIp` is supported in at.js 1.** jxonly.at.js 2不支援此功能。*x* 版本不支援此函數。
+   >[!NOTE]
+   >
+   >`mboxOverride.browserIp` 在at.js 1中支援。*x* 版。at.js 2不支援此功能。*x* 版本不支援此函數。
+
+* **at.js 1.*x***:若要使用at.js 2覆寫您的IP位址。*x*，安裝瀏覽器擴充功能／外掛程式（例如Chrome或Firefox的X-Forwarded-For標題）。此擴充功能可讓您在頁面請求中傳遞x-forwarded-for標題。
 
 **波多黎各和香港等地區要如何對應至地理鎖定目標結構?**
 
@@ -149,7 +151,7 @@ ht-degree: 85%
 
 **當活 [!DNL Target] 動以地理位置定位功能定位時，是否會擷取（並儲存）郵遞區號等資訊？**
 
-否，[!DNL Target]僅使用作業期間的地理資料，則會捨棄資料。
+否，[!DNL Target]僅在會話期間使用地理資料，則丟棄資料。
 
 ## 訓練影片：建立觀眾![教學課程標章](/help/assets/tutorial.png)
 
