@@ -5,9 +5,9 @@ title: at.js的每個版本包含哪些內容？
 feature: at.js
 role: 開發人員
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
 workflow-type: tm+mt
-source-wordcount: '4159'
+source-wordcount: '4150'
 ht-degree: 82%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 82%
 
 * 修正mbox請求中包含targetPageParams的問題。 targetPageParams僅應包含在pageLoad請求中。 (TNT-40247)
 * [!DNL Adobe Experience Platform Launch]擴充功能中的最佳化視窗和檔案全域參照。 (TNT-37124)
-* 升級建置和測試相依性，以修正安全性弱點。
 
 ## at.js 2.4.0（2021年1月14日）
 
