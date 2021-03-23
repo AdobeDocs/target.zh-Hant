@@ -4,9 +4,9 @@ description: 了解 Adobe Target 目前版本包含的新功能、加強功能�
 title: 目前版本包含哪些新功能？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '673'
 ht-degree: 36%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 36%
 >在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## at.js 2.4.1（2021年3月23日）
+
+此 at.js 版本為維護版本，包含下列增強功能和修正:
+
+* 修正mbox請求中包含targetPageParams的問題。 targetPageParams僅應包含在pageLoad請求中。 (TNT-40247)
+* [!DNL Adobe Experience Platform Launch]擴充功能中的最佳化視窗和檔案全域參照。 (TNT-37124)
+* 升級建置和測試相依性，以修正安全性弱點。
 
 ## Recommendations饋送處理伺服器的IP位址變更（2021年3月16日）
 
