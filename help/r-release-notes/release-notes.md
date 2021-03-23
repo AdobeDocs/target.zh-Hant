@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、加強功能�
 title: 目前版本包含哪些新功能？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 38%
+source-wordcount: '618'
+ht-degree: 36%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 38%
 >在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## Recommendations饋送處理伺服器的IP位址變更（2021年3月16日）
+
+[!DNL Target Recommendations]饋送處理伺服器IP位址已於2021年3月16日更新。 如需詳細資訊，請參閱Recommendations饋送處理伺服器](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)所使用的[IP位址。
 
 ## Target Standard/Premium 21.2.1 (2021 年 3 月 9 日)
 
