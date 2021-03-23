@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、加強功能�
 title: 目前版本包含哪些新功能？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 36%
+source-wordcount: '661'
+ht-degree: 37%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 36%
 
 此 at.js 版本為維護版本，包含下列增強功能和修正:
 
-* 修正mbox請求中包含targetPageParams的問題。 targetPageParams僅應包含在pageLoad請求中。 (TNT-40247)
+* 修正mbox請求中包含`targetPageParams`的問題。 `targetPageParams` 應僅包含在 `pageLoad` 請求中。(TNT-40247)
 * [!DNL Adobe Experience Platform Launch]擴充功能中的最佳化視窗和檔案全域參照。 (TNT-37124)
 
 ## Recommendations饋送處理伺服器的IP位址變更（2021年3月16日）
