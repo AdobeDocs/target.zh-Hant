@@ -4,9 +4,9 @@ description: 隨時更新Adobe Target產品檔案的重要新增和變更。
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3848'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3月22日 | [Recommendations 摘要處理伺服器使用的 IP 位址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 更新IP位址清單。 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「實體」下方的「實體數」區段。 |
+|  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 新增關於 at.js 2 的資訊。*請* 在「How can I test my activities as me a user from a different location?（如何測試我的活動，好像我是來自不同位置的使用者？）」下方 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 21.2.1 | 已新增下列章節： <ul><li>Recommendations饋送處理伺服器的IP位址變更（2021年3月16日）</li></ul> |
 | 3月19日 | [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | 已新增下列常見問答集:<ul><li>為什麼在活動停用後，我會繼續看到更多印象？</li></ul> |
 | 3月12日 | [A4T支援自動分配和自動定位活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 新增下列新教學課程：<ul><li>如何在Analysis Workspace設定A4T報表以進行Auto-Target活動</li></ul> |
 | 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>已更新允許的選件大小限制。</li><li>已修正categoryId參數的字元限制。</li></ul> |
