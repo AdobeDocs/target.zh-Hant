@@ -4,9 +4,9 @@ description: 隨時更新Adobe Target產品檔案的重要新增和變更。
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3890'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 29%
 | --- | --- | --- |
 | 3月23日 |  [版本說明](/help/r-release-notes/release-notes.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
+|  | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新下列常見問答：<ul><li>目錄中項目的更新需要多久才會反映在網站上？</li></ul> |
 | 3月22日 | [Recommendations 摘要處理伺服器使用的 IP 位址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 更新IP位址清單。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「實體」下方的「實體數」區段。 |
 |  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 新增關於 at.js 2 的資訊。*請* 在「How can I test my activities as me a user from a different location?（如何測試我的活動，好像我是來自不同位置的使用者？）」下方 |
