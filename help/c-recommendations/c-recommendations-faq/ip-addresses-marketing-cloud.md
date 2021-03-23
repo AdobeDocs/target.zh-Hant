@@ -4,10 +4,10 @@ description: 檢視TargetRecommendations饋送處理伺服器中使用的IP位�
 title: Recommendations饋送處理伺服器使用哪些IP位址？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 13%
 
 [!DNL Target] [!UICONTROL 建] 議活動在存取客戶的FTP伺服器時使用下列IP位址：
 
-| CIDR 符號 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 [!DNL Target]  RecommendationsAPI使用下列IP位址：
 
-| CIDR 符號 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 >[!NOTE]
 >
