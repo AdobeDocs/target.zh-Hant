@@ -3,11 +3,11 @@ keywords: 全域 mbox 參數;targetPageParams;查詢字串;陣列;json;dtm;動�
 description: 瞭解如何使用targetPageParams函式，將其他定位或內容資訊傳入Adobe Target全域mbox。
 title: 如何將參數傳遞至全域mbox?
 feature: at.js
-role: Developer
+role: 開發人員
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 63%
 
 ---
@@ -56,8 +56,7 @@ p1=v1&p2=v2&p3=hello%20world
     <title>Title here..</title> 
     <script type="text/javascript"> 
         function targetPageParams() { 
-           
-<b>return "p1=v1&p2=v2&p3=hello%20world"</b>; 
+          return "p1=v1&p2=v2&p3=hello%20world";
         } 
     </script> 
     <script src="mbox.js" type="text/javascript"></script> 
