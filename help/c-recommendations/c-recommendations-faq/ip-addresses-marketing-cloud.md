@@ -4,10 +4,10 @@ description: 檢視TargetRecommendations饋送處理伺服器中使用的IP位�
 title: Recommendations饋送處理伺服器使用哪些IP位址？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 10%
 
 [!DNL Adobe Target] [!DNL Recommendations]饋送處理伺服器中使用的IP位址清單，可協助您設定防火牆，以允許源自Adobe伺服器的IP位址。
 
-[!DNL Target] [!UICONTROL 建] 議活動在存取客戶的FTP伺服器時使用下列IP位址：
+[!DNL Target] [!UICONTROL 在訪] 問客戶的FTP伺服器時，建議活動使用以下AWS主機：
 
-44.241.237.28
+| 位置 | 主機 |
+| --- | --- |
+| 俄勒岡州 | `44.241.237.28` |
+| 俄勒岡州 | `44.232.167.82` |
+| 俄勒岡州 | `52.41.252.205` |
 
-44.232.167.82
-
-52.41.252.205
-
-[!DNL Target]  RecommendationsAPI使用下列IP位址：
-
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205
+[!DNL Target]  RecommendationsAPI也使用相同的AWS主機。
 
 >[!NOTE]
 >
