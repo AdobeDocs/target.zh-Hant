@@ -6,10 +6,10 @@ feature: at.js
 role: 開發人員
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 94%
+source-wordcount: '2411'
+ht-degree: 81%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 94%
 >
 >**mbox.js生命週期結束**:自2021年3月31日起， [!DNL Adobe Target] 不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。
 >
->我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
+>在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 >[!NOTE]
 >
->建議所有的 mbox.js 使用者升級至 57 版或更新版本。當 `target.js` 無法載入時，部分使用者遇到逾時問題。版本 57 已修正該問題。不過，如果您使用 [!DNL Experience Cloud Visitor ID] 服務，則需要 58 版或更新版本。
+>Adobe建議所有mbox.js使用者升級至57版或更新版本。 當 `target.js` 無法載入時，部分使用者遇到逾時問題。版本 57 已修正該問題。不過，如果您使用 [!DNL Experience Cloud Visitor ID] 服務，則需要 58 版或更新版本。
 
 Target 回應來自您頁面呼叫的方法，取決於您所使用的 Target 資料庫、是否實作訪客 ID，以及是否有訪客 ID。如需詳細資訊，請參閱[各資料庫版本的 Target 呼叫回應](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)。
 
@@ -41,12 +41,12 @@ Target 回應來自您頁面呼叫的方法，取決於您所使用的 Target �
 
 [!DNL mbox.js] 版本 63 中包括下列增強功能和修正:
 
-* 修正使用 `mboxDefine()` 和 `mboxUpdate()` 產生 SDID 時的問題。這只會影響頁面上有訪客 API 的用戶端。
+* 修正使用 `mboxDefine()` 和 `mboxUpdate()` 產生 SDID 時的問題。此問題僅影響頁面上有訪客API的客戶。
 
 ## mbox.js 版本 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * 修正在 Google Chrome 瀏覽器中檢視時，重新導向活動中的閃爍問題。
-* 已新增 `secureOnly` 設定，指出 mbox.js 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。這是進階的設定，預設值為 False。
+* 已新增 `secureOnly` 設定，指出 mbox.js 是否應該僅使用 HTTPS 或根據頁面通訊協定，允許在 HTTP 與 HTTPS 之間切換。此設定是預設為False的進階設定。
 
 ## mbox.js 61 版 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -71,7 +71,7 @@ mbox.js 版本 61 包含下列增強功能:
 
 **發行日期:** 2016 年 4 月 21 日
 
-預設不會隱藏頁面內容。只有在啟用「自動建立全域 mbox」選項時，60 版才會隱藏頁面內容。此版本使用 CSS `opacity:0` 屬性來隱藏頁面，而非使用 `display:none`。這可確保正確傳送回應式網站並符合 [!DNL at.js]。
+預設不會隱藏頁面內容。只有在啟用「自動建立全域 mbox」選項時，60 版才會隱藏頁面內容。此版本使用 CSS `opacity:0` 屬性來隱藏頁面，而非使用 `display:none`。此屬性可確保回應式網站的傳送正確，並與[!DNL at.js]對齊。
 
 您可以使用兩個設定來啟用主體隱藏:
 
@@ -93,18 +93,18 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-頁面隱藏技術使用樣式標記來新增和移除樣式。這可確保在頁面隱藏程式碼執行之後，網站的樣式保持不變。
+頁面隱藏技術使用樣式標記來新增和移除樣式。此技巧可確保在頁面隱藏程式碼執行後，網站的樣式保持不變。
 
-**DTM 使用者:** 請注意，這會防止您使用自動匯入選項，因為沒有其他方式可在 Target UI 中儲存上述組態。您將必須使用上述指示，然後將內容貼上至「自訂」主機選項中的程式碼方塊中。
+**DTM使用者：** 此技巧會禁止您使用「自動匯入」選項，因為無法在Target UI中儲存上述設定。您必須使用上述指示，然後將內容貼入「自訂」代管選項的程式碼方塊中。
 
-另外在 60 版中，如果存在 Experience Cloud 訪客 ID 服務的 [!DNL visitorAPI.js] 檔案，則會透過 AJAX 端點請求所有 mbox。這是必要的，因為訪客 API 方法是非同步的。此方法有個好處，就是可大幅降低「開始轉譯」時間，因為 mbox 請求不會封鎖轉譯。不過，這也代表所有 [!DNL Target] 選件內容都以非同步方式執行，因此也必須據以編寫所有選件程式碼。包含 `document.write` 及其他程式碼，且假設其在初始頁面載入上執行的選件，將無法如預期般執行。
+另外在 60 版中，如果存在 Experience Cloud 訪客 ID 服務的 [!DNL visitorAPI.js] 檔案，則會透過 AJAX 端點請求所有 mbox。此程式是必要的，因為訪客API方法是非同步的。 此方法有個好處，就是可大幅降低「開始轉譯」時間，因為 mbox 請求不會封鎖轉譯。不過，此方法也表示所有[!DNL Target]選件內容都會以非同步方式執行，因此所有選件程式碼都必須據以編寫。 包含`document.write`的選件，以及假設它在初始頁面載入時執行的其他程式碼，未如預期般執行。
 
 * V60 非同步呼叫
 
    使用 v60 搭配訪客 ID 服務時，所有 mbox 呼叫都會非同步進行。這是 mbox 一直以來運作方式的變更，因此，如果升級至此版本請注意。檢閱[文件的](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)非同步考量事項 [!DNL at.js] 小節 ([!DNL at.js] 也使用非同步呼叫) 來瞭解部分風險。
 * 新訪客案例可能會閃爍
 
-   使用 v58 到 v60 搭配訪客 ID 服務時，mbox 呼叫將等候訪客 ID 設定 (或等候發生逾時) 才觸發。這會發生在新訪客的第一個頁面載入上。
+   將v58到v60與訪客ID服務搭配使用時，mbox呼叫會等待訪客ID設定後再引發（或直到逾時發生）。 這會發生在新訪客的第一個頁面載入上。
 
 ## mbox.js 版本 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
@@ -131,7 +131,7 @@ mbox.js 58 版可以確保在進行 Target 呼叫前，Experience Cloud 訪客 I
 
 此項更新同時修正了使用 Analytics 做為 Target 的報表來源時，造成 Analytics 中針對僅包含一個頁面的造訪，所報告的訪客數誇大的問題。
 
-Mbox.js 會設定逾時值，以免訪客 ID 服務未傳回。訪客 ID 服務的逾時值是 500 毫秒 (0.5 秒)。另一個逾時則設定 `<BODY>` 標籤的隱藏時間上限。該預設值是 500 毫秒 (0.5 秒)。您可在每個頁面的 mbox.js 參考之前插入下列程式碼，藉以變更這些逾時值:
+Mbox.js 會設定逾時值，以免訪客 ID 服務未傳回。訪客 ID 服務的逾時值是 500 毫秒 (0.5 秒)。額外逾時會設定`<BODY>`標籤隱藏時間的上限。 該預設值是 500 毫秒 (0.5 秒)。您可在每個頁面的 mbox.js 參考之前插入下列程式碼，藉以變更這些逾時值:
 
 ```
 <script> 
@@ -154,9 +154,9 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
 * 為 Target Standard 自動建立的全域 mbox 回應不再使用 document.write() 或建立`<div>`元素。
 
-   這樣，mbox.js檔案就不需要成為頁面`<head>`中的最後一個項目。 升級至此新版本時，建議進行強式 QA。
+   這項變更移除了mbox.js檔案成為頁面`<head>`中最後一個項目的要求。 升級至此新版本時，建議進行強式 QA。
 
-   此項變更可能造成傳送某些選件類型時的行為變更。以下是需要考慮的特定條件:
+   此項變更可能造成傳送某些選件類型時的行為變更。以下是必須考慮的具體條件：
 
    * 以「外掛程式選件」之一部分傳回的 HTML 內容不會正確轉譯，但該選件中的 JavaScript 可如預期般執行。
    * 傳回至全域 mbox 的 JavaScript 選件可在 `<script>` 標籤中內嵌 JavaScript 程式碼，或透過 `src` 屬性引用。
@@ -165,7 +165,7 @@ Mbox.js 版本 58 和更新版本會在出現 HTML `BODY` 標記之後，立即�
 
       `<script src='external-url' async='true'></script>`
 
-      請注意 `async` 屬性在 Internet Explorer 中的支援有限 (詳細情形請參閱: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility))，因此您應從包含這些第三方指令碼的測試中排除使用舊版 IE 的訪客。
+      `async`屬性在Internet Explorer中的支援有限(詳細資訊請見：[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility))，因此您應將使用舊版IE的訪客排除在包含這些第三方指令碼的測試之外。
 
 * 修正 56 版中由於 mbox.js 的額外 JavaScript 區段變更而呈報的問題。額外 JavaScript 區段中的所有程式碼再度適用於全域範圍。
 
@@ -197,7 +197,7 @@ mbox.js 57 版也包含重要修正:
 此版本中進行了下列變更:
 
 * 對 Premium Recommendations 進行了變更，以支援在全域 mbox 中傳遞參數
-* 新增 5 秒逾時至 target.js 載入呼叫。在極少數情況下，檔案不會載入，頁面仍會轉譯但不顯示任何 Target Standard 活動。
+* 新增5秒逾時至target.js載入呼叫。 在檔案未載入的罕見情況下，會轉譯頁面，且不會顯示Target Standard活動。
 * 移動「額外 JavaScript」為在全域 mbox 前執行
 
    v56+ 中的所有設定都使用命名空間。如果在「額外 JavaScript」中有宣告函數，前面都必須加上 `window`。
@@ -216,7 +216,7 @@ mbox.js 57 版也包含重要修正:
 
    應全域存取的任何變數也都必須在前面加上 `window`。
 
-* 新增名為「em-disabled」的 Cookie，如果在傳送期間無法載入 target.js，便由 mbox.js 提供此 Cookie 給使用者。此 Cookie 可避免使用 Visual Experience Composer 建立的選件在網站上轉譯。具有此 Cookie 的使用者看不到測試內容，也不會計算在那些活動報表中。所有其他選件內容 (例如來自 Target Classic 的促銷活動) 仍會繼續載入。Cookie 從載入失敗起的存留期為 30 分鐘。
+* 新增名為「em-disabled」的 Cookie，如果在傳送期間無法載入 target.js，便由 mbox.js 提供此 Cookie 給使用者。此 Cookie 可避免使用 Visual Experience Composer 建立的選件在網站上轉譯。具有此 Cookie 的使用者看不到測試內容，也不會計算在那些活動報表中。所有其他選件內容 (例如來自 Target Classic 的促銷活動) 會繼續載入。Cookie 從載入失敗起的存留期為 30 分鐘。
 
 ## mbox 55 版
 
@@ -232,7 +232,7 @@ mbox.js 57 版也包含重要修正:
 
 **發行日期:** 2014 年 9 月 30 日
 
-將全域 mbox 實作從 document.write 變更為 AJAX。如此，mbox.js 檔案就不需要是頁面之`<head>`小節。此版本僅可透過 API 取得。用戶端可下載並使用此 mbox.js 檔案。有些網站使用此實作時會發生內容忽隱忽現的問題，因此請在網站上驗證整合。
+將全域 mbox 實作從 document.write 變更為 AJAX。此變更移除了mbox.js檔案成為頁面`<head>`區段中最後一個項目的要求。 此版本僅可透過 API 取得。用戶端可下載並使用此 mbox.js 檔案。有些網站使用此實作時會發生內容忽隱忽現的問題，因此請在網站上驗證整合。
 
 ## mbox 53 版
 
@@ -316,7 +316,7 @@ mboxDOMLoaded
 
 * 修正流量限制，僅在啟用 mbox.js 時發生
 
-   如果客戶的 mbox.js 有流量限制就會發生這個問題，導致逾時設定無法作用。這會導致在等候 Target 伺服器的良好回應時，頁面不斷重新整理。
+   如果客戶的 mbox.js 有流量限制就會發生這個問題，導致逾時設定無法作用。這會導致頁面重新整理，同時等待Target伺服器的良好回應。
 
 * 修正 SiteCalyst 外掛程式為一律使用 Ajax fetcher
 
