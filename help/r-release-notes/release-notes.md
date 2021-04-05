@@ -5,9 +5,9 @@ title: 目前版本包含哪些新功能？
 feature: '  版本說明 '
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 36%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 36%
 此 at.js 版本為維護版本，包含下列增強功能和修正:
 
 * 修正mbox請求中包含`targetPageParams`的問題。 `targetPageParams` 應僅包含在 `pageLoad` 請求中。(TNT-40247)
-* 修正A[!DNL dobe Experience Platform Launch]擴充功能中的檔案與視窗全域物件問題，方法是將Platform launch全域物件相依性取代為直接參照。 (TNT-37124)
+* 修正[!DNL Adobe Experience Platform Launch]擴充功能中檔案和視窗全域物件的問題，方法是以直接參照取代Platform launch全域物件相依性。 (TNT-37124)
 
 ## Recommendations饋送處理伺服器的IP位址變更（2021年3月16日）
 
