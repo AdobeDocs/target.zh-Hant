@@ -3,14 +3,14 @@ keywords: 建立自動目標；A/B測試；自動目標活動；新的a/b活動�
 description: 瞭解如何使用Adobe Target的Visual Experience Composer(VEC)，直接在Target-enabled頁面上建立您的Auto-Target A/B Test活動。
 title: 如何建立自動定位活動？
 feature: 自動鎖定目標
+exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 56%
+source-wordcount: '930'
+ht-degree: 49%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMC建立自動定位活動
 
@@ -20,7 +20,7 @@ ht-degree: 56%
 >
 >[!UICONTROL 自動鎖定目標]是 [!DNL Target Premium] 解決方案內建的功能。若無 [!DNL Target Standard] 授權，[!DNL Target Premium] 不提供此功能。如需此授權提供之進階功能的詳細資訊，請參閱 [Target Premium](/help/c-intro/intro.md)。
 >
->除了[!UICONTROL Auto-Target] [!UICONTROL A/B測試]活動（本文討論）外，[!DNL Target]還提供了兩種額外的[!UICONTROL A/B測試]活動：[!UICONTROL 手動（預設）]和[!UICONTROL 自動分配]。
+>除了[!UICONTROL Auto-Target] [!UICONTROL A/B測試]活動（本文討論）外，[!DNL Target]還提供了另外兩種[!UICONTROL A/B測試]活動：[!UICONTROL 手動（預設）]和[!UICONTROL 自動分配]。
 >
 >請參閱&#x200B;*A/B測試概述*&#x200B;中的[A/B測試活動類型](/help/c-activities/t-test-ab/test-ab.md#types)。
 
@@ -73,9 +73,9 @@ ht-degree: 56%
    | `-` | 減號 |
    | `@` | 「@」符號 |
 
-1. 建立任何新體驗，透過變更頁面上的元素。
+1. 變更頁面上的元素，以建立任何體驗。
 
-   在您建立新增活動之後，[!UICONTROL 可視化體驗撰寫器]會在左邊顯示兩個標籤: 體驗 A 和體驗 B。體驗 A 為控制體驗。您的焦點會在體驗 B 標籤，您可以視需要加以修改。體驗 B 為您可以新增至您的測試的替代體驗。您可以對測試新增多個體驗。如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
+   [!UICONTROL Visual Experience Composer]在您建立活動後，左側會顯示兩個標籤：體驗A和體驗B。體驗A是控制體驗。 您的焦點是「體驗B」標籤，您可視需要修改該標籤。 體驗 B 為您可以新增至您的測試的替代體驗。您可以對測試新增多個體驗。如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
 
    如需在[!UICONTROL 可視化體驗撰寫器]中新增和修改體驗的相關資訊，請參閱[新增體驗](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)。若要修改體驗 B，請從步驟 3 開始。
 
@@ -101,13 +101,13 @@ ht-degree: 56%
 
    您可以對相同對象顯示多個體驗。圖表顯示會顯示您選取的對象和新增至活動的體驗。
 
-   選擇所需的流量分配方法. 若要建立[!UICONTROL Auto-Target]活動，請選取&#x200B;**[!UICONTROL Auto-target以取得個人化體驗]**。
+   選擇所需的流量分配方法. 若要建立[!UICONTROL Auto-Target]活動，請選取&#x200B;**[!UICONTROL Auto-Target以取得個人化體驗]**。
 
    以下說明三種流量分配類型：
 
    * **[!UICONTROL 手動 (預設)]**: 指定您希望在各體驗上看見的加入者百分比。您可以在所有體驗之間分割百分比，或對每個體驗指定較高或較低的百分比。所有體驗的總計必須等於 100%。如需詳細資訊，請參閱[建立A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-   * **[!UICONTROL 自動分配至最佳體驗]**: 系統會自動將多數活動加入者導向表現較佳的體驗。有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。如需詳細資訊，請參閱[自動配置概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
+   * **[!UICONTROL 自動配置以獲得最佳體驗]**:大部分的活動參與者都會自動導向效能較高的體驗。有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。如需詳細資訊，請參閱[自動配置概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
 
    * **[!UICONTROL 自動鎖定個人化體驗]**: [!DNL Target] 使用進階的機器學習來識別多個高效能、行銷人員定義的體驗，以個人化內容並推動轉化，然後根據訪客的個人客戶個人檔案和類似訪客的過往行為，為訪客提供量身打造的體驗。
    您也可以按一下「新增&#x200B;****」，將其他體驗新增至活動。
