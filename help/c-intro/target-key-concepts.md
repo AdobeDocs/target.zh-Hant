@@ -1,36 +1,36 @@
 ---
-keywords: 概覽和參考資料;act
-description: 瞭解Adobe Target的基本概念。 這是熟悉Target、其活動類型和其他功能的好地方。
+keywords: 概述和參考；活動類型；簡介
+description: 瞭解Adobe Target的基本概念。 本文將向您介紹Target、其活動類型及其他功能。
 title: 如何使用Target?
-feature: Overview
+feature: 概述
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 96%
+source-wordcount: '1528'
+ht-degree: 83%
 
 ---
 
+# Target 重要概念
 
-# Target 重要概念{#target-key-concepts}
-
-能幫助您瞭解 Adobe Target 特色與功能之重要概念的相關資訊。
+有關有助於您瞭解[!DNL Adobe Target]功能的主要概念的資訊。
 
 ## 活動和測試 {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 活動會決定網站訪客可能遇到的體驗。
 
-例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個以一般夏季服飾為主。此活動會決定條件來控制各個登陸頁面何時出現，也會決定量度來判斷哪個頁面較成功。此活動設定在滿足特定條件時 (例如在特定日期之間) 開始或結束，或在核准活動後開始，並於停用時結束。
+例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個以一般夏季服飾為主。此活動會決定條件來控制各個登陸頁面何時出現，也會決定量度來判斷哪個頁面較成功。活動設定為在符合特定條件時開始和結束。 這些條件可包括在特定日期之間開始和結束活動，或在活動核準時開始，或在活動停用時結束。
 
-設計活動時，您應該謹慎規劃。決定活動何時開始及持續時間。然後，列出您的選件並分別將目標對象指定至每個選件。
+設計活動時請謹慎規劃。 確定活動何時開始及持續多久。 然後，列出您的選件並分別將目標對象指定至每個選件。
 
-Target 包含數種活動類型。下表提供每種活動類型的概覽，以及可協助您深入瞭解的連結。為協助您更完善地選擇適用於您的用途的最佳活動類型，我們也建立了 [Adobe Target 活動指南](/help/c-activities/target-activities-guide.md)。
+Target 包含數種活動類型。下表提供每種活動類型的概覽，以及可協助您深入瞭解的連結。為協助您更好地為您選擇最佳活動類型，Target團隊還建立了[Adobe Target活動指南](/help/c-activities/target-activities-guide.md)。
 
 | 活動類型 | 說明 |
 |--- |--- |
 | [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。<br>**注意:** 您現在可以[在 A/B 測試活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。<br>**注意:** 您現在可以[在自動分配活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
-| [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動鎖定目標使用進階機器學習來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。<br>**注意:** 您現在可以[在自動鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | Auto Target使用進階機器學習來識別多個高效能行銷人員定義的體驗。 Auto-Target活動會根據每位訪客的個別客戶個人檔案和先前具有類似個人檔案的訪客行為，為每位訪客提供最符合客戶需求的體驗，以個人化內容並推動轉化。<br>**注意:** 您現在可以[在自動鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 資料](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以將活動設為使用 [!DNL Adobe Analytics] 作為報表來源。此活動類型需要您將 [!DNL Adobe Experience Cloud] 帳戶與 [!DNL Analytics] 和 [!DNL Target] 連結在一起。 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。 |
 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。<br>**注意:** 您現在可以[在體驗鎖定目標活動中包含建議](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
@@ -50,11 +50,11 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 位置結合對象，可提供幾乎無窮盡的選項，以鎖定客戶提供資訊。例如，假設訪客以前從來沒到過網站，則您可以向新客戶顯示優惠券。同樣地，可變更頁面來顯示更適合回訪客戶的選件。
 
-您還可以利用位置來追蹤訪客在您網站中的行進情形，或追蹤訪客是否已完成特定的成功量度，例如將項目新增至購物車，或是完成購物。
+您也可以使用位置來追蹤訪客在您網站上的進度。 您也可以使用位置追蹤訪客是否完成特定成功度量，例如新增項目至購物車或完成購買。
 
 ## 體驗和頁面設計 {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-體驗 (有時又叫做方式) 可定義在您頁面上顯示的內容以及其他頁面元素，例如連結。
+體驗（有時稱為方式）會定義顯示在您頁面上的內容，以及其他頁面元素，例如連結。
 
 體驗會決定符合特定鎖定條件時，特定位置會顯示哪個選件。例如，當再度訪問旳訪客造訪您的網站時，體驗會決定在頁面頂端顯示兩天運送期的選件。當首次造訪的訪客檢視頁面時，體驗也會決定在相同位置顯示 10% 折扣。
 
@@ -118,7 +118,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 在Adobe Target中使用觀眾(6:21)![概觀徽章](/help/assets/overview.png)
+### 使用Adobe Target的觀眾(6:21)![概觀徽章](/help/assets/overview.png)
 
 此影片說明如何在 [!DNL Target Standard/Premium] 中使用對象。
 
