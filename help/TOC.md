@@ -4,9 +4,9 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 84%
 
 ---
@@ -311,7 +311,6 @@ ht-degree: 84%
       + [設定檔和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 鎖定目標和對象常見問題集 {#faq-audiences}
       + [鎖定目標和對象常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [共用量度、對象和報表 - A4T 常見問題集](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + 體驗與選件 {#experiences}
    + [體驗與選件概覽](c-experiences/experiences.md)
    + 可視化體驗撰寫器 (VEC)  {#vec}
