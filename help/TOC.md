@@ -4,9 +4,9 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1600'
 ht-degree: 76%
 
 ---
@@ -86,6 +86,9 @@ ht-degree: 76%
          + [指令碼設定檔屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
          + [頁面內描述檔屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
          + [資料提供者](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
+         + [大量設定檔更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
+         + [單一設定檔更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
+         + [客戶屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Target 安全性概覽](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [受支援的瀏覽器](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
