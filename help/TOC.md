@@ -4,9 +4,9 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1590'
 ht-degree: 76%
 
 ---
@@ -83,6 +83,9 @@ ht-degree: 76%
       + 將資料傳入 Target 的方法 {#methods}
          + [方法概觀](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [頁面參數](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
+         + [指令碼設定檔屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
+         + [頁面內描述檔屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [資料提供者](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Target 安全性概覽](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [受支援的瀏覽器](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
