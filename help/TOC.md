@@ -4,10 +4,10 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
+source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 84%
+source-wordcount: '1579'
+ht-degree: 76%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 84%
    + [Target 重要概念](c-intro/target-key-concepts.md)
    + [瞭解Target UI](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target歡迎套件{#welcome}
-      + [Adobe Target歡迎套件概述](/help/c-intro/target-welcome-kit.md)
+      + [Target歡迎套件總覽](/help/c-intro/target-welcome-kit.md)
       + [第一章：簡介](/help/c-intro/target-welcome-kit-1.md)
-      + [第二章：Adobe Target](/help/c-intro/target-welcome-kit-2.md)
+      + [第二章：目標總覽](/help/c-intro/target-welcome-kit-2.md)
       + [第三章：開發您的測試和個人化概念](/help/c-intro/target-welcome-kit-3.md)
       + [第四章：使用Target的秘訣](/help/c-intro/target-welcome-kit-4.md)
       + [第五章：測試和個人化活動的靈感](/help/c-intro/target-welcome-kit-5.md)
@@ -44,15 +44,15 @@ ht-degree: 84%
    + [字彙表](c-intro/glossary.md)
    + [Target 的運作方式](c-intro/how-target-works.md)
    + [訓練與認證](c-intro/training-and-certification.md)
-   + [Adobe Target Standard 和 Premium 的訓練影片](c-intro/target-standard-premium-training-videos.md)
+   + [ Target Standard 和 Premium 的訓練影片](c-intro/target-standard-premium-training-videos.md)
    + [Target 最佳化和個人化常見問題集](c-intro/cmp-target-standard-cheatsheet.md)
 + 管理 Target {#administer}
-   + [管理 Target 概覽](administrating-target/administrating-target.md)
+   + [管理目標概觀](administrating-target/administrating-target.md)
    + [管理員入門](administrating-target/start-target.md)
    + [設定視覺體驗撰寫器](/help/administrating-target/visual-experience-composer-set-up.md)
    + 報表 {#reporting}
       + [設定報表](/help/administrating-target/reporting.md)
-      + [預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+      + [預估收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7組態](administrating-target/scene7-settings.md)
    + [實施](/help/administrating-target/implementation.md)
    + [主機](administrating-target/hosts.md)
@@ -101,7 +101,7 @@ ht-degree: 84%
             + [使用 Adobe Launch 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [不使用標籤管理程式實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [使用 Dynamic Tag Management (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [實作單頁應用程式](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+            + [針對單頁應用程式實作目標(SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 函數 {#functions-overview}
             + [at.js 函數概覽](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
             + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
@@ -131,23 +131,23 @@ ht-degree: 84%
             + [從 mbox.js 移轉至 at.js 概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
             + [如何從 mbox.js 移轉至 at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
             + [at.js 限制](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-            + [at.js 外掛程式](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [將 at.js 部署至非生產環境](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
+            + [At.js 外掛程式](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+            + [將at.js部署至非生產環境](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
          + [mbox.js 的作用](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [設定 mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [下載 mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
          + [根據 mbox.js 程式庫版本鎖定頁面方法](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [建立訂購確認 mbox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js 常見問題集](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+         + [建立訂單確認mbox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
+         + [mbox.js常見問題](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js 函數](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
          + [mbox.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js 版本詳細資料](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + 瞭解全域 mbox {#global-mbox}
          + [瞭解全域mbox概觀](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-         + [自訂全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [使用來自舊版實作的全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [傳遞參數至全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [全域 mbox 常見問題](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+         + [自訂全域mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
+         + [從舊版實作使用全域mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [將參數傳遞至全域mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [全域mbox常見問題](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + 適用於行動應用程式的 Target {#mobile-apps}
       + [適用於行動應用程式的 Target 概覽](c-target-mobile-app/target-mobile-app.md)
       + [Target 在行動應用程式中如何運作](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
@@ -169,8 +169,8 @@ ht-degree: 84%
       + [為影像建立 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [測試電子郵件影像 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [使用重新導向程式](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
-+ 將 Adobe Target 與 Experience Cloud 整合 {#integrate}
-   + Adobe Analytics 作為 Adobe Target (A4T) 的報表來源 {#a4t}
++ 將 Target 與 Experience Cloud 整合 {#integrate}
+   +  Analytics 作為 Adobe Target (A4T) 的報表來源 {#a4t}
       + [A4T 概覽](c-integrating-target-with-mac/a4t/a4t.md)
       + [實作之前](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 實作](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -212,7 +212,7 @@ ht-degree: 84%
          + [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [選取對象](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
+         + [使用Analytics資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [A/B 測試中的多個體驗受眾](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動分配 {#auto-allocate}
@@ -231,7 +231,7 @@ ht-degree: 84%
       + [上傳用於 Target 個人化演算法的資料](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target 個人化演算法的資料收集](c-activities/t-automated-personalization/ap-data.md)
       + [預估成功所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [預覽自動個人化測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Automated Personalization測試的預覽體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [鎖定自動個人化選件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
       + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
@@ -280,7 +280,7 @@ ht-degree: 84%
 + 受眾 {#audiences}
    + [對象概覽](c-target/target.md)
    + 建立對象 {#create-audiences}
-      + [建立](c-target/c-audiences/audiences.md)
+      + [建立觀眾總覽](c-target/c-audiences/audiences.md)
       + [在 Target 中建立對象](c-target/c-audiences/create-audience.md)
       + 對象的類別 {#categories-audiences}
          + [對象類別概覽](c-target/c-audiences/c-target-rules/target-rules.md)
@@ -322,19 +322,19 @@ ht-degree: 84%
       + 修改 {#modifications}
          + [修改概觀](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
          + [體驗範本](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
-      + [可視化體驗撰寫器中使用的元素選取器](c-experiences/c-visual-experience-composer/vec-selectors.md)
-      + [回應式體驗的行動檢視區](c-experiences/c-visual-experience-composer/mobile-viewports.md)
+      + [在Visual Experience Composer中使用的元素選擇器](c-experiences/c-visual-experience-composer/vec-selectors.md)
+      + [行動檢視區，提供互動式體驗](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [可視化體驗撰寫器最佳作法和限制](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + 疑難排解可視化體驗撰寫器 {#troubleshoot-composer}
          + [疑難排解可視化體驗撰寫器概覽](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [疑難排解可視化體驗撰寫器和增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [疑難排解可視化體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [疑難排解增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-         + [在您的瀏覽器中啟用混合的內容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
-         + [頁面修改案例](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [在瀏覽器中啟用混合內容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+         + [頁面修改藍本](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [可視化體驗撰寫器 Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重新導向至 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [建立可在可視化體驗撰寫器中運作的輪播](c-experiences/c-visual-experience-composer/vec-carousels.md)
+      + [建立可在Visual Experience Composer中運作的轉盤](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [表單式體驗撰寫器](c-experiences/form-experience-composer.md)
    + [單一頁面應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
    + 選件 {#offers}
@@ -344,7 +344,7 @@ ht-degree: 84%
       + [建立重新導向選件](c-experiences/c-manage-content/offer-redirect.md)
       + [建立遠端選件](c-experiences/c-manage-content/about-remote-offers.md)
       + [建立 JSON 選件](c-experiences/c-manage-content/create-json-offer.md)
-      + [使用資料庫中的內容](c-experiences/c-manage-content/assets-working.md)
+      + [使用程式庫中的內容](c-experiences/c-manage-content/assets-working.md)
       + [搜尋內容](c-experiences/c-manage-content/filter-and-search-content.md)
       + [將動態資料傳遞至選件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM 體驗片段](c-experiences/c-manage-content/aem-experience-fragments.md)
@@ -388,10 +388,10 @@ ht-degree: 84%
       + [上傳自訂條件](c-recommendations/c-algorithms/recommendations-csv.md)
       + 動態和靜態包含規則{#dynamic-static}
          + [使用動態和靜態包含規則](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [實體屬性比對](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [設定檔屬性比對](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [參數比對](/help/c-recommendations/c-algorithms/parameter-matching.md)
-         + [靜態濾鏡](/help/c-recommendations/c-algorithms/static-value.md)
+         + [實體屬性符合](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [描述檔屬性比對](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [參數匹配](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [靜態濾波器](/help/c-recommendations/c-algorithms/static-value.md)
       + [使用備份建議](c-recommendations/c-algorithms/backup-recs.md)
       + [使用多值屬性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [使用Adobe Analytics與Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
@@ -404,7 +404,7 @@ ht-degree: 84%
       + [建立 Recommendations 活動](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [選取條件](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Recommendations 活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Recommendations活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [預覽並啟動您的Recommendations活動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [選件形式的建議](c-recommendations/recommendations-as-an-offer.md)
    + 常見問題 {#recommendations-faq}
