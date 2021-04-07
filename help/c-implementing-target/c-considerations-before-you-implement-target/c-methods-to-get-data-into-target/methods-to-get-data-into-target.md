@@ -2,90 +2,32 @@
 keywords: 實作; 設定; 頁面參數; tomcat; URL 編碼; 頁面內設定檔屬性; mbox 參數; 指令碼設定檔屬性; 大量設定檔更新 API; 單一檔案更新 API; 客戶屬性; 資料提供者
 description: 將資料匯入Target（頁面參數、描述檔屬性、指令碼描述檔屬性、資料提供者、單一和大量描述檔更新API、客戶屬性）。
 title: 如何將資料匯入Target?
-feature: Implementation
+feature: 實施
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 93%
+source-wordcount: '1864'
+ht-degree: 90%
 
 ---
 
+# 方法概觀
 
-# 將資料傳入 Target 的方法
+有關您可用來將資料匯入[!DNL Adobe Target]之不同方法的資訊。
 
-您可使用不同方法將資料匯入[!DNL Adobe Target]的相關資訊，包括頁面參數、頁面內描述檔屬性、指令碼描述檔屬性、資料提供者、大量描述檔更新API、單一描述檔更新API和客戶屬性。
+可用的方法包括：
 
-## 頁面參數 (又稱為「mbox 參數」){#section_5A297816173C4FE48DC4FE03860CB42B}
-
-頁面參數是直接透過頁面程式碼傳入的名稱/值配對，不儲存在訪客的設定檔中供未來使用。
-
-頁面參數很適合將額外的頁面資料傳送至 Target，這些資料不需要隨著訪客的設定檔一起儲存，以供未來鎖定目標使用。這些值改用來說明頁面，或使用者在特定頁面上採取的動作。
-
-### 格式
-
-頁面參數以字串名稱/值配對形式，透過伺服器呼叫而傳入 Target。參數名稱和值可自訂 (但有一些「保留名稱」是特定用途)。
-
-範例:
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### 範例使用案例
-
-**產品頁面**: 傳送已檢視之特定產品的相關資訊 (此為「建議」的運作方式)
-
-**訂單詳細資料**: 傳送訂購 ID、orderTotal 等供收集訂單
-
-**類別相關性**: 將類別檢視資訊傳送至 Target，以瞭解使用者與特定網站類別的相關性
-
-**第三方資料**: 傳送來自第三方資料來源的資訊，例如，天氣鎖定目標提供者、帳戶資料 (例如 DemandBase)、人口統計資料 (例如 Experian) 及其他。
-
-### 方法優點
-
-資料會即時傳送至 Target，而且可用在送來資料的同一個伺服器呼叫上。
-
-### 注意事項
-
-* 需要頁面程式碼更新 (直接或透過標記管理系統)。
-* 如果後續的頁面/伺服器呼叫需要使用資料來鎖定目標，則資料必須轉移至設定檔指令碼。
-* 查詢字串僅可包含符合[網際網路工程任務小組 (IETF) 標準](https://www.ietf.org/rfc/rfc3986.txt)的字元。
-
-   除了在 IETF 網站上提到的字元外，Target 也允許在查詢字串中包含下列字元:
-
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
-
-   除此之外的字元都必須經過 URL 編碼。此標準指定下列格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示：
-
-   ![](assets/ietf1.png)
-
-   或者，為簡單起見，下列為完整清單:
-
-   ![](assets/ietf2.png)
-
-### 代碼範例
-
-targetPageParamsAll (將參數附加至頁面上的所有 mbox 呼叫):
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams (將參數附加至頁面上的全域 mbox):
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-mboxCreate 程式碼中的參數:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### 相關資訊的連結
-
-建議: [根據頁面類型實作](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-訂單確認: [追蹤轉換](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-類別相關性: [類別相關性](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| 方法 | 詳細資料 |
+| --- | --- |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>頁面參數 (又稱為「mbox 參數」) | 頁面參數是直接透過頁面程式碼傳入的名稱/值配對，不儲存在訪客的設定檔中供未來使用。<br>頁面參數很適合將額外的頁面資料傳送至 Target，這些資料不需要隨著訪客的設定檔一起儲存，以供未來鎖定目標使用。這些值改用來說明頁面，或使用者在特定頁面上採取的動作。 |
+| 頁面內設定檔屬性 (又稱為「mbox 內設定檔屬性) | 頁面內設定檔參數是直接透過頁面程式碼傳遞的名稱/值配對，儲存在訪客的設定檔中供未來使用。<br>頁面內設定檔屬性允許將使用者特定的資料儲存在 Target 的設定檔中，供稍後鎖定目標和分割。 |
+| 指令碼設定檔屬性 | 指令碼設定檔屬性是 Target 解決方案中定義的名稱/值配對。值取決於每次伺服器呼叫在 Target 的伺服器上執行 JavaScript 片段。<br>使用者撰寫較小的程式碼片段，在每次 mbox 呼叫時執行，以及在評估訪客的對象和活動成員資格之前執行。 |
+| 資料提供者 | 資料提供者是一種功能，可讓您輕鬆將資料從第三方傳遞至Target。 |
+| 大量設定檔更新 API | 透過 API，將 .csv 檔案傳送至 Target，此檔案包含許多訪客的訪客設定檔更新項目。一次呼叫就能以多個頁面內設定檔屬性來更新每一個訪客設定檔。 |
+| 單一設定檔更新 API | 幾乎與「大量描述檔更新API」相同，但每次會更新一個訪客描述檔，並以API呼叫的行式，而非。csv檔案。 |
+| 客戶屬性 | 客戶屬性可讓您透過 FTP 將訪客設定檔資料上傳至 Experience Cloud。上傳後，即可在 Adobe Analytics 和 Adobe Target 中運用這些資料。 |
 
 ## 頁面內設定檔屬性 (又稱為「mbox 內設定檔屬性) {#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -186,9 +128,9 @@ mboxCreate 程式碼中的屬性:
 
 [設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
 
-## 資料提供者 {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
+## 資料提供者{#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-資料提供者這項功能可以讓您輕鬆將資料從第三方傳入 Target。
+資料提供者是一種功能，可讓您輕鬆將資料從第三方傳遞至Target。
 
 注意: at.js 1.3 或更新版本才支援資料提供者功能。
 
@@ -273,7 +215,7 @@ CRM 或其他內部系統中儲存關於訪客的實用資料 (您希望持續�
 
 ## 單一設定檔更新 API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-與「大量設定檔更新 API」幾乎相同，但一次只更新一個訪客設定檔，在 API 呼叫中排隊，而不是使用 .csv 檔案。
+幾乎與「大量描述檔更新API」相同，但每次會更新一個訪客描述檔，並以API呼叫的行式，而非。csv檔案。
 
 ### 格式
 
