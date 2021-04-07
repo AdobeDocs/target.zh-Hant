@@ -4,8 +4,9 @@ description: 使用單一描述檔更新API將資料匯入Target。
 title: 如何使用單一描述檔更新API將資料匯入Target?
 feature: 實施
 role: Developer
+exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 41%
