@@ -1,13 +1,13 @@
 ---
 keywords: 實施；實施；設定；設定；資料提供器
-description: 使用頁面內描述檔屬性將資料匯入Target。
+description: 使用資料提供者將資料匯入Target。
 title: 如何使用資料提供者將資料匯入Target?
 feature: 實施
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 66%
 
 ---
