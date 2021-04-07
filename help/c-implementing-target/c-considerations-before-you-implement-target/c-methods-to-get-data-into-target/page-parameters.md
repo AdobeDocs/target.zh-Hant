@@ -5,10 +5,10 @@ title: 如何使用頁面參數將資料匯入Target?
 feature: 實施
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 49%
 
 頁面參數以字串名稱/值配對形式，透過伺服器呼叫而傳入 Target。參數名稱和值可自訂 (但有一些「保留名稱」是特定用途)。
 
-### 範例:
+### 範例
 
 * `page=productPage`
 
@@ -35,7 +35,7 @@ ht-degree: 49%
 * **類別相關性**: 將類別檢視資訊傳送至 Target，以瞭解使用者與特定網站類別的相關性
 * **第三方資料**: 傳送來自第三方資料來源的資訊，例如，天氣鎖定目標提供者、帳戶資料 (例如 DemandBase)、人口統計資料 (例如 Experian) 及其他。
 
-## 方法優點
+## 方法的優點
 
 資料會即時傳送至Target，並可用於相同的伺服器上，呼叫資料所在的資料。
 
@@ -57,7 +57,7 @@ ht-degree: 49%
 
    ![](assets/ietf2.png)
 
-## 代碼範例
+## 程式碼範例
 
 targetPageParamsAll (將參數附加至頁面上的所有 mbox 呼叫):
 
