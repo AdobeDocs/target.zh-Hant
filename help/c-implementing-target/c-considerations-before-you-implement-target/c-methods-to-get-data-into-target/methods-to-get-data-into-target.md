@@ -6,10 +6,10 @@ feature: 實施
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 90%
+source-wordcount: '1082'
+ht-degree: 84%
 
 ---
 
@@ -22,154 +22,18 @@ ht-degree: 90%
 | 方法 | 詳細資料 |
 | --- | --- |
 | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>頁面參數 (又稱為「mbox 參數」) | 頁面參數是直接透過頁面程式碼傳入的名稱/值配對，不儲存在訪客的設定檔中供未來使用。<br>頁面參數很適合將額外的頁面資料傳送至 Target，這些資料不需要隨著訪客的設定檔一起儲存，以供未來鎖定目標使用。這些值改用來說明頁面，或使用者在特定頁面上採取的動作。 |
-| 頁面內設定檔屬性 (又稱為「mbox 內設定檔屬性) | 頁面內設定檔參數是直接透過頁面程式碼傳遞的名稱/值配對，儲存在訪客的設定檔中供未來使用。<br>頁面內設定檔屬性允許將使用者特定的資料儲存在 Target 的設定檔中，供稍後鎖定目標和分割。 |
-| 指令碼設定檔屬性 | 指令碼設定檔屬性是 Target 解決方案中定義的名稱/值配對。值取決於每次伺服器呼叫在 Target 的伺服器上執行 JavaScript 片段。<br>使用者撰寫較小的程式碼片段，在每次 mbox 呼叫時執行，以及在評估訪客的對象和活動成員資格之前執行。 |
-| 資料提供者 | 資料提供者是一種功能，可讓您輕鬆將資料從第三方傳遞至Target。 |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>頁面內設定檔屬性 (又稱為「mbox 內設定檔屬性) | 頁面內設定檔參數是直接透過頁面程式碼傳遞的名稱/值配對，儲存在訪客的設定檔中供未來使用。<br>頁面內設定檔屬性允許將使用者特定的資料儲存在 Target 的設定檔中，供稍後鎖定目標和分割。 |
+| [指令碼設定檔屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | 指令碼設定檔屬性是 Target 解決方案中定義的名稱/值配對。值取決於每次伺服器呼叫在 Target 的伺服器上執行 JavaScript 片段。<br>使用者撰寫較小的程式碼片段，在每次 mbox 呼叫時執行，以及在評估訪客的對象和活動成員資格之前執行。 |
+| [資料提供者](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | 資料提供者是一種功能，可讓您輕鬆將資料從第三方傳遞至Target。 |
 | 大量設定檔更新 API | 透過 API，將 .csv 檔案傳送至 Target，此檔案包含許多訪客的訪客設定檔更新項目。一次呼叫就能以多個頁面內設定檔屬性來更新每一個訪客設定檔。 |
 | 單一設定檔更新 API | 幾乎與「大量描述檔更新API」相同，但每次會更新一個訪客描述檔，並以API呼叫的行式，而非。csv檔案。 |
 | 客戶屬性 | 客戶屬性可讓您透過 FTP 將訪客設定檔資料上傳至 Experience Cloud。上傳後，即可在 Adobe Analytics 和 Adobe Target 中運用這些資料。 |
 
-## 頁面內設定檔屬性 (又稱為「mbox 內設定檔屬性) {#section_57E1C161AA7B444689B40B6F459302B6}
 
-頁面內設定檔參數是直接透過頁面程式碼傳遞的名稱/值配對，儲存在訪客的設定檔中供未來使用。
 
-頁面內設定檔屬性允許將使用者特定的資料儲存在 Target 的設定檔中，供稍後鎖定目標和分割。
 
-### 格式
 
-頁面內設定檔屬性以字串名稱/值配對形式，透過伺服器呼叫而傳入 Target，字首 &quot;profile.&quot; 會加在屬性名稱之前。
 
-屬性名稱和值可自訂 (但有一些「保留名稱」是特定用途)。
-
-範例:
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### 範例使用案例
-
-**登入資訊**: 根據使用者的登入將非 PII (個人識別資訊) 資料與 Target 共用。其中包括成員資格狀態、訂單歷程記錄等。
-
-**商店資訊**: 追蹤哪一家商店是此使用者偏好的位置。
-
-**先前的互動**: 追蹤使用者先前在網站上完成的動作，以提供未來個人化的相關資訊。
-
-### 方法優點
-
-資料會即時傳送至 Target，而且可用在送來資料的同一個伺服器呼叫上。
-
-### 注意事項
-
-需要頁面程式碼更新 (直接或透過標記管理系統)。
-
-屬性和值在伺服器呼叫中可見，所以訪客可以看到值。如果共用資訊，例如信用等級或其他可能的私人資訊，則這可能不是最佳方法。
-
-### 代碼範例
-
-targetPageParamsAll (將屬性附加至頁面上的所有 mbox 呼叫):
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams (將屬性附加至頁面上的全域 mbox):
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-mboxCreate 程式碼中的屬性:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### 相關資訊的連結
-
-[設定檔屬性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[訪客資料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## 指令碼設定檔屬性 {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-指令碼設定檔屬性是 Target 解決方案中定義的名稱/值配對。值取決於每次伺服器呼叫在 Target 的伺服器上執行 JavaScript 片段。
-
-使用者撰寫較小的程式碼片段，在每次 mbox 呼叫時執行，以及在評估訪客的對象和活動成員資格之前執行。
-
-### 格式
-
-指令碼設定檔屬性是在 Target 的「對象」區段中建立。任何屬性名稱都有效，值是 Target 使用者撰寫的 JavaScript 函式的結果。在 Target 中，屬性名稱開頭自動加上 &quot;user.&quot;，以方便與頁面內設定檔屬性有所區別。
-
-程式碼片段以 Rhino JS 語言撰寫，可參考 Token 和其他值。
-
-### 範例使用案例
-
-**購物車放棄**: 當訪客到達購物車時，將設定檔指令碼設為 1。當訪客轉換時，重設為 0。如果值 = 1，表示訪客在購物車中有一件項目。
-
-**造訪計數**: 每次新的造訪時，計數就增加 1，以追蹤訪客每隔多久回到網站。
-
-### 方法優點
-
-不需要更新頁面程式碼。
-
-在決定對象和活動成員資格之前執行，因此，這些設定檔指令碼屬性在單次伺服器呼叫上就可影響成員資格。
-
-可能非常強大。每個指令碼最多可執行 2,000 個指令。
-
-### 注意事項
-
-需要 JavaScript 知識。
-
-無法保證設定檔指令碼的執行順序，因此無法彼此依賴。
-
-可能很難偵錯。
-
-### 代碼範例
-
-設定檔指令碼相當有彈性:
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### 相關資訊的連結
-
-[設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
-
-## 資料提供者{#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-資料提供者是一種功能，可讓您輕鬆將資料從第三方傳遞至Target。
-
-注意: at.js 1.3 或更新版本才支援資料提供者功能。
-
-### 格式
-
-`window.targetGlobalSettings.dataProviders` 設定是資料提供者的陣列。
-
-如需各資料提供者結構的詳細資訊，請參閱[資料提供者](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)一節。
-
-### 範例使用案例
-
-從第三方收集氣象服務、DMP 甚至您自己的網頁服務等資料。接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。
-
-### 方法優點
-
-此設定可讓客戶收集來自第三方資料提供者 (例如 Demandbase、BlueKai 和自訂服務) 的資料，並在全域 mbox 要求中以 mbox 參數的形式傳遞資料至 Target。
-
-它透過非同步和同步要求，以支援來自多個提供者的資料收集。
-
-使用此方法可讓您方便管理預設頁面內容的忽隱忽現情形，同時對每個提供者包含獨立的逾時計算，以限制對頁面效能的影響
-
-### 注意事項
-
-如果新增至 `window.targetGlobalSettings.dataProviders` 的資料提供者非同步，則會並行執行。訪客 API 要求將與新增至 `window.targetGlobalSettings.dataProviders` 的函數並行執行，以允許最低的等候時間。
-
-at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，則資料提供者應該確定已將該資料快取，並且當叫用該提供者函數時，可做為第二個叫用的快取資料。
-
-### 代碼範例
-
-[資料提供者](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)中提供許多範例。
-
-### 相關資訊的連結
-
-文件: [資料提供者](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### 訓練影片:
-
-* [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 大量設定檔更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
