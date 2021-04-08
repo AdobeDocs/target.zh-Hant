@@ -5,9 +5,9 @@ title: 成功活動需要多少流量？
 feature: 自動個人化
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 13%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 13%
 
 使用[!UICONTROL 流量估計器]時，請考慮下列常見問答：
 
-### 為什麼[!DNL Target]沒有在AP活動具有足夠流量時建立個人化模型？
+### 為什麼即使我的AP活動具有足夠的流量，個人化模型仍無法建立？
 
 在某些情況下，您的流量足夠大，足以建立個人化模型，但該流量可能會通知[!DNL Target]個人化模型與隨機模型之間沒有有意義的差異。 雖然模型是在[!DNL Target]中內建並經過測試，但並未部署，因為模型並不比隨機模型好。
 
