@@ -3,14 +3,14 @@ keywords: Target;home；熱門主題；adobe target;standard;premium;target docu
 title: 我可以在哪裡找到Target檔案？
 description: 瞭解如何使用Adobe Target來個人化客戶體驗，以便在您的網站和行動網站、應用程式及其他數位通道上獲得最大收益。
 feature: 概述
+exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
 
 ---
-
 
 # [!DNL Adobe Target]指引
 
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2021年3月29日(請 [參閱變更內容](r-release-notes/doc-change.md) )**
+**上次更新日期：2021年4月8日(請 [參閱變更內容](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
