@@ -1,17 +1,17 @@
 ---
 keywords: 包含規則;包含條件;建議;建立新條件;促銷活動;動態篩選;動態;空白值;忽略篩選規則;靜態篩選;按值篩選;實體屬性比對;設定檔屬性比對;參數比對;靜態篩選
-description: 瞭解如何在Adobe Target Recommendations中建立標準和促銷的包含規則。 新增其他動態或靜態篩選規則，以取得更佳效果。
-title: 如何在Recommendations中使用動態和靜態包含規則？
+description: 瞭解如何在Adobe Target·Recommendations建立標準與促銷的內含規則。 新增其他動態或靜態篩選規則，以取得更佳效果。
+title: 如何在Recommendations使用動態和靜態包含規則？
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1100'
 ht-degree: 41%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 使用動態和靜態包含規則{#use-dynamic-and-static-inclusion-rules}
 
@@ -91,7 +91,7 @@ ht-degree: 41%
 
 | Action | 可用於 | 詳細資料 |
 |--- |--- |--- |
-| [!UICONTROL 忽略此篩選規則] | [!UICONTROL 描述檔屬性] [!UICONTROL 比對與參數比對] | 這是[!UICONTROL 描述檔屬性符合]和[!UICONTROL 參數符合]的預設動作。<br>此選項會指定忽略規則。例如，假設有三個篩選規則，而第三個規則未傳遞任何值，為了避免不傳回任何結果，您可以直接用空白值忽略第三個規則。 |
+| [!UICONTROL 忽略此篩選規則] | [!UICONTROL 描述檔屬性] 比對與 [!UICONTROL 參數比對] | 這是[!UICONTROL 描述檔屬性符合]和[!UICONTROL 參數符合]的預設動作。<br>此選項會指定忽略規則。例如，假設有三個篩選規則，而第三個規則未傳遞任何值，為了避免不傳回任何結果，您可以直接用空白值忽略第三個規則。 |
 | [!UICONTROL 不要顯示此准則的任何結果]<br>（僅限准則） | [!UICONTROL 實體屬性匹配]、描述 [!UICONTROL 檔屬性匹配]、參數 [!UICONTROL 匹配] | 這是[!UICONTROL 實體屬性符合]的預設動作。<br>[!DNL Target]在新增此選項的值之前，此動作代表 處理空白值的方式，也就是不顯示此條件的任何結果。 |
 | [!UICONTROL 不促銷任何項目<br>（僅限促銷）] | [!UICONTROL 實體屬性匹配]、描述 [!UICONTROL 檔屬性匹配]、參數 [!UICONTROL 匹配] | 這是[!UICONTROL 實體屬性符合]的預設動作。<br>[!DNL Target]在新增此選項的值之前，此動作代表 處理空白值的方式，也就是不顯示此條件的任何結果。 |
 | [!UICONTROL 使用靜態值] | [!UICONTROL 實體屬性匹配]、描述 [!UICONTROL 檔屬性匹配]、參數 [!UICONTROL 匹配] | 如果值為空白，您可以選擇使用靜態值。 |
