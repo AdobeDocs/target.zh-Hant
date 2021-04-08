@@ -4,15 +4,15 @@ description: 了解基本概念、熟悉 Target 如何運作以及與您的基�
 landing-page-description: 開始使用 Adobe Target 前，請先在網站上實作 Adobe Target，了解基本概念和術語，並熟悉 Target 的操作方式。
 title: 如何實施Target?
 feature: 實施
-role: 開發人員
+role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 27%
 
 ---
-
 
 # 實作 Target
 
