@@ -3,14 +3,14 @@ keywords: 目標文檔更改日誌；文檔更新；新主題；編輯；更新�
 description: 隨時更新Adobe Target產品檔案的重要新增和變更。
 title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
+exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '3911'
-ht-degree: 28%
+source-wordcount: '3926'
+ht-degree: 29%
 
 ---
-
 
 # Adobe Target 產品文件中的
 
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target Standard/Premium 21.4.1版本的發行前資訊（2021年4月19日） |
 | 3月29日 | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新增常見問答：<ul><li>基於最近檢視項目的建議會持續存在於單一訪客的多個裝置上嗎？</li></ul> |
 | 3月23日 |  [版本說明](/help/r-release-notes/release-notes.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
