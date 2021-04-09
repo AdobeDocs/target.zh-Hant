@@ -1,18 +1,18 @@
 ---
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
-description: 瞭解如何將電子郵件與Adobe Target Recommendations整合，包括使用Target傳送API、rawbox範本和僅下載範本。
+description: 瞭解如何將電子郵件與Adobe Target·Recommendations整合，包括使用Target Delivery API、rawbox範本和僅下載範本。
 title: 如何將Recommendations與電子郵件整合？
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 88%
+source-wordcount: '1548'
+ht-degree: 85%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 將 Recommendations 與電子郵件整合{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) 將 Recommendations 與電子郵件整合
 
 關於將電子郵件與 Recommendations 整合方式的資訊。
 
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 當要求的相符項目不存在時，`mboxDefault` 未指定，並且 `mboxNoRedirect` 參數未指定。 |
 | `Invalid mbox name:= MBOX_NAME` | 指出 `mbox` 參數包括無效的字元。 |
 | `Mbox name [MBOX_NAME] is too long` | 指出 `mbox` 參數長於 250 個字元。 |
+
+## 選項1和2 {#capacity}的容量指南
+
+以下容量准則適用於傳送API和rawbox電子郵件範本選項：
+
+* 請求的速率應限制為每秒1,000個請求，或是每日最高流量的25倍
+* 以每分鐘200次請求的步驟降低流量
+
+如果您想使用較高的費率限制，請連絡您的客戶經理。
 
 ## 選項 3: 使用僅供下載的範本 {#section_518C279AF0094BE780F4EA40A832A164}
 
