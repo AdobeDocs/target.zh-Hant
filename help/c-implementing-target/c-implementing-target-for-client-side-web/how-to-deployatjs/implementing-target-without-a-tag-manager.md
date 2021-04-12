@@ -6,10 +6,10 @@ feature: 實作伺服器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 54%
+source-wordcount: '1697'
+ht-degree: 51%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 54%
 | [!UICONTROL 用戶端代碼] | 用戶端代碼是使用 Target API 時通常需要的用戶端專用字元序列。 |
 | [!UICONTROL IMS 組織 ID] | 此 ID 會將您的實施連結至 [!DNL Adobe Experience Cloud] 帳戶。 |
 | [!UICONTROL 裝置上決策] | 若要啟用裝置上決策，請將切換滑至「開啟」位置。<br>裝置上決策可讓您快取伺服器上的A/B和體驗定位(XT)促銷活動，並在接近零延遲的情況下執行記憶體內決策。如需詳細資訊，請參閱&#x200B;*Adobe TargetSDK*&#x200B;指南中的[裝置上決策簡介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)。 |
+| [!UICONTROL 在對象中包含所有現有的設備上決策合格活動。] | （條件性）如果您啟用裝置上決策，就會顯示此選項。<br>如果您想要將符合裝置上決策資格的所有即時Target活動自動包含在物件中，請將切換至「開啟」位置。<br>關閉此切換表示您必須重新建立並啟動任何裝置上決策活動，才能將這些活動包含在產生的規則物件中。 |
 
 ## 實施方法
 
