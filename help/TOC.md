@@ -4,10 +4,10 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: c9c42f176c39e4eaf909074eb6eadc09236391e1
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 76%
+source-wordcount: '1614'
+ht-degree: 75%
 
 ---
 
@@ -99,6 +99,10 @@ ht-degree: 76%
       + Adobe Experience Platform網頁SDK實作{#aep-implementation}
          + [AEP Web SDK總覽](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js實作{#at-js-implementation}
+         + 裝置上決策{#on-device-decisioning}
+            + [裝置上決策概觀](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [支援的裝置上決策功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [裝置上決策規則假象](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + at.js 如何運作 {#at-js}
             + [at.js 運作方式概覽](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [At.js 處理忽隱忽現情況的方式](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
