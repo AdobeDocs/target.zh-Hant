@@ -1,17 +1,17 @@
 ---
 keywords: 自訂事件;at.js;要求失敗;要求成功;內容呈現失敗;內容呈現成功;資料庫已載入;要求開始;內容呈現開始;內容呈現無選件;內容呈現重新導向
-description: 使用Adobe Target at.js JavaScript程式庫的自訂事件，在mbox請求或選件失敗或成功時收到通知。
+description: 使用Adobe Targetat.js JavaScript程式庫的自訂事件，在mbox請求或選件失敗或成功時收到通知。
 title: 如何使用at.js自訂事件？
 feature: at.js
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # at.js 自訂事件
 
@@ -38,6 +38,7 @@ ht-degree: 92%
 | mbox | 字串 | mBox 名稱 |
 | 訊息 | 字串 | 包含人類可讀說明，例如發生了什麼、錯誤訊息等等。 |
 | 追蹤 | 物件 | 包含 `sessionId` 和 `deviceId`。在部分情況下，可以遺漏 `deviceId`，因為 [!DNL Target] 無法從 Edge 伺服器擷取它。 |
+| type | 字串 | **裝置上決策對象成**<br>&#x200B;功Constant:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>字串值： `artifactDownloadSucceeded`<br>說明：已在成功下載設備上的決策對象時調用。<br>**設備上決策對象失敗**<br>&#x200B;常數： `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>字串值： `artifactDownloadFailed`<br>說明：在無法下載設備上的決策對象時調用。 |
 
 ## 使用狀況 {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
