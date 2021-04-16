@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;函數;函數
-description: 使用adobe.target.getOffers()函式及其Adobe Target at.js程式庫的選項，觸發請求以取得多個Target選件。 (at.js 2.x)
+description: 使用adobe.target.getOffers()函式及其選項，讓Adobe Targetat.js程式庫觸發請求以取得多個Target選件。 (at.js 2.x)
 title: 如何使用adobe.target.getOffers()函式？
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ ht-degree: 90%
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
 | consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。此索引鍵是每個訪客的唯一字串。 |
+| 決策方法 | 字串 | 無 | 「伺服器端」、「裝置上」、「混合」 |
 | 請求 | 物件 | 是 | 請參閱下方的「要求」表格。 |
 | timeout | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
 
@@ -84,6 +85,25 @@ adobe.target.getOffers({
     }
   }
 });
+```
+
+## 呼叫getOffers()以進行裝置上決策
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
 ```
 
 ## 呼叫getOffers()以擷取具有傳入參數和描述檔參數的最新檢視
@@ -186,7 +206,7 @@ adobe.target.getOffers({
 }
 ```
 
-然後，可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉送至Adobe Analytics。
+然後，可通過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉發到Adobe Analytics。
 
 ## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料 {#multiple}
 
