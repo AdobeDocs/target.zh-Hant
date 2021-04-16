@@ -1,18 +1,18 @@
 ---
 user-guide-title: Adobe Target 指南
 breadcrumb-title: Target 指南
-user-guide-description: 了解如何量身訂做並將客戶體驗個人化，使得您可將網站和行動網站、應用程式、社交媒體和其他數位通道上的收益最大化。
+user-guide-description: 瞭解如何量身打造並個人化客戶體驗，以便在您的網站和行動網站、應用程式、社交媒體和其他數位通道上獲得最大收益。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 76%
+source-wordcount: '1607'
+ht-degree: 74%
 
 ---
 
 
-# Adobe Target 指南  {#using}
+# Adobe Target 指南 {#using}
 
 + [Adobe Target指南首頁](target-home.md)
 + Target 版本說明 {#release-notes}
