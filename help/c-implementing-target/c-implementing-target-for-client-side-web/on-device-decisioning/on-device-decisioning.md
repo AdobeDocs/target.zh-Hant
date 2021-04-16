@@ -1,14 +1,14 @@
 ---
-keywords: 實施；javascript library;js;atjs；裝置上決策；裝置上決策
+keywords: 實施；javascript library;js;atjs；裝置上決策；裝置上決策；at.js
 description: 瞭解如何使用at.js程式庫執行裝置上決策
 title: 裝置上決策如何與at.js JavaScript程式庫搭配運作？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -169,7 +169,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 系統會向Adobe Target邊緣網路提出頁面載入要求，包括所有已設定的參數，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。 |
 | 5 | 同時，at.js會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
 | 6 | (Adobe Target邊緣網路)描述檔指令碼會執行，然後饋送至描述檔商店。 Profile Store會從觀眾程式庫要求合格的觀眾（例如，從[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共用的觀眾）。 |
