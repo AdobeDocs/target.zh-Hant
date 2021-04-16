@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3499'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->裝置上決策計畫將於Target Standard/Premium 21.4.1版中發行（2021年4月19日）。
+>裝置上決策功能已排定在Target Standard/Premium 21.4.1版中發行（2021年4月19日）。
 
 從2.5版開始，at.js提供裝置上決策。 裝置上決策可讓您快取瀏覽器上的[A/B測試](/help/c-activities/t-test-ab/test-ab.md)和[體驗定位](/help/c-activities/t-experience-target/experience-target.md)(XT)活動，以執行記憶體內決策，而不需封鎖網路要求至[!DNL Adobe Target]邊緣網路。
 
@@ -111,7 +111,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | at.js程式庫會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
 | 5 | Akamai CDN會以JSON規則對象回應。 |
 | 6 | JSON規則物件會在訪客的瀏覽器上快取至本機。 |
@@ -197,7 +197,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 會提出要求以擷取體驗。 |
 | 5 | at.js程式庫會確認JSON規則物件已快取，並執行記憶體中的擷取體驗決定。 |
 | 6 | 已測試的元素會隱藏。 |
