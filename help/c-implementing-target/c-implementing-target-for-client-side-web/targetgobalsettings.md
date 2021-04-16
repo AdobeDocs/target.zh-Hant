@@ -1,17 +1,17 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;at.js;function;clientCode;clientdomain;serverCookieDomain;cookieDomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiImeout;dedentContentContentComeoutStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServerTimeout;optoutEnabled;optout;selectorsPollingTimeout;dataProviders;Hybriders;deviceIdLifetime
-description: 使用Adobe Target at.js JavaScript程式庫的targetGlobalSettings()函式來覆寫設定，而不是使用Target UI或REST API。
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;globalsettings;at.js;function;clientCode;clientdomain;serverCookieDomain;cookieDomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiHidenContentCemoutStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServerTimeout;optoutEnabled;optout;selectorsPollingTimeout;dataProviders;Hybriders;deviceIdLifetime
+description: 使用Adobe Targetat.js JavaScript程式庫的targetGlobalSettings()函式來覆寫設定，而不是使用Target UI或REST API。
 title: 如何使用targetGlobalSettings()函式？
 feature: at.js
 role: Developer
+exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 36%
+source-wordcount: '2233'
+ht-degree: 29%
 
 ---
-
 
 # targetGlobalSettings()
 
@@ -72,6 +72,45 @@ ht-degree: 36%
 * **類型**:請參 [閱以](#data-providers) 下資料提供者。
 * **預設值**:請參 [閱以](#data-providers) 下資料提供者。
 * **說明**:請參 [閱以](#data-providers) 下資料提供者。
+
+### decisioningMethod {#on-device-decisioning}
+
+* **類型:** 字串
+* **預設值**:伺服器端
+* **其他值**:在裝置上，混合
+* **說明**:請參閱下方的決策方法。
+
+**決策方法**
+
+在裝置上決策時，Target會引入新的設定，稱為[!UICONTROL 決策方法]，此設定指定at.js如何提供您的體驗。 `decisioningMethod`有三個值：僅限伺服器端、僅限裝置上和混合式。 當`decisioningMethod`在`targetGlobalSettings()`中設定時，它會做為所有[!DNL Target]決策的預設決策方法。
+
+[!UICONTROL 僅限伺服器端]:
+
+[!UICONTROL 伺服器端] 僅是預設的決策方法，當at.js 2.5+實作並部署在您的Web屬性上時，就會立即設定。
+
+使用[!UICONTROL 伺服器端僅]做為預設組態，表示所有決策都在[!DNL Target]邊緣網路上做出，這涉及封鎖伺服器呼叫。 此方法可引入遞增延遲，但也提供顯著的優點，例如可讓您套用Target的機器學習功能，包括[Recommendations](/help/c-recommendations/recommendations.md)、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)和[自動目標](/help/c-activities/auto-target/auto-target-to-optimize.md)活動。
+
+此外，使用Target的使用者個人檔案（跨作業和通道持續提供）來強化您的個人化體驗，可為您的業務提供強大的成果。
+
+最後，[!UICONTROL 伺服器端僅]可讓您使用Adobe Experience Cloud並微調可透過Audience Manager和Adobe Analytics區段針對的對象。
+
+[!UICONTROL 僅限裝置]:
+
+[!UICONTROL 裝置上決] 策僅限裝置上的決策方法，當裝置上決策只能用於整個網頁時，必須在at.js 2.5+中設定。
+
+裝置上決策可以快如閃電的速度提供您的體驗和個人化活動，因為決策來自快取的規則物件，其中包含符合裝置上決策資格的所有活動。
+
+若要進一步瞭解哪些活動符合裝置上決策的資格，請參閱支援的功能一節。
+
+只有在需要[!DNL Target]決策的所有頁面上都有高效能時，才應使用此決策方法。 此外，請記住，當選取此決策方法時，您不符合裝置上決策資格的[!DNL Target]活動將不會傳送或執行。 at.js程式庫2.5+設定為僅尋找快取的規則物件以做出決策。
+
+混合：
+
+[!UICONTROL 混合] 了必須在at.js 2.5+中設定的決策方法，因為必須同時執行裝置上決策和需要對Adobe Target邊緣網路進行網路呼叫的活動。
+
+當您同時管理裝置上的決策活動和伺服器端活動時，在思考如何在頁面上部署和布建[!DNL Target]時，可能會有些複雜和麻煩。 [!DNL Target]採用混合決策方法，可得知何時必須對Adobe Target邊緣網路進行伺服器呼叫，以處理需要伺服器端執行的活動，以及何時只執行裝置上的決策。
+
+JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺服器端活動或裝置上的決策活動。 此決策方法可確保您想要快速傳遞的活動透過裝置上決策完成，對於需要更強大的ML導向個人化的活動，這些活動則透過Adobe Target邊緣網路完成。
 
 ### defaultContentHiddenStyle
 
@@ -466,7 +505,7 @@ const PAGE_TEMPLATE = `
    * 在頁面載入時執行的VEC建立活動。
    * 預先擷取的檢視。
 
-      若SPA在at.js API中使用[!DNL Target]檢視和`triggerView()`,at.js v2.2會快取伺服器端預先擷取之所有檢視的內容，並在每個檢視透過`triggerView()`觸發時立即套用這些內容，同樣不會引發對Target的任何額外內容擷取呼叫。
+      若在SPAat.js API中使用[!DNL Target]檢視和`triggerView()`, at.js v2.2會快取伺服器端預先擷取之所有檢視的內容，並在透過`triggerView()`觸發每個檢視時立即套用這些內容，同時不會觸發任何額外的Target內容擷取呼叫。
 
    * **注意**:目前，不支援在伺服器端擷取的mbox `serverState`。
 
