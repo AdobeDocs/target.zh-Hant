@@ -4,11 +4,12 @@ description: 瞭解如何使用at.js程式庫執行裝置上決策
 title: 裝置上決策如何與at.js JavaScript程式庫搭配運作？
 feature: at.js
 role: Developer
+exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
 workflow-type: tm+mt
-source-wordcount: '3419'
-ht-degree: 5%
+source-wordcount: '3496'
+ht-degree: 7%
 
 ---
 
@@ -69,28 +70,22 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 以下清單與圖中的數字相對應：
 
-1. 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)檢索[!DNL Experience Cloud Visitor ID]。
-1. at.js 程式庫會同步載入並隱藏文件本文。
-
-   您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。
-
-1. at.js程式庫會隱藏主體，以防止閃爍。
-1. 會提出包含所有已設定參數的頁面載入請求，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。
-1. 設定檔指令碼執行，然後注入設定檔存放區。
-
-   Profile Store會從觀眾程式庫要求合格的觀眾（例如，從[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共用的觀眾）。
-
-   客戶屬性會透過批次程序傳送至設定檔存放區。
-
-1. Profile Store用於受眾資格和分段以篩選活動。
-1. 從即時[!DNL Target]活動中判斷體驗後，就會選取產生的內容。
-1. at.js程式庫會隱藏頁面上與必須轉譯的體驗相關聯的對應元素。
-1. at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。
-1. at.js程式庫會操控DOM，從Target Edge Network呈現體驗。
-1. 體驗會為訪客呈現。
-1. 載入整個網頁。
-1. [!DNL Analytics] 資料傳送至「資料收集」伺服器。
-1. 目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。
+| 步驟 | 說明 |
+| --- | --- |
+| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>   您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 4 | 會提出包含所有已設定參數的頁面載入請求，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。 |
+| 5 | 設定檔指令碼執行，然後注入設定檔存放區。<br>「描述檔商店」會要求觀眾程式庫中的合格觀眾(例如，從 [!DNL Adobe Analytics]、 [!DNL Adobe Audience Manager]等共用的觀眾)。<br>客戶屬性會透過批次程序傳送至設定檔存放區。 |
+| 6 | Profile Store用於受眾資格和分段以篩選活動。 |
+| 7 | 從即時[!DNL Target]活動中判斷體驗後，就會選取產生的內容。 |
+| 8 | at.js程式庫會隱藏頁面上與必須轉譯的體驗相關聯的對應元素。 |
+| 9 | at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。 |
+| 10 | at.js程式庫會操控DOM，從Target Edge Network呈現體驗。 |
+| 11 | 體驗會為訪客呈現。 |
+| 12 | 載入整個網頁。 |
+| 13 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 |
+| 14 | 目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。 |
 
 ### 僅限裝置上
 
@@ -98,7 +93,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 裝置上決策可以快如閃電的速度提供您的體驗和個人化活動，因為決策來自快取的規則物件，其中包含符合裝置上決策資格的所有活動。
 
-若要進一步瞭解哪些活動符合裝置上決策的資格，請參閱支援的功能一節。
+若要進一步瞭解哪些活動符合裝置上決策的資格，請參閱[裝置上決策中支援的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)。
 
 只有在需要[!DNL Target]決策的所有頁面上都有高效能時，才應使用此決策方法。 此外，請記住，當選取此決策方法時，您不符合裝置上決策資格的[!DNL Target]活動將不會傳送或執行。 at.js程式庫2.5+設定為僅尋找快取的規則物件以做出決策。
 
@@ -112,21 +107,20 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 >
 >[!DNL Adobe Target] 管理伺服器會符合您所有符合裝置上決策資格的活動的資格、產生JSON規則物件，並將它傳播至Akamai CDN。系統會持續監控您的活動，以取得更新，以輸出要傳播至Akamai CDN的新JSON規則物件。
 
-1. 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。
-1. at.js 程式庫會同步載入並隱藏文件本文。
-
-   您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。
-
-1. at.js程式庫會隱藏主體，以防止閃爍。
-1. at.js程式庫會要求從離訪客最近的Akamai CDN擷取JSON規則對象。
-1. Akamai CDN會以JSON規則對象回應。
-1. JSON規則物件會在訪客的瀏覽器上快取至本機。
-1. at.js程式庫會解譯JSON規則工件，並執行擷取體驗和隱藏已測試元素的決定。
-1. at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。
-1. at.js程式庫會處理DOM，以從快取的JSON規則物件轉譯體驗。
-1. 體驗會為訪客呈現。
-1. 載入整個網頁。
-1. [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 與 中，透過 for Target (A4T) 報表來檢視 [!DNL Analytics][!DNL Analytics]Analytics 資料。[!DNL Target]
+| 步驟 | 說明 |
+| --- | --- |
+| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 4 | at.js程式庫會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
+| 5 | Akamai CDN會以JSON規則對象回應。 |
+| 6 | JSON規則物件會在訪客的瀏覽器上快取至本機。 |
+| 7 | at.js程式庫會解譯JSON規則工件，並執行擷取體驗和隱藏已測試元素的決定。 |
+| 8 | at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。 |
+| 9 | at.js程式庫會處理DOM，以從快取的JSON規則物件轉譯體驗。 |
+| 10 | 體驗會為訪客呈現。 |
+| 11 | 載入整個網頁。 |
+| 12 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 與 中，透過 for Target (A4T) 報表來檢視 [!DNL Analytics][!DNL Analytics]Analytics 資料。[!DNL Target] |
 
 下圖說明訪客、瀏覽器、at.js 2.5+和訪客後續頁面點擊或返回瀏覽的快取JSON規則物件之間的互動。 由於JSON規則工件已快取且可在瀏覽器上使用，因此會立即做出決定，而不需要封鎖網路呼叫。 此流程圖會擷取後續頁面導覽或舊訪客。
 
@@ -138,19 +132,18 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 >
 >[!DNL Adobe Target] 管理伺服器會符合您所有符合裝置上決策資格的活動的資格、產生JSON規則物件，並將它傳播至Akamai CDN。系統會持續監控您的活動，以取得更新，以輸出要傳播至Akamai CDN的新JSON規則物件。
 
-1. 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。
-1. at.js 程式庫會同步載入並隱藏文件本文。
-
-   您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。
-
-1. at.js程式庫會隱藏主體，以防止閃爍。
-1. at.js程式庫會解譯JSON規則工件，並執行記憶體中的擷取體驗決定。
-1. 已測試的元素會隱藏。
-1. at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。
-1. at.js程式庫會處理DOM，以從快取的JSON規則物件轉譯體驗。
-1. 體驗會為訪客呈現。
-1. 載入整個網頁。
-1. [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。
+| 步驟 | 說明 |
+| --- | --- |
+| 3 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 4 | at.js程式庫會解譯JSON規則工件，並執行記憶體中的擷取體驗決定。 |
+| 5 | 已測試的元素會隱藏。 |
+| 6 | at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。 |
+| 7 | at.js程式庫會處理DOM，以從快取的JSON規則物件轉譯體驗。 |
+| 8 | 體驗會為訪客呈現。 |
+| 9 | 載入整個網頁。 |
+| 10 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。 |
 
 ### 混合
 
@@ -172,24 +165,23 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 >
 >[!DNL Adobe Target] 管理伺服器會符合您所有符合裝置上決策資格的活動的資格、產生JSON規則物件，並將它傳播至Akamai CDN。系統會持續監控您的活動，以取得更新，以輸出要傳播至Akamai CDN的新JSON規則物件。
 
-1. 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。
-1. at.js 程式庫會同步載入並隱藏文件本文。
-
-   您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。
-
-1. at.js程式庫會隱藏主體，以防止閃爍。
-1. 系統會向Adobe Target邊緣網路提出頁面載入要求，包括所有已設定的參數，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。
-1. 同時，at.js會要求從離訪客最近的Akamai CDN擷取JSON規則對象。
-1. (Adobe Target邊緣網路)描述檔指令碼會執行，然後饋送至描述檔商店。 Profile Store會從觀眾程式庫要求合格的觀眾（例如，從[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共用的觀眾）。
-1. Akamai CDN會以JSON規則對象回應。
-1. Profile Store用於受眾資格和分段以篩選活動。
-1. 從即時[!DNL Target]活動中判斷體驗後，就會選取產生的內容。
-1. at.js程式庫會隱藏頁面上與必須轉譯的體驗相關聯的對應元素。
-1. at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。
-1. at.js程式庫會操控DOM，從Target Edge Network呈現體驗。
-1. 體驗會為訪客呈現。
-1. 載入整個網頁。
-1. [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。
+| 步驟 | 說明 |
+| --- | --- |
+| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 4 | 系統會向Adobe Target邊緣網路提出頁面載入要求，包括所有已設定的參數，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。 |
+| 5 | 同時，at.js會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
+| 6 | (Adobe Target邊緣網路)描述檔指令碼會執行，然後饋送至描述檔商店。 Profile Store會從觀眾程式庫要求合格的觀眾（例如，從[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共用的觀眾）。 |
+| 7 | Akamai CDN會以JSON規則對象回應。 |
+| 8 | Profile Store用於受眾資格和分段以篩選活動。 |
+| 9 | 從即時[!DNL Target]活動中判斷體驗後，就會選取產生的內容。 |
+| 10 | at.js程式庫會隱藏頁面上與必須轉譯的體驗相關聯的對應元素。 |
+| 11 | at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。 |
+| 12 | at.js程式庫會操控DOM，從Target Edge Network呈現體驗。 |
+| 13 | 體驗會為訪客呈現。 |
+| 14 | 載入整個網頁。 |
+| 15 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。 |
 
 下圖說明您的訪客、瀏覽器、at.js 2.5+和快取的JSON規則物件之間的互動，以供後續頁面導覽或回訪使用。 在此圖中，請只關注裝置上決定後續頁面導覽或回訪的使用案例。 請記住，根據特定頁面上的活動，可進行伺服器端呼叫以執行伺服器端決策。
 
@@ -201,20 +193,19 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 >
 >[!DNL Adobe Target] 管理伺服器會符合您所有符合裝置上決策資格的活動的資格、產生JSON規則物件，並將它傳播至Akamai CDN。系統會持續監控您的活動，以取得更新，以輸出要傳播至Akamai CDN的新JSON規則物件。
 
-1. 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。
-1. at.js 程式庫會同步載入並隱藏文件本文。
-
-   您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。
-
-1. at.js程式庫會隱藏主體，以防止閃爍。
-1. 會提出要求以擷取體驗。
-1. at.js程式庫會確認JSON規則物件已快取，並執行記憶體中的擷取體驗決定。
-1. 已測試的元素會隱藏。
-1. at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。
-1. at.js程式庫會處理DOM，以從快取的JSON規則物件轉譯體驗。
-1. 體驗會為訪客呈現。
-1. 載入整個網頁。
-1. [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。
+| 步驟 | 說明 |
+| --- | --- |
+| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 4 | 會提出要求以擷取體驗。 |
+| 5 | at.js程式庫會確認JSON規則物件已快取，並執行記憶體中的擷取體驗決定。 |
+| 6 | 已測試的元素會隱藏。 |
+| 7 | at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。 |
+| 8 | at.js程式庫會處理DOM，以從快取的JSON規則物件轉譯體驗。 |
+| 9 | 體驗會為訪客呈現。 |
+| 10 | 載入整個網頁。 |
+| 11 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。 |
 
 ## 我要如何啟用裝置上的決策？
 
@@ -258,6 +249,8 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
    * [!UICONTROL 僅限伺服器端]
    * [!UICONTROL 僅限裝置上]
    * [!UICONTROL 混合]
+
+   ![編輯at.js設定面板](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/global-settings.png)
 
 ### 全域設定
 
