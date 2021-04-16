@@ -4,10 +4,11 @@ description: 瞭解裝置上決策支援哪些功能。
 title: 裝置上決策支援哪些功能
 feature: at.js
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 11%
 
 ---
@@ -53,11 +54,43 @@ ht-degree: 11%
 
 為維持裝置上決策活動與地理對象之間的最低延遲，Adobe建議您在呼叫[getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)時自行提供地理值。 在請求的「內容」中設定Geo物件。 這表示從瀏覽器，可判斷每個訪客的位置。 例如，您可以使用您設定的服務，執行IP對地理的查閱。 有些代管提供者（例如Google Cloud）會透過每個`HttpServletRequest`中的自訂標題提供此功能。
 
-（未來代碼）
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 不過，如果您無法在伺服器上執行IP對地理位置的查詢，但您仍想對包含地理對象的[getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)請求執行裝置上決策，則也支援此功能。 此方法的缺點是使用遠端IP到地理查閱，這會增加每個`getOffers`呼叫的延遲。 此延遲應低於伺服器端決策的`getOffers`呼叫，因為它會點擊靠近您伺服器的CDN。 請求SDK擷取訪客IP位址的地理位置時，請僅提供Geo物件中的「ipAddress」欄位。 如果除了「ipAddress」外，還有其他欄位，[!DNL Target] SDK將不會擷取地理位置中繼資料以進行解析。
 
-（未來代碼）
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### 分配方法
 
