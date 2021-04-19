@@ -5,9 +5,9 @@ title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4144'
+source-wordcount: '4155'
 ht-degree: 29%
 
 ---
@@ -24,8 +24,9 @@ ht-degree: 29%
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 已新增有關`decisioningMethod`的資訊。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 新增下列項目：<ul><li>關於`decisioningMethod`鍵的資訊。</li><li>&quot;getCallOffers()進行裝置上決策的範例。&quot;</li></ul> |
 |  | [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 已新增下列資訊: <ul><li>設備上決策對象成功</li><li>設備上決策對象失敗</li></ul> |
-|  | [活動](/help/c-activities/activities.md) | 已新增有關裝置上決策的資訊。 |
+|  | [活動](/help/c-activities/activities.md) | 已新增裝置上決策的相關資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.5.0 的資訊。 |
+|  | [不使用標籤管理程式實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 已新增裝置上決策的相關資訊。 |
 |  | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增[!UICONTROL Automated Personalization]活動的預覽連結支援[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
 |  | [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 已新增下列新運算子的相關資訊：<ul><li>包含在清單中</li><li> 不包含在清單中</li><li>清單包含</li><li>清單中不包含項目</li><li>清單包含</li><li>清單中不包含</li></ul> |
 |  | [Adobe TargetCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud服務與管* 理指南) | 已新增有關「作業ID」的其他資訊。 |
