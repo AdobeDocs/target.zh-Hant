@@ -1,29 +1,25 @@
 ---
-keywords: 實施；javascript library;js;atjs；裝置上決策；裝置上決策；at.js
+keywords: 實施；javascript library;js;atjs；裝置上決策；裝置上決策；at.js；裝置上；裝置上
 description: 瞭解如何使用at.js程式庫執行裝置上決策
 title: 裝置上決策如何與at.js JavaScript程式庫搭配運作？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
-# 裝置上決策
+# at.js的裝置上決策
 
->[!NOTE]
->
->裝置上決策功能已排定在Target Standard/Premium 21.4.1版中發行（2021年4月19日）。
-
-從2.5版開始，at.js提供裝置上決策。 裝置上決策可讓您快取瀏覽器上的[A/B測試](/help/c-activities/t-test-ab/test-ab.md)和[體驗定位](/help/c-activities/t-experience-target/experience-target.md)(XT)活動，以執行記憶體內決策，而不需封鎖網路要求至[!DNL Adobe Target]邊緣網路。
+從2.5.0版開始，at.js提供裝置上決策。 裝置上決策可讓您快取瀏覽器上的[A/B測試](/help/c-activities/t-test-ab/test-ab.md)和[體驗定位](/help/c-activities/t-experience-target/experience-target.md)(XT)活動，以執行記憶體內決策，而不需封鎖網路要求至[!DNL Adobe Target]邊緣網路。
 
 [!DNL Target] 此外，還提供彈性，讓您透過即時伺服器呼叫，從實驗和機器學習驅動（ML驅動）個人化活動中提供最相關和最新的體驗。換言之，當效能最為重要時，您可以選擇使用裝置上的決策。 但是，當需要最相關、最新和ML導向的體驗時，可以改為呼叫伺服器。
 
-## 有哪些好處？
+## 裝置上決策的優點為何？
 
 裝置上決策的優點包括：
 
@@ -56,7 +52,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 ### 僅限伺服器端
 
-[!UICONTROL 伺服器端] 僅是預設的決策方法，當at.js 2.5+實作並部署在您的Web屬性上時，就會立即設定。
+[!UICONTROL 伺服器] 端僅是預設的決策方法，當at.js 2.5.0+實作並部署在您的Web屬性上時，就會立即設定。
 
 使用[!UICONTROL 伺服器端僅]做為預設組態，表示所有決策都在[!DNL Target]邊緣網路上做出，這涉及封鎖伺服器呼叫。 此方法可引入遞增延遲，但也提供顯著的優點，例如可讓您套用Target的機器學習功能，包括[Recommendations](/help/c-recommendations/recommendations.md)、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)和[自動目標](/help/c-activities/auto-target/auto-target-to-optimize.md)活動。
 
@@ -64,7 +60,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 最後，[!UICONTROL 伺服器端僅]可讓您使用Adobe Experience Cloud並微調可透過Audience Manager和Adobe Analytics區段針對的對象。
 
-下圖說明您的訪客、瀏覽器、at.js 2.5+和Adobe Target邊緣網路之間的互動。 此流程圖會擷取新訪客和舊訪客。
+下圖說明您的訪客、瀏覽器、at.js 2.5.0+和Adobe Target邊緣網路之間的互動。 此流程圖會擷取新訪客和舊訪客。
 
 ![僅限伺服器端的流程圖](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/server-side-only.png)
 
@@ -89,15 +85,15 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 ### 僅限裝置上
 
-[!UICONTROL 裝置上決] 策僅限裝置上的決策方法，當裝置上決策只能用於整個網頁時，必須在at.js 2.5+中設定。
+[!UICONTROL 裝置上決] 策只限裝置上決策方法，當裝置上決策只能用於整個網頁時，必須在at.js 2.5.0+中設定。
 
 裝置上決策可以快如閃電的速度提供您的體驗和個人化活動，因為決策來自快取的規則物件，其中包含符合裝置上決策資格的所有活動。
 
 若要進一步瞭解哪些活動符合裝置上決策的資格，請參閱[裝置上決策中支援的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)。
 
-只有在需要[!DNL Target]決策的所有頁面上都有高效能時，才應使用此決策方法。 此外，請記住，當選取此決策方法時，您不符合裝置上決策資格的[!DNL Target]活動將不會傳送或執行。 at.js程式庫2.5+設定為僅尋找快取的規則物件以做出決策。
+只有在需要[!DNL Target]決策的所有頁面上都有高效能時，才應使用此決策方法。 此外，請記住，當選取此決策方法時，您不符合裝置上決策資格的[!DNL Target]活動將不會傳送或執行。 at.js程式庫2.5.0+設定為僅尋找快取的規則物件以做出決策。
 
-下圖說明您的訪客、瀏覽器、at.js 2.5+和Akamai CDN之間的互動。 Akamai CDN會快取訪客首次瀏覽的規則物件。 對於新訪客的首次頁面瀏覽，JSON規則對象必須從Akamai CDN下載，才能在訪客的瀏覽器上快取至本機。 下載JSON規則工件後，立即做出決定，而不需封鎖網路呼叫。 以下流程圖會擷取新訪客。
+下圖說明您的訪客、瀏覽器、at.js 2.5.0+和Akamai CDN之間的互動。 Akamai CDN會快取訪客首次瀏覽的規則物件。 對於新訪客的首次頁面瀏覽，JSON規則對象必須從Akamai CDN下載，才能在訪客的瀏覽器上快取至本機。 下載JSON規則工件後，立即做出決定，而不需封鎖網路呼叫。 以下流程圖會擷取新訪客。
 
 ![僅限裝置的流程圖](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only.png)
 
@@ -122,7 +118,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 | 11 | 載入整個網頁。 |
 | 12 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 與 中，透過 for Target (A4T) 報表來檢視 [!DNL Analytics][!DNL Analytics]Analytics 資料。[!DNL Target] |
 
-下圖說明訪客、瀏覽器、at.js 2.5+和訪客後續頁面點擊或返回瀏覽的快取JSON規則物件之間的互動。 由於JSON規則工件已快取且可在瀏覽器上使用，因此會立即做出決定，而不需要封鎖網路呼叫。 此流程圖會擷取後續頁面導覽或舊訪客。
+下圖說明訪客、瀏覽器at.js 2.5.0+與訪客後續頁面點擊或返回瀏覽的快取JSON規則物件之間的互動。 由於JSON規則工件已快取且可在瀏覽器上使用，因此會立即做出決定，而不需要封鎖網路呼叫。 此流程圖會擷取後續頁面導覽或舊訪客。
 
 ![後續頁面導覽和重複造訪的僅限裝置上流程圖](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only-subsequent.png)
 
@@ -136,7 +132,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 | --- | --- |
 | 3 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | at.js程式庫會解譯JSON規則工件，並執行記憶體中的擷取體驗決定。 |
 | 5 | 已測試的元素會隱藏。 |
 | 6 | at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。 |
@@ -147,13 +143,13 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 ### 混合
 
-[!UICONTROL 混合] 了必須在at.js 2.5+中設定的決策方法，因為必須同時執行裝置上決策和需要對Adobe Target邊緣網路進行網路呼叫的活動。
+[!UICONTROL 混合] 在必須同時執行裝置上決策和需要對Adobe Target邊緣網路進行網路呼叫的活動時，必須在at.js 2.5.0+中設定的決策方法。
 
 當您同時管理裝置上的決策活動和伺服器端活動時，在思考如何在頁面上部署和布建[!DNL Target]時，可能會有些複雜和麻煩。 [!DNL Target]採用混合決策方法，可得知何時必須對Adobe Target邊緣網路進行伺服器呼叫，以處理需要伺服器端執行的活動，以及何時只執行裝置上的決策。
 
 JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺服器端活動或裝置上的決策活動。 此決策方法可確保您想要快速傳遞的活動透過裝置上決策完成，對於需要更強大的ML導向個人化的活動，這些活動則透過Adobe Target邊緣網路完成。
 
-下圖說明首次瀏覽您頁面的新訪客在您的訪客、瀏覽器、at.js 2.5+、Akamai CDN和Adobe Target邊緣網路之間的互動。 此圖表的優點是，JSON規則工件會以非同步方式下載，而決策則是透過Adobe Target邊緣網路進行。
+下圖說明首次瀏覽您頁面的新訪客的訪客、瀏覽器、at.js 2.5.0+、Akamai CDN和Adobe Target邊緣網路之間的互動。 此圖表的優點是，JSON規則工件會以非同步方式下載，而決策則是透過Adobe Target邊緣網路進行。
 
 此方法可確保對象的大小（可包含許多活動）不會對決策的延遲產生負面影響。 同步下載JSON規則工件並在之後做出決策也可能會對延遲產生不利影響，而且可能不一致。 因此，混合決策方法是最佳實務建議，可針對新訪客的決策一律進行伺服器端呼叫，並在並行快取JSON規則工件時進行。 對於任何後續的頁面瀏覽和回訪，會透過JSON規則工件，從快取和記憶體中做出決策。
 
@@ -169,7 +165,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 系統會向Adobe Target邊緣網路提出頁面載入要求，包括所有已設定的參數，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。 |
 | 5 | 同時，at.js會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
 | 6 | (Adobe Target邊緣網路)描述檔指令碼會執行，然後饋送至描述檔商店。 Profile Store會從觀眾程式庫要求合格的觀眾（例如，從[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共用的觀眾）。 |
@@ -183,7 +179,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 | 14 | 載入整個網頁。 |
 | 15 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。目標資料會透過SDID與[!DNL Analytics]資料相符，並處理至[!DNL Analytics]報表儲存區。 然後就可以在 [!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] for Target[!UICONTROL  (A4T) 報表來檢視 ]Analytics 資料。 |
 
-下圖說明您的訪客、瀏覽器、at.js 2.5+和快取的JSON規則物件之間的互動，以供後續頁面導覽或回訪使用。 在此圖中，請只關注裝置上決定後續頁面導覽或回訪的使用案例。 請記住，根據特定頁面上的活動，可進行伺服器端呼叫以執行伺服器端決策。
+下圖說明您的訪客、瀏覽器、at.js 2.5.0+和快取的JSON規則物件之間，在後續頁面導覽或回訪時的互動。 在此圖中，請只關注裝置上決定後續頁面導覽或回訪的使用案例。 請記住，根據特定頁面上的活動，可進行伺服器端呼叫以執行伺服器端決策。
 
 ![用於後續頁面導覽和重複瀏覽的混合流程圖](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/hybrid-subsequent.png)
 
@@ -195,9 +191,9 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 
 | 步驟 | 說明 |
 | --- | --- |
-| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 3 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 會提出要求以擷取體驗。 |
 | 5 | at.js程式庫會確認JSON規則物件已快取，並執行記憶體中的擷取體驗決定。 |
 | 6 | 已測試的元素會隱藏。 |
@@ -209,7 +205,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 
 ## 我要如何啟用裝置上的決策？
 
-裝置上決策適用於所有使用At.js 2.5+的[!DNL Target]客戶。
+裝置上決策適用於所有使用At.js 2.5.0+的[!DNL Target]客戶。
 
 若要啟用裝置上決策：
 
@@ -233,10 +229,10 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 >
 >請務必在初始化Adobe TargetSDK之前啟用切換，以使用裝置上的決策。 規則不自然物首先需要產生並傳播至Akamai CDN，才能在裝置上進行決策。 傳播可能需要5到10分鐘，第一個規則對象才會產生並傳播至Akamai CDN。
 
-## 如何設定at.js 2.5+以使用裝置上的決策？
+## 如何設定at.js 2.5.0+以使用裝置上決策？
 
 1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 實施]** > **[!UICONTROL 帳戶詳細資訊]**」。
-1. 在「實作方法」(**[!UICONTROL Implementation Methods)]** > 「主要實作方法」(**[!UICONTROL Main Implementation Method)]**&#x200B;下，按一下您at.js版本（必須為at.js 2.5或更新版本）旁的「編輯」(Edit)。****
+1. 在「實作方法」(**[!UICONTROL Implementation Methods)]** > 「主要實作方法」(**[!UICONTROL Main Implementation Method)]**&#x200B;下，按一下您at.js版本（必須為at.js 2.5.0或更新版本）旁的「編輯」(**[!UICONTROL )。]**
 
    ![編輯主要實作方法設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/main-implementation-method.png)
 
@@ -274,7 +270,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 
 ### 自訂設定
 
-如果您在`window.targetGlobalSettings`中設定`decisioningMethod`，但想要根據您的使用案例覆寫每個Adobe Target決定的`decisioningMethod`，則可在At.js2.5+的[getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)呼叫中指定`decisioningMethod`來執行此程式。
+如果您在`window.targetGlobalSettings`中設定`decisioningMethod`，但想要根據您的使用案例覆寫每個Adobe Target決定的`decisioningMethod`，則可在At.js2.5.0+的[getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)呼叫中指定`decisioningMethod`來執行此程式。
 
 ```javascript
 adobe.target.getOffers({ 
@@ -295,7 +291,7 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->若要在getOffers()呼叫中使用&quot;on-device&quot;或&quot;hybrid&quot;做為決策方法，請確定全域設定的`decisioningMethod`為&quot;on-device&quot;或&quot;hybrid&quot;。 at.js程式庫2.5+必須知道是否在載入頁面後立即下載並快取JSON規則工件。 如果全域設定的決策方法設為「伺服器端」，而「裝置上」或「混合」決策方法傳入getOffers()呼叫中，at.js 2.5+將不會快取JSON規則物件來執行裝置上的決策。
+>若要在getOffers()呼叫中使用&quot;on-device&quot;或&quot;hybrid&quot;做為決策方法，請確定全域設定的`decisioningMethod`為&quot;on-device&quot;或&quot;hybrid&quot;。 at.js程式庫2.5.0+必須知道是否在載入頁面後立即下載並快取JSON規則物件。 如果全域設定的決策方法設為「伺服器端」，而「裝置上」或「混合」決策方法傳入getOffers()呼叫中，at.js 2.5.0+將不會快取JSON規則物件，以執行裝置上的決策。
 
 ### 對象快取TTL
 
@@ -309,7 +305,7 @@ adobe.target.getOffers({
 
 ![裝置上決策活動「概述」頁面上的合格標籤。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-decisioning-eligible-label.png)
 
-此標籤並不表示活動將一律透過裝置上的決策傳送。 只有當at.js 2.5+設定為使用裝置上決策時，才會在裝置上執行此活動。 如果at.js 2.5+未設定為使用裝置上，則此活動仍會透過at.js所做的伺服器呼叫傳送。
+此標籤並不表示活動將一律透過裝置上的決策傳送。 只有當at.js 2.5.0+設定為使用裝置上決策時，此活動才會在裝置上執行。 如果at.js 2.5.0+未設定為使用裝置上，則此活動仍會透過at.js的伺服器呼叫傳送。
 
 您可以透過[!UICONTROL 裝置上決策符合]篩選條件，篩選符合[!UICONTROL 活動]頁面上裝置上決策的所有活動。
 
@@ -319,7 +315,7 @@ adobe.target.getOffers({
 >
 >建立並啟動符合裝置上決策資格的活動後，可能需要5到10分鐘的時間，才能將其加入產生並傳播至Akamai CDN簡報點的規則物件中。
 
-## 確保我的裝置上決策活動可透過At.js 2.5+傳送的步驟摘要？
+## 確保我的裝置上決策活動可透過At.js 2.5.0+傳送的步驟摘要？
 
 1. 存取Adobe TargetUI並導覽至「**[!UICONTROL 管理]** > **[!UICONTROL 實施]** > **[!DNL Account Details]**」，以啟用「裝置上決策&#x200B;]**」切換。**[!UICONTROL 
 1. 啟用&#x200B;**&quot;[!UICONTROL 在對象]&quot;**&#x200B;中切換「包括所有現有的設備上決策限定活動」。
@@ -328,4 +324,4 @@ adobe.target.getOffers({
 
 1. 建立並啟用裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)支援的[活動類型，並確認裝置上決策符合資格。
 1. 透過at.js設定UI，將&#x200B;**[!UICONTROL 決策方法]**&#x200B;設為&#x200B;**[!UICONTROL &quot;Hybrid&quot;]**&#x200B;或&#x200B;**[!UICONTROL &quot;僅限裝置上&quot;]**。
-1. 下載並部署At.js 2.5+至您的頁面。
+1. 下載並部署At.js 2.5.0+至您的頁面。
