@@ -5,9 +5,9 @@ title: at.js的每個版本包含哪些內容？
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '4182'
+source-wordcount: '4185'
 ht-degree: 81%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 81%
 >
 >[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis是升級at.js的偏好方法。擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成新版擴充功能，並在[!DNL Launch]目錄中提供升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用指南*&#x200B;中的[擴充升級](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
 
-## at.js 2.5.0（2021年4月19日）
+## at.js 2.5.0（宣佈日期）
 
 此版本的at.js包含下列增強功能和變更：
 
