@@ -5,10 +5,10 @@ title: 我要如何使用Target個人化內容並測試頁面設計？
 feature: 活動
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 96%
+source-wordcount: '2102'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | URL | URL 以淡色文字出現在名稱下方。<br>活動的 URL 可識別活動出現的位置。這協助您快速識別活動，並判斷特定頁面上是否已有測試在執行。<br>如果測試在多個 URL 上執行，則連結會顯示還有使用多少個 URL。按一下連結以檢視該活動的完整 URL 清單。<br>您可以依據 URL 來排序或搜尋。從搜尋方塊旁邊的下拉式清單中選擇[!UICONTROL 「搜尋 URL」]。 |
 | 狀態 | 活動可能有下列其中一種狀態:<ul><li>**已上線**: 活動目前執行中。</li><li>**草稿**: 活動設定已開始，但活動尚未準備好執行。</li><li>**已排程**: 活動已準備好在指定的開始日期和時間啟動。</li><li>**非使用中**: 活動已暫停或停用。</li><li>**同步中**: 活動已儲存且正在同步至 Target 傳送網路。</li><li>**已結束**: 已達活動的指定結束日期和時間，且已停止提供該活動。</li><li>**已封存**: 活動已封存。您可以啟動已封存的活動以再次使用。</li></ul>**注意:** 執行特定動作時，例如在 UI 外部使用 API 方法來啟動活動，更新最多可能需要 10 分鐘才會傳播至 UI。 |
 | 來源 | 顯示活動在何處建立:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| 符合裝置上決策資格 | 在您建立符合裝置上決策資格的活動後，活動的「概述」頁面中會顯示「符合裝置上決策資格」的標籤。<br>此標籤並不表示活動將一律透過裝置上的決策傳送。只有當at.js 2.5.0+設定為使用裝置上決策時，此活動才會在裝置上執行。 如果at.js 2.5.0+未設定為使用裝置上，則此活動仍會透過at.js的伺服器呼叫傳送。<br>請參 [閱裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)。 |
 | 屬性 | 顯示活動的[屬性](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | 預估收入成長 | 如果 100% 的對象皆看到勝出體驗，則顯示預測收入增加。<br>使用下列公式計算:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>如果縮短格式在小數前只有一位數，則此數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K<br>如果活動沒有足夠資料來召開冠軍賽，或沒有成本預估，此欄會顯示「---」。請參閱<br>[預估收入中的提升度](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。 |
 | 最近更新 | 活動的上次更新日期及更新者。 |
@@ -108,6 +109,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 |--- |--- |
 | 類型 | A/B 測試: [手動](/help/c-activities/t-test-ab/test-ab.md)、[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)及[自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)。<br>[自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md)<br>[多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/c-recommendations/recommendations.md) |
 | 狀態  | 已上線<br>草稿<br>已排程<br>非使用中<br>同步中<br>已結束<br>已封存 |
+| 符合裝置上決策資格 | 是<br>否 |
 | 報表來源 | Target<br>Analytics |
 | 體驗撰寫器 | 視覺<br>表單式 |
 | 量度類型 | 轉換<br>收入<br>參與 |
@@ -117,16 +119,10 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 按下列其中一個標題，將活動切換為根據所選標題以遞增或遞減順序列出。
 
-* 活動名稱
-* 活動類型
+* 類型
+* 名稱
 
 ![活動清單遞增順序](/help/c-activities/assets/activities_list_ascending.png)
-
-## 提示與秘訣 {#section_F77F30A246A14B538D9363B7F3639F97}
-
-深入瞭解各項功能，明白您為何該嘗試這些功能，進而充分利用 Adobe Target。提示與秘訣功能提供了影片、使用案例、部落格、文件等的連結。
-
-提示與秘訣功能會定期顯示於「活動清單」頁面上。閱讀完或關閉提示後，直到下個提示出現前，提示都不會再次顯示。您可以選擇透過依序按下「『說明』圖示 > [!UICONTROL 停用『今日秘訣』」]，停用所有顯示的提示。
 
 ![停用今日秘訣](/help/c-activities/assets/tip-disable-new.png)
 
