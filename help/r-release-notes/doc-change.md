@@ -5,9 +5,9 @@ title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '4138'
 ht-degree: 29%
 
 ---
@@ -15,6 +15,20 @@ ht-degree: 29%
 # Adobe Target 產品文件中的
 
 本頁列出對[!DNL Adobe Target]產品文檔所做的重大更改。
+
+## Adobe Target Standard/Premium 21.4.1 (2021 年 4 月 19 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 2021 年 4 月 19 日 | [裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 已新增下列新文章：<ul><li>[裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[支援的裝置上決策功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[裝置上決策規則假象](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 已新增有關`decisioningMethod`的資訊。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 新增下列項目：<ul><li>關於`decisioningMethod`鍵的資訊。</li><li>&quot;getCallOffers()進行裝置上決策的範例。&quot;</li></ul> |
+|  | [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 已新增下列資訊: <ul><li>設備上決策對象成功</li><li>設備上決策對象失敗</li></ul> |
+|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.5.0 的資訊。 |
+|  | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增[!UICONTROL Automated Personalization]活動的預覽連結支援[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
+|  | [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 已新增下列新運算子的相關資訊：<ul><li>包含在清單中</li><li> 不包含在清單中</li><li>清單包含</li><li>清單中不包含項目</li><li>清單包含</li><li>清單中不包含</li></ul> |
+|  | [Adobe TargetCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud服務與管* 理指南) | 已新增有關「作業ID」的其他資訊。 |
+|  | [版本說明](/help/r-release-notes/release-notes.md): 21.4.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe Target Standard/Premium 21.2.1 (2021 年 3 月 9 日)
 
