@@ -3,12 +3,12 @@ keywords: at.js版本；at.js版本；發行說明
 description: 檢視Adobe Targetat.js JavaScript程式庫各版本變更的詳細資訊。
 title: at.js的每個版本包含哪些內容？
 feature: at.js
-role: 開發人員
+role: Developer
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 82%
+source-wordcount: '4182'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 82%
 >Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
 >
 >[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis是升級at.js的偏好方法。擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成新版擴充功能，並在[!DNL Launch]目錄中提供升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用指南*&#x200B;中的[擴充升級](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+
+## at.js 2.5.0（2021年4月19日）
+
+此版本的at.js包含下列增強功能和變更：
+
+* [at.js的](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 裝置上決策支援。
+* [預覽](/help/c-activities/c-activity-qa/activity-qa.md) Automated Personalization活動的連結支援
+
+此版本也移除了對Microsoft Internet Explorer 10及更新版本的支援。
 
 ## at.js 2.4.1（2021年3月23日）
 
