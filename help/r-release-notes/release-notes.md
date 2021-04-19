@@ -5,9 +5,9 @@ title: 目前版本包含哪些新功能？
 feature: '  版本說明 '
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '632'
 ht-degree: 35%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 35%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| at.js的裝置上決策支援 | 裝置上決策可讓行銷人員和開發人員在幾乎零延遲的情況下，在使用者的瀏覽器上進行實驗和個人化。<br>如需詳細資訊，請 [參閱at.js的裝置上決策。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| at.js<br>的裝置上決策支援（要宣佈的日期） | 裝置上決策可讓行銷人員和開發人員在幾乎零延遲的情況下，在使用者的瀏覽器上進行實驗和個人化。<br>如需詳細資訊，請 [參閱at.js的裝置上決策。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
 | ![實體篩](/help/assets/premium.png) 選規則的PremiumList運算子 | [!DNL Target Recommendations] 支援實體篩選規則的全新清單型運算子。(TGT-39234)<br>新添加的運算子包括：<br><ul><li>包含在清單中</li><li>不包含在清單中</li><li>清單包含</li><li>清單中不包含項目</li><li>清單包含</li><li>清單中不包含</li></ul>如需詳細資訊，請參閱[使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)中的「可用運算子」。 |
 
 此版本包含下列修正。
@@ -41,7 +41,7 @@ ht-degree: 35%
 * 修正屬性映射至錯誤工作區的問題。 (TGT-39869)
 * 修正在建立建議排除時變更環境後，若請求失敗，則造成無限載入的問題。 (TGT-39948)
 
-## at.js 2.5.0版（2021年4月19日）
+## at.js 2.5.0版（要宣佈的日期）
 
 此版本的at.js包含下列增強功能和變更：
 
