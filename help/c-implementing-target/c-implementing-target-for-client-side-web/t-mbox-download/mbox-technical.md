@@ -3,7 +3,7 @@ keywords: 實作;mbox.js;dom 操作資料庫;target.js;可視化體驗撰寫器;
 description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
 title: Target mbox.js程式庫有哪些作用？
 feature: at.js
-role: 開發人員
+role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

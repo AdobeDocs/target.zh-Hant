@@ -3,7 +3,7 @@ keywords: 實作;實施
 description: 了解基本概念、熟悉 Target 如何運作以及與您的基礎架構整合，並了解如何追蹤訪客。
 landing-page-description: 開始使用 Adobe Target 前，請先在網站上實作 Adobe Target，了解基本概念和術語，並熟悉 Target 的操作方式。
 title: 如何實施Target?
-feature: 實施
+feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt

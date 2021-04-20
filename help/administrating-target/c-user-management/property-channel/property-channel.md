@@ -2,8 +2,8 @@
 keywords: 工作區; 管理屬性; 權限; 產品組態; 產品設定檔; 角色; 專案
 description: 瞭解如何建立個別的工作區（產品設定檔），然後為使用者指派不同的角色和權限給個別頁面、屬性或網站。
 title: 什麼是企業使用者權限，以及如何使用？
-feature: 管理與設定
-role: 管理員
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

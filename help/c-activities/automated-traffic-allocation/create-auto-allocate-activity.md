@@ -2,7 +2,7 @@
 keywords: 建立自動分配；A/B測試；自動分配活動；新建a/b活動；自動分配；自動分配到最佳體驗；分配；自動分配
 description: 瞭解如何使用Adobe Target的Visual Experience Composer(VEC)，直接在啟用Target的頁面上建立自動配置A/B測試活動。
 title: 如何建立自動分配活動？
-feature: 自動分配
+feature: Auto-Allocate
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

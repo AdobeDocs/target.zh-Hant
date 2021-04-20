@@ -2,7 +2,7 @@
 keywords: 目標文檔更改日誌；文檔更新；新主題；編輯；更新；更新
 description: 隨時更新Adobe Target產品檔案的重要新增和變更。
 title: 我可以在哪裡檢視Target的檔案更新？
-feature: '  版本說明 '
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

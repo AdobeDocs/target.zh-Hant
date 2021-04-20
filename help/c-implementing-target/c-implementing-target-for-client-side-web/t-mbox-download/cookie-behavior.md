@@ -3,7 +3,7 @@ keywords: 概覽和參考資料;webkit
 description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
 title: 我可以在哪裡找到mbox.js Cookie的相關資訊？
 feature: at.js
-role: 開發人員
+role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

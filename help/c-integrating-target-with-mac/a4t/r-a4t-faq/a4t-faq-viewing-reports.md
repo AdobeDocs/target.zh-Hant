@@ -2,7 +2,7 @@
 keywords: faq;常見問題集;analytics for target;a4T;報表;檢視報表;計數方法;曝光次數;訪客;造訪;預設量度;活動轉換;未指定
 description: 尋找在使用Analytics for Target(A4T)時，常被問及有關檢視報表的問題。 A4T可讓您使用Analytics報表來處理Target活動。
 title: 尋找有關使用A4T檢視報表的問題解答？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt

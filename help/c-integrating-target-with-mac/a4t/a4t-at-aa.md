@@ -2,7 +2,7 @@
 keywords: a4t;A4T;使用 Analytics 作為 Target 的報告來源
 description: 瞭解如何在Adobe Target建立使用Analytics作為報告來源(A4T)的「自動分配」和「自動目標」活動。
 title: A4T是否支援自動分配和自動定位活動？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt

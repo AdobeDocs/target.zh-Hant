@@ -2,7 +2,7 @@
 keywords: 部分資料;A4T;差異;analytics for target;孤立;虛擬報表套裝;虛設項目;疑難排解;未拼接;膨脹;未指定
 description: 瞭解如何在使用Analytics for Target(A4t)時，將誇大的「瀏覽」和「訪客」計數的影響降到最低。 瞭解「部分資料」是什麼，以及如何減少資料。
 title: 如何將A4T中誇大的瀏覽次數和訪客計數降至最低？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

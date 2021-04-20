@@ -2,8 +2,8 @@
 keywords: 響應令牌；token;plugins;plug-ins;at.js；回應
 description: 瞭解如何在Adobe Target輸出特定資訊時使用回應Token，以便用於除錯和整合第三方系統（例如Clicktale）。
 title: 什麼是回應Token，我要如何使用它們？
-feature: 管理與設定
-role: 管理員
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

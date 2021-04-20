@@ -2,7 +2,7 @@
 keywords: Recommendations
 description: 瞭解Analytics for Target(A4T)的實作需求，以及實施此整合前要考慮的事項。
 title: 在實作A4T之前，我應該知道什麼？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

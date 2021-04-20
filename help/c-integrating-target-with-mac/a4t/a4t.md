@@ -2,7 +2,7 @@
 keywords: a4t;analytics;analytics for target;analytics 報表來源;adobe analytics 作為 target 的報表來源
 description: 使用Analytics for Target(A4T)根據Analytics轉換量度和受眾區段建立活動，並使用Analytics報表來檢查結果。
 title: 什麼是Analytics for Target(A4T)?
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

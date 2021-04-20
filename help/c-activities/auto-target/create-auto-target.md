@@ -2,7 +2,7 @@
 keywords: 建立自動目標；A/B測試；自動目標活動；新的a/b活動；自動目標；個性化體驗的自動目標；個性化；優化
 description: 瞭解如何使用Adobe Target的Visual Experience Composer(VEC)，直接在Target-enabled頁面上建立您的Auto-Target A/B Test活動。
 title: 如何建立自動定位活動？
-feature: 自動鎖定目標
+feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

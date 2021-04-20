@@ -2,7 +2,7 @@
 keywords: 版本說明
 description: 檢視舊版Adobe Target的功能、增強功能和修正清單。
 title: 舊版包含哪些功能？
-feature: '  版本說明 '
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

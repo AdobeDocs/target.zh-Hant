@@ -3,7 +3,7 @@ keywords: mbox.js faq;mbox.js 常見問題集;document.write;tt.omtrdc.net;剖�
 description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
 title: 有關Target mbox.js的一些常見問題？
 feature: at.js
-role: 開發人員
+role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

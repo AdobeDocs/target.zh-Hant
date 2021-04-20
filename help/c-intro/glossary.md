@@ -1,7 +1,7 @@
 ---
 description: Adobe Target的不同術語是什麼意思？ 尋找常用詞語的定義，協助您進一步瞭解Target。
 title: 我可以在哪裡找到Target中使用的詞語和定義？
-feature: 概述
+feature: Overview
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

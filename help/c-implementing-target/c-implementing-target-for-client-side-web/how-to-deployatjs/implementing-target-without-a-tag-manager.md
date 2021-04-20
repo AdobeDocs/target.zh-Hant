@@ -2,7 +2,7 @@
 keywords: 實施目標；實施；實施at.js；標籤管理器；設備上決策；設備上決策
 description: 瞭解如何指定設定（帳戶詳細資訊、實作方法等） 來實作Adobe Targetat.js程式庫，而不需使用標籤管理器。
 title: 我是否可在沒有標籤管理員的情況下實作Target?
-feature: 實作伺服器端
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

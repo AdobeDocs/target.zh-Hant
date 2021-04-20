@@ -2,8 +2,8 @@
 keywords: 主機；主機；主機組；疑難排解；最佳做法；ubox；重定向；重定向；白名單；allowlist；黑名單；區塊清單
 description: 瞭解如何組織您的網站和製作前環境，以便在Adobe Target輕鬆管理和分開報告。
 title: 什麼是主機，我要如何使用它們？
-feature: 管理與設定
-role: 管理員
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

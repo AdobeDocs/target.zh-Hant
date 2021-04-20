@@ -2,8 +2,8 @@
 keywords: 瀏覽器;必要條件;需求;internet explorer;chrome;firefox;safari;android;surface
 description: 瞭解Adobe Target支援哪些網際網路瀏覽器來傳送其介面和內容。
 title: Target支援哪些瀏覽器？
-feature: 實施
-role: 開發人員
+feature: Implementation
+role: Developer
 translation-type: tm+mt
 source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt

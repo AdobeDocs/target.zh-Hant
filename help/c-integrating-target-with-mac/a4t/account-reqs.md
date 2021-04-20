@@ -2,7 +2,7 @@
 keywords: Analytics作為報告來源；a4t;A4T；需求
 description: 瞭解如何使用Analytics for Target(A4T)，設定在Adobe Target建立以Adobe Analytics為基礎之活動的必要使用者帳戶需求。
 title: A4T需要哪些使用者權限要求？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5

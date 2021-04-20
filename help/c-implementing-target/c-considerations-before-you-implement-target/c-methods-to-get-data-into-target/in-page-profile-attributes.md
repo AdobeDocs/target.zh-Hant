@@ -2,7 +2,7 @@
 keywords: 實施；實施；設定；設定；頁面參數
 description: 使用頁面內描述檔屬性將資料匯入Target。
 title: 如何使用頁面內描述檔屬性將資料匯入Target?
-feature: 實施
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

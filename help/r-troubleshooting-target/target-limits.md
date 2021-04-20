@@ -2,7 +2,7 @@
 keywords: character limit;mbox參數；批次傳送api;profile參數；limits;built in profiles;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;categoryID；疑難排解
 description: 檢視字元限制和其他限制（選件大小、對象、設定檔、值、參數等）的清單 (選件大小、對象、設定檔、值、參數等) 的資訊。
 title: Adobe Target的各種字元、大小和其他限制是什麼？
-feature: 疑難排解
+feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
 source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9

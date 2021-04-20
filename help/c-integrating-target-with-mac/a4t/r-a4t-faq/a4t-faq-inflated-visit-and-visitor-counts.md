@@ -2,7 +2,7 @@
 keywords: faq;常見問題集;analytics for target;a4T;膨脹;造訪;訪客;部分點擊;孤立的;孤立
 description: 使用Analytics for Target(A4T)時，尋找有關誇大瀏覽和訪客計數的問題解答。 瞭解如何將「部分資料」減到最低。
 title: 我可以在哪裡找到有關A4T誇大瀏覽和訪客計數的常見問答集？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

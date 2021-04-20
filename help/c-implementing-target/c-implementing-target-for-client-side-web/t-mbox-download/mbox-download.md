@@ -3,7 +3,7 @@ keywords: 實施；mbox；下載mbox.js；下載api;mbox.js api
 description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
 title: 如何使用mbox.js實作Target?
 feature: at.js
-role: 開發人員
+role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

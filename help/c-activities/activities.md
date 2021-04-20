@@ -2,7 +2,7 @@
 keywords: 活動清單；活動；活動；活動類型；編輯活動；活動；活動；活動屬性；活動清單過濾；活動限制；個人化；個人化
 description: 瞭解Adobe Target的活動如何讓您針對特定受眾個人化內容並測試頁面設計
 title: 我要如何使用Target個人化內容並測試頁面設計？
-feature: 活動
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
 source-git-commit: e0a05d024170f819a417e50938c9765327f28b49

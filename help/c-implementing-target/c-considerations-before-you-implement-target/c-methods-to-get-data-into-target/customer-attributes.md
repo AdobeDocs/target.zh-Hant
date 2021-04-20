@@ -2,7 +2,7 @@
 keywords: 實施；實施；設定；設定；客戶屬性
 description: 使用客戶屬性將資料匯入Target。
 title: 如何使用客戶屬性將資料匯入Target?
-feature: 實施
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

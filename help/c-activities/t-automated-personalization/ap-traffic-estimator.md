@@ -2,7 +2,7 @@
 keywords: 流量估計器；自動個人化；ap；估計流量；自動目標
 description: 使用Adobe Target流量估計器來判斷您是否有足夠的流量讓Automated Personalization活動成功。
 title: 成功活動需要多少流量？
-feature: 自動個人化
+feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
 source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06

@@ -2,7 +2,7 @@
 keywords: 實施；實施；設定；設定；資料提供器
 description: 使用資料提供者將資料匯入Target。
 title: 如何使用資料提供者將資料匯入Target?
-feature: 實施
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

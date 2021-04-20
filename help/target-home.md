@@ -2,7 +2,7 @@
 keywords: Target;home；熱門主題；adobe target;standard;premium;target documentation;adobe target documentation
 title: 我可以在哪裡找到Target檔案？
 description: 瞭解如何使用Adobe Target來個人化客戶體驗，以便在您的網站和行動網站、應用程式及其他數位通道上獲得最大收益。
-feature: 概述
+feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

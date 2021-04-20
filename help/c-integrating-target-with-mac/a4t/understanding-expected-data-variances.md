@@ -2,7 +2,7 @@
 keywords: 資料差異;analytics;差異;差別;a4t;analytics for target;analytics 作為報表來源
 description: 瞭解不使用Analytics for Target(A4T)時，Adobe Target與Analytics之間預期的資料差異，這可完全消除資料差異。
 title: Analytics和A4T之間的預期資料差異為何？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

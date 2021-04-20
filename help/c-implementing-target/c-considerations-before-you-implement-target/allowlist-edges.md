@@ -2,8 +2,8 @@
 keywords: 實施；實施；白名單；白名單；allowlist;allowlist;edge;edge
 description: 檢視主機清單，協助您列出Adobe Target邊緣（地理位置分散的服務節點，可確保使用者的最佳回應時間）。
 title: 如何允許列出目標邊緣節點？
-feature: 隱私權與安全性
-role: 開發人員
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt

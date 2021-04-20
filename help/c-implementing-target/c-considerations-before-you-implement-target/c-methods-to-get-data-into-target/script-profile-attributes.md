@@ -2,7 +2,7 @@
 keywords: 實施；實施；設定；設定；指令碼配置檔案屬性
 description: 使用指令碼描述檔屬性將資料匯入Target。
 title: 如何使用指令碼描述檔屬性將資料匯入Target?
-feature: 實施
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

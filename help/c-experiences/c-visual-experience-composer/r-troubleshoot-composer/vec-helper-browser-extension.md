@@ -2,7 +2,7 @@
 keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
 description: 瞭解為何某些網站在Visual Experience Composer(VEC)中無法可靠地開啟。 VEC Helper瀏覽器擴充功能可讓您可靠地在VEC中載入網站。
 title: 我要如何使用Visual Experience Composer(VEC)Helper Extension?
-feature: 可視化體驗撰寫器 (VEC)
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt

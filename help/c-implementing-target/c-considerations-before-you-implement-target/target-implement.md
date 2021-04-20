@@ -2,7 +2,7 @@
 keywords: document.write;target；實施；實施目標；dtm；動態標籤管理；at.js;mbox.js;target.js;mbox;adobe體驗平台網頁skd;aep網頁sdk
 description: 在您的網頁上參照Target程式庫（at.js或mbox.js），實作Adobe Target。
 title: 瞭解 Target JavaScript 程式庫
-feature: 實施
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

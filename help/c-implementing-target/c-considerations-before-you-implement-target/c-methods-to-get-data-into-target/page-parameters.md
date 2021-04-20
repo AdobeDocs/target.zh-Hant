@@ -2,7 +2,7 @@
 keywords: 實施；實施；設定；設定；頁面參數
 description: 使用頁面參數將資料匯入Target。
 title: 如何使用頁面參數將資料匯入Target?
-feature: 實施
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

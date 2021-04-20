@@ -3,11 +3,11 @@ cloud: Experience Cloud
 product: target
 solution: Target
 audience: end-user
-type: 文件
+type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.zh-Hant
 index: true
-role: 業務從業人員
-level: 中級
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 3f3c0227df7700537c30a3dcd651cc802db59448
 workflow-type: tm+mt

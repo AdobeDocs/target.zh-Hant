@@ -2,7 +2,7 @@
 keywords: 實施；實施；設定；設定；設定；單個配置檔案更新
 description: 使用單一描述檔更新API將資料匯入Target。
 title: 如何使用單一描述檔更新API將資料匯入Target?
-feature: 實施
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
