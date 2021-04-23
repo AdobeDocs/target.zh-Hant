@@ -1,18 +1,18 @@
 ---
 keywords: 描述檔指令碼；描述檔指令碼屬性；互斥活動
-description: 瞭解如何使用描述檔屬性在Adobe Target中設定測試，以比較多個活動，但不要讓相同的訪客參與每個活動。
+description: 瞭解如何使用描述檔屬性在Adobe [!DNL Target] 中設定測試，以比較多個活動，但不讓相同的訪客參與每個活動。
 title: 我可以使用描述檔指令碼來測試互斥的活動嗎？
-feature: Audiences
+feature: 對象
+exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 76%
 
 ---
 
-
-# 使用描述檔指令碼來測試互斥活動{#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# 使用描述檔指令碼來測試互斥的活動
 
 您可以使用設定檔屬性來設定測試，以比較兩個或更多個活動，但請勿讓相同訪客參與每一個活動。
 
