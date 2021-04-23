@@ -1,18 +1,18 @@
 ---
 keywords: a4t;analytics;analytics for target;analytics 報表來源;adobe analytics 作為 target 的報表來源
-description: 使用Analytics for Target(A4T)根據Analytics轉換量度和受眾區段建立活動，並使用Analytics報表來檢查結果。
-title: 什麼是Analytics for Target(A4T)?
-feature: Analytics for Target (A4T)
+description: 使用Analytics for [!DNL Target] (A4T)以根據Analytics轉換度量和對象區段建立活動，並使用Analytics報表來檢查結果。
+title: 什麼是 [!DNL Target] (A4T)的Analytics?
+feature: 目標分析 (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 40%
+source-wordcount: '1268'
+ht-degree: 39%
 
 ---
 
-
-# Adobe Analytics 作為 Adobe Target (A4T) 的報表來源
+# Adobe Analytics作為Adobe[!DNL Target](A4T)的報告來源
 
 [!DNL Adobe Analytics for Target] (A4T)是跨解決方案整合，可讓您根據轉換量度和受眾細 [!DNL Analytics] 分來建立活動。A4T整合可讓您使用[!DNL Analytics]報表來檢查結果。 如果您使用[!DNL Analytics]作為活動的報告來源，則該活動的所有報告和分段都基於[!DNL Analytics]資料收集。
 
@@ -110,7 +110,7 @@ ht-degree: 40%
 
 以下影片包含本主題中討論之概念的詳細資訊。
 
-### Analytics for Target(A4T)(4:32)![概觀徽章](/help/assets/overview.png)
+### Adobe Target(A4T)(4:32)![概觀徽章](/help/assets/overview.png)
 
 此影片說明如何在[!DNL Target]中使用[!DNL Analytics]做為報告來源，以推動最佳化程式的分析。
 
@@ -120,7 +120,7 @@ ht-degree: 40%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Target整合(A4T)(40:33)![教學課程徽章](/help/assets/tutorial.png)
+### Analytics /Adobe Target整合(A4T)(40:33)![教學課程標章](/help/assets/tutorial.png)
 
 這支影片記錄了「[營業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
