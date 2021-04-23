@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集
-description: 透過檢視「自動化區段」報表，瞭解Adobe Target個人化模型所定義的不同區段如何回應活動中的選件／體驗。
+description: 瞭解由Adobe [!DNL Target] 個人化模型定義的不同區段如何透過檢視「自動化區段」報表，回應活動中的選件／體驗。
 title: 什麼是「自動化區段」報表？
-feature: Reports
+feature: 報表
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 「自動化區段」報表{#automated-segments-report}
+# ![PREMIUM](/help/assets/premium.png) 「自動化區段」報表
 
 有關「自動化區段」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
 
@@ -39,13 +39,13 @@ ht-degree: 92%
 
 ## 存取「自動化區段」報表{#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下「**[!UICONTROL 活動]**」，然後按一下清單中所要的「自動個人化」[或「自動目標」](/help/c-activities/auto-target/auto-target-to-optimize.md)活動。](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)[
+1. 按一下「**[!UICONTROL 活動]**」，然後按一下清單中所要的[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)活動。
 
    如果您有許多活動，則可從[!UICONTROL 類型]、[!UICONTROL 狀態]、[!UICONTROL 屬性]、[!UICONTROL 報告來源]、[!UICONTROL Experience Composer]、[!UICONTROL 量度類型]和[!UICONTROL 活動來源]下拉式清單。
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   會顯示「自動個人化摘要」或「自動目標摘要」報表，其中提供有關活動效能的資訊，由第一個螢幕圖示表示。 [](/help/c-reports/reports-ap.md)[](/help/c-reports/auto-target-summary-report.md)另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
+   會顯示「[Automated Personalization摘要](/help/c-reports/reports-ap.md)或[自動目標摘要](/help/c-reports/auto-target-summary-report.md)」報表，其中提供有關活動績效的資訊，由第一個畫面圖示表示。 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
 
    ![](assets/personalization_insights.png)
 
