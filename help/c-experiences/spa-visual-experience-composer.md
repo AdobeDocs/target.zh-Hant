@@ -1,16 +1,16 @@
 ---
 keywords: SPA VEC; React; Angular; react.js; SPA 可視化體驗撰寫器; SPA 體驗撰寫器選項; 單一頁面應用程式; SPA; 行動體驗選項; Target 檢視
-description: 瞭解如何使用Adobe Target中的SPA VEC，以自行方式建立測試並個人化SPA內容，而不需持續的開發相依性。
-title: 如何使用單頁應用程式視覺體驗撰寫器(SPA VEC)?
-feature: Visual Experience Composer (VEC)
+description: 瞭解如何使SPA用Adobe [!DNL Target] 中的VEC，以自行方式建立測試並個人化內容，SPA而不需持續的開發相依性。
+title: 如何使用單頁應用程式視覺體驗撰寫器(SPAVEC)?
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 92%
 
 ---
-
 
 # 單一頁面應用程式 (SPA) 可視化體驗撰寫器
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 在最新版本中，我們現在推出了適用於 SPA 的 VEC。適用於 SPA 的 VEC 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在熱門架構 (React 和 Angular) 上建立 [A/B 測試](/help/c-activities/t-test-ab/test-ab.md)和[體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) (XT) 活動。
 
-## Adobe Target 檢視和單頁應用程式
+## Adobe[!DNL Target]檢視和單頁應用程式
 
 適用於 SPA 的Adobe Target VEC 充分利用「檢視」的新概念: 視覺元素的邏輯組合，共同構成 SPA 體驗。因此，SPA 可以視為根據使用者互動轉換檢視，而不是轉換 URL。檢視通常可代表整個網站或網站內的分組視覺元素。
 
@@ -56,7 +56,7 @@ ht-degree: 92%
 
 假設現在行銷人員想執行 A/B 測試，以瞭解當選取「快捷配送」時，相較於讓這兩種配送選項的按鈕均保持藍色，按鈕從藍色變為紅色是否能增加轉換次數。
 
-## 實作 Adobe Target 檢視
+## 實施Adobe[!DNL Target]視圖
 
 我們已在上文中介紹 Adobe Target 檢視的功能，現在可以在 Target 中運用這個概念，讓行銷人員透過 VEC 在 SPA 上執行 A/B 和 XT 測試。進行測試需要一次性開發人員設定。以下逐一說明設定步驟。
 
@@ -66,7 +66,7 @@ ht-degree: 92%
 
    ![實作詳細資料對話方塊](/help/c-experiences/assets/imp-200.png)
 
-   透過位於[!UICONTROL 管理>實作]的Adobe Target UI下載at.js 2.x。 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
+   透過位於[!UICONTROL 管理>實作]的Adobe TargetUI下載at.js 2.x。 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
 
 1. 在您的網站上實作 at.js 2.x 的最新函數: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
@@ -393,7 +393,7 @@ adobe.target.getOffers({
 * 變更位於下列 URL 下的首頁檢視的背景顏色: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
 * 已變更「產品」檢視中位於URL下方的按鈕顏色：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
 
-以上範例為準，當我們設定[!UICONTROL 頁面傳送]設定時，將會發生什麼情況：[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)在具有at.js 2的SPA中。*x* 的 SPA 中)，那麼會發生什麼情況?
+以上範例為準，當我們設定[!UICONTROL 頁面傳送]設定時，將會發生什麼情況：[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)與at.js 2SPA搭配使用。*x* 的 SPA 中)，那麼會發生什麼情況?
 
 ![頁面傳送對話方塊](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -440,4 +440,4 @@ adobe.target.getOffers({
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-如需詳細資訊，請參閱Adobe Target中的[使用單一頁面應用程式的視覺體驗撰寫器(SPA VEC)。](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)
+如需詳細資訊，請參閱Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)中的「使用單一頁面應用程式的視覺體驗撰寫器(SPAVEC)」。[
