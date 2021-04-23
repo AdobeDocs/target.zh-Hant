@@ -1,16 +1,16 @@
 ---
 keywords: 點擊追蹤; 追蹤點擊; 點擊; AppMeasurement
-description: 瞭解Adobe Target如何讓您將任何元素的點按次數作為成功度量加以追蹤。
+description: 瞭解Adobe [!DNL Target] 如何讓您將任何元素的點按次數作為成功度量加以追蹤。
 title: 什麼是點按追蹤？
-feature: Success Metrics
+feature: 成功量度
+exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '886'
 ht-degree: 91%
 
 ---
-
 
 # 點擊追蹤
 
