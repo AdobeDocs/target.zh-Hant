@@ -1,16 +1,16 @@
 ---
 keywords: mvt；多變數測試；offers；組合
-description: 瞭解如何使用Adobe Target中的視覺體驗撰寫器(VEC)來建立您要納入多變數測試(MVT)的選件。
+description: 瞭解如何使用Adobe [!DNL Target] 中的視覺體驗撰寫器(VEC)來建立您要納入多變數測試(MVT)中的選件。
 title: 如何在多變數測試(MVT)中建立組合？
-feature: Multivariate Tests
+feature: 多變數測試
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
-
 
 # 建立組合
 
@@ -65,4 +65,3 @@ ht-degree: 88%
 * 您必須至少測試三個元素。如果少於這個數目，請執行一系列的 A/B 測試。
 * 建議您每個元素的替代項目之間必須有大幅差異。
 * 雖非必要，但每個元素最好有相同的替代項數量。
-
