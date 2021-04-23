@@ -1,18 +1,18 @@
 ---
 keywords: 配置檔案指令碼；配置檔案指令碼屬性；配置檔案指令碼最佳實踐；debug;debugging;scripts；配置檔案指令碼；屬性；參數
-description: 瞭解儲存在訪客描述檔中的訪客特定屬性，以提供可用於Adobe Target活動的相關資訊。
+description: 瞭解儲存在訪客描述檔中的訪客特定屬性，以提供可用於Adobe [!DNL Target] 活動的相關資訊。
 title: 什麼是描述檔屬性？
-feature: Audiences
+feature: 對象
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 76%
 
 ---
 
-
-# 設定檔屬性{#profile-attributes}
+# 設定檔屬性
 
 描述檔屬性為訪客專屬的參數。這些屬性儲存於訪客的描述檔中，以提供可用於活動的訪客資訊。
 
@@ -34,7 +34,7 @@ ht-degree: 76%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。如需詳細資訊，請參閱Adobe Target API檔案](http://developers.adobetarget.com/api/#updating-profiles)中的[描述檔更新。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意: Target 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 Target，則可以使用 設定檔更新 API 方法來傳遞它們。如需詳細資訊，請參閱Adobe TargetAPI檔案](http://developers.adobetarget.com/api/#updating-profiles)中的[描述檔更新。 |
    | 描述檔 | 直接以 JavaScript 程式碼片段定義。其可儲存諸如客戶總花費金額等執行總數，並透過每個 mbox 請求來執行。請參閱以下的設定檔指令碼屬性。 |
 
 ## 設定檔指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
