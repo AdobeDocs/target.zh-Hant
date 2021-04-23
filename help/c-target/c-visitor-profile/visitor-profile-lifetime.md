@@ -1,18 +1,18 @@
 ---
 keywords: 概覽和參考
-description: 進一步瞭解Adobe Target中的訪客資料何時過期（預設為14天）。 聯絡Adobe Client Care可延長描述檔存留期。
+description: 進一步瞭解Adobe Target的訪客資料何時過期（依預設為14天）。 聯絡Adobe客戶服務可延長描述檔存留期。
 title: 訪客描述檔存留期為何，我可以延長它嗎？
-feature: Audiences
+feature: 對象
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 73%
 
 ---
 
-
-# 訪客設定檔存留期{#visitor-profile-lifetime}
+# 訪客設定檔存留期
 
 根據預設，訪客設定檔會在該訪客 14 天未使用後過期。但可延長此描述檔存留期。
 
