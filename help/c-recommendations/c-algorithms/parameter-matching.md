@@ -1,16 +1,16 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷；動態過濾；動態；參數匹配
-description: 瞭解如何透過比較項目（實體）與請求（API或mbox）中的值，在Adobe Target Recommendations中動態篩選。
-title: 如何依Recommendations活動中的參數符合篩選？
+description: 瞭解如何透過比較項目（實體）與請求（API或mbox）中的值，在RecommendationsAdobe [!DNL Target] 中動態篩選。
+title: 如何在Recommendations活動中依參數比對篩選？
 feature: Recommendations
+exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 10%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMParameter匹配
 
