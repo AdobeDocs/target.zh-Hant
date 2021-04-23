@@ -1,25 +1,25 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: 您是Adobe Target的新手嗎？ 使用Adobe Target歡迎套件快速入門。
+description: 剛到Adobe Target? 使用Adobe [!DNL Target] 歡迎套件快速開始。
 title: 如何開始使用Target
-feature: Overview
+feature: 概述
+exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
+# Adobe[!DNL Target]歡迎套件
 
-# Adobe Target歡迎套件
-
-歡迎使用Adobe Target。
+歡迎來到Adobe Target。
 
 此歡迎套件包含下列章節：
 
 * [第一章：簡介](/help/c-intro/target-welcome-kit-1.md)
-* [第二章：Adobe Target總覽](/help/c-intro/target-welcome-kit-2.md)
+* [第二章：Adobe Target](/help/c-intro/target-welcome-kit-2.md)
 * [第三章：開發您的測試和個人化概念](/help/c-intro/target-welcome-kit-3.md)
 * [第四章：使用Target的秘訣](/help/c-intro/target-welcome-kit-4.md)
 * [第五章：測試和個人化活動的靈感](/help/c-intro/target-welcome-kit-5.md)
