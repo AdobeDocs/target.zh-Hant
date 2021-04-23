@@ -1,18 +1,18 @@
 ---
 keywords: reports;auto-target;auto target;AT;report
-description: 瞭解如何解譯Adobe Target中的「自動目標摘要」報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
+description: 瞭解如何解譯Adobe Target的「自動目標摘要」報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
 title: 如何使用自動定位摘要報表？
-feature: Reports
+feature: 報表
+exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 53%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMAuto-Target摘要報告{#auto-target-summary-report}
+# ![](/help/assets/premium.png) PREMIUMAuto-Target摘要報告
 
 有關如何解譯[!DNL Adobe Target]中的[!UICONTROL 自動目標摘要]報告的資訊。
 
