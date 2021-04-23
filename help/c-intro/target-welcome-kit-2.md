@@ -1,20 +1,20 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: 深入瞭解Adobe Target。 瞭解可用活動、通道、實作、整合等。
+description: 高層來看Adobe Target. 瞭解可用活動、通道、實作、整合等。
 title: 我可以在哪裡找到Target的高階簡介？
-feature: Overview
+feature: 概述
+exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2520'
 ht-degree: 17%
 
 ---
 
+# 第二章：Adobe[!DNL Target]總覽
 
-# 第二章：Adobe Target總覽
-
-在開始使用[!DNL Adobe Target]之前，請先從高階角度概述解決方案。 在本章中，請瞭解解決方案的主要功能、您可使用的品牌觸點、實作選項、重要的使用者介面功能和工作流程、治理功能，以及它在整體[!DNL Adobe Experience Cloud]中的角色。 除非注明[!DNL Adobe Target Premium]功能，否則本章中介紹的項目可同時用於[!DNL Adobe Target Premium]和[!DNL Adobe Target Standard]。 如需詳細資訊，請參閱[ Target簡介](/help/c-intro/intro.md)。
+在開始使用[!DNL Adobe Target]之前，請先從高階度概述解決方案。 在本章中，請瞭解解決方案的主要功能、您可使用的品牌觸點、實作選項、重要的使用者介面功能和工作流程、治理功能，以及它在整體[!DNL Adobe Experience Cloud]中的角色。 除非注明[!DNL Adobe Target Premium]功能，否則本章中介紹的項目可同時用於[!DNL Adobe Target Premium]和[!DNL Adobe Target Standard]。 如需詳細資訊，請參閱[ Target簡介](/help/c-intro/intro.md)。
 
 ## 功能與活動
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 在測試活動中，您會比較數位體驗的一種變化與一種或多種其他變化，以發現其中一種變化會導致大多數訪客採取所需動作。 [!DNL Target] 提供下列測試功能：A/B測試、多變數測試(MVT)和自動配置。
 
-透過個人化活動，您可以針對特定訪客群組或每位訪客提供量身打造的數位體驗。 [!DNL Target] 提供下列個人化功能：體驗定位、自動定位、自動個人化和建議。
+透過個人化活動，您可以針對特定訪客群組或每位訪客提供量身打造的數位體驗。 [!DNL Target] 提供下列個人化功能：體驗定位、自動定位、Automated Personalization和Recommendations。
 
 如需更深入瞭解使用每個功能的時機和方式，請參閱[ Target活動類型](/help/c-activities/target-activities-guide.md)。
 
@@ -30,21 +30,21 @@ ht-degree: 17%
 | --- | --- |
 | A/B 測試 | 比較您網站或其他數位客戶觸點上的兩種或兩種以上體驗或優惠的變化，以瞭解哪些變化在預先指定的測試期間對關鍵業務衡量標準有最大改善。 A/B測試非常適合進行大型變更，例如新的網頁版面配置、不同的網站導覽方式，或對複製、影像和行動要求按鈕等數位體驗的個別元素進行不同的處理方式。 [了解詳情](/help/c-activities/t-test-ab/test-ab.md)。 |
 | 自動分配 | 識別兩個或更多體驗中效能最佳的體驗，並自動重新分配更多流量給成功者，以在測試持續執行和學習時提高轉化率。 使用由[!DNL Adobe Sensei]提供支援的人工智慧。 [了解詳情](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| Auto-Target<br>(Premium) | 運用[!DNL Target]中的Adobe Sensei AI，根據個別客戶個人檔案以及先前具有類似個人檔案的訪客的行為，判斷並提供每位訪客的最佳體驗。 Auto-Target可讓您大規模個人化。 [了解詳情](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| Auto-Target<br>(Premium) | 運用[!DNL Target]中的Adobe Sensei人工智慧，根據個別客戶個人檔案和先前具有類似個人檔案的訪客行為，判斷並提供每位訪客的最佳體驗。 Auto-Target可讓您大規模個人化。 [了解詳情](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | Automated Personalization<br>(Premium) | 使用[!DNL Adobe Sensei]支援的進階機器學習演算法和自動化功能，檢視選件中影像、複製和其他元素的不同組合，並根據最佳達成商業目標（例如提高每位訪客的轉換率或收入）的結果，為每位訪客提供最佳組合。 [了解詳情](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | 體驗鎖定目標 (XT) | 根據一組使用者定義的規則和准則，將內容傳送給特定的觀眾。 **[!UICONTROL 當您了]** 解受眾是有價值的，並且對體驗產生共鳴有良好的感覺時，Experience Targeting對於將特定體驗或內容定位給特定受眾非常有用。[了解詳情](/help/c-activities/t-experience-target/experience-target.md)。 |
 | 多變數測試 (MVT) | 比較頁面上各種元素或數位體驗的可能組合——例如3種不同的背景影像、2種不同的復本和2種不同的按鈕顏色。 MVT會決定哪些組合對特定對象的效能最佳，以及哪些元素對結果的影響最大。 [了解詳情](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
-| Recommendations<br>(Premium) | 使用Adobe Sensei AI，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。 [了解詳情](/help/c-recommendations/recommendations.md)。 |
+| Recommendations<br>(Premium) | 使用Adobe Sensei人工智慧，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。 [了解詳情](/help/c-recommendations/recommendations.md)。 |
 
 ## 頻道
 
-您可以使用[!DNL Target]來測試和個人化幾乎任何地方的數位體驗——例如您的網站、行動網站和行動應用程式等傳統數位觸點，也可以在資訊站、電子郵件、IoT裝置、遊戲主機，甚至Alexa和Cortana等語音助理上。 許多公司都開始在其網站上使用[!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動通道現在至關重要。 最理想的情況是，您可以跨所有觸點連結訪客的體驗，以提供順暢、一致的體驗。
+您可以使用[!DNL Target]來測試和個人化幾乎任何地方的數位體驗——例如您的網站、行動網站和行動應用程式等傳統數位觸點，也可以在資訊站、電子郵件、IoT裝置、遊戲主機，甚至Alexa和小娜等語音助理上測試和個人化。 許多公司都開始在其網站上使用[!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動通道現在至關重要。 最理想的情況是，您可以跨所有觸點連結訪客的體驗，以提供順暢、一致的體驗。
 
 | 管道 | 詳細資料 |
 | --- | --- |
-| 網站 | [!DNL Target] 可用於在多頁、單頁應用程式(SPA)和行動網站的頁面上執行A/B測試、多變數測試、體驗定位、自動分配、自動定位、自動個人化和建議活動，以改善訪客和客戶參與度、增加轉換率並增加收入。 |
+| 網站 | [!DNL Target] 可用於在多頁、單頁應用程式(SPA)和行動網站的頁面上執行A/B測試、Multivariate Testing、體驗定位、自動分配、自動定位、Automated Personalization和Recommendations活動，以改善訪客和客戶參與度、提高轉化率並增加收入。 |
 | 行動網路 | [!DNL Target] 可用來執行您在行動網站頁面上網站上執行的所有相同活動類型，以類似方式改善訪客和客戶參與度、提高轉化率，並增加收入。 |
-| 行動應用程式 | [!DNL Target] 可用來根據使用者行為和行動內容來測試和個人化行動應用程式體驗。[!DNL Target] 可讓您透過反覆測試、體驗鎖定和人工智慧支援的個人化，提供互動，以吸引和轉化客戶。若要在行動應用程式上使用[!DNL Target]，您必須使用Adobe Mobile Services SDK。 |
+| 行動應用程式 | [!DNL Target] 可用來根據使用者行為和行動內容來測試和個人化行動應用程式體驗。[!DNL Target] 可讓您透過反覆測試、體驗鎖定和人工智慧支援的個人化，提供互動，以吸引和轉化客戶。若要在行動應用程式上使用[!DNL Target]，您必須使用AdobeMobile Services SDK。 |
 | 物聯網／隨處 | [!DNL Target] 提供伺服器端實作，讓您可以在傳統網站、行動網站和行動應用程式的活動中，在電子郵件和沒有瀏覽器或不使用JavaScript程式碼的觸點上，使用相同的測試和個人化功能。例如，您可以測試並個人化資訊站、機上盒、遊戲主機、語音助理和其他非傳統觸點。 |
 
 ## 實作
@@ -76,7 +76,7 @@ ht-degree: 17%
 | 工具 | 詳細資料 |
 | --- | --- |
 | 可視化體驗撰寫器 (VEC) | WYSIWYG使用者介面，可讓您輕鬆建立並測試網站情境中的個人化體驗與優惠。 您可以拖放、交換及修改網頁（或選件）或行動網頁的版面配置和內容，以建立[!DNL Target]活動的體驗和選件。 [了解詳情](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
-| [!UICONTROL 表單式體驗撰寫器] | 非視覺化體驗和選件建立介面，當Visual Experience Composer無法使用或實際使用時，此介面可用於建立用於A/B測試、體驗定位、自動個人化和建議活動的體驗。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。[了解詳情](/help/c-experiences/form-experience-composer.md)。 |
+| [!UICONTROL 表單式體驗撰寫器] | 非視覺化體驗和選件建立介面，在A/B測試、Experience Targeting、Automated Personalization和Recommendations活動中，當Visual Experience Composer無法使用或實際使用時，此介面對建立體驗非常有用。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。[了解詳情](/help/c-experiences/form-experience-composer.md)。 |
 | [!UICONTROL 單一頁面應用程式 (SPA) 可視化體驗撰寫器] | 適用於 SPA 的 VEC 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在熱門架構 (React 和 Angular) 上建立 A/B 測試和體驗鎖定目標 (XT) 活動。[了解詳情](/help/c-experiences/spa-visual-experience-composer.md)。 |
 
 ## 治理與控制
@@ -86,7 +86,7 @@ ht-degree: 17%
 
 | 工具 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL Adobe Admin Console for Enterprise] | 將使用者新增至Adobe Target，並從Adobe Admin Console指派權限。 [了解詳情](/help/administrating-target/c-user-management/c-user-management/user-management.md)。 |
+| [!UICONTROL Adobe Admin Console for Enterprise] | 新增使用者至Adobe Target，並從Adobe Admin Console指派權限。 [了解詳情](/help/administrating-target/c-user-management/c-user-management/user-management.md)。 |
 | [!UICONTROL 企業]權限<br>(Premium) | 正式管理企業內部使用者存取[!DNL Target]的方式。 將使用者新增至[!DNL Target]、根據其角色指派權限，並根據不同的部門、全域位置、頻道和其他邏輯群組為團隊建立工作區。 您可以為用戶分配觀察者、編輯者、發佈者或批准者的角色。 [了解詳情](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 
 ## 整合
@@ -96,12 +96,12 @@ ht-degree: 17%
 
 | 整合 | 詳細資料 |
 | --- | --- |
-| Adobe Experience Cloud | [!DNL Target] 與其他解決方案一起提供 [!DNL Adobe Experience Cloud] 了嵌入式功能，可大規模個人化體驗。運用[!DNL Target]的強大功能以及[Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)、[Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)、[Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)(AAM)和[ Adobe Experience Manager](/help/c-experiences/c-manage-content/aem-experience-fragments.md)(AEM)。 |
-| Target API(Premium) | [!UICONTROL Target] 提供超過40個API，您可使用這些API將Adobe Target與第一方、第二方和第三方系統整合。[了解詳情](/help/api/api-overview.md)。 |
+| Adobe Experience Cloud | [!DNL Target] 與其他解決方案一起提供 [!DNL Adobe Experience Cloud] 了嵌入式功能，可大規模個人化體驗。將[!DNL Target]的強大功能與[Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)、[Experience Cloud觀眾](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)、[Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)(AAM)和[Adobe Experience Manager](/help/c-experiences/c-manage-content/aem-experience-fragments.md)(AEM)一起運用。 |
+| Target API(Premium) | [!UICONTROL Target] 提供超過40種API，您可用來將Adobe Target與第一方、第二方和第三方系統整合。[了解詳情](/help/api/api-overview.md)。 |
 
 ## 請記住
 
-在我們進入下一章之前，請先考慮以下想法：「開發您的測試和個人化概念。」
+在接下來的章節之前，請先考慮以下想法：「開發您的測試和個人化概念。」
 
 ### 最佳化的最佳範例
 
