@@ -1,13 +1,13 @@
 ---
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
-description: 瞭解如何將電子郵件與Adobe Target·Recommendations整合，包括使用Target Delivery API、rawbox範本和僅下載範本。
+description: 瞭解如何將電子郵件與Adobe [!DNL Target] Recommendations, including using the [!DNL Target] 傳送API、rawbox範本和僅下載範本整合。
 title: 如何將Recommendations與電子郵件整合？
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 85%
 
 ---
@@ -78,7 +78,7 @@ rawbox 類似於 mbox 要求，但是是用於非 Web 環境，例如電子郵�
 * 在此情況中，回應會是設為 mboxDefault 參數值的內容。請參閱以下有關此參數的說明。
 * 電子郵件提供者應該具有預設的建議 HTML 區塊，以在此情況下使用。
 
-### Target伺服器逾時並傳回，但沒有資料
+### [!DNL Target]伺服器逾時並傳回，而無資料
 
 * 在此情況中，Target 伺服器將傳回下列內容:
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(可選) | 1 | 依預設，在找不到可傳遞的內容時會將呼叫端重新導向。用來停用預設行為。 |  |
 | `mbox3rdPartyId` | *xxx* | 如果您有要用於設定檔鎖定目標的自訂訪客 ID，請使用此值。 |  |
 
-### 潛在的 Target 伺服器回應
+### 可能的[!DNL Target]伺服器響應
 
 | 回應 | 說明 |
 |--- |--- |
