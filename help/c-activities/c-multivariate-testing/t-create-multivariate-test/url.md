@@ -2,17 +2,17 @@
 keywords: 多變數測試；活動url
 description: 瞭解如何指定活動URL，以決定在測試中使用的頁面，以及當使用Adobe Target設計多變數測試活動時開啟的頁面。
 title: 多變數(MVT)活動中的活動URL是什麼？
-feature: Multivariate Tests
+feature: 多變數測試
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 79%
+source-wordcount: '305'
+ht-degree: 78%
 
 ---
 
-
-# 活動 URL{#activity-url}
+# 活動 URL
 
 活動 URL 會決定[!UICONTROL 多變數測試] (MVT) 中使用以及 [!DNL Adobe Target] 中設計測試時開啟的頁面。
 
