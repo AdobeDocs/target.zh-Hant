@@ -1,14 +1,14 @@
 ---
 keywords: 實施；實施；設定；設定；客戶屬性
-description: 使用客戶屬性將資料匯入Target。
-title: 如何使用客戶屬性將資料匯入Target?
-feature: Implementation
+description: 使用客戶屬性將資料匯入 [!DNL Target] 。
+title: 如何使用客戶屬性將資料匯入 [!DNL Target] ?
+feature: 實施
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 56%
 
 ---
