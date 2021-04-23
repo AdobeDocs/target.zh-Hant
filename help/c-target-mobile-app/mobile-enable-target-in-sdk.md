@@ -1,19 +1,19 @@
 ---
 keywords: 行動應用程式;行動應用程式 sdk;target 行動應用程式;行動 target sdk;行動應用程式 sdk;在 sdk 中啟用 target
-description: 瞭解如何將Adobe Mobile Services SDK新增至您的行動應用程式。
-title: 如何在Adobe Mobile SDK中啟用Target?
-feature: Implement Mobile
+description: 瞭解如何將AdobeMobile Services SDK新增至您的行動應用程式。
+title: 如何在Adobe行動SDK中啟用 [!DNL Target] ?
+feature: 實施行動
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-
-# 啟用 SDK 中的 Target{#enable-target-in-the-sdk}
+# 在SDK中啟用[!DNL Target]
 
 將 Adobe Mobile Services SDK 新增至您的應用程式。
 
@@ -38,4 +38,3 @@ ht-degree: 81%
 >[!IMPORTANT]
 >
 > 如果您無法存取行動行銷介面，可以直接在您的應用程式代碼的配置檔案中進行變更; 不過，它不會與使用者介面中的設定頁面同步。
-
