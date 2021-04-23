@@ -1,16 +1,16 @@
 ---
 keywords: 內容資料庫; 資產; 注釋; 複製; 刪除資產; 下載資產; 編輯內容; 共用卡片; 檢視內容屬性
-description: 瞭解如何在Adobe Target選件程式庫中管理程式碼和影像選件。 瞭解如何檢視選件的詳細資訊，以及如何編輯、複製、移動或刪除選件。
+description: 瞭解如何在Adobe [!DNL Target] 選件程式庫中管理程式碼和影像選件。 瞭解如何檢視選件的詳細資訊，以及如何編輯、複製、移動或刪除選件。
 title: 如何處理選件程式庫中的內容？
-feature: Experiences and Offers
+feature: 體驗與優惠
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 37%
+source-wordcount: '769'
+ht-degree: 36%
 
 ---
-
 
 # 在資產庫中處理內容
 
