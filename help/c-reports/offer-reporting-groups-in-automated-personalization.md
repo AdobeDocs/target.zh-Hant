@@ -1,20 +1,20 @@
 ---
 keywords: 自動個人化；選件；報告；組；報告組
-description: 瞭解如何在Adobe Target Automated Personalization活動中使用選件報告群組。 使用報告群組，Target只會為每個報告群組建立一個個人化模型。
-title: 我可以在自動個人化活動中使用選件報告群組嗎？
-feature: Reports
+description: 瞭解如何使用Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] 中的選件報告群組，為每個報告群組建立一個個人化模型。
+title: 我可以在Automated Personalization活動中使用選件報告群組嗎？
+feature: 報表
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) 自動個人化中的選件報表群組
 
-# ![PREMIUM](/help/assets/premium.png) 自動個人化中的選件報表群組{#offer-reporting-groups-in-automated-personalization}
-
-有關在[自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活動中使用報告組的資訊。
+關於在[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活動中使用報告組的資訊。
 
 報表群組執行兩個重要功能:
 
@@ -53,4 +53,3 @@ ht-degree: 61%
    若要建立新報表群組以將選定選件指派至該群組，請選取&#x200B;**[!UICONTROL 「新增」]**，命名新報表群組，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
 
    ![](assets/ap_reporting_groups.png)
-
