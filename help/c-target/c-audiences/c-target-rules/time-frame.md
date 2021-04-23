@@ -1,20 +1,20 @@
 ---
 keywords: 時間範圍;開始日期;結束日期;開始/結束日期;目標排程;週劃分;日劃分;劃分
 description: 瞭解如何使用開始／結束日期和時間來定位在特定時段內瀏覽您網站的使用者。 您也可以設定「周」和「日分割」選項。
-title: 我可以定位在特定時間瀏覽我網站的訪客嗎？
-feature: Audiences
+title: 我可以 [!DNL Target] 在特定時間瀏覽我網站的訪客嗎？
+feature: 對象
+exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
+# 時間段
 
-# 時間範圍{#time-frame}
-
-您可以新增開始/結束日期和時間，以鎖定在特定時間範圍期間造訪您的網站的使用者。您也可以設定「週與日劃分」選項，來為對象鎖定目標建立週期性模式。
+您可以新增開始/結束日期和時間以鎖定在特定時間範圍期間造訪您的網站的使用者。您也可以設定「週與日劃分」選項，來為對象鎖定目標建立週期性模式。
 
 例如，使用[結合的臨機對象功能](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)，您可以鎖定在這三天到黑色星期五期間具有特定內容且低消費的人員，以及在黑色星期五之後具有其他內容的人員。
 
