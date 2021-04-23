@@ -1,17 +1,17 @@
 ---
 keywords: 瀏覽器;必要條件;需求;internet explorer;chrome;firefox;safari;android;surface
-description: 瞭解Adobe Target支援哪些網際網路瀏覽器來傳送其介面和內容。
-title: Target支援哪些瀏覽器？
-feature: Implementation
+description: 瞭解哪些Adobe [!DNL Target] 的網際網路瀏覽器支援其介面和內容傳送。
+title: ' [!DNL Target] 支援哪些瀏覽器？'
+feature: 實施
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 58%
 
 ---
-
 
 # 受支援的瀏覽器
 
