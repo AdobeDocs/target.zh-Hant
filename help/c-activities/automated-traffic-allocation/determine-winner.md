@@ -1,20 +1,20 @@
 ---
 keywords: 自動流量分配；目標；成功者；統計保證；可信度；確定成功者；提升；可信度；預設；預設體驗；自動分配
-description: 瞭解如何透過檢查重要指標（包括提升度和信賴度）來解譯Adobe Target中「自動配置A/B」活動的結果。
+description: '瞭解如何透過檢查重要指標（包括提升度和信賴度）來解譯Adobe中「自動分配A/B」活動的結果。 [!DNL Target] '
 title: 如何解譯自動分配報表？
-feature: Auto-Allocate
+feature: 自動分配
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 46%
 
 ---
 
+# 解譯自動分配報表
 
-# 解譯自動分配報告{#determine-a-winner}
-
-透過檢查重要指標（包括提升度和信賴度），解譯[!UICONTROL Adobe Target]中[!UICONTROL Auto-Allocate] A/B活動的結果。
+通過檢查重要指標（包括提升度和信心）來解釋[!UICONTROL Adobe Target]中[!UICONTROL 自動分配] A/B活動的結果。
 
 許多行銷人員犯了一種錯誤，在結果指出明確的贏家之前便提早宣告獲勝體驗。我們現在已經可讓您輕鬆決定獲勝者。
 
@@ -48,7 +48,7 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
 >[!IMPORTANT]
 >
->Target會在預先定義的最小轉換數後顯示成功者；不過，挑選成功者的最終決定應一律以Adobe Target [範例大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)的結果為準。 Target不會考慮網站的基本轉換率，以及輸入計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最少轉換次數，提前顯示成功者。 如需詳細資訊，請參閱[範例大小計算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+>Target會在預先定義的最小轉換數後顯示成功者；不過，挑選成功者的最終決定應一律以Adobe Target[樣本大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)的結果為準。 Target不會考慮網站的基本轉換率，以及輸入計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最少轉換次數，提前顯示成功者。 如需詳細資訊，請參閱[範例大小計算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
 ## 瞭解自動分配活動中的提升度和可信度報告{#lift-confidence}
 
@@ -76,4 +76,3 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
 * 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些信賴等級通常會出現在正常A/B測試完成的約一半時間內（雖然這並不保證）。 要確定正常A/B測試運行的時間，請使用[示例大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html) :外掛控制項的轉換率（在「基線轉換率」中）、「提升度」中為「5%」，而「信賴度」中為95%。 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
 * 如果報表完全顯示 0%，可能表示太早進入活動。
-
