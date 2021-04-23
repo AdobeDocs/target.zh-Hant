@@ -1,17 +1,17 @@
 ---
 keywords: 實作;實施
-description: 瞭解如何在您的網站上實作Adobe Target。 設定您的全域設定、實作方法（AEP Web SDK或at.js）等。
-title: 如何在我的網站上實作Target?
-feature: Administration & Configuration
+description: 瞭解如何在您的網站上實作Adobe [!DNL Target] 。 設定您的全域設定、實作方法（AEP Web SDK或at.js）等。
+title: 如何在我的網站上實施 [!DNL Target] ?
+feature: 管理與設定
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 18%
 
 ---
-
 
 # 實施
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] 是實作的偏好方法 [!DNL Target]。[!DNL Launch] 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。如需詳細資訊，請參閱「使用Adobe Launch實作目標」。[](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+>[!DNL Adobe Experience Platform Launch] 是實作的偏好方法 [!DNL Target]。[!DNL Launch] 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。如需詳細資訊，請參閱[使用Adobe啟動實作目標](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
 
 1. 要訪問[!UICONTROL 實施]頁，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實施]**。
 
