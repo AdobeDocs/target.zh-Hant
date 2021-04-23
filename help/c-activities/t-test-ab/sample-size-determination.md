@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n；樣本大小；樣本大小計算器；自動分配；自動分配；計算器
-description: 瞭解執行A/B測試的時間。 在Adobe Target成功的A/B測試需要足夠的訪客（樣本大小）來改善轉換率。
+description: 瞭解執行A/B測試的時間。 在Adobe [!DNL Target] 中成功進行A/B測試需要足夠的訪客（樣本大小）來改善轉換率。
 title: 我應執行A/B測試多久？
-feature: A/B Tests
+feature: A/B 測試
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # A/B 測試該執行多久?
 
@@ -38,7 +38,7 @@ ht-degree: 63%
 
 如需詳細資訊，請參閱[自動配置概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
 
-## Adobe Target 樣本大小計算機 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe[!DNL Target]示例大小計算器{#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 如果您選擇使用手動[!UICONTROL A/B測試]活動，而不是[!UICONTROL 自動分配],[!DNL Target]樣本大小計算器將幫助您確定成功測試所需的樣本大小。 手動A/B測試是固定水準測試，因此計算器很有幫助。 使用[!UICONTROL 自動分配]活動的計算器是可選的，因為[!UICONTROL 自動分配]會為您聲明一個成功者。 電腦可粗略估計所需的樣本大小。 如需有關如何使用此計算機的詳細資訊，請繼續閱讀。
 
@@ -161,6 +161,6 @@ A/B 測試的統計檢定力是指偵測到某個數量的轉換率有實質差�
 
 ## 結論 {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-透過使用[!UICONTROL 自動分配]活動，[!DNL Target]可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以在測試繼續執行和學習時增加轉換。 [!UICONTROL 自動分配可讓您輕鬆達成轉換目標，同時消除猜測工作。]
+透過使用[!UICONTROL 自動分配]活動，[!DNL Target]可識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者，以在測試持續執行和學習的同時提高轉化率。 [!UICONTROL 自動分配可讓您輕鬆達成轉換目標，同時消除猜測工作。]
 
 使用本文中介紹的範例大小計算器（連結），並允許測試在其建議的時間長度內執行，可確保您一律執行符合您認為適合特定測試的假陽性和假陰性率的高品質A/B測試。 如此可確保測試一致，且能夠可靠地偵測到您所尋找的提升度。
