@@ -1,16 +1,16 @@
 ---
 keywords: a4t;A4T;使用 Analytics 作為 Target 的報告來源
-description: 瞭解如何在Adobe Target設定使用Adobe Analytics作為報告來源(A4T)的活動。
+description: 瞭解如何在使用Adobe Analytics作為報告來源(A4T)的Adobe [!DNL Target] 中配置活動。
 title: 如何建立使用A4T的活動？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '649'
 ht-degree: 32%
 
 ---
-
 
 # 建立使用Analytics做為報告來源的活動
 
