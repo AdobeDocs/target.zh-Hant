@@ -1,18 +1,18 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: 探索在Adobe Target中使用自動個人化(AP)活動以及建議的解決方案時可能面臨的潛在挑戰。
-title: 如何疑難排解自動個人化？
-feature: Automated Personalization
+description: 探索在Adobe Target使用Automated Personalization(AP)活動時可能面臨的潛在挑戰以及建議的解決方案。
+title: 如何診斷Automated Personalization?
+feature: 自動個人化
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 疑難排解自動個人化{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) 疑難排解自動個人化
 
 有時活動不會如預期般進行。以下是使用自動個人化時您可能面臨的一些潛在挑戰，以及一些建議的解決方案。
 
@@ -58,4 +58,3 @@ AP 活動產生提升度需要數個係數:
 
 * 如果您無法在新索引標籤中查看預覽 (由於瀏覽器快取)，請嘗試重新整理兩或三次，或是複製連結並在新的瀏覽器或新工作階段中開啟它。
 * 如果您已變更任何內容，請重新產生體驗 URL 連結，並您的團隊成員分享新連結。
-
