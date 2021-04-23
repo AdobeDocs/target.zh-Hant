@@ -1,18 +1,18 @@
 ---
 keywords: 訪客設定檔;目標訪客設定檔
-description: 瞭解如何在Adobe Target中建立觀眾，以鎖定符合新訪客或舊訪客、類別相似性等特定描述檔參數的訪客。
-title: 我可以定位符合特定描述檔參數的訪客嗎？
-feature: Audiences
+description: 瞭解如何在Adobe [!DNL Target] 中建立觀眾，以針對符合特定描述檔參數（例如新訪客或舊訪客、類別相似性等）的訪客。
+title: 我是否可以 [!DNL Target] 符合特定描述檔參數的訪客？
+feature: 對象
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 83%
 
 ---
 
-
-# 訪客資料{#visitor-profile}
+# 訪客資料
 
 建立受眾以將目標鎖定於符合特定設定檔參數的訪客。
 
