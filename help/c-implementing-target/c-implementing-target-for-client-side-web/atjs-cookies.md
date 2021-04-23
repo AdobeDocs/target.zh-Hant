@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;Cookie
-description: 有關 Adobe Target at.js 2.x 和 at.js 1.x 如何處理 Cookie 的詳細資訊
+description: 關於Adobe [!DNL Target] at.js 2.x和at.js 1.x如何處理Cookie的詳細資訊
 title: at.js Cookie
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
-
-# at.js Cookie {#at-js-cookies}
+# at.js Cookie
 
 有關 at.js 2.x 和 at.js 1 的資訊。*x* Cookie 行為。
 
@@ -124,11 +124,11 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 | check | 用來決定訪客是否支援 Cookie 的簡單測試值。每次訪客請求頁面時都會進行設定。 |
 | disable | 如果訪客的載入時間超過 mbox.js 檔案中所設定的逾時時間，則設定此選項。依預設，這會持續 1 個小時。 |
 
-## Apple WebKit 追蹤變更在 Target 上對 Safari 訪客的影響
+## 由於Apple WebKit追蹤變更，對Safari訪客的[!DNL Target]影響
 
 請記住下列事項:
 
-### Adobe Target 運作方式
+### Adobe[!DNL Target]追蹤如何運作？
 
 | Cookie | 詳細資料 |
 |--- |--- |
