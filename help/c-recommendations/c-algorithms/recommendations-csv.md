@@ -1,30 +1,30 @@
 ---
 keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
-description: 瞭解如何上傳CSV檔案，以自訂Adobe Target Recommendations中的建議。
-title: 如何在Recommendations中上傳自訂條件？
+description: 瞭解如何上傳CSV檔案，以自訂Adobe [!DNL Target] Recommendations中的建議。
+title: 如何在Recommendations上傳自訂條件？
 feature: Recommendations
+exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 上傳自訂條件{#upload-custom-criteria}
+# ![PREMIUM](/help/assets/premium.png) 上傳自訂條件
 
 上傳 CSV 檔案來自訂您的建議。
 
 有多個方式可進入[!UICONTROL 「建立新條件」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面上，按一下「建立准則&#x200B;]**>**[!UICONTROL &#x200B;建立准則&#x200B;]**」。**[!UICONTROL &#x200B;您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
-* 當您使用[!UICONTROL Visual Experience Composer](VEC)建立[!DNL Recommendations]活動時，在您頁面上選取元素並按一下「取代w/ Recommendations]、[!UICONTROL Insert Recommendations Before]」後，會立即進入[!UICONTROL 「選擇准則」畫面或[!UICONTROL 在]之後插入建議。 ][!UICONTROL 然後，您可以選擇可用標準，也可以按一下&#x200B;**[!UICONTROL 建立標準]**。 如果您建立新標準，您可以選擇儲存標準，以便與其他[!DNL Recommendations]活動搭配使用。 如需詳細資訊，請參閱[建立建議活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 標準]**&#x200B;程式庫畫面上，按一下「建立標準&#x200B;]**>**[!UICONTROL &#x200B;建立標準&#x200B;]**」。**[!UICONTROL &#x200B;您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
+* 當您使用[!UICONTROL Visual Experience Composer](VEC)建立[!DNL Recommendations]活動時，在您頁面上選取元素並按一下「取代w/Recommendations6/>、[!UICONTROL 在]之前插入Recommendations」或「選取條件[!UICONTROL 」畫面時，您會立即進入]畫面[!UICONTROL 在]之後插入Recommendations。 然後，您可以選擇可用標準，也可以按一下&#x200B;**[!UICONTROL 建立標準]**。 如果您建立新標準，您可以選擇儲存標準，以便與其他[!DNL Recommendations]活動搭配使用。 如需詳細資訊，請參閱[建立Recommendations活動](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 編輯 [!DNL Recommendations] 活動時，請在頁面上的[!UICONTROL 「Recommendations 位置」]方塊中按一下，然後選取&#x200B;**[!UICONTROL 「變更條件」]**。在[!UICONTROL 選擇標準]螢幕上，按一下&#x200B;**[!UICONTROL 建立標準]**。 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
 
-以下步驟假定您使用第一種方法訪問[!UICONTROL 建立新標準]螢幕：**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面。
+以下步驟假定您使用第一種方法訪問[!UICONTROL 建立新標準]螢幕：**[!UICONTROL Recommendations]** > **[!UICONTROL 標準]**&#x200B;程式庫畫面。
 
-1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 准則]**」。
+1. 按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 標準]**。
 
 1. 按一下「建立准則&#x200B;**** > **[!UICONTROL 上傳自訂准則]**」。
 
