@@ -2,18 +2,18 @@
 keywords: 工作區; 管理屬性; 權限; 產品組態; 產品設定檔; 角色; 專案
 description: 瞭解如何建立個別的工作區（產品設定檔），然後為使用者指派不同的角色和權限給個別頁面、屬性或網站。
 title: 什麼是企業使用者權限，以及如何使用？
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 企業使用者權限{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) 企業使用者權限
 
 企業使用者權限是正式管理企業內部使用者存取[!DNL Adobe Target]的一種方式。 將使用者新增至[!DNL Target]、根據其角色指派權限，並根據不同的部門、全域位置、頻道和其他邏輯群組為團隊建立工作區。 您可以為用戶分配[!UICONTROL Observer]、[!UICONTROL Editor]或[!UICONTROL Approver]的角色。
 
@@ -295,7 +295,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 辦公時間：Target Premium工作區
+### 辦公時間：[!DNL Target] Premium Workspaces
 
 這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
