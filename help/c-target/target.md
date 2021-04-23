@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;對象;百分比目標
-description: 瞭解如何使用Adobe Target中的受眾，針對特定受眾鎖定不同的內容和體驗，以最佳化您的網頁行銷工作。
-title: 如何使用對象將不同的內容定位至特定區段？
-feature: Audiences
+description: 瞭解如何使用Adobe [!DNL Target] 中的受眾，針對特定受眾鎖定不同的內容和體驗，以最佳化您的網頁行銷成果。
+title: 如何使用對象來 [!DNL Target] 特定區段的不同內容？
+feature: 對象
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 89%
+source-wordcount: '356'
+ht-degree: 90%
 
 ---
 
-
-# 觀眾{#audiences}
+# 對象
 
 使用受眾將不同的內容和體驗鎖定在特定受眾，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的 Web 行銷。
 
