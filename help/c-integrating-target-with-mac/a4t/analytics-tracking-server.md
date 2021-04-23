@@ -1,16 +1,16 @@
 ---
 keywords: analytics追蹤伺服器；A4T;Adobe Experience Cloud除錯程式；Adobe Experience Platform除錯程式；報告來源；開發人員工具
-description: '瞭解如果您使用舊版at.js或mbox.js，如何為使用Analytics for Target(A4T)的活動指定Analytics追蹤伺服器。 '
+description: '瞭解如果您使用舊版at.js或mbox.js，如何為使用Analytics for [!DNL Target] (A4T)的活動指定Analytics追蹤伺服器。 '
 title: 如何使用Analytics追蹤伺服器？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # 使用 Analytics 追蹤伺服器
 
@@ -77,4 +77,3 @@ ht-degree: 20%
    >[!NOTE]
    >
    >選擇[!UICONTROL Analytics作為報告來源]，以便[!UICONTROL 追蹤伺服器]欄位可供使用。
-
