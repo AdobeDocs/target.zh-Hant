@@ -1,16 +1,16 @@
 ---
 keywords: 已知問題；已解決問題；發行說明；錯誤；問題；修正
-description: 在Adobe Target中尋找已知問題的相關資訊，包括解決方法資訊。 問題解決後，會移至「已解決」區段。
+description: 尋找有關Adobe Target已知問題的資訊，包括因應措施資訊。 問題解決後，會移至「已解決」區段。
 title: 我可以在哪裡找到已知問題和已解決問題的相關資訊？
-feature: Release Notes
+feature: '  版本說明 '
+exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4373'
 ht-degree: 58%
 
 ---
-
 
 # 已知問題和已解決的問題
 
@@ -24,7 +24,7 @@ ht-degree: 58%
 
 以下小節羅列 [!DNL Target] 的已知問題：
 
-### 自動分配和自動目標活動的Analytics for Target(A4T)量度
+### Adobe Target(A4T)自動分配和自動定位活動的分析量度
 
 [!DNL Target] UI可讓使用者選擇不支援的參與和收入量度作為[!UICONTROL 自動分配]和[!UICONTROL 自動目標]活動中最佳化的主要目標量度。 支援轉換度量；參與和收入度量&#x200B;*不支援*。 如果您選取參與或收入目標量度，則不會建立最佳化模型。
 
@@ -75,7 +75,7 @@ ht-degree: 58%
    * 複製活動
    * 在每個活動中重新啟用促銷
 
-* 當[!DNL Target]傳回含getOffer()的JSON選件時，會傳回JSON類型。 不過，如果您傳回JSON Recommendations，則會以HTML類型傳回。
+* 當[!DNL Target]傳回含getOffer()的JSON選件時，會傳回JSON類型。 不過，如果您傳回JSONRecommendations設計，則會傳回HTML類型。
 * 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
 * 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
@@ -120,11 +120,11 @@ at.js 的已知問題如下：
 
 當成功度量設定為每次曝光增加時，Target會在每次訪客造訪此成功度量時再次計算訪客。 然後 Target 會將成功度量「會員資格」重設為 0，使得它可以在下一次曝光時再次計入。因此，如果其他量度需要先檢視此量度，Target永遠不會識別使用者已檢視第一個量度。
 
-### 目標分析 (A4T)
+### [!DNL Target](A4T)的分析
 
-在分析工作區中使用Target活動曝光和轉換時，請套用「相同觸控」歸因IQ模型至量度，以確保計數準確。 若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵，以修改欄設定>啟用使用非預設歸因模型>選取相同觸控模型&#x200B;**。**&#x200B;若未套用此模型，這些指標就會被誇大。
+在Analysis Workspace使用Target活動曝光和轉換時，請套用「相同觸控」Attribution IQ模型至量度，以確保計數準確。 若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵，以修改欄設定>啟用使用非預設歸因模型>選取相同觸控模型&#x200B;**。**&#x200B;若未套用此模型，這些指標就會被誇大。
 
-所有目前的Analytics套件都可搭配Attribution IQ來新增此模型。 如果您無權存取Attribution IQ，請依賴「報告與分析」中的A4T資料。
+所有目前的Analytics套件都可以加入此模型並搭配Attribution IQ。 如果您沒有Attribution IQ存取權，請依賴「報告與分析」中的A4T資料。
 
 ### Target API
 
@@ -134,7 +134,7 @@ at.js 的已知問題如下：
 
 2020年5月10日，Adobe更新了GEO提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。 並非所有Adobe傳送伺服器都受此項變更影響。 因此，在2020年5月10日至7月22日之間，使用這些值的觀眾可能無法符合所有正確訪客的資格。
 
-### 報告——可下載。csv報告中的資料與Target UI中顯示的報告不一致。{#csv}
+### 報告——可下載。csv報告中的資料與[!DNL Target] UI中顯示的報告不一致。{#csv}
 
 如果活動使用多個度量，則為下載產生的報表會不一致。 可下載的報表僅根據報表設定產生，並會針對使用的任何其他量度考慮相同的值。
 
@@ -150,7 +150,7 @@ at.js 的已知問題如下：
 
 此問題已在Target Standard/Premium 20.10.1版中修正。
 
-### Analytics for Target (A4T) 報表
+### Adobe Target(A4T)報告分析
 
 已解決與A4T相關的下列問題：
 
@@ -213,7 +213,7 @@ at.js 的已知問題如下：
 
 ### 使用Google Chrome 80+版時，未在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中載入的頁面
 
-此已知問題與Google在變更Cookie的預設行為時，從Chrome 80版開始，未使用「相同網站屬性」。 在變更前，Chrome會將不含SameSite屬性的所有Cookie預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更Cookie在GET和POST要求上的傳送方式。 請參閱[SameSite Updates](https://www.chromium.org/updates/same-site)。
+此已知問題與Google在變更Cookie的預設行為時，從Chrome 80版開始，未使用「相同網站屬性」。 在變更前，Chrome會將不含SameSite屬性的所有Cookie預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更Cookie在GET和POST要求時的傳送方式。 請參閱[SameSite Updates](https://www.chromium.org/updates/same-site)。
 
 如需詳細資訊和修正，請參閱「最近宣佈的Google Chrome SameSite Cookie實施政策如何影響VEC和EEC?」 在[疑難排解與Visual Experience Composer和Enhanced Experience Composer相關的問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中。
 
@@ -237,7 +237,7 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js，global\_mbox\_autocreate 會設為 &quot;true&quot;，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
 
-### Target API 中的企業權限支援 {#api}
+### [!DNL Target] API {#api}中的企業權限支援
 
 如果使用 GET API 提取選件清單，預設工作區中可能會顯示從選件資料庫中的 Target UI 建立的代碼選件。此問題將會在 2019 年 3 月的第一週修正。此修正就緒後，從 API 進行提取時，系統會在適當的工作區中顯示代碼選件。此問題&#x200B;*不會*&#x200B;影響從 API 建立的選件。例如，無論是透過 GET API 或從 Target UI 中擷取，從 API 建立的代碼選件都會顯示在其建立的工作區中。
 
@@ -255,7 +255,7 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 若要判斷此問題是否影響Target報表，請聯絡[Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
-### 建議
+### Recommendations
 
 * 當摘要中的項目與前次執行相同時，Recommendations 摘要索引會顯示「等候索引」。傳送所需的產品擷取不受影響。(RECS-6663)
 
@@ -348,7 +348,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 此問題已在 at.js 版本 1.2 中補救。
 
-### Target Premium 的企業使用者權限
+### [!DNL Target] Premium的企業使用者權限
 
 隨著企業權限移轉，所有 Target Premium 使用者管理已從 Adobe Target UI 移至 Adobe Admin Console。
 
@@ -439,7 +439,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 在 Recommendations 17.2.2.0 版本 (2017 年 3 月 6 日) 中修正。
 
-### Analytics for Target (A4T) 報表
+### Adobe Target(A4T)報告分析
 
 切換報表度量時，報表未更新。此問題僅影響UI。 對於報表資料收集或傳送沒有影響。(TGT-22970)
 
