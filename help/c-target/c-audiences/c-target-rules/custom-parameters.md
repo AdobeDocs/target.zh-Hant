@@ -1,18 +1,18 @@
 ---
 keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
-description: 瞭解如何將自訂參數傳遞至Adobe Target，以便用於觀眾。
-title: 我是否可以根據自訂參數來定位訪客？
-feature: Audiences
+description: 瞭解如何將自訂參數傳遞至Adobe [!DNL Target] 以用於觀眾。
+title: '我是否可以根據自訂參數來選擇訪客？ [!DNL Target] '
+feature: 對象
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 85%
 
 ---
 
-
-# 自訂參數{#custom-parameters}
+# 自訂參數
 
 自訂參數為 mbox 參數。如果您傳遞任何 mbox 參數至 mbox，或使用 targetPageParams 函數，則那些參數會出現在此處以便用於對象。
 
