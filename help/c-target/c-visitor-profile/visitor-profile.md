@@ -2,17 +2,17 @@
 keywords: 概覽和參考
 description: 進一步瞭解訪客描述檔，其中包含訪客如何使用您的頁面和其他最佳化內容位置的資訊。
 title: 什麼是訪客資料？
-feature: Audiences
+feature: 對象
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# 訪客設定檔{#visitor-profiles}
+# 訪客設定檔
 
 訪客設定檔包含關於您的訪客如何使用您的頁面，和其他最佳化內容位置的資訊
 
