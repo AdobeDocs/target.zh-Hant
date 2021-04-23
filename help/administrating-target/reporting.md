@@ -1,17 +1,17 @@
 ---
 keywords: report;reporting;reporting;experience cloud解決方案；時區；時區；貨幣；排除IP；估計收入提升；收入提升；收入提升；細粒度優先順序；細粒度
-description: 使用Target或Adobe Analytics做為報表來源、指定預設時區和貨幣格式、新增要排除在報表外的IP位址等。
+description: 使用 [!DNL Target] 或Adobe Analytics作為報表來源、指定預設時區和貨幣格式、新增要排除在報表外的IP位址等。
 title: 如何在Target中設定報表？
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 31%
 
 ---
-
 
 # 在Target中設定報表
 
@@ -44,8 +44,8 @@ ht-degree: 31%
 
 * 如果在此將報表來源設為&#x200B;**[!DNL Target]**「」，便不得啟用將「」當作報表來源的活動。[!DNL Analytics]您必須將活動中的報告源更改為[!DNL Target]，或將報告源更改為&#x200B;**[!UICONTROL 管理] >報告[!UICONTROL 中的**[!UICONTROL &#x200B;選擇每個活動&#x200B;]**。]**
 * 如果報告源設定為&#x200B;**[!DNL Analytics]**，則不允許激活使用[!DNL Target]作為報告源的活動（報告源指定為&#x200B;**[!UICONTROL 每活動]目標）**。 您必須將活動中的報告源更改為[!DNL Analytics]，或將報告引擎更改為&#x200B;**[!UICONTROL 管理] >報告[!UICONTROL 中的**[!UICONTROL  Select per activity ]**。]**
-* 如果將報表來源設為&#x200B;**[!UICONTROL Select per activity]**，您可以建立、啟用和停用所選報表來源支援的活動。 如需支援活動的矩陣，請參閱&#x200B;*Adobe Analytics中的[支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作為Adobe Target(A4t)*&#x200B;的報表來源。
-* [!UICONTROL 不論選取的報告來源為何] ，都允許自動個人化(AP)活動的建立、啟動和停用。當您選擇[Adobe Analytics作為Adobe Target(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)的報表來源時，不支援自動個人化活動。 即使您指定[!DNL Analytics]作為報告來源，[!DNL Target]也會用作「自動個人化」活動的報告來源。 如需詳細資訊，請參閱&#x200B;*Adobe Analytics中的[支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作為Adobe Target(A4t)*&#x200B;的報表來源。
+* 如果將報表來源設為&#x200B;**[!UICONTROL Select per activity]**，您可以建立、啟用和停用所選報表來源支援的活動。 有關受支援活動的矩陣，請參見&#x200B;*Adobe Analytics的[受支援活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作為Adobe Target(A4t)*&#x200B;的報告源。
+* [!UICONTROL Automated Personalization] (AP)活動的建立、啟動和停用皆允許，不論選取的報告來源為何。當您選擇[Adobe Analytics作為Adobe Target(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)的報告來源時，不支援Automated Personalization活動。 即使您指定[!DNL Analytics]作為報告來源，[!DNL Target]也會用作Automated Personalization活動的報告來源。 如需詳細資訊，請參閱&#x200B;*Adobe Analytics的[支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)，作為Adobe Target(A4t)*&#x200B;的報告來源。
 
 ## 報告時區
 
@@ -55,7 +55,7 @@ ht-degree: 31%
 
 指定用於報告的貨幣。
 
-## 要從Target報表資料中排除的IP
+## 要從[!DNL Target]報告資料中排除的IP
 
 指定要從報告資料中排除的任何IP位址。 例如，排除內部公司地址是確保報告資料反映網站上客戶互動的好方法。
 
