@@ -1,16 +1,16 @@
 ---
 keywords: 活動設定; 體驗鎖定目標與設定; XT 目標與設定; 體驗鎖定目標; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表對象; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
-description: 瞭解如何使用Adobe Target中的「目標與設定」頁面來指定「體驗目標」(XT)活動的目標相關資訊。
+description: 瞭解如何使用Adobe [!DNL Target] 中的「目標與設定」頁面來指定「體驗定位」(XT)活動的目標相關資訊。
 title: 如何在體驗定位活動中指定目標和設定？
-feature: Experience Targeting
+feature: 體驗鎖定目標
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 94%
 
 ---
-
 
 # 體驗定位(XT)活動中的目標與設定
 
