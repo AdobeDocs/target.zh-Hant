@@ -1,18 +1,18 @@
 ---
 keywords: 建議;建議演算法;recommendations 活動;recommendations classic
-description: 檢閱資訊，協助您瞭解Target Premium中舊有Recommendations Classic和Recommendations活動之間的差異。
-title: Target Premium中Recommendations Classic和Recommendations之間有何差異？
+description: 閱讀相關資訊，協助您瞭解 [!DNL Target] Premium中舊版Recommendations經典與Recommendations活動之間的差異。
+title: 《Recommendations經》與《Recommendations經》在 [!DNL Target] Premium》中的區別何在？
 feature: Recommendations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '661'
+ht-degree: 94%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Target Premium 中的 Recommendations Classic 與 Recommendations 活動的比較{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![](/help/assets/premium.png) PREMIUMRecommendations Classic與 [!DNL Target] Premium中的Recommendations活動
 
 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
 
@@ -76,4 +76,3 @@ ht-degree: 95%
 在 [!DNL Target] 中，[!DNL Recommendations] 提供改良的報表，這些報表會利用 [!DNL Target] 和 [!DNL Experience Cloud] 所提供的功能。不單只是顯示 [!DNL Recommendations] 提供的提升度來對照沒有建議時的結果，您還可以檢視 [!DNL Recommendations] 活動的完整相關資訊。
 
 ![](assets/overview_report.png)
-
