@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
-description: 瞭解如何在Adobe Target中建立受眾，以根據行動裝置、裝置類型、裝置廠商、螢幕尺寸（依像素）等參數來鎖定行動裝置。
-title: 我是否可以根據行動選項定位訪客？
-feature: Audiences
+description: 瞭解如何根據參數(例如行動裝置、裝置類型、裝置廠商、螢幕尺寸（依像素）等)，以 [!DNL Target] Adobe建立觀眾至目標行動裝置。
+title: '我是否可以根據行動選項來存取訪客？ [!DNL Target] '
+feature: 對象
+exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 93%
 
 ---
 
-
-# 行動{#mobile}
+# 行動
 
 建立受眾，根據行動裝置、裝置類型、裝置廠商、畫面維度 (依像素) 等參數來鎖定行動裝置。
 
