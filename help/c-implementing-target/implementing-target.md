@@ -1,16 +1,16 @@
 ---
 keywords: 實作;實施
-description: 了解基本概念、熟悉 Target 如何運作以及與您的基礎架構整合，並了解如何追蹤訪客。
-landing-page-description: 開始使用 Adobe Target 前，請先在網站上實作 Adobe Target，了解基本概念和術語，並熟悉 Target 的操作方式。
+description: 瞭解基本概念、熟悉 [!DNL Target] 的運作方式並與基礎架構整合，並瞭解訪客的追蹤方式。
+landing-page-description: 開始使用Adobe Target之前，您應先在網站上實作它，瞭解一些基本概念和術語，並熟悉 [!DNL Target] 的運作方式。
 title: 如何實施Target?
-feature: Implementation
+feature: 實施
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 27%
+source-wordcount: '234'
+ht-degree: 7%
 
 ---
 
