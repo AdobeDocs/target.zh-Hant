@@ -1,19 +1,19 @@
 ---
 keywords: 實作;標籤管理程式;dtm;at.js;動態標籤管理
-description: 瞭解如何使用舊版動態標籤管理(DTM)實作Adobe Target at.js程式庫。 Adobe Launch是實作Target的偏好方法。
-title: 我是否可使用動態標籤管理(DTM)實作Target?
-feature: Implement Server-side
+description: 瞭解如何使用舊版動態標籤管理(DTM)實作Adobe [!DNL Target] at.js程式庫。 Adobe啟動是實作 [!DNL Target]的偏好方法。
+title: 我可以使用動態標籤管理(DTM)實作 [!DNL Target] 嗎？
+feature: 實作伺服器端
 role: Developer
+exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 64%
+source-wordcount: '110'
+ht-degree: 59%
 
 ---
 
-
-# 使用動態標籤管理 (DTM) 實作 Target
+# 使用動態標籤管理(DTM)實作[!DNL Target]
 
 Adobe 動態標籤管理 (DTM) 為 Adobe 的舊版標籤管理程式。
 
