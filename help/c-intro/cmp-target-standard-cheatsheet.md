@@ -2,17 +2,17 @@
 keywords: Target Standard;faq;常見問題;速查表
 description: 探索有關使用Adobe Target功能的常見問題清單，以及更多資訊的資訊和連結。
 title: 我可以在哪裡找到有關最佳化和個人化問題的答案？
-feature: Overview
+feature: 概述
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Target 最佳化和個人化常見問題集{#target-optimization-and-personalization-faq}
+# Target 最佳化和個人化常見問題集
 
 關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
 
@@ -189,7 +189,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我們也提供[表單式方法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能也必須求助您的 IT 部門來  [allowlist Adobe的代理服](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 務器。
+也請閱讀[增強體驗撰寫器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能也必須求助您的 IT 部門來  [allowlistAdobe的代理](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 伺服器。
 
 **我有回應式網站。建立活動時，我如何確定我考慮的是重要裝置?**
 
