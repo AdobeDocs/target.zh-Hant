@@ -2,18 +2,18 @@
 keywords: 收入提升度; 收入; 預估收入提升度; 計算提升度; 估計值
 description: 估計每位訪客如果看到成功體驗、趨勢在測試期間仍如常，您可能達到的提升度。
 title: 我估計收入的提升度為何？
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 88%
 
 ---
 
-
-# 預估收入成長{#estimate-lift-in-revenue}
+# 預估收入成長
 
 使用[!DNL Adobe Target]估計所有使用者檢視成功體驗時您可獲得的收入提升。
 
