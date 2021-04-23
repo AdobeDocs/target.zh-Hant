@@ -1,16 +1,16 @@
 ---
 keywords: 定位；視覺體驗撰寫器；白名單；白名單；allowlist;allowlist;enhanced視覺體驗撰寫器；vec；疑難排解視覺體驗撰寫器；疑難排解；eec；增強的體驗撰寫器；tls;tls 1.2
-description: 瞭解如何疑難排解Adobe Target Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)在特定條件下有時會發生的問題。
+description: 瞭解如何在特定條件下解決Adobe [!DNL Target] Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中有時發生的問題。
 title: 如何疑難排解與Visual Experience Composer和Enhanced Experience Composer相關的問題？
-feature: Visual Experience Composer (VEC)
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
-
 
 # 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
 
@@ -21,12 +21,12 @@ ht-degree: 65%
 透過最新變更（2020年8月），所有使用Chrome 80+瀏覽器版本的使用者：
 
 * *not*&#x200B;是否能在其網站受密碼保護的頁面中使用VEC（安裝或未啟用VEC Helper擴充功能）。 這是因為其網站登入Cookie將被視為第三方Cookie，不會隨登入請求傳送。 唯一的例外是當客戶網站登入Cookie已將SameSite參數設為「無」時。
-* *not*&#x200B;是否能在編輯活動時（當活動不在網站上時）下載[!DNL Target]程式庫。 這是因為下載呼叫是從客戶網域向安全的Adobe網域進行，並會被拒絕為未驗證。
+* *not*&#x200B;是否能在編輯活動時（當活動不在網站上時）下載[!DNL Target]程式庫。 這是因為下載呼叫是從客戶網域向安全Adobe網域進行，並被拒絕為未驗證。
 * EEC將&#x200B;*not*&#x200B;函式用於所有用戶，因為它無法在`adobemc.com domain`上為Cookie設定SameSite屬性。 若沒有此屬性，瀏覽器將拒絕這些Cookie，導致EEC失敗。
 
 Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴充功能會覆寫Cookie屬性，以視需要設定`SameSite="none"`屬性。 [更新的擴充功能可在此處找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 如需有關安裝和使用VEC Helper Extension的詳細資訊，請參閱[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-對於您自己的網站Cookie，您必須依名稱指定Cookie。 將[!UICONTROL Cookie]滑桿切換至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面使用指南*&#x200B;中的[Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
+對於您自己的網站Cookie，您必須依名稱指定Cookie。 將[!UICONTROL Cookie]滑桿切換至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面使用指南*&#x200B;中的[Adobe TargetCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
 
 ![Cookie在VEC協助工具擴充功能中切換](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -42,7 +42,7 @@ Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴
    >
    >如果Cookie的SameSite屬性已設定為「Lax」或「Strict」，則&#x200B;*not*&#x200B;就足夠了。
 
-## Target 是否支援多重層級 iframe?
+## [!DNL Target]是否支援多層級iframe?
 
 Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 iframe，Target 資料庫 (at.js and mbox.js) 只會與父項 iframe 互動。Target 資料庫不會與子項 iframe 互動。
 
@@ -52,7 +52,7 @@ Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 
 
 如果 URL 包含 # 字元，則可能發生此問題。若要修正問題，請在可視化體驗撰寫器中切換至「瀏覽」模式，然後切換回「撰寫」模式。進度環應該會消失，並且頁面應該會載入。
 
-## 內容安全性原則 (CSP) 標頭在我的網站上封鎖 Target 資料庫。(VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## 內容安全性政策(CSP)標題會封鎖我網站上的[!DNL Target]程式庫。 (VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 如果您的網站的 CSP 標頭封鎖 Target 資料庫，然後載入網站但防止編輯，請確保 Target 資料庫未遭到封鎖。
 
