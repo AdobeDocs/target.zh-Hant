@@ -1,28 +1,28 @@
 ---
-keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
-description: '瞭解如何在啟動活動前預覽Adobe Target Recommendations活動，以確保結果可供使用。 '
+keywords: Recommendations;offer;preview;launch;status;criteria；算法
+description: '瞭解如何在啟動Adobe之前預覽您的Recommendations [!DNL Target] 活動，以確保結果可用。 '
 title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
 
 ---
 
-
 # 預覽並啟動您的Recommendations活動
 
-在您建立包含[Recommendations選件](/help/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B測試]或[!UICONTROL 體驗定位](XT)活動後，您會想要預覽您的建議，以確保在啟動活動之前有結果可用。 [!DNL Target Recommendations] 提供多種方式來預覽建議。
+在您建立包含[Recommendations選件](/help/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B測試]或[!UICONTROL 體驗定位](XT)活動後，您會想要預覽建議，以確保在啟動活動前有結果可供使用。 [!DNL Target Recommendations] 提供多種方式來預覽建議。
 
-## 檢查Recommendations演算法狀態
+## 檢查Recommendations算法狀態
 
 建立活動後，[!DNL Recommendations]會執行演算法以產生建議。 此演算法可能需要數小時才能執行。
 
 您可以在[!UICONTROL Activity]概觀圖中檢查演算法是否已完成，其中列出了條件狀態。 下圖顯示[!DNL Recommendations]活動[!UICONTROL 概述]頁面上的活動圖中的狀態：
 
-![「Recommendations活動概述」頁](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
+![Recommendations活動概述頁面](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
 下圖描述[!UICONTROL A/B Test]或XT活動的[!UICONTROL 概述]頁面的狀態：
 
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 ![結果對話框](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
-## 演算法需要多久才能執行？
+## 演算法要執行多久？
 
 儲存包含條件的活動後，[!DNL Target]會根據選取的系列、條件、設計和促銷來計算建議。 此計算需要一些時間執行，而且時間範圍會根據選取的建議邏輯、資料範圍、型錄中的項目數、客戶產生的行為資料量以及選取的行為資料來源而有所不同。
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 
 ### mbox
 
-如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定通常會導致演算法重新執行。視所做的變更而定，在重新執行完成之前，先前計算的建議可能無法使用，或對於較大的變更，只有備份或預設內容可在重新執行完成之前使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
+如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定通常會導致演算法重新執行。視所做的變更而定，先前計算的建議可能在重新執行完成之前無法使用，或對於較大的變更，只有備份或預設內容可在重新執行完成之前使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
 
 ### Adobe Analytics
 
@@ -77,7 +77,7 @@ ht-degree: 17%
 >* 目標QA模式是「自黏」，並儲存在Cookie中。 如果您未退出QA模式，您會持續看到整個網站的QA結果。 若要退出QA模式，請使用[書籤小工具](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)。
    >
    >
-* 在QA模式下，瀏覽網站不會影響您個人資料的[!UICONTROL 最近檢視的項目]或[!UICONTROL 最近購買的項目]。」 這種行為是設計為避免生產行為資料的無意污染。 若要預覽[!UICONTROL 最近檢視的項目]或[!UICONTROL 使用者導向建議]准則的結果，請先在QA模式以外瀏覽網站，然後使用相同的作業來開啟QA模式連結。
+* 在QA模式下，瀏覽網站不會影響您個人資料的[!UICONTROL 最近檢視的項目]或[!UICONTROL 最近購買的項目]。」 這種行為是設計為避免生產行為資料的無意污染。 若要預覽[!UICONTROL 最近檢視的項目]或[!UICONTROL 使用者導向的Recommendations]准則的結果，請先瀏覽QA模式以外的網站，然後使用相同的作業來開啟QA模式連結。
 
 
 ## 使用CSV下載來預覽建議
@@ -98,9 +98,9 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->結果下載不適用於包含[!UICONTROL 使用者導向建議]演算法的活動。 使用[!UICONTROL 最近檢視的項目]建議邏輯的准則無法使用結果下載。
+>結果下載不適用於包含[!UICONTROL 以使用者為基礎的Recommendations]演算法的活動。 使用[!UICONTROL 最近檢視的項目]建議邏輯的准則無法使用結果下載。
 
-## 啟用您的Recommendations活動
+## 激活您的Recommendations活動
 
 在[!UICONTROL 活動概述]標籤中，按一下狀態旁的下拉箭頭，然後選擇&#x200B;**[!UICONTROL 啟動]**。
 
