@@ -1,22 +1,22 @@
 ---
 keywords: 相關性;類別相關性
-description: 瞭解Adobe Target中的類別相似性，此類別相似性會自動擷取使用者瀏覽的類別，然後計算使用者對類別的相似性，以便進行定位和劃分。
+description: 瞭解Adobe [!DNL Target] 中的類別相似性，該相似性會自動擷取使用者瀏覽的類別，然後計算使用者對類別的相似性，以便定位和劃分類別。
 title: 什麼是類別相似性？
-feature: Audiences
+feature: 對象
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# 類別相關性{#category-affinity}
+# 類別相關性
 
 類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
 
-## 將類別相關性資訊傳入 Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## 將類別相關性資訊傳入 [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 每當有使用者造訪您的網站時，這位訪客專屬的設定檔參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。其中一個特別實用的參數是 `user.categoryId`，這是在產品頁面上指派的 mbox 參數。當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以將類別資訊作為 Mbox 參數 `user.categoryId` 傳遞至任何 Mbox 中 (包括巢狀 Mbox) 來進行記錄，如同 URL 參數 `user.categoryId`，或傳遞至具有全域 Mbox 的 Target 頁面參數中。請洽詢您的客戶代表以取得更多詳細資訊。
 
