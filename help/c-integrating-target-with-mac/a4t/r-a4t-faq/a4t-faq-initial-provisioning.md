@@ -1,18 +1,18 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4t;佈建;adobe Experience Cloud
-description: 尋找有關Analytics for Target(A4T)布建常見問題的解答，這些問題可讓您針對Target活動使用Analytics報表。
+description: 尋找有關為 [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] 活動布建Analytics的常見問題的解答。
 title: 我可以在哪裡找到有關A4T初始布建的資訊？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '476'
+ht-degree: 66%
 
 ---
 
-
-# 初始佈建 - A4T 常見問題集{#initial-provisioning-a-t-faq}
+# 初始佈建 - A4T 常見問題集
 
 本主題包含有關將[!DNL Adobe Analytics]設為[!DNL Adobe Target](A4T)報告來源的常見問題的解答。
 
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 * 針對網站上只有追蹤 Analytics 量度的其他頁面，請在這些頁面上實作 Analytics。不需要在這些頁面上實作 Target。系統會自動根據上個項目附加至訪客的 Target 資訊，將在這些頁面上擷取的 Analytics 量度，拼接至該使用者最初符合資格的 Target 活動。
 
-## 如何判斷我的 Target 帳戶是否已啟用 A4T? {#section_4437D284448F4313BF953D4B6EDBACA6}
+## 如何判斷我的[!DNL Target]帳戶是否啟用A4T?{#section_4437D284448F4313BF953D4B6EDBACA6}
 
 定義 Analytics 活動時，在可以選取報表套裝之前，您同時需要 Analytics 使用者帳戶和 Target 使用者帳戶。必須依說明文件所述來設定您的使用者帳戶。請參閱[使用者權限需求](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
@@ -48,6 +48,6 @@ ht-degree: 68%
 
 請參閱「為什麼我的報表套裝未載入」? above.此問題的根本原因是相同的。
 
-## 我的報表在 Target 中為何空白?  {#section_3837104757464CB488C5A83014A669A1}
+## 為什麼[!DNL Target]中的報表是空的？{#section_3837104757464CB488C5A83014A669A1}
 
 請參閱「為什麼我的報表套裝未載入」? above.此問題的根本原因是相同的。
