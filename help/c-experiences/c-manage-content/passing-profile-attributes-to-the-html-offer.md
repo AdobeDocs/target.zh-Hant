@@ -1,16 +1,16 @@
 ---
 keywords: 動態資料;資產;資料;選件;個人化選件;個人化選件;token 取代
-description: 瞭解如何將動態資料傳遞至Adobe Target選件。 探索顯示您可能想要使用動態選件的商業案例，並檢視範例和實作資訊。
+description: 瞭解如何將動態資料傳遞至Adobe [!DNL Target] 選件。 探索顯示您可能想要使用動態選件的商業案例，並檢視範例和實作資訊。
 title: 如何將動態資料傳遞至選件？
-feature: Experiences and Offers
+feature: 體驗與優惠
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 77%
 
 ---
-
 
 # 將動態資料傳遞至選件
 
