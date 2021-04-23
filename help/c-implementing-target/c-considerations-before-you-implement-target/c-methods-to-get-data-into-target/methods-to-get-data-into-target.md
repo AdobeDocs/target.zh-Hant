@@ -1,15 +1,15 @@
 ---
 keywords: 實作; 設定; 頁面參數; tomcat; URL 編碼; 頁面內設定檔屬性; mbox 參數; 指令碼設定檔屬性; 大量設定檔更新 API; 單一檔案更新 API; 客戶屬性; 資料提供者
-description: 將資料匯入Target（頁面參數、描述檔屬性、指令碼描述檔屬性、資料提供者、單一和大量描述檔更新API、客戶屬性）。
+description: 將資料匯入 [!DNL Target] （頁面參數、描述檔屬性、指令碼描述檔屬性、資料提供者、單一和大量描述檔更新API、客戶屬性）。
 title: 如何將資料匯入Target?
-feature: Implementation
+feature: 實施
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 61%
+source-wordcount: '361'
+ht-degree: 62%
 
 ---
 
