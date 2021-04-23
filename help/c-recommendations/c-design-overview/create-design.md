@@ -1,22 +1,22 @@
 ---
 keywords: 建議設計;建立設計;複製設計
-description: 瞭解如何使用預設設計建立Adobe Target Recommendations設計，或建立最符合頁面版面的自訂設計。
-title: 如何在Recommendations中建立設計？
+description: 瞭解如何使用預設設計建立Adobe [!DNL Target] Recommendations設計，或建立最符合頁面版面的自訂設計。
+title: 我要如何在Recommendations建立設計？
 feature: Recommendations
+exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 建立設計{#create-a-design}
+# ![PREMIUM](/help/assets/premium.png) 建立設計
 
 設計可定義建議出現在頁面上的方式。
 
-您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL Recommendations > Designs]**&#x200B;螢幕會顯示預設設計卡片和您帳戶中建立的任何設計。
+您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。**[!UICONTROL Recommendations>設計]**&#x200B;螢幕會顯示預設設計卡和您帳戶中建立的任何設計。
 
 當您處理設計時，請記住下列資訊：
 
@@ -41,7 +41,7 @@ ht-degree: 30%
 
 ### 根據預設設計建立設計
 
-1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**」以顯示「[!UICONTROL Designs]」程式庫。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 設計]**」以顯示「設計[!UICONTROL 」程式庫。]
 
    ![設計資料庫](/help/c-recommendations/c-design-overview/assets/design-library.png)
 
@@ -71,7 +71,7 @@ ht-degree: 30%
 
 ### 建立自訂設計
 
-1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**」以顯示「[!UICONTROL Designs]」程式庫。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 設計]**」以顯示「設計[!UICONTROL 」程式庫。]
 
 1. 按一下「建立設計」。****
 
@@ -163,7 +163,7 @@ ht-degree: 30%
 
    | 參數 | 值 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | 目標用戶端代碼(可從「/help/target/products.html#recsSettings > Recommendations API Token >用戶端代碼」取得)。 |
+   | `[YOUR_CLIENT_CODE]` | 目標用戶端代碼(可在/help/target/products.html#recsSettings >RecommendationsAPI Token >用戶端代碼上取得)。 |
    | `[YOUR_MBOX_NAME]` | 您在表單型Recommendations的「位置」區段中選取的名稱，在此例中為Sample_Recs_Response。 |
    | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 訓練影片：在Recommendations中建立自訂設計(3:20)![概述徽章](/help/assets/overview.png)
+## 訓練影片：在Recommendations建立自訂設計(3:20)![概觀徽章](/help/assets/overview.png)
 
 此影片包含下列資訊:
 
