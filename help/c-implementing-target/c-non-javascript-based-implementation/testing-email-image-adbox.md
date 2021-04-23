@@ -1,19 +1,19 @@
 ---
 keywords: 電子郵件；adbox；電子郵件影像adbox
-description: 瞭解如何使用Adobe Target動態測試電子郵件中的影像，甚至當有人開啟電子郵件時即時變更這些影像。
+description: 瞭解如何使用Adobe [!DNL Target] 動態測試電子郵件中的影像，甚至當有人開啟電子郵件時即時變更這些影像。
 title: 如何測試電子郵件影像Adbox?
-feature: Implement Email
+feature: 實作電子郵件
 role: Developer
+exl-id: 87a918d7-83dc-4277-821b-d90302c59736
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 90%
 
 ---
 
-
-# 測試電子郵件影像 Adbox{#test-an-email-image-adbox}
+# 測試電子郵件影像 Adbox
 
 動態測試電子郵件中的影像，甚至在某人開啟電子郵件時迅速變更那些影像。
 
