@@ -1,14 +1,14 @@
 ---
 keywords: 包含規則;包含條件;建議;建立新條件;促銷活動;動態篩選;動態;空白值;忽略篩選規則;靜態篩選;按值篩選;實體屬性比對;設定檔屬性比對;參數比對;靜態篩選
-description: 瞭解如何在Adobe Target·Recommendations建立標準與促銷的內含規則。 若要取得更佳效果，請新增更多動態或靜態篩選規則。
+description: 瞭解如何在RecommendationsAdobe中建立條件和促銷的包含規則。  [!DNL Target] 若要取得更佳效果，請新增更多動態或靜態篩選規則。
 title: 如何在Recommendations使用動態和靜態包含規則？
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 43a7d3b3056a4404d18aa4a05a7a93d695900f73
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2086'
 ht-degree: 17%
 
 ---
