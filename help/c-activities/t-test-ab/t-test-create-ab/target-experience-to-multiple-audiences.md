@@ -1,16 +1,16 @@
 ---
 keywords: 多個對象; 體驗版本; 鎖定體驗版本
-description: 瞭解如何在Adobe Target A/B活動中將相同體驗的版本定位給不同的觀眾。
+description: 瞭解如何在Adobe [!DNL Target] A/B活動中將相同體驗的版本定位給不同的觀眾。
 title: 我可以在A/B活動中使用多個體驗版本嗎？
-feature: A/B Tests
+feature: A/B 測試
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 92%
 
 ---
-
 
 # A/B 測試中的多個體驗受眾
 
@@ -53,4 +53,3 @@ ht-degree: 92%
 * 選擇互斥的對象。如果活動是在 VEC 中建立，如果訪客符合超過一個對象，會傳回每個對象的內容，並將對象的內容列在頁面上最後顯示。
 * 圖表中定義的活動項目對象會使用 AND 條件與體驗對象結合。若要進入活動，訪客必須符合活動對象以及其中一個體驗對象的資格。
 * 新增相同的對象作為報表的區段。這可幫助您在體驗 A 與 B 的高層查看測試結果，以及僅針對「瀏覽器語言 ja_JP」在體驗 A 與 B 的低層查看測試結果。這僅適用 Target 型報表有作用，不適用 Analytics 型報表。
-
