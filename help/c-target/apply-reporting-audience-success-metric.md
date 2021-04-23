@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;對象;報表;成功量度
-description: 瞭解如何在Adobe Target中選擇使用者符合報告對象資格的成功度量。
+description: 瞭解如何在Adobe [!DNL Target] 中選擇使用者符合報告對象資格的成功度量。
 title: 我可以將報表對象套用至成功度量嗎？
-feature: Success Metrics
+feature: 成功量度
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# 套用報表對象至成功量度{#apply-a-reporting-audience-to-a-success-metric}
+# 套用報表對象至成功量度
 
 選擇符合報表對象使用者資格的成功量度。
 
@@ -34,4 +34,3 @@ ht-degree: 90%
 若要在報表中檢視分段，請從活動報表的「對象」下拉式清單中選取所需的對象。
 
 ![](assets/reporting_audience_dropdown.png)
-
