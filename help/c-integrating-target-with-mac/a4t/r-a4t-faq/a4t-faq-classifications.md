@@ -1,18 +1,18 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;分類;分類匯入程式;post-tnt-action
-description: 尋找分類和使用Analytics for Target(A4T)的相關問題解答。 A4T可讓您使用Analytics報表來處理Target活動。
+description: 尋找分類和使用Analytics處理 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活動的相關問題解答。
 title: 我可以在哪裡找到有關A4T分類的資訊？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 55%
+source-wordcount: '257'
+ht-degree: 59%
 
 ---
 
-
-# 分類 - A4T 常見問題集{#classifications-a-t-faq}
+# 分類 - A4T 常見問題集
 
 本主題包含有關分類及使用[!DNL Analytics]作為[!DNL Target](A4T)報告來源的常見問題的解答。
 
