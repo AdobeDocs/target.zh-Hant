@@ -1,17 +1,17 @@
 ---
 keywords: at.js 外掛程式;支援的外掛程式;不支援的外掛程式;ttMeta;ttmeta;mboxTrack
-description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版的at.js。
-title: Target at.js不支援哪些舊版外掛程式？
+description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
+title: ' [!DNL Target] at.js中不支援哪些舊版外掛程式？'
 feature: at.js
 role: Developer
+exl-id: 1d858f5b-58dc-4181-9cb5-aa6b22011abc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 82%
 
 ---
-
 
 # At.js 外掛程式
 
