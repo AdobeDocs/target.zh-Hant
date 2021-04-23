@@ -1,19 +1,19 @@
 ---
 keywords: 實施；實施；at.js;adobe體驗平台網頁sdk;aep網頁sdk
-description: 瞭解如何使用Adobe Experience Platform網頁SDK(AEP Web SDK)或Target at.js JavaScript程式庫，為用戶端網路實作Adobe Target。
-title: 如何實作用戶端Web的Target
+description: 瞭解如何實作Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js JavaScript程式庫。
+title: '如何為用戶端網頁實施 [!DNL Target] '
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 18%
+source-wordcount: '340'
+ht-degree: 17%
 
 ---
 
-# 概覽: 為用戶端 Web 實作 Target
+# 概觀：為用戶端網頁實作[!DNL Target]
 
 在 [!DNL Adobe Target] 的用戶端實作中，[!DNL Target] 會將與活動相關聯的體驗直接提供給用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。在用戶端實作中，您可以使用 WYSIWYG 編輯器、[可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 或非視覺化介面 ([表單式體驗撰寫器](/help/c-experiences/form-experience-composer.md))，建立您的活動和個人化體驗。
 
