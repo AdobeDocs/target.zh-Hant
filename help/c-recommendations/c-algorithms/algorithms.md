@@ -1,16 +1,16 @@
 ---
 keywords: recommendations;recommendations活動；准則；算法；建議鍵；自訂鍵；行業垂直；零售；eccommerce;lead generation;b2b；金融服務；媒體；發佈
-description: 瞭解如何在Adobe Target Recommendations中使用標準。 准則是根據一組預先確定的訪客行為來決定要推薦哪些內容的規則。
-title: 如何在Target Recommendations中使用條件？
+description: 瞭解如何在Adobe [!DNL Target] Recommendations中使用標準。 准則是根據一組預先確定的訪客行為來決定要推薦哪些內容的規則。
+title: 如何在 [!DNL Target] Recommendations中使用標準？
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 52%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 條件
 
@@ -28,7 +28,7 @@ ht-degree: 52%
 | 潛在客戶開發/B2B/金融服務 | 轉換但未購買 |
 | 媒體/出版 | 參與 |
 
-其他條件選項會根據您選取的產業垂直而變更。 您可以在&#x200B;**[!UICONTROL Recommendations > Settings]**&#x200B;頁面上設定預設產業垂直，也可以為每個准則指定產業垂直。
+其他條件選項會根據您選取的產業垂直而變更。 您可以在&#x200B;**[!UICONTROL Recommendations>設定]**&#x200B;頁面上設定預設產業垂直，或為每個准則指定產業垂直。
 
 ## 建議索引鍵{#section_885B3BB1B43048A88A8926F6B76FC482}
 
@@ -91,7 +91,7 @@ ht-degree: 52%
 | [網站相關性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | 根據項目之間關係的必然性來建議項目。 |
 | [最暢銷商品](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | 多數完成的訂單中包含的項目。單一訂單中相同項目的多個單位視為一份訂單。 |
 | [檢視次數最多](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | 最常檢視的項目或媒體。 |
-| [使用者建議](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。 |
+| [以使用者為基礎的Recommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。 |
 
 >[!NOTE]
 >
