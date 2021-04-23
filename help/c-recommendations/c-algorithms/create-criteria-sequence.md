@@ -1,16 +1,16 @@
 ---
 keywords: 准則序列；多准則；算法；准則；建議准則；序列；返回的項目數；插槽級別控制；插槽
-description: 瞭解如何設定最多5個准則的序列，以對出現在Adobe Target Recommendations活動中的項目進行更大的控制。
-title: 如何在Recommendations中建立條件序列？
+description: 瞭解如何設定最多5個標準的序列，以便更好地控制Adobe中出現的項目 [!DNL Target] Recommendations活動。
+title: 如何在Recommendations建立條件序列？
 feature: Recommendations
+exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 34%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 建立條件序列
 
@@ -38,12 +38,12 @@ ht-degree: 34%
 有多個方式可到達[!UICONTROL 「建立條件順序」]畫面。根據您達到畫面的方式，部分畫面選項可能有所不同。
 
 * 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**[!UICONTROL >]**「建立條件順序」]**。您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
-* 當您要建立[!UICONTROL Recommendations]活動時，從「選擇標準」畫面按一下「建立新的&#x200B;**[!UICONTROL >**[!UICONTROL &#x200B;建立標準順序&#x200B;]**」。]**&#x200B;您將可以選擇儲存您的新條件順序以搭配其他 [!UICONTROL Recommendations] 活動使用。
-* 當您編輯[!UICONTROL Recommendations]活動時，請按一下頁面上的[!UICONTROL Recommendations Location]方塊，然後選取&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**>**[!UICONTROL 「建立條件順序」]**。您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
+* 在建立[!UICONTROL Recommendations]活動時，從「選擇標準」螢幕中按一下&#x200B;**[!UICONTROL 新建]** > **[!UICONTROL 建立標準序列]**。 您將可以選擇儲存您的新條件順序以搭配其他 [!UICONTROL Recommendations] 活動使用。
+* 編輯[!UICONTROL Recommendations]活動時，按一下頁面上的[!UICONTROL Recommendations位置]框，然後選擇&#x200B;**[!UICONTROL 更改條件]**。 在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**>**[!UICONTROL 「建立條件順序」]**。您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
 
-以下步驟假定您使用第一種方法訪問[!UICONTROL 建立標準序列]螢幕：**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;程式庫畫面。
+以下步驟假定您使用第一種方法訪問[!UICONTROL 建立標準序列]螢幕：**[!UICONTROL Recommendations]** > **[!UICONTROL 標準]**&#x200B;程式庫畫面。
 
-1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 准則]**」。
+1. 按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 標準]**。
 
 1. 按一下「建立標準」(**[!UICONTROL Create Criteria)>「]** > **[!UICONTROL 建立標準序列」(]**)。
 
