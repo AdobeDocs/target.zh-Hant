@@ -1,22 +1,22 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;報表;檢視報表;計數方法;曝光次數;訪客;造訪;預設量度;活動轉換;未指定
-description: 尋找在使用Analytics for Target(A4T)時，常被問及有關檢視報表的問題。 A4T可讓您使用Analytics報表來處理Target活動。
+description: 在使用Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活動時，尋找有關檢視報表的常見問題解答。
 title: 尋找有關使用A4T檢視報表的問題解答？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 translation-type: tm+mt
-source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 38%
+source-wordcount: '2512'
+ht-degree: 37%
 
 ---
-
 
 # 檢視報表 - A4T 常見問題集
 
 本主題包含有關使用[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)報告來源時，檢視報告時常被問及的問題的解答。
 
-## 是否可以在 Analysis Workspace 中檢視我的 Target 活動資料? {#workspace}
+## 我可以在Analysis Workspace查看我的[!DNL Target]活動資料嗎？{#workspace}
 
 您可以使用[!DNL Analysis Workspace]來分析您的[!DNL Target]活動和體驗。 [Analytics for Target面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)可讓您檢視最多3個成功度量的提升度與可信度。 您也可以使用表格和視覺化來深入挖掘。
 
@@ -28,7 +28,7 @@ ht-degree: 38%
 
 區段也可以直接在自由表格中分層，但請注意，您必須將區段覆蓋整個表格，以便在A4T面板中保留提升度和可信度計算。 面板目前不支援欄層級區段。
 
-## 當我套用特定Target活動的點擊區段時，為何會傳回不相關的體驗？{#activity-segmentation}
+## 當我為特定[!DNL Target]活動套用點擊區段時，為何傳回不相關的體驗？{#activity-segmentation}
 
 傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。(注意：客戶服務可視需要調整此有效期間)。 當訪客在此有效期期間瀏覽網站時，他們是許多[!DNL Target]活動的一部分，所有活動都會收集在維度中。
 
@@ -75,7 +75,7 @@ A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算�
 
 若已對該活動進行分類，而您仍在報表中看到「未指定」列，請確定報表未使用非[!DNL Target]度量來顯示資料。 除非報表使用[!DNL Target]特定度量，否則「未指定」列包含與[!DNL Target]無關聯之呼叫的事件。 該列不包含任何[!DNL Target]相關資訊（例如訪客／瀏覽／印象）。
 
-## 為什麼即便在活動已停用後，仍會將 Target 量度傳送到 Analytics? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## 為何[!DNL Target]量度會在活動停用後傳送至Analytics?{#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 傳送至 [!DNL Target] 的 [!DNL Analytics] 變數有 90 天的預設期限。如有需要，客戶服務可以調整此有效期。 不過，此設定全域適用所有活動，因此不應針對一個案例進行調整。
 
@@ -93,7 +93,7 @@ A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算�
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 使用者在 2 月 1 日回來並檢視其他五個頁面，且沒有遇到更多的 Target 活動，而原始活動已非使用中。即使活動已不再進行，仍然會透過 eVar 持續性來追蹤使用者。現在，資料看起來像這樣:
 
@@ -106,13 +106,13 @@ A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算�
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 3 | 3 |
+| ABC | 1 | 5 | 3 | 3 |
 
 接著，使用者在 4 月 1 日回來，檢視另外五個頁面並購物。第一個eVar值的90天到期時間會在4月1日重設，因此您會在報表中看到。 使用者看到的所有 Target 活動皆獲得轉換的點數，但轉換總數已去除重複性。
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 | 訂單 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | 總計 | 2 | 20 | 1 | 1 | 3 |
 
@@ -124,7 +124,7 @@ A4T報表中有數個用於標準化量度的選項。 此量度也稱為計算�
 
 停用後，A4T活動報表印象的來源可以是QA模式流量。 Target通常不會記錄停用活動的事件，但Analytics無法知道曝光來自QA模式。 從Analytics擷取Target活動報表時，會顯示這些印象。 這是因為客戶需要檢查A4T報表的方式，即使活動未使用QA模式，客戶仍然需要。
 
-## 為什麼 Analytics 和 Analytics for Target (A4T) 計算的獨特訪客量度數字不同? {#section_0C3B648AB54041F9A2AA839D51791883}
+## 為什麼「Adobe Target分析與分析」(A4T)對「獨特訪客」量度的計算方式不同？{#section_0C3B648AB54041F9A2AA839D51791883}
 
 執行 A/B 測試時 (採用 Student t 檢定 (可信度量度) 來選擇測試的獲勝者)，其中一項假設是固定時間範圍。除非查看固定樣本大小，否則此測試在統計學上無效。
 
