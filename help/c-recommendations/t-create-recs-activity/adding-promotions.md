@@ -1,16 +1,16 @@
 ---
 keywords: 促銷；前面促銷；後面促銷；促銷類型；項目清單；按屬性促銷；促銷系列
-description: 瞭解如何新增推廣項目並控制其在Adobe Target Recommendations設計中的位置。 您可以新增靜態和動態促銷活動。
+description: 瞭解如何新增推廣項目並控制其在Adobe中的位置 [!DNL Target] Recommendations設計。 您可以新增靜態和動態促銷活動。
 title: 如何在Recommendations設計中新增促銷？
 feature: Recommendations
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 新增促銷活動
 
@@ -58,7 +58,7 @@ ht-degree: 56%
    * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]**，並選擇您要促銷的項目集合。
 
       您可以建立新的集合用於促銷活動。請參閱[建立集合](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
-   如果您選擇「項目清單」**[!UICONTROL 「促銷類型」**[!UICONTROL ，則可以視需要選取「隨機化項目順序」]**核取方塊。]**]****[!UICONTROL 
+   如果您選擇「項目清單」**[!UICONTROL 「促銷類型」**[!UICONTROL ，您可以視需要選取「隨機化項目順序」]**核取方塊。]**]****[!UICONTROL 
 
    [!UICONTROL 項目清單]的預設排序順序是根據您在Target UI或API中輸入的順序。 如果您的清單包含的項目數超過您為促銷設定的位置數，則[!UICONTROL 隨機化項目順序]選項會隨機化設計中顯示的促銷項目。 選擇此選項會導致[!DNL Target]從每個點擊的整個促銷集中隨機選取範本中啟用促銷的項目。
 
