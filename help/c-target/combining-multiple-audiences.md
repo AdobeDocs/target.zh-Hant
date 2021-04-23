@@ -1,18 +1,18 @@
 ---
 keywords: 對象;對象規則;合併對象;排除;新增排除項目;隨選對象
-description: 瞭解如何即時合併多個觀眾（包括Adobe Experience Cloud觀眾和Target觀眾），以建立臨機觀眾。
+description: 瞭解如何即時合併多個觀眾(包括Adobe Experience Cloud觀眾和 [!DNL Target] 觀眾)，以建立臨機觀眾。
 title: 我是否可結合多個觀眾以建立新觀眾？
-feature: Audiences
+feature: 對象
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# 合併多個對象{#combine-multiple-audiences}
+# 合併多個對象
 
 快速結合多個對象 (包括 Adobe Experience Cloud 對象和 Target 對象)，以建立隨選對象。您也可以從規則建立排除規則和排除對象。
 
