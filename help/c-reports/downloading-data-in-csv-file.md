@@ -1,18 +1,18 @@
 ---
 keywords: 報表;下載報表;csv;成功量度;訂單詳細資料
-description: 瞭解如何以CVS格式從Adobe Target活動下載資料，以便快速匯入至Excel、Access或其他資料分析程式。
+description: 瞭解如何從CVS格式的Adobe [!DNL Target] 活動下載資料，以便快速匯入至Excel、Access或其他資料分析程式。
 title: 如何以CSV檔案下載報表資料？
-feature: Reports
+feature: 報表
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
-
-# 將資料下載為 CSV 檔案{#downloading-data-in-a-csv-file}
+# 將資料下載為 CSV 檔案
 
 將資料下載為 .csv 格式，以快速匯入至 Excel、Access 或其他資料分析程式。
 
@@ -84,7 +84,7 @@ ht-degree: 82%
 
 下列資訊適用於「下載」選項:
 
-* 您可以下載A/B測試、自動個人化、體驗定位和多變數活動的兩個報表。 對於「建議」活動，您無法下載「成功量度」報表。
+* 您可以下載A/B測試、Automated Personalization、體驗定位和多變數活動的兩個報表。 對於「建議」活動，您無法下載「成功量度」報表。
 * 對於 Target 15.7.1 版 (2015 年 7 月) 以前建立的 A/B 和「體驗鎖定目標」活動，無法使用「下載」選項。
 * 下載的報表中不會記錄沒有相關聯資料的體驗。
 * Target 報表 UI 中套用的受眾不會繼續存在於下載報表中。
