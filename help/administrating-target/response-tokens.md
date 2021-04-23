@@ -1,19 +1,19 @@
 ---
 keywords: 響應令牌；token;plugins;plug-ins;at.js；回應
-description: 瞭解如何在Adobe Target輸出特定資訊時使用回應Token，以便用於除錯和整合第三方系統（例如Clicktale）。
+description: 瞭解如何在Adobe [!DNL Target] 中使用回應Token，以輸出特定資訊，以便用於除錯和與協力廠商系統整合（例如Clicktale）。
 title: 什麼是回應Token，我要如何使用它們？
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1573'
 ht-degree: 76%
 
 ---
 
-
-# 回應 Token{#response-tokens}
+# 回應 Token
 
 回應Token可讓您自動輸出特定於[!DNL Target]（活動詳細資訊、使用者設定檔資訊、地理資訊等）的資訊，以便用於除錯或與協力廠商系統整合（例如Clicktale）。
 
