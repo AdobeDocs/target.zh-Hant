@@ -1,18 +1,18 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: 讓我們開始使用您在Adobe Target中的第一項活動，讓您的投資報酬率達到最高。
+description: 讓我們開始使用Adobe [!DNL Target] 中的第一項活動，讓您的投資回報率。
 title: 我需要在Target中建立我的第一個活動。 我該從哪開始？
-feature: Overview
+feature: 概述
+exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
 
-
-# 第七章：建立並執行您的第一個Target活動
+# 第七章：建立並執行第一個[!DNL Target]活動
 
 因此，您已準備好開始進行[!DNL Target]中的第一項活動？ 太棒了。 讓我們為您的網站、行動網站或行動應用程式找出一些不太複雜的活動，但可提供快速的投資報酬率，並讓您對使用[!DNL Target]進行測試和個人化的潛力感到興奮。 視您的組織及其重點而定，您可能會考慮使用第一個活動進行三種不同的路線之一。
 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 ## 使用活動計畫員計畫活動
 
-我們已將[Adobe Target Activity Planner](/help/assets/activity-planner.pdf)納入為獨立PDF，您可以一而再、再而三地加以儲存和使用。 按一下連結以檢視PDF檔案。 以滑鼠右鍵下載PDF檔案。
+我們已將[Adobe Target活動規劃師](/help/assets/activity-planner.pdf)納入為獨立PDF，您可以一而再、再而三地加以儲存和使用。 按一下連結以檢視PDF檔案。 以滑鼠右鍵下載PDF檔案。
 
 要運行有效活動，您需要填寫計畫員的每個區域。 在您和其他人腦力激蕩想法時，使用此工具來測試和個人化活動。
 
-![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
+![Adobe Target活動規劃師](/help/c-intro/assets/activity-planner.png)
 
 以下是規劃師各個領域的想法：
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 您需要將一定數量的訪客放入測試人口中，才能從測試中得出統計上顯著的結論。 想想看，如果只有兩個人參加你的考試，你會對結果有信心嗎？
 
-[!DNL Target] 依據統計原則來判斷測試結果在統計上是有效的。Adobe [範例大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)可協助您根據對結果的信賴度，判斷執行測試的時間長度。 按一下此框中的[!UICONTROL 瞭解詳細內容]連結以開啟並使用計算器。
+[!DNL Target] 依據統計原則來判斷測試結果在統計上是有效的。Adobe[樣本大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)可協助您根據對結果的信賴度來判斷執行測試的時間長度。 按一下此框中的[!UICONTROL 瞭解詳細內容]連結以開啟並使用計算器。
 
 ### 這項活動有多重要？
 
@@ -106,6 +106,6 @@ ht-degree: 0%
 
 您的活動結果通常會提供您下一步應採取之動作的見解。 如果體驗變化非常成功，您可能想要將它硬式編碼到您的網站。 您可能會看到在其他類似頁面上套用該成功的機會。 結果可能會指出，在本頁中，要改善客戶體驗，還需做更多工作。 使用此區域記錄活動中的關鍵學習內容，並記錄您將根據這些學習內容執行的工作。
 
-## 開啟Target並建立並啟動您的活動
+## 開啟[!DNL Target]並建立並啟動您的活動
 
 您已填妥Activity Planner。 現在，您應該進入解決方案，並建立您的活動。 [!DNL Target] 可讓您在 [!UICONTROL Visual Experience Composer中輕鬆修改網頁]。
