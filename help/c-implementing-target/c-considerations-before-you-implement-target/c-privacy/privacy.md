@@ -1,17 +1,17 @@
 ---
 keywords: 隱私權；ip位址；地域劃分；退出；退出；退出；資料隱私；政府法規；gdpr;cpa
-description: 瞭解Adobe Target如何遵守適用的資料隱私法，包括IP位址的收集和處理，以及選擇退出指示。
-title: Target如何處理隱私權問題？
-feature: Privacy & Security
+description: 瞭解Adobe [!DNL Target] 如何遵守適用的資料隱私法，包括IP位址的收集和處理，以及選擇退出指示。
+title: ' [!DNL Target] 如何處理隱私權問題？'
+feature: 隱私權與安全性
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 73%
 
 ---
-
 
 # 隱私權
 
@@ -37,7 +37,7 @@ Target會接收完整的IP位址，並依指定將其模糊化（若設為「最
 
 >[!NOTE]
 >
->[請連絡Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Care，以判斷您目前使用的設定或啟用IP模糊化功能。
+>[請連絡Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 用戶端服務，以判斷您目前使用的設定或啟用IP模糊化功能。
 
 ## 地域劃分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -60,4 +60,4 @@ Target會接收完整的IP位址，並依指定將其模糊化（若設為「最
 
 ## 隱私權與資料保護規範
 
-請參閱[隱私權與資料保護法規](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)，以取得歐盟通用資料保護法規(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的相關資訊，以及這些規定對您的組織和Adobe Target有何影響。
+請參閱[隱私權與資料保護法規](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)，以取得歐盟通用資料保護法規(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的相關資訊，以及這些法規對您的組織和Adobe Target的影響。
