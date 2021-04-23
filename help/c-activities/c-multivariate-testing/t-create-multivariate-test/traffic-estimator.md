@@ -1,16 +1,16 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: 瞭解如何使用流量估計器，讓您知道是否有足夠的流量讓Adobe Target多變數測試活動成功。
+description: 瞭解如何使用流量估計器，讓您瞭解您的Adobe [!DNL Target] 多變數測試活動是否有足夠流量才能成功。
 title: 多變數測試(MVT)活動需要多少流量？
-feature: Multivariate Tests
+feature: 多變數測試
+exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '502'
 ht-degree: 92%
 
 ---
-
 
 # 預估成功測試所需的流量
 
@@ -61,4 +61,3 @@ ht-degree: 92%
    調整數量直到流量估算程式指出您有足夠的流量為止，然後據以設計您的測試。
 
    ![](assets/estimatorok.png)
-
