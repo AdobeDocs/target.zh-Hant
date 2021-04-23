@@ -1,16 +1,16 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: 只需使用「執行摘要結果」範本，即可協助您透過Adobe Target活動傳達成功。
-title: 我要如何與組織分享Target活動的結果？
-feature: Overview
+description: 只需使用「執行摘要結果」範本，即可協助您與Adobe [!DNL Target] 活動溝通成功。
+title: 如何與我的組織分享我的 [!DNL Target] 活動結果？
+feature: 概述
+exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 # 第8章：傳達您的活動成果
 
