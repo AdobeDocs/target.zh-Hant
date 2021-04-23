@@ -1,22 +1,22 @@
 ---
 keywords: 定位；視覺體驗撰寫器；vec；疑難排解視覺體驗撰寫器；疑難排解；tls;tls 1.2
-description: 瞭解如何疑難排解Adobe Target Visual Experience Composer(VEC)在特定條件下有時會發生的問題。
+description: 瞭解如何在特定條件下疑難排解Adobe [!DNL Target] Visual Experience Composer(VEC)中有時發生的問題。
 title: 如何疑難排解與Visual Experience Composer相關的問題？
-feature: Visual Experience Composer (VEC)
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 89%
+source-wordcount: '800'
+ht-degree: 87%
 
 ---
-
 
 # 疑難排解與Visual Experience Composer相關的問題
 
 在某些情況下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中有時會發生顯示問題。
 
-## 在可視化體驗撰寫器中開啟我的網站時，Target 資料庫未載入。(僅限 VEC)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 當我在Visual Experience Composer中開啟我的網站時，不會載入[!DNL Target]程式庫。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可視化體驗撰寫器中開啟網站時，Target 會新增兩個參數 (`mboxEdit=1` 和 `mboxDisable=1`)。
 
