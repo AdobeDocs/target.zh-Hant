@@ -1,16 +1,16 @@
 ---
 keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 出現上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪設定檔指令碼; ajax 無法使用
-description: 尋找疑難排解建議，以免您的Adobe Target活動出現在您的網站上。
+description: 尋找疑難排解建議，以便您的Adobe [!DNL Target] 活動未出現在您的網站上。
 title: 如何排除活動故障？
-feature: Activities
+feature: 活動
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 78%
+source-wordcount: '834'
+ht-degree: 77%
 
 ---
-
 
 # 疑難排解活動
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 以下各節包含您可能會遇到的問題，並提供建議的解決方案。
 
-## 我使用Target UI建立活動，但無法透過API進行更新。
+## 我使用[!DNL Target] UI建立活動，但無法透過API更新。
 
 使用Target UI建立的活動應透過Target UI更新。 透過API建立的活動應透過API更新。 例如，如果您最初使用API建立活動，但稍後透過Target UI編輯活動，則不會更新所有變更。 所有變更都儲存在後端，並可進行其他API呼叫來更新。
 
@@ -69,7 +69,7 @@ ht-degree: 78%
 * 嘗試不同瀏覽器。
 * 使用私人/無痕模式。
 
-## 您最近加入 Target，但無法建立活動。
+## 您最近已新增至[!DNL Target]，但無法建立活動。
 
 **驗證:**&#x200B;按一下「建立活動」。如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
 
@@ -141,6 +141,6 @@ ht-degree: 78%
 
 **注意:**[!DNL Target] 具有相同 名稱但不同參數的多個 ajax 呼叫將無法在相同頁面上運作。僅會發出第一次呼叫。
 
-## 您使用Target API啟動活動，但活動在Target UI中顯示[!UICONTROL Inactive]的狀態。
+## 您使用[!DNL Target] API啟動活動，但活動在[!DNL Target] UI中顯示[!UICONTROL Inactive]的狀態。
 
 執行特定動作時 (例如在 UI 外部使用 Target API 來啟動活動)，更新最多可能需要 10 分鐘才會傳播至 UI。
