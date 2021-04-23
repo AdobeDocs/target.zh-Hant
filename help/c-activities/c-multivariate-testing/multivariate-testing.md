@@ -1,16 +1,16 @@
 ---
 keywords: 多變數test;mvt;full factorial;mvt或a/b；多變數a/b；流量估計器；何時使用mvt;mvt;mvt考慮因素；多變數；partial-factorial;partialfactorial;full-factorial
-description: 瞭解如何在Adobe Target中使用多變數測試(MVT)來比較頁面上元素中選件的組合，以判斷哪個組合最佳。
+description: 瞭解如何使用Adobe [!DNL Target] 中的Multivariate Testing(MVT)來比較頁面上元素中選件的組合，以判斷哪個組合最佳。
 title: 什麼是多變數測試？
-feature: Multivariate Tests
+feature: 多變數測試
+exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1462'
 ht-degree: 87%
 
 ---
-
 
 # 多變數測試概覽
 
