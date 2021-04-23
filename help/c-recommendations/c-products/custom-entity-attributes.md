@@ -1,19 +1,19 @@
 ---
 keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
-description: 瞭解如何使用單值和多值自訂實體屬性來定義Adobe Target Recommendations目錄中項目的其他資訊。
+description: 瞭解如何使用單值和多值自訂實體屬性來定義Adobe [!DNL Target] Recommendations目錄中項目的其他資訊。
 title: 如何使用自訂實體屬性？
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 自訂實體屬性{#custom-entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) 自訂實體屬性
 
 使用[!DNL Adobe Target Recommendations]中的單值和多值自訂實體屬性，定義目錄中項目的其他資訊。
 
@@ -127,7 +127,7 @@ function targetPageParams() {
   }
 ```
 
-如需使用「傳送」和「儲存」實體API的詳細資訊，請參閱[Adobe Recommendations API檔案](http://developers.adobetarget.com/api/recommendations)。
+如需使用傳送與儲存實體API的詳細資訊，請參閱[Adobe RecommendationsAPI檔案](http://developers.adobetarget.com/api/recommendations)。
 
 ## 使用具有多值屬性{#section_83C2288A805242D9A02EBC4F07DEE945}的運算子
 
