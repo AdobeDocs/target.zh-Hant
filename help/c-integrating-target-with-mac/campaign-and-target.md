@@ -1,18 +1,18 @@
 ---
 keywords: 概覽和參考
-description: 瞭解如何搭配Adobe Campaign使用Adobe Target來最佳化電子郵件內容。
-title: 如何將Target與Adobe Campaign整合？
-feature: Integrations
+description: 瞭解如何搭配Adobe Campaign使用Adobe [!DNL Target] 來最佳化電子郵件內容。
+title: 如何將 [!DNL Target] 與Adobe Campaign整合？
+feature: 整合
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 47%
+source-wordcount: '382'
+ht-degree: 44%
 
 ---
 
-
-# 將 Target 與 Adobe Campaign 整合{#integrate-target-with-adobe-campaign}
+# 將[!DNL Target]與Adobe Campaign整合
 
 使用[!DNL Target]搭配[!DNL Adobe Campaign]來最佳化電子郵件內容。
 
@@ -58,7 +58,7 @@ Target 可以追蹤下列資料:
 
 在設定整合的[!DNL Campaign]部分之前，先啟動[!DNL Target]中的活動。
 
-## 在 Adobe Campaign 電子郵件中包含 Target 選件 {#section_B201BBE27A704E18AF0D553F35695837}
+## 在Adobe Campaign電子郵件{#section_B201BBE27A704E18AF0D553F35695837}中包含[!DNL Target]選件
 
 1. 在[!DNL Adobe Campaign]中建立電子郵件。
 1. 在電子郵件屬性中，按一下&#x200B;**[!UICONTROL 「包含」]** > **[!UICONTROL 「Adobe Target 提供的動態影像」]**。
