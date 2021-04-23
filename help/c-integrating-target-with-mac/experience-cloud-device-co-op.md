@@ -1,18 +1,18 @@
 ---
 keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;裝置圖表
-description: 尋找有關Adobe Experience Cloud Device Co-op的資訊。 共同合作，在數位接觸點上更好地識別消費者，同時確保隱私和透明度。
-title: 什麼是Adobe Experience Cloud Device Co-Op?
-feature: Integrations
+description: 尋找有關Adobe Experience Cloud裝置合作社的資訊。 共同合作，在數位接觸點上更好地識別消費者，同時確保隱私和透明度。
+title: 什麼是Adobe Experience CloudDevice Co-Op?
+feature: 整合
+exl-id: 22769591-cab4-4460-b427-76eb1bfff4b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 68%
 
 ---
 
-
-# [!DNL Experience Cloud Device Co-op]{#experience-cloud-device-co-op}
+# [!DNL Experience Cloud Device Co-op]
 
 [!DNL Adobe Experience Cloud Device Co-op] 的相關資訊，此計劃可讓參與者共同合作，以在數位接觸點間更能識別客戶，同時確保最高層級的隱私權和透明度。
 
