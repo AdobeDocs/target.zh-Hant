@@ -1,16 +1,16 @@
 ---
 keywords: 定位
-description: 瞭解Adobe Target如何顯示及計算每個體驗的轉換率、提升度、信賴（統計意義）和信賴區間。
+description: 瞭解Adobe [!DNL Target] 如何顯示和計算每個體驗的轉換率、提升度、信賴（統計意義）和信賴區間。
 title: 如何檢視轉換率、提升度和信賴等級？
-feature: Reports
+feature: 報表
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
-
 
 # 轉換率
 
@@ -112,7 +112,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 >
 >此計算機適用於鎖定目標型報表，而非 A4T 報表。
 
-## 執行 Analytics for Target (A4T) 的離線計算{#section_B34BD016C8274C97AC9564F426B9607E}
+## 執行Adobe TargetAnalytics的離線計算(A4T){#section_B34BD016C8274C97AC9564F426B9607E}
 
 您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。
 
@@ -147,7 +147,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
 * [建立 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [資料倉庫最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data Warehouse最佳做法](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 計算方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -186,7 +186,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 >
 >計數通常是由 Cookie 和作業活動所決定。不過，若您達到活動的最終轉換點，然後重新進入活動，則會將您視為該活動的新加入者和新的造訪。即使您的 PCID 和 `sessionID` 值未變更，亦會採取此處理方式。
 
-## 為什麼Target建議使用學生的t-tests?{#t-test}
+## 為什麼[!DNL Target]建議使用學生的t-tests?{#t-test}
 
 A/B測試是比較控制變數中某些業務量度（也稱為體驗）的平均值與一個或多個替代體驗中該量度的平均值的實驗。
 
