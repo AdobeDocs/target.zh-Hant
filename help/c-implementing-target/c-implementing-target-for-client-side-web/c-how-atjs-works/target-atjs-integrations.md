@@ -1,19 +1,19 @@
 ---
 keywords: at.js 整合;支援的整合;不支援的整合;第三方整合
-description: 檢視Adobe Target at.js支援（且不支援）的整合，包括Analytics for Target(A4T)、Experience Cloud ID服務等。
+description: 查看Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T)、Experience CloudID服務等支援（且不支援）的整合。
 title: at.js支援哪些整合？
 feature: at.js
 role: Developer
+exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 86%
+source-wordcount: '570'
+ht-degree: 87%
 
 ---
 
-
-# at.js 整合{#at-js-integrations}
+# at.js 整合
 
 關於與 [!DNL Target] 的常見整合及其對 at.js 支援狀態的資訊。
 
