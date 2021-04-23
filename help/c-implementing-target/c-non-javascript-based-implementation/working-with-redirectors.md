@@ -1,19 +1,19 @@
 ---
 keywords: 實作;mbox.js non javascript;重新導向程式;每次點擊成本;每次點擊收入
-description: 瞭解如何在電子郵件實作中使用重新導向程式，就像您在Adobe Target活動中使用mbox的方式一樣。
+description: 瞭解如何在電子郵件實作中使用重新導向程式，類似於您在Adobe [!DNL Target] 活動中使用mbox的方式。
 title: 如何與重新導向程式搭配使用？
-feature: Implement Email
+feature: 實作電子郵件
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 66%
 
 ---
 
-
-# 使用重新導向程式{#work-with-redirectors}
+# 使用重新導向程式
 
 使用「重新導向程式」的方式和您在測試中使用 mbox 類似。
 
@@ -61,7 +61,7 @@ ht-degree: 66%
       >請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參閱[建立允許清單，指定在&#x200B;*Hosts*&#x200B;中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#allowlist)的主機。
 
 1. 驗證重新導向程式。
-   1. *安全性最佳實務*:請確定允許列出重新導向程式中使用的網域，如上所述。如果您使用未允許列出的網域，Adobe會封鎖對該網域的任何呼叫，以防止惡意使用者使用「重新導向程式」重新導向至可能有惡意的網域。
+   1. *安全性最佳實務*:請確定允許列出重新導向程式中使用的網域，如上所述。如果您使用未允許列出的網域，Adobe會封鎖對該網域的任何呼叫，以防止惡意使用者使用重新導向程式重新導向至可能惡意的網域。
    1. 請將「重新導向程式 URL」插入到瀏覽器中，然後重新整理。
    1. 登入您的帳戶，重新整理您的 mbox 清單，然後確認新的「重新導向程式」是否已列為 mbox。
 1. 如果要測試某個廣告的不同目的地，請分別為每個版本建立[重新導向選件](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
