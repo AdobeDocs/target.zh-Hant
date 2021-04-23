@@ -1,17 +1,17 @@
 ---
 keywords: gdpr;eu;歐盟;隱私權;常見問題集;常見問題集;加州消費者隱私保護法;ccpa;隱私權;資料保護;選擇退出;選擇退出;政府;規範
-description: 瞭解Target和歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)以及其他隱私權要求。
-title: Target如何處理隱私權和資料保護法規？
-feature: Privacy & Security
+description: 瞭解 [!DNL Target] 和歐盟通用資料保護規則(GDPR)、加州消費者隱私法(CCPA)以及其他隱私權要求。
+title: ' [!DNL Target] 如何處理隱私和資料保護法規？'
+feature: 隱私權與安全性
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 90%
+source-wordcount: '2260'
+ht-degree: 88%
 
 ---
-
 
 # 隱私權與資料保護規範
 
@@ -52,7 +52,7 @@ ht-degree: 90%
 >
 >訪問和刪除適用於CCPA的資料時，會遵循與GDPR相同的流程。
 
-## Adobe Target 和 [!DNL Experience Platform Launch] 選擇加入 {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe[!DNL Target]和[!DNL Experience Platform Launch]選擇加入{#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] 透過 [!DNL Launch] 支援選擇加入功能，有助於支援同意管理策略。選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Launch] 預先核准 [!DNL Target] 標記。若要啟用在 [!DNL Target] at.js 資料庫中使用選擇加入的功能，您應使用 `targetGlobalSettings` 並新增 `optinEnabled=true` 設定。在 [!DNL Launch] 中，您會需要以 [!DNL Launch] 擴充程式安裝檢視，從 [!UICONTROL GDPR 選擇加入]下拉式清單中選取「啟用」。如需詳細資訊，請參閱 [Launch 文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
 
@@ -148,7 +148,7 @@ GDPR 和 CCPA 並未變更您必須取得同意的時間，而是改變您取得
 
 [!DNL Target] 透過 [!DNL Launch] 支援選擇加入功能，以支援同意管理策略。選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Launch] 預先核准 [!DNL Target] 標記。建議使用 [!DNL Launch] 管理選擇加入。[!DNL Launch] 中可更仔細控制，可在 [!DNL Target] 引發前隱藏特定頁面元素，當作同意策略十分實用。
 
-如需有關GDPR、CCPA和[!DNL Launch]的詳細資訊，請參閱[ The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。 另請參閱上方的 *Adobe Target 和 Experience Platform Launch 選擇加入*&#x200B;一節。
+如需有關GDPR、CCPA和[!DNL Launch]的詳細資訊，請參閱[Adobe隱私權JavaScript程式庫和GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。 另請參閱上方的 *Adobe Target 和 Experience Platform Launch 選擇加入*&#x200B;一節。
 
 ### AdobePrivacy.js 會將資訊提交至 GDPR API 嗎? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -160,7 +160,7 @@ GDPR 和 CCPA 並未變更您必須取得同意的時間，而是改變您取得
 
 例如，[!DNL Target] 會刪除儲存訪客 ID 的 Cookie，但 [!DNL Adobe Audience Manager] (AAM) 不會刪除儲存在協力廠商 Cookie 中的 demdex ID。
 
-### Target GDPR 或 CCPA 要求需要包含哪些資訊? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### [!DNL Target] GDPR或CCPA要求中需要包含哪些資訊？{#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 除了集中隱私權服務的需求，[!DNL Target] 接受的有效 GDPR 或 CCPA 訊息包含:
 
@@ -201,7 +201,7 @@ GDPR 和 CCPA 並未變更您必須取得同意的時間，而是改變您取得
 }
 ```
 
-### 透過 GDPR API，我應該可以得到哪些回應類型?    {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### 透過GDPR API，我可以預期從[!DNL Target]收到哪些類型的回應？{#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | 要求狀態 | Target 回應訊息 | 藍本 |
 |--- |--- |--- |
@@ -210,7 +210,7 @@ GDPR 和 CCPA 並未變更您必須取得同意的時間，而是改變您取得
 | 完成 | 不適用 - 使用者環境不適用 | Target 設定檔存放區中沒有在 GDPR 或 CCPA 要求中提供的特定訪客或資料主體的 ID。<br>請注意，如果您企圖提交 Target 不支援的名稱空間 ID 類型 (請參閱上方提及支援的 ID 部分)，也會傳回這樣的結果。 |
 | 錯誤 | 錯誤訊息 (詳細資訊會視錯誤類型而定) | 擷取或刪除要求的資料主體設定檔時發生錯誤。<br>因應存取要求上傳至 Azure 時發生錯誤。 |
 
-### Target 針對存取要求傳送至 GDPR API 的回應是什麼? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### [!DNL Target]會針對存取要求傳送哪些回應給GDPR API?{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 存取資料要求的回應包含特定訪客的 [!DNL Target] 設定檔摘要。請注意，此傳回內容會傳送至 [!DNL Experience Cloud] GDPR API，並傳送回應給資料控管者。
 
@@ -293,10 +293,10 @@ GDPR 和 CCPA 並未變更您必須取得同意的時間，而是改變您取得
 >
 >此為 [!DNL Target] 設定檔 JSON 的簡短版本，以供說明使用。[!DNL Target] 設定檔的許多欄位並非標準欄位。傳回的內容取決於特定訪客設定檔中的資訊。
 
-### Target 支援 IP 模糊化功能嗎?    {#section_428907B0CD9842D9B245B38C66A53C6A}
+### [!DNL Target]是否支援IP模糊化？{#section_428907B0CD9842D9B245B38C66A53C6A}
 
 如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
 
 ### 我是否需要採取措施來防止我的資料被分享或出售給第三方？
 
-Target無法允許客戶直接從Target分享或銷售資料給第三方，因此不會選擇退出Target銷售。
+Target無法允許客戶直接從Target分享或銷售資料給第三方，因此Target不會選擇退出銷售。
