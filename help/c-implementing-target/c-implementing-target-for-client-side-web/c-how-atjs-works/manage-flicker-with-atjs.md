@@ -1,19 +1,19 @@
 ---
 keywords: flicker;at.js；實現；非同步；非同步；同步；同步
-description: 瞭解at.js和Adobe Target如何在載入頁面或應用程式期間防止閃爍（預設內容在被活動內容取代前會立即顯示）。
+description: 瞭解at.js和Adobe [!DNL Target] 如何在頁面或應用程式載入期間防止閃爍（預設內容在被活動內容取代前會立即顯示）。
 title: at.js如何管理Flicker?
 feature: at.js
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# At.js 處理忽隱忽現情況的方式{#how-at-js-manages-flicker}
+# At.js 處理忽隱忽現情況的方式
 
 關於 Target at.js JavaScript 資料庫如何在頁面或應用程式載入期間防止閃爍的資訊。
 
@@ -47,7 +47,7 @@ ht-degree: 76%
 
 您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形，此片段要等到 [!DNL Target] 將相關的 HTML 元素個人化之後才可見。
 
-at.js可以非同步載入，直接內嵌在頁面上，或透過標籤管理器(Adobe Launch、動態標籤管理器(DTM)等)。
+at.js可以非同步載入，直接內嵌在頁面上，或透過標籤管理器(Adobe啟動、動態標籤管理器(DTM)等)。
 
 如果頁面上內嵌了at.js，則必須先新增程式碼片段，才能載入at.js。 如果您透過標籤管理器載入at.js（此標籤管理器也以非同步方式載入），則必須先新增程式碼片段，再載入標籤管理器。 如果標籤管理器是同步載入的，則指令碼可能會包含在at.js之前的標籤管理器中。
 
