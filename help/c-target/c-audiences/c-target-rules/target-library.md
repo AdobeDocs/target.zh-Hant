@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;Target 資料庫;程式庫
 description: 瞭解如何使用預先建立的舊版受眾鎖定訪客。 最佳實務是使用較新的受眾類別來改善效能。
-title: 我可以根據預先建立的定位規則來定位訪客嗎？
-feature: Audiences
+title: '我是否可根據預先建立的定位規則來設定訪客？ [!DNL Target] '
+feature: 對象
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-
-# Target 資料庫{#target-library}
+# Target 資料庫
 
 根據預先建置的鎖定目標規則鎖定使用者。
 
