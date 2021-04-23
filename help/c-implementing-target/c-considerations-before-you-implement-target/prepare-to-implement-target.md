@@ -1,17 +1,17 @@
 ---
 keywords: 實作;rfi;索取資訊
-description: 在實作Adobe Target之前，請先瞭解您應處理的考量事項。 在準備實作Target時，完成必要的工作並收集資訊。
+description: 在實施Adobe Target之前，瞭解您應該考慮的事項。 在準備實作Target時，完成必要的工作並收集資訊。
 title: 如何準備實施Target?
-feature: Implementation
+feature: 實施
 role: Developer
+exl-id: f365f417-2750-46f7-b2ff-0f5b82747b4e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 84%
+source-wordcount: '278'
+ht-degree: 80%
 
 ---
-
 
 # 準備實作 Target
 
@@ -21,7 +21,7 @@ ht-degree: 84%
 
 如果您與 Adobe 顧問合作，則您在實施 Target 之前就不需要知道這些文件中的資訊。不過，熟悉諮詢服務將建立的文件和他們將提問的問題，有助於加速進行實施前的程序。未來可能修改這些文件。
 
-## Adobe Target 商業要求資訊 {#section_A345E8D9ED41478A90ABE7703648C06C}
+## Adobe[!DNL Target]業務要求資訊{#section_A345E8D9ED41478A90ABE7703648C06C}
 
 本節包含「商業要求資訊 (RFI)」文件，應該由客戶在 Target 實施的首次呼叫之前完成。
 
@@ -32,7 +32,7 @@ ht-degree: 84%
 
 下載[](/help/assets/business-rfi.docx)商業要求資訊文件。
 
-## Adobe Target 技術要求資訊 {#section_95C4F0A2E4EB423399D24F2B7198F6C5}
+## Adobe[!DNL Target]技術資訊要求{#section_95C4F0A2E4EB423399D24F2B7198F6C5}
 
 本節包含「技術要求資訊 (RFI)」文件，將可協助我們的諮詢團隊開發符合客戶商業和技術需求的 Target 實施。本文件中的問題將揭露任何隱藏的困難或障礙，以避免或排除需要修訂實施的情形發生。
 
