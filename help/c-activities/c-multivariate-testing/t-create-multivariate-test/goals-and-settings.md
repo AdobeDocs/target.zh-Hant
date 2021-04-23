@@ -1,16 +1,16 @@
 ---
 keywords: 活動設定；目標和設定；多變數；mvt
-description: 瞭解如何使用Adobe Target中的「目標與設定」頁面來指定多變數測試(MVT)活動目標的相關資訊。
+description: 瞭解如何使用Adobe [!DNL Target] 中的「目標與設定」頁面來指定多變數測試(MVT)活動的目標資訊。
 title: 如何在多變數測試(MVT)活動中指定目標和設定？
-feature: Multivariate Tests
+feature: 多變數測試
+exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 90%
 
 ---
-
 
 # 目標與設定（多變數測試）
 
