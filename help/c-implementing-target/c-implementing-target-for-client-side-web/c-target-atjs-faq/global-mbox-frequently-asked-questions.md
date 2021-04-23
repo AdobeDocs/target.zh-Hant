@@ -1,23 +1,23 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;全域;全域 mbox
-description: 閱讀有關Adobe Target全域mbox的常見問答集(FAQ)和解答。
+description: 閱讀有關Adobe [!DNL Target] 全域mbox的常見問答集(FAQ)和解答。
 title: 關於全域mbox的常見問題有哪些？
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 85%
 
 ---
 
-
-# 全域 mbox 常見問題{#global-mbox-frequently-asked-questions}
+# 全域 mbox 常見問題
 
 關於全域 mbox 常見問題集 (FAQ) 的清單。
 
-## 如果我的 Target 帳戶設定為跨多個網域，我可以有多個全域 mbox 嗎? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## 如果我的[!DNL Target]帳戶已跨多個網域設定，我是否可擁有多個全域mbox?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 整個帳戶僅支援一個全域 mbox。
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 您也可以使用 [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 傳遞頁面上的參數，然後在[!UICONTROL 可視化體驗撰寫器] (VEC) 的「設定 URL」區段中選取參數，或在表單式體驗撰寫器中將參數新增為「細分」。
 
-## 我該如何在 Target 全域 mbox 上傳遞收入資料? {#section_17AEA933BADA4D169CCEDF5833C41306}
+## 如何在[!DNL Target]全域mbox上傳遞收入資料？{#section_17AEA933BADA4D169CCEDF5833C41306}
 
 若要在 target-global-mbox 上收集收入和訂單資訊，必須將「mbox 參數」傳送至 Target。這些參數為名稱/值配對，用來傳送更多資訊給 Target。Target 會自動尋找這些參數 (保留名稱) 以填入收入資料。
 
