@@ -1,17 +1,17 @@
 ---
 keywords: 安全性;安全性實務
-description: 瞭解Adobe用來加強資料安全性和Adobe Target體驗的程式。 下載Adobe Target安全性概觀白皮書。
-title: Target如何處理我的資料安全性？
-feature: Privacy & Security
+description: 瞭解Adobe用來加強資料安全性的程式和Adobe [!DNL Target] experience. Download the Adobe [!DNL Target] 安全性概述白皮書。
+title: ' [!DNL Target] 如何處理我的資料的安全性？'
+feature: 隱私權與安全性
 role: Developer
+exl-id: be93072f-2c21-40fa-8648-513348afacc8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 74%
+source-wordcount: '160'
+ht-degree: 76%
 
 ---
-
 
 # Target 安全性概覽
 
