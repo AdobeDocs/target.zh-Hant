@@ -2,17 +2,17 @@
 keywords: 鎖定目標;目標類別;目標條件;audience manager;自訂設定檔參數;訪客設定檔;自訂使用者參數;目標規則
 description: 瞭解如何使用類別（例如瀏覽器、地理、網路、作業系統、訪客資料）來定位內容。
 title: 觀眾的類別為何？
-feature: Audiences
+feature: 對象
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# 對象的類別{#categories-for-audiences}
+# 對象的類別
 
 您可以定位數個類別。每個類別會如同標籤般運作，這可讓您為每個類別建立定位規則 (或群組)。
 
