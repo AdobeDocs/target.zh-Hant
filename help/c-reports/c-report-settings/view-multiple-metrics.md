@@ -1,25 +1,25 @@
 ---
 keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
-description: 瞭解如何使用Adobe Target選取多個度量以在報表中檢視。
+description: 瞭解如何使用Adobe Target選取要在報表中檢視的多個量度。
 title: 如何在報表中檢視多個量度？
-feature: Reports
+feature: 報表
+exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 59%
 
 ---
 
-
-# 在報表中檢視多個量度{#view-multiple-metrics-in-a-report}
+# 在報表中檢視多個量度
 
 您可以在[!DNL Adobe Target]報表中選取多個要檢視的量度。
 
 在報表中使用多個量度時，請注意下列資訊:
 
 * 檢視多個度量的功能僅適用於[A/B測試](/help/c-activities/t-test-ab/test-ab.md)、[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)和[體驗定位](/help/c-activities/t-experience-target/experience-target.md)(XT)活動。
-* 對於使用[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)的活動，您不能新增超過20個量度至報表。 您可以新增與您活動中相同數量的量度至&#x200B;*not*&#x200B;使用A4T之活動的報表。
+* 對於使用[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)的活動，您不能新增超過20個量度至報表。 您可以將活動中的量度新增至&#x200B;*not*&#x200B;使用A4T之活動的報表。
 * 如果您選取多個量度，則無法使用[](/help/c-reports/downloading-data-in-csv-file.md)「下載」選項將報表下載為 CSV。在只有選取一個量度的情況下，才能啟用[!UICONTROL 「下載」]選項。
 * 您無法檢視2015年7月[!DNL Target]發行（2015年7月30日）前建立之活動的多個度量。
 
@@ -54,4 +54,3 @@ ht-degree: 59%
 1. （條件性）在「圖形檢視」中檢視報表時，您可以從下拉式清單中選取要顯示的個別量度：
 
    ![](assets/multiple_metrics_graph.png)
-
