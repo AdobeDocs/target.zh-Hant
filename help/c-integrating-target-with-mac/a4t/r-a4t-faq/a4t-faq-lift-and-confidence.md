@@ -1,18 +1,18 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;提升度;隨選;報表產生器;可信度
-description: 使用Analytics for Target(A4T)時，尋找提升度和可信度問題的解答。 A4T可讓您使用Analytics報表來處理Target活動。
+description: 在 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活動使用Analytics時，尋找有關提升度和信賴度的問題解答。
 title: 我可以在哪裡找到有關A4T提升度與信賴度的資訊？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 41%
 
 ---
 
-
-# 提升度和可信度 - A4T 常見問題集{#lift-and-confidence-a-t-faq}
+# 提升度和可信度 - A4T 常見問題集
 
 本主題包含使用[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)報告來源時，常被詢問有關提升度與信賴度的問題。
 
