@@ -1,18 +1,18 @@
 ---
 keywords: document.write;target；實施；實施目標；dtm；動態標籤管理；at.js;mbox.js;target.js;mbox;adobe體驗平台網頁skd;aep網頁sdk
-description: 在您的網頁上參照Target程式庫（at.js或mbox.js），實作Adobe Target。
-title: 瞭解 Target JavaScript 程式庫
-feature: Implementation
+description: 在您的網頁上實作Adobe [!DNL Target] by referencing the [!DNL Target] 程式庫（at.js或mbox.js）。
+title: 瞭解  [!DNL Target] JavaScript 資料庫
+feature: 實施
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# 瞭解 Target JavaScript 程式庫
+# 瞭解 [!DNL Target]JavaScript 資料庫
 
 在您的網頁上參考[!DNL Adobe Target]程式庫(Adobe Experience Platform網頁SDK或at.js)，實作[!DNL Adobe Target]。
 
@@ -20,7 +20,7 @@ ht-degree: 23%
 >
 >將不再開發 mbox.js 資料庫。所有客戶必須在2021年3月31日之前從mbox.js移轉至at.js或[!UICONTROL Adobe Experience Platform網頁SDK]。 如需詳細資訊，請參閱「從mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)移轉至at.js」或「[Adobe Experience Platform網頁SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)」。[
 
-## 目標JavaScript程式庫之間的差異{#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## [!DNL Target] JavaScript程式庫{#section_40117C78C2F84FECAC4F1BA40CC4F171}之間的差異
 
 下表說明[!DNL Target] JavaScript程式庫之間的差異：
 
