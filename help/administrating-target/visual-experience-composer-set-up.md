@@ -1,17 +1,17 @@
 ---
 keywords: 視覺體驗撰寫器；vec；預設url；增強的體驗撰寫器；eec；混合內容；體驗快照；移動視區；css選擇器
-description: 瞭解如何透過指定Adobe Target Visual Experience Composer(VEC)的一般設定、行動檢視埠設定和CSS選擇器來設定。
+description: '瞭解如何透過指定Adobe的一般設定、行動檢視埠設定和CSS選擇器來設定Visual Experience Composer(VEC)。 [!DNL Target] '
 title: 如何設定視覺體驗撰寫器(VEC)?
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '719'
 ht-degree: 49%
 
 ---
-
 
 # 設定視覺體驗撰寫器
 
@@ -94,7 +94,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->在[!UICONTROL Automated Personalization]和[!UICONTROL 多變數測試]活動中，無法覆寫每個活動的設定。  如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)。
+>在[!UICONTROL Automated Personalization]和[!UICONTROL Multivariate Testing]活動中，無法覆蓋每個活動的設定。  如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)。
 
 ## 訓練影片：帳戶偏好設定(7:33)![概述徽章](/help/assets/overview.png)
 
