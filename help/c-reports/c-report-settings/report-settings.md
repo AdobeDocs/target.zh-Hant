@@ -1,18 +1,18 @@
 ---
 keywords: Target;報表;報表設定;預設集;target 預設集;量度;對象;日期範圍;設定;下載;表格檢視;圖表檢視;平均提升度;提升度;提升度界限;信賴區間;信賴;位置貢獻;執行中的平均值;計數方法
-description: 瞭解如何在Adobe Target中設定報表設定，包括量度、對象、日期範圍等。
+description: 瞭解如何在Adobe Target設定報表設定，包括量度、對象、日期範圍等。
 title: 如何設定報表設定？
-feature: Reports
+feature: 報表
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1919'
 ht-degree: 69%
 
 ---
 
-
-# 報表設定{#report-settings}
+# 報表設定
 
 這些資訊可協助您設定要在[!DNL Adobe Target]報表中顯示的元素。 可以儲存報表設定以供稍後使用。
 
@@ -44,7 +44,7 @@ ht-degree: 69%
    ![新預設集對話方塊](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. 檢閱&#x200B;**[!UICONTROL 篩選器]**&#x200B;和&#x200B;**[!UICONTROL 設定]**&#x200B;區段中的資訊，以確保報表已視需要設定，然後指定&#x200B;**[!UICONTROL 預設名稱]**（最多50個字元）。
-1. （條件性）如果您希望此為預設／我的最愛報表檢視，請投影片「設為預設預設」]**切換至「開啟」位置。**[!UICONTROL 
+1. （條件性）如果您希望此檢視為預設／我的最愛報表檢視，請投影片「設為預設預設」]**切換至「開啟」位置。**[!UICONTROL 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ### 選擇不同的預設集
@@ -186,8 +186,8 @@ ht-degree: 69%
 
 * **表格檢視**:按一下「 **[!UICONTROL 表格]** 檢視」圖示，將報表檢視為表格。
 * **圖形檢視**:按一下「 **[!UICONTROL 圖形]** 檢視」圖示，以圖形形式檢視報表。
-* **自動化區段**:(僅適用於自動個人化(AP)和自動目標(AT)活動。)按一下「**[!UICONTROL 自動化區段]」圖示，以檢視「自動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。[
-* **重要屬性**:(僅適用於自動個人化(AP)和自動目標(AT)活動。)按一下「**[!UICONTROL 重要屬性]」表徵圖以查看「重要屬性」報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。[
+* **自動化區段**:(僅適用於Automated Personalization(AP)和自動定位(AT)活動。)按一下「**[!UICONTROL 自動化區段]」圖示，以檢視「自動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。[
+* **重要屬性**:(僅適用於Automated Personalization(AP)和自動目標(AT)活動。)按一下「**[!UICONTROL 重要屬性]」表徵圖以查看「重要屬性」報告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。[
 
 ## 平均提升度、提升度界限和信賴區間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -257,10 +257,10 @@ ht-degree: 69%
 
 圖表的預設繪製順序如下:
 
-* **A/B測試（包括自動分配和自動個人化）**:體驗建立的順序，依遞減順序排列。
+* **A/B測試(包括自動分配和Automated Personalization)**:體驗建立的順序，依遞減順序排列。
 * **體驗定位(XT)**:活動中的體驗順序。
 * **多變數測試(MVT)**:依體驗名稱依字母順序排列。
-* **建議**:體驗建立的順序，依遞減順序排列。
+* **Recommendations**:體驗建立的順序，依遞減順序排列。
 
 使用計數方法選項時，請注意下列警告:
 
@@ -290,4 +290,3 @@ ht-degree: 69%
 假設您想顯示體驗 R 的繪圖線條，而不想看到體驗 P 的線條。您可以按一下體驗 P 的名稱將它取消選取，然後按一下體驗 R 的名稱來選取它，如下所示:
 
 ![](assets/graph_3.png)
-
