@@ -2,16 +2,16 @@
 keywords: character limit;mbox參數；批次傳送api;profile參數；limits;built in profiles;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;categoryID；疑難排解
 description: 檢視字元限制和其他限制（選件大小、對象、設定檔、值、參數等）的清單 (選件大小、對象、設定檔、值、參數等) 的資訊。
 title: Adobe Target的各種字元、大小和其他限制是什麼？
-feature: Troubleshooting
+feature: 疑難排解
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 59%
 
 ---
-
 
 # 限制
 
@@ -234,7 +234,7 @@ ht-degree: 59%
 
 * **上限**: 每個活動 50 個報表受眾/區段。
 
-## Target UI 中的指令碼設定檔輸入方塊
+## [!DNL Target] UI中的指令碼描述檔輸入方塊
 
 * **建議的限制**: 2,000 個字元。
 
@@ -273,4 +273,3 @@ ht-degree: 59%
 * **建議的限制**:每個定位規則值2,500個字元。
 * **建議的限制**: 各個鎖定目標規則中每個受眾 30,000 個不重複的值。
 * **建議的限制**: 每個活動 100,000 個不重複的鎖定目標規則值。
-
