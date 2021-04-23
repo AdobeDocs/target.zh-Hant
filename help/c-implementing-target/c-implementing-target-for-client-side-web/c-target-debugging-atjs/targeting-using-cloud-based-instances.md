@@ -1,19 +1,19 @@
 ---
 keywords: 雲端例項;公用尾碼清單;公用尾碼;Cookie;第一方 Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: 探索客戶在使用雲端執行個體測試Adobe Target或進行概念驗證時所面臨的問題（與解決方案有關）。
-title: 我是否可將Target與雲端執行個體搭配使用？
+description: 探索客戶在使用雲端例項測試Adobe( [!DNL Target] )或進行概念驗證時所面臨的問題（與解決方案有關）。
+title: 我是否可搭配雲端執行個體使用 [!DNL Target] ?
 feature: at.js
 role: Developer
+exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 81%
+source-wordcount: '169'
+ht-degree: 82%
 
 ---
 
-
-# 使用雲端型例項搭配 Target{#use-cloud-based-instances-with-target}
+# 使用雲端型例項搭配 Target
 
 關於客戶使用雲端型例項來測試 [!DNL Adobe Target] 時所面臨問題的資訊。
 
