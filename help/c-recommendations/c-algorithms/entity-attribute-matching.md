@@ -1,16 +1,16 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷；動態過濾；動態；實體屬性匹配
-description: 瞭解如何在Adobe Target Recommendations中將潛在項目群組與使用者已互動的特定項目進行比較，以進行動態篩選。
-title: 如何依Recommendations活動中的實體屬性符合來篩選？
+description: 瞭解如何透過比較潛在項目群組與使用者已互動的特定項目，在RecommendationsAdobe [!DNL Target] 中動態篩選。
+title: 如何依據Recommendations活動中的實體屬性匹配進行篩選？
 feature: Recommendations
+exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
-
 
 # ![PREMIUMEntity屬](/help/assets/premium.png) 性匹配
 
