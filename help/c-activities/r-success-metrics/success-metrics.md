@@ -1,16 +1,16 @@
 ---
 keywords: 定位；成功；轉換量度；頁面分數量度；頁面檢視量度；收入量度；網站逗留時間量度；估計值；進階設定；進階設定；相依性；相依性；增量計數、釋放使用者和允許再入；增量計數、釋放使用者和再入桿
-description: 瞭解Adobe Target中的成功度量，協助您判斷活動是否成功。 成功度量包括轉換、收入、頁面檢視、自訂計分和網站逗留時間。
+description: 瞭解Adobe [!DNL Target] 中的成功度量，協助您判斷活動是否成功。 成功度量包括轉換、收入、頁面檢視、自訂計分和網站逗留時間。
 title: 什麼是成功度量？
-feature: Success Metrics
+feature: 成功量度
+exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1174'
 ht-degree: 43%
 
 ---
-
 
 # 成功量度
 
@@ -64,7 +64,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。[!UICONTROL 進階設定]選項將不可用。 如需詳細資訊，請參閱[Adobe Analytics作為Adobe Target(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)的報表來源。
+>如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。[!UICONTROL 進階設定]選項將不可用。 如需詳細資訊，請參閱[Adobe Analytics作為Adobe Target(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)的報告來源。
 
 ### 添加相依性
 
