@@ -1,18 +1,18 @@
 ---
 keywords: 目標用戶介面；用戶介面；ui
-description: 熟悉使用者介面並尋找更深入資訊的連結，協助您充分運用Target。
-title: 如何使用Target UI?
-feature: Overview
+description: 熟悉使用者介面並尋找深入資訊的連結，協助您充份運用Target。
+title: 如何使用 [!DNL Target] UI?
+feature: 概述
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 27%
 
 ---
 
-
-# 瞭解Target UI
+# 瞭解[!DNL Target] UI
 
 使用者介面以邏輯且方便使用的格式排列，以協助您充分運用[!DNL Adobe Target]。 以下簡短概述將協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
 
@@ -38,17 +38,17 @@ ht-degree: 27%
 
 ## 說明
 
-「說明」圖示可讓您存取資訊、影片、部落格等，以協助您更有效率地使用[!DNL Target]。 您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供有關[!DNL Target]的意見回應，讓我們瞭解我們的工作。
+「說明」圖示可讓您存取資訊、影片、部落格等，以協助您更有效率地使用[!DNL Target]。 您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供有關[!DNL Target]的意見回饋，讓我們瞭解我們的工作。
 
 ![說明](/help/c-intro/assets/help.png)
 
 ## 通知與公告
 
-[!UICONTROL 通知]和[!UICONTROL 公告]面板可協助您隨時掌握所有相關資訊。 [!DNL Adobe Target]主動通知可協助您瞭解[!DNL Adobe]產品和[!DNL Adobe Experience Cloud]解決方案的狀態。 主動公告會提醒您發生中斷事件和維護事件。
+[!UICONTROL 通知]和[!UICONTROL 公告]面板可協助您隨時掌握所有相關資訊。 [!DNL Adobe Target]主動通知可協助您瞭解[!DNL Adobe]產品和[!DNL Adobe Experience Cloud]解決方案的最新狀態。 主動公告會提醒您發生中斷事件和維護事件。
 
 ![通知](/help/c-intro/assets/notifications.png)
 
-有關更深入的資訊，請參閱[Adobe Status](https://status.adobe.com/)頁面。 如需詳細資訊，請參閱[系統狀態更新和主動通知](/help/c-intro/assets/notifications.png)。
+如需深入資訊，請參閱[Adobe狀態](https://status.adobe.com/)頁面。 如需詳細資訊，請參閱[系統狀態更新和主動通知](/help/c-intro/assets/notifications.png)。
 
 ## 描述檔
 
@@ -88,7 +88,7 @@ ht-degree: 27%
 
 ## Recommendations
 
-按一下&#x200B;**[!UICONTROL Recommendations]**&#x200B;標籤以存取[!DNL Target Recommendations]。
+按一下&#x200B;**[!UICONTROL Recommendations]**&#x200B;頁籤以訪問[!DNL Target Recommendations]。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ ht-degree: 27%
 
 [!UICONTROL Recommendations] 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 
-如需[!DNL Target]中[!UICONTROL Recommendations]的深入資訊，請參閱[Recommendations](/help/c-recommendations/recommendations.md)，並進一步瞭解[!UICONTROL Recommendations]使用者介面。
+有關[!DNL Target]中[!UICONTROL Recommendations]的深入資訊，請參閱[Recommendations](/help/c-recommendations/recommendations.md)，並進一步瞭解[!UICONTROL Recommendations]用戶介面。
 
 ## 管理
 
