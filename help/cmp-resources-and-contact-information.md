@@ -1,18 +1,18 @@
 ---
 keywords: 聯絡;法律;技術支援;支援;服務;功能;帳單;意見
-description: 瞭解其他資源，以協助您瞭解Adobe Target功能，以及如何在您需要Target協助時與Adobe聯絡。
+description: 瞭解其他資源，協助您瞭解Adobe [!DNL Target] 的功能，以及如何在您需要 [!DNL Target]的協助時與Adobe聯絡。
 title: 我可以在哪裡找到Target的資源和連絡資訊？
-feature: Release Notes,Overview
+feature: 發行說明，概觀
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1231'
 ht-degree: 76%
 
 ---
 
-
-# 資源與聯絡資訊{#resources-and-contact-information}
+# 資源與聯絡資訊
 
 其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
 
@@ -65,7 +65,7 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 如果您遇到問題或在使用 Target 方面有疑問，您有多種選擇
 
-如有疑問，您可以向[Experience Cloud社群](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)的Adobe Target專家提出問題，或在Twitter上向我們提出問題，來信請寄至[@AdobeExpCare](https://twitter.com/adobeexpcare)。
+如有疑問，您可以向[Experience Cloud社區的Adobe Target專家詢問](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)，或在[@AdobeExpCare](https://twitter.com/adobeexpcare)的Twitter上詢問我們。
 
 如有技術問題或要記錄錯誤，您可連絡客戶服務。若要以電話聯絡客戶服務，請撥打 1-800-497-0335。在[Adobe數位行銷客戶服務地區電話號碼](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)頁面上，可找到美國以外地區的免付費電話。 若被要求選取產品選項，請按 3 聯絡 Target 團隊。
 
@@ -117,7 +117,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 ### 意見反應  {#section_8154D6D712054220A90D85FA8E92933E}
 
-我們很歡迎關於本解決方案的任何建議或回饋意見。您可將增強功能構想和建議新增至[Adobe Target體驗聯盟社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 按一下[!UICONTROL Ideas]頁籤。
+我們很歡迎關於本解決方案的任何建議或回饋意見。在[Adobe TargetExperience League社區](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)中可以添加增強的想法和建議。 按一下[!UICONTROL Ideas]頁籤。
 
 ### 法律資訊 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
