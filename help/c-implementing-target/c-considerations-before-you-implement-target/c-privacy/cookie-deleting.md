@@ -1,19 +1,19 @@
 ---
 keywords: cookie;cookie；刪除cookie；刪除目標cookie;google chrome;chrome;mozilla firefox;microsoft edge;safari
-description: 瞭解如何刪除您的Target瀏覽器Cookie，以便驗證您的體驗。
-title: 如何刪除目標Cookie?
-feature: Privacy & Security
+description: 瞭解如何刪除您的 [!DNL Target] 瀏覽器Cookie，以便您驗證體驗。
+title: 如何刪除 [!DNL Target] Cookie?
+feature: 隱私權與安全性
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '423'
+ht-degree: 4%
 
 ---
 
-
-# 刪除 Target Cookie
+# 刪除[!DNL Target] Cookie
 
 您可以刪除[!DNL Adobe Target]瀏覽器Cookie(mbox)，以便在測試期間驗證所有體驗。
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 >
 >下列瀏覽器和版本的指示正確。 搜尋網際網路，以取得您特定瀏覽器或版本的指示。
 
-## 從Google Chrome刪除Target Cookie
+## 從Google Chrome刪除[!DNL Target] Cookie
 
 84.0.4147.105 版
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 1. 按一下「查看所有Cookie和網站資料&#x200B;**」。**
 1. 展開`adobe.com`區段，選取&#x200B;**mbox** Cookie，然後按一下刪除圖示(X)。
 
-## 從Mozilla Firefox刪除Target Cookie
+## 從Mozilla Firefox刪除[!DNL Target] Cookie
 
 79.0 版
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 1. 展開&#x200B;**Cookie**&#x200B;區段，然後按一下`https://experience.adobe.com`。
 1. 以滑鼠右鍵按一下&#x200B;**mbox** Cookie，然後按一下&#x200B;**Delete**。
 
-## 從Microsoft Edge刪除目標Cookie
+## 從Microsoft Edge刪除[!DNL Target] Cookie
 
 84.0.522.52 版
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 1. 按一下「查看所有Cookie和網站資料&#x200B;**」。**
 1. 展開`adobe.com`區段，選取&#x200B;**mbox** Cookie，然後按一下刪除圖示(X)。
 
-## 從Apple Safari刪除Target Cookie
+## 從Apple Safari刪除[!DNL Target] Cookie
 
 13.1.2 版
 
