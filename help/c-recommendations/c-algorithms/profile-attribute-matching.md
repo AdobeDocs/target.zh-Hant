@@ -1,16 +1,16 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷；動態過濾；動態；配置檔案屬性匹配
-description: 瞭解如何透過比較項目（實體）與使用者設定檔中的值，在Adobe Target Recommendations中動態篩選。
-title: 如何依Recommendations活動中的描述檔屬性比對來篩選？
+description: 瞭解如何透過比較項目（實體）與使用者設定檔中的值，在RecommendationsAdobe [!DNL Target] 中動態篩選。
+title: 如何依據Recommendations活動中的描述檔屬性比對來篩選？
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # ![PREMIUMProfile屬](/help/assets/premium.png) 性匹配
 
@@ -65,10 +65,10 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 如果訪客接著返回首頁，他或她會根據是否點按了更多小粉絲或大粉絲，看到篩選的建議。
 
-根據在網站上檢視更多小粉絲的建議：
+Recommendations網站上的小粉絲數量更多：
 
 ![小粉絲建議](/help/c-recommendations/c-algorithms/assets/small-fans.png)
 
-根據在網站上檢視更多大型粉絲的建議：
+Recommendations網站的粉絲數量更多：
 
 ![大型粉絲建議](/help/c-recommendations/c-algorithms/assets/large-fans.png)
