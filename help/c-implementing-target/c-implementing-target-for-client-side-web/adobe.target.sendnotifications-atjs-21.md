@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;傳送通知;通知;at.js;函數;函數
-description: 使用at.js的adobe.target.sendNotifications()，在呈現體驗時，不使用applyOffer傳送通知至Target邊緣。 (at.js.2.1 +)
+description: 使用at.js的adobe.target.sendNotifications()，在呈現體驗時，不使用applyOffer傳送通知至 [!DNL Target] edge。 (at.js.2.1 +)
 title: 我要如何使用adobe.target.sendNotifications()函式？
 feature: at.js
 role: Developer
+exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 95%
 
 ---
-
 
 # adobe.target.sendNotifications(options)
 
