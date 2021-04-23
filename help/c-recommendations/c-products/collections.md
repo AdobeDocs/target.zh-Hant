@@ -1,18 +1,18 @@
 ---
 keywords: 集合;鎖定目標
-description: 瞭解如何在Adobe Target Recommendations中使用系列。 集合是符合建議資格的一組產品或項目。
+description: 瞭解如何在Adobe [!DNL Target] Recommendations中使用系列。 集合是符合建議資格的一組產品或項目。
 title: 如何在Recommendations活動中使用系列？
 feature: Recommendations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 集合{#collections}
+# ![PREMIUM](/help/assets/premium.png) 集合
 
 集合是符合建議資格的一組產品或項目。系列的定義方式是指定項目必須符合的條件，才能成為其一部分。
 
@@ -92,7 +92,7 @@ ht-degree: 60%
 
 1. 使用上述其中一種方法建立系列。
 
-1. 按一下「活動」**[!UICONTROL 「活動」]**&#x200B;和「a2/」建立新的Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)活動或編輯現有活動。[
+1. 按一下&#x200B;**[!UICONTROL 活動]**&#x200B;和[建立新的Recommendations活動或編輯現有活動。](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)
 
 1. 在您選取准則和設計後，若您選取所要的系列，會顯示[!UICONTROL Options]頁面。
 
@@ -102,7 +102,7 @@ ht-degree: 60%
 
    ![變更系列選項](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## 訓練影片：在Recommendations中建立系列和排除(7:05)![教學課程標章](/help/assets/tutorial.png)
+## 訓練影片：在Recommendations建立系列和排除(7:05)![教學課程標章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
