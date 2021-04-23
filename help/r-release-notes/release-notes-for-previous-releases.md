@@ -2,17 +2,17 @@
 keywords: 版本說明
 description: 檢視舊版Adobe Target的功能、增強功能和修正清單。
 title: 舊版包含哪些功能？
-feature: Release Notes
+feature: '  版本說明 '
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '30831'
-ht-degree: 84%
+source-wordcount: '30798'
+ht-degree: 83%
 
 ---
 
-# 舊版版本說明{#release-notes-for-previous-releases}
+# 舊版版本說明
 
 舊版Target的發行說明，包括Target Standard/Premium、Target平台和Target Javascript程式庫(at.js)的發行說明。
 
@@ -2200,7 +2200,7 @@ target/r_release-notes-2018.xml
 
 * 如果是在可視化體驗撰寫器中使用[!UICONTROL 使用 JavaScript 呈現]選項搭配自訂代碼，則目前不支援該選項。
 
-### Adobe Target Standard/Premium 16.8.1 (2016 年 8 月 23 日) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe[!DNL Target] Standard/Premium 16.8.1（2016年8月23日）{#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard/Premium 16.8.1 (2016 年 8 月 23 日) 版本包括下列功能和增強功能:
 
@@ -2271,7 +2271,7 @@ Adobe Target Standard/Premium 16.8.1 (2016 年 8 月 23 日) 版本包括下列�
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.7.1 (2016 年 7 月 21 日) {#section_DB583EF9A30247A488EE319583911F22}
+### Adobe[!DNL Target] Standard/Premium 16.7.1（2016年7月21日）{#section_DB583EF9A30247A488EE319583911F22}
 
 Adobe Target Standard/Premium 16.7.1 (2016 年 7 月 21 日) 版本包括下列功能和增強功能:
 
@@ -2336,7 +2336,7 @@ Adobe Target Standard/Premium 16.7.1 (2016 年 7 月 21 日) 版本包括下列�
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.6.1 (2016 年 6 月 16 日) {#section_C1E9F43111BF4160AF31482CD53E00BD}
+### Adobe[!DNL Target] Standard/Premium 16.6.1（2016年6月16日）{#section_C1E9F43111BF4160AF31482CD53E00BD}
 
 6 月沒有計劃針對客戶的版本。
 
@@ -2366,7 +2366,7 @@ Adobe Target Standard/Premium 16.7.1 (2016 年 7 月 21 日) 版本包括下列�
 
    針對較舊的活動，如果此選項是在您的活動的體驗撰寫器中勾選，表示您的重新導向將包含查詢參數。如果未勾選，則目前的查詢參數將不會包含在重新導向中。
 
-### Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe[!DNL Target] Standard/Premium 16.5.1（2016年5月19日）{#section_406CE09317994F55A26C2FDB77C77FEA}
 
 Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列功能和增強功能:
 
@@ -2440,7 +2440,7 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
 * 在多頁活動的頁面 A 上選取「停用 JavaScript」時，所有地方的 JavaScript 都被停用，包括未選取「停用 JavaScript」的其他頁面。
 * 具有重新導向體驗的體驗預覽 URL 的問題。做為解決辦法，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇&#x200B;**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**&#x200B;做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
 
-### 新 Target 實作資料庫 at.js 0.8.0 (2016 年 5 月 5 日)  {#section_6A44C277E82D409AB6DCD0901F43794A}
+### 新[!DNL Target]實作庫，at.js 0.8.0（2016年5月5日）{#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js 是新的 Target 實作程式庫，專為典型 Web 實作和單頁應用程式而設計。
 
@@ -2455,7 +2455,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
 * 非同步實作表示舊式整合 (如 Test&amp;Target 至 SiteCatalyst 外掛程式) 可能無法運作。
 * 所有對 Target 的呼叫都是透過 XMLHTTPRequest，而內容是透過 JSON 傳回。
 
-### Adobe Target Standard/Premium 16.4.1 修正 (2016 年 5 月 5 日) {#section_70552F61E83140C7B4D2A245198B630E}
+### Adobe[!DNL Target] Standard/Premium 16.4.1修正（2016年5月5日）{#section_70552F61E83140C7B4D2A245198B630E}
 
 * at.js 0.8.0 版現在可透過 Target 介面下載。
 * Target API 已變更。`applyOffer` 現在須有 `mbox param [0]`。
@@ -2469,7 +2469,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
    });
    ```
 
-### Adobe Target Standard/Premium 16.4.1 (2016 年 4 月 21 日) {#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe[!DNL Target] Standard/Premium 16.4.1（2016年4月21日）{#section_C968860FAB81485BA12BD588F4ECA401}
 
 此版本包含下列功能和增強功能:
 
@@ -2541,7 +2541,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
 
 * 在多頁活動的頁面 A 上選取「停用 JavaScript」時，所有地方的 JavaScript 都被停用，包括未選取「停用 JavaScript」的其他頁面。
 
-### Adobe Target Standard/Premium 16.3.1 (2016 年 3 月 15 日) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe[!DNL Target] Standard/Premium 16.3.1（2016年3月15日）{#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 此版本包含下列功能和增強功能:
 
@@ -2590,7 +2590,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
    * 使用 Firefox 或 Internet Explorer。
    * 啟用Enhanced Experience Composer，此功能可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗撰寫器]**&#x200B;標籤中設定。
 
-### Adobe Target Standard/Premium 16.2.1 (2016 年 2 月 18 日) {#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe[!DNL Target] Standard/Premium 16.2.1（2016年2月18日）{#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 此版本包含下列功能和增強功能:
 
@@ -2612,7 +2612,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
    * 使用 Firefox 或 Internet Explorer。
    * 啟用Enhanced Experience Composer，此功能可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗撰寫器]**&#x200B;標籤中設定。
 
-### Adobe Target Standard/Premium 16.1.1 (2016 年 1 月 28 日) {#section_8BF7705B452C449F961AEFC568A0778C}
+### Adobe[!DNL Target] Standard/Premium 16.1.1（2016年1月28日）{#section_8BF7705B452C449F961AEFC568A0778C}
 
 此版本包含下列功能和增強功能:
 
@@ -2692,7 +2692,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
 
 ## 2015 版 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe Target Standard/Premium 15.10.1 (2015 年 11 月 2 日) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe[!DNL Target] Standard/Premium 15.10.1（2015年11月2日）{#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2802,7 +2802,7 @@ target/r_release-notes-2015.xml
 
 * 當多頁面活動中的頁面 A 啟用「停用 JavaScript」時，所有頁面的 JavaScript 仍維持啟用狀態，但功能會維持停用。
 
-### Adobe Target Standard/Premium 15.9.1 (2015 年 9 月 30 日) {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe[!DNL Target] Standard/Premium 15.9.1（2015年9月30日）{#section_A54204291A99476688E8C0BD8255F93C}
 
 此版本包含下列功能和增強功能:
 
@@ -2878,7 +2878,7 @@ target/r_release-notes-2015.xml
 
 * 當多頁面活動中的頁面 A 啟用「停用 JavaScript」時，所有頁面的 JavaScript 仍維持啟用狀態，但功能會維持停用。
 
-### Adobe Target Standard/Premium 15.8.1 (2015 年 8 月 20 日) {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe[!DNL Target] Standard/Premium 15.8.1（2015年8月20日）{#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 此發行的目標是提供與 Target Classic 同等的功能。最常用的 Target Classic 功能現在也在 Target Standard 中提供使用。
 
@@ -2944,7 +2944,7 @@ target/r_release-notes-2015.xml
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 15.7.1 (2015 年 7 月 30 日) {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe[!DNL Target] Standard/Premium 15.7.1（2015年7月30日）{#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 此版本包含下列功能和增強功能:
 
@@ -3005,7 +3005,7 @@ target/r_release-notes-2015.xml
 
 * 當多頁面活動中的頁面 A 啟用「停用 JavaScript」時，所有頁面的 JavaScript 仍維持啟用狀態，但功能會維持停用。
 
-### Adobe Target Standard/Premium 15.6.1 (2015 年 6 月 25 日) {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe[!DNL Target] Standard/Premium 15.6.1（2015年6月25日）{#section_43FEA310830E4E8E853FAB56B12B1301}
 
 此版本包含下列功能和增強功能:
 
@@ -3056,7 +3056,7 @@ target/r_release-notes-2015.xml
 * 修正 mbox 參數不會一律顯示在對象建立畫面上的問題。
 * 修正封鎖了 Recommendations 設計的縮圖更新的問題。
 
-### Adobe Target Standard/Premium 15.5.1_Hotfix (2015 年 5 月 28 日)  {#section_D751F55A3812417FAA72BD6872AE3C2A}
+### Adobe[!DNL Target] Standard/Premium 15.5.1_Hotfix（2015年5月28日）{#section_D751F55A3812417FAA72BD6872AE3C2A}
 
 本次 hotfix 版本包含下列修正:
 
@@ -3064,7 +3064,7 @@ target/r_release-notes-2015.xml
 * 修正防止「建立活動」按鈕對部分使用者正確顯示的問題。
 * 修正在編輯 A/B 和體驗鎖定目標活動時，造成「活動名稱」文字方塊在可視化體驗撰寫器中消失的問題。
 
-### Adobe Target Standard/Premium 15.5.1 (2015 年 5 月 21 日) {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe[!DNL Target] Standard/Premium 15.5.1（2015年5月21日）{#section_FF0F959908784AF0906EFB9E8324F207}
 
 此版本包含下列功能和增強功能:
 
@@ -3161,7 +3161,7 @@ target/r_release-notes-2015.xml
 * 修正 Recommendations 中具有雙位元組字元 (針對多語言案例) 的屬性略過了包含篩選規則的問題。
 * 所有活動類型現在支援長度最多 200 個字元的活動名稱。
 
-### Adobe Target Standard/Premium 15.3.1 (2015 年 3 月 26 日) {#section_591371851693496C820175753F588E73}
+### Adobe[!DNL Target] Standard/Premium15.3.1（2015年3月26日）{#section_591371851693496C820175753F588E73}
 
 此版本包含下列功能和增強功能:
 
@@ -3211,7 +3211,7 @@ target/r_release-notes-2015.xml
 
 * 當您使用 Analytics 做為 Target 的報表來源時，Target Standard/Premium 中多變數測試的 Target 型轉換事件不會列入報告。此問題預期近期會修正。
 
-### Adobe Target 15.2.1 (2015 年 2 月 19 日) {#section_9AA19B060D814E08A673FB752E21D0C3}
+### Adobe[!DNL Target] 15.2.1（2015年2月19日）{#section_9AA19B060D814E08A673FB752E21D0C3}
 
 此版本包含下列功能和增強功能:
 
@@ -3236,7 +3236,7 @@ target/r_release-notes-2015.xml
 
 * 修正造成重新導向選件在重新造訪頁面時無法作用的錯誤。
 
-### Adobe Target 15.1.1 (2015 年 1 月 22 日) {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe[!DNL Target] 15.1.1（2015年1月22日）{#section_059F9B41804B4FA58D05C4485EDF926D}
 
 此版本包含下列功能和增強功能:
 
@@ -3279,7 +3279,7 @@ target/r_release-notes-2015.xml
 
 ## 2014 版 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
-### Adobe Target 14.10.2 (2014 年 11 月 6 日) {#section_E7036B45DF974FB7B81E67261357A01B}
+### Adobe[!DNL Target] 14.10.2（2014年11月6日）{#section_E7036B45DF974FB7B81E67261357A01B}
 
 <!-- 
 
@@ -3289,7 +3289,7 @@ target/r_release-notes-2014.xml
 
 此次要版本的主要重點在於伺服器穩定性。此次修補不含新功能。
 
-### Adobe Target 14.10.1 (2014 年 10 月 30 日) {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe[!DNL Target] 14.10.1（2014年10月30日）{#section_D557CB331A004155B91CFE5B197076F3}
 
 此版本包含下列功能和增強功能:
 
@@ -3305,7 +3305,7 @@ target/r_release-notes-2014.xml
 * 「概觀」頁面顯示活動目標。
 * 在 HTML 編輯方塊中輸入 JavaScript 時顯示警告。
 
-### Adobe Target 14.9.1 (2014 年 9 月 19 日) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe[!DNL Target] 14.9.1（2014年9月19日）{#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 此版本包含下列功能和增強功能:
 
@@ -3322,7 +3322,7 @@ target/r_release-notes-2014.xml
 * 「自動個人化」體驗編輯器中已變更的視頻提供無法顯示變更內容，這個問題已經修正。
 * 活動的「發生衝突」頁面在 Google Chrome 會顯示為空白頁面，這個錯誤已經修正。
 
-### Adobe Target 14.8.1 (2014 年 8 月 21 日) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe[!DNL Target] 14.8.1（2014年8月21日）{#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 此版本包含下列新功能和增強功能:
 
@@ -3345,7 +3345,7 @@ target/r_release-notes-2014.xml
 * 修正否定 `target="_blank" functions.` 的點擊追蹤轉換錯誤。
 * 修正點擊追蹤瀏覽離開頁面的問題。
 
-### Adobe Target 14.6.1 (2014 年 6 月 25 日) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe[!DNL Target] 14.6.1（2014年6月25日）{#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 此版本包括下列新功能:
 
@@ -3394,13 +3394,13 @@ target/r_release-notes-2014.xml
 
 * 已經修正已移除的項目仍繼續顯示的錯誤。
 
-### Adobe Target Standard 14.5 (2014 年 5 月 28 日) {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe[!DNL Target] Standard 14.5（2014年5月28日）{#section_530EAB9376414D4989CA0740361DDCC2}
 
 此版本包含下列錯誤修正:
 
 * 修正預覽體驗的操作不如預期的問題。
 
-### Adobe Target Standard 1.7 (2014 年 4 月 28 日)  {#section_2C2B9B6299ED4F48A3B983AB015F381A}
+### Adobe[!DNL Target] Standard 1.7（2014年4月28日）{#section_2C2B9B6299ED4F48A3B983AB015F381A}
 
 [Target Standard 1.7 發行網路研討會](https://my.adobeconnect.com/p1oabaz3cxi/)
 
@@ -3451,7 +3451,7 @@ target/r_release-notes-2014.xml
 * 在 CSS 中參照影像時，無法交換該影像。
 * 如果切換影像，然後調整影像的大小，Experience Editor 將無法正確顯示影像。
 
-### Adobe Target Standard 1.6 (2014 年 3 月 17 日)  {#section_DB1319CDD8944F6FB749E525EB551017}
+### Adobe[!DNL Target] Standard 1.6（2014年3月17日）{#section_DB1319CDD8944F6FB749E525EB551017}
 
 此版本包括下列新功能:
 
@@ -3479,7 +3479,7 @@ target/r_release-notes-2014.xml
 * 對象搜尋方塊不支援非 ASCII 字元。
 * 對於西班牙文和日文版本的使用者，在設定開始和結束日期之後儲存活動會造成錯誤。建議您儲存時不要設定開始和結束日期，然後在必要時從「活動概觀」或「活動清單」頁面啟動和停止活動。
 
-### Adobe Target Standard 1.5 (2014 年 2 月 25 日) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
+### Adobe[!DNL Target] Standard 1.5（2014年2月25日）{#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
 此版本包括下列新功能:
 
@@ -3513,7 +3513,7 @@ target/r_release-notes-2014.xml
 * 在 Target Standard 中建立「地理位置」對象時，若 Target Advanced 停用「地理位置」，則會發生同步錯誤。
 * 在 CSS 中參照影像時，無法交換該影像。
 
-### Adobe Target Standard 1.4 (2014 年 1 月 20 日) {#section_CD27AEE32B4F40BDAB422711B96739A5}
+### Adobe[!DNL Target] Standard 1.4（2014年1月20日）{#section_CD27AEE32B4F40BDAB422711B96739A5}
 
 此版本包含下列新功能和增強功能:
 
@@ -3565,7 +3565,7 @@ target/r_release-notes-2014.xml
 
 ## 2013 版
 
-### Adobe Target Standard 1.3 (2013 年 11 月 19 日) {#section_D633ACA56FA941648219EB3748D814EC}
+### Adobe[!DNL Target] Standard 1.3（2013年11月19日）{#section_D633ACA56FA941648219EB3748D814EC}
 
 此版本包含下列新功能和增強功能:
 
@@ -3587,7 +3587,7 @@ target/r_release-notes-2014.xml
 * 使用「視覺體驗編譯工具」重新排列的元素無法使用點擊追蹤功能。請避免在重新排列的元素上設定點擊追蹤，直到修正此問題為止。
 * 使用者無法選取已包裝在 mbox 中之內容的&#x200B;**[!UICONTROL 「移除」]**&#x200B;動作。
 
-### Adobe Target Standard 1.2 (2013 年 10 月 31 日) {#section_420B5E910D7341AA8DB059C8E1071D53}
+### Adobe[!DNL Target] Standard 1.2（2013年10月31日）{#section_420B5E910D7341AA8DB059C8E1071D53}
 
 此版本有四個已知問題。這些問題將在隨後的更新中修正。
 
@@ -3609,7 +3609,7 @@ target/r_release-notes-2014.xml
 * 新增鍵盤輸入功能至位置的下拉式功能表。
 * 改善刪除活動中使用的選件時顯示的錯誤訊息。
 
-### Adobe Target Standard 1.1 (2013 年 10 月 18 日) {#section_79FA6A61D2284D41A34F00014A342F07}
+### Adobe[!DNL Target] Standard 1.1（2013年10月18日）{#section_79FA6A61D2284D41A34F00014A342F07}
 
 此版本包含下列修正和增強功能:
 
