@@ -1,18 +1,18 @@
 ---
 keywords: 建議;常見問題;faq
-description: 檢視有關Adobe Target Recommendations設計的常見問題(FAQ)清單及其解答。
-title: 我可以從哪裡解答Target Recommendations的設計問題？
+description: 檢閱常見問答集(FAQ)清單，以及其對Adobe [!DNL Target] Recommendations設計的回答。
+title: 我可以在哪裡回答 [!DNL Target] Recommendations的設計問題？
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 82%
+source-wordcount: '411'
+ht-degree: 83%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 設計常見問題集{#design-faq}
+# ![PREMIUM](/help/assets/premium.png) 設計常見問題集
 
 關於[!DNL Adobe Target]建議設計的常見問題(FAQ)清單。
 
