@@ -1,16 +1,16 @@
 ---
 keywords: Target;報表;報表設定;環境;提升度;提升度界限;變異數;可信度;控制
-description: 瞭解如何解譯Adobe Target報表，其中包含資料點和視覺化表示法，以協助您瞭解活動的提升度界限和信賴等級。
+description: 瞭解如何解譯Adobe [!DNL Target] 報表，其中包含資料點和視覺化表示法，以協助您瞭解活動的提升度界限和信賴等級。
 title: 如何檢視平均提升度、提升度界限和信賴區間？
-feature: Reports
+feature: 報表
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
-
 
 # 平均提升度、提升度界限和信賴區間
 
