@@ -1,19 +1,19 @@
 ---
 keywords: 新增使用者; 管理使用者; 使用者權限
-description: 瞭解如何在Adobe Target Standard中管理使用者，以及如何在Adobe Target Premium中管理企業屬性和權限。
+description: 瞭解如何在Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium中管理使用者。
 title: 如何設定使用者管理？
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 19%
+source-wordcount: '230'
+ht-degree: 20%
 
 ---
 
-
-# 使用者管理{#user-management}
+# 使用者管理
 
 有關在[!DNL Target]標準版中管理用戶以及在[!DNL Target] Premium中管理企業[!UICONTROL 屬性]和[!UICONTROL 權限]的資訊。
 
@@ -40,4 +40,3 @@ ht-degree: 19%
 下圖顯示[!DNL Target] Premium帳戶的[!UICONTROL Administration]頁面。 請注意，[!UICONTROL Properties]和[!UICONTROL Users]標籤都可用：
 
 ![「管理」頁籤](/help/administrating-target/assets/premium.png)
-
