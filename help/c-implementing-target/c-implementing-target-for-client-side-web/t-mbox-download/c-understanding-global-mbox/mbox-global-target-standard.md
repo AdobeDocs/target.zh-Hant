@@ -1,17 +1,17 @@
 ---
 keywords: 全域 mbox;target classic;使用來自 target classic 的全域 mbox
-description: 瞭解如果您已在舊版實作的頁面上建立全域mbox，如何將舊版全域mbox用於Adobe Target活動。
+description: 瞭解如果您已在舊版實作的頁面上建立全域mbox，如何將舊版全域mbox用於您的Adobe [!DNL Target] 活動。
 title: 我是否可從舊版實作使用全域mbox?
 feature: at.js
 role: Developer
+exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 36%
 
 ---
-
 
 # 從舊版實作使用全域mbox
 
