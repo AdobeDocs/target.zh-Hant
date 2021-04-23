@@ -1,18 +1,18 @@
 ---
 keywords: 對象;對象規則;建立對象;建立對象
-description: 瞭解如何建立自訂的觀眾，並將它們儲存至Adobe Target觀眾程式庫，以便用於您的活動。
+description: 瞭解如何建立自訂的觀眾，並將其儲存至Adobe [!DNL Target] 觀眾程式庫，以便用於您的活動。
 title: 如何建立受眾？
-feature: Audiences
+feature: 對象
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 94%
 
 ---
 
-
-# 在 Target 中建立對象{#build-audiences-in-target}
+# 在 Target 中建立對象
 
 您可以建立自訂的對象，並將對象儲存至 Target 資料庫以在您的活動中使用。您可以複製現有對象，然後可以編輯對象以建立類似的對象並結合多個對象。
 
