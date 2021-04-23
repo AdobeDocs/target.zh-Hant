@@ -1,19 +1,19 @@
 ---
 keywords: qa;預覽;預覽連結;行動裝置;行動裝置預覽
 description: 使用行動預覽連結，針對行動應用程式活動執行端對端QA。 您可以註冊不同的體驗，毋需使用特殊的測試裝置。
-title: 如何在Target Mobile中使用行動預覽連結？
-feature: Implement Mobile
+title: 如何在 [!DNL Target] Mobile中使用行動裝置預覽連結？
+feature: 實施行動
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Target 行動裝置預覽{#target-mobile-preview}
+# Target 行動裝置預覽
 
 使用行動裝置預覽連結為行動應用程式活動執行簡單的端對端品質確保措施，並且無需任何特殊測試裝置，即可在您的裝置上註冊不同的體驗。
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
    如需下載適當 SDK 的說明，請參閱:
 
-   * **iOS：啟** [動Mobile Services ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iOS *說明前*。
+   * **iOS：啟** [動Mobile Services ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iOS *說明之前*。
    * **Android：啟** [動Mobile ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)  *Services Android說明之前*。
 
 1. **設定 URL 配置:** 預覽連結使用 URL 配置來開啟您的應用程式。您必須針對預覽指定唯一的 URL 配置。
@@ -77,13 +77,13 @@ ht-degree: 82%
      }
    ```
 
-   若要讓「行動預覽」適用於Android，您也必須在[!DNL AndroidManifest.xml]中新增下列程式碼片段（如果使用Adobe Mobile SDK第5版）:
+   若要讓「行動預覽」適用於Android，您也必須在[!DNL AndroidManifest.xml]中新增下列程式碼片段(如果使用的是AdobeMobile SDK第5版):
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
-   如果您使用Adobe Mobile SDK第4版，請使用下列程式碼片段：
+   如果您使用的是AdobeMobile SDK第4版，請使用下列程式碼片段：
 
    ```javascript
    <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
