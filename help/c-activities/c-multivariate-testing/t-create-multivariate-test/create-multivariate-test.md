@@ -1,18 +1,18 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何使用Adobe Target的視覺體驗撰寫器(VEC)，直接在Target啟用的頁面上建立多變數測試(MVT)。
+description: 瞭解如何使用Adobe [!DNL Target] 中的視覺體驗撰寫器(VEC)，直接在啟用 [!DNL Target]的頁面上建立多變數測試(MVT)。
 title: 如何建立多變數測試？
-feature: Multivariate Tests
+feature: 多變數測試
+exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 87%
 
 ---
 
-
-# 建立多變數測試{#create-a-multivariate-test}
+# 建立多變數測試
 
 [!DNL Adobe Target] 中的[!UICONTROL 可視化體驗撰寫器] (VEC) 讓您直接在啟用 Target 的頁面上輕鬆建立您的測試，以及在 [!DNL Target] 內修改頁面的部分。
 
