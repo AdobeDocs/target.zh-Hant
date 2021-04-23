@@ -1,16 +1,16 @@
 ---
 keywords: 優先順序; 體驗建立; 體驗; 對象; 切換體驗; 可視化體驗撰寫器
-description: 瞭解訪客如何在Adobe Target體驗定位(XT)活動中隨著其個人檔案的發展而切換體驗。
+description: 瞭解訪客如何在Adobe [!DNL Target] 體驗定位(XT)活動中切換其描述檔。
 title: 訪客是否可在體驗定位活動中切換體驗？
-feature: Experience Targeting
+feature: 體驗鎖定目標
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # 切換體驗鎖定目標中的體驗
 
@@ -72,4 +72,3 @@ ht-degree: 96%
    請務必注意訪客可能符合多個對象的案例。例如，如果您有兩個體驗: 一個鎖定在「美國」而一個鎖定在「紐約」，位於「紐約」的訪客可能同時符合這兩個對象。因此，您必須確保在 Target UI 中「紐約」體驗的定義在「美國」體驗之前。這可確保更為鎖定的「紐約」體驗具有較高的優先順序，如下列範例所示:
 
    ![優先順序紐約 > 美國](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
