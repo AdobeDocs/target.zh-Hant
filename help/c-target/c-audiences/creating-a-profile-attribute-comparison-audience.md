@@ -1,18 +1,18 @@
 ---
 keywords: 對象;傾向;設定檔屬性;比較;比較;建立對象;建立對象
-description: 瞭解如何定義對象，以比較Target對象程式庫或僅限活動對象中的兩個描述檔屬性。
+description: 瞭解如何定義觀眾，以比較 [!DNL Target] 觀眾程式庫或僅限活動的觀眾中的兩個描述檔屬性。
 title: 我是否可以比較兩個用於觀眾的描述檔屬性？
-feature: Audiences
+feature: 對象
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# 建立設定檔屬性比較對象{#create-a-profile-attribute-comparison-audience}
+# 在 Adobe Target 中
 
 定義受眾，比較[受眾資料庫](/help/c-target/c-audiences/audiences.md)或[僅限此活動受眾](/help/c-target/creating-activity-only-audience.md)中的兩個設定檔屬性。使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
 
