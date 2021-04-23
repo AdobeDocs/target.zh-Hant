@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n；錯誤；錯誤；錯誤；錯誤；重要；勝者；統計差；統計力；流量分配；
-description: 瞭解如何避免公司在Adobe Target和其他測試解決方案中執行A/B測試時常犯的錯誤和錯誤。
+description: 瞭解如何避免公司在Adobe [!DNL Target] 和其他測試解決方案中執行A/B測試時最常犯的錯誤和錯誤。
 title: 如何避免常見的A/B測試錯誤？
-feature: A/B Tests
+feature: A/B 測試
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 86%
 
 ---
-
 
 # 常見的10種A/B測試缺陷及避免方法
 
@@ -173,4 +173,3 @@ ht-degree: 86%
 * 在測試開始之前計算樣本大小 (訪客數目)。
 * 在停止測試之前，等待達到計算的樣本大小。
 * 在進行測試後分割或評估多個替代項時，調整信賴水準。例如，使用 Bonferroni 校正。
-
