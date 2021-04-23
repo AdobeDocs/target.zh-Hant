@@ -1,16 +1,16 @@
 ---
 keywords: 遠程選件；遠程選件選擇矩陣；快取內容；動態內容；url類型
-description: 瞭解如何使用Adobe Target中的遠端選件來代管外部內容（CMS或其他系統中的內容）。 瞭解您為何可能想要使用遠端選件。
+description: 瞭解如何使用Adobe [!DNL Target] 中的遠端選件來代管外部內容（CMS或其他系統中的內容）。 瞭解您為何可能想要使用遠端選件。
 title: 如何建立遠端選件？
-feature: Experiences and Offers
+feature: 體驗與優惠
+exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1084'
 ht-degree: 49%
 
 ---
-
 
 # 建立遠端選件
 
@@ -18,7 +18,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->您可在[!UICONTROL 選件] > [!UICONTROL 代碼選件]頁面或[表單型體驗撰寫器](/help/c-experiences/form-experience-composer.md)中建立遠端選件。 您無法在Visual Experience Composer(VEC)中建立或套用遠端選件。 內容會插入至[!DNL Target]請求位置，因此這些位置很可能不適用於全域[!DNL Target]請求。
+>您可在[!UICONTROL 選件] > [!UICONTROL 程式碼選件]頁面或[Forms式體驗撰寫器](/help/c-experiences/form-experience-composer.md)中建立遠端選件。 您無法在Visual Experience Composer(VEC)中建立或套用遠端選件。 內容會插入至[!DNL Target]請求位置，因此這些位置很可能不適用於全域[!DNL Target]請求。
 >
 >[!DNL Target Classic] 包含類似的功能: [!UICONTROL 您網站上的選件]和 [!UICONTROL Test&amp;Target 外部的選件]。
 
@@ -113,13 +113,13 @@ ht-degree: 49%
 
 每當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓 [!DNL Target] 定期快取內容再傳送。您會改為呼叫代管內容的系統，可能會傳入特定資訊，讓傳回的選件對每個使用者都是動態（或不同）的。 例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端選件，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。
 
-您可以按一下「新增參數」，新增一或多個「[!DNL Target]請求」或請求參數。****
+您可以按一下「新增參數」，新增一或多個「[!DNL Target]請求」或「請求參數」。****
 
 ## 在活動中使用遠端選件
 
 您必須使用[!UICONTROL 表單型體驗撰寫器]套用遠端選件。 您目前無法使用VEC套用遠端選件。
 
-[!DNL Adobe Target][!UICONTROL 表單型體驗撰寫器]是非視覺化體驗和選件建立介面，對於建立用於[!UICONTROL A/B測試]、[!UICONTROL 體驗定位](XT)、[!UICONTROL 自動個人化](XT)的體驗非常有用AP)和[!UICONTROL Recommendations]活動（當視覺體驗視覺化視覺化調整器無法使用或實際使用時）。 例如，您可以使用[!UICONTROL 表單型體驗撰寫器]來建立使用遠端選件的體驗。
+[!DNL Adobe Target][!UICONTROL 表單型體驗撰寫器]是非視覺化體驗和選件建立介面，在建立用於[!UICONTROL A/B測試]、[!UICONTROL 體驗定位](XT)、[!UICONTROL Automated Personalization](AP)的體驗時十分有用和[!UICONTROL Recommendations]活動。 例如，您可以使用[!UICONTROL 表單型體驗撰寫器]來建立使用遠端選件的體驗。
 
 1. 在[!UICONTROL 表單型體驗撰寫器]中建立或編輯活動。
 
