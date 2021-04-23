@@ -1,19 +1,19 @@
 ---
 keywords: 實作;Mbox;mbox.js;下載 mbox.js;設定 mbox.js
 description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
-title: 如何下載Target mbox.js程式庫？
+title: 如何下載 [!DNL Target] mbox.js程式庫？
 feature: at.js
 role: Developer
 exl-id: 92096b1b-a8a5-435b-8e62-24b5d15d392f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '286'
 ht-degree: 58%
 
 ---
 
-# 下載 mbox.js{#download-mbox-js}
+# 下載 mbox.js
 
 Target Standard 和 Premium 使用經修改的 Adobe Target mbox.js 檔案版本。
 
