@@ -1,18 +1,18 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;膨脹;造訪;訪客;部分點擊;孤立的;孤立
-description: 使用Analytics for Target(A4T)時，尋找有關誇大瀏覽和訪客計數的問題解答。 瞭解如何將「部分資料」減到最低。
+description: 使用Analytics for [!DNL Target] (A4T)時，尋找有關誇大瀏覽和訪客計數的問題解答。 瞭解如何將「部分資料」減到最低。
 title: 我可以在哪裡找到有關A4T誇大瀏覽和訪客計數的常見問答集？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 63%
+source-wordcount: '658'
+ht-degree: 61%
 
 ---
 
-
-# 膨脹的造訪和訪客計數 - A4T 常見問題集{#inflated-visit-and-visitor-counts-a-t-faq}
+# 膨脹的造訪和訪客計數 - A4T 常見問題集
 
 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於膨脹後造訪和訪客計數問題的回答。
 
@@ -50,12 +50,12 @@ ht-degree: 63%
 
 您也可以執行一些步驟來儘量減少局部資料點閱。如需詳細資訊，請參閱「減少部分資料的最佳作法為何?」於[在A4T 中將膨脹後造訪和訪客計數最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
-## 如果部分資料點擊資料已從報告中移除，我是否會遺失有價值的Target或Analytics資料？{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## 如果部分資料點擊資料已從報告中移除，我是否會遺失有價值的[!DNL Target]或Analytics資料？{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 在[!DNL Analytics]報告中包含部分資料確實提供了額外資訊，但也會在沒有[!DNL Target]活動執行的期間產生與歷史資料不一致的情況。 包含部分點擊資料可能會對分析特定時間趨勢的[!DNL Analytics]使用者造成問題。
 
 您可以執行一些步驟來儘量減少局部資料點閱。如需詳細資訊，請參閱「減少部分資料的最佳作法為何?」於[在A4T 中將膨脹後造訪和訪客計數最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
-## 是否有任何特定類型的 Target 活動很可能造成局部資料點閱? {#section_69837442A9B84366BEFDA4588B31E574}
+## 是否有任何較可能造成部分資料點擊的特定類型的[!DNL Target]活動？{#section_69837442A9B84366BEFDA4588B31E574}
 
 重新導向選件會立即將使用者帶往另一個頁面，這表示在第一頁不會觸發 [!DNL Analytics] 呼叫。
