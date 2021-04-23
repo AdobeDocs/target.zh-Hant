@@ -1,14 +1,14 @@
 ---
 keywords: 進階 mbox.js 設定;用戶端;伺服器網域;xdomain;壓縮層級;用戶端工作階段 ID 支援;secureOnly;用戶端 PC ID 支援;傳遞頁面;反向連結 URL;流量層級;流量持續時間;mboxParameters() 函數主體;mboxSupported() 函數主體;mboxCookieDomain() 函數主體;額外 JavaScript;SiteCatalyst 外掛程式;取得 mbox.js 做為自動解壓縮 JavaScript;忽隱忽現;主體隱藏;隱藏主體
 description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
-title: 如何設定Target mbox.js程式庫？
+title: 如何設定 [!DNL Target] mbox.js程式庫？
 feature: at.js
 role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 71%
 
 ---
