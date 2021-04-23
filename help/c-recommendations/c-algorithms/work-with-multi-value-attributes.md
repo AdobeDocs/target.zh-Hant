@@ -1,16 +1,16 @@
 ---
 keywords: multi value;attributes;recommendations;multi value;multi-value;multi-value
-description: 瞭解如何使用特殊的多值運算元（例如，在向多個演員推薦影片時）在Adobe Target Recommendations中處理多值欄位。
-title: 我可以在Recommendations中使用多值屬性嗎？
+description: 瞭解如何使用特殊的多值運算子（例如，在推薦與多個演員合作的影片時）在RecommendationsAdobe [!DNL Target] 中使用多值欄位。
+title: 我可以在Recommendations使用多值屬性嗎？
 feature: Recommendations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # 使用多值屬性
 
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 ### 範例：API建立從使用者最愛的項目推薦標準
 
-使用多值篩選規則的准則（如所有准則）可透過Adobe I/O API建立。 此處提供範例API呼叫，以建立實體屬性`id`包含在mbox參數清單`favorites`中的准則：
+使用多值篩選規則的准則（如所有准則）可透過Adobe I/OAPI建立。 此處提供範例API呼叫，以建立實體屬性`id`包含在mbox參數清單`favorites`中的准則：
 
 ```
 curl -X POST \
