@@ -1,19 +1,19 @@
 ---
 keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
-description: 使用iOS和Android Mobile SDK中的Adobe Target預回遷功能，透過快取伺服器回應，盡可能少地擷取選件內容。
+description: 使用iOS和Android Mobile SDK中的Adobe [!DNL Target] 預回遷功能，透過快取伺服器回應，盡可能少地擷取選件內容。
 title: 我可以預先擷取行動應用程式的選件內容嗎？
-feature: Implement Mobile
+feature: 實施行動
 role: Developer
+exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '248'
 ht-degree: 47%
 
 ---
 
-
-# 預先擷取選件內容{#prefetch-offer-content}
+# 預先擷取選件內容
 
 [!DNL Target] 預先擷取功能會使用 iOS 和 Android Mobile SDK，透過快取伺服器回應盡量以最少次數擷取選件。
 
@@ -22,7 +22,7 @@ ht-degree: 47%
 在iOS和Android Mobile SDK中使用預回遷方法時，請考慮下列限制：
 
 * 預先擷取內容不會在跨啟動之間持續有效。只要應用程式仍然存在，或直到呼叫 `clearPrefetchCache()` 方法為止，則會快取預先擷取內容。
-* [!UICONTROL 自動分配]和[!UICONTROL 自動目標]流量分配方法、[!UICONTROL 自動個人化]或[!UICONTROL 建議]活動類型或A/B或XT活動](/help/c-recommendations/recommendations-as-an-offer.md)中的建議不支援預回遷功能。[
+* [!UICONTROL 自動分配]和[!UICONTROL 自動目標]流量分配方法、[!UICONTROL Automated Personalization]或[!UICONTROL Recommendations]活動類型或A/B或XT活動](/help/c-recommendations/recommendations-as-an-offer.md)中的建議不支援預回遷功能。[
 
 如需詳細資訊，包括預先提取方法、公用類別和程式碼範例，請參閱:
 
