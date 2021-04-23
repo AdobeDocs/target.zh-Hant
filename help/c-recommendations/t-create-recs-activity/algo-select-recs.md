@@ -1,18 +1,18 @@
 ---
 keywords: 建議；建議活動；條件；算法
-description: 瞭解如何選取要在Adobe Target Recommendations活動中使用的標準（決定要建議哪些產品或內容的規則）。
+description: 瞭解如何選擇Adobe [!DNL Target] Recommendations活動中要使用的標準（決定要推薦哪些產品或內容的規則）。
 title: 如何為Recommendations活動選擇標準？
 feature: Recommendations
+exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 74%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 選取條件{#select-criteria}
+# ![PREMIUM](/help/assets/premium.png) 選取條件
 
 選取要在您的 活動中使用的[條件](/help/c-recommendations/c-algorithms/algorithms.md)。[!DNL Adobe Target Recommendations]條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
 
@@ -34,8 +34,8 @@ ht-degree: 74%
 
    您可以使用[!UICONTROL 產業類型]篩選、[!UICONTROL 頁面類型]篩選和[!UICONTROL 相容]核取方塊來篩選條件清單。這些選項可協助您找到所需的條件。
 
-   * **產業類型:** 產業類型可用來幫助對 [!DNL Recommendations] 條件進行分類。若要變更您的預設產業垂直，請按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**」，然後選取您想要的預設&#x200B;**[!UICONTROL 產業垂直]**&#x200B;設定。
+   * **產業類型:** 產業類型可用來幫助對 [!DNL Recommendations] 條件進行分類。若要變更您的預設產業垂直，請按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**」，然後選取您想要的預設「產業垂直&#x200B;]**」設定。**[!UICONTROL 
    * **頁面類型:** 頁面類型可幫助您對您的建議進行分類。也有可為每個頁面類型選擇的內建條件。
-   * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。您可以在您的設定中停用或啟用此選項：**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**。
+   * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。您可以在您的設定中停用或啟用此選項：**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**。
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以顯示[選取設計](/help/c-recommendations/c-design-overview/design-overview.md)對話方塊。
