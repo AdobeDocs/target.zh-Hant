@@ -1,18 +1,18 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv；分類；分析分類
-description: 瞭解動態消息如何使用CSV檔案、Google產品搜尋動態消息格式和Analytics產品分類，將實體匯入Adobe Target Recommendations。
-title: 如何在Target Recommendations中使用動態消息？
+description: 瞭解動態消息如何使用CSV檔案、Google產品搜尋動態消息格式和Analytics產品分類，將實體匯入Adobe [!DNL Target] Recommendations。
+title: 如何使用 [!DNL Target] Recommendations中的饋送？
 feature: Recommendations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2522'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 摘要{#feeds}
+# ![PREMIUM](/help/assets/premium.png) 摘要
 
 使用摘要來將實體匯入 [!DNL Adobe Target Recommendations]。實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。
 
