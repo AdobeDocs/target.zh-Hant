@@ -1,16 +1,16 @@
 ---
 keywords: 體驗定位；xt；建立
-description: 瞭解如何使用Adobe Target的視覺體驗撰寫器(VEC)，在啟用Target的頁面上建立體驗定位(XT)活動。
+description: 瞭解如何使用Adobe [!DNL Target] 中的視覺體驗撰寫器(VEC)，在啟用Target的頁面上建立體驗定位(XT)活動。
 title: 如何建立體驗定位活動？
-feature: Experience Targeting
+feature: 體驗鎖定目標
+exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 translation-type: tm+mt
-source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 89%
 
 ---
-
 
 # 建立體驗鎖定目標活動
 
