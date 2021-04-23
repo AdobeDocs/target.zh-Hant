@@ -1,16 +1,16 @@
 ---
 keywords: 鎖定目標; EEC; 可視化體驗撰寫器; 疑難排解增強體驗撰寫器; 疑難排解
-description: 瞭解如何疑難排解Adobe Target Enhanced Experience Composer(EEC)在特定條件下有時會發生的問題。
+description: 瞭解如何排除在特定條件下Adobe [!DNL Target] Enhanced Experience Composer(EEC)中有時會出現的問題。
 title: 如何疑難排解與增強的Experience Composer相關的問題？
-feature: Visual Experience Composer (VEC)
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
-
 
 # 疑難排解與增強的Experience Composer相關的問題
 
