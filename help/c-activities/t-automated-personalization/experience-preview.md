@@ -1,24 +1,24 @@
 ---
 keywords: 體驗預覽; 體驗 URL; 產生 URL; 檢視體驗 URL
-description: 瞭解如何使用Adobe Target Automated Personalization活動的體驗預覽URL，在活動上線前直接在您的網站上查看體驗內容。
-title: 如何在自動個人化活動中使用Experience Preview URLS?
-feature: Automated Personalization
+description: 瞭解如何使用Adobe的體驗預覽URL [!DNL Target] Automated Personalization活動，在活動上線之前，直接在您的網站上檢視體驗內容。
+title: 如何在Automated Personalization活動中使用體驗預覽URL?
+feature: 自動個人化
+exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '784'
 ht-degree: 65%
 
 ---
 
+# ![PREMIUMP使用體驗預覽URL來審查Automated Personalization活動](/help/assets/premium.png) 
 
-# ![PREMIUMP使用體驗預覽URL審核自動個人化活動](/help/assets/premium.png) 
-
-體驗預覽URL可針對Target自動個人化活動產生，以便在活動上線以供預覽和QA之用前，直接在您的網站上查看體驗內容。 體驗預覽URL會略過定位，強制檢視特定體驗。
+體驗預覽URL可針對TargetAutomated Personalization活動產生，以便在活動上線前直接在您的網站上查看體驗內容，以用於預覽和QA。 體驗預覽URL會略過定位，強制檢視特定體驗。
 
 >[!NOTE]
 >
->「自動個人化」的體驗預覽URL與「活動QA」模式不同。 活動 QA 模式可讓您為其他類型的活動建立活動 URL。如需詳細資訊，請參閱[活動 QA](/help/c-activities/c-activity-qa/activity-qa.md)。
+>Automated Personalization的體驗預覽URL與活動QA模式不同。 活動 QA 模式可讓您為其他類型的活動建立活動 URL。如需詳細資訊，請參閱[活動 QA](/help/c-activities/c-activity-qa/activity-qa.md)。
 >
 >AP活動的體驗預覽URL僅在使用at.js 1.x時可用。at.js 2.x目前不支援AP活動的體驗預覽URL。
 
