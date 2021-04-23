@@ -1,21 +1,21 @@
 ---
 keywords: 建議金鑰；建議邏輯；當前類別；自訂屬性；上次購買項目；上次查看項目；最多查看項目；最多查看項目；最多查看項目；最愛類別；人氣；最近查看項目；最近購買；上次查看；最近查看；最近查看；最近查看
-description: 瞭解如何根據使用訪客行為上下文的索引鍵來使用建議，以顯示Adobe Target Recommendations活動中的相關結果。
+description: 瞭解如何根據使用訪客行為上下文的索引鍵使用建議，以在Adobe [!DNL Target] Recommendations活動中顯示相關結果。
 title: 我要如何以建議金鑰為基礎？
 feature: Recommendations
 mini-toc-levels: 2
+exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2932'
 ht-degree: 67%
 
 ---
 
-
 # 讓建議以建議索引鍵為依據
 
-根據索引鍵的建議會使用訪客行為上下文來顯示[!DNL Adobe Target] [!DNL Recommendations]活動的相關結果。
+Recommendations基於按鍵使用訪客行為上下文來顯示[!DNL Adobe Target] [!DNL Recommendations]活動的相關結果。
 
 有兩種類型的建議: 
 
@@ -366,7 +366,7 @@ Recommendation 由儲存在訪客設定檔中的項目決定，並使用user.*x*
 * 最喜愛的類別
 * 人氣
 
-### 使用者型建議{#user-based}
+### 基於用戶的Recommendations{#user-based}
 
 根據每位訪客的瀏覽、檢視和購買記錄來建議項目。 這些項目通常稱為「為您推薦」。
 
