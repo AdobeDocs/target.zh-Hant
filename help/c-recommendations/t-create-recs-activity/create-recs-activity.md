@@ -1,18 +1,18 @@
 ---
 keywords: 建立建議;Recommendations 活動;新建議;建議概覽
-description: 瞭解如何使用Adobe Target Visual Experience Composer(VEC)直接在啟用Target的頁面上建立Recommendations活動。
+description: 瞭解如何使用Adobe [!DNL Target] 視覺體驗撰寫器(VEC)直接在啟用 [!DNL Target]的頁面上建立Recommendations活動。
 title: 如何建立Recommendations活動？
 feature: Recommendations
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 76%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 建立 Recommendations 活動{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) 建立 Recommendations 活動
 
 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 
@@ -46,15 +46,15 @@ ht-degree: 76%
 
    按[!UICONTROL 「下一步」]時，VEC 會開啟並顯示您的頁面。您可以使用建議取代目前的元素，或插入建議。
 
-1. 按一下頁面上的元素，然後如果該元素所在位置有建議，請按一下「取代w/ Recommendations ]**」、「在]**&#x200B;之前插入建議」或「在&#x200B;]**之後插入建議」。**[!UICONTROL **[!UICONTROL **[!UICONTROL 
+1. 按一下您頁面上的元素，如果該元素所在位置有建議，請按一下「取代w/Recommendations ]**」、「在]**&#x200B;之前插入Recommendations」或「在&#x200B;]**之後插入Recommendations」。**[!UICONTROL **[!UICONTROL **[!UICONTROL 
 
    只有符合建議資格時，您網站的訪客才會看到建議內容。 不符合建議資格的訪客將會看到預設內容。
 
    ![Recommendations 選項](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    * **[!UICONTROL 取代Recommendations]**:以建議取代元素會刪除目前的內容，並以建議取代。當訪客瀏覽您的網站並符合建議資格時，他們會在指定區域看到建議項目，而非現有內容。
-   * **[!UICONTROL 先插入建議]**:在選取的元素之前插入建議，將建議的內容置於該元素之前。根據您的頁面建構，建議會顯示在所選元素的上方或左側。
-   * **[!UICONTROL 在下列項目後插入建議]**:在選取的元素後插入建議，將建議的內容放在該元素後。依您的頁面建構而定，建議會顯示在選取元素的下方或右側。
+   * **[!UICONTROL 先插入Recommendations]**:在選取的元素之前插入建議，將建議的內容置於該元素之前。根據您的頁面建構，建議會顯示在所選元素的上方或左側。
+   * **[!UICONTROL 將Recommendations插入]**:在選取的元素後插入建議，將建議的內容放在該元素後。依您的頁面建構而定，建議會顯示在選取元素的下方或右側。
 
    **[!UICONTROL 展開選取範圍]**&#x200B;選項可讓您展開選取的位置（父容器），以協助您更輕鬆地識別並包含所要的頁面元素。
 
@@ -164,7 +164,7 @@ ht-degree: 76%
 
    * 啟動活動
    * 編輯活動
-   * 將活動分享到您的Experience Cloud摘要
+   * 將活動分享至您的Experience Cloud摘要
    * QA活動
    * 檢視您的體驗 URL
    * 下載資料
