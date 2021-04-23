@@ -1,18 +1,18 @@
 ---
 keywords: 變數;設定檔;參數;內建設定檔;方法;url 變數;地理設定檔;第三方設定檔;mbox 變數;促銷活動變數;客戶屬性
-description: 檢視Adobe Target描述檔指令碼中有用的各種描述檔、變數和參數清單。
+description: 檢視各種描述檔、變數和參數的清單，這些在Adobe Target的描述檔指令碼中十分有用。
 title: Target中使用哪些描述檔、變數和參數？
-feature: Audiences
+feature: 對象
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 88%
 
 ---
 
-
-# 設定檔和變數字彙表{#profile-and-variable-glossary}
+# 設定檔和變數字彙表
 
 此頁面列出在設定檔指令碼中很實用的設定檔、變數和參數。
 
