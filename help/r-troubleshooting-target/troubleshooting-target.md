@@ -1,16 +1,16 @@
 ---
 keywords: 疑難排解 target;疑難排解 target
-description: 檢閱可協助您解決Adobe Target中問題的主題清單，包括疑難排解主題、常見問答集(FAQ)和其他實用主題。
+description: 檢閱可協助您解決Adobe Target問題的主題清單，包括疑難排解主題、常見問答(FAQ)和其他實用主題。
 title: 如何疑難排解Target?
-feature: Troubleshooting
+feature: 疑難排解
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
-
 
 # 疑難排解 Target
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [設計常見問題集](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics 和 Target 整合 (A4T)
+## Analytics與[!DNL Target]整合(A4T)
 
 * [疑難排解 Analytics 和 Target 整合](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
