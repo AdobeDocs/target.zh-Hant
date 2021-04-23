@@ -2,18 +2,18 @@
 keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬性; 屬性; at_property; 角色; 權限
 description: 瞭解如何新增使用者至Adobe Target;建立工作區、使用者群組和屬性；更新您的實作；並指定角色和權限。
 title: 如何設定企業權限？
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 設定企業權限{#configure-enterprise-permissions}
+# ![PREMIUM](/help/assets/premium.png) 設定企業權限
 
 有關將用戶添加到[!DNL Target]實施所需任務的資訊；建立工作區、使用者群組和屬性；更新您的[!DNL Target]實作以包含`at_property`參數；並指定角色和權限。
 
@@ -34,7 +34,7 @@ ht-degree: 66%
 
 對於在[!DNL Adobe Admin Console for Enterprise]中執行的這些任務，請按照以下步驟訪問控制台：
 
-1. 在Adobe Target中，按一下「**[!UICONTROL 管理]** > **[!UICONTROL 屬性]** > **[!UICONTROL 將屬性指派給Workspaces]**」。
+1. 在Adobe Target，按一下「**[!UICONTROL 管理]** > **[!UICONTROL 屬性]** > **[!UICONTROL 將屬性分配給工作區]**」。
 
    或
 
@@ -206,7 +206,7 @@ ht-degree: 66%
 >
 >[!DNL Target] [!UICONTROL Administration]功能表UI（先前稱為[!UICONTROL Setup]）已重新設計，以提供改善的效能、縮短發布新功能時所需的維護時間，並改善整個產品的使用者體驗。 以下視訊中的資訊通常正確；不過，選項可能位於稍微不同的位置。 更新的影片將很快發佈。
 
-### 如何設定目標工作區(6:55)![教學課程標章](/help/assets/tutorial.png)
+### 如何配置Adobe Target工作區(6:55)![教學課程標章](/help/assets/tutorial.png)
 
 此影片說明如何建立工作區。
 
@@ -220,7 +220,7 @@ ht-degree: 66%
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### 如何在Adobe Target中建立屬性(3:05)![教學課程標章](/help/assets/tutorial.png)
+### 如何在Adobe Target(3:05)![教學課程標章](/help/assets/tutorial.png)中建立屬性
 
 * 如何在 [!DNL Adobe Target] 介面中建立屬性
 * 如何產生要包括在您的屬性實作中的屬性 Token
