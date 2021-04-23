@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;目標作業系統;作業系統;目標 os;os;目標 linux;linux;目標 windows;windows;目標 macintosh;macintosh;mac;目標 mac;win;目標 win
 description: 瞭解如何定位使用特定作業系統（Linux、Macintosh或Windows）的訪客。
-title: 我是否可以根據作業系統定位訪客？
-feature: Audiences
+title: '我是否可以根據作業系統來存取訪客？ [!DNL Target] '
+feature: 對象
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 82%
 
 ---
 
-
-# 作業系統 {#operating-system}
+# 作業系統 
 
 您可以鎖定使用某個作業系統的訪客。
 
