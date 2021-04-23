@@ -1,16 +1,16 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷；動態過濾；靜態過濾
-description: 瞭解如何在Adobe Target Recommendations中手動輸入一或多個靜態值，以使用包含規則進行篩選。
+description: 瞭解如何手動輸入一或多個靜態值，以使用RecommendationsAdobe [!DNL Target] 中的包含規則進行篩選。
 title: 如何依Recommendations活動中的靜態值篩選？
 feature: Recommendations
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
-
 
 # ![PERTIMtatic](/help/assets/premium.png) 篩選
 
@@ -29,4 +29,3 @@ ht-degree: 45%
 若要建立含靜態值的包含規則，以建議MPA分級為「G」或「PG」的內容（排除「R」和「NC17」內容），您可以建立下列篩選規則：「影片分級等於g-aradied」和「影片分級等於pg-aradied」，如下所示。
 
 ![影片評分範例](/help/c-recommendations/c-algorithms/assets/movies.png)
-
