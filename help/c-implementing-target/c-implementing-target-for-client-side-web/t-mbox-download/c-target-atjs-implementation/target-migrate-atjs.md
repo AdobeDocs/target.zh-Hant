@@ -1,17 +1,17 @@
 ---
 keywords: Target;at.js;移轉至 at.js;整備;稽核 at.js;整合 at.js
-description: 瞭解如何移轉至at.js，這是Adobe Target的全新實作庫，專為一般網頁實作和單頁應用程式(SPA)所設計。
+description: 瞭解如何移轉至at.js，這是專為一般Web實作和單頁應用程式(SPA)所設計的全新Adobe實作庫 [!DNL Target] 。
 title: 如何從 mbox.js 移轉至 at.js
 feature: at.js
 role: Developer
+exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 96%
 
 ---
-
 
 # 如何從 mbox.js 移轉至 at.js
 
