@@ -1,16 +1,16 @@
 ---
 keywords: 內容庫；資產；搜索；過濾
-description: 瞭解如何在Adobe Target選件程式庫中搜尋程式碼和影像選件。
+description: 瞭解如何在Adobe [!DNL Target] 選件程式庫中搜尋程式碼和影像選件。
 title: 如何搜尋選件程式庫中的內容？
-feature: Experiences and Offers
+feature: 體驗與優惠
+exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 12%
 
 ---
-
 
 # 搜尋內容
 
