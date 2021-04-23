@@ -1,19 +1,19 @@
 ---
 keywords: 自動個人化；選件；目標；對象；目標規則；目標
-description: 瞭解如何使用Adobe Target中的「自動個人化」(AP)活動，將個別優惠鎖定在特定的受眾。
-title: 我要如何定位自動個人化優惠？
-feature: Automated Personalization
+description: 瞭解如何使用Adobe Target的Automated Personalization(AP)活動，將個別優惠鎖定在特定對象。
+title: 我要如何 [!DNL Target] Automated Personalization優惠？
+feature: 自動個人化
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 87%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 鎖定自動個人化選件{#target-automated-personalization-offers}
+# ![PREMIUMA自動個](/help/assets/premium.png) [!DNL Target] 人化優惠
 
 在[!DNL Adobe Target] [!DNL Automated Personalization](AP)活動中，您可以將選件鎖定在特定對象。
 
