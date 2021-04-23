@@ -1,22 +1,22 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;目標;對象
-description: 檢視有關體驗鎖定和Adobe Target活動中使用之觀眾的常見問答集(FAQ)。
+description: '檢視有關體驗定位和Adobe活動中使用之觀眾的常見問題(FAQ)。 [!DNL Target] '
 title: 我可以在哪裡找到有關目標和對象的問題和答案？
-feature: Audiences
+feature: 對象
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 66%
+source-wordcount: '948'
+ht-degree: 64%
 
 ---
 
-
-# 鎖定目標和對象常見問題集{#targets-and-audiences-faq}
+# 鎖定目標和對象常見問題集
 
 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 
-## Target如何評估定位中的URL?{#url}
+## [!DNL Target]如何評估定位中的URL?{#url}
 
 Target會根據您在建立活動時是否使用對象URL定位，或是您在建立對象時是否使用URL定位，以不同方式評估URL。
 
@@ -65,7 +65,7 @@ URL定位會將URL轉換為一組要評估的規則：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## 建置對象時，為什麼在 Target 資料庫下預先建置的對象會出現在其他類別中? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## 建置對象時，為什麼在 [!DNL Target] 資料庫下預先建置的對象會出現在其他類別中? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 Target 資料庫類別中預先建置的對象為舊版對象，並且存在於其他類別。舉例來說，舊版「Target 資料庫 > 新訪客」對象有更新的對應項:「訪客設定檔 > 新訪客」。
 
@@ -83,7 +83,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 ![](assets/audiences_order.png)
 
-## 在 Target、Audience Manager (AAM) 和核心服務中的對象程式庫中，同一對象的名稱為何不同? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## 在 [!DNL Target]、Audience Manager (AAM) 和核心服務中的對象程式庫中，同一對象的名稱為何不同? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 對象名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個對象可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的對象名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 對象時，[!DNL Target] 會在名稱後面附加 &quot;#&lt;number>&quot;。
 
@@ -93,7 +93,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 部分 Target 對象是預先定義的，例如「新訪客」和「再度訪問的訪客」。使用者無法重新命名這些對象。
 
-## Target 使用者介面中為何不顯示所有設定檔參數?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## 為什麼[!DNL Target]使用者介面中未顯示所有描述檔參數？{#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 [!DNL Target]，則可以使用 [!UICONTROL 設定檔更新] API 方法來傳遞它們。如需詳細資訊，請參閱 Adobe Target API 文件中的[設定檔更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
@@ -101,7 +101,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 在每個工作階段都會評估一次自動個人化活動。如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增選件，則除了先前顯示的選件，使用者還會看到新內容。因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
 
-## 為什麼透過 API 建立之對象所做的變更未反映在 Target UI 中?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## 為什麼透過API建立的對象所做的變更不會反映在[!DNL Target] UI中？{#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 與選件和設定檔指令碼不同，API 對於 Target Standard 建立之對象所做的變更目前未同步回 Target UI。
 
