@@ -1,20 +1,20 @@
 ---
 keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
-description: 瞭解如何在Adobe Target中使用Visual Experience Composer(VEC)。 VEC提供視覺化介面，可讓您在頁面上新增和編輯體驗。
-title: 如何在Target A/B活動中新增體驗？
-feature: A/B Tests
+description: 瞭解如何在Adobe Target使用Visual Experience Composer(VEC)。 VEC提供視覺化介面，可讓您在頁面上新增和編輯體驗。
+title: 如何在a [!DNL Target] A/B活動中新增體驗？
+feature: A/B 測試
+exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '483'
 ht-degree: 79%
 
 ---
 
-
 # 新增體驗
 
-Adobe Target Visual Experience Composer(VEC)提供視覺化介面，可用來新增和編輯頁面上的體驗。
+Adobe Target視覺體驗撰寫器(VEC)提供視覺化介面，可用來新增和編輯頁面上的體驗。
 
 如需關於體驗的其他詳細資料，請參閱[體驗](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
