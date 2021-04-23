@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集;重要屬性
-description: 瞭解如何使用「自動個人化(AP)」和「自動目標(AT)」活動的專業報表-「自動化區段」和「重要屬性」。
+description: 瞭解如何使用Automated Personalization(AP)和自動目標(AT)活動的專業報告——自動化區段和重要屬性。
 title: 如何使用個人化見解報表？
-feature: Reports
+feature: 報表
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 69%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 「個人化前瞻分析」報表{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) 「個人化前瞻分析」報表
 
 [!UICONTROL 自動個人化] (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表: [!UICONTROL 「自動化區段」]與「重要屬性」報表。
 
@@ -69,10 +69,10 @@ ht-degree: 69%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-如需詳細資訊，請參閱[在Adobe Target中使用個人化洞察報告](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
+如需詳細資訊，請參閱[使用Adobe Target的個人化洞察報告](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
 
 ## Adobe部落格
 
 * 第1部分：[從AI驅動的個人化魔力中揭開謎底](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* 第二部分：[Adobe Target中個人化AI幕後秘辛](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 第二部分：[Adobe Target人工智慧個人化幕後秘辛](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
 * 第3部分：[MAGIX — AI驅動個人化黑匣子問題的解決方案](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
