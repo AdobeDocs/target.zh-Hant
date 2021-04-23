@@ -1,18 +1,18 @@
 ---
 keywords: 瀏覽器選項;類型;瀏覽器類型;瀏覽器語言;語言;版本;瀏覽器版本
-description: 瞭解如何在Adobe Target中建立觀眾，以鎖定使用特定瀏覽器或特定瀏覽器選項的使用者瀏覽您的頁面。
-title: 我可以根據瀏覽器類型定位訪客嗎？
-feature: Audiences
+description: 瞭解如何在Adobe [!DNL Target] 中建立觀眾，以鎖定使用特定瀏覽器或特定瀏覽器選項的使用者瀏覽您的頁面。
+title: '我是否可依據瀏覽器類型來訪客？ [!DNL Target] '
+feature: 對象
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# 瀏覽器{#browser}
+# 瀏覽器
 
 您可以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 
