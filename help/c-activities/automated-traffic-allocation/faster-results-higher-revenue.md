@@ -1,16 +1,16 @@
 ---
 keywords: 自動流量分配；目標；自動分配；自動分配
-description: 瞭解Adobe Target中的「自動分配」活動如何識別兩個或更多體驗中的成功者，並自動將更多流量重新分配給成功者。
+description: '瞭解Adobe中的「自動分配」活動如何識別兩個或更多體驗中的成功者，並自動將更多流量重新分配給成功者。 [!DNL Target] '
 title: 自動分配活動能獲得更快的結果和更高的收入嗎？
-feature: Auto-Allocate
+feature: 自動分配
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
-
 
 # 自動分配可讓您比手動測試更快完成測試並獲得更高收入
 
@@ -47,4 +47,3 @@ ht-degree: 0%
 ## 開始使用
 
 準備好啟動第一個[!UICONTROL 自動分配]活動了嗎？ [瞭解如何](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
-
