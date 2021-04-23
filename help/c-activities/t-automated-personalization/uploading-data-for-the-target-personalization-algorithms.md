@@ -1,20 +1,20 @@
 ---
-keywords: 自動個人化；ap；上傳資料；離線資料；個人化算法；自動目標；自動目標；最佳實踐
-description: 瞭解在Adobe Target自動個人化(AP)活動中建立個人化模型時如何上傳離線資料，例如CRM資訊。
+keywords: Automated Personalization;ap；上傳資料；離線資料；個人化算法；自動目標；自動目標；最佳實踐
+description: '瞭解在Automated Personalization(AP)Adobe活動中建立個人化模型時如何上傳離線資料，例如CRM資訊。 [!DNL Target] '
 title: 如何上傳個人化演算法的資料？
-feature: Automated Personalization
+feature: 自動個人化
+exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
+# 上傳[!DNL Target]個人化演算法的資料
 
-# 上傳用於 Target 個人化演算法的資料
-
-在[!DNL Adobe Target] [!UICONTROL 自動個人化](AP)活動中建立個人化模型時，離線資料（如CRM資訊或客戶流失傾向分數）可能非常有價值。
+在[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP)活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能非常有價值。
 
 有數種方式可以在[!UICONTROL 自動個人化] (AP) 和[!UICONTROL 自動鎖定目標]個人化演算法中輸入資料。除了[將資料傳入 Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 的方法以外，我們的演算法中也使用 Experience Cloud 共用對象 (Adobe Analytics、Audience Management) 和活動內報表對象。
 
@@ -30,4 +30,3 @@ ht-degree: 77%
 * 複查 Target 自動收集的資料 ([Target 個人化演算法的資料收集](/help/c-activities/t-automated-personalization/ap-data.md))，如此一來，您便不會傳送重複的資訊。例如，Target 會使用 IP 位址來判斷訪客的郵遞區號。不必以單獨的變數傳遞此資訊。
 * 請勿在相同屬性/變數中傳遞多個值。如果連接多個變數，Target 的個人化演算法會將每個字串視為唯一值，降低個人化資訊的價值。
 * 使用易記且有意義的命名慣例讓您的[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)更清晰易懂。
-
