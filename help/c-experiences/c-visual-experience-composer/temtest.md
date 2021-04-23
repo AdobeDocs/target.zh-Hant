@@ -1,16 +1,16 @@
 ---
 keywords: 範本測試; 範本; 類似頁面上有相同體驗; 範本測試
-description: 瞭解如何使用Adobe Target Visual Experience Composer(VEC)，在結構類似或包含相同範本元素的多個頁面上加入相同的體驗。
+description: 瞭解如何使用Adobe [!DNL Target] Visual Experience Composer(VEC)，在結構類似或包含相同範本元素的多個頁面上加入相同的體驗。
 title: 我可以在類似的頁面上加入相同的體驗嗎？
-feature: Experiences and Offers
+feature: 體驗與優惠
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 46%
 
 ---
-
 
 # 在類似頁面上包含相同體驗
 
