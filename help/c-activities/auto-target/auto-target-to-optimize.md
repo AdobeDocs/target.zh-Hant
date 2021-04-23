@@ -1,13 +1,13 @@
 ---
 keywords: 自動鎖定目標;鎖定目標;流量分配;常見問題集;faq;疑難排解
-description: 瞭解Target中的「自動定位」活動如何根據客戶個人檔案和類似訪客的行為，為每位訪客提供最符合客戶需求的體驗。
+description: 瞭解 [!DNL Target] 中的「自動定位」活動如何根據客戶個人檔案和類似訪客的行為，為每位訪客提供最自訂的體驗。
 title: 什麼是自動定位活動？
-feature: Auto-Target
+feature: 自動鎖定目標
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1992'
 ht-degree: 70%
 
 ---
