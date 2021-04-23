@@ -1,18 +1,18 @@
 ---
 keywords: 網頁；目標網頁；目標；目標當前頁；目標當前頁；上一頁；目標上一頁；著陸頁；目標著陸頁；http標頭
-description: 瞭解如何使用Adobe Target定位您網站上特定頁面的訪客。
-title: 我可以根據網站頁面定位訪客嗎？
-feature: Audiences
+description: 瞭解如何使用Adobe [!DNL Target] 定位您網站上特定頁面的訪客。
+title: 我是否可以 [!DNL Target] 根據網站頁面訪客？
+feature: 對象
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 42%
 
 ---
 
-
-# 網頁{#site-pages}
+# 網頁
 
 您可以定位在您網站上特定頁面的訪客。
 
