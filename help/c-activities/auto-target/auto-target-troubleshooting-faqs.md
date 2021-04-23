@@ -1,16 +1,16 @@
 ---
 keywords: auto-target；定位；流量分配；常見問題；常見問題；疑難排解；故障排除；流量
-description: 探索Adobe Target中有關自動定位活動的疑難排解主題和常見問題。
+description: 探索有關Adobe TargetAuto-Target活動的疑難排解主題和常見問題。
 title: 如何疑難排解自動定位活動？
-feature: Auto-Target
+feature: 自動鎖定目標
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMAuto-Target疑難排解和常見問答集
 
@@ -33,7 +33,7 @@ ht-degree: 68%
 
 * 請勿於活動期間對體驗做出重大變更。
 
-### 您是否建議我們將「自動目標」與90（控制項）/10（目標）分割搭配使用，直到模型建立為止？
+### 您是否建議我們將Auto [!DNL Target]與90(Control)/10(Targeted)分割搭配使用，直到模型建立為止？
 
 您的最佳流量分配分割取決於您要完成的工作。
 
@@ -74,7 +74,7 @@ No, check marks for model generation show only the models built to date. There's
 
 模型在[!UICONTROL Auto-Target]活動中建立所需的時間長度，通常取決於所選活動位置的流量以及與活動成功度量相關聯的轉換率。
 
-[!UICONTROL Auto-] Target不會嘗試針對特定體驗建立個人化模型，直到該體驗至少有50次轉換為止。此外，如果所建立的模型品質不足（如使用[稱為AUC↑[a1/]的量度進行離線評估，以保留「測試」資料所判斷），則不會使用模型以個人化方式為流量服務。](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)
+[!UICONTROL Auto-] Target不會嘗試針對特定體驗建立個人化模型，直到該體驗至少有50次轉換為止。此外，如果所建立的模型品質不足（如使用[稱為AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度，透過離線評估保留「測試」資料，判斷），則不會使用模型以個人化方式來服務流量。
 
 還有一些要記住的關於[!UICONTROL Auto-Target]的模型構建：
 
@@ -102,11 +102,11 @@ No, check marks for model generation show only the models built to date. There's
 
 我們不建議您在活動中途變更目標量度。 雖然在使用[!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
 
-此建議適用於使用[!DNL Target]或[!DNL Analytics](A4T)作為報告來源的[!UICONTROL 自動分配]、[!UICONTROL 自動目標]和[!UICONTROL 自動個人化]活動。
+此建議適用於使用[!DNL Target]或[!DNL Analytics](A4T)作為報告來源的[!UICONTROL 自動分配]、[!UICONTROL 自動目標]和[!UICONTROL Automated Personalization]活動。
 
 ### 我是否可在執行自動定位活動時使用「重設報表資料」選項？
 
-不建議對[!UICONTROL 自動目標]活動使用[!UICONTROL 重設報表資料]選項。 雖然它會移除可見的報告資料，但此選項不會從[!UICONTROL Auto-Target]模型移除所有培訓記錄。 您不必為[!UICONTROL 自動目標]活動使用[!UICONTROL 重設報表資料]選項，而是建立新活動並停用原始活動。 (注意：本指南也適用於[!UICONTROL 自動分配]和[!UICONTROL 自動個人化]活動。)
+不建議對[!UICONTROL 自動目標]活動使用[!UICONTROL 重設報表資料]選項。 雖然它會移除可見的報告資料，但此選項不會從[!UICONTROL Auto-Target]模型移除所有培訓記錄。 您不必為[!UICONTROL 自動目標]活動使用[!UICONTROL 重設報表資料]選項，而是建立新活動並停用原始活動。 (注意：本指南也適用於[!UICONTROL 自動分配]和[!UICONTROL Automated Personalization]活動。)
 
 ### 如果我從Auto-Target活動中移除單一體驗，會發生什麼情況？
 
@@ -149,4 +149,3 @@ AP 活動產生提升度需要四個係數:
 在[!UICONTROL 自動鎖定目標]活動中，轉換量度 (無論是最佳化目標或事後目標) 一旦轉換，即會從體驗中釋放使用者，而活動也會重新開始。
 
 例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。A1 相依於 C1。當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。如果訪客轉換 C1 然後轉換 A1，此時仍不會轉換 A1，因為 C1 一旦進行轉換即會釋出訪客。
-
