@@ -1,18 +1,18 @@
 ---
 keywords: 報告；塊IP地址；塊IP地址訪客；下載報告；csv；報告
-description: 瞭解如何使用Adobe Target中的報表功能來檢查您活動的效能。 根據您的資料做出更明智的決策，以提高投資報酬率。
+description: 瞭解如何使用Adobe [!DNL Target] 中的報告功能來檢查活動的績效。 根據您的資料做出更明智的決策，以提高投資報酬率。
 title: 如何檢視報表？
-feature: Reports
+feature: 報表
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 61%
 
 ---
 
-
-# 報表{#reports}
+# 報表
 
 報表會提供有關[!DNL Adobe Target]活動的進度和結果的資訊，協助您根據資料做出決策。 報表資料可協助您決定何時結束活動、顯示哪個選件體驗是贏家，並提供您確定下一個動作所需的見解或學習。
 
@@ -60,7 +60,7 @@ ht-degree: 61%
    | 報表類型 | 檢視 |
    | --- | --- |
    | [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md) | 按一下「自動化區段」或「重要屬性」圖示。********<ul><li>[「自動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)顯示不同訪客對AP/AT活動中的選件／體驗的回應方式。 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。</li><li>[重要屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)顯示不同活動中不同屬性對於模型決定個人化的方式更重要（或更少）。 此報表顯示影響模型及其相對重要性的常見屬性。</li></ul> |
-   | [](/help/c-activities/t-automated-personalization/automated-personalization.md)自動個人化 (AP) | 除了[自動個人化摘要報表](/help/c-reports/reports-ap.md)外，您還可以按一下「自動化區段」或「重要屬性」圖示。********<ul><li>[「自動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)顯示不同訪客對AP/AT活動中的選件／體驗的回應方式。 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。</li><li>[重要屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)指出不同活動中不同屬性對於模型決定個人化的方式而言，其重要性較高（或較少）。 此報表顯示影響模型及其相對重要性的常見屬性。</li></ul> |
+   | [](/help/c-activities/t-automated-personalization/automated-personalization.md)自動個人化 (AP) | 除了[Automated Personalization摘要報告](/help/c-reports/reports-ap.md)之外，您還可以按一下&#x200B;**[!UICONTROL 自動化段]**&#x200B;或&#x200B;**[!UICONTROL 重要屬性]**&#x200B;表徵圖。<ul><li>[「自動化區段」報表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)顯示不同訪客對AP/AT活動中的選件／體驗的回應方式。 此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。</li><li>[重要屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)指出不同活動中不同屬性對於模型決定個人化的方式而言，其重要性較高（或較少）。 此報表顯示影響模型及其相對重要性的常見屬性。</li></ul> |
    | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 除了[體驗績效報表](/help/c-reports/experience-performance-report.md)外，您還可以按一下[位置貢獻](/help/c-reports/location-contribution-report.md)圖示，以切換報表，依位置顯示貢獻。 |
 
 ## 特定活動類型{#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}的其他報告資訊
