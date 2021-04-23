@@ -1,18 +1,18 @@
 ---
 keywords: 定位；對象篩選；對象；篩選
-description: 瞭解如何使用Adobe Target中的觀眾篩選器，來檢視共用特定特性或一組特性之訪客群組的資料。
+description: 瞭解如何使用Adobe [!DNL Target] 中的觀眾篩選器，來檢視共用特定特性或一組特性之訪客群組的資料。
 title: 我是否可以使用對象篩選來建立報表？
-feature: Audiences
+feature: 對象
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 79%
 
 ---
 
-
-# 報表的對象篩選條件{#audience-filters-for-reporting}
+# 報表的對象篩選條件
 
 對象篩選 (或數個對象) 是指共用特定特性或一組特性的訪客群組。
 
@@ -36,6 +36,5 @@ ht-degree: 79%
 | 建立適當的活動或測試。 | [活動和測試](/help/c-intro/target-key-concepts.md) |
 | 必要的話，建立對象。 | [建立對象](/help/c-target/c-audiences/create-audience.md) |
 | 必要的話，合併多個對象。 | [合併多個對象](/help/c-target/combining-multiple-audiences.md) |
-| 在活動的「目標與設定」頁面上套用對象。 | A/B測試：[目標和設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>自動個人化： [自動個人化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>體驗定位：[目標和設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多變數測試： [目標和設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>建議：[Recommendations活動設定](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活動設定：[活動設定](/help/c-activities/activity-settings.md) |
+| 在活動的「目標與設定」頁面上套用對象。 | A/B測試：[目標和設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>體驗定位：[目標和設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多變數測試： [目標和設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations:[Recommendations活動設定](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活動設定：[活動設定](/help/c-activities/activity-settings.md) |
 | 檢視含有對象篩選條件之相關資訊的報表。 | [報表設定](/help/c-reports/c-report-settings/report-settings.md) |
-
