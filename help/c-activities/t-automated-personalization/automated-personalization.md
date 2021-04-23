@@ -1,20 +1,20 @@
 ---
 keywords: 自動個人化；ap；觀眾；整合；隨機森林；多武裝強盜；湯普森抽樣；ml；機器學習
-description: 瞭解如何在Adobe Target中使用自動個人化(AP)活動，這些活動使用進階機器學習來比對每個訪客的不同選件變化。
-title: 什麼是自動個人化(AP)活動？
-feature: Automated Personalization
+description: 瞭解如何在Adobe [!DNL Target] 中使用Automated Personalization(AP)活動，這些活動使用進階機器學習來比對每個訪客的不同選件變化。
+title: 什麼是Automated Personalization(AP)活動？
+feature: 自動個人化
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 88%
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
 
-
 # ![](/help/assets/premium.png) PREMIUMA自動個人化(AP)
 
-[!UICONTROL 自動個人化]  [!DNL Adobe Target] (AP)活動結合選件或訊息，並使用進階的機器學習，根據每位訪客的個別客戶個人檔案來比對不同的選件變化，以個人化內容並推動提升度。
+[!UICONTROL Automated Personalization]  [!DNL Adobe Target] (AP)活動結合了選件或訊息，並使用進階機器學習，根據每位訪客的個別客戶個人檔案來比對不同的選件變化，以個人化內容並推動提升度。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 與[!UICONTROL 自動鎖定目標]類似，[!UICONTROL 自動個人化]使用隨機森林演算法 (一種主流的資料科學整體方法) 作為主要的個人化演算法，用來決定要向訪客顯示的最佳體驗。[!UICONTROL 自動個人化在測試的探索階段很重要。]鎖定多種訪客時，允許機器學習以決定最有效的內容也相當實用。演算法會隨著時間學習預測最有效的內容，並顯示最可能達成您的目標的內容。
 
-要瞭解有關[!UICONTROL Automated Personalization]與[!UICONTROL Auto-Target]的更多資訊，請參閱[Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)。
+如需[!UICONTROL Automated Personalization]與[!UICONTROL 自動目標]有何不同的詳細資訊，請參閱[自動目標](/help/c-activities/auto-target/auto-target-to-optimize.md)。
 
 行銷人員在他們的網站上實作一個檔案，這可讓他們指向和點擊任何內容，然後使用 VEC ([!UICONTROL 可視化體驗撰寫器]) 為該區域以可視方式建立並選取其他內容選項。接著，演算法會根據系統所擁有有關訪客的行為資料，自動判斷要為每一個人提供何種內容，藉此提供個人化的體驗。因為[!UICONTROL 自動個人化]可以適應訪客行為中的變更，它可以在不設定結束日期的情況下執行，以持續提供提升度和個人化。這有時稱為「一律開啟」模式。在瞭解從最佳化發現的提升度之前，行銷人員不需要執行測試、分析結果，然後傳送獲勝者 (這是實施標準 A/B 活動成果的標準作業順序)。
 
