@@ -1,20 +1,20 @@
 ---
-keywords: 自動個人化；應用；預覽；排除體驗；
-description: 瞭解如何使用視覺體驗撰寫器(VEC)在Adobe Target的「自動個人化」(AP)活動中預覽每個體驗。
-title: 如何在VEC中預覽自動個人化體驗？
-feature: Automated Personalization
+keywords: Automated Personalization；應用；預覽；排除經驗；
+description: 瞭解如何使用視覺體驗撰寫器(VEC)，在Adobe [!DNL Target] 中預覽Automated Personalization(AP)活動中的每個體驗。
+title: 如何在VEC中預覽Automated Personalization體驗？
+feature: 自動個人化
+exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 47%
+source-wordcount: '260'
+ht-degree: 48%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) 可視化體驗撰寫器中自動個人化的預覽體驗
 
-# ![PREMIUM](/help/assets/premium.png) 可視化體驗撰寫器中自動個人化的預覽體驗{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
-
-由於[!DNL Adobe Target] [!UICONTROL 自動個人化](AP)活動會比較頁面上的多個選件，因此預覽具有每個體驗的頁面會很有幫助。
+由於[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP)活動會比較一頁上的多個選件，因此預覽每個體驗的頁面會很有幫助。
 
 1. 在[!UICONTROL Visual Experience Composer](VEC)中，按一下「預覽」。****
 
@@ -40,7 +40,7 @@ ht-degree: 47%
 
    若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下清單右上角的「排除」圖示。****
 
-   依預設，所有體驗都會包含在[!UICONTROL 自動個人化]活動中。 若要包含已遭排除的體驗，請將游標移至體驗上，然後按一下&#x200B;**[!UICONTROL 包含]**&#x200B;圖示。
+   依預設，所有體驗都包含在[!UICONTROL Automated Personalization]活動中。 若要包含已遭排除的體驗，請將游標移至體驗上，然後按一下&#x200B;**[!UICONTROL 包含]**&#x200B;圖示。
 
    若要包含已排除的多個體驗，請選取所要體驗的核取方塊，然後按一下清單右上角的&#x200B;**[!UICONTROL 包含]**&#x200B;圖示。
 
