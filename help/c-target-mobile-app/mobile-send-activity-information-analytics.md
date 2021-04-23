@@ -1,21 +1,21 @@
 ---
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-description: 瞭解如何將Adobe Target行動應用程式活動資訊傳送至Adobe Analytics，以便進行臨機貼文區段。
+description: 瞭解如何傳送Adobe [!DNL Target] 行動應用程式活動資訊至Adobe Analytics，以便進行臨機貼文區段。
 title: 我是否可將行動應用程式活動資訊傳送至Analytics?
-feature: Implement Mobile
+feature: 實施行動
 role: Developer
+exl-id: 33812f14-320f-40c3-8234-d6006fb4d6bc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 30%
 
 ---
 
+# 將活動資訊傳送到 Adobe Analytics
 
-# 將活動資訊傳送到 Adobe Analytics{#send-activity-information-to-adobe-analytics}
-
-本節說明如何傳送[!DNL Target]行動應用程式活動資訊至Adobe [!DNL Analytics]以進行臨機後區段。
+本節說明如何傳送[!DNL Target]行動應用程式活動資訊至Adobe[!DNL Analytics]以進行臨機後區段。
 
 **必要條件**
 
@@ -74,4 +74,3 @@ ht-degree: 30%
    >[!NOTE]
    >
    >`&&tnt` 是行動 SDK 中保留的事件索引鍵。[!DNL Analytics]中`tntVal`變數的後置分類在行動SDK中的運作方式與在網頁上相同(JavaScript)。 在[!DNL Analytics]中處理資訊後，您應會在[!DNL Analytics]介面中看到活動和體驗名稱。
-
