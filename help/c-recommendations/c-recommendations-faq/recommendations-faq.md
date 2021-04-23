@@ -1,16 +1,16 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;建議;特殊字元;屬性加權;內容相似度
-description: 檢視有關Adobe TargetRecommendations活動的常見問題與解答清單。
-title: 我可以從哪裡找到有關目標Recommendations的問題和答案？
+description: 查看關於Adobe [!DNL Target] Recommendations活動的常見問題和解答清單。
+title: 我可以在哪裡找到關於 [!DNL Target] Recommendations的問題和答案？
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
-ht-degree: 40%
+source-wordcount: '2691'
+ht-degree: 39%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations 常見問題集
 
@@ -130,7 +130,7 @@ Target具有[「篩選不相容准則」設定，可控制演算法選擇器的�
 
 ![](assets/content_similarity_example.png)
 
-## 為何 Target 有時無法顯示建議?  {#section_DB3F40673AED42228E407C05437D99E9}
+## 為什麼[!DNL Target]有時無法顯示建議？{#section_DB3F40673AED42228E407C05437D99E9}
 
 Target 有時會因為可用的建議數量不夠而無法顯示建議。
 
@@ -223,5 +223,3 @@ Target在應用程式層級規定50-MB的貼文限制；不過，這只有在您
 請注意，如果訪客在某個裝置上活動，而幾分鐘後在另一個裝置上變為活動，仍會發生此行為。 第一個裝置的工作階段不會過期30分鐘，而且在描述檔狀態寫入永久狀態並進行處理之前，最多會有5分鐘的延遲。 在測試此行為時，允許35分鐘的作業過期，並儲存描述檔。
 
 如果訪客沒有同時進行兩個作用中的作業，則只要作業結束，最近檢視的某個裝置項目就會更新另一個裝置上最近檢視的項目。 測試此行為時，會話需要35分鐘才會過期。
-
-
