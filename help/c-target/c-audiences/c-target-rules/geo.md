@@ -1,17 +1,17 @@
 ---
 keywords: 鎖定目標;a4t;地理;地理鎖定目標;地理鎖定目標準確度;國家;州;城市;郵遞區號;dma;行動電信業者;城市碼;區域碼;都市碼;設定檔指令碼;地理鎖定目標設定檔指令碼;地理鎖定目標行動
-description: 瞭解如何建立Adobe Target受眾，以根據其地理位置（包括其國家／地區、城市、郵遞區號等）鎖定使用者。
-title: 我可以定位訪客所在位置嗎？
-feature: Audiences
+description: 瞭解如何根據使用者的地理位置（包括其國家／地區、城市、郵遞區號等）建立Adobe [!DNL Target] 受眾，以鎖定使用者。
+title: 我是否可以 [!DNL Target] 以訪客為基礎的位置？
+feature: 對象
 solution: Target,Analytics
+exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 68%
+source-wordcount: '997'
+ht-degree: 69%
 
 ---
-
 
 # 地理
 
