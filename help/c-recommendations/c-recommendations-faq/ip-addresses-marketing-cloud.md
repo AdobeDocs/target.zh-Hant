@@ -1,16 +1,16 @@
 ---
 keywords: IP位址；IP位址；白名單；allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
-description: 檢視TargetRecommendations饋送處理伺服器中使用的IP位址清單，以協助您設定防火牆，以允許源自Adobe伺服器的IP位址。
+description: 檢視 [!DNL Target] Recommendations饋送處理伺服器中使用的IP位址清單，協助您設定防火牆，以允許源自Adobe伺服器的IP位址。
 title: Recommendations饋送處理伺服器使用哪些IP位址？
 feature: Recommendations
+exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 translation-type: tm+mt
-source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '137'
+ht-degree: 8%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations 摘要處理伺服器使用的 IP 位址
 
@@ -29,4 +29,3 @@ ht-degree: 7%
 >[!NOTE]
 >
 >這些IP位址上次更新日期為2021年3月16日。 以前，訪問FTP伺服器的伺服器位於192.243.242.0/24 IP地址CIDR塊中。 托管RecommendationsAPI的伺服器位於192.243.224.0/20 IP地址CIDR塊中。
-
