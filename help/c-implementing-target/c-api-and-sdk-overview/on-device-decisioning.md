@@ -1,23 +1,23 @@
 ---
 keywords: 伺服器端；伺服器端；sdk;sdk;sdk;sdk;sdks；裝置上；決策；裝置上；裝置上；裝置上；零延遲；延遲；近零；node.js
-description: 瞭解如何使用裝置上決策功能，快取伺服器上的Target A/B和MVT活動，以在接近零延遲的情況下執行記憶體內決策。
+description: 瞭解如何使用裝置上決策功能來快取伺服器上的 [!DNL Target] A/B和MVT活動，以便在接近零延遲的情況下執行記憶體內決策。
 title: 什麼是裝置上決策？
-feature: Implement Server-side
+feature: 實作伺服器端
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # 裝置上決策
 
 裝置上決策功能可讓您快取伺服器上的[!DNL Adobe Target] [!UICONTROL &lt;a/B測試]和[!UICONTROL 體驗定位](XT)活動，並在接近零的延遲下執行記憶體內決策，而不會封鎖對[!DNL Adobe Target]邊緣網路的網路要求。
 
-如需詳細資訊，請參閱&#x200B;*[Adobe Target SDK檔案](https://adobetarget-sdks.gitbook.io/docs/)*&#x200B;中的[裝置上決策簡介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)。
+如需詳細資訊，請參閱&#x200B;*[Adobe TargetSDK檔案](https://adobetarget-sdks.gitbook.io/docs/)*&#x200B;中的[裝置上決策簡介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)。
 
 ## 網路研討會：透過Adobe Target的裝置上決策，在零延遲時進行個人化和測試
 
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
-如需更多影片和教學課程，請參閱[Adobe Target教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)指南。
+如需更多影片和教學課程，請參閱[Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)指南。
