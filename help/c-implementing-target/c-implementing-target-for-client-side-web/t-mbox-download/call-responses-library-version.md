@@ -5,14 +5,14 @@ feature: at.js
 role: Developer
 exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 88%
 
 ---
 
-# 根據 mbox.js 程式庫版本鎖定頁面方法{#target-page-methods-by-mbox-js-library-version}
+# 根據 mbox.js 程式庫版本鎖定頁面方法
 
 Target 進行和回應來自您頁面呼叫的方法，取決於您所使用的 Target 資料庫、是否實作 Experience Cloud 訪客 ID，以及是否有訪客 ID 存在。
 
