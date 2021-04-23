@@ -1,20 +1,20 @@
 ---
 keywords: 多頁面; 歷程測試; 多頁面活動
-description: 瞭解如何在Adobe Target中建立多頁活動，讓您使用每個頁面專用的設計，在多個頁面上建立動態。
+description: 瞭解如何在Adobe [!DNL Target] 中建立多頁活動，讓您使用每個頁面專用的設計，在多頁上建立動態。
 title: 如何建立多頁活動？
-feature: Visual Experience Composer (VEC)
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
 
-
 # 多頁活動
 
-[!DNL Adobe Target]中的多頁活動可讓您建立多頁的內文，其中包含每個頁面的特定設計。
+[!DNL Adobe Target]中的多頁活動可讓您建立多個頁面的動態，其中包含每個頁面的特定設計。
 
 例如，您可能要測試某個選件，在購買超過某個金額時提供免運費。您可能想要讓該選件出現在您的登陸頁面、類別頁面和某些產品頁面，但想要它有不同的大小且位在每個頁面類型上不同位置。您可以在首頁上顯示一個顯眼的選件，然後在其他相關頁面上以較小的選件強化該選件。
 
@@ -46,4 +46,3 @@ ht-degree: 85%
    使用此功能表來重新命名頁面、從多頁面活動內執行重新導向測試，或刪除頁面。
 
 1. 使用可視化體驗撰寫器來設計選件在每一個頁面上的外觀。
-
