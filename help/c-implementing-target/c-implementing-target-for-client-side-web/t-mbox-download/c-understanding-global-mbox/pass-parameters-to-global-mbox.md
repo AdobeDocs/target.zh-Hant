@@ -1,17 +1,17 @@
 ---
 keywords: 全域 mbox 參數;targetPageParams;查詢字串;陣列;json;dtm;動態標籤管理
-description: 瞭解如何使用targetPageParams函式，將其他定位或內容資訊傳入Adobe Target全域mbox。
+description: 瞭解如何使用targetPageParams函式，將其他定位或內容資訊傳入Adobe [!DNL Target] 全域mbox。
 title: 如何將參數傳遞至全域mbox?
 feature: at.js
 role: Developer
+exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 63%
 
 ---
-
 
 # 傳遞參數至全域 mbox
 
