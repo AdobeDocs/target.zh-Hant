@@ -1,18 +1,18 @@
 ---
 keywords: 對象;對象規則;建立對象;建立對象;僅限活動;僅活動;臨機
-description: 瞭解如何在Adobe Target中建立僅供目前活動使用且未儲存在「對象程式庫」中的活動對象。
+description: 瞭解如何在Adobe [!DNL Target] 中建立僅供目前活動使用且未儲存在「對象程式庫」中的活動對象。
 title: 我可以建立只使用一次的對象嗎？
-feature: Audiences
+feature: 對象
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# 建立僅限於此活動的對象{#create-an-activity-only-audience}
+# 在 Adobe Target
 
 在建立活動時，從三個步驟引導工作流程內建立僅限活動的對象。這些隨選受眾可用在相同活動內的其他位置，但不會儲存在[!UICONTROL 受眾資料庫]而用於其他活動。
 
@@ -52,4 +52,3 @@ ht-degree: 91%
 * 僅限於此活動的受眾的狀態為[!UICONTROL 已使用]或[!UICONTROL 未使用]。在儲存活動之前，會將僅限於此活動的對象顯示為「未使用」。如果維持未使用而您嘗試儲存活動，會顯示警告訊息，通知您將刪除未使用的僅限於此活動的對象。
 * 您可以在可透過對象選擇器存取的快顯卡上檢視對象定義詳細資料，而不需開啟對象。
 * 您可以[結合多個對象](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立僅限於此活動的對象。
-
