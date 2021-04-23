@@ -1,16 +1,16 @@
 ---
 keywords: 活動更改日誌；更改日誌
-description: 存取Adobe Target中活動的變更記錄，以檢視變更您活動的人員及變更發生時間的記錄。
+description: 訪問Adobe [!DNL Target] 中活動的更改日誌，查看誰更改了您的活動以及何時更改的記錄。
 title: 如何查看活動更改日誌？
-feature: Activities
+feature: 活動
+exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
-
 
 # 活動變更記錄
 
