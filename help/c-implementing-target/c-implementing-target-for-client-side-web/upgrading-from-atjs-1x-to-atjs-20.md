@@ -1,19 +1,19 @@
 ---
 keywords: at.js 版本;at.js 版本;單一頁面應用程式;spa;跨網域;跨網域
-description: 瞭解如何從Adobe Target at.js 1.x升級至at.js 2.x。檢查系統流圖，瞭解新功能和已過時的功能，以及更多功能。
+description: 瞭解如何從Adobe [!DNL Target] at.js 1.x升級至at.js 2.x。檢查系統流圖，瞭解新功能和已過時的功能，以及更多功能。
 title: 如何從at.js 1.x版升級至2.x版？
 feature: at.js
 role: Developer
+exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 91%
 
 ---
 
-
-# 從 at.js 1.*x* 升級為 at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
+# 從 at.js 1.*x* 升級為 at.js 2.*x*
 
 [!DNL Adobe Target] 中的最新版 at.js 提供豐富的功能，讓貴公司能以新世代用戶端技術為基礎進行個人化。本次的新版本著重於升級 at.js，進而與單一頁面應用程式 (SPA) 產生和諧互動。
 
