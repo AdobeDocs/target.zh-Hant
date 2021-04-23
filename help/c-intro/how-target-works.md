@@ -1,22 +1,22 @@
 ---
 keywords: Adobe Experience Platform網頁SDK;aep web sdk;aep sdk；搜尋引擎最佳化；搜尋引擎最佳化；seo;edge叢集， central叢集；at.js;mbox.js;
-description: 瞭解Adobe Target的運作方式，包括Target JavaScript程式庫（at.js和AEP Web SDK）、Adobe資料中心和SEO測試的相關資訊。
-title: Target如何運作？
-feature: Overview
+description: 瞭解Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript程式庫（at.js和AEP Web SDK）、Adobe資料中心和SEO測試。
+title: 如何運作 [!DNL Target] ?
+feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2564'
 ht-degree: 31%
 
 ---
 
-# Adobe Target 如何運作
+# Adobe[!DNL Target]的運作方式
 
 瞭解[!DNL Adobe Target]的運作方式，包括[!DNL Adobe Experience Platform Web SDK]和JavaScript程式庫（at.js和mbox.js）的相關資訊。 本文也介紹您可以使用[!DNL Target]建立的各種活動類型。 您也可以瞭解[!DNL Target]邊緣網路、搜尋引擎最佳化(SEO)，以及[!DNL Target]如何偵測機器人。
 
-## Target Platform Web SDK和JavaScript程式庫{#libraries}
+## [!DNL Target] 平台網頁SDK和JavaScript程式庫  {#libraries}
 
 [!DNL Target] 與使用或JavaScript程式庫 [!DNL AEP Web SDK] 的網站整合：
 
@@ -41,7 +41,7 @@ ht-degree: 31%
 
 對訪客顯示的內容取決於您建立的活動類型。
 
-### A/B 測試
+### [!UICONTROL A/B 測試]
 
 基本A/B測試中顯示的內容是從您指派給活動的體驗中隨機選擇。 您可以為每個體驗指派流量分配百分比。 由於這種隨機流量分割，在百分比分割之前可能需要大量的初始流量。 例如，如果您建立兩個體驗，則會隨機挑選開始的體驗。如果流量小，該百分比的訪客可能全偏到其中一個體驗。隨著流量增加，百分比會相等。
 
@@ -54,13 +54,13 @@ ht-degree: 31%
 
 如需詳細資訊，請參閱[建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-### 自動分配
+### [!UICONTROL 自動分配]
 
-「自動配置」可識別兩個或多個體驗中的成功者。 自動分配會自動將更多流量重新分配給成功體驗，這有助於在測試持續執行和學習的同時提高轉化率。
+[!UICONTROL 自動配] 置可識別兩個或更多體驗中的成功者。[!UICONTROL 自動配置] 會自動將更多流量重新分配給成功體驗，這有助於在測試持續執行和學習的同時提高轉化率。
 
-如需詳細資訊，請參閱[自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+如需詳細資訊，請參閱[[!UICONTROL 自動分配]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-### 自動鎖定目標(AT)
+### [!UICONTROL 自動鎖定目標] (AT)
 
 Auto-Target使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。 Auto-Target為每位訪客提供最自訂的體驗。 體驗傳遞是根據個別客戶個人檔案和先前訪客具有類似個人檔案的行為。 使用Auto-Target個人化內容並推動轉化。
 
@@ -80,13 +80,13 @@ Automated Personalization(AP)結合選件或訊息，並使用進階的機器學
 
 如需詳細資訊，請參閱[體驗定位](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)。
 
-### 多變數測試 (MVT)
+### [!UICONTROL 多變數測試] (MVT)
 
 Multivariate Testing(MVT)會比較頁面上元素中選件的組合，以決定哪一種組合對特定讀者最佳。 MVT可協助識別最影響活動成功的元素。
 
 如需詳細資訊，請參閱[多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 Recommendations 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 
@@ -213,6 +213,6 @@ Adobe[!DNL Target]使用[DeviceAtlas](https://deviceatlas.com/device-data/user-a
 * 建立或擷取訪客設定檔
 * 記錄任何設定檔屬性或執行設定檔指令碼
 * 查詢 Adobe Audience Manager (AAM) 區段 (如適用)
-* 在為Recommendations、自動目標、Automated Personalization或自動分配活動建立模型並提供個人化內容時使用機器人流量
+* 在建模及為Recommendations、自動目標、Automated Personalization或[!UICONTROL 自動配置]活動提供個人化內容時使用機器人流量
 * 記錄活動造訪以進行回報
 * 要發送到[!DNL Adobe Experience Cloud]平台的日誌資料
