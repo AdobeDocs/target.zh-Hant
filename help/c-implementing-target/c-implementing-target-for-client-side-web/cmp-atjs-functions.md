@@ -1,19 +1,19 @@
 ---
 keywords: at.js;函數;JavaScript 程式庫
-description: 檢視可與Adobe Target中1.x和2.x版at.js JavaScript程式庫搭配使用的函式清單。
+description: 檢視可與Adobe Target的at.js JavaScript程式庫1.x和2.x版本搭配使用的函式清單。
 title: 我可以搭配at.js使用哪些函式？
 feature: at.js
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 94%
 
 ---
 
-
-# at.js 函數{#at-js-functions}
+# at.js 函數
 
 可與 Adobe Target at.js JavaScript 資料庫搭配使用的函數清單。按一下函數欄中的連結，取得詳細資訊和範例。
 
@@ -33,4 +33,3 @@ ht-degree: 94%
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 提供標準方式來註冊特定的延伸模組。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |
 | [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at.js 自訂事件可讓您知道 mbox 要求或選件失敗或成功。 |
 | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | 此函數會在體驗呈現時傳送通知給 Target Edge，而不需要使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`。<br>**注意**: 此函數已在 at.js 2.1.0 中推出，且將適用於 2.1.0 以上的任何版本。 |
-
