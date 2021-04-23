@@ -1,17 +1,17 @@
 ---
 keywords: 系統圖；flicker;at.js；實施；javascript庫；js;atjs
-description: 瞭解Target at.js JavaScript程式庫如何運作，包括系統圖表，以協助您瞭解頁面載入時的工作流程。
+description: 瞭解 [!DNL Target] at.js JavaScript程式庫如何運作，包括系統圖表，以協助您瞭解頁面載入時的工作流程。
 title: at.js Javascript程式庫如何運作？
 feature: at.js
 role: Developer
+exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 85%
 
 ---
-
 
 # at.js 如何運作
 
@@ -34,7 +34,7 @@ ht-degree: 85%
 從高階角度來看，兩個版本之間存在幾項差異:
 
 * at.js 2.x 沒有全域 mbox 要求概念，而是採用頁面載入要求。頁面載入要求可視為要求擷取網站初始頁面載入時應套用的內容。
-* at.js 2.x管理稱為「檢視」的概念，用於「單頁應用程式」(SPA)。 at.js 1.*x* 不知道這個概念。
+* at.js 2.x管理稱為「檢視」的概念，用於「單頁應用程SPA式」()。 at.js 1.*x* 不知道這個概念。
 
 ## at.js 2.x 圖表
 
@@ -49,7 +49,7 @@ ht-degree: 85%
 | 3 | 提出頁面載入要求，包含所有已設定的參數 (MCID、SDID 和客戶 ID)。 |
 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從對象資料庫中請求合格對象 (例如，從 Adobe Analytics、對象管理 等共用的對象)。<br>客戶屬性會透過批次程序傳送至設定檔存放區。 |
 | 5 | [!DNL Target] 會根據 URL 要求參數和設定檔資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
-| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>SPA中因使用者動作而顯示的檢視目標內容會快取在瀏覽器中，如此當透過觸發檢視時，就可立即套用，毋需額外的伺服器呼叫 `triggerView()`。 |
+| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>由於使用者動作在瀏覽器中顯示的檢視目標內容會快取SPA在瀏覽器中，如此當檢視觸發時，就可立即套用，而不需額外的伺服器呼叫 `triggerView()`。 |
 | 7 | Analytics 資料傳送至「資料收集」伺服器。 |
 | 8 | 目標資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 Analytics for Target (A4T) 報表來檢視 <br>Analytics 資料。 |
 
@@ -61,7 +61,7 @@ ht-degree: 85%
 | --- | --- |
 | 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
-| 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
+| 1 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
 | 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
 | 5 | Analytics 資料傳送至資料收集伺服器。 |
 | 6 | Target 資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 A4T 報表來檢視 Analytics 資料。 |
