@@ -1,19 +1,19 @@
 ---
 keywords: scene7；動態媒體經典；數字資產管理；資產；dam；內容庫；交換影像
-description: 瞭解如何將Adobe Target與Adobe Dynamic Media Classic（之前稱為Scene7）整合，以便在內容庫中提供數位資產管理(DAM)。
-title: 如何設定Dynamic Media Classic(Scene7)整合？
-feature: Administration & Configuration
+description: 瞭解如何將Adobe [!DNL Target] 與AdobeDynamic Media經典(之前稱為Scene7)整合，以便在內容庫中提供數位資產管理(DAM)。
+title: 如何配置Dynamic Media經典(Scene7)整合？
+feature: 管理與設定
 role: Administrator
+exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 21%
 
 ---
 
-
-# Dynamic Media Classic（之前稱為Scene7）組態
+# Dynamic Media經典(之前稱為Scene7)配置
 
 [!DNL Adobe Target] 可與(先前 [!DNL Adobe Dynamic Media Classic] )整合， [!DNL Scene7]以在內容庫中提供數位資產 [!UICONTROL 管理(DAM)]。
 
@@ -37,7 +37,7 @@ ht-degree: 21%
 
 若要與[!DNL Dynamic Media Classic]([!DNL Scene7])整合，您必須指定下列資訊。
 
-1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL Scene7組態]**」。
+1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL Scene7配置]**」。
 
    ![Scene7頁面](/help/administrating-target/assets/scene7.png)
 
