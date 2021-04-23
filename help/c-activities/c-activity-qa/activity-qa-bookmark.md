@@ -1,16 +1,16 @@
 ---
 keywords: qa;預覽;書籤小程式;預覽連結
-description: 瞭解如何使用Adobe Target QA書籤小工具強制Target從QA模式釋放您。
+description: 瞭解如何使用Adobe [!DNL Target] QA bookmarklet to force [!DNL Target] 從QA模式釋放您。
 title: 如何使用活動QA書籤小工具？
-feature: Activities
+feature: 活動
+exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 27%
+source-wordcount: '262'
+ht-degree: 28%
 
 ---
-
 
 # 活動 QA 書籤小程式
 
@@ -73,4 +73,3 @@ javascript:(
 ## 使用活動QA書籤小工具
 
 按一下瀏覽器工具列上的書籤小工具。
-
