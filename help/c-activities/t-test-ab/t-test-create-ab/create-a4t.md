@@ -1,22 +1,22 @@
 ---
 keywords: 定位；analytics；追蹤伺服器；定位分析；a4t
-description: 瞭解如何設定Adobe Target中的活動，以使用Adobe Analytics做為報告來源。 此整合稱為Analytics for Target(A4T)。
+description: 瞭解如何在Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T)中配置活動。
 title: 如何在Target中使用Analytics資料？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 85%
+source-wordcount: '543'
+ht-degree: 88%
 
 ---
-
 
 # 使用 Analytics 資料
 
 您可以設定[!DNL Adobe Target]中的活動，使用[!DNL Adobe Analytics]做為報告來源(A4T)。
 
-如需將Analytics設為Target資料來源的詳細資訊，請參閱[Adobe Analytics做為Adobe Target的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+如需將Analytics設定為Target資料來源的詳細資訊，請參閱[Adobe Analytics作為Adobe Target的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
 
 設定使用 Analytics 做為報表來源的活動之前，請建立活動的目標，例如改善每位訪客帶來的收入 (RPV) 或增加購物車的點擊次數。選擇促銷活動的最終成功量度。儘管您隨時可以在 Analytics 中選取其他的量度，您仍必須指定預期此測試產生作用的特定量度。
 
