@@ -1,19 +1,19 @@
 ---
 keywords: tls;tls 1.0；傳輸層安全；加密；tls 1.1;tls 1.2
-description: 瞭解Target如何使用TLS（傳輸層安全性）通訊協定來維護最高的安全性標準並提升客戶資料的安全性。
-title: Target如何使用TLS來提供安全性？
-feature: Privacy & Security
+description: 瞭解 [!DNL Target] 如何使用TLS（傳輸層安全性）通訊協定來維護最高的安全標準並提升客戶資料的安全性。
+title: ' [!DNL Target] 如何使用TLS提供安全性？'
+feature: 隱私權與安全性
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1237'
 ht-degree: 58%
 
 ---
 
-
-# TLS (傳輸層安全性) 加密變更{#tls-transport-layer-security-encryption-changes}
+# TLS (傳輸層安全性) 加密變更
 
 有關[!DNL Adobe]和[!DNL Adobe Target]如何使用TLS（傳輸層安全性）來維護最高安全標準並提升客戶資料安全性的變更資訊。
 
@@ -59,7 +59,7 @@ Adobe 會分階段將客戶轉移至 TLS 1.2。對於那些已經符合 1.2 規�
 
 如需支援瀏覽器及其版本的詳細資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)。
 
-## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
+## Adobe[!DNL Target] API {#section_88797FA5434049EC89F908853CC76903}
 
 自2020年3月1日起，Target API將不再支援TLS 1.1加密。 存取該 API 的客戶應確認他們不會受到影響。
 
@@ -67,7 +67,7 @@ Adobe 會分階段將客戶轉移至 TLS 1.2。對於那些已經符合 1.2 規�
 * 使用 Java 8 的 API 用戶端已預設為 TLS 1.2，應該不會受到影響。
 * 使用其他架構的 API 用戶端需聯絡其供應商，以瞭解 TLS 1.2 支援的詳細資訊。
 
-## 存取Experience Cloud解決方案介面{#section_748870ADE77B4CBEB18518DC784E64E5}
+## 訪問Experience Cloud解決方案介面{#section_748870ADE77B4CBEB18518DC784E64E5}
 
 由於 Target Standard/Premium 介面要求使用[最新的網頁瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)，我們並未預見任何問題。如果您無法連接到 Target，則應該將瀏覽器升級到最新版本。
 
