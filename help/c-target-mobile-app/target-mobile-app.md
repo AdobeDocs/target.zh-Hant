@@ -1,19 +1,19 @@
 ---
 keywords: 行動應用程式;行動應用程式程序;target 行動應用程式;行動 target 位置;行動應用程式成功量度
-description: 瞭解如何使用Adobe Target來最佳化和個人化行動應用程式，並透過反覆測試、以規則為基礎和以人工智慧為動力的個人化。
-title: 我是否可將Target與行動應用程式搭配使用？
-feature: Implement Mobile
+description: 瞭解如何使用Adobe [!DNL Target] 來最佳化和個人化行動應用程式，並透過反覆測試和以規則為基礎以及以人工智慧為動力的個人化。
+title: 我是否可搭配行動應用程式使用 [!DNL Target] ?
+feature: 實施行動
 role: Developer
+exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 77%
 
 ---
 
-
-# 適用於行動應用程式的 Target{#target-for-mobile-apps}
+# 適用於行動應用程式的 Target
 
 Adobe Target 可以根據使用者行為和行動裝置環境，幫助您測試、個人化和最佳化行動應用程式體驗。您可以透過反覆測試及規則型和 AI 提供的個人化，提供參與和轉換的互動。
 
