@@ -1,18 +1,18 @@
 ---
 keywords: 鎖定目標;網路;目標網路;isp;網域名稱;連線速度;目標 isp;目標網域名稱;目標連線速度
-description: 瞭解如何根據網路詳細資訊（例如ISP、網域名稱和連線速度）在Adobe Target中建立觀眾。
-title: 我是否可以根據網路選項定位訪客？
-feature: Audiences
+description: 瞭解如何根據網路詳細資訊（例如ISP、網域名稱和連線速度）在Adobe [!DNL Target] 中建立觀眾。
+title: '我是否可以根據網路選項來選擇訪客？ [!DNL Target] '
+feature: 對象
+exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '509'
 ht-degree: 94%
 
 ---
 
-
-# 網路{#network}
+# 網路
 
 您可以根據網路詳細資料建立對象。
 
