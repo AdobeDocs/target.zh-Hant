@@ -1,19 +1,19 @@
 ---
 keywords: at.js;除錯 at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox 醒目提示
-description: 使用Adobe Experience Cloud Debugger檢視您的程式庫設定、檢查請求、開啟主控台記錄、停用Target呼叫請求等。
-title: 如何使用Adobe Experience Cloud Debugger對at.Js進行除錯？
+description: 使用Adobe Experience Cloud調試器查看庫配置、檢查請求、開啟控制台日誌記錄、禁用 [!DNL Target] 呼叫請求等。
+title: 如何使用Adobe Experience Cloud除錯程式除錯at.Js?
 feature: at.js
 role: Developer
+exl-id: 764155e2-e55d-4637-8da3-44f70f3aa2a7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 69%
 
 ---
 
-
-# 使用 Adobe Experience Cloud Debugger 除錯 at.js{#debug-at-js-using-the-adobe-experience-cloud-debugger}
+# 使用 Adobe Experience Cloud Debugger 除錯 at.js
 
 使用 Adobe Experience Cloud Debugger 擴充功能的相關資訊，可讓您輕鬆快速地瞭解 Target 實作。
 
@@ -29,7 +29,7 @@ ht-degree: 69%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### 使用Adobe Experience Cloud除錯程式進行基本目標除錯![概觀標章](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### 使用Adobe Experience Cloud調試器![概述徽章](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}進行基本Adobe Target調試
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
