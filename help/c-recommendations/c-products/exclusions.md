@@ -1,22 +1,22 @@
 ---
 keywords: 排除項目
-description: 瞭解如何在Adobe Target Recommendations中建立排除，以防止建議訪客使用產品或內容。
+description: '瞭解如何在RecommendationsAdobe中建立排除項目，以防止建議訪客使用產品或內容。 [!DNL Target] '
 title: 如何在Recommendations活動中使用排除？
 feature: Recommendations
+exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 44%
 
 ---
 
-
-# 排除項目{#exclusions}。
+# 排除項目
 
 在[!DNL Adobe Target Recommendations]中建立排除，以防止建議訪客使用產品或內容。 排除是不應建議給訪客的產品或內容子集。
 
-整個帳戶都可使用排除。 不同於在建立[!UICONTROL Recommendations]活動時為每個體驗指定特定系列的系列，排除項目會套用至帳戶中的所有活動。 在建立活動期間，沒有指定排除群組的選項。
+整個帳戶都可使用排除。 在您建立[!UICONTROL Recommendations]活動時，您會為每個體驗指定特定的系列，但排除項目會套用至帳戶中的所有活動。 在建立活動期間，沒有指定排除群組的選項。
 
 您使用排除的一些範例包括：
 
@@ -54,7 +54,7 @@ ht-degree: 44%
 
 ## 使用進階搜尋建立排除項目
 
-您也可以在[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md#save-as)頁面（[!UICONTROL 建議] > [!UICONTROL 目錄搜尋] > [!UICONTROL 進階搜尋]）上使用[!UICONTROL 進階搜尋]建立排除。
+您也可以在[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md#save-as)頁面([!UICONTROL Recommendations] > [!UICONTROL 目錄搜尋] > [!UICONTROL 進階搜尋])上使用[!UICONTROL 進階搜尋]建立排除。
 
 ![另存為對話框](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -74,7 +74,7 @@ ht-degree: 44%
 
 請注意，整個帳戶都有排除項目。 在刪除排除前，請務必考慮這一點。 無法刪除排除。
 
-## 訓練影片：在Recommendations中建立系列和排除(7:05)![教學課程標章](/help/assets/tutorial.png)
+## 訓練影片：在Recommendations建立系列和排除(7:05)![教學課程標章](/help/assets/tutorial.png)
 
 此影片包含下列資訊:
 
