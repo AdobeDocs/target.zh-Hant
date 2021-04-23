@@ -1,18 +1,18 @@
 ---
 keywords: 多變數測試;mvt;體驗效能報表
-description: 瞭解如何針對Adobe Target體驗定位活動使用「體驗績效」報表，以顯示活動中每個體驗的效能。
+description: 瞭解如何使用「體驗績效」報表來Adobe [!DNL Target] 「體驗定位」活動，以顯示活動中每個體驗的績效。
 title: 如何針對多變數測試使用「體驗績效」報表？
-feature: Reports
+feature: 報表
+exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 89%
 
 ---
 
-
-# 體驗效能報表 (MVT){#experience-performance-report-mvt}
+# 體驗效能報表 (MVT)
 
 體驗效能報表顯示活動中的每個體驗的執行成果。此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
 
