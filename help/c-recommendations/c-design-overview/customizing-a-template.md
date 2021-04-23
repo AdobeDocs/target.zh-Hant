@@ -1,18 +1,18 @@
 ---
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
-description: 瞭解如何使用開放原始碼Velocity設計語言，在Adobe Target Recommendations中自訂建議設計。
+description: 瞭解如何使用開放原始碼Velocity設計語言，在RecommendationsAdobe [!DNL Target] 中自訂建議設計。
 title: 如何使用Velocity自訂設計？
 feature: Recommendations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自訂設計{#customize-a-design-using-velocity}
+# ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自訂設計
 
 使用開放原始碼Velocity設計語言，在[!DNL Adobe Target Recommendations]中自訂建議設計。
 
@@ -128,7 +128,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 預設情況下，Velocity模板將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以便執行數學運算或將其與其他數值比較。 要將實體屬性視為數值，請執行以下步驟：
 
 1. 宣告虛擬變數，並將其初始化為任意整數或雙重值。
-1. 請確定您要使用的實體屬性不是空白（Target Recommendations的範本剖析器驗證並儲存範本時需要）。
+1. 請確定您要使用的實體屬性不是空白(Target Recommendations的範本剖析器驗證並儲存範本時需要)。
 1. 在步驟1中建立的虛擬變數上，將entity屬性傳遞至`parseInt`或`parseDouble`方法，將字串轉換為整數或雙重值。
 1. 對新數值執行數學運算或比較。
 
