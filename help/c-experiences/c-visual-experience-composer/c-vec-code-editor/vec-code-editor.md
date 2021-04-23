@@ -1,18 +1,18 @@
 ---
 keywords: CSS 選取器; 自訂程式碼; 程式碼編輯器; Mobile Web Experience Editor
-description: 瞭解如何使用Adobe Target中的「修改」面板來檢視頁面修改並新增其他修改（CSS選擇器、Mbox和自訂代碼）。
+description: 瞭解如何使用Adobe [!DNL Target] 中的「修改」面板來檢視頁面修改並新增其他修改（CSS選擇器、Mbox和自訂代碼）。
 title: 我可以對頁面進行哪些修改？
-feature: Visual Experience Composer (VEC)
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 95%
 
 ---
 
-
-# 修改{#modifications}
+# 修改
 
 [!DNL Adobe Target]中「修改」頁面的相關資訊，可讓您檢視對頁面的修改並新增其他修改（CSS選擇器、Mbox和自訂代碼）。
 
