@@ -1,16 +1,16 @@
 ---
 keywords: 重新導向選件; 建立重新導向選件; 新增 html 選件; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
-description: '瞭解如何在Adobe Target中建立重新導向選件，以使瀏覽器重新導向至新頁面。 '
+description: '瞭解如何在Adobe [!DNL Target] 中建立重新導向選件，使瀏覽器重新導向至新頁面。 '
 title: 如何建立重新導向選件？
-feature: Experiences and Offers
+feature: 體驗與優惠
+exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1192'
 ht-degree: 48%
 
 ---
-
 
 # 建立重新導向選件
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
-> * 重新導向選件可在[!UICONTROL 選件] > [!UICONTROL 代碼選件]頁面或[表單型體驗撰寫器](/help/c-experiences/form-experience-composer.md)中建立。 您無法在Visual Experience Composer(VEC)中建立或套用重新導向選件。 內容會插入至[!DNL Target]請求位置，因此這些位置很可能不適用於全域[!DNL Target]請求。
+> * 重新導向選件可在[!UICONTROL 選件] > [!UICONTROL 代碼選件]頁面或[Forms式體驗撰寫器](/help/c-experiences/form-experience-composer.md)中建立。 您無法在Visual Experience Composer(VEC)中建立或套用重新導向選件。 內容會插入至[!DNL Target]請求位置，因此這些位置很可能不適用於全域[!DNL Target]請求。
    >
    >
 * 您無法在 ajax mbox (`mboxUpdate`) 中使用重新導向選件。
@@ -118,7 +118,7 @@ ht-degree: 48%
 
 您必須使用[!UICONTROL 表單型體驗撰寫器]套用重新導向選件。 您目前無法使用VEC套用重新導向選件。
 
-[!DNL Adobe Target][!UICONTROL 表單型體驗撰寫器]是非視覺化體驗和選件建立介面，對於建立用於[!UICONTROL A/B測試]、[!UICONTROL 體驗定位](XT)、[!UICONTROL 自動個人化](XT)的體驗非常有用AP)和[!UICONTROL Recommendations]活動（當視覺體驗視覺化視覺化調整器無法使用或實際使用時）。 例如，您可以使用[!UICONTROL 表單型體驗撰寫器]來建立使用重新導向選件的體驗。
+[!DNL Adobe Target][!UICONTROL 表單型體驗撰寫器]是非視覺化體驗和選件建立介面，在建立用於[!UICONTROL A/B測試]、[!UICONTROL 體驗定位](XT)、[!UICONTROL Automated Personalization](AP)的體驗時十分有用和[!UICONTROL Recommendations]活動。 例如，您可以使用[!UICONTROL 表單型體驗撰寫器]來建立使用重新導向選件的體驗。
 
 1. 在[!UICONTROL 表單型體驗撰寫器]中建立或編輯活動。
 
