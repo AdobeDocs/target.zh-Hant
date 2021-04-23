@@ -1,22 +1,22 @@
 ---
 keywords: 遠端選件; 建立遠端選件
-description: 瞭解如何在Adobe Target中建立JSON選件，以便在表單架構的Experience Composer中使用。 JSON選件對於SPA架構或伺服器端整合非常有用。
+description: 瞭解如何在Adobe [!DNL Target] 中建立JSON選件，以便在表單型Experience Composer中使用。 JSON選件對於架構或SPA伺服器端整合非常有用。
 title: 如何建立JSON選件？
-feature: Experiences and Offers
+feature: 體驗與優惠
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 54%
 
 ---
 
-
-# 建立 JSON 選件{#create-json-offers}
+# 建立 JSON 選件
 
 在[!DNL Adobe Target]的[!UICONTROL 選件程式庫]中建立JSON選件，以用於[!UICONTROL 表單式體驗撰寫器]。
 
-JSON選件可用於表單型活動中，啟用需要[!DNL Target]決策的使用案例，以傳送JSON格式的選件，以便在SPA架構或伺服器端整合中使用。
+JSON選件可用於表單型活動中，啟用需要[!DNL Target]決策的使用案例，以傳送JSON格式的選件，以便在架構或伺服器端整合SPA中使用。
 
 ## JSON考量事項
 
@@ -138,4 +138,3 @@ adobe.target.getOffer({
 您可以按一下&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單，然後選取&#x200B;**[!UICONTROL JSON]**&#x200B;核取方塊，依JSON選件類型篩選[!UICONTROL 選件]程式庫。
 
 ![](assets/offer-json-filter.png)
-
