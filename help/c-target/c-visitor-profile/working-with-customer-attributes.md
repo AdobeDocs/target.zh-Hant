@@ -1,16 +1,16 @@
 ---
 keywords: 客戶關係管理；客戶記錄服務；crs;crs;crm;mbox3rdpartyid；客戶屬性；定位；csv;crm;adobe experience Cloud人員
-description: 瞭解如何在Adobe Target中使用客戶關係管理(CRM)資料庫中的企業客戶資料進行內容定位。
+description: 瞭解如何從Adobe Target的客戶關係管理(CRM)資料庫使用企業客戶資料，以鎖定內容。
 title: 什麼是客戶屬性，我要如何使用這些屬性？
-feature: Audiences
+feature: 對象
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1501'
 ht-degree: 37%
 
 ---
-
 
 # 客戶屬性
 
@@ -28,7 +28,7 @@ ht-degree: 37%
 
 請考慮以下資訊作為您使用客戶屬性和[!DNL Target]的工作：
 
-* 您必須符合一些先決條件要求，才能使用[!DNL People]服務中的[!UICONTROL 客戶屬性]功能。 如需詳細資訊，請參閱&#x200B;*Experience Cloud服務與管理檔案*&#x200B;中[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)中的「上傳客戶屬性的先決條件」。
+* 您必須符合一些先決條件要求，才能使用[!DNL People]服務中的[!UICONTROL 客戶屬性]功能。 如需詳細資訊，請參閱&#x200B;*Experience Cloud服務與管理檔案*&#x200B;中[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)中的「上傳客戶屬性的必要條件」。
 
    >[!NOTE]
    >
@@ -52,13 +52,13 @@ ht-degree: 37%
 
    ![客戶屬性標籤](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}的客戶屬性工作流程
+## [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}的客戶屬性工作流程
 
 完成下列步驟在 [!DNL Target] 使用 CRM 資料，如下圖所示:
 
 ![crm工作流程](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-有關完成下列每項工作的詳細說明，請參閱[「Experience Cloud Services and Administration」（體驗雲端服務與管理）檔案&#x200B;*中的「建立客戶屬性來源並上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)」。*
+有關完成以下每項任務的詳細說明，請參閱[「建立客戶屬性源」和&#x200B;*「Experience Cloud服務和管理文檔」中的*&#x200B;上載資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)。
 
 1. 建立資料檔案。
 
@@ -111,7 +111,7 @@ ht-degree: 37%
    * 使用 FTP 方法的每個上傳的最大檔案大小為 4 GB。
    * 允許訂閱的屬性數量: [!DNL Target Standard] 為 5 個，而 [!DNL Target Premium] 為 200 個。
 
-## 在 Target 中使用客戶屬性 {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## 在[!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}中使用客戶屬性
 
 您可以在 [!DNL Target] 中以下列方式使用客戶屬性:
 
@@ -141,11 +141,11 @@ ht-degree: 37%
 
 ### 使用 Experience Cloud ID 服務
 
-如果您使用 Experience Cloud ID 服務，您需要設定客戶 ID 和驗證狀態，才能在鎖定目標中使用客戶屬性。如需詳細資訊，請參閱&#x200B;*Experience Cloud ID服務說明*&#x200B;中的[客戶ID和驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
+如果您使用 Experience Cloud ID 服務，您需要設定客戶 ID 和驗證狀態，才能在鎖定目標中使用客戶屬性。如需詳細資訊，請參閱&#x200B;*Experience CloudID服務說明*&#x200B;中的[客戶ID和驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
 如需關於在 [!DNL Target] 中使用客戶屬性的詳細資訊，請參閱下列資源:
 
-* [建立客戶屬性來源並上傳](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud Services和管理檔案 *中的資料檔案*
+* [建立客戶屬性來源並上傳「Experience Cloud服](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 務與管理」 *檔案中的資料檔案*
 * *數位行銷部落格*&#x200B;中的 [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客戶常遇到的問題{#section_BE0F70E563F64294B17087DE2BC1E74C}
