@@ -1,16 +1,16 @@
 ---
 keywords: 建立A/B;A/B測試；A/B活動；新建a/b活動；建立a/b
-description: 瞭解如何使用Adobe Target的Visual Experience Composer(VEC)，直接在Target啟用的頁面上建立A/B測試活動。
+description: 瞭解如何使用Adobe [!DNL Target] 中的視覺體驗撰寫器(VEC)，直接在啟用 [!DNL Target]的頁面上建立A/B測試活動。
 title: 如何建立A/B測試？
-feature: A/B Tests
+feature: A/B 測試
+exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '860'
 ht-degree: 61%
 
 ---
-
 
 # 建立 A/B 測試
 
