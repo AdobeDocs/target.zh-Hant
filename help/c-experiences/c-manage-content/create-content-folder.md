@@ -1,20 +1,20 @@
 ---
 keywords: 內容; 建立資料夾; 資產; 移動資料夾; 複製資料夾; 刪除資料夾; 下載資料夾; 資料夾
 description: 如何在選件程式庫中建立資料夾？
-title: 瞭解如何在Adobe Target選件程式庫中建立檔案夾，以存放程式碼和影像選件，以及其他檔案夾。
-feature: Experiences and Offers
+title: 瞭解如何在Adobe [!DNL Target] 選件程式庫中建立資料夾，以儲存程式碼和影像選件，以及其他資料夾。
+feature: 體驗與優惠
+exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '279'
 ht-degree: 22%
 
 ---
 
-
 # 建立選件資料夾
 
-在Adobe Target選件程式庫中建立檔案夾，以儲存程式碼選件、影像選件以及其他檔案夾，以建立子檔案夾結構。
+在「Adobe Target選件」程式庫中建立檔案夾，以儲存程式碼選件、影像選件以及其他檔案夾，以建立子檔案夾結構。
 
 為程式碼選件和影像選件建立檔案夾的程式略有不同。 以下章節包含更多資訊.
 
