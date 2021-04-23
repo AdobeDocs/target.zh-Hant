@@ -1,19 +1,19 @@
 ---
 keywords: at.js faq;at.js 常見問題集;忽隱忽現;載入工器;頁面載入器;跨網域;檔案大小;x-網域;at.js 與 mbox.js;僅限 x;safari;單頁應用程式;缺少選取器;選取器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 位址;httponly;HttpOnly;安全;ip;Cookie 網域
-description: 閱讀有關Adobe Target at.js JavaScript程式庫之常見問題的解答。
+description: 閱讀有關Adobe [!DNL Target] at.js JavaScript程式庫之常見問題的解答。
 title: at.js有哪些常見問題和答案？
 feature: at.js
 role: Developer
+exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2703'
-ht-degree: 93%
+source-wordcount: '2700'
+ht-degree: 92%
 
 ---
 
-
-# at.js 常見問題{#at-js-frequently-asked-questions}
+# at.js 常見問題
 
 關於 at.js 常見問題的回答。
 
@@ -84,13 +84,13 @@ ht-degree: 93%
 
 如您所見，[!DNL at.js] 1.0.0 能更快完成請求。此外，[!DNL at.js] 請求為非同步，Target 不會阻礙頁面呈現。即使請求需要幾秒才完成，您仍會看到呈現的頁面，在 Target 收到來自 Target 邊緣的回應之前，頁面只會有某些部分空白。
 
-## 我可以非同步載入 Target 資料庫嗎? {#section_AB9A0CA30C5440C693413F1455841470}
+## 我是否可以非同步載入[!DNL Target]庫？{#section_AB9A0CA30C5440C693413F1455841470}
 
 at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 若要非同步載入 at.js:
 
-* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。如需詳細資訊，請參閱「使用Launch在網站中實作Experience Cloud」教學課程的[新增Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)一節。[](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)
+* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。如需詳細資訊，請參閱[在Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)教學課程中實作網站Experience Cloud的[新增Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)一課。
 * 您也可以在載入 at.js 的指令碼標記中新增 async 屬性，就能非同步載入 at.js。您應該使用如下的指令碼:
 
    ```
@@ -110,7 +110,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形， 它會隱藏頁面 (或指定部分)，然後在 at.js 和全域要求完全載入後顯示內容。您必須在載入 at.js 之前新增此程式碼片段。
 
-如果您透過非同步的Launch實作部署at.js，請務必在啟動內嵌程式碼之前，直接將預先隱藏的程式碼片段加入您的頁面，如[在Launch教學課程中實作網站Experience Cloud中的「新增目標預先隱藏程式碼片段](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)」一節所述。[](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)
+如果您透過非同步的Launch實作部署at.js，請務必在啟動內嵌程式碼之前，直接將預先隱藏的程式碼片段加入您的頁面，如[在網站中實作啟動教學課程](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)的「新增目標預先隱藏程式碼片段](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)」一節所述。[
 
 如果您是透過同步 DTM 實作部署 at.js，可透過頁面頂端觸發的頁面載入規則新增預先隱藏的程式碼片段。
 
@@ -150,7 +150,7 @@ at.js 目前使用部分的 jQuery，因此，您在 at.js 頂端會看到 MIT �
 
 在相同頁面上不可以。不過，在實作和測試 [!DNL at.js] 時，您可以在某些頁面上執行 [!DNL at.js]，而在其他頁面上執行 [!DNL mbox.js]，直到完全驗證 [!DNL at.js] 為止。
 
-## 我可以在單頁應用程式中使用 Target 可視化體驗撰寫器嗎? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## 我可以在單頁應用程式中使用[!DNL Target] Visual Experience Composer嗎？{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 可以，若您使用 at.js 2.x，便可針對 SPA 使用 VEC。如需詳細資訊，請參閱[單頁應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。
 
@@ -212,7 +212,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
    為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。如需詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)和[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-## Target 伺服器呼叫的目標網域 tt.omtrdc.net 為何? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## [!DNL Target]伺服器呼叫前往的網域tt.omtrdc.net是什麼？{#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] 是 Adobe 之 EDGE 網路的網域名稱，用來接收 Target 的所有伺服器呼叫。
 
