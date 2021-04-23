@@ -1,15 +1,15 @@
 ---
 keywords: 實施；實施；設定；設定；批量配置檔案更新
-description: 使用大量描述檔更新API將資料匯入Target。
-title: 如何使用大量描述檔更新API將資料匯入Target?
-feature: Implementation
+description: 使用大量描述檔更新API將資料匯入 [!DNL Target] 。
+title: 如何使用大量描述檔更新API將資料匯入 [!DNL Target] ?
+feature: 實施
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 78%
+source-wordcount: '377'
+ht-degree: 79%
 
 ---
 
