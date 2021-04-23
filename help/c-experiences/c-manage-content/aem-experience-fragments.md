@@ -1,16 +1,16 @@
 ---
 keywords: experience;json;aem;adobe experience manager；匯出至adobe target;experience片段；片段；XF
-description: 瞭解如何在Adobe Target活動中使用AEM體驗片段。 結合AEM的簡單易用和強大功能與Target中的強大AI和ML功能。
-title: 我要如何使用Adobe Experience Manager(AEM)體驗片段？
-feature: Experiences and Offers
+description: 瞭解如何在AEMAdobe [!DNL Target] 活動中使用體驗片段。 結合 [!DNL Target]中的易AEM用性和強大AI和ML功能。
+title: 如何使用Adobe Experience Manager(AEM)體驗片段？
+feature: 體驗與優惠
+exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 21%
 
 ---
-
 
 # AEM 體驗片段
 
@@ -47,17 +47,17 @@ ht-degree: 21%
 
 如需詳細資訊，請參閱:
 
-* **[!DNL AEM]6.3**: [選擇Adobe Analytics和Adobe ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) Targeting  _Adobe Experience Manager 6.3文_ 件。
-* **[!DNL AEM]6.4**: [選擇Adobe Analytics和Adobe ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) Targeting  _Adobe Experience Manager 6.4文_ 件。
-* **[!DNL AEM]6.5**: [選擇Adobe Analytics和Adobe ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) Targeting  *Adobe Experience Manager 6.5文* 件。
+* **[!DNL AEM]6.3**: [選擇Adobe Analytics和Adobe](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) Targetin  _Adobe Experience Manager6.3文_ 件。
+* **[!DNL AEM]6.4**: [選擇Adobe Analytics和Adobe](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) Targetin  _Adobe Experience Manager6.4文_ 件。
+* **[!DNL AEM]6.5**: [選擇Adobe Analytics和Adobe](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) Targetin  *Adobe Experience Manager6.5文* 件。
 
 ### 步驟 2: 建立體驗片段
 
 體驗片段是在[!DNL AEM]中建立的。 如需詳細資訊，請參閱:
 
-* **[!DNL AEM]6.3**: [在](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager 6.3檔案中體驗 ** 片段。
-* **[!DNL AEM]6.4**: [在](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.4檔案中體驗 ** 片段。
-* **[!DNL AEM]6.5**: [在](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5檔案中體驗 ** 片段。
+* **[!DNL AEM]6.3**: [在](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager6.3 *檔案中體驗* 碎片。
+* **[!DNL AEM]6.4**: [在](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) Adobe Experience Manager6.4 *檔案中體驗* 碎片。
+* **[!DNL AEM]6.5**: [在](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager6.5 *檔案中體驗* 碎片。
 
 ### 步驟3:設定[!DNL AEM]與[!DNL Target]共用體驗片段
 
@@ -74,11 +74,11 @@ ht-degree: 21%
 
 視您的[!DNL AEM]版本而定，請參閱下列連結以取得逐步指示：
 
-* **[!DNL AEM]6.3**: [將體驗片段匯出](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) 至 *Adobe Experience Manager 6.3檔案的* 定位。
-* **[!DNL AEM]6.4**: [將體驗片段匯出](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) 至 *Adobe Experience Manager 6.4檔案的* 定位。
-* **[!DNL AEM]6.5**: [將體驗片段匯出](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) 至 *Adobe Experience Manager 6.5檔案的* 定位。
+* **[!DNL AEM]6.3**: [將體驗片段匯出](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) 至定 *位Adobe Experience Manager6.3* 檔案。
+* **[!DNL AEM]6.4**: [將體驗片段匯出](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) 至定位 *Adobe Experience Manager6.4文* 件。
+* **[!DNL AEM]6.5**: [將體驗片段匯出](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) 至定 *位Adobe Experience Manager6.5* 檔案。
 
-## 在Target活動{#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}中使用體驗片段
+## 在[!DNL Target]活動{#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}中使用體驗片段
 
 執行上述任務後，體驗片段會顯示在[!DNL Target]的[!UICONTROL 選件]頁面上。
 
@@ -143,9 +143,9 @@ ht-degree: 21%
 * [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。匯入的體驗片段應在10分鐘內於[!DNL Target]提供，但此時間範圍應會縮短。
 * 體驗片段目前會以HTML選件的形式匯入至[!DNL Target]。 請注意，體驗片段「primary」版本仍保留在[!DNL AEM]中。 您無法在[!DNL Target]中編輯體驗片段。
 * 您可以將JSON選件匯入為體驗片段至[!DNL Target]。 不過，這些選件會匯入為HTML選件。 [!DNL Target] UI目前未完全支援JSON選件（體驗片段）。
-* 您無法使用Adobe IO建立體驗片段。 您必須使用AEM建立體驗片段，如上所述。
+* 您無法使用AdobeIO建立體驗片段。 您必須使用建立體驗AEM片段，如上所述。
 
-## 訓練影片：將AEM體驗片段與Adobe Target ![教學課程標章](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}搭配使用
+## 訓練影片：將體AEM驗片段與Adobe Target![教學課程標章](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}搭配使用
 
 以下影片將示範如何設定和使用體驗片段：
 
@@ -155,4 +155,4 @@ ht-degree: 21%
 >
 >已移除4:54討論的[!DNL AEM]深層連結功能。
 
-如需詳細資訊，請參閱&#x200B;*AEM網站影片和教學課程*&#x200B;頁面上的「搭配Adobe Target使用體驗片段」。[](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)
+如需詳細資訊，請參閱&#x200B;*AEM Sites影片和Tutorials*&#x200B;頁面上的[搭配使用體驗片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)。
