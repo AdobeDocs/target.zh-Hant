@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
-description: 瞭解如何設定用來說明和控制Adobe Target中Recommendations活動的設定。
-title: 如何設定Recommendations活動設定？
+description: 瞭解如何設定用來描述和控制Adobe TargetRecommendations活動的設定。
+title: 如何配置Recommendations活動設定？
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Recommendations 活動設定
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations 活動設定{#recommendations-activity-settings}
-
-有關可用於描述和控制[!UICONTROL Recommendations]活動[!DNL Adobe Target]的設定的資訊。
+有關可用於描述和控制[!UICONTROL [!DNL Adobe Target]中Recommendations]活動的設定的資訊。
 
 ![Recommendations 目標和設定頁面](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 `-`
 `@`
 
-如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。新名稱為原始名稱附加時間戳記的唯一名稱。此新名稱會同時顯示在[!DNL Target Standard/Premium]和[!UICONTROL  Recommendations Classic]中。
+如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。新名稱為原始名稱附加時間戳記的唯一名稱。此新名稱同時顯示在[!DNL Target Standard/Premium]和[!UICONTROL Recommendations經典]中。
 
 ## 目標
 
