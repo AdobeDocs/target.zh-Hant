@@ -1,21 +1,21 @@
 ---
 keywords: apple;ITP；智慧跟蹤預防；experience cloud id;ecid
-description: 瞭解Adobe Target以及Apple Intelligent Tracking Prevention(ITP)計畫的影響，該計畫旨在保護Safari使用者的隱私權。
-title: Target如何處理Apple ITP支援？
-feature: Privacy & Security
+description: 瞭解Adobe [!DNL Target] 以及Apple Intelligent Tracking Prevention(ITP)計畫的影響，該計畫旨在保護Safari使用者的隱私權。
+title: '如何處理Apple ITP支援？ [!DNL Target] '
+feature: 隱私權與安全性
 role: Developer
+exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 51%
+source-wordcount: '912'
+ht-degree: 50%
 
 ---
 
-
 # Apple 智慧型追蹤預防 (ITP) 2.x
 
-透過Experience Cloud ID(ECID)程式庫4.3支援Apple ITP 2.x的[!DNL Adobe Target]資訊。
+透過Experience CloudID(ECID)程式庫4.3，瞭解[!DNL Adobe Target]支援Apple ITP 2.x的資訊。
 
 智慧型追蹤預防 (ITP) 是 Apple 保護 Safari 使用者隱私權的計劃。ITP 是在 2017 年首次發行，將目標鎖定於協力廠商 Cookie 的使用方式。事實上，Apple 完全封鎖了協力廠商 Cookie，進而對廣告技術和行銷技術公司造成了嚴重的問題，因為協力廠商 Cookie 通常是用來追蹤訪客及收集訪客資料。現在，Apple 正在努力朝向針對 Safari 內第一方 Cookie 的使用方式設定限制。
 
@@ -27,7 +27,7 @@ ht-degree: 51%
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | 將七天過期的上限大幅縮短為一天。<br>發行日期: 2019 年 4 月 24 日。 |
 | [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | 已消除數種解決方法，例如使用localStorage或使用JavaScript `Document.referrer property`。<br>2019年9月23日發行。 |
 
-## 身為 Adobe Target 客戶，這對我有何影響? {#impact}
+## 作為Adobe[!DNL Target]客戶，對我有何影響？{#impact}
 
 [!DNL Target] 提供 JavaScript 程式庫，讓您在頁面上進行部署，這樣 [!DNL Target] 就能向訪客提供即時個人化內容。有三個 Target JavaScript 程式庫 ([at.js 1.x、at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)和[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md))，透過`document.cookie` API將用戶端[!DNL Target] Cookie置於訪客的瀏覽器上。 因此，[!DNL Target] Cookies會受Apple的ITP 2.x影響，並會在七天後（使用ITP 2.1）和一天後（使用ITP 2.2和ITP 2.3）到期。
 
@@ -60,7 +60,7 @@ Apple ITP 2.x在下列方面會影響[!DNL Target]:
 
    安裝 ECID 資料庫 4.3.0+ 後，您可以運用 Adobe Analytics 的 CNAME 和 Managed Certificate 方案。此程式可讓您免費針對第一方 Cookie 實施第一方認證。利用CNAME將幫助[!DNL Target]客戶減輕ITP 2.x的影響。
 
-   如果您未運用CNAME，則可以先與帳戶代表通話，然後註冊[Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program)，開始此程式。
+   如果您未運用CNAME，則可以與帳戶代表通話並註冊[Adobe管理證書程式](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program)，以開始此過程。
 
 在搭配 ECID 資料庫 v4.3.0+ 部署 Target JavaScript 程式庫並在 Adobe Managed Certificate 方案中註冊以運用 CNAME 後，針對 ITP 相關變更，您將有健全且長期的緩解計劃。
 
