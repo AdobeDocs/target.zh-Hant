@@ -1,16 +1,16 @@
 ---
 keywords: 歡迎套件；目標歡迎套件；介紹；簡介；入門
-description: 閱讀我們專家小組有關使用Adobe Target做為測試和個人化努力的秘訣。
+description: 閱讀我們專家小組中有關使用Adobe [!DNL Target] 做為測試和個人化工作的秘訣。
 title: 我可以在哪裡找到使用Target的秘訣和訣竅？
-feature: Overview
+feature: 概述
+exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
-
 
 # 第四章：使用Target的秘訣
 
@@ -28,15 +28,15 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[將資料匯入Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)的方法。
 
-## 提示2:將Target受眾與其他Adobe Experience Cloud受眾混合，以更深度的個人化。
+## 提示2:將[!DNL Target]受眾與其他Adobe Experience Cloud受眾相結合，以更深度的個人化。
 
 混合不同[!DNL Adobe Experience Cloud]解決方案的受眾，可讓您更全面地瞭解客戶，並更深入地個人化客戶。 例如，雖然[!DNL Target]提供即時觀眾資料，但[!DNL Adobe Analytics]提供歷史觀眾資料。 結合這兩者可協助您識別客戶的行為何時一致，以及何時可能有機會對新行為採取行動。 建立活動時，只要按一下「所有訪客」旁的下拉式選單即可。 接著，核取最多20個觀眾的方塊，按一下「合併多個觀眾」，然後按一下「儲存」。
 
 如需逐步指示，請參閱[結合多個觀眾](/help/c-target/combining-multiple-audiences.md)。
 
-**很高興知道**: [!DNL Adobe Audience Manager] 觀眾會自動 [!DNL Target] 使用。但[!DNL Adobe Analytics]觀眾共用需要手動設定。 在[!DNL Analytics]的觀眾建立程式中，只要勾選標示「將此設為Experience Cloud觀眾」的方塊即可。 然後，從[!DNL Target]按一下「匯入Experience Cloud觀眾」。
+**很高興知道**: [!DNL Adobe Audience Manager] 觀眾會自動 [!DNL Target] 使用。但[!DNL Adobe Analytics]觀眾共用需要手動設定。 在[!DNL Analytics]的觀眾建立程式中，只要勾選標示「讓這成為Experience Cloud觀眾」的方塊即可。 然後，從[!DNL Target]按一下「匯入Experience Cloud對象」。
 
-## 提示3:從Target匯出資料，以便與協力廠商工具搭配使用。
+## 提示3:從[!DNL Target]匯出資料以搭配協力廠商工具使用。
 
 使用回應Token，管理員可輕鬆將資料從[!DNL Target]取出並放入協力廠商工具。 當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。 例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，則您可以使用您的資料來查看哪些人看到體驗A，哪些人看到體驗B。您也可以使用回應Token，將[!DNL Target]資料匯出至內部資料倉庫。 只要按一下「管理」，然後將所要之回應Token旁的開關切換至開啟位置。 接著，建立活動。 然後，資料就可以傳輸給第三方廠商。 您可以使用除錯工具來驗證[!DNL Target]是否正在匯出資料。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 使用「體驗版本」，您可以針對您想要的受眾，執行一項包含各種變數的測試。 例如，您可以建立提供免運費的橫幅廣告，包括美國、英國和歐盟客戶的影像和貨幣變化，而不需針對三個不同的受眾執行測試。
 
-如需逐步指示，請參閱Adobe Target中的[A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和[體驗版本中的](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)多個體驗對象。
+如需逐步指示，請參閱「Adobe Target的A/B測試](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和[體驗版本」中的[多個體驗對象。](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)
 
 ## 提示8:在類似頁面上複製活動體驗，以節省時間。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 成功的最佳化組織相信測試的概念，並瞭解他們對於哪些體驗能贏得測試的專業意見並不總是成立。 他們根據堅實的資料基礎來決定贏家，並且急切且願意在結果生效後，即時推動獲勝的體驗，即使它不符合他們的期望或看似違反直覺。
 
-例如，Adobe醫療服務客戶最近展示測試的價值，顯示團隊認為是英雄橫幅的橫幅對轉換有何負面影響。 如果您的組織尚未完全接受測試，最好先進行更簡單、範圍更小的測試，以便逐步變更測試結果。
+例如，Adobe醫療服務客戶最近展示測試的價值，顯示團隊認為的英雄橫幅實際上對轉換有負面影響。 如果您的組織尚未完全接受測試，最好先進行更簡單、範圍更小的測試，以便逐步變更測試結果。
 
 ## 提示十九：讓每個人都知道您已啟動測試，以避免在網站變更時擔心。
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 ## 請記住
 
-在我們進入下一章之前，請先考慮以下想法：「測試和個人化活動的靈感。」
+在接下來的章節之前，請先考慮以下想法：「測試和個人化活動的靈感。」
 
 ### 當您建立測試時，不要裝飾，要有意為之。
 
