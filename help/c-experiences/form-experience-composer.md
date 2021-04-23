@@ -1,20 +1,20 @@
 ---
 keywords: 表單式體驗撰寫器; 表單式撰寫器; 細分
-description: 瞭解如何使用Adobe Target表單型體驗撰寫器建立非視覺化體驗。 當VEC不可用或不實用時，請使用此編寫器。
+description: 瞭解如何使用Adobe [!DNL Target] 表單型體驗撰寫器建立非視覺化體驗。 當VEC不可用或不實用時，請使用此編寫器。
 title: 如何使用表單型體驗撰寫器？
-feature: Form-based Experience Composer
+feature: 表單式體驗撰寫器
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 66%
 
 ---
 
+# 表單式體驗撰寫器
 
-# 表單式體驗撰寫器{#form-based-experience-composer}
-
-[!DNL Adobe Target] [!UICONTROL 表單型體驗撰寫器]是非視覺化體驗，當視覺化體驗撰寫器無法使用或實際使用時，提供建立介面，對建立用於A/B測試、體驗定位、自動個人化和建議活動的體驗非常有用。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
+[!DNL Adobe Target] [!UICONTROL 表單型體驗撰寫器]是非視覺化體驗，提供建立介面，當視覺化體驗撰寫器無法使用或實際使用時，可協助您建立用於A/B測試、體驗定位、Automated Personalization和Recommendations活動的體驗。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
 
 如果是建立 Recommendations 活動，則沒有體驗。選擇您的條件和設計。如果您選擇多個條件或設計，Target 會自動產生體驗。
 
@@ -98,7 +98,7 @@ ht-degree: 66%
 
    ![](assets/change_criteria_2.png)
 
-1. （可選，對於AB活動、自動個人化和體驗定位）若要針對其他位置重複此程式，請按一下「新增位置」並設定位置和內容。****
+1. (可選，針對AB活動、Automated Personalization和體驗定位)若要針對其他位置重複此程式，請按一下「新增位置」並設定位置和內容。****
 1. 按一下「下一步」(**[!UICONTROL Next)]**，然後按照您的活動類型正常完成活動建立步驟。
 
 * [建立 A/B 測試](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
