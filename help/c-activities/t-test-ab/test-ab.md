@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n；比較體驗；定位；比較內容；自動定位；自動分配
-description: 瞭解Adobe Target中不同類型的A/B測試活動——手動、自動分配和自動目標。 選擇適合您的。
+description: 瞭解Adobe [!DNL Target]  - 「手動」、「自動分配」和「自動目標」中不同類型的A/B測試活動。 選擇適合您的。
 title: Target中提供哪些A/B活動類型？
-feature: A/B Tests
+feature: A/B 測試
+exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 38%
 
 ---
-
 
 # A/B測試概觀
 
@@ -46,7 +46,7 @@ ht-degree: 38%
 | [!UICONTROL 自動分配] | 找出兩個或多個體驗中的獲勝者，然後將流量重新導向獲勝者，以隨著測試執行和學習增加轉換。<br>要瞭解使用自動分配活動的優點，請參 [閱自動](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) 分配 *，運行A/B測試自* 動分配概述的時間 [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
 | ![Premium徽](/help/assets/premium.png) [!UICONTROL 章Auto-Target] | 使用進階機器學習來個人化內容，並透過找到多個高執行效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。<br>如需詳細資訊，請 [參閱自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
-如需這些[!UICONTROL A/B Test]活動中哪些活動適合您的詳細資訊，請參閱互動式[Adobe Target活動指南PDF](/help/c-activities/target-activities-guide.md)。
+有關這些[!UICONTROL A/B測試]活動中哪些活動適合您的詳細資訊，請參閱互動式[Adobe Target活動指南PDF](/help/c-activities/target-activities-guide.md)。
 
 建立三種[!UICONTROL A/B Test]活動的步驟類似。 若要建立[!UICONTROL 自動分配]或[!UICONTROL 自動目標]活動，請從[建立A/B測試活動](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)開始，但當您進入[!UICONTROL 目標]頁面時，請選擇所需的流量分配方法，如下所示：
 
