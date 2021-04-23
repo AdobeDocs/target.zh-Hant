@@ -2,17 +2,17 @@
 keywords: mbox;mbox3rdPartyId;設定檔同步中;設定檔同步;PCID
 description: 瞭解如何使用mbox3rdPartyId，即您組織的訪客ID，例如會籍ID或您組織的忠誠度方案。
 title: 我要如何使用mbox3rdPartyId的即時描述檔同步？
-feature: Audiences
+feature: 對象
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# mbox3rdPartyId 的即時設定檔同步{#real-time-profile-syncing-for-mbox-rdpartyid}
+# mbox3rdPartyId 的即時設定檔同步
 
 mbox3rdPartyId 為公司的訪客 ID，例如公司忠誠計劃的會員 ID。
 
@@ -33,7 +33,7 @@ mbox3rdPartyId 為公司的訪客 ID，例如公司忠誠計劃的會員 ID。
 
 >[!NOTE]
 >
->如果您想要區分已驗證（登入）的使用者與非驗證的使用者，請使用Adobe Experience Cloud Identity Service(ECID)，而非mbox3rdPartyID。 在使用者與mbox3rdPartyID建立關聯後，即使在登出後，它仍會與使用者建立關聯。
+>如果您想要區分已驗證（登入）的使用者與非驗證的使用者，請使用Adobe Experience Cloud身分服務(ECID)，而非mbox3rdPartyID。 在使用者與mbox3rdPartyID建立關聯後，即使在登出後，它仍會與使用者建立關聯。
 
 >[!NOTE]
 >
