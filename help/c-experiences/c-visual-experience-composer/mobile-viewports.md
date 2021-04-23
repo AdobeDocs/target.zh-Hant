@@ -1,16 +1,16 @@
 ---
 keywords: 響應；移動視區；視區；設備；移動；響應網頁設計；rwd
-description: 行動檢視器可協助您瞭解Adobe Target活動在各種大小螢幕上的顯示效果。 尋找常用裝置檢視區大小和解析度的清單。
+description: 行動檢視器可協助您瞭解Adobe [!DNL Target] 活動在各種大小螢幕上的顯示效果。 尋找常用裝置檢視區大小和解析度的清單。
 title: 如何使用行動檢視器來提供互動式體驗？
-feature: Visual Experience Composer (VEC)
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1165'
 ht-degree: 35%
 
 ---
-
 
 # 行動檢視區，提供互動式體驗
 
@@ -45,7 +45,7 @@ ht-degree: 35%
 | iPhone 11 Xs最大值 | 414 x 896 | 1242 x 2688 |
 | iPhone 11 | 414 x 896 | 828 x 1792 |
 | iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
 | iPhone 11 X | 375 x 812 | 1125 x 2436 |
 | iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
 | iPhone X | 375 x 812 | 1125 x 2436 |
@@ -179,7 +179,7 @@ ht-degree: 35%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target中的帳戶偏好設定![概述徽章](/help/assets/overview.png)
+### Adobe Target帳戶偏好設定![概述徽章](/help/assets/overview.png)
 
 此視訊包含設定行動視訊的相關資訊，從視訊的4:40開始。
 
