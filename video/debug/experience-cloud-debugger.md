@@ -1,18 +1,18 @@
 ---
-keywords: experience cloud debugger;mbox trace
-description: 使用Adobe Experience Cloud除錯程式除錯Adobe Target。
-title: 使用 Experience Cloud Debugger 除錯 Target
-feature: Troubleshooting
+keywords: experience Cloud除錯程式；mbox描圖
+description: 使用Adobe Experience Cloud調試器調試Adobe [!DNL Target] 。
+title: '使用Experience Cloud Debugger調試 [!DNL Target] '
+feature: 疑難排解
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 34%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
 
-# 使用 Experience Cloud Debugger 除錯 Target
+# 使用Experience Cloud Debugger調試[!DNL Target]
 
 使用[!DNL Adobe Experience Cloud Debugger]調試[!DNL Adobe Target]。
 
@@ -20,7 +20,7 @@ ht-degree: 34%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## 基本 Target 偵錯
+## 基本[!DNL Target]調試
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
@@ -30,6 +30,6 @@ ht-degree: 34%
 
 ## 其他資源
 
-+ [Chrome Store中的Adobe Experience Cloud除錯程式](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Adobe Experience Cloud除錯程式在Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
 + [疑難排解Target說明檔案](/help/r-troubleshooting-target/troubleshooting-target.md)
-+ [如何使用Experience Cloud除錯程式視訊](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [如何使用Experience Cloud Debugger視訊](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
