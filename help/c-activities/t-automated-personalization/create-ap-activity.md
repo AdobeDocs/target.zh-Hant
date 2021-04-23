@@ -1,16 +1,16 @@
 ---
 keywords: 自動個人化；ap；觀眾；ensemble；隨機森林；殘差方差；誤差方差；存留值
-description: 瞭解如何使用視覺體驗撰寫器(VEC)在Adobe Target建立Automated Personalization(AP)活動。
+description: 瞭解如何使用視覺體驗撰寫器(VEC)在Adobe [!DNL Target] 中建立Automated Personalization(AP)活動。
 title: 如何建立Automated Personalization活動？
-feature: Automated Personalization
+feature: 自動個人化
+exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2052'
 ht-degree: 91%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 建立自動個人化活動
 
