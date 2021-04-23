@@ -1,19 +1,19 @@
 ---
 keywords: 行動應用程式;行動應用程式位置;target mobile 應用程式;mobile target 位置;行動應用程式成功量度
-description: 檢視范常式式碼，協助您瞭解如何在iOS應用程式中建立位置和成功度量，以便使用Adobe Target個人化和最佳化您的應用程式。
-title: 如何在iOS應用程式中建立Target位置和成功度量？
-feature: Implement Mobile
+description: 檢視范常式式碼，協助您瞭解如何在iOS應用程式中建立位置和成功度量，以便使用Adobe [!DNL Target] 個人化和最佳化您的應用程式。
+title: 如何在iOS應用程式中建立 [!DNL Target] 位置和成功度量？
+feature: 實施行動
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 81%
 
 ---
 
-
-# iOS - 建立 Target 位置和成功量度{#ios-create-a-target-location-and-success-metric}
+# iOS —— 建立[!DNL Target]位置和成功度量
 
 若要在您的行動應用程式中使用 Target，請建立位置和成功量度。
 
