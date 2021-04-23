@@ -1,16 +1,16 @@
 ---
 keywords: 實體;實體屬性;傳遞資訊至 Recommendations;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
-description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至TargetRecommendations。
+description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至 [!DNL Target] Recommendations。
 title: 如何使用實體屬性？
 feature: Recommendations
+exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 translation-type: tm+mt
-source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 58%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 實體屬性
 
