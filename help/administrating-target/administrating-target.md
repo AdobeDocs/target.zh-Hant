@@ -1,19 +1,19 @@
 ---
 keywords: 設定；設定；設定；設定；設定；管理
-description: 設定Adobe Target，包括偏好設定、實作、使用者管理、屬性、Scene7設定、主機管理和回應Token。
+description: 設定Adobe Target，包括偏好設定、實作、使用者管理、屬性、Scene7組態、主機管理和回應Token。
 title: 如何管理Target?
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
-
-# 管理 Target 概覽{#administer-target}
+# 管理[!DNL Target]概述
 
 協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer(VEC)、報告、Scene7組態、實作、主機、環境、回應Token和使用者的組態設定。
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 * [可視化體驗撰寫器](/help/administrating-target/visual-experience-composer-set-up.md)
 * [報表](/help/administrating-target/reporting.md)
-* [Scene7設定](/help/administrating-target/scene7-settings.md)
+* [Scene7組態](/help/administrating-target/scene7-settings.md)
 * [實施](/help/c-implementing-target/implementing-target.md)
 * [屬性](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [主機](/help/administrating-target/hosts.md)
