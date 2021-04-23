@@ -1,16 +1,16 @@
 ---
 keywords: 建立體驗; 體驗建立; 優先順序; 對象; 體驗; 可視化體驗撰寫器
-description: 瞭解如何使用Adobe Target Visual Experience Composer(VEC)在「體驗目標(XT)」活動中建立和編輯頁面上的體驗。
+description: 瞭解如何使用Adobe [!DNL Target] Visual Experience Composer(VEC)在「體驗定位」(XT)活動中建立和編輯您頁面上的體驗。
 title: 如何在體驗定位活動中建立體驗？
-feature: Experience Targeting
+feature: 體驗鎖定目標
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 87%
 
 ---
-
 
 # 在體驗定位(XT)活動中建立體驗
 
