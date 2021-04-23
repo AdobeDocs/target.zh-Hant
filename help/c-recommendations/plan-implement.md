@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;設定;偏好設定;行業別;篩選不相容的條件;預設主機群組;縮圖基底 url;建議 api token
-description: '瞭解如何在Adobe Target中實作Recommendations活動。 確保您的實作符合必要的先決條件要求。 '
-title: 如何實作Recommendations活動？
+description: '瞭解如何在Adobe Target實施Recommendations活動。 確保您的實作符合必要的先決條件要求。 '
+title: 如何實施Recommendations活動？
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1620'
 ht-degree: 95%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMPlan和實施Recommendations  {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlan和實施Recommendations
 
 建立建議活動之前需要知道的事項。
 
@@ -204,7 +204,7 @@ function targetPageParams() {
 
 使用設定來管理您的 [!DNL Recommendations] 實作。
 
-若要存取「Recommendations設定」[!UICONTROL 選項，請開啟[!DNL Adobe Experience Cloud]中的[!DNL Target]，然後按一下「Recommendations ]**>**[!UICONTROL &#x200B;設定」]**。]**[!UICONTROL 
+要訪問「Recommendations設定」[!UICONTROL 選項，請開啟[!DNL Adobe Experience Cloud]中的[!DNL Target]，然後按一下「Recommendations」]**> 「設定」**[!UICONTROL 。]****
 
 ![](assets/recs_settings.png)
 
