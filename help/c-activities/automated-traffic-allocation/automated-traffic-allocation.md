@@ -1,16 +1,16 @@
 ---
 keywords: 自動流量分配；目標；增量計數和保持用戶在活動中；流量分配；自動分配；自動分配
-description: 瞭解如何使用Adobe Target中的「自動分配」活動，以識別兩個或兩個以上體驗中的成功者，並自動將更多流量重新分配給成功者。
+description: 瞭解如何使用Adobe [!DNL Target] 中的「自動分配」活動，識別兩個或更多體驗中的成功者，並自動將更多流量重新分配給成功者。
 title: 什麼是自動分配活動？
-feature: Auto-Allocate
+feature: 自動分配
+exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3387'
 ht-degree: 73%
 
 ---
-
 
 # 自動分配概述
 
@@ -134,7 +134,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 當您處理[!UICONTROL 自動分配]活動時，請參閱下列常見問答和答案：
 
-### Analytics for Target(A4T)是否支援自動配置活動？
+### Analytics forAdobe Target(A4T)是否支援自動配置活動？
 
 是.如需詳細資訊，請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。
 
@@ -188,7 +188,7 @@ Target 中的標準 A/B 測試只會顯示挑戰體驗與控制體驗的成對�
 
 我們不建議您在活動中途變更目標量度。 雖然在使用[!DNL Target] UI的活動期間可以變更目標量度，但您應一律開始新活動。 我們不保證如果您在活動執行後變更目標量度時會發生什麼。
 
-此建議適用於使用[!DNL Target]或[!DNL Analytics](A4T)作為報告來源的[!UICONTROL 自動分配]、[!UICONTROL 自動目標]和[!UICONTROL 自動個人化]活動。
+此建議適用於使用[!DNL Target]或[!DNL Analytics](A4T)作為報告來源的[!UICONTROL 自動分配]、[!UICONTROL 自動目標]和[!UICONTROL Automated Personalization]活動。
 
 ### 在執行「自動配置」活動時，我是否可以使用「重設報表資料」選項？
 
