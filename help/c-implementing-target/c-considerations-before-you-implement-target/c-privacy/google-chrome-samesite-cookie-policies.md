@@ -1,21 +1,21 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
-description: 瞭解Adobe Target如何處理Google Chrome 80版中推出的SameSite IETF標準，以及您需要採取哪些措施來遵循這些政策。
-title: Target如何處理Google的Samesite Cookie政策？
-feature: Privacy & Security
+description: 瞭解Adobe [!DNL Target] 如何處理Google Chrome 80版中推出的SameSite IETF標準，以及您需要採取哪些措施來遵循這些原則。
+title: ' [!DNL Target] 如何處理Google的Samesite Cookie政策？'
+feature: 隱私權與安全性
 role: Developer
+exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2048'
 ht-degree: 7%
 
 ---
 
-
 # Google Chrome SameSite Cookie 原則
 
-谷歌將開始根據預設，為從Chrome 80開始的用戶實施新的Cookie政策。 Chrome 80計畫於2020年初推出。 本文將說明您需要瞭解的有關新SameSite Cookie政策、[!DNL Adobe Target]如何支援這些政策，以及如何使用[!DNL Target]來符合Google Chrome的新SameSite Cookie政策。
+Google將開始針對從Chrome 80開始的使用者，預設為實施新的Cookie政策。 Chrome 80預計於2020年初推出。 本文將說明您需要瞭解的有關新SameSite Cookie政策、[!DNL Adobe Target]如何支援這些政策，以及如何使用[!DNL Target]來符合Google Chrome的新SameSite Cookie政策。
 
 從Chrome 80開始，網頁開發人員必須明確指定哪些Cookie可以跨網站運作。 這是谷歌計畫為改善網路隱私和安全性而發佈的眾多公告中的首次。
 
@@ -43,7 +43,7 @@ Cookie很重要，因為它們可增強使用者在瀏覽網頁時的體驗。 �
 
 雖然Cookie可增強使用者體驗並強化廣告功能，但也可能會引入跨網站偽造要求(CSRF)攻擊等安全性弱點。 例如，如果使用者登入銀行網站以支付信用卡帳單而離開網站而未登出，然後在同一作業中瀏覽至惡意網站，則可能會發生CSRF攻擊。 惡意網站可能包含對銀行網站提出要求的程式碼，該要求會在頁面載入時執行。 由於使用者仍可驗證至銀行網站，因此作業Cookie可用來啟動CSRF攻擊，從使用者的銀行帳戶啟動資金轉移事件。 這是因為每當您造訪網站時，所有Cookie都會附加在HTTP請求中。 由於這些安全方面的擔憂，谷歌現在正試圖緩解這些擔憂。
 
-## Target如何使用Cookie?
+## [!DNL Target]如何使用Cookie?
 
 儘管如此，讓我們來看看[!DNL Target]如何使用Cookie。 您必須先將[!DNL Target] JavaScript程式庫安裝在您的網站上，才能使用[!DNL Target]。 這可讓您將第一方Cookie置於瀏覽您網站之使用者的瀏覽器中。 當您的使用者與您的網站互動時，您可以透過JavaScript程式庫將使用者的行為與興趣資料傳遞至[!DNL Target]。 [!DNL Target] JavaScript程式庫使用第一方Cookie來擷取有關使用者的識別資訊，以對應至使用者的行為與興趣資料。 然後，[!DNL Target]會使用此資料來推動您的個人化活動。
 
@@ -58,7 +58,7 @@ Target也（有時）使用第三方Cookie。 如果您擁有多個網站，且�
 | 值 | 說明 |
 | --- | --- |
 | 嚴格 | 只有在造訪最初設定的網域時，才能存取具有此設定的 Cookie。也就是說，嚴格會完全封鎖 Cookie，以免跨網站使用。這個選項最適合需要高安全性的應用程式，例如銀行。 |
-| 鬆散 | 具有此設定的Cookie僅會在相同網站要求或具有非冪等HTTP要求（例如`HTTP GET`）的頂層導覽上傳送。 因此，如果協力廠商可使用Cookie，但有額外的安全性優點，可保護使用者不受CSRF攻擊之害，則可使用此選項。 |
+| 鬆散 | 具有此設定的Cookie僅會在相同網站要求或具有非冪等HTTP要求（例如`HTTP GET`）的頂層導覽上傳送。 因此，如果協力廠商可使用Cookie，但有額外的安全性優點，可保護使用者不受CSRF攻擊之害，則會使用此選項。 |
 | 無 | 使用此設定的Cookie與Cookie目前的運作方式相同。 |
 
 請記住，Chrome 80為使用者提供兩種獨立的設定：&quot;SameSite by default cookies&quot;和&quot;Cookies without SameSite必須安全。&quot; 這些設定預設會在Chrome 80中啟用。
@@ -70,13 +70,13 @@ Target也（有時）使用第三方Cookie。 如果您擁有多個網站，且�
 
 ## Target 遵循 Google 的安全性最佳實務
 
-在Adobe，我們始終希望支援業界最新的安全與隱私權最佳實務。 我們很高興宣佈[!DNL Target]支援Google推出的新安全性和隱私權設定。
+在Adobe，我們始終希望支援業界最新的安全性與隱私權最佳實務。 我們很高興宣佈[!DNL Target]支援Google推出的新安全性和隱私權設定。
 
 對於「SameSite by default cookies」設定，[!DNL Target]將持續提供個人化，而不會受到您的影響和干預。 [!DNL Target] 使用第一方 Cookie 且將繼續正常運作，因為 Google Chrome 已套用 `SameSite = Lax` 標幟。
 
 對於「不含SameSite的Cookies必須是安全的」選項，如果您未選擇加入[!DNL Target]中的跨網域追蹤功能，則[!DNL Target]中的第一方Cookie將繼續運作。
 
-不過，當您選擇加入以跨網域追蹤來跨多個網域運用[!DNL Target]時，Chrome需要`SameSite = None`和「保全」標幟才能用於第三方Cookie。 這表示您必須確保您的網站使用HTTPS通訊協定。 [!DNL Target]中的用戶端程式庫會自動使用HTTPS通訊協定，並將`SameSite = None`和Secure標幟附加至[!DNL Target]中的第三方Cookie，以確保所有活動都能持續傳送。
+不過，當您選擇加入以跨網域追蹤在多個網域間運用[!DNL Target]時，Chrome需要`SameSite = None`和「保全」標幟才能用於第三方Cookie。 這表示您必須確保您的網站使用HTTPS通訊協定。 [!DNL Target]中的用戶端程式庫會自動使用HTTPS通訊協定，並將`SameSite = None`和Secure標幟附加至[!DNL Target]中的第三方Cookie，以確保所有活動都能持續傳送。
 
 ## 您需要做什麼?
 
@@ -94,7 +94,7 @@ Target也（有時）使用第三方Cookie。 如果您擁有多個網站，且�
 | at.js 1.*啟* 用跨網域追蹤。 | 沒有影響。 | 您必須為您的網站啟用HTTPS通訊協定。<br>[!DNL Target] 使用協力廠商Cookie來追蹤使用者，而Google則要求協力廠商Cookie具有 `SameSite = None` 和安全標幟。安全標幟要求您的網站必須使用HTTPS通訊協定。 |
 | at.js 2.*x* | 沒有影響。 | 沒有影響。 |
 
-## Target需要做什麼？
+## [!DNL Target]需要做什麼？
 
 那麼，我們在我們的平台中需要做什麼來協助您符合新的Google Chrome 80+ SameSite Cookie政策？
 
