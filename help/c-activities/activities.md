@@ -1,14 +1,14 @@
 ---
 keywords: 活動清單；活動；活動；活動類型；編輯活動；活動；活動；活動屬性；活動清單過濾；活動限制；個人化；個人化
-description: 瞭解Adobe Target的活動如何讓您針對特定受眾個人化內容並測試頁面設計
+description: 瞭解Adobe活動 [!DNL Target] 如何讓您針對特定對象個人化內容並測試頁面設計
 title: 我要如何使用Target個人化內容並測試頁面設計？
-feature: Activities
+feature: 活動
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 92%
+source-wordcount: '2099'
+ht-degree: 91%
 
 ---
 
@@ -144,7 +144,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 關於可視化體驗撰寫器的其他限制，請參閱[可視化體驗撰寫器限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
-## 針對在 Target 外部更新的活動而匯入到 Target 的屬性 {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## 已將[!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}以外更新活動的屬性匯入[!DNL Target]
 
 如果從 [!DNL Target] 外部 (例如，透過 Adobe I/O) 更新在 [!DNL Target] 中建立的活動，則會將下列活動屬性匯入回 [!DNL Target]:
 
