@@ -1,22 +1,22 @@
 ---
 keywords: 設定; 優先順序
-description: 瞭解Adobe Target如何根據您使用的Target介面和活動建立功能，以不同方式決定要傳送至頁面的活動（或活動）。
-title: Target如何為不同活動指派優先順序？
-feature: Activities
+description: 瞭解Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] 介面以及您使用的活動建立功能。
+title: ' [!DNL Target] 如何為不同活動分配優先順序？'
+feature: 活動
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 88%
+source-wordcount: '1149'
+ht-degree: 89%
 
 ---
-
 
 # 優先順序
 
 根據您使用的 Target 介面以及活動建立功能類型 (可視化體驗撰寫器或表單式撰寫器)，Target 會針對要傳遞至頁面的活動 (或哪些活動) 進行不同判斷。
 
-## 僅限Target Standard/Premium Visual Experience Composer或僅使用全域Target請求的表單型撰寫器{#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 僅限Target Standard/Premium Visual Experience Composer或僅使用全域[!DNL Target]請求{#section_4A0A317DFED345649B58B0CB5B410C8B}的表單型撰寫器
 
 如果您的公司僅使用 Target Standard/Premium 和可視化體驗撰寫器，則同一個呼叫可能傳回多個活動的內容。活動依據下列決策流程來傳送:
 
@@ -40,7 +40,7 @@ ht-degree: 88%
    * 如果只有一個活動有對象鎖定目標，則會顯示該活動。
    * 如果所有或全部均無鎖定目標，則顯示先核准的活動。
 
-## Target Standard/Premium 表單式撰寫器和 Target Standard/Premium 可視化體驗撰寫器  {#section_4620253E1CE942DD830724C7822B175F}
+## Target Standard/Premium Form-Based Composer和[!DNL Target] Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ ht-degree: 88%
 
 如果兩個已鎖定的目標活動有相同的優先順序，則會顯示最近檢視的活動。如果訪客是首次前往頁面，則顯示最近啟動的活動。
 
-## 具有非全域目標請求的Target Standard/Premium表單式撰寫器{#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 具有非全局[!DNL Target]請求{#section_C3F5F09B0B2D4EF795C5929D5C426A8C}的Target Standard/Premium表單式撰寫器
 
 >[!NOTE]
 >
