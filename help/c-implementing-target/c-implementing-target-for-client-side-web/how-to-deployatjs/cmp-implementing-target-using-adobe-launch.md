@@ -1,23 +1,23 @@
 ---
-keywords: 實施；實施；實施；adobe啟動；啟動；賽跑；重新導向；體驗平台啟動
-description: 瞭解如何使用Adobe Experience Platform Launch（實作Adobe Target的慣用方法）實作Adobe Target at.js程式庫。
-title: 如何使用Adobe Launch實作Target?
-feature: Implement Server-side
+keywords: 實施；實施；實施；adobe launch;launch;race;redirect；體驗platform launch
+description: 瞭解如何使用Adobe Experience Platform Launch實作Adobe [!DNL Target] at.js程式庫，這是實作Adobe [!DNL Target]的偏好方法。
+title: 如何使用Adobe啟動實施 [!DNL Target] ?
+feature: 實作伺服器端
 role: Developer
+exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 76%
+source-wordcount: '450'
+ht-degree: 75%
 
 ---
 
+# 使用Adobe啟動實作[!DNL Target]
 
-# 使用 Adobe Launch 實作 Target
+Adobe Experience Platform Launch是Adobe的新一代標籤管理平台，是實施Adobe Target的首選方法。 Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
 
-Adobe Experience Platform Launch是Adobe的新一代標籤管理平台，是建置Adobe Target的首選方法。 Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
-
-## 使用 Adobe Launch 實作 Target {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## 使用Adobe啟動{#topic_5234DDAEB0834333BD6BA1B05892FC25}實作[!DNL Target]
 
 Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的推薦方法。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。
 
@@ -25,11 +25,11 @@ Launch 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的�
 
 | 資源 | 詳細資料 |
 |--- |--- |
-| [使用Adobe Target擴充功能教學課程實作Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 本教學課程提供逐步說明，指導您使用 Launch 在網站中實作 Adobe Target。主題包括新增 at.js JavaScript 資料庫、觸發全域 mbox、新增參數以及與其他解決方案整合。本文是大規模教學課程中的一部分，說明如何實作 Adobe Launch 及其他 Adobe Experience Cloud 解決方案。 |
+| [使用Adobe Target擴充功能教學課程來實作Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 本教學課程提供逐步說明，指導您使用 Launch 在網站中實作 Adobe Target。主題包括新增 at.js JavaScript 資料庫、觸發全域 mbox、新增參數以及與其他解決方案整合。本文是大規模教學課程中的一部分，說明如何實作 Adobe Launch 及其他 Adobe Experience Cloud 解決方案。 |
 | [Adobe Launch 文件](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 關於部署及管理為相關客戶體驗提供支援所需的所有分析、行銷和廣告標籤資訊。 |
-| [Adobe Target擴充功能檔案](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | 使用 Launch 實作 Target 的相關資訊。 |
+| [Adobe Target分機檔案](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | 使用 Launch 實作 Target 的相關資訊。 |
 
-## 使用Target Launch擴充功能{#section_48B3F938B6F8491DAF798E0DB54EF304}實作at.js的優點
+## 使用[!DNL Target]啟動擴充功能{#section_48B3F938B6F8491DAF798E0DB54EF304}實作at.js的優點
 
 只有在使用 Adobe Launch 實作 at.js 時，才適用以下優點。基於此原因，我們強烈建議您使用 Adobe Launch 而非 DTM，或手動實作 at.js。
 
