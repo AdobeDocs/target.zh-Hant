@@ -1,19 +1,19 @@
 ---
 keywords: 實施；實施；白名單；白名單；allowlist;allowlist;edge;edge
-description: 檢視主機清單，協助您列出Adobe Target邊緣（地理位置分散的服務節點，可確保使用者的最佳回應時間）。
-title: 如何允許列出目標邊緣節點？
-feature: Privacy & Security
+description: 查看主機清單，幫助您列出Adobe [!DNL Target] 邊緣（地理位置分佈的服務節點，確保最終用戶的最佳響應時間）。
+title: 如何允許清單 [!DNL Target] 邊節點？
+feature: 隱私權與安全性
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '246'
+ht-degree: 6%
 
 ---
 
-
-# 允許列出目標邊緣節點
+# 允許清單[!DNL Target]邊節點
 
 幫助您列出[!DNL Adobe Target]邊的資訊和最新主機清單。
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 如果需要，可以允許列出[!DNL Target]邊節點。
 
-## 目標邊緣的網路地址轉換(NAT)IP地址
+## [!DNL Target]邊的網路地址轉換(NAT)IP地址
 
 [!DNL Target]邊的出口IP地址清單。 如果您打算讓Target觸及您的服務，請允許列出這些IP。
 
@@ -49,8 +49,3 @@ ht-degree: 7%
 | Edge36（雪梨） | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37（愛爾蘭） | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>52.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38（新加坡） | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
