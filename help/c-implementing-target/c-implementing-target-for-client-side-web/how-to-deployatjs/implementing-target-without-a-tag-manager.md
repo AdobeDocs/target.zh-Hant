@@ -1,19 +1,19 @@
 ---
 keywords: 實施目標；實施；實施at.js；標籤管理器；設備上決策；設備上決策
-description: 瞭解如何指定設定（帳戶詳細資訊、實作方法等） 來實作Adobe Targetat.js程式庫，而不需使用標籤管理器。
-title: 我是否可在沒有標籤管理員的情況下實作Target?
-feature: Implement Server-side
+description: 瞭解如何指定設定（帳戶詳細資訊、實作方法等） 來實作Adobe [!DNL Target] at.js程式庫，而不使用標籤管理器。
+title: 我是否可在沒有標籤管理器的情況下實施 [!DNL Target] ?
+feature: 實作伺服器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1692'
 ht-degree: 51%
 
 ---
 
-# 不使用標籤管理程式實作 Target
+# 實作[!DNL Target]而不使用標籤管理器
 
 有關不使用標籤管理器（[!DNL Adobe Experience Platform Launch]或[!DNL Dynamic Tag Manager]）實作[!DNL Adobe Target]的資訊。
 
@@ -124,14 +124,14 @@ ht-degree: 51%
 * Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
 
-### 使用Target介面{#section_1F5EE401C2314338910FC57F9592894E}下載at.js
+### 使用[!DNL Target]介面{#section_1F5EE401C2314338910FC57F9592894E}下載at.js
 
 若要從 [!DNL at.js] 介面下載 [!DNL Target]:
 
 1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 實施]**」。
 1. 在[!UICONTROL 實作方法]區段中，按一下所需at.js版本旁的&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。
 
-### 使用Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}下載at.js
+### 使用[!DNL Target]下載API {#section_C0D9D2A9068144708D08526BA5CA10D0}下載at.js
 
 若要使用 API 來下載 [!DNL at.js]:
 
