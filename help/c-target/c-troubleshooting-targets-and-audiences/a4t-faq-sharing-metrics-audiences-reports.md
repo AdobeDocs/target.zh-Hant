@@ -1,18 +1,18 @@
 ---
 keywords: 常見問答集，常見問題， Analytics For Target，區段， A4T，共用報表
-description: 尋找使用Analytics for Target(A4T)時分享量度、觀眾和報表的常見問答集。 A4T可讓您針對Adobe Target活動使用Analytics報表。
+description: 在 [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] 活動使用Analytics時，尋找有關共用量度、觀眾和報告的常見問答集。
 title: 哪裡可以找到在A4T中共用量度、觀眾和報表的常見問答集？
-feature: Analytics for Target (A4T)
+feature: 目標分析 (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 66%
+source-wordcount: '241'
+ht-degree: 69%
 
 ---
 
-# 共用量度、對象和報表 - A4T 常見問題集{#share-metrics-audiences-and-reports-a-t-faq}
+# 共用量度、對象和報表 - A4T 常見問題集
 
 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於共用量度、對象和報表問題的回答。
 
