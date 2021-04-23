@@ -2,16 +2,16 @@
 keywords: 主機；主機；主機組；疑難排解；最佳做法；ubox；重定向；重定向；白名單；allowlist；黑名單；區塊清單
 description: 瞭解如何組織您的網站和製作前環境，以便在Adobe Target輕鬆管理和分開報告。
 title: 什麼是主機，我要如何使用它們？
-feature: Administration & Configuration
+feature: 管理與設定
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 21%
 
 ---
-
 
 # 主機
 
@@ -64,7 +64,7 @@ ht-degree: 21%
 
 要搜索[!UICONTROL Hosts]清單，請在[!UICONTROL 搜索主機]框中鍵入搜索詞。
 
-## 建立允許清單，指定授權將Target請求傳送至Target的主機。{#allowlist}
+## 建立允許清單，指定授權將[!DNL Target]請求發送到[!DNL Target]的主機。{#allowlist}
 
 您可以建立允許清單，該清單指定有權將[!DNL Target]請求發送到[!DNL Target]的主機（域）。 所有其他產生請求的主機都會收到註解的授權錯誤回應。 預設情況下，任何包含[!DNL Target]請求的主機都會在[!UICONTROL Production]環境中註冊到[!DNL Target] ，並且可以訪問所有活動和批准的活動。 如果不需要這種方法，您可以改用allowlist來記錄有資格發出[!DNL Target]請求並接收[!DNL Target]內容的特定主機。 所有主機繼續顯示在[!UICONTROL  Hosts]清單中，而且環境仍可用於將這些主機分組，並為每個主機分配不同級別，例如主機是否可以看到活動和／或非活動活動。
 
