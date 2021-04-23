@@ -1,16 +1,16 @@
 ---
 keywords: 體驗鎖定目標; XT; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-description: 瞭解如何在Adobe Target體驗定位活動中指定量度，以判斷瀏覽何時成功，例如轉換、收入和參與。
+description: 瞭解如何在Adobe [!DNL Target] 體驗定位活動中指定量度，以判斷瀏覽何時成功，例如轉換、收入和參與。
 title: 如何在體驗定位活動中設定目標量度？
-feature: Experience Targeting
+feature: 體驗鎖定目標
+exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 80%
 
 ---
-
 
 # 在體驗定位(XT)活動中設定量度
 
