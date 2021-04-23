@@ -1,24 +1,24 @@
 ---
 keywords: 環境資料;工作階段資料;地理資料;地理位置資料;裝置資料;行動資料;屬性;設定檔屬性
-description: 瞭解Adobe Target在「自動個人化」(AP)和「自動目標」(AT)活動中收集和使用哪些資料來建立其個人化演算法。
+description: 瞭解哪些資料Adobe [!DNL Target] 在Automated Personalization(AP)和自動目標(AT)活動中收集並用來建立其個人化演算法。
 title: 收集哪些資料以建立個人化演算法？
-feature: Automated Personalization
+feature: 自動個人化
+exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Target 個人化演算法的資料收集
+# ![PREMIUM](/help/assets/premium.png)[!DNL Target] 個人化演算法的資料收集
 
 [!DNL Adobe Target] 在 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] (AT)活動中，自動收集並使用各種資料來建立其個人化演算法。當訪客進入AP或AT活動時，資訊快照會傳遞至一組「訓練記錄」（個人化演算法將學習的訪客資料）。
 
 若要進一步瞭解Target個人化演算法，請參閱[隨機森林演算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
-下表顯示預設由[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]收集的資料，行銷人員無需執行任何動作，以及[Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用來指示這些屬性的命名慣例。 您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表顯示預設由[!UICONTROL Automated Personalization]和[!UICONTROL 自動目標]收集的資料，行銷人員無需執行任何動作，以及[個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用來指示這些屬性的命名慣例。 您可以隨時擴大輸入的資料。若要進一步瞭解如何上傳其他資料，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 資料類型 | 說明 | 資料類型命名慣例 | 範例屬性 |
 | --- | --- | --- | --- |
