@@ -1,20 +1,20 @@
 ---
 keywords: 定位；視覺體驗撰寫器；增強的視覺體驗撰寫器；vec；疑難排解視覺體驗撰寫器；疑難排解；eec；增強的體驗撰寫器；tls;tls 1.2
 description: 瞭解如何在特定條件下疑難排解Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中有時發生的問題。
-title: 我要如何疑難排解Visual Experience Composer和Enhanced Experience Composer?
-feature: Visual Experience Composer (VEC)
+title: 如何疑難排解Visual Experience Composer和Enhanced Experience Composer?
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 70%
 
 ---
 
-
 # 疑難排解可視化體驗撰寫器和增強體驗撰寫器
 
-在某些情況下，在[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)和[!UICONTROL Enhanced Experience Composer](EEC)中有時會出現顯示問題。
+在某些情況下，在[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)和[!UICONTROL Enhanced Experience Composer](EEC)中，有時會出現顯示問題。
 
 VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 是一項編輯器，可讓行銷人員和設計人員使用視覺介面來建立和變更內容。您可以進行許多設計選擇，而不需直接編輯程式碼。您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
 
