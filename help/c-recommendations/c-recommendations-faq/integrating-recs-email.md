@@ -1,28 +1,39 @@
 ---
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
-description: 瞭解如何將電子郵件與Adobe [!DNL Target] Recommendations, including using the [!DNL Target] 傳送API、rawbox範本和僅下載範本整合。
+description: 瞭解如何將電子郵件與Adobe [!DNL Target Recommendations], including using the [!DNL Target] 傳送API、rawbox範本和僅下載範本整合。
 title: 如何將Recommendations與電子郵件整合？
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 85%
+source-wordcount: '1524'
+ht-degree: 63%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 將 Recommendations 與電子郵件整合
 
-關於將電子郵件與 Recommendations 整合方式的資訊。
+關於將電子郵件與 [!UICONTROL Recommendations] 整合方式的資訊。
 
-電子郵件服務提供者的能力決定了可用的方法。您的客戶經理或顧問可以幫助您選擇最適合您的選項。
+電子郵件服務提供者的能力決定了可用的方法。您的客戶經理或顧問可協助您選擇最適合您的選項。
 
-## 選項 1: 使用傳送 API {#section_9F00D271BABA4B7390B461F4C44EC319}
+>[!IMPORTANT]
+>
+>以下容量准則適用於下述的「傳送API」和rawbox電子郵件範本選項（選項1和2）:
+>
+>* 請求的速率應限制為每秒1,000個請求，或是每日最高流量的25倍
+>* 以每秒200個請求的步驟降低流量
+
+> 
+>
+如果您想使用較高的費率限制，請連絡您的客戶經理。
+
+## 選項1:使用傳送API {#section_9F00D271BABA4B7390B461F4C44EC319}
 
 傳送 API 是 POST 要求，可與建置時間電子郵件搭配使用。此選項是用於建置時間電子郵件偏好的方法。
 
-多數電子郵件用戶端不允許 POST 要求; 因此，針對開啟時間使用案例不建議此 API。部分電子郵件用戶端 (例如 Gmail 或 Outlook)，可能會快取內容或封鎖影像，並要求收件者主動允許影像呈現。
+大多數電子郵件客戶端都不允許POST請求。因此，不建議在開放時間使用案例中使用此API。 有些電子郵件用戶端（例如Gmail或Outlook）可以快取內容或封鎖影像，並要求收件者主動允許影像轉換。
 
 您無法使用傳送 API 傳回預設內容。
 
@@ -51,11 +62,11 @@ curl -X POST \
 }'
 ```
 
-其中，`clientcode` 為您的 Target 用戶端代碼。
+其中，`clientcode` 為您的 用戶端代碼。[!DNL Target]
 
 >[!NOTE]
 >
->各電子郵件收件人 (如各 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供不重複的值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。
+>各電子郵件收件人 (如各 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供不重複的值。如果您未為這些欄位提供唯一值，API回應可能會因為單一描述檔中產生許多事件而變慢或失敗。
 
 如需詳細資訊，請參閱[傳送 API 文件](https://developers.adobetarget.com/api/#server-side-delivery)。
 
@@ -65,22 +76,22 @@ rawbox 類似於 mbox 要求，但是是用於非 Web 環境，例如電子郵�
 
 >[!NOTE]
 >
->使用rawbox和[!DNL Target]時，請參閱[建立允許清單下的重要安全性注意事項，此清單指定授權將mbox呼叫傳送至Target](/help/administrating-target/hosts.md#allowlist)的主機。
+>使用rawbox和[!DNL Target]時，請參閱[建立允許清單下的重要安全性注意事項，此清單指定授權傳送mbox呼叫至 [!DNL Target]](/help/administrating-target/hosts.md#allowlist)的主機。
 
 透過該方法，您可在電子郵件中追蹤建議的效能，以正常方式測試建議，並繼續在網站上追蹤。
 
-在 [!DNL Adobe Target] 中使用[「表單式體驗撰寫器」](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)選項設定 [!DNL Recommendations] 活動。針對位置，選取您選擇在來自 ESP 的 Rawbox 要求中使用的 mbox 的名稱。選取符合您對電子郵件所需外觀的設計。在電子郵件建置時，ESP 會對每個要產生的電子郵件中的每個 Rawbox 對 [!DNL Adobe Target] 伺服器進行呼叫。您的 ESP 必須有一個方式可在電子郵件中包括傳回的 HTML (如果有傳送)。
+在 [!DNL Target] 中使用[「表單式體驗撰寫器」](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)選項設定 [!DNL Recommendations] 活動。針對位置，選取您選擇在來自 ESP 的 Rawbox 要求中使用的 mbox 的名稱。選取符合您對電子郵件所需外觀的設計。在電子郵件建置時，ESP 會對每個要產生的電子郵件中的每個 Rawbox 對 [!DNL Target] 伺服器進行呼叫。您的 ESP 必須有一個方式可在電子郵件中包括傳回的 HTML (如果有傳送)。
 
-您使用的電子郵件系統應該有能力處理這些案例:
+您使用的電子郵件系統必須能夠處理下列情形：
 
 ### 收到有效回應，但沒有建議
 
-* 在此情況中，回應會是設為 mboxDefault 參數值的內容。請參閱以下有關此參數的說明。
+* 在此情況下，回應是設定為`mboxDefault`參數值的任何項目。 請參閱以下有關此參數的說明。
 * 電子郵件提供者應該具有預設的建議 HTML 區塊，以在此情況下使用。
 
 ### [!DNL Target]伺服器逾時並傳回，而無資料
 
-* 在此情況中，Target 伺服器將傳回下列內容:
+* 在這種情況下，[!DNL Target]伺服器返回以下內容：
 
    `//ERROR: application server timeout`
 
@@ -88,7 +99,7 @@ rawbox 類似於 mbox 要求，但是是用於非 Web 環境，例如電子郵�
 
    * 立即嘗試另一個伺服器呼叫 (建議，也許可以使用嘗試計數器)。
    * 去除該特定電子郵件並繼續下一個電子郵件。
-   * 將該特定電子郵件加入佇列，並在初始執行結束時以批次形式重新執行失敗的電子郵件。
+   * 將特定電子郵件排入佇列，並在初始執行結束時以批次形式重新執行失敗的電子郵件。
 
 ### 樣本要求 URL
 
@@ -100,49 +111,40 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 >[!NOTE]
 >
->若要在電子郵件中使用 [!DNL Recommendations]，rawbox 呼叫一般必須包括 `entity.id` 或 `entity.categoryId` 或是兩者，視建議條件的類型而定。以上的樣本呼叫包括這兩者。
+>若要在電子郵件中使用[!DNL Recommendations], rawbox呼叫通常必須包含`entity.id`或`entity.categoryId`或兩者，視建議准則類型而定。 以上的樣本呼叫包括這兩者。
 
 | 參數 | 值 | 說明 | 驗證 |
 |--- |--- |--- |--- |
 | `client_code` | *client_code* | 在 Recommendations 中所使用用戶端的程式碼。您的 Adobe 顧問可以提供此值。 |  |
-| `mbox` | *mboxName* | 用於鎖定目標的 mbox 名稱。 | 對所有 mbox 呼叫使用相同的驗證身分。<br>250 個字元限制。<br>不能包括下列任一個字元: `', ", %22, %27, <, >, %3C, %3E` |
+| `mbox` | *mboxName* | 用於鎖定目標的 mbox 名稱。 | 對所有 mbox 呼叫使用相同的驗證身分。<br>250 個字元限制。<br>不能包含下列任何字元：  `', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | 已停用 | 防止回應在非 Web 環境中設定 Cookie。 |  |
 | `entity.id`<br> (某些類型的條件為必要: 檢視/檢視、檢視/購買、購買/購買) | *entity_id* | 建議所根據的 productId，例如購物車中放棄的產品或先前的購買。<br>如果條件要求，rawbox 呼叫必須包括 `entity.id`。 |  |
 | `entity.event.detailsOnly` | true | 如果傳遞了 `entity.id`，則非常建議您也傳遞此參數，以防止要求為了不要扭曲產品檢視式的演算法，而遞增專為某項目調整的頁面檢視數量。 |  |
 | `entity.categoryId`<br> (某些類型的條件為必要: 依檢視次數最多類別和依最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |  |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數未出現，如果沒有可用的建議，`mboxDefault` 應該是將傳回預設內容的絕對 URL。這可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者將需要處理傳回此值的情況，並插入預設的 HTML 至電子郵件。  <br> **安全性最佳實務**:請注意，如果 `mboxDefault` URL中使用的網域未列出，您可能會面臨「開啟重新導向弱點」的風險。為避免第三方未授權使用重新導向程式連結或`mboxDefault`，建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參閱[建立允許清單，指定在&#x200B;*Hosts*&#x200B;中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#allowlist)的主機。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果`mboxNoRedirect`參數不存在，則`mboxDefault`應是絕對URL，若沒有建議可供使用，則會傳回預設內容。 此URL可以是影像或其他靜態內容。<br>如果 `mboxNoRedirect` 參數出現，`mboxDefault`可以是任何文字，指出沒有任何建議，例如 `no_content`。<br>電子郵件提供者需要處理傳回此值的案例，並將預設HTML插入電子郵件。  <br> **安全性最佳實務**:如果不允許列出 `mboxDefault` URL中使用的網域，則可能會面臨「開啟重新導向弱點」的風險。為避免第三方未授權使用重新導向程式連結或`mboxDefault`,Adobe建議您使用「已授權的主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參閱[建立允許清單，指定在&#x200B;*Hosts*&#x200B;中授權傳送mbox呼叫至 [!DNL Target]](/help/administrating-target/hosts.md#allowlist)的主機。 |  |
 | `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |  |
-| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 &quot;thirdPartyId&quot;，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
+| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供 &quot;thirdPartyId&quot;，則會產生新的 tntId，並隨著回應傳回。否則會保持空白。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您未為這些欄位提供唯一值，API回應可能會因為單一描述檔中產生大量事件而變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 
 ### 選用參數
 
 | 參數 | 值 | 說明 | 驗證 |
 |--- |--- |--- |--- |
-| `mboxPC`<br>(可選) | *mboxPCId* | Target 訪客 ID。如果您想要追蹤使用者在多次造訪間完全回到您的網站，或使用使用者設定檔參數時，請使用此值。<br>此值必須是使用者的實際 Adobe Target PCID，它會從網站匯出至您的 CRM。電子郵件提供者會從您的 CRM 或資料倉儲擷取此 ID，並使用它做為此參數的值。<br>當建議屬於 A/B 活動時，`mboxPC` 值對於追蹤多次造訪間的度量追蹤的訪客網站行為也很實用。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件，導致變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
+| `mboxPC`<br>(可選) | *mboxPCId* | Target 訪客 ID。如果您想要追蹤使用者在多次造訪間完全回到您的網站，或使用使用者設定檔參數時，請使用此值。<br>此值必須是使用者 [!DNL Adobe Target] 的實際PCID，該PCID會從網站匯出至您的CRM。電子郵件提供者會從您的CRM或Data Warehouse擷取此ID，並將其用於此參數的值。<br>當建議屬於 A/B 活動時，`mboxPC` 值對於追蹤多次造訪間的度量追蹤的訪客網站行為也很實用。<br>**注意:** 請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您未為這些欄位提供唯一值，API回應可能會因為單一描述檔中產生大量事件而變慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 | `mboxNoRedirect`<br>(可選) | 1 | 依預設，在找不到可傳遞的內容時會將呼叫端重新導向。用來停用預設行為。 |  |
-| `mbox3rdPartyId` | *xxx* | 如果您有要用於設定檔鎖定目標的自訂訪客 ID，請使用此值。 |  |
+| `mbox3rdPartyId` | *xxx* | 如果您有自己的自訂訪客ID可用於描述檔定位，請使用此選項。 |  |
 
 ### 可能的[!DNL Target]伺服器響應
 
 | 回應 | 說明 |
 |--- |--- |
 | //錯誤: | 當它無法傳回內容時由負載平衡器產生 |
-| success | `mboxNoRedirect` 參數設為 &#39;true&#39;，而伺服器未傳回任何建議 (亦即，沒有 mbox 的相符項目或伺服器快取未初始化)。 |
+| 成功 | `mboxNoRedirect` 參數設為 &#39;true&#39;，而伺服器未傳回任何建議 (亦即，沒有 mbox 的相符項目或伺服器快取未初始化)。 |
 | bad request | 遺漏 `mbox` 參數。<ul><li>`mboxDefault` 或 `mboxNoRedirect` 參數未指定。</li><li>`mboxTrace` 要求參數已指定但 `mboxNoRedirect` 未指定。</li><li>當 mbox 名稱的結尾是 `mboxTarget` 尾碼時，`-clicked` 參數未指定。</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 當要求的相符項目不存在時，`mboxDefault` 未指定，並且 `mboxNoRedirect` 參數未指定。 |
 | `Invalid mbox name:= MBOX_NAME` | 指出 `mbox` 參數包括無效的字元。 |
 | `Mbox name [MBOX_NAME] is too long` | 指出 `mbox` 參數長於 250 個字元。 |
 
-## 選項1和2 {#capacity}的容量指南
-
-以下容量准則適用於傳送API和rawbox電子郵件範本選項：
-
-* 請求的速率應限制為每秒1,000個請求，或是每日最高流量的25倍
-* 以每分鐘200次請求的步驟降低流量
-
-如果您想使用較高的費率限制，請連絡您的客戶經理。
-
-## 選項 3: 使用僅供下載的範本 {#section_518C279AF0094BE780F4EA40A832A164}
+## 選項3:使用僅下載範本{#section_518C279AF0094BE780F4EA40A832A164}
 
 照常設定建議，但選擇顯示區域中的&#x200B;**僅供下載**，而不是範本和 mbox 組合。然後在 ESP 中，告訴 ESP 您所建立的建議 ID。ESP 透過 API 存取建議資料。該資料顯示應為特定類別或主要項目所建議的項目，例如購物車中放棄的項目。ESP 會儲存資料，以其自身的外觀和感覺連接它，顯示各項目的相關資訊，並透過電子郵件傳送。
 
