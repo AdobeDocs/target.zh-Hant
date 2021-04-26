@@ -4,9 +4,9 @@ breadcrumb-title: Target 指南
 user-guide-description: 瞭解如何量身打造並個人化客戶體驗，以便在您的網站和行動網站、應用程式、社交媒體和其他數位通道上獲得最大收益。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1607'
 ht-degree: 74%
 
 ---
@@ -103,6 +103,7 @@ ht-degree: 74%
             + [裝置上決策概觀](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
             + [支援的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
             + [規則對象](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [疑難排解](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + at.js 如何運作 {#at-js}
             + [at.js 運作方式概覽](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [At.js 處理忽隱忽現情況的方式](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
