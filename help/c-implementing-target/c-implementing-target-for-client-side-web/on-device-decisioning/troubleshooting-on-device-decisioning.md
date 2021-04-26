@@ -5,22 +5,16 @@ title: 如何使用at.js JavaScript程式庫疑難排解裝置上決策？
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # 疑難排解at.js的裝置上決策
 
-請完成下列步驟，以疑難排解在Adobe Target使用at.js JavaScript程式庫的裝置上決策問題：
-
-1. 啟用at.js的主控台記錄檔
-1. 在瀏覽器的「網路」索引標籤中驗證規則物件下載
-1. 使用at.js自訂事件驗證規則物件下載
-
-以下各節將更詳細地說明每個步驟：
+完成下列步驟，以疑難排解[!DNL Adobe Target]中使用at.js JavaScript程式庫的裝置上決策問題：
 
 ## 步驟1:啟用at.js的主控台記錄檔
 
