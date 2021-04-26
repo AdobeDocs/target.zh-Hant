@@ -5,10 +5,10 @@ title: 如何疑難排解Target?
 feature: 疑難排解
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 89%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -136,6 +136,10 @@ ht-degree: 89%
 ## 行動應用程式
 
 * [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+
+## 裝置上決策
+
+* [at.js的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
 
 ## 報表
 
