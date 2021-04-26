@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3748'
 ht-degree: 6%
 
 ---
@@ -97,7 +97,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 只有在需要[!DNL Target]決策的所有頁面上都有高效能時，才應使用此決策方法。 此外，請記住，當選取此決策方法時，您不符合裝置上決策資格的[!DNL Target]活動將不會傳送或執行。 at.js程式庫2.5.0+設定為僅尋找快取的規則物件以做出決策。
 
-下圖說明您的訪客、瀏覽器、at.js 2.5.0+和Akamai CDN之間的互動。 Akamai CDN會快取訪客首次瀏覽的規則物件。 對於新訪客的首次頁面瀏覽，JSON規則對象必須從Akamai CDN下載，才能在訪客的瀏覽器上快取至本機。 下載JSON規則工件後，會立即做出決定，而不需封鎖網路呼叫。 以下流程圖會擷取新訪客。
+下圖說明您的訪客、瀏覽器、at.js 2.5.0+和Akamai CDN之間的互動。 Akamai CDN會快取訪客首次瀏覽的規則物件。 對於新訪客的首次頁面瀏覽，JSON規則對象必須從Akamai CDN下載，才能在訪客的瀏覽器上快取至本機。 下載JSON規則工件後，立即做出決定，而不需封鎖網路呼叫。 以下流程圖會擷取新訪客。
 
 ![僅限裝置的流程圖](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only.png)
 
@@ -111,7 +111,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | at.js程式庫會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
 | 5 | Akamai CDN會以JSON規則對象回應。 |
 | 6 | JSON規則物件會在訪客的瀏覽器上快取至本機。 |
@@ -169,7 +169,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 系統會向Adobe Target邊緣網路提出頁面載入要求，包括所有已設定的參數，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。 |
 | 5 | 同時，at.js會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
 | 6 | (Adobe Target邊緣網路)描述檔指令碼會執行，然後饋送至描述檔商店。 Profile Store會從觀眾程式庫要求合格的觀眾（例如，從[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共用的觀眾）。 |
@@ -197,7 +197,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 會提出要求以擷取體驗。 |
 | 5 | at.js程式庫會確認JSON規則物件已快取，並執行記憶體中的擷取體驗決定。 |
 | 6 | 已測試的元素會隱藏。 |
@@ -369,7 +369,7 @@ AT: LD.ArtifactProvider artifact received - status=200
 
    ![Google Chrome中的「網路」索引標籤](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### 使用at.js自訂事件驗證規則物件下載
+### 步驟3:使用at.js自訂事件驗證規則物件下載
 
 at.js程式庫會派送兩個新的自訂事件，以支援裝置上的決策。
 
