@@ -5,7 +5,7 @@ title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 30%
@@ -20,7 +20,7 @@ ht-degree: 30%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 26 年 4 月 | [at.js的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 新增疑難排解區段。 |
+| 26 年 4 月 | [疑難排解at.js的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主題。 |
 | 19 年 4 月 | [裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 已新增下列新文章：<ul><li>[裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[支援的裝置上決策功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[裝置上決策規則假象](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 已新增有關`decisioningMethod`的資訊。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 新增下列項目：<ul><li>關於`decisioningMethod`鍵的資訊。</li><li>&quot;getCallOffers()進行裝置上決策的範例。&quot;</li></ul> |
