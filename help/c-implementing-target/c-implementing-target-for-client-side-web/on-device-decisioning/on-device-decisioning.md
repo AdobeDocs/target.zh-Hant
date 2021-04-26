@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 7%
+source-wordcount: '3747'
+ht-degree: 6%
 
 ---
 
@@ -97,7 +97,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 只有在需要[!DNL Target]決策的所有頁面上都有高效能時，才應使用此決策方法。 此外，請記住，當選取此決策方法時，您不符合裝置上決策資格的[!DNL Target]活動將不會傳送或執行。 at.js程式庫2.5.0+設定為僅尋找快取的規則物件以做出決策。
 
-下圖說明您的訪客、瀏覽器、at.js 2.5.0+和Akamai CDN之間的互動。 Akamai CDN會快取訪客首次瀏覽的規則物件。 對於新訪客的首次頁面瀏覽，JSON規則對象必須從Akamai CDN下載，才能在訪客的瀏覽器上快取至本機。 下載JSON規則工件後，立即做出決定，而不需封鎖網路呼叫。 以下流程圖會擷取新訪客。
+下圖說明您的訪客、瀏覽器、at.js 2.5.0+和Akamai CDN之間的互動。 Akamai CDN會快取訪客首次瀏覽的規則物件。 對於新訪客的首次頁面瀏覽，JSON規則對象必須從Akamai CDN下載，才能在訪客的瀏覽器上快取至本機。 下載JSON規則工件後，會立即做出決定，而不需封鎖網路呼叫。 以下流程圖會擷取新訪客。
 
 ![僅限裝置的流程圖](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only.png)
 
@@ -109,7 +109,7 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 | 步驟 | 說明 |
 | --- | --- |
-| 3 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
 | 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | at.js程式庫會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
@@ -134,9 +134,9 @@ Adobe TargetJS SDK讓客戶在決策時可選擇效能與新鮮的資料。 換�
 
 | 步驟 | 說明 |
 | --- | --- |
-| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 3 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | at.js程式庫會解譯JSON規則工件，並執行記憶體中的擷取體驗決定。 |
 | 5 | 已測試的元素會隱藏。 |
 | 6 | at.js程式庫會顯示內文，以便載入其餘的頁面以供訪客檢視。 |
@@ -169,7 +169,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 | --- | --- |
 | 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 系統會向Adobe Target邊緣網路提出頁面載入要求，包括所有已設定的參數，例如（ECID、客戶ID、自訂參數、使用者設定檔等）。 |
 | 5 | 同時，at.js會要求從離訪客最近的Akamai CDN擷取JSON規則對象。 |
 | 6 | (Adobe Target邊緣網路)描述檔指令碼會執行，然後饋送至描述檔商店。 Profile Store會從觀眾程式庫要求合格的觀眾（例如，從[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共用的觀眾）。 |
@@ -195,9 +195,9 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 
 | 步驟 | 說明 |
 | --- | --- |
-| 3 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
+| 1 | 從[Adobe Experience Cloud身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)檢索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>您也可以以非同步方式載入at.js程式庫，並在頁面上建置選擇性的預先隱藏程式碼片段。 |
-| 3 | at.js程式庫會隱藏主體，以防止閃爍。 |
+| 1 | at.js程式庫會隱藏主體，以防止閃爍。 |
 | 4 | 會提出要求以擷取體驗。 |
 | 5 | at.js程式庫會確認JSON規則物件已快取，並執行記憶體中的擷取體驗決定。 |
 | 6 | 已測試的元素會隱藏。 |
@@ -329,3 +329,63 @@ adobe.target.getOffers({
 1. 建立並啟用裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)支援的[活動類型，並確認裝置上決策符合資格。
 1. 透過at.js設定UI，將&#x200B;**[!UICONTROL 決策方法]**&#x200B;設為&#x200B;**[!UICONTROL &quot;Hybrid&quot;]**&#x200B;或&#x200B;**[!UICONTROL &quot;僅限裝置上&quot;]**。
 1. 下載並部署At.js 2.5.0+至您的頁面。
+
+## 疑難排解
+
+完成下列步驟以疑難排解裝置上的決策：
+
+1. 啟用at.js的主控台記錄檔
+1. 在瀏覽器的「網路」索引標籤中驗證規則物件下載
+1. 使用at.js自訂事件驗證規則物件下載
+
+以下各節將更詳細地說明每個步驟：
+
+### 步驟1:啟用at.js的主控台記錄檔
+
+附加URL參數`mboxDebug=1`可讓at.js在瀏覽器主控台中列印訊息。
+
+所有訊息都包含首碼&quot;AT:&quot;，以方便概述。 為確保對象已成功載入，控制台日誌應包含類似以下的消息：
+
+```
+AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
+AT: LD.ArtifactProvider artifact received - status=200
+```
+
+下圖顯示控制台日誌中的這些消息：
+
+![具有對象消息的控制台日誌](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
+
+### 步驟2:在瀏覽器的「網路」索引標籤中驗證規則物件下載
+
+開啟瀏覽器的「網路」標籤。
+
+例如，若要在Google Chrome中開啟DevTools:
+
+1. 按Ctrl+Shift+J(Windows)或Command+Option+J(Mac)。
+1. 導航至「網路」頁籤。
+1. 依關鍵字&quot;rules.json&quot;篩選呼叫，以確保只顯示對象規則檔案。
+
+   此外，您還可以依&quot;/delivery|rules.json/&quot;篩選，以顯示所有[!DNL Target]呼叫和對象rules.json。
+
+   ![Google Chrome中的「網路」索引標籤](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
+
+### 使用at.js自訂事件驗證規則物件下載
+
+at.js程式庫會派送兩個新的自訂事件，以支援裝置上的決策。
+
+* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
+* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
+
+您可以訂閱，以監聽應用程式中的這些自訂事件，以便在對象規則檔案下載成功或失敗時採取動作。
+
+以下範例顯示監聽對象下載成功和失敗事件的程式碼範例：
+
+```javascript
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
+  console.log("Artifact successfully downloaded", e.detail);
+}, false);
+
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
+  console.log("Artifact failed to download", e.detail);
+}, false);
+```
