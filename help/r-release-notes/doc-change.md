@@ -5,9 +5,9 @@ title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '897'
 ht-degree: 30%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 30%
 | --- | --- | --- |
 | 9 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增at.js 2.5.0版發行前的資訊（2021年4月19日） |
 | 9 年 4 月 | [Target 版本說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增Target Standard/Premium 21.4.1版本的發行前資訊（2021年4月19日） |
-|  | [將 Recommendations 與電子郵件整合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | 已新增下列章節：&quot;選項1和2的容量准則。&quot; |
+|  | [將 Recommendations 與電子郵件整合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 已添加說明選項1和2容量准則的附註。 |
 | 3月29日 | [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新增常見問答：<ul><li>基於最近檢視項目的建議會持續存在於單一訪客的多個裝置上嗎？</li></ul> |
 | 3月23日 |  [版本說明](/help/r-release-notes/release-notes.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
