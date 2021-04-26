@@ -5,9 +5,9 @@ title: 如何運作 [!DNL Target] ?
 feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2563'
 ht-degree: 31%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 31%
 下列資源包含協助您實作AEP Web SDK或at.js的詳細資訊：
 
 * [Adobe Experience Platform網頁SDK擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [使用Adobe Experience Platform Launch實施目標](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [實 [!DNL Target] 施Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次訪客要求已針對[!DNL Target]最佳化的頁面時，都會傳送要求至定位系統。 請求有助於判斷要為該訪客提供哪些內容。 此程式會即時進行。 每次載入頁面時，系統會提出內容要求並履行。 內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。每位網站訪客最有可能回應、互動或最終購買的內容。 個人化內容可協助將回應率、贏取率和收入最大化。
 
