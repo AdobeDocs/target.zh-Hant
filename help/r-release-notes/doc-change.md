@@ -5,9 +5,9 @@ title: 我可以在哪裡檢視Target的檔案更新？
 feature: '  版本說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '932'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 30%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 27 年 4 月 | [Cookie 設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | 更新主題，指出at.js 2.3.1版或更新版本中的Cookie持續時間（`deviceIdLifetime`設定）可覆寫。 |
+|  | [Adobe Target指南](/help/target-home.md) | 已新增有關Adobe峰會的資訊。 |
 | 26 年 4 月 | [疑難排解at.js的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主題。 |
 | 19 年 4 月 | [裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 已新增下列新文章：<ul><li>[裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[支援的裝置上決策功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[裝置上決策規則假象](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 已新增有關`decisioningMethod`的資訊。 |
