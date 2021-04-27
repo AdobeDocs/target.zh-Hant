@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 97%
+source-wordcount: '1827'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 | Cookie 名稱 | mbox。 |
 | Cookie 網域 | 您從中提供內容的第一層與第二層網域。因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`。 |
 | 伺服器網域 | `clientcode.tt.omtrdc.net`，使用您帳戶的用戶端代碼。 |
-| Cookie 持續時間 | 自訪客上次登入後兩年，Cookie仍會留在訪客的瀏覽器上。 您無法變更 Cookie 持續時間。 |
+| Cookie 持續時間 | 自訪客上次登入後兩年，Cookie仍會留在訪客的瀏覽器上。<br>此 `deviceIdLifetime` 設定在 [at.js 2.3.1版或更新版本中可覆寫](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 |
 | P3P 原則 | 此 Cookie 會依大部分瀏覽器中預設設定的要求，以 P3P 原則進行發佈。P3P 原則會為瀏覽器指出是誰提供此 Cookie，以及將如何使用此資訊。 |
 
 此 Cookie 會保留一些值，以管理您訪客體驗 促銷活動的方式:
