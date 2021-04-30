@@ -5,10 +5,10 @@ title: 如何疑難排解與增強的Experience Composer相關的問題？
 feature: 可視化體驗撰寫器 (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 28e21ea0b0e2306a54c9353ae57de7de5d94f564
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 62%
+source-wordcount: '441'
+ht-degree: 61%
 
 ---
 
@@ -22,11 +22,12 @@ ht-degree: 62%
 
 請您的IT團隊允許列出下列IP位址：
 
-| 地區 | IP 位址 | 主機名稱 |
-|--- |--- |--- |
-| 美國 | 52.55.99.45 | `us1-proxy.adobemc.com` |
-| 歐洲、中東和非洲 (EMEA) | 52.51.238.221 | `emea1-proxy.adobemc.com` |
-| 亞太 (APAC) | 52.193.67.35 | `apac1-proxy.adobemc.com` |
+* 52.16.72.74
+* 52.5.174.79
+* 54.246.238.65
+* 54.249.183.154
+* 54.65.105.214
+* 54.82.142.68
 
 您可能會在 Target 中看見下列錯誤訊息:
 
