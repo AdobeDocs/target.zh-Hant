@@ -5,10 +5,10 @@ title: 我可以在哪裡找到關於 [!DNL Target] Recommendations的問題和�
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '2957'
-ht-degree: 62%
+source-wordcount: '2940'
+ht-degree: 59%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 62%
 | --- | --- |
 | 透過mbox或API更新項目屬性 | <ul><li>Recommendations在15分鐘內更新。</li><li>現有建議和項目屬性會顯示，直到有更新可供使用為止。</li><li>目錄搜尋會在目錄索引後更新（3-8小時）。</li></ul> |
 | 透過動態消息更新項目屬性 | <ul><li>Recommendations在摘要後（2-8小時）更新。</li><li>現有建議和項目屬性會顯示，直到有更新可供使用為止。</li><li>「目錄搜尋」會在饋送收錄（2-8小時）和後續目錄索引（3-8小時）之後更新。 目錄搜尋總計在5-16小時內更新。</li></ul> |
-| 透過Target UI或API從目錄刪除的項目 | <ul><li>Recommendations在15分鐘內更新。</li><li>現有建議和項目屬性會顯示，直到有更新可供使用為止。</li><li>目錄搜尋會在目錄索引後更新（3-8小時）。</li></ul> |
+| 透過[!DNL Target] UI或API從目錄刪除的項目 | <ul><li>Recommendations在15分鐘內更新。</li><li>現有建議和項目屬性會顯示，直到有更新可供使用為止。</li><li>目錄搜尋會在目錄索引後更新（3-8小時）。</li></ul> |
 | 透過mbox或API新增至目錄的項目 | <ul><li>Recommendations在演算法執行後更新。 演算法執行是每12小時排程1-2天演算法，而7天以上演算法則每24小時排程一次。</li><li>現有建議會顯示，直到更新可供使用為止（如果新增的項目不是請求的金鑰）。</li><li>如果所新增的項目是請求的金鑰，則會顯示備份建議，直到更新可供使用為止。</li><li>目錄搜尋會在目錄索引後更新（3-8小時）。</li></ul> |
 | 透過動態消息新增至型錄的項目 | <ul><li>Recommendations在攝入飼料後（2-8小時）更新。 後續演算法會排程為每12小時執行1-2天演算法，而7天以上演算法則每24小時執行。 Recommendations在2-32小時內更新。</li><li>現有建議會顯示，直到更新可供使用為止（如果新增的項目不是請求的金鑰）。</li><li>如果所新增的項目是請求的金鑰，則會顯示備份建議，直到更新可供使用為止。</li><li>「目錄搜尋」會在饋送收錄（2-8小時）和目錄索引（3-8小時）後更新。 目錄搜尋總計在5-16小時內更新。</li></ul> |
 
@@ -65,8 +65,8 @@ ht-degree: 62%
 
 ## 使用者的行為（例如，按一下產品A並購買產品B）需要多久才會反映在使用者收到的建議&#x200B;*中？*
 
-* 目前檢視／購買的產品／內容會影響使用者在相同的頁面檢視／目標內容要求上收到的建議。
-* 歷史使用者行為，例如「上次檢視的產品」、「最常檢視的產品」，以及整體檢視／購買歷史記錄都會以該請求更新，並影響使用者在下一頁檢視／目標內容請求上收到的建議。 例如，「最近檢視的項目」和「建議供您使用」演算法會隨每個產品檢視／購買更新，並反映在後續的內容請求中。
+* 目前檢視／購買的產品／內容會影響使用者在相同的頁面檢視/[!DNL Target]內容要求上收到的建議。
+* 歷史使用者行為，例如「上次檢視的產品」、「最常檢視的產品」，以及整體檢視／購買歷史記錄都會以該請求更新，並影響使用者在下一頁檢視/[!DNL Target]內容請求上收到的建議。 例如，「最近檢視的項目」和「建議供您使用」演算法會隨每個產品檢視／購買更新，並反映在後續的內容請求中。
 
 ## 使用者的行為（例如按一下產品A和購買產品B）需要多久才會反映在建議&#x200B;*其他*&#x200B;使用者收到的建議中？
 
@@ -95,30 +95,30 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-Target 的[篩選不相容條件](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)設定可控制演算法選擇器的智慧型篩選。
+[!DNL Target] 的[篩選不相容條件](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)設定可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
->此設定僅適用於可視化體驗撰寫器 (VEC) 中建立的活動。此設定不適用於表單式體驗撰寫器中建立的活動 (Target 沒有位置環境定義)。
+>此設定僅適用於可視化體驗撰寫器 (VEC) 中建立的活動。此設定不適用於在表單型體驗撰寫器中建立的活動（[!DNL Target]沒有位置內容）。
 
 若要存取[!UICONTROL 篩選不相容的條件]設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」:
 
 ![](assets/recs_settings_filter.png)
 
-如果「未」啟用[!UICONTROL 篩選不相容的條件]設定，Target 就不會篩選「演算法選擇器」中的篩選演算法，所有演算法都會出現。
+如果「未」啟用[!UICONTROL 篩選不相容的條件]設定， 就不會篩選「演算法選擇器」中的篩選演算法，所有演算法都會出現。[!DNL Target]
 
-如果[!UICONTROL 篩選不相容的條件]設定已啟用，則在 VEC 活動中，Target 會從選取的位置讀取 entityId 和 categoryId，然後根據 `currentItem|currentCategory` 來顯示演算法 (如果各自的值存在該位置上)。因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
+如果啟用「篩選不相容的准則]」設定，在VEC活動中，[!DNL Target]會從選取的位置讀取entityId和類別Id，然後顯示基於`currentItem|currentCategory`的演算法（如果該位置有個別值）。 [!UICONTROL 因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
 
 如果[!UICONTROL 篩選不相容的條件]設定已啟用，您仍可在選取條件時取消選取[!UICONTROL 「相容」]核取方塊，以檢視不相容的演算法。
 
 ![](assets/compatible_checkbox.png)
 
-下列清單包含 Target 未顯示[!UICONTROL 「相容」]核取方塊的特殊情況:
+以下清單包含[!DNL Target]不顯示[!UICONTROL Compatible]複選框的特殊情況：
 
 * entityId 和 categoryId 都存在位置上，所以完全不篩選。
 * 您使用 [!DNL mbox.js] 55 版或更舊版本。
 * 未從頁面上觸發任何 mbox (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* Target 參數未定義。
+* [!DNL Target] 參數未定義。
 
 ## 如果「建議」中的集合變成零 (0)，怎麼辦?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
@@ -132,7 +132,7 @@ Target 的[篩選不相容條件](/help/c-recommendations/plan-implement.md#conc
 * 索引是最新的嗎? 請移至[!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的 (例如「3 小時前已編列索引」)。您可以視需要重新整理索引。
 * 您是否更動過摘要或資料層，而導致實體不再符合收集規則? 請確定「大小寫」相符 (區分大小寫)。
 * 摘要執行成功嗎? 是否有人變更了 FTP 目錄、密碼等?
-* Target 會儘力讓傳送儘快更新 (在客戶的頁面/應用程式上)。然而，Target 還是必須在 UI 上為市場行銷人員提供一些表示法。Target 不一定會為了等待 UI 更新同步而延遲傳送更新。您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
+* [!DNL Target] 會儘力讓傳送儘快更新 (在客戶的頁面/應用程式上)。不過，[!DNL Target]還必須在UI中為行銷人員提供一些表示法。 [!DNL Target] 不一定會為了等待 UI 更新同步而延遲傳送更新。您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
 
 ## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -150,7 +150,7 @@ Target 的[篩選不相容條件](/help/c-recommendations/plan-implement.md#conc
 
 ## 為什麼[!DNL Target]有時無法顯示建議？{#section_DB3F40673AED42228E407C05437D99E9}
 
-Target 有時會因為可用的建議數量不夠而無法顯示建議。
+[!DNL Target] 有時會因為可用的建議數量不夠而無法顯示建議。
 
 每個條件產生的值數量是設計中指定之實體數量的三倍。產生 3 倍的值之後會套用執行階段篩選 (例如、詳細目錄、mbox 屬性比對)，最後在傳送時可能會少於 3 倍的值。若要減少這種情況發生，請隱藏其他實體來增加設計中的實體數量。
 
@@ -167,7 +167,7 @@ Target 有時會因為可用的建議數量不夠而無法顯示建議。
 
 ## 插入/更新產品之 API 呼叫的大小限制是多少? 我是否可以使用 API (而非動態消息) 更新某次呼叫中的 50,000 種產品? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞 `application/x-www-form-urlencoded` 內容類型標頭時才會實施該限制。
+[!DNL Target] 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞 `application/x-www-form-urlencoded` 內容類型標頭時才會實施該限制。
 
 您當然可以嘗試在單一呼叫中傳送 50,000 個產品。如果失敗，您應該將其分成幾個批次。Adobe 通常建議客戶將其呼叫分成 5,000 或 10,000 個產品批次，以降低系統負載造成逾時的可能性。
 
@@ -190,7 +190,7 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 ## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。必要欄長度的其他限制可見於 [Target 限制頁面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
+摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。必要欄長度的其他限制可見於 [[!DNL Target]  限制頁面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
 ## 是否可以動態地排除實體? {#exclude}
 
@@ -198,7 +198,7 @@ Target 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞
 
 若要啟用排除功能，請使用 `excludedIds` mbox 參數。此參數指向逗號分隔的實體 ID 清單。例如, `mboxCreate(..., "excludedIds=1,2,3,4,5")`。要求建議時會傳送值。
 
-此排除僅對目前的 Target 呼叫進行；後續 Target 呼叫不會排除項目，除非 `excludedIds` 值再度傳遞。若要在每個頁面將購物車中的項目自推薦中排除，繼續在每個頁面傳遞 `excludedIds` 值。
+排除僅對當前[!DNL Target]呼叫執行；在後續的[!DNL Target]呼叫中，項目不會排除，除非再次傳遞`excludedIds`值。 若要在每個頁面將購物車中的項目自推薦中排除，繼續在每個頁面傳遞 `excludedIds` 值。
 
 >[!NOTE]
 >
