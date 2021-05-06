@@ -5,7 +5,7 @@ description: 瞭解如何使用Adobe [!DNL Target] 來個人化客戶體驗，�
 feature: 總覽
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新: 2021 年 5 月 5 日 ([查看變更](r-release-notes/doc-change.md))**
+**最近更新: 2021 年 5 月 6 日 ([查看變更](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
