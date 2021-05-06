@@ -6,10 +6,10 @@ feature: 對象
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 69%
+source-wordcount: '993'
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 69%
 
 使用[!DNL Adobe Target]中的對象，根據其地理位置（包括其國家／地區、州／省、城市、郵遞區號、DMA或行動電信業者）來定位使用者。
 
-地理位置參數可讓您依據訪客的地理位置來鎖定目標活動和體驗。您可以根據國家、州/省、城市、郵遞區號、緯度、經度、DMA 或行動電信業者來包含或排除訪客。此資料會根據訪客的 IP 位址，與每一個 Target 請求一併傳送。選取這些參數就像任何定位值一樣。
+地理位置參數可讓您依據訪客的地理位置來鎖定目標活動和體驗。您可以根據國家、州/省、城市、郵遞區號、緯度、經度、DMA 或行動電信業者來包含或排除訪客。此資料會隨每個[!DNL Target]請求傳送，並以訪客的IP位址為基礎。 選取這些參數就像任何定位值一樣。
 
 ## 建立地理定位{#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}的對象
 
@@ -44,7 +44,7 @@ ht-degree: 69%
 1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-下圖顯示某個受眾，鎖定從緯度大於 44 度和經度小於 22 度之位置存取活動的使用者。
+下圖顯示的對象針對從大於44°的緯度和小於22°的經度存取活動的使用者。
 
 ![](assets/target_geo.png)
 
@@ -116,7 +116,7 @@ ht-degree: 69%
 
 **行動裝置的地理鎖定目標如何運作?**
 
-大部分行動裝置使用者透過WiFi存取內容，這表示Target的IP地理定位與桌上型電腦一樣精確。 透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
+大部分行動裝置使用者透過WiFi存取內容，這表示[!DNL Target]的IP地理定位與案頭一樣精確。 透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可解決某些行動地理位置問題。
 
 **地理功能如何處理來自 AOL 的訪客?**
 
@@ -133,7 +133,7 @@ ht-degree: 69%
 
 **如何以來自不同位置的使用者身分來測試我的活動?**
 
-* **at.js 1.*x***:您可以使用不同位置的IP位址覆寫您的IP位址，並使用參 `mboxOverride.browserIp url` 數。所以，如果貴公司位於英國，但您的全球促銷活動目標訪客位在紐西蘭的奧克蘭，則您可以使用這種 URL，假設 `60.234.0.39` 是奧克蘭境內的 IP 位址:
+* **at.js 1.*x***:您可以使用不同位置的IP位址覆寫您的IP位址，並使用參 `mboxOverride.browserIp url` 數。因此，如果您的公司位於英國，但您的全球促銷活動針對紐西蘭的奧克蘭的訪客，請使用此URL樣式，假設`60.234.0.39`是奧克蘭的IP位址：
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -141,9 +141,9 @@ ht-degree: 69%
 
    >[!NOTE]
    >
-   >`mboxOverride.browserIp` 在at.js 1中支援。*x* 版。at.js 2不支援此功能。*x* 版本不支援此函數。
+   >`mboxOverride.browserIp` 在at.js 1中支援。*x* 版。at.js 2不支援此功能。*x*。
 
-* **at.js 1.*x***:若要使用at.js 2覆寫您的IP位址。*x*，安裝瀏覽器擴充功能／外掛程式（例如Chrome或Firefox的X-Forwarded-For標題）。此擴充功能可讓您在頁面請求中傳遞x-forwarded-for標題。
+* **at.js 2.*x***:若要使用at.js 2覆寫您的IP位址。*x*，安裝瀏覽器擴充功能／外掛程式（例如Chrome或Firefox的X-Forwarded-For標題）。此擴充功能可讓您在頁面請求中傳遞x-forwarded-for標題。
 
 **波多黎各和香港等地區要如何對應至地理鎖定目標結構?**
 
