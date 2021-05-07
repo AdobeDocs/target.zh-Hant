@@ -2,13 +2,13 @@
 keywords: 系統更新;疑難排解;維護;系統狀態;更新狀態
 description: 查看Adobe的當前狀態 [!DNL Target] ，幫助您確定可能遇到的問題是系統更新還是例行維護。
 title: 我可以在何處查看 [!DNL Target] 和其他Adobe產品的狀態？
-feature: '  版本說明 '
+feature: '發行說明 '
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
