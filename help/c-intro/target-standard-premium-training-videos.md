@@ -1,14 +1,14 @@
 ---
-keywords: 訓練影片；youtube；影片；視訊訓練；教學課程；教學課程；影片
+keywords: 培訓影片;youtube;影片;影片 培訓;教學課程;教學課程;影片
 description: 觀看訓練影片，協助您充份運用 [!DNL Target] Standard and [!DNL Target] Premium。
 title: 我可以在哪裡找到 [!DNL Target] 訓練影片？
-feature: 概述
+feature: 總覽
 exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 44%
+ht-degree: 78%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 44%
 
 ## Adobe[!DNL Target] -Tutorials和視頻
 
-[Adobe Target·Experience League](https://guided.adobe.com/#recommended/solutions/target)頁面上提供的操作視訊和教學課程，其中著重說明Target的功能。
+ 一系列操作影片和教學課程，重點說明 [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 頁面上提供的 Target 功能。
 
 ![Experience League 影片](/help/c-intro/assets/experience-league.png)
 
 ## Adobe[!DNL Target]Tutorials{#tutorials}
 
-[Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)頁面提供[!DNL Target]概念和工具的簡介影片。
+若要取得 [!DNL Target] 概念與工具的簡介影片，請前往 [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant)頁面。
 
 ![Adobe Target 教學課程](/help/c-intro/assets/adobe-target-tutorials-new.png)
