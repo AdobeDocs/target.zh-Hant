@@ -1,18 +1,18 @@
 ---
-keywords: IP位址；IP位址；白名單；allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
+keywords: IP 位址;IP 位址;合格清單;允許清單;防火牆;recs;摘要;伺服器;adobe marketing cloud;推薦
 description: 檢視 [!DNL Target] Recommendations饋送處理伺服器中使用的IP位址清單，協助您設定防火牆，以允許源自Adobe伺服器的IP位址。
-title: Recommendations饋送處理伺服器使用哪些IP位址？
+title: Recommendations 摘要處理伺服器使用哪些 IP 位址？
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 8%
+ht-degree: 24%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations 摘要處理伺服器使用的 IP 位址
+# Recommendations 摘要處理伺服器使用的 ![PREMIUM](/help/assets/premium.png) IP 位址
 
 [!DNL Adobe Target] [!DNL Recommendations]饋送處理伺服器中使用的IP位址清單，可協助您設定防火牆，以允許源自Adobe伺服器的IP位址。
 
