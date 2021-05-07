@@ -28,7 +28,7 @@ ht-degree: 94%
 
 [!DNL Target] 中的 [!DNL Recommendations] 活動針對 [!DNL Recommendations Classic] 進行以下幾方面的改善:
 
-## 建議作為選件
+## Recommendations 作為選件
 
 您可以在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 與[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。
 
