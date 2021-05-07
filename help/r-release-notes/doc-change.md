@@ -48,7 +48,7 @@ ht-degree: 62%
 | 3 月 29 日 | [Recommendations 常見問題](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新增常見問答：<ul><li>基於最近檢視項目的建議會持續存在於單一訪客的多個裝置上嗎？</li></ul> |
 | 3 月 23 日 |  [版本說明](/help/r-release-notes/release-notes.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增 at.js 版本 2.4.1 的發行說明。 |
-|  | [Recommendations 常見問題](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新下列常見問題：<ul><li>目錄中的項目更新要多久時間才會反映在網站上?</li></ul> |
+|  | [Recommendations 常見問題](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新下列常見問題：<ul><li>目錄中的項目更新要多久時間才會反映在網站上？</li></ul> |
 | 3 月 22 日 | [Recommendations 摘要處理伺服器使用的 IP 位址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 更新IP位址清單。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「實體」下方的「實體數」區段。 |
 |  | [地理](/help/c-target/c-audiences/c-target-rules/geo.md) | 新增關於 at.js 2 的資訊。*請* 在「How can I test my activities as me a user from a different location?（如何測試我的活動，好像我是來自不同位置的使用者？）」下方 |
@@ -81,4 +81,4 @@ ht-degree: 62%
 | 1 月 19 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 Target 21.1.1 版的相關資訊 (2021 年 1 月 19 日)。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新 `productPurchasedID` 參數的文字。 |
 |  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增在複製具有有效促銷活動的 [!UICONTROL Recommendation] 時的已知問題。重複活動中的任何變更也會影響原始活動，反之亦然。包括一個臨時因應措施。 |
-|  | [發行說明](/help/r-release-notes/release-notes.md): 21.1.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+|  | [發行說明](/help/r-release-notes/release-notes.md)：21.1.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從版本說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
