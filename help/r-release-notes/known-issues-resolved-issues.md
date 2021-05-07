@@ -1,20 +1,20 @@
 ---
-keywords: 已知問題；已解決問題；發行說明；錯誤；問題；修正
-description: 尋找有關Adobe Target已知問題的資訊，包括因應措施資訊。 問題解決後，會移至「已解決」區段。
-title: 我可以在哪裡找到已知問題和已解決問題的相關資訊？
-feature: '  版本說明 '
+keywords: 已知問題;已解決問題;發行說明;錯誤;問題;修正
+description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括因應措施的資訊。問題解決後會被移到「已解決」區段。
+title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
+feature: 發行說明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
 source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '4373'
-ht-degree: 58%
+ht-degree: 98%
 
 ---
 
-# 已知問題和已解決的問題
+# 已知問題和已解決問題
 
-關於[!DNL Adobe Target]已知問題的資訊。 也包括已解決問題的相關資訊。
+關於 [!DNL Adobe Target] 已知問題的資訊。也包括已解決問題的相關資訊。
 
 >[!NOTE]
 >
@@ -26,82 +26,82 @@ ht-degree: 58%
 
 ### Adobe Target(A4T)自動分配和自動定位活動的分析量度
 
-[!DNL Target] UI可讓使用者選擇不支援的參與和收入量度作為[!UICONTROL 自動分配]和[!UICONTROL 自動目標]活動中最佳化的主要目標量度。 支援轉換度量；參與和收入度量&#x200B;*不支援*。 如果您選取參與或收入目標量度，則不會建立最佳化模型。
+[!DNL Target] UI可讓使用者選擇不支援的參與和收入量度，作為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動中最佳化的主要目標量度。 支援轉換量度；&#x200B;*不*&#x200B;支援參與和收入量度。如果您選擇參與或收入目標量度，則最佳化模型不會建立。
 
-如需支援和不支援的目標度量清單，請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 (TNT-38409)
+如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
 ### 頁面傳送 {#page-delivery}
 
-如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這些額外空間是修飾性的，不會影響觀眾定義的建立和選件傳送。 (TGT-35920)
+如果您新增範本規則，例如[頁面傳送](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這些額外的空格是修飾性的，不影響對象定義的建立與選件傳送。(TGT-35920)
 
-### QA預覽連結
+### QA 預覽連結
 
-如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結。 封存已儲存的活動，這些活動不再主動用來防止此問題持續發生。 (TNT-37294)
+如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結。封存已儲存的活動，這些活動不再主動用於防止此問題持續發生。(TNT-37294)
 
-### Recommendations活動的QA模式
+### Recommendations 活動的 QA 模式
 
-如果活動中使用的標準是項目型或類別型型，則已知問題會防止預覽。 (TNT-37455)
+如果活動中使用的標準是項目型或類別型，則已知問題會防止預覽。(TNT-37455)
 
 ### 重新導向選件 {#redirect}
 
 重新導向選件的已知問題如下：
 
-* 在設定Analytics for Target(A4T)的活動中使用重新導向選件時，有限數量的客戶報告流量分佈的差異程度較高。
+* 在設定 Analytics for Target (A4T) 的活動中使用重新導向選件時，有限數量的客戶報告流量分佈的差異程度較高。
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
-### 取消在Visual Experience Composer(VEC){#cancel}中載入頁面
+### 取消在 Visual Experience Composer (VEC) 中載入頁面{#cancel}
 
-* 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定目標] (XT) 活動時，目前存在下列已知問題。
+* 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定] (XT) 活動時，目前存在下列已知問題。
 
-   在其中一個VEC引導式工作流程中，當您取消頁面載入時，VEC中會顯示[!UICONTROL Modifications]面板，並將重新導向至URL範本套用至體驗（例如「體驗B」）。 當您繼續步驟二或步驟三然後回到步驟一時，會發生下列情況。
+   在其中一個 VEC 引導式工作流程中，當您取消頁面載入時，VEC 中會顯示 [!UICONTROL 修改] 面板，並將重新導向至 URL 範本套用至體驗 (例如「體驗 B」)。當您繼續步驟二或步驟三然後回到步驟一時，會發生下列情況。
 
    根據預設，在「體驗 B」上，取消的網站載入範本隨即呈現，且可存取[!UICONTROL 修改]面板，但情況不應如此，因為此體驗已套用重新導向至 URL 範本。系統應顯示重新導向至 URL 範本。
 
    若要在 VEC 中顯示體驗的正確狀態：
 
-   如果您切換至其他體驗，然後切換回「體驗B」,[!DNL Target]會顯示套用至此體驗之URL範本的重新導向，且無法存取[!UICONTROL 修改]面板。 (TGT-32138)
+   如果您切換至其他體驗，然後切換回「體驗 B」，[!DNL Target] 會顯示此體驗上已套用的重新導向至 URL 範本，且無法存取[!UICONTROL 修改]面板。(TGT-32138)
 
 * 若為單頁應用程式 (SPA) 網站，取消載入不會允許您編輯[!UICONTROL 修改]面板下的動作。
 
 ### Recommendations
 
-以下是[!UICONTROL Recommendations]活動的已知問題：
+下列是 [!UICONTROL Recommendations] 活動的已知問題：
 
-* 複製具有活動促銷的[!UICONTROL Recommendation]活動時，複製活動中的任何變更目前也會影響原始活動，反之亦然。 (TGT-39155)
+* 複製具有有效促銷活動的 [!UICONTROL Recommendation] 活動時，重複活動中的任何變更目前也會影響原始活動，反之亦然。(TGT-39155)
 
-   臨時解決方法：
+   臨時因應措施：
 
-   * 停用活動促銷
-   * 複製活動
-   * 在每個活動中重新啟用促銷
+   * 停用活動的促銷活動
+   * 重複活動
+   * 在每個活動中再次啟用促銷活動
 
-* 當[!DNL Target]傳回含getOffer()的JSON選件時，會傳回JSON類型。 不過，如果您傳回JSONRecommendations設計，則會傳回HTML類型。
+* 當 [!DNL Target] 傳回含 getOffer() 的 JSON 選件時，它會傳回 JSON 類型。然而，如果您傳回 JSON Recommendations 設計，則它會傳回 HTML 類型。
 * 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
 * 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
-* 透過API建立的系列、排除、准則和設計不會顯示在Target使用者介面中，而且只能透過API編輯。 同樣地，如果您在Target UI中建立任何這些項目，並稍後透過API加以編輯，這些變更不會反映在Target UI中。 透過API編輯的項目應繼續透過API編輯，以避免遺失任何修改。 (TGT-35777)
+* 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。(TGT-35777)
 * 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
-* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。「自訂條件」編輯檢視中顯示的狀態會即時擷取，且一律為最新狀態。 (TGT-35896、TGT-36173)
-* 標準和設計卡片無法顯示使用活動的正確數目。 如果A/B活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。 (TGT-36621、TGT-37217)
+* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896、TGT-36173)
+* 標準和設計卡片無法顯示正在使用它們的活動的正確數目。 如果 A/B 活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。(TGT-36621、TGT-37217)
 
 ### 多變數測試 (MVT) 活動
 
-在MVT活動中，在檢查量度時，表格和圖形中顯示的成功者不一致。 如果用戶從「摘要」切換到「圖形視圖」，然後切換回「摘要視圖」，更改度量，然後切換到「圖形視圖」，就會發生這種情況。 發生此問題時，摘要檢視一律會顯示正確的獲勝者。如果使用者從未在摘要檢視間切換圖表檢視，圖表便會檢視顯示正確的獲勝者。
+在 MVT 活動中，在檢查量度時，表格和圖形中顯示的成功者不一致。如果用戶從「摘要」切換到「圖形視圖」，然後切換回「摘要視圖」，更改量度，然後切換到「圖形視圖」，就會發生這種情況。發生此問題時，摘要檢視一律會顯示正確的獲勝者。如果使用者從未在摘要檢視間切換圖表檢視，圖表便會檢視顯示正確的獲勝者。
 
 ### at.js {#atjs}
 
 at.js 的已知問題如下：
 
-* 使用2.2.0之前的at.js版本，如果頁面元素上沒有Adobe Analytics代碼（例如按鈕），點按追蹤不會報告Analytics for Target(A4T)中的轉換。 at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* 使用 2.2.0 之前的 at.js 版本，如果頁面元素上沒有 Adobe Analytics 代碼 (例如按鈕)，點按追蹤不會報告 Analytics for Target (A4T) 中的轉換。at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 * 如果您使用 at.js 2.1.1 或更舊版本建立沒有任何修改的體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 的數據之中。此外，[ttMeta 外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)可能會無法正常運作。
 
    若要解決此問題，可在體驗內容中使用空白字元。(TNT-33366)
 
    >[!NOTE]
    >
-   >此問題的修正已包含在at.js 2.2.0中。升級至[最新版本或at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對2.2.0之前的at.js版本使用上述解決方法。
+   >at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。
 
-* 當頁面載入至Visual Experience Composer(VEC)時，Target必須判斷全域mbox設定是已啟用還是已停用，以及使用者嘗試在VEC中套用建議的位置是否存在entityID或categoryID。 條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
+* 將頁面載入 Visual Experience Composer (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用推薦的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
    使用 at.js 時，「相容性」核取方塊會隱藏，使您無法看見不相容的演算法。
 
@@ -116,106 +116,106 @@ at.js 的已知問題如下：
 
 ### 成功量度
 
-將進階選項「計數如何遞增」設為「每次曝光」或「每次曝光（排除重新整理）」的成功度量無法用作其他度量所依賴的成功度量。
+將進階選項「計數將如何增加」設為「在每次曝光時」或「在每次曝光時 (不含頁面重新整理)」的成功量度，無法當作另一個量度所相依的成功量度使用。
 
-當成功度量設定為每次曝光增加時，Target會在每次訪客造訪此成功度量時再次計算訪客。 然後 Target 會將成功度量「會員資格」重設為 0，使得它可以在下一次曝光時再次計入。因此，如果其他量度需要先檢視此量度，Target永遠不會識別使用者已檢視第一個量度。
+當成功量度設為在每次曝光時遞增時，Target 會在每次訪客造訪此成功量度時便再次計入訪客。然後 Target 會將成功量度「會員資格」重設為 0，使得它可以在下一次曝光時再次計入。因此，如果其他量度要求先看見此量度，Target 永遠不會將該使用者識別為已看見第一個量度。
 
 ### [!DNL Target](A4T)的分析
 
-在Analysis Workspace使用Target活動曝光和轉換時，請套用「相同觸控」Attribution IQ模型至量度，以確保計數準確。 若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵，以修改欄設定>啟用使用非預設歸因模型>選取相同觸控模型&#x200B;**。**&#x200B;若未套用此模型，這些指標就會被誇大。
+在 Analysis Workspace 中使用 Target 活動曝光和轉換時，請套用「相同接觸」 Attribution IQ 模型至量度，以確保計數準確。若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=zh-Hant)，請在量度上按一下滑鼠右鍵，以&#x200B;**修改欄設定 > 啟用使用非預設歸因模型 > 選擇相同接觸模型**&#x200B;。&#x200B;若未套用此模型，這些量度就會被誇大。
 
-所有目前的Analytics套件都可以加入此模型並搭配Attribution IQ。 如果您沒有Attribution IQ存取權，請依賴「報告與分析」中的A4T資料。
+所有目前的 Analytics 套件都可以用 Attribution IQ 加入此模型。如果您沒有 Attribution IQ 存取權，請依賴「Reports &amp; Analytics」中的 A4T 資料。
 
 ### Target API
 
 客戶無法透過 Adobe I/O 上的 v3 版本 A/B 活動 API，針對自動分配活動執行 CRUD 作業。
 
-### 地理定位
+### 地理目標定位
 
-2020年5月10日，Adobe更新了GEO提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。 並非所有Adobe傳送伺服器都受此項變更影響。 因此，在2020年5月10日至7月22日之間，使用這些值的觀眾可能無法符合所有正確訪客的資格。
+2020年5月10日，Adobe 更新了 GEO 提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。並非所有 Adobe 傳送伺服器都受到此項變更的影響。因此，在 2020 年 5 月 10 日至 7 月 22 日之間使用這些值的對象可能不符合所有正確訪客的資格。
 
 ### 報告——可下載。csv報告中的資料與[!DNL Target] UI中顯示的報告不一致。{#csv}
 
-如果活動使用多個度量，則為下載產生的報表會不一致。 可下載的報表僅根據報表設定產生，並會針對使用的任何其他量度考慮相同的值。
+如果活動使用多個量度，則為下載所產生的 .csv 報告會不一致。可下載的報告僅是根據報告設定而產生，並會針對使用的任何其他量度考慮相同的值。
 
-真相來源永遠是[!DNL Target] UI中顯示的報表。
+真相來源永遠是在 [!DNL Target] UI 中顯示的報告。
 
-## 已解決的問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
+## 已解決問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-已解決上述已知問題後，這些問題會移至下列章節。如有需要，會新增其他附註。
+上述已知問題解決後，它們會被移至下列章節。如有需要，會新增其他附註。
 
 ### 顯示「處理」標籤的影像選件
 
-「選件」頁面上的影像選件有時會在影像上傳後數小時內保留「處理」標籤。 在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並傳送。 (MCUI-10264、TGT-37458)
+「選件」頁面上的影像選件有時會在影像上傳後數小時內保留「處理」標籤。在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並加以傳送。(MCUI-10264、TGT-37458)
 
-此問題已在Target Standard/Premium 20.10.1版中修正。
+此問題已在 Target Standard/Premium 20.10.1 版中修正。
 
 ### Adobe Target(A4T)報告分析
 
-已解決與A4T相關的下列問題：
+下列與 A4T 相關的問題已解決：
 
-* 使用[!DNL Analytics]目標度量影響A4T活動的問題，造成A4T報表顯示未預期的流量分割或人為誇大的轉換。
+* 對使用 [!DNL Analytics] 目標量度的 A4T 活動造成影響的問題，會造成 A4T 報告顯示未預期的流量分割或人為誇大的轉換。
 
-   此問題會影響下列條件下的A4T報表：
+   此問題會影響下列條件下的 A4T 報告：
 
-   * 活動是在2020年9月15日到11月5日（太平洋標準時間上午4點）之間建立或保存的，並且
-   * 活動已選擇[!DNL Analytics]量度作為目標量度。
+   * 活動是在 2020 年 9 月 15 日到 11 月 5 日 (太平洋標準時間上午 4 點) 之間建立或儲存的，並且
+   * 活動已選擇 [!DNL Analytics] 量度作為目標量度。
 
-   [!DNL Target] 在此期間正確分割流量。但是，活動設定中的50/50分割可能會顯示為A4T報表中的90/10分割。
+   [!DNL Target] 在此期間正確分割流量。但是，比方說，活動設定中的 50/50 分割可能在 A4T 報告中可能會顯示為 90/10 分割。
 
-   對於受影響的活動，在11月5日（太平洋標準時間上午4點）之後首次瀏覽活動的訪客，可看到正確的流量分割。 此時後建立或儲存的新活動會正確報告流量分割。
+   對於受影響的活動，在 11 月 5 日 (太平洋標準時間上午 4 點) 之後首次瀏覽活動的訪客可看到正確的流量分割。在此期間之後建立或儲存的新活動會正確報告流量分割。
 
-* 使用[!DNL Target]目標度量影響A4T活動的問題，造成A4T報告報告低或無轉換。
+* 對使用 [!DNL Target] 目標量度的 A4T 活動造成影響的問題，會造成 A4T 報告顯示低轉換或無轉換。
 
    >[!NOTE]
    >
-   >此問題僅影響A4T報告。 它不會影響活動傳送。
+   >此問題僅影響 A4T 報告。它不會影響活動傳送。
 
-   此問題會影響下列條件下的A4T報表：
+   此問題會影響下列條件下的 A4T 報告：
 
-   * A4T活動於2020年9月22日至11月11日（太平洋標準時間下午2:30），以及
-   * 此活動已選取[!DNL Target]量度作為目標量度，且
-   * 當訪客點擊活動的目標事件時(例如[!UICONTROL 按一下元素])，也有低優先順序的非A4T活動符合轉換事件。 如果非A4T活動的設定量度與A4T活動相同，或是設定了「任何mbox」量度，則可能會發生此情況。
+   * A4T 活動在 2020 年 9 月 22 日到 11 月 11 日 (太平洋標準時間下午 2 點 30 分) 之間處於運轉狀態，並且
+   * 該活動已選擇 [!DNL Target] 量度作為目標量度，並且
+   * 當訪客點擊活動的目標事件 (例如[!UICONTROL 按一下元素]) 時，也會有符合轉換事件的低優先順序的非 A4T 活動。如果非 A4T 活動的設定了與 A4T量度活動相同的量度，或是如果設定了「任何 mbox」量度，就有可能發生此情況。
 
-   此問題影響2020年9月22日至11月11日（太平洋標準時間下午2:30）之間的A4T活動報告。 針對受影響的A4T活動進行報表時，會在此日期範圍外正確顯示轉換。 非A4T活動的報表未受影響。
+   此問題影響了 2020 年 9 月 22 日到 11 月 11 日 (太平洋標準時間下午 2 點 30 分) 之間的即時 A4T 活動報告。受影響的 A4T 活動的報告會顯示此日期範圍外的正確轉換。非 A4T 活動報告未受影響。
 
-如果您有其他問題，請洽詢您的客戶成功經理(CSM)或[Adobe客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 (CSO 20201110016)
+如果您有其他問題，請洽詢客戶成功經理 (CSM) 或 [Adobe 客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。(CSO 20201110016)
 
-### 自動目標報告{#at-metrics}
+### 自動鎖定目標報告{#at-metrics}
 
-已解決從9月15日下午2:30開始影響[!DNL Adobe Target Premium]使用者[!UICONTROL  Auto-Target]報表的問題。(PDT)至10月6日，上午九點二刻(PDT)。 檢視受影響轉換度量的報表時（使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按mbox]」選項設定），轉換率報告不正確。 目前沒有已知的傳送問題。
+對從 9 月 15 日下午 2:30 開始影響 [!DNL Adobe Target Premium] 使用者的[!UICONTROL 自動鎖定目標]報告的問題已解決。檢視受影響的轉換量度 (使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按 mbox]」選項設定) 的報告時，轉換率報告不正確。目前沒有已知的傳送問題。
 
-要重新同步並更正報告，請執行以下操作：
+若要重新同步並更正報告，請執行以下操作：
 
-1. 複製並儲存受影響的[!UICONTROL 自動定位]活動。
-1. 啟動新儲存的活動（如果受影響的活動是即時的）。
-1. 刪除原始（受影響）活動。
+1. 複製並儲存受影響的[!UICONTROL 自動鎖定目標]活動。
+1. 啟動新儲存的活動 (如果受影響的活動是即時的)。
+1. 刪除原始 (受影響) 的活動。
 
-(TGT-38522, CSO 20201006007)
+(TGT-38522、CSO 20201006007)
 
-### 報表 {#conversions-audiences}
+### 報告 {#conversions-audiences}
 
-目前，轉換的增量會根據使用對象而有所不同。
+目前，轉換的增加會根據使用的對象而有所不同。
 
-例如，對於相同的訪客，如果轉換計數設定為遞增「每個參與者一次：」
+例如，對於相同的訪客，如果轉換計數設定為「每個參與者增加一次」：
 
-* 受眾：瀏覽層級轉換的「所有合格訪客」僅增加一次。 這是預期的行為。
-* 受眾：每次瀏覽層級轉換的「新訪客」會錯誤地遞增，而不是只增加一次。 這不是預期的行為。
+* 對象：造訪層級轉換的「所有合格訪客」只會增加一次。這是預期行為。
+* 對象：造訪層級轉換的「新訪客」每次都會錯誤地增加一次，而不是只增加一次。這不是預期行為。
 
-如果轉換計數設為遞增「每次曝光：」
+如果轉換計數設為「每次曝光」都會增加：
 
-* 受眾：訪客層級轉換的「所有合格訪客」只會錯誤地增加一次，而不是每次增加。 這不是預期的行為。
-* 受眾：每次訪客層級轉換的「新訪客」都會增加。 這是預期的行為。
+* 對象：造訪層級轉換的「新訪客」只錯誤地增加一次，而不是每次都增加。這不是預期行為。
+* 對象：造訪層級轉換的「新訪客」每次都增加一次。這是預期行為。
 
-請注意，此問題僅與[!DNL Target]報告有關。 使用[!UICONTROL Analytics for Target](A4T)報告時，這並不是問題。
+請注意，此問題僅與 [!DNL Target]報告有關。使用 [!UICONTROL Analytics for Target (A4T)] 報告時，這並不是問題。
 
 此問題已解決。
 
-### 使用Google Chrome 80+版時，未在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中載入的頁面
+### 使用 Google Chrome 80+ 版時，未在 Visual Experience Composer (VEC) 或 Enhanced Experience Composer (EEC) 中載入的頁面
 
-此已知問題與Google在變更Cookie的預設行為時，從Chrome 80版開始，未使用「相同網站屬性」。 在變更前，Chrome會將不含SameSite屬性的所有Cookie預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更Cookie在GET和POST要求時的傳送方式。 請參閱[SameSite Updates](https://www.chromium.org/updates/same-site)。
+此已知問題與 Google 從 Chrome 80 版開始將 Cookie 預設行為變更為不使用 SameSite 屬性的決定相關。在此變更前，Chrome 將不含 SameSite 屬性的所有 Cookie 預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更 Cookie 在 GET 和 POST 請求時的傳送方式。請參閱 [SameSite 更新](https://www.chromium.org/updates/same-site)。
 
-如需詳細資訊和修正，請參閱「最近宣佈的Google Chrome SameSite Cookie實施政策如何影響VEC和EEC?」 在[疑難排解與Visual Experience Composer和Enhanced Experience Composer相關的問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中。
+如需詳細資訊和修正，請參閱[疑難排解 Visual Experience Composer 和 Enhanced Experience Composer 相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
 
 ### 使用自訂體驗作為控制時，自動鎖定目標活動的圖表報表無法呈現
 
@@ -231,7 +231,7 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 ### 實作：全域 Mbox 自動建立
 
-在「實作」標籤（[!UICONTROL 「管理>實作]）上，新布建的租用戶的「全域Mbox自動建立」欄位預設為「false」。
+在「實施」標籤 ([!UICONTROL 「管理」 > 「實施」]) 上，新佈建的租用戶的「[!UICONTROL 全域 Mbox 自動建立]」欄位預設為「false」。
 
 佈建後第一次下載 mbox.js 時，所下載的 mbox.js 檔案和 [!UICONTROL  後端中的]「全域 Mbox 自動建立」[!DNL Target]欄位會設為 &quot;true&quot;，但它會在 UI 的[!UICONTROL 「實作」]頁面上繼續顯示為 &quot;false&quot;，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 &quot;true&quot;)。
 
@@ -243,17 +243,17 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 ### 報告與極端訂單
 
-從2019年11月25日到2020年4月26日，一個Target伺服器遇到問題，導致極端訂單值計入收入型報表量度(AOV、RPV)。 從2019年12月19日到2020年4月23日，另一台伺服器遇到了相同問題。 此問題並未影響所有Target伺服器或所有Target客戶。
+從 2019 年 11 月 25 日到 2020 年 4 月 26 日，一個 Target 伺服器遇到問題，導致極端訂單值計入收入型報告量度 (AOV、RPV)。從 2019 年 12 月 19 日到 2020 年 4 月 23 日，另一台伺服器遇到了相同問題。此問題並未影響所有 Target 伺服器或所有 Target 客戶。
 
-如果符合下列條件，則&#x200B;*not*&#x200B;會受到影響：
+如果符合下列條件，則您&#x200B;*沒有*&#x200B;受到影響：
 
-* 您的Target實作使用不同的伺服器。
-* 您的報表未排除極端訂單。
-* 您使用轉換度量來測量活動。
-* 您的Target活動使用Analytics for Target(A4T)。
+* 您的 Target 實施使用不同的伺服器。
+* 您的報告未排除極端訂單。
+* 您使用了轉換量度來測量活動。
+* 您的 Target 活動使用 Analytics for Target (A4T)。
 * 您位於亞太地區。
 
-若要判斷此問題是否影響Target報表，請聯絡[Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+若要判斷此問題是否影響 Target 報告，請聯絡 [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### Recommendations
 
@@ -312,9 +312,9 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 已在 2018 年 10 月 25 日修正
 
-### 自動個人化 (AP) 選件層級報表
+### Automated Personalization (AP) 選件層級報表
 
-按一下自動個人化 (AP) 活動報表的已鎖定目標體驗，查看選件層級報表時，目前會看到空白結果、錯誤訊息或載入中圖示。(TNT-30695)
+按一下 Automated Personalization (AP) 活動報表的已鎖定目標體驗，查看選件層級報表時，目前會看到空白結果、錯誤訊息或載入中圖示。(TNT-30695)
 
 已在 2018 年 9 月 27 日修正。
 
@@ -441,7 +441,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### Adobe Target(A4T)報告分析
 
-切換報表度量時，報表未更新。此問題僅影響UI。 對於報表資料收集或傳送沒有影響。(TGT-22970)
+切換報表度量時，報表未更新。此問題僅影響 UI。對於報表資料收集或傳送沒有影響。(TGT-22970)
 
 在 Target 17.2.2.0 版本 (2017 年 2 月 24 日) 中修正。
 
