@@ -49,7 +49,7 @@ Adobe Target 最近由 Forrester 和 Gartner 認可為市場領先業者。
 
 ## 網路研討會：HSBC如何運用[!DNL Target]Adobe和AI快速最佳化並大規模提供個人化
 
-* **[在此檢視網路研討會影片](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
+* **[在此檢視網路研討會影片](https://seminars.adobeconnect.com/ps4ozlg7qfdy/？proto=true)。**
 
 McKinsey Digital 的報告指出，「我們在短短八個星期左右內，於客戶與企業數位採用上向前躍進了五年。」*
 
@@ -67,4 +67,4 @@ McKinsey Digital 的報告指出，「我們在短短八個星期左右內，於
 
 在2021年3月31日取代mbox.js後，Adobe Target產品經理David Son最近主持了開發人員聊天，討論將mbox.js移轉至at.js的優點。
 
-* **[在此檢視網路研討會影片](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
+* **[在此檢視網路研討會影片](https://seminars.adobeconnect.com/ptdo6mfo6qn6/？proto=true)。**
