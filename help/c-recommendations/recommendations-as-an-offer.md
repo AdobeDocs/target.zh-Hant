@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;選件
-description: 瞭解如何在A/B測試（包括自動分配和自動定位）和體驗定位(XT)活動中，將Adobe Recommendations當做選件。
-title: 如何在其他活動類型中使用建議作為選件？
+description: 了解如何使用 Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 以及體驗鎖定 (XT) 活動的選件。
+title: 如何使用 Recommendations 作為其他活動類型的選件？
 feature: Recommendations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 建議作為選件
+# ![PREMIUM](/help/assets/premium.png) Recommendations 作為選件
 
 您現在可以在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 與[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。
 
@@ -33,11 +33,11 @@ ht-degree: 92%
    >
    >若為 A/B 測試，您可以選擇[「自動分配」](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/c-activities/auto-target/auto-target-to-optimize.md)選項，以便根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-1. 建立[體驗](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增建議作為選件的元素，選取&#x200B;**[!UICONTROL 「插入在前」]**、**[!UICONTROL 「插入在後」]**&#x200B;或&#x200B;**[!UICONTROL 「取代為」]**&#x200B;動作，然後選取[!UICONTROL 「建議」]。
+1. 建立[體驗](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增 Recommendations 作為選件的元素，選取&#x200B;**[!UICONTROL 「插入在前」]**、**[!UICONTROL 「插入在後」]**&#x200B;或&#x200B;**[!UICONTROL 「取代為」]**&#x200B;動作，然後選取[!UICONTROL 「建議」]。
 
    下圖顯示[!UICONTROL 「插入在後 > 建議」]選項。
 
-   ![插入建議作為選件](/help/c-recommendations/assets/replace-after-recommendations.png)
+   ![插入 Recommendations 作為選件](/help/c-recommendations/assets/replace-after-recommendations.png)
 
 1. 從下列選項中選擇，按照頁面類型檢視熱門建議條件:
 
@@ -121,6 +121,6 @@ Recommendations 選件的 (演算法) 狀態會顯示在包含 Recommendations �
 
 ![Recommendations 選件狀態](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 訓練影片：建議作為選件![概述標章](/help/assets/overview.png)
+## 訓練影片：Recommendations 作為![Overview badge](/help/assets/overview.png) 的選件
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
