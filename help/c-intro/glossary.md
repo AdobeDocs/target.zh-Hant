@@ -1,13 +1,13 @@
 ---
-description: Adobe [!DNL Target] 中使用的不同術語代表什麼意思？ 尋找常用詞語的定義，協助您進一步瞭解 [!DNL Target]。
-title: 我可以在哪裡找到Target中使用的詞語和定義？
-feature: 概述
+description: Adobe [!DNL Target] 中使用的不同術語代表什麼意思？ 找出共通字彙的定義以協助您更好地使用 [!DNL Target].
+title: 我可以在哪裡找到 Target 中使用的字彙和定義？
+feature: 總覽
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 **對象**
 
-將看到鎖定活動的一組類似的活動加入者。具有相同特徵的一組人員，例如來自中西部的新訪客、舊訪客或help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds。 受眾功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標受眾，Target 會根據建立活動期間所定義的條件，決定要顯示的體驗。
+將看到鎖定活動的一組類似的活動加入者。具有相同特性的一組人員，例如新訪客、回訪訪客或來自中西部的 help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds。對象功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標對象，Target 會根據建立活動期間所定義的條件，決定要顯示的體驗。
 
 **自動分配**
 
@@ -61,7 +61,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 自動鎖定目標使用進階機器學習，來識別多個高效能之市場行銷人員定義的體驗，並根據訪客的個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以便個人化內容並促進轉換。
 
-**自動個人化**
+**Automated Personalization**
 
 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同變數，以便個人化內容並促進轉換。
 
@@ -245,13 +245,13 @@ Target Standard 中活動的視覺表示。
 
 **新訪客**
 
-如果符合下列條件之一，則「新訪客」區段會包含訪客：
+如果符合下列條件之一，則訪客會包含在「新訪客」區段：
 
 * 這是訪客首次造訪網站。
-* 這是訪客自清除Cookie後第一次造訪網站。
-* 這是訪客自[訪客資料存留期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)過期後首次瀏覽網站。
+* 這是訪客自 Cookie 清除後第一次造訪網站。
+* 這是訪客自 [訪客設定檔期限](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) 過期後第一次造訪網站。
 
-如需詳細資訊，請參閱[如何計算新訪客和舊訪客量度？](/help/c-reports/reporting-frequently-asked-questions.md#methodology) 在報告問答中。與下方的「舊訪客」對比。
+如需詳細資訊，請參閱[新訪客和回訪訪客量度如何計算？](/help/c-reports/reporting-frequently-asked-questions.md#methodology)，位於報告問答中，與下方的「回訪訪客」對照。
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -291,11 +291,11 @@ Target Standard 中活動的視覺表示。
 
 將值傳遞給目的地頁面的 mbox，作為轉介 URL 參數和值。使用這些來定位訪客來源，例如，
 
-**再度訪問的訪客**
+**回訪訪客**
 
-如果使用者先前瀏覽網站，離開至少30分鐘，並使用相同的Cookie再次返回網站，則該訪客會納入「舊訪客」區段。 只要訪客在其描述檔存留期內回訪，此訪客即為舊訪客。
+如果使用者先前造訪網站，離開至少 30 分鐘，並使用相同的 Cookie 再次返回網站，則該訪客會納入「回訪訪客」區段。只要訪客在設定檔期限之內回來，就是回訪訪客。
 
-如需詳細資訊，請參閱「報告問答」中的「新增訪客和舊訪客」量度計數](/help/c-reports/reporting-frequently-asked-questions.md#methodology)。與上述「新訪客」對比。[
+如需詳細資訊，請參閱「報告問答」中的[新訪客和回訪訪客量度如何計算？](/help/c-reports/reporting-frequently-asked-questions.md#methodology)與上述「新訪客」對照。
 
 **角色**
 
@@ -349,9 +349,9 @@ Target Standard 中活動的視覺表示。
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
-**瀏覽**
+**造訪**
 
-瀏覽有時稱為作業。 瀏覽會在閒置30分鐘後結束，這表示在伺服器要求之間至少已傳送30分鐘給Target。
+造訪有時稱為工作階段。造訪會在閒置 30 分鐘後結束，這表示在伺服器請求之間至少已傳送 30 分鐘至 Target。
 
 **訪客**
 
