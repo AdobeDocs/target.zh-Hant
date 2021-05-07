@@ -1,20 +1,20 @@
 ---
-keywords: mvt;多變數測試;多變數測試最佳做法;mvt 最佳做法;mvt 組合;mvt 報表
-description: 瞭解如何改善效能、避免問題，並修正在Adobe Target中建立及執行多變數測試活動時可能發生的已知問題。
-title: 多變數測試的最佳實務？
-feature: Multivariate Tests
-translation-type: tm+mt
+keywords: mvt;多變數測試;多變數測試最佳做法;mvt 最佳做法;mvt 組合;mvt 報告
+description: 了解如何改善效能、避免問題，以及修正在 Adobe Target 中建立和執行多變數測試活動時可能會發生的已知問題。
+title: 多變數測試有哪些最佳實務？
+feature: 多變數測試
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
 
-# 多變數測試最佳作法
+# 多變數測試最佳實務
 
-協助您改善效能、避免問題並修正在[!DNL Adobe Target]中建立及執行「多變數測試」(MVT)活動時可能發生的已知問題的提示。
+提供提示，協助您改善效能、避免問題，以及修正在 [!DNL Adobe Target] 中建立和執行[!UICONTROL 多變數測試] (MVT) 活動時可能會發生的已知問題。
 
 ## 計劃 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -44,14 +44,14 @@ ht-degree: 91%
    確定流量估算程式對您的測試組態指示綠燈，使得您可以取得所需的結果。
 * 建議您每個元素的替代項目之間必須有大幅差異。
 
-## 分析  {#section_9A2118CF1039451681C13D9AE79A58AB}
+## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * 經常使用[位置貢獻報表](/help/c-reports/location-contribution-report.md)來監控每個位置和每個選件的效能。
 * 在[體驗效能報表](/help/c-reports/experience-performance-report.md)中，使用「最佳前五名」或「最差前五名」篩選所顯示的資料來進行決策。
 
    [!UICONTROL 全部]篩選器會使得您難以擷取需要的資訊，並且不是所有體驗都可以顯示在圖表中。如果想要查看不在最佳或最差前五名之內的特定體驗，請使用[!UICONTROL 全部]篩選。
 
-## 後續事項  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## 後續事項 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * 雖然 [!DNL Target] 可讓您編輯已上線的活動，請注意，編輯進行中的活動可能會將測試重設。因此，報表可能無法識別某些變更。只有在選件資料庫中變更 HTML 選件是安全的。
 
