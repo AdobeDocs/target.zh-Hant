@@ -22,7 +22,7 @@ ht-degree: 59%
 
 目前，沒有可讓客戶變更屬性類型的功能。若要變更，[開啟客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，指出需要將類型從字串變更為數值的屬性。
 
-## 目錄中的項目更新要多久時間才會反映在網站上?
+## 目錄中的項目更新要多久時間才會反映在網站上？
 
 時間範圍和結果會依項目的更新方式而有所不同。
 
@@ -72,7 +72,7 @@ ht-degree: 59%
 
 使用者在匯整時的行為會納入離線演算法處理，每12-24小時執行一次演算法。
 
-## 如果特殊字元破壞陣列，怎麼辦? {#section_D27214116EE443638A60887C7D1C534E}
+## 如果特殊字元破壞陣列，怎麼辦？ {#section_D27214116EE443638A60887C7D1C534E}
 
 在 JavaScript 中使用逸出值。引號 ( &quot; ) 會破壞陣列。下列程式碼片段是逸出值的範例:
 
@@ -87,7 +87,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 建立「建議」活動時，為何不是所有條件都可供選擇，包括自訂條件?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 建立「建議」活動時，為何不是所有條件都可供選擇，包括自訂條件？  {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 可用的條件取決於目前類別。建立推薦選件時，演算法選擇器會根據類別 ID 來顯示條件。
 
@@ -120,21 +120,21 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 未從頁面上觸發任何 mbox (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * [!DNL Target] 參數未定義。
 
-## 如果「建議」中的集合變成零 (0)，怎麼辦?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## 如果「建議」中的集合變成零 (0)，怎麼辦？  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 如果您看到一個集合原先不是零而現在變成零，請考量下列資訊：
 
 * 您可以重新儲存集合，檢查數字是否會更新。再次儲存，集合會重新執行所有使用該集合的演算法。
-* 您所看的環境對嗎? 請移至 [!DNL /target/products.html#recsSettings] 仔細檢查 (如下所示)。
+* 您所看的環境對嗎？ 請移至 [!DNL /target/products.html#recsSettings] 仔細檢查 (如下所示)。
 
    ![](assets/product_catalog.png)
 
-* 索引是最新的嗎? 請移至[!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的 (例如「3 小時前已編列索引」)。您可以視需要重新整理索引。
-* 您是否更動過摘要或資料層，而導致實體不再符合收集規則? 請確定「大小寫」相符 (區分大小寫)。
-* 摘要執行成功嗎? 是否有人變更了 FTP 目錄、密碼等?
+* 索引是最新的嗎？ 請移至[!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的 (例如「3 小時前已編列索引」)。您可以視需要重新整理索引。
+* 您是否更動過摘要或資料層，而導致實體不再符合收集規則？請確定「大小寫」相符 (區分大小寫)。
+* 摘要執行成功嗎? 是否有人變更了 FTP 目錄、密碼等？
 * [!DNL Target] 會儘力讓傳送儘快更新 (在客戶的頁面/應用程式上)。不過，[!DNL Target]還必須在UI中為行銷人員提供一些表示法。 [!DNL Target] 不一定會為了等待 UI 更新同步而延遲傳送更新。您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
 
-## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異? {#section_FCD96598CBB44B16A4C6C084649928FF}
+## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異？ {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 屬性加權有兩種形式：「標準屬性加權」和「內容相似度屬性加權」。
 
@@ -165,13 +165,13 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 #end 
 ```
 
-## 插入/更新產品之 API 呼叫的大小限制是多少? 我是否可以使用 API (而非動態消息) 更新某次呼叫中的 50,000 種產品? {#section_434FE1F187B7436AA39B7C14C7895168}
+## 插入/更新產品之 API 呼叫的大小限制是多少？ 我是否可以使用 API (而非動態消息) 更新某次呼叫中的 50,000 種產品？ {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target] 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞 `application/x-www-form-urlencoded` 內容類型標頭時才會實施該限制。
 
 您當然可以嘗試在單一呼叫中傳送 50,000 個產品。如果失敗，您應該將其分成幾個批次。Adobe 通常建議客戶將其呼叫分成 5,000 或 10,000 個產品批次，以降低系統負載造成逾時的可能性。
 
-## 建立 Recommendations 條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱?{#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## 建立 Recommendations 條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱？{#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 根據 mbox 參數建立建議條件、促銷活動或範本測試規則時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
@@ -184,15 +184,15 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果編輯現有條件、促銷活動或範本測試規則，則篩選條件將顯示建立期間提供的 mbox 名稱。
 
-## 定義新對象後，為何無法儲存舊版 Recommendations 活動?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定義新對象後，為何無法儲存舊版 Recommendations 活動？  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 請確定對象有唯一的名稱。若您為對象指定了與現有對象相同的名稱，則無法儲存舊版 Recommendations 活動 (2016 年 10 月以前建立的 Recommendations 活動)。
 
-## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少?  {#section_20F1AF4839A447B9889B246D6E873538}
+## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少？  {#section_20F1AF4839A447B9889B246D6E873538}
 
 摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。必要欄長度的其他限制可見於 [[!DNL Target]  限制頁面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
-## 是否可以動態地排除實體? {#exclude}
+## 是否可以動態地排除實體？ {#exclude}
 
 在查詢字串中，您可以傳遞要從推薦中排除之實體的實體 ID。例如，您可以排除已在購物車中的項目。
 
@@ -208,7 +208,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 依預設，新建立的建議會啟用此功能。必須儲存現有的建議來支援動態排除的實體。
 
-## Recommendations 內容 trace 中有時會回傳 NO_CONTENT 回應是什麼意思?
+## Recommendations 內容 trace 中有時會回傳 NO_CONTENT 回應是什麼意思？
 
 若請求的演算法和重要組成沒有提供推薦，則會回傳 NO_CONTENT。一般而言，此情況會在備份於演算法中停用且下列一個或多個陳述為真時發生：
 
