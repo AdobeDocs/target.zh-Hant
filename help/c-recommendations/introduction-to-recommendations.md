@@ -1,14 +1,14 @@
 ---
-keywords: Recommendations；介紹；網路研討會；演示
+keywords: Recommendations;介紹;介紹;研討會;示範
 description: 瞭解Adobe中的Recommendations活動 [!DNL Target] ，這些活動可根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的內容。
-title: 什麼是Recommendations活動？
+title: 什麼是 Recommendations 活動？
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2115'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -36,18 +36,18 @@ ht-degree: 94%
 
 ![插圖顯示 Target 如何在各種位置提供建議](/help/c-recommendations/assets/intro-3.png)
 
-* **發佈**: 網站發佈商使用 [!DNL Target Recommendations] 向網站訪客建議文章並促進更多互動。
-* **影片教學課程**: [!DNL Adobe Creative Cloud] 使用 [!DNL Target]，在 Photoshop 應用程式中向 Photoshop 使用者建議影片教學課程。
-* **遊戲**: 遊戲公司使用 [!DNL Target]，在使用者的遊戲主機上向其建議遊戲和內容。
-* **B2B 銷售**: [企業對企業公司使用 Target，向 B2B 潛在客戶建議影片、白皮書和部落格文章、提供下載，以及為現有客戶提供協助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
+* **發佈**：網站發佈者使用 [!DNL Target Recommendations] 向網站訪客建議文章並促進更多互動。
+* **影片教學課程**：[!DNL Adobe Creative Cloud] 使用 [!DNL Target]，在 Photoshop 應用程式中向 Photoshop 使用者建議影片教學課程。
+* **遊戲**：遊戲公司使用 [!DNL Target]，在使用者的遊戲主機上向其建議遊戲和內容。
+* **B2B 銷售**：[企業對企業公司使用 Target，向 B2B 潛在客戶建議影片、白皮書和部落格文章、提供下載，以及為現有客戶提供協助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
-* **旅行**: [德國旅遊書店使用Target為旅客推薦酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **旅遊**：[某個德國旅行社使用 Target 向旅客建議旅館及其他內容](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
-* **零售**: [某個領先業界的 BB 零售商使用 Target，向瀏覽器及其行動應用程式中的回訪訪客建議最熱門的類別與產品](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
+* **零售**：[某個領先業界的 B2B 零售商使用 Target，向瀏覽器及其行動應用程式中的回訪訪客建議最熱門的類別與產品](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
 
 這些只是客戶使用 Target 提供個人化建議的一些方式。
 
-提供絕佳建議需要哪些要素?
+提供絕佳建議需要哪些要素？
 
 ![插圖顯示提供絕佳建議之三個元素](/help/c-recommendations/assets/intro-4.png)
 
@@ -63,9 +63,9 @@ ht-degree: 94%
 
 ![插圖顯示建議策略](/help/c-recommendations/assets/intro-5.png)
 
-* **您想要建議哪些項目?** 首先，請思考您想要建議哪些項目。可能是產品、影片或內容。
-* **您要在哪個位置顯示建議?** 接下來，請思考您要在哪個位置提供建議。廣泛來說，就是哪些管道 (網路、行動裝置、店內、資訊站等)? 客戶使用之旅的哪些環節會包含建議? 網站上的哪些頁面會包含建議?
-* **如何判斷建議是否成功?** 假設您有一個不含建議的體驗以及一個含有建議的體驗，或者您有兩個不同類型的建議。如何判斷哪個體驗對客戶來說是更好的體驗? 某些量度可能比其他量度更難測量。例如，建議對客戶期限值的影響通常很難直接取得。因此，通常取得一個較不抽象的量度以及一個較明確的量度會比較簡單，例如每次造訪帶來的收入、平均訂購值或點按次數。在某些情況下，您可能會想要將量度最小化，例如支援服務通話的數量。
+* **您想要建議哪些項目？** 首先，請思考您想要建議哪些項目。可能是產品、影片或內容。
+* **您要在哪個位置顯示建議？** 接下來，請思考您要在哪個位置提供建議。廣泛來說，就是哪些管道 (網路、行動裝置、店內、資訊站等)？ 客戶使用之旅的哪些環節會包含建議？ 網站上的哪些頁面會包含建議？
+* **如何判斷建議是否成功？** 假設您有一個不含建議的體驗以及一個含有建議的體驗，或者您有兩個不同類型的建議。如何判斷哪個體驗對客戶來說是更好的體驗？ 某些量度可能比其他量度更難測量。例如，建議對客戶期限值的影響通常很難直接取得。因此，通常取得一個較不抽象的量度以及一個較明確的量度會比較簡單，例如每次造訪帶來的收入、平均訂購值或點按次數。在某些情況下，您可能會想要將量度最小化，例如支援服務通話的數量。
 
 在想出策略之後，您就可以開始實施 [!DNL Target Recommendations] 了。
 
@@ -117,19 +117,19 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 ## 建立第一個 Recommendations 活動
 
-什麼是 [!DNL Recommendations] 活動?
+什麼是 [!DNL Recommendations] 活動？
 
 ![插圖顯示建立良好 Recommendations 活動之環節](/help/c-recommendations/assets/intro-11.png)
 
 [!DNL Recommendations] 活動由下列元件構成:
 
-* **受眾**: 誰應該看到這些建議?
-* **條件**: 應建議哪些項目?
-* **設計**: 應如何顯示建議項目?
+* **對象**：誰應該看到這些建議？
+* **條件**：應建議哪些項目？
+* **設計**：應如何顯示建議項目？
 
-![插圖顯示構成 Recommendations 活動的元素: 受眾、條件和設計](/help/c-recommendations/assets/intro-12.png)
+![插圖顯示構成 Recommendations 活動的元素：對象、條件和設計](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 隨附立即可用的 14 個內建受眾、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦過[關於在[!DNL Target]中建立觀眾](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
+[!DNL Target] 隨附立即可用的 14 個內建對象、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦[有關如何在 ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) 中建立對象的網路研討會[!DNL Target]。本節重點在於如何定義條件，這會定義將建議哪些項目。
 
 Target 使用條件卡的概念。條件卡就像個人化的方式。
 
