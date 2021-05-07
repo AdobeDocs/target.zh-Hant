@@ -1,9 +1,9 @@
 ---
 source-git-commit: b58048fcf65b4d691a95788a7963ccdd4ecf1505
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '427'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 # 投稿文章
@@ -16,13 +16,13 @@ ht-degree: 86%
 
 ## 有關您對 Adobe 內容的參與
 
-請參閱 [Adobe Docs投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+請參閱[Adobe 文件投稿人指南](https://docs.adobe.com/help/zh-Hant/contributor/contributor-guide/introduction.html)
 
 視您的身分和您要參與的變更種類，投稿方式會有所不同:
 
 ### 微幅修改
 
-如果您出於善意要提出微幅更新，請前往文章，然後按一下文章中的&#x200B;**「編輯」**&#x200B;連結，以前往文章的 GitHub 來源。接著，即可使用 GitHub UI 來提出更新。See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
+如果您出於善意要提出微幅更新，請前往文章，然後按一下文章中的&#x200B;**「編輯」**&#x200B;連結，以前往文章的 GitHub 來源。接著，即可使用 GitHub UI 來提出更新。請參閱一般的[Adobe 文件投稿人指南](https://docs.adobe.com/help/zh-Hant/contributor/contributor-guide/introduction.html)以瞭解詳情。
 
 您在此存放庫中對文件和程式碼範例所提交的微幅更正或說明，皆受 Adobe 使用條款保障。
 
@@ -44,18 +44,18 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群投稿人以使用 GitHub UI 來進行基本編輯，或取用存放庫來進行重大投稿。
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
+請參閱[Adobe 文件投稿人指南](https://docs.adobe.com/help/zh-Hant/contributor/contributor-guide/introduction.html)以瞭解詳情。
 
 ## 如何利用 Markdown 來將主題格式化
 
 此存放庫中的所有文章皆使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，請參閱:
 
-* [Markdown基本概念](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可列印的下拉式標籤表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown 基本介紹](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [可列印 markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 標籤
 
 在公開存放庫中，自動化標籤會指派給拉取要求，以協助我們管理拉取要求工作流程，並有助於您瞭解拉取要求的執行狀況:
 
-* **傳送給作者的變更**: 就擱置的拉取要求通知作者。
-* **合併就緒**: 準備由我們的拉取要求審核團隊檢閱。
+* **傳送給作者的變更**：就擱置的拉取要求通知作者。
+* **合併就緒**：準備由我們的拉取要求審核團隊檢閱。
