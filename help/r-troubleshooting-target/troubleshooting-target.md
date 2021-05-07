@@ -1,14 +1,14 @@
 ---
-keywords: 疑難排解 target;疑難排解 target
-description: 檢閱可協助您解決Adobe Target問題的主題清單，包括疑難排解主題、常見問答(FAQ)和其他實用主題。
-title: 如何疑難排解Target?
+keywords: 疑難排解 Target;疑難排解 Target
+description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題 (FAQ) 和其他實用的主題。
+title: 如何疑難排解 Target？
 feature: 疑難排解
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -33,17 +33,17 @@ ht-degree: 88%
 
 ### 自動分配
 
-* [自動分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [自動分配總覽](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
 ### 自動鎖定目標
 
-* [自動定位疑難排解與常見問答集](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [自動鎖定目標疑難排解和常見問題 ( FAQs)](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
-### 自動個人化 (AP)
+### Automated Personalization (AP)
 
-* [自動個人化常見問題集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [疑難排解自動個人化](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [自動個人化摘要報表](/help/c-reports/reports-ap.md)
+* [Automated Personalization 常見問題集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [疑難排解 Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Automated Personalization 摘要報告](/help/c-reports/reports-ap.md)
 
 ### 多變數測試 (MVT)
 
@@ -78,7 +78,7 @@ ht-degree: 88%
 * [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [鎖定目標和對象常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [網站頁面](/help/c-target/c-audiences/c-target-rules/site-pages.md)
+* [網頁](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## 內容
 
@@ -135,7 +135,7 @@ ht-degree: 88%
 
 ## 行動應用程式
 
-* [行動應用程式的Target常見問答集](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [適用於行動應用程式的 Target 常見問題](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 裝置上決策
 
