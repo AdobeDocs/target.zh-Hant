@@ -6,16 +6,16 @@ feature: 實作伺服器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 51%
+source-wordcount: '1687'
+ht-degree: 52%
 
 ---
 
 # 實作[!DNL Target]而不使用標籤管理器
 
-有關不使用標籤管理器（[!DNL Adobe Experience Platform Launch]或[!DNL Dynamic Tag Manager]）實作[!DNL Adobe Target]的資訊。
+有關不使用標籤管理器([!DNL Adobe Experience Platform Launch])實作[!DNL Adobe Target]的資訊。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 51%
 
 產生授權Token以使用進階的[!DNL Target]除錯工具。 按一下「產生新驗證Token ]**」。**[!UICONTROL 
 
-![產生新的驗證Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+![產生新驗證權杖](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### 隱私權
 
@@ -128,7 +128,7 @@ ht-degree: 51%
 
 若要從 [!DNL at.js] 介面下載 [!DNL Target]:
 
-1. 按一下「**[!UICONTROL 管理]** > **[!UICONTROL 實施]**」。
+1. 按一下「**[!UICONTROL 管理]** > 「**[!UICONTROL 實施]**」。
 1. 在[!UICONTROL 實作方法]區段中，按一下所需at.js版本旁的&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。
 
 ### 使用[!DNL Target]下載API {#section_C0D9D2A9068144708D08526BA5CA10D0}下載at.js
@@ -177,11 +177,11 @@ ht-degree: 51%
 
    載入此 URL 會開始下載自訂的 [!DNL at.js] 檔案。
 
-## at.js實作{#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js 實施{#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 
-未使用標籤管理器(例如[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)或[動態標籤管理](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96))的Target典型實作如下所示：
+未使用標籤管理器(例如[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25))的Target典型實作如下所示：
 
 ```
 <!doctype html> 
