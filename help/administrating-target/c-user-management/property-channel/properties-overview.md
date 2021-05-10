@@ -6,9 +6,9 @@ feature: 管理與設定
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 66%
 | 2. 建立工作區 (產品設定檔) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. 建立使用者群組 (可選) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. 建立屬性 | [!DNL Target] UI |
-| 5: 更新您的實作以包括 `at_property` 參數 | [!DNL Target] UI、at.js 函數、[!DNL Adobe Launch] 或 [!DNL Dynamic Tag Management] |
+| 5: 更新您的實作以包括 `at_property` 參數 | [!DNL Target] UI、at.js函式或  [!DNL Adobe Experience Platform Launch] |
 | 6: 指定角色和權限 | [!DNL Adobe Admin Console for Enterprise] |
 
 對於在[!DNL Adobe Admin Console for Enterprise]中執行的這些任務，請按照以下步驟訪問控制台：
@@ -151,12 +151,6 @@ ht-degree: 66%
 
       如需詳細資訊，請參閱&#x200B;*Adobe Experience Platform Launch*&#x200B;檔案中的[新增全域目標參數](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)。
 
-   * **透過 [!DNL Dynamic Tag Management] 中的「全域參數」:**
-
-      ![](assets/property_token_2.png)
-
-      如需詳細資訊，請參閱&#x200B;*動態標籤管理產品文件*&#x200B;中的[全域參數 - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
-
    * **透過targetPageParams()函式：** 在at.js或mbox.js參考 `<head>` 上方的標籤中置入下列程式碼。
 
       ![](assets/property_token_1.png)
@@ -194,7 +188,7 @@ ht-degree: 66%
    | 核准者 | 可以建立、編輯和啟動或停止活動。 |
    | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-   | 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
+   | 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 但是，發佈者角色具有激活活動的附加權限。 |
 
    如需詳細資訊，請參閱&#x200B;*《企業使用者指南》*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
