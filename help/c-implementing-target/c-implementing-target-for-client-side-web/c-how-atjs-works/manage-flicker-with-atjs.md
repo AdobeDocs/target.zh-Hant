@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 76%
 
 您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形，此片段要等到 [!DNL Target] 將相關的 HTML 元素個人化之後才可見。
 
-at.js可以非同步載入，直接內嵌在頁面上，或透過標籤管理器(Adobe啟動、動態標籤管理器(DTM)等)。
+at.js可以非同步載入，直接內嵌在頁面上或透過標籤管理器（例如[!DNL Adobe Experience Platform Launch]）。
 
 如果頁面上內嵌了at.js，則必須先新增程式碼片段，才能載入at.js。 如果您透過標籤管理器載入at.js（此標籤管理器也以非同步方式載入），則必須先新增程式碼片段，再載入標籤管理器。 如果標籤管理器是同步載入的，則指令碼可能會包含在at.js之前的標籤管理器中。
 
