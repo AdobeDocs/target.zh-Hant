@@ -6,10 +6,10 @@ feature: 管理與設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 | at.js | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js 中有部分外掛程式所依賴的內部方法，但 at js 中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。如需詳細資訊，請參閱 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
 | mbox.js | 使用mbox.js時，外掛程式仍會繼續受到支援和傳送。<br>不過，對於使用 mbox.js 和外掛程式的客戶，建議改用 at.js 和回應 Token。如需有關使用 at.js 優於 mbox.js 的資訊，請參閱 [at.js 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。如需移轉的相關資訊，請參閱[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在 Target Classic 淘汰之後 (2017 年 11 月)，您可能需要聯絡客戶服務來編輯或停用現有外掛程式。在 Target Classic 淘汰之前，您應該稽核外掛程式並停用無用的外掛程式。<br>您無法在 Target Standard/Premium 中建立新的外掛程式。請改為使用回應 Token。<br>您應停用舊版 SiteCatalyst 增效模組，並改用[以 Adobe Analytics 取代，作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。應該停用 ttMeta 外掛程式並換成 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
 
-## 使用回應 Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
 1. 確保您使用 [!DNL at.js] 版本 1.1 或更新版本。
 
@@ -95,31 +95,7 @@ ht-degree: 76%
 </html>
 ```
 
-下列指示顯示如何使用 Adobe Dynamic Tag Manager (DTM) 來新增 [!DNL at.js] 自訂事件處理常式:
-
-1. 登入 DTM。
-1. 瀏覽至適當的屬性。
-1. 開啟 Target 工具。
-
-   因為 DTM 原本就不支援 at.js，您必須使用程式碼編輯器。
-
-1. 在程式碼編輯器中，將下列程式碼附加至 [!DNL at.js]:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-如果您要將一切都放在單一檔案中，可以將下列程式碼片段新增至資料庫頁尾 [at.js 設定頁面](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)。
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
-## 回應 Token FAQ {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## 回應Token常見問答{#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **需要什麼角色才能啟動或停用回應 Token?**
 
@@ -133,7 +109,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 回應Token會傳送至[!DNL at.js] Target回應，但不會傳送至[!DNL mbox.js]回應。
 
-**我可以同時使用 Target Classic 外掛程式和回應 Token 嗎?**
+**[!DNL Target Classic]我可以同時使用 外掛程式和回應 Token 嗎?**
 
 外掛程式和回應 Token 平行可用，但未來將淘汰外掛程式。
 
@@ -165,7 +141,7 @@ Target 不會自動關閉 Token。如果您刪除設定檔指令碼，且不想�
 
 Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重新整理時移除。不過，如果您有一個已開啟且移除的屬性 (例如，您將一個當作 Token 的設定檔指令碼移除)，則要等到您關閉該指令碼，指令碼才會從屬性清單中移除。只有在刪除或重新命名已關閉的屬性時，Target 才會從清單中移除這些屬性。
 
-## 透過 at.js 將資料傳送至 Google Analytics  {#section_04AA830826D94D4EBEC741B7C4F86156}
+## 透過at.js {#section_04AA830826D94D4EBEC741B7C4F86156}傳送資料至Google Analytics
 
 在 HTML 頁面中新增下列程式碼，即可透過 at.js 將資料傳送至 Google Analytics:
 
@@ -283,7 +259,7 @@ Target 會定期重新整理屬性。任何未開啟的屬性將於下一次重�
 </script>
 ```
 
-## 訓練影片: 回應 Token 與 at.js 自訂事件 ![教學課程徽章](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## 訓練影片: 回應 Token 與 at.js 自訂事件 ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
 
