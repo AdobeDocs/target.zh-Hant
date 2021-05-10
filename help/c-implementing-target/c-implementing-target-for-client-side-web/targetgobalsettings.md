@@ -6,18 +6,16 @@ feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2221'
-ht-degree: 29%
+source-wordcount: '2200'
+ht-degree: 31%
 
 ---
 
 # targetGlobalSettings()
 
 您可以使用 `targetGlobalSettings()` 覆寫 at.js 資料庫中的設定，而非在 [!DNL Target] Standard/Premium UI 中或使用 REST API 進行設定。
-
-有些使用案例，特別是當 at.js 是透過 [!DNL Dynamic Tag Management] (DTM) 傳遞，而您想要覆寫部分設定時。
 
 ## 設定 {#section_42C759AE9B524A43B8659018677224B8}
 
@@ -218,7 +216,7 @@ JSON規則工件包含中繼資料，以通知at.jsmbox是否有執行中的伺�
 
 * **類型**:布林值
 * **預設值**:true
-* **說明**:啟用後，會自動擷取必須在頁面載入時傳回的檢視。at.js 2支援檢視。*x* 版。
+* **說明**:啟用後，會自動擷取必須在頁面載入時傳回的檢視。at.js 2支援檢視。*x* 中受到支援。
 
 ### visitorApiTimeout
 
@@ -357,7 +355,7 @@ var weatherProvider = {
 * 如果新增至 `window.targetGlobalSettings.dataProviders` 的資料提供者非同步，則會並行執行。訪客 API 要求將與新增至 `window.targetGlobalSettings.dataProviders` 的函數並行執行，以允許最低的等候時間。
 * at.js 不會嘗試將資料快取。如果資料提供者擷取資料一次，則資料提供者應該確定已將該資料快取，並且當叫用該提供者函數時，可做為第二個叫用的快取資料。
 
-## 內容安全性策略{#content-security}
+## 內容安全性政策 {#content-security}
 
 at.js 2.3.0+支援在套用傳送的Target選件時，在附加至頁面DOM的SCRIPT和STYLE標籤上設定「內容安全性原則」不可用。
 
@@ -382,7 +380,7 @@ window.targetGlobalSettings = {
 
 ## 混合個人化{#server-state}
 
-`serverState` 是at.js v2.2+中可用的設定，可在實作Target的混合整合時用來最佳化頁面效能。混合整合意指您在用戶端上同時使用at.js v2.2+和伺服器端的傳送API或Target SDK來傳送體驗。 `serverState` 讓at.js v2.2+能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。
+`serverState` 是at.js v2.2+中可用的設定，可在實作Target的混合整合時用來最佳化頁面效能。混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。
 
 ### 先決條件
 
