@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 若要非同步載入 at.js:
 
-* 建議方法是透過 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM) 等標籤管理員進行。如需詳細資訊，請參閱[在Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)教學課程中實作網站Experience Cloud的[新增Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)一課。
+* 建議的方法是透過[!DNL Adobe Experience Platform Launch]。 如需詳細資訊，請參閱[在Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)教學課程中實作網站Experience Cloud的[新增Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)一課。
 * 您也可以在載入 at.js 的指令碼標記中新增 async 屬性，就能非同步載入 at.js。您應該使用如下的指令碼:
 
    ```
@@ -118,7 +118,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 ## at.js 與 Adobe Experience Manager 整合 (AEM) 相容嗎?{#section_6177AE10542344239753764C6165FDDC}
 
-[!DNL Adobe Experience Manager] 6.2 具有 FP-11577 (或更新版本) 現在支援 [!DNL at.js] 實作與其 [!UICONTROL Adobe Target Cloud Services] 整合。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2* 文件中的[功能套件](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[與 Adobe Target 整合](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
+[!DNL Adobe Experience Manager] 6.2 具有 FP-11577 (或更新版本) 現在支援 [!DNL at.js] 實施與其 [!UICONTROL Adobe Target Cloud Services] 整合。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2* 文件中的[功能套件](https://docs.adobe.com/docs/zh-Hant/aem/6-2/release-notes/feature-packs.html)和[與 Adobe Target 整合](https://docs.adobe.com/docs/zh-Hant/aem/6-2/administer/integration/marketing-cloud/target.html)。
 
 ## 使用 at.js{#section_4D78AAAE73C24E578C974743A3C65919} 時如何防止頁面載入忽隱忽現? 
 
