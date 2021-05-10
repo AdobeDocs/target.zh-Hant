@@ -4,10 +4,10 @@ breadcrumb-title: Target 指南
 user-guide-description: 瞭解如何量身打造並個人化客戶體驗，以便在您的網站和行動網站、應用程式、社交媒體和其他數位通道上獲得最大收益。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 89%
             + [at.js 整合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + 如何部署 at.js {#deploy-at-js}
             + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [使用 Adobe Launch 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [使用Platform launch實作目標](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [不使用標籤管理程式實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [使用 Dynamic Tag Management (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [使用動態標籤管理器(DTM)實作目標](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [針對單頁應用程式實作目標(SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 函數 {#functions-overview}
             + [at.js 函數概覽](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
