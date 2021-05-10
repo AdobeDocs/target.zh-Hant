@@ -5,10 +5,10 @@ title: 如何實施Recommendations活動？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 95%
+source-wordcount: '1618'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 | 方法 | 說明 |
 |--- |--- |
 | 直接將參數傳給頁面 | 此方法適用於經常變更的項目。不過，因為這需要直接變更頁面，在許多組織裡，此方法需要 IT 和實作頁面人員參與。 |
-| 透過 Google 或 CSV 摘要來傳送參數 | 此方法適用於不常變更的集合。透過摘要來提供產品資訊時，通常不需要變更 實作或其他頁面程式碼。不過，因為產品清單保持不變，快速變更會較困難。如需詳細資訊，請參閱[動態消息](/help/c-recommendations/c-products/feeds.md)。 |
+| 透過 Google 或 CSV 摘要來傳送參數 | 此方法適用於不常變更的集合。透過摘要來提供產品資訊時，通常不需要變更 實作或其他頁面程式碼。不過，因為產品清單保持不變，快速變更會較困難。如需詳細資訊，請參閱[摘要](/help/c-recommendations/c-products/feeds.md)。 |
 
 這些方法可以分開或一起使用，如下列範例所示。
 
@@ -122,7 +122,7 @@ function targetPageParams() {
 
 需要有效的 JSON 格式。
 
-如果您使用標記管理解決方案來實作您的頁面，則以下顯示的 `targetPageParams` 函數特別實用。[!DNL Adobe Launch] 或 [!DNL Adobe Dynamic Tag Manager] (DTM) 將 at.js/mbox.js 參照和 `targetPageParams` 函式放置在頁面上，並允許您設定值。您應該將該函數放置在 at.js/mbox.js 呼叫之前，或將它放在 at.js/mbox.js 的「額外 JavaScript」區段。
+如果您使用標記管理解決方案來實作您的頁面，則以下顯示的 `targetPageParams` 函數特別實用。[!DNL Adobe Experience Platform Launch] 將at.js/mbox.js參考和函 `targetPageParams` 數置於您的頁面上，並讓您設定值。您應該將該函數放置在 at.js/mbox.js 呼叫之前，或將它放在 at.js/mbox.js 的「額外 JavaScript」區段。
 
 ## 全部頁面 {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
@@ -215,6 +215,6 @@ function targetPageParams() {
 | 自訂全域 Mbox | (可選) 指定用來提供 [!DNL Target] 活動的自訂全域 mbox。依預設，[!DNL Target]使用的全域mbox會用於[!DNL Recommendations]。<br>注意：此選項在「管理」頁 [!DNL Target]  面上設定。開啟[!DNL Target]，然後按一下「管理」>「視覺體驗撰寫器」[!UICONTROL >「管理」。] |
 | 垂直產業 | 行業別用於協助將建議條件分類。這有助於團隊的成員尋找特定頁面適合的條件，例如最適合購物車頁面或媒體頁面的條件。 |
 | 篩選不相容的條件 | 啟用此選項只會顯示讓所選頁面傳遞必要資料的條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您要讓活動可以使用不相容的條件，請取消勾選此選項。<br>如果您使用標記管理解決方案，建議您停用此選項。<br>如需此選項的詳細資訊，請參閱 [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)。 |
-| 預設主機群組 | 選取預設主機群組。<br>主機群組可用來將目錄中可用項目區分為不同用途。例如，您可以將主機群組用於開發和生產環境、不同品牌或不同地理位置。依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。提供的建議取決於要求中指定的主機群組。<br>如果沒有看見您的產品，請確定您使用正確的主機群組。例如，假設您將建議設定為使用測試環境，並將主機群組設為「測試」，則可能需要在測試環境中重建集合，才會顯示產品。若要查看每個環境中可用的產品，請對每個環境使用「目錄搜尋」。您也可以針對所選的環境 (主機群組)，預覽 Recommendations 集合和排除項目的內容。<br>**注意:** 變更選定環境後，您必須按一下「搜尋」來更新傳回的結果。<br>[!UICONTROL 「環境」]篩選器可在 [!DNL Target] UI 中的以下位置使用:<ul><li>「目錄搜尋」(「建議 > 目錄搜尋」)</li><li>「建立集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 新建」])</li><li>「更新集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 編輯」])</li><li>「建立排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 新建」])</li><li>「更新排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 編輯」])</li></ul>如需詳細資訊，請參閱[主機](/help/administrating-target/hosts.md)。 |
+| 預設主機群組 | 選取預設主機群組。<br>主機群組可用來將目錄中可用項目區分為不同用途。例如，您可以將主機群組用於開發和生產環境、不同品牌或不同地理位置。依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。提供的建議取決於要求中指定的主機群組。<br>如果沒有看見您的產品，請確定您使用正確的主機群組。例如，假設您將建議設定為使用測試環境，並將主機群組設為「測試」，則可能需要在測試環境中重建集合，才會顯示產品。若要查看每個環境中可用的產品，請對每個環境使用「目錄搜尋」。您也可以針對所選的環境 (主機群組)，預覽 Recommendations 集合和排除項目的內容。<br>**注意：** 變更選定環境後，您必須按一下「搜尋」來更新傳回的結果。<br>[!UICONTROL 「環境」]篩選器可在 [!DNL Target] UI 中的以下位置使用:<ul><li>「目錄搜尋」(「建議 > 目錄搜尋」)</li><li>「建立集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 新建」])</li><li>「更新集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 編輯」])</li><li>「建立排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 新建」])</li><li>「更新排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 編輯」])</li></ul>如需詳細資訊，請參閱[主機](/help/administrating-target/hosts.md)。 |
 | 縮圖基底 URL | 設定產品目錄的基底 URL 可讓您在傳入縮圖 URL 時，使用相對 URL 來指定產品的縮圖。<br>例如:<br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br>設定相對於縮圖基底 URL 的 URL。 |
 | Recommendations API Token | 在「建議 API」呼叫中 (例如「下載 API」) 使用此 Token。 |
