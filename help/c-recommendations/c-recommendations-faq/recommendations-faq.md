@@ -5,10 +5,10 @@ title: 我可以在哪裡找到關於 [!DNL Target] Recommendations的問題和�
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 59%
+source-wordcount: '2995'
+ht-degree: 58%
 
 ---
 
@@ -241,3 +241,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 如果訪客在某個裝置上處於活動狀態，幾分鐘後在另一個裝置上開始活動，仍會發生此行為。 第一個裝置的工作階段不會過期30分鐘，而且在描述檔狀態寫入永久狀態並進行處理之前，最多會有5分鐘的延遲。 在測試此行為時，允許35分鐘的作業過期，並儲存描述檔。
 
 如果訪客沒有同時進行兩個作用中的作業，則只要作業結束，最近檢視的某個裝置項目就會更新另一個裝置上最近檢視的項目。 測試此行為時，會話需要35分鐘才會過期。
+
+## 我是否可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法？
+
+在[!DNL Recommendations Classic]中建立的演算法在[!DNL Recommendations Premium]中不受支援。 您可能可以使用[!DNL Target Premium]中的舊式演算法；不過，演算法在停用或刪除[!DNL Target Premium] UI中的活動時，會建立同步問題。 有關兩個解決方案之間差異的詳細資訊，請參見 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活動。
+
+
