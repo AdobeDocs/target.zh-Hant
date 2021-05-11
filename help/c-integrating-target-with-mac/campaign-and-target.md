@@ -36,13 +36,15 @@ ht-degree: 37%
 
 使用[!DNL Target]和[!DNL Campaign]來設定整合的不同部分：
 
-    *使用rawbox和 [!DNL Target]
-    
-    (/help/administrating-target/hosts.md#allowlist)時，原始方塊和
-    >[!NOTE]
-    > [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target]>中的體驗。
-    
-    *在Adobe Cloud中， [!DNL Campaign]
+* 使用rawbox和 [!DNL Target]
+
+(/help/administrating-target/hosts.md#allowlist)時，原始方塊和
+
+>[!NOTE]
+> [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target]
+>中的體驗。
+
+* 在Adobe Cloud中， [!DNL Campaign]
 
 ## 開始之前 {#section_FF19BF1BCA064260930BF6C141313B0E}
 
