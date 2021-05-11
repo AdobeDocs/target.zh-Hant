@@ -5,10 +5,10 @@ title: 如何將 [!DNL Target] 與Adobe Campaign整合？
 feature: 整合
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
+source-git-commit: 2a78828c0d04add812a73ea04f4b3927d3dbc392
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 37%
+source-wordcount: '382'
+ht-degree: 42%
 
 ---
 
@@ -36,15 +36,13 @@ ht-degree: 37%
 
 使用[!DNL Target]和[!DNL Campaign]來設定整合的不同部分：
 
-* 使用rawbox和 [!DNL Target]
-
-(/help/administrating-target/hosts.md#allowlist)時，原始方塊和
+* 原始方塊和[!DNL Target]中的體驗
 
 >[!NOTE]
-> [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target]
->中的體驗。
+>
+>使用 rawbox 和 [!DNL Target] 時，請參閱[建立允許清單下的重要安全性注意事項，此清單指定授權傳送 mbox 呼叫至 Target 的主機](/help/administrating-target/hosts.md#allowlist)。
 
-* 在Adobe Cloud中， [!DNL Campaign]
+* [!DNL Campaign]中的傳送
 
 ## 開始之前 {#section_FF19BF1BCA064260930BF6C141313B0E}
 
