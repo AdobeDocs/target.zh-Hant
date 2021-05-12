@@ -4,11 +4,10 @@ description: 對Adobe [!DNL Target] 產品文檔進行重要添加和更改，�
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 60%
+source-wordcount: '1119'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +19,8 @@ ht-degree: 60%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 5 月 10 日 | [Recommendations 常見問題](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：&quot;我是否可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法？&quot; |
+| 5 月 12 日 | [[!DNL Target] 發行說明（搶鮮版）](/help/r-release-notes/target-release-notes.md) | 已新增下列的發行前附註：<ul><li>Adobe Experience Platform網頁SDK(2021年5月17日</li><li>Target Standard Premium 21.5.2</li></ul> |
+| 5 月 10 日 | [[!DNL Recommendations] 常見問題](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：&quot;我是否可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法？&quot; |
 |  | [實作 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 已指出[!DNL Adobe Dynamic Tag Manager]不再受支援。 相反，[!DNL Adobe]建議使用[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)實作。 |
 | 5 月 6 日 | [Recommendations 常見問題](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問題：<ul><li>對[!UICONTROL Recommendations]活動、優惠、促銷或標準設定的設定進行變更需要多久的時間才會反映在我的網站上？</li><li>使用者的行為（例如，按一下產品A並購買產品B）需要多久才會反映在使用者收到的建議&#x200B;*中？*</li><li>使用者的行為（例如按一下產品A和購買產品B）需要多久才會反映在建議&#x200B;*其他*&#x200B;使用者收到的建議中？</li></ul> |
 |  | [裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增連結至「Adobe技術部落格」上的下列部落格文章：<ul><li>第1部分：執行Adobe TargetNodeJS SDK以在邊緣平台上進行實驗和個人化(Akamai Edge Workers)</li></ul> |
