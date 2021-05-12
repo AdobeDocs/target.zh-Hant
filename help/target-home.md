@@ -4,8 +4,7 @@ title: 我可以在哪裡找到 [!DNL Target] 檔案？
 description: 瞭解如何使用Adobe [!DNL Target] 來個人化客戶體驗，讓您的網站和行動網站、應用程式和其他數位通道的營收最大化。
 feature: 總覽
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +17,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新: 2021 年 5 月 10 日 ([查看變更](r-release-notes/doc-change.md))**
+**最近更新: 2021 年 5 月 12 日 ([查看變更](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -56,7 +55,7 @@ ht-degree: 95%
 - [體驗與選件](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的對象條件時，要顯示哪些內容。
 - [建議](c-recommendations/recommendations.md)：說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
 
-## 開發人員  {#developers}
+## 開發人員 {#developers}
 
 - [實施 Target](c-implementing-target/implementing-target.md)：說明如何在網站、行動應用程式、單頁應用程式 (SPA) 及 iOT/OTT 平台上實施 [!DNL Target]。
 - [Target 伺服器端 API](https://developers.adobetarget.com/api/delivery-api/)：說明構成 Adobe Target Delivery API 的資源。
@@ -67,16 +66,16 @@ ht-degree: 95%
 
 ## Target 與 Adobe Experience Cloud 管理員 {#admins}
 
-- [管理 Target](administrating-target/administrating-target.md)：說明如何新增使用者及設定 [!DNL Target] 帳戶。
+- [管理 Target](administrating-target/administrating-target.md): 說明如何新增使用者及設定 [!DNL Target] 帳戶。
 
-## 分析人員  {#analysts}
+## 分析人員 {#analysts}
 
 - [對象](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
 - [報表](c-reports/reports.md)：說明如何解讀活動績效
 
-## 品質保證工程師  {#qa}
+## 品質保證工程師 {#qa}
 
-- [活動](c-activities/activities.md)：說明如何設定、管理 [!DNL Target] 活動及確保品質。
+- [活動](c-activities/activities.md): 說明如何設定、管理 [!DNL Target] 活動及確保品質。
 
 ## 其他資源 {#additional}
 
