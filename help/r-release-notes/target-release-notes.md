@@ -4,11 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 32%
+source-wordcount: '384'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 32%
 
 本文包含發行前資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新時間: 2021 年 4 月 16 月**
+**最近更新: 2021 年 5 月 12 日**
 
 若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -26,24 +25,23 @@ ht-degree: 32%
 >
 >為避免網站出現任何潛在問題，請移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本。 如需詳細資訊，請參閱 [總覽：實施用戶端 Web 的 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
-## Target Standard/Premium 21.4.1 (2021 年 4 月 19 日)
+## [!DNL Adobe Experience Platform Web SDK] （2021年5月17日）
+
+此版本的[!DNL Platform Web SDK]包含[!UICONTROL  Analytics for Target](A4T)對[!DNL Target]重導的支援。
+
+## [!DNL Target Standard/Premium] 21.5.2（待定日期）
 
 此版本包含下列新功能和增強功能。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| at.js的裝置上決策支援 | 裝置上決策可讓行銷人員和開發人員在幾乎零延遲的情況下，在使用者的瀏覽器上進行實驗和個人化。<br>如需詳細資訊，請 [參閱at.js的裝置上決策。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)<br>（宣佈日期） |
-| ![實體篩](/help/assets/premium.png) 選規則的PremiumList運算子 | [!DNL Target Recommendations] 支援實體篩選規則的全新清單型運算子。(TGT-39234)<br>新添加的運算子包括：<br><ul><li>包含在清單中</li><li>不包含在清單中</li><li>清單包含</li><li>清單中不包含項目</li><li>清單包含</li><li>清單中不包含</li></ul>如需詳細資訊，請參閱[使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)中的「可用運算子」。 |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | 下列增強功能適用於[!DNL Recommendations]人氣演算法：<ul><li>當[!DNL Target]為行為資料來源時，所有人氣（最常檢視／最暢銷商品）演算法都可使用新的六小時「回顧視窗」（資料範圍）選項。 （當[!DNL Adobe Analytics]是行為資料來源時，此回顧視窗為&#x200B;*not*。）</li><li>選取後，下列演算法大約每三小時（而非每12小時）執行一次。<ul><li>檢視次數最多</li><li>購買次數最多</li><li>依類別檢視次數最多</li><li>依類別購買的最多</li><li>自訂屬性檢視次數最多（使用groupBy功能）</li><li>自訂屬性購買最多（使用groupBy功能）</li></ul></ul>(TOP-1086) |
 
 此版本包含下列修正。
 
-* 修正將對象變更為「所有訪客」後，活動無法同步的問題。 (TGT-40259)
-* 修正即使啟用「不允許複製」選項，在[!UICONTROL Automated Personalization]活動中的不同位置使用選件時，仍無法複製選件的問題。 (TGT-39567)
-* 修正導致[!UICONTROL Administration] > [!UICONTROL Scene7組態]頁面無法正確載入的問題。 (TGT-39918)
-* 修正屬性映射至錯誤工作區的問題。 (TGT-39869)
-* 修正在建立建議排除時變更環境後，若請求失敗，則造成無限載入的問題。 (TGT-39948)
+* 將會隨著發行日期的臨近而新增。
 
-## at.js 2.5.0版（要宣佈的日期）
+## at.js 2.5.0版（待決日期）
 
 此版本的at.js包含下列增強功能和變更：
 
