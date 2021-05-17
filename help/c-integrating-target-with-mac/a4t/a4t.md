@@ -1,22 +1,25 @@
 ---
-keywords: a4t;analytics;analytics for target;analytics 報表來源;adobe analytics 作為 target 的報表來源
-description: 使用Analytics for [!DNL Target] (A4T)以根據Analytics轉換度量和對象區段建立活動，並使用Analytics報表來檢查結果。
-title: 什麼是 [!DNL Target] (A4T)的Analytics?
-feature: 目標分析 (A4T)
+keywords: a4t;analytics;analytics for target;analytics報告來源；adobe analytics作為目標的報告來源；atjs;at.js;adobe體驗平台網頁sdk；平台網頁sdk；平台sdk
+description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) to create activities based on [!DNL Analytics] conversion metrics and audience segments and use [!DNL Analytics] 報表來檢查結果。
+title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)?
+feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 39%
+source-wordcount: '1127'
+ht-degree: 30%
 
 ---
 
-# Adobe Analytics作為Adobe[!DNL Target](A4T)的報告來源
+# [!DNL Adobe Analytics] 作為(A4T) [!DNL Adobe Target] 的報告來源
 
 [!DNL Adobe Analytics for Target] (A4T)是跨解決方案整合，可讓您根據轉換量度和受眾細 [!DNL Analytics] 分來建立活動。A4T整合可讓您使用[!DNL Analytics]報表來檢查結果。 如果您使用[!DNL Analytics]作為活動的報告來源，則該活動的所有報告和分段都基於[!DNL Analytics]資料收集。
 
-## A4T 概覽 {#section_92B66069210C40DBA937790E8CC596CF}
+>[!NOTE]
+>
+>本文討論之[!DNL Adobe Experience Platform Web SDK]實作中的A4T支援已排定隨[!DNL Platform Web SDK] 2.5.0版發行提供（2021年5月24日）。
+
+## 總覽 {#section_92B66069210C40DBA937790E8CC596CF}
 
 [!DNL Analytics]和[!DNL Target]之間的[!DNL Analytics for Target]整合為您的最佳化程式提供強大的分析和省時工具。
 
@@ -24,17 +27,11 @@ ht-degree: 39%
 
 * 行銷人員可隨時動態套用[!DNL Analytics]成功度量或報告區段至[!DNL Target]活動報表。 執行活動之前完全不需要指定。
 * 單一資料來源可排除在兩個不同系統中收集資料時發生不一致的情況。
-* 您現有的[!DNL Analytics]實作會收集所有必要資料。 不需要只為了收集報表的資料而在頁面上實作 Mbox。Adobe仍建議您實作[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活動的訂單確認mbox。
-
->[!IMPORTANT]
->
->您必須先要求帳戶的整合布建，才能開始使用A4T。 使用[此表單](https://www.adobe.com/go/audiences_tw)來要求佈建帳戶。
->
->啟用[!DNL Analytics]作為[!DNL Target](A4T)資料來源的整合，代表新一代的Test&amp;Target以SiteCatalyst外掛程式。 此外掛程式已淘汰，但仍支援原本已使用的客戶。
+* 您現有的[!DNL Analytics]實作會收集所有必要資料。 不需要只為了收集報表的資料而在頁面上實作 Mbox。
 
 如果您使用[!DNL Analytics]作為活動的報告來源，則該活動的所有報告和分段都基於[!DNL Analytics]。
 
-所有[!DNL Analytics]度量（包括計算度量）都可在[!DNL Target]和[!DNL Analytics]的「目標活動」報表中使用。 同樣地，[!DNL Analytics]中可用的任何區段都可套用至兩個解決方案。 活動啟動後，或甚至活動完成後，您都可以將量度或對象套用至[!DNL Target]中的報表。
+所有[!DNL Analytics]度量（包括計算度量）都可用於[!DNL Target]和[!DNL Analytics]的[!UICONTROL 目標活動]報表，但有一個例外。 不支援[!UICONTROL 提升度與信賴]的計算量度。 同樣地，[!DNL Analytics]中可用的任何區段都可套用至兩個解決方案。 活動啟動後，或甚至活動完成後，您都可以將量度或對象套用至[!DNL Target]中的報表。
 
 每個量度都包含在內，包括[!DNL Analytics]內建的任何自訂或計算量度。
 
@@ -45,46 +42,41 @@ ht-degree: 39%
 * 若要使用[!DNL Analytics]作為[!DNL Target]的報告來源，您和您的公司都必須擁有[!DNL Analytics]和[!DNL Target]的存取權。 [如果您需要任一解決方案，請聯絡客戶代表](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 * 每個活動皆會設定報表來源。[!DNL Target] 繼續收集要用於報告的資料，如果您 [!DNL Target] 想要根據所收集的資料來建立活動，資料仍可供使用 [!DNL Target]。
 * 使用一個或另一個報告來源。 您無法同時從這兩個來源收集單一活動的資料。
-* 使用A4T時，您活動可用的所有成功度量都是[!DNL Analytics]度量。 不過，目標量度可以根據 Mbox 呼叫。例如，您可搭配A4T使用Target的現成可用的點按追蹤功能，而不需實作[!DNL Analytics]點按追蹤代碼。
+* 使用A4T時，您活動可用的所有成功度量都是[!DNL Analytics]度量。 不過，若使用at.js，您的目標量度可以以mbox呼叫為基礎。 例如，您可搭配A4T使用Target的現成可用的點按追蹤功能，而不需實作[!DNL Analytics]點按追蹤代碼。
 * 在[!DNL Target] UI中查看A4T活動的報告時，您正在查看[!DNL Analytics]資料。 例如，如果您在[!DNL Target]中使用[!UICONTROL 訪客]量度，則您使用[!DNL Analytics] [!UICONTROL 訪客]量度，而不是[!DNL Target] [!UICONTROL 訪客]量度，現在稱為[!UICONTROL 新進者]。 此差異對於基本流量量度（[!UICONTROL 訪客]、[!UICONTROL 瀏覽]、[!UICONTROL 頁面檢視]）和轉換量度尤其重要。
 * 任何現有的[!DNL Target]活動都會繼續使用[!DNL Target]資料收集，並不受啟用A4T的影響。
-* 使用[!DNL Analytics]做為報表來源時，僅允許一個mbox型量度。
-* 從[!DNL Target]到[!DNL Analytics]的伺服器對伺服器呼叫會將活動和體驗資訊傳送至[!DNL Analytics]。 此整合不會導致對[!DNL Target]或[!DNL Analytics]進行更多伺服器呼叫。
+* 使用A4T時僅允許一個mbox型量度。
+* 從[!DNL Target]到[!DNL Analytics]的伺服器對伺服器呼叫會將活動和體驗資訊傳送至[!DNL Analytics]。 此整合不會導致對[!DNL Target]或[!DNL Analytics]進行額外伺服器呼叫。
 
    在某些情況下，從[!DNL Target]到[!DNL Analytics]的分類會失敗，而活動不會在[!DNL Analytics]中顯示資料。 請參閱[疑難排解Analytics與Target整合(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您也可以[連絡Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)以取得進一步協助。
 
-## 支援的活動類型{#section_F487896214BF4803AF78C552EF1669AA}
+## 實作A4T
 
-下表顯示哪些活動類型支援[!DNL Analytics]作為[!DNL Target](A4T)中的報告源：
+如需有關使用at.js和[!DNL Adobe Experience Platform Web SDK]實作A4T的詳細資訊，請參閱[實作 [!DNL Target] 的Analytics。](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)
+
+## 支援的活動類型 {#section_F487896214BF4803AF78C552EF1669AA}
+
+下列章節包含使用[!DNL Adobe Experience Platform Web SDK]或at.js時支援之活動類型的相關資訊：
 
 | 活動類型 | A4T 相容? | 備註 (若適用) |
 |--- |--- |--- |
-| 手動分割流量的 A//B 活動 | 是 |  |
-| 自動分配的 A/B 活動 | 是 | 請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| 自動鎖定目標的 A/B 活動 | 是 | 請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
-| 體驗鎖定目標 (XT) | 是 |  |
-| 多變數測試 (MVT) | 是 | 需要以mbox為基礎的目標量度目標，才能取得[!UICONTROL 元素貢獻]報表。 [!UICONTROL 元素貢獻]報表目前不支援[!DNL Analytics]量度。 |
-| 自動個人化 (AP) 活動 | 無 |  |
-| Recommendations 活動 | 是 |  |
-| 行動應用程式 | 是 | 支援行動服務 SDK 4.13.1 版或更新版本。如需詳細資訊，請參閱[行動服務文件](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)。 |
-| 電子郵件 | 無 |  |
-| 伺服器端傳送API | 是 | 如需詳細資訊，請參閱[伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
-| NodeJS SDK | 是 | 如需詳細資訊，請參閱[伺服器端: 實作 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
-| AEM 6.1 (或更舊) 雲端服務整合 | 無 |  |
-| AEM 6.2 (或更新) 雲端服務整合 | 是 | 如需詳細資訊，請參閱[!DNL Adobe Experience Manager] 6.2檔案中的[與Adobe Target整合。](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) |
-| 使用重新導向選件的任何活動 | 是 | 搭配 A4T 使用重新導向選件時，最低需求較嚴格。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。 |
-| Node.JS | 是 | 如需詳細資訊，請參閱&#x200B;*Adobe TargetSDK*&#x200B;指南中的[Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk)。 |
-| Java SDK | 是 | 如需詳細資訊，請參閱&#x200B;*Adobe Target* SDK指南中的[Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk)。 |
+| [手動分割流量的 A//B 活動](/help/c-activities/t-test-ab/test-ab.md) | 是 |  |
+| [自動分配的 A/B 活動](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| [自動鎖定目標的 A/B 活動](/help/c-activities/auto-target/auto-target-to-optimize.md) | 是 | 請參閱[A4T支援自動分配和自動目標活動](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| [體驗鎖定 (XT)](/help/c-activities/t-experience-target/experience-target.md) | 是 |  |
+| [多變數測試 (MVT)](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要以mbox為基礎的目標量度目標，才能取得[!UICONTROL 元素貢獻]報表。 [!UICONTROL 元素貢獻]報表目前不支援[!DNL Analytics]量度。 |
+| [自動個人化 (AP) 活動](/help/c-activities/t-automated-personalization/automated-personalization.md) | 無 |  |
+| [Recommendations 活動](/help/c-recommendations/recommendations.md) | 是 |  |
 
 由於所有活動類型尚未支援A4T，因此建議您保留或實作重要的轉換mbox，例如`orderConfirmPage` mbox。
 
-## A4T報告的範例{#section_F0A43A1CB2F04E8282B909E4D7034361}
+## A4T報表範例 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
 若要在[!DNL Target]中檢視A4T報表，請按一下「活動」**[!UICONTROL ，從使用[!DNL Analytics]作為報表來源的清單中按一下所需活動，然後按一下「報表」]**&#x200B;標籤。]****[!UICONTROL 
 
 >[!NOTE]
 >
->您可以使用[!UICONTROL 「活動」]頁面頂端的[!UICONTROL 「報表來源」]下拉式清單，指定只顯示使用 [!DNL Analytics] 作為報表來源的活動。
+>您可以使用[!UICONTROL 活動]頁面頂部的[!UICONTROL 報告來源]下拉式清單，只顯示使用A4T的活動。
 
 按一下報表右上方的適當圖示，即可在報表的[!UICONTROL 表格檢視]和[!UICONTROL 圖形檢視]之間切換。
 
@@ -129,4 +121,12 @@ ht-degree: 39%
 * 瞭解適合用於 Analytics 的報表
 * 回答有關 A4T 的常見問題
 
-[Analytics/Target整合(A4T)辦公時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target整合(A4T)辦公時間](https://helpx.adobe.com/tw/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+
+>[!MORELIKETHIS]
+>
+>* [實施 [!DNL Target] 分析](/help/c-integrating-target-with-mac/a4t/a4timplementation.md):包含at.js和平台網頁SDK的實施資訊。
+>* [重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+* [什麼是Adobe Experience Platform網頁SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html):包含平台網頁SDK的概觀資訊。
+* [目標概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html):包含特定於和 [!DNL Target] 的資訊 [!DNL Platform Web SDK]。
+
