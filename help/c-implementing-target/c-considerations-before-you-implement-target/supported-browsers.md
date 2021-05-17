@@ -5,11 +5,10 @@ title: ' [!DNL Target] 支援哪些瀏覽器？'
 feature: 實施
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 58%
+source-wordcount: '341'
+ht-degree: 48%
 
 ---
 
@@ -34,7 +33,7 @@ ht-degree: 58%
 
 | 裝置類型 | 瀏覽器版本 |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 和 10.在模擬模式中測試。<br>**注意:** at.js 1.3.0 (和更新版本) 不再支援 Microsoft Internet Explorer 9 上的內容傳遞。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome（最新，最新減1）</li><li>Firefox（最新，最新減1）</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 和 10. 在模擬模式中測試。<br>**注意**:at.js 1.3.0（及更新版本）不再支援在IE 9上傳送內容。at.js 2.5.0（及更新版本）不再支援在IE 10、11和所有舊版上傳送內容。</li><li>Internet Explorer 11 <br>**注意**:at.js 2.5.0（及更新版本）不再支援在IE 10、11和所有舊版上傳送內容。</li><li>Microsoft Edge</li><li>Chrome（最新，最新減1）</li><li>Firefox（最新，最新減1）</li></ul> |
 | Mac | <ul><li>Apple Safari（最新）<br>**Note**:如需Safari如何處理第一方和第三方Cookie的詳細資訊，請參閱[目標Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)。</li><li>Firefox（最新，最新減1）</li><li>Chrome（最新，最新減1）</li></ul> |
 | 行動裝置/平板電腦 | <ul><li>Apple iOS（最新）</li><li>Android 裝置和平板電腦 (Android 4 和更新版本)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
