@@ -2,21 +2,24 @@
 keywords: Recommendations
 description: 瞭解Analytics的 [!DNL Target] (A4T)實作需求，以及實施此整合前要考慮的事項。
 title: 在實作A4T之前，我應該知道什麼？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 34%
+source-wordcount: '897'
+ht-degree: 33%
 
 ---
 
-# 實作之前
+# 在您使用at.js實作Analytics for Target(A4T)之前
 
 啟用[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)的報告來源時，資料收集程式會發生數項變更。
 
-決定用此整合之前，請檢閱下列各節，並考量對報表程序造成的影響:
+決定用此整合之前，請檢閱下列各節，並考量對報表程序造成的影響.
+
+>[!NOTE]
+>
+>本文僅適用於at.js實作。
 
 ## 實作需求 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
