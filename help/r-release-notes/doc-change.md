@@ -4,10 +4,10 @@ description: 對Adobe [!DNL Target] 產品文檔進行重要添加和更改，�
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 59%
+source-wordcount: '1195'
+ht-degree: 57%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 59%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 5 月 17 日 | [Target 內容說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 at.js 2.5.0 版的資訊。 |
+|  | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新主題，指出預覽連結可用於[!UICONTROL Automated Personalization](AP)活動(含at.js 2.5.0（及更新版本）。 |
+|  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 已指出at.js 2.5.0版移除對Microsoft Internet Explorer 10、Internet Explorer 11和所有舊版的支援。 at.js 2.5.0及更新版本仍支援Microsoft Edge。 |
+|  | [疑難排解與增強的 [!UICONTROL Experience Composer相關的問題]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 已更新IP位址清單以允許清單。 |
 | 5 月 12 日 | [[!DNL Target] 發行說明（搶鮮版）](/help/r-release-notes/target-release-notes.md) | 已新增下列的發行前附註：<ul><li>Adobe Experience Platform網頁SDK(2021年5月17日</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 5 月 10 日 | [[!DNL Recommendations] 常見問題](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問答：&quot;我是否可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法？&quot; |
 |  | [實作 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 已指出[!DNL Adobe Dynamic Tag Manager]不再受支援。 相反，[!DNL Adobe]建議使用[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)實作。 |
