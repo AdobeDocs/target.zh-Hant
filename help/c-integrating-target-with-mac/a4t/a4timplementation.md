@@ -1,40 +1,70 @@
 ---
-keywords: A4T;Adobe Analytics;Analytics 型活動;Analytics 報表套裝;報表套裝;Analytics Target 整合;設定報表套裝
+keywords: A4T;Adobe Analytics；基於Analytics的活動；Analytics報表套裝；報表套裝；Analytics Target整合；設定報表套裝；at.js;atjs;atjs;adobe體驗平台網頁sdk；平台網頁sdk
 description: 請依照實施 [!DNL Target] (A4T) in your Adobe [!DNL Target] 和Adobe Analytics解決方案的Analytics所需的步驟進行。
 title: 如何實作 [!DNL Target] (A4T)的Analytics?
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: efa796edf3cd4da718fdcb0dbfd3d6f635ebf401
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 30%
+source-wordcount: '1156'
+ht-degree: 24%
 
 ---
 
 # [!DNL Target]實作的分析
 
-將[!DNL Adobe Analytics]實作[!DNL Adobe Target](A4T)的報告來源時，需要幾個步驟。
+將[!DNL Adobe Analytics]實作[!DNL Adobe Target](A4T)的報告來源時，需要幾個步驟。 此程式視您是使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)實作A4T，還是使用at.js而定。
 
-## 實施步驟{#section_73961BAD5BB4430A95E073DE5C026277}
+## Adobe Experience Platform網頁SDK實作的實作步驟 {#platform}
 
-以下各節將說明將此整合部署至您網站所需的步驟。
+>[!NOTE]
+>
+>本文討論之[!DNL Adobe Experience Platform Web SDK]實作中的A4T支援已排定隨[!DNL Platform Web SDK] 2.5.0版發行提供（2021年5月24日）。
 
-## 步驟 1: 要求佈建給 Analytics 和 Target
+以下各節將說明如果您打算使用平台網頁SDK，將此整合部署至您的網站所需的步驟：
+
+### 步驟1:請求[!DNL Analytics]和[!DNL Target]的布建
+
+在實施A4T之前，必須為[!DNL Analytics]和[!DNL Target]預配。 [使用此表單請求布建](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)。
+
+### 步驟 2: 設定使用者權限
+
+您必須符合使用者帳戶需求，才能建立以[!DNL Target]中[!DNL Analytics]為基礎的活動。 請參閱[使用者權限需求](/help/c-integrating-target-with-mac/a4t/account-reqs.md)。
+
+### 步驟3:建立Edge組態
+
+使用邊配置工具使用[!DNL Adobe Experience Platform Launch]建立邊配置。 配置[[!DNL Analytics] and [!DNL Target] edge配置設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)。
+
+### 步驟4:安裝及設定平台網頁SDK
+
+若要開始提供[!DNL Target]體驗並套用[!DNL Analytics]以用於追蹤和分析，請在您的網站頁面上[安裝](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)和[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)平台網頁SDK。
+
+### 步驟5:啟用使用A4T的選項
+
+在[!DNL Target] UI中，按一下「管理&#x200B;**** > **[!UICONTROL 視覺體驗撰寫器]**」，然後選擇「依活動選擇&#x200B;]**」或「**[!UICONTROL  Adobe Analytics ]**」。**[!UICONTROL 
+
+* **[!UICONTROL 「為每個活動選取」可讓您在建立每個活動時選擇 或 。]**[!DNL Target][!DNL Analytics]
+* **[!UICONTROL Adobe 會將 Analytics 設為您建立的所有活動的報表來源。]**[!DNL Analytics]
+
+## at.js實作的實施步驟{#section_73961BAD5BB4430A95E073DE5C026277}
+
+下列章節說明如果您打算使用at.js，將此整合部署至您的網站所需的步驟：
+
+### 步驟 1: 要求佈建給 Analytics 和 Target
 
 將[!DNL Analytics]實作為[!DNL Target]的報告源後，必須為[!DNL Analytics]和[!DNL Target]預配。 [使用此表單請求布建](http://www.adobe.com/go/audiences)。
 
-## 步驟 2: 設定使用者權限
+### 步驟 2: 設定使用者權限
 
 必須先符合使用者帳戶需求，您才能在[!DNL Target]中建立以[!DNL Analytics]為基礎的活動。 請參閱[使用者權限需求](/help/c-integrating-target-with-mac/a4t/account-reqs.md)。
 
-## 步驟 3: 實作 Experience Cloud 訪客 ID 服務
+### 步驟 3: 實作 Experience Cloud 訪客 ID 服務
 
 訪客 ID 服務可讓您在 [!DNL Adobe Experience Cloud] 解決方案之間識別使用者。實作或移轉至Experience Cloud訪客ID的必要版本。 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
 請參閱&#x200B;*Experience Cloud訪客ID服務*&#x200B;檔案中的[實作Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)Experience CloudID服務。
 
-## 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
+### 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
 
 實作或移轉至所需版本的appMeasurement.js。 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
@@ -42,19 +72,19 @@ ht-degree: 30%
 
 如需移轉，請參閱&#x200B;*Analytics實施指南*&#x200B;中的[移轉至JavaScript適用的AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)。
 
-## 步驟5:下載並更新at.js
+### 步驟5:下載並更新at.js
 
 使用您的生產帳戶實作或移轉至所需版本的at.js。 不需要修改程式碼。
 
 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-## 步驟6:主機at.js
+### 步驟6:主機at.js
 
 如果您先前已部署at.js，則可以用更新版本取代現有檔案。 如需詳細資訊，請參閱[實作之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
 否則，此檔案可以與訪客 ID 服務和 AppMeasurement for JavaScript 檔案一起裝載。這些檔案必須裝載於您網站所有頁面皆能存取的 Web 伺服器上。下一個步驟需要用到這些檔案的路徑。
 
-## 步驟7:所有網站頁面{#step7}上的參考at.js
+### 步驟7:所有網站頁面上的參考at.js {#step7}
 
 在每個頁面的標籤中新增下列程式碼行，將at.js納入VisitorAPI.js下方：
 
@@ -150,21 +180,25 @@ adobe.target.getOffers({
 
 然後，可以通過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉發到[!DNL Analytics]。
 
-## 步驟8: 驗證實作 {#step8}
+### 步驟8: 驗證實作 {#step8}
 
 更新 JavaScript 程式庫之後載入頁面，以確認 呼叫中的 `mboxMCSDID`[!DNL Target] 參數值符合 頁面檢視呼叫中的 `sdid`[!DNL Analytics] 參數值。
 
 請務必確認這些值在「單頁應用程式」(SPA)中是否相符，因為呼叫的順序並不總是可預測。
 
-**注意：**  A4T必須符合這些值才能正常運作。
+>[!NOTE]
+>
+>A4T必須符合這些值，才能正常運作。
 
-## 步驟 9: (可選) 移除先前的整合程式碼
+### 步驟 9: (可選) 移除先前的整合程式碼
 
 Adobe建議您移除先前的整合，以簡化實作，並消除系統間不一致的問題。 您可以移除您為舊版SC部署的任何程式碼至T&amp;T整合，包括`mboxLoadSCPlugin`。
 
-## 步驟10: 啟用以 Analytics 作為 Target 的報表來源的選項
+### 步驟10: 啟用以 Analytics 作為 Target 的報表來源的選項
 
 在[!DNL Target]中，按一下「管理」>「Visual Experience Composer」]**，然後選擇「Select per activity」（每活動）]**&#x200B;或「**[!UICONTROL Adobe Analytics」]**&#x200B;以啟用選項。**[!UICONTROL **[!UICONTROL 
 
 * **[!UICONTROL 「為每個活動選取」可讓您在建立每個活動時選擇 或 。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL Adobe 會將 Analytics 設為您建立的所有活動的報表來源。]**[!DNL Analytics]
+
+
