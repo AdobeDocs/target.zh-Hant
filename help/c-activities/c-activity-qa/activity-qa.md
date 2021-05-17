@@ -4,11 +4,10 @@ description: 瞭解如何使用Adobe [!DNL Target] QA URL，透過預覽連結�
 title: 如何進行QA活動？
 feature: 活動
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 78%
+source-wordcount: '1525'
+ht-degree: 79%
 
 ---
 
@@ -16,14 +15,11 @@ ht-degree: 78%
 
 使用[!DNL Adobe Target]中的QA URL，以便透過預覽連結輕鬆執行端對端活動QA，這些連結不會變更、選擇性的受眾定位，以及與即時活動資料保持區隔的QA報告。
 
-## 概述 {#section_11B761A522A14E61978275772210A4C2}
+## 總覽 {#section_11B761A522A14E61978275772210A4C2}
 
 活動 QA 可讓您在將 Target 活動推上線之前進行完整測試。活動 QA 功能包括:
 
 * 與團隊成員分享的連結，無論體驗或活動如何更新，這些連結皆不可能變更或需要重新產生。這可讓您完整測試整個使用者旅程中的活動。
-
-   已新增[!UICONTROL Automated Personalization]活動的預覽連結支援[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
-
 * 可選擇是否考量對象狀況，這讓市場行銷人員測試鎖定目標條件或忽略鎖定目標條件，以 QA 體驗的外觀，而不必配合對象狀況。
 * 擷取 QA 報表，讓市場行銷人員可以確認量度如預期增加，且 QA 報表資料和生產報表 (適用於非 A4T 報表) 分開。
 * 能夠單獨預覽體驗，或與符合傳送條件的其他即時活動（頁面/Target要求／觀眾）搭配預覽。
@@ -67,7 +63,7 @@ ht-degree: 78%
 
 ## 考量事項 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 自動個人化 (AP) 除外，所有活動類型的[!UICONTROL 「概覽」]頁面上皆會顯示[!UICONTROL 「活動 QA」]連結。您可以使用[預覽連結](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)以顯示 AP 活動。
+* 自動個人化 (AP) 除外，所有活動類型的[!UICONTROL 「概覽」]頁面上皆會顯示[!UICONTROL 「活動 QA」]連結。
 * 如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結應可解決此問題。為避免繼續發生此問題，請封存不再需要使用的已儲存活動。
 * 以 Analytics 作為報表來源 (A4T) 的活動皆有活動 QA URL。使用活動 QA 執行 QA 時所產生的點閱，將會流向活動資料所流向的相同個報表套裝 (即使活動上線後)。
 * 針對已封存的活動或超過結束日期的活動，活動 QA 不會顯示內容。若停用已結束的活動，您必須再次儲存活動以使活動 QA 運作。
