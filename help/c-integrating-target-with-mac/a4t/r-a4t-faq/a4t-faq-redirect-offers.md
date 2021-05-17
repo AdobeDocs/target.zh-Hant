@@ -2,13 +2,12 @@
 keywords: faq;常見問題集;analytics for target;a4T;重新導向;重新導向選件;adobe-mc-sdid;adobe_mc_ref
 description: 在 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活動使用Analytics時，尋找有關使用重新導向選件的問題解答。
 title: 我可以在哪裡找到有關A4T重新導向選件的常見問答集？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 69%
 
 本主題包含使用[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)報告來源時，常問有關使用重新導向選件的問題。
 
-## Analytics forAdobe Target(A4T)是否支援重新導向選件？{#section_46B8B03ED4D542C6AD875F5F61176298}
+## Analytics forAdobe Target(A4T)是否支援重新導向選件？ {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 是的，如果您的實作使用[!DNL at.js]。 不過，您的實作必須符合下列最低需求，才能在以 Analytics 作為報表來源的活動中使用[重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
@@ -24,7 +23,7 @@ ht-degree: 69%
 >
 >目前存在一個已知問題，該問題導致搭配 A4T 使用重新導向的部分客戶看見較高的散亂點擊率百分比。請參閱[已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)。
 
-## 對A4T使用重新導向選件的最低需求為何？{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
+## 對A4T使用重新導向選件的最低需求為何？ {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 您的實作必須符合下列最低需求:
 
@@ -40,7 +39,7 @@ ht-degree: 69%
 
 可能會出現一些資料差異，這在預期之中。如需詳細資訊，請參閱[使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
 
-## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 使用at.js 1.6.3版或更新版本時，計算兩個頁面的頁面檢視次數並不是問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
@@ -73,7 +72,7 @@ ht-degree: 69%
 
 在 VEC 和表單式體驗撰寫器中使用重新導向選件，且頁面上實作訪客 ID 服務時，這些參數會自動加入重新導向 URL 中。如果在 VEC 和表單式撰寫器中使用您自己的自訂重新導向程式碼，務必隨著自訂程式碼傳遞這些參數。
 
-## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## 我的 Web 伺服器從 URL 中刪除這些參數，怎麼辦? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 與您的IT團隊合作，以列出這些參數（`adobe_mc_sdid`和`adobe_mc_ref`）。
 
@@ -95,7 +94,7 @@ ht-degree: 69%
 
 Adobe建議您與IT團隊交談，以確保`adobe_mc_ref`和`adobe_mc_sdid`都可以列出，以便不以任何方式轉換這些值。
 
-## 為何必須將反向連結URL傳遞至新頁面？{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
+## 為何必須將反向連結URL傳遞至新頁面？ {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
 假設訪客點按了[!DNL `www.google.com`]上的連結至您的首頁(`www.mysite.com/index.html`)，重新導向活動即時存在，然後重新導向至新頁面(`www.mysite.com/index2.html`)。
 
@@ -106,3 +105,23 @@ Adobe建議您與IT團隊交談，以確保`adobe_mc_ref`和`adobe_mc_sdid`都�
 ## 我可以使用自訂/HTML 重新導向選件嗎? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 否，對於以 [!DNL Analytics] 作為報表來源 (A4T) 的活動，您必須使用內建的重新導向選件。對 [!DNL Target] 而言，HTML 選件不透明: [!DNL Target] 無法知道一段特定的 HTML 包含可將重新導向具現化的 JavaScript。
+
+## [!DNL Adobe Experience Platform Web SDK]是否支援A4T的重新導向選件？ {#platform}
+
+下列常見問答集提供有關使用A4T和將選件重新導向至[!DNL Platform Web SDK]的詳細資訊。
+
+>[!NOTE]
+>
+>本文討論之[!DNL Adobe Experience Platform Web SDK]實作中的A4T支援已排定隨[!DNL Platform Web SDK] 2.5.0版發行提供（2021年5月24日）。
+
+### Analytics for Target (A4T) 支援重新導向選件嗎?
+
+是的，透過平台網頁SDK的A4T支援[重新導向選件](/help/c-experiences/c-manage-content/offer-redirect.md)。
+
+### [!UICONTROL Visual Experience Composer](VEC)和[!UICONTROL 表單式體驗撰寫器]是否受支援？
+
+是的，如果您使用內建的重新導向選件，則支援[[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC)和[[!UICONTROL  Form-Based Experience Composer]](/help/c-experiences/form-experience-composer.md)。
+
+### 我是否可搭配[!DNL Platform Web SDK]使用自訂/HTML重新導向選件？
+
+否，您必須針對使用A4T的活動使用內建的重新導向選件。 從[!DNL Target]的角度來看，HTML選件是不透明的。[!DNL Target]無法知道特定HTML片段包含執行個體化重新導向的JavaScript。
