@@ -4,11 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: 發行說明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
-ht-degree: 98%
+source-wordcount: '4409'
+ht-degree: 99%
 
 ---
 
@@ -24,9 +23,13 @@ ht-degree: 98%
 
 以下小節羅列 [!DNL Target] 的已知問題：
 
-### Adobe Target(A4T)自動分配和自動定位活動的分析量度
+### 封存[!UICONTROL 自動鎖定目標]活動可能會造成同步問題
 
-[!DNL Target] UI可讓使用者選擇不支援的參與和收入量度，作為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動中最佳化的主要目標量度。 支援轉換量度；&#x200B;*不*&#x200B;支援參與和收入量度。如果您選擇參與或收入目標量度，則最佳化模型不會建立。
+嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。 在此問題修正前，請勿封存[!UICONTROL 自動鎖定目標]活動。 將其保留為[!UICONTROL 非活動]狀態。 (TGT-40885)
+
+### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
+
+[!DNL Target] UI 可讓使用者選擇不支援的參與和收入量度，作為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動中最佳化的主要目標量度。 支援轉換量度；&#x200B;*不*&#x200B;支援參與和收入量度。如果您選擇參與或收入目標量度，則最佳化模型不會建立。
 
 如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
@@ -49,7 +52,7 @@ ht-degree: 98%
 * 在設定 Analytics for Target (A4T) 的活動中使用重新導向選件時，有限數量的客戶報告流量分佈的差異程度較高。
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
-### 取消在 Visual Experience Composer (VEC) 中載入頁面{#cancel}
+### 取消在 Visual Experience Composer (VEC) 中載入頁面 {#cancel}
 
 * 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定] (XT) 活動時，目前存在下列已知問題。
 
@@ -81,8 +84,8 @@ ht-degree: 98%
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
 * 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。(TGT-35777)
 * 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
-* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896、TGT-36173)
-* 標準和設計卡片無法顯示正在使用它們的活動的正確數目。 如果 A/B 活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。(TGT-36621、TGT-37217)
+* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896 和 TGT-36173)
+* 標準和設計卡片無法顯示正在使用它們的活動的正確數目。 如果 A/B 活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。(TGT-36621 和 TGT-37217)
 
 ### 多變數測試 (MVT) 活動
 
@@ -90,7 +93,7 @@ ht-degree: 98%
 
 ### at.js {#atjs}
 
-at.js 的已知問題如下：
+下列是 at.js 的已知問題:
 
 * 使用 2.2.0 之前的 at.js 版本，如果頁面元素上沒有 Adobe Analytics 代碼 (例如按鈕)，點按追蹤不會報告 Analytics for Target (A4T) 中的轉換。at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 * 如果您使用 at.js 2.1.1 或更舊版本建立沒有任何修改的體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 的數據之中。此外，[ttMeta 外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)可能會無法正常運作。
@@ -120,9 +123,9 @@ at.js 的已知問題如下：
 
 當成功量度設為在每次曝光時遞增時，Target 會在每次訪客造訪此成功量度時便再次計入訪客。然後 Target 會將成功量度「會員資格」重設為 0，使得它可以在下一次曝光時再次計入。因此，如果其他量度要求先看見此量度，Target 永遠不會將該使用者識別為已看見第一個量度。
 
-### [!DNL Target](A4T)的分析
+### Analytics for [!DNL Target] (A4T)
 
-在 Analysis Workspace 中使用 Target 活動曝光和轉換時，請套用「相同接觸」 Attribution IQ 模型至量度，以確保計數準確。若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=zh-Hant)，請在量度上按一下滑鼠右鍵，以&#x200B;**修改欄設定 > 啟用使用非預設歸因模型 > 選擇相同接觸模型**&#x200B;。&#x200B;若未套用此模型，這些量度就會被誇大。
+在 Analysis Workspace 中使用 Target 活動曝光和轉換時，請套用「相同接觸」 Attribution IQ 模型至量度，以確保計數準確。若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html??lang=zh-Hant)，請在量度上按一下滑鼠右鍵，以&#x200B;**修改欄設定 > 啟用使用非預設歸因模型 > 選擇相同接觸模型**&#x200B;。&#x200B;若未套用此模型，這些量度就會被誇大。
 
 所有目前的 Analytics 套件都可以用 Attribution IQ 加入此模型。如果您沒有 Attribution IQ 存取權，請依賴「Reports &amp; Analytics」中的 A4T 資料。
 
@@ -134,7 +137,7 @@ at.js 的已知問題如下：
 
 2020年5月10日，Adobe 更新了 GEO 提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。並非所有 Adobe 傳送伺服器都受到此項變更的影響。因此，在 2020 年 5 月 10 日至 7 月 22 日之間使用這些值的對象可能不符合所有正確訪客的資格。
 
-### 報告——可下載。csv報告中的資料與[!DNL Target] UI中顯示的報告不一致。{#csv}
+### 報告 - 可下載的 .csv 報告與 [!DNL Target] UI 中顯示的報告之間的資料不一致。  {#csv}
 
 如果活動使用多個量度，則為下載所產生的 .csv 報告會不一致。可下載的報告僅是根據報告設定而產生，並會針對使用的任何其他量度考慮相同的值。
 
@@ -150,7 +153,7 @@ at.js 的已知問題如下：
 
 此問題已在 Target Standard/Premium 20.10.1 版中修正。
 
-### Adobe Target(A4T)報告分析
+### Analytics for Adobe Target (A4T) 報告
 
 下列與 A4T 相關的問題已解決：
 
@@ -237,7 +240,7 @@ mbox.js 資料庫不支援用戶端範本語言，例如 Handlebars 和 Mustache
 
 針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js，global\_mbox\_autocreate 會設為 &quot;true&quot;，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
 
-### [!DNL Target] API {#api}中的企業權限支援
+### [!DNL Target] API 中的企業權限支援  {#api}
 
 如果使用 GET API 提取選件清單，預設工作區中可能會顯示從選件資料庫中的 Target UI 建立的代碼選件。此問題將會在 2019 年 3 月的第一週修正。此修正就緒後，從 API 進行提取時，系統會在適當的工作區中顯示代碼選件。此問題&#x200B;*不會*&#x200B;影響從 API 建立的選件。例如，無論是透過 GET API 或從 Target UI 中擷取，從 API 建立的代碼選件都會顯示在其建立的工作區中。
 
@@ -346,9 +349,9 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 用於擷取儲存 Cookie 時應該使用的上層網域的演算法在 at.js 版本 0.9.6 中已變更。因為此變更，無法將 Cookie 儲存至使用 IP 的位址。大部分時候，IP 位址是用於測試用途，但做為解決辦法，您可以使用 DNS 項目調整本機機器上的主機檔案，或是使用 targetGlobalSettings() at.js 函數來插入程式碼片段以支援 IP 位址。
 
-此問題已在 at.js 版本 1.2 中補救。
+此問題已在 at.js 版本 1.2 中修復。
 
-### [!DNL Target] Premium的企業使用者權限
+### [!DNL Target] Premium 的企業使用者權限
 
 隨著企業權限移轉，所有 Target Premium 使用者管理已從 Adobe Target UI 移至 Adobe Admin Console。
 
@@ -439,9 +442,9 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 在 Recommendations 17.2.2.0 版本 (2017 年 3 月 6 日) 中修正。
 
-### Adobe Target(A4T)報告分析
+### Analytics for Adobe Target (A4T) 報告
 
-切換報表度量時，報表未更新。此問題僅影響 UI。對於報表資料收集或傳送沒有影響。(TGT-22970)
+切換報表量度時，報表並未更新。 此問題僅影響 UI。對於報表資料收集或傳送沒有影響。(TGT-22970)
 
 在 Target 17.2.2.0 版本 (2017 年 2 月 24 日) 中修正。
 
