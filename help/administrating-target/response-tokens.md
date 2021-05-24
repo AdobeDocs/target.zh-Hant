@@ -5,10 +5,10 @@ title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 29%
+source-wordcount: '1556'
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->回應Token可隨[!DNL Adobe Experience Platform Web SDK] 2.5.0版或更新版本（排定於2021年5月24日發行）以及at.js 1.1版或更新版本一併使用。
+>回應Token可隨[!DNL Adobe Experience Platform Web SDK] 2.5.0版或更新版本（排定於2021年6月1日發行）以及at.js 1.1版或更新版本一併使用。
 
 | Target SDK | 建議的動作 |
 |--- |--- |
@@ -212,13 +212,13 @@ ht-degree: 29%
 
 [!DNL Target] 會定期重新整理屬性。未開啟的任何屬性都會在下次重新整理時移除。 不過，如果您有已開啟且已移除的屬性，該指令碼不會從屬性清單中移除，除非您將其關閉。 例如，您移除了當作Token的設定檔指令碼。 [!DNL Target]只有在刪除或重新命名已關閉的屬性時， 才會從清單中移除這些屬性。
 
-## 透過Platform Web SDK傳送資料至Google Analytics
+## ![AEP](/help/assets/platform.png) 徽章透過Platform Web SDK傳送資料至Google Analytics
 
 Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web SDK 2.5.0版（或更新版本）傳送資料：
 
 （即將推出的程式碼）
 
-## 透過at.js傳送資料至Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js徽](/help/assets/atjs.png) 章透過at.js傳送資料至Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 在 HTML 頁面中新增下列程式碼，即可透過 at.js 將資料傳送至 Google Analytics:
 
@@ -288,7 +288,7 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
 
 以下小節提供偵錯回應Token的相關資訊：
 
-### Google Analytics和除錯
+### ![at.js徽](/help/assets/atjs.png) 章Google Analytics和除錯
 
 下列程式碼可讓您使用Google Analytics除錯：
 
@@ -405,7 +405,7 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
 </script>
 ```
 
-## 訓練影片: 回應 Token 與 at.js 自訂事件 ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/assets/atjs.png) 訓練影片：回應Token和at.js自訂事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 以下影片說明如何使用回應Token和at.js自訂事件，共用從[!DNL Target]到協力廠商系統的設定檔資訊。
 
