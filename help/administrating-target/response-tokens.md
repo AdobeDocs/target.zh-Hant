@@ -5,9 +5,9 @@ title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1601'
 ht-degree: 28%
 
 ---
@@ -76,7 +76,11 @@ ht-degree: 28%
 
 1. 建立活動。
 
-## ![Adobe Experience Platform Web SDK使](/help/assets/platform.png) [!DNL Platform Web SDK] 用Handle物件類別
+## 接聽回應並讀取回應Token
+
+您用來監聽[!DNL Target]回應和讀取回應Token的程式會因您有[!DNL Platform Web SDK]還是at.js實作而異。
+
+### ![Adobe Experience Platform Web SDK使](/help/assets/platform.png) [!DNL Platform Web SDK] 用Handle物件類別
 
 使用Handle對象類，該類具有元資料對象和資料對象，以偵聽[!DNL Target]響應並讀取響應Token。
 
@@ -143,7 +147,7 @@ ht-degree: 28%
 | Meta | 傳遞至頁面的中繼資料。 |
 | 資料 | 傳遞給頁面的元資料的值。 |
 
-## ![at.js ](/help/assets/atjs.png) badgeat.js使用自訂事件
+### ![at.js ](/help/assets/atjs.png) badgeat.js使用自訂事件
 
 使用 [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)接聽 回應並讀取回應 Token。[!DNL Target]
 
@@ -212,13 +216,17 @@ ht-degree: 28%
 
 [!DNL Target] 會定期重新整理屬性。未開啟的任何屬性都會在下次重新整理時移除。 不過，如果您有已開啟且已移除的屬性，該指令碼不會從屬性清單中移除，除非您將其關閉。 例如，您移除了當作Token的設定檔指令碼。 [!DNL Target]只有在刪除或重新命名已關閉的屬性時， 才會從清單中移除這些屬性。
 
-## ![AEP](/help/assets/platform.png) 徽章透過Platform Web SDK傳送資料至Google Analytics
+## 傳送資料至Google Analytics
+
+以下各節說明如何將[!DNL Target]資料傳送至Google Analytics:
+
+### ![AEP](/help/assets/platform.png) 徽章透過Platform Web SDK傳送資料至Google Analytics
 
 Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web SDK 2.5.0版（或更新版本）傳送資料：
 
 （即將推出的程式碼）
 
-## ![at.js徽](/help/assets/atjs.png) 章透過at.js傳送資料至Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js徽](/help/assets/atjs.png) 章透過at.js傳送資料至Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 在 HTML 頁面中新增下列程式碼，即可透過 at.js 將資料傳送至 Google Analytics:
 
