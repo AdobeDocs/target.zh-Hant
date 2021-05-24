@@ -4,7 +4,7 @@ description: 尋找在將Analytics用於 [!DNL Target] (A4T). A4T lets you use A
 title: 哪裡可以找到有關使用A4T重新導向選件的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 62%
@@ -112,7 +112,7 @@ Adobe建議您洽詢IT團隊，確保`adobe_mc_ref`和`adobe_mc_sdid`皆已允�
 
 >[!NOTE]
 >
->本文探討的[!DNL Adobe Experience Platform Web SDK]實作中的A4T支援排定於[!DNL Platform Web SDK] 2.5.0版本（2021年5月24日）提供。
+>本文探討的[!DNL Adobe Experience Platform Web SDK]實作中的A4T支援已排定在[!DNL Platform Web SDK] 2.5.0版本（2021年6月1日）中提供。
 
 ### Analytics for Target (A4T) 支援重新導向選件嗎?
 
