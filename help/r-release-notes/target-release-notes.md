@@ -4,7 +4,7 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 51%
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 本文包含發行前資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最近更新: 2021 年 5 月 20 日**
+**最近更新: 2021 年 5 月 24 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -25,7 +25,7 @@ ht-degree: 51%
 >
 >為避免您的網站出現任何潛在問題，請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
-## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年5月24日）
+## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
 
 此版本的[!DNL Platform Web SDK]包含對以下內容的支援：
 
