@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 90%
+source-wordcount: '1244'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 90%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 5 月 20 日 | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題： &quot;存檔[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。&quot; |
+| 5 月 20 日 | [裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增 Adobe 技術部落格上以下部落格文章的連結：<ul><li>Adobe技術部落格 — 第2部分：執行[!DNL Adobe Target] NodeJS SDK以在邊緣平台上進行實驗和個人化(AWS Lambda@Edge)</li></ul> |
+|  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題： &quot;存檔[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。&quot; |
 | 17 月 5 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 at.js 2.5.0 版的資訊。 |
 |  | [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 更新主題，指出預覽連結可供使用at.js 2.5.0（和更新版本）的[!UICONTROL Automated Personalization](AP)活動使用。 |
 |  | [受支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 指出at.js 2.5.0版移除了對Microsoft Internet Explorer 10、Internet Explorer 11和所有舊版的支援。 at.js 2.5.0及更新版本仍持續支援Microsoft Edge。 |
