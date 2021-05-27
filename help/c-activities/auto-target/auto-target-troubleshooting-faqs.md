@@ -1,24 +1,23 @@
 ---
-keywords: 自動鎖定目標;鎖定目標;流量分配;常見問題;faq;疑難排解;疑難排解;流量
-description: 查看有關 Adobe Target 自動鎖定目標活動的疑難排解主題和常見問題。
+keywords: 自動鎖定目標;鎖定目標;流量分配;常見問答;faq;疑難排解;疑難排解;流量
+description: 查看有關 Adobe Target 自動鎖定目標活動的疑難排解主題和常見問答。
 title: 如何疑難排解自動鎖定目標活動？
 feature: 自動鎖定目標
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1920'
 ht-degree: 99%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) 自動鎖定目標疑難排解和常見問題 (FAQs)
+# ![PREMIUM](/help/assets/premium.png) 自動鎖定目標疑難排解和常見問答 (FAQ)
 
-查看有關 [!DNL Adobe Target] [!UICONTROL 自動鎖定目標] 的疑難排解和常見問題 (FAQs) 。
+查看有關 [!DNL Adobe Target] [!UICONTROL 自動鎖定目標] 的疑難排解和常見問答 (FAQ)。
 
-## 自動鎖定目標常見問題 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
+## 自動鎖定目標常見問答 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-在使用 [!UICONTROL 自動鎖定目標] 活動時查詢下列的常見問題和回答：
+在使用 [!UICONTROL 自動鎖定目標] 活動時查詢下列的常見問答：
 
 ### 設定 [!UICONTROL 自動鎖定目標] 活動有何最佳作法？
 
@@ -33,7 +32,7 @@ ht-degree: 99%
 
 * 請勿於活動期間對體驗做出重大變更。
 
-### 您是否建議我們將Auto [!DNL Target]與90(Control)/10(Targeted)分割搭配使用，直到模型建立為止？
+### 是否建議在建置模型之前，將[!UICONTROL 自動鎖定目標]與90（控制項）/10（目標）分割搭配使用？
 
 您的最佳流量配置分割取決於您想要達成的目的。
 
@@ -98,7 +97,7 @@ No, check marks for model generation show only the models built to date. There's
 
 如需詳細資訊，請參閱[使用特定體驗作為控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
-### 我可以透過自動鎖定目標活動半途變更目標量度嗎？{#change-metric}
+### 我可以透過自動鎖定目標活動半途變更目標量度嗎？ {#change-metric}
 
 我們不建議您透在活動中途變更目標量度。雖然在活動期間有可能使用 [!DNL Target] UI 變更目標量度，您應該總是開始一個新的活動。我們不保證您在活動開始執行後變更目標量度會發生什麼事。
 
