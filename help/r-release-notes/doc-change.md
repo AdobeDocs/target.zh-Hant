@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1257'
 ht-degree: 89%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 89%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 5 月 27 日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 新增[!DNL Target] API呼叫的區段。 上限為每分鐘50次呼叫。 |
 | 5 月 20 日 | [裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增 Adobe 技術部落格上以下部落格文章的連結：<ul><li>Adobe技術部落格 — 第2部分：執行[!DNL Adobe Target] NodeJS SDK以在邊緣平台上進行實驗和個人化(AWS Lambda@Edge)</li></ul> |
 |  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題： &quot;存檔[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。&quot; |
 | 17 月 5 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 at.js 2.5.0 版的資訊。 |
