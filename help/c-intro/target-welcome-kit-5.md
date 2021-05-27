@@ -1,14 +1,13 @@
 ---
-keywords: 歡迎套件;target 歡迎套件;介紹;介紹;開始
+keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
 description: 我可以從哪裡找到使用 Adobe Target 進行測試和個人化活動的概念和靈感？
 title: 我可以從哪裡找到測試和個人化工作的靈感？
 feature: 總覽
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 99%
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 99%
 
 例如，當某電信公司的「狂熱玩家」訪客造訪該公司網站時，提供可引起玩家共鳴的拷貝和影像，以及高速網際網路優惠。
 
-## 構想2:[!DNL Target]首次訪客和重複客戶的方式不同。
+## 構想 2：Target 首次訪客和重複客戶的方式不同。
 
 數位行銷人員直覺地認識到現有客戶比新客戶更有價值，但他們往往無法排定行銷計畫的優先順序，以確保客戶能夠回來。為避免這種常見陷阱，請分析您的重複客戶量度，以判斷忠誠客戶在您網站上的行為。使用這些見解為購買一或兩次的訪客建立定位促銷活動，提供鼓勵他們進行額外網站瀏覽的獎勵。
 
