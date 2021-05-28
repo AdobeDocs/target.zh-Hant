@@ -1,13 +1,13 @@
 ---
 keywords: 回應Token;Token；外掛程式；外掛程式；at.js；回應
-description: 了解如何在Adobe [!DNL Target] 輸出特定資訊中使用回應Token，以用於除錯及與第三方系統整合（例如Clicktale）。
+description: 了解如何在Adobe [!DNL Target] 輸出特定資訊中使用回應Token，以用於除錯及與第三方工具整合。
 title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1628'
 ht-degree: 27%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->回應Token可隨[!DNL Adobe Experience Platform Web SDK] 2.5.0版或更新版本（排定於2021年6月1日發行）以及at.js 1.1版或更新版本一併使用。
+>回應Token隨[!DNL Adobe Experience Platform Web SDK] 2.6.0版或更新版本（排定於2021年6月1日發行）以及at.js 1.1版或更新版本提供。
 
 | Target SDK | 建議的動作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 請確定您使用的是Platform Web SDK 2.5.0版或更新版本。 如需下載最新版Platform Web SDK的詳細資訊，請參閱&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 請確定您使用的是Platform Web SDK 2.6.0版或更新版本。 如需下載最新版Platform Web SDK的詳細資訊，請參閱&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js中有部分外掛程式需仰賴內部方法，但at.js中沒有，這些外掛程式會傳送但失敗。 如需詳細資訊，請參閱 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
 
 ## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. 請確定您使用的是Platform Web SDK 2.5.0版（或更新版）或at.js 1.1版（或更新版）。
+1. 請確定您使用的是Platform Web SDK 2.6.0版（或更新版）或at.js 1.1版（或更新版）。
 
    如需詳細資訊：
 
@@ -176,7 +176,7 @@ ht-degree: 27%
 
 只有[!DNL Target] [!UICONTROL 管理員]角色的使用者才可啟動或停用回應Token。
 
-**如果我執行[!DNL Platform Web SDK] 2.5.0（或更舊版本），會發生什麼情況？
+**如果我執行[!DNL Platform Web SDK] 2.6.0（或更舊版本），會發生什麼情況？
 
 您無權存取回應Token。
 
@@ -222,9 +222,60 @@ ht-degree: 27%
 
 ### ![AEP](/help/assets/platform.png) 徽章透過Platform Web SDK傳送資料至Google Analytics
 
-Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web SDK 2.5.0版（或更新版本）傳送資料：
+Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web SDK 2.6.0版（或更新版本）傳送資料。
 
-（即將推出的程式碼）
+>[!NOTE]
+>
+>請確定回應Token鍵值組位於`alloy(“sendEvent”`物件下。
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.js徽](/help/assets/atjs.png) 章透過at.js傳送資料至Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
 
