@@ -5,10 +5,10 @@ title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 28%
+source-wordcount: '1622'
+ht-degree: 27%
 
 ---
 
@@ -84,7 +84,14 @@ ht-degree: 28%
 
 使用Handle對象類，該類具有元資料對象和資料對象，以偵聽[!DNL Target]響應並讀取響應Token。
 
-下列程式碼範例直接將[!DNL Platform Web SDK]自訂事件處理常式新增至HTML頁面：
+以下回應範例直接將[!DNL Platform Web SDK]自訂事件處理常式新增至HTML頁面（表格說明程式碼中使用的物件）:
+
+| 物件 | 資訊 |
+| --- | --- |
+| 類型 — 個人化.decision | 決定由[!DNL Target]或Offer decisioning提供者決定。 |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 提供回應Token中繼資料和值至頁面。 |
+| Meta | 傳遞至頁面的中繼資料。 |
+| 資料 | 傳遞至頁面的中繼資料的值。 |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ ht-degree: 28%
 
 </html>
 ```
-
-| 物件 | 資訊 |
-| --- | --- |
-| 類型 — 個人化.decision | [!DNL Target] 和Offer decisioning資料傳遞於此處。 |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 提供回應Token中繼資料和值至頁面。 |
-| Meta | 傳遞至頁面的中繼資料。 |
-| 資料 | 傳遞給頁面的元資料的值。 |
 
 ### ![at.js ](/help/assets/atjs.png) badgeat.js使用自訂事件
 
@@ -218,7 +218,7 @@ ht-degree: 28%
 
 ## 傳送資料至Google Analytics
 
-以下各節說明如何將[!DNL Target]資料傳送至Google Analytics:
+以下各節說明如何將[!DNL Target]資料傳送至Google Analytics。 回應Token所傳送的資料也可傳送至其他第三方整合。
 
 ### ![AEP](/help/assets/platform.png) 徽章透過Platform Web SDK傳送資料至Google Analytics
 
