@@ -5,16 +5,16 @@ title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1598'
 ht-degree: 28%
 
 ---
 
 # 回應 Token
 
-回應Token可讓您自動將[!DNL Adobe Target]的特定資訊輸出至您品牌的網頁。 此資訊可包含活動、選件、體驗、使用者設定檔、地理資訊等的詳細資訊。 這些詳細資料提供額外的回應資料，可與內部或第三方系統（例如Clicktale）共用，或用於除錯。
+回應Token可讓您自動將[!DNL Adobe Target]的特定資訊輸出至您品牌的網頁。 此資訊可包含活動、選件、體驗、使用者設定檔、地理資訊等的詳細資訊。 這些詳細資料提供額外的回應資料，可與內部或第三方工具共用，或用於除錯。
 
 回應Token可讓您選擇要使用的變數（以索引鍵值配對表示），然後啟用這些變數以作為[!DNL Target]回應的一部分來傳送。 您使用開關啟用變數，變數會隨[!DNL Target]回應傳送，並可在網路呼叫中驗證。 回應Token也可在[!UICONTROL 預覽]模式中運作。
 
