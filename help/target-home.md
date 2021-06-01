@@ -4,7 +4,7 @@ title: 在哪裡可以找到 [!DNL Target] 文件？
 description: 了解如何使用 Adobe [!DNL Target] 將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: 總覽
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 99%
