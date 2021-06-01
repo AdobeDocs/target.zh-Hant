@@ -4,9 +4,9 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '544'
 ht-degree: 43%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 43%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用A4T時，Platform Web SDK現在支援[!DNL Target]重新導向。 [!DNL Adobe Target]中的重新導向選件會造成瀏覽器重新導向至新頁面。 |
-| 回應 Token | Platform Web SDK現在支援[!DNL Target]回應Token。 回應Token可讓您自動將[!DNL Adobe Target]的特定資訊輸出至您品牌的網頁。 此資訊可包含活動、選件、體驗、使用者設定檔、地理資訊等的詳細資訊。 這些詳細資料提供額外的回應資料，可與內部或第三方系統共用，或用於除錯。 |
+| 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用A4T時，Platform Web SDK現在支援[!DNL Target]重新導向。 [!DNL Adobe Target]中的重新導向選件會造成瀏覽器重新導向至新頁面。<br>如需詳細資訊，請參閱重新導向選件。 |
+| 回應 Token | Platform Web SDK現在支援[!DNL Target]回應Token。<br> 回應Token可讓您自動輸出您品 [!DNL Adobe Target] 牌網頁的特定資訊。此資訊可包含活動、選件、體驗、使用者設定檔、地理資訊等的詳細資訊。 這些詳細資料提供額外的回應資料，可與內部或第三方系統共用，或用於除錯。<br>如需詳細資訊，請參閱 [回應Token](/help/administrating-target/response-tokens.md)。 |
 
 ## [!DNL Target Standard/Premium] 21.5.1（2021年6月8日）
 
