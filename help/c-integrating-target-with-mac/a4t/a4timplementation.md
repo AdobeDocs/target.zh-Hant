@@ -4,9 +4,9 @@ description: 請依照為 [!DNL Target] (A4T) in your Adobe [!DNL Target] 和Ado
 title: 如何為 [!DNL Target] (A4T)實作Analytics?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1144'
 ht-degree: 24%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 24%
 實作[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)的報表來源時，需要執行數個步驟。 程式會依您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)實作A4T或使用at.js而有所不同。
 
 ## ![Adobe Experience Platform Web SDK徽](/help/assets/platform.png) 章Adobe Experience Platform Web SDK實作的實作步驟 {#platform}
-
->[!NOTE]
->
->本文探討的[!DNL Adobe Experience Platform Web SDK]實作中的A4T支援已排定在[!DNL Platform Web SDK] 2.5.0版本（2021年6月1日）中提供。
 
 如果您打算使用Platform Web SDK，以下章節說明將此整合部署至您的網站所需的步驟：
 
