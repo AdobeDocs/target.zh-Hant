@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、加強功能�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '701'
+ht-degree: 84%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 92%
 >移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.6.0（2021年6月1日）
+
+此版本的[!DNL Platform Web SDK]包含對以下內容的支援：
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)時，Platform Web SDK現在支援[!DNL Target]重新導向。<br>如需詳細資訊，請參閱 [實 [!DNL Target] 作的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
+| 回應 Token | Platform Web SDK現在支援[!DNL Target]回應Token。<br>如需詳細資訊，請參閱 [回應Token](/help/administrating-target/response-tokens.md)。 |
 
 ## at.js版本2.5.0（2021年5月13日）
 
