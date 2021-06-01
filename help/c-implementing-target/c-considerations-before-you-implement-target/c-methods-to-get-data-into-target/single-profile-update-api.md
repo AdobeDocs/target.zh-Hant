@@ -1,21 +1,20 @@
 ---
-keywords: 實施；實施；設定；設定；設定；單個配置檔案更新
-description: 使用單一描述檔更新API將資料匯入 [!DNL Target] 。
-title: 如何使用單一描述檔更新API將資料匯入 [!DNL Target] ?
+keywords: 實作；設定；設定；單一設定檔更新
+description: 使用單一設定檔更新API將資料匯入 [!DNL Target] 。
+title: 如何使用單一設定檔更新API將資料傳入 [!DNL Target] ?
 feature: 實施
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 41%
+source-wordcount: '189'
+ht-degree: 42%
 
 ---
 
 # 單一設定檔更新 API
 
-幾乎與「大量描述檔更新API」相同，但每次會更新一個訪客描述檔，並以API呼叫的行式，而非。csv檔案。
+大量設定檔更新API幾乎相同，但一次會以API呼叫的行一次更新一個訪客設定檔，而非以.csv檔案。
 
 ## 格式
 
@@ -23,7 +22,7 @@ ht-degree: 41%
 
 ## 範例使用案例
 
-您想在訪客執行離線動作時即時更新Target。 行動可包括到達客服中心、提供貸款、使用店內忠誠卡、存取資訊站等。
+您想要在訪客執行某些離線動作時即時更新Target。 動作可包括到達客服中心、為貸款提供資金、在商店中使用忠誠卡、存取資訊站等。
 
 ## 方法的優點
 
@@ -39,8 +38,9 @@ ht-degree: 41%
 
 ## 程式碼範例
 
-GET與POST。`https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+支援GET和POST。`https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
-## 相關資訊的連結
+>[!MORELIKETHIS]
+>
+>* [更新設定檔](https://developers.adobetarget.com/api/#updating-profiles)
 
-[更新設定檔](https://developers.adobetarget.com/api/#updating-profiles)
