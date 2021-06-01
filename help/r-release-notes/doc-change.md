@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 85%
+source-wordcount: '1349'
+ht-degree: 84%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 85%
 |  | [實作 [!DNL Target] 分析](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 新增區段:<ul><li>[!DNL Adobe Experience Platform Web SDK]實作的實作步驟</li></ul> |
 |  | [重新導向選件 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | 新增有關搭配A4T和Platform Web SDK使用重新導向選件的資訊。 |
 |  | [回應 Token](/help/administrating-target/response-tokens.md) | 新增有關搭配[!DNL Adobe Experience Platform Web SDK]使用回應Token的資訊。 |
+|  | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增Adobe Experience Platform Web SDK 2.6.0（2021年6月1日）版本的相關資訊。 |
 | 5 月 27 日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 新增[!DNL Target] API呼叫的區段。 上限為每分鐘50次呼叫。 |
 | 5 月 20 日 | [裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增 Adobe 技術部落格上以下部落格文章的連結：<ul><li>Adobe技術部落格 — 第2部分：執行[!DNL Adobe Target] NodeJS SDK以在邊緣平台上進行實驗和個人化(AWS Lambda@Edge)</li></ul> |
 |  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題： &quot;存檔[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。&quot; |
