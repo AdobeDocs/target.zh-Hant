@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 89%
+source-wordcount: '1288'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 89%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 6 月 1 日 | [CNAME和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增下列常見問答：<ul><li>如何搭配CNAME使用選擇退出連結</li></ul> |
+|  | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 更新「選擇退出連結」章節，說明如何搭配CNAME使用選擇退出連結。 |
 | 5 月 27 日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 新增[!DNL Target] API呼叫的區段。 上限為每分鐘50次呼叫。 |
 | 5 月 20 日 | [裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增 Adobe 技術部落格上以下部落格文章的連結：<ul><li>Adobe技術部落格 — 第2部分：執行[!DNL Adobe Target] NodeJS SDK以在邊緣平台上進行實驗和個人化(AWS Lambda@Edge)</li></ul> |
 |  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題： &quot;存檔[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。&quot; |
