@@ -4,20 +4,16 @@ description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) to create activitie
 title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14dfc3e19333848e50324a61539ddf693e17d3ce
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 30%
+source-wordcount: '1114'
+ht-degree: 31%
 
 ---
 
 # [!DNL Adobe Analytics] 作為(A4T) [!DNL Adobe Target] 的報表來源
 
 [!DNL Adobe Analytics for Target] (A4T)是跨解決方案的整合，可讓您根據轉換量度和受 [!DNL Analytics] 眾區段建立活動。A4T整合可讓您使用[!DNL Analytics]報表來檢查結果。 如果您使用[!DNL Analytics]作為活動的報表來源，該活動的所有報表和區段都以[!DNL Analytics]資料收集為基礎。
-
->[!NOTE]
->
->本文探討的[!DNL Adobe Experience Platform Web SDK]實作中的A4T支援已排定在[!DNL Platform Web SDK] 2.5.0版本（2021年6月1日）中提供。
 
 ## 總覽 {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -67,6 +63,7 @@ ht-degree: 30%
 | [多變數測試 (MVT)](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要mbox型目標量度目標才能取得[!UICONTROL 元素貢獻]報表。 [!UICONTROL 元素貢獻]報表目前不支援[!DNL Analytics]量度。 |
 | [自動個人化 (AP) 活動](/help/c-activities/t-automated-personalization/automated-personalization.md) | 無 |  |
 | [Recommendations 活動](/help/c-recommendations/recommendations.md) | 是 |  |
+| [使用重新導向選件的任何活動](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
 
 因為所有活動類型尚不支援A4T，建議您保留或實作重要的轉換mbox，例如`orderConfirmPage` mbox。
 
