@@ -4,29 +4,43 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: '發行說明 '
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 83%
 
 ---
 
 # Target 公告和活動
 
-閱讀有關近期事件的公告和資訊，包括技能建立課程、開發人員與產品經理聊天、網路研討會，以及 Target 咖啡會等等。
+即將舉辦的活動的公告和資訊，包括[!DNL Adobe Target]技能建立課程、開發人員聊天、網路研討會和[!DNL Target]咖啡插播課程。
 
-## Adobe Target 獲得的認可
+## [!DNL Adobe Target]的識別
 
-Adobe Target 最近由 Forrester 和 Gartner 認可為市場領先業者。
+[!DNL Adobe Target] 最近由 Forrester 和 Gartner 認可為市場領先業者。
 
 | 研究服務 | 詳細資料 |
 | --- | --- |
 | Forrester | **Forrester Ｗave 在針對體驗最佳化平台提出的報告中，將 Adobe 列為業界領導者。**<br> Forrester Ｗave 在 2020 年第四季體驗最佳化平台報告中，將 Adobe 稱為業界領導者。Adobe 在所有參與目前產品與市場實力類別、以及推薦與平台體驗條件類別的廠商中均榮獲最高的分數。Target Premium 在體驗最佳化技術創新和支援服務標準上也獲得最高的分數。該報告係以 22 項標準，針對 10 家體驗最佳化平台供應商的完整評估為根據。<br>到 [Adobe 部落格](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)閱讀詳情。 |
 | Gartner | **Adobe 再度於 Gartner Magic Quadrant 的個人化引擎中被稱為領先業者。**<br> Adobe 再度於第三年度 Gartner Magic Quadrant 的個人化引擎 2020 年報告中被稱為領先業者。Gartner Magic Quadrant 針對個人化引擎就全部 15 項標準進行評估，這些標準可分為兩大類：洞察完整性與執行能力。<br>[到 Adobe 部落格閱讀詳情](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
+## [!DNL Adobe Target] 社群問答茶歇（2012年6月9日）
+
+* **2021年6月9日星期三**
+* **上午8:00(GMT-7)**
+
+我們將與[!DNL Adobe Target]高級解決方案顧問Moses Maxen一起，就您與[!DNL Target]相關專業領域的問題直接與您討論以下主題：
+
+* 最佳化和個人化策略
+* [!DNL Target] 實施
+* [!DNL Adobe]  Senseifeatures
+* 核心 UI 工作流程
+
+[按一下這裡以取得更多資訊.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-9-21-8am-pt-moses-maxen/td-p/410328)
+
 ## 網路研討會影片：「利用 Adobe Target 的裝置上決策在零延遲的情況下進行個人化和測試。
 
-市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。多種具有資料獨立單位和複雜實施的工具無法做到。
+行銷人員、產品擁有者和開發人員，在與客戶連線的網站、應用程式以及任何其他地方，都比以往更需要負責最佳化整體客戶體驗。 多種具有資料獨立單位和複雜實施的工具無法做到。
 
 在此網路研討會影片中，Adobe Target 產品專家會討論將關鍵體驗最佳化決策移到裝置上，以便在零延遲的情況下於本機執行最佳化，可以促成令人興奮的新使用案例，同時為客戶改善網站績效。
 
@@ -34,7 +48,7 @@ Adobe Target 最近由 Forrester 和 Gartner 認可為市場領先業者。
 
 ## 網路研討會：HSBC 如何運用 Adobe [!DNL Target] 和 AI 快速最佳化及實現大規模個人化
 
-* **[在此觀看網路研討會影片](https://seminars.adobeconnect.com/ps4ozlg7qfdy/？proto=true)。**
+* **[在此觀看網路研討會影片](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 McKinsey Digital 的報告指出，「我們在短短八個星期左右內，於客戶與企業數位採用上向前躍進了五年。」*
 
