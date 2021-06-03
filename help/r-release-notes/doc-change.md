@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 84%
+source-wordcount: '1374'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 84%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 6 月 3 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 新增有關定於2021年6月9日星期三上午8時舉行的Adobe Target社區問答茶歇的資訊。(PDT, GMT-7)。 |
 | 6 月 1 日 | [CNAME和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 已新增下列常見問答：<ul><li>如何搭配CNAME使用選擇退出連結</li></ul> |
 |  | [隱私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 更新「選擇退出連結」章節，說明如何搭配CNAME使用選擇退出連結。 |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | 新增[!DNL Adobe Experience Platform Web SDK]的相關資訊。 |
