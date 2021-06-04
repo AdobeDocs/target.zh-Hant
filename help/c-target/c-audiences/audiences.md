@@ -1,24 +1,27 @@
 ---
 keywords: 對象;對象規則;建立對象;建立對象;鎖定目標對象;報表對象;報表對象;區段;自訂設定檔參數;對象定義;對象清單
-description: 瞭解如何使用Adobe [!DNL Target] 中的「觀眾」頁面，以及如何檢視包含觀眾詳細資料和使用資訊的「觀眾定義」卡片。
+description: 了解如何在Adobe [!DNL Target] 中使用[!UICONTROL 對象]清單，以及如何檢視包含對象詳細資料和使用資訊的對象定義卡片。
 title: 如何使用對象清單？
 feature: 對象
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 06a5fda72a649c4037cb78d3e670747cd297a64d
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 92%
+source-wordcount: '940'
+ht-degree: 58%
 
 ---
 
 # 建立對象
 
-Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體驗的人。
+[!DNL Adobe Target]中的對象會決定誰可以看到鎖定目標活動中的內容和體驗。
 
-可使用鎖定目標之處皆可使用對象。鎖定目標活動時，您可以從[!UICONTROL 受眾]清單選取可重複使用的受眾、[建立活動專屬受眾](/help/c-target/creating-activity-only-audience.md)，以及將其鎖定目標，或[合併多個受眾](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選受眾。
+可使用鎖定目標之處皆可使用對象。鎖定目標活動時，您可以有下列選項：
 
-您也可以使用 [!DNL Analytics] 收集的對象資料，以用於 [!DNL Adobe Target] 和 [!DNL Experience Cloud] 解決方案中即時鎖定目標和個人化。請參閱&#x200B;*核心服務使用指南*&#x200B;中的[觀眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
+* 從[!UICONTROL 對象]清單中選取可重複使用的對象
+* [建立活動特定對象](/help/c-target/creating-activity-only-audience.md) 並將其定位
+* [結合多](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) 個對象以建立隨選對象
+
+您也可以使用[!DNL Adobe Analytics]收集的對象資料，在[!DNL Target]和其他[!DNL Adobe Experience Cloud]應用程式中用於即時鎖定目標和個人化。 請參閱&#x200B;*Experience Cloud中心介面元件*&#x200B;指南中的[Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)。
 
 [!DNL Target] 定義兩種對象:
 
@@ -27,40 +30,46 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 
    在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。如果您使用 [ Adobe Analytics 作為報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在 [!DNL Analytics] 內設定報表對象。
 
-## 使用受眾清單
+## 使用[!UICONTROL Audiences]清單
 
 若要存取[!UICONTROL 「對象」]清單，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 「對象」]**:
 
-![受眾清單](assets/audiences_list.png)
+![受眾清單](/help/c-target/c-audiences/assets/audiences_list.png)
 
-[!UICONTROL 「對象」]清單包含您可用於活動中的所有對象。使用[!UICONTROL 「對象」]清單來建立、編輯、刪除、複製或合併 對象。此清單也顯示原本建立對象的來源 ([!DNL Target]、[!DNL Target Classic]、[!DNL Adobe Audience Manager (AAM),]、[!DNL Experience Cloud] 等)。無法重新命名預先定義的對象，例如「新訪客」和「再度訪問的訪客」。
+[!UICONTROL 「對象」]清單包含您可用於活動中的所有對象。使用[!UICONTROL 「對象」]清單來建立、編輯、刪除、複製或合併 對象。此清單也顯示建立對象的來源([!DNL Target]、[!DNL Target Classic]和[!DNL Experience Cloud]。 無法重新命名預先定義的對象，例如「[!UICONTROL 新訪客]」和「[!UICONTROL 回訪訪客]」。
 
-使用原本在 AAM 中建立的對象時，若您參考稍後已在 AAM 中刪除的 Target 活動對象，Target 會對您發出警告。
+使用原本於[!DNL Experience Cloud]中建立的對象時，如果您參考[!DNL Target]活動中稍後已在[!DNL Experience Cloud]中刪除的對象，Target會提醒您。
 
-* 若對象已在 AAM 中刪除，[!UICONTROL 「對象」]清單和對象選擇器中皆會顯示警告圖示。UI 中的工具提示也表示對象已在 AAM 中刪除。
+* 如果對象已在[!DNL Experience Cloud]中刪除， [!UICONTROL Audience]清單和對象選擇器中皆會顯示警告圖示。 UI中的工具提示也指出閱聽眾已在[!DNL Experience Cloud]中刪除。
 * 若嘗試將多個對象與已刪除的對象合併，或嘗試儲存參考已刪除對象的活動，系統會顯示警告訊息。
 
-您也可以鎖定自訂設定檔參數和 `user.` 參數。新增對象時，按一下「新增規則&#x200B;**[!UICONTROL > >**[!UICONTROL &#x200B;訪客資料&#x200B;]**」，然後選擇您要用來定位活動的參數。]**&#x200B;如果需要的參數並未出現，表示參數尚未由 mbox 觸發。在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
+您也可以鎖定自訂設定檔參數和 `user.` 參數。新增對象時，按一下您要用來鎖定活動的屬性。 如果未顯示所需的屬性，則mbox尚未觸發屬性。 在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
 
-使用搜尋方塊來搜尋您的[!UICONTROL 對象]清單。您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
+使用[!UICONTROL Filters]按鈕，依來源篩選[!UICONTROL  Audiences]清單：[!DNL Adobe Target]、[!DNL Adobe Target Classic]和[!DNL Experience Cloud]。
+
+![對象清單中的篩選  器](/help/c-target/c-audiences/assets/filters.png)
+
+使用「[!UICONTROL 搜尋對象]」方塊來搜尋您的[!UICONTROL 對象]清單。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
 您可以依對象名稱或上次修改日期來排序[!UICONTROL 「對象」]清單。若要依名稱排序，請按一下欄標題，然後選擇依遞增或遞減順序來顯示對象。
 
 ## 檢視受眾定義 {#section_11B9C4A777E14D36BA1E925021945780}
 
-在 Target UI 各處，您可以在快顯卡上檢視對象定義詳細資料，而不必開啟對象。此功能適用於 Target Standard/Premium 中建立的對象，以及從 Target Classic 匯入或透過 API 建立的對象。
+在 Target UI 各處，您可以在快顯卡上檢視對象定義詳細資料，而不必開啟對象。此功能適用於在[!DNL Target Standard/Premium]中建立的對象，以及從[!DNL Target Classic]匯入或透過API建立的對象。
 
-例如，暫留在「對象清單」上的對象，然後按一下「檢視」圖示，即可存取下列對象定義卡:
-
-![活動 > 受眾定義](assets/audience_definition_list.png)
-
-在活動的「概覽」頁面按一下「檢視」圖示，即可存取下列對象定義卡:
+例如，您可以按一下所需對象的[!UICONTROL 檢視詳細資料]圖示，來存取下列對象定義卡：
 
 ![活動 > 受眾定義](assets/audience_definition_list.png)
 
-按一下[!UICONTROL 「對象使用狀況」]標籤，以查看參照該對象的其他活動 (如適用)。這樣可讓您在編輯對象時，避免不慎影響其他活動。資訊包括已上線活動、非使用中的活動、已封存的活動，以及同步活動。此功能適用於所有對象 (資料庫對象和[僅限於此活動的對象](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))。
+按一下活動[!UICONTROL 概述]頁面上的[!UICONTROL 檢視詳細資料]圖示，即可存取下列對象定義卡：
 
-如果一個對象結合另一個對象，而合併的對象用來建立活動，則兩個對象的使用狀況資訊會列出新建立的活動。
+![活動 > 受眾定義](/help/c-target/c-audiences/assets/view-details-activity-overview.png)
+
+受眾定義卡片會顯示受眾的類型、來源和屬性。 按一下「**[!UICONTROL 檢視完整詳細資料]**」，查看參考該對象的其他活動（若適用）。 如果您是從活動的[!UICONTROL 概述]頁面檢視對象定義卡片，請按一下&#x200B;**[!UICONTROL 對象使用狀況]**。
+
+受眾使用資訊可協助您避免在編輯受眾時對其他活動造成意外影響。 資訊包括已上線活動、非使用中的活動、已封存的活動，以及同步活動。此功能適用於所有對象 (資料庫對象和[僅限於此活動的對象](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))。
+
+如果對象與其他對象結合，且結合的對象用於建立活動，則兩個對象的使用資訊會列出新建立的活動。
 
 ![](assets/audience_definition_list_usage.png)
 
@@ -81,7 +90,7 @@ Adobe Target 中的受眾會決定將看見已鎖定目標活動中內容和體�
 * Target Standard/Premium 中不再支援運算式目標對象。
 * Target Standard/Premium 不支援一些過時的對象，或已改善運算子，變得更容易使用。因此，定義匯入的對象 (雖然可依定義而運作) 不表示現在同樣可以在 Standard/Premium 中建立。例如，社交對象連同其規則皆可見，但 Target Standard/Premium 不允許建立社交對象。
 
-## 訓練影片: 使用對象  ![教學課程徽章](/help/assets/tutorial.png)
+## 訓練影片: 使用對象 ![Tutorial badge](/help/assets/tutorial.png)
 
 此影片包括關於使用對象的資訊。
 
