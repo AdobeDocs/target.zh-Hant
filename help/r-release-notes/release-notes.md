@@ -4,7 +4,7 @@ description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 83%
@@ -23,7 +23,7 @@ ht-degree: 83%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.6.0（2021年6月1日）
+## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
 
 此版本的[!DNL Platform Web SDK]包含對以下內容的支援：
 
