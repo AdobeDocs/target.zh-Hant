@@ -5,9 +5,9 @@ title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1650'
 ht-degree: 27%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Experience Platform Web SDK]的回應Token功能將在未來版本中提供（日期待定）。 以下說明檔案說明回應Token和Platform Web SDK為潛在尖峰。
+>未來版本（日期待定）中將提供[!DNL Adobe Experience Platform Web SDK]回應Token。 以下說明檔案說明回應Token和Platform Web SDK為潛在尖峰。
 
 | Target SDK | 建議的動作 |
 |--- |--- |
