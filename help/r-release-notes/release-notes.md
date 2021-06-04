@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、加強功能�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 84%
+source-wordcount: '685'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,6 @@ ht-degree: 84%
 | 功能 | 詳細資料 |
 | --- | --- |
 | 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)時，Platform Web SDK現在支援[!DNL Target]重新導向。<br>如需詳細資訊，請參閱 [實 [!DNL Target] 作的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
-| 回應 Token | Platform Web SDK現在支援[!DNL Target]回應Token。<br>如需詳細資訊，請參閱 [回應Token](/help/administrating-target/response-tokens.md)。 |
 
 ## at.js版本2.5.0（2021年5月13日）
 
