@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 83%
+source-wordcount: '615'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,19 @@ ht-degree: 83%
 >移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## Target Standard/Premium 21.6.1 (2021 年 6 月 7 日)
+
+此版本包含下列增強功能:
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | 透過API以程式設計方式搜尋您的[!DNL Recommendations]產品和內容目錄，以識別符合搜尋准則的項目，並簡化目錄的管理。<br>**限制與附註**:<ul><li>項目超過2,000,000個的環境不支援透過API進行目錄搜尋。</li><li>透過API更新目錄搜尋結果的速度，比透過[!DNL Target] UI更新目錄搜尋結果的速度快。 [!DNL Target] UI中的目錄搜尋可能需要額外的時間，才能反映最新的結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API*&#x200B;指南中的[搜尋實體](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) 。 |
+
+此版本維護髮行包含下列修正。
+
+* 修正重新整理[!UICONTROL Audiences]頁面時，導致預設工作區變更為其他工作區的問題。 (TGT-38871)
+* 修正[!UICONTROL Administration] > [!UICONTROL Implementation]中，有時會導致錯誤訊息「您的全域mbox可能未同步」的問題。 請嘗試重新保存它。」
 
 ## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
 
@@ -39,23 +52,6 @@ ht-degree: 83%
 * [預覽連結](/help/c-activities/c-activity-qa/activity-qa.md)對 Automated Personalization 活動的支援
 
 此版本也移除了對Microsoft Internet Explorer 10、Internet Explorer 11和所有舊版的支援。 at.js 2.5.0及更新版本仍持續支援Microsoft Edge。
-
-## Target Standard/Premium 21.4.1 (2021 年 4 月 19 日)
-
-此版本包含下列新功能和增強功能。 括號內的問題編號供 [!DNL Adobe] 內部使用。
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| 針對 at.js 的裝置上決策支援<br>(日期有待宣佈) | 裝置上決策可讓行銷人員和開發人員以幾乎零延遲的方式，在使用者的瀏覽器上提供測試和個人化。<br>如需詳細資訊，請參閱「[針對 at.js 的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)」。 |
-| ![Premium](/help/assets/premium.png) 實體篩選規則適用的清單型運算子 | [!DNL Target Recommendations] 支援實體篩選規則適用的全新清單型運算子。 (TGT-39234)<br>最近新增的運算子包括：<br><ul><li>包含在清單中</li><li>不包含在清單中</li><li>清單中包含某個項目</li><li>清單中不包含某個項目</li><li>清單中包含所有項目</li><li>清單中不包含所有項目</li></ul>如需詳細資訊，請參閱「[使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)」中的「可用運算子」。 |
-
-此版本包含下列修正。
-
-* 已修正將對象變更為[!UICONTROL 所有訪客]後導致活動無法同步的問題。 (TGT-40259)
-* 已修正在 [!UICONTROL Automated Personalization] 活動中的不同位置使用選件時，導致無法複製選件的問題 (即便已啟用「[!UICONTROL 不允許複製]」選項)。 (TGT-39567)
-* 已修正導致「[!UICONTROL 管理] > [!UICONTROL Scene7 設定]」頁面無法正確載入的問題。 (TGT-39918)
-* 已修正導致屬性對應到不正確的工作區的問題。 (TGT-39869)
-* 已修正在建立建議排除時，要求在變更環境後失敗的情況下造成無限載入的問題。 (TGT-39948)
 
 ## 額外的發行說明和版本詳細資料
 
