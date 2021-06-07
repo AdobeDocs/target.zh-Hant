@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1433'
 ht-degree: 82%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 82%
 # 文件變更
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021 年 6 月 7 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 6 月 7 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (2021 年 4 月 19 日)
 
