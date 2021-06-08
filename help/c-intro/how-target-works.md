@@ -1,22 +1,21 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜尋引擎最佳化;搜尋引擎最佳化;seo;邊緣叢集,中央叢集;at.js;mbox.js;
-description: 瞭解Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript程式庫（at.js和AEP Web SDK）、Adobe資料中心和SEO測試。
-title: 如何運作 [!DNL Target] ?
+description: 了解 Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 程式庫 (at.js 和 AEP Web SDK)、Adobe 資料中心及 SEO 測試的運作方式。
+title: ' [!DNL Target] 如何運作？'
 feature: 總覽
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# Adobe[!DNL Target]的運作方式
+# Adobe [!DNL Target] 如何運作
 
 了解 [!DNL Adobe Target]的運作，包括有關 [!DNL Adobe Experience Platform Web SDK] 和 JavaScript 資料庫 (at.js 和 mbox.js) 的資訊。此文章也介紹您可以使用 [!DNL Target] 建立的多種活動類型。您還可以了解有關 [!DNL Target] 邊緣網路、Search Engine Optimization (SEO)，以及 [!DNL Target] 如何偵察機器人。
 
-## [!DNL Target] Platform Web SDKs 和 JavaScript 資料庫{#libraries}
+## [!DNL Target] Platform Web SDK 和 JavaScript 程式庫 {#libraries}
 
 [!DNL Target] 使用 [!DNL AEP Web SDK] 或 JavaScript 資料庫與網站整合：
 
@@ -28,12 +27,12 @@ ht-degree: 97%
 >
 >所有客戶都應遷移至 [!DNL AEP Web SDK] 或 at.js 最新版本。如需詳細資訊，請參閱 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 或[從 mbox.js 遷移至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
-在您網站的每個頁面上參閱 [!DNL AEP Web SDK] 或 at.js。例如，您可以將其中一個程式庫新增至全域標題。或者，考慮使用 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hant) 來實施 [!DNL Target]。
+在您網站的每個頁面上參閱 [!DNL AEP Web SDK] 或 at.js。例如，您可以將其中一個程式庫新增至全域標題。或者，考慮使用 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html??lang=zh-Hant) 來實施 [!DNL Target]。
 
 下列資源包含協助您實施 AEP Web SDK或 at.js 的詳細資訊：
 
-* [Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=zh-Hant#configure-the-aep-web-sdk-extension)
-* [實 [!DNL Target] 施Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html??lang=zh-Hant#configure-the-aep-web-sdk-extension)
+* [使用 Adobe Experience Platform Launch 實作  [!DNL Target] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次訪客要求已針對 [!DNL Target] 最佳化的頁面時，都會傳送請求至目標定位系統。該請求有助於判斷要為該訪客提供哪些內容。此過程會即時進行。每次載入頁面時，系統會提出內容請求並履行。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。所提供的內容是每位網站訪客最有可能回應、互動或最終購買的內容。個人化內容可協助將回應率、贏取率和收入最大化。
 
@@ -56,9 +55,9 @@ ht-degree: 97%
 
 ### [!UICONTROL 自動分配]
 
-[!UICONTROL 自動分配可識別兩個或更多體驗中的成功者。][!UICONTROL 自動分配會自動將更多流量重新分配給成功體驗，這有助於在測試持續執行和學習的同時提高轉化率。]
+[!UICONTROL 自動分配]可識別兩個或更多體驗中的成功者。 [!UICONTROL 自動分配]會自動將更多流量重新分配給成功體驗，這有助於在測試持續執行和學習的同時提高轉換率。
 
-如需詳細資訊，請參閱[[!UICONTROL 自動分配]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+如需詳細資訊，請參閱「[[!UICONTROL 自動分配]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」。
 
 ### [!UICONTROL 自動鎖定目標] (AT)
 
@@ -66,13 +65,13 @@ ht-degree: 97%
 
 如需詳細資訊，請參閱 [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)。
 
-### 自動個人化 (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 Automated Personalization (AP) 結合選件或訊息，並使用進階的機器學習來比對每個訪客的不同選件變化。體驗提供是以個別客戶個人檔案為基礎，以個人化內容並提升提升度。
 
 如需詳細資訊，請參閱 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
 
-### 體驗鎖定目標 (XT)
+### [!UICONTROL 體驗鎖定] (XT)
 
 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
 
@@ -102,7 +101,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 每個邊緣叢集都具備回應訪客內容請求及追蹤該請求之分析資料所需的所有資訊。訪客請求會路由至最接近的邊緣叢集。
 
-如需詳細資訊，請參閱 [Adobe Target 安全性總覽](https://www.adobe.com/tw/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
+如需詳細資訊，請參閱 [Adobe Target 安全性總覽](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮書。
 
 [!DNL Target] 解決方案在世界各地由 Adobe 擁有和 Adobe 租用的資料業集中進行控管。
 
@@ -112,7 +111,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 請求不會回應單一位置的所有定位請求，而是由離訪客最近的邊緣叢集處理。此過程有助於減輕網路／網際網路旅行時間的影響。
 
-![顯示不同類型Target伺服器的地圖](/help/c-intro/assets/target-servers.png)
+![顯示不同類型的 Target 伺服器的地圖](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target]中央叢集，由 Amazon Web Services (AWS) 代管，包括：
 
@@ -138,7 +137,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
-## 受保護的使用者體驗{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 盡可能確保定位基礎建設的可用度和效能值得信賴。然而，使用者瀏覽器和 Adobe 伺服器之間的通訊中斷可能會造成內容傳送的中斷。
 
@@ -180,7 +179,7 @@ Google 鼓勵用戶測試。Google 在其文件中指出，如果您遵循特定
 
    Adobe 持續尋找可行的解決方案，以完全符合搜尋引擎的方針。對於必須使用個別 URL 進行測試的客戶，Adobe 確信正確實施標準標籤可降低與此方法相關的風險。
 
-* **僅在必要時才執行實驗**：Adobe認為「僅在必要時」，意指只要需達到統計顯著性時。[!DNL Target][ 提供最佳實務](https://docs.adobe.com/content/target-microsite/testcalculator.html)來判斷測試何時達到此點。Adobe 建議將成功測試寫入程式碼的實施納入測試工作流程中，並分配適當的資源。
+* **僅在必要時才執行實驗**：Adobe認為「僅在必要時」，意指只要需達到統計顯著性時。[!DNL Target][ 提供最佳實務](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)來判斷測試何時達到此點。Adobe 建議將成功測試寫入程式碼的實施納入測試工作流程中，並分配適當的資源。
 
    不建議使用 [!DNL Target] 平台來「發佈」成功測試作為永久解決方案。如果成功測試是針對 100% 的使用者發佈，則此方法可在永久編碼成功測試的過程完成時使用。
 
@@ -213,6 +212,6 @@ Adobe [!DNL Target] 使用 [DeviceAtlas](https://deviceatlas.com/device-data/use
 * 建立或擷取訪客設定檔
 * 記錄任何設定檔屬性或執行設定檔指令碼
 * 查詢 Adobe Audience Manager (AAM) 區段 (如適用)
-* 在建模及為Recommendations、自動目標、Automated Personalization或[!UICONTROL 自動配置]活動提供個人化內容時使用機器人流量
+* 使用機器人流量，針對 Recommendations、自動鎖定目標、Automated Personalization 或[!UICONTROL 自動分配]活動建立模型並提供個人化內容
 * 記錄活動造訪以進行回報
 * 記錄要傳送至 [!DNL Adobe Experience Cloud] 平台的資料
