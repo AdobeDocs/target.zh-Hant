@@ -1,14 +1,13 @@
 ---
-keywords: 歡迎套件;target 歡迎套件;介紹;介紹;開始
-description: 閱讀我們專家小組中有關使用Adobe [!DNL Target] 做為測試和個人化工作的秘訣。
+keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
+description: 閱讀我們的專家小組所提供有關使用 Adobe [!DNL Target] 當做測試與個人化工作之一部分的提示。
 title: 何處可以找到有關使用 Target 的提示和訣竅？
 feature: 總覽
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,13 +21,13 @@ ht-degree: 98%
 
 例如，您可以將銷售點系統的購買資料與訪客資料建立關聯。若要這麼做，只需建立包含最多 200 個離線變數的 CSV 檔案，然後透過檔案上傳直接上傳至 [!DNL Adobe Experience Cloud]，或使用 FTP 代管並排程您的檔案，以定期更新。 一旦您的客戶屬性位於 [!DNL Adobe Experience Cloud]中，您就可以將它們對應至 [!DNL Experience Cloud] 解決方案，例如 [!DNL Adobe Analytics] 和 [!DNL Target]，以便用於分析、測試和個人化。
 
-如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant)。
+如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html??lang=zh-Hant)。
 
 **很高興知道**：由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增 CRM 或購買的資料。這表示您可以選擇最適合您組織的方法。
 
 如需詳細資訊，請參閱[將資料匯入 Target 的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)。
 
-## 提示2:將[!DNL Target]受眾與其他Adobe Experience Cloud受眾相結合，以更深度的個人化。
+## 提示 2：將 [!DNL Target] 對象與其他 Adobe Experience Cloud 對象混合，以實現更深度的個人化。
 
 混合不同 [!DNL Adobe Experience Cloud] 解決方案的對象，可讓您更全面地瞭解客戶，並更深入地個人化客戶。例如，雖然 [!DNL Target] 提供即時對象資料，但 [!DNL Adobe Analytics] 提供歷史對象資料。結合這兩者可協助您識別客戶的行為何時一致，以及何時可能有機會對新行為採取行動。建立活動時，只要按一下「所有訪客」旁的下拉式選單即可。接著，核取最多 20 個對象的方塊，按一下「合併多個對象」，然後按一下「儲存」。
 
@@ -36,7 +35,7 @@ ht-degree: 98%
 
 **很高興知道**：[!DNL Adobe Audience Manager] 對象會自動在 [!DNL Target] 中使用。但 [!DNL Adobe Analytics] 對象共用需要手動設定。在 [!DNL Analytics] 的對象建立程式中，只要勾選標示「讓這成為 Experience Cloud 對象」的方塊即可。然後，從 [!DNL Target] 按一下「匯入Experience Cloud 對象」。
 
-## 提示3:從[!DNL Target]匯出資料以搭配協力廠商工具使用。
+## 提示 3：從 [!DNL Target] 匯出資料以搭配協力廠商工具使用。
 
 使用回應權杖，管理員可輕鬆將資料從 [!DNL Target] 取出並放入協力廠商工具。當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，則您可以使用您的資料來查看哪些人看到體驗 A，哪些人看到體驗 B。您也可以使用回應權杖，將 [!DNL Target] 資料匯出至內部資料倉庫。只要按一下「管理」，然後將所要之回應權杖旁的開關切換至開啟位置。接著，建立活動。然後，資料就可以傳輸給第三方廠商。您可以使用偵錯工具來驗證 [!DNL Target] 是否正在匯出資料。
 
@@ -66,7 +65,7 @@ ht-degree: 98%
 
 **有用的提示**：新增使用者時，如果先前未將團隊成員的名稱新增至您的組織，例如第三方代理商員工的名稱，輸入其電子郵件地址和密碼將觸發電子郵件邀請以加入團隊的工作區。
 
-使用 Target Standard？您仍然可以為具有唯讀、編輯和批准者角色的用戶[分配三個訪問級別](/help/administrating-target/c-user-management/c-user-management/user-management.md)！
+使用 Target Standard？ 您仍然可以為具有唯讀、編輯和批准者角色的用戶[分配三個訪問級別](/help/administrating-target/c-user-management/c-user-management/user-management.md)！
 
 ## 提示 6：透過在客戶歷程中的每個頁面測試選件，瞭解該選件在客戶歷程中的表現。
 
@@ -112,7 +111,7 @@ ht-degree: 98%
 * 頁面的轉換率是多少？
 * 您預期需要執行測試多久才能放心地稱為完成？
 
-**實用提示**：使用　[ 樣本大小計算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)協助判斷成功測試所需的樣本大小。
+**實用提示**：使用　[ 樣本大小計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)協助判斷成功測試所需的樣本大小。
 
 ## 提示 12：設計更簡單的測試，以確保您能夠建立並實作這些測試。
 
