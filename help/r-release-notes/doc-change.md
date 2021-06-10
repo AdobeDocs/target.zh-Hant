@@ -4,7 +4,7 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 79%
@@ -15,14 +15,14 @@ ht-degree: 79%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021 年 6 月 7 日)
+## Adobe [!DNL Target] Standard/Premium 21.5.1 (2021 年 6 月 8 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 6 月 8 日 | [使用at.js實作Analytics for Target(A4T)之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 新增備注，指出at.js 1.8.0或更新版本不再適用於2.5.0以前的訪客API版本，以傳遞[!DNL Adobe Audience Manager](AAM)參數。 |
 |  | [環境](/help/administrating-target/environments.md) | 新增備注，指出如果您指定[!UICONTROL 活動中和非活動中的活動]，來自此環境的主機也會顯示非活動中的活動。 |
 |  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：<ul><li>[!DNL Adobe Experience Platform] 區段名稱不會顯示在「重要屬 [!UICONTROL 性」] 報表中。</li></ul> |
-| 6 月 7 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+| 6 月 7 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.5.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (2021 年 4 月 19 日)
 
