@@ -1,12 +1,11 @@
 ---
-keywords: 實施；實施；設定；設定；頁面參數
-description: 使用頁面參數將資料匯入 [!DNL Target] 。
-title: 如何使用頁面參數將資料匯入 [!DNL Target] ?
+keywords: 實作；設定；設定；頁面參數
+description: 使用頁面參數將資料傳入 [!DNL Target] 。
+title: 如何使用頁面參數將資料傳入 [!DNL Target] ?
 feature: 實施
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -15,9 +14,9 @@ ht-degree: 46%
 
 # 頁面參數
 
-頁面參數（也稱為「mbox參數」）是直接透過頁面代碼傳遞的名稱／值配對，不會儲存在訪客的描述檔中以供日後使用。
+頁面參數（又稱為「mbox參數」）是直接透過頁面程式碼傳入的名稱/值組，不會儲存在訪客的設定檔中以供日後使用。
 
-頁面參數對於傳送頁面資料至Target非常有用，因為Target不需要與訪客的描述檔一起儲存，以便日後進行定位。 這些值改用來說明頁面，或使用者在特定頁面上採取的動作。
+頁面參數對於將頁面資料傳送至Target非常有用，因為這些資料不需要與訪客的設定檔一起儲存，以便日後鎖定目標使用。 這些值改用來說明頁面，或使用者在特定頁面上採取的動作。
 
 ## 格式
 
@@ -31,26 +30,26 @@ ht-degree: 46%
 
 ## 範例使用案例
 
-* **產品頁面**:傳送有關已檢視特定產品的資訊(此方法是Recommendations的運作方式)
-* **訂單詳細資訊**:傳送訂單ID、orderTotal等，以收集訂單
+* **產品頁面**:傳送已檢視之特定產品的相關資訊(此方法為Recommendations的運作方式)
+* **訂單詳細資訊**:傳送訂購ID、orderTotal等，以收集訂單
 * **類別相關性**: 將類別檢視資訊傳送至 Target，以瞭解使用者與特定網站類別的相關性
 * **第三方資料**: 傳送來自第三方資料來源的資訊，例如，天氣鎖定目標提供者、帳戶資料 (例如 DemandBase)、人口統計資料 (例如 Experian) 及其他。
 
 ## 方法的優點
 
-資料會即時傳送至Target，並可用於相同的伺服器上，呼叫資料所在的資料。
+資料會即時傳送至Target，且可用於呼叫資料所在的相同伺服器。
 
 ## 注意事項
 
 * 需要頁面程式碼更新 (直接或透過標記管理系統)。
-* 如果資料必須用於後續頁面／伺服器呼叫的定位，則必須轉譯為描述檔指令碼。
+* 如果資料必須用於後續頁面/伺服器呼叫上的定位，則必須將其轉譯為設定檔指令碼。
 * 查詢字串僅可包含符合[網際網路工程任務小組 (IETF) 標準](https://www.ietf.org/rfc/rfc3986.txt)的字元。
 
-   除了IETF站點上提及的字元之外， Target還允許查詢字串中包含以下字元：
+   除了IETF網站上提及的字元外，Target還允許查詢字串中包含下列字元：
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
+   ```< > # % " { } | \ ^ [ ] ` ```
 
-   除此之外的字元都必須經過 URL 編碼。此標準指定下列格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示：
+   除此之外的字元都必須經過 URL 編碼。此標準指定了下列格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示：
 
    ![](assets/ietf1.png)
 
