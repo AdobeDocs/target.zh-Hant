@@ -1,20 +1,19 @@
 ---
 keywords: 疑難排解 Target;疑難排解 Target
-description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問題 (FAQ) 和其他實用的主題。
+description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，包括疑難排解主題、常見問答 (FAQ) 和其他實用的主題。
 title: 如何疑難排解 Target？
 feature: 疑難排解
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 97%
+source-wordcount: '458'
+ht-degree: 100%
 
 ---
 
 # 疑難排解 Target
 
-可協助您解決 [!DNL Adobe Target] 中問題的主題清單，包括疑難排解主題、常見問題集 (FAQ) 和其他實用的主題。
+可協助您解決 [!DNL Adobe Target] 中問題的主題清單，包括疑難排解主題、常見問答 (FAQ) 和其他實用的主題。
 
 ## 活動
 
@@ -22,7 +21,7 @@ ht-degree: 97%
 
 ### 一般活動疑難排解
 
-* [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Target 最佳化和個人化常見問答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [疑難排解活動](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
 ### A/B 測試
@@ -37,52 +36,54 @@ ht-degree: 97%
 
 ### 自動鎖定目標
 
-* [自動鎖定目標疑難排解和常見問題 ( FAQs)](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [自動鎖定目標疑難排解和常見問答 ( FAQ)](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
-* [Automated Personalization 常見問題集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [自動個人化常見問題集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [疑難排解 Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [Automated Personalization 摘要報告](/help/c-reports/reports-ap.md)
+* [自動個人化摘要報表](/help/c-reports/reports-ap.md)
+* [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 多變數測試 (MVT)
 
-* [多變數測試最佳作法](/help/c-activities/c-multivariate-testing/best-practices.md)
+* [多變數測試最佳實務](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [疑難排解多變數測試](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [預估成功測試所需的流量](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### 建議
+### Recommendations
 
 * [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [設計常見問題集](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics與[!DNL Target]整合(A4T)
+## Analytics 與 [!DNL Target] 整合 (A4T)
 
 * [疑難排解 Analytics 和 Target 整合](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
-* A4T 常見問題
+* A4T 常見問答
    * [在 A4T 中將膨脹的造訪和訪客計數減到最少](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [初始佈建 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
-   * [活動設定 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
-   * [檢視報表 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
+   * [活動設定 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
+   * [檢視報表 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
    * [重新導向選件 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
    * [提升度和可信度 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [量度定義 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
-   * [共用量度、區段和報表 - A4T 常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [膨脹的造訪和訪客計數 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
+   * [共用量度、區段和報表 - A4T 常見問答](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+   * [膨脹的造訪和訪客計數 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [分類 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## 對象和目標
 
-* [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Target 最佳化和個人化常見問答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [鎖定目標和對象常見問題集](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [設定檔指令碼屬性](/help/c-target/c-visitor-profile/profile-parameters.md)
 * [網頁](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## 內容
 
-* [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Target 最佳化和個人化常見問答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md)
 
 ## 企業權限
@@ -91,7 +92,7 @@ ht-degree: 97%
 
 ## 體驗
 
-* [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Target 最佳化和個人化常見問答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [疑難排解可視化體驗撰寫器 (VEC)](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [活動衝突](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)
 
@@ -114,11 +115,11 @@ ht-degree: 97%
 
 ### 全域 mbox
 
-* [全域 mbox 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [全域 mbox 常見問答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
 ### at.js
 
-* [at.js 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
+* [at.js 常見問答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [使用 Adobe Experience Cloud Debugger 除錯 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
@@ -126,24 +127,24 @@ ht-degree: 97%
 
 ### mbox.js
 
-* [mbox.js 常見問題集](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+* [mbox.js 常見問答](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
 * [mbox.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
 
 ## 已知問題
 
-* [已知問題和已解決的問題](/help/r-release-notes/known-issues-resolved-issues.md)
+* [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md)
 
 ## 行動應用程式
 
-* [適用於行動應用程式的 Target 常見問題](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [適用於行動應用程式的 Target 常見問答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 裝置上決策
 
-* [疑難排解at.js的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [針對 at.js 的裝置上決策疑難排解](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## 報表
 
-* [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Target 最佳化和個人化常見問答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [報表常見問題集](/help/c-reports/reporting-frequently-asked-questions.md)
 
 ## 搜尋引擎最佳化 (SEO)
@@ -154,7 +155,7 @@ ht-degree: 97%
 
 * [系統狀態更新](/help/r-release-notes/system-status-updates.md)
 
-## 定位
+## 目標定位
 
 * [地理](/help/c-target/c-audiences/c-target-rules/geo.md)
 
@@ -164,8 +165,8 @@ ht-degree: 97%
 
 ## 可視化體驗撰寫器 (VEC)
 
-* [Target 最佳化和個人化常見問題集](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Target 最佳化和個人化常見問答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [疑難排解可視化體驗撰寫器](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
-* [可視化體驗撰寫器最佳作法和限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+* [可視化體驗撰寫器最佳做法與限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。請參閱[可視化體驗撰寫器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。
