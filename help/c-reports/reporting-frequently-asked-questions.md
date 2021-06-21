@@ -4,22 +4,16 @@ description: 探索關於Adobe [!DNL Target] 報表的常見問題和答案清�
 title: 哪裡可以找到 [!DNL Target] 報表相關問題的解答？
 feature: 報告
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # 報表常見問題集
 
 關於 [!DNL Adobe Target] 中報表常見問題的清單。
-
-## [!UICONTROL Automated Personalization](AP)和[!UICONTROL 自動鎖定目標]模型的資料會持續多久？
-
-[!UICONTROL Automated Personalization] (AP) [!UICONTROL 和自] 動鎖定目標模型會針對活動的最近45天使用者行為（使用者設定檔、曝光事件和轉換事件）接受訓練。
-
-[!UICONTROL Automated Personalization] (AP)和自 [!UICONTROL 動鎖] 定目標模型會將使用者行為、訓練記錄和模型決策資料保留90天，以產生  分析報表。90天後，會捨棄訓練記錄和模型決策。 [!UICONTROL Automated Personalization] (AP)和自 [!UICONTROL 動鎖] 定目標模型也會將匯總的體驗/選件層級曝光數和轉換資料保留兩年，以用於報表用途。此資料僅為匯總層級資料，不包含任何個別層級的設定檔資料。
 
 ## 新訪客與回訪訪客量度如何計算？ {#methodology}
 
