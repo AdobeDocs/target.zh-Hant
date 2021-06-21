@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1535'
 ht-degree: 78%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 78%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 6 月 16 日 | [[!DNL Target] 發行說明（最新）](/help/r-release-notes/release-notes.md) | 新增[!DNL Adobe Target] Python SDK 1.0.0版的相關資訊。 |
-|  | [報表常見問答](/help/c-reports/reporting-frequently-asked-questions.md) | 新增下列常見問題：<ul><li>[!UICONTROL Automated Personalization](AP)和[!UICONTROL 自動鎖定目標]模型的資料會持續多久？</li></ul> |
+|  | [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 新增下列常見問題：<ul><li>[!UICONTROL Automated Personalization](AP)和[!UICONTROL 自動鎖定目標]模型的資料會持續多久？</li></ul> |
 | 6 月 8 日 | [使用at.js實作Analytics for Target(A4T)之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 新增備注，指出at.js 1.8.0或更新版本不再適用於2.5.0以前的訪客API版本，以傳遞[!DNL Adobe Audience Manager](AAM)參數。 |
 |  | [環境](/help/administrating-target/environments.md) | 新增備注，指出如果您指定[!UICONTROL 活動中和非活動中的活動]，來自此環境的主機也會顯示非活動中的活動。 |
 |  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：<ul><li>[!DNL Adobe Experience Platform] 區段名稱不會顯示在「重要屬 [!UICONTROL 性」] 報表中。</li></ul> |
