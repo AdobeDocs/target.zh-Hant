@@ -1,15 +1,14 @@
 ---
 keywords: 實作;mbox.js;dom 操作資料庫;target.js;可視化體驗撰寫器;iframe;angular 網站;單頁應用程式;SPA
-description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
-title: ' [!DNL Target] mbox.js程式庫有什麼用？'
+description: 了解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版at.js。
+title: ' [!DNL Target] mbox.js程式庫有什麼作用？'
 feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 74%
+source-wordcount: '299'
+ht-degree: 78%
 
 ---
 
@@ -19,22 +18,9 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->**mbox.js生命週期結束**:自2021年3月31日起， [!DNL Adobe Target] 不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。
+>**mbox.js 生命週期結束**：自 2021 年 3 月 31 日起，[!DNL Adobe Target] 不再支援 mbox.js 程式庫。 自 2021 年 3 月 31 日起，從 mbox.js 進行的所有呼叫都會正常失敗，並透過提供預設內容而影響執行 [!DNL Target] 活動的頁面。
 >
->我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
-
-Target Standard 需要 [!DNL mbox.js] 版本 58 或更新版。有關如何下載和更新 [!DNL mbox.js] 的指示，請參閱 [Mbox實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
-
-對於Target Standard，[!DNL mbox.js] 會呼叫另一個 JavaScript 檔案: [!DNL target.js]。[!DNL Target.js] 是由 Adobe 代管，也由 Adobe 自動更新。您不需要任何動作來更新 [!DNL target.js]，沒有用戶端特有的自訂。
-
-[!DNL Target.js] 會在頁面的 `<head>` 區段中建立 mbox，稱為 `target-global-mbox`。
-
-[!DNL Target.js] 是從 [!DNL mbox.js] 中，以 [!DNL mbox.js] 的 [!UICONTROL 額外 JavaScript] 欄位中新增的一行 JavaScript 程式碼來呼叫。停用 [!DNL target.js] 的唯一辦法是不要包含這行程式碼，因此也會停用 [!DNL Target]。
-
-[!DNL Target.js] 在 [!DNL Target] 中有兩項功能:
-
-* DOM 操作
-* 啟用[!UICONTROL 可視化體驗撰寫器]的視覺化元素
+>建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免您的網站出現任何潛在問題。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
 ## DOM 操作 {#section_169F8D4C077948DCB4F891ABBB03FF63}
 
@@ -50,8 +36,6 @@ Target Standard 需要 [!DNL mbox.js] 版本 58 或更新版。有關如何下�
 * 產生縮圖: [!DNL https://html2canvas.hertzen.com/]
 * 跨網域查詢: [!DNL Admin.js]、[!DNL CDQ.base.js]、[!DNL CDQ.host.js]、[!DNL admin.css]，用於跨 iFrame 傳送訊息。這些指令碼可讓 Adobe 在頁面之間傳送資料。
 
-## 關於 Angular 網站和單頁應用程式的考量  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## 關於 Angular 網站和單頁應用程式的考量 {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 如果您在 Angular 網站或任何單頁應用程式 (SPA) 中實作 Target，應該使用 at.js 程式庫，而不是 mbox.js。
-
-如需詳細資訊，請參閱 [at.js 實作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)。
