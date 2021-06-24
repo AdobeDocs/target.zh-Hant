@@ -1,48 +1,47 @@
 ---
-keywords: 定位；視覺體驗撰寫器；白名單；白名單；allowlist;allowlist;enhanced視覺體驗撰寫器；vec；疑難排解視覺體驗撰寫器；疑難排解；eec；增強的體驗撰寫器；tls;tls 1.2
-description: 瞭解如何在特定條件下解決Adobe [!DNL Target] Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中有時發生的問題。
-title: 如何疑難排解與Visual Experience Composer和Enhanced Experience Composer相關的問題？
+keywords: 鎖定目標；可視化體驗撰寫器；白名單；允許清單；允許清單；增強可視化體驗撰寫器； VEC；疑難排解可視化體驗撰寫器；疑難排解； EEC；增強體驗撰寫器； TLS; TLS 1.2
+description: 了解如何針對特定條件下，Adobe [!DNL Target] 可視化體驗撰寫器(VEC)和增強體驗撰寫器(EEC)中有時會發生的問題進行疑難排解。
+title: 如何疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題？
 feature: 可視化體驗撰寫器 (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 64%
+source-wordcount: '1347'
+ht-degree: 63%
 
 ---
 
 # 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
 
-在某些情況下，在[!DNL Adobe Target] Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中有時會出現顯示問題和其他問題。
+顯示在某些情況下，有時候會在[!DNL Adobe Target]可視化體驗撰寫器(VEC)和增強體驗撰寫器(EEC)中發生的問題和其他問題。
 
-## 最近宣佈的Google Chrome SameSite Cookie實施政策對VEC和EEC有何影響？{#samesite}
+## 最近宣佈的Google Chrome SameSite Cookie實施政策對VEC和EEC有何影響？ {#samesite}
 
-透過最新變更（2020年8月），所有使用Chrome 80+瀏覽器版本的使用者：
+有了最新變更（2020年8月），所有使用Chrome 80以上瀏覽器版本的使用者：
 
-* *not*&#x200B;是否能在其網站受密碼保護的頁面中使用VEC（安裝或未啟用VEC Helper擴充功能）。 這是因為其網站登入Cookie將被視為第三方Cookie，不會隨登入請求傳送。 唯一的例外是當客戶網站登入Cookie已將SameSite參數設為「無」時。
-* *not*&#x200B;是否能在編輯活動時（當活動不在網站上時）下載[!DNL Target]程式庫。 這是因為下載呼叫是從客戶網域向安全Adobe網域進行，並被拒絕為未驗證。
-* EEC將&#x200B;*not*&#x200B;函式用於所有用戶，因為它無法在`adobemc.com domain`上為Cookie設定SameSite屬性。 若沒有此屬性，瀏覽器將拒絕這些Cookie，導致EEC失敗。
+* *not*&#x200B;是否能在其網站的受密碼保護頁面中使用VEC（安裝或未安裝VEC Helper擴充功能並啟用）。 這是因為其網站登入Cookie會被視為第三方Cookie，且不會隨登入請求傳送。 唯一的例外是客戶網站登入Cookie已將SameSite參數設為「無」。
+* 編輯活動時（當活動尚未在網站上時）, *not*&#x200B;是否能下載[!DNL Target]程式庫。 這是因為下載呼叫從客戶網域向安全Adobe網域進行，並會以未驗證的形式拒絕。
+* EEC將為所有使用者&#x200B;*not*&#x200B;函式，因為它無法為`adobemc.com domain`上的Cookie設定SameSite屬性。 若沒有此屬性，瀏覽器將拒絕這些Cookie，導致EEC失敗。
 
-Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴充功能會覆寫Cookie屬性，以視需要設定`SameSite="none"`屬性。 [更新的擴充功能可在此處找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 如需有關安裝和使用VEC Helper Extension的詳細資訊，請參閱[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴充功能會視需要覆寫Cookie屬性以設定`SameSite="none"`屬性。 您可以在此處](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到[更新的擴充功能。 如需安裝和使用VEC Helper擴充功能的詳細資訊，請參閱[可視化體驗撰寫器Helper擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-對於您自己的網站Cookie，您必須依名稱指定Cookie。 將[!UICONTROL Cookie]滑桿切換至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱是「mbox」，而Cookie網域是您從中提供mbox之網域的第二層和最上層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面使用指南*&#x200B;中的[Adobe TargetCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
+您必須依名稱指定Cookie，才能使用您自己的網站Cookie。 將[!UICONTROL Cookie]滑桿切換至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱為「mbox」，Cookie網域為您提供mbox的網域的第二層和頂層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面使用手冊*&#x200B;中的[Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html??lang=zh-Hant)。
 
-![Cookie在VEC協助工具擴充功能中切換](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![Cookie在VEC Helper擴充功能中切換](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-### 替代方案與解決方法
+### 替代方案和因應措施
 
-使用下列其中一個選項來確保VEC和EEC繼續如預期般運作：
+使用下列其中一個選項，確保VEC和EEC可繼續如預期般運作：
 
 * 下載並使用更新的[VEC Helper擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
-* 使用Mozilla Firefox瀏覽器。 Firefox尚未執行此政策。
+* 使用Mozilla Firefox瀏覽器。 Firefox尚未強制執行此策略。
 * 繼續使用Chrome，但將`chrome://flags/#same-site-by-default-cookies`標幟設為「已停用」。
 
    >[!NOTE]
    >
-   >如果Cookie的SameSite屬性已設定為「Lax」或「Strict」，則&#x200B;*not*&#x200B;就足夠了。
+   >如果伺服器已將SameSite屬性設為「Lax」或「Strict」，則&#x200B;*不*&#x200B;就足夠了。
 
-## [!DNL Target]是否支援多層級iframe?
+## [!DNL Target]是否支援多級iframe?
 
 Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 iframe，Target 資料庫 (at.js and mbox.js) 只會與父項 iframe 互動。Target 資料庫不會與子項 iframe 互動。
 
@@ -52,7 +51,7 @@ Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 
 
 如果 URL 包含 # 字元，則可能發生此問題。若要修正問題，請在可視化體驗撰寫器中切換至「瀏覽」模式，然後切換回「撰寫」模式。進度環應該會消失，並且頁面應該會載入。
 
-## 內容安全性政策(CSP)標題會封鎖我網站上的[!DNL Target]程式庫。 (VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## 內容安全性原則(CSP)標頭會封鎖我網站上的[!DNL Target]資料庫。 (VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 如果您的網站的 CSP 標頭封鎖 Target 資料庫，然後載入網站但防止編輯，請確保 Target 資料庫未遭到封鎖。
 
@@ -81,19 +80,13 @@ Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 
 
 依預設，可視化體驗撰寫器會封鎖 JavaScript 元素。如果您在可視化體驗撰寫器設定中停用 JavaScript，則可以使用這些元素。根據網站的設定方式，一些項目可能會繼續不正確地顯示或保持無法使用。
 
-## 我託管的 target.js 檔案在後續的頁面重新載入中無法載入。(VEC 和 EEC) {#section_87F6418C2CD142A7B4D1E7037935F81F}
-
-當客戶的 mbox.js 版本早於 57 (即版本 56 或更早版本) 時會發生此問題。
-
-建議所有 VEC 使用者升級至 [mbox.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)，或至少升級至版本 57。您也應考慮[移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)。
-
 ## 在頁面上變更一個元素時，變更了多個元素。(VEC 和 EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
 如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。這是標準的 HTML 最佳作法。如需詳細資訊，請參閱[頁面修改案例](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 ## 我無法編輯 iFrame-busting 網站的體驗。(VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-此問題可透過啟用增強體驗撰寫器來解決。按一下「**[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗撰寫器]**」，然後選取啟用「增強體驗撰寫器」的核取方塊。 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。這允許在 iFrame-busting 網站上進行編輯，並允許在您尚未新增 Adobe Target 程式碼的網站和頁面上進行編輯。在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。[]
+此問題可透過啟用增強體驗撰寫器來解決。按一下「**[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]**」，然後選取可啟用增強體驗撰寫器的核取方塊。 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。這允許在 iFrame-busting 網站上進行編輯，並允許在您尚未新增 Adobe Target 程式碼的網站和頁面上進行編輯。在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。[]
 
 >[!NOTE]
 >
