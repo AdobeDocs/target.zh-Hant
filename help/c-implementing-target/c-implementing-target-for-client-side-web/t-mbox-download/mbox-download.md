@@ -1,15 +1,14 @@
 ---
-keywords: 實施；mbox；下載mbox.js；下載api;mbox.js api
-description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform網頁SDK（AEP網頁SDK）或最新版的at.js。
+keywords: 實作；mbox；下載mbox.js；下載api;mbox.js api
+description: 了解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版at.js。
 title: 如何使用mbox.js實作 [!DNL Target] ?
 feature: at.js
 role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 47%
+source-wordcount: '268'
+ht-degree: 65%
 
 ---
 
@@ -17,13 +16,13 @@ ht-degree: 47%
 
 若要使用[!DNL Adobe Target Standard]或[!DNL Target Premium]，請新增一行程式碼以呼叫mbox.js。
 
-您可以使用兩個庫參照之一：[!DNL Adobe Experience Platform Web SDK]或[!DNL at.js]。 [at.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) jsex的優點可彌補mbox.js和at.js程式庫的差異。
+您可以使用兩個程式庫參考的其中一個：[!DNL Adobe Experience Platform Web SDK]或[!DNL at.js]。
 
 >[!IMPORTANT]
 >
->**mbox.js生命週期結束**:自2021年3月31日起， [!DNL Adobe Target] 不再支援mbox.js程式庫。自2021年3月31日起，從mbox.js進行的所有呼叫都會輕鬆失敗，並透過提供預設內容而影響執行[!DNL Target]活動的頁面。
+>**mbox.js 生命週期結束**：自 2021 年 3 月 31 日起，[!DNL Adobe Target] 不再支援 mbox.js 程式庫。 自 2021 年 3 月 31 日起，從 mbox.js 進行的所有呼叫都會正常失敗，並透過提供預設內容而影響執行 [!DNL Target] 活動的頁面。
 >
->我們建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱[概述：實作用戶端Web的Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
+>建議所有客戶在此日期前移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免您的網站出現任何潛在問題。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
 每個頁面上 [!DNL mbox.js] 的單一參考可提供您的所有活動所需的資料庫。[!DNL mbox.js] 會從參考 [!DNL Target] 檔案的每個頁面呼叫 [!DNL mbox.js]。如此可讓 [!DNL Target] 執行下列動作:
 
