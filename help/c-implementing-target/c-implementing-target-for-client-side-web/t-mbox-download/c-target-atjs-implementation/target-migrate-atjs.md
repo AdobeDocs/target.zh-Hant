@@ -1,15 +1,14 @@
 ---
 keywords: Target;at.js;移轉至 at.js;整備;稽核 at.js;整合 at.js
-description: 瞭解如何移轉至at.js，這是專為一般Web實作和單頁應用程式(SPA)所設計的全新Adobe實作庫 [!DNL Target] 。
+description: 了解如何移轉至at.js，這是新的Adobe實作資料庫 [!DNL Target] ，專為典型Web實作和單頁應用程式(SPA)而設計。
 title: 如何從 mbox.js 移轉至 at.js
 feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 92%
+source-wordcount: '847'
+ht-degree: 91%
 
 ---
 
@@ -88,16 +87,16 @@ ht-degree: 92%
    >
    >如果您目前未使用標籤管理程式來部署 [!DNL Target]，現在不妨考慮使用。
    >
-   >[!DNL Platform Launch] 是來自的新一代標籤管理平台， [!DNL Adobe] 且是實作的首選方法 [!DNL Adobe Target]。[!DNL Platform Launch] 為客戶提供簡單的方式，來部署及管理提供相關客戶體驗所需的分析、行銷和廣告標籤。
+   >[!DNL Platform Launch] 是新一代標籤管理平台， [!DNL Adobe] 且是實作的推薦方 [!DNL Adobe Target]法。[!DNL Platform Launch] 可讓客戶透過簡單的方式部署及管理分析、行銷及廣告標籤，以便支援相關客戶體驗。
    >
-   >如需詳細資訊，請參閱[Implement [!DNL Target] using [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
+   >如需詳細資訊，請參閱[使用 [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)實作 [!DNL Target] 。
 
 1. 確認所有目前的活動和整合皆如預期般運作。
 
    這裡是測試時您可以進行的項目，以確認 [!DNL at.js] 可如預期般運作:
 
    * 確定您目前的所有活動可與新的 JavaScript 資料庫搭配使用。
-   * 確認所有[整合項目](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和[外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均如預期般運作。
+   * 確認所有[整合項目](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和外掛程式均如預期般運作。
    * 確定您瞭解可透過 [!DNL at.js] 進行[除錯](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)的方法。
 
 **移轉至 at.js 可能發生的問題** 某些客戶在移轉至 at.js 後報告了下列問題:
@@ -125,4 +124,4 @@ ht-degree: 92%
 
    如需如何使用代碼編輯器來執行此動作的相關資訊，請參閱[代碼編輯器](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。
 
-* 因為所有 mbox 現在非同步，它們將不會封鎖頁面呈現或在其觸發的訂單中傳回。如需詳細資訊，請參閱以下主題中的「資料收集」: [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。
+* 因為所有 mbox 現在非同步，它們將不會封鎖頁面呈現或在其觸發的訂單中傳回。
