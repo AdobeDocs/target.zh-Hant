@@ -1,15 +1,14 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;全域;全域 mbox
-description: 閱讀有關Adobe [!DNL Target] 全域mbox的常見問答集(FAQ)和解答。
-title: 關於全域mbox的常見問題有哪些？
+description: 閱讀關於Adobe [!DNL Target] 全域mbox的常見問題集(FAQ)和答案。
+title: 關於全域mbox的常見問題是什麼？
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 85%
 
 關於全域 mbox 常見問題集 (FAQ) 的清單。
 
-## 如果我的[!DNL Target]帳戶已跨多個網域設定，我是否可擁有多個全域mbox?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## 如果我的[!DNL Target]帳戶設定為跨多個網域，我可以有多個全域mbox嗎？ {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 整個帳戶僅支援一個全域 mbox。
 
@@ -25,13 +24,13 @@ ht-degree: 85%
 
 您也可以使用 [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 傳遞頁面上的參數，然後在[!UICONTROL 可視化體驗撰寫器] (VEC) 的「設定 URL」區段中選取參數，或在表單式體驗撰寫器中將參數新增為「細分」。
 
-## 如何在[!DNL Target]全域mbox上傳遞收入資料？{#section_17AEA933BADA4D169CCEDF5833C41306}
+## 如何在[!DNL Target]全域mbox上傳遞收入資料？ {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 若要在 target-global-mbox 上收集收入和訂單資訊，必須將「mbox 參數」傳送至 Target。這些參數為名稱/值配對，用來傳送更多資訊給 Target。Target 會自動尋找這些參數 (保留名稱) 以填入收入資料。
 
-對於 `orderConfirmPage`，您應該傳入 `orderId`、`orderTotal` 和 `productPurchasedId`。如需詳細資訊，請參閱[建立訂購確認 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
+對於 `orderConfirmPage`，您應該傳入 `orderTotal`、`orderId` 和 `productPurchasedId`。
 
-同樣的這些參數必須透過 `targetPageParams()` () 傳送至·target-global-mbox。如需詳細資訊，請參閱[將參數傳遞至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
+這些參數必須透過`targetPageParams()`傳送至target-global-mbox。 如需詳細資訊，請參閱[將參數傳遞至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
 
 您也可以將鎖定目標新增至轉換部分，以便只有在看過訂單確認頁面後，Target 才會在 target-global-mbox 上統計轉換，如下所示:
 
