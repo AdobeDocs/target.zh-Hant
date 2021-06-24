@@ -6,7 +6,7 @@ feature: 疑難排解
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -121,9 +121,8 @@ ht-degree: 100%
 
 * [at.js 常見問答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [使用 Adobe Experience Cloud Debugger 除錯 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。請參閱 [at.js 實施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。
+* 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。
 
 ## 已知問題
 
