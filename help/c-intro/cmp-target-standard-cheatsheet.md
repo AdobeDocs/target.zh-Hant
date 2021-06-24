@@ -1,32 +1,31 @@
 ---
-keywords: Target Standard;faq;常見問題;速查表;速查表
-description: 探索關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
+keywords: Target Standard;faq;常見問答;速查表;速查表
+description: 探索關於使用 Adobe Target 中功能常見問答的清單，以及相關資訊和連結。
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: 總覽
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
 
-# Target 最佳化和個人化常見問題集
+# Target 最佳化和個人化常見問答
 
-關於使用 Adobe Target 中功能常見問題的清單，以及相關資訊和連結。
+關於使用 Adobe Target 中功能常見問答的清單，以及相關資訊和連結。
 
 ## 一般資訊 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
 **我如何知道其他客戶運用 Adobe Target 獲得更好的結果？**
 
-以下只是我們一些[客戶成功故事](https://www.adobe.com/tw/marketing-cloud/target/resources.html#x)。看看像您這樣的客戶如何運用 Target 來改善最佳化和個人化以達成業務目標。
+以下只是我們一些[客戶成功故事](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)。看看像您這樣的客戶如何運用 Target 來改善最佳化和個人化以達成業務目標。
 
 請注意，其中的部分案例研究是利用 Adobe Target Premium 的功能。
 
 **我可以在何處瞭解最新的 Target 功能？**
 
-請參閱[版本說明](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)來查看有關最新版本的詳細資料。所有[過去版本](/help/r-release-notes/release-notes-for-previous-releases.md)的相關資訊也可在線上取得。
+請參閱[發行說明](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)來查看有關最新版本的詳細資料。所有[過去版本](/help/r-release-notes/release-notes-for-previous-releases.md)的相關資訊也可在線上取得。
 
 **Adobe 有社群/論壇可讓我尋找關於 Target 的答案和詳細資訊嗎？**
 
@@ -34,15 +33,7 @@ ht-degree: 100%
 
 **Target 支援什麼瀏覽器？**
 
-如需更多詳細資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)矩陣。請注意，有以下兩個方面: Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
-
-## Target JavaScript 資料庫 (at.js 和 mbox.js)  {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**我應該使用哪個實作 JavaScript 檔案，at.js 或 mbox.js？**
-
-at.js 是我們最新的和最好的 JavaScript 資料庫。mbox.js 是我們的舊版本。請參閱 [at.js 的優點](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)，瞭解這兩種資料庫之間的差異。所有新客戶應使用 at.js。
-
-所有現有 mbox.js 客戶應該移轉至 at.js。在進行轉變之前，進一步瞭解[從 mbox.js 移轉至 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)中牽涉的步驟。
+如需更多詳細資訊，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)矩陣。請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
 
 ## 活動 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -163,7 +154,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 查看產品的下列方面:
 
-* [目標分析 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [對象](/help/c-integrating-target-with-mac/mmp.md)
 
@@ -235,7 +226,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以確保在使用者可能擁有的所有裝置間會一致地提供相同的體驗嗎？**
 
-請查看我們的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=zh-Hant)，它可讓您透過 Co-op 的強大功能，決定性地和概率性地連結使用者的多個裝置。
+請查看我們的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html??lang=zh-Hant)，它可讓您透過 Co-op 的強大功能，決定性地和概率性地連結使用者的多個裝置。
 
 如果您已採用 Co-op，「目標與設定」頁面上的簡易旗標會啟用該功能。報表現在也變更為反映人物而非訪客。請洽詢您的 Adobe 聯絡人，以進一步瞭解此功能，因為此功能並未在所有區域提供。
 
@@ -271,7 +262,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 查看產品的下列方面:
 
-* [目標分析 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [目標分析(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
