@@ -1,14 +1,13 @@
 ---
-keywords: 定位
-description: 瞭解Adobe [!DNL Target] 如何顯示和計算每個體驗的轉換率、提升度、信賴（統計意義）和信賴區間。
+keywords: 目標定位
+description: 了解Adobe [!DNL Target] 如何顯示和計算每個體驗的轉換率、提升度、信賴（統計顯著性）和信賴區間。
 title: 如何檢視轉換率、提升度和信賴等級？
-feature: 報表
+feature: 報告
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -46,7 +45,7 @@ ht-degree: 69%
 
 若控制值為 0，則無百分比提升度。
 
-## 信賴度 (統計顯著性)  {#section_35DB6724813D40C7B0808DE18FE595C1}
+## 信賴度 (統計顯著性) {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 此數字代表再次執行測試時會產生重複結果的可能性。可信度大於或等於 99.995% 時會四捨五入為 100.00%。
 
@@ -54,7 +53,7 @@ ht-degree: 69%
 
 ## 零售資料 {#section_30A674731BA6440E9BB93C421BE990EE}
 
-如果您插入 [下訂單](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) mbox 並選為轉換 mbox，則會顯示每一個體驗的 AOV、RPV 和銷售資料。
+如果您插入下訂單(`orderConfirmPage`)mbox並選為轉換mbox，則會顯示每個體驗的AOV、RPV和銷售資料。
 
 ## 信賴等級與信賴區間 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -102,21 +101,21 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 * **樣本尺寸:** 樣本增大，區間就縮小或變窄。這代表您的報表越來越接近成功度量的真值，因此為有利狀況。
 * **標準偏差較小:** 結果越近似 (例如相似的 AOV、數字或每日轉換訪客)，便越會縮小標準偏差。
 
-## 可信度計算以及如何離線執行計算  {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## 可信度計算以及如何離線執行計算 {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 [下載的 CSV 報表](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
-若要計算這些計算量度，請下載Target的[完整信賴計算器](/help/assets/complete_confidence_calculator.xlsx) Excel檔案以輸入活動值，或檢閱Target](/help/assets/statistical-calculations.pdf)使用的[統計計算。
+若要計算這些計算量度，請下載Target的[完整信賴度計算器](/help/assets/complete_confidence_calculator.xlsx) Excel檔案以輸入活動值，或檢閱Target](/help/assets/statistical-calculations.pdf)所使用的[統計計算。
 
 >[!NOTE]
 >
 >此計算機適用於鎖定目標型報表，而非 A4T 報表。
 
-## 執行Adobe TargetAnalytics的離線計算(A4T){#section_B34BD016C8274C97AC9564F426B9607E}
+## 執行Adobe Target(A4T)的Analytics離線計算 {#section_B34BD016C8274C97AC9564F426B9607E}
 
 您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。
 
-對於 A4T，我們採用 Student 的 t 檢定來計算連續變數 (而非二元量度)。在 Analytics 中，一律會追蹤訪客，並統計每一個採取的動作。因此，如果訪客多次購物或多次造訪成功量度，這些額外的點閱會納入計算。這會使量度變成連續變數。要執行學生t-test計算，需要「平方和」來計算差異，差異是用於t-統計的分母。 [本文檔說明所](/help/assets/statistical-calculations.pdf) 用數學公式的詳細資訊。可從[!DNL Analytics]擷取平方和。 若要取得平方和資料，您需要針對想要最佳化的量度，在樣本期間內執行訪客等級的匯出。
+對於 A4T，我們採用 Student 的 t 檢定來計算連續變數 (而非二元量度)。在 Analytics 中，一律會追蹤訪客，並統計每一個採取的動作。因此，如果訪客多次購物或多次造訪成功量度，這些額外的點閱會納入計算。這會使量度變成連續變數。要執行Student的t檢定計算，需要「平方和」來計算差異，差異用於t統計值的分母。 [本檔案說明所](/help/assets/statistical-calculations.pdf) 用數學公式的詳細資訊。平方和可從[!DNL Analytics]中擷取。 若要取得平方和資料，您需要針對想要最佳化的量度，在樣本期間內執行訪客等級的匯出。
 
 例如，假設您想最佳化每位訪客的頁面檢視，則需要匯出每位訪客在指定時間範圍內的頁面檢視總數樣本，或許是幾天 (所有您需要的就是幾千個資料點)。接著，您會求每一個值的平方，並算出總和 (此處的運算順序很重要)。然後，在「完整信賴度計算機」中會使用此「平方和」值。針對這些值，使用該試算表的「收入」區段。
 
@@ -147,7 +146,7 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
 * [建立 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouse最佳做法](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data Warehouse最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 計算方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -186,26 +185,26 @@ Target 型量度 (例如收入和參與量度) 的轉換和連續變數計算如
 >
 >計數通常是由 Cookie 和作業活動所決定。不過，若您達到活動的最終轉換點，然後重新進入活動，則會將您視為該活動的新加入者和新的造訪。即使您的 PCID 和 `sessionID` 值未變更，亦會採取此處理方式。
 
-## 為什麼[!DNL Target]建議使用學生的t-tests?{#t-test}
+## [!DNL Target]為何建議使用Student的t檢定？ {#t-test}
 
-A/B測試是比較控制變數中某些業務量度（也稱為體驗）的平均值與一個或多個替代體驗中該量度的平均值的實驗。
+A/B測試是實驗，用來比較控制變體中某些業務量度（也稱為體驗）的平均值與一或多個替代體驗中相同量度的平均值。
 
-[!DNL Target] 建議使用兩個範例 [Student T-test](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)，因為這些測試需要的假設比Z-tests等替代項目少，而且是在控制體驗和替代體驗之間進行兩對（數量）商業度量比較的適當統計測試。
+[!DNL Target] 建議使用兩個 [範例Student的t檢定](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)，因為這些測試需要的假設比z檢定之類的替代項目少，且是在控制體驗和替代體驗之間進行成對（定量）業務量度比較的適當統計檢定。
 
-### 詳細資訊
+### 更詳細
 
-執行線上A/B測試時，會隨機將每個使用者／訪客指派給單一變數。 隨後，我們會測量感興趣的業務量度（例如轉換、訂購、收入等） 變數中的訪客。 然後，我們使用的統計測試會測試平均業務量度（例如轉換率、每位使用者的訂單、每位使用者的收入等）的假設 等於控制項和給定的替代變數。
+執行線上A/B測試時，每個使用者/訪客會隨機指派給單一變體。 隨後，我們會測量興趣的業務量度（例如轉換、訂購、收入等） 適用於每個變體中的訪客。 我們使用的統計測試接著會測試平均業務量度（例如轉換率、每位使用者訂單、每位使用者收入等）的假設 等於控制項和給定的替代變體。
 
-雖然業務量度本身可能根據任意分佈進行分配，但此量度（在每個變數內）的平均分佈應通過[中心極限定理](https://en.wikipedia.org/wiki/Central_limit_theorem)收斂到常態分佈。 請注意，雖然無法保證此平均值的取樣分佈會以多快的速度收斂至正常，但此條件通常會線上上測試中根據訪客的規模而達成。
+雖然業務量度本身可能根據某些任意分佈進行分配，但此量度（在每個變數內）的平均值的分佈應通過[中心極限定理](https://en.wikipedia.org/wiki/Central_limit_theorem)收斂到常態分佈。 請注意，雖然無法保證此取樣分佈的平均值會以多快的速度收斂至正常，但一般會根據線上測試中的訪客規模來達成此條件。
 
-在平均值的這種正常性下，所使用的測試統計值可以被顯示為遵循t分佈，因為它是基於資料的估計值（裝置差的標準誤差）的正常分佈值（業務量度的差值）與縮放項的比值。 如果測試統計資料遵循t分佈，則&#x200B;**學生的t-test**&#x200B;即為適當的假設測試。
+根據平均值的這種正常性，可以顯示要使用的測試統計值以遵循t分佈，因為它是常態分佈值（業務量度的手段的差）與基於資料的估計的縮放項的比率（裝置差的標準誤差）。 假設測試統計資料遵循t分佈，則&#x200B;**Student的t檢定**&#x200B;即為適當的假設測試。
 
-### 不使用其他測試的原因
+### 未使用其他測試的原因
 
-**z-test**&#x200B;不適當，因為在典型的A/B測試情景中，測試統計的分母不是從已知方差中衍生出來的，而是必須從資料中估計。
+**z-test**&#x200B;不適當，因為在典型A/B測試案例中，測試統計資料的分母並非衍生自已知的變數，而是必須從資料中估計。
 
-**Chi-** square測試不被使用，因為這些適用於確定兩個變體之間是否存在定性關係（即在變體之間沒有差異的零假設）。T-tests更適合於&#x200B;_dimutical_&#x200B;比較量度的藍本。
+**不使用** 卡方測試，因為這些適合於判斷兩種變體之間是否存在定性關係（即變體之間沒有差異的空假設）。T檢定更適合於&#x200B;_quamitual_&#x200B;比較量度的情境。
 
-**Mann-Whitney U測試**&#x200B;是非參數測試，適用於平均業務量度（對於每個變體）的抽樣分佈不正常時。 但是，如前所述，線上測試涉及的流量大小，中心極限定理通常適用，因此t-test可以安全地應用。
+**Mann-Whitney U測試**&#x200B;是非參數測試，當平均業務量度（對於每個變體）的取樣分佈不正常時，此測試是適當的。 但是，如前所述，考慮到線上測試所涉及的流量大小，中心極限定理通常適用，因此t檢測可以安全地應用。
 
-當測試有兩個以上的體驗時（「A/Bn測試」），可套用更複雜的方法，例如&#x200B;**ANOVA**（將t測試歸納為兩個以上的變體）。 但是，ANOVA回答的問題是「所有變體是否具有相同的平均值」，而在典型的A/Bn測試中，我們更感興趣的是&#x200B;_哪個特定變體_&#x200B;最好。 因此，在[!DNL Target]中，我們會套用常規t-test，比較每個變體與控制項，並使用Bonferroni修正來計算多個比較。
+當測試有超過兩個體驗（「A/Bn測試」）時，可套用更複雜的方法，例如&#x200B;**ANOVA**（將t測試歸納為兩個以上的變體）。 但是，ANOVA回答的問題是「所有變體是否具有相同的平均值」，而在典型的A/Bn測試中，我們更感興趣的是哪個特定變體&#x200B;_最好。_&#x200B;因此，在[!DNL Target]中，我們會套用一般t檢定來比較每個變體與控制項，並使用Bonferroni校正來計算多個比較。
