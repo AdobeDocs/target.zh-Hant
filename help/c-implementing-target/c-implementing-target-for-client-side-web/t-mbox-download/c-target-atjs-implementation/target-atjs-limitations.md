@@ -1,17 +1,16 @@
 ---
 keywords: 可視化體驗撰寫器限制;瀏覽器支援;整合;外掛程式;非同步考量
-description: 瞭解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版的at.js。
+description: 了解Adobe Target的舊版mbox.js實作。 移轉至Adobe Experience Platform Web SDK(AEP Web SDK)或最新版at.js。
 title: at.js和mbox.js之間有何差異？
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 92%
+source-wordcount: '436'
+ht-degree: 91%
 
 ---
-
 
 # at.js 限制
 
@@ -23,14 +22,13 @@ at.js 與 mbox.js 之間有一些差異。此小節列出部分差異和限制�
 
    在單頁應用程式中的頁面載入事件上，因為 DOM 不會像在傳統網站中一樣地清除，所以「插入元素」和「重新安排」操作可能會重複套用多次，視訪客如何導覽 SPA 而定。
 
-## 整合和外掛程式  {#section_D92E31170176406AAC7B5005F03D3425}
+## 整合和外掛程式 {#section_D92E31170176406AAC7B5005F03D3425}
 
 [!DNL mbox.js] 中沒有 [!DNL at.js] 內的某些函式。[!DNL at.js] 不再支援內部 [mbox.js 物件和方法](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` 及其他，例如 `mboxFactoryDefault`)。這是刻意設計，目的是不勸阻您不要「駭入」[!DNL at.js] 來開發不受支援的功能，這些功能長期而言會削弱實施，導致實施無法升級。本說明文件的 API 頁面涵蓋唯一公開的方法。因此:
 
 * 舊型頁面式[整合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)搭配其他 Adobe 解決方案可能無法運作，應該升級至更新的伺服器端整合。
-* [針對 mbox.js 開發的自訂外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)可能無法運作，除非針對 [!DNL at.js] 進行過更新。
 
-   務必將所有[外掛程式](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均納入測試中。
+   務必將所有外掛程式均納入測試中。
 
 ## 非同步考量 {#section_B586360A3DD34E2995AE25A18E3FB953}
 
@@ -55,4 +53,3 @@ at.js 與 mbox.js 之間有一些差異。此小節列出部分差異和限制�
 * DOM 操作和重新導向選件應該透過 [!DNL at.js] 中自動建立的全域 mbox 來傳送，並於 `<head>` 中傳送。
 
    `mboxCreate()` 頂端的 `<body>` 函數很可能導致預設內容忽隱忽現。
-
