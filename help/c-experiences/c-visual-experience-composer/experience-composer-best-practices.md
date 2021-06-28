@@ -1,42 +1,37 @@
 ---
 keywords: 可視化體驗撰寫器; 可視化體驗撰寫器最佳作法; 可視化體驗撰寫器限制; 可視化體驗撰寫器警告; VEC 最佳作法; VEC
-description: 瞭解在Adobe Target中使用Visual Experience Composer(VEC)時，如何讓體驗如預期運作的最佳實務。
-title: Visual Experience Composer有哪些最佳實務和限制？
-feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: 了解在Adobe Target中使用可視化體驗撰寫器(VEC)時，可讓您的體驗如預期般運作的最佳實務。
+title: 可視化體驗撰寫器最佳作法和限制為何？
+feature: 可視化體驗撰寫器 (VEC)
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 93%
 
 ---
 
+# 可視化體驗撰寫器最佳做法與限制
 
-# 可視化體驗撰寫器最佳作法和限制
-
-下列最佳作法可協助讓您的體驗如預期般運作。使用[!DNL Adobe Target]中的「視覺體驗撰寫器」(VEC)時，您也應注意其他提示和限制。
+下列最佳作法可協助讓您的體驗如預期般運作。在[!DNL Adobe Target]中使用可視化體驗撰寫器(VEC)時，您也應注意其他提示和限制。
 
 只要遵循下列這些最佳作法，您設計的體驗就比較不會發生非預期的問題。
 
 ## 最佳實務 {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**對於 mbox.js 57 版和更新版本，以及 at.js，請將 mbox.js 或 at. js 參考置於頁面 `<head>` 區段的上方。**
+**將at.js參考放置在頁面的 `<head>` 區段頂端。**
 
-如果您還使用「訪客 API 服務」，請將訪客 API 指令碼放在 mbox.js 或 at.js 上方。
-
-**如果是 57 版之前的 mbox.js，請將 mbox.js 程式碼置於頁面的 `<head>` 區段中越低的位置越好。**
-
-將 mbox.js 放在 `<head>` 區段最後，後面不能有其他宣告。否則，任何指令碼或連結標記會移至 `<body>` 區段中。
+如果您也使用訪客API服務，請將訪客API指令碼放在at.js上方。
 
 **您可以在帳戶層級 (已針對在帳戶中建立的所有活動啟用) 或是在個別活動層級啟用增強體驗撰寫器。**
 
-若要在帳戶層級啟用「增強的體驗撰寫器」，請按一下「管理> Visual Experience Composer]」，然後將切換器切換至「開啟」位置。[!UICONTROL 
+若要在帳戶層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 管理>可視化體驗撰寫器]」，然後將開關切換至「開啟」位置。
 
 在可視化體驗撰寫器中建立活動時，若要在活動層級上啟用增強體驗撰寫器，請按一下「[!UICONTROL 設定 > URL]」，然後將開關切換至「開啟」位置。
 
-**如果Enhanced Visual Experience Composer無法載入網站的安全頁面，您可以允許列出某些IP位址。**
+**如果您的網站安全頁面上不會載入增強可視化體驗撰寫器，您可以允許列出某些IP位址。**
 
-載入「增強視覺體驗撰寫器」時的問題可透過允許列出下列IP位址來解決。 這些 IP 位址用於 Adobe 的伺服器，用於增強體驗撰寫器 Proxy。只有針對活動編輯才需要這些資訊。您網站的訪客不需要列出這些IP位址。
+載入增強可視化體驗撰寫器時發生的問題可透過允許列出下列IP位址來解決。 這些 IP 位址用於 Adobe 的伺服器，用於增強體驗撰寫器 Proxy。只有針對活動編輯才需要這些資訊。您網站的訪客不需要列出的這些IP位址。
 
 美國: 52.55.99.45、54.80.158.92 和 54.204.197.253
 
@@ -165,7 +160,7 @@ OR
 
 **確定頁面在 iframe 中正常開啟。**
 
-在網站上「關閉」iframe 爆破技術，並檢查是否在虛擬頁面的 iframe 內正常開啟。例如:
+在網站上「關閉」iframe 爆破技術，並檢查是否在虛擬頁面的 iframe 內正常開啟。例如：
 
 ```html
 <!DOCTYPE 
@@ -182,7 +177,7 @@ OR
 </html>
 ```
 
-## 注意事項  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## 注意事項 {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 使用可視化體驗撰寫器來設計活動時，請注意下列警告。
 
@@ -234,7 +229,7 @@ OR
 
 **Mbox 上只能使用交換選件。**
 
-Mbox 內不允許「編輯類別」和「重新排列」等動作。Mbox 內容由 mbox.js 提供。
+Mbox 內不允許「編輯類別」和「重新排列」等動作。
 
 **請勿重新排列和移動同一個元素。**
 
