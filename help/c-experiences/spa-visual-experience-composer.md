@@ -1,13 +1,12 @@
 ---
 keywords: SPA VEC; React; Angular; react.js; SPA 可視化體驗撰寫器; SPA 體驗撰寫器選項; 單一頁面應用程式; SPA; 行動體驗選項; Target 檢視
-description: 瞭解如何使SPA用Adobe [!DNL Target] 中的VEC，以自行方式建立測試並個人化內容，SPA而不需持續的開發相依性。
-title: 如何使用單頁應用程式視覺體驗撰寫器(SPAVEC)?
+description: 了解如何在Adobe [!DNL Target] 中使用SPA VEC，在SPA上以自己動手的方式建立測試並個人化內容，無需持續開發的相依性。
+title: 如何使用單頁應用程式可視化體驗撰寫器(SPA VEC)?
 feature: 可視化體驗撰寫器 (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 92%
 
 ---
@@ -20,13 +19,13 @@ ht-degree: 92%
 
 在最新版本中，我們現在推出了適用於 SPA 的 VEC。適用於 SPA 的 VEC 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在熱門架構 (React 和 Angular) 上建立 [A/B 測試](/help/c-activities/t-test-ab/test-ab.md)和[體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) (XT) 活動。
 
-## Adobe[!DNL Target]檢視和單頁應用程式
+## Adobe[!DNL Target]檢視與單頁應用程式
 
 適用於 SPA 的Adobe Target VEC 充分利用「檢視」的新概念: 視覺元素的邏輯組合，共同構成 SPA 體驗。因此，SPA 可以視為根據使用者互動轉換檢視，而不是轉換 URL。檢視通常可代表整個網站或網站內的分組視覺元素。
 
 為了進一步說明檢視，下文將瀏覽這個在 React 中實作的假想線上電子商務網站，並探索一些檢視範例。按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結： [首頁網站](https://target.enablementadobe.com/react/demo/#/)**
+**連結： [首頁](https://target.enablementadobe.com/react/demo/#/)**
 
 ![首頁](/help/c-experiences/assets/home.png)
 
@@ -56,17 +55,17 @@ ht-degree: 92%
 
 假設現在行銷人員想執行 A/B 測試，以瞭解當選取「快捷配送」時，相較於讓這兩種配送選項的按鈕均保持藍色，按鈕從藍色變為紅色是否能增加轉換次數。
 
-## 實施Adobe[!DNL Target]視圖
+## 實作Adobe[!DNL Target]檢視
 
 我們已在上文中介紹 Adobe Target 檢視的功能，現在可以在 Target 中運用這個概念，讓行銷人員透過 VEC 在 SPA 上執行 A/B 和 XT 測試。進行測試需要一次性開發人員設定。以下逐一說明設定步驟。
 
 1. 安裝 at.js 2.x。
 
-   首先需要安裝 at.js 2.x。這個 at.js 版本是針對 SPA 所開發。舊版 at.js 和 mbox.js 不支援 Adobe Target 檢視和適用於 SPA 的 VEC。
+   首先需要安裝 at.js 2.x。這個 at.js 版本是針對 SPA 所開發。舊版 at.js 和 不支援 Adobe Target 檢視和適用於 SPA 的 VEC。
 
    ![實作詳細資料對話方塊](/help/c-experiences/assets/imp-200.png)
 
-   透過位於[!UICONTROL 管理>實作]的Adobe TargetUI下載at.js 2.x。 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
+   透過位於[!UICONTROL 管理>實作]的Adobe Target UI下載at.js 2.x。 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
 
 1. 在您的網站上實作 at.js 2.x 的最新函數: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
@@ -82,7 +81,7 @@ ht-degree: 92%
 
    現在，讓我們來看看一些使用範例，瞭解如何在 React 中對假設性的電子商務 SPA 進行叫用 `triggerView()`:
 
-   **連結： [首頁網站](https://target.enablementadobe.com/react/demo/#/)**
+   **連結： [首頁](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -358,7 +357,7 @@ adobe.target.getOffers({
 | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 是 |
 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
-## 支援的功能  {#supported-features}
+## 支援的功能 {#supported-features}
 
 | 功能 | 支援? |
 | --- | --- |
@@ -391,9 +390,9 @@ adobe.target.getOffers({
 以下是所做的變更:
 
 * 變更位於下列 URL 下的首頁檢視的背景顏色: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
-* 已變更「產品」檢視中位於URL下方的按鈕顏色：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
+* 變更位於URL下方之產品檢視中的按鈕顏色：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
 
-以上範例為準，當我們設定[!UICONTROL 頁面傳送]設定時，將會發生什麼情況：[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)與at.js 2SPA搭配使用。*x* 的 SPA 中)，那麼會發生什麼情況?
+請思考上述範例，當我們設定[!UICONTROL 頁面傳送]設定時，將會發生什麼情況，僅包含：在具有at.js 2.[](https://target.enablementadobe.com/react/demo/#/)*x* 的 SPA 中)，那麼會發生什麼情況?
 
 ![頁面傳送對話方塊](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,7 +402,7 @@ adobe.target.getOffers({
 
 **第 1 個使用者旅程**
 
-* 使用者直接導覽至[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。
+* 使用者會直接導覽至[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。
 * at.js 2.*x* 會查詢 Edge，以查看下列 URL 是否有任何需要執行的活動: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
 * 在步驟 6 中，Target Edge 會傳回首頁和產品檢視的動作，以便系統快取瀏覽器內的這些動作。
 
@@ -413,9 +412,9 @@ adobe.target.getOffers({
 
 **第 2 個使用者旅程**
 
-* 使用者直接導覽至[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
+* 使用者會直接導覽至[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
 * at.js 2.*x* 會查詢 Edge，查看下列 URL 是否有任何需要執行的活動: [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products。
-* 沒有符合[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)條件的活動。
+* 沒有符合[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)的活動。
 * 由於沒有任何符合的活動，因此沒有任何快取動作和檢視可供 at.js 2.*x* 觸發。
 
 **結果**: 即使您已針對產品檢視定義 `triggerView()` 並透過 SPA VEC 對產品檢視執行動作，您不會看見預期的動作，因為您並未建立在頁面傳送設定中包含 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 的規則。
@@ -440,4 +439,4 @@ adobe.target.getOffers({
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-如需詳細資訊，請參閱Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)中的「使用單一頁面應用程式的視覺體驗撰寫器(SPAVEC)」。[
+如需詳細資訊，請參閱Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)中的[使用適用於單頁應用程式的可視化體驗撰寫器(SPA VEC)。
