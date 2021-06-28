@@ -1,24 +1,23 @@
 ---
 keywords: 點擊追蹤; 追蹤點擊; 點擊; AppMeasurement
-description: 瞭解Adobe [!DNL Target] 如何讓您將任何元素的點按次數作為成功度量加以追蹤。
-title: 什麼是點按追蹤？
-feature: 成功量度
+description: 了解「Adobe [!DNL Target] 」如何讓您以成功量度的形式追蹤任何元素上的點按。
+title: 什麼是點擊追蹤？
+feature: 成功度量
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '885'
 ht-degree: 91%
 
 ---
 
 # 點擊追蹤
 
-[!DNL Adobe Target] 可讓您將任何元素上的點按次數作為成功度量進行追蹤。
+[!DNL Adobe Target] 可讓您追蹤任何元素上的點按作為成功量度。
 
 >[!NOTE]
 >
->當全域Target請求用作表單型活動中的位置時，不支援追蹤點按。
+>將全域Target請求用作表單式活動中的位置時，不支援追蹤點按。
 
 ## 設定點擊追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -35,7 +34,7 @@ ht-degree: 91%
 
 當活動加入者點擊選取的元素時，該點擊會被計為轉換。
 
-## 所選元素面板{#selected-elements}
+## 所選元素面板 {#selected-elements}
 
 若為 A/B 測試、體驗鎖定目標 (XT)、Automated Personalization (AP) 和多變數測試 (MVT) 活動，[!UICONTROL 所選元素]面板會在右側列出點擊追蹤的所有所選元素。
 
@@ -73,8 +72,8 @@ ht-degree: 91%
 
    如需詳細資訊，請參閱&#x200B;*可視化體驗撰寫器選項*&#x200B;中的[使用 DOM 路徑導覽元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
-* 您可以瀏覽至不同頁面，以追蹤您可能不會變更內容之頁面上的點擊。必須在活動中包括這個不同的頁面，使用[多頁功能](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，並且必須已在其上實施 [!DNL at.js] 或 [!DNL mbox.js]。
-* 如果您選取多個元素，當加入者點擊所選取元素的任何一個時，即會計入該點擊。若要個別計算每個項目，請為每個元素設定個別的成功量度。若要按一下頁面上的數個元素來計算一個項目，請編輯「CSS元素選擇器」以比對多個元素。
+* 您可以瀏覽至不同頁面，以追蹤您可能不會變更內容之頁面上的點擊。必須在活動中包括這個不同的頁面，使用  [多頁](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) 功能， [!DNL at.js] 且必須在其上實作。
+* 如果您選取多個元素，當加入者點擊所選取元素的任何一個時，即會計入該點擊。若要個別計算每個項目，請為每個元素設定個別的成功量度。若要按一下頁面上的數個元素來計算一個項目，請編輯CSS元素選取器以比對多個元素。
 * 確定選取您要追蹤的元素層級。例如，在指定按鈕時，請確定您選取連結而非按鈕文字。
 * 點擊事件會傳送到與點擊相同的頁面上的 [!DNL Target]。
 * 如果點擊追蹤量度為 A4T 活動的目標量度，訪客必須在頁面載入的 60 秒內點擊此元素，量度才能進行追蹤。
