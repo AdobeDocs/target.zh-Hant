@@ -1,14 +1,13 @@
 ---
 keywords: at.js;2.0;1.x;Cookie
-description: 關於Adobe [!DNL Target] at.js 2.x和at.js 1.x如何處理Cookie的詳細資訊
+description: 有關Adobe [!DNL Target] at.js 2.x和at.js 1.x如何處理Cookie的詳細資訊
 title: at.js Cookie
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 96%
 
 ---
@@ -112,7 +111,7 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 | Cookie 名稱 | mbox。 |
 | Cookie 網域 | 您從中提供內容的第一層與第二層網域。因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`。 |
 | 伺服器網域 | `clientcode.tt.omtrdc.net`，使用您帳戶的用戶端代碼。 |
-| Cookie 持續時間 | 自訪客上次登入後兩年，Cookie仍會留在訪客的瀏覽器上。<br>此 `deviceIdLifetime` 設定在 [at.js 2.3.1版或更新版本中可覆寫](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 |
+| Cookie 持續時間 | 自訪客上次登入後兩年，Cookie仍會保留在訪客的瀏覽器上。<br> `deviceIdLifetime` at.js 2.3. [1版或更新版本中的設定可覆寫](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 |
 | P3P 原則 | 此 Cookie 會依大部分瀏覽器中預設設定的要求，以 P3P 原則進行發佈。P3P 原則會為瀏覽器指出是誰提供此 Cookie，以及將如何使用此資訊。 |
 
 此 Cookie 會保留一些值，以管理您訪客體驗 促銷活動的方式:
@@ -122,9 +121,9 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 | session ID | 每個使用者作業會有一個唯一 ID。依預設，這會持續 30 分鐘。 |
 | pc ID | 每位訪客瀏覽器的半永久性 ID。持續 14 天。 |
 | check | 用來決定訪客是否支援 Cookie 的簡單測試值。每次訪客請求頁面時都會進行設定。 |
-| disable | 如果訪客的載入時間超過 mbox.js 檔案中所設定的逾時時間，則設定此選項。依預設，這會持續 1 個小時。 |
+| disable | 如果訪客的載入時間超過[!DNL Adobe Experience Platform Web SDK]或at.js檔案中設定的逾時時間，則設定此選項。 依預設，這會持續 1 個小時。 |
 
-## 由於Apple WebKit追蹤變更，對Safari訪客的[!DNL Target]影響
+## Apple WebKit追蹤變更對Safari訪客[!DNL Target]的影響
 
 請記住下列事項:
 
