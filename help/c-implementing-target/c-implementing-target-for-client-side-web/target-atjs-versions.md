@@ -1,13 +1,13 @@
 ---
 keywords: at.js版本；at.js版本；發行說明
-description: 檢視Adobe [!DNL Target] at.js JavaScript程式庫各版本變更的詳細資訊。
-title: at.js的每個版本包含哪些內容？
+description: 檢視每個Adobe [!DNL Target] at.js JavaScript程式庫版本中變更的詳細資訊。
+title: 每個at.js版本包含什麼？
 feature: at.js
 role: Developer
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '4181'
-ht-degree: 88%
+source-wordcount: '4143'
+ht-degree: 89%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
+>Target團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。
 >
->[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis是升級at.js的偏好方法。擴充功能開發人員會持續在擴充功能中新增功能，並經常修正錯誤。 這些更新會封裝成新版擴充功能，並在[!DNL Launch]目錄中提供升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用指南*&#x200B;中的[擴充升級](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升級at.js的推薦方法。擴充功能開發人員會持續新增功能至其擴充功能，並經常修正錯誤。 這些更新會封裝成新版本的擴充功能，並在[!DNL Launch]目錄中提供作為升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用手冊*&#x200B;中的[擴充功能升級](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
 
 ## at.js 2.5.0（2021年5月13日）
 
-此版本的at.js包含下列增強功能和變更：
+此 at.js 版本包含下列增強功能和變更：
 
-* [at.js的](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 裝置上決策支援。
-* [預覽](/help/c-activities/c-activity-qa/activity-qa.md) Automated Personalization活動的連結支援
+* [針對 at.js 的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)支援。
+* [預覽連結](/help/c-activities/c-activity-qa/activity-qa.md)對 Automated Personalization 活動的支援
 
-此版本也移除了對Microsoft Internet Explorer 10及更新版本的支援。
+此版本也會移除對 Microsoft Internet Explorer 10 和更高版本的支援。
 
-## at.js 2.4.1（2021年3月23日）
+## at.js 2.4.1 (2021 年 3 月 23 日)
 
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
-* 修正mbox請求中包含`targetPageParams`的問題。 `targetPageParams` 應僅包含在 `pageLoad` 請求中。(TNT-40247)
-* [!DNL Adobe Experience Platform Launch]擴充功能中的最佳化視窗和檔案全域參照。 (TNT-37124)
+* 已修正 `targetPageParams` 包含在 mbox 要求中的問題。 `targetPageParams` 應該只能包含在 `pageLoad` 要求中。 (TNT-40247)
+* [!DNL Adobe Experience Platform Launch]擴充功能中參考的最佳化視窗和檔案全域。 (TNT-37124)
 
 ## at.js 2.4.0 (2021 年 1 月 14 日)
 
@@ -49,7 +49,7 @@ ht-degree: 88%
 
 此 at.js 版本為維護版本，包含下列修正：
 
-* 修正與mbox點按追蹤和A4T相關的問題。 按一下0n,Target會使用正確的mbox和mbox參數引發傳送API呼叫。 但是，SDID與[!DNL Analytics]呼叫中的SDID不符，因此沒有點擊拼接和轉換。 (TNT-38372)
+* 修正與mbox點擊追蹤和A4T相關的問題。 在按一下0n後，Target會使用正確的mbox和mbox參數引發傳送API呼叫。 不過，SDID不符合[!DNL Analytics]呼叫中的呼叫，因此沒有點擊拼接和轉換。 (TNT-38372)
 
 ## at.js 2.3.2 (2020 年 7 月 24 日)
 
@@ -63,7 +63,7 @@ ht-degree: 88%
 
 * 修正使用 CNAME 和 Edge Override (at.js 1) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35064)
 
-## at.js 2.3.1版本（2020年6月15日）
+## at.js 2.3.1版（2020年6月15日）
 
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
@@ -75,41 +75,41 @@ ht-degree: 88%
 
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
-* 支援在套用傳送的Target選件時，將「內容安全性原則」非設定在附加至頁面DOM的SCRIPT和STYLE標籤上。 客戶可以設定`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，如此at.js就可以在套用的選件上設定對應的指令碼和樣式標籤nonces。 如需詳細資訊，請參閱[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
-* 修正使用Google Closure編譯器編譯at.js以部署Google Tag Manager時的問題。
-* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶實作衝突。
+* 支援在套用傳送的Target選件時，在附加至頁面DOM的SCRIPT和STYLE標籤上設定內容安全性原則。 客戶可以設定`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，讓at.js可以在套用的選件上設定對應的指令碼和樣式標籤nonce。 如需詳細資訊，請參閱[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 。
+* 修正使用Google Closure編譯器編譯at.js以進行Google Tag Manager部署時的問題。
+* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶的實作衝突。
 
 ## at.js 版本 1.8.1 (2020 年 3 月 25 日)
 
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
-* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶實作衝突。
+* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶的實作衝突。
 
-## at.js 2.2.0版（2019年10月10日）
+## at.js版本2.2.0（2019年10月10日）
 
-此版本的at.js包含下列增強功能和修正：
+此版at.js包含下列增強功能和修正：
 
-* 已修正此問題：當頁面元素上未顯示Adobe Analytics代碼時，點按追蹤不會報告Analytics for Target(A4T)中的轉換。
-* 已改善在網頁上同時使用Experience CloudID服務(ECID)v4.4和at.js 2.2時的效能。
+* 修正當頁面元素上不存在Adobe Analytics代碼時，點擊追蹤不會報告Analytics for Target(A4T)的轉換的問題。
+* 改善在網頁上同時使用Experience CloudID服務(ECID)v4.4和at.js 2.2時的效能。
 * 之前，ECID 曾進行兩次封鎖呼叫，之後 at.js 才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。
-* 已修正錯誤的預取檢視處理，其中預設選件的事件Token未包含在傳送的通知中。
+* 修正預先擷取檢視處理不正確的問題，亦即預設選件的事件Token未包含在傳送的通知中。
 
    >[!NOTE]
    >
-   >將您的ECID Launch Extension升級至v4.4，以運用此效能增強功能。
+   >將您的ECID Launch擴充功能升級至v4.4，以運用此效能增強功能。
 
-* at.js 2.2版也提供名為`serverState`的新設定。 當實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。如需詳細資訊，請參閱 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中的 「serverState」。
+* at.js版本2.2也提供名為`serverState`的新設定。 實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。如需詳細資訊，請參閱 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中的 「serverState」。
 
-## at.js 1.8.0版（2019年10月10日）
+## at.js版本1.8.0（2019年10月10日）
 
-此版本的at.js包含下列增強功能和修正：
+此版at.js包含下列增強功能和修正：
 
-* 已改善在網頁上同時使用Experience CloudID服務(ECID)v4.4和at.js 1.8時的效能。
+* 改善在網頁上同時使用Experience CloudID服務(ECID)v4.4和at.js 1.8時的效能。
 * 之前，ECID 曾進行兩次封鎖呼叫，之後 at.js 才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。
 
 >[!NOTE]
 >
->將您的ECID Launch Extension升級至v4.4，以運用此效能增強功能。
+>將您的ECID Launch擴充功能升級至v4.4，以運用此效能增強功能。
 
 ## at.js 版本 2.1.1 (2019 年 7 月 24 日)
 
@@ -406,7 +406,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
 **日期:** 2016 年 9 月 21 日
 
-* 已新增 `optoutEnabled` 設定，以啟用或停用裝置圖表選擇退出。如果此設定設為 `true`，並且訪客選擇退出追蹤，訪客的瀏覽器將不會進行任何 mbox 呼叫。裝置圖表目前處於 Beta 版。此設定預設會設為 `false`，但如果您使用裝置圖表，則必須設為 `true`。類似的選項屬於 mbox.js v61。
+* 已新增 `optoutEnabled` 設定，以啟用或停用裝置圖表選擇退出。如果此設定設為 `true`，並且訪客選擇退出追蹤，訪客的瀏覽器將不會進行任何 mbox 呼叫。裝置圖表目前處於 Beta 版。此設定預設會設為 `false`，但如果您使用裝置圖表，則必須設為 `true`。
 * 已針對通知機制新增 `CustomEvent` 支援。之前，您無法透過標準 DOM API (例如 `document.addEventListener()`) ()) 來使用 at.js 事件通知機制。現在您可以使用 `document.addEventListener()` 來訂閱 at.js 事件，例如要求事件和內容呈現事件。
 * 已修正關於可視化體驗撰寫器 (VEC) 選件建立的問題。在此版本之前，Target 會隱藏選取器，並且只有在所有選取器都符合時才取消隱藏。在 at.js 0.9.2 中，Target 會在選取器符合時便加以取消隱藏。
 
@@ -416,7 +416,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
 * 為訪客 ID 服務提供 at.js 逾時，其與服務本身的逾時無關。
 * 更正 0.9.0 中影響了在一些頁面上使用 at.js 和在其他頁面上使用 mbox.js 實施的問題。
-* 如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。mbox.js 或 at.js 資料庫會自動傳送追蹤伺服器值至 [!DNL Target]。在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
+* 如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。at.js程式庫會自動傳送追蹤伺服器值至[!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
 ## at.js 版本 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -434,7 +434,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
    * 必須更新現有的擴充功能 (例如 AngularJS 擴充功能)，才能使用 `registerExtension()` 方法。
 
-* 新增at.js通知API。
+* 新at.js通知API。
 
    此通知系統的目標是要對 [!DNL at.js] 正在頁面上執行的動作以及發生問題時提供更多深入分析。VEC 的常見問題是 IT 發行變更了頁面、VEC 選擇器中斷，以及測試停止正確傳送內容。此通知系統的一個目標是要讓頁面知道此傳送的問題，讓開發人員可以存取此資訊，將資訊傳遞至 [!DNL Adobe Analytics] 之類的系統，並且可將警示傳送至業務擁有者，通知其測試中斷的訊息。
 
@@ -451,10 +451,6 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 [!DNL at.js] 是新的 [!DNL Target] 實施程式庫，專為典型 Web 實施和單頁應用程式而設計。
 
 針對 [!DNL Adobe Target] 實作以 [!DNL at.js] 取代 [!DNL mbox.js]。
-
->[!NOTE]
->
->雖然 [!DNL at.js] 已取代 [!DNL mbox.js]，但我們將持續支援 mbox.js。對於大多數人來說，[!DNL at.js] 的優點多於 [!DNL mbox.js]。因為您有時間可以測試 [!DNL at.js]，也能變更頁面上的實作。
 
 除了眾多優點以外，[!DNL at.js] 還能改進 Web 實施的頁面載入時間、改進安全性，以及為單頁應用程式提供更好的實施選項。
 
