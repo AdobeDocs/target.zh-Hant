@@ -4,10 +4,10 @@ description: 了解如何針對特定條件下，Adobe [!DNL Target] 可視化�
 title: 如何疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題？
 feature: 可視化體驗撰寫器 (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe已將更新的VEC Helper擴充功能提交至Google Chrome商店。 此擴
 
 ## [!DNL Target]是否支援多級iframe?
 
-Target 不支援多重層級 iframe。如果網站載入具有子項 iframe 的 iframe，Target 資料庫 (at.js and mbox.js) 只會與父項 iframe 互動。Target 資料庫不會與子項 iframe 互動。
+[!DNL Target] 不支援多重層級 iframe。如果您的網站載入的iframe具有子項iframe,at.js只會與父項iframe互動。 [!DNL Target] 資料庫不會與子項 iframe 互動。
 
 作為因應措施，您可以使用子項 iframe 的 URL 在體驗中新增頁面。
 
