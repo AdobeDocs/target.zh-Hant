@@ -1,28 +1,27 @@
 ---
-keywords: 定位；視覺體驗撰寫器；vec；疑難排解視覺體驗撰寫器；疑難排解；tls;tls 1.2
-description: 瞭解如何在特定條件下疑難排解Adobe [!DNL Target] Visual Experience Composer(VEC)中有時發生的問題。
-title: 如何疑難排解與Visual Experience Composer相關的問題？
+keywords: 鎖定目標；可視化體驗撰寫器； VEC；疑難排解可視化體驗撰寫器；疑難排解； TLS; TLS 1.2
+description: 了解如何針對特定條件下Adobe [!DNL Target] 可視化體驗撰寫器(VEC)中有時發生的問題進行疑難排解。
+title: 如何疑難排解可視化體驗撰寫器的相關問題？
 feature: 可視化體驗撰寫器 (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# 疑難排解與Visual Experience Composer相關的問題
+# 疑難排解可視化體驗撰寫器的相關問題
 
-在某些情況下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中有時會發生顯示問題。
+顯示在某些情況下，有時會發生在[!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器](VEC)中的問題。
 
-## 當我在Visual Experience Composer中開啟我的網站時，不會載入[!DNL Target]程式庫。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 當我在可視化體驗撰寫器中開啟我的網站時，[!DNL Target]程式庫不會載入。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可視化體驗撰寫器中開啟網站時，Target 會新增兩個參數 (`mboxEdit=1` 和 `mboxDisable=1`)。
 
 如果您的網站 (特別是單頁應用程式) 在從一個頁面導覽至另一個頁面時 (而沒有重新載入頁面)，修剪我們的參數或實際上將參數移除，Target 功能會中斷，並且 Target 資料庫不會載入。若要避免此問題，請確保您不會修剪或移除這兩個參數。
 
-## 我的頁面不會在 EEC 中開啟，或載入緩慢。活動或體驗在 VEC 中載入緩慢。(僅限 VEC)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 我的頁面不會在 EEC 中開啟，或載入緩慢。活動或體驗在 VEC 中載入緩慢。(僅限 VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 有數個問題可能會影響 Target 體驗撰寫器中的頁面效能。一些常見問題包括:
 
@@ -32,7 +31,7 @@ ht-degree: 87%
 
 如果問題是在增強體驗撰寫器中發生，請嘗試關閉增強體驗撰寫器，並改為使用可視化體驗撰寫器。
 
-若要停用Enhanced Experience Composer，請至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**&#x200B;並關閉&#x200B;**[!UICONTROL Enable Enhanced Experience Composer]**&#x200B;選項。
+若要停用增強體驗撰寫器，請前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL 可視化體驗撰寫器]**&#x200B;並關閉&#x200B;**[!UICONTROL 啟用增強體驗撰寫器]**&#x200B;選項。
 
 有些使用者在主控台中看見下列錯誤訊息:
 
@@ -108,7 +107,7 @@ ht-degree: 87%
 
 設定擴充功能之後，開啟 Target。您的頁面現在應該會在可視化體驗撰寫器中載入，即便已停用增強體驗撰寫器。
 
-## 我的頁面未在 VEC 中顯示 (僅限 VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## 我的頁面未在 VEC 中顯示 (僅限 VEC) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * 瀏覽器不受支援。
 * 瀏覽器正在封鎖安全網站上不安全的頁面。
@@ -117,8 +116,8 @@ ht-degree: 87%
 * 您輸入了無效的 URL。
 * 您尚未在您的帳戶設定頁面中輸入預設 URL。
 
-請確保此設定已啟用，然後在您的網站上下載和更新 mbox.js。
+確認已啟用此設定，然後在您的網站上下載和更新at.js。
 
-## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 使用瀏覽模式時，如果您存取的 URL 沒有 target.js 或包含 frame-buster 標頭，可視化體驗撰寫器似乎損毀。由於瀏覽器的安全性考量，Target 無法存取您所導覽的 URL。
