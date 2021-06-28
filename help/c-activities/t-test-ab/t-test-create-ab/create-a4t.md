@@ -1,22 +1,21 @@
 ---
-keywords: 定位；analytics；追蹤伺服器；定位分析；a4t
-description: 瞭解如何在Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T)中配置活動。
+keywords: 鎖定目標；Analytics；追蹤伺服器；Analytics for Target;a4t
+description: 了解如何在Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T)中設定活動。
 title: 如何在Target中使用Analytics資料？
-feature: 目標分析 (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 88%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
 # 使用 Analytics 資料
 
-您可以設定[!DNL Adobe Target]中的活動，使用[!DNL Adobe Analytics]做為報告來源(A4T)。
+您可以在[!DNL Adobe Target]中設定活動以使用[!DNL Adobe Analytics]作為報表來源(A4T)。
 
-如需將Analytics設定為Target資料來源的詳細資訊，請參閱[Adobe Analytics作為Adobe Target的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+如需將Analytics設為Target資料來源的詳細資訊，請參閱[Adobe Analytics作為Adobe Target的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
 
 設定使用 Analytics 做為報表來源的活動之前，請建立活動的目標，例如改善每位訪客帶來的收入 (RPV) 或增加購物車的點擊次數。選擇促銷活動的最終成功量度。儘管您隨時可以在 Analytics 中選取其他的量度，您仍必須指定預期此測試產生作用的特定量度。
 
@@ -30,7 +29,7 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 >[!NOTE]
 >
->如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。mbox.js 或 at.js 資料庫會自動傳送追蹤伺服器值至 [!DNL Target]。在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
+>如果您使用Adobe Analytics作為活動的報表來源，若您使用的是at.js版本0.9.1（或更新版本），則不需要在活動建立期間指定追蹤伺服器。 at.js程式庫會自動傳送追蹤伺服器值至[!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
 在設定 Analytics 作為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。在 Target 活動報表可以取得 Analytics 區段。
 
