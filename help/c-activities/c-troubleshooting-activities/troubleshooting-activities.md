@@ -1,14 +1,13 @@
 ---
-keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 出現上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪設定檔指令碼; ajax 無法使用
-description: 尋找疑難排解建議，以便您的Adobe [!DNL Target] 活動未出現在您的網站上。
+keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 顯示上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪設定檔指令碼; ajax 無法使用
+description: 如果您的 Adobe [!DNL Target] 活動未出現在網站上，請尋找疑難排解建議。
 title: 如何疑難排解活動？
 feature: 活動
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 93%
+source-wordcount: '780'
+ht-degree: 100%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->除了下列疑難排解資訊，請參閱[疑難排解 Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 中提供的連結，取得其他疑難排解主題、常見問題集和疑難排解活動與其他 [!DNL Adobe Target] 功能的其他實用資訊。
+>除了下列疑難排解資訊，請參閱[疑難排解 Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 中提供的連結，取得其他疑難排解主題、常見問答和疑難排解活動與其他 [!DNL Adobe Target] 功能的其他實用資訊。
 
 以下各節包含您可能會遇到的問題，並提供建議的解決方案。
 
-## 我使用[!DNL Target] UI建立活動，但無法透過API更新。
+## 我使用 [!DNL Target] UI 建立了一個活動，但無法透過 API 更新它。
 
 使用 Target UI 建立的活動應透過 Target UI 更新。透過 API 建立的活動應透過 API 更新。例如，如果您最初使用 API 建立活動，但稍後透過 Target UI 編輯活動，則不會所有變更都更新。所有變更都儲存在後端，並可進行其他 API 呼叫來更新。
 
@@ -69,7 +68,7 @@ ht-degree: 93%
 * 嘗試不同瀏覽器。
 * 使用私人/無痕模式。
 
-## 您最近已新增至[!DNL Target]，但無法建立活動。
+## 您最近已加入 [!DNL Target] 但無法建立活動。
 
 **驗證:**&#x200B;按一下「建立活動」。如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
 
@@ -105,15 +104,6 @@ ht-degree: 93%
 
 如需關於頁面修改如何影響 Target 顯示功能的資訊，請參閱[頁面修改案例](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
-## mbox.js 會將 head 中所有後續的程式碼丟入 body 中。
-
-**驗證:** 檢視原始碼，查明在 mbox.js 檔案後面到結尾`</body>`標記之前是否有宣告。
-
-**選項:**
-
-* 將 mbox.js 放在頁面的 `<head>` 區段內當作最後一項。
-* 在內文內的最高層級元素上使用不重複的 div ID。
-
 ## 其他活動正在相同頁面上執行。
 
 **驗證:** 使用「衝突」標籤查看其他活動是否正在執行。
@@ -141,6 +131,6 @@ ht-degree: 93%
 
 **注意:**[!DNL Target] 具有相同 名稱但不同參數的多個 ajax 呼叫將無法在相同頁面上運作。僅會發出第一次呼叫。
 
-## 您使用[!DNL Target] API啟動活動，但活動在[!DNL Target] UI中顯示[!UICONTROL Inactive]的狀態。
+## 您已使用 [!DNL Target] API 來啟動活動，但活動在 [!DNL Target] UI 中顯示「[!UICONTROL 非使用中]」狀態。
 
-執行特定動作時 (例如在 UI 外部使用 Target API 來啟動活動)，更新最多可能需要 10 分鐘才會傳播至 UI。
+當您執行特定動作時 (例如在 UI 外部使用 Target API 來啟動活動)，更新作業最多可能需要 10 分鐘才會傳播至 UI。
