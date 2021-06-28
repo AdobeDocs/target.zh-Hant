@@ -1,12 +1,12 @@
 ---
-keywords: document;write；目標；實作；實作目標；dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: 在您的網頁上實作Adobe [!DNL Target] by referencing the [!DNL Target] 程式庫（at.js或mbox.js）。
+keywords: document;write；目標；實作；實作目標；dtm;at.js;adobe experience platform web skd;aep web sdk;web sdk
+description: 在您的網頁上實作Adobe [!DNL Target] by referencing the [!DNL Target] JavaScript程式庫。
 title: 瞭解  [!DNL Target] JavaScript 資料庫
 feature: 實施
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 24%
+source-wordcount: '436'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->將不再開發 mbox.js 資料庫。所有客戶必須在2021年3月31日之前從mbox.js移轉至at.js或[!UICONTROL Adobe Experience Platform Web SDK]。
+>將不再開發 mbox.js 資料庫。所有客戶必須在2021年3月31日之前移轉至at.js或[!UICONTROL Adobe Experience Platform Web SDK]。
 
 ## [!DNL Target] JavaScript程式庫之間的差異 {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
@@ -26,7 +26,7 @@ ht-degree: 24%
 | 程式庫參考 | 說明 |
 |--- |--- |
 | Adobe Experience Platform Web SDK | [!UICONTROL Adobe Experience Platform Web SDK]可讓您透過Adobe Experience Edge Network與[!DNL Experience Cloud]（包括[!DNL Target]）中的各種服務互動。 如果您選擇移轉至[!DNL Adobe Experience Platform Web SDK]，請參閱&#x200B;*Web SDK指南*&#x200B;中的[什麼是Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 |
-| at.js | at.js取代了[!DNL [!DNL Target]]實作的mbox.js。<br>除了眾多優點以外，at.js 還能改進 Web 實施的頁面載入時間、改進安全性、避免 Google Chrome 中的 document.write 警告，以及為單頁應用程式提供更好的實施選項。 |
+| at.js | at.js改善Web實作的頁面載入時間、改進安全性、避免Google Chrome中的document.write警告，以及為單頁應用程式提供更好的實作選項。 |
 
 ## at.js對頁面載入時間的影響 {#section_16630CD0FF0A498EB596A51381366A5A}
 
