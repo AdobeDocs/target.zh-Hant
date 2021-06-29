@@ -5,10 +5,10 @@ title: 如何從at.js 1.x版升級至2.x版？
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 92%
+source-wordcount: '2761'
+ht-degree: 91%
 
 ---
 
@@ -217,7 +217,7 @@ at.js 2.*x* 已棄用多個函數。
 
 客戶若沒有將 `mboxCreate()` 取代為 `getOffer()` 或 `applyOffer()`，選件可能不會傳送。
 
-### at.js 2.*x* 是否能在某些頁面上使用，並在其他頁面上使用 at.js 1.*x* 或 mbox.js?
+### at.js 2.*x* 是否能在某些頁面上使用，並在其他頁面上使用 at.js 1.** xis?
 
 可以，使用不同版本和資料庫的頁面中會保留訪客設定檔。Cookie 格式相同。
 
@@ -248,7 +248,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### at.js 中的全域 mbox 名稱仍重要嗎?
 
-客戶可以透過[!UICONTROL Target >管理>實作>編輯at.js設定]指定全域mbox名稱。 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。強烈建議您也確認已在[!UICONTROL 管理>可視化體驗撰寫器]頁面上設定相同的全域mbox名稱，以備您仍有頁面使用at.js 1.*X* 或 mbox.js)，如下圖所示。
+客戶可以透過[!UICONTROL Target >管理>實作>編輯at.js設定]指定全域mbox名稱。 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。強烈建議您也確認已在[!UICONTROL 管理>可視化體驗撰寫器]頁面上設定相同的全域mbox名稱，以備您仍有頁面使用at.js 1.*x*，如下圖所示。
 
 ![修改 at.js 對話方塊](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -276,7 +276,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 | 自動建立全域 mbox | 是 |
 | 全域 mbox 名稱 | 是 |
 
-### at.js 2.x 中的跨網域追蹤支援{#cross-domain}
+### at.js 2.x 中的跨網域追蹤支援 {#cross-domain}
 
 跨網域追蹤能夠拼接不同網域之間的訪客。由於必須為各個網域建立新 Cookie，因此在訪客從某個網域導覽至另一個網域時，就很難加以追蹤。為實現跨網域追蹤，[!DNL Target] 使用協力廠商 Cookie 來追蹤網域之間的訪客。這可讓您建立橫跨 `siteA.com` 和 `siteB.com` 的 Target 活動，而且當訪客在各個唯一網域導覽時，訪客會維持相同的體驗。此功能與 Target 的第三方和第一方 Cookie 行為整合。
 
@@ -396,7 +396,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 at.js 2.*x*，就像 at.js 1.*x*，使用自訂事件 `at-request-succeeded` 來呈現回應 Token。如需使用 `at-request-succeeded` 自訂事件的程式碼範例，請參閱[回應 Token](/help/administrating-target/response-tokens.md)。
 
-## at.js 1.** xparameters轉換為at.js 2.*x* 的裝載對應{#payload-mapping}
+## at.js 1.** xparameters轉換為at.js 2.*x* 的裝載對應 {#payload-mapping}
 
 本節概述 at.js 1.*x* 與 at.js 2.*x* 之間的對應。
 
