@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] QA URL來執行簡易的端�
 title: 如何QA活動？
 feature: 活動
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 37%
+source-wordcount: '1760'
+ht-degree: 36%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 37%
 
 * [!UICONTROL Target QA模式] UI只會顯示多頁活動中體驗的第一個URL。 假設您正在建立歷程測試，且從URL1移至URL2。 不過，若要單獨前往 URL2，請複製根據 URL1 提供的所有 URL 參數，並在放置 &quot;?&quot; 後將其套用至 URL2，  就像您在 URL1 中看到的一樣。
 
-## Target JavaScript程式庫[!UICONTROL QA模式]相容性
+## Target JavaScript程式庫[!UICONTROL QA模式]相容性 {#compatibility}
 
 [!DNL Target] 支援下列JavaScript程式庫：
 
@@ -128,18 +128,13 @@ ht-degree: 37%
 
 下表列出各種活動類型，並指出每個程式庫或API是否支援預覽URL功能：
 
-| 活動類型 | at.js 1.x | at.js 2.x | 平台Web SDK | 傳送 API | 管理 API |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL A/B 測試] | 是 | 是 | 是 | 不適用 | 是 |
-| [!UICONTROL 自動分配] | 是 | 是 | 是 | 不適用 | 是 |
-| [!UICONTROL 自動鎖定目標] | 是 | 是 | 是 | 不適用 | 是 |
-| [!UICONTROL Automated Personalization] （美聯社） | 是 | 是 | 否 | 不適用 | 是 |
-| [!UICONTROL 體驗鎖定] (XT) | 是 | 是 | 是 | 不適用 | 是 |
-| [!UICONTROL 多變數測試] (MVT) | 是 | 是 | 是 | 不適用 | 是 |
-| [!UICONTROL Recommendations] | 是 | 是 | 是 | 不適用 | 是 |
-
-
-
-
-
+| 活動類型 | at.js 1.x | at.js 2.x | 平台Web SDK |
+| --- | --- | --- | --- |
+| [!UICONTROL A/B 測試] | 是 | 是 | 是 |
+| [!UICONTROL 自動分配] | 是 | 是 | 是 |
+| [!UICONTROL 自動鎖定目標] | 是 | 是 | 是 |
+| [!UICONTROL Automated Personalization] （美聯社） | 是 | 是 | 是 |
+| [!UICONTROL 體驗鎖定] (XT) | 是 | 是 | 是 |
+| [!UICONTROL 多變數測試] (MVT) | 是 | 是 | 是 |
+| [!UICONTROL Recommendations] | 是 | 是 | 是 |
 
