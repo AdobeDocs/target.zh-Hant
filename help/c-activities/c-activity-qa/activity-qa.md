@@ -1,13 +1,13 @@
 ---
-keywords: qa;qa模式；活動qa;qa url;qa url
+keywords: qa;qa模式；活動qa;qa url;qa url；預覽url；預覽url
 description: 了解如何使用Adobe [!DNL Target] QA URL來執行簡易的端對端活動QA，同時具有永不變更的預覽連結、可選對象鎖定目標，以及與即時活動資料保持分段的QA報表。
 title: 如何QA活動？
 feature: 活動
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 38%
+source-wordcount: '1785'
+ht-degree: 37%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 38%
 
 * [!UICONTROL Target QA模式] UI只會顯示多頁活動中體驗的第一個URL。 假設您正在建立歷程測試，且從URL1移至URL2。 不過，若要單獨前往 URL2，請複製根據 URL1 提供的所有 URL 參數，並在放置 &quot;?&quot; 後將其套用至 URL2，  就像您在 URL1 中看到的一樣。
 
-## Target JavaScript程式庫相容性
+## Target JavaScript程式庫[!UICONTROL QA模式]相容性
 
 [!DNL Target] 支援下列JavaScript程式庫：
 
@@ -113,6 +113,32 @@ ht-degree: 38%
 | [!UICONTROL 體驗鎖定] (XT) | 是 | 是 | 是 |
 | [!UICONTROL 多變數測試] (MVT) | 是 | 是 | 是 |
 | [!UICONTROL Recommendations] | 是 | 是 | 是 |
+
+## 預覽URL {#preview}
+
+可針對所有[!DNL Target]活動類型產生體驗預覽URL。 預覽URL可讓您在活動上線之前，直接在網站上查看體驗內容，以供預覽和QA之用。 體驗預覽URL會略過鎖定目標以強制檢視特定體驗。
+
+如需預覽URL如何搭配[!UICONTROL Automated Personalization](AP)活動運作的詳細資訊，請參閱[使用體驗預覽URL預覽Automated Personalization活動](/help/c-activities/t-automated-personalization/experience-preview.md)。
+
+若要存取和共用預覽URL，請從活動的&#x200B;**[!UICONTROL 概述]**&#x200B;頁面，按一下&#x200B;**[!UICONTROL 活動QA]**&#x200B;連結。
+
+>[!NOTE]
+>
+>[!UICONTROL 活動QA]連結和預覽URL對於[!DNL Target] AP活動以外的所有活動都相同。
+
+下表列出各種活動類型，並指出每個程式庫或API是否支援預覽URL功能：
+
+| 活動類型 | at.js 1.x | at.js 2.x | 平台Web SDK | 傳送 API | 管理 API |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL A/B 測試] | 是 | 是 | 是 | 不適用 | 是 |
+| [!UICONTROL 自動分配] | 是 | 是 | 是 | 不適用 | 是 |
+| [!UICONTROL 自動鎖定目標] | 是 | 是 | 是 | 不適用 | 是 |
+| [!UICONTROL Automated Personalization] （美聯社） | 是 | 是 | 否 | 不適用 | 是 |
+| [!UICONTROL 體驗鎖定] (XT) | 是 | 是 | 是 | 不適用 | 是 |
+| [!UICONTROL 多變數測試] (MVT) | 是 | 是 | 是 | 不適用 | 是 |
+| [!UICONTROL Recommendations] | 是 | 是 | 是 | 不適用 | 是 |
+
+
 
 
 
