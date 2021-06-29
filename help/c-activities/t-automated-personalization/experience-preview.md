@@ -4,44 +4,50 @@ description: 了解如何使用Adobe [!DNL Target] Automated Personalization活�
 title: 如何在Automated Personalization活動中使用體驗預覽URL?
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 568760262622b1097dca9384ed9d1360cfadfb6f
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 67%
+source-wordcount: '722'
+ht-degree: 50%
 
 ---
 
 # ![](/help/assets/premium.png) PREMIUMP使用體驗預覽URL檢閱Automated Personalization活動
 
-可為Target Automated Personalization活動產生體驗預覽URL，以便在活動上線以供預覽和QA之前，直接在您的網站上查看體驗內容。 體驗預覽URL會略過鎖定目標以強制檢視特定體驗。
+可為[!DNL Target] [!UICONTROL Automated Personalization]活動產生體驗預覽URL，以便在活動上線以供預覽和QA之前，直接在您的網站上查看體驗內容。 體驗預覽URL會略過鎖定目標以強制檢視特定體驗。
 
 >[!NOTE]
 >
->Automated Personalization的體驗預覽URL與活動QA模式不同。 活動 QA 模式可讓您為其他類型的活動建立活動 URL。如需詳細資訊，請參閱[活動 QA](/help/c-activities/c-activity-qa/activity-qa.md)。
+>您可以為其他類型的[!DNL Target]活動建立體驗預覽URL。 不過，程式稍有不同。 如需詳細資訊，請參閱[活動 QA](/help/c-activities/c-activity-qa/activity-qa.md#preview).
 
 使用體驗預覽URL來與團隊成員共用體驗，以及跨瀏覽器和環境執行QA體驗，而不需要建立個別的QA活動。 如果網站很複雜，或如果您的安全性原則不允許在模擬器中檢視網站，此功能特別有用。
 
 1. 建立[自動個人化活動](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)或按一下活動以開啟。
 
    活動不需要上線即可預覽體驗。
-1. 在活動摘要頁面上，按一下垂直三點圖示，然後按一下 **[!UICONTROL 「檢視體驗 URL」]**。
+
+1. 在活動概覽頁面上，按一下三個垂直點，然後按一下&#x200B;**[!UICONTROL 檢視體驗URL]**。
+
 1. 檢閱和/或指定您的 URL。
 
-   * 如果您使用可視化體驗撰寫器，則會自動輸入您為活動指定的預設的 URL，並且為您的活動中的每個體驗產生連結。您可以變更此 URL 和新增其他 URL (如需要)。
-   * 如果您使用表單式體驗撰寫器，則不會自動輸入預設的 URL。如果您先前未建立體驗預覽URL，請按一下「**新增URL**」。 您必須指定您要預覽的所有 URL 以及每個 URL 的名稱。
+   * 如果您使用[!UICONTROL 可視化體驗撰寫器](VEC)，系統會自動輸入您為活動指定的預設URL，並為您活動中的每個體驗產生連結。 您可以變更此 URL 和新增其他 URL (如需要)。
+   * 如果您使用[!UICONTROL 表單式體驗撰寫器]，則不會自動輸入預設URL。 如果您先前未建立體驗預覽URL，請按一下「**新增URL**」。 您必須指定您要預覽的所有 URL 以及每個 URL 的名稱。
 
    您可以新增多個 URL，當您執行多頁測試或範本測試，且要在一個以上的頁面上預覽活動時相當實用。
 
-   互動視窗會顯示您的網站上體驗的連結，以獲得在 Target 的可視化體驗撰寫器外部的體驗「真正預覽」。您必須分享來自訊息的連結以分享預覽。按一下連結，然後從頁面複製產生的 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。請改為複製強制回應視窗中的文字，並透過電子郵件傳送給您的團隊。
+   強制回應視窗會顯示您網站上的體驗連結，以取得[!DNL Target] VEC外部體驗的「真正預覽」。 您必須分享來自訊息的連結以分享預覽。按一下連結，然後從頁面複製產生的 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。請改為複製強制回應視窗中的文字，並透過電子郵件傳送給您的團隊。
+
 1. 按一下&#x200B;**[!UICONTROL 「全部產生」]**，然後按一下每個體驗來預覽。
 
    如果您接著變更體驗，請務必返回強制回應視窗，按一下&#x200B;**續訂連結**&#x200B;以取得新連結，以產生新的團隊預覽連結。
 
-   **注意:** 預覽連結會在新標籤中開啟，並且需要停用您的瀏覽器中的快顯封鎖程式。
+   >[!NOTE]
+   >
+   >預覽連結在新索引標籤中開啟，並要求您瀏覽器上的快顯封鎖程式已停用。
 
 1. 按一下每個體驗名稱以預覽活動。
 
    頁面隨即開啟並顯示活動。
+
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**&#x200B;以回到活動摘要。
 
 ## 考量事項 {#example_9F2B333BC63143FF99AE331F57E8BA4C}
@@ -51,21 +57,20 @@ ht-degree: 67%
 * 體驗預覽URL不受體驗之間流量分割的影響。
 * 對象層級的鎖定目標不會影響預覽。
 * 針對每個活動，您可以自動產生最多 300 個體驗 URL。在那之後，您必須手動產生 URL。
-* 針對每個活動，您可以自動產生最多 300 個體驗 URL。在那之後，您必須手動產生 URL。
-* 根據體驗的數量，可能需要最多五分鐘才能產生 URL。請勿關閉對話方塊，否則將會失去產生的 URL。
+* 根據體驗的數量，可能需要最多五分鐘才能產生 URL。請勿關閉對話方塊，否則產生的URL會遺失。
 * 產生的預覽連結的有效期為兩個月。在此時間之後，您必須重新產生您的預覽 URL。
 * 每當體驗變更時，您必須重新產生。
 
 **共用體驗預覽URL**
 
 * 即便您不屬於鎖定的對象，您也可以預覽體驗。
-* 您可以與無法存取Adobe Target的同事共用體驗預覽URL。
+* 您可以與無權存取[!DNL Adobe Target]的同事共用體驗預覽URL。
 
 **使用體驗預覽URL檢視體驗**
 
 * 只要頁面未變更，預覽皆能用於任何已儲存的活動。
 * 無論活動是使用中或非使用中，體驗預覽URL都可供使用。
-* 您無法預覽處於草稿狀態的體驗。
+* 您無法預覽處於[!UICONTROL 草稿]狀態的體驗。
 * 檢視體驗預覽URL不會影響報表。
 
 **疑難排解體驗預覽URL**
