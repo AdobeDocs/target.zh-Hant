@@ -4,9 +4,9 @@ description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問
 title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
+source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3129'
 ht-degree: 93%
 
 ---
@@ -245,21 +245,17 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 [!DNL Recommendations Premium]不支援在[!DNL Recommendations Classic]中建立的算法。 您可能可以在[!DNL Target Premium]中使用舊版演算法；不過，演算法在[!DNL Target Premium] UI中停用或刪除活動時，會建立同步問題。 如需關於這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活動。
 
-## 如何建議不超過60天的文章？ {#less-than-60}
+## 如何只建議新文章或影片？ {#recommend-new-articles}
 
-例如，[!DNL Target]客戶使用下列方法來建議存留不到60天的文章。
+媒體與發佈的某些客戶可能希望確保建議的項目僅包含最新文章或影片。 例如，[!DNL Target]客戶使用下列方法來建議年齡小於60天的文章：
 
-此客戶不使用資料摘要。 收集的所有文章相關資料都來自資料層，並會在頁面檢視時傳遞至[!DNL Target]。
+1. 以自訂實體屬性的形式，以YYMMDDD格式傳遞文章發佈日期。
+1. 建立當天減去60天的設定檔指令碼，並以YYYYMMDD格式顯示。
+1. 在條件中使用動態包含篩選器，以便`publish date > today’s date minus 60 days`。
 
-此客戶使用下列方法：
+### 以自訂實體屬性傳遞發佈日期：
 
-* 以YYYYMMDD格式以實體參數傳遞發佈日期。
-* 建立當天減去60天的設定檔指令碼，並以YYYYMMDD格式顯示。
-* 在條件中使用動態包含篩選器，以便`publish date > today’s date minus 60 days`。
-
-此客戶擷取了下列資料欄位：
-
-| 資料欄位 | 範例 |
+| 實體屬性 | 範例 |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -267,16 +263,14 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 | publishDate | 20210113 |
 | publishDateDisplay | 2021年1月13日 |
 
-此客戶使用設定檔屬性比對來使用下列包含規則：
-
-![包含規則範例](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-此客戶使用下列設定檔指令碼：
+### 設定設定檔指令碼：
 
 ![設定檔指令碼範例](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### 設定包含規則：
+
+![包含規則範例](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->此範例也可透過參數比對和傳遞`priorDate60`值作為mbox參數來完成。
-
-
+>此範例也可透過參數比對來完成，並將`priorDate60`值作為mbox參數傳遞。
