@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: 發行說明
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '31047'
+source-wordcount: '31019'
 ht-degree: 99%
 
 ---
@@ -93,7 +93,6 @@ ht-degree: 99%
 * 修正造成 [!UICONTROL Recommendations] 集合中顯示錯誤產品計數的問題。(TGT-39162)
 * 新增[!UICONTROL 上次更新]篩選器至 [!UICONTROL Recommendations] [!UICONTROL 目錄搜尋]。(TGT-38340)
 * 修正 [!UICONTROL Recommendations] 中，在變更產業垂直後造成的[!UICONTROL 建立序列]頁面擱置問題。 (TGT-38160)
-* 修正啟用 Device Co-op 且使用者從 [!DNL Target] 為報告來源變更為以 [!DNL Analytics] (A4T) 為報告來源時，無法儲存活動的問題。(TGT-38163)
 * 修正造成使用者無法從 [!UICONTROL Automated Personalization] (AP) 活動的選件移除對象的問題。(TGT-39058)
 * 修正造成部分客戶的「[!UICONTROL 對象資訊]」卡顯示錯誤時段 (開始和結束日期) 的問題。(TGT-39150)
 * 修正使某些客戶無法在[!UICONTROL 預設工作區]中看到活動清單的問題。(TGT-38526)
@@ -514,7 +513,7 @@ Target 1.0.1 版本已修正下列問題：
 | ![Premium 徽章](/help/assets/premium.png) Recommendations | 建立「最近查看的項目」邏輯時，您可以使用「先前建議購買的項目」切換按鈕。(TGT-34030)<br>如需詳細資訊，請參閱「建立條件」中的[最近查看的項目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
 | Google Chrome SameSite Cookie 原則 | Google 最近宣佈自 Chrome 76 起 (該版本預定在 2019 年 7 月 30 日發行)，開發人員必須明確指定哪些 Cookie 可以跨多個網站運作，以及哪些 Cookie 可以追蹤使用者。<br>在產業大幅演進並為消費者打造更安全 Web 環境的同時，Target 全心致力於提供個人化體驗，同時符合並超越訪客對於隱私權的期望。請參閱 <br>[Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
 
-### at.js version 2.1.0 (2019 年 6 月 3 日)  {#atjs-210}
+### at.js version 2.1.0 (2019 年 6 月 3 日) {#atjs-210}
 
 我們很高興宣佈在 at.js 2.1.0 中推出下列令人期待的功能:
 
