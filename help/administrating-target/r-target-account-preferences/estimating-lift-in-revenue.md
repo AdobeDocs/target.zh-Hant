@@ -1,12 +1,11 @@
 ---
 keywords: 收入提升度; 收入; 預估收入提升度; 計算提升度; 估計值
-description: 估計每位訪客如果看到成功體驗、趨勢在測試期間仍如常，您可能達到的提升度。
-title: 我估計收入的提升度為何？
+description: 如果趨勢在測試期間如常持續，則預估每位訪客都看到成功體驗時您可能獲得的提升度。
+title: 預估收入成長的條件為何？
 feature: 管理與設定
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 88%
@@ -15,11 +14,11 @@ ht-degree: 88%
 
 # 預估收入成長
 
-使用[!DNL Adobe Target]估計所有使用者檢視成功體驗時您可獲得的收入提升。
+如果所有使用者都了解成功的體驗，請使用[!DNL Adobe Target]來預估您將獲得的收入增益。
 
 >[!NOTE]
 >
->目前，「體驗定位」活動無法使用預估的提升度。
+>預估提升度目前無法用於[!UICONTROL 體驗鎖定目標](XT)活動。
 
 依預設會關閉預估提升度功能。可在您的帳戶偏好設定中啟用。只有 Experience Cloud 管理員使用者可以啟用或停用此功能。如果已停用預估的提升度，則介面中不會出現對應的欄位。停用功能不會造成資料遺失，包括用於預估的資料。預估是根據收集的資料，而無論功能是否已啟用。
 
