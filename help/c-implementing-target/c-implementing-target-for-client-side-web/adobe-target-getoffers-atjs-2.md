@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;函數;函數
-description: 使用adobe.target.getOffers()函式及其Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 選件的選項。 (at.js 2.x)
+description: 對Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 選件使用adobe.target.getOffers()函式及其選項。 (at.js 2.x)
 title: 如何使用adobe.target.getOffers()函式？
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,16 +22,16 @@ ht-degree: 90%
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| consumerId | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於 A4T 整合的補充資料 ID。此索引鍵是每個訪客的唯一字串。 |
-| 決策方法 | 字串 | 無 | 「伺服器端」、「裝置上」、「混合」 |
-| 請求 | 物件 | 是 | 請參閱下方的「要求」表格。 |
-| timeout | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
+| `consumerId` | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於A4T整合的補充資料ID(SDID)。 此索引鍵是每個訪客的唯一字串。<br>使用時， `getOffers()`每個呼叫都會產生新的SDID。若您在相同頁面上有多個mbox要求，且想保留SDID(以便其符合target-global-mbox的SDID和Adobe Analytics SDID)，請使用`consumerId`參數。<br>如果 `getOffers()` 包含三個mbox（名為「mbox1」、「mbox2」和「mbox3」），則包括： `consumerId: "mbox1, mbox2, mbox3"` 在呼 `getOffers()` 叫中。 |
+| `decisioningMethod` | 字串 | 無 | &quot;server-side&quot;、&quot;on-device&quot;、&quot;hybrid&quot; |
+| `request` | 物件 | 是 | 請參閱下方的「要求」表格。 |
+| `timeout` | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
 
 ## 請求
 
 >[!NOTE]
 >
->如需下列所有欄位可接受類型的詳細資訊，請參閱[傳送API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>如需下列所有欄位可接受類型的相關資訊，請參閱[傳送API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 欄位名稱 | 必要? | 限制 | 說明 |
 | --- | --- | --- | --- |
@@ -75,7 +74,7 @@ ht-degree: 90%
 | request > execute > mboxes > mbox > order > total | 無 | `>=` 0 | 使用指定的訂單總金額為特定 mbox 擷取選件。 |
 | request > execute > mboxes > mbox > order > purchasedProductIds | 無 | 無空白值<br>每個值的長度上限 = 50<br>串連並以逗號分隔<br>產品 ID 總長度 `<=` 250 | 使用指定的已購產品 ID 為特定 mbox 擷取選件。 |
 
-## 針對所有檢視呼叫getOffers()
+## 呼叫所有檢視的getOffers()
 
 ```javascript
 adobe.target.getOffers({
@@ -87,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers()進行裝置上決策
+## getCallOffers()以進行裝置上的決策
 
 ```javascript
 adobe.target.getOffers({ 
@@ -106,7 +105,7 @@ adobe.target.getOffers({
 }); 
 ```
 
-## 呼叫getOffers()以擷取具有傳入參數和描述檔參數的最新檢視
+## 呼叫getOffers()以使用傳入的參數和設定檔參數擷取最新檢視
 
 ```javascript
 adobe.target.getOffers({
@@ -127,7 +126,7 @@ adobe.target.getOffers({
 });
 ```
 
-## 呼叫getOffers()以擷取含有參數和描述檔參數傳入的mbox。
+## 呼叫getOffers()以使用傳入的參數和設定檔參數擷取mbox。
 
 ```javascript
 adobe.target.getOffers({
@@ -206,9 +205,9 @@ adobe.target.getOffers({
 }
 ```
 
-然後，可通過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉發到Adobe Analytics。
+接著，裝載可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)轉送至Adobe Analytics。
 
-## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料 {#multiple}
+## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料  {#multiple}
 
 at.js 2.x 可讓您透過 `getOffers()` API 擷取多個 mbox。您也可以擷取多個 mbox 的資料，然後使用 `applyOffers()` 在 CSS 選取器所識別的不同位置中呈現資料。
 
@@ -289,7 +288,7 @@ adobe.target.getOffers({
 
 ## 呼叫getOffers()以執行pageLoad
 
-下列範例說明如何使用getOffers()搭配at.js 2執行pageLoad。*x*
+下列範例說明如何搭配at.js 2.*x*
 
 ```javascript
 adobe.target.getOffers({
