@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
+source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 77%
+source-wordcount: '1611'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 77%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 11 年 7 月 | Experience Cloud Device Co-op | 已移除主題。此功能已淘汰。 |
+| 12 年 7 月 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 新增下列事件的相關資訊：<ul><li>網路研討會：量化整合Adobe Analytics + [!DNL Adobe Target]的顯著ROI、洞察和節省時間。</li><li>[!DNL Adobe Target] 社區問答茶歇定於2021年7月21日星期三上午8時舉行(PDT, GMT-7)。</li></ul> |
+|  | Experience Cloud Device Co-op | 已移除主題。此功能已淘汰。 |
 | 6 月 29 日 | [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增下列資訊: <ul><li>Target JavaScript程式庫[!UICONTROL QA模式]相容性</li><li>預覽URL</li></ul> |
 | 6 月 24 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新[!DNL Target Standard/Premium] 21.6.1版的發行前說明（2021年6月30日）。 |
 | 6 月 16 日 | [[!DNL Target] 發行說明（最新）](/help/r-release-notes/release-notes.md) | 新增[!DNL Adobe Target] Python SDK 1.0.0版的相關資訊。 |
