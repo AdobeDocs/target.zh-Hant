@@ -1,46 +1,45 @@
 ---
-keywords: 疑難排解;常見問題;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
-description: 查看關於Adobe [!DNL Target] Recommendations活動的常見問題和解答清單。
-title: 我可以在哪裡找到關於 [!DNL Target] Recommendations的問題和答案？
+keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
+description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問答清單。
+title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-translation-type: tm+mt
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 58%
+ht-degree: 97%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations 常見問題
+# ![PREMIUM](/help/assets/premium.png) Recommendations 常見問答
 
-關於 [!DNL Adobe Target] [!DNL Recommendations] 活動的常見問題 (FAQ) 清單。
+關於 [!DNL Adobe Target] [!DNL Recommendations] 活動的常見問答 (FAQ) 清單。
 
-## 當我以數值搜尋自訂屬性時，[!UICONTROL 目錄搜尋]為何未顯示正確結果？
+## 為什麼當我搜尋包含某數值的自訂屬性時，[!UICONTROL 目錄搜尋]未顯示正確的結果？
 
-當您對具有數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
+當您針對包含某數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
 
 目前，沒有可讓客戶變更屬性類型的功能。若要變更，[開啟客戶問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，指出需要將類型從字串變更為數值的屬性。
 
-## 目錄中的項目更新要多久時間才會反映在網站上？
+## 我的目錄中的項目更新要多久的時間才會反映在我的網站上？
 
-時間範圍和結果會依項目的更新方式而有所不同。
+時間範圍和結果會因更新項目的方式而異。
 
 | 來源 | 詳細資料 |
 | --- | --- |
-| 透過mbox或API更新項目屬性 | <ul><li>Recommendations在15分鐘內更新。</li><li>現有建議和項目屬性會顯示，直到有更新可供使用為止。</li><li>目錄搜尋會在目錄索引後更新（3-8小時）。</li></ul> |
-| 透過動態消息更新項目屬性 | <ul><li>Recommendations在摘要後（2-8小時）更新。</li><li>現有建議和項目屬性會顯示，直到有更新可供使用為止。</li><li>「目錄搜尋」會在饋送收錄（2-8小時）和後續目錄索引（3-8小時）之後更新。 目錄搜尋總計在5-16小時內更新。</li></ul> |
-| 透過[!DNL Target] UI或API從目錄刪除的項目 | <ul><li>Recommendations在15分鐘內更新。</li><li>現有建議和項目屬性會顯示，直到有更新可供使用為止。</li><li>目錄搜尋會在目錄索引後更新（3-8小時）。</li></ul> |
-| 透過mbox或API新增至目錄的項目 | <ul><li>Recommendations在演算法執行後更新。 演算法執行是每12小時排程1-2天演算法，而7天以上演算法則每24小時排程一次。</li><li>現有建議會顯示，直到更新可供使用為止（如果新增的項目不是請求的金鑰）。</li><li>如果所新增的項目是請求的金鑰，則會顯示備份建議，直到更新可供使用為止。</li><li>目錄搜尋會在目錄索引後更新（3-8小時）。</li></ul> |
-| 透過動態消息新增至型錄的項目 | <ul><li>Recommendations在攝入飼料後（2-8小時）更新。 後續演算法會排程為每12小時執行1-2天演算法，而7天以上演算法則每24小時執行。 Recommendations在2-32小時內更新。</li><li>現有建議會顯示，直到更新可供使用為止（如果新增的項目不是請求的金鑰）。</li><li>如果所新增的項目是請求的金鑰，則會顯示備份建議，直到更新可供使用為止。</li><li>「目錄搜尋」會在饋送收錄（2-8小時）和目錄索引（3-8小時）後更新。 目錄搜尋總計在5-16小時內更新。</li></ul> |
+| 透過 mbox 或 API 更新項目屬性 | <ul><li>在 15 分鐘內更新建議。</li><li>在有更新可用之前會顯示現有的建議和項目屬性。</li><li>目錄搜尋會在目錄索引之後更新 (3-8 小時)。</li></ul> |
+| 透過摘要更新項目屬性 | <ul><li>建議會在摘要擷取之後更新 (2-8 小時)。</li><li>在有更新可用之前會顯示現有的建議和項目屬性。</li><li>目錄搜尋會在摘要擷取之後更新 (2-8 小時) 並在後續的目錄索引之後更新 (3-8 小時)。 一共會在 5-16 小時內更新目錄搜尋。</li></ul> |
+| 透過 [!DNL Target] UI 或 API 從目錄中刪除項目 | <ul><li>在 15 分鐘內更新建議。</li><li>在有更新可用之前會顯示現有的建議和項目屬性。</li><li>目錄搜尋會在目錄索引之後更新 (3-8 小時)。</li></ul> |
+| 透過 mbox 或 API 在目錄中新增項目 | <ul><li>建議會在執行演算法之後更新。 對於 1-2 天的演算法，每 12 小時安排一次演算法執行，對於 7 天以上的演算法，每 24 小時安排一次演算法執行。</li><li>如果新增的項目不是要求的索引鍵，在有更新可用之前會顯示現有的建議。</li><li>如果新增的項目是要求的索引鍵，在有更新可用之前會顯示備用建議。</li><li>目錄搜尋會在目錄索引之後更新 (3-8 小時)。</li></ul> |
+| 透過摘要在目錄中新增項目 | <ul><li>建議會在摘要擷取之後更新 (2-8 小時)。 對於 1-2 天的演算法，每 12 小時安排一次後續演算法執行，對於 7 天以上的演算法，每 24 小時安排一次演算法執行。 一共會在 2-32 小時內更新建議。</li><li>如果新增的項目不是要求的索引鍵，在有更新可用之前會顯示現有的建議。</li><li>如果新增的項目是要求的索引鍵，在有更新可用之前會顯示備用建議。</li><li>目錄搜尋會在摘要擷取之後更新 (2-8 小時) 並在目錄索引之後更新 (3-8 小時)。 一共會在 5-16 小時內更新目錄搜尋。</li></ul> |
 
-匯入動態消息檔案後，或透過API或mbox接收實體更新後，下列變更會反映在60分鐘內：
+匯入摘要檔案之後，或是透過 API 或 mbox 收到實體更新之後，將會在 60 分鐘以內反映下列變更：
 
-* 如果先前已排除某個項目，但現在應該包含在內，該項目將包含在下次演算法執行中（12-24小時）。
+* 如果某個項目之前已排除但現在應該納入，該項目將會納入下一次演算法執行 (12-24 小時)。
 
-   發生此情況是因為[!DNL Target]同時套用線上和離線排除。 新排除項目時，線上排除會快速套用。 新加入項目時，線上排除會很快消失，但離線排除會在下次演算法執行之前消失。
+   發生此狀況是因為 [!DNL Target] 會在線上和離線兩個狀態下讓排除生效。 如果新排除某個項目，線上排除很快就會生效。 如果新納入某個項目，線上排除很快就會消失，但離線排除要等到下一次演算法執行後才會消失。
 
-* 如果先前已包含某個項目，但現在應該排除，則會根據「項目屬性已更新……」排除該項目。 上述的時間線視動態消息來源而定（透過mbox/API需15分鐘，或透過動態消息需要12-24小時）。
+* 如果之前已納入某個項目，但現在應該將其排除，則會根據上面討論的「項目屬性更新...」時間行來排除該項目，這取決於摘要來源 (透過 mbox/API 為 15 分鐘或透過摘要為 12-24 小時)。
 
 在下一個演算法執行作業發生之前 (在 12 至 24 小時內)，不會反映下列變更:
 
@@ -52,27 +51,27 @@ ht-degree: 58%
 
 >[!NOTE]
 >
->在摘要檔案的狀態從「匯入項目」變更為「準備搜尋索引更新」時，摘要檔案會視為已匯入。更新可能需要 60 分鐘以上的時間才會反映在目錄搜尋使用者介面中；在摘要狀態變更為「更新完成」時，目錄搜尋處於最新狀態。即使「目錄搜尋」尚未更新，您的網站仍會反映上述時段的更新。 最新目錄搜尋索引更新時間會顯示在目錄搜尋頁面上。
+>在摘要檔案的狀態從「匯入項目」變更為「準備搜尋索引更新」時，摘要檔案會視為已匯入。更新可能需要 60 分鐘以上的時間才會反映在目錄搜尋使用者介面中；在摘要狀態變更為「更新完成」時，目錄搜尋處於最新狀態。即使目錄搜尋尚未處於最新狀態，您的網站仍會在上方所列的時間範圍反映更新。 最新目錄搜尋索引更新時間會顯示在目錄搜尋頁面上。
 
-## 對[!UICONTROL Recommendations]活動、優惠、促銷或標準設定的設定進行變更需要多久的時間才會反映在我的網站上？
+## 變更我的 [!UICONTROL Recommendations] 活動、優惠、促銷活動或條件設定需要多久的時間才會反映在我的網站上？
 
-* 升級設定的變更最多需要5小時，才能在現場反映。
-* 在下一個演算法執行之前，其他准則設定的變更可能無法反映：
+* 促銷活動設定的變更最多可能需要五個小時的時間才會反映在網站上。
+* 其他條件設定的變更可能要等到下一次演算法執行後才會反映在網站上。
 
-   * 某些條件設定（例如「新增動態包含規則」）會立即反映。
-   * 其他准則設定（例如「移除動態包含規則」、回顧視窗的變更等）必須等到下次演算法執行時才能合併。
-   * 演算法執行會由這些變更觸發，但最多需要24小時才能完成。 演算法也會每12-24小時按計畫執行一次。
+   * 某些條件設定 (例如「新增動態包含規則」) 會即時反映。
+   * 其他條件設定 (例如「移除動態包含規則」、變更回顧視窗等) 要等到下一次演算法執行後才能併入。
+   * 這些變更會觸發演算法執行，但最多可能需要 24 小時的時間才能執行完成。 也會以每 12-24 小時的間隔安排執行演算法。
 
-## 使用者的行為（例如，按一下產品A並購買產品B）需要多久才會反映在使用者收到的建議&#x200B;*中？*
+## 使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*該*&#x200B;使用者收到的建議中？
 
-* 目前檢視／購買的產品／內容會影響使用者在相同的頁面檢視/[!DNL Target]內容要求上收到的建議。
-* 歷史使用者行為，例如「上次檢視的產品」、「最常檢視的產品」，以及整體檢視／購買歷史記錄都會以該請求更新，並影響使用者在下一頁檢視/[!DNL Target]內容請求上收到的建議。 例如，「最近檢視的項目」和「建議供您使用」演算法會隨每個產品檢視／購買更新，並反映在後續的內容請求中。
+* 目前已檢視/已購買的產品/內容會影響使用者在相同頁面檢視/[!DNL Target] 內容要求中所收到的建議。
+* 過去的使用者行為 (例如「上一次檢視的產品」、「檢視次數最多的產品」及整體檢視/購買記錄) 會更新該要求，並影響使用者在下一個頁面檢視/[!DNL Target] 內容要求中收到的建議。 例如，「最近檢視的項目」和「為您推薦的項目」演算法會更新每個產品檢視/購買，並反映在後續的內容要求中。
 
-## 使用者的行為（例如按一下產品A和購買產品B）需要多久才會反映在建議&#x200B;*其他*&#x200B;使用者收到的建議中？
+## 使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*其他*&#x200B;使用者收到的建議中？
 
-使用者在匯整時的行為會納入離線演算法處理，每12-24小時執行一次演算法。
+隨著每 12-24 小時執行一次演算法，使用者的行為會以彙整方式併入離線演算法處理中。
 
-## 如果特殊字元破壞陣列，怎麼辦？ {#section_D27214116EE443638A60887C7D1C534E}
+## 如果特殊字元破壞陣列，怎麼辦？  {#section_D27214116EE443638A60887C7D1C534E}
 
 在 JavaScript 中使用逸出值。引號 ( &quot; ) 會破壞陣列。下列程式碼片段是逸出值的範例:
 
@@ -87,7 +86,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 建立「建議」活動時，為何不是所有條件都可供選擇，包括自訂條件？  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 建立 Recommendations 活動時，為何不是所有條件都可供選擇，包括自訂條件？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 可用的條件取決於目前類別。建立推薦選件時，演算法選擇器會根據類別 ID 來顯示條件。
 
@@ -99,28 +98,28 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 >[!NOTE]
 >
->此設定僅適用於可視化體驗撰寫器 (VEC) 中建立的活動。此設定不適用於在表單型體驗撰寫器中建立的活動（[!DNL Target]沒有位置內容）。
+>此設定僅適用於在[!UICONTROL 可視化體驗撰寫器](VEC)中建立的活動。 此設定不適用於表單式體驗撰寫器中建立的活動 ([!DNL Target] 沒有位置環境定義)。
 
-若要存取[!UICONTROL 篩選不相容的條件]設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」:
+若要存取「[!UICONTROL 篩選不相容的條件]」設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」：
 
 ![](assets/recs_settings_filter.png)
 
-如果「未」啟用[!UICONTROL 篩選不相容的條件]設定， 就不會篩選「演算法選擇器」中的篩選演算法，所有演算法都會出現。[!DNL Target]
+如果「未」啟用「[!UICONTROL 篩選不相容的條件]」設定，[!DNL Target] 就不會篩選「演算法選擇器」中的演算法，且所有演算法都會顯示。
 
-如果啟用「篩選不相容的准則]」設定，在VEC活動中，[!DNL Target]會從選取的位置讀取entityId和類別Id，然後顯示基於`currentItem|currentCategory`的演算法（如果該位置有個別值）。 [!UICONTROL 因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
+如果「[!UICONTROL 篩選不相容的條件]」設定已啟用，則在 VEC 活動中，[!DNL Target] 會從選取的位置讀取 entityId 和 categoryId，然後根據 `currentItem|currentCategory` 來顯示演算法 (如果該位置上有各自的值)。 因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
 
 如果[!UICONTROL 篩選不相容的條件]設定已啟用，您仍可在選取條件時取消選取[!UICONTROL 「相容」]核取方塊，以檢視不相容的演算法。
 
 ![](assets/compatible_checkbox.png)
 
-以下清單包含[!DNL Target]不顯示[!UICONTROL Compatible]複選框的特殊情況：
+下列清單包含 [!DNL Target] 未顯示「[!UICONTROL 相容]」核取方塊的特殊情況：
 
-* entityId 和 categoryId 都存在位置上，所以完全不篩選。
+* 該位置上有 entityId 和 categoryId，所以完全不篩選。
 * 您使用 [!DNL mbox.js] 55 版或更舊版本。
-* 未從頁面上觸發任何 mbox (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
+* 未從頁面上觸發任何 mbox 呼叫 (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * [!DNL Target] 參數未定義。
 
-## 如果「建議」中的集合變成零 (0)，怎麼辦？  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## 如果 Recommendations 中的集合變成零 (0)，怎麼辦？ {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 如果您看到一個集合原先不是零而現在變成零，請考量下列資訊：
 
@@ -130,11 +129,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
    ![](assets/product_catalog.png)
 
 * 索引是最新的嗎？ 請移至[!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的 (例如「3 小時前已編列索引」)。您可以視需要重新整理索引。
-* 您是否更動過摘要或資料層，而導致實體不再符合收集規則？請確定「大小寫」相符 (區分大小寫)。
+* 您是否更動過摘要或資料層，而導致實體不再符合收集規則？ 請確定「大小寫」相符 (區分大小寫)。
 * 摘要執行成功嗎? 是否有人變更了 FTP 目錄、密碼等？
-* [!DNL Target] 會儘力讓傳送儘快更新 (在客戶的頁面/應用程式上)。不過，[!DNL Target]還必須在UI中為行銷人員提供一些表示法。 [!DNL Target] 不一定會為了等待 UI 更新同步而延遲傳送更新。您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
+* [!DNL Target] 會盡全力讓傳送的更新 (在客戶的頁面/應用程式上) 盡快進行。 然而，[!DNL Target] 還是必須在 UI 上為行銷人員提供一些表示法。 [!DNL Target] 不會為了等待 UI 更新同步而延遲傳送更新。 您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
 
-## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異？ {#section_FCD96598CBB44B16A4C6C084649928FF}
+## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異？  {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 屬性加權有兩種形式：「標準屬性加權」和「內容相似度屬性加權」。
 
@@ -148,7 +147,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ![](assets/content_similarity_example.png)
 
-## 為什麼[!DNL Target]有時無法顯示建議？{#section_DB3F40673AED42228E407C05437D99E9}
+## 為何 [!DNL Target] 有時無法顯示建議？  {#section_DB3F40673AED42228E407C05437D99E9}
 
 [!DNL Target] 有時會因為可用的建議數量不夠而無法顯示建議。
 
@@ -165,15 +164,15 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 #end 
 ```
 
-## 插入/更新產品之 API 呼叫的大小限制是多少？ 我是否可以使用 API (而非動態消息) 更新某次呼叫中的 50,000 種產品？ {#section_434FE1F187B7436AA39B7C14C7895168}
+## 插入/更新產品之 API 呼叫的大小限制是多少？ 我是否可以使用 API (而非動態消息) 更新某次呼叫中的 50,000 種產品？  {#section_434FE1F187B7436AA39B7C14C7895168}
 
-[!DNL Target] 在應用程式層級實施 50 MB 的限制；但是，只有當您傳遞 `application/x-www-form-urlencoded` 內容類型標頭時才會實施該限制。
+[!DNL Target] 會在應用程式層級施加 50 MB 的限制；但只有在您傳遞 `application/x-www-form-urlencoded` 內容類型標頭時才會施加該限制。
 
 您當然可以嘗試在單一呼叫中傳送 50,000 個產品。如果失敗，您應該將其分成幾個批次。Adobe 通常建議客戶將其呼叫分成 5,000 或 10,000 個產品批次，以降低系統負載造成逾時的可能性。
 
-## 建立 Recommendations 條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱？{#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## 建立 Recommendations 條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱？  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-根據 mbox 參數建立建議條件、促銷活動或範本測試規則時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
+根據 mbox 參數建立 Recommendations 條件、促銷活動或範本測試規則時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
 若要選取需要的參數:
 
@@ -184,21 +183,21 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果編輯現有條件、促銷活動或範本測試規則，則篩選條件將顯示建立期間提供的 mbox 名稱。
 
-## 定義新對象後，為何無法儲存舊版 Recommendations 活動？  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定義新對象後，為何無法儲存舊版 Recommendations 活動？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 請確定對象有唯一的名稱。若您為對象指定了與現有對象相同的名稱，則無法儲存舊版 Recommendations 活動 (2016 年 10 月以前建立的 Recommendations 活動)。
 
-## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少？  {#section_20F1AF4839A447B9889B246D6E873538}
+## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少？ {#section_20F1AF4839A447B9889B246D6E873538}
 
-摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。必要欄長度的其他限制可見於 [[!DNL Target]  限制頁面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
+摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。在 [[!DNL Target] 限制頁面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)上有提供必要欄長度的其他限制。
 
-## 是否可以動態地排除實體？ {#exclude}
+## 是否可以動態地排除實體? {#exclude}
 
 在查詢字串中，您可以傳遞要從推薦中排除之實體的實體 ID。例如，您可以排除已在購物車中的項目。
 
 若要啟用排除功能，請使用 `excludedIds` mbox 參數。此參數指向逗號分隔的實體 ID 清單。例如, `mboxCreate(..., "excludedIds=1,2,3,4,5")`。要求建議時會傳送值。
 
-排除僅對當前[!DNL Target]呼叫執行；在後續的[!DNL Target]呼叫中，項目不會排除，除非再次傳遞`excludedIds`值。 若要在每個頁面將購物車中的項目自推薦中排除，繼續在每個頁面傳遞 `excludedIds` 值。
+只會針對目前的 [!DNL Target] 呼叫執行此排除；後續 [!DNL Target] 呼叫不會排除項目，除非再次傳遞 `excludedIds` 值。 若要在每個頁面將購物車中的項目自推薦中排除，繼續在每個頁面傳遞 `excludedIds` 值。
 
 >[!NOTE]
 >
@@ -228,22 +227,22 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
    此情形一般在你有動態包含規則其該規則積極從可能的結果中篩選許多項目的時候發生。為避免此情況，請啟用備份，並且請勿將包含規則套用至備份，或在序列中使用較不積極的篩選條件。
 
-## 基於最近檢視項目的建議會持續存在於單一訪客的多個裝置上嗎？{#persist-across-devices}
+## 根據最近檢視項目的建議會針對單一訪客保存在多個裝置上嗎？ {#persist-across-devices}
 
-當訪客啟動作業時，作業ID會系結至單一邊緣機器，而臨時描述檔快取會儲存在該邊緣機器上。 來自相同作業的後續請求會讀取此描述檔快取，包括最近檢視的項目。
+當訪客起始工作階段時，工作階段 ID 會繫結至單一邊緣機器，而暫時設定檔快取會儲存在這部邊緣機器中。 來自相同工作階段的後續要求會讀取此設定檔快取，包括最近檢視的項目。
 
-當工作階段結束時（通常是在無活動30分鐘後過期時），工作階段狀態（包括最近檢視的項目）接著會持續存在相同地理邊緣的永久性描述檔儲存。
+當工作階段結束時 (通常會在 30 分鐘沒有活動後到期)，工作階段狀態 (包括最近檢視的項目) 會保存在相同地理邊緣中較永久的設定檔儲存空間。
 
-然後，來自不同裝置的後續工作階段就可以存取這些最近檢視的項目，只要新工作階段透過相同的Marketing CloudID(MCID)、Experience CloudID(ECID)或CustomerID/mbox3rdPartyId連結至客戶個人檔案即可。
+之後來自不同裝置的後續工作階段就可以存取這些最近檢視的項目，前提為新的工作階段透過相同的 Marketing Cloud ID (MCID)、Experience Cloud ID (ECID) 或 CustomerID/mbox3rdPartyId 繫結至客戶設定檔。
 
-如果訪客同時有兩個作用中的工作階段，則某台裝置上最近檢視的項目不會更新另一台裝置上最近檢視的項目，除非裝置被迫共用工作階段ID。 此問題可能有因應措施，但[!DNL Target]不直接支援跨多部裝置共用工作階段ID。 客戶必須自行管理此ID共用。
+如果訪客同時有兩個作用中工作階段，某台裝置上最近檢視的項目並不會更新另一台裝置上的最近檢視的項目，除非這些裝置被強制共用工作階段 ID。 此問題有可能的解決辦法，但 [!DNL Target] 無法直接支援跨多台裝置的工作階段 ID 共用。 客戶必須自行管理此 ID 共用。
 
-如果訪客在某個裝置上處於活動狀態，幾分鐘後在另一個裝置上開始活動，仍會發生此行為。 第一個裝置的工作階段不會過期30分鐘，而且在描述檔狀態寫入永久狀態並進行處理之前，最多會有5分鐘的延遲。 在測試此行為時，允許35分鐘的作業過期，並儲存描述檔。
+如果訪客在某台裝置上很活躍，然後幾分鐘後於另一台裝置上很活躍，還是會發生此行為。 第一台裝置的工作階段不會在 30 分鐘後到期，而且在設定檔狀態寫入永久狀態並進行處理之前，最多可能會延遲五分鐘。 在測試此行為時，請等候 35 分鐘讓工作階段到期，並儲存設定檔。
 
-如果訪客沒有同時進行兩個作用中的作業，則只要作業結束，最近檢視的某個裝置項目就會更新另一個裝置上最近檢視的項目。 測試此行為時，會話需要35分鐘才會過期。
+如果訪客未同時擁有兩個作用中工作階段，只要工作階段已結束，某台裝置上最近檢視的項目就會更新另一台裝置上的最近檢視的項目。 在測試此行為時，請等候 35 分鐘讓工作階段到期。
 
-## 我是否可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法？
+## 我可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法嗎？
 
-在[!DNL Recommendations Classic]中建立的演算法在[!DNL Recommendations Premium]中不受支援。 您可能可以使用[!DNL Target Premium]中的舊式演算法；不過，演算法在停用或刪除[!DNL Target Premium] UI中的活動時，會建立同步問題。 有關兩個解決方案之間差異的詳細資訊，請參見 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium]不支援在[!DNL Recommendations Classic]中建立的算法。 您可能可以在[!DNL Target Premium]中使用舊版演算法；不過，演算法在[!DNL Target Premium] UI中停用或刪除活動時，會建立同步問題。 如需關於這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活動。
 
 
