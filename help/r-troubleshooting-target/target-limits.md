@@ -5,10 +5,10 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 98%
+source-wordcount: '1206'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ## Target API呼叫
 
-* **上限**:每分鐘50次呼叫。
+* **上限**:每分鐘50次呼叫，以取得管理員、報告和大量設定檔更新API。此限制不適用於傳送和單一設定檔更新API。
 
    如果您每分鐘發出50次以上的API呼叫， [!DNL Target]會傳回「503 HTTP狀態」錯誤訊息。
 
