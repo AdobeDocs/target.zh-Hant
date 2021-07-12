@@ -4,10 +4,10 @@ description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問
 title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 97%
+source-wordcount: '3150'
+ht-degree: 93%
 
 ---
 
@@ -244,5 +244,39 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 ## 我可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法嗎？
 
 [!DNL Recommendations Premium]不支援在[!DNL Recommendations Classic]中建立的算法。 您可能可以在[!DNL Target Premium]中使用舊版演算法；不過，演算法在[!DNL Target Premium] UI中停用或刪除活動時，會建立同步問題。 如需關於這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活動。
+
+## 如何建議不超過60天的文章？ {#less-than-60}
+
+例如，[!DNL Target]客戶使用下列方法來建議存留不到60天的文章。
+
+此客戶不使用資料摘要。 收集的所有文章相關資料都來自資料層，並會在頁面檢視時傳遞至[!DNL Target]。
+
+此客戶使用下列方法：
+
+* 以YYYYMMDD格式以實體參數傳遞發佈日期。
+* 建立當天減去60天的設定檔指令碼，並以YYYYMMDD格式顯示。
+* 在條件中使用動態包含篩選器，以便`publish date > today’s date minus 60 days`。
+
+此客戶擷取了下列資料欄位：
+
+| 資料欄位 | 範例 |
+| --- | --- |
+| issueDate | 2021218 |
+| lastViewDate | 2021701 |
+| parentCategory | 評論 |
+| publishDate | 20210113 |
+| publishDateDisplay | 2021年1月13日 |
+
+此客戶使用設定檔屬性比對來使用下列包含規則：
+
+![包含規則範例](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+此客戶使用下列設定檔指令碼：
+
+![設定檔指令碼範例](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>此範例也可透過參數比對和傳遞`priorDate60`值作為mbox參數來完成。
 
 
