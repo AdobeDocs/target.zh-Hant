@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 76%
+source-wordcount: '1628'
+ht-degree: 75%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 76%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 12 年 7 月 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 新增下列事件的相關資訊：<ul><li>網路研討會：量化整合Adobe Analytics + [!DNL Adobe Target]的顯著ROI、洞察和節省時間。</li><li>[!DNL Adobe Target] 社區問答茶歇定於2021年7月21日星期三上午8時舉行(PDT, GMT-7)。</li></ul> |
+|  | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 新增下列常見問題集：「如何建議不超過60天的文章？」 |
 |  | Experience Cloud Device Co-op | 已移除主題。此功能已淘汰。 |
 | 6 月 29 日 | [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增下列資訊: <ul><li>Target JavaScript程式庫[!UICONTROL QA模式]相容性</li><li>預覽URL</li></ul> |
 | 6 月 24 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新[!DNL Target Standard/Premium] 21.6.1版的發行前說明（2021年6月30日）。 |
