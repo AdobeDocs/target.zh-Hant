@@ -3,9 +3,9 @@ keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬
 description: 了解如何將使用者新增至Adobe Target;建立工作區、使用者群組和屬性；更新實作；和指定角色和權限。
 title: 如何配置企業權限？
 feature: 管理與設定
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 66%
