@@ -4,7 +4,7 @@ description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問
 title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
 ht-degree: 93%
@@ -247,7 +247,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 如何只建議新文章或影片？ {#recommend-new-articles}
 
-媒體與發佈的某些客戶可能希望確保建議的項目僅包含最新文章或影片。 例如，[!DNL Target]客戶使用下列方法來建議年齡小於60天的文章：
+某些媒體和發佈的客戶希望確保建議的項目僅包含最新文章或影片。 例如，[!DNL Target]客戶使用下列方法建議年齡低於60天的文章：
 
 1. 以自訂實體屬性的形式，以YYMMDDD格式傳遞文章發佈日期。
 1. 建立當天減去60天的設定檔指令碼，並以YYYYMMDD格式顯示。
