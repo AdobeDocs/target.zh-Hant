@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 75%
+source-wordcount: '1643'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 75%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 12 年 7 月 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 新增下列事件的相關資訊：<ul><li>網路研討會：量化整合Adobe Analytics + [!DNL Adobe Target]的顯著ROI、洞察和節省時間。</li><li>[!DNL Adobe Target] 社區問答茶歇定於2021年7月21日星期三上午8時舉行(PDT, GMT-7)。</li></ul> |
-|  | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 新增下列常見問題集：「如何建議不超過60天的文章？」 |
+|  | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 新增下列常見問題集：「如何只建議新文章或影片？」 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「Target API呼叫」區段中的文字。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新`consumerId`鍵的說明。 |
 |  | Experience Cloud Device Co-op | 已移除主題。此功能已淘汰。 |
 | 6 月 29 日 | [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增下列資訊: <ul><li>Target JavaScript程式庫[!UICONTROL QA模式]相容性</li><li>預覽URL</li></ul> |
 | 6 月 24 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新[!DNL Target Standard/Premium] 21.6.1版的發行前說明（2021年6月30日）。 |
@@ -61,7 +63,7 @@ ht-degree: 75%
 | 4 月 26 日 | [針對 at.js 的裝置上決策疑難排解](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主題。 |
 | 4 月 19 日 | [裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 已新增下列新文章：<ul><li>[裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[裝置上決策的支援功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[裝置上決策規則成品](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 已新增 `decisioningMethod` 的相關資訊。 |
-|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增下列內容：<ul><li>`decisioningMethod` 索引鍵的相關資訊。</li><li>「getCallOffers() 進行裝置上決策」的範例。</li></ul> |
+|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增下列內容：<ul><li>`decisioningMethod` 索引鍵的相關資訊。</li><li>「getCallOffers() 進行裝置上決策」的範例。</li></ul> |
 |  | [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 已新增下列資訊：<ul><li>裝置上決策成品已成功</li><li>裝置上決策成品已失敗</li></ul> |
 |  | [活動](/help/c-activities/activities.md) | 已新增裝置上決策的相關資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增 at.js 2.5.0 的相關資訊。 |
