@@ -1,17 +1,16 @@
 ---
 keywords: 整合;角色;使用者權限;admin console
-description: 瞭解如何授與現有Adobe I/O整合的存取權，以存取Adobe Target中所需角色的所有工作區。
-title: 如何授予Adobe I/O工作區存取權並指派角色？
-feature: Administration & Configuration
-role: Administrator
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: 了解如何在Adobe Target中授予現有Adobe I/O整合功能可使用所需角色存取所有工作區的權限。
+title: 如何授予Adobe I/O對工作區的存取權並指派角色？
+feature: 管理與設定
+role: Admin
+exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 83%
+source-wordcount: '623'
+ht-degree: 84%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 授予 Adobe I/O 整合功能對工作區的存取權並指派角色
 
@@ -23,7 +22,7 @@ ht-degree: 83%
 
 [!UICONTROL 企業權限]功能可促進跨團隊最佳化程式的有效資源調度。雖然 [!DNL Target] UI 提供了此功能，不過 Admin API 在 2019 年初之前一直都缺乏對應的支援。在 [!DNL Target] 2019 年 2 月版本中，Adobe 已更新 Admin API，讓您能夠使用整合帳戶來存取組織中建立的所有工作區。因此，雖然之前 Admin API 限制為僅限預設工作區，但 2019 年 2 月更新已授予可使用[!UICONTROL 核准者]存取權來存取所有工作區。
 
-在2019年9月的[!DNL Target]版本中，[!DNL Target] [!UICONTROL 企業權限]為客戶提供下列存取控制：
+在2019年9月的[!DNL Target]版本中， [!DNL Target] [!UICONTROL 企業權限]為客戶提供下列存取控制：
 
 * 您可以選擇要將整合套用到哪個工作區
 * 您可以將角色套用至 Adobe I/O 整合功能: [!UICONTROL 核准者]、[!UICONTROL 編輯者]或[!UICONTROL 觀察者]。
@@ -39,7 +38,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。事先設定整合功能並不會有任何不利的反應。此變更越早進行越好。視組織中的工作區數量而定，此程式只需按幾下滑鼠，即可將現有整合新增至具有所需角色的工作區。
+>如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。事先設定整合功能並不會有任何不利的反應。此變更越早進行越好。根據您組織中的工作區數目，此程式只需按幾下滑鼠，即可將現有整合功能新增至具有所需角色的工作區中。
 
 **如何授予 Adobe I/O 整合功能對工作區的存取權並指派角色:**
 
@@ -66,4 +65,4 @@ ht-degree: 83%
    | 核准者 | 可以建立、編輯和啟動或停止活動。 |
    | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-   | 發行者 | 類似於「觀察者」角色（可以查看活動，但無法建立或編輯活動）。 不過，「發佈者」角色具有啟動活動的額外權限。 |
+   | 發行者 | 類似觀察者角色（可以檢視活動，但無法建立或編輯活動）。 但是，發佈者角色具有激活活動的附加權限。 |
