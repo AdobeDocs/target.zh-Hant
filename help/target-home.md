@@ -4,10 +4,10 @@ title: 在哪裡可以找到 [!DNL Target] 文件？
 description: 了解如何使用 Adobe [!DNL Target] 將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: 總覽
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 99%
+source-wordcount: '692'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新：2021年6月29日( [查看變更](r-release-notes/doc-change.md) )**
+**最近更新: 2021 年 7 月 11 日 ([查看變更](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 - [Target 發行說明](r-release-notes/release-notes.md)：含有最新版本的相關資訊、影響 [!DNL Target] 之已知問題的相關資訊、本文件的重要更新清單，以及舊版發行說明的封存檔案。
 - [Target 簡介](c-intro/intro.md)：說明 [!DNL Target] 解決方案的核心概念。
-- 將 Target 與 Adobe Experience Cloud 整合：說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 及 [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
+- 將Target與Adobe Experience Cloud整合：說明如何將[!DNL Target]與其他[!DNL Experience Cloud]解決方案整合，包括[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)、[Experience Cloud對象](/help/c-integrating-target-with-mac/mmp.md)和[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html??lang=zh-Hant)：提供教學課程和影片，協助您充分運用 Target。
 - [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (選件大小、對象、設定檔、值、參數等) 相關資訊。
 - [適用於行動應用程式的 Target](c-target-mobile-app/target-mobile-app.md)：說明如何使用 [!DNL Target] 來將行動應用程式最佳化及個人化。
