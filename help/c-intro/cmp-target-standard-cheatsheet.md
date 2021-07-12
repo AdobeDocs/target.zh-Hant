@@ -4,9 +4,9 @@ description: 探索關於使用 Adobe Target 中功能常見問答的清單，�
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: 總覽
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -223,12 +223,6 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 **我是過去的 Target Classic 使用者。我可以在某些使用案例下使用我的 mbox 嗎？**
 
 使用[表單式方法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)來建立活動。
-
-**我可以確保在使用者可能擁有的所有裝置間會一致地提供相同的體驗嗎？**
-
-請查看我們的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html??lang=zh-Hant)，它可讓您透過 Co-op 的強大功能，決定性地和概率性地連結使用者的多個裝置。
-
-如果您已採用 Co-op，「目標與設定」頁面上的簡易旗標會啟用該功能。報表現在也變更為反映人物而非訪客。請洽詢您的 Adobe 聯絡人，以進一步瞭解此功能，因為此功能並未在所有區域提供。
 
 **為什麼我看不到需要的選件/體驗，而是看到一些其他活動？**
 
