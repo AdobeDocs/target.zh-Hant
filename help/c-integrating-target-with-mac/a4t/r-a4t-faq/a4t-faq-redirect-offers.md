@@ -4,10 +4,10 @@ description: 尋找在將Analytics用於 [!DNL Target] (A4T). A4T lets you use A
 title: 哪裡可以找到有關使用A4T重新導向選件的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 63%
+source-wordcount: '1298'
+ht-degree: 62%
 
 ---
 
@@ -31,8 +31,6 @@ ht-degree: 63%
 * Adobe Analytics: [!DNL appMeasurement.js] 版本 2.1。
 * Adobe Target: [!DNL at.js] 版本 1.6.2 或更新版本。
 
-   [!DNL mbox.js] 資料庫不支援使用 A4T 重新導向選件。您的實作必須使用 [!DNL at.js]。
-
 含有重新導向選件的頁面和訪客重新導向的頁面上，皆必須包含這三個程式庫。
 
 ## 為何 A4T 與 Analytics 之間有時會有資料差異?
@@ -50,10 +48,6 @@ ht-degree: 63%
 您可能想要將重新導向選件用於活動中的所有體驗 (包括預設 (控制) 體驗) 的一個原因是，想要對所有體驗設定相同的條件。例如，如果預設體驗沒有重新導向選件，但其他體驗有重新導向選件，沒有重新導向選件之體驗的速度會有沿用的優勢。建議僅將重新導向選件用於臨時案例，例如測試。不建議將重新導向選件用於永久案例，例如個人化。決定「獲勝者」後，您應移除重新導向以改善頁面載入效能。
 
 如需此問題的詳細資訊，請參閱[已知問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)中的「重新導向選件」資訊。
-
-## 如果我使用 mbox.js JavaScript 程式庫，可以在 A4T 中使用重新導向選件嗎? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-[!DNL mbox.js] 資料庫不支援使用 A4T 重新導向選件。您的實作必須使用 [!DNL at.js]。
 
 ## 可視化體驗撰寫器 (VEC) 和表單式體驗撰寫器皆有支援嗎? {#section_FDA26FE7909B48539DA770559E687677}
 
