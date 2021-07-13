@@ -4,10 +4,10 @@ description: 了解Analytics for [!DNL Target] (A4T)的實作需求，以及實�
 title: 實作A4T之前應該知道什麼？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 31%
+source-wordcount: '879'
+ht-degree: 28%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 31%
 如果您不打算搭配 A4T 使用重新導向選件，則此整合需要您實作下列程式庫版本 (或更新版本)。列出的順序是作業順序。
 
 * [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本1.8.0
-* [!DNL Adobe Target] (根據您的實作): at.js 版本 0.9.1 或 mbox.js 版本 61
+* [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
 ### 搭配 A4T 使用重新導向選件之情況下的需求
@@ -46,8 +46,6 @@ ht-degree: 31%
    **注意：**  at.js 1.8.0或更新版本不再適用於2.5.0以前的訪客API版本，以傳 [!DNL Adobe Audience Manager] 遞(AAM)參數。
 
 * [!DNL Adobe Target]: at.js 1.6.2 版
-
-   **注意**:mbox.js資料庫不支援使用A4T重新導向選件。您的實作必須使用 at.js。
 
 * Adobe Analytics: appMeasurement.js 版本 2.1
 
@@ -78,7 +76,6 @@ A4T活動用來傳送內容或記錄目標量度的所有[!DNL Target]呼叫必�
 包含[!DNL Analytics]和[!DNL Target]資料的點擊會包含補充資料ID。 您可以在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)中看到此ID為`sdid`參數。 例如: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`。只要符合下列條件即會產生此 ID:
 
 * 已實作訪客 ID 服務
-* 已實作支援此整合的 [!DNL mbox.js] 版本。
 
 當[疑難排解](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)時，請務必確認[!DNL Analytics]點擊上有補充ID。
 
@@ -86,7 +83,7 @@ A4T活動用來傳送內容或記錄目標量度的所有[!DNL Target]呼叫必�
 
 如果at.js、[!DNL Experience Cloud Visitor ID Service]和appMeasurement.js位於頁面上，只要頁面中包含正確的補充ID,[!DNL Analytics]和[!DNL Target]即可正確拼接事件，以用於後端的報表和分析用途。 您不需要管理並執行任何其他操作，A4T才能正常運作。
 
-在某些情況下，您可能會想要進一步掌控將[!DNL Target]相關分析資料傳送至[!DNL Analytics]以用於報表用途的時間和方式。 您可能有內部分析工具，可用於內部用途。 不過，您也想透過內部分析產品將分析資料傳送至[!DNL Analytics]，讓組織的其他成員能繼續使用[!DNL Analytics]作為視覺報表來源。 如需詳細資訊，請參閱 *Analytics for Target 實作*&#x200B;中的[步驟 7: 在所有網頁上參照 at.js 或 mbox.js](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)。
+在某些情況下，您可能會想要進一步掌控將[!DNL Target]相關分析資料傳送至[!DNL Analytics]以用於報表用途的時間和方式。 您可能有內部分析工具，可用於內部用途。 不過，您也想透過內部分析產品將分析資料傳送至[!DNL Analytics]，讓組織的其他成員能繼續使用[!DNL Analytics]作為視覺報表來源。 請參閱[步驟7:如需詳細資訊，請參考&#x200B;*Analytics for Target實作*&#x200B;中所有網頁上的at.js ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)。
 
 ## 共用對象
 
