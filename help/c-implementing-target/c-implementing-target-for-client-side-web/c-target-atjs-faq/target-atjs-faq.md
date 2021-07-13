@@ -5,9 +5,9 @@ title: at.js的常見問題和答案為何？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2609'
 ht-degree: 75%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 75%
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-如上圖所示，使用 mbox.js 時，頁面內容要等到 [!DNL Target] 呼叫完成之後才會開始載入。使用 at.js 時，頁面內容在 [!DNL Target] 呼叫起始時就開始載入，不會等到呼叫完成。
+如上圖所示，使用mbox.js時，頁面內容要等到[!DNL Target]呼叫完成後才會開始載入。 使用 at.js 時，頁面內容在 [!DNL Target] 呼叫起始時就開始載入，不會等到呼叫完成。
 
 ## at.js 和 mbox.js 對頁面載入時間有何影響? {#page-load}
 
@@ -131,7 +131,7 @@ at.js 檔案下載後大約 109 KB。不過，因為大部分伺服器會自動�
 
 at.js 實作使用單一資料庫 ([!DNL at.js])，而 mbox.js 實作實際上使用兩個資料庫 ([!DNL mbox.js] 和 [!DNL target.js])。所以，at.js 要同時與 mbox.js *和* `target.js` 一起比較才公平。比較兩個版本的 gzip 大小，at.js 1.2 版是 34 KB，而 mbox.js 63 版是 26.2 KB。
 
-at.js 較大，因為它執行的 DOM 剖析比 mbox.js 多很多。這有必要，因為 at.js 在 JSON 回應中是取得「原始」資料，必須轉換成有意義的資料。mbox.js 使用 `document.write()`，所有剖析均由瀏覽器完成。
+at.js 較大，因為它執行的 DOM 剖析比 mbox.js 多很多。這有必要，因為 at.js 在 JSON 回應中是取得「原始」資料，必須轉換成有意義的資料。mbox.js使用`document.write()`，所有剖析均由瀏覽器完成。
 
 儘管檔案較大，但我們的測試指出 at.js 的頁面載入比 mbox.js 更快。此外，從安全性角度來看，at.js較優秀，因為不會動態載入其他檔案，或使用`document.write`。
 
@@ -144,10 +144,6 @@ at.js目前使用部分jQuery，因此您會在at.js頂端看到MIT授權通知�
 否，如果跨網域設為x-only，且Safari已停用第三方Cookie，則[!DNL mbox.js]和at.js會設定已停用的Cookie，且不會對該特定用戶端的網域執行任何mbox要求。
 
 為了支援 Safari 訪客，較好的 X-Domain 是「已停用」(僅設定第一方 Cookie) 或「已啟用」(在 Safari 上僅設定第一方 Cookie，而在其他瀏覽器上設定第一方和第三方 Cookie)。
-
-## 我可以並列執行 at.js 與 mbox.js 嗎? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-在相同頁面上不可以。不過，在實作和測試[!DNL at.js]時，您可以在某些頁面上執行[!DNL at.js]，而在其他頁面上執行[!DNL mbox.js]，直到驗證[!DNL at.js]為止。
 
 ## 我可以在單頁應用程式中使用[!DNL Target]可視化體驗撰寫器(VEC)嗎？ {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
