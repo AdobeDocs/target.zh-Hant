@@ -4,9 +4,9 @@ description: 檢視每個Adobe [!DNL Target] at.js JavaScript程式庫版本中�
 title: 每個at.js版本包含什麼？
 feature: at.js
 role: Developer
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4132'
 ht-degree: 89%
 
 ---
@@ -387,7 +387,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
 **日期:** 2017 年 1 月 19 日
 
-* mbox 名稱現在可以包含特殊字元，包括 &amp; 符號，以與使用 mbox.js 的 mbox 名稱命名需求一致。
+* mbox 名稱現在可以包含特殊字元，包括 &amp; 符號 (&amp;)。
 
    如需允許的特殊字元的清單，請參閱 [at.js 設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)。
 
