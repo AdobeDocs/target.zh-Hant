@@ -1,15 +1,14 @@
 ---
-keywords: 全域 mbox;實作 mbox.js;實作 at.js
-description: 瞭解Adobe Target的全域mbox，此名稱用來指代您 [!DNL Target] 實作中每個網頁頂端所做的單一伺服器呼叫。
+keywords: 全域mbox;；實作at.js
+description: 了解Adobe Target中的全域mbox，此名稱用來指稱您 [!DNL Target] 實作中每個網頁頂端所發出的單一伺服器呼叫。
 title: 什麼是全域mbox?
 feature: at.js
 role: Developer
 exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 84%
+source-wordcount: '215'
+ht-degree: 82%
 
 ---
 
