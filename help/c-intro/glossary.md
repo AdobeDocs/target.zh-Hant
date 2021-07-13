@@ -1,19 +1,18 @@
 ---
-description: Adobe [!DNL Target] 中使用的不同術語代表什麼意思？ 找出共通字彙的定義以協助您更好地使用 [!DNL Target].
-title: 我可以在哪裡找到 Target 中使用的字彙和定義？
+description: Adobe [!DNL Target] 中使用的不同詞彙是什麼意思？ 尋找常用詞彙的定義，以協助您充分利用  [!DNL Target]。
+title: 我可以在哪裡找到 Target 中使用的詞彙和定義？
 feature: 總覽
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2470'
-ht-degree: 99%
+source-wordcount: '2417'
+ht-degree: 100%
 
 ---
 
 # 字彙表
 
-字詞定義。
+詞彙定義。
 
 ## A {#section_02E8CD217BFC42D288C8A9CBFC215E46}
 
@@ -228,10 +227,6 @@ Target Standard 中活動的視覺表示。
 **mbox**
 
 「行銷盒」的簡寫，是在您網頁上顯示內容及記錄訪客行為的位置。某些 mbox 不會顯示任何內容。這些 mbox 可能會透過您的網站來追蹤訪客進度，或是追蹤訪客是否已完成特定成功度量，例如將項目新增至購物車，或是完成購物。*轉換 mbox* 便屬於此類 mbox。
-
-**mbox.js**
-
-在 16.3.1 之前，[!DNL Target] 需要呼叫 [!DNL mbox.js] 來建立 [!DNL Adobe Target] 傳送 [!DNL Target]Target 活動、追蹤點按和追蹤最成功度量所需的全域 mbox。此檔案包含所有活動所需的資料庫。您不需要維護不同的活動特定版本檔案。針對 [!DNL Target] 實作以 [!DNL at.js] 資料庫取代 [!DNL mbox.js]。
 
 **mbox 參數**
 
