@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 74%
+source-wordcount: '1803'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## Adobe [!DNL Target] Standard/Premium 21.5.1 (2021 年 6 月 8 日)
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021 年 6 月 30 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
@@ -25,6 +25,18 @@ ht-degree: 74%
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新`consumerId`鍵的說明。 |
 |  | [自訂全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新步驟1，指出在您選取新mbox後，變更會自動儲存。 |
 |  | Experience Cloud Device Co-op | 已移除主題。此功能已淘汰。 |
+| 6 月 30 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+
+## Adobe [!DNL Target] Standard/Premium 21.5.1 (2021 年 6 月 8 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 12 年 7 月 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 新增下列事件的相關資訊：<ul><li>網路研討會：量化整合Adobe Analytics + [!DNL Adobe Target]的顯著ROI、洞察和節省時間。</li><li>[!DNL Adobe Target] 社區問答茶歇定於2021年7月21日星期三上午8時舉行(PDT, GMT-7)。</li></ul> |
+|  | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 新增下列常見問題集：「如何只建議新文章或影片？」 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「Target API呼叫」區段中的文字。 |
+|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新`consumerId`鍵的說明。 |
+|  | [自訂全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新步驟1，指出在您選取新mbox後，變更會自動儲存。 |
+|  | Experience CloudDevice Co-op | 已移除主題。此功能已淘汰。 |
 | 6 月 29 日 | [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增下列資訊: <ul><li>Target JavaScript程式庫[!UICONTROL QA模式]相容性</li><li>預覽URL</li></ul> |
 | 6 月 24 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新[!DNL Target Standard/Premium] 21.6.1版的發行前說明（2021年6月30日）。 |
 | 6 月 16 日 | [[!DNL Target] 發行說明（最新）](/help/r-release-notes/release-notes.md) | 新增[!DNL Adobe Target] Python SDK 1.0.0版的相關資訊。 |
