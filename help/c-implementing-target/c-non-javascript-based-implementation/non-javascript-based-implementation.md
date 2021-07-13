@@ -1,25 +1,24 @@
 ---
 keywords: 實作;mbox.js non javascript;adbox;重新導向程式;mbox
-description: 瞭解如何在非JavaScript案例（例如使用AdBox或重新導向程式）中實作Adobe [!DNL Target] 。
-title: 如何實施 [!DNL Target] 電子郵件？
+description: 了解如何在非JavaScript案例（例如使用AdBox或重新導向程式）中實作Adobe [!DNL Target] 。
+title: 如何為電子郵件實作 [!DNL Target] ?
 feature: 實作電子郵件
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 77%
+source-wordcount: '435'
+ht-degree: 81%
 
 ---
 
-# 電子郵件: 實作 Target
+# 電子郵件：實作 Target
 
 關於在非 JavaScript 案例 (例如，使用 AdBox 或重新導向程式) 中實作 Target 的資訊。
 
 您可以追蹤廣告及其他離站內容的造訪。您也可偵測同位使用者進出您網站的狀況，並根據其網路瀏覽習慣呈現一致的網站體驗。只要使用單一 URL，AdBox 即可進行測試而無須使用 JavaScript 或 [!DNL at.js] 或 [!DNL mbox.js]。
 
-AdBox 適用於沒有 [!DNL at.js] 或 [!DNL mbox.js] 的網站，例如加盟網站。若您的活動需要動態創意素材 (例如，您需要在廣告中展示已從購物車拿掉的產品)，則無法使用 AdBox。
+AdBox適用於沒有[!DNL at.js]的網站，例如加盟網站。 若您的活動需要動態創意素材 (例如，您需要在廣告中展示已從購物車拿掉的產品)，則無法使用 AdBox。
 
 AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表比較 AdBox 和重新導向程式，以及各自的使用時機：
 
@@ -28,9 +27,9 @@ AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表�
 | AdBox | 將不同的影像傳回至廣告 | 變更廣告的內容 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 重新導向選件 | 影像 URL |
 | 重新導向程式 | 將訪客重新導向至其他網頁 | 變更廣告的著陸頁面 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 重新導向選件 | 網頁 URL |
 
-## 安全性最佳實踐{#security}
+## 安全性最佳實務 {#security}
 
-請注意，使用重新導向程式時，您可能會面臨「開啟重新導向」弱點的風險。 為避免第三方未經授權使用重新導向程式連結，我們建議您使用「授權主機」來允許列出預設的重新導向URL網域。 Target使用主機來允許列出您要允許重新導向的網域。 如需詳細資訊，請參閱[建立允許清單，指定在&#x200B;*Hosts*&#x200B;中授權傳送mbox呼叫至Target](/help/administrating-target/hosts.md#allowlist)的主機。
+請注意，若使用重新導向程式，您可能會面臨開放重新導向弱點的風險。 為避免第三方未經授權使用重新導向程式連結，建議您使用「已授權主機」來允許列出預設的重新導向URL網域。 Target 使用主機來允許列出您要允許重新導向的網域。如需詳細資訊，請參閱[建立允許清單，指定在 *&#x200B;Hosts* &#x200B;中授權傳送 mbox 呼叫至 Target 的主機](/help/administrating-target/hosts.md#allowlist)。
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 
