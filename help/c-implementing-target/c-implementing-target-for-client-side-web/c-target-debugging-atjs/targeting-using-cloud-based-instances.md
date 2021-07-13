@@ -1,15 +1,14 @@
 ---
 keywords: 雲端例項;公用尾碼清單;公用尾碼;Cookie;第一方 Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: 探索客戶在使用雲端例項測試Adobe( [!DNL Target] )或進行概念驗證時所面臨的問題（與解決方案有關）。
-title: 我是否可搭配雲端執行個體使用 [!DNL Target] ?
+description: 探索客戶使用雲端型例項來測試Adobe [!DNL Target] 或用於概念證明時所面臨的問題（解決方案的相關問題）。
+title: 我可以對雲端型例項使用 [!DNL Target] 嗎？
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 82%
+source-wordcount: '168'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +24,6 @@ ht-degree: 82%
 
 **問題:** 如果您使用這些網域，新式瀏覽器不會儲存 Cookie。
 
-[!DNL at.js] 和 [!DNL mbox.js] JavaScript 程式庫會使用 Cookie 來追蹤使用者，以確保 [!DNL Target] 永遠展現一致的體驗。如果 [!DNL Target] JavaScript 程式庫無法儲存 Cookie，[!DNL Target] 請求會停用。
+[!DNL at.js] JavaScript資料庫使用Cookie來追蹤使用者，以確保[!DNL Target]一律呈現一致的體驗。 如果[!DNL Target] JavaScript程式庫無法儲存Cookie，則會停用[!DNL Target]請求。
 
 **解決方案:**&#x200B;如果您想要搭配「公用尾碼清單」上包含的網域來使用雲端式例項，最佳做法是自訂 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
