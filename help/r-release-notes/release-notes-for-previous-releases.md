@@ -4,10 +4,10 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: 發行說明
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '31019'
-ht-degree: 99%
+source-wordcount: '31324'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,33 @@ ht-degree: 99%
 >請參閱 [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2021
+
+### Python SDK 1.0.0（2021年6月16日）
+
+具有裝置決策功能的全新[!DNL Adobe Target] Python SDK現已推出。 這項最新新增功能可支援[!DNL Target]伺服器端SDK套裝。 這些SDK可協助您以您所選擇的語言與[!DNL Target]整合，並加快實現價值的時間。 由於市場正轉向無Cookie的世界，第一方資料很有價值，伺服器端整合正成為熱門選擇。 Target SDK提供市面上最熱門的程式設計語言(Python、Java、JavaScript、C# / .Net)。
+
+如需詳細資訊，請參閱[Adobe Target SDK指南](https://adobetarget-sdks.gitbook.io/docs/)中的[Python SDK檔案](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)。
+
+### Target Standard/Premium 21.5.1 (2021 年 6 月 7 日)
+
+此版本包含下列增強功能:
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | 透過API以程式設計方式搜尋您的[!DNL Recommendations]產品和內容目錄，以識別符合搜尋准則的項目，並簡化目錄的管理。<br>**限制與附註**:<ul><li>項目超過2,000,000個的環境不支援透過API進行目錄搜尋。</li><li>透過API更新目錄搜尋結果的速度，比透過[!DNL Target] UI更新目錄搜尋結果的速度快。 [!DNL Target] UI中的目錄搜尋可能需要額外的時間，才能反映最新的結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API*&#x200B;指南中的[搜尋實體](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) 。 |
+
+此版本維護髮行包含下列修正。
+
+* 修正重新整理[!UICONTROL Audiences]頁面時，導致預設工作區變更為其他工作區的問題。 (TGT-38871)
+* 修正[!UICONTROL Administration] > [!UICONTROL Implementation]中，有時會導致錯誤訊息「您的全域mbox可能未同步」的問題。 請嘗試重新保存它。」
+
+### ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
+
+此版本的[!DNL Platform Web SDK]包含對以下內容的支援：
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)時，Platform Web SDK現在支援[!DNL Target]重新導向。<br>如需詳細資訊，請參閱 [實 [!DNL Target] 作的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
 
 ### at.js版本2.5.0（2021年5月13日）
 
