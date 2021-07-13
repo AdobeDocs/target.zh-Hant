@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 50%
+source-wordcount: '661'
+ht-degree: 53%
 
 ---
 
@@ -23,24 +23,20 @@ ht-degree: 50%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
+## [!DNL Target Standard/Premium] 21.6.1（2021年6月30日）
+
+此版本包含下列新功能和增強功能。 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 目標分析 (A4T) | 從使用[!DNL Analytics]作為報表來源(A4T)的活動按一下[!UICONTROL 報表]頁面上的「[!UICONTROL 在Analytics中檢視」連結，現在會開啟[!DNL Analysis Workspace]。 ]以前，連結會開啟[!DNL Analytics]報表。 (TGT-36959) |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | 下列增強功能適用於[!DNL Recommendations]人氣演算法：<ul><li>當[!DNL Target]為行為資料來源時，所有人氣（檢視次數最多/最暢銷商品）演算法都可使用新的六小時「回顧期間」（資料範圍）選項。 （當[!DNL Adobe Analytics]為行為資料來源時，此回顧期間為&#x200B;*not*&#x200B;可用。）</li><li>選取後，下列演算法大約每三小時執行一次（而非每12小時）。<ul><li>檢視次數最多</li><li>購買次數最多</li><li>按類別檢視次數最多</li><li>按類別購買次數最多</li><li>按自訂屬性檢視次數最多（使用groupBy功能）</li><li>按自訂屬性購買最多（使用groupBy功能）</li></ul></ul>要宣佈的發行日期。 (TOP-1086) |
+
 ## Python SDK 1.0.0（2021年6月16日）
 
 具有裝置決策功能的全新[!DNL Adobe Target] Python SDK現已推出。 這項最新新增功能可支援[!DNL Target]伺服器端SDK套裝。 這些SDK可協助您以您所選擇的語言與[!DNL Target]整合，並加快實現價值的時間。 由於市場正轉向無Cookie的世界，第一方資料很有價值，伺服器端整合正成為熱門選擇。 Target SDK提供市面上最熱門的程式設計語言(Python、Java、JavaScript、C# / .Net)。
 
 如需詳細資訊，請參閱[Adobe Target SDK指南](https://adobetarget-sdks.gitbook.io/docs/)中的[Python SDK檔案](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)。
-
-## Target Standard/Premium 21.5.1 (2021 年 6 月 7 日)
-
-此版本包含下列增強功能:
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | 透過API以程式設計方式搜尋您的[!DNL Recommendations]產品和內容目錄，以識別符合搜尋准則的項目，並簡化目錄的管理。<br>**限制與附註**:<ul><li>項目超過2,000,000個的環境不支援透過API進行目錄搜尋。</li><li>透過API更新目錄搜尋結果的速度，比透過[!DNL Target] UI更新目錄搜尋結果的速度快。 [!DNL Target] UI中的目錄搜尋可能需要額外的時間，才能反映最新的結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API*&#x200B;指南中的[搜尋實體](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) 。 |
-
-此版本維護髮行包含下列修正。
-
-* 修正重新整理[!UICONTROL Audiences]頁面時，導致預設工作區變更為其他工作區的問題。 (TGT-38871)
-* 修正[!UICONTROL Administration] > [!UICONTROL Implementation]中，有時會導致錯誤訊息「您的全域mbox可能未同步」的問題。 請嘗試重新保存它。」
 
 ## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
 
@@ -49,15 +45,6 @@ ht-degree: 50%
 | 功能 | 詳細資料 |
 | --- | --- |
 | 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)時，Platform Web SDK現在支援[!DNL Target]重新導向。<br>如需詳細資訊，請參閱 [實 [!DNL Target] 作的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
-
-## at.js版本2.5.0（2021年5月13日）
-
-此 at.js 版本包含下列增強功能和變更：
-
-* [針對 at.js 的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)支援。
-* [預覽連結](/help/c-activities/c-activity-qa/activity-qa.md)對 Automated Personalization 活動的支援
-
-此版本也移除了對Microsoft Internet Explorer 10、Internet Explorer 11和所有舊版的支援。 at.js 2.5.0及更新版本仍持續支援Microsoft Edge。
 
 ## 額外的發行說明和版本詳細資料
 
