@@ -4,9 +4,9 @@ description: 請依照為 [!DNL Target] (A4T) in your Adobe [!DNL Target] 和Ado
 title: 如何為 [!DNL Target] (A4T)實作Analytics?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1142'
 ht-degree: 24%
 
 ---
@@ -91,7 +91,7 @@ at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-VisitorAPI.js必須在at.js之前載入。 如果您更新現有的at.js或mbox.js檔案，請務必驗證載入順序。
+VisitorAPI.js必須在at.js之前載入。 如果您更新現有的at.js檔案，請務必驗證載入順序。
 
 從實作觀點來看，[!DNL Target]和[!DNL Analytics]整合的預設設定是使用從頁面傳遞的SDID，自動將[!DNL Target]和[!DNL Analytics]要求拼接在後端上。
 
