@@ -5,10 +5,10 @@ title: 如何使用adobe.target.getOffers()函式？
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 85%
+source-wordcount: '1291'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| `consumerId` | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於A4T整合的補充資料ID(SDID)。 此索引鍵是每個訪客的唯一字串。<br>使用時， `getOffers()`每個呼叫都會產生新的SDID。若您在相同頁面上有多個mbox要求，且想保留SDID(以便其符合target-global-mbox的SDID和Adobe Analytics SDID)，請使用`consumerId`參數。<br>如果 `getOffers()` 包含三個mbox（名為「mbox1」、「mbox2」和「mbox3」），則包括： `consumerId: "mbox1, mbox2, mbox3"` 在呼 `getOffers()` 叫中。 |
+| `consumerId` | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於A4T整合的補充資料ID(SDID)。 此金鑰(consumerId)不唯一。<br>使用時， `getOffers()`每個呼叫都會產生新的SDID。若您在相同頁面上有多個mbox要求，且想保留SDID(以便其符合target-global-mbox的SDID和Adobe Analytics SDID)，請使用`consumerId`參數。<br>如果 `getOffers()` 包含三個mbox（名為「mbox1」、「mbox2」和「mbox3」），則包括： `consumerId: "mbox1, mbox2, mbox3"` 在呼 `getOffers()` 叫中。 |
 | `decisioningMethod` | 字串 | 無 | &quot;server-side&quot;、&quot;on-device&quot;、&quot;hybrid&quot; |
 | `request` | 物件 | 是 | 請參閱下方的「要求」表格。 |
 | `timeout` | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
