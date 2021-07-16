@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 53%
+source-wordcount: '745'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 53%
 >移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## at.js 2.6.0（2021年7月16日）
+
+* 每當at.js設定`secureOnly`設為`true`時，新增安全屬性至Cookie。
+* 現在使用`triggerView()`時可使用回應Token。
+* 修正了與`CONTENT_RENDERING_NO_OFFERS`事件相關的問題。 現在，只要沒有從[!DNL Target]傳回任何內容，就會正確觸發此事件。
+* [!DNL Anlytics for Target] (A4T)使用請求時可正確傳回點按量度詳細 `prefetch` 資料。
+* UUID產生不再使用`Math.random()`，而是需要`window.crypto`。
+* 每個網路呼叫的`sessionId` Cookie過期都已正確延伸。
+* [!UICONTROL 單頁應用程式](SPA)檢視快取初始化現在已正確處理，並遵循`viewsEnable`設定。
 
 ## [!DNL Target Standard/Premium] 21.6.1（2021年6月30日）
 
