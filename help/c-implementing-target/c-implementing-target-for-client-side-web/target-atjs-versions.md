@@ -4,10 +4,10 @@ description: 檢視每個Adobe [!DNL Target] at.js JavaScript程式庫版本中�
 title: 每個at.js版本包含什麼？
 feature: at.js
 role: Developer
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '4132'
-ht-degree: 89%
+source-wordcount: '4216'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,16 @@ ht-degree: 89%
 >Target團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升級at.js的推薦方法。擴充功能開發人員會持續新增功能至其擴充功能，並經常修正錯誤。 這些更新會封裝成新版本的擴充功能，並在[!DNL Launch]目錄中提供作為升級。 如需詳細資訊，請參閱&#x200B;*Experience Platform Launch使用手冊*&#x200B;中的[擴充功能升級](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+
+## at.js 2.6.0（2021年7月16日）
+
+* 每當at.js設定`secureOnly`設為`true`時，新增安全屬性至Cookie。
+* 現在使用`triggerView()`時可使用回應Token。
+* 修正了與`CONTENT_RENDERING_NO_OFFERS`事件相關的問題。 現在，只要沒有從[!DNL Target]傳回任何內容，就會正確觸發此事件。
+* [!DNL Anlytics for Target] (A4T)使用請求時可正確傳回點按量度詳細 `prefetch` 資料。
+* UUID產生不再使用`Math.random()`，而是需要`window.crypto`。
+* 每個網路呼叫的`sessionId` Cookie過期都已正確延伸。
+* [!UICONTROL 單頁應用程式](SPA)檢視快取初始化現在已正確處理，並遵循`viewsEnable`設定。
 
 ## at.js 2.5.0（2021年5月13日）
 
