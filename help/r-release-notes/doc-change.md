@@ -1,10 +1,10 @@
 ---
 keywords: target 文件變更記錄;文件更新;新主題;編輯;更新;更新
 description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
-title: 我可以在哪裡檢視 Target 文件更新？
+title: 我可以在哪裡看到Target的檔案更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 70%
