@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡檢視 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 71%
+source-wordcount: '1845'
+ht-degree: 70%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 71%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 19 年 7 月 | [分類 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 新增事件代碼–1或65535的相關資訊。 |
 | 16 年 7 月 | [Target版本說明（最新）](/help/r-release-notes/release-notes.md)<br><br>[和at.js版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.6.0 版的資訊。 |
 |  | [疑難排解增強體驗撰 [!UICONTROL 寫器的相關問題]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | 將IP位址清單更新為允許清單。 |
 | 12 年 7 月 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 新增下列事件的相關資訊：<ul><li>網路研討會：量化整合Adobe Analytics + [!DNL Adobe Target]的顯著ROI、洞察和節省時間。</li><li>[!DNL Adobe Target] 社區問答茶歇定於2021年7月21日星期三上午8時舉行(PDT, GMT-7)。</li></ul> |
