@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: '發行說明 '
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 80%
+source-wordcount: '575'
+ht-degree: 84%
 
 ---
 
@@ -23,12 +23,6 @@ ht-degree: 80%
 | --- | --- |
 | Forrester | **Forrester Ｗave 在針對體驗最佳化平台提出的報告中，將 Adobe 列為業界領導者。**<br> Forrester Ｗave 在 2020 年第四季體驗最佳化平台報告中，將 Adobe 稱為業界領導者。Adobe 在所有參與目前產品與市場實力類別、以及推薦與平台體驗條件類別的廠商中均榮獲最高的分數。Target Premium 在體驗最佳化技術創新和支援服務標準上也獲得最高的分數。該報告係以 22 項標準，針對 10 家體驗最佳化平台供應商的完整評估為根據。<br>到 [Adobe 部落格](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)閱讀詳情。 |
 | Gartner | **Adobe 再度於 Gartner Magic Quadrant 的個人化引擎中被稱為領先業者。**<br> Adobe 再度於第三年度 Gartner Magic Quadrant 的個人化引擎 2020 年報告中被稱為領先業者。Gartner Magic Quadrant 針對個人化引擎就全部 15 項標準進行評估，這些標準可分為兩大類：洞察完整性與執行能力。<br>[到 Adobe 部落格閱讀詳情](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
-
-## 網路研討會：量化整合[!DNL Adobe Analytics] + [!DNL Adobe Target]的顯著ROI、洞察和節省時間
-
-* **2021年7月20日星期二**
-* **上午8點(PDT, UTC -7)**
-* **[按一下這裡以取得詳細資訊並註冊](https://www.adobeeventsonline.com/Webinar/2021/Quantifying/)。**
 
 ## [!DNL Adobe Target] 社區問答茶歇
 
