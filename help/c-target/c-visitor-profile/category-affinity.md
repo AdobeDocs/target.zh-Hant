@@ -1,24 +1,23 @@
 ---
 keywords: 相關性;類別相關性
-description: 瞭解Adobe [!DNL Target] 中的類別相似性，該相似性會自動擷取使用者瀏覽的類別，然後計算使用者對類別的相似性，以便定位和劃分類別。
-title: 什麼是類別相似性？
+description: 了解Adobe [!DNL Target] 中的類別相關性，該相關性會自動擷取使用者造訪的類別，然後計算使用者與類別的相關性，以便進行定位和劃分。
+title: 類別相關性為何？
 feature: 對象
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 94%
+source-wordcount: '793'
+ht-degree: 74%
 
 ---
 
 # 類別相關性
 
-類別相關性功能可自動擷取使用者瀏覽的類別，並計算使用者與此類別的相似性，以便進行定位與劃分。這協助您確保內容可以定位給最有可能對該資訊採取行動的訪客。
+[!DNL Adobe Target]中的類別相關性功能會自動擷取使用者瀏覽的類別，然後計算使用者與該類別的相關性，以便進行定位和劃分。 類別相關性有助於確保將內容鎖定在最有可能對該資訊採取行動的訪客。
 
 ## 將類別相關性資訊傳入 [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-每當有使用者造訪您的網站時，這位訪客專屬的設定檔參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。其中一個特別實用的參數是 `user.categoryId`，這是在產品頁面上指派的 mbox 參數。當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以將類別資訊作為 Mbox 參數 `user.categoryId` 傳遞至任何 Mbox 中 (包括巢狀 Mbox) 來進行記錄，如同 URL 參數 `user.categoryId`，或傳遞至具有全域 Mbox 的 Target 頁面參數中。請洽詢您的客戶代表以取得更多詳細資訊。
+每當有使用者造訪您的網站時，這位訪客專屬的設定檔參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。其中一個實用參數是`user.categoryId`，這是在產品頁面上指派的mbox參數。 當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以將類別資訊作為 Mbox 參數 `user.categoryId` 傳遞至任何 Mbox 中 (包括巢狀 Mbox) 來進行記錄，如同 URL 參數 `user.categoryId`，或傳遞至具有全域 Mbox 的 Target 頁面參數中。請洽詢您的客戶代表以取得更多詳細資訊。
 
 使用逗號分隔類別，以在多個類別中包含某個項目。例如:
 
@@ -30,7 +29,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->用於 Adobe Target 的類別相關性演算法的 `user.categoryId` 屬性，不同於用於 Adobe Target Recommendations 的產品和內容建議的 `entity.categoryId` 屬性。需要 `user.categoryId`，才能追蹤使用者最喜愛的類別。需要 `entity.categoryId`，才能讓建議以目前頁面或目前項目的類別為依據。若要同時使用這兩項功能，請將這兩個值傳送至 Adobe Target。
+>用於類別相關性演算法的`user.categoryId`屬性與用於[!DNL Adobe Target Recommendations]&#39;產品和內容建議的`entity.categoryId`屬性不同。 需要 `user.categoryId`，才能追蹤使用者最喜愛的類別。需要 `entity.categoryId`，才能讓建議以目前頁面或目前項目的類別為依據。若要同時使用這兩項功能，請將這兩個值傳送至 Adobe Target。
 
 ## 類別相關性的商業案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -44,10 +43,10 @@ ht-degree: 94%
 
 類別相關性演算法的運作方式如下:
 
-* 第一個類別檢視能獲得 10 點
-* 後續每個類別點擊能獲得 5 點
+* 第一個類別檢視的10點
+* 第一個類別之後，每個類別點擊的點數為5點
 * 每點擊一個新類別，系統會從先前點擊過的所有類別中扣除 1 點
-* 如果類別曾點擊 (檢視) 過，即使再點擊一次系統也不會從其他所有類別中扣除 1 點
+* 如果類別已點按（已檢視），再按一次並不會從其他所有類別中減去1
 * 如果點擊第六個新類別，前五個類別中得分最低的類別會排除在計算之外
 * 作業結束時，所有值除以 2
 
@@ -87,7 +86,7 @@ ht-degree: 94%
 
 * `accessories`: 3.3 (6.5/2)
 
-* `womens-clothing`:2.5(5/2)
+* `womens-clothing`:2.5 (5/2)
 
 * `jewelry`: 2.3 (4.5/2)
 
@@ -97,16 +96,11 @@ ht-degree: 94%
 
 ## 使用類別相關性來鎖定目標 {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
-可協助您對活動中的鎖定目標使用[!UICONTROL 類別相關性]對象的資訊。
+以下小節包含的資訊可協助您使用類別相關性對象來鎖定活動中的目標。
 
-本節包含下列資訊:
+### 建立對象來使用類別相關性 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-* [建立對象來使用類別相關性](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [在活動中使用類別相關性對象](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
-
-## 建立對象來使用類別相關性 {#section_A27C600BBA664FE7A74F8FE076B78F40}
-
-1. 從&#x200B;**[!UICONTROL 「對象」]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL 「+ 建立對象」]**。
+1. 從&#x200B;**[!UICONTROL 對象]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL 建立對象]**。
 
    或
 
@@ -131,9 +125,9 @@ ht-degree: 94%
    * 第四個類別
    * 第五個類別
 
-   「我的最愛類別」和「第一個類別」選項是相同的。
+   「最喜愛的類別」和「第一個類別」選項是相等的。
 
-1. 選擇評估工具:
+1. 選擇求值器：
 
    * 包含 (不區分大小寫)
    * 不包含 (不區分大小寫)
@@ -142,6 +136,6 @@ ht-degree: 94%
 1. 以個別一行指定每一個新的值 (例如，&quot;shoes&quot;)。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 在活動中使用類別相關性觀眾 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
+### 在活動中使用類別相關性觀眾 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-您可以在任何活動中使用「類別相關性」對象。在三步驟引導式工作流程期間，於 Target 步驟上選擇所需的對象。
+您可以在任何活動中使用類別相關性對象。 在三步驟引導式工作流程期間，在[!UICONTROL Target]步驟上，選擇所需的對象。
