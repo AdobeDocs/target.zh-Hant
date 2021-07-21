@@ -4,9 +4,9 @@ description: 了解如何針對特定條件下，Adobe [!DNL Target] 可視化�
 title: 如何疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題？
 feature: 可視化體驗撰寫器 (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 49%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 49%
 
 請注意使用下列Chrome版本時會影響VEC和EEC的變更：
 
+>[!NOTE]
+>
+>下列變更會影響下列三項更新：
+>
+> * *not*&#x200B;是否能在其網站的受密碼保護頁面中使用VEC（安裝或未安裝VEC Helper擴充功能並啟用）。 您的網站登入Cookie會視為第三方Cookie，並會隨登入請求傳送。 唯一的例外是您的網站登入Cookie已將SameSite參數設為「none」時。
+
+
 **Chrome 94（2021年9月21日）**:隨著Chrome 94版本（2021年9月21日）預計即將進行的變更，下列變更將影響所有使用Chrome 94以上版本瀏覽器的使用者：
 
 * 將刪除命令行標籤`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`。
@@ -29,7 +36,6 @@ ht-degree: 49%
 
 **Chrome 80（2020年8月）**:自2020年8月實作的變更後，所有使用Chrome 80以上版本瀏覽器的使用者：
 
-* *not*&#x200B;是否能在其網站的受密碼保護頁面中使用VEC（安裝或未安裝VEC Helper擴充功能並啟用）。 您的網站登入Cookie會視為第三方Cookie，並會隨登入請求傳送。 唯一的例外是您的網站登入Cookie已將SameSite參數設為「none」時。
 * 編輯活動時（當活動尚未在網站上時）, *not*&#x200B;是否能下載[!DNL Target]程式庫。 這是因為下載呼叫從客戶網域向安全Adobe網域進行，並會以未驗證的形式拒絕。
 * EEC將為所有使用者&#x200B;*not*&#x200B;函式，因為它無法為`adobemc.com domain`上的Cookie設定SameSite屬性。 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
 
