@@ -1,24 +1,23 @@
 ---
 keywords: 鎖定目標;網路;目標網路;isp;網域名稱;連線速度;目標 isp;目標網域名稱;目標連線速度
-description: 瞭解如何根據網路詳細資訊（例如ISP、網域名稱和連線速度）在Adobe [!DNL Target] 中建立觀眾。
-title: '我是否可以根據網路選項來選擇訪客？ [!DNL Target] '
+description: 了解如何根據網路詳細資訊在 [!DNL Adobe Target] 中建立對象。
+title: 我可以根據網路選項定位訪客嗎？
 feature: 對象
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 94%
+source-wordcount: '517'
+ht-degree: 78%
 
 ---
 
 # 網路
 
-您可以根據網路詳細資料建立對象。
+您可以根據網路詳細資訊（例如ISP、網域名稱和連線速度），在[!DNL Adobe Target]中建立對象。
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
-1. 為對象命名。
-1. 按一下「**[!UICONTROL 新增規則]** > **[!UICONTROL 網路]**」。
+1. 為對象命名並新增選用說明。
+1. 將&#x200B;**[!UICONTROL Network]**&#x200B;拖放至對象產生器窗格。
 1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * **ISP:** ISP 是一個為用戶提供網際網路存取的機構，通常是繳月費或年費。許多 ISP 都提供額外服務，例如虛擬主機或電子郵件。ISP 欄位是商業 ISP (例如 Comcast 或 TimeWarner) 或另一個實體，例如商業或教育機構。
@@ -47,13 +46,13 @@ ht-degree: 94%
 
       您可以測試 ISP 和網域名稱值。[](https://www.whoismyisp.org)https://www.whoismyisp.org 是鎖定目標用途上不錯的資源。您可以使用上表提供的 IP 位址範例，或輸入您自己的 IP 位址。然後使用 `mboxOverride.browserIp= URL` 參數來模擬該 IP 位址。
 
-   * **網域名稱:**&#x200B;這是訪客 IP 位址的網域名稱。不是您在 [!DNL Target] 中使用的網站的網域名稱。此網域名稱與訪客的 IP 位址有關，有時稱為主機名稱。通常很類似 ISP 名稱。如果公司已更改 ISP 名稱，但未變更網域名稱，則主機名稱有時是指公司的舊名稱。
-   * **連線速度:**&#x200B;這是訪客連接至網際網路的速度。選項包括: 寬頻、纜線、撥接、行動裝置、oc3、oc12、衛星、t1、t2、無線和 xdsl。
+   * **網域名稱：** 此名稱是訪客IP位址的網域名稱。此名稱不是您在[!DNL Target]中使用的網站的域名。 此網域名稱與訪客的 IP 位址有關，有時稱為主機名稱。與ISP名稱類似。 如果公司已更改 ISP 名稱，但未變更網域名稱，則主機名稱有時是指公司的舊名稱。
+   * **連線速度：** 此速度是訪客與網際網路的連線速度。選項包括: 寬頻、纜線、撥接、行動裝置、oc3、oc12、衛星、t1、t2、無線和 xdsl。
 
       此欄位是根據連線的類型，而不是本身的實際速度。[!DNL Target] 無法判斷連線的確切連線速度。當沒有出現其他連線類型而無法選擇特定類型時，就會使用寬頻連線類型。
 
-1. (可選) 按一下&#x200B;**[!UICONTROL 「新增規則」]**&#x200B;並設定對象的其他規則。
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. （選用）為對象設定其他規則。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 下圖顯示將目標鎖定於使用 AT&amp;T 且連線速度為[!UICONTROL 行動]之訪客的受眾。
 
