@@ -1,18 +1,18 @@
 ---
 keywords: 培訓;認證;目標;線上課程;課程;課程;課程
-description: 尋找Adobe培訓服務提供的Adobe [!DNL Target] 課程和認證。
+description: 尋找 Adobe 培訓服務提供的 Adobe [!DNL Target] 課程與認證。
 title: 在哪裡可以找到培訓和認證課程？
 feature: 總覽
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# 訓練與認證
+# 培訓與認證
 
 Adobe Training 服務提供 Adobe 產品與解決方案 (包括Adobe Target) 的 Adobe Target 課程與認證。
 
