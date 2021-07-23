@@ -5,10 +5,10 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 96%
+source-wordcount: '1215'
+ht-degree: 95%
 
 ---
 
@@ -118,6 +118,10 @@ ht-degree: 96%
 * **上限**：每個體驗鎖定目標 (XT)、A/B 測試、多變數測試 (MVT) 和自動鎖定目標活動最多 2,000 個體驗。
 
    每個 Automated Personalization (AP) 活動最多 30,000 個體驗。
+
+### 根據體驗進行修改
+
+* **上限**:任何活動上的每個體驗50個
 
 ## mboxes
 
