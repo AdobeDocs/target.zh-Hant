@@ -21,7 +21,7 @@ ht-degree: 95%
 
 * **Adobe Experience Platform Web SDK:** Experience Platform [Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK是新的用戶端JavaScript程式庫。Experience PlatformWeb SDK可讓[!DNL Adobe Experience Cloud]的客戶透過[!DNL Experience Platform]邊緣網路與[!DNL Experience Cloud]（包括[!DNL Target]）中的各種服務互動。 Adobe 建議所有的新 [!DNL Target] 客戶實施 [!DNL Experience Platform Web SDK]。
 * **at.js：** at.js 程式庫是新的 [!DNL Target]實施程式庫。at.js 程式庫改善 Web 實施的頁面載入時間，並且為單頁應用程式提供更好的實施選項。at.js 經常更新以包含新功能。Adobe 建議所有使用 at.js 的客戶更新其實施至[ at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **mbox.js：** mbox.js 程式庫是舊的 [!DNL Target]實施程式庫。2021年3月31日後，不再支援mbox.js資料庫。
+* **mbox.js：** mbox.js 程式庫是舊的 [!DNL Target]實施程式庫。2021年3月31日後，將不再支援mbox.js資料庫。
 
 在您網站的每個頁面上參閱 [!DNL Experience Platform Web SDK] 或 at.js。例如，您可以將其中一個程式庫新增至全域標題。或者，考慮使用 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html??lang=zh-Hant) 來實施 [!DNL Target]。
 
