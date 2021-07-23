@@ -1,14 +1,14 @@
 ---
 keywords: insider 電子報;電子報;產品更新;提示和訣竅;事件;客戶成功;部落格;部落格;白皮書;白皮書
 description: 閱讀有關 Adobe Target 的最新消息。找出有關近期事件、客戶成功故事、專家提示資訊，以及其他方面的資訊。
-title: 什麼是Adobe [!DNL Target] 內線電子報？
+title: 什麼是 Adobe [!DNL Target] Insider 電子報？
 feature: 發行說明總覽
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Target Insider 是針對 Adobe Target 社群成員的每月電子報。瞭
 
 >[!IMPORTANT]
 >
->[註冊以在收件匣自動收到 Adobe Target Insider 電子報](https://www.adobe.com/tw/subscription/adobe_target_newsletter.html)。
+>[註冊以在收件匣自動收到 Adobe Target Insider 電子報](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
 
 如果您錯過了之前的電子報，請按一下以下連結，確保不會錯過任何內容:
 
