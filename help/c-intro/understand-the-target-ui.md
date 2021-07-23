@@ -1,18 +1,18 @@
 ---
 keywords: 目標使用者界面;使用者界面;ui
 description: 熟悉使用者界面，找到更多深入資訊的連結以協助充分運用 Target。
-title: 如何使用 [!DNL Target] UI?
+title: 如何使用 [!DNL Target] UI？
 feature: 總覽
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 瞭解[!DNL Target] UI
+# 了解 [!DNL Target] UI
 
 使用者介面以邏輯且方便使用的格式排列，以協助您充分運用 [!DNL Adobe Target]。以下簡短概述將協助您熟悉 [!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
 
