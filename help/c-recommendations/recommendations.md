@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations;Recommendations 條件;建議演算法;recommendations 活動;條件;recommendations 鎖定目標;recs
-description: 瞭解Adobe中的Recommendations活動 [!DNL Target] ，這些活動可根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的內容。
-title: 什麼是 [!DNL Target] Recommendations?
+description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
+title: 什麼是  [!DNL Target] Recommendations？
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
