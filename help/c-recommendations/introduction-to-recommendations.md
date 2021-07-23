@@ -1,14 +1,14 @@
 ---
-keywords: Recommendations;介紹;介紹;研討會;示範
-description: 瞭解Adobe中的Recommendations活動 [!DNL Target] ，這些活動可根據先前的使用者活動或其他演算法自動顯示可能吸引客戶的內容。
+keywords: Recommendations;介紹;簡介;研討會;示範
+description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
 title: 什麼是 Recommendations 活動？
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 * **精密的模型**，將目錄和互動事件中的數百萬個項目轉換成有意義的資料。[!DNL Target] 具有根據長達十年經驗所打造的精密機器學習功能，而且我們每年處理數十億個建議。
 * **使用者內容**，確保可為使用者提供及時且相關的建議。您不會想要建議某個使用者剛看過的影片，或某位使用者剛新增至其購物車的襯衫。Target 的豐富使用者設定檔可用於建議，以確保提供個人化內容。
 
-## 實施[!DNL Target]Recommendations
+## 實作 [!DNL Target] Recommendations
 
 首先，請從策略開始。
 
@@ -195,6 +195,6 @@ Target 使用條件卡的概念。條件卡就像個人化的方式。
 
 在您如上所述完成建議漏斗插圖中的工作後，就剩下最終建議了。若要觀看 [!DNL Target] 內的產品內示範，此示範會在 21:00 於 *Adobe Target 基礎網路研討會*&#x200B;中開始進行，連結如下。
 
-## Adobe[!DNL Target]基礎網路研討會：Recommendations簡介{#intro-to-recs}
+## Adobe [!DNL Target] 基礎網路研討會：Recommendations 簡介 {#intro-to-recs}
 
 [Recommendations 簡介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
