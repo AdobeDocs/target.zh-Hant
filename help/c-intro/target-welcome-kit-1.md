@@ -1,14 +1,14 @@
 ---
-keywords: 歡迎套件;target 歡迎套件;介紹;介紹;開始
-description: 使用 Adobe Target 開始您的最佳化和個人化計劃。Adobe [!DNL Target] 歡迎套件是一個好的起點。
+keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
+description: 使用 Adobe Target 開始您的最佳化和個人化計劃。Adobe [!DNL Target] 歡迎套件是開始的好地方。
 title: 如何開始使用 Target？
 feature: 總覽
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
