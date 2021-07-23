@@ -1,14 +1,14 @@
 ---
-keywords: 歡迎套件;target 歡迎套件;介紹;介紹;開始
-description: 只需使用「執行摘要結果」範本，即可協助您與Adobe [!DNL Target] 活動溝通成功。
-title: 如何與我的組織分享我的 [!DNL Target] 活動結果？
+keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
+description: 使用執行摘要結果範本協助您傳達 Adobe [!DNL Target] 活動的成功結果。
+title: 如何與我的組織分享我的 [!DNL Target] 活動成果？
 feature: 總覽
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
