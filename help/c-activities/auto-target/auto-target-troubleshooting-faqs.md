@@ -69,7 +69,7 @@ No, check marks for model generation show only the models built to date. There's
 
 如果您想對 [!UICONTROL 自動鎖定目標] 活動中的內容進行重大改變，最佳實務是啟動新的活動，使其他檢閱報告的使用者不會將過去的結果與不同內容混淆或聯繫起來。
 
-### 模型建置需要等候多久？  {#how-long}
+### 模型建置需要等候多久？ {#how-long}
 
 在 [!UICONTROL 自動鎖定目標] 活動中建立模型所需的時間，通常取決於流向您所選活動位置的流量，以及與您的活動成功量度關聯的轉換率。
 
@@ -97,7 +97,7 @@ No, check marks for model generation show only the models built to date. There's
 
 如需詳細資訊，請參閱[使用特定體驗作為控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
-### 我可以透過自動鎖定目標活動半途變更目標量度嗎？ {#change-metric}
+### 我可以透過自動鎖定目標活動半途變更目標量度嗎？  {#change-metric}
 
 我們不建議您透在活動中途變更目標量度。雖然在活動期間有可能使用 [!DNL Target] UI 變更目標量度，您應該總是開始一個新的活動。我們不保證您在活動開始執行後變更目標量度會發生什麼事。
 
