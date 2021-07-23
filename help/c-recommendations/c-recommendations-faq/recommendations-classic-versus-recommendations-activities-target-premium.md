@@ -1,18 +1,18 @@
 ---
-keywords: 建議;建議演算法;recommendations 活動;recommendations classic
-description: 閱讀相關資訊，協助您瞭解 [!DNL Target] Premium中舊版Recommendations經典與Recommendations活動之間的差異。
-title: 《Recommendations經》與《Recommendations經》在 [!DNL Target] Premium》中的區別何在？
+keywords: Recommendations;recommendations 演算法;recommendations 活動;recommendations classic
+description: 檢閱資訊，以協助您了解舊 Recommendations Classic 與 Recommendations activities in [!DNL Target] Premium 之間的差異。
+title: Recommendations Classic 與 Recommendations in [!DNL Target] Premium 之間有何差異？
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMRecommendations Classic與 [!DNL Target] Premium中的Recommendations活動
+# ![PREMIUM](/help/assets/premium.png) Recommendations Classic 與 Recommendations activities in [!DNL Target] Premium 的比較
 
 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
 
@@ -61,7 +61,7 @@ ht-degree: 94%
 1. 選取預先建立的[設計](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 1. 預覽建議結果。
 
-## 視覺預覽  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## 視覺預覽 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 設定建議之後即可預覽，並進行任何必要的變更，而不需要先在頁面上建立，然後再測試。從 [!DNL Target] 內可以使用預覽。
 
