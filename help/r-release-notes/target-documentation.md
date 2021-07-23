@@ -1,14 +1,14 @@
 ---
 keywords: adobe target;target;文件;api;apis;sdk;sdks;教學課程;doc;文件
-description: 存取Adobe [!DNL Target] 檔案，包括線上說明、教學課程、影片和開發人員檔案（SDK、API和JavaScript程式庫）。
+description: 存取 Adobe [!DNL Target] 文件，包括線上說明、教學課程、影片和開發人員文件 (SDK、API 和 JavaScript 程式庫)。
 title: 我可以在哪裡找到 Target 文件？
 feature: 發行說明
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 | 文件類型 | 說明 |
 | --- | --- |
 | [Adobe Target 產品文件](/help/target-home.md)<br> (本指南) | 總覽資訊、步驟和螢幕擷取畫面，重點是透過使用者介面與 [!DNL Target] 互動。本指南概述所有可用的動作和選項，包括要避免的「疑問」。這是使用 [!DNL Target] UI 時最詳細的資源。 |
-| [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant) | 影片和教學課程可協助您學習 [!DNL Target] 的許多元件。 |
+| [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html??lang=zh-Hant) | 影片和教學課程可協助您學習 [!DNL Target] 的許多元件。 |
 | [Adobe Experience League Target 內容庫](https://guided.adobe.com/#recommended/solutions/target) | 收集許多操作說明影片和教學課程，說明 [!DNL Adobe Target Experience League] 頁面上可用的 [!DNL Target] 功能。 |
 | [Adobe Experience Platform Launch Target 文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 有關使用 [!DNL Adobe] 的下一代標記管理平台 [!DNL Adobe Experience Platform Launch] 來實施 [!DNL Target] 的資訊 。這是實施 [!DNL Target] 的偏好方法。 |
 | [Adobe 客戶服務營業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 有關 Adobe 客戶服務團隊主導的計劃「營業時間」的資訊。這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。 |
