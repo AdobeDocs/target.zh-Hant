@@ -1,13 +1,13 @@
 ---
 keywords: 回應Token;Token；外掛程式；外掛程式；at.js；回應
-description: 了解如何在Adobe [!DNL Target] 輸出特定資訊中使用回應Token，以用於除錯及與第三方工具整合。
+description: 了解如何在 [!DNL Adobe Target] 中使用回應Token，以輸出特定資訊，以進行除錯並與協力廠商工具整合。
 title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 27%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 27%
 
 只有[!DNL Target] [!UICONTROL 管理員]角色的使用者才可啟動或停用回應Token。
 
-**如果我執行[!DNL Platform Web SDK] 2.6.0（或更舊版本），會發生什麼情況？
+**如果我執行2.6. [!DNL Platform Web SDK] 0（或更舊版本），會發生什麼事？**
 
 您無權存取回應Token。
 
