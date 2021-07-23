@@ -1,36 +1,36 @@
 ---
-keywords: 概述和參考；活動類型；簡介
-description: 了解 Adobe Target 的基本內容。本文將向您介紹Target、其活動類型及其他功能。
+keywords: 總覽和參考資料;活動類型;簡介
+description: 了解 Adobe Target 的基本概念。 此文章向您介紹 Target、其活動類型和其他功能。
 title: 如何使用 Target？
 feature: 總覽
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1528'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Target 重要概念
 
-有關有助於您瞭解[!DNL Adobe Target]功能的主要概念的資訊。
+可能幫助您了解 [!DNL Adobe Target] 特色與功能之重要概念的相關資訊。
 
 ## 活動和測試 {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 活動會決定網站訪客可能遇到的體驗。
 
-例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個以一般夏季服飾為主。此活動會決定條件來控制各個登陸頁面何時出現，也會決定量度來判斷哪個頁面較成功。活動設定為在符合特定條件時開始和結束。 這些條件可包括在特定日期之間開始和結束活動，或在活動核準時開始，或在活動停用時結束。
+例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個以一般夏季服飾為主。此活動會決定條件來控制各個登陸頁面何時出現，也會決定量度來判斷哪個頁面較成功。此活動設定為在符合特定條件時開始和結束。 這些條件可包含在特定日期之間開始和結束活動，或是在活動核准時開始以及在活動停用時結束。
 
-設計活動時請謹慎規劃。 確定活動何時開始及持續多久。 然後，列出您的選件並分別將目標對象指定至每個選件。
+在設計活動時，請仔細規劃。 決定活動何時開始及持續時間多長。 然後，列出您的選件並將目標對象指派給每個選件。
 
-Target 包含數種活動類型。下表提供每種活動類型的概覽，以及可協助您深入瞭解的連結。為協助您更好地為您選擇最佳活動類型，Target團隊還建立了[Adobe Target活動指南](/help/c-activities/target-activities-guide.md)。
+Target 包含數種活動類型。下表提供每種活動類型的概覽，以及可協助您深入瞭解的連結。為協助您更好地選擇適用於您的用途的最佳活動類型，Target 團隊也建立了 [Adobe Target 活動指南](/help/c-activities/target-activities-guide.md)。
 
 | 活動類型 | 說明 |
 |--- |--- |
 | [A/B 測試](/help/c-activities/t-test-ab/test-ab.md) | A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本在預先指定的測試持續時間最能改善您的轉換。<br>**注意：** 您現在可以[在 A/B 測試活動中包含 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [自動分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動分配會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。<br>**注意：** 您現在可以[在自動分配活動中包含 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
-| [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | Auto Target使用進階機器學習來識別多個高效能行銷人員定義的體驗。 Auto-Target活動會根據每位訪客的個別客戶個人檔案和先前具有類似個人檔案的訪客行為，為每位訪客提供最符合客戶需求的體驗，以個人化內容並推動轉化。<br>**注意：** 您現在可以[在自動鎖定目標活動中包含 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
+| [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 「自動鎖定目標」會使用進階機器學習，以識別多個高效能的行銷人員定義的體驗。 「自動鎖定目標」活動會根據其個別客戶設定檔及具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗，以實現內容個人化並促進轉換。<br>**注意：** 您現在可以[在自動鎖定目標活動中包含 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 資料](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以將活動設為使用 [!DNL Adobe Analytics] 作為報表來源。此活動類型需要您將 [!DNL Adobe Experience Cloud] 帳戶與 [!DNL Analytics] 和 [!DNL Target] 連結在一起。 |
 | [多變數測試](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多變數測試 (MVT) 會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。 |
 | [體驗鎖定目標](/help/c-activities/t-experience-target/experience-target.md) | 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。<br>**注意：** 您現在可以[在體驗鎖定活動中包含 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/c-intro/intro.md#premium)。 |
@@ -50,11 +50,11 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 位置結合對象，可提供幾乎無窮盡的選項，以鎖定客戶提供資訊。例如，假設訪客以前從來沒到過網站，則您可以向新客戶顯示優惠券。同樣地，可變更頁面來顯示更適合回訪客戶的選件。
 
-您也可以使用位置來追蹤訪客在您網站上的進度。 您也可以使用位置追蹤訪客是否完成特定成功度量，例如新增項目至購物車或完成購買。
+您也可以使用位置來透過您的網站追蹤訪客的進度。 您也可以使用位置來追蹤訪客是否已完成特定成功量度，例如新增商品到購物車或完成購買。
 
 ## 體驗和頁面設計 {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-體驗（有時稱為方式）會定義顯示在您頁面上的內容，以及其他頁面元素，例如連結。
+體驗 (有時又叫做配方) 可定義在您頁面上顯示的內容以及其他頁面元素，例如連結。
 
 體驗會決定符合特定鎖定條件時，特定位置會顯示哪個選件。例如，當再度訪問旳訪客造訪您的網站時，體驗會決定在頁面頂端顯示兩天運送期的選件。當首次造訪的訪客檢視頁面時，體驗也會決定在相同位置顯示 10% 折扣。
 
@@ -100,7 +100,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 |--- |--- |
 | 可重複使用的對象 | 可重複使用的對象可供任何活動選取。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
 | 自訂群體 | 自訂區段 (也稱為行銷活動專用區段) 專供 Target Classic 中的行銷活動使用。它們是某個促銷活動的一部分，不可在其他促銷活動中重複使用。 |
-| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用對象。參閲[對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)以取得範例。 |
+| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用對象。參閲[對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)以取得範例。 |
 
 如需瞭解訪客設定檔如何追蹤網站訪客的相關資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 
