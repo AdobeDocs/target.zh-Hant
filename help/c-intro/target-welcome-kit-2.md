@@ -1,18 +1,18 @@
 ---
-keywords: 歡迎套件;target 歡迎套件;介紹;介紹;開始
+keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
 description: 以高層級方式檢視 Adobe Target。了解可用的活動、頻道、實施、整合等。
 title: 在哪裡可以找到 Target 的高層級簡介？
 feature: 總覽
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2520'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 第二章：Adobe[!DNL Target]總覽
+# 第 2 章：Adobe [!DNL Target] 總覽
 
 在開始使用 [!DNL Adobe Target] 之前，先了解解決方案高層級概覽可能有所助益。在本章中，可以瞭解解決方案的主要功能、可使用解決方案的品牌拉觸點、實施選項、重要的使用者介面功能和工作流程、治理功能，及其在整體 [!DNL Adobe Experience Cloud] 中的角色。 除非註明為 [!DNL Adobe Target Premium] 功能，否則本章中說明的項目可同時用於 [!DNL Adobe Target Premium] 和 [!DNL Adobe Target Standard]。 如需更多資訊，請參閱 [Target 簡介](/help/c-intro/intro.md)。
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 | 自動分配 | 從兩個或多個體驗中識別出效能最佳的體驗，並自動重新分配更多流量給成功者以增加轉換，同時測試會繼續執行和學習。使用由 [!DNL Adobe Sensei] 提供支援的人工智慧。[了解詳情](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
 | 自動鎖定目標 <br>(Premium) | 運用 [!DNL Target] 中的 Adobe Sensei 人工智慧，根據個別客戶設定檔和先前具有類似設定檔的訪客行為，決定並提供每位訪客最佳體驗。 自動鎖定目標可讓您大規模個人化。[了解詳情](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | Automated Personalization <br>(Premium) | 使用由 [!DNL Adobe Sensei] 支援的進階機器學習演算法和自動化功能，檢視選件中影像、複製和其他元素的不同組合，並根據能最好地達成商業目標者 (例如每位訪客的轉換或收入增加)，為每位訪客提供最佳組合。 [了解詳情](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
-| 體驗鎖定 (XT) | 根據一組使用者定義的規則和標準，將內容傳送給特定的對象。 當您了解對象是有價值的，以及充分意識到哪些體驗會與之產生共鳴時，**[!UICONTROL Experience Targeting]** 對於鎖定特定體驗或內容並用於特定對象非常有用。[了解詳情](/help/c-activities/t-experience-target/experience-target.md)。 |
+| 體驗鎖定 (XT) | 根據一組使用者定義的規則和標準，將內容傳送給特定的對象。 當您了解對象是有價值的，以及充分意識到哪些體驗會與之產生共鳴時，**[!UICONTROL 體驗鎖定]**&#x200B;對於鎖定特定體驗或內容並用於特定對象非常有用。[了解詳情](/help/c-activities/t-experience-target/experience-target.md)。 |
 | 多變數測試 (MVT) | 比較頁面上或數位體驗中各種元素變化的可能組合——例如 3 種不同的背景影像、2 種不同複本和 2 種不同按鈕顏色。MVT 會決定哪些組合對特定對象具有最佳效能，以及哪些元素對結果的影響最大。[了解詳情](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | Recommendations<br>(Premium) | 使用 Adobe Sensei 人工智慧，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。[了解詳情](/help/c-recommendations/recommendations.md)。 |
 
