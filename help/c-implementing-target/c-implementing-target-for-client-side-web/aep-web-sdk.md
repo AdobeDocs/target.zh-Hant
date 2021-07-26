@@ -5,9 +5,9 @@ title: 如何使用Experience PlatformWeb SDK實作？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
+source-git-commit: 054ec2658e311e6eeae475ee02dbfce48242331f
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,5 @@ ht-degree: 4%
 
 | 主題 | 說明 |
 | --- | --- |
-| [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | [!DNL Adobe Target]中的QA URL可讓您執行簡易的端對端活動QA，具有永不變更的預覽連結、可選對象鎖定目標，以及與即時活動資料保持分段的QA報表。 在將[!DNL Target]活動啟動為現時之前，請先完全測試這些活動。<br>請參 [閱Target JavaScript程式庫 [!UICONTROL QA ] Modecompatibility](/help/c-activities/c-activity-qa/activity-qa.md#compatibility)。 |
-| [回應權杖](/help/administrating-target/response-tokens.md) | 回應Token可讓您將Target資料傳送至Google Analytics和其他第三方整合。<br>請參 [閱透過Platform Web SDK傳送資料至Google Analytics](/help/administrating-target/response-tokens.md#platform-web-sdk)。 |
-
+| [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 在[!DNL Adobe Target]中使用QA URL，來執行簡易的端對端活動QA，同時具有永不變更的預覽連結、可選對象鎖定目標，以及與即時活動資料保持分段的QA報表。 [!UICONTROL 活動] QA可讓您在將活動上線啟動 [!DNL Target] 之前，完全測試活動。 |
+| [回應權杖](/help/administrating-target/response-tokens.md) | 回應Token可讓您將Target資料傳送至Google Analytics和其他第三方整合。<br>請參 [閱透過Platform Web SDK傳送資料至Google Analytics](/help/administrating-target/response-tokens.md#platform-web-sdk) ，以了解如何完成此工作的程式碼範例。 |
