@@ -5,9 +5,9 @@ title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
+source-git-commit: b7e9fdb3bb6cd3edafc30e6d7efc749c14dc828d
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1613'
 ht-degree: 27%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 27%
 >[!NOTE]
 >
 >回應Token可與at.js 1.1版或更新版本搭配使用。
-
->[!IMPORTANT]
->
->未來版本（日期待定）中將提供[!DNL Adobe Experience Platform Web SDK]回應Token。 以下說明檔案說明回應Token和Platform Web SDK為潛在尖峰。
 
 | Target SDK | 建議的動作 |
 |--- |--- |
