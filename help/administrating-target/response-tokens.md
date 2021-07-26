@@ -1,13 +1,13 @@
 ---
-keywords: 回應Token;Token；外掛程式；外掛程式；at.js；回應
+keywords: 回應Token; Token；外掛程式；at.js；回應；平台Web Sdk
 description: 了解如何在 [!DNL Adobe Target] 中使用回應Token，以輸出特定資訊，以進行除錯並與協力廠商工具整合。
 title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 27%
 
 ---
