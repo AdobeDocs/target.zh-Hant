@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡看到Target的檔案更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: 92c8637ac8c2ce925e0c16b726b76451a4691904
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 69%
+source-wordcount: '1956'
+ht-degree: 68%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 69%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 26 年 7 月 | [將Adobe Target與Platform Web SDK搭配](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) 使用Adobe Experience Platform  *Web SDK概述* 指南 | 新增區段:<ul><li>平台Web SDK系統圖</li></ul> |
 | 23 年 7 月 | [疑難排解 Visual Experience Composer 和 Enhanced Experience Composer 的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新下列章節以提供詳細資訊：<ul><li>Google Chrome SameSite Cookie實施原則對VEC和EEC有何影響？</li></ul> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 在「體驗」下新增「每個體驗的修改」一節。 |
 | 21 年 7 月 | [疑難排解 Visual Experience Composer 和 Enhanced Experience Composer 的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新下列章節：<ul><li>Google Chrome SameSite Cookie實施原則對VEC和EEC有何影響？</li></ul> |
