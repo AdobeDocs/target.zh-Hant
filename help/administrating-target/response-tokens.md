@@ -5,7 +5,7 @@ title: 什麼是回應Token？如何使用？
 feature: 管理與設定
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 27%
@@ -84,7 +84,7 @@ ht-degree: 27%
 
 您用來監聽[!DNL Target]回應和讀取回應Token的程式會因您有[!DNL Platform Web SDK]還是at.js實作而異。
 
-### ![Adobe Experience Platform Web SDK使](/help/assets/platform.png) [!DNL Platform Web SDK] 用Handle物件類別
+### ![Adobe Experience Platform Web SDK使](/help/assets/platform.png) [!DNL Platform Web SDK] 用Handle物件類別 {#platform-web-sdk}
 
 使用Handle對象類，該類具有元資料對象和資料對象，以偵聽[!DNL Target]響應並讀取響應Token。
 
