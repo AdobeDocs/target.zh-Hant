@@ -5,9 +5,9 @@ title: 如何使用Experience PlatformWeb SDK實作？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
+source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 * 欲知全面資訊：[什麼是Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * 有關[!DNL Target]的特定資訊：[Target概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 
-## 本指南中的建議檔案
+## 建議檔案
 
 除了上述[!DNL Platform Web SDK]檔案，本指南中的主題也包含與[!DNL Platform Web SDK]功能相關的特定資訊。[!DNL Target]
 
@@ -32,5 +32,5 @@ ht-degree: 6%
 | [對象](/help/c-target/target.md) | [!DNL Adobe Target]中的對象會決定誰可以看到鎖定目標活動中的內容和體驗。<br>請參 [閱使用對象](/help/c-target/c-audiences/audiences.md#use-list) 清單 [合併多個對象](/help/c-target/combining-multiple-audiences.md)。 |
 | [重新導向選件 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 重新導向選件會導致訪客的瀏覽器重新導向至新頁面。<br>請參 [閱支 [!DNL Adobe Experience Platform Web SDK] 援A4T的重新導向選件嗎？](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [回應權杖](/help/administrating-target/response-tokens.md) | 回應Token可讓您將Target資料傳送至Google Analytics和其他第三方整合。<br>請參 [閱透過Platform Web SDK傳送資料至Google Analytics](/help/administrating-target/response-tokens.md#platform-web-sdk) ，以了解如何完成此工作的程式碼範例。 |
-| [實作單頁應用程式](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Adobe Experience Platform Web ] SDK提供豐富的功能，讓貴公司能以新世代用戶端技術(例如單頁應用程式(SPA))為基礎進行個人化。<br>本主題載於「平 *台網頁SDK* 概述」。 |
+| [Platform Web SDK概觀指](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 南中的單 *頁應用程* 式實作。 | [!UICONTROL Adobe Experience Platform Web ] SDK提供豐富的功能，讓貴公司能以新世代用戶端技術(例如單頁應用程式(SPA))為基礎進行個人化。 |
 | [TLS (傳輸層安全性) 加密變更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS（傳輸層安全性）可協助您維持最高的安全標準，並提升客戶資料的安全性。 |
