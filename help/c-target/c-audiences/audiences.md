@@ -4,7 +4,7 @@ description: 了解如何在 [!DNL Adobe Target]中使用[!UICONTROL Audiences]�
 title: 如何使用對象清單？
 feature: 對象
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 31%
@@ -30,7 +30,7 @@ ht-degree: 31%
 
    在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。如果您使用 [ Adobe Analytics 作為報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在 [!DNL Analytics] 內設定報表對象。
 
-## 使用[!UICONTROL Audiences]清單
+## 使用[!UICONTROL Audiences]清單 {#use-list}
 
 若要存取[!UICONTROL 「對象」]清單，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 「對象」]**:
 
