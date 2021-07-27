@@ -5,10 +5,10 @@ title: 實作前應先了解哪些事項？
 feature: 實施
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 65%
+source-wordcount: '117'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->Adobe客戶服務不支援修改at.js或Adobe Experience Platform Web SDK。
+>Adobe客戶服務不支援修改at.js或[!DNL Adobe Experience Platform Web SDK]。
 
 - [準備實作 Target](prepare-to-implement-target.md)
 - [隱私權](c-privacy/privacy.md)
