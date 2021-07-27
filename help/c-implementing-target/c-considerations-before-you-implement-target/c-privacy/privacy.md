@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理隱私權問題？'
 feature: 隱私權與安全性
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 68%
+source-wordcount: '728'
+ht-degree: 58%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 68%
 
 ## IP位址的收集 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-您網站訪客的 IP 位址將傳輸到 Adobe 資料處理中心 (DPC)。視訪客的網路設定而定，此 IP 位址不一定代表訪客電腦的 IP 位址。例如，該 IP 位址可能是網路位址轉譯 (NAT) 防火牆、HTTP Proxy 或內部閘道的外部 IP 位址。Target 不會儲存使用者的任何 IP 位址或任何個人身分識別資訊 (PII)。IP 位址僅在工作階段期間由 Target 使用 (記憶體內部，永不保留)。
+您網站訪客的 IP 位址將傳輸到 Adobe 資料處理中心 (DPC)。視訪客的網路設定而定，此 IP 位址不一定代表訪客電腦的 IP 位址。例如，該 IP 位址可能是網路位址轉譯 (NAT) 防火牆、HTTP Proxy 或內部閘道的外部 IP 位址。Target 不會儲存使用者的任何 IP 位址或任何個人身分識別資訊 (PII)。IP位址僅供Target在工作階段期間使用（記憶體中，永不保存）。
 
 ## 取代IP位址的最後八位數字 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 Adobe Target 啟用。啟用此設定時，當 Adobe 收集到 IP 位址時，就會立即隱藏 IP 位址的最後八位元 (最後一部分)。在對 IP 位址進行任何處理前 (包括選用的 IP 位址地理查閱)，就會執行這種匿名方式。
+Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 Adobe Target 啟用。啟用此設定時，當 Adobe 收集到 IP 位址時，就會立即隱藏 IP 位址的最後八位元 (最後一部分)。在處理IP位址前（包括選用的IP位址地理查閱），就會執行此匿名處理。
 
 啟用此功能時，IP 位址的匿名性已足夠，不再能識別為個人資訊。因此，Adobe Target 的使用便能遵守不允許收集個人資訊之國家/地區的資料隱私權法律。IP 位址模糊化可能會顯著影響城市層級資訊的取得。地區和國家層級資訊則只會受到輕微影響。
 
@@ -32,7 +32,7 @@ Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 
 * 最後八位數字：Target會隱藏IP位址的最後八位數字。
 * 完整IP:Target會隱藏整個IP位址。
 
-Target會收到完整IP位址，並依指定將其模糊化（若設為最後八位元或完整IP）。 然後，Target會在工作階段期間，將模糊化的IP位址保留在記憶體中。
+Target會收到完整IP位址，並依指定將其模糊化（若設為最後八位元或完整IP）。 然後，Target會在工作階段期間將模糊化的IP位址保留在記憶體中。
 
 >[!NOTE]
 >
@@ -60,6 +60,12 @@ https://my.cname.domain/optout?client=clientcode。
 訪客只要按一下此連結，就不會包含在任何從該訪客的瀏覽作業呼叫的 mbox 中，直到訪客刪除本身的 Cookie 或事隔滿兩年 (以先發生者為準) 為止。其原理是在 `disableClient` 中為訪客設定一個名稱為 `clientcode.tt.omtrdc.net` 的 Cookie。
 
 即使您使用第一方 Cookie 實作，所提供的選擇退出還是透過第三方 Cookie 來設定。若客戶僅使用第一方 Cookie，Target 會檢查是否有設定選擇退出 Cookie。
+
+## 功能使用資料的收集 {#feature-usage}
+
+為內部[!DNL Adobe]目的收集各個功能使用資料，以識別[!DNL Target]功能是否如預期執行，或識別未充分利用的功能。 收集延遲的各種測量資料，以幫助解決效能問題。 不會收集個人資料。
+
+您可以將設定檔案中的`telemetryEnabled`設為`false`，以選擇退出使用資料報表。
 
 ## 隱私權與資料保護規範
 
