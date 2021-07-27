@@ -5,10 +5,10 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1319'
+ht-degree: 88%
 
 ---
 
@@ -59,6 +59,24 @@ ht-degree: 95%
 ## categoryId 參數
 
 * **上限**：250 個字元。
+
+## 內容傳遞 {#content-delivery}
+
+* **上限**:100個同時 [!DNL Target] 傳送內容要求。
+
+   如果客戶超過指定用戶會話的100個併發[!DNL Target]內容傳送請求，則該用戶會話的所有後續請求都將被阻止。 如果在收到任何請求的響應之前，將向[!DNL Target]伺服器發送兩個或多個請求，則這些請求均視為併發。 [!DNL Target] 依序處理相同工作階段的同時請求。
+
+* **錯誤行為**:
+
+   * 傳送API和批次Mbox v2:
+      * 錯誤代碼：HTTP 420請求太多
+      * 錯誤訊息：&quot;請求數太多，具有相同的工作階段ID&quot;
+   * 舊版mbox API:
+      * 注釋為「請求太多，具有相同工作階段ID」的預設內容
+   * at.js:
+      * 顯示的預設內容
+
+
 
 ## 客戶屬性
 
