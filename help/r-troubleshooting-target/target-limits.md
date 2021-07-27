@@ -5,9 +5,9 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 88%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 88%
 
 ## 內容傳遞 {#content-delivery}
 
-* **上限**:100個同時 [!DNL Target] 傳送內容要求。
+* **上限**:每個使用者工 [!DNL Target] 作階段100個同時傳送內容要求。
 
    如果客戶超過指定用戶會話的100個併發[!DNL Target]內容傳送請求，則該用戶會話的所有後續請求都將被阻止。 如果在收到任何請求的響應之前，將向[!DNL Target]伺服器發送兩個或多個請求，則這些請求均視為併發。 [!DNL Target] 依序處理相同工作階段的同時請求。
 
