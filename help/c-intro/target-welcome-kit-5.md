@@ -5,7 +5,7 @@ title: 我可以從哪裡找到測試和個人化工作的靈感？
 feature: 總覽
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1054'
 ht-degree: 100%
 
