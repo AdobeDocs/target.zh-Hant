@@ -5,9 +5,9 @@ title: 使用 [!DNL Target] 的常見錯誤是什麼？要如何避免？
 feature: 總覽
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
