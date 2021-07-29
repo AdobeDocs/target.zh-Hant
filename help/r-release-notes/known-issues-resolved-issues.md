@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: 發行說明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '4390'
-ht-degree: 98%
+source-wordcount: '4419'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 98%
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節羅列 [!DNL Target] 的已知問題：
+
+### 增強體驗撰寫器(EEC)不支援PUT要求。
+
+EEC目前的問題導致其無法支援PUT要求，並導致504逾時錯誤。 (TGT-41493)
 
 ### [!DNL Adobe Experience Platform] 區段名稱不會顯示在「重要屬 [!UICONTROL 性」] 報表中。
 
