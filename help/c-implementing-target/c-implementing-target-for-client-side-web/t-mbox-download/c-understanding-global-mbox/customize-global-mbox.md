@@ -5,16 +5,16 @@ title: 如何自訂全域mbox?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 22%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # 自訂全域 mbox
 
-可協助您為at.js自訂全域mbox的資訊。
+可協助您為at.js自訂[!DNL Adobe Target]全域mbox的資訊。
 
 1. 按一下「**[!UICONTROL 管理]** > 「**[!UICONTROL 實施]**」。
 
@@ -40,4 +40,5 @@ ht-degree: 22%
 
    >[!IMPORTANT]
    >
-   >您帳戶中的所有活動都會與此mbox同步。 如果此mbox不在您的網站上，則所有活動都會停止運作。
+   >您帳戶中的所有活動都會與此mbox同步。 請確定全域mbox存在於您的網站上，讓活動可繼續運作。 請務必編輯並重新儲存使用與此mbox同步的可視化體驗撰寫器(VEC)建立的受影響活動。 不需要重新儲存在表單式體驗撰寫器中或透過API建立的活動。
+
