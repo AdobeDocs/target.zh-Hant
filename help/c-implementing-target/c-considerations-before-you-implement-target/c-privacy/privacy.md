@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理隱私權問題？'
 feature: 隱私權與安全性
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 58%
+source-wordcount: '669'
+ht-degree: 63%
 
 ---
 
@@ -60,12 +60,6 @@ https://my.cname.domain/optout?client=clientcode。
 訪客只要按一下此連結，就不會包含在任何從該訪客的瀏覽作業呼叫的 mbox 中，直到訪客刪除本身的 Cookie 或事隔滿兩年 (以先發生者為準) 為止。其原理是在 `disableClient` 中為訪客設定一個名稱為 `clientcode.tt.omtrdc.net` 的 Cookie。
 
 即使您使用第一方 Cookie 實作，所提供的選擇退出還是透過第三方 Cookie 來設定。若客戶僅使用第一方 Cookie，Target 會檢查是否有設定選擇退出 Cookie。
-
-## 功能使用資料的收集 {#feature-usage}
-
-為內部[!DNL Adobe]目的收集各個功能使用資料，以識別[!DNL Target]功能是否如預期執行，或識別未充分利用的功能。 收集延遲的各種測量資料，以幫助解決效能問題。 不會收集個人資料。
-
-您可以將設定檔案中的`telemetryEnabled`設為`false`，以選擇退出使用資料報表。
 
 ## 隱私權與資料保護規範
 
