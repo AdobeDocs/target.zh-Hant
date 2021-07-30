@@ -5,10 +5,10 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 88%
+source-wordcount: '1320'
+ht-degree: 86%
 
 ---
 
@@ -243,7 +243,7 @@ ht-degree: 88%
 
 ## productPurchasedId 參數
 
-* **限制**：每個逗號分隔值 47 個字元，總共 250 個字元。超過 47 個字元的個別值可能會被系統截斷。超過 250 個字元的總長度可能會導致 400 錯誤。
+* **限制**：每個逗號分隔值 50 個字元，總共 250 個字元。超過50個字元的個別值會遭到系統截斷。 長度超過250個字元的總計會產生400錯誤。
 
 ## 設定檔指令碼
 
