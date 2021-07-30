@@ -5,10 +5,10 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 86%
+source-wordcount: '1364'
+ht-degree: 83%
 
 ---
 
@@ -115,9 +115,15 @@ ht-degree: 86%
 
    多值實體自訂屬性不得包含超過 500 個值。每個個別值限定為 100 個字元以內。所有值的總字元數必須符合單值實體自訂屬性之長度上限的限制 (如上所述)。
 
-### entityID 參數
+### entity.id
 
-* **上限**：1,000 個字元。
+* **需要擷取購買資訊的實作限制**:50個字元。
+
+   由於`productPurchasedId` mbox參數會擷取entity.ids，因此字元計數限制為50，因此會強制執行此限制。
+
+* **僅需檢視型演算法的實作限制：**:1,000個字元。
+
+   基於檢視的演算法包括檢視/檢視、最常檢視、最近檢視等。
 
 ## excludedIds {#excludedid}
 
