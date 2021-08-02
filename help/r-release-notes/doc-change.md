@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡看到Target的檔案更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '2045'
-ht-degree: 67%
+source-wordcount: '2064'
+ht-degree: 66%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 67%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8 月 2 日 | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：<ul><li>使用A4T自動分配活動的流量分佈</li></ul> |
 | 30 年 7 月 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新下列章節：<ul><li>entity.id</li><li>productPurchasedId 參數</li></ul> |
 | 29 年 7 月 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增[!DNL Adobe Target]社群問答茶歇的相關資訊：2021年8月11日星期三。 |
 |  | [自訂全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新重要備注，指出您必須在自訂全域mbox後，編輯並重新儲存在VEC中建立的受影響活動。 |
