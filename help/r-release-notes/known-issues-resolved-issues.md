@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: 發行說明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 97%
+source-wordcount: '4480'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 97%
 
 以下小節羅列 [!DNL Target] 的已知問題：
 
+### 使用A4T自動分配活動的流量分佈 {#aa-a4t}
+
+在某些情況下，使用[!UICONTROL Analytics for Target](A4T)的[!UICONTROL 自動分配]活動的流量分佈，可能會因每個體驗回報的轉換率而有所不同。 回訪訪客流量比例較高的活動更常發生此情況。 受影響的客戶將會收到受影響活動的通知。 (TOP-131)
+
+### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
+
+[!DNL Target] UI 可讓使用者選擇不支援的參與和收入量度，作為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動中最佳化的主要目標量度。 支援轉換量度；&#x200B;*不*&#x200B;支援參與和收入量度。如果您選擇參與或收入目標量度，則最佳化模型不會建立。
+
+如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
+
 ### 增強體驗撰寫器(EEC)不支援PUT要求。
 
 EEC目前的問題導致其無法支援PUT要求，並導致504逾時錯誤。 (TGT-41493)
@@ -34,12 +44,6 @@ EEC目前的問題導致其無法支援PUT要求，並導致504逾時錯誤。 (
 ### 封存[!UICONTROL 自動鎖定目標]活動可能會造成同步問題
 
 嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。 在此問題修正前，請勿封存[!UICONTROL 自動鎖定目標]活動。 將其保留為[!UICONTROL 非活動]狀態。 (TGT-40885)
-
-### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
-
-[!DNL Target] UI 可讓使用者選擇不支援的參與和收入量度，作為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動中最佳化的主要目標量度。 支援轉換量度；&#x200B;*不*&#x200B;支援參與和收入量度。如果您選擇參與或收入目標量度，則最佳化模型不會建立。
-
-如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
 ### 頁面傳送 {#page-delivery}
 
