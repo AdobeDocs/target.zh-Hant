@@ -5,7 +5,7 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: 疑難排解
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 83%
@@ -58,7 +58,7 @@ ht-degree: 83%
 
 ## categoryId 參數
 
-* **上限**：250 個字元。
+* **上限**：256 個字元。
 
 ## 內容傳遞 {#content-delivery}
 
@@ -196,7 +196,7 @@ ht-degree: 83%
 
    **傳送 API 端點：**
 
-   * mbox 參數 50
+   * mbox 參數 100
    * mbox 參數名稱最大長度 128
    * mbox 參數值不能為 null
    * mbox 參數值 5000
