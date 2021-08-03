@@ -4,9 +4,9 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: 發行說明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4480'
+source-wordcount: '4505'
 ht-degree: 96%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 96%
 
 ### 使用A4T自動分配活動的流量分佈 {#aa-a4t}
 
-在某些情況下，使用[!UICONTROL Analytics for Target](A4T)的[!UICONTROL 自動分配]活動的流量分佈，可能會因每個體驗回報的轉換率而有所不同。 回訪訪客流量比例較高的活動更常發生此情況。 受影響的客戶將會收到受影響活動的通知。 (TOP-131)
+在某些情況下，使用[!UICONTROL Analytics for Target](A4T)的[!UICONTROL 自動分配]活動的流量分佈，可能會因每個體驗回報的轉換率而有所不同。 回訪訪客流量比例較高的活動更常發生此情況。 受影響的客戶將會收到受影響活動的通知。
+
+在此問題解決之前，請對標準[!DNL Target]報表使用[!UICONTROL 自動分配]，或對[!DNL Analytics]報表使用標準A/B測試，作為[!UICONTROL 自動分配]與[!DNL Analytics]報表的替代項目。 (TOP-131)
 
 ### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
 
