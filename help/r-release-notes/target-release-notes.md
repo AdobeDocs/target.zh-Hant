@@ -4,9 +4,9 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 61%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 61%
 
 * 修正在[!UICONTROL 表單式體驗撰寫器]中建立之[!UICONTROL 自動個人化]活動的報表，會參照報表中已刪除的選件的問題。 此問題會導致顯示以下錯誤訊息：「擷取此報表的資料時遇到問題。 如果問題仍然存在，請聯絡Adobe客戶服務。」 (TGT-41028)
 
-## Target傳送API（待定日期）
+## Target傳送API（2021年8月3日）
 
 此版本包含下列增強功能：
 
