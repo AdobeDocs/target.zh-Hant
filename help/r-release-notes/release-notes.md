@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 49%
+source-wordcount: '739'
+ht-degree: 48%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 49%
 * `categoryId`的限制已增加為256個字元。 先前的限制為128個字元。
 * 已將下列[!DNL Adobe Audience Manager](AAM)詳細資料新增至傳送API:
 
-   * AAM UUID(Adobe Audience Manager不重複使用者ID)
-   * dataPartnerId
-   * dataPartnerUserId
+   * AAM UUID:用來唯一識別使用者的內部AAM ID。
+   * dataPartnerId:資料合作夥伴的ID。
+   * dataPartnerUserId:資料合作夥伴提供的使用者ID。
 
    先前的傳送API僅包含`dcsLocationHint`和`blob`。 (TNT-41644)
 
