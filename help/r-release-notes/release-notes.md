@@ -4,16 +4,16 @@ description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增�
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 48%
+source-wordcount: '619'
+ht-degree: 49%
 
 ---
 
 # Target 發行說明 (最新)
 
-這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。此外，也會隨附 Target API、SDK、JavaScript 程式庫 (at.js) 的發行說明，以及其他平台變更 (如適用)。
+這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。此外，也包含Target API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台變更的發行說明（若適用）。
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,13 @@ ht-degree: 48%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## Target傳送API（2021年8月3日）
+## [!DNL Target Standard/Premium] 21.8.1（2021年8月4日）
+
+此維護髮行包含許多後端增強功能，包括針對客戶的下列變更：
+
+* 修正在[!UICONTROL 表單式體驗撰寫器]中建立之[!UICONTROL 自動個人化]活動的報表，會參照報表中已刪除的選件的問題。 此問題會導致顯示以下錯誤訊息：「擷取此報表的資料時遇到問題。 如果問題仍然存在，請聯絡Adobe客戶服務。」 (TGT-41028)
+
+## [!DNL Target Delivery API] （2021年8月3日）
 
 此版本包含下列增強功能：
 
@@ -37,7 +43,7 @@ ht-degree: 48%
 
    先前的傳送API僅包含`dcsLocationHint`和`blob`。 (TNT-41644)
 
-## at.js 2.6.0（2021年7月16日）
+## at.js 2.6.0（2021年7月27日）
 
 * 每當at.js設定`secureOnly`設為`true`時，新增安全屬性至Cookie。
 * 現在使用`triggerView()`時可使用回應Token。
@@ -47,32 +53,11 @@ ht-degree: 48%
 * 每個網路呼叫的`sessionId` Cookie過期都已正確延伸。
 * [!UICONTROL 單頁應用程式](SPA)檢視快取初始化現在已正確處理，並遵循`viewsEnable`設定。
 
-## [!DNL Target Standard/Premium] 21.6.1（2021年6月30日）
-
-此版本包含下列新功能和增強功能。 括號內的問題編號供 [!DNL Adobe] 內部使用。
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| 目標分析 (A4T) | 從使用[!DNL Analytics]作為報表來源(A4T)的活動按一下[!UICONTROL 報表]頁面上的「[!UICONTROL 在Analytics中檢視」連結，現在會開啟[!DNL Analysis Workspace]。 ]以前，連結會開啟[!DNL Analytics]報表。 (TGT-36959) |
-
-## Python SDK 1.0.0（2021年6月16日）
-
-具有裝置決策功能的全新[!DNL Adobe Target] Python SDK現已推出。 這項最新新增功能可支援[!DNL Target]伺服器端SDK套裝。 這些SDK可協助您以您所選擇的語言與[!DNL Target]整合，並加快實現價值的時間。 由於市場正轉向無Cookie的世界，第一方資料很有價值，伺服器端整合正成為熱門選擇。 Target SDK提供市面上最熱門的程式設計語言(Python、Java、JavaScript、C# / .Net)。
-
-如需詳細資訊，請參閱[Adobe Target SDK指南](https://adobetarget-sdks.gitbook.io/docs/)中的[Python SDK檔案](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)。
-
-## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
-
-此版本的[!DNL Platform Web SDK]包含對以下內容的支援：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)時，Platform Web SDK現在支援[!DNL Target]重新導向。<br>如需詳細資訊，請參閱 [實 [!DNL Target] 作的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
-
 ## 額外的發行說明和版本詳細資料
 
 | 資源 | 詳細資料 |
 |--- |--- |
+| [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | 有關每個版本Platform Web SDK中變更的詳細資訊。 |
 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有關 [!DNL Adobe Target] at.js JavaScript 資料庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
