@@ -5,10 +5,10 @@ title: 如何使用targetGlobalSettings()函式？
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 31%
+source-wordcount: '2317'
+ht-degree: 30%
 
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 31%
 
 * **類型**:布林值
 * **預設值**:false
-* **說明**: [!DNL Target] 透過支援選擇加入功能， [!DNL Adobe Platform Launch] 以協助支援同意管理策略。選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Platform Launch] 預先核准 [!DNL Target] 標記。若要啟用在[!DNL Target] at.js資料庫中使用選擇加入的功能，請新增`optinEnabled=true`設定。 在[!DNL Platform Launch]中，您必須以Launch擴充功能安裝檢視，從[!UICONTROL GDPR選擇加入]下拉式清單中選取「啟用」。 如需詳細資訊，請參閱[Platform launch檔案](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
+* **說明**: [!DNL Target] 透過支援選擇加入功能， [!DNL Adobe Platform Launch] 以協助支援同意管理策略。選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Platform Launch] 預先核准 [!DNL Target] 標記。若要啟用在[!DNL Target] at.js資料庫中使用選擇加入的功能，請新增`optinEnabled=true`設定。 在[!DNL Platform Launch]中，您必須以Launch擴充功能安裝檢視，從[!UICONTROL GDPR選擇加入]下拉式清單中選取「啟用」。 如需詳細資訊，請參閱[Platform launch檔案](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。 如需與隱私權和資料保護法規(包括歐盟一般資料保護規範(GDPR)和加州消費者隱私法(CCPA))相關之設定的詳細資訊，請參閱[隱私權和資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。
 
 ### optoutEnabled
 
