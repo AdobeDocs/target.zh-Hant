@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: 發行說明
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '31324'
+source-wordcount: '31379'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 98%
 >請參閱 [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2021
+
+### [!DNL Target Standard/Premium] 21.6.1（2021年6月30日）
+
+此版本包含下列新功能和增強功能。 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 目標分析 (A4T) | 從使用[!DNL Analytics]作為報表來源(A4T)的活動按一下[!UICONTROL 報表]頁面上的「[!UICONTROL 在Analytics中檢視」連結，現在會開啟[!DNL Analysis Workspace]。 ]以前，連結會開啟[!DNL Analytics]報表。 (TGT-36959) |
 
 ### Python SDK 1.0.0（2021年6月16日）
 
