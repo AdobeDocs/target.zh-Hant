@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡看到Target的檔案更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2149'
 ht-degree: 66%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 66%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 8 月 4 日 | [Target版本說明（最新）](/help/r-release-notes/release-notes.md):21.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+| 8 月 4 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 新增關於 `optinEnabled` 設定的詳細資訊。 |
+|  | [Target版本說明（最新）](/help/r-release-notes/release-notes.md):21.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021 年 6 月 30 日)
 
