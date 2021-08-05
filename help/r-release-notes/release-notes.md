@@ -1,13 +1,13 @@
 ---
 keywords: 發行說明;新功能;發行;更新;更新;發行;增強功能;增強功能;修正;錯誤修正;更新
-description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增強功能和修正，包括SDK、API和JavaScript程式庫。
+description: 了解  [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 資料庫。
 title: 目前發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 49%
+source-wordcount: '646'
+ht-degree: 66%
 
 ---
 
@@ -19,11 +19,15 @@ ht-degree: 49%
 >
 >**mbox.js 生命週期結束**：自 2021 年 3 月 31 日起，[!DNL Adobe Target] 不再支援 mbox.js 程式庫。 自 2021 年 3 月 31 日起，從 mbox.js 進行的所有呼叫都會正常失敗，並透過提供預設內容而影響執行 [!DNL Target] 活動的頁面。
 >
->移轉至新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript程式庫的最新版本，以避免網站出現任何潛在問題。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
+>請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本，以避免您的網站出現任何潛在問題。如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月4日）
+## [!DNL Target Standard/Premium] 21.8.1（待定日期）
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 21.8.1版本已延遲。 21.8.1版不會在2021年8月4日發行，而是會在未來幾天發行。 詳細資訊（若有）。
 
 此維護髮行包含許多後端增強功能，包括針對客戶的下列變更：
 
@@ -43,15 +47,15 @@ ht-degree: 49%
 
    先前的傳送API僅包含`dcsLocationHint`和`blob`。 (TNT-41644)
 
-## at.js 2.6.0（2021年7月27日）
+## at.js 2.6.0 (2021 年 7 月 27 日)
 
-* 每當at.js設定`secureOnly`設為`true`時，新增安全屬性至Cookie。
-* 現在使用`triggerView()`時可使用回應Token。
-* 修正了與`CONTENT_RENDERING_NO_OFFERS`事件相關的問題。 現在，只要沒有從[!DNL Target]傳回任何內容，就會正確觸發此事件。
-* [!DNL Anlytics for Target] (A4T)使用請求時可正確傳回點按量度詳細 `prefetch` 資料。
-* UUID產生不再使用`Math.random()`，而是需要`window.crypto`。
-* 每個網路呼叫的`sessionId` Cookie過期都已正確延伸。
-* [!UICONTROL 單頁應用程式](SPA)檢視快取初始化現在已正確處理，並遵循`viewsEnable`設定。
+* 當 at.js 設定 `secureOnly` 設為 `true` 時，為 Cookie 新增安全屬性。
+* 現在可以在使用 `triggerView()` 時使用回應 Token。
+* 修正了與 `CONTENT_RENDERING_NO_OFFERS` 事件相關的問題。現在，只要沒有從 [!DNL Target] 傳回內容，就會正確觸發此事件。
+* 使用 `prefetch` 請求時會正確傳回 [!DNL Anlytics for Target] (A4T) 點擊量度詳細資料。
+* UUID 產生不再使用 `Math.random()`，但須依賴 `window.crypto`。
+* `sessionId` Cookie 過期在每次網路呼叫時會正確延長。
+* [!UICONTROL 單頁應用程式] (SPA) 檢視快取初始化現在可以正確處理並接受 `viewsEnable` 設定。
 
 ## 額外的發行說明和版本詳細資料
 
