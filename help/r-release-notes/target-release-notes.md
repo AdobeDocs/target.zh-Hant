@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 58%
+source-wordcount: '354'
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 58%
 >
 >為避免您的網站出現任何潛在問題，請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月4日）
+## [!DNL Target Standard/Premium] 21.8.1（待定日期）
 
 此維護髮行包含許多後端增強功能，包括針對客戶的下列變更：
 
@@ -47,6 +47,6 @@ ht-degree: 58%
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-若要收到 Target 和其他 Adobe Experience Cloud 解決方案日後產品增強功能的提前通知，請註冊 Adobe 優先產品更新:
+若要收到 Target 和其他 Adobe Experience Cloud 解決方案日後產品增強功能的提前通知，請註冊 Adobe 優先產品更新：
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
