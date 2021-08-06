@@ -4,14 +4,14 @@ description: 了解Analytics for [!DNL Target] (A4T)的實作需求，以及實�
 title: 實作A4T之前應該知道什麼？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 28%
+source-wordcount: '882'
+ht-degree: 29%
 
 ---
 
-# 使用at.js實作Analytics for Target(A4T)之前
+# 使用 at.js 實施 Analytics for Target (A4T) 之前
 
 啟用[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)的報表來源時，您的資料收集程式會發生數項變更。
 
@@ -43,7 +43,9 @@ ht-degree: 28%
 
 * [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本2.3.0
 
-   **注意：**  at.js 1.8.0或更新版本不再適用於2.5.0以前的訪客API版本，以傳 [!DNL Adobe Audience Manager] 遞(AAM)參數。
+   >[!NOTE]
+   >
+   >at.js 1.8.0+和at.js 2.x+不再適用於2.5.0以前的訪客API版本，以傳遞Adobe Audience Manager(AAM)參數。
 
 * [!DNL Adobe Target]: at.js 1.6.2 版
 
