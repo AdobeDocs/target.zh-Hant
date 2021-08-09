@@ -7,7 +7,7 @@ exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 >[!NOTE]
 >
->此設定僅適用於在[!UICONTROL 可視化體驗撰寫器](VEC)中建立的活動。 此設定不適用於表單式體驗撰寫器中建立的活動 ([!DNL Target] 沒有位置環境定義)。
+>此設定僅適用於[!UICONTROL 可視化體驗撰寫器] (VEC) 中建立的活動。此設定不適用於表單式體驗撰寫器中建立的活動 ([!DNL Target] 沒有位置環境定義)。
 
 若要存取「[!UICONTROL 篩選不相容的條件]」設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」：
 
@@ -147,7 +147,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ![](assets/content_similarity_example.png)
 
-## 為何 [!DNL Target] 有時無法顯示建議？  {#section_DB3F40673AED42228E407C05437D99E9}
+## 為何 [!DNL Target] 有時無法顯示推薦？ {#section_DB3F40673AED42228E407C05437D99E9}
 
 [!DNL Target] 有時會因為可用的建議數量不夠而無法顯示建議。
 
@@ -241,36 +241,36 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果訪客未同時擁有兩個作用中工作階段，只要工作階段已結束，某台裝置上最近檢視的項目就會更新另一台裝置上的最近檢視的項目。 在測試此行為時，請等候 35 分鐘讓工作階段到期。
 
-## 我可以使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中建立的演算法嗎？
+## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium]不支援在[!DNL Recommendations Classic]中建立的算法。 您可能可以在[!DNL Target Premium]中使用舊版演算法；不過，演算法在[!DNL Target Premium] UI中停用或刪除活動時，會建立同步問題。 如需關於這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的 [[!DNL Recommendations Classic] versus [!DNL Recommendations]  活動。
 
-## 如何只建議新文章或影片？ {#recommend-new-articles}
+## 如何只推薦新文章或影片？ {#recommend-new-articles}
 
-某些媒體和發佈的客戶希望確保建議的項目僅包含最新文章或影片。 例如，[!DNL Target]客戶使用下列方法建議年齡低於60天的文章：
+一些媒體和出版業客戶想確保推薦項目僅包含最新的文章或影片。例如，[!DNL Target] 客戶使用以下方法，推薦 60 天內的文章：
 
-1. 以自訂實體屬性的形式，以YYMMDDD格式傳遞文章發佈日期。
-1. 建立當天減去60天的設定檔指令碼，並以YYYYMMDD格式顯示。
-1. 在條件中使用動態包含篩選器，以便`publish date > today’s date minus 60 days`。
+1. 以 YYMMDDD 格式傳遞文章發佈日期，作為自訂實體屬性。
+1. 建立一個設定檔指令碼，將今天的日期減去 60 天，同樣是 YYYYMMDD 格式。
+1. 在條件中使用動態包含篩選器，讓 `publish date > today’s date minus 60 days`。
 
-### 以自訂實體屬性傳遞發佈日期：
+### 傳遞文章發佈日期作為自訂實體屬性：
 
 | 實體屬性 | 範例 |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
-| parentCategory | 評論 |
+| parentCategory | commentary |
 | publishDate | 20210113 |
-| publishDateDisplay | 2021年1月13日 |
+| publishDateDisplay | 2021 年 1 月 13 日 |
 
 ### 設定設定檔指令碼：
 
-![設定檔指令碼範例](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+![範例設定檔指令碼](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
 ### 設定包含規則：
 
-![包含規則範例](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+![範例包含規則](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
 >[!NOTE]
 >
->此範例也可透過參數比對來完成，並將`priorDate60`值作為mbox參數傳遞。
+>此範例也可以使用參數比對並將 `priorDate60` 值作為 mbox 參數傳遞來完成。
