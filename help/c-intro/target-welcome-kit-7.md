@@ -1,13 +1,13 @@
 ---
 keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
 description: 在 Adobe [!DNL Target] 中開始您的第一個活動，好讓您可以獲得您投資的報酬。
-title: 我需要在Target中建立我的第一個活動。 我該從哪開始？
+title: 我需要在 Target 中建立我的第一個活動。我該從哪開始？
 feature: 總覽
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 
 ## 使用活動計畫員計畫活動
 
-我們已將 [Adobe Target 活動規劃師](/help/assets/activity-planner.pdf) 納入為獨立 PDF，您可以一而再、再而三地加以儲存和使用。按一下連結以檢視PDF檔案。以滑鼠右鍵下載 PDF 檔案。
+我們已將 [Adobe Target 活動規劃師](/help/assets/activity-planner.pdf)納入為獨立 PDF，您可以一而再、再而三地加以儲存和使用。按一下連結以檢視PDF檔案。以滑鼠右鍵下載 PDF 檔案。
 
 要運行有效活動，您需要填寫計畫員的每個區域。在您和其他人腦力激蕩想法時，使用此工具來測試和個人化活動。
 
