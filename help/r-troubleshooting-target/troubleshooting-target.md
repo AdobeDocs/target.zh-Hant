@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 活動
 
-以下小節含有活動的相關疑難排解資訊，並按類型加以區隔:
+以下小節含有活動的相關疑難排解資訊，並按類型加以區隔：
 
 ### 一般活動疑難排解
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ### 自動分配
 
-* [自動分配總覽](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [自動分配概覽](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
 ### 自動鎖定目標
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 ### Automated Personalization (AP)
 
-* [自動個人化常見問題集](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Automated Personalization 常見問題](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [疑難排解 Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [自動個人化摘要報表](/help/c-reports/reports-ap.md)
+* [Automated Personalization 摘要報表](/help/c-reports/reports-ap.md)
 * [個人化前瞻分析報表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 多變數測試 (MVT)
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 * [全域 mbox 常見問答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
-### at.js
+### at.js 
 
 * [at.js 常見問答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [使用 Adobe Experience Cloud Debugger 除錯 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
