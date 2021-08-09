@@ -33,7 +33,7 @@ ht-degree: 29%
 
 如果您不打算搭配 A4T 使用重新導向選件，則此整合需要您實作下列程式庫版本 (或更新版本)。列出的順序是作業順序。
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本1.8.0
+* &#x200B;[!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本1.8.0
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 若要搭配 A4T 來使用重新導向選件，您必須實作下列程式庫版本 (或更新版本).列出的順序是作業順序。
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本2.3.0
+* &#x200B;[!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本2.3.0
 
    >[!NOTE]
    >
