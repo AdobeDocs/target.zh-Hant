@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
 source-wordcount: '31379'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 98%
 
 ## 發行說明 - 2021
 
-### [!DNL Target Standard/Premium] 21.6.1（2021年6月30日）
+### [!DNL Target Standard/Premium] 21.6.1 (2021 年 6 月 30 日)
 
 此版本包含下列新功能和增強功能。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 目標分析 (A4T) | 從使用[!DNL Analytics]作為報表來源(A4T)的活動按一下[!UICONTROL 報表]頁面上的「[!UICONTROL 在Analytics中檢視」連結，現在會開啟[!DNL Analysis Workspace]。 ]以前，連結會開啟[!DNL Analytics]報表。 (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | 從使用 [!DNL Analytics] 作為報告來源的活動 (A4T) 中，按一下「[!UICONTROL 報告]」頁面上的「[!UICONTROL 在 Analytics 中檢視]」連結，[!DNL Analysis Workspace] 現在會開啟。之前，連結會開啟 [!DNL Analytics] 報告。(TGT-36959) |
 
-### Python SDK 1.0.0（2021年6月16日）
+### Python SDK 1.0.0 (2021 年 6 月 16 日)
 
-具有裝置決策功能的全新[!DNL Adobe Target] Python SDK現已推出。 這項最新新增功能可支援[!DNL Target]伺服器端SDK套裝。 這些SDK可協助您以您所選擇的語言與[!DNL Target]整合，並加快實現價值的時間。 由於市場正轉向無Cookie的世界，第一方資料很有價值，伺服器端整合正成為熱門選擇。 Target SDK提供市面上最熱門的程式設計語言(Python、Java、JavaScript、C# / .Net)。
+具有裝置上決策功能的新 [!DNL Adobe Target] Python SDK 現已提供。這個最新的新增項目增強了 [!DNL Target] 伺服器端 SDK 套件。這些 SDKS 可協助您以您選擇的語言整合 [!DNL Target] 並加快實現價值的時間。鑑於市場正在轉向第一方資料很有價值的無 Cookie 世界，伺服器端整合正成為一個熱門的選擇。Target SDK 可用於市場上最熱門的程式設計語言 (Python、Java、JavaScript、C# / .Net)。
 
-如需詳細資訊，請參閱[Adobe Target SDK指南](https://adobetarget-sdks.gitbook.io/docs/)中的[Python SDK檔案](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)。
+如需詳細資訊，請參閱《[Adobe Target SDK 指南](https://adobetarget-sdks.gitbook.io/docs/)》中的〈[Python SDK 文件](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)〉。
 
 ### Target Standard/Premium 21.5.1 (2021 年 6 月 7 日)
 
@@ -43,29 +43,29 @@ ht-degree: 98%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | 透過API以程式設計方式搜尋您的[!DNL Recommendations]產品和內容目錄，以識別符合搜尋准則的項目，並簡化目錄的管理。<br>**限制與附註**:<ul><li>項目超過2,000,000個的環境不支援透過API進行目錄搜尋。</li><li>透過API更新目錄搜尋結果的速度，比透過[!DNL Target] UI更新目錄搜尋結果的速度快。 [!DNL Target] UI中的目錄搜尋可能需要額外的時間，才能反映最新的結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API*&#x200B;指南中的[搜尋實體](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) 。 |
+| ![Premium 標誌](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL 目錄搜尋] API | 透過 API 以程式設計方式搜尋您的 [!DNL Recommendations] 產品和內容目錄，以識別符合搜尋條件的項目並簡化目錄管理。<br>**限制和備註**：<ul><li>具有超過 2,000,000 個項目的環境不支援透過 API 進行目錄搜尋。</li><li>透過 API 的目錄搜尋結果，比透過 [!DNL Target] UI 的目錄搜尋結果更新得更快。[!DNL Target] UI 中的目錄搜索可能需要額外的時間來反映最新結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API* 指南中的「[搜尋實體](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)」。 |
 
-此版本維護髮行包含下列修正。
+此版本維護發行包含下列修正。
 
-* 修正重新整理[!UICONTROL Audiences]頁面時，導致預設工作區變更為其他工作區的問題。 (TGT-38871)
-* 修正[!UICONTROL Administration] > [!UICONTROL Implementation]中，有時會導致錯誤訊息「您的全域mbox可能未同步」的問題。 請嘗試重新保存它。」
+* 修正當重新整理[!UICONTROL 對象]頁面時導致預設工作區變更為其他工作區的問題。(TGT-38871)
+* 修正「[!UICONTROL 管理] > [!UICONTROL 實施]」中的問題，有時會導致出現錯誤訊息，指出「您的全域 mbox 可能不同步。請嘗試重新儲存。」
 
-### ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
+### ![Adobe Experience Platform Web SDK 標誌](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 2.5.0 版 (2021 年 6 月 1 日)
 
-此版本的[!DNL Platform Web SDK]包含對以下內容的支援：
+此版本的 [!DNL Platform Web SDK] 支援下列項目：
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 透過[!UICONTROL Analytics for Target](A4T)重新導向支援 | 使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)時，Platform Web SDK現在支援[!DNL Target]重新導向。<br>如需詳細資訊，請參閱 [實 [!DNL Target] 作的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
+| [!UICONTROL Analytics for Target] (A4T) 的重新導向支援 | 使用 [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) 時，Platform Web SDK 現在支援 [!DNL Target] 重新導向。<br>如需詳細資訊，請參閱 [Analytics for [!DNL Target] 實施](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
 
-### at.js版本2.5.0（2021年5月13日）
+### at.js 2.5.0 版 (2021 年 5 月 13 日)
 
 此 at.js 版本包含下列增強功能和變更：
 
 * [針對 at.js 的裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)支援。
 * [預覽連結](/help/c-activities/c-activity-qa/activity-qa.md)對 Automated Personalization 活動的支援
 
-此版本也移除了對Microsoft Internet Explorer 10、Internet Explorer 11和所有舊版的支援。 at.js 2.5.0及更新版本仍持續支援Microsoft Edge。
+此版本也移除了對 Microsoft Internet Explorer 10、Internet Explorer 11 和所有舊版本的支援。at.js 2.5.0 及更高版本繼續支援 Microsoft Edge。
 
 ### Target Standard/Premium 21.4.1 (2021 年 4 月 19 日)
 
@@ -548,7 +548,7 @@ Target 1.0.1 版本已修正下列問題：
 | ![Premium 徽章](/help/assets/premium.png) Recommendations | 建立「最近查看的項目」邏輯時，您可以使用「先前建議購買的項目」切換按鈕。(TGT-34030)<br>如需詳細資訊，請參閱「建立條件」中的[最近查看的項目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
 | Google Chrome SameSite Cookie 原則 | Google 最近宣佈自 Chrome 76 起 (該版本預定在 2019 年 7 月 30 日發行)，開發人員必須明確指定哪些 Cookie 可以跨多個網站運作，以及哪些 Cookie 可以追蹤使用者。<br>在產業大幅演進並為消費者打造更安全 Web 環境的同時，Target 全心致力於提供個人化體驗，同時符合並超越訪客對於隱私權的期望。請參閱 <br>[Google Chrome SameSite Cookie 原則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
 
-### at.js version 2.1.0 (2019 年 6 月 3 日) {#atjs-210}
+### at.js 2.1.0 版 (2019 年 6 月 3 日) {#atjs-210}
 
 我們很高興宣佈在 at.js 2.1.0 中推出下列令人期待的功能:
 
@@ -651,7 +651,7 @@ Target 1.0.1 版本已修正下列問題：
 | 功能/增強功能 | 說明 |
 | --- | --- |
 | at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 現已可用。<br>最新版本的 at.js 提供豐富的功能組合，讓您的業務得以奠基於新一代的用戶端技術，同時發展個人特色。本次的新版本著重於升級 at.js，進而與單一頁面應用程式 (SPA) 產生和諧互動。<br>以下是幾個使用 at.js 2.x 特有 (舊版未提供) 的優點:<ul><li>可以在頁面載入時將所有選件加入快取，把多次伺服器呼叫減少為一次。</li><li>大幅改善一般使用者在網站上的體驗，因為選件能透過快取立即顯示，避免傳統伺服器呼叫引發的延遲時間。</li><li>只要編寫一行程式碼以及請開發人員設定一次，行銷人員就能透過單一頁面應用程式上的可視化體驗撰寫器 (VEC) 建立及執行 A/B 和體驗 (XT) 活動。</li></ul>at.js 2.x 引進以下新函數:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>導入 at.js 2.x 後，以下函數已遭到淘汰:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>如需詳細資訊，請參閱[從 at.js 1.x 升級為 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 與 [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。<br>**注意**：如果您需要[一般資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) 的「Adobe 選擇加入」支援，目前必須使用 at.js 1.7.0。「選擇加入」支援不支援 at.js 2.x。 |
-| at. js1.7.0版<br>，2019年 2 月 14 日 | at.js 1.7.0 現已可用。<br>該版本提供「Adobe 選擇加入」支援。「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需「Adobe 選擇加入」的詳細資訊，請參閱[隱私權與一般資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)。<br>該版本另修正一個 Target 問題，亦即將重新導向 URL 參數覆寫成來自重新導向 URL 的參數。<br>**注意**：如果您需要 GDPR 的「Adobe 選擇加入」支援，目前必須使用 at.js 1.7.0。「選擇加入」支援不支援 at.js 2.x。<br>如需所有版本的清單，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
+| at.js 1.7.0 版<br>，2019 年 2 月 14 日 | at.js 1.7.0 現已可用。<br>該版本提供「Adobe 選擇加入」支援。「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需「Adobe 選擇加入」的詳細資訊，請參閱[隱私權與一般資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)。<br>該版本另修正一個 Target 問題，亦即將重新導向 URL 參數覆寫成來自重新導向 URL 的參數。<br>**注意**：如果您需要 GDPR 的「Adobe 選擇加入」支援，目前必須使用 at.js 1.7.0。「選擇加入」支援不支援 at.js 2.x。<br>如需所有版本的清單，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (2019 年 2 月 19 日) {#target-19-2-1}
 
@@ -956,7 +956,7 @@ target/r_release-notes-2018.xml
 * Automated Personalization (AP) 和多變數測試 (MVT) 活動的 Target 步驟 (三步驟引導工作流程的步驟 2) 中的圖表已重新設計成更加符合 A/B、體驗鎖定目標 (XT)，以及 Recommendations 活動。(TGT-30712)
 * 多變數測試 (MVT) 位置貢獻報表的度量值現在更符合其他度量值，其四捨五入到小數點後兩位數。(TGT-30921)
 
-### at.js 版本 1.5.0 (2018 年 6 月 22 日) {#section_53C622F4978F4BC9ACD932D4B7194C12}
+### at.js 1.5.0 版 (2018 年 6 月 22 日) {#section_53C622F4978F4BC9ACD932D4B7194C12}
 
 <table id="table_B332A93D4A6E4568BA3F7FA8EC0787F4"> 
  <thead> 
@@ -1482,7 +1482,7 @@ target/r_release-notes-2018.xml
 * 您可以在對象資料庫和選件資料庫中，依工作區篩選 (適用具有企業使用者權限的 Target Premium 使用者)。(TGT-26813)
 * 在報表 UI 中進行改善，以在表格中獲得更好的捲動和篩選下拉式清單的放置。(TGT-23713 和 TGT-26819)
 
-### Target 平台變更 (2017 年 13 月 10 日) {#section_6C298C5C3D01415CB4B658EB2166096C}
+### Target 平台變更 (2017 年 10 月 13 日) {#section_6C298C5C3D01415CB4B658EB2166096C}
 
 <table id="table_8457FAE3508F454F9DFDEF093FBD7E40"> 
  <thead> 
@@ -2499,7 +2499,7 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
 * 在多頁活動的頁面 A 上選取「停用 JavaScript」時，所有地方的 JavaScript 都被停用，包括未選取「停用 JavaScript」的其他頁面。
 * 具有重新導向體驗的體驗預覽 URL 的問題。做為因應措施，請在體驗撰寫器中按一下&#x200B;**[!UICONTROL 「設定」]**，選擇&#x200B;**[!UICONTROL 「多個對象」]**，然後新增&#x200B;**[!UICONTROL 「所有訪客」]**&#x200B;做為唯一的對象。繼續儲存您的活動。這不會變更活動的傳遞，只是讓預覽可運作。這將在 Adobe Target 7 月發行版本中修正。
 
-### 新的 [!DNL Target] 實作程式庫 at.js 0.8.0 (2016 年 5 月 5 日) {#section_6A44C277E82D409AB6DCD0901F43794A}
+### 新的 [!DNL Target] 實施程式庫 at.js 0.8.0 (2016 年 5 月 5 日) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js 是新的 Target 實作程式庫，專為典型 Web 實作和單頁應用程式而設計。
 
