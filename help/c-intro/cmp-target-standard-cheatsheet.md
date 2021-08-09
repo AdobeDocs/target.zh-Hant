@@ -5,7 +5,7 @@ title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: 總覽
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2755'
 ht-degree: 100%
 
@@ -256,7 +256,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 查看產品的下列方面:
 
-* [目標分析(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
@@ -305,7 +305,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 很抱歉得知您遇到了問題。查看[疑難排解 Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 得許多疑難排解主題的連結。
 
-## Target Mobile 應用程式 {#section_07BA89F2C38747158ECD5B153274AEAF}
+## Target 行動應用程式 {#section_07BA89F2C38747158ECD5B153274AEAF}
 
 **我們有行動 SKU。我可以建立行動裝置活動？**
 
