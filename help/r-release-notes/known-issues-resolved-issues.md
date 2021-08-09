@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 96%
 
 EEC目前的問題導致其無法支援PUT要求，並導致504逾時錯誤。 (TGT-41493)
 
-### [!DNL Adobe Experience Platform] 區段名稱不會顯示在「重要屬 [!UICONTROL 性」] 報表中。
+### [!DNL Adobe Experience Platform] 區段名稱不會顯示在[!UICONTROL 重要屬性]報告中。
 
-[!DNL Adobe Experience Platform] 區段名稱不會顯示在 [!UICONTROL Automated Personalization] (AP) [!UICONTROL 和自動鎖定目標(AT)活動] 的「重要屬性」 [!UICONTROL 報表中。] (TOP-3813)
+[!DNL Adobe Experience Platform] 區段名稱不會顯示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自動鎖定目標] (AT) 活動的[!UICONTROL 重要屬性]報告中。(TOP-3813)
 
-### 封存[!UICONTROL 自動鎖定目標]活動可能會造成同步問題
+### 封存[!UICONTROL 自動鎖定目標]活動可能會導致同步問題
 
-嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。 在此問題修正前，請勿封存[!UICONTROL 自動鎖定目標]活動。 將其保留為[!UICONTROL 非活動]狀態。 (TGT-40885)
+嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。在修正此問題之前，請勿封存[!UICONTROL 自動鎖定目標]活動。請把它們留在[!UICONTROL 非作用中]狀態。(TGT-40885)
 
 ### 頁面傳送 {#page-delivery}
 
@@ -66,7 +66,7 @@ EEC目前的問題導致其無法支援PUT要求，並導致504逾時錯誤。 (
 * 在設定 Analytics for Target (A4T) 的活動中使用重新導向選件時，有限數量的客戶報告流量分佈的差異程度較高。
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
-### 取消在 Visual Experience Composer (VEC) 中載入頁面 {#cancel}
+### 取消在可視化體驗撰寫器 (VEC) 中載入頁面 {#cancel}
 
 * 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定] (XT) 活動時，目前存在下列已知問題。
 
@@ -151,7 +151,7 @@ EEC目前的問題導致其無法支援PUT要求，並導致504逾時錯誤。 (
 
 2020年5月10日，Adobe 更新了 GEO 提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。並非所有 Adobe 傳送伺服器都受到此項變更的影響。因此，在 2020 年 5 月 10 日至 7 月 22 日之間使用這些值的對象可能不符合所有正確訪客的資格。
 
-### 報告 - 可下載的 .csv 報告與 [!DNL Target] UI 中顯示的報告之間的資料不一致。  {#csv}
+### 報告 - 可下載的 .csv 報告與 [!DNL Target] UI 中顯示的報告之間的資料不一致。 {#csv}
 
 如果活動使用多個量度，則為下載所產生的 .csv 報告會不一致。可下載的報告僅是根據報告設定而產生，並會針對使用的任何其他量度考慮相同的值。
 
@@ -248,7 +248,7 @@ Target 19.7.1 版本已修正此問題。
 
 針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js，global\_mbox\_autocreate 會設為 &quot;true&quot;，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
 
-### [!DNL Target] API 中的企業權限支援  {#api}
+### [!DNL Target] API 中的企業權限支援 {#api}
 
 如果使用 GET API 提取選件清單，預設工作區中可能會顯示從選件資料庫中的 Target UI 建立的代碼選件。此問題將會在 2019 年 3 月的第一週修正。此修正就緒後，從 API 進行提取時，系統會在適當的工作區中顯示代碼選件。此問題&#x200B;*不會*&#x200B;影響從 API 建立的選件。例如，無論是透過 GET API 或從 Target UI 中擷取，從 API 建立的代碼選件都會顯示在其建立的工作區中。
 
