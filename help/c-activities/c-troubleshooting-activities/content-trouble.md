@@ -5,9 +5,9 @@ title: 如何疑難排解內容傳送問題？
 feature: 活動
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 97%
 
    ![授權 Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
-## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
+## mboxTrace  {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
 mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤資訊可反映 [!DNL Target] 呼叫的結果 (例如，轉換或印象) 以及可協助判斷為何發生此特定結果的任何其他資料，例如在行銷活動中所進行選擇內的一組可用分支。請使用此資訊來對內容傳送除錯。
 
@@ -56,7 +56,7 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤�
 
 | mboxTrace 選項 | 結果 |
 |--- |--- |
-| `?mboxTrace=console` | 列印至控制台記錄做為物件。<br>針對at.js，不使用彈出新瀏覽器視窗或輸出至控制台的mbox.js中，您需檢查網路要求，並查看「預覽」(Chrome)或「回應」(Firefox)。 |
+| `?mboxTrace=console` | 列印至控制台記錄做為物件。<br>針對 at.js，不使用彈出新瀏覽器視窗或輸出至控制台的 mbox.js 中，而是需檢查網路請求並查看「預覽」(Chrome) 或「回應」(Firefox)。 |
 | `?mboxTrace=json` | 列印至控制台記錄做為常值 JSON 字串 |
 | `?mboxTrace=window` | 列印至彈出式視窗做為 JSON 字串 |
 | `?mboxTrace=disable` | 關閉追蹤工作階段模式 |
@@ -108,7 +108,7 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客看到的是您�
 >
 >確保 URL 片段位於查詢字串參數之後。第一個 `#` 之後的任何項目都是片段識別碼，導致偵錯程式參數無法正常運作。
 
-## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 MboxTrace 工具來檢查活動、對象資格以及訪客設定檔。
 
@@ -116,7 +116,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 如需詳細資訊，請參閱「[使用 Adobe Experience Cloud Debugger 偵錯 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)」。
 
-## 最暢銷商品未出現在建議中 {#section_3920C857270A406C80BE6CBAC8221ECD}
+## 最暢銷商品未出現在 Recommendations 中 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 *`SiteCatalyst: purchase`* 呼叫無法用於「購買」演算法流量資料。改為使用 *`orderConfirmPage`* 呼叫。
 
