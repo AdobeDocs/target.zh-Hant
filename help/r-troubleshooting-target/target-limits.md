@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 83%
 
 * **建議的限制**；10,000 個使用中的已儲存 (未結束) 活動。
 
-## Target API呼叫
+## Target API 呼叫
 
-* **上限**:每分鐘50次呼叫，以取得管理員、報告和大量設定檔更新API。此限制不適用於傳送和單一設定檔更新API。
+* **限制**：管理、報告和大量設定檔更新 API 每分鐘 50 次呼叫。此限制不適用於傳送和單一設定檔更新 API。
 
-   如果您每分鐘發出50次以上的API呼叫， [!DNL Target]會傳回「503 HTTP狀態」錯誤訊息。
+   如果您每分鐘進行超過 50 次 API 呼叫，[!DNL Target] 會傳回「503 HTTP 狀態」錯誤訊息。
 
 ## 對象
 
@@ -179,7 +179,7 @@ ht-degree: 83%
 
    如果您在 Mobile Services SDK 使用[批次傳送 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，50 個 mbox 參數、50 個設定檔參數和 50 個其他參數類型限制，即為 API 本身限制。無法使用批次傳送 API，傳送超過上述數量限制的要求。如果請求包含的限制超過這些限制，API會傳回下列錯誤訊息：
 
-   &quot;mboxParameters 的數目不能超過 50。&quot;
+   「mboxParameters 的數目不能超過 50。」
 
    端點限制集：
 
