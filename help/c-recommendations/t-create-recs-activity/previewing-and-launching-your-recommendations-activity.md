@@ -29,9 +29,9 @@ ht-degree: 17%
 
 狀態結果包括下列項目，如下所示：
 
-* [!UICONTROL 可用結果]:指出演算法已傳回結果
-* [!UICONTROL 結果未就緒]:指出演算法尚未完成執行。
-* [!UICONTROL 摘要失敗]:指出無法擷取自訂條件摘要檔案。
+* &#x200B;[!UICONTROL 可用結果]:指出演算法已傳回結果
+* &#x200B;[!UICONTROL 結果未就緒]:指出演算法尚未完成執行。
+* &#x200B;[!UICONTROL 摘要失敗]:指出無法擷取自訂條件摘要檔案。
 
 ![結果對話框](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
