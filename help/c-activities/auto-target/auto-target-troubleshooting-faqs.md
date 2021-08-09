@@ -7,7 +7,7 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 * 請勿於活動期間對體驗做出重大變更。
 
-### 是否建議在建置模型之前，將[!UICONTROL 自動鎖定目標]與90（控制項）/10（目標）分割搭配使用？
+### 你建議我們在使用[!UICONTROL 自動鎖定目標]時採取 90 (控制項)/10 (目標鎖定) 的分割比例，直到建立模型為止嗎？
 
 您的最佳流量配置分割取決於您想要達成的目的。
 
@@ -113,7 +113,7 @@ No, check marks for model generation show only the models built to date. There's
 
 例如，假設您有一個具有八個體驗的 [!UICONTROL 自動鎖定目標] 活動，而您不喜歡其中一個體驗的效能。您可以移除該體驗，這並不會對其餘七個體驗的模型造成影響。
 
-## [!UICONTROL 自動鎖定目標]疑難排解 {#section_23995AB813F24525AF294D20A20875C8}
+## 疑難排解[!UICONTROL 自動鎖定目標] {#section_23995AB813F24525AF294D20A20875C8}
 
 有時活動不會如預期般進行。以下是使用[!UICONTROL 自動鎖定目標]可能面臨的一些挑戰，以及一些建議的解決方案。
 
