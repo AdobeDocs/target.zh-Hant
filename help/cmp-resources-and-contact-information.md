@@ -5,7 +5,7 @@ title: 何處可以找到有關 Target 的資源和聯絡資訊？
 feature: 發行說明總覽
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 資源與聯絡資訊
 
-其他資源資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
+其他資源相關資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
 
 ## Target 社群論壇 {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
