@@ -1,13 +1,13 @@
 ---
-keywords: apple;ITP；智慧型追蹤預防；experience cloud id;ecid
+keywords: apple;ITP；智慧型追蹤預防；experience cloud id;ecid;itp
 description: 了解Adobe [!DNL Target] 以及Apple智慧型追蹤預防(ITP)計畫對保護Safari使用者隱私的影響。
 title: ' [!DNL Target] 如何處理Apple ITP支援？'
 feature: 隱私權與安全性
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
+source-git-commit: 898a18cbd9c6f499f9e7b74078575bc149c9a292
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 38%
 
 ---
