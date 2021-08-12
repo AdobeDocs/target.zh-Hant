@@ -2,13 +2,13 @@
 keywords: 發行說明;新功能;發行;更新;更新;發行;增強功能;增強功能;修正;錯誤修正;更新
 description: 了解  [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 資料庫。
 landing-page-description: 了解 [!DNL Adobe Target]目前版本中包含的新功能、增強功能和修正。
-title: 目前發行的版本包含哪些新功能？
+title: 目前版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
+source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
