@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2208'
 ht-degree: 91%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 91%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8 月 16 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md)<br>和<br>[at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增at.js 2.6.1的發行說明。 |
 | 8 月 11 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增[!DNL Target] node.js SDK版本2.2.0的發行說明。 |
 | 8 月 9 日 | [Apple 智慧型追蹤預防 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 更新主題。 |
 | 8 月 6 日 | [使用 at.js 實施 Analytics for Target (A4T) 之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 更新下列備注：<ul><li>at.js 1.8.0+和at.js 2.x+不再適用於2.5.0以前的訪客API版本，以傳遞Adobe Audience Manager(AAM)參數。</li></ul> |
