@@ -5,10 +5,10 @@ landing-page-description: 了解 [!DNL Adobe Target]目前版本中包含的新�
 title: 目前版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 60%
+source-wordcount: '721'
+ht-degree: 58%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 60%
 >請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本，以避免您的網站出現任何潛在問題。如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## at.js 2.6.1（2021年8月16日）
+
+* 使用裝置上決策時，「沒有可用於混合模式的快取工件」的錯誤修正。
 
 ## [!DNL Target] node.js SDK 2.2.0（2021年8月11日）
 
