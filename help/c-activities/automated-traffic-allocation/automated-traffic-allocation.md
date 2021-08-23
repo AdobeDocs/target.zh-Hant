@@ -4,14 +4,14 @@ description: 了解如何在Adobe [!DNL Target] 中使用自動分配活動，�
 title: 什麼是自動分配活動？
 feature: 自動分配
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
 
 ---
 
-# [!UICONTROL 自動分配概覽]
+# [!UICONTROL 自動分配]概覽
 
 [!DNL Adobe Target]中的[!UICONTROL 自動分配]活動會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 
@@ -33,7 +33,7 @@ ht-degree: 50%
 
 [!UICONTROL 自動分配會對所有體驗執行全部的隱含比較，以產生「真正」贏家。]測試中沒有「控制」體驗的概念。
 
-[!UICONTROL 自動分配] 會聰明地分配新訪客給體驗，直到最佳體驗的信賴區間與任何其他體驗的信賴區間不重疊為止。這個過程通常會產生誤判，但[!UICONTROL 自動分配]會根據補償重複評估的[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))使用信賴區間。 現在，真有贏家。 當[!UICONTROL 自動分配]停止時，假設對到達頁面的訪客沒有實質的時間相依性，則至少有95%的機會讓[!UICONTROL 自動分配]傳回的體驗的真正回應不比成功體驗的真正回應低1%（相對）。
+[!UICONTROL 自動分配] 會聰明地分配新訪客給體驗，直到最佳體驗的信賴區間與任何其他體驗的信賴區間不重疊為止。這個過程通常會產生誤判，但[!UICONTROL 自動分配]會根據補償重複評估的[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)使用信賴區間。 現在，真有贏家。 當[!UICONTROL 自動分配]停止時，假設對到達頁面的訪客沒有實質的時間相依性，則至少有95%的機會讓[!UICONTROL 自動分配]傳回的體驗的真正回應不比成功體驗的真正回應低1%（相對）。
 
 ## 何時使用[!UICONTROL 自動分配]與A/B或[!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
