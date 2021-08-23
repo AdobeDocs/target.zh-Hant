@@ -4,14 +4,14 @@ description: 請依照為 [!DNL Target] (A4T) in your Adobe [!DNL Target] 和Ado
 title: 如何為 [!DNL Target] (A4T)實作Analytics?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1142'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-# [!DNL Target]實作分析
+# Analytics for[!DNL Target]實施
 
 實作[!DNL Adobe Analytics]作為[!DNL Adobe Target](A4T)的報表來源時，需要執行數個步驟。 程式會依您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)實作A4T或使用at.js而有所不同。
 
@@ -48,7 +48,7 @@ ht-degree: 24%
 
 ### 步驟 1: 要求佈建給 Analytics 和 Target
 
-將[!DNL Analytics]實作為[!DNL Target]的報表來源後，必須為[!DNL Analytics]和[!DNL Target]布建。 [使用此表單來請求布建](http://www.adobe.com/go/audiences)。
+將[!DNL Analytics]實作為[!DNL Target]的報表來源後，必須為[!DNL Analytics]和[!DNL Target]布建。 [使用此表單來請求布建](https://www.adobe.com/go/audiences_tw)。
 
 ### 步驟 2: 設定使用者權限
 
