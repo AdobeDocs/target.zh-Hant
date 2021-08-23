@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: '發行說明 '
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 93%
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -26,15 +26,16 @@ ht-degree: 93%
 
 ## [!DNL Adobe Target] 社群問答咖啡會
 
-* **2021年8月11日星期三**
+* **2021年9月8日星期三**
 * **上午 8 點 (PDT，UTC -7)**
-* **[請按一下此處以了解更多資訊並註冊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742)。**
+* **[請按一下此處以了解更多資訊並註冊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497)。**
 
-[!DNL Adobe Target]的首席解決方案顧問James McTiernan將回答與[!DNL Target]中的專業領域有關的客戶問題：
+[!DNL Adobe Target]的高級產品經理Vishal Chordia將回答與他的專業領域相關的客戶問題：
 
-* Recommendations
-* A/B和多變數(MVT)測試
-* 個人化
+* [!DNL Adobe Experience Platform]
+* 受眾型個人化
+* [!DNL Real-time Customer Data Platform] (RTCDP)與  [!DNL Target]
+* 一般[!DNL Target]主題
 
 ## 網路研討會影片：「利用 Adobe Target 的裝置上決策在零延遲的情況下進行個人化和測試。
 
