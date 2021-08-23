@@ -4,10 +4,10 @@ description: 了解如何使用來自客戶關係管理(CRM)資料庫的企業�
 title: 什麼是客戶屬性？如何使用？
 feature: 對象
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 36%
+source-wordcount: '1476'
+ht-degree: 35%
 
 ---
 
@@ -145,7 +145,6 @@ ht-degree: 36%
 如需關於在 [!DNL Target] 中使用客戶屬性的詳細資訊，請參閱下列資源:
 
 * [建立Experience Cloud屬性來源及上傳服](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 務與管理 *檔案中的資料檔案*
-* *數位行銷部落格*&#x200B;中的 [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客戶經常遇到的問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
