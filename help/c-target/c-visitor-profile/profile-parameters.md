@@ -4,7 +4,7 @@ description: 了解儲存在訪客設定檔中的訪客特定屬性，以提供�
 title: 什麼是設定檔屬性？
 feature: 對象
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 49%
@@ -33,7 +33,7 @@ ht-degree: 49%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意:  具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。[!DNL Target]如果您必須將超過50個設定檔屬性傳遞至[!DNL Target]，請使用設定檔更新API方法傳遞。 如需詳細資訊，請參閱 [!DNL Adobe Target] API檔案](http://developers.adobetarget.com/api/#updating-profiles)中的[設定檔更新。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意:  具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。[!DNL Target]如果您必須將超過50個設定檔屬性傳遞至[!DNL Target]，請使用設定檔更新API方法傳遞。 如需詳細資訊，請參閱 [!DNL Adobe Target] API檔案](https://developers.adobetarget.com/api/#updating-profiles)中的[設定檔更新。 |
    | 設定檔 | 直接以 JavaScript 程式碼片段定義。這些片段可儲存執行總數（例如消費者總花費的金錢），並在每個mbox要求上執行。 請參閱下方的設定檔指令碼屬性。 |
 
 ## 設定檔指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
