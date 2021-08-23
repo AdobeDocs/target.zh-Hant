@@ -1,12 +1,11 @@
 ---
 keywords: 行動應用程式;行動應用程式 sdk;target 行動應用程式;行動 target sdk;行動應用程式 sdk;在 sdk 中啟用 target
-description: 瞭解如何將AdobeMobile Services SDK新增至您的行動應用程式。
+description: 了解如何將AdobeMobile Services SDK新增至您的行動應用程式。
 title: 如何在Adobe行動SDK中啟用 [!DNL Target] ?
-feature: 實施行動
+feature: 實作行動
 role: Developer
 exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 79%
@@ -17,7 +16,7 @@ ht-degree: 79%
 
 將 Adobe Mobile Services SDK 新增至您的應用程式。
 
-1. 如果您尚未在您的應用程式中安裝 Adobe Mobile Services SDK，請使用您的 Analytics 或 Experience Cloud 憑證，並從 [Adobe Mobile Services](https://mobilemarketing.adobe.com) 網站下載 SDK。
+1. 如果您尚未在您的應用程式中安裝 Adobe Mobile Services SDK，請使用您的 Analytics 或 Experience Cloud 憑證，並從 [Adobe Mobile Services](https://mobilemarketing.adobe.com/) 網站下載 SDK。
 
 1. 將 Adobe Mobile Services SDK 新增至您的應用程式。
 
@@ -27,7 +26,7 @@ ht-degree: 79%
 
    在 Experience Cloud 中，開啟 Mobile Services，然後前往&#x200B;**[!UICONTROL 「管理應用程式設定」]**>**[!UICONTROL 「SDK Target 選項」]**。
 
-   新增您的 Target 用戶端代碼和逾時。clientcode 是您的帳戶或公司所特有。逾時為 Target 在顯示預設內容之前將等候回應的時間 (秒)。確定已在 Adobe Mobile Services 的「管理應用程式設定」頁面中勾選&#x200B;**[!UICONTROL 「使用 HTTPS」]**&#x200B;選項。如果未啟用HTTPS，除非您允許列出Target伺服器，否則iOS9+中的所有呼叫都將遭到封鎖。
+   新增您的 Target 用戶端代碼和逾時。clientcode 是您的帳戶或公司所特有。逾時為 Target 在顯示預設內容之前將等候回應的時間 (秒)。確定已在 Adobe Mobile Services 的「管理應用程式設定」頁面中勾選&#x200B;**[!UICONTROL 「使用 HTTPS」]**&#x200B;選項。如果未啟用HTTPS，除非您允許列出Target伺服器，否則iOS9+中的所有呼叫將會遭到封鎖。
 
    ![](assets/mobile-clientcode.png)
 
