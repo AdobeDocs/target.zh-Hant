@@ -4,7 +4,7 @@ description: 了解如何在Adobe [!DNL Target] 活動中使用AEM體驗片段�
 title: 如何使用Adobe Experience Manager(AEM)體驗片段？
 feature: 體驗與選件
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 21%
@@ -47,9 +47,9 @@ ht-degree: 21%
 如需詳細資訊，請參閱:
 
 * **Adobe I/O**: [使用管理使用者指南檔案中的AdobeI/](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) 與Adobe Target _整_ 合。
-* **[!DNL AEM]6.3**: [選擇使用Adobe Analytics和](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) Adobe鎖定 _Adobe Experience Manager 6.3_ 檔案。
-* **[!DNL AEM]6.4**: [選擇使用Adobe Analytics和](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) Adobe鎖定 _Adobe Experience Manager 6.4_ 檔案。
-* **[!DNL AEM]6.5**: [選擇使用Adobe Analytics和](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) Adobe鎖定 *Adobe Experience Manager 6.5* 檔案。
+* **[!DNL AEM]6.3**: [選擇使用Adobe Analytics和](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Adobe鎖定 _Adobe Experience Manager 6.3_ 檔案。
+* **[!DNL AEM]6.4**: [選擇使用Adobe Analytics和](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Adobe鎖定 _Adobe Experience Manager 6.4_ 檔案。
+* **[!DNL AEM]6.5**: [選擇使用Adobe Analytics和](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) Adobe鎖定 *Adobe Experience Manager 6.5* 檔案。
 
 ### 步驟 2: 建立體驗片段
 
