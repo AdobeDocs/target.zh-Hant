@@ -4,7 +4,7 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: 發行說明
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '31347'
 ht-degree: 99%
@@ -43,7 +43,7 @@ ht-degree: 99%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| ![Premium 標誌](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL 目錄搜尋] API | 透過 API 以程式設計方式搜尋您的 [!DNL Recommendations] 產品和內容目錄，以識別符合搜尋條件的項目並簡化目錄管理。<br>**限制和備註**：<ul><li>具有超過 2,000,000 個項目的環境不支援透過 API 進行目錄搜尋。</li><li>透過 API 的目錄搜尋結果，比透過 [!DNL Target] UI 的目錄搜尋結果更新得更快。[!DNL Target] UI 中的目錄搜索可能需要額外的時間來反映最新結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API* 指南中的「[搜尋實體](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)」。 |
+| ![Premium 標誌](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL 目錄搜尋] API | 透過 API 以程式設計方式搜尋您的 [!DNL Recommendations] 產品和內容目錄，以識別符合搜尋條件的項目並簡化目錄管理。<br>**限制和備註**：<ul><li>具有超過 2,000,000 個項目的環境不支援透過 API 進行目錄搜尋。</li><li>透過 API 的目錄搜尋結果，比透過 [!DNL Target] UI 的目錄搜尋結果更新得更快。[!DNL Target] UI 中的目錄搜索可能需要額外的時間來反映最新結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API* 指南中的「[搜尋實體](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)」。 |
 
 此版本維護發行包含下列修正。
 
@@ -664,7 +664,7 @@ Target 1.0.1 版本已修正下列問題：
 | 單一頁面應用程式可視化體驗撰寫器 | 適用於單頁應用程式 (SPA) 的可視化體驗撰寫器 (VEC) 能讓行銷人員在 SPA 上，自己動手建立測試並個人化內容，無需持續開發的相依性。VEC 可用來在 React 和 Angular 等最熱門的架構上建立活動。(TGT-27916)<br>如需詳細資訊，請參閱[單一頁面應用程式 (SPA) 可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)和[單一頁面應用程式整合](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。<br>除了前述文章之外，我們另準備了許多有關 SPA 和 at.js 等主題等文章，為您解說這項功能及如何實作。如需詳細資訊，請參閱[文件變更](/help/r-release-notes/doc-change.md)。 |
 | 可視化體驗撰寫器 | 可視化體驗撰寫器 (VEC) 包含以下增強功能，讓您的工作變得更輕鬆、更有效率:<ul><li>在 VEC 中插入 [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)時，您現在可以使用「插入在前」和「插入在後」選項。請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。(TGT-32385)</li><li>適用於 Google Chrome 的 [!DNL Adobe Target] VEC Helper 瀏覽器擴充功能可讓您在 VEC 中妥善地載入網站，以便快速編寫網站體驗及評估品質。請參閱[可視化體驗撰寫器 Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。(TGT-32746)</li></ul> |
 | 在 [!UICONTROL A/B 測試]與[!UICONTROL 體驗鎖定]活動中的 ![Premium badge](/help/assets/premium.png)<br>Recommendations | 您現在可以在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 與[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。屆時將開啟以下列舉的全新功能:<ul><li>在同一個活動內測試及鎖定建議與非建議內容。</li><li>輕鬆試驗建議在頁面中的放置方法，包括多個建議的排列順序。</li><li>使用[!UICONTROL 自動分配]將流量推送到績效最好的建議體驗。</li><li>使用[!UICONTROL 自動鎖定目標]，根據每位訪客的個人資料指派量身打造的建議體驗。</li></ul>若要開始使用，請使用 VEC 建立 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定目標]活動，再使用[!UICONTROL 「插入在前」]、[!UICONTROL 「插入在後」]或[!UICONTROL 「取代為」]動作將建議新增到體驗中。(RECS-6166)<br>如需詳細資訊，請參閱[選件形式的建議](/help/c-recommendations/recommendations-as-an-offer.md)。 |
-| ![Premium badge](/help/assets/premium.png)<br>Target API 中的企業權限支援 | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供 Automated Personalization (AP) 活動支援。<br>**注意：** 關於此功能有一個[已知問題](/help/r-release-notes/known-issues-resolved-issues.md#api)。 |
+| ![Premium badge](/help/assets/premium.png)<br>Target API 中的企業權限支援 | [Adobe Target Admin API](https://developers.adobetarget.com/api/#admin-apis) 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供 Automated Personalization (AP) 活動支援。<br>**注意：** 關於此功能有一個[已知問題](/help/r-release-notes/known-issues-resolved-issues.md#api)。 |
 
 **增強功能、修正和變更**
 
@@ -686,7 +686,7 @@ Target 1.0.1 版本已修正下列問題：
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| ![Target Premium badge [!DNL Target]API 中的](/help/assets/premium.png)<br/>[!UICONTROL 企業權限]支援 | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員將能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供 Automated Personalization (AP) 活動支援。 |
+| ![Target Premium badge [!DNL Target]API 中的](/help/assets/premium.png)<br/>[!UICONTROL 企業權限]支援 | [Adobe Target Admin API](https://developers.adobetarget.com/api/#admin-apis) 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員將能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供 Automated Personalization (AP) 活動支援。 |
 | ![Target Premium badge](/help/assets/premium.png)<br/>[!UICONTROL Recommendations]：根據環境 (主機群組) 篩選集合和排除項目 | 您現在可以針對選定環境 (主機群組) 預覽[!UICONTROL 建議]集合和排除項目的內容。<br/>先前，當您檢視集合或排除項目時，顯示的包含項目是預設主機群組 (在[!UICONTROL 「建議 > 設定 > 預設主機群組」]中指定) 的結果。<br/>現在當您建立或更新集合或排除項目時，可以使用[!UICONTROL 「環境」]選取器來選擇要預覽結果的環境。新的[!UICONTROL 「環境」]篩選器能節省時間和精力，因為您不再需要導覽至[!UICONTROL 「設定」]頁面來選取適當的預設主機群組，就能建立或編輯集合和排除項目。<br/>**注意：** 變更選定環境後，您必須按一下[!UICONTROL 「搜尋」]來更新傳回的結果。<br/>新的[!UICONTROL 「環境」]篩選器可從 [!DNL Target] UI 的以下位置取用:<ul><li>[!UICONTROL 目錄搜尋] ([!UICONTROL 「建議 > 目錄搜尋」])</li><li>[!UICONTROL 建立集合]對話方塊 ([!UICONTROL 「建議 > 集合 > 新建」])</li><li>[!UICONTROL 更新集合]對話方塊 ([!UICONTROL 「建議 > 集合 > 編輯」])</li><li>[!UICONTROL 建立排除項目]對話方塊 ([!UICONTROL 「建議 > 排除項目 > 新建」])</li><li>[!UICONTROL 更新排除項目]對話方塊 ([!UICONTROL 「建議 > 排除項目 > 編輯」])</li></ul><br>如需詳細資訊，請參閱下列主題:<uL><li>[集合](/help/c-recommendations/c-products/collections.md)</li><li>[排除項目](/help/c-recommendations/c-products/exclusions.md)</li><li>[目錄搜尋](/help/c-recommendations/c-products/catalog-search.md)</li><li>[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[建議：根據環境 (主機群組) 篩選集合和排除項目](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **增強功能、修正和變更**
