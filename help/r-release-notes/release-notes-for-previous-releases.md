@@ -4,10 +4,10 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: 發行說明
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '31379'
-ht-degree: 100%
+source-wordcount: '31369'
+ht-degree: 99%
 
 ---
 
@@ -1956,7 +1956,7 @@ target/r_release-notes-2018.xml
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 具有 FP-11577 (或更新版本) 現在支援 [!DNL at.js] 實施與其 [!UICONTROL Adobe Target Cloud Services] 整合。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2* 文件中的[功能套件](https://docs.adobe.com/docs/zh-Hant/aem/6-2/release-notes/feature-packs.html)和[與 Adobe Target 整合](https://docs.adobe.com/docs/zh-Hant/aem/6-2/administer/integration/marketing-cloud/target.html)。
+>[!DNL Adobe Experience Manager] 6.2 具有 FP-11577 (或更新版本) 現在支援 [!DNL at.js] 實施與其 [!UICONTROL Adobe Target Cloud Services] 整合。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2* 文件中的[功能套件](https://experienceleague.adobe.com/docs/)和[與 Adobe Target 整合](https://experienceleague.adobe.com/docs/)。
 
 此 [!DNL Target] 版本專注在使用性和效能改善，並包括下列增強功能和修正 (括號內的問題編號供 Adobe 內部使用):
 
