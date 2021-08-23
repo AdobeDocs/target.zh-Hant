@@ -4,10 +4,9 @@ description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些�
 title: 什麼是 Recommendations 活動？
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '2115'
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+workflow-type: tm+mt
+source-wordcount: '2107'
 ht-degree: 100%
 
 ---
@@ -197,4 +196,4 @@ Target 使用條件卡的概念。條件卡就像個人化的方式。
 
 ## Adobe [!DNL Target] 基礎網路研討會：Recommendations 簡介 {#intro-to-recs}
 
-[Recommendations 簡介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Recommendations 簡介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
