@@ -4,7 +4,7 @@ description: 了解如何透過檢查重要指標（包括提升度和可信度�
 title: 如何解譯自動分配報表？
 feature: 自動分配
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -41,7 +41,7 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
 對於「自動分配」，我們不採用 p 值信賴度。
 
-「自動分配」的「信賴度」欄 (如下圖) 顯示體驗是獲勝者的機率，誤差率在 1% 之內 (亦即，在最佳和次佳轉換率之間，演算法採用最低可偵測效應 1%)。請注意，演算法採用 [Bernstein 不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))來計算此機率。
+「自動分配」的「信賴度」欄 (如下圖) 顯示體驗是獲勝者的機率，誤差率在 1% 之內 (亦即，在最佳和次佳轉換率之間，演算法採用最低可偵測效應 1%)。請注意，演算法採用 [Bernstein 不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)來計算此機率。
 
 一般 A/B 測試會根據 p 值來計算信賴度。「自動分配」不使用 p 值。P 值會「寬鬆」計算所給定體驗與控制項不同的機率。這些 p 值只能用來判斷體驗是否可能與控制不同。這些值只能用來判斷體驗是否與另一個體驗 (非控制) 不同。
 
@@ -49,7 +49,7 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 >
 >Target會在預先定義的最低轉換次數之後顯示獲勝者；不過，挑選獲勝者的最終決定應一律取決於Adobe Target [樣本大小電腦](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)的結果。 Target不會考慮網站的基本轉換率，以及提供給計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最低轉換次數，顯示比保證更早的獲勝者。 如需詳細資訊，請參閱[樣本大小電腦](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
-## 了解自動分配活動中的提升度和可信度報表{#lift-confidence}
+## 了解自動分配活動中的提升度和可信度報表 {#lift-confidence}
 
 在自動分配活動中，第一個體驗（依預設命名為體驗A）一律會在「報表」標籤上定義為「控制」體驗。 在用來判斷體驗效能的模型中，此體驗不會視為真正的統計控制，但會視為報表中某些數字的參考或基線。
 
