@@ -4,9 +4,9 @@ description: 了解儲存在訪客設定檔中的訪客特定屬性，以提供�
 title: 什麼是設定檔屬性？
 feature: 對象
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 49%
 
 ---
@@ -142,7 +142,7 @@ if (mbox.name == 'Track_Interest') {
    * 設定檔指令碼應先進行效能測試，再新增至[!DNL Target]。 所有設定檔指令碼會在每個mbox要求上執行。 如果設定檔指令碼未正確執行，mbox要求執行時間會更長，而這可能會影響流量和轉換。
    * 如果設定檔指令碼變得太複雜，請考慮改用[回應Token](/help/administrating-target/response-tokens.md)。
 
-* 如需詳細資訊，請參閱JS Rhino引擎檔案：[https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html)。
+* 如需詳細資訊，請參閱JS Rhino引擎檔案。
 
 ## 偵錯設定檔指令碼 {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
