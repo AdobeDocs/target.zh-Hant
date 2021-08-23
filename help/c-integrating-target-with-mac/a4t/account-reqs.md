@@ -1,14 +1,13 @@
 ---
-keywords: Analytics作為報告來源；a4t;A4T；需求
-description: 瞭解如何在Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)中配置建立基於Adobe Analytics的活動所需的用戶帳戶要求。
-title: A4T需要哪些使用者權限要求？
-feature: 目標分析 (A4T)
+keywords: Analytics作為報表來源；a4t;A4T；需求
+description: 了解如何設定在Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)中建立以Adobe Analytics為基礎的活動所需的使用者帳戶需求。
+title: A4T需要哪些使用者權限需求？
+feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 36%
 
 ---
@@ -29,7 +28,7 @@ ht-degree: 36%
 
 [!DNL Analytics] 和 [!DNL Target] 使用者帳戶必須連結至 Adobe ID。
 
-如需詳細資訊，請參閱[組織和帳戶連結](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)。
+如需詳細資訊，請參閱[組織和帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)。
 
 ### 設定 Experience Cloud 群組成員資格
 
@@ -39,21 +38,21 @@ ht-degree: 36%
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-若要在指定的報表套裝上使用A4T，您必須擁有該報表套裝的存取權，並授與對[!DNL Web Services Access]群組的存取權。
+若要在指定的報表套裝上使用A4T，您必須擁有該報表套裝的存取權，並授予[!DNL Web Services Access]群組的存取權。
 
-1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，按一下[!DNL Analytics]產品配置檔案，然後按一下&#x200B;**[!UICONTROL 權限]**&#x200B;頁籤。
+1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，按一下[!DNL Analytics]產品設定檔，然後按一下&#x200B;**[!UICONTROL 權限]**&#x200B;標籤。
 
-   然後您就可以看到描述檔可存取的報表套裝。
+   接著，您便可查看設定檔可存取的報表套裝。
 
-1. 請確定您要在[!DNL Target]中存取的報表套裝是您所屬產品設定檔中所列的報表套裝之一。
+1. 確認您要存取[!DNL Target]中的報表套裝是您所屬產品設定檔中所列的其中一個報表套裝。
 
-   下圖為可存取所有報表套裝的產品設定檔範例：
+   下圖是可存取所有報表套裝的產品設定檔範例：
 
-   ![Admin Console權限頁籤](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Admin Console權限標籤](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. 配置對[!UICONTROL Web服務訪問]組的訪問。
 
-   必須訪問[!DNL Analytics]中的[!UICONTROL Web服務訪問]組，才能使用[!DNL Analytics]作為[!DNL Target]的報告源。
+   必須訪問[!DNL Analytics]中的[!UICONTROL Web服務訪問]組才能使用[!DNL Analytics]作為[!DNL Target]的報表源。
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
