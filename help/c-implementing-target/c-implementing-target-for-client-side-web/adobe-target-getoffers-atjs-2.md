@@ -2,10 +2,10 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;函數;函數
 description: 對Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 選件使用adobe.target.getOffers()函式及其選項。 (at.js 2.x)
 title: 如何使用adobe.target.getOffers()函式？
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 85%
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->如需下列所有欄位可接受類型的相關資訊，請參閱[傳送API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>如需下列所有欄位可接受類型的相關資訊，請參閱[傳送API檔案](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 欄位名稱 | 必要? | 限制 | 說明 |
 | --- | --- | --- | --- |
