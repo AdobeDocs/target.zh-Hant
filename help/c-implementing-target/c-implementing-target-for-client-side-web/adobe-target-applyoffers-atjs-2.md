@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;函數;函數
-description: 對Adobe [!DNL Target] at.js JavaScript程式庫使用adobe.target.applyOffers()函式，在回應中套用多個選件。 (at.js 2.x)
+description: 使用adobe.target.applyOffers()函式，將Adobe [!DNL Target] at.js JavaScript資料庫用於在回應中套用多個選件。 (at.js 2.x)
 title: 如何使用adobe.target.applyOffers()函式？
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -23,14 +22,14 @@ ht-degree: 92%
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| selector | 字串 | 無 | HTML 元素或 CSS 選取器過去會識別 [!DNL Target] 應該放置選件內容的 HTML 元素。如果未提供選擇器，[!DNL Target]會假設要使用的HTML元素是HTMLHEAD。 |
+| selector | 字串 | 無 | HTML 元素或 CSS 選取器過去會識別 [!DNL Target] 應該放置選件內容的 HTML 元素。如果未提供選取器，[!DNL Target]會假設要使用的HTML元素為HTMLHEAD。 |
 | 回應 | 物件 | 是 | 回應來自 `getOffers()` 的物件。<br>請參閱下方的「要求」表格。 |
 
 ## 回應
 
 >[!NOTE]
 >
->如需下列所有欄位可接受類型的詳細資訊，請參閱[傳送API檔案](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>如需下列所有欄位可接受類型的相關資訊，請參閱[傳送API檔案](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 欄位名稱 | 說明 |
 | --- | --- |
