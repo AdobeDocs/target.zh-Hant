@@ -4,10 +4,10 @@ title: 在哪裡可以找到 [!DNL Target] 文件？
 description: 了解如何使用 Adobe [!DNL Target] 將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: 總覽
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk)：說明如何佈署 Target 伺服器端。Node.js SDK 可協助您輕鬆地整合 Target 與其他的 Adobe Experience Cloud 解決方案。
 - [Target Java SDK](https://github.com/adobe/target-java-sdk)：說明如何佈署 Target 伺服器端。Node.js SDK 可協助您輕鬆地整合 Target 與其他的 Adobe Experience Cloud 解決方案。
 - [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/)：說明構成正式 Adobe Target Recommendations API 的資源。
-- [Target Adobe.IO 文件](http://developers.adobetarget.com/api/#introduction)：說明如何使用 Target 的管理程式和設定檔 REST API，其用 Adobe.IO 整合來管理活動、對象、選件、性質、報告、mboxes、環境和設定檔。
+- [Target Adobe.IO 文件](https://developers.adobetarget.com/api/#introduction)：說明如何使用 Target 的管理程式和設定檔 REST API，其用 Adobe.IO 整合來管理活動、對象、選件、性質、報告、mboxes、環境和設定檔。
 
 ## Target 與 Adobe Experience Cloud 管理員 {#admins}
 
