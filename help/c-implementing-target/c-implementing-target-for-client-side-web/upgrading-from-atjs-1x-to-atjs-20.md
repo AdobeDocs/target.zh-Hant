@@ -2,12 +2,12 @@
 keywords: at.js 版本;at.js 版本;單一頁面應用程式;spa;跨網域;跨網域
 description: 了解如何從Adobe [!DNL Target] at.js 1.x升級至at.js 2.x。檢查系統流圖、了解新功能和已棄用的功能等。
 title: 如何從at.js 1.x版升級至2.x版？
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2758'
 ht-degree: 91%
 
 ---
@@ -45,20 +45,20 @@ ht-degree: 91%
 
 | 呼叫 | 詳細資料 |
 | --- | --- |
-| 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
+| 3 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
-| 1 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
+| 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
 | 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
 | 5 | Analytics 資料傳送至資料收集伺服器。 |
 | 6 | Target 資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 A4T 報表來檢視 Analytics 資料。 |
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 透過[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 擴充功能部署 at.js 2.*x*。
+1. 部署 at.js 2.** 擴充功能中的xvia [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 標籤。
 
    >[!NOTE]
    >
-   > 偏好使用的方法是使用 Adobe Launch 部署 at.js。
+   > 偏好使用[!DNL Adobe Experience Platform]中的標籤部署at.js。
 
    或
 
@@ -360,7 +360,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 | 對象 | 是 |
 | 客戶屬性 | 是 |
 | AEM 體驗片段 | 是 |
-| Adobe Launch 擴充功能 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] 擴充功能 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 除錯程式 | 是 |
 | Auditor | 尚未針對 at.js 2.*x* 更新規則 |
 | 選擇加入 | 無。[at.js 版本 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 支援 [GDPR 的選擇加入支援](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。 |
