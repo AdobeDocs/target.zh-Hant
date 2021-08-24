@@ -2,13 +2,13 @@
 keywords: Target Standard;at.js;實作
 description: 了解如何移轉至at.js，這是新的Adobe實作資料庫 [!DNL Target] ，專為典型Web實作和單頁應用程式(SPA)而設計。
 title: 如何從mbox.js移轉至at.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: e0713ccd25da71c2655b567ff8715a22203f46fb
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 90%
+source-wordcount: '343'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ at.js 是新的 [!DNL Adobe Target] 實作資料庫，專為典型 Web 實作和
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 含 FP-11577 (或更新版) 在其 Adobe Target 雲端服務整合上支援 at.js 實作。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2 說明文件*&#x200B;中的[功能套件](https://docs.adobe.com/docs/zh-Hant/aem/6-2/release-notes/feature-packs.html)以及[與 Adobe Target 整合](https://docs.adobe.com/docs/zh-Hant/aem/6-2/administer/integration/marketing-cloud/target.html)。
+>Adobe Experience Manager (AEM) 6.2 含 FP-11577 (或更新版) 在其 Adobe Target 雲端服務整合上支援 at.js 實作。如需詳細資訊，請參閱 *Adobe Experience Manager 6.2 說明文件*&#x200B;中的[功能套件](https://experienceleague.adobe.com/docs/)以及[與 Adobe Target 整合](https://experienceleague.adobe.com/docs/)。
 
 ## 實作 at.js {#implement}
 
