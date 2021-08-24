@@ -5,9 +5,9 @@ title: 我可以不使用標籤管理程式來實作 [!DNL Target] 嗎？
 feature: 實作伺服器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1674'
 ht-degree: 52%
 
 ---
@@ -117,10 +117,10 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch是實作Target和at.js程式庫的偏好方法。下列資訊不適用於使用AdobePlatform launch實作Target。
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 是實作和at.js [!DNL Target] 程式庫的偏好方法。在[!DNL Adobe Experience Platform]中使用標籤來實作[!DNL Target]時，不適用下列資訊。
    >
    >
-* Target團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* [!DNL Target]團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
 
 ### 使用[!DNL Target]介面下載at.js {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ ht-degree: 52%
 
 at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 
-一般Target實作(不使用[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)之類的標籤管理程式)看起來如下：
+一般不使用標籤管理程式的Target實作（例如[[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)中的標籤）看起來如下：
 
 ```
 <!doctype html> 
