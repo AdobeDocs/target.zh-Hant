@@ -1,15 +1,14 @@
 ---
 keywords: at.js 整合;支援的整合;不支援的整合;第三方整合
-description: 查看Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T)、Experience CloudID服務等支援（且不支援）的整合。
+description: 請參閱Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T)、Experience CloudID服務等支援的整合（且不支援）。
 title: at.js支援哪些整合？
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 91%
+source-wordcount: '480'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +23,9 @@ ht-degree: 91%
 | 整合 | 詳細資料 |
 |--- |--- |
 | 目標分析 (A4T) | 請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。 |
-| 設定檔和對象 (P&amp;A) | 請參閱&#x200B;*核心服務使用指南*&#x200B;中的[觀眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)。 |
+| 設定檔和對象 (P&amp;A) | 請參閱&#x200B;*核心服務使用手冊*&#x200B;中的[對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)。 |
 | Experience Cloud ID 服務 | 請參閱 [Adobe Experience Cloud ID 服務文件](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 |
-| [!DNL Adobe Experience Platform Launch] | [!DNL Platform Launch] 為 Adobe 新一代的標籤管理平台，且為實作 Adobe Target 的推薦方法。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。請參閱[使用 Adobe Launch 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)。 |
+| [!DNL Adobe Experience Platform]中的標籤 | [!DNL Adobe Experience Platform]中的標籤是[!DNL Adobe]中的新一代標籤管理功能。 標籤可讓客戶透過簡單的方式部署及管理分析、行銷及廣告標籤，這些標籤是支援相關客戶體驗所必需的。 請參閱[使用 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)實作 [!DNL Target] 。 |
 | Adobe Experience Manager (AEM) 雲端服務 | AEM 雲端服務能讓您在 AEM 工作流程中，建立 A/B 測試和體驗鎖定目標活動。透過具有 FP-11577 (或更新版本) 的 Adobe Experience Manager 支援 at.js。如需詳細資訊，請參閱[與 Adobe Target 整合](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)，並選取您的 AEM 版本。 |
 | AEM 體驗片段 | Target 活動中之在 AEM 中建立的體驗片段，可讓您運用 AEM 的易用性和強大功能，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM 會自動根據您的內容來調整每一次體驗。請參閱 [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8)。 |
 
