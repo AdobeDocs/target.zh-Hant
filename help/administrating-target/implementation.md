@@ -5,10 +5,10 @@ title: 如何在我的網站上實作 [!DNL Target] ?
 feature: 管理與設定
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 18%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] 是實作的偏好方 [!DNL Target]法。[!DNL Launch] 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。如需詳細資訊，請參閱[使用Adobe啟動實作Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
+>[!DNL Adobe Experience Platform]中的標籤是實作[!DNL Target]的慣用方法。 [!DNL Adobe Experience Platform]中的標籤是[!DNL Adobe]中的新一代標籤管理功能。 標籤可讓客戶透過簡單的方式部署及管理分析、行銷及廣告標籤，這些標籤是支援相關客戶體驗所必需的。 如需詳細資訊，請參閱[使用 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)實作 [!DNL Target] 。
 
 1. 若要存取[!UICONTROL 實作]頁面，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
 
