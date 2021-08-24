@@ -5,10 +5,10 @@ title: 什麼是企業使用者權限？如何使用？
 feature: 管理與設定
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 60%
 
 ### 屬性
 
-屬性的性質與[!DNL Adobe Platform Launch]內的屬性類似，因為它們使用唯一的程式碼片段來加以區分。
+屬性的性質與[!DNL Adobe Experience Platform]內的屬性類似，因為它們使用唯一的程式碼片段來加以區分。
 
 Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多個網域和子網域的任何群組。
 
@@ -264,7 +264,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 ### 即使在已指派屬性的情況下，為何仍出現錯誤訊息，指出沒有任何與此活動相關聯的屬性?
 
-如果您已使用 [!DNL Adobe Experience Platform Launch] 實作 [!DNL Target]，而系統出現錯誤訊息，指出沒有任何與此活動相關聯的屬性，請使用 `targetPageParams` 函數傳送 `at_property` 參數。
+如果您實作[!DNL Target]並在[!DNL Adobe Experience Platform]中加上標籤，而收到錯誤訊息，指出沒有任何與活動相關聯的屬性，請使用`targetPageParams`函式傳遞`at_property`參數。
 
 ### 如果重新導向頁面和活動 URL 屬於不同屬性，是否會記錄點擊追蹤轉換?
 
