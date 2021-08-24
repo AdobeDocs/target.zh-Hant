@@ -1,52 +1,51 @@
 ---
-keywords: 實施目標；實施；實施at.js；標籤管理器；設備上決策；設備上決策
-description: 瞭解如何指定設定（帳戶詳細資訊、實作方法等） 來實作Adobe [!DNL Target] at.js程式庫，而不使用標籤管理器。
-title: 我是否可在沒有標籤管理器的情況下實施 [!DNL Target] ?
+keywords: 實作target；實作；實作at.js；標籤管理；裝置決策；裝置決策
+description: 了解如何指定設定（帳戶詳細資訊、實作方法等） 若要實作Adobe [!DNL Target] at.js程式庫，而不使用標籤管理器。
+title: 我可以不使用標籤管理程式來實作 [!DNL Target] 嗎？
 feature: 實作伺服器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1682'
 ht-degree: 52%
 
 ---
 
-# 實作[!DNL Target]而不使用標籤管理器
+# 不使用標籤管理程式實作[!DNL Target]
 
-有關不使用標籤管理器([!DNL Adobe Experience Platform Launch])實作[!DNL Adobe Target]的資訊。
+關於在[!DNL Adobe Experience Platform]中不使用標籤管理程式或標籤實作[!DNL Adobe Target]的資訊。
 
 >[!NOTE]
 >
->[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch是實作Target和at.js程式庫的偏好方法。使用AdobePlatform launch實作Target時，不適用下列資訊。
+>[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)中的標籤是實作[!DNL Target]和at.js程式庫的偏好方法。 在[!DNL Adobe Experience Platform]中使用標籤來實作[!DNL Target]時，不適用下列資訊。
 
-要訪問[!UICONTROL 實施]頁，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實施]**。
+若要存取[!UICONTROL 實作]頁面，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
 
 您可以在此頁面上指定下列設定：
 
 * 帳戶詳細資訊
-* 實施方法
+* 實作方法
 * 設定檔API
 * 除錯工具
 * 隱私權
 
 >[!NOTE]
 >
->您可以覆寫 at.js 資料庫中的設定，而非在 Target Standard/Premium UI 中或使用 REST API 進行設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+>您可以覆寫 at.js 資料庫中的設定，而非在 [!DNL Target Standard/Premium] UI  中或使用 REST API 進行設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 
 ## 帳戶詳細資訊
 
-您可以檢視下列帳戶詳細資訊。 這些設定無法變更。
+您可以檢視下列帳戶詳細資訊。 無法變更這些設定。
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 用戶端代碼] | 用戶端代碼是使用 Target API 時通常需要的用戶端專用字元序列。 |
+| [!UICONTROL 用戶端代碼] | 用戶端代碼是使用 [!DNL Target] API 時通常需要的用戶端專用字元序列。 |
 | [!UICONTROL IMS 組織 ID] | 此 ID 會將您的實施連結至 [!DNL Adobe Experience Cloud] 帳戶。 |
-| [!UICONTROL 裝置上決策] | 若要啟用裝置上決策，請將切換滑至「開啟」位置。<br>裝置上決策可讓您快取伺服器上的A/B和體驗定位(XT)促銷活動，並在接近零延遲的情況下執行記憶體內決策。如需詳細資訊，請參閱&#x200B;*Adobe TargetSDK*&#x200B;指南中的[裝置上決策簡介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)。 |
-| [!UICONTROL 在對象中包含所有現有的設備上決策合格活動。] | （條件性）如果您啟用裝置上決策，就會顯示此選項。<br>如果您想要將符合裝置上決策資格的所有即時Target活動自動包含在物件中，請將切換至「開啟」位置。<br>關閉此切換表示您必須重新建立並啟動任何裝置上決策活動，才能將這些活動包含在產生的規則物件中。 |
+| [!UICONTROL 裝置上決策] | 若要啟用裝置決策功能，請滑動切換至「開啟」位置。<br>裝置決策功能可讓您快取伺服器上的A/B和 [!UICONTROL 體驗鎖定目標] (XT)促銷活動，並在接近零的延遲下執行記憶體內決策。如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target]SDK*&#x200B;指南中的[裝置上決策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)簡介。 |
+| [!UICONTROL 在工件中包含所有現有的裝置上決策合格活動。] | （條件性）如果您啟用裝置上決策，就會顯示此選項。<br>如果您想要將符合裝置上決策資格的所有即時Target活動自動納入成品，請滑動切換至「開啟」位置。<br>將此切換開關關閉表示您必須重新建立並啟動任何裝置上的決策活動，才能將這些活動包含在產生的規則成品中。 |
 
-## 實施方法
+## 實作方法
 
 可在「實施方法」面板中設定下列設定：
 
@@ -63,46 +62,46 @@ ht-degree: 52%
 | 逾時（秒） | 如果 [!DNL Target] 在已定義的期間內沒有回應內容，伺服器呼叫會逾時，並顯示預設內容。在訪客工作階段期間會繼續嘗試其他呼叫。預設值為 5 秒。<br>at.js 程式庫會使用 `XMLHttpRequest` 中的逾時設定。逾時是在觸發請求時開始計時，而於 [!DNL Target] 從伺服器收到回應時停止。如需詳細資訊，請參閱 Mozilla 開發人員網路上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在收到回應之前就發生指定的逾時，則會顯示預設內容，而訪客可能算為活動的參與者，因為所有資料收集都發生在 [!DNL Target] 邊緣。如果請求到達 [!DNL Target] 邊緣，訪客即納入計算。<br>設定逾時設定時，請考量下列事項:<ul><li>如果值太低，即使訪客應該算為活動的參與者，使用者還是可能幾乎都看到預設內容。</li><li>如果值太高，而如果您長時間使用本文隱藏，訪客可能會在網頁上看到空白區域或空白頁面。</li></ul>若要充分瞭解 mbox 回應時間，請在瀏覽器的開發人員工具中查看「網路」標籤。您也可以使用第三方 Web 效能監控工具，例如 Catchpoint。<br>**注意**: [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 設定可確保 [!DNL Target] 不會為了訪客 API 回應而等待太久。此設定和這裡說明的 at.js 逾時設定不影響彼此。 |
 | 設定檔存留期 | 此設定會決定訪客設定檔儲存多久。依預設，訪客設定檔會儲存兩週。此設定最多可增加90天。<br>若要變更「設定檔存留期」設定，請聯絡[客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。 |
 
-### 一種主要實現方法
+### 主要實施方法
 
 >[!IMPORTANT]
 >
->Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。
+>Target團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。
 
-若要下載所需的at.js版本，請按一下適當的&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。
+若要下載所需的at.js版本，請按一下適當的&#x200B;**[!UICONTROL Download]**&#x200B;按鈕。
 
-若要編輯at.js設定，請按一下所要at.js版本旁的&#x200B;**[!UICONTROL Edit]**。
+若要編輯at.js設定，請按一下所需at.js版本旁的「**[!UICONTROL 編輯]**」 。
 
 >[!IMPORTANT]
 >
->在變更這些預設設定之前，請諮詢[Client Care](/help/cmp-resources-and-contact-information.md)，以免影響您目前的實作。
+>在變更這些預設設定之前，請洽詢[客戶服務](/help/cmp-resources-and-contact-information.md)，以免影響目前的實作。
 
-除了上述設定外，還提供下列特定at.js設定：
+除了上述設定外，也提供下列特定的at.js設定：
 
 | 設定 | 說明 |
 |--- |--- |
-| 自訂資料庫標題 | 新增任何自訂 JavaScript 以包括在資料庫頂端。 |
-| 自訂資料庫頁尾 | 新增任何自訂 JavaScript 以包含在程式庫底部。 |
+| 自訂程式庫標題 | 新增任何自訂 JavaScript 以包括在資料庫頂端。 |
+| 自訂程式庫頁尾 | 新增任何自訂 JavaScript 以包含在程式庫底部。 |
 
 ### 設定檔API
 
 啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
 
-如需詳細資訊，請參閱[描述檔API設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)。
+如需詳細資訊，請參閱[設定檔API設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)。
 
 ### 除錯工具
 
-產生授權Token以使用進階的[!DNL Target]除錯工具。 按一下「產生新驗證Token ]**」。**[!UICONTROL 
+產生授權Token以使用進階[!DNL Target]偵錯工具。 按一下「**[!UICONTROL 產生新驗證Token]**」。
 
 ![產生新驗證權杖](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### 隱私權
 
-這些設定可讓您使用[!DNL Target]，以符合適用的資料隱私法。
+這些設定可讓您使用[!DNL Target]以符合適用的資料隱私權法律。
 
-從「模糊化訪客IP位址」下拉式清單中選擇所要的設定：
+從「模糊化訪客IP位址」下拉式清單中選擇所需的設定：
 
-* 最後八位元模糊化
+* 最後八位數字模糊化
 * 整個IP模糊化
 * 無
 
@@ -110,7 +109,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->at.js 0.9.3版及舊版中提供「舊版瀏覽器支援」選項。 at.js 0.9.4 版中移除了此選項。如需 at.js 支援的瀏覽器清單，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。<br>舊版瀏覽器是指不完全支援 CORS (跨來源資源共用) 的舊型瀏覽器。這些瀏覽器包括 Internet Explorer 瀏覽器 11 版以前的版本，以及 Safari 6 版及更舊版本。如果已停用舊版瀏覽器支援，Target不會在這些瀏覽器的報表中傳送內容或計算訪客。 如果啟用此選項，建議您跨舊版瀏覽器執行品質保證，以確保良好的客戶體驗。
+>at.js版本0.9.3和更舊版本中提供「舊版瀏覽器支援」選項。 at.js 0.9.4 版中移除了此選項。如需 at.js 支援的瀏覽器清單，請參閱[支援的瀏覽器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。<br>舊版瀏覽器是指不完全支援 CORS (跨來源資源共用) 的舊型瀏覽器。這些瀏覽器包括 Internet Explorer 瀏覽器 11 版以前的版本，以及 Safari 6 版及更舊版本。如果停用「舊版瀏覽器支援」，則Target不會在這些瀏覽器的報表中提供內容或計算訪客數。 如果已啟用此選項，建議您跨舊版瀏覽器執行品質保證，以確保提供良好的客戶體驗。
 
 ## 下載 at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -118,26 +117,26 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->* [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch是實作Target和at.js程式庫的偏好方法。使用AdobePlatform launch實作Target時，不適用下列資訊。
+>* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch是實作Target和at.js程式庫的偏好方法。下列資訊不適用於使用AdobePlatform launch實作Target。
    >
    >
-* Target團隊同時支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的最新更新at.js，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* Target團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
 
-### 使用[!DNL Target]介面{#section_1F5EE401C2314338910FC57F9592894E}下載at.js
+### 使用[!DNL Target]介面下載at.js {#section_1F5EE401C2314338910FC57F9592894E}
 
 若要從 [!DNL at.js] 介面下載 [!DNL Target]:
 
 1. 按一下「**[!UICONTROL 管理]** > 「**[!UICONTROL 實施]**」。
 1. 在[!UICONTROL 實作方法]區段中，按一下所需at.js版本旁的&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。
 
-### 使用[!DNL Target]下載API {#section_C0D9D2A9068144708D08526BA5CA10D0}下載at.js
+### 使用[!DNL Target]下載API下載at.js {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 若要使用 API 來下載 [!DNL at.js]:
 
 1. 取得用戶端程式碼。
 
-   您的客戶端代碼位於[!DNL Target]介面的&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實施]**&#x200B;頁面的頂部。
+   您的用戶端代碼位於[!DNL Target]介面的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;頁面頂端。
 
 1. 取得您的管理員編號。
 
@@ -147,7 +146,7 @@ ht-degree: 52%
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   將`client code`取代為步驟1的用戶端程式碼。
+   將`client code`替換為步驟1中的客戶端代碼。
 
    載入此 URL 的結果應該類似下列範例:
 
@@ -167,9 +166,9 @@ ht-degree: 52%
    https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
-   * 將`admin number`取代為您的管理員編號。
-   * 將`client code`取代為步驟1的用戶端程式碼。
-   * 將`version number`取代為所需的at.js版本號碼（例如2.2）。
+   * 將`admin number`替換為管理員編號。
+   * 將`client code`替換為步驟1中的客戶端代碼。
+   * 將`version number`取代為所需的at.js版本編號（例如2.2）。
 
    >[!IMPORTANT]
    >
@@ -177,11 +176,11 @@ ht-degree: 52%
 
    載入此 URL 會開始下載自訂的 [!DNL at.js] 檔案。
 
-## at.js 實施{#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js 實施 {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 
-未使用標籤管理器(例如[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25))的Target典型實作如下所示：
+一般Target實作(不使用[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)之類的標籤管理程式)看起來如下：
 
 ```
 <!doctype html> 
@@ -238,19 +237,19 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 請考量下列重要注意事項:
 
 * 應使用HTML5 Doctype（例如`<!doctype html>`）。 不支援或舊版 doctype 可能會造成 Target 無法提出要求。
-* 「預先連結」和「預先擷取」可能有助於加速網頁載入。如果您使用這些設定，請確定您以您自己的用戶端程式碼取代`<client code>`，您可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實施]頁面取得。
-* 如果有資料層，最好在 at.js 載入前，盡可能在網頁的 `<head>` 中詳細定義。此位置提供在Target中使用這項資訊以進行個人化的最大能力。
-* 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。或者，這些函式可儲存在[!UICONTROL 編輯at.js設定]頁面的[!UICONTROL 程式庫標題]區段中，並儲存為at.js程式庫本身的一部分。 如需這些函式的詳細資訊，請參閱[at.js函式](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
-* 如果您使用JavaScript Helper程式庫（例如jQuery），請在Target之前加入它們，以便在建立Target體驗時使用其語法和方法。
+* 「預先連結」和「預先擷取」可能有助於加速網頁載入。如果您使用這些配置，請確保將`<client code>`替換為您自己的客戶端代碼，可從&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]頁獲取該代碼。
+* 如果有資料層，最好在 at.js 載入前，盡可能在網頁的 `<head>` 中詳細定義。此位置可讓您在Target中使用此資訊進行個人化。
+* 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。或者，這些函式可儲存在[!UICONTROL 編輯at.js設定]頁面的[!UICONTROL 資料庫標題]區段中，並儲存為at.js資料庫本身的一部分。 如需這些函式的詳細資訊，請參閱[at.js函式](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
+* 如果您使用JavaScript輔助程式庫（例如jQuery），請在Target之前加入這些程式庫，以便您在建置Target體驗時可以使用其語法和方法。
 * 在網頁的 `<head>` 中加入 at.js。
 
-## 追蹤轉換{#task_E85D2F64FEB84201A594F2288FABF053}
+## 追蹤轉換 {#task_E85D2F64FEB84201A594F2288FABF053}
 
 訂購確認 mbox 會記錄關於您的網站上訂單的詳細資料，並允許根據收入和訂單報告。訂購確認 mbox 也可以促進建議演算法，例如「購買了產品 x、也購買了產品 y 的使用者」
 
 >[!NOTE]
 >
->如果使用者在您的網站上購買產品，Adobe建議實作「訂購確認」mbox，即使您使用Analytics for Target(A4T)來建立報表亦然。
+>如果使用者在您的網站上購買，即使您針對報表使用Analytics for Target(A4T),Adobe仍建議實作訂單確認mbox。
 
 1. 在訂單詳細資料頁面中，請依照下方的模式插入 mbox 指令檔。
 1. 使用目錄中的動態或靜態值來取代大寫的字母。
