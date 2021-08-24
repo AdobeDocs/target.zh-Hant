@@ -3,14 +3,13 @@ keywords: 歡迎套件;target 歡迎套件;介紹;介紹;開始
 description: 您已在 Adobe Target 中建立第一個活動。接下來呢？使用本文章中有關額外資源、培訓教學課程和操作影片的連結。
 title: 在哪裡可以找到更多有效使用 Target 的額外資源？
 feature: 總覽
-translation-type: ht
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: ht
+exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
+workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # 第 9 章：接續步續和資源
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 * **Adobe 客戶服務「營業時間」**：「營業時間」是由 Adobe 客戶服務團隊開始的一項計畫。這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。請參閱[Adobe 客戶服務營業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)。
 * **Adobe Summit**：參加年度數位行銷人員最重要的專業活動。
    * [Adobe Summit](https://summit.adobe.com/na/) (北美洲)
-   * [Adobe Summit](http://summit-emea.adobe.com/emea/) (EMEA)
+   * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
 
 ## 其他資源
 
@@ -47,4 +46,3 @@ ht-degree: 100%
 * **Adobe Target 認證**：透過新的 Adobe Target 測驗，取得 Adobe 認證專家的地位。—在此安排測驗或培訓課程。請參閲[培訓與認證](/help/c-intro/training-and-certification.md)。
 * **Adobe Target 發行說明**：每個 [!DNL Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正。 此外，也會隨附 Target API、SDK、JavaScript 程式庫 (at.js) 的發行說明，以及其他平台變更 (如適用)。請參閲 [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md)。
 * **Adobe Target 電子報**：瞭解關於產品更新和未來的計劃、個人化和最佳化提示與秘訣、客戶成功、近期事件、資訊豐富的白皮書、受歡迎的部落格文章及其他。請參閲 [Target Insider 電子報](/help/r-release-notes/target-insider-newsletter.md)。
-
