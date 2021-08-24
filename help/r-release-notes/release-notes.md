@@ -5,7 +5,7 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前版本包含哪些新功能？
 feature: 發行說明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 90%
@@ -60,7 +60,7 @@ ht-degree: 90%
 * 當 at.js 設定 `secureOnly` 設為 `true` 時，為 Cookie 新增安全屬性。
 * 現在可以在使用 `triggerView()` 時使用回應 Token。
 * 修正了與 `CONTENT_RENDERING_NO_OFFERS` 事件相關的問題。現在，只要沒有從 [!DNL Target] 傳回內容，就會正確觸發此事件。
-* 使用 `prefetch` 請求時會正確傳回 [!DNL Anlytics for Target] (A4T) 點擊量度詳細資料。
+* 使用 `prefetch` 請求時會正確傳回 [!DNL Analytics for Target] (A4T) 點擊量度詳細資料。
 * UUID 產生不再使用 `Math.random()`，但須依賴 `window.crypto`。
 * `sessionId` Cookie 過期在每次網路呼叫時會正確延長。
 * [!UICONTROL 單頁應用程式] (SPA) 檢視快取初始化現在可以正確處理並接受 `viewsEnable` 設定。
