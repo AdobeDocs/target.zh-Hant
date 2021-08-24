@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: 發行說明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 57%
+source-wordcount: '351'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 本文包含發行前資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新: 2021 年 8 月 3 日**
+**上次更新：2021 年 8 月 24 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -25,28 +25,28 @@ ht-degree: 57%
 >
 >為避免您的網站出現任何潛在問題，請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
-## [!DNL Target Standard/Premium] 21.8.1（待定日期）
+## [!DNL Target Standard/Premium] 21.8.1（2021年8月10日）
 
-此維護髮行包含許多後端增強功能，包括針對客戶的下列變更：
+此維護發行包含許多後端增強功能，包括下列客戶面向的變更：
 
-* 修正在[!UICONTROL 表單式體驗撰寫器]中建立之[!UICONTROL 自動個人化]活動的報表，會參照報表中已刪除的選件的問題。 此問題會導致顯示以下錯誤訊息：「擷取此報表的資料時遇到問題。 如果問題仍然存在，請聯絡Adobe客戶服務。」 (TGT-41028)
+* 修正在[!UICONTROL 表單式體驗撰寫器]中建立之 [!UICONTROL Auto Personalization] 活動的報表，會參照報表中已刪除之優惠的問題。此問題會導致顯示以下錯誤訊息：「擷取此報表的資料時遇到問題。如果問題仍然存在，請聯絡 Adobe 客戶服務。」(TGT-41028)
 
-## Target傳送API（2021年8月3日）
+## Target Delivery API (2021 年 8 月 3 日)
 
 此版本包含下列增強功能：
 
-* mbox參數限制已提高為100個參數。 先前的限制為50個參數。 (TNT-41717)
-* `categoryId`的限制已增加為256個字元。 先前的限制為128個字元。
-* 已將下列[!DNL Adobe Audience Manager](AAM)詳細資料新增至傳送API:
+* mbox 參數限制已提高為 100 個參數。先前的限制為 50 個參數。(TNT-41717)
+* `categoryId` 的限制已增加為 256 個字元。先前的限制為 128 個字元。
+* 下列 [!DNL Adobe Audience Manager] (AAM) 詳細資料已新增至 Delivery API：
 
-   * AAM UUID:用來唯一識別使用者的內部AAM ID。
-   * dataPartnerId:資料合作夥伴的ID。
-   * dataPartnerUserId:資料合作夥伴提供的使用者ID。
+   * AAM UUID：用來唯一識別用戶的內部 AAM ID。
+   * dataPartnerId：資料合作夥伴的 ID。
+   * dataPartnerUserId：資料合作夥伴所提供的用戶 ID。
 
-   先前的傳送API僅包含`dcsLocationHint`和`blob`。 (TNT-41644)
+   先前的 Delivery API 只包含 `dcsLocationHint` 和 `blob`。(TNT-41644)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
 若要收到 Target 和其他 Adobe Experience Cloud 解決方案日後產品增強功能的提前通知，請註冊 Adobe 優先產品更新：
 
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
+[https://www.adobe.com/tw/subscription/priority-product-update.html](https://www.adobe.com/tw/subscription/priority-product-update.html)
