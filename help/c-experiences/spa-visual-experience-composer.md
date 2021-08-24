@@ -4,14 +4,14 @@ description: 了解如何在Adobe [!DNL Target] 中使用SPA VEC，在SPA上以�
 title: 如何使用單頁應用程式可視化體驗撰寫器(SPA VEC)?
 feature: 可視化體驗撰寫器 (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3702'
 ht-degree: 92%
 
 ---
 
-# 單一頁面應用程式 (SPA) 可視化體驗撰寫器
+# 單頁應用程式 (SPA) 可視化體驗撰寫器
 
 在 [!DNL Adobe Target] 中，[!UICONTROL 可視化體驗撰寫器] (VEC) 為行銷人員提供自助式功能，以建立活動並個人化體驗，這些可以透過 Adobe Target 的全域 Mbox 在傳統多頁應用程式上以動態方式傳送。不過，這有賴擷取頁面載入上的選件或後續伺服器呼叫，但會導致延遲，如下圖所示。由於這種作法會減損使用者體驗與應用程式效能，因此在單頁應用程式 (SPA) 上成效不彰。
 
@@ -65,7 +65,7 @@ ht-degree: 92%
 
    ![實作詳細資料對話方塊](/help/c-experiences/assets/imp-200.png)
 
-   透過位於[!UICONTROL 管理>實作]的Adobe Target UI下載at.js 2.x。 也可透過 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。不過，Adobe Target 擴充程式目前不是最新版本，且不受支援。
+   透過位於[!UICONTROL 管理>實作]的Adobe Target UI下載at.js 2.x。 也可透過[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)中的標籤來部署at.js 2.x。 不過，Adobe Target擴充功能目前尚未更新且受支援。
 
 1. 在您的網站上實作 at.js 2.x 的最新函數: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
