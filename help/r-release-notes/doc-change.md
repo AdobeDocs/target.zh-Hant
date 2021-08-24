@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: '發行說明 '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2252'
-ht-degree: 98%
+source-wordcount: '2279'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8 月 24 日 | [ [!DNL Target] 實作 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] 已重新命名為中的一套資料收集技 [!DNL Adobe Experience Platform]術。因此，產品檔案中已推出數個術語變更。 |
 | 8 月 23 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增下列事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會<ul><li>2021年9月8日星期三</li><li>上午 8 點 (PDT，UTC -7)</li></ul></li></ul> |
 | 8 月 19 日 | [檢視報告 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 已更新下列常見問答：<ul><li>A4T 是否支援虛擬報表套裝?</li></ul> |
 | 8 月 16 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md)<br>和<br>[at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增at.js 2.6.1的發行說明。 |
