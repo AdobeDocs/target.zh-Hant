@@ -4,7 +4,7 @@ description: 請依照為 [!DNL Target] (A4T) in your Adobe [!DNL Target] 和Ado
 title: 如何為 [!DNL Target] (A4T)實作Analytics?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 25%
@@ -29,7 +29,7 @@ ht-degree: 25%
 
 ### 步驟3:建立Edge設定
 
-使用[!DNL Adobe Experience Platform Launch]使用邊配置工具建立邊配置。 配置[[!DNL Analytics] and [!DNL Target] 邊緣配置設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)。
+使用[!DNL Adobe Experience Platform]使用邊配置工具建立邊配置。 配置[[!DNL Analytics] and [!DNL Target] 邊緣配置設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)。
 
 ### 步驟4:安裝及配置Platform Web SDK
 
