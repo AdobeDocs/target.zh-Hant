@@ -2,13 +2,13 @@
 keywords: at.js faq;at.js 常見問題集;忽隱忽現;載入工器;頁面載入器;跨網域;檔案大小;x-網域;at.js 與 mbox.js;僅限 x;safari;單頁應用程式;缺少選取器;選取器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 位址;httponly;HttpOnly;安全;ip;Cookie 網域
 description: 閱讀有關Adobe [!DNL Target] at.js JavaScript資料庫的常見問題解答。
 title: at.js的常見問題和答案為何？
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 75%
+source-wordcount: '2543'
+ht-degree: 77%
 
 ---
 
@@ -89,7 +89,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 若要非同步載入 at.js:
 
-* 建議的方法是透過[!DNL Adobe Experience Platform Launch]。 如需詳細資訊，請參閱[使用Launch在網站中實作Experience Cloud教學課程的[新增Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html)課程。](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)
+* 建議的方法是透過[!DNL Adobe Experience Platform]中的標籤。
 * 您也可以在載入 at.js 的指令碼標記中新增 async 屬性，就能非同步載入 at.js。使用類似的：
 
    ```
@@ -109,7 +109,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 您可以使用預先隱藏的程式碼片段來避免忽隱忽現情形，該片段會隱藏頁面（或指定部分），然後在at.js和全域要求載入後顯示。 您必須在載入 at.js 之前新增此程式碼片段。
 
-如果您是透過非同步Launch實作部署at.js，請務必依照[使用Launch在網站中實作Experience Cloud教學課程](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)的[新增Target預先隱藏程式碼片段](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)區段所述，直接在頁面上的Launch Embed程式碼之前包含預先隱藏的程式碼片段。
+如果您是透過非同步[!DNL Adobe Experience Platform]實作部署at.js，請務必在使用[!DNL Adobe Experience Platform]內嵌程式碼的實作[!DNL Target]之前，直接在頁面上包含預先隱藏的程式碼片段。
 
 如果您是透過同步 DTM 實作部署 at.js，可透過頁面頂端觸發的頁面載入規則新增預先隱藏的程式碼片段。
 
