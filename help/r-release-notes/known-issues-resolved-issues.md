@@ -2,12 +2,12 @@
 keywords: 已知問題;已解決問題;發行說明;錯誤;問題;修正
 description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括因應措施的資訊。問題解決後會被移到「已解決」區段。
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
-feature: 發行說明
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4505'
-ht-degree: 97%
+source-wordcount: '4503'
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 以下小節羅列 [!DNL Target] 的已知問題：
 
-### 使用A4T自動分配活動的流量分佈 {#aa-a4t}
+### 使用 A4T 自動分配活動的流量分佈 {#aa-a4t}
 
-在某些情況下，使用[!UICONTROL Analytics for Target](A4T)的[!UICONTROL 自動分配]活動的流量分佈，可能會因每個體驗回報的轉換率而有所不同。 回訪訪客流量比例較高的活動更常發生此情況。 受影響的客戶將會收到受影響活動的通知。
+在某些情況下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配]活動的流量分佈，可能不同於根據每個體驗回報的轉換率所應該發生的情況。此問題常發生於回訪訪客流量比例高的活動。受影響的客戶將會收到受影響活動的通知。
 
-在此問題解決之前，請對標準[!DNL Target]報表使用[!UICONTROL 自動分配]，或對[!DNL Analytics]報表使用標準A/B測試，作為[!UICONTROL 自動分配]與[!DNL Analytics]報表的替代項目。 (TOP-131)
+在此問題解決之前，請對標準 [!DNL Target] 報告使用[!UICONTROL 自動分配]，或對 [!DNL Analytics] 報告使用標準 A/B 測試，作為[!UICONTROL 自動分配]與 [!DNL Analytics] 報告的替代方案。(TOP-131)
 
 ### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
 
@@ -35,9 +35,9 @@ ht-degree: 97%
 
 如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
-### 增強體驗撰寫器(EEC)不支援PUT要求。
+### 增強體驗撰寫器 (EEC) 不支援 PUT 要求。
 
-EEC目前的問題導致其無法支援PUT要求，並導致504逾時錯誤。 (TGT-41493)
+EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。(TGT-41493)
 
 ### [!DNL Adobe Experience Platform] 區段名稱不會顯示在[!UICONTROL 重要屬性]報告中。
 
