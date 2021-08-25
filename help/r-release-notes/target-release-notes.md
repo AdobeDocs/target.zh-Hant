@@ -2,11 +2,11 @@
 keywords: 發行說明;發行;更新;未來發行;增強;新功能;修正;更新;發行說明
 description: 了解 Adobe Target 目前版本包含的新功能、增強功能和修正，其中包括 SDK、API 和 JavaScript 程式庫。
 title: 即將發行的版本包含哪些新功能？
-feature: 發行說明
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 99%
 
 ---
