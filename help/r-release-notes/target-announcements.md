@@ -2,11 +2,11 @@
 keywords: 公告;技能建立;開發人員聊天;咖啡會;事件;forrester;gartner;網路研討會
 description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培養課程、開發人員與產品經理聊天、網路研討會等。
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
-feature: '發行說明 '
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 94%
 
 ---
