@@ -2,11 +2,11 @@
 keywords: 發行說明
 description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與修復清單。
 title: 舊版版本包含哪些功能？
-feature: 發行說明
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
-source-wordcount: '31347'
+source-wordcount: '31345'
 ht-degree: 99%
 
 ---
