@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 94%
 
 ## [!DNL Adobe Target] 社群問答咖啡會
 
-* **2021年9月8日星期三**
+* **2021 年 9 月 8 日星期三**
 * **上午 8 點 (PDT，UTC -7)**
 * **[請按一下此處以了解更多資訊並註冊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497)。**
 
-[!DNL Adobe Target]的高級產品經理Vishal Chordia將回答與他的專業領域相關的客戶問題：
+[!DNL Adobe Target] 資深產品經理將會回答有關他專業領域的客戶問題：
 
 * [!DNL Adobe Experience Platform]
-* 受眾型個人化
-* [!DNL Real-time Customer Data Platform] (RTCDP)與  [!DNL Target]
-* 一般[!DNL Target]主題
+* Audience 方面的個人化服務
+* [!DNL Real-time Customer Data Platform] (RTCDP) 與 [!DNL Target] 整合
+* 一般 [!DNL Target] 主題
 
 ## 網路研討會影片：「利用 Adobe Target 的裝置上決策在零延遲的情況下進行個人化和測試。
 
