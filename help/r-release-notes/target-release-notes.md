@@ -5,9 +5,9 @@ title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 >
 >為避免您的網站出現任何潛在問題，請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月10日）
+## [!DNL Target Standard/Premium] 21.8.1 (2021 年 8 月 10 日)
 
 此維護發行包含許多後端增強功能，包括下列客戶面向的變更：
 
