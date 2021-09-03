@@ -2,12 +2,12 @@
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜尋引擎最佳化;搜尋引擎最佳化;seo;邊緣叢集,中央叢集;at.js;mbox.js;
 description: 了解 Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 程式庫 (at.js 和 Experience Platform Web SDK)、Adobe 資料中心及 SEO 測試的運作方式。
 title: ' [!DNL Target] 如何運作？'
-feature: 總覽
+feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
-workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2531'
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 98%
 * **at.js：** at.js 程式庫是 [!DNL Target] 的實施程式庫。at.js 程式庫改善 Web 實施的頁面載入時間，並且為單頁應用程式提供更好的實施選項。at.js 經常更新以包含新功能。Adobe 建議所有使用 at.js 的客戶更新其實施至[ at.js 最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js：** mbox.js 程式庫是 [!DNL Target] 的舊版實施程式庫。自 2021 年 3 月 31 日起不再支援 mbox.js 程式庫。
 
-在您網站的每個頁面上參閱 [!DNL Experience Platform Web SDK] 或 at.js。例如，您可以將其中一個程式庫新增至全域標題。或者，也可考慮在Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)中使用[標籤來實作[!DNL Target]。
+在您網站的每個頁面上參閱 [!DNL Experience Platform Web SDK] 或 at.js。例如，您可以將其中一個程式庫新增至全域標題。或者，考慮使用 Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 內的 [標記來實施 [!DNL Target]。
 
 下列資源包含協助您實施 Experience Platform Web SDK或 at.js 的詳細資訊：
 
-* [Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
 * [使用 Adobe Experience Platform 實作 [!DNL Target] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次訪客要求已針對 [!DNL Target] 最佳化的頁面時，都會傳送請求至目標定位系統。該請求有助於判斷要為該訪客提供哪些內容。此過程會即時進行。每次載入頁面時，系統會提出內容請求並履行。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。所提供的內容是每位網站訪客最有可能回應、互動或最終購買的內容。個人化內容可協助將回應率、贏取率和收入最大化。
