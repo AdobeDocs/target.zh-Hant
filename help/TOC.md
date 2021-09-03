@@ -4,9 +4,9 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 99%
          + [單一設定檔更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
          + [客戶屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [目標 安全性概覽](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [Target 安全性概覽](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [受支援的瀏覽器](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [TLS (傳輸層安全性) 加密變更](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME 與 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
@@ -110,7 +110,7 @@ ht-degree: 99%
             + [at.js 整合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + 如何部署 at.js {#deploy-at-js}
             + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [使用Adobe Experience Platform實作Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [使用 Adobe Experience Platform Launch 實施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [不使用標籤管理程式實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [使用動態標籤管理員 (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [實作適用於單頁應用程式 (SPA) 的 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
@@ -152,7 +152,7 @@ ht-degree: 99%
       + [將活動資訊傳送到 Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target 行動裝置預覽](c-target-mobile-app/target-mobile-preview.md)
       + [預先擷取選件內容](c-target-mobile-app/prefetch-offer-content.md)
-      + [目標(適用於行動應用程式) 常見問答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target(適用於行動應用程式) 常見問答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [使用定位服務](/help/c-target-mobile-app/use-location-service.md)
    + 伺服器端：實作 Target {#server-side}
       + [伺服器端：實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -285,7 +285,7 @@ ht-degree: 99%
          + [行動](c-target/c-audiences/c-target-rules/mobile.md)
          + [作業系統](c-target/c-audiences/c-target-rules/operating-system.md)
          + [網頁](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [目標 資料庫](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Target 資料庫](c-target/c-audiences/c-target-rules/target-library.md)
          + [時間段](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量來源](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [訪客設定檔](c-target/c-audiences/c-target-rules/visitor-profile.md)
