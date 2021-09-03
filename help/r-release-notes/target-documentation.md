@@ -2,12 +2,12 @@
 keywords: adobe target;target;文件;api;apis;sdk;sdks;教學課程;doc;文件
 description: 存取 Adobe [!DNL Target] 文件，包括線上說明、教學課程、影片和開發人員文件 (SDK、API 和 JavaScript 程式庫)。
 title: 我可以在哪裡找到 Target 文件？
-feature: 發行說明
+feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '465'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 | [Adobe Target 產品文件](/help/target-home.md)<br> (本指南) | 總覽資訊、步驟和螢幕擷取畫面，重點是透過使用者介面與 [!DNL Target] 互動。本指南概述所有可用的動作和選項，包括要避免的「疑問」。這是使用 [!DNL Target] UI 時最詳細的資源。 |
 | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html??lang=zh-Hant) | 影片和教學課程可協助您學習 [!DNL Target] 的許多元件。 |
 | [Adobe Experience League Target 內容庫](https://guided.adobe.com/#recommended/solutions/target) | 收集許多操作說明影片和教學課程，說明 [!DNL Adobe Target Experience League] 頁面上可用的 [!DNL Target] 功能。 |
-| [Adobe Experience Platform Target 文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 有關在[!DNL Adobe Experience Platform]（來自[!DNL Adobe]的新一代標籤管理平台）中使用標籤實作[!DNL Target]的資訊。 這是實施 [!DNL Target] 的偏好方法。 |
+| [Adobe Experience Platform Target 文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 有關使用 [!DNL Adobe] 的下一代標記管理平台 [!DNL Adobe Experience Platform] 內的標記來實施 [!DNL Target] 的資訊 。這是實施 [!DNL Target] 的偏好方法。 |
 | [Adobe 客戶服務營業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 有關 Adobe 客戶服務團隊主導的計劃「營業時間」的資訊。這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。 |
 | [Target 基礎網路研討會系列](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | [!DNL Target] 基礎網路研討會系列前幾場研討會的註冊資訊和連結，這是由社群推出的客戶成功研討會系列。 |
 | [Adobe Target 開發人員](https://developers.adobetarget.com/) | 有關 Adobe Target開發人員網站的資訊，可協助您在用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實施 [!DNL Target]。您也可以將 [!DNL Target] 資料匯出至協力廠商解決方案。 |
