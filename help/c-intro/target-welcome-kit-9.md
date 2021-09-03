@@ -2,12 +2,12 @@
 keywords: 歡迎套件;target 歡迎套件;介紹;介紹;開始
 description: 您已在 Adobe Target 中建立第一個活動。接下來呢？使用本文章中有關額外資源、培訓教學課程和操作影片的連結。
 title: 在哪裡可以找到更多有效使用 Target 的額外資源？
-feature: 總覽
+feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
-workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '720'
+ht-degree: 100%
 
 ---
 
