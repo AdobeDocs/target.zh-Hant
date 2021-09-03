@@ -2,13 +2,13 @@
 keywords: 發行說明;新功能;發行;更新;更新;發行;增強功能;增強功能;修正;錯誤修正;更新
 description: 了解  [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 資料庫。
 landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新功能、增強功能和修正。
-title: 目前版本包含哪些新功能？
+title: 目前發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 90%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## at.js 2.6.1（2021年8月16日）
+## at.js 2.6.1 (2021 年 8 月 16 日)
 
-* 使用裝置上決策時，「沒有可用於混合模式的快取工件」的錯誤修正。
+* 當使用裝置上決策功能時，發生「沒有適用於混合模式的緩存成品」的錯誤修正。
 
-## [!DNL Target] node.js SDK 2.2.0（2021年8月11日）
+## [!DNL Target] node.js SDK 2.2.0 (2021 年 8 月 11 日)
 
-* 新增SDK遙測資料收集
-* 自動傳送API用戶端openapi程式碼原
+* 新增 SDK 遙測資料彙集
+* 自動化傳送 API 客戶端 Openapi Codegen
 
-如需此版本和舊版的詳細資訊，請參閱Github上[Target node.js SDK檔案](https://github.com/adobe/target-nodejs-sdk)中的[變更記錄](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)。
+有關本版本和先前版本的更多資訊，請參閱 Github 上的 [Target node.js SDK 文件](https://github.com/adobe/target-nodejs-sdk) 內的 [變更記錄](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)。
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月10日）
+## [!DNL Target Standard/Premium] 21.8.1 (2021 年 8 月 10 日)
 
 此維護發行包含許多後端增強功能，包括下列客戶面向的變更：
 
