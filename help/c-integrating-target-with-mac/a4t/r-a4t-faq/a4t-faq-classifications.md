@@ -1,13 +1,13 @@
 ---
 keywords: faq；常見問題集；analytics for target;a4T；分類；分類匯入工具；post-tnt-action；事件程式碼
-description: 尋找分類和使用Analytics進行 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活動的相關問題解答。
+description: 尋找分類和使用[!UICONTROL Analytics for Target](A4T)問題的解答。
 title: 我可以在哪裡找到A4T分類的相關資訊？
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 46%
+source-wordcount: '317'
+ht-degree: 29%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 46%
 
 本主題包含經常詢問關於分類和使用[!DNL Analytics]做為[!DNL Target](A4T)報表來源問題的回答。
 
-## 使用分類匯入工具下載分類之後，如何讓 pos -tnt-action 值和活動名稱相配? {#section_6045DAC488B248418F430E663C38D001}
+## 使用[!UICONTROL 分類匯入工具]下載分類後，如何讓post-tnt-action值與活動名稱相符？ {#section_6045DAC488B248418F430E663C38D001}
 
 您可以從管理工具[分類匯入工具](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html)下載 A4T/TNT 字串的分類。在匯出清單中，變數稱為 &quot;TNT&quot;。下載的資料包括活動、體驗等等的易記名稱。
 
-對於收到 Adobe 點擊串流資料摘要的客戶，此查閱檔案非常有用。此檔案提供易記名稱給 `post_tnt` 和 `post_tnt_action` 欄。
+此查閱檔案對於接收[!DNL Adobe]點按流資料饋送的客戶非常實用。 此檔案提供易記名稱給 `post_tnt` 和 `post_tnt_action` 欄。
 
-TNT 變數的字串格式為 `activityID:experienceID:targettype|event`。
+對於標準[!UICONTROL A/B測試]和[!UICONTROL 體驗鎖定目標](XT)活動，TNT字串的格式為：
 
-* targettype = 0（控制/隨機）或1（鎖定），用於[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動。
+```
+activityID:experienceID:targettype|event
+```
+
+對於[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動，TNT字串的格式為：
+
+```
+activityId:experienceId:targettype:algorithmId|event
+```
+
+* `targettype` =和 `targettype` 是自 `algorithmId` 動分配和自動鎖定 [!UICONTROL 目標活動使] 用的內  部識別碼。
 * Event = 0 代表體驗進入。
 * Event = 1 代表體驗造訪。
 * Event = 2 代表活動曝光次數。
