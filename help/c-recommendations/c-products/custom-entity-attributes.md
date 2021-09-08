@@ -5,10 +5,10 @@ title: 如何使用自訂實體屬性？
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 89%
 
 ## 實作多值屬性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用摘要 (CSV)、`targetPageParams`、「傳送 API」 和「儲存實體 API」來上傳產品時，支援多值自訂實體屬性。新值會取代目前值，而不會附加。空白陣列 ([]) 視為沒有值。
+使用摘要(CSV)、`targetPageParams`和「傳送API」來上傳產品時，支援多值自訂實體屬性。 新值會取代目前值，而不會附加。空白陣列 ([]) 視為沒有值。
 
 必須將雙引號逸出。例如，`"[""test"", ""value""]"` 為可以在 CSV 中使用的有效 JSON 陣列。
 

@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '2317'
-ht-degree: 98%
+source-wordcount: '2299'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 98%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 7 年 9 月 | [行動](/help/c-target/c-audiences/c-target-rules/mobile.md) | 更新「考量事項」章節，其中包含執行Safari 14.0.2（或更新版本）的目標裝置相關資訊。 |
-|  | [分類 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 更新`targettype`和`algorithmId`的相關資訊，這些是[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用的內部識別碼。 |
 | 8 月 24 日 | 使用[ [!DNL Target] 實施 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] 已經過品牌重塑，現在是 [!DNL Adobe Experience Platform] 中的一套資料彙集技術。 因此，所有產品文件中出現了幾項術語變更。 |
 | 8 月 23 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會<ul><li>2021 年 9 月 8 日星期三</li><li>上午 8 點 (PDT，UTC -7)</li></ul></li></ul> |
 | 8 月 19 日 | [檢視報告 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 已更新下列常見問答：<ul><li>A4T 是否支援虛擬報表套裝?</li></ul> |

@@ -1,13 +1,13 @@
 ---
 keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
-description: 了解如何在 [!DNL Adobe Target] 中建立受眾，以根據行動裝置、裝置類型、裝置廠商、畫面維度（依像素）等參數來鎖定行動裝置。
+description: 了解如何在 [!DNL Adobe Target] 中建立對象以鎖定行動裝置。
 title: 我可以根據行動選項定位訪客嗎？
-feature: 對象
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 43%
+source-wordcount: '669'
+ht-degree: 40%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >由於iOS 12.2中推出的新變更，使用由[!UICONTROL 裝置行銷名稱]和[!UICONTROL 裝置型號]定義的規則來建立對象時，會受到影響。 [!DNL Target] 無法再將目標定位為已安裝iOS 12.2（或更新版本）的iPhone使用者。不過，如果這些使用者沒有iOS 12.2（或更新版本）,iPhone型號鎖定目標功能將可繼續正常運作。
-   >
-   >iOS 12.2（或更新版本）更新不會影響下列機型的識別，因為這些機型不支援升級至iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina顯示器、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
-
-   >[!NOTE]
-   >
    >您可以依行動裝置電信業者來鎖定目標，請使用[地理設定](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。
 
 1. （選用）為對象設定其他規則。
@@ -70,6 +64,20 @@ ht-degree: 43%
 下圖顯示對象鎖定目標訪客使用由Google製造的行動裝置。
 
 ![Target 行動裝置](assets/target_mobile.png)
+
+## 考量事項
+
+定位行動裝置時，請考量下列資訊：
+
+### 執行iOS 12.2或更新版本的鎖定目標裝置
+
+由於iOS 12.2中推出的新變更，使用由[!UICONTROL 裝置行銷名稱]和[!UICONTROL 裝置型號]定義的規則來建立對象時，會受到影響。 [!DNL Target] 無法再將目標定位為已安裝iOS 12.2（或更新版本）的iPhone使用者。不過，如果這些使用者沒有iOS 12.2（或更新版本）,iPhone型號鎖定目標功能將可繼續正常運作。
+
+iOS 12.2（或更新版本）更新不會影響下列機型的識別，因為這些機型不支援升級至iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina顯示器、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
+
+### 執行Safari 14.0.2（或更新版本）的鎖定裝置
+
+使用行動規則來鎖定在macOS上執行Safari 14.0.2版（或更新版本）的裝置時，由於與Apple的使用者代理和DeviceAtlas有關的已知問題， [!DNL Target]會將Mac裝置上的Safari誤識為iPad版本。 這個問題將在今後解決。
 
 ## 訓練影片: 建立對象
 
