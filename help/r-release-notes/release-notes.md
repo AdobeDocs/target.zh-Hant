@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 57%
 
 ---
 
@@ -24,46 +24,22 @@ ht-degree: 100%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## at.js 2.6.1 (2021 年 8 月 16 日)
+## [!DNL Target Standard/Premium] 21.9.1（2021年9月14日）
 
-* 當使用裝置上決策功能時，發生「沒有適用於混合模式的緩存成品」的錯誤修正。
+此維護發行包含下列增強功能、修正和變更。
 
-## [!DNL Target] node.js SDK 2.2.0 (2021 年 8 月 11 日)
-
-* 新增 SDK 遙測資料彙集
-* 自動化傳送 API 客戶端 Openapi Codegen
-
-有關本版本和先前版本的更多資訊，請參閱 Github 上的 [Target node.js SDK 文件](https://github.com/adobe/target-nodejs-sdk) 內的 [變更記錄](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)。
-
-## [!DNL Target Standard/Premium] 21.8.1 (2021 年 8 月 10 日)
-
-此維護發行包含許多後端增強功能，包括下列客戶面向的變更：
-
-* 修正在[!UICONTROL 表單式體驗撰寫器]中建立之 [!UICONTROL Auto Personalization] 活動的報表，會參照報表中已刪除之優惠的問題。此問題會導致顯示以下錯誤訊息：「擷取此報表的資料時遇到問題。如果問題仍然存在，請聯絡 Adobe 客戶服務。」(TGT-41028)
-
-## [!DNL Target Delivery API] (2021 年 8 月 3 日)
-
-此版本包含下列增強功能：
-
-* mbox 參數限制已提高為 100 個參數。先前的限制為 50 個參數。(TNT-41717)
-* `categoryId` 的限制已增加為 256 個字元。先前的限制為 128 個字元。
-* 下列 [!DNL Adobe Audience Manager] (AAM) 詳細資料已新增至 Delivery API：
-
-   * AAM UUID：用來唯一識別用戶的內部 AAM ID。
-   * dataPartnerId：資料合作夥伴的 ID。
-   * dataPartnerUserId：資料合作夥伴所提供的用戶 ID。
-
-   先前的 Delivery API 只包含 `dcsLocationHint` 和 `blob`。(TNT-41644)
-
-## at.js 2.6.0 (2021 年 7 月 27 日)
-
-* 當 at.js 設定 `secureOnly` 設為 `true` 時，為 Cookie 新增安全屬性。
-* 現在可以在使用 `triggerView()` 時使用回應 Token。
-* 修正了與 `CONTENT_RENDERING_NO_OFFERS` 事件相關的問題。現在，只要沒有從 [!DNL Target] 傳回內容，就會正確觸發此事件。
-* 使用 `prefetch` 請求時會正確傳回 [!DNL Analytics for Target] (A4T) 點擊量度詳細資料。
-* UUID 產生不再使用 `Math.random()`，但須依賴 `window.crypto`。
-* `sessionId` Cookie 過期在每次網路呼叫時會正確延長。
-* [!UICONTROL 單頁應用程式] (SPA) 檢視快取初始化現在可以正確處理並接受 `viewsEnable` 設定。
+* 修正由於某些網頁瀏覽器中第三方Cookie的新安全性原則，客戶無法登入[!UICONTROL 可視化體驗撰寫器](VEC)的問題。 在[疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中，「使用Google Chrome 80+版時，可視化體驗撰寫器(VEC)或增強體驗撰寫器(EEC)中未載入頁面」中討論了此問題。
+* 修正VEC中的選件名稱顯示選件路徑，而非選件易記名稱的問題。 (TGT-41300)
+* A4T活動的[!DNL Analysis Workspace]現在會反映體驗名稱(TGT-38674)
+* 修正[!DNL Recommendations]中，重複活動中促銷活動中套用的實體ID誤變至原始活動的問題。 (TGT-41482)
+* 修正VEC中[!DNL Recommendations]活動的[!UICONTROL 體驗]頁面上，無法正確顯示「編輯條件」按鈕的問題。 (TGT-39512)
+* 修正複製和複製到測試工作區時，無法同步活動的問題。 (TGT-40686)
+* 修正在VEC中使用「[!UICONTROL Insert After]」時，無法修改具有[體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)的選取器的問題。 (TGT-41802)
+* 修正無法將選件中的空JSON內容傳送至後端的問題。 [!DNL Target] 現在會傳送JSON物件，即使它為空。(TGT-41555)
+* 修正當客戶檢視報表時按一下「[!UICONTROL 在Analytics中檢視」時，導致開啟舊版[!DNL Analytics]報表而非[!DNL Analysis Workspace]的問題。 ](TGT-41867)
+* 新增當客戶嘗試為[!UICONTROL Automated Personalization]活動選取[!DNL Analytics]作為報表來源(A4T)時，已顯示之UI訊息的其他說明。 訊息指出，「[!DNL Target]是[!UICONTROL Automated Personalization]活動唯一支援的來源。」 (TGT-41954)
+* 新增當客戶嘗試以「新行」（而非逗號）分隔主機時，錯誤訊息的其他說明。 (TGT-40671)
+* 修正部分活動「[!UICONTROL Last Updated]」日期與西班牙和日本客戶的英文UI不同（以西班牙文和日文檢視UI時）的問題。 (TGT-38980)
 
 ## 額外的發行說明和版本詳細資料
 
