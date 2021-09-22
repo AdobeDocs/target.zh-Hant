@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2536'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9 月 22 日 | [設計常見問答](/help/c-recommendations/c-design-overview/template-faq.md) | 已更新下列常見問答：<ul><li>我可以在[!DNL Recommendations]設計中使用設定檔指令碼嗎？</li></ul> |
 | 9 月 22 日 | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | 新增下列考量事項：<ul><li>點擊追蹤量度不會連結至活動中的任何特定體驗。</li><li>如有必要限制點擊追蹤量度的範圍，請使用對象。</li><li>多個活動可定義相同選擇器的點擊追蹤量度。 如果符合，當訪客符合其中一個活動，並點按該選取器時，該訪客符合資格的所有相關活動的點擊追蹤量度就會增加。</li></ul> |
 |  | 使用[ [!DNL Target] 實施 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 在「使用[!DNL Target]擴充功能實作at.js的優點」一節中新增備注。 |
 |  | [mbox3rdPartyId 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 以新資訊更新「考量事項」章節。 |
