@@ -2,12 +2,12 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings；全域設定；at.js；函式；clientCode;clientcode;serverDomain;cookieDomain;crossDomain;crossDomain；逾時；globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenBodyEnabledIms;ImsEnborgId;EneId;ImImIdOneId;OneIdImIdId;OnId;OnIdOnImImOneIdEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;optout;selectorsPollingTimeout;dataProviders；混合個人化；deviceIdLifetime
 description: 對Adobe [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target] UI或REST API使用targetGlobalSettings()函式。
 title: 如何使用targetGlobalSettings()函式？
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2332'
 ht-degree: 30%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 30%
 
 * **類型**:布林值
 * **預設值**:false
-* **說明**:指出at.js是否應該僅使用HTTPS或根據頁面通訊協定，允許在HTTP與HTTPS之間切換。
+* **說明**:指出at.js是否應該僅使用HTTPS或根據頁面通訊協定，允許在HTTP與HTTPS之間切換。設為true時，secureOnly也會將Secure和SameSite屬性設為mbox Cookie。
 
 ### selectorsPollingTimeout
 

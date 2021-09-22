@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 99%
+source-wordcount: '2520'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9 月 22 日 | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | 新增下列考量事項：<ul><li>點擊追蹤量度不會連結至活動中的任何特定體驗。</li><li>如有必要限制點擊追蹤量度的範圍，請使用對象。</li><li>多個活動可定義相同選擇器的點擊追蹤量度。 如果符合，當訪客符合其中一個活動，並點按該選取器時，該訪客符合資格的所有相關活動的點擊追蹤量度就會增加。</li></ul> |
+|  | 使用[ [!DNL Target] 實施 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 在「使用[!DNL Target]擴充功能實作at.js的優點」一節中新增備注。 |
+|  | [mbox3rdPartyId 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 以新資訊更新「考量事項」章節。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 更新「secureOnly」區段。 |
+|  | [at.js 常見問題](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 更新下列常見問題集：「at.js為何不一律使用HttpOnly和Secure Cookie旗標？」 |
 | 9 月 14 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.9.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (2021 年 8 月 10 日)

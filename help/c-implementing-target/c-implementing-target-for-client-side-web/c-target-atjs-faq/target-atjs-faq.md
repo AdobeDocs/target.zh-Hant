@@ -2,19 +2,19 @@
 keywords: at.js faq;at.js 常見問題集;忽隱忽現;載入工器;頁面載入器;跨網域;檔案大小;x-網域;at.js 與 mbox.js;僅限 x;safari;單頁應用程式;缺少選取器;選取器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 位址;httponly;HttpOnly;安全;ip;Cookie 網域
 description: 閱讀有關Adobe [!DNL Target] at.js JavaScript資料庫的常見問題解答。
 title: at.js的常見問題和答案為何？
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 77%
+source-wordcount: '2521'
+ht-degree: 60%
 
 ---
 
 # at.js 常見問題
 
-關於 at.js 常見問題的回答。
+關於[!DNL Adobe Target] at.js JavaScript資料庫的常見問題解答。
 
 ## 使用 at.js 或 mbox.js 各有何優點? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
@@ -47,45 +47,45 @@ ht-degree: 77%
 1. 如果已啟用全域 mbox 自動建立，Target JavaScript 資料庫:
 
    * 實體化訪客物件。
-   * Target 資料庫會嘗試擷取 Experience Cloud 訪客 ID 資料。
+   * [!DNL Target]程式庫會嘗試擷取[!DNL Experience Cloud Visitor ID]資料。
    * 由於此訪客是新訪客，因此訪客API會向demdex.net觸發跨網域請求。
-   * 擷取 Experience Cloud 訪客 ID 資料之後，即會觸發對 Target 的要求。
+   * 擷取[!DNL Experience Cloud Visitor ID]資料後，會引發[!DNL Target]要求。
 
 ### 再度訪問的訪客
 
 1. 訪客 API 會載入、剖析和執行。
 1. at.js / mbox.js 會載入、剖析和執行。
-1. 如果已啟用全域 mbox 自動建立，Target JavaScript 資料庫:
+1. 如果已啟用全域mbox自動建立，[!DNL Target] JavaScript程式庫：
 
    * 實體化訪客物件。
-   * Target 資料庫會嘗試擷取 Experience Cloud 訪客 ID 資料。
+   * [!DNL Target]程式庫會嘗試擷取[!DNL Experience Cloud Visitor ID]資料。
    * 訪客 API 會從 Cookie 擷取資料。
-   * 擷取 Experience Cloud 訪客 ID 資料之後，即會觸發對 Target 的要求。
+   * 擷取[!DNL Experience Cloud Visitor ID]資料後，會引發[!DNL Target]要求。
 
 >[!NOTE]
 >
->對於新訪客，當「訪客 API」存在時，Target 必須通過網路許多次，以確定 Target 請求包含 Experience Cloud 訪客 ID 資料。對於再度訪問的訪客，Target 只會通過網路到 Target 來擷取個人化內容。
+>若為新訪客，當訪客API存在時，[!DNL Target]必須多次瀏覽連線，以確定[!DNL Target]請求包含[!DNL Experience Cloud Visitor ID]資料。 若為再度訪問的訪客，[!DNL Target]只會越線前往[!DNL Target]以擷取個人化內容。
 
 ## 從舊版 at.js 升級為版本 1.0.0 之後，為什麼我發現回應時間好像變慢了? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
-[!DNL at.js] 1.0.0 版本以及更新版本會平行觸發所有請求。舊版會循序執行請求，亦即請求會放入佇列中，Target 會等待第一個請求完成之後，再繼續處理下一個請求。
+[!DNL at.js] 1.0.0 版本以及更新版本會平行觸發所有請求。舊版會依序執行請求，這表示請求會放入佇列中，而[!DNL Target]會等待第一個請求完成，再繼續處理下一個請求。
 
-舊版 [!DNL at.js] 執行請求的方式易於發生所謂的「線頭阻塞」。在 [!DNL at.js] 1.0.0 以及更新版本中，Target 會切換至平行請求執行。
+舊版 [!DNL at.js] 執行請求的方式易於發生所謂的「線頭阻塞」。在 [!DNL at.js] 1.0.0 以及更新版本中， 會切換至平行請求執行。[!DNL Target]
 
 如果您檢查 [!DNL at.js] 0.9.1 的網路標籤瀑布圖，則會看到下一個 請求要等到上一個完成時才會開始。[!DNL Target]此序列與[!DNL at.js] 1.0.0及更新版本的不同，所有請求基本上都是同時開始。
 
 從回應時間的角度，從數學上來說，這個序列可以這樣加總
 
 <ul class="simplelist"> 
- <li> at.js 0.9.1: 所有 Target 請求的回應時間 = 請求回應時間的總和 </li> 
- <li> at.js 1.0.0 以及更新版本: 所有 Target 請求的回應時間 = 最長的請求回應時間 </li> 
+ <li> at.js 0.9.1:所有[!DNL Target]要求的回應時間=要求回應時間的總和 </li> 
+ <li> at.js 1.0.0和更新版本：所有[!DNL Target]要求的回應時間=要求回應時間上限 </li> 
 </ul>
 
-[!DNL at.js]程式庫1.0.0版能更快完成請求。 此外，[!DNL at.js] 請求為非同步， 不會阻礙頁面呈現。[!DNL Target]即使請求需要數秒才能完成，您仍會看到呈現的頁面，在Target收到來自Target邊緣的回應之前，頁面只有部分會空白。
+[!DNL at.js]程式庫1.0.0版能更快完成請求。 此外，[!DNL at.js] 請求為非同步， 不會阻礙頁面呈現。[!DNL Target]即使請求需要數秒才能完成，您仍會看到呈現的頁面，在[!DNL Target]從[!DNL Target]邊緣收到回應之前，頁面只有部分空白。
 
 ## 我可以非同步載入[!DNL Target]程式庫嗎？ {#section_AB9A0CA30C5440C693413F1455841470}
 
-at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
+at.js 1.0.0版可讓您非同步載入[!DNL Target]程式庫。
 
 若要非同步載入 at.js:
 
@@ -115,7 +115,7 @@ at.js 1.0.0 版可讓您非同步載入 Target 資料庫。
 
 如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
 
-## at.js與Adobe Experience Manager整合(Experience Manager)相容嗎？ {#section_6177AE10542344239753764C6165FDDC}
+## at.js與[!DNL Adobe Experience Manager]整合(Experience Manager)相容嗎？ {#section_6177AE10542344239753764C6165FDDC}
 
 [!DNL Adobe Experience Manager] 6.2 具有 FP-11577 (或更新版本) 現在支援 [!DNL at.js] 實施與其 [!UICONTROL Adobe Target Cloud Services] 整合。
 
@@ -149,7 +149,7 @@ at.js目前使用部分jQuery，因此您會在at.js頂端看到MIT授權通知�
 
 可以，若您使用at.js 2.x，便可針對SPA使用VEC。如需詳細資訊，請參閱[單頁(SPA)可視化體驗撰寫器](/help/c-experiences/spa-visual-experience-composer.md)。
 
-## 我可以對 at.js 實施使用 Adobe Experience Cloud Debugger 嗎? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## 我可以對at.js實作使用[!DNL Adobe Experience Cloud]除錯程式嗎？ {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 是.您也可以使用 mboxTrace 以進行偵錯，或使用瀏覽器的開發人員工具以檢查網路請求，篩選「mbox」以隔離 mbox 呼叫。
 
@@ -159,13 +159,13 @@ at.js目前使用部分jQuery，因此您會在at.js頂端看到MIT授權通知�
 
 ## 為什麼在我的網頁上 mbox 不會觸發? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
- 客戶有時使用雲端型例項搭配 [!DNL Target]Target 進行測試或簡單的概念證明用途。這些網域和許多其他網域均屬於[公用字尾清單](https://publicsuffix.org/list/public_suffix_list.dat)。
+[!DNL Target] 客戶有時使用雲端型例項搭配 [!DNL Target] 進行測試或簡單的概念證明用途。這些網域和許多其他網域均屬於[公用字尾清單](https://publicsuffix.org/list/public_suffix_list.dat)。
 
 如果您使用這些網域，則現代瀏覽器不會儲存Cookie，除非您使用targetGlobalSettings()自訂`cookieDomain`設定。 如需詳細資訊，請參閱[使用雲端型例項搭配 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)。
 
 ## 使用 at.js 時，可以將 IP 位址用作 Cookie 網域嗎? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-可以，只要您使用 [at.js 1.2 版或更新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。Adobe強烈建議您保持最新版本。
+可以，只要您使用 [at.js 1.2 版或更新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。[!DNL Adobe] 不過，強烈建議您保持最新版本。
 
 >[!NOTE]
 >
@@ -201,8 +201,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 * 頁面是動態建置，且at.js找不到元素。
 * 頁面建置緩慢（因為網路速度緩慢），且at.js在DOM中找不到選取器。
-* 執行活動的頁面結構已變更。如果您在可視化體驗撰寫器 (VEC) 中重新開啟活動，應該會看到警告訊息。更新活動，以便找到所有必要的元素。
-* 基礎頁面是單頁應用程式 (SPA) 的一部分，或頁面包含的元素出現在頁面很下方，而 [!DNL at.js]「選取器輪詢機制」找不到這些元素。提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+* actit[!UICONTROL y所執行的頁面結構已變更。 如果您在]可視化體驗撰寫器(VEC)中重新開啟活動，應會收到警告訊息。 更新活動，以便找到所有必要的元素。
+* 基礎頁面是[!UICONTROL 單頁應用程式](SPA)的一部分，或頁面包含的元素出現在頁面很下方，而[!DNL at.js] &quot;selector輪詢機制&quot;找不到這些元素。 提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 任何點擊追蹤量度會嘗試將本身新增至每個頁面，而不論設定此量度的 URL。雖然無害，但此狀況會導致這些訊息大量出現。
 
    為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。如需詳細資訊，請參閱 [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)和[下載 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
@@ -211,17 +211,17 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 [!DNL tt.omtrdc.net] 是 Adobe 之 EDGE 網路的網域名稱，用來接收 Target 的所有伺服器呼叫。
 
-## 為何 at.js 和 mbox.js 不使用 HttpOnly 與 Secure Cookie 旗標? {#section_74527E3B41B54B0A83F217C3E664ED1F}
+## at.js為何不一律使用HttpOnly和Secure Cookie旗標？ {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-HttpOnly 只能透過伺服器端編碼來設定。Mbox 之類的 Target Cookie 是透過 JavaScript 編碼來建立與儲存，因此 Target 無法使用 HttpOnly Cookie 旗標。
+HttpOnly 只能透過伺服器端編碼來設定。[!DNL Target]Mbox 之類的 Cookie 是透過 JavaScript 編碼來建立與儲存，因此 無法使用 HttpOnly Cookie 旗標。[!DNL Target][!DNL Target] 在啟用跨網域時，會對從伺服器端設定的第三方cookie使用設定HttpOnly。
 
-Secure 只有在頁面是經由 HTTPS 來載入時，能透過 JavaScript 設定。如果頁面一開始是透過 HTTP 載入，JavaScript 無法設定此旗標。此外，如果使用Secure標幟，則Cookie僅可在HTTPS頁面上使用。
+Secure 只有在頁面是經由 HTTPS 來載入時，能透過 JavaScript 設定。如果頁面一開始是透過 HTTP 載入，JavaScript 無法設定此旗標。此外，如果使用Secure標幟，則Cookie僅可在HTTPS頁面上使用。 對於透過HTTPS載入的頁面，[!DNL Target]會設定Secure和SameSite=None屬性。
 
-為確保 Target 能正確追蹤使用者，且由於 Cookie 都是在用戶端產生，Target 不會使用這兩種旗標。
+為確保[!DNL Target]可正確追蹤使用者，且由於Cookie是在用戶端產生，除了上述情況，[!DNL Target]不會使用任一標幟。
 
 ## at.js 觸發網路要求的頻率為何? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target 會在伺服器端執行其所有決策。這表示 at.js 會在每次頁面重新載入或叫用 at.js 公用 API 時，觸發網路要求。
+[!DNL Target] 會在伺服器端執行其所有決策。這表示 at.js 會在每次頁面重新載入或叫用 at.js 公用 API 時，觸發網路要求。
 
 ## 在最好的情況下，我們能否期望使用者在隱藏、取代，和顯示內容方面，不會受到任何頁面載入上的可見影響? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
@@ -234,11 +234,11 @@ at.js會嘗試在較長的期間內避免預先隱藏HTML BODY或其他DOM元素
 1. 頁面載入。
 1. at.js 預先隱藏 HTML BODY。有可以預先隱藏特定容器，而非 HTML BODY 的設定。
 1. at.js 要求觸發。
-1. 收到 Target 回應後，Target 會擷取 CSS 選取器。
-1. Target 會使用 CSS 選取器，建立 STYLE 標記以預先隱藏要自訂的 DOM 元素。
+1. 收到[!DNL Target]回應後， [!DNL Target]會擷取CSS選取器。
+1. [!DNL Target]使用CSS選取器會建立STYLE標籤，以預先隱藏將自訂的DOM元素。
 1. 移除預先隱藏 STYLE 的 HTML BODY。
-1. Target 開始進行 DOM 元素的輪詢。
-1. 若找到 DOM 元素，Target 會套用 DOM 變更，且系統會移除預先隱藏 STYLE 的元素。
+1. [!DNL Target] 開始進行 DOM 元素的輪詢。
+1. 如果找到DOM元素，[!DNL Target]會套用DOM變更，並移除預先隱藏STYLE的元素。
 1. 如果找不到DOM元素，全域逾時會取消隱藏元素，以避免頁面損毀。
 
 ## at.js最後取消隱藏活動正在變更的元素時，頁面內容完全載入和顯示的頻率為何？ {#section_01AFF476EFD046298A2E17FE3ED85075}
@@ -249,17 +249,17 @@ at.js 不會讓頁面無法呈現。使用者可能會注意到頁面上有些�
 
 ## 完全快取的頁面會如何影響上述情況? 其餘頁面內容載入後，活動內容是否更有可能明顯可見? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-若頁面快取在靠近使用者位置的 CDN 上，但不靠近 Target Edge，則使用者可能會看到一些延遲。目標邊在全球各地分佈良好，因此這在大多數情況下都不是問題。
+如果快取的CDN靠近使用者位置，但不靠近[!DNL Target]邊緣，該使用者可能會看到某些延遲。 [!DNL Target] 邊緣分佈於全球各地，因此這大多數時候都不是問題。
 
 ## 是否可以顯示主圖影像，然後在短暫的延遲後進行更換? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 考量到下列情況:
 
-Target 逾時為 5 秒。使用者載入具有自訂主圖影像活動的頁面。at.js 傳送要求以確認是否有要套用的活動，但無初始回應。假設使用者看見了主圖影像的一般內容，由於並未從 Target 收到任何關於相關活動是否存在的回應，4 秒後，Target 會傳回包含活動內容的回應。
+[!DNL Target]逾時為5秒。 使用者載入具有自訂主圖影像活動的頁面。at.js 傳送要求以確認是否有要套用的活動，但無初始回應。假設使用者看見主圖影像的一般內容，因為未從[!DNL Target]收到任何關於是否有相關聯活動的回應。 4秒後，[!DNL Target]會傳回包含活動內容的回應。
 
 在此階段，是否可以顯示替代版本? 4 秒後，是否可以更換主圖影像且使用者會注意到此影像更換?
 
-起初，主圖影像 DOM 元素會隱藏。收到來自 Target 的回應後，at.js 會套用 DOM 變更 (例如取代 IMG 和顯示自訂的主圖影像)。
+起初，主圖影像 DOM 元素會隱藏。收到來自[!DNL Target]的回應後，at.js會套用DOM變更，例如取代IMG並顯示自訂的主圖影像。
 
 ## at.js 需要什麼 HTML doctype?
 
@@ -269,4 +269,4 @@ at.js 需要 HTML 5 doctype。
 
 `<!DOCTYPE html>`
 
-HTML 5 doctype 可確保頁面以標準模式載入。使用怪異模式載入時，會停用 at.js 所根據的某些 JS API。在怪異模式下，Target 會停用 at.js。
+HTML 5 doctype 可確保頁面以標準模式載入。使用怪異模式載入時，會停用 at.js 所根據的某些 JS API。[!DNL Target]在怪異模式下， 會停用 at.js。

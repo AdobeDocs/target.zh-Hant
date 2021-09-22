@@ -1,13 +1,13 @@
 ---
 keywords: 點擊追蹤; 追蹤點擊; 點擊; AppMeasurement
-description: 了解「Adobe [!DNL Target] 」如何讓您以成功量度的形式追蹤任何元素上的點按。
+description: 了解如何 [!DNL Adobe Target] 讓您以成功量度的形式追蹤任何元素上的點按。
 title: 什麼是點擊追蹤？
-feature: 成功度量
+feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 91%
+source-wordcount: '929'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->將全域Target請求用作表單式活動中的位置時，不支援追蹤點按。
+>全域[!DNL Target]請求在表單式活動中當作位置時，不支援追蹤點按。
 
 ## 設定點擊追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -28,19 +28,19 @@ ht-degree: 91%
 
 1. 選取您要追蹤的任何元素。
 
-   請參閱以下的「考量事項」區段，以取得選取元素的相關提示。
+   請參閱以下的&#x200B;*「考量事項」*&#x200B;區段，以取得選取元素的相關提示。
 
-1. 按一下畫面上方的核取記號來儲存您的選擇項目。
+1. 按一下螢幕頂端的&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的選取項目。
 
 當活動加入者點擊選取的元素時，該點擊會被計為轉換。
 
 ## 所選元素面板 {#selected-elements}
 
-若為 A/B 測試、體驗鎖定目標 (XT)、Automated Personalization (AP) 和多變數測試 (MVT) 活動，[!UICONTROL 所選元素]面板會在右側列出點擊追蹤的所有所選元素。
+對於[!UICONTROL A/B測試]、[!UICONTROL 體驗鎖定目標](XT)、[!UICONTROL Automated Personalization](AP)和[!UICONTROL 多變數測試](MVT)活動， [!UICONTROL 所選元素]面板會列出右側點擊追蹤的所選元素。
 
 ![所選元素面板](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-當您將游標移至[!UICONTROL 所選元素]面板中的某個元素上時，有一些可套用的動作。下表說明可在元素上執行的各個動作:
+當您將游標移至[!UICONTROL 所選元素]面板中的某個元素上時，可以套用數個動作。 下表說明可在元素上執行的各個動作:
 
 | 動作 | 說明 |
 | --- | --- |
@@ -50,11 +50,11 @@ ht-degree: 91%
 
 ### 新增元素
 
-如果您已知道選取器的 DOM 路徑，您可以按一下位於面板頂端的加號圖示手動新增。
+如果您已知選取器的DOM路徑，可以按一下面板頂端的加號圖示手動新增。
 
 ![新增元素圖示](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### 所選元素暫留快顯
+### 所選元素彈出畫面
 
 為點擊追蹤選取多個元素後，您可以在活動的[!UICONTROL 目標與設定]步驟上按一下[!UICONTROL 所選元素]連結，查看針對點擊追蹤所選之元素的完整清單。此清單包含元素的完整 DOM 路徑，可協助您驗證要用於點擊追蹤的所選元素。
 
@@ -68,7 +68,7 @@ ht-degree: 91%
 
    ![DOM 路徑圖](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   就像在活動建立工作流程的步驟 1 建立體驗時一樣，頁面底部的 DOM 路徑選取器可讓您選擇元素。在從 DOM 路徑選取元素時，VEC 中的對應元素會顯示為「已選取」。若要取消選取已選取的元素，您可以再次按一下 DOM 路徑選取器中的元素，或按一下 VEC 中的「已選取」方塊。
+   如同在活動建立工作流程的步驟1中建立體驗時，頁面底部的DOM路徑選取器可讓您選擇元素。 在從 DOM 路徑選取元素時，VEC 中的對應元素會顯示為「已選取」。若要取消選取選取的元素，您可以在DOM路徑選取器中再次按一下元素，或按一下VEC中的「已選取」方塊。
 
    如需詳細資訊，請參閱&#x200B;*可視化體驗撰寫器選項*&#x200B;中的[使用 DOM 路徑導覽元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
@@ -76,7 +76,7 @@ ht-degree: 91%
 * 如果您選取多個元素，當加入者點擊所選取元素的任何一個時，即會計入該點擊。若要個別計算每個項目，請為每個元素設定個別的成功量度。若要按一下頁面上的數個元素來計算一個項目，請編輯CSS元素選取器以比對多個元素。
 * 確定選取您要追蹤的元素層級。例如，在指定按鈕時，請確定您選取連結而非按鈕文字。
 * 點擊事件會傳送到與點擊相同的頁面上的 [!DNL Target]。
-* 如果點擊追蹤量度為 A4T 活動的目標量度，訪客必須在頁面載入的 60 秒內點擊此元素，量度才能進行追蹤。
+* 如果點擊追蹤量度是[!UICONTROL Analytics for Target](A4T)活動的目標量度，訪客必須在頁面載入後60秒內點按此元素，量度才能追蹤。
 * 點擊追蹤對於其選取器中包括逸出字元的元素無法運作，包括下列:
 
    | 字元 | 說明 |
@@ -87,7 +87,7 @@ ht-degree: 91%
    | $ | 貨幣符號 |
    | `[ ]` | 方括弧 |
 
-* 如果您使用 [!DNL at.js] 點擊追蹤，並且也使用 Analytics AppMeasurement，[!DNL at.js] 點擊追蹤會取消所有其他的點擊事件處理常式。因此，AppMeasurement 點擊事件處理常式永遠不會執行。
+* 如果您使用 [!DNL at.js][!DNL Analytics] 點擊追蹤，並且也使用 AppMeasurement，[!DNL at.js] 點擊追蹤會取消所有其他的點擊事件處理常式。因此，AppMeasurement 點擊事件處理常式永遠不會執行。
 
    當基礎元素為 [!DNL at.js] (連結) 標記或`A` 標記時，`FORM` 對於點擊追蹤有特殊的處理方式。
 
@@ -95,23 +95,29 @@ ht-degree: 91%
 
    1. 叫用 `event.preventDefault()`。
 
-   1. 觸發 Target 要求。
+   1. 引發[!DNL Target]要求。
 
-   1. 在 Target 要求 success 或 error 回呼時，執行預設行為:
+   1. 在[!DNL Target]要求success或error回呼時，執行預設行為：
 
       * `A` (連結) 標記: 預設行為是導覽至 HREF 屬性定義的 URL。
       * `FORM` 標記: 預設行為是提交表單。
 
-   此預設行為可能會干擾 Analytics 點擊追蹤。如果您使用 Analytics，針對點擊追蹤，您應該仰賴於 Analytics 而非 Target。
+   此預設行為可能會干擾[!DNL Analytics]點擊追蹤。 如果您使用[!DNL Analytics]，則應仰賴[!DNL Analytics]來追蹤點擊，而非[!DNL Target]。
 
-* 如果頁面上的頁面和活動 URL 屬於不同屬性，系統則不會記錄點擊追蹤。企業使用者權限為 Target Premium 功能。如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+* 如果頁面上的頁面和活動 URL 屬於不同屬性，系統則不會記錄點擊追蹤。企業使用者權限是[!DNL Target Premium]功能。 如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+
+* 點擊追蹤量度不會連結至活動中的任何特定體驗。
+
+* 如有必要限制點擊追蹤量度的範圍，請使用對象。
+
+* 多個活動可定義相同選擇器的點擊追蹤量度。 如果符合，當訪客符合其中一個活動，並點按該選取器時，該訪客符合資格的所有相關活動的點擊追蹤量度就會增加。
 
 ## 訓練影片 {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 此影片包括關於建立點擊追蹤成功量度的資訊。
 
 * 瞭解「目標」量度
-* 瞭解和建置轉換、收入和參與量度
+* 了解並建立[!UICONTROL 轉換]、[!UICONTROL 收入]和[!UICONTROL 參與]量度
 * 建置點擊追蹤量度
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)
