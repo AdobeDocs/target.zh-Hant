@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9 月 27 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會<ul><li>2021年10月13日星期三</li><li>上午 8 點 (PDT，UTC -7)</li></ul></li></ul> |
 | 9 月 22 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 將程式碼範例中的`$Double`變更為`$double`，以避免可能的模糊情況。 |
 |  | [設計常見問答](/help/c-recommendations/c-design-overview/template-faq.md) | 已更新下列常見問答：<ul><li>我可以在[!DNL Recommendations]設計中使用設定檔指令碼嗎？</li></ul> |
 |  | [點擊追蹤](/help/c-activities/r-success-metrics/click-tracking.md) | 新增下列考量事項：<ul><li>點擊追蹤量度不會連結至活動中的任何特定體驗。</li><li>如有必要限制點擊追蹤量度的範圍，請使用對象。</li><li>多個活動可定義相同選擇器的點擊追蹤量度。 如果符合，當訪客符合其中一個活動，並點按該選取器時，該訪客符合資格的所有相關活動的點擊追蹤量度就會增加。</li></ul> |
