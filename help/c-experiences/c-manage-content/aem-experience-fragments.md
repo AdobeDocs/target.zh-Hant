@@ -2,12 +2,12 @@
 keywords: 體驗； JSON; AEM;Adobe Experience Manager；匯出至Adobe Target；體驗片段；片段； XF
 description: 了解如何在Adobe [!DNL Target] 活動中使用AEM體驗片段。 將AEM的易用性和強大功能與 [!DNL Target]中的強大AI和ML功能結合。
 title: 如何使用Adobe Experience Manager(AEM)體驗片段？
-feature: 體驗與選件
+feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
+source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 21%
+source-wordcount: '1125'
+ht-degree: 22%
 
 ---
 
@@ -142,7 +142,6 @@ ht-degree: 21%
 
 * [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。10分鐘內應可在[!DNL Target]中使用匯入的體驗片段，但此時間範圍日後應會縮短。
 * 體驗片段目前是以HTML選件的形式匯入[!DNL Target]。 請注意，體驗片段「primary」版本仍保留在[!DNL AEM]中。 您無法編輯[!DNL Target]中的體驗片段。
-* 您可以將JSON選件匯入為體驗片段至[!DNL Target]。 不過，這些選件會匯入為HTML選件。 [!DNL Target] UI目前尚未完全支援JSON選件（體驗片段）。
 * 您無法使用AdobeIO建立體驗片段。 您必須使用AEM建立體驗片段，如上所述。
 
 ## 訓練影片：搭配Adobe Target ![教學課程徽章](/help/assets/overview.png)使用AEM體驗片段 {#section_C0EDC54063464F41A182492D2045BC64}
