@@ -5,9 +5,9 @@ title: 如何配置企業權限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1456'
 ht-degree: 63%
 
 ---
@@ -139,8 +139,6 @@ ht-degree: 63%
       ![屬性暫留程式碼](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. 以滑鼠右鍵按一下醒目提示的實作程式碼，以將它複製到您的剪貼簿。
-
-      ![屬性程式碼](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. 使用先前步驟中取得的實作程式碼來更新您的[!DNL Target]實作。
 
