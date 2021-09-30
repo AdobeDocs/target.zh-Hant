@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2613'
 ht-degree: 93%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 93%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 9 月 30 日 | 將活動資訊發送到[!DNL Adobe Analytics] | 移除整個主題，因為若要將[!DNL Target]行動應用程式活動資訊傳送至[!DNL Analytics]以用於隨選分段，不再需要所述步驟。 |
-|  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在步驟2中將`targetPageParams`變更為`targetPageParamsAll`。 |
+|  | [設定企業權限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 將「步驟5更新您的實作，加入`at_property`參數」中的`targetPageParams`變更為`targetPageParamsAll`。 |
 | 9 月 27 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會<ul><li>2021年10月13日星期三</li><li>上午 8 點 (PDT，UTC -7)</li></ul></li></ul> |
 | 9 月 22 日 | [使用 Velocity 自訂設計](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 將程式碼範例中的`$Double`變更為`$double`，以避免可能的模糊情況。 |
 |  | [設計常見問答](/help/c-recommendations/c-design-overview/template-faq.md) | 已更新下列常見問答：<ul><li>我可以在[!DNL Recommendations]設計中使用設定檔指令碼嗎？</li></ul> |

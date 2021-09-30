@@ -2,13 +2,13 @@
 keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬性; 屬性; at_property; 角色; 權限
 description: 了解如何將使用者新增至Adobe Target;建立工作區、使用者群組和屬性；更新實作；和指定角色和權限。
 title: 如何配置企業權限？
-feature: 管理與設定
+feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 64%
+source-wordcount: '1458'
+ht-degree: 63%
 
 ---
 
@@ -150,17 +150,25 @@ ht-degree: 64%
 
       如需詳細資訊，請參閱&#x200B;*標籤概述*&#x200B;檔案中的[新增全域目標參數](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) 。
 
-   * **透過targetPageParams()函式：** 將下列程式碼放在 `<head>` 標籤中，位於at.js參考的上方。
+   * **透過targetPageParamsAll()函式：** 將下列程式碼放在 `<head>` 標籤中，位於at.js參考的上方。
 
-      ![](assets/property_token_1.png)
+      ```javascript
+      <script>
+       function targetPageParamsAll() {
+        return {
+         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+        };
+       }
+      </script>
+      ```
 
-      如需關於如何對 at.js 執行此動作的資訊，請參閱 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。
+      如需如何對at.js執行此動作的詳細資訊，請參閱[targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)。
 
    * **透過 mboxCreate() 函數:**
 
       ![](assets/property_token_3.png)
 
-      如需關於如何對 at.js 執行此動作的資訊，請參閱 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
+      如需關於如何對 at.js 執行此動作的資訊，請參閱  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
 ## 步驟6:指定角色和權限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
