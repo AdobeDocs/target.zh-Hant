@@ -4,9 +4,9 @@ description: 了解如何解譯Adobe [!DNL Target] 報表，其中包含資料�
 title: 如何檢視平均提升度、提升度界限和信賴區間？
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 71%
 
 ## 了解如何判斷提升度的信賴區間 {#pdf}
 
-下載提升度pdf的[信賴區間](/help/assets/confidence_interval_lift.pdf)以取得詳細資訊。
+下載提升度pdf檔案](/help/assets/confidence_interval_lift.pdf)的信賴區間以取得詳細資訊。[
 
 ## 如何計算提升度界限？ {#section_1D360781D972483693680BE0F07AEAD1}
 
