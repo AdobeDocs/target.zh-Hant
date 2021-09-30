@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: ht
-source-wordcount: '1541'
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+workflow-type: tm+mt
+source-wordcount: '1535'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 100%
          + [單一設定檔更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
          + [客戶屬性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
          + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Target 安全性概覽](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [目標 安全性概覽](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [受支援的瀏覽器](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [TLS (傳輸層安全性) 加密變更](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME 與 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
@@ -149,10 +149,9 @@ ht-degree: 100%
       + [啟用 SDK 中的 Target](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - 建立 Target 位置和成功量度](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - 傳送自訂使用者資料](c-target-mobile-app/mobile-custom-user-data.md)
-      + [將活動資訊傳送到 Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target 行動裝置預覽](c-target-mobile-app/target-mobile-preview.md)
       + [預先擷取選件內容](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target(適用於行動應用程式) 常見問答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [目標(適用於行動應用程式) 常見問答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [使用定位服務](/help/c-target-mobile-app/use-location-service.md)
    + 伺服器端：實作 Target {#server-side}
       + [伺服器端：實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -285,7 +284,7 @@ ht-degree: 100%
          + [行動](c-target/c-audiences/c-target-rules/mobile.md)
          + [作業系統](c-target/c-audiences/c-target-rules/operating-system.md)
          + [網頁](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Target 資料庫](c-target/c-audiences/c-target-rules/target-library.md)
+         + [目標 資料庫](c-target/c-audiences/c-target-rules/target-library.md)
          + [時間段](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量來源](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [訪客設定檔](c-target/c-audiences/c-target-rules/visitor-profile.md)
