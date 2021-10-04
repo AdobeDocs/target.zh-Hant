@@ -1,14 +1,13 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;傳送通知;通知;at.js;函數;函數
-description: 使用at.js的adobe.target.sendNotifications()，在呈現體驗時，不使用applyOffer傳送通知至 [!DNL Target] edge。 (at.js.2.1 +)
-title: 我要如何使用adobe.target.sendNotifications()函式？
+description: 使用at.js適用的adobe.target.sendNotifications()，在呈現體驗時（非使用applyOffer），將通知傳送至 [!DNL Target] edge。 (at.js.2.1 +)
+title: 如何使用adobe.target.sendNotifications()函式？
 feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
-translation-type: tm+mt
-source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
+source-git-commit: 07ef58419f1785633bee930e2f9bd5451394ad93
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 94%
 
 ---
@@ -35,8 +34,8 @@ ht-degree: 94%
 | Request > notifications > address | 物件 | 無 |  |  |
 | Request > notifications > address > url | 字串 | 無 |  | 觸發通知的來源 URL。 |
 | Request > notifications > address > referringUrl | 字串 | 無 |  | 觸發通知的來源引用 URL。 |
-| Request > notifications > parameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
-| Request > notifications > profileParameters | 物件 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
+| Request > notifications > parameters | 字串 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
+| Request > notifications > profileParameters | 字串 | 無 | 不允許在參數中使用下列名稱:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>考慮以下事項:<ul><li>上限為 50 個參數。</li><li>參數名稱不得空白。</li><li>參數名稱長度上限為 128。</li><li>參數名稱的開頭不得為「設定檔」。</li><li>參數值長度上限為 5000。</li></ul> |  |
 | Request > notifications > order | 物件 | 無 |  | 說明訂單詳細資料的物件。 |
 | Request > notifications > order > id | 字串 | 無 | `<=` 250 個字元。 | 訂購 ID. |
 | Request > notifications > order > total | 字串 | 無 | `>=` 0 | 訂購總計. |
@@ -58,7 +57,7 @@ ht-degree: 94%
 | Request > notifications > view > key | 字串 | 無 | `<=` 512 個字元。 | 檢視金鑰。已透過 API 使用檢視設定的金鑰。 |
 | Request > notifications > view > state | 字串 | 無 |  | 檢視狀態 Token。 |
 
-**注意**:下列字元 ** 不適用 `Request > notifications > mbox > name`:
+**注意**:下列字元 ** 不可 `Request > notifications > mbox > name`用：
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
