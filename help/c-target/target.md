@@ -1,12 +1,12 @@
 ---
 keywords: 鎖定目標；對象
 description: 了解如何使用 [!DNL Adobe Target] 中的受眾，將不同的內容和體驗鎖定在特定受眾，以最佳化您的網頁行銷工作。
-title: 如何使用受眾將不同內容鎖定在特定區段？
-feature: 對象
+title: 如何使用[!UICONTROL Audiences]將不同內容鎖定在特定區段？
+feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 42%
 
 ---

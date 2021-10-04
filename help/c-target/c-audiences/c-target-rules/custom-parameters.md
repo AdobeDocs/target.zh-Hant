@@ -2,11 +2,11 @@
 keywords: 自訂參數;目標自訂參數;targetpageparams;目標 mbox 參數
 description: 了解如何將自訂參數傳遞至 [!DNL Adobe Target] 以用於對象。
 title: 我可以根據自訂參數定位訪客嗎？
-feature: 對象
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 42%
 
 1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
 1. 為對象命名並新增選用說明。
-1. 將&#x200B;**[!UICONTROL Custom]**&#x200B;拖放至對象產生器窗格。
+1. 將&#x200B;**[!UICONTROL Custom]**&#x200B;拖放至Audience Builder。
 
    若要選取需要的參數:
 
@@ -56,7 +56,7 @@ ht-degree: 42%
 1. （選用）為對象設定其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-對象的[定義詳細資料快顯卡](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會顯示「規則」區段中的參數名稱。不會參照用來篩選的 mbox。
+對象的[定義詳細資料快顯卡](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會顯示「規則」區段中的參數名稱。****&#x200B;不會參照用來篩選的 mbox。
 
 >[!NOTE]
 >

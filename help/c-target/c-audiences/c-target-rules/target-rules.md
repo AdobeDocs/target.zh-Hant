@@ -2,9 +2,9 @@
 keywords: 鎖定目標;目標類別;目標條件;audience manager;自訂設定檔參數;訪客設定檔;自訂使用者參數;目標規則
 description: 了解如何使用類別（例如瀏覽器、地理、網路、作業系統、訪客設定檔）來鎖定內容。
 title: 對象的類別為何？
-feature: 對象
+feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 50%
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # 對象的類別
 
-您可以使用[!DNL Adobe Target]鎖定數個類別屬性中的任何一個。 若要針對每個屬性建立目標規則（或群組），請將所需屬性拖放至audience builder中。
+您可以使用[!DNL Adobe Target]鎖定數個類別屬性中的任何一個。 若要針對每個屬性建立目標規則（或群組），請將所需的屬性拖放至Audience Builder窗格中。
 
 ![對象的屬性](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ ht-degree: 50%
 
 建立規則之後，按一下&#x200B;**[!UICONTROL 完成]**。此規則的摘要會顯示在要定位的那一層級的定位連結旁。
 
-您可以藉由新增更多條件，或在其他類別中建立額外條件，以進一步重新定義規則。例如，您只能鎖定從Google存取您網站之來自舊金山的Firefox使用者。 設定[!UICONTROL Geo]類別，將目標定位為來自舊金山的使用者，將[!UICONTROL Browser]類別設為使用Firefox的目標使用者，將[!UICONTROL Traffic Sources]類別設為目標定位來自[!UICONTROL Google]的使用者。 跨類別建立的規則會與AND運算子結合。
+您可以藉由新增更多條件，或在其他類別中建立額外條件，以進一步重新定義規則。例如，您只能鎖定從Google存取您網站之舊金山的Firefox使用者。 設定[!UICONTROL Geo]類別，將目標定位為來自舊金山的使用者，將[!UICONTROL Browser]類別設為使用Firefox的目標使用者，將[!UICONTROL Traffic Sources]類別設為目標定位來自[!UICONTROL Google]的使用者。 跨類別建立的規則會與AND運算子結合。
 
 若要建立包含跨類別OR操作的複雜目標規則，請建立運算式目標。
 

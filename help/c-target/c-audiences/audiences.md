@@ -2,11 +2,11 @@
 keywords: 對象;對象規則;建立對象;建立對象;鎖定目標對象;報表對象;報表對象;區段;自訂設定檔參數;對象定義;對象清單
 description: 了解如何在 [!DNL Adobe Target]中使用[!UICONTROL Audiences]清單。
 title: 如何使用對象清單？
-feature: 對象
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 31%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >[!DNL Adobe Experience Platform]來源位於測試版測試程式中，但可供使用[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)的所有[!DNL Target]客戶使用。 [!DNL Adobe Experience Platform]中可用的對象可如同或[結合現有對象](/help/c-target/combining-multiple-audiences.md)使用。
+   >[!DNL Adobe Experience Platform]來源可供使用[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)的所有[!DNL Target]客戶使用。 [!DNL Adobe Experience Platform]中可用的對象可如同或[結合現有對象](/help/c-target/combining-multiple-audiences.md)使用。
 
 無法重新命名預先定義的對象，例如「[!UICONTROL 新訪客]」和「[!UICONTROL 回訪訪客]」。
 

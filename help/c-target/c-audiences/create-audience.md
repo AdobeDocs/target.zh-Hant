@@ -1,12 +1,12 @@
 ---
 keywords: 對象;對象規則;建立對象;建立對象
-description: 了解如何建立自訂對象並儲存至 [!DNL Adobe Target] [!UICONTROL Audiences] 資料庫以用於您的活動。
+description: 了解如何建立自訂對象，並將其儲存至 [!DNL Adobe Target] [!UICONTROL Audiences] 資料庫以用於活動。
 title: 如何建立對象？
-feature: 對象
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 61%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 61%
 
 1. （條件性）繼續新增和定義所需屬性。
 
-   若要建立另一個容器，請按一下「**[!UICONTROL 添加容器]**」，或將另一個屬性拖入中間框架。 然後，您可以使用下拉式清單調整運算子（AND或OR）。
+   若要建立另一個容器，請按一下「**[!UICONTROL 新增容器]**」，或直接將其他屬性拖曳至「Audience Builder」窗格。 然後，您可以使用下拉式清單調整運算子（AND或OR）。
 
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 

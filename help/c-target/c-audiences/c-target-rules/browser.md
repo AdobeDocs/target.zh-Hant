@@ -2,11 +2,11 @@
 keywords: 瀏覽器選項;類型;瀏覽器類型;瀏覽器語言;語言;版本;瀏覽器版本
 description: 了解如何在 [!DNL Adobe Target] 中建立對象，以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 title: 我可以根據瀏覽器類型定位訪客嗎？
-feature: 對象
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 76%
 
    1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
    1. 為對象命名並新增選用說明。
-   1. 將&#x200B;**[!UICONTROL Browser]**&#x200B;拖放至對象產生器窗格。
+   1. 將&#x200B;**[!UICONTROL Browser]**&#x200B;拖放至Audience Builder。
 
       ![規則>瀏覽器](assets/target_browser.png)
 
