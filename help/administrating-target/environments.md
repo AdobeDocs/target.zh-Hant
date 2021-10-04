@@ -2,13 +2,13 @@
 keywords: 環境；疑難排解；最佳作法；ubox；重新導向；重新導向；白名單；黑名單；封鎖清單；允許清單
 description: 了解如何使用Adobe [!DNL Target] 中的環境來組織您的網站和生產前環境，以便進行輕鬆的管理和分離的報告。
 title: 什麼是環境？如何使用？
-feature: 管理與設定
+feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 61%
+source-wordcount: '696'
+ht-degree: 62%
 
 ---
 
@@ -77,7 +77,12 @@ ht-degree: 61%
 >
 >Recommendations活動是[!DNL Target] Premium解決方案內建的功能。 在沒有 [!DNL Target] Premium 授權的 [!DNL Target] Standard 中無法使用。
 
-環境可用來將目錄中的可用項目區分為不同用途。 例如，您可以將主機群組用於[!UICONTROL Development]和[!UICONTROL Production]環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。提供的建議取決於要求中指定的主機群組。
+環境可用來將目錄中的可用項目區分為不同用途。 例如，您可以將主機群組用於[!UICONTROL Development]和[!UICONTROL Production]環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。
+
+>[!NOTE]
+>
+>提供的建議取決於要求中指定的主機群組。
+
 
 如果沒有看見您的產品，請確定您使用正確的主機群組。例如，假設您將建議設定為使用測試環境，並將主機群組設為「測試」，則可能需要在測試環境中重建集合，才會顯示產品。若要查看每個環境中可用的產品，請對每個環境使用「目錄搜尋」。您也可以針對所選的環境 (主機群組)，預覽 Recommendations 集合和排除項目的內容。
 
