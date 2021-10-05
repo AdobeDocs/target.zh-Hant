@@ -6,9 +6,9 @@ title: 目前發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -24,22 +24,22 @@ ht-degree: 57%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 21.9.1（2021年9月14日）
+## [!DNL Target Standard/Premium] 21.9.1 (2021 年 9 月 14 日)
 
 此維護發行包含下列增強功能、修正和變更。
 
-* 修正由於某些網頁瀏覽器中第三方Cookie的新安全性原則，客戶無法登入[!UICONTROL 可視化體驗撰寫器](VEC)的問題。 在[疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中，「使用Google Chrome 80+版時，可視化體驗撰寫器(VEC)或增強體驗撰寫器(EEC)中未載入頁面」中討論了此問題。
-* 修正VEC中的選件名稱顯示選件路徑，而非選件易記名稱的問題。 (TGT-41300)
-* A4T活動的[!DNL Analysis Workspace]現在會反映體驗名稱(TGT-38674)
-* 修正[!DNL Recommendations]中，重複活動中促銷活動中套用的實體ID誤變至原始活動的問題。 (TGT-41482)
-* 修正VEC中[!DNL Recommendations]活動的[!UICONTROL 體驗]頁面上，無法正確顯示「編輯條件」按鈕的問題。 (TGT-39512)
-* 修正複製和複製到測試工作區時，無法同步活動的問題。 (TGT-40686)
-* 修正在VEC中使用「[!UICONTROL Insert After]」時，無法修改具有[體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)的選取器的問題。 (TGT-41802)
-* 修正無法將選件中的空JSON內容傳送至後端的問題。 [!DNL Target] 現在會傳送JSON物件，即使它為空。(TGT-41555)
-* 修正當客戶檢視報表時按一下「[!UICONTROL 在Analytics中檢視」時，導致開啟舊版[!DNL Analytics]報表而非[!DNL Analysis Workspace]的問題。 ](TGT-41867)
-* 新增當客戶嘗試為[!UICONTROL Automated Personalization]活動選取[!DNL Analytics]作為報表來源(A4T)時，已顯示之UI訊息的其他說明。 訊息指出，「[!DNL Target]是[!UICONTROL Automated Personalization]活動唯一支援的來源。」 (TGT-41954)
-* 新增當客戶嘗試以「新行」（而非逗號）分隔主機時，錯誤訊息的其他說明。 (TGT-40671)
-* 修正部分活動「[!UICONTROL Last Updated]」日期與西班牙和日本客戶的英文UI不同（以西班牙文和日文檢視UI時）的問題。 (TGT-38980)
+* 修正由於某些網頁瀏覽器中針對第三方 Cookie 的新安全性原則而導致客戶無法登入[!UICONTROL 可視化體驗撰寫器] (VEC) 的問題。 此問題已在[疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)的「使用 Google Chrome 80+ 版時，未在可視化體驗撰寫器 (VEC) 或增強體驗撰寫器 (EEC) 中載入的頁面」中進行了討論。
+* 修正了導致 VEC 中的產品名稱顯示的是產品路徑而不是產品易記名稱的問題。 (TGT-41300)
+* 體驗名稱現在反映在 [!DNL Analysis Workspace] A4T 活動中 (TGT-38674)
+* 修正了 [!DNL Recommendations] 中，將重複活動的促銷中的實體 ID 變更錯誤地套用至原始活動的問題。 (TGT-41482)
+* 修正了阻止 [編輯標準] 按鈕在[!UICONTROL 體驗]頁面 (針對 VEC 的 [!DNL Recommendations] 活動) 上正確顯示的問題。 (TGT-39512)
+* 修正了在重複和複製到測試工作區時阻止活動同步的問題。 (TGT-40686)
+* 修正了 VEC 中阻止修改具有[體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)的選擇器 (使用 [[!UICONTROL 之後插入]]) 的問題。 (TGT-41802)
+* 修正了阻止將產品中的空 JSON 內容傳送到後端的問題。 [!DNL Target] 現在會傳送 JSON 物件，即使它是空的。 (TGT-41555)
+* 修正了導致舊 [!DNL Analytics] 報告開啟而非 [!DNL Analysis Workspace] (當客戶在檢視報告時點擊「[!UICONTROL 在 Analytics 中檢視]」) 的問題。 (TGT-41867)
+* 當客戶嘗試選取 [!DNL Analytics] 作為[!UICONTROL 自動個人化]活動的報告來源 (A4T) 時，向顯示的 UI 訊息新增了額外說明。 訊息會指出「[!DNL Target] 是[!UICONTROL 自動個人化]活動唯一支援的來源。」 (TGT-41954)
+* 當客戶嘗試使用「新行」而不是逗號分隔主機時，對錯誤訊息新增了額外的說明。 (TGT-40671)
+* 修正了導致某些活動的「[!UICONTROL 上次更新]」日期在西班牙文和日文客戶的英文 UI 中不同的問題 (以西班牙文和日文檢視 UI 時)。 (TGT-38980)
 
 ## 額外的發行說明和版本詳細資料
 
