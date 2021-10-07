@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: 874c27fe7d0144b0485545cf687d50215309d416
+workflow-type: tm+mt
+source-wordcount: '714'
+ht-degree: 58%
 
 ---
 
@@ -24,22 +24,16 @@ ht-degree: 100%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 21.9.1 (2021 年 9 月 14 日)
+## [!DNL Target Standard/Premium] 21.10.1（2021年10月6日）
 
-此維護發行包含下列增強功能、修正和變更。
+此版本包含下列新功能：
 
-* 修正由於某些網頁瀏覽器中針對第三方 Cookie 的新安全性原則而導致客戶無法登入[!UICONTROL 可視化體驗撰寫器] (VEC) 的問題。 此問題已在[疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)的「使用 Google Chrome 80+ 版時，未在可視化體驗撰寫器 (VEC) 或增強體驗撰寫器 (EEC) 中載入的頁面」中進行了討論。
-* 修正了導致 VEC 中的產品名稱顯示的是產品路徑而不是產品易記名稱的問題。 (TGT-41300)
-* 體驗名稱現在反映在 [!DNL Analysis Workspace] A4T 活動中 (TGT-38674)
-* 修正了 [!DNL Recommendations] 中，將重複活動的促銷中的實體 ID 變更錯誤地套用至原始活動的問題。 (TGT-41482)
-* 修正了阻止 [編輯標準] 按鈕在[!UICONTROL 體驗]頁面 (針對 VEC 的 [!DNL Recommendations] 活動) 上正確顯示的問題。 (TGT-39512)
-* 修正了在重複和複製到測試工作區時阻止活動同步的問題。 (TGT-40686)
-* 修正了 VEC 中阻止修改具有[體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)的選擇器 (使用 [[!UICONTROL 之後插入]]) 的問題。 (TGT-41802)
-* 修正了阻止將產品中的空 JSON 內容傳送到後端的問題。 [!DNL Target] 現在會傳送 JSON 物件，即使它是空的。 (TGT-41555)
-* 修正了導致舊 [!DNL Analytics] 報告開啟而非 [!DNL Analysis Workspace] (當客戶在檢視報告時點擊「[!UICONTROL 在 Analytics 中檢視]」) 的問題。 (TGT-41867)
-* 當客戶嘗試選取 [!DNL Analytics] 作為[!UICONTROL 自動個人化]活動的報告來源 (A4T) 時，向顯示的 UI 訊息新增了額外說明。 訊息會指出「[!DNL Target] 是[!UICONTROL 自動個人化]活動唯一支援的來源。」 (TGT-41954)
-* 當客戶嘗試使用「新行」而不是逗號分隔主機時，對錯誤訊息新增了額外的說明。 (TGT-40671)
-* 修正了導致某些活動的「[!UICONTROL 上次更新]」日期在西班牙文和日文客戶的英文 UI 中不同的問題 (以西班牙文和日文檢視 UI 時)。 (TGT-38980)
+| 功能 | 詳細資料 |
+| --- | --- |
+|  AudiencesUI重新整理 | 作為[!DNL Adobe Target]團隊持續致力改善[!DNL Target]使用者的使用者體驗的一部分，此版本會重新整理[!DNL Target] UI中的[!UICONTROL  Audiences]和[!UICONTROL 設定檔指令碼]頁面。 此更新會統一及標準化先前不一致的設計模式，同時新增增強功能，例如：<ul><li>可同時選取和刪除多個對象</li><li>重新整理的[audience builder設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]資料庫規則產生器中的排除規則支援</li><li>新的「受眾來源」篩選器，可加快受眾探索</li><li>工作階段持續搜尋和篩選選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**:此UI重新整理只會影響EMEA地區的客戶。包括北美在內，世界其他地區的客戶下週將看到最新的UI。 |
+| [!UICONTROL 設定檔] 指令碼UI重新整理 | [!UICONTROL 設定檔指令碼]程式庫也已更新，其中包含重新整理的介面以及數項生產力更新：<ul><li>可同時選取和刪除多個設定檔指令碼</li><li>描述檔指令碼的新程式碼編輯器</li><li>程式碼編輯器內的語法醒目提示和錯誤檢查</li><li>透過鍵盤快速鍵自動完成Token（mbox或設定檔）參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:此UI重新整理只會影響EMEA地區的客戶。包括北美在內，世界其他地區的客戶下週將看到最新的UI。 |
+| ![Premium徽](/help/assets/premium.png) 章Recommendations條件建立和編輯 | 已簡化[!UICONTROL Recommendations條件]建立和編輯工作流程，以簡化選擇正確建議演算法和設定以達成您的目標。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
+| ![Premium徽](/help/assets/premium.png) 章Recommendations回顧期間和演算法重新整理率改善 | 您現在可以執行「檢視次數最多」和「最暢銷商品」演算法，並有六小時回顧期間，以擷取最近趨勢的內容。 選取六小時回顧期間後，您的建議結果會一天中每3到6小時更新一次。<br>如需詳細資訊，請參 [閱建](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 立條 *件中的資料來源*。 |
 
 ## 額外的發行說明和版本詳細資料
 
