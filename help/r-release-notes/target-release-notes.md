@@ -4,7 +4,7 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 93bcfdf291892f5e0c3c16dbe553c2a33d74248c
+source-git-commit: bd7032b915bf1b333fa5cc3cb4825eaa7e4f83fb
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 43%
@@ -31,8 +31,8 @@ ht-degree: 43%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-|  AudiencesUI重新整理 | 作為[!DNL Adobe Target]團隊持續致力改善[!DNL Target]使用者的使用者體驗的一部分，此版本會重新整理[!DNL Target] UI中的[!UICONTROL  Audiences]和[!UICONTROL 設定檔指令碼]頁面。 此更新會統一及標準化先前不一致的設計模式，同時新增增強功能，例如：<ul><li>可同時選取和刪除多個對象</li><li>重新整理的[audience builder設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]資料庫規則產生器中的排除規則支援</li><li>新的「受眾來源」篩選器，可加快受眾探索</li><li>工作階段持續搜尋和篩選選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**:新的  受眾 [!UICONTROL 和設] 定檔指令碼UI將於下週推出至所有地區。 |
-| [!UICONTROL 設定檔] 指令碼UI重新整理 | [!UICONTROL 設定檔指令碼]程式庫也已更新，其中包含重新整理的介面以及數項生產力更新：<ul><li>可同時選取和刪除多個設定檔指令碼</li><li>描述檔指令碼的新程式碼編輯器</li><li>程式碼編輯器內的語法醒目提示和錯誤檢查</li><li>透過鍵盤快速鍵自動完成Token（mbox或設定檔）參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:新的  受眾 [!UICONTROL 和設] 定檔指令碼UI將於下週推出至所有地區。 |
+|  AudiencesUI重新整理 | 作為[!DNL Adobe Target]團隊持續致力改善[!DNL Target]使用者的使用者體驗的一部分，此版本會重新整理[!DNL Target] UI中的[!UICONTROL  Audiences]和[!UICONTROL 設定檔指令碼]頁面。 此更新會統一及標準化先前不一致的設計模式，同時新增增強功能，例如：<ul><li>可同時選取和刪除多個對象</li><li>重新整理的[audience builder設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]資料庫規則產生器中的排除規則支援</li><li>新的「受眾來源」篩選器，可加快受眾探索</li><li>工作階段持續搜尋和篩選選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**:新的受  眾和 [!UICONTROL 設定] 檔指令碼UI將於下週推出至所有地區。 |
+| [!UICONTROL 設定檔] 指令碼UI重新整理 | [!UICONTROL 設定檔指令碼]程式庫也已更新，其中包含重新整理的介面以及數項生產力更新：<ul><li>可同時選取和刪除多個設定檔指令碼</li><li>描述檔指令碼的新程式碼編輯器</li><li>程式碼編輯器內的語法醒目提示和錯誤檢查</li><li>透過鍵盤快速鍵自動完成Token（mbox或設定檔）參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:新的受  眾和 [!UICONTROL 設定] 檔指令碼UI將於下週推出至所有地區。 |
 | ![Premium徽](/help/assets/premium.png) 章Recommendations條件建立和編輯 | 已簡化[!UICONTROL Recommendations條件]建立和編輯工作流程，以簡化選擇正確建議演算法和設定以達成您的目標。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![Premium徽](/help/assets/premium.png) 章Recommendations回顧期間和演算法重新整理率改善 | 您現在可以執行「檢視次數最多」和「最暢銷商品」演算法，並有六小時回顧期間，以擷取最近趨勢的內容。 選取六小時回顧期間後，您的建議結果會一天中每3到6小時更新一次。<br>如需詳細資訊，請參 [閱建](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 立條 *件中的資料來源*。 |
 
