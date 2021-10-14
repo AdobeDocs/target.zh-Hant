@@ -1,38 +1,37 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;活動設定
-description: 使用 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活動的Analytics時，尋找有關活動設定問題的解答。
-title: 我可以在哪裡找到有關A4T活動設定的常見問答集？
-feature: 目標分析 (A4T)
+description: '針對活動使用Analytics時，尋找活動設定相關問題的解答。 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] '
+title: 我可以在哪裡找到關於A4T活動設定的常見問題集？
+feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 23%
+source-wordcount: '553'
+ht-degree: 20%
 
 ---
 
 # 活動設定 - A4T 常見問題集
 
-本主題包含有關活動設定和使用[!DNL Analytics]作為[!DNL Target](A4T)報告源的常見問題的解答。
+此主題包含經常詢問關於活動設定和使用[!DNL Analytics]作為[!DNL Target](A4T)報表來源問題的回答。
 
-## Analytics 作為報表來源 (A4T) 時支援哪些活動類型?{#section_5E4F58CD25A5424E869E6FE0803968EF}
+## Analytics 作為報表來源 (A4T) 時支援哪些活動類型? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 如需完整清單，請參閱 [Adobe Analytics 作為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)中的「支援的活動類型」。
 
-## 在設定「目標量度」時，我為何無法存取「進階設定」?
+## 在設定目標量度時，為何無法存取進階設定？
 
-對於使用[!DNL Analytics]作為報告來源(A4T)的活動，目標度量使用「[!UICONTROL 活動中增量計數和保留用戶」和「每次曝光時]」設定。 ][!UICONTROL 這些設定是&#x200B;*not*&#x200B;可設定的。
+對於使用[!DNL Analytics]作為報表來源(A4T)的活動，目標量度使用「[!UICONTROL 增加計數並讓使用者留在活動中]」和「[!UICONTROL 在每次曝光時]」設定。 這些設定是可配置的&#x200B;*not*。
 
-如需詳細資訊，請參閱「設定目標量度時，我為何無法存取進階設定選項？」 在[量度定義- A4T常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)中。
+如需詳細資訊，請參閱「設定目標量度時，為何無法存取進階設定選項？」 在[量度定義 — A4T常見問題集](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)中。
 
-## 我剛才建立了活動。為何沒看到任何資料進入?  {#section_9F8092BE4225442896F926540292F221}
+## 我剛才建立了活動。為何沒看到任何資料進入? {#section_9F8092BE4225442896F926540292F221}
 
-建立活動時，[!DNL Target]將分類檔案發送到[!DNL Analytics]。 雖然[!DNL Analytics]正在擷取和處理資料，但直到分類檔案更新後，才會在報表中顯示。 此程式最多需要24小時。 如果 48 小時之後沒看到資料，請[聯絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道要啟動活動，則可事前幾天建立活動，並在儲存活動時傳送分類。 於是，啟動後資料即會立即出現在報表中。請注意，在[!DNL Analytics]中處理資料需要45-90分鐘。
+建立活動時，[!DNL Target]會傳送分類檔案至[!DNL Analytics]。 雖然[!DNL Analytics]正在擷取和處理資料，但在更新分類檔案之前，不會在報表中顯示。 此程式最多需要24小時。 如果 48 小時之後沒看到資料，請[聯絡客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道您啟動活動，則可以事前幾天建立活動，並在儲存活動時傳送分類。 於是，啟動後資料即會立即出現在報表中。請注意，在[!DNL Analytics]中處理資料需要45-90分鐘。
 
-## 我建立活動時，為什麼無法選取Analytics做為報表來源？{#section_9F4F69C3085F4C2480AF439127EB27CD}
+## 建立活動時，為何無法選取Analytics作為報表來源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-您可以變更[!UICONTROL 管理]中的[!UICONTROL 報表設定]選項。
+您可以變更[!UICONTROL Administration]中的「報表設定」]選項。[!UICONTROL 
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]**。
 1. 在&#x200B;**[!UICONTROL 「用於報表的 Experience Cloud 解決方案」]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL 「為每個活動選取」]**。
@@ -41,15 +40,20 @@ ht-degree: 23%
 
 **[!UICONTROL 「目標與設定」]**&#x200B;畫面中會啟用&#x200B;**[!UICONTROL 「報表來源」下拉式清單，以供您建立和編輯活動。]**
 
-若要始終使用[!DNL Analytics]作為報告源，請從[!UICONTROL Administration]的下拉式清單中選擇&#x200B;**[!UICONTROL Adobe Analytics]**。
+若要一律使用[!DNL Analytics]作為報表來源，請從[!UICONTROL Administration]的下拉式清單中選取&#x200B;**[!UICONTROL Adobe Analytics]**。
 
-## 訪客是否可在使用A4T的Auto-Target活動中，在不同瀏覽中切換目標體驗和控制體驗？
+## 在使用A4T的自動鎖定目標活動中，訪客是否可以在不同造訪中的鎖定目標體驗和控制體驗之間切換？
 
-假設訪客在兩次瀏覽之間不會變更visitorId，則符合下列條件。
+假設訪客的visitorId不會在兩次瀏覽之間變更，則下列情況成立。
 
-如果流量分配百分比已調整中型活動，則訪客可能會在定位體驗與控制體驗之間移動。
+如果流量分配百分比在活動中間調整，訪客可能會在鎖定目標和控制體驗之間移動。
 
-如果百分比未調整mid活動，則一開始看到控制項的訪客一律會傳送至控制項。 傳送至目標體驗的訪客一律會傳送至目標體驗。
+如果百分比未在活動中間調整，則一律會將最初看到控制的訪客傳送至控制。 傳送至目標體驗的訪客一律會傳送至目標體驗。
 
-* 在流量的目標「貯體」中後，如果機器學習模型判斷新瀏覽有不同的體驗，則訪客可被傳送至與瀏覽不同的體驗。
-* 在指派給流量的控制「貯體」後，訪客一律會看到相同的體驗，因為體驗指派是以訪客visitorId的確定性偽隨機雜湊為基礎。
+* 在流量的目標「貯體」中後，如果機器學習模型判斷不同體驗與新造訪相關，則可將訪客傳送至與造訪不同的體驗。
+* 將訪客指派給流量的控制「貯體」後，將一律會看見相同的體驗，因為體驗指派是以訪客visitorId的確定性偽隨機雜湊為基礎。
+
+
+## 我可以使用已套用區段作為[!UICONTROL 自動分配]活動中最佳化目標的二項式[!DNL Analytics]量度嗎？ {#binomial}
+
+您無法使用[!DNL Analytics]量度，且套用區段作為[!UICONTROL 自動分配]活動中的最佳化目標。 作為因應措施，您可以定義達到相同目標的自訂事件，並將其用作最佳化目標量度。
