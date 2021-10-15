@@ -4,9 +4,9 @@ description: 了解如何在 [!DNL Adobe Target] 中建立對象以鎖定行動�
 title: 我可以根據行動選項定位訪客嗎？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 40%
 
 裝置偵測是經由分析 User-Agent 字串來完成。某些裝置製造商 (例如 Apple) 在 UA 中不提供足夠資訊，所以會停用此功能。
 
-例如，Apple 裝置不會在 UA 中透露裝置型號專屬 Token。結果是無法使用簡單的關鍵字方法偵測iPhone型號（例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等）。
+例如，Apple 裝置不會在 UA 中透露裝置型號專屬 Token。結果是無法使用簡單的關鍵字方法偵測iPhone模型(例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等)。
 
-為解決此問題，[!DNL Target]會使用下列參數收集其他資料，以精確偵測iPhone和其他Apple裝置：
+為解決此問題，[!DNL Target]會收集其他資料，以使用下列參數來準確偵測iPhone和其他Apple裝置：
 
 | 參數 | 類型 | 說明 |
 |--- |--- |--- |
@@ -61,7 +61,7 @@ ht-degree: 40%
 1. （選用）為對象設定其他規則。
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-下圖顯示對象鎖定目標訪客使用由Google製造的行動裝置。
+下圖顯示對象鎖定目標訪客使用Google所製造的行動裝置。
 
 ![Target 行動裝置](assets/target_mobile.png)
 
@@ -71,13 +71,13 @@ ht-degree: 40%
 
 ### 執行iOS 12.2或更新版本的鎖定目標裝置
 
-由於iOS 12.2中推出的新變更，使用由[!UICONTROL 裝置行銷名稱]和[!UICONTROL 裝置型號]定義的規則來建立對象時，會受到影響。 [!DNL Target] 無法再將目標定位為已安裝iOS 12.2（或更新版本）的iPhone使用者。不過，如果這些使用者沒有iOS 12.2（或更新版本）,iPhone型號鎖定目標功能將可繼續正常運作。
+由於iOS 12.2中推出的新變更，使用指定iPhone模型之[!UICONTROL 裝置行銷名稱]和[!UICONTROL 裝置模型]所定義的規則來建立對象會受到影響。 [!DNL Target] 無法再將目標鎖定在安裝了iOS 12.2（或更新版本）的iPhone使用者。不過，如果這些使用者沒有iOS 12.2（或更新版本），則iPhone模型鎖定目標會繼續正常運作。
 
-iOS 12.2（或更新版本）更新不會影響下列機型的識別，因為這些機型不支援升級至iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina顯示器、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
+iOS 12.2（或更新版本）更新不會影響下列機型的識別，因為這些機型不支援升級至iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/ Retina顯示器、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
 
 ### 執行Safari 14.0.2（或更新版本）的鎖定裝置
 
-使用行動規則來鎖定在macOS上執行Safari 14.0.2版（或更新版本）的裝置時，由於與Apple的使用者代理和DeviceAtlas有關的已知問題， [!DNL Target]會將Mac裝置上的Safari誤識為iPad版本。 這個問題將在今後解決。
+使用行動規則來鎖定在macOS上執行Safari 14.0.2版（或更新版本）的裝置時，由於Apple的使用者代理和DeviceAtlas的已知問題， [!DNL Target]會在Mac和iPad裝置上不正確地識別Safari。 這個問題將在今後解決。
 
 ## 訓練影片: 建立對象
 
