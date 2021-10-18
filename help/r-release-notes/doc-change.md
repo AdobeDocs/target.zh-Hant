@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2789'
 ht-degree: 97%
 
 ---
@@ -19,10 +19,11 @@ ht-degree: 97%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 10 月 14 日 | [活動設定 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 新增下列常見問題集：&quot;我可以使用已套用區段作為[!UICONTROL 自動分配]活動中最佳化目標的二項式[!DNL Analytics]量度嗎？&quot; |
-| 10 月 13 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.10.2 | 新增[!DNL Target Standard/Premium] 21.10.2版本（2021年10月13日）的相關資訊。 |
+| 10 月 19 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增 [!DNL Target Standard/Premium] 21.10.3版（2021年10月19日）。 |
+| 10 月 14 日 | [活動設定 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 新增下列常見問題集：「我可以使用二項式 [!DNL Analytics] 量度，並將區段套用為 [!UICONTROL 自動分配] 活動？」 |
+| 10 月 13 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.10.2 | 新增 [!DNL Target Standard/Premium] 21.10.2版（2021年10月13日）。 |
 | 10 月 11 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增Target Standard/Premium 21.10.2版的相關資訊（2021年10月13日）。 |
-| 10 月 6 日 | [在中建立受眾 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新文字和影像，以反映更新後的[!DNL Target] [!UICONTROL Audiences] UI。 在[!UICONTROL Audiences]主題中也進行了類似的變更。 |
+| 10 月 6 日 | [在中建立受眾 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新文字和影像以反映更新的 [!DNL Target] [!UICONTROL 對象] UI。 在整個 [!UICONTROL 對象] 主題。 |
 |  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 已更新下列章節：<ul><li>基本資訊</li><li>資料來源</li></ul> |
 |  | [上傳自訂標準](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新說明以反映新的工作流程。 |
 |  | [發行說明](/help/r-release-notes/release-notes.md)：21.10.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
