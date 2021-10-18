@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ ht-degree: 55%
 >
 >為避免您的網站出現任何潛在問題，請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
-## [!DNL Target Standard/Premium] 21.10.2（2021年10月13日）
+## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 
-將[!DNL Target] [!UICONTROL Audiences]與[!DNL Adobe Experience Platform Web SDK]搭配使用時，已新增下列增強功能：
+此維護發行包含下列增強功能、修正和變更。
 
-* 在[!DNL Target] UI中各處新增警告圖示、瀏覽器和訊息，指出對象已在來源中刪除，且不再適用於[!DNL Target]活動。
-
-   下圖顯示圖示、瀏覽器和訊息的顯示位置：
-
-   *  活動清單頁面
-
-      ![在「活動」清單頁面上的來源訊息中刪除的對象](assets/deleted-at-source-audiences-list.png)
-
-   * 活動[!UICONTROL 概述]頁面：
-
-      ![概覽頁面上的來源訊息中刪除的對象](assets/deleted-at-source-overview.png)
-
-   *  活動建立工作流程的體驗步驟：
-
-      ![在體驗頁面上的來源訊息中刪除的對  像](assets/deleted-at-source-experiences.png)
-
-   *  活動建立工作流程的定位步驟：
-
-      ![目標頁面上在來源訊息中刪除的  對象](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL 活動建] 立工作流程的目標與設定步驟：
-
-      ![在目標與設定頁面上的來源訊息 [!UICONTROL 中刪除的對] 像](assets/deleted-at-source-goals-settings.png)
-
-   * 在活動建立工作流程的[!UICONTROL 鎖定目標]步驟上，對象細分（[!UICONTROL 取代對象]）:
-
-* 如果您嘗試使用「合併對象」功能，但來源上刪除了其中一個對象，則會停用[!UICONTROL 儲存]。
+* 修正客戶無法開啟 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 按一下 [!UICONTROL 在Analytics中檢視] 按鈕 [!DNL Target] 活動報表。 (TGT-42099 和 TGT-42100)
+* 修正 [!UICONTROL 編輯設計] 編輯時不顯示的按鈕 [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] (XT)使用 [!UICONTROL 表單式體驗撰寫器]. (TGT-41980)
+* 修正無法 [!UICONTROL 相容] 建立新條件時在條件選取中顯示的核取方塊 [!UICONTROL Recommendations] 活動。 (TGT-42053)
+* 修正無法選取時的錯誤訊息 [!DNL Analytics] 作為報表來源(A4T)，因為 [!DNL Analytics] 權限。 (TGT-41954)
+* 實作多項協助工具修正，以改善 [!DNL Target] UI。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
