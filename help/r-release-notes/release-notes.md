@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11466abc2996976449d2a2a6de8c04ae1fffd442
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 48%
+source-wordcount: '976'
+ht-degree: 44%
 
 ---
 
@@ -24,37 +24,47 @@ ht-degree: 48%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
+## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
+
+此維護發行包含下列增強功能、修正和變更。
+
+* 修正客戶無法開啟 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 按一下 [!UICONTROL 在Analytics中檢視] 按鈕 [!DNL Target] 活動報表。 (TGT-42099 和 TGT-42100)
+* 修正 [!UICONTROL 編輯設計] 編輯時不顯示的按鈕 [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] (XT)使用 [!UICONTROL 表單式體驗撰寫器]. (TGT-41980)
+* 修正無法 [!UICONTROL 相容] 建立新條件時在條件選取中顯示的核取方塊 [!UICONTROL Recommendations] 活動。 (TGT-42053)
+* 修正無法選取時顯示的錯誤訊息 [!DNL Analytics] 作為報表來源(A4T)，因為 [!DNL Analytics] 權限。 (TGT-41954)
+* 實作多項協助工具修正，以改善 [!DNL Target] UI。
+
 ## [!DNL Target Standard/Premium] 21.10.2（2021年10月13日）
 
-將[!DNL Target] [!UICONTROL Audiences]與[!DNL Adobe Experience Platform Web SDK]搭配使用時，已新增下列增強功能：
+新增下列增強功能，當使用 [!DNL Target] [!UICONTROL 對象] 和 [!DNL Adobe Experience Platform Web SDK]:
 
-* 在[!DNL Target] UI中各處新增警告圖示、瀏覽器和訊息，指出對象已在來源中刪除，且不再適用於[!DNL Target]活動。
+* 在 [!DNL Target] UI以指出對象已在來源中刪除，且無法再用於 [!DNL Target] 活動。
 
    下圖顯示圖示、瀏覽器和訊息的顯示位置：
 
-   *  活動清單頁面
+   * [!UICONTROL 活動] 清單頁面
 
       ![在「活動」清單頁面上的來源訊息中刪除的對象](assets/deleted-at-source-audiences-list.png)
 
-   * 活動[!UICONTROL 概述]頁面：
+   * 活動 [!UICONTROL 概述] 頁面：
 
       ![概覽頁面上的來源訊息中刪除的對象](assets/deleted-at-source-overview.png)
 
-   *  活動建立工作流程的體驗步驟：
+   * [!UICONTROL 體驗] 活動建立工作流程的步驟：
 
-      ![在體驗頁面上的來源訊息中刪除的對  像](assets/deleted-at-source-experiences.png)
+      ![在源郵件上刪除的對象 [!UICONTROL 體驗] 頁面](assets/deleted-at-source-experiences.png)
 
-   *  活動建立工作流程的定位步驟：
+   * [!UICONTROL 定位] 活動建立工作流程的步驟：
 
-      ![目標頁面上在來源訊息中刪除的  對象](assets/deleted-at-source-targeting.png)
+      ![在源郵件上刪除的對象 [!UICONTROL 定位] 頁面](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL 活動建] 立工作流程的目標與設定步驟：
+   * [!UICONTROL 目標與設定] 活動建立工作流程的步驟：
 
-      ![在目標與設定頁面上的來源訊息 [!UICONTROL 中刪除的對] 像](assets/deleted-at-source-goals-settings.png)
+      ![對象已在 [!UICONTROL 目標與設定] 頁面](assets/deleted-at-source-goals-settings.png)
 
-   * 在活動建立工作流程的[!UICONTROL 鎖定目標]步驟上，對象細分（[!UICONTROL 取代對象]）:
+   * 對象細分([!UICONTROL 取代受眾] 在 [!UICONTROL 定位] 活動建立工作流程的步驟):
 
-* 如果您嘗試使用「合併對象」功能，但來源上刪除了其中一個對象，則會停用[!UICONTROL 儲存]。
+* 如果您嘗試使用「合併對象」功能，但來源上已刪除其中一個對象， [!UICONTROL 儲存] 已停用。
 
 ## [!DNL Target Standard/Premium]21.10.1 (2021 年 10 月 6 日)
 
@@ -62,10 +72,10 @@ ht-degree: 48%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL Audiences UI 重新整理] | 作為[!DNL Adobe Target]團隊持續致力改善[!DNL Target]使用者的使用者體驗的一部分，此版本會重新整理[!DNL Target] UI中的[!UICONTROL  Audiences]和[!UICONTROL 設定檔指令碼]頁面。 此更新會統一及標準化先前不一致的設計模式，同時新增增強功能，例如：<ul><li>可同時選取和刪除多個對象</li><li>重新整理的[audience builder設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]資料庫規則產生器中的排除規則支援</li><li>新的「受眾來源」篩選器，可加快受眾探索</li><li>工作階段持續搜尋和篩選選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**:除了目  前測試版計畫中的客戶，所有客戶的新AudiencesUI都已暫 [!DNL Target] 時停用。我們將在2021年10月19日星期二為一組客戶重新啟用此UI重新整理，並在10月21日星期四為其餘所有客戶重新啟用。 |
-| [!UICONTROL 設定檔] 指令碼UI重新整理 | [!UICONTROL 設定檔指令碼]程式庫也已更新，其中包含重新整理的介面以及數項生產力更新：<ul><li>可同時選取和刪除多個設定檔指令碼</li><li>描述檔指令碼的新程式碼編輯器</li><li>程式碼編輯器內的語法醒目提示和錯誤檢查</li><li>透過鍵盤快速鍵自動完成Token（mbox或設定檔）參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。 |
-| ![Premium徽](/help/assets/premium.png) 章Recommendations條件建立和編輯 | 已簡化[!UICONTROL Recommendations條件]建立和編輯工作流程，以簡化選擇正確建議演算法和設定以達成您的目標。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
-| ![Premium徽](/help/assets/premium.png) 章Recommendations回顧期間和演算法重新整理率改善 | 您現在可以執行「檢視次數最多」和「最暢銷商品」演算法，並有六小時回顧期間，以擷取最近趨勢的內容。 選取六小時回顧期間後，您的建議結果會一天中每3到6小時更新一次。<br>如需詳細資訊，請參 [閱建](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 立條 *件中的資料來源*。 |
+| [!UICONTROL Audiences UI 重新整理] | 作為 [!DNL Adobe Target] 團隊持續致力於改善 [!DNL Target] 使用者，此版本會重新整理 [!UICONTROL 對象] 和 [!UICONTROL 設定檔指令碼] 頁面 [!DNL Target] UI。 此更新會統一及標準化先前不一致的設計模式，同時新增增強功能，例如：<ul><li>可同時選取和刪除多個對象</li><li>已重新整理 [audience builder設計](/help/c-target/c-audiences/create-audience.md)</li><li>中的排除規則支援 [!UICONTROL 對象] 程式庫規則產生器</li><li>新的「受眾來源」篩選器，可加快受眾探索</li><li>工作階段持續搜尋和篩選選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**:新 [!UICONTROL 對象] 除了目前位於 [!DNL Target] 測試版計畫。 我們將在2021年10月19日星期二為一組客戶重新啟用此UI重新整理，並在10月21日星期四為其餘所有客戶重新啟用。 |
+| [!UICONTROL 設定檔指令碼] UI重新整理 | 此 [!UICONTROL 設定檔指令碼] 程式庫也已更新，且包含更新後的介面以及數項生產力更新：<ul><li>可同時選取和刪除多個設定檔指令碼</li><li>描述檔指令碼的新程式碼編輯器</li><li>程式碼編輯器內的語法醒目提示和錯誤檢查</li><li>透過鍵盤快速鍵自動完成Token（mbox或設定檔）參數</li></ul>如需詳細資訊，請參閱 [訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Premium徽章](/help/assets/premium.png) Recommendations條件建立和編輯 | 此 [!UICONTROL Recommendations條件] 已簡化建立和編輯工作流程，以簡化選擇正確的建議演算法和設定，以達成您的目標。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Premium徽章](/help/assets/premium.png) Recommendations回顧期間和演算法重新整理率改善 | 您現在可以執行「檢視次數最多」和「最暢銷商品」演算法，並有六小時回顧期間，以擷取最近趨勢的內容。 選取六小時回顧期間後，您的建議結果會一天中每3到6小時更新一次。<br>如需詳細資訊，請參閱 [資料來源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *建立條件*. |
 
 ## 額外的發行說明和版本詳細資料
 
