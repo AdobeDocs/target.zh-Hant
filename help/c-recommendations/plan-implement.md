@@ -1,202 +1,126 @@
 ---
 keywords: Recommendations;設定;偏好設定;行業別;篩選不相容的條件;預設主機群組;縮圖基底 url;建議 api token
-description: '了解如何在Adobe Target中實作Recommendations活動。 確保您的實作符合必要的先決條件要求。 '
+description: '了解如何在Adobe Target中實作Recommendations活動。 '
 title: 如何實作Recommendations活動？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 93%
+source-wordcount: '1290'
+ht-degree: 37%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMPlan與實作Recommendations
+# ![PREMIUM](/help/assets/premium.png) 計畫和實作Recommendations
 
-建立建議活動之前需要知道的事項。
+設定您的第一個 [!DNL Recommendations] 活動 [!DNL Adobe Target]，請完成下列步驟：
 
-## 計劃和實作 Recommendations  {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1}
-
-建立 [!DNL Recommendations] 活動之前需要知道的事項。
-
-[!DNL Recommendations] 需要您設定下列資訊階層:
-
-| 步驟 | 資訊 | 詳細資料 |
-|--- |--- |--- |
-| ![步驟 1](/help/c-recommendations/assets/step1_red.png) | JavaScript 程式庫 | 每一個頁面都需要參考 at.js 0.9.1 版 (或更新版) 或 mbox.js 版本 55 (或更新版)。所有將使用 [!DNL Target] 活動的頁面都需要此實作步驟，其中可能包含索引鍵，例如產品或類別 ID。 |
-| ![步驟 2](/help/c-recommendations/assets/step2_red.png) | 密鑰 | 此索引鍵決定建議中顯示的產品或內容類型。例如，索引鍵可能是產品類別。請參閱[讓建議以建議金鑰為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。 |
-| ![步驟 3](/help/c-recommendations/assets/step3_red.png) | 屬性 | 屬性可以針對您想顯示的產品，提供更具體的相關資訊。例如，您可能需要顯示特定價格範圍內的產品，或符合庫存臨界值的項目。屬性可以在 mbox 中提供，或透過[摘要](/help/c-recommendations/c-products/feeds.md)。<br>請參 [閱指定包含規則](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)。 |
-| ![步驟 4](/help/c-recommendations/assets/step4_red.png) | 排除項目 | 「排除項目」決定在建議中不要出現的特定項目。<br>請參閱[排除項目](/help/c-recommendations/c-products/exclusions.md)。 |
-| ![步驟 5](/help/c-recommendations/assets/step5_red.png) | 購買詳細資料 | 採購完成時，購買詳細資料提供採購項目及訂單的相關資訊。 |
-
-## 基礎實作 {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
-
-基礎實作需要您將參數傳遞至頁面，以決定要在您的建議中出現的產品或服務。
-
-開始設定 [!DNL Recommendations] 活動之前，請瞭解產品資料如何提供給 [!DNL Recommendations]，然後決定最符合需要的方法。
-
-提供產品和服務的相關資訊給 [!DNL Recommendations] 有兩種方法:
-
-| 方法 | 說明 |
+| 步驟 | 詳細資料 |
 |--- |--- |
-| 直接將參數傳給頁面 | 此方法適用於經常變更的項目。不過，因為這需要直接變更頁面，在許多組織裡，此方法需要 IT 和實作頁面人員參與。 |
-| 透過 Google 或 CSV 摘要來傳送參數 | 此方法適用於不常變更的集合。透過摘要來提供產品資訊時，通常不需要變更 實作或其他頁面程式碼。不過，因為產品清單保持不變，快速變更會較困難。如需詳細資訊，請參閱[摘要](/help/c-recommendations/c-products/feeds.md)。 |
+| ![步驟 1](/help/c-recommendations/assets/step1_red.png) | [實作 [!DNL Adobe Target]](#implement-target) 應用程式頁面上，擷取使用者行為並傳送建議時使用。 |
+| ![步驟 2](/help/c-recommendations/assets/step2_red.png) | [設定您的 [!DNL Recommendations] 目錄](#rec-catalog) 產品或內容，以向使用者建議。 |
+| ![步驟 3](/help/c-recommendations/assets/step3_red.png) | [傳遞行為資訊和內容](#pass-behavioral) to [!DNL Adobe Target Recommendations] 以便提供個人化建議。 |
+| ![步驟 4](/help/c-recommendations/assets/step4_red.png) | [設定全域排除](#exclusions). |
+| ![步驟 5](/help/c-recommendations/assets/step5_red.png) | [設定 [!DNL Recommendations] 設定](#concept_C1E1E2351413468692D6C21145EF0B84). |
 
-這些方法可以分開或一起使用，如下列範例所示。
+## 實作Adobe Target {#implement-target}
 
-## 範例一: 結合頁面和摘要 {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+[!DNL Target Recommendations] 需要您實作 [!DNL Adobe Experience Platform Web SDK] 或at.js 0.9.2（或更新版本）。 請參閱 [實作Target](/help/c-implementing-target/implementing-target.md) 以取得更多資訊。
 
-一個通用 [!DNL Recommendations] 實作選項使用頁面參數和摘要。
+## 設定您的Recommendations目錄 {#rec-catalog}
 
-如果零售商有相當固定的產品目錄，但想要強調特殊的季節性項目或促銷項目，可能會喜歡此方法。多數客戶可能主要是透過摘要來提供資訊，偶爾才調整頁面。
+若要提供高品質的建議， [!DNL Target] 必須知道您要建議的產品或內容。 您的目錄通常應包含三種關於您要建議之項目的資訊。 假設您要推薦電影。 納入下列項目：
 
-使用摘要提供不常變更的資訊。無論使用 CSV 檔案或 Google 摘要，請使用下列參數:
+1. 您要向收到建議的使用者顯示的資料。例如，您可以顯示電影名稱，以及電影海報縮圖影像的URL。
+1. 適合用於套用行銷和推銷控制的資料。例如，您可以顯示電影分級，以便不建議NC-17電影。
+1. 適合用來判斷項目與其他項目片段相似度的資料。 例如，您可以顯示電影類型和電影導演。
 
-* 必要的參數
+[!DNL Target] 提供多個整合選項以填入目錄。 這些選項可以組合使用來更新目錄中的不同項目，或更新不同頻率上的不同項目屬性。
 
-   * `entity.id`
+| 方法 | 是什麼 | 使用時機 | 其他資訊 |
+| --- | --- | --- | --- |
+| 目錄摘要 | 排程摘要(CSV、Google產品XML或 [!DNL Analytics Product Classifications])上傳及擷取。 | 用於一次傳送多個項目的相關資訊。 用於傳送不常變更的資訊。 | 請參閱 [動態消息](/help/c-recommendations/c-products/feeds.md). |
+| 實體API | 呼叫API以傳送單一項目的最新更新。 | 用於一次傳送大約一個項目的更新。 用於傳送經常變更的資訊（例如價格、庫存/庫存水準）。 | 請參閱 [實體API開發人員檔案](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
+| 在頁面上傳遞更新 | 使用頁面上的JavaScript或使用傳送API，針對單一項目立即傳送更新。 | 用於一次傳送大約一個項目的更新。 用於傳送經常變更的資訊（例如價格、庫存/庫存水準）。 | 請參閱下方的項目檢視/產品頁面。 |
 
-* 實用的參數
+大部分的客戶應至少實作一個摘要。 然後，您可以選擇使用實體API或頁面上方法，以經常變更屬性或項目的更新補充您的摘要。
 
-   * `entity.name`
-   * `entity.categoryId`
-   * `entity.brand`
-   * `entity.pageUrl`
-   * `entity.thumbnailUrl`
-   * `entity.message`
-   * 所有自訂屬性
+## 傳遞行為資訊和內容 {#pass-behavioral}
 
-設定摘要並將其傳遞至 [!DNL Recommendations] 後，請針對經常變更的屬性 (亦即頻繁程度超過每日) 將參數傳遞至頁面上。
+您應傳遞至的行為資訊和內容 [!DNL Target] 取決於訪客正在採取的動作，而此動作通常與訪客正在互動的頁面類型相關聯。
 
-* 必要的參數
+### 項目檢視/產品頁面
 
-   * `entity.id`
-   * `entity.categoryId`
+在訪客檢視單一項目的頁面上（例如產品詳細資料頁面），您應傳遞訪客檢視之項目的身分。 您也應該傳遞訪客正在檢視之項目最精細的類別，以允許篩選建議至目前類別。
 
-* 實用的參數
-
-   * `entity.inventory`
-   * `entity.value`
-
-最近執行的資料集較優先。如果您先傳遞摘要，再更新頁面參數，則會顯示頁面參數中的變更，以取代摘要中傳遞的資訊。
-
-## 範例二: 在產品 (或內容) 詳細資料頁面上傳遞所有參數 {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
-
-如果您在頁面上傳遞所有參數，則可以更新頁面來快速完成更新。在某些組織裡，這需要 IT 或網頁設計團隊參與。
-
-對於時常變更內容的媒體公司，此範例可能非常實用。
-
-* 必要的參數
-
-   * `entity.id`
-   * `entity.categoryId`
-   * 所有其他屬性
-
-## 程式碼範例 {#section_6E8A73376F30468BB549F337C4C220B1}
-
-例如，您可以在產品或內容頁面的標題區段中使用下列程式碼:
+您也可以在產品頁面本身傳遞某些快速變更的屬性。 例如，您可以傳遞價格(`value`)和庫存/庫存水準。
 
 ```
-function targetPageParams() {
- return {
-    "entity": {
-       "id": "32323",
-       "categoryId": "My Category",
-       "value": 105.56,
-       "inventory": 329
-    }
- }
-}
-```
-
-如需更多您在不同頁面上可能使用的程式碼範例，請參閱[根據頁面類型的實作](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-## 根據頁面類型實作 {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
-
-頁面類型將影響您的 [!DNL Recommendations] 實作。
-
-例如，您要在產品頁面上呈現的建議類型與在類別頁面或您的首頁上的可能不同。針對每個頁面，您可以在 mbox 呼叫之前執行特定函數，以顯示適當的建議。
-
-如需關於範例中屬性的資訊，請參閱[實體屬性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。
-
-需要有效的 JSON 格式。
-
-如果您使用標記管理解決方案來實作您的頁面，則以下顯示的 `targetPageParams` 函數特別實用。[!DNL Adobe Experience Platform]中的標籤會將at.js/mbox.js參考和`targetPageParams`函式放置在您的頁面上，並可讓您設定值。 您應該將該函數放置在 at.js/mbox.js 呼叫之前，或將它放在 at.js/mbox.js 的「額外 JavaScript」區段。
-
-## 全部頁面 {#section_A22061788BAB42BB82BA087DEC3AA4AD}
-
-包含建議的所有頁面需要在頁面上有 [!DNL at.js] 或 [!DNL mbox.js] 參考。新增下列其中一個參考至具有建議的所有頁面:
-
-```
-<script src="/help/at.js /></script>
-```
-
-```
-<script src="/help/mbox.js /></script>
-```
-
-此實作需要:
-
-* [!DNL at.js] 0.9.2版（或更新版本）
-
-如需關於實作 [!DNL at.js] 的詳細資訊，請參閱[如何部署 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)。
-
-## 類別頁面 {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
-
-在類別頁面上，您可能想要將您的建議限制在該類別中的產品或內容。若要設定類別頁面，您可以設定頁面使用的索引鍵。如需關於索引鍵的詳細資訊，請參閱[讓建議以建議金鑰為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
-
-```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "categoryId": "My Category" 
-      } 
-   } 
-}
-```
-
-## 產品頁面 {#section_205B3953C9664125A17CA8574FA6B2A3}
-
-在產品頁面上，您可能想要建議特定項目或具有特定價格或詳細目錄層級的項目。針對產品頁面，除了類別頁面所需的索引鍵以外，您可能需要設定頻繁變更屬性 (例如值和詳細目錄)。
-
-```
+<script type="text/javascript">
 function targetPageParams() { 
    return { 
       "entity": { 
          "id": "32323", 
-         "categoryId": "My Category", 
-         "value": 105.56, 
+         "categoryId": "running-shoes", 
+         "value": 119.99, 
          "inventory": 329 
+      } 
+   } 
+}
+</script>
+```
+
+### 類別檢視/類別頁面
+
+在類別頁面上，您可能會想要將建議限制在該類別中的產品或內容。 若要這麼做，請確定您傳遞目前已檢視類別的身分。
+
+```
+function targetPageParams() { 
+   return { 
+      "entity": { 
+         "categoryId": "running-shoes" 
       } 
    } 
 }
 ```
 
-## 購物車頁面 {#section_D37E48700F074556B925D0CA0291405E}
+### 購物車新增/購物車檢視/結帳頁面
 
-在購物車頁面上，您會想要從您的建議中排除一些項目，例如已在購物車中的項目。
+在購物車頁面上，您可以根據訪客目前購物車的內容來建議項目。 若要這麼做，請使用特殊參數，傳遞訪客目前購物車中所有項目的ID `cartIds`.
 
 ```
-<script type="text/javascript">
 function targetPageParams() {
    return {
-      "excludedIds": [352, 223, 23432, 432, 553]
+      "cartIds": ["352", "223", "23432", "432", "553"]
       }
 }
-</script>
 ```
 
-## 感謝頁面 {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+### 排除訪客購物車中已有的項目
 
-在感謝頁面上，您會想要顯示訂購總計和訂購 ID，以及顯示所購買的產品，而不建議其他項目。您可以實作第二個 mbox 來擷取訂購資訊。
+在您網站的整個頁面上，您可以從建議中排除一些項目。 例如，您可能不想建議已位於訪客目前購物車中的項目。 若要這麼做，請使用特殊參數傳遞您要排除之所有項目的ID `excludedIds`.
 
-* 如果您使用 at.js，請參閱[追蹤轉換](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
+```
+function targetPageParams() {
+   return {
+      "excludedIds": ["352", "223", "23432", "432", "553"]
+      }
+}
+```
 
-## 設定 {#concept_C1E1E2351413468692D6C21145EF0B84}
+### 購買/訂購確認頁面
+
+發生購買事件時，傳遞已購買項目或項目的身分。 請參閱 [追蹤轉換](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053) in *實作 [!DNL Target] 沒有標籤管理員*.
+
+## 設定全域排除 {#exclusions}
+
+排除您絕不想建議給訪客的全域層級上的任何項目。 請參閱[排除項目](/help/c-recommendations/c-products/exclusions.md)。
+
+## 設定 [!DNL Recommendations] 設定 {#concept_C1E1E2351413468692D6C21145EF0B84}
 
 使用設定來管理您的 [!DNL Recommendations] 實作。
 
-若要存取「[!UICONTROL Recommendations設定]」選項，請開啟[!DNL Adobe Experience Cloud]中的[!DNL Target]，然後按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**」。
+若要存取 [!UICONTROL Recommendations設定] 選項，開啟 [!DNL Target] 在 [!DNL Adobe Experience Cloud]，然後按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**.
 
 ![](assets/recs_settings.png)
 
@@ -204,9 +128,9 @@ function targetPageParams() {
 
 | 設定 | 說明 |
 |--- |--- |
-| 自訂全域 Mbox | (可選) 指定用來提供 [!DNL Target] 活動的自訂全域 mbox。依預設，[!DNL Target]使用的全域mbox會用於[!DNL Recommendations]。<br>注意：此選項在「管理」頁 [!DNL Target]  面上設定。開啟[!DNL Target]，然後按一下[!UICONTROL 管理] > [!UICONTROL 可視化體驗撰寫器]。 |
-| 垂直產業 | 行業別用於協助將建議條件分類。這有助於團隊的成員尋找特定頁面適合的條件，例如最適合購物車頁面或媒體頁面的條件。 |
-| 篩選不相容的條件 | 啟用此選項只會顯示讓所選頁面傳遞必要資料的條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您要讓活動可以使用不相容的條件，請取消勾選此選項。<br>如果您使用標記管理解決方案，建議您停用此選項。<br>如需此選項的詳細資訊，請參閱 [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)。 |
+| 自訂全域 Mbox | (可選) 指定用來提供 [!DNL Target] 活動的自訂全域 mbox。依預設，使用的全域mbox [!DNL Target] 用於 [!DNL Recommendations].<br>注意：此選項設定於 [!DNL Target] [!UICONTROL 管理] 頁面。 開啟 [!DNL Target]，然後按一下 [!UICONTROL 管理] > [!UICONTROL 可視化體驗撰寫器]. |
+| 垂直產業 | 行業別用於協助將建議條件分類。此資訊可協助您的團隊成員尋找對特定頁面有意義的條件，例如最適合購物車頁面或媒體頁面的條件。 |
+| 篩選不相容的條件 | 啟用此選項只會顯示讓所選頁面傳遞必要資料的條件。並非所有條件都會在每個頁面上正確執行。 頁面或mbox必須傳入 `entity.id` 或 `entity.categoryId` 讓目前項目/目前類別建議相容。 一般來說，最好只顯示相容的條件。不過，如果您要讓活動可以使用不相容的條件，請取消勾選此選項。<br>如果您使用標記管理解決方案，建議您停用此選項。<br>如需此選項的詳細資訊，請參閱 [Recommendations 常見問題集](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)。 |
 | 預設主機群組 | 選取預設主機群組。<br>主機群組可用來將目錄中可用項目區分為不同用途。例如，您可以將主機群組用於開發和生產環境、不同品牌或不同地理位置。依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。提供的建議取決於要求中指定的主機群組。<br>如果沒有看見您的產品，請確定您使用正確的主機群組。例如，假設您將建議設定為使用測試環境，並將主機群組設為「測試」，則可能需要在測試環境中重建集合，才會顯示產品。若要查看每個環境中可用的產品，請對每個環境使用「目錄搜尋」。您也可以針對所選的環境 (主機群組)，預覽 Recommendations 集合和排除項目的內容。<br>**注意：** 變更選定環境後，您必須按一下「搜尋」來更新傳回的結果。<br>[!UICONTROL 「環境」]篩選器可在 [!DNL Target] UI 中的以下位置使用:<ul><li>「目錄搜尋」(「建議 > 目錄搜尋」)</li><li>「建立集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 新建」])</li><li>「更新集合」對話方塊 ([!UICONTROL 「Recommendations > 集合 > 編輯」])</li><li>「建立排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 新建」])</li><li>「更新排除項目」對話方塊 ([!UICONTROL 「Recommendations > 排除項目 > 編輯」])</li></ul>如需詳細資訊，請參閱[主機](/help/administrating-target/hosts.md)。 |
 | 縮圖基底 URL | 設定產品目錄的基底 URL 可讓您在傳入縮圖 URL 時，使用相對 URL 來指定產品的縮圖。<br>例如:<br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br>設定相對於縮圖基底 URL 的 URL。 |
 | Recommendations API Token | 在「建議 API」呼叫中 (例如「下載 API」) 使用此 Token。 |
