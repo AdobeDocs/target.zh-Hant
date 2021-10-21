@@ -4,28 +4,26 @@ description: '了解如何在Adobe Target中實作Recommendations活動。 '
 title: 如何實作Recommendations活動？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 37%
+source-wordcount: '1279'
+ht-degree: 36%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) 計畫和實作Recommendations
+# ![PREMIUM](/help/assets/premium.png) 計畫和實作 [!DNL Recommendations]
 
 設定您的第一個 [!DNL Recommendations] 活動 [!DNL Adobe Target]，請完成下列步驟：
 
-| 步驟 | 詳細資料 |
-|--- |--- |
-| ![步驟 1](/help/c-recommendations/assets/step1_red.png) | [實作 [!DNL Adobe Target]](#implement-target) 應用程式頁面上，擷取使用者行為並傳送建議時使用。 |
-| ![步驟 2](/help/c-recommendations/assets/step2_red.png) | [設定您的 [!DNL Recommendations] 目錄](#rec-catalog) 產品或內容，以向使用者建議。 |
-| ![步驟 3](/help/c-recommendations/assets/step3_red.png) | [傳遞行為資訊和內容](#pass-behavioral) to [!DNL Adobe Target Recommendations] 以便提供個人化建議。 |
-| ![步驟 4](/help/c-recommendations/assets/step4_red.png) | [設定全域排除](#exclusions). |
-| ![步驟 5](/help/c-recommendations/assets/step5_red.png) | [設定 [!DNL Recommendations] 設定](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [實作 [!DNL Target]](#implement-target) 應用程式頁面上，擷取使用者行為並傳送建議時使用。
+1. [設定您的 [!DNL Recommendations] 目錄](#rec-catalog) 產品或內容，以向使用者建議。
+1. [傳遞行為資訊和內容](#pass-behavioral) to [!DNL Target Recommendations] 以便提供個人化建議。
+1. [設定全域排除](#exclusions).
+1. [設定 [!DNL Recommendations] 設定](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## 實作Adobe Target {#implement-target}
+## 實作 [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] 需要您實作 [!DNL Adobe Experience Platform Web SDK] 或at.js 0.9.2（或更新版本）。 請參閱 [實作Target](/help/c-implementing-target/implementing-target.md) 以取得更多資訊。
+[!DNL Target Recommendations] 需要您實作 [!DNL Adobe Experience Platform Web SDK] 或at.js 0.9.2（或更新版本）。 請參閱 [實作 [!DNL Target]](/help/c-implementing-target/implementing-target.md) 以取得更多資訊。
 
 ## 設定您的Recommendations目錄 {#rec-catalog}
 
@@ -41,7 +39,7 @@ ht-degree: 37%
 | --- | --- | --- | --- |
 | 目錄摘要 | 排程摘要(CSV、Google產品XML或 [!DNL Analytics Product Classifications])上傳及擷取。 | 用於一次傳送多個項目的相關資訊。 用於傳送不常變更的資訊。 | 請參閱 [動態消息](/help/c-recommendations/c-products/feeds.md). |
 | 實體API | 呼叫API以傳送單一項目的最新更新。 | 用於一次傳送大約一個項目的更新。 用於傳送經常變更的資訊（例如價格、庫存/庫存水準）。 | 請參閱 [實體API開發人員檔案](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| 在頁面上傳遞更新 | 使用頁面上的JavaScript或使用傳送API，針對單一項目立即傳送更新。 | 用於一次傳送大約一個項目的更新。 用於傳送經常變更的資訊（例如價格、庫存/庫存水準）。 | 請參閱下方的項目檢視/產品頁面。 |
+| 在頁面上傳遞更新 | 使用頁面上的JavaScript或使用傳送API，針對單一項目立即傳送更新。 | 用於一次傳送大約一個項目的更新。 用於傳送經常變更的資訊（例如價格、庫存/庫存水準）。 | 請參閱 [項目檢視/產品頁面](#items-product-pages) 下方。 |
 
 大部分的客戶應至少實作一個摘要。 然後，您可以選擇使用實體API或頁面上方法，以經常變更屬性或項目的更新補充您的摘要。
 
@@ -49,7 +47,7 @@ ht-degree: 37%
 
 您應傳遞至的行為資訊和內容 [!DNL Target] 取決於訪客正在採取的動作，而此動作通常與訪客正在互動的頁面類型相關聯。
 
-### 項目檢視/產品頁面
+### 項目檢視/產品頁面 {#items-product-pages}
 
 在訪客檢視單一項目的頁面上（例如產品詳細資料頁面），您應傳遞訪客檢視之項目的身分。 您也應該傳遞訪客正在檢視之項目最精細的類別，以允許篩選建議至目前類別。
 

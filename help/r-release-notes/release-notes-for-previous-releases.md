@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '32512'
+source-wordcount: '32513'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 購物車型Recommendations | 根據訪客購物車內容提供建議的全新演算法系列。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和「購物車新增/購物車檢視/結帳頁面」和「排除已在訪客購物車中的項目」，於 [計畫和實作Recommendations](/help/c-recommendations/plan-implement.md). |
+| 購物車型Recommendations | 新增一系列演算法，以根據訪客購物車的內容提供建議。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和「購物車新增/購物車檢視/結帳頁面」和「排除已在訪客購物車中的項目」，於 [計畫和實作Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 
