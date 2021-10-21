@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: f17d98f30b1fb25b5ffcafcd6cb8368adad99f97
 workflow-type: tm+mt
-source-wordcount: '32513'
+source-wordcount: '32472'
 ht-degree: 98%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 98%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL Audiences UI 重新整理] | 作為 [!DNL Adobe Target] 團隊持續致力於改善 [!DNL Target] 使用者，此版本會重新整理 [!UICONTROL 對象] 和 [!UICONTROL 設定檔指令碼] 頁面 [!DNL Target] UI。 此更新會統一及標準化先前不一致的設計模式，同時新增增強功能，例如：<ul><li>可同時選取和刪除多個對象</li><li>已重新整理 [audience builder設計](/help/c-target/c-audiences/create-audience.md)</li><li>中的排除規則支援 [!UICONTROL 對象] 程式庫規則產生器</li><li>新的「受眾來源」篩選器，可加快受眾探索</li><li>工作階段持續搜尋和篩選選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**:新 [!UICONTROL 對象] 除了目前位於 [!DNL Target] 測試版計畫。 我們將在2021年10月19日星期二為一組客戶重新啟用此UI重新整理，並在10月21日星期四為其餘所有客戶重新啟用。 |
+| [!UICONTROL Audiences UI 重新整理] | 作為 [!DNL Adobe Target] 團隊持續致力於改善 [!DNL Target] 使用者，此版本會重新整理 [!UICONTROL 對象] 和 [!UICONTROL 設定檔指令碼] 頁面 [!DNL Target] UI。 此更新會統一及標準化先前不一致的設計模式，同時新增增強功能，例如：<ul><li>可同時選取和刪除多個對象</li><li>已重新整理 [audience builder設計](/help/c-target/c-audiences/create-audience.md)</li><li>中的排除規則支援 [!UICONTROL 對象] 程式庫規則產生器</li><li>新的「受眾來源」篩選器，可加快受眾探索</li><li>工作階段持續搜尋和篩選選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。 |
 | [!UICONTROL 設定檔指令碼] UI重新整理 | 此 [!UICONTROL 設定檔指令碼] 程式庫也已更新，且包含更新後的介面以及數項生產力更新：<ul><li>可同時選取和刪除多個設定檔指令碼</li><li>描述檔指令碼的新程式碼編輯器</li><li>程式碼編輯器內的語法醒目提示和錯誤檢查</li><li>透過鍵盤快速鍵自動完成Token（mbox或設定檔）參數</li></ul>如需詳細資訊，請參閱 [訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md). |
 | ![Premium徽章](/help/assets/premium.png) Recommendations條件建立和編輯 | 此 [!UICONTROL Recommendations條件] 已簡化建立和編輯工作流程，以簡化選擇正確的建議演算法和設定，以達成您的目標。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium徽章](/help/assets/premium.png) Recommendations回顧期間和演算法重新整理率改善 | 您現在可以執行「檢視次數最多」和「最暢銷商品」演算法，並有六小時回顧期間，以擷取最近趨勢的內容。 選取六小時回顧期間後，您的建議結果會一天中每3到6小時更新一次。<br>如需詳細資訊，請參閱 [資料來源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *建立條件*. |
