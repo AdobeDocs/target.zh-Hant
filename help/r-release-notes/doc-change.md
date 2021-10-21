@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 97%
+source-wordcount: '2830'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 97%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 月 21 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答茶歇（2021年11月10日）</li><li>[!DNL Adobe Target] 社群問答茶歇（2021年12月8日）</li></ul> |
 | 10 月 20 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 [!DNL Target Standard/Premium] 21.10.4版（2021年10月21日）。 |
 |  | [計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) | 更新整個主題。 |
 | 10 月 19 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 [!DNL Target Standard/Premium] 21.10.3版（2021年10月19日）。 |

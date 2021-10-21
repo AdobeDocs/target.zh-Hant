@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 84%
 
 ---
 
@@ -15,18 +15,30 @@ ht-degree: 100%
 
 閱讀有關近期事件的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
 
-## [!DNL Adobe Target] 社群問答咖啡會
+## [!DNL Adobe Target] 社群問答咖啡會 （2021年11月10日）
 
-* **2021 年 10 月 13 日星期三**
-* **上午 8 點 (PDT，UTC -7)**
-* **[請按一下此處以了解更多資訊並註冊](https://adobe.ly/3CoUIVz)。**
+* **2021年11月10日星期三**
+* **早上8點。（太平洋標準時間，UTC -8）**
+* **[更多資訊和註冊資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
 
-[!DNL Adobe Target] 的資深解決方案顧問 Gentry Lin 將針對以下的專長領域回答客戶問題：
+Cristinel &quot;Muti&quot; Anastasoaie，高級產品經理 [!DNL Adobe Target]，將回答您有關其專業領域的問題：
 
-* 實施
-* 個人化
-* 核心 Web 撰寫工作流程
-* [!DNL Adobe Experience Cloud] 整合
+* [!DNL Target] 使用者介面
+* [!DNL Target] 整合
+* [!UICONTROL 企業權限] 和 [!UICONTROL 工作區]
+
+## [!DNL Adobe Target] 社群問答茶歇（2021年12月8日）
+
+* **2021年12月8日星期三**
+* **早上8點。（太平洋標準時間，UTC -8）**
+* **[更多資訊和註冊資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+
+Robert Calangiu, [!DNL Adobe Target]，將回答您有關其專業領域的問題：
+
+* [!DNL Target] 設定和管理UI
+* [!UICONTROL Analytics for Target] (A4T)整合
+* [!DNL Adobe Audience Manager] (AEM)整合
+* 一般 [!DNL Target] UI
 
 ## 網路研討會影片：「利用 Adobe Target 的裝置上決策在零延遲的情況下進行個人化和測試。
 
