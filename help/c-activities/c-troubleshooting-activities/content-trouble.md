@@ -4,7 +4,7 @@ description: 尋找建議來幫助解決如果頁面未顯示預期內容的問�
 title: 如何疑難排解內容傳送問題？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ Target 不再支援 IE 8。
 
 如果您使用無效的 doctype，at.js 不會觸發 Target 請求。at.js 需要 HTML 5 doctype。
 
-## 確保 [!DNL Target] 活動可正確處理含有查詢字串參數的URL {#query-strings}
+## 確保 [!DNL Target] 活動可正確處理含有查詢字串參數的URL。 {#query-strings}
 
 此 [!UICONTROL 活動URL] 判斷符合活動訪客資格的頁面，並將活動體驗轉譯給使用者。 在活動建立期間出現提示時，輸入完整URL並不一定能確保內容是在該網站頁面上傳送，尤其是包含查詢字串參數的URL。
 
