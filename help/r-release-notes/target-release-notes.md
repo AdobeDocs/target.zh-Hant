@@ -4,9 +4,9 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '420'
 ht-degree: 53%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 53%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| Visual Experience Composer (VEC) | 新增對Web元件的支援。 您可以在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件。 |
+| Visual Experience Composer (VEC) | 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 您可以在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件。 |
 
 ## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
 
