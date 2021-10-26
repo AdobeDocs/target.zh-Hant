@@ -1,22 +1,22 @@
 ---
 keywords: 用戶端服務；cname；憑證程式；規範名稱；cookie；憑證；amc;adobe托管憑證；digicert；網域控制驗證
-description: 與Adobe客戶服務合作，在Adobe中實作CNAME（規範名稱）支援 [!DNL Target] 處理廣告封鎖問題。
+description: 使用 [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target] 處理廣告封鎖問題。
 title: 如何在Target中使用CNAME?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: e51c7805939e8bf32d7f358036c9070931580187
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
 
-# CNAME和Target
+# CNAME 和 [!DNL Target]
 
 使用說明 [!DNL Adobe] 客戶服務以在中實作CNAME（規範名稱）支援 [!DNL Adobe Target]. 使用CNAME處理廣告封鎖問題或ITP相關（智慧型追蹤預防）Cookie原則。 若使用CNAME，會呼叫客戶擁有的網域，而非 [!DNL Adobe].
 
-## 在Target中要求CNAME支援
+## 請求中的CNAME支援 [!DNL Target]
 
 1. 決定您SSL憑證所需的主機名稱清單（請參閱下方的常見問題集）。
 
@@ -30,13 +30,13 @@ ht-degree: 1%
 
    >[!IMPORTANT]
    >
-   >Adobe的憑證授權單位DigiCert必須完成此步驟，才能核發憑證。 因此， [!DNL Adobe] 完成此步驟後，才能完成您對CNAME實作的要求。
+   >[!DNL Adobe]完成此步驟後，憑證授權單位DigiCert才能核發憑證。 因此， [!DNL Adobe] 完成此步驟後，才能完成您對CNAME實作的要求。
 
-1. [填這張表](/help/assets/FPC_Request_Form.xlsx) 並在您 [開啟Adobe客戶服務票證，要求CNAME支援](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [填這張表](/help/assets/FPC_Request_Form.xlsx) 並在您 [開啟 [!DNL Adobe] 要求CNAME支援的客戶服務票證](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] 用戶端代碼：
+   * [!DNL Adobe Target] 客戶代碼:
    * SSL憑證主機名稱(範例： `target.example.com target.example.org`):
-   * SSL憑證購買者(強烈建議使用Adobe，請參閱常見問題集):Adobe/客戶
+   * SSL憑證購買者([!DNL Adobe] 強烈建議，請參閱常見問題集):Adobe/客戶
    * 如果客戶購買憑證(也稱為「自攜憑證」(BYOC))，請填寫以下額外詳細資訊：
       * 憑證組織(範例：範例Company Inc):
       * 憑證組織單位(選用，範例：行銷):
@@ -44,7 +44,7 @@ ht-degree: 1%
       * 憑證狀態/地區(範例：加州):
       * 憑證城市(範例：聖荷西):
 
-1. 若 [!DNL Adobe] 在購買證書， [!DNL Adobe] 與DigiCert合作，購買憑證並部署至Adobe的生產伺服器。
+1. 若 [!DNL Adobe] 在購買證書， [!DNL Adobe] 與DigiCert合作，在 [!DNL Adobe]的生產伺服器。
 
    如果客戶購買憑證(BYOC), [!DNL Adobe] 客戶服務傳送憑證簽署要求(CSR)給您。 透過您選擇的憑證授權單位購買憑證時，請使用CSR。 核發憑證後，請將憑證副本和任何中繼憑證傳送至 [!DNL Adobe] 部署的客戶服務。
 
@@ -66,13 +66,13 @@ ht-degree: 1%
 
 ### 我的新SSL憑證要到期多久？
 
-所有Adobe購買的憑證都有效期為一年。 請參閱 [DigiCert關於1年證書的文章](https://www.digicert.com/blog/position-on-1-year-certificates) 以取得更多資訊。
+全部 [!DNL Adobe]-purchased證書的有效期為一年。 請參閱 [DigiCert關於1年證書的文章](https://www.digicert.com/blog/position-on-1-year-certificates) 以取得更多資訊。
 
 ### 我應選擇哪些主機名稱？ 我應選擇每個網域的主機名稱數？
 
-[!DNL Target] CNAME實作在SSL憑證和客戶的DNS中，每個網域僅需一個主機名稱。 Adobe建議每個網域一個主機名。 有些客戶為了自己的目的（例如在測試環境中進行測試），需要每個網域更多主機名稱，這是受支援的。
+[!DNL Target] CNAME實作在SSL憑證和客戶的DNS中，每個網域僅需一個主機名稱。 [!DNL Adobe] 建議每個域一個主機名。 有些客戶為了自己的目的（例如在測試環境中進行測試），需要每個網域更多主機名稱，這是受支援的。
 
-大部分客戶都選擇主機名稱，例如 `target.example.com`. Adobe建議您遵循此作法，但最終由您選擇。 請不要求現有DNS記錄的主機名。 這樣會造成衝突，並延遲解決 [!DNL Target] CNAME要求。
+大部分客戶都選擇主機名稱，例如 `target.example.com`. [!DNL Adobe] 建議您遵循此作法，但最終由您選擇。 請不要求現有DNS記錄的主機名。 這樣會造成衝突，並延遲解決 [!DNL Target] CNAME要求。
 
 ### 我已有 [!DNL Adobe Analytics]，可以使用相同的憑證或主機名稱嗎？
 
@@ -80,8 +80,7 @@ ht-degree: 1%
 
 ### 我目前的實作 [!DNL Target] 受ITP 2.x影響？
 
-Apple智慧型追蹤預防(ITP)2.3版推出其CNAME隱匿緩解功能，可偵測Adobe Target CNAME實作，並將Cookie的過期時間縮短至七天。 目前 [!DNL Target] 無法解決ITP的CNAME隱匿問題。 如需ITP的詳細資訊，請參閱 [Apple智慧型追蹤預防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
-
+Apple智慧型追蹤預防(ITP)2.3版推出其CNAME隱匿緩解功能，可偵測 [!DNL Adobe Target] CNAME實作並將Cookie的有效期縮短為7天。 目前 [!DNL Target] 無法解決ITP的CNAME隱匿問題。 如需ITP的詳細資訊，請參閱 [Apple智慧型追蹤預防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### 部署CNAME實作時，我會預期會發生哪種服務中斷？
 

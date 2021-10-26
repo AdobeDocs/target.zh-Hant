@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2865'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 月 26 日 | [CNAME 和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新整個主題。 |
 | 10 月 25 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增 [!DNL Target Standard/Premium] 21.10.5版（2021年10月28日）。 |
 | 10 月 22 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 已新增下列小節:<ul><li>確保 [!DNL Target] 活動可正確處理含有查詢字串參數的URL</li></ul> |
 | 10 月 21 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答茶歇（2021年11月10日）</li><li>[!DNL Adobe Target] 社群問答茶歇（2021年12月8日）</li></ul> |
