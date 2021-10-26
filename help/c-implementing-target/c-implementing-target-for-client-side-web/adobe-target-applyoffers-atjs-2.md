@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;函數;函數
-description: 使用adobe.target.applyOffers()函式，將Adobe [!DNL Target] at.js JavaScript資料庫用於在回應中套用多個選件。 (at.js 2.x)
+description: 使用adobe.target.applyOffers()函式來Adobe [!DNL Target] at.js JavaScript資料庫，以在回應中套用多個選件。 (at.js 2.x)
 title: 如何使用adobe.target.applyOffers()函式？
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: f057df3b20325c04e29f55a90e03934a9343a254
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 93%
+source-wordcount: '836'
+ht-degree: 88%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 93%
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| selector | 字串 | 無 | HTML 元素或 CSS 選取器過去會識別 [!DNL Target] 應該放置選件內容的 HTML 元素。如果未提供選取器，[!DNL Target]會假設要使用的HTML元素為HTMLHEAD。 |
+| selector | 字串 | 無 | HTML 元素或 CSS 選取器過去會識別 [!DNL Target] 應該放置選件內容的 HTML 元素。如果未提供選取器， [!DNL Target] 假設要使用的HTML元素為HTMLHEAD。 |
 | 回應 | 物件 | 是 | 回應來自 `getOffers()` 的物件。<br>請參閱下方的「要求」表格。 |
 
 ## 回應
 
 >[!NOTE]
 >
->如需下列所有欄位可接受類型的相關資訊，請參閱[傳送API檔案](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>請參閱 [傳送API檔案](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 以取得下列所有欄位可接受類型的相關資訊。
 
 | 欄位名稱 | 說明 |
 | --- | --- |
@@ -108,7 +108,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## 與 `getOffers()` 和 `applyOffers()` 鏈結的 Promise 呼叫範例，因為這些函數是以 Promise 為基底
+## 與鏈結的Promise呼叫範例 `getOffers()` 和 `applyOffers()`，因為這些函式是以Promise為基礎
 
 ```javascript
 adobe.target.getOffers({...})
@@ -116,3 +116,22 @@ adobe.target.getOffers({...})
 .then(() => console.log("Success"))
 .catch(error => console.log("Error", error));
 ```
+
+如需如何使用getOffers()的更多範例，請參閱getOffers [檔案](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html)
+
+### 頁面載入請求範例
+
+
+```javascript
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {}
+        }
+    }
+}).
+then(response => adobe.target.applyOffers({ response: response }))
+.then(() => console.log("Success"))
+.catch(error => console.log("Error", error));
+```
+
