@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 96%
+source-wordcount: '2875'
+ht-degree: 98%
 
 ---
 
@@ -19,17 +19,18 @@ ht-degree: 96%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 月 27 日 | [計畫和實作 [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | 新增有關購物車型建議的其他資訊。 |
 | 10 月 26 日 | [CNAME 和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新整個主題。 |
-| 10 月 25 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增 [!DNL Target Standard/Premium] 21.10.5版（2021年10月28日）。 |
+| 10 月 25 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 21.10.5 (2021 年 10 月 28 日) 版的資訊。 |
 | 10 月 22 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 已新增下列小節:<ul><li>確保 [!DNL Target] 活動可正確處理含有查詢字串參數的URL</li></ul> |
 | 10 月 21 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答茶歇（2021年11月10日）</li><li>[!DNL Adobe Target] 社群問答茶歇（2021年12月8日）</li></ul> |
-| 10 月 20 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 [!DNL Target Standard/Premium] 21.10.4版（2021年10月21日）。 |
+| 10 月 20 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 21.10.4 (2021 年 10 月 21 日) 版的資訊。 |
 |  | [計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) | 更新整個主題。 |
-| 10 月 19 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 [!DNL Target Standard/Premium] 21.10.3版（2021年10月19日）。 |
-| 10 月 14 日 | [活動設定 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 新增下列常見問題集：「我可以使用二項式 [!DNL Analytics] 量度，並將區段套用為 [!UICONTROL 自動分配] 活動？」 |
-| 10 月 13 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.10.2 | 新增 [!DNL Target Standard/Premium] 21.10.2版（2021年10月13日）。 |
-| 10 月 11 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 新增Target Standard/Premium 21.10.2版的相關資訊（2021年10月13日）。 |
-| 10 月 6 日 | [在中建立受眾 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新文字和影像以反映更新的 [!DNL Target] [!UICONTROL 對象] UI。 在整個 [!UICONTROL 對象] 主題。 |
+| 10 月 19 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 21.10.3 (2021 年 10 月 19 日) 版的資訊。 |
+| 10 月 14 日 | [活動設定 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 新增下列常見問答：「我可以在[!UICONTROL 自動分配]活動中，將二項式[!DNL Analytics]指標搭配作為最佳化目標的區段一起使用嗎？ |
+| 10 月 13 日 | [發行說明](/help/r-release-notes/release-notes.md)：21.10.2 | 新增關於 [!DNL Target Standard/Premium] 21.10.2 (2021 年 10 月 13 日) 版的資訊。 |
+| 10 月 11 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 新增有關 Target Standard/Premium 20.10.2 版 (2020 年 10 月 13 日) 的資訊。 |
+| 10 月 6 日 | [在  [!DNL Target]](/help/c-target/c-audiences/create-audience.md) 中建立對象 | 更新文字和影像以反映 [!DNL Target] [!UICONTROL Audiences] UI。整個 [!UICONTROL Audiences] 標題中也發生了類似的變化。 |
 |  | [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 已更新下列章節：<ul><li>基本資訊</li><li>資料來源</li></ul> |
 |  | [上傳自訂標準](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新說明以反映新的工作流程。 |
 |  | [發行說明](/help/r-release-notes/release-notes.md)：21.10.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
