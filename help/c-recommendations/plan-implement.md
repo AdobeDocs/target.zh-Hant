@@ -4,7 +4,7 @@ description: '了解如何在Adobe Target中實作Recommendations活動。 '
 title: 如何實作Recommendations活動？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 802ed4cc03973ee61ff3e40930b137422868835b
+source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 30%
@@ -108,7 +108,7 @@ function targetPageParams() {
 
    如果有感覺產品會根據訪客偏好或品味彼此強烈「搭配」，則跨多個工作階段查看行為或許有意義。 例如，某位訪客喜歡《星際大戰》，也可能喜歡《印地安納·瓊斯》，即使該訪客不一定想在同一時間看兩部電影。 或者，訪客喜歡棋盤遊戲「代號」，也可能喜歡棋盤遊戲「Avalon」，即使訪客無法同時玩兩個遊戲亦然。 
 
-無論您是查看單一工作階段內或多個工作階段間的訪客行為， [!DNL Target] 根據訪客目前購物車中的項目，為每位訪客提供建議。
+[!DNL Target] 無論您是在單一工作階段內或跨多個工作階段查看訪客行為，每位訪客都會根據其目前購物車中的項目提出建議。
 
 ### 排除訪客購物車中已有的項目
 
