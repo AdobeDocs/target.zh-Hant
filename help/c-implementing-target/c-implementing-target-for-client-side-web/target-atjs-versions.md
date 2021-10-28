@@ -1,13 +1,13 @@
 ---
 keywords: at.js版本；at.js版本；發行說明
-description: 檢視每個Adobe [!DNL Target] at.js JavaScript程式庫版本中變更的詳細資訊。
+description: 檢視每個版本Adobe中變更的詳細資訊 [!DNL Target] at.js JavaScript資料庫。
 title: 每個at.js版本包含什麼？
-feature: 'at.js '
+feature: at.js
 role: Developer
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 89%
+source-wordcount: '4278'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,17 @@ ht-degree: 89%
 >
 >Target團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。
 >
->[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)中的標籤是升級at.js的推薦方法。 擴充功能開發人員會持續新增功能至其擴充功能，並經常修正錯誤。 這些更新會封裝成新版本的擴充功能，並在[!DNL Adobe Experience Platform]目錄中提供作為升級。 如需詳細資訊，請參閱&#x200B;*標籤概述*&#x200B;指南中的[擴充功能升級](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 。
+>中的標籤 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升級at.js的推薦方法。 擴充功能開發人員會持續新增功能至其擴充功能，並經常修正錯誤。 這些更新會封裝成新版本的擴充功能，並可在 [!DNL Adobe Experience Platform] 目錄作為升級。 如需詳細資訊，請參閱 [擴充功能升級](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 在 *標籤概述* 指南。
 
-## at.js 2.6.1（2021年8月16日）
+## at.js版本2.7.0（2021年10月28日）
 
-* 使用裝置上決策時，「沒有可用於混合模式的快取工件」的錯誤修正。
+此版本包含下列增強功能：
+
+* 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 必須在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件，才需要此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版。
+
+## at.js 2.6.1 (2021 年 8 月 16 日)
+
+* 當使用裝置上決策功能時，發生「沒有適用於混合模式的緩存成品」的錯誤修正。
 
 ## at.js 2.6.0 (2021 年 7 月 16 日)
 
@@ -50,7 +56,7 @@ ht-degree: 89%
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
 * 已修正 `targetPageParams` 包含在 mbox 要求中的問題。 `targetPageParams` 應該只能包含在 `pageLoad` 要求中。 (TNT-40247)
-* [!DNL Adobe Experience Platform]擴充功能中參考的最佳化視窗和檔案全域。 (TNT-37124)
+* 優化的窗口和文檔全局引用 [!DNL Adobe Experience Platform] 擴充功能。 (TNT-37124)
 
 ## at.js 2.4.0 (2021 年 1 月 14 日)
 
@@ -63,7 +69,7 @@ ht-degree: 89%
 
 此 at.js 版本為維護版本，包含下列修正：
 
-* 修正與mbox點擊追蹤和A4T相關的問題。 在按一下0n後，Target會使用正確的mbox和mbox參數引發傳送API呼叫。 不過，SDID不符合[!DNL Analytics]呼叫中的呼叫，因此沒有點擊拼接和轉換。 (TNT-38372)
+* 修正與mbox點擊追蹤和A4T相關的問題。 在按一下0n後，Target會使用正確的mbox和mbox參數引發傳送API呼叫。 然而，SDID與 [!DNL Analytics] 呼叫，因此沒有點擊拼接和轉換。 (TNT-38372)
 
 ## at.js 2.3.2 (2020 年 7 月 24 日)
 
@@ -89,15 +95,15 @@ ht-degree: 89%
 
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
-* 支援在套用傳送的Target選件時，在附加至頁面DOM的SCRIPT和STYLE標籤上設定內容安全性原則。 客戶可以設定`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，讓at.js可以在套用的選件上設定對應的指令碼和樣式標籤nonce。 如需詳細資訊，請參閱[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 。
+* 支援在套用傳送的Target選件時，在附加至頁面DOM的SCRIPT和STYLE標籤上設定內容安全性原則。 客戶可設定 `targetGlobalSettings.cspScriptNonce` 和 `targetGlobalSettings.cspStyleNonce` 以便at.js可以在套用的選件上設定對應的指令碼和樣式標籤nonce。 請參閱  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 以取得更多詳細資訊。
 * 修正使用Google Closure編譯器編譯at.js以進行Google Tag Manager部署時的問題。
-* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶的實作衝突。
+* 將at.js檢查Cookie重新命名為 `check` to `at_check` 以避免與客戶的實作衝突。
 
 ## at.js 版本 1.8.1 (2020 年 3 月 25 日)
 
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
-* 將at.js檢查Cookie從`check`重新命名為`at_check`，以避免與客戶的實作衝突。
+* 將at.js檢查Cookie重新命名為 `check` to `at_check` 以避免與客戶的實作衝突。
 
 ## at.js版本2.2.0（2019年10月10日）
 
@@ -112,7 +118,7 @@ ht-degree: 89%
    >
    >將您的ECID擴充功能升級至v4.4，以運用此效能增強功能。
 
-* at.js版本2.2也提供名為`serverState`的新設定。 實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。如需詳細資訊，請參閱 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中的 「serverState」。
+* at.js 2.2版也提供名為 `serverState`. 實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。如需詳細資訊，請參閱 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中的 「serverState」。
 
 ## at.js版本1.8.0（2019年10月10日）
 
@@ -430,7 +436,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
 * 為訪客 ID 服務提供 at.js 逾時，其與服務本身的逾時無關。
 * 更正 0.9.0 中影響了在一些頁面上使用 at.js 和在其他頁面上使用 mbox.js 實施的問題。
-* 如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。at.js程式庫會自動傳送追蹤伺服器值至[!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
+* 如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。at.js資料庫會自動將追蹤伺服器值傳送至 [!DNL Target]. 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
 ## at.js 版本 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
