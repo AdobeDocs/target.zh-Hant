@@ -4,10 +4,10 @@ description: '了解如何在Adobe Target中實作Recommendations活動。 '
 title: 如何實作Recommendations活動？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 30%
+source-wordcount: '1295'
+ht-degree: 36%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-購物車型建議邏輯類似於「[!UICONTROL 建議您]&quot;基於用戶的算法和到&quot;[!UICONTROL 瀏覽過這些、也購買了的人]&quot;和&quot;[!UICONTROL 購買、購買的人]」項目型演算法。
-
-[!DNL Target] 使用協作篩選技術來判斷訪客購物車中每個項目的相似度，然後結合每個項目的這些行為相似度，以取得合併的清單。
-
-[!DNL Target] 此外，行銷人員可以選擇在單一工作階段或跨多個工作階段查看訪客行為：
-
-* **在單一工作階段內**:根據其他訪客在單一工作階段中所執行的操作。
-
-   如果有感覺產品會根據使用狀況、時機或事件彼此強烈「搭配使用」，在單一工作階段中查看行為或許有意義。 例如，訪客正在購買打印機，因此可能還需要墨水和紙張。 或者，遊客正在購買花生醬，可能還需要麵包和果凍。
-
-* **跨多個工作階段**:根據其他訪客在多個工作階段間所執行的動作。
-
-   如果有感覺產品會根據訪客偏好或品味彼此強烈「搭配」，則跨多個工作階段查看行為或許有意義。 例如，某位訪客喜歡《星際大戰》，也可能喜歡《印地安納·瓊斯》，即使該訪客不一定想在同一時間看兩部電影。 或者，訪客喜歡棋盤遊戲「代號」，也可能喜歡棋盤遊戲「Avalon」，即使訪客無法同時玩兩個遊戲亦然。 
-
-[!DNL Target] 無論您是在單一工作階段內或跨多個工作階段查看訪客行為，每位訪客都會根據其目前購物車中的項目提出建議。
+如需 [!UICONTROL 購物車型] 建議，請參閱 [購物車型](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *讓建議以建議索引鍵為依據*.
 
 ### 排除訪客購物車中已有的項目
 

@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '32575'
+source-wordcount: '32584'
 ht-degree: 99%
 
 ---
@@ -37,13 +37,13 @@ ht-degree: 99%
 | --- | --- |
 | Visual Experience Composer (VEC) | 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 您可以在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件。<br>如需詳細資訊，請參閱 [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-### [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
+## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
 
 此維護髮行包含下列增強功能：
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 購物車型Recommendations | 新增一系列演算法，以根據訪客購物車的內容提供建議。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和「購物車新增/購物車檢視/結帳頁面」和「排除已在訪客購物車中的項目」，於 [計畫和實作Recommendations](/help/c-recommendations/plan-implement.md). |
+| 購物車型Recommendations | 新增一系列演算法，以根據訪客購物車的內容提供建議。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)，在 [計畫和實作Recommendations](/help/c-recommendations/plan-implement.md)，以及 [讓建議以建議索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 

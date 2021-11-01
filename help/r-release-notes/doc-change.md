@@ -4,9 +4,9 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2912'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 98%
 | 10 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增下列版本的相關資訊：<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5。</li></ul> |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.7.0 版的資訊。 |
 |  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 已新增下列章節：&quot;自訂元素支援。&quot; |
-| 10 月 27 日 | [計畫和實作 [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | 新增有關購物車型建議的其他資訊。 |
+| 10 月 27 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 新增有關購物車型建議的資訊。 |
 | 10 月 26 日 | [CNAME 和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新整個主題。 |
 | 10 月 25 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 21.10.5 (2021 年 10 月 28 日) 版的資訊。 |
 | 10 月 22 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 已新增下列小節:<ul><li>確保 [!DNL Target] 活動可正確處理含有查詢字串參數的URL</li></ul> |

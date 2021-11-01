@@ -4,10 +4,10 @@ description: 了解如何建立控制Adobe Recommendations活動內容的條件�
 title: 如何在Recommendations中建立條件？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 54%
+source-wordcount: '2810'
+ht-degree: 53%
 
 ---
 
@@ -75,11 +75,12 @@ ht-degree: 54%
 
    | 演算法類型 | 使用時機 | 可用演算法 |
    | --- | --- | --- |
+   | [!UICONTROL 購物車型] | 根據使用者的購物車內容提供建議。 | <ul><li>瀏覽過這些項目、也瀏覽過這些項目的使用者</li><li>瀏覽過這些、也購買了的人</li><li>購買、購買的人</li></ul>如需詳細資訊，請參閱 [購物車型](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *讓建議以建議索引鍵為依據*. |
    | [!UICONTROL 人氣] | 根據網站上某個項目的整體人氣，或根據使用者最喜愛或最常檢視的類別、品牌、類型等項目的人氣，提出建議。 | <ul><li>網站上檢視次數最多</li><li>按類別檢視次數最多</li><li>依項目屬性檢視次數最多</li><li>網站最暢銷商品</li><li>最暢銷商品類別</li><li>依項目屬性的最暢銷商品</li><li>依Analytics量度排名前</li></ul> |
    | [!UICONTROL 項目型] | 根據找到與使用者目前檢視或最近檢視的項目類似的項目來提供建議。 | <ul><li>檢視過此項目、也檢視了其他項目的使用者</li><li>瀏覽過此項目、但購買了其他項目的使用者</li><li>購買了此項目、也購買了其他項目的使用者</li><li>具有類似屬性的項目</li></ul> |
    | [!UICONTROL 使用者型] | 根據使用者的行為提出建議。 | <ul><li>最近查看的項目</li><li>建議您</li></ul> |
-   | 購物車型 | 根據使用者的購物車內容提供建議。 | <ul><li>瀏覽過這些項目、也瀏覽過這些項目的使用者</li><li>瀏覽過這些、也購買了的人</li><li>購買、購買的人</li></ul> |
-   | [!UICONTROL 自訂條件] | 根據您上傳的自訂檔案提出建議。 | <ul><li>自訂演算法</li></ul> |
+
+   |[!UICONTROL 自訂條件]|根據您上傳的自訂檔案提出建議。|<ul><li>自訂演算法</li></ul>|
 
 
    >[!NOTE]
@@ -144,7 +145,7 @@ ht-degree: 54%
 
 1. （可選）滑動 **[!UICONTROL 顯示備份內容]** 切換至「開啟」位置。
 
-   在設計中的所有剩餘空白位置中，隨機選取您網站上檢視次數最多的產品。
+   在設計中的任何剩餘空白位置中，隨機選取您網站上檢視次數最多的產品。
 
    使用備用建議可確保您的建議設計能填滿所有可用的位置。 假設您有4 x 1設計，如下圖所示：
 
