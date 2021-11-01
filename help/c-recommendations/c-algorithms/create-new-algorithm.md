@@ -4,7 +4,7 @@ description: 了解如何建立控制Adobe Recommendations活動內容的條件�
 title: 如何在Recommendations中建立條件？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2810'
 ht-degree: 53%
@@ -81,7 +81,6 @@ ht-degree: 53%
    | [!UICONTROL 使用者型] | 根據使用者的行為提出建議。 | <ul><li>最近查看的項目</li><li>建議您</li></ul> |
 
    |[!UICONTROL 自訂條件]|根據您上傳的自訂檔案提出建議。|<ul><li>自訂演算法</li></ul>|
-
 
    >[!NOTE]
    >
