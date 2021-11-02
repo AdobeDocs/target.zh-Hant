@@ -4,10 +4,10 @@ description: 了解如何建立控制Adobe Recommendations活動內容的條件�
 title: 如何在Recommendations中建立條件？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 54%
+source-wordcount: '2832'
+ht-degree: 53%
 
 ---
 
@@ -87,7 +87,9 @@ ht-degree: 54%
 
 1. 視需要選取 **項目屬性** 和 **要比對的設定檔屬性**, **建議金鑰**, **篩選索引鍵**，和/或 **Analytics量度** 來設定演算法。
 
-如需選擇建議金鑰的詳細資訊，請參閱 [讓建議以建議索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+剩餘的演算法設定選項會依所選演算法而有所不同。 若要完成演算法的設定，請選取 [!UICONTROL 建議金鑰], [!UICONTROL 篩選索引鍵], [!UICONTROL 共同發生基準], [!UICONTROL Analytics量度]，和/或 [!UICONTROL 項目屬性] 和 [!UICONTROL 要比對的設定檔屬性].
+
+如需有關選擇 [!UICONTROL 建議金鑰]，請參閱 [讓建議以建議索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL 資料來源] {#data-source}
 
