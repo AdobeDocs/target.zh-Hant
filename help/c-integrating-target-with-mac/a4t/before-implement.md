@@ -4,9 +4,9 @@ description: 了解Analytics的實作需求，適用於 [!DNL Target] (A4T)以�
 title: 實作A4T之前應該知道什麼？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 9a1603cbbe773638693f5836b6cf7c62dc0b56b8
+source-git-commit: 00f7a31a1772d72d929f39a481d896ffbdf5bd2d
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '958'
 ht-degree: 28%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 28%
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
+如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
 ### 搭配 A4T 使用重新導向選件之情況下的需求
 
 若要搭配 A4T 來使用重新導向選件，您必須實作下列程式庫版本 (或更新版本).列出的順序是作業順序。
@@ -56,6 +58,8 @@ ht-degree: 28%
 * Adobe Analytics: appMeasurement.js 版本 2.1
 
 下載和部署指示列於 [Analytics for Target實作](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+
+如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
 ## 實施前須知 {#section_50D49CC52E11414089C89FB67F9B88F5}
 
