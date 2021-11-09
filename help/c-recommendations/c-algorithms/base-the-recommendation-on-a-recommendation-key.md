@@ -5,9 +5,9 @@ title: 如何讓建議以建議金鑰為依據？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
+source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
 workflow-type: tm+mt
-source-wordcount: '3834'
+source-wordcount: '3820'
 ht-degree: 41%
 
 ---
@@ -16,19 +16,11 @@ ht-degree: 41%
 
 基於演算法的Recommendations使用訪客行為上下文來顯示相關結果 [!DNL Adobe Target] [!DNL Recommendations] 活動。
 
-中有5種演算法類型 [!DNL Target Recommendations]:
-
-* [!UICONTROL 購物車型]
-* [!UICONTROL 人氣]
-* [!UICONTROL 項目型]
-* [!UICONTROL 使用者型]
-* [!UICONTROL 自訂條件]
-
 每種演算法類型都提供與其類型相適應的不同演算法，如下表所示：
 
 | 演算法類型 | 使用時機 | 可用演算法 |
 | --- | --- | --- |
-| [!UICONTROL 購物車型] | （即將推出）根據使用者的購物車內容提供建議。 | <ul><li>瀏覽過這些項目、也瀏覽過這些項目的使用者</li><li>瀏覽過這些、也購買了的人</li><li>購買、購買的人</li></ul> |
+| [!UICONTROL 購物車型] | 根據使用者的購物車內容提供建議。 | <ul><li>瀏覽過這些項目、也瀏覽過這些項目的使用者</li><li>瀏覽過這些、也購買了的人</li><li>購買、購買的人</li></ul> |
 | [!UICONTROL 人氣] | 根據網站上某個項目的整體人氣，或根據使用者最喜愛或最常檢視的類別、品牌、類型等項目的人氣，提出建議。 | <ul><li>網站上檢視次數最多</li><li>按類別檢視次數最多</li><li>依項目屬性檢視次數最多</li><li>網站最暢銷商品</li><li>最暢銷商品類別</li><li>依項目屬性的最暢銷商品</li><li>依Analytics量度排名前</li></ul> |
 | [!UICONTROL 項目型] | 根據找到與使用者目前檢視或最近檢視的項目類似的項目來提供建議。 | <ul><li>檢視過此項目、也檢視了其他項目的使用者</li><li>瀏覽過此項目、但購買了其他項目的使用者</li><li>購買了此項目、也購買了其他項目的使用者</li><li>具有類似屬性的項目</li></ul> |
 | [!UICONTROL 使用者型] | 根據使用者的行為提出建議。 | <ul><li>最近查看的項目</li><li>建議您</li></ul> |
