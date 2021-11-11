@@ -5,10 +5,10 @@ title: 如何讓建議以建議金鑰為依據？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -139,7 +139,11 @@ ht-degree: 41%
 
 ### 依項目屬性檢視次數最多
 
-（即將推出資訊）
+建議與網站上檢視次數最多的項目或媒體類似的項目或媒體。
+
+此演算法可讓您選取建議所依據的項目屬性，例如「名稱」或「品牌」。
+
+接著，您可以選取要比對的訪客設定檔中儲存的設定檔屬性，例如「最喜愛的品牌」、「最後新增至購物車的項目」或「最常檢視的顯示」。
 
 ### 網站最暢銷商品 {#top-sellers}
 
