@@ -4,9 +4,9 @@ description: 針對使用Analytics時的提升度和可信度問題尋找解答 
 title: 哪裡可以找到關於A4T提升度和可信度的資訊？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 29%
 
 ## A4T 如何處理可信度計算? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T會以與使用二進位量度的一般t測試不同的方式來計算信賴/p值。 具體而言，A4T所使用的計算方式可讓每個使用者擁有持續的量度結果（而非每位使用者僅1或0），因此每個體驗的變異數（或相關的標準差）必須準確計算。 不考慮極端訂單。 此外，可信度計算不會對多個選件套用Bonferroni校正。
+[!DNL Adobe Analytics] 將所有量度視為非二進位，因此，會以與在一般t檢定中使用二進位量度不同的方式計算信賴/p值。 具體而言，A4T所使用的計算可讓每位使用者擁有持續的量度結果（而非每位使用者只有1或0），因此必須適當計算每個體驗的變異數（或相關的標準差）。 不考慮極端訂單。 此外，可信度計算不會對多個選件套用Bonferroni校正。
 
 ## 提升度和可信度可用在隨選和報表產生器中嗎? 如果不是原生功能，我可以在產生器中自行操作嗎? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 

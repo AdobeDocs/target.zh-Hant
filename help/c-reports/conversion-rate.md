@@ -4,10 +4,10 @@ description: 了解Adobe [!DNL Target] 顯示並計算每個體驗的轉換率�
 title: 如何檢視轉換率、提升度和信賴等級？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 58%
+source-wordcount: '2138'
+ht-degree: 59%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 58%
 
 如果您插入下訂單(`orderConfirmPage`)mbox，並選取它作為轉換mbox。
 
-## 信賴區間與信賴區間 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## 信賴等級與信賴區間 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 對於每個體驗，會顯示信賴和信賴區間。
 
@@ -58,7 +58,9 @@ ht-degree: 58%
 
 ### 可信度 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-顯示的體驗或選件的信賴度，是獲得比實際觀察到的結果更少極端的機率（以百分比表示），如果null假設為真，即該體驗或選件與控制體驗/選件之間的轉換率沒有差異。 就p值而言，顯示的信賴度為1 - p值。 更簡單地說，信賴度較高表示資料與控制項和非控制項選件/體驗具有相同轉換率的假設不一致。 可信度大於或等於 99.995% 時會四捨五入為 100.00%。
+顯示的體驗或選件的信賴度，是獲得結果低於實際觀察到的結果的機率（以百分比表示），如果null假設為真，（實質上，如果該體驗或選件與控制體驗/選件之間的轉換率沒有差異）。 就p值而言，顯示的信賴度為1 - p值。 更簡單地說，信賴度較高表示資料與控制項和非控制項選件/體驗具有相同轉換率的假設不一致。
+
+可信度大於或等於 99.995% 時會四捨五入為 100.00%。
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
