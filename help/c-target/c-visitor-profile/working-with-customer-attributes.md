@@ -4,14 +4,14 @@ description: 了解如何使用來自客戶關係管理(CRM)資料庫的企業�
 title: 什麼是客戶屬性？如何使用？
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 19b012a0fcbf5195b12990f0a634a90597850899
+source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 32%
+source-wordcount: '1572'
+ht-degree: 33%
 
 ---
 
-# [未定義](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)
+# 客戶屬性
 
 有關使用來自客戶關係管理(CRM)資料庫的企業客戶資料，以在 [!DNL Adobe Target] 在 [!DNL Adobe Enterprise Cloud People] 服務。
 
