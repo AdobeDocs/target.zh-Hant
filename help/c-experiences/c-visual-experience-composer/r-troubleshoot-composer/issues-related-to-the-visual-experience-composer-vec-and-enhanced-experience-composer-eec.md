@@ -1,21 +1,21 @@
 ---
 keywords: 鎖定目標；可視化體驗撰寫器；白名單；允許清單；允許清單；增強可視化體驗撰寫器； VEC；疑難排解可視化體驗撰寫器；疑難排解； EEC；增強體驗撰寫器； TLS; TLS 1.2
-description: 了解如何針對特定條件下，Adobe [!DNL Target] 可視化體驗撰寫器(VEC)和增強體驗撰寫器(EEC)中有時會發生的問題進行疑難排解。
+description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target] 在特定條件下的可視化體驗撰寫器(VEC)和增強體驗撰寫器(EEC)。
 title: 如何疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題？
-feature: 可視化體驗撰寫器 (VEC)
+feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: cf8bb1a438681ccb5bf9e825503f9f929fbcfdbf
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 49%
+source-wordcount: '1421'
+ht-degree: 52%
 
 ---
 
 # 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
 
-顯示在某些情況下，有時候會發生在[!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器](VEC)和[!UICONTROL 增強體驗撰寫器](EEC)中的問題和其他問題。
+顯示有時在 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)和 [!UICONTROL 增強體驗撰寫器] (EEC)。
 
-## Google Chrome SameSite Cookie實施原則對VEC和EEC有何影響？ {#samesite}
+## Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？ {#samesite}
 
 請注意使用下列Chrome版本時會影響VEC和EEC的變更：
 
@@ -23,64 +23,56 @@ ht-degree: 49%
 >
 >下列變更會影響下列三項更新：
 >
-> * *not*&#x200B;是否能在網站受密碼保護的頁面中使用VEC（安裝或未安裝VEC Helper擴充功能並啟用）。 您的網站登入Cookie會視為第三方Cookie，並會隨登入請求傳送。 唯一的例外是您的網站登入Cookie已將SameSite參數設為`none`和`Secure.`時
+> * 將 *not* 能夠使用VEC，但未安裝VEC Helper擴充功能，且已針對網站受密碼保護的頁面啟用。 您的網站登入Cookie會視為第三方Cookie，且不會在瀏覽模式的VEC編輯器內隨登入請求傳送。 唯一的例外是您的網站登入Cookie已有 `SameSite=None` 和 `Secure` 屬性集。
 
 
 **Chrome 94（2021年9月21日）**:隨著Chrome 94版本（2021年9月21日）預計即將進行的變更，下列變更將影響所有使用Chrome 94以上版本瀏覽器的使用者：
 
-* 將刪除命令行標籤`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`。
+* 命令列標幟 `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` 即會移除。
 
 **Chrome 91（2021年5月25日）**:隨著Chrome 91版本（2021年5月25日）實作的變更，下列變更將影響所有使用Chrome 91以上版本瀏覽器的使用者：
 
-* 已從`chrome://flags`中移除`#same-site-by-default-cookies`和`#cookies-without-same-site-must-be-secure`標幟。 現在預設會啟用此行為。
+* 旗子 `#same-site-by-default-cookies` 和 `#cookies-without-same-site-must-be-secure` 已從 `chrome://flags`. 現在預設會啟用此行為。
 
 **Chrome 80（2020年8月）**:自2020年8月實作的變更後，所有使用Chrome 80以上版本瀏覽器的使用者：
 
-* 編輯活動時（當活動尚未在網站上時）, *not*&#x200B;是否能下載[!DNL Target]程式庫。 這是因為下載呼叫從客戶網域向安全[!DNL Adobe]網域進行，並以未驗證的形式拒絕。
-* EEC將為所有使用者&#x200B;*not*&#x200B;函式，因為它無法為`adobemc.com domain`上的Cookie設定SameSite屬性。 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
+* 將 *not* 能夠下載 [!DNL Target] 程式庫（當這些項目尚未在網站上時）。 這是因為下載呼叫是從客戶網域向安全網域進行 [!DNL Adobe] 網域和會因未驗證而遭拒。
+* EEC將 *not* 函式，因為無法在上為cookie設定SameSite屬性 `adobemc.com domain`. 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
 
 ### 判斷已封鎖哪些Cookie
 
 若要判斷哪些Cookie因SameSite Cookie實施原則而遭到封鎖，請使用Chrome中的開發人員工具。
 
-1. 若要存取開發人員工具，在Chrome中檢視VEC時，請按一下Chrome > **[!UICONTROL 更多工具]** > **[!UICONTROL 開發人員工具]**&#x200B;右上角的&#x200B;**[!UICONTROL 刪節號圖示。]**
-1. 按一下&#x200B;**[!UICONTROL Network]**&#x200B;標籤> ，然後查找已阻止的Cookie。
+1. 若要存取開發人員工具，在Chrome中檢視VEC時，請按一下 **[!UICONTROL 省略號]** 圖示（位於Chrome右上角）> **[!UICONTROL 更多工具]** > **[!UICONTROL 開發人員工具]**.
+1. 按一下 **[!UICONTROL 網路]** 標籤>，然後尋找已封鎖的cookie。
 
    >[!NOTE]
    >
-   >使用&#x200B;**[!UICONTROL 已封鎖Cookie]**&#x200B;核取方塊，更輕鬆找出已封鎖的Cookie。
+   >使用 **[!UICONTROL 已阻止Cookie]** 核取方塊，讓尋找已封鎖的cookie變得更輕鬆。
 
    下圖顯示已封鎖的Cookie:
 
    ![顯示已封鎖Cookie的「開發人員工具>網路」標籤](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
-### Google VEC Helper擴充功能
+### [!DNL Adobe Target] VEC Helper擴充功能
 
-[!DNL Adobe] 已將更新的VEC Helper擴充功能提交至Google Chrome商店。此擴充功能會視需要覆寫Cookie屬性以設定`SameSite="none"`屬性。 您可以在此處](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到[更新的擴充功能。 如需安裝和使用VEC Helper擴充功能的詳細資訊，請參閱[可視化體驗撰寫器Helper擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+從0.7.1版開始， [!DNL Adobe Target] VEC Helper瀏覽器擴充功能新增 `SameSite=None` 和 `Secure` 屬性為當擴充功能UI中開啟「Cookie」切換時，源自於VEC內編輯之網頁的回應中的所有Cookie:
 
-您必須依名稱指定Cookie，才能使用您自己的網站Cookie。
-
->[!NOTE]
->
->只有當所有Cookie都設定在單一網域中時，此方法才適用。 VEC協助程式不允許[!DNL Target]指定多個網域的Cookie。
-
-將[!UICONTROL Cookie]滑桿切換至開啟位置，然後依名稱和Cookie網域指定Cookie。 Cookie名稱為「mbox」，Cookie網域為您提供mbox的網域的第二層和頂層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面使用手冊*&#x200B;中的[Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html??lang=zh-Hant)。
-
-![Cookie在VEC Helper擴充功能中切換](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![Adobe Target VEC Helper擴充功能UIdobe Target VEC Helper擴充功能UI](assets/cookies-vec-helper.png)
 
 ### 替代方案和因應措施
 
 使用下列其中一個選項，確保VEC和EEC可繼續如預期般運作：
 
-* 下載並使用更新的[VEC Helper擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+* 下載並使用更新的 [VEC Helper擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * 使用Mozilla Firefox瀏覽器。 Firefox尚未強制執行此策略。
-* 使用下列標幟，從命令列執行Google Chrome，直到2021年9月21日為止。 9月21日後，需要Cookie的功能將無法在VEC中運作，例如登入或Cookie同意快顯視窗。 如果您更新至Chrome 94，則必須在網站上手動產生包含`SameSite=none`和`Secure`的Cookie。
+* 使用下列標幟，從命令列執行Google Chrome，直到2021年9月21日為止。 9月21日後，需要Cookie的功能將無法在VEC中運作，例如登入或Cookie同意快顯視窗。 如果您更新至Chrome 94，則必須使用手動產生Cookie `SameSite=none` 和 `Secure` 在您的網站上。
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
    ```
 
-## [!DNL Target]是否支援多級iframe?
+## 是 [!DNL Target] 是否支援多層級iframe?
 
 [!DNL Target] 不支援多重層級 iframe。如果您的網站載入的iframe具有子項iframe,at.js只會與父項iframe互動。 [!DNL Target] 資料庫不會與子項 iframe 互動。
 
@@ -90,7 +82,7 @@ ht-degree: 49%
 
 如果URL包含#字元，就會發生此情況。 若要修正問題，請在可視化體驗撰寫器中切換至「瀏覽」模式，然後切換回「撰寫」模式。進度環應該會消失，並且頁面應該會載入。
 
-## 內容安全性原則(CSP)標頭會封鎖我網站上的[!DNL Target]資料庫。 (VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## 內容安全性原則(CSP)標頭會封鎖 [!DNL Target] 程式庫。 (VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 如果您的網站的 CSP 標頭封鎖 Target 資料庫，然後載入網站但防止編輯，請確保 Target 資料庫未遭到封鎖。
 
@@ -121,11 +113,11 @@ ht-degree: 49%
 
 ## 在頁面上變更一個元素時，變更了多個元素。(VEC 和 EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。此作法是標準HTML最佳作法。 如需詳細資訊，請參閱[頁面修改案例](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。此作法是標準的HTML最佳作法。 如需詳細資訊，請參閱 [頁面修改案例](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## 我無法編輯 iFrame-busting 網站的體驗。(VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-此問題可透過啟用增強體驗撰寫器來解決。按一下「**[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]**」，然後選取可啟用增強體驗撰寫器的核取方塊。 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。此代理可在iFrame-busting網站上進行編輯，並可在您尚未新增Adobe Target程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。
+此問題可透過啟用增強體驗撰寫器來解決。按一下 **[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]**，然後選取可啟用增強體驗撰寫器的核取方塊。 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。此代理可在iFrame-busting網站上進行編輯，並可在您尚未新增Adobe Target程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。
 
 >[!NOTE]
 >

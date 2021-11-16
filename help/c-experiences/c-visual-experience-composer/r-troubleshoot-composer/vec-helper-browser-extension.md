@@ -2,18 +2,18 @@
 keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
 description: 探索為何某些網站可能無法在可視化體驗撰寫器(VEC)中可靠開啟。 VEC Helper瀏覽器擴充功能可讓您在VEC內以可靠的方式載入網站。
 title: 如何使用可視化體驗撰寫器(VEC)Helper擴充功能？
-feature: 可視化體驗撰寫器 (VEC)
+feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: cf8bb1a438681ccb5bf9e825503f9f929fbcfdbf
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 52%
+source-wordcount: '787'
+ht-degree: 54%
 
 ---
 
 # 可視化體驗撰寫器 Helper 擴充功能
 
-Google Chrome的[!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器](VEC)Helper瀏覽器擴充功能可讓您在VEC內以可靠的方式載入網站，以快速撰寫體驗和保證體驗品質。
+此 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)Google Chrome的Helper瀏覽器擴充功能可讓您在VEC內以可靠的方式載入網站，以快速撰寫網頁體驗及保證體驗品質。
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ Google Chrome的[!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器](VEC)He
 * 網站架設在 iFrame 中。
 * 網站尚未實作 at.js 資料庫。
 * 外部無法存取客戶的 QA 和/或預備網站 (網站為內部網站)。
-* 您使用Google Chrome 80+搭配增強的SameSite Cookie實施原則。 如需詳細資訊，請參閱[最近宣佈的Google Chrome SameSite Cookie實作原則如何影響VEC和EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
+* 您使用Google Chrome 80+搭配增強的SameSite Cookie實施原則。 如需詳細資訊，請參閱 [最近宣佈的Google Chrome SameSite Cookie實作原則對VEC和EEC有何影響](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在需仰賴[!DNL Target] [增強體驗撰寫器](/help/administrating-target/visual-experience-composer-set-up.md#eec)或協力廠商擴充功能（例如Requestly）來處理的網站載入問題。
+Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在依賴的網站載入問題 [!DNL Target] [增強體驗撰寫器](/help/administrating-target/visual-experience-composer-set-up.md#eec) 或協力廠商擴充功能，例如Requestly。
 
 ## 使用 VEC Helper 擴充功能的好處
 
@@ -36,17 +36,17 @@ Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在需仰賴[!DNL Targ
 
    請注意，使用增強體驗撰寫器(EEC)時，擴充功能不會插入at.js，但仍有SameSite Cookie功能存在。 若要在網頁上插入at.js，請關閉EEC。
 
-* [即使](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) 沒有增強體驗撰寫器  (EEC)，也支援行動檢視區。
+* [行動檢視區](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) 即使沒有 [!UICONTROL 增強體驗撰寫器] (EEC)。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
 * 管理多位客戶網站與 [!DNL Target] 帳戶的合作夥伴現在擁有一套簡單的機制可支援 VEC 載入工作，而不必在第三方工作中管理多個規則。
 
 ## 取得並安裝 VEC Helper 瀏覽器擴充功能
 
-1. 導覽至Chrome線上應用程式商店](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)中的[Adobe Target VEC Helper瀏覽器擴充功能。
+1. 導覽至 [Adobe Target Chrome線上應用程式商店中的VEC Helper瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. 按一下&#x200B;**[!UICONTROL 「新增至 Chrome > 新增擴充功能」]**。
-1. 在[!DNL Target]中開啟VEC。
+1. 在中開啟VEC [!DNL Target].
 1. 若要使用擴充功能，請在 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)中時，按一下 Chrome 瀏覽器工具列上的 VEC Helper 瀏覽器擴充功能圖示 (![VEC Helper 圖示](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
-1. （條件性）如果網頁尚未包含[!DNL Target] at.js JavaScript資料庫，請滑動&#x200B;**[!UICONTROL 插入Target資料庫]**&#x200B;切換至「開啟」位置。
+1. （條件性）滑動 **[!UICONTROL 插入Target資料庫]** 如果網頁尚未包含 [!DNL Target] at.js JavaScript資料庫。
 
    下圖顯示已啟用[!UICONTROL 插入 Target 資料庫]設定的 VEC Helper:
 
@@ -56,15 +56,11 @@ Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在需仰賴[!DNL Targ
 
    ![VEC helper 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. （條件性）滑動&#x200B;**[!UICONTROL Cookie]**&#x200B;切換至「開啟」位置，以自動新增SameSite=None屬性瀏覽器修正，然後指定Cookie名稱和網域。
+1. （條件性）滑動 **[!UICONTROL Cookie]** 切換至「開啟」位置以自動新增 `SameSite=None` 屬性瀏覽器修正。
 
    ![Cookie在VEC Helper擴充功能中切換](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   下列連結提供其他資訊：
-
-   * 如需SameSite=None屬性瀏覽器修正的詳細資訊，請參閱「最近宣佈的Google Chrome SameSite Cookie實施原則如何影響VEC和EEC？」 [疑難排解 Visual Experience Composer 和 Enhanced Experience Composer 相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
-
-   * Cookie名稱為「mbox」，Cookie網域為您提供mbox的網域的第二層和頂層。 因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`. 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面使用手冊*&#x200B;中的[Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html??lang=zh-Hant)。
+   如需 `SameSite=None` 屬性瀏覽器修正，請參閱「最近宣佈的Google Chrome SameSite Cookie實作原則如何影響VEC和EEC？」 [疑難排解 Visual Experience Composer 和 Enhanced Experience Composer 相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
 
 ## 附註
 
@@ -72,7 +68,7 @@ Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在需仰賴[!DNL Targ
 
    此標幟為全域設定。 VEC 中開啟的所有網站都會啟用或停用此標記。因此，例如，若您將此標幟設為「on」，並開啟已使用at.js實作的網站，您會收到訊息，通知您at.js已載入。 Adobe預期大部分的客戶已在其頁面上實作at.js，並使用「off」的預設設定。
 
-* 擴充功能會載入最新版的at.js，此版本可從[!UICONTROL 管理>實作]中的[!DNL Target UI]取得。
+* 擴充功能會載入最新版的at.js(可從 [!DNL Target UI] in [!UICONTROL 管理>實作].
 * 在 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)下使用此擴充功能來插入 at.js 時，您必須另外開啟一個 Chrome 分頁。此 Chrome 分頁必須授權給您建立活動的相同 [!DNL Adobe Experience Cloud] 組織。
 * 以下訊息有助於您瞭解:
 
