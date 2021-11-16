@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
+source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
 workflow-type: tm+mt
-source-wordcount: '2920'
-ht-degree: 98%
+source-wordcount: '2976'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 11 月 16 日 | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新「Google Chrome SameSite Cookie實作原則如何影響VEC和EEC？」 一節，提供最新版協助程式擴充功能的相關資訊。 |
+|  | [Visual Experience Composer Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新「取得並安裝VEC Helper瀏覽器擴充功能」一節。 |
 | 11 月 12 日 | [整合 [!DNL Recommendations] 使用電子郵件](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新增入門資訊。 |
 | 10 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增下列版本的相關資訊：<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5。</li></ul> |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.7.0 版的資訊。 |
