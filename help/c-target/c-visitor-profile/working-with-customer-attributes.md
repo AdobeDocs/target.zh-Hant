@@ -4,10 +4,10 @@ description: 了解如何使用來自客戶關係管理(CRM)資料庫的企業�
 title: 什麼是客戶屬性？如何使用？
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
+source-git-commit: a600559cd4aa6bf4335af4ef1143472183a998ff
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 33%
+source-wordcount: '1575'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 33%
 * 請注意檔案上傳的相關限制，如 [關於客戶屬性的資料檔案和資料來源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 在 *Experience Cloud中心介面元件指南*. 最佳做法：
 
    * 上傳單一大型檔案(在 [指定的限制](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en))。 比起多個較小的檔案，最好使用單個大型檔案。
-   * 如果您必須將上傳分割為數個檔案，請在提交新檔案之前，確定已完全處理檔案。 在提交下一個批次之前，請確定已完全處理批次中的每個檔案。
+   * 如果您必須將上傳分割為數個檔案，請在提交新檔案之前，確定已完全處理檔案。 在提交批次中的下一個檔案之前，請確定已完全處理批次中的每個檔案。
 
 * [!DNL Adobe] 無法保證來自CRM資料庫的100%客戶屬性（訪客設定檔）資料會上線至 [!DNL Experience Cloud] 因此，可用於 [!DNL Target]. 在目前的設計中，可能不會上架一小部分資料（大型生產批次高達0.1%）。
 * 從匯入的客戶屬性資料的存留期 [!DNL Experience Cloud] to [!DNL Target] 視訪客設定檔的存留期而定，預設為14天。 如需詳細資訊，請參閱 [訪客設定檔存留期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
