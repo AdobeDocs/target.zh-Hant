@@ -1,14 +1,14 @@
 ---
 keywords: mboxDefine;mboxdefine;mbox 定義;mboxUpdate;mboxupdate;mbox 更新;at.js;函數;函數
-description: 對Adobe [!DNL Target] at.js JavaScript程式庫使用mboxDefine()和mboxUpdate()函式來定義或更新mbox。 (at.js 1.x)
+description: 使用mboxDefine()和mboxUpdate()函式來Adobe [!DNL Target] at.js JavaScript程式庫以定義或更新mbox。 (at.js 1.x)
 title: 如何使用mboxDefine()和mboxUpdate()函式？
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 86%
+source-wordcount: '200'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 86%
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-在 nodeId 與 mbox 名稱之間建立內部對應，但是不會執行要求。用來結合 `mboxUpdate()`。多半建置在 [!DNL at.js] 中，以便從 [!DNL mbox.js] 移轉至 [!DNL at.js]。
+在 nodeId 與 mbox 名稱之間建立內部對應，但是不會執行要求。用來結合 `mboxUpdate()`。內建於 [!DNL at.js] 主要是為了讓 [!DNL mbox.js] （現已過時） [!DNL at.js].
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-執行要求並套用選件至 `nodeId` () 中的 `mboxDefine()` 所識別的元素。也可用來更新 `mboxCreate` 起始的 mbox。多半建置在 [!DNL at.js]，以便於從 [!DNL mbox.js] 到 [!DNL at.js] 的轉變。可使用選取器選項將 `mboxDefine()`/ `mboxUpdate()` 取代為 [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 和 [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) 
+執行要求並套用選件至 `nodeId` () 中的 `mboxDefine()` 所識別的元素。也可用來更新 `mboxCreate` 起始的 mbox。內建於 [!DNL at.js] 主要是為了讓 [!DNL mbox.js] （現已過時） [!DNL at.js]. 可使用選取器選項將 `mboxDefine()`/ `mboxUpdate()` 取代為 [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 和 [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) 
 
 ## 範例 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

@@ -1,15 +1,14 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox 建立;at.js;函數;函數
-description: 使用Adobe [!DNL Target] at.js JavaScript程式庫的mboxCreate()函式，將選件套用至最靠近的DIV，並具有mboxDefault類別名稱。 (at.js 1.x)
+description: 使用mboxCreate()函式來Adobe [!DNL Target] at.js JavaScript資料庫，將選件套用至具有mboxDefault類別名稱的最接近DIV。 (at.js 1.x)
 title: 如何使用mboxCreate()函式？
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 85%
+source-wordcount: '205'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 85%
 >
 >此函數僅適用於 at.js 1.*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。
 
-此函數多半會內建在 [!DNL at.js]，以便於從 [!DNL mbox.js] 到 [!DNL at.js] 的轉變。`mboxCreate()` 較新的替代方案是 `adobe.target.applyOffer()`/ `adobe.target.getOffer()` 或 Angular 指令。
+此函式內建於 [!DNL at.js] 主要是為了讓 [!DNL mbox.js] （現已過時） [!DNL at.js]. `mboxCreate()` 較新的替代方案是 `adobe.target.applyOffer()`/ `adobe.target.getOffer()` 或 Angular 指令。
 
 ## 範例
 

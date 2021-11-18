@@ -1,15 +1,14 @@
 ---
 keywords: 自訂事件;at.js;要求失敗;要求成功;內容呈現失敗;內容呈現成功;資料庫已載入;要求開始;內容呈現開始;內容呈現無選件;內容呈現重新導向
-description: 使用Adobe [!DNL Target] at.js JavaScript程式庫的自訂事件，在mbox要求或選件失敗或成功時收到通知。
+description: 使用自訂事件用於Adobe [!DNL Target] at.js JavaScript程式庫，當mbox要求或選件失敗或成功時收到通知。
 title: 如何使用at.js自訂事件？
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 87%
+source-wordcount: '656'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 87%
 
 關於 `at.js custom events` 的資訊，可讓您知道 mbox 要求或選件失敗或成功的時間。
 
-在過去，mbox.js 不會讓頁面上執行的其他 JavaScript 程式碼知道背景中進行的動作。利用提升的 at.js，我們有一個獨特的機會可修正此問題。
+過去，mbox.js（現已淘汰）不會讓頁面上執行的其他JavaScript程式碼知道背景中會發生什麼。 利用提升的 at.js，我們有一個獨特的機會可修正此問題。
 
 根據我們的客戶，客戶想要收到數個案例的通知，其中包括:
 
@@ -34,11 +33,11 @@ ht-degree: 87%
 
 | 機碼 | 類型 | 說明 |
 |--- |--- |--- |
-| type | 字串 | 有數個案例通知能夠協助您追蹤、偵錯和自訂與 at.js 的互動。<br>以下所列的每個自訂事件有兩個格式:「常數」和「字串值」。<ul><li>**常數:** 在前端加上 `adobe.target.event.`，以全大寫呈現，並包含底線字元。若要在 at.js 載入&#x200B;*之後*&#x200B;但在收到 mbox 回應&#x200B;*之前*&#x200B;訂閱自訂事件，請使用常數。</li><li>**字串值:** 小寫並包含破折號。若要在 at.js 載入&#x200B;*之前*&#x200B;訂閱自訂事件，請使用字串值。</li></ul>**要求失敗**<br>&#x200B;常數：`adobe.target.event.REQUEST_FAILED`<br>字串值：`at-request-failed`<br>說明：由於逾時、錯誤狀態碼、JSON剖析錯誤等原因，mbox請求失敗。<br>**要求成功**<br>&#x200B;常數: `adobe.target.event.REQUEST_SUCCEEDED`<br>字串值: `at-request-succeeded`<br>說明: mbox 要求成功。<br>**內容呈現失敗**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_FAILED`<br>字串值: `at-content-rendering-failed`<br>說明: 由於遺漏包裝 mbox 元素、找不到選取器等原因，選件呈現失敗。<br>**內容呈現成功**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_SUCCEEDED`<br>字串值: `at-content-rendering-succeeded`<br>說明: 選件呈現成功。DOM 變更已套用。<br>**資料庫已載入**<br>&#x200B;常數: `adobe.target.event.LIBRARY_LOADED`<br>字串值: `at-library-loaded`<br>說明: 此事件非常適合追蹤 at.js 已完整載入的時間。您可以使用此事件來自訂全域 mbox 執行。您也可以使用此事件來停用全域 mbox，然後稍後接聽此事件來觸發全域 mbox。<br>**要求開始**<br>&#x200B;常數: `adobe.target.event.REQUEST_START`<br>字串值: `at-request-start`<br>說明: 此事件是在 HTTP 要求執行之前觸發。您可以對使用資源計時 API 進行的效能測量使用此事件。<br>**內容呈現開始**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_START`<br>字串值: `at-content-rendering-start`<br>說明: 此事件是在選取器輪詢開始和內容呈現至頁面之前觸發。您可以使用此事件來追蹤內容呈現進度。<br>**內容呈現無選件**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_NO_OFFERS`<br>字串值: `at-content-rendering-no-offers`<br>說明: 此事件是在沒有傳回任何選件時觸發。<br>**內容呈現重新導向**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_REDIRECT`<br>字串值: `at-content-rendering-redirect`<br>說明: 當選件為重新導向，且 Target 將重新導向至不同 URL 時，會觸發此事件。 |
+| type | 字串 | 有數個案例通知能夠協助您追蹤、偵錯和自訂與 at.js 的互動。<br>以下所列的每個自訂事件有兩個格式:「常數」和「字串值」。<ul><li>**常數:** 在前端加上 `adobe.target.event.`，以全大寫呈現，並包含底線字元。若要在 at.js 載入&#x200B;*之後*&#x200B;但在收到 mbox 回應&#x200B;*之前*&#x200B;訂閱自訂事件，請使用常數。</li><li>**字串值:** 小寫並包含破折號。若要在 at.js 載入&#x200B;*之前*&#x200B;訂閱自訂事件，請使用字串值。</li></ul>**要求失敗**<br>&#x200B;常數： `adobe.target.event.REQUEST_FAILED`<br>字串值： `at-request-failed`<br>說明：mbox要求因逾時、錯誤的狀態代碼、JSON剖析錯誤等而失敗。<br>**要求成功**<br>&#x200B;常數: `adobe.target.event.REQUEST_SUCCEEDED`<br>字串值: `at-request-succeeded`<br>說明: mbox 要求成功。<br>**內容呈現失敗**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_FAILED`<br>字串值: `at-content-rendering-failed`<br>說明: 由於遺漏包裝 mbox 元素、找不到選取器等原因，選件呈現失敗。<br>**內容呈現成功**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_SUCCEEDED`<br>字串值: `at-content-rendering-succeeded`<br>說明: 選件呈現成功。DOM 變更已套用。<br>**資料庫已載入**<br>&#x200B;常數: `adobe.target.event.LIBRARY_LOADED`<br>字串值: `at-library-loaded`<br>說明: 此事件非常適合追蹤 at.js 已完整載入的時間。您可以使用此事件來自訂全域 mbox 執行。您也可以使用此事件來停用全域 mbox，然後稍後接聽此事件來觸發全域 mbox。<br>**要求開始**<br>&#x200B;常數: `adobe.target.event.REQUEST_START`<br>字串值: `at-request-start`<br>說明: 此事件是在 HTTP 要求執行之前觸發。您可以對使用資源計時 API 進行的效能測量使用此事件。<br>**內容呈現開始**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_START`<br>字串值: `at-content-rendering-start`<br>說明: 此事件是在選取器輪詢開始和內容呈現至頁面之前觸發。您可以使用此事件來追蹤內容呈現進度。<br>**內容呈現無選件**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_NO_OFFERS`<br>字串值: `at-content-rendering-no-offers`<br>說明: 此事件是在沒有傳回任何選件時觸發。<br>**內容呈現重新導向**<br>&#x200B;常數: `adobe.target.event.CONTENT_RENDERING_REDIRECT`<br>字串值: `at-content-rendering-redirect`<br>說明: 當選件為重新導向，且 Target 將重新導向至不同 URL 時，會觸發此事件。 |
 | mbox | 字串 | mBox 名稱 |
 | 訊息 | 字串 | 包含人類可讀說明，例如發生了什麼、錯誤訊息等等。 |
 | 追蹤 | 物件 | 包含 `sessionId` 和 `deviceId`。在部分情況下，可以遺漏 `deviceId`，因為 [!DNL Target] 無法從 Edge 伺服器擷取它。 |
-| type | 字串 | **裝置上決策對象成**<br>&#x200B;功Constant:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>字串值： `artifactDownloadSucceeded`<br>說明：已在成功下載設備上的決策對象時調用。<br>**設備上決策對象失敗**<br>&#x200B;常數： `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>字串值： `artifactDownloadFailed`<br>說明：在無法下載設備上的決策對象時調用。 |
+| type | 字串 | **設備上決策對象成功**<br>&#x200B;常數：<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>字串值： `artifactDownloadSucceeded`<br>說明：成功下載裝置上的決策工件時呼叫。<br>**設備上決策對象失敗**<br>&#x200B;常數： `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>字串值： `artifactDownloadFailed`<br>說明：當裝置上決策工件無法下載時呼叫。 |
 
 ## 使用狀況 {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
@@ -48,7 +47,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## 訓練影片: 回應 Token 和 at.js 自訂事件 ![教學課程徽章](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
+## 訓練影片：回應Token和at.js自訂事件 ![教學課程徽章](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 觀看以下影片，瞭解如何使用回應 Token 和 at.js 自訂事件，共用從 Target 到協力廠商系統的設定檔資訊。
 

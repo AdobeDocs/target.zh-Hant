@@ -1,14 +1,14 @@
 ---
-keywords: 實作;mbox.js non javascript;adbox;重新導向程式;mbox
-description: 了解如何在非JavaScript案例（例如使用AdBox或重新導向程式）中實作Adobe [!DNL Target] 。
-title: 如何為電子郵件實作 [!DNL Target] ?
-feature: 實作電子郵件
+keywords: 實作；at.js non javascript;adbox；重新導向程式；mbox
+description: 了解如何實作Adobe [!DNL Target] 在非JavaScript的情況下，例如使用AdBox或重新導向程式。
+title: 如何實作 [!DNL Target] 電子郵件？
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 關於在非 JavaScript 案例 (例如，使用 AdBox 或重新導向程式) 中實作 Target 的資訊。
 
-您可以追蹤廣告及其他離站內容的造訪。您也可偵測同位使用者進出您網站的狀況，並根據其網路瀏覽習慣呈現一致的網站體驗。只要使用單一 URL，AdBox 即可進行測試而無須使用 JavaScript 或 [!DNL at.js] 或 [!DNL mbox.js]。
+您可以追蹤廣告及其他離站內容的造訪。您也可偵測同位使用者進出您網站的狀況，並根據其網路瀏覽習慣呈現一致的網站體驗。只要使用單一URL,AdBox即可進行測試而無須使用JavaScript或 [!DNL at.js].
 
-AdBox適用於沒有[!DNL at.js]的網站，例如加盟網站。 若您的活動需要動態創意素材 (例如，您需要在廣告中展示已從購物車拿掉的產品)，則無法使用 AdBox。
+AdBox適用於沒有的網站 [!DNL at.js]，例如附屬機構。 若您的活動需要動態創意素材 (例如，您需要在廣告中展示已從購物車拿掉的產品)，則無法使用 AdBox。
 
 AdBox 廣告與重新導向程式可結合任何種類的活動使用。下表比較 AdBox 和重新導向程式，以及各自的使用時機：
 

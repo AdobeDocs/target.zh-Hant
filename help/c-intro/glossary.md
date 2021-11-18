@@ -1,12 +1,12 @@
 ---
 description: Adobe [!DNL Target] 中使用的不同詞彙是什麼意思？ 尋找常用詞彙的定義，以協助您充分利用  [!DNL Target]。
 title: 我可以在哪裡找到 Target 中使用的詞彙和定義？
-feature: 總覽
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 100%
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -64,13 +64,13 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同變數，以便個人化內容並促進轉換。
 
-## B  {#section_03D02D426DB44F2CA79314F73BB2DD84}
+## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
 **行為廣告**
 
 測試和追蹤廣告的瀏覽次數，以及其他離站內容。您也可以使用行為廣告來偵測同位使用者進出您網站的狀況，並根據其網路瀏覽習慣呈現一致的網站體驗。
 
-## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaign**
 
@@ -108,7 +108,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 決定要建議的產品或內容的規則。條件可以基於人氣趨勢、訪客的目前和過去行為，或類似的產品和內容。
 
-## D  {#section_CD712B37316C45F58F82113707A98D5C}
+## D {#section_CD712B37316C45F58F82113707A98D5C}
 
 **DAM**
 
@@ -138,7 +138,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 使用動態頁面技術將值傳遞給選件。
 
-## E  {#section_55C3D8AF3D31494784C70090D8343244}
+## E {#section_55C3D8AF3D31494784C70090D8343244}
 
 **參與**
 
@@ -172,7 +172,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
 
-## F  {#section_45450032955C4DD2B607B85A23C4E21A}
+## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **摘要**
 
@@ -196,7 +196,7 @@ Target Standard 中活動的視覺表示。
 
 指出活動成功的轉換或結果。最佳作法永遠不要執行未以某些特定方式改善目標的測試。
 
-## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **主機**
 
@@ -212,7 +212,7 @@ Target Standard 中活動的視覺表示。
 
 從 mbox 傳遞給訪客 Cookie 的訪客專用參數。舊訪客是 in-mbox 描述檔參數的一種範例。
 
-## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **登陸頁面活動**
 
@@ -222,11 +222,15 @@ Target Standard 中活動的視覺表示。
 
 頁面上的特定內容區域，經常包含單一 DOM 元素。在 MVT 方法中，有時會將位置稱為&#x200B;*係數*。全階乘多變數測試會比較您的位置中所有可能的選件組合。
 
-## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
 「行銷盒」的簡寫，是在您網頁上顯示內容及記錄訪客行為的位置。某些 mbox 不會顯示任何內容。這些 mbox 可能會透過您的網站來追蹤訪客進度，或是追蹤訪客是否已完成特定成功度量，例如將項目新增至購物車，或是完成購物。*轉換 mbox* 便屬於此類 mbox。
+
+**mbox.js**
+
+A [!DNL Target] 已棄用的JavaScript實施程式庫。
 
 **mbox 參數**
 
@@ -272,7 +276,7 @@ Target Standard 中活動的視覺表示。
 
 如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-## R  {#section_86725D549B6F46A6ADEE424F33595705}
+## R {#section_86725D549B6F46A6ADEE424F33595705}
 
 **方式**
 
