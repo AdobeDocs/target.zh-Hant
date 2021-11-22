@@ -5,9 +5,9 @@ title: 什麼是回應Token？如何使用？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1620'
 ht-degree: 27%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 27%
    |  | `profile.thirdPartyId` | 傳回訪客的第三方 ID。 |
    |  | `profile.categoryAffinity` | 傳回訪客最喜愛的類別。 |
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
-   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 目前活動的詳細資料。請注意，&quot;option&quot; 等於 &quot;offer&quot;。 |
+   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 目前活動的詳細資料。<br> 請注意，系統會在體驗層級評估選件參數的值。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
    | 流量分配方法<br>(適用於 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL Automated Personalization] 活動。) | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「已鎖定目標」流量分佈收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已鎖定」。 |

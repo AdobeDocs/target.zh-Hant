@@ -1,20 +1,19 @@
 ---
 keywords: 動態資料;資產;資料;選件;個人化選件;個人化選件;token 取代
-description: 瞭解如何將動態資料傳入 [!DNL Adobe Target] 選件中。 探索顯示您可能想要使用動態選件的商業案例，並檢視範例和實作資訊。
+description: 了解如何將動態資料傳遞至 [!DNL Adobe Target] 選件。
 title: 如何將動態資料傳遞至選件？
-feature: 體驗與優惠
+feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-translation-type: tm+mt
-source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 78%
+source-wordcount: '530'
+ht-degree: 63%
 
 ---
 
 # 將動態資料傳遞至選件
 
-您可以動態顯示儲存在[!DNL Adobe Target]描述檔中的訪客資訊。 同樣地，活動資訊 (例如活動名稱或體驗名稱) 也能用來根據訪客興趣、過去行為和整體設定檔，建立動態地傳回個人化內容的單一選件。
+您可以動態顯示儲存在 [!DNL Adobe Target] 設定檔。 同樣地，活動資訊 (例如活動名稱或體驗名稱) 也能用來根據訪客興趣、過去行為和整體設定檔，建立動態地傳回個人化內容的單一選件。
 
 ## 業務案例
 
@@ -24,14 +23,14 @@ ht-degree: 78%
 
 ## 技術優勢
 
-由於使用者的特定偏好、行為、狀態等項目可儲存在使用者的設定檔中，您可以在其後續造訪中重複此訊息。動態選件可讓您在活動中設定單一選件，為所有訪客顯示個人化訊息，以支援更大的規模。當訪客的意向有所變更，您的網站內容會自動反映這些變更。
+因為訪客的特定偏好設定、行為、狀態可儲存在訪客的設定檔中，所以您可以在其下次造訪時重複此訊息。 動態選件可讓您在活動中設定單一選件，為所有訪客顯示個人化訊息，以支援更大的規模。當訪客的意向有所變更，您的網站內容會自動反映這些變更。
 
 ## 範例
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * HTML 選件代碼: `Get your ${profile.keyword} information here!`
-* 使用者看見: 在這裡取得您的世界盃資訊!
+* 訪客會看見：在這裡獲取你的世界杯資訊！
 
 下面的值可以是「取代的代號」:
 
@@ -48,19 +47,19 @@ ht-degree: 78%
 
 在主控台中記錄用於偵錯用途的資訊，例如 `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-有關 Recommendations 設計，請參閱[設計概覽](/help/c-recommendations/c-design-overview/design-overview.md)中的其他範例。
+針對 [!DNL Recommendations] 設計，請參閱 [設計概述](/help/c-recommendations/c-design-overview/design-overview.md).
 
 ## 實施
 
-若是傳遞至mbox的描述檔參數，請使用語法：
+若為傳入mbox的設定檔參數，請使用語法：
 
 `${profile.parameter}`
 
-對於在配置檔案指令碼中建立的配置檔案參數，請使用語法：
+若為以設定檔指令碼建立的設定檔參數，請使用語法：
 
 `${user.parameter}`
 
-在[!DNL Recommendations]設計中使用動態屬性時，必須在美元符號($)前插入反斜線(\)，以便動態值正確呈現：
+在 [!DNL Recommendations] 設計時，您必須在貨幣符號($)前面插入反斜線(\)，動態值才能正確呈現：
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -70,12 +69,16 @@ ht-degree: 78%
 
 `${user.testAttribute default="All Items!"}`
 
-當 `testAttribute` 不存在或為空白時，會寫出「All Items!」。如果空白屬性值有效，並且您要將它寫出而非顯示預設，則可以使用:
+當 `testAttribute` 不存在或為空白時，會已寫出。 如果空白屬性值有效，並且您要將它寫出而非顯示預設，則可以使用:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-您也可以逸出和取消逸出要顯示的值。如果值有縮寫符號，您可能想要逸出值，如此就不會在頁面上中斷 JavaScript。(選件以 JavaScript 撰寫，因此容易混淆單一縮寫符號與引號。)例如:
+您也可以逸出和取消逸出要顯示的值。例如，如果值有撇號，您可以逸出值，這樣就不會破壞頁面上的JavaScript。 (選件以 JavaScript 撰寫，因此容易混淆單一縮寫符號與引號。)例如:
 
 `${user.encodedValue encode="unescape"}`
 
 `${user.unencodedValue encode="escape"}`
+
+若是用於選件內容中的選件參數(offer.name、offer.id):
+
+如果該選件是體驗上陣列之一，則上次新增選件的值會填入參數的值。 這表示這些參數是在體驗層級上評估。
