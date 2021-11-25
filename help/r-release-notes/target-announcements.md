@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -15,29 +15,29 @@ ht-degree: 84%
 
 閱讀有關近期事件的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
 
-## [!DNL Adobe Target] 社群問答咖啡會 （2021年11月10日）
+## [!DNL Adobe Target] 社群問答咖啡會 (2021 年 11 月 10 日)
 
-* **2021年11月10日星期三**
-* **早上8點。（太平洋標準時間，UTC -8）**
+* **2021 年 11 月 10 日星期三**
+* **上午 8 點 (PST，UTC -8)**
 * **[更多資訊和註冊資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
 
-Cristinel &quot;Muti&quot; Anastasoaie，高級產品經理 [!DNL Adobe Target]，將回答您有關其專業領域的問題：
+[!DNL Adobe Target] 資深產品經理 Cristinel &quot;Muti&quot; Anastasoaie 將回答您有關其專業領域的問題：
 
 * [!DNL Target] 使用者介面
 * [!DNL Target] 整合
-* [!UICONTROL 企業權限] 和 [!UICONTROL 工作區]
+* [!UICONTROL 企業權限]和[!UICONTROL 工作區]
 
-## [!DNL Adobe Target] 社群問答茶歇（2021年12月8日）
+## [!DNL Adobe Target] 社群問答咖啡會 (2021 年 12 月 8 日)
 
-* **2021年12月8日星期三**
-* **早上8點。（太平洋標準時間，UTC -8）**
+* **2021 年 12 月 8 日星期三**
+* **上午 8 點 (PST，UTC -8)**
 * **[更多資訊和註冊資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
 
-Robert Calangiu, [!DNL Adobe Target]，將回答您有關其專業領域的問題：
+[!DNL Adobe Target] 資深產品經理 Robert Calangiu 將回答您有關其專業領域的問題：
 
-* [!DNL Target] 設定和管理UI
-* [!UICONTROL Analytics for Target] (A4T)整合
-* [!DNL Adobe Audience Manager] (AEM)整合
+* [!DNL Target] 設定和管理 UI
+* [!UICONTROL Analytics for Target] (A4T) 整合
+* [!DNL Adobe Audience Manager] (AEM) 整合
 * 一般 [!DNL Target] UI
 
 ## 網路研討會影片：「利用 Adobe Target 的裝置上決策在零延遲的情況下進行個人化和測試。
