@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
 source-wordcount: '3045'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 95%
 |  | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新「Google Chrome SameSite Cookie實作原則如何影響VEC和EEC？」 一節，提供最新版協助程式擴充功能的相關資訊。 |
 |  | [Visual Experience Composer Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新「取得並安裝VEC Helper瀏覽器擴充功能」一節。 |
 | 11 月 12 日 | [整合 [!DNL Recommendations] 使用電子郵件](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新增入門資訊。 |
-| 10 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增下列版本的相關資訊：<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5。</li></ul> |
+| 10 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增下列版本的相關資訊：<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於 at.js 2.7.0 版的資訊。 |
-|  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 已新增下列章節：&quot;自訂元素支援。&quot; |
-| 10 月 27 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 新增有關購物車型建議的資訊。 |
+|  | [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 已新增下列小節：「自訂元素支援」。 |
+| 10 月 27 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 新增有關購物車型推薦的資訊。 |
 | 10 月 26 日 | [CNAME 和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新整個主題。 |
 | 10 月 25 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 21.10.5 (2021 年 10 月 28 日) 版的資訊。 |
-| 10 月 22 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 已新增下列小節:<ul><li>確保 [!DNL Target] 活動可正確處理含有查詢字串參數的URL</li></ul> |
-| 10 月 21 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答茶歇（2021年11月10日）</li><li>[!DNL Adobe Target] 社群問答茶歇（2021年12月8日）</li></ul> |
+| 10 月 22 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 已新增下列小節：<ul><li>確保 [!DNL Target] 活動可正確處理含有查詢字串參數的 URL。</li></ul> |
+| 10 月 21 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2021 年 11 月 10 日)</li><li>[!DNL Adobe Target] 社群問答咖啡會 (2021 年 12 月 8 日)</li></ul> |
 | 10 月 20 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 21.10.4 (2021 年 10 月 21 日) 版的資訊。 |
 |  | [計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) | 更新整個主題。 |
 | 10 月 19 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 21.10.3 (2021 年 10 月 19 日) 版的資訊。 |

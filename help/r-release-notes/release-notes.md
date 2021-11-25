@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -24,37 +24,37 @@ ht-degree: 72%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## at.js版本2.7.0（2021年10月28日）
+## at.js 2.7.0 版 (2021 年 10 月 28 日)
 
 此版本包含下列增強功能：
 
-* 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 必須在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件，才需要此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版。
+* 新增 [Web 元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支援。在自訂元素及其內部元素上建立和測試個人化體驗和選件，必須有此版本的 at.js。此功能包含在 [!DNL Target Standard/Premium] 21.10.5 版。
 
-## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日）
+## [!DNL Target Standard/Premium] 21.10.5 (2021 年 10 月 28 日)
 
-此維護髮行包含下列增強功能：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| Visual Experience Composer (VEC) | 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 您可以在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件。<br>如需詳細資訊，請參閱 [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
-
-此維護髮行包含下列增強功能：
+此維護版本包含下列增強功能：
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 購物車型Recommendations | 新增一系列演算法，以根據訪客購物車的內容提供建議。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)，在 [計畫和實作Recommendations](/help/c-recommendations/plan-implement.md)，以及 [讓建議以建議索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| [!UICONTROL Visual Experience Composer] (VEC) | 新增 [Web 元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支援。在自訂元素及其內部元素上，可建立和測試個人化體驗和選件。<br>如需詳細資訊，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)。 |
 
-## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
+## [!DNL Target Standard/Premium] 21.10.4 (2021 年 10 月 21 日)
+
+此維護版本包含下列增強功能：
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 購物車型推薦 | 新增一系列演算法，以根據訪客購物車的內容提供推薦。<br>如需詳細資訊，請參閱[建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)中的「購物車型」、[計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) 中的「購物車新增/購物車檢視/結帳頁面」和「排除訪客購物車中已有的項目」，以及[使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)中的「購物車型」。 |
+
+## [!DNL Target Standard/Premium] 21.10.3 (2021 年 10 月 19 日)
 
 此維護發行包含下列增強功能、修正和變更。
 
-* 修正客戶無法開啟 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 按一下 [!UICONTROL 在Analytics中檢視] 按鈕 [!DNL Target] 活動報表。 (TGT-42099 和 TGT-42100)
-* 修正 [!UICONTROL 編輯設計] 編輯時不顯示的按鈕 [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] (XT)使用 [!UICONTROL 表單式體驗撰寫器]. (TGT-41980)
-* 修正無法 [!UICONTROL 相容] 建立新條件時在條件選取中顯示的核取方塊 [!UICONTROL Recommendations] 活動。 (TGT-42053)
-* 修正無法選取時顯示的錯誤訊息 [!DNL Analytics] 作為報表來源(A4T)，因為 [!DNL Analytics] 權限。 (TGT-41954)
-* 實作多項協助工具修正，以改善 [!DNL Target] UI。
+* 修正在按一下 [!DNL Target] 活動報告中的「[!UICONTROL 在 Analytics 中檢視]」按鈕後，無法開啟 [!DNL Analysis Workspace] [!UICONTROL A4T] 面板的問題。(TGT-42099 和 TGT-42100)
+* 修正在使用[!UICONTROL 表單式體驗撰寫器]編輯 [!UICONTROL A/B 測試]和[!UICONTROL 體驗鎖定] (XT) 活動時，造成「[!UICONTROL 編輯設計]」按鈕不顯示的問題。(TGT-41980)
+* 修正在建立新的 [!UICONTROL Recommendations] 活動時，「[!UICONTROL 相容]」核取方塊無法顯示在條件選取中的問題。(TGT-42053)
+* 修正因為缺少 [!DNL Analytics] 權限而無法選取 [!DNL Analytics] 做為報告來源 (A4T) 時所顯示的不正確錯誤訊息。(TGT-41954)
+* 實作多項協助工具修正，以改善 [!DNL Target] UI 鍵盤導覽。
 
 ## [!DNL Target Standard/Premium] 21.10.2 (2021 年 10 月 13 日)
 
@@ -94,8 +94,8 @@ ht-degree: 72%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>一個全新的「對象來源」篩選器，能讓您更快地發現對象</li><li>工作階段持續搜尋和篩選器選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**:新 [!UICONTROL 對象] UI僅供選取客戶使用。 自2022年1月起，將逐步向所有客戶推出更新。 |
-| [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:新 [!UICONTROL 設定檔指令碼] UI僅供選取客戶使用。 自2022年1月起，將逐步向所有客戶推出更新。 |
+| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>一個全新的「對象來源」篩選器，能讓您更快地發現對象</li><li>工作階段持續搜尋和篩選器選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**：新的 [!UICONTROL Audiences] UI 僅供特定客戶使用。自 2022 年 1 月起，此更新將逐步向所有客戶推出。 |
+| [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**：新的[!UICONTROL 設定檔指令碼] UI 僅供特定客戶使用。自 2022 年 1 月起，此更新將逐步向所有客戶推出。 |
 | ![Premium badge](/help/assets/premium.png)建立與編輯 Recommendations 標準 | [!UICONTROL Recommendations 標準]的建立與編輯工作流程已經過簡化，以精簡選擇正確的推薦演算法和設定以達成目標的過程。<br>如需詳細資訊，請參閱[建立準則](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![進階徽章](/help/assets/premium.png)建議回顧視窗和演算法更新率改進 | 您現在可以執行具有 6 小時回顧視窗的「最多觀看次數」和「最暢銷」演算法，擷取近期最受歡迎的內容。選擇 6 小時回顧視窗後，您的推薦結果在一天之中每 3-6 小時會更新一次。<br>如需詳細資訊，請參閱&#x200B;*建立準則*&#x200B;中的[資料來源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)。 |
 

@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 * 使用 mboxTrace 或 mboxDebug 來針對 [!DNL Target] 請求進行疑難排解。
 * 使用 Adobe Experience Cloud Debugger，與 mboxDebug 提供的資訊大多相同的易用工具，來針對 [!DNL Target] 請求進行疑難排解。
 
-mboxDebug在您設定 [!DNL Target] 確認Target要求正在觸發且已設定Cookie。 但是，這不會深入到偵錯內容傳送時很有用的詳細程度。如果您的活動未顯示在頁面上，或是顯示不想要的內容，請使用 mboxTrace 來詳細檢查和偵錯頁面。
+如果您在頁面上設定 [!DNL Target] 以確保引發 Target 要求以及設定 Cookie，mboxDebug 會很有用。但是，這不會深入到偵錯內容傳送時很有用的詳細程度。如果您的活動未顯示在頁面上，或是顯示不想要的內容，請使用 mboxTrace 來詳細檢查和偵錯頁面。
 
 ## 擷取授權權杖以與偵錯工具一起使用 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -65,7 +65,7 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤�
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-輸出會顯示您內容的詳細資訊。 mboxTrace會顯示關於您的促銷活動或活動與設定檔的詳細資訊。它還提供執行前配置檔案的快照，以及執行後更改的快照。 同時顯示每個位置評估了哪些促銷活動或活動。
+輸出會顯示與內容相關的詳細資訊。mboxTrace 會顯示與促銷活動或活動以及描述檔相關的詳細資訊，也會提供執行前的描述檔快照，以及執行後的變更項目快照。同時顯示每個位置評估了哪些促銷活動或活動。
 
 有些資訊包括相符和不相符的群體與目標 ID:
 
@@ -85,7 +85,7 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤�
 
 您不需要在查詢參數中加入`=console`、`=json` 或 `=window`。使用完 mboxTrace 詳細資料後，請新增 `=disable`，然後按下 **[!UICONTROL Enter]** 鍵，即可返回正常顯示模式。
 
-mboxTrace 不會影響您網站的正常功能和外觀。訪客可查看您的一般Recommendations設計。
+mboxTrace 不會影響您網站的正常功能和外觀。訪客會看到您的一般 Recommendations 設計。
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 如需詳細資訊，請觀看下方的訓練影片：
 
-如需詳細資訊，請參閱 [使用Adobe Experience Cloud Debugger除錯at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+如需詳細資訊，請參閱[使用 Adobe Experience Cloud Debugger 偵錯 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
 ## 最暢銷商品未出現在 Recommendations 中 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ Target 不再支援 IE 8。
 
 如果您的網站有子網域，例如 [!DNL us.domain.com]，但您需要將 Target Cookie 設定在 [!DNL domain.com] (而不是 [!DNL us.domain.com])，則必須覆寫 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 
-## 如果元素也是Adobe Experience Manager個人化的一部分，Target內容會忽隱勿現或未顯示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## 如果某個元素也是 Adobe Experience Manager 個人化的一部分，Target 內容會忽隱忽現或未出現。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-如果 DOM 元素 Adobe Experience Manager (AEM) 個人化目標鎖定和 Target 活動的一部分，Target 內容可能會忽隱忽現或沒有出現。
+如果 DOM 元素是 Adobe Experience Manager (AEM) 個人化目標鎖定和 Target 活動的一部分，Target 內容可能會忽隱忽現或沒有出現。
 
-若要補救此情況，您可以在執行Target的頁面上停用AEM個人化。
+若要補救這種情況，您可以在執行 Target 的頁面上停用 AEM 個人化。
 
 ## 無效 URL 導致重新導向與遠端選件無法傳送。 {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -150,45 +150,45 @@ Target 不再支援 IE 8。
 
 您可在瀏覽器中或使用 mboxTrace 來檢查 [!DNL Target] 回應。請參閱 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 以取得有效 URL 的詳細資訊。
 
-## [!DNL Target]我的網站未觸發 請求。
+## 我的網站未觸發 [!DNL Target] 請求。
 
 如果您使用無效的 doctype，at.js 不會觸發 Target 請求。at.js 需要 HTML 5 doctype。
 
-## 確保 [!DNL Target] 活動可正確處理含有查詢字串參數的URL。 {#query-strings}
+## 確保 [!DNL Target] 活動可正確處理含有查詢字串參數的 URL。 {#query-strings}
 
-此 [!UICONTROL 活動URL] 判斷符合活動訪客資格的頁面，並將活動體驗轉譯給使用者。 在活動建立期間出現提示時，輸入完整URL並不一定能確保內容是在該網站頁面上傳送，尤其是包含查詢字串參數的URL。
+[!UICONTROL 活動 URL] 決定了符合活動訪客資格的頁面，並向用戶呈現活動體驗。在活動建立期間出現提示時，輸入完整 URL 並不一定能確保在該網站頁面上傳遞內容，尤其是包含查詢字串參數的 URL。
 
-依預設， [!UICONTROL 可視化體驗撰寫器] (VEC)會開啟您 [可視化體驗撰寫器設定](/help/administrating-target/visual-experience-composer-set-up.md). 您也可以在活動建立期間指定不同的頁面。
+根據預設，[!UICONTROL 可視化體驗撰寫器] (VEC) 會開啟[可視化體驗撰寫器設定](/help/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。您也可以在活動建立期間指定不同的頁面。
 
-若要在VEC開啟後顯示不同的頁面，請按一下 **[!UICONTROL 配置齒輪表徵圖]** >選取 **[!UICONTROL 頁面傳送]** > ，然後在 [!UICONTROL 活動URL] 欄位。
+若要在 VEC 開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL 設定齒輪圖示]** > 選取「**[!UICONTROL 頁面傳送]**」 > 然後在「[!UICONTROL 活動 URL]」欄位中指定所需 URL。
 
-![配置頁面傳送設定UI](assets/configure-page-delivery.png)
+![設定頁面傳送設定 UI](assets/configure-page-delivery.png)
 
-但如果URL包含查詢字串參數，該怎麼辦？ 它是否可運作並顯示個人化內容？ 此情境中，無論目標對象為何，您除了可定義查詢參數的基礎URL外，還可以包含範本規則。
+但如果 URL 包含查詢字串參數，該怎麼辦？它是否可運作並顯示個人化內容？在這個案例中，無論目標對象為何，除了可定義查詢參數的基底 URL 外，還可以包含範本規則。
 
 下列選項可用來包含其他範本規則：
 
-### 選項1:複製URL，並使用「包含」選項將其保留在範本規則中。
+### 選項 1：複製 URL，並使用「包含」選項將其保留在範本規則中。
 
-此選項可確保此URL符合活動的資格，但請注意，其上附加的角落案例可能會對包含基本URL的URL產生其他記錄，而影響您的報表資料。
+此選項可確保此 URL 符合活動的資格，但請注意，其相關邊角案例是，透過對包含基底 URL 的 URL 新增其他記錄來影響您的報告資料。
 
-在此案例中，URL為 `https://shopping.mycart.com?type=Summers%20Offers` 和其他範本規則「包含」相同的URL，以OR運算子分隔：
+在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則「包含」相同的 URL (以 OR 運算子分隔)：
 
-![在範本規則中複製URL](assets/option1.png)
+![在範本規則中複製 URL](assets/option1.png)
 
-### 選項2:限制URL「包含」條件，只包含查詢字串。
+### 選項 2：限制 URL 僅「包含」查詢字串的條件。
 
-此選項會套用上一個選項中討論的拐角大小寫，但此處的條件設定僅限於查詢字串。
+上一個選項中討論的邊角案例適用於這個選項，但此處的條件設定僅限於查詢字串。
 
-在此案例中，URL為 `https://shopping.mycart.com?type=Summers%20Offers` 及其他範本規則「僅包含」查詢字串，以OR運算子分隔：
+在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則僅「包含」查詢字串 (以 OR 運算子分隔)：
 
 ![範本規則僅包含查詢字串](assets/option2.png)
 
-### 選項3:請改用URL的特定部分，而非鎖定目標。
+### 選項 3：利用 URL 的特定部分，而非鎖定完整目標 URL。
 
-在此案例中，URL為 `https://shopping.mycart.com?type=Summers%20Offers` 和其他範本規則會指定 [!UICONTROL 查詢] with [!UICONTROL type] > [!UICONTROL 為（區分大小寫）] > type=Summers%20Offers，用OR運算子分隔：
+在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則透過[!UICONTROL 類型] > [!UICONTROL 為 (區分大小寫)] > type=Summers%20Offers，指定了[!UICONTROL 查詢] (以 OR 運算子分隔)：
 
-![運用URL的特定部分的範本規則](assets/option3.png)
+![範本規則利用 URL 的特定部分](assets/option3.png)
 
 ## 訓練影片
 

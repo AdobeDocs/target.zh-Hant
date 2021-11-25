@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -25,37 +25,37 @@ ht-degree: 46%
 >
 >為避免您的網站出現任何潛在問題，請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
 
-## at.js版本2.7.0（2021年10月28日）
+## at.js 2.7.0 版 (2021 年 10 月 28 日)
 
 此版本包含下列增強功能：
 
-* 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 必須在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件，才需要此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版。
+* 新增 [Web 元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支援。在自訂元素及其內部元素上建立和測試個人化體驗和選件，必須有此版本的 at.js。此功能包含在 [!DNL Target Standard/Premium] 21.10.5 版。
 
-## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日）
+## [!DNL Target Standard/Premium] 21.10.5 (2021 年 10 月 28 日)
 
-此維護髮行包含下列增強功能：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| Visual Experience Composer (VEC) | 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 您可以在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件。<br>如需詳細資訊，請參閱 [可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
-
-此維護髮行包含下列增強功能：
+此維護版本包含下列增強功能：
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 購物車型Recommendations | 新增一系列演算法，以根據訪客購物車的內容提供建議。<br>如需詳細資訊，請參閱 [建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和「購物車新增/購物車檢視/結帳頁面」和「排除已在訪客購物車中的項目」，於 [計畫和實作Recommendations](/help/c-recommendations/plan-implement.md). |
+| [!UICONTROL Visual Experience Composer] (VEC) | 新增 [Web 元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支援。在自訂元素及其內部元素上，可建立和測試個人化體驗和選件。<br>如需詳細資訊，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)。 |
 
-## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
+## [!DNL Target Standard/Premium] 21.10.4 (2021 年 10 月 21 日)
+
+此維護版本包含下列增強功能：
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 購物車型推薦 | 新增一系列演算法，以根據訪客購物車的內容提供推薦。<br>如需詳細資訊，請參閱[建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)中的「購物車型」，以及[計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) 中的「購物車新增/購物車檢視/結帳頁面」和「排除訪客購物車中已有的項目」。 |
+
+## [!DNL Target Standard/Premium] 21.10.3 (2021 年 10 月 19 日)
 
 此維護發行包含下列增強功能、修正和變更。
 
-* 修正客戶無法開啟 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 按一下 [!UICONTROL 在Analytics中檢視] 按鈕 [!DNL Target] 活動報表。 (TGT-42099 和 TGT-42100)
-* 修正 [!UICONTROL 編輯設計] 編輯時不顯示的按鈕 [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] (XT)使用 [!UICONTROL 表單式體驗撰寫器]. (TGT-41980)
-* 修正無法 [!UICONTROL 相容] 建立新條件時在條件選取中顯示的核取方塊 [!UICONTROL Recommendations] 活動。 (TGT-42053)
-* 修正無法選取時顯示的錯誤訊息 [!DNL Analytics] 作為報表來源(A4T)，因為 [!DNL Analytics] 權限。 (TGT-41954)
-* 實作多項協助工具修正，以改善 [!DNL Target] UI。
+* 修正在按一下 [!DNL Target] 活動報告中的「[!UICONTROL 在 Analytics 中檢視]」按鈕後，無法開啟 [!DNL Analysis Workspace] [!UICONTROL A4T] 面板的問題。(TGT-42099 和 TGT-42100)
+* 修正在使用[!UICONTROL 表單式體驗撰寫器]編輯 [!UICONTROL A/B 測試]和[!UICONTROL 體驗鎖定] (XT) 活動時，造成「[!UICONTROL 編輯設計]」按鈕不顯示的問題。(TGT-41980)
+* 修正在建立新的 [!UICONTROL Recommendations] 活動時，「[!UICONTROL 相容]」核取方塊無法顯示在條件選取中的問題。(TGT-42053)
+* 修正因為缺少 [!DNL Analytics] 權限而無法選取 [!DNL Analytics] 做為報告來源 (A4T) 時所顯示的不正確錯誤訊息。(TGT-41954)
+* 實作多項協助工具修正，以改善 [!DNL Target] UI 鍵盤導覽。
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
