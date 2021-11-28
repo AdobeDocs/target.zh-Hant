@@ -4,9 +4,9 @@ description: 了解如何將動態資料傳遞至 [!DNL Adobe Target] 選件。
 title: 如何將動態資料傳遞至選件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ ht-degree: 63%
 
 若是用於選件內容中的選件參數(offer.name、offer.id):
 
-如果該選件是體驗上陣列之一，則上次新增選件的值會填入參數的值。 這表示這些參數是在體驗層級上評估。
+如果該選件是在體驗上設定的數個選件之一，則上次新增選件的值會填入參數的值。 這表示這些參數是在體驗層級上評估。
