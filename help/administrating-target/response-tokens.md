@@ -5,10 +5,10 @@ title: 什麼是回應Token？如何使用？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 27%
+source-wordcount: '1631'
+ht-degree: 26%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 27%
 
    ![](assets/response_tokens-new.png)
 
-1. 啟動所需的回應Token，例如 `activity.id` 和 `option.id`.
+1. 啟動所需的回應Token，例如 `activity.id` 和 `offer.id`.
 
    依預設有下列參數可用:
 
@@ -435,8 +435,8 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
 >[!NOTE]
 >
 >此 [!DNL Target] [!UICONTROL 管理] 功能表UI(原稱 [!UICONTROL 設定])經過重新設計，以提供改善的效能、減少發行新功能時所需的維護時間，以及改善整個產品的使用者體驗。 以下視頻中的資訊正確；不過，選項的位置稍有不同。
+>
+>影片提及 `option.name` 和 `option.id`，其取代為 `offer.name` 和 `offer.id`，分別為。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
