@@ -5,9 +5,9 @@ title: 如何讓建議以建議金鑰為依據？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
+source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
 workflow-type: tm+mt
-source-wordcount: '3937'
+source-wordcount: '3936'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 40%
 
 ### 依Analytics量度排名前
 
-顯示「前x」，其中x是任意的 [!DNL Analytics] 量度。 使用mbox的行為資料時，您只能使用「最暢銷商品」或「最常檢視商品」（x = &quot;Sold&quot;或x = &quot;Viewed&quot;）。 如果您使用 [!DNL Adobe Analytics]，您可以使用x = &quot;Cart Adds&quot;或其他 [!DNL Analytics] 量度。
+顯示「前x」，其中 *x* 是任意的 [!DNL Analytics] 量度。 使用mbox的行為資料時，您可以使用「最暢銷商品」或「最常檢視商品」（x = &quot;Sold&quot;或x = &quot;Viewed&quot;）。 如果您使用 [!DNL Adobe Analytics]，您可以使用x = &quot;Cart Adds&quot;或其他 [!DNL Analytics] 量度。
 
 ## [!UICONTROL 項目型]
 
