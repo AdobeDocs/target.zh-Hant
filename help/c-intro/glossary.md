@@ -4,9 +4,9 @@ title: 我可以在哪裡找到 Target 中使用的詞彙和定義？
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Target Standard 中活動的視覺表示。
 
 **mbox.js**
 
-A [!DNL Target] 已棄用的JavaScript實施程式庫。
+這是已被取代的 [!DNL Target] JavaScript 實施資料庫。
 
 **mbox 參數**
 
