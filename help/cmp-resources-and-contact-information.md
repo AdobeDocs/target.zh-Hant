@@ -5,9 +5,9 @@ title: 何處可以找到有關 Target 的資源和聯絡資訊？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 | [Target Premium Workspaces](https://helpx.adobe.com/tw/customer-care-office-hours/target/premium-workspaces.html) <br>27:49<br> 2018 年 9 月 4 日) | 您將能學習到：<ul><li>建立工作區 (產品設定檔)</li><li>選擇屬性。</li><li>新增使用者</li><li>更新實施</li></ul>如需詳細資訊，請參閱[企業使用者權限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/tw/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/c-experiences/experiences.md)。 |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/tw/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br> 2018 年 1 月 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js:好處和實施最佳實務](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>at.js優於已棄用的mbox.js</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul> |
+| [at.js:好處和實施最佳實務](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>at.js 勝過 mbox.js (已被取代) 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul> |
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 若要收到未來產品增強功能的提前通知，請註冊「Adobe 優先產品更新」 ：
 
-[Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)
 
 ### 服務、功能和帳單 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -123,8 +123,8 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 * © 2021 Adobe Systems Incorporated.All rights reserved.
 * Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use_tw) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use_tw) | [Privacy Center](https://www.adobe.com/tw/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners.更新資訊／其他協力廠商程式碼資訊，請參閱 [https://www.adobe.com/go/thirdparty_tw](https://www.adobe.com/products/eula/third_party/)。
+All third-party trademarks are the property of their respective owners.更新資訊／其他協力廠商程式碼資訊，請參閱 [https://www.adobe.com/go/thirdparty_tw](https://www.adobe.com/tw/products/eula/third_party/)。
