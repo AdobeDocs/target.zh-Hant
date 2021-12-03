@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤�
 
 | mboxTrace 選項 | 結果 |
 |--- |--- |
-| `?mboxTrace=console` | 列印至控制台記錄做為物件。<br>對於at.js，您必須檢查網路請求並查看「預覽」(Chrome)或「回應」(Firefox)，而不是彈出新瀏覽器視窗或輸出至主控台（如同mbox.js中的）（現已淘汰）。 |
+| `?mboxTrace=console` | 列印至控制台記錄做為物件。<br>對於 at.js，您必須檢查網路請求並查看「預覽」(Chrome) 或「回應」(Firefox)，而不是像 mbox.js (現已被取代) 一樣彈出新瀏覽器視窗或輸出至主控台。 |
 | `?mboxTrace=json` | 列印至控制台記錄做為常值 JSON 字串 |
 | `?mboxTrace=window` | 列印至彈出式視窗做為 JSON 字串 |
 | `?mboxTrace=disable` | 關閉追蹤工作階段模式 |
