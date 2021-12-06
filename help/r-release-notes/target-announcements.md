@@ -4,28 +4,16 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Target 公告和活動
 
 閱讀有關近期事件的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
-
-## [!DNL Adobe Target] 社群問答咖啡會 (2021 年 11 月 10 日)
-
-* **2021 年 11 月 10 日星期三**
-* **上午 8 點 (PST，UTC -8)**
-* **[更多資訊和註冊資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
-
-[!DNL Adobe Target] 資深產品經理 Cristinel &quot;Muti&quot; Anastasoaie 將回答您有關其專業領域的問題：
-
-* [!DNL Target] 使用者介面
-* [!DNL Target] 整合
-* [!UICONTROL 企業權限]和[!UICONTROL 工作區]
 
 ## [!DNL Adobe Target] 社群問答咖啡會 (2021 年 12 月 8 日)
 
