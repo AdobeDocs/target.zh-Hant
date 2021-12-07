@@ -1,17 +1,17 @@
 ---
 keywords: 建議演算法；模型訓練；模型提供；內容傳送；以項目為基礎；以使用者為基礎；以人氣為基礎；以購物車為基礎；自訂條件
 description: 了解中使用的演算法 [!DNL Target Recommendations]，包括模型訓練和模型服務。
-title: 我可以在何處了解Recommendations演算法背後的科學？
+title: 我可以在何處了解Target的Recommendations演算法背後的科學？
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations算法背後的科學
+# ![PREMIUM](/help/assets/premium.png) Target建議演算法背後的科學
 
 深入說明中使用的演算法 [!DNL Adobe Target Recommendations]包括模型訓練的邏輯和數學細節，以及模型服務過程。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
       為避免計算所有N x N項目之間的相似性時出現顯著的複雜性， *tf-idf* 向量會遭截斷，僅包含其最大500個項目，然後使用此截斷的向量表示來計算項目之間的余弦相似性。 與其他近似最近鄰(ANN)技術（如局部敏感哈希）相比，該方法對稀疏向量相似度計算具有更強的魯棒性。
 
-* **模型服務**:此程式與前一節所述的項目 — 項目協同篩選技術相同。
+   * **模型服務**:此程式與前一節所述的項目 — 項目協同篩選技術相同。
 
 ## 多鍵建議
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
    ![公式](assets/formula4.png)
 
-   * **項目相似性模型評價**:模型評估是採用前一步驟中產生的建議，對測試資料集進行預測。 線上計分階段會透過按時間順序排序測試資料集中每個使用者的項目使用情況，然後針對已排序的項目子集提出100個建議，以嘗試預測後續的檢視和購買。 資訊擷取量度， [平均精確度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision))，可用來評估這些建議的品質。 此量度會考量建議的順序，並偏好建議清單中較上方的相關項目，這是排名系統的重要屬性。
+   * **項目相似性模型評價**:模型評估是採用前一步驟中產生的建議，對測試資料集進行預測。 線上計分階段會透過按時間順序排序測試資料集中每個使用者的項目使用情況，然後針對已排序的項目子集提出100個建議，以嘗試預測後續的檢視和購買。 資訊擷取量度， [平均精確度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)，用於評估這些建議的品質。 此量度會考量建議的順序，並偏好建議清單中較上方的相關項目，這是排名系統的重要屬性。
    * **模型選取**:離線評估後，會選取平均精確度最高的模型，並針對其計算所有個別項目 — 項目建議。
    * **離線篩選**:模型訓練的最後階段是應用任何適用的動態濾波器。 在此步驟後，系統會全域快取預先計算的建議，以便供使用。
 
