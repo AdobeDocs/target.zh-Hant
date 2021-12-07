@@ -4,7 +4,7 @@ description: 了解中使用的演算法 [!DNL Target Recommendations]，包括�
 title: 我可以在何處了解Recommendations演算法背後的科學？
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 0%
