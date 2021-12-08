@@ -4,9 +4,9 @@ description: 了解中使用的演算法 [!DNL Target Recommendations]，包括�
 title: 我可以在何處了解Target的Recommendations演算法背後的科學？
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 例如，若
 
-![Formula](assets/formula.png)
+![已檢視/已購買演算法的公式](assets/formula.png)
 
 項目A不應建議項目B。提供此對數似然比相似度計算的完整詳細資訊 [在此PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 實際演算法實施的邏輯流程如下圖所示：
 
-![示意圖](assets/diagram1.png)
+![已檢視/已購買演算法的示意圖](assets/diagram1.png)
 
 這些步驟的詳細資訊如下：
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 雖然在 [!DNL Target]其內容相似度算法與其他基於項的算法相同，模型訓練步驟大不相同，涉及一系列自然語言處理和預處理步驟，如下圖所示。 相似性計算的核心是使用經修改的tf-idf向量的余弦相似性來表示目錄中的每個項目。
 
-![圖2](assets/diagram2.png)
+![顯示內容相似程式流程的圖表](assets/diagram2.png)
 
 這些步驟的詳細資訊如下：
 
@@ -96,13 +96,13 @@ ht-degree: 0%
    * **n-gram建立**:在前述步驟之後，每個字詞會視為代號。 將令牌的連續序列組合成單個令牌的過程稱為n-gram建立。 [!DNL Target]的算法最多可考慮2克。
    * **tf-idf計算**:下一步包括建立tf-idf向量，以反映項目說明中代號的相對重要性。 對於項目i中的每個代號/詞語t，在目錄D中，具有 |D|項，首先計算術語頻率TF(t, i)（術語在項i中出現的次數），以及文檔頻率DF(t, D)。 實質上，代號存在的項目數。 然後，tf-idf測量
 
-      ![公式](assets/formula2.png)
+      ![顯示tf-idf度量的公式](assets/formula2.png)
 
       [!DNL Target] 使用Apache Spark的 *tf-idf* 功能實作，此功能會在hood底下將每個Token雜湊至218個Token的空間。 在此步驟中，也可根據 [條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **項目相似度計算**:使用近似余弦相似性來完成最終項相似性計算。 對於兩個項目， *A* 和 *B*，對於向量tA和tB，余弦相似度定義為：
 
-      ![公式](assets/formula3.png)
+      ![顯示項目相似度計算的公式](assets/formula3.png)
 
       為避免計算所有N x N項目之間的相似性時出現顯著的複雜性， *tf-idf* 向量會遭截斷，僅包含其最大500個項目，然後使用此截斷的向量表示來計算項目之間的余弦相似性。 與其他近似最近鄰(ANN)技術（如局部敏感哈希）相比，該方法對稀疏向量相似度計算具有更強的魯棒性。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 下圖顯示模型訓練和評分步驟的邏輯：
 
-![圖表](assets/diagram3.png)
+![顯示模型訓練和評分步驟邏輯的圖表](assets/diagram3.png)
 
 這些步驟的詳細資訊如下：
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    訓練步驟會計算幾種向量相似度：LLR相似度([此處討論](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（先前定義）和標準化L2相似度，定義為：
 
-   ![公式](assets/formula4.png)
+   ![顯示訓練計算的公式](assets/formula4.png)
 
    * **項目相似性模型評價**:模型評估是採用前一步驟中產生的建議，對測試資料集進行預測。 線上計分階段會透過按時間順序排序測試資料集中每個使用者的項目使用情況，然後針對已排序的項目子集提出100個建議，以嘗試預測後續的檢視和購買。 資訊擷取量度， [平均精確度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)，用於評估這些建議的品質。 此量度會考量建議的順序，並偏好建議清單中較上方的相關項目，這是排名系統的重要屬性。
    * **模型選取**:離線評估後，會選取平均精確度最高的模型，並針對其計算所有個別項目 — 項目建議。
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 這些程式在下圖中顯示，訪客已檢視項目A並購買項目B。系統會以每個項目標籤下方顯示的離線相似度分數來擷取個別建議。 擷取後，建議會與加權相似度分數合併。 最後，在客戶已指定先前檢視和購買的項目必須篩選掉的案例中，篩選步驟會從建議清單中移除項目A和B。
 
-![DiagramDiagram](assets/diagram4.png)
+![顯示多鍵算法處理的圖表](assets/diagram4.png)
 
 ## 人氣
 
