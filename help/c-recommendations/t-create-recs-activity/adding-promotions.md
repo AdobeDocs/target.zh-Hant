@@ -1,24 +1,23 @@
 ---
-keywords: 促銷；前面促銷；後面促銷；促銷類型；項目清單；按屬性促銷；促銷系列
-description: 瞭解如何新增推廣項目並控制其在Adobe中的位置 [!DNL Target] Recommendations設計。 您可以新增靜態和動態促銷活動。
-title: 如何在Recommendations設計中新增促銷？
+keywords: 促銷活動；前端促銷活動；後端促銷活動；促銷類型；項目清單；依屬性促銷；促銷集合
+description: 了解如何新增提示的項目並控制其在您Adobe中的放置位置 [!DNL Target] Recommendations設計。 您可以新增靜態和動態促銷活動。
+title: 如何在Recommendations設計中新增促銷活動？
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 0d8d04091968923c7d343692140279c026d579f4
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 56%
+source-wordcount: '688'
+ht-degree: 50%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 新增促銷活動
 
-新增提示的項目並控制其在您的 Adobe Target Recommendations 設計中的放置位置。您可以新增靜態和動態促銷活動。
+新增提示的項目並控制其在您的 [!DNL Adobe Target Recommendations] 設計中的放置位置。您可以新增靜態和動態促銷活動。
 
 >[!IMPORTANT]
 >
->靜態和動態排除規是可協助您從事行銷活動的強大功能。如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+>靜態和動態排除規是可協助您從事行銷活動的強大功能。如需詳細資訊、範例和使用案例，請參閱 [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 建立 [!DNL Recommendations] 活動時，您有選項可在您的 [!DNL Recommendations] 設計中包括促銷的項目。促銷活動使用設計中的可用位置，並且優先於條件結果和備用建議。例如，如果您的設計有六個位置，並且您對促銷活動使用其中兩個，即有四個位置可供根據條件建議的項目使用。
 
@@ -26,7 +25,7 @@ ht-degree: 56%
 
 您可以促銷特定項目、動態地促銷項目、根據屬性促銷項目或促銷集合。
 
-![](assets/add_promotion_toggles.png)
+![[!UICONTROL 前端促銷] 和 [!UICONTROL 上一步促銷] 選項 [!DNL Target] UI](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -39,6 +38,7 @@ ht-degree: 56%
    ![新增前端促銷活動選項](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    您可以將促銷活動插入在 *and* 之前與您的條件結果之後。
+
 1. 設定要用於促銷的項目之設計位置的數量。
 
    根據您的 [!DNL Recommendations] 設計，您可以使用最多 20 個位置。您使用的每個位置會變得無法供根據您的條件傳回的建議使用。
@@ -53,28 +53,28 @@ ht-degree: 56%
 
    * 選取&#x200B;**[!UICONTROL 「依屬性促銷」]**，並新增規則以定義您要促銷的項目的屬性。
 
-      如果您選取「依屬性促銷」，您可以建立動態匹配。如需詳細資訊，請參閱[使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+      如果您選取 [!UICONTROL 依屬性促銷]，您可以建立動態比對。 如需詳細資訊，請參閱 [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]**，並選擇您要促銷的項目集合。
 
-      您可以建立新的集合用於促銷活動。請參閱[建立集合](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)以取得更多資訊。
-   如果您選擇「項目清單」**[!UICONTROL 「促銷類型」**[!UICONTROL ，您可以視需要選取「隨機化項目順序」]**核取方塊。]**]****[!UICONTROL 
+      您可以建立新的集合用於促銷活動。請參閱 [建立集合](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) 以取得更多資訊。
+   如果您選擇 **[!UICONTROL 項目清單]** 作為 **[!UICONTROL 促銷活動類型]**，您可以選取 **[!UICONTROL 隨機化項目順序]** 複選框。
 
-   [!UICONTROL 項目清單]的預設排序順序是根據您在Target UI或API中輸入的順序。 如果您的清單包含的項目數超過您為促銷設定的位置數，則[!UICONTROL 隨機化項目順序]選項會隨機化設計中顯示的促銷項目。 選擇此選項會導致[!DNL Target]從每個點擊的整個促銷集中隨機選取範本中啟用促銷的項目。
+   的預設排序順序 [!UICONTROL 項目清單] 是根據您在 [!DNL Target] UI或API。 如果您的清單包含的項目多於您為促銷活動設定的位置數量，則 [!UICONTROL 隨機化項目順序] 選項會隨機顯示在您設計中的升級項目。 若選擇此選項，會導致 [!DNL Target] 從每個點擊上設定的整個促銷活動中隨機選取為範本中的促銷活動啟用的項目。
 
-   如果您的實體沒有`entity.value`屬性（例如，您不銷售產品），您可以將數值傳入`entity.value`屬性，例如發佈日期。 在此情況下，可根據最近的發佈日期，以遞減順序來提升提升項目。 `entity.value`屬性為double類型；它不接受字串。
+   如果您的實體沒有 `entity.value` 屬性（例如您不銷售產品），您可以將數值傳入 `entity.value` 屬性，例如發佈日期。 在此情況下，可根據最近的發佈日期以遞減順序促銷促銷促銷的項目。 此 `entity.value` 屬性為double類型；它不接受字串。
 
-   如果您選取「依屬性提升」或「提升系列」選項，則不適用隨機化順序的選項。********
+   如果您選取 **[!UICONTROL 依屬性促銷]** 或 **[!UICONTROL 提升集合]** 選項中，隨機排列順序的選項不適用。
 
-   當使用[!UICONTROL Promote by Attribute]或[!UICONTROL Promote a Collection]選項來提升特定項目時，項目的顯示順序預設是以`entity.value`屬性為基礎，依數值遞減順序。
+   使用 [!UICONTROL 依屬性促銷] 或 [!UICONTROL 提升集合] 選項，則項目的顯示預設順序會根據 `entity.value` 屬性，按遞減數值順序。
 
    下表說明這些選項之間的差異：
 
-   | 促銷類型 | 預設排序 | 備份排序 | 動態篩選選項 |
+   | 促銷活動類型 | 預設排序 | 備份排序 | 動態篩選選項 |
    | --- | --- | --- | --- |
-   | 項目清單 | 在Target UI/API中輸入的訂單 | 隨機（透過UI/API選取時） | 無 |
-   | 按屬性升級 | `entity.value` （遞減順序） | 對每個請求進行隨機（當沒有`entity.value`屬性時） | 是 |
-   | 促銷系列 | `entity.value` （遞減順序） | 對每個請求進行隨機（當沒有`entity.value`屬性時） | 無 |
+   | [!UICONTROL 項目清單] | 在Target UI/API中輸入的順序 | 隨機（透過UI/API選取時） | 無 |
+   | [!UICONTROL 依屬性促銷] | `entity.value` （降序） | 無隨機化 | 是 |
+   | [!UICONTROL 提升集合] | `entity.value` （降序） | 無隨機化 | 無 |
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
