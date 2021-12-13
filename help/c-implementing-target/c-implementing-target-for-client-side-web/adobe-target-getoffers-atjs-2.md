@@ -1,13 +1,13 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;函數;函數
-description: 對Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 選件使用adobe.target.getOffers()函式及其選項。 (at.js 2.x)
+description: 使用adobe.target.getOffers()函式及其選項，用於Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 選件。 (at.js 2.x)
 title: 如何使用adobe.target.getOffers()函式？
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
+source-git-commit: 40173370840d1bcc8582bf7bec51e5ef8b1ae53b
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1305'
 ht-degree: 69%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 69%
 
 | 機碼 | 類型 | 必要? | 說明 |
 | --- | --- | --- | --- |
-| `consumerId` | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於A4T整合的補充資料ID(SDID)。<br>使用時， `getOffers()`每個呼叫都會產生新的SDID。若您在相同頁面上有多個mbox要求，且想保留SDID(以便其符合target-global-mbox的SDID和Adobe Analytics SDID)，請使用`consumerId`參數。<br>如果 `getOffers()` 包含三個mbox（名為「mbox1」、「mbox2」和「mbox3」），則包括： `consumerId: "mbox1, mbox2, mbox3"` 在呼 `getOffers()` 叫中。 |
+| `consumerId` | 字串 | 無 | 如果未提供，預設值為用戶端的全域 mbox。此機碼可用來產生用於A4T整合的補充資料ID(SDID)。<br>使用時 `getOffers()`，則每個呼叫都會產生新的SDID。 若您在相同頁面上有多個mbox要求，且想保留SDID(以便其符合target-global-mbox的SDID和Adobe Analytics SDID)，請使用 `consumerId` 參數。<br>若 `getOffers()` 包含三個mbox（名為「mbox1」、「mbox2」和「mbox3」），包括： `consumerId: "mbox1, mbox2, mbox3"` 在 `getOffers()` 呼叫。 |
 | `decisioningMethod` | 字串 | 無 | &quot;server-side&quot;、&quot;on-device&quot;、&quot;hybrid&quot; |
 | `request` | 物件 | 是 | 請參閱下方的「要求」表格。 |
 | `timeout` | 數字 | 無 | 請求逾時。如果未指定，則會使用預設的 at.js 逾時。 |
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->如需下列所有欄位可接受類型的相關資訊，請參閱[傳送API檔案](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>請參閱 [傳送API檔案](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 以取得下列所有欄位可接受類型的相關資訊。
 
 | 欄位名稱 | 必要? | 限制 | 說明 |
 | --- | --- | --- | --- |
@@ -41,38 +41,38 @@ ht-degree: 69%
 | Request > experienceCloud > analytics | 無 |  | Adobe Analytics 整合 |
 | Request > experienceCloud > analytics > logging | 無 | 必須在頁面上實作下列項目:<ul><li>訪客 ID 服務</li><li>Appmeasurement.js</li></ul> | 支援以下的值:<br>**client_side**: 指定後，會向呼叫者傳回分析裝載，呼叫者應將其用來透過資料插入 API 傳送給 Adobe Analytics。<br>**server_side**: 這是預設值，其中 Target 和 Analytics 後端會使用 SDID 將多個呼叫拼接在一起以用於報表用途。 |
 | request > prefetch | 無 |  |  |
-| request > prefetch > views | 無 | 計數上限50.<br>名稱不得空白。<br>名稱長度`<=` 128.<br>值長度`<=` 5000。<br>名稱不得以「profile」開頭。<br>不允許的名稱：&quot;orderId&quot;、&quot;orderTotal&quot;、&quot;productPurchasedId&quot;。 | 傳遞參數以用於擷取使用中活動內的相關檢視。 |
-| request > prefetch > views > profileParameters | 無 | 計數上限50.<br>名稱不得空白。<br>名稱長度`<=` 128.<br>值長度`<=` 5000。<br>僅接受字串值。<br>名稱不應以「profile」開頭。 | 傳入設定檔參數以用於擷取使用中活動內的相關檢視。 |
+| request > prefetch > views | 無 | 計數上限為50。<br>名稱不得空白。<br>名稱長度 `<=` 128。<br>值長度 `<=` 5000。<br>名稱不應以「profile」開頭。<br>不允許的名稱：&quot;orderId&quot;、&quot;orderTotal&quot;、&quot;productPurchasedId&quot;。 | 傳遞參數以用於擷取使用中活動內的相關檢視。 |
+| request > prefetch > views > profileParameters | 無 | 最多50。<br>名稱不得空白。<br>名稱長度 `<=` 128。<br>值長度 `<=` 5000。<br>僅接受字串值。<br>名稱不應以「profile」開頭。 | 傳入設定檔參數以用於擷取使用中活動內的相關檢視。 |
 | request > prefetch > views > product | 無 |  |  |
-| request > prefetch > views > product -> id | 無 | 不得空白。<br>最大大小= 128。 | 傳入產品 ID 以用於擷取使用中活動內的相關檢視。 |
-| request > prefetch > views > product > categoryId | 無 | 不得空白。<br>最大大小= 128。 | 傳入產品類別 ID 以用於擷取活動內的相關檢視。 |
+| request > prefetch > views > product -> id | 無 | 不得空白。<br>大小上限= 128。 | 傳入產品 ID 以用於擷取使用中活動內的相關檢視。 |
+| request > prefetch > views > product > categoryId | 無 | 不得空白。<br>大小上限= 128。 | 傳入產品類別 ID 以用於擷取活動內的相關檢視。 |
 | request > prefetch > views > order | 無 |  |  |
 | request > prefetch > views > order > id | 無 | 長度上限 = 250。 | 傳入訂單 ID 以用於擷取使用中活動內的相關檢視。 |
 | request > prefetch > views > order > total | 無 | 總金額 `>=` 0。 | 傳入訂單總金額以用於擷取使用中活動內的相關檢視。 |
-| request > prefetch > views > order > purchasedProductIds | 無 | 無空白值。<br>每個值的長度上限50.<br>串連並以逗號分隔。<br>產品ID總長度`<=` 250。 | 傳入已購產品 ID 以用於擷取使用中活動內的相關檢視。 |
+| request > prefetch > views > order > purchasedProductIds | 無 | 無空白值。<br>每個值的最大長度為50。<br>串連並以逗號分隔。<br>產品ID總長度 `<=` 250。 | 傳入已購產品 ID 以用於擷取使用中活動內的相關檢視。 |
 | request > execute | 無 |  |  |
 | request > execute > pageLoad | 無 |  |  |
-| request > execute > pageLoad > parameters | 無 | 計數上限50.<br>名稱不得空白。<br>名稱長度`<=` 128.<br>值長度`<=` 5000。<br>僅接受字串值。<br>名稱不應以「profile」開頭。<br>不允許的名稱：&quot;orderId&quot;、&quot;orderTotal&quot;、&quot;productPurchasedId&quot;。 | 頁面載入時使用指定的參數擷取選件。 |
-| request > execute > pageLoad > profileParameters | 無 | 計數上限50.<br>名稱不得空白。<br>名稱長度`<=` 128.<br>值長度`<=` 256.<br>名稱不得以「profile」開頭。<br>僅接受字串值。 | 頁面載入時使用指定的設定檔參數擷取選件。 |
+| request > execute > pageLoad > parameters | 無 | 計數上限為50。<br>名稱不得空白。<br>名稱長度 `<=` 128。<br>值長度 `<=` 5000。<br>僅接受字串值。<br>名稱不應以「profile」開頭。<br>不允許的名稱：&quot;orderId&quot;、&quot;orderTotal&quot;、&quot;productPurchasedId&quot;。 | 頁面載入時使用指定的參數擷取選件。 |
+| request > execute > pageLoad > profileParameters | 無 | 計數上限為50。<br>名稱不得空白。<br>名稱長度 `<=` 128。<br>值長度 `<=`256。<br>名稱不應以「profile」開頭。<br>僅接受字串值。 | 頁面載入時使用指定的設定檔參數擷取選件。 |
 | request > execute > pageLoad > product | 無 |  |  |
 | request > execute > pageLoad > product -> id | 無 | 不得空白。<br>大小上限= 128。 | 頁面載入時使用指定的產品 ID 擷取選件。 |
 | request > execute > pageLoad > product > categoryId | 無 | 不得空白。<br>大小上限= 128。 | 頁面載入時使用指定的類別 ID 擷取選件。 |
 | request > execute > pageLoad > order | 無 |  |  |
 | request > execute > pageLoad > order > id | 無 | 長度上限 = 250。 | 頁面載入時使用指定的訂單 ID 擷取選件。 |
 | request > execute > pageLoad > order > total | 無 | `>=` 0。 | 頁面載入時使用指定的訂單總金額擷取選件。 |
-| request > execute > pageLoad > order > purchasedProductIds | 無 | 無空白值。<br>每個值的長度上限50.<br>串連並以逗號分隔。<br>產品ID總長度`<=` 250。 | 頁面載入時使用指定的已購產品 ID 擷取選件。 |
-| request > execute > mboxes | 無 | 大小上限= 50.<br>無null元素。 |  |
-| request > execute > mboxes>mbox | 是 | 不得空白。<br>沒有「 — clicked」尾碼。<br>大小上限= 250。<br>允許的字元：`'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 的名稱。 |
+| request > execute > pageLoad > order > purchasedProductIds | 無 | 無空白值。<br>每個值的最大長度為50。<br>串連並以逗號分隔。<br>產品ID總長度 `<=` 250。 | 頁面載入時使用指定的已購產品 ID 擷取選件。 |
+| request > execute > mboxes | 無 | 大小上限= 50。<br>無空元素。 |  |
+| request > execute > mboxes>mbox | 是 | 不得空白。<br>沒有「 — clicked」尾碼。<br>大小上限= 250。<br>允許的字元： `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 的名稱。 |
 | request > execute > mboxes>mbox>index | 是 | 非null。<br>唯一。<br>`>=` 0。 | 請注意，索引不代表處理 mbox 的順序。與含有數個區域 mbox 的網頁相同，無法指定處理 mbox 的順序。 |
-| request > execute > mboxes > mbox > parameters | 無 | 計數上限= 50.<br>名稱不得空白。<br>名稱長度`<=` 128。<br>僅接受字串值。<br>值長度 `<=` 5000。<br>名稱不得以「profile」開頭。<br>不允許的名稱：&quot;orderId&quot;、&quot;orderTotal&quot;、&quot;productPurchasedId&quot;。 | 使用指定的參數為特定 mbox 擷取選件。 |
-| request > execute > mboxes>mbox>profileParameters | 無 | 計數上限= 50.<br>名稱不得空白。<br>名稱長度`<=` 128。<br>僅接受字串值。<br>值長度 `<=`256。<br>名稱不得以「profile」開頭。 | 使用指定的設定檔參數為特定 mbox 擷取選件。 |
+| request > execute > mboxes > mbox > parameters | 無 | 計數上限= 50。<br>名稱不得空白。<br>名稱長度 `<=` 128。<br>僅接受字串值。<br>值長度 `<=` 5000。<br>名稱不得以「profile」開頭。<br>不允許的名稱：&quot;orderId&quot;、&quot;orderTotal&quot;、&quot;productPurchasedId&quot;。 | 使用指定的參數為特定 mbox 擷取選件。 |
+| request > execute > mboxes>mbox>profileParameters | 無 | 計數上限= 50。<br>名稱不得空白。<br>名稱長度 `<=` 128。<br>僅接受字串值。<br>值長度 `<=`256。<br>名稱不得以「profile」開頭。 | 使用指定的設定檔參數為特定 mbox 擷取選件。 |
 | request > execute > mboxes>mbox > product | 無 |  |  |
 | request > execute > mboxes > mbox > product > id | 無 | 不得空白。<br>大小上限= 128。 | 使用指定的產品 ID 為特定 mbox 擷取選件。 |
 | request > execute > mboxes > mbox > product > categoryId | 無 | 不得空白。<br>大小上限= 128。 | 使用指定的類別 ID 為特定 mbox 擷取選件。 |
 | request > execute > mboxes > mbox > order | 無 |  |  |
 | request > execute > mboxes>mbox > order > id | 無 | 長度上限 = 250。 | 使用指定的訂單 ID 為特定 mbox 擷取選件。 |
 | request > execute > mboxes > mbox > order > total | 無 | `>=` 0。 | 使用指定的訂單總金額為特定 mbox 擷取選件。 |
-| request > execute > mboxes > mbox > order > purchasedProductIds | 無 | 無空白值。<br>每個值的長度上限= 50.<br>串連並以逗號分隔。<br>產品ID總長度`<=` 250。 | 使用指定的已購產品 ID 為特定 mbox 擷取選件。 |
+| request > execute > mboxes > mbox > order > purchasedProductIds | 無 | 無空白值。<br>每個值的最大長度= 50。<br>串連並以逗號分隔。<br>產品ID總長度 `<=` 250。 | 使用指定的已購產品 ID 為特定 mbox 擷取選件。 |
 
 ## 呼叫所有檢視的getOffers()
 
@@ -86,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers()以進行裝置上的決策
+## 呼叫getOffers()以進行裝置上決策
 
 ```javascript
 adobe.target.getOffers({ 
@@ -205,7 +205,7 @@ adobe.target.getOffers({
 }
 ```
 
-接著，裝載可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)轉送至Adobe Analytics。
+接著，裝載可透過 [資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 透過 getOffers() and applyOffers() 從多個 mbox 擷取及呈現資料  {#multiple}
 
