@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 12 月 7 日 | [Target建議演算法背後的科學](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |
+| 12 月 7 日 | [Target 推薦演算法背後的科學](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |
 | 12 月 2 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了以 Cart 為基礎的算法，以包括透過 mbox 參數 cartIds (以逗號分隔值) 提供的推薦鍵。僅考慮前 10 個值。 |
 | 11 月 18 日 | [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 列中新增註解，指出以下頁面中的[!UICONTROL 可視化體驗撰寫器] (VEC) 不再支援 mbox：使用 at.js 2.*x*。 |
 | 11 月 16 日 | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 已新增關於檔案上傳限制的資訊，其中包含 *Experience Cloud 中央介面元件指南*&#x200B;中的[關於客戶屬性的資料檔案和資料來源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant)連結。 |
