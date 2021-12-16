@@ -1,59 +1,58 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;faq;常見問題集; 重要屬性
-description: 瞭解如何使用Adobe [!DNL Target] 中的「重要屬性」報表，顯示影響個人化模型的主要屬性及其相對重要性。
-title: 什麼是重要屬性報表？
-feature: 報表
+description: 了解如何使用 [!UICONTROL 重要屬性] 顯示影響個人化模型的排名最前屬性及其相對重要性的報表。
+title: 什麼是「重要屬性」報表？
+feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 92%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 「重要屬性」報表
 
-有關「重要屬性」報表的資訊，其為自動個人化 (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表之一。
+關於 [!UICONTROL 重要屬性] 報告，供 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。
 
 >[!NOTE]
 >
->使用「個人化洞察」報表時，請考慮下列事項：
+>使用 [!UICONTROL 個人化前瞻分析] 報表：
 >
 >* AP 和 AT 活動是 [!DNL Target Premium] 解決方案內建的功能。若沒有 [!DNL Target Standard] 授權，[!DNL Target Premium] 便未隨附這些解決方案。
-   >
-   >
-* [!UICONTROL 「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。]也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
-   >
-   >
-* [!UICONTROL 「個人] 化分析」報表僅在從「報 [!UICONTROL 表度] 量」下拉式清單中選  取「主要Goalis」時才可用。
-   >
-   >
-* 「個人化前瞻分析」報表僅支援於[預設環境](/help/administrating-target/hosts.md)中使用。
-   >
-   >
-* [!UICONTROL 個人] 化洞察報告只會針對處於「即時」狀態且已啟  動並接收至少15天流量的活動產生。
+>
+>* [!UICONTROL 「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。]也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
+>
+>* [!UICONTROL 個人化前瞻分析] 只有在 [!UICONTROL 主要目標] 從 [!UICONTROL 報表量度] 下拉式清單。
+>
+>* 「個人化前瞻分析」報表僅支援於[預設環境](/help/administrating-target/hosts.md)中使用。
+>
+>* [!UICONTROL 個人化前瞻分析] 報表只會針對 [!UICONTROL 即時] 狀態和已啟用且已接收至少15天的流量。
 
 
 在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。此報表顯示影響模型及其相對重要性的常見屬性。
 
-## 存取「重要屬性」報表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## 存取 [!UICONTROL 重要屬性] 報告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下「**[!UICONTROL 活動]**」，然後按一下清單中所要的[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自動定位](/help/c-activities/auto-target/auto-target-to-optimize.md)活動。
+1. 按一下 **[!UICONTROL 活動]**，然後按一下所需的 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [自動鎖定目標](/help/c-activities/auto-target/auto-target-to-optimize.md) 活動。
 
    如果您有許多活動，您可以利用從[!UICONTROL 「類型」]、[!UICONTROL 「狀態」]、[!UICONTROL 「報表來源」]、[!UICONTROL 「體驗撰寫器」]、[!UICONTROL 「量度類型」]和[!UICONTROL 「活動來源」]下拉式清單選取選項來篩選清單。
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   會顯示「[Automated Personalization摘要](/help/c-reports/reports-ap.md)或[自動目標摘要](/help/c-reports/auto-target-summary-report.md)」報表，其中提供有關活動績效的資訊，由第一個畫面圖示表示。 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。請注意，自動鎖定目標有另一個圖形圖示，用於[!UICONTROL 「摘要」]報表的圖形檢視。
+   此 [Automated Personalization摘要](/help/c-reports/reports-ap.md) 或 [自動鎖定目標摘要](/help/c-reports/auto-target-summary-report.md) 報表隨即顯示，其中提供活動效能的相關資訊，由第一個螢幕圖示表示。 另外兩個圖示代表這兩個 [!UICONTROL 個人化前瞻分析] 報表： [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性].
 
-   ![](assets/personalization_insights.png)
+   ![Automated Personalization活動的摘要報表](assets/summary-report-ap.png)
+
+   請注意 [!UICONTROL 自動鎖定目標] 有另一個圖表圖示，用於 [!UICONTROL 摘要] 報表。
+
+   ![自動鎖定目標活動的摘要報表](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 您啟動活動後的至少 15 天內，將無法使用「重要屬性」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「重要屬性」]圖示。15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「重要屬性」]報表。
+   >[!UICONTROL 您啟動活動後的至少 15 天內，將無法使用「重要屬性」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「重要屬性」]圖示。15天過後，假設您的活動中有足夠的個人化流量，則 [!UICONTROL 重要屬性] 報表可供使用。
 
-1. 啟動活動 15 天後，即可點擊&#x200B;**[!UICONTROL 「重要屬性」]**&#x200B;圖示。
+1. 啟動活動15天後，按一下 **[!UICONTROL 重要屬性]** 表徵圖。
 
    ![](assets/model_attribute_ranking.png)
 
@@ -87,7 +86,7 @@ ht-degree: 92%
 | 橫條圖 | 畫面頂端的多色彩橫條圖允許您視覺化這些相對重要性分數，並對應到表格中各個屬性旁邊的點的顏色。您也可以將游標移至橫條圖中的特定顏色上，以查看其代表的屬性。100 個常見屬性的重要性分數增加到 100%。如需如何新增更多 Target 個人化模型可使用之屬性的詳細資訊，請參閱[上傳用於 Target 個人化演算法的資料](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。 |
 | 模型屬性排名圖表 | 「模型屬性排名」包括 10 個常見的屬性，這些對於 Target 的個人化模型如何決定向每個訪客顯示內容而言是最重要的屬性。重要性分數顯示關於這 100 個常見屬性中，特定屬性對此活動中 Target 個人化模型的重要程度。 |
 
-## 「重要屬性」常見問題集{#section_740910A52FA646B4AC9452F98C2F5719}
+## 「重要屬性」常見問題集 {#section_740910A52FA646B4AC9452F98C2F5719}
 
 **「個人化前瞻分析」報表尚不適用於我的活動。是什麼原因?**
 
