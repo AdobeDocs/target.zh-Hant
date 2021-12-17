@@ -1,14 +1,14 @@
 ---
 keywords: 實作；設定；設定；頁面參數
-description: 使用頁面參數將資料傳入 [!DNL Target] 。
-title: 如何使用頁面參數將資料傳入 [!DNL Target] ?
-feature: 實施
+description: 將資料帶入 [!DNL Target] 使用頁面參數。
+title: 如何將資料帶入 [!DNL Target] 使用頁面參數？
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '372'
+ht-degree: 45%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 46%
 
    ```< > # % " { } | \ ^ [ ] ` ```
 
-   除此之外的字元都必須經過 URL 編碼。此標準指定了下列格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示：
+   除此之外的字元都必須經過 URL 編碼。此標準指定了下列格式( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )，如下圖所示：
 
    ![](assets/ietf1.png)
 
@@ -66,10 +66,6 @@ targetPageParamsAll (將參數附加至頁面上的所有 mbox 呼叫):
 targetPageParams (將參數附加至頁面上的全域 mbox):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-mboxCreate 程式碼中的參數:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## 相關資訊的連結
 
