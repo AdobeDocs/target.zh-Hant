@@ -4,10 +4,10 @@ description: 了解如何使用 [!UICONTROL 重要屬性] 顯示影響個人化�
 title: 什麼是「重要屬性」報表？
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1709'
+ht-degree: 82%
 
 ---
 
@@ -58,7 +58,13 @@ ht-degree: 86%
 
 1. 選取所需的日期範圍。
 
-   不同於[!UICONTROL 「摘要」]報表 (績效報表)，[!UICONTROL 「個人化前瞻分析」] (包括[!UICONTROL 「重要屬性」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
+   不同於 [!UICONTROL 摘要] 報告（績效報告）, [!UICONTROL 個人化前瞻分析]，包括 [!UICONTROL 重要屬性]，僅適用於固定日期範圍：15天，30天，60天。
+
+   >[!NOTE]
+   >
+   >此 [!DNL Target] UI目前可讓您選擇45天和90天的日期範圍。 不過， [!DNL Target] 後端不會處理這兩個範圍。 由於使用模式，為了改善效能，這些日期範圍已遭取代。 UI將會更新，以反映目前允許的範圍：15、30和60天。
+
+   這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
    ![](assets/personalization_insights_calendar_1.png)
 

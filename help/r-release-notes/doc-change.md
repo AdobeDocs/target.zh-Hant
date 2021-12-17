@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 100%
+source-wordcount: '3153'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 12 月 17 日 | [「重要屬性」報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 在檢視「重要屬性」報表時，新增下列日期範圍備注：<ul><li>此 [!DNL Target] UI目前可讓您選擇45天和90天的日期範圍。 不過， [!DNL Target] 後端不會處理這兩個範圍。 由於使用模式，為了改善效能，這些日期範圍已遭取代。 UI將會更新，以反映目前允許的範圍：15、30和60天。</li></ul> |
 | 12 月 7 日 | [Target 推薦演算法背後的科學](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |
 | 12 月 2 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了以 Cart 為基礎的算法，以包括透過 mbox 參數 cartIds (以逗號分隔值) 提供的推薦鍵。僅考慮前 10 個值。 |
 | 11 月 18 日 | [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 列中新增註解，指出以下頁面中的[!UICONTROL 可視化體驗撰寫器] (VEC) 不再支援 mbox：使用 at.js 2.*x*。 |
@@ -152,7 +153,7 @@ ht-degree: 100%
 |  | [疑難排解[!UICONTROL 增強體驗撰寫器的相關問題]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 已更新允許清單的 IP 位址清單。 |
 | 5 月 12 日 | [[!DNL Target] 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增以下項目的搶鮮版發行說明：<ul><li>Adobe Experience Platform Web SDK (2021 年 5 月 17 日</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 5 月 10 日 | [[!DNL Recommendations] 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問題：「我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？」 |
-|  | [實施 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 表示不再支援 [!DNL Adobe Dynamic Tag Manager]。[!DNL Adobe] 建議改為使用 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 實施。 |
+|  | [實作 [!DNL Target] 使用 [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 表示不再支援 [!DNL Adobe Dynamic Tag Manager]。[!DNL Adobe] 建議改為使用 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 實施。 |
 | 5 月 6 日 | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 已新增下列常見問答：<ul><li>變更我的 [!UICONTROL Recommendations] 活動、優惠、促銷活動或條件設定需要多久的時間才會反映在我的網站上？</li><li>使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*該*&#x200B;使用者收到的建議中？</li><li>使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*其他*&#x200B;使用者收到的建議中？</li></ul> |
 |  | [裝置上決策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增 Adobe 技術部落格上以下部落格文章的連結：<ul><li>第 1 部分：在 Edge 平台上執行 Adobe Target NodeJS SDK 以進行測試和個人化 (Akamai EdgeWorkers)</li></ul> |
 | 5 月 5 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增於 2021 年 5 月 12 日 (星期三) 上午 8 點 (PDT，GMT-7) 舉行的 Adobe Target 社群問答咖啡會的相關資訊。 |
