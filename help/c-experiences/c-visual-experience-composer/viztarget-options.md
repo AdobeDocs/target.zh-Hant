@@ -1,13 +1,13 @@
 ---
-keywords: 可視化體驗撰寫器選項；體驗撰寫器選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；插入元素；編輯連結；連結；可視化體驗撰寫器連結；編輯css類別；css類別；交換選件；影像交換；移除項目；項目移除；隱藏項目；重新排列；移動元素；元素移動；調整元素大小；元素大小；展開選取；導覽；連結；復原；重做/重做事件；網頁元件
-description: 探索Adobe Target的可視化體驗撰寫器(VEC)中可用的選項。 只要按一下元素，即可查看該元素可用的選項。
-title: 如何使用可視化體驗撰寫器(VEC)選項？
+keywords: 可視化體驗撰寫器選項；體驗撰寫器選項；體驗選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；插入元素；編輯連結；連結；可視化體驗撰寫器連結；編輯css類別；css類別；交換選件；影像交換；移除項目；項目移除；隱藏項目；項目隱藏；重新排列；移動元素；元素移動；調整元素大小；元素；展開選取；導覽至此連結；導覽；連結；復原；重做；重做為自訂選件；決策
+description: 探索 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)。
+title: 如何使用 [!UICONTROL 可視化體驗撰寫器] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: fb9c9e4d2a3d0cf330724dfd02e329fedc388f01
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 71%
+source-wordcount: '2810'
+ht-degree: 65%
 
 ---
 
@@ -15,21 +15,19 @@ ht-degree: 71%
 
 當您按一下 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)，功能表會顯示該元素類型可用的選項。 此外，DOM 路徑會顯示在頁面底部，讓您輕鬆導覽頁面結構。
 
-## VEC 選項
-
-各種可視化體驗撰寫器 (VEC) 動作會分組成適當的功能表選項，讓您更快速且更有效率地執行工作:
+各種 [!UICONTROL 可視化體驗撰寫器] (VEC)動作會分組在適當的功能表選項中，讓您的工作更快速、更有效率：
 
 ![VEC 選項功能表](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->可用的選項取決於您編輯的活動類型。
+>可用的選項取決於您建立或編輯的活動類型。
 
-### [!UICONTROL 編輯]
+## [!UICONTROL 編輯]
 
 可使用下列選項: 
 
-#### [!UICONTROL 文字/HTML] {#edit-text-html}
+### [!UICONTROL 文字/HTML] {#edit-text-html}
 
 變更元素的 HTML 程式碼，例如文字區域、按鈕或連結的文字。
 
@@ -46,13 +44,13 @@ ht-degree: 71%
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### [!UICONTROL 背景色彩]
+### [!UICONTROL 背景色彩]
 
 使用檢色器來選取或設定背景顏色。您可以選取一個色票，然後使用 RGB 值或色彩十六進位代碼調整它。檢色器中的紅色 x 可讓背景透明化。
 
 **注意:** 此選項無法供設定了背景影像的元素使用。
 
-#### [!UICONTROL 樣式] {#styles}
+### [!UICONTROL 樣式] {#styles}
 
 使用[!UICONTROL 樣式]面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。
 
@@ -64,7 +62,7 @@ ht-degree: 71%
 
 當您套用不同的樣式時，您隨時都可以按一下 [!UICONTROL 還原] 圖示顯示於 [!UICONTROL 樣式] 面板。 按一下 [!UICONTROL 還原] 圖示會還原目前區段面板上的所有變更。
 
-展開每個區段以編輯或新增樣式 (如下所述)。若要儲存變更，請按一下面板頂端的返回圖示以返回面板的主要顯示，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+展開每個區段以編輯或新增樣式 (如下所述)。若要儲存變更，請按一下 [!UICONTROL 返回] 圖示以返回面板的主顯示，然後按一下 **[!UICONTROL 儲存]**.
 
 主面板上以及各種區段面板上每個選項旁的藍點表示您已變更對應的樣式。 此視覺指標可讓您在按一下 [!UICONTROL 儲存].
 
@@ -202,23 +200,31 @@ ht-degree: 71%
    >
    >您可以使用 CSS 編輯器套用背景影像，但可能會導致忽隱忽現的情形。請在部署前測試您的變更。
 
-#### [!UICONTROL CSS 類別]
+### [!UICONTROL CSS 類別]
 
 指定用於元素的預先定義 CSS 類別。如果選取超過一個元素，請將多個 CSS 類別以空格分隔。
 
 可用於[!UICONTROL 「A/B」]、[!UICONTROL 「自動個人化」]和[!UICONTROL 「多變數測試」]活動。
 
-#### [!UICONTROL 連結]
+### [!UICONTROL 連結]
 
 變更連結中的 URL。
 
 使用「編輯連結」來更新選取器以指向相同的影像元素。不過，不支援連結至不同的影像元素。若要連結至不同的影像元素，請從代碼編輯器刪除原始動作，並使用[!UICONTROL 可視化體驗撰寫器]在其他影像元素上套用動作。
 
-### [!UICONTROL 插入在前]
+## [!UICONTROL 插入在前]
 
 可使用下列選項: 
 
-#### [!UICONTROL 影像], [!UICONTROL HTML]，和 [!UICONTROL 文字]
+### [!UICONTROL 優惠方案決策]
+
+新增 [在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，使用offer decisioning向客戶呈現最佳選件和體驗。
+
+**注意：** 編輯或建立時，此選項可供使用 [手動 [!UICONTROL A/B測試]](/help/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗鎖定]](/help/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
+
+如需詳細資訊，請參閱 [使用優惠方案決策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 影像], [!UICONTROL HTML]，和 [!UICONTROL 文字]
 
 除了修改現有內容以外，新增任何類型的元素至您的頁面。新增文字、代碼、清單和更多內容來建立完全不同的體驗進行測試。
 
@@ -230,19 +236,27 @@ ht-degree: 71%
 
 **注意:** 插入影像需要啟用 [!DNL Adobe Scene7 Publishing System] 發佈系統，這樣您才會具備影像資料庫的存取權。
 
-#### 建議
+### 建議
 
 包括 A/B 測試 (含自動分配和自動鎖定目標) 與體驗鎖定目標 (XT) 活動內的建議。如需詳細資訊，請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### [!UICONTROL 體驗片段]
+### [!UICONTROL 體驗片段]
 
 在 [!DNL Target] 活動中插入在 [!DNL Adobe Experience Manager] (AEM) 中建立的體驗片段，以輔助最佳化或個人化。如需詳細資訊，請參閱 [AEM Experience 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### [!UICONTROL 插入在後]
+## [!UICONTROL 插入在後]
 
 可使用下列選項: 
 
-#### [!UICONTROL 影像], [!UICONTROL HTML]，和 [!UICONTROL 文字]
+### [!UICONTROL 優惠方案決策]
+
+新增 [在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，使用offer decisioning向客戶呈現最佳選件和體驗。
+
+**注意：** 編輯或建立時，此選項可供使用 [手動 [!UICONTROL A/B測試]](/help/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗鎖定]](/help/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
+
+如需詳細資訊，請參閱 [使用優惠方案決策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 影像], [!UICONTROL HTML]，和 [!UICONTROL 文字]
 
 除了修改現有內容以外，新增任何類型的元素至您的頁面。新增文字、代碼、清單和更多內容來建立完全不同的體驗進行測試。
 
@@ -254,19 +268,27 @@ ht-degree: 71%
 
 **注意:** 插入影像需要啟用 [!DNL Adobe Scene7 Publishing System] 發佈系統，這樣您才會具備影像資料庫的存取權。
 
-#### 建議
+### 建議
 
 包括 A/B 測試 (含自動分配和自動鎖定目標) 與體驗鎖定目標 (XT) 活動內的建議。如需詳細資訊，請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### [!UICONTROL 體驗片段]
+### [!UICONTROL 體驗片段]
 
 在 [!DNL Target] 活動中插入在 [!DNL Adobe Experience Manager] (AEM) 中建立的體驗片段，以輔助最佳化或個人化。如需詳細資訊，請參閱 [AEM Experience 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### [!UICONTROL 取代為]
+## [!UICONTROL 取代內容]
 
 可使用下列選項: 
 
-#### [!UICONTROL 影像]
+### [!UICONTROL 優惠方案決策]
+
+新增 [在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，使用offer decisioning向客戶呈現最佳選件和體驗。
+
+**注意：** 編輯或建立時，此選項可供使用 [手動 [!UICONTROL A/B測試]](/help/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗鎖定]](/help/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
+
+如需詳細資訊，請參閱 [使用優惠方案決策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 影像]
 
 從內容庫選取不同的影像。可用於交換的影像包括上傳至 Experience Cloud 資產資料夾或上傳在 Target 內容庫中的影像。
 
@@ -284,7 +306,7 @@ Recommendations 在 DIV、SECTION 和 ARTICLE 標記中可支援「取代為」�
 
 **注意:** 交換影像需要 Adobe Scene7 發佈系統帳戶。
 
-#### [!UICONTROL HTML 選件]
+### [!UICONTROL HTML 選件]
 
 從[!UICONTROL 「內容資料庫」]選取不同的選件。
 
@@ -292,55 +314,55 @@ Recommendations 在 DIV、SECTION 和 ARTICLE 標記中可支援「取代為」�
 
 HTML選件最多可以是256 KB。
 
-#### 建議
+### 建議
 
 包括 A/B 測試 (含自動分配和自動鎖定目標) 與體驗鎖定目標 (XT) 活動內的建議。如需詳細資訊，請參閱[以選件方式使用 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### [!UICONTROL 體驗片段]
+### [!UICONTROL 體驗片段]
 
 在 [!DNL Target] 活動中插入在 [!DNL Adobe Experience Manager] (AEM) 中建立的體驗片段，以輔助最佳化或個人化。如需詳細資訊，請參閱 [AEM Experience 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### [!UICONTROL 配置]
+## [!UICONTROL 配置]
 
 可使用下列選項: 
 
-#### [!UICONTROL 重新排列]
+### [!UICONTROL 重新排列]
 
 將元素拖曳到相同上層元素內的另一個位置或 DIV。其他元素會移動位置，為重新排列的元素騰出空間。
 
 **注意:** 點擊追蹤對重新排列的項目沒有作用。
 
-#### [!UICONTROL 調整大小]
+### [!UICONTROL 調整大小]
 
 在您的頁面上調整元素的大小。選取 [!UICONTROL 調整大小]，元素的右下角會顯示控點，供您拖曳該角以調整大小。 按住 Shift 鍵來保持相同的外觀比例。
 
 **注意:** 不能對行內元素調整大小。
 
-#### [!UICONTROL 移動] {#move}
+### [!UICONTROL 移動] {#move}
 
 在頁面上移動元素。與[!UICONTROL 「重新排列」]選項不同，[!UICONTROL 「移動」]選項不會移動其他元素來為已移動的元素騰出空間。使用方向鍵來微調此移動。(計畫的增強：支援，確保移動的元素不會隱藏在其他元素後面。)
 
 在某些情況下，例如當CSS限制需要元素保留在其上層元素內時，您無法將元素移出其上層之外。 元素無法移到有下列 CSS 屬性的容器之外: `overflow: hidden`。
 
-#### [!UICONTROL 隱藏]
+### [!UICONTROL 隱藏]
 
 隱藏元素。白色空間會保留，但移除內容。
 
-#### [!UICONTROL 移除]
+### [!UICONTROL 移除]
 
 移除元素。影像背後的白色空間會移除，而元素所在位置的空間會折疊。
 
 **注意:** 您無法使用此選項移除 &quot;classic&quot; mbox 內的項目 (在 Target Classic 促銷活動內建立的 mbox)。
 
-### [!UICONTROL 展開區段]
+## [!UICONTROL 展開區段]
 
 除了原始選取的元素以外，請選取上層元素。選取任何上層元素時，系統會自動選取該元素的所有下層。您可以展開選取範圍多次。
 
-### [!UICONTROL 導覽至連結]
+## [!UICONTROL 導覽至連結]
 
 開啟連結的目的地。
 
-### [!UICONTROL 還原]/[!UICONTROL 取消復原]
+## [!UICONTROL 還原]/[!UICONTROL 取消復原]
 
 在編輯工作階段期間，還原您對活動所進行的變更。您也可以重做先前已還原的變更。
 
