@@ -4,7 +4,7 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 86%
@@ -31,7 +31,7 @@ ht-degree: 86%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 在Target活動中使用選件決策 | 您現在可以使用 [!DNL Adobe Journey Optimizer] 在 [!DNL Adobe Target] A/B測試和體驗鎖定目標(XT)活動，以決定下一個最佳選件，並在網頁和行動裝置上提供給您的訪客。<br>如需詳細資訊，請參閱使用優惠方案決策。<br>**附註**:此功能適用於 [!DNL Target] 也可存取Offer decisioning的客戶，且 [!DNL Target] 以AdobeExperience Platform Web SDK為基礎的實作。 |
+| 在中使用優惠方案決策 [!DNL Target] 活動 | 您現在可以使用 [!DNL Adobe Journey Optimizer] 在 [!DNL Target] [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] (XT)活動，以決定下一個最佳優惠方案，並透過網頁和行動裝置傳送給您的訪客。<br>如需詳細資訊，請參閱 [使用優惠方案決策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**附註**:此功能適用於 [!DNL Target] 也可存取Offer decisioning的客戶，且 [!DNL Target] 以Adobe Experience Platform Web SDK為基礎的實作。 |
 
 ## at.js 2.7.0 版 (2021 年 10 月 28 日)
 
