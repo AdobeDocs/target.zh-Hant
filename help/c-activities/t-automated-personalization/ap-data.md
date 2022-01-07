@@ -4,9 +4,9 @@ description: 了解哪些資料Adobe [!DNL Target] 收集並用於建置其機�
 title: 收集哪些資料以建立機器學習演算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: e830bd2de96884b6dd0c1f56b380874e1e1f7c04
+source-git-commit: 82031068246cd7d29278d2241e686a6c00ad319d
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2106'
 ht-degree: 47%
 
 ---
@@ -60,17 +60,17 @@ ht-degree: 47%
 | 行動 - 裝置 - 遊戲機 | 指定裝置是否為遊戲機。 | 0 為 False，1 為 True | MOB_targeting.mobile.gamesConsole |
 | 行動 - 裝置 - 媒體播放器 | 指定裝置是否為媒體播放器。 | 0 為 False，1 為 True | MOB_targeting.mobile.mediaPlayer |
 | 行動 - 裝置 - 行動電話 | 指定裝置是否為行動電話。 | 0 為 False，1 為 True | MOB_targeting.mobile.mobilePhone |
-| 行動 - 裝置 - 型號 | 訪客用來存取活動的行動裝置型號。 | iPhone XS | MOB_targeting.mobile.modelName |
+| 行動 - 裝置 - 型號 | 訪客用來存取活動的行動裝置型號。 | iPhone XS | MOB_targeting.mobile.model |
 | 裝置 - 電視盒 | 指定裝置是否為電視盒。 | 0 為 False，1 為 True | MOB_targeting.mobile.setTopBox |
 | 行動 - 裝置 - 平板電腦 | 指定裝置是否為平板電腦。 | 0 為 False，1 為 True | MOB_targeting.mobile.tablet |
 | 行動 - 像素密度 (ppi) | 訪客用來存取活動的行動裝置像素密度。 | 1、2、3 等 | MOB_targeting.mobile.displayPpi |
-| 行動 - OS – OSX (Android、Windows 等) | 指定使用者是否已使用 OSX (或 Android、Windows 等)裝置來存取活動。 | 0 為 False，1 為 True | MOB_targeting.mobile.os[作業系統]<br>例如， MOB_targeting.mobile.osOSx、MOB_targeting.mobile.osAndroid、MOB_targeting.mobile.osLinux |
+| 行動 - OS – OSX (Android、Windows 等) | 指定使用者是否已使用 OSX (或 Android、Windows 等)裝置來存取活動。 | 0 為 False，1 為 True | MOB_targeting.mobile.os[作業系統]<br>例如， MOB_targeting.mobile.osOSx、MOB_targeting.mobile.osWindows、MOB_targeting.mobile.osAndroid、MOB_targeting.mobile.osAndroid、MOB_targeting.mobile.osLinux |
 | 行動 - 畫面高度 (px) | 訪客用來存取活動的行動裝置畫面高度 (以像素為單位)。 | 1、2、3 等 | MOB_targeting.mobile.displayHeight |
 | 行動 - 畫面寬度 (px) | 訪客用來存取活動的行動裝置畫面寬度 (以像素為單位)。 | 1、2、3 等 | MOB_targeting.mobile.displayWidth |
 
 ## 環境資料 {#env}
 
-|屬性名稱|屬性說明|示例值|系統名稱| | — | — | — | — | |瀏覽器 — 一週中的某天|訪客存取活動時的每週某天。|0到6。<br>（0是星期日）|ENV_DAY_OF_WEEK_HOUR| |瀏覽器 — 一天中的第幾個小時|訪客存取活動時的一天中的第幾個小時。|0 - 23<br>（0是午夜）|ENV_USER_HOUR| |瀏覽器 — 一週中的某小時|訪客存取活動時的一週中的某小時。|0 - 168<br>（星期日午夜為0）|ENV_WeekHour| |瀏覽器 — 語言設定|訪客瀏覽器中指定用來存取活動的語言。|英語<br>德文|ENV_語言| |瀏覽器 — 螢幕寬度(px)|訪客用來存取活動的裝置瀏覽器螢幕寬度（以像素為單位）。|1、2、3等|ENV_browserWidth| |瀏覽器 — 每日時間|訪客存取活動時的瀏覽器每日時間。|0、6、12、18<br>(0是晚上，6是早上，<br>12是下午，18是晚上)|ENV_LOCAL_TIME_PERIOD| |瀏覽器 — 時區|存取活動時的訪客時區。|太平洋時間<br>東部時間<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |瀏覽器 — 類型|訪客在存取活動時使用的瀏覽器類型。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>其他|ENV_Browser| |瀏覽器 — 工作日/週末|訪客存取活動時的工作狀態（週末、工作時間或工作日自由時間）。|星期六和星期日是週末<br>09:00至18:00是工作時間<br>1800年之後的星期一至星期五至0900是工作日自由時間|ENV_USER_HOUR_TYPE| |瀏覽器 — 視窗高度(px)|訪客用來存取活動的瀏覽器視窗高度（像素）。|1、2、3等|ENV_BrowserHeight| |瀏覽器 — 視窗寬度(px)|訪客用來存取活動的瀏覽器視窗寬度（像素）。|1、2、3等|ENV_BrowserWidth| |裝置 — 螢幕高度|訪客用來存取活動的裝置螢幕高度。|1、2、3等|ENV_SCREEN_HEIGHT| |裝置 — 螢幕寬度|訪客用來存取活動的裝置螢幕寬度。|1、2、3等|ENV_SCREEN_WIDTH| |作業系統|訪客裝置上用來存取活動的作業系統。|Mac OS<br>Windows<br>Linux<br>搜尋機器人<br>未知的OS|ENV_OperatingSystem| |作業系統 — 版本|訪客用來存取活動的作業系統版本。|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION| |流量來源 — 反向連結著陸頁面URL|訪客在存取您的網站時看到的第一個頁面。|`https://www.adobe.com/ecloud.html`|ENV_REFERRER|
+|屬性名稱|屬性說明|示例值|系統名稱| | — | — | — | — | |瀏覽器 — 一週中的某天|訪客存取活動時的每週某天。|0到6。<br>（0是星期日）|ENV_DayOfWeek| |瀏覽器 — 一天中的第幾個小時|訪客存取活動時的一天中的第幾個小時。|0 - 23<br>（0是午夜）|ENV_UserHour| |瀏覽器 — 一週中的某小時|訪客存取活動時的一週中的某小時。|0 - 168<br>（星期日午夜為0）|ENV_WeekHour| |瀏覽器 — 語言設定|訪客瀏覽器中指定用來存取活動的語言。|英語<br>德文|ENV_語言| |瀏覽器 — 螢幕寬度(px)|訪客用來存取活動的裝置瀏覽器螢幕寬度（以像素為單位）。|1、2、3等|ENV_browserWidth| |瀏覽器 — 每日時間|訪客存取活動時的瀏覽器每日時間。|0、6、12、18<br>(0是晚上，6是早上，<br>12是下午，18是晚上)|ENV_LocalTimePeriod| |瀏覽器 — 時區|存取活動時的訪客時區。|太平洋時間<br>東部時間<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |瀏覽器 — 類型|訪客在存取活動時使用的瀏覽器類型。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>其他|ENV_Browser| |瀏覽器 — 工作日/週末|訪客存取活動時的工作狀態（週末、工作時間或工作日自由時間）。|星期六和星期日是週末<br>09:00至18:00是工作時間<br>1800之後的星期一至星期五至0900是平日自由時間|ENV_UserHourType| |瀏覽器 — 視窗高度(px)|訪客用來存取活動的瀏覽器視窗高度（像素）。|1、2、3等|ENV_BrowserHeight| |瀏覽器 — 視窗寬度(px)|訪客用來存取活動的瀏覽器視窗寬度（像素）。|1、2、3等|ENV_BrowserWidth| |裝置 — 螢幕高度(px)|訪客用來存取活動的裝置螢幕高度。|1、2、3等|ENV_ScreenHeight| |裝置 — 螢幕寬度(px)|訪客用來存取活動的裝置螢幕寬度。|1、2、3等|ENV_ScreenWidth| |作業系統|訪客裝置上用來存取活動的作業系統。|Mac OS<br>Windows<br>Linux<br>搜尋機器人<br>未知的OS|ENV_OperatingSystem| |作業系統 — 版本|訪客用來存取活動的作業系統版本。|Windows 10<br>Mac OS 10|ENV_OperatingSystemVersion| |流量來源 — 反向連結著陸頁面URL|訪客在存取您的網站時看到的第一個頁面。|`https://www.adobe.com/ecloud.html`|ENV_Referrer|
 
 ## 地理位置資料 {#geo}
 
