@@ -4,13 +4,13 @@ description: 檢視每個版本Adobe中變更的詳細資訊 [!DNL Target] at.js
 title: 每個at.js版本包含什麼？
 feature: at.js
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '4280'
+source-wordcount: '4318'
 ht-degree: 88%
 
 ---
-
 
 # at.js 版本詳細資料
 
@@ -22,11 +22,15 @@ ht-degree: 88%
 >
 >中的標籤 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升級at.js的推薦方法。 擴充功能開發人員會持續新增功能至其擴充功能，並經常修正錯誤。 這些更新會封裝成新版本的擴充功能，並可在 [!DNL Adobe Experience Platform] 目錄作為升級。 如需詳細資訊，請參閱 [擴充功能升級](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 在 *標籤概述* 指南。
 
-## at.js版本2.7.0（2021年10月28日）
+## at.js版本2.8.0（2022年1月7日）
+
+此 [!DNL Target] at.js JavaScript程式庫現在會收集功能使用情況和效能遙測資料。 不會收集個人資料。 您可以透過設定 `telemetryEnabled` 誤報 `targetGlobalSettings`. 如需詳細資訊，請參閱 [targetGlobalSettings中的remelegateEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+
+## at.js 2.7.0 版 (2021 年 10 月 28 日)
 
 此版本包含下列增強功能：
 
-* 新增 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 必須在自訂元素和自訂元素內的元素上建立和測試個人化體驗和選件，才需要此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版。
+* 新增 [Web 元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支援。在自訂元素及其內部元素上建立和測試個人化體驗和選件，必須有此版本的 at.js。此功能包含在 [!DNL Target Standard/Premium] 21.10.5 版。
 
 ## at.js 2.6.1 (2021 年 8 月 16 日)
 
@@ -105,7 +109,7 @@ ht-degree: 88%
 
 * 將at.js檢查Cookie重新命名為 `check` to `at_check` 以避免與客戶的實作衝突。
 
-## at.js版本2.2.0（2019年10月10日）
+## at.js 2.2.0 版 (2019 年 10 月 10 日)
 
 此版at.js包含下列增強功能和修正：
 
@@ -120,7 +124,7 @@ ht-degree: 88%
 
 * at.js 2.2版也提供名為 `serverState`. 實作Target的混合整合時，此設定可用來最佳化頁面效能。 混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。如需詳細資訊，請參閱 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中的 「serverState」。
 
-## at.js版本1.8.0（2019年10月10日）
+## at.js 1.8.0 版 (2019 年 10 月 10 日)
 
 此版at.js包含下列增強功能和修正：
 

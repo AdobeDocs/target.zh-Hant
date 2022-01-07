@@ -4,10 +4,10 @@ description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 99%
+source-wordcount: '3223'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 1 月 7 日 |  [發行說明](/help/r-release-notes/release-notes.md) | 新增關於at.js版本2.8.0的資訊。 |
+|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於at.js版本2.8.0的資訊。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | 新增關於 `telemetry` 設定的詳細資訊。 |
+|  | [隱私權](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已新增下列章節：&quot;功能使用資料的集合。&quot; |
+|  | [使用的資料 [!DNL Target] 機器學習算法](/help/c-activities/t-automated-personalization/ap-data.md) | 更新整個主題，包括：<ul><li>新區段：&quot;阻止功能 [!DNL Target] 機器學習演算法」</li><li>已將「系統名稱」欄和資訊新增至數個表格。</li></ul> |
 | 1 月 6 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 新增 [!DNL Target Standard/Premium] 22.1.1版。 |
 | 12 月 17 日 | [重要屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增以下在檢視「重要屬性」報表時關於日期範圍的說明：<ul><li>[!DNL Target] UI 目前可讓您選擇 45 天和 90 天日期範圍。不過 [!DNL Target] 後端不會處理這兩個範圍。由於使用模式，並為了改善效能，這些日期範圍已被取代。UI 將會更新以反映目前允許的範圍：15、30 和 60 天。</li></ul> |
 | 12 月 7 日 | [Target 推薦演算法背後的科學](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |

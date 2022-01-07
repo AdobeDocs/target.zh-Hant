@@ -1,20 +1,26 @@
 ---
 keywords: 隱私權；IP位址；地域劃分；選擇退出；選擇退出；選擇退出；資料隱私權；政府法規；法規；GDPR;CCPA
-description: 了解Adobe [!DNL Target] 如何遵守適用的資料隱私權法律，包括收集和處理IP位址，以及選擇退出指示。
-title: ' [!DNL Target] 如何處理隱私權問題？'
-feature: 隱私權與安全性
+description: 了解Adobe [!DNL Target] 符合適用的資料隱私權法律，包括收集和處理IP位址，以及選擇退出指示。
+title: 如何 [!DNL Target] 處理隱私權問題？
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 63%
+source-wordcount: '738'
+ht-degree: 57%
 
 ---
 
 # 隱私權
 
 [!DNL Adobe Target] 已啟用程序和設定，允許您使用 遵守適用的資料隱私權法律。[!DNL Target]
+
+## 功能使用資料的收集
+
+系統會針對內部收集個別功能使用資料 [!DNL Adobe] 用於識別 [!DNL Target] 功能的執行方式或識別未充分利用的功能。 收集延遲的各種測量資料，以幫助解決效能問題。 不會收集個人資料。
+
+您可以借由設定 `telemetryEnabled` 在用戶端初始化選項中設為false。 如需詳細資訊，請參閱 [targetGlobalSettings中的remelegateEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## IP位址的收集 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Target會收到完整IP位址，並依指定將其模糊化（若設為最後八
 
 >[!NOTE]
 >
->[請連絡Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 用戶端服務，判斷您目前使用的設定，或啟用IP模糊化功能。
+>[聯絡Adobe客戶服務](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 以判斷您目前使用的設定或，以啟用IP模糊化功能。
 
 ## 地域劃分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,10 +58,9 @@ Target會收到完整IP位址，並依指定將其模糊化（若設為最後八
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. （視條件而定）如果您使用CNAME，連結應包含&quot;client=`clientcode`參數，例如：
-https://my.cname.domain/optout?client=clientcode。
+1. （視條件而定）如果您使用CNAME，連結應包含「client=`clientcode` 參數，例如：https://my.cname.domain/optout?client=clientcode。
 
-1. 將`clientcode`取代為您的用戶端代碼，然後新增要連結至選擇退出URL的文字或影像。
+1. 取代 `clientcode` 並新增要連結至選擇退出URL的文字或影像。
 
 訪客只要按一下此連結，就不會包含在任何從該訪客的瀏覽作業呼叫的 mbox 中，直到訪客刪除本身的 Cookie 或事隔滿兩年 (以先發生者為準) 為止。其原理是在 `disableClient` 中為訪客設定一個名稱為 `clientcode.tt.omtrdc.net` 的 Cookie。
 
@@ -63,4 +68,4 @@ https://my.cname.domain/optout?client=clientcode。
 
 ## 隱私權與資料保護規範
 
-請參閱[隱私權與資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) ，以取得歐盟一般資料保護規範(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求的相關資訊，以及這些規範對您的組織和Adobe Target有何影響。
+請參閱 [隱私權與資料保護規範](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 如需歐盟一般資料保護規範(GDPR)、加州消費者隱私保護法(CCPA)及其他國際隱私權要求的相關資訊，以及這些規範對您的組織和Adobe Target有何影響。
