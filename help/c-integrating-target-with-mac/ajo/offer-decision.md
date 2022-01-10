@@ -1,11 +1,12 @@
 ---
 keywords: 可視化體驗撰寫器選項；體驗撰寫器選項；體驗選項；選件決策；offer decisioning;ajo；歷程最佳化程式
 description: 了解如何新增中建立的優惠方案決策 [!DNL Adobe Journey Optimizer] 至活動。
-title: '如何使用選件決策？ '
+title: 如何使用選件決策？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 >
 >此主題中說明的優惠方案決策功能預計於2022年1月13日發行，並搭配 [!DNL Target Standard/Premium] 22.1.1版。
 
-如需 [!DNL Adobe Journey Optimizer]，請參閱 [開始使用Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 檔案。
+如需 [!DNL Adobe Journey Optimizer]，請參閱 [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 檔案。
 
 如需優惠方案決策的詳細資訊，請參閱 [關於決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 在 *[!DNL Journey Optimizer]檔案*.
 
@@ -40,13 +41,18 @@ ht-degree: 0%
 
 ### 體育銷售
 
-身為運動聯盟的行銷人員，您想要個人化首頁（桌上型電腦和行動網站）上的內容。 您想要根據訪客最喜愛的團隊和最近的播放器動作來個人化內容，以向他們提供購買相關加盟商品的優惠。 例如，若要為下列每個區域提供個人化體驗：多特蒙德、法蘭克福和波鴻，以及那些內隱和明確支援這些團隊的用戶。 作為量度，您想要查看商品網站的造訪和點按。
+身為運動聯盟的行銷人員，您想要個人化首頁（桌上型電腦和行動網站）上的內容。 您想要個人化以多維度為基礎的內容，並向商店相關的特許經營商品呈現優惠方案。 您有興趣：
 
-您想要在預設體驗和個人化體驗之間設計A/B測試活動(50/50分割)（包括針對每個地區和團隊的選件決策）。 您想要使用此活動來判斷個人化體驗與控制的轉換和提升度。
+* 訪客最喜愛的團隊
+* 最近的運動員/運動員活動（例如，團隊運動、合同更新或受傷）
+
+例如，您想要為下列每個區域提供個人化體驗：多特蒙德、法蘭克福和波鴻，以及那些內隱和明確支援這些團隊的用戶。 作為量度，您想要查看商品網站的造訪和點按。
+
+您想要設計 [!UICONTROL A/B測試] 預設體驗與個人化體驗之間的活動(50/50分割)（包括包含每個地區和團隊之選件的選件決策）。 您想要使用此活動來判斷個人化體驗與控制的轉換和提升度。
 
 ### 遊戲流平台
 
-身為體育組織的行銷人員，您想要針對來自不同地理位置的案頭和行動使用者提供遊戲串流平台的個人化優惠方案：德國、法國、墨西哥和巴西。 當訪客從其中一個地理位置存取案頭或行動網站時，您想要以本地語言傳送遊戲串流優惠，並以本地貨幣為對應價格。
+身為遊戲組織的行銷人員，您想要針對來自不同地理位置的案頭和行動使用者提供遊戲串流平台的個人化優惠方案：德國、法國、墨西哥和巴西。 當訪客從其中一個地理位置存取案頭或行動網站時，您想要以本地語言傳送遊戲串流優惠，並以本地貨幣為對應價格。
 
 在 [!DNL Adobe Journey Optimizer]，您可以為每個目標地理位置建立個人化首頁主圖優惠方案，以及以預設首頁主圖建立後援優惠方案。 然後，您可以建立包含這些優惠方案及其適用性規則的優惠方案決策。 然後，在 [!DNL Target]，您可以建立 [!DNL Experience Targeting] (XT)活動，並將該優惠方案決策插入您的案頭或行動網站，以向訪客提供個人化體驗。
 
@@ -105,11 +111,3 @@ ht-degree: 0%
 * [!DNL Target] 報表不提供選件決策層級的報表。
 
 * 視覺化 [QA連結](/help/c-activities/c-activity-qa/activity-qa.md) for [!DNL Target] 包含選件決策的體驗會影響設定於 [!DNL Adobe Journey Optimizer] 來做決定。
-
-
-
-
-
-
-
-
