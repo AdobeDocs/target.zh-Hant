@@ -3,10 +3,10 @@ description: Adobe [!DNL Target] 中使用的不同詞彙是什麼意思？ 尋�
 title: 我可以在哪裡找到 Target 中使用的詞彙和定義？
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '2425'
-ht-degree: 100%
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
+workflow-type: tm+mt
+source-wordcount: '2493'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,10 @@ Target Standard 中活動的視覺表示。
 **頁數**
 
 一種參與度量，會從訪客第一眼看到此活動的第一個顯示 mbox 開始，測量在一次瀏覽中所檢視的頁數。
+
+**頁面檢視**
+
+頁面檢視是指行動或瀏覽器應用程式、電子郵件或網際網路網站網頁的單一檢視，包括應用程式螢幕檢視、應用程式螢幕狀態、行動網頁及社交網頁。 每次載入或重新整理網頁、載入應用程式、轉譯或產生目標內容，或透過開啟或檢視的電子郵件顯示時，都會發生頁面檢視。
 
 **priority**
 
