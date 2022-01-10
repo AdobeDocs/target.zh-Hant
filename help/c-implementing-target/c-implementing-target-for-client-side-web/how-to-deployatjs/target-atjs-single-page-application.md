@@ -1,16 +1,16 @@
 ---
 keywords: 單頁應用程式實作；實作單頁應用程式；spa;at.js 2.x;at.js；單頁應用程式；單頁應用程式；spa;SPA
-description: 了解如何使用Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] (SPA)。
+description: 了解如何使用Adobe [!DNL Target] at.js 2.x實作 [!DNL Target] (SPA)。
 title: 我可以實作 [!DNL Target] 單頁應用程式(SPA)?
 feature: Implement Server-side
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
+source-git-commit: a2a70136dba70a8b5b448b00199d3113f5f14da4
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2764'
 ht-degree: 70%
 
 ---
-
 
 # 實作單頁應用程式
 
@@ -70,7 +70,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
    首先需要安裝 at.js 2.x。這個 at.js 版本是針對 SPA 所開發。舊版at.js和mbox.js（現已淘汰）不支援Adobe Target檢視和適用於SPA的VEC。
 
-   透過位於以下位置的Adobe Target UI下載at.js 2.x: [!UICONTROL 管理>實作]. 也可透過 [!DNL Adobe Experience Platform]. 不過， [!DNL Adobe Target] 擴充功能目前不是最新狀態且受支援。
+   透過位於以下位置的Adobe Target UI下載at.js 2.x: [!UICONTROL 管理>實作]. 也可透過 [!DNL Adobe Experience Platform].
 
 1. 在您的網站上實作 at.js 2.x 的最新函數 `triggerView()`。
 
