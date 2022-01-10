@@ -4,10 +4,10 @@ description: 了解哪些資料Adobe [!DNL Target] 收集並用於建置其機�
 title: 收集哪些資料以建立機器學習演算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 82031068246cd7d29278d2241e686a6c00ad319d
+source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 47%
+source-wordcount: '2085'
+ht-degree: 48%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 47%
 
 ## 環境資料 {#env}
 
-|屬性名稱|屬性說明|示例值|系統名稱| | — | — | — | — | |瀏覽器 — 一週中的某天|訪客存取活動時的每週某天。|0到6。<br>（0是星期日）|ENV_DayOfWeek| |瀏覽器 — 一天中的第幾個小時|訪客存取活動時的一天中的第幾個小時。|0 - 23<br>（0是午夜）|ENV_UserHour| |瀏覽器 — 一週中的某小時|訪客存取活動時的一週中的某小時。|0 - 168<br>（星期日午夜為0）|ENV_WeekHour| |瀏覽器 — 語言設定|訪客瀏覽器中指定用來存取活動的語言。|英語<br>德文|ENV_語言| |瀏覽器 — 螢幕寬度(px)|訪客用來存取活動的裝置瀏覽器螢幕寬度（以像素為單位）。|1、2、3等|ENV_browserWidth| |瀏覽器 — 每日時間|訪客存取活動時的瀏覽器每日時間。|0、6、12、18<br>(0是晚上，6是早上，<br>12是下午，18是晚上)|ENV_LocalTimePeriod| |瀏覽器 — 時區|存取活動時的訪客時區。|太平洋時間<br>東部時間<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |瀏覽器 — 類型|訪客在存取活動時使用的瀏覽器類型。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>其他|ENV_Browser| |瀏覽器 — 工作日/週末|訪客存取活動時的工作狀態（週末、工作時間或工作日自由時間）。|星期六和星期日是週末<br>09:00至18:00是工作時間<br>1800之後的星期一至星期五至0900是平日自由時間|ENV_UserHourType| |瀏覽器 — 視窗高度(px)|訪客用來存取活動的瀏覽器視窗高度（像素）。|1、2、3等|ENV_BrowserHeight| |瀏覽器 — 視窗寬度(px)|訪客用來存取活動的瀏覽器視窗寬度（像素）。|1、2、3等|ENV_BrowserWidth| |裝置 — 螢幕高度(px)|訪客用來存取活動的裝置螢幕高度。|1、2、3等|ENV_ScreenHeight| |裝置 — 螢幕寬度(px)|訪客用來存取活動的裝置螢幕寬度。|1、2、3等|ENV_ScreenWidth| |作業系統|訪客裝置上用來存取活動的作業系統。|Mac OS<br>Windows<br>Linux<br>搜尋機器人<br>未知的OS|ENV_OperatingSystem| |作業系統 — 版本|訪客用來存取活動的作業系統版本。|Windows 10<br>Mac OS 10|ENV_OperatingSystemVersion| |流量來源 — 反向連結著陸頁面URL|訪客在存取您的網站時看到的第一個頁面。|`https://www.adobe.com/ecloud.html`|ENV_Referrer|
+|屬性名稱|屬性說明|示例值|系統名稱| | — | — | — | — | |瀏覽器 — 一週中的某天|訪客存取活動時的每週某天。|0到6。<br>（0是星期日）|ENV_DayOfWeek| |瀏覽器 — 一天中的第幾個小時|訪客存取活動時的一天中的第幾個小時。|0 - 23<br>（0是午夜）|ENV_UserHour| |瀏覽器 — 一週中的某小時|訪客存取活動時的一週中的某小時。|0 - 168<br>（星期日午夜為0）|ENV_WeekHour| |瀏覽器 — 語言設定|訪客瀏覽器中指定用來存取活動的語言。|英語<br>德文|ENV_語言| |瀏覽器 — 每日時間|訪客存取活動時的瀏覽器每日時間。|0、6、12、18<br>(0是晚上，6是早上，<br>12是下午，18是晚上)|ENV_LocalTimePeriod| |瀏覽器 — 時區|存取活動時的訪客時區。|太平洋時間<br>東部時間<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |瀏覽器 — 類型|訪客在存取活動時使用的瀏覽器類型。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>其他|ENV_Browser| |瀏覽器 — 工作日/週末|訪客存取活動時的工作狀態（週末、工作時間或工作日自由時間）。|星期六和星期日是週末<br>09:00至18:00是工作時間<br>1800之後的星期一至星期五至0900是平日自由時間|ENV_UserHourType| |瀏覽器 — 視窗高度(px)|訪客用來存取活動的瀏覽器視窗高度（像素）。|1、2、3等|ENV_BrowserHeight| |瀏覽器 — 視窗寬度(px)|訪客用來存取活動的瀏覽器視窗寬度（像素）。|1、2、3等|ENV_BrowserWidth| |裝置 — 螢幕高度(px)|訪客用來存取活動的裝置螢幕高度。|1、2、3等|ENV_ScreenHeight| |裝置 — 螢幕寬度(px)|訪客用來存取活動的裝置螢幕寬度。|1、2、3等|ENV_ScreenWidth| |作業系統|訪客裝置上用來存取活動的作業系統。|Mac OS<br>Windows<br>Linux<br>搜尋機器人<br>未知的OS|ENV_OperatingSystem| |作業系統 — 版本|訪客用來存取活動的作業系統版本。|Windows 10<br>Mac OS 10|ENV_OperatingSystemVersion| |流量來源 — 反向連結著陸頁面URL|訪客在存取您的網站時看到的第一個頁面。|`https://www.adobe.com/ecloud.html`|ENV_Referrer|
 
 ## 地理位置資料 {#geo}
 
