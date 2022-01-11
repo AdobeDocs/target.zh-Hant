@@ -4,9 +4,9 @@ description: 提供重要新增項目和 [!DNL Adobe Target] 檔案。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3228'
 ht-degree: 98%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 98%
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | 新增關於 `telemetry` 設定的詳細資訊。 |
 |  | [隱私權](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已新增下列章節：&quot;功能使用資料的集合。&quot; |
 |  | [使用的資料 [!DNL Target] 機器學習算法](/help/c-activities/t-automated-personalization/ap-data.md) | 更新整個主題，包括：<ul><li>新區段：&quot;阻止功能 [!DNL Target] 機器學習演算法」</li><li>已將「系統名稱」欄和資訊新增至數個表格。</li></ul> |
-| 1 月 6 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 新增 [!DNL Target Standard/Premium] 22.1.1版。 |
 | 12 月 17 日 | [重要屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增以下在檢視「重要屬性」報表時關於日期範圍的說明：<ul><li>[!DNL Target] UI 目前可讓您選擇 45 天和 90 天日期範圍。不過 [!DNL Target] 後端不會處理這兩個範圍。由於使用模式，並為了改善效能，這些日期範圍已被取代。UI 將會更新以反映目前允許的範圍：15、30 和 60 天。</li></ul> |
 | 12 月 7 日 | [Target 推薦演算法背後的科學](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |
 | 12 月 2 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了以 Cart 為基礎的算法，以包括透過 mbox 參數 cartIds (以逗號分隔值) 提供的推薦鍵。僅考慮前 10 個值。 |

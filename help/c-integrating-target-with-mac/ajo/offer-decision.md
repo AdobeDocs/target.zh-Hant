@@ -4,7 +4,7 @@ description: 了解如何新增中建立的優惠方案決策 [!DNL Adobe Journe
 title: 如何使用選件決策？
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此主題中說明的優惠方案決策功能預計於2022年1月13日發行，並搭配 [!DNL Target Standard/Premium] 22.1.1版。
+>本主題中說明的優惠方案決策功能目前為測試版，僅供選取的客戶使用。
 
 如需 [!DNL Adobe Journey Optimizer]，請參閱 [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 檔案。
 

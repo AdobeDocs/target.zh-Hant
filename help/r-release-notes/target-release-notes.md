@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 710c40154e12a60b3bb14c398f149c41205d355e
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 72%
+source-wordcount: '200'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,6 @@ ht-degree: 72%
 >**mbox.js 生命週期結束**：自 2021 年 3 月 31 日起，[!DNL Adobe Target] 不再支援 mbox.js 程式庫。 自 2021 年 3 月 31 日起，從 mbox.js 進行的所有呼叫都會正常失敗，並透過提供預設內容而影響執行 [!DNL Target] 活動的頁面。
 >
 >為避免您的網站出現任何潛在問題，請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本。 如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
-
-## [!DNL Target Standard/Premium] 22.1.1（2022年1月13日）
-
-此版本包含下列新功能：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| 在中使用優惠方案決策 [!DNL Target] 活動 | 您現在可以使用 [!DNL Adobe Journey Optimizer] 在 [!DNL Target] [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] (XT)活動，以決定下一個最佳優惠方案，並透過網頁和行動裝置傳送給您的訪客。<br>如需詳細資訊，請參閱 [使用優惠方案決策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**附註**:此功能適用於 [!DNL Target] 也可存取Offer decisioning的客戶，且 [!DNL Target] 以Adobe Experience Platform Web SDK為基礎的實作。 |
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
