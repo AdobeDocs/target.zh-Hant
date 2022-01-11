@@ -1,12 +1,12 @@
 ---
 keywords: target 文件變更記錄;文件更新;新主題;編輯;更新;更新
-description: 掌握 Adobe [!DNL Target] 產品文件的重要新增與變更。
+description: 提供重要新增項目和 [!DNL Adobe Target] 檔案。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '3223'
+source-wordcount: '3238'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 1 月 11 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2022 年 1 月 19 日)</li></ul> |
 | 1 月 7 日 |  [發行說明](/help/r-release-notes/release-notes.md) | 新增關於at.js版本2.8.0的資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於at.js版本2.8.0的資訊。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | 新增關於 `telemetry` 設定的詳細資訊。 |

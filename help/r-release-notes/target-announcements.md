@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 94%
 
 ---
 
@@ -15,20 +15,19 @@ ht-degree: 100%
 
 閱讀有關近期事件的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
 
-## [!DNL Adobe Target] 社群問答咖啡會 (2021 年 12 月 8 日)
+## [!DNL Adobe Target] 社群問答咖啡會 (2022 年 1 月 19 日)
 
-* **2021 年 12 月 8 日星期三**
+* **2022年1月19日星期三**
 * **上午 8 點 (PST，UTC -8)**
-* **[更多資訊和註冊資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+* **[更多資訊和註冊資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-[!DNL Adobe Target] 資深產品經理 Robert Calangiu 將回答您有關其專業領域的問題：
+Jon Tehero, [!DNL Adobe Target]，將回答您有關其專業領域的問題：
 
-* [!DNL Target] 設定和管理 UI
-* [!UICONTROL Analytics for Target] (A4T) 整合
-* [!DNL Adobe Audience Manager] (AEM) 整合
-* 一般 [!DNL Target] UI
+* [!DNL Adobe Target] 整合 [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target] UI
+* 一般 [!DNL Adobe Target] 主題
 
-## 網路研討會影片：「利用 Adobe Target 的裝置上決策在零延遲的情況下進行個人化和測試。
+## 網路研討會影片：「利用 的裝置上決策在零延遲的情況下進行個人化和測試。[!DNL Adobe Target]
 
 市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。多種具有資料獨立單位和複雜實施的工具無法做到。
 
