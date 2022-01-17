@@ -5,7 +5,7 @@ title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含發行前資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**最近更新日期: 2022 年 1 月 10 日**
+**上次更新日期：2022 年 1 月 10 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
