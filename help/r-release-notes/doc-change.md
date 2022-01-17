@@ -1,13 +1,13 @@
 ---
 keywords: target 文件變更記錄;文件更新;新主題;編輯;更新;更新
-description: 提供重要新增項目和 [!DNL Adobe Target] 檔案。
+description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3245'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 97%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新增教學課程的連結及實作指示 [!DNL Adobe Experience Cloud] 搭配Web SDK。 |
+| 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新增教學課程的連結，其中包括如何使用 Web SDK 實施 [!DNL Adobe Experience Cloud] 的指示。 |
 | 1 月 11 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2022 年 1 月 19 日)</li></ul> |
-| 1 月 7 日 |  [發行說明](/help/r-release-notes/release-notes.md) | 新增關於at.js版本2.8.0的資訊。 |
-|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增關於at.js版本2.8.0的資訊。 |
+| 1 月 7 日 | [發行說明](/help/r-release-notes/release-notes.md) | 新增 at.js 2.8.0 版本發行資訊。 |
+|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 新增 at.js 2.8.0 版本發行資訊。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | 新增關於 `telemetry` 設定的詳細資訊。 |
-|  | [隱私權](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 已新增下列章節：&quot;功能使用資料的集合。&quot; |
-|  | [使用的資料 [!DNL Target] 機器學習算法](/help/c-activities/t-automated-personalization/ap-data.md) | 更新整個主題，包括：<ul><li>新區段：&quot;阻止功能 [!DNL Target] 機器學習演算法」</li><li>已將「系統名稱」欄和資訊新增至數個表格。</li></ul> |
+|  | [隱私權](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 新增以下一節：「功能使用情況資料的收集」。 |
+|  | [ [!DNL Target] 機器學習演算法使用的資料](/help/c-activities/t-automated-personalization/ap-data.md) | 更新整個主題，包括：<ul><li>新增小節：「透過 [!DNL Target] 機器學習演算法封鎖功能」</li><li>在數個表格中新增「系統名稱」欄和資訊。</li></ul> |
 | 12 月 17 日 | [重要屬性報表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增以下在檢視「重要屬性」報表時關於日期範圍的說明：<ul><li>[!DNL Target] UI 目前可讓您選擇 45 天和 90 天日期範圍。不過 [!DNL Target] 後端不會處理這兩個範圍。由於使用模式，並為了改善效能，這些日期範圍已被取代。UI 將會更新以反映目前允許的範圍：15、30 和 60 天。</li></ul> |
 | 12 月 7 日 | [Target 推薦演算法背後的科學](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |
 | 12 月 2 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了以 Cart 為基礎的算法，以包括透過 mbox 參數 cartIds (以逗號分隔值) 提供的推薦鍵。僅考慮前 10 個值。 |
@@ -127,9 +127,9 @@ ht-degree: 97%
 | 7 月 12 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>網路研討會：量化整合 Adobe Analytics + [!DNL Adobe Target] 的明顯 ROI、深入分析和時間節省。</li><li>[!DNL Adobe Target]社群問答咖啡會將於 2021 年 7 月 21 日 (星期三) 上午 8 點 (PDT，GMT-7) 舉行。</li></ul> |
 |  | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 新增下列常見問題：「如何只推薦新文章或影片？」 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新「Target API 呼叫」區段中的文字。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新 `consumerId` 索引鍵的說明。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新 `consumerId` 索引鍵的說明。 |
 |  | [自訂全域 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了步驟 1 以指示在您選擇新的 mbox 後會自動儲存變更。 |
-|  | Experience CloudDevice Co-op | 已移除主題。此功能已過時。 |
+|  | Experience Cloud Device Co-op | 已移除主題。此功能已過時。 |
 | 6 月 29 日 | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增下列章節：<ul><li>Target JavaScript 程式庫 [!UICONTROL QA 模式]相容性</li><li>預覽 URL</li></ul> |
 | 6 月 24 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 更新 [!DNL Target Standard/Premium] 21.6.1 版 (2021 年 6 月 30 日) 的搶鮮版發行說明。 |
 | 6 月 16 日 | [[!DNL Target] 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 [!DNL Adobe Target] Python SDK 1.0.0 版的資訊。 |
@@ -169,7 +169,7 @@ ht-degree: 97%
 | 4 月 26 日 | [針對 at.js 的裝置上決策疑難排解](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主題。 |
 | 4 月 19 日 | [裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 已新增下列新文章：<ul><li>[裝置上決策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[裝置上決策的支援功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[裝置上決策規則成品](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 已新增 `decisioningMethod` 的相關資訊。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增下列內容：<ul><li>`decisioningMethod` 索引鍵的相關資訊。</li><li>「getCallOffers() 進行裝置上決策」的範例。</li></ul> |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 已新增下列內容：<ul><li>`decisioningMethod` 索引鍵的相關資訊。</li><li>「getCallOffers() 進行裝置上決策」的範例。</li></ul> |
 |  | [at.js 自訂事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 已新增下列資訊：<ul><li>裝置上決策成品已成功</li><li>裝置上決策成品已失敗</li></ul> |
 |  | [活動](/help/c-activities/activities.md) | 已新增裝置上決策的相關資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增 at.js 2.5.0 的相關資訊。 |
@@ -187,7 +187,7 @@ ht-degree: 97%
 | 4 月 9 日 | [Target 發行說明 (發行前)](/help/r-release-notes/target-release-notes.md) | 已新增 Target Standard/Premium 21.4.1 版的發行前資訊 (2021 年 4 月 19 日) |
 |  | [將 Recommendations 與電子郵件整合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 已新增描述選項 1 和 2 容量指南的註解。 |
 | 3 月 29 日 | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 已新增常見問答：<ul><li>根據最近檢視項目的建議會針對單一訪客保存在多個裝置上嗎？</li></ul> |
-| 3 月 23 日 |  [發行說明](/help/r-release-notes/release-notes.md) | 已新增 at.js 版本 2.4.1 的發行說明。 |
+| 3 月 23 日 | [發行說明](/help/r-release-notes/release-notes.md) | 已新增 at.js 版本 2.4.1 的發行說明。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增 at.js 版本 2.4.1 的發行說明。 |
 |  | [Recommendations 常見問答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 已更新下列常見問答：<ul><li>我的目錄中的項目更新要多久的時間才會反映在我的網站上？</li></ul> |
 | 3 月 22 日 | [Recommendations 摘要處理伺服器使用的 IP 位址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 已更新 IP 位址清單。 |
