@@ -1,14 +1,14 @@
 ---
 keywords: at.js 版本;at.js 版本;單一頁面應用程式;spa;跨網域;跨網域
-description: 了解如何從Adobe [!DNL Target] at.js 1.x升級至at.js 2.x。檢查系統流圖、了解新功能和已棄用的功能等。
-title: 如何從at.js 1.x版升級至2.x版？
-feature: 'at.js '
+description: 瞭解如何從Adobe升級 [!DNL Target] at.js 1.x到at.js 2.x。檢查系統流圖，瞭解新函式和已棄用函式等。
+title: 如何從at.js 1.x版升級到2.x版？
+feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '2758'
-ht-degree: 91%
+source-wordcount: '2821'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 | 呼叫 | 詳細資料 |
 | --- | --- |
-| 3 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
+| 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
 | 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
 | 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
@@ -54,11 +54,11 @@ ht-degree: 91%
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 部署 at.js 2.** 擴充功能中的xvia [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 標籤。
+1. 部署 at.js 2.*x* 通過標籤 [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 擴展。
 
    >[!NOTE]
    >
-   > 偏好使用[!DNL Adobe Experience Platform]中的標籤部署at.js。
+   > 使用中的標籤部署at.js [!DNL Adobe Experience Platform] 是首選方法。
 
    或
 
@@ -75,7 +75,7 @@ at.js 2.*x* 已棄用多個函數。
 已棄時的函數及其對應的新函數如下所列。如需完整的函數清單，請參閱 [at.js 函數](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 
 >[!NOTE]
->at.js 2.*x* 不再自動預先隱藏標示為 `mboxDefault` 的元素。因此客戶必須在網站上或透過標籤管理程式，手動提供預先隱藏邏輯。
+>at.js 2 *x* 不再自動預先隱藏標示為 `mboxDefault` 的元素。因此客戶必須在網站上或透過標籤管理程式，手動提供預先隱藏邏輯。
 
 ### mboxCreate(mbox,params)
 
@@ -143,7 +143,7 @@ at.js 2.*x* 已棄用多個函數。
 </script>
 ```
 
-**at.js 2.*x* 等同項目**:
+**at.js 2 *x* 等同項目**:
 
 `mboxDefine()` 和 `mboxUpdate` 的替代函數為 `getOffer()` 和 `applyOffer()`，而 `applyOffer()` 中會使用選取器選項。此做法可讓您使用任何 CSS 選取器將選件對應至元素，而非只能使用帶有 ID 的選取器。
 
@@ -217,13 +217,13 @@ at.js 2.*x* 已棄用多個函數。
 
 客戶若沒有將 `mboxCreate()` 取代為 `getOffer()` 或 `applyOffer()`，選件可能不會傳送。
 
-### at.js 2.*x* 是否能在某些頁面上使用，並在其他頁面上使用 at.js 1.** xis?
+### at.js 2.*x* 是否能在某些頁面上使用，並在其他頁面上使用 at.js 1.*x* 在其他頁面上嗎？
 
 可以，使用不同版本和資料庫的頁面中會保留訪客設定檔。Cookie 格式相同。
 
 ### at.js 2.*x* 使用的新 API
 
-at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at.js 是否正確呼叫 [!DNL Target] Edge 伺服器進行除錯，您可以將瀏覽器上「開發人員工具」的「網路」索引標籤篩選為「傳送」、「`tt.omtrdc.net`」或您的用戶端代碼。您也會發現 [!DNL Target] 傳送的是 JSON 裝載而非機碼值組。
+at.js 2 *x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at.js 是否正確呼叫 [!DNL Target] Edge 伺服器進行除錯，您可以將瀏覽器上「開發人員工具」的「網路」索引標籤篩選為「傳送」、「`tt.omtrdc.net`」或您的用戶端代碼。您也會發現 [!DNL Target] 傳送的是 JSON 裝載而非機碼值組。
 
 ### 不再使用 Target 全域 mbox
 
@@ -248,7 +248,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### at.js 中的全域 mbox 名稱仍重要嗎?
 
-客戶可以透過[!UICONTROL Target >管理>實作>編輯at.js設定]指定全域mbox名稱。 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。強烈建議您也確認已在[!UICONTROL 管理>可視化體驗撰寫器]頁面上設定相同的全域mbox名稱，以備您仍有頁面使用at.js 1.*x*，如下圖所示。
+客戶可以通過 [!UICONTROL 目標>管理>實施>編輯at.js設定]。 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為 [!DNL Target] UI 中顯示的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及使用全域 mbox 名稱建立對象。我們強烈建議您確保在 [!UICONTROL 「管理」>「視覺體驗作曲家」] 頁面，以防您仍有使用at.js 1的頁面。*x*，如下圖所示。
 
 ![修改 at.js 對話方塊](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -288,7 +288,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 不過，at.js 2.*x* 已不再使用 HTTP GET，而是改用 HTTP POST。您現在可透過 at.js 2.*x* 使用 HTTP POST，將 JSON 裝載傳送至 Target Edge 伺服器。這表示檢查瀏覽器是否支援第三方 Cookie 的重新導向要求現在已失效。這是因為 HTTP GET 要求為等冪交易，而 HTTP POST 是非等冪交易且不得任意重複。因此，at.js 2.*x* 中的跨網域追蹤不再提供立即可用支援。只有 at.js 1.*x* 才提供跨網域追蹤的立即可用支援。
 
-如果您想使用跨網域追蹤，必須安裝[ECID資料庫v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant)並搭配使用at.js 2.*x* 不提供跨網域追蹤的立即可用支援。ECID 資料庫的存在是為了管理可用來識別訪客 (甚至是跨網域) 的持續 ID。
+如果要使用跨域跟蹤，必須安裝 [ECID庫v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant) 與at.js 2結合。*x* 不提供跨網域追蹤的立即可用支援。ECID 資料庫的存在是為了管理可用來識別訪客 (甚至是跨網域) 的持續 ID。
 
 >[!NOTE]
 >
@@ -300,7 +300,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ### 支援全域 mbox 名稱
 
-客戶可以透過[!UICONTROL Target >管理>實作>編輯]指定全域mbox名稱。 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為輸入的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及建立鎖定全域 mbox 為目標的對象。
+客戶可以通過 [!UICONTROL 目標>管理>實施>編輯]。 此設定供 [!DNL Target] Edge 伺服器用來將 execute > pageLoad 轉譯為輸入的全域 mbox 名稱。這麼做可讓客戶繼續使用伺服器端 API、表單式撰寫器、設定檔指令碼，以及建立鎖定全域 mbox 為目標的對象。
 
 ### 以下 at.js 自訂事件適用於 `triggerView()`，還是僅適用於 `applyOffer()` 或 `applyOffers()`?
 
@@ -311,17 +311,17 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 是的，at.js 自訂事件也適用於 `triggerView()`。
 
-### 它表示，當我使用&amp;lbrace;`“page” : “true”`&amp;rbrace；呼叫`triggerView()`時，會傳送通知至[!DNL Target]後端並增加曝光次數。 那麼也會造成設定檔指令碼執行嗎?
+### 上面說我打電話 `triggerView()` 帶有&amp;lbrase`“page” : “true”`&amp;rbrace;，它將向 [!DNL Target] 後端，增加印象。 那麼也會造成設定檔指令碼執行嗎?
 
 對 [!DNL Target] 後端發出預先擷取呼叫時，會執行設定檔指令碼，接著會加密受影響的設定檔資料，然後傳回用戶端。叫用含有 `{"page": "true"}` 的 `triggerView()` 後，會傳送通知並附上加密的設定檔資料。此時 [!DNL Target] 後端會將設定檔資料解密並儲存至資料庫中。
 
 ### 呼叫 `triggerView()` 之前需要新增預先隱藏程式碼以處理忽隱忽現情況嗎?
 
-不需要，您不需要在呼叫 `triggerView()` 之前新增預先隱藏程式碼。at.js 2.*x* 會在顯示和套用檢視之前，處理預先隱藏和忽隱忽現的邏輯。
+不需要，您不需要在呼叫 `triggerView()` 之前新增預先隱藏程式碼。at.js 2 *x* 會在顯示和套用檢視之前，處理預先隱藏和忽隱忽現的邏輯。
 
-### 哪個at.js 1.*at.js 2不支援用於建立對象的* xparameters。*x*? {#audience-parameters}
+### 這是第1條。*x* at.js 2中不支援建立訪問群體的參數。*x*? {#audience-parameters}
 
-使用at.js 2時，目前建立受眾支援下列at.js 1.x參數&#x200B;*NOT*。*x* 中的頁面載入要求:
+以下at.js 1.x參數是 *不* 當前支援在使用at.js 2時建立受眾。*x* 中的頁面載入要求:
 
 * browserHeight
 * browserWidth
@@ -331,10 +331,15 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 * screenOrientation
 * colorDepth
 * devicePixelRatio
+* vst。*參數([下面](#vst))
+
+### at.js 2 *x* 不支援使用vst建立訪問群。* 參數 {#vst}
+
+客戶在at.js 1。*x* 能用vst*mbox參數以建立受眾。 這是at.js 1的意外副作用。*x* 發送的mbox參數 [!DNL Target] 後端。 遷移到at.js 2後。*x*，因為at.js 2，所以無法再使用這些參數建立訪問群體。*x* 以不同方式發送mbox參數。
 
 ## at.js 相容性
 
-下表說明 at.js。2.*x*&#x200B;與不同活動類型、整合、功能和at.js函式的相容性。
+下表說明 at.js。2.*x* 與不同活動類型、整合、功能和at.js函式的相容性。
 
 ### 活動類型 {#types}
 
@@ -360,7 +365,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 | 對象 | 是 |
 | 客戶屬性 | 是 |
 | AEM 體驗片段 | 是 |
-| [!DNL Adobe Experience Platform] 擴充功能 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] 擴展 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 除錯程式 | 是 |
 | Auditor | 尚未針對 at.js 2.*x* 更新規則 |
 | 選擇加入 | 無。[at.js 版本 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 支援 [GDPR 的選擇加入支援](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。 |
@@ -370,7 +375,7 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 | 功能 | 支援? |
 | --- | --- |
-| X網域 | 無 |
+| X域 | 無 |
 | 屬性/工作區 | 是 |
 | QA 連結 | 是 |
 | 表單式體驗撰寫器 | 是 |
@@ -394,24 +399,24 @@ at.js 2.*x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 ## 回應 Token {#response-tokens}
 
-at.js 2.*x*，就像 at.js 1.*x*，使用自訂事件 `at-request-succeeded` 來呈現回應 Token。如需使用 `at-request-succeeded` 自訂事件的程式碼範例，請參閱[回應 Token](/help/administrating-target/response-tokens.md)。
+at.js 2 *x*，就像 at.js 1.*x*，使用自訂事件 `at-request-succeeded` 來呈現回應 Token。如需使用 `at-request-succeeded` 自訂事件的程式碼範例，請參閱[回應 Token](/help/administrating-target/response-tokens.md)。
 
-## at.js 1.** xparameters轉換為at.js 2.*x* 的裝載對應 {#payload-mapping}
+## at.js 1.*x* 參數到at.js 2。*x* 的裝載對應 {#payload-mapping}
 
 本節概述 at.js 1.*x* 與 at.js 2.*x* 之間的對應。
 
 探索參數對應之前，請注意這些資料庫版本使用的端點已變更:
 
-* at.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
-* at.js 2.*x*  -  `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+* at.js 1 *x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
+* at.js 2 *x* - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
 
 另一項顯著差異為:
 
-* at.js 1.*x* - 用戶端代碼是路徑的一部分
-* at.js 2.*x* - 用戶端代碼會以查詢字串參數的形式傳送，例如:
+* at.js 1 *x* - 用戶端代碼是路徑的一部分
+* at.js 2 *x* - 用戶端代碼會以查詢字串參數的形式傳送，例如:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-以下各節列出每個 at.js 1.** xparameter、其說明和對應的2。** xJSON裝載（若適用）:
+以下各節列出每個 at.js 1.*x* 參數、其描述以及相應的2。*x* JSON負載（如果適用）:
 
 ### at_property
 
@@ -431,11 +436,11 @@ at.js 2.*x*，就像 at.js 1.*x*，使用自訂事件 `at-request-succeeded` 來
 
 ### mboxHost
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 Target 資料庫執行所在位置的頁面網域。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -449,11 +454,11 @@ at.js 2.*x* JSON 裝載:
 
 ### webGLRenderer
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 瀏覽器的 WEB GL 轉譯器功能我們的裝置偵測機制會使用此功能，判斷訪客的裝置是否為桌上型電腦、iPhone、Android 裝置等。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -467,11 +472,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxURL
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 頁面 URL。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -485,11 +490,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxReferrer
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 頁面轉介者。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -503,11 +508,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mbox (名稱) 等於全域 mbox
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 傳遞 API 已無全域 mbox 概念。在 JSON 裝載中，您必須使用 `execute > pageLoad`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -523,11 +528,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mbox (名稱) *不*&#x200B;等於全域 mbox
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 若要使用 mbox 名稱，請將其傳遞至 `execute > mboxes`。mbox 需要索引和名稱。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -545,23 +550,23 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxId
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 已不再使用。
 
 ### mboxCount
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 已不再使用。
 
 ### mboxRid
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 下游系統用來協助進行偵錯的要求 ID。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -572,23 +577,23 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxTime
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 已不再使用。
 
 ### mboxSession
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 工作階段 ID 會以查詢字串參數 (`sessionId`) 的形式傳送至傳送 API 端點。
 
 ### mboxPC
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 TNT ID 會傳遞至 `id > tntId`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -601,11 +606,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxMCGVID
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 Marketing Cloud 訪客 ID 會傳遞至 `id > marketingCloudVisitorId`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -618,11 +623,11 @@ at.js 2.*x* JSON 裝載:
 
 ### `vst.aaaa.id`和`vst.aaaa.authState`
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 客戶 ID 應傳遞至 `id > customerIds`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -639,11 +644,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mbox3rdPartyId
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 用來連結不同 Target ID 的客戶協力廠商 ID。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -656,11 +661,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxMCSDID
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 SDID (也稱為補充資料 ID)。應傳遞至 `experienceCloud > analytics > supplementalDataId`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -675,11 +680,11 @@ at.js 2.*x* JSON 裝載:
 
 ### vst.trk
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 Analytics 追蹤伺服器。應傳遞至 `experienceCloud > analytics > trackingServer`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -694,11 +699,11 @@ at.js 2.*x* JSON 裝載:
 
 ### vst.trks
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 Analytics 追蹤伺服器安全。應傳遞至 `experienceCloud > analytics > trackingServerSecure`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -713,11 +718,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxMCGLH
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 Audience Manager 位置提示。應傳遞至 `experienceCloud > audienceManager > locationHint`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -732,11 +737,11 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxAAMB
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 Audience Manager Blob。應傳遞至 `experienceCloud > audienceManager > blob`。
 
-at.js 2.*x* JSON 裝載:
+at.js 2 *x* JSON 裝載:
 
 ```
 {
@@ -751,14 +756,14 @@ at.js 2.*x* JSON 裝載:
 
 ### mboxVersion
 
-(at.js 1.*x* 參數)
+(at.js 1)*x* 參數)
 
 版本會透過版本參數以查詢字串參數的形式傳送。
 
-## 訓練影片：at.js 2.** 架構圖概 ![述徽章](/help/assets/overview.png)
+## 培訓視頻：at.js 2 *x* 架構圖 ![概述徽章](/help/assets/overview.png)
 
-at.js 2.*x* 增強了 Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
+at.js 2 *x* 增強了 Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-請參閱[了解at.js 2的使用方式。** ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) xwork以取得詳細資訊。
+請參閱 [瞭解at.js 2。*x* 作品](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 的子菜單。
