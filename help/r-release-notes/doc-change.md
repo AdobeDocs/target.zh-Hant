@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '3266'
-ht-degree: 99%
+source-wordcount: '3276'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 添加以下部分：&quot;at.js 2.*x* 不支援使用vst建立訪問群。* 參數&quot; |
+| 1 月 21 日 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | 新增關於 at.js 1.8.3 版的資訊。 |
+| 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立對象」 |
 | 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新增教學課程的連結，其中包括如何使用 Web SDK 實施 [!DNL Adobe Experience Cloud] 的指示。 |
 | 1 月 11 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2022 年 1 月 19 日)</li></ul> |
 | 1 月 7 日 | [發行說明](/help/r-release-notes/release-notes.md) | 新增 at.js 2.8.0 版本發行資訊。 |
