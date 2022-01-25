@@ -1,42 +1,42 @@
 ---
 keywords: 對象;對象規則;建立對象;建立對象;鎖定目標對象;報表對象;報表對象;區段;自訂設定檔參數;對象定義;對象清單
-description: 了解如何使用 [!UICONTROL 對象] 清單 [!DNL Adobe Target].
-title: 如何使用對象清單？
+description: 瞭解如何在 [!DNL Adobe Target]。
+title: 如何使用受眾清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: d8b18c77d6df2fb9db01b64268e555f9a4b10adf
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '772'
 ht-degree: 30%
 
 ---
 
 # 建立對象
 
-中的對象 [!DNL Adobe Target] 決定誰可以看到鎖定目標活動中的內容和體驗。
+觀眾 [!DNL Adobe Target] 確定誰在目標活動中看到內容和體驗。
 
-可使用鎖定目標之處皆可使用對象。定位活動時，您有下列選項：
+可使用鎖定目標之處皆可使用對象。當瞄準活動時，您有以下選項：
 
-* 從 [!UICONTROL 對象] 清單
-* [建立活動專屬對象](/help/c-target/creating-activity-only-audience.md) 並將目標定位
-* [合併多個對象](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) 建立隨選對象
+* 從 [!UICONTROL 觀眾] 清單
+* [建立特定於活動的受眾](/help/c-target/creating-activity-only-audience.md) 瞄準它
+* [合併多個受眾](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) 建立臨時訪問群體
 
-您也可以使用 [!DNL Adobe Analytics] ，以在 [!DNL Target] 其他 [!DNL Adobe Experience Cloud] 應用程式。 請參閱 [Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant) 在 *Experience Cloud中心介面元件* 指南。
+您還可以使用收集的受眾資料 [!DNL Adobe Analytics] 用於即時目標和個性化 [!DNL Target] 其他 [!DNL Adobe Experience Cloud] 應用程式。 請參閱 [Experience Cloud觀眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant) 的 *Experience Cloud中央介面元件* 的子菜單。
 
-中有兩種對象 [!DNL Target]:
+有兩類觀眾 [!DNL Target]:
 
-* **鎖定對象：** 用於傳送不同內容給不同類型的訪客。
-* **報表對象：** 用來判斷不同類型的訪客如何回應相同內容，以便您分析測試結果。
+* **針對受眾：** 用於向不同類型的訪問者提供不同的內容。
+* **報告受眾：** 用於確定不同類型的訪問者對相同內容的響應方式，以便您可以分析test結果。
 
    在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。如果您使用 [ Adobe Analytics 作為報表來源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在 [!DNL Analytics] 內設定報表對象。
 
-## 使用 [!UICONTROL 對象] 清單 {#use-list}
+## 使用 [!UICONTROL 觀眾] 清單 {#use-list}
 
 若要存取[!UICONTROL 「對象」]清單，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 「對象」]**:
 
 ![受眾清單](assets/audiences_list.png)
 
-此 [!UICONTROL 對象] 清單包含您可在活動中使用的對象。 使用 [!UICONTROL 對象] 清單來建立、編輯、複製、複製或結合對象。 清單也會顯示建立對象的來源：
+的 [!UICONTROL 觀眾] 清單包含您可以在活動中使用的受眾。 使用 [!UICONTROL 觀眾] 清單，以建立、編輯、複製、複製或組合受眾。 該清單還顯示建立受眾的源：
 
 * [!DNL Adobe Target]
 * [!DNL Adobe Target Classic]
@@ -45,44 +45,44 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >此 [!DNL Adobe Experience Platform] 來源可供所有使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 可用對象 [!DNL Adobe Experience Platform] 可原樣使用或 [結合現有對象](/help/c-target/combining-multiple-audiences.md).
+   >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 從 [!DNL Adobe Experience Platform] 可以按原樣或 [結合現有觀眾](/help/c-target/combining-multiple-audiences.md)。
    >
-   >使用者必須 [!UICONTROL 核准者] 或高於狀態 [!DNL Target] 設定 [!DNL Target] [!UICONTROL 目的地] AEP/RTCDP中的卡([!DNL Real-Time Customer Data Platform])。
+   >用戶必須 [!UICONTROL 批准者] 或高於 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目標] AEP/RTCDP中的卡([!DNL Real-Time Customer Data Platform])。
 
-預先定義的對象，例如「[!UICONTROL 新訪客]&quot;和&quot;[!UICONTROL 再度訪問的訪客]「 」無法重新命名。
+預定義的受眾，如「」[!UICONTROL 新訪問者]&quot;和&quot;[!UICONTROL 返回訪問者]，無法更名。
 
-使用原本於 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform], [!DNL Target] 如果您參考 [!DNL Target] 稍後在 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform].
+使用最初建立於 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform]。 [!DNL Target] 如果您引用了 [!DNL Target] 後來刪除的活動 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform]。
 
-* 如果對象已在 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform]，此時 [!UICONTROL 對象] 清單和對象選擇器隨即顯示。 中的工具提示 [!DNL Target] UI也指出閱聽眾已刪除於 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform].
+* 如果在 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform]中，顯示警告表徵圖 [!UICONTROL 觀眾] 清單和訪問群體選取器。 中的刀尖 [!DNL Target] UI還指示訪問群體已在 [!DNL Experience Cloud] 或 [!DNL Adobe Experience Platform]。
 * 若嘗試將多個對象與已刪除的對象合併，或嘗試儲存參考已刪除對象的活動，系統會顯示警告訊息。
 
-您也可以鎖定自訂設定檔參數和 `user.` 參數。建立對象時，將您要用來定位活動的屬性拖曳至對象產生器視窗中。 如果未顯示所需的屬性，則mbox尚未觸發屬性。 在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
+您也可以鎖定自訂設定檔參數和 `user.` 參數。在建立受眾時，將要用於目標活動的屬性拖動到受眾生成器窗口中。 如果不顯示所需的屬性，則該屬性未被mbox激發。 在[!UICONTROL 「自訂參數」]下拉式清單中可取得其他自訂 mbox 參數。
 
-使用 [!UICONTROL 篩選器] 按鈕來篩選 [!UICONTROL 對象] 按源列出： [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud]，和 [!DNL Adobe Experience Platform].
+使用 [!UICONTROL 篩選器] 按鈕 [!UICONTROL 觀眾] 按源列出： [!DNL Adobe Target]。 [!DNL Adobe Target Classic]。 [!DNL Experience Cloud], [!DNL Adobe Experience Platform]。
 
-![篩選器選項 [!UICONTROL 對象] 清單](assets/filters.png)
+![中的篩選器選項 [!UICONTROL 觀眾] 清單](assets/filters.png)
 
-使用 [!UICONTROL 搜尋對象] 框中 [!UICONTROL 對象] 清單。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
+使用 [!UICONTROL 搜索受眾] 框 [!UICONTROL 觀眾] 清單框。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
 您可以依對象名稱或上次修改日期來排序[!UICONTROL 「對象」]清單。若要依名稱排序，請按一下欄標題，然後選擇依遞增或遞減順序來顯示對象。
 
 ## 檢視受眾定義 {#section_11B9C4A777E14D36BA1E925021945780}
 
-您可以在 [!DNL Target] UI而不開啟對象。 此功能適用於中建立的對象 [!DNL Target Standard/Premium] 從 [!DNL Target Classic] 或透過API建立。
+您可以在中的不同位置查看彈出式卡上的受眾定義詳細資訊 [!DNL Target] UI而不開啟觀眾。 此功能適用於在 [!DNL Target Standard/Premium] 和從 [!DNL Target Classic] 或通過API建立。
 
-例如，您可按一下 [!UICONTROL 檢視詳細資料] 圖示以取得。
+例如，通過按一下 [!UICONTROL 查看詳細資訊] 表徵圖：
 
 ![活動 > 受眾定義](assets/audience_definition_list.png)
 
-按一下 [!UICONTROL 檢視詳細資料] 活動的圖示 [!UICONTROL 概述] 頁面：
+通過按一下 [!UICONTROL 查看詳細資訊] 表徵圖 [!UICONTROL 概述] 頁：
 
 ![活動 > 受眾定義](assets/view-details-activity-overview.png)
 
-受眾定義卡片會顯示受眾的類型、來源和屬性。 按一下 **[!UICONTROL 查看完整詳細資訊]** 查看參考該對象的其他活動（若適用）。 如果您從活動的 [!UICONTROL 概述] 頁面，按一下 **[!UICONTROL 受眾使用情形]**.
+受眾定義卡顯示他們的受眾類型、來源和屬性。 按一下 **[!UICONTROL 查看完整詳細資訊]** 查看引用該受眾的其他活動（如果適用）。 如果從活動查看受眾定義卡 [!UICONTROL 概述] 的 **[!UICONTROL 受眾使用情況]**。
 
-受眾使用資訊可協助您避免在編輯受眾時對其他活動造成意外影響。 資訊包括 [!UICONTROL 即時活動], [!UICONTROL 非作用中活動], [!UICONTROL 封存的活動]，和 [!UICONTROL 同步活動]. 此功能適用於所有對象(資料庫對象和 [僅限於此活動的對象](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))。
+受眾使用資訊可幫助您避免在編輯受眾時對其他活動產生意外影響。 資訊包括 [!UICONTROL 即時活動]。 [!UICONTROL 非活動活動]。 [!UICONTROL 存檔活動], [!UICONTROL 同步活動]。 此功能適用於所有觀眾(庫觀眾和 [僅活動受眾](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))。
 
-如果對象為 [結合至其他對象](/help/c-target/combining-multiple-audiences.md) 而合併的對象會用來建立活動，即兩個對象的使用資訊會列出新建立的活動。
+如果觀眾 [與另一個觀眾](/help/c-target/combining-multiple-audiences.md) 組合的受眾用於建立活動，兩個受眾的使用資訊列出了新建立的活動。
 
 ![](assets/audience_definition_list_usage.png)
 
@@ -103,7 +103,7 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
-## 訓練影片：使用對象 ![教學課程徽章](/help/assets/tutorial.png)
+## 培訓視頻：使用受眾 ![教程徽章](/help/assets/tutorial.png)
 
 此影片包括關於使用對象的資訊。
 
