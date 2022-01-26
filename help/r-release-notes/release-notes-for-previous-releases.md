@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
+source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
 workflow-type: tm+mt
-source-wordcount: '32655'
+source-wordcount: '32598'
 ht-degree: 99%
 
 ---
@@ -23,11 +23,9 @@ ht-degree: 99%
 
 ## 發行說明 - 2022
 
-### [!DNL Target Standard/Premium] 22.1.2（2022年1月12日）
+### [!DNL Target Standard/Premium] 22.1.1（2022年1月12日）
 
-| 功能 | 詳細資料 |
-| --- | --- |
-| 在中使用優惠決定 [!DNL Target] 活動 | 你現在可以 [!DNL Adobe Journey Optimizer] 提供決定 [!DNL Adobe Target] A/BTest和體驗目標(XT)活動，確定並在Web和移動設備上為訪問者提供下一個最佳服務。<br>**注釋**:此功能可用於 [!DNL Target] 也有權訪問 [!DNL Offer Decisioning] 而且 [!DNL Target] 基於Adobe Experience PlatformWeb SDK的實現。<br>有關詳細資訊，請參見 [使用優惠決定](/help/c-integrating-target-with-mac/ajo/offer-decision.md)。 |
+此版本包括錯誤修復和未來整合的必備功能。
 
 ## 發行說明 - 2021
 
