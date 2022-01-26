@@ -2,13 +2,13 @@
 keywords: 發行說明;新功能;發行;更新;更新;發行;增強功能;增強功能;修正;錯誤修正;更新
 description: 了解  [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 資料庫。
 landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新功能、增強功能和修正。
-title: 目前發行的版本包含哪些新功能？
+title: 當前版本中包括哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: ht
-source-wordcount: '1140'
-ht-degree: 100%
+source-git-commit: 8d252255499dd8ece5e1de1220a97723659a4bf8
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 75%
 
 ---
 
@@ -16,86 +16,23 @@ ht-degree: 100%
 
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。此外，也會隨附 Target API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明，以及其他平台變更 (如適用)。
 
->[!IMPORTANT]
->
->**mbox.js 生命週期結束**：自 2021 年 3 月 31 日起，[!DNL Adobe Target] 不再支援 mbox.js 程式庫。 自 2021 年 3 月 31 日起，從 mbox.js 進行的所有呼叫都會正常失敗，並透過提供預設內容而影響執行 [!DNL Target] 活動的頁面。
->
->請遷移至新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 程式庫的最新版本，以避免您的網站出現任何潛在問題。如需詳細資訊，請參閱「[總覽：為用戶端 Web 實作 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)」。
-
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 22.1.2（2022年1月26日）
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| [!DNL Adobe Experience Platform] 觀眾 [!DNL Target] | 您現在可以使用 [!DNL Adobe Experience Platform] 觀眾 [!DNL Target]。 的 [!DNL Target] 團隊， [!DNL Experience Platform] [!DNL Destinations] 團隊和 [!DNL Unified Profile Service] 團隊高興地宣佈&quot;同一頁/下一頁個性化&quot;使用案例的正式上市。<br>使用在 [!DNL Adobe Experience Platform] 提供更豐富的客戶資料，從而實現更有影響的個性化。 的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCP)，內置於 [!DNL Adobe Experience Platform] 幫助公司將來自多個企業來源的已知和匿名資料匯集到一起，以建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。<br>有關詳細資訊，請參見 [使用來自Adobe Experience Platform的觀眾](/help/c-target/c-audiences/audiences.md#aep) 在 *建立受眾*。 |
+| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>一個全新的「對象來源」篩選器，能讓您更快地發現對象</li><li>工作階段持續搜尋和篩選器選項</li><li>在工作區之間移動受眾的能力 [!DNL Target Premium] 客戶。</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注釋**:此功能將在接下來的六週內向不同地區的客戶推出。 |
+| [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注釋**:此功能將在接下來的六週內向不同地區的客戶推出。 |
+
+## [!DNL Target Standard/Premium] 22.1.1（2022年1月12日）
+
+此版本包括錯誤修復和未來整合的必備功能。
 
 ## at.js 2.8.0 版 (2022 年 1 月 7 日)
 
 [!DNL Target] at.js JavaScript 程式庫現在會收集功能使用情況和效能遙測資料。不會收集個人資料。可透過將 `targetGlobalSettings` 中的 `telemetryEnabled` 設定為 False，選擇退出此功能。如需詳細資訊，請參閱 [targetGlobalSettings 中的 telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)。
-
-## [!DNL Target Standard/Premium] 21.10.5 (2021 年 10 月 28 日)
-
-此維護版本包含下列增強功能：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | 新增 [Web 元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支援。在自訂元素及其內部元素上，可建立和測試個人化體驗和選件。<br>如需詳細資訊，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)。 |
-
-## [!DNL Target Standard/Premium] 21.10.4 (2021 年 10 月 21 日)
-
-此維護版本包含下列增強功能：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| 購物車型推薦 | 新增一系列演算法，以根據訪客購物車的內容提供推薦。<br>如需詳細資訊，請參閱[建立條件](/help/c-recommendations/c-algorithms/create-new-algorithm.md)中的「購物車型」、[計劃和實作 Recommendations](/help/c-recommendations/plan-implement.md) 中的「購物車新增/購物車檢視/結帳頁面」和「排除訪客購物車中已有的項目」，以及[使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)中的「購物車型」。 |
-
-## [!DNL Target Standard/Premium] 21.10.3 (2021 年 10 月 19 日)
-
-此維護發行包含下列增強功能、修正和變更。
-
-* 修正在按一下 [!DNL Target] 活動報告中的「[!UICONTROL 在 Analytics 中檢視]」按鈕後，無法開啟 [!DNL Analysis Workspace] [!UICONTROL A4T] 面板的問題。(TGT-42099 和 TGT-42100)
-* 修正在使用[!UICONTROL 表單式體驗撰寫器]編輯 [!UICONTROL A/B 測試]和[!UICONTROL 體驗鎖定] (XT) 活動時，造成「[!UICONTROL 編輯設計]」按鈕不顯示的問題。(TGT-41980)
-* 修正在建立新的 [!UICONTROL Recommendations] 活動時，「[!UICONTROL 相容]」核取方塊無法顯示在條件選取中的問題。(TGT-42053)
-* 修正因為缺少 [!DNL Analytics] 權限而無法選取 [!DNL Analytics] 做為報告來源 (A4T) 時所顯示的不正確錯誤訊息。(TGT-41954)
-* 實作多項協助工具修正，以改善 [!DNL Target] UI 鍵盤導覽。
-
-## [!DNL Target Standard/Premium] 21.10.2 (2021 年 10 月 13 日)
-
-透過[!DNL Adobe Experience Platform Web SDK]使用 [!DNL Target] [!UICONTROL Audiences] 時，新增了以下加強功能：
-
-* 在 [!DNL Target]UI 的不同位置中，加入了警告圖示、彈出視窗和訊息，指示該對象已在來源刪除，並且不再可用於[!DNL Target]活動。
-
-   下方插圖顯示了圖示、彈出視窗和訊息顯示的一些位置：
-
-   * [!UICONTROL 活動]清單頁面
-
-      ![在活動清單頁面上的來源訊息中刪除了對象](assets/deleted-at-source-audiences-list.png)
-
-   * 活動[!UICONTROL 總覽]頁面：
-
-      ![在總覽頁面上的來源訊息中刪除了對象](assets/deleted-at-source-overview.png)
-
-   * 活動建立工作流程的[!UICONTROL 體驗]步驟：
-
-      ![在[!UICONTROL 體驗]頁面](assets/deleted-at-source-experiences.png)上的來源訊息中刪除了對象
-
-   * 活動建立工作流程的[!UICONTROL 定位]步驟：
-
-      ![在[!UICONTROL 定位]頁面](assets/deleted-at-source-targeting.png)上的來源訊息中刪除了對象
-
-   * 活動建立工作流程的[!UICONTROL 目標與設定]步驟：
-
-      ![在[!UICONTROL 目標與設定]頁面](assets/deleted-at-source-goals-settings.png)上的來源訊息中刪除了對象
-
-   * 對象細分 (活動建立工作流程[!UICONTROL 定位]步驟上的[!UICONTROL 取代對象])：
-
-* 如果您嘗試使用「合併 Audiences」功能，並且在來源中刪除了其中一個對象，則會啟用[!UICONTROL 儲存]。
-
-## [!DNL Target Standard/Premium]21.10.1 (2021 年 10 月 6 日)
-
-此版本包含下列新功能：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>一個全新的「對象來源」篩選器，能讓您更快地發現對象</li><li>工作階段持續搜尋和篩選器選項</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注意**：新的 [!UICONTROL Audiences] UI 僅供特定客戶使用。自 2022 年 1 月起，此更新將逐步向所有客戶推出。 |
-| [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**：新的[!UICONTROL 設定檔指令碼] UI 僅供特定客戶使用。自 2022 年 1 月起，此更新將逐步向所有客戶推出。 |
-| ![Premium badge](/help/assets/premium.png)建立與編輯 Recommendations 標準 | [!UICONTROL Recommendations 標準]的建立與編輯工作流程已經過簡化，以精簡選擇正確的推薦演算法和設定以達成目標的過程。<br>如需詳細資訊，請參閱[建立準則](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
-| ![進階徽章](/help/assets/premium.png)建議回顧視窗和演算法更新率改進 | 您現在可以執行具有 6 小時回顧視窗的「最多觀看次數」和「最暢銷」演算法，擷取近期最受歡迎的內容。選擇 6 小時回顧視窗後，您的推薦結果在一天之中每 3-6 小時會更新一次。<br>如需詳細資訊，請參閱&#x200B;*建立準則*&#x200B;中的[資料來源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)。 |
 
 ## 額外的發行說明和版本詳細資料
 

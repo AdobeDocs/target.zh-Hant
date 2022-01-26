@@ -4,10 +4,10 @@ description: 瞭解如何將多個觀眾(包括Adobe Experience Cloud觀眾和 [
 title: 我是否可以合併多個受眾以建立新受眾？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 69%
+source-wordcount: '937'
+ht-degree: 68%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 69%
 >[!NOTE]
 >
 >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 從 [!DNL Adobe Experience Platform] 可以按原樣使用或與現有受眾組合，如本主題中所述)。
+>
+>有關詳細資訊，請參閱 [使用來自Adobe Experience Platform的觀眾](/help/c-target/c-audiences/audiences.md#aep)。
 
 假設您有「新訪客」對象和「Chrome 使用者」對象。針對特定的活動，您可能想要合併這些現有對象，以鎖定使用 Chrome 瀏覽器的新訪客作為目標。您不需要建立第三個對象並儲存在[!UICONTROL 對象]資料庫中，僅需在建立活動或編輯現有活動時合併這兩個對象。
 

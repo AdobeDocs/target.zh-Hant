@@ -4,10 +4,10 @@ description: 瞭解如何在 [!DNL Adobe Target]。
 title: 如何使用受眾清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 30%
+source-wordcount: '1044'
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,9 @@ ht-degree: 30%
    >
    >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 從 [!DNL Adobe Experience Platform] 可以按原樣或 [結合現有觀眾](/help/c-target/combining-multiple-audiences.md)。
    >
-   >用戶必須 [!UICONTROL 批准者] 或高於 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目標] AEP/RTCDP中的卡([!DNL Real-Time Customer Data Platform])。
+   >用戶必須 [!UICONTROL 批准者] 或高於 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目標] AEP/RTCDP中的卡([!DNL Real-time Customer Data Platform])。
+   >
+   >有關詳細資訊，請參閱 [使用來自Adobe Experience Platform的觀眾](#aep)。
 
 預定義的受眾，如「」[!UICONTROL 新訪問者]&quot;和&quot;[!UICONTROL 返回訪問者]，無法更名。
 
@@ -102,6 +104,29 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## 使用來自 [!DNL Adobe Experience Platform] {#aep}
+
+使用在 [!DNL Adobe Experience Platform] 提供更豐富的客戶資料，從而實現更有影響的個性化。 的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCP)，內置於 [!DNL Adobe Experience Platform]，幫助公司將來自多個企業來源的已知和匿名資料匯集在一起。 此流程允許您建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。
+
+通過連接 [!DNL Target] 到 [!DNL Real-time Customer Data Platform]，客戶可以通過解鎖以前可能無法訪問的新段來豐富其Web個性化 [!DNL Target] 在客戶訪問的第一頁上實現即時毫秒個性化。 使用在 [!DNL Adobe Experience Platform] 允許您擴展可用的資料點，以便更加個性化。
+
+如需詳細資訊，請參閱下列主題:
+
+* [目標發佈說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [自定義個性化連接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} *目標概述* 引導
+* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} *目標概述* 引導
+* [為同一頁和下一頁個性化使用案例配置個性化目標](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+下表顯示了來自不同實施方案的事件的段評估時間：
+
+| 藍本 | 邊緣段（毫秒計算） | 流段（分鐘評估） | 批處理段評估 |
+| --- | --- | --- | --- |
+| 來自Adobe Experience PlatformSDK的事件/資料 | 是 | 是 | 不適用 |
+| 來自at.js的事件 | 無 | 是 | 不適用 |
+| 目標移動SDK中的事件 | 無 | 是 | 不適用 |
+| 批處理上載中的事件 | 無 | 無 | 是 |
+| 離線資料（流）中的事件 | 無 | 是 | 是 |
 
 ## 培訓視頻：使用受眾 ![教程徽章](/help/assets/tutorial.png)
 

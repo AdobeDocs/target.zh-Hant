@@ -4,10 +4,10 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32584'
-ht-degree: 100%
+source-wordcount: '32655'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 100%
 >[!NOTE]
 >
 >請參閱 [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
+
+## 發行說明 - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2（2022年1月12日）
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| 在中使用優惠決定 [!DNL Target] 活動 | 你現在可以 [!DNL Adobe Journey Optimizer] 提供決定 [!DNL Adobe Target] A/BTest和體驗目標(XT)活動，確定並在Web和移動設備上為訪問者提供下一個最佳服務。<br>**注釋**:此功能可用於 [!DNL Target] 也有權訪問 [!DNL Offer Decisioning] 而且 [!DNL Target] 基於Adobe Experience PlatformWeb SDK的實現。<br>有關詳細資訊，請參見 [使用優惠決定](/help/c-integrating-target-with-mac/ajo/offer-decision.md)。 |
 
 ## 發行說明 - 2021
 
@@ -37,7 +45,7 @@ ht-degree: 100%
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] (VEC) | 新增 [Web 元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支援。在自訂元素及其內部元素上，可建立和測試個人化體驗和選件。<br>如需詳細資訊，請參閱[可視化體驗撰寫器選項](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)。 |
 
-## [!DNL Target Standard/Premium] 21.10.4 (2021 年 10 月 21 日)
+### [!DNL Target Standard/Premium] 21.10.4 (2021 年 10 月 21 日)
 
 此維護版本包含下列增強功能：
 
@@ -230,7 +238,7 @@ ht-degree: 100%
    | --- | --- | --- |
    | HTML | 256 KB | 1024 KB |
    | Target UI 的視覺選件 | 64 KB | 每個體驗 1024 KB |
-   | 透過 API | 512 KB | 1024千比特 |
+   | 透過 API | 512 KB | 1024 KB |
 
 * [!UICONTROL 自動鎖定目標] (AT) 和 [!UICONTROL Automated Personalization] (AP) 活動的 [!UICONTROL Personalization Insights] 報告現在可每日產生。您可選擇讓報告提供過去 15 天、30 天和 60 天的[!UICONTROL 自動化區段]或[!UICONTROL 重要屬性]。45 天與 90 天選項已經移除，讓其他的回顧視窗設定可以每日執行。(TGT-39472)
 * 修正造成目前相依性在客戶在活動的[!UICONTROL 目標與設定]頁面上按一下[!UICONTROL 編輯相依性]時不顯示的原因。(TGT-39340)
@@ -3108,11 +3116,11 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>設計程式庫可顯示有多少個即時和非活動中活動正在使用每一個設計。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>自訂設計中的動態標題顯示 </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations高級 </p> <p>自訂設計中的動態標題顯示 </p> </td> 
    <td colname="col2"> <p>選擇標題以在使用特定設計時顯示。此標題不需要符合頁面上訪客所看到的標題。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>API Token </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations高級 </p> <p>API Token </p> </td> 
    <td colname="col2"> <p>您可在 Recommendations Premium 中設定客戶 API Token。 </p></td> 
   </tr> 
   <tr> 
