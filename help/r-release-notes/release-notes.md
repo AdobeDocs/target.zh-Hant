@@ -5,7 +5,7 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 當前版本中包括哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 73%
@@ -23,8 +23,8 @@ ht-degree: 73%
 | 功能 | 詳細資料 |
 | --- | --- |
 | [!DNL Adobe Experience Platform] 觀眾 [!DNL Target] | 您現在可以使用 [!DNL Adobe Experience Platform] 觀眾 [!DNL Target]。 的 [!DNL Target] 團隊， [!DNL Experience Platform] [!DNL Destinations] 團隊和 [!DNL Unified Profile Service] 團隊高興地宣佈&quot;同一頁/下一頁個性化&quot;使用案例的正式上市。<br>使用在 [!DNL Adobe Experience Platform] 提供更豐富的客戶資料，從而實現更有影響的個性化。 的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCP)，內置於 [!DNL Adobe Experience Platform] 幫助公司將來自多個企業來源的已知和匿名資料匯集到一起，以建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。<br>有關詳細資訊，請參見 [使用來自Adobe Experience Platform的觀眾](/help/c-target/c-audiences/audiences.md#aep) 在 *建立受眾*。<br>請務必閱讀Adobe部落格並觀看視頻： [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}。 |
-| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>一個全新的「對象來源」篩選器，能讓您更快地發現對象</li><li>工作階段持續搜尋和篩選器選項</li><li>在工作區之間移動受眾的能力 [!DNL Target Premium] 客戶。</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注釋**:此功能將在接下來的六週內向不同地區的客戶推出。 |
-| [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注釋**:此功能將在接下來的六週內向不同地區的客戶推出。 |
+| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>一個全新的「對象來源」篩選器，能讓您更快地發現對象</li><li>工作階段持續搜尋和篩選器選項</li><li>在工作區之間移動受眾的能力 [!DNL Target Premium] 客戶。</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**注釋**:此功能將在今後八週內向不同地區的客戶推出。 |
+| [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注釋**:此功能將在今後八週內向不同地區的客戶推出。 |
 
 ## [!DNL Target Standard/Premium] 22.1.1（2022年1月12日）
 

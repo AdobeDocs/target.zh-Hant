@@ -4,10 +4,10 @@ description: 瞭解如何使用 [!DNL Adobe Experience Manager] 體驗片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)經驗碎片？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 5e67c963087cc07d09e65ded48a8f5777104019d
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 21%
+source-wordcount: '1171'
+ht-degree: 20%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 21%
 
 取決於您 [!DNL AEM] 版本，請參閱以下連結以瞭解逐步說明：
 
-* **AEM as a Cloud Service**:
+* **AEMas a Cloud Service**: [將體驗片段導出到Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
 * **[!DNL AEM]6.5**: [將體驗片段導出到目標](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} *Adobe Experience Manager6.5* 文檔。
 * **[!DNL AEM]6.4**: [將體驗片段導出到目標](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} *Adobe Experience Manager6.4* 文檔。
 
