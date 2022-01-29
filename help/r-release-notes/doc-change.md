@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3349'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 1 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
+|  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
 | 1 月 27 日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並添加了有關 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0]。 |
 | 1 月 26 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 Target Standard/Premium 22.1.2 版相關資訊。 |
 |  | [建立對象](/help/c-target/c-audiences/audiences.md) | 已添加有關 [!DNL Adobe Experience Platform] 觀眾。 |
