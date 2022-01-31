@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
 workflow-type: tm+mt
 source-wordcount: '32598'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 99%
 
 ## 發行說明 - 2022
 
-### [!DNL Target Standard/Premium] 22.1.1（2022年1月12日）
+### [!DNL Target Standard/Premium] 22.1.1 (2022 年 1 月 12 日)
 
-此版本包括錯誤修復和未來整合的必備功能。
+此版本包括錯誤修復和未來整合功能的先決條件。
 
 ## 發行說明 - 2021
 

@@ -15,19 +15,19 @@ ht-degree: 99%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## [!DNL Adobe Target Standard/Premium] 22.1.1（2022年1月12日）
+## [!DNL Adobe Target Standard/Premium] 22.1.1 (2022 年 1 月 12 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 1 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
 | 1 月 27 日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並添加了有關 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0]。 |
-| 1 月 26 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 Target Standard/Premium 22.1.2 版相關資訊。 |
-|  | [建立對象](/help/c-target/c-audiences/audiences.md) | 已添加有關 [!DNL Adobe Experience Platform] 觀眾。 |
-|  | [合併多個對象](/help/c-target/combining-multiple-audiences.md) | 已添加有關 [!DNL Adobe Experience Platform] 觀眾。 |
+| 1 月 26 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增 Target Standard/Premium 22.1.2 版的相關資訊。 |
+|  | [建立對象](/help/c-target/c-audiences/audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
+|  | [合併多個對象](/help/c-target/combining-multiple-audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
 | 1 月 21 日 | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | 已新增關於 at.js 1.8.3 版的資訊。 |
 | 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立對象」 |
-| 1 月 12 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增 Target Standard/Premium 22.1.1 版相關資訊。 |
+| 1 月 12 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增 Target Standard/Premium 22.1.1 版的相關資訊。 |
 |  | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新增教學課程的連結，其中包括如何使用 Web SDK 實施 [!DNL Adobe Experience Cloud] 的指示。 |
 
 ## [!DNL Adobe Target Standard/Premium]21.10.1 (2021 年 10 月 6 日)
@@ -44,7 +44,7 @@ ht-degree: 99%
 | 12 月 7 日 | [Target 推薦演算法背後的科學](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |
 | 12 月 2 日 | [使推薦以推薦索引鍵為依據](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了以 Cart 為基礎的算法，以包括透過 mbox 參數 cartIds (以逗號分隔值) 提供的推薦鍵。僅考慮前 10 個值。 |
 | 11 月 18 日 | [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 列中新增註解，指出以下頁面中的[!UICONTROL 可視化體驗撰寫器] (VEC) 不再支援 mbox：使用 at.js 2.*x*。 |
-| 11 月 16 日 | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 已新增關於檔案上傳限制的資訊，其中包含 *Experience Cloud 中央介面元件指南*&#x200B;中的[關於客戶屬性的資料檔案和資料來源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)連結。 |
+| 11 月 16 日 | [客戶屬性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 已新增關於檔案上傳限制的資訊，其中包含 *Experience Cloud 中央介面元件指南*&#x200B;中的[關於客戶屬性的資料檔案和資料來源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant)連結。 |
 |  | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新「Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？」一節，加入最新版 Helper 擴充功能的相關資訊。 |
 |  | [Visual Experience Composer Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新「取得並安裝 VEC Helper 瀏覽器擴充功能」一節。 |
 | 11 月 12 日 | [將 [!DNL Recommendations] 與電子郵件整合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新增入門資訊。 |
@@ -119,7 +119,7 @@ ht-degree: 99%
 |  | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：<ul><li>增強體驗撰寫器 (EEC) 不支援 PUT 要求。</li></ul> |
 | 7 月 27 日 | [Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新增區段：<ul><li>建議文件</li></ul> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 新增區段：<ul><li>內容傳遞</li></ul> |
-| 7 月 26 日 | *Adobe Experience Platform Web SDK 概觀*&#x200B;指南中的[搭配 Platform Web SDK 使用 Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) | 新增區段：<ul><li>Platform Web SDK 系統圖</li></ul> |
+| 7 月 26 日 | *Adobe Experience Platform Web SDK 概觀*&#x200B;指南中的[搭配 Platform Web SDK 使用 Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hant) | 新增區段：<ul><li>Platform Web SDK 系統圖</li></ul> |
 | 7 月 23 日 | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新下列章節以提供詳細資訊：<ul><li>Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？</li></ul> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 在「體驗」下新增「根據體驗進行修改」一節。 |
 | 7 月 21 日 | [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 已更新下列章節：<ul><li>Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？</li></ul> |
