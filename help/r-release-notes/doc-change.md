@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3378'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 | 1 月 31 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 22.2.1版。 |
 | 1 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
-| 1 月 27 日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並添加了有關 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0]。 |
+| 1 月 27 日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並新增了 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的相關資訊。 |
 | 1 月 26 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增 Target Standard/Premium 22.1.2 版的相關資訊。 |
 |  | [建立對象](/help/c-target/c-audiences/audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
 |  | [合併多個對象](/help/c-target/combining-multiple-audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
@@ -197,7 +197,7 @@ ht-degree: 0%
 |  | [實作 Target 而不使用標籤管理員](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 已新增裝置上決策的相關資訊。 |
 |  | [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增對 [!UICONTROL Automated Personalization] 活動的預覽連結支援，以搭配 [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 使用。 |
 |  | [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 已新增以下新運算子的相關資訊：<ul><li>包含在清單中</li><li> 不包含在清單中</li><li>清單中包含某個項目</li><li>清單中不包含某個項目</li><li>清單中包含所有項目</li><li>清單中不包含所有項目</li></ul> |
-|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud 服務與管理*&#x200B;指南) | 已新增有關「工作階段 ID」的其他資訊。 |
+|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=zh-Hant)<br>(*Experience Cloud 服務與管理*&#x200B;指南) | 已新增有關「工作階段 ID」的其他資訊。 |
 |  | [發行說明](/help/r-release-notes/release-notes.md)：21.4.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1 (2021 年 3 月 9 日)
