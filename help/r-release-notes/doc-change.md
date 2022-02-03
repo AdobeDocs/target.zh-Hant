@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '3397'
-ht-degree: 99%
+source-wordcount: '3412'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2 月 3 日 | [建立對象](/help/c-target/c-audiences/audiences.md#RTCDP) | 添加了新節和視頻：「視頻：通過即時CDP和 [!DNL Adobe Target]&quot; |
 | 2 月 2 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 添加以下部分：&quot;轉義雙引號 [!DNL Target] 配置檔案屬性值未按預期工作。」 |
 | 2 月 1 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 22.2.1版。 |
 

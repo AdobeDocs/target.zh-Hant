@@ -4,10 +4,10 @@ description: 瞭解如何在 [!DNL Adobe Target]。
 title: 如何使用受眾清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f8076bd8e9b88ae6ef6af93efe83591fc261ea3f
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 23%
+source-wordcount: '1186'
+ht-degree: 24%
 
 ---
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## 使用來自 [!DNL Adobe Experience Platform] {#aep}
 
-使用在 [!DNL Adobe Experience Platform] 提供更豐富的客戶資料，從而實現更有影響的個性化。 的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCDP)，構建於 [!DNL Adobe Experience Platform]，幫助公司將來自多個企業來源的已知和匿名資料匯集在一起。 此流程允許您建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。
+使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank}(RTCDP)，構建於 [!DNL Adobe Experience Platform]，幫助公司將來自多個企業來源的已知和匿名資料匯集在一起。 此流程允許您建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。
 
 通過連接 [!DNL Target] 到 [!DNL Real-time Customer Data Platform]，客戶可以通過解鎖以前可能無法訪問的新段來豐富其Web個性化 [!DNL Target] 在客戶訪問的第一頁上實現即時毫秒個性化。 使用在 [!DNL Adobe Experience Platform] 允許您擴展可用的資料點，以便更加個性化。
 
@@ -130,10 +130,6 @@ Keep the following points in mind as you work with imported audiences:
 * [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} *目標概述* 引導
 * [為同一頁和下一頁個性化使用案例配置個性化目標](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
 
-### Adobe Target部落格和視頻：
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
-
 ### 其他資訊
 
 下表顯示了來自不同實施方案的事件的段評估時間：
@@ -145,6 +141,18 @@ Keep the following points in mind as you work with imported audiences:
 | 目標移動SDK中的事件 | 無 | 是 | 不適用 |
 | 批處理上載中的事件 | 無 | 無 | 是 |
 | 離線資料（流）中的事件 | 無 | 是 | 是 |
+
+### 視頻：通過即時CDP和 [!DNL Adobe Target]{#RTCDP}
+
+瞭解如何在下一次點擊時個性化 [!DNL Real-time Customer Data Platform] 和 [!DNL Adobe Target]。 的 [!DNL Adobe Target] 目標 [!DNL Real-time CDP] 允許您使用 [!DNL Experience Platform] 分部 [!DNL Adobe Target] 用於同一頁面和下一頁個性化，並支援治理和隱私。
+
+有關詳細資訊，請參見 [通過即時CDP和Adobe Target實現下一次的個性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} *平台Tutorials* 的子菜單。
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Adobe Target部落格和視頻：
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ## 培訓視頻：使用受眾 ![教程徽章](/help/assets/tutorial.png)
 
