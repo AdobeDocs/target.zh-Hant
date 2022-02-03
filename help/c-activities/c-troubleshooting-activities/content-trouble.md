@@ -4,10 +4,10 @@ description: 尋找建議來幫助解決如果頁面未顯示預期內容的問�
 title: 如何疑難排解內容傳送問題？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客會看到您的�
 | URL 參數 | 用途 |
 |--- |--- |
 | `mboxDebug=1` | 偵錯程式<br>將此參數新增至任何已定義 Target 請求的 URL 會開啟快顯視窗，其中含有重要的偵錯詳細資訊。Cookie 資訊、PCid 及工作階段 ID 值會出現，而且所有的 URL 都會顯示。按一下 Target 請求 URL 可顯示該 [!DNL Target] 請求的回應。如需詳細資訊，請參閱 [mbox_debug.pdf](/help/assets/mbox_debug.pdf)。 |
-| `mboxDebug=x-cookie` | 修改 Cookie |
 | `mboxDisable=1` | 停用頁面上的 mbox |
-| `mboxDebug=x-profile` | 檢視描述檔集合。 |
-| `mboxDebug=x-time` | 顯示每個 [!DNL Target] 請求的回應時間。 |
 | `mboxOverride.browserIp=<Insert IP address>` | 測試地理定位<br>使用這個 URL 參數測試地理定位。輸入 IP 位址作為這個屬性的值，Test&amp;Target 的地理定位功能會評估該 IP 位址，以比對促銷活動中設定的任何定位與群體劃分。 |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ Target 不再支援 IE 8。
 在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則透過[!UICONTROL 類型] > [!UICONTROL 為 (區分大小寫)] > type=Summers%20Offers，指定了[!UICONTROL 查詢] (以 OR 運算子分隔)：
 
 ![範本規則利用 URL 的特定部分](assets/option3.png)
+
+## 轉義雙引號 [!DNL Target] 配置檔案屬性值未按預期工作。 {#escape}
+
+當您發送包含雙引號的值時 [!DNL Target] profile屬性，必須按如下所示將其雙轉義。
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## 訓練影片
 
