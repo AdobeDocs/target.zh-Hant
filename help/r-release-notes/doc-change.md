@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '3412'
-ht-degree: 98%
+source-wordcount: '3429'
+ht-degree: 99%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2 月 7 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 （2022年2月23日）</li></ul> |
 | 2 月 3 日 | [建立對象](/help/c-target/c-audiences/audiences.md#RTCDP) | 添加了新節和視頻：「視頻：通過即時CDP和 [!DNL Adobe Target]&quot; |
 | 2 月 2 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 添加以下部分：&quot;轉義雙引號 [!DNL Target] 配置檔案屬性值未按預期工作。」 |
-| 2 月 1 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 22.2.1版。 |
+| 2 月 1 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 22.2.1 版的資訊。 |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (2022 年 1 月 12 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 1 月 31 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 22.2.1版。 |
+| 1 月 31 日 | [Target 發行說明 (搶鮮版)](/help/r-release-notes/target-release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 22.2.1 版的搶鮮版資訊。 |
 | 1 月 28 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
 |  | [at.js 版本詳細資料](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
 | 1 月 27 日 | [AEM 體驗片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並新增了 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的相關資訊。 |
