@@ -5,9 +5,9 @@ title: 即將發行的版本包含哪些新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 65%
 
 ## Target Standard/Premium 22.2.1 (2022 年 2 月 1 日)
 
-此維護版本包含以下針對新版本的修復和增強 [!UICONTROL 觀眾] UI在 [目標標準/高級版22.1.2版](/help/r-release-notes/release-notes.md) 在接下來的六週內向所有地區的客戶推廣。 這些修復將協調在中建立的受眾的功能 [!DNL Adobe Target Standard/Premium]。
+此維護版本包含以下針對 [Target Standard/Premium 22.1.2 版本](/help/r-release-notes/release-notes.md)中宣布的新[!UICONTROL 對象] UI 的修復和增強功能，該版本將在未來六週內向所有地區的客戶推出。此修正調整了在 [!DNL Adobe Target Standard/Premium] 中建立的對象功能。
 
-* 已修復阻止導入的受眾的問題 [!DNL Adobe Experience Platform]。 [!DNL Adobe Experience Cloud], [!DNL Adobe Target Classic] 不被分配為報告受眾。 (TGT-43140)
-* 已添加 [!UICONTROL 刪除] 的上界 [!UICONTROL 觀眾] 從導入的受眾清單 [!DNL Adobe Experience Platform]。 [!DNL Adobe Experience Cloud], [!DNL Adobe Target Classic]。 還添加了批量刪除功能。 (TGT-42914)
+* 修復了無法將從 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 匯入的對象指派為報告對象的問題。(TGT-43140)
+* 在「[!UICONTROL 對象]」清單中為從 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 匯入的對象新增了[!UICONTROL 刪除]選項。還新增了大量刪除功能。(TGT-42914)
 
 ## 發行前資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
