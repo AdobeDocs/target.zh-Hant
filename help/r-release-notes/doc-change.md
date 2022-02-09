@@ -19,9 +19,9 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2 月 7 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 （2022年2月23日）</li></ul> |
-| 2 月 3 日 | [建立對象](/help/c-target/c-audiences/audiences.md#RTCDP) | 添加了新節和視頻：「視頻：通過即時CDP和 [!DNL Adobe Target]&quot; |
-| 2 月 2 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 添加以下部分：&quot;轉義雙引號 [!DNL Target] 配置檔案屬性值未按預期工作。」 |
+| 7 月 2 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 （2022年2月23日）</li></ul> |
+| 2 月 3 日 | [建立對象](/help/c-target/c-audiences/audiences.md#RTCDP) | 新增章節和影片：「影片：使用 Real-Time CDP 和 [!DNL Adobe Target] 進行下一次點擊個人化。」 |
+| 2 月 2 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 新增下列章節：「在 [!DNL Target] 設定檔屬性值中逸出雙引號無法如預期運作。」 |
 | 2 月 1 日 | [Target 發行說明 (最新)](/help/r-release-notes/release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 22.2.1 版的資訊。 |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (2022 年 1 月 12 日)

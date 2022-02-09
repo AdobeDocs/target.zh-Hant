@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!DNL Target] 中的 [!DNL Adobe Experience Platform] 對象 | 您現在可以在 [!DNL Target] 中消費和使用 [!DNL Adobe Experience Platform] 對象。[!DNL Target] 團隊、[!DNL Experience Platform] [!DNL Destinations] 團隊和 [!DNL Unified Profile Service] 團隊很高興地宣布推出「相同頁面/下一頁個人化」使用案例的正式版本。<br>使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank}(RTCDP)，構建於 [!DNL Adobe Experience Platform] 幫助公司將來自多個企業來源的已知和匿名資料匯集到一起，以建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。<br>有關詳細資訊，請參見 [使用來自Adobe Experience Platform的觀眾](/help/c-target/c-audiences/audiences.md#aep) 在 *建立受眾* 和 [同頁和下頁個性化使用案例](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} *目標概述* 的子菜單。 |
+| [!DNL Target] 中的 [!DNL Adobe Experience Platform] 對象 | 您現在可以在 [!DNL Target] 中消費和使用 [!DNL Adobe Experience Platform] 對象。[!DNL Target] 團隊、[!DNL Experience Platform] [!DNL Destinations] 團隊和 [!DNL Unified Profile Service] 團隊很高興地宣布推出「相同頁面/下一頁個人化」使用案例的正式版本。<br>使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。[Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank} (RTCDP) 是以 [!DNL Adobe Experience Platform] 為基礎打造，可讓公司整合來自多個企業來源的已知和匿名資料，以建立客戶設定檔，其可用於跨所有管道和裝置即時提供個人化客戶體驗。<br>如需詳細資訊，請參閱&#x200B;*建立對象*&#x200B;中的[使用來自 Adobe Experience Platform 的對象](/help/c-target/c-audiences/audiences.md#aep)以及&#x200B;*目的地概觀*&#x200B;指南中的[相同頁面/下一頁個人化使用案例](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}。 |
 | [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>一個全新的「對象來源」篩選器，能讓您更快地發現對象</li><li>工作階段持續搜尋和篩選器選項</li><li>為 [!DNL Target Premium] 客戶在工作區之間移動對象的功能。</li></ul>如需詳細資訊，請參閱[對象](/help/c-target/target.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
 | [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
 
