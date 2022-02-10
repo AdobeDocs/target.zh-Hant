@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 98%
+source-wordcount: '4738'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,15 @@ ht-degree: 98%
 
 ### Visual Experience Composer(VEC)使用服務工作人員載入網站
 
-當嘗試使用VEC開啟使用「服務工作人員」的網站時，存在一些當前限制。 一種解決方法是從「Chrome Developer Tools」（Chrome開發人員工具）>「Application」（應用程式）頁籤中禁用「Service Worker」（服務工作人員）部分下的「Bypass for network」（繞過網路）複選框。 (KB-2006)
+當嘗試使用VEC開啟正在使用的網站時，有一些當前限制 [服務工作人員](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank}(SW)。
+
+SW是一種Web技術，可用於攔截網頁所安裝域的請求。 SW在頁面訪問中幸存，並在隨後的訪問中激活。 SW決定通過哪些請求以及從快取中截取和提供哪些請求。
+
+軟體可以控制快取；可以快取網頁本身、靜態資源(如JS、CSS、IMGAJAX)、請求、其內容以及其響應標頭，包括我們的 [目標VEC幫助程式擴展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 嘗試刪除，如X-Frame-Options:SAMEORIGIN、CSP（內容安全策略）或Set-Cookie。
+
+遺憾的是，攔截Web請求的Chrome擴展API未接收被SW攔截和處理的請求。 因此，如果網頁請求由SW從快取中提供，則擴展無法修復標頭和Cookie，因為X-Frame-Options或同時快取的CSP標頭不會將網頁載入到VEC中。
+
+作為可能的解決方法，您可以從「Chrome開發人員工具」>「應用程式」頁籤中禁用「服務工作人員」，然後啟用「服務工作人員」部分下的「繞過網路」複選框。 (KB-2006)
 
 ### 使用 A4T 自動分配活動的流量分佈 {#aa-a4t}
 
