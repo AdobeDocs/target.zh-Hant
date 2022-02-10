@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
-source-wordcount: '3429'
+source-wordcount: '3449'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2 月 10 日 | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：<ul><li>Visual Experience Composer(VEC)使用服務工作人員載入網站</li></ul> |
 | 7 月 2 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 （2022年2月23日）</li></ul> |
 | 2 月 3 日 | [建立對象](/help/c-target/c-audiences/audiences.md#RTCDP) | 新增章節和影片：「影片：使用 Real-Time CDP 和 [!DNL Adobe Target] 進行下一次點擊個人化。」 |
 | 2 月 2 日 | [疑難排解內容傳送](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 新增下列章節：「在 [!DNL Target] 設定檔屬性值中逸出雙引號無法如預期運作。」 |

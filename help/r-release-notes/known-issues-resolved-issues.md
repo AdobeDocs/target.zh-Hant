@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節羅列 [!DNL Target] 的已知問題：
+
+### Visual Experience Composer(VEC)使用服務工作人員載入網站
+
+當嘗試使用VEC開啟使用「服務工作人員」的網站時，存在一些當前限制。 一種解決方法是從「Chrome Developer Tools」（Chrome開發人員工具）>「Application」（應用程式）頁籤中禁用「Service Worker」（服務工作人員）部分下的「Bypass for network」（繞過網路）複選框。 (KB-2006)
 
 ### 使用 A4T 自動分配活動的流量分佈 {#aa-a4t}
 
