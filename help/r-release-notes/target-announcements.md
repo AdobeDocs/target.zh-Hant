@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 94%
 
 閱讀有關近期事件的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
 
-## [!DNL Adobe Target] 社群問答咖啡會 （2022年2月23日）
+## [!DNL Adobe Target] 社群問答咖啡會 (2022 年 2 月 23 日)
 
-* **2022年2月23日星期三**
+* **2022 年 2 月 23 日星期三**
 * **上午 8 點 (PST，UTC -8)**
 * **[更多資訊和註冊資訊](https://adobe.ly/3skO6DV)**
 
-高級產品經理Vishal Chordia將回答客戶有關他以下專業領域的問題：
+資深產品經理 Vishal Chordia 將會回答下列相關專業領域的客戶問題：
 
 * [!DNL Adobe Experience Platform]
 * Audience 方面的個人化服務
 * [!DNL Real-time Customer Data Platform] (RTCDP) 與 [!DNL Target] 整合
 * 一般 [!DNL Target] 主題
 
-技術支援工程師Mihnea Docea將協助Vishal。
+技術支援工程師 Mihnea Docea 將會在場協助 Vishal。
 
 ## 網路研討會影片：利用 [!DNL Adobe Target] 的裝置上決策在零延遲的情況下進行個人化和測試
 
