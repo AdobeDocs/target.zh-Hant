@@ -5,9 +5,9 @@ title: 何處可以獲得有關 「已知問題」和「已解決問題」的資
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 95%
 
 以下小節羅列 [!DNL Target] 的已知問題：
 
-### Visual Experience Composer(VEC)使用服務工作人員載入網站
+### Visual Experience Composer (VEC) 載入使用 Service Worker 的網站
 
-當嘗試使用VEC開啟正在使用的網站時，有一些當前限制 [服務工作人員](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank}(SW)。
+當嘗試用 VEC 開啟使用 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) 的網站時，目前有一些限制。
 
-SW是一種Web技術，可用於攔截網頁所安裝域的請求。 SW在頁面訪問中幸存，並在隨後的訪問中激活。 SW決定通過哪些請求以及從快取中截取和提供哪些請求。
+SW 是一種網路技術，可用於攔截網頁安裝所在網域的請求。SW 在該次頁面瀏覽中存活下來，並在隨後的頁面瀏覽中自我啟用。SW 決定允許哪些請求通過，以及攔截哪些請求，並改從快取提供服務。
 
-軟體可以控制快取；可以快取網頁本身、靜態資源(如JS、CSS、IMGAJAX)、請求、其內容以及其響應標頭，包括我們的 [目標VEC幫助程式擴展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 嘗試刪除，如X-Frame-Options:SAMEORIGIN、CSP（內容安全策略）或Set-Cookie。
+SW 可以控制快取；可以快取網頁本身、靜態資源，如 JS、CSS、IMG、AJAX 請求、其內容及其回應標頭，包括我們的 [Target VEC Helper 擴充功能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)嘗試移除的回應標頭，如 X-Frame-Options: SAMEORIGIN、CSP (Content-Security-Policy) 或 Set-Cookie。
 
-遺憾的是，攔截Web請求的Chrome擴展API未接收被SW攔截和處理的請求。 因此，如果網頁請求由SW從快取中提供，則擴展無法修復標頭和Cookie，因為X-Frame-Options或同時快取的CSP標頭不會將網頁載入到VEC中。
+遺憾的是，攔截網路請求的 Chrome 擴充功能 API 不接收 SW 所攔截和處理的請求。因此，如果網頁請求是由 SW 從快取中提供服務，則擴充功能無法修正標頭和 Cookie，因為同時快取了 X-Frame-Options 或 CSP 標頭的緣故，網頁不會載入到 VEC 中。
 
-作為可能的解決方法，您可以從「Chrome開發人員工具」>「應用程式」頁籤中禁用「服務工作人員」，然後啟用「服務工作人員」部分下的「繞過網路」複選框。 (KB-2006)
+可能的因應措施是，從 Chrome「開發人員工具」>「Application」索引標籤中停用 Service Worker，然後啟用「Service Workers」區段下的「Bypass for network」核取方塊。(KB-2006)
 
 ### 使用 A4T 自動分配活動的流量分佈 {#aa-a4t}
 
