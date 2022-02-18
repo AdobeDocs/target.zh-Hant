@@ -4,9 +4,9 @@ description: 瞭解哪些資料Adobe [!DNL Target] 收集並用於構建其機�
 title: 收集哪些資料來構建機器學習算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2062'
 ht-degree: 48%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 48%
 | URL 參數 | URL | 當前查看頁面的URL和任何URL參數。 | 自定義 — URL參數 —  [URL參數] |
 | 反向連結 URL | 參考 | 引用URL和引用URL的任何URL參數。 | 自定義 —  [引用URL參數] - [參數值] |
 | Adobe Experience Cloud共用觀眾 | AAM | 與共用的所有受眾 [!DNL Target] 其他 [!DNL Adobe Experience Cloud] 解決方案(例如， [!DNL Adobe Audience Manager] 和 [!DNL Adobe Analytics]，通過 [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank})。 | 自定義 — Experience Cloud受眾 —  [受眾名稱] |
-| Adobe Experience PlatformRTCDP觀眾 | UPS | AEP RTCDP訪問群體與 [!DNL Target] 通過目標。<br>請注意，此功能尚未 [!DNL Target] 但將在未來實施。 |  |
+| Adobe Experience PlatformRTCDP觀眾 | UPS | AEP RTCDP訪問群體與 [!DNL Target] 通過目標。 |  |
 
 ## 阻止來自 [!DNL Target] 機器學習算法
 
