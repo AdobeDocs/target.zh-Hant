@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
+source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
 workflow-type: tm+mt
-source-wordcount: '3493'
+source-wordcount: '3506'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 2 月 25 日 | [自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已更新下列章節：<ul><li>[自動分配和自動目標](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動分配](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [解讀自動分配報告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已新增常見問答：<ul><li>是否有&quot;無贏家&quot;,&quot;贏家&quot;和&quot;星章&quot; [!UICONTROL 自動分配] 使用 [!UICONTROL 分析作為報告源] (A4T)?</li></ul> |
+|  | [建立僅限於此活動的對象](/help/c-target/creating-activity-only-audience.md) | 在討論排除規則的「注意事項」部分添加了資訊。 |
 | 2 月 10 日 | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：<ul><li>Visual Experience Composer (VEC) 載入使用 Service Worker 的網站</li></ul> |
 | 2 月 7 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2022 年 2 月 23 日)</li></ul> |
 | 2 月 3 日 | [建立對象](/help/c-target/c-audiences/audiences.md#RTCDP) | 新增章節和影片：「影片：使用 Real-Time CDP 和 [!DNL Adobe Target] 進行下一次點擊個人化。」 |
