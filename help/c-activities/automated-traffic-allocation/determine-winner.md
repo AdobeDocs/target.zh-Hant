@@ -4,7 +4,7 @@ description: 瞭解如何解釋Adobe中自動分配A/B活動的結果 [!DNL Targ
 title: 如何解釋自動分配報告？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 * 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些置信度通常出現在正常A/Btest完成所需時間的一半左右（儘管這並不保證）。 要確定正常A/Btest將運行多長時間，請使用 [示例大小計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html):插入控制項的轉換率在「基線轉換率」中，在「Lift」中為「5%」，在「Ficte」中為95%。 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
 * 如果報表完全顯示 0%，可能表示太早進入活動。
 
-## 是否有&quot;無贏家&quot;,&quot;贏家&quot;和&quot;星章&quot; [!UICONTROL 自動分配] 使用 [!UICONTROL 分析作為報告源] (A4T)?
+### 是否有&quot;無贏家&quot;,&quot;贏家&quot;和&quot;星章&quot; [!UICONTROL 自動分配] 使用 [!UICONTROL 分析作為報告源] (A4T)?
 
 &quot;尚未獲得獲獎者&quot;和&quot;獲獎者&quot;徽章目前在 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace]。 如果在中查看同一報告，則這些徽章也不可用 [!DNL Target]。 一枚獲獎的星章 [!DNL Target] 報告 [!UICONTROL 自動分配] 應忽略使用A4T的活動。
 
