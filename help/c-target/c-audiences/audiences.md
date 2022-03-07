@@ -4,10 +4,10 @@ description: 瞭解如何在 [!DNL Adobe Target]。
 title: 如何使用受眾清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 24%
+source-wordcount: '1333'
+ht-degree: 23%
 
 ---
 
@@ -132,13 +132,27 @@ Keep the following points in mind as you work with imported audiences:
 
 ### 其他資訊
 
+使用來自 [!DNL Adobe Experience Platform]:
+
+#### 個性化用例
+
+下表顯示了使用 [!DNL Adobe Experience Platform Web SDK] 與使用at.js:
+
+| 實施 | 已啟用解決方案/使用案例 |
+| --- | --- |
+| at.js  | **解決方案**:<ul><li>[!DNL Adobe Audience Manager] (AAM和) [!DNL Target]</li><li>[!DNL RTCDP] （高級或最終） [!DNL Target]</li><li>[!DNL RTCDP] （任何SKU）, [!DNL AAM], [!DNL Target]</li></ul>**使用案例**:<ul><li>下一會話個性化</li></ul> |
+| [!DNL Platform Web SDK]或 [!DNL AEP Server-Side API] | **解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**用例**:<ul><li>下一會話個性化</li><li>通過邊緣實現同頁個性化</li><li>共用段時強制實施治理</li></ul>**解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）, [!DNL AAM], [!DNL Target]</li></ul>**用例**:<ul><li>下一會話個性化</li><ul><li>[!DNL AAM] 區段</li><li>第3方網段(通過 [!DNL AAM]</li></ul><li>通過邊緣實現同頁個性化</li><ul><li>[!DNL RTCDP] 區段</li><li>共用段時強制實施治理</li></ul> |
+| 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] | **解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**用例**:<ul><li>下一會話個性化</li><ul><li>對於具有 [!UICONTROL at.js]</li></ul><li>同頁個性化</li><ul><li>對於具有 [!DNL Platform Web SDK]</li></ul></ul>**解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）, [!DNL AAM], [!DNL Target]</li></ul>**用例**:<ul><li>下一會話個性化</li><ul><li>對於具有 [!UICONTROL at.js]</li><li>[!DNL AAM] 區段</li><li>第3方網段(通過 [!DNL AAM]</li></ul> |
+
+#### 段評估時間
+
 下表顯示了來自不同實施方案的事件的段評估時間：
 
 | 藍本 | 邊緣段（毫秒計算） | 流段（分鐘評估） | 批處理段評估 |
 | --- | --- | --- | --- |
-| 來自Adobe Experience PlatformSDK的事件/資料 | 是 | 是 | 不適用 |
-| 來自at.js的事件 | 無 | 是 | 不適用 |
-| 目標移動SDK中的事件 | 無 | 是 | 不適用 |
+| 事件/資料來自 [!DNL Adobe Experience Platform] SDK | 是 | 是 | 不適用 |
+| 事件來源 [!UICONTROL at.js] | 無 | 是 | 不適用 |
+| 事件來源 [!DNL Target Mobile] SDK | 無 | 是 | 不適用 |
 | 批處理上載中的事件 | 無 | 無 | 是 |
 | 離線資料（流）中的事件 | 無 | 是 | 是 |
 

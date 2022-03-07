@@ -4,9 +4,9 @@ title: 在哪裡可以找到 [!DNL Target] 文件？
 description: 了解如何使用 Adobe [!DNL Target] 將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
-workflow-type: ht
-source-wordcount: '690'
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
+workflow-type: tm+mt
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2022 年 2 月 25 日 ([查看變更內容](r-release-notes/doc-change.md))**
-
->[!NOTE]
->
->[!DNL Adobe Target] 最近在下列報告中被列為業界領導者：
->
->**[體驗最佳化平台的 Forrester Ｗave 報告。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target 在 The Forrester Wave: Experience Optimization Platforms, Q4 2020 報告中被列為業界領導者。
->
->**[Gartner Magic Quadrant for personalization engines。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target 再次於第三年度 Gartner Magic Quadrant for Personalization Engines, 2020 報告中被列為業界領導者。
+**最近更新：2022 年 3 月 7 日 ( [查看變更](r-release-notes/doc-change.md) )**
 
 以下區段依照目標對象的典型職務排列，引導您在本指南中找到實用連結:
 
