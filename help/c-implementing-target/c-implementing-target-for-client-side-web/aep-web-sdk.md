@@ -5,10 +5,10 @@ title: 如何使用Experience PlatformWeb SDK實現？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 636016be6e8a6adc8c4b7fb09af93bb89e28373a
+source-git-commit: 7cded87ef6c9a61a6f259a8ea458c31a8c6c9e39
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 5%
+source-wordcount: '554'
+ht-degree: 8%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 5%
 | [活動 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 在中使用QA URL [!DNL Adobe Target] 通過預覽連結執行輕鬆的端到端活動QA，這些連結永遠不會更改，可選的受眾目標，以及保留與即時活動資料分段的QA報告。 [!UICONTROL 活動QA] 讓您完全test [!DNL Target] 在啟動前進行活動。<br>請參閱 [目標JavaScript庫QA模式相容性](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) 和 [預覽URL](/help/c-activities/c-activity-qa/activity-qa.md#preview)。 |
 | [[!UICONTROL Analytics for Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T)是一種跨解決方案整合，允許您根據 [!DNL Analytics] 轉換指標和受眾段。 A4T整合允許您 [!DNL Analytics] 報告以檢查結果。<br>請參閱 [支援的活動類型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 和 [Adobe Experience PlatformWeb SDK實施步驟](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform)。 |
 | [對象](/help/c-target/target.md) | 觀眾 [!DNL Adobe Target] 確定誰在目標活動中看到內容和體驗。<br>請參閱 [使用「受眾」清單](/help/c-target/c-audiences/audiences.md#use-list) 和 [合併多個受眾](/help/c-target/combining-multiple-audiences.md)。 |
+| [建立對象](/help/c-target/c-audiences/audiences.md) | 使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。<ul>請參閱 [使用來自 [!DNL Adobe Experience Platform]](/help/c-target/c-audiences/audiences.md#aep)。 |
 | [提供決策](/help/c-integrating-target-with-mac/ajo/offer-decision.md) | 將在Adobe Journey Optimizer建立的優惠決定添加到目標活動(手動A/BTest或體驗目標)中，以確定並提供下一個最佳優惠，供您在Web和移動設備上訪問。 |
 | [重新導向選件 - A4T 常見問答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 重定向功能使訪問者的瀏覽器重定向到新頁面。<br>請參閱 [是否 [!DNL Adobe Experience Platform Web SDK] 支援A4T重定向服務？](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [回應權杖](/help/administrating-target/response-tokens.md) | 響應令牌允許您將目標資料發送到Google Analytics和其他第三方整合。<br>請參閱 [通過平台Web SDK向Google Analytics發送資料](/help/administrating-target/response-tokens.md#platform-web-sdk) 查看如何完成此任務的代碼示例。 |
