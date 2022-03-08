@@ -4,7 +4,7 @@ title: 在哪裡可以找到 [!DNL Target] 文件？
 description: 了解如何使用 Adobe [!DNL Target] 將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
+source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新：2022 年 3 月 7 日 ( [查看變更](r-release-notes/doc-change.md) )**
+**最近更新：2022 年 3 月 8 日 ( [查看變更](r-release-notes/doc-change.md) )**
 
 以下區段依照目標對象的典型職務排列，引導您在本指南中找到實用連結:
 
