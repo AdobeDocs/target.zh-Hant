@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ SW 可以控制快取；可以快取網頁本身、靜態資源，如 JS、CSS�
 遺憾的是，攔截網路請求的 Chrome 擴充功能 API 不接收 SW 所攔截和處理的請求。因此，如果網頁請求是由 SW 從快取中提供服務，則擴充功能無法修正標頭和 Cookie，因為同時快取了 X-Frame-Options 或 CSP 標頭的緣故，網頁不會載入到 VEC 中。
 
 可能的因應措施是，從 Chrome「開發人員工具」>「Application」索引標籤中停用 Service Worker，然後啟用「Service Workers」區段下的「Bypass for network」核取方塊。(KB-2006)
+
+### 刪除在基於表單的經驗合成器中建立的活動中具有臨時優惠的位置 {#ad-hoc}
+
+如果在基於表單的體驗作曲家中建立的活動使用即席優惠（在活動中建立的優惠），請避免刪除這些活動中的位置。 刪除位置會導致活動損壞。 的 [!DNL Target] 團隊正在為此做一個修復。 作為變通辦法，您可以通過 [!UICONTROL 提供庫] 並將它們與地點配合使用，或者根據需要建立新體驗。 (KB-2014)
 
 ### 使用 A4T 自動分配活動的流量分佈 {#aa-a4t}
 

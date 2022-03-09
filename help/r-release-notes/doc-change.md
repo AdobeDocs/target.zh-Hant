@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3561'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3 月 9 日 | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 新增下列已知問題：<ul><li>刪除在基於表單的經驗合成器中建立的活動中具有臨時優惠的位置</li></ul> |
 | 3 月 8 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 （2022年3月30日）</li></ul> |
 | 3 月 7 日 | [建立對象](/help/c-target/c-audiences/audiences.md#aep) | 在「使用來自 [!DNL Adobe Experience Platform] 的對象」底下新增一節：<ul><li>個人化使用案例</li></ul> |
 | 2 月 25 日 | [自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已更新下列章節：<ul><li>[自動分配和自動鎖定目標](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動分配](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
