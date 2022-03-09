@@ -1,13 +1,13 @@
 ---
 keywords: mbox;mbox3rdPartyId;設定檔同步中;設定檔同步;PCID
-description: 瞭解如何使用mbox3rdPartyId（組織的訪問者ID），如成員身份ID或組織的忠誠計畫。
+description: 瞭解如何使用mbox3rdPartyId（組織的訪問者ID），如成員資格ID或組織的忠誠計畫。
 title: 如何使用mbox3rdPartyId的即時配置檔案同步？
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
+source-git-commit: 211931f4456f5360efb1fbaa4f0bc23f5bfbcfc1
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 23%
+source-wordcount: '735'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 當訪客存取已啟用 [!DNL Target] 的頁面時，該訪客會獲派 [!DNL Target] PCID。如果訪問者隨後登錄，且實施通過 `mbox3rdPartyId` 至 [!DNL Target]。 [!DNL Target] 把訪客的 `mbox3rdPartyId` 和 [!DNL Target] PCID
 
-每隔 3 到 5 分鐘，系統就會將更新同步至資料庫。訪問者註銷時，合併的資料將替換與 `mbox3rdPartyId`，建立該訪問者的完整操作記錄。 如果兩個ID中都存在相同的屬性，例如，PCID具有category=hats和 `mbox3rdPartyId` has category=skis，或如果訪問者在登錄前看到體驗A，但體驗B儲存在 `mbox3rdPartyId` — 儲存在 `mbox3rdPartyId` 覆蓋PCID中的屬性。 如果訪問者在登錄之前曾參與過一個活動或體驗，但是將不同的活動和體驗儲存在 `mbox3rdPartyId`，登錄後，該訪問者被安置在 `mbox3rdPartyId` 活動和經驗。
+更新每5-10分鐘與配置檔案儲存同步一次。 訪問者會話結束時，合併的資料將替換與 `mbox3rdPartyId`，建立該訪問者的完整操作記錄。 如果兩個ID中都存在相同的屬性，例如，PCID具有category=hats和 `mbox3rdPartyId` has category=skis，或如果訪問者在登錄前看到體驗A，但體驗B儲存在 `mbox3rdPartyId` — 儲存在 `mbox3rdPartyId` 覆蓋PCID中的屬性。 如果訪問者在登錄之前曾參與過一個活動或體驗，但是將不同的活動和體驗儲存在 `mbox3rdPartyId`，登錄後，該訪問者被安置在 `mbox3rdPartyId` 活動和經驗。
 
 | PCID (未登入) | mbox3rdPartyId (已登入) | 已合併且儲存至 mbox3rdPartyId |
 |---|---|---|
