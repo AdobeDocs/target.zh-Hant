@@ -21,7 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 3 月 9 日 | [已知問題和已解決問題](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 新增下列已知問題：<ul><li>刪除在基於表單的經驗合成器中建立的活動中具有臨時優惠的位置</li></ul> |
 |  | [mbox3rdPartyId 的即時設定檔同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 有關配置檔案同步的以下句子已更新：&quot;更新每5-10分鐘與配置檔案儲存同步一次。&quot; |
-| 3 月 8 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 （2022年3月30日）</li></ul> |
+| 3 月 8 日 | [Target 公告和活動](/help/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2022 年 3 月 30 日)</li></ul> |
 | 3 月 7 日 | [建立對象](/help/c-target/c-audiences/audiences.md#aep) | 在「使用來自 [!DNL Adobe Experience Platform] 的對象」底下新增一節：<ul><li>個人化使用案例</li></ul> |
 | 2 月 25 日 | [自動分配和自動鎖定目標活動的 A4T 支援](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已更新下列章節：<ul><li>[自動分配和自動鎖定目標](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動分配](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [解讀自動分配報告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 已新增常見問答：<ul><li>「沒有贏家」、「贏家」和「星星」徽章適用於使用 [!UICONTROL Analytics 做為報告來源] (A4T) 的[!UICONTROL 自動分配]活動嗎？</li></ul> |
@@ -208,7 +208,7 @@ ht-degree: 99%
 |  | [實作 Target 而不使用標籤管理員](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 已新增裝置上決策的相關資訊。 |
 |  | [活動問答](/help/c-activities/c-activity-qa/activity-qa.md) | 已新增對 [!UICONTROL Automated Personalization] 活動的預覽連結支援，以搭配 [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 使用。 |
 |  | [使用動態和靜態包含規則](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 已新增以下新運算子的相關資訊：<ul><li>包含在清單中</li><li> 不包含在清單中</li><li>清單中包含某個項目</li><li>清單中不包含某個項目</li><li>清單中包含所有項目</li><li>清單中不包含所有項目</li></ul> |
-|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud 服務與管理*&#x200B;指南) | 已新增有關「工作階段 ID」的其他資訊。 |
+|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=zh-Hant)<br>(*Experience Cloud 服務與管理*&#x200B;指南) | 已新增有關「工作階段 ID」的其他資訊。 |
 |  | [發行說明](/help/r-release-notes/release-notes.md)：21.4.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1 (2021 年 3 月 9 日)
