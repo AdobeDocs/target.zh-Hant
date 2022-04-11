@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -15,10 +15,21 @@ ht-degree: 99%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
+## Adobe Target標準/高級22.3.1(2022年4月4日至6日；交錯釋放)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 4 月 4 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 22.3.1 版的資訊。 |
+
 ## Adobe Target Standard/Premium 22.2.1 (2022 年 2 月 1 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3 月 30 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已添加有關 [!DNL Target] 平台版本。 |
+| 3 月 28 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已添加有關 [!DNL Target] 平台版本。 |
+| 3 月 22 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 客戶工程修復版本。 |
+|  | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 22.3.1 版的搶鮮版資訊。 |
+| 3 月 17 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 客戶工程修復版本。 |
 | 3 月 9 日 | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 新增下列已知問題：<ul><li>刪除在基於表單的經驗合成器中建立的活動中具有臨時優惠的位置</li></ul> |
 |  | [mbox3rdPartyId 的即時設定檔同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 有關配置檔案同步的以下句子已更新：&quot;更新每5-10分鐘與配置檔案儲存同步一次。&quot; |
 | 3 月 8 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2022 年 3 月 30 日)</li></ul> |

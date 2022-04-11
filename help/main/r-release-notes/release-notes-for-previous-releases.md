@@ -1,13 +1,13 @@
 ---
-keywords: 發行說明
+keywords: 發行說明；預發行說明；未來增強；未來修復；未來功能；即將發佈；prerelease notes;future enhancements;future fixes;future features;fucture release
 description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與修復清單。
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32988'
-ht-degree: 100%
+source-wordcount: '33051'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 100%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2022
+
+### Target Standard/Premium 22.2.1 (2022 年 2 月 1 日)
+
+此維護版本包含以下針對 Target Standard/Premium 22.1.2 版本中宣布的新[!UICONTROL 對象] UI 的修復和增強功能，該版本將在未來六週內向所有地區的客戶推出。此修正調整了在 [!DNL Adobe Target Standard/Premium] 中建立的對象功能。
+
+* 修復了無法將從 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 匯入的對象指派為報告對象的問題。(TGT-43140)
+* 在「[!UICONTROL 對象]」清單中為從 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 匯入的對象新增了[!UICONTROL 刪除]選項。還新增了大量刪除功能。(TGT-42914)
 
 ### at.js 2.8.1 版 (2022 年 1 月 28 日)
 
@@ -1166,7 +1173,7 @@ target/r_release-notes-2018.xml
 
 此 [!DNL Target] 發行包含下列增強功能、修正和變更:
 
-* Recommendations CSV 下載檔案的「備用」列現在開頭會是 &quot;*&quot; (兩個引號包住星號)，而不是 * (一個星號)。
+* 現在，RecommendationsCSV下載的備份行具有前導「&#42;&quot;(用雙引號括住星號，而不是 &#42; （一個星號）。
 * Recommendations CSV 下載檔案的「銷售最高/檢視次數最多」列開頭不會再有逗點。
 
 ### Target 平台變更 (2018 年 6 月 19 日) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ target/r_release-notes-2018.xml
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。(TGT-28483) </p> <p>如需詳細資訊，請參閱 <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">表格式體驗撰寫器</a>。 </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>現在不必強制指定 mbox 名稱，即可直接使用 mbox 參數，建立 Recommendations 條件、Recommendations 促銷活動和範本測試規則。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。您也可以使用 mbox 名稱篩選器，篩選 mbox 參數。 </p> <p>建立自訂對象亦改善這點。 </p> <p>如需詳細資訊，請參閱 <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations 常見問答</a>。 </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>已更新 Recommendations 設計卡片的 UI。 </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>可在 <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">Adobe I/0 Adobe Target 網站</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html) 參閱 Target Recommendations API 文件。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

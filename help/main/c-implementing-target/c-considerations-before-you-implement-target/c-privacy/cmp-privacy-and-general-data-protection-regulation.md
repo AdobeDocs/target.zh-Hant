@@ -5,9 +5,9 @@ title: 如何 [!DNL Target] 處理隱私和資料保護法規？
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2209'
 ht-degree: 54%
 
 ---
@@ -31,8 +31,9 @@ ht-degree: 54%
 
 如需詳細資訊，請參閱:
 
-* [Adobe 一般資料保護規範 API 網站](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [GDPR 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [AdobePrivacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Privacy ServiceAPI指南](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Privacy ServiceUI概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## 加州消費者隱私保護法 (CCPA) 概覽
 

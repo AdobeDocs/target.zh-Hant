@@ -4,10 +4,10 @@ description: 瞭解如何將多個觀眾(包括Adobe Experience Cloud觀眾和 [
 title: 我是否可以合併多個受眾以建立新受眾？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 68%
+source-wordcount: '931'
+ht-degree: 65%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 從 [!DNL Adobe Experience Platform] 可以按原樣使用或與現有受眾組合，如本主題中所述)。
+>的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 從 [!DNL Adobe Experience Platform] 可以按原樣使用或與現有受眾組合，如本主題中所述。
 >
 >有關詳細資訊，請參閱 [使用來自Adobe Experience Platform的觀眾](/help/main/c-target/c-audiences/audiences.md#aep)。
 
@@ -25,7 +25,7 @@ ht-degree: 68%
 
 作為另一個例子，您可以瞄準所有忠誠客戶。 例如，您可以包括 [!DNL Audience Manager] 忠誠狀態的受眾，並將其與 [!DNL Target] 觀眾由在當前會話中註冊您的忠誠計畫的人組成。 把這兩個觀眾合二為一比創造第三個永久觀眾要容易得多
 
-您可以使用 AND 和 OR 運算子來合併最多十個對象。
+使用AND和OR運算子，最多可以組合20個受眾。
 
 您可以在 [!DNL Target] UI 各處建立並使用合併的對象。
 
@@ -37,13 +37,13 @@ ht-degree: 68%
 
    ![步驟結果](assets/edit_audience.png)
 
-1. 在[!UICONTROL 「選擇對象」]頁面上，選取所需對象旁的核取方塊，以使用這些對象作為合併對象的建置區塊。
+1. 在&#x200B;**[!UICONTROL 「選擇對象」]**&#x200B;頁面上，選取所需對象旁的核取方塊，以使用這些對象作為合併對象的建置區塊。
 
-   按一下 [!UICONTROL 篩選器] 按鈕以縮小搜索所需受眾的範圍。 您可以按受眾的來源篩選受眾： [!DNL Adobe Target]。 [!DNL Adobe Target Classic]。 [!DNL Experience Cloud]。 [!DNL Adobe Experience Platform]。
+   使用 [!UICONTROL 搜索受眾] 框，縮小您對所需受眾的搜索範圍。
 
    ![步驟結果](assets/combine_multiple_audiences1.png)
 
-1. 按一下 **[!UICONTROL 合併受眾]** 在右上角。
+1. 按一下 **[!UICONTROL 合併多個受眾]** 在右上角。
 
    ![步驟結果](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ ht-degree: 68%
 
       ![](assets/combine_multiple_audiences3.png)
 
-      請注意，兩個瀏覽器類型對象之間的運算子是 &quot;AND&quot;。選取 AND 下拉式清單並變更為「OR」，即可針對使用 Firefox 或 Safari 的新訪客建立新的合併對象。請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
+      請注意，兩個瀏覽器類型對象之間的運算子是 &quot;AND&quot;。選擇 [!UICONTROL 和] 下拉清單並將其更改為「或」，以便使用Firefox或Safari為新訪問者建立新的組合訪問群。 請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
 
       >[!NOTE]
       >

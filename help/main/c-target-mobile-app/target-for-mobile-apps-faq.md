@@ -5,9 +5,9 @@ title: 關於哪些常見問題 [!DNL Target] 移動應用？
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Adobe Experience Platform移動軟體開發工具包目前支援iOS、Android和
 
 ## 從經緯度的驗證來看，基於位置的特徵的頻率是多少？
 
-查看 [Adobe位置文檔](https://placesdocs.com/places-services-by-adobe-documentation/) 的子菜單。
+查看 [Adobe位置服務文檔](https://experienceleague.adobe.com/docs/places/using/home.html) 的子菜單。
 
 ## 我是否需要at.js才能使Adobe Experience Platform移動軟體開發工具包工作？
 
