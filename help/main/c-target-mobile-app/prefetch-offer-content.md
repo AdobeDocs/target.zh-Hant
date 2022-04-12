@@ -5,10 +5,10 @@ title: 我能否預回遷為移動應用提供內容？
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 47%
+source-wordcount: '216'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 47%
 在iOS和Android移動SDK中使用預取方法時，請考慮以下限制：
 
 * 預先擷取內容不會在跨啟動之間持續有效。只要應用程式仍然存在，或直到呼叫 `clearPrefetchCache()` 方法為止，則會快取預先擷取內容。
-* 不支援預回遷功能 [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標] 流量分配方法，用於 [!UICONTROL Automated Personalization] 或 [!UICONTROL Recommendations] 活動類型或 [建議在A/B或XT活動中提供](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
 如需詳細資訊，包括預先提取方法、公用類別和程式碼範例，請參閱:
 
