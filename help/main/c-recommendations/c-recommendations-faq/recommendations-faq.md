@@ -5,7 +5,7 @@ title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3128'
 ht-degree: 100%
 
