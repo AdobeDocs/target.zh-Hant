@@ -5,7 +5,7 @@ title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2754'
 ht-degree: 100%
 
@@ -256,7 +256,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 查看產品的下列方面:
 
-* [目標分析(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [客戶屬性](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
