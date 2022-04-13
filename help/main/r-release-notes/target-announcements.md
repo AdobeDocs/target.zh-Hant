@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '579'
-ht-degree: 100%
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 92%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 100%
 
 閱讀有關近期事件的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
 
-## [!DNL Adobe Target] 社群問答咖啡會 (2022 年 3 月 30 日)
+## [!DNL Adobe Target] 社群問答咖啡會 （2022年4月27日）
 
-* **2022 年 3 月 30 日，星期三**
+* **2022年4月27日星期三**
 * **上午 8 點 (PDT，UTC -7)**
-* **[更多資訊和註冊資訊](https://adobe.ly/3sIS5Mg)**
+* **[更多資訊和註冊資訊](https://adobe.ly/371Uny2)**
 
-資深解決方案顧問 Ryan Pizzuto 將針對以下的專長領域回答客戶問題：
+首席解決方案顧問James McTiernan將回答客戶有關他以下專業領域的問題：
 
-* [!UICONTROL 自動鎖定目標]
-* [!UICONTROL 自動個人化]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/BTest] 活動
+* [!UICONTROL 多元Test] 活動
+* [!UICONTROL Recommendations] 活動
+* 個人化
 * 一般[!UICONTROL Adobe Target ]主題
 
-技術支援工程師 Mihnea Docea 將會在場協助 Vishal。
+技術支援工程師Simon Chen將協助James。
 
 ## 網路研討會影片：利用 [!DNL Adobe Target] 的裝置上決策在零延遲的情況下進行個人化和測試
 
