@@ -4,10 +4,10 @@ description: 瀏覽中的選項 [!DNL Adobe Target] [!UICONTROL 視覺體驗作�
 title: 如何使用 [!UICONTROL 視覺體驗作曲家] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 66%
+source-wordcount: '2907'
+ht-degree: 63%
 
 ---
 
@@ -330,7 +330,9 @@ HTML產品最多可達256 KB。
 
 將元素拖曳到相同上層元素內的另一個位置或 DIV。其他元素會移動位置，為重新排列的元素騰出空間。
 
-**注意:** 點擊追蹤對重新排列的項目沒有作用。
+**注釋**:按一下跟蹤對重新排列的項目不起作用。
+
+當前，某些VEC操作，如 [!UICONTROL 重新排列] 和 [!UICONTROL 移動]，假定已完全載入源和目標父元素的同級元素。 如果在父DOM元素（源或目標）下發生延遲載入，則這些VEC操作可能導致行為不一致。 我們正在研究一種更可靠的方法，使VEC操作在緩載DOM元素中工作。 作為臨時解決方法，您可以 [!UICONTROL 自定義代碼] 來呈現您的體驗。
 
 ### [!UICONTROL 調整大小]
 
@@ -343,6 +345,8 @@ HTML產品最多可達256 KB。
 在頁面上移動元素。與[!UICONTROL 「重新排列」]選項不同，[!UICONTROL 「移動」]選項不會移動其他元素來為已移動的元素騰出空間。使用方向鍵來微調此移動。(計畫的增強：支援確保移動的元素不會隱藏在其他元素後面。)
 
 在某些情況下，例如，當CSS限制要求某個元素保留在其父元素內時，您不能將該元素移到其父元素外。 元素無法移到有下列 CSS 屬性的容器之外: `overflow: hidden`。
+
+請參閱 [!UICONTROL 重新排列] 以獲取有關與 [!UICONTROL 移動] 和 [!UICONTROL 重新排列] 由於DOM元素的緩慢載入而導致的操作。
 
 ### [!UICONTROL 隱藏]
 
