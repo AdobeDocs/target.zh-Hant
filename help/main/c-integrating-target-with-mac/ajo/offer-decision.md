@@ -4,10 +4,10 @@ description: 瞭解如何添加在中建立的聘用決定 [!DNL Adobe Journey O
 title: 如何使用優惠決定？
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
+source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 0%
 
 添加在中建立的聘用決定 [!DNL Adobe Journey Optimizer] 至 [!DNL Target] 活動（手冊） [!UICONTROL A/BTest] 或 [!UICONTROL 體驗目標])使用 [!UICONTROL 視覺體驗作曲家] (VEC)或 [!UICONTROL 基於表單的作曲家] 通過您的入站渠道test並向訪問者提供個性化服務， [!DNL Target]。
 
-有關 [!DNL Adobe Journey Optimizer]，請參閱 [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 的 *Journey Optimizer* 文檔。
+有關 [!DNL Adobe Journey Optimizer] 提供決策，請參閱 *[!DNL Journey Optimizer]* 文檔：
 
-有關優惠決定的詳細資訊，請參閱 [關於決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 的 *[!DNL Journey Optimizer]* 文檔。
+* [開始使用 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [關於決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## 必要條件
 
@@ -96,7 +98,7 @@ ht-degree: 0%
 
 ## 注釋和限制
 
-在處理聘用決定時，請考慮以下注釋和限制：
+處理聘用決定時，請考慮以下資訊：
 
 * offer decisioning整合適用於 [!DNL Target] 基於 [Adobe Experience PlatformWeb SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 此功能在實施時不可用 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
 
