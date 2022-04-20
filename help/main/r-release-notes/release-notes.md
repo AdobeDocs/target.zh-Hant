@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 47%
+source-wordcount: '489'
+ht-degree: 65%
 
 ---
 
@@ -24,37 +24,15 @@ ht-degree: 47%
 
 * 已解決問題，以確保在使用配置檔案指令碼捕獲IP地址的最後八位數時正確進行模糊處理。 (TNT-44076)
 
-## [!DNL Target Standard/Premium] 22.3.1（錯開釋放，確定日期）
+## [!DNL Target Standard/Premium] 22.3.1（2022年4月5日）
 
 此版本包含以下更改和增強：
 
-* 修復了在編輯、激活和停用指令碼後導致對配置檔案指令碼進行編輯以還原為原始未編輯指令碼的問題。 配置檔案指令碼現在仍處於編輯狀態。 (TGT-43249)
-* 已修復導致 [!DNL Target] 移動「草稿」狀態的活動中使用的受眾時使用的UI:「我們無法完成您的請求。 如果問題仍然存在，請與Adobe客戶服務部聯繫。」 (TGT-43212)
 * 已修復導致 [!UICONTROL 包括] 和 [!UICONTROL 排除] 編輯活動時要為組合的受眾禁用的選項。 (TGT-43422)
 * 修復了在編輯活動時阻止某些客戶查看可用受眾清單的問題。 (TGT-43404)
 * 已修復阻止某些客戶從「 」中刪除IP地址的問題[!UICONTROL 要從中排除的IP [!DNL Target] 報告資料]&quot;清單 [!UICONTROL 管理] > [!UICONTROL 報告]。 (TGT-43384)
 * 已修復阻止在受眾標準中使用負數的問題，該問題檢查任何變數是否「大於」、「大於或等於」、「小於」或「小於或等於」。 (TGT-43367)
 * 已修復阻止客戶看到 [!UICONTROL 受眾詳細資訊] 建立組合受眾時打卡。 (TGT-43303)
-* 已修復導致 [!DNL Target] UI或新 [!UICONTROL 觀眾] UI為某些客戶提前超時。 (TGT-42590 和 TGT-43273)
-
-## [!DNL Target] 平台發佈（3月30日）
-
-此版本包含下列增強功能：
-
-* 按一下跟蹤度量將在Delivery API請求中包括將Analytics用作報告源(A4T)和處理客戶端事件的活動的分析負載。 (TNT-43073)
-
-## [!DNL Target Standard] 觀眾更新（3月28日）
-
-此版本包含以下更新：
-
-* 新 [!UICONTROL 觀眾] 將為所有用戶啟用UI [!DNL Target Standard] 客戶。
-
-## 目標標準/高級客戶工程修復（2022年3月22日）
-
-此維護版本包含以下增強功能：
-
-* 添加要返回的功能 [!DNL Analytics] 負載資料 `prefetch` 視圖和 `pageLoad` 使用 [!UICONTROL 傳遞API] 與使用 [!UICONTROL 分析作為報告源] (A4T)。 (TNT-43198)
-* 已更新bot篩選用戶代理清單，以允許在日本常用的瀏覽器類型。 (TNT-43867)
 
 ## 額外的發行說明和版本詳細資料
 
