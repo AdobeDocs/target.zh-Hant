@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
 workflow-type: tm+mt
-source-wordcount: '3736'
-ht-degree: 97%
+source-wordcount: '3751'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 97%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 4 月 21 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已添加有關 [!DNL Target] 平台發佈計畫於2022年4月17日發佈。 |
 | 4 月 20 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 22.4.1 版的搶鮮版資訊。 |
 | 4 月 14 日 | [可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 向「重新排列」(Regrande)部分添加資訊，以說明如何處理與 [!UICONTROL 移動] 和 [!UICONTROL 重新排列] 由於DOM元素的緩慢載入而導致的操作。 |
 | 4 月 13 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下事件的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 （2022年4月27日）</li></ul> |
