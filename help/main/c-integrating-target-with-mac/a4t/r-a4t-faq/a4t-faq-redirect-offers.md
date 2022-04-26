@@ -4,10 +4,10 @@ description: 在使用Analytics時查找有關使用重定向優惠的問題的�
 title: 在何處可以找到有關A4T重定向服務的常見問題？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 61%
+source-wordcount: '1468'
+ht-degree: 54%
 
 ---
 
@@ -36,6 +36,21 @@ ht-degree: 61%
 ## 為何 A4T 與 Analytics 之間有時會有資料差異?
 
 可能會出現一些資料差異，這在預期之中。如需詳細資訊，請參閱[使用和不使用 A4T 時，Target 與 Analytics 之間的預期資料差異](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
+
+## 在A4T活動中使用重定向服務時，如何將流量分配中的差異降至最低？ {#discrepancies}
+
+在配置了重定向服務的活動中使用重定向服務時，有限數量的客戶報告流量分配的差異程度更高 [!UICONTROL 目標分析] (A4T)。
+
+考慮以下事項:
+
+* 順序不正確 [!DNL Target] 和 [!DNL Analytics] 呼叫可能導致差異程度較高。
+
+   的 [!DNL Target] 調用必須位於 [!DNL Analytics] 在源頁面（發生重定向的位置）和目標頁面（重定向結束的位置）上調用。
+
+* 確保在A4T重定向活動中使用重定向服務。
+* 如果有多個 [!DNL Target] 源頁面上的位置請求（發生重定向的位置）, [!DNL Adobe] 建議您在第一個 [!DNL Target] 位置請求。
+
+   在第一個 [!DNL Target] 位置請求降低了在其他位置發生任何活動資格的可能性 [!DNL Target] 位置請求和在報告中計數。 被重定向的訪問者不必計入其他活動的報告，因為他們看不到這些經歷。
 
 ## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 

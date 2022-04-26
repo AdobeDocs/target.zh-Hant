@@ -4,9 +4,9 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4783'
 ht-degree: 98%
 
 ---
@@ -77,9 +77,6 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 重新導向選件 {#redirect}
 
-重新導向選件的已知問題如下：
-
-* 在設定 Analytics for Target (A4T) 的活動中使用重新導向選件時，有限數量的客戶報告流量分佈的差異程度較高。
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
 ### 取消在可視化體驗撰寫器 (VEC) 中載入頁面 {#cancel}
