@@ -4,16 +4,16 @@ description: 瞭解如何在Adobe中使用「修改」面板 [!DNL Target] 查�
 title: 可以對頁面進行哪些修改？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2137'
 ht-degree: 91%
 
 ---
 
 # 修改
 
-有關中的「修改」頁的資訊 [!DNL Adobe Target] 允許您查看對頁面的修改並添加其他修改（CSS選擇器、Mbox和自定義代碼）。
+有關 [!UICONTROL 修改] 頁面 [!DNL Adobe Target] 允許您查看對頁面的修改並添加其他修改（CSS選擇器、Mbox和自定義代碼）。
 
 「修改」頁顯示在Visual Experience Composer(VEC)中對頁面所做的所有更改，並通過按一下頁面上的每個元素和 [選擇操作](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。 您所做的每項變更都顯示為[!UICONTROL 修改]清單中的個別動作或元素。您也可以新增修改，包括以下修改類型: CSS 選取器、Mbox。和自訂程式碼。
 
@@ -157,20 +157,6 @@ ht-degree: 91%
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* 透過 `elementOnLoad` 外掛程式，與 DOM 輪詢交換
-
-   優點在於此交換比 DOM 就緒上更早發生。此外掛程式會處理預先隱藏和顯示，在元素上需要有 ID。
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
