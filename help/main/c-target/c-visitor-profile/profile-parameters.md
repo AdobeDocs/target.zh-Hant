@@ -4,10 +4,10 @@ description: 瞭解訪問者配置檔案中儲存的訪問者特定屬性，以�
 title: 什麼是配置檔案屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 49%
+source-wordcount: '2423'
+ht-degree: 48%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 中的配置檔案屬性 [!DNL Adobe Target] 是特定於訪問者的參數。 這些屬性儲存於訪客的描述檔中，以提供可用於活動的訪客資訊。
 
-用戶簡檔包含網頁訪問者的人口統計和行為資訊。 This information can include age, gender, products purchased, last time of visit, and so on, that [!DNL Target] uses to personalize the content it serves to the visitor.
+用戶簡檔包含網頁訪問者的人口統計和行為資訊。 此資訊可能包括年齡、性別、購買的產品、上次訪問時間等， [!DNL Target] 用於個性化它為訪問者提供的內容。
 
 當訪問者瀏覽您的網站或訪問者返回另一個會話時，配置檔案中保存的配置檔案屬性可用於目標內容或記錄段過濾資訊。
 
@@ -72,6 +72,9 @@ if (mbox.name == 'Track_Interest') {
 
 * 請參閱代碼中的配置檔案指令碼屬性（包括自身） `user.get('parameterName')`。
 * 保存可在下次運行指令碼時（在下一個框請求上）訪問的變數 `user.setLocal('variable_name', 'value')`。 參考包含 `user.getLocal('variable_name')` &#39;) 的變數。此流程對於您要引用上次請求的日期和時間的情況非常有用。
+
+   這些值與配置檔案指令碼一樣保持不變，但您只能在設定的指令碼中訪問它們。
+
 * 參數和值區分大小寫。 匹配在活動或test期間接收的參數和值的大小寫。
 * 如需更多 JavaScript 語法，請參閱以下「指令碼設定檔參數的 JavaScript 參考資料」一節。
 * 禁用指令碼後，參數將保留在配置檔案中。 其配置檔案已包含在活動受眾中使用的參數的用戶在該活動中符合條件。
@@ -116,7 +119,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 參照了未定義的變數。
 * 參照了無效的值。此錯誤通常是由於引用URL值和其他用戶輸入的資料而沒有正確驗證而導致的。
-* 使用了太多 JavaScript 指令。[!DNL Target] has limit of 2,000 JavaScript instructions per script, but this limit cannot simply be calculated by manually reading the JavaScript. 例如，Rhino 將所有函數呼叫和「新的」呼叫視為 100 個指示。Any call to any function consumes 100 instructions. 此外，任何輸入資料的大小，例如 URL 值，皆可能影響指示計數。
+* 使用了太多 JavaScript 指令。[!DNL Target] 每個指令碼的JavaScript指令數限制為2,000個，但無法通過手動讀取JavaScript來計算此限制。 例如，Rhino 將所有函數呼叫和「新的」呼叫視為 100 個指示。對任何函式的任何調用都會佔用100條指令。 此外，任何輸入資料的大小，例如 URL 值，皆可能影響指示計數。
 * 請注意下節[最佳做法](/help/main/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)中醒目提示的項目。
 
 ## 最佳實務 {#best}
@@ -134,9 +137,9 @@ if (mbox.name == 'Track_Interest') {
 * 如果全部失敗，將指令碼包覆在 try/catch 中。
 * 以下建議可幫助您限制配置檔案指令碼的複雜性。 配置檔案指令碼可以執行有限數量的指令。
 
-   As best practice:
+   作為最佳做法：
 
-   * Keep profile scripts small and as simple as possible.
+   * 保持配置檔案指令碼的小小和盡可能簡單。
    * 避免規則運算式或僅使用簡單的規則運算式。 即使是簡單的表達式，也可能需要很多指令來計算。
    * 避免遞歸。
    * 配置檔案指令碼在添加到 [!DNL Target]。 所有配置檔案指令碼在每個框請求上執行。 如果配置檔案指令碼未正確執行，則mbox請求的執行時間會更長，這可能會影響通信和轉換。
@@ -156,7 +159,7 @@ if (mbox.name == 'Track_Interest') {
 
    在 [!DNL Target]按一下 **[!UICONTROL 管理]**&#x200B;按一下 **[!UICONTROL 響應令牌]**，然後啟用要調試的配置檔案指令碼。
 
-   Anytime you load a page for your site with [!DNL Target] on it, part of the response from [!DNL Target] contains your value for the given profile script, as shown below:
+   每次您載入網站的頁面時 [!DNL Target] 在上面，部分回復來自 [!DNL Target] 包含給定配置檔案指令碼的值，如下所示：
 
    ![](assets/debug_profile_script_1.png)
 
@@ -232,7 +235,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Creates a variable called `adobeQA` to track a user for [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).
+建立名為 `adobeQA` 跟蹤用戶 [活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。
 
 ### 物件和方法 {#objects}
 
@@ -267,7 +270,7 @@ Creates a variable called `adobeQA` to track a user for [Activity QA](/help/main
 | `!=` | 代表不相等。當兩側運算元不相等時，則為 true。 |
 | `<` | 代表左側的變數小於右側的變數。如果變數相等，則計算為false。 |
 | `>` | 代表左側的變數大於右側的變數。如果變數相等，則計算為false。 |
-| `<=` | Same as `<` except if the variables are equal then it evaluates to true. |
+| `<=` | 與 `<` 如果變數相等，則計算結果為true。 |
 | `>=` | 與 `>` 如果變數相等，則計算結果為true。 |
 | `&&` | 邏輯上，「AND」左側和右側的運算式，只有在兩側皆為 true 時，才會是 true (否則則為 false)。 |
 | `||` | 邏輯上，「OR」左側和右側的運算式，只有在其中一側為 true 時，才會是 true (否則則為 false)。 |
