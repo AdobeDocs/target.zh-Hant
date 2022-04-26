@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3777'
-ht-degree: 96%
+source-wordcount: '3817'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 96%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 4 月 26 日 | [重新導向選件 - A4T 常見問答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 新增下列常見問題：<ul><li>在A4T活動中使用重定向服務時，如何將流量分配中的差異降至最低？</li></ul> |
+| 4 月 26 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已添加以下事件的資訊：<ul><li>網路研討會：即時個性化與Adobe Target（2022年4月28日）</li><li>[!DNL Adobe Target] 社區問答咖啡休息（2022年5月25日）</li></ul> |
+|  | [重新導向選件 - A4T 常見問答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 新增下列常見問題：<ul><li>在A4T活動中使用重定向服務時，如何將流量分配中的差異降至最低？</li></ul> |
+|  | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 已新增下列章節：<ul><li>從導出到目標的體驗片段中刪除ClientLibs和無關HTML</li></ul> |
 | 4 月 21 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已添加有關 [!DNL Target] 平台發佈計畫於2022年4月17日發佈。 |
 | 4 月 20 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增關於 [!DNL Target Standard/Premium] 22.4.1 版的搶鮮版資訊。 |
 | 4 月 14 日 | [可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 向「重新排列」(Regrande)部分添加資訊，以說明如何處理與 [!UICONTROL 移動] 和 [!UICONTROL 重新排列] 由於DOM元素的緩慢載入而導致的操作。 |

@@ -4,10 +4,10 @@ description: 瞭解如何使用 [!DNL Adobe Experience Manager] 體驗片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)經驗碎片？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 19%
+source-wordcount: '1324'
+ht-degree: 18%
 
 ---
 
@@ -150,11 +150,13 @@ ht-degree: 19%
 * 無法使用 [!DNL Adobe I/O]。 如上所述，使AEM用建立體驗片段。
 * 如果在中更新您的體驗AEM片段，則必須發佈該體驗片段並將其導出到 [!DNL Target] 再次 [!DNL Target] 可以使用最新更改。
 
-## 從導出到目標的體驗片段中刪除ClientLibs
+## 從導出到目標的體驗片段中刪除ClientLibs和無關HTML
 
-使用體驗片段式服務時 [!DNL Target] 在由提供的頁AEM面上，目標頁面已包含所有必要的客戶端庫。 此外， XF服務中的無關html也不需要。
+使用體驗片段提供時 [!DNL Target] 在由提供的頁AEM面上，目標頁面已包含所有必要的客戶端庫。 另請注意，服務中也不需要附加的HTML元素。
 
-有關詳細資訊，請參見 [此部落格帖子](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
+有時，整個HTML頁面會包裝體驗片段並導致問題。 確保體驗片段是一小塊HTML，而不是包含HTML、HEAD、BODY等的完整HTML頁。
+
+有關詳細資訊，請參閱以下部落格： [AEM 6.5:從導出到目標的體驗片段中刪除ClientLibs](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
 
 ## 培訓視頻：使用AEM經驗片段 [!DNL Adobe Target]
 
