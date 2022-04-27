@@ -5,7 +5,7 @@ title: 什麼是企業用戶權限以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
+source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
 workflow-type: tm+mt
 source-wordcount: '3133'
 ht-degree: 57%
@@ -276,7 +276,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 >[!NOTE]
 >
->您必須具有編輯受眾的適當權限。 此外，不得在其他活動中使用受眾。 如果受眾正在其他活動中使用，而您仍希望將受眾移到其他工作站，請將受眾從其他活動中刪除。
+>您必須具有編輯受眾的適當權限。 此外，不得在其他活動中使用受眾。 如果受眾正在其他活動中使用，而您仍希望將受眾移到其他工作區，請將受眾從其他活動中移除。
 
 ### 即使在已指派屬性的情況下，為何仍出現錯誤訊息，指出沒有任何與此活動相關聯的屬性?
 
