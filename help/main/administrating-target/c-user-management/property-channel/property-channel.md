@@ -5,9 +5,9 @@ title: 什麼是企業用戶權限以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3133'
 ht-degree: 57%
 
 ---
@@ -214,7 +214,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
    * 在「所有我的工作區」檢視中建立活動、對象或選件時，您必須選取要建立項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
    * 在「所有我的工作區」檢視中複製活動、對象或選件時，您必須選取要複製項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
 
-* 以下「管理」(Administration)頁面上的任何設定都可由任何工作區中的任何「批准者」(Approver)控制：
+* 管理員在以下方面的任何設定定額頁可由任何工作區中的任何批准者控制：
 
    * 可視化體驗撰寫器
    * 報表
