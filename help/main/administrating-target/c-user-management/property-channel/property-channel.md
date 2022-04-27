@@ -5,10 +5,10 @@ title: 什麼是企業用戶權限以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3132'
+ht-degree: 57%
 
 ---
 
@@ -261,6 +261,22 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 很抱歉，您無法將活動從一個工作區移動至另一個工作區。但是，您可以將活動複製到任何工作區，因為您知道報告資料不會轉移。 如需詳細資訊，請參閱[使用工作區時複製/編輯活動](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)中的「使用工作區時複製/編輯活動」。
 
 移轉之前建立的活動會繼續在「預設工作區」中以相同方式執行，除非它們是經過編輯和指派的屬性。特定工作區下的活動會維護分配給該工作區的屬性，因此，行為可能與遷移前不同。
+
+### 是否可以將受眾從一個工作區移到另一個工作區？ {#move-audience}
+
+是，可以使用 [!UICONTROL 更多操作] 的上界 [!UICONTROL 觀眾] 的子菜單。
+
+1. 按一下 **[!UICONTROL 更多操作]** 按鈕（三個橢圓），然後按一下 **[!UICONTROL 移動]**。
+
+   ![更多操作>移動](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. 從 **[!UICONTROL 工作區]** 下拉清單，然後按一下 **[!UICONTROL 移動]**。
+
+   ![選擇要移動到新工作區的受眾](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>您必須具有編輯受眾的適當權限。 此外，不得在其他活動中使用受眾。 如果受眾正在其他活動中使用，而您仍希望將受眾移到其他工作站，請將受眾從其他活動中刪除。
 
 ### 即使在已指派屬性的情況下，為何仍出現錯誤訊息，指出沒有任何與此活動相關聯的屬性?
 
