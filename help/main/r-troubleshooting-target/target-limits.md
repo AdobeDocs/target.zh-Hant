@@ -1,14 +1,14 @@
 ---
 keywords: 字元限制;mbox 參數;批次傳送 api;設定檔參數;限制;內建設定檔;上限;限制;限制;字元;最佳實務;orderid;orderTotal;mbox3rdPartyID;類別;categoryID;疑難排解
-description: 檢視會對 Adobe Target 中的活動和其他元素造成影響的字元限制和其他限制清單 (選件大小、對象、設定檔、值、參數等)。
-title: Adobe Target 的各種字元、大小和其他限制是什麼？
+description: 查看影響活動和其他元素的字元限制和其他限制的清單 [!DNL Adobe Target]。
+title: 中的各種字元、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
+source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 98%
+source-wordcount: '1352'
+ht-degree: 96%
 
 ---
 
