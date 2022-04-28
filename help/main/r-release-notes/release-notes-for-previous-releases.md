@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '33165'
+source-wordcount: '33321'
 ht-degree: 99%
 
 ---
@@ -66,6 +66,22 @@ ht-degree: 99%
 ### [!DNL Target Standard/Premium] 22.1.1 (2022 年 1 月 12 日)
 
 此版本包括錯誤修復和未來整合功能的先決條件。
+
+### 目標平台版本（2022年4月13日）
+
+此版本包含以下更新：
+
+* 已解決問題，以確保在使用配置檔案指令碼捕獲IP地址的最後八位數時正確進行模糊處理。 (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1（2022年4月5日）
+
+此版本包含以下更改和增強：
+
+* 已修復導致 [!UICONTROL 包括] 和 [!UICONTROL 排除] 編輯活動時要為組合的受眾禁用的選項。 (TGT-43422)
+* 修復了在編輯活動時阻止某些客戶查看可用受眾清單的問題。 (TGT-43404)
+* 已修復阻止某些客戶從「 」中刪除IP地址的問題[!UICONTROL 要從中排除的IP [!DNL Target] 報告資料]&quot;清單 [!UICONTROL 管理] > [!UICONTROL 報告]。 (TGT-43384)
+* 已修復阻止在受眾標準中使用負數的問題，該問題檢查任何變數是否「大於」、「大於或等於」、「小於」或「小於或等於」。 (TGT-43367)
+* 已修復阻止客戶看到 [!UICONTROL 受眾詳細資訊] 建立組合受眾時打卡。 (TGT-43303)
 
 ### at.js 2.8.0 版 (2022 年 1 月 7 日)
 

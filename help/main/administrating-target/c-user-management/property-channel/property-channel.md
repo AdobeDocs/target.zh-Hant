@@ -5,10 +5,10 @@ title: 什麼是企業用戶權限以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3133'
-ht-degree: 57%
+source-wordcount: '3150'
+ht-degree: 56%
 
 ---
 
@@ -197,6 +197,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
    ![](assets/channel_options.png)
 
 * **受眾建立：** 建立訪問群體時，它將在當前選定的工作區中建立。
+* **受眾清單：** 可以使用 [!UICONTROL 更多操作] > [!DNL Move] 的上界 [!UICONTROL 觀眾] 的子菜單。
 * **建立服務：** 建立聘用時，它將在當前選定的工作區中建立。
 * **「屬性」頁（「管理」>「屬性」）:** 您可以使用 [!UICONTROL 搜索] 框 [!UICONTROL 屬性] 清單框。
 
@@ -214,7 +215,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
    * 在「所有我的工作區」檢視中建立活動、對象或選件時，您必須選取要建立項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
    * 在「所有我的工作區」檢視中複製活動、對象或選件時，您必須選取要複製項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
 
-* 管理員在以下方面的任何設定定額頁可由任何工作區中的任何批准者控制：
+* 以下任何設定 [!UICONTROL 管理] 頁面可以由任何 [!UICONTROL 批准者] 在任意工作區中：
 
    * 可視化體驗撰寫器
    * 報表

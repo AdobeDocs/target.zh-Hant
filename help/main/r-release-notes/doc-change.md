@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3817'
+source-wordcount: '3854'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,14 @@ ht-degree: 95%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## Adobe Target標準/高級22.3.1(2022年4月4日至6日；交錯釋放)
+## Adobe Target標準/高級22.4.1（4月28日）
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 4 月 28 日 | [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 新增下列常見問題：<ul><li>是否可以將受眾從一個工作區移到另一個工作區？</li></ul> |
+|  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 22.4.1和目標平台（2022年4月27日）發佈。 |
+
+## Adobe Target標準/高級版22.3.1（4月5日）
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
