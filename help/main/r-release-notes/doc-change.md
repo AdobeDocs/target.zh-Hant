@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3854'
-ht-degree: 95%
+source-wordcount: '3908'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 95%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 4 月 28 日 | [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 新增下列常見問題：<ul><li>是否可以將受眾從一個工作區移到另一個工作區？</li></ul> |
+|  | [[!UICONTROL 自動分配]概覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 已新增下列常見問答：<ul><li>能 [!UICONTROL 自動分配] 活動在test過程中調整回望窗口，以考慮隨時間變化的趨勢？</li><li>是 [!UICONTROL 自動分配] 如果成功體驗與訪問者在參加活動時看到的不同，請向返回的訪問者顯示成功體驗？</li></ul> |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已添加有關 [!DNL Target Standard/Premium] 22.4.1和目標平台（2022年4月27日）發佈。 |
 
 ## Adobe Target標準/高級版22.3.1（4月5日）

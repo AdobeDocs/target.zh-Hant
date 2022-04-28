@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe中使用自動分配活動 [!DNL Target] 識�
 title: 什麼是自動分配活動？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 50%
+source-wordcount: '3559'
+ht-degree: 49%
 
 ---
 
@@ -206,6 +206,16 @@ ht-degree: 50%
 如果在另一個（非預設）環境中發生命中，則根據預設環境中觀察到的轉換行為來分配流量。 該點擊率（轉換或未轉換）之結果乃為報告而記錄，惟並無於 [!UICONTROL 自動分配] 模型。
 
 選擇另一個環境時，報告將顯示該環境的通信量和轉換。 報告的預設選定環境是選定的帳戶範圍預設環境。 不能按活動設定預設環境。
+
+### 能 [!UICONTROL 自動分配] 活動在test過程中調整回望窗口，以考慮隨時間變化的趨勢？
+
+例如，活動是否可以考慮12月份如何分配流量，而不是考慮9月份的訪問者資料(當test開始時)?
+
+不， [!UICONTROL 自動分配] 考慮整個活動的績效。
+
+### 是 [!UICONTROL 自動分配] 如果成功體驗與訪問者在參加活動時看到的不同，請向返回的訪問者顯示成功體驗？
+
+[!UICONTROL 自動分配] 使用粘滯決定，原因與 [!UICONTROL A/BTest] 活動很棘手。 流量分配僅適用於新訪問者。
 
 ## 訓練影片 {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
