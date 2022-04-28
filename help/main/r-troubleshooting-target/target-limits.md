@@ -5,10 +5,10 @@ title: Adobe Target 的各種字元、大小和其他限制是什麼？
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 ### 每個活動的體驗
 
-* **上限**：每個體驗鎖定目標 (XT)、A/B 測試、多變數測試 (MVT) 和自動鎖定目標活動最多 2,000 個體驗。
+* **限制**:每人2,000次體驗 [!UICONTROL 體驗目標] (XT), [!UICONTROL A/BTest]。 [!UICONTROL 多元Test] (MVT)和 [!UICONTROL 自動目標] 的子菜單。
 
    每個 Automated Personalization (AP) 活動最多 30,000 個體驗。
 
