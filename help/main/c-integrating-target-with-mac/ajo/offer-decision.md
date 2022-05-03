@@ -4,7 +4,7 @@ description: 瞭解如何添加在中建立的聘用決定 [!DNL Adobe Journey O
 title: 如何使用優惠決定？
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
+source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
    該功能在實施時不可用 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 +Offer decisioning)或 [!DNL Adobe Experience Platform] 和 [!UICONTROL offer decisioning] 應用程式服務載入項。
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO +Offer decisioning)或 [!DNL Adobe Experience Platform] 和 [!UICONTROL offer decisioning] 應用程式服務載入項。
 
 ## 示例使用案例
 
