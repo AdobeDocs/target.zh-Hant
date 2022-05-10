@@ -5,10 +5,10 @@ title: 能否實施 [!DNL Target] 沒有標籤管理器？
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 52%
+source-wordcount: '1794'
+ht-degree: 49%
 
 ---
 
@@ -82,6 +82,20 @@ ht-degree: 52%
 |--- |--- |
 | 自定義庫標題 | 新增任何自訂 JavaScript 以包括在資料庫頂端。 |
 | 自定義庫頁腳 | 新增任何自訂 JavaScript 以包含在程式庫底部。 |
+
+### 具有設備上決策的實現方法
+
+從2.5.0版開始， at.js提供設備上的決策。 設備上決策允許您快取 [A/BTest](/help/main/c-activities/t-test-ab/test-ab.md) 和 [體驗目標](/help/main/c-activities/t-experience-target/experience-target.md) (XT)瀏覽器上的活動，以執行記憶體中的決定，而無需向 [!DNL Adobe Target] 邊緣網路。
+
+如需詳細資訊，請參閱：
+
+* 客戶端： [at.js的設備上確定](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* 伺服器端： [設備上決策簡介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* 伺服器端： [設備上決策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* 節點.js: [為組織啟用設備上決策](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [為組織啟用設備上決策](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [為組織啟用設備上決策](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [為組織啟用設備上決策](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
 
 ### 配置檔案API
 
