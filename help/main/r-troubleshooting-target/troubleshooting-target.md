@@ -4,9 +4,9 @@ description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，�
 title: 如何疑難排解 Target？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '446'
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
+workflow-type: tm+mt
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
@@ -144,6 +144,10 @@ ht-degree: 100%
 ## 搜尋引擎最佳化 (SEO)
 
 * [搜尋引擎最佳化 (SEO) 友善測試](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+
+## 安全性
+
+* [內容安全性原則 (CSP) 指示](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
 
 ## 系統狀態
 
