@@ -59,11 +59,11 @@ ht-degree: 52%
 | 舊版發行說明 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。<br>如需詳細資訊，請參閱[舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 |
 | Adobe Experience Cloud 發行說明 | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。如需詳細資訊，請參閱「<br>Creative Cloud 發行說明[」。](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) |
 
-## 搶鮮版發行資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
+## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
 以下資源告訴您下個 Target 版本將推出哪些功能。
 
 | 資源 | 詳細資料 |
 |--- |--- |
 | Adobe 優先產品更新 | 若要接收即將推出的 Target 產品增強功能與其他 Adobe Experience Cloud 解決方案的進階通知，請註冊 Adobe 優先產品更新：<br>[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html) |
-| 即將發佈的發行說明 | 如需本月的 Target 版本的詳細資訊，包括搶鮮版發行資訊，請參閱 [Target 發行說明 - 搶鮮版](/help/main/r-release-notes/target-release-notes.md)頁面。 |
+| 即將發佈的發行說明 | 如需本月的 Target 版本的詳細資訊，包括搶鮮版版本資訊，請參閱 [Target 發行說明 - 搶鮮版](/help/main/r-release-notes/target-release-notes.md)頁面。 |

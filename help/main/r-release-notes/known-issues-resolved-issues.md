@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
 source-wordcount: '4783'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 以下小節羅列 [!DNL Target] 的已知問題：
 
-### Visual Experience Composer (VEC) 載入使用 Service Worker 的網站
+### 視覺體驗撰寫器 (VEC) 載入使用 Service Worker 的網站
 
 當嘗試用 VEC 開啟使用 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) 的網站時，目前有一些限制。
 
@@ -35,9 +35,9 @@ SW 可以控制快取；可以快取網頁本身、靜態資源，如 JS、CSS�
 
 可能的因應措施是，從 Chrome「開發人員工具」>「Application」索引標籤中停用 Service Worker，然後啟用「Service Workers」區段下的「Bypass for network」核取方塊。(KB-2006)
 
-### 刪除在基於表單的經驗合成器中建立的活動中具有臨時優惠的位置 {#ad-hoc}
+### 在使用表單式體驗撰寫器建立的活動中刪除擁有臨時選件的位置 {#ad-hoc}
 
-如果在基於表單的體驗作曲家中建立的活動使用即席優惠（在活動中建立的優惠），請避免刪除這些活動中的位置。 刪除位置會導致活動損壞。 的 [!DNL Target] 團隊正在為此做一個修復。 作為變通辦法，您可以通過 [!UICONTROL 提供庫] 並將它們與地點配合使用，或者根據需要建立新體驗。 (KB-2014)
+如果在使用表單式體驗撰寫器建立的活動中有位置使用臨時選件 (在活動內建立的選件)，請避免刪除這些位置。 刪除位置可能會導致活動損毀。 [!DNL Target] 團隊正在努力解決這個問題。 暫行解決方法是從[!UICONTROL 選件資料庫]建立全域選件，並將這些選件用於位置，或是視需要建立新的體驗。 (KB-2014)
 
 ### 使用 A4T 自動分配活動的流量分佈 {#aa-a4t}
 
@@ -59,13 +59,13 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 [!DNL Adobe Experience Platform] 區段名稱不會顯示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自動鎖定目標] (AT) 活動的[!UICONTROL 重要屬性]報告中。(TOP-3813)
 
-### 存檔 [!UICONTROL 自動目標] 活動可能導致同步
+### 封存[!UICONTROL 自動鎖定目標]活動可能會導致同步問題發生
 
 嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。在修正此問題之前，請勿封存[!UICONTROL 自動鎖定目標]活動。請把它們留在[!UICONTROL 非作用中]狀態。(TGT-40885)
 
 ### 頁面傳送 {#page-delivery}
 
-如果您新增範本規則，例如[頁面傳送](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這些額外的空格是修飾性的，不影響對象定義的建立與選件傳送。(TGT-35920)
+如果您新增範本規則，例如[頁面傳送](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這些額外的空格是修飾性的，不影響受眾定義的建立與選件傳送。(TGT-35920)
 
 ### QA 預覽連結
 
@@ -79,7 +79,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
-### 取消在可視化體驗撰寫器 (VEC) 中載入頁面 {#cancel}
+### 取消在視覺體驗撰寫器 (VEC) 中載入頁面 {#cancel}
 
 * 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定] (XT) 活動時，目前存在下列已知問題。
 
@@ -131,7 +131,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
    >
    >at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。
 
-* 將頁面載入 Visual Experience Composer (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用推薦的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
+* 將頁面載入視覺體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用推薦的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
    使用 at.js 時，「相容性」核取方塊會隱藏，使您無法看見不相容的演算法。
 
@@ -152,7 +152,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### Analytics for [!DNL Target] (A4T)
 
-在 Analysis Workspace 中使用 Target 活動曝光和轉換時，請套用「相同接觸」 Attribution IQ 模型至量度，以確保計數準確。若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html??lang=zh-Hant)，請在量度上按一下滑鼠右鍵，以&#x200B;**修改欄設定 > 啟用使用非預設歸因模型 > 選擇相同接觸模型**&#x200B;。&#x200B;若未套用此模型，這些量度就會被誇大。
+在 Analysis Workspace 中使用 Target 活動曝光和轉換時，請套用「相同接觸」 Attribution IQ 模型至量度，以確保計數準確。若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵，以&#x200B;**修改欄設定 > 啟用使用非預設歸因模型 > 選擇相同接觸模型**&#x200B;。&#x200B;若未套用此模型，這些量度就會被誇大。
 
 所有目前的 Analytics 套件都可以用 Attribution IQ 加入此模型。如果您沒有 Attribution IQ 存取權，請依賴「Reports &amp; Analytics」中的 A4T 資料。
 
@@ -162,7 +162,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 地理目標定位
 
-2020年5月10日，Adobe 更新了 GEO 提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有對象中的值沒有逗號。並非所有 Adobe 傳送伺服器都受到此項變更的影響。因此，在 2020 年 5 月 10 日至 7 月 22 日之間使用這些值的對象可能不符合所有正確訪客的資格。
+2020年5月10日，Adobe 更新了 GEO 提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有受眾中的值沒有逗號。並非所有 Adobe 傳送伺服器都受到此項變更的影響。因此，在 2020 年 5 月 10 日至 7 月 22 日之間使用這些值的受眾可能不符合所有正確訪客的資格。
 
 ### 報告 - 可下載的 .csv 報告與 [!DNL Target] UI 中顯示的報告之間的資料不一致。 {#csv}
 
@@ -225,27 +225,27 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 報表 {#conversions-audiences}
 
-目前，轉換的增加會根據使用的對象而有所不同。
+目前，轉換的增加會根據使用的受眾而有所不同。
 
 例如，對於相同的訪客，如果轉換計數設定為「每個參與者增加一次」：
 
-* 對象：造訪層級轉換的「所有合格訪客」只會增加一次。這是預期行為。
-* 對象：造訪層級轉換的「新訪客」每次都會錯誤地增加一次，而不是只增加一次。這不是預期行為。
+* 受眾：造訪層級轉換的「所有合格訪客」只會增加一次。這是預期行為。
+* 受眾：造訪層級轉換的「新訪客」每次都會錯誤地增加一次，而不是只增加一次。這不是預期行為。
 
 如果轉換計數設為「每次曝光」都會增加：
 
-* 對象：造訪層級轉換的「新訪客」只錯誤地增加一次，而不是每次都增加。這不是預期行為。
-* 對象：造訪層級轉換的「新訪客」每次都增加一次。這是預期行為。
+* 受眾：造訪層級轉換的「新訪客」只錯誤地增加一次，而不是每次都增加。這不是預期行為。
+* 受眾：造訪層級轉換的「新訪客」每次都增加一次。這是預期行為。
 
 請注意，此問題僅與 [!DNL Target]報告有關。使用 [!UICONTROL Analytics for Target (A4T)] 報告時，這並不是問題。
 
 此問題已解決。
 
-### 使用 Google Chrome 80+ 版時，未在 Visual Experience Composer (VEC) 或 Enhanced Experience Composer (EEC) 中載入的頁面
+### 使用 Google Chrome 80+ 版時，未在視覺體驗撰寫器 (VEC) 或增強體驗撰寫器 (EEC) 中載入的頁面
 
 此已知問題與 Google 從 Chrome 80 版開始將 Cookie 預設行為變更為不使用 SameSite 屬性的決定相關。在此變更前，Chrome 將不含 SameSite 屬性的所有 Cookie 預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更 Cookie 在 GET 和 POST 請求時的傳送方式。請參閱 [SameSite 更新](https://www.chromium.org/updates/same-site)。
 
-如需詳細資訊和修正，請參閱[疑難排解 Visual Experience Composer 和 Enhanced Experience Composer 相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
+如需詳細資訊和修正，請參閱[排解視覺體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
 
 ### 使用自訂體驗作為控制時，自動鎖定目標活動的圖表報表無法呈現
 
@@ -255,9 +255,9 @@ Target 19.7.1 版本已修正此問題。
 
 ### 實作：全域 Mbox 自動建立
 
-在「實施」標籤 ([!UICONTROL 「管理」 > 「實施」]) 上，新佈建的租用戶的「[!UICONTROL 全域 Mbox 自動建立]」欄位預設為「false」。
+在「實作」標籤 ([!UICONTROL 「管理」 > 「實作」]) 上，新佈建的租用戶的「[!UICONTROL 全域 Mbox 自動建立]」欄位預設為「false」。
 
-佈建後第一次下載 at.js 時，所下載的 at.js 檔案和 [!DNL Target] 後端中的「[!UICONTROL 全域 Mbox 自動建立]」欄位會設為 &quot;true&quot;，但它會在 UI 的「[!UICONTROL 實施]」頁面上繼續顯示為 &quot;false&quot;，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 &quot;true&quot;)。
+佈建後第一次下載 at.js 時，所下載的 at.js 檔案和 [!DNL Target] 後端中的「[!UICONTROL 全域 Mbox 自動建立]」欄位會設為 &quot;true&quot;，但它會在 UI 的「[!UICONTROL 實作]」頁面上繼續顯示為 &quot;false&quot;，直到頁面重新整理為止 (重新整理頁面之後，狀態將會是 &quot;true&quot;)。
 
 針對新佈建的租用戶下載的 at.js 將具有 `global_mbox_autocreate = false`。如果先下載了 mbox.js (現已被取代)，global\_mbox\_autocreate 會設為 &quot;true&quot;，而下載的 at.js 也將具有 `global_mbox_autocreate = true`。(TGT-15929)
 
@@ -271,7 +271,7 @@ Target 19.7.1 版本已修正此問題。
 
 如果符合下列條件，則您&#x200B;*沒有*&#x200B;受到影響：
 
-* 您的 Target 實施使用不同的伺服器。
+* 您的 Target 實作使用不同的伺服器。
 * 您的報告未排除極端訂單。
 * 您使用了轉換量度來測量活動。
 * 您的 Target 活動使用 Analytics for Target (A4T)。
@@ -295,7 +295,7 @@ Target 19.7.1 版本已修正此問題。
 
 ### 重新導向選件
 
-您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。計劃對 at.js 實施進行更新，以確保可以避免此競爭條件。
+您的頁面上的競爭條件可能造成將原始頁面和重新導向頁面上的頁面檢視計入。計劃對 at.js 實作進行更新，以確保可以避免此競爭條件。
 
 at.js 1.6.3 已修正此問題。
 
@@ -320,7 +320,7 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 ### 地理定位
 
-目前建立地理定位對象時，無法搜尋內含特殊字元 (如空格或逗號) 的字串。舉例來說，根據城市、州、國家/地區等建立對象時，就會發生這個問題。例如，搜尋「new york」時，搜尋不會傳回有效的結果。
+目前建立地理定位受眾時，無法搜尋內含特殊字元 (如空格或逗號) 的字串。舉例來說，根據城市、州、國家/地區等建立受眾時，就會發生這個問題。例如，搜尋「new york」時，搜尋不會傳回有效的結果。
 
 已在 2018 年 11 月修正。
 
@@ -360,9 +360,9 @@ Adobe I/O 上的 v1 版本選件 API 會將所有透過 Target 建立的選件�
 
 18.4.1 版已修正此問題，能順利顯示「已停用」。
 
-### 自動鎖定目標活動和報表對象
+### 自動鎖定目標活動和報表受眾
 
-當自動鎖定目標活動中使用的報表對象名稱已變更時，Target 對該活動的進一步更新可能會失敗，並顯示錯誤訊息。
+當自動鎖定目標活動中使用的報表受眾名稱已變更時，Target 對該活動的進一步更新可能會失敗，並顯示錯誤訊息。
 
 Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
@@ -388,7 +388,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 17.6.2 版本的問題可能已影響在 2017 年 6 月 22 日與 2017 年 6 月 29 日之間建立和/或更新的活動。具有下列情況的活動會受到影響：
 
 * 在體驗鎖定目標 (XT) 中重新排列的任何體驗會還原為原始的順序
-* 活動本機的任何區段規則 (未儲存在對象內) 會遺失，包括結合的對象、位置細分和任何規則成功度量。
+* 活動本機的任何區段規則 (未儲存在受眾內) 會遺失，包括結合的受眾、位置細分和任何規則成功度量。
 
 其他活動未受影響。
 
@@ -409,7 +409,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### at.js {#at-js-5}
 
-自從 Target 17.4.1 版本 (2017 年 4 月 27日) 以來，使用可視化體驗撰寫器 (VEC) 中的「插入影像」動作會造成使用 at.js 資料庫時無法傳遞選件內容。
+自從 Target 17.4.1 版本 (2017 年 4 月 27日) 以來，使用視覺體驗撰寫器 (VEC) 中的「插入影像」動作會造成使用 at.js 程式庫時無法傳遞選件內容。
 
 已對 2017 年 5 月 22 日發行的 at.js 版本 0.9.7 進行此問題的修正。
 
@@ -429,7 +429,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### at.js {#at-js-6}
 
-下列動作造成在使用可視化體驗撰寫器 (VEC) 和 at.js 時未傳遞選件：移動並重新排列。
+下列動作造成在使用視覺體驗撰寫器 (VEC) 和 at.js 時未傳遞選件：移動並重新排列。
 
 已對 at.js 版本 0.9.6 進行此問題的修正。
 
@@ -453,7 +453,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### at.js {#at-js-7}
 
-當使用者嘗試在更新 at.js 設定之後從「實施」詳細資料頁面下載 at.js 時，會下載 而非 at.js。(TGT-23069)
+當使用者嘗試在更新 at.js 設定之後從「實作」詳細資料頁面下載 at.js 時，會下載 而非 at.js。(TGT-23069)
 
 在 Target 17.3.1 版本 (2017 年 3 月 30 日) 中修正。
 
