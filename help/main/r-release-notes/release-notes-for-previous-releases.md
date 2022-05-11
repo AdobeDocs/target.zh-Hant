@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '33321'
+source-wordcount: '33448'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,19 @@ ht-degree: 99%
 
 ## 發行說明 - 2022
 
+### [!DNL Target Standard/Premium] 22.4.1 (2022 年 4 月 28 月)
+
+此版本包含下列修正：
+
+* 已修正導致三個購物車型演算法在 [!DNL Target] 後端使用相同購買/購買條件的問題。 (TGT-43456)
+* 已啟用 [!DNL Target] 啟用的組織的UI令牌刷新 [業務ID帳戶](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank}和基於策略的身份驗證(PBA)。 (TGT-42590)
+
+### [!DNL Target] 平台版本（2022年4月27日）
+
+此版本包含以下更改：
+
+* 使用此版本，您可以預取 [!UICONTROL 自動個性化] （美聯社） [!UICONTROL 自動目標] (AT)活動（以前未返回） [!DNL Target])。 如果AP/AT活動在傳遞路徑上，並且優先順序高於使用相同位置進行內容傳遞的其他AB/XT活動，則這可能會改變最終用戶在預取呼叫（不更改「執行」流）時看到的體驗。
+
 ### [!DNL Target] 平台發佈（3月30日）
 
 此版本包含下列增強功能：
@@ -31,7 +44,7 @@ ht-degree: 99%
 
 ### [!DNL Target Standard] 觀眾更新（3月28日）
 
-此版本包含以下更新：
+此版本包含下列更新：
 
 * 新 [!UICONTROL 觀眾] 將為所有用戶啟用UI [!DNL Target Standard] 客戶。
 
@@ -67,21 +80,21 @@ ht-degree: 99%
 
 此版本包括錯誤修復和未來整合功能的先決條件。
 
-### 目標平台版本（2022年4月13日）
+### Target 平台發行版本 (2022 年 4 月 13 日)
 
-此版本包含以下更新：
+此版本包含下列更新：
 
-* 已解決問題，以確保在使用配置檔案指令碼捕獲IP地址的最後八位數時正確進行模糊處理。 (TNT-44076)
+* 已修正問題，以確保在使用個人資料指令碼擷取 IP 位址時，IP 位址的最後一個八位元會適當地模糊化。 (TNT-44076)
 
-### [!DNL Target Standard/Premium] 22.3.1（2022年4月5日）
+### [!DNL Target Standard/Premium] 22.3.1 (2022 年 4 月 5 日)
 
-此版本包含以下更改和增強：
+此版本包含下列變更和增強功能：
 
-* 已修復導致 [!UICONTROL 包括] 和 [!UICONTROL 排除] 編輯活動時要為組合的受眾禁用的選項。 (TGT-43422)
-* 修復了在編輯活動時阻止某些客戶查看可用受眾清單的問題。 (TGT-43404)
-* 已修復阻止某些客戶從「 」中刪除IP地址的問題[!UICONTROL 要從中排除的IP [!DNL Target] 報告資料]&quot;清單 [!UICONTROL 管理] > [!UICONTROL 報告]。 (TGT-43384)
-* 已修復阻止在受眾標準中使用負數的問題，該問題檢查任何變數是否「大於」、「大於或等於」、「小於」或「小於或等於」。 (TGT-43367)
-* 已修復阻止客戶看到 [!UICONTROL 受眾詳細資訊] 建立組合受眾時打卡。 (TGT-43303)
+* 已修正在編輯活動時，導致合併的對象停用[!UICONTROL 包含]和[!UICONTROL 排除]選項的問題。 (TGT-43422)
+* 已修正導致某些客戶在編輯活動時無法看到可用對象清單的問題。 (TGT-43404)
+* 已修正導致某些客戶無法從「[!UICONTROL 要從 [!DNL Target] 報告資料中排除的 IP]」清單 (在[!UICONTROL 管理] > [!UICONTROL 報告]中) 刪除 IP 位址的問題。 (TGT-43384)
+* 已修正導致無法在檢查任何變數為「大於」、「大於或等於」、「小於」或「小於或等於」的對象條件中使用負數的問題。 (TGT-43367)
+* 已修正導致客戶在建立合併對象時無法看到[!UICONTROL 對象詳細資料]卡片的問題。 (TGT-43303)
 
 ### at.js 2.8.0 版 (2022 年 1 月 7 日)
 
@@ -1258,7 +1271,7 @@ target/r_release-notes-2018.xml
    <td colname="col1"> <p>設定檔指令碼 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_F382C8E7708846A08676E1534BC92878"> 
-      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>您可以檢視設定檔指令碼資訊快顯卡，這類似選件資訊卡片。您可以透過設定檔指令碼資訊卡，檢視參考特定設定檔指令碼的活動，及其他實用中繼資料。(TGT-28253) </p> <p>如需詳細資訊，請參閱下列「檢視設定檔指令碼資訊卡」一節:<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">設定檔指令碼屬性</a>。 </p> </li> 
+      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>您可以檢視個人資料指令碼資訊快顯卡，這類似選件資訊卡片。您可以透過個人資料指令碼資訊卡，檢視參考特定個人資料指令碼的活動，及其他實用中繼資料。(TGT-28253) </p> <p>如需詳細資訊，請參閱下列「檢視設定檔指令碼資訊卡」一節:<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">設定檔指令碼屬性</a>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1902,7 +1915,7 @@ target/r_release-notes-2018.xml
    <td colname="col1"> <p>成功量度 </p> </td> 
    <td colname="col2"> <p>以前，Target 允許單一度量上的相依性，並且必須先達到該度量，之後其計數才會遞增。您現在可以提供多個量度上的相依性，且具有彈性可選擇量度應為達到或未達到時計數才會增加。 </p> <p>下列項目不支援多個度量相依性功能: </p> <p> 
      <ul id="ul_EC856F910B704D648065EA7DA13EE5B0"> 
-      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Recommendations 活動。所有其他活動類型均支援此功能。 </p> </li> 
+      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Recommendations 活動. 所有其他活動類型均支援此功能。 </p> </li> 
       <li id="li_2D6CF42264D445FCB6C400ED321DE952"> <p>如果您使用 Analytics 做為您的報表來源 (A4T)。 </p> </li> 
       <li id="li_E3A983A70BB04AE8B25A7CEC1F5FE1D9"> <p>「已檢視頁面」度量類型。 </p> </li> 
       <li id="li_9AAF6BB275F7489BA691676E308172D5"> <p>可視化體驗撰寫器 (VEC) 活動的「按一下元素」度量類型。 </p> </li> 
@@ -2104,7 +2117,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>目標分析 (A4T) </p> <p>重新導向選件 </p> </td> 
-   <td colname="col2"> <p><b>更新日期：2017 年 4 月 13 日。</b> </p> <p>您現在可以在使用 <span class="keyword">Analytics</span> 作為報表來源的活動中使用重新導向選件。 </p> <p>必須同時在具有重新導向選件頁面和要將訪客重新導向的頁面上包含這些資料庫。隨著此變更，如果已在您的網站上實作訪客 ID 服務，不論您是否使用 Analytics 做為該活動的報表來源，新 URL 參數將自動新增至您的重新導向 URL。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">重新導向選件 - A4T 常見問答</a>。 </p> </td> 
+   <td colname="col2"> <p><b>更新日期：2017 年 4 月 13 日。</b> </p> <p>您現在可以在使用 <span class="keyword">Analytics</span> 作為報表來源的活動中使用重新導向選件。 </p> <p>必須同時在具有重新導向選件頁面和要將訪客重新導向的頁面上包含這些資料庫。隨著此變更，如果已在您的網站上實作訪客 ID 服務，不論您是否使用 Analytics 做為該活動的報表來源，新 URL 參數將自動新增至您的重新導向 URL。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">重新導向選件 - A4T 常見問題集</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>對象 </p> </td> 
@@ -3141,7 +3154,7 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 建立和編輯設定檔指令碼 </td> 
-   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。這些資訊會接著加到該訪客的描述檔中，以便您更有效追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">設定檔屬性</a>。 
+   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。這些資訊會接著新增到該訪客的個人資料中，以便您可以更有效地追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">設定檔屬性</a>。 
      <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
