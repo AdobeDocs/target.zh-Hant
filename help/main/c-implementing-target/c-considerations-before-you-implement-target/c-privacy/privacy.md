@@ -1,48 +1,48 @@
 ---
-keywords: 隱私；ip地址；地域分割；選擇退出；optout;optout;data privacy；政府規章；規章；gdpr;ccpa
-description: 瞭解如何Adobe [!DNL Target] 遵守適用的資料隱私法，包括IP地址的收集和處理以及選擇退出說明。
-title: 如何 [!DNL Target] 處理隱私問題？
+keywords: 隱私權;ip 位址;地域劃分;選擇退出;資料隱私;政府法規;法規;gdpr;ccpa
+description: 了解 Adobe [!DNL Target] 如何遵守適用的資料隱私法，包括收集和處理 IP 位址及選擇退出的說明。
+title: ' [!DNL Target] 如何處理隱私問題？'
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 # 隱私權
 
-[!DNL Adobe Target] 已啟用程序和設定，允許您使用 遵守適用的資料隱私權法律。[!DNL Target]
+[!DNL Adobe Target] 已啟用程序和設定，好讓您在遵守適用的資料隱私法的情況下使用 [!DNL Target]。
 
-## 功能使用資料的集合
+## 功能使用情況資料的收集
 
-為內部收集單個特徵使用資料 [!DNL Adobe] 以確定 [!DNL Target] 功能正按照預期執行，或標識正被未充分利用的功能。 收集各種延遲測量以幫助解決效能問題。 不會收集個人資料。
+收集個別功能使用情況資料以供內部 [!DNL Adobe] 用來識別 [!DNL Target] 功能的執行是否如預期或是識別未被充分利用的功能。 收集各種延遲測量結果來協助解決效能問題。 不會收集個人資料。
 
-您可以通過設定 `telemetryEnabled` 到false。 如需詳細資訊，請參閱 [targetGlobalSettings 中的 telemetryEnabled](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)。
+您可以在用戶端初始化選項中將 `telemetryEnabled` 設定為 false 來選擇退出我們 SDK 中的使用資料報告。 如需詳細資訊，請參閱 [targetGlobalSettings 中的 telemetryEnabled](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)。
 
-## IP地址的集合 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## 收集 IP 位址 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-您網站訪客的 IP 位址將傳輸到 Adobe 資料處理中心 (DPC)。視訪客的網路設定而定，此 IP 位址不一定代表訪客電腦的 IP 位址。例如，該 IP 位址可能是網路位址轉譯 (NAT) 防火牆、HTTP Proxy 或內部閘道的外部 IP 位址。Target 不會儲存使用者的任何 IP 位址或任何個人身分識別資訊 (PII)。IP地址僅由目標在會話期間使用（記憶體中，從不保留）。
+您網站訪客的 IP 位址將傳輸到 Adobe 資料處理中心 (DPC)。視訪客的網路設定而定，此 IP 位址不一定代表訪客電腦的 IP 位址。例如，該 IP 位址可能是網路位址轉譯 (NAT) 防火牆、HTTP Proxy 或內部閘道的外部 IP 位址。Target 不會儲存使用者的任何 IP 位址或任何個人身分識別資訊 (PII)。Target 只會在工作階段期間使用 IP 位址 (只放在記憶體內，絕對不會保存)。
 
-## 替換IP地址的最後八位數 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## 取代 IP 位址的最後一個八位元 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 Adobe Target 啟用。啟用此設定時，當 Adobe 收集到 IP 位址時，就會立即隱藏 IP 位址的最後八位元 (最後一部分)。該匿名化在IP地址的任何處理之前執行，包括在IP地址的可選地理查找之前執行。
+Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 Adobe Target 啟用。啟用此設定時，當 Adobe 收集到 IP 位址時，就會立即隱藏 IP 位址的最後一個八位元 (最後的部分)。 在對 IP 位址進行任何處理前 (包括選用的 IP 位址地理查閱)，就會執行這種匿名化作業。
 
 啟用此功能時，IP 位址的匿名性已足夠，不再能識別為個人資訊。因此，Adobe Target 的使用便能遵守不允許收集個人資訊之國家/地區的資料隱私權法律。IP 位址模糊化可能會顯著影響城市層級資訊的取得。地區和國家層級資訊則只會受到輕微影響。
 
-可使用下列設定:
+有以下設定可使用：
 
-* 無混淆：目標不隱藏IP地址的任何部分。
-* 最後一個二進位八位數：Target隱藏IP地址的最後八位數。
-* 完整IP:目標隱藏整個IP地址。
+* 無模糊化：Target 不會隱藏 IP 位址的任何部分。
+* 最後一個八位元：Target 會隱藏 IP 位址的最後一個八位元。
+* 完整 IP：Target 會隱藏整個 IP 位址。
 
-目標接收完整的IP地址，並按指定的方式將其模糊化（如果設定為「Last octet」或「Full IP」）。 然後，目標在會話期間將模糊化的IP地址保存在記憶體中。
+Target 會收到完整 IP 位址並根據指定加以模糊化 (如果設定為最後一個八位元或完整 IP)。 然後 Target 會在工作階段期間將模糊化的 IP 位址存在記憶體內。
 
 >[!NOTE]
 >
->[聯繫Adobe客戶保護](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 確定當前使用的設定或啟用IP混淆功能。
+>[聯絡 Adobe 客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以確定您目前正在使用哪一項設定或是啟用 IP 模糊化功能。
 
 ## 地域劃分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -58,9 +58,10 @@ Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. （條件）如果您使用CNAME，則連結應包含&quot;client=`clientcode` 參數，例如：https://my.cname.domain/optout?client=clientcode。
+1. (有條件性) 如果您正在使用 CNAME，連結應該包含「client=`clientcode`」參數，例如：
+https://my.cname.domain/optout?client=clientcode.
 
-1. 替換 `clientcode` 將文本或影像連結到選擇退出URL。
+1. 將 `clientcode` 替換為您的用戶端代碼，然後新增要連結至選擇退出 URL 的文字或影像。
 
 訪客只要按一下此連結，就不會包含在任何從該訪客的瀏覽作業呼叫的 mbox 中，直到訪客刪除本身的 Cookie 或事隔滿兩年 (以先發生者為準) 為止。其原理是在 `disableClient` 中為訪客設定一個名稱為 `clientcode.tt.omtrdc.net` 的 Cookie。
 
@@ -68,4 +69,4 @@ Adobe 已開發新的「設計隱私權」設定，可由 Adobe 客戶服務為 
 
 ## 隱私權與資料保護規範
 
-請參閱 [隱私和資料保護法規](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 有關歐盟的一般資料保護條例(GDPR)、加利福尼亞消費者隱私法(CCPA)和其他國際隱私要求的資訊，以及這些條例如何影響您的組織和Adobe Target。
+請參閱[隱私權與資料保護規範](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)，以取得有關歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私規定的資訊，並了解這些規定對貴組織和 Adobe Target 有何影響。
