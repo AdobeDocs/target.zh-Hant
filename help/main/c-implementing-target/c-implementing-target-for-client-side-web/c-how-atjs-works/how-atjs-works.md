@@ -1,39 +1,39 @@
 ---
-keywords: 系統圖；閃爍；at.js；實現；javascript庫；js;atjs
-description: 瞭解 [!DNL Target] at.js JavaScript庫函式，包括系統圖，以幫助您瞭解頁面載入時的工作流。
-title: at.js Javascript庫的工作原理？
+keywords: 系統圖;閃現;at.js;實作;javascript 程式庫;js;atjs
+description: 了解  [!DNL Target] at.js JavaScript 程式庫如何運作，包括可幫助您了解頁面載入時的工作流程的系統圖。
+title: at.js Javascript 程式庫如何運作？
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1106'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # at.js 如何運作
 
-實施 [!DNL Adobe Target] 客戶端，必須使用at.js JavaScript庫。
+若要在用戶端實作 [!DNL Adobe Target]，您必須使用 at.js JavaScript 程式庫。
 
-在 [!DNL Adobe Target] 的用戶端實作中，[!DNL Target] 會將與活動相關聯的體驗直接提供給用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。在用戶端實作中，您可以使用 WYSIWYG 編輯器、[可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 或非視覺化介面[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，建立您的測試和個人化體驗。
+在 [!DNL Adobe Target] 的用戶端實作中，[!DNL Target] 會將與活動相關聯的體驗直接提供給用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。在用戶端實作中，您可以使用 WYSIWYG 編輯器、[視覺體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 或非視覺化介面[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，建立您的測試和個人化體驗。
 
 ## 什麼是 at.js?
 
-at.js 資料庫是新的 Target 實作資料庫。at.js 程式庫改善 Web 實施的頁面載入時間，並且為單頁應用程式提供更好的實施選項。at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至[最新版本的 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+at.js 程式庫是適用於 Target 的全新實作程式庫。 at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至[最新版本的 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
-如需詳細資訊，請參閱 [Target JavaScript 資料庫](/help/main/c-intro/how-target-works.md#libraries)。
+如需詳細資訊，請參閱 [Target JavaScript 程式庫](/help/main/c-intro/how-target-works.md#libraries)。
 
-在 [!DNL Target] 下文所示的實施，如下 [!DNL Adobe Experience Cloud] 解決方案已實施：分析、目標和Audience Manager。 此外，還實施了以下Experience Cloud核心服務： [!DNL Adobe Experience Platform]。 [!DNL Audiences], [!DNL Visitor ID Service]。
+在下圖所示的 [!DNL Target] 實作中，已實作下列 [!DNL Adobe Experience Cloud] 解決方案：Analytics、Target 和 Audience Manager。 此外，也已實作下列 Experience Cloud 核心服務：[!DNL Adobe Experience Platform]、[!DNL Audiences] 和 [!DNL Visitor ID Service]。
 
-## at.js 1的區別是什麼。*x* 和 at.js 2.x 工作流程圖表之間有何差異?
+## at.js 1.*x* 和 at.js 2.x 工作流程圖表之間有何差異？
 
 請參閱[從 at.js 1.x 升級為 at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)，深入瞭解 2.O 中引入哪些與 1.*x* 版有所差異之處。
 
 從高階角度來看，兩個版本之間存在幾項差異:
 
 * at.js 2.x 沒有全域 mbox 要求概念，而是採用頁面載入要求。頁面載入要求可視為要求擷取網站初始頁面載入時應套用的內容。
-* at.js 2.x管理稱為「視圖」的概念，這些概念用於單頁應用程SPA序()。 at.js 1.*x* 不知道這個概念。
+* at.js 2.x 可管理稱為「檢視」的概念，這些檢視會用於單頁應用程式 (SPA)。 at.js 1.*x* 不知道這個概念。
 
 ## at.js 2.x 圖表
 
@@ -46,9 +46,9 @@ at.js 資料庫是新的 Target 實作資料庫。at.js 程式庫改善 Web 實�
 | 1 | 如果使用者已通過驗證，呼叫會傳回 [!DNL Experience Cloud ID]，而另一個呼叫會同步客戶 ID。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>也能使用將頁面上實作的程式碼片段預先隱藏的選項，以非同步方式載入 at.js。 |
 | 3 | 提出頁面載入要求，包含所有已設定的參數 (MCID、SDID 和客戶 ID)。 |
-| 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從對象資料庫中請求合格對象 (例如，從 Adobe Analytics、對象管理 等共用的對象)。<br>客戶屬性會透過批次程序傳送至設定檔存放區。 |
-| 5 | [!DNL Target] 會根據 URL 要求參數和設定檔資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
-| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>作為用戶操作結果在瀏覽器中顯示的視圖的目標內容SPA被快取，因此當通過觸發視圖時，無需額外的伺服器調用即可立即應用該內容 `triggerView()`。 |
+| 4 | 個人資料指令碼執行，然後注入個人資料存放區。存放區會從受眾資料庫中請求合格受眾 (例如，從 Adobe Analytics、受眾管理等共用的受眾)。<br>客戶屬性會透過批次程序傳送至個人資料存放區。 |
+| 5 | [!DNL Target] 會根據 URL 要求參數和個人資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
+| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的個人資料值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>作為使用者在 SPA 中的操作結果而針對檢視顯示的內容將快取在瀏覽器中，這樣便可在透過 `triggerView()` 觸發檢視時立即套用，而不需要額外的伺服器呼叫。 |
 | 7 | Analytics 資料傳送至「資料收集」伺服器。 |
 | 8 | 目標資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 Analytics for Target (A4T) 報表來檢視 <br>Analytics 資料。 |
 
@@ -61,17 +61,17 @@ at.js 資料庫是新的 Target 實作資料庫。at.js 程式庫改善 Web 實�
 | 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
 | 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
-| 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
+| 4 | 通知要求會傳送至 [!DNL Target] 個人資料存放區，以計算活動中的訪客數和增加量度。 |
 | 5 | Analytics 資料傳送至資料收集伺服器。 |
 | 6 | Target 資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 A4T 報表來檢視 Analytics 資料。 |
 
-### 視頻 — at.js 2.x體系結構圖
+### 影片 - at.js 2.x 架構圖表
 
 at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Cloud 解決方案整合。本影片說明整合方式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-請參閱 [瞭解at.js 2.x的工作原理](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 的子菜單。
+如需詳細資訊，請參閱[ 了解 at.js 2.x 的運作方式](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)。
 
 ## at.js 1.x 圖表
 
@@ -80,13 +80,13 @@ at.js 2.x 增強了Adobe Target 對 SPA 的支援，並與其他 Experience Clou
 | 步驟 | 說明 | 呼叫 | 說明 |
 |--- |--- |--- |--- |
 | 1 | 如果使用者已驗證，呼叫會傳回 [!DNL Experience Cloud ID] (MCID)；另一個呼叫會同步客戶 ID。 | 2 | at.js 程式庫會同步載入並隱藏文件本文。 |
-| 3 | 提出全域 mbox 請求，含所有已設定的參、MCID、SDID 和客戶 ID (可選)。 | 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從[!UICONTROL 對象資料庫]中要求合格對象 (例如從 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共用的對象)。<br>客戶屬性會透過批次程序傳送至 [!DNL Profile Store]。 |
-| 5 | [!DNL Target] 根據 URL、mbox 參數和設定檔資料，決定要傳回給訪客的活動和體驗。 | 6 | 已鎖定的目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>體驗會儘快出現，不會有忽隱忽現的預設內容。 |
-| 7 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 | 8 | [!DNL Target] 資料會透過 SDID 來比對 [!DNL Analytics] 資料，然後經過處理放入 [!DNL Analytics] 報表儲存體中。然後就可以在 <br>[!DNL Analytics] 與 [!DNL Analytics] 中，透過 [!DNL Target] (A4T) 報表來檢視 [!DNL Analytics for Target] 資料。 |
+| 3 | 提出全域 mbox 請求，含所有已設定的參、MCID、SDID 和客戶 ID (可選)。 | 4 | 個人資料指令碼執行，然後注入個人資料存放區。存放區會從[!UICONTROL 受眾資料庫]中要求合格受眾 (例如從 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共用的受眾)。<br>客戶屬性會透過批次程序傳送至 [!DNL Profile Store]。 |
+| 5 | [!DNL Target] 根據 URL、mbox 參數和個人資料，決定要傳回給訪客的活動和體驗。 | 6 | 已鎖定的目標內容會傳回至頁面，選擇性地包括其他個人化的個人資料值。<br>體驗會儘快出現，不會有忽隱忽現的預設內容。 |
+| 7 | [!DNL Analytics] 資料傳送至「資料收集」伺服器。 | 8 | [!DNL Target] 資料會透過 SDID 來比對 [!DNL Analytics] 資料，然後經過處理放入 [!DNL Analytics] 報表儲存體中。<br>[!DNL Analytics] 資料就可以透過 [!DNL Analytics for Target] (A4T) 報表在 [!DNL Analytics] 和 [!DNL Target] 中查看。 |
 
-### 視頻 — 辦公時間：at.js提示和概述（2019年6月26日）
+### 影片 - 辦公時間：at.js 提示與總覽 (2019 年 6 月 26 日)
 
-這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
+這支影片記錄了「辦公時間」，「辦公時間」是一項由 Adobe 客戶服務團隊主導的計劃。
 
 * 使用 at.js 的好處
 * at.js 設定
