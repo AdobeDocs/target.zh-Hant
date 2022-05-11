@@ -1,33 +1,33 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜尋引擎最佳化;搜尋引擎最佳化;seo;邊緣叢集,中央叢集;at.js;mbox.js;
-description: 瞭解如何Adobe [!DNL Target] 作品，包括 [!DNL Target] JavaScript庫(at.js和Experience PlatformWeb SDK)、Adobe資料中心和SEO測試。
+description: 了解 Adobe [!DNL Target] 的運作方式，包括有關 [!DNL Target] JavaScript 程式庫 (at.js 和 Experience Platform Web SDK)、Adobe 資料中心及 SEO 測試。
 title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Adobe [!DNL Target] 如何運作
 
-了解 [!DNL Adobe Target]的運作，包括有關 [!DNL Adobe Experience Platform Web SDK] 和 JavaScript 資料庫 (at.js 和 mbox.js) 的資訊。此文章也介紹您可以使用 [!DNL Target] 建立的多種活動類型。您還可以了解有關 [!DNL Target] 邊緣網路、Search Engine Optimization (SEO)，以及 [!DNL Target] 如何偵察機器人。
+了解 [!DNL Adobe Target]的運作，包括有關 [!DNL Adobe Experience Platform Web SDK] 和 JavaScript 程式庫 (at.js 和 mbox.js) 的資訊。此文章也介紹您可以使用 [!DNL Target] 建立的多種活動類型。您還可以了解有關 [!DNL Target] 邊緣網路、Search Engine Optimization (SEO)，以及 [!DNL Target] 如何偵察機器人。
 
 ## [!DNL Target] Platform Web SDK 和 JavaScript 程式庫 {#libraries}
 
-[!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 資料庫與網站整合：
+[!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 程式庫與網站整合：
 
-* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 是新的用戶端 JavaScript 資料庫。Experience Platform Web SDK 讓 [!DNL Adobe Experience Cloud] 的客戶與 [!DNL Experience Cloud] 內的多種服務互動 (包括透過 [!DNL Experience Platform] Edge Network 的[!DNL Target]。Adobe 建議所有的新 [!DNL Target] 客戶實施 [!DNL Experience Platform Web SDK]。
-* **at.js：** at.js 程式庫是 [!DNL Target] 的實施程式庫。at.js 程式庫改善 Web 實施的頁面載入時間，並且為單頁應用程式提供更好的實施選項。at.js 經常更新以包含新功能。Adobe 建議所有使用 at.js 的客戶更新其實施至[ at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **mbox.js：** mbox.js 程式庫是 [!DNL Target] 的舊版實施程式庫。自 2021 年 3 月 31 日起不再支援 mbox.js 程式庫。
+* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 是新的用戶端 JavaScript 程式庫。Experience Platform Web SDK 讓 [!DNL Adobe Experience Cloud] 的客戶與 [!DNL Experience Cloud] 內的多種服務互動 (包括透過 [!DNL Experience Platform] Edge Network 的[!DNL Target]。Adobe 建議所有的新 [!DNL Target] 客戶實作 [!DNL Experience Platform Web SDK]。
+* **at.js：** at.js 程式庫是 [!DNL Target] 的實作程式庫。at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 經常更新以包含新功能。Adobe 建議所有使用 at.js 的客戶更新其實作至[ at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* **mbox.js：** mbox.js 程式庫是 [!DNL Target] 的舊版實作程式庫。自 2021 年 3 月 31 日起不再支援 mbox.js 程式庫。
 
-在您網站的每個頁面上參閱 [!DNL Experience Platform Web SDK] 或 at.js。例如，您可以將其中一個程式庫新增至全域標題。或者，考慮使用 Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 內的 [標記來實施 [!DNL Target]。
+在您網站的每個頁面上參閱 [!DNL Experience Platform Web SDK] 或 at.js。例如，您可以將其中一個程式庫新增至全域標題。或者，考慮使用 Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 內的 [標記來實作 [!DNL Target]。
 
-下列資源包含協助您實施 Experience Platform Web SDK或 at.js 的詳細資訊：
+下列資源包含協助您實作 Experience Platform Web SDK或 at.js 的詳細資訊：
 
-* [Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hant)
 * [使用 Adobe Experience Platform 實作 [!DNL Target] ](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次訪客要求已針對 [!DNL Target] 最佳化的頁面時，都會傳送請求至目標定位系統。該請求有助於判斷要為該訪客提供哪些內容。此過程會即時進行。每次載入頁面時，系統會提出內容請求並履行。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。所提供的內容是每位網站訪客最有可能回應、互動或最終購買的內容。個人化內容可協助將回應率、贏取率和收入最大化。
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 ### [!UICONTROL 自動鎖定目標] (AT)
 
-自動鎖定目標使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。自動鎖定目標為每位訪客提供最自訂的體驗。體驗傳送是根據個別客戶設定檔和具有類似設定檔的先前訪客的行為。使用自動鎖定目標來個人化內容並推動轉換。
+自動鎖定目標使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。自動鎖定目標為每位訪客提供最自訂的體驗。體驗傳送是根據個別客戶個人資料和具有類似個人資料的先前訪客的行為。使用自動鎖定目標來個人化內容並推動轉換。
 
 如需詳細資訊，請參閱 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
@@ -69,9 +69,9 @@ Automated Personalization (AP) 結合選件或訊息，並使用進階的機器�
 
 ### [!UICONTROL 體驗鎖定] (XT)
 
-體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
+體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定受眾提供內容。
 
-體驗鎖定目標 (包括地理定位) 對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。您可以在傳送不同內容變數至不同對象的活動中定義數個規則。在訪客檢視您的網站時，體驗鎖定目標 (XT) 會評估他們，以決定他們是否符合您設定的條件。如果他們符合條件，他們會進入活動，並且針對符合資格對象設計的體驗會顯示。您可以為單一活動內的多個對象建立體驗。
+體驗鎖定目標 (包括地理定位) 對於定義將特定體驗或內容鎖定在特定受眾的規則大有幫助。您可以在傳送不同內容變數至不同受眾的活動中定義數個規則。在訪客檢視您的網站時，體驗鎖定目標 (XT) 會評估他們，以決定他們是否符合您設定的條件。如果他們符合條件，他們會進入活動，並且針對符合資格受眾設計的體驗會顯示。您可以為單一活動內的多個受眾建立體驗。
 
 如需詳細資訊，請參閱「[體驗鎖定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)」。
 
@@ -91,7 +91,7 @@ Recommendations 活動可依據先前的使用者行為或其他演算法，自�
 
 「Edge」是按地理區域分配服務的架構，可確保請求內容的訪客獲得最佳回應時間，無論他們身在何處。
 
-為改善回應時間，[!DNL Target] Edges 僅代管活動邏輯、快取設定檔和選件資訊。
+為改善回應時間，[!DNL Target] Edges 僅代管活動邏輯、快取個人資料和選件資訊。
 
 活動和內容資料庫、[!DNL Analytics] 資料、API 和市場行銷人員使用者介面都存放在 Adobe 的中央叢集中。然後，更新會傳送至 [!DNL Target] Edges。中央叢集和邊緣叢集會自動同步，以持續更新快取的活動資料。所有 1:1 模型也會儲存在每個邊緣，因此這些更複雜的請求也可以在邊緣上處理。
 
@@ -146,7 +146,7 @@ Adobe 藉由效能最佳化以及保衛效能的方式保護使用體驗。
 * Adobe 會依據產業標準確保基準效能，這一點在 Adobe 的服務等級合約中已給予保證。
 * Edge 網路確保資料及時傳送。
 * Adobe 採用多層面的方法保護其應用程式，使其為客戶提供最高水準的可用度和可靠度。
-* [!DNL Target] 諮詢服務提供實施協助和使用中產品的支援。
+* [!DNL Target] 諮詢服務提供實作協助和使用中產品的支援。
 
 ## 搜尋引擎最佳化 (SEO) 友善測試 {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
@@ -173,9 +173,9 @@ Google 鼓勵用戶測試。Google 在其文件中指出，如果您遵循特定
 
    302 重新導向是伺服器端重新導向， 及 [!DNL Target] 與其大部分最佳化提供者都使用用戶端功能。因此，在重新導向方面，[!DNL Target] 不完全符合 Google 的建議。但這對測試的影響很小。透過 [!DNL Target] 執行測試的標準方法會要求在單一 URL 內變更內容，因此不需要重新導向。有時，用戶端需要使用多個 URL 來代表測試變異。在這些情況下，[!DNL Target] 使用 JavaScript `window.location` 命令。此命令會指示使用者測試變數，但不會明確表示重新導向是 301 或 302。
 
-   Adobe 持續尋找可行的解決方案，以完全符合搜尋引擎的方針。對於必須使用個別 URL 進行測試的客戶，Adobe 確信正確實施標準標籤可降低與此方法相關的風險。
+   Adobe 持續尋找可行的解決方案，以完全符合搜尋引擎的方針。對於必須使用個別 URL 進行測試的客戶，Adobe 確信正確實作標準標籤可降低與此方法相關的風險。
 
-* **僅在必要時才執行實驗**：Adobe認為「僅在必要時」，意指只要需達到統計顯著性時。[!DNL Target][ 提供最佳實務](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)來判斷測試何時達到此點。Adobe 建議將成功測試寫入程式碼的實施納入測試工作流程中，並分配適當的資源。
+* **僅在必要時才執行實驗**：Adobe認為「僅在必要時」，意指只要需達到統計顯著性時。[!DNL Target][ 提供最佳做法](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)來判斷測試何時達到此點。Adobe 建議將成功測試寫入程式碼的實作納入測試工作流程中，並分配適當的資源。
 
    不建議使用 [!DNL Target] 平台來「發佈」成功測試作為永久解決方案。如果成功測試是針對 100% 的使用者發佈，則此方法可在永久編碼成功測試的過程完成時使用。
 
@@ -205,8 +205,8 @@ Adobe [!DNL Target] 使用 [DeviceAtlas](https://deviceatlas.com/device-data/use
 
 具體而言，針對已知機器人流量，[!DNL Target] 不會：
 
-* 建立或擷取訪客設定檔
-* 記錄任何設定檔屬性或執行設定檔指令碼
+* 建立或擷取訪客個人資料
+* 記錄任何個人資料屬性或執行個人資料指令碼
 * 查詢 Adobe Audience Manager (AAM) 區段 (如適用)
 * 使用機器人流量，針對 Recommendations、自動鎖定目標、Automated Personalization 或[!UICONTROL 自動分配]活動建立模型並提供個人化內容
 * 記錄活動造訪以進行回報
