@@ -4,7 +4,7 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a820a1cbc56332cc6414dc9f5ce4578fa0349481
+source-git-commit: 1997fb8e290541fc9e194d582ccc2587595ccfa7
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 30%
