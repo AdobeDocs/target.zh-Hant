@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe中建立排除項 [!DNL Target] Recommendation
 title: 如何在Recommendations活動中使用排除項？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 44%
+source-wordcount: '614'
+ht-degree: 43%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 44%
 * 不應推薦的產品（系統中可能存在某種SKU，但它不是可購買的產品，或者QA團隊模擬購買而不實際訂購某種產品，等等）
 
 >[!IMPORTANT]
+>
+>排除規則將全局應用於所有環境。
 >
 >靜態和動態排除規是可協助您從事行銷活動的強大功能。如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
@@ -49,7 +51,7 @@ ht-degree: 44%
 
    在「規則」清單中選取參數，選取運算子，然後輸入一或多個值以辨別產品。使用逗號分隔多個值。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 使用進階搜尋建立排除項目
 

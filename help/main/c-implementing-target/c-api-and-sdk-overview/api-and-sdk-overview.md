@@ -5,7 +5,7 @@ title: 在何處可以瞭解 [!DNL Target] 伺服器端交付API和SDK?
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ ht-degree: 23%
 
 `/rest/v1/delivery`
 
-貫穿 [!DNL Target] 交付API，您可以：
+使用 [!DNL Target] 交付API，您可以：
 
 * 通過Web(包括SPA)和移動頻道以及基於非瀏覽器的IoT設備（如連接的電視、亭子或店內數字螢幕）提供體驗。
 * 從任何可進行HTTP/s調用的伺服器端平台或應用程式提供體驗。
