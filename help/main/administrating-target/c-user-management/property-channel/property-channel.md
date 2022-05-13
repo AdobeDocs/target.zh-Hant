@@ -5,10 +5,10 @@ title: 什麼是企業用戶權限以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 56%
+source-wordcount: '3149'
+ht-degree: 59%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->屬性和權限功能屬於  Premium 解決方案的一部分。[!DNL Target]在沒有 [!DNL Target] Premium 授權的 [!DNL Target] Standard 中無法使用。
+>屬性和權限功能當作 [!DNL Target] Premium 解決方案的一部分來提供。 如果沒有 [!DNL Target] Premium 授權，就無法在 [!DNL Target] Standard 中使用它們。 
 >
 >您 [!DNL Target] 實現可以使用at.js的任何版本。
 
-通過按一下 [!UICONTROL 管理] 在 [!DNL Target] UI。
+您可以分辨貴組織是擁有 Standard 還是 Premium 授權，方法是按一下 [!DNL Target] UI 上方的[!UICONTROL 管理]連結。
 
-* **[!DNL Target Standard]客戶**:如果你看到 [!UICONTROL 用戶] 頁籤[!UICONTROL 管理>用戶])(而不是 [!UICONTROL 屬性] 頁籤)，您的組織具有 [!DNL Target Standard] 許可證。 [!DNL Target Standard] 客戶應按照 [用戶](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 添加用戶並在 [!DNL Adobe Admin Console]。
+* **[!DNL Target Standard]客戶**：如果您看到[!UICONTROL 使用者]索引標籤 ([!UICONTROL 管理 > 使用者]) (而不是[!UICONTROL 屬性]索引標籤)，就表示貴組織擁有 [!DNL Target Standard] 授權。 [!DNL Target Standard] 客戶應按照 [用戶](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 添加用戶並在 [!DNL Adobe Admin Console]。
 
 * **[!DNL Target Premium]客戶**:如果你看到 [!UICONTROL 屬性] 頁籤[!UICONTROL 管理>屬性])和 [!UICONTROL 用戶] 頁籤，您的組織具有 [!DNL Target Premium] 許可證。 [!DNL Target Premium] 客戶應該遵循本文和[設定企業權限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示。
 
@@ -89,9 +89,9 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 | 角色 | 說明 |
 |--- |--- |
 | 核准者 | 可以建立、編輯和啟動或停止活動。 |
-| 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+| 編輯者 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
 | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-| 發行者 | 與「觀察者」角色類似（可以查看活動，但無法建立或編輯它們）。 但是，發佈者角色具有激活活動的附加權限。 |
+| 發佈者 | 類似於觀察者角色 (可以查看活動，但不能建立或編輯活動)。 不過，發佈者角色具有啟用活動的額外權限。 |
 
 ### 頻道
 
@@ -118,9 +118,9 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 | 角色 | 說明 |
 |--- |--- |
 | 核准者 | 可以建立、編輯和啟動或停止活動。 |
-| 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+| 編輯者 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
 | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-| 發行者 | 與「觀察者」角色類似（可以查看活動，但無法建立或編輯它們）。 但是，發佈者角色具有激活活動的附加權限。 |
+| 發佈者 | 類似於觀察者角色 (可以查看活動，但不能建立或編輯活動)。 不過，發佈者角色具有啟用活動的額外權限。 |
 
 務必注意，每個使用者的角色會套用至您的帳戶中包含 [!DNL Target] 標記的每個頁面、屬性或網站上，如下所示:
 
@@ -231,7 +231,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 * 從 [!DNL Audiences] 頁面檢視對象時，頁面載入的速度會低於預期。如果您以任何方式與搜尋列互動，對象會較快顯示。此問題已知，將在即將進行的更新中解決。 此問題不會影響在活動建立工作流程期間選取對象。
 * 下列資源屬於新企業權限模型:
 
-   * 在啟用客戶的權限之後，於 Target Standard/Premium 內建立的活動、對象和代碼選件。(注意: 客戶必須取得使用 Target Premium 的授權。)
+   * 活動、受眾和代碼優惠 [!DNL Target Standard/Premium] 在為客戶啟用權限後可用。 (注：客戶必須有權 [!DNL Target Premium]。)
    * 屬性可以添加到預設工作區中的現有活動；但是，這種做法可能會改變。
    * 只有在「目標高級」（啟用「企業權限」後）內建立的新資源（如活動、代碼優惠和受眾）才可用於按權限進行限制。
    * 外部資源僅可供預設工作區中的使用者使用。預設工作區中的使用者的角色將全域適用 (所有 Target 要求 和所有 Target 資源)。
@@ -297,7 +297,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 如果重新導向頁面和活動 URL 屬於相同的屬性，點擊追蹤會如運期般運作。如需詳細資訊，請參閱[點擊追蹤](/help/main/c-activities/r-success-metrics/click-tracking.md)。
 
-## 訓練影片
+## 培訓影片
 
 以下影片含有本文章探討之概念的詳細資訊。
 
@@ -313,7 +313,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 ### 辦公時間： [!DNL Target] 高級工作區
 
-這支影片記錄了「營業時間」，這是一項 Adobe 客戶服務團隊主導的計劃。
+這支影片記錄了「辦公時間」，「辦公時間」是一項由 Adobe 客戶服務團隊主導的計劃。
 
 * 建立工作區 (產品設定檔)
 * 選擇屬性。
@@ -322,6 +322,6 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 >[!NOTE]
 >
->的 [!DNL Target] [!UICONTROL 管理] 菜單UI（以前） [!UICONTROL 設定])已重新設計，以提供改進的效能，減少發佈新功能時所需的維護時間，並改善整個產品的用戶體驗。 以下視頻中的資訊正確；但是，選項可能位於稍有不同的位置。
+>[!DNL Target] [!UICONTROL 管理]選單 UI (之前稱為[!UICONTROL 設定]) 已經過重新設計，可提供改良的效能、縮短發佈新功能所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊正確；但是，選項可能位於稍有不同的位置。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

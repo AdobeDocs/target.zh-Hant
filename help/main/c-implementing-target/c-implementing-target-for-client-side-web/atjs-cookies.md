@@ -5,9 +5,9 @@ title: at.js Cookie
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 96%
 
 ---
@@ -111,7 +111,7 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 | Cookie 名稱 | mbox。 |
 | Cookie 網域 | 您從中提供內容的第一層與第二層網域。因為是使用公司所提供的網域，所以這些會是第一方 Cookie。範例: `mycompany.com`。 |
 | 伺服器網域 | `clientcode.tt.omtrdc.net`，使用您帳戶的用戶端代碼。 |
-| Cookie 持續時間 | 自上次登錄後兩年，Cookie仍保留在訪客的瀏覽器上。<br>的 `deviceIdLifetime` 設定在中過大 [at.js版本2.3.1或更高版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 如需詳細資訊，請參閱 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 |
+| Cookie 持續時間 | 自上次登錄後兩年，Cookie仍保留在訪問者的瀏覽器上。<br>的 `deviceIdLifetime` 設定在中過大 [at.js版本2.3.1或更高版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 如需詳細資訊，請參閱 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 |
 | P3P 原則 | 此 Cookie 會依大部分瀏覽器中預設設定的要求，以 P3P 原則進行發佈。P3P 原則會為瀏覽器指出是誰提供此 Cookie，以及將如何使用此資訊。 |
 
 此 Cookie 會保留一些值，以管理您訪客體驗 促銷活動的方式:
@@ -120,7 +120,7 @@ Cookie 具有各種預設設定。您可以視需要變更這些設定，但不�
 |--- |--- |
 | session ID | 每個使用者作業會有一個唯一 ID。依預設，這會持續 30 分鐘。 |
 | pc ID | 每位訪客瀏覽器的半永久性 ID。持續 14 天。 |
-| check | 用來決定訪客是否支援 Cookie 的簡單測試值。每次訪客請求頁面時都會進行設定。 |
+| 檢查 | 用來決定訪客是否支援 Cookie 的簡單測試值。每次訪客請求頁面時都會進行設定。 |
 | disable | 設定訪問者的載入時間是否超過在 [!DNL Adobe Experience Platform Web SDK] 或at.js檔案。 依預設，這會持續 1 個小時。 |
 
 ## 對 [!DNL Target] 用於因AppleWebKit跟蹤更改而引起的Safari訪問者
