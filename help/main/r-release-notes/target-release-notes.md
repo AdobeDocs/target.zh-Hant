@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 29%
+source-wordcount: '463'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 29%
 * 已修復一個問題，該問題阻止客戶建立重複的受眾，但是位於不同的工作區中。 (TGT-43423)
 * 修復了一個問題，使客戶無法刪除在中建立的活動中具有臨時優惠的位置 [!UICONTROL 基於表單的體驗作曲家]。 (TGT-43315)
 * 在按一下影像提供並刷新UI後，修復了阻止客戶訪問代碼提供的問題。 (TGT-43566)
-* 已確保中可用的度量清單 [!DNL Target] 建立使用 [!DNL Analytics for Target] (A4T)僅顯示由 [!DNL Adobe Analytics]。 (TGT-43294)
 * 修復了在編輯、激活和停用指令碼後導致對配置檔案指令碼進行編輯以還原為原始未編輯指令碼的問題。 配置檔案指令碼現在仍處於編輯狀態。 (TGT-43249)
 * 修復了在嘗試將受眾移動到另一個工作區時導致以下錯誤的問題：「我們無法完成您的請求。 如果問題仍然存在，請與Adobe客戶服務部聯繫。」 (TGT-43212)
 * 已修復在克隆單頁應用()頁的自定義代碼修改時導致SPA錯誤的錯誤。 (TGT-43137)
