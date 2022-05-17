@@ -5,7 +5,7 @@ title: at.js如何管理閃變？
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 76%
@@ -48,7 +48,7 @@ ht-degree: 76%
 
 at.js可以非同步載入，可以直接嵌入頁面或通過標籤管理器(例如 [!DNL Adobe Experience Platform Launch])。
 
-如果在頁上嵌入了at.js，則在載入at.js之前必須添加代碼段。 如果通過標籤管理器載入at.js，則在載入標籤管理器之前必須添加代碼段。 如果同步載入標籤管理器，則此指令碼可能包含在at.js之前的標籤管理器中。
+如果在頁上嵌入了at.js，則在載入at.js之前必須添加代碼段。 如果通過標籤管理器載入at.js，則在載入標籤管理器之前必須添加代碼段。 如果同步載入標籤管理器，則指令碼可能包含在at.js之前的標籤管理器中。
 
 預先隱藏的程式碼片段如下所示:
 
