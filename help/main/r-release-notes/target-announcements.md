@@ -1,5 +1,5 @@
 ---
-keywords: 公告;技能建立;開發人員聊天;咖啡會;事件;forrester;gartner;網路研討會
+keywords: 公告;技能建立;開發人員聊天;咖啡會;活動;forrester;gartner;網路研討會
 description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培養課程、開發人員與產品經理聊天、網路研討會等。
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
@@ -7,32 +7,32 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 25%
+ht-degree: 32%
 
 ---
 
 # Target 公告和活動
 
-閱讀有關近期事件的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
+閱讀有關近期活動的公告和資訊，包括[!DNL Adobe Target] 技能培養課程、開發人員聊天、網路研討會，以及 [!DNL Target] 咖啡會等等。
 
-## [!DNL Adobe Target] 社群問答咖啡會 （2022年5月25日）
+## [!DNL Adobe Target] 社群問答休息時間 (2022 年 5 月 25 日)
 
 布倫特·科斯塔克和德魯·伯恩斯 [!DNL Adobe Target] 產品營銷團隊將回答與其專業領域相關的客戶問題。
 
 +++按一下我
 
-* **2022年5月25日星期三**
+* **2022 年 5 月 25 日 (星期三)**
 * **上午 8 點 (PDT，UTC -7)**
 * **[更多資訊和註冊資訊](https://adobe.ly/3LbOj4G)**
 
 邀請客戶發佈與4/28/22即時個性化網路研討會期間涵蓋的下列主題相關的問題（訪問記錄如下）:
 
 * 建立共用的受眾 [!DNL Adobe Target] 和Real-Time CDP
-* 構建第一方資料策略以解決資料碎片化挑戰
-* 部署端到端工作流以實現毫秒個性化
-* 即時提供相關消息、內容和產品，以推動項目
+* 建置&#x200B;&#x200B;第一方資料策略以解決資料片段化的挑戰
+* 為以毫秒為單位的個人化部署端對端工作流程
+* 即時提供相關的訊息、內容和優惠方案以提高參與度
 
-技術支援工程師Kai Motoyama也將參加討論，提供更多支援。
+技術支援工程師 Kai Motoyama 也將參與討論，提供更多支援。
 +++
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
@@ -166,11 +166,11 @@ ht-degree: 25%
 
 **[註冊以查看網路研討會錄制](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-在此會話中，瞭解如何 [!DNL Adobe Target] 在討論以下內容時，為即時個性化跨越多個源合併資料方面的差距進行了彌合：
+在這場會議中，可了解 [!DNL Adobe Target] 如何縮短在跨越多個來源合併資料以實現即時 Personalization 時產生的差距，我們將討論：
 
-* 為什麼個性化效能和速度對推動更快的業務增長至關重要
-* 團隊如何構建第一方資料戰略並解決其資料碎片化難題
-* 提供個性化體驗的端到端工作流（毫秒）
+* 為什麼個人化效能和速度對於推動更快速的業務成長很重要
+* 團隊如何建置&#x200B;&#x200B;第一方資料策略並解決其資料片段化的挑戰
+* 以毫秒為單位提供個人化體驗的端對端工作流程
 * 針對品牌的獨特使用案例，用於讓客戶和潛在客戶即時獲得相關消息、內容和產品
 
 ### 網路研討會影片：利用 [!DNL Adobe Target] 的裝置上決策在零延遲的情況下進行個人化和測試

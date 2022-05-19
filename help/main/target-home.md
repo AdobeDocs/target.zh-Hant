@@ -36,7 +36,7 @@ ht-degree: 100%
 - [Target 簡介](c-intro/intro.md)：說明 [!DNL Target] 解決方案的核心概念。
 - 將 Target 與 Adobe Experience Cloud 整合：說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) 以及 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)：提供教學課程和影片，協助您充分運用 Target。
-- [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (選件大小、受眾、個人資料、值、參數等) 相關資訊。
+- [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (優惠方案大小、受眾、個人資料、值、參數等) 相關資訊。
 - [適用於行動應用程式的 Target](c-target-mobile-app/target-mobile-app.md)：說明如何使用 [!DNL Target] 來將行動應用程式最佳化及個人化。
 - [資源與聯絡資訊](cmp-resources-and-contact-information.md)：提供其他資訊的相關資訊，協助您瞭解 [!DNL Target] 功能，以及在需要協助時如何聯絡 [!DNL Adobe]。
 
@@ -44,17 +44,17 @@ ht-degree: 100%
 
 - [活動](c-activities/activities.md)：說明如何設定、管理 [!DNL Target] 活動及確保品質。
 - [受眾](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
-- [體驗與選件](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的受眾條件時，要顯示哪些內容。
+- [體驗與優惠方案](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的受眾條件時，要顯示哪些內容。
 - [建議](c-recommendations/recommendations.md)：說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
 
 ## 開發人員 {#developers}
 
-- [實作 Target](c-implementing-target/implementing-target.md)：說明如何在網站、行動應用程式、單頁應用程式 (SPA) 及 iOT/OTT 平台上實作 [!DNL Target]。
+- [實作 Target](c-implementing-target/implementing-target.md)：說明如何在網站、行動應用程式、單次頁面應用程式 (SPA) 及 iOT/OTT 平台上實作 [!DNL Target]。
 - [Target 伺服器端 API](https://developers.adobetarget.com/api/delivery-api/)：說明構成 Adobe Target Delivery API 的資源。
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk)：說明如何佈署 Target 伺服器端。Node.js SDK 可協助您輕鬆地整合 Target 與其他的 Adobe Experience Cloud 解決方案。
 - [Target Java SDK](https://github.com/adobe/target-java-sdk)：說明如何佈署 Target 伺服器端。Node.js SDK 可協助您輕鬆地整合 Target 與其他的 Adobe Experience Cloud 解決方案。
 - [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/)：說明構成正式 Adobe Target Recommendations API 的資源。
-- [Target Adobe.IO 文件](https://developers.adobetarget.com/api/#introduction)：說明如何使用 Target 的管理程式和個人資料 REST API，其用 Adobe.IO 整合來管理活動、受眾、選件、性質、報告、mboxes、環境和個人資料。
+- [Target Adobe.IO 文件](https://developers.adobetarget.com/api/#introduction)：說明如何使用 Target 的管理程式和個人資料 REST API，其用 Adobe.IO 整合來管理活動、受眾、優惠方案、性質、報告、mboxes、環境和個人資料。
 
 ## Target 與 Adobe Experience Cloud 管理員 {#admins}
 
