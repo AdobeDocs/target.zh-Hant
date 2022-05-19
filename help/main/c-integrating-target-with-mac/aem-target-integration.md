@@ -1,17 +1,18 @@
 ---
-keywords: aem;experience manager;adobe experience manager;integration;experience fragments;integration;experience fragments;aem;experience manager;adobe experience manager;integration;experience fragments
-description: 瞭解如何使用目標/Experience Manager整合。
-title: 如何整合 [!DNL Target] 和Adobe Experience ManagerAEM?
+keywords: aem；experience manager；adobe experience manager；整合；整合；體驗片段
+description: 了解如何使用 Target/Experience Manager 整合。
+title: 要如何將 [!DNL Target] 和 Adobe Experience Manager (AEM) 整合？
 feature: Integrations
-source-git-commit: b70eb1fcff00657c22e044d3ffdf86cf6f2e104e
-workflow-type: tm+mt
+exl-id: bff6d9da-8b1e-4458-8d5c-0a34e570e15a
+source-git-commit: 77536ccf74c54b33e1cfeab7e71f7ade48484bba
+workflow-type: ht
 source-wordcount: '56'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 整合 [!DNL Target] 與 [!DNL Adobe Experience Manager] (AEM)
+# 將 [!DNL Target] 和 [!DNL Adobe Experience Manager] (AEM) 整合
 
-的 [!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM整合)允許您使用在中建立的AEM體驗片段 [!DNL Target] 幫助優化或個性化的活動。
+此 [!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) 整合可讓您使用在 [!DNL Target] 活動中 AEM 中所建立的體驗片段來輔助最佳化或個人化。
 
-有關詳細資訊，請參見 [AEM經驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。
+如需詳細資訊，請參閱「[AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)」。
