@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '485'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 99%
 
 本文包含搶鮮版版本資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期：2022 年 5 月 9 日**
+**上次更新日期：2022 年 5 月 23 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## at.js 2.9.0 版 (2022 年 5 月 25 日)
+
+* 已添加用戶代理客戶端提示支援。
+* 修復了一個錯誤，其中同一頁上的多個mbox請求具有不同的印象ID。
 
 ## [!DNL Target Standard/Premium] 22.5.1 (分批發行；2022 年 5 月 11 至 13 日)
 

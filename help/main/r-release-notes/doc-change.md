@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '4029'
-ht-degree: 98%
+source-wordcount: '4041'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 5 月 23 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已為at.js 2.9.0版添加預發行說明（2022年5月25日）。 |
 | 5 月 11 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 為以下網路研討會添加資訊和註冊連結：<ul><li>迪克的體育用品：個性化與零售業的變化</li><li>Adobe:個性化行業內幕人士 — 金融服務和保險</li><li>城市國家銀行：如何在數字優化中實現前1%</li><li>Adobe:精準個性化 —  [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>城市國家銀行：從零到英雄 — 啟動和擴展個性化程式</li><li>Adobe:發現影響力巨大的優化機會</li><li>Adobe:個性化行業內幕 — 零售</li></ul>已添加以下網路研討會的錄制：<ul><li>即時個性化 [!DNL Adobe Target]</li></ul> |
 |  | [內容安全性政策 (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新增常見問題區段。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台 (2022 年 5 月 11 日至 13 日) 版本的資訊。 |
