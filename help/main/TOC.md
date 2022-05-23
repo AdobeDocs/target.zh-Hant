@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 8f3eb3adcbd27a0f2592684266d9b6419151f890
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1560'
 ht-degree: 99%
 
 ---
@@ -137,6 +137,7 @@ ht-degree: 99%
          + [at.js 版本詳細資料](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [從 at.js 1.x 升級為 at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [at.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+         + [用戶代理和客戶端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
       + 瞭解全域 mbox {#global-mbox}
          + [了解全域 mbox 概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [自訂全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
