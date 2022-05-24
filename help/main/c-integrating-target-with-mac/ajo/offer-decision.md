@@ -2,9 +2,9 @@
 keywords: 視覺體驗合成器選項；體驗合成器選項；體驗選項；提供決策；offer decisioning;ajo;journey optimizer選項
 description: 瞭解如何添加在中建立的聘用決定 [!DNL Adobe Journey Optimizer] 到活動。
 title: 如何使用優惠決定？
-feature: Visual Experience Composer (VEC)
+feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
+source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
