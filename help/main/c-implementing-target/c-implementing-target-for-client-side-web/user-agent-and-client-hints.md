@@ -4,9 +4,10 @@ description: 瞭解如何 [!DNL Adobe Target] 使用用戶代理和客戶端提�
 title: 用戶代理和客戶端提示
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 3%
 # 用戶代理和客戶端提示
 
 [!DNL Adobe Target] 使用用戶代理來限定訪問者進行分段和個性化。
+
+>[!NOTE]
+>
+>本文中的資訊適用於 [at.js版本2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) （或更高版本）。
+
 
 每次Web瀏覽器向伺服器發出請求時，請求的標題中都包含有關瀏覽器和瀏覽器運行環境的資訊。 自Internet早期以來，此資料已聚合到一個名為user-agent的字串中。
 
@@ -158,11 +164,13 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 
 #### 塞克 — 舒阿拱門
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}受眾屬性：配置檔案指令碼用法： `user.clientHint('sec-ch-ua-arch')`
+熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}受眾屬性：通過配置檔案指令碼向用戶公開。
+配置檔案指令碼用法： `user.clientHint('sec-ch-ua-arch')`
 
 #### 秒 — CH-UA — 比特
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}受眾屬性：配置檔案指令碼用法： `user.clientHint('sec-ch-ua-bitness')`
+熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}受眾屬性：通過配置檔案指令碼向用戶公開。
+配置檔案指令碼用法： `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA — 完整版本清單
 
@@ -182,7 +190,8 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 
 #### Sec-CH-UA — 平台版本
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}受眾屬性：配置檔案指令碼用法： `user.clientHint('sec-ch-ua-platform-version')`
+熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}受眾屬性：通過配置檔案指令碼向用戶公開。
+配置檔案指令碼用法： `user.clientHint('sec-ch-ua-platform-version')`
 
 ## 如何將客戶端提示傳遞給 [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 ### 伺服器端SDK
 
 有關如何通過伺服器端SDK傳遞客戶端提示的詳細資訊，請參見 [客戶端提示](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} *Adobe TargetSDK* 文檔。
-
-
-
-
-
-
-
-
-
-
-
-

@@ -4,7 +4,7 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '33448'
 ht-degree: 99%
@@ -90,11 +90,11 @@ ht-degree: 99%
 
 此版本包含下列變更和增強功能：
 
-* 已修正在編輯活動時，導致合併的對象停用[!UICONTROL 包含]和[!UICONTROL 排除]選項的問題。 (TGT-43422)
-* 已修正導致某些客戶在編輯活動時無法看到可用對象清單的問題。 (TGT-43404)
+* 已修正在編輯活動時，導致合併的受眾停用[!UICONTROL 包含]和[!UICONTROL 排除]選項的問題。 (TGT-43422)
+* 已修正導致某些客戶在編輯活動時無法看到可用受眾清單的問題。 (TGT-43404)
 * 已修正導致某些客戶無法從「[!UICONTROL 要從 [!DNL Target] 報告資料中排除的 IP]」清單 (在[!UICONTROL 管理] > [!UICONTROL 報告]中) 刪除 IP 位址的問題。 (TGT-43384)
-* 已修正導致無法在檢查任何變數為「大於」、「大於或等於」、「小於」或「小於或等於」的對象條件中使用負數的問題。 (TGT-43367)
-* 已修正導致客戶在建立合併對象時無法看到[!UICONTROL 對象詳細資料]卡片的問題。 (TGT-43303)
+* 已修正導致無法在檢查任何變數為「大於」、「大於或等於」、「小於」或「小於或等於」的受眾條件中使用負數的問題。 (TGT-43367)
+* 已修正導致客戶在建立合併受眾時無法看到[!UICONTROL 受眾詳細資料]卡片的問題。 (TGT-43303)
 
 ### at.js 2.8.0 版 (2022 年 1 月 7 日)
 
@@ -1271,7 +1271,7 @@ target/r_release-notes-2018.xml
    <td colname="col1"> <p>設定檔指令碼 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_F382C8E7708846A08676E1534BC92878"> 
-      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>您可以檢視個人資料指令碼資訊快顯卡，這類似選件資訊卡片。您可以透過個人資料指令碼資訊卡，檢視參考特定個人資料指令碼的活動，及其他實用中繼資料。(TGT-28253) </p> <p>如需詳細資訊，請參閱下列「檢視設定檔指令碼資訊卡」一節:<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">設定檔指令碼屬性</a>。 </p> </li> 
+      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>您可以檢視個人資料指令碼資訊快顯卡，這類似優惠方案資訊卡片。您可以透過個人資料指令碼資訊卡，檢視參考特定個人資料指令碼的活動，及其他實用中繼資料。(TGT-28253) </p> <p>如需詳細資訊，請參閱下列「檢視設定檔指令碼資訊卡」一節:<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">設定檔指令碼屬性</a>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

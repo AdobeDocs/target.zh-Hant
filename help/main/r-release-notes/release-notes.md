@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 99%
+source-wordcount: '723'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 99%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## 目標平台版本（2022年5月25日）
+
+此版本包含下列增強功能和修正：
+
+* 已添加 [用戶代理客戶端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 支援。
+* 修復了在渲染時間歇性導致超時的問題 [!UICONTROL 提供決定] 在 [!UICONTROL 體驗目標] (XT)活動。 (TNT-44611)
+
+## at.js 2.9.0 版 (2022 年 5 月 27 日)
+
+* 已添加 [用戶代理客戶端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 支援。
+* 修復了一個錯誤，其中同一頁上的多個mbox請求具有不同的印象ID。
 
 ## [!DNL Target Standard/Premium] 22.5.1 (分批發行；2022 年 5 月 11 至 13 日)
 

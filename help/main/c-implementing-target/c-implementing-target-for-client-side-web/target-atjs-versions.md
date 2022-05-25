@@ -5,22 +5,27 @@ title: at.js的每個版本中包含什麼？
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4414'
 ht-degree: 88%
 
 ---
 
 # at.js 版本詳細資料
 
-有關 [!DNL Adobe Target] at.js JavaScript 資料庫每個版本中的變更的詳細資料。
+有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。
 
 >[!IMPORTANT]
 >
 >目標團隊支援兩個at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。
 >
 >中的標籤 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升級at.js的首選方法。 擴展開發人員不斷向其擴展添加新功能，並經常修復錯誤。 這些更新被打包到擴展的新版本中，並在 [!DNL Adobe Experience Platform] 編錄為升級。 有關詳細資訊，請參見 [擴展升級](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 的 *標籤概述* 的子菜單。
+
+## at.js 2.9.0 版 (2022 年 5 月 27 日)
+
+* 已添加 [用戶代理客戶端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 支援。
+* 修復了一個錯誤，其中同一頁上的多個mbox請求具有不同的印象ID。
 
 ## at.js 2.8.1 版 (2022 年 1 月 28 日)
 
@@ -453,7 +458,7 @@ at.js 版本 1.0 中包括下列增強功能和修正:
 
 * 為訪客 ID 服務提供 at.js 逾時，其與服務本身的逾時無關。
 * 更正0.9.0中影響某些頁上使用at.js和其他頁上的mbox.js（現已棄用）實現的問題。
-* 如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。at.js庫自動將跟蹤伺服器值發送到 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
+* 如果您使用 Adobe Analytics 做為活動的報表來源，若您使用的是 mbox.js 61 版 (或更新版本) 或 at.js 0.9.1 版 (或更新版本)，則不需在活動建立期間指定追蹤伺服器。at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 目標與設定]頁面上的[!UICONTROL 追蹤伺服器]欄位保留空白。
 
 ## at.js 版本 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
