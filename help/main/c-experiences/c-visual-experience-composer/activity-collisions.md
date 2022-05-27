@@ -4,10 +4,10 @@ description: 當設定多個活動將內容傳送到同一頁時，會發生衝�
 title: 如何避免活動衝突？
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 79%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 79%
 * 在設定新活動之前，查明頁面上是否已有測試在執行。
 * 如果預期的內容沒有出現，請對活動進行疑難排解。
 
-的 [!UICONTROL 衝突] 清單顯示 [!DNL Target] 使用該框且使用相同URL的方案。 對於每個潛在的衝突，此清單會顯示活動 URL、可能發生衝突的 Mbox 名稱，以及這兩個條件皆符合的任何活動。如果有多個 Mbox，則每個皆會列出。
+的 [!UICONTROL 衝突] 清單顯示 [!DNL Target] 使用該框且使用相同URL的方案。 對於每個潛在衝突，該清單將顯示「活動URL」、可能發生衝突的框名稱以及與這兩個條件均匹配的任何活動。 如果有多個 Mbox，則每個皆會列出。
 
 此清單會列出每個潛在衝突的狀態和優先順序，還有其他資訊。您可以利用狀態和優先順序，協助您判斷衝突發生的可能性。例如，如果兩個活動之間有潛在衝突，而其中一個活動非使用中，則沒有實際的衝突，除非這個非使用中的活動啟動。如果具有相同優先順序和相同對象的兩個已上線活動之間有潛在衝突，則會發生衝突。您可以變更優先順序和狀態來防止衝突。
 
