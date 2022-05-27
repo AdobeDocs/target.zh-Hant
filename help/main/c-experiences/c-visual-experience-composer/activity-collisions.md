@@ -4,10 +4,10 @@ description: 當設定多個活動將內容傳送到同一頁時，會發生衝�
 title: 如何避免活動衝突？
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 有多個活動設定成在相同頁面上提供內容時，就會發生活動衝突。如果發生活動衝突，您可能無法在頁面上看到您預期的內容。
 
-如果活動有潛在的衝突，活動概覽頁面上會顯示[!UICONTROL 「衝突」]標籤。系統會列出相同 URL 上的所有活動，而無論每個活動中鎖定的任何對象為何。開啟此標籤以顯示可能衝突的活動清單。按一下清單中的某個活動，可檢視該活動的概述頁面。如果衝突改變預期的體驗，請編輯活動。
+的 [!UICONTROL 衝突] 頁籤在「活動概述」頁上可用，並可以通知您活動是否包含潛在衝突。 系統會列出相同 URL 上的所有活動，而無論每個活動中鎖定的任何對象為何。開啟此標籤以顯示可能衝突的活動清單。按一下清單中的某個活動，可檢視該活動的概述頁面。如果衝突改變預期的體驗，請編輯活動。
 
 的 [!UICONTROL 衝突] 清單可幫助您：
 
