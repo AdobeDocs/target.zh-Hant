@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 98%
 
 了解大規模增加個人化方案的最佳實務。了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 來結合頂尖運動員和頂級品牌。
 
-* [錄制連結](https://video.tv.adobe.com/v/343042){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/343042){target=_blank}
 
 +++按一下我
 
-與Shawn Wilkinson（電子商務個性化經理）一起瞭解如何 [!DNL Target] 幫助迪克的體育用品把普通遊客變成返國運動員。
+來和 Shawn Wilkinson (電子商務個人化經理) 一起了解 [!DNL Target] 如何幫助 Dick&#39;s Sporting Goods 將普通訪客轉化為再度回訪的運動人士。
 
 了解當我們解除封裝時 Dick’s Sporting Goods 如何推動雙位數的成長：
 
