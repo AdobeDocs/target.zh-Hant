@@ -1,64 +1,64 @@
 ---
-keywords: at.js；瀏覽器用戶代理；用戶代理；客戶端提示；用戶代理
-description: 瞭解如何 [!DNL Adobe Target] 使用用戶代理和客戶端提示來限定訪問者進行分段和個性化。
-title: 用戶代理和客戶端提示
+keywords: at.js;瀏覽器使用者代理;使用者代理;用戶端提示;使用者代理
+description: 了解  [!DNL Adobe Target]  使用者如何利用使用者代理和用戶端提示來決定訪客的細分和個人化資格。
+title: 使用者代理和用戶端提示
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
 source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1332'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# 用戶代理和客戶端提示
+# 使用者代理和用戶端提示
 
-[!DNL Adobe Target] 使用用戶代理來限定訪問者進行分段和個性化。
+[!DNL Adobe Target] 使用者如何利用使用者代理來決定訪客是否細分和個人化的資格。
 
 >[!NOTE]
 >
->本文中的資訊適用於 [at.js版本2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) （或更高版本）。
+>本文資訊適用於 [at.js 2.9.0 版](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (或更新版本)。
 
 
-每次Web瀏覽器向伺服器發出請求時，請求的標題中都包含有關瀏覽器和瀏覽器運行環境的資訊。 自Internet早期以來，此資料已聚合到一個名為user-agent的字串中。
+每次網頁瀏覽器向伺器發出請求時，請求標題會包含關於瀏覽器和執行瀏覽器環境的資訊。 從網際網路早期開始，這些資料一直都彙總在名為使用者代理的單一字串中。
 
-以下文本是使用Safari瀏覽器的基於MacOS X的電腦的示例用戶代理：
+以下文字是使用 Safari 瀏覽器 Mac OS X 系統電腦的使用者代理範本：
 
 ```
 Mozilla/5.0 (Linux; Android 12; SM-S908E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36 
 ```
 
-從此用戶代理中，接收請求的伺服器可以識別有關瀏覽器和作業系統的以下資訊：
+從這個使用者代理中，接收請求的伺服器可以識別關於瀏覽器和作業系統的以下資訊：
 
 | 資訊 | 詳細資料 |
 | --- | --- |
 | 軟體名稱 | Chrome |
 | 軟體版本 | 101 |
 | 完整軟體版本 | 101.0.4951.41 |
-| 佈局引擎名稱 | AppleWebKit |
-| 佈局引擎版本 | 537.36 |
+| 版面引擎名稱 | AppleWebKit |
+| 版面引擎版本 | 537.36 |
 | 作業系統 | Android |
-| 作業系統版本 | Android 12（雪錐） |
-| 裝置 | SM-S908E(三星Galaxy S22Ultra) |
+| 作業系統版本 | Android 12 (Snow Cone) |
+| 裝置 | SM-S908E (Samsung Galaxy S22 Ultra) |
 
-多年來，用戶 — 代理字串中包含的瀏覽器和設備資訊量已增長。
+這些年來，使用者代理字串所含的瀏覽器和裝置的數量一直在增加。
 
-## 用戶代理使用案例
+## 使用者代理的使用案例
 
-長期以來，用戶代理一直被用來向市場營銷和開發人員團隊提供瀏覽器、作業系統的重要見解。 設備顯示網站內容，以及用戶如何與網站交互。 用戶代理還用於阻止垃圾郵件和過濾為各種其他目的爬網站點的機器人。
+長期以來，使用者代理一直被用來為行銷和開發團隊提供有關瀏覽器和作業系統的重要解析。 和裝置顯示器網站內容，以及使用者如何與網站互動。 使用者代理也可用來封鎖垃圾郵件並過濾機器人，這些都會為各種其他目的而編目網站。
 
-但是，近年來，一些網站所有者和營銷供應商使用用戶代理以及請求標頭中包含的其他資訊來建立數字指紋，這些指紋可以用作在不知情的情況下識別用戶的手段。 儘管用戶代理為站點所有者服務有著重要的目的，但瀏覽器開發人員決定對用戶代理的操作方式進行更改，以限制站點訪問者的潛在隱私問題。
+然而近年來，有些網站所有者和行銷供應商會使用用戶代理以及請求標題中的其他資訊來建立數位指紋，這可以在用戶不知情的情況下用作識別用戶的一種手段。 盡管使用者代理服務對網站主有很重要目的，瀏覽器開發商已經決定改變使用者代理的操作方式，以限制網站訪客潛在的隱私問題。
 
-User-Agent Client Hints是開發者開發的解決方案瀏覽器。 客戶端提示仍然允許站點收集必要的瀏覽器、作業系統和設備資訊，同時還可以增強對隱蔽跟蹤方法（如指紋）的保護。
+使用者代理用戶端提示是瀏覽器開發人員已開發的解決方案。 用戶端提示仍然允許網站收集必要的瀏覽器、作業系統和裝置的資訊，同時還提供更強防護以防止變相的追蹤方法 (如指紋)。
 
-## 客戶端提示
+## 用戶端提示
 
-用戶代理客戶端提示使網站所有者能夠訪問用戶代理中提供的大部分相同資訊，但是以更加保護隱私的方式。 當現代瀏覽器向Web伺服器發送用戶代理時，無論是否需要，每個請求都會發送整個用戶代理。 而客戶端提示則強制實施一個模型，伺服器必須在該模型中詢問瀏覽器要瞭解的有關客戶端的其他資訊。 在接收到此請求後，瀏覽器可以應用其自己的策略或用戶配置來確定返回哪些資料。 現在，不必在所有請求上預設顯示整個用戶代理，而是以顯式和可審核的方式管理訪問。
+使用者代理用戶端提示讓網站主能夠存取使用者代理中提供的大部分相同資訊，但是採用更能保護隱私的方式來存取這些資訊。 當現代瀏覽器向網頁伺服器傳送使用者代理時，無論是否需要，系統都會針對每個請求傳送完整的使用者代理。 另一方面，用戶端提示會強制實施模型，即伺服器必須要求瀏覽器提供伺服器想知道關於用戶端的更多資訊。 在收到這個請求後，瀏覽器可以套用本身原則或使用者設定來確定要傳回哪些資料。 現在，所有請求的存取管理都可以明確及可審核方式來進行，而不需依預設來公開整個使用者代理。
 
-自89版以來，Chrome中提供了用戶代理客戶端提示。 基於鉻的瀏覽器的最新版本，如MicrosoftEdge、Opera、Brave、Chrome Android、Opera Android和三星Internet，也支援客戶端提示API。
+使用者代理用戶端提示已可在 89 版以後的 Chrome 系統中使用。 Chromium 系統的最新版本瀏覽器，如 Microsoft Edge、Opera、Brave、Chrome Android、Opera Android 和 Samsung Internet 也支持用戶端提示的 API。
 
-瀏覽器向Web伺服器發出的第一個請求的標題中包含的客戶端提示包含瀏覽器品牌、瀏覽器的主要版本以及客戶端是否是移動設備的指示器。 每個資料都有其自己的標頭值，而不是按以下示例所示將其分組為單個用戶代理字串：
+瀏覽器向網頁伺服器發送的第一個請求標題內含有用戶端提示，其中資訊含有瀏覽器品牌、瀏覽器的主要版本，以及一個用戶端是否是為行動裝置的指標。 每一段資料都有自己的標題值，而不是被分組為單一的使用者代理字串，如下面的範例所示：
 
 ```
 Sec-CH-UA: "Chromium";v="101", "Google Chrome";v="101", " Not;A Brand";v="99" 
@@ -66,15 +66,15 @@ Sec-CH-UA-Mobile: ?0
 Sec-CH-UA-Platform: "macOS"
 ```
 
-以下示例是同一瀏覽器的用戶代理：
+以下範例是相同瀏覽器的使用者代理：
 
 ```
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 
 ```
 
-儘管資訊相似，但對伺服器的第一個請求包含的客戶端提示僅包含用戶代理字串中可用內容的子集。 請求中缺少的是作業系統體系結構、完整作業系統版本、佈局引擎名稱、佈局引擎版本和完整瀏覽器版本。 但是，在後續請求中，客戶端提示API確實允許Web伺服器請求有關該設備的附加、高熵的詳細資訊。 當根據瀏覽器策略或用戶設定請求這些高熵值時，瀏覽器響應可以包括該資訊。
+雖然資訊類似，但對伺服器發送的第一個請求含有用戶端提示，其中只包含使用者代理字串適用的一個子集。 請求中沒有作業系統架構、完整的作業系統版本、版面引擎名稱、版面引擎版本和完整的瀏覽器版本。 然而，在後續的請求中，用戶端提示 API 會允許網頁伺服器要求更多關於裝置的高平圴資訊量細節。 當伺服器請求這些高平圴資訊量值時，則視瀏覽器原則或使用者設定而定，瀏覽器回應可能包含該資訊。
 
-以下示例是請求高熵值時由客戶端提示API返回的JSON對象：
+以下範例是當請求高平圴資訊量值時，用戶端提示 API 會傳回的一個 JSON 物件：
 
 ```
 { 
@@ -115,30 +115,30 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 } 
 ```
 
-高熵值包括預設「客戶機提示」資訊中不可用的幾個附加資訊。 下表包含預設請求中可用資料與高熵User-Agent客戶端提示資訊的詳細資訊。
+高平圴資訊量值包括一些預設用戶端提示資訊中不適用的額外資訊。 下表含有預設請求內適用的資料細節，與高平圴資訊量使用者代理資訊細節。 
 
-| HTTP頭 | JavaScript | 用戶代理 | 客戶端提示 | 高熵客戶端提示 |
+| HTTP 標題 | JavaScript | 使用者代理 | 用戶端提示 | 高平圴資訊量的用戶端提示 |
 | --- | --- | --- | --- | --- |
-| 秒 — 甲 — 阿 | 品牌 | 是 | 是 | 無 |
-| Sec-CH-UA — 平台 | 平台 | 是 | 是 | 無 |
+| Sec-CH-UA | 品牌 | 是 | 是 | 無 |
+| Sec-CH-UA-Platform | 平台 | 是 | 是 | 無 |
 | Sec-CH-UA-Mobile | 行動 | 是 | 是 | 無 |
-| Sec-CH-UA — 平台版本 | 平台版本 | 是 | 無 | 是 |
-| 塞克 — 舒阿拱門 | 體系結構 | 是 | 無 | 是 |
-| Sec-CH-UA — 模型 | model | 是 | 無 | 是 |
-| 秒 — CH-UA — 比特 | 比特 | 是 | 無 | 是 |
-| Sec-CH-UA — 完整版本清單 | 完整版本清單 | 是 | 無 | 是 |
+| Sec-CH-UA-Platform-Version | platformVersion | 是 | 無 | 是 |
+| Sec-CH-UA-Arch | 架構 | 是 | 無 | 是 |
+| Sec-CH-UA-Model | 模式 | 是 | 無 | 是 |
+| Sec-CH-UA-Bitness | 位元 | 是 | 無 | 是 |
+| Sec-CH-UA-Full-Version-List | fullVersionList | 是 | 無 | 是 |
 
-## 遷移到客戶端提示
+## 移轉至用戶端提示
 
-當前，基於Cr的瀏覽器繼續在向Web伺服器發出的請求的報頭中發送用戶代理和客戶端提示。 但是，從2022年4月開始，一直持續到2023年2月，用戶 — 代理字串中包含的資料量將減少。 其他瀏覽器，如Safari和Firefox，將繼續利用用戶代理字串；但是，它們也將減少其中所載資訊量。
+目前，Chromium 系統的瀏覽器會繼續發送使用者代理，連同發送位於網頁伺服器請求標題內的用戶端提示。 然而，從 2022 年 4 月起一直持續至 2023 年 2 月底，使用者代理字串所含的資料量將會減少。 其他瀏覽器如 Safari 和 Firefox 將繼續運用使用者代理字串；然而，這些瀏覽器也會減少其中所含的資訊量。
 
-## [!DNL Target] 使用需要客戶提示的案例
+## 需要用戶端提示的 [!DNL Target] 使用案例
 
-目標中的以下使用情形需要客戶端提示：
+以下 Target 使用案例需要用戶端提示：
 
-### 受眾屬性
+### 對象屬性
 
-如果您使用 [!DNL Target] 並使用以下任一受眾屬性， [!DNL Target] 需要客戶端提示執行正確的分段：
+如果您使用 [!DNL Target] 對象和使用任何以下的對象屬性，[!DNL Target] 就會要求用戶端提示以執行正確的分段：
 
 * 瀏覽器
 * 作業系統
@@ -146,9 +146,9 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 
 ### 設定檔指令碼
 
-如果使用配置檔案指令碼並引用 `user.browser` 屬性（指用戶代理），您可能需要更新配置檔案指令碼以同時檢查一個或多個客戶端提示。 您可以使用該函式訪問任何客戶端提示 `user.clientHint('sec-ch-ua-xxxxx')`。 客戶端提示標頭名稱必須全部小寫。
+如果您使用設定檔指令碼和參照 `user.browser` 屬性 (指使用者代理)，您可能需要更新設定檔指令碼才能同時查看一個或多個用戶端提示。 您還可使用`user.clientHint('sec-ch-ua-xxxxx')` 功能來存取任何用戶端提示。 用戶端提示標題的名稱必須全為小寫。
 
-以下示例說明如何正確檢測配置檔案指令碼中的Windows OS:
+下例顯示如何在設定檔指令碼中正確檢測 Windows 作業系統：
 
 ```
 "return (((user.browser != null) && (user.browser.indexOf(\"Windows\") > -1)) || " + 
@@ -156,53 +156,74 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 (user.clientHint('sec-ch-ua-platform') === 'Windows')));" 
 ```
 
-以下各節顯示「客戶端提示」標題及其相應的配置檔案指令碼使用語義。
+以下部分將顯示用戶端提示標題及其對應的設定檔指令碼使用語義。
 
-#### 秒 — 甲 — 阿
+#### Sec-CH-UA
 
-熵：低文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA){target=_blank}受眾屬性：瀏覽器配置檔案指令碼用法： `user.clientHint('sec-ch-ua')`
+平均資訊量：低
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA){target=_blank}
+對象屬性：瀏覽器
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua')`
 
-#### 塞克 — 舒阿拱門
+#### Sec-CH-UA-Arch
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}受眾屬性：通過配置檔案指令碼向用戶公開。
-配置檔案指令碼用法： `user.clientHint('sec-ch-ua-arch')`
+平均資訊量：高
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}
+對象屬性：透過設定檔指令碼向使用者公開。
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-arch')`
 
-#### 秒 — CH-UA — 比特
+#### Sec-CH-UA-Bitness
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}受眾屬性：通過配置檔案指令碼向用戶公開。
-配置檔案指令碼用法： `user.clientHint('sec-ch-ua-bitness')`
+平均資訊量：高
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}
+對象屬性：透過設定檔指令碼向使用者公開。
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-bitness')`
 
-#### Sec-CH-UA — 完整版本清單
+#### Sec-CH-UA-Full-Version-List
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List){target=_blank}受眾屬性：瀏覽器配置檔案指令碼用法： `user.clientHint('sec-ch-ua-full-version-list')`
+平均資訊量：高
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List){target=_blank}
+對象屬性：瀏覽器
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-full-version-list')`
 
 #### Sec-CH-UA-Mobile
 
-熵：低文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile){target=_blank}受眾屬性：移動配置檔案指令碼用法： `user.clientHint('sec-ch-ua-mobile')`
+平均資訊量：低
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile){target=_blank}
+對象屬性：手機
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-mobile')`
 
-#### Sec-CH-UA — 模型
+#### Sec-CH-UA-Model
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model){target=_blank}受眾屬性：移動配置檔案指令碼用法： `user.clientHint('sec-ch-ua-model')`
+平均資訊量：高
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model){target=_blank}
+對象屬性：手機
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-model')`
 
-#### Sec-CH-UA — 平台
+#### Sec-CH-UA-Platform
 
-熵：低文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform){target=_blank}受眾屬性：作業系統配置檔案指令碼用法： `user.clientHint('sec-ch-ua-platform')`
+平均資訊量：低
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform){target=_blank}
+對象屬性：作業系統
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-platform')`
 
-#### Sec-CH-UA — 平台版本
+#### Sec-CH-UA-Platform-Version
 
-熵：高文檔： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}受眾屬性：通過配置檔案指令碼向用戶公開。
-配置檔案指令碼用法： `user.clientHint('sec-ch-ua-platform-version')`
+平均資訊量：高
+文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}
+對象屬性：透過設定檔指令碼向使用者公開。
+設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-platform-version')`
 
-## 如何將客戶端提示傳遞給 [!DNL Adobe Target]
+## 如何將用戶端提示傳遞至 [!DNL Adobe Target]
 
-以下各節包含有關如何傳遞客戶端提示的詳細資訊，具體取決於 [!DNL Target] 執行。
+以下部分包含如何傳遞用戶端提示的更多資訊，具體取決於您的 [!DNL Target] 實施方法。
 
-### at.js版本2.9.0（或更高版本）
+### at.js 2.9.0 版 (或更新)
 
-從at.js 2.9.0開始，將自動從瀏覽器收集用戶代理客戶端提示併發送到 [!DNL Target] 何時 `getOffer/getOffers()` 。 預設情況下， at.js僅收集「低熵」客戶端提示。 如果根據前面各節中分類為「高熵」的資料執行受眾分段或使用配置檔案指令碼，則需要配置at.js以通過以下方式從瀏覽器收集「高熵」客戶端提示 `targetGlobalSettings`。
+從 at.js 2.9.0 版開始，使用者代理用戶端提示會從瀏覽器自動收集，並且在系統呼叫 `getOffer/getOffers()` 時傳送至 [!DNL Target]。 依預設，at.js 只會收集「低平均資訊量」的用戶端提示。 如果根據前面章節中被歸類為「高平均資訊量」的資訊來執行對象細分或使用設定檔指令碼，您需要設定 at.js 以便透過 `targetGlobalSettings` 從瀏覽器收集「高平均資訊量」的用戶端提示。
 
 `window.targetGlobalSettings = { allowHighEntropyClientHints: true };`
 
-### 伺服器端SDK
+### 伺服器端 SDK
 
-有關如何通過伺服器端SDK傳遞客戶端提示的詳細資訊，請參見 [客戶端提示](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} *Adobe TargetSDK* 文檔。
+有關如何透過伺服器端 SDK 傳遞用戶端提示的更多資訊，請參閱 *Adobe Target SDK* 文件中的「[用戶端提示](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank}。
