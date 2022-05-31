@@ -1,24 +1,24 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp；個性化；aep觀眾；adobe體驗平台觀眾
-description: 瞭解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP)整合，提供更豐富的客戶資料和更有影響的個性化。
-title: 如何整合 [!DNL Target] 和 [!DNL Real-time Customer Data Platform]?
+keywords: Real-time Customer Data Platform;RTCDP;個人化;aep 對象;adobe experience platform 對象
+description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 整合服務，以提供更豐富的客戶資料和更有影響力的個人化功能。
+title: 我如何整合  [!DNL Target] 和 [!DNL Real-time Customer Data Platform]？
 feature: Integrations
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
-workflow-type: tm+mt
+exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
+source-git-commit: e0a6162edac53e11296c4ba77be7d2caf5f27b39
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
+# 與 Real-time Customer Data Platform 整合
 
-# 與Real-time Customer Data Platform整合
+這是以 [!DNL Adobe Experience Platform][!DNL Real-time Customer Data Platform] (RTCDP) 為基礎所打造，可讓公司整合來自多個企業來源的已知和匿名資料，以建立客戶設定檔，其可用於跨所有管道和裝置即時提供個人化客戶體驗。
 
-基於 [!DNL Adobe Experience Platform]。 [!DNL Real-time Customer Data Platform] (RTCDP)幫助公司將來自多個企業來源的已知和匿名資料匯集在一起，以建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。
+若要了解更多關於 RTCDP，請參閱「[Real-time Customer Data Platform 概覽](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) {target=_blank}。
 
-有關RTCDP的詳細資訊，請參見 [Real-time Customer Data Platform概述](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank}。
+[!DNL Adobe Target] 使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。
 
-在 [!DNL Adobe Target] 建立 [!DNL Adobe Experience Platform] 提供更豐富的客戶資料，從而實現更有影響的個性化。
+連接 [!DNL Target] 至 [!DNL Real-time Customer Data Platform]，客戶可以通過解鎖之前可能無法存取 [!DNL Target] 的新區段來強化他們的網頁個人化，進而在客戶瀏覽網頁的第一頁即可實現即時的毫秒個人化。 使用在 [!DNL Adobe Experience Platform] 中建立的對象可讓您擴展更強個人化的可用資料點。
 
-通過連接 [!DNL Target] 到 [!DNL Real-time Customer Data Platform]，客戶可以通過解鎖以前可能無法訪問的新段來豐富其Web個性化 [!DNL Target] 在客戶訪問的第一頁上實現即時毫秒個性化。 使用在 [!DNL Adobe Experience Platform] 允許您擴展可用的資料點，以便更加個性化。
-
-如需詳細資訊，請參閱[在](/help/main/c-target/c-audiences/audiences.md#aep)建立對象&#x200B;*中使用來自 Adobe Experience Platform* 的對象。
+如需詳細資訊，請參閱在建立對象中[使用來自 Adobe Experience Platform 的對象](/help/main/c-target/c-audiences/audiences.md#aep) **。
