@@ -4,7 +4,7 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
+source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 87%
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 即將發佈的公告和資訊 [!DNL Adobe Target] 事件，包括 [!DNL Target] 咖啡休息會， [!DNL Target] 網路研討會系列， [!DNL Target] 技能生成器會話、開發人員聊天等。 如果可用，將包括指向過去錄制的連結。
 
-## Adobe Target社區咖啡廳（2022年6月29日）
+## Adobe Target社區咖啡休息日（2022年6月29日）
 
 +++按一下我
 
