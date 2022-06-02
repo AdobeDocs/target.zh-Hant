@@ -7,28 +7,28 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 87%
+ht-degree: 99%
 
 ---
 
 # Target 公告和活動
 
-即將發佈的公告和資訊 [!DNL Adobe Target] 事件，包括 [!DNL Target] 咖啡休息會， [!DNL Target] 網路研討會系列， [!DNL Target] 技能生成器會話、開發人員聊天等。 如果可用，將包括指向過去錄制的連結。
+閱讀有關近期[!DNL Adobe Target]事件的公告和資訊，包括[!DNL Target]咖啡會、[!DNL Target]網路研討會、[!DNL Target]技能培養課程、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
 ## Adobe Target社區咖啡休息日（2022年6月29日）
 
 +++按一下我
 
-* **2022年6月29日星期三**
-* **上午8點到9點。(PDT, UTC-7)**
+* **2022 年 6 月 29 日，星期三**
+* **上午 8:00 至 9:00 (PDT，UTC -7)**
 * **[更多資訊和註冊資訊](https://adobe.ly/3wKhcQS){target=_blank}**
 
-我們將與Adobe解決方案咨詢團隊的Jordan Ison、Kati McKinney、Justine Lee和Kaela Cusack一起，直接與您就他們的專業領域進行交談。 他們還將回答與6/2/22 Personalization with Precision期間所涵蓋主題相關的任何問題：Adobe Analytics和目標網路研討會（以下更多資訊）:
+Adobe Solutions Consulting 團隊的 Jordan Ison、Kati McKinney、Justine Lee 和 Kaela Cusack 將加入我們，與您直接聊天關於其專業領域的知識。他們也會回答與 2022 年 6 月 2 日「精確的個人化：Adobe Analytics 和 Target 網路研討會」主題相關的任何問題 (如需詳細資訊，請參閱以下說明)：
 
 * 行銷人員、開發人員和產品團隊如何開啟 AI「黑匣子」，推動未來的測試和個人化策略
-* 如何克服優化Web、移動應用、電子郵件、 IoT和每個數字觸點以實現更高轉換和參與方面的挑戰
-* Adobe Analytics和Adobe Target的個性化、目標和測試工作流
-* 瞭解使用案例以解鎖哪些屬性預測訪問者行為，以及哪些屬性對關鍵可視化和分段分析最重要
+* 如何克服最佳化 Web、行動應用程式、電子郵件地址、IoT 和每個數位轉換點的挑戰，以獲得更高轉換率和參與度
+* 個人化、目標定位和測試的 Adobe Analytics 和 Adobe Target 工作流程
+* 了解使用案例，以找出哪些屬性可以預測訪客的行為，哪些屬性對於關鍵的視覺效果化分段分析是最重要的
 
 +++
 
@@ -89,7 +89,7 @@ ht-degree: 87%
 
 ### Adobe：個人化的業界內幕 - 零售業 (2022 年 6 月 21 日)
 
-2022 年為企業經營和運轉提供了充滿機動性且快速變化的環境。瞭解行業專家在員工和旅行者的生活開始恢復正常時，如何看到新的消費趨勢正在形成。 
+2022 年為企業經營和運轉提供了充滿機動性且快速變化的環境。了解當工作者和旅行者開始回歸正常生活時，業界專家如何看待新形成的消費趨勢。 
 
 +++按一下我
 
@@ -102,7 +102,7 @@ ht-degree: 87%
 
 ## 以前的網絡研討會和技能培養會議影片
 
-訪問過去事件的錄制：
+存取最近活動的影片：
 
 ### Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日)
 
@@ -180,7 +180,7 @@ ht-degree: 87%
 
 ### 網路研討會：HSBC 如何運用 Adobe [!DNL Target] 和 AI 快速最佳化及實現大規模個人化
 
-* **[錄制連結](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
+* **[錄製連結](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 +++按一下我
 
@@ -201,5 +201,5 @@ McKinsey Digital 的報告指出，「我們在短短八個星期左右內，於
 
 隨著 mbox.js 於 2021 年 3 月 31 日淘汰，Adobe Target 產品經理 David Son 最近主持了一場開發人員的聊天，討論將 mbox.js 遷移至 at.js 的好處。
 
-* **[錄制連結](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
+* **[錄製連結](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
 
