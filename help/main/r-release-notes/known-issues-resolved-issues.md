@@ -4,9 +4,9 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
 workflow-type: tm+mt
-source-wordcount: '4507'
+source-wordcount: '4506'
 ht-degree: 98%
 
 ---
@@ -90,15 +90,6 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 下列是 at.js 的已知問題:
 
-* 使用 2.2.0 之前的 at.js 版本，如果頁面元素上沒有 Adobe Analytics 代碼 (例如按鈕)，點按追蹤不會報告 Analytics for Target (A4T) 中的轉換。at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
-* 如果您使用 at.js 2.1.1 或更舊版本建立沒有任何修改的體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 的數據之中。此外，ttMeta 外掛程式可能會無法正常運作。
-
-   若要解決此問題，可在體驗內容中使用空白字元。(TNT-33366)
-
-   >[!NOTE]
-   >
-   >at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。
-
 * 將頁面載入視覺體驗撰寫器 (VEC) 時，Target 需要判斷全域 mbox 設定已啟用或已停用，以及 entityID 或 categoryID 是否出現在使用者嘗試在 VEC 中套用推薦的位置。條件清單會根據此資訊篩選。預設清單具有篩選演算法，但[相容核取方塊](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md)可讓您檢視完整的演算法清單。
 
    使用 at.js 時，「相容性」核取方塊會隱藏，使您無法看見不相容的演算法。
@@ -137,6 +128,18 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 ## 已解決問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 如上已知問題已解決，則會將其移到以下部分。 如有必要，將添加附加附註。
+
+### at.js
+
+* 如果您使用 at.js 2.1.1 或更舊版本建立沒有任何修改的體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 的數據之中。此外，ttMeta 外掛程式可能會無法正常運作。
+
+   若要解決此問題，可在體驗內容中使用空白字元。
+
+   at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。(TNT-33366)
+
+* 使用2.2.0之前的at.js版本，按一下跟蹤不會報告 [!UICONTROL 目標分析] (A4T)如果 [!DNL Adobe Analytics] 頁面元素（如按鈕）上不存在代碼。
+
+   at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### 地理目標定位
 
