@@ -4,10 +4,10 @@ description: 瞭解如何使用Adobe [!DNL Target] QA URL可執行簡單的端�
 title: 如何進行QA活動？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 37%
+source-wordcount: '1800'
+ht-degree: 38%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 37%
    | `adobe_mc_sdid` |  |  | 通過 [!DNL Supplemental Data Id] (SDID)和 [!DNL Experience Cloud Org Id] 從預設頁面到新頁面。 通過這些ID允許 [!UICONTROL 目標分析] (A4T)將「縫合」 [!DNL Target] 在預設頁面上的請求 [!DNL Analytics] 請求。 |
 
 * 的 [!UICONTROL 目標QA模式] UI僅顯示多頁活動中體驗的第一個URL。 假設您正在建立行程test，並從URL1移動到URL2。 不過，若要單獨前往 URL2，請複製根據 URL1 提供的所有 URL 參數，並在放置 &quot;?&quot; 後將其套用至 URL2，  就像您在 URL1 中看到的一樣。
+* 如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結。封存已儲存的活動，這些活動不再主動用於防止此問題持續發生。
 
 ## Target JavaScript 程式庫 [!UICONTROL QA 模式]相容性 {#compatibility}
 

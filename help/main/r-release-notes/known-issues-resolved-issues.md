@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4549'
-ht-degree: 100%
+source-wordcount: '4507'
+ht-degree: 98%
 
 ---
 
@@ -51,18 +51,6 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。在修正此問題之前，請勿封存[!UICONTROL 自動鎖定目標]活動。請把它們留在[!UICONTROL 非作用中]狀態。(TGT-40885)
 
-### 頁面傳送 {#page-delivery}
-
-如果您新增範本規則，例如[頁面傳送](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這些額外的空格是修飾性的，不影響受眾定義的建立與選件傳送。(TGT-35920)
-
-### QA 預覽連結
-
-如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。重試預覽連結。封存已儲存的活動，這些活動不再主動用於防止此問題持續發生。(TNT-37294)
-
-### Recommendations 活動的 QA 模式
-
-如果活動中使用的標準是項目型或類別型，則已知問題會防止預覽。(TNT-37455)
-
 ### 重新導向選件 {#redirect}
 
 * at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
@@ -84,14 +72,6 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 ### Recommendations
 
 下列是 [!UICONTROL Recommendations] 活動的已知問題：
-
-* 複製具有有效促銷活動的 [!UICONTROL Recommendation] 活動時，重複活動中的任何變更目前也會影響原始活動，反之亦然。(TGT-39155)
-
-   臨時因應措施：
-
-   * 停用活動的促銷活動
-   * 重複活動
-   * 在每個活動中再次啟用促銷活動
 
 * 當 [!DNL Target] 傳回含 getOffer() 的 JSON 選件時，它會傳回 JSON 類型。然而，如果您傳回 JSON Recommendations 設計，則它會傳回 HTML 類型。
 * 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
@@ -148,10 +128,6 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 客戶無法透過 Adobe I/O 上的 v3 版本 A/B 活動 API，針對自動分配活動執行 CRUD 作業。
 
-### 地理目標定位
-
-2020年5月10日，Adobe 更新了 GEO 提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有受眾中的值沒有逗號。並非所有 Adobe 傳送伺服器都受到此項變更的影響。因此，在 2020 年 5 月 10 日至 7 月 22 日之間使用這些值的受眾可能不符合所有正確訪客的資格。
-
 ### 報告 - 可下載的 .csv 報告與 [!DNL Target] UI 中顯示的報告之間的資料不一致。 {#csv}
 
 如果活動使用多個量度，則為下載所產生的 .csv 報告會不一致。可下載的報告僅是根據報告設定而產生，並會針對使用的任何其他量度考慮相同的值。
@@ -160,7 +136,27 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ## 已解決問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-上述已知問題解決後，它們會被移至下列章節。如有需要，會新增其他附註。
+如上已知問題已解決，則會將其移到以下部分。 如有必要，將添加附加附註。
+
+### 地理目標定位
+
+2020年5月10日，Adobe 更新了 GEO 提供者檔案，造成一些不一致。 例如，新增了一些包含逗號的值；不過，現有受眾中的值沒有逗號。並非所有 Adobe 傳送伺服器都受到此項變更的影響。因此，在 2020 年 5 月 10 日至 7 月 22 日之間使用這些值的受眾可能不符合所有正確訪客的資格。
+
+### 複製 [!UICONTROL Recommendations] 活動
+
+複製 [!UICONTROL Recommendations] 具有活動升級的活動，複製活動中的任何更改當前也會影響原始活動，反之也會影響。 (TGT-39155)
+
+此問題已在 [!DNL Target Standard/Premium] 21.2.1版。
+
+### Recommendations 活動的 QA 模式
+
+如果活動中使用的標準是項目型或類別型，則已知問題會防止預覽。(TNT-37455)
+
+該問題於2022年1月解決。 (TNT-37455)
+
+### 頁面傳送 {#page-delivery}
+
+如果您新增範本規則，例如[頁面傳送](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)的 URL 內含有 (/checkout, /cart)，規則的開頭會加上額外的空格。這些額外的空格是修飾性的，不影響受眾定義的建立與選件傳送。(TGT-35920)
 
 ### 顯示「處理」標籤的影像選件
 
