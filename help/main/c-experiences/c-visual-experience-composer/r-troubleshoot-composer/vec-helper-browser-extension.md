@@ -4,10 +4,10 @@ description: 瞭解為什麼某些網站在Visual Experience Composer(VEC)中無
 title: 如何使用Visual Experience Composer(VEC)幫助器擴展？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 54%
+source-wordcount: '1011'
+ht-degree: 64%
 
 ---
 
@@ -25,6 +25,16 @@ ht-degree: 54%
 * 網站架設在 iFrame 中。
 * 網站尚未實作 at.js 資料庫。
 * 外部無法存取客戶的 QA 和/或預備網站 (網站為內部網站)。
+* 當嘗試用 VEC 開啟使用 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) 的網站時，目前有一些限制。
+
+SW 是一種網路技術，可用於攔截網頁安裝所在網域的請求。SW 在該次頁面瀏覽中存活下來，並在隨後的頁面瀏覽中自我啟用。SW 決定允許哪些請求通過，以及攔截哪些請求，並改從快取提供服務。
+
+SW 可以控制快取；可以快取網頁本身、靜態資源，如 JS、CSS、IMG、AJAX 請求、其內容及其回應標頭，包括我們的 [Target VEC Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)嘗試移除的回應標頭，如 X-Frame-Options: SAMEORIGIN、CSP (Content-Security-Policy) 或 Set-Cookie。
+
+遺憾的是，攔截網路請求的 Chrome 擴充功能 API 不接收 SW 所攔截和處理的請求。因此，如果網頁請求是由 SW 從快取中提供服務，則擴充功能無法修正標頭和 Cookie，因為同時快取了 X-Frame-Options 或 CSP 標頭的緣故，網頁不會載入到 VEC 中。
+
+可能的因應措施是，從 Chrome「開發人員工具」>「Application」索引標籤中停用 Service Worker，然後啟用「Service Workers」區段下的「Bypass for network」核取方塊。
+
 * 您正在將GoogleChrome 80+與增強的SameSite Cookie實施策略配合使用。 有關詳細資訊，請參見 [最近宣佈的GoogleChrome SameSite Cookie強制策略對VEC和EEC有何影響](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 Chrome的VEC Helper瀏覽器擴展解決了客戶現在依賴的站點載入問題 [!DNL Target] [增強的體驗作曲家](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) 或第三方擴展，如Requestly。
@@ -60,7 +70,7 @@ Chrome的VEC Helper瀏覽器擴展解決了客戶現在依賴的站點載入問�
 
    ![Cookie在VEC幫助程式擴展中切換](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   有關 `SameSite=None` 屬性瀏覽器修復，請參閱「最近宣佈的GoogleChrome SameSite Cookie實施策略如何影響VEC和EEC？」 [疑難排解 Visual Experience Composer 和 Enhanced Experience Composer 相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
+   有關 `SameSite=None` 屬性瀏覽器修復，請參閱「最近宣佈的GoogleChrome SameSite Cookie實施策略如何影響VEC和EEC？」 [排解視覺體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
 
 ## 附註
 
