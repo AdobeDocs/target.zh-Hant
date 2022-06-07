@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 56%
+source-wordcount: '244'
+ht-degree: 62%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 56%
 
 本文包含搶鮮版版本資訊。發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期：2022 年 6 月 6 日**
+**上次更新日期：2022 年 6 月 7 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target Standard/Premium] 22.6.1（錯開釋放）2022年6月7日–9日)
+## [!DNL Target Standard/Premium] 客戶工程修復（交錯發佈）:2022年6月7日–9日)
 
 我們將根據以下排程分批發行此版本：
 
@@ -29,9 +29,8 @@ ht-degree: 56%
 
 此版本包含下列增強功能和修正：
 
-* 具有 [!UICONTROL 編輯器] 角色現在可以編輯即時活動中的觀眾。 (TGT-43582)
-* 感嘆號(! )在受眾名稱的開頭不是有效字元。 如果用戶嘗試將感嘆號作為第一個字元（例如！London）保存受眾，則現在會顯示一條消息。 (TGT-43643)
-* 修復了一個問題，該問題阻止某些客戶在編輯訪問對象時編輯所有屬性 [!DNL Target] UI。 的 [!UICONTROL 編輯受眾] 頁面顯示了一個用於編輯的屬性，儘管受眾具有多個屬性。 (TGT-43552)
+* 具有 [!UICONTROL 編輯器] 角色無法再編輯即時活動中的觀眾。 (TGT-43582)
+* 已為新 [!UICONTROL 觀眾] 頁，以防止舊資料庫（過去儲存了訪問群體）和從後端直接檢索資訊的新體系結構之間出現不一致的狀態。 (TGT-43552)
 * 已修復一個問題，該問題阻止某些客戶保存由於目標UI建立「空」容器而導致的組合訪問群。 (TGT-43588)
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

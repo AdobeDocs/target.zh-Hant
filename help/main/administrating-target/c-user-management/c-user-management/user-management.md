@@ -5,10 +5,10 @@ title: 該如何新增使用者及管理權限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 99%
+source-wordcount: '911'
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 99%
    | 角色 | 說明 |
    |--- |--- |
    | 核准者 | 可以建立、編輯和啟動或停止活動。 |
-   | 編輯者 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。可以編輯即時活動中的觀眾。 |
+   | 編輯者 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
    | 發佈者 | 類似於觀察者角色 (可以查看活動，但不能建立或編輯活動)。 不過，發佈者角色具有啟用活動的額外權限。 |
 

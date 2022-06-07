@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 客戶工程修復（交錯發佈）:2022年6月7日–9日)
+
+我們將根據以下排程分批發行此版本：
+
+* **6月7日**:亞太區
+* **6月8日**:美洲地區
+* **6月9日**:歐洲、中東和非洲(EMEA)地區
+
+此版本包含下列增強功能和修正：
+
+* 具有 [!UICONTROL 編輯器] 角色無法再編輯即時活動中的觀眾。 (TGT-43582)
+* 已為新 [!UICONTROL 觀眾] 頁，以防止舊資料庫（過去儲存了訪問群體）和從後端直接檢索資訊的新體系結構之間出現不一致的狀態。 (TGT-43552)
+* 已修復一個問題，該問題阻止某些客戶保存由於目標UI建立「空」容器而導致的組合訪問群。 (TGT-43588)
 
 ## Target 平台發行版本 (2022 年 5 月 25 日)
 
