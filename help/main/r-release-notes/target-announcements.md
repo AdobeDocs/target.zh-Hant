@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1404'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 閱讀有關近期[!DNL Adobe Target]事件的公告和資訊，包括[!DNL Target]咖啡會、[!DNL Target]網路研討會、[!DNL Target]技能培養課程、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-## Adobe Target社區咖啡休息日（2022年6月29日）
+## Adobe Target 社群咖啡會 (2022 年 6 月 29 日)
 
 +++按一下我
 
@@ -161,7 +161,7 @@ Adobe Solutions Consulting 團隊的 Jordan Ison、Kati McKinney、Justine Lee �
 在這場會議中，可了解 [!DNL Adobe Target] 如何縮短在跨越多個來源合併資料以實現即時 Personalization 時產生的差距，我們將討論：
 
 * 為什麼個人化效能和速度對於推動更快速的業務成長很重要
-* 團隊如何建置&#x200B;&#x200B;第一方資料策略並解決其資料片段化的挑戰
+* 團隊如何建置第一方資料策略並解決其資料片段化的挑戰
 * 以毫秒為單位提供個人化體驗的端對端工作流程
 * 品牌的獨特使用案例，方法是透過相關訊息、內容和優惠方案來即時吸引客戶和潛在客戶。
 
