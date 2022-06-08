@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 98%
 | --- | --- | --- |
 | 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 添加的發行說明 [!DNL Target Standard/Premium] 客戶工程修復版本。 |
 | 6 月 6 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 添加的預發行資訊 [!DNL Target Standard/Premium] 客戶工程修復版本。 |
-| 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加有關即將發佈的資訊 [!DNL Adobe Target] 社區咖啡休息（2022年6月29日） |
-| 5 月 25 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已添加有關 [!DNL Target] 平台版本（2022年5月25日）和at.js 2.9.0版（2022年5月27日）。 |
+| 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的[!DNL Adobe Target]社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
+| 5 月 25 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
 |  | [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.9.0 版的資訊。 |
 |  | [使用者代理和用戶端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 新主題。 |
-|  | [Target 公告和事件](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增用來錄製以下網絡研討會的連結：Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日) |
+|  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增用來錄製以下網絡研討會的連結：Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日) |
 | 5 月 23 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 at.js 2.9.0 版 (2022 年 5 月 25 日) 搶鮮版發行說明。 |
 | 5 月 11 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增有關下列網路研討會的資訊與註冊資訊：<ul><li>Dick&#39;s Sporting Goods：個人化及改變零售業格局</li><li>Adobe：個人化的業界內幕 - 金融服務業和保險業</li><li>City National Bank：如何在數位最佳化中成為排名 1% 的銀行</li><li>Adobe：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>City National Bank：Zero to Hero - 展開並擴展個人化方案</li><li>Adobe：發掘高影響力的最佳化機會</li><li>Adobe：個人化的業界內幕 - 零售業</li></ul>新增下列網路研討會的影片：<ul><li>使用 [!DNL Adobe Target] 的即時個人化</li></ul> |
 |  | [內容安全性原則 (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新增常見問題區段。 |
