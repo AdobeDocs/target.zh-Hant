@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 添加的發行說明 [!DNL Target Standard/Premium] 客戶工程修復版本。 |
-| 6 月 6 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 添加的預發行資訊 [!DNL Target Standard/Premium] 客戶工程修復版本。 |
+| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 客戶工程修正版本的發行說明。 |
+| 6 月 6 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 客戶工程修正版本的搶鮮版資訊。 |
 | 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的[!DNL Adobe Target]社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
 | 5 月 25 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
 |  | [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.9.0 版的資訊。 |
@@ -70,7 +70,7 @@ ht-degree: 99%
 | 2 月 25 日 | [自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已更新下列章節：<ul><li>[自動分配和自動鎖定目標](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [解讀自動分配報告](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 已新增常見問題：<ul><li>「沒有贏家」、「贏家」和「星星」徽章適用於使用 [!UICONTROL Analytics 做為報告來源] (A4T) 的[!UICONTROL 自動分配]活動嗎？</li></ul> |
 |  | [建立僅限於此活動的受眾](/help/main/c-target/creating-activity-only-audience.md) | 「考量事項」章節中新增了討論排除規則的資訊。 |
-| 2 月 10 日 | [視覺體驗撰寫器協助程式擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 已添加有關在Visual Experience Composer(VEC)中使用服務工作程式載入網站的資訊。 |
+| 2 月 10 日 | [視覺體驗撰寫器協助程式擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 已新增在 Visual Experience Composer (VEC) 中載入使用 Service Worker 的網站的相關資訊。 |
 | 2 月 7 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (2022 年 2 月 23 日)</li></ul> |
 | 2 月 3 日 | [建立受眾](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 新增章節和影片：「影片：使用 Real-Time CDP 和 [!DNL Adobe Target] 進行下一次點擊個人化。」 |
 | 2 月 2 日 | [疑難排解內容傳送](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 新增下列章節：「在 [!DNL Target] 個人資料屬性值中逸出雙引號無法如預期運作。」 |
