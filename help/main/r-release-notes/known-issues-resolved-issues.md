@@ -5,9 +5,9 @@ title: 何處可以獲得有關 「已知問題」和「已解決問題」的資
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,17 +127,17 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ## 已解決問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-如上已知問題已解決，則會將其移到以下部分。 如有必要，將添加附加附註。
+上述已知問題解決後，它們會被移至下列章節。如有需要，會新增其他附註。
 
-### at.js
+### at.js 
 
-* 如果您使用 at.js 2.1.1 或更舊版本建立沒有任何修改的體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 的數據之中。此外，ttMeta 外掛程式可能會無法正常運作。
+* 如果您使用 at.js 2.1.1 或更舊版本在不進行任何修改的情況下建立體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，ttMeta 外掛程式可能會無法正常運作。
 
    若要解決此問題，可在體驗內容中使用空白字元。
 
    at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。(TNT-33366)
 
-* 使用2.2.0之前的at.js版本，按一下跟蹤不會報告 [!UICONTROL 目標分析] (A4T)如果 [!DNL Adobe Analytics] 頁面元素（如按鈕）上不存在代碼。
+* 使用 2.2.0 之前的 at.js 版本，如果頁面元素上沒有 [!DNL Adobe Analytics] 代碼 (例如按鈕)，點按追蹤不會報告 [!UICONTROL Analytics for Target] (A4T) 中的轉換。
 
    at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
@@ -147,15 +147,15 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 複製 [!UICONTROL Recommendations] 活動
 
-複製 [!UICONTROL Recommendations] 具有活動升級的活動，複製活動中的任何更改當前也會影響原始活動，反之也會影響。 (TGT-39155)
+複製具有有效促銷活動的 [!UICONTROL Recommendations] 活動時，重複活動中的任何變更目前也會影響原始活動，反之亦然。(TGT-39155)
 
-此問題已在 [!DNL Target Standard/Premium] 21.2.1版。
+[!DNL Target Standard/Premium] 21.2.1 版本已修正此問題。
 
 ### Recommendations 活動的 QA 模式
 
 如果活動中使用的標準是項目型或類別型，則已知問題會防止預覽。(TNT-37455)
 
-該問題於2022年1月解決。 (TNT-37455)
+此問題已在 2022 年 1 月中修正。(TNT-37455)
 
 ### 頁面傳送 {#page-delivery}
 
