@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4167'
 ht-degree: 99%
 
 ---
@@ -15,12 +15,18 @@ ht-degree: 99%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
+## Adobe Target標準/高級版22.6.1(交錯發行：2022年6月7日–9日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 14 月 6 日 | [計劃和實作 Recommendations](/help/main/c-recommendations/plan-implement.md) | 以下各節中更新的代碼示例：<ul><li>購物車添加/購物車視圖/結帳頁</li><li>排除訪問者購物車中已有的物料</li></ul> |
+| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 添加的發行說明 [!DNL Target Standard/Premium] 22.6.1版。 |
+
 ## Adobe Target Standard/Premium 22.5.1 (分批發行；2022 年 5 月 11 日至 13 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 添加的發行說明 [!DNL Target Standard/Premium] 22.6.1版。 |
-| 6 月 6 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 添加的預發行資訊 [!DNL Target Standard/Premium] 22.6.1版。 |
+| 6 月 7 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 添加的預發行資訊 [!DNL Target Standard/Premium] 22.6.1版。 |
 | 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的[!DNL Adobe Target]社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
 | 5 月 25 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
 |  | [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.9.0 版的資訊。 |
