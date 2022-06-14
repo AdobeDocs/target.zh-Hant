@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '4138'
-ht-degree: 100%
+source-wordcount: '4132'
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 客戶工程修正版本的發行說明。 |
-| 6 月 6 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 客戶工程修正版本的搶鮮版資訊。 |
+| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 添加的發行說明 [!DNL Target Standard/Premium] 22.6.1版。 |
+| 6 月 6 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 添加的預發行資訊 [!DNL Target Standard/Premium] 22.6.1版。 |
 | 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的[!DNL Adobe Target]社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
 | 5 月 25 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
 |  | [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.9.0 版的資訊。 |

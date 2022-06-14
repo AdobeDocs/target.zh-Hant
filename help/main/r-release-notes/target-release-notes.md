@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target Standard/Premium] 客戶工程修正 (分批發行：2022 年 6 月 7 日至 9 日)
+## [!DNL Target Standard/Premium] 22.6.1（交錯發佈）2022年6月7日–9日)
 
 我們將根據以下排程分批發行此版本：
 

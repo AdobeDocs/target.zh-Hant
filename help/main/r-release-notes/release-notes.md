@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 客戶工程修正 (分批發行：2022 年 6 月 7 日至 9 日)
+## [!DNL Target Standard/Premium] 22.6.1（交錯發佈）2022年6月7日–9日)
 
 我們將根據以下排程分批發行此版本：
 
