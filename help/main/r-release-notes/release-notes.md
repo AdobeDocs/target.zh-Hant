@@ -5,9 +5,9 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '503'
 ht-degree: 99%
 
 ---
@@ -43,29 +43,6 @@ ht-degree: 99%
 
 * 新增的「[使用者代理用戶端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)」支援。
 * 修正了同一個頁面上多個 mbox 請求有不同印象 ID 的問題。
-
-## [!DNL Target Standard/Premium] 22.5.1 (分批發行；2022 年 5 月 11 至 13 日)
-
-我們將根據以下排程分批發行此版本：
-
-* **5 月 11 日**：亞太 (APAC) 區域
-* **5 月 12 日**：美洲區域
-* **5 月 13 日**：歐洲、中東和非洲 (EMEA) 區域
-
-此版本包含下列增強功能和修正：
-
-* 已修正造成 JavaScript 錯誤以及部分客戶無法存取特定 [!UICONTROL Automated Personalization] (AP) 活動的活動詳細資訊的錯誤。(TGT-43526)
-* 已修正導致部分客戶無法新增 (或編輯) 特定優惠方案至 AP 活動的問題。(TGT-43503)
-* 已修正 [!DNL Target] UI 中顯示下列錯誤訊息的問題：「您的全域 mbox 可能不同步。請嘗試重新儲存。」這個問題是 UI 問題，並不會影響客戶的實作。(TGT-43475)
-* 已修正導致一位客戶無法編輯活動的經驗層級微調和受眾的問題 (若該微調和受眾是在部署新的[!UICONTROL 受眾] UI 之前建立的)。(TGT-43433)
-* 已修正允許客戶在編輯活動的通報受眾時可選取重複 [!DNL Adobe Audience Manager] (AAM) 受眾的問題。(TGT-43430)
-* 已修正導致客戶除了在不同的工作區外無法建立重複受眾的問題。 (TGT-43423)
-* 已修正導致客戶對於在[!UICONTROL 表單式體驗撰寫器]中建立的活動中擁有臨時優惠方案的位置無法進行刪除的問題。(TGT-43315)
-* 已修正導致客戶在按下影像優惠方案然後重新整理 UI 之後無法存取代碼優惠方案的問題。(TGT-43566)
-* 已修正導致對個人資料指令碼的編輯在編輯、啟動然後停用該指令碼後恢復為原始、未編輯的指令碼的問題。該個人資料指令碼現在保持在其已編輯狀態。(TGT-43249)
-* 已修正在嘗試將受眾移動到另一個工作區時導致以下錯誤的問題：「我們無法完成您的請求。如果問題仍然存在，請聯絡 Adobe 客戶服務」。(TGT-43212)
-* 已修正在複製單次頁面應用程式 (SPA) 頁面的自訂代碼修正時導致錯誤的錯誤。(TGT-43137)
-* 已修正導致在複製體驗接著編輯促銷後原始促銷受到影響的問題。(TGT-41775)
 
 ## 額外的發行說明和版本詳細資料
 
