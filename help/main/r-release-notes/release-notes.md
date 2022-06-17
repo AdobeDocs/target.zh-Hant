@@ -6,19 +6,19 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
-workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # Target 發行說明 (最新)
 
-這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
+這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 22.6.1（交錯發佈）2022年6月7日–9日)
+## [!DNL Target Standard/Premium] 22.6.1 (分批發行；2022 年 6 月 7 日至 9 日)
 
 我們將根據以下排程分批發行此版本：
 
@@ -28,9 +28,9 @@ ht-degree: 99%
 
 此版本包含下列增強功能和修正：
 
-* 具有「[!UICONTROL 編輯者]」角色的使用者無法在即時活動中編輯受眾。(TGT-43582)
-* 新的「[!UICONTROL 受眾]」頁面提供了增強功能，防止在過去儲存受眾的舊資料庫與直接從後端擷取資訊的新架構之間的不一致狀態。(TGT-43552)
-* 已修正導致某些客戶無法儲存由 Target UI 建立「空」容器所引起之合併受眾的問題。(TGT-43588)
+* 具有「[!UICONTROL 編輯者]」角色的使用者無法在即時活動中編輯受眾。 (TGT-43582)
+* 新的「[!UICONTROL 受眾]」頁面提供了增強功能，防止在過去儲存受眾的舊資料庫與直接從後端擷取資訊的新架構之間的不一致狀態。 (TGT-43552)
+* 已修正導致某些客戶無法儲存由 Target UI 建立「空」容器所引起之合併受眾的問題。 (TGT-43588)
 
 ## Target 平台發行版本 (2022 年 5 月 25 日)
 
