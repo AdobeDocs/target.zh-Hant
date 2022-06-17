@@ -20,13 +20,13 @@ ht-degree: 99%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 14 月 6 日 | [計劃和實作 Recommendations](/help/main/c-recommendations/plan-implement.md) | 以下各節中更新的代碼示例：<ul><li>購物車添加/購物車視圖/結帳頁</li><li>排除訪問者購物車中已有的物料</li></ul> |
-| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 添加的發行說明 [!DNL Target Standard/Premium] 22.6.1版。 |
+| 6 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.1 版的發行說明。 |
 
 ## Adobe Target Standard/Premium 22.5.1 (分批發行；2022 年 5 月 11 日至 13 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 7 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 添加的預發行資訊 [!DNL Target Standard/Premium] 22.6.1版。 |
+| 6 月 7 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.1 版的搶鮮版資訊。  |
 | 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的[!DNL Adobe Target]社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
 | 5 月 25 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
 |  | [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增關於 at.js 2.9.0 版的資訊。 |
@@ -108,9 +108,9 @@ ht-degree: 99%
 |  | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | 已新增關於 `telemetry` 設定的詳細資訊。 |
 |  | [隱私權](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 新增以下一節：「功能使用情況資料的收集」。 |
 |  | [ [!DNL Target] 機器學習演算法使用的資料](/help/main/c-activities/t-automated-personalization/ap-data.md) | 更新整個主題，包括：<ul><li>新增小節：「透過 [!DNL Target] 機器學習演算法封鎖功能」</li><li>在數個表格中新增「系統名稱」欄和資訊。</li></ul> |
-| 12 月 17 日 | [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增以下在檢視「重要屬性」報表時關於日期範圍的說明：<ul><li>[!DNL Target] UI 目前可讓您選擇 45 天和 90 天日期範圍。不過 [!DNL Target] 後端不會處理這兩個範圍。由於使用模式，並為了改善效能，這些日期範圍已被取代。UI 將會更新以反映目前允許的範圍：15、30 和 60 天。</li></ul> |
+| 12 月 17 日 | [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增以下在檢視「重要屬性」報表時關於日期範圍的說明：<ul><li>[!DNL Target] UI 目前可讓您選擇 45 天和 90 天日期範圍。 不過 [!DNL Target] 後端不會處理這兩個範圍。由於使用模型，並為了改善效能，這些日期範圍已被取代。 UI 將會更新以反映目前允許的範圍：15、30 和 60 天。</li></ul> |
 | 12 月 7 日 | [Target 推薦演算法背後的科學](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主題。 |
-| 12 月 2 日 | [使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了以 Cart 為基礎的算法，以包括透過 mbox 參數 cartIds (以逗號分隔值) 提供的推薦鍵。僅考慮前 10 個值。 |
+| 12 月 2 日 | [使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了以 Cart 為基礎的算法，以包括透過 mbox 參數 cartIds (以逗號分隔值) 提供的推薦鍵。 僅考慮前 10 個值。 |
 | 11 月 18 日 | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 列中新增註解，指出以下頁面中的[!UICONTROL 視覺體驗撰寫器] (VEC) 不再支援 mbox：使用 at.js 2.*x*。 |
 | 11 月 16 日 | [客戶屬性](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md) | 已新增關於檔案上傳限制的資訊，其中包含 *Experience Cloud 中央介面元件指南*&#x200B;中的[關於客戶屬性的資料檔案和資料來源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant)連結。 |
 |  | [排解視覺體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新「Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？」一節，加入最新版 Helper 擴充功能的相關資訊。 |
@@ -130,10 +130,10 @@ ht-degree: 99%
 | 10 月 14 日 | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 新增下列常見問題：「我可以在[!UICONTROL 自動分配]活動中，將二項式[!DNL Analytics]指標搭配作為最佳化目標的區段一起使用嗎？ |
 | 10 月 13 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.10.2 | 已新增關於 [!DNL Target Standard/Premium] 21.10.2 (2021 年 10 月 13 日) 版的資訊。 |
 | 10 月 11 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增有關 Target Standard/Premium 20.10.2 版 (2020 年 10 月 13 日) 的資訊。 |
-| 10 月 6 日 | [在  [!DNL Target]](/help/main/c-target/c-audiences/create-audience.md) 中建立受眾 | 更新文字和影像以反映 [!DNL Target] [!UICONTROL Audiences] UI。整個 [!UICONTROL Audiences] 標題中也發生了類似的變化。 |
+| 10 月 6 日 | [在  [!DNL Target]](/help/main/c-target/c-audiences/create-audience.md) 中建立受眾 | 更新文字和影像以反映 [!DNL Target] [!UICONTROL Audiences] UI。 整個 [!UICONTROL Audiences] 標題中也發生了類似的變化。 |
 |  | [建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) | 已更新下列章節：<ul><li>基本資訊</li><li>資料來源</li></ul> |
 |  | [上傳自訂標準](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) | 更新說明以反映新的工作流程。 |
-|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.10.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.10.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (2021 年 9 月 14 日)
 
@@ -151,7 +151,7 @@ ht-degree: 99%
 |  | [mbox3rdPartyId 的即時個人資料同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 使用新資訊更新了「考量事項」章節。 |
 |  | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 更新「secureOnly」章節。 |
 |  | [at.js 常見問題](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 更新了以下常見問題：「為什麼 at.js 不一律使用 HttpOnly 和 Secure Cookie 標幟？」 |
-| 9 月 14 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.9.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+| 9 月 14 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.9.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (2021 年 8 月 10 日)
 
@@ -166,7 +166,7 @@ ht-degree: 99%
 | 8 月 16 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md)<br>和<br>[at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 已新增 at.js 2.6.1 的發行說明。 |
 |  | [裝置上決策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新增「最佳做法」區段 |
 | 8 月 11 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target] node.js SDK 2.2.0 版本的發行說明。 |
-| 8 月 10 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.8.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+| 8 月 10 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.8.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021 年 6 月 30 日)
 
@@ -199,8 +199,8 @@ ht-degree: 99%
 |  | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 更新「Target API 呼叫」區段中的文字。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新 `consumerId` 索引鍵的說明。 |
 |  | [自訂全域 mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了步驟 1 以指示在您選擇新的 mbox 後會自動儲存變更。 |
-|  | Experience Cloud Device Co-op | 已移除主題。此功能已過時。 |
-| 6 月 30 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.6.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+|  | Experience Cloud Device Co-op | 已移除主題。 此功能已過時。 |
+| 6 月 30 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.6.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.5.1 (2021 年 6 月 8 日)
 
@@ -211,7 +211,7 @@ ht-degree: 99%
 |  | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 更新「Target API 呼叫」區段中的文字。 |
 |  | [adobe.target.getOffirs()- at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新 `consumerId` 索引鍵的說明。 |
 |  | [自訂全域 mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了步驟 1 以指示在您選擇新的 mbox 後會自動儲存變更。 |
-|  | Experience Cloud設備合作 | 已移除主題。此功能已過時。 |
+|  | Experience Cloud設備合作 | 已移除主題。 此功能已過時。 |
 | 6 月 29 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 已新增下列章節：<ul><li>Target JavaScript 程式庫 [!UICONTROL QA 模式]相容性</li><li>預覽 URL</li></ul> |
 | 6 月 24 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新 [!DNL Target Standard/Premium] 21.6.1 版 (2021 年 6 月 30 日) 的搶鮮版發行說明。 |
 | 6 月 16 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Adobe Target] Python SDK 1.0.0 版的資訊。 |
@@ -219,7 +219,7 @@ ht-degree: 99%
 | 6 月 8 日 | [使用 at.js 實作 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 新增了說明 at.js 1.8.0 或更高版本不再搭配 2.5.0 之前的訪客 API 版本使用以傳遞 [!DNL Adobe Audience Manager] (AAM) 參數。 |
 |  | [環境](/help/main/administrating-target/environments.md) | 新増註解以說明如果您指定[!UICONTROL 作用中和非作用中活動]，則來自此環境的主機也會顯示非作用中活動。 |
 |  | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：<ul><li>[!DNL Adobe Experience Platform] 區段名稱不會顯示在[!UICONTROL 重要屬性]報告中。</li></ul> |
-| 6 月 7 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.5.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+| 6 月 7 日 | [發行說明](/help/main/r-release-notes/release-notes.md)：21.5.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (2021 年 4 月 19 日)
 
@@ -233,16 +233,16 @@ ht-degree: 99%
 |  | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | 已新增搭配 A4T 和 Platform Web SDK 使用重新導向優惠方案的相關資訊。 |
 |  | [回應 Token](/help/main/administrating-target/response-tokens.md) | 新增有關搭配回應 Token 使用 [!DNL Adobe Experience Platform Web SDK] 的相關資訊。<br>**注意**：此功能將在 Platform Web SDK 的未來版本中發佈 (日期待定)。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增有關 Adobe Experience Platform Web SDK 2.5.0 (2021 年 6 月 1 日) 版本的相關資訊。 |
-| 5 月 27 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 新增 [!DNL Target] API 呼叫的區段。限制為每分鐘 50 次呼叫。 |
+| 5 月 27 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 新增 [!DNL Target] API 呼叫的區段。 限制為每分鐘 50 次呼叫。 |
 | 5 月 20 日 | [裝置上決策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增 Adobe 技術部落格上以下部落格文章的連結：<ul><li>Adobe 技術部落格 - 第 2 部分：在 Edge 平台上執行 [!DNL Adobe Target] NodeJS SDK 以進行測試和個人化 (AWS Lambda@Edge)</li></ul> |
 |  | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 新增下列已知問題：「封存[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。」 |
 | 5 月 17 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 at.js 2.5.0 版的資訊。 |
 |  | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 更新主題以表示預覽連結可用於 at.js 2.5.0 (及更高版本) 的 [!UICONTROL Automated Personalization] (AP) 活動。 |
-|  | [受支援的瀏覽器](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 表示 at.js 2.5.0 版本移除了對 Microsoft Internet Explorer 10、Internet Explorer 11 和所有舊版本的支援。at.js 2.5.0 及更高版本繼續支援 Microsoft Edge。 |
+|  | [受支援的瀏覽器](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 表示 at.js 2.5.0 版本移除了對 Microsoft Internet Explorer 10、Internet Explorer 11 和所有舊版本的支援。 at.js 2.5.0 及更高版本繼續支援 Microsoft Edge。 |
 |  | [排解[!UICONTROL 增強體驗撰寫器的相關問題]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 已更新允許清單的 IP 位址清單。 |
 | 5 月 12 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增以下項目的搶鮮版發行說明：<ul><li>Adobe Experience Platform Web SDK (2021 年 5 月 17 日</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 5 月 10 日 | [[!DNL Recommendations] 常見問題](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問題：「我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？」 |
-|  | [使用 [!DNL Dynamic Tag Manager] 實作 [!DNL Target] (DTM)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 表示不再支援 [!DNL Adobe Dynamic Tag Manager]。[!DNL Adobe] 建議改為使用 [[!DNL Adobe Experience Platform Launch]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 實作。 |
+|  | [使用 [!DNL Dynamic Tag Manager] 實作 [!DNL Target] (DTM)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 表示不再支援 [!DNL Adobe Dynamic Tag Manager]。 [!DNL Adobe] 建議改為使用 [[!DNL Adobe Experience Platform Launch]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 實作。 |
 | 5 月 6 日 | [Recommendations 常見問題](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 已新增下列常見問題：<ul><li>變更我的 [!UICONTROL Recommendations] 活動、優惠、促銷活動或條件設定需要多久的時間才會反映在我的網站上？</li><li>使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*該*&#x200B;使用者收到的建議中？</li><li>使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*其他*&#x200B;使用者收到的建議中？</li></ul> |
 |  | [裝置上決策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 已新增 Adobe 技術部落格上以下部落格文章的連結：<ul><li>第 1 部分：在 Edge 平台上執行 Adobe Target NodeJS SDK 以進行測試和個人化 (Akamai EdgeWorkers)</li></ul> |
 | 5 月 5 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增於 2021 年 5 月 12 日 (星期三) 上午 8 點 (PDT，GMT-7) 舉行的 Adobe Target 社群問答咖啡會的相關資訊。 |
@@ -259,7 +259,7 @@ ht-degree: 99%
 |  | [活動問答](/help/main/c-activities/c-activity-qa/activity-qa.md) | 已新增對 [!UICONTROL Automated Personalization] 活動的預覽連結支援，以搭配 [at.js 2.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 使用。 |
 |  | [使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 已新增以下新運算子的相關資訊：<ul><li>包含在清單中</li><li> 不包含在清單中</li><li>清單中包含某個項目</li><li>清單中不包含某個項目</li><li>清單中包含所有項目</li><li>清單中不包含所有項目</li></ul> |
 |  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud 服務與管理*&#x200B;指南) | 已新增有關「工作階段 ID」的其他資訊。 |
-|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.4.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.4.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1 (2021 年 3 月 9 日)
 
@@ -281,7 +281,7 @@ ht-degree: 99%
 | 3 月 9 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>更新允許的優惠方案大小限制。</li><li>修正 categoryId 參數的字元限制。</li></ul> |
 |  | [允許列出 Target 邊緣節點](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 更新 [!DNL Target] 邊緣 IP 位址。 |
 |  | [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md) | 新增文字以指出 entity.value 必須是十進位格式 (例如 15.99，而非 15,99)。 |
-|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.2.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.2.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.1.1 (2021 年 1 月 19 日)
 
@@ -292,7 +292,7 @@ ht-degree: 99%
 | 2 月 11 日 | [Target 的運作方式](/help/main/c-intro/how-target-works.md) | 更新「機器人」區段。 |
 | 2 月 10 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2021 年 2 月 24 日星期三 Adobe Target 社群問答咖啡會的資訊。 |
 | 2 月 8 日 | [Target 行動裝置預覽](/help/main/c-target-mobile-app/target-mobile-preview.md) | 新增您應新增至 Adobe Mobile SDK 第 4 版之 AndroidManifest.xml 檔案的程式碼片段。 |
-|  | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 澄清下列已知問題：<ul><li>透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更將不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。</li></ul> |
+|  | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 澄清下列已知問題：<ul><li>透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。 同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更將不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。</li></ul> |
 | 2 月 1 日 | [Automated Personalization Summary 報告](/help/main/c-reports/reports-ap.md) | 新增新區段：「常見問題。」 |
 | 1 月 27 日 | [建立重新導向優惠方案](/help/main/c-experiences/c-manage-content/offer-redirect.md) | 更新主題。 |
 |  | [建立遠端優惠方案](/help/main/c-experiences/c-manage-content/about-remote-offers.md) | 更新主題。 |
@@ -303,5 +303,5 @@ ht-degree: 99%
 | 1 月 20 日 | [Adobe Experience PlatformWeb SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新主題。 |
 | 1 月 19 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增 Target 21.1.1 版的相關資訊 (2021 年 1 月 19 日)。 |
 |  | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 更新 `productPurchasedID` 參數的文字。 |
-|  | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 新增在複製具有有效促銷活動的 [!UICONTROL Recommendation] 時的已知問題。重複活動中的任何變更也會影響原始活動，反之亦然。包括一個臨時因應措施。 |
-|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.1.1 | 此版本包含增強功能和修正。您可以閱讀相關內容，並從發行說明連結至文件。此版本也包括許多對整個說明中的文件更新。 |
+|  | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 新增在複製具有有效促銷活動的 [!UICONTROL Recommendation] 時的已知問題。 重複活動中的任何變更也會影響原始活動，反之亦然。 包括一個臨時因應措施。 |
+|  | [發行說明](/help/main/r-release-notes/release-notes.md)：21.1.1 | 此版本包含增強功能和修正。 您可以閱讀相關內容，並從發行說明連結至文件。 此版本也包括許多對整個說明中的文件更新。 |
