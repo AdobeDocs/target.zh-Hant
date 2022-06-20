@@ -5,10 +5,10 @@ title: 如何將資料 [!DNL Target] 是否使用批量配置檔案更新API?
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 79%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 79%
 * 「客戶屬性」使用 FTP 上傳，而 Target「大量設定檔更新 API」使用 HTTP POST API。
 * 客戶屬性資料可以與 Analytics 共用。大量設定檔更新只能 Target 中使用。
 * 「客戶屬性」支援為 Target 尚未看到的使用者建立設定檔。「大量設定檔更新 API」只會更新現有 Target 設定檔。
-* 「客戶屬性」需要使用 Experience Cloud ID (ECID)。「大量設定檔更新 API」需要 TNT ID 或 `mbox3rdPartyId`。
+* 客戶屬性要求使用Experience CloudID(ECID)和源ID，如CRM ID或會員ID。
+* 「大量設定檔更新 API」需要 TNT ID 或 `mbox3rdPartyId`。
 * 您無法在 `mbox3rdPartyID` 中傳送下列字元: 加號 (+) 和正斜線 (/)。
 
 ## 格式
