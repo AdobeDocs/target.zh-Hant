@@ -5,9 +5,9 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '489'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 100%
 
 此版本包含下列增強功能和修正：
 
-* 具有「[!UICONTROL 編輯者]」角色的使用者無法在即時活動中編輯受眾。 (TGT-43582)
 * 新的「[!UICONTROL 受眾]」頁面提供了增強功能，防止在過去儲存受眾的舊資料庫與直接從後端擷取資訊的新架構之間的不一致狀態。 (TGT-43552)
 * 已修正導致某些客戶無法儲存由 Target UI 建立「空」容器所引起之合併受眾的問題。 (TGT-43588)
 
