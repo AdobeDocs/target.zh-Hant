@@ -5,10 +5,10 @@ title: at.js如何管理閃變？
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## 管理at.js 2.x中的閃爍以用於triggerView()
 
-使用 `triggerView()` 顯示 SPA 中的目標內容時，會自動提供處理忽隱忽現問題的功能。這表示不需要手動新增預先隱藏邏輯。at.js 2.x 會在套用目標內容之前，預先隱藏需要顯示檢視的位置。
+DOM預隱藏僅適用於初始頁載入。 對SPA於，在 `triggerView()` 。 在將內容呈現到DOM和at.js更新SPA之間可能會出現短暫閃爍 [!DNL Target] 。  為了最小化閃爍，如果您使用 `triggerView` 要修改頁面載入內容，應在呈現頁面後立即調用「triggerView」。
 
 ## 使用getOffer()和applyOffer()管理閃爍
 
