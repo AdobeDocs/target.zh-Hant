@@ -1,25 +1,25 @@
 ---
-keywords: 目標使用者界面;使用者界面;ui
-description: 熟悉使用者界面，找到更多深入資訊的連結以協助充分運用 Target。
+keywords: 目標使用者界面;使用者界面;ui；通知；事件
+description: 熟悉使用者界面，找到更多深入資訊的連結以協助充分運用 [!DNL Target].
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '815'
-ht-degree: 100%
+source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+workflow-type: tm+mt
+source-wordcount: '1291'
+ht-degree: 47%
 
 ---
 
 # 了解 [!DNL Target] UI
 
-使用者介面以邏輯且方便使用的格式排列，以協助您充分運用 [!DNL Adobe Target]。以下簡短概述將協助您熟悉 [!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
+使用者介面以邏輯且方便使用的格式排列，以協助您充分運用 [!DNL Adobe Target]。以下簡要概述可幫助您熟悉 [!DNL Target] 並提供連結，以獲取更深入的資訊和逐步說明。
 
-[!DNL Target] UI 頂部的標題包含一些頁籤和選項，可幫助您導航解決方案的不同功能，以及交換機組織和 [!DNL Adobe Experience Cloud] 解決方案、獲取幫助和通知、管理 [!DNL Adobe] 設定檔，以及登出 [!DNL Target]。
+位於 [!DNL Target] UI包含頁籤和選項，可幫助您導航解決方案的不同功能。 您還可以切換組織和 [!DNL Adobe Experience Cloud] 解決方案，獲取幫助和通知，管理 [!DNL Adobe] 配置檔案，並註銷 [!DNL Target]。
 
 ![Target 標題](/help/main/c-intro/assets/target-header.png)
 
-左側的標籤可讓您存取 [!DNL Target] 的各種功能，稍後我們將討論。首先，我們先討論右側的選項，然後再跳至標籤。
+左側的頁籤允許您訪問 [!DNL Target]，稍後將討論。 首先，我們先討論右側的選項，然後再跳至標籤。
 
 ## 組織
 
@@ -37,17 +37,96 @@ ht-degree: 100%
 
 ## 說明
 
-「說明」圖示可讓您存取資訊、影片、部落格等，以協助您更有效率地使用 [!DNL Target]。您可以建立支援票證、尋找支援電話號碼、透過 Twitter 提出問題，或提供有關 [!DNL Target] 的意見回饋，讓我們瞭解我們的工作。
+「說明」圖示可讓您存取資訊、影片、部落格等，以協助您更有效率地使用 [!DNL Target]。您可以建立支援票證、查找支援電話號碼、通過Twitter提出問題或提供有關 [!DNL Target] 讓我們知道 [!DNL Target] 團隊在做。
 
 ![說明](/help/main/c-intro/assets/help.png)
 
 ## 通知和公告
 
-[!UICONTROL 通知]和[!UICONTROL 公告]面板可協助您隨時掌握所有 [!DNL Adobe Target] 相關資訊。主動通知可協助您瞭解 [!DNL Adobe] 產品和 [!DNL Adobe Experience Cloud] 解決方案的最新狀態。主動公告會提醒您發生中斷事件和維護事件。
+[!UICONTROL 通知]和[!UICONTROL 公告]面板可協助您隨時掌握所有 [!DNL Adobe Target] 相關資訊。主動通知有助於您及時瞭解 [!DNL Adobe Experience Cloud] 解決方案和 [!DNL Target] 事件。 主動公告會提醒您發生中斷事件和維護事件。
 
-![通知](/help/main/c-intro/assets/notifications.png)
+>[!NOTE]
+>
+>有關增強的 [!UICONTROL 通知和公告] 此部分中當前適用的面板 [!DNL Target] 客戶，並將在未來幾個月向所有客戶推出。
 
-如需深入資訊，請參閱 [Adobe 狀態](https://status.adobe.com/)頁面。如需詳細資訊，請參閱[系統狀態更新和主動通知](/help/main/c-intro/assets/notifications.png)。
+按一下標題中的鈴表徵圖以查看通知：
+
+![通知和通知的鈴表徵圖](assets/bell-icon.png)
+
+該面板包含的頁籤 [!UICONTROL 通知] 和 [!UICONTROL 公告]。
+
+![通知](assets/notifications.png)
+
+以下各節包含有關每個頁籤的資訊以及如何配置通知和公告。
+
+### 通知
+
+[!DNL Target] 事件通知包括以下內容：
+
+* **活動**:當活動被批准或停用時（手動或達到其開始或結束日期時），所有活動類型的通知。 通知包括活動的名稱，其中包含指向活動概述頁的連結。
+
+   通知是可配置的，預設情況下，通知由活動工作區中的產品管理員、發佈者和批准者接收 [!DNL Target Premium] 帳戶。 對於 [!DNL Target Standard] 所有發佈者和批准者都會收到通知。
+
+   通知的格式與以下示例類似：
+
+   * `Activity {target.activity.name} has been activated`
+
+   * `Activity {target.activity.name} has been deactivated`
+
+* **配置檔案指令碼**:手動或由激活或停用配置檔案指令碼時的通知 [!DNL Target]。
+
+   通知是可配置的，預設情況下，由產品管理員和批准者為兩者接收 [!DNL Target Premium] 和 [!DNL Target Standard] 帳戶。
+
+   通知的格式與以下示例類似：
+
+   * `Profile Script {target.profileScript.name} has been activated`
+   * `Profile Script {target.profileScript.name} has been deactivated`
+
+* **Recommendations飼料**:通知 [!DNL Recommendations] 源已激活或停用，可手動或通過 [!DNL Target]。 在 [!DNL Recommendations] 饋送失敗。
+
+   通知是可配置的，預設情況下，由產品管理員和批准者接收 [!DNL Target Premium] 帳戶。 [!DNL Recommendations] 是 [!DNL Target Premium] 功能，在中不可用 [!DNL Target Standard]。
+
+   通知的格式與以下示例類似：
+
+   * `Feed  {target.feed.name} has been activated`
+   * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed to import from source`
+
+您可以將所有通知標籤為已讀或查看面板底部的所有通知。
+
+### 公告
+
+主動公告會提醒您發生中斷事件和維護事件。
+
+如需深入資訊，請參閱 [Adobe 狀態](https://status.adobe.com/)頁面。
+
+### 配置通知和公告
+
+要編輯通知首選項，請執行以下操作：
+
+1. 按一下齒輪表徵圖，然後按一下 **[!UICONTROL 通知]**。
+1. 下 **[!UICONTROL 目標]**&#x200B;按一下 **[!UICONTROL 自定義]**。
+1. 選擇或取消選擇要接收通知的類別：
+
+   * 請求：當有人向您發送批准對象或授予對對象訪問權限的請求時。 不能取消訂閱此類別。
+   * 分配給我：當有人給你分配對象時。
+   * 提及：當有人在評論中提到你時。
+   * 新版本：當您有權訪問的產品或服務有新版本時。
+   * 與我共用：當有人和你分享物品時。
+   * 內容更新：當有人對您建立或跟蹤的對象進行編輯、刪除或注釋時。
+   * 其他:
+
+1. 選擇要被視為高優先順序的類別。
+1. 選擇要在瀏覽器中顯示警報的通知。
+
+   這些警報會在瀏覽器的右上角出現幾秒鐘。 您可以選擇查看高優先順序類別、所有類別或隱藏所有通知彈出窗口。 您還可以配置，如果希望通知在您關閉之前保持可見狀態，或者您可以配置通知持續時間。
+
+1. 選擇要接收通知電子郵件的頻率：
+
+   * 不發送電子郵件
+   * 即時通知
+   * 每日摘要
+   * 每週摘要
 
 ## 設定檔
 
@@ -59,7 +138,7 @@ ht-degree: 100%
 
 ## 活動
 
-**[!UICONTROL 活動]**&#x200B;清單是您開啟 [!DNL Target] 時的預設檢視。您可以從此頁面建立新活動，並管理現有活動。
+**[!UICONTROL 活動]**&#x200B;清單是您開啟 [!DNL Target] 時的預設檢視。您可以從此頁建立活動並管理現有活動。
 
 ![活動清單](/help/main/c-intro/assets/activities-list.png)
 
@@ -67,17 +146,17 @@ ht-degree: 100%
 
 ## 對象
 
-按一下&#x200B;**[!UICONTROL 「對象」]**&#x200B;標籤以顯示[!UICONTROL 「對象」]清單，您可在其中建立新對象並管理現有對象。
+按一下 **[!UICONTROL 觀眾]** 頁籤 [!UICONTROL 觀眾] 列出您可以在其中建立受眾和管理現有受眾。
 
 ![對象清單](/help/main/c-intro/assets/audience-list.png)
 
-對象是將看到鎖定活動的一組類似的活動加入者。對象是具有相同特性的一組人員，例如新訪客、回訪訪客或來自中西部的回訪訪客。[!UICONTROL 對象]功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標對象，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。
+受眾是一組類似活動的進入者，他們看到了目標活動。 對象是具有相同特性的一組人員，例如新訪客、回訪訪客或來自中西部的回訪訪客。[!UICONTROL 對象]功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標對象，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。
 
 請參閱[建立對象](/help/main/c-target/c-audiences/create-audience.md)以取得 [!DNL Target] 中對象類型的深入資訊，並進一步瞭解[!UICONTROL 對象]清單的使用者介面。
 
 ## 選件
 
-按一下&#x200B;**[!UICONTROL 「選件」]**&#x200B;標籤以顯示[!UICONTROL 「選件」]清單，您可在其中建立新的體驗和選件，並管理現有的體驗和選件。
+按一下 **[!UICONTROL 優惠]** 頁籤 [!UICONTROL 優惠] 列出您可以建立體驗和優惠以及管理現有體驗和優惠。
 
 ![選件清單](/help/main/c-intro/assets/offers.png)
 
@@ -95,7 +174,7 @@ ht-degree: 100%
 
 ![Recommendations](/help/main/c-intro/assets/recommendations.png)
 
-[!UICONTROL Recommendations] 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 可協助引導客戶至他們可能不知道的相關項目。
+[!UICONTROL Recommendations] 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations幫助引導客戶訪問他們可能不知道的相關項目。
 
 有關 [!DNL Target] 中 [!UICONTROL Recommendations] 的深入資訊，請參閱 [Recommendations](/help/main/c-recommendations/recommendations.md)，並進一步瞭解 [!UICONTROL Recommendations]用戶介面。
 
