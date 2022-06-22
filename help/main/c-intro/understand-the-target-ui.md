@@ -4,9 +4,9 @@ description: 熟悉使用者界面，找到更多深入資訊的連結以協助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1313'
 ht-degree: 47%
 
 ---
@@ -115,6 +115,11 @@ ht-degree: 47%
    * 與我共用：當有人和你分享物品時。
    * 內容更新：當有人對您建立或跟蹤的對象進行編輯、刪除或注釋時。
    * 其他:
+
+   >[!NOTE]
+   >
+   >「新版本」和「內容更新」是唯一適用於 [!DNL Target]。 其他類別適用於其他Adobe解決方案。
+
 
 1. 選擇要被視為高優先順序的類別。
 1. 選擇要在瀏覽器中顯示警報的通知。
