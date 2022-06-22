@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 71%
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target Standard/Premium] 22.6.2（2022年6月24日）
+## [!DNL Target Standard/Premium]22.6.2 (2022 年 6 月 24 日)
 
 此版本包含下列增強功能和修正：
 
 * 具有「[!UICONTROL 編輯者]」角色的使用者無法在即時活動中編輯受眾。 (TGT-43582)
-* 共用自的客戶屬性 [!DNL Adobe Experience Platform] 至 [!DNL Target] 的 [!DNL Platform] UI在中可見 [!DNL Target] UI。 (TGT-43150)
-* 如果客戶試圖保存帶有感嘆號(!)的受眾，將顯示一則警告消息 )作為受眾名稱的第一個字元（例如！London）。 (TGT-43643)
-* 修復了導致受眾定義詳細資訊卡以指示結束的活動仍處於活動狀態的問題。 (TGT-43527)
+* 從 [!DNL Adobe Experience Platform] 供 [!DNL Platform] UI 中 [!DNL Target] 分享的客戶屬性可在 [!DNL Target] UI 中看見。(TGT-43150)
+* 如果客戶試圖以對象名字的第一個字元 (如 !London) 的嘆號 ( ! ) 來儲存對象，就會出現警告訊號。 (TGT-43643)
+* 修正導致一些客戶的對象定義細節卡顯示已結束活動仍然在進行中的問題。 (TGT-43527)
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
