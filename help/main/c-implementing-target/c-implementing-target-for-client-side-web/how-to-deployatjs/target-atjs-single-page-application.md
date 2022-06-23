@@ -5,9 +5,9 @@ title: 能否實施 [!DNL Target] 是SPA否？
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2788'
 ht-degree: 70%
 
 ---
@@ -187,7 +187,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
 ## at.js 2.x 系統圖表
 
-下列圖表可協助您瞭解 at.js 2.x 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.x 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
+下列圖表可協助您瞭解 at.js 2.x 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.x 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
 
 ![使用 at.js 2.x 的 Target 流程](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -196,9 +196,9 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 | 1 | 如果使用者已通過驗證，呼叫會傳回 [!DNL Experience Cloud ID]，而另一個呼叫會同步客戶 ID。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>也能使用將頁面上實作的程式碼片段預先隱藏的選項，以非同步方式載入 at.js。 |
 | 3 | 提出頁面載入要求，包含所有已設定的參數 (MCID、SDID 和客戶 ID)。 |
-| 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從對象資料庫中請求合格對象 (例如，從 Adobe Analytics、對象管理 等共用的對象)。<br>客戶屬性會透過批次程序傳送至設定檔存放區。 |
-| 5 | [!DNL Target] 會根據 URL 要求參數和設定檔資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
-| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>針對在瀏覽器中快取的使用者 SPA 動作顯示檢視的目標內容，以便在透過 `triggerView()` 觸發檢視時立刻套用，不需額外的伺服器呼叫。 |
+| 4 | 個人資料指令碼執行，然後注入個人資料存放區。存放區會從受眾資料庫中請求合格受眾 (例如，從 Adobe Analytics、受眾管理等共用的受眾)。<br>客戶屬性會透過批次程序傳送至個人資料存放區。 |
+| 5 | [!DNL Target] 會根據 URL 要求參數和個人資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
+| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的個人資料值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>針對在瀏覽器中快取的使用者 SPA 動作顯示檢視的目標內容，以便在透過 `triggerView()` 觸發檢視時立刻套用，不需額外的伺服器呼叫。 |
 | 7 | Analytics 資料傳送至「資料收集」伺服器。 |
 | 8 | 目標資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 Analytics for Target (A4T) 報表來檢視 <br>Analytics 資料。 |
 
@@ -211,7 +211,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 | 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
 | 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
-| 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
+| 4 | 通知要求會傳送至 [!DNL Target] 個人資料存放區，以計算活動中的訪客數和增加量度。 |
 | 5 | Analytics 資料傳送至資料收集伺服器。 |
 | 6 | Target 資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 A4T 報表來檢視 Analytics 資料。 |
 
@@ -233,7 +233,7 @@ SPA 相關最佳實務如下:
 * 在檢視開始呈現前觸發自訂事件
 * 在檢視完成呈現時觸發自訂事件
 
-at.js 2.x 已新增新的 API [triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) 函數。您應使用 `triggerView()` 通知 at.js 檢視將開始呈現。
+at.js 2.x 已新增新的 API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) 函數。您應使用 `triggerView()` 通知 at.js 檢視將開始呈現。
 
 若要查看如何合併自訂事件、at.js 2.x 和 Analytics，請參考以下範例。此範例假設 HTML 頁面包含訪客 API，隨後是 at.js 2.x，隨後是 AppMeasurement。
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >您必須觸發 `at-view-start` 和 `at-view-end` 事件。這些事件不是 at.js 自訂事件的一部分。
 
-儘管這些示例使用JavaScript代碼，但如果使用標籤管理器，則所有這些都可以簡化，如中的標籤 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
+儘管這些示例使用JavaScript代碼，但如果使用標籤管理器，則所有這些都可以簡化，如中的標籤 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)。
 
 如果您按照上述步驟進行，您應該能擁有適用於 SPA 的健全 A4T 解決方案。
 
@@ -304,11 +304,11 @@ at.js 2.x API允許您自定義 [!DNL Target] 但在執行過程中，必須遵�
 
 以下影片包含更多資訊:
 
-### 瞭解 at.js 2.x 的運作方式 ![概述徽章](/help/main/assets/overview.png)
+### 瞭解 at.js 2.x 的運作方式 ![總覽徽章](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-請參閱 [瞭解at.js 2.x的工作原理](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 的子菜單。
+如需詳細資訊，請參閱[ 了解 at.js 2.x 的運作方式](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)。
 
 ### 在中實現at.js 2.x SPA ![教程徽章](/help/main/assets/tutorial.png)
 

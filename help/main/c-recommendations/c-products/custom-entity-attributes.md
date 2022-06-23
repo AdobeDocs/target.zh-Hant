@@ -5,9 +5,9 @@ title: 如何使用自定義實體屬性？
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 88%
 
 ---
@@ -126,7 +126,7 @@ function targetPageParams() {
   }
 ```
 
-查看 [Adobe RecommendationsAPI文檔](https://developers.adobetarget.com/api/recommendations) 有關使用傳遞和保存實體API的資訊。
+查看 [Adobe RecommendationsAPI文檔](https://developer.adobe.com/target/implement/recommendations/) 有關使用傳遞和保存實體API的資訊。
 
 ## 使用具有多值屬性的運算子 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

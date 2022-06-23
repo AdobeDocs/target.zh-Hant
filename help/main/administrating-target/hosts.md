@@ -5,9 +5,9 @@ title: 什麼是主機以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 21%
 
 ---
@@ -79,13 +79,13 @@ ht-degree: 21%
 
    可新增多個主機，每個主機各一行。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 如果 [!DNL Target] 在未授權的主機上發出請求，該呼叫以 `/* no display - unauthorized mbox host */`。
 
 >[!IMPORTANT]
 >
->**安全最佳做法**:如果使用的 [!DNL Target]，此允許清單還控制您的 [重設](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 可以導航。 確保在將ubox用作實施的一部分時添加要重定向到的任何域。 如果未指定允許清單， [!DNL Adobe] 無法驗證重定向URL並防止潛在的惡意重定向。
+>**安全最佳做法**:如果使用的 [!DNL Target]，此允許清單還控制您的 [重設](https://developer.adobe.com/target/implement/email/working-with-redirectors/) 可以導航。 確保在將ubox用作實施的一部分時添加要重定向到的任何域。 如果未指定允許清單， [!DNL Adobe] 無法驗證重定向URL並防止潛在的惡意重定向。
 >
 >允許清單優先於環境。 在使用允許清單功能之前清除所有主機，則只有允許清單允許的主機才會顯示在主機清單中。 接著可將主機移至想要的環境中。
 
@@ -124,6 +124,6 @@ ht-degree: 21%
 
 如果請求 [!DNL Target] 是從域生成的。 通常，您可以從編目引擎、語言翻譯工具網站或本機磁碟中看見網域。如果列出的網域不是您團隊使用的網域，則可以按一下[!UICONTROL 刪除]將它移除。
 
-**我的 [!DNL Target] 請求返回/*無顯示 — 未經授權的mbox主機*/。**
+**我的 [!DNL Target] 請求返回/&#42; 無顯示 — 未經授權的框主機 &#42;/。**
 
-如果 [!DNL Target] 請求是在未經授權的主機上發出的，該請求以/* no display - unauthorized mbox host */作為響應。
+如果 [!DNL Target] 請求在未授權的主機上發出，請求以/&#42; 無顯示 — 未經授權的框主機 &#42;/。

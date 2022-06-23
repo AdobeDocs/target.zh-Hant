@@ -4,10 +4,10 @@ description: 熟悉使用者界面，找到更多深入資訊的連結以協助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 47%
+source-wordcount: '1373'
+ht-degree: 45%
 
 ---
 
@@ -92,7 +92,9 @@ ht-degree: 47%
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-您可以將所有通知標籤為已讀或查看面板底部的所有通知。
+通過將滑鼠懸停在所需通知上，然後按一下複選標籤，可以將單個通知標籤為已讀。 您可以將所有通知標籤為已讀或通過按一下查看所有通知 [!UICONTROL &quot;標籤為已讀&quot;] 或 [!UICONTROL &quot;查看全部&quot;] 的下界。
+
+您還可以通過懸停在通知上，按一下「 」，將提醒設定為再次通知。[!UICONTROL 提醒我]表徵圖，然後選擇要通知的時間：5分鐘，15分鐘，1小時，或明天。
 
 ### 公告
 

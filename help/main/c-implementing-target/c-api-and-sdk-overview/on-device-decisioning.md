@@ -5,10 +5,10 @@ title: 設備上決策是什麼？
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 10%
 
 設備上決策提供快取 [!DNL Adobe Target] [!UICONTROL A/BTest] 和 [!UICONTROL 體驗目標] (XT)伺服器上的活動，在接近零的延遲下執行記憶體中的決定，而不阻止向 [!DNL Adobe Target] 邊緣網路。
 
-有關詳細資訊，請參見 [設備上決策簡介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 的 *[Adobe TargetSDK文檔](https://adobetarget-sdks.gitbook.io/docs/)*。
+有關詳細資訊，請參閱主題：
+
+* [用於客戶端的設備上決策](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [用於伺服器端的設備上確定](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ## 網路研討會影片：利用 [!DNL Adobe Target] 的裝置上決策在零延遲的情況下進行個人化和測試
 
@@ -26,7 +29,7 @@ ht-degree: 10%
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## 最佳實務
+## 最佳做法
 
 Adobe建議在使用設備上決策時採用以下最佳做法：
 
@@ -59,7 +62,7 @@ Adobe建議在使用設備上決策時採用以下最佳做法：
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
-有關更多視頻和教程，請參見 [Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant) 的子菜單。
+有關更多視頻和教程，請參見 [Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 的子菜單。
 
 ## Adobe科技部落格 — 第1部分：運行 [!DNL Adobe Target] NodeJS SDK，用於邊緣平台（Akamai邊緣工作程式）上的實驗和個性化
 

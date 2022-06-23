@@ -4,14 +4,14 @@ description: 瞭解Analytics的實施要求 [!DNL Target] (A4T)以及實施此�
 title: 在實施A4T之前，我應瞭解什麼？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 28%
+source-wordcount: '977'
+ht-degree: 27%
 
 ---
 
-# 使用 at.js 實施 Analytics for Target (A4T) 之前
+# 使用 at.js 實作 Analytics for Target (A4T) 之前
 
 啟用時，資料收集過程中會發生一些更改 [!DNL Adobe Analytics] 作為 [!DNL Adobe Target] (A4T)。
 
@@ -31,7 +31,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->以下要求列出 *最小* 實現A4T所需的at.js版本。 的 [!DNL Target] 團隊只維護兩個版本 [!DNL at.js] — 當前版本和第二個最新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+>以下要求列出 *最小* 實現A4T所需的at.js版本。 的 [!DNL Target] 團隊只維護兩個版本 [!DNL at.js] — 當前版本和第二個最新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
 ### *不*&#x200B;搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -41,7 +41,7 @@ ht-degree: 28%
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
-有關使用 [!DNL Platform Web SDK]，請參閱 [Adobe Experience PlatformWeb SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。
+有關使用 [!DNL Platform Web SDK]，請參閱 [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)。
 
 ### 搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -59,7 +59,7 @@ ht-degree: 28%
 
 下載和部署說明列於 [目標實施分析](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。
 
-有關使用 [!DNL Platform Web SDK]，請參閱 [Adobe Experience PlatformWeb SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。
+有關使用 [!DNL Platform Web SDK]，請參閱 [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)。
 
 ## 實施前須知 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

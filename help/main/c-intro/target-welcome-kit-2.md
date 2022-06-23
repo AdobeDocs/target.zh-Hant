@@ -4,10 +4,10 @@ description: 以高層級方式檢視 Adobe Target。了解可用的活動、頻
 title: 在哪裡可以找到 Target 的高層級簡介？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '2519'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2532'
+ht-degree: 99%
 
 ---
 
@@ -52,8 +52,8 @@ ht-degree: 100%
 
 | 實施類型 | 詳細資料 |
 | --- | --- |
-| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。透過用戶端，您可以使用 WYSIWYG 編輯器、**[!UICONTROL Visual Experience Composer]** (VEC) 或非視覺化介面 **[!UICONTROL Form-based Experience Composer]**，來建立您的測試和個人化體驗。[了解詳情](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)。 |
-| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。[了解詳情](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
+| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。透過用戶端，您可以使用 WYSIWYG 編輯器、**[!UICONTROL Visual Experience Composer]** (VEC) 或非視覺化介面 **[!UICONTROL Form-based Experience Composer]**，來建立您的測試和個人化體驗。[了解詳情](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)。 |
+| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。[了解詳情](https://developer.adobe.com/target/implement/server-side/)。 |
 | 混合實施 | 在此實施中，您可以選擇最適合特定使用案例的實施方法。例如，您可能會使用用戶端實施來 A/B 測試首頁上主頁橫幅中的一個選件，但也會使用伺服器端實施來決定要在用戶端瀏覽器上顯示的內部搜尋結果、要在智慧型儀表板上顯示的體驗，或要透過語音助手傳送的語音回應。 |
 
 ## 活動元素

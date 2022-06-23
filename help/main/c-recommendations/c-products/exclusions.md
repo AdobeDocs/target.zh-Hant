@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe中建立排除項 [!DNL Target] Recommendation
 title: 如何在Recommendations活動中使用排除項？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 43%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 43%
 
    ![](assets/exclusions_list.png)
 
-   [!UICONTROL 「排除項目」]清單檢視上各排除項目顯示的「項目數量」，為預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 內符合該排除項目規則的產品數量。請參閱[設定](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
+   [!UICONTROL 「排除項目」]清單檢視上各排除項目顯示的「項目數量」，為預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 內符合該排除項目規則的產品數量。請參閱[設定](https://developer.adobe.com/target/implement/recommendations/)，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立排除項目」]**。
 

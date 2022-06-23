@@ -5,10 +5,10 @@ title: 如何為影像建立廣告框？
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 72%
 
 AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox 是使用特殊的「AdBox URL」建立，此 URL 會將「廣告」mbox (或 AdBox) 載入到您的 Adobe 帳戶。請在您的活動中使用此 AdBox 取代 mbox。請在電子郵件或其他非 JavaScript 實施中使用 AdBox URL 而非直接影像參考。
 
-如需關於選擇正確設定的說明，請參閱 [非 JavaScript 型實作](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
+如需關於選擇正確設定的說明，請參閱 [非 JavaScript 型實作](https://developer.adobe.com/target/implement/email/)。
 
 1. 建立 AdBox URL:
 
@@ -48,7 +48,7 @@ AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox �
 
 1. 建立活動。
 
-   請參閱[非 JavaScript 型實作](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以瞭解符合您目標的正確設定。
+   請參閱[非 JavaScript 型實作](https://developer.adobe.com/target/implement/email/)，以瞭解符合您目標的正確設定。
 1. 完成活動上的品質保證。
 
    作為最佳作法，請建立一份虛擬頁面，然後確認對您所有的環境來說，所有的體驗、預設內容與報表都如預期般在所有瀏覽器類型上運作。

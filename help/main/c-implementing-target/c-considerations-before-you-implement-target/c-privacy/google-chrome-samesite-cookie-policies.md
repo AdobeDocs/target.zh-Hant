@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理 Google 的 Samesite Cookie 政策？'
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1948'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '1955'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 從 Chrome 80 開始，網頁開發人員必須明確指定哪些 Cookie 可以跨網站運作。 這是 Google 為了改善網頁上的隱私權和安全性而計劃發佈的眾多公告中的第一個。
 
-有鑑於 Facebook 在隱私和安全性方面正面臨困境，其他各大供應商 (例如 Apple 及現在的 Google) 已快速利用此機會來打造新的身分，以便成為隱私和安全性領域的贏家。 Apple 在今年年初率先宣佈透過 ITP 2.1 及最近的 ITP 2.2 改變其 Cookie 政策。在 ITP 2.1 中，Apple 完全封鎖了第三方 Cookie，並且只會將瀏覽器上建立的 Cookie 保留七天。 在 ITP 2.2 中，Cookie 只會保留一天。 Google 的公告遠不及 Apple 的激進，但也朝著相同的最終目標邁出第一步。 如需有關 Apple 政策的詳細資訊，請參閱 [Apple 智慧追蹤防護 (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
+有鑑於 Facebook 在隱私和安全性方面正面臨困境，其他各大供應商 (例如 Apple 及現在的 Google) 已快速利用此機會來打造新的身分，以便成為隱私和安全性領域的贏家。 Apple 在今年年初率先宣佈透過 ITP 2.1 及最近的 ITP 2.2 改變其 Cookie 政策。在 ITP 2.1 中，Apple 完全封鎖了第三方 Cookie，並且只會將瀏覽器上建立的 Cookie 保留七天。 在 ITP 2.2 中，Cookie 只會保留一天。 Google 的公告遠不及 Apple 的激進，但也朝著相同的最終目標邁出第一步。 如需有關 Apple 政策的詳細資訊，請參閱 [Apple 智慧追蹤防護 (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/)。
 
 ## 什麼是 Cookie 以及如何加以使用？
 
@@ -88,7 +88,7 @@ Target 有時也會使用第三方 Cookie。 如果您擁有在不同網域上�
 | Target JavaScript 程式庫 | 預設 SameSite Cookie = 已啟用 | 不含 SameSite 的 Cookie 必須是安全的 = 已啟用 |
 | --- | --- | --- |
 | at.js 1.*x* 與第一方 Cookie。 | 沒有任何影響。 | 如果您沒有使用跨網域追蹤，就沒有影響。 |
-| at.js 1.*x*，並啟用跨網域追蹤。 | 沒有任何影響。 | 必須為您的網站啟用 HTTPS 通訊協定。<br>[!DNL Target] 會使用第三方 Cookie 來追蹤使用者，而且 Google 需要第三方 Cookie 才能使用 `SameSite = None` 和 Secure 標幟。 Secure 標幟要求您的網站必須使用 HTTPS 通訊協定。 |
+| at.js 1 *x*，並啟用跨網域追蹤。 | 沒有任何影響。 | 必須為您的網站啟用 HTTPS 通訊協定。<br>[!DNL Target] 會使用第三方 Cookie 來追蹤使用者，而且 Google 需要第三方 Cookie 才能使用 `SameSite = None` 和 Secure 標幟。 Secure 標幟要求您的網站必須使用 HTTPS 通訊協定。 |
 | at.js 2.*x* | 沒有任何影響。 | 沒有任何影響。 |
 
 ## [!DNL Target] 需要做什麼？
@@ -97,9 +97,9 @@ Target 有時也會使用第三方 Cookie。 如果您擁有在不同網域上�
 
 | Target JavaScript 程式庫 | 預設 SameSite Cookie = 已啟用 | 不含 SameSite 的 Cookie 必須是安全的 = 已啟用 |
 | --- | --- | --- |
-| at.js 1.*x* 與第一方 Cookie。 | 沒有任何影響。 | 如果您沒有使用跨網域追蹤，就沒有影響。 |
-| at.js 1.*x*，並啟用跨網域追蹤。 | 沒有任何影響。 | at.js 1.*x*，並啟用跨網域追蹤。 |
-| at.js 2.*x* | 沒有任何影響。 | 沒有任何影響。 |
+| at.js 1 *x* 與第一方 Cookie。 | 沒有任何影響。 | 如果您沒有使用跨網域追蹤，就沒有影響。 |
+| at.js 1 *x*，並啟用跨網域追蹤。 | 沒有任何影響。 | at.js 1 *x*，並啟用跨網域追蹤。 |
+| at.js 2 *x* | 沒有任何影響。 | 沒有任何影響。 |
 
 ## 如果您未改用 HTTPS 通訊協定會有什麼影響？
 

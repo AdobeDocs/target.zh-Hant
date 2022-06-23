@@ -4,10 +4,10 @@ description: 了解儲存在訪客個人資料中的訪客特有屬性，這些�
 title: 什麼是個人資料屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
-workflow-type: ht
-source-wordcount: '2423'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2437'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過 50 個個人資料屬性給 [!DNL Target]，請使用個人資料更新 API 方法來傳遞。 如需詳細資訊，請參閱[個人資料更新 (在  [!DNL Adobe Target] API 文件](https://developers.adobetarget.com/api/#updating-profiles)中)。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[傳遞參數至全域 mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/)。<br>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過 50 個個人資料屬性給 [!DNL Target]，請使用個人資料更新 API 方法來傳遞。 如需詳細資訊，請參閱[個人資料更新 (在  [!DNL Adobe Target] API 文件](https://developers.adobetarget.com/api/#updating-profiles)中)。 |
    | 個人資料 | 直接使用 JavaScript 程式碼片段定義。 這些片段可儲存像是消費者總花費金額等累積總計，並在每個 mbox 要求上執行。 請參閱底下的「個人資料指令碼屬性」。 |
 
 ## 個人資料指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否能夠使用個人資料指令碼從資料層中的頁面擷取資訊?**
 
-由於設定檔指令碼於伺服器端執行，因此其無法直接讀取頁面。必須透過 mbox 要求或其他[將資料傳入 Target 的方法](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)傳遞資料。將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
+由於設定檔指令碼於伺服器端執行，因此其無法直接讀取頁面。必須透過 mbox 要求或其他[將資料傳入 Target 的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)傳遞資料。將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
 
 ## 指令碼個人資料參數的 JavaScript 參考資料
 

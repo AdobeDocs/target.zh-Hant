@@ -4,10 +4,10 @@ description: 了解如何將電子郵件與 Adobe [!DNL Target Recommendations],
 title: 如何將 Recommendations 與電子郵件整合？
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1712'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1713'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ curl -X POST \
 >
 >各電子郵件收件者 (例如，針對每個 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供唯一值。 如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的許多事件而變得緩慢或失敗。
 
-如需詳細資訊，請參閱[傳送 API 文件](https://developers.adobetarget.com/api/#server-side-delivery)。
+如需詳細資訊，請參閱[傳送 API 文件](https://developer.adobe.com/target/implement/delivery-api/)。
 
 ## 方法 2：使用 rawbox 電子郵件範本 {#rawbox}
 

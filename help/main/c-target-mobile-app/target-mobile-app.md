@@ -5,10 +5,10 @@ title: 我能用 [!DNL Target] 移動應用？
 feature: Implement Mobile
 role: Developer
 exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 82%
+source-wordcount: '167'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Target 可以根據使用者行為和行動裝置環境，幫助您測試�
 
 若您正在使用 SDK 4.x，行動應用程式鎖定目標程序包含下列步驟:
 
-1. [Target 在行動應用程式中如何運作](/help/main/c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-1. [啟用 SDK 中的 Target](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md)
-1. [建立 Target 位置和成功量度](/help/main/c-target-mobile-app/mobile-create-location-and-metric.md)
-1. [傳送自訂使用者資料](/help/main/c-target-mobile-app/mobile-custom-user-data.md)
+1. [Target 在行動應用程式中如何運作](https://developer.adobe.com/target/implement/mobile/how-target-works-mobile-apps/)
+1. [啟用 SDK 中的 Target](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)
+1. [建立 Target 位置和成功量度](https://developer.adobe.com/target/implement/mobile/mobile-create-location-and-metric/)
+1. [傳送自訂使用者資料](https://developer.adobe.com/target/implement/mobile/mobile-custom-user-data/)

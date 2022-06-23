@@ -4,10 +4,10 @@ description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問
 title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '3128'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '3133'
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target] 的[篩選不相容條件](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)設定可控制演算法選擇器的智慧型篩選。
+[!DNL Target] 的[篩選不相容條件](https://developer.adobe.com/target/implement/recommendations/)設定可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >

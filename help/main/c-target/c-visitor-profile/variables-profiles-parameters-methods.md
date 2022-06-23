@@ -4,10 +4,10 @@ description: 查看在Adobe Target的配置檔案指令碼中有用的各種配�
 title: 目標中使用了哪些配置檔案、變數和參數？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 86%
+source-wordcount: '598'
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 ## 內建的描述檔 {#section_2B694370003C4F8E8E29E0B2F6E52045}
 
-| 設定檔 | 附註 |
+| 個人資料 | 附註 |
 |--- |--- |
 | user.activeActivities<br>user.activeCampaigns | 即便他/她並未在目前的工作階段中與促銷活動/活動互動，仍傳回使用者所在所有促銷活動/活動的促銷活動 ID。 |
 | user.pcId |  |
@@ -82,7 +82,7 @@ ht-degree: 86%
 | mbox.param(&#39;param_name&#39;) |  |
 | 自動和每個請求一併傳遞的參數:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 與訂單 mbox 一併傳遞的參數:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | mbox 參數，用來將客戶 ID 同步至 Target 的 mboxPCID。客戶 ID 為您的公司用來追蹤訪客的 ID，例如 CRM ID、會員 ID 或類似的項目。然後此 ID 可用來新增資訊，透過設定檔 API 和[客戶屬性](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md)。 |
+| mbox3rdPartyId | mbox 參數，用來將客戶 ID 同步至 Target 的 mboxPCID。客戶 ID 為您的公司用來追蹤訪客的 ID，例如 CRM ID、會員 ID 或類似的項目。然後此 ID 可用來新增資訊，透過設定檔 API 和[客戶屬性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)。 |
 | mboxPageValue | 在每個 mbox 呼叫中，會指定一個值給頁面。 |
 | mboxDebug | 僅用於除錯資訊。已添加到at.js查找頁面URL。 |
 | mboxOverride.browserIp | 設定和實際位置不同的地理區域，讓您可以測試某個項目在其他位置看起來如何。<br>**注意:** 只有在測試活動並且不在生產中時，才應該使用 mboxOverride 參數。使用任何 mboxOverride 參數可能造成使用 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 時的報表差異。在測試時，您應該使用[活動 QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，以在將活動推送至您的即時環境之前，確保您的活動可如預期般運作。 |

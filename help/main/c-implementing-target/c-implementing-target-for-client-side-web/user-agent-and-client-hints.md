@@ -5,10 +5,10 @@ title: 使用者代理和用戶端提示
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->本文資訊適用於 [at.js 2.9.0 版](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (或更新版本)。
+>本文資訊適用於 [at.js 2.9.0 版](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (或更新版本)。
 
 
 每次網頁瀏覽器向伺器發出請求時，請求標題會包含關於瀏覽器和執行瀏覽器環境的資訊。 從網際網路早期開始，這些資料一直都彙總在名為使用者代理的單一字串中。
@@ -158,28 +158,28 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 
 以下部分將顯示用戶端提示標題及其對應的設定檔指令碼使用語義。
 
-#### Sec-CH-UA
+#### 秒 — 甲 — 阿
 
 平均資訊量：低
 文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA){target=_blank}
 對象屬性：瀏覽器
 設定檔指令碼使用情形：`user.clientHint('sec-ch-ua')`
 
-#### Sec-CH-UA-Arch
+#### 塞克 — 舒阿拱門
 
 平均資訊量：高
 文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}
 對象屬性：透過設定檔指令碼向使用者公開。
 設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-arch')`
 
-#### Sec-CH-UA-Bitness
+#### 秒 — CH-UA — 比特
 
 平均資訊量：高
 文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}
 對象屬性：透過設定檔指令碼向使用者公開。
 設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-bitness')`
 
-#### Sec-CH-UA-Full-Version-List
+#### Sec-CH-UA — 完整版本清單
 
 平均資訊量：高
 文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List){target=_blank}
@@ -193,21 +193,21 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 對象屬性：手機
 設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-mobile')`
 
-#### Sec-CH-UA-Model
+#### Sec-CH-UA — 模型
 
 平均資訊量：高
 文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model){target=_blank}
 對象屬性：手機
 設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-model')`
 
-#### Sec-CH-UA-Platform
+#### Sec-CH-UA — 平台
 
 平均資訊量：低
 文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform){target=_blank}
 對象屬性：作業系統
 設定檔指令碼使用情形：`user.clientHint('sec-ch-ua-platform')`
 
-#### Sec-CH-UA-Platform-Version
+#### Sec-CH-UA — 平台版本
 
 平均資訊量：高
 文件：[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}
@@ -226,4 +226,4 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 
 ### 伺服器端 SDK
 
-有關如何透過伺服器端 SDK 傳遞用戶端提示的更多資訊，請參閱 *Adobe Target SDK* 文件中的「[用戶端提示](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank}。
+有關如何通過伺服器端SDK傳遞客戶端提示的詳細資訊，請參見 [客戶端提示](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank，在 *受眾目標* 的 *Adobe TargetSDK* 文檔。

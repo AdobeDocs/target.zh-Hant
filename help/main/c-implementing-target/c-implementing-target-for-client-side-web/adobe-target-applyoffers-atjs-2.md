@@ -5,10 +5,10 @@ title: 如何使用adobe.target.applyOffirs()函式？
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 88%
+source-wordcount: '834'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->咨詢 [交付API文檔](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 的子菜單。
+>咨詢 [交付API文檔](https://developer.adobe.com/target/before-administer/) 的子菜單。
 
 | 欄位名稱 | 說明 |
 | --- | --- |

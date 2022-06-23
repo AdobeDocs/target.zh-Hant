@@ -5,9 +5,9 @@ title: 設備上決策支援哪些功能
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '476'
 ht-degree: 13%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 13%
 | --- | --- |
 | [A/B 測試](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |
 | [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 無 |
-| [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ![Premium](/help/main/assets/premium.png) | 無 |
-| [多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 無 |
+| [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ![Premium](/help/main/assets/premium.png) | 否 |
+| [多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 否 |
 | [體驗鎖定](/help/main/c-activities/t-experience-target/experience-target.md) (XT) | 是 |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) ![高級](/help/main/assets/premium.png) | 無 |
-| [Recommendations](/help/main/c-recommendations/recommendations.md) ![高級](/help/main/assets/premium.png) | 無 |
+| [Recommendations](/help/main/c-recommendations/recommendations.md) ![高級](/help/main/assets/premium.png) | 否 |
 | [使用目標分析的活動](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | 是 |
 
 ## 目標受眾
@@ -38,20 +38,20 @@ ht-degree: 13%
 | 受眾規則 | 支援? |
 | --- | --- |
 | [地理](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 是 |
-| [網路](/help/main/c-target/c-audiences/c-target-rules/network.md) | 無 |
-| [行動](/help/main/c-target/c-audiences/c-target-rules/mobile.md) | 無 |
+| [網路](/help/main/c-target/c-audiences/c-target-rules/network.md) | 否 |
+| [行動](/help/main/c-target/c-audiences/c-target-rules/mobile.md) | 否 |
 | [自訂參數](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 是 |
 | [作業系統 ](/help/main/c-target/c-audiences/c-target-rules/operating-system.md) | 是 |
 | [網頁](/help/main/c-target/c-audiences/c-target-rules/site-pages.md) | 是 |
 | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 是 |
-| [訪客資料](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) | 無 |
-| [流量來源](/help/main/c-target/c-audiences/c-target-rules/traffic-sources.md) | 無 |
+| [訪客資料](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) | 否 |
+| [流量來源](/help/main/c-target/c-audiences/c-target-rules/traffic-sources.md) | 否 |
 | [時間範圍](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 是 |
-| Adobe Experience Cloud觀眾<br>(來自 [!DNL Adobe Analytics]。 [!DNL Adobe Audience Manager], [!DNL Adobe Experience Manager] | 無 |
+| Adobe Experience Cloud觀眾<br>(來自 [!DNL Adobe Analytics]。 [!DNL Adobe Audience Manager], [!DNL Adobe Experience Manager] | 否 |
 
 ### 用於設備上決策的地理定位
 
-為使基於地域的受眾在設備上決策活動的延遲保持最小，Adobe建議您在呼叫中提供自己的地理值 [get優惠](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)。 在請求的上下文中設定Geo對象。 這意味著從瀏覽器中確定每個訪問者的位置。 例如，您可以使用您配置的服務執行IP到Geo查找。 某些主機提供商(如Google雲)通過每個主機中的自定義標頭提供此功能 `HttpServletRequest`。
+為使基於地域的受眾在設備上決策活動的延遲保持最小，Adobe建議您在呼叫中提供自己的地理值 [get優惠](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/)。 在請求的上下文中設定Geo對象。 這意味著從瀏覽器中確定每個訪問者的位置。 例如，您可以使用您配置的服務執行IP到Geo查找。 某些主機提供商(如Google雲)通過每個主機中的自定義標頭提供此功能 `HttpServletRequest`。
 
 ```javascript
 window.adobe.target.getOffers({ 
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-但是，如果您無法在伺服器上執行IP到Geo查找，但您仍希望對 [get優惠](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 包含基於地域的受眾的請求，也支援此功能。 此方法的缺點是它使用遠程IP到Geo查找，這會增加每個查找的延遲 `getOffers` 呼叫。 此延遲應低於 `getOffers` 通過伺服器端決策調用，因為它命中了靠近伺服器的CDN。 請求SDK檢索訪問者IP地址的地理位置時，請僅提供Geo對象中的「ipAddress」欄位。 如果除「ipAddress」之外還提供了其他欄位， [!DNL Target] SDK將不提取用於解析的地理位置元資料。
+但是，如果您無法在伺服器上執行IP到Geo查找，但您仍希望對 [get優惠](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 包含基於地域的受眾的請求，也支援此功能。 此方法的缺點是它使用遠程IP到Geo查找，這會增加每個查找的延遲 `getOffers` 呼叫。 此延遲應低於 `getOffers` 通過伺服器端決策調用，因為它命中了靠近伺服器的CDN。 請求SDK檢索訪問者IP地址的地理位置時，請僅提供Geo對象中的「ipAddress」欄位。 如果除「ipAddress」之外還提供了其他欄位， [!DNL Target] SDK將不提取用於解析的地理位置元資料。
 
 ```javascript
 window.adobe.target.getOffers({ 
@@ -98,5 +98,5 @@ window.adobe.target.getOffers({
 | 分配方法 | 支援? |
 | --- | --- |
 | 手動 | 是 |
-| [自動分配以獲得最佳體驗](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 無 |
-| [個性化體驗的自動目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 無 |
+| [自動分配以獲得最佳體驗](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 否 |
+| [個性化體驗的自動目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 否 |

@@ -5,10 +5,10 @@ title: 如何使用targetGlobalSettings()函式？
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2364'
-ht-degree: 30%
+source-wordcount: '2405'
+ht-degree: 29%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 30%
 * **預設值**:正文{不透明度：0 }
 * **說明**:僅在 `globalMboxAutocreate === true` 盡量降低閃爍的可能性。
 
-   如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
+   如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ ht-degree: 30%
 
 * **類型**:布爾型
 * **預設值**:假
-* **說明**: [!DNL Target] 通過 [!DNL Adobe Experience Platform] 幫助支援您的同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。在中啟用選擇加入功能 [!DNL Target] at.js庫，添加 `optinEnabled=true` 的子菜單。 在 [!DNL Adobe Experience Platform] 必須從 [!UICONTROL GDPR選擇加入] 下拉清單。 查看 [Adobe Experience Platform文檔](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 的子菜單。 有關此設定的詳細資訊，如與隱私和資料保護法規有關，包括歐盟的一般資料保護法規(GDPR)和加利福尼亞消費者隱私法(CCPA)，請參見 [隱私和資料保護法規](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。
+* **說明**: [!DNL Target] 通過 [!DNL Adobe Experience Platform] 幫助支援您的同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。在中啟用選擇加入功能 [!DNL Target] at.js庫，添加 `optinEnabled=true` 的子菜單。 在 [!DNL Adobe Experience Platform] 必須從 [!UICONTROL GDPR選擇加入] 下拉清單。 查看 [Adobe Experience Platform文檔](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 的子菜單。 有關此設定的詳細資訊，如與隱私和資料保護法規有關，包括歐盟的一般資料保護法規(GDPR)和加利福尼亞消費者隱私法(CCPA)，請參見 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ ht-degree: 30%
 * **預設值**:true(以at.js 1.6.2版開頭為true)
 * **說明**:指示我們是否應使用 `<clientCode>.tt.omtrdc.net` 域或 `mboxedge<clusterNumber>.tt.omtrdc.net` 。
 
-   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 當前未使用 [名稱](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) 使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，如果這是您的問題，請考慮 [更新at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 到更新的受支援版本。
+   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 當前未使用 [名稱](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) 使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，如果這是您的問題，請考慮 [更新at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 到更新的受支援版本。
 
 ### overrideMboxEdgeServerTimeout
 
@@ -398,7 +398,7 @@ window.targetGlobalSettings = {
 您必須將 [!DNL Target]。
 
 * **伺服器端**:必須使用新 [傳遞API](https://developers.adobetarget.com/api/delivery-api/) 或 [目標SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
-* **客戶端**:必須使用 [at.js 2.2或更高版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* **客戶端**:必須使用 [at.js 2.2或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
 ### 代碼示例
 

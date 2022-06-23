@@ -5,10 +5,10 @@ title: at.js的常見問題和答案是什麼？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 60%
+source-wordcount: '2586'
+ht-degree: 59%
 
 ---
 
@@ -113,7 +113,7 @@ at.js 1.0.0版本使載入 [!DNL Target] 庫非同步。
 
 如果您是透過同步 DTM 實作部署 at.js，可透過頁面頂端觸發的頁面載入規則新增預先隱藏的程式碼片段。
 
-如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
+如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
 
 ## 與 [!DNL Adobe Experience Manager] 整合(Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ at.js 1.0.0版本使載入 [!DNL Target] 庫非同步。
 
 ## 使用 at.js 時如何防止頁面載入忽隱忽現? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Target 提供幾個方法來防止頁面載入忽隱忽現: 如需詳細資訊，請參閱[使用 at.js 防止忽隱忽現情形](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)。
+Target 提供幾個方法來防止頁面載入忽隱忽現: 如需詳細資訊，請參閱[使用 at.js 防止忽隱忽現情形](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
 
 ## at.js 的檔案大小多大? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ at.js當前使用jQuery的部分，因此您會在at.js的頂部看到MIT許可�
 
 [!DNL Target] 客戶有時使用雲端型例項搭配 [!DNL Target] 進行測試或簡單的概念證明用途。這些網域和許多其他網域均屬於[公用字尾清單](https://publicsuffix.org/list/public_suffix_list.dat)。
 
-如果您使用這些域，則現代瀏覽器不會保存Cookie，除非您自定義 `cookieDomain` 使用targetGlobalSettings()設定。 如需詳細資訊，請參閱[使用雲端型例項搭配 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)。
+如果您使用這些域，則現代瀏覽器不會保存Cookie，除非您自定義 `cookieDomain` 使用targetGlobalSettings()設定。 如需詳細資訊，請參閱[使用雲端型例項搭配 Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)。
 
 ## 使用 at.js 時，可以將 IP 位址用作 Cookie 網域嗎? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-可以，只要您使用 [at.js 1.2 版或更新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。[!DNL Adobe] 但強烈建議您保持最新版本。
+可以，只要您使用 [at.js 1.2 版或更新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。[!DNL Adobe] 但強烈建議您保持最新版本。
 
 >[!NOTE]
 >
 >如果您使用 at.js 1.2 版或更新版本，則不需要下列範例。
 
-視您使用 [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 的方式而定，在下載 at.js 之前，您可能需要另外修改程式碼。例如，假設您的 [!DNL Target] 實施在各種網站上需要稍微不同的設定，且您無法使用自訂 JavaScript 來動態定義這些設定，請在下載檔案之後和上傳至個別網站之前，手動完成這些自訂。
+視您使用 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 的方式而定，在下載 at.js 之前，您可能需要另外修改程式碼。例如，假設您的 [!DNL Target] 實施在各種網站上需要稍微不同的設定，且您無法使用自訂 JavaScript 來動態定義這些設定，請在下載檔案之後和上傳至個別網站之前，手動完成這些自訂。
 
 下列範例可讓您使用 `targetGlobalSettings()` at.js 函數，插入程式碼片段來支援 IP 位址:
 
@@ -202,10 +202,10 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 正在動態生成該頁，且at.js找不到該元素。
 * 正在緩慢生成該頁（由於網路速度慢），且at.js在DOM中找不到選擇器。
 * 激活的頁面結構[!UICONTROL y正在運行，已更改。 如果在 ]Visual Experience Composer(VEC)，應收到警告消息。 更新活動，以便找到所有必要的元素。
-* 基礎頁是 [!UICONTROL 單頁應用程式] (SPA)或頁面包含的元素在頁面和 [!DNL at.js] 「selector輪詢機制」找不到這些元素。 提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+* 基礎頁是 [!UICONTROL 單頁應用程式] (SPA)或頁面包含的元素在頁面和 [!DNL at.js] 「selector輪詢機制」找不到這些元素。 提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 * 任何點擊追蹤量度會嘗試將本身新增至每個頁面，而不論設定此量度的 URL。雖然無害，但此狀況會導致這些訊息大量出現。
 
-   為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。如需詳細資訊，請參閱 [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)和[下載 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
+   為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。如需詳細資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)和[下載 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
 
 ## 什麼是域t.omtrdc.net [!DNL Target] 伺服器呼叫轉到？ {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ Secure 只有在頁面是經由 HTTPS 來載入時，能透過 JavaScript 設定
 
 ## 在最好的情況下，我們能否期望使用者在隱藏、取代，和顯示內容方面，不會受到任何頁面載入上的可見影響? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js嘗試在較長時間內避免預隱藏HTMLBODY或其他DOM元素，但這取決於網路條件和活動設定。 at.js 提供的[設定](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)可用於自訂隱藏 CSS 樣式的 BODY 設定，如此一來您就可以僅預先隱藏頁面的某些部份，而不用隱藏整個 HTML BODY。期望是那些部分包含了必須「個人化」的 DOM 元素。
+at.js嘗試在較長時間內避免預隱藏HTMLBODY或其他DOM元素，但這取決於網路條件和活動設定。 at.js 提供的[設定](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)可用於自訂隱藏 CSS 樣式的 BODY 設定，如此一來您就可以僅預先隱藏頁面的某些部份，而不用隱藏整個 HTML BODY。期望是那些部分包含了必須「個人化」的 DOM 元素。
 
 ## 在使用者符合活動資格的一般情況下，事件的序列為何? {#section_56E6F448E901403FB77DF02F44C44452}
 

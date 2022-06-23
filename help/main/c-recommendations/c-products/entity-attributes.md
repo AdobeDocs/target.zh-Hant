@@ -4,10 +4,10 @@ description: 瞭解如何使用實體屬性將產品或內容資訊傳遞給 [!D
 title: 如何使用實體屬性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 55%
+source-wordcount: '1087'
+ht-degree: 54%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->如果您使用at.js 2。*x*。 `mboxCreate` （如下例所用）不再受支援。 將產品或內容資訊傳遞到 [!DNL Recommendations] 使用at.js 2。*x*。 [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 有關示例，請參見 [規劃和實施Recommendations](/help/main/c-recommendations/plan-implement.md)。
+>如果您使用at.js 2。*x*。 `mboxCreate` （如下例所用）不再受支援。 將產品或內容資訊傳遞到 [!DNL Recommendations] 使用at.js 2。*x*。 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/)。 有關示例，請參見 [規劃和實施Recommendations](https://developer.adobe.com/target/implement/recommendations/)。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

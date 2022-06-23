@@ -5,9 +5,9 @@ title: 我從哪裡可以瞭解塔吉特公司的Recommendations算法背後的�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**:行為資料，以在您 [實現目標](/help/main/c-recommendations/plan-implement.md#pass-behavioral) 或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
+* **輸入資料**:行為資料，以在您 [實現目標](https://developer.adobe.com/target/implement/recommendations/) 或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
 * **模型訓練**:
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**:如前所述，此算法完全基於目錄資料(接收到 [!DNL Target] 通過 [目錄源、實體API或來自頁面更新](/help/main/c-recommendations/plan-implement.md#rec-catalog)。
+* **輸入資料**:如前所述，此算法完全基於目錄資料(接收到 [!DNL Target] 通過 [目錄源、實體API或來自頁面更新](https://developer.adobe.com/target/implement/recommendations/)。
 
 * **模型訓練**:
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**:這與項目 — 項目協作過濾(CF)方法相同。 [!UICONTROL 都推薦您] 而基於購物車的算法則使用行為資料，以在您 [實現目標](/help/main/c-recommendations/plan-implement.md#pass-behavioral) 或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
+* **輸入資料**:這與項目 — 項目協作過濾(CF)方法相同。 [!UICONTROL 都推薦您] 而基於購物車的算法則使用行為資料，以在您 [實現目標](https://developer.adobe.com/target/implement/recommendations/) 或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
 * **模型訓練**:
 

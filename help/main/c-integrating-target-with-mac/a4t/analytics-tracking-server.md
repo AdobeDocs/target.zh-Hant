@@ -4,10 +4,10 @@ description: '瞭解如何為使用Analytics進行分析的活動指定分析跟
 title: 如何使用分析跟蹤伺服器？
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 19%
+source-wordcount: '695'
+ht-degree: 26%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->如果使用at.js版本0.9.1（或更高版本），則在建立活動期間無需指定跟蹤伺服器。 at.js庫自動將跟蹤伺服器值發送到 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
+>如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 目標與設定]頁面上的[!UICONTROL 追蹤伺服器]欄位保留空白。
 >
->的 [!DNL Target] 團隊支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。 如需詳細資訊，請參閱[ at.js 版本詳細資訊](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+>的 [!DNL Target] 團隊支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。 如需詳細資訊，請參閱[ at.js 版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
 確保資料來自 [!DNL Target] 轉到中的正確位置 [!DNL Analytics],A4T要求在所有調用Modstats時從 [!DNL Target]。 對於使用多個跟蹤伺服器的實現，使用 [!DNL Adobe Experience Platform Debugger] 或瀏覽器的「開發人員工具」，以確定活動的正確跟蹤伺服器。
 
@@ -29,7 +29,7 @@ ht-degree: 19%
 
 1. 在建立活動的頁面中，開啟 [!DNL Adobe Experience Platform Debugger]。
 
-   如果尚未安裝調試器，請參見 [Adobe Experience Platform調試器簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+   如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 

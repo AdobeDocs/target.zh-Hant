@@ -5,10 +5,10 @@ title: 如何使用mboxCreate()函式？
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 79%
+source-wordcount: '212'
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 79%
 
 `mboxCreate()` 現在使用「json」端點而非「standard」端點，且非同步觸發。因此:
 
-* [偵錯](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)有一些不同。
+* [偵錯](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)有一些不同。
 * 避免選件程式碼需要同步，封鎖呼叫。
 
    例如，設定後續進入頁面之網站程式碼或其他 mbox 所使用 JavaScript 變數的選件。

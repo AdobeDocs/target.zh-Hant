@@ -5,10 +5,10 @@ title: 如何將資料 [!DNL Target] 是否使用資料提供程式？
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 `window.targetGlobalSettings.dataProviders` 設定是資料提供者的陣列。
 
-如需各資料提供者結構的詳細資訊，請參閱[資料提供者](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)一節。
+如需各資料提供者結構的詳細資訊，請參閱[資料提供者](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)一節。
 
 ## 示例使用案例
 
@@ -44,13 +44,13 @@ at.js不嘗試快取資料。 如果資料提供者擷取資料一次，則資�
 
 ## 代碼示例
 
-[資料提供者](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)中提供許多範例。
+[資料提供者](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)中提供許多範例。
 
 ## 相關資訊的連結
 
-文件: [資料提供者](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+文件: [資料提供者](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)
 
-## 訓練影片:
+## 培訓影片：
 
 * [使用 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-feature-video-use.html)
 * [實作 Adobe Target 中的資料提供者](https://helpx.adobe.com/tw/target/kt/using/dataProviders-atjs-technical-video-implement.html)

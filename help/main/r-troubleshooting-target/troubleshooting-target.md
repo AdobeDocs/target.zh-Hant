@@ -4,10 +4,10 @@ description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，�
 title: 如何疑難排解 Target？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 ## 全域 mbox
 
-* [全域 mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [全域 mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ## 主機/環境
 
@@ -110,18 +110,18 @@ ht-degree: 100%
 
 ### 一般實施
 
-* [受支援的瀏覽器](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-* [使用雲端型例項搭配 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+* [受支援的瀏覽器](https://developer.adobe.com/target/before-implement/supported-browsers/)
+* [使用雲端型例項搭配 Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
 
 ### 全域 mbox
 
-* [全域 mbox 常見問答](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [全域 mbox 常見問答](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
-### at.js 
+### at.js
 
-* [at.js 常見問答](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [使用 Adobe Experience Cloud Debugger 除錯 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.js 版本詳細資料](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* [at.js 常見問答](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
+* [使用 Adobe Experience Cloud Debugger 除錯 at.js](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
+* [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。
 
 ## 已知問題
@@ -130,11 +130,7 @@ ht-degree: 100%
 
 ## 行動應用程式
 
-* [適用於行動應用程式的 Target 常見問答](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-
-## 裝置上決策
-
-* [針對 at.js 的裝置上決策疑難排解](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [適用於行動應用程式的 Target 常見問題](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
 
 ## 報表
 
@@ -143,11 +139,11 @@ ht-degree: 100%
 
 ## 搜尋引擎最佳化 (SEO)
 
-* [搜尋引擎最佳化 (SEO) 友善測試](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [搜尋引擎最佳化 (SEO) 友善測試](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
 ## 安全性
 
-* [內容安全性原則 (CSP) 指示](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+* [內容安全性原則 (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
 
 ## 系統狀態
 

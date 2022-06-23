@@ -5,10 +5,10 @@ title: 如何從at.js 1.x版升級到2.x版？
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 89%
+source-wordcount: '2874'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 
 ## at.js 2.*x* 系統圖表
 
-下列圖表可協助您瞭解 at.js 2.*x* 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.*x* 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
+下列圖表可協助您瞭解 at.js 2.*x* 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.*x* 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
 
 ![使用 at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png) 的 Target 流程
 
@@ -33,9 +33,9 @@ ht-degree: 89%
 | 1 | 如果使用者已通過驗證，呼叫會傳回 [!DNL Experience Cloud ID]，而另一個呼叫會同步客戶 ID。 |
 | 2 | at.js 程式庫會同步載入並隱藏文件本文。<br>也能使用將頁面上實作的程式碼片段預先隱藏的選項，以非同步方式載入 at.js。 |
 | 3 | 提出頁面載入要求，包含所有已設定的參數 (MCID、SDID 和客戶 ID)。 |
-| 4 | 設定檔指令碼執行，然後注入設定檔存放區。存放區會從對象資料庫中請求合格對象 (例如，從 Adobe Analytics、對象管理 等共用的對象)。<br>客戶屬性會透過批次程序傳送至設定檔存放區。 |
-| 5 | [!DNL Target] 會根據 URL 要求參數和設定檔資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
-| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>針對在瀏覽器中快取的使用者 SPA 動作顯示檢視的目標內容，以便在透過 `triggerView()` 觸發檢視時立刻套用，不需額外的伺服器呼叫。 |
+| 4 | 個人資料指令碼執行，然後注入個人資料存放區。存放區會從受眾資料庫中請求合格受眾 (例如，從 Adobe Analytics、受眾管理等共用的受眾)。<br>客戶屬性會透過批次程序傳送至個人資料存放區。 |
+| 5 | [!DNL Target] 會根據 URL 要求參數和個人資料，決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客。 |
+| 6 | 目標內容會傳回至頁面，選擇性地包括其他個人化的個人資料值。<br>目前頁面上目標內容會儘快出現，不會有忽隱忽現的預設內容。<br>針對在瀏覽器中快取的使用者 SPA 動作顯示檢視的目標內容，以便在透過 `triggerView()` 觸發檢視時立刻套用，不需額外的伺服器呼叫。 |
 | 7 | Analytics 資料傳送至「資料收集」伺服器。 |
 | 8 | 目標資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 Analytics for Target (A4T) 報表來檢視 <br>Analytics 資料。 |
 
@@ -48,13 +48,13 @@ ht-degree: 89%
 | 1 | 系統在 SPA 中呼叫 `triggerView()`，以便呈現檢視和套用動作來修改視覺元素。 |
 | 2 | 從快取讀取檢視的目標內容。 |
 | 3 | 目標內容會儘快出現，不會有忽隱忽現的預設內容。 |
-| 4 | 通知要求會傳送至 [!DNL Target] 設定檔存放區，以計算活動中的訪客數和增加量度。 |
+| 4 | 通知要求會傳送至 [!DNL Target] 個人資料存放區，以計算活動中的訪客數和增加量度。 |
 | 5 | Analytics 資料傳送至資料收集伺服器。 |
 | 6 | Target 資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 A4T 報表來檢視 Analytics 資料。 |
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 部署 at.js 2.*x* 通過標籤 [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 擴展。
+1. 部署 at.js 2.*x* 通過標籤 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 擴展。
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ ht-degree: 89%
 
    或
 
-   使用 Target UI 手動下載 at.js 2.*x*，並使用[您所選擇的方法](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)進行部署。
+   使用 Target UI 手動下載 at.js 2.*x*，並使用[您所選擇的方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)進行部署。
 
 ## 棄用的 at.js 函數
 
@@ -72,7 +72,7 @@ at.js 2.*x* 已棄用多個函數。
 >
 >如果部署 at.js 2.*x* 時您的網站上仍使用這些已棄用的函數，便會顯示主控台警告。建議的升級做法是在預備環境中測試 at.js 2.*x* 部署，並確實逐一瀏覽每個記錄到主控台中的警告，並將棄用的函數轉譯為 at.js 2.*x* 中推出的新函數。
 
-已棄時的函數及其對應的新函數如下所列。如需完整的函數清單，請參閱 [at.js 函數](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
+已棄時的函數及其對應的新函數如下所列。如需完整的函數清單，請參閱 [at.js 函數](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。
 
 >[!NOTE]
 >at.js 2 *x* 不再自動預先隱藏標示為 `mboxDefault` 的元素。因此客戶必須在網站上或透過標籤管理程式，手動提供預先隱藏邏輯。
@@ -288,7 +288,7 @@ at.js 2 *x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 
 不過，at.js 2.*x* 已不再使用 HTTP GET，而是改用 HTTP POST。您現在可透過 at.js 2.*x* 使用 HTTP POST，將 JSON 裝載傳送至 Target Edge 伺服器。這表示檢查瀏覽器是否支援第三方 Cookie 的重新導向要求現在已失效。這是因為 HTTP GET 要求為等冪交易，而 HTTP POST 是非等冪交易且不得任意重複。因此，at.js 2.*x* 中的跨網域追蹤不再提供立即可用支援。只有 at.js 1.*x* 才提供跨網域追蹤的立即可用支援。
 
-如果要使用跨域跟蹤，必須安裝 [ECID庫v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant) 與at.js 2結合。*x* 不提供跨網域追蹤的立即可用支援。ECID 資料庫的存在是為了管理可用來識別訪客 (甚至是跨網域) 的持續 ID。
+如果要使用跨域跟蹤，必須安裝 [ECID庫v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant) 與at.js 2結合。*x* 使用供跨網域追蹤功能時。 ECID 資料庫的存在是為了管理可用來識別訪客 (甚至是跨網域) 的持續 ID。
 
 >[!NOTE]
 >
@@ -365,10 +365,10 @@ at.js 2 *x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 | 對象 | 是 |
 | 客戶屬性 | 是 |
 | AEM 體驗片段 | 是 |
-| [!DNL Adobe Experience Platform] 擴展 | [是](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] 擴展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | 除錯程式 | 是 |
 | Auditor | 尚未針對 at.js 2.*x* 更新規則 |
-| 選擇加入 | 無。[at.js 版本 2.1.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 支援 [GDPR 的選擇加入支援](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。 |
+| 選擇加入 | 無。[at.js 版本 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 支援 [GDPR 的選擇加入支援](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。 |
 | 採用 Adobe Target 技術的 AEM 增強型個人化 | 無 |
 
 ### 功能

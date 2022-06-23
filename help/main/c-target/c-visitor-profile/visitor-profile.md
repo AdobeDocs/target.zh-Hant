@@ -4,10 +4,10 @@ description: 瞭解訪問者配置檔案，其中包含訪問者如何使用頁�
 title: 訪問者簡介是什麼？
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 39%
+source-wordcount: '112'
+ht-degree: 37%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 39%
 - [訪客設定檔存留期](visitor-profile-lifetime.md)
 - [設定檔屬性](profile-parameters.md)
 - [類別親和性](category-affinity.md)
-- [客戶屬性](working-with-customer-attributes.md)
+- [客戶屬性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 - [mbox3rdPartyID 的即時設定檔同步](3rd-party-id.md)
 - [設定檔和變數字彙表](variables-profiles-parameters-methods.md)

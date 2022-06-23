@@ -5,9 +5,9 @@ title: 中的各種字元、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 96%
 
    如果您使用「批次傳送API」，則每個批次請求的限制為 50 個 mbox。
 
-   如果您在 Mobile Services SDK 使用[批次傳送 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，50 個 mbox 參數、50 個設定檔參數和 50 個其他參數類型限制，即為 API 本身限制。無法使用批次傳送 API，傳送超過上述數量限制的要求。如果請求包含的限制超過這些限制，API會傳回下列錯誤訊息：
+   如果您在 Mobile Services SDK 使用批次傳送 API，50 個 mbox 參數、50 個設定檔參數和 50 個其他參數類型限制，即為 API 本身限制。無法使用批次傳送 API，傳送超過上述數量限制的要求。如果請求包含的限制超過這些限制，API會傳回下列錯誤訊息：
 
    「mboxParameters 的數目不能超過 50。」
 

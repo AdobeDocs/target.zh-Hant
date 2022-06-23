@@ -5,10 +5,10 @@ title: 我可以使用 [!DNL Target] 使用基於雲的實例？
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 67%
+source-wordcount: '175'
+ht-degree: 64%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 67%
 
 的 [!DNL at.js] JavaScript庫使用cookie跟蹤用戶以確保 [!DNL Target] 總能提供一貫的體驗。 如果 [!DNL Target] JavaScript庫無法保存Cookie, [!DNL Target] 請求被禁用。
 
-**解決方案:**&#x200B;如果您想要搭配「公用尾碼清單」上包含的網域來使用雲端式例項，最佳做法是自訂 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+**解決方案:**&#x200B;如果您想要搭配「公用尾碼清單」上包含的網域來使用雲端式例項，最佳做法是自訂 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。

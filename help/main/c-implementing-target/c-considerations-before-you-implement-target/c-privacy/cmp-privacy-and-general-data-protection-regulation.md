@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理隱私權與資料保護規範？'
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## Adobe [!DNL Target] 和 [!DNL Adobe Experience Platform] 選擇加入 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] 透過 [!DNL Adobe Experience Platform] 中的標記支援選擇加入功能，可協助支援您的知情同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。若要啟用在 [!DNL Target] at.js 程式庫中使用選擇加入的功能，您應使用 `targetGlobalSettings` 並新增 `optinEnabled=true` 設定。在 [!DNL Adobe ExperiencePlatform] 中，從延伸模組安裝檢視中的 [!UICONTROL GDPR 選擇加入]下拉式清單中選取「啟用」。 如需詳細資訊，請參閱[實作  [!DNL Target]  - 使用  [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
+[!DNL Target] 透過 [!DNL Adobe Experience Platform] 中的標記支援選擇加入功能，可協助支援您的知情同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。若要啟用在 [!DNL Target] at.js 程式庫中使用選擇加入的功能，您應使用 `targetGlobalSettings` 並新增 `optinEnabled=true` 設定。在 [!DNL Adobe ExperiencePlatform] 中，從延伸模組安裝檢視中的 [!UICONTROL GDPR 選擇加入]下拉式清單中選取「啟用」。 如需詳細資訊，請參閱[實作  [!DNL Target]  - 使用  [!DNL Adobe Experience Platform]。](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 下列程式碼片段會向您示範如何啟用 `optinEnabled=true` 設定:
 
@@ -133,7 +133,7 @@ window.targetGlobalSettings = {
 | 使用者 ID | 命名空間 ID 類型 | 命名空間 ID | 定義 |
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | [!UICONTROL Adobe Experience Cloud ID]，先前稱為訪客 ID 或 Experience Cloud ID。 您可以使用 JavaScript API 找到此 ID (請參閱下方的詳細資料)。 |
-| TnT ID/Cookie ID(TNTID) | Standard | 9 | 在訪客的瀏覽器中設為 Cookie 的 [!DNL Target] 識別碼。 您可以使用 JavaScript API 找到此 ID (請參閱下方的詳細資料)。 |
+| TnT ID/Cookie ID(TNTID) | 標準 | 9 | 在訪客的瀏覽器中設為 Cookie 的 [!DNL Target] 識別碼。 您可以使用 JavaScript API 找到此 ID (請參閱下方的詳細資料)。 |
 | 第三方 ID/CRM ID(THIRDPARTYID) | [!DNL Target] 特有 | 不適用 | 如果您向 [!DNL Target] 提供您的 CRM 或客戶的其他唯一識別碼資訊。 |
 
 >[!NOTE]
@@ -148,7 +148,7 @@ GDPR 和 CCPA 不會改變您必須取得同意的時間，而是改變您取得
 
 [!DNL Target] 透過 [!DNL Adobe Experience Platform] 支援選擇加入功能，可協助支援您的知情同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。建議使用 [!DNL Adobe Experience Platform] 管理選擇加入。[!DNL Adobe Experience Platform] 中有更精細的控制功能，可在 [!DNL Target] 引發前隱藏選取的頁面元素，可能利於用於知情同意策略的一部分。
 
-如需有關 GDPR、CCPA 和 [!DNL Adobe Experience Platform] 的詳細資訊，請參閱 [Adobe 隱私權 JavaScript 程式庫和 GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)。 另請參閱上面的 *Adobe Target 和 Adobe Experience Platform 選擇加入*&#x200B;一節。
+如需有關 GDPR、CCPA 和 [!DNL Adobe Experience Platform] 的詳細資訊，請參閱 [Adobe 隱私權 JavaScript 程式庫和 GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)。 另請參閱上面的 *Adobe Target 和 Adobe Experience Platform 選擇加入*&#x200B;一節。
 
 ### `AdobePrivacy.js` 會將資訊提交至 GDPR API 嗎？ {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -284,10 +284,10 @@ GDPR 和 CCPA 不會改變您必須取得同意的時間，而是改變您取得
 
 | 欄位 | 說明 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] 個人資料中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，參數是使用個人資料更新 API 上傳到 [!DNL Target] 個人資料中。如需詳細資訊，請參閱[將資料傳入  [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) 的方法。 |
+| Sample_Parameter | [!DNL Target] 個人資料中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，參數是使用個人資料更新 API 上傳到 [!DNL Target] 個人資料中。有關詳細資訊，請參見 [將資料獲取到的方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)。 |
 | user.ReturnTimeOfDay | 此標準欄位包含使用者最近回訪的時間。 |
 | firstSessionStart | 此標準欄位包含使用者首次工作階段開始的時間。 |
-| user.sessionCountScript | [!DNL Target] 個人資料中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，個人資料指令碼會遞增此訪客針對資料管控者網站執行工作階段的次數。如需詳細資訊，請參閱[個人資料指令碼屬性](/help/main/c-target/c-visitor-profile/profile-parameters.md)。 |
+| user.sessionCountScript | [!DNL Target] 個人資料中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，個人資料指令碼會遞增此訪客針對資料管控者網站執行工作階段的次數。如需詳細資訊，請參閱[設定檔指令碼屬性](/help/main/c-target/c-visitor-profile/profile-parameters.md)。 |
 
 >[!NOTE]
 >
@@ -295,7 +295,7 @@ GDPR 和 CCPA 不會改變您必須取得同意的時間，而是改變您取得
 
 ### [!DNL Target] 是否支援 IP 模糊化功能？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
+如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](https://developer.adobe.com/target/before-implement/privacy/privacy/)。
 
 ### 我應該採取某個行動來避免我的資料被分享或賣給第三方嗎？
 

@@ -4,10 +4,10 @@ description: 瞭解如何在 [!DNL Adobe Target]。
 title: 如何使用受眾清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 23%
+source-wordcount: '1339'
+ht-degree: 26%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)。 從 [!DNL Adobe Experience Platform] 可以按原樣或 [結合現有觀眾](/help/main/c-target/combining-multiple-audiences.md)。
+   >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)。 從 [!DNL Adobe Experience Platform] 可以按原樣或 [結合現有觀眾](/help/main/c-target/combining-multiple-audiences.md)。
    >
    >用戶必須 [!UICONTROL 批准者] 或高於 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目標] AEP/RTCDP中的卡([!DNL Real-time Customer Data Platform])。
    >
@@ -109,7 +109,7 @@ Keep the following points in mind as you work with imported audiences:
 
 使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank}(RTCDP)，構建於 [!DNL Adobe Experience Platform]，幫助公司將來自多個企業來源的已知和匿名資料匯集在一起。 此流程允許您建立客戶配置檔案，這些配置檔案可用於即時提供跨所有渠道和設備的個性化客戶體驗。
 
-通過連接 [!DNL Target] 到 [!DNL Real-time Customer Data Platform]，客戶可以通過解鎖以前可能無法訪問的新段來豐富其Web個性化 [!DNL Target] 在客戶訪問的第一頁上實現即時毫秒個性化。 使用在 [!DNL Adobe Experience Platform] 允許您擴展可用的資料點，以便更加個性化。
+連接 [!DNL Target] 至 [!DNL Real-time Customer Data Platform]，客戶可以通過解鎖之前可能無法存取 [!DNL Target] 的新區段來強化他們的網頁個人化，進而在客戶瀏覽網頁的第一頁即可實現即時的毫秒個人化。 使用在 [!DNL Adobe Experience Platform] 中建立的對象可讓您擴展更強個人化的可用資料點。
 
 此整合可解鎖RTCDP的關鍵使用情形：
 
@@ -134,7 +134,7 @@ Keep the following points in mind as you work with imported audiences:
 
 使用來自 [!DNL Adobe Experience Platform]:
 
-#### 個人化使用案例
+#### Personalization 使用案例
 
 下表顯示了使用 [!DNL Adobe Experience Platform Web SDK] 與使用at.js:
 

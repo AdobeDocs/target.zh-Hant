@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe [!DNL Target] QA URL可執行簡單的端�
 title: 如何進行QA活動？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1827'
 ht-degree: 38%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 38%
    您也可以在網站上以帶有空白值的 `at_preview_token` 參數 (例如，`https://www.mysite.com/?at_preview_token=`) 來載入頁面，以手動強迫自己離開。
 
 * 如果在建立活動時指定了「URL is」 [基於表單的作曲家的改進](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 或 [Visual Experience Composer中的頁面交付選項)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81),QA URL無效，因為 [!UICONTROL 活動QA] 附加URL參數。 若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
-* 如果你有at.js1 *x*。 [!UICONTROL 活動QA] 如果使用Safari或其他阻止第三方cookie的瀏覽器，則模式不會粘滯。 在這些情況下，必須將預覽參數添加到導航到的每個URL。 如果您已實施 [名稱](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
+* 如果你有at.js1 *x*。 [!UICONTROL 活動QA] 如果使用Safari或其他阻止第三方cookie的瀏覽器，則模式不會粘滯。 在這些情況下，必須將預覽參數添加到導航到的每個URL。 如果您已實施 [名稱](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)。
 * 如果活動使用多個體驗受眾（例如，同一活動中包含的美國和英國網站），則不會為四個組合（體驗A/US網站、體驗A/UK網站、體驗B/US網站、體驗B/UK網站）生成QA連結。 只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。英國QA人員無法查看美國網站。
 * 所有 `at_preview` 參數和值皆已完成 URL 編碼。大多數時候，一切都按預期運行。 但是，有些客戶必須載入平衡器或Web伺服器，這些伺服器會嘗試重新編碼查詢字串參數。
 
@@ -99,9 +99,9 @@ ht-degree: 38%
 
 [!DNL Target] 支援以下JavaScript庫：
 
-* [at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-* [at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-* [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+* [at.js 1.x](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)
 
 下表列出了各種活動類型，並指示 [!UICONTROL 活動QA] 每個庫支援模式：
 

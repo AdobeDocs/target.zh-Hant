@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe中使用集合 [!DNL Target] Recommendations�
 title: 如何在Recommendations活動中使用收藏？
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '884'
 ht-degree: 60%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 60%
 
    ![懸停錶徵圖：編輯、複製和刪除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)，瞭解如何變更預設主機群組。
+   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](https://developer.adobe.com/target/implement/recommendations/)，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立集合」]**。
 
@@ -63,7 +63,7 @@ ht-degree: 60%
 
    您可以新增規則，以使用多個參數來定義集合。多個規則與AND運算子相聯。 所有指定的規則必須符合，才會套用集合。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 使用進階搜尋建立集合
 
