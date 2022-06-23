@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1566'
 ht-degree: 99%
 
 ---
@@ -68,6 +68,102 @@ ht-degree: 99%
          + [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + 實作 Target {#implement-target}
    + [實作 Target 概覽](c-implementing-target/implementing-target.md)
+   + 實作之前 {#before-implement}
+      + [實作之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
+      + [準備實作 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
+      + 隱私權與安全性{#privacy}
+         + [隱私權概覽](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
+         + [隱私權與資料保護規範](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Target Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
+         + [刪除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Google Chrome SameSite Cookie 原則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Apple 智慧型追蹤預防 (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [內容安全性政策 (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [允許清單 Target 邊緣節點](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+      + 將資料傳入 Target 的方法 {#methods}
+         + [方法概覽](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [頁面參數](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
+         + [頁面中設定檔屬性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [指令碼設定檔屬性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
+         + [資料提供者](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
+         + [大量設定檔更新 API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
+         + [單一設定檔更新 API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
+         + [客戶屬性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
+         + [設定檔 API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
+      + [目標 安全性概覽](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [受支援的瀏覽器](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
+      + [TLS (傳輸層安全性) 加密變更](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
+      + [CNAME 與 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   + 用戶端 Web：實作 Target {#client-side}
+      + [概覽：為用戶端 Web 實作 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + Adobe Experience Platform Web SDK 實施{#aep-implementation}
+         + [AEP Web SDK 概覽](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + at.js 實施{#at-js-implementation}
+         + 裝置上決策 {#on-device-decisioning}
+            + [裝置上決策概覽](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [支援的功能](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [規則成品](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [疑難排解](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+         + at.js 如何運作 {#at-js}
+            + [at.js 運作方式概覽](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+            + [At.js 處理忽隱忽現情況的方式](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
+            + [at.js 整合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
+         + 如何部署 at.js {#deploy-at-js}
+            + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
+            + [使用 Adobe Experience Platform Launch 實施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [不使用標籤管理程式實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+            + [使用動態標籤管理員 (DTM) 實作 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [實作適用於單頁應用程式 (SPA) 的 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+         + at.js 函數 {#functions-overview}
+            + [at.js 函數概覽](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
+            + [adobe.target.getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+            + [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+            + [adobe.target.applyOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+            + [adobe.target.applyOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+            + [adobe.target.triggerView() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+            + [adobe.target.trackEvent()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+            + [mboxCreate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+            + [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
+            + [mboxDefine() 和 mboxUpdate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
+            + [targetPageParams()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
+            + [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
+            + [registerExtension() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
+            + [sendNotifications() - at.js 2.1](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+            + [at.js 自訂事件](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
+            + [使用 Adobe Experience Cloud Debugger 除錯 at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+            + [使用雲端型例項搭配 Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+         + at.js 常見問答 {#faq-at-js}
+            + [at.js 常見問答](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
+         + [at.js 版本詳細資料](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+         + [從 at.js 1.x 升級為 at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+         + [at.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+         + [使用者代理和用戶端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
+      + 瞭解全域 mbox {#global-mbox}
+         + [了解全域 mbox 概覽](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [自訂全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
+         + [使用來自舊版實作的全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [傳遞參數給全域 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [全域 mbox 常見問答](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+   + 適用於行動應用程式的 Target {#mobile-apps}
+      + [適用於行動應用程式的 Target 概覽](c-target-mobile-app/target-mobile-app.md)
+      + [Target 在行動應用程式中如何運作](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
+      + [啟用 SDK 中的 Target](c-target-mobile-app/mobile-enable-target-in-sdk.md)
+      + [iOS - 建立 Target 位置和成功量度](c-target-mobile-app/mobile-create-location-and-metric.md)
+      + [iOS - 傳送自訂使用者資料](c-target-mobile-app/mobile-custom-user-data.md)
+      + [Target 行動裝置預覽](c-target-mobile-app/target-mobile-preview.md)
+      + [預先擷取選件內容](c-target-mobile-app/prefetch-offer-content.md)
+      + [目標(適用於行動應用程式) 常見問答](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [使用定位服務](/help/main/c-target-mobile-app/use-location-service.md)
+   + 伺服器端：實作 Target {#server-side}
+      + [伺服器端：實作 Target 概覽](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [從 Target 舊版 API 轉變為 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [裝置上決策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
+   + [混合實施](/help/main/c-implementing-target/hybrid-implementation.md)
+   + 電子郵件：實作 Target {#implement-email}
+      + [電子郵件：實作 Target 概覽](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
+      + [為影像建立 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
+      + [測試電子郵件影像 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
+      + [使用重導程式](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + 將 Target 與 Experience Cloud 整合 {#integrate}
    + Adobe Analytics 作為 Target (A4T) 的報告來源 {#a4t}
       + [A4T 概覽](c-integrating-target-with-mac/a4t/a4t.md)

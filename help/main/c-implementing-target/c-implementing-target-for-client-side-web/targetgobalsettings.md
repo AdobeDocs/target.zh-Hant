@@ -5,9 +5,9 @@ title: 如何使用targetGlobalSettings()函式？
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2411'
 ht-degree: 29%
 
 ---
@@ -155,7 +155,7 @@ ht-degree: 29%
 
 * **類型**:布爾型
 * **預設值**:假
-* **說明**: [!DNL Target] 通過 [!DNL Adobe Experience Platform] 幫助支援您的同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。在中啟用選擇加入功能 [!DNL Target] at.js庫，添加 `optinEnabled=true` 的子菜單。 在 [!DNL Adobe Experience Platform] 必須從 [!UICONTROL GDPR選擇加入] 下拉清單。 查看 [Adobe Experience Platform文檔](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 的子菜單。 有關此設定的詳細資訊，如與隱私和資料保護法規有關，包括歐盟的一般資料保護法規(GDPR)和加利福尼亞消費者隱私法(CCPA)，請參見 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。
+* **說明**: [!DNL Target] 通過 [!DNL Adobe Experience Platform] 幫助支援您的同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。在中啟用選擇加入功能 [!DNL Target] at.js庫，添加 `optinEnabled=true` 的子菜單。 在 [!DNL Adobe Experience Platform] 必須從 [!UICONTROL GDPR選擇加入] 下拉清單。 查看 [Adobe Experience Platform文檔](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}以瞭解詳細資訊。 有關此設定的詳細資訊，如與隱私和資料保護法規有關，包括歐盟的一般資料保護法規(GDPR)和加利福尼亞消費者隱私法(CCPA)，請參見 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ ht-degree: 29%
 * **預設值**:true(以at.js 1.6.2版開頭為true)
 * **說明**:指示我們是否應使用 `<clientCode>.tt.omtrdc.net` 域或 `mboxedge<clusterNumber>.tt.omtrdc.net` 。
 
-   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 當前未使用 [名稱](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) 使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時，如果這是您的問題，請考慮 [更新at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 到更新的受支援版本。
+   如果此值為 true，則會將 `mboxedge<clusterNumber>.tt.omtrdc.net` 網域儲存至 Cookie. 當前未使用 [名稱](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}在使用at.js 1.8.2和at.js 2.3.1之前的at.js版本時。如果這是您的問題，請考慮 [更新at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}到較新的受支援版本。
 
 ### overrideMboxEdgeServerTimeout
 

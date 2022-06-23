@@ -5,9 +5,9 @@ title: 如何將參數傳遞給全局框？
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 59%
 
 ---
@@ -22,7 +22,7 @@ JavaScript `targetPageParams` 函式用於將參數傳遞到中的全局框 [!DN
 
 >[!NOTE]
 >
->如果要將參數添加到頁面上的所有框，而不只是全局框，請使用 [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/) 的子菜單。
+>如果要將參數添加到頁面上的所有框，而不只是全局框，請使用 [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}函式。
 
 您可以透過下列任何方式，利用 `target-global-mbox` 函數將參數傳入 `targetPageParams()`:
 

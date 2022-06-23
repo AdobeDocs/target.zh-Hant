@@ -5,10 +5,10 @@ title: at.js的每個版本中包含什麼？
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4570'
-ht-degree: 86%
+source-wordcount: '4584'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 86%
 >
 >目標團隊支援兩個at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。
 >
->中的標籤 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 是升級at.js的首選方法。 擴展開發人員不斷向其擴展添加新功能，並經常修復錯誤。 這些更新被打包到擴展的新版本中，並在 [!DNL Adobe Experience Platform] 編錄為升級。 有關詳細資訊，請參見 [擴展升級](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 的 *標籤概述* 的子菜單。
+>中的標籤 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}是升級at.js的首選方法。 擴展開發人員不斷向其擴展添加新功能，並經常修復錯誤。 這些更新被打包到擴展的新版本中，並在 [!DNL Adobe Experience Platform] 編錄為升級。 有關詳細資訊，請參見 [擴展升級](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 的 *標籤概述* 的子菜單。
 
 ## at.js 2.9.0 版 (2022 年 5 月 27 日)
 
-* 新增的「[使用者代理用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)」支援。
+* 已添加 [用戶代理客戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}支援。
 * 修正了同一個頁面上多個 mbox 請求有不同印象 ID 的問題。
 
 ## at.js 2.8.1 版 (2022 年 1 月 28 日)
@@ -68,7 +68,7 @@ ht-degree: 86%
 
 此 at.js 版本包含下列增強功能和變更：
 
-* [針對 at.js 的裝置上決策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/)支援。
+* [設備上決策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}對at.js的支援。
 * [預覽連結](/help/main/c-activities/c-activity-qa/activity-qa.md)對 Automated Personalization 活動的支援
 
 此版本也會移除對 Microsoft Internet Explorer 10 和更高版本的支援。
@@ -117,7 +117,7 @@ ht-degree: 86%
 
 此 at.js 版本為維護版本，包含下列增強功能和修正：
 
-* 支援在應用已交付的目標提供時，將內容安全策略設定為附加到頁DOM的SCRIPT和STYLE標籤上的不可用項。 客戶可以設定 `targetGlobalSettings.cspScriptNonce` 和 `targetGlobalSettings.cspStyleNonce` 以便at.js可以在應用的優惠中設定相應的指令碼和樣式標籤。 請參閱  [目標全局設定](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 的子菜單。
+* 支援在應用已交付的目標提供時，將內容安全策略設定為附加到頁DOM的SCRIPT和STYLE標籤上的不可用項。 客戶可以設定 `targetGlobalSettings.cspScriptNonce` 和 `targetGlobalSettings.cspStyleNonce` 以便at.js可以在應用的優惠中設定相應的指令碼和樣式標籤。 請參閱  [目標全局設定](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}以瞭解詳細資訊。
 * 使用Google關閉編譯器編譯at.js(用於Google標籤管理器部署)時，已修復問題。
 * 已從中更名at.js檢查cookie `check` 至 `at_check` 以避免與客戶的實施發生衝突。
 
@@ -231,17 +231,17 @@ at.js 2.x 引進以下新函數:
 * mboxDefine
 * registerExtension()
 
-如需詳細資訊，請參閱[從 at.js 1.x 升級為 at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 與 [at.js 函數](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。
+有關詳細資訊，請參見 [從at.js 1.x升級到at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank和 [at.js函式](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。
 
 >[!NOTE]
 >
->如果您需要[一般資料保護規範](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR) 的 Adobe 選擇加入支援，目前必須使用 at.js 1.7.0。
+>如果您需要Adobe選擇支援， [一般資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR)，您當前必須使用at.js 1.7.0或at.js 2.1.0。
 
 ## at.js 版本 1.7.0 {#at-js-170}
 
 at.js 1.7.0 提供 Adobe 選擇加入支援。「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。
 
-如需 Adobe 選擇加入的詳細資訊，請參閱[隱私權與一般資料保護規範 ](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR)。
+有關Adobe選擇加入的詳細資訊，請參見 [隱私與一般資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR)。
 
 此版本也修正 Target 可能將重新導向 URL 參數覆寫為來自重新導向 URL 之參數的問題。
 

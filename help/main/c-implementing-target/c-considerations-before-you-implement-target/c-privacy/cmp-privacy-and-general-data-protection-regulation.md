@@ -5,9 +5,9 @@ title: ' [!DNL Target] 如何處理隱私權與資料保護規範？'
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2229'
+source-wordcount: '2231'
 ht-degree: 98%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 98%
 
 ## Adobe [!DNL Target] 和 [!DNL Adobe Experience Platform] 選擇加入 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] 透過 [!DNL Adobe Experience Platform] 中的標記支援選擇加入功能，可協助支援您的知情同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。若要啟用在 [!DNL Target] at.js 程式庫中使用選擇加入的功能，您應使用 `targetGlobalSettings` 並新增 `optinEnabled=true` 設定。在 [!DNL Adobe ExperiencePlatform] 中，從延伸模組安裝檢視中的 [!UICONTROL GDPR 選擇加入]下拉式清單中選取「啟用」。 如需詳細資訊，請參閱[實作  [!DNL Target]  - 使用  [!DNL Adobe Experience Platform]。](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+[!DNL Target] 透過 [!DNL Adobe Experience Platform] 中的標記支援選擇加入功能，可協助支援您的知情同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。若要啟用在 [!DNL Target] at.js 程式庫中使用選擇加入的功能，您應使用 `targetGlobalSettings` 並新增 `optinEnabled=true` 設定。在 [!DNL Adobe ExperiencePlatform] 中，從延伸模組安裝檢視中的 [!UICONTROL GDPR 選擇加入]下拉式清單中選取「啟用」。 請參閱 [實施 [!DNL Target] 使用 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}以瞭解詳細資訊。
 
 下列程式碼片段會向您示範如何啟用 `optinEnabled=true` 設定:
 

@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1036'
 ht-degree: 94%
 
 ---
@@ -94,6 +94,6 @@ ht-degree: 94%
 |  | [建立受眾](/help/main/c-target/c-audiences/audiences.md) | 已新增 [!DNL Adobe Experience Platform] 受眾的相關資訊。 |
 |  | [合併多個受眾](/help/main/c-target/combining-multiple-audiences.md) | 已新增 [!DNL Adobe Experience Platform] 受眾的相關資訊。 |
 | 1 月 21 日 | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | 已新增關於 at.js 1.8.3 版的資訊。 |
-| 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立受眾」 |
+| 1 月 19 日 | [從 at.js 1.** 升級為 at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立受眾」 |
 | 1 月 12 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 Target Standard/Premium 22.1.1 版的相關資訊。 |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 新增教學課程的連結，其中包括如何使用 Web SDK 實作 [!DNL Adobe Experience Cloud] 的指示。 |

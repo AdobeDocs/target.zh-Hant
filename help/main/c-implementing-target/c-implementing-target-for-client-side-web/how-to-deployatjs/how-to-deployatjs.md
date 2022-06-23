@@ -5,7 +5,7 @@ title: 如何部署at.js?
 feature: Implement Server-side
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 16%
@@ -25,7 +25,7 @@ ht-degree: 16%
    >[!DNL Adobe Experience Platform Launch] 已經過品牌重塑，現在是 [!DNL Adobe Experience Platform] 中的一套資料彙集技術。 因此，所有產品文件中出現了幾項術語變更。請參閱以下內容 [文檔](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) 的下一頁。
 
 * **[在沒有標籤管理器的情況下實現目標](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)**:無需使用標籤管理器即可實現目標(例如， [!DNL Adobe Experience Platform])。
-* **使用第三方標籤管理器實現目標**: [中的標籤 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) is the preferred method to implement Target; however, you can also implement Target using a third-party tag manager, including Tealium, Ensighten, and Google Tag. For a list of benefits of using Launch, see [Advantages of implementing at.js using the [!DNL Adobe Target] 擴展](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)。
+* **使用第三方標籤管理器實現目標**: [中的標籤 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} is the preferred method to implement Target; however, you can also implement Target using a third-party tag manager, including Tealium, Ensighten, and Google Tag. For a list of benefits of using Launch, see [Advantages of implementing at.js using the [!DNL Adobe Target] 擴展](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)。
 
    但是，如果您知道如何實施 [!DNL Target] 如果沒有標籤管理器，您就可以輕鬆地使用第三方標籤管理器來實現，而不是在站點代碼中使用硬編碼at.js。
 

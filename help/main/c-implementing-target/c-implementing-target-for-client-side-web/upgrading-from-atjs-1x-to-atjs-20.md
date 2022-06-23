@@ -5,10 +5,10 @@ title: 如何從at.js 1.x版升級到2.x版？
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2874'
-ht-degree: 88%
+source-wordcount: '2878'
+ht-degree: 87%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 88%
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 部署 at.js 2.*x* 通過標籤 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 擴展。
+1. 部署 at.js 2.*x* 通過標籤 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}擴展。
 
    >[!NOTE]
    >
@@ -368,7 +368,7 @@ at.js 2 *x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 | [!DNL Adobe Experience Platform] 擴展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | 除錯程式 | 是 |
 | Auditor | 尚未針對 at.js 2.*x* 更新規則 |
-| 選擇加入 | 無。[at.js 版本 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 支援 [GDPR 的選擇加入支援](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。 |
+| 選擇加入 | 無。選擇加入支援 [格德普](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}支援 [at.js版本2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。 |
 | 採用 Adobe Target 技術的 AEM 增強型個人化 | 無 |
 
 ### 功能

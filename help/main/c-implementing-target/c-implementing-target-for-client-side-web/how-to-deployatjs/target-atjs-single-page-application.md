@@ -5,9 +5,9 @@ title: 能否實施 [!DNL Target] 是SPA否？
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2788'
+source-wordcount: '2790'
 ht-degree: 70%
 
 ---
@@ -233,7 +233,7 @@ SPA 相關最佳實務如下:
 * 在檢視開始呈現前觸發自訂事件
 * 在檢視完成呈現時觸發自訂事件
 
-at.js 2.x 已新增新的 API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) 函數。您應使用 `triggerView()` 通知 at.js 檢視將開始呈現。
+at.js 2.x添加了一個新API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}函式。 您應使用 `triggerView()` 通知 at.js 檢視將開始呈現。
 
 若要查看如何合併自訂事件、at.js 2.x 和 Analytics，請參考以下範例。此範例假設 HTML 頁面包含訪客 API，隨後是 at.js 2.x，隨後是 AppMeasurement。
 

@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe中使用集合 [!DNL Target] Recommendations�
 title: 如何在Recommendations活動中使用收藏？
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '886'
+ht-degree: 59%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 60%
 
    ![懸停錶徵圖：編輯、複製和刪除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](https://developer.adobe.com/target/implement/recommendations/)，瞭解如何變更預設主機群組。
+   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank}以更改預設主機組。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立集合」]**。
 

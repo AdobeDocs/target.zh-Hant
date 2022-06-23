@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 95%
+source-wordcount: '514'
+ht-degree: 92%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 95%
 
 此版本包含下列增強功能和修正：
 
-* 新增的「[使用者代理用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)」支援。
+* 已添加 [用戶代理客戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}支援。
 * 修正在「[!UICONTROL 體驗鎖定]」 (XT) 活動中提供「[!UICONTROL 優惠方案決策]」時會斷斷續續引起逾時的問題。 (TNT-44611)
 
 ## at.js 2.9.0 版 (2022 年 5 月 27 日)
 
-* 新增的「[使用者代理用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)」支援。
+* 已添加 [用戶代理客戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}支援。
 * 修正了同一個頁面上多個 mbox 請求有不同印象 ID 的問題。
 
 ## 額外的發行說明和版本詳細資料

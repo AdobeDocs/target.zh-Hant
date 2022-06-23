@@ -4,10 +4,10 @@ description: 瞭解如何解決Adobe中有時出現的問題 [!DNL Target] 在�
 title: 如何排除與Enhanced Experience Composer相關的問題？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 49%
+source-wordcount: '448'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 49%
 
    ![](assets/firefox_more_info_3.png)
 
-1. 如果發現網站顯示 TLS 1.0，請參閱 [TLS (傳輸層安全性) 加密變更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)，獲得 Target 的 TLS 支援政策相關資訊。若要補救目前狀況 (2018 年 9 月 12 日前有效)，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得您的 TLS 版本和網域的組態。
+1. 如果發現網站顯示 TLS 1.0，請參閱 [TLS（傳輸層安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}，瞭解有關目標的TLS支援策略的資訊。 若要補救目前狀況 (2018 年 9 月 12 日前有效)，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得您的 TLS 版本和網域的組態。
 
 ## 載入已啟用 Proxy 的網站時，我看到逾時或「拒絕存取」錯誤。(僅限 EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 

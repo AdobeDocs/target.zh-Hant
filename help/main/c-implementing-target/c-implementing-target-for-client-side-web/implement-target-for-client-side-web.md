@@ -5,9 +5,9 @@ title: 如何實施 [!DNL Target] 用於客戶端Web
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 27%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 27%
 
 * [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)
 
-   的 [!UICONTROL Adobe Experience PlatformWeb SDK] 允許您與 [!DNL Experience Cloud] (包括 [!DNL Target])。 如果選擇遷移到 [!DNL Adobe Experience Platform Web SDK]，請參閱 [什麼是Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) 的 *Web SDK指南*。
+   的 [!UICONTROL Adobe Experience PlatformWeb SDK] 允許您與 [!DNL Experience Cloud] (包括 [!DNL Target])。 如果選擇遷移到 [!DNL Adobe Experience Platform Web SDK]，請參閱 [什麼是Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} *Web SDK指南*。
 
 * [目標at.js JavaScript庫](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
-   at.js JavaScript庫改進了Web實現的頁面載入時間，提高了安全性，並為單頁應用程式提供了更好的實現選項。 如果選擇遷移到at.js，請參閱 [At.js工作原理](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) 和 [Adobe Target技能構建器：開發人員聊天，將Adobe Target的mbox.js遷移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+   at.js JavaScript庫改進了Web實現的頁面載入時間，提高了安全性，並為單頁應用程式提供了更好的實現選項。 如果選擇遷移到at.js，請參閱 [At.js工作原理](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank和 [Adobe Target技能構建器：開發人員聊天，將Adobe Target的mbox.js遷移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 
 

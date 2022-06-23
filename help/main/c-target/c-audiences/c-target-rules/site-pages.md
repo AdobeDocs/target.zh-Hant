@@ -4,9 +4,9 @@ description: 瞭解如何使用 [!DNL Adobe Target] 在您網站的特定頁面�
 title: 我是否可以基於網站頁面來定向訪問者？
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 24%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 24%
 
    如果此行為與您的要求不匹配，請考慮執行下列操作之一：
 
-   * 通過 [mbox參數](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) 至 [!DNL Target] 用於目標。
+   * 通過 [mbox參數](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank到 [!DNL Target] 用於目標。
    * 使用 [A/BTest活動](/help/main/c-activities/t-test-ab/test-ab.md) 而不是登錄頁活動。 A/BTest活動不會為同一訪問者切換體驗。
    * 使用 [訪問者簡介](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) 的雙曲餘切值。
 

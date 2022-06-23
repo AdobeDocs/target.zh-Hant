@@ -5,9 +5,9 @@ title: 如何使用Experience PlatformWeb SDK實現？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 16%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 16%
 | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 重定向功能使訪問者的瀏覽器重定向到新頁面。<br>請參閱 [是否 [!DNL Adobe Experience Platform Web SDK] 支援A4T重定向服務？](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [回應權杖](/help/main/administrating-target/response-tokens.md) | 響應令牌允許您將目標資料發送到Google Analytics和其他第三方整合。<br>請參閱 [通過平台Web SDK向Google Analytics發送資料](/help/main/administrating-target/response-tokens.md#platform-web-sdk) 查看如何完成此任務的代碼示例。 |
 | [單頁應用程式實現](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 的 *平台Web SDK概述* 的子菜單。 | [!UICONTROL Adobe Experience PlatformWeb SDK] 提供豐富的功能，使您的企業能夠在新一代客戶端技術（如單頁應用程式）上執行個性化SPA化。 |
-| [TLS (傳輸層安全性) 加密變更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS（傳輸層安全性）可幫助您維護最高的安全標準並提升客戶資料的安全性。 |
+| [TLS (傳輸層安全性) 加密變更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS（傳輸層安全性）{target=_blank}可幫助您維護最高的安全標準並提升客戶資料的安全性。 |

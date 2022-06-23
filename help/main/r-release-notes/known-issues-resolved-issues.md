@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
    若要解決此問題，可在體驗內容中使用空白字元。
 
-   at.js 2.2.0 已修正此問題。請升級至 [at.js 最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)，或僅針對 2.2.0 之前的 at.js 版本使用上述因應措施。(TNT-33366)
+   at.js 2.2.0中包含瞭解決此問題的修復。升級到 [最新版本或at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}或僅對2.2.0之前的at.js版本使用上述解決方法。  (TNT-33366)
 
 * 使用 2.2.0 之前的 at.js 版本，如果頁面元素上沒有 [!DNL Adobe Analytics] 代碼 (例如按鈕)，點按追蹤不會報告 [!UICONTROL Analytics for Target] (A4T) 中的轉換。
 
-   at.js 2.2.0 已針對此問題導入修正程式。如果您發生此問題，[請升級至 at.js 最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+   已在at.js 2.2.0中為此問題引入了修復。 [請升級到最新的at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（如果遇到此問題）。
 
 ### 地理目標定位
 

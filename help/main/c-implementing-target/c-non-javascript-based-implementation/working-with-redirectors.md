@@ -5,10 +5,10 @@ title: 如何與Redirectors合作？
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 70%
+source-wordcount: '691'
+ht-degree: 68%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 70%
 1. 如果要測試某個廣告的不同目的地，請分別為每個版本建立[重新導向選件](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 1. 建立促銷活動。
 
-   請參閱[非 JavaScript 型實作](https://developer.adobe.com/target/implement/email/)，以瞭解符合您目標的正確設定。
+   請參閱 [基於非JavaScript的實現](https://developer.adobe.com/target/implement/email/){target=_blank}，用於正確設定以實現目標。
 1. 完成促銷活動上的品質保證。
 
    以包含重新導向程式 URL 的 `<a href>` 建立一個虛擬頁面。範例:

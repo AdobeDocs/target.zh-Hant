@@ -5,10 +5,10 @@ title: at.js如何管理閃變？
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 66%
+source-wordcount: '693'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 66%
 
 ## 使用自動建立的全局框 {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-若您在設定 at.js 時啟用了[「自動建立全域 Mbox」](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/)設定，at.js 會透過變更頁面載入時的不透明度設定，來處理忽隱忽現的情形。at.js載入時，會將元素的不透明度設定變更為「0」，`<body>`讓訪客一開始無法看到頁面。接收到 Target 回應後，或若偵測到 Target 要求有錯誤，at.js 會將不透明度重設為「1」。這種做法可確保訪客只能在活動內容套用之後才看得到頁面。
+如果啟用 [自動建立全局框](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/)配置at.js時，{target=_blank}設定at.js通過更改頁面載入時的不透明度設定來管理閃爍。 當at.js載入時，它將更改 `<body>` 元素到「0」，使訪問者最初不能看到該頁面。 接收到 Target 回應後，或若偵測到 Target 要求有錯誤，at.js 會將不透明度重設為「1」。這種做法可確保訪客只能在活動內容套用之後才看得到頁面。
 
 如果您在設定 at.js 時啟用此設定，則 at.js 會將 HTML BODY 樣式不透明度設定為 0。收到來自 Target 的回應之後，at.js 會將 HTML BODY 不透明度重設為 1。
 

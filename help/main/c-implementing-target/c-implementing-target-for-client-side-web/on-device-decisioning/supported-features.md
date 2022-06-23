@@ -5,9 +5,9 @@ title: 設備上決策支援哪些功能
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 13%
 
 ---
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-但是，如果您無法在伺服器上執行IP到Geo查找，但您仍希望對 [get優惠](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 包含基於地域的受眾的請求，也支援此功能。 此方法的缺點是它使用遠程IP到Geo查找，這會增加每個查找的延遲 `getOffers` 呼叫。 此延遲應低於 `getOffers` 通過伺服器端決策調用，因為它命中了靠近伺服器的CDN。 請求SDK檢索訪問者IP地址的地理位置時，請僅提供Geo對象中的「ipAddress」欄位。 如果除「ipAddress」之外還提供了其他欄位， [!DNL Target] SDK將不提取用於解析的地理位置元資料。
+但是，如果您無法在伺服器上執行IP到Geo查找，但您仍希望對 [get優惠](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}請求包含基於地域的受眾，也支援此功能。 此方法的缺點是它使用遠程IP到Geo查找，這會增加每個查找的延遲 `getOffers` 呼叫。 此延遲應低於 `getOffers` 通過伺服器端決策調用，因為它命中了靠近伺服器的CDN。 請求SDK檢索訪問者IP地址的地理位置時，請僅提供Geo對象中的「ipAddress」欄位。 如果除「ipAddress」之外還提供了其他欄位， [!DNL Target] SDK將不提取用於解析的地理位置元資料。
 
 ```javascript
 window.adobe.target.getOffers({ 

@@ -5,10 +5,10 @@ title: at.js的常見問題和答案是什麼？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2586'
-ht-degree: 59%
+source-wordcount: '2590'
+ht-degree: 57%
 
 ---
 
@@ -205,7 +205,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 基礎頁是 [!UICONTROL 單頁應用程式] (SPA)或頁面包含的元素在頁面和 [!DNL at.js] 「selector輪詢機制」找不到這些元素。 提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 * 任何點擊追蹤量度會嘗試將本身新增至每個頁面，而不論設定此量度的 URL。雖然無害，但此狀況會導致這些訊息大量出現。
 
-   為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。如需詳細資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)和[下載 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
+   為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。有關詳細資訊，請參見 [at.js版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank和 [下載地址：.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
 
 ## 什麼是域t.omtrdc.net [!DNL Target] 伺服器呼叫轉到？ {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ Secure 只有在頁面是經由 HTTPS 來載入時，能透過 JavaScript 設定
 
 ## 在最好的情況下，我們能否期望使用者在隱藏、取代，和顯示內容方面，不會受到任何頁面載入上的可見影響? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js嘗試在較長時間內避免預隱藏HTMLBODY或其他DOM元素，但這取決於網路條件和活動設定。 at.js 提供的[設定](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)可用於自訂隱藏 CSS 樣式的 BODY 設定，如此一來您就可以僅預先隱藏頁面的某些部份，而不用隱藏整個 HTML BODY。期望是那些部分包含了必須「個人化」的 DOM 元素。
+at.js嘗試在較長時間內避免預隱藏HTMLBODY或其他DOM元素，但這取決於網路條件和活動設定。 at.js提供 [設定](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}可用於自定義BODY隱藏CSS樣式，這樣，您就不能隱藏整個HTMLBODY，而只能預隱藏頁面的某些部分。 期望是那些部分包含了必須「個人化」的 DOM 元素。
 
 ## 在使用者符合活動資格的一般情況下，事件的序列為何? {#section_56E6F448E901403FB77DF02F44C44452}
 

@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理隱私問題？'
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -69,4 +69,4 @@ https://my.cname.domain/optout?client=clientcode.
 
 ## 隱私權與資料保護規範
 
-請參閱[隱私權與資料保護規範](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)，以取得有關歐盟一般資料保護規範 (GDPR)、加州消費者隱私保護法 (CCPA) 及其他國際隱私規定的資訊，並了解這些規定對貴組織和 Adobe Target 有何影響。
+請參閱 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}，瞭解有關歐盟的一般資料保護條例(GDPR)、加利福尼亞消費者隱私法(CCPA)和其他國際隱私要求的資訊，以及這些法規對您的組織和Adobe Target的影響。

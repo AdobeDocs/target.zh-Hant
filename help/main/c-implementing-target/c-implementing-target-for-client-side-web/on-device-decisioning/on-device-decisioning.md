@@ -5,9 +5,9 @@ title: 設備上決策如何與at.js JavaScript庫一起使用？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3546'
+source-wordcount: '3552'
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ Adobe TargetJS SDK使客戶能夠靈活地在決策資料的效能和新鮮度�
 
 ## 設備上的決策如何工作？
 
-在啟用設備上決策時部署和初始化at.js時， [規則對象](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 包括您對A/B和XT活動、受眾和資產的設備上決策，可從您訪問者最近的Akamai CDN下載，並在訪問者瀏覽器上本地快取。 當從at.js請求檢索經驗時，基於在快取的規則對象中編碼的元資料，在記憶體中做出關於要返回哪些經驗的決定。
+在啟用設備上決策時部署和初始化at.js時， [規則對象](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank}包括您對A/B和XT活動、受眾和資產的設備上決策，將從您訪問者最近的Akamai CDN下載，並在訪問者瀏覽器上本地快取。 當從at.js請求檢索經驗時，基於在快取的規則對象中編碼的元資料，在記憶體中做出關於要返回哪些經驗的決定。
 
 ## 判定方法
 
@@ -222,7 +222,7 @@ JSON規則項目包括元資料，用於通知at.js框是否具有正在運行�
 
    關閉此切換意味著必須重新建立並激活任何設備上決策活動，以便將這些活動包括在生成的規則項目中。 換句話說，在開啟 [!UICONTROL 設備上決策] toggle不包括在規則對象中。
 
-啟用 [!UICONTROL 設備上決策] 切換， [!DNL Target] 開始生成和傳播 [規則對象](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 為你的當事人。
+啟用 [!UICONTROL 設備上決策] 切換， [!DNL Target] 開始生成和傳播 [規則對象](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank}。
 
 >[!IMPORTANT]
 >
@@ -269,7 +269,7 @@ JSON規則項目包括元資料，用於通知at.js框是否具有正在運行�
 
 ### 自定義設定
 
-如果您設定 `decisioningMethod` 在 `window.targetGlobalSettings`，但是要改寫 `decisioningMethod` 根據您的使用案例，您可以通過指定 `decisioningMethod` 在At.js2.5.0+中 [getOffires()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 呼叫。
+如果您設定 `decisioningMethod` 在 `window.targetGlobalSettings`，但是要改寫 `decisioningMethod` 根據您的使用案例，您可以通過指定 `decisioningMethod` 在At.js2.5.0+中 [getOffires()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}調用。
 
 ```javascript
 adobe.target.getOffers({ 

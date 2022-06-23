@@ -5,10 +5,10 @@ title: 使用者代理和用戶端提示
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 96%
+source-wordcount: '1346'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->本文資訊適用於 [at.js 2.9.0 版](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (或更新版本)。
+>本文中的資訊適用於 [at.js版本2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（或更高版本）。
 
 
 每次網頁瀏覽器向伺器發出請求時，請求標題會包含關於瀏覽器和執行瀏覽器環境的資訊。 從網際網路早期開始，這些資料一直都彙總在名為使用者代理的單一字串中。

@@ -5,10 +5,10 @@ title: 什麼整合在.js支援？
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 79%
+source-wordcount: '501'
+ht-degree: 75%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 79%
 | 整合 | 詳細資料 |
 |--- |--- |
 | 其他標記管理員 | at.js 應該可以與非 Adobe 標記管理平台一起使用，但在使用其他廠商所開發的自訂整合功能時請小心。他們的整合可能依賴 at.js 中已不存在的內部 mbox.js 函式。 |
-| 第三方資料提供者 (例如，Demandbase、Bluekai、天氣 API) | 可以使用 at.js [資料提供者](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)功能，與許多用於補充 Target 使用者設定檔的第三方資料提供者整合。。 |
+| 第三方資料提供者 (例如，Demandbase、Bluekai、天氣 API) | 許多用於補充Target用戶配置的第三方資料提供程式可以使用at.js進行整合 [資料提供程式](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}功能。 |

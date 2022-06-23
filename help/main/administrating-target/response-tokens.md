@@ -5,10 +5,10 @@ title: 什麼是響應令牌以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 28%
+source-wordcount: '1680'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 | 目標SDK | 建議的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 確保您正在使用Platform Web SDK 2.6.0或更高版本。 有關下載最新版本的Platform Web SDK的資訊，請參見 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 的 *平台Web SDK概述* 的子菜單。 有關平台Web SDK每個版本中新功能的資訊，請參見 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 的 *平台Web SDK概述* 的子菜單。 |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 確保您正在使用Platform Web SDK 2.6.0或更高版本。 有關下載最新版本的Platform Web SDK的資訊，請參見 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} *平台Web SDK概述* 的子菜單。 有關平台Web SDK每個版本中新功能的資訊，請參見 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 的 *平台Web SDK概述* 的子菜單。 |
 | [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。某些依賴mbox.js（現已棄用）中存在但at.js中不存在的內部方法的插件將被發送但失敗。 |
 
 ## 使用響應令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -149,7 +149,7 @@ ht-degree: 28%
 
 ### ![at.js徽章](/help/main/assets/atjs.png) at.js使用自定義事件
 
-使用 [at.js 自訂事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)接聽 回應並讀取回應 Token。[!DNL Target]
+使用 [at.js自定義事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/){target=_blank}要監聽 [!DNL Target] 並讀取響應令牌。
 
 下列程式碼範例直接將 [!DNL at.js] 自訂事件處理常式新增至 HTML 頁面:
 

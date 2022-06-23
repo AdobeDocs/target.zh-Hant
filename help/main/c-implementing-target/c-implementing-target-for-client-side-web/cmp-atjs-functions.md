@@ -5,10 +5,10 @@ title: 我可以與at.js一起使用哪些功能？
 feature: at.js
 role: Developer
 exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 78%
+source-wordcount: '657'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 | [adobe.target.getOffers(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/)<br>(at.js 2.x) | 此函數可讓您透過傳入多個 mbox 來擷取多個選件。此外，還可針對使用中活動內的所有檢視擷取多個選件。<br>**注意:** 此函數已於 at.js 2.x 推出。此函數不適用於 at.js 版本 1。*x* 版本不支援此函數。 |
 | [adobe.target.applyOffer(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/) | 此函數用來套用回應內容。 |
 | [adobe.target.applyOffers(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffers-atjs-2/)<br>(at.js 2.x) | 此函數可讓您套用多個由 adobe.target.getOffers() 擷取的選件。<br>**注意:** 此函數已於 at.js 2.x 推出。此函數不適用於 at.js 版本 1。*x* 版本不支援此函數。 |
-| [adobe.target.triggerView (viewName, options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)<br>(at.js 2.x) | 每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。<br> 此函數應為單頁應用程式 (SPA) 實作，以便使用可視化體驗撰寫器 (VEC) 來建立 A/B 測試和體驗鎖定目標 (XT) 活動。 |
+| [adobe.target.triggerView (viewName, options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)<br>(at.js 2.x) | 每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。<br> 此函式應用於單頁應用程式(SPA){target=_blank}，以便使用Visual Experience Composer(VEC)建立A/BTest和體驗目標(XT)活動。 |
 | [adobe.target.trackEvent(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-trackevent/) | 此函數會觸發要求以報告使用者動作，例如點擊和轉換。它不會在回應中傳遞活動。 |
 | [mboxCreate(mbox,params)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/mboxcreate-atjs/)<br>(at.js 1.x) | 執行要求並將選件套用至具有 mboxDefault 類別名稱的最接近 DIV。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |
 | [mboxDefine(options) 和 mboxUpdate(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/mboxdefine-mboxupdate-atjs-1x/)<br>(at.js 1.x) | 定義和更新 mbox。<br>**注意:** 此函數適用於 at.js 版本 1。*x* 版。自 at.js 2.x 版起已棄用此函數。如果與 at.js 2.x 搭配使用，此函數會傳回預設內容。 |

@@ -5,10 +5,10 @@ title: 瀏覽器的功能 [!DNL Target] 支援？
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 44%
+source-wordcount: '347'
+ht-degree: 40%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 44%
 * 針對 [!DNL at.js] 實作，[!DNL Target] 會在舊版 Internet Explorer 中並可能在以上所列瀏覽器的舊版本中顯示預設內容。
 * Internet Explorer將所有未知元素（如自定義元素）視為相同的元素類型。 因此，交貨不能與自定義元素一起使用。
 * [!DNL Target] 會在以上未列出的瀏覽器中和使用[怪異模式](https://en.wikipedia.org/wiki/Quirks_mode)的瀏覽器中顯示預設內容。at.js 需要可呈現標準模式的 doctype，例如: `<!DOCTYPE html>`。
-* Adobe 傳送基礎架構已受保護，2018 年 9 月 12 日起不再支援 TLS 1.0 裝置和瀏覽器。請參閱 [TLS (傳輸層安全性) 加密變更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)，瞭解這項變更帶來的整體影響。
+* Adobe 傳送基礎架構已受保護，2018 年 9 月 12 日起不再支援 TLS 1.0 裝置和瀏覽器。請參閱 [TLS（傳輸層安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}以瞭解此更改的整體影響。

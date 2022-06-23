@@ -5,10 +5,10 @@ title: 關於全球框的常見問題是什麼？
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 77%
+source-wordcount: '318'
+ht-degree: 64%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 
 您可以在活動中新增 URL 規則，以限制執行活動的位置。如需詳細資訊，請參閱[在類似頁面上包含相同體驗](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
 
-您也可以使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/) 傳遞頁面上的參數，然後在[!UICONTROL 可視化體驗撰寫器] (VEC) 的「設定 URL」區段中選取參數，或在表單式體驗撰寫器中將參數新增為「細分」。
+也可以使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}，然後在「配置URL」部分中選擇這些參數 [!UICONTROL 視覺體驗作曲家] (VEC)，或通過在基於表單的體驗作曲家中將參數添加為「細化」。
 
 ## 如何將收入資料傳遞到 [!DNL Target] 全局mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 

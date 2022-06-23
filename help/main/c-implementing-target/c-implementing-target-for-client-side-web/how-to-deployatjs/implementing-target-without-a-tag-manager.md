@@ -5,10 +5,10 @@ title: 能否實施 [!DNL Target] 沒有標籤管理器？
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1824'
-ht-degree: 48%
+source-wordcount: '1834'
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->中的標籤 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 是實現的首選方法 [!DNL Target] 和at.js圖書館。 在中使用標籤時不適用以下資訊 [!DNL Adobe Experience Platform] 執行 [!DNL Target]。
+>中的標籤 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}是實現的首選方法 [!DNL Target] 和at.js圖書館。 在中使用標籤時不適用以下資訊 [!DNL Adobe Experience Platform] 執行 [!DNL Target]。
 
 訪問 [!UICONTROL 實施] 的 **[!UICONTROL 管理]** > **[!UICONTROL 實施]**。
 
@@ -42,7 +42,7 @@ ht-degree: 48%
 | --- | --- |
 | [!UICONTROL 用戶端代碼] | 用戶端代碼是使用 [!DNL Target] API 時通常需要的用戶端專用字元序列。 |
 | [!UICONTROL IMS 組織 ID] | 此 ID 會將您的實施連結至 [!DNL Adobe Experience Cloud] 帳戶。 |
-| [!UICONTROL 設備上決策] | 要啟用設備上決策，請將切換滑至「開啟」位置。<br>設備上決策允許您快取A/B和 [!UICONTROL 體驗目標] (XT)在伺服器上開展活動，並在接近零的延遲下執行記憶體內決策。 有關詳細資訊，請參見 [設備上決策簡介](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) 的 *[!DNL Adobe Target]SDK* 的子菜單。 |
+| [!UICONTROL 設備上決策] | 要啟用設備上決策，請將切換滑至「開啟」位置。<br>設備上決策允許您快取A/B和 [!UICONTROL 體驗目標] (XT)在伺服器上開展活動，並在接近零的延遲下執行記憶體內決策。 有關詳細資訊，請參見 [設備上決策簡介](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank} *[!DNL Adobe Target]SDK* 的子菜單。 |
 | [!UICONTROL 在項目中包括所有現有的設備上決策合格活動。] | （條件）如果啟用設備上決策，則顯示此選項。<br>如果希望所有符合設備上決策條件的活動自動包括在項目中，請將切換到「開啟」位置。<br>關閉此切換意味著必須重新建立並激活任何設備上的決策活動，以便將它們包括在生成的規則項目中。 |
 
 ## 實現方法
@@ -59,7 +59,7 @@ ht-degree: 48%
 | --- | --- |
 | 已啟用頁面載入（自動建立全局框） | 選擇是否將全域 mbox 呼叫內嵌在 at.js 檔案中，以便每次載入頁面時自動觸發。 |
 | 全域 mbox | 選取全域 mbox 的名稱。依預設，此名稱為 target-global-mbox。<br>對於 at.js，mbox 名稱中可以使用特殊字元 (包括 &amp;)。 |
-| 超時（秒） | 如果 [!DNL Target] 在已定義的期間內沒有回應內容，伺服器呼叫會逾時，並顯示預設內容。在訪客工作階段期間會繼續嘗試其他呼叫。預設值為 5 秒。<br>at.js 程式庫會使用 `XMLHttpRequest` 中的逾時設定。逾時是在觸發請求時開始計時，而於 [!DNL Target] 從伺服器收到回應時停止。如需詳細資訊，請參閱 Mozilla 開發人員網路上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在收到回應之前就發生指定的逾時，則會顯示預設內容，而訪客可能算為活動的參與者，因為所有資料收集都發生在 [!DNL Target] 邊緣。如果請求到達 [!DNL Target] 邊緣，訪客即納入計算。<br>設定逾時設定時，請考量下列事項:<ul><li>如果值太低，即使訪客應該算為活動的參與者，使用者還是可能幾乎都看到預設內容。</li><li>如果值太高，而如果您長時間使用本文隱藏，訪客可能會在網頁上看到空白區域或空白頁面。</li></ul>若要充分瞭解 mbox 回應時間，請在瀏覽器的開發人員工具中查看「網路」標籤。您也可以使用第三方 Web 效能監控工具，例如 Catchpoint。<br>**注意**: [visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 設定可確保 [!DNL Target] 不會為了訪客 API 回應而等待太久。此設定和這裡說明的 at.js 逾時設定不影響彼此。 |
+| 超時（秒） | 如果 [!DNL Target] 在已定義的期間內沒有回應內容，伺服器呼叫會逾時，並顯示預設內容。在訪客工作階段期間會繼續嘗試其他呼叫。預設值為 5 秒。<br>at.js 程式庫會使用 `XMLHttpRequest` 中的逾時設定。逾時是在觸發請求時開始計時，而於 [!DNL Target] 從伺服器收到回應時停止。如需詳細資訊，請參閱 Mozilla 開發人員網路上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在收到回應之前就發生指定的逾時，則會顯示預設內容，而訪客可能算為活動的參與者，因為所有資料收集都發生在 [!DNL Target] 邊緣。如果請求到達 [!DNL Target] 邊緣，訪客即納入計算。<br>設定逾時設定時，請考量下列事項:<ul><li>如果值太低，即使訪客應該算為活動的參與者，使用者還是可能幾乎都看到預設內容。</li><li>如果值太高，而如果您長時間使用本文隱藏，訪客可能會在網頁上看到空白區域或空白頁面。</li></ul>若要充分瞭解 mbox 回應時間，請在瀏覽器的開發人員工具中查看「網路」標籤。您也可以使用第三方 Web 效能監控工具，例如 Catchpoint。<br>**注釋**:的 [訪問者ApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}設定可確保 [!DNL Target] 不會等待訪問者API響應太長。 此設定和這裡說明的 at.js 逾時設定不影響彼此。 |
 | 設定檔存留期 | 此設定會決定訪客設定檔儲存多久。依預設，訪客設定檔會儲存兩週。此設定最多可增加90天。<br>若要變更「設定檔存留期」設定，請聯絡[客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。 |
 
 ### 一種主要實現方法
@@ -126,7 +126,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 是實現的首選方法 [!DNL Target] 和at.js圖書館。 在中使用標籤時不適用以下資訊 [!DNL Adobe Experience Platform] 執行 [!DNL Target]。
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}是實現的首選方法 [!DNL Target] 和at.js圖書館。 在中使用標籤時不適用以下資訊 [!DNL Adobe Experience Platform] 執行 [!DNL Target]。
 >
 >* 的 [!DNL Target] 團隊支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
@@ -188,7 +188,7 @@ ht-degree: 48%
 
 at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 
-不使用標籤管理器（如中的標籤）的目標的典型實現 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 看起來是這樣的：
+不使用標籤管理器（如中的標籤）的目標的典型實現 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}如下所示：
 
 ```
 <!doctype html> 

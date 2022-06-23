@@ -4,10 +4,10 @@ description: 瀏覽中的選項 [!DNL Adobe Target] [!UICONTROL 視覺體驗作�
 title: 如何使用 [!UICONTROL 視覺體驗作曲家] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 63%
+source-wordcount: '2932'
+ht-degree: 62%
 
 ---
 
@@ -372,7 +372,7 @@ HTML產品最多可達256 KB。
 
 ## 考量事項 {#considerations}
 
-* 如果選件包含 HTML 內容，請參閱 [at.js 如何運作](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)中的「at.js 如何呈現具有 HTML 內容的選件」以取得詳細資訊。
+* 如果聘用包含HTML內容，請參閱中的「How at.js renders offs withHTML內容」 [at.js的工作原理](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}以獲取詳細資訊。
 
 ## 自定義元素支援 {#custom}
 
@@ -380,7 +380,7 @@ VEC支援 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Component
 
 >[!NOTE]
 >
->中支援對自定義元素的VEC支援 [at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 2.7.0（或更高版本）。 確保您的網站部署了所需版本。 如果使用 [Visual Experience Composer幫助程式擴展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，還必須部署所需的at.js版本。 上述VEC選項不可見，可用於不支援的at.js版本。
+>中支援對自定義元素的VEC支援 [at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0（或更高版本）。 確保您的網站部署了所需版本。 如果使用 [Visual Experience Composer幫助程式擴展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，還必須部署所需的at.js版本。 上述VEC選項不可見，可用於不支援的at.js版本。
 >
 >當前不支援對自定義元素的VEC支援 [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)。
 

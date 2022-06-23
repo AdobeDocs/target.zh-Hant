@@ -5,9 +5,9 @@ title: 如何在目標中使用CNAME?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    [!DNL Adobe] Client Care會在實施就緒時通知您。
 
-1. 更新 `serverDomain` ([文檔](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/))到新CNAME主機名並設定 `overrideMboxEdgeServer` 至 `false` ([文檔](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/))。
+1. 更新 `serverDomain` ([文檔](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank}到新CNAME主機名並設定 `overrideMboxEdgeServer` 至 `false` ([文檔](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank}。
 
 ## 常見問題
 
