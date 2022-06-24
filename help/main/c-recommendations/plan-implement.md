@@ -4,15 +4,17 @@ description: '瞭解如何在Adobe Target執行Recommendations活動。 '
 title: 如何實施Recommendations活動？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 975e0f777d13acd324cae66ae98606a985ec0792
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '96'
+ht-degree: 17%
 
 ---
 
 # ![高級](/help/main/assets/premium.png) 規劃和實施 [!DNL Recommendations]
 
-此文章已移到 [Adobe Target開發人員指南](https://developer-stage.adobe.com/target/){target=_blank}。
+開始使用之前 [!DNL Adobe Target Recommendations]，必須完成幾個步驟。
 
-有關詳細資訊，請參見 [規劃和實施Recommendations](https://developer-stage.adobe.com/target/implement/recommendations/){target=_blank}。
+的 [Adobe Target開發人員指南門戶](https://developer.adobe.com/target/){target=_blank}包含有關如何實現的資訊 [!DNL Target] 在您的站點上，以及如何實施 [!DNL Recommendations]。
+
+有關詳細資訊和逐步說明，請參見 [規劃和實施Recommendations](https://developer-stage.adobe.com/target/implement/recommendations/){target=_blank} *Adobe Target開發人員指南* 門戶。
