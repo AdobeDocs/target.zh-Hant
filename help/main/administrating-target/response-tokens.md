@@ -5,10 +5,10 @@ title: 什麼是響應令牌以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 27%
+source-wordcount: '1690'
+ht-degree: 25%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 27%
 
 | 目標SDK | 建議的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 確保您正在使用Platform Web SDK 2.6.0或更高版本。 有關下載最新版本的Platform Web SDK的資訊，請參見 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} *平台Web SDK概述* 的子菜單。 有關平台Web SDK每個版本中新功能的資訊，請參見 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 的 *平台Web SDK概述* 的子菜單。 |
-| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。某些依賴mbox.js（現已棄用）中存在但at.js中不存在的內部方法的插件將被發送但失敗。 |
+| [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 確保您正在使用Platform Web SDK 2.6.0或更高版本。 有關下載最新版本的Platform Web SDK的資訊，請參見 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} *平台Web SDK概述* 的子菜單。 有關平台Web SDK每個版本中新功能的資訊，請參見 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 的 *平台Web SDK概述* 的子菜單。 |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。有關下載at.js最新版本的資訊，請參見 [下載地址：.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}。 有關at.js每個版本中新功能的資訊，請參見 [at.js版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。某些依賴mbox.js（現已棄用）中存在但at.js中不存在的內部方法的插件將被發送但失敗。 |
 
 ## 使用響應令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ ht-degree: 27%
    有關詳細資訊：
 
    * **平台Web SDK**:請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 的 *平台Web SDK概述* 的子菜單。
-   * **at.js**:請參閱 [下載地址：.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
+   * **at.js**:請參閱 [下載地址：.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}。
 
 1. 在 [!DNL Target]按一下 **[!UICONTROL 管理]** > **[!UICONTROL 響應令牌]**。
 

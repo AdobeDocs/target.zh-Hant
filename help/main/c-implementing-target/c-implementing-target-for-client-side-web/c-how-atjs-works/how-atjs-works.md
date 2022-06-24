@@ -5,10 +5,10 @@ title: at.js Javascript 程式庫如何運作？
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 95%
+source-wordcount: '1144'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ## 什麼是 at.js?
 
-at.js 程式庫是適用於 Target 的全新實作程式庫。 at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至[最新版本的 at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+at.js 程式庫是適用於 Target 的全新實作程式庫。 at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 為建議的實作程式庫，且經常更新功能。我們建議所有客戶實作或移轉至 [at.js的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 如需詳細資訊，請參閱 [Target JavaScript 程式庫](/help/main/c-intro/how-target-works.md#libraries)。
 
@@ -37,7 +37,7 @@ at.js 程式庫是適用於 Target 的全新實作程式庫。 at.js 程式庫�
 
 ## at.js 2.x 圖表
 
-下列圖表可協助您瞭解 at.js 2.x 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.x 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
+下列圖表可協助您瞭解 at.js 2.x 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。要更好地介紹at.js 2.x中使用的概念，請參見 [單頁應用程式實現](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![使用 at.js 2.x 的 Target 流程](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -52,7 +52,7 @@ at.js 程式庫是適用於 Target 的全新實作程式庫。 at.js 程式庫�
 | 7 | Analytics 資料傳送至「資料收集」伺服器。 |
 | 8 | 目標資料會透過 SDID 來比對 Analytics 資料，然後經過處理放入 Analytics 報表儲存體中。然後就可以在 Analytics 與 Target 中，透過 Analytics for Target (A4T) 報表來檢視 <br>Analytics 資料。 |
 
-現在，SPA 上只要是有實作 `triggerView()` 的位置，系統都會從快取擷取檢視和動作並向使用者顯示，不需要伺服器呼叫。`triggerView()` 也會對 [!DNL Target] 後端發出通知要求，以便增加和記錄曝光計數。如需針對採用檢視的 SPA 瞭解 at.js 的詳細資訊，請參閱[實作單頁應用程式](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
+現在，SPA 上只要是有實作 `triggerView()` 的位置，系統都會從快取擷取檢視和動作並向使用者顯示，不需要伺服器呼叫。`triggerView()` 也會對 [!DNL Target] 後端發出通知要求，以便增加和記錄曝光計數。有關帶有視圖的at.js的SPA詳細資訊，請參見 [單頁應用程式實現](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![Target 流程 at.js 2.x triggerView](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 

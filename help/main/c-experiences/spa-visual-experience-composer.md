@@ -4,9 +4,9 @@ description: 瞭解如何在AdobeSPA中使用VEC [!DNL Target] 建立test並以�
 title: 如何使用單頁應用程式視覺體驗作曲家(SPAVEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3722'
+source-wordcount: '3726'
 ht-degree: 91%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 91%
 
    ![實作詳細資料對話方塊](/help/main/c-experiences/assets/imp-200.png)
 
-   通過位於以下位置的Adobe TargetUI下載at.js 2.x [!UICONTROL 管理>實施]。 at.js 2.x還可以通過中的標籤進行部署 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)。 但是，Adobe Target的延期目前不是最新的，並受支援。
+   通過位於以下位置的Adobe TargetUI下載at.js 2.x [!UICONTROL 管理>實施]。 at.js 2.x還可以通過中的標籤進行部署 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。 但是，Adobe Target的延期目前不是最新的，並受支援。
 
 1. 實現at.js 2.x的最新功能： [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)您的站點上的{target=_blank}。
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客戶屬性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | 是 |
+| [客戶屬性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | 是 |
 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 支援的功能 {#supported-features}

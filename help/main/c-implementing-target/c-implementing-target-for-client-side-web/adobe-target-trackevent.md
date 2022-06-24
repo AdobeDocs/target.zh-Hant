@@ -5,10 +5,10 @@ title: 如何使用adobe.target.trackEvent()函式？
 feature: at.js
 role: Developer
 exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 67%
+source-wordcount: '337'
+ht-degree: 64%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 67%
 
 此函數會觸發要求以報告使用者動作，例如點擊和轉換。它不會在回應中傳遞活動。
 
-然後這些事件追蹤 mbox 呼叫可以用來定義活動中的量度。如需詳細資訊，請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)和[追蹤轉換](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
+然後這些事件追蹤 mbox 呼叫可以用來定義活動中的量度。有關詳細資訊，請參見 [成功度量](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) 和 [跟蹤轉換](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}。
 
 以下是 API 詳細資料:
 

@@ -5,10 +5,10 @@ title: 如何將資料 [!DNL Target] 是否使用資料提供程式？
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 62%
+source-wordcount: '326'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 `window.targetGlobalSettings.dataProviders` 設定是資料提供者的陣列。
 
-如需各資料提供者結構的詳細資訊，請參閱[資料提供者](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)一節。
+有關每個資料提供程式的結構的詳細資訊，請參見 [資料提供程式](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 示例使用案例
 
@@ -44,7 +44,7 @@ at.js不嘗試快取資料。 如果資料提供者擷取資料一次，則資�
 
 ## 代碼示例
 
-[資料提供者](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)中提供許多範例。
+有幾個示例可在 [資料提供程式](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 相關資訊的連結
 

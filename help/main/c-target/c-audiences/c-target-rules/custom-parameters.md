@@ -4,9 +4,9 @@ description: 瞭解如何將自定義參數傳遞到 [!DNL Adobe Target] 供觀�
 title: 是否可以基於自定義參數瞄準訪問者？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '469'
 ht-degree: 41%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 41%
 
 自定義參數是中的mbox參數 [!DNL Adobe Target]。 如果將任何mbox參數傳遞給mboxes，或使用 `targetPageParams` 函式，這些參數將顯示在此供用戶使用。
 
-有關詳細資訊，請參見 [將參數傳遞到全局框](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/)。
+有關詳細資訊，請參見 [將參數傳遞到全局框](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。
 
 當您根據 mbox 參數建立自訂對象時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 

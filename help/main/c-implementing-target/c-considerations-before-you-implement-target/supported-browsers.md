@@ -5,10 +5,10 @@ title: 瀏覽器的功能 [!DNL Target] 支援？
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 40%
+source-wordcount: '351'
+ht-degree: 39%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 40%
 
 [!DNL Adobe Target] 應用程式和內容傳遞已針對廣泛的瀏覽器和裝置進行測試。
 
-有關TLS的更重要資訊，請參見 [TLS（傳輸層安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)。
+有關TLS的更重要資訊，請參見 [TLS（傳輸層安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}。
 
 ## [!DNL Target] Standard/Premium 介面 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -34,7 +34,7 @@ ht-degree: 40%
 | 裝置類型 | 瀏覽器版本 |
 |--- |--- |
 | 窗口 | <ul><li>Microsoft Internet Explorer 9 和 10. 在模擬模式中測試。<br>**注釋**:at.js 1.3.0（及更高版本）不再支援IE 9上的內容傳遞。 在IE 10、11和所有舊版本上提供內容不再受at.js 2.5.0（及更高版本）支援。</li><li>Internet Explorer 11 <br>**注釋**:在IE 10、11和所有舊版本上提供內容不再受at.js 2.5.0（及更高版本）支援。</li><li>Microsoft邊</li><li>Chrome（最新，最新減1）</li><li>Firefox（最新，最新減1）</li></ul> |
-| Mac | <ul><li>Apple·薩法里（最新）<br>**注釋**:有關Safari如何處理第一方和第三方Cookie的詳細資訊，請參見 [目標Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/)。</li><li>Firefox（最新，最新減1）</li><li>Chrome（最新，最新減1）</li></ul> |
+| Mac | <ul><li>Apple·薩法里（最新）<br>**注釋**:有關Safari如何處理第一方和第三方Cookie的詳細資訊，請參見 [目標Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/){target=_blank}。</li><li>Firefox（最新，最新減1）</li><li>Chrome（最新，最新減1）</li></ul> |
 | 行動裝置/平板電腦 | <ul><li>Apple·iOS（最新）</li><li>Android 裝置和平板電腦 (Android 4 和更新版本)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 請注意：

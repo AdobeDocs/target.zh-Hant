@@ -5,16 +5,16 @@ title: ' [!DNL Target] 如何處理內容安全性原則 (CSP)？'
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 97%
+source-wordcount: '338'
+ht-degree: 90%
 
 ---
 
 # 內容安全性原則 (CSP) 指示
 
-如果您正在使用[內容安全性原則](https://zh.wikipedia.org/wiki/Content_Security_Policy) (CSP) 進行 [!DNL Adobe Target] 實作，您應該在使用 [at.js 2.1 或更新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)時新增下列 CSP 指示：
+如果您使用 [內容安全策略](https://zh.wikipedia.org/wiki/Content_Security_Policy) (CSP) [!DNL Adobe Target] 實現時，應在使用 [at.js 2.1或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}:
 
 * `connect-src` 並將 `*.tt.omtrdc.net` 加入允許清單。 允許將網路要求傳送到 [!DNL Target] 邊緣所需。
 * `style-src unsafe-inline`。 預先隱藏和閃現控制所需。

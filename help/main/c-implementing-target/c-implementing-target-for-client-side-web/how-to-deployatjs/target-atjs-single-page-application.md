@@ -5,10 +5,10 @@ title: 能否實施 [!DNL Target] 是SPA否？
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2790'
-ht-degree: 70%
+source-wordcount: '2794'
+ht-degree: 69%
 
 ---
 
@@ -187,7 +187,7 @@ at.js 2.x 提供豐富的功能，讓貴公司能以新世代用戶端技術為�
 
 ## at.js 2.x 系統圖表
 
-下列圖表可協助您瞭解 at.js 2.x 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.x 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
+下列圖表可協助您瞭解 at.js 2.x 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。要更好地介紹at.js 2.x中使用的概念，請參見 [單頁應用程式實現](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![使用 at.js 2.x 的 Target 流程](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ SPA 相關最佳實務如下:
 * 在檢視開始呈現前觸發自訂事件
 * 在檢視完成呈現時觸發自訂事件
 
-at.js 2.x添加了一個新API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}函式。 您應使用 `triggerView()` 通知 at.js 檢視將開始呈現。
+at.js 2.x添加了一個新API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}函式。 您應使用 `triggerView(){target=_blank}` 通知 at.js 檢視將開始呈現。
 
 若要查看如何合併自訂事件、at.js 2.x 和 Analytics，請參考以下範例。此範例假設 HTML 頁面包含訪客 API，隨後是 at.js 2.x，隨後是 AppMeasurement。
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >您必須觸發 `at-view-start` 和 `at-view-end` 事件。這些事件不是 at.js 自訂事件的一部分。
 
-儘管這些示例使用JavaScript代碼，但如果使用標籤管理器，則所有這些都可以簡化，如中的標籤 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)。
+儘管這些示例使用JavaScript代碼，但如果使用標籤管理器，則所有這些都可以簡化，如中的標籤 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。
 
 如果您按照上述步驟進行，您應該能擁有適用於 SPA 的健全 A4T 解決方案。
 

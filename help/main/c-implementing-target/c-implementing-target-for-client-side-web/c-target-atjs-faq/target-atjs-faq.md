@@ -5,10 +5,10 @@ title: at.js的常見問題和答案是什麼？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2590'
-ht-degree: 57%
+source-wordcount: '2604'
+ht-degree: 55%
 
 ---
 
@@ -113,7 +113,7 @@ at.js 1.0.0版本使載入 [!DNL Target] 庫非同步。
 
 如果您是透過同步 DTM 實作部署 at.js，可透過頁面頂端觸發的頁面載入規則新增預先隱藏的程式碼片段。
 
-如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
+有關詳細資訊，請參見 [如何at.js管理閃變](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}。
 
 ## 與 [!DNL Adobe Experience Manager] 整合(Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ at.js 1.0.0版本使載入 [!DNL Target] 庫非同步。
 
 ## 使用 at.js 時如何防止頁面載入忽隱忽現? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Target 提供幾個方法來防止頁面載入忽隱忽現: 如需詳細資訊，請參閱[使用 at.js 防止忽隱忽現情形](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
+Target 提供幾個方法來防止頁面載入忽隱忽現: 如需詳細資訊，請參閱 [使用at.js防止閃爍](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}。
 
 ## at.js 的檔案大小多大? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ at.js當前使用jQuery的部分，因此您會在at.js的頂部看到MIT許可�
 
 [!DNL Target] 客戶有時使用雲端型例項搭配 [!DNL Target] 進行測試或簡單的概念證明用途。這些網域和許多其他網域均屬於[公用字尾清單](https://publicsuffix.org/list/public_suffix_list.dat)。
 
-如果您使用這些域，則現代瀏覽器不會保存Cookie，除非您自定義 `cookieDomain` 使用targetGlobalSettings()設定。 如需詳細資訊，請參閱[使用雲端型例項搭配 Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)。
+如果您使用這些域，則現代瀏覽器不會保存Cookie，除非您自定義 `cookieDomain` 使用targetGlobalSettings()設定。 有關詳細資訊，請參見 [將基於雲的實例與目標一起使用](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/){target=_blank}。
 
 ## 使用 at.js 時，可以將 IP 位址用作 Cookie 網域嗎? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-可以，只要您使用 [at.js 1.2 版或更新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。[!DNL Adobe] 但強烈建議您保持最新版本。
+是，如果您使用 [at.js 1.2版或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。 [!DNL Adobe] 但強烈建議您保持最新版本。
 
 >[!NOTE]
 >
 >如果您使用 at.js 1.2 版或更新版本，則不需要下列範例。
 
-視您使用 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 的方式而定，在下載 at.js 之前，您可能需要另外修改程式碼。例如，假設您的 [!DNL Target] 實施在各種網站上需要稍微不同的設定，且您無法使用自訂 JavaScript 來動態定義這些設定，請在下載檔案之後和上傳至個別網站之前，手動完成這些自訂。
+取決於您的使用方式 [目標全局設定](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}，您可能需要在下載at.js後對代碼進行其他修改。 例如，假設您的 [!DNL Target] 實施在各種網站上需要稍微不同的設定，且您無法使用自訂 JavaScript 來動態定義這些設定，請在下載檔案之後和上傳至個別網站之前，手動完成這些自訂。
 
 下列範例可讓您使用 `targetGlobalSettings()` at.js 函數，插入程式碼片段來支援 IP 位址:
 
@@ -202,10 +202,10 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 正在動態生成該頁，且at.js找不到該元素。
 * 正在緩慢生成該頁（由於網路速度慢），且at.js在DOM中找不到選擇器。
 * 激活的頁面結構[!UICONTROL y正在運行，已更改。 如果在 ]Visual Experience Composer(VEC)，應收到警告消息。 更新活動，以便找到所有必要的元素。
-* 基礎頁是 [!UICONTROL 單頁應用程式] (SPA)或頁面包含的元素在頁面和 [!DNL at.js] 「selector輪詢機制」找不到這些元素。 提高 `selectorsPollingTimeout` 或許有用。如需詳細資訊，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+* 基礎頁是 [!UICONTROL 單頁應用程式] (SPA)或頁面包含的元素在頁面和 [!DNL at.js] 「selector輪詢機制」找不到這些元素。 提高 `selectorsPollingTimeout` 或許有用。有關詳細資訊，請參見 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 * 任何點擊追蹤量度會嘗試將本身新增至每個頁面，而不論設定此量度的 URL。雖然無害，但此狀況會導致這些訊息大量出現。
 
-   為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。有關詳細資訊，請參見 [at.js版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank和 [下載地址：.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
+   為了獲得最佳結果，請下載並使用最新版本的 [!DNL at.js]。有關詳細資訊，請參見 [at.js版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank和 [下載地址：.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}。
 
 ## 什麼是域t.omtrdc.net [!DNL Target] 伺服器呼叫轉到？ {#section_999C29940E8B4CAD8A957A6B1D440317}
 

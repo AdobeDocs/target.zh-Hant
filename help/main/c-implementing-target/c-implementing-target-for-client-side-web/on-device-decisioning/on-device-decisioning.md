@@ -5,9 +5,9 @@ title: 設備上決策如何與at.js JavaScript庫一起使用？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3560'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ Adobe TargetJS SDK使客戶能夠靈活地在決策資料的效能和新鮮度�
 * 目標受眾
 * 分配方法
 
-有關詳細資訊，請參見 [支援的設備上決策功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)。
+有關詳細資訊，請參見 [支援的設備上決策功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}。
 
 ## 設備上的決策如何工作？
 
@@ -88,7 +88,7 @@ Adobe TargetJS SDK使客戶能夠靈活地在決策資料的效能和新鮮度�
 
 設備上決策可以以超快的速度提供您的體驗和個性化活動，因為決策來自快取的規則項目，其中包含符合設備上決策資格的所有活動。
 
-要瞭解哪些活動符合設備上決策的條件，請參閱 [設備上決策支援的功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)。
+要瞭解哪些活動符合設備上決策的條件，請參閱 [設備上決策支援的功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}。
 
 僅當效能在所有需要決策的頁面中都非常關鍵時，才應使用此決策方法 [!DNL Target]。 此外，請記住，當選擇此判定方法時， [!DNL Target] 不符合設備上決策資格的活動將不會交付或執行。 at.js庫2.5.0+配置為僅查找快取的規則項目以做出決策。
 
@@ -249,7 +249,7 @@ JSON規則項目包括元資料，用於通知at.js框是否具有正在運行�
 
 ### 全局設定
 
-可以配置預設 [!UICONTROL 決策方法] 全部 [!DNL Target] 決定。 各種判定方法 [!UICONTROL 僅伺服器端]。 [!UICONTROL 僅限設備上], [!UICONTROL 混合]。 在目標UI中選擇的判定方法在中配置 `window.targetGlobalSettings` 下 `decisioningMethod` 的子菜單。 瞭解有關 `decisioningMethod` 在 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+可以配置預設 [!UICONTROL 決策方法] 全部 [!DNL Target] 決定。 各種判定方法 [!UICONTROL 僅伺服器端]。 [!UICONTROL 僅限設備上], [!UICONTROL 混合]。 在目標UI中選擇的判定方法在中配置 `window.targetGlobalSettings` 下 `decisioningMethod` 的子菜單。 瞭解有關 `decisioningMethod` 在 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ adobe.target.getOffers({
 
    第一個JSON規則項目生成最多需要10分鐘。
 
-1. 建立並激活 [設備上決策支援的活動類型](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)，並驗證其是否符合設備上決策條件。
+1. 建立並激活 [設備上決策支援的活動類型](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}，並驗證其是否符合設備上的決策條件。
 1. 設定 **[!UICONTROL 決策方法]** 或 **[!UICONTROL &quot;混合&quot;]** 或 **[!UICONTROL &quot;僅設備上&quot;]** 通過at.js設定UI。
 1. 將At.js 2.5.0+下載並部署到您的頁面。

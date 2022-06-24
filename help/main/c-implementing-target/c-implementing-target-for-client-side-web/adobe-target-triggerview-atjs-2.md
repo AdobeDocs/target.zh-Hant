@@ -5,16 +5,16 @@ title: 如何使用adobe.target.triggerView()函式？
 feature: at.js
 role: Developer
 exl-id: 619d5166-d1d9-49a6-9807-338544782e66
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 82%
+source-wordcount: '293'
+ht-degree: 79%
 
 ---
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
-每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。應為單頁應用程式 (SPA) 實作 `adobe.target.triggerView()`，以便使用可視化體驗撰寫器 (VEC) 來建立 A/B 測試和體驗鎖定目標 (XT) 活動。如果沒有在網站上 `adobe.target.triggerView()` 實作，VEC 就無法用於 SPA。如需詳細資訊，請參閱[實作單頁應用程式](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
+每當新頁面載入或頁面上的元件重新呈現時，就可呼叫此函數。應為單頁應用程式 (SPA) 實作 `adobe.target.triggerView()`，以便使用可視化體驗撰寫器 (VEC) 來建立 A/B 測試和體驗鎖定目標 (XT) 活動。如果沒有在網站上 `adobe.target.triggerView()` 實作，VEC 就無法用於 SPA。有關詳細資訊，請參見 [單頁應用程式實現](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 >[!NOTE]
 >

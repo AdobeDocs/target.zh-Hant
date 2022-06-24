@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理 Google 的 Samesite Cookie 政策？'
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 99%
+source-wordcount: '1957'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 從 Chrome 80 開始，網頁開發人員必須明確指定哪些 Cookie 可以跨網站運作。 這是 Google 為了改善網頁上的隱私權和安全性而計劃發佈的眾多公告中的第一個。
 
-有鑑於 Facebook 在隱私和安全性方面正面臨困境，其他各大供應商 (例如 Apple 及現在的 Google) 已快速利用此機會來打造新的身分，以便成為隱私和安全性領域的贏家。 Apple 在今年年初率先宣佈透過 ITP 2.1 及最近的 ITP 2.2 改變其 Cookie 政策。在 ITP 2.1 中，Apple 完全封鎖了第三方 Cookie，並且只會將瀏覽器上建立的 Cookie 保留七天。 在 ITP 2.2 中，Cookie 只會保留一天。 Google 的公告遠不及 Apple 的激進，但也朝著相同的最終目標邁出第一步。 如需有關 Apple 政策的詳細資訊，請參閱 [Apple 智慧追蹤防護 (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/)。
+有鑑於 Facebook 在隱私和安全性方面正面臨困境，其他各大供應商 (例如 Apple 及現在的 Google) 已快速利用此機會來打造新的身分，以便成為隱私和安全性領域的贏家。 Apple 在今年年初率先宣佈透過 ITP 2.1 及最近的 ITP 2.2 改變其 Cookie 政策。在 ITP 2.1 中，Apple 完全封鎖了第三方 Cookie，並且只會將瀏覽器上建立的 Cookie 保留七天。 在 ITP 2.2 中，Cookie 只會保留一天。 Google 的公告遠不及 Apple 的激進，但也朝著相同的最終目標邁出第一步。 有關Apple政策的詳細資訊，請參見 [Apple智慧跟蹤預防(ITP)2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}。
 
 ## 什麼是 Cookie 以及如何加以使用？
 

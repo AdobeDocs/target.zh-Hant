@@ -5,9 +5,9 @@ title: 如何使用targetGlobalSettings()函式？
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2419'
 ht-degree: 29%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 29%
 * **預設值**:正文{不透明度：0 }
 * **說明**:僅在 `globalMboxAutocreate === true` 盡量降低閃爍的可能性。
 
-   如需詳細資訊，請參閱 [at.js 處理忽隱忽現情況的方式](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
+   有關詳細資訊，請參見 [如何at.js管理閃變](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}。
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ ht-degree: 29%
 
 * **類型**:布爾型
 * **預設值**:假
-* **說明**: [!DNL Target] 通過 [!DNL Adobe Experience Platform] 幫助支援您的同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。在中啟用選擇加入功能 [!DNL Target] at.js庫，添加 `optinEnabled=true` 的子菜單。 在 [!DNL Adobe Experience Platform] 必須從 [!UICONTROL GDPR選擇加入] 下拉清單。 查看 [Adobe Experience Platform文檔](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}以瞭解詳細資訊。 有關此設定的詳細資訊，如與隱私和資料保護法規有關，包括歐盟的一般資料保護法規(GDPR)和加利福尼亞消費者隱私法(CCPA)，請參見 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。
+* **說明**: [!DNL Target] 通過 [!DNL Adobe Experience Platform] 幫助支援您的同意管理策略。 選擇加入功能可讓客戶控制引發 [!DNL Target] 標記的方法和時機。也可選擇透過 [!DNL Adobe Experience Platform] 預先核准 [!DNL Target] 標記。在中啟用選擇加入功能 [!DNL Target] at.js庫，添加 `optinEnabled=true` 的子菜單。 在 [!DNL Adobe Experience Platform] 必須從 [!UICONTROL GDPR選擇加入] 下拉清單。 查看 [Adobe Experience Platform文檔](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}以瞭解詳細資訊。 有關此設定與隱私和資料保護法規(包括歐盟的一般資料保護法規(GDPR){target=_blank}和加利福尼亞消費者隱私法(CCPA))相關的詳細資訊，請參見 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}。
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ window.targetGlobalSettings = {
 您必須將 [!DNL Target]。
 
 * **伺服器端**:必須使用新 [傳遞API](https://developers.adobetarget.com/api/delivery-api/) 或 [目標SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
-* **客戶端**:必須使用 [at.js 2.2或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+* **客戶端**:必須使用 [at.js 2.2或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 ### 代碼示例
 

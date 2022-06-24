@@ -4,9 +4,9 @@ description: 瞭解如何在 [!DNL Adobe Target]。
 title: 如何使用受眾清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1341'
 ht-degree: 26%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 26%
 
    >[!NOTE]
    >
-   >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)。 從 [!DNL Adobe Experience Platform] 可以按原樣或 [結合現有觀眾](/help/main/c-target/combining-multiple-audiences.md)。
+   >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。 從 [!DNL Adobe Experience Platform] 可以按原樣或 [結合現有觀眾](/help/main/c-target/combining-multiple-audiences.md)。
    >
    >用戶必須 [!UICONTROL 批准者] 或高於 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目標] AEP/RTCDP中的卡([!DNL Real-time Customer Data Platform])。
    >

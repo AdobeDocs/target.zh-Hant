@@ -5,9 +5,9 @@ title: 是否可以使用舊式實施中的全局框？
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 35%
 
 ---
@@ -44,4 +44,4 @@ ht-degree: 35%
 
 ### 全域 mbox 為什麼不會載入，或為什麼頁面載入時載入全域 mbox 發生延遲?
 
-確保at.js引用是該頁上的第一個JavaScript調用。 有關此問題的其他解決方案，請參見 [Global Mbox常見問題](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)。
+確保at.js引用是該頁上的第一個JavaScript調用。 有關此問題的其他解決方案，請參見 [Global Mbox常見問題](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}。

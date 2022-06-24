@@ -5,10 +5,10 @@ title: 如何從at.js 1.x版升級到2.x版？
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 87%
+source-wordcount: '2888'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 ## at.js 2.*x* 系統圖表
 
-下列圖表可協助您瞭解 at.js 2.*x* 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。如需 at.js 2.*x* 中所使用概念的詳細介紹，請參閱[實作單頁應用程式](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
+下列圖表可協助您瞭解 at.js 2.*x* 搭配檢視的工作流程，以及如何藉由這套工作流程增強 SPA 整合。更好地介紹at.js 2中使用的概念。*x*，請參閱 [單頁應用程式實現](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![使用 at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png) 的 Target 流程
 
@@ -62,7 +62,7 @@ ht-degree: 87%
 
    或
 
-   使用 Target UI 手動下載 at.js 2.*x*，並使用[您所選擇的方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)進行部署。
+   手動下載at.js 2。*x* 使用目標UI，並使用 [選擇的方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}。
 
 ## 棄用的 at.js 函數
 
@@ -72,7 +72,7 @@ at.js 2.*x* 已棄用多個函數。
 >
 >如果部署 at.js 2.*x* 時您的網站上仍使用這些已棄用的函數，便會顯示主控台警告。建議的升級做法是在預備環境中測試 at.js 2.*x* 部署，並確實逐一瀏覽每個記錄到主控台中的警告，並將棄用的函數轉譯為 at.js 2.*x* 中推出的新函數。
 
-已棄時的函數及其對應的新函數如下所列。如需完整的函數清單，請參閱 [at.js 函數](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。
+已棄時的函數及其對應的新函數如下所列。有關函式的完整清單，請參見 [at.js函式](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}。
 
 >[!NOTE]
 >at.js 2 *x* 不再自動預先隱藏標示為 `mboxDefault` 的元素。因此客戶必須在網站上或透過標籤管理程式，手動提供預先隱藏邏輯。
@@ -365,10 +365,10 @@ at.js 2 *x* 使用新的 API，我們稱之為「傳送 API」。若要針對 at
 | 對象 | 是 |
 | 客戶屬性 | 是 |
 | AEM 體驗片段 | 是 |
-| [!DNL Adobe Experience Platform] 擴展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] 擴展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | 除錯程式 | 是 |
 | Auditor | 尚未針對 at.js 2.*x* 更新規則 |
-| 選擇加入 | 無。選擇加入支援 [格德普](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}支援 [at.js版本2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。 |
+| 選擇加入 | 無。選擇加入支援 [格德普](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}支援 [at.js版本2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。 |
 | 採用 Adobe Target 技術的 AEM 增強型個人化 | 無 |
 
 ### 功能

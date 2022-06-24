@@ -5,9 +5,9 @@ title: 在何處可以瞭解 [!DNL Target] 伺服器端交付API和SDK?
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 21%
 
 ---
@@ -53,6 +53,6 @@ ht-degree: 21%
 
 ## Target Recommendations API
 
-連結： [目標RecommendationsAPI](https://developer.adobe.com/target/)。
+連結： [目標RecommendationsAPI](https://developer.adobe.com/target/){target=_blank}。
 
 RecommendationsAPI允許您以寫程式方式與 [!DNL Target] 建議伺服器。 這些API可以與一系列應用程式堆棧整合，以執行通常通過 [!DNL Target] 用戶介面。

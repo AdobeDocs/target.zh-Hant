@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理隱私問題？'
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 92%
+source-wordcount: '758'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 收集個別功能使用情況資料以供內部 [!DNL Adobe] 用來識別 [!DNL Target] 功能的執行是否如預期或是識別未被充分利用的功能。 收集各種延遲測量結果來協助解決效能問題。 不會收集個人資料。
 
-您可以在用戶端初始化選項中將 `telemetryEnabled` 設定為 false 來選擇退出我們 SDK 中的使用資料報告。 如需詳細資訊，請參閱 [targetGlobalSettings 中的 telemetryEnabled](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+您可以在用戶端初始化選項中將 `telemetryEnabled` 設定為 false 來選擇退出我們 SDK 中的使用資料報告。 有關詳細資訊，請參見 [targetGlobalSettings中的遙測已啟用](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 收集 IP 位址 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -69,4 +69,4 @@ https://my.cname.domain/optout?client=clientcode.
 
 ## 隱私權與資料保護規範
 
-請參閱 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}，瞭解有關歐盟的一般資料保護條例(GDPR)、加利福尼亞消費者隱私法(CCPA)和其他國際隱私要求的資訊，以及這些法規對您的組織和Adobe Target的影響。
+請參閱 [隱私和資料保護法規](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}，瞭解有關歐盟的一般資料保護法規(GDPR){target=_blank}、加利福尼亞消費者隱私法(CCPA)和其他國際隱私要求的資訊，以及這些法規對您的組織和Adobe Target的影響。

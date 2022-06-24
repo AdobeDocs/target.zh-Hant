@@ -5,10 +5,10 @@ title: 如何為影像建立廣告框？
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 66%
+source-wordcount: '341'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 66%
 
 AdBox 類似 mbox，不過它是由 URL 來控制，而非 JavaScript。AdBox 是使用特殊的「AdBox URL」建立，此 URL 會將「廣告」mbox (或 AdBox) 載入到您的 Adobe 帳戶。請在您的活動中使用此 AdBox 取代 mbox。請在電子郵件或其他非 JavaScript 實施中使用 AdBox URL 而非直接影像參考。
 
-如需關於選擇正確設定的說明，請參閱 [非 JavaScript 型實作](https://developer.adobe.com/target/implement/email/)。
+如需關於選擇正確設定的說明，請參閱 [基於非JavaScript的實現](https://developer.adobe.com/target/implement/email/){target=_blank}。
 
 1. 建立 AdBox URL:
 

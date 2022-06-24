@@ -5,10 +5,10 @@ title: at.js如何管理閃變？
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 60%
+source-wordcount: '695'
+ht-degree: 58%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 60%
 
 ![](assets/target-flow2.png)
 
-如需 `bodyHiddenStyle` 覆寫的詳細資訊，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+有關 `bodyHiddenStyle` 覆蓋，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 處理非同步載入 at.js 時忽隱忽現的情形
 

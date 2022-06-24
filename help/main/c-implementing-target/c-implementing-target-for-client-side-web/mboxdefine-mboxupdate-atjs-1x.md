@@ -5,9 +5,9 @@ title: 如何使用mboxDefine()和mboxUpdate()函式？
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '222'
 ht-degree: 63%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 63%
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-執行要求並套用選件至 `nodeId` () 中的 `mboxDefine()` 所識別的元素。也可用來更新 `mboxCreate` 起始的 mbox。內置 [!DNL at.js] 主要是為了緩解 [!DNL mbox.js] （現在不建議使用） [!DNL at.js]。 `mboxDefine()`/ `mboxUpdate()` 可替換為 [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank和 [adobe.target.applyOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/){target=_blank}使用選擇器選項。
+執行要求並套用選件至 `nodeId` () 中的 `mboxDefine()` 所識別的元素。也可用來更新 `mboxCreate` 起始的 mbox。內置 [!DNL at.js] 主要是為了緩解 [!DNL mbox.js] （現在不建議使用） [!DNL at.js]。 `mboxDefine()`/ `mboxUpdate()` 可替換為 [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank和 [adobe.target.applyOffer(){target=_blank}](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/){target=_blank}使用選擇器選項。
 
 ## 範例 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

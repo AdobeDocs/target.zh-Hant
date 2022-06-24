@@ -4,10 +4,10 @@ title: 在哪裡可以找到 [!DNL Target] 文件？
 description: 了解如何使用 Adobe [!DNL Target] 將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 93%
+source-wordcount: '524'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 - 將 Target 與 Adobe Experience Cloud 整合：說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) 以及 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)：提供教學課程和影片，協助您充分運用 Target。
 - [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (優惠方案大小、受眾、個人資料、值、參數等) 相關資訊。
-- [適用於行動應用程式的 Target](https://developer.adobe.com/target/implement/mobile/)：說明如何使用 [!DNL Target] 來將行動應用程式最佳化及個人化。
+- [移動應用的目標](https://developer.adobe.com/target/implement/mobile/){target=_blank}:解釋如何 [!DNL Target] 可用於移動應用優化和個性化。
 - [資源與聯絡資訊](cmp-resources-and-contact-information.md)：提供其他資訊的相關資訊，協助您瞭解 [!DNL Target] 功能，以及在需要協助時如何聯絡 [!DNL Adobe]。
 
 ## 市場行銷人員 {#marketers}
@@ -68,4 +68,4 @@ ht-degree: 93%
 
 | Adobe [!DNL Target] 解決方案說明 | [!DNL Adobe Experience Cloud] 資源 |
 |--- |--- |
-| <ul><li>[Adobe Target 學習與支援](https://helpx.adobe.com/tw/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Target API 文件](https://developer.adobe.com/target/)</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/tw/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 學習與支援](https://helpx.adobe.com/tw/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Target API 文件](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/tw/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)</li></ul> |  |

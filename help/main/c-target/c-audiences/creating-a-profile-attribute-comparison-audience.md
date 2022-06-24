@@ -4,10 +4,10 @@ description: 瞭解如何定義訪問群體以比較兩個配置檔案屬性。
 title: 是否可以比較兩個配置檔案屬性以供觀眾使用？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 62%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 65%
 
 您可以建立一個對象，定義成購買餐廳家具的傾向大於購買客廳家具的傾向。[!DNL Target] 便會動態比較特定訪客在餐廳與客廳上的傾向分數，判斷該訪客是否符合此對象。
 
-如需詳細資訊，請參閱[將資料傳入 Target 的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)。
+有關詳細資訊，請參見 [將資料獲取到目標的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。
 
 ## 建立設定檔屬性比較對象 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

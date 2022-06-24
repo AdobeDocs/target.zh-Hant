@@ -4,9 +4,9 @@ description: 瞭解如何在 [!DNL Adobe Target] 目標移動設備。
 title: 我是否可以基於移動選項來瞄準訪問者？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 38%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->使用移動SDK的客戶無需執行任何操作即可應用此功能。 使用at.js的客戶必須 [升級到at.js 1.5.0版](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（或更高版本）。
+>使用移動SDK的客戶無需執行任何操作即可應用此功能。 使用at.js的客戶必須 [升級到at.js 1.5.0版](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（或更高版本）{target=_blank}。
 
 您可以選擇多個行動裝置屬性。多個選擇與OR運算子聯接。
 

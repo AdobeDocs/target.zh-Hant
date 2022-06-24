@@ -5,10 +5,10 @@ title: 能否實施 [!DNL Target] 沒有標籤管理器？
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 47%
+source-wordcount: '1848'
+ht-degree: 43%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->您可以覆寫 at.js 資料庫中的設定，而非在 [!DNL Target Standard/Premium] UI  中或使用 REST API 進行設定。如需詳細資訊，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+>您可以覆寫 at.js 資料庫中的設定，而非在 [!DNL Target Standard/Premium] UI  中或使用 REST API 進行設定。有關詳細資訊，請參見 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 帳戶詳細資訊
 
@@ -96,7 +96,7 @@ ht-degree: 47%
 
 啟用或停用透過 API 批次更新的驗證，並產生設定檔驗證 Token。
 
-有關詳細資訊，請參見 [配置檔案API設定](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/)。
+有關詳細資訊，請參見 [配置檔案API設定](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}。
 
 ### 調試器工具
 
@@ -114,11 +114,11 @@ ht-degree: 47%
 * 整個IP混淆
 * 無
 
-如需詳細資訊，請參閱[隱私權](https://developer.adobe.com/target/before-implement/privacy/privacy/)。
+有關詳細資訊，請參見 [隱私](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 >[!NOTE]
 >
->早期瀏覽器支援選項在at.js 0.9.3版及更低版本中提供。 at.js 0.9.4 版中移除了此選項。如需 at.js 支援的瀏覽器清單，請參閱[支援的瀏覽器](https://developer.adobe.com/target/before-implement/supported-browsers/)。<br>舊版瀏覽器是指不完全支援 CORS (跨來源資源共用) 的舊型瀏覽器。這些瀏覽器包括 Internet Explorer 瀏覽器 11 版以前的版本，以及 Safari 6 版及更舊版本。如果禁用了舊式瀏覽器支援，則目標未在這些瀏覽器上的報告中提供內容或計數訪問者。 如果啟用了此選項，建議跨較舊的瀏覽器執行質量保證以確保獲得良好的客戶體驗。
+>早期瀏覽器支援選項在at.js 0.9.3版及更低版本中提供。 已在at.js 0.9.4版中刪除了此選項。有關at.js支援的瀏覽器清單，請參見 [支援的瀏覽器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}。<br>舊版瀏覽器是指不完全支援 CORS (跨來源資源共用) 的舊型瀏覽器。這些瀏覽器包括 Internet Explorer 瀏覽器 11 版以前的版本，以及 Safari 6 版及更舊版本。如果禁用了舊式瀏覽器支援，則目標未在這些瀏覽器上的報告中提供內容或計數訪問者。 如果啟用了此選項，建議跨較舊的瀏覽器執行質量保證以確保獲得良好的客戶體驗。
 
 ## 下載 at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -128,7 +128,7 @@ ht-degree: 47%
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}是實現的首選方法 [!DNL Target] 和at.js圖書館。 在中使用標籤時不適用以下資訊 [!DNL Adobe Experience Platform] 執行 [!DNL Target]。
 >
->* 的 [!DNL Target] 團隊支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。 如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+>* 的 [!DNL Target] 團隊支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。請升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。 有關每個版本中內容的詳細資訊，請參見 [at.js版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 
 ### 使用 [!DNL Target] 介面 {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ ht-degree: 47%
 
    >[!IMPORTANT]
    >
-   >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每一個版本有何功能的詳細資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+   >Target 團隊只會維護兩個 [!DNL at.js] 版本: 最新版本和次新版本。請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。有關每個版本中內容的詳細資訊，請參見 [at.js版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
    載入此 URL 會開始下載自訂的 [!DNL at.js] 檔案。
 
@@ -247,7 +247,7 @@ at.js 應實作於網站上每個頁面的 `<head>` 元素中。
 * HTML5 Doctype(例如， `<!doctype html>`)。 不支援或舊版 doctype 可能會造成 Target 無法提出要求。
 * 「預先連結」和「預先擷取」可能有助於加速網頁載入。如果使用這些配置，請確保替換 `<client code>` 你自己的客戶代碼，你可以從 **[!UICONTROL 管理]** > **[!UICONTROL 實施] 的子菜單。
 * 如果有資料層，最好在 at.js 載入前，盡可能在網頁的 `<head>` 中詳細定義。此位置提供了在目標中使用此資訊進行個性化的最大能力。
-* 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。或者，這些函式可保存在 [!UICONTROL 庫標題] 的下界 [!UICONTROL 編輯at.js設定] 並保存為at.js庫本身的一部分。 有關這些功能的詳細資訊，請參見 [at.js函式](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。
+* 特殊 Target 函數 (如 `targetPageParamsAll()`、`targetPageParams()`、資料提供者和 `targetGlobalSettings()`)，應在資料層載入後和 at.js 載入前定義。或者，這些函式可保存在 [!UICONTROL 庫標題] 的下界 [!UICONTROL 編輯at.js設定] 並保存為at.js庫本身的一部分。 有關這些功能的詳細資訊，請參見 [at.js函式](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}。
 * 如果使用JavaScript幫助程式庫（如jQuery），請在Target之前包括它們，以便在生成Target體驗時可以使用它們的語法和方法。
 * 在網頁的 `<head>` 中加入 at.js。
 

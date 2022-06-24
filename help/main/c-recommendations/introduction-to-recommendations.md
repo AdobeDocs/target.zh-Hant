@@ -4,9 +4,9 @@ description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些�
 title: 什麼是 Recommendations 活動？
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2116'
 ht-degree: 98%
 
 ---
@@ -104,7 +104,7 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同類型的轉換事件，例如下載 PDF、完成問卷、訂閱電子報、觀看影片等。
 
-如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。否則，使用標籤管理器（如中的標籤）來設定此設定是最容易的 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)。 您也可以透過即時 API 將離線或應用程式內的互動傳送至 [!DNL Target]。
+如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。否則，使用標籤管理器（如中的標籤）來設定此設定是最容易的 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。 您也可以透過即時 API 將離線或應用程式內的互動傳送至 [!DNL Target]。
 
 ### 透過正確的內容取得建議
 

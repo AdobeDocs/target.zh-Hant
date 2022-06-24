@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何處理隱私權與資料保護規範？'
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 98%
+source-wordcount: '2235'
+ht-degree: 97%
 
 ---
 
@@ -284,7 +284,7 @@ GDPR 和 CCPA 不會改變您必須取得同意的時間，而是改變您取得
 
 | 欄位 | 說明 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] 個人資料中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，參數是使用個人資料更新 API 上傳到 [!DNL Target] 個人資料中。有關詳細資訊，請參見 [將資料獲取到的方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)。 |
+| Sample_Parameter | [!DNL Target] 個人資料中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，參數是使用個人資料更新 API 上傳到 [!DNL Target] 個人資料中。有關詳細資訊，請參見 [將資料獲取到的方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。 |
 | user.ReturnTimeOfDay | 此標準欄位包含使用者最近回訪的時間。 |
 | firstSessionStart | 此標準欄位包含使用者首次工作階段開始的時間。 |
 | user.sessionCountScript | [!DNL Target] 個人資料中的許多資訊都是由資料控管者上傳或直接提供。在此範例中，個人資料指令碼會遞增此訪客針對資料管控者網站執行工作階段的次數。如需詳細資訊，請參閱[設定檔指令碼屬性](/help/main/c-target/c-visitor-profile/profile-parameters.md)。 |
@@ -295,7 +295,7 @@ GDPR 和 CCPA 不會改變您必須取得同意的時間，而是改變您取得
 
 ### [!DNL Target] 是否支援 IP 模糊化功能？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。如需詳細資訊，請參閱[隱私權](https://developer.adobe.com/target/before-implement/privacy/privacy/)。
+如果您選擇使用 [!DNL Target] 作為 GDPR 或 CCPA 實作策略, Target 則支援 IP 模糊化功能。有關詳細資訊，請參見 [隱私](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 ### 我應該採取某個行動來避免我的資料被分享或賣給第三方嗎？
 

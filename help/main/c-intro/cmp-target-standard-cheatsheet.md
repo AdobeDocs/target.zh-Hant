@@ -4,10 +4,10 @@ description: 探索關於使用 Adobe Target 中功能常見問答的清單，�
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我們有行動 SKU。我可以建立行動裝置活動？**
 
-針對行動裝置上的最佳化和個人化，您需要使用[表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)及 [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)。請深入瞭解[適用於行動應用程式的 Target](https://developer.adobe.com/target/implement/mobile/)。
+要優化和個性化移動設備，您需要使用 [表格活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}。 查看有關 [移動應用的目標](https://developer.adobe.com/target/implement/mobile/){target=_blank}。
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。請參閱[傳送 API、NodeJS SDK 和 Recommendations API 說明文件](https://developer.adobe.com/target/implement/server-side/)。
+我們提供詳盡的 API 相關文件。請參閱 [交付API、NodeJS SDK和RecommendationsAPI文檔](https://developer.adobe.com/target/implement/server-side/){target=_blank}。

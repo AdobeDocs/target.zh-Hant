@@ -5,9 +5,9 @@ title: 設備上決策支援哪些功能
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 ### 用於設備上決策的地理定位
 
-為使基於地域的受眾在設備上決策活動的延遲保持最小，Adobe建議您在呼叫中提供自己的地理值 [get優惠](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/)。 在請求的上下文中設定Geo對象。 這意味著從瀏覽器中確定每個訪問者的位置。 例如，您可以使用您配置的服務執行IP到Geo查找。 某些主機提供商(如Google雲)通過每個主機中的自定義標頭提供此功能 `HttpServletRequest`。
+為使基於地域的受眾在設備上決策活動的延遲保持最小，Adobe建議您在呼叫中提供自己的地理值 [get優惠](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}。 在請求的上下文中設定Geo對象。 這意味著從瀏覽器中確定每個訪問者的位置。 例如，您可以使用您配置的服務執行IP到Geo查找。 某些主機提供商(如Google雲)通過每個主機中的自定義標頭提供此功能 `HttpServletRequest`。
 
 ```javascript
 window.adobe.target.getOffers({ 

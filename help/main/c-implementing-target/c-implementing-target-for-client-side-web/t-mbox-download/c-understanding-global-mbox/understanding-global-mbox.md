@@ -5,10 +5,10 @@ title: 什麼是全球框？
 feature: at.js
 role: Developer
 exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 79%
+source-wordcount: '224'
+ht-degree: 74%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 79%
 
 如果透過全域 mbox 或多個一般 mbox 傳送多個活動，[!DNL Target] [會決定優先順序](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)，並按照此優先順序將活動傳送至網頁。
 
-使用 [!DNL Target] 函式，可將其他頁面層級資料連同全域 mbox 一起傳送至 `targetPageParams`。這類似於 mbox 參數功能。如需詳細資訊，請參閱[將參數傳遞至全域 mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/)。
+使用 [!DNL Target] 函式，可將其他頁面層級資料連同全域 mbox 一起傳送至 `targetPageParams`。這類似於 mbox 參數功能。有關詳細資訊，請參見 [將參數傳遞到全局框](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。

@@ -5,9 +5,9 @@ title: 什麼是企業用戶權限以及如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3152'
 ht-degree: 59%
 
 ---
@@ -251,7 +251,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
    在未來的版本中，Target 將處理不存在 `at_property` Token 的頁面或存在不同的 `at_property` Token 的頁面。
 
-* [Adobe I/O API 呼叫](https://developer.adobe.com/target/)不支援「企業使用者權限」功能。
+* 中不支援「企業用戶權限」功能 [Adobe I/OAPI調用](https://developer.adobe.com/target/){target=_blank}。
 
 ## 常見問題 {#faqs}
 

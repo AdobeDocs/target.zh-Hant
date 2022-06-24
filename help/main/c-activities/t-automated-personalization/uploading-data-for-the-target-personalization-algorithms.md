@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe中構建個性化模型時上載離線資料�
 title: 如何上傳個性化算法的資料？
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 63%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 在中構建個性化模型時，離線資料（如CRM資訊或客戶流失傾向得分）可能非常有價值 [!DNL Adobe Target] [!UICONTROL Automated Personalization] （美聯社）活動。
 
-有數種方式可以在[!UICONTROL 自動個人化] (AP) 和[!UICONTROL 自動鎖定目標]個人化演算法中輸入資料。除了 [將資料獲取到目標的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/),Experience Cloud共用的受眾(Adobe Analytics、受眾管理){target=_blank}和活動中報告受眾也用於我們的算法。
+有數種方式可以在[!UICONTROL 自動個人化] (AP) 和[!UICONTROL 自動鎖定目標]個人化演算法中輸入資料。除了 [將資料獲取到目標的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}、Experience Cloud共用受眾(Adobe Analytics、受眾管理){target=_blank}和活動中報告受眾也用於我們的算法。
 
 如需自動個人化和自動鎖定目標個人化演算法自動收集和使用之資料的相關資訊，請參閱[自動個人化資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
