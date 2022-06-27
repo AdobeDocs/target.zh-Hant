@@ -6,9 +6,9 @@ title: 如何實施 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
+source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 2%
 
 開發人員門戶包含有關以下實施類型的資訊：
 
-* 客戶端：有關使用 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Target Web SDK] (at.js)。
-* 伺服器端：有關使用Node.JS、JAVA、.NET和Python SDK的實現資訊。
-* 混合：如果您使用客戶端和伺服器端實現的組合，則有關實現的資訊。
-* Recommendations:幫助您實施的資訊 [!DNL Recommendations]的 [目標高級](/help/main/c-intro/intro.md#premium) 提供。
-* 移動應用：幫助您實施的資訊 [!DNL Adobe Experience Platform Mobile] SDK。
-* 電子郵件：幫助您實施的資訊 [!DNL Target] 郵件中。
+* **客戶端**:有關使用 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Target Web SDK] (at.js)。
+* **伺服器端**:有關使用Node.JS、JAVA、.NET和Python SDK的實現資訊。
+* **混合**:如果您使用客戶端和伺服器端實現的組合，則有關實現的資訊。
+* **Recommendations**:幫助您實施的資訊 [!DNL Recommendations]的 [目標高級](/help/main/c-intro/intro.md#premium) 提供。
+* **移動應用**:幫助您實施的資訊 [!DNL Adobe Experience Platform Mobile] SDK。
+* **電子郵件**:幫助您實施的資訊 [!DNL Target] 郵件中。
 
 有關詳細資訊，請參見 [Adobe Target開發人員指南門戶](https://developer.adobe.com/target/){target=_blank}。
 
 >[!NOTE]
 >
->以前包含在 *實施目標* 的下界( *Adobe Target從業人員指南*)現在包含在開發人員門戶中。
+>以前包含在 *實施目標* 的下界( *Adobe Target從業人員指南*) [開發人員門戶](https://developer.adobe.com/target/){target=_blank}。
 
 
 
