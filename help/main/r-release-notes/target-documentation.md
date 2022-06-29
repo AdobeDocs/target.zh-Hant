@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 Target 文件？
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 | [Adobe Experience Platform Target 文件](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} | 有關使用 [!DNL Adobe] 的下一代標記管理平台 [!DNL Adobe Experience Platform] 內的標記來實施 [!DNL Target] 的資訊 。這是實施 [!DNL Target] 的偏好方法。 |
 | [Adobe 客戶服務營業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 有關 Adobe 客戶服務團隊主導的計劃「營業時間」的資訊。這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。 |
 | [Target 基礎網路研討會系列](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | [!DNL Target] 基礎網路研討會系列前幾場研討會的註冊資訊和連結，這是由社群推出的客戶成功研討會系列。 |
-| [Adobe Target開發商指南](https://developer.adobe.com/target/){target=_blank} | 有關 Adobe Target開發人員網站的資訊，可協助您在用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實施 [!DNL Target]。您也可以將 [!DNL Target] 資料匯出至協力廠商解決方案。 |
+| [Adobe Target 開發者指南](https://developer.adobe.com/target/){target=_blank} | 有關 Adobe Target開發人員網站的資訊，可協助您在用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實施 [!DNL Target]。您也可以將 [!DNL Target] 資料匯出至協力廠商解決方案。 |
 | [Target Recommendations API](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | [!UICONTROL Recommendations] API 的相關資訊，可讓您以程式設計方式與 [!DNL Target] 推薦伺服器互動。這些 API 可與一系列應用程式堆疊整合，以執行您通常透過 [!DNL Target] UI 執行的功能。 |
 | [伺服器端傳送 API](https://developer.adobe.com/target/){target=_blank} | 有關構成 Adobe Target 傳送 API 的資源的資訊。 |
 | [Target 伺服器端 SDK](https://adobetarget-sdks.gitbook.io/docs/) | 說明如何使用 SDK 部署 [!DNL Target] 伺服器端。 |
