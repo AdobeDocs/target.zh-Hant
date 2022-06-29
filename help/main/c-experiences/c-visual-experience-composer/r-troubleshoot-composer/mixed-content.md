@@ -1,13 +1,13 @@
 ---
 keywords: 混合式內容;安全;不安全;chrome;疑難排解;vec;視覺體驗撰寫器;不安全;http;https;firefox;internet explorer
-description: 如果安全的內容與不安全的內容混合，則某些瀏覽器會封鎖頁面的顯示。 了解如何在 Chrome、Firefox 和 Edge 中啟用混合式內容。
-title: 如何在我的瀏覽器中啟用混合式內容？
+description: 瞭解如何在Chrome、Firefox和Edge中啟用混合內容。 當瀏覽器因安全內容與不安全內容混合而阻止頁面顯示時，可以啟用混合內容。
+title: 如何在瀏覽器中啟用混合內容
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 如果安全內容與不安全內容混合，新型瀏覽器可能會封鎖頁面的顯示或顯示警告訊息。
 
-如果 [!DNL Target] 中的[!UICONTROL 視覺體驗撰寫器] (VEC) 嘗試開啟包含混合式內容的頁面，則會顯示警告訊息。 此訊息會通知您如何在瀏覽器中停用封鎖功能。 停用封鎖功能可讓您開啟 HTTP 網站或具有混合式呼叫 (HTTPS 和 HTTP) 的網站。
+如果 [!DNL Adobe Target] 中的[!UICONTROL 視覺體驗撰寫器] (VEC) 嘗試開啟包含混合式內容的頁面，則會顯示警告訊息。 此訊息會通知您如何在瀏覽器中停用封鎖功能。 停用封鎖功能可讓您開啟 HTTP 網站或具有混合式呼叫 (HTTPS 和 HTTP) 的網站。
 
 ![混合式內容警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
