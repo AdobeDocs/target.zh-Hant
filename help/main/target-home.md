@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 88%
 - 將 Target 與 Adobe Experience Cloud 整合：說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) 以及 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)：提供教學課程和影片，協助您充分運用 Target。
 - [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (優惠方案大小、受眾、個人資料、值、參數等) 相關資訊。
-- [移動應用的目標](https://developer.adobe.com/target/implement/mobile/){target=_blank}:解釋如何 [!DNL Target] 可用於移動應用優化和個性化。
-- [資源與聯絡資訊](cmp-resources-and-contact-information.md)：提供其他資訊的相關資訊，協助您瞭解 [!DNL Target] 功能，以及在需要協助時如何聯絡 [!DNL Adobe]。
+- [適用於行動應用程式的 Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}：說明如何使用 [!DNL Target] 來將行動應用程式最佳化及個人化。
+- [資源與聯絡資訊](cmp-resources-and-contact-information.md)：提供其他資源的相關資訊，協助您瞭解 [!DNL Target] 功能，以及在需要協助時如何聯絡 [!DNL Adobe]。
 
 ## 市場行銷人員 {#marketers}
 
@@ -49,7 +49,7 @@ ht-degree: 88%
 
 ## 開發人員 {#developers}
 
-- [Adobe Target開發人員指南](https://developer.adobe.com/target/){target=_blank}:此門戶提供資源和指南 [!DNL Adobe Target] 開發人員，包括用於實施的API和SDK文檔 [!DNL Target]。
+- [Adobe Target 開發者指南](https://developer.adobe.com/target/){target=_blank}：此入口網站向 [!DNL Adobe Target] 開發者提供資源和指南，包括實施 [!DNL Target] 的 API 和 SDK 文件。
 
 ## Target 與 Adobe Experience Cloud 管理員 {#admins}
 
