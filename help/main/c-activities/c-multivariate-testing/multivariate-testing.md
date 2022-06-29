@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe中使用Multivariate Testing(MVT) [!DNL Target
 title: 什麼是多元Test?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 * 使用 MVT 測試來判斷最重要的元素，接著對該元素進行更聚焦的 A/B 測試。
 
-   當不同體驗的數量超過五個並且跨越兩個或多個元素時，最好在運行A/Btest之前考慮MVTtest。 MVT 測試會顯示頁面上的哪些區域最可能改善轉換。這些是市場行銷人員應該專注的元素。例如，MVT 測試可能指出呼叫動作是達成目標最重要的元素。一旦決定哪些元素和內容最有助於達成目標，您就可以執行 A/B 測試來進一步精簡結果，例如將兩個特定的影像相互測試，或比較呼叫動作時的用語或顏色。遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
+   當不同體驗的數量超過五個並且跨越兩個或多個元素時，最好在運行A/Btest之前考慮MVTtest。 MVT 測試會顯示頁面上的哪些區域最可能改善轉換。這些是市場行銷人員應該專注的元素。例如，MVT 測試可能指出呼叫動作是達成目標最重要的元素。確定哪些元素和內容對幫助您實現目標最有用後，您可以運行A/Btest以進一步細化結果，例如，將兩個特定影像相互test，或比較行動要求的措辭或顏色。 遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
 
 ## 考量事項 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -85,7 +85,7 @@ ht-degree: 88%
 
 關於其他考量和最佳作法，請參閱[多變數測試最佳作法](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
 
-## 訓練影片
+## 培訓影片
 
 以下影片含有本文章探討之概念的詳細資訊。
 
