@@ -4,7 +4,7 @@ description: 熟悉使用者界面，找到更多深入資訊的連結以協助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 45%
@@ -41,7 +41,7 @@ ht-degree: 45%
 
 ![說明](/help/main/c-intro/assets/help.png)
 
-## 通知和公告
+## 通知和公告 {#notifications-announcements}
 
 [!UICONTROL 通知]和[!UICONTROL 公告]面板可協助您隨時掌握所有 [!DNL Adobe Target] 相關資訊。主動通知有助於您及時瞭解 [!DNL Adobe Experience Cloud] 解決方案和 [!DNL Target] 事件。 主動公告會提醒您發生中斷事件和維護事件。
 
