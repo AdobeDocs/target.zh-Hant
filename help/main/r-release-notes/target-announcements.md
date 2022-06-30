@@ -4,7 +4,7 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 +++按一下我
 
-* **2022 年 6 月 21 日 (星期四)**
+* **2022年8月11日星期四**
 * **下午 1:00 至 2:00 (EDT，UTC -4)**
 * **[更多資訊和註冊資訊](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
