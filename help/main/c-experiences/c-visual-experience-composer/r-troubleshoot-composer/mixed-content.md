@@ -1,13 +1,13 @@
 ---
 keywords: 混合式內容;安全;不安全;chrome;疑難排解;vec;視覺體驗撰寫器;不安全;http;https;firefox;internet explorer
-description: 瞭解如何在Chrome、Firefox和Edge中啟用混合內容。 當瀏覽器因安全內容與不安全內容混合而阻止頁面顯示時，可以啟用混合內容。
-title: 如何在瀏覽器中啟用混合內容
+description: 了解如何在 Chrome、Firefox 和 Edge 中啟用混合式內容。您可以在瀏覽器因安全內容混合不安全內容而封鎖頁面顯示時啟用混合式內容。
+title: 如何在我的瀏覽器中啟用混合式內容？
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
