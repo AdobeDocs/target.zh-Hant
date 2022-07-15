@@ -1,17 +1,17 @@
 ---
-user-guide-title: Adobe Target商業從業者指南
+user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
 source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Target商業從業者指南 {#using}
+# Adobe Target 商務從業者指南 {#using}
 
 + [Adobe Target商業從業者指南家](target-home.md)
 + Target 發行說明 {#release-notes}
