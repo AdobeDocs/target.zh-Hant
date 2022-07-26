@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: bc4b04ae0be1fade2456eb42ade7ee87c0f14b16
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 37%
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
 ## [!DNL Target] 平台版本（2022年7月20日）
 
-此版本包含以下功能、增強和修復：
+此版本包含以下功能、增強功能和修正：
 
 | 功能 | 說明 |
 | --- | --- |

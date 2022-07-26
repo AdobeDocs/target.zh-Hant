@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 30 日 | [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} | 推出 *Adobe Target Developer Guide*，將所有[!DNL Target]開發人員內容整合到一個方便的入口網站中。該入口網站包含有關實作 [!DNL Target]和 [!DNL Recommendations]、[!DNL Target] SDK 和 [!DNL Target] API 的資訊。 |
+| 6 月 30 日 | [Adobe Target 開發人員指南](https://developer.adobe.com/target/){target=_blank} | 推出 *Adobe Target 開發人員指南*，將所有[!DNL Target]開發人員內容整合到一個方便的入口網站中。該入口網站包含有關實作 [!DNL Target]和 [!DNL Recommendations]、[!DNL Target] SDK 和 [!DNL Target] API 的資訊。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.2 版的發行說明。 |
 |  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已添加過去網路研討會的錄制連結。 |
 | 6 月 14 日 | [計劃和實作 Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 更新以下部份的程式碼範例：<ul><li>購物卡新增/購物卡檢視/結帳頁面</li><li>排除已經在訪客購物車中的項目</li></ul> |

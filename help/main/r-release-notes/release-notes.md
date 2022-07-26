@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 60%
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 60%
 
 ## [!DNL Target] 平台版本（2022年7月20日）
 
-此版本包含以下功能、增強和修復：
+此版本包含以下功能、增強功能和修正：
 
 | 功能 | 說明 |
 | --- | --- |
@@ -29,12 +29,12 @@ ht-degree: 60%
 
 ## [!DNL Target Standard/Premium]22.6.2 (2022 年 6 月 30 日)
 
-此版本包含以下功能、增強和修復：
+此版本包含以下功能、增強功能和修正：
 
 | 功能 | 說明 |
 | --- | ---  |
-| 產品內通知 | 獲取以下相關的產品內通知：<ul><li>**活動**:當活動被批准或停用時（手動或達到其開始或結束日期時），所有活動類型的通知。 通知包括活動的名稱，其中包含指向活動概述頁的連結。</li><li>**配置檔案指令碼** 在手動或目標激活或停用配置檔案指令碼時通知。</li><li>**Recommendations飼料**:在手動或由Target激活或停用Recommendations源時通知。 當Recommendations饋送失敗時也會發送通知。</li></ul> 預設情況下，產品管理員、發佈者和批准者會接收通知。 通知可在Experience Cloud首選項內配置。<br>有關詳細資訊，請參閱 [通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements)。 |
-| *Adobe Target開發人員指南* | 的 *Adobe Target開發人員指南* 合併所有 [!DNL Target] 開發人員內容。 指南包括有關實施的資訊 [!DNL Target] 和 [!DNL Recommendations]。 [!DNL Target] SDK和 [!DNL Target] API。<br>有關詳細資訊，請參見 [Adobe Target開發人員指南](https://developer.adobe.com/target/){target=_blank}。 |
+| 產品內通知 | 獲取以下相關的產品內通知：<ul><li>**活動**:當活動被批准或停用時（手動或達到其開始或結束日期時），所有活動類型的通知。 通知包括活動的名稱，其中包含指向活動概述頁的連結。</li><li>**配置檔案指令碼** 在手動或目標激活或停用配置檔案指令碼時通知。</li><li>**建議摘要**：手動或由目標啟用或停用建議摘要時通知。 當建議摘要失敗時也會傳送送通知。</li></ul> 預設情況下，產品管理員、發佈者和批准者會接收通知。 通知可在Experience Cloud首選項內配置。<br>有關詳細資訊，請參閱 [通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements)。 |
+| *Adobe Target 開發人員指南* | 的 *Adobe Target開發人員指南* 合併所有 [!DNL Target] 開發人員內容。 指南包含實施 [!DNL Target] 和 [!DNL Recommendations]、[!DNL Target] SDK 及 [!DNL Target] API 的資訊。<br>有關詳細資訊，請參見 [Adobe Target開發人員指南](https://developer.adobe.com/target/){target=_blank}。 |
 
 * 具有「[!UICONTROL 編輯者]」角色的使用者無法在即時活動中編輯受眾。 (TGT-43582)
 * 如果客戶試圖以對象名字的第一個字元 (如 !London) 的嘆號 ( ! ) 來儲存對象，就會出現警告訊號。 (TGT-43643)
@@ -80,7 +80,7 @@ ht-degree: 60%
 |--- |--- |
 | 文件變更 | 檢視本指南未包含在這些發行說明中的更新詳細資訊。<br>如需詳細資訊，請參閱[文件變更](/help/main/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)。 |
 | 舊版發行說明 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。<br>如需詳細資訊，請參閱[舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 |
-| Adobe Experience Cloud 發行說明 | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。如需詳細資訊，請參閱「<br>Creative Cloud 發行說明[」。](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) |
+| Adobe Experience Cloud 發行說明 | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。<br>如需詳細資訊，請參閱「[Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)」。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
