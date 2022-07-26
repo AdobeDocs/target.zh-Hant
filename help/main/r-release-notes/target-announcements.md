@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 報名參加以下網絡研討會，了解客戶如何使用 [!DNL Adobe Target] 實現其個人化和最佳化目標：
 
-### Adobe:個性化行業內幕人士 — 零售（2022年8月11日）
+### Adobe：個人化的業界內幕 - 零售業 (2022 年 8 月 11 日)
 
 2022 年為企業經營和運轉提供了充滿機動性且快速變化的環境。了解當工作者和旅行者開始回歸正常生活時，業界專家如何看待新形成的消費趨勢。
 
