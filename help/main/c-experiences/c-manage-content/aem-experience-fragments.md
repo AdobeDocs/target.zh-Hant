@@ -4,9 +4,9 @@ description: 瞭解如何使用 [!DNL Adobe Experience Manager] 體驗片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)經驗碎片？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1369'
 ht-degree: 18%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 18%
 
 ### 步驟1:整合 [!DNL AEM] 與 [!DNL Target]
 
-如需詳細資訊，請參閱:
+如需詳細資訊，請參閱：
 
 * **AEMas a Cloud Service**: [與Adobe Target整合](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} *Experience Manageras a Cloud Service* 的子菜單。
 * **Adobe I/O**: [使用AdobeI/0與Adobe Target整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} *管理使用手冊* 文檔。
@@ -57,7 +57,7 @@ ht-degree: 18%
 
 ### 步驟 2: 建立體驗片段
 
-在中建立體驗片段 [!DNL AEM]。 如需詳細資訊，請參閱:
+在中建立體驗片段 [!DNL AEM]。 如需詳細資訊，請參閱：
 
 * **AEMas a Cloud Service**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} *Experience Manageras a Cloud Service* 的子菜單。
 * **[!DNL AEM]6.5**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} *Adobe Experience Manager6.5* 文檔。
@@ -105,6 +105,10 @@ ht-degree: 18%
 
 **要使用VEC使用體驗片段，請執行以下操作：**
 
+>[!NOTE]
+>
+>以JSON形式導出的體驗片段 [!DNL Target] 不能用於使用VEC建立的活動；基於VEC的活動僅支援HTML體驗片段。 如果要使用JSON體驗片段，請在使用 [基於表單的體驗作曲家](/help/main/c-experiences/form-experience-composer.md)。
+
 1. 在 [!DNL Target]，在建立或編輯體驗時 [視覺體驗作曲家](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，按一下要插入的頁面上的位置 [!DNL AEM] 內容，然後選擇要顯示 [!UICONTROL 選擇體驗片段] 清單框。
 
    * [!UICONTROL 插入在前]
@@ -146,11 +150,11 @@ ht-degree: 18%
 ## 考量事項 {#considerations}
 
 * [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。導入的經驗片段應在中提供 [!DNL Target] 10分鐘內，但這個時間段應該會縮短。
-* 將體驗片段導入 [!DNL Target] 作為HTML。 體驗片段「主」版本仍在 [!DNL AEM]。 無法在中編輯體驗片段 [!DNL Target]。
+* 將體驗片段導入 [!DNL Target] 作為HTML或JSON提供。 體驗片段「主」版本仍在 [!DNL AEM]。 無法在中編輯體驗片段 [!DNL Target]。
 * 無法使用 [!DNL Adobe I/O]。 如上所述，使AEM用建立體驗片段。
 * 如果在中更新您的體驗AEM片段，則必須發佈該體驗片段並將其導出到 [!DNL Target] 再次 [!DNL Target] 可以使用最新更改。
 
-## 從導出到目標的體驗片段中刪除ClientLibs和無關HTML
+## 從匯出至 Target 的體驗片段中移除 ClientLib 和無關的 HTML
 
 使用體驗片段提供時 [!DNL Target] 在由提供的頁AEM面上，目標頁面已包含所有必要的客戶端庫。 另請注意，服務中也不需要附加的HTML元素。
 
