@@ -4,9 +4,9 @@ description: 瞭解如何使用 [!DNL Adobe Experience Manager] 體驗片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)經驗碎片？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 18%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 18%
 >
 >* [!DNL Target] 目前每十分鐘會尋找要匯入的體驗片段。導入的經驗片段應在中提供 [!DNL Target] 10分鐘內，但這個時間段應該會縮短。
 >
->* 將體驗片段導入 [!DNL Target] 作為HTML。 該體驗片段「主」版本仍保留在 [!DNL AEM]。 無法在中編輯體驗片段 [!DNL Target]。
+>* 將體驗片段導入 [!DNL Target] 作為HTML或JSON提供。 該體驗片段「主」版本仍保留在 [!DNL AEM]。 無法在中編輯體驗片段 [!DNL Target]。
 
 
 您可以懸停在清單中的體驗片段上，然後按一下 [!UICONTROL 視圖] 表徵圖 ![「查看」表徵圖](assets/icon_info.png) 查看有關體驗片段的其他資訊，包括其公開發售交付URL及其 [!DNL AEM] 路徑。
@@ -104,10 +104,6 @@ ht-degree: 18%
 >在中不支援體驗片段 [!DNL Recommendations] 活動。 但是，要將經驗片段用於建議，您可以建立 [!UICONTROL A/BTest] 活動(包括 [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標])或 [!UICONTROL 體驗目標] (XT)活動和 [包括建議作為要約](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
 **要使用VEC使用體驗片段，請執行以下操作：**
-
->[!NOTE]
->
->以JSON形式導出的體驗片段 [!DNL Target] 不能用於使用VEC建立的活動；基於VEC的活動僅支援HTML體驗片段。 如果要使用JSON體驗片段，請在使用 [基於表單的體驗作曲家](/help/main/c-experiences/form-experience-composer.md)。
 
 1. 在 [!DNL Target]，在建立或編輯體驗時 [視覺體驗作曲家](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，按一下要插入的頁面上的位置 [!DNL AEM] 內容，然後選擇要顯示 [!UICONTROL 選擇體驗片段] 清單框。
 
@@ -135,6 +131,10 @@ ht-degree: 18%
    * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **多變數測試 (MVT):** [建立多變數測試](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **建議:** [建立建議活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>以JSON形式導出的體驗片段 [!DNL Target] 不能用於使用VEC建立的活動；基於VEC的活動僅支援HTML體驗片段。 如果要使用JSON體驗片段，請在使用 [基於表單的體驗作曲家](/help/main/c-experiences/form-experience-composer.md)。
 
 **要使用基於表單的經驗編寫器來使用經驗片段，請執行以下操作：**
 
