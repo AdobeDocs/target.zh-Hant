@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: ht
-source-wordcount: '4524'
-ht-degree: 100%
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+workflow-type: tm+mt
+source-wordcount: '4651'
+ht-degree: 97%
 
 ---
 
@@ -129,7 +129,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 上述已知問題解決後，它們會被移至下列章節。如有需要，會新增其他附註。
 
-### at.js 
+### at.js
 
 * 如果您使用 at.js 2.1.1 或更舊版本在不進行任何修改的情況下建立體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，ttMeta 外掛程式可能會無法正常運作。
 
@@ -209,6 +209,12 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 1. 刪除原始 (受影響) 的活動。
 
 (TGT-38522、CSO 20201006007)
+
+### 自動目標和Automated Personalization型號可用性指標 {#at-ap-model}
+
+自動目標和Automated Personalization活動的模型可用性功能在2022年6月1日至2022年7月19日間斷失敗。 這意味著目標報告UI可能未能顯示綠色複選標籤，表示模型已成功構建，儘管在「自動目標」或「Automated Personalization」活動中都個性化地提供了經驗或優惠。
+
+請注意 **個性化模型構建** 沒有受到影響，整個時期都成功建造了模型。 只有模型可用性系統受此錯誤影響。 **報告資料也未受影響**。 換句話說，經驗和優惠的表現（訪問、轉換和轉換率）沒有受到影響。 只有指示個性化模型可用性的綠色複選標籤可能未能顯示。
 
 ### 報表 {#conversions-audiences}
 
