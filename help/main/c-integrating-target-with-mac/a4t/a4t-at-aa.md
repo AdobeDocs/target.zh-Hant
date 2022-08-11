@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe中建立自動分配和自動目標活動 [!DN
 title: A4T是否支援自動分配和自動目標活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e8fc28ef2497c1dfea523a769c9c817cbd74fea2
+source-git-commit: 6235324c7a8952cca3a238b1948351ddc454862f
 workflow-type: tm+mt
-source-wordcount: '1695'
-ht-degree: 3%
+source-wordcount: '1248'
+ht-degree: 2%
 
 ---
 
@@ -37,11 +37,12 @@ A4T整合允許您：
 
    ![「目標和設定」頁上的「報告源」部分](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. 選擇主要目標度量。 第一個下拉清單允許您在中指定目標 [!DNL Adobe Target] (然後將跟蹤 [!DNL Adobe Analytics] 作為度量「活動轉換」)，或 [!DNL Analytics] 作為目標。
+1. 選擇主要目標度量。
 
-   * 要使用 [!DNL Adobe Target] 要指定優化目標，請選擇 **[!UICONTROL 轉換]**，然後指定受眾必須執行的操作以指示已達到轉換目標。
-   * 如果選擇 **[!UICONTROL 使用分析度量]**，然後將給您選擇應使用哪種類型的優化標準。  請參閱 [支援的目標度量和優化標準](#supported) 下面的。 指定優化條件後，可從中選擇相容度量 [!DNL Analytics] 作為優化目標。 您可以使用現成的 [!DNL Analytics] 轉換度量或 [!DNL Analytics] 自定義事件。
+   * 要使用 [!DNL Adobe Target] 要指定優化目標，請選擇 **[!UICONTROL 轉換]** 。
+   * 選擇 **[!UICONTROL 使用分析度量]** 然後從中選擇度量 [!DNL Analytics] 作為優化目標。 您可以使用現成的 [!DNL Analytics] 轉換度量或 [!DNL Analytics] 自定義事件。
 
+   請參閱 [支援的目標度量](#supported) 下面的。
 
 1. 保存並激活活動。
 
@@ -51,11 +52,9 @@ A4T整合允許您：
 
    [!UICONTROL 自動目標] 使用所選指標來優化活動，從而推動訪問者獲得個性化的最佳體驗。
 
-1. 使用 **[!UICONTROL 報告]** 頁籤，查看活動的報告並按一下 **[!UICONTROL 在分析中查看]** 在Adobe Analytics工作區中深入挖掘並進一步分段報告資料。 您可以按照以下教程查看如何在Worskpace中設定報告：
-* 自動分配：見 [如何在Analysis Workspace設定A4T報告以進行自動分配活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) 在 *Adobe TargetTutorials*
-* 自動目標：見 [如何在Analysis Workspace設定A4T報告以進行自動目標活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) 在 *Adobe TargetTutorials*。
+1. 使用 **[!UICONTROL 報告]** 頁籤以查看活動的報告 [!DNL Adobe Analytics] 度量。 按一下 **[!UICONTROL 在分析中查看]** 深入挖掘並進一步細分報告資料。
 
-## 支援的目標度量和優化標準 {#supported}
+## 支援的目標度量 {#supported}
 
 [!UICONTROL A4T] 為 [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標] 允許您選擇以下任意度量類型作為優化的主要目標度量：
 
@@ -63,24 +62,18 @@ A4T整合允許您：
 * [!DNL Adobe Analytics] 轉換量度
 * [!DNL Adobe Analytics] 個自訂事件
 
-但是， [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標] 模型將優化 **歸一化** 這些度量的版本，具有完全標準化，具體取決於活動類型。 下表說明了每種活動類型的優化標準選項：
+[!UICONTROL A4T] 為 [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標] 要求您選擇基於二項式事件的度量。 二項式事件是否發生。 二項式事件包括點擊、轉換、命令等。 這些類型的事件有時也稱為Bernoulli、二進位或離散事件。
 
-| 活動類型 | 度量源 | 優化准則 | 說明 |
-|---------------|---------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 自動分配 | Analytics | 最大化唯一訪問者轉換率 | 模型嘗試查找具有最高唯一訪問者轉換率的「體驗」，該轉換率定義為分析度量為非零的訪問者數量除以訪問者總數（接收該體驗的訪問者）。 這意味著度量被視為二進位 — 對於活動中的每個唯一訪問者，為0或1。   如果您只關心執行特定操作的用戶比例，或者單個用戶的多個轉換事件沒有意義，則使用此選項。 |
-| 自動分配 | 分析 | 最大化每個訪問者的度量值 | 模型嘗試查找每個訪問者具有最高度量值的體驗，該度量值定義為所有接觸該體驗的用戶的度量值總和除以接收該體驗的訪問者總數。 這意味著度量可以為活動中的每個唯一訪問者取任何值。 例如，如果訪問者進行多次轉換，則將計算每次轉換。  如果您對最大化連續度量（如總收入）感興趣，或者如果單個用戶的多個轉換事件比一個更有意義（例如，多個訂單的價值大於一個），請使用此選項 |
-| 自動分配 | Target | （不可配置） | 該度量被視為二進位，並且使唯一訪問者轉換率最大化。 |
-| 自動鎖定目標 | 分析 | 最大化唯一訪問轉換率 | 與自動分配或手動A/Btest不同，自動目標的個性化特性意味著訪問者在每次新訪問時看到的體驗都會發生變化。 然後，適當的速率是訪問歸一化轉換速率，其被定義為記錄非零度量的訪問的分數。 這是由自動目標優化的轉換率。   與「自動分配」類似，當您關心發生轉換的訪問次數時，應選擇此選項，即，當單個訪問發生多個轉換事件不重要時。 |
-| 自動鎖定目標 | 分析 | 最大化每次訪問的度量值 | 當正針對優化的度量是連續的（例如收入），或當單個訪問中存在多個轉換事件是有意義的（例如多個訂單）時，您可以選擇將每次訪問的度量值最大化。 正在優化的&quot;比率&quot;是指度的總值，除以訪問次數。 |
-| 自動鎖定目標 | 目標 | （不可配置） | 該度量被視為二進位，並且使唯一訪問轉換率最大化。 |
+[!UICONTROL A4T] 為 [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標] 不支援連續度量的優化。 連續度量包括收入、訂購的產品數、會話持續時間、會話中的頁面視圖數等。 這些不受支援的度量類型有時也稱為非二項式度量或非伯努利度量。
 
+不支援以下度量類型作為主要目標度量：
 
+* [!DNL Adobe Target] 項目和收入指標
+* [!DNL Adobe Analytics] 項目和收入指標
 
-請注意，根據優化標準， [!DNL Adobe Analytics] 不支援度量。
+   可以選擇 [!DNL Analytics] 將項目或收入指標作為主要目標指標，因為 [!DNL Target] 無法識別和排除所有項目和收入指標 [!DNL Analytics]。 僅從中選擇二項式轉換度量或自定義事件 [!DNL Analytics]。
 
-* [!DNL Adobe Analytics] 不支援計算度量。
-* [!DNL Adobe Analytics] 度量必須始終是可分割的，並且如果優化了每個訪問者/訪問者的值，則度量必須具有正極性（即正值比負值好）
-* [!DNL Adobe Analytics] 使用的度量 [!DNL Auto-Target] 活動必須可用於DataWarehouse出口。
+* [!DNL Adobe Analytics] 計算度量
 
 ## 限制和說明
 
@@ -90,8 +83,10 @@ A4T整合允許您：
 
 * 使用時 [!DNL Adobe Analytics] 作為 [!UICONTROL 自動分配] 或 [!UICONTROL 自動目標]，應始終查看報告 [!DNL Analytics]。
 * 無法更改報告源 [!DNL Analytics] 至 [!DNL Target] 或者在激活某個活動之後。
-* 雖然不支援將計算的度量作為主要目標度量，但通常可以通過選擇自定義事件作為主要目標度量來實現預期的結果。 例如，如果要優化度量，例如「每個訪問者的表單完成」，請選擇與「表單完成」對應的自定義事件作為主要目標度量。 如中所述 [支援的目標度量和優化標準](#supported)，取決於活動類型和優化標準， [!DNL Target] 將自動歸一化轉換度量，因此無需使用計算的度量來執行歸一化。
-
+* 雖然不支援將計算的度量作為主要目標度量，但通常可以通過選擇自定義事件作為主要目標度量來實現預期的結果。 例如，如果要優化度量，例如「每個訪問者的表單完成」，請選擇與「表單完成」對應的自定義事件作為主要目標度量。 [!DNL Target] 根據每次訪問自動規範轉換度量，以考慮不均勻的通信量分佈，因此不需要使用計算的度量來執行規範化。
+* 使用時 [!DNL Adobe Analytics] 作為 [!UICONTROL 自動分配] 或 [!UICONTROL 自動目標] 活動，您應始終在 [!DNL Analytics]。
+* 無法更改報告源 [!DNL Analytics] 至 [!DNL Target] 激活活動後，反之亦然。
+* 雖然不支援將計算的度量作為主要目標度量，但通常可以通過選擇自定義事件作為主要目標度量來實現預期的結果。 例如，如果要優化度量，例如「每個訪問者的表單完成」，請選擇與「表單完成」對應的自定義事件作為主要目標度量。 [!DNL Target] 按訪問者自動規範轉換度量，以 [!UICONTROL 自動分配] 活動，因此不必使用計算的度量來執行規範化。
 
 ### 自動分配 {#aa}
 
@@ -102,19 +97,15 @@ A4T整合允許您：
 
 ### 自動鎖定目標 {#at}
 
-* **培訓頻率**: [!UICONTROL 自動目標] 模型照常每24小時訓練一次。 但是，轉換事件資料來自 [!DNL Analytics] 延誤了6到24小時。 此延遲表示通信量的分配 [!DNL Target] 跟蹤記錄在 [!DNL Analytics]。 在活動初始激活後的頭48小時內，此延遲的影響最大。 此活動的效能將更加接近 [!DNL Analytics] 5天後的轉換行為。 考慮使用 [!UICONTROL 自動分配] 而不是 [!UICONTROL 自動目標] 短期活動，其中大多數流量在活動開始後的頭五天內發生。
+* [!UICONTROL 自動目標] 模型照常每24小時訓練一次。 但是，轉換事件資料來自 [!DNL Analytics] 延誤了6到24小時。 此延遲表示通信量的分配 [!DNL Target] 跟蹤記錄在 [!DNL Analytics]。 在活動初始激活後的頭48小時內，此延遲的影響最大。 此活動的效能將更加接近 [!DNL Analytics] 5天後的轉換行為。 考慮使用 [!UICONTROL 自動分配] 而不是 [!UICONTROL 自動目標] 短期活動，其中大多數流量在活動開始後的頭五天內發生。
 * 使用時 [!DNL Analytics] 作為 [!UICONTROL 自動目標] 活動，會話在經過六小時後結束。 不計算六小時後發生的轉換。
 
 有關詳細資訊，請參見 [屬性模型和回望窗口](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) 的 *分析工具指南*。
 
-## 如何在Analysis Workspace設定A4T報告以進行自動目標和自動分配活動 {#tutorial}
+## 教程：如何在Analysis Workspace設定A4T報告以進行自動目標活動 {#tutorial}
 
-儘管在中提供了豐富的分析功能 [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，對預設值進行一些修改 [!UICONTROL 目標分析] 需要使用面板來正確解釋自動分配和自動目標活動。
+儘管在中提供了豐富的分析功能 [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，對預設值進行一些修改 [!UICONTROL 目標分析] 需要使用面板來正確解釋自動目標活動。 由於實驗活動(手動A/B和 [!UICONTROL 自動分配])和個性化活動([!UICONTROL 自動目標])。
 
-由於中所述轉換率的細緻定義，需要作出這些修改 [支援的目標度量和優化標準](#supported)以及實驗活動(手動A/B和 [!UICONTROL 自動分配])和個性化活動([!UICONTROL 自動目標])。
+本教程將指導您完成分析時建議的修改 [!UICONTROL 自動目標] 活動 [!UICONTROL 工作區]。
 
-這些教程將指導您瞭解建議的用於分析的修改 [!UICONTROL A4T] [!UICONTROL 自動分配] 和 [!UICONTROL 自動目標] 活動 [!UICONTROL 工作區]。
-
-如需詳細資訊，請參閱
-* [如何在Analysis Workspace設定A4T報告以進行自動分配活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) 在 *Adobe TargetTutorials*。
-* [如何在Analysis Workspace設定A4T報告以進行自動目標活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) 在 *Adobe TargetTutorials*。
+有關詳細資訊，請參見 [如何在Analysis Workspace設定A4T報告以進行自動目標活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) 在 *Adobe TargetTutorials*。
