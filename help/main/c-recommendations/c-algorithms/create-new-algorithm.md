@@ -4,9 +4,9 @@ description: 瞭解如何建立控制您的Adobe Recommendations活動內容的�
 title: 如何在Recommendations建立標準？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
-source-wordcount: '2832'
+source-wordcount: '2835'
 ht-degree: 53%
 
 ---
@@ -170,10 +170,6 @@ ht-degree: 53%
 
    如需更多詳細資料，請參閱 [指定包含規則](#inclusion) 下。
 
-1. （可選）滑動 **[!UICONTROL 建議以前購買的物料]** 切換到「開啟」位置。
-
-   此設定是根據 `productPurchasedId`。預設行為是不推薦先前購買的項目。大多數情況下，您不會想推銷客戶最近已購買的項目。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是人們反複回來購買的產品，如洗髮水或其他個人產品，則應啟用此選項。
-
 ## 內容相似度 {#similarity}
 
 使用[!UICONTROL 內容相似度]規則根據項目或媒體屬性來提出建議。
@@ -219,6 +215,10 @@ ht-degree: 53%
 利用 AND 聯合包含規則。必須符合所有規則，才能在建議中納入某個項目。
 
 如先前所提及，若要建立簡單的包含規則，僅顯示存貨大於 50 且價格介於 $25 與 $45 之間的女鞋，請執行下列步驟:
+
+1. （條件）滑動 **[!UICONTROL 是否允許推薦最近購買的項目？]** 切換到「開啟」位置。
+
+   此設定是根據 `productPurchasedId`。預設行為是不推薦先前購買的項目。大多數情況下，您不會想推銷客戶最近已購買的項目。如果您銷售的是客戶一般只會購買一次的項目，例如獨木舟，則此相當實用。如果您銷售的是人們反複回來購買的產品，如洗髮水或其他個人產品，則應啟用此選項。
 
 1. 設定您要建議之產品的價格範圍。
 1. 設定您要建議之產品的存貨量下限。
