@@ -4,9 +4,9 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner已命名 [!DNL Adobe Target] 連續第五年成為其最新的個性化�
 
 有關詳細資訊，請參見 [Adobe Experience Cloud部落格](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
-## [!DNL Adobe Target] 社區問答咖啡
+## [!DNL Adobe Target] 社區問答型咖啡休息（2022年8月31日）
 
 * **2022 年 8 月 31 日星期三**
 * **上午 9:00 至 10:00 (PDT，UTC -7)**
@@ -58,7 +58,7 @@ Gartner已命名 [!DNL Adobe Target] 連續第五年成為其最新的個性化�
 * 建立超個性化體驗
 +++
 
-## [!DNL Adobe Target] 技能構建者 — 移動體驗優化（2022年9月6日）
+### [!DNL Adobe Target] 技能構建者 — 移動體驗優化（2022年9月6日）
 
 移動體驗正在推動營銷和工程團隊如何利用產品主導的策略在網路和應用程式中實現跨渠道個性化的創新。 加入 [!DNL Adobe] 技能構建者會議並瞭解如何 [!DNL Adobe Target] 為營銷商、開發商和產品所有者開啟新的潛在參與和收入增長，以構建欣欣向榮的產品社區。
 
@@ -70,7 +70,7 @@ Gartner已命名 [!DNL Adobe Target] 連續第五年成為其最新的個性化�
 
 +++
 
-## [!DNL Adobe Target] 技能構建者 — 人工智慧驅動個性化和Recommendations（2022年9月15日）
+### [!DNL Adobe Target] 技能構建者 — 人工智慧驅動個性化和Recommendations（2022年9月15日）
 
 實驗和個性化的自動化繼續推動著營銷、工程和產品團隊實現最高的轉換和投資回報。 加入 [!DNL Adobe] 技能構建者會話和瞭解如何使用 [!DNL Adobe Target] 高級AI驅動的使用案例和功能，以及產品和內容建議，以保持領先競爭並贏得每一次體驗。
 
