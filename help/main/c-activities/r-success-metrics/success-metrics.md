@@ -4,9 +4,9 @@ description: 瞭解Adobe中的成功指標 [!DNL Target] 幫助您確定活動�
 title: 什麼是成功指標？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 43%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->對於使用 [分析作為報告源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)目標度量將始終使用「[!UICONTROL 增量計數和保留活動中的用戶]&quot;和&quot;[!UICONTROL 論每個印象]。 這是 *不* 可配置。
+>對於使用 [分析作為報告源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，目標度量將始終使用「[!UICONTROL 增量計數和保留活動中的用戶]&quot;和&quot;[!UICONTROL 論每個印象]。 這是 *不* 可配置。
 
 下列為可使用的成功量度:
 
@@ -75,7 +75,7 @@ ht-degree: 43%
 
 依賴關係功能是 *不* 支援以下功能：
 
-* [!UICONTROL Recommendations 活動。]所有其他活動類型均支援此功能。
+* [!UICONTROL Recommendations] 活動. 所有其他活動類型均支援此功能。
 * 如果您使用 [分析作為報告源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
 * 「已檢視頁面」度量類型。
 * 可視化體驗撰寫器 (VEC) 活動的「按一下元素」度量類型。
