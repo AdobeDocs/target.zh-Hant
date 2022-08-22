@@ -5,7 +5,7 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
+source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -17,6 +17,10 @@ ht-degree: 0%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 22.8.1（2022年8月17日至18日錯發）
+
+此維護版本包括後端和本地化修復。
 
 ## [!DNL Target] 平台發行版本 (2022 年 7 月 20 日)
 

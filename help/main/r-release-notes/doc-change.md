@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9f758ce9b86bc795a6f846a759e7a3d0a8578a47
+source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 94%
+source-wordcount: '1194'
+ht-degree: 93%
 
 ---
 
@@ -15,11 +15,12 @@ ht-degree: 94%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## Adobe Target Standard/Premium 22.7.1
+## Adobe Target標準/高級版22.8.1(交錯發行：2022年8月17至18日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 8 月 22 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已添加有關以下公告的資訊：<ul><li>[!DNL Target] 在Gartner個性化引擎幻方圖（2022年）中獲得提名的領導者</li></ul>添加了有關以下即將發生的事件的資訊：<ul><li>[!DNL Adobe Target] 社區問答型咖啡休息（2022年8月31日）</li><li>Chef&#39;s Collection:個性化配方（2022年8月30日）</li><li>[!DNL Adobe Target] 技能構建者 — 移動體驗優化（2022年9月6日）</li><li>[!DNL Adobe Target] 技能構建者 — 人工智慧驅動個性化和Recommendations（2022年9月15日）</li></ul>為以下上網路研討會添加了錄制連結：<ul><li>Adobe：個人化的業界內幕 - 零售業 (2022 年 8 月 11 日)</li></ul> |
+| 8月22日[目標發行說明（當前）](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.8.1 版的發行說明。 |
 
 ## Adobe Target Standard/Premium 22.6.1 (分批發行；2022 年 6 月 7 日至 9 日)
 
