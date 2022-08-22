@@ -4,18 +4,18 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1877'
 ht-degree: 70%
 
 ---
 
-# Target 公告和活動
+# [!DNL Adobe Target] 公告和活動
 
 閱讀有關近期[!DNL Adobe Target]事件的公告和資訊，包括[!DNL Target]咖啡會、[!DNL Target]網路研討會、[!DNL Target]技能培養課程、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-## Gartner個性化引擎幻方圖（2022年）中被提名為領導者的目標
+## [!DNL Target] 在Gartner個性化引擎幻方圖（2022年）中獲得提名的領導者
 
 Gartner已命名 [!DNL Adobe Target] 連續第五年成為其最新的個性化引擎幻方圖(PE)的領先者。 [!DNL Adobe] 在所有三個主要使用案例中也獲得了最高分和同比顯著增長：數字營銷、數字商務以及服務和支援。 [!DNL Target] 在所有被評估的供應商中，我們的測試能力也獲得了最高分。
 
