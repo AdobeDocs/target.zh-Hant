@@ -4,16 +4,16 @@ description: '瞭解如何為使用Analytics進行分析的活動指定分析跟
 title: 如何使用分析跟蹤伺服器？
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 25%
+source-wordcount: '683'
+ht-degree: 22%
 
 ---
 
-# 使用 Analytics 追蹤伺服器
+# 使用 [!DNL Analytics] 跟蹤伺服器
 
-如果使用的是at.js的較舊版本，則必須為使用的活動指定分析跟蹤伺服器 [!DNL Adobe Analytics] 為 [!DNL Adobe Target] (A4T)。
+如果使用的是at.js的較舊版本，則必須指定 [!DNL Analytics] 跟蹤伺服器，用於活動 [!DNL Adobe Analytics] 為 [!DNL Adobe Target] (A4T)。
 
 >[!NOTE]
 >
@@ -21,21 +21,21 @@ ht-degree: 25%
 >
 >的 [!DNL Target] 團隊支援at.js 1。*x* 與 at.js 2.*x* 之間的對應。升級到at.js的任一主版本的最新更新，以確保您正在運行受支援的版本。 有關詳細資訊，請參見 [at.js版本詳細資訊](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
-確保資料來自 [!DNL Target] 轉到中的正確位置 [!DNL Analytics],A4T要求在所有調用Modstats時從 [!DNL Target]。 對於使用多個跟蹤伺服器的實現，使用 [!DNL Adobe Experience Platform Debugger] 或瀏覽器的「開發人員工具」，以確定活動的正確跟蹤伺服器。
+確保資料來自 [!DNL Target] 轉到中的正確位置 [!DNL Analytics], A4T需要 [!DNL Analytics] 跟蹤伺服器，以從所有呼叫發送到Modstats [!DNL Target]。 對於使用多個跟蹤伺服器的實現，使用 [!DNL Adobe Experience Platform Debugger] 或瀏覽器的「開發人員工具」，以確定活動的正確跟蹤伺服器。
 
-## 使用Adobe Experience Platform調試器獲取分析跟蹤伺服器
+## 獲取 [!DNL Analytics] 跟蹤伺服器使用 [!DNL Adobe Experience Platform Debugger]
 
 應在交付活動的頁面上查看調試器，以確保選擇正確的跟蹤伺服器。 您也可以為每個帳戶指定預設的追蹤伺服器。請連絡客戶服務來指定或修改預設值。
 
 1. 在建立活動的頁面中，開啟 [!DNL Adobe Experience Platform Debugger]。
 
-   如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
-
-   ![](assets/Screen_DebuggerTrackServ.png)
+   如果尚未安裝調試器，請參見 [Adobe Experience Platform調試器概述](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)。
 
 1. 按一下 **[!UICONTROL 分析]** 的子菜單。
 
-   在 [!UICONTROL 主機名] 的子菜單。
+   ![](assets/Screen_DebuggerTrackServ.png)
+
+   的 [!DNL Analytics] 在 [!UICONTROL 主機名] 的子菜單。
 
    * **第一方跟蹤伺服器**:如果請求的主機名與您所在的域匹配，則它是第一方跟蹤伺服器。 例如，如果 `adobe.com`。 `adobe.com` 是第一方跟蹤伺服器。
    * **第三方跟蹤伺服器**:第三方跟蹤伺服器通常 `[company].sc.omtrdc.net` 公司是您公司的名稱，但總是以 `sc.omtrdc.net`。
@@ -49,7 +49,7 @@ ht-degree: 25%
    >
    >選擇 [!UICONTROL 分析作為報告源] 為您的活動 [!UICONTROL 跟蹤伺服器] 的子菜單。
 
-## 使用瀏覽器的開發人員工具獲取分析跟蹤伺服器
+## 獲取 [!DNL Analytics] 使用瀏覽器的開發人員工具跟蹤伺服器
 
 應在交付活動的頁面上查看開發人員工具，以確保您選擇正確的跟蹤伺服器。 您也可以為每個帳戶指定預設的追蹤伺服器。請連絡客戶服務來指定或修改預設值。
 
@@ -59,7 +59,7 @@ ht-degree: 25%
 
 1. 按一下 **[!UICONTROL 網路]** 頁籤。
 
-1. 篩選 `/ss,` 顯示分析請求。
+1. 篩選 `/ss,` 顯示 [!DNL Analytics] 請求。
 
    ![使用/ss搜索的Chrome開發工具](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
