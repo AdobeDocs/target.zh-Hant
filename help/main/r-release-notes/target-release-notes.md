@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: bc4b04ae0be1fade2456eb42ade7ee87c0f14b16
+source-git-commit: 8f4228720632fd037c7568c328f899362c0baa32
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 54%
 
 ---
 
@@ -15,19 +15,26 @@ ht-degree: 100%
 
 本文包含搶鮮版版本資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期：2022 年 7 月 20 日**
+**上次更新：2022 年 8 月 29 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 發行說明](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] 平台發行版本 (2022 年 7 月 20 日)
+## [!DNL Target] 標準/高級版22.9.1（2022年9月6日至8日錯開發佈）
 
-此版本包含以下功能、增強功能和修正：
+我們將根據以下排程分批發行此版本：
 
-| 功能 | 說明 |
-| --- | --- |
-| 透過 IPv6 支援提高對象評估準確性並降低最終使用者延遲 (TNT-43364、TNT-44692) | 訪客的地理位置現在由 IPv6 位址決定 (如果可用)，而不是僅由 IPv4 位址決定。 傳送 API 也支援 IPv6 輸入參數。 篩選和加入允許清單同時支援 IPv4 和 IPv6 位址。 此版本中的 IPv6 支援代表訪客將更準確地包含在對象中 (更準確地符合活動資格或包含在篩選條件中)。 同時改善了資料延遲，因為 IPv6 用戶端將直接路由，避免 IPv6 到 IPv4 閘道的額外負荷。 |
-| 修正 A4T 用戶端裝載處理問題 (TNT-44926) | 透過 A4T 伺服器端整合，如果 Adobe Target 將請求識別為來自機器人，則不會將裝載轉送到 Analytics，並且 [!DNL Target] 日誌中不會記錄 mod_stats 事件。 在此版本中，A4T 用戶端記錄已增強，因此有關 A4T 裝載的行為與 A4T 伺服器端相同：被識別為機器人的訪客會排除在 [!DNL Target] 計數/報告之外。 (請注意，討論中的問題僅限於使用用戶端裝載處理的實施；伺服器端不受影響。 在此版本中，伺服器端和用戶端負載處理的行為現在是一致的。) |
+* **9月6日**:歐洲、中東和非洲(EMEA)地區
+* **9月7日**:美洲地區
+* **9月8日**:亞太區
 
+此版本包含下列增強功能和修正：
+
+* 在at.js版本2.9.0中添加了跨域支援。
+* 已修復導致 [!UICONTROL 決策優惠] 不能在 [!UICONTROL 視覺體驗作曲家] (VEC)。 (TGT-43866)
+* 已修復在選擇 [!UICONTROL 已按一下元素] 建立轉換目標時 [!UICONTROL Multivariate Testing] (MVT)活動。 (TGT-43842)
+* 已修復阻止 [!UICONTROL 印象] 列，顯示在下載的CSV報告檔案中 [!UICONTROL Automated Personalization] （美聯社）活動。 (TGT-43780)
+* 修復了在使用時複製體驗後阻止客戶編輯HTML/JSON服務的問題 [!UICONTROL 基於表單的體驗作曲家]。 (TGT-43633)
+* 已修復阻止客戶複製 [!UICONTROL A/BTest] 從非預設工作區到另一個非預設工作區的活動。 (TGT-41910)
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
