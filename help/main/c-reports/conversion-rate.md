@@ -4,10 +4,10 @@ description: 瞭解如何Adobe [!DNL Target] 顯示和計算每個體驗的轉�
 title: 如何查看轉換率、提升和置信度？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 59%
+source-wordcount: '2146'
+ht-degree: 53%
 
 ---
 
@@ -98,9 +98,9 @@ ht-degree: 59%
 
 您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。
 
-對於 A4T，我們採用 Student 的 t 檢定來計算連續變數 (而非二元量度)。在 Analytics 中，一律會追蹤訪客，並統計每一個採取的動作。因此，如果訪客多次購物或多次造訪成功量度，這些額外的點閱會納入計算。這會使量度變成連續變數。要執行學生的ttest計算，需要「平方和」來計算差異，差異用於t統計的分母。 [此文檔解釋了詳細資訊](/help/main/assets/statistical-calculations.pdf) 所用的數學公式。 可從 [!DNL Analytics]。 若要取得平方和資料，您需要針對想要最佳化的量度，在樣本期間內執行訪客等級的匯出。
+對於A4T，我們使用 [韋爾奇Ttest](https://en.wikipedia.org/wiki/Welch%27s_t-test)連續變數（而不是二進位度量）的{target=_blank}計算。 在 Analytics 中，一律會追蹤訪客，並統計每一個採取的動作。因此，如果訪客多次購物或多次造訪成功量度，這些額外的點閱會納入計算。這會使量度變成連續變數。為了進行Welch的ttest計算，需要「平方和」來計算方差，該方差用於t統計量的分母。 [此文檔解釋了詳細資訊](/help/main/assets/statistical-calculations.pdf) 所用的數學公式。 可從 [!DNL Analytics]。 若要取得平方和資料，您需要針對想要最佳化的量度，在樣本期間內執行訪客等級的匯出。
 
-例如，假設您想最佳化每位訪客的頁面檢視，則需要匯出每位訪客在指定時間範圍內的頁面檢視總數樣本，或許是幾天 (所有您需要的就是幾千個資料點)。接著，您會求每一個值的平方，並算出總和 (此處的運算順序很重要)。然後，在「完整信賴度計算機」中會使用此「平方和」值。針對這些值，使用該試算表的「收入」區段。
+例如，如果您優化為每個訪問者的頁面視圖，則您將在指定的時間範圍內，按每個訪問者的基準導出頁面視圖總數的示例，可能需要幾天（只需幾千個資料點）。 接著，您會求每一個值的平方，並算出總和 (此處的運算順序很重要)。然後，在「完整信賴度計算機」中會使用此「平方和」值。針對這些值，使用該試算表的「收入」區段。
 
 **使用 [!DNL Analytics] 資料匯出功能來這樣做:**
 
@@ -113,9 +113,9 @@ ht-degree: 59%
    | 欄位 | 說明 |
    |--- |--- |
    | 請求名稱 | 指定要求的名稱。 |
-   | 報告日期 | 指定時段和精度。<br>最佳做法是不要為第一個要求選擇超過一小時或一天的資料。所要求的時段越長，資料倉儲檔案處理的時間就越長，最好一律先要求較短時段的資料，以確保檔案傳回預期的結果。接著，前往「要求管理程式」，複製要求，再第二次要求更多資料。此外，如果您將精度切換為「無」以外的任何值，檔案大小會大幅增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | 報告日期 | 指定時段和精度。<br>最佳做法是不要為第一個要求選擇超過一小時或一天的資料。所要求的時段越長，資料倉儲檔案處理的時間就越長，最好一律先要求較短時段的資料，以確保檔案傳回預期的結果。接著，前往「要求管理程式」，複製要求，再第二次要求更多資料。此外，如果將粒度切換為「無」以外的任何值，則檔案大小將急劇增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | 可用區段 | 視需要套用區段。 |
-   | 劃分 | 選取所需的維度:標準是內建 (OOTB)，而「自訂」包含 eVars 與屬性。如果需要訪客 ID 層級資訊，建議您使用「訪客 ID」，而非「Experience Cloud 訪客 ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
+   | 劃分 | 選取所需的維度:標準是內建 (OOTB)，而「自訂」包含 eVars 與屬性。如果需要訪問者ID級別資訊，建議您使用「訪問者ID」，而不是「Experience Cloud訪問者ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
    | 量度 | 選取所需的量度。標準是 OOTB，而「自訂」包含自訂事件。 |
    | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | 計劃傳送 | 輸入要將檔案傳送到哪個電子郵件地址、命名檔案，然後選取[!UICONTROL 「立即傳送」]。<br>注意: 在[!UICONTROL 「進階傳送選項」]<br>![下，您可以透過 FTP 傳送檔案排程傳送](/help/main/c-reports/assets/datawarehouse3.png)。 |
@@ -124,7 +124,7 @@ ht-degree: 59%
 
    檔案傳送最多可能需要 72 小時，視所要求的資料量而定。您隨時可以按一下「[!UICONTROL 工具] > [!UICONTROL 資料倉儲] > [!UICONTROL 要求管理程式]」，以檢查要求的進度。
 
-   如果您想要再次要求從前要求過的資料，您可以視需要從[!UICONTROL 「要求管理程式」]複製舊的要求。
+   如果要重新請求過去請求的資料，可以從 [!UICONTROL 請求管理器] 按需要。
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
@@ -168,7 +168,7 @@ ht-degree: 59%
 >
 >計數通常是由 Cookie 和作業活動所決定。不過，若您達到活動的最終轉換點，然後重新進入活動，則會將您視為該活動的新加入者和新的造訪。即使您的 PCID 和 `sessionID` 值未變更，亦會採取此處理方式。
 
-## 為什麼 [!DNL Target] 建議使用學生ttest? {#t-test}
+## 為什麼 [!DNL Target] 推薦使用韋爾奇的ttest? {#t-test}
 
 A/Btest是將控制變數（也稱為經驗）中某個業務度量的平均值與一個或多個備用經驗中該度量的平均值進行比較的試驗。
 

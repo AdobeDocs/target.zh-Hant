@@ -4,10 +4,10 @@ description: 查找在使用Analytics時查看報告時經常詢問的問題的�
 title: 查找有關使用A4T查看報告的問題的答案？
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 36%
+source-wordcount: '2551'
+ht-degree: 33%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 36%
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-使用者在 2 月 1 日回來並檢視其他五個頁面，且沒有遇到更多的 Target 活動，而原始活動已非使用中。即使活動已不再進行，仍然會透過 eVar 持續性來追蹤使用者。現在，資料看起來像這樣:
+用戶在2月1日返回，再查看五頁，並且不再遇到任何「目標」活動，並且原始活動不再處於活動狀態。 即使活動已不再進行，仍然會透過 eVar 持續性來追蹤使用者。現在，資料看起來像這樣:
 
 | 活動名稱 | 例項 (曝光次數) | 頁面檢視 | 瀏覽次數 | 獨特訪客 |
 |--- |--- |--- |--- |--- |
@@ -115,7 +115,7 @@ ht-degree: 36%
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | 總計 | 2 | 20 | 3 | 1 | 1 |
 
-由於這兩次經歷都在轉換之前就見過，因此他們都獲得了訂單的「信用」。 但系統中僅會有一個訂單生效，並透過總計反映出來。對於 [!DNL Target] 報告，因為你不是 [!DNL Target] 針對另一個活動的活動查看哪個活動更成功，用戶看到的所有活動都獲得信用並不重要。 您正在比較單個活動中兩個項目的結果。用戶不可能在同一活動中看到不同的體驗，因此您不必擔心訂單信用的交叉污染。
+因為兩次都是在轉換前，都得到訂單的&quot;功勞&quot;。 但系統中僅會有一個訂單生效，並透過總計反映出來。對於 [!DNL Target] 報告，因為你不是 [!DNL Target] 針對另一個活動的活動查看哪個活動更成功，用戶看到的所有活動都獲得信用並不重要。 您正在比較單個活動中兩個項目的結果。用戶不可能在同一活動中看到不同的體驗，因此您不必擔心訂單信用的交叉污染。
 
 有關詳細資訊，請參見 [轉換變數(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) *分析管理指南*。
 
@@ -125,9 +125,9 @@ ht-degree: 36%
 
 ## 為什麼Adobe Target的分析和分析(A4T)會以不同方式計算「唯一訪問者」指標的數字？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
-執行 A/B 測試時 (採用 Student t 檢定 (可信度量度) 來選擇測試的獲勝者)，其中一項假設是固定時間範圍。除非查看固定樣本大小，否則此測試在統計學上無效。
+運行A/Btest時， [韋爾奇Ttest](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}（置信度量）來選擇test的獲勝者，其中一個假設是存在固定的時間範圍。 test在統計上無效，除非您查看的是該固定樣本大小。
 
-的 [!UICONTROL 獨特訪問者] 度量在 [!DNL Analytics] 和 [!DNL Target] 只有當你看到的時段比實際test短。 如果尚未達到您的樣本大小，測試就不太可靠。如需詳細資訊，請參閱 [Evan Miller 網站](https://www.evanmiller.org/index.html)上的 [如何不執行 A/B 測試](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+的 [!UICONTROL 獨特訪問者] 度量在 [!DNL Analytics] 和 [!DNL Target] 只有當你看到的時段比實際test短。 如果尚未達到樣本大小，則test不那麼可靠。 如需詳細資訊，請參閱 [Evan Miller 網站](https://www.evanmiller.org/index.html)上的 [如何不執行 A/B 測試](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
 的 [!UICONTROL 獨特訪問者] metric顯示在指定時間段內已訪問該站點的test接觸的人數。 這些人是test的一部分，應該被計算在內。 如果只想看一週內接觸到的人數，您可以建立已有活動曝光的訪客區段，並套用至報表。
 

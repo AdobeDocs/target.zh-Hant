@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8f4228720632fd037c7568c328f899362c0baa32
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '295'
+ht-degree: 52%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 54%
 
 此版本包含下列增強功能和修正：
 
-* 在at.js版本2.9.0中添加了跨域支援。
+* 已添加 [!UICONTROL 跨域] 選項：下載at.js 2.9.0（及更高版本）以允許或禁用設定第三方Cookie(TGT-43674)
 * 已修復導致 [!UICONTROL 決策優惠] 不能在 [!UICONTROL 視覺體驗作曲家] (VEC)。 (TGT-43866)
 * 已修復在選擇 [!UICONTROL 已按一下元素] 建立轉換目標時 [!UICONTROL Multivariate Testing] (MVT)活動。 (TGT-43842)
 * 已修復阻止 [!UICONTROL 印象] 列，顯示在下載的CSV報告檔案中 [!UICONTROL Automated Personalization] （美聯社）活動。 (TGT-43780)
