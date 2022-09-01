@@ -4,7 +4,7 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 38%
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 此版本包含下列增強功能和修正：
 
-* 新增 [!UICONTROL 跨網域] 選項(在下載at.js 2.9.1（和更新版本）時)允許或停用設定第三方Cookie(TGT-43674)
+* 新增 [!UICONTROL 跨網域] 選項(在下載at.js 2.9.1（和更新版本）時)允許或停用設定第三方cookie。 (TGT-43674)
 * 更新 [!DNL Target] UI可通知客戶活動已啟用、停用，且已達到目標和提升度臨界值。 (TGT-35811)
 * 新增透過API封鎖清單屬性的功能，位於 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] 活動。
 * 修正 [!UICONTROL 決策選件] 無法在 [!UICONTROL 可視化體驗撰寫器] (VEC)。 (TGT-43866)
