@@ -7,17 +7,17 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
 source-wordcount: '1777'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
-# [!DNL Adobe Target] 公告與活動
+# [!DNL Adobe Target] 公告和活動
 
 閱讀有關近期[!DNL Adobe Target]事件的公告和資訊，包括[!DNL Target]咖啡會、[!DNL Target]網路研討會、[!DNL Target]技能培養課程、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-## [!DNL Target] 被評比為 Gartner Magic Quadrant 個人化引擎中的領導者 (2022)
+## 2022 年度 Gartner 個人化引擎的魔力象限報告中將 [!DNL Target] 評為領導者
 
-Gartner 在最新的 Magic Quadrant 個人化引擎 (PE) 報告中連續第五年將 [!DNL Adobe Target] 評比為領導者。 [!DNL Adobe] 此外，在所有三個主要使用案例中，也獲得最佳分數及逐年大幅增加：數位行銷、數位商務、服務與支援。 [!DNL Target] 也收到所有評比的供應商給出的最高測試能力分數。
+Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。[!DNL Target] 也收到所有評比的供應商給出的最高測試能力分數。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
@@ -160,7 +160,7 @@ Gartner 在最新的 Magic Quadrant 個人化引擎 (PE) 報告中連續第五�
 加入 Kaitlin White (Adobe 產品行銷經理)，因為我們要分享經驗證可靠的策略，希望能幫助您啟動個人化方案，其中包括：
 
 * 跳脫既定思維，才能爭取到新的潛在客戶或實際客戶
-* 修復用戶衝突以獲得更直觀的體驗
+* 修復使用者衝突以獲得更直覺的體驗
 * 利用客戶相似性以進行個人化
 * 還有更多想法，可幫助您發掘組織中具高度影響力的機會
 
