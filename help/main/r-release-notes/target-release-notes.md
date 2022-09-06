@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
+source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 68%
+source-wordcount: '395'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 本文包含搶鮮版版本資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期：2022 年 9 月 1 日**
+**上次更新日期：2022 年 9 月 6 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 版本注意事項](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -31,7 +31,6 @@ ht-degree: 68%
 
 * 新增 [!UICONTROL 跨網域] 選項(在下載at.js 2.9.1（和更新版本）時)允許或停用設定第三方cookie。(TGT-43674)
 * 更新 [!DNL Target] UI可通知客戶活動已啟用、停用，且已達到目標和提升度臨界值。 (TGT-35811)
-* 新增透過API封鎖清單屬性的功能，位於 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] 活動。
 * 修正導致 [!UICONTROL Decision Offers] 無法在 [!UICONTROL Visual Experience Composer] (VEC) 內正常作用的問題。(TGT-43866)
 * 修正在建立 [!UICONTROL Multivariate Testing] (MVT) 活動時，當選取 [!UICONTROL Clicked an Element] 轉換目標時導致錯誤訊息顯示的問題。(TGT-43842)
 * 修正讓「[!UICONTROL 曝光次數]」欄不會在 [!UICONTROL Automated Personalization] (AP) 活動的已下載 CSV 報告檔案中顯示的問題。 (TGT-43780)
