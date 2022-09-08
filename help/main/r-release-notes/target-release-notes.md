@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 71%
 
 此版本包含下列增強功能和修正：
 
-* 新增 [!UICONTROL 跨網域] 選項(在下載at.js 2.9.1（和更新版本）時)允許或停用設定第三方cookie。(TGT-43674)
-* 更新 [!DNL Target] UI可通知客戶活動已啟用、停用，且已達到目標和提升度臨界值。 (TGT-35811)
+* 新增在下載 at.js 2.9.1 (及更新版本) 以允許或停用設定第三方 Cookie 時的「[!UICONTROL 跨網域]」選項。(TGT-43674)
+* 更新 [!DNL Target] UI 中的通知，以通知客戶已啟用、停用活動，以及活動已達到目標和提升臨界值。(TGT-35811)
 * 修正導致 [!UICONTROL Decision Offers] 無法在 [!UICONTROL Visual Experience Composer] (VEC) 內正常作用的問題。(TGT-43866)
 * 修正在建立 [!UICONTROL Multivariate Testing] (MVT) 活動時，當選取 [!UICONTROL Clicked an Element] 轉換目標時導致錯誤訊息顯示的問題。(TGT-43842)
 * 修正讓「[!UICONTROL 曝光次數]」欄不會在 [!UICONTROL Automated Personalization] (AP) 活動的已下載 CSV 報告檔案中顯示的問題。 (TGT-43780)
 * 修正在使用 [!UICONTROL Form-Based Experience Composer] 時客戶無法在複製體驗後編輯 HTML/JSON 優惠的問題。(TGT-43633)
 * 修正客戶無法從非預設工作區複製 [!UICONTROL A/B 測試] 活動至另一個非預設工作區的問題。(TGT-41910)
-* 修正問題，確保客戶可使用 [!DNL Target] 中的UI [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] (XT)包含建議的活動。 (TGT-42331)
-* 修正造成網路逾時警報出現在 [!DNL Target] 擷取參數時使用者介面。 (TGT-43737)
-* 進行UI更新，以確保某些拖放動作可由鍵盤存取。 (TGT-42969)
-* 進行UI更新，以確保文字拼寫已正確當地語系化。
+* 修正確保客戶可以使用 [!UICONTROL A/B 測試] 和 [!UICONTROL Experience Targeting] (XT) 活動 (包含建議) 中的 [!DNL Target] UI 正確編輯和刪除物件 (設計、條件、收藏集等) 的問題。(TGT-42331)
+* 修正在擷取參數時造成網路逾時警報在 [!DNL Target] UI 中出現的問題。(TGT-43737)
+* 已進行 UI 更新，以確保可以使用鍵盤存取某些拖放動作。(TGT-42969)
+* 已進行 UI 更新，以確保文字字串正確本地化。
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
