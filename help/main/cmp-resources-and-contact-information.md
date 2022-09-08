@@ -4,9 +4,9 @@ description: 了解其他資源，以協助您了解 Adobe [!DNL Target] 功能�
 title: 何處可以找到有關 Target 的資源和聯絡資訊？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1223'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,7 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 | 主題/播放時間/錄影日期 | 學習目標 |
 |--- |--- |
-| [at.js 提示和總覽](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日 | 您將能學習到：<ul><li>使用 at.js 的好處</li><li>at.js 設定</li><li>Flicker 處理</li><li>偵錯 at.js</li><li>已知問題</li><li>常見問答</li></ul>有關詳細資訊，請參見 [at.js的工作原理](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}。 |
+| [at.js 提示和總覽](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日 | 您將能學習到：<ul><li>使用 at.js 的好處</li><li>at.js 設定</li><li>Flicker 處理</li><li>偵錯 at.js</li><li>已知問題</li><li>常見問答</li></ul>如需詳細資訊，請參閱 [at.js如何運作](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}。 |
 | [Target Premium Workspaces](https://helpx.adobe.com/tw/customer-care-office-hours/target/premium-workspaces.html) <br>27:49<br> 2018 年 9 月 4 日) | 您將能學習到：<ul><li>建立工作區 (產品設定檔)</li><li>選擇屬性。</li><li>新增使用者</li><li>更新實施</li></ul>如需詳細資訊，請參閱[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/tw/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/main/c-experiences/experiences.md)。 |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/tw/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br> 2018 年 1 月 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。 |
@@ -120,10 +120,10 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 ### 法律資訊 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2021 Adobe Systems Incorporated.All rights reserved.
+* © 2022 Adobe Systems Incorporated.All rights reserved.
 * Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use_tw) | [Privacy Center](https://www.adobe.com/tw/privacy.html)
+[使用條款](https://www.adobe.com/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
