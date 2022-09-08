@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 此版本包含下列增強功能和修正：
 
-* 新增在下載 at.js 2.9.1 (及更新版本) 以允許或停用設定第三方 Cookie 時的「[!UICONTROL 跨網域]」選項。(TGT-43674)
+* 新增 [!UICONTROL 跨網域] 選項，在下載at.js 2.10.0（和更新版本）時允許或停用設定第三方Cookie。 (TGT-43674)
 * 更新 [!DNL Target] UI 中的通知，以通知客戶已啟用、停用活動，以及活動已達到目標和提升臨界值。(TGT-35811)
 * 修正導致 [!UICONTROL Decision Offers] 無法在 [!UICONTROL Visual Experience Composer] (VEC) 內正常作用的問題。(TGT-43866)
 * 修正在建立 [!UICONTROL Multivariate Testing] (MVT) 活動時，當選取 [!UICONTROL Clicked an Element] 轉換目標時導致錯誤訊息顯示的問題。(TGT-43842)
