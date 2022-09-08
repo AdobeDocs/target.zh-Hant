@@ -4,9 +4,9 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 在哪裡可以找到 [!DNL Target] 公告和事件資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a37a530a4ea163070e82820801f7acdfa1eae7c5
+source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1614'
 ht-degree: 98%
 
 ---
@@ -46,31 +46,18 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 行動體驗正在推動行銷和工程團隊如何利用以產品為主導的策略在 Web 和應用程式中實現跨管道個人化的創新。 參加 [!DNL Adobe] Skill Builders 研討會，了解 [!DNL Adobe Target] 如何為行銷人員、開發人員和產品負責人釋放新的潛在參與度和收入成長率，以建立欣欣向榮的產品社群。
 
-+++詳細資料
-
-* **2022 年 9 月 6 日星期二**
-* **下午 1:00 至 2:00 (EDT，UTC -4)**
-* **[詳細資訊和報名資訊](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
-
 ### 廚師的收藏：個人化配方 (2022 年 8 月 30 日)
 
 加入 [!DNL Adobe Target] [!DNL ]團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
 
 +++詳細資料
 
-* **2022 年 8 月 30 日星期二**
-* **下午 1:00 至 2:00 (EDT，UTC -4)**
-* **[詳細資訊和報名資訊](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-我們即將探索我們客戶「廚師」的故事及其在個人化廚房中已調配出的配方。
-
-讓我們來探索有關以下各項的想法：
+探索以下主題：
 
 * 如何使用個人化來培養忠誠度
 * 實現最佳化來獲得競爭優勢
 * 打造超個人化體驗
+
 +++
 
 ### 即時積極促進忠誠度 (2022 年 8 月 25 日)
@@ -78,10 +65,6 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 在供應鏈問題加速發生、服務失能及人員有限的情況下，提高忠誠度是大多數旅遊業、旅館業和餐飲業品牌共同面臨的挑戰。 在 AI 時代，品牌如何在沒有產業所需資源的情況下擴充體驗。 數位化進程加快了 20 到 25 倍，不僅要支援加速的客戶期望，也要透過自動化來擴充團隊。
 
 +++詳細資料
-
-* **2022 年 8 月 25 日星期四**
-* **下午 10:00 至 11:00 (PDT，UTC-7)**
-* **[詳細資訊和報名資訊](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
 
 在 2022 年，系統在提供持續智慧以實現即時積極促進忠誠度的能力方面已達到臨界點。
 
@@ -91,6 +74,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 * 為什麼早期採用者在營業金額和利潤成長方面都獲勝
 * 在旅遊業實現自動化個人化
 * 即時積極促進忠誠度的實際運作
+
 +++
 
 ### [!DNL Adobe]：個人化的業界內幕 - 零售業 (2022 年 8 月 11 日)
@@ -101,11 +85,8 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 +++詳細資料
 
-* **2022年8月11日星期四**
-* **下午 1:00 至 2:00 ()**
-* **[詳細資訊和報名資訊](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 加入 Michael Klein (產業策略零售總監) 和 Leina Betzer (Adobe Premier Support 的 Target 顧問)，一起討論隨著消費者購買方式和行為的變化，遇有部份市場的商品和服務需求也提高，零售電子商務的銷售如何飆升。
+
 +++
 
 ### [!DNL Adobe]：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target] (2022 年 6 月 2 日)
@@ -115,10 +96,6 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 * [錄製連結](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++詳細資料
-
-* **2022 年 6 月 2 日 (星期四)**
-* **下午 1:00 至 2:00 (EDT，UTC -4)**
-* **[詳細資訊和報名資訊](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 加入 ([!DNL Adobe] 主要專家解決方案顧問) 以討論：
 
@@ -137,11 +114,8 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 +++詳細資料
 
-* **2022 年 6 月 9 日 (星期四)**
-* **下午 1:00 至 2:00 (EDT，UTC -4)**
-* **[詳細資訊和報名資訊](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 加入 Heather Adkins (SVP 行銷技術)，了解成為「關係銀行」並提高品牌忠誠度的最佳實務，以及了解如何促使人員和流程建置和擴展成功的個人化方案。
+
 +++
 
 ### [!DNL Adobe]：發掘高影響力的最佳化機會 (2022 年 6 月 16 日)
@@ -151,10 +125,6 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 * [錄製連結](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++詳細資料
-
-* **2022 年 6 月 16 日 (星期四)**
-* **下午 1:00 至 2:00 (EDT，UTC -4)**
-* **[詳細資訊和報名資訊](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 加入 Kaitlin White (Adobe 產品行銷經理)，因為我們要分享經驗證可靠的策略，希望能幫助您啟動個人化方案，其中包括：
 
@@ -192,7 +162,9 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 +++詳細資料
 
-加入 Christopher Young (產業策略金融服務總監) and James Capasso (Adobe Premier Support 的 Target 顧問)，了解品牌如何回應需求的即時變化，同時與客戶互動時以個人化為中心。 了解金融服務公司如何使用個人化支援並知會客戶，讓全球關心最近通貨膨脹模式及其投資情況的客戶了解狀況。+++ 
+加入 Christopher Young (產業策略金融服務總監) and James Capasso (Adobe Premier Support 的 Target 顧問)，了解品牌如何回應需求的即時變化，同時與客戶互動時以個人化為中心。 了解金融服務公司如何使用個人化支援並知會客戶，讓全球關心最近通貨膨脹模式及其投資情況的客戶了解狀況。
+
++++
 
 ### City National Bank：如何在數位最佳化中成為排名 1% 的銀行 (2022 年 5 月 26 日)
 
@@ -237,6 +209,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。包含數據孤島和複雜實作的多種工具也辦不到。
 
 在此網路研討會影片中，Adobe Target 產品專家會討論將關鍵體驗最佳化決策移到裝置上，以便在零延遲的情況下於本機執行最佳化，可以促成令人興奮的新使用案例，同時為客戶改善網站績效。
+
 +++
 
 ### 網路研討會：HSBC 如何運用 Adobe [!DNL Target] 和 AI 快速最佳化及實現大規模個人化
@@ -256,6 +229,7 @@ McKinsey Digital 報告：「在消費者和企業數位採用方面，我們將
 * HSBC 如何建立成功的大規模方案，完成 3000+ 個活動
 
 *McKinsey 文章：「[COVID-19 復甦將以數位化的方式呈現](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」，2020 年 5 月
+
 +++
 
 ### [!DNL Adobe Target] 技能培養：開發人員聊天、將 [!DNL Adobe Target] 的 mbox.js 遷移到 at.js {#skill-builder}
