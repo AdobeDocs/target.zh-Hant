@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
-source-wordcount: '33958'
+source-wordcount: '34593'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,57 @@ ht-degree: 96%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2022
+
+### [!DNL Target Standard/Premium] 22.8.1 (分批發行：2022 年 8 月 17 至 18 日)
+
+此維護發行版本包括後端和本地化修正。
+
+### [!DNL Target] 平台發行版本 (2022 年 7 月 20 日)
+
+此版本包含以下功能、增強功能和修正：
+
+| 功能 | 說明 |
+| --- | --- |
+| 透過 IPv6 支援提高對象評估準確性並降低最終使用者延遲 (TNT-43364、TNT-44692) | 訪客的地理位置現在由 IPv6 位址決定 (如果可用)，而不是僅由 IPv4 位址決定。 傳送 API 也支援 IPv6 輸入參數。 篩選和加入允許清單同時支援 IPv4 和 IPv6 位址。 此版本中的 IPv6 支援代表訪客將更準確地包含在對象中 (更準確地符合活動資格或包含在篩選條件中)。 同時改善了資料延遲，因為 IPv6 用戶端將直接路由，避免 IPv6 到 IPv4 閘道的額外負荷。 |
+| 修正 A4T 用戶端裝載處理問題 (TNT-44926) | 透過 A4T 伺服器端整合，如果 Adobe Target 將請求識別為來自機器人，則不會將裝載轉送到 Analytics，並且 [!DNL Target] 日誌中不會記錄 mod_stats 事件。 在此版本中，A4T 用戶端記錄已增強，因此有關 A4T 裝載的行為與 A4T 伺服器端相同：被識別為機器人的訪客會排除在 [!DNL Target] 計數/報告之外。 (請注意，討論中的問題僅限於使用用戶端裝載處理的實作；伺服器端不受影響。 在此版本中，伺服器端和用戶端負載處理的行為現在是一致的。) |
+
+### [!DNL Target Standard/Premium]22.6.2 (2022 年 6 月 30 日)
+
+此版本包含以下功能、增強功能和修正：
+
+| 功能 | 說明 |
+| --- | ---  |
+| 產品內通知 | 獲取以下相關的產品內通知：<ul><li>**活動**：當活動被批准或停用時（手動或達到其開始或結束日期時），所有活動類型的通知。 通知包含具有活動概覽頁面連結的活動名稱。</li><li>**配置檔案指令碼** 在手動或目標激活或停用配置檔案指令碼時通知。</li><li>**建議摘要**：手動或由目標啟用或停用建議摘要時通知。 當建議摘要失敗時也會傳送送通知。</li></ul> 預設情況下，產品管理員、發佈者和批准者會接收通知。 通知可在 Experience Cloud 首選項內配置。<br>有關詳細資訊，請參閱[通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements)。 |
+| *Adobe Target 開發人員指南* | 的 *Adobe Target開發人員指南* 合併所有 [!DNL Target] 開發人員內容。 指南包含實施 [!DNL Target] 和 [!DNL Recommendations]、[!DNL Target] SDK 及 [!DNL Target] API 的資訊。<br>有關詳細資訊，請參見 [Adobe Target開發人員指南](https://developer.adobe.com/target/){target=_blank}。 |
+
+* 具有「[!UICONTROL 編輯者]」角色的使用者無法在即時活動中編輯受眾。 (TGT-43582)
+* 如果客戶試圖以對象名字的第一個字元 (如 !London) 的嘆號 ( ! ) 來儲存對象，就會出現警告訊號。 (TGT-43643)
+* 修正導致一些客戶的對象定義細節卡顯示已結束活動仍然在進行中的問題。 (TGT-43527)
+
+### [!DNL Target Standard/Premium] 22.6.1 (分批發行；2022 年 6 月 7 日至 9 日)
+
+我們將根據以下排程分批發行此版本：
+
+* **6 月 7 日**：亞太 (APAC) 區域
+* **6 月 8 日**：美洲區域
+* **6 月 9 日**：歐洲、中東和非洲 (EMEA) 區域
+
+此版本包含下列增強功能和修正：
+
+* 新的「[!UICONTROL 受眾]」頁面提供了增強功能，防止在過去儲存受眾的舊資料庫與直接從後端擷取資訊的新架構之間的不一致狀態。 (TGT-43552)
+* 已修正導致某些客戶無法儲存由 Target UI 建立「空」容器所引起之合併受眾的問題。 (TGT-43588)
+
+### Target 平台發行版本 (2022 年 5 月 25 日)
+
+此版本包含下列增強功能和修正：
+
+* 新增的「[使用者代理用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}」支援。
+* 修正在「[!UICONTROL 體驗鎖定]」 (XT) 活動中提供「[!UICONTROL 優惠方案決策]」時會斷斷續續引起逾時的問題。 (TNT-44611)
+
+### at.js 2.9.0 版 (2022 年 5 月 27 日)
+
+* 新增的「[使用者代理用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}」支援。
+* 修正了同一個頁面上多個 mbox 請求有不同印象 ID 的問題。
 
 ### [!DNL Target Standard/Premium] 22.5.1 (分批發行；2022 年 5 月 11 至 13 日)
 

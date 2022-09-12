@@ -4,16 +4,23 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: ht
-source-wordcount: '1194'
-ht-degree: 100%
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+workflow-type: tm+mt
+source-wordcount: '1224'
+ht-degree: 99%
 
 ---
 
 # 文件變更
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
+
+## [!DNL Adobe Target] Standard/Premium 22.9.1 (分批發行：2022 年 9 月 13 至 15 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 8 月 22 日 | [了解  [!DNL Target]  UI](/help/main/c-intro/understand-the-target-ui.md) | 新增關於 [!DNL Recommendations] 摘要失敗。 |
+|  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.9.1 版的版本注意事項。 |
 
 ## Adobe Target Standard/Premium 22.8.1 (分批發行：2022 年 8 月 17 至 18 日)
 
