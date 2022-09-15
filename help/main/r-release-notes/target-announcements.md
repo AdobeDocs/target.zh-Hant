@@ -1,13 +1,13 @@
 ---
 keywords: 公告;技能建立;開發人員聊天;咖啡會;活動;forrester;gartner;網路研討會
 description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培養課程、開發人員與產品經理聊天、網路研討會等。
-title: 在哪裡可以找到 [!DNL Target] 公告和事件資訊？
+title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
+source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 98%
+source-wordcount: '1829'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ## 2022 年度 Gartner 個人化引擎的魔力象限報告中將 [!DNL Target] 評為領導者
 
-Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。[!DNL Target] 在所有評估的供應商中，我們的測試功能獲得了最高的分數。
+Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。[!DNL Target] 收到所有評比的供應商給出的最高測試能力分數。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
@@ -38,6 +38,29 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 +++
 
+### 微調AI支援的個人化：中的新功能 [!DNL Adobe Target] （2022年10月11日）
+
+請加入我們參加此特別產品發佈網路研討會！
+
+我們很高興能與大家分享一些「非常大」、突破性的新聞，以大規模個人化 [!DNL Adobe Target]:新的過濾和智慧將增強 [!DNL Target] 使用者來微調AI支援的個人化活動，以直接影響對每個活動最重要的業務量度。
+
++++詳細資料
+
+這一新產品發佈是及時且非常關鍵的，因為過去幾年來，無論行業如何，我們都看到個人化的需求在不斷增加。 它已成為公司在客戶歷程中嚴格區分自身與競爭對手的一種手段。 個人化從訪客的首次接觸開始，就可以有效地「隨處」：運用基本資料處理贏取使用案例，直到客戶服務和忠誠度使用案例。
+
+在本課程中，了解如何運用 [!DNL Adobe Target]我們討論的新功能：
+
+* 內增強的模型控制 [!UICONTROL Automated Personalization] 和 [!UICONTROL 自動鎖定目標] 活動
+* 解鎖評估設定檔屬性和高價值區段的功能 [!DNL Adobe]&#39;s [!DNL Real-Time Customer Data Platform]
+* 品牌如何借由微調其由AI支援的演算法來提供更快的速度和決策
+* 提供一對一個人化的獨特使用案例
+
+* **2022年10月11日星期二**
+* **下午 1:00 至 2:00 (EDT，UTC -4)**
+* **[詳細資訊和報名資訊](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ## 先前網路研討會和 Skill Builders 研討會錄影
 
 存取先前活動的錄影 (如果可用)：
@@ -52,7 +75,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 +++詳細資料
 
-探索以下主題：
+探索有關以下各項的想法：
 
 * 如何使用個人化來培養忠誠度
 * 實現最佳化來獲得競爭優勢
