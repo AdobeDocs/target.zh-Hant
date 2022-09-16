@@ -17,7 +17,7 @@ ht-degree: 88%
 
 ## 2022 年度 Gartner 個人化引擎的魔力象限報告中將 [!DNL Target] 評為領導者
 
-Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。[!DNL Target] 收到所有評比的供應商給出的最高測試能力分數。
+Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。在所有接受評估的供應商中，針對我們的測試能力，[!DNL Target] 收到最高分。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
