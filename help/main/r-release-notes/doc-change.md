@@ -5,9 +5,9 @@ title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1241'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 9 月 15 日 | [[!DNL Adobe Target]  公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增下列網路研討會的相關資訊：<ul><li>微調AI支援的個人化：中的新功能 [!DNL Adobe Target] （2022年10月11日）</li></ul> |
-| 9 月 13 日 | [了解  [!DNL Target]  UI](/help/main/c-intro/understand-the-target-ui.md) | 新增關於 [!DNL Recommendations] 摘要失敗。 |
+| 9 月 15 日 | [[!DNL Adobe Target]  公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下網路研討會的相關資訊：<ul><li>微調 AI 支援的個人化：[!DNL Adobe Target] 的新功能 (2022 年 10 月 11 日)</li></ul> |
+| 9 月 13 日 | [了解  [!DNL Target]  UI](/help/main/c-intro/understand-the-target-ui.md) | 已新增當 [!DNL Recommendations] 摘要失敗時關於通知的資訊。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.9.1 版的版本注意事項。 |
 
 ## Adobe Target Standard/Premium 22.8.1 (分批發行：2022 年 8 月 17 至 18 日)
