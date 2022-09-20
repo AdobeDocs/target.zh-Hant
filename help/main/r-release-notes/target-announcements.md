@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
 workflow-type: tm+mt
 source-wordcount: '1894'
-ht-degree: 86%
+ht-degree: 97%
 
 ---
 
@@ -26,24 +26,24 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 報名參加以下網絡研討會，了解客戶如何使用 [!DNL Adobe Target] 實現其個人化和最佳化目標：
 
-### 微調AI支援的個人化：中的新功能 [!DNL Adobe Target] （2022年10月11日）
+### 微調 AI 支援的個人化：[!DNL Adobe Target] 的新功能 (2022 年 10 月 11 日)
 
-請加入我們參加此特別產品發佈網路研討會！
+請與我們一同加入這場特別的產品發表網路研討會！
 
-我們很高興能與大家分享一些「非常大」、突破性的新聞，以大規模個人化 [!DNL Adobe Target]:新的過濾和智慧將增強 [!DNL Target] 使用者來微調AI支援的個人化活動，以直接影響對每個活動最重要的業務量度。
+我們很高興能夠分享 [!DNL Adobe Target] 在大規模個人化方面一些「非常重大」突破性新聞：全新的篩選和情報將能增強 [!DNL Target] 使用者微調 AI 支援的個人化活動的能力，以便就每個活動對最重要的商業量度產生直接的影響。
 
 +++詳細資料
 
-這一新產品發佈是及時且非常關鍵的，因為過去幾年來，無論行業如何，我們都看到個人化的需求在不斷增加。 它已成為公司在客戶歷程中嚴格區分自身與競爭對手的一種手段。 個人化從訪客的首次接觸開始，就可以有效地「隨處」：運用基本資料處理贏取使用案例，直到客戶服務和忠誠度使用案例。
+這場新產品發表既及時又極為重要，因為我們看到過去幾年來無論是哪個產業，對個人化的需要都逐漸升高。它已成為公司在其整個客戶歷程使其從競爭者中脫穎而出的一種方法。個人化「隨處」都可以發揮功效：從訪客第一次接觸開始，利用贏取使用案例的基本資料，一直到客戶服務和忠誠度使用案例。
 
-在本課程中，了解如何運用 [!DNL Adobe Target]我們討論的新功能：
+在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
 
-* 內增強的模型控制 [!UICONTROL Automated Personalization] 和 [!UICONTROL 自動鎖定目標] 活動
-* 解鎖評估設定檔屬性和高價值區段的功能 [!DNL Adobe]&#39;s [!DNL Real-Time Customer Data Platform]
-* 品牌如何借由微調其由AI支援的演算法來提供更快的速度和決策
-* 提供一對一個人化的獨特使用案例
+* [!UICONTROL Automated Personalization] 和[!UICONTROL 自動鎖定目標]活動中增強的模型控制
+* 釋放從 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 評估設定檔屬性和高值區段的能力
+* 品牌如何能夠藉由微調其 AI 支援的演算法達成更快的速度和決策
+* 獨特的使用案例以實現一對一個人化
 
-* **2022年10月11日星期二**
+* **2022 年 10 月 11 日星期二**
 * **下午 1:00 至 2:00 (EDT，UTC -4)**
 * **[詳細資訊和報名資訊](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
