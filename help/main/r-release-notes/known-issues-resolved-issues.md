@@ -4,7 +4,7 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -26,12 +26,6 @@ ht-degree: 95%
 ### 在使用表單式體驗撰寫器建立的活動中刪除擁有臨時選件的位置 {#ad-hoc}
 
 如果在使用表單式體驗撰寫器建立的活動中有位置使用臨時選件 (在活動內建立的選件)，請避免刪除這些位置。 刪除位置可能會導致活動損毀。 [!DNL Target] 團隊正在努力解決這個問題。 暫行解決方法是從[!UICONTROL 選件資料庫]建立全域選件，並將這些選件用於位置，或是視需要建立新的體驗。 (KB-2014)
-
-### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
-
-[!DNL Target] UI 可讓使用者選擇不支援的參與和收入量度，作為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動中最佳化的主要目標量度。 支援轉換量度；&#x200B;*不*&#x200B;支援參與和收入量度。如果您選擇參與或收入目標量度，則最佳化模型不會建立。
-
-如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
 ### 增強體驗撰寫器 (EEC) 不支援 PUT 要求。
 
@@ -122,6 +116,12 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 ## 已解決問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上述已知問題解決後，它們會被移至下列章節。如有需要，會新增其他附註。
+
+### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
+
+[!DNL Target] UI 可讓使用者選擇不支援的參與和收入量度，作為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動中最佳化的主要目標量度。 支援轉換量度；&#x200B;*不*&#x200B;支援參與和收入量度。如果您選擇參與或收入目標量度，則最佳化模型不會建立。
+
+如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
 ### 流量分配 [!DNL Auto-Allocate] 使用A4T的活動 {#aa-a4t}
 
