@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: ht
-source-wordcount: '4651'
-ht-degree: 100%
+source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+workflow-type: tm+mt
+source-wordcount: '4617'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,6 @@ ht-degree: 100%
 ### 在使用表單式體驗撰寫器建立的活動中刪除擁有臨時選件的位置 {#ad-hoc}
 
 如果在使用表單式體驗撰寫器建立的活動中有位置使用臨時選件 (在活動內建立的選件)，請避免刪除這些位置。 刪除位置可能會導致活動損毀。 [!DNL Target] 團隊正在努力解決這個問題。 暫行解決方法是從[!UICONTROL 選件資料庫]建立全域選件，並將這些選件用於位置，或是視需要建立新的體驗。 (KB-2014)
-
-### 使用 A4T 自動分配活動的流量分佈 {#aa-a4t}
-
-在某些情況下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配]活動的流量分佈，可能不同於根據每個體驗回報的轉換率所應該發生的情況。此問題常發生於回訪訪客流量比例高的活動。受影響的客戶將會收到受影響活動的通知。
-
-在此問題解決之前，請對標準 [!DNL Target] 報告使用[!UICONTROL 自動分配]，或對 [!DNL Analytics] 報告使用標準 A/B 測試，作為[!UICONTROL 自動分配]與 [!DNL Analytics] 報告的替代方案。(TOP-131)
 
 ### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
 
@@ -129,7 +123,11 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 上述已知問題解決後，它們會被移至下列章節。如有需要，會新增其他附註。
 
-### at.js 
+### 流量分配 [!DNL Auto-Allocate] 使用A4T的活動 {#aa-a4t}
+
+在某些情況下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配]活動的流量分佈，可能不同於根據每個體驗回報的轉換率所應該發生的情況。此問題常發生於回訪訪客流量比例高的活動。(TOP-131)
+
+### at.js
 
 * 如果您使用 at.js 2.1.1 或更舊版本在不進行任何修改的情況下建立體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，ttMeta 外掛程式可能會無法正常運作。
 
@@ -163,7 +161,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 顯示「處理」標籤的影像選件
 
-「選件」頁面上的影像選件有時會在影像上傳後數小時內保留「處理」標籤。在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並加以傳送。(MCUI-10264、TGT-37458)
+「選件」頁面上的影像選件有時會在影像上傳後數小時保留「處理」標籤。 在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並加以傳送。(MCUI-10264、TGT-37458)
 
 此問題已在 Target Standard/Premium 20.10.1 版中修正。
 
@@ -200,7 +198,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 自動鎖定目標報告 {#at-metrics}
 
-對從 9 月 15 日下午 2:30 開始影響 [!DNL Adobe Target Premium] 使用者的[!UICONTROL 自動鎖定目標]報告的問題已解決。檢視受影響的轉換量度 (使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按 mbox]」選項設定) 的報告時，轉換率報告不正確。目前沒有已知的傳送問題。
+已解決影響 [!DNL Adobe Target Premium] 使用者 [!UICONTROL 自動鎖定目標] 9月15日下午2點30分報導(PDT)10月6日上午9點25分。(PDT)。 檢視受影響轉換量度的報表時(使用[!UICONTROL 已檢視頁面]&quot;或&quot;[!UICONTROL 已點按mbox]&quot;)，則會錯誤報告轉換率。 目前沒有已知的傳送問題。
 
 若要重新同步並更正報告，請執行以下操作：
 
@@ -236,7 +234,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 使用 Google Chrome 80+ 版時，未在視覺體驗撰寫器 (VEC) 或增強體驗撰寫器 (EEC) 中載入的頁面
 
-此已知問題與 Google 從 Chrome 80 版開始將 Cookie 預設行為變更為不使用 SameSite 屬性的決定相關。在此變更前，Chrome 將不含 SameSite 屬性的所有 Cookie 預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更 Cookie 在 GET 和 POST 請求時的傳送方式。請參閱 [SameSite 更新](https://www.chromium.org/updates/same-site)。
+此已知問題與 Google 從 Chrome 80 版開始將 Cookie 預設行為變更為不使用 SameSite 屬性的決定相關。在變更前，Chrome將不含SameSite屬性的所有Cookie預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更在GET和POST要求時傳送Cookie的方式。 請參閱 [SameSite 更新](https://www.chromium.org/updates/same-site)。
 
 如需詳細資訊和修正，請參閱[排解視覺體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
 
@@ -408,7 +406,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### 報表：A/B 和體驗鎖定 (XT) 活動
 
-在 4 月 27 日下午 9:00 PST 與 5 月 5 日上午 6:00 PST 之間，使用「已檢視頁面」轉換動作 (未基於其他度量) 建立或編輯、具有度量的 A/B 和 XT 活動，可能會有不正確記錄的轉換。此問題現在已解決；不過，在影響期間對這些活動「已檢視頁面」轉換動作的相關報表可能不準確，並且不幸地，無法更正。針對這些活動基於「已檢視頁面」轉換動作的任何決策，建議您僅仰賴於影響期間之前或之後記錄的資料。
+4月27日晚上9:00（太平洋標準時間）至5月5日早上6:00（太平洋標準時間），使用「已檢視頁面」轉換動作（不以其他量度為基礎）的任何量度建立或編輯的A/B和XT活動，可能會錯誤地記錄轉換。 此問題現已解決；但是，在影響期間內，這些活動的「已檢視頁面」轉換動作的報表可能不準確，很可惜，無法更正。 對於這些活動以「已檢視頁面」轉換動作為基礎的任何決策，建議您僅仰賴於受影響期間之前或之後記錄的資料。
 
 仍可以使用其他度量的報表資料，因為它們不受影響。
 
