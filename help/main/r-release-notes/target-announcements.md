@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
+source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 97%
+source-wordcount: '2044'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,27 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
+
+## [!DNL Adobe Target] 社群問答茶歇（2022年9月28日）
+
+加入Gentry Lin和Brent Kostak的行列，即時回覆 [!DNL Adobe Target] 特定事件中的客戶 [!UICONTROL 目標社群] 討論線程。 這次咖啡休息會是最近 [!DNL Adobe Target] 技能建立者 — 行動體驗最佳化網路研討會。
+
++++詳細資料
+
+* **2022 年 9 月 28 日星期三**
+* **上午 8:00 至 9:00 (PDT，UTC -7)**
+* **[註冊連結](https://adobe.ly/3pYkmMG){target=_blank}**
+
+請您發佈有關 [[!DNL Adobe Target] 關於行動體驗最佳化的技能建立者探險系列網路研討會](https://video.tv.adobe.com/v/347360){target=_blank}，以及與Gentry和Brent的專業領域相關的其他 [!DNL Target]:
+
+* [!UICONTROL A/B測試], [!UICONTROL 多變數測試] (MVT)、 [!UICONTROL 體驗鎖定] (XT)活動、自動測試和個人化
+* 逐步活動設定工作流程
+* 批次體驗預先擷取，為行動裝置啟用隨時待命的個人化
+* 用於測試和鎖定客戶體驗、行動SDK和API，以及iOS和Android平台實作之間的生命週期量度
+* 核心 Web 撰寫工作流程
+* [!DNL Adobe Experience Cloud] 整合
+
++++
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
@@ -73,13 +94,13 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
    +++詳細資料
 
-   課程圖：
+   課程地圖：
 
-   * [!UICONTROL A/B測試], [!UICONTROL Multivariate Testing] (MVT)、(XT)以及自動測試和個人化
-   * 活動設定的逐步工作流程
-   * 批次體驗預先擷取，為行動裝置啟用隨時待命的個人化
-   * 用於測試和鎖定客戶體驗的生命週期量度
-   * Mobile SDK = API，適用於彈性實作(iOS和Android平台)
+   * [!UICONTROL A/B 測試]，[!UICONTROL Multivariate Testing] (MVT)、(XT) 和以及自動化測試和個人化
+   * 活動設置的逐步工作流程
+   * 批次體驗預取，實現行動端始終在線的個人化
+   * 用於跨客戶體驗進行測試和定位的生命週期量度
+   * 行動 SDK = 用於靈活實現的 API (iOS 和 Android 平台)
 
 +++
 
@@ -277,4 +298,4 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 隨著 mbox.js 於 2021 年 3 月 31 日淘汰，Adobe Target 產品經理 David Son 最近主持了一場開發人員的聊天，討論將 mbox.js 遷移至 at.js 的好處。
 
-* **[錄制連結](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
+* **[錄製連結](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
