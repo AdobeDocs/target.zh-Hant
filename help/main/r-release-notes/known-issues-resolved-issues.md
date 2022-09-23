@@ -4,7 +4,7 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -22,10 +22,6 @@ ht-degree: 95%
 ## 已知問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下小節羅列 [!DNL Target] 的已知問題：
-
-### 在使用表單式體驗撰寫器建立的活動中刪除擁有臨時選件的位置 {#ad-hoc}
-
-如果在使用表單式體驗撰寫器建立的活動中有位置使用臨時選件 (在活動內建立的選件)，請避免刪除這些位置。 刪除位置可能會導致活動損毀。 [!DNL Target] 團隊正在努力解決這個問題。 暫行解決方法是從[!UICONTROL 選件資料庫]建立全域選件，並將這些選件用於位置，或是視需要建立新的體驗。 (KB-2014)
 
 ### 增強體驗撰寫器 (EEC) 不支援 PUT 要求。
 
@@ -116,6 +112,10 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 ## 已解決問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上述已知問題解決後，它們會被移至下列章節。如有需要，會新增其他附註。
+
+### 在使用表單式體驗撰寫器建立的活動中刪除擁有臨時選件的位置 {#ad-hoc}
+
+如果在使用表單式體驗撰寫器建立的活動中有位置使用臨時選件 (在活動內建立的選件)，請避免刪除這些位置。 刪除位置可能會導致活動損毀。 [!DNL Target] 團隊正在努力解決這個問題。 暫行解決方法是從[!UICONTROL 選件資料庫]建立全域選件，並將這些選件用於位置，或是視需要建立新的體驗。 (KB-2014)
 
 ### Analytics for Adobe Target (A4T) 自動分配活動和自動鎖定目標活動的量度
 
