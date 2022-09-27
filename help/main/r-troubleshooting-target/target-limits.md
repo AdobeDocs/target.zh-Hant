@@ -1,11 +1,11 @@
 ---
 keywords: 字元限制;mbox 參數;批次傳送 api;設定檔參數;限制;內建設定檔;上限;限制;限制;字元;最佳實務;orderid;orderTotal;mbox3rdPartyID;類別;categoryID;疑難排解
-description: 查看影響活動和其他元素的字元限制和其他限制的清單 [!DNL Adobe Target]。
-title: 中的各種字元、大小和其他限制 [!DNL Adobe Target]?
+description: 檢視會影響活動和其他元素的字元限制和其他限制清單 [!DNL Adobe Target].
+title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -139,7 +139,7 @@ ht-degree: 96%
 
 ### 每個活動的體驗
 
-* **限制**:每人2,000次體驗 [!UICONTROL 體驗目標] (XT), [!UICONTROL A/BTest]。 [!UICONTROL 多元Test] (MVT)和 [!UICONTROL 自動目標] 的子菜單。
+* **限制**:每人2,000個體驗 [!UICONTROL 體驗鎖定] (XT)、 [!UICONTROL A/B測試], [!UICONTROL 多變數測試] (MVT)和 [!UICONTROL 自動鎖定目標] 活動。
 
    每個 Automated Personalization (AP) 活動最多 30,000 個體驗。
 
@@ -301,8 +301,8 @@ ht-degree: 96%
 
    這是指定位文字區域中以行分隔之值的數目。例如，在郵遞區號定位中輸入 1,000 個郵遞區號。
 
-### 鎖定目標規則
+### 鎖定目標規則 {#targeting-rules}
 
 * **建議的限制**：每個定位規則值2,500個字元。
-* **建議的限制**：各個鎖定目標規則中每個對象 30,000 個不重複的值。
+* **建議的限制**：各個鎖定目標規則中每個對象 50,000 個不重複的值。
 * **建議的限制**：每個活動 100,000 個不重複的鎖定目標規則值。
