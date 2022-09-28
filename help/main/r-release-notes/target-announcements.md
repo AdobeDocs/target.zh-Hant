@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
 
-## [!DNL Adobe Target] 社群問答茶歇（2022年9月28日）
+## [!DNL Adobe Target] 社群問答咖啡會 (2022 年 9 月 28 日)
 
-加入Gentry Lin和Brent Kostak的行列，即時回覆 [!DNL Adobe Target] 特定事件中的客戶 [!UICONTROL 目標社群] 討論線程。 這次咖啡休息會是最近 [!DNL Adobe Target] 技能建立者 — 行動體驗最佳化網路研討會。
+一同加入 Gentry Lin 與 Brent Kostak，他們將即時回答[!DNL Adobe Target]客戶在活動特定的[!UICONTROL 目標社群]討論對話串中張貼的問題。這場咖啡會將是近期[!DNL Adobe Target] Skill Builders – 行動體驗最佳化網路研討會問答對話的延伸。
 
 +++詳細資料
 
@@ -32,12 +32,12 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 * **上午 8:00 至 9:00 (PDT，UTC -7)**
 * **[註冊連結](https://adobe.ly/3pYkmMG){target=_blank}**
 
-請您發佈有關 [[!DNL Adobe Target] 關於行動體驗最佳化的技能建立者探險系列網路研討會](https://video.tv.adobe.com/v/347360){target=_blank}，以及與Gentry和Brent的專業領域相關的其他 [!DNL Target]:
+歡迎您張貼與 [[!DNL Adobe Target] Skill Builder Expedition Series 之行動體驗最佳化網路研討會](https://video.tv.adobe.com/v/347360){target=_blank}期間涵蓋的主題有關的問題，以及與 Gentry 和 Brent 專業領域相關的其他問題[!DNL Target]：
 
-* [!UICONTROL A/B測試], [!UICONTROL 多變數測試] (MVT)、 [!UICONTROL 體驗鎖定] (XT)活動、自動測試和個人化
+* [!UICONTROL A/B 測試]、[!UICONTROL 多變數測試] (MVT)、[!UICONTROL 體驗鎖定目標] (XT) 活動、自動化測試和個人化
 * 逐步活動設定工作流程
-* 批次體驗預先擷取，為行動裝置啟用隨時待命的個人化
-* 用於測試和鎖定客戶體驗、行動SDK和API，以及iOS和Android平台實作之間的生命週期量度
+* 批次體驗預先擷取，為行動裝置提供永遠啟動的個人化
+* 用於跨客戶體驗進行測試和鎖定目標的生命週期量度、行動 SDK 和 API，以及 iOS 和 Android 平台實作
 * 核心 Web 撰寫工作流程
 * [!DNL Adobe Experience Cloud] 整合
 
