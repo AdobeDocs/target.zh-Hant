@@ -5,9 +5,9 @@ title: 何處可以獲得有關 「已知問題」和「已解決問題」的資
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: tm+mt
-source-wordcount: '4593'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -119,11 +119,11 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 如需支援和不支援的目標量度清單，請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
-### 流量分配 [!DNL Auto-Allocate] 使用A4T的活動 {#aa-a4t}
+### 使用 A4T 自動分配[!DNL Auto-Allocate]活動的流量分佈 {#aa-a4t}
 
 在某些情況下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配]活動的流量分佈，可能不同於根據每個體驗回報的轉換率所應該發生的情況。此問題常發生於回訪訪客流量比例高的活動。(TOP-131)
 
-### at.js
+### at.js 
 
 * 如果您使用 at.js 2.1.1 或更舊版本在不進行任何修改的情況下建立體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，ttMeta 外掛程式可能會無法正常運作。
 
@@ -157,7 +157,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 顯示「處理」標籤的影像選件
 
-「選件」頁面上的影像選件有時會在影像上傳後數小時保留「處理」標籤。 在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並加以傳送。(MCUI-10264、TGT-37458)
+「選件」頁面上的影像選件有時會在影像上傳後數小時內保留「處理」標籤。在大多數情況下，這是僅標籤的問題：影像選件仍可用於活動中並加以傳送。(MCUI-10264、TGT-37458)
 
 此問題已在 Target Standard/Premium 20.10.1 版中修正。
 
@@ -194,7 +194,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 自動鎖定目標報告 {#at-metrics}
 
-已解決影響 [!DNL Adobe Target Premium] 使用者 [!UICONTROL 自動鎖定目標] 9月15日下午2點30分報導(PDT)10月6日上午9點25分。(PDT)。 檢視受影響轉換量度的報表時(使用[!UICONTROL 已檢視頁面]&quot;或&quot;[!UICONTROL 已點按mbox]&quot;)，則會錯誤報告轉換率。 目前沒有已知的傳送問題。
+對於自 9 月 15 日下午 2:30 至 10 月 6 日上午 9:25 (太平洋夏令時間) 影響 [!DNL Adobe Target Premium] 使用者的[!UICONTROL 自動鎖定目標]報告的問題已獲得解決。檢視受影響的轉換量度 (使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按 mbox]」選項設定) 的報告時，轉換率報告不正確。目前沒有已知的傳送問題。
 
 若要重新同步並更正報告，請執行以下操作：
 
@@ -230,7 +230,7 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 
 ### 使用 Google Chrome 80+ 版時，未在視覺體驗撰寫器 (VEC) 或增強體驗撰寫器 (EEC) 中載入的頁面
 
-此已知問題與 Google 從 Chrome 80 版開始將 Cookie 預設行為變更為不使用 SameSite 屬性的決定相關。在變更前，Chrome將不含SameSite屬性的所有Cookie預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更在GET和POST要求時傳送Cookie的方式。 請參閱 [SameSite 更新](https://www.chromium.org/updates/same-site)。
+此已知問題與 Google 從 Chrome 80 版開始將 Cookie 預設行為變更為不使用 SameSite 屬性的決定相關。在此變更前，Chrome 將不含 SameSite 屬性的所有 Cookie 預設為「SameSite=None」，現在則預設為「SameSite=Lax」，這會變更 Cookie 在 GET 和 POST 請求時的傳送方式。請參閱 [SameSite 更新](https://www.chromium.org/updates/same-site)。
 
 如需詳細資訊和修正，請參閱[排解視覺體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
 
@@ -402,7 +402,7 @@ Target 18.5.1 (2018 年 5 月 22 日) 版本已修正此問題。
 
 ### 報表：A/B 和體驗鎖定 (XT) 活動
 
-4月27日晚上9:00（太平洋標準時間）至5月5日早上6:00（太平洋標準時間），使用「已檢視頁面」轉換動作（不以其他量度為基礎）的任何量度建立或編輯的A/B和XT活動，可能會錯誤地記錄轉換。 此問題現已解決；但是，在影響期間內，這些活動的「已檢視頁面」轉換動作的報表可能不準確，很可惜，無法更正。 對於這些活動以「已檢視頁面」轉換動作為基礎的任何決策，建議您僅仰賴於受影響期間之前或之後記錄的資料。
+介於太平洋時間 4 月 27 日下午 9 點和 5 月 5 日上午 6 點之間，使用「已檢視頁面」對話動作 (並非根據其他量度) 透過任何量度建立或編輯的 A/B 與 XT 測試可能不正確地錄製了對話。 此問題現已解決，然而，於受影響的時段期間在「已檢視頁面」動作上針對這些活動的報告可能不準確，而且很抱歉，無法修正。我們建議對於根據「已檢視頁面」對話動作針對這些活動所做的任何決策，僅依賴受影響期間之前或之後所錄製的資料。
 
 仍可以使用其他度量的報表資料，因為它們不受影響。
 
