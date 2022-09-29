@@ -4,7 +4,7 @@ description: 探索為何某些網站可能無法在可視化體驗撰寫器(VEC
 title: 如何使用可視化體驗撰寫器(VEC)Helper擴充功能？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 55%
@@ -19,7 +19,7 @@ VEC Helper瀏覽器是Chrome擴充功能。 使用Mozilla Firefox時不需要此
 
 >[!IMPORTANT]
 >
->自2023年1月起， [!DNL Target] VEC Helper擴充功能將在Google Chrome中停止運作，因為Google不允許使用資訊清單V2的擴充功能。 下載新的擴充功能，以繼續在中以視覺化方式撰寫您的網站 [!DNL Target] 從新年開始。 如需詳細資訊，請參閱 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
+>自2023年1月起， [!DNL Target] VEC Helper擴充功能將在Google Chrome中停止運作，因為Google不允許使用資訊清單V2的擴充功能。 下載新的擴充功能，以繼續在中以視覺化方式撰寫您的網站 [!DNL Target] 從新年開始。 如需詳細資訊，請參閱 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 ## 某些網站無法可靠地在 VEC 中開啟的可能原因
 
