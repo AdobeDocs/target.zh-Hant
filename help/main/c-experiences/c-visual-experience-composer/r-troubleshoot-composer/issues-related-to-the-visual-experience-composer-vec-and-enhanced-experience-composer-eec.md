@@ -1,88 +1,88 @@
 ---
-keywords: 目標；視覺體驗作曲家；白名單；允許清單；允許清單；增強的視覺體驗合成器；vec；疑難解答；eec；增強的體驗合成器；tls 1.2
-description: Learn how to troubleshoot problems that sometimes occur in the Adobe [!DNL Target] Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
-title: 如何排除與Visual Experience Composer和Enhanced Experience Composer相關的問題？
+keywords: 鎖定目標；可視化體驗撰寫器；白名單；允許清單；允許清單；增強可視化體驗撰寫器； VEC；疑難排解可視化體驗撰寫器；疑難排解； EEC；增強體驗撰寫器； TLS; TLS 1.2
+description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target] 在特定條件下的可視化體驗撰寫器(VEC)和增強體驗撰寫器(EEC)。
+title: 如何疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 52%
 
 ---
 
-# 疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題
+# 疑難排解 [!UICONTROL 可視化體驗撰寫器] 和 [!UICONTROL 增強體驗撰寫器]
 
-顯示中有時出現的問題和其他問題 [!DNL Adobe Target] [!UICONTROL 視覺體驗作曲家] (VEC)和 [!UICONTROL 增強的體驗作曲家] (EEC)。
+顯示有時在 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)和 [!UICONTROL 增強體驗撰寫器] (EEC)。
 
 ## Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？ {#samesite}
 
-請注意使用以下Chrome版本時影響VEC和EEC的更改：
+請注意使用下列Chrome版本時會影響VEC和EEC的變更：
 
 >[!NOTE]
 >
->以下更改會影響下面概述的所有三個更新：
+>下列變更會影響下列三項更新：
 >
-> * 將 *不* 在未安裝VEC幫助程式擴展並為站點的受密碼保護頁面啟用的情況下，可以使用VEC。 您的站點登錄Cookie被視為第三方Cookie，不會在VEC編輯器中以「瀏覽」模式隨登錄請求一起發送。 唯一的例外是您的站點登錄Cookie已具有 `SameSite=None` 和 `Secure` 屬性集。
+> * 將 *not* 能夠使用VEC，但未安裝VEC Helper擴充功能，且已針對網站受密碼保護的頁面啟用。 您的網站登入Cookie會視為第三方Cookie，且不會在瀏覽模式的VEC編輯器內隨登入請求傳送。 唯一的例外是您的網站登入Cookie已有 `SameSite=None` 和 `Secure` 屬性集。
 
 
-**Chrome 94（2021年9月21日）**:計畫對Chrome 94版本（2021年9月21日）進行即將進行的更改，以下更改將影響所有使用Chrome 94+瀏覽器版本的用戶：
+**Chrome 94（2021年9月21日）**:隨著Chrome 94版本（2021年9月21日）預計即將進行的變更，下列變更將影響所有使用Chrome 94以上版本瀏覽器的使用者：
 
-* 命令行標誌 `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` 將被刪除。
+* 命令列標幟 `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` 即會移除。
 
-**鉻91（2021年5月25日）**:對Chrome 91版本（2021年5月25日）實施的更改將影響所有使用Chrome 91+瀏覽器版本的用戶：
+**Chrome 91（2021年5月25日）**:隨著Chrome 91版本（2021年5月25日）實作的變更，下列變更將影響所有使用Chrome 91以上版本瀏覽器的使用者：
 
-* The flags `#same-site-by-default-cookies` and `#cookies-without-same-site-must-be-secure` have been removed from `chrome://flags`. This behavior is now enabled by default.
+* 旗子 `#same-site-by-default-cookies` 和 `#cookies-without-same-site-must-be-secure` 已從 `chrome://flags`. 現在預設會啟用此行為。
 
-**鉻80（2020年8月）**:隨著2020年8月實施的更改，所有使用Chrome 80+瀏覽器版本的用戶：
+**Chrome 80（2020年8月）**:自2020年8月實作的變更後，所有使用Chrome 80以上版本瀏覽器的使用者：
 
-* 將 *不* 能夠下載 [!DNL Target] 編輯活動時（當站點上尚未提供這些檔案時）建立庫。 這是因為下載呼叫是從客戶域向安全域發出 [!DNL Adobe] 域，並作為未經驗證而被拒絕。
-* 歐共體將 *不* 函式，因為它無法為Cookie設定SameSite屬性 `adobemc.com domain`。 如果沒有此屬性，瀏覽器將拒絕這些Cookie，導致EEC失敗。
+* 將 *not* 能夠下載 [!DNL Target] 程式庫（當這些項目尚未在網站上時）。 這是因為下載呼叫是從客戶網域向安全網域進行 [!DNL Adobe] 網域和會因未驗證而遭拒。
+* EEC將 *not* 函式，因為無法在上為cookie設定SameSite屬性 `adobemc.com domain`. 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
 
-### 確定阻止的Cookie
+### 判斷已封鎖哪些Cookie
 
-要確定哪些Cookie因SameSite Cookie實施策略而被阻止，請使用Chrome中的「開發人員工具」。
+若要判斷哪些Cookie因SameSite Cookie實施原則而遭到封鎖，請使用Chrome中的開發人員工具。
 
-1. 要訪問「開發人員工具」，在查看Chrome中的VEC時，按一下 **[!UICONTROL 省略號]** 表徵圖，位於Chrome的右上角> **[!UICONTROL 更多工具]** > **[!UICONTROL 開發人員工具]**。
-1. 按一下 **[!UICONTROL 網路]** 頁籤，然後查找已阻止的cookie。
+1. 若要存取開發人員工具，在Chrome中檢視VEC時，請按一下 **[!UICONTROL 省略號]** 圖示（位於Chrome右上角）> **[!UICONTROL 更多工具]** > **[!UICONTROL 開發人員工具]**.
+1. 按一下 **[!UICONTROL 網路]** 標籤>，然後尋找已封鎖的cookie。
 
    >[!NOTE]
    >
-   >Use the **[!UICONTROL Has blocked cookies]** checkbox to make finding blocked cookies easier.
+   >使用 **[!UICONTROL 已阻止Cookie]** 核取方塊，讓尋找已封鎖的cookie變得更輕鬆。
 
-   下圖顯示了阻止的cookie:
+   下圖顯示已封鎖的Cookie:
 
-   ![「開發人員工具」>「網路」頁籤，顯示已阻止的Cookie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+   ![顯示已封鎖Cookie的「開發人員工具>網路」標籤](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
-### [!DNL Adobe Target] VEC幫助程式擴展
+### [!DNL Adobe Target] VEC Helper擴充功能
 
-從0.7.1版開始， [!DNL Adobe Target] VEC幫助程式瀏覽器擴展添加 `SameSite=None` 和 `Secure` 在擴展UI中開啟「Cookie」切換時，對來自VEC內編輯的網頁的響應的所有Cookie的屬性：
+從0.7.1版開始， [!DNL Adobe Target] VEC Helper瀏覽器擴充功能新增 `SameSite=None` 和 `Secure` 屬性為當擴充功能UI中開啟「Cookie」切換時，源自於VEC內編輯之網頁的回應中的所有Cookie:
 
-![Adobe TargetVEC幫助程式擴展UIAdobe目標VEC幫助程式擴展UI](assets/cookies-vec-helper.png)
+![Adobe Target VEC Helper擴充功能UIdobe Target VEC Helper擴充功能UI](assets/cookies-vec-helper.png)
 
-### 備選方案和變通辦法
+### 替代方案和因應措施
 
-使用以下選項之一確保VEC和EEC繼續按預期工作：
+使用下列其中一個選項，確保VEC和EEC可繼續如預期般運作：
 
-* 下載並使用更新的 [VEC幫助程式擴展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+* 下載並使用更新的 [VEC Helper擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * 使用Mozilla Firefox瀏覽器。 Firefox尚未強制執行此策略。
-* 使用以下標誌從命令行運行GoogleChrome，直到2021年9月21日。 9月21日之後，需要Cookie的功能在VEC中將不再有效，如登錄或Cookie同意彈出窗口。 If you update to Chrome 94, you must manually generate cookies with `SameSite=none` and `Secure` on your websites.
+* 使用下列標幟，從命令列執行Google Chrome，直到2021年9月21日為止。 9月21日後，需要Cookie的功能將無法在VEC中運作，例如登入或Cookie同意快顯視窗。 如果您更新至Chrome 94，則必須使用手動產生Cookie `SameSite=none` 和 `Secure` 在您的網站上。
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
    ```
 
-## 是 [!DNL Target] 支援多級Iframe?
+## 是 [!DNL Target] 是否支援多層級iframe?
 
-[!DNL Target] 不支援多重層級 iframe。如果網站載入的iframe具有子iframe，則at.js僅與父iframe交互。 [!DNL Target] 資料庫不會與子項 iframe 互動。
+[!DNL Target] 不支援多重層級 iframe。如果您的網站載入的iframe具有子項iframe,at.js只會與父項iframe互動。 [!DNL Target] 資料庫不會與子項 iframe 互動。
 
 作為因應措施，您可以使用子項 iframe 的 URL 在體驗中新增頁面。
 
 ## 當我嘗試編輯頁面時，我只看到了進度環而非我的頁面。(VEC 和 EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
-如果URL包含#字元，則可能會出現這種情況。 若要修正問題，請在可視化體驗撰寫器中切換至「瀏覽」模式，然後切換回「撰寫」模式。進度環應該會消失，並且頁面應該會載入。
+如果URL包含#字元，就會發生此情況。 若要修正問題，請在可視化體驗撰寫器中切換至「瀏覽」模式，然後切換回「撰寫」模式。進度環應該會消失，並且頁面應該會載入。
 
-## 內容安全策略(CSP)標頭阻止 [!DNL Target] 我網站上的庫。 (VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## 內容安全性原則(CSP)標頭會封鎖 [!DNL Target] 程式庫。 (VEC 和 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 如果您的網站的 CSP 標頭封鎖 Target 資料庫，然後載入網站但防止編輯，請確保 Target 資料庫未遭到封鎖。
 
@@ -113,11 +113,11 @@ ht-degree: 52%
 
 ## 在頁面上變更一個元素時，變更了多個元素。(VEC 和 EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。這是HTML的標準最佳做法。 有關詳細資訊，請參見 [頁面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。此作法是標準的HTML最佳作法。 如需詳細資訊，請參閱 [頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## 我無法編輯 iFrame-busting 網站的體驗。(VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-此問題可透過啟用增強體驗撰寫器來解決。Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。此代理允許在iFrame Brige站點上進行編輯，並允許在尚未添加Adobe Target代碼的站點和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。
+此問題可透過啟用增強體驗撰寫器來解決。按一下 **[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]**，然後選取可啟用增強體驗撰寫器的核取方塊。 增強體驗撰寫器使用 Adobe 管理的 Proxy 來載入您的頁面進行編輯。此代理可在iFrame-busting網站上進行編輯，並可在您尚未新增Adobe Target程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過增強體驗撰寫器載入，在此情況下，您可以取消勾選此選項，以透過 iFrame 載入可視化體驗撰寫器。
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ ht-degree: 52%
 
 ## 具有「編輯文字/HTML」或「變更文字/HTML」的粗體和斜體文字樣式未在我的頁面上顯示。有時文字會在套用這些樣式變更之後消失。(VEC 和 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-如果您對 A/B 或體驗鎖定目標活動使用可視化體驗撰寫器中的&#x200B;**[!UICONTROL 編輯文字/HTML]**，或對自動個人化或多變數測試活動使用&#x200B;**[!UICONTROL 變更文字/HTML]**，以讓文字粗體或斜體，這些樣式可能無法在頁面上套用，或文字會從可視化體驗撰寫器中的頁面消失。This happens because of the way the rich-text editor applies these styles might interfere with the website markup.
+如果您對 A/B 或體驗鎖定目標活動使用可視化體驗撰寫器中的&#x200B;**[!UICONTROL 編輯文字/HTML]**，或對自動個人化或多變數測試活動使用&#x200B;**[!UICONTROL 變更文字/HTML]**，以讓文字粗體或斜體，這些樣式可能無法在頁面上套用，或文字會從可視化體驗撰寫器中的頁面消失。這是因為RTF編輯器套用這些樣式的方式可能會干擾網站標籤。
 
 如果您看見此問題:
 

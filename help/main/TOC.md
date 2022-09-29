@@ -3,17 +3,17 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1213'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Target 商務從業者指南 {#using}
 
-+ [Adobe Target商業從業者指南家](target-home.md)
++ [Adobe Target業務從業者指南首頁](target-home.md)
 + Target 發行說明 {#release-notes}
    + [Target 公告和活動](/help/main/r-release-notes/target-announcements.md)
    + [Target 發行說明 (最新)](r-release-notes/release-notes.md)
@@ -96,7 +96,7 @@ ht-degree: 0%
    + 將 Target 與 Adobe Journey Optimizer 整合{#ajo}
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [將目標與Adobe Experience Manager整合](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + [將Target與Adobe Experience Manager整合](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [整合 Target 和 Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [與 Real-time Customer Data Platform 整合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [將 Target 與 Adobe Campaign 整合](c-integrating-target-with-mac/campaign-and-target.md)
@@ -234,6 +234,7 @@ ht-degree: 0%
          + [疑難排解增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [在您的瀏覽器中啟用混合式內容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [頁面修改案例](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension)
          + [可視化體驗撰寫器 Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重新導向至 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [建立可在可視化體驗撰寫器中運作的輪播](c-experiences/c-visual-experience-composer/vec-carousels.md)
