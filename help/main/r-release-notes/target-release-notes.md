@@ -4,7 +4,7 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 224f95c21db67d27b31f0a3fc44216ee6033f874
+source-git-commit: f567203808ef31191754773079450bc7a323dde7
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 28%
@@ -39,7 +39,7 @@ ht-degree: 28%
 * 改善 [!DNL Target] 載入接近 [目標規則的建議限制](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
 * 修正造成部分元件無法正確顯示於 [!UICONTROL 修改] 面板 [!UICONTROL 體驗] 頁面時(從 [!UICONTROL 撰寫] to [!UICONTROL 瀏覽] 模式。 (TGT-43300)
 * 修正部分客戶無法封存的問題 [!UICONTROL A/B測試] 使用的活動 [!UICONTROL 自動鎖定目標]. (TGT-40978)
-* 新增在單一報表群組內的多個位置自動使用單一選件的功能。 (TGT-43974)
+* 新增在單一報表群組內的多個位置自動使用單一選件的功能。 (TGT-40689)
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
