@@ -3,10 +3,10 @@ keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
 description: 探索為何某些網站可能無法可靠地在 [!UICONTROL 可視化體驗撰寫器] (VEC)。 此 [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能可讓您在VEC內以可靠的方式載入網站。
 title: 如何使用 [!UICONTROL Visual Editing Helper] 擴充功能？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 30%
+source-wordcount: '568'
+ht-degree: 27%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 30%
 
    * 如果您嘗試使用無法載入的VEC載入網站，系統會顯示訊息，建議您安裝 [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能。
    * 如果網站上尚未實作at.js或alloy.js,VEC中會顯示訊息，建議您安裝擴充功能。
-
-## 有關此功能的更多幫助
-
-* [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [疑難排解可視化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [疑難排解增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 

@@ -4,9 +4,9 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f567203808ef31191754773079450bc7a323dde7
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '525'
 ht-degree: 28%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 28%
 | 功能 | 詳細資料 |
 | --- | --- |
 | [!DNL Adobe Experience Manager] (AEM)體驗片段 | AEM體驗片段功能的更新包括：<ul><li>新增可依下列類型(HTML或JSON)篩選AEM體驗片段的功能： [!UICONTROL 選件] 清單。 (TGT-43121)</li><li>修正允許客戶插入JSON的問題 [!UICONTROL 體驗片段] 不支援的VEC時提供選件。 JSON選件只能在使用 [!UICONTROL 表單式體驗] 撰寫器。 (TGT-43846)</li></ul>如需詳細資訊，請參閱AEM [體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| 新增 [!UICONTROL 可視化體驗撰寫器] Google Chrome擴充功能 | 新 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] Chrome線上應用程式(VEC)擴充功能已在Chrome線上應用程式商店中推出。<br>自2023年1月起， [!DNL Target] VEC Helper擴充功能將在Google Chrome中停止運作，因為Google不允許使用資訊清單V2的擴充功能。 下載新的擴充功能，以繼續在中以視覺化方式撰寫您的網站 [!DNL Target] 從新年開始。<br>下列連結顯示Chrome線上應用程式商店中的兩個擴充功能：<ul><li>[新擴充功能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[舊擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul> |
-| 針對 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標]<br>（確切的發行日期待定。） | 請注意下列變更：<ul><li>新增對二進位和最大化量度的支援，於 [!UICONTROL Analytics for Target] 適用於 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動</li><li>移除的二進位量度警告訊息 [!UICONTROL 自動鎖定目標] 活動</li><li>保留現有活動的行為，直到2023年2月20日。 在此日期後，活動將停止，以強制現有活動移轉至新行為</li><li>自2023年2月20日起，支援 `averagetimespentonsite`, `bouncerate`，和 `entries` 量度 [!DNL Target] 活動將遭取代。</li></ul> |
+| 新增 [!UICONTROL 可視化體驗撰寫器] Google Chrome擴充功能 | 新 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] Chrome線上應用程式(VEC)擴充功能已在Chrome線上應用程式商店中推出。<br>自2023年1月起， [!DNL Target] VEC Helper擴充功能將在Google Chrome中停止運作，因為Google不允許使用資訊清單V2的擴充功能。 下載新的擴充功能，以繼續在中以視覺化方式撰寫您的網站 [!DNL Target] 從新年開始。<br>下列連結顯示Chrome線上應用程式商店中的兩個擴充功能：<ul><li>[新擴充功能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[舊擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>如需詳細資訊，請參閱 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| 針對 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標]<br>（確切的發行日期待定。） | 請注意下列變更：<ul><li>新增對二進位和最大化量度的支援，於 [!UICONTROL Analytics for Target] 適用於 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動</li><li>保留現有活動的行為，直到2023年2月20日。 在此日期後，活動將停止，以強制現有活動移轉至新行為</li><li>自2023年2月20日起，支援 `averagetimespentonsite`, `bouncerate`，和 `entries` 量度 [!DNL Target] 活動將遭取代。</li></ul> |
 
 * 修正對象規則資訊無法在 [!UICONTROL 受眾細分] 資訊窗口。 (TGT-43917)
 * 改善 [!DNL Target] 載入接近 [目標規則的建議限制](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
