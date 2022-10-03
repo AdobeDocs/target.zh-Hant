@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1221'
 ht-degree: 98%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 98%
       + [平均提升度、提升度界限和信賴區間](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [在報表中檢視多個量度](c-reports/c-report-settings/view-multiple-metrics.md)
       + [排除極端值](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + 統計方法 {#statistical-methodology}
+      + [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [自動鎖定目標摘要報表](c-reports/auto-target-summary-report.md)
    + [Automated Personalization 摘要報表](c-reports/reports-ap.md)
    + 個人化前瞻分析報表 {#insights}
