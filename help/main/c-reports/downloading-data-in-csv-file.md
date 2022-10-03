@@ -1,10 +1,10 @@
 ---
 keywords: 報表;下載報表;csv;成功量度;訂單詳細資料
-description: 瞭解如何從Adobe下載資料 [!DNL Target] 以CVS格式快速導入到Excel、Access或其他資料分析程式的活動。
-title: 如何在CSV檔案中下載報告資料？
+description: 了解如何從Adobe下載資料 [!DNL Target] 活動，以快速匯入至Excel、Access或其他資料分析程式。
+title: 如何將報表資料下載為CSV檔案？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 83%
@@ -24,7 +24,7 @@ ht-degree: 83%
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
 1. 按一下&#x200B;**[!UICONTROL 「下載」]**&#x200B;圖示，然後選取要下載到 Excel 和其他工具中分析的報表類型。
 
-   * [!UICONTROL 將報告導出到CSV]
+   * [!UICONTROL 匯出報表至CSV]
    * [!UICONTROL 匯出訂單詳細資料至 CSV]
 
    ![下載選項](/help/main/c-reports/assets/download-options.png)
@@ -40,11 +40,11 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->CSV報告僅包括原始資料，不包括計算的度量，如A/Btest使用的每位訪問者的收入、提升或信心。 要計算這些計算的度量，請下載目標 [完全置信度計算器](/help/main/assets/complete_confidence_calculator.xlsx) Excel檔案，用於輸入活動值或查看 [目標使用的統計計算](/help/main/assets/statistical-calculations.pdf)。
+>CSV報表只包含原始資料，不包含用於A/B測試的計算量度，例如每位訪客帶來的收入、提升度或信賴度。 若要計算這些計算量度，請下載Target的 [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) 輸入活動值或檢閱的Excel檔案 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 匯出訂單詳細資料至 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-「訂單詳細資訊」報表顯示有關訂單的資訊，包括：
+「訂單詳細資料」報表會顯示訂單的相關資訊，包括：
 
 * 訂單日期與時間
 * 訂單金額 (若您插入「下單」mbox)
@@ -83,7 +83,7 @@ ht-degree: 83%
 
 下列資訊適用於「下載」選項:
 
-* 您可以下載A/BTest、Automated Personalization、體驗目標和多變數活動的兩個報告。 對於「建議」活動，您無法下載「成功量度」報表。
+* 您可以下載A/B測試、Automated Personalization、體驗鎖定目標和多變數活動的兩個報表。 對於「建議」活動，您無法下載「成功量度」報表。
 * 對於 Target 15.7.1 版 (2015 年 7 月) 以前建立的 A/B 和「體驗鎖定目標」活動，無法使用「下載」選項。
 * 下載的報表中不會記錄沒有相關聯資料的體驗。
 * Target 報表 UI 中套用的受眾不會繼續存在於下載報表中。

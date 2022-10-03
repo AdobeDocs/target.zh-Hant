@@ -4,7 +4,7 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -428,7 +428,7 @@ ht-degree: 96%
 此發行包含下列增強功能、修正和變更：
 
 * 修正造成[!UICONTROL 平均提升度信賴區間]和[!UICONTROL 信賴]無法在[!UICONTROL 總計]列之 [!DNL Auto-Target] 報告中顯示的問題。所有個別體驗的量度都會正確顯示。(TGT-37301)
-* 修正影響 [!DNL Adobe Target Premium] 使用者 [!UICONTROL 自動鎖定目標] 9月15日下午2點30分報導(PDT)10月6日上午9點25分。(PDT)。 檢視受影響轉換量度的報表時(使用[!UICONTROL 已檢視頁面]&quot;或&quot;[!UICONTROL 已點按mbox]&quot;)，則會錯誤報告轉換率。 目前沒有已知的傳送問題。有關如何重新同步和更正報告的資訊，請參閱&#x200B;*已知問題和已解決問題*&#x200B;&#x200B;中&#x200B;*已解決問題*&#x200B;下的[自動鎖定目標](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics)報告。
+* 修正影響 [!DNL Adobe Target Premium] 使用者 [!UICONTROL 自動鎖定目標] 9月15日下午2點30分報導(PDT)10月6日上午9點25分。(PDT)。 檢視受影響的轉換量度 (使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按 mbox]」選項設定) 的報告時，轉換率報告不正確。目前沒有已知的傳送問題。有關如何重新同步和更正報告的資訊，請參閱&#x200B;*已知問題和已解決問題*&#x200B;&#x200B;中&#x200B;*已解決問題*&#x200B;下的[自動鎖定目標](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics)報告。
 * 在[!UICONTROL 目錄搜尋]表格中新增可選的[!UICONTROL 上次更新日期]欄，以及一個[!UICONTROL 上次更新日期]篩選器。此增強功能可節省時間和精力，因為您不需要開啟每個個別項目來查看上次更新時間，而且您可以依上次更新項目的日期進行篩選。
 
    ![上次更新時間欄及篩選器插圖](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -2288,7 +2288,7 @@ target/r_release-notes-2018.xml
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>報表的使用者介面已重新設計。 </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Target 報表現在有選項可重設報表資料以移除舊資料。(TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>報表的計算方法選項包含訪客 (預設)、造訪和活動曝光。(TGT-10002) </p> </li> 
-     </ul> </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">報告設定</a>和<a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">計算方法</a>。 </p> <p>下列報表增強功能現在可供可下載的 CSV 報表使用: </p> <p> 
+     </ul> </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">報告設定</a>和<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">計算方法</a>。 </p> <p>下列報表增強功能現在可供可下載的 CSV 報表使用: </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>選件層級 CSV 報表現在具有關於每個選件的其他詳細資料。(TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>下載的選件層級 CSV 檔案，現在一律包括來自 <span class="wintitle">Automated Personalization</span> 報表的控制和鎖定區段的資料。(TGT-22000) </p> </li> 
@@ -2954,7 +2954,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
   </tr> 
   <tr> 
    <td colname="col1"> 檢視 Target 報告中的「信賴區間」，以瞭解連續變數 </td> 
-   <td colname="col2"> <p>顯示收益量度類型 (RPV、AOV、銷售、訂單) 和參與量度的「信賴區間範圍」。 </p> <p>例如，如果 RPV 為 200.00 而信賴區間範圍為 50.00，則應顯示為 RPV: 200.00 +/- 50.00 </p> <p>此變更適用 A/B、體驗鎖定目標和多變數測試。 </p> <p>請參閱<a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">信賴等級與信賴區間</a>。 </p> </td> 
+   <td colname="col2"> <p>顯示收益量度類型 (RPV、AOV、銷售、訂單) 和參與量度的「信賴區間範圍」。 </p> <p>例如，如果 RPV 為 200.00 而信賴區間範圍為 50.00，則應顯示為 RPV: 200.00 +/- 50.00 </p> <p>此變更適用 A/B、體驗鎖定目標和多變數測試。 </p> <p>請參閱<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">信賴等級與信賴區間</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 「Visual Experience Composer (視覺化體驗編譯工具)」URL 規則增強功能 </td> 
@@ -3211,7 +3211,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 二進位量度的可信度區間 </td> 
-   <td colname="col2"> <p>使用 Target 型資料更新的報表，可顯示與控制項比較下的提升度可信度區間。 </p> <p>請參閱<a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">信賴等級與信賴區間</a>。 </p> </td> 
+   <td colname="col2"> <p>使用 Target 型資料更新的報表，可顯示與控制項比較下的提升度可信度區間。 </p> <p>請參閱<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">信賴等級與信賴區間</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 下載匯出活動報表資料 </td> 

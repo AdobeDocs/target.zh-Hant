@@ -1,23 +1,23 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;提升度;隨選;報表產生器;可信度
-description: 使用Analytics時查找有關提升和信心問題的答案 [!DNL Target] (A4T)。 A4T允許您使用Analytics報告 [!DNL Target] 活動。
-title: 在哪裡可以找到有關A4T提升和信心的資訊？
+description: 針對使用Analytics時的提升度和可信度問題尋找解答 [!DNL Target] (A4T)。 A4T可讓您對 [!DNL Target] 活動。
+title: 哪裡可以找到關於A4T提升度和可信度的資訊？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
 # 提升度和可信度 - A4T 常見問題集
 
-本主題包含使用時經常詢問的有關提升和信心的問題的答案 [!DNL Adobe Analytics] 作為 [!DNL Adobe Target] (A4T)。
+此主題包含使用時經常詢問關於提升度和可信度問題的回答 [!DNL Adobe Analytics] 作為的報表來源 [!DNL Adobe Target] (A4T)。
 
 ## 我可以對 A4T 執行離線計算嗎? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。如需詳細資訊，請參閱[信賴等級與信賴區間](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)中的「對 Target (A4T) 執行離線計算」。
+您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。如需詳細資訊，請參閱 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 如何計算提升度? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,22 +25,22 @@ ht-degree: 28%
 
 ## 如何計算可信度? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-置信度是以百分比表示的等於 `1 - p-value`的子菜單。 `p-value` 從ttest計算。 請參閱 [轉換率](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
+信賴等級是等於 `1 - p-value`，其中 `p-value` 是從t檢定計算。 請參閱 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 在計算量度上為何看不到提升度和可信度? {#lift-confidence}
 
-提升函式和置信函式當前不支援計算度量。 分析在聚合級別而不是訪問者級別計算度量。 特別是，信心是訪客層面的計算。
+提升度和可信度函式目前不支援計算量度。 Analytics會在匯總層級計算量度，而非在訪客層級計算。 可信度尤其是訪客層級的計算。
 
-非計算（標準）事件在提升和置信度方面得到支援。 在升力功能中，他們成為分子；分子本身不能是計算。 分母是標準化指標（印象、訪問或訪問者）。 標準事件的一些示例包括訂單、收入、活動轉換、自定義事件1-1000等。 通常的優化指標，如會話率（訂單/訪問者）和RPV（收入/訪問者），都受到支援，以提升信心。
+提升度和可信度支援非計算（標準）事件。 他們成為提升度函式中的分子；分子不能是計算本身。 分母是標準化量度（曝光數、造訪或訪客）。 標準事件的某些範例包括訂購、收入、活動轉換、自訂事件1-1000等。 提升度和可信度可支援通用最佳化量度，例如對話率（訂購/訪客）和RPV（收入/訪客）。
 
-不支援的度量或使用案例的示例包括：
+不支援的量度或使用案例範例包括：
 
-* 平均訂單值（收入/訂單，每訪問者）。 不支援AOV，因為分子是計算度量。 相反，建議考慮AOV的兩個影響指標 — Revenue Per Visitor和Conversion Rate。
-* 計算的度量是標準事件的總和。 例如，您可以將十個不同的潛在顧客表單跟蹤到十個獨立的事件中，然後將它們相加以獲得總的潛在顧客提交。 跟蹤這些事件的推薦方法是在分析中實施單個線索提交事件，然後使用eVar收集線索表單的類型。 使用此方法需要的變數較少，並確保在提升函式和置信度函式中可以使用單個線索提交度量。
+* 平均訂購值（每位訪客的收入/訂購）。 不支援AOV，因為分子是計算量度。 相反地，建議考慮AOV的兩個影響量度 — 每位訪客的收入和轉換率。
+* 標準事件總和的計算量度。 例如，您可以將10個不同的銷售機會表單追蹤為10個不同的事件，然後將其加入一起，以取得銷售機會提交總數。 追蹤這些事件的建議方法是在Analytics中實作單一銷售機會提交事件，然後使用eVar來收集銷售機會表單類型。 使用此方法需要的變數較少，且可確保在提升度和可信度函式中使用單一銷售機會提交量度。
 
 ## A4T 如何處理可信度計算? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-[!DNL Adobe Analytics] 將所有度量視為非二進位，因此，以與常規ttest中使用二進位度量不同的方式計算置信度/p值。 具體而言，A4T使用的計算允許每個用戶具有連續的度量結果（不僅是每個用戶1或0），因此必須適當地計算每個體驗的方差（或相關的標準差）。 不考慮極端命令。 此外，置信度計算不適用於多個報價的Bonferroni修正。
+[!DNL Adobe Analytics] 將所有量度視為非二進位，因此，會以與在一般t檢定中使用二進位量度不同的方式計算信賴/p值。 具體而言，A4T所使用的計算可讓每位使用者擁有持續的量度結果（而非每位使用者只有1或0），因此必須適當計算每個體驗的變異數（或相關的標準差）。 不考慮極端訂單。 此外，可信度計算不會對多個選件套用Bonferroni校正。
 
 ## 提升度和可信度可用在隨選和報表產生器中嗎? 如果不是原生功能，我可以在產生器中自行操作嗎? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 

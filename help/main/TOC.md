@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 98%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 98%
    + [體驗效能報表 (MVT)](c-reports/experience-performance-report.md)
    + [位置貢獻報表 (MVT)](c-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 報告](c-reports/analytics-for-target-a4t-reporting.md)
-   + [轉換率](c-reports/conversion-rate.md)
    + [將資料下載為 CSV 檔案](c-reports/downloading-data-in-csv-file.md)
    + [報表常見問題集](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
