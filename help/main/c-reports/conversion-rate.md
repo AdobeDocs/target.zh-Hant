@@ -4,10 +4,10 @@ description: 了解Adobe [!DNL Target] 顯示並計算每個體驗的轉換率�
 title: 如何檢視轉換率、提升度和信賴等級？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 53%
+source-wordcount: '2164'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 53%
 
 下圖顯示活動範例的圖表標題，並醒目提示[!UICONTROL 轉換率]、[!UICONTROL 提升度]和[!UICONTROL 信賴度]。
 
-![](assets/conversion-rate.jpg)
+![轉換率影像](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 53%
 
 例如，檢查下列轉換率報表欄:
 
-![](assets/conversion-rate-detail.jpg)
+![轉換率 — 細節影像](assets/conversion-rate-detail.jpg)
 
 第一行是控制體驗。其中顯示 15% 的轉換率，轉換三次。第二行 (體驗 B) 顯示 15% 轉換率，信賴區間加或減 15.65%，轉換三次。
 
@@ -62,7 +62,7 @@ ht-degree: 53%
 
 可信度大於或等於 99.995% 時會四捨五入為 100.00%。
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![「conf_report」影像](assets/conf_report.png)  ![conf_report_detail影像](assets/conf_report_detail.png)
 
 下定任何商業決策之前，請試著靜待出現足夠大小的樣本，且有一或多個體驗的四條信賴度在一段持續的時間內保持一致，以確保獲得穩定的結果。
 
@@ -75,7 +75,7 @@ ht-degree: 53%
 
 此 *信賴區間* 是一個估計範圍，可在指定的信賴等級中找到量度的真值。 Target一律會顯示95%信賴區間。 信賴區間在「轉換率」欄中以淺灰色 +/- 百分比出現。在下列範例中，體驗 B 提升度的信賴區間會加或減 15.65%。
 
-![](assets/conversion_rate.png)
+![conversion_rate影像](assets/conversion_rate.png)
 
 **範例：** 體驗觀察到的RPV為$10，而其為95% **信賴區間** 是$5到$15。 我們不知道，其真實RPV為$12。 然後，如果我們執行此測試多次，我們計算的信賴區間95%的時間會包含 _true_ RPV的值$12。
 

@@ -4,10 +4,10 @@ description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問
 title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3135'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target] 有 [篩選不相容的條件](https://developer.adobe.com/target/implement/recommendations/){target=_blank}設定，用於控制算法選取器的智慧過濾。
+[!DNL Target] 有 [篩選不相容的條件](https://developer.adobe.com/target/implement/recommendations/){target=_blank}設定，可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 若要存取「[!UICONTROL 篩選不相容的條件]」設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」：
 
-![](assets/recs_settings_filter.png)
+![recs_settings_filter影像](assets/recs_settings_filter.png)
 
 如果「未」啟用「[!UICONTROL 篩選不相容的條件]」設定，[!DNL Target] 就不會篩選「演算法選擇器」中的演算法，且所有演算法都會顯示。
 
@@ -110,7 +110,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果[!UICONTROL 篩選不相容的條件]設定已啟用，您仍可在選取條件時取消選取[!UICONTROL 「相容」]核取方塊，以檢視不相容的演算法。
 
-![](assets/compatible_checkbox.png)
+![compatible_checkbox映像](assets/compatible_checkbox.png)
 
 下列清單包含 [!DNL Target] 未顯示「[!UICONTROL 相容]」核取方塊的特殊情況：
 
@@ -126,7 +126,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 您可以重新儲存集合，檢查數字是否會更新。再次儲存，集合會重新執行所有使用該集合的演算法。
 * 您所看的環境對嗎？ 請移至 [!DNL /target/products.html#recsSettings] 仔細檢查 (如下所示)。
 
-   ![](assets/product_catalog.png)
+   ![product_catalog影像](assets/product_catalog.png)
 
 * 索引是最新的嗎？ 請移至[!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的 (例如「3 小時前已編列索引」)。您可以視需要重新整理索引。
 * 您是否更動過摘要或資料層，而導致實體不再符合收集規則？ 請確定「大小寫」相符 (區分大小寫)。
@@ -139,13 +139,13 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 「標準屬性加權」適用於大部分 (但不是全部) 條件類型 (不只是「內容相似度」)。這種加權會給某些屬性值更多權重。在下列範例中，輸出推薦中會多一些 Nike 產品。
 
-![](assets/attribute_weighting_example.png)
+![attribute_weighting_example image](assets/attribute_weighting_example.png)
 
 「內容相似度屬性加權」僅適用於內容相似度條件。
 
 這種加權較動態，而且是根據目前的「建議金鑰」(目前檢視的項目)。在下列範例中 (品牌 x 16)，如果訪客在檢視 Nike 運動鞋，就很可能向該訪客建議其他 Nike 產品 (不一定是運動鞋)，而不是競爭者的運動鞋。如果訪客在檢視 Adidas 運動鞋，則很可能向該訪客建議 Adidas 產品。
 
-![](assets/content_similarity_example.png)
+![content_simility_example影像](assets/content_similarity_example.png)
 
 ## 為何 [!DNL Target] 有時無法顯示推薦？ {#section_DB3F40673AED42228E407C05437D99E9}
 

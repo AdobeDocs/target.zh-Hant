@@ -1,12 +1,12 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何在Adobe中使用Visual Experience Composer(VEC) [!DNL Target] 在上建立多元Test(MVT) [!DNL Target]-enabled頁。
-title: 如何建立多元Test?
+description: 了解如何在Adobe中使用可視化體驗撰寫器(VEC) [!DNL Target] 若要直接在 [!DNL Target]-enabled頁。
+title: 如何建立多變數測試？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '570'
 ht-degree: 87%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 [!DNL Adobe Target] 中的[!UICONTROL 可視化體驗撰寫器] (VEC) 讓您直接在啟用 Target 的頁面上輕鬆建立您的測試，以及在 [!DNL Target] 內修改頁面的部分。
 
-的 [!DNL Target] 點擊式編輯器使您能夠選擇任何位置並添加多個優惠。
+此 [!DNL Target] 點按式編輯器可讓您挑選任何位置並新增多個選件。
 
 [!UICONTROL 多變數測試] (MVT) 需要頁面優先的報表。換句話說，測試會在具有您為頁面所設計體驗的特定 URL 上執行。
 
@@ -55,7 +55,7 @@ ht-degree: 87%
 
    ![活動名稱欄位](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   活動名稱不能以下列任何字元開頭：
+   活動名稱不能以下列任一字元開頭：
 
    | 字元 | 說明 |
    |--- |--- |
@@ -88,13 +88,13 @@ ht-degree: 87%
 
    下圖顯示活動有充足的流量。
 
-   ![](assets/estimator.png)
+   ![估算影像](assets/estimator.png)
 
    下圖顯示活動有充足的流量。
 
-   ![](assets/estimator2.png)
+   ![估算器2影像](assets/estimator2.png)
 
-1. 按一下 **[!UICONTROL 下一個]** 向 [!UICONTROL 目標] 的子菜單。
+1. 按一下 **[!UICONTROL 下一個]** 向 [!UICONTROL 定位] 頁面。
 
 1. 選擇對象和符合您要讓其進入活動之訪客的百分比。
 
@@ -112,7 +112,7 @@ ht-degree: 87%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;來建立活動。
 
-## 培訓視頻：建立多元Test(9:25) ![教程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片示範如何使用 Target 三步驟引導式工作流程來規劃和建立多變數測試。
 

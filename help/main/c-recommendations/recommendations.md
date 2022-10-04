@@ -4,10 +4,10 @@ description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些�
 title: 什麼是  [!DNL Target] Recommendations？
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 下圖顯示網頁上的建議:
 
-![](assets/velocity_example.png)
+![velocity_example影像](assets/velocity_example.png)
 
 推薦會根據訪客在網站上的活動，決定對訪客建議產品的方式。例如:
 

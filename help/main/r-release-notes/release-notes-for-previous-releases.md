@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34593'
+source-wordcount: '34597'
 ht-degree: 96%
 
 ---
@@ -2195,7 +2195,7 @@ target/r_release-notes-2018.xml
 * [!DNL Target] 使用者介面已更新，以在使用 [!UICONTROL Analytics for Target] (A4T) 做為報表來源的活動中，支援重新導向選件。此功能需要 [!DNL at.js] 0.9.6，近期即將推出。
 * [!DNL Target] 使用者介面的部分位置已更新:
 
-   * 在報表和活動中，有些選項 ([!UICONTROL 編輯]、[!UICONTROL 分享到摘要]、[!UICONTROL 檢視體驗 URL] 等等)現在是透過按一下[!UICONTROL 更多選項]圖示 (![](assets/icon_more_options.png)
+   * 在報表和活動中，有些選項 ([!UICONTROL 編輯]、[!UICONTROL 分享到摘要]、[!UICONTROL 檢視體驗 URL] 等等)現在是透過按一下[!UICONTROL 更多選項]圖示 (![icon_more_options影像](assets/icon_more_options.png)
 
       )。
    * 在[!UICONTROL 選件]資料庫中，選件現在會顯示在清單中，而非以卡片形式顯示。對整個[!UICONTROL 選件]資料庫 UI 進行其他次要的 UI 變更。

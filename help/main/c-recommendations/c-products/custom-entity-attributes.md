@@ -1,20 +1,20 @@
 ---
 keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
-description: 瞭解如何使用單值和多值自定義實體屬性來定義有關Adobe中項的附加資訊 [!DNL Target] Recommendations目錄。
-title: 如何使用自定義實體屬性？
+description: 了解如何使用單值和多值自訂實體屬性，以定義Adobe中項目的其他資訊 [!DNL Target] Recommendations目錄。
+title: 如何使用自訂實體屬性？
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
 # ![PREMIUM](/help/main/assets/premium.png) 自訂實體屬性
 
-在中使用單值和多值自定義實體屬性 [!DNL Adobe Target Recommendations] 定義有關目錄中物料的附加資訊。
+在中使用單值和多值自訂實體屬性 [!DNL Adobe Target Recommendations] 來定義目錄中項目的其他資訊。
 
 ## 限制 {#limits}
 
@@ -24,11 +24,11 @@ ht-degree: 88%
 
 多值實體自訂屬性不得包含超過 500 個值。每個個別值限定為 100 個字元以內。所有值的總字元數必須符合單值實體自訂屬性之長度上限的限制 (如上所述)。
 
-## 自定義實體屬性值 {#section_313331A9F8194A89B5EDD89363018651}
+## 自訂實體屬性值 {#section_313331A9F8194A89B5EDD89363018651}
 
 自訂實體屬性可以包含單一值或多個值。實體屬性值會顯示在產品檢視中。
 
-![](assets/multi-value_product.png)
+![multi_value_product映像](assets/multi-value_product.png)
 
 含單一值的自訂實體屬性與單值預先定義的實體屬性以相同方式形成:
 
@@ -60,9 +60,9 @@ ht-degree: 88%
 * 陣列必須包含單一值類型。不支援混合值陣列 (`["AB",1,true]`)。
 * 含有巢狀 JSON 陣列 (`[10,12,[1,2,3]]`) 的多值屬性視為單值屬性。
 
-## 實現多值屬性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## 實作多值屬性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用源(CSV)時支援多值自定義實體屬性， `targetPageParams`，以及用於上載產品的交付API。 新值會取代目前值，而不會附加。空白陣列 ([]) 視為沒有值。
+使用摘要(CSV)時支援多值自訂實體屬性， `targetPageParams`，以及上傳產品的傳送API。 新值會取代目前值，而不會附加。空白陣列 ([]) 視為沒有值。
 
 必須將雙引號逸出。例如，`"[""test"", ""value""]"` 為可以在 CSV 中使用的有效 JSON 陣列。
 
@@ -93,11 +93,11 @@ function targetPageParams() {
 
 原始 CSV 如下所示:
 
-![](assets/multi-value_example_raw.png)
+![multi_value_example_raw影像](assets/multi-value_example_raw.png)
 
 在試算表中，同樣的目錄如下所示:
 
-![](assets/multi-value_example_excel.png)
+![multi_value_example_excel影像](assets/multi-value_example_excel.png)
 
 轉換為 .csv 格式時，試算表軟體會在儲存格內容兩側加上雙引號，以防止將儲存格內的逗號當作欄分隔符號。對於您包含在自訂多值屬性中的 JSON 字串值，兩側也會加上雙引號。這會造成直接處理原始檔案很不方便。例如:
 
@@ -108,7 +108,7 @@ function targetPageParams() {
 
 ### 使用 API 
 
-可以將mbox參數中的Delivery API作為包含轉義JSON陣列的字串值傳遞多值屬性。
+您可以使用mbox參數中的傳送API，以包含逸出JSON陣列的字串值形式傳遞多值屬性。
 
 ```javascript
 "execute": {
@@ -126,9 +126,9 @@ function targetPageParams() {
   }
 ```
 
-查看 [Adobe RecommendationsAPI文檔](https://developer.adobe.com/target/implement/recommendations/){target=_blank}，瞭解有關使用傳遞和保存實體API的資訊。
+請參閱 [Adobe Recommendations API檔案](https://developer.adobe.com/target/implement/recommendations/){target=_blank}，以取得使用傳送和儲存實體API的相關資訊。
 
-## 使用具有多值屬性的運算子 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 對多值屬性使用運算子 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 當您對演算法包含規則、目錄規則和排除規則中的多值自訂屬性套用運算子時，如果清單中至少一個值通過運算 (布林 *or*)，則結果為 *true*。
 
@@ -139,7 +139,7 @@ function targetPageParams() {
 
 對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，假設運算子是 `notEquals`，如果任何值相符，則結果為 *false*。
 
-有關算法包含規則、目錄規則和排除規則中的運算子行為，請參閱以下各節。
+請參閱下列章節，了解演算法包含規則、目錄規則和排除規則中的運算子行為。
 
 ### 等於
 
@@ -149,7 +149,7 @@ function targetPageParams() {
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值等於 `abc`。
 * 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 true，因為有一個值等於 `abc`。
-* 案例三： `entity.genre = ["abcde", "de", "ef"]`。 結果為 false，因為 `abc` 不等於清單中的任何元素。
+* 案例3: `entity.genre = ["abcde", "de", "ef"]`. 結果為 false，因為 `abc` 不等於清單中的任何元素。
 
 ### 不等於
 
@@ -159,7 +159,7 @@ function targetPageParams() {
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值等於 `abc`。
 * 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 false，因為有一個值等於 `abc`。
-* 案例三： `entity.genre = ["abcde", "de", "ef"]`。 結果為 true，因為 `abc` 不等於清單中的任何元素。
+* 案例3: `entity.genre = ["abcde", "de", "ef"]`. 結果為 true，因為 `abc` 不等於清單中的任何元素。
 
 ### 包含
 
@@ -187,7 +187,7 @@ function targetPageParams() {
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值開頭為 `abc`。
 * 案例 2: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為某個值的開頭為 `abc`。
-* 案例三： `entity.genre = ["ab", "de", "abc"]`。 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
+* 案例3: `entity.genre = ["ab", "de", "abc"]`. 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
 
 ### 終止於
 
@@ -240,7 +240,7 @@ function targetPageParams() {
 
 ### 動態範圍 (僅適用於以項目為基礎的演算法、數值)
 
-如果任何數字屬性值位於指定範圍內，則結果為true。
+如果有任何數值屬性值落在指定範圍內，則結果為true。
 
 範例: `price dynamically ranges in 80% to 120% of 100`
 
@@ -253,7 +253,7 @@ function targetPageParams() {
 
 ## 設計中的多值屬性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-當在設計中引用多值屬性時，多值屬性將顯示為逗號分隔的清單。
+在設計中參考多值屬性時，會以逗號分隔的清單顯示。
 
 範例:  
 

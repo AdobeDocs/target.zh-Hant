@@ -1,25 +1,25 @@
 ---
-keywords: 多變數；mvt;preview;experiences
-description: 瞭解如何預覽多元Test(MVT)活動中的每種體驗，以Adobe [!DNL Target] 使用Visual Experience Composer(VEC)。
-title: 如何預覽多元Test(MVT)的體驗
+keywords: 多變數；mvt；預覽；體驗
+description: 了解如何以Adobe預覽多變數測試(MVT)活動中的每個體驗 [!DNL Target] 使用可視化體驗撰寫器(VEC)。
+title: 如何預覽多變數測試(MVT)的體驗
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
 # 多變數測試的預覽體驗
 
-因為 [!UICONTROL 多元Test] 在 [!DNL Adobe Target] 比較一個頁面上的多個體驗，使用每個體驗預覽該頁面會很有幫助。
+因為 [!UICONTROL 多變數測試] in [!DNL Adobe Target] 會比較頁面上的多個體驗，使用每個體驗預覽頁面會很有幫助。
 
-1. 在Visual Experience Composer(VEC)中，按一下 **[!UICONTROL 預覽]**。
+1. 在可視化體驗撰寫器(VEC)中，按一下 **[!UICONTROL 預覽]**.
 
    所有體驗的清單隨即出現。
 
-   ![](assets/preview.png)
+   ![預覽影像](assets/preview.png)
 
 1. 按一下清單中的體驗來檢視該體驗。
 

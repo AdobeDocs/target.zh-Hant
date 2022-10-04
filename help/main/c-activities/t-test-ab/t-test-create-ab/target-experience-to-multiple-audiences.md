@@ -1,19 +1,19 @@
 ---
 keywords: 多個對象; 體驗版本; 鎖定體驗版本
-description: 瞭解如何將相同體驗的版本定向到Adobe中的不同受眾 [!DNL Target] A/B活動。
-title: 是否可以在A/B活動中使用多個體驗版本？
+description: 了解如何將相同體驗的版本鎖定至Adobe中的不同對象 [!DNL Target] A/B活動。
+title: 我可以在A/B活動中使用多個體驗版本嗎？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 92%
 
 ---
 
 # A/B 測試中的多個體驗對象
 
-您可以將相同體驗的版本定向到不同的受眾 [!DNL Adobe Target] A/B活動。 您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
+您可以在 [!DNL Adobe Target] A/B活動。 您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
 
 使用者可以隨著其設定檔變更在體驗對象之間切換。他們不會停留在活動期限的相同體驗中。
 
@@ -39,7 +39,7 @@ ht-degree: 92%
 
 1. 按一下&#x200B;**[!UICONTROL 「新增對象」]**，然後選取您要鎖定的第一個對象。對每個對象重複。
 
-   ![](assets/exp-versions.png)
+   ![exp-versions影像](assets/exp-versions.png)
 
    如果對象尚未存在，請按一下[「建立對象」](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)並加以設定。
 

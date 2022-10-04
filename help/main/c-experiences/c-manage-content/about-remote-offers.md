@@ -1,12 +1,12 @@
 ---
-keywords: 遠程提供；遠程提供選擇矩陣；快取內容；動態內容；url類型
-description: 瞭解如何在Adobe中使用遠程產品 [!DNL Target] 承載外部內容（CMS或其他系統中的內容）。 瞭解您可能希望使用遠程產品的原因。
-title: 如何建立遠程優惠？
+keywords: 遠端選件；遠端選件選取矩陣；快取內容；動態內容；url類型
+description: 了解如何在Adobe中使用遠端選件 [!DNL Target] 主控外部內容（CMS或其他系統中的內容）。 探索您為何可能想使用遠端選件。
+title: 如何建立遠端選件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1085'
 ht-degree: 49%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->可在 [!UICONTROL 優惠] > [!UICONTROL 代碼優惠] 或 [Forms經驗作曲家](/help/main/c-experiences/form-experience-composer.md)。 無法在Visual Experience Composer(VEC)中建立或應用遠程優惠。 將在 [!DNL Target] 請求位置，因此這些位置很可能不適合於全球 [!DNL Target] 請求。
+>可在 [!UICONTROL 選件] > [!UICONTROL 代碼選件] 頁面或 [Forms型體驗撰寫器](/help/main/c-experiences/form-experience-composer.md). 您無法在可視化體驗撰寫器(VEC)中建立或套用遠端選件。 內容會插入 [!DNL Target] 請求位置，因此這些位置很可能不適合全域 [!DNL Target] 請求。
 >
 >[!DNL Target Classic] 包含類似的功能: [!UICONTROL 您網站上的選件]和 [!UICONTROL Test&amp;Target 外部的選件]。
 
@@ -29,80 +29,80 @@ ht-degree: 49%
 * 計算器
 * 利率更新
 * 電子郵件
-* 亭
+* 資訊站
 * 語音助理
 
-## 使用遠程產品的最佳做法 {#section_7718512D08E14121B6F6B8C38134F4BC}
+## 使用遠端選件的最佳作法 {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 在活動中使用遠端選件的最佳作法:
 
-* 如果您的服務位於與 [!DNL Target] 請求，使用 [!UICONTROL 快取] 選項，您可以使用相對URL來描述您的服務位置。
+* 如果您的選件位於與 [!DNL Target] 請求，使用 [!UICONTROL 快取] 選項可讓您在說明選件位置時使用相對URL。
 
    這表示當您將行銷活動從測試伺服器移至生產環境時，不需要手動變更 URL 即可自動存取內容。
 
 * 如果測試包含伺服器動態產生的資料，[!UICONTROL 「動態」]選項可能才是正確的選擇。
 * 如果您只打算測試現有遠端選件內容的外觀，請使用[!UICONTROL 可視化體驗撰寫器]，以變更內容管理系統所傳回的內容的外觀和風格。
-* 使用 [遠程服務選擇清單](#reference_B23BEDD29DDD47709A7651AFD27E776B) （下）幫助您選擇最適合您特定案例的服務。 若您有任何疑問，請洽詢您的帳戶代表。
+* 使用 [遠端選件選擇矩陣](#reference_B23BEDD29DDD47709A7651AFD27E776B) （如下），協助您選擇最適合您特定案例的優惠方案。 若您有任何疑問，請洽詢您的帳戶代表。
 
-## 從「代碼優惠」頁建立遠程優惠
+## 從「代碼選件」頁面建立遠端選件
 
 1. 按一下&#x200B;**[!UICONTROL 「選件」]**，然後選取&#x200B;**[!UICONTROL 「代碼選件」]**&#x200B;索引標籤。
 
-   ![優惠>代碼優惠](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![選件>代碼選件](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「建立」]** > **[!UICONTROL 「遠端選件」]**。
 
-   ![「建立遠程服務」對話框](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   ![建立遠端選件對話方塊](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. 為選件提供描述性名稱。
 
    描述性名稱可協助您和其他人在[!UICONTROL 資產]資料庫中快速尋找選件。
 
-1. 指定重定向URL類型。
+1. 指定重新導向URL類型。
 
-   請參閱 [重定向URL類型：快取或動態](#url-type) 下面的。
+   請參閱 [重新導向URL類型：快取或動態](#url-type) 以取得詳細資訊。
 
 1. 指定遠端選件的遠端 URL.
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-## 使用基於表單的經驗編寫器建立遠程服務
+## 使用表單式體驗撰寫器建立遠端選件
 
-1. 使用建立活動時 [基於表單的體驗作曲家](/help/main/c-experiences/form-experience-composer.md)，選擇顯示 **[!UICONTROL 內容]** 的子菜單。
+1. 使用建立活動時 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，選取顯示位置 **[!UICONTROL 內容]** 區段。
 
-   ![基於表單的體驗作曲家中的內容部分](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
+   ![表單式體驗撰寫器中的內容區段](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. 按一下 **[!UICONTROL 預設內容]** 下拉清單，然後按一下 **[!UICONTROL 更改遠程服務]**。
+1. 按一下 **[!UICONTROL 預設內容]** 下拉式清單，然後按一下 **[!UICONTROL 變更遠端選件]**.
 
-   ![更改遠程選項](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
+   ![變更遠端選件選項](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「建立」]** > **[!UICONTROL 「遠端選件」]**。
 
-   ![「建立遠程服務」對話框](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   ![建立遠端選件對話方塊](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. 為選件提供描述性名稱。
 
    描述性名稱可協助您和其他人在[!UICONTROL 資產]資料庫中快速尋找選件。
 
-1. 指定重定向URL類型。
+1. 指定重新導向URL類型。
 
-   請參閱 [重定向URL類型：快取或動態](#url-type) 下面的。
+   請參閱 [重新導向URL類型：快取或動態](#url-type) 以取得詳細資訊。
 
 1. 指定遠端選件的遠端 URL.
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-## 重定向URL類型：快取或動態 {#url-type}
+## 重新導向URL類型：快取或動態 {#url-type}
 
-以下資訊有助於您瞭解兩個選項之間的差異：
+下列資訊可協助您了解這兩個選項之間的差異：
 
-### 快取的URL
+### 快取URL
 
 快取遠端選件的內容由 [!DNL Target] 提供。
 
 [!DNL Target] 每兩小時會從遠端 URL 擷取內容，然後將內容儲存在 [!DNL Target] 內。當訪客載入的網站有一個體驗包含遠端選件時，[!DNL Target] 會傳送此選件。
 
-快取的遠程服務提供了增強的安全性，因為有人登錄到 [!DNL Target] 無法更改內容。 若要變更內容，此人需要登入內容管理或其他系統，然後在那裡變更內容。
+因為有人登入，所以快取遠端選件可提供增強的安全性 [!DNL Target] 無法變更內容。 若要變更內容，此人需要登入內容管理或其他系統，然後在那裡變更內容。
 
 您可以為快取遠端選件指定絕對或相對 URL。
 
@@ -110,39 +110,39 @@ ht-degree: 49%
 
 動態遠端選件由內容管理或其他系統提供，而非由 [!DNL Target] 提供。
 
-每當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓 [!DNL Target] 定期快取內容再傳送。相反，您希望調用承載內容的系統，可能會傳遞特定資訊，以便返回的服務對於每個用戶都是動態的（或不同的）。 例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端選件，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。
+每當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓 [!DNL Target] 定期快取內容再傳送。相反地，您想要呼叫托管內容的系統，可能傳入特定資訊，讓傳回的選件可以是動態（或不同）給每個使用者。 例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端選件，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。
 
-您可以按一下 **[!UICONTROL 添加參數]** 添加一個或多個 [!DNL Target] 請求或請求參數。
+您可以按一下 **[!UICONTROL 新增參數]** 添加一個或多個 [!DNL Target] 要求或要求參數。
 
-## 在活動中使用遠程服務
+## 在活動中使用遠端選件
 
-您必須使用 [!UICONTROL 基於表單的體驗作曲家]。 當前無法使用VEC應用遠程優惠。
+您必須使用 [!UICONTROL 表單式體驗撰寫器]. 您目前無法使用VEC套用遠端選件。
 
-的 [!DNL Adobe Target] [!UICONTROL 基於表單的體驗作曲家] 是一種非視覺體驗，提供建立介面，在建立體驗時非常有用，可在 [!UICONTROL A/BTest]。 [!UICONTROL 體驗目標] (XT), [!UICONTROL Automated Personalization] （美聯社） [!UICONTROL Recommendations] 當視覺體驗作曲家不可用或無法使用時進行活動。 例如，您可以使用 [!UICONTROL 基於表單的體驗作曲家] 建立使用遠程產品的體驗。
+此 [!DNL Adobe Target] [!UICONTROL 表單式體驗撰寫器] 是非視覺化體驗和選件建立介面，對於建立體驗以供在中使用很實用 [!UICONTROL A/B測試], [!UICONTROL 體驗鎖定] (XT)、 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL Recommendations] 可視化體驗撰寫器無法使用或無法使用的活動。 例如，您可能會使用 [!UICONTROL 表單式體驗撰寫器] 建立使用遠端選件的體驗。
 
-1. 建立或編輯 [!UICONTROL 基於表單的體驗作曲家]。
+1. 在 [!UICONTROL 表單式體驗撰寫器].
 
-   請參閱 [基於表單的體驗作曲家](/help/main/c-experiences/form-experience-composer.md) 詳細的逐步說明。
+   請參閱 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md) 以取得詳細的逐步指示。
 
-1. 指定所需位置並根據需要添加任何訪問群體細化。
+1. 指定所需位置，並視需要新增任何對象細分。
 
-1. 按一下 **[!UICONTROL 內容]** ，然後按一下 **[!UICONTROL 更改遠程服務]**。
+1. 按一下 **[!UICONTROL 內容]** 區段，然後按一下 **[!UICONTROL 變更遠端選件]**.
 
-   ![更改遠程選項](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
+   ![變更遠端選件選項](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
-1. 從 [!UICONTROL 選擇遠程優惠] 對話框，然後按一下 **[!UICONTROL 完成]**。
+1. 從中選取所需的遠端選件 [!UICONTROL 選取遠端選件] 對話框，然後按一下 **[!UICONTROL 完成]**.
 
 1. 完成活動的設定。
 
-## 動態遠程如何提供工作 {#concept_CC2A969420B34364A9FA78C1CE251818}
+## 動態遠端選件如何運作 {#concept_CC2A969420B34364A9FA78C1CE251818}
 
 動態遠端選件會使用動態頁面技術，將數值傳遞給選件。
 
-轉譯頁面之後，即會排除選件。一個不可見的iframe會收集資料，將其複製出框架，然後插入頁面，載入傳遞的值。
+轉譯頁面之後，即會排除選件。不可見的iframe會收集資料、將資料從框架中複製出來，然後插入頁面，載入您傳遞的值。
 
-![](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howitworks_2影像](assets/remote_offer_howitworks_2.jpeg)
 
-## 遠程服務選擇清單 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
+## 遠端選件選取矩陣 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
 遠端選件選取矩陣可協助您決定要選擇的遠端選件類型:[!UICONTROL 已快取]或[!UICONTROL 動態]。
 
@@ -156,9 +156,9 @@ ht-degree: 49%
 | 選件 URL | 絕對或相對 | 相對 |
 | 請求的電腦 | Adobe 伺服器 | 訪客的電腦，具有訪客的 Cookie |
 
-## 培訓視頻：基於表單的作曲家 ![教程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：表單式撰寫器 ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此視頻提供了基於表單的作曲家的演示，您可以使用它建立遠程產品。
+此影片提供表單式撰寫器的示範，您可使用它建立遠端選件。
 
 * 使用表單式體驗撰寫器建立活動
 * 瞭解使用表單式體驗撰寫器與可視化體驗撰寫器的時機

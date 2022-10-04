@@ -1,19 +1,19 @@
 ---
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
-description: 瞭解如何使用開源Velocity設計語言在Adobe中自定義推薦設計 [!DNL Target] Recommendations。
-title: 如何使用Velocity定制設計？
+description: 了解如何使用開放原始碼Velocity設計語言，在Adobe中自訂建議設計 [!DNL Target] Recommendations。
+title: 如何使用Velocity自訂設計？
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 61%
+source-wordcount: '1032'
+ht-degree: 60%
 
 ---
 
 # ![PREMIUM](/help/main/assets/premium.png) 使用 Velocity 自訂設計
 
-使用開源Velocity設計語言在中定制推薦設計 [!DNL Adobe Target Recommendations]。
+使用開放原始碼Velocity設計語言，在中自訂建議設計 [!DNL Adobe Target Recommendations].
 
 ## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -63,11 +63,11 @@ $entities[0].categoriesList[2]
 
 >[!NOTE]
 >
->在設計中可以引用的最大圖元數為99。 範本指令碼長度最多可以包含 65,000 個字元。
+>可在設計中參考（硬式編碼或透過回圈）的實體數上限為99。 範本指令碼長度最多可以包含 65,000 個字元。
 
 例如，如果想要讓範本顯示類似下方的內容︰
 
-![](assets/velocity_example.png)
+![velocity_example影像](assets/velocity_example.png)
 
 您可使用下列代碼:
 
@@ -118,22 +118,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->如果要在表示變數名稱已完成的標籤之前在變數值後添加文本，則可以使用形式表示法將變數名稱括起來。 例如: `${entity1.thumbnailUrl}.gif`。
+>如果您想在指出變數名稱的標籤完成之前，在變數的值之後新增文字，可以使用正規記號括住變數的名稱。 例如: `${entity1.thumbnailUrl}.gif`。
 
 您亦可在範本中使用 `algorithm.name` 和 `algorithm.dayCount` 當作變數，因此，一個設計便可用於測試多個條件，而條件名稱可動態地在設計中顯示。藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。甚至，您可以使用這些變數來顯示 `dayCount` (條件中使用的資料天數，例如「過去 2 天最暢銷的商品」等)。
 
-## 使用Velocity模板中的數字
+## 在Velocity範本中使用數字
 
-預設情況下，Velocity模板將所有實體屬性視為字串值。 您可能希望將實體屬性視為數字值，以便執行數學操作或將其與其他數值進行比較。 要將實體屬性視為數值，請執行以下步驟：
+依預設，Velocity範本會將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以執行數學運算或將其與其他數值比較。 若要將實體屬性視為數值，請執行下列步驟：
 
-1. 聲明一個虛擬變數並將其初始化為任意整數或雙值。
-1. 確保要使用的實體屬性不為空(目標Recommendations的模板分析器驗證和保存模板時需要該屬性)。
-1. 將實體屬性傳遞到 `parseInt` 或 `parseDouble` 在步驟1中建立的虛擬變數上的方法，以將字串轉換為整數或雙值。
+1. 宣告虛擬變數，並將其初始化為任意整數或雙值。
+1. 請確定您要使用的實體屬性不是空白(Target Recommendations的範本剖析器驗證和儲存範本時需要)。
+1. 將實體屬性傳遞至 `parseInt` 或 `parseDouble` 方法，將字串轉換為整數或雙值。
 1. 對新數值執行數學運算或比較。
 
-### 示例：計算折扣價格
+### 範例：計算折扣價
 
-假定要將項目的顯示價格降低0.99美元，以應用折扣。 可以使用以下方法來實現此結果：
+假設您要將項目的顯示價格降低$0.99以套用折扣。 您可以使用下列方法來達成此結果：
 
 ```
 #set( $double = 0.1 )
@@ -146,9 +146,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 示例：根據項的分級選擇要顯示的星號數
+### 範例：根據項目評等選擇要顯示的星數
 
-假設您希望根據項目的平均客戶評級顯示適當數量的星號。 可以使用以下方法來實現此結果：
+假設您想根據項目的數值平均客戶評等顯示適當數量的星號。 您可以使用下列方法來達成此結果：
 
 ```
 #set( $double = 0.1 )
@@ -171,9 +171,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 示例：根據項的長度（以分鐘為單位）計算時間（以小時和分鐘為單位）
+### 範例：根據項目長度（以分鐘為單位）計算以小時和分鐘為單位的時間
 
-假設您以分鐘為單位儲存影片的長度，但希望以小時和分鐘為單位顯示該長度。 可以使用以下方法來實現此結果：
+假設您以分鐘為單位儲存影片長度，但想以小時和分鐘為單位顯示長度。 您可以使用下列方法來達成此結果：
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -184,7 +184,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 顯示包含推薦產品的關鍵項 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 連同建議的產品一起顯示關鍵項目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 您可以修改設計來連同其他建議的產品一起顯示主要項目。例如，您可以在建議旁邊顯示目前項目當作參考。
 
@@ -203,13 +203,13 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 結果會產生如下的設計，其中有一欄顯示主要項目。
 
-![](assets/rec_key.png)
+![rec_key映像](assets/rec_key.png)
 
 當您建立 [!DNL Recommendations] 活動時，如果主要項目取自於訪客的設定檔，例如「上次購買的項目」，則 [!DNL Target] 會在[!UICONTROL 可視化體驗撰寫器] (VEC) 中顯示隨機產品。這是因為當您設計活動時，沒有設定檔可用。訪客檢視頁面時就會看到預期的主要項目。
 
 ## 在字串值中執行替換 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-可以修改設計以替換字串中的值。 例如，用歐洲和其他國家/地區使用的逗號分隔符替換美國使用的小數點分隔符。
+您可以修改設計以取代字串內的值。 例如，將美國使用的小數點分隔字元，取代為歐洲和其他國家/地區使用的逗號分隔字元。
 
 下面顯示一條件式售價範例的其中一行程式碼:
 
@@ -233,7 +233,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## 自定義模板大小並檢查空值 {#default}
+## 自訂範本大小並檢查空白值 {#default}
 
 透過 Velocity 指令碼控制實體顯示的動態大小，下列範本可因應 1 對多結果，以免在 [!DNL Recommendations] 傳回的相符實體不足時建立空白的 HTML 元素。最適合使用此指令碼的情況是，備份建議不具有合理意義且已啟用[!UICONTROL 局部範本轉譯]。
 

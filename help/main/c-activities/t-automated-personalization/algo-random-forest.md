@@ -1,13 +1,13 @@
 ---
 keywords: 隨機森林；決策樹；ap;Automated Personalization
-description: 瞭解如何Adobe [!DNL Target] 在Automated Personalization(AP)和自動目標活動中都使用隨機森林算法。
-title: 如何 [!DNL Target] 使用隨機森林算法嗎？
+description: 了解Adobe [!DNL Target] 在Automated Personalization(AP)和自動鎖定目標活動中使用隨機森林演算法。
+title: 如何 [!DNL Target] 使用隨機森林演算法嗎？
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,25 +34,25 @@ Target 用於自動個人化和自動鎖定目標的主要個人化演算法為�
 
 此動作會產生決策樹的第一層:
 
-![](assets/decsion_tree_1.png)
+![decision_tree_1映像](assets/decsion_tree_1.png)
 
 決策樹會問:「哪一個是最可預測的變數?」在我們的範例中，只有兩個變數，所以答案顯然是性別。現在，樹狀結構將開始完成類似的練習，以分割&#x200B;*每個分支內*&#x200B;的資料。首先，以 11111、22222 和 33333 分支為例。在這些郵遞區號中，如果男和女的轉換率不同，則會有兩個分葉 (男和女)，而此分支也就完成。在另一個分支中 (44444 和 55555)，假設男和女的轉換方式之間沒有統計差異。在此情況下，第一個分支就成為最終分割。
 
 我們的範例會產生下列樹狀結構:
 
-![](assets/decsion_tree_2.png)
+![decision_tree_2映像](assets/decsion_tree_2.png)
 
 ## 隨機森林如何使用決策樹？ {#section_536C105EF9F540C096D60450CAC6F627}
 
 決策樹雖然是強大的統計工具，但有一些缺點。最嚴重的情況是可能會「過度配適」資料，以致於個別樹狀結構難以預測並未用來建立原始樹狀結構的未來資料。在統計學習中，此難題稱為[偏誤及變數之權衡](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)隨機森林有助於克服此過度配適難題。站在最高的角度來看，隨機森林是一群在相同資料集上以稍微不同的方式建立的決策樹，經過共同「表決」而產生比個別狀結構更好的模型。樹狀結構的建立方式是隨機選取造訪記錄子集並抽出放回 (稱為自助重抽總合法)，以及隨機選取屬性子集，而使森林包含略為不同的決策樹。此方法會對隨機森林中建立的樹狀結構造成輕微變化。加入此控制的變數有助於改善演算法的預測準確度。
 
-## 目標的個性化算法如何使用隨機林？ {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Target的個人化演算法如何使用隨機森林？ {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **如何建立模型**
 
 下圖彙總如何建立自動鎖定目標或自動個人化活動的模型:
 
-![](assets/random_forest_flow.png)
+![random_forest_flow影像](assets/random_forest_flow.png)
 
 1. Target 在隨機提供體驗/選件時收集訪客的資料
 1. Target 在取得非常大量的資料後，即會展開特徵工程
@@ -77,7 +77,7 @@ Target 會使用它自動收集的資料，以及您提供的自訂資料，以�
 
 對於類別特徵，存在一組所有可能的特徵，概度轉換用來降低資料大小。對於數值特徵，重新換算確保特徵可全面比較。
 
-**學習與多武裝強盜人格化的平衡**
+**使用多臂吃角子老虎機來平衡學習與個人化**
 
 當 Target 建立個人化模型來個人化您的流量後，針對未來進入活動的訪客，您需要做出明確的取捨: 根據目前的模型將所有流量個人化? 或對新訪客隨機提供隨選件來繼續從中學習? 您需要確保個人化演算法一定會學習到訪客的最新趨勢，同時又將多數的流量個人化。
 

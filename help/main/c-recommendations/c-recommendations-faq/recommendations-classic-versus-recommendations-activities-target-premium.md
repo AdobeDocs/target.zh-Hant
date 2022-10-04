@@ -4,10 +4,10 @@ description: 檢閱資訊，以協助您了解舊 Recommendations Classic 與 Re
 title: Recommendations Classic 與 Recommendations in [!DNL Target] Premium 之間有何差異？
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 [!DNL Target Recommendations] 有一個條件庫包含數套預先封裝的規則和組態。在 [!DNL Recommendations Classic] 中，每個建議都是手動建立，需要填寫表單，然後從一長串規則中選擇。現在，建立 [!DNL Recommendations] 活動時，只要選擇預先設定的條件集即可。您仍可建立自訂建議，但條件庫包含許多預先建立的常用組態，以簡化處理程序，且採用人們可理解的語言。這些預先封裝的條件可直接使用，也可以複製再編輯，以符合您的特定需要。
 
-![](assets/overview_criteria.png)
+![overview_criteria影像](assets/overview_criteria.png)
 
 條件都依照行業別、頁面類型和實施來預先設定和排序。例如，您可以尋找適合零售業的條件，以用於產品頁面，顯示來自特定類別的產品 (由 `entity.categoryID` 參數定義)。
 
@@ -68,10 +68,10 @@ ht-degree: 100%
 
 [!DNL Recommendations Classic] 中有六個鎖定目標選項。建議活動會使用 Target 的一整套鎖定目標選項。使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 對象 (例如 [!DNL Audience Manager] 和 [!DNL Analytics]) 來定義對象，然後選取可看見每個設計的活動加入者百分比，以及可看見控制項的活動加入者百分比。
 
-![](assets/overview_targeting.png)
+![overview_targeting影像](assets/overview_targeting.png)
 
 ## 報表 {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 在 [!DNL Target] 中，[!DNL Recommendations] 提供改良的報表，這些報表會利用 [!DNL Target] 和 [!DNL Experience Cloud] 所提供的功能。不單只是顯示 [!DNL Recommendations] 提供的提升度來對照沒有建議時的結果，您還可以檢視 [!DNL Recommendations] 活動的完整相關資訊。
 
-![](assets/overview_report.png)
+![overview_report image](assets/overview_report.png)

@@ -1,19 +1,19 @@
 ---
 keywords: 多頁面; 歷程測試; 多頁面活動
-description: 瞭解如何在Adobe中建立多頁活動 [!DNL Target] 允許您在多個頁面上建立文章，其設計特定於每個頁面。
+description: 了解如何在Adobe中建立多頁活動 [!DNL Target] 可讓您使用每個頁面的特定設計，建立多個頁面的動態。
 title: 如何建立多頁活動？
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 85%
+source-wordcount: '383'
+ht-degree: 84%
 
 ---
 
 # 多頁活動
 
-中的多頁活動 [!DNL Adobe Target] 允許您在多個頁面上建立文章，其設計特定於每個頁面。
+中的多頁活動 [!DNL Adobe Target] 可讓您使用每個頁面的特定設計，建立多個頁面的動態。
 
 例如，您可能要測試某個選件，在購買超過某個金額時提供免運費。您可能想要讓該選件出現在您的登陸頁面、類別頁面和某些產品頁面，但想要它有不同的大小且位在每個頁面類型上不同位置。您可以在首頁上顯示一個顯眼的選件，然後在其他相關頁面上以較小的選件強化該選件。
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 
    畫面左側會出現導覽列。
 
-   ![](assets/multipage_nav.png)
+   ![multipage_nav影像](assets/multipage_nav.png)
 
 1. 使用導覽列來指定您的頁面和設定預設頁面。
 
@@ -40,7 +40,7 @@ ht-degree: 85%
 
    按一下三個垂直橢圓圖示以顯示動作選單:
 
-   ![](assets/multipage_menu.png)
+   ![多頁菜單影像](assets/multipage_menu.png)
 
    使用此功能表來重新命名頁面、從多頁面活動內執行重新導向測試，或刪除頁面。
 

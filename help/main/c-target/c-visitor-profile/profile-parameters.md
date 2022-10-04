@@ -4,10 +4,10 @@ description: 了解儲存在訪客個人資料中的訪客特有屬性，這些�
 title: 什麼是個人資料屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ if (mbox.name == 'Track_Interest') {
 
 個人資料指令碼停用時，Target UI 中的個人資料指令碼旁邊會出現黃色警示圖示，如下所示:
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid映像](assets/profile_script_invalid.png)
 
 暫留時，會出現有關錯誤的詳細資料，如下所示:
 
-![](assets/profile_script_hover.png)
+![profile_script_hover影像](assets/profile_script_hover.png)
 
 系統停用個人資料指令碼的常見原因包括:
 
@@ -161,7 +161,7 @@ if (mbox.name == 'Track_Interest') {
 
    每當您在有 [!DNL Target] 的網站上載入頁面時，來自 [!DNL Target] 的部分回應將包含給定個人資料指令碼的值，如下所示：
 
-   ![](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1映像](assets/debug_profile_script_1.png)
 
 * **使用 mboxTrace 偵錯工具可偵錯個人資料指令碼。**
 
@@ -171,7 +171,7 @@ if (mbox.name == 'Track_Interest') {
 
    加入這些參數比回應 Token 更能提供資訊，因為您可獲得個人資料執行前和執行後的快照。 這樣也會顯示所有可用的個人資料。
 
-   ![](assets/debug_profile_script_2.png)
+   ![debug_profile_script_2影像](assets/debug_profile_script_2.png)
 
 ## 個人資料指令碼常見問題集 {#section_1389497BB6D84FC38958AE43AAA6E712}
 

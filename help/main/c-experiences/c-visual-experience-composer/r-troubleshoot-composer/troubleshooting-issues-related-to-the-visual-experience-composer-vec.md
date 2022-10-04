@@ -1,21 +1,21 @@
 ---
-keywords: 目標；視覺體驗合成器；vec；疑難解答視覺體驗合成器；疑難解答；tls;tls 1.2
-description: 瞭解如何解決Adobe中有時出現的問題 [!DNL Target] 在特定條件下的Visual Experience Composer(VEC)。
-title: 如何排除與Visual Experience Composer相關的問題？
+keywords: 鎖定目標；可視化體驗撰寫器； VEC；疑難排解可視化體驗撰寫器；疑難排解； TLS; TLS 1.2
+description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target] 可視化體驗撰寫器(VEC)。
+title: 如何疑難排解可視化體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '804'
 ht-degree: 85%
 
 ---
 
-# 與Visual Experience Composer相關的問題的疑難解答
+# 疑難排解可視化體驗撰寫器的相關問題
 
-顯示問題有時在 [!DNL Adobe Target] [!UICONTROL 視覺體驗作曲家] (VEC)。
+顯示有時發生在 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)。
 
-## 當我在Visual Experience Composer中開啟我的網站時， [!DNL Target] 庫不載入。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 當我在可視化體驗撰寫器中開啟我的網站時， [!DNL Target] 程式庫不會載入。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可視化體驗撰寫器中開啟網站時，Target 會新增兩個參數 (`mboxEdit=1` 和 `mboxDisable=1`)。
 
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 如果問題是在增強體驗撰寫器中發生，請嘗試關閉增強體驗撰寫器，並改為使用可視化體驗撰寫器。
 
-要禁用增強的體驗作曲家，請轉到 **[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗作曲家]** 關掉 **[!UICONTROL 啟用增強的體驗合成器]** 的雙曲餘切值。
+若要停用增強體驗撰寫器，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]** 關掉 **[!UICONTROL 啟用增強體驗撰寫器]** 選項。
 
 有些使用者在主控台中看見下列錯誤訊息:
 
@@ -81,12 +81,12 @@ ht-degree: 85%
 
       * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**[!UICONTROL 「包含」]**，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。
 
-      ![](assets/chrome_extension.png)
+      ![chrome_extension影像](assets/chrome_extension.png)
 
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![](assets/requestly.png)
+   ![requestly image](assets/requestly.png)
 
    您現在應該可以使用可視化體驗撰寫器快速載入頁面。
 
@@ -101,7 +101,7 @@ ht-degree: 85%
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. 按一下&#x200B;**[!UICONTROL 「開始」]**。
 
-![](assets/firefox_extension.png)
+![firefox_extension影像](assets/firefox_extension.png)
 
 設定擴充功能之後，開啟 Target。您的頁面現在應該會在可視化體驗撰寫器中載入，即便已停用增強體驗撰寫器。
 
@@ -114,7 +114,7 @@ ht-degree: 85%
 * 您輸入了無效的 URL。
 * 您尚未在您的帳戶設定頁面中輸入預設 URL。
 
-確保已啟用此設定，然後下載並更新網站上的at.js。
+確認已啟用此設定，然後在您的網站上下載和更新at.js。
 
 ## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 

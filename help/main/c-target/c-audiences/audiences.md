@@ -4,9 +4,9 @@ description: 了解如何在 [!DNL Adobe Target].
 title: 如何使用對象清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1505'
 ht-degree: 21%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 21%
 
 如果對象為 [結合至其他對象](/help/main/c-target/combining-multiple-audiences.md) 而合併的對象會用來建立活動，即兩個對象的使用資訊會列出新建立的活動。
 
-![](assets/audience_definition_list_usage.png)
+![audience_definition_list_usage影像](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

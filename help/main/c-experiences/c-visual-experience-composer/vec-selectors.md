@@ -1,13 +1,13 @@
 ---
 keywords: 體驗鎖定目標; 登陸頁面測試
-description: '元素選擇器是可標識一個或多個元素的CSS表達式。 瞭解如何在Adobe中使用元素選擇器 [!DNL Target] Visual Experience Composer(VEC)。 '
-title: 是否可以在Visual Experience Composer(VEC)中使用元素選擇器？
+description: 元素選取器是可識別一或多個元素的CSS運算式。 了解如何在Adobe中使用元素選取器 [!DNL Target] 可視化體驗撰寫器(VEC)。
+title: 我可以在可視化體驗撰寫器(VEC)中使用元素選取器嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 80%
+source-wordcount: '429'
+ht-degree: 79%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 80%
 
 您可以在 Mozilla 開發人員網路 (MDN) 上的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文件中，找到關於 CSS 選取器的基本資訊。
 
-您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下 **[!UICONTROL 「管理」>「視覺體驗作曲家」]**，然後選擇首選的CSS選擇器。
+您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下 **[!UICONTROL 管理>可視化體驗撰寫器]**，然後選擇您偏好的CSS選取器。
 
-![](assets/css_selectors.png)
+![css_selectors影像](assets/css_selectors.png)
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 80%
 
 如需 CSS 選取器及不重複 ID 之使用時機的相關資訊，請參閱[可視化體驗撰寫器最佳作法與限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
-## Adobe [!DNL Target] 為元素生成選擇器 {#section_D89D954BCBFB486CA081BE183776A475}
+## 如何Adobe [!DNL Target] 產生元素的選取器 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯的極短說明:
 

@@ -4,10 +4,10 @@ description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target]
 title: 如何疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 52%
+source-wordcount: '1427'
+ht-degree: 51%
 
 ---
 
@@ -90,11 +90,11 @@ ht-degree: 52%
 >
 >除了下列資訊外，您還可以使用適用於 Google Chrome 的 [Adobe Target VEC Helper 瀏覽器擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-![](assets/cps_headers.png)
+![cps_headers影像](assets/cps_headers.png)
 
 作為解決方案，您可以設定 Requestly 規則來移除 CSP 標頭，如下所示:
 
-![](assets/cps_headers_2.png)
+![cps_headers_2影像](assets/cps_headers_2.png)
 
 您可以為造成資源無法在 VEC 內載入的任何標頭設定類似的 Requestly 規則。
 

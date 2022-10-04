@@ -4,9 +4,9 @@ description: 了解如何在Adobe Target中設定報表設定，包括量度、�
 title: 如何配置報表設定？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1923'
 ht-degree: 67%
 
 ---
@@ -276,16 +276,16 @@ ht-degree: 67%
 
 舉例來說，下圖顯示活動的圖表有 26 個體驗:
 
-![](assets/graph_1.png)
+![graph_1影像](assets/graph_1.png)
 
 圖表會顯示前 16 個體驗 (部分重疊，所以看起來少於 16 條線)。在左側的體驗窗格中，每一個體驗名稱旁的彩色點會指出體驗的繪圖線條，以對應的顏色顯示。
 
 如果您在體驗窗格中向下捲動，可看到第 17 個至第 26 個體驗的名稱變成灰色，如下圖所示:
 
-![](assets/graph_2.png)
+![graph_2影像](assets/graph_2.png)
 
 如果暫留在其中一個灰色體驗上，對應於該體驗的新灰色繪圖線條會短暫出現在圖表中。
 
 假設您想顯示體驗 R 的繪圖線條，而不想看到體驗 P 的線條。您可以按一下體驗 P 的名稱將它取消選取，然後按一下體驗 R 的名稱來選取它，如下所示:
 
-![](assets/graph_3.png)
+![graph_3影像](assets/graph_3.png)

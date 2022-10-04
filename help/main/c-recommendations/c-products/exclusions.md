@@ -1,33 +1,33 @@
 ---
 keywords: 排除項目
-description: 瞭解如何在Adobe中建立排除項 [!DNL Target] Recommendations防止向訪問者推薦產品或內容。
-title: 如何在Recommendations活動中使用排除項？
+description: 了解如何在Adobe中建立排除項目 [!DNL Target] Recommendations以防止向訪客建議產品或內容。
+title: 如何在Recommendations活動中使用排除項目？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '624'
 ht-degree: 42%
 
 ---
 
 # 排除項目
 
-在 [!DNL Adobe Target Recommendations] 防止向訪問者推薦產品或內容。 排除是不應推薦給訪問者的產品或內容的子集。
+在中建立排除項目 [!DNL Adobe Target Recommendations] 以防止向訪客建議產品或內容。 排除是不應建議給訪客的產品或內容的子集。
 
-在整個帳戶中都有排除項。 與集合不同，在建立集合時，您為每個體驗指定特定的集合 [!UICONTROL Recommendations] 活動，排除適用於帳戶中的所有活動。 在建立活動期間，沒有指定排除組的選項。
+整個帳戶皆可使用排除項目。 不同於在建立 [!UICONTROL Recommendations] 活動，排除會套用至帳戶中的所有活動。 在活動建立期間沒有可指派排除群組的選項。
 
-您使用排除項的一些示例包括：
+您使用排除的一些範例包括：
 
-* 已停產的產品
-* 秋季/冬季目錄現在是唯一應線上顯示的目錄。 夏季目錄中的任何物料都不再可供購買。
-* 在大多數頁面/螢幕（成人產品、 NC-17電影等）上可能不適宜推薦的項目
-* 元資料欄位不完整（缺少縮略圖、價格或其他重要元資料）的產品
-* 不應推薦的產品（系統中可能存在某種SKU，但它不是可購買的產品，或者QA團隊模擬購買而不實際訂購某種產品，等等）
+* 已終止的產品
+* 秋季/冬季目錄現在是唯一應線上顯示的目錄。 夏季目錄中的任何項目都不再可供購買。
+* 可能不適合在大多數頁面/螢幕上建議的項目（成人產品、NC-17電影等）
+* 中繼資料欄位不完整的產品（遺失縮圖、價格或其他重要中繼資料）
+* 不應建議的產品（可能SKU存在於某些項目的系統中，但它不是可購買的項目，或者可能是QA團隊模擬購買而不實際訂購某些項目的假SKU，等等）
 
 >[!IMPORTANT]
 >
->排除規則將全局應用於所有環境。
+>排除規則會全域套用至所有環境。
 >
 >靜態和動態排除規是可協助您從事行銷活動的強大功能。如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
@@ -35,9 +35,9 @@ ht-degree: 42%
 
 1. 按一下&#x200B;**[!UICONTROL 「Recommendations]** > **[!UICONTROL 排除項目」]**，顯示現有排除項目的清單。
 
-   ![](assets/exclusions_list.png)
+   ![exclusions_list image](assets/exclusions_list.png)
 
-   [!UICONTROL 「排除項目」]清單檢視上各排除項目顯示的「項目數量」，為預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 內符合該排除項目規則的產品數量。請參閱 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank}以更改預設主機組。
+   [!UICONTROL 「排除項目」]清單檢視上各排除項目顯示的「項目數量」，為預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 內符合該排除項目規則的產品數量。請參閱 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank}以變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 「建立排除項目」]**。
 
@@ -55,27 +55,27 @@ ht-degree: 42%
 
 ## 使用進階搜尋建立排除項目
 
-您還可以使用 [!UICONTROL 高級搜索] 的 [目錄搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 頁(P) [!UICONTROL Recommendations] > [!UICONTROL 目錄搜索] > [!UICONTROL 高級搜索])。
+您也可以使用 [!UICONTROL 進階搜尋] 在 [目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 頁面( [!UICONTROL Recommendations] > [!UICONTROL 目錄搜尋] > [!UICONTROL 進階搜尋])。
 
-![另存為對話框](/help/main/c-recommendations/c-products/assets/save-as.png)
+![另存為對話方塊](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 例如，使用「id > contains」建立搜尋之後，您就可以按一下[!UICONTROL 「另存新檔] > [!UICONTROL 排除項目」]。
 
 >[!IMPORTANT]
 >
->的 [!UICONTROL 高級搜索] 功能不區分大小寫；但是，在交付時返回的產品基於區分大小寫的搜索。 此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立排除項目時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您接著建立排除項目而希望排除含有 &quot;holiday&quot; 的產品，則只會排除含有 &quot;holiday&quot; 的產品。不會排除含有 &quot;Holiday&quot; 的產品。
+>此 [!UICONTROL 進階搜尋] 功能不區分大小寫；不過，傳送時傳回的產品會以區分大小寫的搜尋為基礎。 此不相符的情況可能導致混淆。使用「進階搜尋」功能來根據結果建立排除項目時，務必注意大小寫。例如，如果您執行 &quot;Holiday&quot; 的搜尋，初始的搜尋清單結果會包含 &quot;Holiday&quot; 和 &quot;holiday&quot;。如果您接著建立排除項目而希望排除含有 &quot;holiday&quot; 的產品，則只會排除含有 &quot;holiday&quot; 的產品。不會排除含有 &quot;Holiday&quot; 的產品。
 
-## 編輯、複製或刪除排除
+## 編輯、複製或刪除排除項目
 
-將滑鼠懸停在清單中所需的排除項上，然後按一下相應的表徵圖：編輯、複製或刪除。
+將滑鼠指標暫留在清單中所需的排除項目上，然後按一下適當的圖示：編輯、複製或刪除。
 
-![懸停錶徵圖排除](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
+![排除項目的暫留圖示](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
-您可以複製現有排除，以建立重複的排除，然後可以修改。 這樣，您就可以以較少的工作量建立類似的排除。
+您可以複製現有的排除項目，以建立重複的排除項目，接著您可加以修改。 這可讓您以更省心的方式建立類似的排除項目。
 
-請注意，整個帳戶中都有排除項。 請確保在刪除排除之前考慮此問題。 無法恢復已刪除的排除。
+請注意，排除項目可供整個帳戶使用。 刪除排除項目前，請務必考量此事項。 已刪除的排除無法復原。
 
-## 培訓視頻：在Recommendations建立收藏和排除(7:05) ![教程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：在Recommendations中建立集合和排除(7:05) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片包含下列資訊:
 

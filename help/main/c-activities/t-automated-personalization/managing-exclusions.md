@@ -1,20 +1,20 @@
 ---
-keywords: 重複；允許重複；排除重複提供；自動個性化；不允許重複提供；排除；預設內容；排除組
-description: 管理Adobe中的排除項 [!DNL Target] Automated Personalization（美聯社）的活動。 建立排除組並排除重複的產品、特定體驗和預設內容。
-title: 如何管理Automated Personalization活動中的排除項？
+keywords: 刪除重複項目；允許重複項目；排除重複選件；自動個人化；不允許重複選件；排除；預設內容；排除群組
+description: 管理Adobe中的排除 [!DNL Target] Automated Personalization(AP)活動。 建立排除群組並排除重複選件、特定體驗和預設內容。
+title: 如何管理Automated Personalization活動中的排除項目？
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
 # ![Premium 徽章](/help/main/assets/premium.png) 管理排除
 
-通過建立排除組（不包括重複優惠、不包括特定體驗和不包括中的預設內容）來管理排除 [!UICONTROL Automated Personalization] (AP) [!DNL Adobe Target] [!UICONTROL Automated Personalization] （美聯社）活動。
+管理排除的方法包括建立排除群組、排除重複選件、排除特定體驗，以及排除 [!UICONTROL Automated Personalization] (AP) [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活動。
 
 ## 建立排除群組 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -48,7 +48,7 @@ ht-degree: 90%
 
    您可以從排除群組的相同位置中選取多個選件。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 排除群組中的選件將來會自動從相同的體驗中排除。
 
@@ -98,7 +98,7 @@ ht-degree: 90%
 
 **若要使用可視化體驗撰寫器 (VEC) 來排除預設內容:**
 
-1. 同時 [建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)，選擇要替換的內容，然後按一下以訪問 **[!UICONTROL 更改文本/HTML]**。 **[!UICONTROL 更改影像]**&#x200B;或 **[!UICONTROL 更改背景顏色]**。
+1. 同時 [建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)，選取您要取代的內容，然後按一下以存取 **[!UICONTROL 變更文字/HTML]**, **[!UICONTROL 變更影像]**，或 **[!UICONTROL 更改背景顏色]**.
 1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊 **「包含」** (或在「選取內容」畫面中取消勾選「預設影像/影片」)。
 
    視內容/選件類型而定，[!UICONTROL 「包含」]核取方塊的位置會稍微不同。
@@ -115,11 +115,11 @@ ht-degree: 90%
 
    ![在編輯背景顏色對話方塊中包含核取方塊](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    您可以在[!UICONTROL 「管理內容」]下看到透過您指定的選件建立的體驗。您將注意到，使用您排除的預設選件時不會在[!UICONTROL 管理內容]中建立任何體驗。
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4影像](assets/exclude_content_vec_4.png)
 
 **若要使用表單式體驗撰寫器來排除預設內容:**
 
@@ -130,14 +130,14 @@ ht-degree: 90%
 
    針對文字/HTML 內容:
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1影像](assets/exclude_content_form_1.png)
 
    針對影像/影片內容:
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2影像](assets/exclude_content_form_2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    您可以在[!UICONTROL 「管理內容」]下看到透過您指定的選件建立的體驗。您將注意到，使用您排除的預設選件時不會在[!UICONTROL 管理內容]中建立任何體驗。
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3影像](assets/exclude_content_form_3.png)
