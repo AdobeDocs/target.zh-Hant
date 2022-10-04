@@ -4,10 +4,10 @@ description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，�
 title: 如何疑難排解 Target？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 86%
 
 * [Automated Personalization 常見問題](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [疑難排解 Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md)
-* [Automated Personalization 摘要報表](/help/main/c-reports/reports-ap.md)
+* [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
 * [個人化前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 多變數測試 (MVT)

@@ -4,7 +4,7 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -1472,7 +1472,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>報表 </p> </td> 
-   <td colname="col2"> <p>改善報表中的提升和界限資訊，以更廣泛和實用，包括說明界限計算方式的工具提示。(TGT-28729) </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local">平均提升度、提升度界限和信賴區間</a>。 </p> </td> 
+   <td colname="col2"> <p>改善報表中的提升和界限資訊，以更廣泛和實用，包括說明界限計算方式的工具提示。(TGT-28729) </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">平均提升度、提升度界限和信賴區間</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization (AP) 和自動鎖定目標活動 </p> </td> 
@@ -3152,7 +3152,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>轉換型報表 </p> </td> 
-   <td colname="col2"> <p> 如果最佳化目標是轉換量度，則選件詳細資料報表現在可在提升度和增量轉換中顯示熱門預測變數。此報表以前是只限收入型報表，因此此能力可確保沒有收入資料的活動仍可產生相關且可執行的前瞻分析。 </p> <p>請參閱<a href="/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local">Automated Personalization 報表</a>。 </p> </td> 
+   <td colname="col2"> <p> 如果最佳化目標是轉換量度，則選件詳細資料報表現在可在提升度和增量轉換中顯示熱門預測變數。此報表以前是只限收入型報表，因此此能力可確保沒有收入資料的活動仍可產生相關且可執行的前瞻分析。 </p> <p>請參閱<a href="/help/main/c-reports/personalization-reports/reports-ap.md" format="dita" scope="local">Automated Personalization 報表</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Adobe Campaign 電子郵件已與 Target Standard 整合 </td> 

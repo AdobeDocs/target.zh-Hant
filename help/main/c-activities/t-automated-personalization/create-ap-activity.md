@@ -1,39 +1,39 @@
 ---
-keywords: 自動個性化；ap;avociems;ensemble；隨機森林；殘差方差；誤差方差；生存期值
-description: 瞭解如何建立 [!UICONTROL Automated Personalization] (AP) [!DNL Adobe Target] 使用Visual Experience Composer。
+keywords: 自動個人化；ap；對象；整體；隨機森林；殘差變異；錯誤變異；期限值
+description: 了解如何建立 [!UICONTROL Automated Personalization] (AP)中的活動 [!DNL Adobe Target] 使用可視化體驗撰寫器。
 title: 如何建立 [!UICONTROL Automated Personalization] 活動？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
 # ![PREMIUM](/help/main/assets/premium.png) 建立自動個人化活動
 
-的 [!UICONTROL Automated Personalization] (AP)中的活動工作流 [!DNL Adobe Target] 不同的活動類型。
+此 [!UICONTROL Automated Personalization] (AP)中的活動工作流程 [!DNL Adobe Target] 會與其他活動類型的工作流程有所不同。
 
-1. 從 [!DNL Target] [!UICONTROL 活動] 清單，按一下 **[!UICONTROL 建立活動]** > **[!UICONTROL Automated Personalization]**。
+1. 從 [!DNL Target] [!UICONTROL 活動] 清單，按一下 **[!UICONTROL 建立活動]** > **[!UICONTROL Automated Personalization]**.
 
    ![建立活動: Automated Personalization](/help/main/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 使用 [!UICONTROL 視覺體驗作曲家] (VEC)，按一下 **[!UICONTROL 可視（預設）]**。
+1. 若要使用 [!UICONTROL 可視化體驗撰寫器] (VEC)，按一下 **[!UICONTROL 視覺（預設）]**.
 
    ![建立 Automated Personalization 活動對話方塊](/help/main/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   如果你想用 [!UICONTROL 基於表單的體驗作曲家]選中 [!UICONTROL 窗體]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
+   如果您偏好使用 [!UICONTROL 表單式體驗撰寫器]，選取 [!UICONTROL 表單]. 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了VEC和 [!UICONTROL 基於表單的體驗作曲家]。 [!DNL Target] 提供 [!UICONTROL 單頁應用程式VEC] 和移動應用的VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/main/c-experiences/experiences.md)。
+   >除了VEC和 [!UICONTROL 表單式體驗撰寫器], [!DNL Target] 選件 [!UICONTROL 單頁應用程式VEC] 和適用於行動應用程式的VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/main/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
    >上圖中的[!UICONTROL 選擇工作區]選項是 [Target Premium](/help/main/c-intro/intro.md) 功能。如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
-1. （條件）如果您是 [!DNL Target] 高級客戶， [選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （條件性）若您是 [!DNL Target] 高級客戶， [選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. 驗證或輸入活動 URL，然後按一下&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -43,11 +43,11 @@ ht-degree: 91%
 
    具有指定 URL 的頁面會在可視化體驗撰寫器中開啟。
 
-1. 要命名活動，請按一下 **[!UICONTROL 名稱]** 並鍵入活動名稱。
+1. 若要為活動命名，請按一下 **[!UICONTROL 名稱]** 欄位並輸入活動名稱。
 
    ![名稱欄位](/help/main/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   活動名稱不能以下列任何字元開頭：
+   活動名稱不能以下列任一字元開頭：
 
    | 字元 | 說明 |
    |--- |--- |
@@ -86,7 +86,7 @@ ht-degree: 91%
 
 1. (依條件) 按一下&#x200B;**[!UICONTROL 「選件」]**，選取內容片段並將它們指派給報表群組，或只允許特定訪客查看特定具有鎖定目標的選件。
 
-   如需詳細資訊，請參閱[自動個人化中的選件報表群組](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)。
+   如需詳細資訊，請參閱[自動個人化中的選件報表群組](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)。
 
    使用[!UICONTROL 「位置」]清單，依位置篩選選件。使用[!UICONTROL 「報表群組」]清單，依報表群組篩選選件。您也可以使用[!UICONTROL 「報表群組」]清單，篩選[!UICONTROL 「未指派的選件」]，為目前未指派任何報表群組的選件，指派報表群組。
 
@@ -120,8 +120,8 @@ ht-degree: 91%
 
    ![流量分配目標下拉式清單](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **評估個人化演算法 (50/50):**&#x200B;如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議「隨機體驗」搭配使用以作為控制。
-   * **最大化個人化流量 (90/10):**&#x200B;如果您的目標是要建立「一律開啟」的活動，請將 10% 的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。無論您的目標為何，這是使用特定體驗作為控制時的建議流量分割。
+   * **評估個人化演算法 (50/50):**&#x200B;如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議與「隨機體驗」搭配使用，作為您的控制。
+   * **最大化個人化流量(90/10):** 如果您的目標是建立「一律開啟」的活動，請將10%的訪客放入控制，以確保有足夠的資料供演算法隨著時間繼續學習。 請注意，這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。無論您的目標為何，這是使用特定體驗作為控制時的建議流量分割。
    * **自訂分配:** 視需要手動分割百分比。
 
 1. (視條件而定) 從[!UICONTROL 控制]下拉式清單中，[選取要用來作為控制的特定體驗](/help/main/c-activities/t-automated-personalization/experience-as-control.md)，或選取[!UICONTROL 隨機體驗]。
@@ -141,7 +141,7 @@ ht-degree: 91%
    |--- |--- |
    | 名稱 | 為活動命名。請為活動提供描述清楚的名稱，讓團隊成員能夠在活動清單中識別出來。請查閱上表以瞭解哪些字元不得用於活動名稱中。 |
    | 目標 | (可選) 輸入測試的目標。目標可幫助您記住活動的目的。 |
-   | 優先順序 | 視您的設定而定，優先順序的 UI 和選項可能有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。<br>如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<br>如果未在中啟用此選項 [!UICONTROL 管理] > [!UICONTROL 報告] （預設值），指定優先順序：低、中或高。<br>要啟用細粒度優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報告]，然後切換 [!UICONTROL 啟用細粒度優先順序] 的雙曲餘切值。<br>如果已啟用此選項，請指定介於 0 和 999 之間的值:<ul><li>0 = 低</li><li>999 = 高</li></ul>對於在舊版 Target Standard/Premium 中建的立活動，低優先順序會轉換為 0，中會轉換為 5，而高則轉換為 10。您可以視需要調整這些值。<br>****&#x200B;注意: 在使用微調優先順序後，在您可以停用此選項之前，必須將所有優先順序設定回 0、5 和 10。 |
+   | 優先順序 | 視您的設定而定，優先順序的 UI 和選項可能有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。<br>如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<br>若未在 [!UICONTROL 管理] > [!UICONTROL 報表] （預設值），指定優先順序：低、中或高。<br>若要啟用微調優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報表]，然後切換 [!UICONTROL 啟用微調優先順序] 選項至「開啟」位置。<br>如果已啟用此選項，請指定介於 0 和 999 之間的值:<ul><li>0 = 低</li><li>999 = 高</li></ul>對於在舊版 Target Standard/Premium 中建的立活動，低優先順序會轉換為 0，中會轉換為 5，而高則轉換為 10。您可以視需要調整這些值。<br>****&#x200B;注意: 在使用微調優先順序後，在您可以停用此選項之前，必須將所有優先順序設定回 0、5 和 10。 |
    | 持續時間 | 設定活動的開始和結束日期。 |
    | 最佳化目標 | 指定最佳化目標，其中包含兩個參數:<ul><li>要使用活動測量的項目</li><li>活動加入者採取的動作，顯示已達成目標。</li></ul>您可以透過選取「我的主要目標」右側的三個點，來選擇為最佳化目標命名。自動個人化活動可以測量轉換、RPV 和 AOV。轉換可透過檢視頁面或檢視 mbox 來達成。也可以追蹤點擊。<br>主要目標也會變成模型量度，供模型系統用來計算體驗的成功。<br>您可以在達到模型目標之後，基於追蹤目的，讓使用者保持在活動中。例如，Automated Personalization 活動經常用來改善點擊率，並且設為模型目標。不過，務必查看增加的點擊率如何造成最終轉換，使得透過最終的轉換進行追蹤非常必要。<br>您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。<br>您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。<br>「新增相依性」選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。<br>若要新增相依性:<ol><li>新增其他量度之後，請按一下「其他目標」右側的三個點功能表下的[!UICONTROL 「進階設定」]。</li><li>按一下[!UICONTROL 「報表設定」]區段底部的[!UICONTROL 「新增相依性」]選項。</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下[!UICONTROL 「達到」]以在[!UICONTROL 「達到」]與[!UICONTROL 「未達到」]之間切換設定。</li></ol>您可以在新增相依性之後加以編輯或移除。 |
    | 轉換量度 | 根據預設，轉換量度與最佳化目標量度相同。不過，您可以取消勾選[!UICONTROL 與最佳化目標相同]選項，以定義不同的轉換量度。 |
@@ -164,4 +164,4 @@ ht-degree: 91%
 
 按一下&#x200B;**[!UICONTROL 「建立」]**&#x200B;之後，活動摘要隨即出現。按一下&#x200B;**「預覽體驗」**&#x200B;即可預覽體驗傳遞後的外觀。隨即會出現彈出視窗，您可用來檢視和共用網站上 AP 體驗的連結，以獲得在 Target 可視化體驗撰寫器外部的「實際預覽」體驗。您必須分享來自訊息的連結以分享預覽。按一下連結，然後直接從頁面複製 URL 將沒有作用，因為 URL 包含的參數只會在您透過訊息中的連結存取頁面時正確顯示頁面。
 
-如需關於報表的資訊，請參閱[自動個人化報表](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)。
+如需關於報表的資訊，請參閱[自動個人化報表](/help/main/c-reports/personalization-reports/reports-ap.md)。

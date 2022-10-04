@@ -3,7 +3,7 @@ keywords: 報表；統計方法；統計計算；統計數字；平均值；轉�
 description: 了解手動中使用的統計計算 [!UICONTROL A/B測試] 活動 [!DNL Adobe Target].
 title: 如何了解中使用的統計計算 [!UICONTROL A/B測試] 活動？
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -132,6 +132,6 @@ where *σ<sup>2</sup><sub>v</sub>* 和 *σ<sup>2</sup><sub>v<sub>0</sub></sub>* 
 
 ## 離線執行計算
 
-[下載的 CSV 報表](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
+[下載的 CSV 報表](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
 若要計算這些統計數量，請下載Target的 [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) 輸入活動值的Excel檔案。

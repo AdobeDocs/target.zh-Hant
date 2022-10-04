@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 98%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -255,22 +255,23 @@ ht-degree: 98%
    + [報表概覽](c-reports/reports.md)
    + 報表設定 {#settings}
       + [報表設定概覽](c-reports/c-report-settings/report-settings.md)
-      + [平均提升度、提升度界限和信賴區間](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [在報表中檢視多個量度](c-reports/c-report-settings/view-multiple-metrics.md)
       + [排除極端值](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [將資料下載為 CSV 檔案](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 統計方法 {#statistical-methodology}
       + [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [自動鎖定目標摘要報表](c-reports/auto-target-summary-report.md)
-   + [Automated Personalization 摘要報表](c-reports/reports-ap.md)
+   + 個人化報表 {#personalization-reports}
+      + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Automated Personalization 中的選件報表群組](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + 個人化前瞻分析報表 {#insights}
       + [個人化前瞻分析報表概覽](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動化區段報表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要屬性報表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Automated Personalization 中的選件報表群組](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [體驗效能報表 (MVT)](c-reports/experience-performance-report.md)
-   + [位置貢獻報表 (MVT)](c-reports/location-contribution-report.md)
+   + 多變數測試報表 {#multivariate-test-reports}
+      + [體驗效能報表 (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [位置貢獻報表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 報告](c-reports/analytics-for-target-a4t-reporting.md)
-   + [將資料下載為 CSV 檔案](c-reports/downloading-data-in-csv-file.md)
    + [報表常見問題集](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations 概覽](c-recommendations/recommendations.md)

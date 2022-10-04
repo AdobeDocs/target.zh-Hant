@@ -4,7 +4,7 @@ description: 探索關於使用 Adobe Target 中功能常見問答的清單，�
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 **Target 支援什麼瀏覽器？**
 
-請閱讀 [支援的瀏覽器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}矩陣，瞭解更多詳細資訊。 請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
+請閱讀我們的 [受支援的瀏覽器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}矩陣以取得詳細資訊。 請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
 
 ## 活動 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -166,7 +166,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我對於我嘗試在可視化體驗撰寫器 (VEC) 中載入我的頁面時出現的「允許您的瀏覽器載入指令碼」訊息感到很困擾。我如何避免此情況？**
 
-這是因為您的網站有混合內容—它是會同時擷取 HTTP 和 HTTPS 資源的網站。請要求您的 IT 團隊完成改用 HTTPS。
+這是因為您的網站有混合的內容，而是同時擷取HTTP和HTTPS資源的網站。 請要求您的 IT 團隊完成改用 HTTPS。
 
 在他們完成之前，請遵循[在您的瀏覽器中啟用混合的內容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的指示，來允許您的瀏覽器載入混合內容。這是多數現代瀏覽器的安全性功能。
 
@@ -279,7 +279,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以執行離線報表計算？**
 
-使用[匯出報表至 CSV 和下載訂單詳細資料至 CSV 選項](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) (位於報表頁面上) 來下載需要的報表資料。
+使用[匯出報表至 CSV 和下載訂單詳細資料至 CSV 選項](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) (位於報表頁面上) 來下載需要的報表資料。
 
 **我可以變更評估報表的控制體驗，或變更訪客造訪的計算方法嗎？**
 
@@ -309,10 +309,10 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我們有行動 SKU。我可以建立行動裝置活動？**
 
-要優化和個性化移動設備，您需要使用 [表格活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}。 查看有關 [移動應用的目標](https://developer.adobe.com/target/implement/mobile/){target=_blank}。
+若要在行動裝置上最佳化和個人化，您需要使用 [表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}。 查看有關 [適用於行動應用程式的Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}。
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。請參閱 [交付API、NodeJS SDK和RecommendationsAPI文檔](https://developer.adobe.com/target/implement/server-side/){target=_blank}。
+我們提供詳盡的 API 相關文件。請參閱 [傳送API、NodeJS SDK和Recommendations API檔案](https://developer.adobe.com/target/實作/伺服器端/){target=_blank}。

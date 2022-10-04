@@ -4,7 +4,7 @@ description: 了解如何改善效能、避免問題，以及修正在 Adobe Tar
 title: 多變數測試有哪些最佳實務？
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
@@ -45,8 +45,8 @@ ht-degree: 100%
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* 經常使用[位置貢獻報表](/help/main/c-reports/location-contribution-report.md)來監控每個位置和每個選件的效能。
-* 在[體驗效能報表](/help/main/c-reports/experience-performance-report.md)中，使用「最佳前五名」或「最差前五名」篩選所顯示的資料來進行決策。
+* 經常使用[位置貢獻報表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)來監控每個位置和每個選件的效能。
+* 在[體驗效能報表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)中，使用「最佳前五名」或「最差前五名」篩選所顯示的資料來進行決策。
 
    [!UICONTROL 全部]篩選器會使得您難以擷取需要的資訊，並且不是所有體驗都可以顯示在圖表中。如果想要查看不在最佳或最差前五名之內的特定體驗，請使用[!UICONTROL 全部]篩選。
 
