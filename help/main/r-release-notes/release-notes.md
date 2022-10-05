@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
-workflow-type: ht
-source-wordcount: '632'
-ht-degree: 100%
+source-git-commit: c5445903e7bbab210d0e72200c54ab07975c21c5
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 93%
 
 ---
 
@@ -18,31 +18,27 @@ ht-degree: 100%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 22.9.1 (分批發行：2022 年 9 月 13 至 15 日)
+## [!DNL Target] Standard/Premium 22.10.1 (分批發行：2022 年 10 月 5 至 7 日)
 
 我們將根據以下排程分批發行此版本：
 
-* **9 月 13 日**：歐洲、中東和非洲 (EMEA) 區域
-* **9 月 14 日**：美洲區域
-* **9 月 15 日**：亞太 (APAC) 區域
+* **10 月 5 日**：亞太 (APAC) 區域
+* **10 月 6 日**：美洲區域
+* **10 月 7 日**：歐洲、中東和非洲 (EMEA) 區域
 
-此版本包含下列增強功能和修正：
+此版本包含以下新功能、增強功能和修正：
 
-* 在下載 at.js 2.10.0 (及更新版本) 以允許或停用設定第三方 Cookie 時新增的「[!UICONTROL 跨網域]」選項。(TGT-43674)
-* 更新 [!DNL Target] UI 中的通知以在匯入 [!DNL Recommendations] 摘要失敗時告知客戶。 (TGT-35811)
-* 修正導致 [!UICONTROL Decision Offers] 無法在 [!UICONTROL Visual Experience Composer] (VEC) 內正常作用的問題。(TGT-43866)
-* 修正在建立 [!UICONTROL Multivariate Testing] (MVT) 活動時，當選取 [!UICONTROL Clicked an Element] 轉換目標時導致錯誤訊息顯示的問題。(TGT-43842)
-* 修正讓「[!UICONTROL 曝光次數]」欄不會在 [!UICONTROL Automated Personalization] (AP) 活動的已下載 CSV 報告檔案中顯示的問題。 (TGT-43780)
-* 修正在使用 [!UICONTROL Form-Based Experience Composer] 時客戶無法在複製體驗後編輯 HTML/JSON 優惠的問題。(TGT-43633)
-* 修正客戶無法從非預設工作區複製 [!UICONTROL A/B 測試] 活動至另一個非預設工作區的問題。(TGT-41910)
-* 修正了一個問題，以確保客戶可以在 [!UICONTROL A/B 測試]和[!UICONTROL 體驗目標] (XT) 活動中正確顯示包含建議的 [!DNL Recommendations] 物件 (設計、標準、集合等）的使用情況，並從 [!DNL Target] UI 和 [!DNL Recommendations] 後端刪除不再使用的標準物件。(TGT-42331)
-* 修正在擷取參數時造成網路逾時警報在 [!DNL Target] UI 中出現的問題。(TGT-43737)
-* 已進行 UI 更新，以確保可以使用鍵盤存取某些拖放動作。(TGT-42969)
-* 已進行 UI 更新，以確保文字字串正確本地化。
+| 功能 | 詳細資料 |
+| --- | --- |
+| [!DNL Adobe Experience Manager] (AEM)體驗片段 | AEM體驗片段功能的更新包括：<ul><li>新增可依下列類型(HTML或JSON)篩選AEM體驗片段的功能： [!UICONTROL 選件] 清單。 (TGT-43121)</li><li>已修正允許客戶在使用 VEC 時插入 JSON [!UICONTROL 體驗片段]選件的問題，此狀況不受支援。只有在使用[!UICONTROL 表單式體驗]編排器時，才能插入 JSON 選件。(TGT-43846)</li></ul>如需詳細資訊，請參閱AEM [體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| 新的適用於 Google Chrome 的 [!UICONTROL Visual Experience Composer] 擴充功能 | 新的適用於 Chrome 的 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) 擴充功能，Chrome 網站商店提供<br>2023 年 1 月起，目前 [!DNL Target] VEC Helper 擴充功能將停止在 Google Chrome 中運作，因為 Google 不允許使用 Manifest V2 的擴充功能。下載新的擴充功能，從新的一年開始，繼續在 [!DNL Target] 中以視覺方式創作您的網站。<br>以下連結顯示 Chrome 網站商店中的兩個擴充功能：<ul><li>[新擴充功能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[舊擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>如需詳細資訊，請參閱 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| 優化的 A4T [!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]<br> 量度 (確切發行日期尚未確定。) | 請注意下列變更：<ul><li>針對 [!UICONTROL Analytics for Target] A4T 報告中的[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動，新增對二進位和最大化量度的支援</li><li>保留現有活動的行為，直到 2023 年 2 月 20 日。在此日期之後，將停止活動以強制現有活動遷移至新行為</li><li>從 2023 年 2 月 20 日開始，將不再支援 [!DNL Target] 活動中的 `averagetimespentonsite`、 `bouncerate` 和 `entries` 量度。</li></ul> |
 
-## at.js 2.10.0 版 (2022 年 9 月 13 日)
-
-* 在下載 at.js 2.10.0 (及更新版本) 以允許或停用設定第三方 Cookie 時新增的「[!UICONTROL 跨網域]」選項。(TGT-43674)
+* 已修正導致對象規則資訊無法在[!UICONTROL 對象細分]資訊視窗中正確顯示的問題。(TGT-43917)
+* 已改進當載入對象人數接近[鎖定目標規則建議上限](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules)時的 [!DNL Target] UI 性能。(TGT-43675)
+* 已修正從[!UICONTROL 編排]切換到[!UICONTROL 瀏覽]模式後，在 VEC 中建立或編輯活動時，導致某些元件在 [!UICONTROL 體驗] 頁面的[!UICONTROL 修改]面板中無法正確顯示的問題。(TGT-43300)
+* 已修正導致部分客戶無法封存使用[!UICONTROL 自動鎖定目標]的 [!UICONTROL A/B 測試] 的問題。(TGT-40978)
+* 已新增在單一報表群組內的多個位置自動使用單一選件的功能。(TGT-40689)
 
 ## 額外的版本注意事項和版本詳細資料
 
