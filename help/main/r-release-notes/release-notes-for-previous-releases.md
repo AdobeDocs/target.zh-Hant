@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '34597'
+source-wordcount: '34887'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,32 @@ ht-degree: 96%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2022
+
+### [!DNL Target] Standard/Premium 22.9.1 (分批發行：2022 年 9 月 13 至 15 日)
+
+我們將根據以下排程分批發行此版本：
+
+* **9 月 13 日**：歐洲、中東和非洲 (EMEA) 區域
+* **9 月 14 日**：美洲區域
+* **9 月 15 日**：亞太 (APAC) 區域
+
+此版本包含下列增強功能和修正：
+
+* 在下載 at.js 2.10.0 (及更新版本) 以允許或停用設定第三方 Cookie 時新增的「[!UICONTROL 跨網域]」選項。(TGT-43674)
+* 更新 [!DNL Target] UI 中的通知以在匯入 [!DNL Recommendations] 摘要失敗時告知客戶。 (TGT-35811)
+* 修正導致 [!UICONTROL Decision Offers] 無法在 [!UICONTROL Visual Experience Composer] (VEC) 內正常作用的問題。(TGT-43866)
+* 修正在建立 [!UICONTROL Multivariate Testing] (MVT) 活動時，當選取 [!UICONTROL Clicked an Element] 轉換目標時導致錯誤訊息顯示的問題。(TGT-43842)
+* 修正讓「[!UICONTROL 曝光次數]」欄不會在 [!UICONTROL Automated Personalization] (AP) 活動的已下載 CSV 報告檔案中顯示的問題。 (TGT-43780)
+* 修正在使用 [!UICONTROL Form-Based Experience Composer] 時客戶無法在複製體驗後編輯 HTML/JSON 優惠的問題。(TGT-43633)
+* 修正客戶無法從非預設工作區複製 [!UICONTROL A/B 測試] 活動至另一個非預設工作區的問題。(TGT-41910)
+* 修正了一個問題，以確保客戶可以在 [!UICONTROL A/B 測試]和[!UICONTROL 體驗目標] (XT) 活動中正確顯示包含建議的 [!DNL Recommendations] 物件 (設計、標準、集合等）的使用情況，並從 [!DNL Target] UI 和 [!DNL Recommendations] 後端刪除不再使用的標準物件。(TGT-42331)
+* 修正在擷取參數時造成網路逾時警報在 [!DNL Target] UI 中出現的問題。(TGT-43737)
+* 已進行 UI 更新，以確保可以使用鍵盤存取某些拖放動作。(TGT-42969)
+* 已進行 UI 更新，以確保文字字串正確本地化。
+
+### at.js 2.10.0 版 (2022 年 9 月 13 日)
+
+* 在下載 at.js 2.10.0 (及更新版本) 以允許或停用設定第三方 Cookie 時新增的「[!UICONTROL 跨網域]」選項。(TGT-43674)
 
 ### [!DNL Target Standard/Premium] 22.8.1 (分批發行：2022 年 8 月 17 至 18 日)
 
