@@ -3,7 +3,7 @@ keywords: 報表；統計方法；統計計算；統計數字；平均值；轉�
 description: 了解手動中使用的統計計算 [!UICONTROL A/B測試] 活動 [!DNL Adobe Target].
 title: 如何了解中使用的統計計算 [!UICONTROL A/B測試] 活動？
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # A/Bn測試中的統計計算
 
-本頁記錄在 [!DNL Adobe Target]. 提供的定義 [!UICONTROL 轉換率], [!UICONTROL 轉換率的信賴區間], [!UICONTROL 提升度], [!UICONTROL 提升度的信賴區間]，和 [!UICONTROL 信賴度].
+本文記錄了在 [!DNL Adobe Target]. 提供的定義 [!UICONTROL 轉換率], [!UICONTROL 轉換率的信賴區間], [!UICONTROL 提升度], [!UICONTROL 提升度的信賴區間]，和 [!UICONTROL 信賴度].
 
 >[!NOTE]
 >
