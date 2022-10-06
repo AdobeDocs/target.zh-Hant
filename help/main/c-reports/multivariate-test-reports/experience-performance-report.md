@@ -4,10 +4,10 @@ description: 了解如何使用體驗效能報表進行Adobe [!DNL Target] 體�
 title: 如何對多變數測試使用體驗效能報表？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 您可以選取一或多個體驗來相互比較。按一下體驗並選取&#x200B;**[!UICONTROL 「預覽」]**，在瀏覽器標籤中開啟體驗。
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Adobe Target中的體驗效能報表](/help/main/c-reports/assets/experienceperformancetable.png)
 
 報表頂端會顯示報表中使用的量度、開始和結束日期，以及對象。您可以變更任何係數。
 

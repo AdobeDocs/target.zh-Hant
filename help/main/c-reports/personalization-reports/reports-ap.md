@@ -4,9 +4,9 @@ description: 了解如何解讀Adobe Target中的Automated Personalization摘要
 title: 如何使用Automated Personalization摘要報表？
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '679'
 ht-degree: 37%
 
 ---
@@ -46,7 +46,7 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 
 按一下體驗演算法（隨機森林或控制項）以檢視 [!UICONTROL 選件層級] 報表。
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Adobe Target中的選件層級報表](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 選件可顯示在報表群組內，而這些報表群組可以折疊和展開。在下拉式清單中選取[!UICONTROL 「報表群組」]，以檢視依報表群組 (而不是依選件) 彙總的資訊。
 

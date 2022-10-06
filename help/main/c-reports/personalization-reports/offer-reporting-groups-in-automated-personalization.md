@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用優惠方案報表群組 [!DNL Target]
 title: 我可以在Automated Personalization活動中使用選件報表群組嗎？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 62%
 
 1. 在 [!UICONTROL 體驗] AP活動的頁面，按一下 **[!UICONTROL 管理內容]** 表徵圖。
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![「管理內容」圖示](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「管理內容」]**&#x200B;對話方塊頂端的[!UICONTROL 「選件」]索引標籤。
 1. (條件性) 藉由將游標移至所需的選件上，然後按一下&#x200B;**[!UICONTROL 「報表群組」]**&#x200B;資料夾圖示，將特定體驗加入報表群組。
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![報表群組圖示](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (條件性) 藉由選取相關體驗的核取方塊，然後按一下對話方塊右上角的&#x200B;**[!UICONTROL 「報表群組」]**&#x200B;資料夾圖示，將體驗批次加入報表群組。
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![報表群組圖示](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. （條件性）若要將選取的選件指派至現有的報表群組，請選取 **[!UICONTROL 現有]**，從下拉式清單中選取所需的報表群組，然後按一下 **[!UICONTROL 套用]**.
 
@@ -51,4 +51,4 @@ ht-degree: 62%
 
    若要建立新報表群組以將選定選件指派至該群組，請選取&#x200B;**[!UICONTROL 「新增」]**，命名新報表群組，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![建立新報表群組的新圖示](/help/main/c-reports/assets/ap_reporting_groups.png)

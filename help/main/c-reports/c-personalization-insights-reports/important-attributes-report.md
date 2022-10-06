@@ -4,10 +4,10 @@ description: 了解如何使用 [!UICONTROL 重要屬性] 顯示影響個人化�
 title: 什麼是「重要屬性」報表？
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 
 1. 啟動活動15天後，按一下 **[!UICONTROL 重要屬性]** 表徵圖。
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Adobe Target報表中的「重要屬性」圖示](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 選取所需的日期範圍。
 
@@ -66,15 +66,15 @@ ht-degree: 81%
 
    這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target報表中的日曆](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    您可以從[!UICONTROL 「選擇持續時間」]下拉式清單中存取可用的固定日期範圍。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![在報表中選擇「持續時間」下拉式清單](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. 檢閱[!UICONTROL 「重要屬性」]報表資料。
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Adobe Target中的「重要屬性」報表](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (選用) [下載 CSV 格式的報表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在 Excel 和其他工具中進行分析。
 

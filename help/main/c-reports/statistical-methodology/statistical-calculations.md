@@ -3,9 +3,9 @@ keywords: 報表；統計方法；統計計算；統計數字；平均值；轉�
 description: 了解手動中使用的統計計算 [!UICONTROL A/B測試] 活動 [!DNL Adobe Target].
 title: 如何了解中使用的統計計算 [!UICONTROL A/B測試] 活動？
 feature: Reports
-source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 轉換率的信賴區間被直觀地定義為與基礎資料一致的可能轉換率範圍。
 
-執行實驗時，指定體驗的轉換率為 *估計* 的值。 為了量化這一估計中的不確定性， [!DNL Target] 使用信賴區間。 [!DNL Target] 一律會報告95%信賴區間，這表示從長遠來看，95%計算的信賴區間包含體驗的真正轉換率。
+執行實驗時，指定體驗的轉換率為 *估計* 的值。 為了量化這一估計中的不確定性， [!DNL Target] 使用信賴區間。 [!DNL Target] 一律會報告95%信賴區間，這表示最後，95%計算的信賴區間會包含體驗的真正轉換率。
 
 轉換率的95%信賴區間 *μ<sub>ν</sub>* 定義為值範圍：
 
@@ -58,11 +58,11 @@ ht-degree: 2%
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
-其中，會使用樣本標準差的無偏估計：
+若使用樣本標準差的無偏估計：
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-請注意，當促銷活動是轉換率促銷活動時（亦即，轉換量度為二進位），標準錯誤會降為：
+當促銷活動是轉換率促銷活動時（即轉換量度為二進位），標準錯誤會減為：
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
@@ -86,7 +86,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!DNL Confidence Interval of Lift]
 
-中的盒形圖 [!UICONTROL 平均提升度和信賴區間] column代表平均值，而95% [!UICONTROL 提升度的信賴區間]. 當給定非控制體驗與控制體驗的信賴區間有任何重疊時，盒形圖會呈灰色；當給定體驗的信賴區間範圍高於或低於控制體驗的信賴區間時，盒形圖會呈綠色或紅色。
+中的盒形圖 [!UICONTROL 平均提升度和信賴區間] column代表平均值，而95% [!UICONTROL 提升度的信賴區間]. 當給定非控制體驗與控制體驗的信賴區間有任何重疊時，盒形圖會呈灰色。 當指定體驗的信賴區間範圍高於或低於控制體驗的信賴區間時，盒形圖為綠色或紅色。
 
 體驗之間提升度的標準錯誤  *ν*，以及控制體驗  *ν<sub>0</sub>* 定義為：
 
@@ -100,7 +100,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!UICONTROL 可信度]
 
-最後一欄顯示 [!DNL Target] 報表。 假設空值假設為真，體驗的信賴度是取得較實際觀察到的結果低於極值的可能性（以百分比表示）。 就p值而言，顯示的信賴度為 *1 - p值*. 直覺上，較高的信賴度表示控制與非控制體驗有相同轉換率的可能性較低。
+最後一欄顯示 [!DNL Target] 報表。 假設空值假設為真，體驗的信賴度是取得比觀察到的結果更少之極端結果的機率（以百分比表示）。 就p值而言，顯示的信賴度為 *1 - p值*. 直覺上，較高的信賴度表示控制與非控制體驗有相同轉換率的可能性較低。
 
 在 [!DNL Target]，雙尾 **韋爾奇的T型** 在測試體驗與控制體驗之間執行，以測試測試和控制體驗的方式是否相同。 因為在執行實驗之前，我們通常不知道兩個群組的樣本大小和變異是否相同，以及 [!DNL Target] 也可讓您擁有傳送至每個體驗的不相等流量百分比，我們不會假設每個體驗的變數相等。 因此，Welch的t檢定被選中，而不是Student的t檢定。
 
@@ -110,17 +110,17 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-where *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 是 *ν*  和 *ν<sub>0</sub>* 與標準差 *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 由提供：
+其中 *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 是 *ν*  和 *ν<sub>0</sub>* 與標準差 *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 由提供：
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-where *σ<sup>2</sup><sub>v</sub>* 和 *σ<sup>2</sup><sub>v<sub>0</sub></sub>* 是兩個體驗的差異 *ν*  和 *ν<sub>0</sub>* 和 *N<sub>v</sub>* 和 *N<sub>v<sub>0</sub></sub>* 的樣本大小 *ν* 和 *ν<sub>0</sub>* 分別為5個。
+其中 *σ<sup>2</sup><sub>v</sub>* 和 *σ<sup>2</sup><sub>v<sub>0</sub></sub>* 是兩個體驗的差異 *ν*  和 *ν<sub>0</sub>* 和 *N<sub>v</sub>* 和 *N<sub>v<sub>0</sub></sub>* 的樣本大小 *ν* 和 *ν<sub>0</sub>* 分別為5個。
 
 對於Welch的t檢驗，自由度計算如下：
 
 <p style="text-align:center;"><img width="180px" src="img/degree_of_freedom.png"></p>
 
-和自由度 *ν*  和 *ν<sub>0</sub>* 定義為：
+自由度 *ν*  和 *ν<sub>0</sub>* 定義為：
 
 <p style="text-align:center;"><img width="100px" src="img/df_v.png"></p>
 

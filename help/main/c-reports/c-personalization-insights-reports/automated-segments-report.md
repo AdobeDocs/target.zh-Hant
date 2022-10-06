@@ -4,9 +4,9 @@ description: 了解由Adobe定義的不同區段 [!DNL Target] 個人化模型�
 title: 什麼是「自動化區段」報表？
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 73%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 73%
 
    此 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 報表隨即顯示，其中提供活動效能的相關資訊，由第一個螢幕圖示表示。 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。自動鎖定目標具有額外的圖形圖示，用於 [!UICONTROL 摘要] 報表。
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Adobe Target中的「個人化前瞻分析」報表](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ ht-degree: 73%
 
    不同於 [!UICONTROL 摘要] 報告（績效報告）, [!UICONTROL 個人化前瞻分析]，包括 [!UICONTROL 自動化區段]，僅適用於固定日期範圍：15天，30天，60天。 這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。您會發現「開始」呈灰色。 開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target報表中的日曆](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    您可以從[!UICONTROL 「選擇持續時間」]下拉式清單中存取可用的固定日期範圍。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Adobe Target中的「持續時間」下拉式清單](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. 檢閱[!UICONTROL 「自動化區段」]報表資料。
 
