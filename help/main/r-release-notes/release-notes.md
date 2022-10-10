@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 87%
 | --- | --- |
 | [!DNL Adobe Experience Manager] (AEM) 體驗片段 | AEM 體驗片段功能的更新包括以下內容：<ul><li>已新增在[!UICONTROL 選件]清單中按類型 (HTML 或 JSON) 篩選 AEM 體驗片段的功能。 (TGT-43121)</li><li>已修正允許客戶在使用 VEC 時插入 JSON [!UICONTROL 體驗片段]選件的問題，此狀況不受支援。只有在使用[!UICONTROL 表單式體驗]編排器時，才能插入 JSON 選件。(TGT-43846)</li></ul>如需詳細資訊，請參閱 AEM [體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。 |
 | 新的適用於 Google Chrome 的 [!UICONTROL Visual Experience Composer] 擴充功能 | 新的適用於 Chrome 的 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) 擴充功能，Chrome 網站商店提供<br>2023 年 1 月起，目前 [!DNL Target] VEC Helper 擴充功能將停止在 Google Chrome 中運作，因為 Google 不允許使用 Manifest V2 的擴充功能。下載新的擴充功能，從新的一年開始，繼續在 [!DNL Target] 中以視覺方式創作您的網站。<br>以下連結顯示 Chrome 網站商店中的兩個擴充功能：<ul><li>[新擴充功能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[舊擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>如需詳細資訊，請參閱「[Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)」。 |
-| 文件更新 | 重大檔案更新包括下列項目：<ul><li>新增和更新 [Adobe Target管理與報表API檔案](https://developer.adobe.com/target/administer/admin-api/){target=_blank}包含管理員和報表API端點的完整涵蓋範圍，包括屬性、選件、主機、環境、用戶端、對象、活動等。<br>請參閱 [[!DNL Adobe Target] [!UICONTROL 開發人員指南]](https://developer.adobe.com/target/){target=_blank}。</li><li>[A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>本文記錄了在 [!DNL Adobe Target].<br>本文中的資訊取代 *Adobe Target A/B測試計算* 之前可在此網站下載的pdf檔案。</li></ul> |
+| 文件更新 | 主要文件更新包含以下項目：<ul><li>新的和更新的 [Adobe Target 管理和報告 API 文件 ](https://developer.adobe.com/target/administer/admin-api/) {target=_blank} 包含完整的管理和報告 API 端點，包括性質、選件、主機、環境、用戶端、對象、活動等。<br>在 [[!DNL Adobe Target] [!UICONTROL 開發人員指南]](https://developer.adobe.com/target/){target=_blank}中查看此內容和其他開發人員內容。</li><li>[A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>本文記錄了 [!DNL Adobe Target] 中手動 A/Bn 測試使用的詳細統計計算。<br>本文資訊取代了 *Adobe Target 中 A/B 測試使用的計算* pdf 檔案 (先前可在此網站下載)。</li></ul> |
 
 * 已修正導致對象規則資訊無法在[!UICONTROL 對象細分]資訊視窗中正確顯示的問題。(TGT-43917)
 * 已改進當載入對象人數接近[鎖定目標規則建議上限](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules)時的 [!DNL Target] UI 性能。(TGT-43675)
