@@ -5,9 +5,9 @@ title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,15 +79,15 @@ ht-degree: 98%
 
 下圖顯示 A4T 報表的[!UICONTROL 「圖表檢視」]，其中[!UICONTROL 「報表量度」]下拉式清單顯示可用的 [!DNL Analytics] 目標量度:
 
-![a4t_report_graph1影像](assets/a4t_report_graph1.png)
+![a4t_report_graph1 圖片](assets/a4t_report_graph1.png)
 
 下圖顯示 A4T 報表的[!UICONTROL 「圖表檢視」]，其中[!UICONTROL 「受眾」]下拉式清單顯示可用的 [!DNL Analytics] 受眾:
 
-![a4t_report_graph2影像](assets/a4t_report_graph2.png)
+![a4t_report_graph2 圖片](assets/a4t_report_graph2.png)
 
 下圖顯示 A4T 報表的[!UICONTROL 「表格檢視」]:
 
-![a4t_report_table影像](assets/a4t_report_table.png)
+![a4t_report_table 圖片](assets/a4t_report_table.png)
 
 若要在 [!DNL Analytics] 中檢視報表，而非在 [!DNL Target] 中，請按一下報表頂端的&#x200B;**[!UICONTROL 在 Analytics 中檢視]**。
 
