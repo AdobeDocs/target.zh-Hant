@@ -4,10 +4,10 @@ description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target]
 title: 如何疑難排解可視化體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 85%
+source-wordcount: '869'
+ht-degree: 78%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 85%
 
 設定擴充功能之後，開啟 Target。您的頁面現在應該會在可視化體驗撰寫器中載入，即便已停用增強體驗撰寫器。
 
-## 我的頁面未在 VEC 中顯示 (僅限 VEC) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## 我的頁面未在 VEC 中顯示 (僅限 VEC) {#does-not-load}
 
 * 瀏覽器不受支援。
 * 瀏覽器正在封鎖安全網站上不安全的頁面。
@@ -114,7 +114,11 @@ ht-degree: 85%
 * 您輸入了無效的 URL。
 * 您尚未在您的帳戶設定頁面中輸入預設 URL。
 
-確認已啟用此設定，然後在您的網站上下載和更新at.js。
+   確認已啟用此設定，然後在您的網站上下載和更新at.js。
+
+* 如果您嘗試使用 [new [!UICONTROL Visual Editing Helper] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 然後回到 [舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 和 [!DNL Target] 無法載入您的網站、清除所有瀏覽器資料並停用新的擴充功能。
+
+* 如果您的網站在VEC中無法載入，或意外運作，可能的修正是先在瀏覽器中接受網站上的Cookie，再嘗試在中載入網站 [!DNL Target].
 
 ## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
