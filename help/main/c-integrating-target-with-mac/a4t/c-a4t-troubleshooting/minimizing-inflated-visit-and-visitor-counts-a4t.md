@@ -5,9 +5,9 @@ title: 如何在 A4T 中將膨脹的造訪和訪客計數減到最少？
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1345'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 | ![步驟 1](assets/step1_icon.png) | 確保 [!DNL Target] 中選取的報表套裝與顯示活動的頁面上的報表套裝相同。 |
 | ![步驟 2](assets/step2_icon.png) | 確保 visitorAPI.js、appMeasurement.js 和 at.js 程式庫都採用 A4T 相容的版本。 若要進一步瞭解實作需求，請參閱[實作之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)。 |
 | ![步驟 3](assets/step3_icon.png) | 確保已在離開頁面的所有 [!DNL Target] 和 [!DNL Analytics] 呼叫上設定 SDID，而且它們都相符。<br/>使用網路分析器或偵錯工具來確保 [!DNL Target] 呼叫上的 `mboxMCSDID` 參數符合 [!DNL Analytics] 呼叫中的 SDID 參數。 |
-| ![步驟 4](assets/step4_icon.png) | 確認實作程式庫在您的網站上以正確的順序載入網站。如需詳細資訊，請參閱 [Analytics for Target實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| ![步驟 4](assets/step4_icon.png) | 確認實作程式庫在您的網站上以正確的順序載入網站。如需詳細資訊，請參閱 [Analytics for Target 實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
 
 ## 該如何知道我有多少部分資料？ {#section_89B663E2824A4805AB934153508A0F4B}
 
@@ -76,7 +76,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 
 下圖顯示虛擬報表套裝的區段定義:
 
-![ts_a4t影像](assets/ts_a4t.png)
+![ts_a4t 圖片](assets/ts_a4t.png)
 
 建立虛擬報表套裝時，指定區段定義的下列組態 (如上圖所示):
 
