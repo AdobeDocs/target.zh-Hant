@@ -4,9 +4,9 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '4593'
+source-wordcount: '4528'
 ht-degree: 100%
 
 ---
@@ -98,12 +98,6 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 在 Analysis Workspace 中使用 Target 活動曝光和轉換時，請套用「相同接觸」 Attribution IQ 模型至量度，以確保計數準確。若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵，以&#x200B;**修改欄設定 > 啟用使用非預設歸因模型 > 選擇相同接觸模型**&#x200B;。&#x200B;若未套用此模型，這些量度就會被誇大。
 
 所有目前的 Analytics 套件都可以用 Attribution IQ 加入此模型。如果您沒有 Attribution IQ 存取權，請依賴「Reports &amp; Analytics」中的 A4T 資料。
-
-### 報告 - 可下載的 .csv 報告與 [!DNL Target] UI 中顯示的報告之間的資料不一致。 {#csv}
-
-如果活動使用多個量度，則為下載所產生的 .csv 報告會不一致。可下載的報告僅是根據報告設定而產生，並會針對使用的任何其他量度考慮相同的值。
-
-真相來源永遠是在 [!DNL Target] UI 中顯示的報告。
 
 ## 已解決問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

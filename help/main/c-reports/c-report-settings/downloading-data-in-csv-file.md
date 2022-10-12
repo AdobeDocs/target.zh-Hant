@@ -4,10 +4,10 @@ description: 了解如何從Adobe下載資料 [!DNL Target] 活動，以快速�
 title: 如何將報表資料下載為CSV檔案？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: abbb81f2c9d5503c72eb427e7ae20a560b1daf95
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 83%
+source-wordcount: '727'
+ht-degree: 54%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 83%
 
    ![下載選項](/help/main/c-reports/assets/download-options.png)
 
-## 匯出報表至 CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL 匯出報表至 CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-「成功量度」報表顯示成功量度的相關資訊，以及下列量度 (在 Target UI 中看不到):
+此 [!UICONTROL 成功量度] 報表會顯示成功量度的相關資訊，以及下列量度中無法使用的量度 [!DNL Target] UI:
 
 * 平均轉換時間以小時計，這樣您就可以看到一般訪客到達轉換點所花的時間
 * 離線統計信賴計算的收入總和平方
@@ -40,24 +40,24 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->CSV報表只包含原始資料，不包含用於A/B測試的計算量度，例如每位訪客帶來的收入、提升度或信賴度。 若要計算這些計算量度，請下載Target的 [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) 輸入活動值或檢閱的Excel檔案 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+>CSV報表只包含原始資料，不包含用於A/B測試的計算量度，例如每位訪客帶來的收入、提升度或信賴度。 若要計算這些計算量度，請下載 [!DNL Target] [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) 輸入活動值或檢閱的Excel檔案 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
-## 匯出訂單詳細資料至 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL 匯出訂單詳細資料至 CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-「訂單詳細資料」報表會顯示訂單的相關資訊，包括：
+此 [!UICONTROL 訂單詳細資訊] 報表會顯示訂單的相關資訊，包括：
 
 * 訂單日期與時間
 * 訂單金額 (若您插入「下單」mbox)
 
-   只在您有訂單時，「訂單詳細資料」報表才會運作。
+   此 [!UICONTROL 訂單詳細資訊] 只有在您有訂單時，報表才有效。
 
 * 訂單標幟 (重複或巨量訂購)
 
-   如果訂單與上個月資料的平均訂購值 (直到計算完成的時間點為止) 相差超過 +/- 3 個標準偏差，就視為極端訂單。一旦活動執行超過一小時或直到 15 筆訂單之後 (以先到者為準)，活動便會排除其極端訂單。如需詳細資訊，請參閱[排除極端訂單](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
+   如果訂單與平均訂單值的差超過+/- 3個標準差，系統會將其標示為極端。 此計算使用最後一個月的資料（直到進行計算的時間點）。 一旦活動執行超過一小時或直到 15 筆訂單之後 (以先到者為準)，活動便會排除其極端訂單。如需詳細資訊，請參閱[排除極端訂單](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
 
 * 產品 ID
 
-   以逗號串連的產品 ID 總長度不應超過 255 個字元，否則 ID 將無法正確顯示於報表中。例如，如果您的訂單中的產品 ID 為「aa, bb」，則總長度為「aa,bb」= 5。
+   以逗號串連的產品ID總長度不應超過255個字元，否則ID無法在報表中正確顯示。 例如，如果您的訂單中的產品 ID 為「aa, bb」，則總長度為「aa,bb」= 5。
 
 * 體驗
 
@@ -70,20 +70,21 @@ ht-degree: 83%
 >[!NOTE]
 >
 >* 對於預設環境 (主機群組)，訂單報表資料包含四週的資料，而對於所有非預設環境，則包含兩週的資料。
->* 設為「增加計數並讓使用者留在活動中」的收入量度只會記錄相同訪客所下的第一個訂單的訂單詳細資料。所有後續訂單會增加轉換計數，但將不會對 RPV/AOV/銷售額新增收入，且將不會包括在訂單詳細資料報表中。
+>* 設為「[!UICONTROL 增加計數並讓使用者留在活動中]&quot;僅記錄相同訪客所下第一筆訂單的訂單詳細資料。 所有後續訂單都會增加轉換計數，但不會將收入新增至RPV/AOV/銷售，且不會納入 [!UICONTROL 訂單詳細資訊] 報表。
 
 
 ## 最佳實務
 
-* 若要記錄訂單記錄，您必須傳遞 `orderTotal` 參數。
+* 要記錄訂單記錄，請 `orderTotal` 參數。
 * 透過 `ProductPurchasedId` mbox 參數傳遞的值會列在「訂單詳細資料」報表中。
-* 最佳作法是納入 `orderID` 與 `orderTotal`。這樣可以自動忽略重複的訂單。
+* 最佳實務是納入 `orderID` 和 `orderTotal`. 這樣可以自動忽略重複的訂單。
 
 ## 注意事項 {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-下列資訊適用於「下載」選項:
+下列資訊適用於 [!UICONTROL 下載] 選項：
 
-* 您可以下載A/B測試、Automated Personalization、體驗鎖定目標和多變數活動的兩個報表。 對於「建議」活動，您無法下載「成功量度」報表。
-* 對於 Target 15.7.1 版 (2015 年 7 月) 以前建立的 A/B 和「體驗鎖定目標」活動，無法使用「下載」選項。
+* 您可以下載兩個報表 [!UICONTROL A/B測試], [!UICONTROL Automated Personalization], [!UICONTROL 體驗鎖定]，和 [!UICONTROL 多變數] 活動。 您無法下載 [!UICONTROL 成功量度] 報表 [!UICONTROL Recommendations] 活動。
+* 此 [!UICONTROL 下載] 選項不適用於 [!UICONTROL A/B測試] 和 [!UICONTROL 體驗鎖定] 在之前建立的活動 [!DNL Target] 15.7.1版（2015年7月）。
 * 下載的報表中不會記錄沒有相關聯資料的體驗。
-* Target 報表 UI 中套用的受眾不會繼續存在於下載報表中。
+* 套用於 [!DNL Target] 報表UI不會繼續保留至下載報表。
+* 如果活動使用多個量度，則為下載所產生的 .csv 報告會不一致。可下載的報告僅是根據報告設定而產生，並會針對使用的任何其他量度考慮相同的值。真相來源永遠是在 [!DNL Target] UI 中顯示的報告。
