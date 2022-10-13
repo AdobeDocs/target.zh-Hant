@@ -4,9 +4,9 @@ description: 了解如何使用 [!UICONTROL 重要屬性] 顯示影響個人化�
 title: 什麼是「重要屬性」報表？
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ ht-degree: 80%
 * 瞭解哪些屬性對模型的學習方式最重要。
 * 看看個人化模型中使用的屬性及其重要性。
 * 找出您可以傳遞給 Target 之其他資料點的商機，以進一步告知您的個人化。
+
+## 已知問題
+
+下列問題目前正由 [!DNL Target] 工程團隊。
+
+* [!DNL Adobe Experience Platform] 區段名稱不會顯示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自動鎖定目標] (AT) 活動的[!UICONTROL 重要屬性]報告中。(TOP-3813)

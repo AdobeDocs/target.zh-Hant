@@ -4,9 +4,9 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ ht-degree: 100%
 
 以下小節羅列 [!DNL Target] 的已知問題：
 
-### 增強體驗撰寫器 (EEC) 不支援 PUT 要求。
-
-EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。(TGT-41493)
-
-### [!DNL Adobe Experience Platform] 區段名稱不會顯示在[!UICONTROL 重要屬性]報告中。
-
-[!DNL Adobe Experience Platform] 區段名稱不會顯示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自動鎖定目標] (AT) 活動的[!UICONTROL 重要屬性]報告中。(TOP-3813)
-
 ### 封存[!UICONTROL 自動鎖定目標]活動可能會導致同步問題發生
 
 嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。在修正此問題之前，請勿封存[!UICONTROL 自動鎖定目標]活動。請把它們留在[!UICONTROL 非作用中]狀態。(TGT-40885)
-
-### 重新導向選件 {#redirect}
-
-* at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送選件)。您可以使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。此問題不會影響選件的實際傳送。(TGT-23019)
 
 ### 取消在視覺體驗撰寫器 (VEC) 中載入頁面 {#cancel}
 
@@ -86,12 +74,6 @@ EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。
 * at.js 可能無法與 Cordova/混合式應用程式搭配使用，因為它們目前不支援第一方 Cookie。(TNT-26166)
 
    **因應措施**：將 at.js 的「x-only」選項設為已啟用，並在呼叫中傳遞 `mboxThirdPartyId` 以管理使用者。
-
-### 成功量度
-
-將進階選項「計數將如何增加」設為「在每次曝光時」或「在每次曝光時 (不含頁面重新整理)」的成功量度，無法當作另一個量度所相依的成功量度使用。
-
-當成功量度設為在每次曝光時遞增時，Target 會在每次訪客造訪此成功量度時便再次計入訪客。然後 Target 會將成功量度「會員資格」重設為 0，使得它可以在下一次曝光時再次計入。因此，如果其他量度要求先看見此量度，Target 永遠不會將該使用者識別為已看見第一個量度。
 
 ### Analytics for [!DNL Target] (A4T)
 
