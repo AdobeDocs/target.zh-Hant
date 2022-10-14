@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6071d3d73038e9d23eff3e4fb4a5418b231ae23a
+source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 97%
 
 ---
 
@@ -21,9 +21,23 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
+## [!DNL Adobe Target] 社群問答咖啡會
+
+Drew Burns, [!DNL Adobe Target]，將回答 [!DNL Target] 與最新令人興奮的發佈相關的問題，包括最近增強的AI功能智慧和控制，以及所有項目個人化。
+
+* **10月26日星期三**
+* **上午 9:00 至 10:00 (PDT，UTC-7)**
+* **[報名資訊](https://adobe.ly/3e6gqHe){target=_blank}**
+
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
 報名參加以下網絡研討會，了解客戶如何使用 [!DNL Adobe Target] 實現其個人化和最佳化目標：
+
+目前未排程。
+
+## 先前網路研討會和 Skill Builders 研討會錄影
+
+存取先前活動的錄影 (如果可用)：
 
 ### 微調 AI 支援的個人化：[!DNL Adobe Target] 的新功能 (2022 年 10 月 11 日)
 
@@ -31,38 +45,26 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 我們很高興能夠分享 [!DNL Adobe Target] 在大規模個人化方面一些「非常重大」突破性新聞：全新的篩選和情報將能增強 [!DNL Target] 使用者微調 AI 支援的個人化活動的能力，以便就每個活動對最重要的商業量度產生直接的影響。
 
-+++詳細資料
+* [錄製連結](https://video.tv.adobe.com/v/3410117){target=_blank}
 
-這場新產品發表既及時又極為重要，因為我們看到過去幾年來無論是哪個產業，對個人化的需要都逐漸升高。它已成為公司在其整個客戶歷程使其從競爭者中脫穎而出的一種方法。個人化「隨處」都可以發揮功效：從訪客第一次接觸開始，利用贏取使用案例的基本資料，一直到客戶服務和忠誠度使用案例。
+   +++詳細資料
 
-在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
+   這場新產品發表既及時又極為重要，因為我們看到過去幾年來無論是哪個產業，對個人化的需要都逐漸升高。它已成為公司在其整個客戶歷程使其從競爭者中脫穎而出的一種方法。個人化「隨處」都可以發揮功效：從訪客第一次接觸開始，利用贏取使用案例的基本資料，一直到客戶服務和忠誠度使用案例。
 
-* [!UICONTROL Automated Personalization] 和[!UICONTROL 自動鎖定目標]活動中增強的模型控制
-* 釋放從 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 評估設定檔屬性和高值區段的能力
-* 品牌如何能夠藉由微調其 AI 支援的演算法達成更快的速度和決策
-* 獨特的使用案例以實現一對一個人化
+   在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
 
-* **2022 年 10 月 11 日星期二**
-* **下午 1:00 至 2:00 (EDT，UTC -4)**
-* **[詳細資訊和報名資訊](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+   * [!UICONTROL Automated Personalization] 和[!UICONTROL 自動鎖定目標]活動中增強的模型控制
+   * 釋放從 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 評估設定檔屬性和高值區段的能力
+   * 品牌如何能夠藉由微調其 AI 支援的演算法達成更快的速度和決策
+   * 獨特的使用案例以實現一對一個人化
 
 +++
-
-## 先前網路研討會和 Skill Builders 研討會錄影
-
-存取先前活動的錄影 (如果可用)：
 
 ### [!DNL Adobe Target] Skill Builders – AI 驅動的個人化與推薦 (2022 年 9 月 15 日)
 
 實驗和個人化方面的自動化持續為行銷、工程和產品團隊推動最高轉換率和投資報酬率。 參加 [!DNL Adobe] Skill Builders 研討會，了解如何搭配產品與內容推薦使用 [!DNL Adobe Target] 進階 AI 驅動使用案例和功能來保持競爭優勢，並贏得每次的體驗。
 
-+++詳細資料
-
-* **2022 年 9 月 15 日星期四**
-* **下午 1:00 至 2:00 (EDT，UTC -4)**
-* **[詳細資訊和報名資訊](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
+* [錄製連結](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders – 行動體驗最佳化 (2022 年 9 月 6 日)
 
