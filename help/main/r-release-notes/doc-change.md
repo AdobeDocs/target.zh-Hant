@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 10 月 14 日 | [[!DNL Adobe Target]  公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增關於 [!DNL Adobe Target] 社群問答茶歇（2022年10月26日）。 |
 | 10 月 10 日 | [[!UICONTROL Visual Editing Helper] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新文章。 |
-|  | [疑難排解可視化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新「[我的頁面未在 VEC 中顯示 (僅限 VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」區段。 |
+|  | [排解視覺體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新「[我的頁面未在 VEC 中顯示 (僅限 VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」區段。 |
 | 10 月 4 日 | [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新主題。<br>本文資訊取代了&#x200B;*Adobe Target 中 A/B 測試使用的計算* pdf 檔案 (先前可在此網站下載)。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.10.1 版的版本注意事項。 |
 
