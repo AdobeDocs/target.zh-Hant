@@ -4,9 +4,9 @@ description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL 可�
 title: 該如何使用 [!UICONTROL Visual Editing Helper]擴充功能？
 feature: Visual Experience Composer (VEC)
 source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 89%
 
 ## 使用 [!UICONTROL Visual Editing Helper] 擴充功能的好處
 
-* 所有iframe爆破標頭，例如 `X-Frame-Options` 和 `Content-Security-Policy`，則會以隱含的方式從網站中移除。 不需要建立複雜的 Requestly 規則。
+* 所有 iFrame 失敗的標題 (例如 `X-Frame-Options` 和 `Content-Security-Policy`) 都會以隱含的方式從網站中移除。 不需要建立複雜的 Requestly 規則。
 * 如果網頁尚未包含 [!DNL Target] at.js 程式庫，您可以使用此擴充功能來插入此程式庫，這樣就能為網站撰寫體驗。 接著可以使用預覽連結來建立活動及進行 QA。
 
-使用 [增強體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)，擴充功能不會插入at.js，但仍有SameSite Cookie功能存在。 若要在網頁上插入 at.js，請關閉 EEC。
+使用[增強型體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)時，此擴充功能不會插入 at.js，但是 SameSite Cookie 功能依然存在。 若要在網頁上插入 at.js，請關閉 EEC。
 
 * [行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)即使沒有[!UICONTROL 增強型體驗撰寫器] (EEC) 還是有受到支援。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
@@ -56,7 +56,7 @@ ht-degree: 89%
 
    * 如果您嘗試使用無法載入的 VEC 載入網站，則會顯示一則訊息，建議您安裝 [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能。
    * 如果網站上尚未實作 at.js 或 alloy.js，則 VEC 中會顯示一則訊息，建議您安裝此擴充功能。
-* 如果您嘗試使用新的擴充功能，然後返回 [舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 和 [!DNL Target] 無法載入您的網站、清除所有瀏覽器資料並停用新的擴充功能。
+* 如果您嘗試使用新的擴充功能，然後返回[舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，而 [!DNL Target] 無法載入您的網站，請清除所有瀏覽器資料並停用新的擴充功能。
 
 
 
