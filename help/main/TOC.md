@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 97%
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 97%
    + [Target 發行說明 (最新)](r-release-notes/release-notes.md)
    + [Target 發行說明 (發行前)](r-release-notes/target-release-notes.md)
    + [Target 文件概覽](/help/main/r-release-notes/target-documentation.md)
-   + [Target Insider 電子報](/help/main/r-release-notes/target-insider-newsletter.md)
    + [已知問題和已解決問題](r-release-notes/known-issues-resolved-issues.md)
    + [系統狀態更新和主動通知](r-release-notes/system-status-updates.md)
    + [文件變更](r-release-notes/doc-change.md)
@@ -234,7 +233,7 @@ ht-degree: 97%
          + [疑難排解增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [在您的瀏覽器中啟用混合式內容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [頁面修改案例](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [可視化體驗撰寫器 Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重新導向至 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [建立可在可視化體驗撰寫器中運作的輪播](c-experiences/c-visual-experience-composer/vec-carousels.md)
@@ -259,7 +258,7 @@ ht-degree: 97%
       + [排除極端值](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [將資料下載為 CSV 檔案](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 統計方法 {#statistical-methodology}
-      + [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
+      + [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + 個人化報表 {#personalization-reports}
       + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
