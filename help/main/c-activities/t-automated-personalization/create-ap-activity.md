@@ -4,10 +4,10 @@ description: 了解如何建立 [!UICONTROL Automated Personalization] (AP)中�
 title: 如何建立 [!UICONTROL Automated Personalization] 活動？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >雖然您可以在 AP 活動中建立最多 30,000 個體驗，但使用的體驗少於 5,000 個時，活動的執行效能最佳。
+   >雖然您可以在 AP 活動中建立最多 30,000 個體驗，但使用的體驗少於 5,000 個時，活動的執行效能最佳。即使活動已啟用 [!UICONTROL 顯示重複項] 選項。
 
    [!UICONTROL 體驗]清單會顯示為活動選取的每個內容片段，及其獲指派的位置。
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 
    ![管理內容對話方塊的排除群組標籤](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。
+   雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 顯示重複項] 選項。
 
    如果您目前尚未在您的活動中包括任何排除群組，請按一下&#x200B;**「建立排除群組」**。您可以篩選以建立僅顯示您要排除之組合的清單。命名您的排除群組，然後按一下&#x200B;**「儲存」**。
 

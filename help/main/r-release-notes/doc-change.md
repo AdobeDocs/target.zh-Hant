@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 月 18 日 | [[!UICONTROL 建立 Automated Personalization 活動]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字，指出雖然您可以在AP測試中建立最多30,000個體驗，但當使用的不重複體驗少於10,000個時，演算法會執行最佳效果。 即使活動已啟用 [!UICONTROL 顯示重複項] 選項。 |
+|  | [Automated Personalization 常見問題](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新文字，指出雖然您可以在AP測試中建立最多30,000個體驗，但當使用的不重複體驗少於10,000個時，演算法會執行最佳效果。 即使活動已啟用 [!UICONTROL 顯示重複項] 選項。 |
 | 10 月 14 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 [!DNL Adobe Target] 社群問答咖啡會 (2022 年 10 月 26 日) 的資訊。 |
 | 10 月 10 日 | [[!UICONTROL Visual Editing Helper] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新文章。 |
 |  | [排解視覺體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新「[我的頁面未在 VEC 中顯示 (僅限 VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」區段。 |

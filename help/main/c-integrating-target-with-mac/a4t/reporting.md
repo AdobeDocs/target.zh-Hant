@@ -4,10 +4,10 @@ description: 了解如何將Analytics用於 [!DNL Target] (A4T)。 A4T可讓您�
 title: 如何在A4T中使用報表？
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 47%
+source-wordcount: '1312'
+ht-degree: 45%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 47%
 
 ## 執行Adobe Target(A4T)的Analytics離線計算 {#section_B34BD016C8274C97AC9564F426B9607E}
 
-您可以為 A4T 執行離線計算，但是它需要在 [!DNL Analytics] 中進行資料匯出的步驟。
+您可以使用 [!DNL Target] [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) Excel檔案，但需執行以下步驟： [!DNL Analytics].
 
 若為A4T，我們會使用 [韋爾奇的T型](https://en.wikipedia.org/wiki/Welch%27s_t-test)連續變數（而非二進位量度）的{target=_blank}計算。 在 Analytics 中，一律會追蹤訪客，並統計每一個採取的動作。因此，如果訪客多次購物或多次造訪成功量度，這些額外的點閱會納入計算。這會使量度變成連續變數。為了進行Welch的t檢定計算，需要「平方和」來計算方差，用於t統計量的分母。 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) 說明所用數學公式的詳細資訊。 平方和可從 [!DNL Analytics]. 若要取得平方和資料，您需要針對想要最佳化的量度，在樣本期間內執行訪客等級的匯出。
 

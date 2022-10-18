@@ -3,20 +3,20 @@ keywords: 報表；統計方法；統計計算；統計數字；平均值；轉�
 description: 了解手動中使用的統計計算 [!UICONTROL A/B測試] 活動 [!DNL Adobe Target].
 title: 如何了解中使用的統計計算 [!UICONTROL A/B測試] 活動？
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
-# A/Bn測試中的統計計算
+# A/Bn 測試中的統計計算
 
 本文記錄了在 [!DNL Adobe Target]. 提供的定義 [!UICONTROL 轉換率], [!UICONTROL 轉換率的信賴區間], [!UICONTROL 提升度], [!UICONTROL 提升度的信賴區間]，和 [!UICONTROL 信賴度].
 
 >[!NOTE]
 >
->本文中的資訊取代 *Adobe Target A/B測試計算* 之前可在此網站下載的pdf檔案。
+>本文資訊取代了 *Adobe Target 中 A/B 測試使用的計算* pdf 檔案 (先前可在此網站下載)。
 
 ![顯示 [!UICONTROL 轉換率], [!UICONTROL 平均提升度和信賴區間]，和 [!UICONTROL 信賴度] A/B測試活動的區段。](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 [下載的 CSV 報表](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)只包含原始資料，不含計算度量，例如每次造訪帶來的收入、提升度或用於 A/B 測試的信賴度。
 
-若要計算這些統計數量，請下載Target的 [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) 輸入活動值的Excel檔案。
+若要計算這些統計數量，請下載 [!DNL Target] [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) 輸入活動值的Excel檔案。
