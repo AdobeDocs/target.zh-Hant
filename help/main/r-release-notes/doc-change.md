@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 94%
+source-wordcount: '1477'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 月 19 日 | [類別相關性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 已新增附註，說明在單一mbox呼叫內傳遞多個類別時的分數。 |
 | 10 月 18 日 | [[!UICONTROL 建立 Automated Personalization 活動]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字，指出雖然您可以在AP測試中建立最多30,000個體驗，但當使用的不重複體驗少於10,000個時，演算法會執行最佳效果。 即使活動已啟用 [!UICONTROL 顯示重複項] 選項。 |
 |  | [Automated Personalization 常見問題](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新文字，指出雖然您可以在AP測試中建立最多30,000個體驗，但當使用的不重複體驗少於10,000個時，演算法會執行最佳效果。 即使活動已啟用 [!UICONTROL 顯示重複項] 選項。 |
 | 10 月 14 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 [!DNL Adobe Target] 社群問答咖啡會 (2022 年 10 月 26 日) 的資訊。 |
