@@ -4,10 +4,10 @@ description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target]
 title: 如何疑難排解增強體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 39%
+source-wordcount: '469'
+ht-degree: 36%
 
 ---
 
@@ -71,7 +71,3 @@ ht-degree: 39%
 ## 載入已啟用 Proxy 的網站時，我看到逾時或「拒絕存取」錯誤。(僅限 EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 
 確定您的環境中未封鎖 Proxy IP。
-
-## 已知問題
-
-* EEC 的問題使其目前無法支援 PUT 要求，並產生 504 逾時錯誤。(TGT-41493)

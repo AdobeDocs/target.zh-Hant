@@ -4,10 +4,10 @@ description: 尋找有關 Adobe Target 中已知問題的相關資訊，包括�
 title: 何處可以獲得有關 「已知問題」和「已解決問題」的資訊？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
-workflow-type: ht
-source-wordcount: '4229'
-ht-degree: 100%
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
+workflow-type: tm+mt
+source-wordcount: '3974'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,16 @@ ht-degree: 100%
 
 嘗試封存非作用中的[!UICONTROL 自動鎖定目標]活動可能會導致同步問題。在修正此問題之前，請勿封存[!UICONTROL 自動鎖定目標]活動。請把它們留在[!UICONTROL 非作用中]狀態。(TGT-40885)
 
-### 取消在視覺體驗撰寫器 (VEC) 中載入頁面 {#cancel}
-
-* 在包含重新導向 URL 的 VEC 內取消載入 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定] (XT) 活動時，目前存在下列已知問題。
-
-   在其中一個 VEC 引導式工作流程中，當您取消頁面載入時，VEC 中會顯示 [!UICONTROL 修改] 面板，並將重新導向至 URL 範本套用至體驗 (例如「體驗 B」)。當您繼續步驟二或步驟三然後回到步驟一時，會發生下列情況。
-
-   根據預設，在「體驗 B」上，取消的網站載入範本隨即呈現，且可存取[!UICONTROL 修改]面板，但情況不應如此，因為此體驗已套用重新導向至 URL 範本。系統應顯示重新導向至 URL 範本。
-
-   若要在 VEC 中顯示體驗的正確狀態：
-
-   如果您切換至其他體驗，然後切換回「體驗 B」，[!DNL Target] 會顯示此體驗上已套用的重新導向至 URL 範本，且無法存取[!UICONTROL 修改]面板。(TGT-32138)
-
-* 若為單頁應用程式 (SPA) 網站，取消載入不會允許您編輯[!UICONTROL 修改]面板下的動作。
-
 ### Recommendations
 
 下列是 [!UICONTROL Recommendations] 活動的已知問題：
 
 * 當 [!DNL Target] 傳回含 getOffer() 的 JSON 選件時，它會傳回 JSON 類型。然而，如果您傳回 JSON Recommendations 設計，則它會傳回 HTML 類型。
-* 若 60 天內未經由動態消息或 API 收到更新，實體即會確實過期；不過，實體過期之後並未從編目搜尋索引中移除。(IRI-857)
-* 條件與設計的「使用資訊」覆蓋圖無法反映其在 A/B 和體驗鎖定活動中的使用情況 (TGT-34331)
+* 若60天後未透過摘要或API收到更新，實體即會正確過期；不過，過期後不會從目錄搜尋索引中移除過期的實體。 透過摘要或API刪除的實體目前也未從目錄搜尋索引中移除。 (IRI-857)
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
 * 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。(TGT-35777)
 * 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
 * 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896 和 TGT-36173)
-* 標準和設計卡片無法顯示正在使用它們的活動的正確數目。 如果 A/B 活動中使用標準或設計，卡片可能會錯誤地顯示未使用設計或標準，即使活動中使用了設計或標準亦然。(TGT-36621 和 TGT-37217)
 
 ### 多變數測試 (MVT) 活動
 
@@ -93,7 +77,7 @@ ht-degree: 100%
 
 在某些情況下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配]活動的流量分佈，可能不同於根據每個體驗回報的轉換率所應該發生的情況。此問題常發生於回訪訪客流量比例高的活動。(TOP-131)
 
-### at.js 
+### at.js
 
 * 如果您使用 at.js 2.1.1 或更舊版本在不進行任何修改的情況下建立體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，ttMeta 外掛程式可能會無法正常運作。
 
