@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;自動鎖定目標;自動鎖定目標;權限;什麼是adobe target;
-description: 瞭解Adobe [!DNL Target] 標準和Adobe [!DNL Target] 高級。 [!DNL Target]  Premium 包含標準產品中不提供的進階功能。
+description: 了解Adobe的基本知識 [!DNL Target] 標準與Adobe [!DNL Target] Premium。 [!DNL Target]  Premium 包含標準產品中不提供的進階功能。
 landing-page-description: 實現個人化的客戶體驗，協助您在網站和行動網站、應用程式、社交媒體和其他數位頻道上獲得最大收入。
 title: 什麼是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '942'
+ht-degree: 99%
 
 ---
 
