@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ## Target 與 Adobe Experience Cloud 管理員 {#admins}
 
-- [管理 Target](administrating-target/administrating-target.md): 說明如何新增使用者及設定 [!DNL Target] 帳戶。
+- [管理 Target](administrating-target/administrating-target.md)：說明如何新增使用者及設定 [!DNL Target] 帳戶。
 
 ## 分析人員 {#analysts}
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 ## 品質保證工程師 {#qa}
 
-- [活動](c-activities/activities.md): 說明如何設定、管理 [!DNL Target] 活動及確保品質。
+- [活動](c-activities/activities.md)：說明如何設定、管理 [!DNL Target] 活動及確保品質。
 
 ## 其他資源 {#additional}
 
