@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
 source-wordcount: '1477'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 10 月 19 日 | [類別相關性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 已新增附註，說明在單一mbox呼叫內傳遞多個類別時的分數。 |
-| 10 月 18 日 | [[!UICONTROL 建立 Automated Personalization 活動]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字，指出雖然您可以在AP測試中建立最多30,000個體驗，但當使用的不重複體驗少於10,000個時，演算法會執行最佳效果。 即使活動已啟用 [!UICONTROL 顯示重複項] 選項。 |
-|  | [Automated Personalization 常見問題](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新文字，指出雖然您可以在AP測試中建立最多30,000個體驗，但當使用的不重複體驗少於10,000個時，演算法會執行最佳效果。 即使活動已啟用 [!UICONTROL 顯示重複項] 選項。 |
+| 10 月 18 日 | [[!UICONTROL 建立 Automated Personalization 活動]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字以表示雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。 |
+|  | [Automated Personalization 常見問題](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新文字以表示雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。 |
 | 10 月 14 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 [!DNL Adobe Target] 社群問答咖啡會 (2022 年 10 月 26 日) 的資訊。 |
 | 10 月 10 日 | [[!UICONTROL Visual Editing Helper] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新文章。 |
 |  | [排解視覺體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新「[我的頁面未在 VEC 中顯示 (僅限 VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」區段。 |
@@ -49,7 +49,7 @@ ht-degree: 93%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 30 日 | [Adobe Target 開發人員指南](https://developer.adobe.com/target/){target=_blank} | 推出 *Adobe Target 開發人員指南*，將所有[!DNL Target]開發人員內容整合到一個方便的入口網站中。該入口網站包含有關實作 [!DNL Target]和 [!DNL Recommendations]、[!DNL Target] SDK 和 [!DNL Target] API 的資訊。 |
+| 6 月 30 日 | [Adobe Target 開發人員指南](https://developer.adobe.com/target/){target=_blank} | 推出 *Adobe Target 開發人員指南*，將所有 [!DNL Target] 開發人員內容整合到一個方便的入口網站中。該入口網站包含有關實作 [!DNL Target]和 [!DNL Recommendations]、[!DNL Target] SDK 和 [!DNL Target] API 的資訊。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.2 版的版本注意事項。 |
 |  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已添加過去網路研討會的錄制連結。 |
 | 6 月 14 日 | [計劃和實作 Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 更新以下部份的程式碼範例：<ul><li>購物卡新增/購物卡檢視/結帳頁面</li><li>排除已經在訪客購物車中的項目</li></ul> |
@@ -60,7 +60,7 @@ ht-degree: 93%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 6 月 7 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.1 版的搶鮮版資訊。  |
-| 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的[!DNL Adobe Target]社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
+| 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的 [!DNL Adobe Target] 社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
 | 5 月 25 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
 |  | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增關於 at.js 2.9.0 版的資訊。 |
 |  | [使用者代理和用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新主題。 |
@@ -76,7 +76,7 @@ ht-degree: 93%
 | --- | --- | --- |
 | 5 月 10 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.5.1 版的搶鮮版資訊。 |
 | 4 月 28 日 | [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 新增下列常見問題：<ul><li>我能否將受眾從一個工作區移動至另一個工作區？</li></ul> |
-|  | [[!UICONTROL 自動分配]總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 已新增下列常見問題：<ul><li>[!UICONTROL 自動分配]活動能否在測試過程中調整回顧期間以考慮隨時間變化的趨勢？</li><li>如果成功體驗和訪客在取得活動資格時看到的不同，[!UICONTROL 自動分配]是否會向回訪訪客顯示成功體驗？</li></ul> |
+|  | [[!UICONTROL 自動分配]總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 已新增下列常見問題：<ul><li>[!UICONTROL 自動分配] 活動能否在測試過程中調整回顧期間以考慮隨時間變化的趨勢？</li><li>如果成功體驗和訪客在取得活動資格時看到的不同，[!UICONTROL 自動分配] 是否會向回訪訪客顯示成功體驗？</li></ul> |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target Standard/Premium] 22.4.1 和 Target 平台 (2022 年 4 月 27 日) 版本的資訊。 |
 
 ## Adobe Target Standard/Premium 22.4.1 (4 月 5 日)
@@ -88,7 +88,7 @@ ht-degree: 93%
 |  | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 已新增下列章節：<ul><li>從匯出至 Target 的體驗片段中移除 ClientLib 和無關的 HTML</li></ul> |
 | 4 月 21 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增預定在 2022 年 4 月 17 日發行的 [!DNL Target] 平台的搶鮮版資訊。 |
 | 4 月 20 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.4.1 版的搶鮮版資訊。 |
-| 4 月 14 日 | [視覺體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 已在「重新排列」一節中新增資訊，以說明如何透過[!UICONTROL 移動]和[!UICONTROL 重新排列]動作來處理由於延遲載入 DOM 元素所產生的不一致的 VEC 行為。 |
+| 4 月 14 日 | [視覺體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 已在「重新排列」一節中新增資訊，以說明如何透過 [!UICONTROL 移動] 和 [!UICONTROL 重新排列] 動作來處理由於延遲載入 DOM 元素所產生的不一致的 VEC 行為。 |
 | 4 月 13 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答休息時間 (2022 年 4 月 27 日)</li></ul> |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target] 平台版本的版本資訊。 |
 | 4 月 4 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.3.1 版本的資訊。 |
