@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
+source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1488'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 月 25 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.10.3 版的版本注意事項。 |
 | 10 月 19 日 | [類別相關性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 已新增附註，說明在單一mbox呼叫內傳遞多個類別時的分數。 |
 | 10 月 18 日 | [[!UICONTROL 建立 Automated Personalization 活動]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字以表示雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。 |
 |  | [Automated Personalization 常見問題](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新文字以表示雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。 |
