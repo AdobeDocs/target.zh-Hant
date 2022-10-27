@@ -5,9 +5,9 @@ title: 何處可以獲得有關 「已知問題」和「已解決問題」的資
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3974'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 下列是 [!UICONTROL Recommendations] 活動的已知問題：
 
 * 當 [!DNL Target] 傳回含 getOffer() 的 JSON 選件時，它會傳回 JSON 類型。然而，如果您傳回 JSON Recommendations 設計，則它會傳回 HTML 類型。
-* 若60天後未透過摘要或API收到更新，實體即會正確過期；不過，過期後不會從目錄搜尋索引中移除過期的實體。 透過摘要或API刪除的實體目前也未從目錄搜尋索引中移除。 (IRI-857)
+* 若 60 天內未經由動態消息或 API 收到更新，過期的實體即會確實過期；不過，實體過期之後並未從目錄搜尋索引中移除。透過動態消息或 API 刪除的實體目前也不會從目錄搜尋索引中移除。(IRI-857)
 * A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
 * 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。(TGT-35777)
 * 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 在某些情況下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配]活動的流量分佈，可能不同於根據每個體驗回報的轉換率所應該發生的情況。此問題常發生於回訪訪客流量比例高的活動。(TOP-131)
 
-### at.js
+### at.js 
 
 * 如果您使用 at.js 2.1.1 或更舊版本在不進行任何修改的情況下建立體驗 (例如預設體驗)，該體驗可能不會計入報表、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，ttMeta 外掛程式可能會無法正常運作。
 
