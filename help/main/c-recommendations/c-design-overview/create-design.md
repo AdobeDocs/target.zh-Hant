@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 30%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 30%
 
 當演算法執行之後，而且也有結果，則回應會如下所示:
 
-![json_recommendation影像](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation影像](assets/json_recommendation.png){width="575px"}
 
 ## 其他JSON物件提示與秘訣 {#section_C305673C68944749969DB239E3221DC2}
 
