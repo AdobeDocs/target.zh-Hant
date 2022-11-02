@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用優惠方案報表群組 [!DNL Target]
 title: 我可以在Automated Personalization活動中使用選件報表群組嗎？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 47%
+source-wordcount: '698'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 47%
 
 如果您的活動設定沒有足夠的資料可供每個選件建立個人化模型，報表群組可協助減少要使用的資料需求 [!UICONTROL Automated Personalization]. 報表群組也可以藉由分組類似選件來幫助解決新選件的「冷啟動」問題，以便每個模型獲得更多資料以進行訓練。模型群組也可用於定期向AP活動引入新選件的活動。
 
-如果訪客以相同的方式回應群組中的所有選件，則此方法很有效。最佳做法是對類似訪客群組以類似方式回應的選件進行分組。換句話說，群組選件具有類似的轉換率。您永遠不應將所有選件放置在單一報表群組中。將所有選件分組或將具有非常不同轉換率的選件分組，可能會降低 [!DNL Target] 個人化模型。
+如果訪客以相同的方式回應群組中的所有選件，則此方法很有效。最佳做法是對類似訪客群組以類似方式回應的選件進行分組。換句話說，群組選件具有類似的轉換率。您永遠不應將所有選件放置在單一報表群組中。將所有選件分組或以不同轉換率將選件分組可能會降低 [!DNL Target] 個人化模型。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 47%
 
    ![報表群組圖示](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (條件性) 藉由選取相關體驗的核取方塊，然後按一下對話方塊右上角的&#x200B;**[!UICONTROL 「報表群組」]**&#x200B;資料夾圖示，將體驗批次加入報表群組。
+1. （條件性）借由選取相關體驗的核取方塊，然後按一下 **[!UICONTROL 報表群組]** 資料夾表徵圖。
 
    ![報表群組圖示](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -49,9 +49,17 @@ ht-degree: 47%
 
    或
 
-   若要建立新報表群組以將選定選件指派至該群組，請選取&#x200B;**[!UICONTROL 「新增」]**，命名新報表群組，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
+   若要建立報表群組以指派所選選件給，請選取 **[!UICONTROL 新增]**，為新報表群組命名，然後按一下 **[!UICONTROL 套用]**.
 
    ![建立新報表群組的新圖示](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+您可以使用 [!UICONTROL 位置] 清單，依位置篩選選件。 使用[!UICONTROL 「報表群組」]清單，依報表群組篩選選件。您也可以使用[!UICONTROL 「報表群組」]清單，篩選[!UICONTROL 「未指派的選件」]，為目前未指派任何報表群組的選件，指派報表群組。
+
+如需將選件鎖定在特定對象的相關資訊，請參閱 [Target AP選件](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## 注意事項
+
+* 請務必了解報表群組如何影響 [!DNL Target] 建立模型。 因此， [!DNL Adobe] 建議您僅在計畫在活動上線時取代或新增選件時，才使用報表群組。 如果將新選件引入已上線活動中，將新選件放入具有現有類似選件的群組中，電腦就可以使用已針對其群組中其他選件收集的資料來了解新選件。 您永遠不應將所有選件放置在單一報表群組中。
 
 ## 檢視報表群組中的選件
 
