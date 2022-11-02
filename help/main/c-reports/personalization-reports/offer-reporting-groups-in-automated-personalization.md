@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用優惠方案報表群組 [!DNL Target]
 title: 我可以在Automated Personalization活動中使用選件報表群組嗎？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 52%
 >
 >如果從特定模組化群組中移除或替換選件，則也會從模組化群組中刪除看到該特定選件的歷史流量。換言之，已刪除的選件不會對用於 [!DNL Target] 要學習的個人化模型。
 
-**若要設定報表群組:**
+## 設定報表群組
 
 1. 在 **[!UICONTROL 體驗]** AP活動的頁面，按一下 **[!UICONTROL 管理內容]** 表徵圖。
 
@@ -52,3 +52,17 @@ ht-degree: 52%
    若要建立新報表群組以將選定選件指派至該群組，請選取&#x200B;**[!UICONTROL 「新增」]**，命名新報表群組，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
 
    ![建立新報表群組的新圖示](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## 檢視報表群組中的選件
+
+1. 按一下 **[!UICONTROL 活動]**，按一下所需 [!UICONTROL Automated Personalization] 活動，然後按一下 **[!UICONTROL 報表]** 標籤來顯示 [選件層級](/help/main/c-reports/personalization-reports/reports-ap.md) 報表。
+
+   如果您有許多活動，您可以從[!UICONTROL 「類型」]下拉式清單中選取[!UICONTROL 「自動個人化」]，以篩選清單。
+
+1. 按一下 **[!UICONTROL 控制]** 或 **[!UICONTROL 已鎖定]** 在表格中，顯示報表群組內未分組的選件和選件。
+
+   ![選件群組：控制與鎖定](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+如需使用的相關資訊 [!UICONTROL Automated Personalization] 報表(包括 [!UICONTROL 選件層級] )，請參閱 [Automated Personalization摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+

@@ -4,10 +4,10 @@ description: 了解如何解讀Adobe Target中的Automated Personalization摘要
 title: 如何使用Automated Personalization摘要報表？
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 37%
+ht-degree: 31%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 37%
 
 ![活動層級報表](/help/main/c-reports/assets/box_plot_ap.png)
 
-A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、期間等等) 仍然適用。如需解釋結果的相關資訊，請參閱 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、期間等等) 仍然適用。如需解釋結果的相關資訊，請參閱 [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 選件層級報表 {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -48,11 +48,11 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 
 ![Adobe Target中的選件層級報表](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-選件可顯示在報表群組內，而這些報表群組可以折疊和展開。在下拉式清單中選取[!UICONTROL 「報表群組」]，以檢視依報表群組 (而不是依選件) 彙總的資訊。
-
 >[!NOTE]
 >
->時鐘圖示表示演算法模型還在建立中。勾號圖示表示已建立基礎演算法。
+>時鐘圖示表示演算法模型仍在建立中。 勾號圖示表示已建立基礎演算法。
+
+選件可顯示在 [報告群組](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)，且這些報表群組可以收合和展開。 按一下 **[!UICONTROL 控制]** 或 **[!UICONTROL 已鎖定]** ，可依報表群組（而非依選件）檢視匯總資訊。
 
 ## 自動化區段
 
