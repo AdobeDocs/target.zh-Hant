@@ -4,10 +4,10 @@ description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問
 title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 98%
+source-wordcount: '3402'
+ht-degree: 91%
 
 ---
 
@@ -58,16 +58,16 @@ ht-degree: 98%
 * 促銷活動設定的變更最多可能需要五個小時的時間才會反映在網站上。
 * 其他條件設定的變更可能要等到下一次演算法執行後才會反映在網站上。
 
-   * 某些條件設定 (例如「新增動態包含規則」) 會即時反映。
-   * 其他條件設定 (例如「移除動態包含規則」、變更回顧視窗等) 要等到下一次演算法執行後才能併入。
+   * 某些條件設定（例如「新增動態包含規則」）會立即反映。
+   * 其他條件設定（例如「移除動態包含規則」、回顧期間變更等）要等到下次演算法執行時才能納入。
    * 這些變更會觸發演算法執行，但最多可能需要 24 小時的時間才能執行完成。 也會以每 12-24 小時的間隔安排執行演算法。
 
-## 使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*該*&#x200B;使用者收到的建議中？
+## 建議會反映使用者的行為（例如按一下產品A並購買產品B）需要多久的時間 *the* 使用者收到？
 
 * 目前已檢視/已購買的產品/內容會影響使用者在相同頁面檢視/[!DNL Target] 內容要求中所收到的建議。
-* 過去的使用者行為 (例如「上一次檢視的產品」、「檢視次數最多的產品」及整體檢視/購買記錄) 會更新該要求，並影響使用者在下一個頁面檢視/[!DNL Target] 內容要求中收到的建議。 例如，「最近檢視的項目」和「為您推薦的項目」演算法會更新每個產品檢視/購買，並反映在後續的內容要求中。
+* 歷史使用者行為，例如「上次檢視的產品」、「最常檢視的產品」，以及整體檢視/購買歷史記錄會隨該請求更新，並影響使用者在下一個頁面檢視/上收到的建議[!DNL Target] 內容要求。 例如，「最近查看的項目」和「建議給您」演算法會隨著每個產品檢視/購買而更新，並反映在後續的內容請求上。
 
-## 使用者的行為 (例如點擊產品 A 及購買產品 B) 需要多久的時間才會反映在&#x200B;*其他*&#x200B;使用者收到的建議中？
+## 建議會反映使用者的行為（例如按一下產品A並購買產品B）需要多久的時間 *其他* 使用者會收到？
 
 隨著每 12-24 小時執行一次演算法，使用者的行為會以彙整方式併入離線演算法處理中。
 
@@ -128,10 +128,10 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
    ![product_catalog影像](assets/product_catalog.png)
 
-* 索引是最新的嗎？ 請移至[!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的 (例如「3 小時前已編列索引」)。您可以視需要重新整理索引。
+* 索引是最新的嗎？ 轉到o [!DNL /target/products.html#productSearch] 並檢查索引是幾小時以前編列的（例如「3小時前已編列索引」）。 您可以視需要重新整理索引。
 * 您是否更動過摘要或資料層，而導致實體不再符合收集規則？ 請確定「大小寫」相符 (區分大小寫)。
 * 摘要執行成功嗎? 是否有人變更了 FTP 目錄、密碼等？
-* [!DNL Target] 會盡全力讓傳送的更新 (在客戶的頁面/應用程式上) 盡快進行。 然而，[!DNL Target] 還是必須在 UI 上為行銷人員提供一些表示法。 [!DNL Target] 不會為了等待 UI 更新同步而延遲傳送更新。 您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
+* [!DNL Target] 會盡可能快地對傳送進行更新（在客戶的頁面/應用程式上）。 然而，[!DNL Target] 還是必須在 UI 上為行銷人員提供一些表示法。 [!DNL Target] 不會為了等待 UI 更新同步而延遲傳送更新。 您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
 
 ## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異？  {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -143,7 +143,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 「內容相似度屬性加權」僅適用於內容相似度條件。
 
-這種加權較動態，而且是根據目前的「建議金鑰」(目前檢視的項目)。在下列範例中 (品牌 x 16)，如果訪客在檢視 Nike 運動鞋，就很可能向該訪客建議其他 Nike 產品 (不一定是運動鞋)，而不是競爭者的運動鞋。如果訪客在檢視 Adidas 運動鞋，則很可能向該訪客建議 Adidas 產品。
+此類型的加權更具動態性，且以目前的「建議索引鍵」（目前檢視的項目）為基礎。 在下列範例（品牌x 16）中，如果訪客檢視的是Nike運動鞋，該訪客更可能被建議為其他Nike產品（不一定只是運動鞋），而非競爭者的運動鞋。 如果訪客在檢視 Adidas 運動鞋，則很可能向該訪客建議 Adidas 產品。
 
 ![content_simility_example影像](assets/content_similarity_example.png)
 
@@ -250,8 +250,8 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 一些媒體和出版業客戶想確保推薦項目僅包含最新的文章或影片。例如，[!DNL Target] 客戶使用以下方法，推薦 60 天內的文章：
 
 1. 以 YYMMDDD 格式傳遞文章發佈日期，作為自訂實體屬性。
-1. 建立一個設定檔指令碼，將今天的日期減去 60 天，同樣是 YYYYMMDD 格式。
-1. 在條件中使用動態包含篩選器，讓 `publish date > today’s date minus 60 days`。
+1. 建立當天減去60天的設定檔指令碼，並以YYYYMMDD格式顯示。
+1. 在條件中使用動態包含篩選器，讓 `publish date > today's date minus 60 days`。
 
 ### 傳遞文章發佈日期作為自訂實體屬性：
 
@@ -274,3 +274,14 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 >[!NOTE]
 >
 >此範例也可以使用參數比對並將 `priorDate60` 值作為 mbox 參數傳遞來完成。
+
+### 使用 [!DNL Recommendations] 活動？
+
+下列是 [!UICONTROL Recommendations] 活動的已知問題：
+
+* 當 [!DNL Target] 傳回含 getOffer() 的 JSON 選件時，它會傳回 JSON 類型。然而，如果您傳回 JSON Recommendations 設計，則它會傳回 HTML 類型。
+* 若 60 天內未經由動態消息或 API 收到更新，過期的實體即會確實過期；不過，實體過期之後並未從目錄搜尋索引中移除。透過動態消息或 API 刪除的實體目前也不會從目錄搜尋索引中移除。(IRI-857)
+* A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
+* 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。(TGT-35777)
+* 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
+* 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896 和 TGT-36173)

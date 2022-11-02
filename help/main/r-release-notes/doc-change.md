@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 11 月 2 日 | 已知問題和已解決問題 | 移除頁面，並將相關問題重新放置到適當的頁面，以便讓資訊在內容中顯示。 |
 | 10 月 25 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.10.3 版的版本注意事項。 |
 | 10 月 19 日 | [類別相關性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 新增註解，說明在單一 mbox 呼叫中傳遞多個類別時的評分。 |
 | 10 月 18 日 | [[!UICONTROL 建立 Automated Personalization 活動]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字以表示雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。 |
@@ -103,7 +104,6 @@ ht-degree: 100%
 | 3 月 22 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 客戶工程修正版本的版本資訊。 |
 |  | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.3.1 版的搶鮮版資訊。 |
 | 3 月 17 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 客戶工程修正版本的搶鮮版資訊。 |
-| 3 月 9 日 | [已知問題和已解決問題](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 新增下列已知問題：<ul><li>在使用表單式體驗撰寫器建立的活動中刪除擁有臨時優惠方案的位置</li></ul> |
 |  | [mbox3rdPartyId 的即時個人資料同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 已更新有關個人資料同步的以下句子：「每 5 到 10 分鐘會和個人資料存放區同步更新。」 |
 | 3 月 8 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答休息時間 (2022 年 3 月 30 日)</li></ul> |
 | 3 月 7 日 | [建立受眾](/help/main/c-target/c-audiences/audiences.md#aep) | 在「使用來自 [!DNL Adobe Experience Platform] 的受眾」底下新增一節：<ul><li>Personalization 使用案例</li></ul> |

@@ -1,25 +1,25 @@
 ---
-keywords: 視覺體驗作曲家；vec;wysiwy
-description: 瞭解在Adobe Target使用Visual Experience Composer(VEC)的基本知識。 VEC是WYSIWYG編輯器，可讓您輕鬆建立個性化體驗。
-title: 如何使用Visual Experience Composer(VEC)?
+keywords: 可視化體驗撰寫器； VEC;wysiwyg
+description: 了解在Adobe Target中使用可視化體驗撰寫器(VEC)的基本知識。 VEC是WYSIWYG編輯器，可讓您輕鬆建立個人化體驗。
+title: 如何使用可視化體驗撰寫器(VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1364'
 ht-degree: 92%
 
 ---
 
 # 可視化體驗撰寫器 (VEC)
 
-有關使用 [!UICONTROL 視覺體驗作曲家] (VEC) [!DNL Adobe Target]。
+使用 [!UICONTROL 可視化體驗撰寫器] (VEC) [!DNL Adobe Target].
 
-VEC是WYSIWYG用戶介面，使您能夠輕鬆建立和test站點上下文中的個性化體驗和服務。 您可以拖放、切換及修改網頁 (或選件) 或行動網頁的版面與內容，藉此建立 Target 活動的體驗和選件。
+VEC是WYSIWYG使用者介面，可讓您輕鬆建立和測試網站內容中的個人化體驗和選件。 您可以拖放、切換及修改網頁 (或選件) 或行動網頁的版面與內容，藉此建立 Target 活動的體驗和選件。
 
 VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 可讓行銷人員和設計人員使用視覺化介面來建立和變更內容。您可以進行許多設計選擇，而不需直接編輯程式碼。您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
 
-在目標上 **[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗作曲家]** 頁籤，可以輸入預設的視覺體驗作曲家URL。
+在目標上 **[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]** 索引標籤，您可以輸入預設可視化體驗撰寫器URL。
 
 ![預設 VEC URL 設定](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -104,22 +104,18 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 可讓行銷人員
 
 ![重新載入按鈕](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
->[!NOTE]
->
->此功能目前有已知問題，將於下一個版本中修正。如需詳細資訊，請參閱[已知問題和已解決的問題](/help/main/r-release-notes/known-issues-resolved-issues.md#cancel)頁面上的「在 VEC 內取消載入頁面」。
-
-## 訓練影片
+## 培訓影片
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### Visual Experience作曲家（共2個之一）(7:17) ![教程徽章](/help/main/assets/tutorial.png)
+### 可視化體驗撰寫器（第1個，共2個）(7:17) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 * 變更頁面的內容
 * 變更頁面的配置
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience作曲家（共2個）(7:29) ![教程徽章](/help/main/assets/tutorial.png)
+### 可視化體驗撰寫器(2/2)(7:29) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 * 重新命名和複製體驗
 * 建立重新導向體驗
@@ -130,7 +126,7 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 可讓行銷人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 辦公時間：視覺體驗作曲家 ![教程徽章](/help/main/assets/tutorial.png)
+### 營業時間：可視化體驗撰寫器 ![教學課程徽章](/help/main/assets/tutorial.png)
 
 這支影片記錄了「[營業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，這是一項 Adobe 客戶服務團隊主導的計劃。
 
