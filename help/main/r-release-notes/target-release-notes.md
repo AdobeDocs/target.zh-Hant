@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 98%
+source-wordcount: '420'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 98%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!DNL Recommendations] | 在 [!UICONTROL Analytics for Target] A4T 報告中新增易記名稱。之前，[!DNL Target] 僅列出體驗 ID。此增強功能使報告在 [!DNL Adobe Analytics] 和 [!DNL Target] 之間保持一致，並幫助客戶簡化在 A4T 中建立報告。(TGT-41853) |
 | 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]<br>最佳化 A4T 量度 (可供特定客戶進行測試。將在未來版本中提供給所有客戶。) | 請注意下列變更：<ul><li>針對 [!UICONTROL Analytics for Target] A4T 報告中的[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動，新增對二進位和最大化量度的支援</li><li>保留現有活動的行為，直到 2023 年 2 月。在此日期之後，將停止活動以強制現有活動遷移至新行為</li><li>從 2023 年 2 月 20 日開始，將不再支援 [!DNL Target] 活動中的 `averagetimespentonsite`、 `bouncerate` 和 `entries` 量度。</li></ul> |
 
 * 在 [!DNL Target] UI 中新增工具提示，以幫助客戶更有效地瀏覽對象產生器，並了解如何使用不熟悉的功能。(TGT-44139)
