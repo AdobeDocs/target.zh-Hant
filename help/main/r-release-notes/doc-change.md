@@ -5,9 +5,9 @@ title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 11 月 2 日 | 已知問題和已解決問題 | 移除頁面，並將相關問題重新放置到適當的頁面，以便讓資訊在內容中顯示。 |
+| 11 月 2 日 | 已知問題和已解決問題 | 已移除頁面並將相關問題重新放置到適當頁面，以便資訊出現在內文中。 |
 | 10 月 25 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.10.3 版的版本注意事項。 |
 | 10 月 19 日 | [類別相關性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 新增註解，說明在單一 mbox 呼叫中傳遞多個類別時的評分。 |
 | 10 月 18 日 | [[!UICONTROL 建立 Automated Personalization 活動]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新文字以表示雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。 |
