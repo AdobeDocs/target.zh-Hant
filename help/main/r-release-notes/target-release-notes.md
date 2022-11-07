@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 97%
 * 在 [!DNL Target] UI 中新增工具提示，以幫助客戶更有效地瀏覽對象產生器，並了解如何使用不熟悉的功能。(TGT-44139)
 * 新增功能，此功能可防止客戶編輯因使用不受支援的量度而被 [!DNL Target] 停用的活動。UI 中的訊息，可指引客戶複製活動，然後更新轉換量度。
 
-   在此版本中，[!DNL Target] 活動中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 量度，新活動將停止使用。在2023年5月之前，現有活動可繼續使用這些量度。
+   在此版本中，[!DNL Target] 活動中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 量度，新活動將停止使用。現有活動可以繼續使用這些量度直到 2023 年 5 月。
 
-* 在 [!DNL Target] UI 中新增工具提示，以幫助客戶在建立或編輯使用 A4T 的[!UICONTROL 自動鎖定目標]活動時選擇最佳化條件。
+* 在 [!DNL Target] UI 中新增工具提示，以幫助客戶在建立或編輯使用 A4T 的[!UICONTROL 自動鎖定目標]活動時選取最佳化準則。
 
 ## 額外的版本注意事項和版本詳細資料
 
