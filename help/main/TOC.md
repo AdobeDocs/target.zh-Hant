@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 98%
@@ -134,6 +134,7 @@ ht-degree: 98%
       + [預覽 Automated Personalization 測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [鎖定 Automated Personalization 選件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Automated Personalization 中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization 常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [使用體驗預覽 URL 預覽 Automated Personalization 活動](c-activities/t-automated-personalization/experience-preview.md)
@@ -261,7 +262,6 @@ ht-degree: 98%
    + 個人化報表 {#personalization-reports}
       + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
-      + [Automated Personalization 中的選件報表群組](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + 個人化前瞻分析報表 {#insights}
       + [個人化前瞻分析報表概覽](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動化區段報表](c-reports/c-personalization-insights-reports/automated-segments-report.md)

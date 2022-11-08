@@ -4,7 +4,7 @@ description: 了解如何建立 [!UICONTROL Automated Personalization] (AP)中�
 title: 如何建立 [!UICONTROL Automated Personalization] 活動？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 61%
@@ -88,7 +88,7 @@ ht-degree: 61%
 
 1. (依條件) 按一下&#x200B;**[!UICONTROL 「選件」]**，選取內容片段並將它們指派給報表群組，或只允許特定訪客查看特定具有鎖定目標的選件。
 
-   如需報告群組的詳細資訊，請參閱 [Automated Personalization中的選件報表群組](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   如需報告群組的詳細資訊，請參閱 [Automated Personalization中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (依條件) 按一下&#x200B;**[!UICONTROL 「排除群組」]**&#x200B;來選擇您要從活動中排除的任何元素組合。
 

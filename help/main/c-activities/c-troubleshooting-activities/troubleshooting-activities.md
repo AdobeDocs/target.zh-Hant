@@ -4,10 +4,10 @@ description: 如果您的 Adobe [!DNL Target] 活動未出現在網站上，請�
 title: 如何疑難排解活動？
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 50%
 
 ---
 
@@ -19,28 +19,28 @@ ht-degree: 100%
 >
 >除了下列疑難排解資訊，請參閱[疑難排解 Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 中提供的連結，取得其他疑難排解主題、常見問答和疑難排解活動與其他 [!DNL Adobe Target] 功能的其他實用資訊。
 
-以下各節包含您可能會遇到的問題，並提供建議的解決方案。
+以下章節包含您可能遇到的問題，並提供建議的解決方案。
 
 ## 我使用 [!DNL Target] UI 建立了一個活動，但無法透過 API 更新它。
 
-使用 Target UI 建立的活動應透過 Target UI 更新。透過 API 建立的活動應透過 API 更新。例如，如果您最初使用 API 建立活動，但稍後透過 Target UI 編輯活動，則不會所有變更都更新。所有變更都儲存在後端，並可進行其他 API 呼叫來更新。
+使用 [!DNL Target] UI應透過 [!DNL Target] UI。 透過 API 建立的活動應透過 API 更新。例如，如果您最初是使用API建立活動，之後又透過 [!DNL Target] UI，並非所有變更都已更新。 所有變更都會儲存在後端，並可透過進行其他API呼叫來更新。
 
 最佳實務是嘗試使用與原始建立活動相同的方法 (UI 或 API) 來更新活動。
 
 ## 您看到的是預設內容。
 
-請確定活動已完成且已啟動。
+請確定您的活動已完成且已啟動。
 
 ## 活動未上線。
 
-**驗證:** 前往「概覽」標籤，查看測試是否標示為非使用中或草稿。
+**驗證：** 前往 [!UICONTROL 概述] ，查看測試是否標示為非使用中或草稿。
 
 **選項:**
 
 * 啟動測試。
 * 使用「預覽連結」來顯示非使用中的測試。
 
-## 您不符合對象鎖定目標條件。
+## 您不符合對象鎖定目標條件的資格。
 
 **驗證：**&#x200B;檢閱概覽頁面上的鎖定目標條件。
 
@@ -49,13 +49,13 @@ ht-degree: 100%
 * 設法符合資格，然後再試一次。
 * 使用「預覽連結」以避開鎖定目標條件。
 
-## 頁面不符合頁面鎖定目標條件。
+## 頁面不符合頁面定位條件。
 
-**驗證：**&#x200B;在概覽頁面上，判斷頁面是否落在鎖定目標條件之外。
+**驗證：** 在 [!UICONTROL 概述] 頁面，判斷頁面是否落在定位條件之外。
 
 **選項:**
 
-* 前往可視化體驗撰寫器，按一下「URL > 進階 > [目前頁面]」。
+* 前往 [!UICONTROL 可視化體驗撰寫器]，按一下「URL >進階>目前頁面」。
 
 ## 出現上一個體驗，而非新的體驗。
 
@@ -64,51 +64,50 @@ ht-degree: 100%
 **選項:**
 
 * 清除快取和 Cookie，然後再試一次。
-
 * 嘗試不同瀏覽器。
 * 使用私人/無痕模式。
 
 ## 您最近已加入 [!DNL Target] 但無法建立活動。
 
-**驗證:**&#x200B;按一下「建立活動」。如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
+**驗證:**&#x200B;按一下[!UICONTROL 「建立活動」]。如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
 
 **選項:**
 
-當您加入 Target 中成為使用者時，需要具有「核准者」角色，才能建立活動。
+將您新增為 [!DNL Target]，您需要 [!UICONTROL 核准者] 角色來建立活動。
 
-* 請要求帳戶的管理員將您變成「核准者」。
-* 如果您是管理員，請在 Target 中從&#x200B;**[!UICONTROL 「管理」]** > **[!UICONTROL 「使用者」]**&#x200B;為自己指定的「核准者」角色。
+* 請您帳戶的管理員將您設為核准者。
+* 如果您是管理員，請自行 [!UICONTROL 核准者] 角色從 **[!UICONTROL 管理]** > **[!UICONTROL 使用者]** in [!DNL Target].
 
    請參閱[將核准者角色指派給您自己](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
 ## 頁面的結構自從設定活動後已變更。
 
-**驗證:** 前往可視化體驗撰寫器來查看現有活動。尋找指出選取器 (或結構) 已變更的警告訊息。
+**驗證:**[!UICONTROL  前往可視化體驗撰寫器來查看現有活動。]尋找指出選取器 (或結構) 已變更的警告訊息。
 
 **選項:**
 
 * 重建活動。
 
-如需關於頁面修改如何影響 Target 顯示功能的資訊，請參閱[頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如需頁面修改如何影響的詳細資訊 [!DNL Target]的顯示能力，請參閱 [頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## 頁面的結構在頁面載入期間 (執行階段) 已修改。
 
 **驗證:** 詢問開發人員。
 
-**注意:** 為了讓 Target 辨識應該在何處套用活動變更，請避免動態插入相同類別的元素，或動態修改任何同層級的類別。
+**注意：** 為了 [!DNL Target] 若要識別應套用活動變更的位置，請避免動態插入具有相同類別的元素，或動態修改任何同級的類別。
 
 **選項:**
 
-* 更新頁面程式碼 (使用 ID) 來唯一識別每個將測試的元素。
+* 更新頁面程式碼以唯一識別每個測試的元素（使用ID）。
 * 如上所述，停止動態修改類別或同層級。
 
-如需關於頁面修改如何影響 Target 顯示功能的資訊，請參閱[頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如需頁面修改如何影響的詳細資訊 [!DNL Target]的顯示能力，請參閱 [頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## 其他活動正在相同頁面上執行。
 
-**驗證:** 使用「衝突」標籤查看其他活動是否正在執行。
+**驗證：** 使用 [!UICONTROL 衝突] 標籤，查看其他活動是否執行中。
 
-**注意:**「衝突」標籤不適用於「範本測試」模組。
+**注意:**[!UICONTROL 「衝突」標籤不適用於「範本測試」模組。]
 
 **選項:**
 
@@ -118,19 +117,25 @@ ht-degree: 100%
 
 ## 刪除設定檔指令碼時出現錯誤訊息。
 
-**驗證:** 從 Target Standard/Premium 中刪除設定檔指令碼時，會顯示錯誤訊息「無法刪除設定檔指令碼」。
+**驗證:**[!DNL Target] 從 中刪除設定檔指令碼時，會顯示錯誤訊息「無法刪除設定檔指令碼」。
 
 **選項:**
 
 進行以下一項操作：
 
-* 再刪除一次。出現成功訊息。
-* 等待大約 10 分鐘，讓 Target Standard/Premium 匯入器執行。匯入器會更新設定檔指令碼清單。
+* 再次刪除設定檔指令碼。 出現成功訊息。
+* 等10分鐘 [!DNL Target] 匯入工具。 匯入器會更新設定檔指令碼清單。
 
 ## 有些 ajax [!DNL Target] 呼叫無法運作。
 
-**注意:**[!DNL Target] 具有相同 名稱但不同參數的多個 ajax 呼叫將無法在相同頁面上運作。僅會發出第一次呼叫。
+**注意：** 多個ajax [!DNL Target] 具有相同名稱但不同參數的呼叫無法在相同頁面上運作。 只會進行第一次呼叫。
 
 ## 您已使用 [!DNL Target] API 來啟動活動，但活動在 [!DNL Target] UI 中顯示「[!UICONTROL 非使用中]」狀態。
 
-當您執行特定動作時 (例如在 UI 外部使用 Target API 來啟動活動)，更新作業最多可能需要 10 分鐘才會傳播至 UI。
+執行特定動作時，例如在UI外部使用 [!DNL Target] API，更新最多可能需要10分鐘才會傳播至UI。
+
+## 活動轉換後，訪客不在任何體驗中。
+
+如果活動的轉換量度符合體驗的資格，則會傳送至相同的 [!DNL Target] 要求作為活動資格，則在傳送要求後，訪客可能不在任何體驗中。 在此情況下，訪客會看到預設內容。 [!DNL Adobe] 建議不要在相同請求中傳送活動轉換和資格。
+
+如果您想在相同請求中傳送這兩項設定，可以使用 [!UICONTROL 進階設定] 指定訪客在轉換後停留在相同體驗。

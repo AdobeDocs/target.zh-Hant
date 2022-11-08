@@ -4,10 +4,10 @@ description: 針對使用Analytics時使用重新導向選件的問題，尋找�
 title: 哪裡可以找到有關使用A4T重新導向選件的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 52%
+source-wordcount: '1456'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 52%
 
 | 參數 | 說明 |
 |--- |--- |
-| `adobe_mc_sdid` | 此 `adobe_mc_sdid` 參數會將補充資料ID(SDID)和Experience Cloud組織ID從預設頁面傳給新頁面。 這些ID可讓A4T將預設頁面的Target要求與新頁面的Analytic要求「縫合」起來。 |
+| `adobe_mc_sdid` | 此 `adobe_mc_sdid` 參數會將補充資料ID(SDID)和Experience Cloud組織ID從預設頁面傳給新頁面。 這些ID可讓A4T將預設頁面的Target要求與新頁面的Analytic要求「縫合」起來。<br>在URL中傳遞sdid的預期格式（適用於混合式應用程式，或從一個應用程式傳遞至網站或從一個網站傳遞至另一個）為 `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | `adobe_mc_ref` 參數會將預設頁面的轉介 URL 傳給新頁面。與AppMeasurement.js 2.1版（或更新版本）搭配使用時，Analytics會在新頁面上將此參數值當作轉介URL。 |
 
 在 VEC 和表單式體驗撰寫器中使用重新導向選件，且頁面上實作訪客 ID 服務時，這些參數會自動加入重新導向 URL 中。如果在 VEC 和表單式撰寫器中使用您自己的自訂重新導向程式碼，務必隨著自訂程式碼傳遞這些參數。

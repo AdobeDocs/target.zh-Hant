@@ -5,7 +5,7 @@ title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -163,7 +163,7 @@ ht-degree: 96%
 
 * **上限**：250 個字元。
 
-### mbox 參數
+### mbox 參數 {#mbox-parameters}
 
 * **上限**：下列上限適用於 mbox 參數:
 
@@ -192,7 +192,7 @@ ht-degree: 96%
    * 設定檔參數 50
    * 設定檔參數名稱最大長度 128
    * 設定檔參數值不能為 null
-   * 設定檔參數值最大長度 5000
+   * 設定檔參數值最大長度 256
 
    **傳送 API 端點：**
 
@@ -203,7 +203,7 @@ ht-degree: 96%
    * 設定檔參數 50
    * 設定檔參數名稱最大長度 128
    * 設定檔參數值不能為 null
-   * 設定檔參數值最大長度 5000
+   * 設定檔參數值最大長度 256
 
 
 

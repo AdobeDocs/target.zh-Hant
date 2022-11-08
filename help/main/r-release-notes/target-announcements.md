@@ -4,9 +4,9 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: ht
-source-wordcount: '1927'
+source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
+workflow-type: tm+mt
+source-wordcount: '1876'
 ht-degree: 100%
 
 ---
@@ -20,14 +20,6 @@ ht-degree: 100%
 Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。在所有接受評估的供應商中，針對我們的測試能力，[!DNL Target] 收到最高分。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
-
-## [!DNL Adobe Target] 社群問答咖啡會
-
-Drew Burns，[!DNL Adobe Target] 的集團產品行銷經理，將回答您的 [!DNL Target] 問題，這些問題與最新的令人興奮的公告有關，即最近增強的 AI 功能的智慧和控制能力，以及所有事物的個人化。
-
-* **10 月 26 日星期三**
-* **上午 9:00 至 10:00 (PDT，UTC-7)**
-* **[報名資訊](https://adobe.ly/3e6gqHe){target=_blank}**
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
