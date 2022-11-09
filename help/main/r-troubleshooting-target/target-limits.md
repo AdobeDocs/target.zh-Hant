@@ -5,7 +5,7 @@ title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -192,7 +192,7 @@ ht-degree: 96%
    * 設定檔參數 50
    * 設定檔參數名稱最大長度 128
    * 設定檔參數值不能為 null
-   * 設定檔參數值最大長度 256
+   * 設定檔參數值最大長度 5000
 
    **傳送 API 端點：**
 
@@ -203,7 +203,7 @@ ht-degree: 96%
    * 設定檔參數 50
    * 設定檔參數名稱最大長度 128
    * 設定檔參數值不能為 null
-   * 設定檔參數值最大長度 256
+   * 設定檔參數值最大長度 5000
 
 
 

@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 93%
+source-wordcount: '1596'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,6 @@ ht-degree: 93%
 |  | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 更新 `adobe_mc_sdid` 參數。 |
 |  | [疑難排解活動](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 新增章節：「活動轉換後，訪客不在任何體驗中。」 |
 |  | [自訂參數](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 新增您從 [!UICONTROL 篩選依據] 建立活動時不會儲存下拉式清單。 此選項可讓您根據選取的mbox來篩選參數。 |
-|  | [目標限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | 修正設定檔參數值的最大長度。 上限為256個字元。 |
 | 11 月 2 日 | 已知問題和已解決問題 | 已移除頁面並將相關問題重新放置到適當頁面，以便資訊出現在內文中。 |
 | 10 月 25 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.10.3 版的版本注意事項。 |
 | 10 月 19 日 | [類別相關性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 新增註解，說明在單一 mbox 呼叫中傳遞多個類別時的評分。 |

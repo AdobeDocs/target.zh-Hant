@@ -4,9 +4,9 @@ description: 如果您的 Adobe [!DNL Target] 活動未出現在網站上，請�
 title: 如何疑難排解活動？
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '863'
 ht-degree: 50%
 
 ---
@@ -136,6 +136,6 @@ ht-degree: 50%
 
 ## 活動轉換後，訪客不在任何體驗中。
 
-如果活動的轉換量度符合體驗的資格，則會傳送至相同的 [!DNL Target] 要求作為活動資格，則在傳送要求後，訪客可能不在任何體驗中。 在此情況下，訪客會看到預設內容。 [!DNL Adobe] 建議不要在相同請求中傳送活動轉換和資格。
+在少數情況下，如果活動的轉換量度符合體驗資格是在與活動資格相同的請求中傳送，則訪客在傳送請求後可能不會在任何體驗中。 在此情況下，訪客會看到預設內容，透過Token擷取的體驗ID會是–1。 [!DNL Adobe] 不建議在相同的傳送活動資格和轉換 [!DNL Target] 請求。
 
-如果您想在相同請求中傳送這兩項設定，可以使用 [!UICONTROL 進階設定] 指定訪客在轉換後停留在相同體驗。
+如果您想在相同請求中傳送兩個量度，可以使用 [!UICONTROL 進階設定] 指定訪客在轉換後停留在相同體驗。
