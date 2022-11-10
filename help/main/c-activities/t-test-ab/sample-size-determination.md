@@ -4,10 +4,10 @@ description: 了解A/B測試的執行時間。 成功的A/B測試Adobe [!DNL Tar
 title: A/B測試該執行多久？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 58%
+source-wordcount: '3088'
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 58%
 
 如果您選擇使用手動 [!UICONTROL A/B測試] 活動而非 [!UICONTROL 自動分配], [!DNL Target] 樣本大小電腦可協助您判斷成功測試所需的樣本大小。 手動A/B測試是固定水準測試，因此計算器很有幫助。 使用計算器 [!UICONTROL 自動分配] 活動是選用項目，因為 [!UICONTROL 自動分配] 宣佈獲勝者。 計算器可提供所需樣本大小的粗略估計。 如需有關如何使用此計算機的詳細資訊，請繼續閱讀。
 
-設定A/B測試前，請先存取Adobe Target [樣本大小計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
+設定A/B測試前，請先存取 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Adobe Target 樣本大小計算機](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ ht-degree: 58%
 
 >[!IMPORTANT]
 >
->若要取得準確結果，您必須先重新載入頁面，才能變更任何參數編號。
-
+>若要取得準確結果，您必須先重新載入頁面，才能變更任何參數編號。 每次更改任何參數編號時，重複此過程。
 
 在 A/B 測試中，統計顯著性、統計檢定力、最低可靠偵測提升度及基準轉換率由分析師設定，然後從這些數目算出必要的訪客數目。本文探討這些元素，並提供如何針對特定測試判斷這些量度的准則。
 

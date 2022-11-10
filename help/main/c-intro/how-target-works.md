@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 如何運作，包括 JavaScript 資料
 title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 0d00315b7460a36aceaa4d4d0ce4bb5402824c73
-workflow-type: ht
-source-wordcount: '2568'
-ht-degree: 100%
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+workflow-type: tm+mt
+source-wordcount: '2583'
+ht-degree: 98%
 
 ---
 
@@ -178,7 +178,7 @@ Google 鼓勵使用者測試。Google 在其文件中表示，如果您遵循某
 
    [!DNL Adobe] 持續尋找可行的解決方案，以完全符合搜尋引擎的方針。對於必須將個別 URL 用於測試的客戶而言，[!DNL Adobe] 有信心正確實作標準標籤可以減輕使用此方法的相關風險。i
 
-* **僅在需要時進行實驗**：[!DNL Adobe] 將「僅在需要時」視為只要達到統計顯著性所需。[!DNL Target][ 提供最佳做法](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)來判斷測試何時達到此點。[!DNL Adobe] 建議將成功測試寫入程式碼的實作納入測試工作流程中，並分配適當的資源。
+* **僅在需要時進行實驗**：[!DNL Adobe] 將「僅在需要時」視為只要達到統計顯著性所需。[!DNL Target] 提供最佳實務，並 [!DNL Adobe Target] [樣本大小電腦] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)，以判斷測試何時達到此點。 [!DNL Adobe] 建議將成功測試寫入程式碼的實作納入測試工作流程中，並分配適當的資源。
 
    不建議使用 [!DNL Target] 平台來「發佈」成功測試作為永久解決方案。如果成功測試是針對 100% 的使用者發佈，則此方法可在永久編碼成功測試的過程完成時使用。
 

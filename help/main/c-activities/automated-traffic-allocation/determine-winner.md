@@ -4,9 +4,9 @@ description: 了解如何解讀Adobe中自動分配A/B活動的結果 [!DNL Targ
 title: 如何解譯自動分配報表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1222'
 ht-degree: 44%
 
 ---
@@ -47,7 +47,7 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
 >[!IMPORTANT]
 >
->Target會在預先定義的最低轉換次數之後顯示獲勝者；不過，挑選獲勝者的最終決定應始終取決於Adobe Target的結果 [樣本大小計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). Target不會考慮網站的基本轉換率，以及提供給計算器以決定活動持續時間的其他重要方面。 因此，Target可能會根據最低轉換次數，顯示比保證更早的獲勝者。 如需詳細資訊，請參閱 [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target會在預先定義的最低轉換次數之後顯示獲勝者；不過，挑選獲勝者的最終決定應一律取決於 [!DNL Adobe Target] 樣本大小電腦。 [!DNL Target] 不會考慮網站的基本轉換率，以及輸入計算器以判斷活動持續時間的其他重要方面。 因此，Target可能會根據最低轉換次數，顯示比保證更早的獲勝者。 如需詳細資訊，請參閱 [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## 了解自動分配活動中的提升度和可信度報表 {#lift-confidence}
 
@@ -75,7 +75,8 @@ A/B 活動結束時，「自動分配」會保證決定的獲勝者有 5% 的有
 
    自動分配顯示在活動的所有體驗之中，所給定體驗是真正獲勝者的機率。這表示只有勝出體驗 (很可能就是獲勝者) 才有非零的信賴值。其他很可能全部都是失敗者，將會顯示 0%。
 
-* 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些信賴等級通常會在一般A/B測試完成所需的約一半時間內出現（雖然這並非保證）。 若要判斷一般A/B測試會執行多久，請使用 [樣本大小計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html):將控制項的轉換率插入「基準轉換率」、「提升度」為「5%」、「信賴度」為95%。 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
+* 只有在勝出體驗收集到 60% 信賴度時，「自動分配」才會開始顯示信賴度。這些信賴等級通常會在一般A/B測試完成所需的約一半時間內出現（雖然這並非保證）。 若要判斷一般A/B測試會執行多久，請使用 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6):將控制項的轉換率插入「基準轉換率」、「提升度」為「5%」、「信賴度」為95%。 通常在每一個體驗至少累積每一體驗必要樣本的 50% 之後，才會開始出現信賴度。這樣可讓您大概知道何時會開始出現信賴度。
+
 * 如果報表完全顯示 0%，可能表示太早進入活動。
 
 ### 「沒有贏家」、「贏家」和「星星」徽章適用於使用 [!UICONTROL Analytics 做為報告來源] (A4T) 的[!UICONTROL 自動分配]活動嗎？
