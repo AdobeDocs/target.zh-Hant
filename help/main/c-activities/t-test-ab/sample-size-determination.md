@@ -4,9 +4,9 @@ description: 了解A/B測試的執行時間。 成功的A/B測試Adobe [!DNL Tar
 title: A/B測試該執行多久？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
+source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
 workflow-type: tm+mt
-source-wordcount: '3088'
+source-wordcount: '3093'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 57%
 
 設定A/B測試前，請先存取 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-![Adobe Target 樣本大小計算機](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Adobe Target 樣本大小計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
 
 在執行任何A/B測試之前，請務必判斷適當的樣本大小（訪客數量），以便在評估結果之前建立活動應執行的時間。 僅僅監控活動直到達到統計顯著性，就會導致信賴區間被嚴重低估，使測試變得不可靠。 這意味著只要偵測到統計顯著結果，就停止測試並宣布獲勝者。但是，如果不是統計顯著的結果，則允許繼續測試。此程序非常偏袒正面結果，這會增加誤判率，因而扭曲測試的有效顯著水準。
 
