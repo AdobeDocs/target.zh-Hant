@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n；樣本大小；樣本大小計算器；自動分配；自動分配；計算器
-description: 了解A/B測試的執行時間。 成功的A/B測試Adobe [!DNL Target] 需要足夠的訪客（樣本大小）來改善轉換率。
+description: 了解A/B測試的執行時間。 中的成功A/B測試 [!DNL Adobe Target] 需要足夠的訪客（樣本大小）來改善轉換率。
 title: A/B測試該執行多久？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 57%
 
 如果您選擇使用手動 [!UICONTROL A/B測試] 活動而非 [!UICONTROL 自動分配], [!DNL Target] 樣本大小電腦可協助您判斷成功測試所需的樣本大小。 手動A/B測試是固定水準測試，因此計算器很有幫助。 使用計算器 [!UICONTROL 自動分配] 活動是選用項目，因為 [!UICONTROL 自動分配] 宣佈獲勝者。 計算器可提供所需樣本大小的粗略估計。 如需有關如何使用此計算機的詳細資訊，請繼續閱讀。
 
-設定A/B測試前，請先存取 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+設定A/B測試前，請先存取 [!DNL Adobe Target] [樣本大小電腦](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
 
-![Adobe Target 樣本大小計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
+![Adobe Target 樣本大小計算機](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 在執行任何A/B測試之前，請務必判斷適當的樣本大小（訪客數量），以便在評估結果之前建立活動應執行的時間。 僅僅監控活動直到達到統計顯著性，就會導致信賴區間被嚴重低估，使測試變得不可靠。 這意味著只要偵測到統計顯著結果，就停止測試並宣布獲勝者。但是，如果不是統計顯著的結果，則允許繼續測試。此程序非常偏袒正面結果，這會增加誤判率，因而扭曲測試的有效顯著水準。
 
