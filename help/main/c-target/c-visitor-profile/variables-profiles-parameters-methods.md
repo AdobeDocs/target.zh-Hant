@@ -1,13 +1,13 @@
 ---
 keywords: 變數;設定檔;參數;內建設定檔;方法;url 變數;地理設定檔;第三方設定檔;mbox 變數;促銷活動變數;客戶屬性
 description: 檢視在Adobe Target的設定檔指令碼中很實用的各種設定檔、變數和參數清單。
-title: Target中使用哪些設定檔、變數和參數？
+title: 中使用哪些設定檔、變數和參數 [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
+source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 83%
+source-wordcount: '634'
+ht-degree: 78%
 
 ---
 
@@ -38,7 +38,8 @@ ht-degree: 83%
 | user.header(&#39;accept&#39;) | 訪客語言和字元編碼 |
 | user.header(&#39;connection&#39;) | 伺服器連線。例如: keep-live |
 | user.header(&#39;referrer&#39;) | 訪客目前頁面的網站 URL。不適用於 Internet Explorer。 |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.getLocal(&#39;param_name&#39;); | 擷取您使用 `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | 在設定檔指令碼中建立持續的設定檔值。 這些值的存留方式與設定檔指令碼相同，但您只能在其設定的指令碼記憶體取它。 |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | 持續保存透過設定檔指令碼建立的設定檔屬性。也會參考「系統」設定檔，例如地理位置、造訪計數等。 |
 | profile.get(&#39;param_name&#39;) | 要取得要在設定檔指令碼中使用的設定檔參數，正確的方式是profile.get(&#39;param_name&#39;)方法。 |
