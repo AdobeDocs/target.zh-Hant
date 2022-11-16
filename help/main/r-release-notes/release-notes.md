@@ -6,9 +6,9 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]<br>最佳化 A4T 量度 (可供特定客戶進行測試。將在未來版本中提供給所有客戶。) | 請注意下列變更：<ul><li>新增非二進位和最大化量度的支援，於 [!UICONTROL Analytics for Target] 適用於 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動</li><li>保留現有活動的行為，直到 2023 年 2 月。在此日期之後，將停止活動以強制現有活動遷移至新行為</li><li>從 2023 年 2 月 20 日開始，將不再支援 [!DNL Target] 活動中的 `averagetimespentonsite`、 `bouncerate` 和 `entries` 量度。</li></ul> |
+| 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]<br>最佳化 A4T 量度 (可供特定客戶進行測試。將在未來版本中提供給所有客戶。) | 請注意下列變更：<ul><li>針對 [!UICONTROL Analytics for Target] A4T 報告中的[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動，新增對非二進位和最大化量度的支援</li><li>保留現有活動的行為，直到 2023 年 2 月。在此日期之後，將停止活動以強制現有活動遷移至新行為</li><li>從 2023 年 2 月 20 日開始，將不再支援 [!DNL Target] 活動中的 `averagetimespentonsite`、 `bouncerate` 和 `entries` 量度。</li></ul> |
 
 * 在 [!DNL Target] UI 中新增工具提示，以幫助客戶更有效地瀏覽對象產生器，並了解如何使用不熟悉的功能。(TGT-44139)
 * 新增功能，此功能可防止客戶編輯因使用不受支援的量度而被 [!DNL Target] 停用的活動。UI 中的訊息，可指引客戶複製活動，然後更新轉換量度。
