@@ -4,14 +4,14 @@ description: 了解中的自動鎖定目標活動 [!DNL Target] 會根據客戶�
 title: 什麼是自動鎖定目標活動？
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自動鎖定目標概觀
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL 自動鎖定目標] 概述
 
 [!UICONTROL 自動鎖定目標] 活動 [!DNL Adobe Target] 使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，以個人化內容並促進轉換。 自動鎖定目標會根據個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
 
