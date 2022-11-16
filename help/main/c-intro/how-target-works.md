@@ -5,9 +5,9 @@ title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 [!UICONTROL 自動鎖定目標使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。][!UICONTROL 自動鎖定目標為每位訪客提供最自訂的體驗。]體驗傳送是根據個別客戶個人資料和具有類似個人資料的先前訪客的行為。使用 [!UICONTROL Auto-Target] 個人化內容並推升轉換率。
 
-如需詳細資訊，請參閱 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
 ### [!UICONTROL Automated Personalization] (AP)
 
@@ -178,7 +178,7 @@ Google 鼓勵使用者測試。Google 在其文件中表示，如果您遵循某
 
    [!DNL Adobe] 持續尋找可行的解決方案，以完全符合搜尋引擎的方針。對於必須將個別 URL 用於測試的客戶而言，[!DNL Adobe] 有信心正確實作標準標籤可以減輕使用此方法的相關風險。i
 
-* **僅在需要時進行實驗**：[!DNL Adobe] 將「僅在需要時」視為只要達到統計顯著性所需。[!DNL Target] 提供最佳實務，並 [!DNL Adobe Target] [樣本大小電腦] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)，以判斷測試何時達到此點。 [!DNL Adobe] 建議將成功測試寫入程式碼的實作納入測試工作流程中，並分配適當的資源。
+* **僅在需要時進行實驗**：[!DNL Adobe] 將「僅在需要時」視為只要達到統計顯著性所需。[!DNL Target] 提供最佳做法和 [!DNL Adobe Target] [樣本大小計算機] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 來判斷測試何時達到此點。[!DNL Adobe] 建議將成功測試寫入程式碼的實作納入測試工作流程中，並分配適當的資源。
 
    不建議使用 [!DNL Target] 平台來「發佈」成功測試作為永久解決方案。如果成功測試是針對 100% 的使用者發佈，則此方法可在永久編碼成功測試的過程完成時使用。
 
