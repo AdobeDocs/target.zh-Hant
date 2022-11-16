@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
-workflow-type: ht
-source-wordcount: '1876'
-ht-degree: 100%
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+workflow-type: tm+mt
+source-wordcount: '1990'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,22 @@ ht-degree: 100%
 Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。在所有接受評估的供應商中，針對我們的測試能力，[!DNL Target] 收到最高分。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
+
+## [!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)
+
+* **2022年11月29日星期二**
+* **上午8時至9時。(PST GMT-8)**
+* **[報名資訊](https://adobe.ly/3UtQoxv){target=_blank}**
+
+我們將與Cristinel Anastasoaie一起， [!DNL Adobe Target]，誰會回答您有關 [!DNL Adobe Target] 線上講座 [AI導向個人化和Recommendations](#AI).
+
+請務必檢閱網路研討會的錄影，然後針對您的獨特使用案例提出後續問題，以取得全面的深入分析、更深入的說明，以及策略建議。
+
+* 最佳化即時建議、一鍵式個人化活動和自動化選件
+* 使用建立並啟動AI導向的個人化活動 [!UICONTROL 可視化體驗撰寫器] (VEC)
+* 整合 [!DNL Adobe Experience Platform] (AEP)以進行即時區段和設定檔屬性共用
+
+[!DNL Adobe] 技術支援工程師Simon Chen將為您的問題提供更多見解和答案。
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
@@ -52,7 +68,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 +++
 
-### [!DNL Adobe Target] Skill Builders – AI 驅動的個人化與推薦 (2022 年 9 月 15 日)
+### [!DNL Adobe Target] Skill Builders – AI 驅動的個人化與推薦 (2022 年 9 月 15 日) {#AI}
 
 實驗和個人化方面的自動化持續為行銷、工程和產品團隊推動最高轉換率和投資報酬率。 參加 [!DNL Adobe] Skill Builders 研討會，了解如何搭配產品與內容推薦使用 [!DNL Adobe Target] 進階 AI 驅動使用案例和功能來保持競爭優勢，並贏得每次的體驗。
 

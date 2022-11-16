@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看 Target 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 100%
+source-wordcount: '1615'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 11 月 16 日 | [Adobe Target公告與活動](/help/main/r-release-notes/target-announcements.md) | 已新增下列事件的註冊資訊：<ul><li>[!DNL Adobe Target] 社群問答茶歇（11月29日）</li></ul> |
 | 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank} 的注意事項。 |
 |  | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 更新表格中 `adobe_mc_sdid` 參數的說明。 |
 |  | [疑難排解活動](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 加入新章節：「活動轉換後，訪客沒有任何體驗。」 |
