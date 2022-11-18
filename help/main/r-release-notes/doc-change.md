@@ -1,13 +1,13 @@
 ---
 keywords: Target 文件變更記錄；文件更新；新主題；編輯；更新；更新
 description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
-title: 我可以在哪裡查看 Target 文件更新？
+title: 我可以在何處查看 [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 98%
+source-wordcount: '1614'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 11 月 16 日 | [Adobe Target公告與活動](/help/main/r-release-notes/target-announcements.md) | 已新增下列事件的註冊資訊：<ul><li>[!DNL Adobe Target] 社群問答茶歇（11月29日）</li></ul> |
+| 11 月 16 日 | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的報名資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)</li></ul> |
 | 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank} 的注意事項。 |
 |  | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 更新表格中 `adobe_mc_sdid` 參數的說明。 |
 |  | [疑難排解活動](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 加入新章節：「活動轉換後，訪客沒有任何體驗。」 |
@@ -73,7 +73,7 @@ ht-degree: 98%
 |  | [使用者代理和用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新主題。 |
 |  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增用來錄製以下網絡研討會的連結：Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日) |
 | 5 月 23 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 at.js 2.9.0 版 (2022 年 5 月 25 日) 搶鮮版版本注意事項。 |
-| 5 月 11 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增有關下列網路研討會的資訊與註冊資訊：<ul><li>Dick&#39;s Sporting Goods：個人化及改變零售業格局</li><li>Adobe：個人化的業界內幕 - 金融服務業和保險業</li><li>City National Bank：如何在數位最佳化中成為排名 1% 的銀行</li><li>Adobe：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>City National Bank：Zero to Hero - 展開並擴展個人化方案</li><li>Adobe：發掘高影響力的最佳化機會</li><li>Adobe：個人化的業界內幕 - 零售業</li></ul>新增下列網路研討會的影片：<ul><li>使用 [!DNL Adobe Target] 的即時個人化</li></ul> |
+| 5 月 11 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增有關下列網路研討會的資訊與報名資訊：<ul><li>Dick&#39;s Sporting Goods：個人化及改變零售業格局</li><li>Adobe：個人化的業界內幕 - 金融服務業和保險業</li><li>City National Bank：如何在數位最佳化中成為排名 1% 的銀行</li><li>Adobe：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>City National Bank：Zero to Hero - 展開並擴展個人化方案</li><li>Adobe：發掘高影響力的最佳化機會</li><li>Adobe：個人化的業界內幕 - 零售業</li></ul>新增下列網路研討會的影片：<ul><li>使用 [!DNL Adobe Target] 的即時個人化</li></ul> |
 |  | [內容安全性原則 (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | 新增常見問題區段。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台 (2022 年 5 月 11 日至 13 日) 版本的資訊。 |
 
