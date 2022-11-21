@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 ## [!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)
 
-* **2022年11月29日星期二**
-* **上午8時至9時。(PST GMT-8)**
+* **2022 年 11 月 29 日星期二**
+* **上午 8:00 至 9:00 (PST GMT-8)**
 * **[報名資訊](https://adobe.ly/3UtQoxv){target=_blank}**
 
-我們將與Cristinel Anastasoaie一起， [!DNL Adobe Target]，誰會回答您有關 [!DNL Adobe Target] 線上講座 [AI導向個人化和Recommendations](#AI).
+[!DNL Adobe Target] 資深產品經理 Cristinel Anastasoaie 將加入我們，他將回答有關以下主題的 [!DNL Adobe Target] 網路研討會的問題：[AI 驅動的個人化與推薦](#AI)。
 
-請務必檢閱網路研討會的錄影，然後針對您的獨特使用案例提出後續問題，以取得全面的深入分析、更深入的說明，以及策略建議。
+請務必觀看此網路研討會影片，然後提出您的後續問題，以獲得針對您獨特使用案例的完整深入見解、深入解釋和策略建議。
 
-* 最佳化即時建議、一鍵式個人化活動和自動化選件
-* 使用建立並啟動AI導向的個人化活動 [!UICONTROL 可視化體驗撰寫器] (VEC)
-* 整合 [!DNL Adobe Experience Platform] (AEP)以進行即時區段和設定檔屬性共用
+* 最佳化即時推薦、一鍵式個人化活動以及自動化選件
+* 使用[!UICONTROL 可視化體驗撰寫器] (VEC) 建立並啟動 AI 驅動的個人化活動
+* 與 [!DNL Adobe Experience Platform](AEP) 整合，用於即時區段和設定檔屬性共用
 
-[!DNL Adobe] 技術支援工程師Simon Chen將為您的問題提供更多見解和答案。
+[!DNL Adobe] 技術支援工程師 Simon Chen 將提供更多深入見解並回答您的問題。
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
