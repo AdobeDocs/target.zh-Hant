@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在何處查看 [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
+source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1608'
 ht-degree: 99%
 
 ---
@@ -129,10 +129,10 @@ ht-degree: 99%
 | 1 月 28 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
 |  | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增關於 at.js 2.8.1 版的資訊。 |
 | 1 月 27 日 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並新增了 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的相關資訊。 |
-| 1 月 26 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 Target Standard/Premium 22.1.2 版的相關資訊。 |
+| 1 月 26 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.1.2 版的資訊。 |
 |  | [建立受眾](/help/main/c-target/c-audiences/audiences.md) | 已新增 [!DNL Adobe Experience Platform] 受眾的相關資訊。 |
 |  | [合併多個受眾](/help/main/c-target/combining-multiple-audiences.md) | 已新增 [!DNL Adobe Experience Platform] 受眾的相關資訊。 |
 | 1 月 21 日 | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增關於 at.js 1.8.3 版的資訊。 |
 | 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立受眾」 |
-| 1 月 12 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 Target Standard/Premium 22.1.1 版的相關資訊。 |
+| 1 月 12 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.1.1 版的資訊。 |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 新增教學課程的連結，其中包括如何使用 Web SDK 實作 [!DNL Adobe Experience Cloud] 的指示。 |
