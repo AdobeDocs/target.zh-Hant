@@ -19,13 +19,13 @@ ht-degree: 100%
 
 Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。在所有接受評估的供應商中，針對我們的測試能力，[!DNL Target] 收到最高分。
 
-如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
+如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target="_blank"}。
 
 ## [!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)
 
 * **2022 年 11 月 29 日星期二**
 * **上午 8:00 至 9:00 (PST GMT-8)**
-* **[報名資訊](https://adobe.ly/3UtQoxv){target=_blank}**
+* **[報名資訊](https://adobe.ly/3UtQoxv){target="_blank"}**
 
 [!DNL Adobe Target] 資深產品經理 Cristinel Anastasoaie 將加入我們，他將回答有關以下主題的 [!DNL Adobe Target] 網路研討會的問題：[AI 驅動的個人化與推薦](#AI)。
 
@@ -33,7 +33,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 * 最佳化即時推薦、一鍵式個人化活動以及自動化選件
 * 使用[!UICONTROL 可視化體驗撰寫器] (VEC) 建立並啟動 AI 驅動的個人化活動
-* 與 [!DNL Adobe Experience Platform](AEP) 整合，用於即時區段和設定檔屬性共用
+* 與 [!DNL Adobe Experience Platform] (AEP) 整合，用於即時區段和設定檔屬性共用
 
 [!DNL Adobe] 技術支援工程師 Simon Chen 將提供更多深入見解並回答您的問題。
 
@@ -53,7 +53,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 我們很高興能夠分享 [!DNL Adobe Target] 在大規模個人化方面一些「非常重大」突破性新聞：全新的篩選和情報將能增強 [!DNL Target] 使用者微調 AI 支援的個人化活動的能力，以便就每個活動對最重要的商業量度產生直接的影響。
 
-* [錄製連結](https://video.tv.adobe.com/v/3410117){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/3410117){target="_blank"}
 
    +++詳細資料
 
@@ -72,13 +72,13 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 實驗和個人化方面的自動化持續為行銷、工程和產品團隊推動最高轉換率和投資報酬率。 參加 [!DNL Adobe] Skill Builders 研討會，了解如何搭配產品與內容推薦使用 [!DNL Adobe Target] 進階 AI 驅動使用案例和功能來保持競爭優勢，並贏得每次的體驗。
 
-* [錄製連結](https://video.tv.adobe.com/v/3409352/){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/3409352/){target="_blank"}
 
 ### [!DNL Adobe Target] Skill Builders – 行動體驗最佳化 (2022 年 9 月 6 日)
 
 行動體驗正在推動行銷和工程團隊如何利用以產品為主導的策略在 Web 和應用程式中實現跨管道個人化的創新。 參加 [!DNL Adobe] Skill Builders 研討會，了解 [!DNL Adobe Target] 如何為行銷人員、開發人員和產品負責人釋放新的潛在參與度和收入成長率，以建立欣欣向榮的產品社群。
 
-* [錄製連結](https://video.tv.adobe.com/v/347360){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/347360){target="_blank"}
 
    +++詳細資料
 
@@ -96,7 +96,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 加入 [!DNL Adobe Target] [!DNL ]團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
 
-* [錄製連結](https://video.tv.adobe.com/v/346970/){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/346970/){target="_blank"}
 
    +++詳細資料
 
@@ -112,7 +112,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 在供應鏈問題加速發生、服務失能及人員有限的情況下，提高忠誠度是大多數旅遊業、旅館業和餐飲業品牌共同面臨的挑戰。 在 AI 時代，品牌如何在沒有產業所需資源的情況下擴充體驗。 數位化進程加快了 20 到 25 倍，不僅要支援加速的客戶期望，也要透過自動化來擴充團隊。
 
-* **[註冊並觀看網路研討會影片](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[註冊並觀看網路研討會影片](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target="_blank"}**
 
    +++詳細資料
 
@@ -131,7 +131,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 2022 年為企業經營和運轉提供了充滿機動性且快速變化的環境。了解當工作者和旅行者開始回歸正常生活時，業界專家如何看待新形成的消費趨勢。
 
-* [錄製連結](https://video.tv.adobe.com/v/346323){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/346323){target="_blank"}
 
    +++詳細資料
 
@@ -143,7 +143,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料深入解析的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
 
-* [錄製連結](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [錄製連結](https://analytics.dxfieldmarketing.adobeevents.com/){target="_blank"}
 
    +++詳細資料
 
@@ -160,7 +160,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 了解如何成為「關係銀行」並提高品牌忠誠度的最佳實務。 了解如何促使人員和流程建置和擴展成功的個人化方案。
 
-* [錄製連結](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [錄製連結](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target="_blank"}
 
    +++詳細資料
 
@@ -172,7 +172,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 了解當我們進入一個比以往更為數位化的新常態時，把握每個機會來提供卓越的數位化體驗為何如此重要。只求夠好其實遠遠不夠。 要得到最佳體驗才具竸爭力。
 
-* [錄製連結](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [錄製連結](https://optimization.dxfieldmarketing.adobeevents.com/){target="_blank"}
 
    +++詳細資料
 
@@ -189,7 +189,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 了解大規模增加個人化方案的最佳實務。了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 來結合頂尖運動員和頂級品牌。
 
-* [錄製連結](https://video.tv.adobe.com/v/343042){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/343042){target="_blank"}
 
    +++詳細資料
 
@@ -208,7 +208,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 了解金融服務公司如何使用個人化支援和知會客戶，以利他們準備通貨膨脹模式和投資策略。
 
-* [錄製連結](https://video.tv.adobe.com/v/343240){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/343240){target="_blank"}
 
    +++詳細資料
 
@@ -220,7 +220,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 檢視工具套件和用例以實施跨職能個人化策略。 了解 CNB 使用 [!DNL Adobe Target] 後如何在業界排名從最後 26% 躍升至前 1 %。
 
-* [錄製連結](https://video.tv.adobe.com/v/343344){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/343344){target="_blank"}
 
    +++詳細資料
 
@@ -237,7 +237,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 ### 使用 [!DNL Adobe Target] 的即時個人化
 
-* **[註冊並觀看網路研討會影片](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[註冊並觀看網路研討會影片](https://real-time.dxfieldmarketing.adobeevents.com/){target="_blank"}**
 
    +++詳細資料
 
@@ -252,7 +252,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 ### 網路研討會影片：利用 [!DNL Adobe Target] 的裝置上決策在零延遲的情況下進行個人化和測試
 
-* [錄製連結](https://video.tv.adobe.com/v/328148){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/328148){target="_blank"}
 
    +++詳細資料
 
