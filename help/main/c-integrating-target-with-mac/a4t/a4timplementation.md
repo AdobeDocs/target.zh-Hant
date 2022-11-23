@@ -4,10 +4,10 @@ description: 依照實施Analytics所需的步驟進行 [!DNL Target] (A4T)在�
 title: 如何為實作Analytics [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 25%
+source-wordcount: '1161'
+ht-degree: 24%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 25%
 
 ### 步驟 1: 要求佈建給 Analytics 和 Target
 
-實作之後 [!DNL Analytics] 作為的報表來源 [!DNL Target]，您必須為 [!DNL Analytics] 和 [!DNL Target]. [使用此表單來請求布建](https://www.adobe.com/go/audiences_tw).
+實作之後 [!DNL Analytics] 作為的報表來源 [!DNL Target]，您必須為 [!DNL Analytics] 和 [!DNL Target]. [使用此表單來請求布建](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。
 
 ### 步驟 2: 設定使用者權限
 
