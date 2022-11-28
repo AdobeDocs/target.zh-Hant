@@ -4,7 +4,7 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 96%
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 11 月 28 日 | [模型API（封鎖清單）概觀](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank}，位於 *Adobe Target開發人員指南*. | 新模型API。<br>功能可從 [!DNL Target] 機器學習演算法，防止其用於任何 [!UICONTROL 自動鎖定目標] 或 [!UICONTROL Automated Personalization] 模型或活動。 |
+| 11 月 28 日 | [模型API（封鎖清單）概觀](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}，位於 *Adobe Target開發人員指南*. | 新模型API。<br>功能可從 [!DNL Target] 機器學習演算法，防止其用於任何 [!UICONTROL 自動鎖定目標] 或 [!UICONTROL Automated Personalization] 模型或活動。 |
 | 11 月 23 日 | [使用 at.js 實作 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 將連結更新至 [Marketing Cloud整合布建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |
 | 11 月 16 日 | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的報名資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)</li></ul> |
 | 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank} 的注意事項。 |
