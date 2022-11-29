@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**最近更新：2022 年 11 月 28 日 ([查看變更內容](r-release-notes/doc-change.md))**
+**上次更新日期：2022 年 11 月 28 日 ([查看變更內容](r-release-notes/doc-change.md))**
 
 以下幾節依照目標受眾的典型職務進行安排，引導您在本指南中找到實用連結：
 
