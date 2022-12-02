@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 模型 API 版本 (2022 年 11 月 23 日)
 
-新的[!DNL Adobe Target]模型 API，也稱為 Blocklist API，可讓使用者查看和管理機器學習模型中用於 [!UICONTROL Automated Personalization] (AP) 和 [!UICONTROL Auto-Target] (AT) 活動的功能清單。
+新 [!DNL Adobe Target] 模型 API (也稱為 Blocklist API) 可讓使用者查看和管理機器學習模型中的功能清單，可供進行 [!UICONTROL Automated Personalization] (AP) 和 [!UICONTROL Auto-Target] (AT) 活動。
 
 如需詳細資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的[模型 API 概觀](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}。
 
