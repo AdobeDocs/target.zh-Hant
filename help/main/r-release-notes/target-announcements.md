@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: cd9a3683589e228183417f7554a0937ddd486b40
+source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
 workflow-type: tm+mt
 source-wordcount: '1873'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 ## 2022 年度 Gartner 個人化引擎的魔力象限報告中將 [!DNL Target] 評為領導者
 
-Gartner已確認 [!DNL Adobe Target] 連續第五年成為最新個人化引擎幻方圖(PE)的領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。在所有接受評估的供應商中，針對我們的測試能力，[!DNL Target] 收到最高分。
+Gartner已確認 [!DNL Adobe Target] 連續第五年成為最新個人化引擎幻方圖(PE)的領導者。 [!DNL Adobe] 也在所有主要三個使用案例中榮獲高分，並逐年大幅提高：數位行銷、數位商務，以及服務和支援。[!DNL Target] 在所有評估的供應商中，其測試功能獲得最高分。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
