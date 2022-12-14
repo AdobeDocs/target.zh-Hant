@@ -4,10 +4,10 @@ description: 了解如何在Adobe Target中設定報表設定，包括量度、�
 title: 如何配置報表設定？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 67%
+source-wordcount: '1959'
+ht-degree: 66%
 
 ---
 
@@ -145,9 +145,14 @@ ht-degree: 67%
 
 選取計算和比較提升度時使用的控制體驗。
 
-### 環境
+### 環境 {#environment}
 
 選取要用於報表的環境（主機群組）。 如需詳細資訊，請參閱[主機](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+
+>[!NOTE]
+>
+>如果貴組織使用 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank}(AEP)，將量度資料傳送至 [!DNL Target]，則AEP資料流中的環境應符合您 [!DNL Target] 報表設定。
+
 
 ### 重設報告資料
 
@@ -192,7 +197,7 @@ ht-degree: 67%
 
 報表包含數個資料點和視覺效果表示法，可表達與活動相關聯的提升度界限和信賴水準。這可協助您正準確地判斷獲勝者。
 
-如需詳細資訊，請參閱 [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+如需詳細資訊，請參閱 [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 考慮以下事項:
 

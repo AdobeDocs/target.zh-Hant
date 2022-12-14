@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
-workflow-type: ht
-source-wordcount: '1761'
-ht-degree: 100%
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
+workflow-type: tm+mt
+source-wordcount: '1778'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 11 月 29 日 | [地理](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 添加以下段落以澄清案文：<ul><li>訪客的地理資訊由 [!DNL Target] 位置要求（mbox要求）。 新工作階段的首次呼叫會完成IP對地理的解析。 這表示，如果訪客的IP位址在造訪的工作階段中途變更，地理資訊仍會以第一次呼叫的IP位址為基礎。</li></ul> |
+| 12 月 14 日 | [報表設定](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 在「環境」區段下新增有關使用 [!DNL Adobe Experience Platform] (AEP)將量度資料傳送至 [!DNL Target]. |
+| 11 月 29 日 | [地理](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 已新增下列段落來闡明文字：<ul><li>訪客的地理資訊是根據 [!DNL Target] 位置請求 (Mbox 請求) 的起始 IP 位置來判定。IP 對地理位置的解析是在新工作階段的首次呼叫時完成。也就是說，如果訪客的 IP 位址在造訪期間發生變更，地理資訊仍會根據首次呼叫的 IP 位址。</li></ul> |
 | 11 月 28 日 | 如需詳細資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的[模型 API (封鎖清單) 概觀](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}。 | 新模型 API。<br>[!DNL Target]  有些功能可從機器學習演算法中封鎖，以防止有人將功能用於任何 [!UICONTROL Auto-Target] 或 [!UICONTROL Automated Personalization] 模型或活動。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 新增關於模型 API 版本 (2022 年 11 月 23 日) 的資訊。 |
 | 11 月 23 日 | [使用 at.js 實作 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 已更新指向 [Marketing Cloud 整合佈建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}的連結。 |
