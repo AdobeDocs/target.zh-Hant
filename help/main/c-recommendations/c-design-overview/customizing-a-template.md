@@ -4,10 +4,10 @@ description: 了解如何使用開放原始碼Velocity設計語言，在Adobe中
 title: 如何使用Velocity自訂設計？
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 60%
+source-wordcount: '1066'
+ht-degree: 46%
 
 ---
 
@@ -21,22 +21,24 @@ ht-degree: 60%
 
 所有 Velocity 邏輯、語法等，均可用於建議設計。即是說，您可使用 Velocity 取代 JavaScript 來建立 *for* 迴圈、*if* 陳述式及其他程式碼。
 
-[!DNL Recommendations] mbox 或 CSV 上傳項目中任何傳送至 `productPage` 的變數均可在設計中顯示。這些值以下列語法加以參考:
+傳送至的實體屬性 [!DNL Recommendations] 在 `productPage` mbox或CSV上傳可在設計中顯示，但「多值」屬性除外。 任何類型的屬性都可以發送；然而， [!DNL Target] 不會將「multi value」類型的屬性作為範本可反覆運算的陣列(例如 `entityN.categoriesList`)。
+
+這些值以下列語法加以參考:
 
 ```
 $entityN.variable
 ```
 
-變數名稱必須遵循 Velocity 縮寫標記法，亦即包含前置 *$* 字元，後接 Velocity 範本語言 (VTL) 識別碼。VTL 識別碼的開頭必須為字母字元 (a-z 或 A-Z)。
+實體屬性名稱必須遵循Velocity速記記號，其中包含前導 *$* 字元，後面接著Velocity範本語言(VTL)識別碼。 VTL 識別碼的開頭必須為字母字元 (a-z 或 A-Z)。
 
-Velocity 變數名稱僅限於下列字元類型:
+Velocity實體屬性名稱限於下列字元類型：
 
 * 字母 (a-z、A-Z)
 * 數字 (0-9)
 * 連字號 ( - )
 * 底線 ( _ )
 
-下列變數可當成 Velocity 陣列使用。因此，可透過索引逐一查看或參照。
+以下屬性可作為Velocity陣列使用。 因此，可透過索引逐一查看或參照。
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-如需 Velocity 變數的詳細資訊，請參閱 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
+如需Velocity變數（屬性）的詳細資訊，請參閱 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 如果您在設計中使用設定檔指令碼，指令碼名稱前面的 $ 必須以 \ 來轉譯。例如, `\${user.script_name}`。
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->如果您想在指出變數名稱的標籤完成之前，在變數的值之後新增文字，可以使用正規記號括住變數的名稱。 例如: `${entity1.thumbnailUrl}.gif`。
+>如果要在表示屬性名稱的標籤完成之前在屬性值之後添加文本，則可以使用正式注釋將屬性名稱括起來。 例如: `${entity1.thumbnailUrl}.gif`。
 
-您亦可在範本中使用 `algorithm.name` 和 `algorithm.dayCount` 當作變數，因此，一個設計便可用於測試多個條件，而條件名稱可動態地在設計中顯示。藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。甚至，您可以使用這些變數來顯示 `dayCount` (條件中使用的資料天數，例如「過去 2 天最暢銷的商品」等)。
+您也可以使用 `algorithm.name` 和 `algorithm.dayCount` 作為設計中的實體屬性，因此一個設計可用於測試多個條件，並且條件名稱可動態地顯示在設計中。 藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。您甚至可以使用這些屬性來顯示 `dayCount` (條件中使用的資料天數，例如「過去2天最暢銷的商品」等。
 
 ## 在Velocity範本中使用數字
 
 依預設，Velocity範本會將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以執行數學運算或將其與其他數值比較。 若要將實體屬性視為數值，請執行下列步驟：
 
 1. 宣告虛擬變數，並將其初始化為任意整數或雙值。
-1. 請確定您要使用的實體屬性不是空白(Target Recommendations的範本剖析器驗證和儲存範本時需要)。
+1. 請確定您要使用的實體屬性不空白( [!DNL Target Recommendations]&#39;範本剖析器，用於驗證並儲存範本)。
 1. 將實體屬性傳遞至 `parseInt` 或 `parseDouble` 方法，將字串轉換為整數或雙值。
 1. 對新數值執行數學運算或比較。
 
@@ -214,7 +216,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 下面顯示一條件式售價範例的其中一行程式碼:
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 以下程式碼為完整的條件式售價範例:
@@ -222,9 +224,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
