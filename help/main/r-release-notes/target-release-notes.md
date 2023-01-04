@@ -4,9 +4,9 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 52%
 
 * 新增對JSON選件的支援，位於 [!UICONTROL Automated Personalization] (AP)使用表單式體驗撰寫器的活動。 (TGT-41460)
 * 新增依AEM標籤搜尋及篩選優惠方案的功能。 (TGT-43837)
-* 將「[!UICONTROL 體驗片段]」選項。 選項現在為「[!UICONTROL HTMLXF]」。
+* 將「[!UICONTROL 體驗片段]」選項。 選項現在為「[!UICONTROL HTMLXF].&quot; (TGT-44132)
 * 新增在選件資訊工具提示中檢視體驗片段選件中繼資料的功能。 (TGT-43838)
 * 移除AP和 [!UICONTROL 自動鎖定目標] [!UICONTROL 個人化前瞻分析] 和 [!UICONTROL 重要屬性] 報表 [!DNL Target] UI。 由於使用模式以及為了改善效能，這些日期範圍已遭取代。 UI已更新，以反映目前允許的範圍：15、30和60天。 (TGT-39357)
 * 移除變更 [!UICONTROL 與最佳化目標相同] 設定 [!UICONTROL 目標與設定] 活動上線後的頁面。 (TGT-43923)
