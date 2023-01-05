@@ -5,9 +5,9 @@ title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 12 月 21 日 | [使用 Velocity 自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 釐清傳送至的實體屬性 [!DNL Recommendations] 在 `productPage` mbox或CSV上傳可在設計中顯示，但「多值」屬性除外。 |
+| 12 月 21 日 | [使用 Velocity 自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 澄清了傳送到 `productPage` mbox 中的 [!DNL Recommendations] 或 CSV 上傳的實體屬性可以在設計中顯示，但「多值」屬性則除外。 |
 | 12 月 20 日 | [[!UICONTROL Automated Personalization 中的優惠方案報告群組]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | 在「注意事項」下方已新增有關報告群組的其他資訊。 |
 | 12 月 14 日 | [報表設定](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 在「環境」部分新增關於使用 [!DNL Adobe Experience Platform] (AEP) 將指標資料發送至 [!DNL Target] 的註釋。 |
 | 11 月 29 日 | [地理](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 已新增下列段落來闡明文字：<ul><li>訪客的地理資訊是根據 [!DNL Target] 位置請求 (Mbox 請求) 的起始 IP 位置來判定。IP 對地理位置的解析是在新工作階段的首次呼叫時完成。也就是說，如果訪客的 IP 位址在造訪期間發生變更，地理資訊仍會根據首次呼叫的 IP 位址。</li></ul> |
