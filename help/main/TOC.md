@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 98%
 
 ---
@@ -124,6 +124,7 @@ ht-degree: 98%
       + [自動鎖定目標概覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [建立自動鎖定目標活動](/help/main/c-activities/auto-target/create-auto-target.md)
       + [自動鎖定目標疑難排解和常見問答 (FAQ)](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [報表和自動鎖定目標](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization 概覽](c-activities/t-automated-personalization/automated-personalization.md)
       + [隨機森林演算法](c-activities/t-automated-personalization/algo-random-forest.md)
@@ -192,7 +193,7 @@ ht-degree: 98%
          + [行動](c-target/c-audiences/c-target-rules/mobile.md)
          + [作業系統](c-target/c-audiences/c-target-rules/operating-system.md)
          + [網頁](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [目標 資料庫](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Target 資料庫](c-target/c-audiences/c-target-rules/target-library.md)
          + [時間段](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量來源](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [訪客設定檔](c-target/c-audiences/c-target-rules/visitor-profile.md)
