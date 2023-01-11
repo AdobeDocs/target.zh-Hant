@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
+source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,9 @@ ht-degree: 99%
 
 若要檢視目前版本的相關資訊，請參閱「[Target 版本注意事項](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 23.1.1（2023年1月25至26日）
+## [!DNL Target] Standard/Premium 23.1.1 (2023 年 1 月 25-26 日)
 
 此版本包含以下新功能、增強功能和修正：
-
-| 功能 | 詳細資料 |
-| --- | --- |
-| AEM 內容片段<br>(此功能的確切發行日期待定。) | 使用在 [!DNL Adobe Experience Manager] (AEM) (在 [!DNL Target] 活動中) 中建立的內容片段，以輔助最佳化或個人化。<br>在 [!DNL Target] 活動中使用 AEM 中建立的內容片段，可讓您將 AEM 的易用性和威力，結合 [!DNL Target] 中強大的人工智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。 |
 
 * 使用表單式體驗撰寫器在 [!UICONTROL Automated Personalization] (AP) 活動中新增對 JSON 選件的支援。 (TGT-41460)
 * 新增了按 AEM 標籤搜尋和篩選優惠的功能。 (TGT-43837)
