@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 97%
+source-wordcount: '1853'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 97%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 1 月 12 日 | [視覺體驗撰寫器協助程式擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新說明目前狀態的重要備注 [!UICONTROL 可視化體驗撰寫器] 協助程式擴充功能。 |
+|  | [鎖定目標和對象常見問答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 已新增資訊，說明對象URL鎖定目標和URL鎖定目標已透過 [!UICONTROL 範本規則] 會評估為URL定位。 |
 |  | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增22.13.3版的發行前說明。 |
 | 12 月 21 日 | [使用 Velocity 自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 澄清了傳送到 `productPage` mbox 中的 [!DNL Recommendations] 或 CSV 上傳的實體屬性可以在設計中顯示，但「多值」屬性則除外。 |
 | 12 月 20 日 | [[!UICONTROL Automated Personalization 中的優惠方案報告群組]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | 在「注意事項」下方已新增有關報告群組的其他資訊。 |
