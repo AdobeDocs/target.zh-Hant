@@ -1,13 +1,13 @@
 ---
-keywords: VEC; 可視化體驗撰寫器; iFrame; 擴充功能; 瀏覽器
-description: 探索為何某些網站可能無法在可視化體驗撰寫器(VEC)中可靠開啟。 VEC Helper瀏覽器擴充功能可讓您在VEC內以可靠的方式載入網站。
+keywords: vec;可視化體驗撰寫器; vec;iframe;擴充功能;瀏覽器
+description: 探索為什麼有些網站可能無法可靠地在可視化體驗撰寫器 (VEC) 中開啟。 VEC Helper瀏覽器擴充功能可讓您在VEC內以可靠的方式載入網站。
 title: 如何使用可視化體驗撰寫器(VEC)Helper擴充功能？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 55%
+source-wordcount: '1108'
+ht-degree: 57%
 
 ---
 
@@ -19,15 +19,17 @@ VEC Helper瀏覽器是Chrome擴充功能。 使用Mozilla Firefox時不需要此
 
 >[!IMPORTANT]
 >
->自2023年1月起， [!DNL Target] VEC Helper擴充功能將在Google Chrome中停止運作，因為Google不允許使用資訊清單V2的擴充功能。 下載新的擴充功能，以繼續在中以視覺化方式撰寫您的網站 [!DNL Target] 從新年開始。 如需詳細資訊，請參閱 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>目前 [!DNL Target] 本文說明的VEC Helper擴充功能是使用資訊清單v2建立。 Google最近宣佈不再允許使用Manifest v2建立的新擴充功能。
+>
+>現有的擴充功能仍可在Google Chrome中運作。 未來， [!DNL Adobe] 將會淘汰本主題中說明的協助程式擴充功能，並要求客戶移至較新的 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). 當此擴充功能停止運作時，您會透過發行說明和本文的文字收到通知。 不過，由於資訊清單v3中的安全性增強功能， [!DNL Adobe] 建議您下載新擴充功能，以繼續在中以視覺化方式編寫您的網站 [!DNL Target].
 
-## 某些網站無法可靠地在 VEC 中開啟的可能原因
+## 某些網站可能無法可靠地在 VEC 中開啟的原因
 
 * 網站的安全性原則過於嚴格。
 * 網站架設在 iFrame 中。
 * 網站尚未實作 at.js 資料庫。
-* 外部無法存取客戶的 QA 和/或預備網站 (網站為內部網站)。
-* 當嘗試用 VEC 開啟使用 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) 的網站時，目前有一些限制。
+* 客戶的 QA 或暫存網站無法供外部世界使用 (網站僅供內部使用)。
+* 嘗試使用VEC開啟使用的網站時，目前有一些限制 [服務人員](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} （軟體）。
 
 SW 是一種網路技術，可用於攔截網頁安裝所在網域的請求。SW 在該次頁面瀏覽中存活下來，並在隨後的頁面瀏覽中自我啟用。SW 決定允許哪些請求通過，以及攔截哪些請求，並改從快取提供服務。
 
@@ -46,9 +48,9 @@ Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在依賴的網站載�
 * 所有的 iFrame 爆破標頭 (例如 X-Frame-Options 和 Content-Security-Policy) 會以隱含的方式從網站上移除。不再需要建立複雜的Requestly規則。
 * 如果網站上未包含 [!DNL Target] at.js JavaScript 資料庫，您可以使用擴充功能來插入資料庫，這樣就能為網站撰寫體驗。接著可以使用預覽連結來建立活動和保證品質。
 
-   請注意，使用增強體驗撰寫器(EEC)時，擴充功能不會插入at.js，但仍有SameSite Cookie功能存在。 若要在網頁上插入at.js，請關閉EEC。
+   請注意，使用增強體驗撰寫器(EEC)時，擴充功能不會插入at.js，但仍有SameSite Cookie功能存在。 若要在網頁上插入 at.js，請關閉 EEC。
 
-* [行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) 即使沒有 [!UICONTROL 增強體驗撰寫器] (EEC)。
+* [行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)即使沒有[!UICONTROL 增強型體驗撰寫器] (EEC) 還是有受到支援。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
 * 管理多位客戶網站與 [!DNL Target] 帳戶的合作夥伴現在擁有一套簡單的機制可支援 VEC 載入工作，而不必在第三方工作中管理多個規則。
 
@@ -56,7 +58,7 @@ Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在依賴的網站載�
 
 1. 導覽至 [Adobe Target Chrome線上應用程式商店中的VEC Helper瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. 按一下&#x200B;**[!UICONTROL 「新增至 Chrome > 新增擴充功能」]**。
-1. 在中開啟VEC [!DNL Target].
+1. 在 [!DNL Target] 中開啟 VEC。
 1. 若要使用擴充功能，請在 VEC 或 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)中時，按一下 Chrome 瀏覽器工具列上的 VEC Helper 瀏覽器擴充功能圖示 (![VEC Helper 圖示](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
 1. （條件性）滑動 **[!UICONTROL 插入Target資料庫]** 如果網頁尚未包含 [!DNL Target] at.js JavaScript資料庫。
 
@@ -72,7 +74,7 @@ Chrome的VEC Helper瀏覽器擴充功能解決了客戶現在依賴的網站載�
 
    ![Cookie在VEC Helper擴充功能中切換](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   如需 `SameSite=None` 屬性瀏覽器修正，請參閱「最近宣佈的Google Chrome SameSite Cookie實作原則如何影響VEC和EEC？」 [排解視覺體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣佈的 Google Chrome SameSite Cookie 實施政策如何影響 VEC 和 EEC？」。
+   如需有關 `SameSite=None` 屬性瀏覽器修正的詳細資訊，請參閱[排解可視化體驗撰寫器和增強型體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中的「最近宣布的 Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？」。
 
 ## 附註
 
