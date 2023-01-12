@@ -6,7 +6,7 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '331'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 若要檢視目前版本的相關資訊，請參閱「[Target 版本注意事項](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 23.1.1 (2023 年 1 月 25-26 日)
+## [!DNL Target] Standard/Premium 23.1.1 (2023 年 1 月 25 - 26 日)
 
 此版本包含以下新功能、增強功能和修正：
 
