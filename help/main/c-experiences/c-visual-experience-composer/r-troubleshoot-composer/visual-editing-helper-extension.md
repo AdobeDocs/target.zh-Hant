@@ -1,12 +1,13 @@
 ---
-keywords: vec;可視化體驗撰寫器; vec;iframe;擴充功能;瀏覽器
+keywords: vec;可視化體驗撰寫器; vec;iframe;擴充功能;瀏覽器;faq
 description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL 可視化體驗撰寫器] (VEC) 中開啟。 [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能可讓您可靠地在 VEC 內載入網站。
 title: 該如何使用 [!UICONTROL Visual Editing Helper]擴充功能？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
-workflow-type: ht
-source-wordcount: '595'
-ht-degree: 100%
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->這個新的擴充功能會取代之前的 [Target VEC Helper 瀏覽器擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+>這個新的擴充功能會取代之前的 [Target VEC Helper 瀏覽器擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。請參閱該文章頂端的重要附註。
 
 ## 某些網站可能無法可靠地在 VEC 中開啟的原因
 
@@ -39,7 +40,7 @@ ht-degree: 100%
 
 ## 取得並安裝 [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能
 
-1. 瀏覽至 Chrome 線上應用程式商店中的 [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
+1. 瀏覽至 Chrome 線上應用程式商店中的 [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. 按一下「**[!UICONTROL 新增至 Chrome]** > **[!UICONTROL 新增擴充功能]**」。
 1. 在 [!DNL Target] 中開啟 VEC。
 1. 若要使用此擴充功能，請在 VEC 或 QA 模式中時，按一下 Chrome 瀏覽器工具列上的 [!UICONTROL Visual Editing Helper] 瀏覽器擴充功能圖示 (![Visual Editing 擴充功能圖示](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png))。
@@ -58,6 +59,12 @@ ht-degree: 100%
    * 如果網站上尚未實作 at.js 或 alloy.js，則 VEC 中會顯示一則訊息，建議您安裝此擴充功能。
 * 如果您嘗試使用新的擴充功能，然後返回[舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，而 [!DNL Target] 無法載入您的網站，請清除所有瀏覽器資料並停用新的擴充功能。
 
+## 常見問題
 
+### 擴充功能在作用中時，會在外部使用時執行任何動作 [!DNL Adobe Target] 或 [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
+只有當相關網站載入iFrame內時，擴充功能才會啟動，位於 [!DNL Adobe] 產品([!DNL Target], [!DNL AJO])。 在此流程之外，擴充功能不會嘗試新增、移除或修改任何標題，且擴充功能不會嘗試插入網站內的任何程式碼。
 
+### 擴充功能在中處於作用中狀態時會做什麼 [!DNL Adobe Target] VEC?
+
+當網站載入iFrame內時， [!DNL Adobe] 產品([!DNL Target], [!DNL AJO])，擴充功能會在網站上插入程式碼（與擴充功能搭配），並從 [!DNL Adobe] CDN以啟用視覺化製作。

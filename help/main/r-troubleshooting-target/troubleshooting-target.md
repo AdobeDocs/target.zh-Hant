@@ -4,9 +4,9 @@ description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，�
 title: 如何疑難排解 Target？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
@@ -159,4 +159,5 @@ ht-degree: 88%
 * [疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [可視化體驗撰寫器最佳做法與限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。請參閱[可視化體驗撰寫器 (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。
