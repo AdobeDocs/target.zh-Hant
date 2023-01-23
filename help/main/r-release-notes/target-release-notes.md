@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5ad7427df49f6091f69fadac96fd55e7b48a4cda
-workflow-type: ht
-source-wordcount: '562'
-ht-degree: 100%
+source-git-commit: 24df83c228ef5ebb9f0cd2234a689244625be9a2
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含搶鮮版版本資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期：2023 年 1 月 19 日**
+**上次更新日期：2023 年 1 月 23 日**
 
 若要檢視目前版本的相關資訊，請參閱「[Target 版本注意事項](release-notes.md)」。 這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 此版本包含以下新功能、增強功能和修正：
 
 * 使用表單式體驗撰寫器在 [!UICONTROL Automated Personalization] (AP) 活動中新增對 JSON 選件的支援。 (TGT-41460)
-* 已實作 AP 活動的 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)。(TGT-44341)
-* [!DNL Recommendations] 活動中的體驗名稱現在以易記的名稱顯示，以便客戶更能將 [!DNL Adobe Analytics] 中的資料和 [!DNL Target] UI 中的資料建立關聯。(TGT-41853)
+* 已實作 [QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md) （針對特定客戶的AP活動）。 在初始測試階段後，所有客戶都能使用此功能。 (TGT-44341)
+* 在 [!UICONTROL Analytics for Target] A4T 報告中新增易記名稱。之前，[!DNL Target] 僅列出體驗 ID。此增強功能使報告在 [!DNL Adobe Analytics] 和 [!DNL Target] 之間保持一致，並幫助客戶簡化在 A4T 中建立報告。(TGT-41853)
 * 已修正在 [!UICONTROL A/B 測試]和包含推薦的 [!UICONTROL  體驗鎖定] (XT) 活動中導致「500 錯誤」的問題。當 [!DNL Target] 無法從 [!DNL Target] UI 和 [!DNL Recommendations] 後端正確地刪除不再使用的標準物件時，即導致此問題。(TGT-44383)
 * 已從 [!UICONTROL  選件層級]報告中移除 [!UICONTROL Automated Personalization] 活動顯示的選件名稱中移除位置。此變更使報告更易讀取。(TGT-44294)
 * 已重新命名 [!UICONTROL  可視化體驗撰寫器]工作流程中的「[!UICONTROL  體驗片段]」選項。 該選項現在是「[!UICONTROL HTML XF]」。 (TGT-44132)
