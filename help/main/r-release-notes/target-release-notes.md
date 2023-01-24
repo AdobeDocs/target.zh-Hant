@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 93%
+source-wordcount: '612'
+ht-degree: 88%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 93%
 | --- | --- |
 | Automated Personalization (AP) | 使用表單式體驗撰寫器在 [!UICONTROL Automated Personalization] (AP) 活動中新增對 JSON 選件的支援。 <br>如需詳細資訊，請參閱 [建立JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
 | Recommendations | 好記名稱，位於 [!UICONTROL Analytics for Target] A4T報表現已可用。 之前，[!DNL Target] 僅列出體驗 ID。此增強功能使報告在 [!DNL Adobe Analytics] 和 [!DNL Target] 之間保持一致，並幫助客戶簡化在 A4T 中建立報告。(TGT-41853) |
+| AEM 體驗片段 | 新增區分 [!DNL Adobe Experience Manager] 片段(AEM XF)類型 [!DNL Target]. 與其使用「體驗片段」選項， [!DNL Target] 現在可讓您依「HTMLXF」和「JSON XF」篩選和搜尋。 <br>[如需詳細資訊，請參閱 AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。(TGT-44132) |
 | 活動 QA | 已實作 [QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md) （針對特定客戶的AP活動）。 在初始測試階段後，所有客戶都能使用此功能。 (TGT-44341) |
 
 * 已修正在 [!UICONTROL A/B 測試]和包含推薦的 [!UICONTROL  體驗鎖定] (XT) 活動中導致「500 錯誤」的問題。當 [!DNL Target] 無法從 [!DNL Target] UI 和 [!DNL Recommendations] 後端正確地刪除不再使用的標準物件時，即導致此問題。(TGT-44383)
 * 已從 [!UICONTROL  選件層級]報告中移除 [!UICONTROL Automated Personalization] 活動顯示的選件名稱中移除位置。此變更使報告更易讀取。(TGT-44294)
-* 已重新命名 [!UICONTROL  可視化體驗撰寫器]工作流程中的「[!UICONTROL  體驗片段]」選項。 該選項現在是「[!UICONTROL HTML XF]」。 (TGT-44132)
 * 已從 AP 和「[!UICONTROL 自動鎖定目標][!UICONTROL 個人化前瞻分析]」和「[!UICONTROL 重要屬性]」報表 ([!DNL Target] UI 中) 移除 45 天和 90 天行事曆選項。 由於使用模式並且為了改善效能，這些日期範圍已被取代。 UI 已更新以反映目前允許的範圍：15、30 和 60 天。 (TGT-39357)
 * 已不允許在活動上線後變更「[!UICONTROL 與最佳化目標相同]」設定 (「[!UICONTROL 目標與設定]」頁面上) 的功能。 (TGT-43923)
 * 已修正從 [!DNL Target Standard] 升級到 [!DNL Target Premium] 時導致 [!DNL Target] 後端中預設工作區出現問題的問題。(TGT-44081 和 TGT-44306)

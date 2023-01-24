@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Adobe Experience Manager] 體驗片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)體驗片段？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1380'
 ht-degree: 18%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 18%
 您必須布建內的體驗片段功能 [!DNL Target]. 此外，您必須使用 [!DNL AEM] as a Cloud Service或 [!DNL AEM] 6.4（或更新版本）。 您的客戶代表可協助確認您是否符合使用此功能的要求。
 
 * [!DNL Adobe Experience Manager ] as a Cloud Service
-* [!DNL Adobe Experience Manager] 6.5。
-* [!DNL Adobe Experience Manager] 6.4。
+* [!DNL Adobe Experience Manager] 6.5.
+* [!DNL Adobe Experience Manager] 6.4.
 * [!DNL Adobe Target Standard] 或 [!DNL Adobe Target Premium] 帳戶。
 
 >[!NOTE]
@@ -50,18 +50,18 @@ ht-degree: 18%
 
 如需詳細資訊，請參閱：
 
-* **AEMas a Cloud Service**: [與Adobe Target整合](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank}，位於 *Experience Manageras a Cloud Service* 指南。
-* **Adobe I/O**: [使用Adobe Target I/0與Adobe整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank}，位於 *管理使用手冊* 檔案。
-* **[!DNL AEM]6.5**: [選擇使用Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank}，位於 *Adobe Experience Manager 6.5* 檔案。
-* **[!DNL AEM]6.4**: [選擇使用Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank}，位於 *Adobe Experience Manager 6.4* 檔案。
+* **AEMas a Cloud Service**: [與Adobe Target整合](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} 在 *Experience Manageras a Cloud Service* 指南。
+* **Adobe I/O**: [使用Adobe Target I/0與Adobe整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} 在 *管理使用手冊* 檔案。
+* **[!DNL AEM]6.5**: [選擇使用Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.5* 檔案。
+* **[!DNL AEM]6.4**: [選擇使用Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} 在 *Adobe Experience Manager 6.4* 檔案。
 
 ### 步驟 2: 建立體驗片段
 
 體驗片段是在中建立 [!DNL AEM]. 如需詳細資訊，請參閱：
 
-* **AEMas a Cloud Service**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank}，位於 *Experience Manageras a Cloud Service* 指南。
-* **[!DNL AEM]6.5**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank}，位於 *Adobe Experience Manager 6.5* 檔案。
-* **[!DNL AEM]6.4**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank}，位於 *Adobe Experience Manager 6.4* 檔案。
+* **AEMas a Cloud Service**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} 在 *Experience Manageras a Cloud Service* 指南。
+* **[!DNL AEM]6.5**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.5* 檔案。
+* **[!DNL AEM]6.4**: [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.4* 檔案。
 
 ### 步驟3:設定 [!DNL AEM] 要與共用體驗片段 [!DNL Target]
 
@@ -78,9 +78,9 @@ ht-degree: 18%
 
 視您的 [!DNL AEM] 版本，請參閱下列連結以取得逐步指示：
 
-* **AEMas a Cloud Service**: [將體驗片段匯出至Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}，位於 *Experience Manageras a Cloud Service* 指南。
-* **[!DNL AEM]6.5**: [將體驗片段匯出至Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank}，位於 *Adobe Experience Manager 6.5* 檔案。
-* **[!DNL AEM]6.4**: [將體驗片段匯出至Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank}，位於 *Adobe Experience Manager 6.4* 檔案。
+* **AEMas a Cloud Service**: [將體驗片段匯出至Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} 在 *Experience Manageras a Cloud Service* 指南。
+* **[!DNL AEM]6.5**: [將體驗片段匯出至Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.5* 檔案。
+* **[!DNL AEM]6.4**: [將體驗片段匯出至Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} 在 *Adobe Experience Manager 6.4* 檔案。
 
 ## 在中使用體驗片段 [!DNL Target] 活動 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -92,6 +92,8 @@ ht-degree: 18%
 >
 >* 體驗片段會匯入至 [!DNL Target] 作為HTML或JSON選件。 體驗片段「主要」版本仍保留在 [!DNL AEM]. 您無法在中編輯體驗片段 [!DNL Target].
 
+
+您可以依 [!UICONTROL HTMLXF] 和 [!UICONTROL JSON XF] 協助您區分匯出至的體驗片段類型 [!DNL Target].
 
 您可以暫留在清單中的體驗片段上，然後按一下 [!UICONTROL 檢視] 圖示 ![檢視圖示](assets/icon_info.png) 若要查看體驗片段的其他相關資訊，包括其公開選件傳送URL及其 [!DNL AEM] 路徑。
 
@@ -160,7 +162,7 @@ ht-degree: 18%
 
 有時整個HTML頁面會包住體驗片段並造成問題。 請確定體驗片段是一小段HTML，而非包含HTML、HEAD、BODY等的完整HTML頁面。
 
-如需詳細資訊，請參閱下列部落格文章： [AEM 6.5:從匯出至Target的體驗片段中移除ClientLib](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
+如需詳細資訊，請參閱下列部落格文章： [AEM 6.5:從匯出至Target的體驗片段中移除ClientLib](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## 訓練影片：搭配使用AEM體驗片段 [!DNL Adobe Target]
 
