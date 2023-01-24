@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+workflow-type: tm+mt
+source-wordcount: '1931'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,21 @@ ht-degree: 100%
 
 Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。[!DNL Adobe] 在以下主要三個使用案例中，也榮獲高分並逐年大幅提升：數位行銷、數位商務以及服務和支援。在所有接受評估的供應商中，[!DNL Target] 在其測試能力上獲得了最高分。
 
-如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
+如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] 社群問答咖啡會
+
+* **體驗最佳化的行動與已驗證使用案例**
+* **2023 年 2 月 1 日星期三**
+* **上午8:00 - 9:00(PST, GMT-8)**
+* **[註冊](https://adobe.ly/3IWsAiX){target=_blank}**
+
+我們將與Brent Kostak一起， [!DNL Adobe Target]，將在此線程中直接與您聊 [!DNL Target] 與Experience Optimization的行動與驗證使用案例相關的問題：
+
+* 中的活動設定工作流程 [!DNL Target]
+* 用於測試和鎖定行動體驗的客戶生命週期量度
+* 運用AI/ML在網頁和應用程式中進行跨管道個人化
+* 行動SDK和API，以支援iOS和Android平台的彈性實作
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
@@ -96,7 +110,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 在供應鏈問題加速發生、服務失能及人員有限的情況下，提高忠誠度是大多數旅遊業、旅館業和餐飲業品牌共同面臨的挑戰。 在 AI 時代，品牌如何在沒有產業所需資源的情況下擴充體驗。 數位化進程加快了 20 到 25 倍，不僅要支援加速的客戶期望，也要透過自動化來擴充團隊。
 
-* **[註冊並觀看網路研討會影片](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[報名觀看網路研討會的錄影](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++詳細資料
 
@@ -221,7 +235,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 ### 使用 [!DNL Adobe Target] 的即時個人化
 
-* **[註冊並觀看網路研討會影片](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[報名觀看網路研討會的錄影](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++詳細資料
 

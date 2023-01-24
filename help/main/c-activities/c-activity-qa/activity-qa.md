@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] QA URL以執行簡易的端�
 title: 如何QA活動？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1832'
-ht-degree: 38%
+source-wordcount: '1881'
+ht-degree: 36%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 38%
 * 與團隊成員分享的連結，無論體驗或活動如何更新，這些連結皆不可能變更或需要重新產生. 此功能可讓您完整測試整個使用者歷程中的活動。
 * 可選擇是否考量對象狀況，這讓市場行銷人員測試鎖定目標條件或忽略鎖定目標條件，以 QA 體驗的外觀，而不必配合對象狀況。
 * 擷取 QA 報表，讓市場行銷人員可以確認量度如預期增加，且 QA 報表資料和生產報表 (適用於非 A4T 報表) 分開。
-* 能夠單獨預覽體驗，或預覽其他滿足傳送條件（頁面/Target請求/對象）的已上線活動。
+* 能夠單獨預覽體驗，或預覽符合傳送條件的其他已上線活動(頁面/[!DNL Target] 要求/對象)。
 * 能夠 QA 整個使用者旅程。您可以利用 QA 連結來存取一次您的網站，然後在活動 QA 期間瀏覽整個網站。您會停留在活動 QA 中直到結束工作階段，或直到您使用 [QA Target書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 強迫自己離開 [!UICONTROL 活動QA]. 如果您的活動橫跨多個網頁，此功能就十分實用。
 
    >[!NOTE]
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 ## 存取和共用 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 從活動的 [!UICONTROL 概述] 頁面，按一下 **[!UICONTROL 活動QA]** 連結。
+1. 從活動的 [!UICONTROL 概述] 頁面，按一下 **[!UICONTROL 活動QA]**.
 
    ![活動 QA 連結](assets/qa_link.png)
 
@@ -51,7 +51,7 @@ ht-degree: 38%
 1. 按一下 **[!UICONTROL 「完成」]**&#x200B;以儲存變更。
 1. 與組織成員共用活動連結URL以進行測試。
 
-   活動連結永不過期，如果有人變更活動或體驗，您不需要重新傳送連結。 不過，如果您套用 [!UICONTROL 對象庫]，而非僅編輯活動，會產生一個您必須重新共用的新連結。
+   活動連結永不過期，如果有人變更活動或體驗，您不需要重新傳送連結。 不過，如果您套用 [!UICONTROL 對象庫]，而非僅編輯活動，會產生您必須再次共用的新連結。
 
    每個活動連結URL（體驗A、體驗B等）都可讓您從對應的體驗開始使用者歷程。 按一下為體驗產生的URL，然後繼續一般的網站瀏覽，以查看多個頁面上的體驗（如果有多個頁面）。 即使體驗橫跨多個頁面 (範本測試或多頁測試)，每個體驗也只會產生一個 URL。
 
@@ -61,9 +61,14 @@ ht-degree: 38%
 
 ## 考量事項 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 此 [!UICONTROL 活動QA] 連結會顯示在 [!UICONTROL 概述] 除外的所有活動類型頁面 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL Automated Personalization] （美聯社）。
+* 此 [!UICONTROL 活動QA] 連結會顯示在 [!UICONTROL 概述] 除外的所有活動類型頁面 [!UICONTROL Automated Personalization] （美聯社）。
+
+   >[!NOTE]
+   >
+   >[活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md) AP活動目前可供測試版方案中的特定客戶使用。 在初始測試階段後，所有客戶都能使用此功能。
+
 * [!UICONTROL 如果帳戶中有太多已儲存的活動，已儲存活動的活動 QA 預覽連結可能會無法載入。]重試預覽連結應可運作。 為避免此情況繼續發生，請封存已不再使用的已儲存活動。
-* [!UICONTROL 以 Analytics 作為報表來源 (A4T) 的活動皆有活動 QA URL。]執行QA時產生的點擊，使用 [!UICONTROL 活動QA] 即使活動上線後，活動資料仍會流向相同的報表套裝。
+* [!UICONTROL 活動QA] URL可搭配活動使用 [Analytics作為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 執行QA時產生的點擊，使用 [!UICONTROL 活動QA] 即使活動上線後，活動資料仍會流向相同的報表套裝。
 * [!UICONTROL 針對已封存的活動或超過結束日期的活動，活動 QA 不會顯示內容。]如果您停用已結束的活動，則必須再次儲存活動 [!UICONTROL 活動QA] 工作。
 * 匯入至的活動 [!DNL Target Standard/Premium] 從 [!DNL Target Classic]，例如)不支援QA URL。
 * 在 [!UICONTROL 自動分配] 和 [!UICONTROL Recommendations] 活動，模型不會受中擷取的造訪影響 [!UICONTROL 活動QA].
@@ -72,13 +77,13 @@ ht-degree: 38%
    您也可以在網站上以帶有空白值的 `at_preview_token` 參數 (例如，`https://www.mysite.com/?at_preview_token=`) 來載入頁面，以手動強迫自己離開。
 
 * 如果您在建立活動時指定「URL是」 [表單式撰寫器中的細分](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 或 [可視化體驗撰寫器中的頁面傳送選項)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81),QA URL無法運作，因為 [!UICONTROL 活動QA] 附加URL參數。 若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
-* 如果您有at.js 1.*x*, [!UICONTROL 活動QA] 如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，模式就不會有黏性。 在這些情況下，您必須將預覽參數新增至導覽至的每個URL。 如果您已實作，則情況相同 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}。
+* 如果您有at.js 1.*x*, [!UICONTROL 活動QA] 如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，模式就不會有黏性。 在這些情況下，您必須將預覽參數新增至導覽至的每個URL。 如果您已實作，則情況相同 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * 如果活動使用多個體驗對象（例如，相同活動中包含的美國和英國網站），則這四個組合（體驗A/US網站、體驗A/UK網站、體驗B/US網站、體驗B/UK網站）不會產生QA連結。 只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。英國QA人員看不到美國網站。
 * 所有 `at_preview` 參數和值皆已完成 URL 編碼。大多數時候，一切都如預期般運作。 不過，有些客戶必須執行負載平衡器或Web伺服器，才會嘗試將查詢字串參數重新編碼。
 
    因為編碼兩次， [!DNL Target] 試圖解碼 `at_preview_token`, [!DNL Target] 無法擷取正確的代號值，導致預覽無法運作。
 
-   Adobe建議您洽詢IT團隊，確定所有預覽參數皆允許列出，這樣這些值就不會以任何方式轉換。
+   [!DNL Adobe] 建議您洽詢IT團隊，確定所有預覽參數皆允許列出，這樣這些值就不會以任何方式轉換。
 
    下表列出可在您的網域中允許列出的參數：
 
@@ -115,6 +120,10 @@ ht-degree: 38%
 | [!UICONTROL 多變數測試] (MVT) | 是 | 是 | 是 |
 | [!UICONTROL Recommendations] | 是 | 是 | 是 |
 
+>[!NOTE]
+>
+>[活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md) AP活動目前可供測試版方案中的特定客戶使用。 在初始測試階段後，所有客戶都能使用此功能。
+
 ## 預覽 URL {#preview}
 
 可針對所有項目產生體驗預覽URL [!DNL Target] 活動類型。 預覽URL可讓您在活動上線之前，直接在網站上查看體驗內容，以供預覽和QA之用。 體驗預覽URL會略過鎖定目標以強制檢視特定體驗。
@@ -134,7 +143,7 @@ ht-degree: 38%
 | [!UICONTROL A/B 測試] | 是 | 是 | 是 |
 | [!UICONTROL 自動分配] | 是 | 是 | 是 |
 | [!UICONTROL 自動鎖定目標] | 是 | 是 | 是 |
-| [!UICONTROL Automated Personalization] （美聯社） | 是 | 是 | 是 |
+| [!UICONTROL Automated Personalization] (AP) | 是 | 是 | 是 |
 | [!UICONTROL 體驗鎖定] (XT) | 是 | 是 | 是 |
 | [!UICONTROL 多變數測試] (MVT) | 是 | 是 | 是 |
 | [!UICONTROL Recommendations] | 是 | 是 | 是 |
