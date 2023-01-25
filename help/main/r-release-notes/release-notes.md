@@ -5,9 +5,9 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
+source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '775'
 ht-degree: 91%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 91%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| Automated Personalization (AP) | 使用表單式體驗撰寫器在 [!UICONTROL Automated Personalization] (AP) 活動中新增對 JSON 選件的支援。 <br>如需詳細資訊，請參閱 [建立JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| [JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md) 支援Automated Personalization(AP) | 使用表單式體驗撰寫器在 [!UICONTROL Automated Personalization] (AP) 活動中新增對 JSON 選件的支援。 (TGT-41460) |
 | Recommendations | 好記名稱，位於 [!UICONTROL Analytics for Target] A4T報表現已可用。 之前，[!DNL Target] 僅列出體驗 ID。此增強功能使報告在 [!DNL Adobe Analytics] 和 [!DNL Target] 之間保持一致，並幫助客戶簡化在 A4T 中建立報告。(TGT-41853) |
-| AEM 體驗片段 | 新增區分 [!DNL Adobe Experience Manager] 片段(AEM XF)類型 [!DNL Target]. 與其使用「體驗片段」選項， [!DNL Target] 現在可讓您依「HTMLXF」和「JSON XF」篩選和搜尋。 <br>[如需詳細資訊，請參閱 AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。(TGT-44132) |
+| [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 新增區分 [!DNL Adobe Experience Manager] 片段(AEM XF)類型 [!DNL Target]. 與其使用「體驗片段」選項， [!DNL Target] 現在可讓您依「HTMLXF」和「JSON XF」篩選和搜尋。 (TGT-44132) |
 
 * 已修正在 [!UICONTROL A/B 測試]和包含推薦的 [!UICONTROL  體驗鎖定] (XT) 活動中導致「500 錯誤」的問題。當 [!DNL Target] 無法從 [!DNL Target] UI 和 [!DNL Recommendations] 後端正確地刪除不再使用的標準物件時，即導致此問題。(TGT-44383)
 * 已從 [!UICONTROL  選件層級]報告中移除 [!UICONTROL Automated Personalization] 活動顯示的選件名稱中移除位置。此變更使報告更易讀取。(TGT-44294)
