@@ -5,9 +5,9 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62b0c6ca313ab5990b5e0bc6d33e913fd0bdd5ef
+source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 93%
 
 ---
