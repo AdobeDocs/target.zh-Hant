@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 57030f8f3c1758c60ef00184b4b6d3dee30731fa
+source-git-commit: 62b0c6ca313ab5990b5e0bc6d33e913fd0bdd5ef
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 96%
+source-wordcount: '746'
+ht-degree: 93%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 96%
 * 已從 AP 和「[!UICONTROL 自動鎖定目標][!UICONTROL 個人化前瞻分析]」和「[!UICONTROL 重要屬性]」報表 ([!DNL Target] UI 中) 移除 45 天和 90 天行事曆選項。 由於使用模式並且為了改善效能，這些日期範圍已被取代。 UI 已更新以反映目前允許的範圍：15、30 和 60 天。 (TGT-39357)
 * 已不允許在活動上線後變更「[!UICONTROL 與最佳化目標相同]」設定 (「[!UICONTROL 目標與設定]」頁面上) 的功能。 (TGT-43923)
 * 已修正從 [!DNL Target Standard] 升級到 [!DNL Target Premium] 時導致 [!DNL Target] 後端中預設工作區出現問題的問題。(TGT-44081 和 TGT-44306)
+* 進行變更以允許 [!DNL Analytics] 包含點字元「」的報表套裝。 在他們的名字裡 [!DNL Target] 要建立的UI [!DNL Analytics] 分類摘要。
 * 已變更「使用裝置上決策的實作方法」的 [!UICONTROL 實作]頁面 ([!UICONTROL 管理] > [!UICONTROL 實作]) 上的連結，以指向說明如何使用裝置上決策來操作所有受支援 SDK (Node.js、Java、.NET 和 Python) 的頁面。如需詳細資訊，請參閱[開始使用 Target SDK](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 * 已修正使用 [!DNL Scene7] 和 [!DNL Target] 時導致檔案上傳問題的問題。
 * 已透過使用內部可用性稽核的結果，增強了 [!DNL Target] UI 對殘障人士的無障礙支援。這些無障礙支援增強功能包括存取以前無法透過鍵盤存取的功能、替代文字增強功能、縮放 UI 部分以提高可用性的能力、提升的鍵盤焦點等等。(TGT-42759)
