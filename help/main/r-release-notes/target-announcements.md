@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 ## [!DNL Adobe Target] 社群問答咖啡會
 
-* **體驗最佳化的行動與已驗證使用案例**
+* **體驗最佳化的行動裝置和驗證使用案例**
 * **2023 年 2 月 1 日星期三**
-* **上午8:00 - 9:00(PST, GMT-8)**
-* **[註冊](https://adobe.ly/3IWsAiX){target=_blank}**
+* **上午 8 點到 9 點 (PST, GMT-8)**
+* **[報名](https://adobe.ly/3IWsAiX){target=_blank}**
 
-我們將與Brent Kostak一起， [!DNL Adobe Target]，將在此線程中直接與您聊 [!DNL Target] 與Experience Optimization的行動與驗證使用案例相關的問題：
+[!DNL Adobe Target]的產品行銷經理 Brent Kostak 將加入我們的行列，他將在此對話串中直接與您討論 [!DNL Target] 與「體驗最佳化的行動裝置和驗證使用案例」相關的問題：
 
-* 中的活動設定工作流程 [!DNL Target]
-* 用於測試和鎖定行動體驗的客戶生命週期量度
-* 運用AI/ML在網頁和應用程式中進行跨管道個人化
-* 行動SDK和API，以支援iOS和Android平台的彈性實作
+* [!DNL Target] 中活動設定的工作流程
+* 用於測試和定位行動裝置體驗的客戶生命週期量度
+* 利用 AI/ML 在 Web 和應用程式中實現跨管道個人化
+* 用於靈活實施的行動 SDK 和 API (支援 iOS 和 Android 平台)
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
@@ -110,7 +110,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 在供應鏈問題加速發生、服務失能及人員有限的情況下，提高忠誠度是大多數旅遊業、旅館業和餐飲業品牌共同面臨的挑戰。 在 AI 時代，品牌如何在沒有產業所需資源的情況下擴充體驗。 數位化進程加快了 20 到 25 倍，不僅要支援加速的客戶期望，也要透過自動化來擴充團隊。
 
-* **[報名觀看網路研討會的錄影](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[註冊並觀看網路研討會影片](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++詳細資料
 
@@ -210,7 +210,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
    +++詳細資料
 
-   加入 Christopher Young (產業策略金融服務總監) and James Capasso (Adobe Premier Support 的 Target 顧問)，了解品牌如何回應需求的即時變化，同時與客戶互動時以個人化為中心。 了解金融服務公司如何使用個人化支援並知會客戶，讓全球關心最近通貨膨脹模式及其投資情況的客戶了解狀況。
+   加入 Christopher Young (產業策略金融服務總監) 和 James Capasso (Adobe Premier Support 的 Target 顧問)，了解品牌如何回應需求的即時變化，同時與客戶互動時以個人化為中心。 了解金融服務公司如何使用個人化支援並知會客戶，讓全球關心最近通貨膨脹模式及其投資情況的客戶了解狀況。
 
 +++
 
@@ -235,7 +235,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 ### 使用 [!DNL Adobe Target] 的即時個人化
 
-* **[報名觀看網路研討會的錄影](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[註冊並觀看網路研討會影片](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++詳細資料
 
