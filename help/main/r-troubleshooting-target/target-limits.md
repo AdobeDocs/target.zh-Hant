@@ -5,7 +5,7 @@ title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
+source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 93%
@@ -163,17 +163,17 @@ ht-degree: 93%
 
 * **上限**：250 個字元。
 
-針對傳送API(at.js 2.*x*)、批次mbox V2和AEP Web SDK(alloy.js)整合、mbox名稱 *can* 包含英數字元(A-Z、a-z、0-9)和下列任一字元：
+   針對傳送API(at.js 2.*x*)、批次mbox V2和AEP Web SDK(alloy.js)整合、mbox名稱 *can* 包含英數字元(A-Z、a-z、0-9)和下列任一字元：
 
-```
-- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-```
+   ```
+   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+   ```
 
-針對at.js 1.*x* 整合， mbox名稱 *不能* 包含下列任一字元：
+   針對at.js 1.*x* 整合， mbox名稱 *不能* 包含下列任一字元：
 
-```
-' " %22 %27 < > %3C %3E 
-```
+   ```
+   ' " %22 %27 < > %3C %3E 
+   ```
 
 ### mbox 參數 {#mbox-parameters}
 
