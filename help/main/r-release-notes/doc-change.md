@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c58b7627d776bccf36165b80ed30f8537fc8f5e
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 99%
+source-wordcount: '1978'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2 月 2 日 | [排解可視化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 已更新下列章節：<ul><li>使用瀏覽模式時，VEC似乎損毀</li></ul> |
+|  | [在 Target 中建立對象](/help/main/c-target/c-audiences/create-audience.md) | 新增無法用於對象名稱的字元和字元順序清單。 |
 | 1 月 31 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | 已新增 mbox 名稱中可使用和不可使用的字元清單。 |
 | 1 月 25 日 | [建立 JSON 選件](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 表示現在已可使用表單式體驗撰寫器支援 [!UICONTROL Automated Personalization] (AP) 活動中的 JSON 選件。 |
 |  | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會：體驗最佳化的行動裝置和驗證使用案例</li></ul> |

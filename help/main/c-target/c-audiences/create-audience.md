@@ -4,10 +4,10 @@ description: 了解如何建立自訂對象並儲存至 [!DNL Adobe Target] [!UI
 title: 如何建立對象？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 61%
+source-wordcount: '539'
+ht-degree: 59%
 
 ---
 
@@ -46,6 +46,15 @@ ht-degree: 61%
    若要複製現有對象，請從 [!UICONTROL 對象] 清單，按一下 **[!UICONTROL 更多動作]** 表徵圖（刪節號表徵圖），然後按一下 **[!UICONTROL 複製]**. 然後您可以編輯受眾以建立類似的受眾。
 
 1. 輸入不重複、描述性的對象名稱和選用的說明。
+
+   對象名稱的開頭不能為下列字元：
+
+   `=  +  -  !  @`
+
+   對象名稱不能包含下列任一字元序列：
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. 從 **[!UICONTROL 屬性]** 清單（位於audience builder窗格右側）。
 
    ![拖放屬性](assets/drag-attribute.png)
