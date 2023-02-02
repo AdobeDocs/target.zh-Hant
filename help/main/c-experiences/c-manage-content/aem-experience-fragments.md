@@ -4,24 +4,28 @@ description: 了解如何使用 [!DNL Adobe Experience Manager] 體驗片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)體驗片段？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
+source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 18%
+source-wordcount: '1448'
+ht-degree: 16%
 
 ---
 
 # AEM 體驗片段
 
-使用中建立的體驗片段 [!DNL Adobe Experience Manager] (AEM) [!DNL Target] 活動來協助最佳化或個人化。
+使用中建立的體驗片段(XF) [!DNL Adobe Experience Manager] (AEM) [!DNL Target] 活動來協助最佳化或個人化。
 
 >[!NOTE]
 >
->此功能需要您 [!DNL Adobe Experience Manager] (AEM)客戶。 如需詳細資訊，請參閱 [需求](#section_AE6F0971E1574B3AA324003599B96E5A) 下方。
+>在中處理AEM體驗片段時，請考量下列事項 [!DNL Target]:
+> 
+>* 此功能需要您 [!DNL Adobe Experience Manager] (AEM)客戶。 如需詳細資訊，請參閱 [需求](#section_AE6F0971E1574B3AA324003599B96E5A) 下方。
+>* 此功能適用於下列活動類型： [!UICONTROL A/B測試], [!UICONTROL 自動分配], [!UICONTROL 自動鎖定目標], [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 體驗鎖定] (XT)。 此功能在 [!UICONTROL 多變數測試] (MVT)和 [!UICONTROL Recommendations] 活動。
+
 
 使用中建立的體驗片段 [!DNL AEM] in [!DNL Target] 活動可讓您結合的易用性和強大功能 [!DNL AEM] 在 [!DNL Target] 大規模測試並個人化體驗。
 
-[!DNL AEM] 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。[!DNL AEM] 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面。 [!DNL AEM] 會使用您的內容自動調整每個體驗。
+[!DNL AEM] 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。[!DNL AEM] 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面。 [!DNL AEM] 使用您的內容自動調整每個裝置的每個體驗。
 
 [!DNL Target] 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。使用 [!DNL Target]，您可以輕鬆設定和執行 [A/B測試](/help/main/c-activities/t-test-ab/test-ab.md) 和 [多變數](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT)活動，以決定最佳選件、內容和體驗。
 
@@ -95,7 +99,11 @@ ht-degree: 18%
 
 您可以依 [!UICONTROL HTMLXF] 和 [!UICONTROL JSON XF] 協助您區分匯出至的體驗片段類型 [!DNL Target].
 
-您可以暫留在清單中的體驗片段上，然後按一下 [!UICONTROL 檢視] 圖示 ![檢視圖示](assets/icon_info.png) 若要查看體驗片段的其他相關資訊，包括其公開選件傳送URL及其 [!DNL AEM] 路徑。
+![依體驗片段類型篩選：HTML或JSON（在Target UI中）](/help/main/c-experiences/c-manage-content/assets/fragment-types.png)
+
+您可以暫留在清單中的體驗片段上，然後按一下 [!UICONTROL 檢視] 圖示 ![檢視圖示](assets/icon_info.png) 若要查看體驗片段的其他相關資訊，包括其名稱、類型、選件ID、選件路徑，以及上次修改資訊。 按一下「選件使用量」標籤，查看參考此選件的活動。
+
+![體驗片段資訊快顯視窗](/help/main/c-experiences/c-manage-content/assets/xf-info-popup.png)
 
 您可以在 [!DNL Target] 活動使用 [可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)或 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md).
 
@@ -131,8 +139,6 @@ ht-degree: 18%
    * **自動鎖定目標：** [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Automated Personalization (AP):**[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **多變數測試 (MVT):** [建立多變數測試](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **建議:** [建立建議活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 >[!NOTE]
 >
