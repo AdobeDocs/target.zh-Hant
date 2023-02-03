@@ -4,7 +4,7 @@ description: 了解如何建立自訂對象並儲存至 [!DNL Adobe Target] [!UI
 title: 如何建立對象？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 59%
@@ -53,7 +53,7 @@ ht-degree: 59%
 
    對象名稱不能包含下列任一字元序列：
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. 從 **[!UICONTROL 屬性]** 清單（位於audience builder窗格右側）。
 
