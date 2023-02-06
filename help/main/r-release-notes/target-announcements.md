@@ -4,9 +4,9 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
-workflow-type: ht
-source-wordcount: '1931'
+source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
+workflow-type: tm+mt
+source-wordcount: '1843'
 ht-degree: 100%
 
 ---
@@ -20,20 +20,6 @@ ht-degree: 100%
 Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。[!DNL Adobe] 在以下主要三個使用案例中，也榮獲高分並逐年大幅提升：數位行銷、數位商務以及服務和支援。在所有接受評估的供應商中，[!DNL Target] 在其測試能力上獲得了最高分。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-## [!DNL Adobe Target] 社群問答咖啡會
-
-* **體驗最佳化的行動裝置和驗證使用案例**
-* **2023 年 2 月 1 日星期三**
-* **上午 8 點到 9 點 (PST, GMT-8)**
-* **[報名](https://adobe.ly/3IWsAiX){target=_blank}**
-
-[!DNL Adobe Target]的產品行銷經理 Brent Kostak 將加入我們的行列，他將在此對話串中直接與您討論 [!DNL Target] 與「體驗最佳化的行動裝置和驗證使用案例」相關的問題：
-
-* [!DNL Target] 中活動設定的工作流程
-* 用於測試和定位行動裝置體驗的客戶生命週期量度
-* 利用 AI/ML 在 Web 和應用程式中實現跨管道個人化
-* 用於靈活實施的行動 SDK 和 API (支援 iOS 和 Android 平台)
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
