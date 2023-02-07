@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
 source-wordcount: '1978'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2 月 2 日 | [排解可視化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 已更新下列章節：<ul><li>使用瀏覽模式時，VEC似乎損毀</li></ul> |
+| 2 月 2 日 | [排解視覺化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 已更新下列部分：<ul><li>當我使用瀏覽模式時，VEC 似乎損毀</li></ul> |
 |  | [在 Target 中建立對象](/help/main/c-target/c-audiences/create-audience.md) | 新增無法用於對象名稱的字元和字元順序清單。 |
 | 1 月 31 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | 已新增 mbox 名稱中可使用和不可使用的字元清單。 |
 | 1 月 25 日 | [建立 JSON 選件](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 表示現在已可使用表單式體驗撰寫器支援 [!UICONTROL Automated Personalization] (AP) 活動中的 JSON 選件。 |
@@ -42,7 +42,7 @@ ht-degree: 98%
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 新增關於模型 API 版本 (2022 年 11 月 23 日) 的資訊。 |
 | 11 月 23 日 | [使用 at.js 實作 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 已更新指向 [Marketing Cloud 整合佈建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} 的連結。 |
 | 11 月 16 日 | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的報名資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)</li></ul> |
-| 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增了實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank} 中的注意事項。 |
+| 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增了實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){target=_blank} 中的注意事項。 |
 |  | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 更新表格中 `adobe_mc_sdid` 參數的說明。 |
 |  | [疑難排解活動](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 加入新章節：「活動轉換後，訪客沒有任何體驗。」 |
 |  | [自訂參數](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 新增注意事項：從「[!UICONTROL 篩選依據]」下拉式清單選取的 mbox 未在建立活動時儲存。此選項可讓您根據選取的 mbox 篩選參數。 |
