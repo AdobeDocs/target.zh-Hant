@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
+source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 100%
+source-wordcount: '812'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 100%
 這些版本注意事項提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的版本注意事項以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## at.js版本2.10.1（2023年2月2日）
+
+* 修正對象規則相關活動（其名稱中包含點的參數）未傳回預期體驗的錯誤，以便在裝置上做出決策。
+* 修正at.js 2.6.0中at.js觸發傳送呼叫的錯誤，即使在 `mboxDisable` 已啟用。
+
+如需所有at.js版本的相關資訊，請參閱 [at.js版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 22.13.3 (2023 年 1 月 25 - 26 日)
 
