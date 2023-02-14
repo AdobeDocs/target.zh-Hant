@@ -1,5 +1,5 @@
 ---
-keywords: 版本說明；新功能；版本；更新；更新；版本；增強功能；修正；錯誤修正；更新
+keywords: 發行說明;新功能;發行;更新;更新;發行;增強功能;增強功能;修正;錯誤修正;更新
 description: 了解  [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 程式庫。
 landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新功能、增強功能和修正。
 title: 目前發行的版本包含哪些內容？
@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 ## at.js 版本 2.10.1 (2023 年 2 月 2 日)
 
 * 已修正涉及閱聽眾規則 (包含名稱中帶有點的參數) 的活動中未傳回預期體驗以進行裝置上決策的錯誤。
-* 修正at.js 2.6.0中，at.js觸發傳送呼叫(即使在 `mboxDisable` 已啟用。
+* 已修正 at.js 2.6.0 中引進的錯誤，亦即即使已啟用 `mboxDisable`，at.js 仍會觸發傳送呼叫。
 
 有關所有 at.js 版本的資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 
