@@ -4,10 +4,10 @@ description: 了解如何建立 [!UICONTROL Automated Personalization] (AP)中�
 title: 如何建立 [!UICONTROL Automated Personalization] 活動？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 8a791d4266cb03fef498ac6f852d4a5755ba66a6
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 61%
+source-wordcount: '1854'
+ht-degree: 60%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 61%
    | [!UICONTROL 目標] | (可選) 輸入測試的目標。目標可幫助您記住活動的目的。 |
    | [!UICONTROL 優先順序] | 視您的設定而定，[!UICONTROL 優先順序]的 UI 和選項可能有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。<br>如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<br>若未在 [!UICONTROL 管理] > [!UICONTROL 報表] （預設值），指定優先順序：低、中或高。<br>若要啟用微調優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報表]，然後切換 [!UICONTROL 啟用微調優先順序] 選項至「開啟」位置。<br>如果已啟用此選項，請指定介於 0 和 999 之間的值:<ul><li>0 = 低</li><li>999 = 高</li></ul>對於在舊版 [!DNL Target Standard/Premium] 中建的立活動，低優先順序會轉換為 0，中會轉換為 5，而高則轉換為 10。您可以視需要調整這些值。<br>****&#x200B;注意: 在使用微調優先順序後，在您可以停用此選項之前，必須將所有優先順序設定回 0、5 和 10。 |
    | [!UICONTROL 持續時間] | 設定活動的開始和結束日期。您可以選取 [!UICONTROL 啟動時] 或者，您可以指定特定的日期和時間。 |
-   | [!UICONTROL 最佳化目標] | 指定最佳化目標，其中包含兩個參數:<ul><li>要使用活動測量的項目</li><li>活動加入者採取的動作，顯示已達成目標。</li></ul>您可以選取最佳化目標右側的三個點，以選擇為最佳化目標命名 [!UICONTROL 我的主要目標]. [!UICONTROL 自動個人化活動可以測量轉換、RPV 和 AOV。]轉換可透過檢視頁面或檢視 mbox 來達成。也可以追蹤點擊。<br>主要目標也會變成模型量度，供模型系統用來計算體驗的成功。<br>您可以在達到模型目標之後，基於追蹤目的，讓使用者保持在活動中。例如，通常 [!UICONTROL Automated Personalization] 活動可用來改善點按率，並設為模型目標。 不過，務必查看增加的點擊率如何造成最終轉換，使得透過最終的轉換進行追蹤非常必要。<br>您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。<br>您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。<br>「新增相依性」選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。<br>若要新增相依性:<ol><li>新增其他量度後，按一下 **[!UICONTROL 進階設定]** 在右側的三點菜單下 [!UICONTROL 其他目標].</li><li>按一下[!UICONTROL 「報表設定」]區段底部的&#x200B;**[!UICONTROL 「新增相依性」]**&#x200B;選項。</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下[!UICONTROL 「達到」]以在[!UICONTROL 「達到」]與[!UICONTROL 「未達到」]之間切換設定。</li></ol>您可以在新增相依性之後加以編輯或移除。 |
+   | [!UICONTROL 最佳化目標] | 指定最佳化目標，其中包含兩個參數:<ul><li>要使用活動測量的項目</li><li>活動加入者採取的動作，顯示已達成目標。</li></ul>您可以選取最佳化目標右側的三個點，以選擇為最佳化目標命名 [!UICONTROL 我的主要目標]. [!UICONTROL Automated Personalization] 活動可測量 [!UICONTROL 轉換] 或 [!UICONTROL 收入]. 轉換可透過檢視頁面或檢視 mbox 來達成。也可以追蹤點擊。<br>主要目標也會變成模型量度，供模型系統用來計算體驗的成功。<br>您可以在達到模型目標之後，基於追蹤目的，讓使用者保持在活動中。例如，通常 [!UICONTROL Automated Personalization] 活動可用來改善點按率，並設為模型目標。 不過，務必查看增加的點擊率如何造成最終轉換，使得透過最終的轉換進行追蹤非常必要。<br>您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。<br>您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。<br>「新增相依性」選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。<br>若要新增相依性:<ol><li>新增其他量度後，按一下 **[!UICONTROL 進階設定]** 在右側的三點菜單下 [!UICONTROL 其他目標].</li><li>按一下[!UICONTROL 「報表設定」]區段底部的&#x200B;**[!UICONTROL 「新增相依性」]**&#x200B;選項。</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下[!UICONTROL 「達到」]以在[!UICONTROL 「達到」]與[!UICONTROL 「未達到」]之間切換設定。</li></ol>您可以在新增相依性之後加以編輯或移除。 |
    | [!UICONTROL 轉換量度] | 根據預設，轉換量度與最佳化目標量度相同。不過，您可以取消勾選[!UICONTROL 與最佳化目標相同]選項，以定義不同的轉換量度。 |
    | [!UICONTROL 其他量度] | 新增您要使用的任何其他報表量度。 您可以新增轉換或收入量度。<br>**注意**: 參與量度也不支援作為其他量度。UI可讓您選取 [!UICONTROL 參與] 量度，但資料在報表中無法正確顯示。 |
    | [!UICONTROL 報表的對象] | 新增對象以在報表中啟用按對象篩選。依預設，報表會顯示所有合格訪客的結果。新增對象以篩選結果，以獲得更明確的訪客子集。<br>**附註**:不同於其他活動類型， [!UICONTROL Automated Personalization] 無法使用 [!UICONTROL Adobe Analytics] 作為其報表來源(A4T)。 |
