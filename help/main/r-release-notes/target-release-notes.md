@@ -1,13 +1,13 @@
 ---
 keywords: 版本注意事項;發行;更新;未來發行;增強;新功能;修正;更新;版本注意事項
 description: 了解 Adobe Target 目前版本包含的新功能、增強功能和修正，其中包括 SDK、API 和 JavaScript 程式庫。
-title: 即將推出的功能包括哪些新功能和增強功能 [!DNL Target] 釋放？
+title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 70%
 
 若要檢視目前版本的相關資訊，請參閱 [Target 版本注意事項](release-notes.md)。這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 22.14.5（2023年2月13-15日）
+## [!DNL Target] Standard/Premium 22.14.5 (2023 年 2 月 13-15 日)
 
 我們將根據以下排程分批發行此版本：
 
-* **2月13日**:美洲地區
-* **2月15日**:歐洲、中東和非洲(EMEA)地區
-* **2月15日**:亞太地區
+* **2 月 13 日**：美洲區域
+* **2 月 15 日**：歐洲、中東和非洲 (EMEA) 區域
+* **2 月 15 日**：亞太 (APAC) 區域
 
 此版本包含下列修正：
 
-* 修正即使在Automated Personalization(AP)活動中指定屬性，仍導致下列錯誤訊息的問題：「錯誤：至少有一個屬性必須屬於非預設工作區」(TGT-44607)
-* 修正影響伺服器端Recommendations摘要的潛在安全性問題。 (TGT-43769)
+* 修正了即使在 Automated Personalization (AP) 活動中指定了屬性也會導致以下錯誤訊息的問題：「錯誤：至少一個屬性必須屬於非預設工作區」(TGT-44607)
+* 修正了影響伺服器端 Recommendations 摘要的潛在安全性問題。 (TGT-43769)
 
 ## 額外的版本注意事項和版本詳細資料
 
