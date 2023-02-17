@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 92%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 22.14.5（2023年2月13-15日）
+## [!DNL Target] Standard/Premium 22.14.5 (2023 年 2 月 13-15 日)
 
 我們將根據以下排程分批發行此版本：
 
-* **2月13日**:美洲地區
-* **2月15日**:歐洲、中東和非洲(EMEA)地區
-* **2月15日**:亞太地區
+* **2 月 13 日**：美洲區域
+* **2 月 15 日**：歐洲、中東和非洲 (EMEA) 區域
+* **2 月 15 日**：亞太 (APAC) 區域
 
 此版本包含下列修正：
 
-* 修正即使在Automated Personalization(AP)活動中指定屬性，仍導致下列錯誤訊息的問題：「錯誤：至少有一個屬性必須屬於非預設工作區」(TGT-44607)
-* 修正影響伺服器端Recommendations摘要的潛在安全性問題。 (TGT-43769)
+* 修正了即使在 Automated Personalization (AP) 活動中指定了屬性也會導致以下錯誤訊息的問題：「錯誤：至少一個屬性必須屬於非預設工作區」(TGT-44607)
+* 修正了影響伺服器端 Recommendations 摘要的潛在安全性問題。 (TGT-43769)
 
 ## at.js 版本 2.10.1 (2023 年 2 月 2 日)
 
