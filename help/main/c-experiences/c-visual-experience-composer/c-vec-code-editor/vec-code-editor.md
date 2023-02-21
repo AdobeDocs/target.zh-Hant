@@ -4,7 +4,7 @@ description: 了解如何在Adobe中使用修改面板 [!DNL Target] 檢視頁�
 title: 我可以對頁面進行哪些修改？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 87%
@@ -139,17 +139,17 @@ ht-degree: 87%
 
 * 在 DOM 就緒時交換，使用 jQuery
 
-下列使用JQuery的範例假設客戶的網站在 [!DNL Target] 會執行選件。
+   下列使用JQuery的範例假設客戶的網站在 [!DNL Target] 會執行選件。
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * 在 DOM 就緒上交換，無 jQuery (不支援 Internet Explorer 8)
 
