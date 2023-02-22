@@ -4,10 +4,10 @@ description: 了解如何使用開放原始碼Velocity設計語言，在Adobe中
 title: 如何使用Velocity自訂設計？
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 46%
+source-wordcount: '1067'
+ht-degree: 44%
 
 ---
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 如需Velocity變數（屬性）的詳細資訊，請參閱 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-如果您在設計中使用設定檔指令碼，指令碼名稱前面的 $ 必須以 \ 來轉譯。例如, `\${user.script_name}`。
+如果您在設計中使用設定檔指令碼，指令碼名稱前面的$必須以 `\` （反斜線）。 例如：
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
