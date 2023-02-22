@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
-workflow-type: ht
-source-wordcount: '1999'
-ht-degree: 100%
+source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
+workflow-type: tm+mt
+source-wordcount: '2053'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2 月 21 日 | [允許清單 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 更新IP位址清單，以允許列出 [Adobe Target開發人員指南](https://developer.adobe.com/target/){target=_blank}. |
+|  | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 已新增文字，說明使用JQuery的範例假設客戶的網站在 [!DNL Target] 會執行選件。 |
 | 2 月 10 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.14.5 版的版本注意事項。 |
 | 2 月 8 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 at.js 2.10.1 的發行說明。 |
 | 2 月 2 日 | [排解視覺化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 已更新下列部分：<ul><li>當我使用瀏覽模式時，VEC 似乎損毀</li></ul> |
@@ -94,11 +96,11 @@ ht-degree: 100%
 | 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的 [!DNL Adobe Target] 社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
 | 5 月 25 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
 |  | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增關於 at.js 2.9.0 版的資訊。 |
-|  | [使用者代理和用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新主題。 |
+|  | [使用者代理和用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}。  | 新主題。 |
 |  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增用來錄製以下網絡研討會的連結：Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日) |
 | 5 月 23 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 at.js 2.9.0 版 (2022 年 5 月 25 日) 搶鮮版版本注意事項。 |
 | 5 月 11 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增有關下列網路研討會的資訊與報名資訊：<ul><li>Dick&#39;s Sporting Goods：個人化及改變零售業格局</li><li>Adobe：個人化的業界內幕 - 金融服務業和保險業</li><li>City National Bank：如何在數位最佳化中成為排名 1% 的銀行</li><li>Adobe：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>City National Bank：Zero to Hero - 展開並擴展個人化方案</li><li>Adobe：發掘高影響力的最佳化機會</li><li>Adobe：個人化的業界內幕 - 零售業</li></ul>新增下列網路研討會的影片：<ul><li>使用 [!DNL Adobe Target] 的即時個人化</li></ul> |
-|  | [內容安全性原則 (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | 新增常見問題區段。 |
+|  | [內容安全性原則 (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank}。  | 新增常見問題區段。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台 (2022 年 5 月 11 日至 13 日) 版本的資訊。 |
 
 ## Adobe Target Standard/Premium 22.4.1 (4 月 28 日)
@@ -151,12 +153,12 @@ ht-degree: 100%
 | --- | --- | --- |
 | 1 月 31 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.2.1 版的搶鮮版資訊。 |
 | 1 月 28 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
-|  | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增關於 at.js 2.8.1 版的資訊。 |
+|  | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。  | 已新增關於 at.js 2.8.1 版的資訊。 |
 | 1 月 27 日 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並新增了 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的相關資訊。 |
 | 1 月 26 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.1.2 版的資訊。 |
 |  | [建立對象](/help/main/c-target/c-audiences/audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
 |  | [合併多個對象](/help/main/c-target/combining-multiple-audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
-| 1 月 21 日 | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增關於 at.js 1.8.3 版的資訊。 |
+| 1 月 21 日 | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。  | 已新增關於 at.js 1.8.3 版的資訊。 |
 | 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立對象」 |
 | 1 月 12 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.1.1 版的資訊。 |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 已新增教學課程的連結，其中包括如何使用 Web SDK 來實作 [!DNL Adobe Experience Cloud] 的說明。 |
