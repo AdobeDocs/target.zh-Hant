@@ -1,13 +1,13 @@
 ---
-keywords: Target；首頁；熱門主題；adobe target;target standard;target premium;target檔案；adobe target檔案
+keywords: Target;首頁;熱門主題;adobe target;target standard;target premium;target 文件;adobe target 文件
 title: Adobe Target 商務從業者指南
 description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
