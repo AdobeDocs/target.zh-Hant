@@ -5,9 +5,9 @@ title: 什麼是主機？如何使用？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1088'
 ht-degree: 21%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**:如果您使用的ubox功能 [!DNL Target]，此允許清單也會控制您 [重新導向](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank}可導覽。 在實作中使用ubox時，請確定您新增要重新導向的任何網域。 如果允許清單未指定， [!DNL Adobe] 無法驗證重新導向URL並防止潛在的惡意重新導向。
+>**安全性最佳實務**:如果您使用的ubox功能 [!DNL Target]，此允許清單也會控制您 [重新導向](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} 可導覽。 在實作中使用ubox時，請確定您新增要重新導向的任何網域。 如果允許清單未指定， [!DNL Adobe] 無法驗證重新導向URL並防止潛在的惡意重新導向。
 >
 >允許清單優先於環境。 使用允許清單功能之前，請清除所有主機，然後只有允許清單允許的主機才會顯示在您的主機清單中。 接著可將主機移至想要的環境中。
 

@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations
+keywords: 建議
 description: 了解Analytics的實作需求，適用於 [!DNL Target] (A4T)以及實作此整合前應考量的事項。
 title: 實作A4T之前應該知道什麼？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '988'
 ht-degree: 26%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->開始使用A4T之前，您必須要求已針對整合布建您的帳戶。 使用 [Marketing Cloud整合布建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}請求布建。
+>開始使用A4T之前，您必須要求已針對整合布建您的帳戶。 使用 [Marketing Cloud整合布建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} 請求布建。
 
 視您是否要搭配A4T使用重新導向選件而定，此A4T整合需要您實作下列程式庫版本（或更新版本）。
 
 >[!NOTE]
 >
->下列需求列出 *最小* 實作A4T所需的at.js版本。 此 [!DNL Target] team只維護兩個版本 [!DNL at.js] — 當前版本和次新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每個版本包含內容的詳細資訊，請參閱 [at.js版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+>下列需求列出 *最小* 實作A4T所需的at.js版本。 此 [!DNL Target] team只維護兩個版本 [!DNL at.js] — 當前版本和次新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每個版本包含內容的詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### *不*&#x200B;搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -41,7 +41,7 @@ ht-degree: 26%
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
-如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
+如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ### 搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -59,7 +59,7 @@ ht-degree: 26%
 
 下載和部署指示列於 [Analytics for Target實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
+如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ## 實施前須知 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

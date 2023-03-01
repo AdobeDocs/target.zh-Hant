@@ -1,20 +1,20 @@
 ---
 keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬性; 屬性; at_property; 角色; 權限
-description: 瞭解如何向Adobe Target添加用戶；建立工作區、用戶組和屬性；更新實施；並指定角色和權限。
+description: 了解如何將使用者新增至Adobe Target;建立工作區、使用者群組和屬性；更新實作；和指定角色和權限。
 title: 如何配置企業權限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 66%
 
 ---
 
 # ![PREMIUM](/help/main/assets/premium.png) 設定企業權限
 
-有關將用戶添加到您的 [!DNL Target] 實施；建立工作區、用戶組和屬性；更新 [!DNL Target] 包括 `at_property` 參數；並指定角色和權限。
+新增使用者至您的 [!DNL Target] 實施；建立工作區、使用者群組和屬性；更新 [!DNL Target] 實作以包含 `at_property` 參數；和指定角色和權限。
 
 >[!NOTE]
 >
@@ -24,36 +24,36 @@ ht-degree: 66%
 
 | 任務 | 執行於 |
 |--- |--- |
-| 1。添加用戶（可選） | [!DNL Adobe Admin Console for Enterprise] |
-| 2.建立工作區（產品配置檔案） | [!DNL Adobe Admin Console for Enterprise] |
-| 3.建立用戶組（可選） | [!DNL Adobe Admin Console for Enterprise] |
+| 1.新增使用者（選用） | [!DNL Adobe Admin Console for Enterprise] |
+| 2.建立工作區（產品設定檔） | [!DNL Adobe Admin Console for Enterprise] |
+| 3.建立使用者群組（選用） | [!DNL Adobe Admin Console for Enterprise] |
 | 4.建立屬性 | [!DNL Target] UI |
-| 5:更新實施以包括 `at_property` 參數 | [!DNL Target] UI、at.js函式或中的標籤 [!DNL Adobe Experience Platform] |
+| 5:更新您的實作以包含 `at_property` 參數 | [!DNL Target] UI、at.js函式或中的標籤 [!DNL Adobe Experience Platform] |
 | 6: 指定角色和權限 | [!DNL Adobe Admin Console for Enterprise] |
 
-對於在 [!DNL Adobe Admin Console for Enterprise]，按照以下步驟訪問控制台：
+針對 [!DNL Adobe Admin Console for Enterprise]，請依照下列步驟存取主控台：
 
-1. 在Adobe Target，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 屬性]** > **[!UICONTROL 將屬性分配給工作區]**。
+1. 在Adobe Target中，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 屬性]** > **[!UICONTROL 將屬性指派給工作區]**.
 
    或
 
-   轉到 [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) >如果尚未登錄，請使用Adobe ID登錄。
+   前往 [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) >使用Adobe ID登入（如果尚未登入）。
 
 
 1. (條件式) 如果您可以存取一個以上組織的 [!DNL Admin Console for Enterprise]，請按一下右上角或上方導覽列中的使用者頭像，然後選取需要的組織。
 
-## 步驟 1.添加用戶（可選） {#section_A92AF0F921B743FEB9E9033433BD816A}
+## 步驟 1.新增使用者（選用） {#section_A92AF0F921B743FEB9E9033433BD816A}
 
 開始使用新的[!UICONTROL 「屬性」]功能時，所有使用者管理必須在 [!DNL Adobe Admin Console for Enterprise] 中執行。不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
 
 1. [在 Admin Console 中](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，按一下頁面頂端的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤 > **[!UICONTROL 新增使用者]**，以建立新使用者或編輯現有的使用者。
 1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示進行。
 
-## 步驟 2.建立工作區（產品配置檔案） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## 步驟 2.建立工作區（產品設定檔） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
-工作區（產品配置檔案）允許組織將特定用戶集分配給特定的屬性集。 工作區有許多地方皆與 [!DNL Analytics] 中的報表套裝相似。
+工作區（產品設定檔）可讓組織將特定一組使用者指派至特定一組屬性。 工作區有許多地方皆與 [!DNL Analytics] 中的報表套裝相似。
 
-組織可以通過在以下位置建立新工作區來開始利用企業權限功能 [!DNL Admin Console]，分配 [!DNL Target] 將用戶從「預設工作區」配置移至這些較新、訪問受限的工作區。
+組織可以在內建立新工作區，以開始利用企業權限功能 [!DNL Admin Console]，指派 [!DNL Target] 屬性移至這些工作區，並將使用者從「預設工作區」設定移至這些較新、有限存取的工作區。
 
 客戶可以使用這些工作區來依地區、事業單位、網站區段或透過其選擇的任何其他方法來對不同團隊區分存取權。
 
@@ -81,16 +81,16 @@ ht-degree: 66%
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於設定工作區的詳細資訊。
 
-### 獲取工作區ID {#workspace-id}
+### 取得您的工作區ID {#workspace-id}
 
-您需要傳遞工作區ID以在 [目標API](https://developer.adobe.com/target/implement/server-side/){target=_blank}。
+您必須傳遞Workspace ID，才能在 [Target API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. 在 [Adobe Admin Console](https://adminconsole.adobe.com)/tw 中，按一下[!UICONTROL 產品]標籤，然後按一下左側功能表中的產品，以顯示 PLC(workspace) 清單。
 1. 按一下想要的 PLC(workspace)，然後在 URL 中找出「設定檔」ID，如下所示。
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
-## 步驟 3.建立用戶組（可選） {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## 步驟 3.建立使用者群組（選用） {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
@@ -99,30 +99,30 @@ ht-degree: 66%
 
 ## 步驟 4.建立屬性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-通過將特定名稱/值對添加為帶有任何調用（目標調用、api調用等）的參數來啟用屬性 對 Target 的任何呼叫 (mbox 和 API 等)。
+將特定名稱/值組新增為具有任何呼叫（Target呼叫、API呼叫等）的參數，以啟用屬性 對 Target 的任何呼叫 (mbox 和 API 等)。
 
 屬性屬於特定管道 (Web、行動電話、電子郵件和 API/其他)。
 
 **提示**: 請觀看下方的訓練影片，瞭解關於如何建立屬性的詳細資訊。
 
-1. 在 [!DNL Target]按一下 **[!UICONTROL 管理]** > **[!UICONTROL 屬性]** 顯示 [!UICONTROL 屬性] 清單框。
+1. 在 [!DNL Target]，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 屬性]** 顯示 [!UICONTROL 屬性] 清單。
 1. 按一下&#x200B;**「建立屬性」**。
 
    填寫欄位: 
 
-   * **屬性名稱（必需）:** 指定屬性的描述性名稱。
+   * **屬性名稱（必要）:** 指定屬性的描述性名稱。
    * **說明:** 指定此屬性的可選說明。
    * **管道:** 選取屬性需要的管道: Web、行動應用程式、電子郵件或其他/API (例如電視盒或 PlayStation 主控台)。
 
-1. 按一下 **[!UICONTROL 複製]** 將代碼複製到剪貼簿中執行中的步驟時將使用的代碼 [5:更新實現以包括at_property參數](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
+1. 按一下 **[!UICONTROL 複製]** 將程式碼複製到剪貼簿，您在執行 [5:更新您的實作以包含at_property參數](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於建立屬性的詳細資訊。
 
-## 第5步：更新實現以包括at_property參數 {#section_9B17A59807A94712BE642942442EBBC8}
+## 步驟5:更新您的實作以包含at_property參數 {#section_9B17A59807A94712BE642942442EBBC8}
 
-使用 [!DNL Target] 用戶權限功能，必須添加 `at_property` 指向任何調用的參數 [!DNL Target] （目標調用、api調用等）。
+若要使用 [!DNL Target] 使用者權限功能，您必須新增 `at_property` 參數至點擊的任何呼叫 [!DNL Target] （Target呼叫、API呼叫等）。
 
 **若要取得 `at_property` 參數程式碼:**
 
@@ -130,7 +130,7 @@ ht-degree: 66%
 
    或
 
-   在 [!DNL Target]按一下 **[!UICONTROL 管理]** > **[!UICONTROL 屬性]** 顯示 [!UICONTROL 屬性] 清單框。
+   在 [!DNL Target]，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 屬性]** 顯示 [!UICONTROL 屬性] 清單。
 
    1. 將滑鼠游標移至所需屬性的[!UICONTROL 「上次更新時間」]欄以顯示[!UICONTROL 「程式碼」]圖示，並按一下該圖示。
 
@@ -138,15 +138,15 @@ ht-degree: 66%
 
    1. 以滑鼠右鍵按一下醒目提示的實作程式碼，以將它複製到您的剪貼簿。
 
-1. 更新 [!DNL Target] 實現代碼。
+1. 更新您的 [!DNL Target] 以前步驟中取得的實作程式碼來實作。
 
    更新您的 [!DNL Target] 實作有數個方式。例如，下列方法可以用於網頁:
 
-   * **通過標籤中的「自定義參數」 [!DNL Adobe Experience Platform]:**
+   * **透過內的標籤中的「自訂參數」 [!DNL Adobe Experience Platform]:**
 
-      有關詳細資訊，請參見 [添加Mbox參數](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) 的 *標籤概述* 文檔。
+      如需詳細資訊，請參閱 [新增Mbox參數](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) 在 *標籤概述* 檔案。
 
-   * **通過targetPageParamsAll()函式：** 在 `<head>` 標籤，位於at.js引用上方。
+   * **透過targetPageParamsAll()函式：** 將下列程式碼放入 `<head>` 標籤，位於at.js參考上方。
 
       ```javascript
       <script>
@@ -158,7 +158,7 @@ ht-degree: 66%
       </script>
       ```
 
-      有關如何使用at.js進行此操作的詳細資訊，請參見 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}。
+      如需如何對at.js執行此動作的詳細資訊，請參閱 [targetPageParamsAll](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html){target=_blank}.
 
 ## 步驟6:指定角色和權限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -166,7 +166,7 @@ ht-degree: 66%
 
    ![工作區](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. 按一下所需配置檔案的名稱(例如，「預設工作區」(Default Workspace))。
+1. 按一下所需設定檔的名稱（例如「預設工作區」）。
 
    ![預設工作區](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
@@ -176,7 +176,7 @@ ht-degree: 66%
 
    ![設定使用者](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 使用中每個用戶的下拉清單來選擇所需的權限角色（批准者、編輯器、觀察者或發佈者） [!UICONTROL 產品角色] 的雙曲餘切值。
+1. 使用 [!UICONTROL 產品角色] 欄。
 
    ![「產品角色」下拉式清單](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -195,9 +195,9 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理]選單 UI (之前稱為[!UICONTROL 設定]) 已經過重新設計，可提供改良的效能、縮短發佈新功能所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊通常是正確的；但是，選項可能位於稍有不同的位置。 我們很快就會發佈更新的影片。
+>[!DNL Target] [!UICONTROL 管理]選單 UI (之前稱為[!UICONTROL 設定]) 已經過重新設計，可提供改良的效能、縮短發佈新功能所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊通常正確；不過，選項可能位於稍微不同的位置。 我們很快就會發佈更新的影片。
 
-### 如何配置Adobe Target工作區(6:55) ![教程徽章](/help/main/assets/tutorial.png)
+### 如何配置Adobe Target Workspace (6:55) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片說明如何建立工作區。
 
@@ -211,7 +211,7 @@ ht-degree: 66%
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### 如何在Adobe Target建立屬性(3:05) ![教程徽章](/help/main/assets/tutorial.png)
+### 如何在Adobe Target中建立屬性(3:05) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 * 如何在 [!DNL Adobe Target] 介面中建立屬性
 * 如何產生要包括在您的屬性實作中的屬性 Token

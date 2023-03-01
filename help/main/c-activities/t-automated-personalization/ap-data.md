@@ -4,10 +4,10 @@ description: 了解哪些資料Adobe [!DNL Target] 收集並用於建置其機�
 title: 收集哪些資料以建立機器學習演算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 48%
+source-wordcount: '2026'
+ht-degree: 49%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 48%
 | --- | --- | --- | --- |
 | 頁面參數 | 框 | 在對的呼叫中傳遞的自訂頁面參數（「mbox參數」） [!DNL Target]. | 自訂 — Mbox參數 —  [參數名稱] |
 | [!DNL Target] 描述檔 | PRO | 直接上傳至的自訂設定檔屬性 [!DNL Target] 設定檔（透過API或頁面參數）和 [!DNL Target] 設定檔指令碼。 | 自訂 — 訪客資料 —  [屬性名稱] |
-| 客戶屬性 | CRS | 已上傳至 [!DNL Target] 透過 [Adobe Experience Cloud客戶屬性服務](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}。 | 自訂 — 訪客資料 —  [屬性名稱] |
+| 客戶屬性 | CRS | 已上傳至 [!DNL Target] 透過 [Adobe Experience Cloud客戶屬性服務](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | 自訂 — 訪客資料 —  [屬性名稱] |
 | URL 參數 | URL | 目前檢視頁面的URL和任何URL參數。 | 自訂 — URL參數 —  [URL參數] |
 | 反向連結 URL | 參考 | 轉介URL和轉介URL的任何URL參數。 | 自訂 —  [轉介URL參數] - [參數值] |
 | Adobe Experience Cloud共用對象 | AAM | 共用給的所有對象 [!DNL Target] 其他 [!DNL Adobe Experience Cloud] 解決方案(例如 [!DNL Adobe Audience Manager] 和 [!DNL Adobe Analytics]，透過 [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank})。 | 自訂 — Experience Cloud對象 —  [對象名稱] |
@@ -46,9 +46,9 @@ ht-degree: 48%
 
 ## 阻止功能 [!DNL Target] 機器學習算法
 
-功能可從 [!DNL Target] 機器學習演算法，防止其用於任何 [!UICONTROL 自動鎖定目標] 或 [!UICONTROL Automated Personalization] 模型或活動。
+[!DNL Target]  有些功能可從機器學習演算法中封鎖，以防止有人將功能用於任何 [!UICONTROL Auto-Target] 或 [!UICONTROL Automated Personalization] 模型或活動。
 
-如需詳細資訊，請參閱 [模型API（封鎖清單）概觀](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}，位於 *Adobe Target開發人員指南*.
+如需詳細資訊，請參閱 [模型API（封鎖清單）概觀](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} 在 *Adobe Target開發人員指南*.
 
 ## 裝置和行動資料 {#device-mobile}
 

@@ -1,27 +1,27 @@
 ---
-keywords: 可視體驗作曲家選項；經驗編輯選項；編輯文本；編輯文本/html；編輯背景顏色；插入連結；連結；連結；可視體驗合成器連結；編輯類；css類；交換圖；換行圖；移除項；移除項；移除項；移除項；移動項；元素；調整元素；展開選擇；連結導航；導航；連結；撤消；重做；撤消/重做；自定義事件；Web元件；提供決策；offer decisioning
-description: 瀏覽中的選項 [!DNL Adobe Target] [!UICONTROL 視覺體驗作曲家] (VEC)。
-title: 如何使用 [!UICONTROL 視覺體驗作曲家] (VEC)選項？
+keywords: 可視化體驗撰寫器選項；體驗撰寫器選項；體驗選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；插入元素；編輯連結；連結；可視化體驗撰寫器連結；編輯css類別；css類別；交換選件；影像交換；移除項目；項目移除；隱藏項目；項目隱藏；重新排列；移動元素；元素移動；調整元素大小；元素；展開選取；導覽至此連結；導覽；連結；復原；重做；重做為自訂選件；決策
+description: 探索 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)。
+title: 如何使用 [!UICONTROL 可視化體驗撰寫器] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2936'
-ht-degree: 62%
+source-wordcount: '2923'
+ht-degree: 63%
 
 ---
 
 # 可視化體驗撰寫器選項
 
-按一下 [!DNL Adobe Target] [!UICONTROL 視覺體驗作曲家] (VEC)，菜單顯示可用於該元素類型的選項。 此外，DOM 路徑會顯示在頁面底部，讓您輕鬆導覽頁面結構。
+當您按一下 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)，功能表會顯示該元素類型可用的選項。 此外，DOM 路徑會顯示在頁面底部，讓您輕鬆導覽頁面結構。
 
-各種 [!UICONTROL 視覺體驗作曲家] (VEC)操作將在相應的菜單選項中分組，以便更快、更高效地執行作業：
+各種 [!UICONTROL 可視化體驗撰寫器] (VEC)動作會分組在適當的功能表選項中，讓您的工作更快速、更有效率：
 
 ![VEC 選項功能表](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->可用選項取決於您正在建立或編輯的活動類型。
+>可用的選項取決於您建立或編輯的活動類型。
 
 ## [!UICONTROL 編輯]
 
@@ -41,7 +41,7 @@ ht-degree: 62%
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`。 `<ol>`。 `<menu>`。 `<h1-h6>`。 `<p>` |
+| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
 ### [!UICONTROL 背景色彩]
@@ -54,21 +54,21 @@ ht-degree: 62%
 
 使用[!UICONTROL 樣式]面板檢視或編輯所選元素的現有樣式的值。您也可以新增其他樣式。
 
-訪問 [!UICONTROL 樣式] 面板，按一下VEC內的頁面元素，然後按一下 **[!UICONTROL 編輯]** > **[!UICONTROL 樣式]**。
+若要存取 [!UICONTROL 樣式] 面板，按一下VEC內的頁面元素，然後按一下 **[!UICONTROL 編輯]** > **[!UICONTROL 樣式]**.
 
 [!UICONTROL 樣式]面板會顯示在 VEC 的右側。此面板包含可讓您編輯或新增至所選元素的樣式清單。如果您習慣使用階層式樣式表 (CSS) 或如果您收到來自開發人員的程式碼，即時 CSS 編輯器可讓您檢視變更及新增樣式。
 
 ![樣式面板](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-在應用不同樣式時，您始終可以通過按一下 [!UICONTROL 還原] 表徵圖，顯示在 [!UICONTROL 樣式] 的子菜單。 按一下 [!UICONTROL 還原] 表徵圖將恢復當前部分面板上的所有更改。
+當您套用不同的樣式時，您隨時都可以按一下 [!UICONTROL 還原] 圖示顯示於 [!UICONTROL 樣式] 面板。 按一下 [!UICONTROL 還原] 圖示會還原目前區段面板上的所有變更。
 
-展開每個區段以編輯或新增樣式 (如下所述)。要保存更改，請按一下 [!UICONTROL 後退] 表徵圖，返回面板的主顯示，然後按一下 **[!UICONTROL 保存]**。
+展開每個區段以編輯或新增樣式 (如下所述)。若要儲存變更，請按一下 [!UICONTROL 返回] 圖示以返回面板的主顯示，然後按一下 **[!UICONTROL 儲存]**.
 
-主面板上的藍點以及各個截面面板上每個選項旁邊的藍點表示您已更改了相應樣式。 此可視指示器使您在按一下前可以輕鬆查看更改 [!UICONTROL 保存]。
+主面板上以及各種區段面板上每個選項旁的藍點表示您已變更對應的樣式。 此視覺指標可讓您在按一下 [!UICONTROL 儲存].
 
 >[!NOTE]
 >
->版面變更、背景顏色、調整大小和移動的快速動作在 VEC 功能表中也有個別的動作可供使用。這些選項可用作單獨的操作，也可以使用「樣式」菜單，如此處所述。
+>版面變更、背景顏色、調整大小和移動的快速動作在 VEC 功能表中也有個別的動作可供使用。這些選項可作為個別動作使用，或您可以使用樣式功能表，如此處所述。
 
 * **[!UICONTROL 背景]**
 
@@ -88,14 +88,14 @@ ht-degree: 62%
 
    變更元素的印刷樣式。印刷樣式編輯既快速又簡單。
 
-   儘管富格文本編輯器(「編輯文本/HTML」)可用於微調，但通過此選項可以執行快速操作來更改整個元素。 如果您只要將印刷樣式變更套用至局部文字 (而非全部文字)，請使用 [RTF 編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
+   雖然RTF編輯器(編輯文字/HTML)可供微調使用，但您可透過此選項使用快速動作來變更整個元素。 如果您只要將印刷樣式變更套用至局部文字 (而非全部文字)，請使用 [RTF 編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
 
    您可以編輯下列印刷樣式:
 
    * [!UICONTROL 字型大小]
    * [!UICONTROL 字型寬度]
    * [!UICONTROL 字型樣式]
-   * [!UICONTROL 顏色] （指定顏色代碼或使用顏色選取器）
+   * [!UICONTROL 顏色] （指定顏色代碼或使用檢色器）
    * [!UICONTROL 文字間距]
    * [!UICONTROL 行高]
    * [!UICONTROL 文字對齊方式]
@@ -107,11 +107,11 @@ ht-degree: 62%
    按一下每個邊界的下拉式圖示，以從下列選項中選擇:
 
    * [!UICONTROL 自動]
-   * [!UICONTROL 值] （拖動滑塊設定邊距或指定每個邊距的像素數）
+   * [!UICONTROL 值] （拖曳滑桿以設定邊界，或指定每個邊界的像素數）
 
    邊界支援正值和負值。
 
-   Target還支援其他大小單位，如rem、pc和em。 有關這些設備的詳細資訊，請參見 [Web樣式表CSS提示和技巧](https://www.w3.org/Style/Examples/007/units.en.html)。
+   Target也支援其他大小單位，例如rem、pc、em。 如需這些單位的詳細資訊，請參閱 [網頁樣式表CSS提示與秘訣](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **[!UICONTROL 邊框間距]**
 
@@ -121,7 +121,7 @@ ht-degree: 62%
 
    邊框間距支援 0 以上的寬度刻度。
 
-   目標還支援 [其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem 、 pc 、 em。
+   Target也支援 [其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
 * **[!UICONTROL 邊框]**
 
@@ -129,17 +129,17 @@ ht-degree: 62%
 
    您可以編輯每個邊框的以下樣式 (上、下、左和右):
 
-   * [!UICONTROL 邊框樣式] （無、隱藏、虛線、虛線、實線或雙線）
-   * [!UICONTROL 邊框顏色] （指定顏色代碼或使用顏色選取器）
-   * [!UICONTROL 邊框寬度] (拖動滑塊以選擇邊框寬度或指定寬度（以像素為單位）
+   * [!UICONTROL 邊框樣式] （無、隱藏、點狀、虛線、實線或雙線）
+   * [!UICONTROL 邊框顏色] （指定顏色代碼或使用檢色器）
+   * [!UICONTROL 邊框寬度] （拖曳滑桿以選取邊框寬度，或以像素指定寬度）
 
    邊框支援 0 以上的寬度刻度。
 
-   目標還支援 [其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem 、 pc 、 em。
+   Target也支援 [其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
 * **[!UICONTROL 位置]**
 
-   從所選元素的目前位置移動該元素。可以更改元素的頂部、底部、左側、右側和 [Z指數](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 位置。
+   從所選元素的目前位置移動該元素。您可以變更元素的上、下、左、右和 [Z索引](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 位置。
 
    按一下[!UICONTROL 靜態]下拉式清單，以從下列位置選項中選擇:
 
@@ -152,11 +152,11 @@ ht-degree: 62%
    按一下每個位置的下拉式圖示，以從下列選項中選擇:
 
    * [!UICONTROL 自動]
-   * [!UICONTROL 值] （拖動滑塊以定位元素或指定要移動元素的像素數）
+   * [!UICONTROL 值] （拖曳滑桿以定位元素，或指定您要移動元素的像素數）
 
    位置支援正值和負值。
 
-   目標還支援 [其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem 、 pc 、 em。
+   Target也支援 [其他大小單位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
 * **[!UICONTROL 大小]**
 
@@ -165,7 +165,7 @@ ht-degree: 62%
    按一下[!UICONTROL 寬度]和[!UICONTROL 高度]旁邊的下拉式圖示，以從下列選項中選擇:
 
    * [!UICONTROL 自動]
-   * [!UICONTROL 值] （拖動滑塊以調整元素大小或指定每個維的像素數）
+   * [!UICONTROL 值] （拖曳滑桿以調整元素大小，或指定每個維度的像素數）
 
 * **[!UICONTROL 篩選]**
 
@@ -190,11 +190,11 @@ ht-degree: 62%
 
    ![含有變更的 CSS 編輯器](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   請注意上圖[!UICONTROL 印刷樣式]、[!UICONTROL 邊框]和[!UICONTROL 大小]選項旁邊的藍點。這些點表示您已更改了這些部分。 如果您開啟這些區段面板，藍點會顯示在您已變更的特定選項旁邊。
+   請注意上圖[!UICONTROL 印刷樣式]、[!UICONTROL 邊框]和[!UICONTROL 大小]選項旁邊的藍點。這些點表示您已變更這些區段。 如果您開啟這些區段面板，藍點會顯示在您已變更的特定選項旁邊。
 
    如果您想要的樣式無法依預設在[!UICONTROL 樣式]中取得，您可以輸入自己的程式碼。
 
-   CSS編輯器僅顯示當前會話的詳細資訊。 如果您儲存變更然後重新開啟編輯器，即使您再次選取相同的元素，先前變更的相關詳細資料也不會顯示在編輯器中。
+   CSS編輯器只會顯示目前工作階段的詳細資訊。 如果您儲存變更然後重新開啟編輯器，即使您再次選取相同的元素，先前變更的相關詳細資料也不會顯示在編輯器中。
 
    >[!IMPORTANT]
    >
@@ -216,15 +216,15 @@ ht-degree: 62%
 
 可使用下列選項: 
 
-### [!UICONTROL 提供決定]
+### [!UICONTROL 優惠方案決策]
 
-添加 [建立的提供 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，以向使用offer decisioning的客戶提供最佳優惠和體驗。
+新增 [在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning向客戶呈現最佳選件和體驗。
 
-**注：** 此選項在編輯或建立時可用 [手 [!UICONTROL A/BTest]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
+**注意：** 編輯或建立時，此選項可供使用 [手動 [!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗鎖定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
 
 如需詳細資訊，請參閱[使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)。
 
-### [!UICONTROL 影像]。 [!UICONTROL HTML], [!UICONTROL 文本]
+### [!UICONTROL 影像], [!UICONTROL HTML]，和 [!UICONTROL 文字]
 
 除了修改現有內容以外，新增任何類型的元素至您的頁面。新增文字、代碼、清單和更多內容來建立完全不同的體驗進行測試。
 
@@ -248,15 +248,15 @@ ht-degree: 62%
 
 可使用下列選項: 
 
-### [!UICONTROL 提供決定]
+### [!UICONTROL 優惠方案決策]
 
-添加 [建立的提供 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，以向使用offer decisioning的客戶提供最佳優惠和體驗。
+新增 [在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning向客戶呈現最佳選件和體驗。
 
-**注：** 此選項在編輯或建立時可用 [手 [!UICONTROL A/BTest]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
+**注意：** 編輯或建立時，此選項可供使用 [手動 [!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗鎖定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
 
 如需詳細資訊，請參閱[使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)。
 
-### [!UICONTROL 影像]。 [!UICONTROL HTML], [!UICONTROL 文本]
+### [!UICONTROL 影像], [!UICONTROL HTML]，和 [!UICONTROL 文字]
 
 除了修改現有內容以外，新增任何類型的元素至您的頁面。新增文字、代碼、清單和更多內容來建立完全不同的體驗進行測試。
 
@@ -276,15 +276,15 @@ ht-degree: 62%
 
 在 [!DNL Target] 活動中插入在 [!DNL Adobe Experience Manager] (AEM) 中建立的體驗片段，以輔助最佳化或個人化。如需詳細資訊，請參閱 [AEM Experience 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-## [!UICONTROL 替換內容]
+## [!UICONTROL 取代內容]
 
 可使用下列選項: 
 
-### [!UICONTROL 提供決定]
+### [!UICONTROL 優惠方案決策]
 
-添加 [建立的提供 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，以向使用offer decisioning的客戶提供最佳優惠和體驗。
+新增 [在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning向客戶呈現最佳選件和體驗。
 
-**注：** 此選項在編輯或建立時可用 [手 [!UICONTROL A/BTest]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
+**注意：** 編輯或建立時，此選項可供使用 [手動 [!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 體驗鎖定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此選項不適用於其他活動類型。
 
 如需詳細資訊，請參閱[使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)。
 
@@ -312,7 +312,7 @@ Recommendations 在 DIV、SECTION 和 ARTICLE 標記中可支援「取代為」�
 
 **注意:**[!DNL Target] HTML 選件會儲存在 伺服器上。
 
-HTML產品最多可達256 KB。
+HTML選件最多可以是256 KB。
 
 ### 建議
 
@@ -330,23 +330,23 @@ HTML產品最多可達256 KB。
 
 將元素拖曳到相同上層元素內的另一個位置或 DIV。其他元素會移動位置，為重新排列的元素騰出空間。
 
-**注釋**:按一下跟蹤對重新排列的項目不起作用。
+**附註**:點擊追蹤對重新排列的項目沒有作用。
 
-當前，某些VEC操作，如 [!UICONTROL 重新排列] 和 [!UICONTROL 移動]，假定已完全載入源和目標父元素的同級元素。 如果在父DOM元素（源或目標）下發生延遲載入，則這些VEC操作可能導致行為不一致。 我們正在研究一種更可靠的方法，使VEC操作在緩載DOM元素中工作。 作為臨時解決方法，您可以 [!UICONTROL 自定義代碼] 來呈現您的體驗。
+目前某些VEC動作，例如 [!UICONTROL 重新排列] 和 [!UICONTROL 移動]，假設來源和目的地父元素的同層級元素已完全載入。 如果延遲載入發生在上層DOM元素（來源或目的地）下，這些VEC動作可能會造成行為不一致。 我們正致力採用更可靠的方法，讓VEC動作可在延遲載入的DOM元素中運作。 作為暫時因應措施，您可以使用 [!UICONTROL 自訂程式碼] 在這些案例中呈現您的體驗。
 
 ### [!UICONTROL 調整大小]
 
-在您的頁面上調整元素的大小。選擇時 [!UICONTROL 調整大小]，在元素的右下角會出現一個手柄，該手柄允許您拖動該角來調整大小。 按住 Shift 鍵來保持相同的外觀比例。
+在您的頁面上調整元素的大小。選取 [!UICONTROL 調整大小]，元素的右下角會顯示控點，供您拖曳該角以調整大小。 按住 Shift 鍵來保持相同的外觀比例。
 
 **注意:** 不能對行內元素調整大小。
 
 ### [!UICONTROL 移動] {#move}
 
-在頁面上移動元素。與[!UICONTROL 「重新排列」]選項不同，[!UICONTROL 「移動」]選項不會移動其他元素來為已移動的元素騰出空間。使用方向鍵來微調此移動。(計畫的增強：支援確保移動的元素不會隱藏在其他元素後面。)
+在頁面上移動元素。與[!UICONTROL 「重新排列」]選項不同，[!UICONTROL 「移動」]選項不會移動其他元素來為已移動的元素騰出空間。使用方向鍵來微調此移動。(計畫的增強：支援，確保移動的元素不會隱藏在其他元素後面。)
 
-在某些情況下，例如，當CSS限制要求某個元素保留在其父元素內時，您不能將該元素移到其父元素外。 元素無法移到有下列 CSS 屬性的容器之外: `overflow: hidden`。
+在某些情況下，例如當CSS限制需要元素保留在其上層元素內時，您無法將元素移出其上層之外。 元素無法移到有下列 CSS 屬性的容器之外: `overflow: hidden`。
 
-請參閱 [!UICONTROL 重新排列] 以獲取有關與 [!UICONTROL 移動] 和 [!UICONTROL 重新排列] 由於DOM元素的緩慢載入而導致的操作。
+請參閱 [!UICONTROL 重新排列] 以取得與 [!UICONTROL 移動] 和 [!UICONTROL 重新排列] 動作。
 
 ### [!UICONTROL 隱藏]
 
@@ -366,36 +366,36 @@ HTML產品最多可達256 KB。
 
 開啟連結的目的地。
 
-## [!UICONTROL 撤消]/[!UICONTROL 重做]
+## [!UICONTROL 還原]/[!UICONTROL 取消復原]
 
 在編輯工作階段期間，還原您對活動所進行的變更。您也可以重做先前已還原的變更。
 
 ## 考量事項 {#considerations}
 
-* 如果聘用包含HTML內容，請參閱中的「How at.js renders offs withHTML內容」 [at.js的工作原理](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}以獲取詳細資訊。
+* 如果選件包含 HTML 內容，請參閱 [at.js 如何運作](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)中的「at.js 如何呈現具有 HTML 內容的選件」以取得詳細資訊。{target=_blank}
 
-## 自定義元素支援 {#custom}
+## 自訂元素支援 {#custom}
 
-VEC支援 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 以便您建立和test個性化體驗，並在自定義元素和自定義元素內的元素上提供。 此功能在VEC中可用於所有 [!DNL Target] 活動類型。
+VEC支援 [Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 可讓您在自訂元素和自訂元素內的元素上，建立和測試個人化體驗和選件。 VEC中提供此功能供所有使用 [!DNL Target] 活動類型。
 
 >[!NOTE]
 >
->中支援對自定義元素的VEC支援 [at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0（或更高版本）{target=_blank}。 確保您的網站部署了所需版本。 如果使用 [Visual Experience Composer幫助程式擴展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，還必須部署所需的at.js版本。 上述VEC選項不可見，可用於不支援的at.js版本。
+>中支援自訂元素的VEC [at.js版本](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. 請確定您的網站已部署必要的版本。 如果您使用 [可視化體驗撰寫器Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，也必須部署必要的at.js版本。 上述的VEC選項不可見，且可搭配不支援的at.js版本使用。
 >
->當前不支援對自定義元素的VEC支援 [Adobe Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
+>自訂元素的VEC支援目前不支援 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
-大多數VEC操作都支援自定義事件和內部自定義事件，但有以下例外：
+自訂事件和自訂事件內支援大部分的VEC動作，但有下列例外：
 
-以下操作在自定義元素上不可用：
+自訂元素無法使用下列動作：
 
 * [!UICONTROL 編輯]
    * [!UICONTROL 文字/HTML]
    * [!UICONTROL 連結]
    * [!UICONTROL 編輯源]
 
-* [!UICONTROL 替換內容]
+* [!UICONTROL 取代內容]
 
-自定義元素中不提供以下操作：
+自訂元素內不提供下列動作：
 
 * [!UICONTROL 配置]
    * [!UICONTROL 重新排列]

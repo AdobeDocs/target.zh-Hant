@@ -4,14 +4,14 @@ description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target]
 title: 如何疑難排解可視化體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 68%
+source-wordcount: '975'
+ht-degree: 67%
 
 ---
 
-# 排解可視化體驗撰寫器的相關問題
+# 排解視覺化體驗撰寫器的相關問題
 
 顯示有時發生在 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)。
 
@@ -120,9 +120,9 @@ ht-degree: 68%
 
 * 如果您的網站在VEC中無法載入，或意外運作，可能的修正是先在瀏覽器中接受網站上的Cookie，再嘗試在中載入網站 [!DNL Target].
 
-## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 當我使用瀏覽模式時，VEC 似乎損毀. (僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-使用瀏覽模式時，如果您存取的URL沒有 [!DNL Target] 已實作的程式庫([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank})或包含影格假結尾標頭，則VEC似乎損毀。 基於瀏覽器安全性考量， [!DNL Target] 無法正確存取您導覽至的URL，或如果頁面載入，VEC URL更新不會一致。
+使用瀏覽模式時，如果您存取的URL沒有 [!DNL Target] 已實作的程式庫([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含影格假結尾標頭，則VEC似乎損毀。 基於瀏覽器安全性考量， [!DNL Target] 無法正確存取您導覽至的URL，或如果頁面載入，VEC URL更新不會一致。
 
 發生此問題是因為VEC在 `<iframe>`. 瀏覽器的目前安全機制會防止 [!DNL Target] UI會因為相同來源原則而無法存取指定框架的元素。 瀏覽器會封鎖嘗試存取具有不同來源且包含下列資訊的框架的指令碼： `location.href`.
 

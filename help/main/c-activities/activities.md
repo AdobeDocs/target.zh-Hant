@@ -1,12 +1,12 @@
 ---
-keywords: 活動清單；活動；活動；活動類型；編輯活動；活動；活動；活動；活動；活動清單；活動清單；活動；限制；個性化；個性化；個性化
-description: 瞭解Adobe中的活動 [!DNL Target] 允許您將內容個性化到特定的受眾和test頁面設計
-title: 如何使用目標個性化內容和Test頁面設計？
+keywords: 活動清單；活動；活動類型；編輯活動；活動動作；活動屬性；活動清單篩選器；活動限制；個人化；個人化
+description: 了解活動在Adobe中的方式 [!DNL Target] 可讓您將內容個人化至特定對象，並測試頁面設計
+title: 如何使用Target個人化內容及測試頁面設計？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2075'
 ht-degree: 92%
 
 ---
@@ -51,7 +51,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | URL | URL 以淡色文字出現在名稱下方。<br>活動的 URL 可識別活動出現的位置。這協助您快速識別活動，並判斷特定頁面上是否已有測試在執行。<br>如果測試在多個 URL 上執行，則連結會顯示還有使用多少個 URL。按一下連結以檢視該活動的完整 URL 清單。<br>您可以依據 URL 來排序或搜尋。從搜尋方塊旁邊的下拉式清單中選擇[!UICONTROL 「搜尋 URL」]。 |
 | 狀態 | 活動可能有下列其中一種狀態:<ul><li>**已上線**: 活動目前執行中。</li><li>**草稿**: 活動設定已開始，但活動尚未準備好執行。</li><li>**已排程**: 活動已準備好在指定的開始日期和時間啟動。</li><li>**非使用中**: 活動已暫停或停用。</li><li>**同步中**: 活動已儲存且正在同步至 Target 傳送網路。</li><li>**已結束**: 已達活動的指定結束日期和時間，且已停止提供該活動。</li><li>**已封存**: 活動已封存。您可以啟動已封存的活動以再次使用。</li></ul>**注意:** 執行特定動作時，例如在 UI 外部使用 API 方法來啟動活動，更新最多可能需要 10 分鐘才會傳播至 UI。 |
 | 來源 | 顯示活動在何處建立:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
-| 設備上決策合格 | 建立符合設備上決策條件的活動後，在活動的「概述」頁中將顯示一個標籤，該標籤讀取符合設備上決策條件。<br>此標籤並不表示活動將始終通過設備上的決策提供。 僅當at.js 2.5.0+配置為使用設備上決策時，才會在設備上執行此活動。 如果未將at.js 2.5.0+配置為使用設備上，則此活動仍將通過at.js中的伺服器調用傳遞。<br>請參閱 [設備上決策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}。 |
+| 符合裝置上決策資格 | 建立符合裝置決策資格的活動後，會在活動的「概觀」頁面中顯示讀取符合裝置決策資格的標籤。<br>此標籤並不表示活動將一律透過裝置上的決策傳送。 只有在at.js 2.5.0+設定為使用裝置上決策時，此活動才會在裝置上執行。 如果at.js 2.5.0+未設定為使用裝置上，則此活動仍會透過由at.js發出的伺服器呼叫傳送。<br>請參閱 [裝置上決策](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}. |
 | 屬性 | 顯示活動的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | 預估收入成長 | 如果 100% 的對象皆看到勝出體驗，則顯示預測收入增加。<br>使用下列公式計算:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>如果縮短格式在小數前只有一位數，則此數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K<br>如果活動沒有足夠資料來召開冠軍賽，或沒有成本預估，此欄會顯示「---」。請參閱<br>[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。 |
 | 最近更新 | 活動的上次更新日期及更新者。 |
@@ -69,7 +69,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | 啟動 | 啟動非使用中或已就緒的活動。 |
 | 封存 | 將活動傳送至封存。依預設，已封存的活動不再出現在「活動」清單中。將活動清單的篩選條件變更為包含已封存的活動，以看到這些活動。您可以啟動已封存的活動以再次使用。<br>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | 複製 | 複製活動。任何活動皆可複製。複製活動會以相同名稱建立新活動，後面加上「的複本」。例如，名稱為「瀏覽器選件」的測試會複製為「瀏覽器選件複本」。<br>可視化選件會隨活動一起複製。您可以在複本中放心編輯選件，不會影響原始活動。唯一的例外是「內容/資產」資料夾中儲存的選件和影像。 |
-| 刪除 | 刪除草稿或活動。<BR>**注意**: 已刪除的活動無法復原。除非您非常確定您不會再需要此活動，否則請使用[!UICONTROL 封存]動作。然後，如有必要，可以重新激活該活動。 |
+| 刪除 | 刪除草稿或活動。<BR>**注意**: 已刪除的活動無法復原。除非您非常確定您不會再需要此活動，否則請使用[!UICONTROL 封存]動作。然後，您可以視需要重新啟用活動。 |
 
 請注意下列關於活動清單的詳細資料:
 
@@ -108,7 +108,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 |--- |--- |
 | 類型 | A/B 測試: [手動](/help/main/c-activities/t-test-ab/test-ab.md)、[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)及[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。<br>[自動個人化](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>[體驗鎖定目標](/help/main/c-activities/t-experience-target/experience-target.md)<br>[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/main/c-recommendations/recommendations.md) |
 | 狀態  | 已上線<br>草稿<br>已排程<br>非使用中<br>同步中<br>已結束<br>已封存 |
-| 設備上決策合格 | 是<br>否 |
+| 符合裝置上決策資格 | 是<br>否 |
 | 報表來源 | Target<br>Analytics |
 | 體驗撰寫器 | 視覺<br>表單式 |
 | 量度類型 | 轉換<br>收入<br>參與 |
@@ -143,7 +143,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 
 關於可視化體驗撰寫器的其他限制，請參閱[可視化體驗撰寫器限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
-## 導入到 [!DNL Target] 對於在外部更新的活動 [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## 導入到的屬性 [!DNL Target] 針對在 [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 如果從 [!DNL Target] 外部 (例如，透過 Adobe I/O) 更新在 [!DNL Target] 中建立的活動，則會將下列活動屬性匯入回 [!DNL Target]:
 

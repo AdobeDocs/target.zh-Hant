@@ -4,10 +4,10 @@ description: 了解如何在Adobe中建立JSON選件 [!DNL Target] 以用於表�
 title: 如何建立JSON選件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 29%
+source-wordcount: '533'
+ht-degree: 27%
 
 ---
 
@@ -23,10 +23,10 @@ JSON選件可用於表單式活動，其中會啟用 [!DNL Target] 傳送JSON格
 
 * JSON選件目前僅適用於 [!UICONTROL A/B測試]、Automated Personalization（美聯社）和 [!UICONTROL 體驗鎖定] (XT)活動。
 * JSON選件可用於 [表單式活動](/help/main/c-experiences/form-experience-composer.md) 只有。
-* JSON選件可在您使用 [伺服器端API和Mobile Node.js、Java、.NET和Python SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
-* 在瀏覽器中，JSON選件只能透過at.js 1.2.3（或更新版本）擷取，並使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} 使用 `setJson` 動作。
+* JSON選件可在您使用 [伺服器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+* 在瀏覽器中，JSON選件只能透過at.js 1.2.3（或更新版本）擷取，並使用 [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 使用 `setJson` 動作。
 * JSON 選件是以原生 JSON 物件提供，而不是字串。這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
-* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼來明確利用此方法取得選件: [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
+* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼來明確利用此方法取得選件: [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## 建立JSON選件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 

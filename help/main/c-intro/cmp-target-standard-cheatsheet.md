@@ -4,9 +4,9 @@ description: 探索關於使用 Adobe Target 中功能常見問答的清單，�
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2796'
 ht-degree: 96%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 **Target 支援什麼瀏覽器？**
 
-請閱讀我們的 [受支援的瀏覽器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}矩陣以取得詳細資訊。 請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
+如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=en)矩陣。{target=_blank}請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
 
 ## 活動 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [客戶屬性](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [對象](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 體驗 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -256,9 +256,9 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 查看產品的下列方面:
 
-* [目標分析(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客戶屬性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [客戶屬性](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [對象](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我們有行動 SKU。我可以建立行動裝置活動？**
 
-若要在行動裝置上最佳化和個人化，您需要使用 [表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}。 查看有關 [適用於行動應用程式的Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}。
+若要在行動裝置上最佳化和個人化，您需要使用 [表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [AdobeSDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/enable-target-in-sdk.html){target=_blank}. Check out more details about [Target for mobile apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}.
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。請參閱 [傳送API、NodeJS SDK和Recommendations API檔案](https://developer.adobe.com/target/實作/伺服器端/){target=_blank}。
+我們提供詳盡的 API 相關文件。請參閱 [傳送API、NodeJS SDK和Recommendations API檔案](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

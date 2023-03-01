@@ -4,10 +4,10 @@ description: 依照實施Analytics所需的步驟進行 [!DNL Target] (A4T)在�
 title: 如何為實作Analytics [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 24%
+source-wordcount: '1158'
+ht-degree: 26%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 24%
 
 ### 步驟 1: 要求佈建給 Analytics 和 Target
 
-實作之後 [!DNL Analytics] 作為的報表來源 [!DNL Target]，您必須為 [!DNL Analytics] 和 [!DNL Target]. [使用此表單來請求布建](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。
+實作之後 [!DNL Analytics] 作為的報表來源 [!DNL Target]，您必須為 [!DNL Analytics] 和 [!DNL Target]. [使用此表單來請求布建](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### 步驟 2: 設定使用者權限
 
@@ -116,9 +116,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-接著，裝載可透過 [資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 對於自動分配和自動鎖定目標活動，您也必須轉送sessionId。 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank}，位於 *Adobe Target SDK* 指南。
+接著，裝載可透過 [資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 對於自動分配和自動鎖定目標活動，您也必須轉送sessionId。 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 在 *Adobe Target SDK* 指南。
 
-如果不需要全域設定，且偏好使用更隨需的方法，請使用at.js函式 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}，透過傳入 **analyticsLogging:&quot;client_side&quot;**. 只會針對此呼叫傳回分析裝載，且 [!DNL Target] 後端不會將裝載轉送至 [!DNL Analytics]. 透過採用此方法，每個at.js [!DNL Target] 請求依預設會傳回裝載，但只會在需要和指定時傳回。
+如果不需要全域設定，且偏好使用更隨需的方法，請使用at.js函式 [getOffers()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} 通過傳遞 **analyticsLogging:&quot;client_side&quot;**. 只會針對此呼叫傳回分析裝載，且 [!DNL Target] 後端不會將裝載轉送至 [!DNL Analytics]. 透過採用此方法，每個at.js [!DNL Target] 請求依預設會傳回裝載，但只會在需要和指定時傳回。
 
 例如:
 

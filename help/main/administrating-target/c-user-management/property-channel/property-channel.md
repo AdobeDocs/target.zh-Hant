@@ -5,10 +5,10 @@ title: 什麼是企業使用者權限？如何使用？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '3171'
-ht-degree: 58%
+source-wordcount: '3166'
+ht-degree: 59%
 
 ---
 
@@ -251,9 +251,9 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
    在未來的版本中，Target 將處理不存在 `at_property` Token 的頁面或存在不同的 `at_property` Token 的頁面。
 
-* 中不支援「企業使用者權限」功能 [Adobe I/OAPI呼叫](https://developer.adobe.com/target/){target=_blank}。
+* Adobe I/O API 呼叫不支援「企業使用者權限」功能。
 
-## 常見問題 {#faqs}
+## 常見問題集 {#faqs}
 
 企業權限相關常見問題集包括下列內容:
 
@@ -263,7 +263,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 移轉之前建立的活動會繼續在「預設工作區」中以相同方式執行，除非它們是經過編輯和指派的屬性。特定工作區下的活動會執行指派給該工作區的屬性，因此，行為可能與移轉前不同。
 
-### 我能否將受眾從一個工作區移動至另一個工作區？ {#move-audience}
+### 我能否將對象從一個工作區移動至另一個工作區？ {#move-audience}
 
 是，您可以使用 [!UICONTROL 更多動作] 選項 [!UICONTROL 對象] 頁面。
 

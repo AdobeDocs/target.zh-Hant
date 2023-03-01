@@ -1,38 +1,38 @@
 ---
 keywords: 實作;實施
-description: 瞭解基本概念，熟悉 [!DNL Target] 與您的基礎架構協作並整合，並瞭解訪問者的跟蹤方式。
-landing-page-description: 在開始使用Adobe Target之前，必須在您的站點上實施。
-title: 如何實施 [!DNL Target]?
+description: 了解基本概念，熟悉如何 [!DNL Target] 可與您的基礎架構運作並整合，並了解訪客的追蹤方式。
+landing-page-description: 開始使用Adobe Target之前，您必須先在網站上實作它。
+title: 如何實作 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '199'
 ht-degree: 2%
 
 ---
 
 # 實作 Target
 
-開始使用之前 [!DNL Adobe Target]，必須在您的站點上執行。
+開始使用之前 [!DNL Adobe Target]，您必須在您的網站上實作。
 
-的 [Adobe Target開發人員指南門戶](https://developer.adobe.com/target/){target=_blank}包含在實現之前需要瞭解的資訊 [!DNL Target]。
+此 [Adobe Target開發人員指南入口網站](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 包含實作前需知的資訊 [!DNL Target].
 
-開發人員門戶包含有關以下實施類型的資訊：
+開發人員入口網站包含下列實作類型的相關資訊：
 
-* **客戶端**:有關使用 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Target Web SDK] (at.js)。
-* **伺服器端**:有關使用Node.JS、JAVA、.NET和Python SDK的實現資訊。
-* **混合**:如果您使用客戶端和伺服器端實現的組合，則有關實現的資訊。
-* **Recommendations**:幫助您實施的資訊 [!DNL Recommendations]的 [目標高級](/help/main/c-intro/intro.md#premium) 提供。
-* **移動應用**:幫助您實施的資訊 [!DNL Adobe Experience Platform Mobile] SDK。
-* **電子郵件**:幫助您實施的資訊 [!DNL Target] 郵件中。
+* **用戶端**:有關使用實作的資訊 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Target Web SDK] (at.js)。
+* **伺服器端**:有關使用Node.JS、JAVA、.NET和Python SDK實作的資訊。
+* **混合**:如果您使用用戶端和伺服器端實作的組合，則會提供實作的相關資訊。
+* **Recommendations**:可協助您實作的資訊 [!DNL Recommendations], [Target Premium](/help/main/c-intro/intro.md#premium) 提供。
+* **行動應用程式**:可協助您使用 [!DNL Adobe Experience Platform Mobile] SDK。
+* **電子郵件**:可協助您實作的資訊 [!DNL Target] 在電子郵件中。
 
-有關詳細資訊，請參見 [Adobe Target開發人員指南門戶](https://developer.adobe.com/target/){target=_blank}。
+如需詳細資訊，請參閱 [Adobe Target開發人員指南入口網站](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 >[!NOTE]
 >
->以前包含在 *實施目標* 的下界( *Adobe Target從業人員指南*) [開發人員門戶](https://developer.adobe.com/target/){target=_blank}。
+>先前包含在 *實作Target* 本指南( *Adobe Target從業人員指南*)現已納入 [Adobe Target開發人員指南](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 
 
