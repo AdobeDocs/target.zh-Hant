@@ -5,10 +5,10 @@ title: 什麼是回應Token？如何使用？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 26%
+source-wordcount: '1669'
+ht-degree: 27%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 26%
 
 | Target SDK | 建議的動作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 請確定您使用的是Platform Web SDK 2.6.0版或更新版本。 如需下載最新版Platform Web SDK的相關資訊，請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 在 *平台Web SDK概述* 指南。 如需各版Platform Web SDK中新功能的相關資訊，請參閱 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *平台Web SDK概述* 指南。 |
-| [at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版at.js的資訊，請參閱 [下載at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。有些外掛程式需仰賴存在於mbox.js中的內部方法（現已淘汰），但不存在於at.js中，但系統會傳送但失敗。 |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 請確定您使用的是Platform Web SDK 2.6.0版或更新版本。 如需下載最新版Platform Web SDK的相關資訊，請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 在 *平台Web SDK概述* 指南。 如需各版Platform Web SDK中新功能的相關資訊，請參閱 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *平台Web SDK概述* 指南。 |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版at.js的資訊，請參閱 [下載at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。有些外掛程式需仰賴存在於mbox.js中的內部方法（現已淘汰），但不存在於at.js中，但系統會傳送但失敗。 |
 
 ## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ ht-degree: 26%
    如需詳細資訊：
 
    * **平台Web SDK**:請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *平台Web SDK概述* 指南。
-   * **at.js**:請參閱 [下載at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **at.js**:請參閱 [下載at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 1. 在 [!DNL Target]，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 回應Token]**.
 
@@ -149,7 +149,7 @@ ht-degree: 26%
 
 ### ![at.js徽章](/help/main/assets/atjs.png) at.js使用自訂事件
 
-使用 [at.js 自訂事件](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html)接聽 回應並讀取回應 Token。{target=_blank}[!DNL Target]
+使用 [at.js 自訂事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)接聽 回應並讀取回應 Token。{target=_blank}[!DNL Target]
 
 下列程式碼範例直接將 [!DNL at.js] 自訂事件處理常式新增至 HTML 頁面:
 
@@ -226,7 +226,7 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
 
 >[!NOTE]
 >
->請確定回應Token索引鍵值組位於 `alloy("sendEvent"` 物件。
+>請確定回應Token索引鍵值組位於 `alloy(“sendEvent”` 物件。
 
 ```
 <script type="text/javascript"> 

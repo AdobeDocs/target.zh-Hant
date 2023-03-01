@@ -4,9 +4,9 @@ description: 了解活動在Adobe中的方式 [!DNL Target] 可讓您將內容�
 title: 如何使用Target個人化內容及測試頁面設計？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2074'
 ht-degree: 92%
 
 ---
@@ -51,7 +51,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 | URL | URL 以淡色文字出現在名稱下方。<br>活動的 URL 可識別活動出現的位置。這協助您快速識別活動，並判斷特定頁面上是否已有測試在執行。<br>如果測試在多個 URL 上執行，則連結會顯示還有使用多少個 URL。按一下連結以檢視該活動的完整 URL 清單。<br>您可以依據 URL 來排序或搜尋。從搜尋方塊旁邊的下拉式清單中選擇[!UICONTROL 「搜尋 URL」]。 |
 | 狀態 | 活動可能有下列其中一種狀態:<ul><li>**已上線**: 活動目前執行中。</li><li>**草稿**: 活動設定已開始，但活動尚未準備好執行。</li><li>**已排程**: 活動已準備好在指定的開始日期和時間啟動。</li><li>**非使用中**: 活動已暫停或停用。</li><li>**同步中**: 活動已儲存且正在同步至 Target 傳送網路。</li><li>**已結束**: 已達活動的指定結束日期和時間，且已停止提供該活動。</li><li>**已封存**: 活動已封存。您可以啟動已封存的活動以再次使用。</li></ul>**注意:** 執行特定動作時，例如在 UI 外部使用 API 方法來啟動活動，更新最多可能需要 10 分鐘才會傳播至 UI。 |
 | 來源 | 顯示活動在何處建立:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
-| 符合裝置上決策資格 | 建立符合裝置決策資格的活動後，會在活動的「概觀」頁面中顯示讀取符合裝置決策資格的標籤。<br>此標籤並不表示活動將一律透過裝置上的決策傳送。 只有在at.js 2.5.0+設定為使用裝置上決策時，此活動才會在裝置上執行。 如果at.js 2.5.0+未設定為使用裝置上，則此活動仍會透過由at.js發出的伺服器呼叫傳送。<br>請參閱 [裝置上決策](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}. |
+| 符合裝置上決策資格 | 建立符合裝置決策資格的活動後，會在活動的「概觀」頁面中顯示讀取符合裝置決策資格的標籤。<br>此標籤並不表示活動將一律透過裝置上的決策傳送。 只有在at.js 2.5.0+設定為使用裝置上決策時，此活動才會在裝置上執行。 如果at.js 2.5.0+未設定為使用裝置上，則此活動仍會透過由at.js發出的伺服器呼叫傳送。<br>請參閱 [裝置上決策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}. |
 | 屬性 | 顯示活動的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | 預估收入成長 | 如果 100% 的對象皆看到勝出體驗，則顯示預測收入增加。<br>使用下列公式計算:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>如果縮短格式在小數前只有一位數，則此數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K<br>如果活動沒有足夠資料來召開冠軍賽，或沒有成本預估，此欄會顯示「---」。請參閱<br>[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。 |
 | 最近更新 | 活動的上次更新日期及更新者。 |

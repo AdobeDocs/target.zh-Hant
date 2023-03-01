@@ -5,10 +5,10 @@ title: 實作方式 [!DNL Target] 在我的網站上？
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '166'
+ht-degree: 6%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->中的標籤 [!DNL Adobe Experience Platform] 是實作的偏好方法 [!DNL Target]. 中的標籤 [!DNL Adobe Experience Platform] 是新一代標籤管理功能，來自 [!DNL Adobe]. 標籤可讓客戶透過簡單的方式部署及管理分析、行銷及廣告標籤，這些標籤是支援相關客戶體驗所必需的。 如需詳細資訊，請參閱 [實作 [!DNL Target] 使用 [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}.
+>中的標籤 [!DNL Adobe Experience Platform] 是實作的偏好方法 [!DNL Target]. 中的標籤 [!DNL Adobe Experience Platform] 是新一代標籤管理功能，來自 [!DNL Adobe]. 標籤可讓客戶透過簡單的方式部署及管理分析、行銷及廣告標籤，這些標籤是支援相關客戶體驗所必需的。 如需詳細資訊，請參閱 [實作 [!DNL Target] 使用 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 1. 若要存取 [!UICONTROL 實作] 頁面，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 實作]**.
 
-1. 如需適用於本頁面設定的資訊，請參閱 [不使用標籤管理程式實作Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+1. 如需適用於本頁面設定的資訊，請參閱 [不使用標籤管理程式實作Target](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ![實作頁面](/help/main/administrating-target/assets/implementation.png)

@@ -4,7 +4,7 @@ description: 了解如何在Adobe中建立自動分配和自動鎖定目標活�
 title: A4T是否支援自動分配和自動鎖定目標活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 2%
@@ -20,7 +20,7 @@ A4T整合可讓您：
 * 使用 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多臂吃角子老虎機功能，可將流量帶往獲勝的體驗。
 * 使用 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)的整體機器學習演算法，可為每個訪客選擇最佳體驗。 自動鎖定目標會在使用 [!DNL Adobe Analytics] 目標量度和 [!DNL Adobe Analytics]「豐富的報告和分析功能。
 
-請確定您 [實作A4T以搭配A/B測試和體驗鎖定目標活動使用](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，您也必須傳遞 `sessionId` 值 [!DNL Analytics]. 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 在 *Adobe Target SDK* 指南。
+請確定您 [實作A4T以搭配A/B測試和體驗鎖定目標活動使用](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，您也必須傳遞 `sessionId` 值 [!DNL Analytics]. 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} 在 *Adobe Target SDK* 指南。
 
 若要開始執行:
 

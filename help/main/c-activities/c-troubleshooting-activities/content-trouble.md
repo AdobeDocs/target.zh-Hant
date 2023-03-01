@@ -4,10 +4,10 @@ description: 尋找建議來幫助解決如果頁面未顯示預期內容的問�
 title: 如何疑難排解內容傳送問題？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 94%
+source-wordcount: '1664'
+ht-degree: 96%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 如需詳細資訊，請觀看下方的訓練影片：
 
-如需詳細資訊，請參閱 [使用Adobe Experience Cloud Debugger除錯at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+如需詳細資訊，請參閱 [使用Adobe Experience Cloud Debugger除錯at.js](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
 
 ## 最暢銷商品未出現在 Recommendations 中 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target 不再支援 IE 8。
 
 ## 未設定 Target cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-如果您的網站有子網域，例如 [!DNL us.domain.com]，但您需要將 Target Cookie 設定在 [!DNL domain.com] (而不是 [!DNL us.domain.com])，則必須覆寫 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
+如果您的網站有子網域，例如 [!DNL us.domain.com]，但您需要將 Target Cookie 設定在 [!DNL domain.com] (而不是 [!DNL us.domain.com])，則必須覆寫 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 如果某個元素也是 Adobe Experience Manager 個人化的一部分，Target 內容會忽隱忽現或未出現。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ Target 不再支援 IE 8。
 
 下列選項可用來包含其他範本規則：
 
-### 選項1:複製URL，並使用「包含」選項將其保留在範本規則中。
+### 選項 1：複製 URL，並使用「包含」選項將其保留在範本規則中。
 
 此選項可確保此 URL 符合活動的資格，但請注意，其相關邊角案例是，透過對包含基底 URL 的 URL 新增其他記錄來影響您的報告資料。
 
@@ -173,7 +173,7 @@ Target 不再支援 IE 8。
 
 ![在範本規則中複製 URL](assets/option1.png)
 
-### 選項2:限制URL「包含」條件，只包含查詢字串。
+### 選項 2：限制 URL 僅「包含」查詢字串的條件。
 
 上一個選項中討論的邊角案例適用於這個選項，但此處的條件設定僅限於查詢字串。
 

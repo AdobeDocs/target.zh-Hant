@@ -4,10 +4,10 @@ description: 了解如何為使用Analytics的活動指定Analytics追蹤伺服�
 title: 如何使用Analytics追蹤伺服器？
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 21%
+source-wordcount: '684'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 >
 >如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 目標與設定]頁面上的[!UICONTROL 追蹤伺服器]欄位保留空白。
 >
->此 [!DNL Target] 團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>此 [!DNL Target] 團隊同時支援at.js 1.*x* 與 at.js 2.*x* 之間的對應。請升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需詳細資訊，請參閱 [at.js版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 確保資料來自 [!DNL Target] 移至 [!DNL Analytics], A4T需要 [!DNL Analytics] 追蹤伺服器，以在所有呼叫中從 [!DNL Target]. 若是使用多個追蹤伺服器的實施，請使用 [!DNL Adobe Experience Platform Debugger] 或瀏覽器的開發人員工具，以判斷活動的正確追蹤伺服器。
 

@@ -6,10 +6,10 @@ title: 如何實作 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 開始使用之前 [!DNL Adobe Target]，您必須在您的網站上實作。
 
-此 [Adobe Target開發人員指南入口網站](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 包含實作前需知的資訊 [!DNL Target].
+此 [Adobe Target開發人員指南入口網站](https://developer.adobe.com/target/){target=_blank} 包含實作前需知的資訊 [!DNL Target].
 
 開發人員入口網站包含下列實作類型的相關資訊：
 
@@ -28,11 +28,11 @@ ht-degree: 2%
 * **行動應用程式**:可協助您使用 [!DNL Adobe Experience Platform Mobile] SDK。
 * **電子郵件**:可協助您實作的資訊 [!DNL Target] 在電子郵件中。
 
-如需詳細資訊，請參閱 [Adobe Target開發人員指南入口網站](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+如需詳細資訊，請參閱 [Adobe Target開發人員指南入口網站](https://developer.adobe.com/target/){target=_blank}.
 
 >[!NOTE]
 >
->先前包含在 *實作Target* 本指南( *Adobe Target從業人員指南*)現已納入 [Adobe Target開發人員指南](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+>先前包含在 *實作Target* 本指南( *Adobe Target從業人員指南*)現已納入 [開發人員入口網站](https://developer.adobe.com/target/){target=_blank}.
 
 
 

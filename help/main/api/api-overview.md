@@ -5,10 +5,10 @@ title: 在哪裡可以找到 [!DNL Target] API和SDK檔案？
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 開始使用之前 [!DNL Adobe Target]，您必須在您的網站上實作。
 
-此 [Adobe Target開發人員指南入口網站](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 包含實作前需知的資訊 [!DNL Target].
+此 [Adobe Target開發人員指南入口網站](https://developer.adobe.com/target/){target=_blank} 包含實作前需知的資訊 [!DNL Target].
 
 開發人員入口網站包含下列實作類型的相關資訊：
 
@@ -33,4 +33,4 @@ ht-degree: 1%
 * 報表API。
 * 建議API。
 
-如需詳細資訊，請參閱 [Target API概述](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 入口網站。
+如需詳細資訊，請參閱 [Target API概述](https://developer.adobe.com/target/before-administer/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} 入口網站。

@@ -4,10 +4,10 @@ description: 了解哪些資料Adobe [!DNL Target] 收集並用於建置其機�
 title: 收集哪些資料以建立機器學習演算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 49%
+source-wordcount: '2023'
+ht-degree: 50%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 49%
 
 [!DNL Target]  有些功能可從機器學習演算法中封鎖，以防止有人將功能用於任何 [!UICONTROL Auto-Target] 或 [!UICONTROL Automated Personalization] 模型或活動。
 
-如需詳細資訊，請參閱 [模型API（封鎖清單）概觀](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} 在 *Adobe Target開發人員指南*.
+如需詳細資訊，請參閱 [模型API（封鎖清單）概觀](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 在 *Adobe Target開發人員指南*.
 
 ## 裝置和行動資料 {#device-mobile}
 
