@@ -5,10 +5,10 @@ title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 93%
+source-wordcount: '1582'
+ht-degree: 81%
 
 ---
 
@@ -66,17 +66,33 @@ ht-degree: 93%
 
    如果客戶超過指定用戶工作階段的 100 個同時 [!DNL Target] 內容傳遞請求，則該用戶工作階段的所有後續請求都將被封鎖。如果在收到任何請求的回應之前，向 [!DNL Target] 伺服器傳送兩個或多個請求，則這些請求均視為同時。[!DNL Target] 會依序處理相同工作階段的同時請求。
 
-* **錯誤行為**：
+   * **錯誤行為**：
 
-   * Delivery API 和批次 mbox v2：
-      * 錯誤碼：HTTP 420 請求數太多
-      * 錯誤訊息：「相同工作階段 ID 的請求數太多」
-   * 舊版 mbox API：
-      * 預設內容與註解：「相同工作階段 ID 的請求數太多」
-   * at.js:
-      * 顯示預設內容
+      * Delivery API 和批次 mbox v2：
+         * 錯誤碼：HTTP 420 請求數太多
+         * 錯誤訊息：「相同工作階段 ID 的請求數太多」
+      * 舊版 mbox API：
+         * 預設內容與註解：「相同工作階段 ID 的請求數太多」
+      * at.js:
+         * 顯示預設內容
 
 
+
+* **限制**:每個50個mbox [!DNL Target] 內容傳送批次mbox請求。
+
+   每個超過50個mbox [!DNL Target] 內容傳送批次mbox請求會導致回應錯誤代碼 `HTTP 400` 錯誤訊息 `size must be between 0 and 50`.
+
+   批次mbox請求會依序處理，增加每次迭代的整體回應時間。 批次請求中的mbox越多，預期的回應延遲就越多，因此可能會發生逾時。 如果這些高延遲批次請求封鎖了體驗呈現，當使用者等待體驗呈現時，延遲可能會導致使用者體驗降級。
+
+* **限制**:60 MB HTTPPOST主體大小 [!DNL Target] 內容傳送要求。
+
+   超過60 MB的HTTPPOST主體大小 [!DNL Target] 內容傳送請求會導致回應錯誤代碼 `HTTP 413 Request Entity Too Large`.
+
+* **建議的限制**:每條通知50條 [!DNL Target] 傳遞批次請求。
+
+   超過50次通知 [!DNL Target] 傳送批次請求可能導致回應延遲和逾時增加。
+
+   批次通知請求會依序處理，增加每次迭代的整體回應時間。 批次請求的通知越多，預期的回應延遲就越多，因此可能導致逾時。 某些客戶可能可接受批次通知請求上的某些額外延遲，但請注意，逾時和任何後續重試都可能導致更多延遲。
 
 ## 客戶屬性
 
