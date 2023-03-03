@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -68,4 +68,4 @@ ht-degree: 100%
 
 | Adobe [!DNL Target] 解決方案說明 | [!DNL Adobe Experience Cloud] 資源 |
 |--- |--- |
-| <ul><li>[Adobe Target 學習與支援](https://helpx.adobe.com/tw/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=zh-Hant)</li><li>[Target API 文件](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 版本注意事項](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/tw/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=zh-Hant)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 學習與支援](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=zh-Hant)</li><li>[Target API 文件](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 版本注意事項](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
