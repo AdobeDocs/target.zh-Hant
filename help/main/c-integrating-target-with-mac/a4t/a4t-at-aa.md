@@ -1,30 +1,30 @@
 ---
 keywords: a4t;A4T;使用 Analytics 作為 Target 的報告來源
-description: 了解如何在Adobe中建立自動分配和自動鎖定目標活動 [!DNL Target] 使用Analytics作為報表來源(A4T)時覆寫分類。
-title: A4T是否支援自動分配和自動鎖定目標活動？
+description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動 [!DNL Target] 使用 [!DNL Analytics] 作為報表來源(A4T)時啟用。
+title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 2%
+source-wordcount: '1354'
+ht-degree: 3%
 
 ---
 
-# 自動分配和自動鎖定目標活動的 A4T 支援
+# 適用於 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動
 
 此 [!DNL Adobe Target] — 到 — [!DNL Adobe Analytics] 整合，稱為 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)支援 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。
 
 A4T整合可讓您：
 
 * 使用 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多臂吃角子老虎機功能，可將流量帶往獲勝的體驗。
-* 使用 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)的整體機器學習演算法，可為每個訪客選擇最佳體驗。 自動鎖定目標會在使用 [!DNL Adobe Analytics] 目標量度和 [!DNL Adobe Analytics]「豐富的報告和分析功能。
+* 使用 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)的整體機器學習演算法，可為每個訪客選擇最佳體驗。 [!UICONTROL 自動鎖定目標] 在使用 [!DNL Adobe Analytics] 目標量度和 [!DNL Adobe Analytics]「豐富的報告和分析功能。
 
 請確定您 [實作A4T以搭配A/B測試和體驗鎖定目標活動使用](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，您也必須傳遞 `sessionId` 值 [!DNL Analytics]. 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} 在 *Adobe Target SDK* 指南。
 
 若要開始執行:
 
-1. 建立A/B測試活動時，請在 **[!UICONTROL 定位]** 頁面中，選擇以下選項之一作為 **[!UICONTROL 流量分配方法]**:
+1. 建立 [!UICONTROL A/B測試] 活動，在 **[!UICONTROL 定位]** 頁面中，選擇以下選項之一作為 **[!UICONTROL 流量分配方法]**:
 
    * [!UICONTROL 自動分配至最佳體驗]
    * [!UICONTROL 針對個人化體驗自動鎖定目標]
@@ -37,7 +37,7 @@ A4T整合可讓您：
 
    ![目標與設定頁面上的報表來源區段](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. 選擇主要目標量度。
+1. 選擇 [!UICONTROL 主要目標] 量度。
 
    * 使用 [!DNL Adobe Target] 要指定優化目標，請選擇 **[!UICONTROL 轉換]** .
    * 選擇 **[!UICONTROL 使用Analytics量度]** 然後選取量度 [!DNL Analytics] 作為最佳化目標。 您可以使用現成可用的 [!DNL Analytics] 轉換量度或 [!DNL Analytics] 自訂事件。
@@ -62,18 +62,39 @@ A4T整合可讓您：
 * [!DNL Adobe Analytics] 轉換量度
 * [!DNL Adobe Analytics] 個自訂事件
 
-[!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 需要您選擇以二項式事件為基礎的量度。 二項式事件不發生或不發生。 二項式事件包括點按、轉換、訂單等。 這些類型的事件有時也稱為伯努利、二進位或離散事件。
+[!DNL Target] 可讓您在使用 [!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。
 
-[!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 不支援持續量度的最佳化。 持續量度包括收入、訂購的產品數、工作階段期間、工作階段中的頁面檢視次數等。 這些不支援的量度類型有時也稱為非二項式或非伯努利量度。
+* **根據二項式事件計量**:二項式事件不發生或不發生。 二項式事件包括點按、轉換、訂單等。 這些類型的事件有時也稱為伯努利、二進位或離散事件。
 
-下列量度類型不支援作為主要目標量度：
+* **以連續事件為基礎的量度**. 持續量度包括收入、訂購的產品數、工作階段期間、工作階段中的頁面檢視次數等。 這些類型的事件有時也稱為非二項式或非伯努利量度。
 
-* [!DNL Adobe Target] 參與與收入量度
-* [!DNL Adobe Analytics] 參與與收入量度
+>[!IMPORTANT]
+>
+>截至 [!DNL Adobe Target Standard/Premium] 22.15.1版（2023年3月8日和9日）, [!DNL Target] 會持續支援現有活動，且包含目前不支援的量度（列於下表）。 不過，在2023年9月9日後，這些量度將不再支援於現有活動中，且所有使用不支援量度的活動將停止，以強制現有活動移轉至新行為。
 
-   您可以選取 [!DNL Analytics] 參與或收入量度作為主要目標量度，因為 [!DNL Target] 無法識別和排除 [!DNL Analytics]. 僅選取「二項式」轉換量度或自訂事件 [!DNL Analytics].
+### 對 [!UICONTROL 自動分配] 活動
 
-* [!DNL Adobe Analytics] 計算量度
+| 量度名稱 | 不再支援： |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | 轉換率， RPV |
+| [!UICONTROL averagetimespentonsite] | 轉換率， RPV |
+| [!UICONTROL 跳出] | 轉換率， RPV |
+| [!UICONTROL bounces] | 轉換率， RPV |
+| [!UICONTROL 登入] | 轉換率， RPV |
+| [!UICONTROL 退出] | 轉換率， RPV |
+| [!UICONTROL pageviews] | RPV |
+| [!UICONTROL 重新載入] | RPV |
+| [!UICONTROL 訪客] | 轉換率， RPV |
+| [!UICONTROL 瀏覽次數] | RPV |
+
+### 對 [!UICONTROL 自動鎖定目標] 活動
+
+| 量度名稱 | 不再支援： |
+| --- | --- |
+| [!UICONTROL 石蠟] | RPV |
+| [!UICONTROL pageviews] | RPV |
+| [!UICONTROL 訪客] | 轉換率， RPV |
+| [!UICONTROL 瀏覽次數] | RPV |
 
 ## 限制和附註
 
@@ -82,7 +103,7 @@ A4T整合可讓您：
 ### 自動分配和自動鎖定目標 {#both}
 
 * 使用時 [!DNL Adobe Analytics] 作為的報表來源 [!UICONTROL 自動分配] 或 [!UICONTROL 自動鎖定目標]時，您應一律在 [!DNL Analytics].
-* 無法從 [!DNL Analytics] to [!DNL Target] 或相反地，在活動啟動後。
+* 無法從 [!DNL Analytics] to [!DNL Target] 或在活動啟動後反之。
 * 雖然計算量度不支援作為主要目標量度，但您通常可以改為選取自訂事件作為主要目標量度，以達到預期結果。 例如，如果您想針對「每位訪客表單完成次數」等量度進行最佳化，請選取與「表單完成次數」對應的自訂事件作為主要目標量度。 [!DNL Target] 根據每次造訪自動標準化轉換量度，以考慮不均勻的流量分佈，因此不需要使用計算量度來執行標準化。
 * 使用時 [!DNL Adobe Analytics] 作為的報表來源 [!UICONTROL 自動分配] 或 [!UICONTROL 自動鎖定目標] 活動時，您應一律檢視報表 [!DNL Analytics].
 * 無法從 [!DNL Analytics] to [!DNL Target] 或在活動啟動後反之。
@@ -97,15 +118,28 @@ A4T整合可讓您：
 
 ### 自動鎖定目標 {#at}
 
-* [!UICONTROL 自動鎖定目標] 照常，模型每24小時繼續訓練一次。 不過，轉換事件資料來自 [!DNL Analytics] 多延六至二十四小時。 此延遲表示流量的分配方式 [!DNL Target] 會追蹤 [!DNL Analytics]. 此延遲在活動初始啟動後的前48小時內有最大的影響。 活動的效能將更緊密地反映在 [!DNL Analytics] 5天後的轉換行為。 請考慮使用 [!UICONTROL 自動分配] 而非 [!UICONTROL 自動鎖定目標] 短期活動中，大部分流量都發生在活動生命週期的前五天內。
+* [!UICONTROL 自動鎖定目標] 照常，模型每24小時繼續訓練一次。 不過，轉換事件資料來自 [!DNL Analytics] 多延六至二十四小時。 此延遲表示流量的分配方式 [!DNL Target] 會追蹤 [!DNL Analytics]. 此延遲在活動初始啟動後的前48小時內有最大的影響。 活動的效能反映得更為密切 [!DNL Analytics] 5天後的轉換行為。
+
+   請考慮使用 [!UICONTROL 自動分配] 而非 [!UICONTROL 自動鎖定目標] 短期活動中，大部分流量都發生在活動生命週期的前五天內。
+
 * 使用時 [!DNL Analytics] 作為 [!UICONTROL 自動鎖定目標] 活動，工作階段會在6小時後結束。 六小時後發生的轉換不會計算。
 
 如需詳細資訊，請參閱 [歸因模型與回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) 在 *Analytics工具指南*.
 
-## 教學課程：如何在Analysis Workspace中設定A4T報表以用於自動鎖定目標活動 {#tutorial}
+## 教學課程
 
-雖然 [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，對預設值進行一些修改 [!UICONTROL Analytics for Target] 必須有面板才能正確解譯自動鎖定目標活動。 由於實驗活動(手動A/B和 [!UICONTROL 自動分配])和個人化活動([!UICONTROL 自動鎖定目標])。
+雖然 [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，對預設值進行一些修改 [!UICONTROL Analytics for Target] 需要面板才能正確解譯 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。 由於實驗活動(手動A/B和 [!UICONTROL 自動分配])和個人化活動([!UICONTROL 自動鎖定目標])。
 
-本教學課程會逐步引導您了解分析時的建議修改 [!UICONTROL 自動鎖定目標] 活動 [!UICONTROL 工作區].
+### 在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動分配] 活動
 
-如需詳細資訊，請參閱 [如何在Analysis Workspace中設定A4T報表以用於自動鎖定目標活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe TargetTutorials*.
+本教學課程會逐步引導您了解分析時的建議修改 [!UICONTROL 自動分配] 活動 [!DNL Analysis Workspace].
+
+如需詳細資訊，請參閱 [如何在Analysis Workspace中設定A4T報表以用於自動分配活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} in *Adobe TargetTutorials*.
+
+### 在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動鎖定目標] 活動
+
+本教學課程會逐步引導您了解分析時的建議修改 [!UICONTROL 自動鎖定目標] 活動 [!DNL Analysis Workspace].
+
+如需詳細資訊，請參閱 [如何在Analysis Workspace中設定A4T報表以用於自動鎖定目標活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank} in *Adobe TargetTutorials*.
+
+
