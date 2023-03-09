@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 如何運作，包括 JavaScript 資料
 title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: ht
-source-wordcount: '2583'
-ht-degree: 100%
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
+workflow-type: tm+mt
+source-wordcount: '2562'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 100%
 
 [!DNL Target] 整合使用 [!DNL Experience Platform Web SDK] 或 at.js 的網站：
 
-* **[!DNL Adobe Experience Platform Web SDK]:**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} 是新的用戶端 JavaScript 資料庫。[!DNL Experience Platform Web SDK] 可讓 [!DNL Adobe Experience Cloud] 的客戶透過 [!DNL Experience Platform] Edge Network，與 [!DNL Experience Cloud] (包括 [!DNL Target]) 中的各種服務互動。[!DNL Adobe] 建議所有的新 [!DNL Target] 客戶實作 [!DNL Experience Platform Web SDK]。
-* **at.js：** at.js 程式庫是 [!DNL Target] 的實作程式庫。at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 經常更新以包含新功能。[!DNL Adobe] 建議所有使用 at.js 的客戶更新其實作至 [at.js 最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+* **[!DNL Adobe Experience Platform Web SDK]:** 此 [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} 是新的用戶端JavaScript程式庫。 [!DNL Experience Platform Web SDK] 可讓 [!DNL Adobe Experience Cloud] 的客戶透過 [!DNL Experience Platform] Edge Network，與 [!DNL Experience Cloud] (包括 [!DNL Target]) 中的各種服務互動。[!DNL Adobe] 建議所有的新 [!DNL Target] 客戶實作 [!DNL Experience Platform Web SDK]。
+* **at.js：** at.js 程式庫是 [!DNL Target] 的實作程式庫。at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 經常更新以包含新功能。[!DNL Adobe] 建議所有使用 at.js 的客戶更新其實作至 [at.js 最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ ht-degree: 100%
 >
 >[!DNL Adobe Target] 目前在中國沒有邊緣叢集，且中國 [!DNL Target] 客戶的訪客成效仍有限。由於中國境內的防火牆和缺乏邊緣叢集，部署了 [!DNL Target] 的網站體驗可能會受到影響。體驗的呈現速度可能緩慢，而頁面載入也會受到影響。此外，行銷人員在使用 [!DNL Target] 編寫 UI 時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱[允許列出 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱[允許列出 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -178,7 +178,7 @@ Google 鼓勵使用者測試。Google 在其文件中表示，如果您遵循某
 
    [!DNL Adobe] 持續尋找可行的解決方案，以完全符合搜尋引擎的方針。對於必須將個別 URL 用於測試的客戶而言，[!DNL Adobe] 有信心正確實作標準標籤可以減輕使用此方法的相關風險。i
 
-* **僅在需要時進行實驗**：[!DNL Adobe] 將「僅在需要時」視為只要達到統計顯著性所需。[!DNL Target] 提供最佳做法和 [!DNL Adobe Target] [樣本大小計算機] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 來判斷測試何時達到此點。[!DNL Adobe] 建議將成功測試寫入程式碼的實作納入測試工作流程中，並分配適當的資源。
+* **僅在需要時進行實驗**：[!DNL Adobe] 將「僅在需要時」視為只要達到統計顯著性所需。[!DNL Target] 提供最佳實務，並 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 來判斷測試何時達到此點。 [!DNL Adobe] 建議將成功測試寫入程式碼的實作納入測試工作流程中，並分配適當的資源。
 
    不建議使用 [!DNL Target] 平台來「發佈」成功測試作為永久解決方案。如果成功測試是針對 100% 的使用者發佈，則此方法可在永久編碼成功測試的過程完成時使用。
 
