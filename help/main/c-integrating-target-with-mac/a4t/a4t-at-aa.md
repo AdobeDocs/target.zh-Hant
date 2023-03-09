@@ -4,10 +4,10 @@ description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動
 title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 3%
+source-wordcount: '1382'
+ht-degree: 2%
 
 ---
 
@@ -76,25 +76,25 @@ A4T整合可讓您：
 
 | 量度名稱 | 不再支援： |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | 轉換率， RPV |
-| [!UICONTROL averagetimespentonsite] | 轉換率， RPV |
-| [!UICONTROL 跳出] | 轉換率， RPV |
-| [!UICONTROL bounces] | 轉換率， RPV |
-| [!UICONTROL 登入] | 轉換率， RPV |
-| [!UICONTROL 退出] | 轉換率， RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL 重新載入] | RPV |
-| [!UICONTROL 訪客] | 轉換率， RPV |
-| [!UICONTROL 瀏覽次數] | RPV |
+| [!UICONTROL averagepagedepth] | 轉換率，最大化量度值 |
+| [!UICONTROL averagetimespentonsite] | 轉換率，最大化量度值 |
+| [!UICONTROL 跳出] | 轉換率，最大化量度值 |
+| [!UICONTROL bounces] | 轉換率，最大化量度值 |
+| [!UICONTROL 登入] | 轉換率，最大化量度值 |
+| [!UICONTROL 退出] | 轉換率，最大化量度值 |
+| [!UICONTROL pageviews] | 最大化量度值 |
+| [!UICONTROL 重新載入] | 最大化量度值 |
+| [!UICONTROL 訪客] | 轉換率，最大化量度值 |
+| [!UICONTROL 瀏覽次數] | 最大化量度值 |
 
 ### 對 [!UICONTROL 自動鎖定目標] 活動
 
 | 量度名稱 | 不再支援： |
 | --- | --- |
-| [!UICONTROL 石蠟] | RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL 訪客] | 轉換率， RPV |
-| [!UICONTROL 瀏覽次數] | RPV |
+| [!UICONTROL 石蠟] | 最大化量度值 |
+| [!UICONTROL pageviews] | 最大化量度值 |
+| [!UICONTROL 訪客] | 轉換率，最大化量度值 |
+| [!UICONTROL 瀏覽次數] | 最大化量度值 |
 
 ## 限制和附註
 
