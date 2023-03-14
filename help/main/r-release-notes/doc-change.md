@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
 workflow-type: tm+mt
 source-wordcount: '2216'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 95%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## [!DNL Target] Standard/Premium 22.15.1（2023年3月8日和9日）
+## [!DNL Target] Standard/Premium 22.15.1 (2023 年 3 月 8 日和 9 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 3 月 8 日 | [[!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新章節，加入支援（和不支援）量度的相關資訊 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 使用 [!UICONTROL Analytics for Target] (A4T) |
-|  | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 新增下列新教學課程：<ul><li>[在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動分配] 活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動鎖定目標] 活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
-|  | [編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md) | 新增「最佳實務」一節。 |
-|  | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在「自訂程式碼疑難排解」一節中新增下列備注：<ul><li>VEC中的自訂程式碼選件在 `triggerView()` 使用呼叫 `{page: false}` 作為選項。</li></ul> |
+| 3 月 8 日 | [[!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新區段以包含使用 [!UICONTROL Analytics for Target] (A4T) 之[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的受支援 (和不受支援) 量度的資訊。 |
+|  | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 新增下列新教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+|  | [編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md) | 新增「最佳做法」區段。 |
+|  | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在「自訂程式碼疑難排解」區段中新增以下備註：<ul><li>當使用 `{page: false}` 做為選項呼叫 `triggerView()` 時，VEC 中的自訂程式碼選件不會重新呈現。</li></ul> |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 at.js 2.10.2 版的資訊。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.15.1 版的版本注意事項。 |
 
