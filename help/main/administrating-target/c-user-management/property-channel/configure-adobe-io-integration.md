@@ -1,18 +1,19 @@
 ---
 keywords: 整合;角色;使用者權限;admin console
-description: 瞭解如何授予現有Adobe I/O整合對Adobe Target所需角色的所有工作區的訪問權限。
-title: 如何授予Adobe I/O對工作區的訪問權限和分配角色？
+description: 了解如何在Adobe Target中授予現有Adobe I/O整合功能可使用所需角色存取所有工作區的權限。
+title: 如何授予Adobe I/O對工作區的存取權並指派角色？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 84%
+source-wordcount: '620'
+ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 授予 Adobe I/O 整合功能對工作區的存取權並指派角色
+# 授予 Adobe I/O 整合功能對工作區的存取權並指派角色
 
 [!UICONTROL 企業權限]可讓 [!DNL Target] 客戶使用單一組織，但將其分割為多個工作區以供其不同團隊或工作流程使用。
 
@@ -22,7 +23,7 @@ ht-degree: 84%
 
 [!UICONTROL 企業權限]功能可促進跨團隊最佳化程式的有效資源調度。雖然 [!DNL Target] UI 提供了此功能，不過 Admin API 在 2019 年初之前一直都缺乏對應的支援。在 [!DNL Target] 2019 年 2 月版本中，Adobe 已更新 Admin API，讓您能夠使用整合帳戶來存取組織中建立的所有工作區。因此，雖然之前 Admin API 限制為僅限預設工作區，但 2019 年 2 月更新已授予可使用[!UICONTROL 核准者]存取權來存取所有工作區。
 
-使用 [!DNL Target] 2019年9月， [!DNL Target] [!UICONTROL 企業權限] 為客戶提供以下訪問控制：
+使用 [!DNL Target] 2019年9月發行版本， [!DNL Target] [!UICONTROL 企業權限] 為客戶提供下列存取控制：
 
 * 您可以選擇要將整合套用到哪個工作區
 * 您可以將角色套用至 Adobe I/O 整合功能: [!UICONTROL 核准者]、[!UICONTROL 編輯者]或[!UICONTROL 觀察者]。
@@ -38,11 +39,11 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。事先設定整合功能並不會有任何不利的反應。此變更越早進行越好。根據您組織中的工作區數量，此過程只需按一下幾下即可將現有整合添加到具有所需角色的工作區中。
+>如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。事先設定整合功能並不會有任何不利的反應。此變更越早進行越好。根據您組織中的工作區數目，此程式只需按幾下滑鼠，即可將現有整合功能新增至具有所需角色的工作區中。
 
 **如何授予 Adobe I/O 整合功能對工作區的存取權並指派角色:**
 
-1. 開啟 **[Adobe Admin Console](https://adminconsole.adobe.com)**。
+1. 開啟 **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. 按一下&#x200B;**[!UICONTROL 產品]**&#x200B;索引標籤，然後選取所需的產品名稱。
 
@@ -63,6 +64,6 @@ ht-degree: 84%
    | 角色 | 說明 |
    |--- |--- |
    | 核准者 | 可以建立、編輯和啟動或停止活動。 |
-   | 編輯器 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+   | 編輯者 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-   | 發行者 | 與「觀察者」角色類似（可以查看活動，但無法建立或編輯它們）。 但是，發佈者角色具有激活活動的附加權限。 |
+   | 發佈者 | 類似於觀察者角色 (可以查看活動，但不能建立或編輯活動)。 不過，發佈者角色具有啟用活動的額外權限。 |
