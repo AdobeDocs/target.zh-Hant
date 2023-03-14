@@ -4,14 +4,14 @@ description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動
 title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 2%
+source-wordcount: '1292'
+ht-degree: 5%
 
 ---
 
-# 適用於 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動
+# [!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]
 
 此 [!DNL Adobe Target] — 到 — [!DNL Adobe Analytics] 整合，稱為 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)支援 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。
 
@@ -62,39 +62,18 @@ A4T整合可讓您：
 * [!DNL Adobe Analytics] 轉換量度
 * [!DNL Adobe Analytics] 個自訂事件
 
-[!DNL Target] 可讓您在使用 [!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。
+[!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 需要您選擇以二項式事件為基礎的量度。 二項式事件不發生或不發生。 二項式事件包括點按、轉換、訂單等。 這些類型的事件有時也稱為伯努利、二進位或離散事件。
 
-* **根據二項式事件計量**:二項式事件不發生或不發生。 二項式事件包括點按、轉換、訂單等。 這些類型的事件有時也稱為伯努利、二進位或離散事件。
+[!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 不支援持續量度的最佳化。 持續量度包括收入、訂購的產品數、工作階段期間、工作階段中的頁面檢視次數等。 這些不支援的量度類型有時也稱為非二項式或非伯努利量度。
 
-* **以連續事件為基礎的量度**. 持續量度包括收入、訂購的產品數、工作階段期間、工作階段中的頁面檢視次數等。 這些類型的事件有時也稱為非二項式或非伯努利量度。
+下列量度類型不支援作為主要目標量度：
 
->[!IMPORTANT]
->
->截至 [!DNL Adobe Target Standard/Premium] 22.15.1版（2023年3月8日和9日）, [!DNL Target] 會持續支援現有活動，且包含目前不支援的量度（列於下表）。 不過，在2023年9月9日後，這些量度將不再支援於現有活動中，且所有使用不支援量度的活動將停止，以強制現有活動移轉至新行為。
+* [!DNL Adobe Target] 參與與收入量度
+* [!DNL Adobe Analytics] 參與與收入量度
 
-### 對 [!UICONTROL 自動分配] 活動
+   您可以選取 [!DNL Analytics] 參與或收入量度作為主要目標量度，因為 [!DNL Target] 無法識別和排除 [!DNL Analytics]. 僅選取「二項式」轉換量度或自訂事件 [!DNL Analytics].
 
-| 量度名稱 | 不再支援： |
-| --- | --- |
-| [!UICONTROL averagepagedepth] | 轉換率，最大化量度值 |
-| [!UICONTROL averagetimespentonsite] | 轉換率，最大化量度值 |
-| [!UICONTROL 跳出] | 轉換率，最大化量度值 |
-| [!UICONTROL bounces] | 轉換率，最大化量度值 |
-| [!UICONTROL 登入] | 轉換率，最大化量度值 |
-| [!UICONTROL 退出] | 轉換率，最大化量度值 |
-| [!UICONTROL pageviews] | 最大化量度值 |
-| [!UICONTROL 重新載入] | 最大化量度值 |
-| [!UICONTROL 訪客] | 轉換率，最大化量度值 |
-| [!UICONTROL 瀏覽次數] | 最大化量度值 |
-
-### 對 [!UICONTROL 自動鎖定目標] 活動
-
-| 量度名稱 | 不再支援： |
-| --- | --- |
-| [!UICONTROL 石蠟] | 最大化量度值 |
-| [!UICONTROL pageviews] | 最大化量度值 |
-| [!UICONTROL 訪客] | 轉換率，最大化量度值 |
-| [!UICONTROL 瀏覽次數] | 最大化量度值 |
+* [!DNL Adobe Analytics] 計算量度
 
 ## 限制和附註
 
@@ -130,13 +109,13 @@ A4T整合可讓您：
 
 雖然 [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，對預設值進行一些修改 [!UICONTROL Analytics for Target] 需要面板才能正確解譯 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。 由於實驗活動(手動A/B和 [!UICONTROL 自動分配])和個人化活動([!UICONTROL 自動鎖定目標])。
 
-### 在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動分配] 活動
+### 在 [!DNL Analysis Workspace] 中設定[!UICONTROL 自動分配]活動的 A4T 報告
 
 本教學課程會逐步引導您了解分析時的建議修改 [!UICONTROL 自動分配] 活動 [!DNL Analysis Workspace].
 
 如需詳細資訊，請參閱 [如何在Analysis Workspace中設定A4T報表以用於自動分配活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} in *Adobe TargetTutorials*.
 
-### 在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動鎖定目標] 活動
+### 在 [!DNL Analysis Workspace] 中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告
 
 本教學課程會逐步引導您了解分析時的建議修改 [!UICONTROL 自動鎖定目標] 活動 [!DNL Analysis Workspace].
 
