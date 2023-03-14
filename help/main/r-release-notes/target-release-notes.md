@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '555'
+ht-degree: 75%
 
 ---
 
