@@ -5,10 +5,10 @@ landing-page-description: 實現個人化的客戶體驗，協助您在網站和
 title: 什麼是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 89%
 
 [!DNL Target Premium] 是進階的 [!DNL Target] 產品，需要有授權才能將進階功能加入 [!DNL Target Standard]。
 
-全部 [!DNL Target Premium] Target參考線中的文章包含位於每頁頂端的Premium徽章，或在受影響文字附近內嵌。 可點按Premium徽章，並包含此區段的連結。
+全部 [!DNL Target Premium] 文章 [!DNL Target] 指南包括 [!UICONTROL Premium] 徽章位於每個頁面頂端，或內嵌在受影響的文字附近。 此 [!UICONTROL Premium] 徽章可點按，並包含此區段的連結。
 
-[!DNL Target Premium] 包含下列功能：
+**[!DNL Target Premium]包含下列功能：**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ ht-degree: 89%
 
 [!BADGE 測試]{type=Informative}
 
-此 [!DNL Adobe Target] 團隊通常會開啟特定客戶的功能，以便進行測試和提供意見反應，之後才會在未來版本中為所有客戶啟用這些功能。
+此 [!DNL Adobe Target] 團隊通常會為特定客戶啟用新功能，以便進行測試和提供意見回應。 在測試期間完成後，將為所有客戶啟用這些功能 [!DNL Target Standard/Premium] 發行版本和發行說明中宣佈。
 
 中的文章 [!DNL Target] 說明測試版功能的指南包括位於每頁頂端的測試版徽章，或內嵌在受影響的文字附近。 可點按測試版徽章，並包含此區段的連結。
 
