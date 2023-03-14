@@ -5,10 +5,10 @@ landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
-workflow-type: ht
-source-wordcount: '551'
-ht-degree: 100%
+source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
+workflow-type: tm+mt
+source-wordcount: '705'
+ht-degree: 80%
 
 ---
 
@@ -33,6 +33,21 @@ ht-degree: 100%
 | 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]最佳化的 A4T 量度 | [!DNL Target] 可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，選擇以二項式事件為基礎的量度，或是以持續事件為基礎的量度。<P>請注意受支援量度的以下時效性變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul>如需詳細資訊，請參閱&#x200B;*自動分配和自動鎖定目標活動之 A4T 支援*&#x200B;的[受支援目標量度](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)。 |
 | 使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配] | 新教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
 | 使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動鎖定目標] | 新教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+
+此版本包含下列修正：
+
+* 更新自訂Web元件的編寫，使用 [!UICONTROL 可視化體驗撰寫器] (VEC):
+
+   * 透過改善編寫程式，修正VEC中陰影DOM元素的選取，因此不會依賴 [!DNL Target] 製作陰影根時的實作類型。 現在，在VEC中選取「影子DOM」元素，即可供任何網站使用。
+   * 修正無法在VEC中使用#Shadow DOM載入HTML元素的問題。 (TGT-35801)
+   * 修正SPA網站使用ShadowDOM的VEC問題。 (TGT-43169)
+   * 修正最佳化目標的問題：「已點按元素」未正確識別ShadowDOM中的CSS選取器。
+
+>[!NOTE]
+>
+>若要確保傳送在VEC中撰寫的變更，請確定您使用 [!DNL Target] SDK([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))，其版本大於2.8。
+
+**已知問題**:使用 [!DNL Adobe Experience Platform Web SDK] 無法正常運作。 (TNT-47012)
 
 ## at.js 版本 2.10.2 (2023 年 3 月 7 日)
 
