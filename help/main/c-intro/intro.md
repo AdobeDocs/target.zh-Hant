@@ -5,10 +5,10 @@ landing-page-description: 實現個人化的客戶體驗，協助您在網站和
 title: 什麼是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 99%
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] 是進階的 [!DNL Target] 產品，需要有授權才能將進階功能加入 [!DNL Target Standard]。
 
-本說明指南中的所有 [!DNL Target Premium] 文章都會在每個頁面頂端包含 Premium 標誌：
+全部 [!DNL Target Premium] Target參考線中的文章包含位於每頁頂端的Premium徽章，或在受影響文字附近內嵌。 可點按Premium徽章，並包含此區段的連結。
 
-![Premium badge](/help/main/assets/premium.png)
-
-Target Premium 包含下列進階功能：
+[!DNL Target Premium] 包含下列功能：
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Target Premium 包含下列進階功能：
 ### 企業使用者權限
 
 [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)功能可讓您建立不同的專案 (在 [!DNL Adobe Admin Console for Enterprise] 中稱為「產品設定檔」)。[!UICONTROL 企業使用者權限]可讓您為單一使用者指定不同權限，且這些權限指定該使用者存取每個專案的權限。這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果，客戶可限制其使用者的檢視、編輯、核准和發佈存取權。您可以根據地區、環境（開發／舞台/prod）、頻道或其他自訂准則來限制使用者。
+
+## 測試版功能 {#beta}
+
+[!BADGE 測試]{type=Informative}
+
+此 [!DNL Adobe Target] 團隊通常會開啟特定客戶的功能，以便進行測試和提供意見反應，之後才會在未來版本中為所有客戶啟用這些功能。
+
+中的文章 [!DNL Target] 說明測試版功能的指南包括位於每頁頂端的測試版徽章，或內嵌在受影響的文字附近。 可點按測試版徽章，並包含此區段的連結。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
