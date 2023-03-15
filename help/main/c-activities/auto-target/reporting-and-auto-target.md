@@ -2,15 +2,16 @@
 keywords: 自動鎖定目標；鎖定目標；流量分配；常見問題集；faq；疑難排解；疑難排解；報表；自動鎖定目標摘要報表；摘要報表；自動化區段；重要屬性
 description: 了解如何解讀 [!UICONTROL 自動鎖定目標] 活動報表 [!DNL Target].
 title: 如何解讀 [!UICONTROL 自動鎖定目標] 報告？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 報表和 [!UICONTROL 自動鎖定目標]
+# 報表和[!UICONTROL 自動鎖定目標]
 
 有關如何解譯 [!UICONTROL 自動鎖定目標摘要] 報表 [!DNL Adobe Target]，包括 [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性] 報表。
 

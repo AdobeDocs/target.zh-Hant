@@ -1,20 +1,21 @@
 ---
-keywords: 自動個性化；提供；目標；受眾；目標規則；目標；automated personalization;offirs;target;auteging rules;targeting
-description: 通過在Adobe Target的Automated Personalization(AP)活動，瞭解如何針對特定受眾提供個性化服務。
-title: 我如何 [!DNL Target] Automated Personalization提供？
+keywords: 自動個人化；選件；目標；對象；鎖定規則；鎖定目標
+description: 了解如何使用Adobe Target中的Automated Personalization(AP)活動，將個別優惠方案鎖定在特定對象。
+title: 如何 [!DNL Target] Automated Personalization選件？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 87%
 
 ---
 
-# ![高級](/help/main/assets/premium.png) [!DNL Target] Automated Personalization提供
+# [!DNL Target] Automated Personalization選件
 
-在 [!DNL Adobe Target] [!DNL Automated Personalization] (AP)活動，您可以針對特定的受眾提供服務。
+在 [!DNL Adobe Target] [!DNL Automated Personalization] (AP)活動，您可以將選件鎖定在特定對象。
 
 使用這項功能可減少特定訪客可看到的選件數量。舉例來說，假設 AP 活動有三個選件。選件 1 有目標規則，限制向對象 A 曝光。有兩位訪客看過這個 AP 活動。
 

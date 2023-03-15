@@ -2,16 +2,17 @@
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集;重要屬性
 description: 了解如何使用Automated Personalization(AP)和自動鎖定目標(AT)活動專用的報表 — 自動化區段和重要屬性。
 title: 如何使用個人化前瞻分析報表？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 57%
+source-wordcount: '908'
+ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 「個人化前瞻分析」報表
+# 個人化前瞻分析報表
 
 [!UICONTROL 自動個人化] (AP) 和自動鎖定目標 (AT) 活動使用者可用的兩種專用報表: [!UICONTROL 「自動化區段」]與「重要屬性」報表。
 
@@ -47,7 +48,7 @@ ht-degree: 57%
 
 在 AP 或「自動鎖定目標」模型中使用的[!UICONTROL 「個人化前瞻分析」]報表中有兩種屬性:
 
-* **自動收集的屬性:**[!DNL Target] Target 使用基礎資料集在 AP 和 AT 活動中建立反映在「個人化前瞻分析」中的個人化演算法。請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)，以瞭解資料類型、範例屬性，及其其[!UICONTROL 個人化前瞻分析]命名慣例。請注意，雖然考量到這些屬性，但個別活動模型可能不會在最終模型中使用所有屬性。
+* **自動收集的屬性:**[!DNL Target] Target 使用基礎資料集在 AP 和 AT 活動中建立反映在「個人化前瞻分析」中的個人化演算法。請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)，以瞭解資料類型、範例屬性，及其其[!UICONTROL 個人化前瞻分析]命名慣例。請注意，雖然已考量這些屬性，但個別活動的模型可能不會在最終模型中使用所有屬性。
 * **傳遞至 Target 的屬性:**&#x200B;請參閱[上傳用於 Target 個人化演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 [!DNL Target] 提供許多方法，可以將其他資料傳遞給 ，使得用於在 AP 和 AT 活動中建立其個人化演算法的基礎資料集更豐富:[!DNL Target]
@@ -55,14 +56,14 @@ ht-degree: 57%
 | 資料類型 | 說明 | 資料類型命名慣例 |
 |--- |--- |--- |
 | 設定檔屬性，包括設定檔指令碼、設定檔更新 API，以及頁面設定檔屬性 | 您決定包括在 Target 使用者設定檔的任何資訊。<br>此資訊可能來自設定檔指令碼、使用設定檔更新 API 上傳的資訊，或字首為 &quot;profile&quot; 的 mbox 內部設定檔參數。 | `Custom - Profile - [parameter name]` |
-| 頁面參數 (也稱為「mbox 參數」) | 直接透過頁面代碼傳遞的名稱/值對，這些頁面代碼未儲存在訪客的設定檔中，以供未來使用。 | `Custom - Mbox Parameter - [parameter name]` |
+| 頁面參數（又稱為「mbox參數」） | 直接透過頁面代碼傳遞的名稱/值對，這些頁面代碼未儲存在訪客的設定檔中，以供未來使用。 | `Custom - Mbox Parameter - [parameter name]` |
 | 客戶屬性 | 客戶屬性可讓您透過 FTP 將訪客設定檔資料上傳至 Experience Cloud。上傳後，即可在 Adobe Analytics 和 Adobe Target 中運用這些資料。 | `Custom - Customer Attributes - [parameter name]` |
 | 共用對象 (Adobe Audience Manager 或 Adobe Analytics) | 透過 Adobe Audience Manager 或 Adobe Analytics 建立並與 Target 共用的對象。 | `Custom - Experience Cloud Segment - [segment name]` |
 | 共用受眾(Adobe Experience Platform/Real-time CDP) | 透過Adobe Experience Platform/Real-time CDP建立並透過Destinations與Target共用的對象。 | `Custom - Adobe Experience Platform Segment - [segment name]` |
 | 共用屬性(Adobe Experience Platform/Real-time CDP) | 透過Adobe Experience Platform/Real-time CDP建立並透過Destinations與Target共用的屬性。 此功能目前仍在測試中。 | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
-| 活動內報表對象/區段 | 在「目標和量度」中的設定期間，在 AP 或「自動鎖定目標」活動中定義的對象。 | `Custom - Reporting Segment - [segment name]` |
+| 活動內報表對象/區段 | 在「目標與量度」的設定期間，在您的AP或自動鎖定目標活動中定義的對象。 | `Custom - Reporting Segment - [segment name]` |
 
-## 常見問題
+## 常見問題集
 
 關於 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] [!UICONTROL 前瞻分析] 報表。
 

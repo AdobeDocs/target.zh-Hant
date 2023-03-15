@@ -2,16 +2,17 @@
 keywords: 條件；演算法；行業垂直；頁面類型；建議金鑰；建議邏輯；資料範圍；回顧期間；行為資料來源；部分設計；備份建議；包含規則；屬性加權；目前類別；自訂屬性；上次購買項目；上次檢視項目；最近檢視項目；最近檢視項目；最近檢視項目；最近檢視項目；最近檢視項目；最近檢視項目；最近檢視；最近檢視；最近檢視；最近檢視；最近檢視
 description: 了解如何建立控制Adobe Recommendations活動內容的條件，以顯示最適合您活動的建議。
 title: 如何在Recommendations中建立條件？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2842'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 建立條件
+# 建立條件
 
 中的標準 [!UICONTROL Adobe Target] [!UICONTROL Recommendations] 控制 [!UICONTROL Recommendations] 活動。 建立條件以顯示最適合您的活動的建議。這些條件會使用訪客的動作來決定要顯示的內容或產品。
 

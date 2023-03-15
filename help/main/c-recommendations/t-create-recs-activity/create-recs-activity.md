@@ -1,17 +1,18 @@
 ---
 keywords: 建立建議;Recommendations 活動;新建議;建議概覽
-description: 瞭解如何使用Adobe [!DNL Target] Visual Experience Composer(VEC)，直接在 [!DNL Target]-enabled頁。
+description: 了解如何使用Adobe [!DNL Target] 可視化體驗撰寫器(VEC)，直接在 [!DNL Target]-enabled頁。
 title: 如何建立Recommendations活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 75%
+source-wordcount: '1312'
+ht-degree: 76%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 建立 Recommendations 活動
+# 建立 Recommendations 活動
 
 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
 
@@ -31,7 +32,7 @@ ht-degree: 75%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >的 [!UICONTROL [選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 上圖中的選項是 [目標高級](/help/main/c-intro/intro.md) 的子菜單。 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
+   >此 [!UICONTROL [選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 上圖中的選項是 [Target Premium](/help/main/c-intro/intro.md) 功能。 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -45,17 +46,17 @@ ht-degree: 75%
 
    按[!UICONTROL 「下一步」]時，VEC 會開啟並顯示您的頁面。您可以使用建議取代目前的元素，或插入建議。
 
-1. 按一下頁面上的某個元素，如果該元素所在的位置有可用的建議，則按一下 **[!UICONTROL 更換為Recommendations]**。 **[!UICONTROL 在前面插入Recommendations]**&#x200B;或 **[!UICONTROL 在後面插入Recommendations]**。
+1. 按一下您的頁面上的元素，然後如果建議可供元素所在的位置使用，請按一下 **[!UICONTROL 使用Recommendations取代]**, **[!UICONTROL 插入Recommendations在前]**，或 **[!UICONTROL 插入Recommendations在後]**.
 
-   訪問您的站點的訪問者只有在符合推薦條件時才能查看推薦內容。 不符合推薦條件的訪問者將看到預設內容。
+   只有在訪客符合建議的資格時，您網站的訪客才會看到建議內容。 不符合建議資格的訪客將會看到預設內容。
 
    ![Recommendations 選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL 更換為Recommendations]**:用建議案替換元素將刪除當前內容，並用建議案替換它。 訪問者訪問您的站點並符合推薦條件時，他們將看到指定區域中的推薦項目，而不是現有內容。
-   * **[!UICONTROL 在前面插入Recommendations]**:在選定元素之前插入建議將建議的內容放在該元素之前。 根據頁面結構，建議案顯示在選定元素的上方或左側。
-   * **[!UICONTROL 在後面插入Recommendations]**:在選定元素後插入建議將建議的內容放在該元素後。 根據頁面結構，建議案顯示在所選元素的下方或右側。
+   * **[!UICONTROL 使用Recommendations取代]**:使用建議取代元素會刪除目前的內容，並以您的建議取代它。 當訪客造訪您的網站並符合建議資格時，將會在指定區域看到建議項目，而非現有內容。
+   * **[!UICONTROL 插入Recommendations在前]**:在選取的元素之前插入建議，會將建議的內容放在該元素之前。 建議會根據您的頁面建構顯示在所選元素的上方或左側。
+   * **[!UICONTROL 插入Recommendations在後]**:在選取的元素後插入建議，會將建議的內容放在該元素後。 建議會根據您的頁面建構顯示在所選元素的下方或右側。
 
-   的 **[!UICONTROL 展開選擇]** 選項，您可以展開所選位置（父容器），以幫助您更輕鬆地識別和包含所需的頁面元素。
+   此 **[!UICONTROL 展開選取範圍]** 選項可讓您展開選取的位置（上層容器），以協助您輕鬆識別並納入所需的頁面元素。
 
 1. 選取頁面類型。
 
@@ -74,11 +75,11 @@ ht-degree: 75%
 
 1. 選取[一或多個條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。預設情況下， [!UICONTROL 選擇條件] 螢幕顯示與您的行業垂直和您在上一步中選擇的頁面類型相容的標準。 您可以變更這些選項以顯示其他條件。
+   條件會以卡片的形式顯示，顯示每個條件的相關資訊。依預設， [!UICONTROL 選取條件] 畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面類型。 您可以變更這些選項以顯示其他條件。
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。視您的「Recommendations」設定 ([!UICONTROL 「Recommendations] > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示&#x200B;**[!UICONTROL 「相容」]**&#x200B;選項。有關詳細資訊，請參見 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。視您的「Recommendations」設定 ([!UICONTROL 「Recommendations] > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示&#x200B;**[!UICONTROL 「相容」]**&#x200B;選項。如需詳細資訊，請參閱 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -88,13 +89,13 @@ ht-degree: 75%
 
       有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
-   * 要建立新條件，請按一下 **[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件]**，然後填寫新標準的資訊。 如需關於建立新條件的資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您也可以將條件群組為序列。要建立新標準序列，請按一下 **[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件序列]**。 請參閱 [建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) 的子菜單。
+   * 若要建立新條件，請按一下 **[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件]**，然後填寫新條件的資訊。 如需關於建立新條件的資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 您也可以將條件群組為序列。若要建立新條件序列，請按一下 **[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件序列]**. 請參閱 [建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) 以取得更多資訊。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包括幾種預配置的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包括數個預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![選取設計對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -163,7 +164,7 @@ ht-degree: 75%
 
    * 啟動活動
    * 編輯活動
-   * 將活動共用到Experience Cloud源
+   * 將活動共用至您的Experience Cloud摘要
    * QA活動
    * 檢視您的體驗 URL
    * 下載資料

@@ -2,16 +2,17 @@
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集
 description: 了解由Adobe定義的不同區段 [!DNL Target] 個人化模型會檢視「自動化區段」報表，以回應活動中的選件/體驗。
 title: 什麼是「自動化區段」報表？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2140'
 ht-degree: 73%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 「自動化區段」報表
+# [!UICONTROL 自動化區段報表]
 
 關於 [!UICONTROL 自動化區段] 報告，供 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。
 
@@ -112,7 +113,7 @@ ht-degree: 73%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
 **何謂自動化區段?**
 

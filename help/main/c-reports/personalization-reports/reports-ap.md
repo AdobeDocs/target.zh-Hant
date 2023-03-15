@@ -2,16 +2,17 @@
 keywords: 鎖定目標；AP報表；自動個人化報表；活動層級報表；選件層級報表；選件詳細資料報表；faq
 description: 了解如何解讀Adobe Target中的Automated Personalization摘要報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
 title: 如何使用Automated Personalization摘要報表？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '678'
 ht-degree: 31%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自動個人化摘要報表
+# Automated Personalization 摘要報表
 
 專用的摘要報表可供 [!UICONTROL Automated Personalization] 活動 [!DNL Adobe Target].
 
@@ -70,7 +71,7 @@ A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、�
 
 如需詳細資訊，請參閱 [「重要屬性」報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
-## 常見問題
+## 常見問題集
 
 ### 為什麼「活動層級」和「選件層級」報表之間的資料有差異？
 

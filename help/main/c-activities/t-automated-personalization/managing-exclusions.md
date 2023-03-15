@@ -2,17 +2,18 @@
 keywords: 刪除重複項目；允許重複項目；排除重複選件；自動個人化；不允許重複選件；排除；預設內容；排除群組
 description: 管理Adobe中的排除 [!DNL Target] Automated Personalization(AP)活動。 建立排除群組並排除重複選件、特定體驗和預設內容。
 title: 如何管理Automated Personalization活動中的排除項目？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '999'
 ht-degree: 88%
 
 ---
 
-# ![Premium 徽章](/help/main/assets/premium.png) 管理排除
+# 管理排除項目
 
 管理排除的方法包括建立排除群組、排除重複選件、排除特定體驗，以及排除 [!UICONTROL Automated Personalization] (AP) [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活動。
 

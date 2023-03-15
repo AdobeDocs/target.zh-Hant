@@ -2,17 +2,18 @@
 keywords: 建議演算法；模型訓練；模型提供；內容傳送；以項目為基礎；以使用者為基礎；以人氣為基礎；以購物車為基礎；自訂條件
 description: 了解中使用的演算法 [!DNL Target Recommendations]，包括模型訓練和模型服務。
 title: 我可以在何處了解Target的Recommendations演算法背後的科學？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2839'
 ht-degree: 1%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Target建議演算法背後的科學
+# Target 推薦演算法背後的科學
 
 深入說明中使用的演算法 [!DNL Adobe Target Recommendations]包括模型訓練的邏輯和數學細節，以及模型服務過程。
 
@@ -64,7 +65,7 @@ ht-degree: 1%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**:行為資料，以您 [實作Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或從 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
+* **輸入資料**:行為資料，以您 [實作Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **模型訓練**:
 
@@ -88,7 +89,7 @@ ht-degree: 1%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**:如前所述，此演算法完全以目錄資料為基礎(擷取至 [!DNL Target] via a [目錄摘要、實體API或來自頁面更新的](https://developer.adobe.com/target/實作/建議/){target=_blank}。
+* **輸入資料**:如前所述，此演算法完全以目錄資料為基礎(擷取至 [!DNL Target] via a [目錄摘要、實體API或來自頁面更新的](https://developer.adobe.com/target/實作/建議/){target=_blank}.
 
 * **模型訓練**:
 
@@ -126,7 +127,7 @@ ht-degree: 1%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**:這與項目 — 項目協作篩選(CF)方法相同。 [!UICONTROL 兩者皆建議您] 和購物車型演算法使用行為資料，以您 [實作Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或從 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
+* **輸入資料**:這與項目 — 項目協作篩選(CF)方法相同。 [!UICONTROL 兩者皆建議您] 和購物車型演算法使用行為資料，以您 [實作Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **模型訓練**:
 

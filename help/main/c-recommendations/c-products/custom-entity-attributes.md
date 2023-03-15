@@ -2,17 +2,18 @@
 keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
 description: 了解如何使用單值和多值自訂實體屬性，以定義Adobe中項目的其他資訊 [!DNL Target] Recommendations目錄。
 title: 如何使用自訂實體屬性？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 88%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自訂實體屬性
+# 自訂實體屬性
 
 在中使用單值和多值自訂實體屬性 [!DNL Adobe Target Recommendations] 來定義目錄中項目的其他資訊。
 
@@ -36,7 +37,7 @@ ht-degree: 87%
 
 多值自訂實體屬性必須以有效的 JSON 陣列形成來傳送:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 [!DNL Recommendations] 所支援的有效 JSON 陣列範例:
 
@@ -126,7 +127,7 @@ function targetPageParams() {
   }
 ```
 
-請參閱 [Adobe Recommendations API檔案](https://developer.adobe.com/target/implement/recommendations/){target=_blank}，以取得使用傳送和儲存實體API的相關資訊。
+如需使用傳送和儲存實體 API 的相關資訊，請參閱 [Adobe Recommendations API 文件](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
 
 ## 對多值屬性使用運算子 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

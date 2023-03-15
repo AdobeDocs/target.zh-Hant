@@ -2,16 +2,17 @@
 keywords: Recommendations;Recommendations 條件;建議演算法;recommendations 活動;條件;recommendations 鎖定目標;recs
 description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
 title: 什麼是  [!DNL Target] Recommendations？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 99%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations
+# Recommendations
 
 [!DNL Adobe Target Recommendations] 活動可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。[!DNL Target Recommendations] 可協助引導訪客至他們可能不知道的相關項目。[!DNL Recommendations] 讓您在適當的時間地點提供訪客相關內容。
 

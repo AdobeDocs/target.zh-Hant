@@ -2,16 +2,17 @@
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選
 description: 了解如何使用Recommendations目錄搜尋來尋找產品或內容、建立集合或排除項目、從目錄中移除項目等。
 title: 如何使用Recommendations目錄搜尋？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 23%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 目錄搜尋
+# 目錄搜尋
 
 此 [!UICONTROL 目錄搜尋] 頁面 [!DNL Adobe Recommendations] 可協助您找出目錄中的產品或內容。 在此頁面上，您可執行的最基本任務是搜尋項目。 此外，您可以變更環境、將搜尋結果儲存至集合或排除項目、新增篩選Facet、修改表格中的欄、新增搜尋Facet等。
 

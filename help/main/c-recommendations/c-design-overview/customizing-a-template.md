@@ -2,16 +2,17 @@
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
 description: 了解如何使用開放原始碼Velocity設計語言，在Adobe中自訂建議設計 [!DNL Target] Recommendations。
 title: 如何使用Velocity自訂設計？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 44%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 使用 Velocity 自訂設計
+# 使用 Velocity 自訂設計
 
 使用開放原始碼Velocity設計語言，在中自訂建議設計 [!DNL Adobe Target Recommendations].
 

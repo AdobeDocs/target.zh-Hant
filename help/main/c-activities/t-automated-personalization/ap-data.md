@@ -2,16 +2,17 @@
 keywords: 環境資料；工作階段資料；地理資料；地理資料；地理資料；裝置資料；行動資料；屬性；設定檔屬性；個人化演算法；機器學習演算法；機器學習演算法
 description: 了解哪些資料Adobe [!DNL Target] 收集並用於建置其機器學習演算法。
 title: 收集哪些資料以建立機器學習演算法？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2022'
 ht-degree: 50%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 使用的資料 [!DNL Target] 機器學習算法
+# [!DNL Target]機器學習演算法使用的資料
 
 [!DNL Adobe Target] 自動收集和使用各種資料，以建立其個人化演算法，於 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。 當訪客進入AP或AT活動時，資訊的快照會傳遞至一組「訓練記錄」（個人化演算法將學習的訪客資料）。
 

@@ -1,17 +1,18 @@
 ---
-keywords: 建議源；源；SAINT;ftp;csv；分類；分析分類
-description: 瞭解如何將導入實體饋送到Adobe [!DNL Target] Recommendations使用CSV檔案、Google產品搜索源格式和分析產品分類。
-title: 如何在中使用源 [!DNL Target] Recommendations?
+keywords: 建議摘要；摘要；SAINT;ftp;csv；分類；analytics分類
+description: 了解如何將匯入實體匯入Adobe [!DNL Target] Recommendations（使用CSV檔案）、Google產品搜尋摘要格式和Analytics產品分類。
+title: 如何在中使用摘要 [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2511'
 ht-degree: 84%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 摘要
+# 摘要
 
 使用摘要來將實體匯入 [!DNL Adobe Target Recommendations]。實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。
 
@@ -19,18 +20,18 @@ ht-degree: 84%
 
 摘要可用來傳遞[實體](/help/main/c-recommendations/c-products/products.md)或擴增 mbox 資料的資訊，此資訊無法在頁面上取得，或直接從頁面傳送很不安全，例如利潤、COGS 等。
 
-訂閱源允許您將詳細的項目資訊傳遞到 [!DNL Recommendations]，如產品ID、類別、名稱、消息和其他屬性。
+摘要可讓您將詳細的項目資訊傳遞至 [!DNL Recommendations]，例如產品ID、類別、名稱、訊息和其他屬性。
 
 您可以選取要將 [!DNL Target] 產品分類檔案或 Google Product Search 檔案中的哪些欄位傳送至 [!DNL Recommendations] 伺服器。
 
-然後，可以使用有關每個項的以下資料：
+然後，每個項目的這些資料片段可用於：
 
 * 在設計中顯示值
 * 定義條件包含規則
-* 將項目排序到不同的集合
-* 將排除項應用於建議
+* 將項目排序至不同的集合
+* 將排除套用至建議
 
-物料說明可以傳遞到 [!DNL Target] 使用源或框。 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
+項目說明可傳遞至 [!DNL Target] 使用摘要或mbox。 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
 
 [!UICONTROL 摘要]清單 (**[!UICONTROL 建議]** > **[!UICONTROL 摘要]**) 提供您已建立的任何摘要的相關資訊。
 
@@ -47,13 +48,13 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->上載的實體和實體屬性將在61天後過期。 這表示:
+>上傳的實體和實體屬性會在61天後過期。 這表示:
 >
->* 訂閱源應至少每月運行一次，以確保目錄內容不會過期。
->* 從源檔案中刪除項目不會從目錄中刪除該項目。 要從目錄中刪除該項，請通過目標UI或API手動刪除該項。 或者，修改物料屬性（如庫存）以確保將物料排除在考慮之外。
+>* 您的摘要至少應每月執行，以確保目錄內容不會過期。
+>* 從摘要檔案中移除項目並不會從目錄中移除該項目。 若要從目錄中移除項目，請透過Target UI或API手動刪除項目。 或者，修改項目屬性（如庫存），以確保將項目排除在考慮之外。
 
 
-## 源類型
+## 來源類型
 
 實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。
 
@@ -89,7 +90,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->您不能以空白值來覆寫現有值。必須在其位置傳遞另一個值才能覆蓋它。 以售價來說，一般解決辦法是傳入實際的 &quot;NULL&quot; 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
+>您不能以空白值來覆寫現有值。您必須傳入其他值來覆寫它。 以售價來說，一般解決辦法是傳入實際的 &quot;NULL&quot; 或其他某些訊息。然後，您可以撰寫範本規則來排除含有該值的項目。
 
 產品在成功上傳其實體大約兩小時之後，就可以在管理介面中使用。
 
@@ -117,13 +118,13 @@ Google 產品搜尋摘要類型使用 Google 格式。這與 Adobe 的專屬 CSV
 >
 >不一定要使用 Google 資料。[!DNL Recommendations] 使用與 Google 相同的格式。您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。實體源可以發送到 [!DNL Recommendations] 通過.xml、.txt或.tsv，並可以使用 [Google定義的屬性](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)。 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商會將產品上傳至 Google，當訪客使用 Google 產品搜尋時，他們的產品就會出現。[!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。實體摘要可傳送至 [!DNL Recommendations] 透過.xml、.txt或.tsv，可使用 [由Google定義的屬性](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >
 >託管 Google 摘要內容的伺服器上必須允許使用 POST 方法。
 
-因為 [!DNL Recommendations] 用戶已配置.xml或.txt feeds，通過URL或FTP發送到Google，實體feed接受該產品資料，並使用它生成建議目錄。 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
+因為 [!DNL Recommendations] 使用者已設定.xml或.txt摘要以透過URL或FTP傳送至Google，實體摘要會接受該產品資料並用來建置建議目錄。 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
 
 如果您將 Google Product Search 用於實體摘要上傳，您仍然需要將產品頁面 mbox 放置在要顯示建議的頁面上，或是根據檢視來追蹤演算法傳遞的產品檢視。
 
@@ -208,16 +209,16 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Analytics 產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 產品分類是建議唯一可用的分類。有關此分類檔案的詳細資訊，請參見 [關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 的 *分析元件* 的子菜單。 目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+Analytics 產品分類是建議唯一可用的分類。如需此分類檔案的詳細資訊，請參閱 [關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 在 *Analytics元件* 指南。 目前的實作中不一定有建議所需的一切資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
->將實體資料導入之前 [!DNL Recommendations] 使用分析產品分類時，請注意這不是首選方法。
+>將實體資料匯入 [!DNL Recommendations] 使用Analytics產品分類時，請注意這不是慣用的方法。
 >
 > 請注意下列警告:
 >
 >* 更新實體屬性會引起額外延遲，最多 24 小時。
->* [!DNL Target] 僅支援產品分類。 分析產品SKU必須與 [!DNL Recommendations] `entity.id`。 您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
+>* [!DNL Target] 僅支援產品分類。 Analytics產品SKU必須對應至與 [!DNL Recommendations] `entity.id`. 您可以使用 Adobe 諮詢服務來設計自訂 Analytics 分類。請聯絡您的帳戶管理員來提出問題。
 
 
 ## 建立摘要 {#steps}
@@ -235,7 +236,7 @@ Analytics 產品分類是建議唯一可用的分類。有關此分類檔案的�
    * Google 產品摘要
    * Analytics 分類
 
-   如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您也可以 [下載模型CSV指南](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) 的子菜單。
+   如需關於 CSV 和 Google 產品摘要摘要類型的資訊，請參閱[摘要概覽](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您也可以 [下載模型CSV指南](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) 來協助您正確格式化摘要。
 
 1. (視條件而定) 如果您已選取 **[!UICONTROL CSV]** 或 **[!UICONTROL Google 產品摘要]**，請指定可存取摘要的位置。
 
@@ -275,7 +276,7 @@ Analytics 產品分類是建議唯一可用的分類。有關此分類檔案的�
 
    依預設，摘要會屬於所有主機群組。這可確保此摘要中的項目可以在任何環境中使用。如需詳細資訊，請參閱[主機](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 建立或編輯摘要之後，摘要會立即執行，然後根據您設定的參數而更新。需要一些時間，全部資訊才可供使用。首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。目前狀態顯示於「摘要」清單的[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)下。您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
 
@@ -300,7 +301,7 @@ Analytics 產品分類是建議唯一可用的分類。有關此分類檔案的�
 | 正在等候下載 | Target 正在準備下載摘要檔案。 |
 | 正在下載摘要檔案 | Target 正在下載摘要檔案。 |
 | 正在匯入項目 | Target 正在從摘要檔案匯入項目。 |
-| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>附註:<ul><li>如果對項目屬性的更改導致項目被排除在建議之外，則將立即反映排除。 如果項目是新增的項目，或屬性變更導致建議&#x200B;*不再*&#x200B;排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。</li><li>顯示此狀態時，更新可能尚未反映在目錄搜索用戶介面中。 目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。</li></ul> |
+| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | Target 已將摘要檔案匯入至其內容傳遞系統。已在內容傳遞系統中進行項目屬性的變更，這些變更很快會呈現在已傳送的建議中。如果您沒有看到預期的變更，請立即再試一次，並重新整理包含建議的頁面。<br>附註:<ul><li>如果項目屬性的變更導致建議排除了該項目，則會立即顯示排除。 如果項目是新增的項目，或屬性變更導致建議&#x200B;*不再*&#x200B;排除項目，該項目則要等到下次演算法更新時才會顯示，這會在 24 小時內發生。</li><li>顯示此狀態時，目錄搜尋使用者介面可能尚未反映更新。 目錄搜尋會列出另一個狀態，說明上次更新可搜尋目錄的時間。</li></ul> |
 | 無法編列索引 | 編列索引作業失敗。請重試。 |
 | 找不到伺服器 | FTP 或 URL 位置無效或無法觸達。 |
 
@@ -308,7 +309,7 @@ Analytics 產品分類是建議唯一可用的分類。有關此分類檔案的�
 
 >[!IMPORTANT]
 >
->上傳的實體會在 61 天後過期。這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。如果某個項目未至少每60天包括在源檔案（或其他實體更新方法）中一次， [!DNL Adobe Target] 推斷項目不再相關，並將其從目錄中刪除。
+>上傳的實體會在 61 天後過期。這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。如果項目未至少每60天包含在摘要檔案（或其他實體更新方法）中一次， [!DNL Adobe Target] 推斷項目不再相關，並將其從目錄中移除。
 
 ### 摘要狀態指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -337,11 +338,11 @@ Analytics 產品分類是建議唯一可用的分類。有關此分類檔案的�
 
 狀態應該是黃色，因為索引在大約一天又一小時以前就應該執行。雖然這只有頻率設定的 (31+(1/25))/30 = 1.03%，但已超過一天延遲的上限。
 
-## 訓練影片
+## 培訓影片
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解 Recommendations 中的摘要 (3:01) ![概述徽章](/help/main/assets/overview.png)
+### 瞭解 Recommendations 中的摘要 (3:01) ![總覽徽章](/help/main/assets/overview.png)
 
 此影片包含下列資訊:
 
