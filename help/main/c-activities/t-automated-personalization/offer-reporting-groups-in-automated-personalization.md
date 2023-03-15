@@ -2,16 +2,17 @@
 keywords: 自動個人化；選件；報表；群組；報表群組；應用程式
 description: 了解如何在Adobe中使用優惠方案報表群組 [!DNL Target] [!UICONTROL Automated Personalization] 活動。
 title: 我可以在Automated Personalization活動中使用選件報表群組嗎？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 29%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  自動個人化中的選件報表群組]
+# [!UICONTROL Automated Personalization 中的優惠方案報告群組]
 
 在中使用報表群組的相關資訊 [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)活動。
 

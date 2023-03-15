@@ -2,16 +2,17 @@
 keywords: IP 位址;IP 位址;合格清單;允許清單;防火牆;recs;摘要;伺服器;adobe marketing cloud;recommendations
 description: 檢視用於 [!DNL Target] Recommendations 摘要處理伺服器的 IP 位址清單，協助您將防火牆設定為允許來自 Adobe 伺服器的 IP 位址。
 title: Recommendations 摘要處理伺服器使用哪些 IP 位址？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
-# Recommendations 摘要處理伺服器使用的 ![PREMIUM](/help/main/assets/premium.png) IP 位址
+# Recommendations 摘要處理伺服器使用的 IP 位址
 
 [!DNL Adobe Target] [!DNL Recommendations] 摘要處理伺服器中使用的 IP 位址清單，可協助您將防火牆設定為允許來自 Adobe 伺服器的 IP 位址。
 

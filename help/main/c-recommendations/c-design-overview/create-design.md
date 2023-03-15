@@ -2,16 +2,17 @@
 keywords: 建議設計;建立設計;複製設計
 description: 了解如何建立Adobe [!DNL Target] Recommendations設計時使用預設設計，或建立最符合頁面版面的自訂設計。
 title: 如何在Recommendations中建立設計？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 30%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 建立設計
+# 建立設計
 
 設計可定義建議出現在頁面上的方式。
 

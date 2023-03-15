@@ -2,16 +2,17 @@
 keywords: 疑難排解；常見問題集；FAQ；自動個人化；控制；預設體驗；最佳作法
 description: 探索有關Automated Personalization(AP)活動在Adobe Target中的常見問題集(FAQ)和解答的清單。
 title: 如何找到Automated Personalization活動的常見問題集？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 76%
+source-wordcount: '2003'
+ht-degree: 77%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization常見問題集
+# Automated Personalization 常見問題
 
 關於自動個人化 (AP) 常見問題集 (FAQ) 的清單。
 
@@ -50,7 +51,7 @@ ht-degree: 76%
    * 報表群組中的選件之間沒有個人化: 個人化模型對所有選件一視同仁。
    * 絕不將活動中的所有選件全部放入單一報表群組中。此決定會導致將所有選件一律隨機提供給活動中的所有訪客。
 
-## 常見問題
+## 常見問題集
 
 使用時，請參閱下列常見問題集和解答 [!UICONTROL Automated Personalization] 活動：
 
@@ -58,7 +59,7 @@ ht-degree: 76%
 
 [!DNL Target] 嚴格限制為 30,000 個體驗，但在建立少於 10,000 個體驗時運作情況最好。
 
-即使活動已啟用 [!UICONTROL 顯示重複項] 選項。
+即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。
 
 ### 如何實作選件等級目標鎖定? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

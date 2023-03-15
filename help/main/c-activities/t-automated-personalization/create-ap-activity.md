@@ -2,16 +2,17 @@
 keywords: 自動個人化；ap；對象；整體；隨機森林；殘差變異；錯誤變異；期限值
 description: 了解如何建立 [!UICONTROL Automated Personalization] (AP)中的活動 [!DNL Adobe Target] 使用 [!UICONTROL 可視化體驗撰寫器].
 title: 如何建立 [!UICONTROL Automated Personalization] 活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 8a791d4266cb03fef498ac6f852d4a5755ba66a6
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1853'
 ht-degree: 60%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 建立自動個人化活動
+# [!UICONTROL 建立 Automated Personalization 活動]
 
 建立 [!UICONTROL Automated Personalization] (AP)中的活動 [!DNL Adobe Target] 使用 [!UICONTROL 可視化體驗撰寫器] (VEC)。
 

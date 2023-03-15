@@ -2,17 +2,18 @@
 keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬性; 屬性; at_property; 角色; 權限
 description: 了解如何將使用者新增至Adobe Target;建立工作區、使用者群組和屬性；更新實作；和指定角色和權限。
 title: 如何配置企業權限？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1443'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 設定企業權限
+# 設定企業權限
 
 新增使用者至您的 [!DNL Target] 實施；建立工作區、使用者群組和屬性；更新 [!DNL Target] 實作以包含 `at_property` 參數；和指定角色和權限。
 

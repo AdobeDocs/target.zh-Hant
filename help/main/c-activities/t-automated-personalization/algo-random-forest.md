@@ -2,16 +2,17 @@
 keywords: 隨機森林；決策樹；ap;Automated Personalization
 description: 了解Adobe [!DNL Target] 在Automated Personalization(AP)和自動鎖定目標活動中使用隨機森林演算法。
 title: 如何 [!DNL Target] 使用隨機森林演算法嗎？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1426'
 ht-degree: 94%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 隨機森林演算法
+# 隨機森林演算法
 
 Target 用於自動個人化和自動鎖定目標的主要個人化演算法為隨機森林 (Random Forest)。隨機森林之類的整體方法會使用多個學習演算法，相較於任何建構式學習演算法可獲得更好的預測性效能。自動個人化中的隨機森林演算法為一種分類或迴歸方法，其運作方式是在訓練時建構許多決策。
 

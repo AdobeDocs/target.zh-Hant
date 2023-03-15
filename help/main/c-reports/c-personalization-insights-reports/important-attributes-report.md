@@ -2,16 +2,17 @@
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;faq;常見問題集; 重要屬性
 description: 了解如何使用 [!UICONTROL 重要屬性] 顯示影響個人化模型的排名最前屬性及其相對重要性的報表。
 title: 什麼是「重要屬性」報表？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1723'
 ht-degree: 79%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 「重要屬性」報表
+# 重要屬性報表
 
 關於 [!UICONTROL 重要屬性] 報告，供 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。
 

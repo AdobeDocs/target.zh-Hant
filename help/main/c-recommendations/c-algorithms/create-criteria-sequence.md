@@ -2,16 +2,17 @@
 keywords: 條件序列；多個條件；演算法；條件；建議條件；序列；傳回的項目數限制；槽層級控制；槽
 description: 了解如何設定最多五個條件的序列，以對您Adobe中顯示的項目執行更好的控制 [!DNL Target] Recommendations活動。
 title: 如何在Recommendations中建立條件序列？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 建立條件序列
+# 建立條件序列
 
 使用最多五個條件的序列來對 [!UICONTROL Recommendations] 活動中出現的項目執行更好的控制。您也可以限制傳回的項目數（有時稱為「槽層級控制」）。
 

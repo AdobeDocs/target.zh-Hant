@@ -2,16 +2,17 @@
 keywords: 自動鎖定目標；鎖定目標；流量分配；常見問題集；faq；疑難排解
 description: 了解 [!UICONTROL 自動鎖定目標] 活動 [!DNL Target] 會根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
 title: 什麼是 [!UICONTROL 自動鎖定目標] 活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1965'
 ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL 自動鎖定目標] 概述
+# [!UICONTROL 自動鎖定目標概覽]
 
 [!UICONTROL 自動鎖定目標] 活動 [!DNL Adobe Target] 使用進階機器學習來從多個高效能之市場行銷人員定義的體驗中選取，以個人化內容並促進轉換。 [!UICONTROL 自動鎖定目標] 會根據個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
 
@@ -62,9 +63,9 @@ A/B 活動流量內的[!UICONTROL 「自動鎖定目標」]選項可讓您只要
 
 | 術語 | 定義 |
 |---|---|
-| [多臂吃角子](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | 最佳化的多臂吃角子老虎機方法可平衡探索學習和該學習的利用。 |
+| [多臂吃角子老虎機](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | 最佳化的多臂吃角子老虎機方法可平衡探索學習和該學習的利用。 |
 | [隨機森林](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | 隨機森林是先進的機器學習方法。在資料科學方面，這是整體分類或回歸方法，根據訪客和造訪屬性來建立許多決策樹。 內 [!DNL Target]，則會使用隨機森林來判斷每個特定訪客的轉換可能性最高（或每次造訪帶來的收入最高）的體驗。 |
-| [Thompson取樣](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Thompson取樣的目標是要判斷哪個體驗是整體最佳（非個人化），同時將尋找該體驗的「成本」降到最低。 即便兩個體驗之間沒有統計上的差異，Thompson 取樣仍一律會挑選獲勝者。 |
+| [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Thompson取樣的目標是要判斷哪個體驗是整體最佳（非個人化），同時將尋找該體驗的「成本」降到最低。 即便兩個體驗之間沒有統計上的差異，Thompson 取樣仍一律會挑選獲勝者。 |
 
 ## [!UICONTROL 自動鎖定目標]如何運作 {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
