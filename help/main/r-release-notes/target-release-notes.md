@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 49%
 * 更新 [!DNL Target] 指向新的 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * 增強安全性，以防止 [!DNL Recommendations] 動態消息。 (TGT-43769)
 * 修正客戶無法在 [!DNL Recommendations] 如果影像名稱包含 [GB18030字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* 修正造成 [GB18030字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 在 [!UICONTROL 修改] 編輯面板時 [!UICONTROL 文字/HTML] 在活動上 [!UICONTROL 體驗] 頁面。
+* 修正造成 [GB18030字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 在 [!UICONTROL 修改] 編輯面板時 [!UICONTROL 文字/HTML] 在活動上 [!UICONTROL 體驗] 頁面。 (TGT-44600)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
 
 
