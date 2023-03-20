@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
 workflow-type: tm+mt
-source-wordcount: '35729'
+source-wordcount: '35989'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,39 @@ ht-degree: 96%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2023
+
+### [!DNL Target] Standard/Premium 22.15.1 (2023 年 3 月 8 日和 9 日)
+
+我們將根據以下排程分批發行此版本：
+
+* **3 月 8 日**：美洲區域
+* **3 月 9 日**：歐洲、中東和非洲 (EMEA) 區域
+* **3 月 9 日**：亞太 (APAC) 區域
+
+>[!NOTE]
+>
+>因為問題已修正，所以 3 月 8 日和 9 日發行的為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]功能最佳化的 A4T 量度已暫時移除。經過進一步的內部測試後，該功能將在未來幾週內再次發佈。
+
+此版本包含下列修正：
+
+* 為使用 [!UICONTROL Visual Experience Composer] (VEC) 編寫自訂 Web 元件進行更新：
+
+   * 透過改進編寫程序來修正 VEC 中選取 Shadow DOM 元素的問題，因此在編寫 Shadow 根時不依賴 [!DNL Target] 實作類型。現在，在 VEC 中選取 Shadow DOM 元素應該適用於任何網站。
+   * 已修正在 VEC 中使用 #Shadow DOM 無法載入 HTML 元素的問題。(TGT-35801)
+   * 已修正 SPA 網站使用 ShadowDOM 的 VEC 問題。(TGT-43169)
+   * 已修正最佳化目標的問題：「點擊元素」未正確識別 ShadowDOM 中的 CSS 選取器。
+
+>[!NOTE]
+>
+>為確保傳遞在 VEC 中編寫的變更，請確保您使用的是 2.8 版本以後的 [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))。
+
+**已知問題**：使用 [!DNL Adobe Experience Platform Web SDK] 時，對 Shadow 根元素的點擊追蹤無法正常運作。(TNT-47012)
+
+### at.js 版本 2.10.2 (2023 年 3 月 7 日)
+
+* 修正造成 `trackEvent` 函數總是傳回錯誤的問題。
+
+有關所有 at.js 版本的資訊，請參閱 [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.14.5 (2023 年 2 月 13-15 日)
 
@@ -642,7 +675,7 @@ ht-degree: 96%
 | 功能/增強功能 | 說明 |
 | --- | --- |
 | at.js 1.8.2 | 此 at.js 版本為維護版本，包含下列修正：<ul><li>修正使用 CNAME 和 Edge Override (at.js 1) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35064)</li></ul>如需詳細資訊，請參閱 [at.js版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
-| at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正：<ul><li>使 `deviceIdLifetime` 設定可覆蓋的通訊 [targetGlobalSettings](https://developer.adobe.com/target/實作/用戶端/atjs/atjs-functions/targetglobalsettings/){target=_blank}. (TNT-36349)</li><li>修正使用 CNAME 和 Edge Override (at.js 2) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35065)</li><li>修正使用 [!DNL Target] [!DNL Launch]擴充功能 v2 和 [!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target] 延遲 [!DNL Analytics]`sendBeacon` 呼叫的問題。(TNT-36407、TNT-35990、TNT-36000)</li></ul>如需詳細資訊，請參閱 [at.js版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
+| at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正：<ul><li>使 `deviceIdLifetime` 設定可覆蓋的通訊 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}. (TNT-36349)</li><li>修正使用 CNAME 和 Edge Override (at.js 2) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35065)</li><li>修正使用 [!DNL Target] [!DNL Launch]擴充功能 v2 和 [!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target] 延遲 [!DNL Analytics]`sendBeacon` 呼叫的問題。(TNT-36407、TNT-35990、TNT-36000)</li></ul>如需詳細資訊，請參閱 [at.js版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 
 ### 設定檔批次狀態 API v2 變更（2020 年 5 月 14 日）
 
@@ -1011,7 +1044,7 @@ Target 1.0.1 版本已修正下列問題：
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 現已可用。<br>最新版本的 at.js 提供豐富的功能組合，讓您的業務得以奠基於新一代的用戶端技術，同時發展個人特色。本次的新版本著重於升級 at.js，進而與單一頁面應用程式 (SPA) 產生和諧互動。<br>以下是幾個使用 at.js 2.x 特有 (舊版未提供) 的優點:<ul><li>可以在頁面載入時將所有選件加入快取，把多次伺服器呼叫減少為一次。</li><li>大幅改善一般使用者在網站上的體驗，因為選件能透過快取立即顯示，避免傳統伺服器呼叫引發的延遲時間。</li><li>只要編寫一行程式碼以及請開發人員設定一次，行銷人員就能透過單一頁面應用程式上的可視化體驗撰寫器 (VEC) 建立及執行 A/B 和體驗 (XT) 活動。</li></ul>at.js 2.x 引進以下新函數:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>導入 at.js 2.x 後，以下函數已遭到淘汰:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>如需詳細資訊，請參閱 [從at.js 1.x升級為at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} and [at.js functions](https://developer.adobe.com/target/實作/用戶端/atjs/atjs-functions/atjs-functions/){target=_blank}.<br>**Note**: If you require Adobe Opt-in support for the [General Data Protection Regulation](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR){target=_blank}，您目前必須使用at.js 1.7.0。選擇加入支援不支援at.js 2.x。 |
+| at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 現已可用。<br>最新版本的 at.js 提供豐富的功能組合，讓您的業務得以奠基於新一代的用戶端技術，同時發展個人特色。本次的新版本著重於升級 at.js，進而與單一頁面應用程式 (SPA) 產生和諧互動。<br>以下是幾個使用 at.js 2.x 特有 (舊版未提供) 的優點:<ul><li>可以在頁面載入時將所有選件加入快取，把多次伺服器呼叫減少為一次。</li><li>大幅改善一般使用者在網站上的體驗，因為選件能透過快取立即顯示，避免傳統伺服器呼叫引發的延遲時間。</li><li>只要編寫一行程式碼以及請開發人員設定一次，行銷人員就能透過單一頁面應用程式上的可視化體驗撰寫器 (VEC) 建立及執行 A/B 和體驗 (XT) 活動。</li></ul>at.js 2.x 引進以下新函數:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>導入 at.js 2.x 後，以下函數已遭到淘汰:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>如需詳細資訊，請參閱 [從at.js 1.x升級為at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} and [at.js functions](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.<br>**Note**: If you require Adobe Opt-in support for the [General Data Protection Regulation](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR){target=_blank}，您目前必須使用at.js 1.7.0。選擇加入支援不支援at.js 2.x。 |
 | at.js 1.7.0 版<br>，2019 年 2 月 14 日 | at.js 1.7.0 現已可用。<br>該版本提供「Adobe 選擇加入」支援。「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需「Adobe 選擇加入」的詳細資訊，請參閱[隱私權與一般資料保護規範](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR){target=_blank}.<br>This release also fixes an issue where Target might override redirect URL parameters with parameters that are coming from the redirect URL.<br>**Note**: If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not supported in at.js 2.x.<br>For a list of all versions, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (2019 年 2 月 19 日) {#target-19-2-1}
