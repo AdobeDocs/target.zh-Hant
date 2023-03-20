@@ -7,9 +7,9 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '599'
+ht-degree: 100%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由於此後已修正的問題，「針對 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標]「 3月8日和9日發行的功能已暫時移除。 進一步的內部測試後，此功能將在未來幾週內再次發行。
+>因為問題已修正，所以 3 月 8 日和 9 日發行的為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]功能最佳化的 A4T 量度已暫時移除。經過進一步的內部測試後，該功能將在未來幾週內再次發佈。
 
 此版本包含下列修正：
 
-* 更新自訂Web元件的編寫，使用 [!UICONTROL 可視化體驗撰寫器] (VEC):
+* 為使用 [!UICONTROL Visual Experience Composer] (VEC) 編寫自訂 Web 元件進行更新：
 
-   * 透過改善編寫程式，修正VEC中陰影DOM元素的選取，因此不會依賴 [!DNL Target] 製作陰影根時的實作類型。 現在，在VEC中選取「影子DOM」元素，即可供任何網站使用。
-   * 修正無法在VEC中使用#Shadow DOM載入HTML元素的問題。 (TGT-35801)
-   * 修正SPA網站使用ShadowDOM的VEC問題。 (TGT-43169)
-   * 修正最佳化目標的問題：「已點按元素」未正確識別ShadowDOM中的CSS選取器。
+   * 透過改進編寫程序來修正 VEC 中選取 Shadow DOM 元素的問題，因此在編寫 Shadow 根時不依賴 [!DNL Target] 實作類型。現在，在 VEC 中選取 Shadow DOM 元素應該適用於任何網站。
+   * 已修正在 VEC 中使用 #Shadow DOM 無法載入 HTML 元素的問題。(TGT-35801)
+   * 已修正 SPA 網站使用 ShadowDOM 的 VEC 問題。(TGT-43169)
+   * 已修正最佳化目標的問題：「點擊元素」未正確識別 ShadowDOM 中的 CSS 選取器。
 
 >[!NOTE]
 >
->若要確保傳送在VEC中撰寫的變更，請確定您使用 [!DNL Target] SDK([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))，其版本大於2.8。
+>為確保傳遞在 VEC 中編寫的變更，請確保您使用的是 2.8 版本以後的 [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))。
 
-**已知問題**:使用 [!DNL Adobe Experience Platform Web SDK] 無法正常運作。 (TNT-47012)
+**已知問題**：使用 [!DNL Adobe Experience Platform Web SDK] 時，對 Shadow 根元素的點擊追蹤無法正常運作。(TNT-47012)
 
 ## at.js 版本 2.10.2 (2023 年 3 月 7 日)
 
