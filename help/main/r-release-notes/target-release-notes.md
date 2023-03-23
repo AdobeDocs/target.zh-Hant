@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '735'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 若要檢視目前版本的相關資訊，請參閱 [Target 版本注意事項](release-notes.md)。這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 23.3.1（2023年3月28日至30日）
+## [!DNL Target] Standard/Premium 23.3.1 (2023 年 3 月 28 至 30 日)
 
 我們將根據以下排程分批發行此版本：
 
@@ -31,25 +31,25 @@ ht-degree: 0%
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 用於無頭個人化和實驗的AEM內容片段 | 使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段] in [!DNL Target] 活動。 將AEM的易用性和強大功能與強大的人工智慧(AI)和機器學習(ML)功能結合在 [!DNL Target] 大規模測試並個人化體驗。 |
+| 用於 Headless 個人化和實驗的 AEM 內容片段 | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以進行大規模測試並將體驗個人化。 |
 | 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]最佳化的 A4T 量度 | [!DNL Target]可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，選擇以二項式事件為基礎的量度，或是以持續事件為基礎的量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul> |
 | 使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配] | 更新的教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
 | 使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動鎖定目標] | 更新的教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-* 增強對象和活動同步，以便在中建立項目 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 在 [!DNL Target] UI更快。 (TGT-44568)
-* 進行變更以允許使用者移除 [!UICONTROL 預設URL] 在 [!UICONTROL 管理] > [!UICONTROL 可視化體驗撰寫器] > [!UICONTROL 預設URL]. 此變更可讓客戶將預設URL變更為空白字串，此字串之前在初始設定後無法使用。 (TGT-44577)
-* 移除客戶無法編輯或刪除現成可用對象（具有保留名稱的對象）的限制。 (TGT-44655)
-* 已停用「[!UICONTROL 完成]「 」選項，此選項在 [!DNL Target] 建立時的UI [合併對象](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
-* 修正 [!UICONTROL 語言] 連結 [!UICONTROL 對象] 頁面，以便正確連結至「[!UICONTROL 帳戶通信首選項]」頁。 (TGT-43562)
-* 解決客戶有時無法建立 [!UICONTROL A/B測試] 活動 [!UICONTROL Adobe Analytics] 選項 [!UICONTROL 管理] > [!UICONTROL 報表] > [!UICONTROL 報表Experience Cloud解決方案]. (TGT-44844)
-* 修正客戶無法檢視 [!UICONTROL 多變數測試] 活動中有許多來自 [!UICONTROL 可視化體驗撰寫器] (VEC)。 此 [DOM路徑](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在VEC底部時，有時會讓客戶看不到最後一個體驗。 (TGT-44578)
-* 修正VEC中的瀏覽URL無法反映一般瀏覽器工作階段中可見的目前頁面（如果頁面需要授權或叫用重新導向）的問題。 (TGT-44350)
-* 修正客戶無法變更 [!UICONTROL 篩選不相容的條件] 設定 [!UICONTROL Recommendations] > [!UICONTROL 設定]. (TGT-44398)
-* 修正導致POST請求建立新 [!DNL Recommendations] 使用時摘要失敗 [!UICONTROL Analytics分類] 報表套裝的名稱中有點。 (TGT-44598)
-* 更新 [!DNL Target] 指向新的 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
-* 增強安全性，以防止 [!DNL Recommendations] 動態消息。 (TGT-43769)
-* 修正客戶無法在 [!DNL Recommendations] 如果影像名稱包含 [GB18030字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* 修正造成 [GB18030字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 在 [!UICONTROL 修改] 編輯面板時 [!UICONTROL 文字/HTML] 在活動上 [!UICONTROL 體驗] 頁面。 (TGT-44600)
+* 增強對象和活動同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中建立的項目可更快地在 [!DNL Target] UI 中使用。(TGT-44568)
+* 進行變更以允許使用者在[!UICONTROL 管理] > [!UICONTROL Visual Experience Composer] > [!UICONTROL 預設 URL] 下刪除[!UICONTROL 預設 URL]。此變更可讓客戶將預設 URL 變更回空字串，這在以前於初始設定後是不可能的。(TGT-44577)
+* 刪除禁止客戶編輯或刪除現成可用對象 (具有保留名稱的對象) 的限制。(TGT-44655)
+* 停用建立[合併的對象](/help/main/c-target/combining-multiple-audiences.md)期間在載入進度環時會出現在 [!DNL Target] UI 的「[!UICONTROL 完成]」選項。(TGT-44079)
+* 修正 [!UICONTROL Audiences] 頁面底部的[!UICONTROL 語言]連結，以便正確連結到「[!UICONTROL 帳戶通訊偏好設定]」頁面。(TGT-43562)
+* 有時客戶在[!UICONTROL 管理] > [!UICONTROL 報告] > [!UICONTROL 報告 Experience Cloud 解決方案]下選取 [!UICONTROL Adobe Analytics] 後，無法建立 [!UICONTROL A/B 測試]活動，這個問題已經修正。(TGT-44844)
+* 客戶無法檢視[!UICONTROL 多變數測試]活動中的最後一個體驗，有許多來自 [!UICONTROL Visual Experience Composer] (VEC) 內的體驗，這個問題已經修正。VEC 底部的 [DOM 路徑](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)有時會造成客戶無法看到最後一個體驗。(TGT-44578)
+* 如果頁面要求授權或叫用重新導向，VEC 中的瀏覽 URL 無法反映目前頁面，而此頁面在正常瀏覽器工作階段是可見的，這個問題已經修正。(TGT-44350)
+* 客戶無法在 [!UICONTROL Recommendations] > [!UICONTROL 設定]中變更[!UICONTROL 篩選不相容的條件]設定，這個問題已經修正。(TGT-44398)
+* 使用 [!UICONTROL Analytics 分類]和名稱有點符號的報表套裝時，建立新 [!DNL Recommendations] 摘要的 POST 要求會失敗，這個問題已經修正。(TGT-44598)
+* 更新 [!DNL Target] UI 中的連結以指向新的 [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。(TGT-44459)
+* 增強安全性以防止在 [!DNL Recommendations] 摘要中嘗試伺服器端請求偽造 (SSRF)。(TGT-43769)
+* 如果影像名稱包含 [GB18030 字元](https://en.wikipedia.org/wiki/GB_18030)，客戶無法檢視 [!DNL Recommendations] 設計中的預覽影像{target=_blank}，這個問題已經修正。(TGT-44614)
+* 在編輯活動[!UICONTROL 體驗]頁面中的[!UICONTROL 文字/HTML] 時[!UICONTROL 修改]面板中的部分 [GB18030 字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank}會逸出，這個問題已經修正。(TGT-44600)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
 
 
