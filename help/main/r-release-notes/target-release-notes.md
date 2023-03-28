@@ -4,10 +4,10 @@ description: 了解 Adobe Target 目前版本包含的新功能、增強功能�
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1cc630f12f4b9dc1d9c5700bc6174b40d4f0dae2
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文包含搶鮮版版本資訊。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 
-**上次更新日期：2023 年 3 月 27 日**
+**上次更新日期：2023 年 3 月 28 日**
 
 若要檢視目前版本的相關資訊，請參閱 [Target 版本注意事項](release-notes.md)。這些頁面上的資訊可能會相同 (視發佈時間而定)。 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
@@ -31,10 +31,7 @@ ht-degree: 0%
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 用於 Headless 個人化和實驗的 AEM 內容片段 | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以進行大規模測試並將體驗個人化。 |
-| 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]最佳化的 A4T 量度<p>（發行日期2023年3月30日） | [!DNL Target]可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，選擇以二項式事件為基礎的量度，或是以持續事件為基礎的量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul> |
-| 使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動分配] | 更新的教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| 使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動鎖定目標] | 更新的教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+| 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]最佳化的 A4T 量度<p>（發行日期2023年3月30日） | [!DNL Target]可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，選擇以二項式事件為基礎的量度，或是以持續事件為基礎的量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul>已結合此功能更新下列教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
 * 增強對象和活動同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中建立的項目可更快地在 [!DNL Target] UI 中使用。(TGT-44568)
 * 進行變更以允許使用者在[!UICONTROL 管理] > [!UICONTROL Visual Experience Composer] > [!UICONTROL 預設 URL] 下刪除[!UICONTROL 預設 URL]。此變更可讓客戶將預設 URL 變更回空字串，這在以前於初始設定後是不可能的。(TGT-44577)
@@ -51,7 +48,6 @@ ht-degree: 0%
 * 如果影像名稱包含 [GB18030 字元](https://en.wikipedia.org/wiki/GB_18030)，客戶無法檢視 [!DNL Recommendations] 設計中的預覽影像{target=_blank}，這個問題已經修正。(TGT-44614)
 * 在編輯活動[!UICONTROL 體驗]頁面中的[!UICONTROL 文字/HTML] 時[!UICONTROL 修改]面板中的部分 [GB18030 字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank}會逸出，這個問題已經修正。(TGT-44600)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
-
 
 ## 額外的版本注意事項和版本詳細資料
 

@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db5740419f8d32ef7a6302f50bbb9b462795ce75
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2214'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 100%
 # 文件變更
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
+
+## [!DNL Target] Standard/Premium 23.3.1 (2023 年 3 月 28 至 30 日)
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 3 月 28 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.3.1 版的版本注意事項。 |
 
 ## [!DNL Target] Standard/Premium 22.15.1 (2023 年 3 月 8 日和 9 日)
 
