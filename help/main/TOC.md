@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 98%
+source-wordcount: '1239'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,12 @@ ht-degree: 98%
    + 將 Target 與 Adobe Journey Optimizer 整合{#ajo}
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [將Target與Adobe Experience Manager整合](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + 將Target與Adobe Experience Manager整合 {#aem}
+      + [將Target與Adobe Experience Manager整合(AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + 體驗片段和內容片段 {#fragments}
+         + [AEM體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM 體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [整合 Target 和 Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [與 Real-time Customer Data Platform 整合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [將 Target 與 Adobe Campaign 整合](c-integrating-target-with-mac/campaign-and-target.md)
@@ -250,7 +255,7 @@ ht-degree: 98%
       + [使用程式庫中的內容](c-experiences/c-manage-content/assets-working.md)
       + [搜尋內容](c-experiences/c-manage-content/filter-and-search-content.md)
       + [將動態資料傳遞至選件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM 體驗片段](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM體驗和內容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 報表 {#reports}
    + [報表概覽](c-reports/reports.md)
    + 報表設定 {#settings}
