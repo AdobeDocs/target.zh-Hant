@@ -4,9 +4,9 @@ description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動
 title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1175'
 ht-degree: 5%
 
 ---
@@ -84,9 +84,6 @@ A4T整合可讓您：
 * 使用時 [!DNL Adobe Analytics] 作為的報表來源 [!UICONTROL 自動分配] 或 [!UICONTROL 自動鎖定目標]時，您應一律在 [!DNL Analytics].
 * 無法從 [!DNL Analytics] to [!DNL Target] 或在活動啟動後反之。
 * 雖然計算量度不支援作為主要目標量度，但您通常可以改為選取自訂事件作為主要目標量度，以達到預期結果。 例如，如果您想針對「每位訪客表單完成次數」等量度進行最佳化，請選取與「表單完成次數」對應的自訂事件作為主要目標量度。 [!DNL Target] 根據每次造訪自動標準化轉換量度，以考慮不均勻的流量分佈，因此不需要使用計算量度來執行標準化。
-* 使用時 [!DNL Adobe Analytics] 作為的報表來源 [!UICONTROL 自動分配] 或 [!UICONTROL 自動鎖定目標] 活動時，您應一律檢視報表 [!DNL Analytics].
-* 無法從 [!DNL Analytics] to [!DNL Target] 或在活動啟動後反之。
-* 雖然計算量度不支援作為主要目標量度，但您通常可以改為選取自訂事件作為主要目標量度，以達到預期結果。 例如，如果您想針對「每位訪客表單完成次數」等量度進行最佳化，請選取與「表單完成次數」對應的自訂事件作為主要目標量度。 [!DNL Target] 依每位訪客自動標準化轉換量度， [!UICONTROL 自動分配] 活動，因此不需要使用計算量度來執行標準化。
 
 ### 自動分配 {#aa}
 
