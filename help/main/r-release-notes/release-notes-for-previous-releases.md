@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
+source-git-commit: cf82c6cc75dfe42b002cf6d8e17287cb11704870
 workflow-type: tm+mt
-source-wordcount: '35989'
+source-wordcount: '35947'
 ht-degree: 96%
 
 ---
@@ -30,10 +30,6 @@ ht-degree: 96%
 * **3 月 8 日**：美洲區域
 * **3 月 9 日**：歐洲、中東和非洲 (EMEA) 區域
 * **3 月 9 日**：亞太 (APAC) 區域
-
->[!NOTE]
->
->因為問題已修正，所以 3 月 8 日和 9 日發行的為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]功能最佳化的 A4T 量度已暫時移除。經過進一步的內部測試後，該功能將在未來幾週內再次發佈。
 
 此版本包含下列修正：
 
