@@ -4,10 +4,10 @@ description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動
 title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 5%
+source-wordcount: '1265'
+ht-degree: 7%
 
 ---
 
@@ -62,18 +62,39 @@ A4T整合可讓您：
 * [!DNL Adobe Analytics] 轉換量度
 * [!DNL Adobe Analytics] 個自訂事件
 
-[!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 需要您選擇以二項式事件為基礎的量度。 二項式事件不發生或不發生。 二項式事件包括點按、轉換、訂單等。 這些類型的事件有時也稱為伯努利、二進位或離散事件。
+[!DNL Target]可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，選擇以二項式事件為基礎的量度，或是以持續事件為基礎的量度。
 
-[!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 不支援持續量度的最佳化。 持續量度包括收入、訂購的產品數、工作階段期間、工作階段中的頁面檢視次數等。 這些不支援的量度類型有時也稱為非二項式或非伯努利量度。
+* **根據二項式事件計量**:二項式事件不發生或不發生。 二項式事件包括點按、轉換、訂單等。 這些類型的事件有時也稱為伯努利、二進位或離散事件。
 
-下列量度類型不支援作為主要目標量度：
+* **以連續事件為基礎的量度**. 持續量度包括收入、訂購的產品數、工作階段期間、工作階段中的頁面檢視次數等。 這些類型的事件有時也稱為非二項式或非伯努利量度。
 
-* [!DNL Adobe Target] 參與與收入量度
-* [!DNL Adobe Analytics] 參與與收入量度
+>[!IMPORTANT]
+>
+>截至 [!DNL Adobe Target Standard/Premium] 22.15.1版（2023年3月8日和9日）, [!DNL Target] 會持續支援現有活動，且包含目前不支援的量度（列於下表）。 不過，在2023年9月9日後，這些量度將不再支援於現有活動中，且所有使用不支援量度的活動將停止，以強制現有活動移轉至新行為。
 
-   您可以選取 [!DNL Analytics] 參與或收入量度作為主要目標量度，因為 [!DNL Target] 無法識別和排除 [!DNL Analytics]. 僅選取「二項式」轉換量度或自訂事件 [!DNL Analytics].
+### 對 [!UICONTROL 自動分配] 活動
 
-* [!DNL Adobe Analytics] 計算量度
+| 量度名稱 | 不再支援： |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | 轉換率，最大化量度值 |
+| [!UICONTROL averagetimespentonsite] | 轉換率，最大化量度值 |
+| [!UICONTROL 跳出] | 轉換率，最大化量度值 |
+| [!UICONTROL bounces] | 轉換率，最大化量度值 |
+| [!UICONTROL 登入] | 轉換率，最大化量度值 |
+| [!UICONTROL 退出] | 轉換率，最大化量度值 |
+| [!UICONTROL pageviews] | 最大化量度值 |
+| [!UICONTROL 重新載入] | 最大化量度值 |
+| [!UICONTROL 訪客] | 轉換率，最大化量度值 |
+| [!UICONTROL 瀏覽次數] | 最大化量度值 |
+
+### 對 [!UICONTROL 自動鎖定目標] 活動
+
+| 量度名稱 | 不再支援： |
+| --- | --- |
+| [!UICONTROL 石蠟] | 最大化量度值 |
+| [!UICONTROL pageviews] | 最大化量度值 |
+| [!UICONTROL 訪客] | 轉換率，最大化量度值 |
+| [!UICONTROL 瀏覽次數] | 最大化量度值 |
 
 ## 限制和附註
 
