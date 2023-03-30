@@ -4,7 +4,7 @@ description: 了解如何使用 [!DNL Adobe Experience Manager] [!UICONTROL 內�
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 3%
@@ -20,7 +20,6 @@ ht-degree: 3%
 >[!NOTE]
 >
 >此功能預計於2023年4月6日發行。
-
 
 >[!NOTE]
 >
