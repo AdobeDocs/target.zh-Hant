@@ -6,9 +6,9 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '843'
 ht-degree: 96%
 
 ---
@@ -45,8 +45,6 @@ ht-degree: 96%
 * 使用 [!UICONTROL Analytics 分類]和名稱有點符號的報表套裝時，建立新 [!DNL Recommendations] 摘要的 POST 要求會失敗，這個問題已經修正。(TGT-44598)
 * 更新 [!DNL Target] UI 中的連結以指向新的 [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。(TGT-44459)
 * 增強安全性以防止在 [!DNL Recommendations] 摘要中嘗試伺服器端請求偽造 (SSRF)。(TGT-43769)
-* 如果影像名稱包含 [GB18030 字元](https://en.wikipedia.org/wiki/GB_18030)，客戶無法檢視 [!DNL Recommendations] 設計中的預覽影像{target=_blank}，這個問題已經修正。(TGT-44614)
-* 在編輯活動[!UICONTROL 體驗]頁面中的[!UICONTROL 文字/HTML] 時[!UICONTROL 修改]面板中的部分 [GB18030 字元](https://en.wikipedia.org/wiki/GB_18030){target=_blank}會逸出，這個問題已經修正。(TGT-44600)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
 
 ## at.js 版本 2.10.2 (2023 年 3 月 7 日)
