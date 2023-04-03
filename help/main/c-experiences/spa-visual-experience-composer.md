@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用SPA VEC [!DNL Target] 在SPA上，自�
 title: 如何使用單頁應用程式可視化體驗撰寫器(SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: f7a9c08567669160684bff8ae5098d57c6237463
 workflow-type: tm+mt
-source-wordcount: '3720'
-ht-degree: 91%
+source-wordcount: '3748'
+ht-degree: 87%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 91%
 
 為了進一步說明檢視，下文將瀏覽這個在 React 中實作的假想線上電子商務網站，並探索一些檢視範例。按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結： [首頁](https://target.enablementadobe.com/react/demo/#/)**
+**連結： [首頁](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![首頁](/help/main/c-experiences/assets/home.png)
 
 當我們導覽到主網站時，立刻就會看到宣傳復活節特賣以及網站上最新發售產品的主圖影像。在這個案例中，檢視可定義為整個首頁。請記下這點，因為我們將在下文的「實作 Adobe Target 檢視」一節中更深入說明。
 
-**連結： [產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+**連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![產品網站](/help/main/c-experiences/assets/product-site.png)
 
-當我們對產品越來越感興趣時，決定點擊產品連結。與首頁相似，產品網站整體可定義為一個檢視。我們可以將這個檢視命名為「products」，就像 `https://target.enablementadobe.com/react/demo/#/products` 中的路徑名稱一樣。
+當我們對產品越來越感興趣時，決定點擊產品連結。與首頁相似，產品網站整體可定義為一個檢視。我們可以將這個檢視命名為「products」，就像 `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products` 中的路徑名稱一樣。
 
 ![產品網站 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 我們決定點擊「載入更多」按鈕來探索網站上更多的產品。在此情況下，網站 URL 不會變更。但此處的檢視只能呈現上圖中的第二列產品。「檢視」名稱可以命名為「PRODUCTS-PAGE-2」。
 
-**連結： [結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+**連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![結帳頁面](/help/main/c-experiences/assets/checkout.png)
 
@@ -81,7 +81,7 @@ ht-degree: 91%
 
    現在，讓我們來看看一些使用範例，瞭解如何在 React 中對假設性的電子商務 SPA 進行叫用 `triggerView()`:
 
-   **連結： [首頁](https://target.enablementadobe.com/react/demo/#/)**
+   **連結： [首頁](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ ht-degree: 91%
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **連結： [產品網站](https://target.enablementadobe.com/react/demo/#/products)**
+   **連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
    現在，讓我們來看看更複雜的範例。假設我們這些行銷人員想要個人化產品的第二列，讓使用者在點擊「載入更多」按鈕後，把售價標籤變更為紅色。
 
@@ -141,7 +141,7 @@ ht-degree: 91%
    }
    ```
 
-   **連結： [結帳](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![react 結帳](/help/main/c-experiences/assets/react6.png)
 
@@ -389,10 +389,10 @@ adobe.target.getOffers({
 
 以下是所做的變更:
 
-* 變更位於下列 URL 下的首頁檢視的背景顏色: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
-* 變更位於URL下方之產品檢視中的按鈕顏色： [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 變更位於URL下方的「首頁」檢視的背景顏色： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* 變更位於URL下方之產品檢視中的按鈕顏色： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-請思考上述範例，當我們設定 [!UICONTROL 頁面傳送] 設定僅包括： [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) 在具有at.js 2.*x* 的 SPA 中)，那麼會發生什麼情況?
+請思考上述範例，當我們設定 [!UICONTROL 頁面傳送] 設定僅包括： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) 在具有at.js 2.*x* 的 SPA 中)，那麼會發生什麼情況?
 
 ![頁面傳送對話方塊](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ adobe.target.getOffers({
 
 **第 1 個使用者旅程**
 
-* 使用者直接導覽至 [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* 會查詢 Edge，以查看下列 URL 是否有任何需要執行的活動: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
+* 使用者直接導覽至 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* at.js 2.*x* 會查詢Edge，查看URL是否需要執行任何活動： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * 在步驟 6 中，Target Edge 會傳回首頁和產品檢視的動作，以便系統快取瀏覽器內的這些動作。
 
-**結果**: 使用者會在首頁檢視中看見綠色的背景顏色。接著，當使用者導覽至 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 時，會看見按鈕的藍色背景顏色，因為系統已快取瀏覽器中的產品檢視下的動作。
+**結果**: 使用者會在首頁檢視中看見綠色的背景顏色。當使用者接著導覽至 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)，因為系統已快取瀏覽器中「產品」檢視下的動作，因此會顯示按鈕的藍色背景顏色。
 
-注意：導覽至 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 未觸發頁面載入。
+注意：導覽至 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) 未觸發頁面載入。
 
 **第 2 個使用者旅程**
 
-* 使用者直接導覽至 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* 會查詢 Edge，查看下列 URL 是否有任何需要執行的活動: [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products。
-* 沒有符合的活動 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 使用者直接導覽至 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* at.js 2.*x* 會查詢Edge，查看URL是否需要執行任何活動： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* 沒有符合的活動 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 * 由於沒有任何符合的活動，因此沒有任何快取動作和檢視可供 at.js 2.*x* 觸發。
 
-**結果**: 即使您已針對產品檢視定義 `triggerView()` 並透過 SPA VEC 對產品檢視執行動作，您不會看見預期的動作，因為您並未建立在頁面傳送設定中包含 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 的規則。
+**結果**:即使您已定義 `triggerView()` 針對「產品檢視」並透過SPA VEC對「產品檢視」執行動作時，您將看不到預期的動作，因為您並未建立包含的規則 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) （位於「頁面傳送」設定中）。
 
 ### 最佳做法
 
