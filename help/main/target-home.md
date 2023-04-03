@@ -4,7 +4,7 @@ title: Adobe Target 商務從業者指南
 description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
+source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。
 
-**上次更新日期：2023 年 3 月 30 日 ([查看變更內容](r-release-notes/doc-change.md))**
+**上次更新日期：2023 年 4 月 3 日 ([查看變更內容](r-release-notes/doc-change.md))**
 
 以下幾節依照目標對象的典型職務進行安排，引導您在本指南中找到實用連結：
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 - [Target 簡介](c-intro/intro.md)：說明 [!DNL Target] 解決方案的核心概念。
 - 將 Target 與 Adobe Experience Cloud 整合：說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) 以及 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant)：提供教學課程和影片，協助您充分運用 Target。
-- [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (優惠方案大小、對象、個人資料、值、參數等) 相關資訊。
+- [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (選件大小、對象、設定檔、值、參數等) 相關資訊。
 - [適用於行動應用程式的 Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}：說明如何使用 [!DNL Target] 來將行動應用程式最佳化及個人化。
 - [資源與聯絡資訊](cmp-resources-and-contact-information.md)：提供其他資源的相關資訊，協助您瞭解 [!DNL Target] 功能，以及在需要協助時如何聯絡 [!DNL Adobe]。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 - [活動](c-activities/activities.md)：說明如何設定、管理 [!DNL Target] 活動及確保品質。
 - [對象](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
-- [體驗與優惠方案](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的對象條件時，要顯示哪些內容。
+- [體驗與選件](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的對象條件時，要顯示哪些內容。
 - [建議](c-recommendations/recommendations.md)：說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
 
 ## 開發人員 {#developers}

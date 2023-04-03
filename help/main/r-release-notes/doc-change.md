@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2294'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 4 月 3 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增 [!UICONTROL Adobe Target社群] 定於2023年4月12日星期三休息。 |
 | 3 月 30 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 更新針對 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 功能，可讓您在使用 [!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。 |
 |  | [[!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新「支援的目標量度」一節，加入支援（和不支援）量度的相關資訊 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 使用 [!UICONTROL Analytics for Target] (A4T) |
 |  | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 更新下列教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
