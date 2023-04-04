@@ -1,13 +1,13 @@
 ---
-keywords: 體驗； JSON;AEM;Adobe Experience Manager；匯出至Adobe Target；內容片段；片段；CF;CF；無頭；個人化；實驗
-description: 了解如何使用 [!DNL Adobe Experience Manager] [!UICONTROL 內容片段] in [!DNL Adobe Target] 活動。
-title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]?
+keywords: 體驗；JSON；AEM；Adobe Experience Manager；匯出至 Adobe Target；內容片段；片段；CF；cf；無頭；個人化；實驗
+description: 了解如何在  [!DNL Adobe Target]  活動中使用 [!DNL Adobe Experience Manager] [!UICONTROL 內容片段]。
+title: 我如何使用  [!DNL Adobe Experience Manager]  (AEM) [!UICONTROL 內容片段]？
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
 source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 3%
+ht-degree: 97%
 
 ---
 
@@ -19,74 +19,74 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->此功能預計於2023年4月6日發行。
+>此功能的預定發行日期為 2023 年 4 月 6 日。
 
 >[!NOTE]
 >
->使用AEM時，請考量下列事項 [!UICONTROL 內容片段] in [!DNL Target]:
+>在 [!DNL Target] 中使用 AEM [!UICONTROL 內容片段]時，請考慮以下事項：
 > 
->* 此功能需要您 [!DNL Adobe Experience Manager] (AEM)客戶。 如需詳細資訊，請參閱 [需求](#section_AE6F0971E1574B3AA324003599B96E5A) 下方。
+>* 您需為 [!DNL Adobe Experience Manager] (AEM) 客戶才能使用此功能。如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 >
->* 此功能適用於下列活動類型： [!UICONTROL A/B測試], [!UICONTROL 自動分配], [!UICONTROL 自動鎖定目標], [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 體驗鎖定] (XT)。 此功能在 [!UICONTROL 多變數測試] (MVT)和 [!UICONTROL Recommendations] 活動。
+>* 此功能適用於以下活動類型：[!UICONTROL A/B 測試]、[!UICONTROL 自動分配]、[!UICONTROL 自動鎖定目標]、[!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 體驗鎖定目標] (XT)。此功能無法在[!UICONTROL 多變數測試] (MVT) 和 [!UICONTROL Recommendations] 活動中使用。
 >
->* 您可以 [!UICONTROL 內容片段] in [!DNL Target] 活動使用 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md) 只有。 您不能使用 [!UICONTROL 內容片段] 使用 [!UICONTROL 可視化體驗撰寫器] (VEC)。
+>* 您只能在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)的 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。您無法使用[!UICONTROL 視覺化體驗撰寫器] (VEC) 來取用[!UICONTROL 內容片段]。
 
 
-深入了解AEM [!UICONTROL 內容片段] 和 [!UICONTROL 體驗片段]，請參閱 [AEM [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+若要了解有關 AEM [!UICONTROL 內容片段]和[!UICONTROL 體驗片段]的詳細資訊，請參閱 [AEM[!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)。
 
 ## 要求 {#requirements}
 
-您必須布建 [!UICONTROL 內容片段] 功能 [!DNL Target]. 此外，您必須使用 [!DNL AEM] as a Cloud Service。 您的客戶代表可協助確認您是否符合使用此功能的要求。
+您必須在 [!DNL Target] 中佈建[!UICONTROL 內容片段]功能。此外，您必須使用 [!DNL AEM] as a Cloud Service。您的客戶代表可協助確認您是否符合使用此功能的要求：
 
-連絡人 [Adobe Target客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 啟用整合併提供驗證詳細資料。
+請和 [Adobe Target 客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)聯絡，以啟用整合並取得驗證的詳細資訊。
 
-## 配置和使用 [!UICONTROL 內容片段] in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
+## 在 [!DNL AEM] 中設定並使用[!UICONTROL 內容片段] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-要導出 [!UICONTROL 內容片段] 用於 [!DNL Target] 活動，您必須在AEM中執行一些初步步驟。 如需詳細資訊，請參閱 [將內容片段匯出至Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} 在 *Experience Manageras a Cloud Service檔案*. 請注意，此連結將於發行日（2023年4月6日）推出
+若要匯出[!UICONTROL 內容片段]以用於 [!DNL Target] 活動，您必須在 AEM 中執行一些預備步驟。如需詳細資訊，請參閱 *Experience Manager as a Cloud Service 文件*&#x200B;中的[匯出內容片段至 Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。請注意，此連結在發行日 (2023 年 4 月 6 日) 即可供使用
 
-如需設計、建立、組織和發佈的相關資訊 [!UICONTROL 內容片段]，請參閱 [[!UICONTROL 內容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
+如需有關設計、建立、策劃和發佈[!UICONTROL 內容片段]的資訊，請參閱[[!UICONTROL 內容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}。
 
-## 使用 [!UICONTROL 內容片段] in [!DNL Target] 活動 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## 在 [!DNL Target] 活動中使用 [!UICONTROL 內容片段]。 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
-執行上述工作後， [!UICONTROL 內容片段] 顯示於 [!UICONTROL 選件] 頁面 [!DNL Target].
+執行先前的工作之後，[!UICONTROL 內容片段]會顯示在 [!DNL Target] 中的[!UICONTROL 「選件」]頁面上。
 
-[!DNL Target] 當前查找 [!UICONTROL 內容片段] 每十分鐘匯入一次。 匯入的 [!UICONTROL 內容片段] 應可在 [!DNL Target] 10分鐘內，但此時間範圍會日後縮短。
+[!DNL Target] 目前每十分鐘會尋找要匯入的[!UICONTROL 內容片段]。十分鐘內應該就能在 [!DNL Target] 中看到匯入的[!UICONTROL 內容片段]，但日後所需時間應該會縮短。
 
-此 [!UICONTROL 內容片段] 匯入 [!DNL Target] 作為JSON選件。 那個 [!UICONTROL 內容片段] 「主要」版本仍保留在 [!DNL AEM]. 您無法編輯 [!UICONTROL 內容片段] in [!DNL Target].
+會將此[!UICONTROL 內容片段]匯入[!DNL Target]為 JSON 選件。該[!UICONTROL 內容片段]的「主要」版本會留在 [!DNL AEM] 中。您無法在 [!DNL Target] 中編輯[!UICONTROL 內容片段]。
 
-您可以依 [!UICONTROL HTMLXF], [!UICONTROL JSON XF]，和 [!UICONTROL 內容片段] 可協助您區分匯出至的不同選件類型 [!DNL Target].
+您可以依據 [!UICONTROL HTML XF]、[!UICONTROL JSON XF] 和[!UICONTROL 內容片段]進行篩選和搜尋，以協助您區分匯出至 [!DNL Target] 的不同選件。
 
-![依內容片段類型篩選：HTML或JSON（在Target UI中）](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
+![依據內容片段類型進行篩選：Target UI 中的 HTML 或 JSON](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-您可以暫留在 [!UICONTROL 內容片段] 在清單中，按一下 [!UICONTROL 檢視] 圖示 ![資訊圖示](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) 若要查看 [!UICONTROL 內容片段]，包括 [!UICONTROL AEM路徑] 和 [!UICONTROL AEM深層連結]. 按一下 [!UICONTROL 優惠方案使用量] 索引標籤來查看參考此選件的活動。
+您可以將游標停留在清單中的[!UICONTROL 內容片段]上方，然後按一下[!UICONTROL 檢視]圖示![資訊圖示](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png)，即可查看有關[!UICONTROL 內容片段]的其他資訊，包括其 [!UICONTROL AEM 路徑]和 [!UICONTROL AEM 深度連結]。按一下[!UICONTROL 選件使用情況]索引標籤，以查看參照此選件的活動。
 
 ![內容片段資訊快顯視窗](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
 
-您可以 [!UICONTROL 內容片段] in [!DNL Target] 活動使用 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md) 只有。 您 *不能* 消費 [!UICONTROL 內容片段] in [!DNL Target] 活動使用 [可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)。 [!UICONTROL 內容片段] 在中匯出為JSON [!DNL Target] 和無法用於使用VEC建立的活動。
+您只能在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)的 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。您&#x200B;*無法*&#x200B;使用[視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 在 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。[!UICONTROL 內容片段]會在 [!DNL Target] 中匯出為 JSON 並且不能用於使用 VEC 建立的活動中。
 
 >[!TIP]
 >
->搭配使用人工智慧、機器學習和建議 [!UICONTROL 內容片段]:
+>使用人工智慧、機器學習和[!UICONTROL 內容片段]的建議：
 >
->* 若要充分使用 [!DNL Target] AI和ML功能，您可以選取 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 或 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 建立A/B測試時。
+>* 若要充分利用 [!DNL Target] AI 和 ML 功能，您可以在建立 A/B 測試時選取[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[「自動個人化](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 >
->* [!UICONTROL 內容片段] 不支援 [!DNL Recommendations] 活動。 不過，若要使用 [!UICONTROL 內容片段] 您可以為建議建立 [!UICONTROL A/B測試] 活動(包括 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標])或 [!UICONTROL 體驗鎖定] (XT)活動和 [將建議納入選件](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>* 在 [!DNL Recommendations] 活動中不支援[!UICONTROL 內容片段]。但是，若要使用建議的[!UICONTROL 內容片段]，您可建立 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 或是[!UICONTROL 體驗鎖定目標] (XT) 活動並[包含選件形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
 
-**要使用 [!UICONTROL 內容片段] 使用 [!UICONTROL 表單式體驗撰寫器]:**
+**使用[!UICONTROL 表單式體驗撰寫器]來取用[!UICONTROL 內容片段]：**
 
-1. 在 [!DNL Target]，在中建立或編輯體驗時 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，請在頁面上選取您要插入的位置 [!DNL AEM] 內容，然後選取 **[!UICONTROL 變更內容片段]** 顯示 [!UICONTROL 選擇內容片段] 清單。
+1. 在 [!DNL Target] 中，在[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)中建立或編輯體驗時，請選取頁面上要插入 [!DNL AEM] 內容的位置，然後選取&#x200B;**[!UICONTROL 變更內容片段]**&#x200B;以顯示[!UICONTROL 選擇內容片段]清單。
 
-   ![content_fragment_list影像](/help/main/c-integrating-target-with-mac/aem/assets/choose-content-fragment.png)
+   ![content_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/choose-content-fragment.png)
 
-   此 [!UICONTROL 內容片段] 清單顯示中建立的內容 [!DNL AEM] 現在可從內取得原生功能 [!DNL Target].
+   該[!UICONTROL 內容片段]清單會顯示在 [!DNL AEM] 中建立的內容，現在已可從 [!DNL Target] 內取得原生清單。
 
-1. 選取所需 [!UICONTROL 內容片段]，然後按一下 **[!UICONTROL 儲存]**.
+1. 請選取所需的內容片段，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 1. 完成活動的設定。
 
 ## 考量事項 {#considerations}
 
-* [!DNL Target] 當前查找 [!UICONTROL 內容片段] 每十分鐘匯入一次。 匯入的 [!UICONTROL 內容片段] 應可在 [!DNL Target] 10分鐘內，但此時間範圍會日後縮短。
-* 此 [!UICONTROL 內容片段] 匯入 [!DNL Target] 作為JSON選件。 此 [!UICONTROL 內容片段] 「主要」版本仍保留在 [!DNL AEM]. 您無法編輯 [!UICONTROL 內容片段] in [!DNL Target].
-* 您無法建立 [!UICONTROL 內容片段] 使用 [!DNL Adobe I/O]. 建立 [!UICONTROL 內容片段] 使用AEM，如上所述。
-* 如果您更新 [!UICONTROL 內容片段] 在AEM中， [!UICONTROL 內容片段] 必須發佈並匯出至 [!DNL Target] aw [!DNL Target] 可使用最新變更。
+* [!DNL Target] 目前每十分鐘會尋找要匯入的[!UICONTROL 內容片段]。十分鐘內應該就能在 [!DNL Target] 中看到匯入的[!UICONTROL 內容片段]，但日後所需時間應該會縮短。
+* 會將此[!UICONTROL 內容片段]匯入[!DNL Target]為 JSON 選件。此[!UICONTROL 內容片段]的「主要」版本會留在 [!DNL AEM] 中。您無法在 [!DNL Target] 中編輯[!UICONTROL 內容片段]。
+* 你無法使用 [!DNL Adobe I/O] 建立[!UICONTROL 內容片段]。使用 AEM 建立[!UICONTROL 內容片段]，如上所述。
+* 如果您更新 AEM 中的[!UICONTROL 內容片段]，必須再次將[!UICONTROL 內容片段]發佈並匯出至 [!DNL Target]，這樣 [!DNL Target] 才能使用最新的變更。
