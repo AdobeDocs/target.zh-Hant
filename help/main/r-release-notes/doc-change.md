@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 4 月 5 日 | [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 新增文字，指出 [!UICONTROL Analytics作為報表來源] (A4t)在使用選件決策的活動中不受支援。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增 [!UICONTROL Adobe Target社群] 定於2023年4月12日星期三休息。 |
 |  | [允許清單 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 新增附註以允許列出所有 [!DNL Adobe Analytics] IP位址區塊。 |
 | 3 月 30 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 更新針對 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 功能，可讓您在使用 [!UICONTROL A4T] for [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動。 |

@@ -4,9 +4,9 @@ description: 了解如何新增中建立的優惠方案決策 [!DNL Adobe Journe
 title: 如何使用選件決策？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1016'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 * [開始使用 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [關於決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
+* [關於決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## 必要條件
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 1. 在 **[!UICONTROL 新增優惠方案決策]** 對話框，選擇所需的沙箱和位置。
 
-   A [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] 有助於確保正確的選件內容顯示在正確的位置。
+   A [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] 有助於確保正確的選件內容顯示在正確的位置。
 
    ![新增優惠方案決策對話方塊中的沙箱和版位下拉式清單](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -102,9 +102,11 @@ ht-degree: 2%
 
 * offer decisioning整合適用於 [!DNL Target] 根據 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. 實作時無法使用此功能 [!DNL Target] 搭配at.js或其他 [!DNL Target] SDK。
 
-* Target/Adobe Journey Optimizer整合支援 [手動 [!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types) 和 [[!UICONTROL 體驗鎖定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動類型。
+* 此 [!DNL Target]/[!DNL Adobe Journey Optimizer] 整合支援 [手動 [!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types) 和 [[!UICONTROL 體驗鎖定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動類型。
 
-* 具有文字/html內容類型的選件不支援deliveryURL內容傳送。 只有在用戶端負責明確擷取和撰寫內容時，表單式體驗撰寫器才支援deliveryURL。
+* 您無法使用 [[!UICONTROL Analytics作為報表來源]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 選擇 [!DNL Target] 作為 [!UICONTROL 目標與設定] 活動設定期間的頁面（如果您在活動中使用優惠方案決策）。
+
+* 具有文字/html內容類型的選件不支援deliveryURL內容傳送。 透過 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md) 僅在客戶端負責明確提取和構成內容的位置。
 
 * [!DNL Target] 報表不提供選件決策層級的報表。
 
