@@ -5,7 +5,7 @@ title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 以下幾節包含在使用 [!DNL Adobe Experience Platform Web SDK] 或 at.js 時支援的活動類型的相關資訊：
 
-| 活動類型 | A4T 相容? | 備註 (若適用) |
+| 活動類型 | A4T 相容？ | 備註 (若適用) |
 |--- |--- |--- |
 | [使用手動流量分割的 A/B 活動](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |  |
 | [使用自動分配的 A/B 活動](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
@@ -118,7 +118,7 @@ ht-degree: 100%
 * 瞭解適合用於 Analytics 的報表
 * 回答有關 A4T 的常見問題
 
-[Analytics/Target 整合 (A4T) 辦公時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target 整合 (A4T) 辦公時間](https://helpx.adobe.com/tw/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
