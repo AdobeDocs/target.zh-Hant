@@ -4,7 +4,7 @@ description: 了解如何在  [!DNL Adobe Target]  活動中使用 [!DNL Adobe E
 title: 我如何使用  [!DNL Adobe Experience Manager]  (AEM) [!UICONTROL 內容片段]？
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此功能的預定發行日期為 2023 年 4 月 6 日。
+>此功能的預定發行日期為 2023 年 4 月 12 日。
 
 >[!NOTE]
 >
