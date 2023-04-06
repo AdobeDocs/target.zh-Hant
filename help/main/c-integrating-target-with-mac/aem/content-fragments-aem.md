@@ -1,19 +1,19 @@
 ---
-keywords: 體驗；JSON；AEM；Adobe Experience Manager；匯出至 Adobe Target；內容片段；片段；CF；cf；無頭；個人化；實驗
+keywords: 體驗;JSON;AEM;Adobe Experience Manager;匯出至 Adobe Target;內容片段;片段;CF;cf;headless;個人化;實驗
 description: 了解如何在  [!DNL Adobe Target]  活動中使用 [!DNL Adobe Experience Manager] [!UICONTROL 內容片段]。
 title: 我如何使用  [!DNL Adobe Experience Manager]  (AEM) [!UICONTROL 內容片段]？
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
+source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # AEM [!UICONTROL 內容片段]
 
-使用 [!UICONTROL 內容片段] (CF)建立於 [!DNL Adobe Experience Manager] (AEM) [!DNL Target] 活動來協助無頭式個人化和實驗。
+在 [!DNL Target] 活動中使用 [!DNL Adobe Experience Manager] (AEM) 中建立的[!UICONTROL 內容片段] (CF)，以協助 Headless 個人化和實驗。
 
 用於 Headless 個人化和實驗的 AEM 內容片段
 
@@ -42,9 +42,9 @@ ht-degree: 97%
 
 ## 在 [!DNL AEM] 中設定並使用[!UICONTROL 內容片段] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-若要匯出[!UICONTROL 內容片段]以用於 [!DNL Target] 活動，您必須在 AEM 中執行一些預備步驟。如需詳細資訊，請參閱 *Experience Manager as a Cloud Service 文件*&#x200B;中的[匯出內容片段至 Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。請注意，此連結在發行日 (2023 年 4 月 6 日) 即可供使用
+若要匯出[!UICONTROL 內容片段]以用於 [!DNL Target] 活動，您必須在 AEM 中執行一些預備步驟。如需詳細資訊，請參閱 *Experience Manager as a Cloud Service 文件*&#x200B;中的[匯出內容片段至 Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。請注意，此連結在發行日 (2023 年 4 月 12 日) 即可供使用
 
-如需有關設計、建立、策劃和發佈[!UICONTROL 內容片段]的資訊，請參閱[[!UICONTROL 內容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}。
+如需有關設計、建立、策劃和發佈[!UICONTROL 內容片段]的資訊，請參閱[[!UICONTROL 內容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}。
 
 ## 在 [!DNL Target] 活動中使用 [!UICONTROL 內容片段]。 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
