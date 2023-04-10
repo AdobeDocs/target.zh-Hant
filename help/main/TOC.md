@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 95%
+source-wordcount: '1230'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,6 @@ ht-degree: 95%
       + [A4T 報表](c-integrating-target-with-mac/a4t/reporting.md)
       + 疑難排解 Analytics 和 Target 整合 (A4T) {#troubleshoot-a4t}
          + [疑難排解 A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [在 A4T 中將膨脹的造訪和訪客計數減到最少](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + A4T 常見問題 {#a4t-faq}
          + [初始佈建 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [活動設定 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
@@ -97,9 +96,9 @@ ht-degree: 95%
    + 將Target與Adobe Experience Manager整合 {#aem}
       + [將Target與Adobe Experience Manager整合(AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 體驗片段和內容片段 {#fragments}
-         + [AEM體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM 體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [AEM內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [AEM 內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [整合 Target 和 Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [與 Real-time Customer Data Platform 整合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [將 Target 與 Adobe Campaign 整合](c-integrating-target-with-mac/campaign-and-target.md)

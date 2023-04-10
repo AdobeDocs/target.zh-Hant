@@ -4,10 +4,10 @@ description: 探索客戶將 Analytics 用於 [!DNL Target] (A4T) 時經常遇�
 title: 如何針對 Analytics 和 [!DNL Target] 整合 (A4T) 進行疑難排解
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '987'
-ht-degree: 100%
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。 請記住，若要在第一次儲存後分類報表，通常需要 24 到 72 小時。
+>資料有時在報表中正確顯示，但接著回復為「未指定」，因為新增的活動尚未完成分類。 請記住，若要在第一次儲存後分類報表，通常需要 24 到 72 小時。
 >
 >列為「未指定」時不會遺失任何資料。分類執行之後，資料會適當地指派給適當的活動或體驗。
 
@@ -43,15 +43,11 @@ ht-degree: 100%
 
 根據顯示您的資料所使用的量度，報告中可能會顯示「[!UICONTROL 未指定]」事件列。
 
-一般來說，如果您在報表中選擇的常用量度不是 [!DNL Target] 所特有 (例如[!UICONTROL 頁面瀏覽數]、[!UICONTROL 造訪次數]、[!UICONTROL 不重複訪客]等)，就會顯示這一列。 在此情況下，[!UICONTROL 「未指定」]列會包含所有與 [!DNL Target] 活動無關聯的[!UICONTROL 頁面瀏覽數]、[!UICONTROL 造訪次數]和[!UICONTROL 不重複訪客]。
+一般來說，如果您在報表中選擇的常用量度不是 [!DNL Target] 所特有 (例如[!UICONTROL 頁面瀏覽數]、[!UICONTROL 造訪次數]、[!UICONTROL 不重複訪客]等)，就會顯示這一列。 在此情況下， [!UICONTROL &quot;未指定&quot;] 列包含所有 [!UICONTROL 頁面檢視], [!UICONTROL 瀏覽]，和 [!UICONTROL 不重複訪客] 未關聯至 [!DNL Target] 活動。
 
-該列不會有任何 [!DNL Target] 相關資訊 (例如，沒有訪客、造訪次數或曝光率)。 如需詳細資訊，請參閱 *Analytics 技術備忘稿*&#x200B;中的[報告中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant)。
+那排沒有 [!DNL Target] — 相關資訊（例如，沒有訪客、造訪或曝光數）。 如需詳細資訊，請參閱 [報表中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant) 在 *Analytics技術說明*.
 
-如果您在報表中選擇 [!DNL Target] 特有的量度，該[!UICONTROL 「未指定」]列就不會顯示。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
-
-## 我的 Analytics 資料顯示自啟動 A4T 以來膨脹的造訪或訪客計數。 {#section_4BE374E573D44FB7918611699B74F58E}
-
-如需詳細資訊，請參閱[在 A4T 中將膨脹後造訪和訪客計數最小化](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
+如果您選擇 [!DNL Target] — 報表中的特定量度，即 [!UICONTROL &quot;未指定&quot;] 不會顯示列。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
 
 ## 預估收入成長量度未顯示正確資料。 {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
