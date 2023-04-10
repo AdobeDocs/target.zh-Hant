@@ -3,40 +3,35 @@ keywords: aem；experience manager；adobe experience manager；整合；整合�
 description: 了解如何在  [!DNL Adobe Target]  活動中使用  [!DNL Adobe Experience Manager]  體驗和內容片段。
 title: 我如何使用  [!DNL Adobe Experience Manager] (AEM)[!UICONTROL  體驗片段]和[!UICONTROL 內容片段]？
 feature: Integrations
-source-git-commit: 0135831b56c48b0adca49e843c5ddd6574358aa4
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀
 
-使用在 [!DNL Target] 活動的 [!DNL Adobe Experience Manager] (AEM) 中建立的[!UICONTROL 體驗片段] (XF) 和[!UICONTROL 內容片段] (CF)，以避免最佳化或個人化。
-
->[!NOTE]
->
->在 [!DNL Target] 中使用 AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]時，請考慮以下事項：
-> 
->* 您需為 [!DNL Adobe Experience Manager] (AEM) 客戶才能使用這些功能。請確保您滿足每種片段類型的要求：[體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)或是[內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)。
->
->* 這些功能適用於以下活動類型：[!UICONTROL A/B 測試]、[!UICONTROL 自動分配]、[!UICONTROL 自動鎖定目標]、[!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 體驗鎖定目標] (XT)。此功能無法在[!UICONTROL 多變數測試] (MVT) 和 [!UICONTROL Recommendations] 活動中使用。
->* 您可以使用[可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，在 [!DNL Target] 活動中取用[!UICONTROL 體驗片段]。
->
->* 您只能在[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)中取用[!UICONTROL 內容片段]。
-
+使用 [!UICONTROL 體驗片段] (XF)和 [!UICONTROL 內容片段] (CF)建立於 [!DNL Adobe Experience Manager] (AEM) [!DNL Target] 活動來協助最佳化和個人化。
 
 使用在 [!DNL Target] 活動的 [!DNL AEM] 中建立的[!UICONTROL 體驗片段]和[!UICONTROL 內容片段]可讓您將 [!DNL AEM] 的易用性與威力和 [!DNL Target] 中強大的人工智慧 (AI) 與機器學習 (ML) 功能相結合，對體驗進行大規模的測試及個人化。
 
 [!DNL AEM] 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。[!DNL AEM] 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，而無需撰寫程式碼。不需要為每個裝置建立頁面。[!DNL AEM] 會使用您的內容自動調整每個裝置的每種體驗。
 
-[!DNL Target] 可讓您根據一組融合了行為、內容和離線變數的規則型和 AI 驅動型機器學習方法大規模實現個人化體驗。透過 [!DNL Target]，您可以輕鬆地設定和執行 [A/B 測試](/help/main/c-activities/t-test-ab/test-ab.md)及[多變數](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) 活動，以決定最佳選件、內容和體驗。
+[!DNL Target] 可讓您根據一組融合了行為、內容和離線變數的規則型和 AI 驅動型機器學習方法大規模實現個人化體驗。
 
 [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]代表內容/體驗建立者及管理者與使用 [!DNL Target] 來推動業務成果的最佳化和個人化專家在合作方面跨出的一大步。
+
+## 考量事項
+
+在 [!DNL Target] 中使用 AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]時，請考慮以下事項：
+* 您需為 [!DNL Adobe Experience Manager] (AEM) 客戶才能使用這些功能。請確保您滿足每種片段類型的要求：[體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)或是[內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)。
+* 這些功能適用於以下活動類型：[!UICONTROL A/B 測試]、[!UICONTROL 自動分配]、[!UICONTROL 自動鎖定目標]、[!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 體驗鎖定目標] (XT)。此功能不適用於 [!UICONTROL 多變數測試] (MVT)和 [!UICONTROL Recommendations] 活動。
+* 您可以使用[可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，在 [!DNL Target] 活動中取用[!UICONTROL 體驗片段]。
+* 您只能在[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)中取用[!UICONTROL 內容片段]。
 
 ## [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]之間有何差異？
 
 [!DNL Adobe Experience Manager][!UICONTROL 體驗片段]和[!UICONTROL 內容片段]表面上看起來可能很類似，但每種片段類型在不同的使用案例中都發揮了重要的功能。
 
-如需有關[!UICONTROL 內容片段]和[!UICONTROL 體驗片段]之間的相似度
-差異性以及何時與如何使用的詳細資訊，請參閱[了解[!UICONTROL 內容片段]和[!UICONTROL 體驗片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank} in the [AEM Sites videos and tutorials guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}。
+如需如何 [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 相似、不同，以及每個檢視的使用時機和方式 [了解 [!UICONTROL 內容片段] 和 [!UICONTROL 體驗片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank} in the [AEM Sites videos and tutorials guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}.

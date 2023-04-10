@@ -4,18 +4,16 @@ description: 了解如何在  [!DNL Adobe Target]  活動中使用 [!DNL Adobe E
 title: 我如何使用  [!DNL Adobe Experience Manager]  (AEM) [!UICONTROL 內容片段]？
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
+source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 97%
 
 ---
 
 # AEM [!UICONTROL 內容片段]
 
 在 [!DNL Target] 活動中使用 [!DNL Adobe Experience Manager] (AEM) 中建立的[!UICONTROL 內容片段] (CF)，以協助 Headless 個人化和實驗。
-
-用於 Headless 個人化和實驗的 AEM 內容片段
 
 >[!NOTE]
 >
@@ -25,18 +23,18 @@ ht-degree: 100%
 >
 >在 [!DNL Target] 中使用 AEM [!UICONTROL 內容片段]時，請考慮以下事項：
 > 
->* 您需為 [!DNL Adobe Experience Manager] (AEM) 客戶才能使用此功能。如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
+>* 此功能需要您 [!DNL Adobe Experience Manager as a Cloud Service] 客戶。 如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 >
 >* 此功能適用於以下活動類型：[!UICONTROL A/B 測試]、[!UICONTROL 自動分配]、[!UICONTROL 自動鎖定目標]、[!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 體驗鎖定目標] (XT)。此功能無法在[!UICONTROL 多變數測試] (MVT) 和 [!UICONTROL Recommendations] 活動中使用。
 >
->* 您只能在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)的 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。您無法使用[!UICONTROL 視覺化體驗撰寫器] (VEC) 來取用[!UICONTROL 內容片段]。
+>* 您只能在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)的 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。
 
 
 若要了解有關 AEM [!UICONTROL 內容片段]和[!UICONTROL 體驗片段]的詳細資訊，請參閱 [AEM[!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)。
 
 ## 要求 {#requirements}
 
-您必須在 [!DNL Target] 中佈建[!UICONTROL 內容片段]功能。此外，您必須使用 [!DNL AEM] as a Cloud Service。您的客戶代表可協助確認您是否符合使用此功能的要求：
+您必須在 [!DNL Target] 中佈建[!UICONTROL 內容片段]功能。此外，您必須使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 您的客戶代表可協助確認您是否符合使用此功能的要求：
 
 請和 [Adobe Target 客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)聯絡，以啟用整合並取得驗證的詳細資訊。
 
