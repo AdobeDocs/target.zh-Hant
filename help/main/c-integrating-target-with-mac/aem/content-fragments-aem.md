@@ -4,10 +4,10 @@ description: 了解如何在  [!DNL Adobe Target]  活動中使用 [!DNL Adobe E
 title: 我如何使用  [!DNL Adobe Experience Manager]  (AEM) [!UICONTROL 內容片段]？
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 97%
+source-wordcount: '763'
+ht-degree: 89%
 
 ---
 
@@ -17,18 +17,27 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->此功能的預定發行日期為 2023 年 4 月 12 日。
+>此功能將於2023年4月12日發行。
 
->[!NOTE]
->
->在 [!DNL Target] 中使用 AEM [!UICONTROL 內容片段]時，請考慮以下事項：
-> 
->* 此功能需要您 [!DNL Adobe Experience Manager as a Cloud Service] 客戶。 如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
->
->* 此功能適用於以下活動類型：[!UICONTROL A/B 測試]、[!UICONTROL 自動分配]、[!UICONTROL 自動鎖定目標]、[!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 體驗鎖定目標] (XT)。此功能無法在[!UICONTROL 多變數測試] (MVT) 和 [!UICONTROL Recommendations] 活動中使用。
->
->* 您只能在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)的 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。
+## 考量事項
 
+在 [!DNL Target] 中使用 AEM [!UICONTROL 內容片段]時，請考慮以下事項：
+
+* 此功能需要您 [!DNL Adobe Experience Manager as a Cloud Service] 客戶。 如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
+* [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 適用於下列活動類型：
+
+   * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL 自動個人化](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 無法用於下列活動類型：
+
+   * [[!UICONTROL 多變數測試] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* 您只能在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)的 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。您&#x200B;*無法*&#x200B;使用[!UICONTROL 視覺化體驗撰寫器] (VEC) 在 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。
 
 若要了解有關 AEM [!UICONTROL 內容片段]和[!UICONTROL 體驗片段]的詳細資訊，請參閱 [AEM[!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)。
 
@@ -40,7 +49,7 @@ ht-degree: 97%
 
 ## 在 [!DNL AEM] 中設定並使用[!UICONTROL 內容片段] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-若要匯出[!UICONTROL 內容片段]以用於 [!DNL Target] 活動，您必須在 AEM 中執行一些預備步驟。如需詳細資訊，請參閱 *Experience Manager as a Cloud Service 文件*&#x200B;中的[匯出內容片段至 Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。請注意，此連結在發行日 (2023 年 4 月 12 日) 即可供使用
+若要匯出[!UICONTROL 內容片段]以用於 [!DNL Target] 活動，您必須在 AEM 中執行一些預備步驟。如需詳細資訊，請參閱 *Experience Manager as a Cloud Service 文件*&#x200B;中的[匯出內容片段至 Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。此連結將於發行日（2023年4月12日）推出
 
 如需有關設計、建立、策劃和發佈[!UICONTROL 內容片段]的資訊，請參閱[[!UICONTROL 內容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}。
 
@@ -50,7 +59,7 @@ ht-degree: 97%
 
 [!DNL Target] 目前每十分鐘會尋找要匯入的[!UICONTROL 內容片段]。十分鐘內應該就能在 [!DNL Target] 中看到匯入的[!UICONTROL 內容片段]，但日後所需時間應該會縮短。
 
-會將此[!UICONTROL 內容片段]匯入[!DNL Target]為 JSON 選件。該[!UICONTROL 內容片段]的「主要」版本會留在 [!DNL AEM] 中。您無法在 [!DNL Target] 中編輯[!UICONTROL 內容片段]。
+會將此[!UICONTROL 內容片段]匯入[!DNL Target]為 JSON 選件。此[!UICONTROL 內容片段]的「主要」版本會留在 [!DNL AEM] 中。您無法在 [!DNL Target] 中編輯[!UICONTROL 內容片段]。
 
 您可以依據 [!UICONTROL HTML XF]、[!UICONTROL JSON XF] 和[!UICONTROL 內容片段]進行篩選和搜尋，以協助您區分匯出至 [!DNL Target] 的不同選件。
 
@@ -66,7 +75,7 @@ ht-degree: 97%
 >
 >使用人工智慧、機器學習和[!UICONTROL 內容片段]的建議：
 >
->* 若要充分利用 [!DNL Target] AI 和 ML 功能，您可以在建立 A/B 測試時選取[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[自動個人化](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+>* 若要充分使用 [!DNL Target] AI和ML功能，您可以選取 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 或 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 建立 [!UICONTROL A/B測試] 活動。
 >
 >* 在 [!DNL Recommendations] 活動中不支援[!UICONTROL 內容片段]。但是，若要使用建議的[!UICONTROL 內容片段]，您可建立 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 或是[!UICONTROL 體驗鎖定目標] (XT) 活動並[包含選件形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
@@ -82,7 +91,7 @@ ht-degree: 97%
 1. 請選取所需的內容片段，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 1. 完成活動的設定。
 
-## 考量事項 {#considerations}
+## 其他資訊
 
 * [!DNL Target] 目前每十分鐘會尋找要匯入的[!UICONTROL 內容片段]。十分鐘內應該就能在 [!DNL Target] 中看到匯入的[!UICONTROL 內容片段]，但日後所需時間應該會縮短。
 * 會將此[!UICONTROL 內容片段]匯入[!DNL Target]為 JSON 選件。此[!UICONTROL 內容片段]的「主要」版本會留在 [!DNL AEM] 中。您無法在 [!DNL Target] 中編輯[!UICONTROL 內容片段]。
