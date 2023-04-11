@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: a50fa37c7d294773148b192a4b433746b6033916
+source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 95%
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md)
    + 將Target與Adobe Experience Manager整合(AEM) {#aem}
-      + [將Target與Adobe Experience Manager整合(AEM)概觀](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + [將Target與AEM整合概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 體驗片段和內容片段 {#fragments}
          + [AEM 體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
