@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
 source-wordcount: '2336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 4 月 5 日 | [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 新增文字，指出 [!UICONTROL Analytics作為報表來源] (A4t)在使用選件決策的活動中不受支援。 |
+| 4 月 5 日 | [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 已新增文字，表示 [!UICONTROL Analytics 作為報告來源] (A4t) 不受使用報價決策的活動支援。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2023 年 4 月 12 日星期三 [!UICONTROL Adobe Target 社群]咖啡會的資訊。 |
 |  | [允許清單 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 新增備註以將所有 [!DNL Adobe Analytics] IP 位址區塊加入允許清單。 |
 | 3 月 30 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已更新版本注意事項，關於發行為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]功能最佳化的 A4T 量度，可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，可根據二項式事件選擇量度，或根據連續事件選擇量度。 |

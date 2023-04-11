@@ -46,7 +46,7 @@ ht-degree: 97%
 
 ## 在 [!DNL Target] 活動中使用 [!UICONTROL 內容片段]。 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
-執行先前的工作之後，[!UICONTROL 內容片段]會顯示在 [!DNL Target] 中的[!UICONTROL 「選件」]頁面上。
+執行先前的工作之後，[!UICONTROL 內容片段]會顯示在 [!DNL Target] 中的[!UICONTROL 選件]頁面上。
 
 [!DNL Target] 目前每十分鐘會尋找要匯入的[!UICONTROL 內容片段]。十分鐘內應該就能在 [!DNL Target] 中看到匯入的[!UICONTROL 內容片段]，但日後所需時間應該會縮短。
 
