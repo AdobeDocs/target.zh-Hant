@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 89%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 3 月 30 日**
+**上次更新日期：2023 年 4 月 12 月**
 
 >[!NOTE]
 >
@@ -25,11 +25,15 @@ ht-degree: 100%
 
 ## [!DNL Adobe Experience Manager] (AEM) 和 [!DNL Adobe Target][!UICONTROL 內容片段] 版本 (2023 年 4 月 12 日)
 
+>[!NOTE]
+>
+>此功能將於2023年4月12日以發行前功能的形式提供，並將於2023年4月26日以GA（正式發行）版本提供。
+
 此版本包含下列新功能：
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。 |
+| 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱 [AEM [!UICONTROL 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 
 ## 額外的版本注意事項和版本詳細資料
 
