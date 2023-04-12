@@ -4,7 +4,7 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -19,7 +19,8 @@ ht-degree: 0%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 4 月 12 日 | [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 新增下列常見問題：<ul><li>我看到一個或多個不希望模型用於訓練的屬性。 我可以從訓練模型中移除這些屬性嗎？</li></ul> |
+| 4 月 12 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增報名以下網路研討會的連結：<ul><li>每次都提供個人化的客戶體驗！</li></ul> |
+|  | [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 新增下列常見問題：<ul><li>我看到一個或多個不希望模型用於訓練的屬性。 我可以從訓練模型中移除這些屬性嗎？</li></ul> |
 |  | [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 新增下列常見問題：<ul><li>如果使用者擁有多個角色和權限，會發生什麼事？</li></ul> |
 |  | [AEM 內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主題。請注意，為了測試目的，此功能處於「發行前」狀態。 |
 | 4 月 5 日 | [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 已新增文字，表示 [!UICONTROL Analytics 作為報告來源] (A4t) 不受使用報價決策的活動支援。 |

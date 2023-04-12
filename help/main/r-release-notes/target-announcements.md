@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
-workflow-type: ht
-source-wordcount: '1890'
-ht-degree: 100%
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,28 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 報名參加以下網絡研討會，了解客戶如何使用 [!DNL Target] 實現其個人化和最佳化目標：
 
-目前沒有排程。
+### 每次都提供個人化的客戶體驗！
+
+* **2023 年 4 月 27 日 (星期四)**
+* **上午9時至10時（英國夏令時+1），晚上10:00至11:00(CEST, GMT +2)**
+* **[報名資訊](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+在客戶中保持領先地位 [!DNL Adobe Target]的強大測試和個人化功能。 透過在網頁、行動裝置和數位裝置上提供動態情境式體驗，確保您位於客戶的任何位置。
+
++++詳細資料
+
+網路研討會將涵蓋：
+
+* 為何個人化是任何策略的關鍵部分
+* 識別和使用不同的活動類型
+* 焦點 — 產業使用案例
+* Recommendations推動個人化
+* 示範 [!DNL Target] 使用者介面，醒目提示
+   * 建立受眾
+   * 設定 [!UICONTROL 體驗鎖定] (XT)活動
+   * 設定 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL 自動個人化] 活動
+
++++
 
 ## 先前網路研討會和 Skill Builders 研討會錄影
 
