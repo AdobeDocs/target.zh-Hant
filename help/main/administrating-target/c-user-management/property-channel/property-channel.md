@@ -1,27 +1,27 @@
 ---
-keywords: 工作區; 管理屬性; 權限; 產品組態; 產品設定檔; 角色; 專案
+keywords: 工作區；管理屬性；權限；產品設定檔；角色；專案；觀察者；編輯者；核准者；發佈者
 description: 了解如何建立個別的工作區（產品設定檔），然後為個別頁面、屬性或網站指派使用者不同的角色和權限。
 title: 什麼是企業使用者權限？如何使用？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 59%
+source-wordcount: '3214'
+ht-degree: 57%
 
 ---
 
 # 企業使用者權限
 
-企業使用者權限是正式管理整個企業的使用者存取權的方法 [!DNL Adobe Target]. 新增使用者至 [!DNL Target]，根據其角色指派權限，並根據不同部門、全域位置、管道和其他邏輯群組為團隊建立工作區。 您可以為使用者指派角色 [!UICONTROL 觀察者], [!UICONTROL 編輯器]，或 [!UICONTROL 核准者].
+企業使用者權限是正式管理整個企業的使用者存取權的方法 [!DNL Adobe Target]. 新增使用者至 [!DNL Target]，根據其角色指派權限，並根據不同部門、全域位置、管道和其他邏輯群組為團隊建立工作區。 您可以為使用者指派角色 [!UICONTROL 觀察者], [!UICONTROL 編輯器], [!UICONTROL 核准者]，或 [!UICONTROL 發佈者].
 
 ## 判斷您是否擁有企業使用者權限的存取權
 
 >[!NOTE]
 >
->屬性和權限功能當作 [!DNL Target] Premium 解決方案的一部分來提供。 如果沒有 [!DNL Target] Premium 授權，就無法在 [!DNL Target] Standard 中使用它們。 
+>[!UICONTROL 屬性和權限]功能當作 [!DNL Target] Premium 解決方案的一部分來提供。 如果沒有 [!DNL Target] Premium 授權，就無法在 [!DNL Target] Standard 中使用它們。 
 >
 >您的 [!DNL Target] 實作可使用任何版本的at.js。
 
@@ -89,10 +89,10 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 | 角色 | 說明 |
 |--- |--- |
-| 核准者 | 可以建立、編輯和啟動或停止活動。 |
-| 編輯者 | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
-| 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
-| 發佈者 | 類似於觀察者角色 (可以查看活動，但不能建立或編輯活動)。 不過，發佈者角色具有啟用活動的額外權限。 |
+| [!UICONTROL 核准者] | 可以建立、編輯和啟動或停止活動。 |
+| [!UICONTROL 編輯器] | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+| [!UICONTROL 觀察者] | 可以檢視活動，但無法建立或編輯活動。 |
+| [!UICONTROL 發佈者] | 類似於 [!UICONTROL 觀察者] 角色（可以檢視活動，但無法建立或編輯活動）。 但是，[!UICONTROL 發佈者]角色具有激活活動的附加權限。 |
 
 ### 頻道
 
@@ -257,6 +257,10 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 ## 常見問題集 {#faqs}
 
 企業權限相關常見問題集包括下列內容:
+
+### 如果使用者擁有多個角色和權限，會發生什麼事？
+
+如果使用者有多個角色和權限，則會套用具有較高權限的角色。 例如，若使用者已 [!UICONTROL 觀察者] 和 [!UICONTROL 核准者] 角色， [!UICONTROL 核准者] 角色。
 
 ### 我可以將活動從一個工作區移動至另一個工作區嗎?
 
