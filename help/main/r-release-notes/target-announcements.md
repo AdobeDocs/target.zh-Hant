@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1937'
+ht-degree: 95%
 
 ---
 
@@ -21,14 +21,6 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!UICONTROL Adobe Target 社群]問答咖啡會
-
-* **2023 年 4 月 12 日，星期三**
-* **上午 8:00 至 9:00 (PDT，GMT -7)**
-* **[報名資訊](https://adobe.ly/42gQGfv){target=_blank}**
-
-加入 Matthew Bailie 和 Georgia Frailey，他們都是 [!DNL Adobe Target] 的資深解決方案顧問，他們將直接與您討論與[!DNL Target] AI 功能相關的 [!DNL Adobe Target] 問題，特別是 [!UICONTROL 自動個人化]和[!UICONTROL 自動鎖定目標]。
-
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
 報名參加以下網絡研討會，了解客戶如何使用 [!DNL Target] 實現其個人化和最佳化目標：
@@ -36,7 +28,7 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 ### 每次都提供個人化的客戶體驗！
 
 * **2023 年 4 月 27 日 (星期四)**
-* **上午9時至10時（英國夏令時+1），晚上10:00至11:00(CEST, GMT +2)**
+* **上午9時至10時（英國夏令時+1），上午10:00至11:00(CEST, GMT +2)**
 * **[報名資訊](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
 在客戶中保持領先地位 [!DNL Adobe Target]的強大測試和個人化功能。 透過在網頁、行動裝置和數位裝置上提供動態情境式體驗，確保您位於客戶的任何位置。
