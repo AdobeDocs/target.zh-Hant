@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '3214'
+source-wordcount: '3215'
 ht-degree: 57%
 
 ---
@@ -258,7 +258,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 企業權限相關常見問題集包括下列內容:
 
-### 如果使用者擁有多個角色和權限，會發生什麼事？
+### 如果使用者擁有多個角色和權限，會發生什麼事？ [#multiple-roles]
 
 如果使用者有多個角色和權限，則會套用具有較高權限的角色。 例如，若使用者已 [!UICONTROL 觀察者] 和 [!UICONTROL 核准者] 角色， [!UICONTROL 核准者] 角色。
 

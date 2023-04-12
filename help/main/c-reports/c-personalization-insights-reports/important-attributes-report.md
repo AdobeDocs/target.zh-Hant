@@ -5,10 +5,10 @@ title: 什麼是「重要屬性」報表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 79%
+source-wordcount: '1847'
+ht-degree: 74%
 
 ---
 
@@ -90,7 +90,9 @@ ht-degree: 79%
 
 ## 「重要屬性」常見問題集 {#section_740910A52FA646B4AC9452F98C2F5719}
 
-**「個人化前瞻分析」報表尚不適用於我的活動。是什麼原因?**
+請參閱下列常見問題集，以取得關於使用 [!UICONTROL 重要屬性] 報表。
+
+### 「個人化前瞻分析」報表尚不適用於我的活動。是什麼原因?
 
 尚未針對您的活動提供[!UICONTROL 個人化前瞻分析]報表的數個可能原因如下:
 
@@ -98,33 +100,39 @@ ht-degree: 79%
 * 您的活動在指定的時間範圍內沒有足夠的流量。15 天過後，假設您的活動中有[足夠的個人化流量](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)以建立個人化模型，即可使用自動化區段和重要屬性報表。
 * 您的活動有收入最佳化目標。目前，[!UICONTROL 「個人化前瞻分析」]僅適用於轉換最佳化目標活動。我們將在未來的版本中新增對收入最佳化目標活動的支援。
 
-**屬性是什麼?**
+### 屬性是什麼?
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
 如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
-**[!UICONTROL 「自動化區段」]和[!UICONTROL 「重要屬性」]報表中的資訊，是否與 CSV 下載中的資訊相同?**
+### 我看到一個或多個不希望模型用於訓練的屬性。 我可以從訓練模型中移除這些屬性嗎？ {#models-api}
+
+此 [!UICONTROL 模型API]，又稱為封鎖清單API，可讓使用者檢視及管理機器學習模型中使用的屬性清單（也稱為功能） [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。 如果您想要排除一或多個屬性，使其不被AP或AT活動的模型使用，則可以使用模型API將這些屬性新增至「封鎖清單」。
+
+如需詳細資訊，請參閱 [模型API概觀](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+
+### [!UICONTROL 「自動化區段」]和[!UICONTROL 「重要屬性」]報表中的資訊，是否與 CSV 下載中的資訊相同?
 
 否，UI 報表包含選取資訊。CSV 下載包含其他詳細資料。「自動化區段前瞻分析報表」下載包括 UI 中包含之常用區段以外的其他「自動化區段」，以及這些區段對選件或體驗的執行方式。「重要屬性」報表包括 100 個常見的訪客屬性及其相對重要性，而 UI 僅包括 10 個常見的訪客屬性。
 
-**我可以看到自訂日期範圍的「個人化前瞻分析」嗎?**
+### 我可以看到自訂日期範圍的「個人化前瞻分析」嗎?
 
 「個人化前瞻分析」報表 ([!UICONTROL 「自動化區段」]和[!UICONTROL 「重要屬性」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為任何結束日期選取這些持續時間 (其中這些活動中的資料足以滿足持續時間)。
 
-**「個人化前瞻分析」是如何建立的?**
+### 「個人化前瞻分析」是如何建立的?
 
 [!UICONTROL 「個人化前瞻分析」是使用 Adobe 正在申請專利的技術建立而成，該技術稱為 MAGIX (Model Agnostic Globally Interpretable Explanations) 。]您可以在Adobe研究團隊於 [arXiv.org網站](https://arxiv.org/abs/1706.07160).
 
-**「個人化前瞻分析」是否可用於收入型模組化目標/主要目標?**
+### 是 [!UICONTROL 個人化前瞻分析] 適用於以收入為基礎的模型目標/主要目標？
 
 目前，[!UICONTROL 「個人化前瞻分析」]僅適用於轉換最佳化目標活動。我們將在未來的版本中新增對收入最佳化目標活動的支援。
 
-**「重要屬性」報表中的屬性重要性分數是多少?**
+### 「重要屬性」報表中的屬性重要性分數是多少?
 
 當演算法判斷如何將所有訪客分成它識別的區段時，報表的「屬性重要性排名」部分中的重要性分數可提供演算法用於學習之最重要的變數輸入。它為模型使用的 100 個屬性指派百分比分數。
 
-**與某些自動化區段的其他選件/體驗相比，為什麼某些具有較低轉換率的選件/體驗接收到較大量的流量?**
+### 與某些自動化區段的其他選件/體驗相比，為什麼某些具有較低轉換率的選件/體驗接收到較大量的流量?
 
 有多種可能原因會讓您在自動化區段中看到更多造訪較低轉換選件/體驗，包括：
 
@@ -136,7 +144,7 @@ ht-degree: 79%
 
 瞭解提供流量的模型運作方式會有所助益。每個個人都是根據其總計設定檔提供。不過，前瞻分析報表會歸納此行為，讓人類更容易解讀。因此，區段並非互斥。這可能會導致個別區段顯示這種行為，因為同一個人可以出現在多個區段中。
 
-**有哪些不同的方法可以利用「個人化前瞻分析」中的資訊?**
+### 有哪些不同的方法可以利用「個人化前瞻分析」中的資訊?
 
 * 發現要鎖定目標的新對象: 如果您發現某個特定自動化區段執行效能特別好，則可以考慮建立對象，以便您可以在其他報表中重複使用該區段。
 * 測試您的假設，瞭解哪種類型的訪客會對您的哪些體驗做出回應。
