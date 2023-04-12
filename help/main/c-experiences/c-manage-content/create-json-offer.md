@@ -4,10 +4,10 @@ description: 了解如何在Adobe中建立JSON選件 [!DNL Target] 以用於表�
 title: 如何建立JSON選件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 29%
+source-wordcount: '461'
+ht-degree: 33%
 
 ---
 
@@ -135,11 +135,7 @@ adobe.target.getOffer({
 
 可與共用即時CDP配置檔案屬性 [!DNL Target] 以用於HTML選件和JSON選件。 （請注意，此功能目前仍在測試中。）
 
-範例使用案例：身為線上行銷人員，Grace希望AEP/統一設定檔與共用屬性值 [!DNL Target] 以便提供即時個人化。 使用即時CDP設定檔屬性時，Grace可在 [!DNL Target] 使用代號取代的選件。 例如，她可以使用 `${aep.profile.favoriteColor}`，或使用代號的忠誠度層級和忠誠度點數值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
-
-![offer-json-aep-shared-attribute影像](assets/offer-json-aep-shared-attribute.png)
-
-請注意，指派預設值是選用的。
+如需詳細資訊，請參閱 [與共用Real-time CDP Profile Attributes [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## 依JSON選件類型篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
