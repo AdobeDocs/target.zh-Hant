@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2432'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 4 月 13 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增 [!DNL Target] Standard/Premium 23.4.1版（2023年4月25至27日）。 |
 | 4 月 12 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增報名以下網路研討會的連結：<ul><li>每次都提供個人化的客戶體驗！</li></ul> |
 |  | [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 新增下列常見問題：<ul><li>我看到一個或多個不希望模型用於訓練的屬性。 我可以從訓練模型中移除這些屬性嗎？</li></ul> |
 |  | [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 新增下列常見問題：<ul><li>如果使用者擁有多個角色和權限，會發生什麼事？</li></ul> |
