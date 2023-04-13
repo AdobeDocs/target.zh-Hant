@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Plat
 title: 我如何整合  [!DNL Target] 和 [!DNL Real-time Customer Data Platform]？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '895'
 ht-degree: 22%
 
 ---
@@ -94,8 +94,6 @@ Real-time CDP Profile Attributes功能限制和考量事項：
 ## 與共用Real-time CDP Profile Attributes [!DNL Target] {#rtcdp-profile-attributes}
 
 可與共用即時CDP配置檔案屬性 [!DNL Target] 以用於HTML選件和JSON選件。 （請注意，此功能目前仍在測試中。）
-
-如需詳細資訊，請參閱 [與共用Real-time CDP Profile Attributes [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 範例使用案例：身為線上行銷人員，Grace希望AEP/統一設定檔與共用屬性值 [!DNL Target] 以便提供即時個人化。 使用即時CDP設定檔屬性時，Grace可在 [!DNL Target] 使用代號取代的選件。 例如，她可以使用 `${aep.profile.favoriteColor}`，或使用代號的忠誠度層級和忠誠度點數值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
 
