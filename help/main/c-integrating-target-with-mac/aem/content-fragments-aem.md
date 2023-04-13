@@ -8,7 +8,7 @@ exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 
 在 [!DNL Target] 中使用 AEM [!UICONTROL 內容片段]時，請考慮以下事項：
 
-* 此功能需要您 [!DNL Adobe Experience Manager as a Cloud Service] 客戶。 如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
+* 您需為 [!DNL Adobe Experience Manager as a Cloud Service] 客戶才能使用此功能。如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 * [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 適用於下列活動類型：
 
    * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -46,7 +46,7 @@ ht-degree: 86%
 
 ## 要求 {#requirements}
 
-您必須在 [!DNL Target] 中佈建[!UICONTROL 內容片段]功能。此外，您必須使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 您的客戶代表可協助確認您是否符合使用此功能的要求：
+您必須在 [!DNL Target] 中佈建[!UICONTROL 內容片段]功能。此外，您必須使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。您的客戶代表可協助確認您是否符合使用此功能的要求：
 
 請和 [Adobe Target 客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)聯絡，以啟用整合並取得驗證的詳細資訊。
 
