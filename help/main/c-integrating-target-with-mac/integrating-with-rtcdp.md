@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Plat
 title: 我如何整合  [!DNL Target] 和 [!DNL Real-time Customer Data Platform]？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
+source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 19%
+source-wordcount: '909'
+ht-degree: 18%
 
 ---
 
@@ -38,13 +38,27 @@ ht-degree: 19%
 
 ### Personalization 使用案例
 
-下表顯示使用 [!DNL Adobe Experience Platform Web SDK] 與使用at.js:
+下列小節顯示使用不同實施方法時可用的個人化使用案例類型（下次工作階段或同頁）:
 
-| 實施 | 啟用解決方案/使用案例 |
+#### at.js 實施
+
+| 解決方案 | 啟用使用案例 |
 | --- | --- |
-| at.js  | **解決方案**:<ul><li>[!DNL Adobe Audience Manager] (AAM)和 [!DNL Target]</li><li>[!DNL RTCDP] （Premium或Ultimate）和 [!DNL Target]</li><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li></ul> |
-| [!DNL Platform Web SDK]或 [!DNL AEP Server-Side API] | **解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><li>透過Edge提供同頁個人化</li><li>共用區段時強制執行控管</li></ul>**解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><ul><li>[!DNL AAM] 區段</li><li>透過 [!DNL AAM]</li></ul><li>透過Edge提供同頁個人化</li><ul><li>[!DNL RTCDP] 區段</li><li>共用區段時強制執行控管</li></ul> |
-| 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] | **解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><ul><li>對於具有 [!UICONTROL at.js]</li></ul><li>同頁個人化</li><ul><li>對於具有 [!DNL Platform Web SDK]</li></ul></ul>**解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><ul><li>對於具有 [!UICONTROL at.js]</li><li>[!DNL AAM] 區段</li><li>透過 [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL Adobe Audience Manager] (AAM)和 [!DNL Target]</li><li>[!DNL RTCDP] （Premium或Ultimate）和 [!DNL Target]</li><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul> | 下一工作階段個人化 |
+
+#### Adobe Experience Platform Web SDK或AEP伺服器端API實作
+
+| 解決方案 | 啟用使用案例 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul> | <ul><li>下一工作階段個人化</li><li>透過Edge提供同頁個人化</li><li>共用區段時強制執行控管</li></ul> |
+| <ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul> | <ul><li>下一工作階段個人化</li><ul><li>[!DNL AAM] 區段</li><li>透過 [!DNL AAM]</li></ul><li>透過Edge提供同頁個人化</li><ul><li>[!DNL RTCDP] 區段</li><li>共用區段時強制執行控管</li></ul> |
+
+#### 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] 實施
+
+| 解決方案 | 啟用使用案例 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul> | <ul><li>下一工作階段個人化</li><ul><li>對於具有 [!UICONTROL at.js]</li></ul><li>同頁個人化</li><ul><li>對於具有 [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul> | <ul><li>下一工作階段個人化</li><ul><li>對於具有 [!UICONTROL at.js]</li><li>[!DNL AAM] 區段</li><li>透過 [!DNL AAM]</li></ul> |
 
 ### 區段評估時間
 
@@ -105,6 +119,6 @@ ht-degree: 19%
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Target部落格和影片：
+### Adobe Target部落格和影片：同頁增強的個人化
 
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
