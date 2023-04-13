@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Plat
 title: 我如何整合  [!DNL Target] 和 [!DNL Real-time Customer Data Platform]？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: e9fd075db7c533c77154af7806076d8ed0198979
+source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '915'
 ht-degree: 19%
 
 ---
@@ -59,11 +59,7 @@ ht-degree: 19%
 * [Adobe Target連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 在 *目的地概觀* 指南
 * [針對相同頁面和下一頁個人化使用案例設定個人化目的地](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 在 *目的地概觀* 指南
 
-### 其他詳細資料
-
-使用對象時，請考量下列資訊 [!DNL Adobe Experience Platform]:
-
-#### Personalization 使用案例
+### Personalization 使用案例
 
 下表顯示使用 [!DNL Adobe Experience Platform Web SDK] 與使用at.js:
 
@@ -73,7 +69,7 @@ ht-degree: 19%
 | [!DNL Platform Web SDK]或 [!DNL AEP Server-Side API] | **解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><li>透過Edge提供同頁個人化</li><li>共用區段時強制執行控管</li></ul>**解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><ul><li>[!DNL AAM] 區段</li><li>透過 [!DNL AAM]</li></ul><li>透過Edge提供同頁個人化</li><ul><li>[!DNL RTCDP] 區段</li><li>共用區段時強制執行控管</li></ul> |
 | 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] | **解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><ul><li>對於具有 [!UICONTROL at.js]</li></ul><li>同頁個人化</li><ul><li>對於具有 [!DNL Platform Web SDK]</li></ul></ul>**解決方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]，和 [!DNL Target]</li></ul>**使用案例**:<ul><li>下一工作階段個人化</li><ul><li>對於具有 [!UICONTROL at.js]</li><li>[!DNL AAM] 區段</li><li>透過 [!DNL AAM]</li></ul> |
 
-#### 區段評估時間
+### 區段評估時間
 
 下表顯示來自不同實施案例之事件的區段評估時間：
 
@@ -95,7 +91,11 @@ ht-degree: 19%
 
 請注意，指派預設值是選用的。
 
-## 影片：使用即時CDP進行下次點擊的個人化，以及 [!DNL Adobe Target]{#RTCDP}
+## 影片和部落格貼文
+
+下列影片和部落格文章提供有關使用Target和RTCDP增強個人化的詳細資訊：
+
+### 影片：使用即時CDP進行下次點擊的個人化，以及 [!DNL Adobe Target]{#RTCDP}
 
 了解如何使用個人化下次點擊 [!DNL Real-time Customer Data Platform] 和 [!DNL Adobe Target]. 此 [!DNL Adobe Target] 目的地 [!DNL Real-time CDP] 可讓您使用 [!DNL Experience Platform] 區段 [!DNL Adobe Target] 提供控管和隱私權支援的相同頁面個人化和下一頁個人化。
 
@@ -103,6 +103,6 @@ ht-degree: 19%
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-## Adobe Target部落格和影片：
+### Adobe Target部落格和影片：
 
 [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
