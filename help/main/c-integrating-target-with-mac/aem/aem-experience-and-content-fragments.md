@@ -7,7 +7,7 @@ exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 source-git-commit: 7c81362a82ca6692bb8c183b8e8fc50c6329e2e8
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 
 在 [!DNL Target] 中使用 AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]時，請考慮以下事項：
 * 您需為 [!DNL Adobe Experience Manager] (AEM) 客戶才能使用這些功能。請確保您滿足每種片段類型的要求：[體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)或是[內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)。
-* [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 適用於下列活動類型：
+* [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]適用於以下活動類型：
 
    * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
@@ -35,12 +35,12 @@ ht-degree: 88%
    * [[!UICONTROL 自動個人化](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 無法用於下列活動類型：
+* [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]不適用於以下活動類型：
 
    * [[!UICONTROL 多變數測試] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* 您可以 [!UICONTROL 體驗片段] in [!DNL Target] 活動使用 [可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md).
+* 您可以使用[可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 和[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，在 [!DNL Target] 活動中取用[!UICONTROL 體驗片段]。
 * 您只能在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)的 [!DNL Target] 活動中取用[!UICONTROL 內容片段]。
 
 ## [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]之間有何差異？

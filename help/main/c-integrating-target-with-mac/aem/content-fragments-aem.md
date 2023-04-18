@@ -8,7 +8,7 @@ exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->此功能將於2023年4月12日以發行前功能的形式提供。 作為發行前功能，您可以試用 [!UICONTROL 內容片段] 使用開發和測試環境，但不適用於生產環境。
+>此功能於 2023 年 4 月 12 日以預發布功能提供。 由於是預先發佈的功能，您可以在開發和中繼環境中嘗試使用[!UICONTROL 內容片段]，但不能在生產環境中使用。
 >
->此功能將於2023年4月26日正式發行。
+>此功能將於 2023 年 4 月 26 日在 GA (全面發佈) 版本中提供。
 
 ## 考量事項
 
 在 [!DNL Target] 中使用 AEM [!UICONTROL 內容片段]時，請考慮以下事項：
 
 * 您需為 [!DNL Adobe Experience Manager as a Cloud Service] 客戶才能使用此功能。如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
-* [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 適用於下列活動類型：
+* [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]適用於以下活動類型：
 
    * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
@@ -35,7 +35,7 @@ ht-degree: 88%
    * [[!UICONTROL 自動個人化](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL 體驗片段] 和 [!UICONTROL 內容片段] 無法用於下列活動類型：
+* [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]不適用於以下活動類型：
 
    * [[!UICONTROL 多變數測試] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
@@ -78,7 +78,7 @@ ht-degree: 88%
 >
 >使用人工智慧、機器學習和[!UICONTROL 內容片段]的建議：
 >
->* 若要充分使用 [!DNL Target] AI和ML功能，您可以選取 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 或 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 建立 [!UICONTROL A/B測試] 活動。
+>* 若要充分利用 [!DNL Target] AI 和 ML 功能，您可以在建立 [!UICONTROL A/B 測試]活動時選取[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[「自動個人化](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 >
 >* 在 [!DNL Recommendations] 活動中不支援[!UICONTROL 內容片段]。但是，若要使用建議的[!UICONTROL 內容片段]，您可建立 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 或是[!UICONTROL 體驗鎖定目標] (XT) 活動並[包含選件形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
