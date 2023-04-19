@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
 workflow-type: tm+mt
-source-wordcount: '2432'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 4 月 13 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增 [!DNL Target] Standard/Premium 23.4.1版（2023年4月25至27日）。 |
+| 4 月 19 日 | [位置貢獻報表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | 更新附註中的資訊。 |
+| 4 月 13 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增有關 [!DNL Target] Standard/Premium 23.4.1 版 (2023 年 4 月 25-27 日) 的資訊。 |
 | 4 月 12 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 註册下列網路研討會的新增連結：<ul><li>每次都提供個人化的客戶體驗！</li></ul> |
 |  | [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 新增下列常見問題：<ul><li>我看到一個或多個我不希望模型用於訓練的屬性。我可以從訓練模型中刪除這些屬性嗎？</li></ul> |
 |  | [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 新增下列常見問題：<ul><li>如果使用者具有多個角色和權限，會如何？</li></ul> |
