@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
 workflow-type: tm+mt
 source-wordcount: '2441'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 4 月 19 日 | [位置貢獻報表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | 更新附註中的資訊。 |
+| 4 月 19 日 | [[!UICONTROL 位置貢獻]報表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | 已更新注意事項中的資訊。 |
 | 4 月 13 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 新增有關 [!DNL Target] Standard/Premium 23.4.1 版 (2023 年 4 月 25-27 日) 的資訊。 |
 | 4 月 12 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 註册下列網路研討會的新增連結：<ul><li>每次都提供個人化的客戶體驗！</li></ul> |
 |  | [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 新增下列常見問題：<ul><li>我看到一個或多個我不希望模型用於訓練的屬性。我可以從訓練模型中刪除這些屬性嗎？</li></ul> |
@@ -74,7 +74,7 @@ ht-degree: 99%
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 新增關於模型 API 版本 (2022 年 11 月 23 日) 的資訊。 |
 | 11 月 23 日 | [使用 at.js 實作 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 已更新指向 [Marketing Cloud 整合佈建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} 的連結。 |
 | 11 月 16 日 | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的報名資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)</li></ul> |
-| 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增了實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){target=_blank} 中的注意事項。 |
+| 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增了實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank} 中的注意事項。 |
 |  | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 更新表格中 `adobe_mc_sdid` 參數的說明。 |
 |  | [疑難排解活動](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 加入新章節：「活動轉換後，訪客沒有任何體驗。」 |
 |  | [自訂參數](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 新增注意事項：從「[!UICONTROL 篩選依據]」下拉式清單選取的 mbox 未在建立活動時儲存。此選項可讓您根據選取的 mbox 篩選參數。 |
