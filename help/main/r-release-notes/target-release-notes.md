@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: ce36e74605468466ed7bdc83f412f78941151845
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 4 月 13 月**
+**上次更新日期：2023 年 4 月 24 月**
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 ## [!DNL Target] Standard/Premium 23.4.1 (2023 年 4 月 25-27 日)
 
-此版本包含以下新功能、增強功能和修正：
+此版本包含安全性更新和下列新功能：
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱 [AEM [!UICONTROL 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。<P>**請注意**：此功能於 2023 年 4 月 12 日做為預先發佈的功能提供。由於是預先發佈的功能，您可以在開發和中繼環境中嘗試使用[!UICONTROL 內容片段]，但不能在生產環境中使用。此功能將在 [!DNL Target Standard/Premium] 23.4.1 版 GA (全面發佈) 版本中提供。 |
+| 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱 [AEM [!UICONTROL 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。<P>**請注意**：此功能於 2023 年 4 月 12 日做為預先發佈的功能提供。由於是預先發佈的功能，您可以在開發和中繼環境中嘗試使用[!UICONTROL 內容片段]，但不能在生產環境中使用。此功能將於2023年4月26日開放所有客戶使用。 |
 | 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。 |
 
 ## 額外的版本注意事項和版本詳細資料
