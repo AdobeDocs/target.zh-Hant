@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 98%
+source-wordcount: '450'
+ht-degree: 91%
 
 ---
 
@@ -19,39 +19,14 @@ ht-degree: 98%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 23.3.1 (2023 年 3 月 28 至 30 日)
+## [!DNL Target] Standard/Premium 23.4.1 (2023 年 4 月 25-27 日)
 
-我們將根據以下排程分批發行此版本：
-
-* **3 月 28 日**：歐洲、中東和非洲 (EMEA) 區域
-* **3 月 29 日**：亞太 (APAC) 區域
-* **3 月 30 日**：美洲區域
-
-此版本包含以下新功能、增強功能和修正：
+此版本包含安全性更新和下列新功能：
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]最佳化的 A4T 量度<p> (發行日期：2023 年 3 月 30 日) | [!DNL Target]可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，選擇以二項式事件為基礎的量度，或是以持續事件為基礎的量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul>如需詳細資訊，請參閱[[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)中的「受支援目標量度」。<br>因為此功能，已更新以下教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
-
-* 增強對象和活動同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中建立的項目可更快地在 [!DNL Target] UI 中使用。(TGT-44568)
-* 增強 UI 讓使用者在[!UICONTROL 管理] > [!UICONTROL Visual Experience Composer] > [!UICONTROL 預設 URL] 下刪除[!UICONTROL 預設 URL]。此變更可讓客戶將預設 URL 變更回空字串，這在以前於初始設定後是不可能的。(TGT-44577)
-* 刪除禁止客戶編輯或刪除現成可用對象 (具有保留名稱的對象) 的限制。(TGT-44655)
-* 停用建立[合併的對象](/help/main/c-target/combining-multiple-audiences.md)期間在載入進度環時會出現在 [!DNL Target] UI 的「[!UICONTROL 完成]」選項。(TGT-44079)
-* 修正 [!UICONTROL Audiences] 頁面底部的[!UICONTROL 語言]連結，以便正確連結到「[!UICONTROL 帳戶通訊偏好設定]」頁面。(TGT-43562)
-* 有時客戶在[!UICONTROL 管理] > [!UICONTROL 報告] > [!UICONTROL 報告 Experience Cloud 解決方案]下選取 [!UICONTROL Adobe Analytics] 後，無法建立 [!UICONTROL A/B 測試]活動，這個問題已經修正。(TGT-44844)
-* 客戶無法檢視[!UICONTROL 多變數測試]活動中的最後一個體驗，有許多來自 [!UICONTROL Visual Experience Composer] (VEC) 內的體驗，這個問題已經修正。VEC 底部的 [DOM 路徑](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)有時會造成客戶無法看到最後一個體驗。(TGT-44578)
-* 如果頁面要求授權或叫用重新導向，VEC 中的瀏覽 URL 無法反映目前頁面，而此頁面在正常瀏覽器工作階段是可見的，這個問題已經修正。(TGT-44350)
-* 客戶無法在 [!UICONTROL Recommendations] > [!UICONTROL 設定]中變更[!UICONTROL 篩選不相容的條件]設定，這個問題已經修正。(TGT-44398)
-* 使用 [!UICONTROL Analytics 分類]和名稱有點符號的報表套裝時，建立 [!DNL Recommendations] 摘要的 POST 要求會失敗，這個問題已經修正。(TGT-44598)
-* 更新 [!DNL Target] UI 中的連結以指向新的 [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。(TGT-44459)
-* 增強安全性以防止在 [!DNL Recommendations] 摘要中嘗試伺服器端請求偽造 (SSRF)。(TGT-43769)
-* 對整個 [!DNL Target] UI 進行了各種本地化修正。
-
-## at.js 版本 2.10.2 (2023 年 3 月 7 日)
-
-* 修正造成 `trackEvent` 函數總是傳回錯誤的問題。
-
-有關所有 at.js 版本的資訊，請參閱 [at.js 版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。
+| 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱 [AEM [!UICONTROL 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。<P>**請注意**：此功能於 2023 年 4 月 12 日做為預先發佈的功能提供。由於是預先發佈的功能，您可以在開發和中繼環境中嘗試使用[!UICONTROL 內容片段]，但不能在生產環境中使用。此功能將於2023年4月26日開放所有客戶使用。 |
+| 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。<p>此功能將於2023年5月9日開放所有客戶使用。 |
 
 ## 額外的版本注意事項和版本詳細資料
 

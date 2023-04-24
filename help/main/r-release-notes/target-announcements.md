@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
-workflow-type: ht
-source-wordcount: '1937'
-ht-degree: 100%
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+workflow-type: tm+mt
+source-wordcount: '2152'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,29 @@ ht-degree: 100%
 Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連續第五年將 [!DNL Adobe Target] 評為領導者。[!DNL Adobe] 在以下主要三個使用案例中，也榮獲高分並逐年大幅提升：數位行銷、數位商務以及服務和支援。在所有接受評估的供應商中，[!DNL Target] 在其測試能力上獲得了最高分。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!UICONTROL Adobe Target社群] 茶歇問答：驗證環境的行動體驗最佳化和個人化
+
+* **2023 年 4 月 26 日，星期三**
+* **下午1:00(EDT, UTC-4)**
+* **[報名資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
+
+加入 [!DNL Adobe Target] 營銷經理Brent Kostak，討論如何 [!DNL Target] 和 [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP)可促進受管制行業內提高的參與度、收入和客戶忠誠度。
+
++++詳細資料
+
+品牌需要根據特定客戶需求和行為，提供高度個人化且相關的體驗。 受監管的產業對於行銷技術中沒有Cookie的未來有所疑問，它們希望採用更健全的客戶參與架構，同時針對適當的內容和優惠方案，最佳化每個客戶的互動。
+
+跨金融服務和保險、零售、旅行和招待以及電信行業的品牌如何採用最佳實務，在已驗證的環境中最佳化和個人化？ 了解行動應用程式對於忠誠客戶參與和保留的重要性，品牌如何透過個人化體驗啟用數位自助服務，或增加新功能的採用率？
+
+在本課程中，了解如何 [!DNL Target] 和 [!DNL Real-Time Customer Data Platform] 可以促進受管制行業內參與度、收入和客戶忠誠度的提升，如前所述：
+
+* 團隊如何為匿名和已驗證的訪客提供個人化體驗
+* 透過個人化了解消費者權限和隱私權標準
+* 透過匿名身分識別，為已驗證的訪客提供個人化內容與優惠方案
+* Web和行動裝置上已驗證、安全的網站的不重複使用案例
+
++++
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
