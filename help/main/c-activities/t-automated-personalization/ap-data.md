@@ -5,9 +5,9 @@ title: 收集哪些資料以建立機器學習演算法？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 50%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 50%
 
 [!DNL Target]  有些功能可從機器學習演算法中封鎖，以防止有人將功能用於任何 [!UICONTROL Auto-Target] 或 [!UICONTROL Automated Personalization] 模型或活動。
 
-如需詳細資訊，請參閱 [模型API（封鎖清單）概觀](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 在 *Adobe Target開發人員指南*.
+如需詳細資訊，請參閱 [模型API（封鎖清單）概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} 在 *Adobe Target開發人員指南*.
 
 ## 裝置和行動資料 {#device-mobile}
 

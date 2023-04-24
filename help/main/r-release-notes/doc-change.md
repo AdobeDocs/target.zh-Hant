@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 100%
+source-wordcount: '2463'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 |  | [AEM 內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主題。請注意，出於測試目的，此功能處於「預先發佈」狀態。 |
 | 4 月 5 日 | [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 已新增文字，表示 [!UICONTROL Analytics 作為報告來源] (A4t) 不受使用報價決策的活動支援。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2023 年 4 月 12 日星期三 [!UICONTROL Adobe Target 社群]咖啡會的資訊。 |
-|  | [允許清單 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 新增備註以將所有 [!DNL Adobe Analytics] IP 位址區塊加入允許清單。 |
+|  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 新增備註以將所有 [!DNL Adobe Analytics] IP 位址區塊加入允許清單。 |
 | 3 月 30 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已更新版本注意事項，關於發行為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]功能最佳化的 A4T 量度，可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，可根據二項式事件選擇量度，或根據連續事件選擇量度。 |
 |  | [[!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新「受支援目標量度」區段以包含使用 [!UICONTROL Analytics for Target] (A4T) 之[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的受支援 (和不受支援) 量度的資訊。 |
 |  | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 已更新下列教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2 月 21 日 | [允許清單 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 已更新 IP 位址清單，將 [Adobe Target 開發人員指南](https://developer.adobe.com/target/){target=_blank}中的所有區域加入允許清單。 |
+| 2 月 21 日 | [允許清單 Target 邊緣節點](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 已更新 IP 位址清單，將 [Adobe Target 開發人員指南](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中的所有區域加入允許清單。 |
 |  | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 新增的文字解釋了使用 JQuery 的範例假設客戶的網站在 [!DNL Target] 執行選件時，頁面上有提供 jQuery。 |
 | 2 月 10 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.14.5 版的版本注意事項。 |
 | 2 月 8 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 at.js 2.10.1 的發行說明。 |
@@ -70,7 +70,7 @@ ht-degree: 100%
 | 12 月 20 日 | [[!UICONTROL Automated Personalization 中的優惠方案報告群組]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | 在「注意事項」下方已新增有關報告群組的其他資訊。 |
 | 12 月 14 日 | [報表設定](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 在「環境」部分新增關於使用 [!DNL Adobe Experience Platform] (AEP) 將指標資料發送至 [!DNL Target] 的註釋。 |
 | 11 月 29 日 | [地理](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 已新增下列段落來闡明文字：<ul><li>訪客的地理資訊是根據 [!DNL Target] 位置請求 (Mbox 請求) 的起始 IP 位置來判定。IP 對地理位置的解析是在新工作階段的首次呼叫時完成。也就是說，如果訪客的 IP 位址在造訪期間發生變更，地理資訊仍會根據首次呼叫的 IP 位址。</li></ul> |
-| 11 月 28 日 | 如需詳細資訊，請參閱 [Adobe Target 開發人員指南](https://developer.adobe.com/target/before-administer/models-api/)中的{target=_blank}模式 API (加入封鎖清單) 概觀&#x200B;**。 | 新模型 API。<br>[!DNL Target]  有些功能可從機器學習演算法中封鎖，以防止有人將功能用於任何 [!UICONTROL Auto-Target] 或 [!UICONTROL Automated Personalization] 模型或活動。 |
+| 11 月 28 日 | 如需詳細資訊，請參閱 [Adobe Target 開發人員指南](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html)中的{target=_blank}模式 API (加入封鎖清單) 概觀&#x200B;**。 | 新模型 API。<br>[!DNL Target]  有些功能可從機器學習演算法中封鎖，以防止有人將功能用於任何 [!UICONTROL Auto-Target] 或 [!UICONTROL Automated Personalization] 模型或活動。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 新增關於模型 API 版本 (2022 年 11 月 23 日) 的資訊。 |
 | 11 月 23 日 | [使用 at.js 實作 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 已更新指向 [Marketing Cloud 整合佈建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} 的連結。 |
 | 11 月 16 日 | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的報名資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)</li></ul> |
@@ -110,10 +110,10 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 30 日 | [Adobe Target 開發人員指南](https://developer.adobe.com/target/){target=_blank} | 推出 *Adobe Target 開發人員指南*，將所有 [!DNL Target] 開發人員內容整合到一個方便的入口網站中。該入口網站包含有關實作 [!DNL Target]和 [!DNL Recommendations]、[!DNL Target] SDK 和 [!DNL Target] API 的資訊。 |
+| 6 月 30 日 | [Adobe Target 開發人員指南](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 推出 *Adobe Target 開發人員指南*，將所有 [!DNL Target] 開發人員內容整合到一個方便的入口網站中。該入口網站包含有關實作 [!DNL Target]和 [!DNL Recommendations]、[!DNL Target] SDK 和 [!DNL Target] API 的資訊。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.2 版的版本注意事項。 |
 |  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已添加過去網路研討會的錄制連結。 |
-| 6 月 14 日 | [計劃和實作 Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 更新以下部份的程式碼範例：<ul><li>購物卡新增/購物卡檢視/結帳頁面</li><li>排除已經在訪客購物車中的項目</li></ul> |
+| 6 月 14 日 | [計劃和實作 Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} | 更新以下部份的程式碼範例：<ul><li>購物卡新增/購物卡檢視/結帳頁面</li><li>排除已經在訪客購物車中的項目</li></ul> |
 | 6 月 7 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.1 版的版本注意事項。 |
 
 ## Adobe Target Standard/Premium 22.5.1 (分批發行；2022 年 5 月 11 日至 13 日)
@@ -123,12 +123,12 @@ ht-degree: 100%
 | 6 月 7 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.6.1 版的搶鮮版資訊。  |
 | 5 月 31 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 已新增有關即將舉行的 [!DNL Adobe Target] 社群咖啡會 (2022 年 6 月 29 日) 的資訊 |
 | 5 月 25 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target] 平台版 (2022 年 5 月 25 日) 和 at.js 2.9.0 版 (2022 年 5 月 27 日) 的資訊。 |
-|  | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增關於 at.js 2.9.0 版的資訊。 |
-|  | [使用者代理和用戶端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}。  | 新主題。 |
+|  | [at.js 版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增關於 at.js 2.9.0 版的資訊。 |
+|  | [使用者代理和用戶端提示](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank}。  | 新主題。 |
 |  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增用來錄製以下網絡研討會的連結：Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日) |
 | 5 月 23 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 at.js 2.9.0 版 (2022 年 5 月 25 日) 搶鮮版版本注意事項。 |
 | 5 月 11 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增有關下列網路研討會的資訊與報名資訊：<ul><li>Dick&#39;s Sporting Goods：個人化及改變零售業格局</li><li>Adobe：個人化的業界內幕 - 金融服務業和保險業</li><li>City National Bank：如何在數位最佳化中成為排名 1% 的銀行</li><li>Adobe：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>City National Bank：Zero to Hero - 展開並擴展個人化方案</li><li>Adobe：發掘高影響力的最佳化機會</li><li>Adobe：個人化的業界內幕 - 零售業</li></ul>新增下列網路研討會的影片：<ul><li>使用 [!DNL Adobe Target] 的即時個人化</li></ul> |
-|  | [內容安全性原則 (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank}。  | 新增常見問題區段。 |
+|  | [內容安全性原則 (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank}。  | 新增常見問題區段。 |
 |  | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台 (2022 年 5 月 11 日至 13 日) 版本的資訊。 |
 
 ## Adobe Target Standard/Premium 22.4.1 (4 月 28 日)
@@ -181,12 +181,12 @@ ht-degree: 100%
 | --- | --- | --- |
 | 1 月 31 日 | [Target 版本注意事項 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.2.1 版的搶鮮版資訊。 |
 | 1 月 28 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 at.js 2.8.1 版的資訊。 |
-|  | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。  | 已新增關於 at.js 2.8.1 版的資訊。 |
+|  | [at.js 版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。  | 已新增關於 at.js 2.8.1 版的資訊。 |
 | 1 月 27 日 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 已更新主題並新增了 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的相關資訊。 |
 | 1 月 26 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.1.2 版的資訊。 |
 |  | [建立對象](/help/main/c-target/c-audiences/audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
 |  | [合併多個對象](/help/main/c-target/combining-multiple-audiences.md) | 已新增 [!DNL Adobe Experience Platform] 對象的相關資訊。 |
-| 1 月 21 日 | [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。  | 已新增關於 at.js 1.8.3 版的資訊。 |
-| 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立對象」 |
+| 1 月 21 日 | [at.js 版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。  | 已新增關於 at.js 1.8.3 版的資訊。 |
+| 1 月 19 日 | [從 at.js 1.*x* 升級為 at.js 2.*x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增下列章節：「at.js 2.*x* 不支援使用 vst.* 參數來建立對象」 |
 | 1 月 12 日 | [Target 版本注意事項 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!DNL Target Standard/Premium] 22.1.1 版的資訊。 |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 已新增教學課程的連結，其中包括如何使用 Web SDK 來實作 [!DNL Adobe Experience Cloud] 的說明。 |
+|  | [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 已新增教學課程的連結，其中包括如何使用 Web SDK 來實作 [!DNL Adobe Experience Cloud] 的說明。 |

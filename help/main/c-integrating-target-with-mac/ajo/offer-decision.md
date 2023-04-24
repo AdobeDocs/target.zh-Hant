@@ -4,10 +4,10 @@ description: 了解如何新增中建立的優惠方案決策 [!DNL Adobe Journe
 title: 如何使用選件決策？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 2%
+source-wordcount: '1018'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 若要在中使用優惠方案決策 [!DNL Target]，您需要下列項目：
 
-* [!DNL Adobe Target Standard] 或 [!DNL Adobe Target Premium] 使用實作 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+* [!DNL Adobe Target Standard] 或 [!DNL Adobe Target Premium] 使用實作 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
    實作時無法使用此功能 [!DNL Target] 搭配at.js或其他 [!DNL Target] SDK。
 
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 處理優惠方案決策時，請考量下列資訊：
 
-* offer decisioning整合適用於 [!DNL Target] 根據 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. 實作時無法使用此功能 [!DNL Target] 搭配at.js或其他 [!DNL Target] SDK。
+* offer decisioning整合適用於 [!DNL Target] 根據 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 實作時無法使用此功能 [!DNL Target] 搭配at.js或其他 [!DNL Target] SDK。
 
 * 此 [!DNL Target]/[!DNL Adobe Journey Optimizer] 整合支援 [手動 [!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types) 和 [[!UICONTROL 體驗鎖定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動類型。
 

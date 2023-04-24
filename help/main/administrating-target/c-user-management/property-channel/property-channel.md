@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3213'
 ht-degree: 57%
 
 ---
@@ -252,13 +252,13 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
    在未來的版本中，Target 將處理不存在 `at_property` Token 的頁面或存在不同的 `at_property` Token 的頁面。
 
-* [Adobe I/O API 呼叫](https://developer.adobe.com/target/){target=_blank}不支援「企業使用者權限」功能。
+* Adobe I/O API 呼叫不支援「企業使用者權限」功能。
 
 ## 常見問題集 {#faqs}
 
 企業權限相關常見問題集包括下列內容:
 
-### 如果使用者擁有多個角色和權限，會發生什麼事？ [#multiple-roles]
+### 如果使用者具有多個角色和權限，會如何？[#multiple-roles]
 
 如果使用者有多個角色和權限，則會套用具有較高權限的角色。 例如，若使用者已 [!UICONTROL 觀察者] 和 [!UICONTROL 核准者] 角色， [!UICONTROL 核准者] 角色。
 

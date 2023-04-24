@@ -4,9 +4,9 @@ description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target]
 title: 如何疑難排解增強體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '451'
 ht-degree: 38%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 38%
 
    **補救：** 允許列出上述IP位址。
 
-* **問題：** 允許列出IP位址，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。 [!DNL Target] 18.4.1（2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS（傳輸層安全性）加密變更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
+* **問題：** 允許列出IP位址，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。 [!DNL Target] 18.4.1（2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS（傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
    **解決方案:**[!UICONTROL  請參閱下列問題: 增強可視化體驗撰寫器不會在我使用 TLS 1.2 的網站上安全頁面中載入。]
 
 ## EEC 不會在我使用 TLS 1.0 的網站上安全頁面中載入。(僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-您可能會看到上述的錯誤訊息，如 [!UICONTROL 增強可視化體驗撰寫器] 不會載入到我網站上的安全頁面上。」 若已允許上述IP位址，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。 [!DNL Target] 18.4.1（2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS（傳輸層安全性）加密變更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
+您可能會看到上述的錯誤訊息，如 [!UICONTROL 增強可視化體驗撰寫器] 不會載入到我網站上的安全頁面上。」 若已允許上述IP位址，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。 [!DNL Target] 18.4.1（2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS（傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
 
@@ -66,7 +66,7 @@ ht-degree: 38%
 
    ![firefox_more_info_3影像](assets/firefox_more_info_3.png)
 
-1. 若您發現您的網站顯示TLS 1.0，請參閱 [TLS（傳輸層安全性）加密變更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}，請聯繫 [客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 以使用您的TLS版本和網域進行設定。
+1. 若您發現您的網站顯示TLS 1.0，請參閱 [TLS（傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}，請聯繫 [客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 以使用您的TLS版本和網域進行設定。
 
 ## 載入已啟用 Proxy 的網站時，我看到逾時或「拒絕存取」錯誤。(僅限 EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 

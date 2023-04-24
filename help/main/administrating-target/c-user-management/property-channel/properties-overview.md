@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1448'
 ht-degree: 66%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 66%
 
 ### 取得您的工作區ID {#workspace-id}
 
-您必須傳遞Workspace ID，才能在 [Target API](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+您必須傳遞Workspace ID，才能在 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. 在 [Adobe Admin Console](https://adminconsole.adobe.com)/tw 中，按一下[!UICONTROL 產品]標籤，然後按一下左側功能表中的產品，以顯示 PLC(workspace) 清單。
 1. 按一下想要的 PLC(workspace)，然後在 URL 中找出「設定檔」ID，如下所示。
@@ -159,7 +159,7 @@ ht-degree: 66%
       </script>
       ```
 
-      如需如何對at.js執行此動作的詳細資訊，請參閱 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
+      如需如何對at.js執行此動作的詳細資訊，請參閱 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
 ## 步驟6:指定角色和權限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

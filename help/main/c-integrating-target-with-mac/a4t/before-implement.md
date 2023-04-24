@@ -4,10 +4,10 @@ description: 了解Analytics的實作需求，適用於 [!DNL Target] (A4T)以�
 title: 實作A4T之前應該知道什麼？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 28%
+source-wordcount: '988'
+ht-degree: 26%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->下列需求列出 *最小* 實作A4T所需的at.js版本。 此 [!DNL Target] team只維護兩個版本 [!DNL at.js] — 當前版本和次新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每個版本包含內容的詳細資訊，請參閱 [at.js版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+>下列需求列出 *最小* 實作A4T所需的at.js版本。 此 [!DNL Target] team只維護兩個版本 [!DNL at.js] — 當前版本和次新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每個版本包含內容的詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### *不*&#x200B;搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -41,7 +41,7 @@ ht-degree: 28%
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
-如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ### 搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -59,7 +59,7 @@ ht-degree: 28%
 
 下載和部署指示列於 [Analytics for Target實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+如需使用實作A4T的相關資訊， [!DNL Platform Web SDK]，請參閱 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ## 實施前須知 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

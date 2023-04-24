@@ -4,9 +4,9 @@ description: 針對使用Analytics時使用重新導向選件的問題，尋找�
 title: 哪裡可以找到有關使用A4T重新導向選件的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1470'
 ht-degree: 46%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 46%
 
 +++回答在設定的活動中使用重新導向選件時，有限數量的客戶回報流量分佈的較高變異程度 [!UICONTROL Analytics for Target] (A4T)。
 
-考慮以下事項:
+考慮以下事項：
 
 * 順序不正確 [!DNL Target] 和 [!DNL Analytics] 呼叫可能會導致較高的差異程度。
 
@@ -58,7 +58,7 @@ ht-degree: 46%
 
 ## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-+++答案使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並非問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級at.js，以確保您執行的 [支援的版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
++++答案使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並非問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級at.js，以確保您執行的 [支援的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 如果您使用不支援的較舊 at.js 版本，可能會發生競爭條件，而可能導致 Analytics 呼叫在重新導向於第一個頁面上執行前引發。此情況可能會導致將原始頁面和重新導向頁面上的頁面檢視全部計入。 此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 
