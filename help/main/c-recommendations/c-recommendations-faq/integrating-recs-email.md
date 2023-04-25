@@ -5,10 +5,10 @@ title: 如何將 Recommendations 與電子郵件整合？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 97%
+source-wordcount: '1715'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >各電子郵件收件者 (例如，針對每個 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供唯一值。 如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的許多事件而變得緩慢或失敗。
 
-如需詳細資訊，請參閱[傳送 API 文件](https://developer.adobe.com/target/implement/delivery-api/)。{target=_blank}
+如需詳細資訊，請參閱[傳送 API 文件](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html)。{target=_blank}
 
 ## 方法 2：使用 rawbox 電子郵件範本 {#rawbox}
 

@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 如何使用實體屬性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1080'
 ht-degree: 55%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 55%
 
 [!DNL Recommendations] 會傳送演算法中所用的 `productId` 或 `productPurchasedId` (即程式碼中的 `entity.id`)。
 
-考慮以下事項:
+考慮以下事項：
 
 * `entity.id` 必須符合 `productPurchasedId` 傳送至訂單確認頁面及 `productId` 用於 [!DNL Adobe Analytics] 產品報表。
 * 傳遞至的實體屬性值 [!DNL Recommendations] 61天後過期。 Adobe建議您將每個實體屬性的最新值傳遞至 [!DNL Recommendations] 每月至少一次。
@@ -31,7 +31,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->如果您使用at.js 2.*x*, `mboxCreate` （如下列範例所用）不再受支援。 若要傳遞產品或內容資訊至 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+>如果您使用at.js 2.*x*, `mboxCreate` （如下列範例所用）不再受支援。 若要傳遞產品或內容資訊至 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

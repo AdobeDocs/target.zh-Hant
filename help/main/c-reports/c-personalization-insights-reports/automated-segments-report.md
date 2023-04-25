@@ -5,10 +5,10 @@ title: 什麼是「自動化區段」報表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 73%
+source-wordcount: '2142'
+ht-degree: 72%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 73%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 **何謂自動化區段?**
 

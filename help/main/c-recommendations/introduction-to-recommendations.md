@@ -5,10 +5,10 @@ title: 什麼是 Recommendations 活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 91%
+source-wordcount: '2114'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與您的內容無關，您可能想要追蹤不同類型的轉換事件，例如下載PDF、完成調查、訂閱電子報、觀看影片等。
 
-如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員（例如中的標籤）進行此設定 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 您也可以將離線或應用程式內的互動傳送至 [!DNL Target] 透過即時API。
+如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員（例如中的標籤）進行此設定 [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 您也可以將離線或應用程式內的互動傳送至 [!DNL Target] 透過即時API。
 
 ### 透過正確的內容取得建議
 

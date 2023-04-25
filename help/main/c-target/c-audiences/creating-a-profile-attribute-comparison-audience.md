@@ -4,10 +4,10 @@ description: 了解如何定義受眾以比較兩個設定檔屬性。
 title: 我可以比較兩個設定檔屬性以用於對象嗎？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 63%
+ht-degree: 58%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 63%
 
 對象是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。如果您包含的其中一個規則使用 [!UICONTROL 訪客資料] 類別中，您可以根據訪客設定檔屬性的特定值定義規則，或將該屬性的值與其他訪客設定檔屬性進行比較。
 
-舉例來說，假設您服務於一間家具公司，上傳了兩個客戶傾向分數至 [!DNL Target]:
+例如，假設您為家具公司工作，並將兩個客戶傾向分數上傳至 [!DNL Target]:
 
 * 在接下來 90 天內購買餐廳家具的可能性
 * 在接下來 90 天內購買客廳家具的可能性
 
 您可以建立一個對象，定義成購買餐廳家具的傾向大於購買客廳家具的傾向。[!DNL Target] 便會動態比較特定訪客在餐廳與客廳上的傾向分數，判斷該訪客是否符合此對象。
 
-如需詳細資訊，請參閱 [將資料傳入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。
+如需詳細資訊，請參閱 [將資料傳入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## 建立設定檔屬性比較對象 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

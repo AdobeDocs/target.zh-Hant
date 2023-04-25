@@ -5,7 +5,7 @@ title: 如何讓建議以建議金鑰為依據？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ ht-degree: 37%
 
 ## 購物車型 {#cart-based}
 
-此 [!UICONTROL 購物車型] 演算法類型可讓您根據訪客目前購物車的內容來建議項目。 建議索引鍵是透過 [mbox參數 `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} 值。 僅考慮前 10 個值。
+此 [!UICONTROL 購物車型] 演算法類型可讓您根據訪客目前購物車的內容來建議項目。 建議索引鍵是透過 [mbox參數 `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 值。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於「[!UICONTROL 建議您]&quot;基於用戶的算法和到&quot;[!UICONTROL 瀏覽過這些、也購買了的人]&quot;和&quot;[!UICONTROL 購買、購買的人]」項目型演算法。
 

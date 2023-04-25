@@ -4,9 +4,9 @@ description: 了解如何在 [!DNL Adobe Target].
 title: 如何使用對象清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '818'
 ht-degree: 31%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >此 [!DNL Adobe Experience Platform] 來源可供所有使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. 可用對象 [!DNL Adobe Experience Platform] 可原樣使用或 [結合現有對象](/help/main/c-target/combining-multiple-audiences.md).
+   >此 [!DNL Adobe Experience Platform] 來源可供所有使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 可用對象 [!DNL Adobe Experience Platform] 可原樣使用或 [結合現有對象](/help/main/c-target/combining-multiple-audiences.md).
    >
    >使用者必須 [!UICONTROL 核准者] 或高於狀態 [!DNL Target] 設定 [!DNL Target] [!UICONTROL 目的地] AEP/RTCDP中的卡([!DNL Real-time Customer Data Platform])。
    >
@@ -105,9 +105,9 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
-## 使用對象來自 [!DNL Adobe Experience Platform] {#aep}
+## 使用來自 [!DNL Adobe Experience Platform] 的對象 {#aep}
 
-使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。
+使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，進而帶來更具影響力的個人化。 
 
 如需詳細資訊，請參閱 [使用對象來自 [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 

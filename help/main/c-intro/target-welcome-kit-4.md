@@ -4,7 +4,7 @@ description: 閱讀我們的專家小組所提供有關使用 Adobe [!DNL Target
 title: 何處可以找到有關使用 Target 的提示和訣竅？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 73%
@@ -25,7 +25,7 @@ ht-degree: 73%
 
 **很高興知道**：由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增 CRM 或購買的資料。這表示您可以選擇最適合您組織的方法。
 
-請參閱 [將資料傳入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}以取得詳細資訊。
+如需詳細資訊，請參閱[將資料匯入 Target 的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html)。{target=_blank}
 
 ## 提示 2：將 [!DNL Target] 對象與其他 Adobe Experience Cloud 對象混合，以實現更深度的個人化。
 

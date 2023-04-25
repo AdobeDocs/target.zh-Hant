@@ -5,10 +5,10 @@ title: 如何在Recommendations活動中使用集合？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 60%
+source-wordcount: '884'
+ht-degree: 59%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 60%
 
    ![暫留圖示：編輯、複製和刪除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](https://developer.adobe.com/target/implement/recommendations/)，瞭解如何變更預設主機群組。{target=_blank}
+   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html)，瞭解如何變更預設主機群組。{target=_blank}
 
 1. 按一下&#x200B;**[!UICONTROL 「建立集合」]**。
 

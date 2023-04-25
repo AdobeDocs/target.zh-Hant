@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 如何運作，包括 JavaScript 資料
 title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
-workflow-type: ht
-source-wordcount: '2562'
-ht-degree: 100%
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+workflow-type: tm+mt
+source-wordcount: '2565'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 100%
 
 [!DNL Target] 整合使用 [!DNL Experience Platform Web SDK] 或 at.js 的網站：
 
-* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} 是新的用戶端 JavaScript 程式庫。[!DNL Experience Platform Web SDK] 可讓 [!DNL Adobe Experience Cloud] 的客戶透過 [!DNL Experience Platform] Edge Network，與 [!DNL Experience Cloud] (包括 [!DNL Target]) 中的各種服務互動。[!DNL Adobe] 建議所有的新 [!DNL Target] 客戶實作 [!DNL Experience Platform Web SDK]。
-* **at.js：** at.js 程式庫是 [!DNL Target] 的實作程式庫。at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 經常更新以包含新功能。[!DNL Adobe] 建議所有使用 at.js 的客戶更新其實作至 [at.js 最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 是新的用戶端 JavaScript 程式庫。[!DNL Experience Platform Web SDK] 可讓 [!DNL Adobe Experience Cloud] 的客戶透過 [!DNL Experience Platform] Edge Network，與 [!DNL Experience Cloud] (包括 [!DNL Target]) 中的各種服務互動。[!DNL Adobe] 建議所有的新 [!DNL Target] 客戶實作 [!DNL Experience Platform Web SDK]。
+* **at.js：** at.js 程式庫是 [!DNL Target] 的實作程式庫。at.js 程式庫可加快網頁實作的頁面載入速度，並為單頁應用程式提供更好的實作選項。 at.js 經常更新以包含新功能。[!DNL Adobe] 建議所有使用 at.js 的客戶更新其實作至 [at.js 最新版本](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ ht-degree: 100%
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
-* [[!DNL Adobe Experience Platform Web SDK] 副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hant)
-* 使用[ [!DNL Target] 實作 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+* [[!DNL Adobe Experience Platform Web SDK] 副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* 使用[ [!DNL Target] 實作 [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 每次訪客要求已針對 [!DNL Target] 最佳化的頁面時，都會傳送請求至目標定位系統。該請求有助於判斷要為該訪客提供哪些內容。此過程會即時進行。每次載入頁面時，系統會提出內容請求並履行。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。所提供的內容是每位網站訪客最有可能回應、互動或最終購買的內容。個人化內容可協助將回應率、贏取率和收入最大化。
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 >
 >[!DNL Adobe Target] 目前在中國沒有邊緣叢集，且中國 [!DNL Target] 客戶的訪客成效仍有限。由於中國境內的防火牆和缺乏邊緣叢集，部署了 [!DNL Target] 的網站體驗可能會受到影響。體驗的呈現速度可能緩慢，而頁面載入也會受到影響。此外，行銷人員在使用 [!DNL Target] 編寫 UI 時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣叢集。 如需更多資訊，請參閱[允許列出 Target 邊緣節點](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣叢集。 如需更多資訊，請參閱[允許列出 Target 邊緣節點](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}。
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

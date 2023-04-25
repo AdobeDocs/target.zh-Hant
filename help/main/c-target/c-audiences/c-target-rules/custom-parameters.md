@@ -4,10 +4,10 @@ description: 了解如何將自訂參數傳遞至 [!DNL Adobe Target] 用於對�
 title: 我可以根據自訂參數定位訪客嗎？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 40%
+source-wordcount: '495'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 自訂參數是 [!DNL Adobe Target]. 如果您將任何mbox參數傳遞至mbox，或使用 `targetPageParams` 函式中，這些參數會顯示在此以用於對象。
 
-如需詳細資訊，請參閱 [傳遞參數至全域mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。
+如需詳細資訊，請參閱 [傳遞參數至全域mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 當您根據 mbox 參數建立自訂對象時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
@@ -32,7 +32,7 @@ ht-degree: 40%
 
    >[!NOTE]
    >
-   >您從 [!UICONTROL 篩選依據] 建立活動時不會儲存下拉式清單。 此選項可讓您根據選取的mbox來篩選參數。
+   >您從 [!UICONTROL 篩選依據] 建立活動時不會儲存下拉式清單。 此選項可讓您根據選取的 mbox 篩選參數。
 
    如果您編輯現有對象，篩選條件會並陳在建立期間提供的 mbox 名稱。
 

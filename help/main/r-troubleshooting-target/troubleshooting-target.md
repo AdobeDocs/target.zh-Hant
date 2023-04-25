@@ -4,10 +4,10 @@ description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，�
 title: 如何疑難排解 Target？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 87%
+source-wordcount: '508'
+ht-degree: 82%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 87%
 
 ## 全域 mbox
 
-* [全域 mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [全域 mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## 主機/環境
 
@@ -108,23 +108,23 @@ ht-degree: 87%
 
 ### 一般實施
 
-* [受支援的瀏覽器](https://developer.adobe.com/target/before-implement/supported-browsers/)
-* [使用雲端型例項搭配 Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
+* [受支援的瀏覽器](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [使用雲端型例項搭配 Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### 全域 mbox
 
-* [全域 mbox 常見問答](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [全域 mbox 常見問答](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js 常見問答](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
-* [使用 Adobe Experience Cloud Debugger 除錯 at.js](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
-* [at.js 版本詳細資料](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
+* [at.js 常見問答](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [使用 Adobe Experience Cloud Debugger 除錯 at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [at.js 版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。
 
 ## 行動應用程式
 
-* [適用於行動應用程式的 Target 常見問題](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
+* [適用於行動應用程式的 Target 常見問題](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## 報表
 
@@ -133,11 +133,11 @@ ht-degree: 87%
 
 ## 搜尋引擎最佳化 (SEO)
 
-* [搜尋引擎最佳化 (SEO) 友善測試](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [搜尋引擎最佳化 (SEO) 友善測試](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## 安全性
 
-* [內容安全性原則 (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
+* [內容安全性原則 (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## 系統狀態
 

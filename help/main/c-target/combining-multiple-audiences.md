@@ -4,10 +4,10 @@ description: 了解如何合併多個對象(包括Adobe Experience Cloud對象�
 title: 我可以合併多個對象以建立新對象嗎？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 64%
+source-wordcount: '961'
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->此 [!DNL Adobe Experience Platform] 來源可供所有使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。 可用對象 [!DNL Adobe Experience Platform] 可依原樣使用，或與現有對象結合，如本主題所述。
+>此 [!DNL Adobe Experience Platform] 來源可供所有使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 可用對象 [!DNL Adobe Experience Platform] 可依原樣使用，或與現有對象結合，如本主題所述。
 >
 >如需詳細資訊，請參閱 [使用來自Adobe Experience Platform的對象](/help/main/c-target/c-audiences/audiences.md#aep).
 

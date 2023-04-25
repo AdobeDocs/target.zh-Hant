@@ -5,10 +5,10 @@ title: 如何建立Recommendations活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 76%
+source-wordcount: '1313'
+ht-degree: 75%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 76%
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。視您的「Recommendations」設定 ([!UICONTROL 「Recommendations] > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示&#x200B;**[!UICONTROL 「相容」]**&#x200B;選項。如需詳細資訊，請參閱 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。視您的「Recommendations」設定 ([!UICONTROL 「Recommendations] > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件」]**) 而定，系統可能不會顯示&#x200B;**[!UICONTROL 「相容」]**&#x200B;選項。如需詳細資訊，請參閱 [設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
