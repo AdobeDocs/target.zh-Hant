@@ -5,7 +5,7 @@ title: 如何在Recommendations中建立條件？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: b5fbf23e9c2dfd76565fd6287ae07df2b7df2e21
 workflow-type: tm+mt
 source-wordcount: '2842'
 ht-degree: 53%
@@ -122,7 +122,7 @@ ht-degree: 53%
 
    可用的資料範圍為:
 
-   | 回顧期間選項 | 更新頻率（暫留時顯示） | 支援的alogrims |
+   | 回顧期間選項 | 更新頻率（暫留時顯示） | 支援的演算法 |
    | --- | --- | --- |
    | 六小時 | 演算法每3到6小時執行一次 | [!UICONTROL 人氣] 選取時的演算法 [!UICONTROL 行為資料來源] is [!DNL Adobe Target] |
    | 一天 | 演算法每12到24小時執行一次 | [!UICONTROL 人氣] 算法 |
