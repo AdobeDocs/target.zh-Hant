@@ -2,25 +2,18 @@
 keywords: 體驗;JSON;AEM;Adobe Experience Manager;匯出至 Adobe Target;內容片段;片段;CF;cf;headless;個人化;實驗
 description: 了解如何在  [!DNL Adobe Target]  活動中使用 [!DNL Adobe Experience Manager] [!UICONTROL 內容片段]。
 title: 我如何使用  [!DNL Adobe Experience Manager]  (AEM) [!UICONTROL 內容片段]？
-badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # AEM [!UICONTROL 內容片段]
 
 在 [!DNL Target] 活動中使用 [!DNL Adobe Experience Manager] (AEM) 中建立的[!UICONTROL 內容片段] (CF)，以協助 Headless 個人化和實驗。
-
->[!NOTE]
->
->此功能於 2023 年 4 月 12 日以預發布功能提供。 由於是預先發佈的功能，您可以在開發和中繼環境中嘗試使用[!UICONTROL 內容片段]，但不能在生產環境中使用。
->
->此功能將於 2023 年 4 月 26 日在 GA (全面發佈) 版本中提供。
 
 ## 考量事項
 
@@ -32,7 +25,7 @@ ht-degree: 100%
    * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL 自動個人化]&#8203;(AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL 自動個人化](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]不適用於以下活動類型：
