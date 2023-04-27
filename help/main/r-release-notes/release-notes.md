@@ -6,9 +6,9 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 80%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 80%
 |--- |--- |
 | 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱 [AEM [!UICONTROL 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。 |
 | 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。<p>**注意**:此功能將於2023年5月9日開放所有客戶使用。 |
-| [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 此 *Adobe Target開發人員指南* 已遷移到 *[!UICONTROL Adobe Experience League]*. 移至 *[!UICONTROL Experience League]* 輔助以其他語言定位文本，統一搜索 *Experience League* 為 *[!UICONTROL Adobe Target Business Proficer Guide]* 和 *[!UICONTROL Adobe Target開發人員指南]*，並提供其他優點。<P>系統會將您從上一個位置重新導向至 *[!UICONTROL Experience League]* 自動。 請視需要更新您的書籤。 |
+| [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 此 *Adobe Target開發人員指南* 已遷移到 *[!UICONTROL Adobe Experience League]*. 移至 *[!UICONTROL Experience League]* 輔助以其他語言定位文本，統一搜索 *Experience League* 來跨度和選件搜尋結果， *[!UICONTROL Adobe Target Business Proficer Guide]* 和 *[!UICONTROL Adobe Target開發人員指南]*，並提供其他優點。<P>系統會將您從上一個位置重新導向至 *[!UICONTROL Experience League]* 自動。 請視需要更新您的書籤。 |
 
 ## 額外的版本注意事項和版本詳細資料
 

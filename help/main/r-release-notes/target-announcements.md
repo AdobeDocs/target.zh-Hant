@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 90%
+source-wordcount: '1843'
+ht-degree: 100%
 
 ---
 
@@ -21,55 +21,11 @@ Gartner 在其針對個人化引擎 (PE) 提出的最新魔力象限報告中連
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 部落格文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!UICONTROL Adobe Target社群] 茶歇問答：驗證環境的行動體驗最佳化和個人化
-
-* **2023 年 4 月 26 日，星期三**
-* **下午1:00(EDT, UTC-4)**
-* **[報名資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
-
-加入 [!DNL Adobe Target] 營銷經理Brent Kostak，討論如何 [!DNL Target] 和 [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP)可促進受管制行業內提高的參與度、收入和客戶忠誠度。
-
-+++詳細資料
-
-品牌需要根據特定客戶需求和行為，提供高度個人化且相關的體驗。 受監管的產業對於行銷技術中沒有Cookie的未來有所疑問，它們希望採用更健全的客戶參與架構，同時針對適當的內容和優惠方案，最佳化每個客戶的互動。
-
-跨金融服務和保險、零售、旅行和招待以及電信行業的品牌如何採用最佳實務，在已驗證的環境中最佳化和個人化？ 了解行動應用程式對於忠誠客戶參與和保留的重要性，品牌如何透過個人化體驗啟用數位自助服務，或增加新功能的採用率？
-
-在本課程中，了解如何 [!DNL Target] 和 [!DNL Real-Time Customer Data Platform] 可以促進受管制行業內參與度、收入和客戶忠誠度的提升，如前所述：
-
-* 團隊如何為匿名和已驗證的訪客提供個人化體驗
-* 透過個人化了解消費者權限和隱私權標準
-* 透過匿名身分識別，為已驗證的訪客提供個人化內容與優惠方案
-* Web和行動裝置上已驗證、安全的網站的不重複使用案例
-
-+++
-
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
 報名參加以下網絡研討會，了解客戶如何使用 [!DNL Target] 實現其個人化和最佳化目標：
 
-### 每次都提供個人化的客戶體驗！
-
-* **2023 年 4 月 27 日 (星期四)**
-* **上午 9:00 至 10:00 (英國夏令時，GMT +1)，上午 10:00 至 11:00 (中歐夏令時，GMT +2)**
-* **[報名資訊](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
-
-以 [!DNL Adobe Target] 的強大測試和個人化功能領先客戶。透過在 Web、行動和數位裝置上提供動態內容體驗，確保隨時讓客戶使用您的服務。
-
-+++詳細資料
-
-網絡研討會將涵蓋：
-
-* 為什麼個人化是任何策略的關鍵部分
-* 識別和使用不同的活動類型
-* 聚焦 - 行業使用案例
-* 推動個人化的建議
-* [!DNL Target] 使手者介面示範，重點提示
-   * 建立對象
-   * 設定[!UICONTROL 體驗鎖定目標] (XT) 活動
-   * 設定[!UICONTROL 自動鎖定目標]和[!UICONTROL 自動個人化]活動
-
-+++
+目前沒有排程。
 
 ## 先前網路研討會和 Skill Builders 研討會錄影
 
