@@ -5,9 +5,9 @@ title: 什麼是個人資料屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2455'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱 [傳遞參數至全域mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過 50 個個人資料屬性給 [!DNL Target]，請使用個人資料更新 API 方法來傳遞。 如需詳細資訊，請參閱[個人資料更新 (在  [!DNL Adobe Target] API 文件](https://developers.adobetarget.com/api/#updating-profiles)中)。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱 [傳遞參數至全域 Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<br>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過 50 個個人資料屬性給 [!DNL Target]，請使用個人資料更新 API 方法來傳遞。 如需詳細資訊，請參閱[個人資料更新 (在  [!DNL Adobe Target] API 文件](https://developers.adobetarget.com/api/#updating-profiles)中)。 |
    | 個人資料 | 直接使用 JavaScript 程式碼片段定義。 這些片段可儲存像是消費者總花費金額等累積總計，並在每個 mbox 要求上執行。 請參閱底下的「個人資料指令碼屬性」。 |
 
 ## 個人資料指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否能夠使用個人資料指令碼從資料層中的頁面擷取資訊?**
 
-由於設定檔指令碼於伺服器端執行，因此其無法直接讀取頁面。必須透過 mbox 要求或其他 [將資料傳入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. 將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
+由於設定檔指令碼於伺服器端執行，因此其無法直接讀取頁面。必須透過 mbox 要求或其他 [將資料傳入 Target 的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}傳遞資料。將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
 
 ## 指令碼個人資料參數的 JavaScript 參考資料
 
@@ -246,14 +246,14 @@ else if (mbox.param("adobeQA"))
 | `page.url` | 目前的 URL。 |
 | `page.protocol` | 用於頁面的通訊協定 (http 或 https)。 |
 | `page.domain` | 目前的 URL 網域 (第一個正斜線之前的所有內容)。例如，`http://www.acme.com/categories/men_jeans?color=blue&size=small` 中的 `www.acme.com`。 |
-| `page.query` | 目前頁面的查詢字串。「？」之後的所有內容。 例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
-| `page.param('<par_name>')` | 由 `<par_name>` 指示之參數的值。如果您目前的URL是Google的搜尋頁面，而您已輸入 `page.param('hl')`，則URL會得到「en」 `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | 目前頁面的查詢字串。「?」之後的所有內容。例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
+| `page.param('<par_name>')` | 由 `<par_name>` 指示之參數的值。如果您目前的 URL 是 Google 的搜尋頁面，而您已經輸入 `page.param('hl')`，則就 URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` 而言會得到「en」。 |
 | `page.referrer` | 上述同一組作業適用於反向連結和登陸 (亦即，referrer.url 將會是反向連結的 URL 位址)。 |
 | `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 與頁面的該項目類似，但適用於登陸頁面。 |
 | `mbox.name` | 使用中的 mbox 名稱。 |
 | `mbox.param('<par_name>')` | 根據使用中 mbox 的指定名稱的 mbox 參數。 |
-| `profile.get('<par_name>')` | 根據 `<par_name>` 名稱之由用戶端建立的使用者個人資料參數。例如，如果使用者設定名為「性別」的設定檔參數，則可使用「profile.gender」擷取值。 傳回「`profile.<par_name>`「為目前的訪客設定；如果未設定值，則傳回null。 請注意，`profile.get(<par_name>)` 被限定為函數呼叫。 |
-| `user.get('<par_name>')` | 傳回「`user.<par_name>`「為目前的訪客設定；如果未設定值，則傳回null。 |
+| `profile.get('<par_name>')` | 根據 `<par_name>` 名稱之由用戶端建立的使用者個人資料參數。例如，如果使用者設定名為「性別」的個人資料參數，可使用「profile.gender」擷取此值。傳回為目前訪客設定的「`profile.<par_name>`」的值；如果沒有設定任何值，則會傳回 null。請注意，`profile.get(<par_name>)` 被限定為函數呼叫。 |
+| `user.get('<par_name>')` | 傳回為目前訪客設定的「`user.<par_name>`」的值；如果沒有設定任何值，則會傳回 null。 |
 | `user.categoryAffinity` | 傳回最佳類別的名稱。 |
 | `user.categoryAffinities` | 傳回具有最佳類別的陣列。 |
 | `user.isFirstSession` | 如果這是訪客的第一個工作階段，則會傳回 true。 |
@@ -272,8 +272,8 @@ else if (mbox.param("adobeQA"))
 | `>` | 代表左側的變數大於右側的變數。 如果變數相等，則運算結果為 false。 |
 | `<=` | 與 `<` 相同，但如果變數相等，則運算結果為 true。 |
 | `>=` | 與 `>` 相同，但如果變數相等，則運算結果為 true。 |
-| `&&` | 邏輯上，「AND」左側和右側的運算式，只有在兩側皆為true時，才會是true（否則則為false）。 |
-| `||` | 邏輯上，「OR」左側和右側的運算式，只有當其中一側為true時，才會是true（否則則為false）。 |
+| `&&` | 邏輯上，「AND」左側和右側的運算式，只有在兩側皆為 true 時，才會是 true (否則為 false)。 |
+| `||` | 邏輯上，「OR」左側和右側的運算式，只有在其中一側為 true 時，才會是 true (否則為 false)。 |
 | `//` | 檢查來源是否包含目標布林值包含的所有元素 (陣列來源、陣列目標)。<br>`//` 會從 Target 擷取子字串 (對應至 regexp)，然後將其解碼 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>此功能也支援使用常數字串值、分組 (`condition1 || condition2) && condition3`，以及規則運算式 (`/[^a-z]$/.test(landing.referring.url)`。 |
 
 ## 培訓影片：個人資料指令碼 ![教學課程徽章](/help/main/assets/tutorial.png)
