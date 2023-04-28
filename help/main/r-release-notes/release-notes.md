@@ -9,13 +9,13 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 80%
+ht-degree: 85%
 
 ---
 
 # [!DNL Target] 發行說明 (最新)
 
-這些版本注意事項提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的版本注意事項以及其他平台變更 (如適用)。
+這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
@@ -26,25 +26,25 @@ ht-degree: 80%
 | 功能 | 詳細資料 |
 |--- |--- |
 | 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱 [AEM [!UICONTROL 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。 |
-| 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。<p>**注意**:此功能將於2023年5月9日開放所有客戶使用。 |
+| 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。<p>**注意**：此功能將於 2023 年 5 月 9 日提供給所有客戶使用。 |
 | [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 此 *Adobe Target開發人員指南* 已遷移到 *[!UICONTROL Adobe Experience League]*. 移至 *[!UICONTROL Experience League]* 輔助以其他語言定位文本，統一搜索 *Experience League* 來跨度和選件搜尋結果， *[!UICONTROL Adobe Target Business Proficer Guide]* 和 *[!UICONTROL Adobe Target開發人員指南]*，並提供其他優點。<P>系統會將您從上一個位置重新導向至 *[!UICONTROL Experience League]* 自動。 請視需要更新您的書籤。 |
 
-## 額外的版本注意事項和版本詳細資料
+## 額外的發行說明和版本詳細資料
 
 | 資源 | 詳細資料 |
 |--- |--- |
-| [版本注意事項：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
+| [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
 | [at.js 版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
-## 文件變更、過去的版本注意事項和 Experience Cloud 版本注意事項
+## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
 除了每次發行的說明，下列資源也提供額外資訊:
 
 | 資源 | 詳細資料 |
 |--- |--- |
-| [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些版本注意事項中的更新詳細資訊。 |
+| [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新版本注意事項。 |
+| [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -53,4 +53,4 @@ ht-degree: 80%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target=_blank} | 收到對 [!DNL Target] 以及其他 [!DNL Adobe Experience Cloud] 解決方案未來產品增強功能的提前通知。 |
-| [Target 版本注意事項 - 搶鮮版](/help/main/r-release-notes/target-release-notes.md){target=_blank} | 有關當月 Target 版本的資訊，包括搶鮮版資訊。 |
+| [Target 發行說明 - 搶鮮版](/help/main/r-release-notes/target-release-notes.md){target=_blank} | 有關當月 Target 版本的資訊，包括搶鮮版資訊。 |
