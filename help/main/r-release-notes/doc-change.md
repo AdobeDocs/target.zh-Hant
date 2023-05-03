@@ -21,7 +21,7 @@ ht-degree: 0%
 | --- | --- | --- |
 | 4 月 26 日 | [AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
 |  | [[!UICONTROL AEM 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
-|  | [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 此 *Adobe Target開發人員指南* 已遷移到 *[!UICONTROL Adobe Experience League]*. 移至 *[!UICONTROL Experience League]* 輔助以其他語言定位文本，統一搜索 *Experience League* 來跨度和選件搜尋結果， *[!UICONTROL Adobe Target Business Proficer Guide]* 和 *[!UICONTROL Adobe Target開發人員指南]*，並提供其他優點。<P>系統會將您從上一個位置重新導向至 *[!UICONTROL Experience League]* 自動。 請視需要更新您的書籤。 |
+|  | [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 開發人員指南*&#x200B;已移至 *[!UICONTROL Adobe Experience League]*。移至 *[!UICONTROL Experience League]* 可協助將文字當地語系化為其他語言，在 *Experience League* 中統一搜尋以提供來自 *[!UICONTROL Adobe Target 商務從業者指南]*&#x200B;和 *[!UICONTROL Adobe Target 開發人員指南]*&#x200B;的搜尋結果，並提供額外的好處。<P>您將從先前位置自動重新導向到 *[!UICONTROL Experience League]*。請視需要更新您的書籤。 |
 | 4 月 24 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關以下 Adobe Target 社群問答咖啡會的資訊：<ul><li>經驗證之環境的行動體驗最佳化和個人化</li></ul> |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.4.1 版的發行說明。 |
 
