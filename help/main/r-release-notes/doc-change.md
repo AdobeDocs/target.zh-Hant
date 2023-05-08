@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 5 月 3 日 | [檢視報告 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 新增下列常見問題：<ul><li>如何在 [!DNL Analysis Workspace] 使用 [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
+| 5 月 3 日 | [檢視報告 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 新增下列常見問題：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 時，如何在 [!DNL Analysis Workspace] 中追蹤活動曝光次數？</li></ul> |
 |  | [設定檔屬性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | 新增其他資訊至「landing.URL」列。 |
 | 4 月 26 日 | [AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
 |  | [[!UICONTROL AEM 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
@@ -41,7 +41,7 @@ ht-degree: 99%
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2023 年 4 月 12 日星期三 [!UICONTROL Adobe Target 社群]咖啡會的資訊。 |
 |  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 新增備註以將所有 [!DNL Adobe Analytics] IP 位址區塊加入允許清單。 |
 | 3 月 30 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已更新發行說明，關於發行為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]功能最佳化的 A4T 量度，可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，可根據二項式事件選擇量度，或根據連續事件選擇量度。 |
-|  | [[!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新「受支援目標量度」區段以包含使用 [!UICONTROL Analytics for Target] (A4T) 之[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的受支援 (和不受支援) 量度的資訊。 |
+|  | [[!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新「受支援目標量度」一節以包含使用 [!UICONTROL Analytics for Target] (A4T) 之[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的受支援 (和不受支援) 量度的資訊。 |
 |  | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 已更新下列教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 |  | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Adobe Experience Manager] (AEM) 和 [!DNL Adobe Target][!UICONTROL 內容片段]發行資訊。(2023 年 4 月 6 日) |
 | 3 月 28 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.3.1 版的發行說明。 |
@@ -50,8 +50,8 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-|  | [編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md) | 新增「最佳做法」區段。 |
-|  | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在「自訂程式碼疑難排解」區段中新增以下備註：<ul><li>當使用 `{page: false}` 做為選項呼叫 `triggerView()` 時，VEC 中的自訂程式碼選件不會重新呈現。</li></ul> |
+|  | [編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md) | 新增「最佳做法」一節。 |
+|  | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在「自訂程式碼疑難排解」一節中新增以下備註：<ul><li>當使用 `{page: false}` 做為選項呼叫 `triggerView()` 時，VEC 中的自訂程式碼選件不會重新呈現。</li></ul> |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 at.js 2.10.2 版的資訊。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.15.1 版的發行說明。 |
 
@@ -97,7 +97,7 @@ ht-degree: 99%
 |  | [Automated Personalization 常見問題](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新文字以表示雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。即使活動已啟用 [!UICONTROL 不允許重複項目] 選項，此限制亦適用。 |
 | 10 月 14 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 [!DNL Adobe Target] 社群問答咖啡會 (2022 年 10 月 26 日) 的資訊。 |
 | 10 月 10 日 | [[!UICONTROL Visual Editing Helper] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新文章。 |
-|  | [排解可視化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新「[我的頁面未在 VEC 中顯示 (僅限 VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」區段。 |
+|  | [排解可視化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新「[我的頁面未在 VEC 中顯示 (僅限 VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」一節。 |
 | 10 月 4 日 | [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新主題。<br>本文資訊取代了&#x200B;*Adobe Target 中 A/B 測試使用的計算* pdf 檔案 (先前可在此網站下載)。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.10.1 版的發行說明。 |
 
@@ -140,7 +140,7 @@ ht-degree: 99%
 |  | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增用來錄製以下網絡研討會的連結：Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日) |
 | 5 月 23 日 | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 at.js 2.9.0 版 (2022 年 5 月 25 日) 搶鮮版發行說明。 |
 | 5 月 11 日 | [Target 公告和活動](/help/main/r-release-notes/target-announcements.md#webinar-series) | 新增有關下列網路研討會的資訊與報名資訊：<ul><li>Dick&#39;s Sporting Goods：個人化及改變零售業格局</li><li>Adobe：個人化的業界內幕 - 金融服務業和保險業</li><li>City National Bank：如何在數位最佳化中成為排名 1% 的銀行</li><li>Adobe：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>City National Bank：Zero to Hero - 展開並擴展個人化方案</li><li>Adobe：發掘高影響力的最佳化機會</li><li>Adobe：個人化的業界內幕 - 零售業</li></ul>新增下列網路研討會的影片：<ul><li>使用 [!DNL Adobe Target] 的即時個人化</li></ul> |
-|  | [內容安全性原則 (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank}。  | 新增常見問題區段。 |
+|  | [內容安全性原則 (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank}。  | 新增「常見問題」一節。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增有關 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台 (2022 年 5 月 11 日至 13 日) 版本的資訊。 |
 
 ## Adobe Target Standard/Premium 22.4.1 (4 月 28 日)
