@@ -5,14 +5,14 @@ title: 如何在VEC中預覽Automated Personalization體驗？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: bfe25200407086680b2f2a4e9f33f8ec130c25ad
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# !可視化體驗撰寫器中自動個人化的預覽體驗
+# 可視化體驗撰寫器中自動個人化的預覽體驗
 
 因為 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活動會比較頁面上的多個選件，使用每個體驗預覽頁面很有幫助。
 
