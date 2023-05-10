@@ -4,9 +4,9 @@ description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動
 title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1271'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 7%
 A4T整合可讓您：
 
 * 使用 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 多臂吃角子老虎機功能，將流量帶往獲勝的體驗。
-* 使用 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 整體機器學習演算法，為每個訪客選擇最佳體驗。 [!UICONTROL 自動鎖定目標] 在使用 [!DNL Adobe Analytics] 目標量度和 [!DNL Adobe Analytics]「豐富的報告和分析功能。
+* 使用 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 整體機器學習演算法，為每個訪客選擇最佳體驗。 [!UICONTROL 自動鎖定目標] 根據每個使用者的設定檔、行為和內容來選擇最佳體驗，而所有使用 [!DNL Adobe Analytics] 目標量度，以及 [!DNL Adobe Analytics].
 
-請確定您 [實作A4T以搭配A/B測試和體驗鎖定目標活動使用](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，您也必須傳遞 `sessionId` 值 [!DNL Analytics]. 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 在 *Adobe Target SDK* 指南。
+確保您擁有 [實作A4T以搭配A/B測試和體驗鎖定目標活動使用](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，您也必須傳遞 `sessionId` 值 [!DNL Analytics]. 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 在 *Adobe Target開發人員指南*.
 
 若要開始執行:
 
@@ -110,7 +110,7 @@ A4T整合可讓您：
 
 * **訓練頻率**: [!UICONTROL 自動分配] 照常，模型繼續每小時進行訓練。
 * **歸因模型**: [!DNL Target] 使用 [!DNL Adobe Analytics] 預設歸因模型[!UICONTROL  自動分配] 使用A4T的活動。
-* **信賴度**:使用的信賴公式 [!UICONTROL 自動分配] 活動與中預設顯示的公式不同， [!DNL Adobe Analytics] [!UICONTROL A4T] 中。 [如此處所述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL 自動分配] 使用比規則更保守的信賴區間 [!UICONTROL A/B測試] 活動。 這些保守的信賴水準可補償資料的重複評估（窺視）。 因此， [!DNL Adobe Analytics] 會顯示較所用的信賴區間窄 [!UICONTROL 自動分配] 演算法。 不過，您可以根據哪些體驗會傳送更多不重複訪客給該體驗，來判斷演算法青睞哪個體驗。
+* **信賴度**:使用的信賴公式 [!UICONTROL 自動分配] 活動與中預設顯示的公式不同， [!DNL Adobe Analytics] [!UICONTROL A4T] 中。 [如此處所述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL 自動分配] 使用比規則更保守的信賴區間 [!UICONTROL A/B測試] 活動。 這些保守的信賴水準可補償資料的重複評估（窺視）。 因此， [!DNL Adobe Analytics] 會顯示較之所使用區間較窄的信賴區間 [!UICONTROL 自動分配] 演算法。 不過，您可以根據哪些體驗會傳送更多不重複訪客給該體驗，來判斷演算法青睞哪個體驗。
 * **獲勝者狀態**:目前， [「尚未有贏家」和「贏家」徽章](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) 在 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace]. 若在中檢視相同報表，則這些徽章也無法使用 [!DNL Target]. 優勝者「星號」徽章顯示於 [!DNL Target] 報表 [!UICONTROL 自動分配] 應忽略使用A4T的活動。 此徽章會反映一般信賴計算，而非 [!UICONTROL 自動分配].
 
 ### 自動鎖定目標 {#at}
