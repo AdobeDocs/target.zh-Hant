@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;使用 Analytics 作為 Target 的報告來源
+keywords: a4t;A4T;Analytics作為Target的報表來源；Analytics for Target
 description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動 [!DNL Target] 使用 [!DNL Analytics] 作為報表來源(A4T)時啟用。
 title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1268'
 ht-degree: 7%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 7%
 
 A4T整合可讓您：
 
-* 使用 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多臂吃角子老虎機功能，可將流量帶往獲勝的體驗。
-* 使用 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)的整體機器學習演算法，可為每個訪客選擇最佳體驗。 [!UICONTROL 自動鎖定目標] 在使用 [!DNL Adobe Analytics] 目標量度和 [!DNL Adobe Analytics]「豐富的報告和分析功能。
+* 使用 [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 多臂吃角子老虎機功能，將流量帶往獲勝的體驗。
+* 使用 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 整體機器學習演算法，為每個訪客選擇最佳體驗。 [!UICONTROL 自動鎖定目標] 在使用 [!DNL Adobe Analytics] 目標量度和 [!DNL Adobe Analytics]「豐富的報告和分析功能。
 
 請確定您 [實作A4T以搭配A/B測試和體驗鎖定目標活動使用](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，您也必須傳遞 `sessionId` 值 [!DNL Analytics]. 如需詳細資訊，請參閱 [Analytics for Target(A4T)報表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 在 *Adobe Target SDK* 指南。
 
