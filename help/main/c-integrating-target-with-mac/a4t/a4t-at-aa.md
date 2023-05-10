@@ -4,7 +4,7 @@ description: 了解如何建立 [!UICONTROL 自動分配] 和 [!UICONTROL 自動
 title: A4T支援嗎 [!UICONTROL 自動分配] 和 [!UICONTROL 自動鎖定目標] 活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -24,7 +24,7 @@ A4T整合可讓您：
 
 若要開始執行:
 
-1. 建立 [!UICONTROL A/B測試] 活動，在 **[!UICONTROL 定位]** 頁面中，選擇以下選項之一作為 **[!UICONTROL 流量分配方法]**:
+1. 同時 [建立 [!UICONTROL A/B測試] 活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)，在 **[!UICONTROL 定位]** 頁面中，選擇以下選項之一作為 **[!UICONTROL 流量分配方法]**:
 
    * [!UICONTROL 自動分配至最佳體驗]
    * [!UICONTROL 針對個人化體驗自動鎖定目標]
