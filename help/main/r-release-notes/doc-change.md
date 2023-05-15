@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 99%
+source-wordcount: '2678'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 5 月 4 日 | [設定Adobe Target API的驗證](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | 已新增附註，說明從JWT憑證移轉至OAuth伺服器對伺服器憑證的必要性。 |
 | 5 月 3 日 | [檢視報告 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 新增下列常見問題：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 時，如何在 [!DNL Analysis Workspace] 中追蹤活動曝光次數？</li></ul> |
 |  | [設定檔屬性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | 新增其他資訊至「landing.URL」列。 |
 | 4 月 26 日 | [AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
