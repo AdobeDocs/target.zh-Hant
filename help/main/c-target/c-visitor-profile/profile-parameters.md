@@ -4,10 +4,10 @@ description: 了解儲存在訪客個人資料中的訪客特有屬性，這些�
 title: 什麼是個人資料屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 98%
+source-wordcount: '2466'
+ht-degree: 100%
 
 ---
 
@@ -249,7 +249,7 @@ else if (mbox.param("adobeQA"))
 | `page.query` | 目前頁面的查詢字串。「?」之後的所有內容。例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
 | `page.param('<par_name>')` | 由 `<par_name>` 指示之參數的值。如果您目前的 URL 是 Google 的搜尋頁面，而您已經輸入 `page.param('hl')`，則就 URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` 而言會得到「en」。 |
 | `page.referrer` | 上述同一組作業適用於反向連結和登陸 (亦即，referrer.url 將會是反向連結的 URL 位址)。 |
-| `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 與頁面的該項目類似，但適用於登陸頁面。<P>若要讓登錄頁面URL如預期般運作，請設定 `context` > `browser` > `host`.<P>此外，您無法在工作階段的首次呼叫中擁有反向連結URL。 在後續呼叫中，請確定 `referringURL` 是使用者在目前工作階段上所造訪的上一個URL。<!-- KB-2092 --> |
+| `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 與頁面的該項目類似，但適用於登陸頁面。<P>若要登陸頁面 URL 如預期般運作，請設定 `context` > `browser` > `host`。 |
 | `mbox.name` | 使用中的 mbox 名稱。 |
 | `mbox.param('<par_name>')` | 根據使用中 mbox 的指定名稱的 mbox 參數。 |
 | `profile.get('<par_name>')` | 根據 `<par_name>` 名稱之由用戶端建立的使用者個人資料參數。例如，如果使用者設定名為「性別」的個人資料參數，可使用「profile.gender」擷取此值。傳回為目前訪客設定的「`profile.<par_name>`」的值；如果沒有設定任何值，則會傳回 null。請注意，`profile.get(<par_name>)` 被限定為函數呼叫。 |

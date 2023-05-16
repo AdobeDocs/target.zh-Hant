@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 如何使用實體屬性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 55%
 
 ---
@@ -79,7 +79,7 @@ mboxCreate('productPage',
 
 該必需的參數用於識別產品。該英數字元 ID 必須在所有使用的 [!DNL Adobe Experience Cloud] 產品中保持一致 (包括 [!DNL Analytics])，以便各種產品識別項目並共用相關資料。
 
-此 `entity.id` 值必須 *not* 包含斜線、&amp;符號、問號、百分比符號、逗號，或在REST API呼叫中傳入時需要URL編碼的其他標點符號字元。 可使用連字型大小和底線。 `entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
+此 `entity.id` 值必須 *not* 包含空格、斜線、&amp;符號、問號、百分比符號、逗號，或在REST API呼叫中傳入時需要URL編碼的其他標點符號字元。 可使用連字型大小和底線。 `entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
 
 範例: `'entity.id=67833'`
 
