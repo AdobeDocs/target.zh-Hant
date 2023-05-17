@@ -4,7 +4,7 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1bbfdf81353ca40c252e520ae5e7ac5cc9ac8eae
+source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 96%
@@ -21,7 +21,7 @@ ht-degree: 96%
 | --- | --- | --- |
 | 5 月 16 日 | [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md) | 指出中不允許使用「空格」 `entity.id` 值。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 已更新 `viewsEnabled` 說明。 |
-|  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在步驟2「實作Adobe Target檢視」下方新增附註。</li><li>更新初始頁面載入作業順序底下的步驟2「執行Target要求」。</li></ul> |
+|  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在步驟2「實作Adobe Target檢視」下方新增附註。</li><li>更新「初始頁面載入的作業順序」下方的步驟2「執行Target要求」。</li></ul> |
 | 5 月 4 日 | [設定Adobe Target API的驗證](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | 已新增附註，說明從JWT憑證移轉至OAuth伺服器對伺服器憑證的必要性。 |
 | 5 月 3 日 | [檢視報告 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 新增下列常見問題：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 時，如何在 [!DNL Analysis Workspace] 中追蹤活動曝光次數？</li></ul> |
 | 4 月 26 日 | [AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
