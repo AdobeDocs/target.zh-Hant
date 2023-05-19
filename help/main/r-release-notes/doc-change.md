@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '2749'
-ht-degree: 96%
+source-wordcount: '2759'
+ht-degree: 99%
 
 ---
 
@@ -19,11 +19,12 @@ ht-degree: 96%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 5 月 19 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新即將發行版本的發行前說明。 |
 | 5 月 17 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增 [!UICONTROL Adobe Target社群] 問答環節2023年5月24日星期三。 |
-| 5 月 16 日 | [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md) | 指出中不允許使用「空格」 `entity.id` 值。 |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 已更新 `viewsEnabled` 說明。 |
-|  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在步驟2「實作Adobe Target檢視」下方新增附註。</li><li>更新「初始頁面載入的作業順序」下方的步驟2「執行Target要求」。</li></ul> |
-| 5 月 4 日 | [設定Adobe Target API的驗證](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | 已新增附註，說明從JWT憑證移轉至OAuth伺服器對伺服器憑證的必要性。 |
+| 5 月 16 日 | [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md) | 表示 `entity.id` 值不允許有「空格」。 |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新 `viewsEnabled` 說明。 |
+|  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在「實作 Adobe Target 檢視」下的步驟 2 後新增說明。</li><li>更新「初始頁面載入操作順序」下的步驟 2「執行 Target 請求」。</li></ul> |
+| 5 月 4 日 | [為 Adobe Target API 設定驗證](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | 新增解釋需要從 JWT 認證遷移到 OAuth 伺服器到伺服器認證的說明。 |
 | 5 月 3 日 | [檢視報告 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 新增下列常見問題：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 時，如何在 [!DNL Analysis Workspace] 中追蹤活動曝光次數？</li></ul> |
 | 4 月 26 日 | [AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
 |  | [[!UICONTROL AEM 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |

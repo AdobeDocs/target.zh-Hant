@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 94%
+source-wordcount: '406'
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 5 月 15 日**
+**上次更新日期：2023 年 5 月 19 日**
 
 >[!NOTE]
 >
@@ -23,13 +23,37 @@ ht-degree: 94%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 23.5.1（2023年5月23日–25日）
+## [!DNL Target] Standard/Premium 23.5.1 (2023 年 5 月 23-25 日)
 
-此版本包含下列新功能、增強功能和修正：
+我們將根據以下排程分批發行此版本：
+
+5月23日：歐洲、中東和非洲(EMEA)地區5月24日：亞太(APAC)地區5月25日：美洲地區
+
+此版本包含以下新功能、增強功能和修正：
 
 | 功能 | 詳細資料 |
 |--- |--- |
 | 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。 |
+
+* 修正某些客戶無法使用「大於」或「小於」運算子，以訪客設定檔建立對象的問題。 (TGT-45271)
+
+## [!DNL Target] Standard/Premium 23.5.2 (2023 年 5 月 31 日)
+
+此版本包含下列增強功能和修正：
+
+* 修正產生設定檔API授權Token時顯示空白頁面的問題。 (TGT-45387)
+* 修正無法在 [!UICONTROL 建立設計] 圖示(如果影像名稱包含GB 18030字元)。 (TGT-44614)
+* 修正造成 [!UICONTROL 自動個人化] 分析期間凍結的活動。 (TGT-44820)
+
+## [!DNL Target] Standard/Premium 23.5.3（待定日期）
+
+此版本包含下列增強功能：
+
+| 功能 | 詳細資料 |
+|--- |--- |
+| [!UICONTROL QA模式] for [!UICONTROL Automated Personalization] 活動 | [!DNL Adobe Target] [!UICONTROL QA模式] 現在可供 [!UICONTROL Automated Personalization] 活動，替換 [!UICONTROL 預覽連結] 功能。<P>如需詳細資訊，請參閱[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+
+* 改善使用 [!UICONTROL 不允許重複項] 在 [管理排除](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] 活動。
 
 ## 額外的發行說明和版本詳細資料
 
