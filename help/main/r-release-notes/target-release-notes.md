@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
+source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 68%
+source-wordcount: '519'
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 5 月 19 日**
+**上次更新日期：2023 年 5 月 22 日**
 
 >[!NOTE]
 >
@@ -44,6 +44,10 @@ ht-degree: 68%
 * 已修復在生成配置檔案API授權令牌時導致顯示空白頁的問題。 (TGT-45387)
 * 已修復阻止在 [!UICONTROL 建立設計] 框（影像名稱包含GB 18030字元）。 (TGT-44614)
 * 已修復導致報告的問題 [!UICONTROL 自動個性化] 在分析期間凍結的活動。 (TGT-44820)
+* 修復了導致某些客戶的預設工作區的目標UI中未顯示任何活動的問題。 (TGT-45286)
+* 已更新「禁止重複項」標誌的行為。 如果排除的重複提供標誌是預設內容提供（對於API v3、v4），則更新其以允許重複提供標誌；如果選項引用預設內容提供且未定義模板，則允許重複選項。 (TNT-46617)
+* 修復了將查詢參數添加到URL中導致無法在Visual Experience Composer(VEC)中載入頁面的問題。 (TGT-44873)
+* 修復了在「文本/HTML」中錯誤轉義某些字元的問題。 (TGT-44600)
 
 ## [!DNL Target] 標準/高級版23.5.3（待定日期）
 
