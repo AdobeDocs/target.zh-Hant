@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 99%
+source-wordcount: '2783'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,9 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 5 月 19 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新即將發行版本的發行前說明。 |
-| 5 月 17 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增 [!UICONTROL Adobe Target社群] 問答環節2023年5月24日星期三。 |
+| 5 月 22 日 | [整合 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | 已新增下列新影片: <ul><li>配置 [!DNL Adobe Target] 目標 [!DNL Real-Time Customer Data Platform]</li><li>激活段和配置檔案屬性</li><li>使用 [!DNL Real-Time CDP] 分部 [!DNL Target]</li><li>使用 [!DNL Real-Time CDP] 配置檔案屬性 [!DNL Adobe Target]</li></ul> |
+| 5 月 19 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已更新即將發佈的預發行說明。 |
+| 5 月 17 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已添加有關 [!UICONTROL Adobe Target社區] 2023年5月24日星期三的問答環節。 |
 | 5 月 16 日 | [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md) | 表示 `entity.id` 值不允許有「空格」。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新 `viewsEnabled` 說明。 |
 |  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在「實作 Adobe Target 檢視」下的步驟 2 後新增說明。</li><li>更新「初始頁面載入操作順序」下的步驟 2「執行 Target 請求」。</li></ul> |
