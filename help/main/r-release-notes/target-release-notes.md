@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 52%
+ht-degree: 73%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 52%
 
 我們將根據以下排程分批發行此版本：
 
-5月23日：歐洲、中東和非洲(EMEA)地區5月24日：5月25日：美洲地區
+5 月 23 日：歐洲、中東和非洲 (EMEA) 地區
+5 月 24 日：亞太 (APAC) 地區
+5 月 25 日：美洲地區
 
 此版本包含以下新功能、增強功能和修正：
 
@@ -35,7 +37,7 @@ ht-degree: 52%
 |--- |--- |
 | 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。 |
 
-* 修復了一個問題，使某些客戶無法使用「大於」或「小於」運算子建立訪問者配置檔案的訪問者。 (TGT-45271)
+* 已修復讓特定客戶無法使用「大於」或「小於」運算符號，建立具有訪客資料的對象問題。(TGT-45271)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
 * 在各個位置更新目標UI以進行即將進行的UI刷新（更改在功能標誌後，直到發佈更新）。
 
@@ -43,21 +45,21 @@ ht-degree: 52%
 
 此版本包含下列增強功能和修正：
 
-* 已修復在生成配置檔案API授權令牌時導致顯示空白頁的問題。 (TGT-45387)
-* 已修復阻止在 [!UICONTROL 建立設計] 框（影像名稱包含GB 18030字元）。 (TGT-44614)
-* 已修復導致報告的問題 [!UICONTROL 自動個性化] 在分析期間凍結的活動。 (TGT-44820)
+* 已修復在生成設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387)
+* 已修復在影像名稱包含 GB 18030 字元時，[!UICONTROL 建立設計]面板無法顯示影像的問題。(TGT-44614)
+* 已修復在分析過程中導致報告在 [!UICONTROL Auto Personalization] 活動中凍結的問題。(TGT-44820)
 * 修復了導致某些客戶的預設工作區的目標UI中未顯示任何活動的問題。 (TGT-45286)
 * 已更新「禁止重複項」標誌的行為。 如果排除的重複提供標誌是預設內容提供（對於API v3、v4），則更新其以允許重複提供標誌；如果選項引用預設內容提供且未定義模板，則允許重複選項。 (TNT-46617)
 * 修復了將查詢參數添加到URL中導致無法在Visual Experience Composer(VEC)中載入頁面的問題。 (TGT-44873)
 * 修復了在「文本/HTML」中錯誤轉義某些字元的問題。 (TGT-44600)
 
-## [!DNL Target] 標準/高級版23.5.3（待定日期）
+## [!DNL Target] Standard/Premium 23.5.3 (日期待定)
 
 此版本包含下列增強功能：
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| [!UICONTROL QA模式] 為 [!UICONTROL Automated Personalization] 活動 | [!DNL Adobe Target] [!UICONTROL QA模式] 現在可供使用 [!UICONTROL Automated Personalization] 活動，替換 [!UICONTROL 預覽連結] 功能。<P>如需詳細資訊，請參閱[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+| [!UICONTROL QA 模式]適用於 [!UICONTROL Automated Personalization] 活動 | [!DNL Adobe Target][!UICONTROL QA 模式]現在可用於 [!UICONTROL Automated Personalization] 活動，取代[!UICONTROL 預覽連結]功能。<P>如需詳細資訊，請參閱[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。 |
 
 * 效能增強，可禁止重複功能（包括減少負載時間），同時 [管理排除](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) 在 [!UICONTROL Automated Personalization] 活動。
 
