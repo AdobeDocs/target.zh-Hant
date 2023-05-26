@@ -1,7 +1,7 @@
 ---
-keywords: 體驗；視覺體驗作曲家；增強型體驗合成器；基於表單的體驗合成器；表單合成器；視覺合成器；體驗合成器；混合內容；iframe;iframe brig;busit iframe;xframe-options;x frame options;x frame options;x frame options；交叉來源問題；驗證工作流
-description: 瞭解有關Adobe Experience Composer - Visual Experience Composer(VEC)、基於表單的Experience Composer和Single Page Visual Experience Composer的詳細資訊。
-title: 哪種體驗作曲家 [!DNL Target] 要嗎？
+keywords: 體驗；視覺化體驗撰寫器；增強體驗撰寫器；表單式體驗撰寫器；表單式撰寫器；視覺化撰寫器；體驗撰寫器；混合內容； iframe； iframe爆破；爆破iframe； x-frame-options； x frame選項；跨來源；跨來源問題；驗證工作流程
+description: 深入瞭解Adobe體驗撰寫器 — 視覺化體驗撰寫器(VEC)、表單式體驗撰寫器和單頁視覺化體驗撰寫器。
+title: 體驗撰寫器的功能 [!DNL Target] 選件？
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 體驗與選件
 
-在 [!DNL Adobe Target] 確定訪問者滿足活動的受眾條件時顯示的內容。
+中的體驗 [!DNL Adobe Target] 決定當訪客滿足活動的對象條件時，要顯示哪些內容。
 
 體驗可以是選件、影像、文字、按鈕、影片或將這些不同元素加以組合，放在頁面、整個網頁或一組頁面上，可能會形成購買漏斗或一些其他的頁面邏輯順序。也可以是語音助理的回應、客戶服務指令碼，或甚至是飲料機的個人化口味。您可以在 [!DNL Target] 活動中測試或個人化體驗。
 

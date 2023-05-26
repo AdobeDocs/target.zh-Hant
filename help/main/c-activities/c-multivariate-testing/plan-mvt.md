@@ -1,7 +1,7 @@
 ---
 keywords: 多變數測試;mvt;mvt 計劃;多變數測試計劃
-description: 瞭解如何規劃多元TestAdobe [!DNL Target] 這樣你就可以建立成功的test。
-title: 如何規劃多元Test?
+description: 瞭解如何在Adobe中規劃多變數測試 [!DNL Target] 以便建立成功的測試。
+title: 如何計畫多變數測試？
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

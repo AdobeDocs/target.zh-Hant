@@ -1,7 +1,7 @@
 ---
 keywords: 優先順序; 體驗建立; 體驗; 對象; 切換體驗; 可視化體驗撰寫器
-description: 了解訪客如何在Adobe中的體驗之間切換 [!DNL Target] 體驗鎖定目標(XT)活動，以隨著其設定檔的演化。
-title: 訪客是否可切換體驗鎖定目標活動中的體驗？
+description: 瞭解訪客如何在Adobe中切換體驗 [!DNL Target] 體驗鎖定目標(XT)活動。
+title: 訪客可以在體驗鎖定目標活動中切換體驗嗎？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a

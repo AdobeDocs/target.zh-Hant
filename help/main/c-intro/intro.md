@@ -31,7 +31,7 @@ ht-degree: 89%
 
 [!DNL Target Premium] 是進階的 [!DNL Target] 產品，需要有授權才能將進階功能加入 [!DNL Target Standard]。
 
-全部 [!DNL Target Premium] 文章 [!DNL Target] 指南包括 [!UICONTROL Premium] 徽章位於每個頁面頂端，或內嵌在受影響的文字附近。 此 [!UICONTROL Premium] 徽章可點按，並包含此區段的連結。
+全部 [!DNL Target Premium] 中的文章 [!DNL Target] 指南包括 [!UICONTROL Premium] 徽章，位於每個頁面頂端或受影響文字附近的內嵌。 此 [!UICONTROL Premium] 徽章可點按，並包含此區段的連結。
 
 **[!DNL Target Premium]包含下列功能：**
 
@@ -80,13 +80,13 @@ ht-degree: 89%
 
 [企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)功能可讓您建立不同的專案 (在 [!DNL Adobe Admin Console for Enterprise] 中稱為「產品設定檔」)。[!UICONTROL 企業使用者權限]可讓您為單一使用者指定不同權限，且這些權限指定該使用者存取每個專案的權限。這些獨特的專案可與 [!DNL Adobe Analytics] 中報表套裝的運作方式比較。每個專案可以有特定的使用者具有適用一組屬性的特定角色。結果，客戶可限制其使用者的檢視、編輯、核准和發佈存取權。您可以根據地區、環境（開發／舞台/prod）、頻道或其他自訂准則來限制使用者。
 
-## 測試版功能 {#beta}
+## Beta功能 {#beta}
 
 [!BADGE 測試]{type=Informative}
 
-此 [!DNL Adobe Target] 團隊通常會為特定客戶啟用新功能，以便進行測試和提供意見回應。 在測試期間完成後，將為所有客戶啟用這些功能 [!DNL Target Standard/Premium] 發行版本和發行說明中宣佈。
+此 [!DNL Adobe Target] 團隊通常會為特定客戶啟用新功能，以進行測試和提供意見回饋。 在測試期間完成後，這些功能會在未來為所有客戶啟用 [!DNL Target Standard/Premium] 版本並在發行說明中宣佈。
 
-中的文章 [!DNL Target] 說明測試版功能的指南包括位於每頁頂端的測試版徽章，或內嵌在受影響的文字附近。 可點按測試版徽章，並包含此區段的連結。
+中的文章 [!DNL Target] 說明Beta版功能的指南包括Beta版徽章，位於每個頁面的頂端或受影響文字附近的內嵌。 Beta版徽章可供點按，並包含本區段的連結。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 

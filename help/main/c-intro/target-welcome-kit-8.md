@@ -5,7 +5,7 @@ title: 如何與我的組織分享我的 [!DNL Target] 活動成果？
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 

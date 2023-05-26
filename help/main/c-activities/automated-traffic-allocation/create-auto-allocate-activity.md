@@ -1,6 +1,6 @@
 ---
-keywords: 建立自動分配；A/Btest；自動分配活動；新建a/b活動；自動分配；自動分配至最佳體驗；分配；自動分配
-description: 瞭解如何在Adobe中使用Visual Experience Composer(VEC) [!DNL Target] 直接在上建立自動分配A/BTest活動 [!DNL Target]-enabled頁。
+keywords: 建立自動分配； A/B測試；自動分配活動；新a/b活動；自動分配；自動分配至最佳體驗；分配；自動分配
+description: 瞭解如何在Adobe中使用視覺化體驗撰寫器(VEC) [!DNL Target] 若要直接在上建立自動分配A/B測試活動 [!DNL Target]-enabled頁面。
 title: 如何建立自動分配活動？
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
@@ -13,15 +13,15 @@ ht-degree: 57%
 
 # 建立自動分配活動
 
-使用 [!UICONTROL 視覺體驗作曲家] (VEC) [!DNL Adobe Target] 建立 [!UICONTROL 自動分配] [!UICONTROL A/BTest] 直接在 [!DNL Target]-enabled頁面和修改頁面中的部分 [!DNL Target]。
+使用 [!UICONTROL 視覺化體驗撰寫器] (VEC)輸入 [!DNL Adobe Target] 建立您的 [!UICONTROL 自動分配] [!UICONTROL A/B測試] 活動直接在 [!DNL Target]-enabled頁面以及修改頁面部分於 [!DNL Target].
 
 >[!NOTE]
 >
->除 [!UICONTROL 自動分配] [!UICONTROL A/BTest] 活動（在本文中討論）, [!DNL Target] 提供了另外兩種類型 [!UICONTROL A/BTest] 活動： [!UICONTROL 手動（預設）] 和 [!UICONTROL 自動目標]。
+>除了 [!UICONTROL 自動分配] [!UICONTROL A/B測試] 活動（將在本文中討論）， [!DNL Target] 提供另外兩種型別 [!UICONTROL A/B測試] 活動： [!UICONTROL 手動（預設）] 和 [!UICONTROL 自動鎖定目標].
 >
->請參閱 [A/B測試活動的類型](/help/main/c-activities/t-test-ab/test-ab.md#types) 在 *A/BTest概述*。
+>另請參閱 [A/B測試活動的型別](/help/main/c-activities/t-test-ab/test-ab.md#types) 在 *A/B測試概覽*.
 
-建立 [!UICONTROL 自動分配] 活動：
+若要建立 [!UICONTROL 自動分配] 活動：
 
 1. 從&#x200B;**[!UICONTROL 「活動」]**&#x200B;清單，按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「A/B 測試」]**。
 
@@ -35,17 +35,17 @@ ht-degree: 57%
 
 1. 視需要選取&#x200B;**[!UICONTROL 視覺 (預設)]**。
 
-   ![建立A/BTest活動](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+   ![建立A/B測試活動](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   如果你想用 [!UICONTROL 基於表單的體驗作曲家]選中 [!UICONTROL 窗體]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
+   如果您偏好使用 [!UICONTROL 表單式體驗撰寫器]，選取 [!UICONTROL 表單]. 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了VEC和 [!UICONTROL 基於表單的體驗作曲家]。 [!DNL Target] 提供了單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/main/c-experiences/experiences.md)。
+   >除了VEC和 [!UICONTROL 表單式體驗撰寫器]， [!DNL Target] 提供單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/main/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[[!UICONTROL 選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是 [Target Premium](/help/main/c-intro/intro.md) 功能。您的組織 [!UICONTROL 目標標準] 的下界。
+   >上圖中的[[!UICONTROL 選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是 [Target Premium](/help/main/c-intro/intro.md) 功能。貴組織擁有 [!UICONTROL Target Standard] 如果您沒有看到此選項，請授權使用。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 57%
 
    ![名稱欄位](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   活動名稱不能以下列任何字元開頭：
+   活動名稱的開頭不能是下列任何字元：
 
    | 字元 | 說明 |
    |--- |--- |
@@ -84,9 +84,9 @@ ht-degree: 57%
 
    流程圖表將引導您進行選擇活動對象和設定體驗的步驟。
 
-1. 在 [!UICONTROL 觀眾] 框中，按一下「編輯」表徵圖（三個垂直橢圓），按一下 **[!UICONTROL 替換受眾]**，則 [選擇受眾](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) 為您的活動。
+1. 在 [!UICONTROL 對象] 方塊中，按一下編輯圖示（三個垂直的點），然後按一下 **[!UICONTROL 取代對象]**，則 [選取對象](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) （適用於您的活動）。
 
-   預設情況下，訪問群體設定為 [!UICONTROL 所有訪問者]。
+   依預設，對象會設為 [!UICONTROL 所有訪客].
 
 1. 選擇符合您要讓其進入活動之訪客的百分比。
 
@@ -98,18 +98,18 @@ ht-degree: 57%
 
    您可以對相同對象顯示多個體驗。圖表顯示會顯示您選取的對象和新增至活動的體驗。
 
-   選擇所需的流量分配方法. 建立 [!UICONTROL 自動分配] 活動，選擇 **[!UICONTROL 自動分配以獲得最佳體驗]**。
+   選擇所需的流量分配方法. 若要建立 [!UICONTROL 自動分配] 活動，選取 **[!UICONTROL 自動分配至最佳體驗]**.
 
-   以下介紹三種類型的流量分配：
+   三種流量分配型別說明如下：
 
-   * **[!UICONTROL 手動 (預設)]**: 指定您希望在各體驗上看見的加入者百分比。您可以在所有體驗之間分割百分比，或對每個體驗指定較高或較低的百分比。所有體驗的總計必須等於 100%。有關詳細資訊，請參見 [建立A/BTest](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
+   * **[!UICONTROL 手動 (預設)]**: 指定您希望在各體驗上看見的加入者百分比。您可以在所有體驗之間分割百分比，或對每個體驗指定較高或較低的百分比。所有體驗的總計必須等於 100%。如需詳細資訊，請參閱 [建立A/B測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
    * **[!UICONTROL 自動分配至最佳體驗]**: 系統會自動將多數活動加入者導向表現較佳的體驗。有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。
 
-   * **[!UICONTROL 個性化體驗的自動目標]**: [!DNL Target] 使用高級機器學習來通過識別多個高效能的商家定義體驗來個性化內容並推動轉換，然後根據訪問者的個人客戶資料和類似訪問者的過往行為為訪問者提供最定製的體驗。 有關詳細資訊，請參見 [自動目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
-   也可以按一下 **[!UICONTROL 添加]** 以向活動添加其他體驗。
+   * **[!UICONTROL 針對個人化體驗自動鎖定目標]**： [!DNL Target] 使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔和類似訪客過去的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+   您也可以按一下 **[!UICONTROL 新增]** 以新增其他體驗至活動。
 
-1. 如果您對受眾、體驗選擇和流量分配選擇感到滿意，請按一下 **[!UICONTROL 下一個]** 移到三步指導工作流的第三步。
+1. 當您滿意您的對象、體驗選擇和流量分配選擇時，請按一下 **[!UICONTROL 下一個]** 移至三步驟引導式工作流程的第三個步驟。
 
 1. 指定活動的[目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
 
@@ -117,17 +117,17 @@ ht-degree: 57%
 
    >[!NOTE]
    >
-   >如果您想使用 [目標分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，請參閱 [A4T支援自動分配和自動目標活動](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。
+   >如果您想使用 [目標分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)使用此活動，請參閱下列的重要資訊： [自動分配和自動鎖定目標活動的A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
-1. 按一下 **[!UICONTROL 保存並關閉]** 或 **[!UICONTROL 保存]**。
+1. 按一下 **[!UICONTROL 儲存並關閉]** 或 **[!UICONTROL 儲存]**.
 
-建立活動後， [!UICONTROL 概述] 頁籤顯示有關活動的資訊，包括活動的圖。
+建立活動後， [!UICONTROL 概觀] 標籤會顯示活動的相關資訊，包括活動的圖表。
 
-## 培訓視頻：建立A/BTest(8:36) ![教程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：建立A/B測試(8:36) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片示範如何使用 [!DNL Target] 三個步驟引導工作流程來建立 A/B 測試。
 
-* 建立 [!UICONTROL A/BTest] 活動 [!DNL Adobe Target]
+* 建立 [!UICONTROL A/B測試] 中的活動 [!DNL Adobe Target]
 * 使用手動分割或自動流量分配來分配流量
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

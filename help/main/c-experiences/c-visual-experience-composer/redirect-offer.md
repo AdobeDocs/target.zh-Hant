@@ -1,6 +1,6 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 了解如何在Adobe中使用重新導向至URL選項 [!DNL Target] 當您想要將訪客傳送至不同頁面，而非在相同頁面上顯示內容時。
+description: 瞭解如何在Adobe中使用「重新導向至URL」選項 [!DNL Target] 傳送訪客至不同頁面，而非在同一頁面上顯示內容時。
 title: 我可以將頁面重新導向至不同的URL嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
@@ -13,7 +13,7 @@ ht-degree: 82%
 
 # 重新導向至 URL
 
-使用 [!UICONTROL 重新導向至URL] 選項 [!DNL Adobe Target] 當您想要將訪客傳送至不同頁面，而非在相同頁面上顯示內容時。
+使用 [!UICONTROL 重新導向至URL] 中的選項 [!DNL Adobe Target] 傳送訪客至不同頁面，而非在同一頁面上顯示內容時。
 
 您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。在「體驗動作」功能表中，透過按一下體驗的字母標籤，接著選擇&#x200B;**[!UICONTROL 「重新導向至 URL」]**，然後指定頁面 B 的 URL 來找到。選件會設定為將訪客重新導向至不同頁面。
 
@@ -31,9 +31,9 @@ ht-degree: 82%
 若要建立重新導向選件:
 
 1. 建立體驗。
-1. 將滑鼠指標暫留在滑鼠體驗上，然後按一下「重新導向至URL」圖示(![icon_redirect_url影像](assets/icon_redirect_url.png))。
+1. 將滑鼠游標暫留在滑鼠體驗上，然後按一下「重新導向至URL」圖示(![icon_redirect_url圖片](assets/icon_redirect_url.png))。
 
-   ![exp_actions影像](assets/exp_actions.png)
+   ![exp_actions圖片](assets/exp_actions.png)
 
 1. 輸入 URL。
 1. 如果需要，請選取包括目前的查詢參數的選項。

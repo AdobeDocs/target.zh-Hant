@@ -1,7 +1,7 @@
 ---
-keywords: 建議
-description: 查找有關Recommendations在Adobe的活動的資訊 [!DNL Target] 根據先前的用戶活動自動顯示可能引起客戶興趣的產品或內容。
-title: 在哪裡可以找到有關Recommendations活動的資訊？
+keywords: recommendations
+description: 在Adobe中尋找Recommendations活動的相關資訊 [!DNL Target] 會根據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。
+title: 哪裡可以找到Recommendations活動的相關資訊？
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 32%
 
 # Recommendations 活動
 
-Recommendations在Adobe Target的活動會根據先前的用戶活動或其他算法自動顯示可能引起客戶興趣的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
+Adobe Target中的Recommendations活動可依據先前的使用者活動或其他演演算法，自動顯示可能使客戶感興趣的產品或內容。 Recommendations 可協助引導客戶至他們可能不知道的相關項目。
 
 >[!NOTE]
 >

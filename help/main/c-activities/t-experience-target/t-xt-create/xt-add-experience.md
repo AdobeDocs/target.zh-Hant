@@ -1,7 +1,7 @@
 ---
 keywords: 建立體驗; 體驗建立; 優先順序; 對象; 體驗; 可視化體驗撰寫器
-description: 瞭解如何使用Adobe [!DNL Target] Visual Experience Composer(VEC)，用於在「體驗目標(XT)」活動中在頁面上建立和編輯體驗。
-title: 如何在針對活動的體驗中建立體驗？
+description: 瞭解如何使用Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)，可在體驗鎖定目標(XT)活動的頁面上建立和編輯體驗。
+title: 如何在體驗鎖定目標活動中建立體驗？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,9 +11,9 @@ ht-degree: 87%
 
 ---
 
-# 在「體驗目標」(XT)活動中建立經驗
+# 在體驗鎖定目標(XT)活動中建立體驗
 
-的 [!UICONTROL 視覺體驗作曲家] (VEC) [!DNL Adobe Target] 提供了一個可視化介面，用於編輯頁面上的體驗 [!UICONTROL 體驗目標] (XT)活動。
+此 [!UICONTROL 視覺化體驗撰寫器] (VEC)輸入 [!DNL Adobe Target] 提供視覺化介面，用於編輯中您頁面上的體驗 [!UICONTROL 體驗鎖定] (XT)活動。
 
 1. 選取您要變更的元素，並進行需要的變更。
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 
    將游標移至頁面上的元素時，元素會強調顯示。任何強調顯示的元素可以使用 VEC 加以更改。如需可以在元素上執行以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-   如果已建立 [!DNL Target] 使用 [!DNL Target Classic], [!DNL Target] 請求顯示為一個顯示請求名稱的元素，並且可以像其他任何元素一樣進行修改。
+   如果您已建立 [!DNL Target] 在頁面上使用以下專案請求： [!DNL Target Classic]，那 [!DNL Target] request會以元素的形式顯示，並顯示請求名稱，且可像任何其他元素一樣加以修改。
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ ht-degree: 87%
    >
    >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-   建立受眾時，可以選擇一個位置並指定該位置的參數。 下 [!UICONTROL 自定義] （「建立受眾」>「添加規則」>「自定義」），選擇位置，然後指定所需參數。
+   建立受眾時，您可以選取位置並指定該位置的引數。 下 [!UICONTROL 自訂] （建立受眾>新增規則>自訂），選取位置，然後指定所需的引數。
 
    >[!NOTE]
    >

@@ -1,6 +1,6 @@
 ---
-keywords: 多變數；mvt；預覽；體驗
-description: 了解如何以Adobe預覽多變數測試(MVT)活動中的每個體驗 [!DNL Target] 使用可視化體驗撰寫器(VEC)。
+keywords: 多變數； MVT；預覽；體驗
+description: 瞭解如何在Adobe中預覽多變數測試(MVT)活動中的每個體驗 [!DNL Target] 使用視覺化體驗撰寫器(VEC)。
 title: 如何預覽多變數測試(MVT)的體驗
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
@@ -13,9 +13,9 @@ ht-degree: 67%
 
 # 多變數測試的預覽體驗
 
-因為 [!UICONTROL 多變數測試] in [!DNL Adobe Target] 會比較頁面上的多個體驗，使用每個體驗預覽頁面會很有幫助。
+因為 [!UICONTROL 多變數測試] 在 [!DNL Adobe Target] 比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
 
-1. 在可視化體驗撰寫器(VEC)中，按一下 **[!UICONTROL 預覽]**.
+1. 在視覺化體驗撰寫器(VEC)中，按一下 **[!UICONTROL 預覽]**.
 
    所有體驗的清單隨即出現。
 

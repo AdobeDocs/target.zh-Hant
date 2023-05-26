@@ -1,7 +1,7 @@
 ---
 keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
-description: 瞭解如何在Adobe Target使用Visual Experience Composer(VEC)。 VEC提供了在頁面上添加和編輯體驗的可視化介面。
-title: 如何在 [!DNL Target] A/B活動？
+description: 瞭解如何在Adobe Target中使用視覺化體驗撰寫器(VEC)。 VEC提供視覺化介面，用於在頁面上新增和編輯體驗。
+title: 如何在中新增體驗 [!DNL Target] A/B活動？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 新增體驗
 
-Adobe TargetVisual Experience Composer(VEC)提供了在頁面上添加和編輯體驗的可視化介面。
+Adobe Target視覺化體驗撰寫器(VEC)提供用於新增和編輯您的頁面上體驗的視覺介面。
 
 如需關於體驗的其他詳細資料，請參閱[體驗](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
@@ -29,7 +29,7 @@ Adobe TargetVisual Experience Composer(VEC)提供了在頁面上添加和編輯�
 
    將游標移至頁面上的元素時，元素會強調顯示。任何強調顯示的元素可以使用體驗撰寫器加以更改。
 
-   如果已建立 [!DNL Target] 在使用「目標經典」(以前稱為「Test」&amp;「目標」)的頁面上請求 [!DNL Target] 請求顯示為一個顯示請求名稱的元素，並且可以像其他任何元素一樣進行修改。
+   如果您已建立 [!DNL Target] 使用Target Classic （先前稱為Test&amp;Target）的頁面上請求，但 [!DNL Target] request會以元素的形式顯示，並顯示請求名稱，且可像任何其他元素一樣加以修改。
 
    如需可以在顯示頁面上執行元素以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -92,7 +92,7 @@ Adobe TargetVisual Experience Composer(VEC)提供了在頁面上添加和編輯�
 
 ![刪除體驗選項](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## 培訓視頻：使用Visual Experience Composer ![教程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：使用視覺化體驗撰寫器 ![教學課程徽章](/help/main/assets/tutorial.png)
 
 以下的影片提供關於使用可視化體驗撰寫器選項的資訊。(7:17)
 

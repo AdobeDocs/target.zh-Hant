@@ -1,7 +1,7 @@
 ---
-keywords: 體驗目標；xt；活動url;url
-description: 瞭解如何指定活動URL，該URL確定在test中使用的頁面，並在使用Adobe Target設計「體驗目標」活動時開啟該頁面。
-title: 體驗目標(XT)活動中的活動URL是什麼？
+keywords: 體驗鎖定目標； XT；活動URL； URL
+description: 瞭解如何指定活動URL，以決定測試中使用以及使用Adobe Target設計體驗鎖定目標活動時開啟的頁面。
+title: 體驗鎖定目標(XT)活動中的活動URL為何？
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,9 +11,9 @@ ht-degree: 63%
 
 ---
 
-# 體驗目標(XT)活動中的活動URL
+# 體驗鎖定目標(XT)活動中的活動URL
 
-的 [!UICONTROL 活動URL] 確定在 [!DNL Adobe Target] [!UICONTROL 體驗目標] (XT)活動，在 [!UICONTROL 視覺體驗作曲家] (VEC)或 [!UICONTROL 基於表單的體驗作曲家] 在設計活動時。
+此 [!UICONTROL 活動URL] 決定要用於 [!DNL Adobe Target] [!UICONTROL 體驗鎖定] (XT)活動，以及在 [!UICONTROL 視覺化體驗撰寫器] (VEC)或 [!UICONTROL 表單式體驗撰寫器] 活動設計時。
 
 1. 在[建立 XT 活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)期間出現提示時，請指定活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下&#x200B;**[!UICONTROL 「建立活動」]**。
 
@@ -21,7 +21,7 @@ ht-degree: 63%
    >
    >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 都相符。
    >
-   >預設情況下，VEC或基於表單的體驗作曲家將開啟在 [Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)。 您可以在活動建立期間指定不同的頁面。
+   >根據預設，VEC或表單式體驗撰寫器會開啟中指定的頁面 [視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md). 您可以在活動建立期間指定不同的頁面。
    >
    >如果您指定的網站 URL 不包括 Target Standard JavaScript 程式碼，則無法選取頁面元素。
 

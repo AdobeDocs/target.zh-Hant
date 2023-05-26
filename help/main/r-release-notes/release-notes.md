@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 91%
+source-wordcount: '449'
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,14 @@ ht-degree: 91%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 23.5.1 (2023 年 5 月 23-25 日)
+## [!DNL Target] Standard/Premium 23.4.1 (2023 年 4 月 25-27 日)
 
-我們將根據以下排程分批發行此版本：
+此版本包含安全性更新和以下新功能：
 
-5 月 23 日：歐洲、中東和非洲 (EMEA) 地區
-5 月 24 日：亞太 (APAC) 地區
-5 月 25 日：美洲地區
-
-此版本包含下列新增強功能和修正：
-
-* 已修復讓特定客戶無法使用「大於」或「小於」運算符號，建立具有訪客資料的對象問題。(TGT-45271)
-* 對整個 [!DNL Target] UI 進行了各種本地化修正。
-* 已在多個位置更新Target UI，以便近期進行UI重新整理（在發佈更新之前，功能標幟後面會有變更）。
+| 功能 | 詳細資料 |
+|--- |--- |
+| 用於 Headless 個人化和實驗的 AEM [!UICONTROL 內容片段] | 在 [!DNL Target] 活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 內容片段]。將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱 [AEM [!UICONTROL 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。 |
+| [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 開發人員指南*&#x200B;已移至 *[!UICONTROL Adobe Experience League]*。移至 *[!UICONTROL Experience League]* 可協助將文字當地語系化為其他語言，在 *Experience League* 中統一搜尋以提供來自 *[!UICONTROL Adobe Target 商務從業者指南]*&#x200B;和 *[!UICONTROL Adobe Target 開發人員指南]*&#x200B;的搜尋結果，並提供額外的好處。<P>您將從先前位置自動重新導向到 *[!UICONTROL Experience League]*。請視需要更新您的書籤。 |
 
 ## 額外的發行說明和版本詳細資料
 

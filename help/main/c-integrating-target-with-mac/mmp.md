@@ -1,7 +1,7 @@
 ---
 keywords: Experience Cloud Audiences;對象
-description: 瞭解Adobe Experience Cloud觀眾如何讓Experience Cloud解決方案與其他Adobe解決方案交流和共用有關網站訪問者的資訊。
-title: 如何在目標中使用Adobe Experience Cloud觀眾？
+description: 瞭解Adobe Experience Cloud Audiences如何讓Experience Cloud解決方案與其他Adobe解決方案通訊及分享網站訪客的相關資訊。
+title: 如何在Target中使用Adobe Experience Cloud對象？
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,17 +13,17 @@ ht-degree: 12%
 
 # Experience Cloud 受眾
 
-[!DNL Adobe Experience Cloud Audiences] 提供 [!DNL Adobe Experience Cloud] 解決方案，用於交流和共用有關網站訪問者的資訊，以便每個解決方案都可以使用相同的資料。
+[!DNL Adobe Experience Cloud Audiences] 提供以下功能 [!DNL Adobe Experience Cloud] 解決方案，用於溝通和分享網站訪客的相關資訊，讓每個解決方案都可以使用相同的資料。
 
-有關詳細資訊，請參見 [觀眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant) 的 *核心服務使用手冊*。
+如需詳細資訊，請參閱 [受眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant) 在 *核心服務使用手冊*.
 
-## 視頻：整合 [!DNL Target] 與 [!DNL Experience Cloud Audiences] (10:48)
+## 影片：整合 [!DNL Target] 替換為 [!DNL Experience Cloud Audiences] (10:48)
 
-在此視頻中，您將學習如何：
+在本影片中，您將瞭解如何：
 
-* 描述受眾的建立和使用 [!DNL Analytics] 和 [!DNL Audience Manager]
-* 描述如何從其他訪問群體導入 [!DNL Adobe] 解決方案
-* 瀏覽 [!DNL Adobe Experience Cloud] (AEC)管理面板
-* 列出 [!DNL Experience Cloud] ID(ECID)
+* 透過以下方式說明受眾建立與使用 [!DNL Analytics] 和 [!DNL Audience Manager]
+* 說明如何從其他專案匯入對象 [!DNL Adobe] 解決方案
+* 探索 [!DNL Adobe Experience Cloud] (AEC)管理面板
+* 列出以下專案的需求 [!DNL Experience Cloud] ID (ECID)
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152)

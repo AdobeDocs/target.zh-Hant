@@ -1,7 +1,7 @@
 ---
-keywords: 多元Test；活動URL
-description: 瞭解如何指定活動URL，該URL確定在test中使用的頁，並在使用Adobe Target設計多元Test活動時開啟該頁。
-title: 多變數(MVT)活動中的活動URL是什麼？
+keywords: 多變數測試；活動URL
+description: 瞭解如何指定活動URL，以決定測試中使用以及使用Adobe Target設計多變數測試活動時開啟的頁面。
+title: 多變數(MVT)活動中的活動URL為何？
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

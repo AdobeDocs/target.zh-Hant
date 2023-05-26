@@ -1,7 +1,7 @@
 ---
 keywords: 體驗範本; 自訂程式碼; 橫幅; 燈箱; 輪播; 倒數計時; 色帶; 按鈕
-description: 了解如何使用體驗範本，這些範本是預先編碼的範例，內含可設定的輸入，以用於執行Adobe Target中常見的行銷人員使用案例。
-title: Target中提供哪些體驗範本？
+description: 瞭解如何使用體驗範本，體驗範本是預先編碼的範例，具有可設定的輸入，用於在Adobe Target中執行常見行銷人員使用案例。
+title: Target提供哪些體驗範本？
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 77%
 
 # 體驗範本
 
-關於 [!DNL Adobe Target] 用於自訂程式碼的體驗範本。 [!DNL Target] 體驗範為具有可設定輸入的預先編碼樣本，以用於執行常見的行銷人員使用案例。
+相關資訊 [!DNL Adobe Target] 用於自訂程式碼中的體驗範本。 [!DNL Target] 體驗範為具有可設定輸入的預先編碼樣本，以用於執行常見的行銷人員使用案例。
 
 這些體驗範本可透過 VEC 或表單式體驗撰寫器免費提供給開發人員和行銷人員，做為執行常見使用案例的起點。
 
@@ -23,7 +23,7 @@ ht-degree: 77%
 
 [Banner Carousel with Thumbnails 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。此輪播不會透過影像自動旋轉，可按一下主影像下方的較小影像直接進行互動。
 
-![exp-template-banner-carousel-thumbnails影像](assets/exp-template-banner-carousel-thumbnails.png)
+![exp-template-banner-carousel-thumbnails圖片](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## Banner Carousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
@@ -41,19 +41,19 @@ ht-degree: 77%
 
 [Button Builder 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)為帶有動作呼叫文字的小按鈕。可設定此按鈕，並將其放在頁面上任何地方以新增動作呼叫，或以更多可設定替代項取代現有按鈕。
 
-![exp-template-button-builder image](assets/exp-template-button-builder.png)
+![exp-template-button-builder影像](assets/exp-template-button-builder.png)
 
 ## Lightbox with Countdown {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [Lightbox with Countdown 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)為中央有倒數計時的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
-![exp-template-lightbox-coutdown影像](assets/exp-template-lightbox-countdown.png)
+![exp-template-lightbox-countdown影像](assets/exp-template-lightbox-countdown.png)
 
 ## Lightbox with Exit Intent {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
 [Lightbox with Exit Intent 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)為退出意圖 (將滑鼠移至畫面右上角) 所觸發的燈箱覆蓋彈出式視窗，可部署於任何您想在最後吸引注意的 Web 屬性上。
 
-![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
+![exp-template-lightbox-exit影像](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
@@ -65,4 +65,4 @@ ht-degree: 77%
 
 [Ribbon 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)為插入至網頁最上方的 100% 寬度色帶，通常用於快閃特賣、免運費、安全性或天氣事件，或其他重要公告。
 
-![exp-template-ribbon映像](assets/exp-template-ribbon.png)
+![exp-template-ribbon影像](assets/exp-template-ribbon.png)

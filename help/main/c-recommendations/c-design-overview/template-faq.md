@@ -1,7 +1,7 @@
 ---
 keywords: 建議;常見問題;faq
-description: 檢閱常見問題集(FAQ)的清單，以及其關於Adobe的回答 [!DNL Target] Recommendations設計。
-title: 哪裡可以回答 [!DNL Target] Recommendations?
+description: 檢閱常見問題(FAQ)清單及其關於Adobe的回答 [!DNL Target] Recommendations設計。
+title: 我可以在何處獲得設計問題的解答？ [!DNL Target] Recommendations？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
@@ -14,7 +14,7 @@ ht-degree: 70%
 
 # 設計常見問題集
 
-關於的常見問題集(FAQ)清單 [!DNL Adobe Target] [!DNL Recommendations] 設計。
+關於下列主題的常見問答(FAQ)清單： [!DNL Adobe Target] [!DNL Recommendations] 設計。
 
 ## 我的建議項目價格未在小數點右方顯示兩個值。我該如何顯示這些值?
 
@@ -30,13 +30,13 @@ ht-degree: 70%
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 設計中為何沒有顯示類別? 我在用 `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## 設計中為何沒有顯示類別? 我使用 `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 設計中無法顯示類別 ID。因為可能會儲存多個類別，系統無法決定要顯示的類別。
 
 ## 如何變更設計才能立即更新?    {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-更改目前使用中的設計需要一段時間才會更新。若要立即變更設計，請建立新設計、在活動中選取它，然後儲存建議。
+更改目前使用中的設計需要一段時間才會更新。若要立即變更設計，請建立新設計、在活動中選取該設計，然後儲存建議。
 
 ## 如何擷取重要資訊以顯示在設計中? 範例: 如果想要顯示重要產品的類別，如何在 Velocity 設計中編寫該值? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -48,8 +48,8 @@ ht-degree: 70%
 
 ## 如何將現存的實體值改為空白? 例如，促銷活動結束時需要清空項目的 entity.message。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-傳送JavaScript不中斷空格似乎有助於執行此操作。 由開發人員傳入 `\u00A0` 當作值。範例: `entity.message=\u00A0`。您可以考慮沒有值時以此為預設值，而非使用 null。
+以JavaScript不間斷空格的形式傳送似乎可以做到這一點。 由開發人員傳入 `\u00A0` 當作值。範例: `entity.message=\u00A0`。您可以考慮沒有值時以此為預設值，而非使用 null。
 
 ## 我可以在 [!DNL Recommendations] 設計中使用個人資料指令碼嗎？ {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-是.若要在 [!DNL Recommendations] 設計，將名稱包住 `\${...}`. 例如，若您的設定檔指令碼已命名為 `user.basket`，請參閱 `\${user.basket}` 在設計中。 請注意，反斜線表示描述檔指令碼不由Velocity轉譯。 因此，您無法對Velocity範本中的設定檔指令碼執行任何操作。 值會直接列印在頁面上。
+是.若要在中使用設定檔指令碼 [!DNL Recommendations] 設計，將名稱換成 `\${...}`. 例如，如果您的個人資料指令碼名為 `user.basket`，將其稱為 `\${user.basket}` 在設計中。 請注意，反斜線表示設定檔指令碼不會由Velocity轉譯。 因此，您無法對Velocity範本中的設定檔指令碼執行任何操作。 值將直接列印在頁面上。

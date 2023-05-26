@@ -1,7 +1,7 @@
 ---
-keywords: 體驗目標；xt;create
-description: 瞭解如何在Adobe中使用Visual Experience Composer(VEC) [!DNL Target] 在啟用目標的頁面上建立「體驗目標」(XT)活動。
-title: 如何建立針對活動的體驗？
+keywords: 體驗鎖定目標； XT；建立
+description: 瞭解如何在Adobe中使用視覺化體驗撰寫器(VEC) [!DNL Target] 在啟用Target的頁面上建立體驗鎖定目標(XT)活動。
+title: 如何建立體驗鎖定目標活動？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -61,7 +61,7 @@ ht-degree: 89%
 
    ![名稱欄位](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   活動名稱不能以下列任何字元開頭：
+   活動名稱的開頭不能是下列任何字元：
 
    | 字元 | 說明 |
    |--- |--- |

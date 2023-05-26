@@ -1,7 +1,7 @@
 ---
 keywords: 體驗鎖定目標; 登陸頁面測試
-description: 元素選取器是可識別一或多個元素的CSS運算式。 了解如何在Adobe中使用元素選取器 [!DNL Target] 可視化體驗撰寫器(VEC)。
-title: 我可以在可視化體驗撰寫器(VEC)中使用元素選取器嗎？
+description: 元素選取器是可識別一或多個元素的CSS運算式。 瞭解如何在Adobe中使用元素選取器 [!DNL Target] 視覺化體驗撰寫器(VEC)。
+title: 我可以在視覺化體驗撰寫器(VEC)中使用元素選取器嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -17,9 +17,9 @@ ht-degree: 79%
 
 您可以在 Mozilla 開發人員網路 (MDN) 上的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文件中，找到關於 CSS 選取器的基本資訊。
 
-您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下 **[!UICONTROL 管理>可視化體驗撰寫器]**，然後選擇您偏好的CSS選取器。
+您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下 **[!UICONTROL 管理>視覺化體驗撰寫器]**，然後選擇您偏好的CSS選取器。
 
-![css_selectors影像](assets/css_selectors.png)
+![css_selectors圖片](assets/css_selectors.png)
 
 >[!NOTE]
 >

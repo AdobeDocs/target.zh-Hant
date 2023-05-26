@@ -1,20 +1,20 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集
-description: 了解由Adobe定義的不同區段 [!DNL Target] 個人化模型會檢視「自動化區段」報表，以回應活動中的選件/體驗。
-title: 什麼是「自動化區段」報表？
+description: 瞭解Adobe如何定義不同的區段 [!DNL Target] 個人化模型會檢視「自動化區段」報表，以回應活動中的選件/體驗。
+title: 什麼是自動化區段報表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '2142'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
 # [!UICONTROL 自動化區段報表]
 
-關於 [!UICONTROL 自動化區段] 報告，供 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。
+關於的資訊 [!UICONTROL 自動化區段] 報告，使用者可使用的兩種專用報告之一 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自動鎖定目標] (AT)活動。
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ ht-degree: 72%
 >
 >* [!UICONTROL 「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。]也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
 >
->* [!UICONTROL 個人化前瞻分析] 只有在 [!UICONTROL 主要目標] 從中選取 [!UICONTROL 報表量度] 下拉式清單。
+>* [!UICONTROL Personalization Insights] 報表僅適用於 [!UICONTROL 主要目標] 是從 [!UICONTROL 報表量度] 下拉式清單。
 >
 >* 「個人化前瞻分析」報表僅支援於[預設環境](/help/main/administrating-target/hosts.md)中使用。
 >
->* [!UICONTROL 個人化前瞻分析] 報表只會針對 [!UICONTROL 即時] 狀態和已啟用且已接收至少15天的流量。
+>* [!UICONTROL Personalization Insights] 報表只會針對以下專案中的活動產生： [!UICONTROL 即時] 狀態和已啟動且接收流量至少15天。
 
 
 不同訪客對您的 AP/AT 活動中的選件/體驗有不同的反應。此報表顯示 Target 的個人化模型定義之不同自動化區段如何回應活動中的選件/體驗。
@@ -37,11 +37,11 @@ ht-degree: 72%
 
 1. 按一下 **[!UICONTROL 活動]**，然後按一下所需的 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 活動。
 
-   如果您有許多活動，您可以選取 [!UICONTROL 類型], [!UICONTROL 狀態], [!UICONTROL 屬性], [!UICONTROL 報表來源], [!UICONTROL 體驗撰寫器], [!UICONTROL 量度類型]，和 [!UICONTROL 活動來源] 下拉式清單。
+   如果您有許多活動，您可以從「 」中選取選項來篩選清單 [!UICONTROL 型別]， [!UICONTROL 狀態]， [!UICONTROL 屬性]， [!UICONTROL 報表來源]， [!UICONTROL Experience Composer]， [!UICONTROL 量度型別]、和 [!UICONTROL 活動來源] 下拉式清單。
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   此 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 報表隨即顯示，其中提供活動效能的相關資訊，由第一個螢幕圖示表示。 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。自動鎖定目標具有額外的圖形圖示，用於 [!UICONTROL 摘要] 報表。
+   此 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 報表隨即顯示，其中會提供關於活動效能的資訊，以第一個畫面圖示表示。 另外兩個圖示代表兩個「個人化前瞻分析」報表: 「自動化區段」和「重要屬性」。自動鎖定目標有一個額外的圖形圖示，可供 [!UICONTROL 摘要] 報告。
 
    ![Adobe Target中的「個人化前瞻分析」報表](/help/main/c-reports/assets/personalization_insights.png)
 
@@ -55,9 +55,9 @@ ht-degree: 72%
 
 1. 選取所需的日期範圍。
 
-   不同於 [!UICONTROL 摘要] 報告（績效報告）, [!UICONTROL 個人化前瞻分析]，包括 [!UICONTROL 自動化區段]，僅適用於固定日期範圍：15天，30天，60天。 這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。您會發現「開始」呈灰色。 開始日期會根據您對結束日期和持續時間的選擇自動變更。
+   不喜歡 [!UICONTROL 摘要] 報表（效能報表）、 [!UICONTROL Personalization Insights]，包括 [!UICONTROL 自動化區段]，僅適用於固定日期範圍： 15天、30天和60天。 這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。您會注意到「開始」顯示為灰色。 開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
-   ![Adobe Target報表中的日曆](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target報告中的行事曆](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    您可以從[!UICONTROL 「選擇持續時間」]下拉式清單中存取可用的固定日期範圍。
 
@@ -79,9 +79,9 @@ ht-degree: 72%
 
 | 元素 | 詳細資料 |
 |--- |--- |
-| 左側面板 | 左側面板列出根據此活動之 Target 個人化模型找出的 20 個最大的「自動化區段」。「自動化區段」就像對象，但它是由 Target 的個人化模型 (而非行銷人員) 定義。每個自動化區段是由特定屬性的特定值 (或值範圍) 所組成。<br>自動化區段可重疊。 自動化區段可以由一、二、三或四個屬性定義。如需詳細資訊，請參閱下列範例。<br>若要深入瞭解 Target 的個人化模型，請參閱[隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。若要深入瞭解用於建立自動化區段之屬性 Target 的個人化模型，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
-| 中心圖 | 中心圖表顯示活動內容對反白顯示的自動化區段的執行方式。 當您按一下左側面板上的不同區段時，中心圖將隨之更新。 |
-| 圓形圖 | 中心面板頂端的圓餅圖顯示自動化區段的大小，以及活動中的個人化造訪總數 (例如，個人化模型提供的活動流量。其不包括整體成功案例模型所提供的控制流量或流量)。區段的大小僅根據個人化造訪。<br>![圓形圖](/help/main/c-reports/assets/pie.png) |
+| 左側面板 | 左側面板列出根據此活動之 Target 個人化模型找出的 20 個最大的「自動化區段」。「自動化區段」就像對象，但它是由 Target 的個人化模型 (而非行銷人員) 定義。每個自動化區段是由特定屬性的特定值 (或值範圍) 所組成。<br>自動化區段可以重疊。 自動化區段可以由一、二、三或四個屬性定義。如需詳細資訊，請參閱下列範例。<br>若要深入瞭解 Target 的個人化模型，請參閱[隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。若要深入瞭解用於建立自動化區段之屬性 Target 的個人化模型，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
+| 中心圖 | 中心圖表會顯示反白自動化區段的活動內容執行方式。 當您按一下左側面板上的不同區段時，中心圖將隨之更新。 |
+| 圓形圖 | 中心面板頂端的圓餅圖顯示自動化區段的大小，以及活動中的個人化造訪總數 (例如，個人化模型提供的活動流量。其不包括整體成功案例模型所提供的控制流量或流量)。區段的大小僅根據個人化造訪而定。<br>![圓形圖](/help/main/c-reports/assets/pie.png) |
 | 雙軸長條圖 | 雙軸長條圖包括根據該特定自動化區段之選件或體驗的造訪和轉換資訊。 |
 | 粉紅色長條 | 粉紅色長條代表轉換率，並使用圖表的底部軸。您可以將游標移至長條上以獲取更多資訊 |
 | 藍色長條 | 藍色長條代表造訪次數，並使用圖表的頂部軸。您可以將游標移至長條上以獲取更多資訊。 |
@@ -91,13 +91,13 @@ ht-degree: 72%
 
 此自動化區段僅根據一個屬性定義。此自動化區段中包含的訪客看到此 AP 活動在正常工作時間或週末以外的平日。
 
-![「自動化區段」報表範例1](/help/main/c-reports/assets/automated_segment_example_1.png)
+![自動化區段報表範例1](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **自動化區段範例 2**
 
 此自動化區段僅根據兩個屬性定義。此自動化區段中包括的訪客看到此 AP 活動在目前造訪中的頁面瀏覽次數少於三次，而且地理位置位於緯度 42.57 和 47.29 之間 (大約在新罕布夏州/奧勒崗州和華盛頓州/緬因州之間，是一家美國公司)。
 
-![「自動化區段」報表範例2](/help/main/c-reports/assets/automated_segment_example_2.png)
+![自動化區段報表範例2](/help/main/c-reports/assets/automated_segment_example_2.png)
 
 ## 「自動化區段」常見問題集 {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -105,15 +105,15 @@ ht-degree: 72%
 
 尚未針對您的活動提供[!UICONTROL 「個人化前瞻分析」]報表的數個原因如下:
 
-* 自您啟動活動以來，尚未過去15天。 「自動化區段」和「重要屬性」報表在開始活動後至少 15 天內無法使用。在初始期間，您將無法存取這些報表，或點擊「自動化區段」和「重要屬性」圖示。
+* 自您啟動活動以來，15天未曾過去。 「自動化區段」和「重要屬性」報表在開始活動後至少 15 天內無法使用。在初始期間，您將無法存取這些報表，或點擊「自動化區段」和「重要屬性」圖示。
 * 您的活動在指定的時間範圍內沒有足夠的流量。15 天過後，假設您的活動中有足夠的個人化流量以建立個人化模型，即可使用自動化區段和重要屬性報表。
-* 您的活動有收入最佳化目標。目前， [!UICONTROL 個人化前瞻分析] 僅適用於轉換最佳化目標活動。 Adobe將在未來版本中新增對收入最佳化目標活動的支援。
+* 您的活動有收入最佳化目標。目前， [!UICONTROL Personalization Insights] 僅適用於轉換最佳化目標活動。 Adobe將在未來版本中新增對收入最佳化目標活動的支援。
 
 **屬性是什麼?**
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target，以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 **何謂自動化區段?**
 
@@ -121,7 +121,7 @@ ht-degree: 72%
 
 自動化區段是由特定屬性的特定值 (或值範圍) 所組成。如需自動化區段的範例，請參閱上面的步驟 5。區段可以重疊。
 
-若要進一步了解隨機森林個人化演算法（這是Target個人化模型的基礎），請參閱 [隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
+若要進一步瞭解隨機森林個人化演演算法（Target個人化模型的基礎），請參閱 [隨機森林演演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **決定自動化區段順序的因素為何?**
 
@@ -129,7 +129,7 @@ ht-degree: 72%
 
 **為什麼我的「自動化區段」報表中只顯示部分選件/體驗?**
 
-AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且為每個體驗建置一個模型 (在 AT 的情況下)。這些活動開始提供個人化流量，而且只需要建置兩個模型，即可建立您的[!UICONTROL 「個人化前瞻分析」]。如果您未在 [!UICONTROL 個人化前瞻分析]，則可能您沒有為這些特定選件/體驗建置模型。 您可以檢查活動的 [!UICONTROL 摘要] 報告，並查看該選件/體驗旁是否有時鐘圖示。 此圖示表示該選件/體驗尚未建立模型。
+AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且為每個體驗建置一個模型 (在 AT 的情況下)。這些活動開始提供個人化流量，而且只需要建置兩個模型，即可建立您的[!UICONTROL 「個人化前瞻分析」]。如果您在中看不到所有選件/體驗 [!UICONTROL Personalization Insights]，您可能尚未針對這些特定選件/體驗建立模型。 您可以檢查活動的 [!UICONTROL 摘要] 報告並檢視該選件/體驗旁邊是否有時鐘圖示。 此圖示表示尚未針對該選件/體驗建立模型。
 
 **與某些自動化區段的其他選件/體驗相比，為什麼某些具有較低轉換率的選件/體驗接收到較大量的流量?**
 
@@ -145,7 +145,7 @@ AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且
 
 **我可以看到自訂日期範圍的「個人化前瞻分析」嗎?**
 
-個人化前瞻分析報表(兩者 [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性])僅適用於固定的日期範圍：15天，30天，60天。 這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為任何結束日期選取這些持續時間 (其中這些活動中的資料足以滿足持續時間)。
+個人化前瞻分析報表（兩者） [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性])僅適用於固定日期範圍：15天、30天和60天。 這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為任何結束日期選取這些持續時間 (其中這些活動中的資料足以滿足持續時間)。
 
 **「個人化前瞻分析」是如何建立的?**
 
@@ -153,7 +153,7 @@ AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且
 
 **為什麼[!UICONTROL 「自動化區段」]報表中的訪客流量資料總計與我的 AP 或 AT 摘要/效能報表不符?**
 
-此 [!UICONTROL 個人化前瞻分析] 報表僅包含看到Target個人化模型所選取內容片段的訪客（亦即不會考慮整體成功案例模型所提供的控制流量或流量）。 此流量類型稱為「個人化」流量。 AP/AT中的摘要效能報表包含控制與「鎖定」流量。 鎖定目標流量包括個人化流量、使用整體成功案例模型提供的流量，以及用於持續學習的一些隨機提供流量。
+此 [!UICONTROL Personalization Insights] 報表僅包含看見Target個人化模型所選取內容片段的訪客（亦即不會將控制流量或整體成功案例模型提供的流量納入考量）。 此流量型別稱為「個人化」流量。 AP/AT中的摘要效能報表包含控制與「目標」流量。 鎖定目標流量包括個人化流量、使用整體成功案例模型提供的流量，以及用於持續學習的一些隨機提供流量。
 
 **自動化區段是否互相排斥?**
 
@@ -165,8 +165,8 @@ AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且
 
 **有哪些不同的方法可以利用「個人化前瞻分析」中的資訊?**
 
-* 探索要鎖定的新對象：如果您看到某個特定自動化區段執行成效良好，您可以考慮建立對象，以便在其他報表中重複使用該區段。
-* 測試您的假設，關於哪種類型的訪客會回應哪種體驗。
+* 探索要鎖定的新受眾：如果您發現特定自動化區段成效良好，則可考慮建立受眾，以便在其他報表中重複使用該區段。
+* 測試您對於哪類訪客會回應哪個體驗的假設。
 * 深入瞭解哪些內容適用於何種類型的訪客: 哪些選件負責提升訪客造訪次數。
 * 識別表現不佳的內容。
 * 瞭解哪些屬性對模型的學習方式最重要。
@@ -175,4 +175,4 @@ AP 和 AT 活動為每個選件建置一個模型 (在 AP 的情況下)，並且
 
 **屬性在區段卡片中的顯示順序是否有任何邏輯?**
 
-否，卡片的順序僅根據上述排名。卡片內屬性的順序並非以任何邏輯為基礎。
+否，卡片的順序僅根據上述排名。卡片內的屬性順序並非根據任何邏輯。

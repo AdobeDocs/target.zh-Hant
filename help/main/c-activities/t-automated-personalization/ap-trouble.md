@@ -1,7 +1,7 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: 探索在Adobe Target中使用Automated Personalization(AP)活動時可能面臨的潛在挑戰，以及建議的解決方案。
-title: 如何疑難排解Automated Personalization?
+description: 探索您在Adobe Target中使用Automated Personalization (AP)活動時可能遇到的挑戰，以及建議的解決方案。
+title: 如何疑難排解Automated Personalization？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
@@ -40,7 +40,7 @@ AP 活動產生提升度需要數個係數:
 
 ## 我的 AP 活動 URL 在不正確的頁面顯示選件內容。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
-在AP中，URL和範本測試規則會新增至 [!DNL Target] 要求項目限制（例如target-global-mbox），此處只會評估一次。 使用者符合活動資格後，就不會重新評估Target請求層級的鎖定目標規則。 不過，鎖定目標對象會新增至位置鎖定目標規則。
+在AP中，URL和範本測試規則會新增至 [!DNL Target] 要求專案限制（例如target-global-mbox），只會評估一次。 一旦使用者符合活動資格，就不會重新評估Target請求層級鎖定目標規則。 不過，鎖定目標對象會新增至位置鎖定目標規則。
 
 **解決方案:** 以行銷活動輸入對象的形式新增必要的範本規則。在每個要求/呼叫時都會進行對象評估。
 

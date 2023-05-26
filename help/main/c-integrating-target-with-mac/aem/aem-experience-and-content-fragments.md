@@ -5,7 +5,7 @@ title: 我如何使用  [!DNL Adobe Experience Manager] (AEM)[!UICONTROL  體驗
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL 自動個人化] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL 自動個人化](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]不適用於以下活動類型：

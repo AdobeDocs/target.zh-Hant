@@ -1,7 +1,7 @@
 ---
 keywords: 自動個人化；選件；目標；對象；鎖定規則；鎖定目標
-description: 了解如何使用Adobe Target中的Automated Personalization(AP)活動，將個別優惠方案鎖定在特定對象。
-title: 如何 [!DNL Target] Automated Personalization選件？
+description: 瞭解如何使用Adobe Target中的Automated Personalization (AP)活動，將個別優惠方案鎖定在特定對象。
+title: 我該怎麼做 [!DNL Target] Automated Personalization選件？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 ---
 
-# [!DNL Target] Automated Personalization選件
+# [!DNL Target] Automated Personalization優惠方案
 
 在 [!DNL Adobe Target] [!DNL Automated Personalization] (AP)活動，您可以將選件鎖定在特定對象。
 

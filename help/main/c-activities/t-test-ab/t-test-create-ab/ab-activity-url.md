@@ -1,7 +1,7 @@
 ---
-keywords: 活動url;url；不同的url
-description: 瞭解如何指定活動URL，該URL確定test中使用的頁面，以及使用Adobe Target設計test時開啟的頁面。
-title: A/B活動中的活動URL是什麼？
+keywords: 活動url；url；不同url
+description: 瞭解如何指定活動URL，以決定測試中使用以及使用Adobe Target設計測試時開啟的頁面。
+title: A/B活動中的活動URL為何？
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # 活動 URL
 
-「活動URL」確定在test中使用的頁面，當test使用Adobe Target設計時，該頁面將開啟。
+活動URL會決定測試中使用以及使用Adobe Target設計測試時開啟的頁面。
 
 在建立活動期間出現提示時，請指定活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下&#x200B;**[!UICONTROL 「建立」]**。
 
@@ -23,8 +23,8 @@ ht-degree: 73%
 
 ## 指定不同的 URL
 
-預設情況下， [!UICONTROL 視覺體驗作曲家] 開啟在您的 [Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)
-。 您可以在活動建立期間指定不同的頁面。
+根據預設， [!UICONTROL 視覺化體驗撰寫器] 開啟中指定的頁面 [視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)
+. 您可以在活動建立期間指定不同的頁面。
 
 若要在[!UICONTROL 可視化體驗撰寫器]開啟之後顯示不同頁面，請按一下&#x200B;**[!UICONTROL 「設定」]**&#x200B;齒輪圖示，然後選取 **[!UICONTROL 「頁面傳送」]**。在「活動 URL」欄位中輸入 URL。
 

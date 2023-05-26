@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -165,7 +165,7 @@ Target 不再支援 IE 8。
 
 下列選項可用來包含其他範本規則：
 
-### 選項1:複製URL，並使用「包含」選項將其保留在範本規則中。
+### 選項1：複製URL，並使用「包含」選項將其保留在範本規則中。
 
 此選項可確保此 URL 符合活動的資格，但請注意，其相關邊角案例是，透過對包含基底 URL 的 URL 新增其他記錄來影響您的報告資料。
 
@@ -173,7 +173,7 @@ Target 不再支援 IE 8。
 
 ![在範本規則中複製 URL](assets/option1.png)
 
-### 選項2:限制URL「包含」條件，只包含查詢字串。
+### 選項2：限制URL僅「包含」查詢字串的條件。
 
 上一個選項中討論的邊角案例適用於這個選項，但此處的條件設定僅限於查詢字串。
 
@@ -187,9 +187,9 @@ Target 不再支援 IE 8。
 
 ![範本規則利用 URL 的特定部分](assets/option3.png)
 
-## 在中逸出雙引號 [!DNL Target] 設定檔屬性值未如預期運作。 {#escape}
+## 逸出雙引號 [!DNL Target] 設定檔屬性值未按預期運作。 {#escape}
 
-若您傳送的值中包含雙引號，則 [!DNL Target] 設定檔屬性，您必須重複逸出，如下所示。
+當您傳送包含雙引號的值於 [!DNL Target] 設定檔屬性，您必須將其雙重逸出，如下所示。
 
 ```
 adobe.target.trackEvent({

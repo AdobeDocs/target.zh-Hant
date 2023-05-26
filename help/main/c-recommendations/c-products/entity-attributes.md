@@ -1,6 +1,6 @@
 ---
 keywords: 實體;實體屬性;傳遞資訊至 Recommendations;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
-description: 了解如何使用實體屬性將產品或內容資訊傳遞至 [!DNL Target] Recommendations。
+description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至 [!DNL Target] Recommendations。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: 如何使用實體屬性？
 feature: Recommendations
@@ -16,22 +16,22 @@ ht-degree: 55%
 
 使用實體屬性來傳遞產品或內容資訊至 [!DNL Adobe Target Recommendations].
 
-實體會參考您要建議的項目。實體可以包括產品、內容（文章、投影片、影像、電影和電視節目）、工作清單、餐廳等。
+實體會參考您要建議的項目。實體可包括產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。
 
 [!DNL Recommendations] 會傳送演算法中所用的 `productId` 或 `productPurchasedId` (即程式碼中的 `entity.id`)。
 
 考慮以下事項：
 
-* `entity.id` 必須符合 `productPurchasedId` 傳送至訂單確認頁面及 `productId` 用於 [!DNL Adobe Analytics] 產品報表。
-* 傳遞至的實體屬性值 [!DNL Recommendations] 61天後過期。 Adobe建議您將每個實體屬性的最新值傳遞至 [!DNL Recommendations] 每月至少一次。
+* `entity.id` 必須符合 `productPurchasedId` 已傳送至訂購確認頁面，而且 `productId` 使用位置 [!DNL Adobe Analytics] 產品報告。
+* 您傳遞至的實體屬性值 [!DNL Recommendations] 會在61天後過期。 Adobe建議您將每個實體屬性的最新值傳遞至 [!DNL Recommendations] 目錄中每個專案每月至少執行一次。
 
-大部分預先定義的參數僅接受單一值，以新值覆寫舊值。 對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
+大多數預先定義的引數僅接受單一值，新值會覆寫舊值。 對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
 
-一般而言，如果您使用at.js 1，顯示資訊mbox看起來就像下列範例。*x* with `mboxCreate`. 所有實體參數屬性均區分大小寫。
+一般而言，如果您使用at.js 1，顯示資訊mbox看起來會像下面的範例。*x* 替換為 `mboxCreate`. 所有實體引數屬性都區分大小寫。
 
 >[!NOTE]
 >
->如果您使用at.js 2.*x*, `mboxCreate` （如下列範例所用）不再受支援。 若要傳遞產品或內容資訊至 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>如果您使用的是at.js 2.*x*， `mboxCreate` （如下列範例中所用）已不再受支援。 若要傳遞產品或內容資訊至 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -79,7 +79,7 @@ mboxCreate('productPage',
 
 該必需的參數用於識別產品。該英數字元 ID 必須在所有使用的 [!DNL Adobe Experience Cloud] 產品中保持一致 (包括 [!DNL Analytics])，以便各種產品識別項目並共用相關資料。
 
-此 `entity.id` 值必須 *not* 包含空格、斜線、&amp;符號、問號、百分比符號、逗號，或在REST API呼叫中傳入時需要URL編碼的其他標點符號字元。 可使用連字型大小和底線。 `entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
+此 `entity.id` 值必須 *not* 包含空格、斜線、&amp;符號、問號、百分比符號、逗號，或其他在REST API呼叫中傳遞時需要URL編碼的標點符號字元。 允許連字型大小和底線。 `entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
 
 範例: `'entity.id=67833'`
 
@@ -95,7 +95,7 @@ mboxCreate('productPage',
 
 支援多個值 (以逗號分隔值的清單)。
 
-目前頁面的類別。entity.categoryID可包含多個類別，例如子區段的子項cardigans(例如womens、womens:sweaters、womens:sweaters:卡迪根)。 多個類別必須以逗號區隔。
+目前頁面的類別。entity.categoryID可包含多個類別，例如子區段的羊毛衫(womens)、womens：sweaters、womens:sweaters:開襟衫)。 多個類別必須以逗號分隔。
 
 此 `categoryId` 值上限為250個字元。
 
@@ -105,19 +105,19 @@ mboxCreate('productPage',
 
 範例:
 
-* 產品詳細資料頁面範例：womens, womens:sweaters, womens:sweaters:羊毛
+* 產品詳細資料頁面範例：womens， womens：sweaters， womens:sweaters:羊毛衫
 * 類別頁面範例 Sweaters:womens:sweaters
-* 類別頁面範例Cardigans:womens:sweaters:羊毛
+* 類別頁面範例Cardigans：womens:sweaters:羊毛衫
 
-針對類別型建議，以逗號分隔類別值。 以逗號區隔的值都會成為類別。您也可以使用不同的分隔符號來定義子類別，例如冒號 (:)，用以區隔類別值中的子類別。
+對於類別型建議，使用逗號分隔類別值。 以逗號區隔的值都會成為類別。您也可以使用不同的分隔符號來定義子類別，例如冒號 (:)，用以區隔類別值中的子類別。
 
-例如，在以下代碼中，婦女類別分為幾個子類別：
+例如，在以下程式碼中，女性類別分為幾個子類別：
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-針對 mbox 傳送，將使用最長的屬性名稱做為索引鍵。如果出現平手狀況，將使用最後一個屬性。在上述範例中，類別索引鍵為Womens:Outerwear:夾克：卡班。
+針對 mbox 傳送，將使用最長的屬性名稱做為索引鍵。如果出現平手狀況，將使用最後一個屬性。在上述範例中，類別索引鍵是Womens:Outerwear:夾克：Caban。
 
 ### entity.brand
 
@@ -147,7 +147,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 僅限單一值。
 
-關於建議中所顯示產品的訊息，例如「特價」或「出清」。訊息通常較產品名稱更詳細。使用entity.message定義要與模板中的產品一起顯示的附加資訊。
+關於建議中所顯示產品的訊息，例如「特價」或「出清」。訊息通常較產品名稱更詳細。使用entity.message定義要在範本中與產品一起顯示的其他資訊。
 
 範例: `'entity.message=Family&nbsp;special'`
 
@@ -159,11 +159,11 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 範例: `'entity.inventory=1'`
 
-**空庫存屬性處理：** 對於傳送，如果您有包含規則、收集規則或條件設定，且 `entity.inventory` > 0或 `entity.inventory` = 0，且產品未設定庫存， [!DNL Target] 將此值評估為TRUE，並包括未設定庫存的產品。 因此，具有未設定庫存的產品會顯示在建議結果中。
+**空存貨屬性處理：** 對於傳送，如果您有包含規則、集合規則或條件設定，其中 `entity.inventory` > 0或 `entity.inventory` = 0且產品未設定存貨， [!DNL Target] 會將此值評估為TRUE，並包含未設定詳細目錄的產品。 因此，含有未設定庫存的產品會顯示在建議結果中。
 
 同樣地，如果您有一個全域排除規則，其中 `entity.inventory` = 0 且未設定 `entity.inventory`，則 [!DNL Target] 會將此規則評估為 TRUE，並排除該產品。
 
-**已知問題：** 產品搜尋與未設定庫存值屬性的傳送不一致。 例如，對於具有 `entity.inventory` = 0 ，產品搜尋不會顯示未設定庫存值的產品。
+**已知問題：** 產品搜尋與未設定的存貨值屬性的傳遞不一致。 例如，針對具有「 」的規則 `entity.inventory` = 0 ，產品搜尋不會顯示未設定庫存值的產品。
 
 ### entity.value
 
@@ -173,7 +173,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 範例: `'entity.value=15.99'`
 
-entity.value僅支援小數格式（例如15.99）。 不支援逗號格式(15,99)。
+entity.value僅支援十進位格式（例如15.99）。 不支援逗號格式(15,99)。
 
 ### entity.margin
 
@@ -187,12 +187,12 @@ entity.value僅支援小數格式（例如15.99）。 不支援逗號格式(15,9
 
 支援多個值 (JSON 陣列)。
 
-定義最多 100 個自訂變數，用以提供項目的額外資訊。您可為各個自訂屬性指定任何未使用的屬性名稱。例如，您可以建立自訂屬性，稱為 `entity.genre` 定義書或電影。 票務供應商可以為次要表演者的活動場地建立屬性，例如體育活動中的客隊或音樂會中的開幕表演。
+定義最多 100 個自訂變數，用以提供項目的額外資訊。您可為各個自訂屬性指定任何未使用的屬性名稱。例如，您可以建立自訂屬性，稱為 `entity.genre` 定義書籍或電影。 票務供應商可為次要表演者的活動場地建立屬性，例如體育賽事中的客隊或音樂會中的開場表演。
 
 限制:
 
 * 您無法對自訂實體屬性使用預先定義的實體屬性名稱。
-* 屬性 entity.environment 由系統保留，並且無法用於自訂實體屬性。嘗試使用targetPageParams、摘要或API來傳遞entity.environment會遭忽略。
+* 屬性 entity.environment 由系統保留，並且無法用於自訂實體屬性。嘗試使用targetPageParams、摘要或API來傳遞entity.environment會被忽略。
 
 範例:
 
@@ -214,7 +214,7 @@ entity.value僅支援小數格式（例如15.99）。 不支援逗號格式(15,9
 
 範例: `'entity.event.detailsOnly=true'`
 
-在下列範例中，第一個mbox呼叫會更新目錄和行為資料。 第二個mbox呼叫只會更新目錄。
+在以下範例中，第一個mbox呼叫會更新目錄和行為資料。 第二個mbox呼叫只會更新目錄。
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )

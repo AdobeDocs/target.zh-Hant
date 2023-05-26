@@ -1,6 +1,6 @@
 ---
 keywords: 建議;備用
-description: 了解如何在Adobe中使用備份建議 [!DNL Target] Recommendations。 建議項目不足的建議會顯示備份演算法的結果。
+description: 瞭解如何在Adobe中使用備份建議 [!DNL Target] Recommendations。 建議沒有足夠的建議專案，則會顯示備份演演算法的結果。
 title: 如何在Recommendations中使用備份建議？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -14,13 +14,13 @@ ht-degree: 82%
 
 # 使用備份推薦
 
-如果您使用Adobe Target中的備份建議功能，則任何建議項目不足的建議將不會顯示預設內容。 建議會改為顯示備份演算法的結果。
+如果您使用Adobe Target中的備用建議功能，沒有足夠建議專案的建議將不會顯示預設內容。 建議會改為顯示備份演算法的結果。
 
 如果您未使用備份建議，而建議沒有足夠的項目來顯示，則系統會對使用者顯示預設內容。
 
 >[!NOTE]
 >
->其他資訊包含在 [建立條件的內容區段](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 主題，包括說明使用 [!UICONTROL 部分設計呈現] 和 [!UICONTROL 顯示備份Recommendations] 選項一起或分開。
+>其他資訊包含在 [建立條件的內容區段](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 主題，包括說明使用時將觀察到的結果的矩陣 [!UICONTROL 部分設計呈現] 和 [!UICONTROL 顯示備用Recommendations] 選項一起或分開。
 
 使用演算法資料後，備份建議功能會始終使用網站上檢視次數最多的項目來填充任何剩余區段。例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
 

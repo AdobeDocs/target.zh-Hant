@@ -1,7 +1,7 @@
 ---
-keywords: 多值；屬性；建議；多值；多值；多值
-description: 瞭解如何在Adobe中使用多值欄位 [!DNL Target] Recommendations使用特殊的多價值運營商，例如在推薦多演員的電影時。
-title: 我可以在Recommendations使用多值屬性嗎？
+keywords: 多值；屬性；建議；多值；多值
+description: 瞭解如何在Adobe中使用多值欄位 [!DNL Target] Recommendations使用特殊的多值運運算元，例如，當推薦有多位演員的影片時。
+title: 我可以在Recommendations中使用多值屬性嗎？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,17 +13,17 @@ ht-degree: 8%
 
 # 使用多值屬性
 
-有時，您可能希望使用多值欄位。  考量下列範例：
+有時您可能會想要使用多值欄位。  考量下列範例：
 
 * 您提供影片給使用者。某部電影有多位演員。
 * 你賣音樂會的票。給定用戶有多個喜愛的樂隊。
 * 你賣衣服。襯衫有多種尺寸。
 
-要處理這些方案中的建議，您可以將多值資料傳遞到 [!DNL Target Recommendations] 使用特殊的多值運算子。
+若要處理這些案例中的建議，您可以將多值資料傳遞至 [!DNL Target Recommendations] 並使用特殊的多值運運算元。
 
-允許 [!DNL Recommendations] 要標識多值資料，應將其作為JSON陣列發送，如下面的代碼示例中所示。
+允許 [!DNL Recommendations] 若要識別多值資料，資料應以JSON陣列傳送，如下列程式碼範例所示。
 
-## 在JavaScript中傳遞多值參數
+## 在JavaScript中傳遞多值引數
 
 ```
 function targetPageParams() { 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-有關詳細資訊，請參見 [實現多值屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 在 *自定義實體屬性*。
+如需詳細資訊，請參閱 [實作多值屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 在 *自訂實體屬性*.
 
 ## 在CSV檔案中傳遞多值實體屬性
 
@@ -59,22 +59,22 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-當實體屬性、配置檔案屬性或mbox參數按上述格式提供為多值時， [!DNL Recommendations] 自動推斷欄位是多值。
+當根據上述格式以多值形式提供實體屬性、設定檔屬性或mbox引數時， [!DNL Recommendations] 會自動推斷欄位是多值。
 
-以下運算子可用於多值實體、配置檔案和mbox屬性：
+下列運運算元可搭配多值實體、設定檔和mbox屬性使用：
 
-* [!UICONTROL 清單中包含]
-* [!UICONTROL 清單中未包含]
+* [!UICONTROL 包含在清單中]
+* [!UICONTROL 不包含在清單中]
 
 ## 在包含規則中使用多值屬性
 
 >[!NOTE]
 >
->當將單值左側與多值右側進行比較時，僅在使用配置檔案屬性匹配或參數(mbox)屬性匹配規則時，標準中才提供對多值屬性的動態匹配的支援。 促銷、實體屬性匹配或包含規則左側的清單當前不支援多值屬性。
+>目前，只有在比較左側的單一值和右側的多個值時，使用設定檔屬性比對或引數(mbox)屬性比對規則時，才能在條件中支援動態比對多個值屬性。 促銷活動、實體屬性比對或包含規則左側的清單目前不支援多值屬性。
 
-### 示例：排除最近監視的項目
+### 範例：排除最近觀看的專案
 
-假設您希望阻止推薦用戶最近10部已觀看影片中的任何影片。 首先，編寫一個名為 `user.lastWatchedMovies` 以JSON陣列形式跟蹤最近10個已查看的影片。 然後，可以使用以下包含規則排除項目：
+假設您想要防止推薦使用者最近看過十部電影中的任何電影。 首先，編寫名為的設定檔指令碼 `user.lastWatchedMovies` 以JSON陣列追蹤最後十部檢視的電影。 然後，您可以使用以下包含規則來排除專案：
 
 ```
 `Profile Attribute Matching`
@@ -94,9 +94,9 @@ function targetPageParams() {
 } 
 ```
 
-### 示例：推薦用戶收藏夾中的項
+### 範例：建議使用者最愛的專案
 
-假設您只希望在樂隊演奏是用戶最喜愛的樂隊之一時向音樂會推薦票證。 首先，確保您有一個名為 `profile.favoriteBands` 包含用戶最喜愛的頻段。 然後，確保目錄包含屬性 `entity.artistPerforming` 包括音樂會的藝術家。 然後，可以使用以下包含規則：
+假設您只想在演唱會中推薦門票，只要演唱會的樂隊是使用者最喜愛的樂隊之一。 首先，請確定您有一個設定檔變數，稱為 `profile.favoriteBands` 其中包含使用者最愛的樂隊。 然後，確定您的目錄包含屬性 `entity.artistPerforming` 包括演唱會中的演出者。 然後，您可以使用以下包含規則：
 
 ```
 `Profile Attribute Matching`
@@ -116,9 +116,9 @@ function targetPageParams() {
 }
 ```
 
-### 示例：API建立從用戶收藏夾推薦項的條件
+### 範例： API建立條件，從使用者的最愛推薦專案
 
-使用多值篩選規則的條件（與所有條件一樣）可通過Adobe I/OAPI建立。 用於建立實體屬性的標準的示例API調用 `id` 包含在mbox參數清單中 `favorites` 此處提供：
+使用多值篩選規則的條件（例如所有條件）可以透過Adobe I/OAPI建立。 建立條件的範例API呼叫，其中實體屬性 `id` 包含在mbox引數清單中 `favorites` 提供於此處：
 
 ```
 curl -X POST \
@@ -155,7 +155,7 @@ curl -X POST \
 }'
 ```
 
-這將與頁面上的JavaScript配對，以傳遞收藏夾內容：
+這會在頁面上與JavaScript配對，以傳入我的最愛內容：
 
 ```
 <!-- pass in the value of mbox parameter “favorites” as JSON array -->

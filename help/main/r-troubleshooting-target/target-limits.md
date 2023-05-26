@@ -1,7 +1,7 @@
 ---
 keywords: 字元限制;mbox 參數;批次傳送 api;設定檔參數;限制;內建設定檔;上限;限制;限制;字元;最佳實務;orderid;orderTotal;mbox3rdPartyID;類別;categoryID;疑難排解
-description: 檢視會影響活動和其他元素的字元限制和其他限制清單 [!DNL Adobe Target].
-title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]?
+description: 檢視字元限制和其他限制的清單，這些限制會影響中的活動和其他元素 [!DNL Adobe Target].
+title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]？
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
@@ -78,21 +78,21 @@ ht-degree: 81%
 
 
 
-* **限制**:每個50個mbox [!DNL Target] 內容傳送批次mbox請求。
+* **限制**：每台50個mbox [!DNL Target] 內容傳遞批次mbox請求。
 
-   每個超過50個mbox [!DNL Target] 內容傳送批次mbox請求會導致回應錯誤代碼 `HTTP 400` 錯誤訊息 `size must be between 0 and 50`.
+   超過每台50個mbox [!DNL Target] 內容傳遞批次mbox請求導致回應錯誤代碼 `HTTP 400` 有錯誤訊息 `size must be between 0 and 50`.
 
-   批次mbox請求會依序處理，增加每次迭代的整體回應時間。 批次請求中的mbox越多，預期的回應延遲就越多，因此可能會發生逾時。 如果這些高延遲批次請求封鎖了體驗呈現，當使用者等待體驗呈現時，延遲可能會導致使用者體驗降級。
+   批次mbox請求會依序處理，而增加每個反複專案的整體回應時間。 批次請求上的mbox越多，預期的回應延遲就越多，因此可能會逾時。 如果這些高延遲批次請求上的體驗呈現被封鎖，延遲可能會導致使用者體驗降低，因為使用者會等待體驗呈現。
 
-* **限制**:60 MB HTTPPOST主體大小 [!DNL Target] 內容傳送要求。
+* **限制**：60 MB HTTPPOST內文大小 [!DNL Target] 內容傳遞請求。
 
-   超過60 MB的HTTPPOST主體大小 [!DNL Target] 內容傳送請求會導致回應錯誤代碼 `HTTP 413 Request Entity Too Large`.
+   超過60 MB的HTTPPOST主體大小 [!DNL Target] 內容傳遞請求導致回應錯誤代碼 `HTTP 413 Request Entity Too Large`.
 
-* **建議的限制**:每條通知50條 [!DNL Target] 傳遞批次請求。
+* **建議的限制**：每個50個通知 [!DNL Target] 傳遞批次請求。
 
-   超過50次通知 [!DNL Target] 傳送批次請求可能導致回應延遲和逾時增加。
+   超過50則通知/次 [!DNL Target] 傳遞批次要求可能會導致回應延遲和逾時增加。
 
-   批次通知請求會依序處理，增加每次迭代的整體回應時間。 批次請求的通知越多，預期的回應延遲就越多，因此可能導致逾時。 某些客戶可能可接受批次通知請求上的某些額外延遲，但請注意，逾時和任何後續重試都可能導致更多延遲。
+   批次通知請求會依序處理，增加每個反複專案的整體回應時間。 批次請求上的通知越多，預期的回應延遲就越多，因此可能會逾時。 有些客戶可能會接受批次通知請求上的額外延遲，但請注意，逾時和任何後續重試都可能導致更嚴重的延遲。
 
 ## 客戶屬性
 
@@ -155,7 +155,7 @@ ht-degree: 81%
 
 ### 每個活動的體驗
 
-* **限制**:每人2,000個體驗 [!UICONTROL 體驗鎖定] (XT)、 [!UICONTROL A/B測試], [!UICONTROL 多變數測試] (MVT)和 [!UICONTROL 自動鎖定目標] 活動。
+* **限制**：每人2,000個體驗 [!UICONTROL 體驗鎖定] (XT)， [!UICONTROL A/B測試]， [!UICONTROL 多變數測試] (MVT)，以及 [!UICONTROL 自動鎖定目標] 活動。
 
    每個 Automated Personalization (AP) 活動最多 30,000 個體驗。
 
@@ -179,13 +179,13 @@ ht-degree: 81%
 
 * **上限**：250 個字元。
 
-   針對傳送API(at.js 2.*x*)、批次mbox V2和AEP Web SDK(alloy.js)整合、mbox名稱 *can* 包含英數字元(A-Z、a-z、0-9)和下列任一字元：
+   針對傳送API (at.js 2.*x*)、批次mbox V2和AEP Web SDK (alloy.js)整合、mbox名稱 *可以* 包含英數字元(A-Z、a-z、0-9)和下列任一字元：
 
    ```
    - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
    ```
 
-   針對at.js 1.*x* 整合， mbox名稱 *不能* 包含下列任一字元：
+   適用於at.js 1.*x* 整合， mbox名稱 *無法* 包含以下任一字元：
 
    ```
    ' " %22 %27 < > %3C %3E 
@@ -299,7 +299,7 @@ ht-degree: 81%
 
 * **建議的限制**：2,000 個字元。
 
-   依編碼字串的大小而定，可能比原始字串大許多。如果字串太大，會在到達 [!DNL Adobe Target].
+   依編碼字串的大小而定，可能比原始字串大許多。如果字串太大，在到達之前會失敗 [!DNL Adobe Target].
 
 ## 設定檔指令碼
 

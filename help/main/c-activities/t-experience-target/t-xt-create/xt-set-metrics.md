@@ -1,7 +1,7 @@
 ---
 keywords: 體驗鎖定目標; XT; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-description: 瞭解如何在Adobe中指定度量 [!DNL Target] 體驗目標活動，確定訪問成功的時間，如轉換、收入和參與。
-title: 如何在體驗目標活動中設定目標指標？
+description: 瞭解如何在Adobe中指定量度 [!DNL Target] 體驗鎖定目標活動，用來判斷造訪是否成功，例如轉換、收入和參與。
+title: 如何在體驗鎖定目標活動中設定目標量度？
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,11 +11,11 @@ ht-degree: 81%
 
 ---
 
-# 在「體驗目標」(XT)活動中設定度量
+# 在體驗鎖定目標(XT)活動中設定量度
 
-在 [!DNL Adobe Target] [!UICONTROL 體驗目標] (XT)活動，以確定訪問成功的時間。
+在中使用量度 [!DNL Adobe Target] [!UICONTROL 體驗鎖定] (XT)活動，用於判斷造訪是否成功。
 
-有關成功度量的詳細資訊，請參見 [成功度量](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
+如需成功量度的詳細資訊，請參閱 [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. 指定活動的目標。
 1. 選取[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。

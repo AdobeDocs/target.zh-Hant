@@ -1,6 +1,6 @@
 ---
 keywords: 產品;集合
-description: 了解Adobe中的實體 [!DNL Target] Recommendations。 實體會參考您要建議的項目，使用 [!DNL Target]，例如文章、電影或產品。
+description: 瞭解Adobe中的實體 [!DNL Target] Recommendations。 實體會使用來參照您要建議的專案 [!DNL Target]，例如文章、影片或產品。
 title: 如何使用實體？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations

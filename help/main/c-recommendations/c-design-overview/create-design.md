@@ -1,6 +1,6 @@
 ---
 keywords: 建議設計;建立設計;複製設計
-description: 了解如何建立Adobe [!DNL Target] Recommendations設計時使用預設設計，或建立最符合頁面版面的自訂設計。
+description: 瞭解如何建立Adobe [!DNL Target] Recommendations design使用預設設計或建立自訂設計以最符合您的頁面版面。
 title: 如何在Recommendations中建立設計？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -16,24 +16,24 @@ ht-degree: 30%
 
 設計可定義建議出現在頁面上的方式。
 
-您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。此 **[!UICONTROL Recommendations >設計]** 畫面會同時顯示預設設計卡片和您帳戶中建立的任何設計。
+您可以使用預設的設計來建立 [!UICONTROL Recommendations] 設計，或建立自訂的設計。此 **[!UICONTROL Recommendations >設計]** 畫面會顯示預設設計卡片以及在您的帳戶中建立的任何設計。
 
-使用設計時，請牢記下列資訊：
+使用設計時，請記住下列資訊：
 
 * 您可以使用預設設計來建立建議設計，也可以建立自訂設計。
-* 無法編輯或刪除預設設計。
+* 您無法編輯或刪除預設設計。
 * 您可以編輯、複製或刪除自訂設計。
-* 要根據預設設計建立設計，必須先複製設計，然後編輯副本。
+* 若要根據預設設計建立設計，您必須先複製設計，然後編輯副本。
 
-下圖顯示預設1 x 4設計：
+此圖例顯示預設的1 x 4設計：
 
 ![1 x 4預設設計](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
-下圖顯示自訂設計：
+此圖例顯示自訂設計：
 
 ![自訂設計](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-您可以在活動建立程式期間，從可視化體驗撰寫器(VEC)內或從活動建立外的設計程式庫外建立設計。 以下幾節假設您是從程式庫建立設計，但步驟類似。
+您可以在活動建立過程中從視覺化體驗撰寫器(VEC)內或在活動建立之外從設計程式庫建立設計。 以下小節假設您是從資料庫建立設計，但步驟類似。
 
 ## 建立設計
 
@@ -41,45 +41,45 @@ ht-degree: 30%
 
 ### 根據預設設計建立設計
 
-1. 按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 設計]** 顯示 [!UICONTROL 設計] 程式庫。
+1. 按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 設計]** 以顯示 [!UICONTROL 設計] 資料庫。
 
-   ![設計程式庫](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
+   ![設計資料庫](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. 將滑鼠移至卡片上，即可檢視您要建立的設計，然後按一下 **[!UICONTROL 複製]** 表徵圖。
+1. 將滑鼠移到您要建立的設計的卡片上，然後按一下 **[!UICONTROL 複製]** 圖示。
 
    ![Card_CopyDesign影像](assets/Card_CopyDesign.png)
 
-   此 [!UICONTROL 建立設計] 對話框。
+   此 [!UICONTROL 建立設計] 對話方塊隨即顯示。
 
    ![createDesign影像](assets/createDesign.png)
 
-1. 在 **[!UICONTROL 資訊]** 面板，新增 **[!UICONTROL 內容名稱]** 和可選的預覽影像，以顯示在設計卡片上。
+1. 在 **[!UICONTROL 資訊]** 面板，新增 **[!UICONTROL 內容名稱]** 和選用的預覽影像，顯示在設計卡片上。
 
    使用預設設計時，設計名稱和「Copy」會出現在 **[!UICONTROL 內容名稱]** 欄位。 您可以編輯名稱。您也可以選取要在設計卡片上顯示的影像。
 
-1. （條件性）編輯設計 **[!UICONTROL 程式碼]**，視需要。
+1. （視條件而定）編輯設計 **[!UICONTROL 程式碼]**，視需要而定。
 
    Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請參閱 [https://velocity.apache.org](https://velocity.apache.org) 和 [使用Velocity自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以`<div>`標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。滑動 [!UICONTROL HTML設計] 切換至「關閉」位置，使用非HTML代碼。
+   設計可以是 HTML 或非 HTML。根據預設，HTML 設計會以`<div>`標籤包住，以允許在 Web 環境中進行點擊追蹤。非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。滑動 [!UICONTROL HTML設計] 切換至「關閉」位置以使用非HTML程式碼。
 
    >[!NOTE]
    >
-   >可在設計中參考（硬式編碼或透過回圈）的實體數上限為99。
+   >可在設計中參照（硬式編碼或透過回圈）的最大實體數為99。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ### 建立自訂設計
 
-1. 按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 設計]** 顯示 [!UICONTROL 設計] 程式庫。
+1. 按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 設計]** 以顯示 [!UICONTROL 設計] 資料庫。
 
 1. 按一下 **[!UICONTROL 建立設計]**.
 
-   如果您想要將新的自訂設計建立在現有設計上，請將滑鼠移至所需的設計上，然後按一下 [!UICONTROL 複製] 表徵圖。 然後，您可以編輯副本以建立新的自訂設計。
+   如果您想要讓新的自訂設計以現有設計為基礎，請將滑鼠移到所需設計上，然後按一下 [!UICONTROL 複製] 圖示。 然後，您可以編輯副本以建立新的自訂設計。
 
-1. 新增 **[!UICONTROL 內容名稱]** 和可選的預覽影像。
+1. 新增 **[!UICONTROL 內容名稱]** 和選用的預覽影像。
 
-1. （條件性）編輯設計 **[!UICONTROL 程式碼]**，視需要。
+1. （視條件而定）編輯設計 **[!UICONTROL 程式碼]**，視需要而定。
 
    如需詳細資訊，請參閱上述步驟4中的資訊。
 
@@ -89,25 +89,25 @@ ht-degree: 30%
 
 請記住，您無法編輯或複製預設設計；您只能複製預設設計。
 
-將滑鼠移到 [!UICONTROL 設計] 程式庫，然後按一下適當的圖示：編輯、複製或刪除。
+將滑鼠游標停留在 [!UICONTROL 設計] 程式庫，然後按一下適當的圖示：編輯、複製或刪除。
 
 ![設計的暫留圖示](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
-您可以複製現有設計以建立重複設計，然後可加以修改。 這可讓您輕鬆建立類似的設計。
+您可以複製現有設計來建立複製設計，然後可以修改該設計。 這可讓您以更少的工作量建立類似的設計。
 
-請注意，設計可供整個帳戶使用。 刪除設計前，請務必考慮這一點。 已刪除的設計無法恢復。
+請注意，設計在整個帳戶中皆可使用。 刪除設計之前，請務必先考量這一點。 已刪除的設計無法復原。
 
 ## JSON 範例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-下列範例說明如何透過表單式編輯器設定活動時傳回JSON回應。
+以下範例說明透過表單式編輯器設定活動時，如何傳回JSON回應。
 
-1. 從設計程式庫內或表單式工作流程內建立設計。 如果您嘗試在可視化體驗撰寫器(VEC)工作流程內執行此作業，則無法建立HTML設計以外的任何項目，此設計會包裝在 `<div>` 供點擊追蹤之用。
+1. 從設計程式庫或表單式工作流程中建立設計。 如果您嘗試在視覺化體驗撰寫器(VEC)工作流程中執行此操作，則無法建立除了HTML設計以外的任何專案，此設計會包裝在 `<div>` 中作為點選追蹤用途。
 
 1. 確定「HTML 設計」選項已關閉:
 
    ![html_design_toggle影像](assets/html_design_toggle.png)
 
-1. 下列程式碼是您可貼入設計的範例：
+1. 下列程式碼為貼入設計的範例：
 
    ```javascript
        #* 
@@ -140,18 +140,18 @@ ht-degree: 30%
 
    1. 導覽至 **[!UICONTROL 活動]** 頁面。
    1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**>**[!UICONTROL 「Recommendations」]**。
-   1. 在 **[!UICONTROL 選擇體驗撰寫器]**，選取 **[!UICONTROL 表單]**，然後按一下 **[!UICONTROL 下一個]**.
+   1. 下 **[!UICONTROL 選擇體驗撰寫器]**，選取 **[!UICONTROL 表單]**，然後按一下 **[!UICONTROL 下一個]**.
    1. 在位置下，輸入文字: &quot;Sample_Recs_Response&quot;
    1. 在&#x200B;**[!UICONTROL 「預設內容」]**&#x200B;下，按向下箭頭，然後按一下&#x200B;**[!UICONTROL 「新增建議」]**。
    1. 選擇頁面類型。這會決定下一個畫面的起始篩選。
    1. 選取條件卡，然後按&#x200B;**[!UICONTROL 「下一步」]**。
-   1. 選取您在上一步驟中建立的設計，然後按一下 **[!UICONTROL 下一個]**.
+   1. 選取您在上一步建立的設計，然後按一下 **[!UICONTROL 下一個]**.
    1. 完成設定程序。
    1. 按一下&#x200B;**[!UICONTROL 「非使用中」]**&#x200B;旁的向右箭頭，然後選取&#x200B;**[!UICONTROL 「啟動」]**。
 
 1. 在設定並啟動活動之後，您可以設定請求範例來取回全新的 JSON 回應。
 
-   從您儲存活動時， [!DNL Target] 需要建立模型以支援選取的條件設定。 根據許多因素而定，這需要一些時間。模型建立後就會顯示結果。
+   從您儲存活動開始， [!DNL Target] 將需要建立模型以支援所選條件設定。 根據許多因素而定，這需要一些時間。模型建立後就會顯示結果。
 
    例如:
 
@@ -163,8 +163,8 @@ ht-degree: 30%
 
    | 參數 | 值 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target用戶端代碼(位於/help/target/products.html#recsSettings > Recommendations API Token >用戶端代碼。 |
-   | `[YOUR_MBOX_NAME]` | 您在表單式Recommendations的「位置」區段中選取的名稱，此例中為Sample_Recs_Response。 |
+   | `[YOUR_CLIENT_CODE]` | Target使用者端代碼(位於/help/target/products.html#recsSettings > Recommendations API Token >使用者端代碼。 |
+   | `[YOUR_MBOX_NAME]` | 您在表單式Recommendations的「位置」區段中選取的名稱，此範例中為Sample_Recs_Response。 |
    | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
 
@@ -180,7 +180,7 @@ ht-degree: 30%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。此設計範例也傳回活動詳細資料、Target設定檔詳細資料（如適用），以及其他 `entity.attributes` 與傳回的項目相關聯。
+或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。此設計範例也傳回活動詳細資料、Target設定檔詳細資料（如適用）及其他 `entity.attributes` 與傳回的專案相關聯。
 
 ```javascript
     {   
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 訓練影片：在Recommendations中建立自訂設計(3:20) ![概述徽章](/help/main/assets/overview.png)
+## 訓練影片：在Recommendations中建立自訂設計(3:20) ![Overview badge](/help/main/assets/overview.png)
 
 此影片包含下列資訊:
 

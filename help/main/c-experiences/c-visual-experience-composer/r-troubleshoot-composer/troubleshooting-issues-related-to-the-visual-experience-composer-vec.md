@@ -1,7 +1,7 @@
 ---
-keywords: 鎖定目標；可視化體驗撰寫器； VEC；疑難排解可視化體驗撰寫器；疑難排解； TLS; TLS 1.2
-description: 了解如何疑難排解Adobe中有時發生的問題 [!DNL Target] 可視化體驗撰寫器(VEC)。
-title: 如何疑難排解可視化體驗撰寫器的相關問題？
+keywords: 鎖定目標；視覺化體驗撰寫器； VEC；疑難排解視覺化體驗撰寫器；疑難排解； TLS； TLS 1.2
+description: 瞭解如何疑難排解Adobe中有時發生的問題 [!DNL Target] 特定條件下的視覺化體驗撰寫器(VEC)。
+title: 如何疑難排解視覺化體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
@@ -13,9 +13,9 @@ ht-degree: 67%
 
 # 排解視覺化體驗撰寫器的相關問題
 
-顯示有時發生在 [!DNL Adobe Target] [!UICONTROL 可視化體驗撰寫器] (VEC)。
+顯示問題有時發生在中 [!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)時。
 
-## 當我在可視化體驗撰寫器中開啟我的網站時， [!DNL Target] 程式庫不會載入。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 當我在Visual Experience Composer中開啟網站時， [!DNL Target] 程式庫不載入。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可視化體驗撰寫器中開啟網站時，Target 會新增兩個參數 (`mboxEdit=1` 和 `mboxDisable=1`)。
 
@@ -31,7 +31,7 @@ ht-degree: 67%
 
 如果問題是在增強體驗撰寫器中發生，請嘗試關閉增強體驗撰寫器，並改為使用可視化體驗撰寫器。
 
-若要停用增強體驗撰寫器，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]** 關掉 **[!UICONTROL 啟用增強體驗撰寫器]** 選項。
+若要停用增強體驗撰寫器，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]** 並關閉 **[!UICONTROL 啟用增強體驗撰寫器]** 選項。
 
 有些使用者在主控台中看見下列錯誤訊息:
 
@@ -81,12 +81,12 @@ ht-degree: 67%
 
       * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**[!UICONTROL 「包含」]**，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。
 
-      ![chrome_extension影像](assets/chrome_extension.png)
+      ![chrome_extension圖片](assets/chrome_extension.png)
 
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![requestly image](assets/requestly.png)
+   ![requestly影像](assets/requestly.png)
 
    您現在應該可以使用可視化體驗撰寫器快速載入頁面。
 
@@ -101,7 +101,7 @@ ht-degree: 67%
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. 按一下&#x200B;**[!UICONTROL 「開始」]**。
 
-![firefox_extension影像](assets/firefox_extension.png)
+![firefox_extension圖片](assets/firefox_extension.png)
 
 設定擴充功能之後，開啟 Target。您的頁面現在應該會在可視化體驗撰寫器中載入，即便已停用增強體驗撰寫器。
 
@@ -114,16 +114,16 @@ ht-degree: 67%
 * 您輸入了無效的 URL。
 * 您尚未在您的帳戶設定頁面中輸入預設 URL。
 
-   確認已啟用此設定，然後在您的網站上下載和更新at.js。
+   確認已啟用此設定，然後在您的網站上下載及更新at.js。
 
-* 如果您嘗試使用 [new [!UICONTROL Visual Editing Helper] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 然後回到 [舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 和 [!DNL Target] 無法載入您的網站、清除所有瀏覽器資料並停用新的擴充功能。
+* 如果您嘗試使用 [新 [!UICONTROL Visual Editing Helper] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 然後返回 [舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 和 [!DNL Target] 無法載入您的網站、清除所有瀏覽器資料並停用新的擴充功能。
 
-* 如果您的網站在VEC中無法載入，或意外運作，可能的修正是先在瀏覽器中接受網站上的Cookie，再嘗試在中載入網站 [!DNL Target].
+* 如果您的網站無法在VEC中載入，或行為異常，可能的修正是在嘗試載入網站之前，在瀏覽器中接受網站上的Cookie [!DNL Target].
 
 ## 當我使用瀏覽模式時，VEC 似乎損毀. (僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-使用瀏覽模式時，如果您存取的URL沒有 [!DNL Target] 已實作的程式庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含影格假結尾標頭，則VEC似乎損毀。 基於瀏覽器安全性考量， [!DNL Target] 無法正確存取您導覽至的URL，或如果頁面載入，VEC URL更新不會一致。
+使用瀏覽模式時，如果您存取的URL沒有 [!DNL Target] 已實作程式庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含frame-buster標頭，則VEC會顯示為已損毀。 基於瀏覽器安全性的考量， [!DNL Target] 無法正確存取您導覽至的URL，或者如果頁面載入，VEC URL無法一致更新。
 
-發生此問題是因為VEC在 `<iframe>`. 瀏覽器的目前安全機制會防止 [!DNL Target] UI會因為相同來源原則而無法存取指定框架的元素。 瀏覽器會封鎖嘗試存取具有不同來源且包含下列資訊的框架的指令碼： `location.href`.
+發生此問題的原因在於VEC載入的網頁位於 `<iframe>`. 瀏覽器的目前安全性機制可防止 [!DNL Target] UI無法存取指定框架的元素，因為相同來源原則。 瀏覽器會封鎖嘗試存取具有不同來源且包含下列資訊的影格的指令碼： `location.href`.
 
-您必須使用 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) （建議）或 [舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 插入 [!DNL Target] 程式庫中，以便以最佳方式瀏覽這些頁面。
+您必須使用新的 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) （建議使用）或 [舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 以插入 [!DNL Target] 以最佳方式瀏覽頁面。

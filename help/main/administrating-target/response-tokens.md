@@ -1,6 +1,6 @@
 ---
-keywords: 回應Token; Token；外掛程式；at.js；回應；平台Web Sdk
-description: 了解如何在 [!DNL Adobe Target] 輸出特定資訊，以偵錯並與第三方工具整合。
+keywords: 回應Token；Token；外掛程式；外掛程式；at.js；回應；平台web sdk
+description: 瞭解如何在中使用回應Token [!DNL Adobe Target] 以輸出偵錯及與第三方工具整合的特定資訊。
 title: 什麼是回應Token？如何使用？
 feature: Administration & Configuration
 role: Admin
@@ -14,41 +14,41 @@ ht-degree: 26%
 
 # 回應 Token
 
-回應Token可讓您自動輸出 [!DNL Adobe Target] 至您品牌的網頁。 此資訊可包含活動、選件、體驗、使用者設定檔、地理資訊等的詳細資訊。 這些詳細資料提供額外的回應資料，可與內部或第三方工具共用，或用於除錯。
+回應Token可讓您自動輸出 [!DNL Adobe Target] 至您品牌的網頁。 此資訊可包含有關活動、選件、體驗、使用者設定檔、地理資訊等的詳細資訊。 這些詳細資料提供額外的回應資料，可與內部或第三方工具共用，或用於偵錯。
 
-回應Token可讓您選擇要使用的變數（以索引鍵值配對表示），然後啟用這些變數以隨附於 [!DNL Target] 回應。 您可使用開關啟用變數，變數的傳送方式為 [!DNL Target] 回應，可在網路呼叫中驗證。 回應Token也可在 [!UICONTROL 預覽] 模式。
+回應Token可讓您選擇要使用的變數（在索引鍵值配對中），然後啟用這些變數作為的一部分傳送。 [!DNL Target] 回應。 您使用開關啟用變數，而變數會隨附傳送 [!DNL Target] 回應，這可以在網路呼叫中驗證。 回應Token也適用於 [!UICONTROL 預覽] 模式。
 
-外掛程式和回應Token之間的主要差異，在於外掛程式會將JavaScript傳送至傳送時執行的頁面。 但是，回應Token會傳送物件，然後可使用事件接聽程式來讀取並採取行動。 回應代號方法更安全，且可更輕鬆開發和維護協力廠商整合。
+外掛程式和回應Token之間的主要差異，在於外掛程式會將JavaScript傳送至傳送時執行的頁面。 然而，回應Token會傳送一個物件，然後可以使用事件接聽程式讀取該物件並據以動作。 回應Token方法比較安全，且更容易開發和維護協力廠商整合。
 
 >[!NOTE]
 >
->回應Token可與at.js 1.1版或更新版本搭配使用。
+>回應Token可搭配at.js 1.1版或更新版本使用。
 
 | Target SDK | 建議的動作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 請確定您使用的是Platform Web SDK 2.6.0版或更新版本。 如需下載最新版Platform Web SDK的相關資訊，請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 在 *平台Web SDK概述* 指南。 如需各版Platform Web SDK中新功能的相關資訊，請參閱 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *平台Web SDK概述* 指南。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版at.js的資訊，請參閱 [下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。有些外掛程式需仰賴存在於mbox.js中的內部方法（現已淘汰），但不存在於at.js中，但系統會傳送但失敗。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 確保您使用的是Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 在 *Platform Web SDK總覽* 指南。 如需每個Platform Web SDK版本中新功能的詳細資訊，請參閱 [發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *Platform Web SDK總覽* 指南。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版at.js的資訊，請參閱 [下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js （現已被取代）中已有部分外掛程式依賴的內部方法，但at.js中沒有，雖然已傳送但會失敗。 |
 
 ## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. 請確定您使用的是Platform Web SDK 2.6.0版（或更新版）或at.js 1.1版（或更新版）。
+1. 確保您使用的是Platform Web SDK 2.6.0版（或更新版本）或at.js 1.1版（或更新版本）。
 
    如需詳細資訊：
 
-   * **平台Web SDK**:請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *平台Web SDK概述* 指南。
-   * **at.js**:請參閱 [下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **平台Web SDK**：請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *Platform Web SDK總覽* 指南。
+   * **at.js**：請參閱 [下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. 在 [!DNL Target]，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 回應Token]**.
 
-   ![response_tokens-new image](assets/response_tokens-new.png)
+   ![response_tokens-new圖片](assets/response_tokens-new.png)
 
-1. 啟動所需的回應Token，例如 `activity.id` 和 `offer.id`.
+1. 啟用所需的回應Token，例如 `activity.id` 和 `offer.id`.
 
    依預設有下列參數可用:
 
    | 類型 | 參數 | 附註 |
    |--- |--- |--- |
-   | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，在含有兩個 [!DNL Target] 傳送兩個不同活動的請求，第二個請求包含兩個活動。 |
+   | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，在有兩個頁面的頁面上 [!DNL Target] 傳送兩個不同活動的請求，第二個請求包含兩個活動。 |
    |  | `profile.isFirstSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.isNewSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.daysSinceLastVisit` | 傳回訪客上次造訪後所經過的天數。 |
@@ -57,10 +57,10 @@ ht-degree: 26%
    |  | `profile.thirdPartyId` | 傳回訪客的第三方 ID。 |
    |  | `profile.categoryAffinity` | 傳回訪客最喜愛的類別。 |
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
-   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 目前活動的詳細資料。<br> 請注意，系統會在體驗層級評估選件參數的值。 |
+   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 目前活動的詳細資料。<br> 請注意，系統會根據體驗層級評估優惠方案引數的值。 |
    | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/main/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分配方法<br>(適用於 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL Automated Personalization] 活動。) | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「已鎖定目標」流量分佈收到體驗，則傳回1。 |
-   |  | `experience.trafficAllocationType` | 傳回「控制」或「已鎖定」。 |
+   | 流量分配方法<br>(適用於 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL Automated Personalization] 僅限活動。) | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0，如果訪客從「已鎖定目標」流量分配中收到體驗，則傳回1。 |
+   |  | `experience.trafficAllocationType` | 傳回「控制」或「已鎖定目標」。 |
 
    使用者設定檔屬性和客戶屬性也顯示在清單中。
 
@@ -68,30 +68,30 @@ ht-degree: 26%
    >
    >含特殊字元的參數不會顯示在清單中。僅支援英數字元和底線。
 
-1. （條件性）若要使用設定檔參數作為回應Token，但參數尚未透過 [!DNL Target] 請求，因此未載入 [!DNL Target] UI，您可以使用 [!UICONTROL 新增回應Token] 按鈕，將設定檔新增至UI。
+1. （條件式）若要使用設定檔引數作為回應Token，但引數尚未透過 [!DNL Target] 要求，因此尚未載入 [!DNL Target] UI，您可以使用 [!UICONTROL 新增回應Token] 按鈕以將設定檔新增到UI。
 
-   按一下 **[!UICONTROL 新增回應Token]**，提供代號名稱，然後按一下 **[!UICONTROL 啟動]**.
+   按一下 **[!UICONTROL 新增回應Token]**，提供權杖名稱，然後按一下 **[!UICONTROL 啟動]**.
 
-   ![response_token_create image](assets/response_token_create.png)
+   ![response_token_create圖片](assets/response_token_create.png)
 
 1. 建立活動。
 
 ## 接聽回應並讀取回應Token
 
-您用來監聽的程式 [!DNL Target] 回應和讀取回應Token會因您是否有 [!DNL Platform Web SDK] 或at.js實作。
+您用來監聽的程式 [!DNL Target] 回應和讀取回應Token會因您是否擁有 [!DNL Platform Web SDK] 或at.js實作。
 
-### ![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Platform Web SDK] 使用Handle對象類 {#platform-web-sdk}
+### ![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Platform Web SDK] 使用Handle物件類別 {#platform-web-sdk}
 
-使用Handle對象類，該類具有要偵聽的元資料對象和資料對象 [!DNL Target] 回應並讀取回應token。
+使用Handle物件類別，其中包含要監聽的中繼資料物件和資料物件 [!DNL Target] 回應並讀取回應Token。
 
-下列回應範例新增 [!DNL Platform Web SDK] 直接到「HTML」頁的自訂事件處理程式（該表說明了代碼中使用的對象）:
+以下回應範例新增 [!DNL Platform Web SDK] 自訂事件處理常式直接切換至「HTML」頁面（此表格說明程式碼中使用的物件）：
 
 | 物件 | 資訊 |
 | --- | --- |
-| 類型 — 個人化.decision | 是否由 [!DNL Target] 或Offer decisioning提供者。 |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 提供回應Token中繼資料和值至頁面。 |
+| 型別 — Personalization.decision | 是否由下列人員做出決定 [!DNL Target] 或Offer decisioning提供者。 |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 為頁面提供回應Token中繼資料和值。 |
 | Meta | 傳遞至頁面的中繼資料。 |
-| 資料 | 傳遞至頁面的中繼資料的值。 |
+| 資料 | 傳遞至頁面的中繼資料值。 |
 
 ```html
 <html>
@@ -147,7 +147,7 @@ ht-degree: 26%
 </html>
 ```
 
-### ![at.js徽章](/help/main/assets/atjs.png) at.js使用自訂事件
+### ![at.js徽章](/help/main/assets/atjs.png) 使用自訂事件的at.js
 
 使用 [at.js 自訂事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en)接聽 回應並讀取回應 Token。{target=_blank}[!DNL Target]
 
@@ -170,63 +170,63 @@ ht-degree: 26%
 </html>
 ```
 
-## 回應Token常見問題集 {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## 回應Token常見問答 {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **需要什麼角色才能啟動或停用回應 Token?**
 
-回應Token只能由使用 [!DNL Target] [!UICONTROL 管理員] 角色。
+回應Token只有具備下列條件的使用者才能啟用或停用： [!DNL Target] [!UICONTROL 管理員] 角色。
 
-**如果我在執行 [!DNL Platform Web SDK] 2.6.0（或更舊版本）?**
+**如果我正在執行會發生什麼事 [!DNL Platform Web SDK] 2.6.0 （或較舊版本）？**
 
 您無權存取回應Token。
 
-**如果我執行的是at.js 1.0（或更舊版本），會發生什麼事？**
+**如果我執行at.js 1.0 （或更舊版本），會發生什麼事？**
 
-您看到回應Token，但at.js無法使用。
+您會看到回應Token，但at.js無法使用。
 
 **[!DNL Target Classic]我可以同時使用 外掛程式和回應 Token 嗎?**
 
-外掛程式和回應Token可同時使用；不過，未來將會淘汰外掛程式。
+外掛程式和回應Token可並行使用；不過，外掛程式未來將停止使用。
 
-**是否透過 [!DNL Target] 僅通過 [!DNL Target] 傳送活動的回應？**
+**回應Token是否透過以下方式傳送： [!DNL Target] 回應或僅透過 [!DNL Target] 傳遞活動的回應？**
 
-回應Token只能透過 [!DNL Target] 傳送活動的回應。
+回應Token僅能透過 [!DNL Target] 傳遞活動的回應。
 
-**我的 [!DNL Target Classic] 外掛程式包含JavaScript。 如何使用回應 Token 來複寫其功能?**
+**我的 [!DNL Target Classic] 外掛程式內含JavaScript。 如何使用回應 Token 來複寫其功能?**
 
-移轉至回應Token時，此類JavaScript必須保留在程式碼基底或標籤管理解決方案中。 您可以使用 [!DNL Platform Web SDK] 或 [!DNL at.js] 自訂事件，並將回應Token值傳遞至您的JavaScript函式。
+移轉至回應Token時，此型別的JavaScript必須保留在程式碼基底或標籤管理解決方案中。 您可以使用以下專案觸發此程式碼： [!DNL Platform Web SDK] 或 [!DNL at.js] 自訂事件並將回應Token值傳遞至JavaScript函式。
 
 **我的設定檔/客戶屬性參數為何沒有顯示在回應 Token 清單中?**
 
-[!DNL Target] 通常每15分鐘重新整理一次參數。 此重新整理會視使用者動作而定，且只有在您檢視回應Token頁面時才會重新整理資料。 如果您的參數未顯示在回應Token清單中， [!DNL Target] 尚未刷新資料。
+[!DNL Target] 通常會每15分鐘重新整理引數一次。 此重新整理取決於使用者動作，且資料只有在您檢視回應Token頁面時才會重新整理。 如果您的引數未顯示在回應Token清單中， [!DNL Target] 尚未重新整理資料。
 
-此外，如果參數包含非英數字元或底線以外的任何符號，則該參數不會出現在清單中。 目前僅支援英數和底線字元。
+此外，如果您的引數只包含非英數字元或底線以外的任何符號，則該引數不會出現在清單中。 目前僅支援英數和底線字元。
 
-**如果回應Token使用已刪除的設定檔指令碼或設定檔參數，仍會傳送內容嗎？**
+**如果回應Token使用已刪除的設定檔指令碼或設定檔引數，仍會傳遞內容嗎？**
 
-回應 Token 會從使用者設定檔中擷取資訊，然後傳送該資訊。如果您刪除設定檔指令碼或參數，這不代表該資訊已從使用者設定檔中移除。使用者設定檔仍有與設定檔指令碼對應的資料。 回應Token會繼續傳送內容。 若使用者的設定檔中未儲存該資訊，或是新訪客，則不會傳送該Token，因為資料不存在於其設定檔中。
+回應 Token 會從使用者設定檔中擷取資訊，然後傳送該資訊。如果您刪除設定檔指令碼或參數，這不代表該資訊已從使用者設定檔中移除。使用者設定檔仍有對應至設定檔指令碼的資料。 回應Token會繼續傳遞內容。 若使用者未將該資訊儲存在其設定檔中，或針對新訪客，則不會傳送該Token，因為資料不存在於其設定檔中。
 
-[!DNL Target] 不會自動關閉代號。 如果您刪除設定檔指令碼，且不想再傳送 Token，則必須自行關閉 Token。
+[!DNL Target] 不會自動關閉Token。 如果您刪除設定檔指令碼，且不想再傳送 Token，則必須自行關閉 Token。
 
 **我已重新命名設定檔指令碼，但為何使用該指令碼的 Token 仍以舊名稱處於使用中狀態?**
 
-如上所述，回應 Token 會處理使用者已儲存的設定檔資訊。即使您重新命名設定檔指令碼，造訪過您網站的使用者的設定檔中仍會儲存舊的設定檔指令碼值。 代號會繼續擷取已儲存在使用者設定檔中的舊值。 如果您現在想要以新名稱來傳送內容，則必須關閉先前的 Token，並開啟新的 Token。
+如上所述，回應 Token 會處理使用者已儲存的設定檔資訊。即使您重新命名了個人資料指令碼，造訪過您網站的使用者仍會將舊的個人資料指令碼值儲存在其個人資料中。 代號會繼續擷取已儲存在使用者設定檔中的舊值。 如果您現在想要以新名稱來傳送內容，則必須關閉先前的 Token，並開啟新的 Token。
 
-**如果屬性已變更，何時會從清單中移除？**
+**如果我的屬性已變更，何時會從清單中移除這些屬性？**
 
-[!DNL Target] 會定期重新整理屬性。未開啟的任何屬性都會在下次重新整理時移除。 不過，如果您有已開啟且已移除的屬性，該指令碼不會從屬性清單中移除，除非您將其關閉。 例如，您移除了當作Token的設定檔指令碼。 [!DNL Target]只有在刪除或重新命名已關閉的屬性時， 才會從清單中移除這些屬性。
+[!DNL Target] 會定期重新整理屬性。任何未切換的屬性都會在下次重新整理時移除。 不過，如果您有已切換的屬性且已移除，該指令碼不會從屬性清單中移除，直到您將其切換為關閉。 例如，您移除用作Token的設定檔指令碼。 [!DNL Target]只有在刪除或重新命名已關閉的屬性時， 才會從清單中移除這些屬性。
 
-## 傳送資料至Google Analytics
+## 傳送資料給Google Analytics
 
-以下各節將說明如何傳送 [!DNL Target] 資料至Google Analytics。 回應Token所傳送的資料也可傳送至其他第三方整合。
+以下小節說明如何傳送 [!DNL Target] 資料轉換為Google Analytics。 回應Token傳送的資料也可傳送至其他第三方整合。
 
-### ![AEP徽章](/help/main/assets/platform.png) 透過Platform Web SDK傳送資料至Google Analytics
+### ![AEP徽章](/help/main/assets/platform.png) 透過Platform Web SDK傳送資料給Google Analytics
 
-Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web SDK 2.6.0版（或更新版本）傳送資料。
+您可以在Google Analytics頁面中新增下列程式碼，透過Platform Web SDK 2.6.0版（或更新版本）傳送HTML。
 
 >[!NOTE]
 >
->請確定回應Token索引鍵值組位於 `alloy("sendEvent"` 物件。
+>請確定回應Token金鑰值組位於 `alloy("sendEvent"` 物件。
 
 ```
 <script type="text/javascript"> 
@@ -277,7 +277,7 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
 </script>
 ```
 
-### ![at.js徽章](/help/main/assets/atjs.png) 透過at.js傳送資料至Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js徽章](/help/main/assets/atjs.png) 透過at.js傳送資料給Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 在 HTML 頁面中新增下列程式碼，即可透過 at.js 將資料傳送至 Google Analytics:
 
@@ -345,11 +345,11 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
 
 ## 除錯
 
-以下小節提供偵錯回應Token的相關資訊：
+以下小節提供有關偵錯回應Token的資訊：
 
-### ![at.js徽章](/help/main/assets/atjs.png) Google Analytics和除錯
+### ![at.js徽章](/help/main/assets/atjs.png) Google Analytics和偵錯
 
-下列程式碼可讓您使用Google Analytics除錯：
+下列程式碼可讓您使用Google Analytics進行偵錯：
 
 ```javascript
 <script type="text/javascript"> 
@@ -412,7 +412,7 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
   } 
 ```
 
-### 使用等同於ttMeta外掛程式進行除錯
+### 使用相當於ttMeta外掛程式進行偵錯
 
 將下列程式碼新增至 HTML 頁面，即可建立等同於 ttMeta 的外掛程式作為偵錯用途:
 
@@ -466,12 +466,12 @@ Google Analytics可在HTML頁面中新增下列程式碼，以透過Platform Web
 
 ## ![at.js](/help/main/assets/atjs.png) 訓練影片：回應Token和at.js自訂事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-以下影片說明如何使用回應Token和at.js自訂事件，共用來自 [!DNL Target] 協力廠商系統。
+以下影片說明如何使用回應Token和at.js自訂事件來共用設定檔資訊，從 [!DNL Target] 至協力廠商系統。
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理]選單 UI (之前稱為[!UICONTROL 設定]) 已經過重新設計，可提供改良的效能、縮短發佈新功能所需的維護時間，並改善整個產品的使用者體驗。 以下視頻中的資訊正確；不過，選項的位置稍有不同。
+>[!DNL Target] [!UICONTROL 管理]選單 UI (之前稱為[!UICONTROL 設定]) 已經過重新設計，可提供改良的效能、縮短發佈新功能所需的維護時間，並改善整個產品的使用者體驗。 以下影片中的資訊是正確的；不過，選項的位置稍有不同。
 >
->影片提及 `option.name` 和 `option.id`，其取代為 `offer.name` 和 `offer.id`，分別為。
+>影片提及 `option.name` 和 `option.id`，此名稱已替換為 `offer.name` 和 `offer.id`（分別）。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

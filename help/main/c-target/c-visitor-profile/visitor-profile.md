@@ -1,6 +1,6 @@
 ---
 keywords: 概覽和參考
-description: 了解訪客設定檔，其中包含訪客如何使用您的頁面和其他最佳化內容位置的相關資訊。
+description: 瞭解包含訪客如何使用您的頁面和其他最佳化內容位置相關資訊的訪客設定檔。
 title: 什麼是訪客設定檔？
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
@@ -13,11 +13,11 @@ ht-degree: 36%
 
 # 訪客設定檔
 
-中的訪客設定檔 [!DNL Adobe Target] 包含關於訪客如何使用您的頁面和其他最佳化內容位置的資訊。
+中的訪客設定檔 [!DNL Adobe Target] 包含訪客如何使用您的頁面和其他最佳化內容位置的資訊。
 
-若 [!DNL Target] 與其他 [!DNL Adobe Experience Cloud] 解決方案，例如 [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] 在各解決方案間共用訪客資訊。
+若 [!DNL Target] 搭配其他 [!DNL Adobe Experience Cloud] 解決方案，例如 [!DNL Adobe Analytics]， [!DNL Experience Cloud Audiences] 會在多個解決方案間共用訪客資訊。
 
-依預設， [!DNL Target] 設定檔資訊會儲存在單一第一方cookie中。 您也可以輕鬆變更設定，以提供第三方 Cookie。
+依預設， [!DNL Target] 設定檔資訊會儲存在單一第一方Cookie中。 您也可以輕鬆變更設定，以提供第三方 Cookie。
 
 以下章節包含更多資訊: 
 

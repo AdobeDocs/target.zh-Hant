@@ -1,6 +1,6 @@
 ---
 keywords: 多個對象; 體驗版本; 鎖定體驗版本
-description: 了解如何將相同體驗的版本鎖定至Adobe中的不同對象 [!DNL Target] A/B活動。
+description: 瞭解如何在Adobe將相同體驗的版本鎖定至不同的對象 [!DNL Target] A/B活動。
 title: 我可以在A/B活動中使用多個體驗版本嗎？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # A/B 測試中的多個體驗對象
 
-您可以在 [!DNL Adobe Target] A/B活動。 您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
+您可以將相同體驗的版本鎖定在中的不同對象 [!DNL Adobe Target] A/B活動。 您可以在可視化體驗撰寫器或在表單式體驗撰寫器中為體驗設定多個對象。
 
 使用者可以隨著其設定檔變更在體驗對象之間切換。他們不會停留在活動期限的相同體驗中。
 

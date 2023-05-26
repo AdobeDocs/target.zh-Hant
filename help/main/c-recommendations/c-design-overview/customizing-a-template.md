@@ -1,6 +1,6 @@
 ---
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
-description: 了解如何使用開放原始碼Velocity設計語言，在Adobe中自訂建議設計 [!DNL Target] Recommendations。
+description: 瞭解如何使用開放原始碼Velocity設計語言來自訂Adobe中的建議設計 [!DNL Target] Recommendations。
 title: 如何使用Velocity自訂設計？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # 使用 Velocity 自訂設計
 
-使用開放原始碼Velocity設計語言，在中自訂建議設計 [!DNL Adobe Target Recommendations].
+使用開放原始碼Velocity設計語言來自訂建議設計 [!DNL Adobe Target Recommendations].
 
 ## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -22,7 +22,7 @@ ht-degree: 44%
 
 所有 Velocity 邏輯、語法等，均可用於建議設計。即是說，您可使用 Velocity 取代 JavaScript 來建立 *for* 迴圈、*if* 陳述式及其他程式碼。
 
-傳送至的實體屬性 [!DNL Recommendations] 在 `productPage` mbox或CSV上傳可在設計中顯示，但「多值」屬性除外。 任何類型的屬性都可以發送；然而， [!DNL Target] 不會將「multi value」類型的屬性作為範本可反覆運算的陣列(例如 `entityN.categoriesList`)。
+實體屬性已傳送至 [!DNL Recommendations] 在 `productPage` mbox或CSV上傳內容可在設計中顯示，但「多值」屬性除外。 可以傳送任何型別的屬性；但是， [!DNL Target] 不會將「多值」型別的屬性傳遞為範本可反複處理的陣列(例如 `entityN.categoriesList`)。
 
 這些值以下列語法加以參考:
 
@@ -30,16 +30,16 @@ ht-degree: 44%
 $entityN.variable
 ```
 
-實體屬性名稱必須遵循Velocity速記記號，其中包含前導 *$* 字元，後面接著Velocity範本語言(VTL)識別碼。 VTL 識別碼的開頭必須為字母字元 (a-z 或 A-Z)。
+實體屬性名稱必須遵循Velocity速記符號，由行距組成 *$* 字元，後面接著Velocity範本語言(VTL)識別碼。 VTL 識別碼的開頭必須為字母字元 (a-z 或 A-Z)。
 
-Velocity實體屬性名稱限於下列字元類型：
+Velocity實體屬性名稱僅限於下列字元型別：
 
 * 字母 (a-z、A-Z)
 * 數字 (0-9)
 * 連字號 ( - )
 * 底線 ( _ )
 
-以下屬性可作為Velocity陣列使用。 因此，可透過索引逐一查看或參照。
+Velocity陣列可使用下列屬性。 因此，可透過索引逐一查看或參照。
 
 * `entities`
 * `entityN.categoriesList`
@@ -62,13 +62,13 @@ $entities[0].categoriesList[2]
 
 如需Velocity變數（屬性）的詳細資訊，請參閱 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-如果您在設計中使用設定檔指令碼，指令碼名稱前面的$必須以 `\` （反斜線）。 例如：
+如果您在設計中使用設定檔指令碼，指令碼名稱前面的$符號必須以 `\` （反斜線）。 例如：
 
 `\${user.script_name}`
 
 >[!NOTE]
 >
->可在設計中參考（硬式編碼或透過回圈）的實體數上限為99。 範本指令碼長度最多可以包含 65,000 個字元。
+>可在設計中參照（硬式編碼或透過回圈）的最大實體數為99。 範本指令碼長度最多可以包含 65,000 個字元。
 
 例如，如果想要讓範本顯示類似下方的內容︰
 
@@ -123,22 +123,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->如果要在表示屬性名稱的標籤完成之前在屬性值之後添加文本，則可以使用正式注釋將屬性名稱括起來。 例如: `${entity1.thumbnailUrl}.gif`。
+>如果您想要在指出屬性名稱的標籤完成之前，在屬性值之後新增文字，可以使用正式標籤法將屬性名稱括起來。 例如: `${entity1.thumbnailUrl}.gif`。
 
-您也可以使用 `algorithm.name` 和 `algorithm.dayCount` 作為設計中的實體屬性，因此一個設計可用於測試多個條件，並且條件名稱可動態地顯示在設計中。 藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。您甚至可以使用這些屬性來顯示 `dayCount` (條件中使用的資料天數，例如「過去2天最暢銷的商品」等。
+您也可以使用 `algorithm.name` 和 `algorithm.dayCount` 作為設計中的實體屬性，因此一個設計可用於測試多個條件，而條件名稱可在設計中動態顯示。 藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。您甚至可以使用這些屬性來顯示 `dayCount` （條件中使用的資料天數，例如「過去2天最暢銷的商品」等）。
 
 ## 在Velocity範本中使用數字
 
-依預設，Velocity範本會將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以執行數學運算或將其與其他數值比較。 若要將實體屬性視為數值，請執行下列步驟：
+依預設，Velocity範本會將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以便執行數學運算或將其與其他數值進行比較。 若要將實體屬性視為數值，請遵循下列步驟：
 
-1. 宣告虛擬變數，並將其初始化為任意整數或雙值。
-1. 請確定您要使用的實體屬性不空白( [!DNL Target Recommendations]&#39;範本剖析器，用於驗證並儲存範本)。
-1. 將實體屬性傳遞至 `parseInt` 或 `parseDouble` 方法，將字串轉換為整數或雙值。
+1. 宣告虛擬變數並將其初始化為任意整數或雙精度值。
+1. 確定您要使用的實體屬性不是空白的(必填 [!DNL Target Recommendations]&#39;範本剖析器，以驗證並儲存範本)。
+1. 將實體屬性傳遞至 `parseInt` 或 `parseDouble` 方法，用來將字串轉換為整數或雙精度數值。
 1. 對新數值執行數學運算或比較。
 
 ### 範例：計算折扣價
 
-假設您要將項目的顯示價格降低$0.99以套用折扣。 您可以使用下列方法來達成此結果：
+假設您要將料號的顯示價格降低$0.99以套用折扣。 您可以使用下列方法達成此結果：
 
 ```
 #set( $double = 0.1 )
@@ -151,9 +151,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 範例：根據項目評等選擇要顯示的星數
+### 範例：根據專案的評等選擇顯示的星星數
 
-假設您想根據項目的數值平均客戶評等顯示適當數量的星號。 您可以使用下列方法來達成此結果：
+假設您想要根據專案的數值平均客戶評等顯示適當的星級數。 您可以使用下列方法達成此結果：
 
 ```
 #set( $double = 0.1 )
@@ -176,9 +176,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 範例：根據項目長度（以分鐘為單位）計算以小時和分鐘為單位的時間
+### 範例：根據專案的長度（分鐘），以小時和分鐘計算時間
 
-假設您以分鐘為單位儲存影片長度，但想以小時和分鐘為單位顯示長度。 您可以使用下列方法來達成此結果：
+假設您以分鐘為單位儲存影片長度，但想要以小時和分鐘為單位顯示影片長度。 您可以使用下列方法達成此結果：
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -189,7 +189,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 連同建議的產品一起顯示關鍵項目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 顯示含有建議產品的關鍵專案 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 您可以修改設計來連同其他建議的產品一起顯示主要項目。例如，您可以在建議旁邊顯示目前項目當作參考。
 
@@ -208,13 +208,13 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 結果會產生如下的設計，其中有一欄顯示主要項目。
 
-![rec_key映像](assets/rec_key.png)
+![rec_key圖片](assets/rec_key.png)
 
 當您建立 [!DNL Recommendations] 活動時，如果主要項目取自於訪客的設定檔，例如「上次購買的項目」，則 [!DNL Target] 會在[!UICONTROL 可視化體驗撰寫器] (VEC) 中顯示隨機產品。這是因為當您設計活動時，沒有設定檔可用。訪客檢視頁面時就會看到預期的主要項目。
 
-## 在字串值中執行替換 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 在字串值中執行取代 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-您可以修改設計以取代字串內的值。 例如，將美國使用的小數點分隔字元，取代為歐洲和其他國家/地區使用的逗號分隔字元。
+您可以修改設計，以取代字串中的值。 例如，以歐洲和其他國家/地區使用的逗號分隔符號取代美國使用的小數點分隔符號。
 
 下面顯示一條件式售價範例的其中一行程式碼:
 

@@ -1,6 +1,6 @@
 ---
 keywords: 活動; 活動類型; 編輯活動; 編輯; 草稿
-description: 了解您可以以哪些不同方式編輯Adobe Target中現有的活動，包括以草稿形式儲存活動。
+description: 瞭解您可以在Adobe Target中編輯現有活動的各種方式，包括以草稿形式儲存活動。
 title: 如何編輯活動或另存為草稿？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # 編輯活動或另存為草稿
 
-關於您可以在中編輯現有活動的不同方式的資訊 [!DNL Adobe Target]，包括以草稿形式儲存活動。
+有關您可以在中編輯現有活動的不同方式的資訊 [!DNL Adobe Target]，包括以草稿形式儲存活動。
 
 Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據您選擇的方法而有所不同。
 
@@ -110,6 +110,6 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
 * 最佳實務是嘗試使用與原始建立活動相同的方法 (UI 或 API) 來更新活動。
 
-   使用 [!DNL Target] UI應透過 [!DNL Target] UI。 透過 API 建立的活動應透過 API 更新。例如，如果您最初是使用API建立活動，之後又透過 [!DNL Target] UI，並非所有變更都已更新。 所有變更都會儲存在後端，並可透過進行其他API呼叫來更新。
+   使用建立的活動 [!DNL Target] UI應透過 [!DNL Target] UI。 透過 API 建立的活動應透過 API 更新。例如，如果您最初使用API建立活動，但稍後透過 [!DNL Target] UI，並非所有變更都會更新。 所有變更都儲存在後端，並可透過進行其他API呼叫來更新。
 
 

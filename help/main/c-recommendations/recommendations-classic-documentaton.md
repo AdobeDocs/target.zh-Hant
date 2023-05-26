@@ -1,7 +1,7 @@
 ---
 keywords: recommendations Classic
-description: 下載舊版Adobe Recommendations經典文檔的PDF。
-title: 在何處可以找到Adobe Recommendations經典的文檔？
+description: 下載舊版Adobe Recommendations Classic檔案的PDF。
+title: 在哪裡可以找到Adobe Recommendations Classic的檔案？
 feature: Recommendations
 exl-id: e59fbf51-0c2d-4ec3-941d-d10633ce8a28
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 是舊版產品，不再授權給新客戶。最好 [!DNL Recommendations] 體驗，升級到 [!DNL Recommendations] 活動 [Adobe Target高級](/help/main/c-intro/intro.md)。
+>[!DNL Recommendations Classic] 是舊版產品，不再授權給新客戶。為達到最佳效果 [!DNL Recommendations] 體驗，升級至 [!DNL Recommendations] 中可用的活動 [Adobe Target Premium](/help/main/c-intro/intro.md).
 
 「建議」有助於將客戶導向他們原本可能不知道的項目，提升網站產生的銷售額。
 

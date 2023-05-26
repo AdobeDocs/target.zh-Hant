@@ -59,16 +59,16 @@ ht-degree: 91%
 * 促銷活動設定的變更最多可能需要五個小時的時間才會反映在網站上。
 * 其他條件設定的變更可能要等到下一次演算法執行後才會反映在網站上。
 
-   * 某些條件設定（例如「新增動態包含規則」）會立即反映。
-   * 其他條件設定（例如「移除動態包含規則」、回顧期間變更等）要等到下次演算法執行時才能納入。
+   * 部分條件設定（例如「新增動態包含規則」）會立即反映。
+   * 其他條件設定（例如「移除動態包含規則」、變更回顧期間等）要等到下一次演演算法執行後才能合併。
    * 這些變更會觸發演算法執行，但最多可能需要 24 小時的時間才能執行完成。 也會以每 12-24 小時的間隔安排執行演算法。
 
-## 建議會反映使用者的行為（例如按一下產品A並購買產品B）需要多久的時間 *the* 使用者收到？
+## 使用者的行為（例如點選產品A及購買產品B）需要多久的時間才會反映在建議中 *該* 使用者會收到？
 
 * 目前已檢視/已購買的產品/內容會影響使用者在相同頁面檢視/[!DNL Target] 內容要求中所收到的建議。
-* 歷史使用者行為，例如「上次檢視的產品」、「最常檢視的產品」，以及整體檢視/購買歷史記錄會隨該請求更新，並影響使用者在下一個頁面檢視/上收到的建議[!DNL Target] 內容要求。 例如，「最近查看的項目」和「建議給您」演算法會隨著每個產品檢視/購買而更新，並反映在後續的內容請求上。
+* 過去的使用者行為（例如「上次檢視的產品」、「檢視次數最多的產品」以及整體檢視/購買記錄）會更新該請求，並影響使用者在下一個頁面檢視/中收到的建議[!DNL Target] 內容請求。 例如，「最近檢視的專案」和「為您推薦」演演算法會隨著每次產品檢視/購買而更新，並反映在後續內容請求中。
 
-## 建議會反映使用者的行為（例如按一下產品A並購買產品B）需要多久的時間 *其他* 使用者會收到？
+## 使用者的行為（例如點選產品A及購買產品B）需要多久的時間才會反映在建議中 *其他* 使用者會收到？
 
 隨著每 12-24 小時執行一次演算法，使用者的行為會以彙整方式併入離線演算法處理中。
 
@@ -103,7 +103,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 若要存取「[!UICONTROL 篩選不相容的條件]」設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」：
 
-![recs_settings_filter影像](assets/recs_settings_filter.png)
+![recs_settings_filter圖片](assets/recs_settings_filter.png)
 
 如果「未」啟用「[!UICONTROL 篩選不相容的條件]」設定，[!DNL Target] 就不會篩選「演算法選擇器」中的演算法，且所有演算法都會顯示。
 
@@ -111,7 +111,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果[!UICONTROL 篩選不相容的條件]設定已啟用，您仍可在選取條件時取消選取[!UICONTROL 「相容」]核取方塊，以檢視不相容的演算法。
 
-![compatible_checkbox映像](assets/compatible_checkbox.png)
+![compatible_checkbox圖片](assets/compatible_checkbox.png)
 
 下列清單包含 [!DNL Target] 未顯示「[!UICONTROL 相容]」核取方塊的特殊情況：
 
@@ -129,10 +129,10 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
    ![product_catalog影像](assets/product_catalog.png)
 
-* 索引是最新的嗎？ 轉到o [!DNL /target/products.html#productSearch] 並檢查索引是幾小時以前編列的（例如「3小時前已編列索引」）。 您可以視需要重新整理索引。
+* 索引是最新的嗎？ 移至 [!DNL /target/products.html#productSearch] 並檢查索引是幾小時以前編列的（例如「3小時前已編列索引」）。 您可以視需要重新整理索引。
 * 您是否更動過摘要或資料層，而導致實體不再符合收集規則？ 請確定「大小寫」相符 (區分大小寫)。
 * 摘要執行成功嗎? 是否有人變更了 FTP 目錄、密碼等？
-* [!DNL Target] 會盡可能快地對傳送進行更新（在客戶的頁面/應用程式上）。 然而，[!DNL Target] 還是必須在 UI 上為行銷人員提供一些表示法。 [!DNL Target] 不會為了等待 UI 更新同步而延遲傳送更新。 您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
+* [!DNL Target] 會儘可能讓傳送的更新（在客戶的頁面/應用程式上）儘快進行。 然而，[!DNL Target] 還是必須在 UI 上為行銷人員提供一些表示法。 [!DNL Target] 不會為了等待 UI 更新同步而延遲傳送更新。 您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
 
 ## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異？  {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -140,13 +140,13 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 「標準屬性加權」適用於大部分 (但不是全部) 條件類型 (不只是「內容相似度」)。這種加權會給某些屬性值更多權重。在下列範例中，輸出推薦中會多一些 Nike 產品。
 
-![attribute_weighting_example image](assets/attribute_weighting_example.png)
+![attribute_weighting_example圖片](assets/attribute_weighting_example.png)
 
-「內容相似度屬性加權」僅適用於內容相似度條件。
+「內容相似度屬性加權」僅適用於「內容相似度」條件。
 
-此類型的加權更具動態性，且以目前的「建議索引鍵」（目前檢視的項目）為基礎。 在下列範例（品牌x 16）中，如果訪客檢視的是Nike運動鞋，該訪客更可能被建議為其他Nike產品（不一定只是運動鞋），而非競爭者的運動鞋。 如果訪客在檢視 Adidas 運動鞋，則很可能向該訪客建議 Adidas 產品。
+此型別的加權比較動態，且以目前的「建議索引鍵」（目前檢視的專案）為基礎。 在以下範例中（品牌x 16），如果訪客檢視的是Nike運動鞋，則更有可能向該訪客建議其他Nike產品（不一定只是運動鞋）而非競爭者的運動鞋。 如果訪客在檢視 Adidas 運動鞋，則很可能向該訪客建議 Adidas 產品。
 
-![content_simility_example影像](assets/content_similarity_example.png)
+![content_similarity_example圖片](assets/content_similarity_example.png)
 
 ## 為何 [!DNL Target] 有時無法顯示推薦？ {#section_DB3F40673AED42228E407C05437D99E9}
 
@@ -251,7 +251,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 一些媒體和出版業客戶想確保推薦項目僅包含最新的文章或影片。例如，[!DNL Target] 客戶使用以下方法，推薦 60 天內的文章：
 
 1. 以 YYMMDDD 格式傳遞文章發佈日期，作為自訂實體屬性。
-1. 建立當天減去60天的設定檔指令碼，並以YYYYMMDD格式顯示。
+1. 建立一個設定檔指令碼，將今天的日期減去60天，同樣是YYYYMMDD格式。
 1. 在條件中使用動態包含篩選器，讓 `publish date > today's date minus 60 days`。
 
 ### 傳遞文章發佈日期作為自訂實體屬性：
@@ -276,7 +276,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 >
 >此範例也可以使用參數比對並將 `priorDate60` 值作為 mbox 參數傳遞來完成。
 
-### 使用 [!DNL Recommendations] 活動？
+### 使用時已知問題有哪些 [!DNL Recommendations] 活動？
 
 下列是 [!UICONTROL Recommendations] 活動的已知問題：
 

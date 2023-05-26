@@ -1,7 +1,7 @@
 ---
-keywords: Recommendations
-description: 瀏覽常見方案，這些方案顯示在Visual Experience Composer(VEC)中對頁面所做的更改如何影響Adobe Target顯示體驗的能力。
-title: 哪些常見頁面修改方案？
+keywords: 建議
+description: 探索常見案例，顯示視覺化體驗撰寫器(VEC)中頁面所做的變更如何影響Adobe Target顯示體驗的功能。
+title: 哪些是常見的頁面修改案例？
 feature: Visual Experience Composer (VEC)
 exl-id: 7a05fbf9-3427-436e-a54f-4f1dd16d885a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 # 頁面修改案例
 
-本主題中的方案顯示對頁面所做的更改如何影響Adobe Target顯示體驗的能力。
+本主題中的案例顯示對頁面所做的變更如何影響Adobe Target顯示體驗的功能。
 
 Target 選取器會決定在何處顯示體驗。如果在 Target 外修改頁面，變更可能會造成 Target 無法顯示體驗。
 

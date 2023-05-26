@@ -1,7 +1,7 @@
 ---
 keywords: 設定; 優先順序
-description: 瞭解如何Adobe [!DNL Target] 確定要將哪些活動（或活動）以不同的方式提交到頁面，具體取決於 [!DNL Target] 介面和您正在使用的活動建立功能。
-title: 如何 [!DNL Target] 是否將優先順序分配給不同的活動？
+description: 瞭解如何Adobe [!DNL Target] 根據要傳送至頁面的活動（或活動）而有所不同 [!DNL Target] 介面以及您使用的活動建立功能。
+title: How Do [!DNL Target] 指派優先順序給不同的活動？
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 根據您使用的 Target 介面以及活動建立功能類型 (可視化體驗撰寫器或表單式撰寫器)，Target 會針對要傳遞至頁面的活動 (或哪些活動) 進行不同判斷。
 
-## 僅目標標準/高級視覺體驗作曲家或使用全局的基於表單的作曲家 [!DNL Target] 僅請求 {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 僅限Target Standard/Premium視覺化體驗撰寫器，或使用全域功能的表單式撰寫器 [!DNL Target] 僅請求 {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 如果您的公司僅使用 Target Standard/Premium 和可視化體驗撰寫器，則同一個呼叫可能傳回多個活動的內容。活動依據下列決策流程來傳送:
 
@@ -39,7 +39,7 @@ ht-degree: 87%
    * 如果只有一個活動有對象鎖定目標，則會顯示該活動。
    * 如果所有或全部均無鎖定目標，則顯示先核准的活動。
 
-## 目標標準/高級表單編寫器和 [!DNL Target] 標準/高級視覺體驗作曲家 {#section_4620253E1CE942DD830724C7822B175F}
+## Target Standard/Premium表單式撰寫器和 [!DNL Target] Standard/Premium視覺化體驗撰寫器 {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -47,8 +47,8 @@ ht-degree: 87%
 
 如果您的公司使用 Target Standard/Premium 中的表單式撰寫器和 Target Standard/Premium 可視化體驗撰寫器，則可以傳送來自多個可視化體驗撰寫器活動的內容，但從表單式工作流程只能傳送一個活動的內容。活動傳遞是使用下列決策流程決定:
 
-1. 目標伺服器調用將帶有有關 [!DNL Target] 請求和URL。
-1. 目標經典和標準抽取運行在該目標中的每個活動 [!DNL Target] 請求。
+1. Target伺服器呼叫會連絡Target，並隨附以下專案的相關資訊： [!DNL Target] 要求和URL。
+1. Target Classic和Standard提取中執行的每個活動 [!DNL Target] 要求。
 1. Target 會嘗試將訪客匹配到活動。
 
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
@@ -64,16 +64,16 @@ ht-degree: 87%
 
 如果兩個已鎖定的目標活動有相同的優先順序，則會顯示最近檢視的活動。如果訪客是首次前往頁面，則顯示最近啟動的活動。
 
-## 目標標準/高級表單編寫器，非全局 [!DNL Target] 請求 {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium表單式撰寫器搭配非全域 [!DNL Target] 請求 {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >此資訊也適用在 Target Classic 中建立的任何執行中的促銷活動。
 
-如果您的公司使用 [!DNL Target] 除全局 [!DNL Target] 請求，每次調用只能返回一個活動的內容。 活動傳遞是使用下列決策流程決定:
+如果您的公司使用 [!DNL Target] 全域以外的要求 [!DNL Target] 表單式撰寫器中的請求，每次呼叫只能傳回一個活動的內容。 活動傳遞是使用下列決策流程決定:
 
-1. 的 [!DNL Target] 伺服器呼叫來 [!DNL Target] 以及 [!DNL Target] 請求和URL。
-1. [!DNL Target] 拉出每個運行的活動 [!DNL Target] 請求。
+1. 此 [!DNL Target] 伺服器呼叫來到 [!DNL Target] ，其中包含關於 [!DNL Target] 要求和URL。
+1. [!DNL Target] 提取中執行的每個活動 [!DNL Target] 要求。
 1. [!DNL Target] 嘗試匹配訪客和最高優先順序活動。
 
    如果訪客已在 A/B 測試或多變數測試中，則會將它們匹配到該測試中，直到它們轉換。如果他們先前在體驗鎖定目標活動中，則必須將他們再次匹配到該活動中。如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
@@ -89,7 +89,7 @@ ht-degree: 87%
 >
 >視您的設定而定，優先順序值會有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。如需詳細資訊，請參閱[活動設定](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
 
-**兩個目標經典市場活動使用非全局目標請求**
+**兩個Target Classic行銷活動使用非全域Target請求**
 
 * 行銷活動 1: homePageHero，offer1，優先順序高
 * 行銷活動 2: homePageHero，offer2，優先順序低

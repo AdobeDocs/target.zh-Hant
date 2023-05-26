@@ -1,7 +1,7 @@
 ---
-keywords: mvt；多元test；提供；組合
-description: 瞭解如何在Adobe中使用Visual Experience Composer(VEC) [!DNL Target] 建立要包含在「多元Test」(MVT)中的優惠。
-title: 如何在多元Test(MVT)中建立組合？
+keywords: mvt；多變數測試；選件；組合
+description: 瞭解如何在Adobe中使用視覺化體驗撰寫器(VEC) [!DNL Target] 以建立您要納入多變數測試(MVT)中的選件。
+title: 如何在多變數測試(MVT)中建立組合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # 建立組合
 
-使用 [!UICONTROL 視覺體驗作曲家] (VEC) [!DNL Adobe Target] 建立要包括在 [!UICONTROL 多元Test] (MVT)。
+使用 [!UICONTROL 視覺化體驗撰寫器] (VEC)輸入 [!DNL Adobe Target] ，以建立您要包含在 [!UICONTROL 多變數測試] (MVT)。
 
 如需有關如何使用 VEC 建立及編輯選件的詳細資訊，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -51,7 +51,7 @@ ht-degree: 88%
 
    對於您要包含的任何其他文字/HTML 選件，重複這樣做。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 每個文字/HTML 選件會變成該位置中的個別體驗。
 

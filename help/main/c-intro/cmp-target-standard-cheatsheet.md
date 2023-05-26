@@ -166,7 +166,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我對於我嘗試在可視化體驗撰寫器 (VEC) 中載入我的頁面時出現的「允許您的瀏覽器載入指令碼」訊息感到很困擾。我如何避免此情況？**
 
-這是因為您的網站有混合的內容，而是同時擷取HTTP和HTTPS資源的網站。 請要求您的 IT 團隊完成改用 HTTPS。
+這是因為您的網站有混合的內容 — 這是一個會擷取HTTP和HTTPS資源的網站。 請要求您的 IT 團隊完成改用 HTTPS。
 
 在他們完成之前，請遵循[在您的瀏覽器中啟用混合的內容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的指示，來允許您的瀏覽器載入混合內容。這是多數現代瀏覽器的安全性功能。
 
@@ -309,4 +309,4 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。請參閱 [傳送API、NodeJS SDK和Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+我們提供詳盡的 API 相關文件。另請參閱 [傳送API、NodeJS SDK和Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

@@ -1,6 +1,6 @@
 ---
 keywords: 建立建議;Recommendations 活動;新建議;建議概覽
-description: 了解如何使用Adobe [!DNL Target] 可視化體驗撰寫器(VEC)，直接在 [!DNL Target]-enabled頁。
+description: 瞭解如何使用Adobe [!DNL Target] Recommendations視覺化體驗撰寫器(VEC)可直接在 [!DNL Target]-enabled頁面。
 title: 如何建立Recommendations活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -8,7 +8,7 @@ exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 75%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >此 [!UICONTROL [選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 上圖中的選項是 [Target Premium](/help/main/c-intro/intro.md) 功能。 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
+   >此 [!UICONTROL [選擇工作場所]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 上圖中的選項為 [Target Premium](/help/main/c-intro/intro.md) 功能。 如果您沒有看到此選項，表示您的組織擁有的是 Target Standard 授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -46,17 +46,17 @@ ht-degree: 75%
 
    按[!UICONTROL 「下一步」]時，VEC 會開啟並顯示您的頁面。您可以使用建議取代目前的元素，或插入建議。
 
-1. 按一下您的頁面上的元素，然後如果建議可供元素所在的位置使用，請按一下 **[!UICONTROL 使用Recommendations取代]**, **[!UICONTROL 插入Recommendations在前]**，或 **[!UICONTROL 插入Recommendations在後]**.
+1. 按一下您的頁面上的元素，然後如果建議可供元素所在的位置使用，請按一下 **[!UICONTROL 以Recommendations取代]**， **[!UICONTROL 在此之前插入Recommendations]**，或 **[!UICONTROL 在此之後插入Recommendations]**.
 
-   只有在訪客符合建議的資格時，您網站的訪客才會看到建議內容。 不符合建議資格的訪客將會看到預設內容。
+   只有在訪客符合建議資格時，您網站的訪客才會看到建議內容。 不符合建議資格的訪客將看到預設內容。
 
    ![Recommendations 選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL 使用Recommendations取代]**:使用建議取代元素會刪除目前的內容，並以您的建議取代它。 當訪客造訪您的網站並符合建議資格時，將會在指定區域看到建議項目，而非現有內容。
-   * **[!UICONTROL 插入Recommendations在前]**:在選取的元素之前插入建議，會將建議的內容放在該元素之前。 建議會根據您的頁面建構顯示在所選元素的上方或左側。
-   * **[!UICONTROL 插入Recommendations在後]**:在選取的元素後插入建議，會將建議的內容放在該元素後。 建議會根據您的頁面建構顯示在所選元素的下方或右側。
+   * **[!UICONTROL 以Recommendations取代]**：以建議取代元素會刪除目前的內容，並以您的建議取代。 當訪客造訪您的網站並符合建議資格時，他們將在指定區域中看到建議專案，而不是現有內容。
+   * **[!UICONTROL 在此之前插入Recommendations]**：在選取的元素之前插入建議，會將建議內容放置在該元素之前。 根據您的頁面建構，建議會顯示在所選元素的上方或左側。
+   * **[!UICONTROL 在此之後插入Recommendations]**：在選取的元素後面插入建議，會將建議內容放在該元素後面。 根據您的頁面建構，建議會顯示在所選元素的下方或右側。
 
-   此 **[!UICONTROL 展開選取範圍]** 選項可讓您展開選取的位置（上層容器），以協助您輕鬆識別並納入所需的頁面元素。
+   此 **[!UICONTROL 展開選取範圍]** 選項可讓您展開所選的位置（上層容器），協助您更輕鬆地識別並包含所需的頁面元素。
 
 1. 選取頁面類型。
 
@@ -75,7 +75,7 @@ ht-degree: 75%
 
 1. 選取[一或多個條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。依預設， [!UICONTROL 選取條件] 畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面類型。 您可以變更這些選項以顯示其他條件。
+   條件會以卡片的形式顯示，顯示每個條件的相關資訊。根據預設， [!UICONTROL 選取條件] 畫面會顯示與垂直產業相容的條件，以及您在上一步驟中選擇的頁面型別。 您可以變更這些選項以顯示其他條件。
 
    >[!NOTE]
    >
@@ -90,12 +90,12 @@ ht-degree: 75%
       有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
 
    * 若要建立新條件，請按一下 **[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件]**，然後填寫新條件的資訊。 如需關於建立新條件的資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您也可以將條件群組為序列。若要建立新條件序列，請按一下 **[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件序列]**. 請參閱 [建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) 以取得更多資訊。
+   * 您也可以將條件群組為序列。若要建立新的條件序列，請按一下 **[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件序列]**. 另請參閱 [建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) 以取得詳細資訊。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 選取[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包括數個預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target] 包含數個預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![選取設計對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -164,7 +164,7 @@ ht-degree: 75%
 
    * 啟動活動
    * 編輯活動
-   * 將活動共用至您的Experience Cloud摘要
+   * 將活動分享至您的Experience Cloud摘要
    * QA活動
    * 檢視您的體驗 URL
    * 下載資料

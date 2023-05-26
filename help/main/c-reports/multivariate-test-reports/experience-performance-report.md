@@ -1,7 +1,7 @@
 ---
 keywords: 多變數測試;mvt;體驗效能報表
-description: 了解如何使用體驗效能報表進行Adobe [!DNL Target] 體驗鎖定目標活動，顯示活動中每個體驗的執行成效。
-title: 如何對多變數測試使用體驗效能報表？
+description: 瞭解如何使用體驗效能報表進行Adobe [!DNL Target] 顯示活動中每個體驗表現方式的體驗鎖定目標活動。
+title: 如何將體驗效能報表用於多變數測試？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917

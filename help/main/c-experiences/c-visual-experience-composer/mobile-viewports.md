@@ -5,9 +5,9 @@ title: 如何將行動檢視區用於回應式體驗？
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >
 >各個網站都有列出常用裝置的檢視區大小。 如需範例，請參閱 `https://viewportsizer.com/devices/`。 如需最準確且最新的資訊，請查詢裝置製造商的網站。
 
-| 裝置 | 檢視區大小 (寬度 x 高度) | 裝置解析度 (寬度 x 高度) |
+| 裝置 | 檢視區大小（寬度x高度） | 裝置解析度 (寬度 x 高度) |
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |

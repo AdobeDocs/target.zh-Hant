@@ -12,7 +12,7 @@ ht-degree: 99%
 
 ---
 
-# Recommendations 作為優惠方案
+# Recommendations 作為選件
 
 您現在可以在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 與[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。
 

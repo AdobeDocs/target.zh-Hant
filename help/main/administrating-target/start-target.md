@@ -1,7 +1,7 @@
 ---
 keywords: 管理;核准者角色;核准者
-description: 執行第一個任務Adobe [!DNL Target] 管理員應在收到電子郵件的Adobe Experience Cloud邀請後接受。
-title: 從哪裡開始管理目標？
+description: 執行第一個工作Adobe [!DNL Target] 管理員在收到Adobe Experience Cloud的電子郵件邀請後應該接受。
+title: 我該如何開始管理Target？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
@@ -14,13 +14,13 @@ ht-degree: 82%
 
 # 管理員入門
 
-本文包含第一步 [!DNL Adobe Target] 管理員應在收到通過電子郵件發送的邀請後 [!DNL Adobe Experience Cloud]。
+本文包含第一個步驟 [!DNL Adobe Target] 管理員在收到電子郵件所寄送的 [!DNL Adobe Experience Cloud].
 
-## 獲邀 [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
+## 受邀加入 [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 [!DNL Adobe Admin Console] 中的系統管理員必須藉由邀請您加入，將您新增為 [!DNL Target] 中的使用者。接著，系統管理員應將您新增至一或多個特定角色群組。這兩項工作都是在 [Adobe Admin Console](https://adminconsole.adobe.com) 中執行。
 
-有關詳細資訊，請參見 [管理Experience Cloud用戶和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 的 *Experience Cloud和核心服務幫助*。
+如需詳細資訊，請參閱 [管理Experience Cloud使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 在 *Experience Cloud與核心服務說明*.
 
 在系統管理員執行這些步驟之後，您將會收到電子郵件邀請函。
 

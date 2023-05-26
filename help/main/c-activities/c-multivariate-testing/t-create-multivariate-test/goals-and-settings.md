@@ -1,7 +1,7 @@
 ---
 keywords: 活動設定；目標與設定；多變數；mvt
-description: 了解如何使用Adobe中的「目標與設定」頁面 [!DNL Target] 指定多變數測試(MVT)活動目標的相關資訊。
-title: 如何在多變數測試(MVT)活動中指定目標和設定？
+description: 瞭解如何使用Adobe中的目標與設定頁面 [!DNL Target] 指定多變數測試(MVT)活動目標的相關資訊。
+title: 如何在多變數測試(MVT)活動中指定目標與設定？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 # 目標與設定（多變數測試）
 
-Adobe Target中的「目標與設定」頁面是您輸入目標相關資訊的位置 [!UICONTROL 多變數] (MVT)測試。
+Adobe Target中的「目標與設定」頁面可讓您輸入目標的相關資訊。 [!UICONTROL 多變數] (MVT)測試。
 
 * 活動設定
 * 報表設定
@@ -37,9 +37,9 @@ Adobe Target中的「目標與設定」頁面是您輸入目標相關資訊的�
 
 如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-若未在S中啟用此選項[!UICONTROL 管理] > [!UICONTROL 報表] （預設值），指定優先順序：低、中或高。
+如果S未啟用此選項[!UICONTROL 管理] > [!UICONTROL 報告] （預設值），指定優先順序：低、中或高。
 
-若要啟用微調優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報表]，然後將「啟用微調優先順序」選項切換至「開啟」位置。
+若要啟用微調優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報告]，然後將「啟用微調優先順序」選項切換到「開啟」位置。
 
 如果已啟用此選項，請指定介於 0 和 999 之間的值:
 

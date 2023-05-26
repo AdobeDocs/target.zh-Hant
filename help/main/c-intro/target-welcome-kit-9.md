@@ -13,11 +13,11 @@ ht-degree: 83%
 
 # 第 9 章：接續步續和資源
 
-我們已說明執行第一個活動的基本知識。 我們希望此活動向您和您的公司展示使用 [!DNL Adobe Target] 進行最佳化和個人化對業務盈虧底線產生影響的驚人潛力。這只是個開始。該考慮下你將專注於什麼了？ 考慮建立您要執行之活動的優先順序清單。您會驚訝於您以多快的速度，依活動了解如何改善客戶體驗並推動業務成功。
+我們已涵蓋執行您第一個活動的基本知識。 我們希望此活動向您和您的公司展示使用 [!DNL Adobe Target] 進行最佳化和個人化對業務盈虧底線產生影響的驚人潛力。這只是個開始。您是時候思考一下您的第二個活動將著重於什麼了？ 考慮建立您要執行之活動的優先順序清單。您將驚訝地發現，您能以多快的速度在一個個活動中改善客戶體驗並推動業務成功。
 
-順便一提，您有許多方法可進一步瞭解測試、個人化和 [!DNL Target] 的使用。請檢閱下列資源清單，以開始建立該知識。在我們的網路研討會上聆聽、閱讀 Adobe Target 部落格、參加 Adobe Summit，並積極參與 Adobe Target 線上社群。別忘了，我們總是在這裡協助您啟動您的程式，並讓其走上成功之路。 請隨時聯絡我們。
+順便一提，您有許多方法可進一步瞭解測試、個人化和 [!DNL Target] 的使用。請檢閱下列資源清單，以開始建立該知識。在我們的網路研討會上聆聽、閱讀 Adobe Target 部落格、參加 Adobe Summit，並積極參與 Adobe Target 線上社群。別忘了，我們會一直協助您啟動計畫，邁向成功之路。 請隨時聯絡我們。
 
-我們已整理好有組織的寶貴資訊清單，協助您進一步了解如何使用 [!DNL Target].
+我們已整理好有條理的重要資訊清單，協助您進一步瞭解如何使用進行最佳化和個人化 [!DNL Target].
 
 ## 資源連結
 
@@ -42,6 +42,6 @@ ht-degree: 83%
 
 * **Adobe Target 首頁**：在[!DNL Adobe Target] 的首頁可瞭解我們的功能和查看最新成功案例。請參閲 [Adobe Target](https://www.adobe.com/tw/marketing/target.html)。
 * **部落格**：追蹤 [Target 部落格](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)，隨時掌握最新消息、提示和成功案例。
-* **Experience League**:探索開始體驗業務、與Target社群連絡以及尋找所需答案所需的指南、活動和訓練。 請參閲[Adobe Experience League Target 首頁](https://experienceleague.adobe.com/#home)。
+* **Experience League**：探索您啟動體驗業務所需的指南、活動和訓練，並與Target社群連絡並找到想要的答案。 請參閲[Adobe Experience League Target 首頁](https://experienceleague.adobe.com/#home)。
 * **Adobe Target 認證**：透過新的 Adobe Target 測驗，取得 Adobe 認證專家的地位。—在此安排測驗或培訓課程。請參閲[培訓與認證](/help/main/c-intro/training-and-certification.md)。
 * **Adobe Target 發行說明**：每個 [!DNL Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正。 此外，也會隨附 Target API、SDK、JavaScript 程式庫 (at.js) 的發行說明，以及其他平台變更 (如適用)。請參閲 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md)。

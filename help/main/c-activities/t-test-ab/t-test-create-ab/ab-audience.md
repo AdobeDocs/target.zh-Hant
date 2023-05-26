@@ -1,7 +1,7 @@
 ---
 keywords: 對象; 選取對象; 選擇對象; 選取器
-description: 受眾確定將哪些站點訪問者輸入到您的Adobe [!DNL Target] 的子菜單。
-title: 如何選擇 [!DNL Target] A/B活動？
+description: 對象會決定哪些網站訪客進入您的Adobe [!DNL Target] 活動。
+title: 如何在中選取對象？ [!DNL Target] A/B活動？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # 選取對象
 
-受眾確定將哪些站點訪問者輸入到您的 [!DNL Adobe Target] 的子菜單。
+對象會決定哪些網站訪客進入您的 [!DNL Adobe Target] 活動。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 91%
 
 您也可以選擇讓 Target [自動分配流量](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-## 訓練影片
+## 培訓影片
 
 以下影片含有本文章探討之概念的詳細資訊。
 
@@ -59,7 +59,7 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### 活動工作流 — 目標(2:14) ![教程徽章](/help/main/assets/tutorial.png)
+### 活動工作流程 — 鎖定目標(2:14) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此視訊包含有關如何設定對象的資訊。
 

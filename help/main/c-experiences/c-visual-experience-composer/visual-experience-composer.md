@@ -1,7 +1,7 @@
 ---
-keywords: 可視化體驗撰寫器； VEC;wysiwyg
-description: 了解在Adobe Target中使用可視化體驗撰寫器(VEC)的基本知識。 VEC是WYSIWYG編輯器，可讓您輕鬆建立個人化體驗。
-title: 如何使用可視化體驗撰寫器(VEC)?
+keywords: 視覺化體驗撰寫器； vec； wysiwyg
+description: 瞭解在Adobe Target中使用視覺化體驗撰寫器(VEC)的基本知識。 VEC是WYSIWYG編輯器，可讓您輕鬆建立個人化體驗。
+title: 如何使用視覺化體驗撰寫器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
@@ -13,13 +13,13 @@ ht-degree: 92%
 
 # 可視化體驗撰寫器 (VEC)
 
-使用 [!UICONTROL 可視化體驗撰寫器] (VEC) [!DNL Adobe Target].
+關於使用的資訊 [!UICONTROL 視覺化體驗撰寫器] (VEC)輸入 [!DNL Adobe Target].
 
-VEC是WYSIWYG使用者介面，可讓您輕鬆建立和測試網站內容中的個人化體驗和選件。 您可以拖放、切換及修改網頁 (或選件) 或行動網頁的版面與內容，藉此建立 Target 活動的體驗和選件。
+VEC是WYSIWYG使用者介面，可讓您輕鬆建立及測試網站內容中的個人化體驗和選件。 您可以拖放、切換及修改網頁 (或選件) 或行動網頁的版面與內容，藉此建立 Target 活動的體驗和選件。
 
 VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 可讓行銷人員和設計人員使用視覺化介面來建立和變更內容。您可以進行許多設計選擇，而不需直接編輯程式碼。您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
 
-在目標上 **[!UICONTROL 管理]** > **[!UICONTROL 可視化體驗撰寫器]** 索引標籤，您可以輸入預設可視化體驗撰寫器URL。
+在目標上 **[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]** 索引標籤中，您可以輸入預設視覺化體驗撰寫器URL。
 
 ![預設 VEC URL 設定](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -108,14 +108,14 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 可讓行銷人員
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 可視化體驗撰寫器（第1個，共2個）(7:17) ![教學課程徽章](/help/main/assets/tutorial.png)
+### 視覺化體驗撰寫器(1/2) （上午07:17） ![教學課程徽章](/help/main/assets/tutorial.png)
 
 * 變更頁面的內容
 * 變更頁面的配置
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### 可視化體驗撰寫器(2/2)(7:29) ![教學課程徽章](/help/main/assets/tutorial.png)
+### 視覺化體驗撰寫器(2/2) （上午07:29） ![教學課程徽章](/help/main/assets/tutorial.png)
 
 * 重新命名和複製體驗
 * 建立重新導向體驗
@@ -126,7 +126,7 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。VEC 可讓行銷人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 營業時間：可視化體驗撰寫器 ![教學課程徽章](/help/main/assets/tutorial.png)
+### 營業時間：視覺化體驗撰寫器 ![教學課程徽章](/help/main/assets/tutorial.png)
 
 這支影片記錄了「[營業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，這是一項 Adobe 客戶服務團隊主導的計劃。
 

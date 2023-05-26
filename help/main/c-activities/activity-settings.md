@@ -1,6 +1,6 @@
 ---
-keywords: 目標和設定；目標；優先順序；持續時間
-description: 瞭解如何在Adobe中使用活動設定 [!DNL Target] 管理活動的目標、優先順序和持續時間。
+keywords: 目標與設定；目標；優先順序；持續時間
+description: 瞭解如何在Adobe中使用活動設定 [!DNL Target] 管理活動的目標、優先順序和期間。
 title: 如何指定活動設定？
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 活動設定
 
-使用 [!UICONTROL 活動設定] 在 [!DNL Adobe Target] 管理活動的目標、優先順序和持續時間。
+使用 [!UICONTROL 活動設定] 在 [!DNL Adobe Target] 管理活動的目標、優先順序和期間。
 
 1. 輸入關於活動目標的備註。
 
@@ -26,7 +26,7 @@ ht-degree: 79%
 
    如果未在中啟用此選項 [!UICONTROL 管理] > [!UICONTROL 報告] （預設值），指定優先順序：低、中或高。
 
-   要啟用細粒度優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報告]，然後切換 [!UICONTROL 啟用細粒度優先順序] 的雙曲餘切值。
+   若要啟用微調優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報告]，然後切換 [!UICONTROL 啟用微調優先順序] 「開啟」位置的選項。
 
    如果已啟用此選項，請指定介於 0 和 999 之間的值:
 
@@ -53,9 +53,9 @@ ht-degree: 79%
 * [自動個人化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 * [體驗鎖定目標](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [多變數測試](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [建議](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 培訓視頻：活動設定 ![教程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：活動設定 ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片包括關於活動設定的資訊。
 

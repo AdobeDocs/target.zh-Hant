@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud;登入;語言;預設 ui 語言;預設語言
-description: 瞭解如何訪問 [!DNL Target] 從Adobe Experience Cloud設定預設視圖，並更改 [!DNL Target] UI和文檔。
+description: 瞭解如何存取 [!DNL Target] 從Adobe Experience Cloud設定您的預設檢視，並變更的語言 [!DNL Target] UI和檔案。
 title: 如何從 Adobe Experience Cloud 存取 [!DNL Target] ？
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76

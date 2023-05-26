@@ -1,6 +1,6 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;faq;常見問題集; 重要屬性
-description: 了解如何使用 [!UICONTROL 重要屬性] 顯示影響個人化模型的排名最前屬性及其相對重要性的報表。
+description: 瞭解如何使用 [!UICONTROL 重要屬性] 顯示影響個人化模型及其相對重要性之排名最前的屬性的報表。
 title: 什麼是「重要屬性」報表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
@@ -14,21 +14,21 @@ ht-degree: 74%
 
 # 重要屬性報表
 
-關於 [!UICONTROL 重要屬性] 報告，供 [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。
+關於的資訊 [!UICONTROL 重要屬性] 報告，使用者可使用的兩種專用報告之一 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自動鎖定目標] (AT)活動。
 
 >[!NOTE]
 >
->使用 [!UICONTROL 個人化前瞻分析] 報表：
+>使用時，請考慮下列事項 [!UICONTROL Personalization Insights] 報告：
 >
 >* AP 和 AT 活動是 [!DNL Target Premium] 解決方案內建的功能。若沒有 [!DNL Target Standard] 授權，[!DNL Target Premium] 便未隨附這些解決方案。
 >
 >* [!UICONTROL 「個人化前瞻分析」報表僅適用於使用轉換最佳化目標的 AP 與 AT 活動。]也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
 >
->* [!UICONTROL 個人化前瞻分析] 只有在 [!UICONTROL 主要目標] 從 [!UICONTROL 報表量度] 下拉式清單。
+>* [!UICONTROL Personalization Insights] 報表僅適用於 [!UICONTROL 主要目標] 是從 [!UICONTROL 報表量度] 下拉式清單。
 >
 >* 「個人化前瞻分析」報表僅支援於[預設環境](/help/main/administrating-target/hosts.md)中使用。
 >
->* [!UICONTROL 個人化前瞻分析] 報表只會針對 [!UICONTROL 即時] 狀態和已啟用且已接收至少15天的流量。
+>* [!UICONTROL Personalization Insights] 報表只會針對以下專案中的活動產生： [!UICONTROL 即時] 狀態和已啟動且接收流量至少15天。
 
 
 在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。此報表顯示影響模型及其相對重要性的常見屬性。
@@ -41,33 +41,33 @@ ht-degree: 74%
 
 1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   此 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 報表隨即顯示，其中提供活動效能的相關資訊，由第一個螢幕圖示表示。 另外兩個圖示代表這兩個 [!UICONTROL 個人化前瞻分析] 報表： [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性].
+   此 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 報表隨即顯示，其中會提供關於活動效能的資訊，以第一個畫面圖示表示。 另外兩個圖示代表這兩個 [!UICONTROL Personalization Insights] 報告： [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性].
 
-   ![Automated Personalization活動的摘要報表](/help/main/c-reports/assets/summary-report-ap.png)
+   ![Automated Personalization活動的摘要報告](/help/main/c-reports/assets/summary-report-ap.png)
 
-   請注意 [!UICONTROL 自動鎖定目標] 有另一個圖表圖示，用於 [!UICONTROL 摘要] 報表。
+   請注意 [!UICONTROL 自動鎖定目標] 有一個額外的圖形圖示，用於圖形化檢視的 [!UICONTROL 摘要] 報告。
 
    ![自動鎖定目標活動的摘要報表](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 您啟動活動後的至少 15 天內，將無法使用「重要屬性」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「重要屬性」]圖示。15天過後，假設您的活動中有足夠的個人化流量，則 [!UICONTROL 重要屬性] 報表可供使用。
+   >[!UICONTROL 您啟動活動後的至少 15 天內，將無法使用「重要屬性」]報表。在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「重要屬性」]圖示。15天過後，假設您的活動中有足夠的個人化流量， [!UICONTROL 重要屬性] 報告可供使用。
 
-1. 啟動活動15天後，按一下 **[!UICONTROL 重要屬性]** 表徵圖。
+1. 啟動活動15天後，按一下 **[!UICONTROL 重要屬性]** 圖示。
 
    ![Adobe Target報表中的「重要屬性」圖示](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 選取所需的日期範圍。
 
-   不同於 [!UICONTROL 摘要] 報告（績效報告）, [!UICONTROL 個人化前瞻分析]，包括 [!UICONTROL 重要屬性]，僅適用於固定日期範圍：15天，30天，60天。
+   不喜歡 [!UICONTROL 摘要] 報表（效能報表）、 [!UICONTROL Personalization Insights]，包括 [!UICONTROL 重要屬性]，僅適用於固定日期範圍： 15天、30天和60天。
 
    這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
-   ![Adobe Target報表中的日曆](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target報告中的行事曆](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    您可以從[!UICONTROL 「選擇持續時間」]下拉式清單中存取可用的固定日期範圍。
 
-   ![在報表中選擇「持續時間」下拉式清單](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![選擇報表中的「持續時間」下拉式清單](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. 檢閱[!UICONTROL 「重要屬性」]報表資料。
 
@@ -90,7 +90,7 @@ ht-degree: 74%
 
 ## 「重要屬性」常見問題集 {#section_740910A52FA646B4AC9452F98C2F5719}
 
-請參閱下列常見問題集，以取得關於使用 [!UICONTROL 重要屬性] 報表。
+請參閱下列常見問題集，以取得關於使用的常見問題解答 [!UICONTROL 重要屬性] 報告。
 
 ### 「個人化前瞻分析」報表尚不適用於我的活動。是什麼原因?
 
@@ -104,11 +104,11 @@ ht-degree: 74%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳至Target，以用於Target個人化模型的詳細資訊，請參閱 [將資料傳入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ### 我看到一個或多個我不希望模型用於訓練的屬性。我可以從訓練模型中刪除這些屬性嗎？ {#models-api}
 
-此 [!UICONTROL 模型API]，又稱為封鎖清單API，可讓使用者檢視及管理機器學習模型中使用的屬性清單（也稱為功能） [!UICONTROL Automated Personalization] （美聯社）和 [!UICONTROL 自動鎖定目標] (AT)活動。 如果您想要排除一或多個屬性，使其不被AP或AT活動的模型使用，則可以使用模型API將這些屬性新增至「封鎖清單」。
+此 [!UICONTROL 模型API]也稱為Blocklist API ，可讓使用者檢視和管理機器學習模型中用於下列專案的屬性清單（也稱為功能）： [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自動鎖定目標] (AT)活動。 如果您想要排除一個或多個屬性，不讓模型用於AP或AT活動，您可以使用模型API將這些屬性新增到「封鎖清單」。
 
 如需詳細資訊，請參閱 [模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
@@ -124,7 +124,7 @@ ht-degree: 74%
 
 [!UICONTROL 「個人化前瞻分析」是使用 Adobe 正在申請專利的技術建立而成，該技術稱為 MAGIX (Model Agnostic Globally Interpretable Explanations) 。]您可以在Adobe研究團隊於 [arXiv.org網站](https://arxiv.org/abs/1706.07160).
 
-### 是 [!UICONTROL 個人化前瞻分析] 適用於以收入為基礎的模型目標/主要目標？
+### 為 [!UICONTROL Personalization Insights] 是否可用於收入型模型化目標/主要目標？
 
 目前，[!UICONTROL 「個人化前瞻分析」]僅適用於轉換最佳化目標活動。我們將在未來的版本中新增對收入最佳化目標活動的支援。
 
@@ -140,7 +140,7 @@ ht-degree: 74%
 * 某些選件或體驗尚未建立模型的較少量活動。
 * 某些選件/體驗比其他選件/體驗更早建立模型的較少量活動。例如，假設已在第 22 天建立額外的模型，而且您要查看從第 10 至 24 天的資料。
 * 鎖定特定選件的規則目標，限制哪些訪客可以查看哪些選件/體驗。
-* 前瞻分析報表中沒有任何信賴區間。不過，如果轉換率足夠接近，模型可能會提供流量，以便點數量較高，但不會有「統計上不同的」數字。
+* 前瞻分析報表中沒有任何信賴區間。不過，如果轉換率夠接近，模型可能會提供流量，如此在點的量中會較高，但並非有「統計差異」的數字。
 
 瞭解提供流量的模型運作方式會有所助益。每個個人都是根據其總計設定檔提供。不過，前瞻分析報表會歸納此行為，讓人類更容易解讀。因此，區段並非互斥。這可能會導致個別區段顯示這種行為，因為同一個人可以出現在多個區段中。
 
@@ -156,6 +156,6 @@ ht-degree: 74%
 
 ## 已知問題
 
-下列問題目前正由 [!DNL Target] 工程團隊。
+下列問題目前正由本公司調查 [!DNL Target] 工程團隊。
 
 * [!DNL Adobe Experience Platform] 區段名稱不會顯示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自動鎖定目標] (AT) 活動的[!UICONTROL 重要屬性]報告中。(TOP-3813)

@@ -1,7 +1,7 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;目標;對象
-description: 檢視體驗鎖定目標和Adobe中使用對象的常見問題集(FAQ) [!DNL Target] 活動。
-title: 我可以在哪裡找到關於目標和對象的問題和答案？
+description: 檢視關於體驗鎖定目標和Adobe中所使用對象的常見問題(FAQ) [!DNL Target] 活動。
+title: 哪裡可以找到有關鎖定目標和對象的問題與解答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 source-git-commit: f3b420631681a922b66b0e58febda536e9812815
@@ -15,55 +15,55 @@ ht-degree: 62%
 
 關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
 
-## 如何 [!DNL Target] 評估目標定位中的URL? {#url}
+## 如何 [!DNL Target] 評估鎖定目標中的URL？ {#url}
 
-Target會根據您在建立活動時是否使用對象URL鎖定目標，或您在建立對象時是否使用URL鎖定目標，以不同方式評估URL。
+Target會根據您在建立活動時使用對象URL鎖定目標，或您在建立對象時是否使用URL鎖定目標，以不同方式評估URL。
 
-請考量下列URL:
+考量下列URL：
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
 ### 對象URL目標定位
 
-若要套用對象URL鎖定目標，在建立活動時，請在「體驗」頁面（三步驟引導式工作流程的步驟一）上，按一下齒輪圖示，按一下「頁面傳送」，然後指定想要的URL。
+若要在建立活動時套用對象URL目標定位，請在體驗頁面（三步驟引導式工作流程的步驟一）上，按一下齒輪圖示，再按一下頁面傳送，然後指定所要的URL。
 
 ![頁面傳送URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-對象URL目標定位會尋找完全相符的URL。 如果URL相符，Target就不會考慮進一步邏輯。 在上述URL中，如果活動設為開啟 `www.example.com`，則URL會與下列URL相符，因為對象URL鎖定目標不受任何限制：
+對象URL目標定位會尋找完全相符的URL。 如果URL相符，則Target不會考慮進一步的邏輯。 在上述URL中，如果活動設為引發 `www.example.com`，此URL符合下列URL，因為對象URL目標定位與查詢無關：
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-除了URL上的對象鎖定目標，您也可以指定查詢中可以的特定值。
+除了URL上的對象鎖定目標外，您也可以指定查詢中的特定值。
 
-對象URL目標定位和URL目標定位新增至 [!UICONTROL 範本規則] 評估為URL目標（請參閱下方的URL目標定位）。
+對象URL目標定位和URL目標定位已透過新增 [!UICONTROL 範本規則] 評估為URL目標定位（請參閱下方的URL目標定位）。
 
 ### URL目標定位
 
-若要套用URL鎖定目標，在建立對象時，按一下 [!UICONTROL 新增規則]，按一下 [!UICONTROL 網頁]，從第一個下拉式清單中選取選項([!UICONTROL 目前頁面], [!UICONTROL 上一頁]，或 [!UICONTROL 登陸頁面])，選取 [!UICONTROL URL] 從第二個下拉式清單中，指定求值器，然後指定所要的URL。
+若要在建立對象時套用URL目標定位，請按一下 [!UICONTROL 新增規則]，按一下 [!UICONTROL 網頁]，從第一個下拉式清單中選取選項([!UICONTROL 目前頁面]， [!UICONTROL 上一頁]，或 [!UICONTROL 登陸頁面])，選取 [!UICONTROL URL] 從第二個下拉式清單中指定評估器，然後指定所需的URL。
 
-![網頁>目前頁面> URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![網站頁面>目前頁面> URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URL定位會將URL轉換為一組要評估的規則：
+URL鎖定目標會將URL轉換為一組規則以評估：
 
 * URL = `example.com/path1?query=something`
 * URL網域= `example.com`
-* Path = path1/path2/path3
+* 路徑= path1/path2/path3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 建立複雜URL字串時，會 [!DNL Target] 評估整個URL?
+## 建立複雜的URL字串時，會 [!DNL Target] 評估整個URL？
 
-如果您在URL字串中使用相同參數名稱多次，HTTP會考量第一個參數名稱，並忽略具有相同名稱的後續參數。
+如果您在URL字串中使用相同的引數名稱多次，HTTP會考量第一個引數名稱，並忽略具有相同名稱的後續引數。
 
-例如，在下列URL字串中：
+例如，在以下網址字串中：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-的第一個例項 `Category` 參數被評估，第二個 `Category` 參數會遭到忽略。
+的第一個執行個體 `Category` 會評估引數，而第二個 `Category` 引數會被忽略。
 
-最佳實務是有多個值與單一類別相關聯，如下所示：
+最佳實務是將多個值與單一類別相關聯，如下所示：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
@@ -83,7 +83,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 例如，在下圖中，來自加州且使用 Windows 裝置的使用者，會同時符合體驗 A (Windows 對象) 和體驗 C (加州對象) 的資格。此使用者會看到體驗 A，因為在目標頁面上，此體驗在清單中出現在體驗 C 上方。
 
-![audiences_order image](assets/audiences_order.png)
+![audiences_order影像](assets/audiences_order.png)
 
 ## 在 [!DNL Target]、Audience Manager (AAM) 和核心服務中的對象程式庫中，同一對象的名稱為何不同? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
@@ -95,7 +95,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 部分 Target 對象是預先定義的，例如「新訪客」和「再度訪問的訪客」。使用者無法重新命名這些對象。
 
-## 為何所有設定檔參數都未顯示在 [!DNL Target] 使用者介面？ {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## 為什麼所有設定檔引數都未顯示在 [!DNL Target] 使用者介面？ {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過 50 個設定檔屬性至 [!DNL Target]，則可以使用 [!UICONTROL 設定檔更新] API 方法來傳遞它們。如需詳細資訊，請參閱 Adobe Target API 文件中的[設定檔更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
@@ -103,7 +103,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 在每個工作階段都會評估一次自動個人化活動。如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增選件，則除了先前顯示的選件，使用者還會看到新內容。因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
 
-## 為什麼透過API建立之對象所做的變更沒有反映在 [!DNL Target] UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## 為何透過API建立的對象變更未反映在 [!DNL Target] UI？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 與選件和設定檔指令碼不同，API 對於 Target Standard 建立之對象所做的變更目前未同步回 Target UI。
 

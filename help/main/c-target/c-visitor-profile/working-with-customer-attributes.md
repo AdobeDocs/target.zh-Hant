@@ -1,7 +1,7 @@
 ---
-keywords: 客戶關係管理；客戶記錄服務；crs;crm;mbox3rdpartyid；客戶屬性；目標；csv;crm;adobe經驗雲人員
-description: 瞭解如何使用客戶關係管理(CRM)資料庫中的企業客戶資料，以在 [!DNL Adobe Target]。
-title: 什麼是客戶屬性以及如何使用這些屬性？
+keywords: 客戶關係管理；客戶記錄服務；crs；crm；mbox3rdpartyid；客戶屬性；鎖定目標；csv；crm；adobe experience cloud人員
+description: 瞭解如何使用客戶關係管理(CRM)資料庫的企業客戶資料在中進行內容目標定位 [!DNL Adobe Target].
+title: 什麼是客戶屬性？如何使用客戶屬性？
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,94 +13,94 @@ ht-degree: 34%
 
 # 客戶屬性
 
-有關使用Customer Relationship Management(CRM)資料庫中的企業客戶資料以在 [!DNL Adobe Target] 在 [!DNL Adobe Enterprise Cloud People] 服務。
+使用客戶關係管理(CRM)資料庫的企業客戶資料在中進行內容目標定位的相關資訊 [!DNL Adobe Target] 使用中的客戶屬性 [!DNL Adobe Enterprise Cloud People] 服務。
 
-通過多個源收集並儲存在CRM資料庫中的企業客戶資料可用於 [!DNL Target] 戰略性地向客戶提供最相關的內容，特別是重點放在返回的客戶上。 中的受眾和客戶屬性 [!DNL People] 服務（以前是配置式和受眾）將資料收集和分析與測試和優化結合起來，使資料和洞見具有可操作性。
+透過多個來源收集並儲存在CRM資料庫內的企業客戶資料可用於 [!DNL Target] 策略性地將最相關的內容提供給客戶，尤其著重於回頭的客戶。 中的對象和客戶屬性 [!DNL People] 服務（先前稱為Profiles and Audiences）將資料收集和分析與測試和最佳化結合在一起，讓資料和深入分析可行。
 
-## 客戶屬性概述 {#section_B4099971FA4B48598294C56EAE86B45A}
+## 客戶屬性總覽 {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html) 的 [!DNL People] 服務是 [!DNL Adobe Experience Cloud] 並為企業提供將客戶資料推送到 [!DNL Experience Cloud] 平台。
+[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html) 在 [!DNL People] 服務屬於 [!DNL Adobe Experience Cloud] 並提供企業工具來將其客戶資料推送至 [!DNL Experience Cloud] 平台。
 
-上架到 [!DNL Experience Cloud] 的資料可供所有 [!DNL Experience Cloud] 工作流程使用。[!DNL Target] 使用此資料根據屬性針對返回的客戶。 [!DNL Adobe Analytics] 會利用這些屬性，並可將這些屬性用於分析和劃分。
+上架到 [!DNL Experience Cloud] 的資料可供所有 [!DNL Experience Cloud] 工作流程使用。[!DNL Target] 使用此資料根據屬性來鎖定回頭的客戶。 [!DNL Adobe Analytics] 會利用這些屬性，並可將這些屬性用於分析和劃分。
 
-![crs示例](/help/main/c-target/c-visitor-profile/assets/crs.png)
+![crs範例](/help/main/c-target/c-visitor-profile/assets/crs.png)
 
-考慮以下資訊作為您處理客戶屬性和 [!DNL Target]:
+當您使用客戶屬性時，請考慮下列資訊 [!DNL Target]：
 
-* 在使用 [!UICONTROL 客戶屬性] 的 [!DNL People] 服務。 有關詳細資訊，請參閱中的「上載客戶屬性的先決條件」 [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) 的 *Experience Cloud服務和管理文檔*。
-* 請注意檔案上載方面的限制，如中所述 [關於客戶屬性的資料檔案和資料源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant) 的 *Experience Cloud中央介面元件指南*。 作為最佳做法：
+* 使用「 」之前，您必須符合一些先決條件要求 [!UICONTROL 客戶屬性] 中的功能 [!DNL People] 服務。 如需詳細資訊，請參閱以下的「上傳客戶屬性的先決條件」： [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) 在 *Experience Cloud服務與管理檔案*.
+* 請注意檔案上傳的限制，如中所述 [關於客戶屬性的資料檔案和資料來源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant) 在 *Experience Cloud中央介面元件指南*. 最佳做法：
 
-   * 上載單個大型檔案(位於 [限制](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en))。 與多個較小的檔案相比，最好使用單個大檔案。
-   * 如果必須將上載拆分為多個檔案，請確保在提交新檔案之前已完全處理檔案。 確保在提交批中的下一個檔案之前，已對批中的每個檔案進行完全處理。
+   * 上傳單一大型檔案(在 [指定的限制](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant))。 單一大型檔案比多個較小檔案更適合。
+   * 如果您必須將上傳分割成數個檔案，請先確定檔案已完全處理完畢，然後再提交新檔案。 在提交批次中的下一個檔案之前，請確定批次中的每個檔案都已完全處理。
 
-* [!DNL Adobe] 不保證CRM資料庫中100%的客戶屬性（訪問者配置檔案）資料將連接到 [!DNL Experience Cloud] 因此，可用於 [!DNL Target]。 在當前設計中，有可能不裝載一小部分資料（大型生產批的0.1%）。
-* 從導入的 [!DNL Experience Cloud] 至 [!DNL Target] 取決於訪問者配置檔案的使用期，預設為14天。 有關詳細資訊，請參見 [訪問者配置檔案生存期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* 如果 `vst.*` 參數是唯一標識訪問者的東西，只要現有的「已驗證」配置檔案不會被提取 `authState` 為未驗證(0)。 只有在 `authState` 已更改為AUTHENTICATED(1)。
+* [!DNL Adobe] 並不保證會將來自CRM資料庫的全部客戶屬性（訪客設定檔）資料上架到 [!DNL Experience Cloud] 因此，也可用於在中鎖定目標 [!DNL Target]. 在目前的設計中，一小部分資料（最多佔大型生產批次的0.1%）可能無法上線。
+* 從匯入的客戶屬性資料的生命週期 [!DNL Experience Cloud] 至 [!DNL Target] 取決於訪客設定檔的存留期，預設為14天。 如需詳細資訊，請參閱 [訪客設定檔存留期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
+* 如果 `vst.*` 引數為可識別訪客的唯一專案，只要條件具備，即不會擷取現有的「已驗證」設定檔 `authState` 為UNAUTHENTICATED (0)。 設定檔只有在以下情況下才會發揮作用 `authState` 已變更為AUTHENTICATED (1)。
 
-   例如，如果 `vst.myDataSource.id` 參數用於標識訪問者(其中 `myDataSource` 是資料源別名)，並且沒有MCID或第三方ID，使用參數 `vst.myDataSource.authState=0` 不提取可能通過客戶屬性導入建立的配置檔案。 如果所需的行為是讀取經過驗證的配置檔案， `vst.myDataSource.authState` 必須具有值1（已驗證）。
+   例如，如果 `vst.myDataSource.id` 引數用於識別訪客(其中 `myDataSource` 是資料來源別名)，且沒有使用引數的MCID或第三方ID `vst.myDataSource.authState=0` 不會擷取可能透過匯入客戶屬性而建立的設定檔。 如果需要的行為是擷取已驗證的設定檔，則 `vst.myDataSource.authState` 值必須為1 (AUTHENTICATED)。
 
 * 您無法在 `mbox3rdPartyID` 中傳送下列字元: 加號 (+) 和正斜線 (/)。
 
-## 訪問People服務中的客戶屬性
+## 存取People服務中的客戶屬性
 
-1. 在 [!DNL Adobe Experience Cloud]，按一下菜單表徵圖( ![菜單表徵圖](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ，然後按一下 **[!UICONTROL 人物]**。
+1. 在 [!DNL Adobe Experience Cloud]，按一下功能表圖示( ![功能表圖示](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) )然後按一下 **[!UICONTROL 人員]**.
 
    ![People](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. 按一下 **[!UICONTROL 客戶屬性]** 頁籤。
+1. 按一下 **[!UICONTROL 客戶屬性]** 標籤。
 
-   ![「客戶屬性」標籤](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
+   ![客戶屬性頁標](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## 客戶屬性工作流 [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## 的客戶屬性工作流程 [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 完成下列步驟在 [!DNL Target] 使用 CRM 資料，如下圖所示:
 
-![crm工作流](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
+![crm工作流程](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-有關完成以下任務的詳細說明，請參見 [建立客戶屬性源並上載資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) 的 *Experience Cloud服務和管理文檔*。
+完成下列各項工作的詳細指示請參閱 [建立客戶屬性來源及上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) 在 *Experience Cloud服務與管理檔案*.
 
 1. 建立資料檔案。
 
-   從您的 CRM 將客戶資料匯出為 CSV 格式，以建立 .csv 檔案。此外，您也可以建立 zip 或 gzip 檔案進行上傳。確保CSV檔案的第一行是標題，並且所有行（客戶資料）的條目數相同。
+   從您的 CRM 將客戶資料匯出為 CSV 格式，以建立 .csv 檔案。此外，您也可以建立 zip 或 gzip 檔案進行上傳。請確定CSV檔案的第一列是標題，且所有列（客戶資料）的專案數量相同。
 
-   下圖顯示了企業客戶資料檔案示例：
+   下圖顯示一個範例企業客戶資料檔案：
 
-   ![crs樣本](/help/main/c-target/c-visitor-profile/assets/CRS_sample.png)
+   ![crs範例](/help/main/c-target/c-visitor-profile/assets/CRS_sample.png)
 
-   下圖顯示了企業客戶.csv檔案示例：
+   下圖顯示一個範例企業客戶.csv檔案：
 
-   ![csv示例](/help/main/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
+   ![csv範例](/help/main/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
 
 1. 建立屬性來源及上傳資料檔案。
 
-   指定資料來源的名稱和描述，以及別名 ID。別名ID是唯一ID，用於中的客戶屬性代碼 `VisitorAPI.js`。
+   指定資料來源的名稱和描述，以及別名 ID。別名ID為唯一ID，用於客戶屬性程式碼中： `VisitorAPI.js`.
 
    >[!IMPORTANT]
    >
    >資料來源名稱和屬性名稱不得有英文句點。
 
-   您的資料檔案必須符合檔案上載要求，並且不能超過100 MB。 如果檔案太大，或者您有必須定期上載的資料，則可以改為FTP檔案。
+   您的資料檔案必須符合檔案上傳要求，且不得超過100 MB。 如果您的檔案太大，或您的資料必須定期上傳，您可以改用FTP傳送檔案。
 
-   * **HTTPS:** 可以拖放.csv資料檔案，或按一下 **[!UICONTROL 瀏覽]** 從檔案系統上傳。
-   * **FTP:** 按一下FTP連結以 [通過FTP上傳檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。指定密碼，然後按一下 **[!UICONTROL 完成]**。
+   * **HTTPS：** 您可以拖放.csv資料檔案或按一下 **[!UICONTROL 瀏覽]** 以從您的檔案系統上傳。
+   * **FTP：** 按一下FTP連結，前往 [透過FTP上傳檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。指定密碼，然後按一下 **[!UICONTROL 完成]**.
 
-   現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸成功後，建立具有相同名稱和 `.fin` 擴展。 將此空白檔案傳輸至伺服器。這表示傳輸的結束和 [!DNL Experience Cloud] 開始處理資料檔案。
+   現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸成功後，請建立具有相同名稱和 `.fin` 副檔名。 將此空白檔案傳輸至伺服器。這表示傳輸結束，而且 [!DNL Experience Cloud] 開始處理資料檔案。
 
 1. 驗證結構。
 
    驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。將每個屬性與其正確的資料類型、顯示名稱和說明對應。
 
-   按一下 **[!UICONTROL 保存]** 架構驗證完成後。 檔案上傳時間因大小而不同。
+   按一下 **[!UICONTROL 儲存]** 結構描述驗證完成後。 檔案上傳時間因大小而不同。
 
-   ![驗證架構](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
+   ![驗證結構](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![上載架構](/help/main/c-target/c-visitor-profile/assets/upload1.png)
+   ![上傳結構描述](/help/main/c-target/c-visitor-profile/assets/upload1.png)
 
 1. 設定訂閱及啟動屬性來源。
 
-   按一下&#x200B;**[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。[配置訂閱](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) 設定資料流 [!DNL Experience Cloud] 和解決方案。 啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
+   按一下&#x200B;**[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。[設定訂閱](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) 設定資料流在 [!DNL Experience Cloud] 和解決方案。 啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
 
-   ![配置解決方案](/help/main/c-target/c-visitor-profile/assets/solution.png)
+   ![設定解決方案](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
    ![啟動](/help/main/c-target/c-visitor-profile/assets/activate.png)
 
@@ -128,7 +128,7 @@ ht-degree: 34%
 
 ### 在您的網站使用 mbox3rdPartyID 以獲得成功的實作和使用狀況
 
-通過 `mbox3rdPartyId` 作為全局框的參數 `targetPageParams()` 的雙曲餘切值。 值 `mbox3rdPartyId` 應設定為CSV資料檔案中存在的客戶ID。
+通過 `mbox3rdPartyId` 做為內的全域mbox的引數 `targetPageParams()` 方法。 的值 `mbox3rdPartyId` 應設為CSV資料檔案中顯示的客戶ID。
 
 ```javascript
 <script type="text/javascript">
@@ -140,50 +140,50 @@ ht-degree: 34%
 
 ### 使用 Experience Cloud ID 服務
 
-如果您使用Experience CloudID服務，則必須設定「客戶ID」和「驗證狀態」，以在目標中使用客戶屬性。 有關詳細資訊，請參見 [客戶ID和身份驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) 的 *Experience CloudID服務幫助*。
+如果您使用Experience CloudID服務，您必須設定客戶ID和驗證狀態，才能在目標定位中使用客戶屬性。 如需詳細資訊，請參閱 [客戶ID和驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) 在 *Experience CloudID服務說明*.
 
 如需關於在 [!DNL Target] 中使用客戶屬性的詳細資訊，請參閱下列資源:
 
-* [建立客戶屬性源並上載資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 的 *Experience Cloud服務和管理文檔*
+* [建立客戶屬性來源及上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 在 *Experience Cloud服務與管理檔案*
 
 ## 客戶經常遇到的問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-使用客戶屬性和 [!DNL Target]。
+使用客戶屬性時，您可能會遇到下列問題 [!DNL Target].
 
 >[!NOTE]
 >
->問題1和問題2導致該領域大約60%的問題。 問題3導致大約30%的問題。 問題4導致大約5%的問題。 其餘的 5% 則因為雜項問題。
+>問題1和2造成此領域約60%的問題。 問題3造成約30%的問題。 問題4造成的問題約佔5%。 其餘的 5% 則因為雜項問題。
 
-### 問題一：由於配置檔案太大，客戶屬性被刪除
+### 問題1：客戶屬性已移除，因為設定檔太大
 
 使用者設定檔中的特定欄位沒有字元限制，但如果設定檔變得大於 64K，則會透過移除最舊的屬性來將它截斷，直到設定檔再次低於 64K 為止。
 
-### 問題二：未列在中的受眾庫中的屬性 [!DNL Target]即使在幾天後
+### 問題2：屬性未列在的對象庫中 [!DNL Target]，即使在幾天之後
 
 這通常是管線連線問題。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
 
-### 問題三：傳遞不基於屬性工作
+### 問題3：傳遞無法根據屬性運作
 
 Edge 上的設定檔尚未更新。作為解決方案，請要求您的客戶屬性團隊重新發佈摘要。
 
-### 問題四：實施問題
+### 問題4：實作問題
 
 請注意下列實作問題:
 
-* 訪客 ID 未正確傳遞。ID已傳入 `mboxMCGVID` 而不是 `setCustomerId`。
+* 訪客 ID 未正確傳遞。傳入的ID `mboxMCGVID` 而非 `setCustomerId`.
 * 傳遞的訪客 ID 正確，但 AUTHENTICATION 狀態未設為 Authenticated。
 * `mbox3rdPartyId` 未正確傳遞。
 
-### 問題五： `mboxUpdate` 未正確執行
+### 第5期： `mboxUpdate` 未正確執行
 
 `mboxUpdate` 未正確搭配 `mbox3rdPartyId` 執行。
 
-### 問題六：未將客戶屬性導入 [!DNL Target]
+### 問題6：客戶屬性未匯入 [!DNL Target]
 
-如果在「目標」中找不到「客戶屬性」資料，請確保在上次導入時 *x* 天數 *x* 是目標 [訪問者配置檔案生存期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 值（預設為14天）。
+如果您在Target中找不到客戶屬性資料，請確保匯入發生在上一個 *x* 天數，其中 *x* 是目標 [訪客設定檔存留期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 值（預設為14天）。
 
-## 培訓視頻：使用客戶屬性上載離線資料 ![教程徽章](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## 訓練影片：使用客戶屬性上傳離線資料 ![教學課程徽章](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
-此視頻向您演示如何將離線CRM、幫助台、銷售點和其他營銷資料導入到 [!DNL Experience Cloud People] 服務，並使用其已知ID將其與訪問者關聯。
+本影片說明如何將離線CRM、服務檯、銷售點和其他行銷資料匯入 [!DNL Experience Cloud People] 服務，並使用訪客已知的ID將其與訪客建立關聯。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17802t1/)

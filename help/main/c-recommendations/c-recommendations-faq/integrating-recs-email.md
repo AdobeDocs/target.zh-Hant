@@ -26,7 +26,7 @@ ht-degree: 96%
 
 使用方法 1 或方法 2 時，ESP 必須根據每位客戶/每封電子郵件對外部 API 進行呼叫，並等待傳回內容。並非所有 ESP 都支援這些方法；請聯絡您的 ESP 以判斷其是否與此整合模式相容。
 
-使用方法 3 時，您的 ESP 必須依產品 ID 或類別 ID 將推薦清單聯結至您的電子郵件清單。此方法可以根據客戶上次檢視的產品、上次購買的產品或最常檢視的類別等屬性。 但是，您的 ESP 必須在其客戶設定檔中擁有此資料的存取權，才能執行聯結。請聯絡您的 ESP 以判斷其是否具有此資料的存取權，而且與此整合模式相容。
+使用方法 3 時，您的 ESP 必須依產品 ID 或類別 ID 將推薦清單聯結至您的電子郵件清單。此方法可以根據客戶上次檢視的產品、上次購買的產品或檢視次數最多的類別等屬性。 但是，您的 ESP 必須在其客戶設定檔中擁有此資料的存取權，才能執行聯結。請聯絡您的 ESP 以判斷其是否具有此資料的存取權，而且與此整合模式相容。
 
 [!DNL Adobe Target] 不支援推薦的開放時間個人化。
 
@@ -125,7 +125,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 參數 | 值 | 說明 | 驗證 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | 用於Recommendations的用戶端代碼。 您的 Adobe 顧問可以提供此值。 |  |
+| `client_code` | *client_code* | Recommendations中使用的使用者端代碼。 您的 Adobe 顧問可以提供此值。 |  |
 | `mbox` | *mboxName* | 用於鎖定目標的 mbox 名稱。 | 對所有 mbox 呼叫使用相同的驗證身分。<br>250 個字元限制。<br>不能包含下列任一個字元：`', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | 已停用 | 防止回應在非 Web 環境中設定 Cookie。 |  |
 | `entity.id`<br> (對某些類型的標準為必要：檢視/檢視、檢視/購買、購買/購買) | *entity_id* | 建議所根據的 productId，例如購物車中放棄的產品或先前的購買。<br>如果條件要求，rawbox 呼叫必須包括 `entity.id`。 |  |
@@ -133,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br> (對某些類型的標準為必要：檢視次數最多類別和最暢銷商品類別) | *category_id* | 類別建議的根據，例如類別中的最暢銷商品。<br>如果條件要求，rawbox 呼叫必須包括 `entity.categoryId`。 |  |
 | `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 參數不存在，則在沒有可用的建議時，`mboxDefault` 應該是將傳回預設內容的絕對 URL。 此 URL 可以是影像或其他靜態內容。<br>如果有 `mboxNoRedirect` 參數，`mboxDefault` 可以是用來指示沒有建議的任何文字，例如 `no_content`。<br>電子郵件提供者必須處理傳回此值的情況，並將預設 HTML 插入電子郵件中。 <br> **安全性最佳做法**：如果不允許列出 `mboxDefault` URL 中使用的網域，則可能會面臨「開啟重新導向弱點」的風險。 為避免第三方未授權使用重導程式連結或 `mboxDefault`，Adobe 建議您使用「已授權的主機」來允許列出預設的重新導向 URL 網域。 Target 會使用主機來允許列出您想要允許重新導向的網域。 如需詳細資訊，請參閱「[建立允許清單，指定在 *Hosts* 中授權傳送 mbox 呼叫至  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) 的主機」。 |  |
 | `mboxHost` | *mbox_host* | 這是呼叫觸發時新增至預設環境 (主機群組) 的網域。 |  |
-| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>若未提供&quot;thirdPartyId&quot;，則會產生新的tntId，並隨著回應傳回。 否則會保持空白。<br>**注意**：請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件而變得緩慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
+| `mboxPC` | 空白 | (使用訪客的設定檔的建議為必要。)<br>如果未提供&quot;thirdPartyId&quot;，則會產生新的tntId，並隨著回應傳回。 否則會保持空白。<br>**注意**：請務必為每個電子郵件收件人 (即每個 API 呼叫) 提供 `mboxSession` 和 `mboxPC` 的唯一值。如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的大量事件而變得緩慢或失敗。 | 1 &lt; 長度 &lt; 128<br>不能包含超過一個「.」(句點)。<br>允許的唯一一個句點用於設定檔位置字尾。 |
 
 ### 選用參數
 

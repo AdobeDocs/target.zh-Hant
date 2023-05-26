@@ -12,7 +12,7 @@ ht-degree: 97%
 
 ---
 
-# Recommendations 中的傳統與Recommendations活動比較 [!DNL Target] Premium
+# Recommendations 中的Classic與Recommendations活動 [!DNL Target] Premium
 
 可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
 
@@ -75,4 +75,4 @@ ht-degree: 97%
 
 在 [!DNL Target] 中，[!DNL Recommendations] 提供改良的報表，這些報表會利用 [!DNL Target] 和 [!DNL Experience Cloud] 所提供的功能。不單只是顯示 [!DNL Recommendations] 提供的提升度來對照沒有建議時的結果，您還可以檢視 [!DNL Recommendations] 活動的完整相關資訊。
 
-![overview_report image](assets/overview_report.png)
+![overview_report影像](assets/overview_report.png)

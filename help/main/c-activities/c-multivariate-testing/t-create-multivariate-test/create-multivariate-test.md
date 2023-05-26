@@ -1,6 +1,6 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 了解如何在Adobe中使用可視化體驗撰寫器(VEC) [!DNL Target] 若要直接在 [!DNL Target]-enabled頁。
+description: 瞭解如何在Adobe中使用視覺化體驗撰寫器(VEC) [!DNL Target] 若要在網站上建立多變數測試(MVT) [!DNL Target]-enabled頁面。
 title: 如何建立多變數測試？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -55,7 +55,7 @@ ht-degree: 87%
 
    ![活動名稱欄位](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   活動名稱不能以下列任一字元開頭：
+   活動名稱的開頭不能是下列任何字元：
 
    | 字元 | 說明 |
    |--- |--- |
@@ -88,13 +88,13 @@ ht-degree: 87%
 
    下圖顯示活動有充足的流量。
 
-   ![估算影像](assets/estimator.png)
+   ![估算器影像](assets/estimator.png)
 
    下圖顯示活動有充足的流量。
 
-   ![估算器2影像](assets/estimator2.png)
+   ![estimator2圖片](assets/estimator2.png)
 
-1. 按一下 **[!UICONTROL 下一個]** 向 [!UICONTROL 定位] 頁面。
+1. 按一下 **[!UICONTROL 下一個]** 前往 [!UICONTROL 目標定位] 頁面。
 
 1. 選擇對象和符合您要讓其進入活動之訪客的百分比。
 

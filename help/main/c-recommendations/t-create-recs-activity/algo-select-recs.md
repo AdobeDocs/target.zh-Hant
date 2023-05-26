@@ -1,6 +1,6 @@
 ---
-keywords: 建議；建議活動；條件；演算法
-description: 了解如何選取要在您的Adobe中使用的條件（決定要建議哪些產品或內容的規則） [!DNL Target] Recommendations活動。
+keywords: recommendations；recommendations活動；條件；演演算法
+description: 瞭解如何選取要在您的Adobe中使用的條件（決定要建議哪些產品或內容的規則） [!DNL Target] Recommendations活動。
 title: 如何選取Recommendations活動的條件？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -28,14 +28,14 @@ ht-degree: 74%
 
 **若要選取條件:**
 
-1. 同時 [建立新建議](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)，在 **[!UICONTROL 選取條件]** 對話框，請找到並選擇一個或多個條件。
+1. 當 [建立新建議](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)，在 **[!UICONTROL 選取條件]** 找到並選取一或多個條件。
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/filters.png)
 
    您可以使用[!UICONTROL 產業類型]篩選、[!UICONTROL 頁面類型]篩選和[!UICONTROL 相容]核取方塊來篩選條件清單。這些選項可協助您找到所需的條件。
 
-   * **產業類型:** 產業類型可用來幫助對 [!DNL Recommendations] 條件進行分類。若要變更您的預設垂直產業，請按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]** 並選取所需的預設值 **[!UICONTROL 垂直產業]** 設定。
+   * **產業類型:** 產業類型可用來幫助對 [!DNL Recommendations] 條件進行分類。若要變更您的預設垂直產業，請按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]** 並選取您想要的預設值 **[!UICONTROL 垂直產業]** 設定。
    * **頁面類型:** 頁面類型可幫助您對您的建議進行分類。也有可為每個頁面類型選擇的內建條件。
-   * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。您可以在您的設定中停用或啟用此選項： **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**.
+   * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。您可以在設定中停用或啟用此選項： **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**.
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以顯示[選取設計](/help/main/c-recommendations/c-design-overview/design-overview.md)對話方塊。
