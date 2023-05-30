@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 100%
+source-wordcount: '1889'
+ht-degree: 92%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 100%
 
 有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-## [!UICONTROL Adobe Target 社群]問答咖啡會
+## [!UICONTROL Adobe Target社群] 問答咖啡會
 
-* **2023 年 5 月 24 日 (星期三)**
-* 上午 **8:00-9: 點 (太平洋時間，UTC-7)**
-* **[報名資訊](https://adobe.ly/3BgfeZZ){target=_blank}**
+下列即將到來的咖啡會的相關資訊：
 
-[!UICONTROL Adobe Target 諮詢]團隊的 Ryan Roberts、Gentry Lin 和 Ryan Pizzuto 將加入我們的行列，而 [!UICONTROL Adobe 技術支援工程]團隊的 Mihnea Docea 將登入 [Adobe Target 社群](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank}，直接與您討論關於[!DNL Adobe Target]您對 [!DNL Target]@[!UICONTROL Adobe Summit] 2023 的相關問題。
+### [!DNL Adobe Target Recommendations] 咖啡會
 
-在本次聊天中提出您的後續問題之前，請自行回顧任何[隨選的 Adobe Target Summit 會議錄影](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank}。
+* **星期三2023年6月7日**
+* **8:00-9:上午00 (PDT，UTC-7)**
+* **[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+
+我們將加入 [!DNL Adobe Target] 專家：Bill Ozinga、John Mosbaugh、Justin Patrick和Eric Thibeault。 在這個AMA （向我詢問任何事情）活動中，專家將登入並準備好回答您任何與以下內容相關的問題： [!DNL Target Recommendations] 功能。
+
+### 個人化計畫整備網路研討會後續追蹤
+
+* **星期三2023年6月21日**
+* **8:00-9:上午00 (PDT，UTC-7)**
+* **[更多資訊]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+Adobe Target專家、Ramon Cespedes和Kevin Jemison將加入我們。 在這場AMA （向我詢問任何事情）活動中，專家將登入並準備好回答您與最近的5/24網路研討會中涵蓋的主題相關的任何問題 [透過個人化推動成長的歷程](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
