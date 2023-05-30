@@ -4,7 +4,7 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 92%
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 * **星期三2023年6月21日**
 * **8:00-9:上午00 (PDT，UTC-7)**
-* **[更多資訊]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 Adobe Target專家、Ramon Cespedes和Kevin Jemison將加入我們。 在這場AMA （向我詢問任何事情）活動中，專家將登入並準備好回答您與最近的5/24網路研討會中涵蓋的主題相關的任何問題 [透過個人化推動成長的歷程](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
