@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 82%
+source-wordcount: '654'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 82%
 ## [!DNL Target] Standard/Premium 23.5.2 (2023 年 5 月 31 日)
 
 此版本包含下列增強功能和修正：
+
+| 功能 | 詳細資料 |
+|--- |--- |
+| 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。 |
 
 * 已修復在生成設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387 和 TGT-45423)
 * 已修復在影像名稱包含 GB 18030 字元時，[!UICONTROL 建立設計]面板無法顯示影像的問題。(TGT-44614)

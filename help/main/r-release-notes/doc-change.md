@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '2870'
-ht-degree: 99%
+source-wordcount: '2890'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 5 月 30 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.5.2 版的發行說明。 |
+|  | [整合 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | 已更新文章，其中包含共用資訊 [!UICONTROL Real-Time CDP設定檔屬性] 替換為 [!DNL Target] 用於HTML和JSON選件。 |
 |  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增下列即將舉辦的咖啡會活動的相關資訊：<ul><li>[!DNL Adobe Target Recommendations] 咖啡會（6月7日）</li><li>個人化計畫整備網路研討會跟進（6月21日）</li></ul> |
 | 5 月 23 日 | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新重要注意事項。 |
 |  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 為即將發佈的版本更新了發行前說明。 |
