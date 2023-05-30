@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,6 @@ ht-degree: 100%
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
-
-## [!DNL Target] Standard/Premium 23.5.2 (2023 年 5 月 31 日)
-
-此版本包含下列增強功能和修正：
-
-* 已修復在生成設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387)
-* 已修復在影像名稱包含 GB 18030 字元時，[!UICONTROL 建立設計]面板無法顯示影像的問題。(TGT-44614)
-* 已修復在分析過程中導致報告在 [!UICONTROL Auto Personalization] 活動中凍結的問題。(TGT-44820)
-* 已修正導致某些客戶的預設工作區的 Target UI 中未顯示任何活動的問題。 (TGT-45286)
-* 已更新「不允許重複」標幟的行為。 已更新排除的重複優惠方案標幟，以允許預設內容優惠方案的重複優惠方案 (適用於 API v3、v4)，並且如果選項參考預設內容優惠方案且未定義範本，則允許重複選項。 (TNT-46617)
-* 已修正將查詢參數新增到 URL 時導致頁面無法在視覺化體驗編輯器 (VEC) 中載入的問題。 (TGT-44873)
-* 已修正體驗中文字/HTML 中某些字元錯誤逸出的問題。 (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (日期待定)
 

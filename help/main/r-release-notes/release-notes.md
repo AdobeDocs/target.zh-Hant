@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 97%
+source-wordcount: '621'
+ht-degree: 82%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 97%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target] Standard/Premium 23.5.2 (2023 年 5 月 31 日)
+
+此版本包含下列增強功能和修正：
+
+* 已修復在生成設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387 和 TGT-45423)
+* 已修復在影像名稱包含 GB 18030 字元時，[!UICONTROL 建立設計]面板無法顯示影像的問題。(TGT-44614)
+* 修正體驗中的文字/HTML中，部分GB 18030符號字元錯誤逸出的問題。 (TGT-44600)
+* 已修復在分析過程中導致報告在 [!UICONTROL Auto Personalization] 活動中凍結的問題。(TGT-44820)
+* 修正無法搜尋活動的問題 [!UICONTROL 活動] 頁面(如果活動名稱包含方括弧( [ 或 ] )。 (TGT-44777)
+* 修正當活動的目標包含特殊字元時，無法同步活動的問題。 (TGT-44982)
+* 已修正導致無活動顯示於 [!DNL Target] 特定客戶預設工作區的UI。 (TGT-45286)
+* 已更新「不允許重複」標幟的行為。 已更新排除的重複優惠方案標幟，以允許預設內容優惠方案的重複優惠方案 (適用於 API v3、v4)，並且如果選項參考預設內容優惠方案且未定義範本，則允許重複選項。 (TNT-46617)
+* 修正在URL中新增查詢引數，導致頁面無法在中載入的問題。 [!UICONTROL 視覺化體驗撰寫器] (VEC)。 (TGT-44873)
+* 對整個 [!DNL Target] UI 進行了各種本地化修正。
 
 ## [!DNL Target] Standard/Premium 23.5.1 (2023 年 5 月 23-25 日)
 
