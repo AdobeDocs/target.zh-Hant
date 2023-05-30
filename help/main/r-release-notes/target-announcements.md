@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Adobe Target專家、Ramon Cespedes和Kevin Jemison將加入我們。 在這場A
 ## 先前網路研討會和 Skill Builders 研討會錄影
 
 存取先前活動的錄影 (如果可用)：
+
+### 透過個人化推動成長的歷程
+
+透過Adobe客戶成功經理Ramon Cespedes呈現，強化貴組織提供個人化的能力。
+
+重要的分析報告顯示，在個人化方面表現出色的公司，所產生的收入比其同行多40%。 為了滿足每次點按對全新、相關且高度個人化體驗的需求，行銷人員需要適當的架構和策略。 在這場網路研討會中，與Adobe的專家一起瞭解如何使用資料導向架構來建立組織的個人化計畫並取得成功。
+
+* [錄影連結](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### 微調 AI 支援的個人化：[!DNL Adobe Target] 的新功能 (2022 年 10 月 11 日)
 
