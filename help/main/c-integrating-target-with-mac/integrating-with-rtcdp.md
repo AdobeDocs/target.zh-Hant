@@ -7,7 +7,7 @@ exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和
 * [目標發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank} (在 *Adobe Experience Platform 發行說明*&#x200B;中)
 * [為同一頁和下一頁個人化設定個人化目標](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} (在&#x200B;*目標概觀*&#x200B;指南中)。
 * [Adobe Target 連接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} (在&#x200B;*目標概觀*&#x200B;指南中)
-* [對應屬性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} (在&#x200B;*目標概觀*&#x200B;指南中)。
+* [對應屬性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank} (在&#x200B;*目標概觀*&#x200B;指南中)。
 
 ## 影片和部落格文章 {#videos-blogs}
 
@@ -125,27 +125,27 @@ Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### 影片：設定 [!DNL Adobe Target] 目的地位於 [!DNL Real-Time Customer Data Platform]
+### 影片：在 [!DNL Real-Time Customer Data Platform] 中設定 [!DNL Adobe Target] 目的地
 
-瞭解如何設定 [!DNL Adobe Target] 目的地位於 [!DNL Real-Time Customer Data Platform] 開始傳送區段和設定檔屬性的方式 [!DNL Real-Time CDP] 至 [!DNL Target].
+了解如何在 [!DNL Real-Time Customer Data Platform] 中設定 [!DNL Adobe Target] 目的地，以開始從 [!DNL Real-Time CDP] 傳送區段和設定檔屬性到 [!DNL Target]。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
-### 影片：啟用區段和設定檔屬性
+### 影片：啟動區段和設定檔屬性
 
-瞭解如何從啟動區段和設定檔屬性 [!DNL Adobe Real-Time Customer Data Platform] 至 [!DNL Adobe Target] 在您的網站、行動應用程式和其他數位屬性中顯示即時個人化內容。
+了解如何從 [!DNL Adobe Real-Time Customer Data Platform] 將區段和設定檔屬性啟動到 [!DNL Adobe Target] 以在您的網站、行動應用程式和其他數位資產中顯示即時個人化內容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
-### 影片：使用 [!DNL Real-Time CDP] 中的區段 [!DNL Target]
+### 影片：在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 區段
 
-瞭解如何使用 [!DNL Real-Time Customer Data Platform] 中的區段 [!DNL Adobe Target] 在您的網站和行動應用程式上提供個人化體驗。
+了解如何在 [!DNL Adobe Target] 中使用 [!DNL Real-Time Customer Data Platform] 區段，以在您的網站和行動應用程式上提供個人化體驗。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
-### 影片：使用 [!DNL Real-Time CDP] 中的設定檔屬性 [!DNL Adobe Target]
+### 影片：在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 設定檔屬性
 
-瞭解如何使用 [!DNL Adobe Real-Time Customer Data Platform] 中的設定檔屬性 [!DNL Adobe Target] 在您的網站和行動應用程式上提供個人化體驗。
+了解如何在 [!DNL Adobe Target] 中使用 [!DNL Adobe Real-Time Customer Data Platform] 設定檔屬性，以在您的網站和行動應用程式上提供個人化體驗。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
