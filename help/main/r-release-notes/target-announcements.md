@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1989'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,25 +15,25 @@ ht-degree: 87%
 
 有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-## [!UICONTROL Adobe Target社群] 問答咖啡會
+## [!UICONTROL Adobe Target 社群]問答咖啡會
 
-下列即將到來的咖啡會的相關資訊：
+有關以下即將舉行的咖啡會資訊：
 
 ### [!DNL Adobe Target Recommendations] 咖啡會
 
-* **星期三2023年6月7日**
-* **8:00-9:上午00 (PDT，UTC-7)**
+* **2023 年 6 月 7 日，星期三**
+* 上午 **8:00-9:點 (PDT，UTC-7)**
 * **[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
 
-我們將加入 [!DNL Adobe Target] 專家：Bill Ozinga、John Mosbaugh、Justin Patrick和Eric Thibeault。 在這個AMA （向我詢問任何事情）活動中，專家將登入並準備好回答您任何與以下內容相關的問題： [!DNL Target Recommendations] 功能。
+與會的 [!DNL Adobe Target] 專家：Bill Ozinga、John Mosbaugh、Justin Patrick 與 Eric Thibeault。在此 AMA (無所不答) 活動中，專家們將登入並準備好回答您關於 [!DNL Target Recommendations] 功能的問題。
 
-### 個人化計畫整備網路研討會後續追蹤
+### 個人化方案整備度網路研討會後續追蹤
 
-* **星期三2023年6月21日**
-* **8:00-9:上午00 (PDT，UTC-7)**
+* **2023 年 6 月 21 日，星期三**
+* 上午 **8:00-9:點 (PDT，UTC-7)**
 * **[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
-Adobe Target專家、Ramon Cespedes和Kevin Jemison將加入我們。 在這場AMA （向我詢問任何事情）活動中，專家將登入並準備好回答您與最近的5/24網路研討會中涵蓋的主題相關的任何問題 [透過個人化推動成長的歷程](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
+Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。在此 AMA (無所不答) 活動中，專家們將登入並準備好回答與最近 5 月 24 日網路研討會主題[個人化推動成長之旅](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}相關的任何問題。
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
@@ -45,11 +45,11 @@ Adobe Target專家、Ramon Cespedes和Kevin Jemison將加入我們。 在這場A
 
 存取先前活動的錄影 (如果可用)：
 
-### 透過個人化推動成長的歷程
+### 個人化推動成長之旅
 
-透過Adobe客戶成功經理Ramon Cespedes呈現，強化貴組織提供個人化的能力。
+增進組織實現個人化的能力，由 Adobe 客戶成功經理 Ramon Cespedes 主講。
 
-重要的分析報告顯示，在個人化方面表現出色的公司，所產生的收入比其同行多40%。 為了滿足每次點按對全新、相關且高度個人化體驗的需求，行銷人員需要適當的架構和策略。 在這場網路研討會中，與Adobe的專家一起瞭解如何使用資料導向架構來建立組織的個人化計畫並取得成功。
+關鍵分析師報告指出，在個人化方面表現優異的公司所產生的收入比其同行多了 40%。為了滿足每次點閱時對新的、相關且高度個人化體驗的需求，行銷人員必須備有適當的框架和策略。在此網路研討會中，與 Adobe 的專家們一起了解如何利用資料導向框架，以建置組織的個人化方案並推動成功。
 
 * [錄影連結](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
