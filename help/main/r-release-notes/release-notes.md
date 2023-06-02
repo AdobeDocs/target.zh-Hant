@@ -7,9 +7,9 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 83%
 |--- |--- |
 | 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。 |
 
-* 已修復在生成設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387 和 TGT-45423)
+* 已修復在產生設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387 和 TGT-45423)
 * 已修復在影像名稱包含 GB 18030 字元時，[!UICONTROL 建立設計]面板無法顯示影像的問題。(TGT-44614)
-* 修正體驗中的文字/HTML中，部分GB 18030符號字元錯誤逸出的問題。 (TGT-44600)
+* 已修正體驗中某些 GB 18030 符號字元在文字/HTML 中錯誤逸出的問題。(TGT-44600)
 * 已修復在分析過程中導致報告在 [!UICONTROL Auto Personalization] 活動中凍結的問題。(TGT-44820)
-* 修正無法搜尋活動的問題 [!UICONTROL 活動] 頁面(如果活動名稱包含方括弧( [ 或 ] )。 (TGT-44777)
-* 修正當活動的目標包含特殊字元時，無法同步活動的問題。 (TGT-44982)
-* 已修正導致無活動顯示於 [!DNL Target] 特定客戶預設工作區的UI。 (TGT-45286)
+* 已修復活動名稱包含方括號 ([ 或 ]) 時便無法在[!UICONTROL 活動]頁面上搜尋活動的問題。(TGT-44777)
+* 已修復活動的主旨包含特殊字元時便無法進行活動同步的問題。(TGT-44982)
+* 已修正導致某些客戶預設工作區的 [!DNL Target] UI 中未顯示任何活動的問題。(TGT-45286)
 * 已更新「不允許重複」標幟的行為。 已更新排除的重複優惠方案標幟，以允許預設內容優惠方案的重複優惠方案 (適用於 API v3、v4)，並且如果選項參考預設內容優惠方案且未定義範本，則允許重複選項。 (TNT-46617)
-* 修正在URL中新增查詢引數，導致頁面無法在中載入的問題。 [!UICONTROL 視覺化體驗撰寫器] (VEC)。 (TGT-44873)
+* 已修正在 URL 中新增查詢參數而導致[!UICONTROL 可視化體驗撰寫器] (VEC) 無法載入頁面的問題。(TGT-44873)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
 
 ## [!DNL Target] Standard/Premium 23.5.1 (2023 年 5 月 23-25 日)
@@ -46,7 +46,7 @@ ht-degree: 83%
 5 月 24 日：亞太 (APAC) 地區
 5 月 25 日：美洲地區
 
-此版本包含下列新增強功能和修正：
+此版本包含以下新的增強功能和修正：
 
 * 已修復讓特定客戶無法使用「大於」或「小於」運算符號，建立具有訪客資料的對象問題。(TGT-45271)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
