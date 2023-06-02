@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '2890'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 98%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 5 月 30 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.5.2 版的發行說明。 |
-|  | [整合 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | 已更新文章，其中包含共用資訊 [!UICONTROL Real-Time CDP設定檔屬性] 替換為 [!DNL Target] 用於HTML和JSON選件。 |
-|  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增下列即將舉辦的咖啡會活動的相關資訊：<ul><li>[!DNL Adobe Target Recommendations] 咖啡會（6月7日）</li><li>個人化計畫整備網路研討會跟進（6月21日）</li></ul> |
-| 5 月 23 日 | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新重要注意事項。 |
+|  | [整合 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | 已更新有關與 [!DNL Target] 分享 [!UICONTROL Real-Time CDP 設定檔屬性]以用於 HTML 和 JSON 商品等資訊的文章。 |
+|  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增下列即將舉行的咖啡會活動相關資訊：<ul><li>[!DNL Adobe Target Recommendations] 咖啡會 (6 月 7 日)</li><li>個人化方案整備度網路研討會後續追蹤 (6 月 21 日)</li></ul> |
+| 5 月 23 日 | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hant){target=_blank} | 已更新重要說明。 |
 |  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 為即將發佈的版本更新了發行前說明。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.5.1 版的發行說明。 |
 
@@ -31,17 +31,17 @@ ht-degree: 98%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 5 月 22 日 | [整合 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | 已新增下列新影片: <ul><li>在 [!DNL Real-Time Customer Data Platform] 中設定 [!DNL Adobe Target] 目的地</li><li>啟動區段和設定檔屬性</li><li>在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 區段</li><li>在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 設定檔屬性</li></ul> |
-|  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新重要注意事項。 |
+|  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hant){target=_blank} | 已更新重要說明。 |
 | 5 月 19 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 為即將發佈的版本更新了發行前說明。 |
 | 5 月 17 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2023 年 5 月 24 日星期三 [!UICONTROL Adobe Target 社群]問答咖啡會的資訊。 |
 | 5 月 16 日 | [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md) | 表示 `entity.id` 值不允許有「空格」。 |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新 `viewsEnabled` 說明。 |
-|  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在「實作 Adobe Target 檢視」下的步驟 2 後新增說明。</li><li>更新「初始頁面載入操作順序」下的步驟 2「執行 Target 請求」。</li></ul> |
-| 5 月 4 日 | [為 Adobe Target API 設定驗證](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | 新增解釋需要從 JWT 認證遷移到 OAuth 伺服器到伺服器認證的說明。 |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=zh-Hant){target=_blank} | 更新 `viewsEnabled` 說明。 |
+|  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=zh-Hant){target=_blank} | 進行下列更新：<ul><li>在「實作 Adobe Target 檢視」下的步驟 2 後新增說明。</li><li>更新「初始頁面載入操作順序」下的步驟 2「執行 Target 請求」。</li></ul> |
+| 5 月 4 日 | [為 Adobe Target API 設定驗證](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=zh-Hant){target=_blank} | 新增解釋需要從 JWT 認證遷移到 OAuth 伺服器到伺服器認證的說明。 |
 | 5 月 3 日 | [檢視報告 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 新增下列常見問題：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 時，如何在 [!DNL Analysis Workspace] 中追蹤活動曝光次數？</li></ul> |
 | 4 月 26 日 | [AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
 |  | [[!UICONTROL AEM 內容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |
-|  | [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 開發人員指南*&#x200B;已移至 *[!UICONTROL Adobe Experience League]*。移至 *[!UICONTROL Experience League]* 可協助將文字當地語系化為其他語言，在 *Experience League* 中統一搜尋以提供來自 *[!UICONTROL Adobe Target 商務從業者指南]*&#x200B;和 *[!UICONTROL Adobe Target 開發人員指南]*&#x200B;的搜尋結果，並提供額外的好處。<P>您將從先前位置自動重新導向到 *[!UICONTROL Experience League]*。請視需要更新您的書籤。 |
+|  | [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank} | *Adobe Target 開發人員指南*&#x200B;已移至 *[!UICONTROL Adobe Experience League]*。移至 *[!UICONTROL Experience League]* 可協助將文字當地語系化為其他語言，在 *Experience League* 中統一搜尋以提供來自 *[!UICONTROL Adobe Target 商務從業者指南]*&#x200B;和 *[!UICONTROL Adobe Target 開發人員指南]*&#x200B;的搜尋結果，並提供額外的好處。<P>您將從先前位置自動重新導向到 *[!UICONTROL Experience League]*。請視需要更新您的書籤。 |
 | 4 月 24 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關以下 Adobe Target 社群問答咖啡會的資訊：<ul><li>經驗證之環境的行動體驗最佳化和個人化</li></ul> |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.4.1 版的發行說明。 |
 
@@ -57,10 +57,10 @@ ht-degree: 98%
 |  | [AEM 內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主題。請注意，出於測試目的，此功能處於「預先發佈」狀態。 |
 | 4 月 5 日 | [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 已新增文字，表示 [!UICONTROL Analytics 作為報告來源] (A4t) 不受使用報價決策的活動支援。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2023 年 4 月 12 日星期三 [!UICONTROL Adobe Target 社群]咖啡會的資訊。 |
-|  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 新增備註以將所有 [!DNL Adobe Analytics] IP 位址區塊加入允許清單。 |
+|  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hant){target=_blank} | 新增備註以將所有 [!DNL Adobe Analytics] IP 位址區塊加入允許清單。 |
 | 3 月 30 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已更新發行說明，關於發行為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]功能最佳化的 A4T 量度，可讓您在為[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用 [!UICONTROL A4T] 時，可根據二項式事件選擇量度，或根據連續事件選擇量度。 |
 |  | [[!UICONTROL 自動分配和自動鎖定目標活動的 A4T 支援]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新「受支援目標量度」一節以包含使用 [!UICONTROL Analytics for Target] (A4T) 之[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的受支援 (和不受支援) 量度的資訊。 |
-|  | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 已更新下列教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+|  | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant){target=_blank} | 已更新下列教學課程：<ul><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hant){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hant){target=_blank}</li></ul> |
 |  | [Target 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Adobe Experience Manager] (AEM) 和 [!DNL Adobe Target][!UICONTROL 內容片段]發行資訊。(2023 年 4 月 6 日) |
 | 3 月 28 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.3.1 版的發行說明。 |
 
@@ -104,7 +104,7 @@ ht-degree: 98%
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增關於模型 API 版本 (2022 年 11 月 23 日) 的資訊。 |
 | 11 月 23 日 | [使用 at.js 實作 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 已更新指向 [Marketing Cloud 整合佈建表單](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} 的連結。 |
 | 11 月 16 日 | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的報名資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會 (11 月 29 日)</li></ul> |
-| 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增了實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank} 中的注意事項。 |
+| 11 月 8 日 | [A/B 測試該執行多久？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 新增重要注意事項：要獲得準確的結果，在 [!DNL Adobe Target][!UICONTROL 樣本大小計算機]中變更任何參數數字之前，必須重新載入頁面。也新增了實際[計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){target=_blank} 中的注意事項。 |
 |  | [重新導向優惠方案 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 更新表格中 `adobe_mc_sdid` 參數的說明。 |
 |  | [疑難排解活動](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 加入新章節：「活動轉換後，訪客沒有任何體驗。」 |
 |  | [自訂參數](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 新增注意事項：從「[!UICONTROL 篩選依據]」下拉式清單選取的 mbox 未在建立活動時儲存。此選項可讓您根據選取的 mbox 篩選參數。 |
