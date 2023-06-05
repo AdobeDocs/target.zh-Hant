@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 98%
+source-wordcount: '2155'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 * **2023 年 6 月 7 日，星期三**
 * 上午 **8:00-9:點 (PDT，UTC-7)**
-* **[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
+* **[詳細資訊](https://shorturl.at/irzD5){target=_blank}**
 
 與會的 [!DNL Adobe Target] 專家：Bill Ozinga、John Mosbaugh、Justin Patrick 與 Eric Thibeault。在此 AMA (無所不答) 活動中，專家們將登入並準備好回答您關於 [!DNL Target Recommendations] 功能的問題。
 
