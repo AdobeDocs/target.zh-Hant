@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2957'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 98%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 6 月 5 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 更新下列活動的資訊：<ul><li>已更新以下專案的註冊連結： [!DNL Adobe Target Recommendations] 咖啡會（2023年6月7日，星期三）</li><li>新增最近網路研討會「已驗證環境的行動體驗最佳化和個人化」的相關資訊，並新增該影片的連結。</li></ul> |
+|  | [套用報表對象至成功量度](/help/main/c-target/apply-reporting-audience-success-metric.md) | 更新「考量」一節，並新增「範例」一節。 |
+|  | [鎖定目標和對象常見問題](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 更新「URL目標定位」區段。 |
 | 5 月 30 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.5.2 版的發行說明。 |
 |  | [整合 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | 已更新有關與 [!DNL Target] 分享 [!UICONTROL Real-Time CDP 設定檔屬性]以用於 HTML 和 JSON 商品等資訊的文章。 |
 |  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增下列即將舉行的咖啡會活動相關資訊：<ul><li>[!DNL Adobe Target Recommendations] 咖啡會 (6 月 7 日)</li><li>個人化方案整備度網路研討會後續追蹤 (6 月 21 日)</li></ul> |

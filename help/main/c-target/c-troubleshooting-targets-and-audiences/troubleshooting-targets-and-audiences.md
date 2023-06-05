@@ -4,10 +4,10 @@ description: 檢視關於體驗鎖定目標和Adobe中所使用對象的常見�
 title: 哪裡可以找到有關鎖定目標和對象的問題與解答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 62%
+source-wordcount: '962'
+ht-degree: 63%
 
 ---
 
@@ -39,7 +39,7 @@ Target會根據您在建立活動時使用對象URL鎖定目標，或您在建�
 
 對象URL目標定位和URL目標定位已透過新增 [!UICONTROL 範本規則] 評估為URL目標定位（請參閱下方的URL目標定位）。
 
-### URL目標定位
+### URL目標定位 {#url-targeting}
 
 若要在建立對象時套用URL目標定位，請按一下 [!UICONTROL 新增規則]，按一下 [!UICONTROL 網頁]，從第一個下拉式清單中選取選項([!UICONTROL 目前頁面]， [!UICONTROL 上一頁]，或 [!UICONTROL 登陸頁面])，選取 [!UICONTROL URL] 從第二個下拉式清單中指定評估器，然後指定所需的URL。
 
@@ -47,11 +47,10 @@ Target會根據您在建立活動時使用對象URL鎖定目標，或您在建�
 
 URL鎖定目標會將URL轉換為一組規則以評估：
 
-* URL = `example.com/path1?query=something`
-* URL網域= `example.com`
-* 路徑= path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* 網域 = `example.com`
+* 路徑 = `path1/path2/path3`
+* 查詢 = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## 建立複雜的URL字串時，會 [!DNL Target] 評估整個URL？
 
