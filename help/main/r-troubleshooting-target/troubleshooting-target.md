@@ -4,7 +4,7 @@ description: 瀏覽可協助您解決 Adobe Target 中問題的主題清單，�
 title: 如何疑難排解 Target？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 86%
@@ -117,7 +117,7 @@ ht-degree: 86%
 
 ### at.js
 
-* [at.js 常見問答](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [at.js 常見問答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
 * [使用 Adobe Experience Cloud Debugger 除錯 at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [at.js 版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。
