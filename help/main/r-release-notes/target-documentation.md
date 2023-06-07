@@ -4,10 +4,10 @@ description: 存取  [!DNL Adobe Target]  文件和資源，包括線上說明�
 title: 我可以在哪裡找到  [!DNL Adobe Target] 文件和資源？
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 | [Target Recommendations API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank}。  | [!UICONTROL Recommendations] API 的相關資訊，可讓您以程式設計方式與 [!DNL Target] 推薦伺服器互動。這些 API 可與一系列應用程式堆疊整合，以執行您通常透過 [!DNL Target] UI 執行的功能。 |
 | [伺服器端傳送 API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。  | 有關構成 Adobe Target 傳送 API 的資源的資訊。 |
 | [Target 伺服器端 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank}。  | 說明如何使用 SDK 部署 [!DNL Target] 伺服器端。 |
-| [Adobe Experience Platform 行動 SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | 有關在行動應用程式上實施 [!DNL Target] 的資訊。 |
+| [Adobe Experience Platform 行動 SDKs](https://experienceleague.adobe.com/docs/mobile.html) | 有關在行動應用程式上實施 [!DNL Target] 的資訊。 |
 
 除了上述資源之外，請造訪 [Adobe Experience League Target 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)，在其中您可以：
 
