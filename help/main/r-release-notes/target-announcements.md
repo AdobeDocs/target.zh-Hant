@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 存取先前活動的錄影 (如果可用)：
 
-### 已驗證環境的行動體驗最佳化和個人化（2023年4月26日）
+### 經驗證之環境的行動體驗最佳化和個人化 (2023 年 4 月 26 日)
 
 品牌需要根據特定的客戶需求和行為提供高度個人化和相關的體驗。由於對行銷技術中無 cookie 的未來存有疑問，受監管產業正在尋求採用更強大的客戶參與框架，同時最佳化每次客戶互動以提供正確的內容和優惠。
 
@@ -46,7 +46,7 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 在這場會議中，了解 [!DNL Adobe Target] 和 [!DNL Real-Time CDP] 如何增加受監管產業內的參與度、收入和客戶忠誠度，我們將討論：
 
 * 團隊如何為匿名和經驗證的訪客提供個人化體驗
-* 透過個人化了解消費者許可權和隱私權標準
+* 了解消費者權限和隱私標準搭配個人化運作
 * 通過匿名身份向經驗證的訪客提供個人化內容和優惠
 * 跨網頁和行動裝置的經驗證、安全網站的獨特使用案例
 
@@ -68,11 +68,11 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://video.tv.adobe.com/v/3410117){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   這場新產品發表既及時又極為重要，因為我們看到過去幾年來無論是哪個產業，對個人化的需要都逐漸升高。它已成為公司在其整個客戶歷程使其從競爭者中脫穎而出的一種方法。個人化「隨處」都可以發揮功效：從訪客第一次接觸開始，利用贏取使用案例的基本資料，一直到客戶服務和忠誠度使用案例。
+  這場新產品發表既及時又極為重要，因為我們看到過去幾年來無論是哪個產業，對個人化的需要都逐漸升高。它已成為公司在其整個客戶歷程使其從競爭者中脫穎而出的一種方法。個人化「隨處」都可以發揮功效：從訪客第一次接觸開始，利用贏取使用案例的基本資料，一直到客戶服務和忠誠度使用案例。
 
-   在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
+  在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
 
    * [!UICONTROL Automated Personalization] 和[!UICONTROL 自動鎖定目標]活動中增強的模型控制
    * 釋放從 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 評估設定檔屬性和高值區段的能力
@@ -93,9 +93,9 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://video.tv.adobe.com/v/347360){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   課程地圖：
+  課程地圖：
 
    * [!UICONTROL A/B 測試]，[!UICONTROL Multivariate Testing] (MVT)、(XT) 和以及自動化測試和個人化
    * 活動設置的逐步工作流程
@@ -107,13 +107,13 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 ### 廚師的收藏：個人化配方 (2022 年 8 月 30 日)
 
-加入 [!DNL Adobe Target] [!DNL ]團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
+加入 [!DNL Adobe Target] [!DNL]團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
 
 * [錄影連結](https://video.tv.adobe.com/v/346970/){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   探索有關以下各項的想法：
+  探索有關以下各項的想法：
 
    * 如何使用個人化來培養忠誠度
    * 實現最佳化來獲得競爭優勢
@@ -127,11 +127,11 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * **[註冊並觀看網路研討會影片](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-   +++詳細資料
+  +++詳細資料
 
-   在 2022 年，系統在提供持續智慧以實現即時積極促進忠誠度的能力方面已達到臨界點。
+  在 2022 年，系統在提供持續智慧以實現即時積極促進忠誠度的能力方面已達到臨界點。
 
-   我們將探索的主題：
+  我們將探索的主題：
 
    * 數位化顛覆的加速與 AI 的興起
    * 為什麼早期採用者在營業金額和利潤成長方面都獲勝
@@ -146,9 +146,9 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://video.tv.adobe.com/v/346323){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   加入 Michael Klein (產業策略零售總監) 和 Leina Betzer (Adobe Premier Support 的 Target 顧問)，一起討論隨著消費者購買方式和行為的變化，遇有部份市場的商品和服務需求也提高，零售電子商務的銷售如何飆升。
+  加入 Michael Klein (產業策略零售總監) 和 Leina Betzer (Adobe Premier Support 的 Target 顧問)，一起討論隨著消費者購買方式和行為的變化，遇有部份市場的商品和服務需求也提高，零售電子商務的銷售如何飆升。
 
 +++
 
@@ -158,9 +158,9 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   加入 ([!DNL Adobe] 主要專家解決方案顧問) 以討論：
+  加入 ([!DNL Adobe] 主要專家解決方案顧問) 以討論：
 
    * 行銷人員、開發人員和產品團隊如何開啟 AI 的「黑盒子」，以推進未來的測試和個人化策略
    * 克服最佳化 Web、行動應用程式、電子郵件地址、IoT 和每個數位轉換點的挑戰，以獲得更高轉換率和參與度
@@ -175,9 +175,9 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   加入 Heather Adkins (SVP 行銷技術)，了解成為「關係銀行」並提高品牌忠誠度的最佳實務，以及了解如何促使人員和流程建置和擴展成功的個人化方案。
+  加入 Heather Adkins (SVP 行銷技術)，了解成為「關係銀行」並提高品牌忠誠度的最佳實務，以及了解如何促使人員和流程建置和擴展成功的個人化方案。
 
 +++
 
@@ -187,9 +187,9 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   加入 Kaitlin White (Adobe 產品行銷經理)，因為我們要分享經驗證可靠的策略，希望能幫助您啟動個人化方案，其中包括：
+  加入 Kaitlin White (Adobe 產品行銷經理)，因為我們要分享經驗證可靠的策略，希望能幫助您啟動個人化方案，其中包括：
 
    * 跳脫既定思維，才能爭取到新的潛在客戶或實際客戶
    * 修復使用者衝突以獲得更直覺的體驗
@@ -204,11 +204,11 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://video.tv.adobe.com/v/343042){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   來和 Shawn Wilkinson (電子商務個人化經理) 一起了解 [!DNL Target] 如何幫助 Dick&#39;s Sporting Goods 將普通訪客轉化為再度回訪的運動人士。
+  來和 Shawn Wilkinson (電子商務個人化經理) 一起了解 [!DNL Target] 如何幫助 Dick&#39;s Sporting Goods 將普通訪客轉化為再度回訪的運動人士。
 
-   隨著我們解密，了解 Dick&#39;s Sporting Goods 如何推動雙位數的成長：
+  隨著我們解密，了解 Dick&#39;s Sporting Goods 如何推動雙位數的成長：
 
    * 如何為零售業規劃和推出高績效的個人化方案
    * 為什麼獲得整個組織的認同對於克服障礙至關重要
@@ -223,9 +223,9 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://video.tv.adobe.com/v/343240){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   加入 Christopher Young (產業策略金融服務總監) 和 James Capasso (Adobe Premier Support 的 Target 顧問)，了解品牌如何回應需求的即時變化，同時與客戶互動時以個人化為中心。 了解金融服務公司如何使用個人化支援並知會客戶，讓全球關心最近通貨膨脹模式及其投資情況的客戶了解狀況。
+  加入 Christopher Young (產業策略金融服務總監) 和 James Capasso (Adobe Premier Support 的 Target 顧問)，了解品牌如何回應需求的即時變化，同時與客戶互動時以個人化為中心。 了解金融服務公司如何使用個人化支援並知會客戶，讓全球關心最近通貨膨脹模式及其投資情況的客戶了解狀況。
 
 +++
 
@@ -235,11 +235,11 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://video.tv.adobe.com/v/343344){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   加入 Heather Adkins (SVP 行銷科技經理)，了解 City National Bank 如何成為最尖端的「數位技術關係銀行」之一。
+  加入 Heather Adkins (SVP 行銷科技經理)，了解 City National Bank 如何成為最尖端的「數位技術關係銀行」之一。
 
-   了解 City National Bank 如何將 [!DNL Target] 運用在：
+  了解 City National Bank 如何將 [!DNL Target] 運用在：
 
    * 小型測試和實驗、個人化和 AI 自動化活動
    * 推動跨通道的成功經驗以建立真實的關係
@@ -252,9 +252,9 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * **[註冊並觀看網路研討會影片](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-   +++詳細資料
+  +++詳細資料
 
-   在這場會議中，可了解 [!DNL Adobe Target] 如何縮短在跨越多個來源合併資料以實現即時 Personalization 時產生的差距，我們將討論：
+  在這場會議中，可了解 [!DNL Adobe Target] 如何縮短在跨越多個來源合併資料以實現即時 Personalization 時產生的差距，我們將討論：
 
    * 為什麼個人化效能和速度對於推動更快速的業務成長很重要
    * 團隊如何建置第一方資料策略並解決其資料片段化的挑戰
@@ -267,11 +267,11 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * [錄影連結](https://video.tv.adobe.com/v/328148){target=_blank}
 
-   +++詳細資料
+  +++詳細資料
 
-   市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。包含數據孤島和複雜實作的多種工具也辦不到。
+  市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。包含數據孤島和複雜實作的多種工具也辦不到。
 
-   在此網路研討會影片中，Adobe Target 產品專家會討論將關鍵體驗最佳化決策移到裝置上，以便在零延遲的情況下於本機執行最佳化，可以促成令人興奮的新使用案例，同時為客戶改善網站績效。
+  在此網路研討會影片中，Adobe Target 產品專家會討論將關鍵體驗最佳化決策移到裝置上，以便在零延遲的情況下於本機執行最佳化，可以促成令人興奮的新使用案例，同時為客戶改善網站績效。
 
 +++
 
@@ -279,13 +279,13 @@ Adobe Target 專家 Ramon Cespedes 和 Kevin Jemison 將和我們一同參與。
 
 * **[錄影連結](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
-   +++詳細資料
+  +++詳細資料
 
-   McKinsey Digital 報告：「在消費者和企業數位採用方面，我們將原本要 5 年才能完成的工作加快到大約 8 週的時間完成。」*
+  McKinsey Digital 報告：「在消費者和企業數位採用方面，我們將原本要 5 年才能完成的工作加快到大約 8 週的時間完成。」*
 
-   客戶要求迅速發展，而 HSBC 已採用 Adobe Target 最佳化，以迅速測試和個人化新客戶歷程，將特定發展與發行的時間從 6 個月減少至一星期！
+  客戶要求迅速發展，而 HSBC 已採用 Adobe Target 最佳化，以迅速測試和個人化新客戶歷程，將特定發展與發行的時間從 6 個月減少至一星期！
 
-   在此網路研討會中加入 Adobe 和 HSBC 以了解：
+  在此網路研討會中加入 Adobe 和 HSBC 以了解：
 
    * HSBC 的最佳化和個人化工作促進組織內部快速變革
    * 人工智慧和 Analytics 如何加速他們的努力並提供明確重要的業務影響
