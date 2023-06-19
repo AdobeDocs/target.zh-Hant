@@ -4,10 +4,10 @@ description: 瞭解如何在中使用對象 [!DNL Adobe Target].
 title: 如何使用對象清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 30%
+source-wordcount: '818'
+ht-degree: 32%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，進而帶來更具影響力的個人化。 
 
 如需詳細資訊，請參閱 [使用來自的對象 [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## 在HTML和JSON選件中使用Real-time CDP設定檔屬性
-
-Real-time CDP設定檔屬性可與Target共用，以用於HTML選件和JSON選件。 如需詳細資訊，請參閱整合 [!DNL Real-Time Customer Data Platform].
-
-如需詳細資訊，請參閱 [管理內容](/help/main/c-experiences/c-manage-content/manage-content.md) 和 [建立JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## 訓練影片：使用對象 ![教學課程徽章](/help/main/assets/tutorial.png)
 
