@@ -6,7 +6,7 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 * 已修正在 URL 中新增查詢參數而導致[!UICONTROL 可視化體驗撰寫器] (VEC) 無法載入頁面的問題。(TGT-44873)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
 
-## 共用的Real-Time CDP設定檔屬性 [!DNL Target]|[!UICONTROL Real-Time CDP設定檔屬性] （2023年6月13日）
+## 共用的Real-Time CDP設定檔屬性 [!DNL Target] [!UICONTROL Real-Time CDP設定檔屬性] （2023年6月13日）
 
 此版本包含下列增強功能：
 
