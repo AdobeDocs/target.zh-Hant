@@ -4,10 +4,10 @@ description: 瞭解如何在中使用對象 [!DNL Adobe Target].
 title: 如何使用對象清單？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 32%
+source-wordcount: '861'
+ht-degree: 30%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 32%
 * **鎖定目標對象：** 用於傳送不同內容給不同型別的訪客。
 * **報表對象：** 用於確定不同型別的訪客如何回應相同的內容，以便您分析測試結果。
 
-   在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。如果您使用 [ Adobe Analytics 作為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在 [!DNL Analytics] 內設定報表對象。
+  在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。如果您使用 [ Adobe Analytics 作為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在 [!DNL Analytics] 內設定報表對象。
 
 ## 使用 [!UICONTROL 受眾] 清單 {#use-list}
 
@@ -43,13 +43,13 @@ ht-degree: 32%
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >此 [!DNL Adobe Experience Platform] 來源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 對象可從 [!DNL Adobe Experience Platform] 可按原樣使用或 [與現有對象結合](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >使用者必須具備 [!UICONTROL 核准者] 中的或以上狀態 [!DNL Target] 進行設定 [!DNL Target] [!UICONTROL 目的地] AEP/RTCDP中的卡片([!DNL Real-time Customer Data Platform])。
-   >
-   >如需詳細資訊，請參閱 [使用來自Adobe Experience Platform的受眾](#aep).
+  >[!NOTE]
+  >
+  >此 [!DNL Adobe Experience Platform] 來源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 對象可從 [!DNL Adobe Experience Platform] 可按原樣使用或 [與現有對象結合](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >使用者必須具備 [!UICONTROL 核准者] 中的或以上狀態 [!DNL Target] 進行設定 [!DNL Target] [!UICONTROL 目的地] AEP/RTCDP中的卡片([!DNL Real-time Customer Data Platform])。
+  >
+  >如需詳細資訊，請參閱 [使用來自Adobe Experience Platform的受眾](#aep).
 
 預先定義的對象，例如&quot;[!UICONTROL 新訪客]「和」[!UICONTROL 再度訪問的訪客]，」無法重新命名。
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，進而帶來更具影響力的個人化。 
 
 如需詳細資訊，請參閱 [使用來自的對象 [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## 在HTML和JSON選件中使用Real-time CDP設定檔屬性
+
+Real-time CDP設定檔屬性可與Target共用，以用於HTML選件和JSON選件。 如需詳細資訊，請參閱整合 [!DNL Real-Time Customer Data Platform].
+
+如需詳細資訊，請參閱 [管理內容](/help/main/c-experiences/c-manage-content/manage-content.md) 和 [建立JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## 訓練影片：使用對象 ![教學課程徽章](/help/main/assets/tutorial.png)
 
