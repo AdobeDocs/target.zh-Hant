@@ -5,9 +5,9 @@ title: 我如何整合  [!DNL Target] 和 [!DNL Real-Time Customer Data Platform
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1060'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 重要功能包含：
 
 * 在 Edge 上，直接 [!DNL Target] 整合 Real-Time CDP/[!DNL Adobe Experience Platform] (消除對 [!DNL Audience Core services] - AAM 的相依性)
-* [!UICONTROL Target Edge 目標卡]以及控管和政策執行
+* [!UICONTROL Target Edge 目的地卡]以及控管和政策執行
 * Real-time CDP 區段和共用設定檔屬性
 
 ## 實作案例
@@ -104,12 +104,12 @@ Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和
 
 如需詳細資訊，請參閱下列主題:
 
-* [目標發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank} (在 *Adobe Experience Platform 發行說明*&#x200B;中)
-* [為同一頁和下一頁個人化設定個人化目標](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} (在&#x200B;*目標概觀*&#x200B;指南中)。
-* [Adobe Target 連接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} (在&#x200B;*目標概觀*&#x200B;指南中)
-* [對應屬性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank} (在&#x200B;*目標概觀*&#x200B;指南中)。
-* [啟用對象以邊緣個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} 在 *目的地概觀* 指南。
-* [透過的相同頁面和下一頁個人化 [!DNL Adobe Target] 和自訂個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} 在「 」中的「常見問題集」下 *目的地概觀* 指南。
+* [目的地發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank} (在 *Adobe Experience Platform 發行說明*&#x200B;中)
+* [為同一頁和下一頁個人化設定個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)。
+* [Adobe Target 連接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)
+* [對應屬性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)。
+* [對邊緣個人化目的地啟用對象](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)。
+* [透過  [!DNL Adobe Target]  和自訂個人化目的地進行同一頁和下一頁個人化](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中的「常見問題」下方)。
 
 ## 影片和部落格文章 {#videos-blogs}
 
@@ -117,7 +117,7 @@ Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和
 
 ### 影片：使用 Real-Time CDP 和 [!DNL Adobe Target] 進行下一次點擊的個人化{#RTCDP}
 
-了解如何使用 [!DNL Real-Time Customer Data Platform]和 [!DNL Adobe Target] 對下一次點擊進行個人化。 [!DNL Real-Time CDP] 中的 [!DNL Adobe Target] 目標可讓您將 [!DNL Adobe Target] 中的 [!DNL Experience Platform] 區段用於具有控管和隱私權支援的同一頁個人化和下一頁個人化。
+了解如何使用 [!DNL Real-Time Customer Data Platform]和 [!DNL Adobe Target] 對下一次點擊進行個人化。 [!DNL Real-Time CDP] 中的 [!DNL Adobe Target] 目的地可讓您將 [!DNL Adobe Target] 中的 [!DNL Experience Platform] 區段用於具有控管和隱私權支援的同一頁個人化和下一頁個人化。
 
 若要了解詳細資訊，請參閱[使用 Real-time CDP 和 Adobe Target 的下一次點擊個人化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hant){target=_blank} (在 *Platform 教學課程*&#x200B;指南中)。
 
