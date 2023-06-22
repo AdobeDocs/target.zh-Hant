@@ -7,9 +7,9 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 98%
 * 已修復在影像名稱包含 GB 18030 字元時，[!UICONTROL 建立設計]面板無法顯示影像的問題。(TGT-44614)
 * 已修正體驗中某些 GB 18030 符號字元在文字/HTML 中錯誤逸出的問題。(TGT-44600)
 * 已修復在分析過程中導致報告在 [!UICONTROL Auto Personalization] 活動中凍結的問題。(TGT-44820)
-* 已修復活動名稱包含方括號 ([!UICONTROL  或 ]) 時便無法在[活動]頁面上搜尋活動的問題。(TGT-44777)
+* 已修正活動名稱包含方括號 ( [ 或 ] ) 時便無法在「[!UICONTROL 活動]」頁面上搜尋活動的問題。(TGT-44777)
 * 已修復活動的主旨包含特殊字元時便無法進行活動同步的問題。(TGT-44982)
 * 已修正導致某些客戶預設工作區的 [!DNL Target] UI 中未顯示任何活動的問題。(TGT-45286)
 * 已更新「不允許重複」標幟的行為。 已更新排除的重複優惠方案標幟，以允許預設內容優惠方案的重複優惠方案 (適用於 API v3、v4)，並且如果選項參考預設內容優惠方案且未定義範本，則允許重複選項。 (TNT-46617)
 * 已修正在 URL 中新增查詢參數而導致[!UICONTROL 可視化體驗撰寫器] (VEC) 無法載入頁面的問題。(TGT-44873)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
 
-## 共用的Real-Time CDP設定檔屬性 [!DNL Target] [!UICONTROL Real-Time CDP設定檔屬性] （2023年6月13日）
+## 與 [!DNL Target] [!UICONTROL Real-Time CDP 設定檔屬性]共用的 Real-Time CDP 設定檔屬性 (2023 年 6 月 13 日)
 
 此版本包含下列增強功能：
 
