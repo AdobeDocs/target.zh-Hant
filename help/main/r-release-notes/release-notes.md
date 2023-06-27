@@ -6,9 +6,9 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
-workflow-type: ht
-source-wordcount: '671'
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -19,42 +19,21 @@ ht-degree: 100%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 23.5.2 (2023 年 5 月 31 日)
+## [!DNL Target] Standard/Premium 23.6.1 (6 月 27-29 日)
 
-此版本包含下列增強功能和修正：
+我們將根據以下排程分批發行此版本：
 
-* 已修復在產生設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387 和 TGT-45423)
-* 已修復在影像名稱包含 GB 18030 字元時，[!UICONTROL 建立設計]面板無法顯示影像的問題。(TGT-44614)
-* 已修正體驗中某些 GB 18030 符號字元在文字/HTML 中錯誤逸出的問題。(TGT-44600)
-* 已修復在分析過程中導致報告在 [!UICONTROL Auto Personalization] 活動中凍結的問題。(TGT-44820)
-* 已修正活動名稱包含方括號 ( [ 或 ] ) 時便無法在「[!UICONTROL 活動]」頁面上搜尋活動的問題。(TGT-44777)
-* 已修復活動的主旨包含特殊字元時便無法進行活動同步的問題。(TGT-44982)
-* 已修正導致某些客戶預設工作區的 [!DNL Target] UI 中未顯示任何活動的問題。(TGT-45286)
-* 已更新「不允許重複」標幟的行為。 已更新排除的重複優惠方案標幟，以允許預設內容優惠方案的重複優惠方案 (適用於 API v3、v4)，並且如果選項參考預設內容優惠方案且未定義範本，則允許重複選項。 (TNT-46617)
-* 已修正在 URL 中新增查詢參數而導致[!UICONTROL 可視化體驗撰寫器] (VEC) 無法載入頁面的問題。(TGT-44873)
-* 對整個 [!DNL Target] UI 進行了各種本地化修正。
-
-## 與 [!DNL Target] [!UICONTROL Real-Time CDP 設定檔屬性]共用的 Real-Time CDP 設定檔屬性 (2023 年 6 月 13 日)
+* **6 月 27 日**：歐洲、中東和非洲 (EMEA) 區域
+* **6 月 28 日**：亞太 (APAC) 區域
+* **6 月 29 日**：美洲區域
 
 此版本包含下列增強功能：
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和 JSON 選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。 |
+| [!UICONTROL QA 模式]適用於 [!UICONTROL Automated Personalization] 活動 | [!DNL Adobe Target][!UICONTROL QA 模式]現在可用於 [!UICONTROL Automated Personalization] 活動，取代[!UICONTROL 預覽連結]功能。<P>如需詳細資訊，請參閱[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。 |
 
-## [!DNL Target] Standard/Premium 23.5.1 (2023 年 5 月 23-25 日)
-
-我們將根據以下排程分批發行此版本：
-
-5 月 23 日：歐洲、中東和非洲 (EMEA) 地區
-5 月 24 日：亞太 (APAC) 地區
-5 月 25 日：美洲地區
-
-此版本包含以下新的增強功能和修正：
-
-* 已修復讓特定客戶無法使用「大於」或「小於」運算符號，建立具有訪客資料的對象問題。(TGT-45271)
-* 對整個 [!DNL Target] UI 進行了各種本地化修正。
-* 為即將到來的 UI 重新整理更新了不同位置的 Target UI (在發行更新之前，變更隱藏在功能標幟之後)。
+* 效能增強以禁止重複功能 (包括縮短載入時間)，同時[管理排除](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) (在「[!UICONTROL Automated Personalization]」活動中)。
 
 ## 額外的發行說明和版本詳細資料
 
