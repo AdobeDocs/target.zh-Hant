@@ -7,7 +7,7 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
