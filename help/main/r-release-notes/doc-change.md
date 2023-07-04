@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 96%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## [!DNL Target] Standard/Premium 23.6.1 （2023年6月27至29日）
+## [!DNL Target] Standard/Premium 23.6.1 (2023 年 6 月 27-29 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 6 月 27 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活動QA現在可用於所有Target活動型別，包括 [!UICONTROL Automated Personalization] (AP)活動。 已移除預覽連結的相關資訊。 |
-|  | 預覽 URL | 由於所有活動型別現在都支援活動QA，因此已刪除此主題，並將其重新導向至 [活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主題。 |
+| 6 月 27 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活動 QA 現在可用於所有 Target 活動類型，包括 [!UICONTROL Automated Personalization](AP) 活動。已移除有關預覽連結的資訊。 |
+|  | 預覽 URL | 由於現在所有的活動類型都支援活動 QA，因此該主題已刪除並重新導向到[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主題。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.6.1 版的發行說明。 |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (2023 年 5 月 23-25 日)
