@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 7 月 10 日 | [考量事項和已知限制](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | 已將資訊新增至 *目標傳送API* HTTP/2強制小寫標題名稱的相關檔案。 |
 | 6 月 27 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活動 QA 現在可用於所有 Target 活動類型，包括 [!UICONTROL Automated Personalization]&#x200B;(AP) 活動。已移除有關預覽連結的資訊。 |
 |  | 預覽 URL | 由於現在所有的活動類型都支援活動 QA，因此該主題已刪除並重新導向到[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主題。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.6.1 版的發行說明。 |
