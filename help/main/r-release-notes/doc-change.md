@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
-workflow-type: ht
-source-wordcount: '1290'
-ht-degree: 100%
+source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 7 月 20 日 | [內容安全性原則 (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | 已將下列常見問題集新增至 *Adobe Target開發人員指南*：如何允許或防止我的網站嵌入為外部網域下的iFrame？ |
 | 7 月 10 日 | [考量事項和已知限制](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | 已在 *Target Delivery API* 文件中新增資訊，關於 HTTP/2 強制使用小寫標頭名稱。 |
 | 6 月 27 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活動 QA 現在可用於所有 Target 活動類型，包括 [!UICONTROL Automated Personalization]&#x200B;(AP) 活動。已移除有關預覽連結的資訊。 |
 |  | 預覽 URL | 由於現在所有的活動類型都支援活動 QA，因此該主題已刪除並重新導向到[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主題。 |
