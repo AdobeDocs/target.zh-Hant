@@ -4,7 +4,7 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -36,7 +36,6 @@ ht-degree: 74%
 * 改善搜尋條件 [使用DOM路徑導覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在 [!UICONTROL 視覺化體驗撰寫器] (VEC)以包含陰影DOM元素。 (TGT-45262)
 * 已修正導致無法 [變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 設定無法正常運作。 (TGT-45202)
 * 已修正導致某些客戶在收到下列錯誤訊息後無法下載活動報告的問題：「使用者無權存取報告。」 (TGT-45724 和 TGT-45747)
-
 
 ## 額外的發行說明和版本詳細資料
 

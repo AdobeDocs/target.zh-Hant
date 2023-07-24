@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 81%
 
 ---
 
@@ -19,21 +19,19 @@ ht-degree: 100%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 23.6.1 (6 月 27-29 日)
+## [!DNL Target] Standard/Premium 23.7.1 （7月24至26日）
 
 我們將根據以下排程分批發行此版本：
 
-* **6 月 27 日**：歐洲、中東和非洲 (EMEA) 區域
-* **6 月 28 日**：亞太 (APAC) 區域
-* **6 月 29 日**：美洲區域
+* **7月24**：歐洲、中東和非洲(EMEA)區域
+* **7月25**：亞太(APAC)區域
+* **7月26**：美洲區域
 
-此版本包含下列增強功能：
+此版本包含下列增強功能和修正：
 
-| 功能 | 詳細資料 |
-|--- |--- |
-| [!UICONTROL QA 模式]適用於 [!UICONTROL Automated Personalization] 活動 | [!DNL Adobe Target][!UICONTROL QA 模式]現在可用於 [!UICONTROL Automated Personalization] 活動，取代[!UICONTROL 預覽連結]功能。<P>如需詳細資訊，請參閱[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。 |
-
-* 效能增強以禁止重複功能 (包括縮短載入時間)，同時[管理排除](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) (在「[!UICONTROL Automated Personalization]」活動中)。
+* 改善搜尋條件 [使用DOM路徑導覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在 [!UICONTROL 視覺化體驗撰寫器] (VEC)以包含陰影DOM元素。 (TGT-45262)
+* 已修正導致無法 [變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 設定無法正常運作。 (TGT-45202)
+* 已修正導致某些客戶在收到下列錯誤訊息後無法下載活動報告的問題：「使用者無權存取報告。」 (TGT-45724 和 TGT-45747)
 
 ## 額外的發行說明和版本詳細資料
 

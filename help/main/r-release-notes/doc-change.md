@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 97%
+source-wordcount: '1347'
+ht-degree: 99%
 
 ---
 
@@ -15,11 +15,17 @@ ht-degree: 97%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
+## [!DNL Target] Standard/Premium 23.7.1 （2023年7月24至26日）
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+|  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.7.1 版的發行說明。 |
+
 ## [!DNL Target] Standard/Premium 23.6.1 (2023 年 6 月 27-29 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 7 月 20 日 | [內容安全性原則 (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | 已將下列常見問題集新增至 *Adobe Target開發人員指南*：如何允許或防止我的網站嵌入為外部網域下的iFrame？ |
+| 7 月 20 日 | [內容安全性原則 (CSP) 指示](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | 已新增以下 *Adobe Target 開發者指南* 常見問題集：如何允許或阻止我的網站作為 iFrame 嵌入在外部網域下？ |
 | 7 月 10 日 | [考量事項和已知限制](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | 已在 *Target Delivery API* 文件中新增資訊，關於 HTTP/2 強制使用小寫標頭名稱。 |
 | 6 月 27 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活動 QA 現在可用於所有 Target 活動類型，包括 [!UICONTROL Automated Personalization]&#x200B;(AP) 活動。已移除有關預覽連結的資訊。 |
 |  | 預覽 URL | 由於現在所有的活動類型都支援活動 QA，因此該主題已刪除並重新導向到[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主題。 |
