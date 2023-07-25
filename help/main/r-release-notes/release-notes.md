@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 81%
+source-wordcount: '459'
+ht-degree: 73%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 81%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Adobe Target] Edge規劃的基礎建設升級 {#edge}
+
+規劃的邊緣基礎架構升級需要額外的IP或網域加入允許清單。 檢閱並允許列出NAT和IP/網域，以進行Edge部署41-48。 基礎建設升級將於2023年8月9日開始。
+&quot;
+
+如需詳細資訊，請參閱 [允許列出Target邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} 在 *Adobe Target開發人員指南*.
 
 ## [!DNL Target] Standard/Premium 23.7.1 （7月24至26日）
 
