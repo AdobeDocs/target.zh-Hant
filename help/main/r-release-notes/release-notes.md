@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 73%
+ht-degree: 89%
 
 ---
 
@@ -21,24 +21,24 @@ ht-degree: 73%
 
 ## [!DNL Adobe Target] Edge規劃的基礎建設升級 {#edge}
 
-規劃的邊緣基礎架構升級需要額外的IP或網域加入允許清單。 檢閱並允許列出NAT和IP/網域，以進行Edge部署41-48。 基礎建設升級將於2023年8月9日開始。
+規劃的邊緣基礎架構升級需要其他IP或網域加入允許清單。 檢閱並允許列出NAT和IP/網域，以進行Edge部署41-48。 基礎建設升級將於2023年8月9日開始。
 &quot;
 
 如需詳細資訊，請參閱 [允許列出Target邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} 在 *Adobe Target開發人員指南*.
 
-## [!DNL Target] Standard/Premium 23.7.1 （7月24至26日）
+## [!DNL Target] Standard/Premium 23.7.1 (7 月 24-26 日)
 
 我們將根據以下排程分批發行此版本：
 
-* **7月24**：歐洲、中東和非洲(EMEA)區域
-* **7月25**：亞太(APAC)區域
-* **7月26**：美洲區域
+* **7 月 24 日**：歐洲、中東和非洲 (EMEA) 區域
+* **7 月 25 日**：亞太 (APAC) 區域
+* **7 月 26 日**：美洲區域
 
 此版本包含下列增強功能和修正：
 
-* 改善搜尋條件 [使用DOM路徑導覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在 [!UICONTROL 視覺化體驗撰寫器] (VEC)以包含陰影DOM元素。 (TGT-45262)
-* 已修正導致無法 [變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 設定無法正常運作。 (TGT-45202)
-* 已修正導致某些客戶在收到下列錯誤訊息後無法下載活動報告的問題：「使用者無權存取報告。」 (TGT-45724 和 TGT-45747)
+* 已改進在[!UICONTROL 可視化體驗撰寫器] (VEC) 中[使用 DOM 路徑瀏覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)時的搜尋功能，以包含 Shadow DOM 元素。(TGT-45262)
+* 已修正[變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定無法正常運作的問題。(TGT-45202)
+* 已修正一些客戶在收到以下錯誤訊息：「使用者無權存取報告」後無法下載活動報告的問題。(TGT-45724 和 TGT-45747)
 
 ## 額外的發行說明和版本詳細資料
 

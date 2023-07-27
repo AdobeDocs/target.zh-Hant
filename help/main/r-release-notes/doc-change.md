@@ -15,11 +15,11 @@ ht-degree: 98%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## [!DNL Target] Standard/Premium 23.7.1 （2023年7月24至26日）
+## [!DNL Target] Standard/Premium 23.7.1 (2023 年 7 月 24-26 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 7 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#edge) | 新增預定於2023年8月9日進行的邊緣基礎架構升級的相關資訊。 |
+| 7 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#edge) | 新增預定在2023年8月9日進行的邊緣基礎架構升級的相關資訊。 |
 |  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新適用於Edge部署的NAT和IP/網域41-48。 |
 | 7 月 24 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.7.1 版的發行說明。 |
 
