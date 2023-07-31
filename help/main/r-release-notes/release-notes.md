@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 89%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Adobe Target] Edge規劃的基礎建設升級 {#edge}
+## [!DNL Adobe Target] 邊緣已規劃基礎設施的升級 {#edge}
 
-規劃的邊緣基礎架構升級需要其他IP或網域加入允許清單。 檢閱並允許列出NAT和IP/網域，以進行Edge部署41-48。 基礎建設升級將於2023年8月9日開始。
+已規劃的邊緣基礎設施升級需要已加入允許清單的其他 IP 位址或網域。檢查邊緣部署 41-48 的 NAT 和 IP 位址/網域，並將其加入允許清單。基礎設施升級將於 2023 年 8 月 9 日開始。
 &quot;
 
-如需詳細資訊，請參閱 [允許列出Target邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} 在 *Adobe Target開發人員指南*.
+如需詳細資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的「[允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}」。
 
 ## [!DNL Target] Standard/Premium 23.7.1 (7 月 24-26 日)
 
