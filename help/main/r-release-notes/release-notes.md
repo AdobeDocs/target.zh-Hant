@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -26,19 +26,15 @@ ht-degree: 100%
 
 如需詳細資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的「[允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}」。
 
-## [!DNL Target] Standard/Premium 23.7.1 (7 月 24-26 日)
-
-我們將根據以下排程分批發行此版本：
-
-* **7 月 24 日**：歐洲、中東和非洲 (EMEA) 區域
-* **7 月 25 日**：亞太 (APAC) 區域
-* **7 月 26 日**：美洲區域
+## [!DNL Target] Standard/Premium 23.8.1 （2023年8月9日）
 
 此版本包含下列增強功能和修正：
 
-* 已改進在[!UICONTROL 可視化體驗撰寫器] (VEC) 中[使用 DOM 路徑瀏覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)時的搜尋功能，以包含 Shadow DOM 元素。(TGT-45262)
-* 已修正[變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定無法正常運作的問題。(TGT-45202)
-* 已修正一些客戶在收到以下錯誤訊息：「使用者無權存取報告」後無法下載活動報告的問題。(TGT-45724 和 TGT-45747)
+* 修正有時會導致活動無法正確同步的問題，如「[!UICONTROL 狀態]「 」欄，在 [!UICONTROL 活動] 清單頁面。 (TGT-46010 和 TGT-44831)
+* 修正有時會阻止「」的問題[!UICONTROL 在Analytics檢視]「連結來自顯示於 [!UICONTROL 報表] 使用的活動頁面 [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-45808)
+* 調整表格中值的呈現方式，以百分比顯示，而非具有小數的數字。 例如，8%而非。08。 (TGT-45548)
+* 已修正導致客戶無法使用鍵盤焦點來移至中的下一個元素的問題。 [!UICONTROL 目標與設定] 第頁 —  [!UICONTROL 體驗鎖定] (XT)活動。 (TGT-44526)
+* 已修正開啟「 」後導致鍵盤失去焦點的問題[!UICONTROL 新增對象]「建立活動時的對話方塊。 (TGT-44525)
 
 ## 額外的發行說明和版本詳細資料
 

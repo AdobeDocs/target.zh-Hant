@@ -4,16 +4,24 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 97%
+source-wordcount: '1503'
+ht-degree: 95%
 
 ---
 
 # 文件變更
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
+
+## [!DNL Target] Standard/Premium 23.8.1 （2023年8月9日）
+
+| 日期 | 主題 | 變更 |
+| --- | --- | --- |
+| 8 月 9 日 | [Target 行動裝置預覽](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 更新主題並包含最新版本的相關資訊 [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增下列安排於2023年8月17日舉行的網路研討會的相關資訊： *利用旺季整備度來制定策略，以發揮最大的ROI影響力*. |
+|  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.8.1 版的發行說明。 |
 
 ## [!DNL Target] Standard/Premium 23.7.1 (2023 年 7 月 24-26 日)
 

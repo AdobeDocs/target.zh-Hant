@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
+source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 7 月 24 日**
+**上次更新：2023 年 8 月 9 日**
 
 >[!NOTE]
 >
@@ -23,19 +23,15 @@ ht-degree: 100%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 23.7.1 (7 月 24-26 日)
-
-我們將根據以下排程分批發行此版本：
-
-* **7 月 24 日**：歐洲、中東和非洲 (EMEA) 區域
-* **7 月 25 日**：亞太 (APAC) 區域
-* **7 月 26 日**：美洲區域
+## [!DNL Target] Standard/Premium 23.8.1 （2023年8月9日）
 
 此版本包含下列增強功能和修正：
 
-* 已改進在[!UICONTROL 可視化體驗撰寫器] (VEC) 中[使用 DOM 路徑瀏覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)時的搜尋功能，以包含 Shadow DOM 元素。(TGT-45262)
-* 已修正[變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定無法正常運作的問題。(TGT-45202)
-* 已修正一些客戶在收到以下錯誤訊息：「使用者無權存取報告」後無法下載活動報告的問題。(TGT-45724 和 TGT-45747)
+* 修正有時會導致活動無法正確同步的問題，如「[!UICONTROL 狀態]「 」欄，在 [!UICONTROL 活動] 清單頁面。 (TGT-46010 和 TGT-44831)
+* 修正有時會阻止「」的問題[!UICONTROL 在Analytics檢視]「連結來自顯示於 [!UICONTROL 報表] 使用的活動頁面 [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-45808)
+* 調整表格中值的呈現方式，以百分比顯示，而非具有小數的數字。 例如，8%而非。08。 (TGT-45548)
+* 已修正導致客戶無法使用鍵盤焦點來移至中的下一個元素的問題。 [!UICONTROL 目標與設定] 第頁 —  [!UICONTROL 體驗鎖定] (XT)活動。 (TGT-44526)
+* 已修正開啟「 」後導致鍵盤失去焦點的問題[!UICONTROL 新增對象]「建立活動時的對話方塊。 (TGT-44525)
 
 ## 額外的發行說明和版本詳細資料
 

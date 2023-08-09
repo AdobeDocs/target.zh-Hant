@@ -1,12 +1,12 @@
 ---
-keywords: 發行說明；發行前說明；未來增強功能；未來修正；未來功能；即將發行
+keywords: 發行說明；發行前說明；未來的增強功能；未來的修正；未來的功能；即將發行的版本
 description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與修復清單。
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '36971'
+source-wordcount: '37043'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 96%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2023
+
+### [!DNL Target] Standard/Premium 23.7.1 (7 月 24-26 日)
+
+此版本包含下列增強功能和修正：
+
+* 已改進在[!UICONTROL 可視化體驗撰寫器] (VEC) 中[使用 DOM 路徑瀏覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)時的搜尋功能，以包含 Shadow DOM 元素。(TGT-45262)
+* 已修正[變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定無法正常運作的問題。(TGT-45202)
+* 已修正一些客戶在收到以下錯誤訊息：「使用者無權存取報告」後無法下載活動報告的問題。(TGT-45724 和 TGT-45747)
 
 ### [!DNL Target] Standard/Premium 23.6.1 (6 月 27-29 日)
 
@@ -255,7 +263,7 @@ ht-degree: 96%
 
 | 功能 | 說明 |
 | --- | ---  |
-| 產品內通知 | 獲取以下相關的產品內通知：<ul><li>**活動**：當活動被批准或停用時（手動或達到其開始或結束日期時），所有活動類型的通知。 通知包含帶有活動概述頁面連結的活動名稱。</li><li>**配置檔案指令碼** 在手動或目標激活或停用配置檔案指令碼時通知。</li><li>**建議摘要**：手動或由目標啟用或停用建議摘要時通知。 當建議摘要失敗時也會傳送送通知。</li></ul> 預設情況下，產品管理員、發佈者和批准者會接收通知。 通知可在 Experience Cloud 首選項內配置。<br>有關詳細資訊，請參閱[通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements)。 |
+| 產品內通知 | 獲取以下相關的產品內通知：<ul><li>**活動**：當活動被批准或停用時（手動或達到其開始或結束日期時），所有活動類型的通知。 通知包含具有活動概述頁面連結的活動名稱。</li><li>**配置檔案指令碼** 在手動或目標激活或停用配置檔案指令碼時通知。</li><li>**建議摘要**：手動或由目標啟用或停用建議摘要時通知。 當建議摘要失敗時也會傳送送通知。</li></ul> 預設情況下，產品管理員、發佈者和批准者會接收通知。 通知可在 Experience Cloud 首選項內配置。<br>有關詳細資訊，請參閱[通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements)。 |
 | *Adobe Target 開發人員指南* | 的 *Adobe Target開發人員指南* 合併所有 [!DNL Target] 開發人員內容。 指南包含實施 [!DNL Target] 和 [!DNL Recommendations]、[!DNL Target] SDK 及 [!DNL Target] API 的資訊。<br>有關詳細資訊，請參見 [Adobe Target開發人員指南](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}. |
 
 * 具有「[!UICONTROL 編輯者]」角色的使用者無法在即時活動中編輯受眾。 (TGT-43582)
@@ -321,26 +329,26 @@ ht-degree: 96%
 
 此版本包含下列變更：
 
-* 透過此版本，您可以預先擷取內容 [!UICONTROL 自動個人化] (AP)和 [!UICONTROL 自動鎖定目標] (AT)活動(先前未傳回 [!DNL Target])。 如果AP/AT活動在傳送路徑上，且優先順序高於使用相同位置傳送內容的其他AB/XT活動，這可能會變更一般使用者在預先擷取呼叫的情況下看到的體驗（不會變更「執行」流程）。
+* 在此版本中，您可以預先擷取的內容 [!UICONTROL 自動個人化] (AP)和 [!UICONTROL 自動鎖定目標] (AT)活動(先前未由 [!DNL Target])。 如果AP/AT活動在傳送路徑上，且優先順序高於使用相同位置進行內容傳送的其他AB/XT活動，這可能會變更一般使用者在預先擷取呼叫情況下看到的體驗（不會變更「執行」流程）。
 
 ### [!DNL Target] 平台發行版本（3月30日）
 
 此版本包含下列增強功能：
 
-* 點選追蹤量度將會針對使用Analytics作為報表來源(A4T)的活動，在傳送API請求中包含分析裝載，並在使用者端處理事件。 (TNT-43073)
+* 點選追蹤量度將會針對使用Analytics作為報告來源(A4T)的活動，在傳送API要求中包含分析裝載，以及在使用者端處理事件。 (TNT-43073)
 
 ### [!DNL Target Standard] 對象重新整理（3月28日）
 
 此版本包含下列更新：
 
-* 新 [!UICONTROL 受眾] 將針對所有使用者啟用UI [!DNL Target Standard] 客戶。
+* 新的 [!UICONTROL 受眾] 將針對所有使用者啟用UI [!DNL Target Standard] 客戶。
 
 ### Target Standard/Premium客戶工程修正（2022年3月22日）
 
 此維護發行包含下列增強功能：
 
-* 新增要傳回的功能 [!DNL Analytics] 的裝載資料 `prefetch` 檢視和 `pageLoad` 使用時的點按量度 [!UICONTROL 傳送API] 具有使用的活動 [!UICONTROL Analytics作為報表來源] (A4T)。 (TNT-43198)
-* 更新機器人篩選使用者代理清單，以允許日本常用的瀏覽器型別。 (TNT-43867)
+* 新增要傳回的功能 [!DNL Analytics] 的裝載資料 `prefetch` 檢視和 `pageLoad` 使用時的點按量度 [!UICONTROL 傳送API] 搭配使用的活動 [!UICONTROL Analytics作為報表來源] (A4T)。 (TNT-43198)
+* 更新機器人篩選使用者代理清單，允許日本常用的瀏覽器型別。 (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (2022 年 2 月 1 日)
 
@@ -360,7 +368,7 @@ ht-degree: 96%
 | 功能 | 詳細資料 |
 | --- | --- |
 | [!DNL Target] 中的 [!DNL Adobe Experience Platform] 對象 | 您現在可以在 [!DNL Target] 中消費和使用 [!DNL Adobe Experience Platform] 對象。此 [!DNL Target] 團隊， [!DNL Experience Platform] [!DNL Destinations] 團隊與 [!DNL Unified Profile Service] 團隊很高興地宣佈推出「相同頁面/下一頁個人化」使用案例的正式版本。<br>使用在 [!DNL Adobe Experience Platform] 中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。此 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.<br>For more information, see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Create audiences*.<br>Be sure to read the Adobe blog and watch the video: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
-| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>全新的「對象來源」篩選器，可讓您更快速地探索對象</li><li>工作階段持續搜尋和篩選器選項</li><li>為 [!DNL Target Premium] 客戶在工作區之間移動對象的功能。</li></ul>如需詳細資訊，請參閱[對象](/help/main/c-target/target.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
+| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>全新的「對象來源」篩選器，能讓您更快速地探索對象</li><li>工作階段持續搜尋和篩選器選項</li><li>為 [!DNL Target Premium] 客戶在工作區之間移動對象的功能。</li></ul>如需詳細資訊，請參閱[對象](/help/main/c-target/target.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
 | [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/main/c-target/c-visitor-profile/visitor-profile.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
 
 ### [!DNL Target Standard/Premium] 22.1.1 (2022 年 1 月 12 日)
@@ -385,7 +393,7 @@ ht-degree: 96%
 
 ### at.js 2.8.0 版 (2022 年 1 月 7 日)
 
-[!DNL Target] at.js JavaScript 程式庫現在會收集功能使用情況和效能遙測資料。不會收集個人資料。可透過將 `targetGlobalSettings` 中的 `telemetryEnabled` 設定為 False，選擇退出此功能。如需詳細資訊，請參閱 [targetGlobalSettings中的telemetryEnable](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+[!DNL Target] at.js JavaScript 程式庫現在會收集功能使用情況和效能遙測資料。不會收集個人資料。可透過將 `targetGlobalSettings` 中的 `telemetryEnabled` 設定為 False，選擇退出此功能。如需詳細資訊，請參閱 [targetGlobalSettings中的telemetryEnabled](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 
 ## 發行說明 - 2021
 
@@ -459,7 +467,7 @@ ht-degree: 96%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>全新的「對象來源」篩選器，可讓您更快速地探索對象</li><li>工作階段持續搜尋和篩選器選項</li></ul>如需詳細資訊，請參閱[對象](/help/main/c-target/target.md)。 |
+| [!UICONTROL Audiences] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 對象]資料庫規則建立器中的排除規則支援</li><li>全新的「對象來源」篩選器，能讓您更快速地探索對象</li><li>工作階段持續搜尋和篩選器選項</li></ul>如需詳細資訊，請參閱[對象](/help/main/c-target/target.md)。 |
 | [!UICONTROL 設定檔指令碼] UI 重新整理 | [!UICONTROL 設定檔指令碼]資料庫也進行了更新，包括一個重新整理的界面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/main/c-target/c-visitor-profile/visitor-profile.md)。 |
 | [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="檢視Target Premium包含的內容。"} | [!UICONTROL Recommendations 標準]的建立與編輯工作流程已經過簡化，以精簡選擇正確的推薦演算法和設定以達成目標的過程。<br>如需詳細資訊，請參閱[建立準則](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![進階徽章](/help/main/assets/premium.png)建議回顧視窗和演算法更新率改進 | 您現在可以執行具有 6 小時回顧視窗的「最多觀看次數」和「最暢銷」演算法，擷取近期最受歡迎的內容。選擇 6 小時回顧視窗後，您的推薦結果在一天之中每 3-6 小時會更新一次。<br>如需詳細資訊，請參閱&#x200B;*建立準則*&#x200B;中的[資料來源](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)。 |
@@ -641,7 +649,7 @@ ht-degree: 96%
 此發行包含下列增強功能、修正和變更：
 
 * 修正造成[!UICONTROL 平均提升度信賴區間]和[!UICONTROL 信賴]無法在[!UICONTROL 總計]列之 [!DNL Auto-Target] 報告中顯示的問題。所有個別體驗的量度都會正確顯示。(TGT-37301)
-* 已修正影響 [!DNL Adobe Target Premium] 使用者的 [!UICONTROL 自動鎖定目標] 報表時間為太平洋夏令時間9月15日下午2:30至10月6日上午9:25 （太平洋夏令時間）。 檢視受影響的轉換量度 (使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按 mbox]」選項設定) 的報告時，轉換率報告不正確。目前沒有已知的傳送問題。
+* 已修正影響的問題 [!DNL Adobe Target Premium] 使用者的 [!UICONTROL 自動鎖定目標] 報告時間為太平洋夏令時間下午2:30至10月6日上午9:25 （太平洋夏令時間）。 檢視受影響的轉換量度 (使用「[!UICONTROL 已檢視頁面]」或「[!UICONTROL 已點按 mbox]」選項設定) 的報告時，轉換率報告不正確。目前沒有已知的傳送問題。
 * 在[!UICONTROL 目錄搜尋]表格中新增可選的[!UICONTROL 上次更新日期]欄，以及一個[!UICONTROL 上次更新日期]篩選器。此增強功能可節省時間和精力，因為您不需要開啟每個個別項目來查看上次更新時間，而且您可以依上次更新項目的日期進行篩選。
 
   ![上次更新時間欄及篩選器插圖](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -663,7 +671,7 @@ ht-degree: 96%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| ![Premium badge](/help/main/assets/premium.png) 自動鎖定目標活動的 Analytics for Target (A4T) 支援 | [!UICONTROL 自動鎖定目標]活動現在支援 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用[!UICONTROL 自動鎖定目標]ensemble 機器學習演算法，根據每位訪客的設定檔、行為和內容來選擇最佳體驗。<br>如果您已 [實作A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) 若想與A/B測試和體驗鎖定活動搭配使用，您已準備就緒！<br>如需詳細資訊，請參閱[「自動分配」和「自動鎖定目標」活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| ![Premium badge](/help/main/assets/premium.png) 自動鎖定目標活動的 Analytics for Target (A4T) 支援 | [!UICONTROL 自動鎖定目標]活動現在支援 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用[!UICONTROL 自動鎖定目標]ensemble 機器學習演算法，根據每位訪客的設定檔、行為和內容來選擇最佳體驗。<br>如果您已 [實作A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) 若用於A/B測試和體驗鎖定活動，您已經準備就緒！<br>如需詳細資訊，請參閱[「自動分配」和「自動鎖定目標」活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 
 ### Target Standard/Premium 20.8.2 (2020 年 9 月 10 日)
 
@@ -731,8 +739,8 @@ ht-degree: 96%
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| Analytics for Target (A4T) 對[!UICONTROL 自動分配]活動的支援 | [!UICONTROL 自動分配]活動現在支援 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用[!UICONTROL 自動分配] multi-armed Bandit 功能，將流量引導至成功體驗，同時使用 [!UICONTROL Adobe Analytics] 目標量度和／或 [!UICONTROL Adobe Analytics] 報告與分析功能。<br>如果您已 [實作A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) 若想與A/B測試和體驗鎖定活動搭配使用，您已準備就緒！<br>如需詳細資訊，請參閱[「自動分配」和「自動鎖定目標」活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
-| 自動鎖動目標和 Automated Personalization 活動的流量分配方法的回應權杖 | 二 [回應Token](/help/main/administrating-target/response-tokens.md) 已新增至 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL Automated Personalization] 活動可判斷訪客是因為被指派至「控制」或「已鎖定目標」流量而收到特定體驗。<ul><li>`experience.trafficAllocationId` 如果訪客從「控制」流量中收到體驗，則會傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則會傳回1。</li><li>`experience.trafficAllocationType` 將會傳回「控制」或「已鎖定目標」。</li></ul>如需控制項與目標鎖定流量的詳細資訊，請參閱[為 Automated Personalization 或自動鎖定目標活動選擇控制項](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。 |
+| Analytics for Target (A4T) 對[!UICONTROL 自動分配]活動的支援 | [!UICONTROL 自動分配]活動現在支援 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用[!UICONTROL 自動分配] multi-armed Bandit 功能，將流量引導至成功體驗，同時使用 [!UICONTROL Adobe Analytics] 目標量度和／或 [!UICONTROL Adobe Analytics] 報告與分析功能。<br>如果您已 [實作A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) 若用於A/B測試和體驗鎖定活動，您已經準備就緒！<br>如需詳細資訊，請參閱[「自動分配」和「自動鎖定目標」活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| 自動鎖動目標和 Automated Personalization 活動的流量分配方法的回應權杖 | 兩個 [回應Token](/help/main/administrating-target/response-tokens.md) 已新增至 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL Automated Personalization] 活動可判斷訪客是因為被指派至「控制」或「目標」流量而收到特定體驗。<ul><li>`experience.trafficAllocationId` 如果訪客從「控制」流量中收到體驗，則會傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則會傳回1。</li><li>`experience.trafficAllocationType` 將會傳回「控制」或「已鎖定目標」。</li></ul>如需控制項與目標鎖定流量的詳細資訊，請參閱[為 Automated Personalization 或自動鎖定目標活動選擇控制項](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。 |
 | [!UICONTROL 發佈者]角色 | 此新角色類似於當前[!UICONTROL 觀察者]角色 (可以查看活動，但不能建立或編輯活動)。但是，[!UICONTROL 發佈者]角色具有激活活動的附加權限。<br>如需詳細資訊，請參閱： <ul><li>**Target Standard 使用者**：在&#x200B;*使用者*&#x200B;中[指定其角色和權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。</li><li>**Target Premium 使用者**：步驟 6：在&#x200B;*「設定企業權限」*&#x200B;中[指定角色和權限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)。</li></ul> |
 | [!DNL Analysis Workspace]<br>2020 年 6月 25 日的 A4T 支援 | [!DNL Analysis Workspace]現在支援[!UICONTROL Anaytics for Target] (A4T)。[!UICONTROL Target (A4T) 面板]可讓您分析您在 [!DNL Analysis Workspace] 中分析您的 [!DNL Adobe Target] 活動和體驗。<br>如需詳細資訊，請參閱&#x200B;*《 Analytics 工具指南》*&#x200B;中的 *A4T 報告*&#x200B;和 [Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html??lang=zh-Hant)面板的 [Analytics 的報告 (A4T)](/help/main/c-integrating-target-with-mac/a4t/reporting.md)。 |
 
@@ -748,7 +756,7 @@ ht-degree: 96%
 | 功能/增強功能 | 說明 |
 | --- | --- |
 | at.js 1.8.2 | 此 at.js 版本為維護版本，包含下列修正：<ul><li>修正使用 CNAME 和 Edge Override (at.js 1) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35064)</li></ul>如需詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
-| at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正：<ul><li>已進行 `deviceIdLifetime` 設定可覆寫透過 [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}. (TNT-36349)</li><li>修正使用 CNAME 和 Edge Override (at.js 2) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35065)</li><li>修正使用 [!DNL Target] [!DNL Launch]擴充功能 v2 和 [!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target] 延遲 [!DNL Analytics]`sendBeacon` 呼叫的問題。(TNT-36407、TNT-35990、TNT-36000)</li></ul>如需詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
+| at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正：<ul><li>讓 `deviceIdLifetime` 設定可覆寫，透過 [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}. (TNT-36349)</li><li>修正使用 CNAME 和 Edge Override (at.js 2) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35065)</li><li>修正使用 [!DNL Target] [!DNL Launch]擴充功能 v2 和 [!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target] 延遲 [!DNL Analytics]`sendBeacon` 呼叫的問題。(TNT-36407、TNT-35990、TNT-36000)</li></ul>如需詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
 
 ### 設定檔批次狀態 API v2 變更（2020 年 5 月 14 日）
 
@@ -874,9 +882,9 @@ ht-degree: 96%
 * 當您登入 [!DNL Adobe Experience Cloud] 時，將會進入新的標題導覽。它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
 
    * 更輕鬆地在 [!DNL Identity Management System] (IMS) 組織之間切換，或切換至不同的解決方案。
-   * 改進的使用者說明：搜尋結果包括 [!DNL Target] 產品檔案、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您充份運用 [!DNL Target]。我們也在以下連結中新增了意見回饋機制： [!UICONTROL 說明] 功能表，讓您更輕鬆地報告問題或分享您的想法。
+   * 改進的使用者說明：搜尋結果包括 [!DNL Target] 產品檔案、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您充份運用 [!DNL Target]。我們也在中新增意見回饋機制 [!UICONTROL 說明] 選單，讓您更輕鬆地報告問題或分享您的想法。
 
-   * 改善網路推廣者分數(NPS)意見回饋功能，讓調查模式不會干擾您的工作流程。
+   * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
 
    * [!DNL Target] 的通知目前在標題的 [!UICONTROL Notifications ]下拉式清單中不提供。
 
@@ -926,9 +934,9 @@ Target 1.0.1 版本已修正下列問題：
 * 當您登入 [!DNL Adobe Experience Cloud] 時，將會進入新的標題導覽。它看起來與先前的導覽非常類似，頂端有黑色列，但提供下列改良功能：
 
    * 更輕鬆地在 [!DNL Identity Management System] (IMS) 組織之間切換，或切換至不同的解決方案。
-   * 改進的使用者說明：搜尋結果包括 [!DNL Target] 產品檔案、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您充份運用 [!DNL Target]。我們也在以下連結中新增了意見回饋機制： [!UICONTROL 說明] 功能表，讓您更輕鬆地報告問題或分享您的想法。
+   * 改進的使用者說明：搜尋結果包括 [!DNL Target] 產品檔案、社群論壇和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您充份運用 [!DNL Target]。我們也在中新增意見回饋機制 [!UICONTROL 說明] 選單，讓您更輕鬆地報告問題或分享您的想法。
 
-   * 改善網路推廣者分數(NPS)意見回饋功能，讓調查模式不會干擾您的工作流程。
+   * 改善網路推廣者分數(NPS)回饋功能，讓調查模式不會干擾您的工作流程。
 
    * [!DNL Target] 的通知目前在標題的 [!UICONTROL Notifications ]下拉式清單中不提供。
 
@@ -942,7 +950,7 @@ Target 1.0.1 版本已修正下列問題：
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| at.js 2.2 版<br>和<br> at.js 1.8 版 | 這些版本的at.js提供：<ul><li>已改善在網頁上同時使用 Experience Cloud ID 服務 (ECID) v4.4 和 at.js 2.2 或 at.js 1.8 時的效能。</li><li>之前，ECID 曾進行兩次封鎖呼叫，之後 at.js 才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。</li></ul> 為善用這些效能改良功能，請升級至 at.js 2.2 或 at.js 1.8 以及 ECID 程式庫 v4.4。<br><ul><li>**serverState**：at.js v2.2+ 中提供的設定，可在實施 Target 的混合整合時用來最佳化頁面效能。混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。<br>如需詳細資訊，請參閱 [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.</li></ul> |
+| at.js 2.2 版<br>和<br> at.js 1.8 版 | 這些版本的at.js提供：<ul><li>已改善在網頁上同時使用 Experience Cloud ID 服務 (ECID) v4.4 和 at.js 2.2 或 at.js 1.8 時的效能。</li><li>之前，ECID 曾進行兩次封鎖呼叫，之後 at.js 才能擷取體驗。 這已簡化為單一呼叫，可大幅提升效能。</li></ul> 為善用這些效能改良功能，請升級至 at.js 2.2 或 at.js 1.8 以及 ECID 程式庫 v4.4。<br><ul><li>**serverState**：at.js v2.2+ 中提供的設定，可在實施 Target 的混合整合時用來最佳化頁面效能。混合整合意指您在用戶端上同時使用 at.js v2.2+ 和伺服器端的傳送 API 或 Target SDK 來傳送體驗。`serverState` 讓 at.js v2.2+ 能夠直接從伺服器端擷取並傳回至用戶端的內容套用體驗，做為所提供頁面的一部分。<br>如需詳細資訊，請參閱下列「serverState」： [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.</li></ul> |
 
 ### Target 平台 (2019 年 10 月 9 日)
 
@@ -975,7 +983,7 @@ Target 1.0.1 版本已修正下列問題：
 | --- | --- |
 | ![Premium badge](/help/main/assets/premium.png)<br>在 A/B 測試與體驗鎖定 (XT) 活動中的推薦 | Recommendations 選件 (運算法) 狀態會顯示在包含 Recommendations 選件之 A/B 測試和 XT 活動的概述頁面上。狀態包括：可用結果、不可用結果和摘要失敗(TGT-33649)<br>請參閱「[Recommendations 作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md#status)」。 |
 | 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。必須使用 [Experience Cloud ID library 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant)。<br>另請參閱 [at.js 2.x中的跨網域追蹤支援](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
-| Target可透過Experience CloudID (ECID)資料庫4.3支援Apple的ITP 2.1和ITP 2.2 | 現在，Target客戶可以運用Adobe的CNAME認證計畫，減少Apple的ITP 2.1和ITP 2.2的影響。<br>在此版本中，Target與ECID程式庫4.3緊密整合，利用伺服器端Cookie減少ITP 2.1和ITP 2.2的影響。強烈建議Target客戶部署 [ECID資料庫4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant) 搭配Target的JavaScript程式庫，減少任何未來ITP發行版本的影響。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>另請參閱 [Apple智慧型追蹤預防(ITP) 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
+| Target可透過Experience CloudID (ECID)資料庫4.3支援Apple的ITP 2.1和ITP 2.2 | 現在，Target客戶可以利用Apple的CNAME認證計畫，減少Adobe的ITP 2.1和ITP 2.2的影響。<br>透過此版本，Target推出與ECID程式庫4.3的流暢整合，利用伺服器端Cookie減少ITP 2.1和ITP 2.2的影響。強烈建議Target客戶部署 [ECID資料庫4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant) 搭配Target的JavaScript資料庫，減少任何未來ITP發行的影響。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>另請參閱 [Apple智慧型追蹤預防(ITP) 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
 **增強功能、修正和變更**
 
@@ -1488,7 +1496,7 @@ target/r_release-notes-2018.xml
 
 此 [!DNL Target] 發行包含下列增強功能、修正和變更:
 
-* Recommendations CSV下載專案的「備份」列現在開頭為「&#42;&quot; （以雙引號括住星號），而非 &#42; （單星號）。
+* Recommendations CSV下載檔案的「備份」列現在開頭是&quot;&#42;&quot; （以雙引號括住星號），而非 &#42; （單星號）。
 * Recommendations CSV 下載檔案的「銷售最高/檢視次數最多」列開頭不會再有逗點。
 
 ### Target 平台變更 (2018 年 6 月 19 日) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1584,7 +1592,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) 體驗片段 </p> </td> 
-   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&amp;nbsp;&amp;nbsp; </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM會自動使用您的內容調整每個體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳選件、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
+   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&amp;nbsp;&amp;nbsp; </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM會自動根據您的內容調整每個體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳選件、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>報表 </p> </td> 
@@ -1683,7 +1691,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>對象 </p> </td> 
-   <td colname="col2"> <p>檢視對象定義快顯示卡片（例如，從對象庫）時，您現在可以看到參照該對象的其他活動（如適用）。 以此方式，您可以避免在編輯對象時對活動造成意外影響。 </p> <p>過去，當您嘗試刪除活動所參考的對象時，會顯示警告，通知您無法刪除該對象，其具有最多 10 個參考該對象的活動。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local">關於對象</a>。 </p> </td> 
+   <td colname="col2"> <p>檢視對象定義快顯示卡片（例如來自對象庫）時，您現在可以看見參考該對象的其他活動（如適用）。 以此方式，您可以避免在編輯對象時對活動造成意外影響。 </p> <p>過去，當您嘗試刪除活動所參考的對象時，會顯示警告，通知您無法刪除該對象，其具有最多 10 個參考該對象的活動。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local">關於對象</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>報表 </p> </td> 
@@ -1791,7 +1799,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>您現在可以建立沒有開始或結束日期的「時間範圍」對象。這可讓您在多個活動中使用相同的對象 (而不需複製對象)，同時在活動層級控制開始和結束日期。請參閱<a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間範圍</a>。(TGT-25975) </p> </li> 
       <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>當您在「選擇對象」&gt;「僅限活動的對象」頁面上將游標移至對象上時，「複製和編輯」功能可供僅限於此活動的對象使用。以前，只有「資料庫」對象能使用此功能。請參閱<a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">建立僅限於此活動的對象</a>。(TGT-27410) </p> </li> 
-      <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>活動之間僅限於此活動的對象可以有相同的名稱。以前，重複名稱會導致新增時間戳記，名為「Target on Weekday」的重複受眾將儲存為「Target on Weekday-1456732099201」。 </p> <p>「資料庫」對象會持續要求唯一的名稱。(TGT-17967) </p> </li> 
+      <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>活動之間僅限於此活動的對象可以有相同的名稱。以前，名稱重複會導致系統新增時間戳記，名為「Target on Weekday」的重複對象會儲存為「Target on Weekday-1456732099201」。 </p> <p>「資料庫」對象會持續要求唯一的名稱。(TGT-17967) </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
