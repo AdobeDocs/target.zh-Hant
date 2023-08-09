@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 02cf6f038f3bca7b781cbed40ade21c2c0612324
-workflow-type: ht
-source-wordcount: '1403'
-ht-degree: 100%
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+workflow-type: tm+mt
+source-wordcount: '1445'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 8 月 9 日 | [Target 行動裝置預覽](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 更新主題並包含最新版本的相關資訊 [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增下列安排於2023年8月17日舉行的網路研討會的相關資訊： *利用旺季整備度來制定策略，以發揮最大的ROI影響力*. |
 | 8 月 7 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 澄清了有關 at.js 支援版本的資訊。 |
 | 7 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#edge) | 有關預計於 2023 年 8 月 9 日進行已規劃的邊緣基礎設施升級新增資訊。 |
 |  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 邊緣部署 41-48 的已更新 NAT 和 IP 位址/網域。 |
