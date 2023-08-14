@@ -4,10 +4,10 @@ description: 瞭解如何使用Adobe Target中的選件資料庫來管理程式�
 title: 我該如何管理程式碼和影像選件？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 37%
+source-wordcount: '574'
+ht-degree: 36%
 
 ---
 
@@ -21,31 +21,31 @@ ht-degree: 37%
 
    此 [!UICONTROL 選件] 頁面在右側有兩個索引標籤： [!UICONTROL 代碼選件] 和 [!UICONTROL 影像選件] 可讓您依型別檢視優惠方案。
 
-   ![「選件」頁面顯示「代碼選件」和「影像選件」標籤](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
+   ![顯示「代碼選件」和「影像選件」索引標籤的選件頁面](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. （可選）按一下 **[!UICONTROL 型別]** 下拉式清單，依型別篩選優惠方案(HTML優惠方案、 [體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， [重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)， [遠端選件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)， [JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md)、和 [資料夾](/help/main/c-experiences/c-manage-content/create-content-folder.md))。
+1. （可選）按一下 **[!UICONTROL 型別]** 下拉式清單，依型別篩選選件(HTML選件、 [體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， [重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)， [遠端選件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)， [JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md)、和 [資料夾](/help/main/c-experiences/c-manage-content/create-content-folder.md))。
 
    ![offers_filter圖片](assets/offers_filter.png)
 
-1. （可選）按一下 **[!UICONTROL 來源]** 下拉式清單，可依來源(Adobe Target、Adobe Target Classic和Adobe Experience Manager)篩選優惠方案。
+1. （可選）按一下 **[!UICONTROL 來源]** 下拉式清單，依來源(Adobe Target、Adobe Target Classic和Adobe Experience Manager)篩選選件。
 
-1. （可選）將游標移至上所需的選件或資料夾，以執行其他工作。 [!UICONTROL 代碼選件] 標籤，然後按一下所需的圖示。
+1. （選用）將游標移至上所需的選件或資料夾，以執行其他工作 [!UICONTROL 代碼選件] 標籤，然後按一下所需的圖示。
 
    ![代碼選件選項](assets/offer-picker-large.png)
 
    選項包括:
 
-   * 檢視(如需詳細資訊，請參閱 [檢視選件定義](#section_6B059DD121434E6292CAB393507D010E) 底下。)
+   * 檢視(如需詳細資訊，請參閱 [檢視選件定義](#section_6B059DD121434E6292CAB393507D010E) 下。)
    * 編輯
    * 複製
-   * 移動(例如，若要將一或多個專案移動到資料夾中，請按一下 **[!UICONTROL 移動]** 圖示時，按一下所需的資料夾，然後按一下 **[!UICONTROL 放置]**.)
+   * 移動(例如，若要將一或多個專案移至資料夾，請按一下 **[!UICONTROL 移動]** 圖示下，按一下所需的資料夾，然後按一下 **[!UICONTROL 放置]**.)
    * 刪除
 
-   視您的許可權而定，您可能不會看到所有選項的圖示。 例如，使用者具有 [!UICONTROL 觀察者] 許可權無權使用 [!UICONTROL 複製] 選項。
+   視您的許可權而定，您可能不會看到所有選項的圖示。 例如，使用者具有 [!UICONTROL 觀察者] 許可權沒有使用 [!UICONTROL 複製] 選項。
 
    如需您可以在選件和資料夾上執行之工作的詳細資訊，請參閱 [使用資產庫中的內容](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-1. （可選）將游標移至上所需的影像選件或資料夾，以執行其他工作。 [!UICONTROL 影像選件] 標籤，然後按一下所需的圖示。
+1. （選用）將游標移至影像選件或資料夾上所需的位置，以執行其他工作。 [!UICONTROL 影像選件] 標籤，然後按一下所需的圖示。
 
    ![影像選件選項](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
 
@@ -60,11 +60,16 @@ ht-degree: 37%
 
    如需您可以在選件和資料夾上執行之工作的詳細資訊，請參閱 [使用資產庫中的內容](/help/main/c-experiences/c-manage-content/assets-working.md).
 
+   >[!NOTE]
+   >
+   >影像選件不屬於 [企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 模型。
+
+
 ## 檢視選件定義 {#section_6B059DD121434E6292CAB393507D010E}
 
-您可以在的快顯示卡上檢視選件定義詳細資訊 [!UICONTROL 選件] 程式庫，而不開啟選件。
+您可以在的快顯示卡片上檢視選件定義的詳細資訊 [!UICONTROL 選件] 程式庫，而不開啟選件。
 
-例如，將游標停留在「 」上的選件上，即可存取HTML選件的下列選件定義卡。 [!UICONTROL 內容] 清單，然後按一下資訊圖示：
+例如，將游標移至上的選件上，即可存取HTML選件的下列選件定義卡 [!UICONTROL 內容] 清單，然後按一下資訊圖示：
 
 ![offer-card-html影像](assets/offer-card-html.png)
 
@@ -79,7 +84,7 @@ ht-degree: 37%
 
 按一下[!UICONTROL 「選件使用情況」]標籤，即可在每一個選件的定義快顯卡片中，檢視已參考程式碼選件的活動。此功能不適用影像選件。這樣可讓您在編輯選件時，避免影響其他活動。資訊包括 [!UICONTROL 已上線活動] 和 [!UICONTROL 非使用中活動].
 
-![offer-card-usage影像](assets/offer-card-usage.png)
+![offer-card-usage圖片](assets/offer-card-usage.png)
 
 以下是「重新導向」選件的選件定義卡片:
 
@@ -99,7 +104,7 @@ ht-degree: 37%
 
 以下是「遠端」選件的選件定義卡片:
 
-![offer-card-remote影像](assets/offer-card-remote.png)
+![offer-card-remote圖片](assets/offer-card-remote.png)
 
 可使用下列資訊:
 
