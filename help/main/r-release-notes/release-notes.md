@@ -7,9 +7,9 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 75%
 
 如需詳細資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的「[允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}」。
 
-## [!DNL Target] Standard/Premium 23.8.1 （2023年8月9日）
+## [!DNL Target] Standard/Premium 23.8.1 (2023 年 8 月 9 日)
 
 此版本包含下列增強功能和修正：
 
-* 修正有時會導致活動無法正確同步的問題，如「[!UICONTROL 狀態]「 」欄，在 [!UICONTROL 活動] 清單頁面。 (TGT-46010 和 TGT-44831)
-* 修正有時會阻止「」的問題[!UICONTROL 在Analytics檢視]「連結來自顯示於 [!UICONTROL 報表] 使用的活動頁面 [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-45808)
-* 調整表格中值的呈現方式，以百分比顯示，而非具有小數的數字。 例如，8%而非。08。 (TGT-45548)
-* 已修正導致客戶無法使用鍵盤焦點來移至中的下一個元素的問題。 [!UICONTROL 目標與設定] 第頁 —  [!UICONTROL 體驗鎖定] (XT)活動。 (TGT-44526)
-* 已修正開啟「 」後導致鍵盤失去焦點的問題[!UICONTROL 新增對象]「建立活動時的對話方塊。 (TGT-44525)
+* 修正有時導致活動無法正確同步的問題，如「[!UICONTROL 狀態]」欄 (在「[!UICONTROL 活動]」清單頁面上)。(TGT-46010 和 TGT-44831)
+* 修正有時會阻止「[!UICONTROL 在 Analytics 中檢視]」連結顯示在「活動[!UICONTROL 報告]」頁面 (這些是使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源的活動)。(TGT-45808)
+* 調整表格中值的顯示方式，現在以百分比形式顯示，而不是帶小數點的數字。例如，顯示 8%，而非顯示 .08。(TGT-45548)
+* 修正讓客戶無法使用鍵盤焦點移至下一個元素的問題 (在「[!UICONTROL 體驗鎖定目標]」(Experience Targeting，XT) 活動的「[!UICONTROL 目標和設定]」頁面內)。(TGT-44526)
+* 修正建立活動時開啟「[!UICONTROL 新增對象]」對話框後導致鍵盤失去焦點的問題。(TGT-44525)
 
 ## 額外的發行說明和版本詳細資料
 
