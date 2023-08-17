@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe [!DNL Target] QA URL來執行簡單的端�
 title: 如何QA活動？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
+source-git-commit: 62f688350387b4d92b73353d503001d47f65e021
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1762'
 ht-degree: 35%
 
 ---
@@ -72,6 +72,8 @@ ht-degree: 35%
    * **at.js 2.*x***：如果您的網站有at.js 2.*x* 已部署，請使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 強迫自己離開 [!UICONTROL 活動問答]. 在網站上載入具有空白值的頁面時（如下一個專案符號所述），就會執行 *非* 在at.js 2.*x* 已部署。
 
    * **at.js 1.*x***：如果您的網站有at.js 1.*x* 已部署，除了使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)，您也可以手動強迫自己離開，方法是在網站上載入頁面，使用 `at_preview_token` 具有空白值的引數(例如， `https://www.mysite.com/?at_preview_token=`)。
+
+   * **[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**：如果您的網站有 [!UICONTROL Platform Web SDK] 已部署，您可以在網站上以手動方式強制離開 `at_qa_mode` 具有空白值的引數(例如， `https://www.mysite.com/?at_qa_mode=`)。
 
 * 如果您在建立活動時指定「URL是」 [表單式撰寫器中的細分](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 或 [視覺化體驗撰寫器中的頁面傳送選項)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，QA URL無法運作，因為 [!UICONTROL 活動問答] 附加URL引數。 若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
 * 如果您有at.js 1.*x*， [!UICONTROL 活動問答] 如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，模式不會產生粘性。 在這些情況下，您必須將預覽引數新增至您導覽到的每個URL。 如果您已實作，情況也會相同 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
