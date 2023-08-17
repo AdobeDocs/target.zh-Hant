@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe [!DNL Target] QA URL來執行簡單的端�
 title: 如何QA活動？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
+source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1767'
 ht-degree: 35%
 
 ---
@@ -59,6 +59,20 @@ ht-degree: 35%
 
 1. 若要檢視從活動連結URL產生的報表，請按一下活動的 **[!UICONTROL 報表]** 頁面，按一下 **[!UICONTROL 設定]** 圖示(  ![icon_gear圖片](assets/icon_gear.png) )，然後選取 **[!UICONTROL QA模式流量]** 從 **[!UICONTROL 環境]** 下拉式清單。
 
+## 從QA模式中釋出自己
+
+[!UICONTROL 活動問答] 有粘性。 在中瀏覽網站之後 [!UICONTROL 活動問答]，您的 [!DNL Target] 工作階段必須過期，或您必須擁有 [!DNL Target] 從以下位置釋出您 [!UICONTROL 活動問答] 之後才能像一般訪客一樣檢視您的網站。
+
+* **at.js 2.*x***：如果您的網站有at.js 2.*x* 已部署，請使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 強迫自己離開 [!UICONTROL 活動問答]. 在網站上載入具有空白值的頁面時（如下一個專案符號所述），就會執行 *非* 在at.js 2.*x* 已部署。
+
+* **at.js 1.*x***：如果您的網站有at.js 1.*x* 已部署，除了使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)，您也可以手動強迫自己離開，方法是在網站上載入頁面，使用 `at_preview_token` 具有空值的引數。 例如，
+
+  `https://www.mysite.com/?at_preview_token=`
+
+* **[!DNL Adobe Experience Platform Web SDK]**：如果您的網站有 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 已部署，您可以在網站上以手動方式強制離開 `at_qa_mode` 具有空值的引數。 例如，
+
+  `https://www.mysite.com/?at_qa_mode=`
+
 ## 考量事項 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * 因為活動QA現在可供所有人使用 [!DNL Target] 活動型別後，「使用體驗預覽URL預覽Automated Personalization活動」功能便不再需要。
@@ -67,18 +81,6 @@ ht-degree: 35%
 * [!UICONTROL 針對已封存的活動或超過結束日期的活動，活動 QA 不會顯示內容。]如果您停用已結束的活動，則必須再次儲存活動的目的 [!UICONTROL 活動問答] 才能運作。
 * 活動已匯入至 [!DNL Target Standard/Premium] (從 [!DNL Target Classic]例如)不支援QA URL。
 * 在 [!UICONTROL 自動分配] 和 [!UICONTROL Recommendations] 活動，則模型不會受到中擷取的造訪影響 [!UICONTROL 活動問答].
-* [!UICONTROL 活動問答] 有粘性。 在中瀏覽網站之後 [!UICONTROL 活動問答]，您的 [!DNL Target] 工作階段必須過期，或您必須擁有 [!DNL Target] 從以下位置釋出您 [!UICONTROL 活動問答] 之後才能像一般訪客一樣檢視您的網站。
-
-   * **at.js 2.*x***：如果您的網站有at.js 2.*x* 已部署，請使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 強迫自己離開 [!UICONTROL 活動問答]. 在網站上載入具有空白值的頁面時（如下一個專案符號所述），就會執行 *非* 在at.js 2.*x* 已部署。
-
-   * **at.js 1.*x***：如果您的網站有at.js 1.*x* 已部署，除了使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)，您也可以手動強迫自己離開，方法是在網站上載入頁面，使用 `at_preview_token` 具有空值的引數。 例如，
-
-     `https://www.mysite.com/?at_preview_token=`
-
-   * **[!DNL Adobe Experience Platform Web SDK]**：如果您的網站有 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 已部署，您可以在網站上以手動方式強制離開 `at_qa_mode` 具有空值的引數。 例如，
-
-     `https://www.mysite.com/?at_qa_mode=`
-
 * 如果您在建立活動時指定「URL是」 [表單式撰寫器中的細分](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 或 [視覺化體驗撰寫器中的頁面傳送選項)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，QA URL無法運作，因為 [!UICONTROL 活動問答] 附加URL引數。 若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
 * 如果您有at.js 1.*x*， [!UICONTROL 活動問答] 如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，模式不會產生粘性。 在這些情況下，您必須將預覽引數新增至您導覽到的每個URL。 如果您已實作，情況也會相同 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * 如果活動使用多個體驗對象（例如，相同活動中包含的US和UK網站），則這四個組合（體驗A/US網站、體驗A/UK網站、體驗B/US網站、體驗B/UK網站）不會產生QA連結。 只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。英國QA人員看不到美國網站。
