@@ -15,7 +15,7 @@ ht-degree: 96%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## [!DNL Target] Standard/Premium 23.8.1 （2023年8月9日）
+## [!DNL Target] Standard/Premium 23.8.1 (2023 年 8 月 9 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
