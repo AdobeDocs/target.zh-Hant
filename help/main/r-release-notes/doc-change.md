@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 8 月 14 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 新增資訊以澄清，在您的網站上載入具有空值的頁面會 *非* 在at.js 2.*x* 已部署。 |
-|  | [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 更新「信賴度」的定義。 |
-|  | [選件](/help/main/c-experiences/c-manage-content/manage-content.md) | 新增附註來說明影像選件並非 [!UICONTROL 企業使用者許可權] 模型。 |
+| 8 月 14 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 新增資訊說明您的網站載入含有空值的頁面，在使用 at.js 2 版本時&#x200B;*不會*&#x200B;從瀏覽器刪除 QA cookie。*X* 已部署。 |
+|  | [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 已更新「可信度」的定義。 |
+|  | [選件](/help/main/c-experiences/c-manage-content/manage-content.md) | 新增註釋解影像選件不屬於[!UICONTROL 企業使用者權限]模型。 |
 | 8 月 9 日 | [Target 行動裝置預覽](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 已更新主題，包含有關 [!DNL Adobe Experience Platform Mobile SDK] 目前版本的資訊。 |
 | 8 月 9 日 | [Target 行動裝置預覽](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 已更新主題，包含有關 [!DNL Adobe Experience Platform Mobile SDK] 目前版本的資訊。 |
 |  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下排定於 2023 年 8 月 17 日舉行的網路研討會的相關資訊：*制定策略以發揮 ROI 的最大效益，為旺季做好準備*。 |
