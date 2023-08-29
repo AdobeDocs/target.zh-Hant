@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+source-git-commit: d9179911a9f6cb2eca242822669e2374aebeb970
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 97%
+source-wordcount: '1665'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 97%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 8 月 29 日 | [透過Web檢視在原生應用程式中使用AEP Mobile SDK實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | 新文章。 |
+| 8 月 29 日 | [裝置上決策的支援功能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 新增使用裝置上決策(ODD)使用者端時支援定位的地理屬性清單。 |
+|  | [裝置上決策概覽](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | 新增使用裝置上決策(ODD)伺服器端時，支援定位的地理屬性清單。 |
+|  | [透過Web檢視在原生應用程式中使用AEP Mobile SDK實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | 新文章。 |
 |  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關即將舉行的Adobe Target社群咖啡會（2023年8月30日）的資訊：「透過旺季整備度策略化以取得最大的ROI影響」網路研討會後續活動。 |
 | 8 月 14 日 | [活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 新增資訊說明您的網站載入含有空值的頁面，在使用 at.js 2 版本時&#x200B;*不會*&#x200B;從瀏覽器刪除 QA cookie。*X* 已部署。 |
 |  | [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 已更新「可信度」的定義。 |
