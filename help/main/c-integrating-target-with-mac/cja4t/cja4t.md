@@ -5,10 +5,10 @@ title: 什麼是 [!DNL Adobe Customer Journey Analytics] 的 [!DNL Target] (CJA4
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 79d4bfa7bbdaea6b779ab548b80fbcf732635ba5
+source-git-commit: ea113d1e4df68868bd9512b098ee6b17335a3e1c
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 16%
+source-wordcount: '998'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 16%
 
 在 [!DNL Target] 中使用 [!DNL Customer Journey Analytics] 資料的三大優點包括：
 
-* 行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度或報告區段套用至 [!DNL Target] 活動報表。 執行活動之前完全不需要指定。
+* 行銷人員可動態套用 [!DNL Customer Journey Analytics] 成功量度至 [!DNL Target] 活動報表。 執行活動之前完全不需要指定。
 * 單一資料來源可在兩個獨立系統中收集資料時，將發生的差異降至最低。
 * 您現有的 [!DNL Customer Journey Analytics] 實施會收集所有必要的資料。 不需要僅為了收集報表的資料而在頁面上實作 Mbox。
 
