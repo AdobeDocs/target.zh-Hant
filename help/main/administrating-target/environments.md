@@ -5,9 +5,9 @@ title: 什麼是環境？如何使用環境？
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 56%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 56%
 >
 >[!DNL Recommendations]如果主機會切換主機群組， 的使用者必須重建其行為資料庫和產品資料庫。
 >
->如果您指定 [Adobe Experience Platform資料流中的預設環境](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}，此環境會覆寫中的設定 [!DNL Target Recommendations].
+>如果您指定 [中的預設環境 [!DNL Adobe Experience Platform] 資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}，此設定會覆寫中的設定 [!DNL Target].
 
 ## 變更環境的名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
