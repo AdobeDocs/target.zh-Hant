@@ -5,9 +5,9 @@ title: 什麼是 [!DNL Adobe Customer Journey Analytics] 的 [!DNL Target] (CJA4
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bc85a169cd0805a5e424bfca8b5bda9b4861fde3
+source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '919'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 ## 考量事項
 
-使用CJA4T整合前，請先考量下列事項：
+使用CJA4T整合前，請先考慮下列資訊：
 
 * 若要使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源，您與貴公司皆必須擁有 [!DNL Customer Journey Analytics] 和 [!DNL Target] 的存取權。 如果您需要存取任一解決方案，請聯絡貴組織的管理員或帳戶代表。
 * 建立 [!DNL Target] 活動 [!DNL Customer Journey Analytics] 報告，您必須擁有&quot;[!UICONTROL 核准者]&quot;或&#39;[!UICONTROL 編輯者]「」角色位於 [!DNL Target].
