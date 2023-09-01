@@ -1,14 +1,14 @@
 ---
 keywords: 環境；疑難排解；最佳實務；ubox；重新導向；重新導向；白名單；黑名單；封鎖清單；允許清單
 description: 瞭解如何在Adobe中使用環境 [!DNL Target] 組織您的網站和生產前環境，以方便管理和分隔報表。
-title: 什麼是環境以及如何使用它們？
+title: 什麼是環境？如何使用環境？
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 58%
+source-wordcount: '709'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 58%
 
 預設環境已預先命名 [!UICONTROL 生產]. 即使重新命名此預設環境，亦無法刪除此環境。[!DNL Target] 假設這是您提供最終批准活動與測試的地方。
 
-當 [!DNL Target] 從新網站或網域收到請求時，這些新網域一律會出現在 [!UICONTROL 生產] 環境。 此 [!UICONTROL 生產] 環境無法變更其設定，因此未知或新網站保證只會看到作用中且準備就緒的內容。 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
+當 [!DNL Target] 從新網站或網域收到要求，這些新網域一律會出現在 [!UICONTROL 生產] 環境。 此 [!UICONTROL 生產] 環境無法變更其設定，因此未知或新網站保證只會看到作用中且準備就緒的內容。 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
 
 若要管理環境，請按一下 **[!UICONTROL 管理]** > **[!UICONTROL 環境]**.
 
@@ -32,7 +32,7 @@ ht-degree: 58%
 1. 為環境指定描述性名稱。
 1. 為環境指定所需的使用中模式: [!UICONTROL 使用中的活動]或[!UICONTROL 使用中或非使用中的活動]。
 
-   如果您指定 [!UICONTROL 使用中或非使用中活動]，此環境的主機也會顯示非作用中的活動。
+   如果您指定 [!UICONTROL 使用中或非使用中的活動]，此環境中的主機也會顯示非使用中活動。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -40,17 +40,19 @@ ht-degree: 58%
 
 您可以選取想要的環境作為所有活動報表的預設環境。
 
-如果您使用 [!UICONTROL 生產] 所有未知的主機都會自動新增至此處，而來自該處的報表資料會納入預設報表檢視中，作為預設值。 反之，建立「全新」環境可確保只包含您的核心網站/網域。
+如果您使用 [!UICONTROL 生產] 所有未知主機都會自動新增至此處，且報表資料會從此處納入預設報表檢視中（預設）。 反之，建立「全新」環境可確保只包含您的核心網站/網域。
 
 若要設定報表的預設環境:
 
-1. 從 [!UICONTROL 環境] 清單中，按一下星號圖示
+1. 從 [!UICONTROL 環境] 清單，按一下星號圖示
 
 >[!NOTE]
 >
 >[!DNL Recommendations]如果主機會切換主機群組， 的使用者必須重建其行為資料庫和產品資料庫。
+>
+>如果您指定 [Adobe Experience Platform資料流中的預設環境](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}，此環境會覆寫中的設定 [!DNL Target Recommendations].
 
-## 變更環境名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## 變更環境的名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. 從 [!UICONTROL 環境] 清單中，按一下 **[!UICONTROL 編輯]** 圖示。
 1. 變更環境名稱。
@@ -73,7 +75,7 @@ ht-degree: 58%
 
 {{premium-note}}
 
-環境可用來針對不同用途來區隔目錄中的可用專案。 例如，您可以將主機群組用於 [!UICONTROL 開發] 和 [!UICONTROL 生產] 環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。
+環境可用來將目錄中可用專案區分為不同用途。 例如，您可以將主機群組用於 [!UICONTROL 開發] 和 [!UICONTROL 生產] 環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依照預設，除非在建立或更新項目時指定環境 ID，否則新增的項目可在所有主機群組中使用。
 
 >[!NOTE]
 >
