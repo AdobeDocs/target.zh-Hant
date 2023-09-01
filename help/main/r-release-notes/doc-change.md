@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1733'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 93%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9 月 1 日 | [環境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 更新「設定報告的預設環境」下方的注意事項。 |
 | 8 月 30 日 | [隱私權](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 新增章節：「使用Adobe Experience Platform Web SDK時的資料流層級IP模糊化」 |
 |  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 修正預計資料會顯示在下列常見問題中報表的時間範圍：「我剛才已建立活動。 為何沒看到任何資料進入?&quot; |
 | 8 月 29 日 | [裝置上決策的支援功能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 新增使用裝置上決策(ODD)使用者端時支援定位的地理屬性清單。 |
