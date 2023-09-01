@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1236'
+ht-degree: 94%
 
 ---
 
@@ -89,11 +89,13 @@ ht-degree: 95%
          + [共用量度、對象和報表 - A4T 常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 時 Target 與 Analytics 之間的預期資料變異](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+   + 將Target與Adobe Customer Journey Analytics (CJA4T)整合 {#cja4t} {#hidden}
+      + [Adobe Customer Journey Analytics作為Target (CJA4T)的報告來源](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + 將Target與Adobe Journey Optimizer (AJO)整合 {#ajo}
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md)
    + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
-      + [將Target與AEM整合概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + [將Target與AEM整合概覽](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 體驗片段和內容片段 {#fragments}
          + [AEM 體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
