@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 56%
+source-wordcount: '405'
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 56%
 * 已修正在「 」之間切換時，顯示錯誤報表名稱的問題 [!UICONTROL 表格檢視] 和 [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性] 報表。 (TGT-46040)
 * 增強 [!UICONTROL 視覺化體驗撰寫器] (VEC)支援Lightning DOM （Web元件）。 (TGT-45422)
 * 修正造成VEC動作套用順序不正確的問題。 在某些情況下，VEC以非同步方式套用了一些修改，而且如果元素在「 」之後顯示，則對元素新增額外修改會導致錯誤 [!UICONTROL 插入] 動作。 (TGT-45983)
-* 新增在VEC中指定CSS選取器的功能。 (TGT-45958 和 TGT-46017)
 * 修正在VEC中開啟單頁應用程式(SPA)頁面，然後前往瀏覽模式時，導致「上一步」和「前進」箭頭無法正常運作的問題。 (TGT-45956)
 * 修正在瀏覽單頁應用程式(SPA)網站時，無法一致更新URL的問題。 (TGT-45417)
 

@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 66%
 
 ---
 
@@ -19,22 +19,23 @@ ht-degree: 100%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Adobe Target] 邊緣已規劃基礎設施的升級 {#edge}
+## [!DNL Target] Standard/Premium 23.9.1 （2023年9月6至11日）
 
-已規劃的邊緣基礎設施升級需要已加入允許清單的其他 IP 位址或網域。檢查邊緣部署 41-48 的 NAT 和 IP 位址/網域，並將其加入允許清單。基礎設施升級將於 2023 年 8 月 9 日開始。
+我們將根據以下排程分批發行此版本：
 
-
-如需詳細資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的「[允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}」。
-
-## [!DNL Target] Standard/Premium 23.8.1 (2023 年 8 月 9 日)
+* **9 月 6 日**：美洲區域
+* **9 月 7 日**：歐洲、中東和非洲 (EMEA) 區域
+* **9 月 11 日**：亞太 (APAC) 區域
 
 此版本包含下列增強功能和修正：
 
-* 修正有時導致活動無法正確同步的問題，如「[!UICONTROL 狀態]」欄 (在「[!UICONTROL 活動]」清單頁面上)。(TGT-46010 和 TGT-44831)
-* 修正有時會阻止「[!UICONTROL 在 Analytics 中檢視]」連結顯示在「活動[!UICONTROL 報告]」頁面 (這些是使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源的活動)。(TGT-45808)
-* 調整表格中值的顯示方式，現在以百分比形式顯示，而不是帶小數點的數字。例如，顯示 8%，而非顯示 .08。(TGT-45548)
-* 修正讓客戶無法使用鍵盤焦點移至下一個元素的問題 (在「[!UICONTROL 體驗鎖定目標]」(Experience Targeting，XT) 活動的「[!UICONTROL 目標和設定]」頁面內)。(TGT-44526)
-* 修正建立活動時開啟「[!UICONTROL 新增對象]」對話框後導致鍵盤失去焦點的問題。(TGT-44525)
+* 修正中造成報告資料不一致的問題。 [!DNL Target] UI和 [!DNL Adobe Analytics] UI for [!UICONTROL 自動分配] 使用的活動 [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-46112)
+* 將Target傳送API的PUT呼叫逾時增加到15秒，以避免逾時錯誤。 (TGT-46091)
+* 已修正在「 」之間切換時，顯示錯誤報表名稱的問題 [!UICONTROL 表格檢視] 和 [!UICONTROL 自動化區段] 和 [!UICONTROL 重要屬性] 報表。 (TGT-46040)
+* 增強 [!UICONTROL 視覺化體驗撰寫器] (VEC)支援Lightning DOM （Web元件）。 (TGT-45422)
+* 修正造成VEC動作套用順序不正確的問題。 在某些情況下，VEC以非同步方式套用了一些修改，而且如果元素在「 」之後顯示，則對元素新增額外修改會導致錯誤 [!UICONTROL 插入] 動作。 (TGT-45983)
+* 修正在VEC中開啟單頁應用程式(SPA)頁面，然後前往瀏覽模式時，導致「上一步」和「前進」箭頭無法正常運作的問題。 (TGT-45956)
+* 修正在瀏覽單頁應用程式(SPA)網站時，無法一致更新URL的問題。 (TGT-45417)
 
 ## 額外的發行說明和版本詳細資料
 

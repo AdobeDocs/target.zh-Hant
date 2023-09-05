@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '37043'
+source-wordcount: '37230'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,23 @@ ht-degree: 96%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2023
+
+### [!DNL Adobe Target] 邊緣已規劃基礎設施的升級 {#edge}
+
+已規劃的邊緣基礎設施升級需要已加入允許清單的其他 IP 位址或網域。檢查邊緣部署 41-48 的 NAT 和 IP 位址/網域，並將其加入允許清單。基礎設施升級將於 2023 年 8 月 9 日開始。
+
+
+如需詳細資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的「[允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}」。
+
+### [!DNL Target] Standard/Premium 23.8.1 (2023 年 8 月 9 日)
+
+此版本包含下列增強功能和修正：
+
+* 修正有時導致活動無法正確同步的問題，如「[!UICONTROL 狀態]」欄 (在「[!UICONTROL 活動]」清單頁面上)。(TGT-46010 和 TGT-44831)
+* 修正有時會阻止「[!UICONTROL 在 Analytics 中檢視]」連結顯示在「活動[!UICONTROL 報告]」頁面 (這些是使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源的活動)。(TGT-45808)
+* 調整表格中值的顯示方式，現在以百分比形式顯示，而不是帶小數點的數字。例如，顯示 8%，而非顯示 .08。(TGT-45548)
+* 修正讓客戶無法使用鍵盤焦點移至下一個元素的問題 (在「[!UICONTROL 體驗鎖定目標]」(Experience Targeting，XT) 活動的「[!UICONTROL 目標和設定]」頁面內)。(TGT-44526)
+* 修正建立活動時開啟「[!UICONTROL 新增對象]」對話框後導致鍵盤失去焦點的問題。(TGT-44525)
 
 ### [!DNL Target] Standard/Premium 23.7.1 (7 月 24-26 日)
 
@@ -983,7 +1000,7 @@ Target 1.0.1 版本已修正下列問題：
 | --- | --- |
 | ![Premium badge](/help/main/assets/premium.png)<br>在 A/B 測試與體驗鎖定 (XT) 活動中的推薦 | Recommendations 選件 (運算法) 狀態會顯示在包含 Recommendations 選件之 A/B 測試和 XT 活動的概述頁面上。狀態包括：可用結果、不可用結果和摘要失敗(TGT-33649)<br>請參閱「[Recommendations 作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md#status)」。 |
 | 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前的 at.js 2 不支援跨網域追蹤。*x* 版本不支援此函數。透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。必須使用 [Experience Cloud ID library 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant)。<br>另請參閱 [at.js 2.x中的跨網域追蹤支援](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
-| Target可透過Experience CloudID (ECID)資料庫4.3支援Apple的ITP 2.1和ITP 2.2 | 現在，Target客戶可以利用Apple的CNAME認證計畫，減少Adobe的ITP 2.1和ITP 2.2的影響。<br>透過此版本，Target推出與ECID程式庫4.3的流暢整合，利用伺服器端Cookie減少ITP 2.1和ITP 2.2的影響。強烈建議Target客戶部署 [ECID資料庫4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant) 搭配Target的JavaScript資料庫，減少任何未來ITP發行的影響。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>另請參閱 [Apple智慧型追蹤預防(ITP) 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
+| Target可透過Experience CloudID (ECID)資料庫4.3支援Apple的ITP 2.1和ITP 2.2 | 現在，Target客戶可以利用Apple的CNAME認證計畫，減少Adobe的ITP 2.1和ITP 2.2的影響。<br>透過此版本，Target推出與ECID程式庫4.3的流暢整合，利用伺服器端Cookie減少ITP 2.1和ITP 2.2的影響。強烈建議Target客戶部署 [ECID資料庫4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant) 搭配Target的JavaScript程式庫，減少任何未來ITP發行的影響。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>另請參閱 [Apple智慧型追蹤預防(ITP) 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
 **增強功能、修正和變更**
 
