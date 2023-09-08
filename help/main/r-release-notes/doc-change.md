@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## [!DNL Target] Standard/Premium 23.9.1 （2023年9月6至11日）
+## [!DNL Target] Standard/Premium 23.9.1 (2023 年 6 月 11 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 9 月 1 日 | [環境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 更新「設定報告的預設環境」下方的注意事項。 |
+| 9 月 1 日 | [環境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 已更新「設定報告的預設環境」下的註釋。 |
 | 8 月 30 日 | [隱私權](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 新增章節：「使用 Adobe Experience Platform Web SDK 時的資料流層級 IP 模糊化」 |
 |  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 更正了以下常見問題中報告資料顯示的預期時間範圍：「我剛剛建立了一項活動。為何沒看到任何資料進入？」 |
 | 8 月 29 日 | [裝置上決策的支援功能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 新增使用裝置上決策 (ODD) 用戶端時，支援目標定位的地理位置屬性列表。 |
@@ -88,7 +88,7 @@ ht-degree: 99%
 | 5 月 17 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2023 年 5 月 24 日星期三 [!UICONTROL Adobe Target 社群]問答咖啡會的資訊。 |
 | 5 月 16 日 | [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md) | 表示 `entity.id` 值不允許有「空格」。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新 `viewsEnabled` 說明。 |
-|  | [單頁應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在「實作 Adobe Target 檢視」下的步驟 2 後新增說明。</li><li>更新「初始頁面載入操作順序」下的步驟 2「執行 Target 請求」。</li></ul> |
+|  | [單次頁面應用程式實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 進行下列更新：<ul><li>在「實作 Adobe Target 檢視」下的步驟 2 後新增說明。</li><li>更新「初始頁面載入操作順序」下的步驟 2「執行 Target 請求」。</li></ul> |
 | 5 月 4 日 | [為 Adobe Target API 設定驗證](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | 新增解釋需要從 JWT 認證遷移到 OAuth 伺服器到伺服器認證的說明。 |
 | 5 月 3 日 | [檢視報告 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 新增下列常見問題：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 時，如何在 [!DNL Analysis Workspace] 中追蹤活動曝光次數？</li></ul> |
 | 4 月 26 日 | [AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 內容片段]功能現在可供所有 [!DNL Target customers]使用。 |

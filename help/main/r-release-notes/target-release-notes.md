@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 77%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 23.9.1 （2023年9月6至11日）
+## [!DNL Target] Standard/Premium 23.9.1 (2023 年 6 月 11 日)
 
 我們將根據以下排程分批發行此版本：
 
@@ -33,9 +33,9 @@ ht-degree: 77%
 
 此版本包含下列增強功能和修正：
 
-* 修正中造成報告資料不一致的問題。 [!DNL Target] UI和 [!DNL Adobe Analytics] UI for [!UICONTROL 自動分配] 使用的活動 [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-46112)
-* 將Target傳送API的PUT呼叫逾時增加到15秒，以避免逾時錯誤。 (TGT-46091)
-* 修正在瀏覽單頁應用程式(SPA)網站時，無法一致更新URL的問題。 (TGT-45417)
+* 已修復造成 [!DNL Target]UI 和 [!DNL Adobe Analytics] UI (針對[!UICONTROL 自動分配]活動等使用 [!UICONTROL Analytics for Target](A4T) 作為報告來源) 中報告資料不一致的問題。(TGT-46112)
+* 將 PUT 呼叫 Target 傳遞 API 的逾時時間增加到 15 秒，以避免發生逾時錯誤。(TGT-46091)
+* 已修復瀏覽單次頁面應用程式 (SPA) 網站時 URL 無法持續&#x200B;&#x200B;更新的問題。(TGT-45417)
 
 ## 額外的發行說明和版本詳細資料
 
