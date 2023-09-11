@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 90%
 
 ---
 
@@ -15,13 +15,26 @@ ht-degree: 100%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 9 月 6 日**
+**上次更新日期：2023 年 9 月 11 日**
 
 >[!NOTE]
 >
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## [!DNL Target] Standard/Premium 23.9.2 (2023 年 12 月 14 日)
+
+我們將根據以下排程分批發行此版本：
+
+* **9 月 12 日**：美洲區域
+* **9 月 13 日**：亞太 (APAC) 區域
+* **9 月 14 日**：歐洲、中東和非洲 (EMEA) 區域
+
+此版本包含下列增強功能和修正：
+
+* 已變更 [!DNL Analytics] 新增API [!DNL Analytics] API 2.0版。 (TGT-45345)
+* 已修正影響的問題 [!UICONTROL Automated Personalization] (AP)針對部分客戶的活動，包括及時同步 [!DNL Target] 並在預覽連結中提供預期的體驗。 (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (2023 年 6 月 11 日)
 
