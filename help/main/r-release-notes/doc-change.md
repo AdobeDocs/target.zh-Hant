@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
+source-git-commit: c4669e0d8d5460c4df663d0d627263a6d6dc7679
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1788'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 99%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 9 月 12 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.9.2 版的發行說明。 |
+|  | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增at.js 2.10.3版的發行說明。 |
 | 9 月 11 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增的搶鮮版發行說明 [!DNL Target Standard/Premium] 23.9.2版。 |
 | 9 月 6 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.9.1 版的發行說明。 |
 
