@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
+source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 90%
+source-wordcount: '496'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 9 月 14 日**
+**上次更新日期：2023 年 9 月 15 日**
 
 >[!NOTE]
 >
@@ -23,7 +23,17 @@ ht-degree: 90%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] Standard/Premium 23.9.2 (2023 年 12 月 14 日)
+## [!DNL Target] Standard/Premium 23.9.3 （2023年9月18日）
+
+此版本包含下列增強功能和修正：
+
+* 加強[!UICONTROL 視覺化體驗撰寫器] (VEC) 以支援 Lightning DOM (Web 組件)。(TGT-45422)
+* 已修復使 VEC 操作以錯誤順序應用的問題。在某些情況下，VEC 會不同步應用部份修改並將額外修改加入引起錯誤的元素 (如果該元素在[!UICONTROL 插入]行動之後顯示)。(TGT-45983)
+* 已修正VEC的問題 [!UICONTROL 覆蓋] 功能，現在支援「陰影DOM」中的元素。 (TGT-45202 和 TGT-45262)
+* 修正在VEC中開啟單頁應用程式(SPA)頁面，然後前往 [!UICONTROL 瀏覽] 模式導致「後退」和「前進」箭頭無法正常運作。 (TGT-45956)
+* 修正部分網頁無法在VEC中載入的問題。 (TGT-45983)
+
+## [!DNL Target] Standard/Premium 23.9.2 (2023 年 9 月 12-14 日)
 
 我們將根據以下排程分批發行此版本：
 
@@ -33,10 +43,10 @@ ht-degree: 90%
 
 此版本包含下列增強功能和修正：
 
-* 已變更 [!DNL Analytics] 新增API [!DNL Analytics] API 2.0版。 (TGT-45345)
-* 已修正影響的問題 [!UICONTROL Automated Personalization] (AP)針對部分客戶的活動，包括及時同步 [!DNL Target] 並在預覽連結中提供預期的體驗。 (TGT-46202)
+* 已將 [!DNL Analytics]API 改成新的[!DNL Analytics] API 2.0 版。 (TGT-45345)
+* 已修正影響某些客戶的 [!UICONTROL Automated Personalization] (AP) 活動的問題，包括及時同步 [!DNL Target] 後端上的活動以及在預覽連結中提供預期的體驗。 (TGT-46202)
 
-## [!DNL Target] Standard/Premium 23.9.1 (2023 年 6 月 11 日)
+## [!DNL Target] Standard/Premium 23.9.1 (2023 年 9 月 6-11 日)
 
 我們將根據以下排程分批發行此版本：
 
