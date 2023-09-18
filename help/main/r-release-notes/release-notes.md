@@ -30,7 +30,7 @@ ht-degree: 100%
 此版本包含下列增強功能和修正：
 
 * 已將 [!DNL Analytics]API 改成新的[!DNL Analytics] API 2.0 版。 (TGT-45345)
-* 已修正影響某些客戶的 [!UICONTROL Automated Personalization](AP) 活動的問題，包括及時同步 [!DNL Target] 後端上的活動以及在預覽連結中提供預期的體驗。 (TGT-46202)
+* 已修正影響某些客戶的 [!UICONTROL Automated Personalization] (AP) 活動的問題，包括及時同步 [!DNL Target] 後端上的活動以及在預覽連結中提供預期的體驗。 (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (2023 年 9 月 6-11 日)
 
