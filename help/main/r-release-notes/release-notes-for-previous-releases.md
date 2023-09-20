@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37230'
+source-wordcount: '37213'
 ht-degree: 96%
 
 ---
@@ -2933,10 +2933,6 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
   <tr> 
    <td colname="col1"> 體驗版本 </td> 
    <td colname="col2"> <p>現在可以在 A/B 活動的體驗內設定鎖定在不同對象的版本。 </p> <p>請參閱<a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">將體驗鎖定為多個對象</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> QA/預覽 URL </td> 
-   <td colname="col2"> <p>預覽 URL 現在可供表單式體驗撰寫器使用。 </p> <p>請參閱<a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">檢視體驗 URL</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations 自訂演算法 </td> 

@@ -1,60 +1,78 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: 探索您在Adobe Target中使用Automated Personalization (AP)活動時可能遇到的挑戰，以及建議的解決方案。
-title: 如何疑難排解Automated Personalization？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: 探索您在使用時可能面臨的潛在挑戰 [!UICONTROL Automated Personalization] (AP) Adobe Target中的活動，以及建議的解決方案。
+title: 如何疑難排解 [!UICONTROL Automated Personalization] 活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 91%
+source-wordcount: '757'
+ht-degree: 31%
 
 ---
 
-# 疑難排解 Automated Personalization
+# 疑難排解 [!UICONTROL Automated Personalization]
 
-有時活動不會如預期般進行。以下是使用自動個人化時您可能面臨的一些潛在挑戰，以及一些建議的解決方案。
+有時活動不會如預期般進行。以下是使用時可能會面臨的一些潛在挑戰 [!UICONTROL Automated Personalization] (AP)，以及一些建議的解決方案。
 
-## 我的 AP 活動耗費太多時間來建置模型。 {#section_20028B204DBB4D77A324BA193434AEE2}
+## 我的 [!UICONTROL Automated Personalization] 活動花費太長的時間建立模型。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
-有數個活動設定變更可以減少建置模型的預期時間，包括您的自動個人化測試中體驗的數量、連至您的網站的流量和您選取的成功度量。
++++查看詳細資料
 
-**解決方案:** 請檢閱您的活動設定並查看是否有您想要進行的任何變更，以改善建置模型的速度。
+有幾項活動設定變更可以縮短建立模型的預期時間，包括您的中的體驗數量 [!UICONTROL Automated Personalization] 活動、您網站的流量，以及您選取的成功量度。
 
-* 如果您的成功量度是設為 RPV，您可以變更為轉換嗎？ 轉換活動傾向需要較少流量來建置模型。如果您將成功度量從 RPV 變更為轉換，將不會遺失活動資料。
+**解決方案：** 檢閱活動設定，並檢視您是否有任何願意進行的變更來改善模型建立的速度。
+
+* 如果您的成功量度是設為 RPV，您可以變更為轉換嗎？ 轉換活動傾向需要較少流量來建置模型。如果將成功量度從RPV變更為轉換，則不會遺失活動資料。
 * 您的成功量度是否遠低於您的活動體驗的銷售漏斗？ 較低的活動轉換率將增加建置模型所需的流量，因為需要最低的轉換數量。
-* 是否有您可以從活動中排除的一些選件或體驗? 減少活動中體驗的數量可加速建置模型的時間量。
-* 是否有較高的流量頁面會使得此活動可能會較成功? 若活動位置中有愈多流量和轉換，則建置模型的速度愈快。
+* 是否有您可以從活動中排除的一些選件或體驗? 減少活動中的體驗數量會加快建立模型的時間。
+* 是否有更高流量的頁面可讓此活動更成功？ 活動位置的流量和轉換次數越多，建立的模型就越快。
 
-## 我的 AP 活動未產生任何提升。 {#section_8900BC8968474438B8092F7A94C0C6CF}
++++
 
-AP 活動產生提升度需要數個係數:
+## 我的 [!UICONTROL Automated Personalization] 活動未產生提升度。 {#section_8900BC8968474438B8092F7A94C0C6CF}
 
-* 選件需要夠不同才能影響訪客。
-* 選件需要位於對最佳化目標而言具有差異化的位置。
++++查看詳細資料
+
+有幾個因素需要進行 [!UICONTROL Automated Personalization] 產生提升度的活動：
+
+* 選件差異必須足以影響訪客。
+* 選件必須位於對最佳化目標有所影響的位置。
 * 測試中必須有足夠的流量和統計「能力」，才能偵測提升度。
 * 個人化演算法必須正常運作。
 
-**解決方案:** 動作的最佳措施是先使用簡易、非個人化的 A/B 測試確定組成活動體驗的內容和位置對整體回應率真的有產生影響。務必提早計算樣本大小，以確保有足夠檢定力可看見合理的提升度，並在固定期間執行 A/B 測試而不停止它或進行任何變更。如果 A/B 測試結果對一或多個體驗顯示統計顯著的提升度，則個人化活動可能將正常運作。當然，即便在體驗的整體回應率沒有產生影響時，個人化也能運作。一般來說，問題源自選件/位置對要使用統計精確度偵測的最佳化目標沒有夠大的影響。
+**解決方案:** 動作的最佳措施是先使用簡易、非個人化的 A/B 測試確定組成活動體驗的內容和位置對整體回應率真的有產生影響。請務必提前計算樣本大小。 提前計算樣本大小有助於確保有足夠的力量來看到合理的提升度。 接著，您可以持續固定時間執行A/B測試，而不需停止或進行任何變更。 如果A/B測試結果顯示一或多個體驗在統計上顯著提升，則個人化活動可能會成功。 即使體驗的整體回應率沒有差異，個人化仍可運作。 通常，問題源自選件或位置對最佳化目標的影響不足以偵測到具有統計顯著性的情況。
 
-## 我的 AP 活動 URL 在不正確的頁面顯示選件內容。 {#section_82A224406DBF4107B05204BEFBBE458C}
++++
 
-在AP中，URL和範本測試規則會新增至 [!DNL Target] 要求專案限制（例如target-global-mbox），只會評估一次。 一旦使用者符合活動資格，就不會重新評估Target請求層級鎖定目標規則。 不過，鎖定目標對象會新增至位置鎖定目標規則。
+## 我的 [!UICONTROL Automated Personalization] 活動URL在不正確的頁面上顯示選件內容。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
-**解決方案:** 以行銷活動輸入對象的形式新增必要的範本規則。在每個要求/呼叫時都會進行對象評估。
++++查看詳細資料
 
-這將會在隨後的版本中修正。
+在 [!UICONTROL Automated Personalization]，則URL和範本測試規則會新增至 [!DNL Target] 要求專案限制（例如target-global-mbox），只會評估一次。 使用者符合活動資格後，不會重新評估Target請求層級的鎖定目標規則。 不過，鎖定目標對象會新增至位置鎖定目標規則。
+
+**解決方案：** 新增必要的範本規則作為活動的輸入對象。 在每個要求/呼叫時都會進行對象評估。
+
++++
 
 ## 相依於轉換量度的任何量度永遠不會轉換。 {#section_076D1F44298C4E4A849AC52F5A33214D}
 
++++查看詳細資料
+
 這是預期中的情形。
 
-在 AP 活動中，一旦轉換度量 (無論是最佳化目標或後續目標) 經過轉換，即會將使用者從體驗釋出，並重新開始活動。
+在 [!UICONTROL Automated Personalization] 活動，轉換量度（無論是最佳化目標或事後目標）轉換後，訪客會從體驗中釋放，而活動會重新啟動。
 
-例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。A1 相依於 C1。當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。如果訪客轉換 C1 然後轉換 A1，此時仍不會轉換 A1，因為 C1 一旦進行轉換即會釋出訪客。
+例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。A1相依於C1。 當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。如果訪客轉換C1然後轉換A1，A1仍不會轉換，因為轉換C1時，訪客會釋放。
+
++++
 
 ## 我的體驗 URL 未如預期運作。 {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
-* 如果您無法在新索引標籤中查看預覽 (由於瀏覽器快取)，請嘗試重新整理兩或三次，或是複製連結並在新的瀏覽器或新工作階段中開啟它。
++++查看詳細資料
+
+* 如果您在新索引標籤中看不到預覽（由於瀏覽器快取），請嘗試重新整理兩或三次。 您也可以複製連結，並在新瀏覽器或新工作階段中開啟。
 * 如果您已變更任何內容，請重新產生體驗 URL 連結，並您的團隊成員分享新連結。
+
++++

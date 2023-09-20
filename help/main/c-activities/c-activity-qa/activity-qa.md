@@ -4,10 +4,10 @@ description: 瞭解如何使用Adobe [!DNL Target] QA URL來執行簡單的端�
 title: 如何QA活動？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 35%
 
 [!UICONTROL 活動問答] 有粘性。 在中瀏覽網站之後 [!UICONTROL 活動問答]，您的 [!DNL Target] 工作階段必須過期，或您必須擁有 [!DNL Target] 從以下位置釋出您 [!UICONTROL 活動問答] 之後才能像一般訪客一樣檢視您的網站。
 
-* **at.js 2.*x***：如果您的網站有at.js 2.*x* 已部署，請使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 強迫自己離開 [!UICONTROL 活動問答]. 在網站上載入具有空白值的頁面時（如下一個專案符號所述），就會執行 *非* 在at.js 2.*x* 已部署。
+* **at.js 2.*x***：如果您的網站有at.js 2.*x* 已部署，請使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 強迫自己離開 [!UICONTROL 活動問答]. 在網站上載入具有空白值的頁面時（如下一個專案符號所述），就會執行 *非* 在at.js 2.*X* 已部署。
 
 * **at.js 1.*x***：如果您的網站有at.js 1.*x* 已部署，除了使用 [Target QA書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)，您也可以手動強迫自己離開，方法是在網站上載入頁面，使用 `at_preview_token` 具有空值的引數。 例如，
 
@@ -124,4 +124,3 @@ ht-degree: 35%
 | [!UICONTROL 體驗鎖定] (XT) | 是 | 是 | 是 |
 | [!UICONTROL 多變數測試] (MVT) | 是 | 是 | 是 |
 | [!UICONTROL Recommendations] | 是 | 是 | 是 |
-

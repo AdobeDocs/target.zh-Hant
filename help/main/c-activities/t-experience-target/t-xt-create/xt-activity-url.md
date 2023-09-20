@@ -1,19 +1,19 @@
 ---
 keywords: 體驗鎖定目標； XT；活動URL； URL
-description: 瞭解如何指定活動URL，以決定測試中使用以及使用Adobe Target設計體驗鎖定目標活動時開啟的頁面。
-title: 體驗鎖定目標(XT)活動中的活動URL為何？
+description: 瞭解如何指定 [!UICONTROL 活動URL] 會決定測試中使用以及何時開啟的頁面 [!UICONTROL 體驗鎖定] 活動設計使用 [!DNL Adobe Target].
+title: 什麼是 [!UICONTROL 活動URL] 在 [!UICONTROL 體驗鎖定] (XT)活動？
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 63%
+source-wordcount: '299'
+ht-degree: 48%
 
 ---
 
-# 體驗鎖定目標(XT)活動中的活動URL
+# 中的活動URL [!UICONTROL 體驗鎖定] (XT)活動
 
-此 [!UICONTROL 活動URL] 決定要用於 [!DNL Adobe Target] [!UICONTROL 體驗鎖定] (XT)活動，以及在 [!UICONTROL 視覺化體驗撰寫器] (VEC)或 [!UICONTROL 表單式體驗撰寫器] 活動設計時。
+此 [!UICONTROL 活動URL] 決定要用於 [!DNL Adobe Target] [!UICONTROL 體驗鎖定] (XT)活動。 這是在中開啟的頁面 [!UICONTROL 視覺化體驗撰寫器] (VEC)或 [!UICONTROL 表單式體驗撰寫器] 活動設計時。
 
 1. 在[建立 XT 活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)期間出現提示時，請指定活動 URL。輸入完整的 URL (包括 `https://`)，然後按一下&#x200B;**[!UICONTROL 「建立活動」]**。
 
@@ -21,11 +21,11 @@ ht-degree: 63%
    >
    >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 都相符。
    >
-   >根據預設，VEC或表單式體驗撰寫器會開啟中指定的頁面 [視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md). 您可以在活動建立期間指定不同的頁面。
+   >根據預設，VEC或 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md) 開啟中指定的頁面 [視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md). 您可以在活動建立期間指定不同的頁面。
    >
-   >如果您指定的網站 URL 不包括 Target Standard JavaScript 程式碼，則無法選取頁面元素。
+   >如果您指定的網站URL不包含 [[!DNL Target] at.js JavaScript程式庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}，您無法選取頁面元素。
 
-1. (視條件而定) 若要在 VEC 開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL 設定]**、選取&#x200B;**[!UICONTROL 頁面傳送]**，然後在 [!UICONTROL URL] 欄位中指定 URL。
+1. （視條件而定）若要在VEC開啟之後顯示不同的頁面，請按一下 **[!UICONTROL 設定]**，選取 **[!UICONTROL 頁面傳送]**，然後在 [!UICONTROL URL] 欄位。
 
    ![頁面傳送對話方塊](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 
