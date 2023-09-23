@@ -4,7 +4,7 @@ description: 瞭解如何疑難排解Adobe中有時發生的問題 [!DNL Target]
 title: 如何疑難排解增強體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 38%
@@ -13,23 +13,23 @@ ht-degree: 38%
 
 # 排解[!UICONTROL 增強體驗撰寫器的相關問題]
 
-顯示問題有時發生在中 [!DNL Adobe Target] [!UICONTROL 增強體驗撰寫器] (EEC)在一定條件下。
+顯示問題有時發生在 [!DNL Adobe Target] [!UICONTROL 增強體驗撰寫器] (EEC)在一定條件下。
 
 ## EEC 不會載入無法在公用 IP 上存取的內部 QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
-將下列IP位址列入允許清單即可解決此問題。 這些IP位址用於Adobe用於EEC Proxy的伺服器。 只有針對活動編輯才需要這些資訊。您網站的訪客不需要將這些IP位址列入允許清單。
+將下列IP位址列入允許清單即可解決此問題。 這些IP位址用於Adobe用於EEC Proxy的伺服器。 只有針對活動編輯才需要這些資訊。您網站的訪客不需要將這些IP位址加入允許清單。
 
 要求您的IT團隊將下列IP位址加入允許清單：
 
-* 34.253.100.20
-* 34.248.100.23
-* 52.49.228.246
-* 54.205.42.123
-* 107.22.177.39
-* 52.201.5.105
-* 52.193.211.177
-* 18.180.24.249
-* 52.194.154.154
+* 52.18.97.86
+* 52.209.31.20
+* 52.214.41.220
+* 54.144.66.225
+* 54.82.53.36
+* 34.206.104.26
+* 3.115.90.128
+* 18.178.137.67
+* 3.112.77.52
 
 您可能會在中看到下列錯誤訊息 [!DNL Target]：
 
@@ -41,15 +41,15 @@ ht-degree: 38%
 
 * **問題：** 您的網站網域(ISP)封鎖 [!UICONTROL 增強體驗撰寫器].
 
-   **補救措施：** 將上述IP位址列入允許清單。
+  **補救措施：** 將上述IP位址列入允許清單。
 
-* **問題：** IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。在之前 [!DNL Target] 18.4.1 （2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* **問題：** 這些IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。在之前 [!DNL Target] 18.4.1 （2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-   **解決方案:**[!UICONTROL  請參閱下列問題: 增強可視化體驗撰寫器不會在我使用 TLS 1.2 的網站上安全頁面中載入。]
+  **解決方案:**[!UICONTROL  請參閱下列問題: 增強可視化體驗撰寫器不會在我使用 TLS 1.2 的網站上安全頁面中載入。]
 
 ## EEC 不會在我使用 TLS 1.0 的網站上安全頁面中載入。(僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-您可能會看到上述錯誤訊息，請參閱 [!UICONTROL 增強型視覺化體驗撰寫器] 不會在我的網站的安全頁面上載入。」 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。在之前 [!DNL Target] 18.4.1 （2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+您可能會看到上述錯誤訊息，請參閱 [!UICONTROL 增強型視覺化體驗撰寫器] 不會在我的網站的安全頁面中載入。」 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target] 目前使用1.2的預設設定。在之前 [!DNL Target] 18.4.1 （2018年4月25日），預設設定支援TLS 1.0。如需詳細資訊，請參閱 [TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
 
