@@ -4,10 +4,10 @@ description: 瞭解Adobe中的活動如何 [!DNL Target] 可讓您將內容個�
 title: 如何使用個人化內容並測試頁面設計 [!DNL Target]？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
 workflow-type: tm+mt
-source-wordcount: '2467'
-ht-degree: 45%
+source-wordcount: '2489'
+ht-degree: 44%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 45%
 [!UICONTROL 活動]清單是您開啟 [!DNL Target] 時的預設檢視。您可以從此頁面建立活動，並管理現有活動。
 
 您也可以按一下 [!DNL Target] UI 頂端的[!UICONTROL 活動]標籤，以顯示[!UICONTROL 活動]清單。
+
+>[!NOTE]
+>
+>下圖及表格顯示目前在Beta版（即將發行）中更新「活動清單UI」的功能。
+
 
 ![活動清單](/help/main/c-activities/assets/activities-list-new.png)
 
