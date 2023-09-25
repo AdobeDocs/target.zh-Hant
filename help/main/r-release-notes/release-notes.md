@@ -7,9 +7,9 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 86%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 23.9.3 （2023年9月18日）
+## [!DNL Target] Standard/Premium 23.9.3 (2023 年 9 月 18 日)
 
 此版本包含下列增強功能和修正：
 
-* 增強 [!UICONTROL 視覺化體驗撰寫器] (VEC)支援Lightning Web Components (Light DOM)。 (TGT-45422)
-* 已修復使 VEC 操作以錯誤順序應用的問題。在某些情況下，VEC 會不同步應用部份修改並將額外修改加入引起錯誤的元素 (如果該元素在[!UICONTROL 插入]行動之後顯示)。也會修正現在按一下錨點連結時會更新的VEC URL。 (TGT-45983)
-* 已修正VEC的問題 [!UICONTROL 覆蓋] 功能，現在支援「陰影DOM」中的元素。 (TGT-45202 和 TGT-45262)
-* 修正在VEC中開啟單頁應用程式(SPA)頁面，然後前往 [!UICONTROL 瀏覽] 模式導致「後退」和「前進」箭頭無法正常運作。 (TGT-45956)
-* 修正部分網頁無法在VEC中載入的問題。 (TGT-45983)
+* 強化 [!UICONTROL 可視化體驗撰寫器] (VEC) 以支援 Lightning Web (Light DOM)。(TGT-45422)
+* 已修復使 VEC 操作以錯誤順序應用的問題。在某些情況下，VEC 會不同步應用部份修改並將額外修改加入引起錯誤的元素 (如果該元素在[!UICONTROL 插入]行動之後顯示)。也修復了 VEC URL，現在按一下錨點連結時就會更新。(TGT-45983)
+* 已修復 VEC [!UICONTROL 覆蓋]功能的問題，該功能現在支援 Shadow DOM 中的元素。(TGT-45202 和 TGT-45262)
+* 已修復在 VEC 中開啟單次頁面應用程式 (SPA) 頁面後進入[!UICONTROL 瀏覽]模式時，後退和前進箭頭無法正常運作的問題。(TGT-45956)
+* 已修復導致某些網頁無法在 VEC 中載入的問題。(TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (2023 年 9 月 12-14 日)
 
