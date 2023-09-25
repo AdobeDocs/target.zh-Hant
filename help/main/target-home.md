@@ -55,7 +55,7 @@ ht-degree: 100%
 - [活動](c-activities/activities.md)：說明如何設定、管理 [!DNL Target] 活動及確保品質。
 - [對象](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
 - [體驗與選件](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的對象條件時，要顯示哪些內容。
-- [建議](c-recommendations/recommendations.md)：說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
+- [建議](c-recommendations/recommendations.md)： 說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
 
 ## 開發人員 {#developers}
 
