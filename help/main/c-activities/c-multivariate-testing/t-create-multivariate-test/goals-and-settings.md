@@ -1,27 +1,27 @@
 ---
 keywords: 活動設定；目標與設定；多變數；mvt
-description: 瞭解如何使用Adobe中的目標與設定頁面 [!DNL Target] 指定多變數測試(MVT)活動目標的相關資訊。
-title: 如何在多變數測試(MVT)活動中指定目標與設定？
+description: 瞭解如何使用 [!UICONTROL 目標與設定] 頁面位置 [!DNL Adobe Target] 若要指定目標的相關資訊，請執行下列動作： [!UICONTROL 多變數測試] (MVT)活動。
+title: 如何在「 」中指定目標與設定 [!UICONTROL 多變數測試] (MVT)活動？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 90%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
-# 目標與設定（多變數測試）
+# 目標與設定([!UICONTROL 多變數測試])
 
-Adobe Target中的「目標與設定」頁面可讓您輸入目標的相關資訊。 [!UICONTROL 多變數] (MVT)測試。
+此 [!UICONTROL 目標與設定] 頁面位置 [!DNL Adobe Target] 是您輸入目標相關資訊的位置 [!UICONTROL 多變數測試] (MVT)活動。
 
-* 活動設定
-* 報表設定
-* 其他中繼資料
+下列章節可供使用：
 
-可用的設定視您使用 Target 或 Analytics 做為資料來源而定。
+* [!UICONTROL 活動設定]
+* [!UICONTROL 報表設定]
+* [!UICONTROL 其他中繼資料]
 
-![mvt_settings影像](assets/mvt_settings.png)
+每個區段中的可用設定取決於您是否使用 [!DNL Target] 或 [!DNL Analytics] 作為報表來源。
 
 ## 活動設定 {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -33,20 +33,20 @@ Adobe Target中的「目標與設定」頁面可讓您輸入目標的相關資�
 
 ### 優先順序
 
-視您的設定而定，優先順序的 UI 和選項可能有所不同。您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。
+根據您的設定， [!DNL Target] 的UI和選項 [!UICONTROL 優先順序] 視情況而定。 您可以使用舊版設定 [!UICONTROL 低]， [!UICONTROL Medium]，或 [!UICONTROL 高]，或您可啟用0至999的精細優先順序。
 
 如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-如果S未啟用此選項[!UICONTROL 管理] > [!UICONTROL 報告] （預設值），指定優先順序：低、中或高。
+如果未在中啟用此選項 [!UICONTROL 管理] > [!UICONTROL 報告] （預設值），指定優先順序： [!UICONTROL 低]， [!UICONTROL Medium]，或 [!UICONTROL 高].
 
-若要啟用微調優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報告]，然後將「啟用微調優先順序」選項切換到「開啟」位置。
+若要啟用微調優先順序，請按一下 [!UICONTROL 管理] > [!UICONTROL 報告]，然後切換 [!UICONTROL 啟用微調優先順序] 選項切換至「開啟」位置。
 
-如果已啟用此選項，請指定介於 0 和 999 之間的值:
+如果已啟用此選項，請指定從0到999的值：
 
 * 0 = 低
 * 999 = 高
 
-對於在舊版 Target Standard/Premium 中建的立活動，低優先順序會轉換為 0，中會轉換為 5，而高則轉換為 10。您可以視需要調整這些值。
+針對在舊版中建立的活動 [!DNL Target]， [!UICONTROL 低] 優先順序已轉換為0， [!UICONTROL Medium] 優先順序會轉換為5，而 [!UICONTROL 高] 優先順序會轉換為10。 您可以視需要調整這些值。
 
 >[!NOTE]
 >
@@ -58,15 +58,15 @@ Adobe Target中的「目標與設定」頁面可讓您輸入目標的相關資�
 
 ## 報表設定 {#section_13119392051044FBA6387D9B3B1C43CF}
 
-可使用下列設定:
+有以下設定可使用：
 
-### 報表解決方案
+### 報表來源
 
-指定資料是收集自 Adobe Target 或 Adobe Analytics。請參閱 [Adobe Analytics 做為 Target的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)來瞭解關於報表解決方案之間的差異與各自的優點。
+指定資料是否收集自 [!DNL Adobe Target] 或從 [!DNL Adobe Analytics]. 另請參閱 [Adobe Analytics作為Target的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，瞭解報表解決方案之間的差異和各自的優點。
 
-選取 Analytics 做為 Target 的報表來源時，請選取 Analytics 報表套裝來接收 Target 活動資料。若要這麼做，請先從您帳戶繫結的 Analytics 公司中選擇任一，接著為該活動選取適當的報表套裝。只有佈建為連接至 Adobe Target 的報表套裝才可供選取。如果沒看到您要找的報表套裝，請先登出再登入 Adobe Experience Cloud，然後再試一次。如果報表套裝仍未出現在清單中，請聯絡客戶服務。
+當選取 [!DNL Analytics] 做為的報表來源 [!DNL Target]，您選取 [!DNL Analytics] 要接收的報表套裝 [!DNL Target] 活動資料。 若要這麼做，請先從下列任一 [!DNL Analytics] 您的帳戶繫結的公司，然後為活動選取適當的報表套裝。 僅限布建為可連線的報表套裝 [!DNL Target] 可供選取。 如果您沒有看到預期的報表套裝，請先嘗試登出並重新登入 [!DNL Adobe Experience Cloud] 再試一次。 如果清單中仍缺少報表套裝，請聯絡 [客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤伺服器」欄位中將出現預設的追蹤伺服器。如果您使用一部以上的追蹤伺服器，您應該檢查以確保您在此欄位中包括了正確的追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)以取得詳細資訊。
+[!UICONTROL 目標分析] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在 [!UICONTROL 追蹤伺服器] 欄位。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 另請參閱 [使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) 以取得詳細資訊。
 
 如果已在您的帳戶設定中指定了報表解決方案，則會使用指定的解決方案，並且此設定不會顯示。
 
@@ -74,54 +74,54 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 >
 >為了讓報表保持一致，在活動上線後，您無法變更您的報表來源。
 
-### 目標
+### 目標量度
 
-選取訪客為了達成目標採取的動作。例如，選擇轉換量度，然後設定判斷達到成功時的參數。
+選取訪客為了達成目標採取的動作。例如，選擇 [!UICONTROL 轉換] 量度，然後設定決定何時取得成功的引數。
 
 >[!NOTE]
 >
->如果報表解決方案設為 Analytics，唯一可用的目標量度為轉換。Analytics 量度無法選取做為目標。
+>如果報表解決方案設為 [!DNL Analytics]，唯一可用的目標量度是 [!UICONTROL 轉換]. [!DNL Analytics] 量度無法選取做為目標。
 
 選取您的成功量度時，即會顯示選取器。使用此選取器來選擇成功量度的特定項目。
 
-如果已啟用，「轉換的預計值」欄位 (「頁面分數」量度無法使用) 可提供目標的值，但不適用其他量度。此值可讓 Target 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。針對所有收入量度 (每位訪客帶來的收入、平均訂購值、銷售總額和訂購)，預估會使用「每位訪客帶來的收入」。資料類型為貨幣。
+如果已啟用， [!UICONTROL 轉換的預計值] 欄位(不適用於 [!UICONTROL 頁面分數] 量度)為您的目標提供值，但此值不適用於其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。針對所有收入量度([!UICONTROL 每位訪客帶來的收入]， [!UICONTROL 平均訂購值]， [!UICONTROL 銷售總額]、和 [!UICONTROL 訂購])，預估使用 [!UICONTROL 每位訪客帶來的收入]. 資料類型為貨幣。
 
-達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。如果訪客再次達到目標，將會將其計為另一次轉換。請注意，這與 Target Classic 中的預設行為不同，如果訪客再次看見測試，其會將訪客計為新訪客。
+達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。 如果訪客再次達到目標，將會將其計為另一次轉換。此行為與中的預設行為不同 [!DNL Target Classic]，可在訪客再次看到測試時將其視為新訪客。
 
 ### 其他量度
 
 建立其他的成功量度。
 
-如果報表解決方案設為 Analytics，則此設定無法使用。在此情況下，會套用針對 Analytics 報表套裝定義的量度。
+如果報表解決方案設為，則無法使用此設定 [!DNL Analytics]. 在此案例中，為定義的量度 [!DNL Analytics] 套用報表套裝。
 
-報表的對象
+### 報表的對象
 
-### 依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表對象以僅顯示關於特定對象的資訊。
+依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表對象以僅顯示關於特定對象的資訊。
 
-## 進階設定 {#section_E2FE441AFB324E498793ABB025ED9974}
+### 進階設定 {#section_E2FE441AFB324E498793ABB025ED9974}
 
-進階設定可供多變數測試目標度量使用。
+進階設定適用於 [!UICONTROL 多變數測試] 目標量度。
 
 ![進階設定功能表](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
->如果您使用 Adobe Analytics 作為您的報表來源，則設定是由 Analytics 伺服器管理。進階設定選項將無法使用。
+>如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。進階設定選項無法使用。
 
-### 遞增此量度時，應達到什麼成功量度?
+#### 遞增此量度時，應達到什麼成功量度?
 
-使用此選項之後，僅在某人先前達成不同的成功量度時，才將其視為達成成功量度。例如，測試轉換可能只有在轉換之前訪客點擊了選件，或是達到特定頁面時才有效。
+使用此選項時，如果某人先前達到不同的成功量度，則僅將其計算為達到成功量度。 例如，測試轉換可能只有在轉換之前訪客點選了選件，或達到特定頁面時才有效。
 
-系統提供您多個量度上的相依性，且具有彈性可選擇量度應為達到或未達到時計數才會增加。
+您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。
 
-您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。
+定義兩個（或多個）成功量度，之後才可以讓某個量度相依於另一個量度。
 
-「新增相依性」選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。
+[!UICONTROL 「新增相依性」]選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。
 
 若要新增相依性:
 
 1. 新增其他量度後，請按一下&#x200B;**[!UICONTROL 進階設定]**。
-2. 按一下「新增相依性」選項:
+2. 按一下&#x200B;**[!UICONTROL 「新增相依性」]**&#x200B;選項:
 
    ![新增相依性](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
@@ -135,9 +135,9 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 有三個選項可控制訪客達到目標量度後會發生什麼事:
 
-* 選取「增加計數以及讓使用者留在活動中」以指定計數的增加方式。
-* 選取「增加計數、釋出使用者以及允許重新進入」以指定如果使用者重新進入活動，使用者會看見的體驗。
-* 選取「增加計數、釋出使用者以及禁止重新進入」以指定使用者會看見的內容，而非活動內容。
+* [!UICONTROL 選取「增加計數以及讓使用者留在活動中」以指定計數的增加方式。]
+* [!UICONTROL 選取「增加計數、釋出使用者以及允許重新進入」以指定如果使用者重新進入活動，使用者會看見的體驗。]
+* [!UICONTROL 選取「增加計數、釋出使用者以及禁止重新進入」以指定使用者會看見的內容，而非活動內容。]
 
 請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。
 
@@ -147,13 +147,13 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 ### 附註
 
-輸入關於活動的任何資訊，將該資訊放在手邊對您或其他團隊成員來說很有用。「備註」窗格可調整大小。
+輸入任何對您自己或其他團隊成員有用的活動相關資訊。 此 [!UICONTROL 附註] 窗格可調整大小。
 
-## 訓練影片
+## 培訓影片
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動設定(3:02) ![教學課程徽章](/help/main/assets/tutorial.png)
+### 活動設定 (3:02)
 
 此影片包括關於活動設定的資訊。
 
@@ -165,9 +165,9 @@ Analytics for Target 需要追蹤伺服器才能正確報告結果。「追蹤�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
+### 建立多變數測試 (9:25)
 
-此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。在 7:00 開始討論目標和設定。
+此影片示範如何使用建立多變數測試。 [!DNL Target] 三步驟引導式工作流程。 在 7:00 開始討論目標和設定。
 
 * 定義和設計多變數測試
 * 建立多變數測試
