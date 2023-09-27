@@ -1,21 +1,21 @@
 ---
 keywords: 多變數； MVT；預覽；體驗
-description: 瞭解如何在Adobe中預覽多變數測試(MVT)活動中的每個體驗 [!DNL Target] 使用視覺化體驗撰寫器(VEC)。
-title: 如何預覽多變數測試(MVT)的體驗
+description: 瞭解如何預覽 [!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 使用 [!UICONTROL 視覺化體驗撰寫器] (VEC)。
+title: 如何預覽的體驗 [!UICONTROL 多變數測試] (MVT)？
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 67%
+ht-degree: 38%
 
 ---
 
-# 多變數測試的預覽體驗
+# 預覽體驗 [!UICONTROL 多變數測試]
 
 因為 [!UICONTROL 多變數測試] 在 [!DNL Adobe Target] 比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
 
-1. 在視覺化體驗撰寫器(VEC)中，按一下 **[!UICONTROL 預覽]**.
+1. 從 [!UICONTROL 視覺化體驗撰寫器] (VEC)，按一下 **[!UICONTROL 預覽]**.
 
    所有體驗的清單隨即出現。
 
@@ -31,8 +31,8 @@ ht-degree: 67%
 
    >[!NOTE]
    >
-   >建立多變數測試時，若您認可之後必須使用離線報表進行分析的警告，您現在可以從測試排除超過 10% 的體驗。
+   >建立多變數測試時，您可以從測試排除超過10%的體驗，但前提是您認可之後必須使用離線報表進行分析的警告。
 
    依預設，所有體驗都包括在多變數測試中。若要納入已排除的體驗，請選取排除的體驗，然後按一下&#x200B;**[!UICONTROL 「包含」]**。
 
-按一下&#x200B;**[!UICONTROL 「結束預覽模式」]**&#x200B;以回到體驗撰寫器，讓您可以進行變更，或按一下&#x200B;**[!UICONTROL 「繼續」]** 以前往測試摘要。
+1. 按一下 **[!UICONTROL 退出預覽模式]** 以返回 [!UICONTROL 視覺化體驗撰寫器] 以便進行變更，或按一下 **[!UICONTROL 繼續]** 前往測試摘要。

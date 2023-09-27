@@ -1,13 +1,13 @@
 ---
 keywords: 多變數測試；活動URL
-description: 瞭解如何指定活動URL，以決定測試中使用以及使用Adobe Target設計多變數測試活動時開啟的頁面。
-title: 多變數(MVT)活動中的活動URL為何？
+description: 瞭解如何指定活動URL，以決定測試中使用以及測試時開啟的頁面。 [!UICONTROL 多變數測試] 活動設計使用 [!DNL Adobe Target].
+title: 什麼是活動URL [!UICONTROL 多變數測試] (MVT)活動？
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 77%
 
 ---
 
@@ -38,13 +38,13 @@ ht-degree: 85%
 * 查詢
 * 參數
 
-可以使用「與」或「或」將其他規則加入活動 URL。您新增的所有規則會使用「與」彼此進行評估。
+其他規則可以用AND或OR聯結到活動URL。 您新增的所有規則都會使用AND相互評估。
 
 完成後，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
 >
->如果您輸入的網站 URL 不包括 Target Standard JavaScript 程式碼，則無法選取頁面元素。
+>如果您輸入的網站 URL 不包括 [!DNL Target] JavaScript 程式碼，則無法選取頁面元素。
 
 根據預設，VEC 不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。如果想要能夠使用&#x200B;**[!UICONTROL 可視化體驗撰寫器]**&#x200B;更改這些元素，您可以將[!UICONTROL 使用 JavaScript 呈現]切換為關閉。
 

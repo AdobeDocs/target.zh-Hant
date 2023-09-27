@@ -1,19 +1,19 @@
 ---
 keywords: mvt；多變數測試；選件；組合
-description: 瞭解如何在Adobe中使用視覺化體驗撰寫器(VEC) [!DNL Target] 以建立您要納入多變數測試(MVT)中的選件。
-title: 如何在多變數測試(MVT)中建立組合？
+description: 瞭解如何使用 [!UICONTROL 視覺化體驗撰寫器] Adobe中的(VEC) [!DNL Target] 以建立您要包含在 [!UICONTROL 多變數測試] (MVT)。
+title: 如何在中建立組合 [!UICONTROL 多變數測試] (MVT)？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 88%
+source-wordcount: '509'
+ht-degree: 71%
 
 ---
 
 # 建立組合
 
-使用 [!UICONTROL 視覺化體驗撰寫器] (VEC)輸入 [!DNL Adobe Target] ，以建立您要包含在 [!UICONTROL 多變數測試] (MVT)。
+使用 [!UICONTROL 視覺化體驗撰寫器] (VEC)輸入 [!DNL Adobe Target] 以建立您要包含在 [!UICONTROL 多變數測試] (MVT)。
 
 如需有關如何使用 VEC 建立及編輯選件的詳細資訊，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 
    ![變更影像選項](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. 選取要納入測試中的所有影像，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
+1. 選取要納入測試中的所有影像，然後按一下 **[!UICONTROL 儲存]**.
 
    ![用來新增影像的選取內容對話方塊](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
@@ -58,9 +58,9 @@ ht-degree: 88%
 ## 最佳實務 {#section_2E98C23D2F1A460FA732A31799CE6291}
 
 * 請勿在測試中包含太多不必要的位置。您在測試中包含的每個體驗，將會明顯增加達到滿意結果所需的流量和時間。例如，假設您的頁面元素各有三個選件，總共有九種可能的組合 (3x3)。在三個元素中，有兩個包含三個可能的選件，有一個有兩個選件，總共有 18 種選項 (3x3x2)。每增加一個元素和選件，數字便會顯著增加。
-* 建立多變數測試時，若您認可之後必須使用離線報表進行分析的警告，您現在可以從測試排除超過 10% 的體驗。
+* 建立多變數測試時，您可以從測試排除超過10%的體驗，但前提是您認可之後必須使用離線報表進行分析的警告。
 * 利用預覽功能來避免不需要的內容組合。例如，您可能有兩個影像在相同件商品或服務上提供不同的折扣。在相同個頁面上同時顯示這些影像不合邏輯，很可能造成混淆。
-* 使用流量估算程式來確定您的測試是針對頁面所接收的流量而設計。確定流量估算程式對您的測試組態指示綠燈，使得您可以取得所需的結果。
+* 使用[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)來確定您的測試是針對頁面所接收的流量而設計。請確定流量估算程式為您的測試設定開了綠燈，以便您可以取得想要的結果。
 * 您必須至少測試三個元素。如果少於這個數目，請執行一系列的 A/B 測試。
-* 建議您每個元素的替代項目之間必須有大幅差異。
+* 每個元素的替代專案應彼此顯著不同。
 * 雖非必要，但每個元素最好有相同的替代項數量。
