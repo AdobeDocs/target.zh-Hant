@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
+source-git-commit: 24e80632c68724c0eff37a719dbc80d9e3077f82
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 93%
+source-wordcount: '665'
+ht-degree: 95%
 
 ---
 
@@ -15,13 +15,26 @@ ht-degree: 93%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2023 年 9 月 18 日**
+**上次更新日期：2023 年 9 月 28 日**
 
 >[!NOTE]
 >
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## [!DNL Target] Standard/Premium 23.9.4 （2023年10月2至4日）
+
+我們將根據以下排程分批發行此版本：
+
+* **10 月 2 日**：歐洲、中東和非洲 (EMEA) 區域
+* **10 月 3 日**：美洲區域
+* **10 月 4 日**：亞太 (APAC) 區域
+
+此版本包含下列增強功能和修正：
+
+* 已新增 [!UICONTROL 視覺化體驗撰寫器] (VEC)動態架構的增強功能。 (TGT-44064)
+* 已修正導致在 `getViewInAnalyticsId` 請求不要正確更新。 (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (2023 年 9 月 18 日)
 
@@ -43,8 +56,8 @@ ht-degree: 93%
 
 此版本包含下列增強功能和修正：
 
-* 已將 [!DNL Analytics]API 改成新的[!DNL Analytics] API 2.0 版。 (TGT-45345)
-* 已修正影響某些客戶的 [!UICONTROL Automated Personalization] (AP) 活動的問題，包括及時同步 [!DNL Target] 後端上的活動以及在預覽連結中提供預期的體驗。 (TGT-46202)
+* 已將 [!DNL Analytics]API 改成新的[!DNL Analytics] API 2.0 版。(TGT-45345)
+* 已修正影響某些客戶的 [!UICONTROL Automated Personalization] (AP) 活動的問題，包括及時同步 [!DNL Target] 後端上的活動以及在預覽連結中提供預期的體驗。(TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (2023 年 9 月 6-11 日)
 
@@ -64,10 +77,10 @@ ht-degree: 93%
 
 此版本包含下列增強功能和修正：
 
-* 啟用的最佳化條件選擇 [!DNL Adobe Analytics] 量度。
-* 啟用使用sling作業同步外部對象。
-* 修正不支援名稱中包含點字元的SC報表套裝的問題。
-* 啟用可讓客戶刪除及編輯內建對象的功能。
+* 為 [!DNL Adobe Analytics] 量度啟用最佳化準則選擇。
+* 啟用透過 Sling 工作同步外部對象。
+* 已修正不支援 SC 報告套裝名稱中包含點字元的問題。
+* 啟用允許客戶刪除和編輯內建對象的功能。
 
 ## [!DNL Target] Standard/Premium 23.5.3 (日期待定)
 
