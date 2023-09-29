@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 100%
+source-wordcount: '1855'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 9 月 29 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.9.3 版的發行說明。 |
+|  | [初始化 Java SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 已將下列新引數新增至表格：<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
 | 9 月 22 日 | [排解[!UICONTROL 增強體驗撰寫器的相關問題]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | 已更新允許清單的 IP 位址清單。 |
 | 9 月 18 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.9.3 版的發行說明。 |
 | 9 月 15 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.9.3 版的搶鮮版注意事項。 |

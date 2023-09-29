@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 93%
+source-wordcount: '730'
+ht-degree: 87%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 93%
 * **10 月 4 日**：亞太 (APAC) 區域
 
 此版本包含下列增強功能和修正：
+
+| 功能 | 詳細資料 |
+| --- | --- |
+| [!UICONTROL 活動] UI重新整理<P>[!UICONTROL 動態消息] UI重新整理 | 作為 [!DNL Adobe Target] 團隊持續努力改善的使用者體驗， [!DNL Target] 使用者，此版本會重新整理 [!UICONTROL 活動] 和 [!DNL Recommendations] [!UICONTROL 動態消息] 中的頁面 [!DNL Target] UI。 此更新統一並標準化先前不一致的設計模式，同時加入新的增強功能。 |
 
 * 已新增 [!UICONTROL 視覺化體驗撰寫器] (VEC)動態架構的增強功能。 (TGT-44064)
 * 已修正導致在 `getViewInAnalyticsId` 請求不要正確更新。 此修正可協助重新計算 [!DNL Analytics] 日期範圍和量度報表設定變更時報表中的連結。 (TGT-46246)
