@@ -4,7 +4,7 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
+source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 75%
@@ -36,7 +36,7 @@ ht-degree: 75%
 | 功能 | 詳細資料 |
 | --- | --- |
 | [!UICONTROL 活動] UI重新整理<P>和<P>[!UICONTROL 動態消息] UI重新整理 | 作為 [!DNL Adobe Target] 團隊持續努力改善的使用者體驗， [!DNL Target] 使用者，此版本會重新整理 [!UICONTROL 活動] 和 [!DNL Recommendations] [!UICONTROL 動態消息] 中的頁面 [!DNL Target] UI。 此更新統一並標準化先前不一致的設計模式，同時加入新的增強功能。<P>如需詳細資訊，請參閱 [活動](/help/main/c-activities/activities.md) 和 [動態消息](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] 實作模式 | 此 *使用at.js的Recommendations實作模式* 模式可協助您瞭解並建立您的 [!DNL Adobe Target Recommendations] 使用at.js JavaScript資料庫時的實作。<P>如需Target模式的一般資訊，請參閱 [實作模式概觀](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} 在 *Adobe Target開發人員指南*.<P>新的Recommendations實作模式包含下列文章：<ul><li>[使用at.js的Recommendations實作模式概覽](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[初始化SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[設定資料彙集](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[演算體驗](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
+| [!DNL Recommendations] 實作模式 | 此 *使用at.js的Recommendations實作模式* 文章可協助您瞭解並建立您的 [!DNL Adobe Target Recommendations] 使用at.js JavaScript資料庫時的實作。<P>如需Target模式的一般資訊，請參閱 [實作模式概觀](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} 在 *Adobe Target開發人員指南*.<P>新的Recommendations實作模式由下列文章組成：<ul><li>[使用at.js的Recommendations實作模式概覽](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[初始化SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[設定資料彙集](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[演算體驗](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 
 * 已新增 [!UICONTROL 視覺化體驗撰寫器] (VEC)動態架構的增強功能。 (TGT-44064)
 * 已修正導致在 `getViewInAnalyticsId` 請求不要正確更新。 此修正可協助重新計算 [!DNL Analytics] 日期範圍和量度報表設定變更時報表中的連結。 (TGT-46246)
