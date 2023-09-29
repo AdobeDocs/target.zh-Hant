@@ -5,15 +5,15 @@ title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Analytics] 當作 [!DNL Adobe Target] (A4T) 的報告來源
 
-[!DNL Adobe Analytics for Target] (A4T) 是一種跨解決方案的整合，可讓您根據 [!DNL Analytics] 轉換量度和受眾區段來建立活動。 A4T 整合可讓您使用 [!DNL Analytics] 報表來檢查您的結果。 如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics] 資料收集。
+[!DNL Adobe Analytics for Target] (A4T) 是一種跨解決方案的整合，可讓您根據 [!DNL Analytics] 轉換量度和受眾區段來建立活動。A4T 整合可讓您使用 [!DNL Analytics] 報表來檢查您的結果。如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics] 資料收集。
 
 ## 總覽 {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -21,13 +21,13 @@ ht-degree: 98%
 
 在 [!DNL Target] 中使用 [!DNL Analytics] 資料的三大優點包括：
 
-* 行銷人員可隨時動態地將 [!DNL Analytics] 成功量度或報告區段套用至 [!DNL Target] 活動報表。 執行活動之前完全不需要指定。
+* 行銷人員可隨時動態地將 [!DNL Analytics] 成功量度或報告區段套用至 [!DNL Target] 活動報表。執行活動之前完全不需要指定。
 * 單一資料來源可排除在兩個不同系統中收集資料時發生不一致的情況。
-* 您現有的 [!DNL Analytics] 實作會收集所有必要的資料。 不需要僅為了收集報表的資料而在頁面上實作 Mbox。
+* 您現有的 [!DNL Analytics] 實作會收集所有必要的資料。不需要僅為了收集報表的資料而在頁面上實作 Mbox。
 
 如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics]。
 
-所有 [!DNL Analytics] 量度 (包括計算量度) 在 [!DNL Target] 及 [!DNL Analytics] 的 [!UICONTROL Target 活動]報表中都有提供，但有一個例外狀況。 不支援[!UICONTROL 提升度和信賴度]的計算量度。 同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。 在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或受眾套用至報表。
+所有 [!DNL Analytics] 量度 (包括計算量度) 在 [!DNL Target] 及 [!DNL Analytics] 的 [!UICONTROL Target 活動]報表中都有提供，但有一個例外狀況。不支援[!UICONTROL 提升度和信賴度]的計算量度。同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或受眾套用至報表。
 
 每個量度皆包含在內，包括 [!DNL Analytics] 內建的任何自訂量度或計算量度。
 
@@ -35,16 +35,16 @@ ht-degree: 98%
 
 考慮使用 A4T 時，請謹記下列重點:
 
-* 若要使用 [!DNL Analytics] 作為 [!DNL Target] 的報告來源，您與貴公司皆必須擁有 [!DNL Analytics] 和 [!DNL Target] 的存取權。 [如果您需要任一解決方案，請聯絡客戶代表](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
-* 每個活動皆會設定報告來源。 [!DNL Target] 會持續收集資料以供報告使用，如果您偏好以 [!DNL Target] 收集的資料作為活動的基礎，還是可以使用 [!DNL Target] 資料。
-* 使用某個報告來源或其他報告來源。 您無法同時從這兩個來源收集單一活動的資料。
-* 使用 A4T 時，活動可用的所有成功量度皆為 [!DNL Analytics] 量度。 不過，如果使用 at.js，則目標量度可以根據 Mbox 呼叫。 例如，您可以搭配 A4T 使用 Target 現成的點擊追蹤功能，而不必實作 [!DNL Analytics] 點擊追蹤程式碼。
-* 在 [!DNL Target] UI 中檢視 A4T 活動的報告時，您實際上是檢視 [!DNL Analytics] 資料。 例如，如果您在 [!DNL Target] 中使用[!UICONTROL 訪客]量度，您實際上是使用 [!DNL Analytics] [!UICONTROL 訪客]量度，而非 [!DNL Target] [!UICONTROL 訪客]量度 (現在稱為[!UICONTROL 加入者])。 對於基本流量量度 ([!UICONTROL 訪客數]、[!UICONTROL 造訪次數]、[!UICONTROL 頁面瀏覽數]) 和轉換量度，此差異尤其重要。
+* 若要使用 [!DNL Analytics] 作為 [!DNL Target] 的報告來源，您與貴公司皆必須擁有 [!DNL Analytics] 和 [!DNL Target] 的存取權。[如果您需要任一解決方案，請聯絡客戶代表](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+* 每個活動皆會設定報告來源。[!DNL Target] 會持續收集資料以供報告使用，如果您偏好以 [!DNL Target] 收集的資料作為活動的基礎，還是可以使用 [!DNL Target] 資料。
+* 使用某個報告來源或其他報告來源。您無法同時從這兩個來源收集單一活動的資料。
+* 使用 A4T 時，活動可用的所有成功量度皆為 [!DNL Analytics] 量度。不過，如果使用 at.js，則目標量度可以根據 Mbox 呼叫。例如，您可以搭配 A4T 使用 Target 現成的點擊追蹤功能，而不必實作 [!DNL Analytics] 點擊追蹤程式碼。
+* 在 [!DNL Target] UI 中檢視 A4T 活動的報告時，您實際上是檢視 [!DNL Analytics] 資料。例如，如果您在 [!DNL Target] 中使用[!UICONTROL 訪客]量度，您實際上是使用 [!DNL Analytics] [!UICONTROL 訪客]量度，而非 [!DNL Target] [!UICONTROL 訪客]量度 (現在稱為[!UICONTROL 加入者])。對於基本流量量度 ([!UICONTROL 訪客數]、[!UICONTROL 造訪次數]、[!UICONTROL 頁面瀏覽數]) 和轉換量度，此差異尤其重要。
 * 任何現有 [!DNL Target] 活動都會繼續使用 [!DNL Target] 資料收集，不因為啟用 A4T 而受到影響。
 * 在使用 A4T 時，只允許一個 mbox 型量度。
-* 從 [!DNL Target] 到 [!DNL Analytics] 的伺服器對伺服器呼叫會將活動和體驗資訊傳送至 [!DNL Analytics]。 此整合不會對 [!DNL Target] 或 [!DNL Analytics] 產生額外的伺服器呼叫。
+* 從 [!DNL Target] 到 [!DNL Analytics] 的伺服器對伺服器呼叫會將活動和體驗資訊傳送至 [!DNL Analytics]。此整合不會對 [!DNL Target] 或 [!DNL Analytics] 產生額外的伺服器呼叫。
 
-  在某些情況下，從 [!DNL Target] 到 [!DNL Analytics] 的分類會失敗，而且活動不會在 [!DNL Analytics] 中顯示資料。 請參閱[針對 Analytics 和 Target 整合 (A4T) 進行疑難排解](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 如需進一步協助，您也可以[聯絡客戶服務](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+  在某些情況下，從 [!DNL Target] 到 [!DNL Analytics] 的分類會失敗，而且活動不會在 [!DNL Analytics] 中顯示資料。請參閱[針對 Analytics 和 Target 整合 (A4T) 進行疑難排解](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。如需進一步協助，您也可以[聯絡客戶服務](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ## 實作 A4T
 
@@ -58,9 +58,9 @@ ht-degree: 98%
 |--- |--- |--- |
 | [使用手動流量分割的 A/B 活動](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |  |
 | [使用自動分配的 A/B 活動](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [使用自動鎖定目標的 A/B 活動](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 (at.js)<P>否(Platform Web SDK) | 自動鎖定目標活動的A4T支援目前僅支援at.js。 |
+| [使用自動鎖定目標的 A/B 活動](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 (at.js)<P>否 (Platform Web SDK) | 自動鎖定目標活動的 A4T 支援，目前僅 at.js 支援。 |
 | [體驗鎖定 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
-| [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要 Mbox 型目標量度目標才能取得[!UICONTROL 元素貢獻]報表。 [!UICONTROL 元素貢獻]報表目前不支援 [!DNL Analytics] 量度。 |
+| [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要 Mbox 型目標量度目標才能取得[!UICONTROL 元素貢獻]報表。[!UICONTROL 元素貢獻]報表目前不支援 [!DNL Analytics] 量度。 |
 | [Automated Personalization (AP) 活動](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
 | [Recommendations 活動](/help/main/c-recommendations/recommendations.md) | 是 |  |
 | [任何使用重新導向選件的活動](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
