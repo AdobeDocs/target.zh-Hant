@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 82%
+source-wordcount: '782'
+ht-degree: 81%
 
 ---
 
@@ -19,13 +19,7 @@ ht-degree: 82%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] Standard/Premium 23.9.4 （2023年10月2至4日）
-
-我們將根據以下排程分批發行此版本：
-
-* **10 月 2 日**：歐洲、中東和非洲 (EMEA) 區域
-* **10 月 3 日**：美洲區域
-* **10 月 4 日**：亞太 (APAC) 區域
+## [!DNL Target] Standard/Premium 23.9.4 （日期待定）
 
 此版本包含下列增強功能和修正：
 
