@@ -5,10 +5,11 @@ title: 什麼是 [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
-workflow-type: ht
-source-wordcount: '961'
-ht-degree: 100%
+exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
+source-git-commit: 034d95dd797a7a9cb323094ce5bea0c78b1426ab
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 86%
 
 ---
 
@@ -16,10 +17,11 @@ ht-degree: 100%
 
 [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} 與 [!DNL Target] 之間的 [!DNL Customer Journey Analytics for Target] (CJA4T) 整合，為您的最佳化程式提供強大的分析與省時的工具。
 
-在 [!DNL Target] 中使用 [!DNL Customer Journey Analytics] 資料的主要優點如下：
+使用的主要優點 [!DNL Customer Journey Analytics] 作為的報表來源 [!DNL Target] 為：
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。執行活動之前完全不需要指定。
-* 單一資料來源可盡量減少在兩個不同系統中收集資料時發生不一致的情況。
+* 充分利用Customer Journey Analytics功能，例如 [實驗面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#:~:text=The%20Experimentation%20panel%20lets%20analysts%20compare%20different%20user,which%20is%20best%20at%20driving%20a%20specific%20outcome.) 以進一步分析您的網站個人化。
+* 擁有適用於的單一報告來源 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html?lang=en) 和Target。 兩個個人化產品均可連線至Customer Journey Analytics，以更完整的方式檢視您的網頁個人化。
 
 ## 考量事項
 
@@ -35,7 +37,7 @@ ht-degree: 100%
 * 使用某個報告來源或其他報告來源。您無法收集單一活動的資料至多個報告來源。
 * 當您設定 [!DNL Customer Journey Analytics] 作為報告來源時，系統會提示您指定用於報告的沙箱。設定時，您只會看到您擁有存取權的沙箱。
 * 任何現有 [!DNL Target] 活動都會繼續使用 [!DNL Target] 資料收集，不會因為啟用 CJA4T 而受到影響。
-* 您需要擁有 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 才可以使用 CJA4T。未來預計會支援 [!DNL Analytics Data Connector]。
+* 若要使用CJA4T，慣用的實作方法有 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 如果您目前尚未實施Adobe Experience Platform Web SDK，也可以建立 [Adobe Analytics來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) 將資料帶入Adobe Experience Platform。
 * 任何關於時程的問題，請參閱 *Adobe Customer Analytics 指南*&#x200B;中&#x200B;*常見問題*&#x200B;的[延遲的注意事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank}。
 
 ## 支援的活動類型 {#supported-activities}
