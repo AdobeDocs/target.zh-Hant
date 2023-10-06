@@ -1,13 +1,13 @@
 ---
-keywords: 回應Token；Token；外掛程式；外掛程式；at.js；回應；平台Web sdk
+keywords: 回應Token；Token；外掛程式；外掛程式；at.js；回應；平台web sdk；google analytics
 description: 瞭解如何在中使用回應Token [!DNL Adobe Target] 輸出特定資訊，以便偵錯並與第三方工具整合。
 title: 什麼是回應Token？如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1681'
 ht-degree: 27%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 27%
 
 ## 傳送資料給Google Analytics
 
-以下小節說明如何傳送 [!DNL Target] 資料轉換為Google Analytics。 回應Token傳送的資料也可傳送至其他第三方整合。
+以下小節說明如何傳送 [!DNL Target] 資料到Google Analytics4。 回應Token傳送的資料也可傳送至其他第三方整合。
 
 ### ![AEP徽章](/help/main/assets/platform.png) 透過Platform Web SDK傳送資料給Google Analytics
 
