@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
+source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2023'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 92%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 10 月 6 日 | [回應權杖](/help/main/administrating-target/response-tokens.md) | 更新所有程式碼範例。 |
 | 10 月 4 日 | [活動](/help/main/c-activities/activities.md) | 更新文字和影像，以反映 [!DNL Target] 23.9.4版。 |
 |  | [動態消息](/help/main/c-recommendations/c-products/feeds.md) | 更新文字和影像，以反映 [!DNL Target] 23.9.4版。 |
 | 10 月 2 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.9.3 版的發行說明。 |
