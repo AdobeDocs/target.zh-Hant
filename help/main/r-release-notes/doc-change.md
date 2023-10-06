@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2049'
 ht-degree: 92%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 92%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 10 月 6 日 | [回應權杖](/help/main/administrating-target/response-tokens.md) | 更新所有程式碼範例。 |
+|  | [在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | 更新中的整個教學課程 *[!UICONTROL Adobe TargetTutorials]* 指南。 |
 | 10 月 4 日 | [活動](/help/main/c-activities/activities.md) | 更新文字和影像，以反映 [!DNL Target] 23.9.4版。 |
 |  | [動態消息](/help/main/c-recommendations/c-products/feeds.md) | 更新文字和影像，以反映 [!DNL Target] 23.9.4版。 |
 | 10 月 2 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.9.3 版的發行說明。 |
