@@ -5,7 +5,7 @@ title: 什麼是回應Token？如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 791274dc320912629b9425ef400d0008e0bb086b
+source-git-commit: e1eec21db0f71189b9cce683f855db4d6b105466
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 27%
