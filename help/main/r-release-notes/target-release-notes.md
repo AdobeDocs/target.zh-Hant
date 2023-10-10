@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 93%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL 活動] UI 重新整理<P>和<P>[!UICONTROL 摘要] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的[!UICONTROL 活動]和[!DNL Recommendations] [!UICONTROL 摘要]頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能。<P>如需詳細資訊，請參閱 [活動](/help/main/c-activities/activities.md) 和 [動態消息](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] 實作模式 | 此 *使用at.js的Recommendations實作模式* 文章可協助您瞭解並建立您的 [!DNL Adobe Target Recommendations] 使用at.js JavaScript資料庫時的實作。<P>如需詳細資訊，請參閱 [使用at.js的Recommendations實作模式概覽](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} 在 *Adobe Target開發人員指南*. |
+| [!UICONTROL 活動] UI 重新整理<P>和<P>[!UICONTROL 摘要] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的[!UICONTROL 活動]和[!DNL Recommendations] [!UICONTROL 摘要]頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能。<P>如需詳細資訊，請參閱[活動](/help/main/c-activities/activities.md)和[摘要](/help/main/c-recommendations/c-products/feeds.md)。 |
+| [!DNL Recommendations] 實作模式 | 「*使用 at.js 的 Recommendations 實作模式*」文章可協助您在使用 at.js JavaScript 程式庫時理解並建立您的 [!DNL Adobe Target Recommendations] 實作。<P>如需更多資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的[使用 at.js 的 Recommendations 實作模式概觀](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}。 |
 
 * 已新增 [!UICONTROL Visual Experience Composer] (VEC) 動態框架增強功能。(TGT-44064)
 * 已修正造成 `getViewInAnalyticsId` 要求中的所選日期無法正確更新的問題。此修正有助於當日期範圍和量度報告設定變更時重新計算報告中的 [!DNL Analytics] 連結。(TGT-46246)
