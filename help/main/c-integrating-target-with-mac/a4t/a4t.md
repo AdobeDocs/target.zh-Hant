@@ -4,10 +4,10 @@ description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 可根據 [!DNL Ana
 title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+workflow-type: tm+mt
+source-wordcount: '1144'
+ht-degree: 98%
 
 ---
 
@@ -57,8 +57,8 @@ ht-degree: 100%
 | 活動類型 | A4T 相容？ | 備註 (若適用) |
 |--- |--- |--- |
 | [使用手動流量分割的 A/B 活動](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |  |
-| [使用自動分配的 A/B 活動](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [使用自動鎖定目標的 A/B 活動](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 (at.js)<P>否 (Platform Web SDK) | 自動鎖定目標活動的 A4T 支援，目前僅 at.js 支援。 |
+| [使用自動分配的 A/B 活動](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| [使用自動鎖定目標的 A/B 活動](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 | 現在兩者都支援自動鎖定目標活動的A4T支援 [!DNL Platform Web SDK] 和at.js。 |
 | [體驗鎖定 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
 | [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要 Mbox 型目標量度目標才能取得[!UICONTROL 元素貢獻]報表。[!UICONTROL 元素貢獻]報表目前不支援 [!DNL Analytics] 量度。 |
 | [Automated Personalization (AP) 活動](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
