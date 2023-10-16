@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 42%
 
 ## 指定特定體驗作為控制
 
-1. 建立 [[!UICONTROL Automated Personalization] 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 或 [[!UICONTROL 自動鎖定目標] 活動](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，視需要設定體驗。
+1. 建立或編輯 [[!UICONTROL Automated Personalization] 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 或 [[!UICONTROL 自動鎖定目標] 活動](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，視需要設定體驗。
 1. 在[!UICONTROL 鎖定目標]頁面 (三步驟引導式工作流程的步驟 2) 上，選取要用來作為控制的體驗。
 1. 真對控制體驗和其他體驗，指定所需的流量分配。
 
