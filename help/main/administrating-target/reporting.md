@@ -5,10 +5,10 @@ title: 如何在Target中設定報表？
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 31%
+source-wordcount: '690'
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->請注意，要排除設定的時區、貨幣和IP位址適用於使用的活動 [!DNL Target] 報告。 這些設定不適用於使用的活動 [Analytics for Target (A4T)] 作為報表來源(/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
+>請注意，要排除設定的時區、貨幣和IP位址適用於使用的活動 [!DNL Target] 報告。 這些設定不適用於使用的活動 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 作為報表來源。
 
 ![報告頁面](/help/main/administrating-target/assets/reporting.png)
 
