@@ -4,7 +4,7 @@ title: Adobe Target 商務從業者指南
 description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5e77907694ae65f9f2d20b0fe0264b7b03fa290a
+source-git-commit: e005c497f8afc4cda39148f6245fa025d447f1bd
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -22,7 +22,6 @@ ht-degree: 100%
 >除本指南外，還有提供以下 [!DNL Adobe Target] 指南：
 >
 >- [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
->
 >- [*Adobe Target 教學課程*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
 >
 >如需版本資訊，請參閱本指南中的 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md)。
