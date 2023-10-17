@@ -4,26 +4,26 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 以行動裝置�
 title: 我可以根據行動裝置選項鎖定訪客嗎？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '675'
 ht-degree: 39%
 
 ---
 
 # 行動
 
-在中建立對象 [!DNL Adobe Target] 根據行動裝置、裝置型別、裝置廠商、熒幕尺寸等引數來鎖定行動裝置。
+在中建立對象 [!DNL Adobe Target] 根據行動裝置、裝置型別、裝置廠商、畫面維度等引數來鎖定行動裝置。
 
-例如，您可能想要向使用手機造訪您頁面的使用者顯示不同的內容，而不是向使用電腦造訪的使用者顯示不同的內容。 在此情況下，您可以選取 [!UICONTROL 行動] 對象，然後選取 **[!UICONTROL 是行動電話]** 選項。 然後您可以新增對您而言重要的任何特定詳細資料，例如手機型別、熒幕大小（畫素）等。
+例如，您可能想要對使用電話造訪您頁面的使用者顯示與使用電腦造訪時顯示的不同內容。 在此情況下，您可以選取 [!UICONTROL 行動] 對象，然後選取 **[!UICONTROL 是行動電話]** 選項。 接著，您就可以新增您認為重要的任何特定詳細資料，例如手機型別、熒幕大小（畫素）等。
 
 行動定位是由 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 所提供，這是一項 DotMobi 服務。DeviceAtlas 是全面性的行動裝置資料庫，其中包含從眾多來源 (包括製造商及網路營運商) 彙整而成的資料。這些資料會經過確認、交叉參考及驗證，以建立準確的大型行動裝置資料庫。
 
 裝置偵測是經由分析 User-Agent 字串來完成。某些裝置製造商 (例如 Apple) 在 UA 中不提供足夠資訊，所以會停用此功能。
 
-例如，Apple 裝置不會在 UA 中透露裝置型號專屬 Token。結果是，使用簡單的關鍵字型方法無法偵測iPhone模型(例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等)。
+例如，Apple 裝置不會在 UA 中透露裝置型號專屬 Token。結果，無法使用簡單的關鍵字型方法偵測iPhone模型(例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等)。
 
-若要解決此問題， [!DNL Target] 會收集其他資料，以使用下列引數精確偵測iPhone和其他Apple裝置：
+若要解決此問題， [!DNL Target] 會收集其他資料，以便使用下列引數精確偵測iPhone和其他Apple裝置：
 
 | 參數 | 類型 | 說明 |
 |--- |--- |--- |
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->使用Mobile SDK的客戶不需採取任何動作，即可套用此功能。 使用at.js的客戶必須 [升級至at.js 1.5.0版](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
+>使用Mobile SDK的客戶不需採取任何動作，即可套用這項功能。 使用at.js的客戶必須 [升級至at.js 1.5.0版](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} （或更新版本）。
 
 您可以選擇多個行動裝置屬性。您可使用OR運運算元聯結多個選取專案。
 
@@ -71,13 +71,13 @@ ht-degree: 39%
 
 ### 鎖定執行iOS 12.2或更新版本的裝置
 
-由於iOS 12.2中推出的新變更，使用下列定義規則來建立受眾 [!UICONTROL 裝置行銷名稱] 和 [!UICONTROL 裝置型號] 會影響iPhone模型。 [!DNL Target] 無法再鎖定已安裝iOS 12.2 （或更新版本）之iPhone的使用者。 不過，如果這些使用者沒有iOS 12.2 （或更新版本），則iPhone模型鎖定目標功能會繼續正常運作。
+由於iOS 12.2中推出的新變更，使用下列定義的規則建立對象： [!UICONTROL 裝置行銷名稱] 和 [!UICONTROL 裝置型號] 指定iPhone模型的受影響。 [!DNL Target] 無法再鎖定在iPhone上安裝iOS 12.2 （或更新版本）的使用者。 不過，如果這些使用者沒有iOS 12.2 （或更新版本），則iPhone模型鎖定目標功能可繼續正常運作。
 
 iOS 12.2 （或更新版本）更新不會影響下列模型的識別，因為這些模型不支援升級至iOS 12.2： iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina顯示器、iPad Retina （第4代）、iPod Touch 4和iPod Touch 5。
 
 ### 鎖定執行Safari 14.0.2 （或更新版本）的裝置
 
-使用行動規則來鎖定在macOS上執行Safari 14.0.2版（或更新版本）的裝置時，由於Apple的使用者代理程式和DeviceAtlas的已知問題， [!DNL Target] 在Mac和iPad裝置上錯誤識別Safari。 此問題將在未來解決。
+使用行動規則來鎖定在macOS上執行Safari 14.0.2版（或更新版本）的裝置時，由於Apple的使用者代理程式和DeviceAtlas涉及的已知問題， [!DNL Target] 在Mac和iPad裝置上錯誤識別Safari。 此問題將在未來解決。
 
 ## 訓練影片: 建立對象
 
