@@ -4,9 +4,9 @@ description: 探索有關Adobe常見問答的清單 [!DNL Target] 報告。
 title: 何處可以找到關於以下專案的解答： [!DNL Target] 報表？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1376'
 ht-degree: 27%
 
 ---
@@ -102,7 +102,7 @@ XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試
 
 ### 您沒有任何流量分配給控制體驗
 
-如果活動的內容成功傳送給使用者，但其報表不含任何資料，請確定您已將流量分配給控制體驗。
+如果活動的內容成功傳送給使用者，但其報表不含任何資料，請確定您使用具有流量的體驗作為控制體驗。
 
 1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
 1. 按一下齒輪圖示進行報表設定。
