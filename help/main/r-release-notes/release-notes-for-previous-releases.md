@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
-source-wordcount: '37635'
+source-wordcount: '37582'
 ht-degree: 96%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 96%
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL 活動] UI 重新整理<P>和<P>[!UICONTROL 摘要] UI 重新整理 | 作為 [!DNL Adobe Target] 的一份子，團隊持續努力改進 [!DNL Target] 使用者的使用者體驗，本次的版本重新整理了 [!DNL Target] UI 中的[!UICONTROL 活動]和[!DNL Recommendations] [!UICONTROL 摘要]頁面。本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能。<P>如需詳細資訊，請參閱[活動](/help/main/c-activities/activities.md)和[摘要](/help/main/c-recommendations/c-products/feeds.md)。 |
 | [!DNL Recommendations] 實作模式 | 「*使用 at.js 的 Recommendations 實作模式*」文章可協助您在使用 at.js JavaScript 程式庫時理解並建立您的 [!DNL Adobe Target Recommendations] 實作。<P>如需更多資訊，請參閱 *Adobe Target 開發人員指南*&#x200B;中的[使用 at.js 的 Recommendations 實作模式概觀](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}。 |
 
 * 已新增 [!UICONTROL Visual Experience Composer] (VEC) 動態框架增強功能。(TGT-44064)
