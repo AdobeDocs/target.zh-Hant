@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,11 +126,11 @@ ht-degree: 97%
 
    ![Customer Journey Analytics 中的名稱和 ID 選項](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
 
-1. 使用 [!DNL Target] 中的維度 [!UICONTROL 實驗] 面板，設定下列內容標籤：
+1. 若要在「[!UICONTROL 實驗]」面板中使用 [!DNL Target] 維度，請設定下列內容標籤：
 
-   * 的 [!UICONTROL 活動名稱]，使用「實驗中的實驗」。
-   * [!UICONTROL 體驗名稱]，使用「實驗中的變體」。
+   * 對於「[!UICONTROL 活動名稱]」，請使用「實驗性實驗」。
+   * 「[!UICONTROL 體驗名稱]」請使用「實驗變體」。
 
-   ![Experimentation面板中的內容標籤](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
+   ![實驗面板中的內容標籤](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. 完成任何其他欄位的設定，完成後按一下「**[!UICONTROL 儲存並繼續]**」。
