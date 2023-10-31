@@ -15,12 +15,12 @@ ht-degree: 99%
 
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
-## [!DNL Target] Standard/Premium 23.10.2 （2023年10月24日）
+## [!DNL Target] Standard/Premium 23.10.2 (2023 年 10 月 24 日)
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 10 月 28 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增關於at.js 2.11.2版的詳細資訊。 |
-| 10 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於 [!UICONTROL 活動] 頁面使用者介面重新整理（2023年10月25日） |
+| 10 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於[!UICONTROL 活動]頁面使用者介面重新整理的相關資訊 (2023 年 10 月 25 日) |
 | 10 月 24 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.10.2 版的發行說明。 |
 
 ## [!DNL Target] Standard/Premium 23.9.1 (2023 年 9 月 6-11 日)
