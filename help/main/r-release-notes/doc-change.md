@@ -6,7 +6,7 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2149'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 10 月 28 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增關於at.js 2.11.2版的詳細資訊。 |
+| 10 月 28 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增關於 at.js 2.11.2 版的詳細資料。 |
 | 10 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於[!UICONTROL 活動]頁面使用者介面重新整理的相關資訊 (2023 年 10 月 25 日) |
 | 10 月 24 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.10.2 版的發行說明。 |
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 10 月 17 日 | [報表常見問題](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 已更新以下常見問題：「我的活動報表為何未提供資料？」 |
-| 10 月 11 日 | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | 已更新 [!DNL Adobe Experience Platform Web SDK] 的 A4T 支援相關資訊。 |
+| 10 月 11 日 | [[!DNL Adobe Analytics] 做為的報表來源 [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | 已更新 [!DNL Adobe Experience Platform Web SDK] 的 A4T 支援相關資訊。 |
 | 10 月 10 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 版本 2.11.0 的發行說明。 |
 | 10 月 6 日 | [回應權杖](/help/main/administrating-target/response-tokens.md) | 已更新所有程式碼範例。 |
 |  | [在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | 已更新 *[!UICONTROL Adobe Target 教學課程]*&#x200B;指南中的整個教學課程。 |
