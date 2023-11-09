@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3cce7d181de4e344b1878990fd5506000d40befd
+source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 76%
 
 ---
@@ -31,12 +31,11 @@ ht-degree: 76%
 * **11 月 14 日**：美洲區域
 * **11 月 14 日**：歐洲、中東和非洲 (EMEA) 區域
 
-此版本包含下列修正：
+此版本包含下列增強功能和修正：
 
 * 增強 [活動問答](/help/main/c-activities/c-activity-qa/activity-qa.md) 要支援的功能 [不允許重複選件](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) 適用於中的體驗 [!UICONTROL Automated Personalization] 活動。 (TGT-46627)
 * 在 [!DNL Target] UI 中新增工具提示，可協助客戶了解為什麼在沒有流量分配給控制體驗時，活動報告可能沒有資料。工具提示中包含詳細資訊連結：[為什麼我的活動報告沒有資料？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
 * 這個問題已修正：一些客戶的「[!UICONTROL 活動]」頁面無法正確顯示活動。(TGT-46830)
-
 * 修正下列對使用的活動造成影響的問題 [[!UICONTROL 目標分析]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)做為報表來源：
    * 已修正導致部分客戶無法檢視報表資料的問題。 (TGT-46557)
    * 修正有時候會導致 [!UICONTROL 在Analytics檢視] 活動報告頁面上的連結無法正常運作。 (TGT-46731)
