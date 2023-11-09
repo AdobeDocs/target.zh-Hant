@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: 82b75b8ef293b3243c0b2528020dced4654b2688
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 53%
+source-wordcount: '386'
+ht-degree: 56%
 
 ---
 
@@ -36,9 +36,11 @@ ht-degree: 53%
 * 增強 [活動問答](/help/main/c-activities/c-activity-qa/activity-qa.md) 功能，讓客戶可禁止在中提供重複選件的體驗 [!UICONTROL Automated Personalization] 活動。 (TGT-46627)
 * 已新增工具提示於 [!DNL Target] UI可協助客戶瞭解，如果沒有流量分配給控制體驗，活動報表中為何可能沒有可用的資料。 工具提示中會包含詳細資訊的連結： [活動的報表為何沒有可用資料？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。 (TGT-46610)
 * 修正活動無法在上正確顯示的問題 [!UICONTROL 活動] 一些客戶的頁面。 (TGT-46830)
-* 已修正導致部分客戶無法檢視使用之活動的報告資料的問題 [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-46557)
-* 修正有時候會導致 [!UICONTROL 在Analytics檢視] 活動報告頁面上的連結，無法對使用的活動正常運作 [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-46731)
-* 修正的資料無法傳遞的問題 [!UICONTROL 提升度] 和 [!UICONTROL 信賴度] 以正確地顯示 [!DNL Target] 使用的活動的UI [!UICONTROL 目標分析] (A4T)做為報表來源。 (TGT-46592、TGT-46554 和 TGT-46586)
+
+* 修正下列對使用的活動造成影響的問題 [目標分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)做為報表來源：
+   * 已修正導致部分客戶無法檢視報表資料的問題。 (TGT-46557)
+   * 修正有時候會導致 [!UICONTROL 在Analytics檢視] 活動報告頁面上的連結無法正常運作。 (TGT-46731)
+   * 修正的資料無法傳遞的問題 [!UICONTROL 提升度] 和 [!UICONTROL 信賴度] 以正確地顯示 [!DNL Target] UI。 (TGT-46592、TGT-46554 和 TGT-46586)
 
 ## 額外的發行說明和版本詳細資料
 
