@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '2183'
-ht-degree: 98%
+source-wordcount: '2210'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 98%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 11 月 10 日 | [Recommendations API參考](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | 此 [!DNL Adobe Target] [!DNL Recommendations] API已重新放置到 [!DNL Adobe Developer] 網站。 請視需要更新書籤。 |
+|  | [時間範圍](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 新增以下備註： [!DNL Target] 時間對象未考慮日光節約時間(DST)變更。 您必須手動更新對象，以考慮DST變更。 |
 | 11 月 8 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增即將推出的搶鮮版發行說明 [!DNL Target Standard/Premium] 23.11.1版。 |
 | 10 月 28 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增關於 at.js 2.11.2 版的詳細資料。 |
 | 10 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於[!UICONTROL 活動]頁面使用者介面重新整理的相關資訊 (2023 年 10 月 25 日) |
