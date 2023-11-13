@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '37582'
+source-wordcount: '37687'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 96%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2023
+
+### [!DNL Target] Standard/Premium 23.10.2 (2023 年 10 月 24 日)
+
+此版本包含下列增強功能和修正：
+
+* 已增強新的[!UICONTROL 活動] UI，以便在建立新活動時，[!UICONTROL 可視化體驗撰寫器] (VEC) 以 `selectorCriteria` 預設設定開啟。(TGT-46586)
+* 已修正部分客戶在使用 VEC 時無法在[!UICONTROL 撰寫器]模式下編輯元素的問題。(TGT-46470)
+* 已新增使用自訂屬性時可指定通用偏好選擇器的功能。(TGT-46545)
+* 已修正使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自動鎖定目標]報告無法在 [!DNL Target] UI 中顯示的問題，即使該報告可在 [!DNL Adobe Analysis Workspace] 中正確顯示。(TGT-46494)
+* 已更新 Target UI 的多種語言本地化字串。(TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (2023 年 10 月 4-6 日)
 
@@ -1217,7 +1227,7 @@ Target 1.0.1 版本已修正下列問題：
 | 功能/增強功能 | 說明 |
 | --- | --- |
 | ![Target Premium badge [!DNL Target]API 中的](/help/main/assets/premium.png)<br/>[!UICONTROL 企業權限]支援 | [Adobe Target Admin API](https://developers.adobetarget.com/api/#admin-apis) 現在能充分運用 Target UI 中相同企業權限功能的優勢。從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員將能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、選件與對象。這些動作先前只限預設工作區使用。未來版本將提供 Automated Personalization (AP) 活動支援。 |
-| ![Target Premium badge](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]：根據環境 (主機群組) 篩選集合和排除項目 | 您現在可以針對選定環境 (主機群組) 預覽[!UICONTROL 建議]集合和排除項目的內容。<br/>先前，當您檢視集合或排除項目時，顯示的包含項目是預設主機群組 (在[!UICONTROL 「建議 > 設定 > 預設主機群組」]中指定) 的結果。<br/>現在當您建立或更新集合或排除項目時，可以使用[!UICONTROL 「環境」]選取器來選擇要預覽結果的環境。新的[!UICONTROL 「環境」]篩選器能節省時間和精力，因為您不再需要導覽至[!UICONTROL 「設定」]頁面來選取適當的預設主機群組，就能建立或編輯集合和排除項目。<br/>**注意：** 變更選定環境後，您必須按一下[!UICONTROL 「搜尋」]來更新傳回的結果。<br/>新的[!UICONTROL 「環境」]篩選器可從 [!DNL Target] UI 的以下位置取用:<ul><li>[!UICONTROL 目錄搜尋] ([!UICONTROL 「建議 > 目錄搜尋」])</li><li>[!UICONTROL 建立集合]對話方塊 ([!UICONTROL 「建議 > 集合 > 新建」])</li><li>[!UICONTROL 更新集合]對話方塊 ([!UICONTROL 「建議 > 集合 > 編輯」])</li><li>[!UICONTROL 建立排除項目]對話方塊 ([!UICONTROL 「建議 > 排除項目 > 新建」])</li><li>[!UICONTROL 更新排除項目]對話方塊 ([!UICONTROL 「建議 > 排除項目 > 編輯」])</li></ul><br>如需詳細資訊，請參閱下列主題:<uL><li>[集合](/help/main/c-recommendations/c-products/collections.md)</li><li>[排除項目](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。 </li><li>[建議：根據環境 (主機群組) 篩選集合和排除項目](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Target Premium badge](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]：根據環境 (主機群組) 篩選集合和排除項目 | 您現在可以針對選定環境 (主機群組) 預覽[!UICONTROL 建議]集合和排除項目的內容。<br/>先前，當您檢視集合或排除項目時，顯示的包含項目是預設主機群組 (在[!UICONTROL 「建議 > 設定 > 預設主機群組」]中指定) 的結果。<br/>現在當您建立或更新集合或排除項目時，可以使用[!UICONTROL 「環境」]選取器來選擇要預覽結果的環境。新的[!UICONTROL 「環境」]篩選器能節省時間和精力，因為您不再需要導覽至[!UICONTROL 「設定」]頁面來選取適當的預設主機群組，就能建立或編輯集合和排除項目。<br/>**注意：** 變更選定環境後，您必須按一下[!UICONTROL 「搜尋」]來更新傳回的結果。<br/>新的[!UICONTROL 「環境」]篩選器可從 [!DNL Target] UI 的以下位置取用:<ul><li>[!UICONTROL 目錄搜尋] ([!UICONTROL 「建議 > 目錄搜尋」])</li><li>[!UICONTROL 建立集合]對話方塊 ([!UICONTROL 「建議 > 集合 > 新建」])</li><li>[!UICONTROL 更新集合]對話方塊 ([!UICONTROL 「建議 > 集合 > 編輯」])</li><li>[!UICONTROL 建立排除項目]對話方塊 ([!UICONTROL 「建議 > 排除項目 > 新建」])</li><li>[!UICONTROL 更新排除項目]對話方塊 ([!UICONTROL 「建議 > 排除項目 > 編輯」])</li></ul><br>如需詳細資訊，請參閱下列主題:<uL><li>[集合](/help/main/c-recommendations/c-products/collections.md)</li><li>[排除項目](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。</li><li>[建議：根據環境 (主機群組) 篩選集合和排除項目](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **增強功能、修正和變更**
 
