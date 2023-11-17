@@ -5,9 +5,9 @@ title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 80%
 
 * **上限**：256 個字元。
 
-  使用at.js 1.*x* 使用供跨網域追蹤功能時。 如果您在使用at.js 2.*x* 或 [!DNL Adobe Experience Platform Web SDK]，您會收到錯誤訊息（值不會自動截斷）。
+  使用at.js 1時，超過256個字元的值會遭截斷。*x* 使用供跨網域追蹤功能時。 使用at.js 2.傳送超過256個字元的值時，您會收到錯誤訊息。*x* 或 [!DNL Adobe Experience Platform Web SDK]. 值不會自動截斷。
 
 ### In-mbox 設定檔名稱
 
