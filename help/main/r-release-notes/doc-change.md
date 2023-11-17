@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 93%
+source-wordcount: '2356'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 93%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 11 月 17 日 | [管理員入門](/help/main/administrating-target/start-target.md) | 已新增下列重要注意事項：<ul><li>使用者 [!UICONTROL 產品管理員] 或 [!UICONTROL 系統管理員] 中的許可權 [!DNL Adobe Admin Console] 可以編輯或變更 [!UICONTROL 管理] 第頁，共頁 [!DNL Target]，無論使用者身分是 [!DNL Target] 角色。 不支援此專案的使用者： [!UICONTROL 產品管理員] 或 [!UICONTROL 系統管理員] 中的許可權 [!DNL Adobe Admin Console] 必須具有特定 [!DNL Target] 進行這些變更的角色。1</li></ul> |
+|  | [限制](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 已更新區段，其中包含如何操作的資訊 [!DNL Target] 處理at.js 2.*x* 和 [!DNL Adobe Experience Platform Web SDK]. |
+|  | [傳送 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 新增重新導向至目前的傳送API檔案，並淘汰舊版檔案(`http://developers.adobetarget.com/api/delivery-api/`)。 請視需要更新書籤。 |
 | 11 月 16 日 | [大量設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 新增下列警告：「更新通常在一小時內發生，但可能需要長達24小時的時間才會反映。」 |
 | 11 月 13 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.11.1 版的發行說明。 |
 
