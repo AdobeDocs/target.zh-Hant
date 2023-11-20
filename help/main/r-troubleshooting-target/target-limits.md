@@ -5,9 +5,9 @@ title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1604'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 80%
 
 * **上限**：256 個字元。
 
-  使用at.js 1時，超過256個字元的值會遭截斷。*x* 使用供跨網域追蹤功能時。 使用at.js 2.傳送超過256個字元的值時，您會收到錯誤訊息。*x* 或 [!DNL Adobe Experience Platform Web SDK]. 值不會自動截斷。
+  使用at.js 1時，超過256個字元的值會遭截斷。*x* 使用供跨網域追蹤功能時。 使用at.js 2.*x* 或 [!DNL Adobe Experience Platform Web SDK]. 值不會自動截斷。
 
 ### In-mbox 設定檔名稱
 
@@ -179,7 +179,7 @@ ht-degree: 80%
 
 * **上限**：250 個字元。
 
-  針對傳送API (at.js 2.*x*)、批次mbox V2和AEP Web SDK (alloy.js)整合、mbox名稱 *可以* 包含英數字元(A-Z、a-z、0-9)和下列任一字元：
+  的 [!DNL Delivery API] (at.js 2.*x*)、批次mbox V2和 [!DNL Adobe Experience Platform Web SDK] (alloy.js)整合， mbox名稱 *可以* 包含英數字元(A-Z、a-z、0-9)和下列任一字元：
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
