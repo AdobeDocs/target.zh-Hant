@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 92%
+source-wordcount: '2373'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 92%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 11 月 21 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 2.11.3 的發行說明。 |
 | 11 月 17 日 | [管理員入門](/help/main/administrating-target/start-target.md) | 已新增下列重要注意事項：<ul><li>使用者 [!UICONTROL 產品管理員] 或 [!UICONTROL 系統管理員] 中的許可權 [!DNL Adobe Admin Console] 可以編輯或變更 [!UICONTROL 管理] 第頁，共頁 [!DNL Target]，無論使用者身分是 [!DNL Target] 角色。 不支援此專案的使用者： [!UICONTROL 產品管理員] 或 [!UICONTROL 系統管理員] 中的許可權 [!DNL Adobe Admin Console] 必須具有特定 [!DNL Target] 進行這些變更的角色。1</li></ul> |
 |  | [限制](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 已更新區段，其中包含如何操作的資訊 [!DNL Target] 處理at.js 2.*x* 和 [!DNL Adobe Experience Platform Web SDK]. |
 |  | [傳送 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 新增重新導向至目前的傳送API檔案，並淘汰舊版檔案(`http://developers.adobetarget.com/api/delivery-api/`)。 請視需要更新書籤。 |
@@ -29,9 +30,9 @@ ht-degree: 92%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 11 月 10 日 | [Recommendations API參考](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | 此 [!DNL Adobe Target] [!DNL Recommendations] API已重新放置到 [!DNL Adobe Developer] 網站。 請視需要更新書籤。 |
-|  | [時間範圍](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 新增以下備註： [!DNL Target] 時間對象未考慮日光節約時間(DST)變更。 您必須手動更新對象，以考慮DST變更。 |
-| 11 月 8 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增即將推出的搶鮮版發行說明 [!DNL Target Standard/Premium] 23.11.1版。 |
+| 11 月 10 日 | [Recommendations API 參考](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | [!DNL Adobe Target][!DNL Recommendations] API 已移至 [!DNL Adobe Developer] 網站。請視需要更新您的書籤。 |
+|  | [時間範圍](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 已新增[!DNL Target]時間對象不考慮日光節約時間 (DST) 變動的備註。您必須手動更新對象以因應 DST 變動。 |
+| 11 月 8 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增未來 [!DNL Target Standard/Premium] 23.11.1 版的搶鮮版注意事項。 |
 | 10 月 28 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增關於 at.js 2.11.2 版的詳細資料。 |
 | 10 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增關於[!UICONTROL 活動]頁面使用者介面重新整理的相關資訊 (2023 年 10 月 25 日) |
 | 10 月 24 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.10.2 版的發行說明。 |
@@ -41,7 +42,7 @@ ht-degree: 92%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 10 月 17 日 | [報表常見問題](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 已更新以下常見問題：「我的活動報表為何未提供資料？」 |
-| 10 月 11 日 | [[!DNL Adobe Analytics] 做為的報表來源 [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | 已更新 [!DNL Adobe Experience Platform Web SDK] 的 A4T 支援相關資訊。 |
+| 10 月 11 日 | [[!DNL Adobe Analytics] 當作  [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 的報告來源 | 已更新 [!DNL Adobe Experience Platform Web SDK] 的 A4T 支援相關資訊。 |
 | 10 月 10 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 版本 2.11.0 的發行說明。 |
 | 10 月 6 日 | [回應權杖](/help/main/administrating-target/response-tokens.md) | 已更新所有程式碼範例。 |
 |  | [在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動分配]活動的 A4T 報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | 已更新 *[!UICONTROL Adobe Target 教學課程]*&#x200B;指南中的整個教學課程。 |
