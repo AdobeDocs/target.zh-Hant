@@ -3,13 +3,14 @@ keywords: cja4t；Customer Journey Analytics；Customer Journey Analytics for Ta
 description: 使用 [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (A4T) 可根據 [!DNL Customer Journey Analytics] 轉換量度和對象區段建立活動，並使用 [!DNL Customer Journey Analytics] 報告來檢查結果。
 title: 什麼是 [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)？
 feature: Integrations
+badgeBeta: label="測試" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="有哪些Beta版功能 [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
-workflow-type: ht
-source-wordcount: '1050'
-ht-degree: 100%
+source-git-commit: 16b325431224dfb6cd3e580937f6a3989d0ca577
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 98%
 
 ---
 
