@@ -5,9 +5,9 @@ title: 我如何使用  [!DNL Adobe Experience Manager]  (AEM) [!UICONTROL 內�
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
 ## 要求 {#requirements}
 
-您必須使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 您的客戶代表可協助確認您是否符合使用此功能的要求：
+您必須使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。您的客戶代表可協助確認您是否符合使用此功能的要求：
 
 請和 [Adobe Target 客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)聯絡，以啟用整合並取得驗證的詳細資訊。
 
