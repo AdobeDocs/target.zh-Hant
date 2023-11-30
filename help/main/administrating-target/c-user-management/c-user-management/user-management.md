@@ -1,26 +1,26 @@
 ---
 keywords: 新增使用者; 管理使用者; 使用者權限
-description: 瞭解如何使用 [!DNL Adobe Admin Console] 管理使用者及其許可權和許可權 [!DNL Adobe Target Standard].
-title: 如何新增使用者並管理許可權 [!DNL Target Standard] 帳戶？
+description: 了解如何使用  [!DNL Adobe Admin Console]  來管理  [!DNL Adobe Target Standard] 中的使用者及其權限和權利。
+title: 如何為  [!DNL Target Standard]  帳戶新增使用者並管理權限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # 使用者
 
-在中新增使用者及管理使用者許可權 [!DNL Adobe Admin Console] 針對 [!DNL Target Standard] 帳戶。
+在 [!DNL Adobe Admin Console] 中為 [!DNL Target Standard] 帳戶新增使用者並管理其權限。
 
 >[!NOTE]
 >
 >[!UICONTROL 屬性]和[!UICONTROL 權限]功能當作 [!DNL Target Premium] 解決方案的一部分來提供。 如果沒有 [!DNL Target] Premium 授權，就無法在 [!DNL Target] Standard 中使用它們。 
 >
->您可以分辨貴組織是否擁有 [!UICONTROL 標準] 或 [!UICONTROL Premium] 按一下 [!UICONTROL 管理] 頂端連結 [!DNL Target] UI。
+>您可以分辨貴組織擁有的是 [!UICONTROL Standard] 授權還是 [!UICONTROL Premium] 授權，方法是按一下 [!DNL Target] UI 上方的[!UICONTROL 管理]連結。
 >
 >* **[!DNL Target] Standard 客戶**：如果您看到[!UICONTROL 使用者]索引標籤 ([!UICONTROL 管理 > 使用者]) (而不是&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤)，就表示貴組織擁有 [!DNL Target] Standard 授權。 [!DNL Target] Standard 客戶應該依照本文的指示，在 [!DNL Adobe Admin Console] 中新增使用者並指派權限。
 >
@@ -30,17 +30,17 @@ ht-degree: 73%
 
 當您開始使用 [!DNL Adobe Target] 時，您可以找到 [!DNL Adobe Experience Cloud] 帳戶中預先填入的 ID (結尾是 Adobe.com)。 若您需要協助，這些 ID 可供 [!DNL Adobe] 團隊成員使用，好讓他們可以協助處理您的新帳戶及協助您使用 [!DNL Adobe Target]。 若要取得協助，請像平常一樣聯絡 Adobe 團隊。
 
-您不會看到新使用者列在 [!UICONTROL 使用者] 頁面，直到使用者使用他們的 [!DNL Adobe Experience Cloud] 帳戶，然後登入 [!DNL Target].
+在新使用者使用其 [!DNL Adobe Experience Cloud] 帳戶登入，然後登入 [!DNL Target] 之後，您才會看到該使用者列在[!UICONTROL 使用者]頁面上。
 
-預設為「全部」 [!DNL Target] 使用者開始於 [!UICONTROL 觀察者] 許可權。
+根據預設，所有 [!DNL Target] 使用者一開始都具有[!UICONTROL 觀察者]權限。
 
 在[!UICONTROL 使用者]清單中可識別管理員使用者。 如果您需要變更存取等級，請聯絡其中一位系統管理員使用者。
 
-## 從 檢視使用者資訊[!DNL Target]
+## 從 [!DNL Target] 檢視使用者資訊
 
-您可在以下位置檢視目前使用者的清單： [!DNL Target] UI，包括其每個工作區的角色和電子郵件地址。
+您可以在 [!DNL Target] UI 中查看目前使用者的清單，包括他們在每個工作區和電子郵件地址中的角色。
 
-若要檢視 [!UICONTROL 使用者] 頁面，按一下 **[!UICONTROL 管理]** > **[!UICONTROL 使用者]**.
+若要檢視「[!UICONTROL 使用者]」頁面，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 使用者]**。
 
 ![從 Target 檢視使用者清單](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
@@ -50,7 +50,7 @@ ht-degree: 73%
 
 ## 存取 [!DNL Adobe Admin Console] {#access}
 
-對於在中執行的任務 [!DNL Adobe Admin Console]，請依照下列步驟存取主控台：
+對於 [!DNL Adobe Admin Console] 中執行的任務，請依照下列步驟存取主控台：
 
 1. 在 [!DNL Target] 中按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 使用者]** > **[!UICONTROL 使用者管理]**。
 
@@ -69,14 +69,14 @@ ht-degree: 73%
 
 ## 建立使用者群組 {#user-groups}
 
-您可以建立使用者群組，例如開發人員、分析人員、行銷人員、高階主管等，然後跨多個群組指派許可權 [!DNL Adobe] 產品和工作區。 指派新團隊成員跨不同團隊的所有適當許可權 [!DNL Adobe] 產品可以像新增到特定使用者群組一樣簡單。
+您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 [!DNL Adobe] 產品和工作區指派權限。跨不同的 [!DNL Adobe] 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
 1. [在 Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) 中，按一下&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]**，以建立新使用者群組或編輯現有的群組。
 1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示進行。
 
 ## 指定角色和權限 {#roles-permissions}
 
-只有系統管理員可以在 [!DNL Target] 中設定使用者角色。 例如， [!UICONTROL 標準] 核准者使用者也必須將觀察者變更為核准者 [!DNL Experience Cloud] 管理員許可權。
+只有系統管理員可以在 [!DNL Target] 中設定使用者角色。 例如，[!UICONTROL 標準]核准者使用者也必須擁有 [!DNL Experience Cloud] 管理員權限，才能將觀察者變更為核准者。
 
 系統管理員使用者必須將使用者新增至系統。系統不會自動新增使用者。使用者要收到來自 [!DNL Experience Cloud] 的電子郵件邀請，而且在註冊其帳戶之前必須先確認電子郵件位址。
 
@@ -92,16 +92,16 @@ ht-degree: 73%
 
    ![設定使用者](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 選取所需的許可權角色([!UICONTROL 核准者]， [!UICONTROL 編輯者]， [!UICONTROL 觀察者] 或 [!UICONTROL 發佈者])使用「 」中每個使用者的下拉式清單 [!UICONTROL 產品角色] 欄。
+1. 使用[!UICONTROL 產品角色]欄中每個使用者的下拉式清單，選取所需的權限角色 ([!UICONTROL 核准者]、[!UICONTROL 編輯者]、[!UICONTROL 觀察者]或[!UICONTROL 發佈者])。
 
    ![「產品角色」下拉式清單](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 角色 | 說明 |
    |--- |--- |
    | [!UICONTROL 核准者] | 可以建立、編輯和啟動或停止活動。 |
-   | [!UICONTROL 編輯器] | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
+   | [!UICONTROL 編輯者] | 可以在活動上線之前建立和編輯活動，但無法核准活動的啟動。 |
    | [!UICONTROL 觀察者] | 可以檢視活動，但無法建立或編輯活動。 |
-   | [!UICONTROL 發佈者] | 類似於 [!UICONTROL 觀察者] 角色（可以檢視活動，但無法建立或編輯活動）。 但是，[!UICONTROL 發佈者]角色具有激活活動的附加權限。 |
+   | [!UICONTROL 發佈者] | 類似於[!UICONTROL 觀察者]角色 (可以查看活動，但不能建立或編輯活動)。但是，[!UICONTROL 發佈者]角色具有啟動活動的附加權限。 |
 
 如需詳細資訊，請參閱&#x200B;*企業版使用手冊*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
