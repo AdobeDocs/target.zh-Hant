@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
+source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 98%
+source-wordcount: '2480'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 12 月 1 日 | [Adobe Target設定檔更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 舊版API檔案已移至下列文章：<ul><li>[Adobe Target設定檔API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target單一設定檔更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target大量設定檔更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11 月 29 日 | [大量設定檔更新API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 澄清關於如何進行 [!DNL Target] 為使用者建立設定檔時處理客戶屬性 [!DNL Target] 使用時尚未看到 [!UICONTROL 大量設定檔更新API] v2而非v1。 |
 | 11 月 21 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 2.11.3 的發行說明。 |
 | 11 月 17 日 | [管理員入門](/help/main/administrating-target/start-target.md) | 新增下列重要附註:<ul><li>在 [!DNL Adobe Admin Console] 中具有[!UICONTROL 產品管理員]或[!UICONTROL 系統管理員]權限的使用者可以編輯或變更 [!DNL Target] [!UICONTROL 管理]頁面上的所有設定，無論其 [!DNL Target] 角色為何。在 [!DNL Adobe Admin Console] 中沒有[!UICONTROL 產品管理員]或[!UICONTROL 系統管理員]權限的使用者必須具有特定 [!DNL Target] 角色才能進行這些變更。1</li></ul> |
