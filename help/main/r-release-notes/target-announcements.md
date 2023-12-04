@@ -4,16 +4,35 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 94%
 
 ---
 
 # [!DNL Adobe Target] 公告和活動
 
 有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
+
+## [!DNL Adobe Target Community] 咖啡會
+
+* **機器學習與AI報告與分析**
+* **2023年12月6日星期三**
+* **上午8:00 - 9:00 （PST -8格林威治標準時間）**
+* **[按一下這裡報名](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+加入 [!DNL Adobe Target] 專家Brent Kostak、Cristinel Anastasoaie、Drew Burns和Marisol St. John在「詢問我任何事情」的活動中討論機器學習和AI報告和分析 [!DNL Adobe Target].
+
++++詳細資料此討論會專注於下列主題：
+
+* 您是否對ML和AI感到興奮，並希望更深入瞭解活動的報告成功？
+* 想要瞭解新的想法和使用案例，以便對內容、優惠方案和訊息使用即時個人化嗎？
+* 想要瞭解針對伺服器端測試建立表單式活動的最佳實務嗎？
+* 您是否希望改善中的活動分析和測量 [!UICONTROL 目標分析] (A4T)報表？
+* 您的團隊對於如何擴展到A/B測試之外，對驗證和已知客戶體驗進行測試和個人化嗎？
+
++++
 
 ## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
 
