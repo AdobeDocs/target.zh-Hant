@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 94%
+source-wordcount: '2348'
+ht-degree: 88%
 
 ---
 
@@ -15,30 +15,39 @@ ht-degree: 94%
 
 有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-## [!DNL Adobe Target Community] 咖啡會
+## Adobe Target 2024年個人化成熟度網路研討會系列
 
-* **機器學習與AI報告與分析**
-* **2023年12月6日星期三**
-* **上午8:00 - 9:00 （PST -8格林威治標準時間）**
-* **[按一下這裡報名](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+此直播網路研討會系列將重點介紹索引鍵 [!DNL Adobe Target] 功能、使用案例和提示，可協助客戶透過擴大其實驗和個人化歷程，進而解鎖AI支援的個人化 [!DNL Adobe Experience Platform].
 
-加入 [!DNL Adobe Target] 專家Brent Kostak、Cristinel Anastasoaie、Drew Burns和Marisol St. John在「詢問我任何事情」的活動中討論機器學習和AI報告和分析 [!DNL Adobe Target].
+您為何要參加：
 
-+++詳細資料此討論會專注於下列主題：
+* **瞭解主要使用案例**：使用智慧型最佳化藍圖，將視覺效果轉換為現實，日趨成熟 [!DNL Adobe Target] 超越規則型實驗和A/B測試的客戶。
+* **最大限度發揮獨特功能**：量身打造成功體驗，並透過高效能建議來最大化投資報酬率、收入和轉換。
+* **進階個人化策略**：深入探討AI/ML進階技術，以擴展業務影響、與新區段/對象產生共鳴，並微調個人化模型以最佳化體驗
 
-* 您是否對ML和AI感到興奮，並希望更深入瞭解活動的報告成功？
-* 想要瞭解新的想法和使用案例，以便對內容、優惠方案和訊息使用即時個人化嗎？
-* 想要瞭解針對伺服器端測試建立表單式活動的最佳實務嗎？
-* 您是否希望改善中的活動分析和測量 [!UICONTROL 目標分析] (A4T)報表？
-* 您的團隊對於如何擴展到A/B測試之外，對驗證和已知客戶體驗進行測試和個人化嗎？
+* **[按一下這裡報名](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++日期和詳細資訊
+
+* **可能的藝術**
+* **2024年1月16日星期二**
+* **上午10:00 - 11:00 （PST -8格林威治標準時間）**
+
+個人化成熟度的核心是人工智慧和機器學習。 [!DNL Adobe Target] 運用這些技術來瞭解使用者行為、預測偏好並動態地量身打造內容。 透過利用AI和ML的強大功能，瞭解品牌如何超越靜態A/B測試和規則型個人化，提供動態、情境相關的體驗。
+
+* **高效能Recommendations**
+* **2024年2月13日星期二**
+* **上午10:00 - 11:00 （PST -8格林威治標準時間）**
+
+瞭解建議演演算法如何成為企業改變遊戲規則的事件，進而促進參與度和收入。 從個人化產品建議到內容建議，能夠順暢地引導使用者完成其歷程，直接有助於解鎖重大的業務增長。
+
+* **解鎖AI支援的個人化**
+* **2024年3月12日星期二**
+* **上午10:00 - 11:00 （PST -8格林威治標準時間）**
+
+[!DNL Adobe Target] 在客戶生命週期的每個階段促進AI支援的個人化功能，以提供1對1的個人化體驗。 從贏取到保留，瞭解企業如何獲得有關簡化流程、將手動工作減到最少的見解，並大規模提供情境式、吸引人的客戶體驗。
 
 +++
-
-## [!DNL Adobe Target] 網路研討會系列 {#webinar-series}
-
-報名參加以下網絡研討會，了解客戶如何使用 [!DNL Target] 實現其個人化和最佳化目標：
-
-目前沒有排程。
 
 ## 先前網路研討會和 Skill Builders 研討會錄影
 
