@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
 source-wordcount: '2360'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 96%
 | --- | --- | --- |
 | 12 月 13 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增關於 [!DNL Adobe Target] 2024年個人化成熟度網路研討會系列。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 新增兩個可選設定： <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
-| 12 月 4 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增「機器學習與AI Reporting &amp; Analysis」的註冊資訊 [!DNL Adobe Target Community] 咖啡會：2023年12月6日星期三。 |
-| 12 月 1 日 | [Adobe Target設定檔更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 舊版API檔案已移至下列文章：<ul><li>[Adobe Target設定檔API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target單一設定檔更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target大量設定檔更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
+| 12 月 4 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增「機器學習和 AI 報告與分析」[!DNL Adobe Target Community] 咖啡會的報名資訊：2023 年 12 月 6 日星期三。 |
+| 12 月 1 日 | [Adobe Target 設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 舊版 API 文件已移至以下文章：<ul><li>[Adobe Target 設定檔 API 概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 單一設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 大量設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11 月 29 日 | [大量設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 澄清 [!DNL Target] 為 [!DNL Target]使用[!UICONTROL 批次設定檔更新 API] v2 與 v1 時還沒看到的使用者建立設定檔時處理客戶屬性方式的差異。 |
 | 11 月 21 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 2.11.3 的發行說明。 |
 | 11 月 17 日 | [管理員入門](/help/main/administrating-target/start-target.md) | 新增下列重要附註:<ul><li>在 [!DNL Adobe Admin Console] 中具有[!UICONTROL 產品管理員]或[!UICONTROL 系統管理員]權限的使用者可以編輯或變更 [!DNL Target] [!UICONTROL 管理]頁面上的所有設定，無論其 [!DNL Target] 角色為何。在 [!DNL Adobe Admin Console] 中沒有[!UICONTROL 產品管理員]或[!UICONTROL 系統管理員]權限的使用者必須具有特定 [!DNL Target] 角色才能進行這些變更。1</li></ul> |
@@ -181,5 +181,5 @@ ht-degree: 96%
 |  | [在 Target 中建立對象](/help/main/c-target/c-audiences/create-audience.md) | 已新增不可以在對象名稱中使用的字元和字元組合清單。 |
 | 1 月 31 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | 已新增 mbox 名稱中可使用和不可使用的字元清單。 |
 | 1 月 25 日 | [建立 JSON 選件](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 表示現在已可使用表單式體驗撰寫器支援 [!UICONTROL Automated Personalization] (AP) 活動中的 JSON 選件。 |
-|  | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會：體驗最佳化的行動與已驗證使用案例</li></ul> |
+|  | [Adobe Target 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增以下活動的相關資訊：<ul><li>[!DNL Adobe Target] 社群問答咖啡會：體驗最佳化的行動裝置和驗證使用案例</li></ul> |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 22.13.3 版的發行說明。 |
