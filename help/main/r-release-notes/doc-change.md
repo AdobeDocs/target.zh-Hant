@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
 source-wordcount: '2360'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 99%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 12 月 13 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增關於 [!DNL Adobe Target] 2024年個人化成熟度網路研討會系列。 |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 新增兩個可選設定： <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
+| 12 月 13 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 已新增 [!DNL Adobe Target] 2024 年個人化成熟度網路研討會系列的相關資訊。 |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 已新增兩個新的可選設定： <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 12 月 4 日 | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增「機器學習和 AI 報告與分析」[!DNL Adobe Target Community] 咖啡會的報名資訊：2023 年 12 月 6 日星期三。 |
 | 12 月 1 日 | [Adobe Target 設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 舊版 API 文件已移至以下文章：<ul><li>[Adobe Target 設定檔 API 概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 單一設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 大量設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11 月 29 日 | [大量設定檔更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 澄清 [!DNL Target] 為 [!DNL Target]使用[!UICONTROL 批次設定檔更新 API] v2 與 v1 時還沒看到的使用者建立設定檔時處理客戶屬性方式的差異。 |
