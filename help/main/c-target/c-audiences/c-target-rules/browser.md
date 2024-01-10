@@ -1,13 +1,13 @@
 ---
 keywords: 瀏覽器選項;類型;瀏覽器類型;瀏覽器語言;語言;版本;瀏覽器版本
-description: 瞭解如何在中建立對象 [!DNL Adobe Target] 定位使用特定瀏覽器或特定瀏覽器選項的使用者。
+description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -24,21 +24,21 @@ ht-degree: 76%
 * Microsoft Edge
 * Opera
 * iPad
-* iPhone|
+* iPhone
 
 鎖定目標瀏覽器有兩種方法:
 
 * **預先建立的對象:**&#x200B;如果您想鎖定使用特定瀏覽器來造訪網站的對象為目標，請使用預先建立的對象。例如，如果您提供 Chrome 擴充功能，則只需要鎖定 Chrome 使用者作為目標。
 
-   1. 設定活動時，請從下拉式清單中選取瀏覽器。
+   1. 設定活動時，從下拉式清單中選取瀏覽器。
 
       此選項只會將活動的目標鎖定在使用指定瀏覽器的訪客。
 
       ![Target Chrome使用者](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-* **自訂瀏覽器對象規則：** 自訂對象可讓您鎖定多個瀏覽器，或針對特定瀏覽器、瀏覽器版本或瀏覽器語言設定規則或排除專案。 根據瀏覽器屬性鎖定目標活動時，此功能可提供相當大的彈性。
+* **自訂瀏覽器對象規則：** 自訂對象可讓您鎖定多個瀏覽器，或針對特定瀏覽器、瀏覽器版本或瀏覽器語言設定規則或排除專案。 根據瀏覽器屬性來鎖定目標活動時，此功能可提供相當大的彈性。
 
-   1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
+   1. 在 [!DNL Target] 介面，按一下 **[!UICONTROL 受眾]** > **[!UICONTROL 建立對象]**.
    1. 為對象命名並新增選擇性說明。
    1. 拖放 **[!UICONTROL 瀏覽器]** 放入對象產生器。
 
@@ -47,14 +47,15 @@ ht-degree: 76%
    1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
       * **類型:** 將特定瀏覽器鎖定作為目標或排除。請參閱[類型](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
-      * **語言：** 鎖定或排除設定為使用特定語言的特定瀏覽器。 請參閱[語言](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
+      * **語言：** 將設為使用特定語言的特定瀏覽器鎖定作為目標或排除。 請參閱[語言](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
       * **版本:** 將特定瀏覽器版本鎖定作為目標或排除。請參閱[版本](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
+
    1. （選用）為對象設定其他規則。
    1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-   下列範例顯示包含91或92版之Microsoft Edge使用者的對象：
+  下列範例顯示包含91或92版之Microsoft Edge使用者的對象：
 
-   ![Target Edge 91或92](assets/target_edge.png)
+  ![Target Edge 91或92](assets/target_edge.png)
 
 ## 瀏覽器選項 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -104,7 +105,7 @@ ht-degree: 76%
 
 例如，如果頁面在 Internet Explorer 版本 11 或更早的版本中無法正確呈現，您可以建立對象來排除這些版本。在此情況下，您可以設定規則來指定瀏覽器類型等於 Internet Explorer，再新增第二個規則來指定版本小於或等於 11。
 
-選取 **[!UICONTROL 「版本」]**，然後選取運算子:
+選取&#x200B;**[!UICONTROL 「版本」]**，然後選擇運算子:
 
 * 等於
 * 不等於
@@ -113,11 +114,11 @@ ht-degree: 76%
 * 小於
 * 小於或等於
 
-輸入版本號碼。在文字欄位中僅能輸入主要版本。指定的版本包含此次發行的任何次要版本。例如，如果您指定版本10，則也會包含版本10.1的訪客。
+輸入版本號碼。 在文字欄位中僅能輸入主要版本。指定的版本包含此次發行的任何次要版本。例如，如果您指定版本10，則也會包含版本10.1的訪客。
 
 多個選項是使用「或」連接。
 
-## 訓練影片: 建立對象 ![Tutorial badge](/help/main/assets/tutorial.png)
+## 訓練影片：建立對象 ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
