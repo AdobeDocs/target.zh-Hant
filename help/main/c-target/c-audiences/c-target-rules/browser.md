@@ -4,10 +4,10 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ ht-degree: 54%
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL 行動] > [!UICONTROL 是平板電腦]
+* [!UICONTROL 行動] > [!UICONTROL 是平板電腦] > [!UICONTROL true]
 
   ![行動就是平板電腦](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad]
+* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone]
+* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
