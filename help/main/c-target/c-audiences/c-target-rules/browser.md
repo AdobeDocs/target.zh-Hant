@@ -4,10 +4,10 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
+source-git-commit: 77c8a3460b800183481637723b9631c11157d143
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 53%
+source-wordcount: '970'
+ht-degree: 51%
 
 ---
 
@@ -141,29 +141,29 @@ ht-degree: 53%
 
 您之後可能會使用下列設定：
 
-* [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 符合] [!DNL Apple]
+* 用於瀏覽器比對 [!DNL Apple]： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 符合] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL 行動] > [!UICONTROL 是平板電腦] > [!UICONTROL true]
+* 對於符合平板電腦的瀏覽器： [!UICONTROL 行動] > [!UICONTROL 是平板電腦] > [!UICONTROL true]
 
   ![行動就是平板電腦](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!DNL true]
+* 若瀏覽器符合iPad： [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!DNL true]
+* 若瀏覽器符合iPhone： [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 有許多其他可能的設定可供使用，例如當條件被否定時。 否定條件的範例可能如下所示：
 
-* [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!UICONTROL false]
+* 如果瀏覽器不符合iPhone： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!UICONTROL false]
 
   ![非行動電話](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!UICONTROL false].
+* 如果瀏覽器不符合iPad： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!UICONTROL false].
 
   ![不是平板電腦](/help/main/r-release-notes/assets/tablet-false.png)
 
