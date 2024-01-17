@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b76a0541b181ee5ebe88f2d11f5556c6c7b91126
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 49%
+source-wordcount: '421'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2024年1月16日**
+**上次更新日期：2024年1月17日**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 49%
 
 | 淘汰 | 詳細資料 |
 |--- |--- |
-| [!DNL iPad] 和 [!DNL iPhone] 即將從以下專案停用 [瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 用於建立對象。<p>淘汰日期：<P>2024年4月30日 | [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定 [瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪客造訪您的頁面時。<P><B>自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。</b><P>如果您的對象是使用 [!UICONTROL 瀏覽器] attribute的環境中，您必須在2024年4月30日之前變更這些設定，以確保這些對象能繼續如預期般運作。<P>日後應使用下列設定：<ul><li>[!UICONTROL 行動] > [!UICONTROL 是平板電腦]<P>![行動就是平板電腦](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+| [!DNL iPad] 和 [!DNL iPhone] 即將從以下專案停用 [瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 用於建立對象。<p>淘汰日期：<P>2024年4月30日 | [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定 [瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪客造訪您的頁面時。<P><B>自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。</b><P>如果您的對象是使用 [!UICONTROL 瀏覽器] attribute的環境中，您必須在2024年4月30日之前變更這些設定，以確保這些對象能繼續如預期般運作。<p>如需替代設定的範例，請參閱 [從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 （2024年1月22日、 23日和25日）
 

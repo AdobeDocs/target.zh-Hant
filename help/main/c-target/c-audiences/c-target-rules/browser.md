@@ -4,10 +4,10 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '923'
+ht-degree: 54%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 73%
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。 如需因應措施的設定，請參閱 [從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）](#deprecation) 底下。
 
 鎖定目標瀏覽器有兩種方法:
 
@@ -126,3 +130,81 @@ ht-degree: 73%
 * 定義對象類別
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## 從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日） {#deprecation}
+
+[!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括造訪您的頁面時使用特定瀏覽器或瀏覽器選項的使用者。
+
+自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。
+
+如果您的對象是使用 [!UICONTROL 瀏覽器] attribute的環境中，您必須在2024年4月30日之前變更這些設定，以確保這些對象能繼續如預期般運作。
+
+您之後可能會使用下列設定：
+
+* [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 符合] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* [!UICONTROL 行動] > [!UICONTROL 是平板電腦]
+
+  ![行動就是平板電腦](/help/main/r-release-notes/assets/is-tablet.png)
+
+* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+有許多其他可能的設定可供使用，例如當條件被否定時。 否定條件的範例可能如下所示：
+
+* [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!UICONTROL false]
+
+  ![非行動電話](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!UICONTROL false].
+
+  ![不是平板電腦](/help/main/r-release-notes/assets/tablet-false.png)
+
+如果您使用 `user.browserType` 在JavaScript區段中，變更可能包括下列專案：
+
+* BrowserType是iPhone
+
+  取代：
+
+  `user.browserType=="iphone"`
+
+  替換為：
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType不是iPhone
+
+  取代：
+
+  `user.browserType!="iphone"`
+
+  替換為：
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType是iPad
+
+  取代：
+
+  `user.browserType=="ipad"`
+
+  替換為：
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
+
+* BrowserType不是iPad
+
+  取代：
+
+  `user.browserType!="ipad"`
+
+  替換為：
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`
