@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 50%
+source-wordcount: '346'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2024年1月17日**
+**上次更新日期：2024年1月18日**
 
 >[!NOTE]
 >
@@ -23,13 +23,8 @@ ht-degree: 50%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## 從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）
 
-| 淘汰 | 詳細資料 |
-|--- |--- |
-| [!DNL iPad] 和 [!DNL iPhone] 即將從以下專案停用 [瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 用於建立對象。<p>淘汰日期：<P>2024年4月30日 | [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定 [瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪客造訪您的頁面時。<P><B>自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。</b><P>如果您的對象是使用 [!UICONTROL 瀏覽器] attribute的環境中，您必須在2024年4月30日之前變更這些設定，以確保這些對象能繼續如預期般運作。<p>如需替代設定的範例，請參閱 [從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
-
-## [!DNL Target] Standard/Premium 24.1.1 （2024年1月22日、 23日和25日）
+## [!DNL Target] Standard/Premium 24.1.1 (2024 年 1 月 22、23 和 25 日)
 
 此版本預定在下列日期發佈：
 
@@ -39,11 +34,12 @@ ht-degree: 50%
 
 此版本包含下列增強功能和修正：
 
-* 修正造成報告日期間隔無法正常運作的問題。 (TGT-47396)
-* 已修正導致在顯示錯誤狀態的問題 [!UICONTROL 所有活動] 客戶使用或停用活動後的頁面 [!UICONTROL 更多動作] 圖示。 (TGT-47367)
-* 已修正導致 [!UICONTROL 重要屬性] 報告不顯示給一個客戶。 (TGT-47272)
-* 修正當一個客戶嘗試啟用「需要驗證」時，會顯示「裝載無效」訊息的問題。 (TGT-47195)
-* 更新 [!DNL Target] UI。
+* [!UICONTROL 目標分析] 具有收入目標量度的(A4T)活動未將「收入」顯示為欄名稱，且收入量度未在報表中以($)格式顯示。 這是一個已修正的裝飾問題。 (TGT-46995)
+* 修正導致報告日期間隔無法正常運作的問題。(TGT-47396)
+* 修正客戶使用[!UICONTROL 更多動作]圖示啟用或停用活動後，導致[!UICONTROL 所有活動]頁面上顯示錯誤狀態的問題。(TGT-47367)
+* 已修正導致 [!UICONTROL 重要屬性] 報告不針對單一客戶顯示。 (TGT-47272)
+* 修正造成單一客戶嘗試啟用「需要驗證」時顯示「裝載無效」訊息的問題。 (TGT-47195)
+* 更新 [!DNL Target] UI 中的大量本地化字串。
 
 ## 額外的發行說明和版本詳細資料
 
