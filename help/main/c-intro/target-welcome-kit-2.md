@@ -4,20 +4,20 @@ description: 以高層級方式檢視 Adobe Target。了解可用的活動、頻
 title: 在哪裡可以找到 Target 的高層級簡介？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2524'
 ht-degree: 84%
 
 ---
 
 # 第 2 章：Adobe [!DNL Target] 總覽
 
-在開始使用 [!DNL Adobe Target] 之前，先了解解決方案高層級概覽可能有所助益。在本章中，可瞭解解決方案的主要功能、可使用解決方案的品牌接觸點、實施選項、重要的使用者介面功能和工作流程、治理功能，及其在整體中的角色 [!DNL Adobe Experience Cloud]. 除非註明為 [!DNL Adobe Target Premium] 功能，否則本章中說明的項目可同時用於 [!DNL Adobe Target Premium] 和 [!DNL Adobe Target Standard]。 如需更多資訊，請參閱 [Target 簡介](/help/main/c-intro/intro.md)。
+在開始使用 [!DNL Adobe Target] 之前，先了解解決方案高層級概覽可能有所助益。在本章中，可以瞭解解決方案的主要功能、可使用解決方案的品牌拉觸點、實施選項、重要的使用者介面功能和工作流程、治理功能，及其在整體中的角色 [!DNL Adobe Experience Cloud]. 除非註明為 [!DNL Adobe Target Premium] 功能，否則本章中說明的項目可同時用於 [!DNL Adobe Target Premium] 和 [!DNL Adobe Target Standard]。 如需更多資訊，請參閱 [Target 簡介](/help/main/c-intro/intro.md)。
 
 ## 功能與活動
 
-測試和個人化是兩種廣泛的功能型別， [!DNL Target] 優惠方案以及您在中建立「活動」時可使用的專案 [!DNL Target]. 您可能會看到「測試」一詞與「最佳化」互換使用，而「個人化」與「目標定位」可互換使用。
+測試和個人化是兩種廣泛的功能型別， [!DNL Target] 優惠方案，以及您在中建立「活動」時可使用的專案 [!DNL Target]. 您可能會看到「測試」一詞與「最佳化」互換使用，而「個人化」與「目標定位」可互換使用。
 
 在測試活動中，您會比較數位體驗的一種變化與一種或多種其他變化，以找出會導致大多數訪客採取所需動作的變化。 [!DNL Target] 提供下列測試功能：A/B測試、多變數測試 (MVT) 和自動分配。
 
@@ -37,7 +37,7 @@ ht-degree: 84%
 
 ## 頻道
 
-您可以使用 [!DNL Target] 測試和個人化幾乎任何地點的數位體驗——例如您的網站、行動網站和行動應用程式等傳統數位接觸點，或是資訊站、電子郵件、IoT 裝置、遊戲主機，甚至 Alexa 和 Cortana 等語音助理這類的接觸點。許多公司都開始在其網站上使用 [!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動裝置頻道現在至關重要。理想情況下，您可以跨所有接觸點連結訪客體驗，以提供順暢、一致的體驗。
+您可以使用 [!DNL Target] 測試和個人化幾乎任何地點的數位體驗——例如您的網站、行動網站和行動應用程式等傳統數位接觸點，或是資訊站、電子郵件、IoT 裝置、遊戲主機，甚至 Alexa 和 Cortana 等語音助理這類的接觸點。許多公司都開始在其網站上使用 [!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動裝置頻道現在至關重要。在理想狀況下，您可以跨所有接觸點連結訪客體驗，以提供順暢、一致的體驗。
 
 | 頻道 | 詳細資料 |
 | --- | --- |
@@ -52,13 +52,13 @@ ht-degree: 84%
 
 | 實施類型 | 詳細資料 |
 | --- | --- |
-| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。透過用戶端，您可以使用 WYSIWYG 編輯器、**[!UICONTROL Visual Experience Composer]** (VEC) 或非視覺化介面 **[!UICONTROL Form-based Experience Composer]**，來建立您的測試和個人化體驗。[深入了解](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
-| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。[深入了解](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
+| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。透過用戶端，您可以使用 WYSIWYG 編輯器、**[!UICONTROL Visual Experience Composer]** (VEC) 或非視覺化介面 **[!UICONTROL Form-based Experience Composer]**，來建立您的測試和個人化體驗。[瞭解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。[瞭解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
 | 混合實施 | 在此實施中，您可以選擇最適合特定使用案例的實施方法。例如，您可能會使用用戶端實施來 A/B 測試首頁上主頁橫幅中的一個選件，但也會使用伺服器端實施來決定要在用戶端瀏覽器上顯示的內部搜尋結果、要在智慧型儀表板上顯示的體驗，或要透過語音助手傳送的語音回應。 |
 
 ## 活動元素
 
-在 [!DNL Target] 中，您可以建立個人化活動、最佳化活動，或可使個人化方法最佳化的活動。 每個活動都有關鍵元素 — 您正在測試或個人化的體驗或選件、您要提供體驗的對象或個人、您測量活動影響的量度，以及以視覺顯示該影響的報表。
+在 [!DNL Target] 中，您可以建立個人化活動、最佳化活動，或可使個人化方法最佳化的活動。 每個活動都有關鍵元素 — 您正在測試或個人化的體驗或選件、您要提供體驗的對象或個人、您測量活動影響的量度，以及以視覺顯示該影響的報告。
 
 | 元素類型 | 詳細資料 |
 | --- | --- |
@@ -70,7 +70,7 @@ ht-degree: 84%
 
 ## 活動建立工具
 
-[!DNL Target] 提供三種主要方式來設定測試和個人化活動：[!UICONTROL Visual Experience Composer] (VEC)、[!UICONTROL Form-based Experience Composer]，以及 [!UICONTROL Single Page Application (SPA)Visual Experience Composer]。兩者都會透過三個步驟引導您完成活動設定程式 — 定義體驗、選取或定義對象，以及選取您將用來測量活動結果的主要和次要成功量度。
+[!DNL Target] 提供三種主要方式來設定測試和個人化活動：[!UICONTROL Visual Experience Composer] (VEC)、[!UICONTROL Form-based Experience Composer]，以及 [!UICONTROL Single Page Application (SPA)Visual Experience Composer]。兩者都會透過三個步驟來引導您完成活動設定程式：定義體驗、選取或定義對象，以及選取您用來測量活動結果的主要和次要成功量度。
 
 | 工具 | 詳細資料 |
 | --- | --- |
@@ -110,13 +110,13 @@ ht-degree: 84%
 
 ### 意見可能會對您的結果產生負面影響
 
-* 可能會對您的有效性產生負面影響的意見。最高薪人士的意見(HIPPO)、態度、偏見。 例如，CEO 想要縮小搜尋方塊的大小，以便讓每個頁面有更多空間。我們應該進行測試，以確保這不會減少搜尋次數。
+* 可能會對您的有效性產生負面影響的意見。最高薪人士的意見(HIPPO)、態度、偏見。 例如，CEO 想要縮小搜尋方塊的大小，以便讓每個頁面有更多空間。我們應該進行測試以確保這不會減少搜尋次數。
 * 你是根據意見行事的嗎？我不喜歡測試的外觀。 客戶根本不喜歡這種體驗。 雖然直覺很有用，但A/B測試已經一再證明，直覺並不總是正確的。
-* 還是說，你有最佳化的心態？我很高興看到哪一種體驗能成功。 我們有足夠的意見可進行測試嗎？
+* 還是說，你有最佳化的心態？我很高興得知哪一種體驗能成功。 我們有足夠的意見可進行測試嗎？
 
 ### 假設也可能對結果產生負面影響
 
 * 可能對您的有效性產生負面影響的假設。羊群心理 (我們的競爭對手就是這麼做的)。例如，我們所有的競爭者都使用帶有旋轉影像的主頁橫幅，因此我們也應該使用。
-* 假設我們知道某件事正常或不正常的原因。 假設我們不需要測試某些專案。 例如，我們總是按從最高價格到最低價格的預設來列出酒店客房。
+* 假設我們知道某些專案正常或不正常的原因。 假設我們不需要測試某樣事物。 例如，我們總是按從最高價格到最低價格的預設來列出酒店客房。
 * 你是根據假設行事的嗎？我們不需要測試，我們已經檢查分析。 (我們需要檢查分析，但可能有更多是無法從分析得知的。)
 * 還是說，你有最佳化的心態？我們測試一切。

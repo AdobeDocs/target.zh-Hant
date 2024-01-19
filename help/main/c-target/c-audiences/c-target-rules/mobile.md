@@ -4,10 +4,10 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 以行動裝置�
 title: 我可以根據行動裝置選項鎖定訪客嗎？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 39%
+source-wordcount: '687'
+ht-degree: 34%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 39%
 
 | 參數 | 類型 | 說明 |
 |--- |--- |--- |
-| devicePixelRatio | 字串 | 瀏覽器上實體畫素和裝置獨立畫素 (DIP) 之間的比例。例如，「1.5」或「2」 |
+| devicePixelRatio | 字串 | 瀏覽器上實體畫素與裝置獨立畫素(dip)之間的比例。 例如，「1.5」或「2」 |
 | screenOrientation | 字串 | 裝置和瀏覽器的 JavaScript 引擎支援裝置方向切換。可為橫向或縱向。 |
 | webGLRenderer | 字串 | 顯示卡驅動程式的瀏覽器轉譯器。 |
 
 >[!NOTE]
 >
->使用Mobile SDK的客戶不需採取任何動作，即可套用這項功能。 使用at.js的客戶必須 [升級至at.js 1.5.0版](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} （或更新版本）。
+>使用Mobile SDK的客戶不需採取任何動作，即可套用這項功能。 使用at.js的客戶必須 [升級至at.js 1.5.0版](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} （或更新版本）。
 
 您可以選擇多個行動裝置屬性。您可使用OR運運算元聯結多個選取專案。
 
 使用自訂整合 (不使用 at.js 或 Mobile SDK) 的客戶可自行收集這些參數，然後以 mbox 參數傳遞。
 
-1. 在 [!DNL Target] 介面中，按一下&#x200B;**[!UICONTROL 「對象」]**>**[!UICONTROL 「建立對象」]**。
+1. 在 [!DNL Target] 介面，按一下 **[!UICONTROL 受眾]** > **[!UICONTROL 建立對象]**.
 1. 為對象命名並新增選擇性說明。
 1. 拖放 **[!UICONTROL 行動]** 放入對象產生器窗格。
 1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:

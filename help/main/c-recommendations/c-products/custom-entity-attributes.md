@@ -1,15 +1,15 @@
 ---
 keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
-description: 瞭解如何使用單值和多值自訂實體屬性，以定義Adobe中專案的其他資訊 [!DNL Target] Recommendations目錄。
+description: 瞭解如何使用單值和多值自訂實體屬性，以定義有關您Adobe中專案的其他資訊 [!DNL Target] Recommendations目錄。
 title: 如何使用自訂實體屬性？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 88%
+source-wordcount: '1454'
+ht-degree: 81%
 
 ---
 
@@ -63,13 +63,13 @@ ht-degree: 88%
 
 ## 實作多值屬性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用摘要(CSV)時支援多值自訂實體屬性。 `targetPageParams`以及傳送API以上傳產品。 新值會取代目前值，而不會附加。空白陣列 ([]) 視為沒有值。
+使用摘要(CSV)時支援多值自訂實體屬性， `targetPageParams`和傳送API以上傳產品。 新值會取代目前值，而不會附加。空白陣列( [] )視為沒有值。
 
 必須將雙引號逸出。例如，`"[""test"", ""value""]"` 為可以在 CSV 中使用的有效 JSON 陣列。
 
 您在多值屬性中最多可以包含 500 個值。
 
-### 使用 targetPageParams
+### 使用targetpageparams
 
 下列範例顯示如何使用 `targetPageParams`
 
@@ -88,7 +88,7 @@ function targetPageParams() {
 }
 ```
 
-### 使用 CSV
+### 使用CSV
 
 您可以使用文字編輯器來管理原始格式的 CSV 檔案，也可以使用試算表軟體。
 
@@ -100,16 +100,16 @@ function targetPageParams() {
 
 ![multi-value_example_excel圖片](assets/multi-value_example_excel.png)
 
-轉換為 .csv 格式時，試算表軟體會在儲存格內容兩側加上雙引號，以防止將儲存格內的逗號當作欄分隔符號。對於您包含在自訂多值屬性中的 JSON 字串值，兩側也會加上雙引號。這會造成直接處理原始檔案很不方便。例如:
+轉換為.csv格式時，試算表軟體會在儲存格內容兩側加上雙引號，以防止將儲存格內的逗號當作欄分隔符號。 對於您包含在自訂多值屬性中的 JSON 字串值，兩側也會加上雙引號。這會造成直接處理原始檔案很不方便。例如:
 
 * 試算表: `["1","2","3"]`
 * 原始: `"[""1"",""2"",""3""]"`
 
 直接編輯原始目錄 CSV 檔案時請小心。
 
-### 使用 API 
+### 使用API
 
-您可以在mbox引數中使用傳送API，以作為包含逸出JSON陣列的字串值來傳遞多值屬性。
+您可以使用mbox引數中的傳送API，以作為包含逸出JSON陣列的字串值來傳遞多值屬性。
 
 ```javascript
 "execute": {
@@ -127,18 +127,18 @@ function targetPageParams() {
   }
 ```
 
-如需使用傳送和儲存實體 API 的相關資訊，請參閱 [Adobe Recommendations API 文件](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+請參閱 [Adobe Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 以取得關於使用傳送和儲存實體API的資訊。
 
-## 搭配多值屬性使用運運算元 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 使用運運算元處理多值屬性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 當您對演算法包含規則、目錄規則和排除規則中的多值自訂屬性套用運算子時，如果清單中至少一個值通過運算 (布林 *or*)，則結果為 *true*。
 
-在下列範例中，規則是 `message contains abc`。
+在下列範例中，規則為 `message contains abc`.
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有值包含 `abc`。
 * 案例 2: `entity.genre = ["abcde","de","ef"]`。結果為 true，因為某個值包含 `abc`。
 
-對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，假設運算子是 `notEquals`，如果任何值相符，則結果為 *false*。
+對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，如果運運算元為 `notEquals`，結果將會是 *false* 如果任何值相符。
 
 請參閱下列章節，瞭解演演算法包含規則、目錄規則和排除規則中的運運算元行為。
 
@@ -203,7 +203,7 @@ function targetPageParams() {
 
 屬性值會轉換為 double。執行規則時會略過無法轉換的屬性。
 
-處理之後，如有任何屬性值大於或等於輸入值，則結果為 true。
+處理之後，如有任何屬性值大於或等於輸入值，則結果為true。
 
 範例: `price greater than or equal to 100`
 
@@ -214,7 +214,7 @@ function targetPageParams() {
 
 屬性值會轉換為 double。執行規則時會略過無法轉換的屬性。
 
-處理之後，如有任何屬性值小於或等於輸入值，則結果為 true。
+處理之後，如有任何屬性值小於或等於輸入值，則結果為true。
 
 範例: `price less than or equal to 100`
 
@@ -241,7 +241,7 @@ function targetPageParams() {
 
 ### 動態範圍 (僅適用於以項目為基礎的演算法、數值)
 
-如果有任何數值屬性值落在指定的範圍內，則結果為true。
+如果有任何數字屬性值落在指定的範圍內，則結果為true。
 
 範例: `price dynamically ranges in 80% to 120% of 100`
 

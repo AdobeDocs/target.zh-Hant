@@ -4,10 +4,10 @@ description: 探索有關Adobe常見問答的清單 [!DNL Target] 報告。
 title: 何處可以找到關於以下專案的解答： [!DNL Target] 報表？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 27%
 
 XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試]活動 (這是相當常見的案例) 的方式使用 XT 活動，控制體驗資料會很實用。如果您發現控制體驗資料在您的報表中並不實用，您可以將其忽略。
 
-## [!DNL Target] 中的造訪次數為何比其他 [!DNL Adobe Experience Cloud] 解決方案中還要低?  {#section_7E626FDB417E41B8B58BBF30FB207409}
+## 造訪次數為何會低於下列專案： [!DNL Target] 比在其他 [!DNL Adobe Experience Cloud] 解決方案？ {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 所報告的量度數字，例如造訪 [!DNL Target] 一律低於其他網站報告的數字 [!DNL Experience Cloud] 個解決方案，原因如下：
 
@@ -125,6 +125,6 @@ XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試
 * A/B和MVT測試的最佳實務是保持流量分割均勻。 在測試期間變更體驗之間的流量分佈（例如從90/10到50/50）可能會導致體驗之間的訪客不平均。 較低的流量體驗可能永遠無法「趕上」。
 * 如果您遵循上述最佳實務，且流量分割不會隨著時間正常化，您應檢查下列專案：
 
-   * 您使用最新的at.js資料庫嗎？ 如需最新版本和相關發行說明的詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * 您使用最新的at.js資料庫嗎？ 如需最新版本和相關發行說明的詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * 這是重新導向測試嗎？ 在頁面上引發的標籤計時不正確可能會導致不平均的流量分割，尤其是在使用時 [!DNL Analytics] 作為的資料來源 [!DNL Target] 活動。 如需使用Analytics for Target (A4T)修正重新導向活動上不平均流量分佈的詳細資訊，請參閱 [重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

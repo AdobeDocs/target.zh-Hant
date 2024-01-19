@@ -2,13 +2,13 @@
 keywords: Recommendations;介紹;簡介;研討會;示範
 description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
 title: 什麼是 Recommendations 活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2114'
-ht-degree: 91%
+source-wordcount: '2086'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 ![顯示其他人已搭配新手機購買之配件的建議。](/help/main/c-recommendations/assets/intro-1.png)
 
-但我們並不總是在考慮數位優先品牌如何提高客戶期望的標準。 我們使用媒體和內容的方式，越來越受到個人化建議的推動。試想一下您在開啟 Netflix、Spotify 或 YouTube 時第一眼看到的內容。這些品牌透過建議開啟了客戶體驗。在有越來越多可用替代選項的世界中，您必須在客戶進行互動的時間點為其找出最相關的內容，這一點至關重要。
+但我們未必會思考的是，數位優先品牌如何提高客戶期望的標準。 我們使用媒體和內容的方式，越來越受到個人化建議的推動。試想一下您在開啟 Netflix、Spotify 或 YouTube 時第一眼看到的內容。這些品牌透過建議開啟了客戶體驗。在有越來越多可用替代選項的世界中，您必須在客戶進行互動的時間點為其找出最相關的內容，這一點至關重要。
 
 ![顯示數位優先品牌的建議](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -53,9 +53,9 @@ ht-degree: 91%
 
 絕佳建議應提供相關且個人化的內容。也就是說，您需要下列三個要素，來促進相關性和個人化:
 
-* **行銷人員控制**，協助促進建議項目的相關性。身為行銷人員，您負責提供寶貴的內容，而且您知道哪些產品屬性或內容與建議模型相關且可供考慮。如果您經營影片網站，您知道使用者可能有興趣觀看同一導演的電影，但可能並不在乎觀看由同一製片廠製作的電影。 [!DNL Target] 能讓您擁有控制的能力，可讓您透過此領域知識增強演算法。
+* **行銷人員控制**，協助促進建議項目的相關性。身為行銷人員，您負責提供寶貴的內容，而且您知道哪些產品屬性或內容與建議模型相關且可供考慮。如果您經營影片網站，您知道使用者可能有興趣觀賞來自同一位導演的影片，但可能不想觀賞同一個製片廠所製作的電影。 [!DNL Target] 能讓您擁有控制的能力，可讓您透過此領域知識增強演算法。
 * **精密的模型**，將目錄和互動事件中的數百萬個項目轉換成有意義的資料。[!DNL Target] 具有根據長達十年經驗所打造的精密機器學習功能，而且我們每年處理數十億個建議。
-* **使用者內容**，確保可為使用者提供及時且相關的建議。您不想要建議某個人剛看過的影片，或某個人剛新增到購物車的襯衫。 Target的豐富使用者設定檔可用於建議，以確保個人化。
+* **使用者內容**，確保可為使用者提供及時且相關的建議。您不想要建議某個使用者剛看過的影片，或某個使用者剛新增至購物車的襯衫。 Target的豐富使用者設定檔可用於建議，以確保個人化。
 
 ## 實作 [!DNL Target] Recommendations
 
@@ -103,9 +103,9 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 ![插圖顯示如何擷取使用者行為](/help/main/c-recommendations/assets/intro-9.png)
 
-您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同型別的轉換事件，例如下載PDF、完成調查、訂閱電子報、觀看影片等。
+您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同型別的轉換事件，例如下載PDF、完成問卷、訂閱電子報、觀看影片等。
 
-如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員進行此設定，例如 [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 您也可以將離線或應用程式內的互動傳送至 [!DNL Target] 透過即時API。
+如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用如標籤類的標籤管理員進行此設定 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 您也可以將離線或應用程式內的互動傳送至 [!DNL Target] 透過即時API。
 
 ### 透過正確的內容取得建議
 

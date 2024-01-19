@@ -4,10 +4,10 @@ description: 瞭解如何結合多個對象(包括Adobe Experience Cloud對象�
 title: 我可以合併多個對象以建立新對象嗎？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 63%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->此 [!DNL Adobe Experience Platform] 來源可供所有人使用 [!DNL Target] 客戶使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 對象可從 [!DNL Adobe Experience Platform] 可按原樣使用，或與現有對象結合，如本主題中所述。
+>此 [!DNL Adobe Experience Platform] 來源可供所有人使用 [!DNL Target] 使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 對象可從 [!DNL Adobe Experience Platform] 可依原樣使用，或與現有對象結合，如本主題所述。
 >
 >如需詳細資訊，請參閱 [使用來自Adobe Experience Platform的受眾](/help/main/c-target/c-audiences/audiences.md#aep).
 
 假設您有「新訪客」對象和「Chrome 使用者」對象。針對特定的活動，您可能想要合併這些現有對象，以鎖定使用 Chrome 瀏覽器的新訪客作為目標。您不需要建立第三個對象並儲存在[!UICONTROL 對象]資料庫中，僅需在建立活動或編輯現有活動時合併這兩個對象。
 
-再舉一例，您可以鎖定所有忠誠客戶。 例如，您可以包含特定 [!DNL Audience Manager] 熟客狀態的對象，並將其與 [!DNL Target] 對象由在目前工作階段中註冊您的忠誠度計畫的人員組成。 結合這兩個對象比建立第三個永久對象容易。
+再舉一例，您可以鎖定所有忠誠客戶。 例如，您可以包含特定 [!DNL Audience Manager] 熟客狀態的對象，並將其與合併 [!DNL Target] 對象由在目前工作階段中註冊參加您的忠誠度計畫的人員組成。 結合這兩個對象比建立第三個永久對象容易。
 
 您可以使用AND和OR運運算元來合併最多20個對象。
 
@@ -39,11 +39,11 @@ ht-degree: 63%
 
 1. 在&#x200B;**[!UICONTROL 「選擇對象」]**&#x200B;頁面上，選取所需對象旁的核取方塊，以使用這些對象作為合併對象的建置區塊。
 
-   使用 [!UICONTROL 搜尋對象] 方塊來縮小搜尋範圍以尋找所需的對象。
+   使用 [!UICONTROL 搜尋對象] 方塊來縮小所需對象的搜尋範圍。
 
    ![步驟結果](assets/combine_multiple_audiences1.png)
 
-1. 按一下 **[!UICONTROL 合併多個對象]** 右上角。
+1. 按一下 **[!UICONTROL 合併多個對象]** 在右上角。
 
    ![步驟結果](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ ht-degree: 63%
 
       ![combine_multiple_audiences3圖片](assets/combine_multiple_audiences3.png)
 
-      請注意，兩個瀏覽器類型對象之間的運算子是 &quot;AND&quot;。選取 [!UICONTROL 和] 下拉式清單並變更為「或」，為使用Firefox或Safari的新訪客建立新的合併對象。 請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
+      請注意，兩個瀏覽器類型對象之間的運算子是 &quot;AND&quot;。選取 [!UICONTROL 與] 下拉式清單並變更為「或」，即可針對使用Firefox或Safari的新訪客建立新的合併對象。 請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
 
       >[!NOTE]
       >
@@ -77,13 +77,13 @@ ht-degree: 63%
 
       例如，您可以建立合併的對象來包含網站的所有新訪客，但排除使用 Firefox 的新訪客。不需要建立合併的對象來明確包含多個瀏覽器 (Safari、Chrome 和 Internet Explorer)，但又不包含 Firefox，直接排除使用 Firefox 的訪客更輕鬆又快速。
 
-1. 為合併的對象提供描述性名稱，然後按一下 **[!UICONTROL 完成]**.
+1. 提供已合併對象的描述性名稱，然後按一下 **[!UICONTROL 完成]**.
 
-## 建立合併的受眾以用於量度鎖定目標 {#section_A42E795AFCBD4575809C5942039910F0}
+## 建立合併的對象以用於量度鎖定目標 {#section_A42E795AFCBD4575809C5942039910F0}
 
 您可以在活動的[!UICONTROL 「目標與設定」]頁面上建立隨選合併對象，以用於量度鎖定目標。例如，若要使用合併的對象以根據轉換來建立鎖定目標，請執行下列動作:
 
-1. 編輯或建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，在&#x200B;**[!UICONTROL 「目標與設定」]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL 「轉換」]**&#x200B;作為成功量度，然後選取「已檢視 Mbox」**[!UICONTROL 作為動作。]**
+1. 編輯或建立 [活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，位於 **[!UICONTROL 目標與設定]** 頁面，選取 **[!UICONTROL 轉換]** 針對成功量度，然後選取「 」 **[!UICONTROL 已檢視Mbox]** 作為動作。
 1. 在&#x200B;**[!UICONTROL 「搜尋 Mbox」]**&#x200B;欄位中選取所需的 Mbox。
 
    ![combine_multiple_audiences4圖片](assets/combine_multiple_audiences4.png)
@@ -95,11 +95,11 @@ ht-degree: 63%
 
 1. 繼續進行[步驟 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的對象」以建立結合的對象。
 
-## 建立合併的對象以用於報告 {#section_4682D342EFBB43C38E54B99B3A1E14CD}
+## 建立合併的對象以用於報表 {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 您可以在活動的[!UICONTROL 「目標與設定」]頁面上建立隨選合併對象，以用於報表。
 
-1. 編輯或建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，在&#x200B;**[!UICONTROL 「目標與設定」]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL 「報表對象」]**&#x200B;下的[!UICONTROL 「新增對象」]圖示，以顯示[!UICONTROL 「選擇對象」]頁面。
+1. 編輯或建立 [活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，位於 **[!UICONTROL 目標與設定]** 頁面，按一下 **[!UICONTROL 新增對象]** 圖示在 [!UICONTROL 報表對象] 以顯示 [!UICONTROL 選擇對象] 頁面。
 
    ![combine_multiple_audiences6圖片](assets/combine_multiple_audiences6.png)
 
@@ -119,7 +119,7 @@ ht-degree: 63%
 
    ![設定 > 受眾 > 多個受眾](assets/combine_multiple_audiences7.png)
 
-1. 按一下活動目前對象旁的更多選項圖示 (垂直三個點)，然後按一下&#x200B;**[!UICONTROL 「變更對象」]**。
+1. 按一下活動目前對象旁的更多選項圖示 (三個垂直橢圓)，然後按一下&#x200B;**[!UICONTROL 「變更對象」]**。
 
    ![變更對象](assets/combine_multiple_audiences8.png)
 

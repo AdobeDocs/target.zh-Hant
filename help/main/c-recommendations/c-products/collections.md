@@ -2,23 +2,23 @@
 keywords: 集合;鎖定目標
 description: 瞭解如何在Adobe中使用集合 [!DNL Target] Recommendations。 集合是符合建議資格的一組產品或項目。
 title: 如何在Recommendations活動中使用集合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 52%
 
 ---
 
 # 集合
 
-集合是符合建議資格的一組產品或項目。集合的定義方式是指定專案必須符合的條件，才能成為集合的一部分。
+集合是符合建議資格的一組產品或專案。 集合的定義方式是指定專案必須符合的條件，才能成為其一部分。
 
-集合通常是指一組相似或相關的項目，例如單一產品集合。不過，您可以將任何專案分組到對您的業務有意義的類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區域有趣的專案。
+集合通常是指一組相似或相關的項目，例如單一產品集合。不過，您可以將任何專案分組到對您的業務有意義的類別中，例如特定價格範圍內的產品，或可能在特定地理區域受到歡迎的顏色或專案。
 
-請使用集合以在邏輯分組中組織產品。例如，如果某些專案在一個區域可用，但在另一個區域不可用，您可以建立一個集合，排除訪客區域不可用的專案。 您也可以使用集合來組織季節性項目，或使用業務上適合的任何其他組織參數。
+請使用集合以在邏輯分組中組織產品。例如，如果某些專案在一個區域可用，但在另一個區域不可用，您可以建立排除訪客區域不可用專案的集合。 您也可以使用集合來組織季節性項目，或使用業務上適合的任何其他組織參數。
 
 針對建議內每個條件而產生的[備用建議](/help/main/c-recommendations/c-algorithms/backup-recs.md)也會使用此集合，因此，只有集合中的項目才會納入備用建議中。集合可讓您確保只顯示必須出現在位置中的產品。
 
@@ -36,27 +36,27 @@ ht-degree: 60%
 
 ## 建立集合 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-建立集合以組織您要顯示在建議中的產品或內容。
+建立集合來組織您要在建議中顯示的產品或內容。
 
-1. 依序按下&#x200B;**[!UICONTROL 「Recommendations]** > **[!UICONTROL 集合」]**，即可顯示現有集合清單。
+1. 按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL 集合]** 以顯示現有集合的清單。
 
    ![集合清單](assets/collections_list.png)
 
-   此 [!UICONTROL 集合] 頁面會顯示您現有集合的清單。 若要建立新的集合，請按一下 [!UICONTROL 建立集合] 按鈕。 您也可以將游標移至所需的集合上，然後按一下所需的圖示，以編輯、複製和刪除現有集合。
+   此 [!UICONTROL 集合] 頁面會顯示您現有集合的清單。 您可以按一下 [!UICONTROL 建立集合] 按鈕。 您也可以將游標移至所需的集合上，然後按一下所需的圖示，以編輯、複製和刪除現有集合。
 
    ![暫留圖示：編輯、複製和刪除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。請參閱[設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html)，瞭解如何變更預設主機群組。{target=_blank}
+   [!UICONTROL 「集合」]清單檢視上，每個集合的「項目數量」為設定的預設 Recommendations [主機群組](/help/main/administrating-target/hosts.md) (環境) 中，符合集合規則的產品數量。另請參閱 [設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 變更預設主機群組。
 
-1. 按一下&#x200B;**[!UICONTROL 「建立集合」]**。
+1. 按一下 **[!UICONTROL 建立集合]**.
 
-1. (依條件) 建立 (或更新) 集合時，從&#x200B;**[!UICONTROL 「環境」]**&#x200B;篩選器中選擇一個環境，以便預覽該環境中的集合內容。依照預設，會顯示預設主機群組的結果。
+1. （視條件而定）從 **[!UICONTROL 環境]** 建立（或更新）集合時進行篩選，以預覽該環境中的集合內容。 依照預設，會顯示預設主機群組的結果。
 
    ![建立集合](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 輸入集合的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入a **[!UICONTROL 名稱]** 用於集合。
 
-   您也可以輸入選填的&#x200B;**[!UICONTROL 說明]**。
+   您也可以選擇是否輸入&#x200B;**[!UICONTROL 「說明」]**。
 
 1. 設定用來建立集合的規則。
 
@@ -84,9 +84,9 @@ ht-degree: 60%
 
 ![集合的暫留圖示](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
-您可以複製現有集合，以建立之後可修改的重複集合。 這可讓您用更少的工作量建立類似的排除專案。
+您可以複製現有收藏集以建立重複的收藏集，然後進行修改。 這可讓您輕鬆建立類似的排除專案。
 
-請注意，集合在整個帳戶中皆可使用。 刪除集合之前，請務必先考量這一點。 已刪除的集合無法復原。
+請注意，集合在整個帳戶中皆可使用。 刪除集合前，請務必考量這一點。 已刪除的集合無法復原。
 
 ## 在Recommendations活動中使用集合
 
@@ -98,7 +98,7 @@ ht-degree: 60%
 
    ![選擇集合選項](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
-1. （視條件而定）若要變更現有的收集設定，請在 **[!UICONTROL 體驗]** 頁面（三步驟引導式工作流程的步驟2），按一下您放置建議的位置，然後按一下 **[!UICONTROL 變更集合]**，然後選取所需的集合。
+1. （視條件而定）若要變更現有的集合設定，請在 **[!UICONTROL 體驗]** 頁面（三步驟引導式工作流程的步驟2），按一下您放置建議的位置，然後按一下 **[!UICONTROL 變更集合]**，然後選取所需的集合。
 
    ![變更集合選項](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
