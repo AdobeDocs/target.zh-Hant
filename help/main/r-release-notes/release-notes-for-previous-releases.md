@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '38027'
+source-wordcount: '38230'
 ht-degree: 95%
 
 ---
@@ -22,6 +22,24 @@ ht-degree: 95%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2023
+
+### [!DNL Target] Standard/Premium 23.11.1 (2023 年 11 月 13 和 14 日)
+
+此版本預定在下列日期發佈：
+
+* **11 月 13 日**：亞太 (APAC) 區域
+* **11 月 14 日**：美洲區域
+* **11 月 14 日**：歐洲、中東和非洲 (EMEA) 區域
+
+此版本包含下列增強功能和修正：
+
+* 增強[活動 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 功能，支援在 [!UICONTROL Automated Personalization] 活動中進行體驗時[不允許有重複選件](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。(TGT-46627)
+* 在 [!DNL Target] UI 中新增工具提示，可協助客戶了解為什麼在沒有流量分配給控制體驗時，活動報告可能沒有資料。工具提示中包含詳細資訊連結：[為什麼我的活動報告沒有資料？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
+* 這個問題已修正：一些客戶的「[!UICONTROL 活動]」頁面無法正確顯示活動。(TGT-46830)
+* 針對使用[[!UICONTROL 目標分析]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 作為報告來源的活動，已修正會影響這些活動的下列問題：
+   * 已修正導致部分客戶無法查看報告資料的問題。(TGT-46557)
+   * 已修復有時會導致活動報告頁面上的[!UICONTROL 在 Analytics 中檢視]連結無法正常運作的問題。(TGT-46731)
+   * 已修正導致[!UICONTROL 提升度]和[!UICONTROL 信賴度]資料無法在 [!DNL Target]UI 中正確顯示的問題。(TGT-46592、TGT-46554 和 TGT-46586)
 
 ### [!UICONTROL 活動]頁面使用者介面重新整理 (2023 年 10 月 25 日)
 

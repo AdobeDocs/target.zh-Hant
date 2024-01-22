@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 77%
+source-wordcount: '463'
+ht-degree: 79%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2024年1月18日**
+**上次更新日期：2024年1月22日**
 
 >[!NOTE]
 >
@@ -23,6 +23,11 @@ ht-degree: 77%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
+## 瀏覽器對象屬性停止支援 iPad 和 iPhone (2024 年 4 月 30 日)
+
+| 停止支援 | 詳細資料 |
+|--- |--- |
+| 建立對象時使用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)將停止支援 [!DNL iPad] 和 [!DNL iPhone]。<p>停止支援日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可讓您[鎖定多個類別屬性中的任一屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括當使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)造訪您網頁的使用者。<P><B>從 2024 年 4 月 30 日起，為對象建立類別時，iPad 和 iPhone 將從可用的[!UICONTROL 瀏覽器]類型下拉式清單中移除。</b><P>如果您有使用[!UICONTROL 瀏覽器]屬性鎖定 iPad 或 iPhone 的對象，則必須在 2024 年 4 月 30 日之前變更這些設定，以確保這些對象繼續按預期發揮作用。<p>如需替代設定的範例，請參閱 [從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (2024 年 1 月 22、23 和 25 日)
 

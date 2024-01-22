@@ -4,10 +4,10 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '986'
+ht-degree: 55%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 73%
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。 如需因應措施的設定，請參閱 [從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）](#deprecation) 底下。
 
 鎖定目標瀏覽器有兩種方法:
 
@@ -126,3 +130,90 @@ ht-degree: 73%
 * 定義對象類別
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## 瀏覽器對象屬性停止支援 iPad 和 iPhone (2024 年 4 月 30 日) {#deprecation}
+
+[!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括造訪您的頁面時使用特定瀏覽器或瀏覽器選項的使用者。
+
+自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。
+
+如果您有使用[!UICONTROL 瀏覽器]屬性鎖定 iPad 或 iPhone 的對象，則必須在 2024 年 4 月 30 日之前變更這些設定，以確保這些對象繼續按預期發揮作用。
+
+您之後可能會使用下列設定：
+
+* **用於瀏覽器比對[!DNL Apple]**： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 符合] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* **適用於瀏覽器相符平板電腦**： [!UICONTROL 行動] > [!UICONTROL 是平板電腦] > [!UICONTROL true]
+
+  ![行動裝置是平板電腦](/help/main/r-release-notes/assets/is-tablet.png)
+
+* **瀏覽器比對結果為iPad**： [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!DNL true]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* **瀏覽器比對結果為iPhone**： [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!DNL true]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+有許多其他可能的設定可供使用，例如當條件被否定時。 否定條件的範例可能如下所示：
+
+* **針對瀏覽器不符合iPhone**： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!UICONTROL false]
+
+  ![非行動電話](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* **針對瀏覽器不符合iPad**： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!UICONTROL false].
+
+  ![不是平板電腦](/help/main/r-release-notes/assets/tablet-false.png)
+
+如果您使用 `user.browserType` 在JavaScript區段中，變更應包括下列專案：
+
+>[!NOTE]
+>
+>下列新增專案預計於2024年1月24日釋出。 這些新增功能可讓您進行下列變更：
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
+
+
+* **BrowserType是iPhone**：
+
+  取代：
+
+  `user.browserType=="iphone"`
+
+  替換為：
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isMobilePhone`
+
+* **BrowserType不是iPhone**：
+
+  取代：
+
+  `user.browserType!="iphone"`
+
+  替換為：
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isMobilePhone`
+
+* **BrowserType是iPad**：
+
+  取代：
+
+  `user.browserType=="ipad"`
+
+  替換為：
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isTablet`
+
+* **BrowserType不是iPad**：
+
+  取代：
+
+  `user.browserType!="ipad"`
+
+  替換為：
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isTablet`
