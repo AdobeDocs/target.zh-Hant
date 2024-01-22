@@ -1,20 +1,20 @@
 ---
 keywords: ajo；adobe journey optimizer；adobe journey optimizer target整合；建議；target建議；整合
-description: 使用 [!DNL Adobe Target Recommendations] 替換為 [!DNL Adobe Journey Optimizer].
+description: 整合 [!DNL Adobe Target Recommendations] 替換為 [!DNL Adobe Journey Optimizer].
 title: 如何使用 [!DNL Target Recommendations] 在客戶歷程中，使用 [!DNL Adobe Journey Optimizer]？
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: bb6c83ff393656a634e1e8ddcb02b14dc8d4c8d2
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 3%
 
 ---
 
-# [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer] 整合
+# 整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]
 
 本文說明使用案例和資訊，協助您設定以下兩者的整合： [!DNL Adobe Target Recommendation] 和 [!DNL Adobe Journey Optimizer] 協助您為客戶提供連結、情境式和個人化的體驗。
 

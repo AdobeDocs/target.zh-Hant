@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 92%
 
 ---
 
@@ -93,13 +93,14 @@ ht-degree: 94%
       + [Adobe Customer Journey Analytics作為Target (CJA4T)的報告來源](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + 將Target與Adobe Journey Optimizer (AJO)整合 {#ajo}
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md)
    + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
       + [將Target與AEM整合概覽](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 體驗片段和內容片段 {#fragments}
-         + [AEM 體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [AEM 內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [AEM內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [將Target與Adobe Audience Manager (AAM)整合](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [與 Real-time Customer Data Platform 整合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [將 Target 與 Adobe Campaign 整合](c-integrating-target-with-mac/campaign-and-target.md)
@@ -238,7 +239,7 @@ ht-degree: 94%
          + [疑難排解增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [在您的瀏覽器中啟用混合式內容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [頁面修改案例](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [可視化體驗撰寫器 Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重新導向至 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [建立可在可視化體驗撰寫器中運作的輪播](c-experiences/c-visual-experience-composer/vec-carousels.md)
@@ -263,7 +264,7 @@ ht-degree: 94%
       + [排除極端值](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [將資料下載為 CSV 檔案](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 統計方法 {#statistical-methodology}
-      + [A/Bn 測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
+      + [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + 個人化報表 {#personalization-reports}
       + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
