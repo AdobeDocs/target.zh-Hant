@@ -1,5 +1,5 @@
 ---
-keywords: ajo；adobe journey optimizer；adobe journey optimizer target整合；建議；target建議；整合
+keywords: ajo;adobe journey optimizer;adobe journey optimizer target integration;recommendations;target recommendations;integration
 description: 整合 [!DNL Adobe Target Recommendations] 替換為 [!DNL Adobe Journey Optimizer].
 title: 如何使用 [!DNL Target Recommendations] 在客戶歷程中，使用 [!DNL Adobe Journey Optimizer]？
 feature: Integrations
