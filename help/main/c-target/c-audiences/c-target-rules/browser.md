@@ -4,10 +4,10 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ ht-degree: 55%
 
 如果您有使用[!UICONTROL 瀏覽器]屬性鎖定 iPad 或 iPhone 的對象，則必須在 2024 年 4 月 30 日之前變更這些設定，以確保這些對象繼續按預期發揮作用。
 
+### 使用建立的對象 [!DNL Target] UI
+
 您之後可能會使用下列設定：
 
 * **用於瀏覽器比對[!DNL Apple]**： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 符合] [!DNL Apple]
@@ -167,16 +169,19 @@ ht-degree: 55%
 
   ![不是平板電腦](/help/main/r-release-notes/assets/tablet-false.png)
 
-如果您使用 `user.browserType` 在JavaScript區段中，變更應包括下列專案：
+### 使用個人資料指令碼建立的對象
+
+如果您使用 `user.browserType` 區段中的，如中所述 [設定檔和變數字彙表](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)，變更應包括下列專案：
 
 >[!NOTE]
 >
->下列新增專案預計於2024年1月24日釋出。 這些新增功能可讓您進行下列變更：
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>下列設定檔排程在2024年1月24日起的未來幾天發行。 此 [最新發行說明](/help/main/r-release-notes/release-notes.md) 當這些設定檔可用時，就會更新。
 
+這些設定檔可進行下列變更：
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType是iPhone**：
 
