@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 96%
+source-wordcount: '1258'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
 | --- | --- | --- |
 | 1 月 24 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 版本 2.11.4 的發行說明。 |
 |  | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 宣佈尚未提供這兩個新的設定檔。 當這些設定檔可供使用時，將會更新這些附註。 |
+|  | [at.js常見問題](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | 新增離子應用程式環境中at.js的常見問題集。 此實作未經測試或未建議。 |
 | 1 月 22 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增從以下位置棄用iPad和iPhone的重要資訊： [!UICONTROL 瀏覽器] 需要您在2024年4月30日之前變更的對象屬性。 |
 |  | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 新增區段： <ul><li>瀏覽器對象屬性停止支援 iPad 和 iPhone (2024 年 4 月 30 日)</li></ul> |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 24.1.1 版的發行說明。 |
