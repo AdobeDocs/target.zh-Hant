@@ -4,7 +4,7 @@ description: 檢視Adobe Target中適用於設定檔指令碼的各種設定檔�
 title: 哪些設定檔、變數和引數用於 [!DNL Target]？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
+source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 69%
@@ -48,8 +48,8 @@ ht-degree: 69%
 | profile.browserTime | 訪客的本機瀏覽器時間。如需系統時間，請在描述檔指令碼中建立新的日期物件 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount  |  |
-| profile.mobile.isTablet | 訪客裝置是平板電腦。<P>**注意**：此設定檔會取代已棄用的舊版瀏覽器iPad對象類別。 另請參閱 [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) 以取得詳細資訊。 |
-| profile.mobile.isMobilePhone | 訪客裝置是行動電話。<P>**注意**：此設定檔會取代已棄用的舊版瀏覽器iPhone對象類別。 另請參閱 [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) 以取得詳細資訊。 |
+| profile.mobile.isTablet | 訪客裝置是平板電腦。<P>**注意**：此設定檔會取代已棄用的舊版瀏覽器iPad對象類別。 另請參閱 [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) 以取得詳細資訊。 |
+| profile.mobile.isMobilePhone | 訪客裝置是行動電話。<P>**注意**：此設定檔會取代已棄用的舊版瀏覽器iPhone對象類別。 另請參閱 [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) 以取得詳細資訊。 |
 | parameter= | 使用 mbox 傳遞之其他值的一般詞語，通常為名稱/值配對的形式。除非使用 `profile.parameter` 或 `user.parameter`，否則不會持續保存。 |
 
 ## URL 變數 {#section_8F25958273164EBAA6DC659302993FD3}
