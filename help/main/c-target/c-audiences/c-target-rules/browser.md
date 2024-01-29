@@ -4,9 +4,9 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -135,13 +135,13 @@ ht-degree: 37%
 
 [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括造訪您的頁面時使用特定瀏覽器或瀏覽器選項的使用者。
 
-自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。
+自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 在「 」中輸入下拉式清單 [!DNL Target] 建立對象的類別時的UI。
 
-內建的對象，例如「瀏覽器：iPad」和「瀏覽器：iPhone」，將會自動移至新的對象定義。 任何使用「user.browserType」的個人資料指令碼將 *非* 自動更新：如果您未手動更新，使用者資格可能不會如預期發生。
+使用建立的內建對象 [!DNL Target] UI (例如「瀏覽器：iPad」和「瀏覽器：iPhone」)會自動移至新的對象定義。 不過日後，您應使用設定 [如下所述](#ui).
 
-如果您的對象是使用 [!UICONTROL 瀏覽器] attribute的使用者，您應在2024年4月30日之前變更這些設定，以確保這些對象能繼續如預期般運作。
+如果您使用 `user.browserType` 在任何設定檔指令碼中檢查它是否為iPhone或iPad (例如， `user.browserType == 'iphone'` 或 `user.browserType != 'ipad'`)，這些設定檔指令碼應變更為 [指示如下](#profile-scripts) 2024年4月30日之前，確保這些對象能繼續如預期般運作。
 
-### 使用建立的對象 [!DNL Target] UI
+### 使用建立的對象 [!DNL Target] UI {#ui}
 
 您之後可能會使用下列設定：
 
@@ -171,7 +171,7 @@ ht-degree: 37%
 
   ![不是平板電腦](/help/main/r-release-notes/assets/tablet-false.png)
 
-### 使用個人資料指令碼建立的對象
+### 使用個人資料指令碼建立的對象 {#profile-scripts}
 
 如果您使用 `user.browserType` （位於使用個人資料指令碼的受眾中），如中所述 [設定檔和變數字彙表](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)，變更應包括下列專案：
 
