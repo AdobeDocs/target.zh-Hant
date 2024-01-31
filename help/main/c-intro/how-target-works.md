@@ -5,9 +5,9 @@ title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
-* [[!DNL Adobe Experience Platform Web SDK] 副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
 * 使用 [ [!DNL Target]  實作  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 每次訪客要求已針對 [!DNL Target] 最佳化的頁面時，都會傳送請求至目標定位系統。該請求有助於判斷要為該訪客提供哪些內容。此過程會即時進行。每次載入頁面時，系統會提出內容請求並履行。內容是由市場行銷人員控制之活動和體驗的規則所管理，且目標鎖定在網站的個別訪客。所提供的內容是每位網站訪客最有可能回應、互動或最終購買的內容。個人化內容可協助將回應率、贏取率和收入最大化。
