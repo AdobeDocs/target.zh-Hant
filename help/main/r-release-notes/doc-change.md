@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 96%
+source-wordcount: '1328'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 96%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2 月 5 日 | [建立使用 Analytics 作為報告來源的活動](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 新增文字，指定在使用時，不能對來自不同工作區的兩個活動使用相同的活動名稱 [!UICONTROL 目標分析] (A4T)做為報表來源。 |
+|  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增文字，指定在使用時，不能對來自不同工作區的兩個活動使用相同的活動名稱 [!UICONTROL 目標分析] (A4T)做為報表來源。 |
 | 1 月 24 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 版本 2.11.4 的發行說明。 |
 |  | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 宣佈尚未提供這兩個新的設定檔。 當這些設定檔可供使用時，將會更新這些附註。 |
 |  | [at.js常見問題](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | 新增離子應用程式環境中at.js的常見問題集。 此實作未經測試或未建議。 |

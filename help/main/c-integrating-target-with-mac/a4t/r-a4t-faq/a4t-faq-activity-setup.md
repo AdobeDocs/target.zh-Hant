@@ -4,10 +4,10 @@ description: 為以下專案使用Analytics時尋找有關活動設定的問題�
 title: 我可以在哪裡找到有關A4T活動設定的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 14%
+source-wordcount: '630'
+ht-degree: 10%
 
 ---
 
@@ -15,9 +15,19 @@ ht-degree: 14%
 
 此主題包含經常詢問關於活動設定和使用問題的回答 [!DNL Analytics] 做為的報表來源 [!DNL Target] (A4T)。
 
-## Analytics 作為報表來源 (A4T) 時支援哪些活動類型? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## 支援哪些活動型別 [!DNL Analytics] 做為報表來源(A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++如需完整清單，請參閱以下的「支援的活動型別」： [Adobe Analytics作為Adobe Target (A4T)的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## 使用A4T報表時，我可以在不同的工作區中，對兩個活動使用相同的活動名稱嗎？
+
++++回答
+
+請勿對來自不同的兩個活動使用相同的活動名稱 [工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 使用A4T報表的客戶。
+
+雖然這在使用時受到支援 [!DNL Target] 作為報表來源，使用時，不支援為兩個活動使用相同的活動名稱 [!UICONTROL 目標分析] 作為報表來源。
 
 +++
 
@@ -45,7 +55,7 @@ ht-degree: 14%
 
 ![為每個活動選取影像](assets/select-per-activity.png)
 
-**[!UICONTROL 「目標與設定」]**&#x200B;畫面中會啟用&#x200B;**[!UICONTROL 「報表來源」下拉式清單，以供您建立和編輯活動。]**
+**[!UICONTROL 「目標與設定」]**&#x200B;畫面中會啟用&#x200B;**[!UICONTROL 「報表來源」]**&#x200B;下拉式清單，以供您建立和編輯活動。
 
 永遠使用 [!DNL Analytics] 作為報表來源，選取「 」 **[!UICONTROL Adobe Analytics]** 從的下拉式清單 [!UICONTROL 管理].
 
