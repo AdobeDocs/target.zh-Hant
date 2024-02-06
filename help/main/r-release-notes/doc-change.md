@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
 source-wordcount: '1343'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 92%
 |  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增文字，指定在使用時，不能對來自不同工作區的兩個活動使用相同的活動名稱 [!UICONTROL 目標分析] (A4T)做為報表來源。 |
 |  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關2024年2月7日Adobe Target社群咖啡會的資訊。 |
 | 1 月 24 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 版本 2.11.4 的發行說明。 |
-|  | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 宣佈尚未提供這兩個新的設定檔。 當這些設定檔可供使用時，將會更新這些附註。 |
-|  | [at.js常見問題](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | 新增離子應用程式環境中at.js的常見問題集。 此實作未經測試或未建議。 |
+|  | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 宣布這兩個新設定檔還不能使用。當這些設定檔可用時，這些註釋將會更新。 |
+|  | [at.js 常見問題](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | 已新增有關 Ionic 應用程式環境中的 at.js 常見問題。此實作未經測試或推薦。 |
 | 1 月 22 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增了有關[!UICONTROL 瀏覽器]對象屬性停止支援 iPad 和 iPhone 的重要資訊，需要您在 2024 年 4 月 30 日之前進行變更。 |
 |  | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 新增區段： <ul><li>瀏覽器對象屬性停止支援 iPad 和 iPhone (2024 年 4 月 30 日)</li></ul> |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 24.1.1 版的發行說明。 |
