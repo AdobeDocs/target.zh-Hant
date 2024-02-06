@@ -4,10 +4,10 @@ description: 檢視Adobe Target中適用於設定檔指令碼的各種設定檔�
 title: 哪些設定檔、變數和引數用於 [!DNL Target]？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 69%
+source-wordcount: '677'
+ht-degree: 67%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 69%
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | 使用者代理程式 |
+| user.browserType | 傳回瀏覽器型別，例如safari、chrome等。 |
 | user.header | 所有 `user.header` 描述檔皆是由 mbox 請求標頭資料內建 |
 | user.header(&#39;x-forwarded-for&#39;) | 訪客所在網路連線的公開顯示的 IP 位址。<br>您可以以數個方式取得該資訊，例如 [whatismyip.com](https://www.whatismyip.com/). IP 位址不是 NAT 位址 (內部位址)，其開頭為 10.、192.168. 或 172。<br>注意： user.header(&#39;x-cluster-client-ip&#39;)已過時。 |
 | user.header(&#39;host&#39;) | 網站主機名稱 |

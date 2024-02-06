@@ -4,10 +4,10 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 35%
+source-wordcount: '1089'
+ht-degree: 36%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 35%
 
 如果您使用 `user.browserType` 在任何設定檔指令碼中檢查它是否為iPhone或iPad (例如， `user.browserType == 'iphone'` 或 `user.browserType != 'ipad'`)，這些設定檔指令碼應變更為 [指示如下](#profile-scripts) 2024年4月30日之前，確保這些對象能繼續如預期般運作。
 
-使用個人資料指令碼的JavaScript對象是舊版對象，已被 [!DNL Target Classic] UI。 這些對象只能透過API修改。 只有在新的活動中使用舊版對象時，客戶才能更新這些對象。 [!DNL Target Standard/Premium] UI。
+JavaScript受眾是舊版受眾，使用Target運算式，但已被 [!DNL Target Classic] UI。 這些對象只能透過API修改。 客戶必須更新這些對象，才能繼續在活動中使用舊版對象。
 
 ### 使用建立的對象 [!DNL Target] UI {#ui}
 
@@ -175,7 +175,7 @@ ht-degree: 35%
 
 ### 使用個人資料指令碼建立的對象 {#profile-scripts}
 
-如果您使用 `user.browserType` 在舊版 [!DNL Target Classic] 使用個人資料指令碼的受眾，如中所述 [設定檔和變數字彙表](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)，變更應包括下列專案：
+如果您使用 `user.browserType` 在舊版 [!DNL Target Classic] 對象或在個人資料指令碼中，變更應包括下列內容：
 
 >[!NOTE]
 >
