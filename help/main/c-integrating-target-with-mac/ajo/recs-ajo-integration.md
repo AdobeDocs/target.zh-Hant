@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: f0e8ec873b2cc7bb6bb03aa99d5e5e96beac3b56
+source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 本文說明使用案例和資訊，協助您設定以下兩者的整合： [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer] 協助您為客戶提供連結、情境式和個人化的體驗。
 
-此整合可協助您推動更多轉換，並檢視包含個人化建議的電子郵件訊息的影響。
+此整合可協助您提高轉換率，並瞭解包含個人化建議的電子郵件訊息的影響。
 
 ## 必備條件
 
@@ -40,9 +40,9 @@ ht-degree: 2%
 
   在指定的時間段（可能是幾個小時或一天）之後，中的自訂動作 [!DNL Adobe Journey Optimizer] 呼叫 [!DNL Target Recommendations] 以使用判斷捨棄的購物車的內容 [購物車型建議](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 演演算法。 [!DNL Adobe Journey Optimizer] 然後傳送個人化電子郵件給此訪客，提醒其購買程式尚未完成，並提供影像和放棄專案的連結。
 
-* **[!DNL Adobe Journey Optimizer]在網站造訪後傳送電子郵件以提醒訪客已檢視哪些專案**：此使用案例是根據訪客造訪網站、檢視各種專案，然後離開網站而不將專案放入購物車中的情形。
+* **[!DNL Adobe Journey Optimizer]在網站造訪後傳送電子郵件以提醒訪客已檢視哪些專案**：此使用案例是根據訪客造訪網站、檢視各種專案，然後離開網站或應用程式而不將專案放入購物車中的情形。
 
-  經過指定期間後，中的自訂動作 [!DNL Adobe Journey Optimizer] 呼叫 [!DNL Target Recommendations] 若要判斷此訪客檢視了哪些專案，請使用訪客的 [!DNL Adobe Experience Cloud Identifier] (EDID)，訪客的 [!DNL Target] 設定檔和 [基於使用者](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 演演算法。 [!DNL Adobe Journey Optimizer] 然後傳送包含已檢視專案影像和連結的個人化電子郵件給此訪客，以讓訪客返回網站並進行購買。
+  經過指定期間後，中的自訂動作 [!DNL Adobe Journey Optimizer] 呼叫 [!DNL Target Recommendations] 若要判斷此訪客檢視了哪些專案，請使用訪客的 [!DNL Adobe Experience Cloud Identifier] (EDID)，訪客的 [!DNL Target] 設定檔和 [基於使用者](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 演演算法。 [!DNL Adobe Journey Optimizer] 然後傳送包含已檢視專案影像和連結的個人化電子郵件給此訪客，以讓訪客回訪並購買。
 
   在此案例中， [!UICONTROL Experience Cloud訪客ID] (ECID)與使用者檔案的內容 [!DNL Target] 設定檔是用來根據最近檢視的演演算法產生建議。
 
@@ -50,6 +50,6 @@ ht-degree: 2%
 
 * **[!DNL Adobe Journey Optimizer]在網站造訪後傳送電子郵件以建議熱門專案**：此使用案例是根據訪客造訪網站但未檢視任何特定專案。 例如，和先前的使用案例不同，電子郵件會大量傳送給所有符合特定對象資格的使用者。
 
-  假設訪客沒有檢視任何特定手錶。 或許訪客只是按一下網站各處，然後檢視了類別頁面或部落格專案。 因此， [!DNL Target] 設定檔沒有最近檢視專案的相關特定資訊。 在此情況下， [!DNL Target Recommendations] 可以使用 [備份建議](/help/main/c-recommendations/c-algorithms/backup-recs.md) 因此 [!DNL Adobe Journey Optimizer] 可以傳送內含影像和網站熱門專案連結的電子郵件，以讓訪客返回網站並可能進行購買。
+  假設訪客沒有檢視任何特定手錶。 或許訪客只是按一下網站各處，然後檢視了類別頁面或部落格專案。 因此， [!DNL Target] 設定檔沒有最近檢視專案的相關特定資訊。 在此情況下， [!DNL Target Recommendations] 可以使用 [備份建議](/help/main/c-recommendations/c-algorithms/backup-recs.md) 因此 [!DNL Adobe Journey Optimizer] 可以傳送內含影像和網站熱門專案連結的電子郵件，以吸引訪客回訪並可能進行購買。
 
 
