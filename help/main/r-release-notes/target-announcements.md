@@ -5,9 +5,9 @@ title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2476'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 95%
 
 ## Adobe Target 社群問答咖啡會
 
-* **可能的網路研討會後續問題藝術（個人化成熟度系列的第1部分）**
-* **2024年2月7日星期三**
-* **8:00 - 9:00 （太平洋標準時間–8格林威治標準時間）**
+* **「可能性的藝術」網路研討會後續問題 (個人化成熟度系列第 1 部分)**
+* **2024 年 2 月 7 日星期三**
+* **8:00 - 9:00 (太平洋標準時間 -8 格林威治標準時間)**
 * **[報名資訊](https://shorturl.at/gknVY){target=_blank}**
 
 +++詳細資料
 
-加入 [!DNL Adobe Target] 專家Brent Kostak、Ryan Roberts和Drew Burns會即時回答客戶有關涵蓋期間內容的問題 [「 」的第一部分 [!DNL Adobe Target] 「可能藝術」網路研討會系列](#maturity-series)，我們的專家涵蓋下列主題：
+加入 [!DNL Adobe Target] 專家 Brent Kostak、Ryan Roberts 和 Drew Burns，一起來看他們即時解答客戶提出關於[第 1 部分 -  [!DNL Adobe Target] 「可能性的藝術」網路研討會系列](#maturity-series)中所涵蓋內容的問題；我們的專家將在會中涵蓋以下主題：
 
-* 各個 [!DNL Target] 功能對於大規模執行個人化具有策略性角色
-* 客戶設定AI功能以大規模完成的主要使用案例
-* 您如何控制機器學習，以針對您的特定目標啟用AI支援的個人化
+* 每種 [!DNL Target] 功能如何在大規模執行個人化方面發揮策略性作用
+* 客戶設定 AI 功能以大規模完成的主要使用案例
+* 您如何控制機器學習來啟動 AI 驅動的個人化以實現您的特定目標
 
-如果您錯過原始的網路研討會， [聆聽錄音](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+如果您錯過了原來的網路研討會，請[收聽研討會錄音](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}。
 
 +++
 
@@ -54,7 +54,7 @@ ht-degree: 95%
 
      個人化成熟度的核心是人工智慧和機器學習。[!DNL Adobe Target] 利用這些技術來了解使用者行為、預測偏好並動態量身打造內容。透過利用 AI 和 ML 的力量，了解品牌如何超越靜態 A/B 測試和規則型個人化，以提供動態的、與情境相關的體驗。
 
-     [聆聽錄音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+     [收聽研討會錄音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高效能推薦**
    * **2024 年 2 月 13 日星期二**
