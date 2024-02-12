@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 93%
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
 | 2 月 8 日 | [預先擷取](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 新增章節：「使用Analytics for Target (A4T)時透過clickTrack量度預先擷取mbox」 |
-| 2 月 5 日 | [建立使用 Analytics 作為報告來源的活動](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 新增文字，指定在使用時，不能對來自不同工作區的兩個活動使用相同的活動名稱 [!UICONTROL 目標分析] (A4T)做為報表來源。 |
-|  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增文字，指定在使用時，不能對來自不同工作區的兩個活動使用相同的活動名稱 [!UICONTROL 目標分析] (A4T)做為報表來源。 |
-|  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關2024年2月7日Adobe Target社群咖啡會的資訊。 |
+| 2 月 5 日 | [建立使用 Analytics 作為報告來源的活動](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 新增文字指明，當您使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源時，對於不同工作區中的兩個活動，您不能使用同一個活動名稱。 |
+|  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增文字指明，當您使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源時，對於不同工作區中的兩個活動，您不能使用同一個活動名稱。 |
+|  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2024 年 1 月 7 日 Adobe Target 社群咖啡會的資訊。 |
 | 1 月 24 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 已新增 at.js 版本 2.11.4 的發行說明。 |
 |  | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 宣布這兩個新設定檔還不能使用。當這些設定檔可用時，這些註釋將會更新。 |
 |  | [at.js 常見問題](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | 已新增有關 Ionic 應用程式環境中的 at.js 常見問題。此實作未經測試或推薦。 |
