@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
+source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 1%
 
   在指定的時間段（可能是幾個小時或一天）之後，中的自訂動作 [!DNL Adobe Journey Optimizer] 呼叫 [!DNL Target Recommendations] 以使用判斷捨棄的購物車的內容 [購物車型建議](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 演演算法。 [!DNL Adobe Journey Optimizer] 然後傳送個人化電子郵件給此訪客，提醒其購買程式尚未完成，並提供影像和放棄專案的連結。
 
-* **[!DNL Adobe Journey Optimizer]會在網站造訪後傳送大量電子郵件，提醒訪客已檢視哪些專案**：此使用案例是根據訪客造訪網站、檢視各種專案，然後離開網站或應用程式，而不將專案放入購物車中的情形。
+* **[!DNL Adobe Journey Optimizer]會在網站造訪後傳送大量電子郵件，提醒訪客已檢視哪些專案**：此使用案例是根據訪客造訪網站、檢視各種專案，然後離開網站或應用程式而不將專案放入購物車中的情形。
 
   經過指定期間後，中的自訂動作 [!DNL Adobe Journey Optimizer] 呼叫 [!DNL Target Recommendations] 使用每位訪客的 [!DNL Adobe Experience Cloud Identifier] (EDID)，訪客的 [!DNL Target] 設定檔和 [基於使用者](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 演演算法。 [!DNL Adobe Journey Optimizer] 然後傳送個人化電子郵件給合格受眾的每個成員，內含每個訪客已檢視專案的影像和連結，以讓訪客回訪並購買。
 
-  在此案例中， [!UICONTROL Experience Cloud訪客ID] (ECID)以及每位使用者的 [!DNL Target] 設定檔是用來根據最近檢視的演演算法產生建議。
+  在此案例中， [!UICONTROL Experience Cloud訪客ID] (ECID)以及每位訪客的 [!DNL Target] 設定檔是用來根據最近檢視的演演算法產生建議。
 
-  例如，假設一位訪客造訪零售網站並檢視數個手錶。 此訪客的 [!DNL Target] 設定檔會以已檢視的監看清單更新。 使用ECID和訪客的 [!DNL Target] 設定檔， [!DNL Target] 傳送建議至 [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] 然後傳送電子郵件，其中包含該訪客使用最近檢視的演演算法所檢視表的影像和連結。 另一位訪客會收到包含此訪客檢視專案之影像和連結的個人化電子郵件。 每封電子郵件都會進行個人化。
+  例如，假設一位訪客造訪零售網站並檢視數個手錶。 此訪客的 [!DNL Target] 設定檔會以已檢視的監看清單更新。 使用ECID和訪客的 [!DNL Target] 設定檔， [!DNL Target] 傳送建議至 [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] 然後傳送電子郵件，內含該訪客使用最近檢視的演演算法所檢視之監視專案的影像和連結。 另一位訪客收到個人化電子郵件，其中包含該訪客已檢視專案的影像和連結。 每個訪客的每則電子郵件訊息都會個人化。
 
 * **[!DNL Adobe Journey Optimizer]在網站造訪後傳送大量電子郵件給合格訪客，以建議熱門專案**：此使用案例是根據訪客造訪網站但未檢視任何特定專案。 電子郵件會大量傳送給所有符合特定對象資格的對象，例如：
 
