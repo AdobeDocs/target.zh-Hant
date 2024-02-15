@@ -7,9 +7,9 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 | 停止支援 | 詳細資料 |
 |--- |--- |
-| 建立對象時使用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)將停止支援 [!DNL iPad] 和 [!DNL iPhone]。<p>停止支援日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可讓您[鎖定多個類別屬性中的任一屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括當使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)造訪您網頁的使用者。<P><B>從 2024 年 4 月 30 日起，為對象建立類別時，iPad 和 iPhone 將從可用的[!UICONTROL 瀏覽器]類型下拉式清單中移除。</b><P>使用建立的內建對象 [!DNL Target] UI (例如「瀏覽器：iPad」和「瀏覽器：iPhone」)會自動移至新的對象定義。<p>如需必須手動變更的替代設定範例，請參閱 [從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| 建立對象時使用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)將停止支援 [!DNL iPad] 和 [!DNL iPhone]。<p>停止支援日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可讓您[鎖定多個類別屬性中的任一屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括當使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)造訪您網頁的使用者。<P><B>從 2024 年 4 月 30 日起，為對象建立類別時，iPad 和 iPhone 將從可用的[!UICONTROL 瀏覽器]類型下拉式清單中移除。</b><P>使用 [!DNL Target] UI 建立的內建對象 (例如「瀏覽器：iPad」和「瀏覽器：iPhone」) 將自動移至新的對象定義。<p>關於必須手動變更的替代設定之範例，請參閱「[瀏覽器對象屬性停止支援 iPad 和 iPhone (2024 年 4 月 30 日)」](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)。 |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (2024 年 1 月 22、23 和 25 日)
 
@@ -57,7 +57,7 @@ ht-degree: 92%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
