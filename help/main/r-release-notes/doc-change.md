@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
-| 2 月 8 日 | [預先擷取](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 新增章節：「使用Analytics for Target (A4T)時透過clickTrack量度預先擷取mbox」 |
+| 2 月 8 日 | [預先擷取](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 增加新部份：「使用 Analytics for Target (A4T) 時透過 clickTrack 指標預先擷取 mbox」 |
 | 2 月 5 日 | [建立使用 Analytics 作為報告來源的活動](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 新增文字指明，當您使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源時，對於不同工作區中的兩個活動，您不能使用同一個活動名稱。 |
 |  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增文字指明，當您使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源時，對於不同工作區中的兩個活動，您不能使用同一個活動名稱。 |
 |  | [[!DNL Adobe Target] 公告和活動](/help/main/r-release-notes/target-announcements.md) | 新增有關 2024 年 1 月 7 日 Adobe Target 社群咖啡會的資訊。 |
