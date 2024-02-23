@@ -4,10 +4,10 @@ description: 了解儲存在訪客個人資料中的訪客特有屬性，這些�
 title: 什麼是個人資料屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
-source-wordcount: '2456'
-ht-degree: 100%
+source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+workflow-type: tm+mt
+source-wordcount: '2465'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 中的個人資料屬性是訪客特有的參數。 這些屬性儲存於訪客的個人資料中，以提供可用於活動中的訪客相關資訊。
 
-使用者個人資料包含網頁訪客的人口統計和行為資訊。 這些資訊可包括年齡、性別、購買的產品、上次造訪時間等，[!DNL Target] 會使用這些資訊為訪客提供個人化內容。
+使用者個人資料包含網頁訪客的人口統計和行為資訊。 這些資訊可包括年齡、性別、購買的產品、上次造訪時間等。 [!DNL Target] 使用此資訊為該訪客提供個人化內容。
 
 當訪客瀏覽您的網站或在另一次作業中返回瀏覽時，可以使用個人資料中儲存的個人資料屬性來鎖定內容或記錄資訊，以進行區段篩選。
 
@@ -33,8 +33,8 @@ ht-degree: 100%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱「[傳遞參數至全域 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}」。<br>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過 50 個個人資料屬性給 [!DNL Target]，請使用個人資料更新 API 方法來傳遞。 如需詳細資訊，請參閱[個人資料更新 (在  [!DNL Adobe Target] API 文件](https://developers.adobetarget.com/api/#updating-profiles)中)。 |
-   | 個人資料 | 直接使用 JavaScript 程式碼片段定義。 這些片段可儲存像是消費者總花費金額等累積總計，並在每個 mbox 要求上執行。 請參閱底下的「個人資料指令碼屬性」。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。另請參閱 [傳遞引數至全域mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} 在 *Target開發人員指南*..<P>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過50個設定檔屬性至 [!DNL Target]，請使用 [!UICONTROL 設定檔更新API] 方法。 如需詳細資訊，請參閱 [更新設定檔](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} 在 *Target開發人員指南*. |
+   | 個人資料 | 直接使用 JavaScript 程式碼片段定義。 這些片段可儲存執行總計（例如消費者花費的總金額），並在每個mbox要求上執行。 另請參閱 *設定檔指令碼屬性* 底下。 |
 
 ## 個人資料指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
