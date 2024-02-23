@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 100%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 2 月 23 日 | [使用的IP位址 [!DNL Recommendations] 摘要處理伺服器](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 新增下列重要注意事項以及您應加入允許清單的新IP位址。<P>**重要**：此 [!DNL Target] 群組目前正在更新要下載的NAT閘道位址 [!DNL Recommendations] 摘要。 如果您實施IP允許清單，請確定您允許清單下列新的AWS主機。 現有主機預計於2024年6月30日停止服務。 為確保順利轉換，請將所有九個地址加入允許清單。 移除現有位址並不緊迫。 |
 | 2 月 8 日 | [預先擷取](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 增加新部份：「使用 Analytics for Target (A4T) 時透過 clickTrack 指標預先擷取 mbox」 |
 | 2 月 5 日 | [建立使用 Analytics 作為報告來源的活動](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 新增文字指明，當您使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源時，對於不同工作區中的兩個活動，您不能使用同一個活動名稱。 |
 |  | [活動設定 - A4T 常見問題](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 新增文字指明，當您使用 [!UICONTROL Analytics for Target] (A4T) 作為報告來源時，對於不同工作區中的兩個活動，您不能使用同一個活動名稱。 |
