@@ -4,10 +4,10 @@ description: 閱讀公告並報名 Adobe [!DNL Target] 活動，包括技能培�
 title: 我可以在哪裡找到 [!DNL Target] 公告和活動資訊？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
-workflow-type: ht
-source-wordcount: '2353'
-ht-degree: 100%
+source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+workflow-type: tm+mt
+source-wordcount: '2527'
+ht-degree: 93%
 
 ---
 
@@ -15,24 +15,26 @@ ht-degree: 100%
 
 有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-<!--## Adobe Target Community Q&A Coffee Break
+## Adobe Target 社群問答咖啡會
 
-* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
-* **Wednesday, February 7, 2024**
-* **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
+* **高效能Recommendations網路研討會後續問題（個人化成熟度系列的第2部分）**
+* **2024年2月28日星期三**
+* **8:00 - 9:00 (太平洋標準時間 -8 格林威治標準時間)**
+* **[報名資訊](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
-+++Details
++++詳細資料
 
-Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
+加入 [!DNL Adobe Target] Experts Cristinel Anastasoaie、Brent Kostak和Timothy Furlow (Lenovo的Target Recommendations專家及個人化和最佳化資深經理)，他們可以即時回答客戶有關以下期間所涵蓋內容的問題： [第二部分 [!DNL Adobe Target] 「高效能Recommendations」網路研討會系列](#maturity-series)，我們的專家涵蓋下列主題：
 
-* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
-* Top use cases that customers are configuring AI capabilities to accomplish at scale
-* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
+* 更進階的功能，可在客戶建立與品牌的關係時，解鎖更精確、最適化的建議。
+* 非技術使用者或行銷人員如何完全控制設定和管理演演算法。
+* 如何搭配建議使用AI和自訂功能來解鎖對減少點按次數和增加收入有巨大影響的使用案例。
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+如果您錯過了原來的網路研討會，請[收聽研討會錄音](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}。
 
-+++-->
+請務必報名參加2024年3月12日即將舉辦的網路研討會系列的第3部分，內容涵蓋「[解鎖AI支援的Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}.」
+
++++
 
 ## Adobe Target 2024 年個人化成熟度網路研討會系列 {#maturity-series}
 
@@ -42,7 +44,7 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 * **學習熱門使用案例**：透過智慧最佳化藍圖將願景轉化為現實，超越規則型實驗和 A/B 測試，使 [!DNL Adobe Target] 客戶變得成熟。
 * **最大化獨特功能**：透過高效能推薦客製化成功體驗，以取得最高的 ROI、收入和轉換率。
-* **進階個人化策略**：深入研究 AI/ML 先進技術，以擴大業務影響、與新的細分市場/對象產生共鳴，並微調個人化模型以最佳化體驗
+* **進階個人化策略**：深入探討AI/ML進階技術以擴展業務影響、與新區段/對象產生共鳴，並微調個人化模型以最佳化體驗。
 
 * **[按一下這裡報名](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -61,6 +63,8 @@ If you missed the original webinar, [listen to the recording](https://experience
    * **上午 10 點到 11 點 (PST -8 GMT)**
 
      了解推薦演算法如何改變企業的遊戲規則，提高參與度和收入。從個人化產品建議到內容推薦，可順暢引導使用者完成整個歷程，將直接造就業務顯著成長。
+
+     [收聽研討會錄音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **充分運用 AI 支援的個人化**
    * **2024 年 3 月 12 日星期二**
