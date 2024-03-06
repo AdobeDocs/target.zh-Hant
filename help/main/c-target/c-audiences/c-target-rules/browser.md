@@ -4,14 +4,14 @@ description: 瞭解如何在中建立對象 [!DNL Adobe Target] 來鎖定造訪�
 title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 36%
+source-wordcount: '1015'
+ht-degree: 33%
 
 ---
 
-# 瀏覽器
+# [!UICONTROL Browser]
 
 您可以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 
@@ -28,7 +28,11 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->2024年4月30日起， [!DNL iPad] 和 [!DNL iPhone] 將會從可用的 [!UICONTROL 瀏覽器] 建立對象的類別時，輸入下拉式清單。 如需因應措施的設定，請參閱 [從瀏覽器對象屬性淘汰iPad和iPhone （2024年4月30日）](#deprecation) 底下。
+>從 [!DNL Target] Standard/Premium 24.3.1 （2024年3月4日至6日）內建受眾，使用Target UI建立，例如 `Browser:iPad` 和 `Browser:iPhone` 已更新，針對下列專案執行適當的目標定位： [!DNL iPad] 和 [!DNL iPhone] 使用 `profile.mobile.deviceVendor`， `profile.mobile.isMobilePhone`、和 `profile.mobile.isTablet`.
+>
+>此更新不需要客戶採取任何動作。 中的標籤 [!DNL Target] UI未來將變更，並將在以下位置公告： [[!DNL Target] 發行說明（最新）](/help/main/r-release-notes/release-notes.md) 進行這些變更時。
+>
+>如需因應措施的設定，請參閱 [更新 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 對象屬性（2024年4月30日）](#updates) 底下。
 
 鎖定目標瀏覽器有兩種方法:
 
@@ -42,20 +46,20 @@ ht-degree: 36%
 
 * **自訂瀏覽器對象規則：** 自訂對象可讓您鎖定多個瀏覽器，或針對特定瀏覽器、瀏覽器版本或瀏覽器語言設定規則或排除專案。 根據瀏覽器屬性來鎖定目標活動時，此功能可提供相當大的彈性。
 
-   1. 在 [!DNL Target] 介面，按一下 **[!UICONTROL 受眾]** > **[!UICONTROL 建立對象]**.
+   1. 在 [!DNL Target] 介面，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
    1. 為對象命名並新增選擇性說明。
-   1. 拖放 **[!UICONTROL 瀏覽器]** 放入對象產生器。
+   1. 拖放 **[!UICONTROL Browser]** 放入對象產生器。
 
       ![規則>瀏覽器](assets/target_browser.png)
 
-   1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
+   1. 按一下 **[!UICONTROL Select]**，然後選取下列其中一個選項：
 
       * **類型:** 將特定瀏覽器鎖定作為目標或排除。請參閱[類型](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
       * **語言：** 將設為使用特定語言的特定瀏覽器鎖定作為目標或排除。 請參閱[語言](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
       * **版本:** 將特定瀏覽器版本鎖定作為目標或排除。請參閱[版本](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
 
    1. （選用）為對象設定其他規則。
-   1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
+   1. 按一下 **[!UICONTROL Done]**。
 
   以下範例顯示包含下列專案的對象： [!DNL Microsoft Edge] 版本91或92的使用者：
 
@@ -69,10 +73,10 @@ ht-degree: 36%
 
 將特定瀏覽器鎖定作為目標或排除。
 
-選取&#x200B;**[!UICONTROL 「類型」]**，然後選擇等於或不等於。
+選取 **[!UICONTROL Type]**，然後選擇等於或不等於。
 
-* [!UICONTROL 等於]：鎖定選取的瀏覽器。
-* [!UICONTROL 不等於]：排除選取的瀏覽器。
+* [!UICONTROL Equals]：鎖定選取的瀏覽器。
+* [!UICONTROL Does not equal]：排除選取的瀏覽器。
 
 選取一或多個瀏覽器。多個選項是使用「或」連接。
 
@@ -84,10 +88,10 @@ ht-degree: 36%
 
 在語言比位置更重要的情況下，透過包含或排除瀏覽器語言來鎖定目標訪客，將會比根據地理來鎖定目標更準確。例如，如果您提供以英文撰寫的文章，您可以將目標鎖定在說英語的國家/地區，或將設為英文的瀏覽器作為鎖定目標。對於不以英文為母語的國家/地區中說英語的人，鎖定目標瀏覽器可讓他們閱讀這篇文章。
 
-選取&#x200B;**[!UICONTROL 「語言」]**，然後選擇等於或不等於。
+選取 **[!UICONTROL Language]**，然後選擇等於或不等於。
 
-* [!UICONTROL 等於]：鎖定選取的瀏覽器語言。
-* [!UICONTROL 不等於]：排除選取的瀏覽器語言。
+* [!UICONTROL Equals]：鎖定選取的瀏覽器語言。
+* [!UICONTROL Does not equal]：排除選取的瀏覽器語言。
 
 選取一或多種語言。多個選項是使用「或」連接。
 
@@ -109,14 +113,14 @@ ht-degree: 36%
 
 例如，若您的頁面在中未正確顯示 [!DNL Internet Explorer] 11版或更舊版本，您可以建立排除這些版本的對象。 在這種情況下，您可以設定瀏覽器型別等於的規則 [!DNL Internet Explorer] 並新增版本小於或等於11的第二個規則。
 
-選取&#x200B;**[!UICONTROL 「版本」]**，然後選擇運算子:
+選取 **[!UICONTROL Version]**，然後選擇運運算元：
 
-* [!UICONTROL 等於]
-* [!UICONTROL 不等於]
-* [!UICONTROL 大於]
+* [!UICONTROL Equals]
+* [!UICONTROL Does not equal]
+* [!UICONTROL Is greater than]
 * 大於或等於
-* [!UICONTROL 小於]
-* [!UICONTROL 小於或等於]
+* [!UICONTROL Is less than]
+* [!UICONTROL Is less than or equal to]
 
 輸入版本號碼。 在文字欄位中僅能輸入主要版本。指定的版本包含此次發行的任何次要版本。例如，如果您指定版本10，則也會包含版本10.1的訪客。
 
@@ -131,61 +135,51 @@ ht-degree: 36%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## 瀏覽器對象屬性停止支援 iPad 和 iPhone (2024 年 4 月 30 日) {#deprecation}
+## 更新 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 對象屬性（2024年4月30日） {#updates}
 
 [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括造訪您的頁面時使用特定瀏覽器或瀏覽器選項的使用者。
 
-自2024年4月30日起，iPad和iPhone將從可用的中移除 [!UICONTROL 瀏覽器] 在「 」中輸入下拉式清單 [!DNL Target] 建立對象的類別時的UI。
+從 [!DNL Target] Standard/Premium 24.3.1 （2024年3月4日至6日）內建受眾，使用Target UI建立，例如 `Browser:iPad` 和 `Browser:iPhone` 已更新，針對下列專案執行適當的目標定位： [!DNL iPad] 和 [!DNL iPhone] 使用 `profile.mobile.deviceVendor`， `profile.mobile.isMobilePhone` 和 `profile.mobile.isTablet`.
 
-使用建立的內建對象 [!DNL Target] UI (例如「瀏覽器：iPad」和「瀏覽器：iPhone」)會自動移至新的對象定義。 不過日後，您應使用設定 [如下所述](#ui).
+使用建立的內建對象 [!DNL Target] UI，例如 `Browser:iPad` 和 `Browser:iPhone`，會自動移至新的對象定義，客戶不需要採取任何動作。 不過日後，您應使用設定 [如下所述](#ui).
 
-如果您使用 `user.browserType` 在任何設定檔指令碼中檢查它是否為iPhone或iPad (例如， `user.browserType == 'iphone'` 或 `user.browserType != 'ipad'`)，這些設定檔指令碼應變更為 [指示如下](#profile-scripts) 2024年4月30日之前，確保這些對象能繼續如預期般運作。
+如果您使用 `user.browserType` 在任何設定檔指令碼中檢查它是否為 [!DNL iPhone] 或 [!DNL iPad] (例如， `user.browserType == 'iphone'` 或 `user.browserType != 'ipad'`)，這些設定檔指令碼應變更為 [指示如下](#profile-scripts) 2024年4月30日之前，確保這些對象能繼續如預期般運作。
 
-JavaScript受眾是舊版受眾，使用Target運算式，但已被 [!DNL Target Classic] UI。 這些對象只能透過API修改。 客戶必須更新這些對象，才能繼續在活動中使用舊版對象。
+JavaScript受眾是舊版受眾，使用 [!DNL Target] 已被取代的運算式 [!DNL Target Classic] UI。 這些對象只能透過API修改。 客戶必須更新這些對象，才能繼續在活動中使用舊版對象。
 
 ### 使用建立的對象 [!DNL Target] UI {#ui}
 
 您之後可能會使用下列設定：
 
-* **用於瀏覽器比對[!DNL Apple]**： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 符合] [!DNL Apple]
+* **用於瀏覽器比對[!DNL Apple]**： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* **適用於瀏覽器相符平板電腦**： [!UICONTROL 行動] > [!UICONTROL 是平板電腦] > [!UICONTROL true]
+* **適用於瀏覽器相符平板電腦**： [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![行動裝置是平板電腦](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **瀏覽器比對結果為iPad**： [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!DNL true]
+* **瀏覽器比對結果為iPad**： [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] 具有And容器，具有 [!UICONTROL Mobile] > [!UICONTROL Is Tablet] 是 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* **瀏覽器比對結果為iPhone**： [!UICONTROL 行動] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone] 具有And容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!DNL true]
+* **瀏覽器比對結果為iPhone**： [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] 具有And容器，具有 [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] 是 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 有許多其他可能的設定可供使用，例如當條件被否定時。 否定條件的範例可能如下所示：
 
-* **針對瀏覽器不符合iPhone**： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是行動電話] 是 [!UICONTROL false]
+* **針對瀏覽器不符合iPhone**： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] 是 [!UICONTROL false]
 
   ![非行動電話](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **針對瀏覽器不符合iPad**： [!UICONTROL 行動] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL 行動] > [!UICONTROL 是平板電腦] 是 [!UICONTROL false].
+* **針對瀏覽器不符合iPad**： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] 具有Or容器，具有 [!UICONTROL Mobile] > [!UICONTROL Is Tablet] 是 [!UICONTROL false].
 
   ![不是平板電腦](/help/main/r-release-notes/assets/tablet-false.png)
 
 ### 使用個人資料指令碼建立的對象 {#profile-scripts}
 
 如果您使用 `user.browserType` 在舊版 [!DNL Target Classic] 對象或在個人資料指令碼中，變更應包括下列內容：
-
->[!NOTE]
->
->下列設定檔排程在2024年1月24日起的未來幾週內發行。 此 [最新發行說明](/help/main/r-release-notes/release-notes.md) 當這些設定檔可用時，就會更新。
->
->這些設定檔可進行下列變更：
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
 
 * **BrowserType是iPhone**：
 
