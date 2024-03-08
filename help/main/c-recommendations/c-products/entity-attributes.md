@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 如何使用實體屬性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 52%
+source-wordcount: '1070'
+ht-degree: 48%
 
 ---
 
@@ -95,19 +95,19 @@ mboxCreate('productPage',
 
 支援多個值 (以逗號分隔值的清單)。
 
-目前頁面的類別。entity.categoryID可包含多個類別，例如子區段的羊毛衫(womens)、womens：sweaters、womens:sweaters:羊毛衫)。 多個類別必須以逗號分隔。
+目前頁面的類別。entity.categoryID可包含多個類別，例如cardigans子區段(例如 `womens`， `womens:sweaters`， `womens:sweaters:cardigans`)。 多個類別必須以逗號分隔。
 
 此 `categoryId` 值的限製為250個字元。
 
 >[!NOTE]
 >
->若要根據[!UICONTROL 「類別」]頁面顯示建議，只能將一個 `categoryId` 傳遞至用於顯示該特定建議的 mbox。`categoryId` 的值必須與「產品詳細資料」頁面上傳遞之 `entity.categoryId` 的值完全相符。
+>若要根據中的類別顯示建議 [!UICONTROL Category] 頁面，只有一個 `categoryId` 可傳遞至用於顯示該特定建議的mbox。 的值 `categoryId` 必須完全符合的值 `entity.categoryId` 傳遞於 [!UICONTROL Product Detail] 頁面。
 
 範例:
 
-* 產品詳細資料頁面範例：womens， womens：sweaters， womens:sweaters:羊毛衫
-* 類別頁面範例 Sweaters:womens:sweaters
-* 類別頁面範例Cardigans：womens:sweaters:羊毛衫
+* 產品詳細資料頁面範例： `womens`， `womens:sweaters`， `womens:sweaters:cardigans`
+* 類別頁面範例Sweaters： `womens:sweaters`
+* 類別頁面Cardigans範例： `womens:sweaters:cardigans`
 
 若使用類別型建議，請使用逗號分隔類別值。 以逗號區隔的值都會成為類別。您也可以使用不同的分隔符號來定義子類別，例如冒號 (:)，用以區隔類別值中的子類別。
 
@@ -117,7 +117,7 @@ mboxCreate('productPage',
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-針對 mbox 傳送，將使用最長的屬性名稱做為索引鍵。如果出現平手狀況，將使用最後一個屬性。在上述範例中，類別索引鍵是Womens:Outerwear:夾克：卡班。
+針對 mbox 傳送，將使用最長的屬性名稱做為索引鍵。如果出現平手狀況，將使用最後一個屬性。在上述範例中，類別索引鍵為 `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
