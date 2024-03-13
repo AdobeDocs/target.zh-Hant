@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 80%
+source-wordcount: '1507'
+ht-degree: 79%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 80%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 3 月 13 日 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 新增說明以重新儲存時間型對象的資訊，以說明日光節約時間(DST)。 |
 | 3 月 6 日 | [瀏覽器](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 更新以下章節的資訊：「更新 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 對象屬性（2024年4月30日）」。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 更新整個區段：「更新 `Browser:iPad` 和 `Browser:iPhone` 在 [!UICONTROL Browser] 對象屬性（2024年4月30日）」。 |
 |  | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 24.1.1 版的發行說明。 |
