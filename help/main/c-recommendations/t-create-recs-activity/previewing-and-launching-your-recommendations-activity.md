@@ -4,10 +4,10 @@ description: 瞭解如何預覽Adobe [!DNL Target] Recommendations活動，以�
 title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 15%
 
 從左到右是建議專案清單，此例中是檢視次數最多的專案。 建議會依環境分隔，在此情況下，只有生產環境有建議。
 
-如果星號(*)是列的第一個值，則表示備份專案。 如果設計中並非所有位置都能由演演算法（條件）的建議專案填滿，則會顯示備份專案。 對於熱門程度演演算法（例如銷售最高），CSV檔案中的每個環境只能有零個或一個非備份列，因為這些演演算法型別沒有「索引鍵」，例如「無論客戶正在檢視或購買什麼，都會向客戶顯示最受歡迎的產品」。 因此，不像其他以索引鍵為基礎的演演算法（例如view-view），列中的第一個值不是索引鍵，而是建議專案清單中的第一個專案。
+如果星號(*)是列的第一個值，則表示 [備份專案](/help/main/c-recommendations/c-algorithms/backup-recs.md). 如果設計中並非所有位置都能由演演算法（條件）的建議專案填滿，則會顯示備份專案。
 
 針對其他根據索引鍵值的演演算法型別，例如 [!UICONTROL People Who Viewed This, Viewed That]，機碼值（即「This」專案）會列在最左側的欄中，而建議專案（即「That」專案）則會從Recommendation_X欄中的由左至右列出。
 

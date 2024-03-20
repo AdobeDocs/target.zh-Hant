@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 57%
+source-wordcount: '552'
+ht-degree: 59%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 57%
 
 * 增強在客戶網站中執行編寫作業時的iFrame載入機制。
 * 修正在中執行製作時，導致擴充功能重複Cookie的問題 [!UICONTROL Visual Experience Composer] (VEC)。
-* 已移除對使用at.js的客戶進行下載的相依性 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）
 

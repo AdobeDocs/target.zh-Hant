@@ -2,25 +2,25 @@
 keywords: 建議;備用
 description: 瞭解如何在Adobe中使用備份建議 [!DNL Target] Recommendations。 建議沒有足夠的建議專案，則會顯示備份演演算法的結果。
 title: 如何在Recommendations中使用備份建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '527'
+ht-degree: 77%
 
 ---
 
 # 使用備份推薦
 
-如果您使用Adobe Target中的備用建議功能，沒有足夠建議專案的建議將不會顯示預設內容。 建議會改為顯示備份演算法的結果。
+如果您在中使用備份建議功能 [!DNL Adobe Target]，沒有足夠建議專案的建議將不會顯示預設內容。 建議會改為顯示備份演算法的結果。
 
 如果您未使用備份建議，而建議沒有足夠的項目來顯示，則系統會對使用者顯示預設內容。
 
 >[!NOTE]
 >
->其他資訊包含在 [建立條件的內容區段](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 主題，包括說明使用時將觀察到的結果的矩陣 [!UICONTROL 部分設計呈現] 和 [!UICONTROL 顯示備用Recommendations] 選項一起或分開。
+>其他資訊包含在 [建立條件的內容區段](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 主題，包含說明使用時觀察結果的矩陣 [!UICONTROL Partial Design Rendering] 和 [!UICONTROL Show Backup Recommendations] 選項一起或分開。
 
 使用演算法資料後，備份建議功能會始終使用網站上檢視次數最多的項目來填充任何剩余區段。例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
 
@@ -49,4 +49,4 @@ ht-degree: 82%
 
 備份建議的使用通常是初始設定期間與實施團隊進行討論的內容之一。如要在實施後變更備份建議設定，請聯絡客戶經理。
 
-如果「啟用部分設計呈現」(請參閱[內容設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) 未啟用，且範本未顯示，則會改為顯示備份建議或預設內容。
+如果啟用區域性設計呈現(請參閱 [內容設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content))未啟用，且範本未顯示，則會改為顯示備份建議或預設內容。
