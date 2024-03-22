@@ -4,7 +4,7 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
+source-git-commit: a470b414705135885b0671cb2008315848703724
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 76%
@@ -124,3 +124,4 @@ ht-degree: 76%
 | 7 月 25 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#edge) | 有關預計於 2023 年 8 月 9 日進行已規劃的邊緣基礎設施升級新增資訊。 |
 |  | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 邊緣部署 41-48 的已更新 NAT 和 IP 位址/網域。 |
 | 7 月 24 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 23.7.1 版的發行說明。 |
+
