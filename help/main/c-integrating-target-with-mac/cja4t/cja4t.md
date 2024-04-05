@@ -7,7 +7,7 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 1ae3f234ee475e56c6c072ccceb79c417b7ba245
+source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。執行活動之前完全不需要指定。
 * 行銷人員可充分運用 [!DNL Customer Journey Analytics] 功能，例如 [實驗面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}，以進一步分析其網站個人化。
-*行銷人員可以有適用於的單一報表來源 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 和 [!DNL Target]. 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
+* 行銷人員可以有適用於的單一報表來源 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 和 [!DNL Target]. 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
 
 ## 考量事項
 
