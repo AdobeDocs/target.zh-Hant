@@ -7,7 +7,7 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
+source-git-commit: 07b7dd8e0e2dbf2b57d5b847f89886208eb66614
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -37,7 +37,7 @@ ht-degree: 64%
    * 如果您擁有 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 的帳戶，請參閱&#x200B;*使用者*&#x200B;中的[指定其角色和權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。
    * 如果您擁有 [Target Premium](/help/main/c-intro/intro.md#premium) 的帳戶，請參閱&#x200B;*企業使用者權限*&#x200B;中的[角色與權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)。
 
-* 您必須是 [!DNL Adobe Experience Platform] 的角色，才能使用[!DNL Customer Journey Analytics] 作為報告來源來設定 [!DNL Target] 活動。如需詳細資訊，請參閱&#x200B;*資料架構師和工程師教學課程*&#x200B;的在&#x200B;*設定權限*&#x200B;中[新增角色於  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank}。
+* 您必須是 [!DNL Adobe Experience Platform] 的角色，才能使用[!DNL Customer Journey Analytics] 作為報告來源來設定 [!DNL Target] 活動。如需詳細資訊，請參閱&#x200B;*資料架構師和工程師教學課程*&#x200B;的在&#x200B;*設定權限*&#x200B;中[新增角色於  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}。
 * 根據您的設定，可以依據活動或組織層級來變更報告。請參閱&#x200B;*在 Target 中設定報告*&#x200B;中的 [Reporting Cloud 解決方案](/help/main/administrating-target/reporting.md#solution)。
 * 使用某個報告來源或其他報告來源。您無法收集單一活動的資料至多個報告來源。
 * 當您設定 [!DNL Customer Journey Analytics] 作為報告來源時，系統會提示您指定用於報告的沙箱。設定時，您只會看到您擁有存取權的沙箱。
