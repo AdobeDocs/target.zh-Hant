@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 31ad1682fc85f65fb80e96d7303cce55e36a442f
+source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1613'
 ht-degree: 76%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 76%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 4 月 9 日 | [疑難排解相關問題 [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新下列部分：<ul><li>我的頁面未在 VEC 中顯示 (僅限 VEC)</li></ul>新增下列新小區段：<ul><li>中由CSS衝突造成的問題 [!UICONTROL Visual Experience Composer]</li></ul> |
+|  | [個人化前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 更新考量事項區段。 |
 | 3 月 22 日 | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | 已移除對邊緣節點31到38的參照，因為此節點已不存在。 確保您的允許清單為最新。 |
 |  | [第三方Cookie淘汰對Target (at.js)的影響](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | 新部落格，說明Google預計淘汰第三方Cookie對您有何影響 [!DNL Adobe Target] at.js實作。 |
 | 3 月 14 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增的版本注意事項 [!DNL Adobe Experience Platform Visual Editing Helper] 的 [!DNL Google Chrome]. |
