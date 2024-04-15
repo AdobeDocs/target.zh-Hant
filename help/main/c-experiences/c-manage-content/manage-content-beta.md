@@ -6,9 +6,10 @@ feature: Experiences and Offers
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: fb6383c86503ac9a8313aed65418e9564c93aa1c
+exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
+source-git-commit: 646472f35ef4623666545f9945255d61bfe16073
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '600'
 ht-degree: 29%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->本文包含的相關資訊 [!DNL Target] 功能目前是Beta計畫的一部分。 此 [!DNL Adobe Target] 團隊通常會為特定客戶啟用新功能，以進行測試和提供回饋。 在測試期間完成後，這些功能將在未來為所有客戶啟用 [!DNL Target Standard/Premium] 發行版本和發行說明中宣佈。
+>本文包含更新的 [!DNL Target] 目前是Beta版計劃一部分的使用者介面。 此 [!DNL Adobe Target] 團隊通常會為特定客戶啟用新功能，以進行測試和提供回饋。 在測試期間完成後，這些功能將在未來為所有客戶啟用 [!DNL Target Standard/Premium] 發行版本和發行說明中宣佈。
 
 1. 按一下 **[!UICONTROL Offers]** 以開啟程式庫。
 
