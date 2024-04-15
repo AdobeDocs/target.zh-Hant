@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 92%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 92%
    + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
    + 選件 {#offers}
       + [選件概覽](c-experiences/c-manage-content/manage-content.md)
+      + [選件概覽（測試版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [建立選件資料夾](c-experiences/c-manage-content/create-content-folder.md)
       + [上傳內容](c-experiences/c-manage-content/assets-upload.md)
       + [建立重新導向選件](c-experiences/c-manage-content/offer-redirect.md)
