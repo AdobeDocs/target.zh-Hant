@@ -7,10 +7,10 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
+source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 6%
+source-wordcount: '994'
+ht-degree: 17%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 6%
 
 ### 更多動作
 
+代碼選件和影像選件的可用動作稍有不同。 以下章節包含更多資訊: 
+
+#### [!UICONTROL Code Offer] 選項
+
 按一下 **[!UICONTROL More actions]** 圖示（水準省略符號）來開啟功能表，讓您對活動執行快速動作。 下列動作可供使用（視您的許可權和選件狀態而定）： [!UICONTROL Edit]， [!UICONTROL Copy]， [!UICONTROL Delete]、和 [!UICONTROL Move].
 
 ![Target選件資料庫中的「更多動作」選項](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
@@ -80,6 +84,8 @@ ht-degree: 6%
 視您的許可權而定，您可能不會看到所有選項的圖示。 例如，使用者具有 [!UICONTROL Observer] 許可權沒有使用 [!UICONTROL Copy] 選項。
 
 如需您可以在選件和資料夾上執行之工作的詳細資訊，請參閱 [使用資產庫中的內容](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+#### [!UICONTROL Image Offer] 選項
 
 將游標移至上所需的影像選件或資料夾，以執行其他工作 [!UICONTROL Image Offers] 標籤，然後按一下所需的圖示。
 
@@ -100,68 +106,64 @@ ht-degree: 6%
 >
 >影像選件不屬於 [企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 模型。
 
-<!--
+## 檢視選件定義 {#section_6B059DD121434E6292CAB393507D010E}
 
-## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
+您可以在的快顯示卡片上檢視選件定義的詳細資訊 [!UICONTROL Offers] 程式庫，而不開啟選件。
 
-You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
+例如，將游標移至上的選件上，即可存取HTML選件的下列選件定義卡 [!UICONTROL Content] 清單，然後按一下資訊圖示：
 
-For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
+![offer-card-html影像](assets/offer-card-html.png)
 
-![offer-card-html image](assets/offer-card-html.png)
+可使用下列資訊:
 
-The following information is available:
+* 名稱
+* 來源
+* 類型
+* 選件 ID
+* 選件路徑
+* 上次修改
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer path 
-* Last Modified
+按一下 [!UICONTROL Offer Usage] 標籤中，可檢視參照每個選件定義快顯示卡片中的程式碼選件的活動。 此功能不適用影像選件。這樣可讓您在編輯選件時，避免影響其他活動。資訊包括 [!UICONTROL Live Activities] 和 [!UICONTROL Inactive Activities].
 
-Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
+![offer-card-usage圖片](assets/offer-card-usage.png)
 
-![offer-card-usage image](assets/offer-card-usage.png)
+以下是「重新導向」選件的選件定義卡片:
 
-The following offer definition card for a Redirect offer:
+![offer-card-redirect圖片](assets/offer-card-redirect.png)
 
-![offer-card-redirect image](assets/offer-card-redirect.png)
+可使用下列資訊:
 
-The following information is available:
+* 名稱
+* 來源
+* 類型
+* 選件 ID
+* 選件路徑
+* 上次修改
+* 重新導向 URL
+* 包含所有URL引數（開啟或關閉）
+* 傳遞mbox工作階段ID （開啟或關閉）
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL 
-* Include all URL parameters (On or Off) 
-* Pass mbox session ID (On or Off)
+以下是「遠端」選件的選件定義卡片:
 
-The following offer definition card for a Remote offer:
+![offer-card-remote圖片](assets/offer-card-remote.png)
 
-![offer-card-remote image](assets/offer-card-remote.png)
+可使用下列資訊:
 
-The following information is available:
+* 名稱
+* 來源
+* 類型
+* 選件 ID
+* 選件路徑
+* 上次修改
+* 重新導向 URL 類型
+* 絕對或相對 URL
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL Type 
-* Absolute or Relative URL
+## 訓練影片：內容存放庫 ![總覽徽章](/help/main/assets/overview.png)
 
-## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
+此影片包含管理選件的相關資訊。
 
-This video includes information about managing offers.
-
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
-* Custom HTML Offers 
-* Custom HTML Offer in the Visual Experience Composer
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
+* 自訂 HTML 選件
+* 可視化體驗撰寫器中的自訂 HTML 選件
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
-
--->
