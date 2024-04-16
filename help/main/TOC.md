@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 91%
 
 ---
@@ -247,10 +247,11 @@ ht-degree: 91%
    + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
    + 選件 {#offers}
       + [選件概覽](c-experiences/c-manage-content/manage-content.md)
-      + [選件概覽（測試版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
+      + [選件概覽（測試版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
       + [建立選件資料夾](c-experiences/c-manage-content/create-content-folder.md)
-      + [建立選件資料夾測試版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
+      + [建立選件資料夾測試版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
       + [上傳內容](c-experiences/c-manage-content/assets-upload.md)
+      + [上傳或刪除影像選件](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
       + [建立重新導向選件](c-experiences/c-manage-content/offer-redirect.md)
       + [建立遠端選件](c-experiences/c-manage-content/about-remote-offers.md)
       + [建立 JSON 選件](c-experiences/c-manage-content/create-json-offer.md)

@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
 # 建立選件資料夾
 
 在中建立資料夾 [!DNL Adobe Target] [!UICONTROL Offer] 程式庫，用來儲存程式碼選件、影像選件以及其他資料夾，以建立子資料夾結構。
+
+>[!NOTE]
+>
+>本文包含更新的 [!DNL Target] 目前是Beta版計劃一部分的使用者介面。 此 [!DNL Adobe Target] 團隊通常會為特定客戶啟用新功能，以進行測試和提供回饋。 在測試期間完成後，這些功能將在未來為所有客戶啟用 [!DNL Target Standard/Premium] 發行版本和發行說明中宣佈。
 
 為程式碼選件和影像選件建立資料夾的程式略有不同。 以下章節包含更多資訊。
 
