@@ -3,10 +3,13 @@ keywords: 內容; 建立資料夾; 資產; 移動資料夾; 複製資料夾; 刪
 description: 如何在中建立資料夾 [!UICONTROL Offers] 資料庫？
 title: 瞭解如何在中建立資料夾 [!UICONTROL Offers] 用來存放程式碼和影像選件以及其他資料夾的資料庫。
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 
