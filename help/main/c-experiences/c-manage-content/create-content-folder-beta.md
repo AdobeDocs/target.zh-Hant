@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 為程式碼選件和影像選件建立資料夾的程式略有不同。 以下章節包含更多資訊。
 
-## 代碼選件資料夾
+## [!UICONTROL Code Offer] 資料夾
 
 1. 按一下 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 如需您可以在選件和資料夾上執行之工作的相關資訊，請參閱 [使用資產庫中的內容](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## 影像選件資料夾
+## [!UICONTROL Image Offer] 資料夾
 
 1. 按一下 **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
