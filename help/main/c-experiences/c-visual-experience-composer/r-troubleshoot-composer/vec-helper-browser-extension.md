@@ -4,10 +4,10 @@ description: 探索為什麼有些網站可能無法可靠地在 [!UICONTROL Vis
 title: 如何使用 [!UICONTROL Visual Experience Composer] (VEC) Helper擴充功能？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 48%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
@@ -19,11 +19,9 @@ VEC Helper瀏覽器是 [!DNL Chrome] 副檔名。 使用時，不需要使用此
 
 >[!IMPORTANT]
 >
->目前 [!DNL Target] 本文記錄的VEC Helper擴充功能是使用Manifest v2建立的。 Google最近宣佈自2024年6月起，將不再允許使用資訊清單v2建立的新擴充功能。 如需詳細資訊，請參閱 [資訊清單V2支援時間表公告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} 從 [!DNL Google] 於 *適用於開發人員的Chrome* 網站。
+>舊版 [!DNL Target] 本文記錄的VEC Helper擴充功能是使用Manifest V2建立的。 [!DNL Google] 宣佈從2024年6月起，不再允許使用資訊清單V2建立的擴充功能。 如需詳細資訊，請參閱 [資訊清單V2支援時間表公告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} 從 [!DNL Google] 於 *適用於開發人員的Chrome* 網站。
 >
->現有的擴充功能仍可在Google Chrome中運作。 自2024年6月起， [!DNL Adobe] 將開始停用本主題中記錄的helper擴充功能，並要求客戶移至較新的擴充功能 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
->
-當此擴充功能停止運作時，您將會透過發行說明、產品內公告及本文中的文字收到通知。 不過，由於Manifest v3中的安全性增強功能， [!DNL Adobe] 需要下載新的擴充功能，才能繼續在中以視覺方式創作您的網站 [!DNL Target].
+>自2024年6月起， [!DNL Google] 將開始停用使用資訊清單V2建立的擴充功能，包括本主題中紀錄的擴充功能。 [!DNL Adobe] 建議客戶改用較新的版本 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 儘可能早。
 
 ## 某些網站可能無法可靠地在 VEC 中開啟的原因
 

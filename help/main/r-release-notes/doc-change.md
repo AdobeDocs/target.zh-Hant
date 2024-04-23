@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 76%
+source-wordcount: '1688'
+ht-degree: 73%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 76%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 4 月 23 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增說明Google計劃開始停用使用資訊清單V2建立的擴充功能的資訊。 [!DNL Adobe] 建議客戶改用 [!UICONTROL Visual Editing Helper] 儘快擴充。 |
+| 4 月 23 日 | [[!UICONTROL Visual Experience Composer] 協助程式擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新頁面頂端的重要注意事項，說明Google開始停用使用資訊清單V2建立的擴充功能計畫，其中包括本文所述的擴充功能。 [!DNL Adobe] 建議客戶改用 [!UICONTROL Visual Editing Helper] 儘快擴充。 |
 | 4 月 9 日 | [疑難排解相關問題 [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 已更新下列部分：<ul><li>我的頁面未在 VEC 中顯示 (僅限 VEC)</li></ul>新增下列新小區段：<ul><li>中由CSS衝突造成的問題 [!UICONTROL Visual Experience Composer]</li></ul> |
 |  | [個人化前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 更新考量事項區段。 |
 | 3 月 22 日 | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | 已移除對邊緣節點31到38的參照，因為此節點已不存在。 確保您的允許清單為最新。 |
