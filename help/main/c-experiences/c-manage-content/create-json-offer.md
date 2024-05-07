@@ -4,7 +4,7 @@ description: 瞭解如何在Adobe中建立JSON選件 [!DNL Target] ，以用於�
 title: 如何建立JSON選件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 45b81a2a77410947ce828cbea69e4dad7fc1cb03
+source-git-commit: 6423c6c324fce30087056d81ee0c4432de8999df
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 30%
