@@ -4,10 +4,10 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '37672'
-ht-degree: 86%
+source-wordcount: '37965'
+ht-degree: 85%
 
 ---
 
@@ -22,6 +22,34 @@ ht-degree: 86%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2024
+
+### [!UICONTROL Visual Experience Composer] 協助程式擴充功能（2024年4月23日）
+
+舊版 [!DNL Target] 視覺化體驗撰寫器Helper擴充功能是使用Manifest V2建立的。 [!DNL Google] 宣佈從2024年6月起，不再允許使用資訊清單V2建立的擴充功能。 如需詳細資訊，請參閱 [[!UICONTROL Visual Experience Composer] 協助程式擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] 建議客戶改用較新的版本 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 儘可能早。
+
+### 更新 `Browser:iPad` 和 `Browser:iPhone` 在 [!UICONTROL Browser] 對象屬性（2024年4月30日）
+
+| 更新 | 詳細資料 |
+|--- |--- |
+| [!UICONTROL Browser:iPad] 和 [!UICONTROL Browser:iPhone] 更新於 [瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 用於建立對象。 | [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定 [瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪客造訪您的頁面時。<P>從 [!DNL Target] Standard/Premium 24.3.1 （2024年3月4日至6日）內建受眾，使用Target UI建立，例如 `Browser:iPad` 和 `Browser:iPhone` 將更新以針對 [!DNL iPad] 和 [!DNL iPhone] 使用 `profile.mobile.deviceVendor`， `profile.mobile.isMobilePhone` 和 `profile.mobile.isTablet`.<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：客戶可執行適當的目標定位： [!DNL iPad] 和 [!DNL iPhone] 在設定檔指令碼（和JavaScript區段）中，客戶必須透過以下方式進行手動變更 **2024年4月30日**. 如需必須手動變更的替代設定範例，請參閱 [更新 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 對象屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+### [!UICONTROL Visual Editing Helper] 延期（2024年3月14日）
+
+此版本包含以下增強功能和修正： [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 延伸模組 [!DNL Google Chrome]：
+
+* 增強在客戶網站中執行編寫作業時的iFrame載入機制。
+* 修正在中執行製作時，導致擴充功能重複Cookie的問題 [!UICONTROL Visual Experience Composer] (VEC)。
+
+### [!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）
+
+此版本包含下列增強功能和修正：
+
+* 修正計算活動中不重複選取器數目的邏輯。 (TGT-47878)
+* 修正導致下列問題的因素： [!UICONTROL Multivariate] (MVT)活動設定了 [!UICONTROL Analytics for Target] (A4T)報告無法正確顯示。 (TGT-47490)
+* 改善當沒有流量的體驗用作控制體驗時，報告中顯示的警告訊息。 (TGT-47537)
+* 新增許多後端和本地化修正。
 
 ### [!DNL Target] Standard/Premium 24.1.1 (2024 年 1 月 22、23 和 25 日)
 
@@ -571,7 +599,7 @@ ht-degree: 86%
 | --- | --- |
 | [!UICONTROL Audiences] UI重新整理 | 作為 [!DNL Adobe Target] 團隊持續努力改善的使用者體驗， [!DNL Target] 使用者，此版本會重新整理 [!UICONTROL Audiences] 和 [!UICONTROL Profile Scripts] 中的頁面 [!DNL Target] UI。 本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個對象</li><li>重新整理的[對象建立器設計](/help/main/c-target/c-audiences/create-audience.md)</li><li>中的排除規則支援 [!UICONTROL Audience] 程式庫規則產生器</li><li>全新的「對象來源」篩選器，能讓您更快速地探索對象</li><li>工作階段持續搜尋和篩選器選項</li></ul>如需詳細資訊，請參閱[對象](/help/main/c-target/target.md)。 |
 | [!UICONTROL Profile Scripts] UI重新整理 | 此 [!UICONTROL Profile Scripts] 程式庫也進行了更新，包括一個重新整理的介面和多種生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/main/c-target/c-visitor-profile/visitor-profile.md)。 |
-| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="檢視Target Premium包含的內容。"} Recommendations條件建立和編輯 | 此 [!UICONTROL Recommendations Criteria] 建立和編輯工作流程已經過簡化，以精簡選擇正確的推薦演演算法和設定以達成目標的過程。<br>如需詳細資訊，請參閱[建立準則](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;檢視Target Premium包含的內容。&quot;} Recommendations條件建立和編輯 | 此 [!UICONTROL Recommendations Criteria] 建立和編輯工作流程已經過簡化，以精簡選擇正確的推薦演演算法和設定以達成目標的過程。<br>如需詳細資訊，請參閱[建立準則](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![進階徽章](/help/main/assets/premium.png)建議回顧視窗和演算法更新率改進 | 您現在可以執行具有 6 小時回顧視窗的「最多觀看次數」和「最暢銷」演算法，擷取近期最受歡迎的內容。選擇 6 小時回顧視窗後，您的推薦結果在一天之中每 3-6 小時會更新一次。<br>如需詳細資訊，請參閱&#x200B;*建立準則*&#x200B;中的[資料來源](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)。 |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (2021 年 9 月 14 日)

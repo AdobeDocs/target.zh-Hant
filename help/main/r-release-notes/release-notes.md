@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 53%
+source-wordcount: '574'
+ht-degree: 58%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 53%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target] 報告位置 [!DNL Adobe Customer Journey Analytics] （2024年5月8日）
+
+以下兩者的整合： [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} 和 [!DNL Target] 為您的最佳化程式提供強大的分析和省時的工具。
+
+使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源的主要優點如下：
+
+* 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。執行活動之前完全不需要指定。
+* 行銷人員可充分運用 [!DNL Customer Journey Analytics] 功能，例如 [實驗面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}，以進一步分析其網站個人化。
+* 行銷人員可以有適用於的單一報表來源 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 和 [!DNL Target]. 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
+
+如需詳細資訊，請參閱 [Adobe Customer Journey Analytics中的Target報表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ## [!UICONTROL Visual Experience Composer] 協助程式擴充功能（2024年4月23日）
 
@@ -30,28 +42,6 @@ ht-degree: 53%
 | 更新 | 詳細資料 |
 |--- |--- |
 | [!UICONTROL Browser:iPad] 和 [!UICONTROL Browser:iPhone] 更新於 [瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 用於建立對象。 | [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定 [瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪客造訪您的頁面時。<P>從 [!DNL Target] Standard/Premium 24.3.1 （2024年3月4日至6日）內建受眾，使用Target UI建立，例如 `Browser:iPad` 和 `Browser:iPhone` 將更新以針對 [!DNL iPad] 和 [!DNL iPhone] 使用 `profile.mobile.deviceVendor`， `profile.mobile.isMobilePhone` 和 `profile.mobile.isTablet`.<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：客戶可執行適當的目標定位： [!DNL iPad] 和 [!DNL iPhone] 在設定檔指令碼（和JavaScript區段）中，客戶必須透過以下方式進行手動變更 **2024年4月30日**. 如需必須手動變更的替代設定範例，請參閱 [更新 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 對象屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
-
-## [!UICONTROL Visual Editing Helper] 延期（2024年3月14日）
-
-此版本包含以下增強功能和修正： [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 延伸模組 [!DNL Google Chrome]：
-
-* 增強在客戶網站中執行編寫作業時的iFrame載入機制。
-* 修正在中執行製作時，導致擴充功能重複Cookie的問題 [!UICONTROL Visual Experience Composer] (VEC)。
-
-## [!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）
-
-此版本預定在下列日期發佈：
-
-* **3 月 4 日**：歐洲、中東和非洲 (EMEA) 區域
-* **3 月 5 日**：亞太 (APAC) 區域
-* **3 月 6 日**：美洲區域
-
-此版本包含下列增強功能和修正：
-
-* 修正計算活動中不重複選取器數目的邏輯。 (TGT-47878)
-* 修正導致下列問題的因素： [!UICONTROL Multivariate] (MVT)活動設定了 [!UICONTROL Analytics for Target] (A4T)報告無法正確顯示。 (TGT-47490)
-* 改善當沒有流量的體驗用作控制體驗時，報告中顯示的警告訊息。 (TGT-47537)
-* 新增許多後端和本地化修正。
 
 ## 額外的發行說明和版本詳細資料
 
