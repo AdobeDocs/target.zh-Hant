@@ -3,11 +3,12 @@ keywords: json選件；建立json選件
 description: 瞭解如何在中建立JSON選件，以用於 [!UICONTROL Form-Based Experience Composer].
 title: 如何建立JSON選件？
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 29%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -32,15 +33,17 @@ JSON選件可用於表單式活動，以啟用以下用途的使用案例： [!D
 
 1. 按一下 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![選件>代碼選件索引標籤](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![選件>代碼選件索引標籤](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. 按一下 **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. 按一下 **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![offer-json影像](assets/offer-json.png)
+   ![offer-json影像](assets/offer-json-new.png)
 
 1. 輸入選件名稱。
+1. （視條件而定）如果您擁有 [[!DNL Target] Premium帳戶](/help/main/c-intro/intro.md#premium)，選擇所需的 [工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. （視條件而定）選擇所需的設定檔屬性。
 1. 在「 」中輸入或貼上JSON程式碼 **[!UICONTROL Code]** 方塊。
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 ## JSON範例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-傳給成功回呼的動作是物件陣列。假設有單一 JSON 選件，其內容為:
+傳給成功回呼的動作是物件陣列。假設您有單一JSON選件，且具有此內容：
 
 ```json
 { 
@@ -139,6 +142,6 @@ Real-time CDP設定檔屬性可與共用 [!DNL Target] 用於HTML和JSON選件�
 
 ## 依JSON選件型別篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以篩選 [!UICONTROL Offers] 依JSON選件型別按一下 **[!UICONTROL Type]** 下拉式清單，然後選取 **[!UICONTROL JSON]** 核取方塊。
+您可以篩選 [!UICONTROL Offers] 依JSON選件型別按一下 **[!UICONTROL Show filters]** 圖示，然後選取 **[!UICONTROL JSON]** 核取方塊。
 
-![offer-json-filter影像](assets/offer-json-filter.png)
+![offer-json-filter影像](assets/offer-json-filter-new.png)
