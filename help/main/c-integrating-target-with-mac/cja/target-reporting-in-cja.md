@@ -4,10 +4,10 @@ description: 使用 [!DNL Target] 報告位置 [!DNL Adobe Customer Journey Anal
 title: 什麼是 [!DNL Target] 報告位置 [!DNL Adobe Customer Journey Analytics]？
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 57%
+source-wordcount: '1031'
+ht-degree: 56%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 57%
 ## 建立使用 [!DNL Customer Journey Analytics] 作為報告來源的活動
 
 建立使用 [!DNL Customer Journey Analytics] 作為報告來源的 [!DNL Target] 活動與設定一般的 [!DNL Target] 活動類似。
+
+>[!TIP]
+>
+>您也可以指定 [!DNL Target] 使用報告於 [!DNL Customer Journey Analytics] （針對在您的帳戶中建立的所有活動），**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**)。 如需詳細資訊，請參閱 *Reporting Cloud解決方案* 在 [在中設定報告 [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. 從 **[!UICONTROL Activities]** 清單，按一下 **[!UICONTROL Create Activity]**，然後選取活動型別(根據 [支援活動圖表上方](#supported-activities))並開始設定活動。
 1. 當您前往 **[!UICONTROL Goals & Settings]** 三部分活動建立工作流程的頁面，選取 **[!DNL Customer Journey Analytics]** 作為報表來源。
