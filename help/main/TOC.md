@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 90%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 90%
    + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
    + 選件 {#offers}
       + [選件概覽](c-experiences/c-manage-content/manage-content.md)
-      + [選件概覽（測試版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [選件概覽（測試版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [建立選件資料夾](c-experiences/c-manage-content/create-content-folder.md)
-      + [建立選件資料夾測試版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [建立選件資料夾測試版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [上傳內容](c-experiences/c-manage-content/assets-upload.md)
-      + [上傳或刪除影像選件](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [上傳或刪除影像選件（測試版）](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [建立重新導向選件](c-experiences/c-manage-content/offer-redirect.md)
-      + [建立重新導向選件](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [建立重新導向選件（測試版）](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [建立遠端選件](c-experiences/c-manage-content/about-remote-offers.md)
-      + [建立遠端選件（測試版）](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [建立遠端選件（測試版）](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [建立 JSON 選件](c-experiences/c-manage-content/create-json-offer.md)
-      + [建立JSON選件（測試版）](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [建立JSON選件（測試版）](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [使用程式庫中的內容](c-experiences/c-manage-content/assets-working.md)
-      + [使用程式庫測試版中的內容](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [使用程式庫測試版中的內容](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [搜尋內容](c-experiences/c-manage-content/filter-and-search-content.md)
       + [將動態資料傳遞至選件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM體驗和內容片段](c-experiences/c-manage-content/aem-experience-fragments.md)

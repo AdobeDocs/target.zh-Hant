@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 13%
@@ -15,7 +16,7 @@ ht-degree: 13%
 
 # 上傳或刪除影像選件
 
-您可以將影像上傳至 [!UICONTROL Image Offers] 清單位置 [!DNL Adobe Target] 在活動中當成影像選件使用。 您也可以刪除活動中不再需要的影像選件。
+您可以將影像上傳至 [!UICONTROL Image Offers] 頁面位置 [!DNL Adobe Target] 在活動中當成影像選件使用。 您也可以刪除活動中不再需要的影像選件。
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ ht-degree: 13%
 
 1. 按一下 **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![選件>影像選件](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![選件>影像選件](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. 按一下 **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. 瀏覽並選取您要新增的專案，然後按一下 **[!UICONTROL Open]**.
