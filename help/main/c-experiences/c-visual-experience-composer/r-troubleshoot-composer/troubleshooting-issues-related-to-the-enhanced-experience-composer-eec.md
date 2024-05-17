@@ -4,10 +4,10 @@ description: 瞭解如何疑難排解Adobe中有時發生的問題 [!DNL Target]
 title: 如何疑難排解增強體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 25%
+source-wordcount: '439'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,15 @@ ht-degree: 25%
 
 要求您的IT團隊將下列IP位址加入允許清單：
 
+* 34.254.77.200
+* 54.73.207.147
+* 54.229.152.123
+* 3.224.194.242
+* 54.90.51.39
+* 34.228.136.112
+* 54.150.116.11
+* 18.178.142.8
+* 54.199.107.77
 * 99.80.139.221
 * 54.78.56.224
 * 54.247.179.246
@@ -66,7 +75,7 @@ ht-degree: 25%
 
    ![firefox_more_info_3圖片](assets/firefox_more_info_3.png)
 
-1. 如果您發現您的網站顯示TLS 1.0，請參閱 [TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}，請聯絡 [客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 以設定您的TLS版本和網域。
+1. 如果您發現您的網站顯示TLS 1.0，請參閱 [TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} 以瞭解Target的TLS支援政策。 暫時補救情況（2018年9月12日前有效）{target=_blank}，請聯絡 [客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 以設定您的TLS版本和網域。
 
 ## 載入已啟用 Proxy 的網站時，我看到逾時或「拒絕存取」錯誤。(僅限 EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 
