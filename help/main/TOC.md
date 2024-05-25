@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 5931aef4a16e6e9777112fdda4b3277f8e6f7386
+source-git-commit: c6393642a8170e1f2ef207eb0daf972e380f79b5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1253'
 ht-degree: 90%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 90%
          + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [設定企業權限](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+   + [建議](/help/main/administrating-target/reommendations-settings.md)
 + 實作 Target {#implement-target}
    + [實作 Target 概覽](c-implementing-target/implementing-target.md)
 + 將 Target 與 Experience Cloud 整合 {#integrate}
