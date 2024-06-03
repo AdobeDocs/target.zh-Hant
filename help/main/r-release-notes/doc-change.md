@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 71%
+source-wordcount: '1783'
+ht-degree: 69%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 71%
 
 | 日期 | 主題 | 變更 |
 | --- | --- | --- |
+| 6 月 3 日 | [優先順序](/help/main/c-activities/priority.md) | 更新整個主題，包括指示來自多個主題的內容 [!UICONTROL Form-Based Experience Composer] 和VEC活動可以傳送。 以前，表單式工作流程中只能傳送一個活動。 可提供的表單式活動數量不再有任何限制。 |
 | 5 月 17 日 | [疑難排解相關問題 [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 新增您可在使用時列入允許清單的其他IP位址 [!UICONTROL Enhanced Experience Composer]. |
 | 5 月 8 日 | [[!DNL Target] 報告位置 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | 新文章：新增以下專案的相關資訊： [!DNL Target] 與整合 [!DNL Adobe Customer Journey Analytics]. |
 | 4 月 30 日 | [疑難排解相關問題 [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 更新允許清單中EEC Proxy所使用的Adobe伺服器IP位址清單。 |
