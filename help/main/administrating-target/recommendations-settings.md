@@ -2,13 +2,15 @@
 keywords: 建議；實作recommendations；使用者端代碼；驗證Token；垂直產業；篩選不相容模式；預設主機群組；縮圖基底；產生驗證Token；驗證Token；
 description: 瞭解如何設定 [!DNL Adobe Target Recommendations].
 title: 如何設定Recommendations的設定？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
+source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
