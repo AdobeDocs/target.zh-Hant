@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
+source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1260'
 ht-degree: 89%
 
 ---
@@ -273,7 +273,7 @@ ht-degree: 89%
       + [將資料下載為 CSV 檔案](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 統計方法 {#statistical-methodology}
       + [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + 個人化報表 {#personalization-reports}
+   + Personalization報表 {#personalization-reports}
       + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
    + 個人化前瞻分析報表 {#insights}
@@ -298,6 +298,7 @@ ht-degree: 89%
       + [目錄搜尋](c-recommendations/c-products/catalog-search.md)
       + [目錄搜尋beta版](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [集合](c-recommendations/c-products/collections.md)
+      + [收藏集測試版](/help/main/c-recommendations/c-products/collections-beta.md)
       + [排除項目](c-recommendations/c-products/exclusions.md)
    + 條件 {#criteria}
       + [條件概覽](c-recommendations/c-algorithms/algorithms.md)
