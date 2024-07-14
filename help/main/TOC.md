@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 89%
+source-wordcount: '1284'
+ht-degree: 88%
 
 ---
 
@@ -90,15 +90,15 @@ ht-degree: 89%
          + [共用量度、對象和報表 - A4T 常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 時 Target 與 Analytics 之間的預期資料變異](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + 將Target與Adobe Customer Journey Analytics整合 {#cja}
+   + 將Target與Adobe Customer Journey Analytics {#cja}整合
       + [Adobe Customer Journey Analytics中的Target報表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + 將Target與Adobe Journey Optimizer (AJO)整合 {#ajo}
+   + 將Target與Adobe Journey Optimizer (AJO)整合{#ajo}
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md)
-   + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
+   + 將Target與Adobe Experience Manager (AEM)整合{#aem}
       + [將Target與AEM整合概覽](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + 體驗片段和內容片段 {#fragments}
+      + 體驗片段和內容片段{#fragments}
          + [AEM體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
@@ -271,16 +271,16 @@ ht-degree: 89%
       + [在報表中檢視多個量度](c-reports/c-report-settings/view-multiple-metrics.md)
       + [排除極端值](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [將資料下載為 CSV 檔案](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + 統計方法 {#statistical-methodology}
+   + 統計方法{#statistical-methodology}
       + [A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Personalization報表 {#personalization-reports}
+   + Personalization報告{#personalization-reports}
       + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
    + 個人化前瞻分析報表 {#insights}
       + [個人化前瞻分析報表概覽](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動化區段報表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要屬性報表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + 多變數測試報表 {#multivariate-test-reports}
+   + 多變數測試報告{#multivariate-test-reports}
       + [體驗效能報表 (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [位置貢獻報表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 報告](c-reports/analytics-for-target-a4t-reporting.md)
@@ -303,11 +303,16 @@ ht-degree: 89%
       + [排除專案（測試版）](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 條件 {#criteria}
       + [條件概覽](c-recommendations/c-algorithms/algorithms.md)
+      + [條件概觀Beta版](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [建立條件](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [建立條件測試版](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [建立條件序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [建立標準序列（測試版）](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [讓建議以建議金鑰測試版為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target 推薦演算法背後的科學](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [上傳自訂條件](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [上傳自訂條件測試版](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 動態與靜態包含{#dynamic-static}
          + [使用動態和靜態包含規則](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [實體屬性比對](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
