@@ -7,20 +7,20 @@ feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 46%
+source-wordcount: '173'
+ht-degree: 35%
 
 ---
 
-# 使用的IP位址 [!DNL Recommendations] 摘要處理伺服器
+# [!DNL Recommendations]個摘要處理伺服器使用的IP位址
 
-使用的IP位址清單 [!DNL Adobe Target] [!DNL Recommendations] 摘要處理伺服器可協助您將防火牆設定為允許來自的IP位址 [!DNL Adobe] 伺服器。
+[!DNL Adobe Target] [!DNL Recommendations]摘要處理伺服器中使用的IP位址清單，可協助您將防火牆設定為允許來自[!DNL Adobe]伺服器的IP位址。
 
 >[!IMPORTANT]
 >
->此 [!DNL Target] 群組目前正在更新要下載的NAT閘道位址 [!DNL Recommendations] 摘要。 如果您實施IP允許清單，請確定您允許清單下列新的AWS主機。 現有主機預計於2024年6月30日停止服務。 為確保順利轉換，請將所有九個地址加入允許清單。 移除現有位址並不緊迫。
+>[!DNL Target]團隊目前正在更新NAT閘道位址，以便下載[!DNL Recommendations]摘要。 如果您實施IP允許清單，請確定您允許清單下列新的AWS主機。 現有主機預計於2024年6月30日停止服務。 為確保順利轉換，請將所有九個地址加入允許清單。 移除現有位址並不緊迫。
 
-[!DNL Target] [!UICONTROL Recommendations] 活動在存取客戶的 FTP 伺服器時會使用以下 AWS 主機：
+[!DNL Target] [!UICONTROL Recommendations]活動在存取客戶的FTP伺服器時會使用下列AWS主機：
 
 **新主機**：
 
@@ -41,4 +41,4 @@ ht-degree: 46%
 | 美國奧勒岡 | `44.232.167.82` |
 | 美國奧勒岡 | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Recommendations] API 也會使用相同的 AWS 主機。
+[!DNL Target] [!UICONTROL Recommendations] API也使用相同的AWS主機。

@@ -6,7 +6,7 @@ feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2350'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 * **學習熱門使用案例**：透過智慧最佳化藍圖將願景轉化為現實，超越規則型實驗和 A/B 測試，使 [!DNL Adobe Target] 客戶變得成熟。
 * **最大化獨特功能**：透過高效能推薦客製化成功體驗，以取得最高的 ROI、收入和轉換率。
-* **進階個人化策略**：深入探討AI/ML進階技術以擴展業務影響、與新區段/對象產生共鳴，並微調個人化模型以最佳化體驗。
+* **進階Personalization策略**：深入探討AI/ML進階技術以擴大業務影響、與新區段/對象產生共鳴，並微調個人化模型以最佳化體驗。
 
 * **[按一下這裡報名](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -133,7 +133,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
 
-   * [!UICONTROL Automated Personalization] 和[!UICONTROL 自動鎖定目標]活動中增強的模型控制
+   * [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中的增強型模型控制項
    * 釋放從 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 評估設定檔屬性和高值區段的能力
    * 品牌如何能夠藉由微調其 AI 支援的演算法達成更快的速度和決策
    * 獨特的使用案例以實現一對一個人化
@@ -156,7 +156,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   課程地圖：
 
-   * [!UICONTROL A/B 測試]，[!UICONTROL Multivariate Testing] (MVT)、(XT) 和以及自動化測試和個人化
+   * [!UICONTROL A/B Test]、[!UICONTROL Multivariate Testing] (MVT)、(XT)以及自動化測試和個人化
    * 活動設置的逐步工作流程
    * 批次體驗預取，實現行動端始終在線的個人化
    * 用於跨客戶體驗進行測試和定位的生命週期量度

@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3471'
-ht-degree: 90%
+source-wordcount: '3448'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 關於 [!DNL Adobe Target] [!DNL Recommendations] 活動的常見問答 (FAQ) 清單。
 
-## 為什麼當我搜尋包含某數值的自訂屬性時，[!UICONTROL 目錄搜尋]未顯示正確的結果？
+## 當我就具有某數值的自訂屬性進行搜尋時，為什麼[!UICONTROL Catalog Search]沒有顯示正確的結果？
 
 當您針對包含某數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
 
@@ -54,7 +54,7 @@ ht-degree: 90%
 >
 >在摘要檔案的狀態從「匯入項目」變更為「準備搜尋索引更新」時，摘要檔案會視為已匯入。更新可能需要 60 分鐘以上的時間才會反映在目錄搜尋使用者介面中；在摘要狀態變更為「更新完成」時，目錄搜尋處於最新狀態。即使目錄搜尋尚未處於最新狀態，您的網站仍會在上方所列的時間範圍反映更新。 最新目錄搜尋索引更新時間會顯示在目錄搜尋頁面上。
 
-## 變更我的 [!UICONTROL Recommendations] 活動、優惠、促銷活動或條件設定需要多久的時間才會反映在我的網站上？
+## 變更我的[!UICONTROL Recommendations]活動、優惠、促銷活動或條件設定需要多久的時間才會反映在我的網站上？
 
 * 促銷活動設定的變更最多可能需要五個小時的時間才會反映在網站上。
 * 其他條件設定的變更可能要等到下一次演算法執行後才會反映在網站上。
@@ -63,12 +63,12 @@ ht-degree: 90%
    * 其他條件設定（例如「移除動態包含規則」、變更回顧視窗等）要等到下一次演演算法執行後才能併入。
    * 這些變更會觸發演算法執行，但最多可能需要 24 小時的時間才能執行完成。 也會以每 12-24 小時的間隔安排執行演算法。
 
-## 使用者的行為（例如點選產品A及購買產品B）需要多久的時間才會反映在建議中 *該* 使用者會收到？
+## 使用者的行為（例如點選產品A及購買產品B）需要多久的時間才會反映在&#x200B;*使用者收到的建議？*
 
 * 目前已檢視/已購買的產品/內容會影響使用者在相同頁面檢視/[!DNL Target] 內容要求中所收到的建議。
-* 過去的使用者行為（例如「上一次檢視的產品」、「檢視次數最多的產品」及整體檢視/購買記錄）會更新該要求，並影響使用者在下一個頁面檢視/中收到的建議[!DNL Target] 內容要求。 例如，「最近檢視的專案」和「為您推薦的專案」演演算法會更新每個產品檢視/購買，並反映在後續的內容要求中。
+* 過去的使用者行為（例如「上次檢視的產品」、「檢視次數最多的產品」及整體檢視/購買記錄）會更新該要求，並影響使用者在下一個頁面檢視/[!DNL Target]內容要求中收到的建議。 例如，「最近檢視的專案」和「為您推薦的專案」演演算法會更新每個產品檢視/購買，並反映在後續的內容要求中。
 
-## 使用者的行為（例如點選產品A及購買產品B）需要多久的時間才會反映在建議中 *其他* 使用者會收到？
+## 使用者的行為（例如點選產品A及購買產品B）需要多久的時間才會反映在&#x200B;*其他*&#x200B;使用者收到的建議中？
 
 隨著每 12-24 小時執行一次演算法，使用者的行為會以彙整方式併入離線演算法處理中。
 
@@ -95,25 +95,25 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target] 具有 [篩選不相容的條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 設定，可控制演演算法選擇器的智慧型篩選。
+[!DNL Target]具有[篩選不相容的條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定，可控制演演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
->此設定僅適用於[!UICONTROL 可視化體驗撰寫器] (VEC) 中建立的活動。此設定不適用於表單式體驗撰寫器中建立的活動 ([!DNL Target] 沒有位置環境定義)。
+>此設定僅適用於[!UICONTROL Visual Experience Composer] (VEC)中建立的活動。 此設定不適用於表單式體驗撰寫器中建立的活動 ([!DNL Target] 沒有位置環境定義)。
 
-若要存取「[!UICONTROL 篩選不相容的條件]」設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」：
+若要存取[!UICONTROL Filter Incompatible Criteria]設定，請按一下[!UICONTROL Recommendations] > [!UICONTROL Settings]：
 
-![recs_settings_filter圖片](assets/recs_settings_filter.png)
+![recs_settings_filter影像](assets/recs_settings_filter.png)
 
-如果「未」啟用「[!UICONTROL 篩選不相容的條件]」設定，[!DNL Target] 就不會篩選「演算法選擇器」中的演算法，且所有演算法都會顯示。
+如果[!UICONTROL Filter Incompatible Criteria]設定未啟用，[!DNL Target]不會篩選演演算法選擇器中的演演算法，且所有演演算法都會顯示。
 
-如果「[!UICONTROL 篩選不相容的條件]」設定已啟用，則在 VEC 活動中，[!DNL Target] 會從選取的位置讀取 entityId 和 categoryId，然後根據 `currentItem|currentCategory` 來顯示演算法 (如果該位置上有各自的值)。 因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
+如果[!UICONTROL Filter Incompatible Criteria]設定已啟用，則在VEC活動中，[!DNL Target]會從選取的位置中讀取實體ID和類別ID，然後根據`currentItem|currentCategory`顯示演演算法（前提是該位置中存在個別的值）。 因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
 
-如果[!UICONTROL 篩選不相容的條件]設定已啟用，您仍可在選取條件時取消選取[!UICONTROL 「相容」]核取方塊，以檢視不相容的演算法。
+如果[!UICONTROL Filter Incompatible Criteria]設定已啟用，您仍然可以檢視不相容的演演算法，方法是在選取條件時取消選取[!UICONTROL Compatible]核取方塊。
 
 ![compatible_checkbox圖片](assets/compatible_checkbox.png)
 
-下列清單包含 [!DNL Target] 未顯示「[!UICONTROL 相容]」核取方塊的特殊情況：
+下列清單包含[!DNL Target]未顯示[!UICONTROL Compatible]核取方塊的特殊情況：
 
 * 該位置上有 entityId 和 categoryId，所以完全不篩選。
 * 您使用 [!DNL mbox.js] 55 版或更舊版本。
@@ -127,12 +127,12 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 您可以重新儲存集合，檢查數字是否會更新。再次儲存，集合會重新執行所有使用該集合的演算法。
 * 您所看的環境對嗎？ 請移至 [!DNL /target/products.html#recsSettings] 仔細檢查 (如下所示)。
 
-  ![product_catalog圖片](assets/product_catalog.png)
+  ![產品目錄影像](assets/product_catalog.png)
 
-* 索引是最新的嗎？ 移至 [!DNL /target/products.html#productSearch] 並檢查索引是幾小時以前編列的（例如「3小時前已編列索引」）。 您可以視需要重新整理索引。
+* 索引是最新的嗎？ 請移至[!DNL /target/products.html#productSearch]，檢查索引是幾小時以前編列的（例如「3小時前已編列索引」）。 您可以視需要重新整理索引。
 * 您是否更動過摘要或資料層，而導致實體不再符合收集規則？ 請確定「大小寫」相符 (區分大小寫)。
 * 摘要執行成功嗎? 是否有人變更了 FTP 目錄、密碼等？
-* [!DNL Target] 會盡力讓傳送儘快更新（在客戶的頁面/應用程式上）。 然而，[!DNL Target] 還是必須在 UI 上為行銷人員提供一些表示法。 [!DNL Target] 不會為了等待 UI 更新同步而延遲傳送更新。 您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
+* [!DNL Target]會盡全力讓傳送的更新（在客戶的頁面/應用程式上）儘快進行。 然而，[!DNL Target] 還是必須在 UI 上為行銷人員提供一些表示法。 [!DNL Target] 不會為了等待 UI 更新同步而延遲傳送更新。 您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 查看當請求進來時系統中有什麼。
 
 ## 一般「屬性加權」和「內容相似度」特有的屬性加權之間有何差異？  {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -140,13 +140,13 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 「標準屬性加權」適用於大部分 (但不是全部) 條件類型 (不只是「內容相似度」)。這種加權會給某些屬性值更多權重。在下列範例中，輸出推薦中會多一些 Nike 產品。
 
-![attribute_weighting_example圖片](assets/attribute_weighting_example.png)
+![attribute_weighting_example image](assets/attribute_weighting_example.png)
 
 「內容相似度屬性加權」僅適用於「內容相似度」條件。
 
 此型別的加權比較動態，且以目前的「建議索引鍵」（目前檢視的專案）為基礎。 在以下範例中（品牌x 16），如果訪客檢視Nike運動鞋，則很可能向該訪客推薦其他Nike產品（不一定只是運動鞋），而不是競爭者的運動鞋。 如果訪客在檢視 Adidas 運動鞋，則很可能向該訪客建議 Adidas 產品。
 
-![content_similarity_example圖片](assets/content_similarity_example.png)
+![content_similarity_example image](assets/content_similarity_example.png)
 
 ## 為何 [!DNL Target] 有時無法顯示推薦？ {#section_DB3F40673AED42228E407C05437D99E9}
 
@@ -244,7 +244,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。如需這兩個解決方案之間差異的詳細資訊，請參閱 [[!DNL Recommendations Classic] 與 [!DNL Recommendations] 中的活動 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
 
 ## 如何只推薦新文章或影片？ {#recommend-new-articles}
 
@@ -276,9 +276,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 >
 >此範例也可以使用參數比對並將 `priorDate60` 值作為 mbox 參數傳遞來完成。
 
-### 使用時有哪些已知問題 [!DNL Recommendations] 活動？
+### 使用[!DNL Recommendations]活動時有哪些已知問題？
 
-下列是 [!UICONTROL Recommendations] 活動的已知問題：
+下列是[!UICONTROL Recommendations]活動的已知問題：
 
 * 當 [!DNL Target] 傳回含 getOffer() 的 JSON 選件時，它會傳回 JSON 類型。然而，如果您傳回 JSON Recommendations 設計，則它會傳回 HTML 類型。
 * 若 60 天內未經由動態消息或 API 收到更新，過期的實體即會確實過期；不過，實體過期之後並未從目錄搜尋索引中移除。透過動態消息或 API 刪除的實體目前也不會從目錄搜尋索引中移除。(IRI-857)

@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 88%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * [!DNL Target] 中的分類尚未完全處理。
 
-   若要在第一次儲存後分類報表，通常需要 24 到 72 小時。
+  若要在第一次儲存後分類報表，通常需要 24 到 72 小時。
 
 * 報表套裝不含任何資料，但 [!DNL Target] 已嘗試將點閱分類。[!DNL Target] 要直到第一次點閱發生時才能夠分類。
 
-   確保報表套裝已至少有一次點閱。
+  確保報表套裝已至少有一次點閱。
 
 * 從 [!DNL Target] 至 [!DNL Analytics] 的分類呼叫失敗。
 
-   [請聯絡客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得協助。
+  [請聯絡客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得協助。
 
 如果您依據「Analytics for Target」維度劃分「未指定」列，而且它未包含任何活動 ID，則表示所有一切都已適當分類。 如果該處有列出活動 ID，則表示有分類問題。
 
@@ -41,13 +41,13 @@ ht-degree: 100%
 
 ## A4T 活動報告包含的一列有許多「未指定」事件。 {#added_unspecified_events}
 
-根據顯示您的資料所使用的量度，報告中可能會顯示「[!UICONTROL 未指定]」事件列。
+根據顯示您的資料所使用的量度，報告中可能會顯示&quot;[!UICONTROL Unspecified]&quot;事件列。
 
-一般來說，如果您在報表中選擇的常用量度不是 [!DNL Target] 所特有 (例如[!UICONTROL 頁面瀏覽數]、[!UICONTROL 造訪次數]、[!UICONTROL 不重複訪客]等)，就會顯示這一列。 在此情況下，[!UICONTROL 「未指定」]列會包含所有與 [!DNL Target] 活動無關聯的[!UICONTROL 頁面瀏覽數]、[!UICONTROL 造訪次數]和[!UICONTROL 不重複訪客]。
+一般來說，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如，[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors]等），就會顯示此列。 在此案例中，[!UICONTROL "Unspecified"]列包含未與[!DNL Target]活動相關聯的所有[!UICONTROL Page Views]、[!UICONTROL Visits]和[!UICONTROL Unique Visitors]。
 
 該列不會有任何 [!DNL Target] 相關資訊 (例如，沒有訪客、造訪次數或曝光率)。如需詳細資訊，請參閱 *Analytics 技術備忘稿*&#x200B;中[報表中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant)。
 
-如果您在報表中選擇 [!DNL Target] 特定量度，該[!UICONTROL 「未指定」]列就不會顯示。避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
+如果您在報表中選擇特定於[!DNL Target]的量度，該[!UICONTROL "Unspecified"]列就不會顯示。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
 
 ## 預估收入成長量度未顯示正確資料。 {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -55,11 +55,11 @@ Analytics 中沒有提升度和可信度詳細資料。不過，在 Target 中�
 
 ## 活動未出現在 Analytics 報表中。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用 Analytics 追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以確定您的 Analytics 追蹤伺服器設定正確。
+A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以確定您的Analytics追蹤伺服器設定正確。
 
 >[!NOTE]
 >
->如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 目標與設定]頁面上的[!UICONTROL 追蹤伺服器]欄位保留空白。
+>如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Tracking Server]欄位保留空白。
 
 ## 我的 Analytics 區段未出現在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 

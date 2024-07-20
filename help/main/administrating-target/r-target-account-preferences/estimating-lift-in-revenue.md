@@ -1,24 +1,24 @@
 ---
 keywords: 收入提升度; 收入; 預估收入提升度; 計算提升度; 估計值
-description: 如果趨勢如測試期間般持續，且每位訪客都看到成功體驗，預估您可能達到的提升度。
+description: 如果趨勢在測試期間持續不變，預估如果每位訪客都看到成功體驗可能達到的提升度。
 title: 我該如何估計收入成長？
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
 # 預估收入成長
 
-使用 [!DNL Adobe Target] 若要預估在所有使用者都檢視成功體驗時可能獲得的收入增益。
+使用[!DNL Adobe Target]來預估在所有使用者檢視成功體驗時將獲得的收入增益。
 
 >[!NOTE]
 >
->預估提升度不可用於 [!UICONTROL 體驗鎖定] (XT)活動。
+>預估提升度目前不適用於[!UICONTROL Experience Targeting] (XT)活動。
 
 依預設會關閉預估提升度功能。可在您的帳戶偏好設定中啟用。只有 Experience Cloud 管理員使用者可以啟用或停用此功能。如果已停用預估的提升度，則介面中不會出現對應的欄位。停用功能不會造成資料遺失，包括用於預估的資料。預估是根據收集的資料，而無論功能是否已啟用。
 
@@ -30,7 +30,7 @@ ht-degree: 84%
 
 預估收入提升度是根據從「主要目標」量度取得的「每次造訪帶來的收入 (RPV)」來計算。
 
-預估提升度使用下列公式計算： (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+預估提升度採用下列公式計算： （&lt;勝出體驗RPV> - &lt;控制體驗RPV&lt;）&#42;&lt;活動中的訪客總數>
 
 如果縮短格式在小數前只有一位數，則產生的數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K
 

@@ -5,9 +5,9 @@ title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
-workflow-type: ht
-source-wordcount: '1144'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics]。
 
-所有 [!DNL Analytics] 量度 (包括計算量度) 在 [!DNL Target] 及 [!DNL Analytics] 的 [!UICONTROL Target 活動]報表中都有提供，但有一個例外狀況。不支援[!UICONTROL 提升度和信賴度]的計算量度。同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或受眾套用至報表。
+所有[!DNL Analytics]量度（包括計算量度）都可在[!DNL Target]中使用，也可在[!DNL Analytics]的[!UICONTROL Target Activities]報表中使用，但有一個例外狀況。 不支援[!UICONTROL Lift & Confidence]的計算量度。 同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或受眾套用至報表。
 
 每個量度皆包含在內，包括 [!DNL Analytics] 內建的任何自訂量度或計算量度。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 * 每個活動皆會設定報告來源。[!DNL Target] 會持續收集資料以供報告使用，如果您偏好以 [!DNL Target] 收集的資料作為活動的基礎，還是可以使用 [!DNL Target] 資料。
 * 使用某個報告來源或其他報告來源。您無法同時從這兩個來源收集單一活動的資料。
 * 使用 A4T 時，活動可用的所有成功量度皆為 [!DNL Analytics] 量度。不過，如果使用 at.js，則目標量度可以根據 Mbox 呼叫。例如，您可以搭配 A4T 使用 Target 現成的點擊追蹤功能，而不必實作 [!DNL Analytics] 點擊追蹤程式碼。
-* 在 [!DNL Target] UI 中檢視 A4T 活動的報告時，您實際上是檢視 [!DNL Analytics] 資料。例如，如果您在 [!DNL Target] 中使用[!UICONTROL 訪客]量度，您實際上是使用 [!DNL Analytics] [!UICONTROL 訪客]量度，而非 [!DNL Target] [!UICONTROL 訪客]量度 (現在稱為[!UICONTROL 加入者])。對於基本流量量度 ([!UICONTROL 訪客數]、[!UICONTROL 造訪次數]、[!UICONTROL 頁面瀏覽數]) 和轉換量度，此差異尤其重要。
+* 在 [!DNL Target] UI 中檢視 A4T 活動的報告時，您實際上是檢視 [!DNL Analytics] 資料。例如，如果您在[!DNL Target]中使用[!UICONTROL Visitor]量度，您使用的是[!DNL Analytics] [!UICONTROL Visitor]量度，而非[!DNL Target] [!UICONTROL Visitors]量度（現在稱為[!UICONTROL Entrants]）。 此差異對於基本流量量度([!UICONTROL Visitors]、[!UICONTROL Visits]、[!UICONTROL Page Views])和轉換量度特別重要。
 * 任何現有 [!DNL Target] 活動都會繼續使用 [!DNL Target] 資料收集，不因為啟用 A4T 而受到影響。
 * 在使用 A4T 時，只允許一個 mbox 型量度。
 * 從 [!DNL Target] 到 [!DNL Analytics] 的伺服器對伺服器呼叫會將活動和體驗資訊傳送至 [!DNL Analytics]。此整合不會對 [!DNL Target] 或 [!DNL Analytics] 產生額外的伺服器呼叫。
@@ -60,7 +60,7 @@ ht-degree: 100%
 | [使用自動分配的 A/B 活動](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 請參閱[自動分配和自動鎖定目標活動的 A4T 支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 | [使用自動鎖定目標的 A/B 活動](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 | 自動鎖定目標活動的 A4T 支援，現在皆對 [!DNL Platform Web SDK] 和 at.js 提供支援。 |
 | [體驗鎖定 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
-| [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要 Mbox 型目標量度目標才能取得[!UICONTROL 元素貢獻]報表。[!UICONTROL 元素貢獻]報表目前不支援 [!DNL Analytics] 量度。 |
+| [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要mbox型目標量度目標才能取得[!UICONTROL Element Contribution]報表。 [!UICONTROL Element Contribution]報表目前不支援[!DNL Analytics]量度。 |
 | [Automated Personalization (AP) 活動](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
 | [Recommendations 活動](/help/main/c-recommendations/recommendations.md) | 是 |  |
 | [任何使用重新導向選件的活動](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
@@ -69,27 +69,27 @@ ht-degree: 100%
 
 ## A4T 報表的範例 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-若要在 [!DNL Target] 中檢視 A4T 報表，請按一下&#x200B;**[!UICONTROL 活動]**，從清單中按一下所需的活動 (該活動使用 [!DNL Analytics] 作為其報告來源)，然後按一下&#x200B;**[!UICONTROL 報表]**&#x200B;索引標籤。
+若要在[!DNL Target]中檢視A4T報表，請按一下&#x200B;**[!UICONTROL Activities]**，從清單中按一下所需的活動（使用[!DNL Analytics]作為其報表來源），然後按一下&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
 
 >[!NOTE]
 >
->您可以使用[!UICONTROL 活動]頁面頂端的[!UICONTROL 報告來源]下拉式清單，只顯示使用 A4T 的活動。
+>您可以使用[!UICONTROL Activities]頁面頂端的[!UICONTROL Reporting Source]下拉式清單，只顯示使用A4T的活動。
 
-您可以按一下報表右上方的適當圖示，在報表的[!UICONTROL 表格檢視]與[!UICONTROL 圖表檢視]之間切換。
+您可以按一下報表右上方的適當圖示，在報表的[!UICONTROL Table View]和[!UICONTROL Graph View]之間切換。
 
-下圖顯示 A4T 報表的[!UICONTROL 「圖表檢視」]，其中[!UICONTROL 「報表量度」]下拉式清單顯示可用的 [!DNL Analytics] 目標量度:
+下圖顯示A4T報表的[!UICONTROL Graph View]，其中[!UICONTROL Report Metric]下拉式清單顯示可用的[!DNL Analytics]目標量度：
 
 ![a4t_report_graph1 圖片](assets/a4t_report_graph1.png)
 
-下圖顯示 A4T 報表的[!UICONTROL 「圖表檢視」]，其中[!UICONTROL 「受眾」]下拉式清單顯示可用的 [!DNL Analytics] 受眾:
+下圖顯示A4T報表的[!UICONTROL Graph View]，其中[!UICONTROL Audience]下拉式清單顯示可用的[!DNL Analytics]個對象：
 
 ![a4t_report_graph2 圖片](assets/a4t_report_graph2.png)
 
-下圖顯示 A4T 報表的[!UICONTROL 「表格檢視」]:
+下圖顯示A4T報表的[!UICONTROL Table View]：
 
 ![a4t_report_table 圖片](assets/a4t_report_table.png)
 
-若要在 [!DNL Analytics] 中檢視報表，而非在 [!DNL Target] 中，請按一下報表頂端的&#x200B;**[!UICONTROL 在 Analytics 中檢視]**。
+若要在[!DNL Analytics]中檢視報表，而非[!DNL Target]，請按一下報表頂端的&#x200B;**[!UICONTROL View in Analytics]**。
 
 ## Analytics 與 Target：分析最佳做法教學課程 {#section_3438E6E77A464424B717A4FD333B84B2}
 

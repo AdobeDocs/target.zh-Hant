@@ -1,19 +1,19 @@
 ---
 keywords: 多變數測試;mvt;mvt 計劃;多變數測試計劃
-description: 瞭解如何規劃 [!UICONTROL 多變數測試] 在 [!DNL Adobe Target] 以便建立成功的測試。
-title: 如何規劃 [!UICONTROL 多變數測試]？
+description: 瞭解如何在 [!DNL Adobe Target] 中規劃[!UICONTROL Multivariate Test]，以便建立成功的測試。
+title: 如何計畫[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 65%
+source-wordcount: '286'
+ht-degree: 64%
 
 ---
 
-# 計畫a [!UICONTROL 多變數測試]
+# 計畫[!UICONTROL Multivariate Test]
 
-[!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 需要一些計畫，才能建立成功的測試。
+[!DNL Adobe Target]中的[!UICONTROL Multivariate Tests] (MVT)活動需要一些規劃，才能建立成功的測試。
 
 MVT需要足夠的流量，才能產生有用的結果。 設定測試之前，請注意您平常取得的流量，包括曝光次數和轉換次數。擁有此資訊有助於降低設計需求超過網站流量的測試的可能性。
 
@@ -25,9 +25,9 @@ MVT需要足夠的流量，才能產生有用的結果。 設定測試之前，�
 
 最後，在建立測試之前，請建立您想測試的內容。瞭解每一個選件的內容差異，並建立您打算用在測試中的任何影像、文字和 HTML 選件。
 
-## 訓練影片: 建立多變數測試 (9:25) ![Tutorial badge](/help/main/assets/tutorial.png)
+## 訓練影片：建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片示範如何使用計畫及建立多變數測試。 [!DNL Target] 三步驟引導式工作流程。
+此影片示範如何使用[!DNL Target]三步驟引導式工作流程來規劃和建立多變數測試。
 
 * 定義和設計多變數測試
 * 建立多變數測試

@@ -2,17 +2,17 @@
 keywords: Recommendations;Recommendations 條件;建議演算法;recommendations 活動;條件;recommendations 鎖定目標;recs
 description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
 title: 什麼是  [!DNL Target] Recommendations？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '922'
+ht-degree: 97%
 
 ---
 
-# Recommendations
+# 建議
 
 [!DNL Adobe Target Recommendations] 活動可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。[!DNL Target Recommendations] 可協助引導訪客至他們可能不知道的相關項目。[!DNL Recommendations] 讓您在適當的時間地點提供訪客相關內容。
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 下圖顯示網頁上的建議:
 
-![velocity_example影像](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 推薦會根據訪客在網站上的活動，決定對訪客建議產品的方式。例如:
 
@@ -72,7 +72,7 @@ ht-degree: 99%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 基礎網路研討會：Recommendations 簡介 ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}
+## Adobe Target基礎網路研討會： Recommendations簡介![教學課程徽章](/help/main/assets/tutorial.png) {#intro-to-recs}
 
 *Recommendations 簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
 

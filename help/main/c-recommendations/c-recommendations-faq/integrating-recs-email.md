@@ -2,12 +2,12 @@
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
 description: 了解如何將電子郵件與 Adobe [!DNL Target Recommendations], including using the [!DNL Target] 傳送 API、rawbox 範本及僅供下載的範本整合。
 title: 如何將 Recommendations 與電子郵件整合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1734'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 使用方法 1 或方法 2 時，ESP 必須根據每位客戶/每封電子郵件對外部 API 進行呼叫，並等待傳回內容。並非所有 ESP 都支援這些方法；請聯絡您的 ESP 以判斷其是否與此整合模式相容。
 
-使用方法 3 時，您的 ESP 必須依產品 ID 或類別 ID 將推薦清單聯結至您的電子郵件清單。此方法可以根據客戶上次檢視的產品、上次購買的產品或檢視次數最多的類別等屬性。 但是，您的 ESP 必須在其客戶設定檔中擁有此資料的存取權，才能執行聯結。請聯絡您的 ESP 以判斷其是否具有此資料的存取權，而且與此整合模式相容。
+使用方法 3 時，您的 ESP 必須依產品 ID 或類別 ID 將推薦清單聯結至您的電子郵件清單。此方法可以根據客戶上次檢視的產品、上次購買的產品或最常檢視的類別等屬性。 但是，您的 ESP 必須在其客戶設定檔中擁有此資料的存取權，才能執行聯結。請聯絡您的 ESP 以判斷其是否具有此資料的存取權，而且與此整合模式相容。
 
 [!DNL Adobe Target] 不支援推薦的開放時間個人化。
 
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >各電子郵件收件者 (例如，針對每個 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供唯一值。 如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的許多事件而變得緩慢或失敗。
 
-如需詳細資訊，請參閱[傳送 API 文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html)。{target=_blank}
+如需詳細資訊，請參閱[傳送API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}。
 
 ## 方法 2：使用 rawbox 電子郵件範本 {#rawbox}
 
@@ -103,7 +103,7 @@ rawbox 類似於 mbox 請求，但適用於非 Web 環境，例如電子郵件�
 
 * 在此情況下，[!DNL Target] 伺服器將傳回下列內容：
 
-   `//ERROR: application server timeout`
+  `//ERROR: application server timeout`
 
 * 電子郵件應用程式應該搜尋該文字，而且必須能夠處理錯誤。電子郵件提供者有多個選項可用於處理此情況:
 

@@ -1,7 +1,7 @@
 ---
 keywords: 排除項目
-description: 瞭解如何在中建立排除專案 [!DNL Target Recommendations] 以防止將產品或內容推薦給訪客。
-title: 如何使用中的排除專案 [!UICONTROL Recommendations] 活動？
+description: 瞭解如何在 [!DNL Target Recommendations] 中建立排除專案，以防止向訪客建議產品或內容。
+title: 如何在[!UICONTROL Recommendations]活動中使用排除專案？
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # 排除項目
 
-在中建立排除專案 [!DNL Adobe Target Recommendations] 以防止將產品或內容推薦給訪客。 排除是不建議給訪客的產品或內容子集。
+在[!DNL Adobe Target Recommendations]中建立排除專案，以防止向訪客建議產品或內容。 排除是不建議給訪客的產品或內容子集。
 
-整個帳戶都可以使用排除專案。 不像集合，當您建立時，為每個體驗指定特定的集合 [!UICONTROL Recommendations] 活動、排除適用於該帳戶的所有活動。 活動建立期間沒有指派排除群組的選項。
+整個帳戶都可以使用排除專案。 集合是當您建立[!UICONTROL Recommendations]活動時，為每個體驗指定特定的集合，與此不同，排除適用於整個帳戶的所有活動。 活動建立期間沒有指派排除群組的選項。
 
 您使用排除專案的次數範例包括：
 
@@ -28,27 +28,27 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->排除規則會全域套用至全部 [環境](/help/main/administrating-target/environments.md).
+>排除規則會全域套用至所有[環境](/help/main/administrating-target/environments.md)。
 >
 >靜態和動態排除規是可協助您從事行銷活動的強大功能。如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
 ## 建立排除項目
 
-1. 按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** 以顯示現有排除專案的清單。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**」以顯示現有排除專案的清單。
 
-   ![exclusions_list圖片](assets/exclusions-list.png)
+   ![排除專案清單影像](assets/exclusions-list.png)
 
-   針對「 」上每個排除專案報告的「專案數」 [!UICONTROL Exclusions] list view是設定的預設Recommendations中符合該排除專案規則的產品數量 [主機群組](/help/main/administrating-target/hosts.md) （環境）。 另請參閱 [計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} 在 *Adobe Target開發人員指南* 以取得有關如何變更預設主機群組的資訊。
+   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」，為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
 
-1. （視條件而定）按一下 [!UICONTROL Filter] 圖示，然後選擇所需的 [環境](/help/main/administrating-target/environments.md) 從 **[!UICONTROL Environment]** 建立（或更新）排除專案時的下拉式清單，以便預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
+1. （視條件而定）按一下[!UICONTROL Filter]圖示，然後在建立（或更新）排除專案時從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)，以預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
 
    ![建立排除項目](/help/main/c-recommendations/c-products/assets/choose-environment.png)
 
 1. 按一下 **[!UICONTROL Create Exclusion]**。
 
-   ![建立排除專案對話方塊](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
+   ![建立排除對話方塊](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
-1. 輸入排除專案 **[!UICONTROL Name]** 並輸入選擇性說明。
+1. 輸入排除專案&#x200B;**[!UICONTROL Name]**&#x200B;並輸入選擇性說明。
 
 1. 使用規則產生器來建立排除項目。
 
@@ -70,7 +70,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 編輯、複製或刪除排除專案
 
-按一下 **省略符號** 圖示按一下清單中所需排除專案旁的圖示，然後按一下適當的圖示：「編輯」、「複製」或「刪除」。
+按一下清單中所需排除專案旁的&#x200B;**省略符號**&#x200B;圖示，然後按一下適當的圖示：編輯、複製或刪除。
 
 ![選項：編輯、複製和刪除](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
 

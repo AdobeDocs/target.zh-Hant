@@ -6,7 +6,7 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1320'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 >* Experience Cloud 訪客 ID 服務: visitorAPI.js 版本 2.3.0 或更新版本。
 >* Adobe Analytics: appMeasurement.js 版本 2.1。
 >* Adobe Target: at.js 0.9.6 版或更新版本 (若 A4T 使用重新導向選件，則不包括 1.1.0 版)。
-
 
 ## 哪些部分有了變更？ {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 

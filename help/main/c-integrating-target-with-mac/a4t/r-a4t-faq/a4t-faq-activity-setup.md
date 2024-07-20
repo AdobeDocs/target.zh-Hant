@@ -1,23 +1,24 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;活動設定
-description: 為以下專案使用Analytics時尋找有關活動設定的問題解答： [!DNL Target] (A4T)。 A4T可讓您將Analytics報表用於 [!DNL Target] 活動。
+description: 尋找使用Analytics for [!DNL Target] (A4T)時活動設定的相關問題解答。 A4T可讓您對 [!DNL Target] 個活動使用Analytics報告。
 title: 我可以在哪裡找到有關A4T活動設定的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 10%
+source-wordcount: '596'
+ht-degree: 6%
 
 ---
 
 # 活動設定 - A4T 常見問題集
 
-此主題包含經常詢問關於活動設定和使用問題的回答 [!DNL Analytics] 做為的報表來源 [!DNL Target] (A4T)。
+此主題包含經常詢問關於活動設定和使用[!DNL Analytics]做為[!DNL Target] (A4T)報表來源問題的回答。
 
-## 支援哪些活動型別 [!DNL Analytics] 做為報表來源(A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## 哪些活動型別支援[!DNL Analytics]做為報表來源(A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-+++如需完整清單，請參閱以下的「支援的活動型別」： [Adobe Analytics作為Adobe Target (A4T)的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
++++回答
+如需完整清單，請參閱[Adobe Analytics as a4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)中的「支援的活動型別」，作為Adobe Target的報表Source。
 
 +++
 
@@ -25,45 +26,49 @@ ht-degree: 10%
 
 +++回答
 
-請勿對來自不同的兩個活動使用相同的活動名稱 [工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 使用A4T報表的客戶。
+請勿對使用A4T報表之不同[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)中的兩個活動使用相同的活動名稱。
 
-雖然這在使用時受到支援 [!DNL Target] 作為報表來源，使用時，不支援為兩個活動使用相同的活動名稱 [!UICONTROL 目標分析] 作為報表來源。
+雖然使用[!DNL Target]作為報表來源時支援此功能，但是使用[!UICONTROL Analytics for Target]作為報表來源時，不支援對兩個活動使用相同的活動名稱。
 
 +++
 
 ## 設定目標量度時，為何無法存取進階設定？
 
-+++使用回答活動 [!DNL Analytics] 作為報表來源(A4T)，目標量度使用「[!UICONTROL 增加計數以及讓使用者留在活動中]「和」[!UICONTROL 在每次曝光時]「設定。 這些設定為 *非* 可設定。
++++回答
+對於使用[!DNL Analytics]作為報表來源(A4T)的活動，目標量度使用&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;和&quot;[!UICONTROL On Every Impression]&quot;設定。 這些設定是&#x200B;*不可設定的*。
 
-如需詳細資訊，請參閱「設定目標量度時，為何無法存取進階設定選項？」 在 [量度定義 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+如需詳細資訊，請參閱「設定目標量度時，為何無法存取進階設定選項？」 在[量度定義中 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)。
 
 +++
 
 ## 我剛才建立了活動。為何沒看到任何資料進入? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++回答建立活動時， [!DNL Target] 傳送分類檔案至 [!DNL Analytics]. 雖然 [!DNL Analytics] 擷取及處理資料時，在更新分類檔案之前，不會顯示在報表中。 此程式可能需要24到72小時的時間才能完成。 如果72小時之後沒看到資料， [連絡Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). 或者，如果您知道您啟動了一個活動，您可以提前幾天建立該活動，並在儲存活動時傳送分類。 於是，啟動後資料即會立即出現在報表中。請注意，在中處理資料需要45到90分鐘 [!DNL Analytics].
++++回答
+建立活動時，[!DNL Target]會將分類檔案傳送至[!DNL Analytics]。 雖然[!DNL Analytics]正在擷取及處理資料，但只有在更新分類檔案後，才會顯示在報表中。 此程式可能需要24到72小時的時間才能完成。 如果您在72小時之後沒有看到資料，請[連絡客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 或者，如果您知道您啟動了一個活動，您可以提前幾天建立該活動，並在儲存活動時傳送分類。 於是，啟動後資料即會立即出現在報表中。請注意，在[!DNL Analytics]內處理資料需要45到90分鐘。
 
 +++
 
 ## 建立活動時，為何無法選取Analytics作為報表來源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++回答您可以變更您的 [!UICONTROL 報表設定] 中的選項 [!UICONTROL 管理].
++++回答
+您可以在[!UICONTROL Administration]中變更您的[!UICONTROL Reporting Settings]選項。
 
-1. 在 [!DNL Target]，按一下 **[!UICONTROL 管理]**.
-1. 在&#x200B;**[!UICONTROL 「用於報表的 Experience Cloud 解決方案」]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL 「為每個活動選取」]**。
+1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]**。
+1. 在&#x200B;**[!UICONTROL Experience Cloud solution used for reporting]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL Select per Activity]**。
 
 ![為每個活動選取影像](assets/select-per-activity.png)
 
-**[!UICONTROL 「目標與設定」]**&#x200B;畫面中會啟用&#x200B;**[!UICONTROL 「報表來源」]**&#x200B;下拉式清單，以供您建立和編輯活動。
+已在&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;畫面中啟用&#x200B;**[!UICONTROL Reporting Source]**&#x200B;下拉式清單，以用於建立和編輯活動。
 
-永遠使用 [!DNL Analytics] 作為報表來源，選取「 」 **[!UICONTROL Adobe Analytics]** 從的下拉式清單 [!UICONTROL 管理].
+若要一律使用[!DNL Analytics]作為報表來源，請在[!UICONTROL Administration]中從下拉式清單選取&#x200B;**[!UICONTROL Adobe Analytics]**。
 
 +++
 
 ## 在使用A4T的自動鎖定目標活動中，訪客可以在不同造訪中的目標體驗和控制體驗之間切換嗎？
 
-+++回答假設訪客的visitorId在兩次造訪之間未變更，則符合下列條件。
++++回答
+假設訪客的visitorId在兩次造訪之間未變更，則情況如下。
 
 如果流量分配百分比在活動期間調整，訪客可能會在目標鎖定和控制體驗之間移動。
 
@@ -74,8 +79,9 @@ ht-degree: 10%
 
 +++
 
-## 我可以使用二項式嗎 [!DNL Analytics] 量度，並將區段套用為中的最佳化目標 [!UICONTROL 自動分配] 活動？ {#binomial}
+## 我可以在[!UICONTROL Auto-Allocate]活動中，將二項式[!DNL Analytics]量度搭配作為最佳化目標的區段一起使用嗎？ {#binomial}
 
-+++回答您無法使用 [!DNL Analytics] 量度，並將區段套用為中的最佳化目標 [!UICONTROL 自動分配] 活動。 暫行解決方法是定義達成相同目標的自訂事件，並將其作為最佳化目標量度。
++++回答
+您無法將[!DNL Analytics]量度與已套用為[!UICONTROL Auto-Allocate]活動中最佳化目標的區段搭配使用。 暫行解決方法是定義達成相同目標的自訂事件，並將其作為最佳化目標量度。
 
 +++

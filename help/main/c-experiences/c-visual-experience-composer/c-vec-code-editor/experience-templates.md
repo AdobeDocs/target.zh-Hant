@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
 # 體驗範本
 
-相關資訊 [!DNL Adobe Target] 用於自訂程式碼中的體驗範本。 [!DNL Target] 體驗範為具有可設定輸入的預先編碼樣本，以用於執行常見的行銷人員使用案例。
+有關用於自訂程式碼的[!DNL Adobe Target]體驗範本的資訊。 [!DNL Target]體驗範本是預先編碼的範例，具有可設定的輸入，用於執行常見行銷人員使用案例。
 
 這些體驗範本可透過 VEC 或表單式體驗撰寫器免費提供給開發人員和行銷人員，做為執行常見使用案例的起點。
 
@@ -23,7 +23,7 @@ ht-degree: 77%
 
 [Banner Carousel with Thumbnails 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。此輪播不會透過影像自動旋轉，可按一下主影像下方的較小影像直接進行互動。
 
-![exp-template-banner-carousel-thumbnails圖片](assets/exp-template-banner-carousel-thumbnails.png)
+![exp-template-banner-carousel-thumbnails影像](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## Banner Carousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
@@ -53,11 +53,11 @@ ht-degree: 77%
 
 [Lightbox with Exit Intent 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)為退出意圖 (將滑鼠移至畫面右上角) 所觸發的燈箱覆蓋彈出式視窗，可部署於任何您想在最後吸引注意的 Web 屬性上。
 
-![exp-template-lightbox-exit影像](assets/exp-template-lightbox-exit.png)
+![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-[Lightbox 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)為帶有內建延遲的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
+[燈箱體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)為帶有內建延遲的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
 ![exp-template-lightbox影像](assets/exp-template-lightbox.png)
 

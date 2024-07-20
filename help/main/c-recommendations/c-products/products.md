@@ -1,14 +1,14 @@
 ---
 keywords: 產品;集合
-description: 瞭解Adobe中的實體 [!DNL Target] Recommendations。 實體會使用來參照您要建議的專案 [!DNL Target]，例如文章、影片或產品。
+description: 瞭解Adobe [!DNL Target] Recommendations中的實體。 實體會使用 [!DNL Target]參考您想要建議的專案，例如文章、影片或產品。
 title: 如何使用實體？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 74%
+source-wordcount: '114'
+ht-degree: 68%
 
 ---
 

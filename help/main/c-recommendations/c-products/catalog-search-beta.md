@@ -1,6 +1,6 @@
 ---
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器；推薦
-description: 瞭解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search] 若要尋找產品或內容，請從目錄中移除專案等等。
+description: 瞭解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]來尋找產品或內容、從目錄中移除專案等等。
 title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
@@ -16,21 +16,21 @@ ht-degree: 21%
 
 # [!UICONTROL Catalog Search]
 
-此 [!UICONTROL Catalog Search] 頁面位置 [!DNL Adobe Recommendations] 可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。
+[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。
 
 目錄是指您的整個產品集 (實體)。您的目錄可以包含許多系列，好讓您以邏輯區間組織產品。
 
-## 存取 [!UICONTROL Catalog Search]
+## 存取[!UICONTROL Catalog Search]
 
-若要存取 [!UICONTROL Catalog Search] 頁面，按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+若要存取[!UICONTROL Catalog Search]頁面，請按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
 
 ![目錄搜尋頁面](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
 
 ## 執行簡單搜尋
 
-1. 在「 」中輸入搜尋字詞 **[!UICONTROL Search In]** 欄位。
+1. 在&#x200B;**[!UICONTROL Search In]**&#x200B;欄位中輸入搜尋字詞。
 
-1. （選擇性）您可以從選項功能表中選取搜尋選項(按一下 [!UICONTROL Search In] 欄位。
+1. （選擇性）您可以從選項功能表中選取搜尋選項（按一下「[!UICONTROL Search In]」欄位中的向下箭頭時顯示），以縮小搜尋範圍。
 
    搜尋選項包含下列項目:
 
@@ -46,7 +46,7 @@ ht-degree: 21%
    >
    >目前沒有可讓您變更屬性型別的功能。 若要變更，[開啟客戶問題](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，指出需要將類型從字串變更為數值的屬性。
 
-   您也可以使用篩選器來尋找所需的產品。 例如，按一下 **[!UICONTROL Show Filters]** 圖示( ![顯示篩選器圖示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) )，展開 [!UICONTROL Collections] Facet，然後選取一或多個集合，目錄會顯示屬於所選集合的所有產品。
+   您也可以使用篩選器來尋找所需的產品。 例如，按一下「**[!UICONTROL Show Filters]**」圖示（「![顯示篩選器」圖示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）、展開「[!UICONTROL Collections]」Facet，然後選取一或多個集合，目錄中屬於所選集合的所有產品都會顯示。
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -88,7 +88,7 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
 ## 重新整理目錄
 
-上傳第一個摘要時，系統會自動建立目錄的索引，並根據 [指定的排程](/help/main/c-recommendations/c-products/feeds.md#steps).
+當您上傳第一個摘要時，目錄索引會自動建立，並根據[指定的排程](/help/main/c-recommendations/c-products/feeds.md#steps)重新整理。
 
 透過摘要檔案、API 或 mbox 更新收到更新時，目錄會自動重新整理。更新通常會在一小時內完成。 如果正在進行更新，會顯示最新更新的開始時間。如果沒有任何正在進行的更新，會顯示最新更新的開始和結束時間。
 
@@ -108,11 +108,11 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## 變更環境
 
-[環境](/help/main/administrating-target/environments.md) 可讓您組織網站和生產前環境，以便輕鬆管理和分隔報表。
+[環境](/help/main/administrating-target/environments.md)可讓您組織您的網站和生產前環境，以方便管理和分隔報表。
 
-1. 按一下顯示篩選器圖示( ![顯示篩選器圖示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) )。
+1. 按一下「顯示篩選器」圖示（ ![顯示篩選器圖示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ）。
 
-1. 從中選擇所需的環境 **[!UICONTROL Environment]** 下拉式清單。
+1. 從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選取所需的環境。
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,9 +134,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 修改欄
 
-您可以暫時修改上作用中的欄 [!UICONTROL Catalog Search] 頁面。
+您可以暫時修改[!UICONTROL Catalog Search]頁面上的作用中欄。
 
-1. 按一下 **[!UICONTROL Customize Table]** 圖示(  ![自訂表格圖示](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) )。
+1. 按一下&#x200B;**[!UICONTROL Customize Table]**&#x200B;圖示（ ![自訂表格圖示](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ）。
 
 1. 選取或取消選取想要顯示或隱藏的欄。
 

@@ -1,6 +1,6 @@
 ---
 keywords: 集合;鎖定目標
-description: 瞭解如何使用中的產品或專案集合 [!DNL Target Recommendations].
+description: 瞭解如何在 [!DNL Target Recommendations]中使用產品或專案的集合。
 title: 如何在Recommendations活動中使用集合？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
@@ -28,35 +28,35 @@ ht-degree: 40%
 
 包含條件的用途類似集合，但必須在您每次建立活動時設定。集合可讓您一次建立一組項目，然後在適當時機派上用場，而不必再次設定。
 
-當您建立或編輯 [!DNL Recommendations] 活動時，集合名稱會出現在 [!UICONTROL Criteria] 標籤在活動圖表上。
+當您建立或編輯[!DNL Recommendations]活動時，集合名稱會出現在活動圖表的[!UICONTROL Criteria]標籤旁。
 
 >[!NOTE]
 >
->使用時不會套用集合 [!UICONTROL Recently Viewed Items] 建議金鑰。
+>使用[!UICONTROL Recently Viewed Items]建議索引鍵時不會套用集合。
 
 ## 建立集合 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 建立集合來組織您要在建議中顯示的產品或內容。
 
-1. 按一下 **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** 以顯示現有集合的清單。
+1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Collections]**」以顯示現有集合清單。
 
    ![集合清單](assets/collections_list.png)
 
-   此 [!UICONTROL Collections] 頁面會顯示您現有集合的清單。 您可以按一下 [!UICONTROL Create Collection] 按鈕。 您也可以將游標移至所需的集合上，然後按一下所需的圖示，以編輯、複製和刪除現有集合。
+   [!UICONTROL Collections]頁面會顯示您現有集合的清單。 您可以按一下[!UICONTROL Create Collection]按鈕來建立新的集合。 您也可以將游標移至所需的集合上，然後按一下所需的圖示，以編輯、複製和刪除現有集合。
 
    ![暫留圖示：編輯、複製和刪除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   針對每個集合報告的「專案數」，在 [!UICONTROL Collections] list view為設定的預設Recommendations中，符合集合規則的產品數量 [主機群組](/help/main/administrating-target/hosts.md) （環境）。 另請參閱 [設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 變更預設主機群組。
+   [!UICONTROL Collections]清單檢視上各集合的「專案數」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合集合規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以變更預設主機群組。
 
 1. 按一下 **[!UICONTROL Create Collection]**。
 
-1. （視條件而定）從 **[!UICONTROL Environment]** 建立（或更新）集合時進行篩選，以預覽該環境中的集合內容。 依照預設，會顯示預設主機群組的結果。
+1. （依條件）建立（或更新）集合時，從&#x200B;**[!UICONTROL Environment]**&#x200B;篩選器中選擇一個環境，以便預覽該環境中的集合內容。 依照預設，會顯示預設主機群組的結果。
 
    ![建立集合](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 輸入a **[!UICONTROL Name]** 用於集合。
+1. 輸入集合的&#x200B;**[!UICONTROL Name]**。
 
-   您也可以輸入選填的 **[!UICONTROL Description]**.
+   您也可以輸入選擇性的&#x200B;**[!UICONTROL Description]**。
 
 1. 設定用來建立集合的規則。
 
@@ -68,11 +68,11 @@ ht-degree: 40%
 
 ## 使用進階搜尋建立集合
 
-您也可以使用上的進階搜尋建立集合 [目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 頁面([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])。
+您也可以使用[目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md#save-as)頁面上的「進階搜尋」([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])來建立集合。
 
-![另存新檔對話方塊](/help/main/c-recommendations/c-products/assets/save-as.png)
+![另存為對話方塊](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-例如，使用&quot;id > contains&quot;建立搜尋之後，您就可以按一下 [!UICONTROL Save As] > [!UICONTROL Collection].
+例如，使用&quot;id > contains&quot;建立搜尋之後，您就可以按一下[!UICONTROL Save As] > [!UICONTROL Collection]。
 
 >[!IMPORTANT]
 >
@@ -82,7 +82,7 @@ ht-degree: 40%
 
 將滑鼠懸停在清單中所需的集合上，然後按一下適當的圖示：編輯、複製或刪除。
 
-![集合的暫留圖示](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+集合的![暫留圖示](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
 您可以複製現有收藏集以建立重複的收藏集，然後進行修改。 這可讓您輕鬆建立類似的排除專案。
 
@@ -92,13 +92,13 @@ ht-degree: 40%
 
 1. 使用上述其中一種方法建立集合。
 
-1. 按一下 **[!UICONTROL Activities]** 和 [建立新的Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) 活動或編輯現有活動。
+1. 按一下&#x200B;**[!UICONTROL Activities]**&#x200B;和[建立新的Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活動或編輯現有的活動。
 
-1. 選取條件和設計後， [!UICONTROL Options] 頁面會在您選取所需集合時顯示。
+1. 選取條件與設計後，若您選取想要的集合，則會顯示[!UICONTROL Options]頁面。
 
    ![選擇集合選項](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
-1. （視條件而定）若要變更現有的集合設定，請在 **[!UICONTROL Experiences]** 頁面（三步驟引導式工作流程的步驟2），按一下您放置建議的位置，然後按一下 **[!UICONTROL Change Collection]**，然後選取所需的集合。
+1. （視條件而定）若要變更現有的集合設定，請在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面（三步驟引導式工作流程的步驟2）上按一下您放置建議的位置，按一下「**[!UICONTROL Change Collection]**」，然後選取所要的集合。
 
    ![變更集合選項](/help/main/c-recommendations/c-products/assets/change-collection.png)
 

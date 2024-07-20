@@ -12,10 +12,10 @@ ht-degree: 20%
 
 ---
 
-# 計畫和實作 [!DNL Recommendations]
+# 計畫和實作[!DNL Recommendations]
 
-開始使用之前 [!DNL Adobe Target Recommendations]，您必須完成數個步驟。
+開始使用[!DNL Adobe Target Recommendations]之前，您必須完成數個步驟。
 
-此 [Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 包含如何實作的相關資訊 [!DNL Recommendations] 以及實施方式 [!DNL Target].
+[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}包含如何在您的網站上實作[!DNL Recommendations]以及如何實作[!DNL Target]的相關資訊。
 
-如需詳細資訊和逐步指示，請參閱 [計畫和實作Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 在 *Adobe Target開發人員指南* 入口網站。
+如需詳細資訊和逐步指示，請參閱&#x200B;*Recommendations開發人員指南*&#x200B;入口網站中的[計畫和實作Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。

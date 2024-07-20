@@ -5,9 +5,9 @@ title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
-source-wordcount: '2507'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2465'
+ht-degree: 89%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 對訪客顯示的內容取決於您建立的活動類型。
 
-### [!UICONTROL A/B 測試]
+### [!UICONTROL A/B Test]
 
 基本 A/B 測試中顯示的內容是從您指派給活動的體驗中隨機選擇。您可以為每個體驗指派流量分配百分比。由於這種隨機流量分割，在百分比分割之前可能需要大量的初始流量。例如，如果您建立兩個體驗，則會隨機挑選開始的體驗。如果流量小，該百分比的訪客可能全偏到其中一個體驗。隨著流量增加，百分比會相等。
 
@@ -52,41 +52,41 @@ ht-degree: 100%
 
 如需詳細資訊，請參閱[建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-### [!UICONTROL 自動分配]
+### [!UICONTROL Auto-Allocate]
 
-[!UICONTROL 自動分配]可識別兩個或更多體驗中的成功者。 [!UICONTROL 自動分配]會自動將更多流量重新分配給成功體驗，這有助於在測試持續執行和學習的同時提高轉換率。
+[!UICONTROL Auto-Allocate]會從兩個或多個體驗中識別獲勝者。 [!UICONTROL Auto-Allocate]會自動將更多流量重新分配給成功體驗，這有助於在測試持續執行和學習的同時提高轉換率。
 
-如需詳細資訊，請參閱[[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+如需詳細資訊，請參閱[[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-### [!UICONTROL 自動鎖定目標] (AT)
+### [!UICONTROL Auto-Target] (AT)
 
-[!UICONTROL 自動鎖定目標使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。][!UICONTROL 自動鎖定目標為每位訪客提供最自訂的體驗。]體驗傳送是根據個別客戶個人資料和具有類似個人資料的先前訪客的行為。使用 [!UICONTROL Auto-Target] 個人化內容並推升轉換率。
+[!UICONTROL Auto-Target]使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。 [!UICONTROL Auto-Target]為每位訪客提供最自訂的體驗。 體驗傳送是根據個別客戶個人資料和具有類似個人資料的先前訪客的行為。使用[!UICONTROL Auto-Target]個人化內容並推動轉換。
 
 如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
 ### [!UICONTROL Automated Personalization] (AP)
 
-[!UICONTROL Automated Personalization] (AP) 結合優惠方案或訊息，並使用進階機器學習將不同的優惠方案配對給每位訪客。體驗提供是以個別客戶個人檔案為基礎，以個人化內容並提升提升度。
+[!UICONTROL Automated Personalization] (AP)結合選件或訊息，並使用進階機器學習將不同的選件變數與每位訪客比對。 體驗提供是以個別客戶個人檔案為基礎，以個人化內容並提升提升度。
 
 如需詳細資訊，請參閱 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
 
-### [!UICONTROL 體驗鎖定] (XT)
+### [!UICONTROL Experience Targeting] (XT)
 
-[!UICONTROL Experience Targeting] (XT) 會根據一組行銷人員定義的規則和條件將內容提供給特定對象。
+[!UICONTROL Experience Targeting] (XT)會根據一組行銷人員定義的規則和條件將內容提供給特定對象。
 
-體驗鎖定目標 (包括地理定位) 對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。您可以在傳送不同內容變數至不同受眾的活動中定義數個規則。訪客檢視您的網站時，[!UICONTROL Experience Targeting] (XT) 會評估訪客，以判斷他們是否符合您設定的條件。如果他們符合條件，他們會進入活動，並且針對符合資格受眾設計的體驗會顯示。您可以為單一活動內的多個受眾建立體驗。
+[!UICONTROL Experience Targeting] （包括地理定位）對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同受眾的活動中定義數個規則。當訪客檢視您的網站時，[!UICONTROL Experience Targeting] (XT)會評估訪客，以判斷他們是否符合您設定的條件。 如果他們符合條件，他們會進入活動，並且針對符合資格受眾設計的體驗會顯示。您可以為單一活動內的多個受眾建立體驗。
 
 如需詳細資訊，請參閱[體驗鎖定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)。
 
-### [!UICONTROL 多變數測試] (MVT)
+### [!UICONTROL Multivariate Test] (MVT)
 
-[!UICONTROL Multivariate Testing] (MVT) 會比較頁面上元素中的優惠方案組合，以判斷哪些組合對於特定對象的表現最好。MVT 可協助識別最影響活動成功的元素。
+[!UICONTROL Multivariate Testing] (MVT)會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象的執行效果最佳。 MVT 可協助識別最影響活動成功的元素。
 
 如需詳細資訊，請參閱[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
 
 ### [!UICONTROL Recommendations]
 
-[!UICONTROL Recommendations] 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。Recommendations 有助於將客戶引導至他們可能尚不知道的相關項目。
+[!UICONTROL Recommendations]活動可依據先前的使用者活動或其他演演算法，自動顯示可能使客戶感興趣的產品或內容。 Recommendations 有助於將客戶引導至他們可能尚不知道的相關項目。
 
 如需詳細資訊，請參閱 [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
 
@@ -148,14 +148,14 @@ ht-degree: 100%
 
 * [!DNL Adobe] 會依據產業標準確保基準效能，這一點在 Adobe 的服務等級合約中已給予保證。
 * Edge 網路確保資料及時傳送。
-* [!UICONTROL Adobe 採用多層面的方法保護其應用程式，使其為客戶提供最高水準的可用度和可靠度。]
+* [!UICONTROL Adobe]採用多層面的方法保護其應用程式，使其為客戶提供最高水準的可用度和可靠性。
 * [!DNL Target] 諮詢服務提供實作協助和使用中產品的支援。
 
 ## 搜尋引擎最佳化 (SEO) 友善測試 {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] 會符合搜尋引擎對於測試的準則。
 
-Google 鼓勵使用者測試。Google 在其文件中表示，如果您遵循某些方針，A/B 和 [!UICONTROL Multivariate Testing] 則不會對有機搜尋引擎排名帶來傷害。
+Google 鼓勵使用者測試。Google在其檔案中表示，如果您遵循特定准則，A/B和[!UICONTROL Multivariate Testing]不會損害有機搜尋引擎排名。
 
 如需詳細資訊，請參閱下列 Google 資源:
 
@@ -194,7 +194,7 @@ Google 表示下列這些準則「應該會讓您的測試幾乎或完全不影�
 
 Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示給使用者的組合無關，我們會從索引中移除該網站。」
 
-[!UICONTROL Adobe 認為，在測試變異中，很難無意間改變原始內容的含義。]然而，[!UICONTROL Adobe] 建議注意頁面上的關鍵字主題並維護這些主題。變更頁面內容 (尤其是新增或刪除有意義的關鍵字) 可能導致 URL 在自然搜尋中的排名發生變化。[!DNL Adobe] 建議您與 SEO 合作夥伴互動，以作為測試通訊協定的一部分。
+[!UICONTROL Adobe]認為在測試變異中，很難無意間改變原始內容的含義。 但是，[!UICONTROL Adobe]建議注意頁面上的關鍵字主題並維護這些主題。 變更頁面內容 (尤其是新增或刪除有意義的關鍵字) 可能導致 URL 在自然搜尋中的排名發生變化。[!DNL Adobe] 建議您與 SEO 合作夥伴互動，以作為測試通訊協定的一部分。
 
 ## 機器人 {#bots}
 
@@ -211,11 +211,11 @@ Adobe [!DNL Target] 使用 [DeviceAtlas](https://deviceatlas.com/device-data/use
 * 建立或擷取訪客個人資料
 * 記錄任何個人資料屬性或執行個人資料指令碼
 * 查詢 [!DNL Adobe Audience Manager] (AAM) 區段 (如果適用)
-* 在建模和提供 [!UICONTROL Recommendations]、[!UICONTROL Auto-Target]、[!UICONTROL Automated Personalization] 或 [!UICONTROL Auto-Allocate] 活動的個人化內容中，使用機器人流量
+* 使用機器人流量，針對[!UICONTROL Recommendations]、[!UICONTROL Auto-Target]、[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Allocate]活動建立模型並提供個人化內容
 * 記錄活動造訪以進行回報
 * 記錄要傳送至 [!DNL Adobe Experience Cloud] 平台的資料
 
-對於在使用 [!UICONTROL Analytics for Target] (A4T) 時的已知機器人流量，[!DNL Target] 不會：
+對於使用[!UICONTROL Analytics for Target] (A4T)時的已知機器人流量，[!DNL Target]不會：
 
 * 傳送事件至[!DNL Analytics]
 

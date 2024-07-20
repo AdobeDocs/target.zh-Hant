@@ -105,7 +105,7 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同型別的轉換事件，例如下載PDF、完成問卷、訂閱電子報、觀看影片等。
 
-如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用如標籤類的標籤管理員進行此設定 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 您也可以將離線或應用程式內的互動傳送至 [!DNL Target] 透過即時API。
+如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員（例如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的標籤）進行此設定。 也可以透過即時API將離線或應用程式內的互動傳送至[!DNL Target]。
 
 ### 透過正確的內容取得建議
 
@@ -129,7 +129,7 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 ![插圖顯示構成 Recommendations 活動的元素：對象、條件和設計](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 隨附立即可用的 14 個內建對象、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾使用 [關於建立受眾的網路研討會](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) 在 [!DNL Target]. 本節重點在於如何定義條件，這會定義將建議哪些項目。
+[!DNL Target] 隨附立即可用的 14 個內建對象、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦[次有關在[!DNL Target]中建立對象](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
 
 Target 使用條件卡的概念。條件卡就像個人化的方式。
 

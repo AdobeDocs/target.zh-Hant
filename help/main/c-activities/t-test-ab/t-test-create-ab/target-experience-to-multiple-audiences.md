@@ -1,19 +1,19 @@
 ---
 keywords: 多個對象; 體驗版本; 鎖定體驗版本
-description: 瞭解如何在中將相同體驗的版本鎖定至不同的受眾 [!DNL Adobe Target] A/B活動。
+description: 瞭解如何在 [!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。
 title: 我可以在A/B活動中使用多個體驗版本嗎？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 56%
+source-wordcount: '590'
+ht-degree: 53%
 
 ---
 
 # A/B 測試中的多個體驗對象
 
-您可以將相同體驗的版本鎖定在中的不同對象 [!DNL Adobe Target] A/B活動。 您可以為中的體驗設定多個對象 [!UICONTROL 視覺化體驗撰寫器] (VEC)或在表單式體驗撰寫器中取得。
+您可以在[!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。 您可以在[!UICONTROL Visual Experience Composer] (VEC)或表單式體驗撰寫器中為體驗設定多個對象。
 
 當訪客的設定檔變更時，訪客可在體驗對象之間切換。 訪客不會卡在活動期限的相同體驗中。
 
@@ -33,11 +33,11 @@ ht-degree: 56%
 
    設定將有多個版本的體驗時，請選取每個版本的對象，如下列步驟所示。
 
-1. 選取體驗，然後按一下&#x200B;**[!UICONTROL 「設定」]**>**[!UICONTROL 「對象」]**>**[!UICONTROL 「多個對象」]**。
+1. 選取體驗，然後按一下&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**。
 
    ![多個受眾選項](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「新增對象」]**，然後選取您要鎖定的第一個對象。對每個對象重複。
+1. 按一下「**[!UICONTROL Add Audience]**」，然後選取您要鎖定的第一個對象。 對每個對象重複。
 
    ![exp-versions影像](assets/exp-versions.png)
 
@@ -51,4 +51,4 @@ ht-degree: 56%
 
 * 選擇互斥的對象。 如果活動是在VEC中建立，且訪客符合多個對象，則會傳回每個對象的內容，且頁面上最後會顯示所列對象的內容。
 * 圖表中定義的活動項目對象會使用 AND 條件與體驗對象結合。若要進入活動，訪客必須符合活動對象以及其中一個體驗對象的資格。
-* 新增相同的對象作為報表的區段。這有助於您在體驗A與B的高層級上檢視測試結果，而在「瀏覽器lang ja_JP」的體驗A與B的低層級上檢視測試結果。 這僅適用於 [!DNL Target]以報告為基礎，而非 [!DNL Analytics] — 型報表。
+* 新增相同的對象作為報表的區段。這有助於您在體驗A與B的高層級上檢視測試結果，而在「瀏覽器lang ja_JP」的體驗A與B的低層級上檢視測試結果。 這僅適用於以[!DNL Target]為基礎的報表，不適用於以[!DNL Analytics]為基礎的報表。

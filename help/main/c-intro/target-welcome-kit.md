@@ -6,8 +6,8 @@ feature: Overview
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * [第 1 章：簡介](/help/main/c-intro/target-welcome-kit-1.md)
 * [第 2 章：Adobe Target 總覽](/help/main/c-intro/target-welcome-kit-2.md)
-* [第 3 章：開發您的測試和個人化概念](/help/main/c-intro/target-welcome-kit-3.md)
+* [第3章：開發您的測試和個人化概念](/help/main/c-intro/target-welcome-kit-3.md)
 * [第 4 章：使用 Target 的提示](/help/main/c-intro/target-welcome-kit-4.md)
 * [第 5 章：測試和個人活動的靈感](/help/main/c-intro/target-welcome-kit-5.md)
 * [第 6 章：容易避免的陷阱](/help/main/c-intro/target-welcome-kit-6.md)

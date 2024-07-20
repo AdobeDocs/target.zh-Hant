@@ -1,13 +1,13 @@
 ---
 keywords: 多變數測試;mvt;體驗效能報表
-description: 瞭解如何使用體驗效能報表進行Adobe [!DNL Target] 顯示活動中每個體驗表現方式的體驗鎖定目標活動。
+description: 瞭解如何針對Adobe [!DNL Target] 體驗鎖定目標活動使用體驗效能報表，以顯示活動中每個體驗的執行成果。
 title: 如何將體驗效能報表用於多變數測試？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 88%
+ht-degree: 81%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 88%
 
 體驗效能報表顯示活動中的每個體驗的執行成果。此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
 
-您可以選取一或多個體驗來相互比較。按一下體驗並選取&#x200B;**[!UICONTROL 「預覽」]**，在瀏覽器標籤中開啟體驗。
+您可以選取一或多個體驗來相互比較。按一下體驗並選取&#x200B;**[!UICONTROL Preview]**&#x200B;以在瀏覽器索引標籤中開啟體驗。
 
-![Adobe Target中的體驗效能報表](/help/main/c-reports/assets/experienceperformancetable.png)
+Adobe Target中的![體驗效能報表](/help/main/c-reports/assets/experienceperformancetable.png)
 
 報表頂端會顯示報表中使用的量度、開始和結束日期，以及對象。您可以變更任何係數。
 
@@ -35,7 +35,7 @@ ht-degree: 88%
 
 在圖形下方，表格顯示有多少位加入者看過每一個體驗，以及與成功量度相關的其他資訊。
 
-## 訓練影片: 建立 MVT 測試 ![Tutorial badge](/help/main/assets/tutorial.png)
+## 訓練影片：建立MVT測試![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。8:20 開始說明「體驗效能」報表。
 

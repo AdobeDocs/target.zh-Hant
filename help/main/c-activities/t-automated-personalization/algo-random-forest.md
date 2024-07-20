@@ -1,24 +1,24 @@
 ---
 keywords: 隨機森林；決策樹；ap；Automated Personalization
-description: 瞭解如何 [!DNL Adobe Target] 同時使用隨機森林演演算法 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自動鎖定目標] 活動。
-title: 如何 [!DNL Target] 使用隨機森林演演算法？
+description: 瞭解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中使用隨機森林演演算法。
+title: ' [!DNL Target] 如何使用隨機森林演演算法？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1413'
 ht-degree: 41%
 
 ---
 
 # 隨機森林演算法
 
-(AP)和中使用的主要個人化演演算法 [!DNL Auto-Target] 活動是隨機森林。 整體方法（例如隨機森林）會使用多種學習演演算法，以獲得比從任何組成學習演演算法都更好的預測效能。 中的隨機森林演演算法 [!UICONTROL Automated Personalization] 和 [!UICONTROL 自動鎖定目標] 是一種分類或回歸方法，在訓練時透過建構許多決策樹來運作。
+在(AP)和[!DNL Auto-Target]活動中使用的主要個人化演演算法是「隨機森林」。 整體方法（例如隨機森林）會使用多種學習演演算法，以獲得比從任何組成學習演演算法都更好的預測效能。 [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]中的隨機森林演演算法是一種分類或回歸方法，在訓練時透過建構許多決策樹來運作。
 
 在思考統計學時，您可能會想到使用單一迴歸模型來預測結果。最新的資料科學研究指出，「整體方法」可從相同資料集建立多個模型，然後進行智慧式合併，因此產生的結果比根據單一模型來預測更好。
 
-隨機森林演演算法是中使用的關鍵基本個人化演演算法 [!UICONTROL Automated Personalization] 和 [!UICONTROL 自動鎖定目標] 活動。 隨機森林結合了數百棵決策樹，比單一樹木單獨做出更好的預測。
+隨機森林演演算法是在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中使用的關鍵基本個人化演演算法。 隨機森林結合了數百棵決策樹，比單一樹木單獨做出更好的預測。
 
 ## 什麼是決策樹？ {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -35,33 +35,33 @@ ht-degree: 41%
 
 此動作會產生決策樹的第一層：
 
-![decision_tree_1圖片](assets/decsion_tree_1.png)
+![decsion_tree_1影像](assets/decsion_tree_1.png)
 
-決策樹會提出以下問題：「何謂預測性最高的變數？」 在此範例中，只有兩個變數，因此這裡的答案顯然是性別。 樹狀結構現在看起來會完成分割資料的類似練習 *在每個分支內*. 首先，以 11111、22222 和 33333 分支為例。在這些郵遞區號中，如果男和女的轉換率不同，則會有兩個分葉 (男和女)，而此分支也就完成。在其他分支(44444和55555)中，假設男女轉換率之間沒有統計差異。 在此情況下，第一個分支就成為最終分割。
+決策樹會提出以下問題：「何謂預測性最高的變數？」 在此範例中，只有兩個變數，因此這裡的答案顯然是性別。 樹狀結構現在會完成類似的練習，在每個分支&#x200B;*中分割資料*。 首先，以 11111、22222 和 33333 分支為例。在這些郵遞區號中，如果男和女的轉換率不同，則會有兩個分葉 (男和女)，而此分支也就完成。在其他分支(44444和55555)中，假設男女轉換率之間沒有統計差異。 在此情況下，第一個分支就成為最終分割。
 
 此範例會產生以下樹狀結構：
 
-![decision_tree_2圖片](assets/decsion_tree_2.png)
+![decsion_tree_2影像](assets/decsion_tree_2.png)
 
 ## 隨機森林如何使用決策樹？ {#section_536C105EF9F540C096D60450CAC6F627}
 
 決策樹雖然是強大的統計工具，但有一些缺點。最嚴重的情況是可能會「過度配適」資料，以致於個別樹狀結構難以預測並未用來建立原始樹狀結構的未來資料。在統計學習中，此難題稱為[偏誤及變數之權衡](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)隨機森林有助於克服這種過度契合的挑戰。 站在最高的角度來看，隨機森林是一群在相同資料集上以稍微不同的方式建立的決策樹，經過共同「表決」而產生比個別狀結構更好的模型。這些樹狀結構是透過隨機選取具有取代的造訪記錄子集（稱為標籤），並隨機選取屬性子集（因此樹狀結構由稍微不同的決策樹組成）所建置。 此方法會對隨機森林中建立的樹狀結構造成輕微變化。加入此控制的變數有助於改善演算法的預測準確度。
 
-## 如何 [!DNL Target] 個人化演演算法使用隨機森林？ {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## [!DNL Target]個人化演演算法如何使用隨機森林？ {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 ### 如何建立模型
 
-下圖會概述如何為建立模型 [!UICONTROL 自動鎖定目標] 和 [!UICONTROL Automated Personalization] 活動：
+下圖總結了如何為[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動建立模型：
 
 ![random_forest_flow圖片](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
 1. Target會收集訪客的資料，同時隨機提供體驗或選件
-1. 晚於 [!DNL Target] 達到關鍵數量的資料， [!DNL Target] 執行特徵工程
-1. [!DNL Target] 為每個體驗或選件建立隨機森林模型
-1. [!DNL Target] 檢查模型是否符合臨界品質分數
-1. [!DNL Target] 將模型推到生產環境來個人化未來流量
+1. 在[!DNL Target]點選關鍵數量的資料後，[!DNL Target]會執行功能工程
+1. [!DNL Target]會為每個體驗或選件建置隨機森林模型
+1. [!DNL Target]檢查模型是否符合臨界值品質分數
+1. [!DNL Target]將模型推送至生產環境，以便個人化未來的流量
 
-[!DNL Target] 使用自動收集的資料以及您提供的自訂資料，建置其個人化演演算法。 這些模型會預測最佳體驗或選件來顯示給訪客。一般而言，每個體驗會建立一個模型(如果 [!UICONTROL 自動鎖定目標] 活動)或每個選件(若有 [!UICONTROL Automated Personalization] 活動)。 [!DNL Target] 然後顯示產生最高預測成功量度（例如轉換率）的體驗或選件。 這些模型必須在隨機提供的造訪上經過訓練，才能用來預測。因此，當活動最初開始時，即使對於個人化群組中的訪客，也會隨機顯示不同的體驗或選件，直到個人化演算法就緒為止。
+[!DNL Target]會使用自動收集的資料，以及您提供的自訂資料，來建置其個人化演演算法。 這些模型會預測最佳體驗或選件來顯示給訪客。一般而言，每個體驗（如果是[!UICONTROL Auto-Target]活動）或每個選件（如果是[!UICONTROL Automated Personalization]活動）會建立一個模型。 [!DNL Target]接著會顯示產生最高預測成功量度（例如轉換率）的體驗或選件。 這些模型必須在隨機提供的造訪上經過訓練，才能用來預測。因此，當活動最初開始時，即使對於個人化群組中的訪客，也會隨機顯示不同的體驗或選件，直到個人化演算法就緒為止。
 
 每個模型都必須經過驗證，才能在用於活動之前完美預測訪客的行為。 模型會根據它們在曲線下的面積(AUC)來驗證。 由於需要驗證，模型開始提供個人化體驗的確切時間會根據資料的詳細資訊而定。 在實務上及流量規劃用途上，每個模型通常要超過最低轉換次數才有效。
 
@@ -80,8 +80,8 @@ ht-degree: 41%
 
 ### 採用多臂吃角子老虎機來平衡學習與個人化
 
-晚於 [!DNL Target] 已建立個人化模型來個人化您的流量，對於未來造訪您活動的訪客，有一個明確的取捨。 您應該根據目前模型來個人化所有流量，還是應該透過隨機提供選件來繼續向新訪客學習？ 您需要確保個人化演算法一定會學習到訪客的最新趨勢，同時又將多數的流量個人化。
+在[!DNL Target]建立個人化模型以個人化您的流量後，您對未來活動的訪客有一個明確的權衡。 您應該根據目前模型來個人化所有流量，還是應該透過隨機提供選件來繼續向新訪客學習？ 您需要確保個人化演算法一定會學習到訪客的最新趨勢，同時又將多數的流量個人化。
 
-多臂吃角子老虎機 [!DNL Target] 協助您達成此目標。 多臂吃角子老虎機可確保模型一律「花費」少量流量，在整個活動學習期間持續學習，並防止過度利用先前學習的趨勢。
+多臂吃角子老虎機是[!DNL Target]如何協助您達成此目標。 多臂吃角子老虎機可確保模型一律「花費」少量流量，在整個活動學習期間持續學習，並防止過度利用先前學習的趨勢。
 
 在資料科學界，多臂強盜問題是探索與開發困境的經典範例，在此範例中，一組單臂強盜各自具有未知的獎勵概率。 主要概念是開發一套策略，只玩成功機率最高的臂，使獲得的總報酬最大化。在建立線上模型後，系統中會使用多臂吃角子老虎機進行線上評分。 此程式有助於在探索期間進行線上學習。 目前的多臂演演算法是epsilon (ε)貪婪演演算法。 在此演算法中，根據機率 1- ε 來選擇最佳的臂。此外，根據機率 ε 會隨機選擇任何其他臂。

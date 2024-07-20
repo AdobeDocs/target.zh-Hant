@@ -1,13 +1,13 @@
 ---
 keywords: 疑難排解；量度差異；FAQ；報表；新訪客；新訪客；舊訪客；舊訪客；回訪；新造訪
-description: 探索有關Adobe常見問答的清單 [!DNL Target] 報告。
-title: 何處可以找到關於以下專案的解答： [!DNL Target] 報表？
+description: 探索有關Adobe [!DNL Target] 報告的常見問答清單。
+title: 哪裡可以找到有關 [!DNL Target] 報告的問題的解答？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 25%
+source-wordcount: '1367'
+ht-degree: 20%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 25%
 
 * 這是訪客第一次造訪網站。
 * 這是訪客自 Cookie 清除後第一次造訪網站。
-* 這是自以下日期以來該訪客第一次造訪網站： [訪客設定檔存留期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 已過期。
+* 這是訪客自[訪客設定檔存留期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)過期後第一次造訪網站。
 
 ### 再度訪問的訪客
 
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 在活動的整體訪客計數中，即使此訪客同時計入新訪客和回訪訪客區段，仍會計為單一訪客。
 
-**範例2**：新訪客和回訪訪客計數之間的差異也取決於您設定活動之 [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**範例2**：新訪客和回訪訪客計數之間的差異也取決於您設定活動[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的方式。
 
 例如：
 
@@ -61,13 +61,13 @@ ht-degree: 25%
 
 有些訪客點選轉換量度，該量度已設定為「增加計數以及讓使用者留在活動中」。 假設其中某些使用者多次點選轉換量度，轉換量度不會增加。 但是，進行此設定後，有些使用者可能會點選轉換量度，然後導覽回首頁，再次符合活動資格以記錄新的造訪。
 
-## 我的 [!UICONTROL 體驗鎖定目標] (XT) 報表為何包含控制體驗的量度?
+## 我的[!UICONTROL Experience Targeting] (XT)報表為何包含控制體驗的量度？
 
-XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試]活動 (這是相當常見的案例) 的方式使用 XT 活動，控制體驗資料會很實用。如果您發現控制體驗資料在您的報表中並不實用，您可以將其忽略。
+XT 活動應一律都有控制體驗。如果您以類似[!UICONTROL A/B Test]活動（這是相當常見的案例）的方式使用XT活動，控制體驗資料會很實用。 如果您發現控制體驗資料在您的報表中並不實用，您可以將其忽略。
 
-## 造訪次數為何會低於下列專案： [!DNL Target] 比在其他 [!DNL Adobe Experience Cloud] 解決方案？ {#section_7E626FDB417E41B8B58BBF30FB207409}
+## [!DNL Target]中的造訪次數為何比其他[!DNL Adobe Experience Cloud]解決方案中的造訪次數低？ {#section_7E626FDB417E41B8B58BBF30FB207409}
 
-所報告的量度數字，例如造訪 [!DNL Target] 一律低於其他網站報告的數字 [!DNL Experience Cloud] 個解決方案，原因如下：
+由於下列原因，[!DNL Target]所報告的量度數字（例如造訪）一律低於其他[!DNL Experience Cloud]解決方案中所報告的數字：
 
 * [!DNL Target] 只會計算活動合格訪客的造訪次數。其他解決方案會針對顯示頁面的訪客來計算造訪次數，而不在乎將他們帶到頁面的活動。
 * 不同的活動有時會爭奪相同的位置 (互斥)。因此，訪客在網頁上會看到不同內容，因而影響 [!DNL Target] 所報告的量度數字。
@@ -87,16 +87,16 @@ XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試
 
 若要變更活動報表的環境:
 
-1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
+1. 按一下「**[!UICONTROL Activities]**」，從清單中按一下所需的活動，然後按一下「**[!UICONTROL Reports]**」標籤。
 1. 按一下齒輪圖示進行報表設定。
 
    ![A/B 設定對話方塊](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. 從&#x200B;**[!UICONTROL 「環境」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「生產」]**。
+1. 從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Production]**。
 
    如果您選取了開發環境，則可能沒有報表資料可用。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 如需環境的詳細資訊，請參閱[主機](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
@@ -104,27 +104,27 @@ XT 活動應一律都有控制體驗。如果您以類似 [!UICONTROL A/B 測試
 
 如果活動的內容成功傳送給使用者，但其報表不含任何資料，請確定您使用具有流量的體驗作為控制體驗。
 
-1. 按一下&#x200B;**[!UICONTROL 「活動」]**，從清單中按一下所需的活動，然後按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
+1. 按一下「**[!UICONTROL Activities]**」，從清單中按一下所需的活動，然後按一下「**[!UICONTROL Reports]**」標籤。
 1. 按一下齒輪圖示進行報表設定。
 
-1. 從 **[!UICONTROL 控制]** 下拉式清單，選取接收流量的體驗。
+1. 從&#x200B;**[!UICONTROL Control]**&#x200B;下拉式清單中，選取接收流量的體驗。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
->如需如何更新的詳細資訊 [!UICONTROL Automated Personalization] (AP)活動並將控制體驗變更為接收流量的體驗，請參閱 [選取Automated Personalization或自動鎖定目標活動的控制權](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>如需有關如何更新[!UICONTROL Automated Personalization] (AP)活動以及將控制體驗變更為接收流量的體驗的詳細資訊，請參閱[選取Automated Personalization或自動鎖定目標活動的控制項](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。
 
 
 ## 為什麼我的A/B或MVT活動中的體驗之間流量分割不平均？ {#uneven}
 
-例如，我將流量分割設為50/50或25/25/25/25/25，但在報表中看到體驗之間的分佈大相逕庭。 中訪客計數不平均有幾個可解釋的原因 [!DNL Target] 報告：
+例如，我將流量分割設為50/50或25/25/25/25/25，但在報表中看到體驗之間的分佈大相逕庭。 [!DNL Target]報表中有幾個不平均訪客計數可解釋的原因：
 
-* 當 [!DNL Target] 活動首次啟動時，流量分配可能會不平均，因為邊緣節點架構具有以下特點： [!DNL Target] 使用來最佳化體驗傳送。 最佳實務是給予活動一些時間以收集更多資料，且分配將會正常化。 如需詳細資訊，請參閱 [!DNL Adobe Target] 架構和邊緣節點，請參閱 [Adobe Target的運作方式](/help/main/c-intro/how-target-works.md).
-* 如果您在 [!DNL Target] 或 [!DNL Analytics] 而您正在使用 **[!UICONTROL 造訪]** 量度，請記住 [!DNL Target] 是以訪客為基礎的系統，且在訪客層級上指派A/B或MVT測試的流量分佈。 因此，如果您使用檢查活動結果 **[!UICONTROL 造訪]** 量度，流量分佈可能會呈現不平均，因為某些訪客可能會有多次造訪。 訪客是評估活動績效時的標準標準化量度。
+* 首次啟動[!DNL Target]活動時，流量分佈可能會不平均，因為[!DNL Target]用來最佳化體驗傳遞的邊緣節點架構。 最佳實務是給予活動一些時間以收集更多資料，且分配將會正常化。 如需[!DNL Adobe Target]架構和Edge節點的詳細資訊，請參閱[Adobe Target運作方式](/help/main/c-intro/how-target-works.md)。
+* 如果您在[!DNL Target]或[!DNL Analytics]，而且您使用&#x200B;**[!UICONTROL Visits]**&#x200B;量度，請記住[!DNL Target]是以訪客為基礎的系統，且A/B或MVT測試的流量分配是在訪客層級指派。 因此，如果您使用&#x200B;**[!UICONTROL Visits]**&#x200B;量度來檢查活動結果，流量分佈可能會呈現不平均的狀態，因為某些訪客可能會有多次造訪。 訪客是評估活動績效時的標準標準化量度。
 * A/B和MVT測試的最佳實務是保持流量分割均勻。 在測試期間變更體驗之間的流量分佈（例如從90/10到50/50）可能會導致體驗之間的訪客不平均。 較低的流量體驗可能永遠無法「趕上」。
 * 如果您遵循上述最佳實務，且流量分割不會隨著時間正常化，您應檢查下列專案：
 
-   * 您使用最新的at.js資料庫嗎？ 如需最新版本和相關發行說明的詳細資訊，請參閱 [at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * 您使用最新的at.js資料庫嗎？ 如需目前版本和相關發行說明的詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
-   * 這是重新導向測試嗎？ 在頁面上引發的標籤計時不正確可能會導致不平均的流量分割，尤其是在使用時 [!DNL Analytics] 作為的資料來源 [!DNL Target] 活動。 如需使用Analytics for Target (A4T)修正重新導向活動上不平均流量分佈的詳細資訊，請參閱 [重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * 這是重新導向測試嗎？ 標籤在頁面上引發的時間不正確會導致不平均的流量分割，尤其是在使用[!DNL Analytics]做為[!DNL Target]活動的資料來源時。 如需使用Analytics for Target (A4T)修正重新導向活動上不平均流量分佈的詳細資訊，請參閱[重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。

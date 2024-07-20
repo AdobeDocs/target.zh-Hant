@@ -6,7 +6,7 @@ feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '399'
 ht-degree: 89%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 | 陷阱 | 解決方案 |
 | --- | --- |
-| 流量不足，無法達到統計上顯著的結果。 | 使用 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 預先瞭解測試必須執行多久，然後執行測試以完成。 |
+| 流量不足，無法達到統計上顯著的結果。 | 預先使用[!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)瞭解測試必須執行多久，然後執行測試以完成。 |
 | 進行過小或不引人注目的更改。 | 讓變更變得足夠大，如此當您站在離螢幕幾英尺的地方時，就能看到變更。 |
 | 未能使活動與業務目標相協調。 | 加強對優先順序方法的關注，並向內部利害關係人通報該方法。 |
 | 測試積壓很少或沒有。 | 與內部利害關係人互動，讓他們提交符合關鍵業務目標的測試。 |
@@ -29,7 +29,7 @@ ht-degree: 89%
 | 選取對決策沒有幫助的活動成功量度資料。 | 記錄所有主要測試量度並包含其他量度，以取得其他深入資訊。 |
 | 在測試期間進行可能影響結果的更改。 | 維護即將推出的促銷活動和網站變更的日曆。清楚傳達 [!DNL Target] 活動啟動以避免衝突。 |
 | 變更活動啟動附近的測試體驗或條件。 | 在測試活動程式早期，要求利害關係人簽署。 |
-| 在結果具有統計意義之總結活動。 | 使用驗證測試持續時間 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |
+| 在結果具有統計意義之總結活動。 | 使用[!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)驗證測試持續時間。 |
 | 接收 [!DNL Target] 活動的負或平結果。 | 確認活動值得測試。 |
 | 輕鬆撰寫成功體驗的程式碼。 | 使用活動資料來顯示價值，以取得硬式編碼的購買。 |
 | 不要在測試團隊之外分享結果。 | 擴大溝通範圍，包括午餐和學習、開發計畫儀表板，以及安排利害關係人會議。 |

@@ -1,6 +1,6 @@
 ---
 keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
-description: 瞭解如何使用單值和多值自訂實體屬性，以定義有關您Adobe中專案的其他資訊 [!DNL Target] Recommendations目錄。
+description: 瞭解如何使用單值和多值自訂實體屬性，以定義有關您Adobe [!DNL Target] Recommendations目錄中專案的其他資訊。
 title: 如何使用自訂實體屬性？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 81%
 
 # 自訂實體屬性
 
-在中使用單值和多值自訂實體屬性 [!DNL Adobe Target Recommendations] 以定義目錄中專案的其他資訊。
+在[!DNL Adobe Target Recommendations]中使用單值和多值自訂實體屬性，以定義有關目錄中專案的其他資訊。
 
 ## 限制 {#limits}
 
@@ -63,7 +63,7 @@ ht-degree: 81%
 
 ## 實作多值屬性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用摘要(CSV)時支援多值自訂實體屬性， `targetPageParams`和傳送API以上傳產品。 新值會取代目前值，而不會附加。空白陣列( [] )視為沒有值。
+使用摘要(CSV)、`targetPageParams`和傳遞API來上傳產品時，支援多值自訂實體屬性。 新值會取代目前值，而不會附加。空白陣列( [] )視為沒有值。
 
 必須將雙引號逸出。例如，`"[""test"", ""value""]"` 為可以在 CSV 中使用的有效 JSON 陣列。
 
@@ -94,11 +94,11 @@ function targetPageParams() {
 
 原始 CSV 如下所示:
 
-![multi-value_example_raw圖片](assets/multi-value_example_raw.png)
+![multi-value_example_raw影像](assets/multi-value_example_raw.png)
 
 在試算表中，同樣的目錄如下所示:
 
-![multi-value_example_excel圖片](assets/multi-value_example_excel.png)
+![multi-value_example_excel影像](assets/multi-value_example_excel.png)
 
 轉換為.csv格式時，試算表軟體會在儲存格內容兩側加上雙引號，以防止將儲存格內的逗號當作欄分隔符號。 對於您包含在自訂多值屬性中的 JSON 字串值，兩側也會加上雙引號。這會造成直接處理原始檔案很不方便。例如:
 
@@ -127,18 +127,18 @@ function targetPageParams() {
   }
 ```
 
-請參閱 [Adobe Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 以取得關於使用傳送和儲存實體API的資訊。
+如需使用傳送和儲存實體API的相關資訊，請參閱[Adobe Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 使用運運算元處理多值屬性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 當您對演算法包含規則、目錄規則和排除規則中的多值自訂屬性套用運算子時，如果清單中至少一個值通過運算 (布林 *or*)，則結果為 *true*。
 
-在下列範例中，規則為 `message contains abc`.
+在下列範例中，規則是`message contains abc`。
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有值包含 `abc`。
 * 案例 2: `entity.genre = ["abcde","de","ef"]`。結果為 true，因為某個值包含 `abc`。
 
-對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，如果運運算元為 `notEquals`，結果將會是 *false* 如果任何值相符。
+對於負數運算子，所有屬性值必須通過 (布林 *and*)。例如，如果運運算元是`notEquals`，則任何值相符的結果將為&#x200B;*false*。
 
 請參閱下列章節，瞭解演演算法包含規則、目錄規則和排除規則中的運運算元行為。
 
@@ -150,7 +150,7 @@ function targetPageParams() {
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值等於 `abc`。
 * 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 true，因為有一個值等於 `abc`。
-* 案例3： `entity.genre = ["abcde", "de", "ef"]`. 結果為 false，因為 `abc` 不等於清單中的任何元素。
+* 案例3： `entity.genre = ["abcde", "de", "ef"]`。 結果為 false，因為 `abc` 不等於清單中的任何元素。
 
 ### 不等於
 
@@ -160,7 +160,7 @@ function targetPageParams() {
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 true，因為沒有任何值等於 `abc`。
 * 案例 2: `entity.genre = ["abc", "de", "ef"]`。結果為 false，因為有一個值等於 `abc`。
-* 案例3： `entity.genre = ["abcde", "de", "ef"]`. 結果為 true，因為 `abc` 不等於清單中的任何元素。
+* 案例3： `entity.genre = ["abcde", "de", "ef"]`。 結果為 true，因為 `abc` 不等於清單中的任何元素。
 
 ### 包含
 
@@ -188,7 +188,7 @@ function targetPageParams() {
 
 * 案例 1: `entity.genre = ["ab", "bc", "de"]`。結果為 false，因為沒有任何值開頭為 `abc`。
 * 案例 2: `entity.genre = ["abcde", "de", "ef"]`。結果為 true，因為某個值的開頭為 `abc`。
-* 案例3： `entity.genre = ["ab", "de", "abc"]`. 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
+* 案例3： `entity.genre = ["ab", "de", "abc"]`。 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
 
 ### 終止於
 

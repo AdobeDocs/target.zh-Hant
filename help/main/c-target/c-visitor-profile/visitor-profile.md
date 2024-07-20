@@ -13,11 +13,11 @@ ht-degree: 38%
 
 # 訪客設定檔
 
-中的訪客設定檔 [!DNL Adobe Target] 包含您的訪客如何使用您的頁面和其他最佳化內容位置的資訊。
+[!DNL Adobe Target]中的訪客設定檔包含您的訪客如何使用您的頁面和其他最佳化內容位置的資訊。
 
-如果 [!DNL Target] 與其他搭配使用 [!DNL Adobe Experience Cloud] 解決方案，例如 [!DNL Adobe Analytics]， [!DNL Experience Cloud Audiences] 會在不同解決方案間共用訪客資訊。
+如果[!DNL Target]與其他[!DNL Adobe Experience Cloud]解決方案（例如[!DNL Adobe Analytics]）搭配使用，[!DNL Experience Cloud Audiences]會在各個解決方案間共用訪客資訊。
 
-根據預設， [!DNL Target] 設定檔資訊會儲存在單一第一方Cookie中。 您也可以輕鬆變更設定，以提供第三方 Cookie。
+依預設，[!DNL Target]設定檔資訊會儲存在單一第一方Cookie中。 您也可以輕鬆變更設定，以提供第三方 Cookie。
 
 以下章節包含更多資訊: 
 

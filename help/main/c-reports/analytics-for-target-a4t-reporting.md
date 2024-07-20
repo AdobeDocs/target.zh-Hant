@@ -1,12 +1,12 @@
 ---
 keywords: Analytics for Target;A4T;使用 Analytics 作為報表來源
-description: 瞭解如何將Analytics用於 [!DNL Target] (A4T)。 A4T整合可讓您為Adobe存取強大的Adobe Analytics報表 [!DNL Target] 活動。
-title: 如何使用Analytics for [!DNL Target] (A4T)報表？
+description: 瞭解如何將Analytics用於 [!DNL Target] (A4T)。 A4T整合可讓您存取Adobe [!DNL Target] 活動的健全Adobe Analytics報表。
+title: 如何將Analytics用於 [!DNL Target] (A4T)報告？
 feature: Analytics for Target (A4T)
 exl-id: 43d31231-e258-458e-b371-08214fd903b9
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '86'
 ht-degree: 65%
 
 ---

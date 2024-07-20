@@ -1,29 +1,29 @@
 ---
 keywords: 活動; 活動類型; 編輯活動; 編輯; 草稿
 description: 瞭解您可以在Adobe Target中編輯現有活動的各種方式，包括以草稿形式儲存活動。
-title: 如何編輯活動或另存為草稿？
+title: 如何編輯活動或儲存為草稿？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 91%
+source-wordcount: '1169'
+ht-degree: 52%
 
 ---
 
 # 編輯活動或另存為草稿
 
-有關您可以在中編輯現有活動的不同方式的資訊 [!DNL Adobe Target]，包括以草稿形式儲存活動。
+關於您可以在[!DNL Adobe Target]中編輯現有活動的不同方式的資訊，包括以草稿形式儲存活動。
 
 Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據您選擇的方法而有所不同。
 
 ## 在活動頁面上使用暫留按鈕來編輯活動 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. 從&#x200B;**[!UICONTROL 「活動」]**&#x200B;頁面中，暫留在您要編輯的活動上，然後按一下&#x200B;**[!UICONTROL 「編輯」]**&#x200B;圖示。
+1. 從&#x200B;**[!UICONTROL Activities]**&#x200B;頁面，暫留在您要編輯的活動上，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
    ![編輯圖示](/help/main/c-activities/assets/hover_edit.png)
 
-   Target 會在可視化體驗撰寫器 (VEC) 中開啟活動，而您會看見[!UICONTROL 體驗]頁面 (三步驟引導式工作流程中的第一步)。
+   Target會在視覺化體驗撰寫器(VEC)中開啟活動，而您會看到[!UICONTROL Experiences]頁面（三步驟引導式工作流程的第一步）。
 
 1. 視需要使用 [VEC 選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)編輯活動。
 
@@ -31,42 +31,42 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
    ![分割按鈕](/help/main/c-activities/assets/edit_split_button_2.png)
 
-   * **下一步:** 若要在三個步驟工作流程中編輯另一個頁面，請按一下&#x200B;**[!UICONTROL 「下一步」]**&#x200B;來前進到需要的步驟。例如在上圖中，按[!UICONTROL 「下一步」]會顯示「鎖定目標」步驟。
-   * **儲存並關閉:**&#x200B;在目前步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL 「儲存並關閉」]**，以儲存您的變更並顯示活動的[!UICONTROL 「概覽」]頁面。
-   * **儲存:**&#x200B;在步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL 「儲存」]**，以儲存您的變更並停留在該步驟上，讓您可以繼續變更。等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
+   * **下一步：**&#x200B;若要在三個步驟工作流程中編輯另一個頁面，請按一下&#x200B;**[!UICONTROL Next]**&#x200B;進入所要的步驟。 例如，在上圖中，按一下[!UICONTROL Next]會顯示[!UICONTROL Targeting]步驟。
+   * **儲存並關閉：**&#x200B;在目前步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL Save and Close]**&#x200B;以儲存您的變更並顯示活動的[!UICONTROL Overview]頁面。
+   * **儲存：**&#x200B;在步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取「**[!UICONTROL Save]**」以儲存您的變更，並停留在您可以繼續進行變更的步驟上。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
 ## 在活動頁面上按一下名稱以開啟活動來編輯活動 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. 若要避免逐步執行工作流程，請從「活動」頁面中按一下所需的活動以開啟此活動，然後從&#x200B;**[!UICONTROL 「編輯活動」]**&#x200B;下拉式清單中選取選項。
+1. 若要避免逐步執行工作流程，請從「活動」頁面中按一下所需的活動以開啟，然後從&#x200B;**[!UICONTROL Edit Activity]**&#x200B;下拉式清單中選取選項。
 
    ![編輯活動下拉式清單](/help/main/c-activities/assets/edit_activity.png)
 
 1. 選擇所要的選項::
 
-   * **編輯體驗:** 帶您直接前往[!UICONTROL 「體驗」]頁面 (引導式工作流程的第一步)。進行所需的變更，然後使用分割按鈕 (上述) 來儲存活動。
+   * **編輯體驗：**&#x200B;帶您直接前往[!UICONTROL Experiences]頁面（引導式工作流程的第一步）。 進行所需的變更，然後使用分割按鈕 (上述) 來儲存活動。
 
-      * 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;以儲存您的變更並顯示活動的「概覽」頁面。
-      * 按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;以儲存您的變更，並停留在您可以繼續進行變更的步驟中。等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
-   * **編輯鎖定目標:** 帶您直接前往[!UICONTROL 「鎖定目標」]頁面 (引導式工作流程的第二步)。進行所需的變更，然後使用分割按鈕 (上述) 來儲存活動。
+      * 按一下「**[!UICONTROL Save & Close]**」以儲存您的變更並顯示活動的「概觀」頁面。
+      * 按一下「**[!UICONTROL Save]**」以儲存您的變更，並停留在您可以繼續進行變更的步驟中。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
-      * 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;以儲存您的變更並顯示活動的「概覽」頁面。
-      * 按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;以儲存您的變更，並停留在您可以繼續進行變更的步驟中。等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
-   * **編輯目標與設定:** 帶您直接前往[!UICONTROL 「目標與設定」]頁面 (引導式工作流程的最後一步)。進行所需的變更，然後使用分割按鈕 (上述) 來儲存活動。
+   * **編輯目標：**&#x200B;帶您直接前往[!UICONTROL Targeting]頁面（引導式工作流程的第二步）。 進行所需的變更，然後使用分割按鈕 (上述) 來儲存活動。
 
-      * 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**&#x200B;以儲存您的變更並顯示活動的「概覽」頁面。
-      * 按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;以儲存您的變更，並停留在您可以繼續進行變更的步驟中。等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
+      * 按一下「**[!UICONTROL Save & Close]**」以儲存您的變更並顯示活動的「概觀」頁面。
+      * 按一下「**[!UICONTROL Save]**」以儲存您的變更，並停留在您可以繼續進行變更的步驟中。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
+   * **編輯目標與設定：**&#x200B;帶您直接前往[!UICONTROL Goals & Settings]頁面（引導式工作流程的最後一步）。 進行所需的變更，然後使用分割按鈕 (上述) 來儲存活動。
 
+      * 按一下「**[!UICONTROL Save & Close]**」以儲存您的變更並顯示活動的「概觀」頁面。
+      * 按一下「**[!UICONTROL Save]**」以儲存您的變更，並停留在您可以繼續進行變更的步驟中。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
-## 使用在 Recommendations Classic 中建立的舊版活動 {#classic}
+## 使用在Recommendations Classic中建立的舊版活動 {#classic}
 
-[!UICONTROL 活動]清單會顯示在各種來源中建立的活動，包括 [!DNL Recommendations Classic]。使用在 [!DNL Recommendations Classic] 中建立的舊版活動時，以下是可供使用的動作:
+[!UICONTROL Activities]清單顯示在各種來源中建立的活動，包括[!DNL Recommendations Classic]。 使用在 [!DNL Recommendations Classic] 中建立的舊版活動時，以下是可供使用的動作:
 
-* [!UICONTROL 啟動]
-* [!UICONTROL 停用]
-* [!UICONTROL 封存]
-* [!UICONTROL 複製]
-* [!UICONTROL 刪除]
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
 
 您無法直接編輯 [!DNL Recommendations] 活動。若要編輯活動，您應使用 [!DNL Target Premium] 建立活動複本，然後儲存新建立的活動。接著即可視需要編輯這個新建立的活動。
 
@@ -81,9 +81,9 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
    ![儲存草稿](/help/main/c-activities/assets/save_draft.png)
 
-   * **下一步:** 若要在三個步驟工作流程中編輯另一個頁面，請按一下&#x200B;**[!UICONTROL 「下一步」]**&#x200B;來前進到需要的步驟。
-   * **儲存草稿後關閉:**&#x200B;在目前步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL 「儲存草稿後關閉」]**，以儲存您的變更並顯示活動的[!UICONTROL 「概覽」]頁面。
-   * **儲存草稿:**&#x200B;在步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL 「儲存草稿」]**，以儲存您的變更並停留在該步驟上。
+   * **下一步：**&#x200B;若要在三個步驟工作流程中編輯另一個頁面，請按一下&#x200B;**[!UICONTROL Next]**&#x200B;進入所要的步驟。
+   * **儲存草稿並關閉：**&#x200B;在目前步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取「**[!UICONTROL Save Draft and Close]**」以儲存您的變更並顯示活動的[!UICONTROL Overview]頁面。
+   * **儲存草稿：**&#x200B;在步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL Save Draft]**&#x200B;以儲存您的變更並停留在該步驟上。
 
 ## 使用工作區時複製/編輯活動 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -95,9 +95,9 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
 如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
 
-如需工作區和「企業使用者權限」功能的相關資訊，請參閱[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
+如需工作區與「企業使用者許可權」功能的詳細資訊，請參閱[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
-如果環境中已啟用「企業使用者權限」，您可以將活動複製到同一個工作區，或另一個工作區。您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從[!UICONTROL 「活動」]頁面中暫留在您要複製的活動上，按一下[!UICONTROL 「複製」]圖示，然後從下拉式清單中選取所需的工作區。
+如果環境中已啟用「企業使用者權限」，您可以將活動複製到同一個工作區，或另一個工作區。您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從「[!UICONTROL Activities]」頁面，暫留在您要複製的活動上，按一下「[!UICONTROL Copy]」圖示，然後從下拉式清單中選取所需的工作區。
 
 在工作區中使用複製/編輯功能時，請考量下列資訊:
 
@@ -110,6 +110,6 @@ Target 在 UI 中提供各種地方讓您編輯現有活動。處理程序根據
 
 * 最佳實務是嘗試使用與原始建立活動相同的方法 (UI 或 API) 來更新活動。
 
-   使用建立的活動 [!DNL Target] UI應透過 [!DNL Target] UI。 透過 API 建立的活動應透過 API 更新。例如，如果您最初使用API建立活動，但稍後透過 [!DNL Target] UI，並非所有變更都會更新。 所有變更都儲存在後端，並可透過進行其他API呼叫來更新。
+  使用[!DNL Target] UI建立的活動應透過[!DNL Target] UI更新。 透過 API 建立的活動應透過 API 更新。例如，如果您最初使用API建立活動，但稍後透過[!DNL Target] UI編輯活動，則不會更新所有變更。 所有變更都儲存在後端，並可進行其他API呼叫來更新。
 
 

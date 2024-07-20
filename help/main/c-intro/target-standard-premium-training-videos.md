@@ -1,13 +1,13 @@
 ---
 keywords: 培訓影片;youtube;影片;影片 培訓;教學課程;教學課程;影片
-description: 觀看訓練影片來協助您善用  [!DNL Target]  Standard 和  [!DNL Target]  Premium。
+description: 觀看訓練影片，協助您充分利用 [!DNL Target] Standard和 [!DNL Target] Premium。
 title: 我可以在哪裡找到 [!DNL Target] 培訓影片？
 feature: Overview
 exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 86%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * 實施和疑難排解
 * 行銷使用案例
 
-## 內嵌在 Adobe [!DNL Target] 說明中 {#section_53C618334E974FB89B3F093DEF789CCB}
+## 內嵌於Adobe[!DNL Target]說明 {#section_53C618334E974FB89B3F093DEF789CCB}
 
 訓練影片內嵌於本指南中的相關主題內。按一下影片影像可播放影片而不離開說明。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ![Experience League 影片](/help/main/c-intro/assets/experience-league.png)
 
-## Adobe [!DNL Target] 教學課程 {#tutorials}
+## Adobe[!DNL Target]個Tutorials {#tutorials}
 
 若要取得 [!DNL Target] 概念與工具的簡介影片，請前往 [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html??lang=zh-Hant)頁面。
 

@@ -6,14 +6,14 @@ feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # 將動態資料傳遞至選件
 
-您可以動態顯示儲存在中的訪客資訊 [!DNL Adobe Target] 設定檔。 同樣地，活動資訊 (例如活動名稱或體驗名稱) 也能用來根據訪客興趣、過去行為和整體設定檔，建立動態地傳回個人化內容的單一選件。
+您可以動態顯示儲存在[!DNL Adobe Target]設定檔中的訪客資訊。 同樣地，活動資訊 (例如活動名稱或體驗名稱) 也能用來根據訪客興趣、過去行為和整體設定檔，建立動態地傳回個人化內容的單一選件。
 
 ## 業務案例
 
@@ -23,7 +23,7 @@ ht-degree: 63%
 
 ## 技術優勢
 
-由於訪客專屬的偏好設定、行為、狀態可儲存在訪客的設定檔中，因此您可在其下次造訪時重複此訊息。 動態選件可讓您在活動中設定單一選件，為所有訪客顯示個人化訊息，以支援更大的規模。當訪客的意向有所變更，您的網站內容會自動反映這些變更。
+由於訪客特定的偏好設定、行為、狀態可儲存在訪客的設定檔中，因此您可以在其下次造訪時重複此訊息。 動態選件可讓您在活動中設定單一選件，為所有訪客顯示個人化訊息，以支援更大的規模。當訪客的意向有所變更，您的網站內容會自動反映這些變更。
 
 ## 範例
 
@@ -47,7 +47,7 @@ ht-degree: 63%
 
 在主控台中記錄用於偵錯用途的資訊，例如 `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-對象 [!DNL Recommendations] 設計，請參閱中的其他範例： [設計概覽](/help/main/c-recommendations/c-design-overview/design-overview.md).
+有關[!DNL Recommendations]設計，請參閱[設計概覽](/help/main/c-recommendations/c-design-overview/design-overview.md)中的其他範例。
 
 ## 實施
 
@@ -59,7 +59,7 @@ ht-degree: 63%
 
 `${user.parameter}`
 
-在中使用動態屬性時 [!DNL Recommendations] 若要正確呈現動態值，您必須在美元符號( $ )的前面插入反斜線( \ )：
+在[!DNL Recommendations]設計中使用動態屬性時，您必須在貨幣符號( $ )的前面插入反斜線( \ )，才能正確呈現動態值：
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -69,11 +69,11 @@ ht-degree: 63%
 
 `${user.testAttribute default="All Items!"}`
 
-當 `testAttribute` 不存在或為空白時，會會寫出。 如果空白屬性值有效，並且您要將它寫出而非顯示預設，則可以使用:
+當 `testAttribute` 不存在或為空白時，會已寫出。 如果空白屬性值有效，並且您要將它寫出而非顯示預設，則可以使用:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-您也可以逸出和取消逸出要顯示的值。例如，如果您的值有撇號，您可以逸出值，使其不會破壞頁面上的JavaScript。 (選件以 JavaScript 撰寫，因此容易混淆單一縮寫符號與引號。)例如:
+您也可以逸出和取消逸出要顯示的值。例如，如果您的值具有撇號，您可以逸出值，使其不會破壞頁面上的JavaScript。 (選件以 JavaScript 撰寫，因此容易混淆單一縮寫符號與引號。)例如:
 
 `${user.encodedValue encode="unescape"}`
 

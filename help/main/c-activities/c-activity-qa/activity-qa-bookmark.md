@@ -1,29 +1,29 @@
 ---
 keywords: qa;預覽;書籤小程式;預覽連結
-description: 瞭解如何使用Adobe [!DNL Target] 要強制的QA書籤小程式 [!DNL Target] 以從QA模式釋出您。
+description: 瞭解如何使用Adobe [!DNL Target] QA書籤小程式來強制 [!DNL Target] 將您從QA模式中釋出。
 title: 如何使用活動QA書籤小程式？
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 13%
 
 ---
 
 # 活動 QA 書籤小程式
 
-可協助您使用 [!DNL Target] 要強制的QA書籤小程式 [!DNL Target] 以從QA模式釋出您。
+可協助您使用[!DNL Target] QA書籤小程式來強制[!DNL Target]將您從QA模式釋出的資訊。
 
 >[!NOTE]
 >
 >建立書籤小程式的程序因瀏覽器類型與版本而異。如需具體指示，請參閱瀏覽器的說明或搜尋網際網路。
 
-## at.js 1.*x*
+## at.js 1的活動QA書籤小程式&#x200B;*x*
 
-由於[QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)有黏性，當您以 QA 模式來瀏覽網站後，您的 工作階段必須到期，否則需要由 幫您脫離 QA 模式，才能像一般訪客一樣檢視您的網站。[!DNL Target][!DNL Target]使用QA [!DNL Target] 書籤小程式會強迫自己離開QA模式。
+由於[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)有粘性，當您以QA模式瀏覽網站後，您的[!DNL Target]工作階段必須到期，或您需要[!DNL Target]將您從QA模式中釋出，才能像一般訪客一樣檢視您的網站。 使用QA [!DNL Target]書籤小程式強迫自己離開QA模式。
 
-若要使用 [!DNL Target] QA書籤小程式、建立包含下列JavaScript程式碼的書籤小程式，並將其新增至瀏覽器的書籤工具列：
+若要使用[!DNL Target] QA書籤小程式，請建立包含下列JavaScript程式碼的書籤小程式，並將其新增至瀏覽器的書籤工具列：
 
 ```javascript
 javascript:(
@@ -42,17 +42,17 @@ javascript:(
 )();
 ```
 
-您也可以在網站上以手動方式強制自己離開QA模式 `at_preview_token` 具有空值的引數。
+您也可以在網站上以帶有空白值的`at_preview_token`引數載入頁面，以手動強迫自己離開QA模式。
 
 例如：
 
 `https://www.mysite.com/?at_preview_token=`
 
-## at.js 2.*x*
+## at.js 2的活動QA書籤小程式&#x200B;*x*
 
-與at.js 1.*x*， at.js 2.*x* 不支援第三方Cookie，且QA模式只對第一方網域有粘性（透過at.js設定的第一方Cookie）。 因此，在at.js 2.*x*，QA模式工作階段僅在使用者端上管理，且不會將QA模式Cookie傳送至Target。
+與at.js 1.*x*， at.js 2.*x*&#x200B;不支援第三方Cookie，且QA模式只對第一方網域有粘性（透過at.js設定的第一方Cookie）。 因此，在at.js 2.*x*，QA模式工作階段僅在使用者端受到管理，且不會將QA模式Cookie傳送至Target。
 
-若要使用 [!DNL Target] QA書籤小程式、建立包含下列JavaScript程式碼的書籤小程式，並將其新增至瀏覽器的書籤工具列：
+若要使用[!DNL Target] QA書籤小程式，請建立包含下列JavaScript程式碼的書籤小程式，並將其新增至瀏覽器的書籤工具列：
 
 ```javascript
 javascript:(
@@ -71,4 +71,4 @@ javascript:(
 
 ## 使用活動QA書籤小程式
 
-按一下瀏覽器工具列上的小書籤。
+按一下瀏覽器工具列上的書籤小程式。

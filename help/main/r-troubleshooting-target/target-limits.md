@@ -1,14 +1,14 @@
 ---
 keywords: 字元限制;mbox 參數;批次傳送 api;設定檔參數;限制;內建設定檔;上限;限制;限制;字元;最佳實務;orderid;orderTotal;mbox3rdPartyID;類別;categoryID;疑難排解
-description: 檢視影響中活動和其他元素的字元限制和其他限制的清單 [!DNL Adobe Target].
-title: 中的各種字元、大小和其他限制是什麼 [!DNL Adobe Target]？
+description: 檢視影響 [!DNL Adobe Target]中活動和其他元素的字元限制和其他限制清單。
+title: ' [!DNL Adobe Target]中的各種字元、大小和其他限制是什麼？'
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 80%
+source-wordcount: '1693'
+ht-degree: 77%
 
 ---
 
@@ -78,19 +78,19 @@ ht-degree: 80%
       * at.js:
          * 顯示預設內容
 
-* **限制**：每份50個mbox [!DNL Target] 內容傳遞批次mbox請求。
+* **限制**：每個[!DNL Target]內容傳遞批次mbox要求有50個mbox。
 
-  超過50個mbox / [!DNL Target] 內容傳遞批次mbox請求導致回應錯誤代碼 `HTTP 400` 有錯誤訊息 `size must be between 0 and 50`.
+  每個[!DNL Target]內容傳遞批次mbox請求超過50個mbox會導致回應錯誤代碼`HTTP 400`，錯誤訊息`size must be between 0 and 50`。
 
   批次mbox請求會依序處理，而增加每個反複專案的整體回應時間。 批次請求上的mbox越多，預期的回應延遲就越多，因此可能會逾時。 如果針對這些高延遲批次請求封鎖體驗呈現，延遲可能會導致使用者體驗降低，因為使用者會等待體驗呈現。
 
-* **限制**：60 MB HTTPPOST本文大小 [!DNL Target] 內容傳遞請求。
+* **限制**： [!DNL Target]個內容傳遞要求的60 MB HTTPPOST本文大小。
 
-  超過60 MB的HTTPPOST主體大小 [!DNL Target] 內容傳遞請求導致回應錯誤代碼 `HTTP 413 Request Entity Too Large`.
+  [!DNL Target]內容傳遞請求的HTTPPOST本文大小超過60 MB時，會產生回應錯誤代碼`HTTP 413 Request Entity Too Large`。
 
-* **建議的限制**：每個50個通知 [!DNL Target] 傳遞批次請求。
+* **建議的限制**：每個[!DNL Target]傳遞批次要求有50個通知。
 
-  超過50則通知/個 [!DNL Target] 傳遞批次請求可能會導致回應延遲和逾時增加。
+  若每[!DNL Target]個傳遞批次要求超過50個通知，可能會導致回應延遲和逾時增加。
 
   批次通知請求會依序處理，增加每個反複專案的整體回應時間。 批次請求上的通知越多，預期的回應延遲就越多，因此可能會逾時。 有些客戶可能會接受批次通知請求上的其他延遲，但請注意，逾時和任何後續重試都可能導致更嚴重的延遲。
 
@@ -116,7 +116,7 @@ ht-degree: 80%
 
 * 可在設計中參照 (明確寫在程式碼中或透過迴圈) 的實體數上限是 99。
 * 為獲得最佳效能，建議的限制是在每個環境中讓目錄少於一百萬個項目，並在所有環境中讓目錄少於一千萬個項目。
-* 每個環境的上限為一千萬個項目，所有環境的上限為一億個項目。 如果您在每個環境中擁有的項目介於一百萬個和一千萬個之間，[!UICONTROL 目錄搜尋] UI 的效能會受到影響。 然而，[!DNL Target Recommendations] 會持續產生及傳送建議。
+* 每個環境的上限為一千萬個項目，所有環境的上限為一億個項目。 如果您在每個環境中擁有的專案介於一百萬個和一千萬個之間，[!UICONTROL Catalog Search] UI的效能會受到影響。 然而，[!DNL Target Recommendations] 會持續產生及傳送建議。
 
 ### 實體自訂屬性
 
@@ -155,7 +155,7 @@ ht-degree: 80%
 
 ### 每個活動的體驗
 
-* **限制**：每人2,000個體驗 [!UICONTROL 體驗鎖定] (XT)， [!UICONTROL A/B測試]， [!UICONTROL 多變數測試] (MVT)，以及 [!UICONTROL 自動鎖定目標] 活動。
+* **限制**：每個[!UICONTROL Experience Targeting] (XT)、[!UICONTROL A/B Test]、[!UICONTROL Multivariate Test] (MVT)和[!UICONTROL Auto-Target]活動有2,000個體驗。
 
   每個 Automated Personalization (AP) 活動最多 30,000 個體驗。
 
@@ -169,7 +169,7 @@ ht-degree: 80%
 
 * **上限**：256 個字元。
 
-  使用at.js 1時，超過256個字元的值會遭截斷。*x* 使用供跨網域追蹤功能時。 使用at.js 2.*x* 或 [!DNL Adobe Experience Platform Web SDK]. 值不會自動截斷。
+  使用at.js 1時，超過256個字元的值會遭截斷。*x* 使用供跨網域追蹤功能時。 使用at.js 2.*x*&#x200B;或[!DNL Adobe Experience Platform Web SDK]。 值不會自動截斷。
 
 ### In-mbox 設定檔名稱
 
@@ -179,13 +179,13 @@ ht-degree: 80%
 
 * **上限**：250 個字元。
 
-  的 [!DNL Delivery API] (at.js 2.*x*)、批次mbox V2和 [!DNL Adobe Experience Platform Web SDK] (alloy.js)整合， mbox名稱 *可以* 包含英數字元(A-Z、a-z、0-9)和下列任一字元：
+  針對[!DNL Delivery API] (at.js 2.*x*)、批次mbox V2和[!DNL Adobe Experience Platform Web SDK] (alloy.js)整合，mbox名稱&#x200B;*可以*&#x200B;包含英數字元(A-Z、a-z、0-9)和下列任一字元：
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  適用於at.js 1.*x* 整合， mbox名稱 *無法* 包含下列任一字元：
+  適用於at.js 1.*x*&#x200B;整合，mbox名稱&#x200B;*不能*&#x200B;包含下列任何字元：
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -199,13 +199,13 @@ ht-degree: 80%
 
    * mbox 參數；每個 mbox 500 個參數。
    * 設定檔參數：每個 mbox 有 500 個參數設定檔參數。
-   * 其他參數 (URL、參照的 URL 等)：各參數類型每個 mbox 50 個。
+   * 其他參數 (URL、參照的 URL 等)：各引數型別每個mbox 50個。
 
   除非要求因網頁瀏覽器限制而縮短，否則適用上述限制。
 
   如果您使用「批次傳送API」，則每個批次請求的限制為 50 個 mbox。
 
-  如果您在 Mobile Services SDK 使用批次傳送 API，50 個 mbox 參數、50 個設定檔參數和 50 個其他參數類型限制，即為 API 本身限制。無法使用批次傳送 API，傳送超過上述數量限制的要求。如果請求包含的限制超過這些限制，API會傳回下列錯誤訊息：
+  如果您在Mobile Services SDK使用批次傳送API ，50個mbox引數、50個設定檔引數和50個其他引數型別限制，即為API本身限制。 無法使用批次傳送 API，傳送超過上述數量限制的要求。如果請求包含的限制超過這些限制，API會傳回下列錯誤訊息：
 
   「mboxParameters 的數目不能超過 50。」
 
@@ -297,7 +297,7 @@ ht-degree: 80%
 
 * **建議的限制**：2,000 個字元。
 
-  依編碼字串的大小而定，可能比原始字串大許多。如果字串太大，在到達之前會失敗 [!DNL Adobe Target].
+  依編碼字串的大小而定，可能比原始字串大許多。如果字串太大，則會在達到[!DNL Adobe Target]之前失敗。
 
 ## 設定檔指令碼
 

@@ -19,29 +19,29 @@ ht-degree: 58%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target] 報告位置 [!DNL Adobe Customer Journey Analytics] （2024年5月8日）
+## [!DNL Target]報告於[!DNL Adobe Customer Journey Analytics] （2024年5月8日）
 
-以下兩者的整合： [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} 和 [!DNL Target] 為您的最佳化程式提供強大的分析和省時的工具。
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間的整合為您的最佳化程式提供強大的分析與省時的工具。
 
 使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源的主要優點如下：
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。執行活動之前完全不需要指定。
-* 行銷人員可充分運用 [!DNL Customer Journey Analytics] 功能，例如 [實驗面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}，以進一步分析其網站個人化。
-* 行銷人員可以有適用於的單一報表來源 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 和 [!DNL Target]. 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
+* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[實驗面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
+* 行銷人員可以有[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank}和[!DNL Target]的單一報告來源。 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
 
-如需詳細資訊，請參閱 [Adobe Customer Journey Analytics中的Target報表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+如需詳細資訊，請參閱[Adobe Customer Journey Analytics中的Target報告](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)。
 
-## [!UICONTROL Visual Experience Composer] 協助程式擴充功能（2024年4月23日）
+## [!UICONTROL Visual Experience Composer]協助程式擴充功能（2024年4月23日）
 
-舊版 [!DNL Target] 視覺化體驗撰寫器Helper擴充功能是使用Manifest V2建立的。 [!DNL Google] 宣佈從2024年6月起，不再允許使用資訊清單V2建立的擴充功能。 如需詳細資訊，請參閱 [[!UICONTROL Visual Experience Composer] 協助程式擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+舊版[!DNL Target]視覺化體驗撰寫器Helper擴充功能是使用Manifest V2建立的。 [!DNL Google]宣佈從2024年6月起，將不再允許使用資訊清單V2建立的擴充功能。 如需詳細資訊，請參閱[[!UICONTROL Visual Experience Composer]協助程式擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-[!DNL Adobe] 建議客戶改用較新的版本 [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 儘可能早。
+[!DNL Adobe]建議客戶儘快改用較新的[Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
-## 更新 `Browser:iPad` 和 `Browser:iPhone` 在 [!UICONTROL Browser] 對象屬性（2024年4月30日）
+## [!UICONTROL Browser]對象屬性（2024年4月30日）中`Browser:iPad`和`Browser:iPhone`的更新
 
 | 更新 | 詳細資料 |
 |--- |--- |
-| [!UICONTROL Browser:iPad] 和 [!UICONTROL Browser:iPhone] 更新於 [瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 用於建立對象。 | [!DNL Adobe Target] 可讓您 [鎖定任一類別屬性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定 [瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪客造訪您的頁面時。<P>從 [!DNL Target] Standard/Premium 24.3.1 （2024年3月4日至6日）內建受眾，使用Target UI建立，例如 `Browser:iPad` 和 `Browser:iPhone` 將更新以針對 [!DNL iPad] 和 [!DNL iPhone] 使用 `profile.mobile.deviceVendor`， `profile.mobile.isMobilePhone` 和 `profile.mobile.isTablet`.<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：客戶可執行適當的目標定位： [!DNL iPad] 和 [!DNL iPhone] 在設定檔指令碼（和JavaScript區段）中，客戶必須透過以下方式進行手動變更 **2024年4月30日**. 如需必須手動變更的替代設定範例，請參閱 [更新 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 對象屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+| [!UICONTROL Browser:iPad]和[!UICONTROL Browser:iPhone]已在建立對象時所使用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中更新。 | [!DNL Adobe Target]可讓您[鎖定數個類別屬性中的任何一個](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括瀏覽您的頁面時使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)的訪客。<P>從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）將會更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`為[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：若要讓客戶在設定檔指令碼(和JavaScript區段)中針對[!DNL iPad]和[!DNL iPhone]執行適當的目標定位，客戶必須在&#x200B;**2024年4月30日**&#x200B;之前進行手動變更。 如需必須手動變更的替代設定範例，請參閱[!UICONTROL Browser]對象屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中 [!DNL iPad] 和 [!DNL iPhone] 的[更新。 |
 
 ## 額外的發行說明和版本詳細資料
 

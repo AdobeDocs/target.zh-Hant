@@ -6,8 +6,8 @@ feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 97%
+source-wordcount: '1138'
+ht-degree: 93%
 
 ---
 
@@ -44,10 +44,10 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 | 主題/播放時間/錄影日期 | 學習目標 |
 |--- |--- |
-| [at.js 提示和總覽](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日 | 您將能學習到：<ul><li>使用 at.js 的好處</li><li>at.js 設定</li><li>Flicker 處理</li><li>偵錯 at.js</li><li>已知問題</li><li>常見問答</li></ul>如需詳細資訊，請參閱 [at.js如何運作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| [at.js 提示和總覽](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日 | 您將能學習到：<ul><li>使用 at.js 的好處</li><li>at.js 設定</li><li>Flicker 處理</li><li>偵錯 at.js</li><li>已知問題</li><li>常見問答</li></ul>如需詳細資訊，請參閱[at.js的運作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
 | [Target Premium Workspaces](https://helpx.adobe.com/tw/customer-care-office-hours/target/premium-workspaces.html) <br>27:49<br> 2018 年 9 月 4 日) | 您將能學習到：<ul><li>建立工作區 (產品設定檔)</li><li>選擇屬性。</li><li>新增使用者</li><li>更新實施</li></ul>如需詳細資訊，請參閱[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/tw/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/main/c-experiences/experiences.md)。 |
-| [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/tw/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br> 2018 年 1 月 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱 [Adobe Analytics 做為 Adobe Target (A4T) 的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/tw/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br> 2018 年 1 月 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱[Adobe Analytics as a Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報表Source。 |
 | [at.js:好處和實施最佳實務](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 您將能學習到: <ul><li>at.js 資料庫的運作原理</li><li>at.js 勝過 mbox.js (已被取代) 之處</li><li>At.js 處理忽隱忽現情況的方式</li><li>At.js 對於錯誤的處理作法</li><li>偵錯方法</li><li>已知問題與未來發展</li></ul> |
 
 >[!NOTE]
@@ -64,7 +64,7 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 如果您遇到問題或在使用 Target 方面有疑問，您有多種選擇
 
-如有疑問，您可以向Adobe Target專家詢問 [Adobe Target社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+如有疑問，您可以在[Adobe Target社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中詢問Adobe Target專家。
 
 如有技術問題或要記錄錯誤，您可連絡客戶服務。若要以電話聯絡客戶服務，請撥打 1-800-497-0335。在　[Adobe 數位行銷客戶服務地區電話號碼](https://helpx.adobe.com/tw/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)頁面上，可找到美國以外地區的免付費電話。若被要求選取產品選項，請按 3 聯絡 Target 團隊。
 
@@ -75,7 +75,7 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 | 資訊 | 詳細資料 |
 | --- | --- |
 | 摘要 | 整個問題的簡短說明 |
-| 帳戶資訊 | 公司名稱<br>管理員編號<br>促銷活動名稱<br>促銷活動類型<br>報表套裝/報表套裝 ID (如果是將 Target 整合到 SiteCatalyst) |
+| 帳戶資訊 | 公司名稱<br>管理員編號<br>行銷活動名稱<br>行銷活動型別<br>報表套裝/報表套裝ID (如果是目標與SiteCatalyst整合) |
 | 重現問題的步驟 | 盡可能包含更多細節，包括任何需要複製的 URL 以及預期的結果。<br>有了足夠的細節，不熟悉 Target 的人也能夠按照指示重現問題。 |
 | 優先順序 | P1 (最重要) 到 P4 (最不重要)。 |
 | 業務影響 | 對您的業務有何影響？ 例如，這個問題造成收入減少或導致產品無法使用，有可行的解決方法嗎？ |
@@ -115,7 +115,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 ### 意見反應 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我們很歡迎關於本解決方案的任何建議或回饋意見。在 [Adobe TargetExperience League 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)中可以添加增強的想法和建議。按一下「[!UICONTROL 概念]」標籤。
+我們很歡迎關於本解決方案的任何建議或回饋意見。在 [Adobe TargetExperience League 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)中可以添加增強的想法和建議。按一下「[!UICONTROL Ideas]」標籤。
 
 ### 法律資訊 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 97%
+source-wordcount: '2721'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 **Target 支援什麼瀏覽器？**
 
-如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)矩陣。{target=_blank}請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
+如需詳細資訊，請參閱我們的[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。 請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
 
 ## 活動 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以停留在特定步驟上，持續修改活動 (例如選件文字或自訂代碼)，然後在另一個索引標籤中執行 QA 嗎？**
 
-這也是可能的。只要[使用可用來進行遞增變更而不需離開此步驟的「儲存」選項](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+這也是可能的。只要[使用可用的[儲存]選項即可進行累加變更，而不需離開步驟](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
 
 **我如何對我剛剛建立的活動進行預覽和 QA？**
 
@@ -166,9 +166,9 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我對於我嘗試在可視化體驗撰寫器 (VEC) 中載入我的頁面時出現的「允許您的瀏覽器載入指令碼」訊息感到很困擾。我如何避免此情況？**
 
-這是因為您的網站有混合的內容 — 這是一個會擷取HTTP和HTTPS資源的網站。 請要求您的 IT 團隊完成改用 HTTPS。
+這是因為您的網站有混合式內容 — 這是一個會擷取HTTP和HTTPS資源的網站。 請要求您的 IT 團隊完成改用 HTTPS。
 
-在他們完成之前，請遵循[在您的瀏覽器中啟用混合的內容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的指示，來允許您的瀏覽器載入混合內容。這是多數現代瀏覽器的安全性功能。
+在此之前，請依照[在瀏覽器中啟用混合式內容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的指示操作，讓您的瀏覽器載入混合式內容。 這是多數現代瀏覽器的安全性功能。
 
 **我可以在我的網站上嘗試可視化體驗撰寫器 (VEC)，即使 Target at.js 資料庫尚未部署？**
 
@@ -180,7 +180,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能也必須求助您的 IT 部門來 [將 Adobe 的 proxy 伺服器也加入允許清單 ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能需要連絡您的IT部門，以將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入[允許清單。
 
 **我有回應式網站。建立活動時，我如何確定我考慮的是重要裝置？**
 
@@ -218,7 +218,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 按一下步驟 2 上體驗前端的縮圖，然後您將登陸在您所選擇的體驗。
 
-![thumbnail_experiences影像](assets/thumbnail_experiences.png)
+![縮圖體驗影像](assets/thumbnail_experiences.png)
 
 **我是過去的 Target Classic 使用者。我可以在某些使用案例下使用我的 mbox 嗎？**
 
@@ -287,7 +287,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我應該如何解譯報表？**
 
-我們已嘗試使用如下的功能，盡可能讓報表直覺化：[信賴區間長條圖、提升界限、顯著性/可信度和多個度量選項、表格和圖表檢視、執行平均等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以實現功能強大且容易的報表分析。顯然地，如果您使用 [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活動進行進一步分析對象，便可查看 Analytics。
+我們嘗試使用如[信賴區間列、提升度範圍、顯著性/信賴度及多個量度選項、表格與圖表檢視、執行平均值等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)等功能，儘可能讓報表直覺化，以進行強大但簡單的報表分析。 顯然地，如果您使用 [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活動進行進一步分析對象，便可查看 Analytics。
 
 ## 回應 Token {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -303,10 +303,10 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **您有疑難排解指南嗎？**
 
-很抱歉得知您遇到了問題。查看[疑難排解 Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) 得許多疑難排解主題的連結。
+很抱歉得知您遇到了問題。檢視[疑難排解Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)，取得許多疑難排解主題的連結。
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。另請參閱 [傳送API、NodeJS SDK和Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+我們提供詳盡的 API 相關文件。請參閱[傳送API、NodeJS SDK和Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。

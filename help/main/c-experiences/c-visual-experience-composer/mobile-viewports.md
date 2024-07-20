@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 99%
+source-wordcount: '1350'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 99%
 > * 如果您的網站為回應式網站，且桌上型電腦頁面中的相同元素也透過不同的組態用於行動頁面中，請使用行動檢視區。 如果您有另一個行動網站具有不同的結構，例如 `m.mysite.com`，請改用[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
 >
 >* 行動檢視區被重新導向選件覆蓋所重疊時會無法使用。
-
 
 檢視區是以螢幕上的網頁填入的矩形大小來定義。 檢視區是瀏覽器視窗的大小減去捲軸和工具列。 瀏覽器使用「CSS 像素」。對於許多裝置，例如有視網膜螢幕的裝置，檢視區小於公布的裝置解析度。
 
@@ -98,14 +97,14 @@ ht-degree: 99%
 
 打造您的體驗時，請設定您要提供的行動檢視區。
 
-1. 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺體驗撰寫器]**。
-1. 在&#x200B;**[!UICONTROL 行動檢視區設定]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增]**。
+1. 按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**。
+1. 在&#x200B;**[!UICONTROL Mobile viewports configuration]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
    ![新增檢視區](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    或
 
-   若要變更現有行動檢視區的設定，請選取該檢視區，然後按一下[!UICONTROL 編輯] (鉛筆) 圖示。
+   若要變更現有行動檢視區的設定，請選取該檢視區，然後按一下[!UICONTROL Edit] （鉛筆）圖示。
 
 1. 輸入行動檢視區的名稱。
 
@@ -127,7 +126,7 @@ ht-degree: 99%
 
    如果您使用[增強型體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)並選擇作業系統，[!DNL Target] 會在您檢視頁面時模擬該裝置。 例如，如果您的回應式網站在 Android 與 iOS 上的外觀與風格有一些不同，[!DNL Target] 會模擬該行為。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
@@ -138,11 +137,11 @@ ht-degree: 99%
 將行動檢視區新增到您的 [!DNL Target] 活動，為手機螢幕打造回應式體驗。
 
 1. 建立[所需的活動](/help/main/c-activities/activities.md)。
-1. 在[!UICONTROL 視覺體驗撰寫器] (VEC) 中，按一下&#x200B;**[!UICONTROL 設定]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 新增行動檢視區]**。
+1. 在[!UICONTROL Visual Experience Composer] (VEC)中，按一下&#x200B;**[!UICONTROL Settings]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL Add Mobile Viewports]**。
 
    ![「新增行動檢視區」選項](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. 按一下&#x200B;**[!UICONTROL 裝置]**&#x200B;圖示，然後啟用每個應該有行動檢視區的裝置。
+1. 按一下&#x200B;**[!UICONTROL Devices]**&#x200B;圖示，然後啟用每個應該具有行動檢視區的裝置。
 
    ![啟用行動檢視區](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -164,7 +163,7 @@ ht-degree: 99%
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 視覺體驗撰寫器 (2/2) (上午 07:29) ![總覽徽章](/help/main/assets/overview.png)
+### 視覺化體驗撰寫器(2/2) (7:29) ![總覽徽章](/help/main/assets/overview.png)
 
 下列示範影片包含透過視覺體驗撰寫器來使用行動檢視區的相關資訊:
 

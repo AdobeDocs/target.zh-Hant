@@ -1,21 +1,21 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 瞭解如何在Adobe中使用「重新導向至URL」選項 [!DNL Target] 傳送訪客至不同頁面，而非在同一頁面上顯示內容時。
+description: 瞭解當您想要將訪客傳送至其他頁面而不是在同一頁面上顯示內容時，如何使用Adobe [!DNL Target] 中的「重新導向至URL」選項。
 title: 我可以將頁面重新導向至不同的URL嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 82%
+source-wordcount: '475'
+ht-degree: 68%
 
 ---
 
 # 重新導向至 URL
 
-使用 [!UICONTROL 重新導向至URL] 中的選項 [!DNL Adobe Target] 傳送訪客至不同頁面，而非在同一頁面上顯示內容時。
+當您想要將訪客傳送至不同頁面而不是在同一頁面上顯示內容時，請在[!DNL Adobe Target]中使用[!UICONTROL Redirect to URL]選項。
 
-您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。在「體驗動作」功能表中，透過按一下體驗的字母標籤，接著選擇&#x200B;**[!UICONTROL 「重新導向至 URL」]**，然後指定頁面 B 的 URL 來找到。選件會設定為將訪客重新導向至不同頁面。
+您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。若是這種情況，您的A/B測試會比較頁面A與頁面B。使用兩個體驗來設定A/B測試行銷活動：一個指向預設頁面A，另一個重新導向至頁面B。在「體驗動作」功能表（按一下體驗的字母標籤即可找到）中，選擇&#x200B;**[!UICONTROL Redirect to URL]**&#x200B;並指定頁面B的URL。選件已設定為將訪客重新導向至不同頁面。
 
 重新導向選件會執行 JavaScript 程式碼來重新導向瀏覽器。此選件會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。這可讓訪客仍然可以使用瀏覽器中的上一步按鈕。
 
@@ -31,9 +31,9 @@ ht-degree: 82%
 若要建立重新導向選件:
 
 1. 建立體驗。
-1. 將滑鼠游標暫留在滑鼠體驗上，然後按一下「重新導向至URL」圖示(![icon_redirect_url圖片](assets/icon_redirect_url.png))。
+1. 將滑鼠指標暫留在滑鼠體驗上，然後按一下「重新導向至URL」圖示(![icon_redirect_url image](assets/icon_redirect_url.png))。
 
-   ![exp_actions圖片](assets/exp_actions.png)
+   ![exp_actions影像](assets/exp_actions.png)
 
 1. 輸入 URL。
 1. 如果需要，請選取包括目前的查詢參數的選項。

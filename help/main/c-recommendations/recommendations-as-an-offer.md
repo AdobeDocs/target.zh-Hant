@@ -2,28 +2,28 @@
 keywords: Recommendations;選件
 description: 了解如何使用 Adobe Recommendations 作為 A/B 測試 (包括自動分配和自動鎖定目標) 以及體驗鎖定 (XT) 活動的選件。
 title: 如何使用 Recommendations 作為其他活動類型的選件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 99%
+source-wordcount: '516'
+ht-degree: 59%
 
 ---
 
 # Recommendations 作為選件
 
-您現在可以在 [!UICONTROL A/B 測試] (包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]) 與[!UICONTROL 體驗鎖定目標] (XT) 活動中包含建議。
+您現在可以在[!UICONTROL A/B Test] （包括[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]）與[!UICONTROL Experience Targeting] (XT)活動中包含建議。
 
 這項功能開啟了全新功能，例如:
 
 * 在同一個活動內測試及鎖定建議與非建議內容。
 * 輕鬆試驗建議在頁面中的放置方法，包括多個建議的排列順序。
-* 使用[!UICONTROL 自動分配]將流量推送到績效最好的建議體驗。
-* 使用[!UICONTROL 自動鎖定目標]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
+* 使用[!UICONTROL Auto-Allocate]自動將流量推送到績效最好的建議體驗。
+* 使用[!UICONTROL Auto-Target]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-若要開始使用此功能，請使用[!UICONTROL 可視化體驗撰寫器]建立 [!UICONTROL A/B 測試]或[!UICONTROL 體驗鎖定目標]活動，並使用[!UICONTROL 「插入在前」]、[!UICONTROL 「插入在後」]或[!UICONTROL 「取代為」]動作來將建議新增至體驗。
+若要開始，請使用[!UICONTROL Visual Experience Composer]建立[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動，並使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]動作將建議新增至體驗。
 
 ## 新增建議作為 A/B 測試或 XT 活動中的選件
 
@@ -33,9 +33,9 @@ ht-degree: 99%
    >
    >若為 A/B 測試，您可以選擇[「自動分配」](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/main/c-activities/auto-target/auto-target-to-optimize.md)選項，以便根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-1. 建立[體驗](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想新增 Recommendations 作為選件的元素，選取&#x200B;**[!UICONTROL 「插入在前」]**、**[!UICONTROL 「插入在後」]**&#x200B;或&#x200B;**[!UICONTROL 「取代為」]**&#x200B;動作，然後選取[!UICONTROL 「建議」]。
+1. 建立[體驗](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您要新增建議作為選件的元素，選取&#x200B;**[!UICONTROL Insert Before]**、**[!UICONTROL Insert After]**&#x200B;或&#x200B;**[!UICONTROL Replace With]**&#x200B;動作，然後選取[!UICONTROL Recommendation]。
 
-   下圖顯示[!UICONTROL 「插入在後 > 建議」]選項。
+   下圖顯示[!UICONTROL Insert After > Recommendation]選項。
 
    ![插入 Recommendations 作為選件](/help/main/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -50,26 +50,26 @@ ht-degree: 99%
    * 感謝頁面
    * 其他
 
-1. 選擇所需[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按[!UICONTROL 「下一步」]。
-1. 選擇所需[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按[!UICONTROL 「下一步」]。
-1. 在[!UICONTROL 「選項」]對話方塊中，指定下列項目:
+1. 選取所需的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下[!UICONTROL Next]。
+1. 選取所需的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下[!UICONTROL Next]。
+1. 在[!UICONTROL Options]對話方塊中，指定下列專案：
 
    * 選擇一個[集合](/help/main/c-recommendations/c-products/collections.md)。
    * 視需要設定[「前端促銷活動」和「後端促銷活動」](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)選項。
 
-1. 按一下[!UICONTROL 「儲存」]。
+1. 按一下 [!UICONTROL Save]。
 1. 使用三步驟引導式工作流程完成 A/B 測試或 XT 活動的設定。
 
 ## 編輯 Recommendations 選件的設定
 
 編輯選件組態的方式有兩種:
 
-* 使用[!UICONTROL 「編輯」]選單
-* 使用[!UICONTROL 「修改」]面板
+* 使用[!UICONTROL Edit]功能表
+* 使用[!UICONTROL Modifications]面板
 
 ### 使用「編輯」選單編輯建議選件
 
-1. 按一下您要編輯的選件，然後按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 按一下您要編輯的選件，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
    ![編輯 Recommendations 選件](/help/main/c-recommendations/assets/recs-offer-edit.png)
 
@@ -84,8 +84,8 @@ ht-degree: 99%
 
 ### 使用「修改」面板編輯建議選件
 
-1. 按一下[!UICONTROL 修改]圖示 **( `</>` )** 以顯示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 將游標停留在所需的動作上，然後按一下&#x200B;**[!UICONTROL 「編輯」]**&#x200B;圖示。
+1. 按一下[!UICONTROL Modifications]圖示&#x200B;**( `</>` )**&#x200B;以顯示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
+1. 將游標停留在所需的動作上，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
    ![「修改」面板](/help/main/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -95,25 +95,25 @@ ht-degree: 99%
 
 刪除建議選件的方式有兩種:
 
-* 使用[!UICONTROL 「編輯」]選單
-* 使用[!UICONTROL 「修改」]面板
+* 使用[!UICONTROL Edit]功能表
+* 使用[!UICONTROL Modifications]面板
 
 ### 使用「編輯」選單刪除建議選件
 
-1. 按一下您要移除的選件，然後按一下&#x200B;**[!UICONTROL 「配置 > 移除」]**。
+1. 按一下您要移除的選件，然後按一下&#x200B;**[!UICONTROL Layout > Remove]**。
 
    ![移除](/help/main/c-recommendations/assets/recs-offer-remove.png)
 
 ### 使用「修改」面板刪除建議選件
 
-1. 按一下[!UICONTROL 修改]圖示 **( &lt;/> )** 以顯示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 將游標停留在所需的動作上，然後按一下[!UICONTROL 「刪除」]圖示。
+1. 按一下[!UICONTROL Modifications]圖示&#x200B;**( &lt;/> )**&#x200B;以顯示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
+1. 將游標停留在所需的動作上，然後按一下[!UICONTROL Delete]圖示。
 
    ![「刪除」圖示](/help/main/c-recommendations/assets/recs-offer-delete.png)
 
-### 檢視 Recommendations 選件的狀態 {#status}
+### 檢視Recommendations選件的狀態 {#status}
 
-Recommendations 選件的 (演算法) 狀態會顯示在包含 Recommendations 選件之 A/B 測試和 XT 活動的[!UICONTROL 概覽]頁面底部:
+Recommendations選件的（演演算法）狀態會顯示在包含Recommendations選件之A/B測試和XT活動的[!UICONTROL Overview]頁面底部：
 
 * 可用結果
 * 不可用結果

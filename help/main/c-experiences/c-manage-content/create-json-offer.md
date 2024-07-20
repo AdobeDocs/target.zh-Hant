@@ -1,6 +1,6 @@
 ---
 keywords: json選件；建立json選件
-description: 瞭解如何在中建立JSON選件，以用於 [!UICONTROL Form-Based Experience Composer].
+description: 瞭解如何在中建立JSON選件以用於[!UICONTROL Form-Based Experience Composer]。
 title: 如何建立JSON選件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
@@ -13,38 +13,38 @@ ht-degree: 29%
 
 # 建立 JSON 選件
 
-在中建立JSON選件 [!UICONTROL Offer Library] 在 [!DNL Adobe Target] 用於 [!UICONTROL Form-Based Experience Composer].
+在[!DNL Adobe Target]的[!UICONTROL Offer Library]中建立JSON選件以用於[!UICONTROL Form-Based Experience Composer]。
 
-JSON選件可用於表單式活動，以啟用以下用途的使用案例： [!DNL Target] 傳送JSON格式的選件以用於SPA框架或伺服器端整合中的使用需要決策。
+JSON選件可用於表單式活動，以啟用需要[!DNL Target]個決策的使用案例，藉此傳送採用JSON格式的選件以用於SPA架構或伺服器端整合。
 
 ## JSON考量事項
 
 使用 JSON 選件時，請考量下列資訊:
 
-* JSON選件目前僅適用於 [!UICONTROL A/B Test]， [!UICONTROL Automated Personalization] (AP)，以及 [!UICONTROL Experience Targeting] (XT)活動。
-* JSON選件可用於 [表單式活動](/help/main/c-experiences/form-experience-composer.md) 僅限。
-* 使用時，可直接擷取JSON選件 [伺服器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* 在瀏覽器中，只能透過at.js 1.2.3 （或更新版本）並使用來擷取JSON選件 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 使用來篩選動作 `setJson` 動作。
+* JSON選件目前僅適用於[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Experience Targeting] (XT)活動。
+* JSON選件只能用於[表單式活動](/help/main/c-experiences/form-experience-composer.md)。
+* 使用[伺服器端API和Mobile Node.js、Java、.NET及Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}時，可以直接擷取JSON選件。
+* 在瀏覽器中，只能透過at.js 1.2.3 （或更新版本）以及使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} （使用`setJson`動作來篩選動作），以擷取JSON選件。
 * JSON 選件是以原生 JSON 物件提供，而不是字串。這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
-* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼來明確利用取得選件 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼，才能使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}明確取得選件。
 
 ## 建立JSON選件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 按一下 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**。
 
    ![選件>代碼選件索引標籤](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. 按一下 **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**。
 
    ![offer-json影像](assets/offer-json.png)
 
 1. 輸入選件名稱。
-1. 在「 」中輸入或貼上JSON程式碼 **[!UICONTROL Code]** 方塊。
+1. 在「**[!UICONTROL Code]**」方塊中，輸入或貼上JSON程式碼。
 1. 按一下 **[!UICONTROL Save]**。
 
 ## JSON範例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-只有使用建立的活動才支援JSON選件 [表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md). 目前，能使用JSON選件的唯一方式是透過直接API/SDK呼叫。
+只有使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立的活動才支援JSON選件。 目前，能使用JSON選件的唯一方式是透過直接API/SDK呼叫。
 
 其範例如下:
 
@@ -81,7 +81,7 @@ adobe.target.getOffer({
 ]
 ```
 
-若要擷取JSON選件，請逐一檢視動作，然後找到包含 `setJson` 動作，然後逐一檢視內容陣列。
+若要擷取JSON選件，請逐一檢視動作，找出具有`setJson`動作的動作，然後查一檢視內容陣列。
 
 ## 使用案例 {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -133,12 +133,12 @@ adobe.target.getOffer({
 
 ## 使用Real-time CDP設定檔屬性的JSON選件範例
 
-Real-time CDP設定檔屬性可與共用 [!DNL Target] 用於HTML和JSON選件。
+Real-time CDP設定檔屬性可與[!DNL Target]共用，以用於HTML和JSON選件。
 
-如需詳細資訊，請參閱 [與共用Real-time CDP設定檔屬性 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+如需詳細資訊，請參閱[與 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)共用Real-time CDP設定檔屬性。
 
 ## 依JSON選件型別篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以篩選 [!UICONTROL Offers] 依JSON選件型別按一下 **[!UICONTROL Type]** 下拉式清單，然後選取 **[!UICONTROL JSON]** 核取方塊。
+您可以按一下&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單，然後選取&#x200B;**[!UICONTROL JSON]**&#x200B;核取方塊，依JSON選件型別來篩選[!UICONTROL Offers]資料庫。
 
 ![offer-json-filter影像](assets/offer-json-filter.png)

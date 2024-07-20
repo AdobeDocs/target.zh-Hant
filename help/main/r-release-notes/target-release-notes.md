@@ -23,17 +23,17 @@ ht-degree: 77%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target] 報告位置 [!DNL Adobe Customer Journey Analytics] （2024年5月8日）
+## [!DNL Target]報告於[!DNL Adobe Customer Journey Analytics] （2024年5月8日）
 
-以下兩者的整合： [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} 和 [!DNL Target] 為您的最佳化程式提供強大的分析和省時的工具。
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間的整合為您的最佳化程式提供強大的分析與省時的工具。
 
 使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源的主要優點如下：
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。執行活動之前完全不需要指定。
-* 行銷人員可充分運用 [!DNL Customer Journey Analytics] 功能，例如 [實驗面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}，以進一步分析其網站個人化。
-* 行銷人員可以有適用於的單一報表來源 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 和 [!DNL Target]. 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
+* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[實驗面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
+* 行銷人員可以有[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank}和[!DNL Target]的單一報告來源。 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
 
-如需詳細資訊，請參閱 [Adobe Customer Journey Analytics中的Target報表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+如需詳細資訊，請參閱[Adobe Customer Journey Analytics中的Target報告](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)。
 
 ## 額外的發行說明和版本詳細資料
 

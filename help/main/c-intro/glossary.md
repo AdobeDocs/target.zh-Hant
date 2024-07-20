@@ -5,8 +5,8 @@ feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 100%
+source-wordcount: '2480'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 **Automated Personalization**
 
-自動個人化 (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同變數，以便個人化內容並促進轉換。
+Automated Personalization (AP) 結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同變數，以便個人化內容並促進轉換。
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -108,7 +108,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 決定要建議的產品或內容的規則。條件可以基於人氣趨勢、訪客的目前和過去行為，或類似的產品和內容。
 
-## D {#section_CD712B37316C45F58F82113707A98D5C}
+## 第{#section_CD712B37316C45F58F82113707A98D5C}天
 
 **DAM**
 
@@ -146,7 +146,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 **增強體驗撰寫器**
 
-[!UICONTROL 增強體驗撰寫器]是[!UICONTROL 可視化體驗撰寫器]的延伸模組，可幫助您編輯 iframe-busting 網站或尚未納入 [!DNL Target] 實作頁面的體驗。如果您在[!UICONTROL 可視化體驗撰寫器]中開啟您的頁面遇到問題，請嘗試使用[!UICONTROL 增強體驗撰寫器]。
+[!UICONTROL Enhanced Experience Composer]是[!UICONTROL Visual Experience Composer]的擴充功能，可協助您編輯iframe-busting網站或尚未包含[!DNL Target]實作的頁面的體驗。 如果您無法在[!UICONTROL Visual Experience Composer]中開啟您的頁面，請嘗試[!UICONTROL Enhanced Experience Composer]。
 
 **企業使用者權限**
 
@@ -170,7 +170,7 @@ A/B 測試會比較兩個或更多版本的網站內容，以查看哪個版本�
 
 **體驗鎖定目標**
 
-體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定對象提供內容。
+體驗鎖定目標 (XT) 會根據一組市場行銷人員定義的規則和條件為特定受眾提供內容。
 
 ## F {#section_45450032955C4DD2B607B85A23C4E21A}
 

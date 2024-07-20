@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # 第 4 章：使用 Target 的提示
 
-根據我們與許多公司的合作 [!DNL Target] 我們觀察到您從您的網站獲得更多價值的方式 [!DNL Target] 解決方案。 我們在本章中提供的許多秘訣中已加以總結。 雖然您可能還沒準備好立即使用這些概念，但請繼續閱讀這份清單。您使用解決方案的經驗越多，程式越成熟，您就會越瞭解這些秘訣如何協助您透過完成更多工作 [!DNL Target].
+根據我們與許多[!DNL Target]使用者的合作，我們觀察到您從[!DNL Target]解決方案中獲得更多價值的方式。 我們在本章中提供的許多秘訣中已加以總結。 雖然您可能還沒準備好立即使用這些概念，但請繼續閱讀這份清單。您使用解決方案的經驗越多，程式越成熟，您就會越瞭解這些秘訣如何協助您使用[!DNL Target]完成更多工作。
 
 ## 提示 1：透過增加訪客個人檔案，深化個人化。
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 **很高興知道**：由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增 CRM 或購買的資料。這表示您可以選擇最適合您組織的方法。
 
-另請參閱 [將資料傳入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 以取得詳細資訊。
+如需詳細資訊，請參閱[將資料匯入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法。
 
 ## 提示 2：將 [!DNL Target] 對象與其他 Adobe Experience Cloud 對象混合，以實現更深度的個人化。
 
@@ -33,11 +33,11 @@ ht-degree: 72%
 
 如需逐步指示，請參閱[結合多個對象](/help/main/c-target/combining-multiple-audiences.md)。
 
-**很高興知道**：[!DNL Adobe Audience Manager] 對象會自動在 [!DNL Target] 中使用。但 [!DNL Adobe Analytics] 對象共用需要手動設定。在的對象建立程式中，只要勾選標示「讓這成為Experience Cloud對象」的方塊即可 [!DNL Analytics]. 然後從 [!DNL Target]，按一下「匯入Experience Cloud對象」 。
+**很高興知道**：[!DNL Adobe Audience Manager] 對象會自動在 [!DNL Target] 中使用。但 [!DNL Adobe Analytics] 對象共用需要手動設定。在[!DNL Analytics]的對象建立程式中，只要勾選標示「讓這成為Experience Cloud對象」的方塊即可。 然後從[!DNL Target]按一下「匯入Experience Cloud對象」。
 
 ## 提示 3：從 [!DNL Target] 匯出資料以搭配協力廠商工具使用。
 
-使用回應權杖，管理員可輕鬆將資料從 [!DNL Target] 取出並放入協力廠商工具。當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，則您可以使用您的資料來檢視哪些人看到體驗A，哪些人看到體驗B。您也可以使用回應權杖來匯出 [!DNL Target] 資料放入您的內部Data Warehouse。 只要按一下「管理」，然後將所要的回應Token旁的開關切換至開啟位置。 接著，建立活動。然後，資料就可以傳輸給第三方廠商。您可以使用偵錯工具來驗證 [!DNL Target] 是否正在匯出資料。
+使用回應權杖，管理員可輕鬆將資料從 [!DNL Target] 取出並放入協力廠商工具。當您想要將資料新增至調查工具中收集的資料時，這會很有幫助。例如，如果調查顯示某個人口的體驗分數為「9」，而另一個人的體驗分數為「4」，則您可以使用您的資料來檢視哪些人看到體驗A，哪些人看到體驗B。您也可以使用回應Token將[!DNL Target]資料匯出至內部資料倉儲。 只要按一下「管理」，然後將所要的回應Token旁的開關切換至開啟位置。 接著，建立活動。然後，資料就可以傳輸給第三方廠商。您可以使用偵錯工具來驗證 [!DNL Target] 是否正在匯出資料。
 
 如需逐步指示，請參閱[回應權杖](/help/main/administrating-target/response-tokens.md)。
 
@@ -73,7 +73,7 @@ ht-degree: 72%
 
 如需逐步指示，請參閱[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 
-**有用的提示**：在您指定頁面範圍後變更URL將會重設體驗。 這表示您指定的變數將不再出現。如果您需要變更 URL，請記得重新定義體驗。
+**有用的提示**：在您指定頁面範圍之後變更URL將會重設體驗。 這表示您指定的變數將不再出現。如果您需要變更 URL，請記得重新定義體驗。
 
 ## 提示 7：測試包含不同對象的選件，以發現對象是否有不同的偏好。
 
@@ -111,7 +111,7 @@ ht-degree: 72%
 * 頁面的轉換率是多少？
 * 您預期需要執行測試多久才能放心地稱為完成？
 
-**實用提示**：使用 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 協助判斷成功測試所需的樣本大小。
+**實用提示**：使用[!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)協助判斷成功測試所需的樣本大小。
 
 ## 提示 12：設計更簡單的測試，以確保您能夠建立並實作這些測試。
 

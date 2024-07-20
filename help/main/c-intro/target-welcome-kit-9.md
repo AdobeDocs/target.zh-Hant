@@ -6,22 +6,22 @@ feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 82%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
 # 第 9 章：接續步續和資源
 
-我們已涵蓋執行您第一個活動的基本知識。 我們希望此活動向您和您的公司展示使用 [!DNL Adobe Target] 進行最佳化和個人化對業務盈虧底線產生影響的驚人潛力。這只是個開始。您是時候思考一下您的第二個活動將著重於什麼了？ 考慮建立您要執行之活動的優先順序清單。您將驚訝地發現，您能以多快的速度在一個個活動中改善客戶體驗並推動業務成功。
+我們已涵蓋執行您第一個活動的基本知識。 我們希望此活動向您和您的公司展示使用 [!DNL Adobe Target] 進行最佳化和個人化對業務盈虧底線產生影響的驚人潛力。這只是個開始。您思考第二項活動將著重於哪些內容了嗎？ 考慮建立您要執行之活動的優先順序清單。您將驚訝地發現，您能以多快的速度在一個個活動中改善客戶體驗並推動業務成功。
 
-順便一提，您有許多方法可進一步瞭解測試、個人化和 [!DNL Target] 的使用。請檢閱下列資源清單，以開始建立該知識。在我們的網路研討會上聆聽、閱讀 Adobe Target 部落格、參加 Adobe Summit，並積極參與 Adobe Target 線上社群。別忘了，我們會一直協助您啟動計畫，邁向成功之路。 請隨時聯絡我們。
+順便一提，您有許多方法可進一步瞭解測試、個人化和 [!DNL Target] 的使用。請檢閱下列資源清單，以開始建立該知識。在我們的網路研討會上聆聽、閱讀 Adobe Target 部落格、參加 Adobe Summit，並積極參與 Adobe Target 線上社群。別忘了，我們會一直提供支援，協助您啟動計畫，邁向成功之路。 請隨時聯絡我們。
 
-我們已整理好有條理的重要資訊清單，協助您進一步瞭解如何使用進行最佳化和個人化 [!DNL Target].
+我們已整理好有條理的重要資訊清單，協助您進一步瞭解如何使用[!DNL Target]進行最佳化和個人化。
 
 ## 資源連結
 
-* **設定 Adobe Target**：協助您管理 [!DNL Adobe Target]，包括 [!UICONTROL Visual Experience Composer] (VEC)、報告[!DNL Scene7]、設定、實施、主機、環境、回應權杖和使用者的設置設定。請參閱[管理 Target 簡介](/help/main/administrating-target/administrating-target.md)。
+* **設定Adobe Target**：協助您管理[!DNL Adobe Target]的資訊，包括[!UICONTROL Visual Experience Composer] (VEC)、報告、[!DNL Scene7]組態、實作、主機、環境、回應權杖和使用者的組態設定。 請參閱[管理 Target 簡介](/help/main/administrating-target/administrating-target.md)。
 * **Adobe Target 產品文件**：您需要瞭解有關 Adobe Target 的一切。請參閱 [Adobe Target 產品文件](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hant)。
 * **Adobe Target API 和 SDK 文件**；了解如何在用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等實施 [!DNL Target]。此外，瞭解如何與協力廠商解決方案交換您的 [!DNL Target] 資料。請參閱 [Adobe Target API 總覽](/help/main/api/api-overview.md)。
 * **Adobe Target 活動指南**：介紹您可以在 [!DNL Target] 中使用的不同活動。[Adobe Target 活動類型](/help/main/c-activities/target-activities-guide.md)

@@ -14,11 +14,11 @@ ht-degree: 48%
 
 # Recommendations 活動設定
 
-可用於描述和控制設定的相關資訊 [!UICONTROL Recommendations] 中的活動 [!DNL Adobe Target].
+關於您可以用來描述和控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活動的設定資訊。
 
 ![Recommendations 目標和設定頁面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-以下小節說明 [!UICONTROL Recommendations] 活動。
+以下各節說明[!UICONTROL Recommendations]活動可用的設定。
 
 ## 名稱
 
@@ -35,7 +35,7 @@ ht-degree: 48%
 `-`
 `@`
 
-如果您指定 [!UICONTROL Recommendations] 中已有另一個活動的活動名稱 [!UICONTROL Recommendations Classic]，新活動會以新名稱重新同步。 新名稱為原始名稱附加時間戳記的唯一名稱。這個新名稱會顯示在 [!DNL Target Standard/Premium] 和 [!UICONTROL Recommendations Classic] 中。
+如果您指定的[!UICONTROL Recommendations]活動名稱是[!UICONTROL Recommendations Classic]中另一個已存在活動的名稱，則會以新名稱重新同步新活動。 新名稱為原始名稱附加時間戳記的唯一名稱。這個新名稱會顯示在 [!DNL Target Standard/Premium] 和 [!UICONTROL Recommendations Classic] 中。
 
 ## 目標
 
@@ -55,23 +55,23 @@ ht-degree: 48%
 
 ## 報表設定
 
-* **報表來源：** 指定收集來源的解決方案資料：
+* **報告Source：**&#x200B;指定收集自下列專案的解決方案資料：
 
    * [!DNL Adobe Target]
    * [!DNL Adobe Analytics]
    * [!DNL Adobe Customer Journey Analytics]
 
-  如果您已在以下專案中指定報表解決方案： [帳戶設定](/help/main/administrating-target/reporting.md)，則會使用指定的解決方案，並且此設定不會顯示。
+  如果已在您的[帳戶設定](/help/main/administrating-target/reporting.md)中指定報表解決方案，則會使用指定的解決方案，而且此設定不會顯示。
 
   為了讓報表保持一致，在活動上線後，您無法變更您的報表來源。
 
-  **[!DNL Adobe Analytics]**：請參閱 [[!DNL Adobe Analytics] 做為的報表來源 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 以瞭解報告解決方案之間的差異和各自的優點。
+  **[!DNL Adobe Analytics]**：檢視[[!DNL Adobe Analytics] 作為 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報告來源，以瞭解報告解決方案之間的差異和各自的優點。
 
-  當選取 [!DNL Analytics] 做為的報表來源 [!DNL Target] (A4T)，您選取 [!DNL Analytics] 要接收的報表套裝 [!DNL Target] 活動資料。 若要這麼做，請先從下列任一 [!DNL Analytics] 您的帳戶繫結的公司，然後為活動選取適當的報表套裝。 僅限布建為可連線的報表套裝 [!DNL Target] 可供選取。 如果您沒有看到預期的報表套裝，請先嘗試登出並重新登入 [!DNL Adobe Experience Cloud] 再試一次。 如果清單中仍缺少報表套裝，請聯絡 [客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+  選取[!DNL Analytics]做為[!DNL Target] (A4T)的報告來源時，請選取[!DNL Analytics]報告套裝來接收[!DNL Target]活動資料。 若要這麼做，請先從您帳戶繫結的[!DNL Analytics]家公司中選擇任一，接著為該活動選取適當的報表套裝。 只有布建為連線至[!DNL Target]的報表套裝才可供選取。 如果您沒有看到預期的報表套裝，請先嘗試登出並重新登入[!DNL Adobe Experience Cloud]以重試。 如果清單中仍缺少報表套裝，請連絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-  [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在 [!UICONTROL Tracking Server] 欄位。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 另請參閱 [使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) 以取得詳細資訊。
+  [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL Tracking Server]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-  **[!DNL Adobe Customer Journey Analytics]**：請參閱 [[!DNL Target] 報告位置 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) 以取得關於以下各項整合的詳細資訊： [!DNL Adobe Customer Journey Analytics] 和 [!DNL Target].
+  **[!DNL Adobe Customer Journey Analytics]**：如需有關[!DNL Adobe Customer Journey Analytics]與[!DNL Target]之間整合的詳細資訊，請參閱[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告。
 
 * **目標量度:** 選取判斷活動是否成功的成功量度。
 * **其他度量:** 設定要在您的報表中使用的其他成功度量。

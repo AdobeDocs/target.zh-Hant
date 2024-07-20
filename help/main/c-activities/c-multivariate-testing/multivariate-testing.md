@@ -1,35 +1,35 @@
 ---
 keywords: 多變數測試；mvt；全階乘；mvt或a/b；多變數a/b；流量估算；何時使用mvt；mvt考量；多變數；部分階乘；部分階乘；全階乘
-description: 瞭解如何使用 [!UICONTROL 多變數測試] (MVT)輸入 [!DNL Adobe Target] 比較頁面上元素中的選件組合，以判斷哪個組合執行時效果最佳。
-title: 什麼是 [!UICONTROL 多變數測試]？
+description: 瞭解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Multivariate Test] (MVT)來比較頁面上元素中的選件組合，以判斷哪個組合效果最佳。
+title: 什麼是[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 48%
+source-wordcount: '1438'
+ht-degree: 46%
 
 ---
 
-# [!UICONTROL 多變數測試概覽]
+# [!UICONTROL Multivariate Test]總覽
 
-A [!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 比較頁面上元素中選件的組合，以判斷哪個組合對特定對象的執行效果最佳。 A [!UICONTROL 多變數測試] 活動也可協助識別最影響活動成功的元素。
+[!DNL Adobe Target]中的[!UICONTROL Multivariate Test] (MVT)活動會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳。 [!UICONTROL Multivariate Test]活動也可協助識別最影響活動成功的元素。
 
 多變數測試可協助您探索特定元素對轉換的相對影響（與頁面上的其他元素相比）。 多變數測試也可協助您調整已證明有效的元素組合。
 
-一個優點是 [!UICONTROL 多變數測試] 相較於A/B測試，所提供的功能可顯示頁面上的哪些元素對轉換有最大影響。 這種優勢也稱為「主要效果」。 例如，這項資訊可協助您決定要將最受關注的內容放在何處。
+與A/B測試相比，[!UICONTROL Multivariate Test]提供的一項優點是，可顯示頁面上的哪些元素對轉換有最大影響。 這種優勢也稱為「主要效果」。 例如，這項資訊可協助您決定要將最受關注的內容放在何處。
 
-[!UICONTROL 多變數測試] 活動也可協助您在頁面上找到兩個或多個元素之間的複合效果。 例如，特定廣告結合特定橫幅或主圖時，可能產生更多轉換。這又稱為「交互效應」。
+[!UICONTROL Multivariate Test]活動也可協助您在頁面上找到兩個或多個元素之間的複合效果。 例如，特定廣告結合特定橫幅或主圖時，可能產生更多轉換。這又稱為「交互效應」。
 
 [!DNL Target] 採用全階乘多變數測試，協助您將內容最佳化。全階乘多變數測試會以相同機率檢查所有可能的內容組合。 例如，假設您的兩個頁面元素各有三個選件，總共有九種可能的組合 (3x3)。在三個元素中，有兩個包含三個可能的選件，有一個有兩個選件，總共有 18 種選項 (3x3x2)。
 
-在 [!DNL Target]，每個組合是一個體驗。 此 [!UICONTROL 多變數測試] 會比較每個體驗，讓您瞭解哪些組合最成功。 同時會收集並分析資料，以瞭解每一個位置和選件如何影響成功量度。
+在[!DNL Target]中，每個組合都是一個體驗。 [!UICONTROL Multivariate Test]會比較每個體驗，讓您瞭解哪些組合最成功。 同時會收集並分析資料，以瞭解每一個位置和選件如何影響成功量度。
 
 ![多變數影像](assets/multivariate.png)
 
-由於可產生的組合數量，因此 [!UICONTROL 多變數測試] 比A/B測試需要更多時間和流量。 頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。若要獲得有用的結果，您必須瞭解頁面收到的流量量，並針對適當的時間量測試最佳組合數量以取得所需的結果。
+由於可產生的組合數目，[!UICONTROL Multivariate Test]比A/B測試需要更多時間和流量。 頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。若要獲得有用的結果，您必須瞭解頁面收到的流量量，並針對適當的時間量測試最佳組合數量以取得所需的結果。
 
-目標的 [流量估算器](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) 可協助您設計適用於流量的測試。 使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。請考量每日的流量水準。活動中的體驗愈多，活動必須包含的流量愈多，或活動必須執行的時間愈長。 如果流量量不高，您應該測試幾個組合；否則，產生有意義的測試結果所需的時間可能太長，而無法使用。
+Target的[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可協助您設計適用於流量的測試。 使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。請考量每日的流量水準。活動中的體驗愈多，活動必須包含的流量愈多，或活動必須執行的時間愈長。 如果流量量不高，您應該測試幾個組合；否則，產生有意義的測試結果所需的時間可能太長，而無法使用。
 
 ## MVT術語 {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -45,11 +45,11 @@ A [!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 比較頁�
 
 **位置:**&#x200B;頁面上的特定內容區域，通常包含在單一 DOM 元素內。在 MVT 方法中，有時會將位置稱為&#x200B;*係數*。全階乘多變數測試會比較您的位置中所有可能的選件組合。
 
-## 使用時機 [!UICONTROL 多變數測試] 與A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## 何時使用[!UICONTROL Multivariate Test]與A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 多變數測試與 A/B 測試可以一起用來將頁面最佳化。何時需要一起使用的例子包括:
 
-* 使用 A/B 測試將頁面配置最佳化，接著以 MVT 測試來決定頁面上每一個元素中的最佳內容。。
+* 使用A/B測試來最佳化您的頁面配置，接著使用MVT測試來決定頁面上每個元素中的最佳內容。
 
   A/B 測試可以提供版面配置方面的重要意見，而 MVT 測試擅長於測試頁面設計中各元素內的內容。在測試多個內容選項之前對版面配置執行A/B測試，可協助您決定最佳版面配置和最具影響力的內容。
 
@@ -67,11 +67,12 @@ A [!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 比較頁�
 
   例如，請勿在相同測試中測試版面配置與內容。
 
-* 因為體驗數目會增加，請預留額外時間給 QA。您也可以使用部分因子測試，減少多變數測試所需的流量量。 如需詳細資訊，請參閱下方的部分因子測試：
+* 由於體驗數量增加，請為QA規劃額外的時間。 您也可以使用部分因子測試，減少多變數測試所需的流量量。 如需詳細資訊，請參閱下方的部分因子測試：
 
 ## 部分因子測試
 
-[!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計資料中，「實驗設計」提供許多方法（或設計）來判斷會影響結果的因素。 其中一種方法是 [田口方法](https://en.wikipedia.org/wiki/Taguchi_methods) 進行部分因子測試。 田口可讓行銷人員建立一組假設，以減少必須測試的體驗排列，進而減少多變數測試的流量需求。 可將此功能和測試方法套用於 [!DNL Target] 使用此 [離線試算表](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target] 提供全階乘多變數測試當作內建活動選項。在統計資料中，
+「實驗設計」提供許多方法（或設計）來判斷會影響結果的因素。 其中一種方法是用於部分因子測試的[田口方法](https://en.wikipedia.org/wiki/Taguchi_methods)。 田口可讓行銷人員建立一組假設，以減少必須測試的體驗排列，進而減少多變數測試的流量需求。 使用此[離線試算表](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)，即可在[!DNL Target]中套用此功能和測試方法。
 
 如果您的團隊採用其他「實驗設計」方法，您可以將此計算試算表當作自訂實驗設計的參考實作。
 
@@ -83,7 +84,7 @@ A [!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 比較頁�
 * 使用[可視化體驗撰寫器 (VEC)](/help/main/c-experiences/experiences.md) 在 A/B 工作流程中建立體驗。您可以使用自訂程式碼、編輯 HTML、WYSIWYG 或任何組合。
 * 活動結束後（根據樣本大小電腦），透過試算表執行結果以取得其他詳細資訊。
 
-如需更多考量事項和最佳實務，請參閱 [多變數測試最佳作法](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+如需更多考量事項和最佳實務，請參閱[多變數測試最佳實務](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
 
 ## 培訓影片
 
@@ -91,7 +92,7 @@ A [!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 比較頁�
 
 ### 活動類型 (9:03)![Overview badge](/help/main/assets/overview.png)
 
-此概觀影片說明中可用的活動型別。 [!DNL Target]. 4:20 開始討論多變數測試。
+此概觀影片說明[!DNL Target]中可用的活動型別。 4:20 開始討論多變數測試。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型
@@ -99,9 +100,9 @@ A [!UICONTROL 多變數測試] 中的(MVT)活動 [!DNL Adobe Target] 比較頁�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
+### 正在建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片說明如何使用，來瞭解、規劃和建立多變數測試。 [!DNL]Target三步驟引導式工作流程。
+此影片說明如何使用[!DNL]Target三步驟引導式工作流程來瞭解、規劃和建立多變數測試。
 
 * 定義和設計多變數測試
 * 建立多變數測試
