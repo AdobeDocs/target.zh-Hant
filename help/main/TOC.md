@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1323'
 ht-degree: 86%
 
 ---
@@ -333,6 +333,7 @@ ht-degree: 86%
    + 設計 {#recommendations-design}
       + [設計概覽](c-recommendations/c-design-overview/design-overview.md)
       + [建立設計](c-recommendations/c-design-overview/create-design.md)
+      + [建立設計](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [設計常見問題集](c-recommendations/c-design-overview/template-faq.md)
       + [使用 Velocity 自訂設計](c-recommendations/c-design-overview/customizing-a-template.md)
    + 活動 {#recommendations-activity}

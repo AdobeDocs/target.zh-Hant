@@ -1,14 +1,14 @@
 ---
 keywords: 建議;常見問題;faq
-description: 檢閱常見問題集(FAQ)及其關於Adobe [!DNL Target] Recommendations設計的答案。
-title: 我可以在哪裡找到 [!DNL Target] Recommendations設計問題的解答？
+description: 常見問題集(FAQ)及其關於 [!DNL Target Recommendations] 設計的回答。
+title: 何處可以取得 [!DNL Target Recommendations]的設計問題解答？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 58%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 62%
 
 ## 設計中為何沒有顯示類別? 我正在使用`$entity1.categoryId`。{#section_073309B8051049C7953D396A93EA0713}
 
-設計中無法顯示類別 ID。因為可能會儲存多個類別，系統無法決定要顯示的類別。
+設計中無法顯示類別 ID。因為可以儲存多個類別，所以系統不知道要顯示哪個類別。
 
 ## 如何變更設計才能立即更新?    {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -40,13 +40,13 @@ ht-degree: 62%
 
 ## 如何擷取重要資訊以顯示在設計中? 範例: 如果想要顯示重要產品的類別，如何在 Velocity 設計中編寫該值? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-`$key. *`value`*` 參數會擷取重要產品的大部分資訊以顯示在設計內。範例: 如果要顯示重要產品的縮圖，請使用 `$key.thumbnailURL`。
+`$key. *`value`*` 參數會擷取重要產品的大部分資訊以顯示在設計內。例如，如果您想要顯示重要產品的縮圖，請使用`$key.thumbnailURL`。
 
 ## 使用什麼 Velocity 版本? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 1.7 版，不含其他工具或程式庫。提供基本 Velocity 功能。
 
-## 如何將現存的實體值改為空白? 例如，促銷活動結束時需要清除專案的entity.message。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## 如何將現存的實體值改為空白? 例如，促銷活動結束時需要清除專案的`entity.message`。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 以JavaScript不間斷的空格傳送似乎有助於執行此操作。 由開發人員傳入 `\u00A0` 當作值。範例： `entity.message=\u00A0`。 若沒有值出現，您不妨考慮將此設為預設值，而非為null。
 

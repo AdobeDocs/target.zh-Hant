@@ -1,26 +1,26 @@
 ---
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
-description: 瞭解如何使用開放原始碼Velocity設計語言來自訂Adobe [!DNL Target] Recommendations中的建議設計。
+description: 瞭解如何使用開放原始碼 [!DNL Velocity] 設計語言來自訂 [!DNL Target] Recommendations中的建議設計。
 title: 如何使用Velocity自訂設計？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 39%
+source-wordcount: '1049'
+ht-degree: 33%
 
 ---
 
-# 使用 Velocity 自訂設計
+# 使用[!DNL Velocity]自訂設計
 
-使用開放原始碼Velocity設計語言來自訂[!DNL Adobe Target Recommendations]中的建議設計。
+使用開放原始碼[!DNL Velocity]設計語言來自訂[!DNL Adobe Target Recommendations]中的建議設計。
 
-## Velocity概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity]總覽 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-有關Velocity的資訊，請參閱[https://velocity.apache.org](https://velocity.apache.org)。
+有關[!DNL Velocity]的資訊可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
 
-所有 Velocity 邏輯、語法等，均可用於建議設計。即是說，您可使用 Velocity 取代 JavaScript 來建立 *for* 迴圈、*if* 陳述式及其他程式碼。
+所有[!DNL Velocity]邏輯、語法等均可用於建議設計。 這表示您可以使用[!DNL Velocity]而非JavaScript來建立&#x200B;*for*&#x200B;回圈、*if*&#x200B;陳述式及其他程式碼。
 
 傳送至`productPage` mbox中的[!DNL Recommendations]或CSV上傳的實體屬性可以在設計中顯示，但「多值」屬性除外。 任何型別的屬性都可以傳送；不過，[!DNL Target]不會傳遞型別「多值」的屬性做為範本可以反複處理的陣列（例如`entityN.categoriesList`）。
 
@@ -30,7 +30,7 @@ ht-degree: 39%
 $entityN.variable
 ```
 
-實體屬性名稱必須遵循Velocity速記符號，該符號由前導的&#x200B;*$*&#x200B;字元組成，後面接著Velocity範本語言(VTL)識別碼。 VTL 識別碼的開頭必須為字母字元 (a-z 或 A-Z)。
+實體屬性名稱必須遵循[!DNL Velocity]速記符號，由前導的&#x200B;*$*&#x200B;字元組成，後面接著[!DNL Velocity]範本語言(VTL)識別碼。 VTL 識別碼的開頭必須為字母字元 (a-z 或 A-Z)。
 
 Velocity實體屬性名稱僅限於下列字元型別：
 
@@ -39,7 +39,7 @@ Velocity實體屬性名稱僅限於下列字元型別：
 * 連字號 ( - )
 * 底線 ( _ )
 
-下列屬性可作為Velocity陣列使用。 因此，可透過索引逐一查看或參照。
+下列屬性可做為[!DNL Velocity]陣列使用。 因此，可透過索引逐一查看或參照。
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-如需Velocity變數（屬性）的詳細資訊，請參閱[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
+如需[!DNL Velocity]變數（屬性）的詳細資訊，請參閱[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
 
 如果您在設計中使用設定檔指令碼，指令碼名稱前面的$必須以`\` （反斜線）逸出。 例如：
 
@@ -127,9 +127,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 您也可以在設計中使用`algorithm.name`和`algorithm.dayCount`作為實體屬性，因此一個設計可用於測試多個條件，而條件名稱可動態地顯示在設計中。 藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。您甚至可以使用這些屬性來顯示`dayCount` （條件中使用的資料天數，例如「過去2天最暢銷的商品」等）。
 
-## 在Velocity範本中使用數字
+## 使用[!DNL Velocity]範本中的數字
 
-依預設，Velocity範本會將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以便執行數學運算或將其與其他數值進行比較。 若要將實體屬性視為數值，請遵循下列步驟：
+根據預設，[!DNL Velocity]範本會將所有實體屬性視為字串值。 您可能想要將實體屬性視為數值，以便執行數學運算或將其與其他數值進行比較。 若要將實體屬性視為數值，請遵循下列步驟：
 
 1. 宣告虛擬變數並將其初始化為任意整數或雙精度數值。
 1. 請確定您要使用的實體屬性不是空白的（[!DNL Target Recommendations]範本剖析器驗證並儲存範本的必要專案）。
@@ -240,7 +240,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 自訂範本大小並檢查空白值 {#default}
 
-透過 Velocity 指令碼控制實體顯示的動態大小，下列範本可因應 1 對多結果，以免在 [!DNL Recommendations] 傳回的相符實體不足時建立空白的 HTML 元素。此指令碼最適合備份建議沒有意義且已啟用[!UICONTROL Partial Template Rendering]的情況。
+使用[!DNL Velocity]指令碼控制實體顯示的動態大小，下列範本可因應1對多結果，以免在[!DNL Recommendations]傳回的相符實體不足時建立空白的HTML元素。 此指令碼最適合備份建議沒有意義且已啟用[!UICONTROL Partial Template Rendering]的情況。
 
 下列 HTML 片段會取代 4x2 預設設計中的現有 HTML 部分 (為了簡潔起見，此處未包含 CSS):
 
