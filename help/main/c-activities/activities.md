@@ -4,7 +4,7 @@ description: 瞭解 [!DNL Target] 中的活動如何讓您個人化內容給特�
 title: 如何使用 [!DNL Target]個人化內容及測試頁面設計？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: be63fa4c89f229e3f4566cb400e1268d2cdf08d2
+source-git-commit: 0e2bc5c96671b47532b90f3ecb525a6a0506eb8d
 workflow-type: tm+mt
 source-wordcount: '2290'
 ht-degree: 36%
@@ -71,16 +71,17 @@ ht-degree: 36%
 ![篩選器選項](/help/main/c-activities/assets/show-filters-options.png)
 
 功能表可讓您依下列屬性篩選活動：
-|屬性|詳細資料|
-| — | — |
-|[!UICONTROL Type]|依[活動型別](#types)篩選。|
-|[!UICONTROL Status]|依活動狀態篩選。|
-|[!UICONTROL Reporting Source]|依報表來源篩選。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：顯示使用[!UICONTROL Analytics for Target] (A4T)作為報表來源的活動。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：顯示使用[!DNL Target]作為報表來源的活動。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：顯示使用[!DNL Adobe Customer Analytics]作為報表來源的活動。</li></ul>|
-|[!UICONTROL Experience Composer]|活動建立期間使用體驗撰寫器的篩選器：<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：顯示使用[!UICONTROL Visual Experience Composer] (VEC)建立的活動。</li><li>[表單式](/help/main/c-experiences/form-experience-composer.md)：顯示使用[!UICONTROL Form-Based Experience Composer]建立的活動。</li></ul>|
-|[!UICONTROL Metrics Type]|活動建立期間選擇[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的篩選器。<ul><li>轉換</li><li>收入</li><li>參與</li></ul>|
-|[!UICONTROL Decisioning Method]|依每個活動中使用的決定方法篩選<ul><li>[伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)：顯示使用伺服器端決策的活動。</li><li>[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：顯示使用使用者端決策的活動。</li></ul>|
-|[!UICONTROL Activity Source]|依用來建立每個活動的活動來源篩選。<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[Adobe Mobile 服務](https://developer.adobe.com/client-sdks/documentation/)</li></ul>|
-|[!UICONTROL Property]|依建立活動所在的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)篩選。|
+
+| 屬性 | 詳細資料 |
+| --- | --- |
+| [!UICONTROL Type] | 依[活動型別](#types)篩選。 |
+| [!UICONTROL Status] | 依活動狀態篩選。 |
+| [!UICONTROL Reporting Source] | 依報表來源篩選。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：顯示使用[!UICONTROL Analytics for Target] (A4T)作為報表來源的活動。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：顯示使用[!DNL Target]作為報表來源的活動。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：顯示使用[!DNL Adobe Customer Analytics]作為報表來源的活動。</li></ul> |
+| [!UICONTROL Experience Composer] | 活動建立期間使用體驗撰寫器的篩選：<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：顯示使用[!UICONTROL Visual Experience Composer] (VEC)建立的活動。</li><li>[表單式](/help/main/c-experiences/form-experience-composer.md)：顯示使用[!UICONTROL Form-Based Experience Composer]建立的活動。</li></ul> |
+| [!UICONTROL Metrics Type] | 活動建立期間選擇[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的篩選器。<ul><li>轉換</li><li>收入</li><li>參與</li></ul> |
+| [!UICONTROL Decisioning Method] | 依每個活動中使用的決策方法篩選<ul><li>[伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)：顯示使用伺服器端決策的活動。</li><li>[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：顯示使用使用者端決策的活動。</li></ul> |
+| [!UICONTROL Activity Source] | 依用來建立每個活動的活動來源篩選。<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[Adobe Mobile 服務](https://developer.adobe.com/client-sdks/documentation/)</li></ul> |
+| [!UICONTROL Property] | 依建立活動所在的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)篩選。 |
 
 ## 執行快速動作 {#quick-actions}
 
