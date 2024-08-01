@@ -1,20 +1,24 @@
 ---
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
-description: 檢視有關 Adobe [!DNL Target] Recommendations 活動的常見問答清單。
-title: 哪裡可以找到有關 [!DNL Target] Recommendations 的問答？
+description: 檢視有關 [!DNL Target Recommendations] 活動的常見問答清單。
+title: 哪裡可以找到有關 [!DNL Recommendations]的問答？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '3448'
-ht-degree: 86%
+source-wordcount: '3485'
+ht-degree: 84%
 
 ---
 
 # Recommendations 常見問題集
 
 關於 [!DNL Adobe Target] [!DNL Recommendations] 活動的常見問答 (FAQ) 清單。
+
+## 我可以使用[!DNL Target] API管理[!DNL Target] UI建立的視覺化選件嗎？
+
+無.在[!DNL Target] UI中建立具有視覺化選件的[!DNL Recommendations]活動，無法使用[!DNL Target] API進行管理。 雖然這些活動會顯示在[!UICONTROL Activities]清單中，但您無法讀取或更新它們(使用GET/PUT)。
 
 ## 當我就具有某數值的自訂屬性進行搜尋時，為什麼[!UICONTROL Catalog Search]沒有顯示正確的結果？
 

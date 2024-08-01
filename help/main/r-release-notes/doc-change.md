@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 17%
+source-wordcount: '338'
+ht-degree: 16%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 17%
 ## 更新
 
 |日期|主題|變更|
+|8月1日|[Recommendations常見問題集](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|已新增下列常見問題集：「我可以使用[!DNL Target] API管理[!DNL Target] UI建立的視覺選件嗎？」|
 |7月10日|[Proxy設定(Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|已新增區段：裝置上決策|
 |6月3日|[優先順序](/help/main/c-activities/priority.md)|已更新整個主題，包括表示來自多個[!UICONTROL Form-Based Experience Composer]和VEC活動的內容可以傳送。 以前，表單式工作流程中只能傳送一個活動。 可提供的表單式活動數量不再有任何限制。|
 |5月17日|[與[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)相關的疑難排解問題|已新增在使用[!UICONTROL Enhanced Experience Composer]時可加入允許清單的其他IP位址。|
