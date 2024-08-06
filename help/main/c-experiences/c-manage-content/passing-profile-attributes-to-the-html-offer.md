@@ -1,13 +1,13 @@
 ---
 keywords: 動態資料;資產;資料;選件;個人化選件;個人化選件;token 取代
-description: 瞭解如何將動態資料傳遞至 [!DNL Adobe Target] 選件。
+description: 瞭解如何在 [!DNL Adobe Target]中將動態資料傳遞至選件。
 title: 如何將動態資料傳遞至選件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 63%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 63%
 
 * 促銷折扣選件以「重新裝滿」或「補充」最後一個購買的產品。與其為您目錄中的每個項目建立個別選件，您可以建立含有動態文字的選件，從設定檔讀取「最後一個購買的產品」並在選件中顯示連結。
 * 訪客使用 `keyword=world` `cup` 到達您的登陸頁面。您在選件中顯示字詞 *World cup*。
-* 使用資訊個人化建議標籤，例如 (1) 最後一個新增至訪客購物車的項目 (Nike Air Max 1000s)、(2) 訪客的顏色偏好 (黑色) 和 (3) 訪客最喜愛的非鞋類別 (連帽上衣)。範例:「運用這些酷炫的黑色『連帽上衣』裝飾您的『Nike Air Max 1000s』!」
+* 使用資訊個人化建議標籤，例如(1)最後一個新增至訪客購物車的專案(Nike Air Max 1000s)、(2)訪客的顏色偏好（黑色）和(3)訪客最喜愛的非鞋類別（連帽上衣）。 範例:「運用這些酷炫的黑色『連帽上衣』裝飾您的『Nike Air Max 1000s』!」
 
 ## 技術優勢
 
@@ -69,7 +69,7 @@ ht-degree: 63%
 
 `${user.testAttribute default="All Items!"}`
 
-當 `testAttribute` 不存在或為空白時，會已寫出。 如果空白屬性值有效，並且您要將它寫出而非顯示預設，則可以使用:
+當`testAttribute`不存在或為空白時， 已寫出。 如果空白屬性值有效，並且您要將它寫出而非顯示預設，則可以使用:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
