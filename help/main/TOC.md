@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+source-git-commit: 4e5c3c1f93459619ff4d016af47f7f8ba9b16c2d
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 86%
+source-wordcount: '1332'
+ht-degree: 85%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 86%
    + [系統狀態更新和主動通知](r-release-notes/system-status-updates.md)
    + [文件變更](r-release-notes/doc-change.md)
    + [舊版發行說明](r-release-notes/release-notes-for-previous-releases.md)
+   + [Target活動、選件和Recommendations UI重新整理Beta程式](/help/main/r-release-notes/refresh-ui-beta.md)
 + 簡介 {#introduction}
    + [Target 簡介](c-intro/intro.md)
    + [從 Adobe Experience Cloud 存取 Target](c-intro/target-access-from-mac.md)
