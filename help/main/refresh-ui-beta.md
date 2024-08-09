@@ -6,22 +6,24 @@ badgePremium: label="Beta 版" type="Informative" url="https://experienceleague.
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '447'
+ht-degree: 71%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities]、[!UICONTROL Offers]和[!UICONTROL Recommendations] UI重新整理Beta程式
 
-本文中的這個連結可存取更新後的檔案，作為[!UICONTROL Activities]、[!UICONTROL Offers]和[!UICONTROL Recommendations]之[!DNL Adobe Target] UI重新整理的Beta程式的一部分。
+使用這些連結來存取更新後的檔案，作為[!UICONTROL Activities]、[!UICONTROL Offers]和[!UICONTROL Recommendations]之[!DNL Adobe Target] UI重新整理的Beta程式的一部分。
 
 >[!NOTE]
 >
->這些文章中的資訊會在Beta程式中經常更新。
+>[!DNL Adobe Target]團隊經常為特定客戶啟用新功能，以進行測試和提供意見回饋。 在測試期間完成後，這些功能會在未來[!DNL Target]版本中針對所有客戶啟用，並在發行說明中宣佈。
+>
+>這些文章中的資訊會在Beta程式中經常更新，恕不另行通知。
 
-+++ 活動（按一下可展開）
++++活動（按一下可展開）
 
 + [活動概覽](c-activities/activities.md){target=_blank}
 + [Target 活動類型](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ ht-degree: 76%
 
 +++
 
-+++ 選件（按一下以展開）
++++選件（按一下以展開）
 
 + [選件概覽](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [建立選件資料夾](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
