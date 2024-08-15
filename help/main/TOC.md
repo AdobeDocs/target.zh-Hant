@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 75c6760b57242222dc97a7bf61b6323f682b9da9
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 85%
+source-wordcount: '1356'
+ht-degree: 83%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 85%
          + [提升度和可信度 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [量度定義 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [分類 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-         + [共用量度、對象和報表 - A4T 常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+         + [共用量度、客群和報表 - A4T 常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 時 Target 與 Analytics 之間的預期資料變異](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + 將Target與Adobe Customer Journey Analytics {#cja}整合
@@ -96,7 +96,10 @@ ht-degree: 85%
    + 將Target與Adobe Journey Optimizer (AJO)整合{#ajo}
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
-   + [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md)
+      + Adobe Journey Optimizer使用案例{#use-cases}
+         + [掌握最佳化 — Adobe Journey Optimizer中的熱門使用案例](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [透過Adobe Journey Optimizer中的A/B測試變更內容](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+   + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
    + 將Target與Adobe Experience Manager (AEM)整合{#aem}
       + [將Target與AEM整合概覽](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 體驗片段和內容片段{#fragments}
@@ -118,11 +121,11 @@ ht-degree: 85%
          + [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [選取對象](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [選取客群](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/B 測試中的多個體驗對象](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動分配{#auto-allocate}
       + [自動分配概覽](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [建立自動分配活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
@@ -186,13 +189,13 @@ ht-degree: 85%
       + [活動 QA 概覽](c-activities/c-activity-qa/activity-qa.md)
       + [活動 QA 書籤小程式](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [使用透過伺服器端傳送的活動 QA](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-+ 對象 {#audiences}
-   + [對象概覽](c-target/target.md)
-   + 建立對象 {#create-audiences}
-      + [建立對象概覽](c-target/c-audiences/audiences.md)
-      + [在 Target 中建立對象](c-target/c-audiences/create-audience.md)
-      + 對象的類別 {#categories-audiences}
-         + [對象類別概覽](c-target/c-audiences/c-target-rules/target-rules.md)
++ 客群 {#audiences}
+   + [客群概覽](c-target/target.md)
+   + 建立客群 {#create-audiences}
+      + [建立客群概覽](c-target/c-audiences/audiences.md)
+      + [在 Target 中建立客群](c-target/c-audiences/create-audience.md)
+      + 客群的類別 {#categories-audiences}
+         + [客群類別概覽](c-target/c-audiences/c-target-rules/target-rules.md)
          + [瀏覽器](c-target/c-audiences/c-target-rules/browser.md)
          + [自訂參數](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [地理](c-target/c-audiences/c-target-rules/geo.md)
@@ -204,11 +207,11 @@ ht-degree: 85%
          + [時間段](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量來源](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [訪客設定檔](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [建立設定檔屬性比較對象](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
-   + [合併多個對象](c-target/combining-multiple-audiences.md)
-   + [建立僅限活動的對象](c-target/creating-activity-only-audience.md)
-   + [報表的對象篩選條件](c-target/managing-audience-filters.md)
-   + [套用報表對象至成功量度](c-target/apply-reporting-audience-success-metric.md)
+      + [建立設定檔屬性比較客群](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+   + [合併多個客群](c-target/combining-multiple-audiences.md)
+   + [建立僅限活動的客群](c-target/creating-activity-only-audience.md)
+   + [報表的客群篩選條件](c-target/managing-audience-filters.md)
+   + [套用報表客群至成功量度](c-target/apply-reporting-audience-success-metric.md)
    + 訪客設定檔 {#visitor-profiles}
       + [訪客設定檔概覽](c-target/c-visitor-profile/visitor-profile.md)
       + [訪客設定檔存留期](c-target/c-visitor-profile/visitor-profile-lifetime.md)
@@ -218,8 +221,8 @@ ht-degree: 85%
       + [客戶屬性](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [mbox3rdPartyId 的即時設定檔同步](c-target/c-visitor-profile/3rd-party-id.md)
       + [設定檔和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
-   + 鎖定目標和對象常見問答 {#faq-audiences}
-      + [鎖定目標和對象常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+   + 鎖定目標和客群常見問答 {#faq-audiences}
+      + [鎖定目標和客群常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + 體驗與選件 {#experiences}
    + [體驗與選件概覽](c-experiences/experiences.md)
    + 可視化體驗撰寫器 (VEC) {#vec}
