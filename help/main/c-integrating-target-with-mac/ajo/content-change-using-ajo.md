@@ -6,16 +6,18 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bbf56b2d041ea6537116d900278242a7a679dedd
+source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
 # 透過[!DNL Adobe Journey Optimizer]中的A/B測試變更內容
 
 此使用案例可協助您解除鎖定秘密，以在[!DNL Adobe Journey Optimizer]中有效A/B測試內容變更。
+
+此使用案例旨在示範如何使用[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)，但使用[!DNL Journey Optimizer]在[!DNL Adobe Target]、A/B測試中執行熟悉的工作。
 
 ## 藍本
 
@@ -29,6 +31,10 @@ ht-degree: 2%
 
 ## 逐步指示
 
+>[!NOTE]
+>
+>本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[編輯網頁內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。
+
 執行以下步驟，透過測試各種影像並使用使用者的名字個人化訊息，最佳化網頁：
 
 1. 在[!DNL Adobe Journey Optimizer]中，按一下左側邊欄中的&#x200B;**促銷活動**&#x200B;以顯示[!UICONTROL Campaigns]頁面。
@@ -41,21 +47,27 @@ ht-degree: 2%
 
    在Adobe Journey Optimizer中的![行銷活動詳細資訊頁面](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. 為行銷活動提供描述性名稱和選擇性說明。
+1. 在&#x200B;**[!UICONTROL Properties]**&#x200B;區段中，為行銷活動提供描述性名稱和選擇性說明。
 
-1. （視條件而定）按一下「**[!UICONTROL Select Audience]**」並選擇所需的對象。
+1. （視條件而定）在&#x200B;**[!UICONTROL Audience]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Select Audience]**&#x200B;並選擇所要的對象。
 
    對於此使用案例，我們選擇針對所有訪客啟動行銷活動（預設）。
 
-1. 從&#x200B;**[!UICONTROL Action]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Web]**，然後選取或建立新的網頁組態。
+1. 在&#x200B;**[!UICONTROL Action]**&#x200B;區段中，從&#x200B;**[!UICONTROL Action]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Web]**，然後選取或建立新的網頁組態。
 
    Web設定（或頻道介面）是由系統管理員定義的設定。 網頁設定包含所有用於傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。
 
    如需詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[設定頻道介面](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}。
 
-1. 按一下&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer]網頁設計工具中開啟您的網站。
+1. 在&#x200B;**[!UICONTROL Action]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer]網頁設計工具中開啟您的網站。
+
+   A/B測試需要兩個或多個實驗。 您可以使用現有的首頁做為第一個實驗。 後續步驟將說明如何設定第二個實驗。
 
    ![LUMA網站上的瑜伽登陸頁面](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+
+1. 若要建立實驗以測試哪些內容效果更好，請按一下&#x200B;**[!UICONTROL Create Experiment]**。
+
+   內容實驗可讓您變更訊息內容、主旨或寄件者，以定義多種處理方式並決定適用於您對象的最佳組合。 如需詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[建立內容實驗](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}。
 
 1. 按一下右側邊欄中的&#x200B;**[!UICONTROL Edit Web Page]**。
 
@@ -73,6 +85,8 @@ ht-degree: 2%
 
    ![新增Personalization按鈕。](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
+   如需設定檔屬性的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[開始使用個人化編輯器](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}。
+
 1. 搜尋並選取「名字」設定檔屬性，視需要調整文字，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    ![為名稱](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)新增設定檔屬性
@@ -84,6 +98,15 @@ ht-degree: 2%
    ![後退箭號](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. 按一下「**[!UICONTROL Review to Activate]**」，確定一切如預期般顯示，然後按一下「**啟動**」。
+
+## 檢視報表
+
+按一下「報表」按鈕，然後按一下所需的報表期間：
+
+* [!UICONTROL View all time report]
+* [!UICONTROL View last 24hrs report]
+
+如需詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[開始使用新的報表介面](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}。
 
 >[!MORELIKETHIS]
 >
