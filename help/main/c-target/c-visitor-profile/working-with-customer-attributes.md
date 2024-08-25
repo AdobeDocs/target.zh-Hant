@@ -114,11 +114,11 @@ ht-degree: 31%
 
 您可以在 [!DNL Target] 中以下列方式使用客戶屬性:
 
-### 建立鎖定目標對象
+### 建立鎖定目標客群
 
-在[!DNL Target]中，您可在建立對象時，從[!UICONTROL Visitor Profile]區段選取客戶屬性。 清單中的所有客戶屬性都會具備字首 &lt; data_source_name >。視需要將這些屬性與其他資料屬性結合，以建立對象。
+在[!DNL Target]中，您可在建立對象時，從[!UICONTROL Visitor Profile]區段選取客戶屬性。 清單中的所有客戶屬性都會具備字首 &lt; data_source_name >。視需要將這些屬性與其他資料屬性結合，以建立客群。
 
-![目標對象](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
+![目標客群](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 
 ### 使用 Token 建立設定檔指令碼
 

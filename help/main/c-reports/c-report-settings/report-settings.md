@@ -1,5 +1,5 @@
 ---
-keywords: Target;報表;報表設定;預設集;target 預設集;量度;對象;日期範圍;設定;下載;表格檢視;圖表檢視;平均提升度;提升度;提升度界限;信賴區間;信賴;位置貢獻;執行中的平均值;計數方法
+keywords: Target;報表;報表設定;預設集;target 預設集;量度;客群;日期範圍;設定;下載;表格檢視;圖表檢視;平均提升度;提升度;提升度界限;信賴區間;信賴;位置貢獻;執行中的平均值;計數方法
 description: 瞭解如何在Adobe Target中設定報表設定，包括量度、對象、日期範圍等。
 title: 如何設定報表設定？
 feature: Reports
@@ -98,11 +98,11 @@ ht-degree: 57%
 
 如需在報表中選取多個要檢視的量度的詳細資訊，請參閱[在報表中檢視多個量度](/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)。
 
-## 對象 {#section_70926EB4618945D9AFF2B0564FF3717B}
+## 客群 {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 按一下[!UICONTROL Audience]下拉式清單，以變更報表所顯示的對象。
 
-如需詳細資訊，請參閱[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
+如需詳細資訊，請參閱[客群](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
 ## 日期範圍 {#section_A410A768403C4E01891F95CB357E63ED}
 

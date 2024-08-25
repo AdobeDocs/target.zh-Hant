@@ -17,7 +17,7 @@ ht-degree: 38%
 
 [!UICONTROL Experience Targeting] (XT)會根據一組行銷人員定義的規則和條件將內容提供給特定對象。
 
-[!UICONTROL Experience Targeting] （包括[地理定位](/help/main/c-target/c-audiences/c-target-rules/geo.md)）對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同對象的活動中定義數個規則。
+[!UICONTROL Experience Targeting] （包括[地理定位](/help/main/c-target/c-audiences/c-target-rules/geo.md)）對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同客群的活動中定義數個規則。
 
 如需[!UICONTROL Experience Targeting]、使用案例情境和訓練影片的詳細資訊，請參閱[體驗鎖定目標](/help/main/c-activities/t-experience-target/experience-target.md)。
 

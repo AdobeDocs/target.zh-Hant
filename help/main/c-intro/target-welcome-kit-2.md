@@ -31,8 +31,8 @@ ht-degree: 79%
 | 自動分配 | 從兩個或多個體驗中識別出效能最佳的體驗，並自動重新分配更多流量給成功者以增加轉換，同時測試會繼續執行和學習。使用由 [!DNL Adobe Sensei] 提供支援的人工智慧。[了解詳情](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
 | 自動鎖定目標 <br>(Premium) | 運用 [!DNL Target] 中的 Adobe Sensei 人工智慧，根據個別客戶設定檔和先前具有類似設定檔的訪客行為，決定並提供每位訪客最佳體驗。 自動鎖定目標可讓您大規模個人化。[了解詳情](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | Automated Personalization <br>(Premium) | 使用由 [!DNL Adobe Sensei] 支援的進階機器學習演算法和自動化功能，檢視選件中影像、複製和其他元素的不同組合，並根據能最好地達成商業目標者 (例如每位訪客的轉換或收入增加)，為每位訪客提供最佳組合。 [了解詳情](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
-| 體驗鎖定 (XT) | 根據一組使用者定義的規則和標準，將內容傳送給特定的對象。 當您瞭解對象是有價值的，以及充分意識到哪些體驗會與之產生共鳴時，**[!UICONTROL Experience Targeting]**&#x200B;對於鎖定特定體驗或內容並用於特定對象非常有用。 [了解詳情](/help/main/c-activities/t-experience-target/experience-target.md)。 |
-| 多變數測試 (MVT) | 比較頁面上或數位體驗中各種元素變化的可能組合——例如 3 種不同的背景影像、2 種不同複本和 2 種不同按鈕顏色。MVT 會決定哪些組合對特定對象具有最佳效能，以及哪些元素對結果的影響最大。[了解詳情](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
+| 體驗鎖定 (XT) | 根據一組使用者定義的規則和標準，將內容傳送給特定的客群。 當您瞭解對象是有價值的，以及充分意識到哪些體驗會與之產生共鳴時，**[!UICONTROL Experience Targeting]**&#x200B;對於鎖定特定體驗或內容並用於特定對象非常有用。 [了解詳情](/help/main/c-activities/t-experience-target/experience-target.md)。 |
+| 多變數測試 (MVT) | 比較頁面上或數位體驗中各種元素變化的可能組合——例如 3 種不同的背景影像、2 種不同複本和 2 種不同按鈕顏色。MVT 會決定哪些組合對特定客群具有最佳效能，以及哪些元素對結果的影響最大。[了解詳情](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | Recommendations<br>(Premium) | 使用 Adobe Sensei 人工智慧，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。[了解詳情](/help/main/c-recommendations/recommendations.md)。 |
 
 ## 頻道
@@ -64,7 +64,7 @@ ht-degree: 79%
 | --- | --- |
 | 體驗 | 選件、影像、文字、按鈕、影片或將這些不同元素加以組合，放在頁面、整個網頁或一組頁面上，可能會形成購買漏斗或一些其他的頁面邏輯順序。也可以是語音助理的回應、客戶服務指令碼，或甚至是飲料機的個人化口味。您可以在 [!DNL Target] 活動中測試或個人化體驗。[了解詳情](/help/main/c-experiences/experiences.md)。 |
 | 選件 | 可能包含影像、文字、HTML、連結、視訊、行動號召按鈕、語音助理回應或任何其他類型內容的內容區塊。 一項選件可能是折扣、免運費等。選件可顯示在網頁上，但也可能在任何客戶接觸點 (例如語音助理或遊戲主機) 上體驗。 當測試選件時，您將它與其他選件或無選件進行比較以評估其成功程度。[了解詳情](/help/main/c-experiences/c-manage-content/manage-content.md)。 |
-| 對象 | 具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。對象功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標對象，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。[了解詳情](/help/main/c-target/target.md)。 |
+| 客群 | 具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。客群功能可讓您將不同的內容和體驗鎖定在特定客群，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標客群，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。[了解詳情](/help/main/c-target/target.md)。 |
 | 成功量度 | 可讓您決定在 [!DNL Target] 活動中特定體驗或選件成功程度的關鍵業務測量。例如，您可以判斷新選件是否會提高每位訪客帶來的收入，或將某個項目新增至購物車的機會。成功量度非常適合用於探索關於註冊、訂購或購買漏斗的問題，但也適合探索關於訪客或客戶參與度的問題。[了解詳情](/help/main/c-activities/r-success-metrics/success-metrics.md)。 |
 | 報告 | 有關您活動的進度和結果的資訊，這些資訊可協助您根據資料做出決策。 報告資料可協助您決定要在何時終止測試、顯示哪個選件體驗是成功者，以及提供您決定後續動作所需的前瞻分析或經驗談。[了解詳情](/help/main/c-reports/reports.md)。 |
 
@@ -90,7 +90,7 @@ ht-degree: 79%
 
 ## 整合
 
-[!DNL Target] 可與許多第一方、第二方和第三方系統整合。這些整合對於讓您存取這些系統中的訪客和客戶資料非常有價值，以便用於建立對象以進行測試和個人化。作為 [!DNL Adobe Experience Cloud] 的一部分，[!DNL Target] 與 [!DNL Experience Cloud] 解決方案及其核心服務緊密整合。
+[!DNL Target] 可與許多第一方、第二方和第三方系統整合。這些整合對於讓您存取這些系統中的訪客和客戶資料非常有價值，以便用於建立客群以進行測試和個人化。作為 [!DNL Adobe Experience Cloud] 的一部分，[!DNL Target] 與 [!DNL Experience Cloud] 解決方案及其核心服務緊密整合。
 
 | 整合 | 詳細資料 |
 | --- | --- |

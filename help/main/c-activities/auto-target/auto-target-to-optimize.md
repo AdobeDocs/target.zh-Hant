@@ -132,7 +132,7 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 
 ### [!DNL Target]會自動使用所有[!DNL Adobe Experience Cloud]個共用對象來建置個人化模型。
 
-* 您不需要做任何特定的動作將對象新增至模型。如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 對象](/help/main/c-integrating-target-with-mac/mmp.md)。
+* 您不需要做任何特定的動作將對象新增至模型。如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)。
 
 ### 行銷人員可以上傳離線資料、傾向分數或其他自訂資料，以建立個人化模型。
 

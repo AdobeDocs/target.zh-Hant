@@ -73,7 +73,7 @@ ht-degree: 43%
 
    ![A/B 測試鎖定目標步驟](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
 
-   流程圖表將引導您進行選擇活動對象和設定體驗的步驟。
+   流程圖表將引導您進行選擇活動客群和設定體驗的步驟。
 
 1. 在[!UICONTROL Audience]方塊中，按一下編輯圖示（垂直省略符號），按一下&#x200B;**[!UICONTROL Replace Audience]**，然後[為您的活動選取對象](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)。
 
@@ -81,9 +81,9 @@ ht-degree: 43%
 
 1. 選擇符合您要讓其進入活動之訪客的百分比。
 
-   ![受眾百分比](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   ![客群百分比](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-   例如，您可將項目限制為所有訪客的 50%，或「加州人」觀眾的 45%。
+   例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
 
 1. 設定您的流量分配。
 

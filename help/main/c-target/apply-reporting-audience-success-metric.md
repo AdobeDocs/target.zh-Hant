@@ -1,5 +1,5 @@
 ---
-keywords: 鎖定目標;對象;報表;成功量度
+keywords: 鎖定目標;客群;報表;成功量度
 description: 瞭解如何在 [!DNL Adobe Target] 中選擇符合報表對象使用者資格的成功量度。
 title: 我可以套用報表對象至成功量度嗎？
 feature: Success Metrics
@@ -11,7 +11,7 @@ ht-degree: 36%
 
 ---
 
-# 套用報表對象至成功量度
+# 套用報表客群至成功量度
 
 選擇符合使用者在[!DNL Adobe Target]中報表對象資格的成功量度。
 

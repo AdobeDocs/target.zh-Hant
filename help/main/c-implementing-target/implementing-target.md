@@ -25,7 +25,7 @@ ht-degree: 3%
 * **使用者端**：使用[!DNL Adobe Experience Platform Web SDK]或[!DNL Target Web SDK] (at.js)實作的相關資訊。
 * **伺服器端**：關於使用Node.JS、JAVA、.NET和Python SDK實作的資訊。
 * **Hybrid**：如果您使用使用者端和伺服器端實作的組合，有關實作的資訊。
-* **Recommendations**：協助您實作[!DNL Recommendations] （一種[Target Premium](/help/main/c-intro/intro.md#premium)產品）的相關資訊。
+* **Recommendations**：協助您實作[!DNL Recommendations] (一種[Target Premium](/help/main/c-intro/intro.md#premium)產品)的相關資訊。
 * **行動應用程式**：協助您使用[!DNL Adobe Experience Platform Mobile] SDK實作的資訊。
 * **電子郵件**：協助您在電子郵件中實作[!DNL Target]的資訊。
 

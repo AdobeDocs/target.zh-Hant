@@ -1,5 +1,5 @@
 ---
-keywords: 對象;傾向;設定檔屬性;比較;比較;建立對象;建立對象
+keywords: 客群;傾向;設定檔屬性;比較;比較;建立客群;建立客群
 description: 瞭解如何定義對象以比較兩個設定檔屬性。
 title: 我可以比較兩個設定檔屬性以用於對象嗎？
 feature: Audiences
@@ -11,9 +11,9 @@ ht-degree: 49%
 
 ---
 
-# 建立設定檔屬性比較對象
+# 建立設定檔屬性比較客群
 
-在[!DNL Adobe Target]中定義對象，以比較[對象庫](/help/main/c-target/c-audiences/audiences.md)或[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md)中的兩個設定檔屬性。 使用大於、小於或等於這類運算子來定義對象，以動態比較兩個不同設定檔屬性的值。
+在[!DNL Adobe Target]中定義對象，以比較[對象庫](/help/main/c-target/c-audiences/audiences.md)或[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md)中的兩個設定檔屬性。 使用大於、小於或等於這類運算子來定義客群，以動態比較兩個不同設定檔屬性的值。
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ ht-degree: 49%
 
 ## 總覽 {#section_303CBC78194D49A2A004945D425441E1}
 
-對象是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。如果您包含的其中一個規則使用[!UICONTROL Visitor Profile]類別，您可以根據訪客設定檔屬性的特定值來定義規則，或將該屬性的值與另一個訪客設定檔屬性進行比較。
+客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。如果您包含的其中一個規則使用[!UICONTROL Visitor Profile]類別，您可以根據訪客設定檔屬性的特定值來定義規則，或將該屬性的值與另一個訪客設定檔屬性進行比較。
 
 例如，假設您在一家傢俱公司工作，並將兩個客戶傾向分數上傳至[!DNL Target]：
 
@@ -32,7 +32,7 @@ ht-degree: 49%
 
 如需詳細資訊，請參閱[將資料傳入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
-## 建立設定檔屬性比較對象 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
+## 建立設定檔屬性比較客群 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. 按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
 1. 為對象命名並新增選擇性說明。

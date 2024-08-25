@@ -1,6 +1,6 @@
 ---
 keywords: 遠端選件；遠端選件選取矩陣；快取內容；動態內容；url型別
-description: 瞭解如何使用Adobe [!DNL Target] 中的遠端選件來主控外部內容（CMS或其他系統中的內容）。 探索您為何要使用遠端選件。
+description: 瞭解如何使用Adobe [!DNL Target] 中的遠端選件來主控外部內容(CMS或其他系統中的內容)。 探索您為何要使用遠端選件。
 title: 如何建立遠端選件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
@@ -13,7 +13,7 @@ ht-degree: 29%
 
 # 建立遠端選件
 
-使用遠端選件來主控 所參考且位於 [!DNL Adobe Target][!DNL Target] 外部的內容，並傳遞至使用者的網站。此內容可能在內容管理(CMS)或其他系統中，可能是基於易於使用或安全性理由。
+使用遠端選件來主控 所參考且位於 [!DNL Adobe Target][!DNL Target] 外部的內容，並傳遞至使用者的網站。基於方便使用或安全性理由，此內容可能位於內容管理(CMS)或其他系統中。
 
 >[!NOTE]
 >

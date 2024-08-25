@@ -72,10 +72,10 @@ ht-degree: 96%
    * [分類 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
-## 對象和目標
+## 客群和目標
 
 * [Target 最佳化和個人化常見問答](/help/main/c-intro/cmp-target-standard-cheatsheet.md)
-* [鎖定目標和對象常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+* [鎖定目標和客群常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [設定檔指令碼屬性](/help/main/c-target/c-visitor-profile/profile-parameters.md)
 * [網頁](/help/main/c-target/c-audiences/c-target-rules/site-pages.md)
 

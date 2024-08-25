@@ -11,7 +11,7 @@ ht-degree: 7%
 
 ---
 
-# Experience Cloud 受眾
+# Experience Cloud 客群
 
 [!DNL Adobe Experience Cloud Audiences]可讓[!DNL Adobe Experience Cloud]解決方案通訊並分享網站訪客的相關資訊，讓每個解決方案都可以使用相同的資料。
 

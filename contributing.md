@@ -1,8 +1,8 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 93%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 # 投稿
@@ -23,13 +23,14 @@ ht-degree: 93%
 
 ## 投稿人授權合約
 
-本專案的所有協力廠商投稿內容參與必須附有已簽署的投稿者授權合約。如此一來，Adobe 才有權限將您的投稿內容連同專案重新分配。[簽署我們的CLA](http://opensource.adobe.com/cla.html). Adobe CLA 
+本專案的所有協力廠商投稿內容參與必須附有已簽署的投稿者授權合約。如此一來，Adobe 才有權限將您的投稿內容連同專案重新分配。[簽署我們的CLA](http://opensource.adobe.com/cla.html)。 Adobe CLA 
 只需提交一次，所以如果您先前已提交過，
 便不需任何操作!
 
 ## 程式碼審核
 
-所有提交內容都應透過提取要求形式，而且需要經過專案認可人審核。閱讀 [GitHub 的提取請求文件](https://help.github.com/articles/about-pull-requests/)以了解傳送提取請求的詳細資訊。
+所有提交內容都應透過提取要求形式，而且需要經過專案認可人審核。閱讀[GitHub的提取請求檔案](https://help.github.com/articles/about-pull-requests/)
+以取得傳送提取請求的詳細資訊。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -46,4 +47,4 @@ submitting a pull request!
 
 ## 安全性問題
 
-不應在此問題追蹤器回報安全性問題。而是 [向我們的安全性專家提出問題](https://helpx.adobe.com/security/alertus.html)
+不應在此問題追蹤器回報安全性問題。請改為[向我們的安全性專家提出問題](https://helpx.adobe.com/security/alertus.html)

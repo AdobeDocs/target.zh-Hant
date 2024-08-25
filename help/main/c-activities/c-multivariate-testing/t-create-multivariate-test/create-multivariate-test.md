@@ -101,15 +101,15 @@ ht-degree: 56%
 
 1. 按一下「**[!UICONTROL Next]**」以進入[!UICONTROL Targeting]頁面。
 
-1. 選擇對象和符合您要讓其進入活動之訪客的百分比。
+1. 選擇客群和符合您要讓其進入活動之訪客的百分比。
 
    ![MVT 活動中的鎖定目標頁面](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
 
-   例如，您可將項目限制為所有訪客的 50%，或「加州人」觀眾的 45%。
+   例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
 
    >[!NOTE]
    >
-   >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   >除了選取現有客群，您可以結合多個客群來建立隨選結合的客群而非建立新客群。如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
 1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下&#x200B;**[!UICONTROL Next]**。
 

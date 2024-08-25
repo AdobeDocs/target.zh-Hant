@@ -123,13 +123,13 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 [!DNL Recommendations] 活動由下列元件構成:
 
-* **對象**：誰應該看到這些建議？
+* **客群**：誰應該看到這些建議？
 * **條件**：應建議哪些項目？
 * **設計**：應如何顯示建議項目？
 
-![插圖顯示構成 Recommendations 活動的元素：對象、條件和設計](/help/main/c-recommendations/assets/intro-12.png)
+![插圖顯示構成 Recommendations 活動的元素：客群、條件和設計](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 隨附立即可用的 14 個內建對象、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦[次有關在[!DNL Target]中建立對象](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
+[!DNL Target] 隨附立即可用的 14 個內建客群、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦[次有關在[!DNL Target]中建立對象](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
 
 Target 使用條件卡的概念。條件卡就像個人化的方式。
 

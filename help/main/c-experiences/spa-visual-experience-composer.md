@@ -256,9 +256,9 @@ VEC 的[「修改」](/help/main/c-experiences/c-visual-experience-composer/c-ve
 
 ## 深入分析 at.js 和 SPA
 
-**我要如何在我的 SPA 上首次頁面載入後，擷取經動作序列化的最新對象資料的檢視?**
+**我要如何在我的 SPA 上首次頁面載入後，擷取經動作序列化的最新客群資料的檢視?**
 
-at.js 2.x的標準工作流程是當網站載入時，所有的檢視和動作都會經過快取，這樣網站上後續的使用者動作就不會觸發伺服器呼叫來擷取選件。 如果您要根據最新設定檔資料 (視後續的使用者動作而可能有所更新) 來擷取檢視，您可以使用傳入的最新對象使用者或設定檔資料來呼叫 `getOffers()` 和 `applyOffers()`。
+at.js 2.x的標準工作流程是當網站載入時，所有的檢視和動作都會經過快取，這樣網站上後續的使用者動作就不會觸發伺服器呼叫來擷取選件。 如果您要根據最新設定檔資料 (視後續的使用者動作而可能有所更新) 來擷取檢視，您可以使用傳入的最新客群使用者或設定檔資料來呼叫 `getOffers()` 和 `applyOffers()`。
 
 例如，試想您是一間電信公司，且您的 SPA 使用的是 at.js 2.x。站在公司的角度，您希望達成下列目標:
 
@@ -309,7 +309,7 @@ adobe.target.getOffers({
 
 將`getOffers()`的回應傳遞給`applyOffers()`，現在，與「loggedIn = true」關聯的所有檢視與動作都會更新at.js快取。
 
-也就是說，at.js 2.x 能以隨需方式，使用最新的對象資料來擷取檢視、動作和選件。
+也就是說，at.js 2.x 能以隨需方式，使用最新的客群資料來擷取檢視、動作和選件。
 
 **at.js 2.x 是否支援適用於單頁應用程式的 A4T?**
 
@@ -353,7 +353,7 @@ adobe.target.getOffers({
 | 整合 | 支援? |
 | --- | --- |
 | [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
-| [Experience Cloud 受眾](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
+| [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
 | [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 是 |
 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 

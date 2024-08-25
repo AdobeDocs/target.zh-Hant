@@ -17,7 +17,7 @@ ht-degree: 36%
 
 例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個登陸頁面以一般夏季服飾為主。此活動會決定條件來控制各個登陸頁面何時出現，也會決定量度來判斷哪個頁面較成功。此活動設定在滿足特定條件時 (例如在特定日期之間) 開始或結束，或在核准活動後開始，並於停用時結束。
 
-設計活動時，您應該謹慎規劃。決定活動何時開始及持續時間多長。 然後，列出您的選件並將目標對象指派給每個選件。
+設計活動時，您應該謹慎規劃。決定活動何時開始及持續時間多長。 然後，列出您的選件並將目標客群指派給每個選件。
 
 ## 活動清單 {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -42,7 +42,7 @@ ht-degree: 36%
 | [!UICONTROL Name] | 活動的名稱。 按一下活動名稱以顯示該活動的[!UICONTROL Overview]頁面。 <P>按一下每個活動名稱旁的&#x200B;**[!UICONTROL Quick Info]**&#x200B;圖示，在快顯示卡片中檢視有關該活動的詳細資訊。<p>按一下每個活動名稱旁的&#x200B;**[!UICONTROL More actions]**&#x200B;圖示（水準省略符號）以開啟功能表，讓您對活動執行快速動作。 下列動作可供使用（視您的許可權和活動狀態而定）： [!UICONTROL Edit]、[!UICONTROL Activate]、[!UICONTROL Deactivate]、[!UICONTROL Copy]、[!UICONTROL Delete]和[!UICONTROL Archive]。 如需每個動作的詳細資訊，請參閱下面的[執行快速動作](#quick-actions)。<P>按一下表格標題，依名稱的字母遞增或遞減順序排序清單。 |
 | [!UICONTROL Status] | 活動可能有下列其中一種狀態:<ul><li>**已上線**: 活動目前執行中。</li><li>**草稿**：活動設定已開始，但活動處於[草稿模式](/help/main/c-activities/edit-activity.md)，尚未準備好執行。</li><li>**已排程**: 活動已準備好在指定的開始日期和時間啟動。</li><li>**非使用中**: 活動已暫停或停用。</li><li>**正在同步**：活動已儲存且正在同步至[!DNL Target]傳遞網路。</li><li>**已結束**：已達活動的指定結束日期和時間，且已停止提供該活動。</li><li>**已封存**: 活動已封存。您可以啟動已封存的活動以再次使用。</li></ul>**注意**：當您執行特定動作時，例如在[!DNL Target] UI外部使用API方法來啟動活動，更新最多可能需要10分鐘才會傳播至[!DNL Target] UI。 |
 | [!UICONTROL Last Updated] | 活動上次更新的日期與時間，以及由誰更新。<P>按一下表格標題，依日期以遞增或遞減順序排序清單。 |
-| [!UICONTROL Priority] | 活動的優先順序。<P>如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<P>根據您的[設定](/help/main/administrating-target/reporting.md)，[!UICONTROL Priority]的[!DNL Target] UI和選項會有所不同。 您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。 |
+| [!UICONTROL Priority] | 活動的優先順序。<P>如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<P>根據您的[設定](/help/main/administrating-target/reporting.md)，[!UICONTROL Priority]的[!DNL Target] UI和選項會有所不同。 您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。 |
 | [!UICONTROL Property] | 顯示活動的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企業使用者許可權是[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
 | [!UICONTROL Estimated Lift in Revenue] | 如果 100% 的對象皆看到勝出體驗，則顯示預測收入增加。<P>使用下列公式計算:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果縮短格式在小數前只有一位數，此數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K<P>如果活動沒有足夠資料來召開冠軍賽，或沒有成本預估，此欄會顯示 &quot;---&quot;。<P>請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。 |
 | [!UICONTROL Source] | 顯示建立活動的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)或[AdobeMobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |

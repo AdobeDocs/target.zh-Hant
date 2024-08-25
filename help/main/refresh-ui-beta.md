@@ -38,11 +38,11 @@ ht-degree: 78%
       * [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
       * [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
       * [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
-      * [選取對象](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
+      * [選取客群](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
       * [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [A/B 測試中的多個體驗對象](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
 * 自動分配{#auto-allocate}
    * [自動分配總覽](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * 建立[自動分配](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}活動

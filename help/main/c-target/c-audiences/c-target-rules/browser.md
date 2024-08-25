@@ -130,7 +130,7 @@ ht-degree: 33%
 
 此影片包括關於使用對象類別的資訊。
 
-* 建立對象
+* 建立客群
 * 定義對象類別
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

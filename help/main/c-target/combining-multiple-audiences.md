@@ -1,5 +1,5 @@
 ---
-keywords: 對象;對象規則;合併對象;排除;新增排除項目;隨選對象
+keywords: 客群;客群規則;合併客群;排除;新增排除項目;隨選客群
 description: 瞭解如何立即結合多個對象(包括Adobe Experience Cloud對象和 [!DNL Target] 對象)以建立隨選對象。
 title: 我可以合併多個對象以建立新對象嗎？
 feature: Audiences
@@ -11,7 +11,7 @@ ht-degree: 38%
 
 ---
 
-# 合併多個對象
+# 合併多個客群
 
 即時合併多個對象（包括[!DNL Adobe Experience Cloud]、[!DNL Adobe Experience Platform]和[!DNL Target]對象）以建立隨選對象。 您也可以從規則建立排除規則和排除對象。
 
@@ -27,7 +27,7 @@ ht-degree: 38%
 
 您可以使用AND和OR運運算元來合併最多20個對象。
 
-您可以在 [!DNL Target] UI 各處建立並使用合併的對象。
+您可以在 [!DNL Target] UI 各處建立並使用合併的客群。
 
 ## 建立活動時建立合併的受眾 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
@@ -53,15 +53,15 @@ ht-degree: 38%
 
    1. 使用拖放功能，將現有區段中的對象新增為第2層建置區塊。
 
-      例如，假設在上一個範例中，您現在想要將 Safari 使用者納入合併對象中。搜尋「Safari 瀏覽器」受眾並拖曳到右邊的「Firefox 瀏覽器」方塊中 (如下列範例所示)。
+      例如，假設在上一個範例中，您現在想要將 Safari 使用者納入合併客群中。搜尋「Safari 瀏覽器」客群並拖曳到右邊的「Firefox 瀏覽器」方塊中 (如下列範例所示)。
 
       ![combine_multiple_audiences3圖片](assets/combine_multiple_audiences3.png)
 
-      請注意，兩個瀏覽器類型對象之間的運算子是 &quot;AND&quot;。選取[!UICONTROL And]下拉式清單並變更為「或」，即可針對使用Firefox或Safari的新訪客建立新的合併對象。 請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
+      請注意，兩個瀏覽器類型客群之間的運算子是 &quot;AND&quot;。選取[!UICONTROL And]下拉式清單並變更為「或」，即可針對使用Firefox或Safari的新訪客建立新的合併對象。 請小心，避免建立規則來排除所有可能的客群成員。例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
 
       >[!NOTE]
       >
-      >合併對象時，運算子 (AND 或 OR) 必須保持相同。您不能混用 &amp; 比對運算子。
+      >合併客群時，運算子 (AND 或 OR) 必須保持相同。您不能混用 &amp; 比對運算子。
 
    1. 若要將排除專案新增至規則，請按一下&#x200B;**[!UICONTROL Exclude]**。
 
@@ -71,7 +71,7 @@ ht-degree: 38%
 
       例如，若要從新訪客中排除美國訪客，您可以將「市場：美國」受眾拖曳至方塊中。
 
-      此合併對象包含您的網站上所有使用 Safari 或 Firefox 的新訪客 (排除來自 San Francisco 的新訪客)。
+      此合併客群包含您的網站上所有使用 Safari 或 Firefox 的新訪客 (排除來自 San Francisco 的新訪客)。
 
    1. 若要從規則中排除對象，請按一下「**[!UICONTROL Exclusion]** > **[!UICONTROL Exclude this Audience.]**」。
 
@@ -93,7 +93,7 @@ ht-degree: 38%
 
    ![combine_multiple_audiences5圖片](assets/combine_multiple_audiences5.png)
 
-1. 繼續進行[步驟 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的對象」以建立結合的對象。
+1. 繼續進行[步驟 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的客群」以建立結合的客群。
 
 ## 建立合併的對象以用於報表 {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
@@ -103,11 +103,11 @@ ht-degree: 38%
 
    ![combine_multiple_audiences6圖片](assets/combine_multiple_audiences6.png)
 
-1. 繼續進行[步驟 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的對象」以建立結合的對象。
+1. 繼續進行[步驟 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的客群」以建立結合的客群。
 
 ## 編輯活動時建立合併的受眾 {#section_364A12CE96E04B61B7C18113AA586C2C}
 
-您可以在編輯現有活動時建立隨選合併對象。
+您可以在編輯現有活動時建立隨選合併客群。
 
 1. 從[!UICONTROL Activities]頁面，暫留在所需的活動上，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
@@ -117,10 +117,10 @@ ht-degree: 38%
 
 1. 按一下&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**。
 
-   ![設定 > 受眾 > 多個受眾](assets/combine_multiple_audiences7.png)
+   ![設定 > 客群 > 多個客群](assets/combine_multiple_audiences7.png)
 
 1. 按一下活動目前對象旁的更多選項圖示（三個垂直的點），然後按一下&#x200B;**[!UICONTROL Change Audience]**。
 
-   ![變更對象](assets/combine_multiple_audiences8.png)
+   ![變更客群](assets/combine_multiple_audiences8.png)
 
-1. 繼續進行[步驟 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的對象」以建立結合的對象。
+1. 繼續進行[步驟 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)「在建立活動時建立結合的客群」以建立結合的客群。

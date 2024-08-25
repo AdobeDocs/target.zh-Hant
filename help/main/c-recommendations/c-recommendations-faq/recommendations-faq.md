@@ -188,7 +188,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果編輯現有條件、促銷活動或範本測試規則，則篩選條件將顯示建立期間提供的 mbox 名稱。
 
-## 定義新對象後，為何無法儲存舊版 Recommendations 活動？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定義新客群後，為何無法儲存舊版 Recommendations 活動？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 請確定對象有唯一的名稱。若您為對象指定了與現有對象相同的名稱，則無法儲存舊版 Recommendations 活動 (2016 年 10 月以前建立的 Recommendations 活動)。
 

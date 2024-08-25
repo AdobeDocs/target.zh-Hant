@@ -1,5 +1,5 @@
 ---
-keywords: 優先順序; 體驗建立; 體驗; 對象; 切換體驗; 可視化體驗撰寫器
+keywords: 優先順序; 體驗建立; 體驗; 客群; 切換體驗; 可視化體驗撰寫器
 description: 瞭解訪客如何隨著設定檔的演化，在 [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT)活動中的體驗之間切換。
 title: 訪客可以在[!UICONTROL Experience Targeting]活動中切換體驗嗎？
 feature: Experience Targeting
@@ -46,13 +46,13 @@ ht-degree: 43%
 
   ![優先順序美國 > 所有訪客](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
-  如果這不是您預期的行為，您可以建立新對象，明確定義為您鎖定對象的相片，如下列範例所示:
+  如果這不是您預期的行為，您可以建立新客群，明確定義為您鎖定客群的相片，如下列範例所示:
 
   ![優先順序美國 > 非美國](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **如果只有單一體驗[!UICONTROL Experience Targeting]活動，即使訪客不再符合將其放在該體驗中對象的資格，訪客仍會保留在該體驗中。**
 
-  如果這不是您預期的行為，您可以建立另一個體驗，鎖定在相反的對象 (例如，與「美國」相對的「非美國」)。
+  如果這不是您預期的行為，您可以建立另一個體驗，鎖定在相反的客群 (例如，與「美國」相對的「非美國」)。
 
   作為另一個選項，您可以建立[!UICONTROL A/B Test]活動，以100%的流量分配鎖定在您需要的對象，如下所示：
 

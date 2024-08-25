@@ -7,8 +7,8 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/target.zh-Hant
 index: true
 source-git-commit: e68fafde622d2478dcebe67df6d3a65e137b5dc3
-workflow-type: ht
-source-wordcount: '111'
+workflow-type: tm+mt
+source-wordcount: '109'
 ht-degree: 100%
 
 ---

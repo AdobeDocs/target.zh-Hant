@@ -1,5 +1,5 @@
 ---
-keywords: Real-Time Customer Data Platform;RTCDP;個人化;aep 對象;adobe experience platform 對象;設定檔屬性
+keywords: Real-Time Customer Data Platform;RTCDP;個人化;aep 客群;adobe experience platform 客群;設定檔屬性
 description: 了解如何使用 [!DNL Target]/[!DNL Real-Time Customer Data Platform] (RTCDP) 整合服務，以提供更豐富的客戶資料和更有影響力的個人化功能。
 title: 我如何整合  [!DNL Target] 和 [!DNL Real-Time Customer Data Platform]？
 feature: Integrations
@@ -61,11 +61,11 @@ ht-degree: 85%
 | 來自批次的事件 | 無 | 無 | 是 |
 | 來自離線資料的事件 (串流) | 無 | 是 | 是 |
 
-## 使用來自 [!DNL Adobe Experience Platform] 的對象 {#aep}
+## 使用來自 [!DNL Adobe Experience Platform] 的客群 {#aep}
 
-使用在 [!DNL Adobe Experience Platform] 中建立的[對象](/help/main/c-target/c-audiences/audiences.md)可提供更豐富的客戶資料，進而帶來更具影響力的個人化。 [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank} (RTCDP)，建置在 [!DNL Adobe Experience Platform] 上，可幫助公司整合來自多個企業來源的已知和匿名資料。此流程允許您建立客戶設定檔，並且可將這些設定檔用來即時提供跨所有管道和裝置的個人化客戶體驗。
+使用在 [!DNL Adobe Experience Platform] 中建立的[客群](/help/main/c-target/c-audiences/audiences.md)可提供更豐富的客戶資料，進而帶來更具影響力的個人化。 [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank} (RTCDP)，建置在 [!DNL Adobe Experience Platform] 上，可幫助公司整合來自多個企業來源的已知和匿名資料。此流程允許您建立客戶設定檔，並且可將這些設定檔用來即時提供跨所有管道和裝置的個人化客戶體驗。
 
-透過將 [!DNL Target] 連接到 [!DNL Real-Time Customer Data Platform]，客戶可以強化他們的網頁個人化。此整合可讓您解鎖之前可能無法存取 [!DNL Target] 的新區段，進而在客戶瀏覽網頁的第一頁即可實現即時的毫秒個人化。使用在 [!DNL Adobe Experience Platform] 中建立的對象和設定檔屬性，可讓您擴展更強個人化的可用資料點。
+透過將 [!DNL Target] 連接到 [!DNL Real-Time Customer Data Platform]，客戶可以強化他們的網頁個人化。此整合可讓您解鎖之前可能無法存取 [!DNL Target] 的新區段，進而在客戶瀏覽網頁的第一頁即可實現即時的毫秒個人化。使用在 [!DNL Adobe Experience Platform] 中建立的客群和設定檔屬性，可讓您擴展更強個人化的可用資料點。
 
 這種整合方式可解鎖 Real-Time CDP 的關鍵使用案例：
 
@@ -108,7 +108,7 @@ Real-Time CDP 設定檔屬性可與 [!DNL Target] 共用，用於 HTML 選件和
 * [為同一頁和下一頁個人化設定個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)。
 * [Adobe Target 連接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)
 * [對應屬性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)。
-* [對邊緣個人化目的地啟用對象](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)。
+* [對邊緣個人化目的地啟用客群](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中)。
 * [透過  [!DNL Adobe Target]  和自訂個人化目的地進行同一頁和下一頁個人化](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} (在&#x200B;*目的地概觀*&#x200B;指南中的「常見問題」下方)。
 
 ## 影片和部落格文章 {#videos-blogs}

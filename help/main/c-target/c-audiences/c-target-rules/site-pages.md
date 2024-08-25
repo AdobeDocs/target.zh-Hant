@@ -19,7 +19,7 @@ ht-degree: 19%
 1. 為對象命名並新增選擇性說明。
 1. 將&#x200B;**[!UICONTROL Site Pages]**&#x200B;拖放至對象產生器窗格。
 
-   ![網頁受眾](assets/target_site_pages.png)
+   ![網頁客群](assets/target_site_pages.png)
 
 1. 按一下&#x200B;**[!UICONTROL Select]**&#x200B;下拉式清單，選取下列其中一個選項，然後視需要設定規則。
 
@@ -135,11 +135,11 @@ ht-degree: 19%
    * 結尾為0.7，
    * 結尾為0.8。
 
-## 訓練影片: 建立對象
+## 訓練影片: 建立客群
 
 此影片包括關於使用對象類別的資訊。
 
-* 建立對象
+* 建立客群
 * 定義對象類別
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

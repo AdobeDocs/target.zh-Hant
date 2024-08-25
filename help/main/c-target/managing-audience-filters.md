@@ -11,7 +11,7 @@ ht-degree: 72%
 
 ---
 
-# 報表的對象篩選條件
+# 報表的客群篩選條件
 
 [!DNL Adobe Target]中的對象篩選器（或稱對象）是指共用特定特性或一組特性的訪客群組。
 
@@ -22,18 +22,18 @@ ht-degree: 72%
 在規劃對活動使用對象篩選條件時，請考量下列準則：
 
 * **訪客可能屬於多個對象。**&#x200B;如果設定了兩個對象(例如，「新訪客」和「來自Google的訪客」)，且人員符合這兩個條件，則兩個對象中都會計算並追蹤此訪客。 因此，對象中的訪客總數和活動中的訪客數並不相符。
-* **啟動活動前先設定對象。**&#x200B;無法回溯擷取對象資料。如果您在啟動活動之前未設定對象篩選條件，然後在活動執行一段時間後，又決定使用對象篩選條件，則無法收集已成過去的資料。
-* **從兩個到四個對象開始。**&#x200B;著重於基本資訊，例如流量來源。
-* **視需要重新命名對象。**&#x200B;您可以在不影響資料的情況下重新命名對象，讓對象名稱在正在收集的結果中更有意義，即使活動在使用中也一樣。
-* **輸入精確值。**&#x200B;對象篩選值區分大小寫。例如，若您使用對象來篩選城市，則應使用 &quot;OR&quot; 條件來包含可能的拼字與大小寫變化，例如 &quot;Vienna&quot;、&quot;vienna&quot;、&quot;wien&quot; 和 &quot;Wien&quot;。
-* **從[!UICONTROL Audiences]清單建立的對象可重複使用。**&#x200B;在活動中建立的對象無法重複使用。
+* **啟動活動前先設定對象。**&#x200B;無法回溯擷取客群資料。如果您在啟動活動之前未設定客群篩選條件，然後在活動執行一段時間後，又決定使用客群篩選條件，則無法收集已成過去的資料。
+* **從兩個到四個客群開始。**&#x200B;著重於基本資訊，例如流量來源。
+* **視需要重新命名客群。**&#x200B;您可以在不影響資料的情況下重新命名客群，讓客群名稱在正在收集的結果中更有意義，即使活動在使用中也一樣。
+* **輸入精確值。**&#x200B;客群篩選值區分大小寫。例如，若您使用客群來篩選城市，則應使用 &quot;OR&quot; 條件來包含可能的拼字與大小寫變化，例如 &quot;Vienna&quot;、&quot;vienna&quot;、&quot;wien&quot; 和 &quot;Wien&quot;。
+* **從[!UICONTROL Audiences]清單建立的對象可重複使用。**&#x200B;在活動中建立的客群無法重複使用。
 
 下列幾節提供有關設定和報告對象的詳細資訊:
 
 | 任務 | 主題 |
 |--- |--- |
 | 建立適當的活動或測試。 | [活動和測試](/help/main/c-intro/target-key-concepts.md) |
-| 必要的話，建立對象。 | [建立對象](/help/main/c-target/c-audiences/create-audience.md) |
-| 必要的話，合併多個對象。 | [合併多個對象](/help/main/c-target/combining-multiple-audiences.md) |
-| 在活動的「目標與設定」頁面上套用對象。 | A/B測試： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>體驗鎖定目標： [目標與設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多變數測試： [目標與設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations： [Recommendations活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活動設定： [活動設定](/help/main/c-activities/activity-settings.md) |
-| 檢視含有對象篩選條件之相關資訊的報表。 | [報表設定](/help/main/c-reports/c-report-settings/report-settings.md) |
+| 必要的話，建立客群。 | [建立客群](/help/main/c-target/c-audiences/create-audience.md) |
+| 必要的話，合併多個客群。 | [合併多個客群](/help/main/c-target/combining-multiple-audiences.md) |
+| 在活動的「目標與設定」頁面上套用客群。 | A/B測試： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>體驗鎖定目標： [目標與設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多變數測試： [目標與設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations： [Recommendations活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活動設定： [活動設定](/help/main/c-activities/activity-settings.md) |
+| 檢視含有客群篩選條件之相關資訊的報表。 | [報表設定](/help/main/c-reports/c-report-settings/report-settings.md) |

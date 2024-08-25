@@ -26,7 +26,7 @@ ht-degree: 98%
 >
 >如需版本資訊，請參閱本指南中的 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md)。
 
-以下幾節依照目標對象的典型職務進行安排，引導您在本指南中找到實用連結：
+以下幾節依照目標客群的典型職務進行安排，引導您在本指南中找到實用連結：
 
 - [全部的 Target 使用者](#all)
 - [市場行銷人員](#marketers)
@@ -43,15 +43,15 @@ ht-degree: 98%
 - [Target 簡介](c-intro/intro.md)：說明 [!DNL Target] 解決方案的核心概念。
 - 將 Target 與 Adobe Experience Cloud 整合：說明如何將 [!DNL Target] 與其他 [!DNL Experience Cloud] 解決方案整合，包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) 以及 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)：提供教學課程和影片，協助您充分運用 Target。
-- [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (選件大小、對象、設定檔、值、參數等) 相關資訊。
+- [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中疑難排解資訊的連結，包括會對 [!DNL Target] 中的活動和其他元素造成影響的角色限制和其他限制 (選件大小、客群、設定檔、值、參數等) 相關資訊。
 - [適用於行動應用程式的 Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}：說明如何使用 [!DNL Target] 來將行動應用程式最佳化及個人化。
 - [資源與聯絡資訊](cmp-resources-and-contact-information.md)：提供其他資源的相關資訊，協助您瞭解 [!DNL Target] 功能，以及在需要協助時如何聯絡 [!DNL Adobe]。
 
 ## 市場行銷人員 {#marketers}
 
 - [活動](c-activities/activities.md)：說明如何設定、管理 [!DNL Target] 活動及確保品質。
-- [對象](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
-- [體驗與選件](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的對象條件時，要顯示哪些內容。
+- [客群](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
+- [體驗與選件](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的客群條件時，要顯示哪些內容。
 - [Recommendations](c-recommendations/recommendations.md)： 說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
 
 ## 開發人員 {#developers}
@@ -64,7 +64,7 @@ ht-degree: 98%
 
 ## 分析人員 {#analysts}
 
-- [對象](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
+- [客群](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
 - [報表](c-reports/reports.md)：說明如何解讀活動績效
 
 ## 品質保證工程師 {#qa}

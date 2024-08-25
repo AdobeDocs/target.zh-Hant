@@ -1,5 +1,5 @@
 ---
-keywords: 建立體驗; 體驗建立; 優先順序; 對象; 體驗; 可視化體驗撰寫器
+keywords: 建立體驗; 體驗建立; 優先順序; 客群; 體驗; 可視化體驗撰寫器
 description: 瞭解如何使用 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)在[!UICONTROL Experience Targeting] (XT)活動中的頁面上建立和編輯體驗。
 title: 如何在[!UICONTROL Experience Targeting]活動中建立體驗？
 feature: Experience Targeting
@@ -19,7 +19,7 @@ ht-degree: 36%
 
    在[建立[!UICONTROL Experience Targeting]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三步驟引導式工作流程的步驟一([!UICONTROL Experiences])會顯示具有[!UICONTROL All Visitors]對象的預設[!UICONTROL Experience A]。
 
-   ![所有訪客受眾](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![所有訪客客群](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
    您所做的任何變更現在都會套用至[!UICONTROL Experience A]。 在下列步驟中，您按一下&#x200B;**[!UICONTROL Add Experience Targeting]**&#x200B;以建立其他體驗。
 
@@ -35,9 +35,9 @@ ht-degree: 36%
 
    [!UICONTROL Add Audience]對話方塊隨即顯示。 若要將體驗鎖定至某個受眾，請在新增體驗之前選取受眾。
 
-   受眾資料庫包含先前已定義的受眾，包括一些隨著 [!DNL Target] 預先建置的共通受眾。您可以從資料庫中選取受眾或[建立新受眾](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+   客群資料庫包含先前已定義的客群，包括一些隨著 [!DNL Target] 預先建置的共通客群。您可以從資料庫中選取客群或[建立新客群](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
 
-   除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   除了選取現有客群，您可以結合多個客群來建立隨選結合的客群而非建立新客群。如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
    建立對象時，您可以選取位置並指定該位置的引數。 在[!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom])下，選取位置，然後指定所要的引數。
 

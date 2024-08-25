@@ -35,7 +35,7 @@ ht-degree: 41%
 
 根據您的設定，[!UICONTROL Priority]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
 
-如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
+如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
 如果未在[!UICONTROL Administration] > [!UICONTROL Reporting] （預設）中啟用此選項，請指定優先順序： [!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]。
 
@@ -102,7 +102,7 @@ ht-degree: 41%
 
 ### 報表的對象
 
-依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表對象以僅顯示關於特定對象的資訊。
+依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表客群以僅顯示關於特定客群的資訊。
 
 ### 進階設定 {#section_E2FE441AFB324E498793ABB025ED9974}
 

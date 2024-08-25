@@ -23,7 +23,7 @@ ht-degree: 37%
 1. [!DNL Target]提取該URL上執行的每個活動。
 1. [!DNL Target]次嘗試將訪客配對至活動。
 
-   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該活動，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
+   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該活動，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 訪客符合的所有活動和體驗的內容會傳回至頁面。
 1. 如果每個活動的內容參考不同的[CSS選取器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
@@ -49,7 +49,7 @@ ht-degree: 37%
 1. [!DNL Target]提取該[!DNL Target]要求中執行的每個活動。
 1. [!DNL Target]次嘗試將訪客配對至活動。
 
-   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該測試，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
+   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該測試，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 如果表單式活動為最高優先順序，則會傳回該活動內容以及VEC活動中的所有相符活動內容。
 1. 如果VEC活動是最高優先順序，則會傳回所有相符VEC活動的內容，但不會傳回任何表單式活動內容。
@@ -70,7 +70,7 @@ ht-degree: 37%
 1. [!DNL Target]提取該[!DNL Target]要求中執行的每個活動。
 1. [!DNL Target]嘗試將訪客配對至最高優先順序的活動。
 
-   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該活動，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合對象規則，則訪客會落入這些活動中並進入特定體驗。
+   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該活動，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 如果有多個活動共用優先順序層級，則有兩個分界線：
 

@@ -18,7 +18,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]是[!DNL Target Premium]解決方案的一部分。 在沒有[Target Premium授權](/help/main/c-intro/intro.md#premium)的情況下，[!DNL Target Standard]不包含此專案。
+>[!UICONTROL Auto-Target]是[!DNL Target Premium]解決方案的一部分。 沒有[Target Premium授權](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]不包含此專案。
 
 若要顯示[!UICONTROL Auto-Target Summary]報告：
 

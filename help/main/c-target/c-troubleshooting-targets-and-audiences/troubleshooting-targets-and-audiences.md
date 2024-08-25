@@ -1,5 +1,5 @@
 ---
-keywords: 疑難排解;常見問題集;FAQ;目標;對象
+keywords: 疑難排解;常見問題集;FAQ;目標;客群
 description: 檢視關於體驗鎖定目標和Adobe [!DNL Target] 活動中使用之對象的常見問題(FAQ)。
 title: 何處可以找到有關鎖定目標和對象的問題和回答？
 feature: Audiences
@@ -11,9 +11,9 @@ ht-degree: 56%
 
 ---
 
-# 鎖定目標和對象常見問題集
+# 鎖定目標和客群常見問題集
 
-關於體驗鎖定目標和對象常見問題集 (FAQ) 的清單。
+關於體驗鎖定目標和客群常見問題集 (FAQ) 的清單。
 
 ## [!DNL Target]如何在鎖定目標中評估URL？ {#url}
 
@@ -72,11 +72,11 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 最佳做法是使用較新的對象，因為效能更好。部分客戶使用的可能是舊版、預先建立的對象，因此尚未從 Target 介面中移除。
 
-## 如何知道對象之間如何分割流量? {#section_067EEFB956E7465CBF77EC86834470AB}
+## 如何知道客群之間如何分割流量? {#section_067EEFB956E7465CBF77EC86834470AB}
 
 依預設，流量會在體驗之間平均分割。不過，您可以為每個體驗指定百分比目標。 在這種情況下會產生亂數，使用此數字選擇顯示的體驗。結果百分比可能和指定目標不完全相同，但流量更多表示體驗分割就會更接近定位目標。
 
-## 如果使用者符合活動的資格，而該活動包含多個體驗和多個合格對象，將會顯示哪一個體驗? {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## 如果使用者符合活動的資格，而該活動包含多個體驗和多個合格客群，將會顯示哪一個體驗? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 使用者符合在活動[!UICONTROL Target]頁面上顯示的第一個體驗/對象資格。
 
@@ -86,9 +86,9 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 ## 在[!DNL Target] 、 Adobe Audience Manager (AAM)以及核心服務中的對象資料庫中，同一對象的名稱為何不同？ {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-對象名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個對象可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的對象名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 對象時，[!DNL Target] 會在名稱後面附加 &quot;#&lt;number>&quot;。
+客群名稱在 [!DNL Target] 中是唯一的；不過，在 [!DNL AAM] 和 [!DNL Audience Library] 中，多個客群可以有相同的名稱 (只要在不同資料夾中)。當 [!DNL Target] 遇到的客群名稱符合 [!DNL AAM] 或 [!DNL Audience Library] 客群時，[!DNL Target] 會在名稱後面附加 &quot;#&lt;number>&quot;。
 
-例如，您可能會看到下列對象:「PC 使用者」(在 [!DNL AAM] 中) 和「PC 使用者 #1」(在 [!DNL Target] 中)。
+例如，您可能會看到下列客群:「PC 使用者」(在 [!DNL AAM] 中) 和「PC 使用者 #1」(在 [!DNL Target] 中)。
 
 ## 為何無法重新命名對象? {#section_54E420556F534D20836E261E253D8B97}
 
@@ -104,7 +104,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 ## 為何透過API建立之對象所做的變更未反映在[!DNL Target] UI中？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-與選件和設定檔指令碼不同，API 對於 Target Standard 建立之對象所做的變更目前未同步回 Target UI。
+與選件和設定檔指令碼不同，API 對於 Target Standard 建立之客群所做的變更目前未同步回 Target UI。
 
 ## 代表數值的字串 (亦支援浮點數) 以數值形式比較。{#strings-that-represent-numbers}
 

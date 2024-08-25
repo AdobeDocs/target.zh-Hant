@@ -107,7 +107,7 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客會看到您的�
 
 ## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 MboxTrace 工具來檢查活動、對象資格以及訪客設定檔。
+Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 MboxTrace 工具來檢查活動、客群資格以及訪客設定檔。
 
 如需詳細資訊，請觀看下方的訓練影片：
 
@@ -161,7 +161,7 @@ Target 不再支援 IE 8。
 
 ![設定頁面傳送設定 UI](assets/configure-page-delivery.png)
 
-但如果 URL 包含查詢字串參數，該怎麼辦？它是否可運作並顯示個人化內容？在這個案例中，無論目標對象為何，除了可定義查詢參數的基底 URL 外，還可以包含範本規則。
+但如果 URL 包含查詢字串參數，該怎麼辦？它是否可運作並顯示個人化內容？在這個案例中，無論目標客群為何，除了可定義查詢參數的基底 URL 外，還可以包含範本規則。
 
 下列選項可用來包含其他範本規則：
 

@@ -51,7 +51,7 @@ ht-degree: 97%
 
 | 術語 | 定義 |
 | --- | --- |
-| 活動 | [!DNL Target] 中的活動可讓您將內容個人化給特定對象，並測試頁面設計。[!DNL Recommendations] 只是 [!DNL Target] 中的眾多活動類型之一。如需詳細資訊，請參閱「[目標活動類型](/help/main/c-activities/target-activities-guide.md)」。 |
+| 活動 | [!DNL Target] 中的活動可讓您將內容個人化給特定客群，並測試頁面設計。[!DNL Recommendations] 只是 [!DNL Target] 中的眾多活動類型之一。如需詳細資訊，請參閱「[目標活動類型](/help/main/c-activities/target-activities-guide.md)」。 |
 | 實體 | 實體會參考您要建議的項目。實體可以是產品、內容 (文章、幻燈片、影像、電影和電視節目)、工作清單、餐廳等。如需詳細資訊，請參閱「[實體](/help/main/c-recommendations/c-products/products.md)」。 |
 | 摘要 | 動態消息用於將實體導入到 [!DNL Recommendations]。實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。如需詳細資訊，請參閱[摘要](/help/main/c-recommendations/c-products/feeds.md)。 |
 | 目錄 | 目錄是指您的整個產品集 (實體)。您的型錄可包含許多系列——以邏輯區間組織產品的方式。 |
@@ -59,7 +59,7 @@ ht-degree: 97%
 | 條件 | 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。<br>條件範例包括： <ul><li>購買了此項目、也購買了其他項目的使用者</li><li>檢視過此項目、也檢視了其他項目的使用者</li><li>具有類似屬性的項目</li><li>上次購買的項目</li><li>最喜愛的類別</li></ul>  如需詳細資訊，請參閱[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。 |
 | 設計 | 設計會定義 [!DNL Recommendations] 活動中推薦的外觀，例如列、欄、表格或格線。本文最上方的插圖顯 示4 x 1設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md)。 |
 | 位置 | 位置是指您執行活動以進行個人化和最佳化目的之網頁、行動應用程式或電子郵件上的特定內容區域。 |
-| 對象 | 對象是類似活動進入者的群組，他們會看到目標活動。對象是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。對象功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如需詳細資訊，請參閱[對象](/help/main/c-target/target.md)。 |
+| 客群 | 客群是類似活動進入者的群組，他們會看到目標活動。客群是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。客群功能可讓您將不同的內容和體驗鎖定在特定客群，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如需詳細資訊，請參閱[客群](/help/main/c-target/target.md)。 |
 | Recommendations 作為選件 | 可讓您在 A/B 測試 (包括自動分配和自動定位) 和體驗定位 (XT) 活動中加入推薦的功能。如需詳細資訊，請參閱 [Recommendations 作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 培訓影片：活動類型![Overview badge](/help/main/assets/overview.png)

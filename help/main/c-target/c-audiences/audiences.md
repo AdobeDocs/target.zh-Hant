@@ -1,5 +1,5 @@
 ---
-keywords: 對象;對象規則;建立對象;建立對象;鎖定目標對象;報表對象;報表對象;區段;自訂設定檔參數;對象定義;對象清單
+keywords: 客群;客群規則;建立客群;建立客群;鎖定目標客群;報表客群;報表客群;區段;自訂設定檔參數;客群定義;客群清單
 description: 瞭解如何在 [!DNL Adobe Target]中使用對象。
 title: 如何使用「對象清單」？
 feature: Audiences
@@ -11,7 +11,7 @@ ht-degree: 22%
 
 ---
 
-# 建立對象
+# 建立客群
 
 [!DNL Adobe Target]中的對象會決定哪些人可以看到鎖定目標活動中的內容與體驗。
 
@@ -28,7 +28,7 @@ ht-degree: 22%
 * **鎖定目標對象：**&#x200B;用來傳送不同的內容給不同型別的訪客。
 * **報表對象：**&#x200B;用來判斷不同型別的訪客如何回應相同的內容，以便您分析測試結果。
 
-  在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表對象。如果您使用[Adobe Analytics作為您的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在[!DNL Analytics]內設定您的報表對象。
+  在 [!DNL Target] 中，只有在使用 [!DNL Target] 作為報表來源時，才可設定報表客群。如果您使用[Adobe Analytics作為您的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，則必須在[!DNL Analytics]內設定您的報表對象。
 
 ## 使用[!UICONTROL Audiences]清單 {#use-list}
 
@@ -56,7 +56,7 @@ ht-degree: 22%
 使用最初在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中建立的對象時，如果您在[!DNL Target]個活動中參考對象，而這些活動後來在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中被刪除，[!DNL Target]會警示您。
 
 * 若對象已在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中刪除，[!UICONTROL Audience]清單和對象選擇器中皆會顯示警告圖示。 [!DNL Target] UI中的工具提示也表示對象已在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中刪除。
-* 若嘗試將多個對象與已刪除的對象合併，或嘗試儲存參考已刪除對象的活動，系統會顯示警告訊息。
+* 若嘗試將多個客群與已刪除的客群合併，或嘗試儲存參考已刪除客群的活動，系統會顯示警告訊息。
 
 您也可以鎖定自訂設定檔參數和 `user.` 參數。建立對象時，請將您要用來鎖定活動的屬性拖曳至對象產生器視窗。 如果未顯示所需的屬性，表示該屬性並未由mbox觸發。 [!UICONTROL Custom Parameters]下拉式清單中有其他自訂mbox引數。
 
@@ -66,7 +66,7 @@ ht-degree: 22%
 
 使用[!UICONTROL Search audiences]方塊來搜尋您的[!UICONTROL Audiences]清單。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
-您可以依對象名稱或上次修改日期來排序[!UICONTROL Audiences]清單。 若要依名稱排序，請按一下欄標題，然後選擇依遞增或遞減順序來顯示對象。
+您可以依對象名稱或上次修改日期來排序[!UICONTROL Audiences]清單。 若要依名稱排序，請按一下欄標題，然後選擇依遞增或遞減順序來顯示客群。
 
 ## 檢視對象定義 {#section_11B9C4A777E14D36BA1E925021945780}
 
@@ -74,11 +74,11 @@ ht-degree: 22%
 
 例如，按一下所需對象的[!UICONTROL View Details]圖示，即可存取下列對象定義卡：
 
-![活動 > 受眾定義](assets/audience_definition_list.png)
+![活動 > 客群定義](assets/audience_definition_list.png)
 
 按一下活動[!UICONTROL Overview]頁面上的[!UICONTROL View Details]圖示，可存取下列對象定義卡：
 
-![活動 > 受眾定義](assets/view-details-activity-overview.png)
+![活動 > 客群定義](assets/view-details-activity-overview.png)
 
 對象定義卡片會顯示對象的型別、來源和屬性。 按一下&#x200B;**[!UICONTROL View full details]**&#x200B;以檢視參照該對象的其他活動（如果適用）。 如果您從活動的[!UICONTROL Overview]頁面檢視對象定義卡，請按一下&#x200B;**[!UICONTROL Audience Usage]**。
 
@@ -105,7 +105,7 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
-## 使用來自 [!DNL Adobe Experience Platform] 的對象 {#aep}
+## 使用來自 [!DNL Adobe Experience Platform] 的客群 {#aep}
 
 使用在[!DNL Adobe Experience Platform]中建立的對象可提供更豐富的客戶資料，從而帶來更具影響力的個人化。
 

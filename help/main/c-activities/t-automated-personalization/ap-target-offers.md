@@ -51,7 +51,7 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。如需詳細資訊，請參閱[合併多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   >除了選取現有客群，您可以結合多個客群來建立隨選結合的客群而非建立新客群。如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
 1. 按一下 **[!UICONTROL Done]**。
 

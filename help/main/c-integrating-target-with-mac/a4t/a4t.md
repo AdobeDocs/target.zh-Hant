@@ -1,6 +1,6 @@
 ---
 keywords: a4t;analytics;analytics for target;analytics 報告來源;adobe analytics 當作 target 的報告來源;atjs;at.js;adobe experience platform web sdk;platform web sdk;platform sdk
-description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 可根據 [!DNL Analytics] 轉換量度和受眾區段建立活動，並使用 [!DNL Analytics] 報表來檢查結果。
+description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 可根據 [!DNL Analytics] 轉換量度和客群區段建立活動，並使用 [!DNL Analytics] 報表來檢查結果。
 title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
@@ -13,7 +13,7 @@ ht-degree: 81%
 
 # [!DNL Adobe Analytics] 當作 [!DNL Adobe Target] (A4T) 的報告來源
 
-[!DNL Adobe Analytics for Target] (A4T) 是一種跨解決方案的整合，可讓您根據 [!DNL Analytics] 轉換量度和受眾區段來建立活動。A4T 整合可讓您使用 [!DNL Analytics] 報表來檢查您的結果。如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics] 資料收集。
+[!DNL Adobe Analytics for Target] (A4T) 是一種跨解決方案的整合，可讓您根據 [!DNL Analytics] 轉換量度和客群區段來建立活動。A4T 整合可讓您使用 [!DNL Analytics] 報表來檢查您的結果。如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics] 資料收集。
 
 ## 總覽 {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -27,7 +27,7 @@ ht-degree: 81%
 
 如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics]。
 
-所有[!DNL Analytics]量度（包括計算量度）都可在[!DNL Target]中使用，也可在[!DNL Analytics]的[!UICONTROL Target Activities]報表中使用，但有一個例外狀況。 不支援[!UICONTROL Lift & Confidence]的計算量度。 同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或受眾套用至報表。
+所有[!DNL Analytics]量度（包括計算量度）都可在[!DNL Target]中使用，也可在[!DNL Analytics]的[!UICONTROL Target Activities]報表中使用，但有一個例外狀況。 不支援[!UICONTROL Lift & Confidence]的計算量度。 同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或客群套用至報表。
 
 每個量度皆包含在內，包括 [!DNL Analytics] 內建的任何自訂量度或計算量度。
 

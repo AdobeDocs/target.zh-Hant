@@ -18,7 +18,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]是[!DNL Target Premium]解決方案的一部分。 在沒有[Target Premium授權](/help/main/c-intro/intro.md#premium)的情況下，[!DNL Target Standard]不包含此專案。
+>[!UICONTROL Automated Personalization]是[!DNL Target Premium]解決方案的一部分。 沒有[Target Premium授權](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]不包含此專案。
 
 1. 按一下「**[!UICONTROL Activities]**」，從清單中按一下所需的[!UICONTROL Automated Personalization]活動，然後按一下「**[!UICONTROL Reports]**」標籤。
 

@@ -17,7 +17,7 @@ ht-degree: 38%
 
 如需詳細資訊，請參閱[傳遞引數至全域mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。
 
-當您根據 mbox 參數建立自訂對象時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
+當您根據 mbox 參數建立自訂客群時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
 1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
 1. 為對象命名並新增選擇性說明。
@@ -54,7 +54,7 @@ ht-degree: 38%
    * 請先閱讀
    * 終止於
 
-   ![自訂參數受眾](assets/custom.png)
+   ![自訂參數客群](assets/custom.png)
 
 1. 在新行中輸入每個值。
 1. （選用）為對象設定其他規則。
@@ -68,14 +68,14 @@ ht-degree: 38%
 
 ## 考量事項 {#considerations}
 
-* 系統會針對特定 mbox 評估受眾和活動。例如，如果全域mbox傳送特定引數，但區域mbox並未這麼做，則以該引數為目標的活動/對象不符合區域mbox上的資格。
+* 系統會針對特定 mbox 評估客群和活動。例如，如果全域mbox傳送特定引數，但區域mbox並未這麼做，則以該引數為目標的活動/對象不符合區域mbox上的資格。
 * 不會在內部mbox引數（例如mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxCount、mboxId和mboxVersion）上評估鎖定目標。
 
 ## 訓練影片：建立對象![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片包括關於使用對象類別的資訊。
 
-* 建立對象
+* 建立客群
 * 定義對象類別
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

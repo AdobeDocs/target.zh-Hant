@@ -35,7 +35,7 @@ ht-degree: 59%
 * 每當團隊準備好探索 API 並據此選擇角色時，允許擁有其工作區的每個團隊擁有各自的整合。
 * 混合並比對任何上述案例。
 
-**需要採取動作**: 如果客戶目前運用 API 在所有工作區的資源 (活動、受眾、選件和報表) 上執行 CRUD 作業，則須授予其現有 Adobe I/O 整合功能可根據其使用案例使用所需角色存取所有工作區的權限。若要這麼做，請在[!DNL Adobe Admin Console]中選取每個[!DNL Target] [!UICONTROL Product Profile]，然後在[!UICONTROL Integration]索引標籤中新增整合。 在9月版本之前，無論從[!UICONTROL Product Role]下拉式清單進行何種選擇，所有整合功能都是使用[!UICONTROL Approver]存取權來執行作業。 您現在可以選擇所需角色。
+**需要採取動作**: 如果客戶目前運用 API 在所有工作區的資源 (活動、客群、選件和報表) 上執行 CRUD 作業，則須授予其現有 Adobe I/O 整合功能可根據其使用案例使用所需角色存取所有工作區的權限。若要這麼做，請在[!DNL Adobe Admin Console]中選取每個[!DNL Target] [!UICONTROL Product Profile]，然後在[!UICONTROL Integration]索引標籤中新增整合。 在9月版本之前，無論從[!UICONTROL Product Role]下拉式清單進行何種選擇，所有整合功能都是使用[!UICONTROL Approver]存取權來執行作業。 您現在可以選擇所需角色。
 
 >[!NOTE]
 >

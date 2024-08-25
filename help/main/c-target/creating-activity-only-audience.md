@@ -1,5 +1,5 @@
 ---
-keywords: 對象;對象規則;建立對象;建立對象;僅限活動;僅活動;臨機
+keywords: 客群;客群規則;建立客群;建立客群;僅限活動;僅活動;臨機
 description: 瞭解如何在Adobe [!DNL Target] 中建立單次使用的僅限於此活動的對象。
 title: 我可以建立只使用一次的受眾嗎？
 feature: Audiences
@@ -11,11 +11,11 @@ ht-degree: 31%
 
 ---
 
-# 建立僅限活動的對象
+# 建立僅限活動的客群
 
 在建立活動時，從[!DNL Adobe Target]三步驟引導式工作流程內建立僅限活動的對象。 這些隨選對象可用於相同活動內的其他位置，但不會儲存在[!UICONTROL Audiences Library]以用於其他活動。
 
-僅限於此活動的對象提供下列優點:
+僅限於此活動的客群提供下列優點:
 
 * 您可以使用僅限於此活動的受眾，建立您僅要使用一次且不想儲存在[!UICONTROL Audiences Library]中的受眾。 僅限於此活動的對象有助於防止[!UICONTROL Audiences Library]雜亂地棧滿您絕不想再次使用的對象。
 * [!UICONTROL Audiences Library]中看不到僅限於此活動的對象。 由於資料庫中不會顯示這些對象，因此可以避免組織中的其他人進行不必要的變更。
@@ -30,10 +30,10 @@ ht-degree: 31%
 
    ![activity-only-aud映像](assets/activity-only-aud.png)
 
-1. 輸入描述性的對象名稱。
+1. 輸入描述性的客群名稱。
 1. 將所需的屬性拖放到對象產生器中。
 
-   規則可讓您將對象限製為您的網站訪客的子集。 每個規則類型都有其專屬的參數。請參閱[對象的類別](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的對象規則的詳細資訊。
+   規則可讓您將對象限製為您的網站訪客的子集。 每個規則類型都有其專屬的參數。請參閱[客群的類別](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的客群規則的詳細資訊。
 
 1. 按一下 **[!UICONTROL Done]**。
 

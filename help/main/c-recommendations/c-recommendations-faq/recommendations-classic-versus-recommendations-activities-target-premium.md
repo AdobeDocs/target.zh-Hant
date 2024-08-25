@@ -67,7 +67,7 @@ ht-degree: 88%
 
 ## 目標定位 {#section_93295EA0DBA14210B8518AF4802A459F}
 
-[!DNL Recommendations Classic] 中有六個鎖定目標選項。建議活動會使用 Target 的一整套鎖定目標選項。使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 對象 (例如 [!DNL Audience Manager] 和 [!DNL Analytics]) 來定義對象，然後選取可看見每個設計的活動加入者百分比，以及可看見控制項的活動加入者百分比。
+[!DNL Recommendations Classic] 中有六個鎖定目標選項。建議活動會使用 Target 的一整套鎖定目標選項。使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 客群 (例如 [!DNL Audience Manager] 和 [!DNL Analytics]) 來定義客群，然後選取可看見每個設計的活動加入者百分比，以及可看見控制項的活動加入者百分比。
 
 ![總覽_目標定位影像](assets/overview_targeting.png)
 

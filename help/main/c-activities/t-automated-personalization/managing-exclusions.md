@@ -23,7 +23,7 @@ ht-degree: 41%
 
 排除群組有效地確保不相容的選件不會出現在相同體驗的不同位置中。例如，假設您有兩個優惠：一個是針對所有商品提供20%的折扣，另一個則是15%的折扣。 您絕不希望這兩個選件以相同的體驗呈現給訪客。 如果您將這兩個選件新增至排除群組，即可確保絕對不會發生這種情況。
 
-您也可以限制哪些受眾能夠看見 AP 活動中特定選件。如需詳細資訊，請參閱[Target Automated Personalization 選件](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)。
+您也可以限制哪些客群能夠看見 AP 活動中特定選件。如需詳細資訊，請參閱[Target Automated Personalization 選件](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)。
 
 **若要建立排除群組:**
 

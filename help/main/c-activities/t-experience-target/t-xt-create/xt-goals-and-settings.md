@@ -1,5 +1,5 @@
 ---
-keywords: 活動設定; 體驗鎖定目標與設定; XT 目標與設定; 體驗鎖定目標; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表對象; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
+keywords: 活動設定; 體驗鎖定目標與設定; XT 目標與設定; 體驗鎖定目標; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表客群; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
 description: 瞭解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Goals & Settings]頁面來指定[!UICONTROL Experience Targeting] (XT)活動目標的相關資訊。
 title: 如何在[!UICONTROL Experience Targeting]活動中指定[!UICONTROL Goals & Settings]？
 feature: Experience Targeting
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 根據您的設定，[!UICONTROL Priority]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
 
-如果將多個活動指派至具有相同對象的相同位置，則會使用優先順序。如果將兩個或更多活動指派至位置，則會顯示具有最高優先順序的活動。
+如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。如果將兩個或更多活動指派至位置，則會顯示具有最高優先順序的活動。
 
 如果未在[!UICONTROL Administration]中啟用此選項（預設），請指定優先順序： [!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]。
 
@@ -102,7 +102,7 @@ ht-degree: 39%
 
 ### [!UICONTROL Audiences for Reporting]
 
-依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表對象以僅顯示關於特定對象的資訊。
+依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表客群以僅顯示關於特定客群的資訊。
 
 如果您選擇[!DNL Analytics]作為報表解決方案，則無法使用此設定。 已套用為[!DNL Analytics]報表套裝定義的對象。
 

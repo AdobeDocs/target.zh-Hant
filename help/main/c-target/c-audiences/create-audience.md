@@ -1,5 +1,5 @@
 ---
-keywords: 對象;對象規則;建立對象;建立對象
+keywords: 客群;客群規則;建立客群;建立客群
 description: 瞭解如何建立自訂對象，並將其儲存至 [!DNL Adobe Target] [!UICONTROL Audiences]資料庫以用於活動。
 title: 如何建立受眾？
 feature: Audiences
@@ -15,9 +15,9 @@ ht-degree: 58%
 
 您可以建立自訂對象，並將其儲存至[!DNL Adobe Target] [!UICONTROL Audiences]資料庫，以便在您的活動中使用。 您也可以複製現有對象，然後編輯以建立類似的對象並合併多個對象。
 
-## 對象概覽
+## 客群概覽
 
-對象是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。複雜的對象定義會使用布林值運算子 AND 和 OR 結合規則和參數，以讓您對哪些網站訪客會計入活動加入者能進行詳細控制。
+客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。複雜的對象定義會使用布林值運算子 AND 和 OR 結合規則和參數，以讓您對哪些網站訪客會計入活動加入者能進行詳細控制。
 
 當您結合規則或引數與AND時，任何可能的對象成員都必須符合&#x200B;*所有*&#x200B;已定義的條件，才能納入為加入者。 例如，如果您定義作業系統規則 AND 瀏覽器規則，則只會在活動中包括同時使用已定義作業系統&#x200B;*與*&#x200B;已定義瀏覽器的訪客。
 
@@ -27,13 +27,13 @@ ht-degree: 58%
 
 例如，下列規則會鎖定在 Windows 電腦上使用 Chrome *或* Firefox 的訪客:
 
-![建立受眾](assets/audience_create.png)
+![建立客群](assets/audience_create.png)
 
 >[!NOTE]
 >
->請小心，避免建立規則來排除所有可能的對象成員。例如，某人無法同時使用 Chrome *與* Firefox 來造訪頁面。
+>請小心，避免建立規則來排除所有可能的客群成員。例如，某人無法同時使用 Chrome *與* Firefox 來造訪頁面。
 
-## 建立對象
+## 建立客群
 
 1. 按一下頂端功能表列中的&#x200B;**[!UICONTROL Audiences]**。
 
@@ -43,7 +43,7 @@ ht-degree: 58%
 
    或
 
-   若要複製現有對象，請從[!UICONTROL Audiences]清單中按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（省略符號圖示），然後按一下&#x200B;**[!UICONTROL Duplicate]**。 然後您可以編輯受眾以建立類似的受眾。
+   若要複製現有對象，請從[!UICONTROL Audiences]清單中按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（省略符號圖示），然後按一下&#x200B;**[!UICONTROL Duplicate]**。 然後您可以編輯客群以建立類似的客群。
 
 1. 輸入不重複、描述性的對象名稱和選擇性說明。
 
@@ -59,7 +59,7 @@ ht-degree: 58%
 
    ![拖放屬性](assets/drag-attribute.png)
 
-   每個規則類型都有其專屬的參數。請參閱[對象的類別](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的對象規則的詳細資訊。
+   每個規則類型都有其專屬的參數。請參閱[客群的類別](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的客群規則的詳細資訊。
 
 1. 定義規則參數。
 
@@ -79,7 +79,7 @@ ht-degree: 58%
 
 此影片包括關於建立對象的資訊。
 
-* 建立對象
+* 建立客群
 * 定義對象類別
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

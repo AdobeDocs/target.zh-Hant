@@ -5,7 +5,8 @@ title: 如何在[!UICONTROL Recommendations]活動中使用排除專案？
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 18%

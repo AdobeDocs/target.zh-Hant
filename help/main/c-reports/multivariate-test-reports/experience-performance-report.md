@@ -23,7 +23,7 @@ Adobe Target中的![體驗效能報表](/help/main/c-reports/assets/experiencepe
 
 >[!NOTE]
 >
->對象和量度選擇器僅在將 Analytics 做為報表來源時才可供使用。
+>客群和量度選擇器僅在將 Analytics 做為報表來源時才可供使用。
 
 接下來，折線圖提供每一個體驗在特定時段的視覺化比較。此圖形協助您瞭解每一個體驗的表現如何，以及時段如何影響效能。
 

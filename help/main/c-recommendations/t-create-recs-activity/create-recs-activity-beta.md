@@ -126,7 +126,7 @@ ht-degree: 51%
 
    ![Recommendations 流程圖](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
-   流程圖表將引導您進行選擇活動對象和設定體驗的步驟，並指定成功量度。
+   流程圖表將引導您進行選擇活動客群和設定體驗的步驟，並指定成功量度。
 
    您可從流程圖表執行下列工作: 
 
@@ -134,7 +134,7 @@ ht-degree: 51%
 
      >[!NOTE]
      >
-     >除了選取現有對象，您還可以[建立僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或是[結合多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)來建立隨選對象而非建立新對象。
+     >除了選取現有客群，您還可以[建立僅限於此活動的客群](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或是[結合多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)來建立隨選客群而非建立新客群。
 
      依預設，所有使用者都會看到建議。不過，您可以將建議鎖定在特定對象。
 

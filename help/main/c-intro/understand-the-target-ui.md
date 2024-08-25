@@ -148,13 +148,13 @@ ht-degree: 31%
 
 如需[!DNL Target]中可用活動型別的深入資訊，請參閱[活動](/help/main/c-activities/activities.md)，並進一步瞭解[!UICONTROL Activity]清單的使用者介面。
 
-## 對象
+## 客群
 
 按一下「**[!UICONTROL Audiences]**」標籤以顯示[!UICONTROL Audiences]清單，您可在其中建立對象並管理現有對象。
 
-![對象清單](/help/main/c-intro/assets/audience-list.png)
+![客群清單](/help/main/c-intro/assets/audience-list.png)
 
-對象是看到鎖定活動的一組類似的活動加入者。 對象是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。[!UICONTROL Audience]功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。 如果驗明訪客屬於目標對象，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。
+對象是看到鎖定活動的一組類似的活動加入者。 客群是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。[!UICONTROL Audience]功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。 如果驗明訪客屬於目標客群，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。
 
 如需[!DNL Target]中對象型別的深入資訊，請參閱[建立對象](/help/main/c-target/c-audiences/create-audience.md)，並進一步瞭解[!UICONTROL Audience]清單的使用者介面。
 
