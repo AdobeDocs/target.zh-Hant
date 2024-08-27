@@ -6,16 +6,16 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
-# [!DNL Adobe Journey Optimizer]中的最佳化使用案例 — 網頁和程式碼型管道
+# [!DNL Adobe Journey Optimizer]中最佳化使用案例 — 網頁和程式碼型管道
 
-瞭解如何在[!DNL Adobe Journey Optimizer]中有效實作最具影響力的最佳化使用案例。
+探索如何在Web和程式碼型管道中，有效實施[!DNL Adobe Journey Optimizer]中最具影響力的最佳化使用案例。
 
 ## 必備條件
 

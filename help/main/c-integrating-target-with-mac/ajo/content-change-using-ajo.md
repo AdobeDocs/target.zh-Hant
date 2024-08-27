@@ -6,9 +6,9 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 1%
 
 此使用案例旨在示範如何使用[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)，但使用[!DNL Journey Optimizer]在[!DNL Adobe Target]、A/B測試中執行熟悉的工作。
 
-## 藍本
+## 可能的情況
 
-服裝公司透過測試各種影像並以使用者個人資料屬性中的名字個人化行銷活動登陸頁面，提高了轉換率。
+* 服裝公司透過測試各種影像並以使用者個人資料屬性中的名字個人化行銷活動登陸頁面，提高了轉換率。
+
+* 透過測試行銷活動登陸頁面上的各種產品說明和影像，一家電子商務公司發現其金會員忠誠度的轉換率較高，導致銷售額增加。
 
 ## 優點與價值
 
@@ -29,13 +31,13 @@ ht-degree: 1%
 * **資料導向式決策**：運用資料，針對您的內容策略做出明智的決策，確保影響最大化。
 * **個人化使用者體驗**：量身打造內容，以符合所有受眾區段的不重複偏好設定和需求。
 
-## 逐步指示
+## 步驟
 
 >[!NOTE]
 >
->本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[編輯網頁內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。
+>本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[編輯網頁內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。 頁面底部的影片特別實用。
 
-執行以下步驟，透過測試各種影像並使用使用者的名字個人化訊息，最佳化網頁：
+執行以下步驟，透過使用設定檔指令碼測試各種影像並以使用者的名字個人化訊息，以最佳化網頁：
 
 1. 在[!DNL Adobe Journey Optimizer]中，按一下左側邊欄中的&#x200B;**促銷活動**&#x200B;以顯示[!UICONTROL Campaigns]頁面。
 
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 1. （視條件而定）在&#x200B;**[!UICONTROL Audience]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Select Audience]**&#x200B;並選擇所要的對象。
 
-   對於此使用案例，我們選擇針對所有訪客啟動行銷活動（預設）。
+   針對此使用案例，我們選擇為[!UICONTROL All Visitors]啟動行銷活動（預設）。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;區段中，從&#x200B;**[!UICONTROL Action]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Web]**，然後選取或建立新的網頁組態。
 
@@ -111,6 +113,6 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >在&#x200B;*Journey Optimizer檔案*&#x200B;中[編輯網頁內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
->[*Journey Optimizer檔案*&#x200B;中的作法影片](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank}
+>[*Journey Optimizer檔案*&#x200B;中的作法影片](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
 >[在&#x200B;*Journey OptimizerTutorials*&#x200B;中建立行銷活動](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
 
