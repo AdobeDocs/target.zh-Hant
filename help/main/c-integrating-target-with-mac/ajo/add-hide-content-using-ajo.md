@@ -6,9 +6,9 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ ht-degree: 1%
 
    ![LUMA網站上的瑜伽登陸頁面](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 若要新增呼叫動作按鈕，請按一下右側邊欄中的&#x200B;**[!UICONTROL Edit Web Page]**。
+1. 若要新增隱藏元素，請按一下右側邊欄中的&#x200B;**[!UICONTROL Edit Web Page]**。
 
-1. 按一下
+1. 按一下您要隱藏的元素，然後按一下右側邊欄中的[!UICONTROL Hide]按鈕。
+
+   右側欄會顯示您可以對所選元素執行的選項。 這些選項會因選取的元素而異。
+
+   ![隱藏元素按鈕](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. 按一下左上角的返回箭頭可返回網頁設計工具。
 
