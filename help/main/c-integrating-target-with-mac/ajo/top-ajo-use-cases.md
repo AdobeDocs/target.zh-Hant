@@ -6,9 +6,9 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '167'
 ht-degree: 7%
 
 ---
@@ -31,3 +31,4 @@ ht-degree: 7%
 這些使用案例與網頁和程式碼型通道有關。
 
 * [透過 [!DNL Adobe Journey Optimizer]中的A/B測試變更內容](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [新增或隱藏網頁元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
