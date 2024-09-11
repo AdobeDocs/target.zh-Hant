@@ -5,10 +5,10 @@ title: 如何為  [!DNL Target Standard]  帳戶新增使用者並管理權限�
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 66%
 只有系統管理員可以在 [!DNL Target] 中設定使用者角色。 例如，[!UICONTROL Standard]核准者使用者也必須擁有[!DNL Experience Cloud]管理員許可權，才能將觀察者變更為核准者。
 
 系統管理員使用者必須將使用者新增至系統。系統不會自動新增使用者。使用者要收到來自 [!DNL Experience Cloud] 的電子郵件邀請，而且在註冊其帳戶之前必須先確認電子郵件位址。
+
+>[!NOTE]
+>
+>若要在[!DNL Target]中檢視活動，必須將使用者直接指派給至少具有[!UICONTROL Observer]角色的工作區。 僅透過使用者群組進行指派是不夠的。 通常建議授予使用者對預設工作區的存取權。
 
 1. [在Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)中，按一下&#x200B;**[!UICONTROL Products]**，然後選取所要產品的名稱。
 
