@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Target]中的各種字元、大小和其他限制是什麼�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 77%
+source-wordcount: '1704'
+ht-degree: 76%
 
 ---
 
@@ -251,7 +251,9 @@ ht-degree: 77%
 
 ### 實體數
 
-* **建議的限制**；總共 50,000 個選件。
+* **限制**：總共150,000個選件。
+
+  如果超過150,000個選件的限制，則會發生活動同步錯誤。
 
 ### 選件大小 {#offer-size}
 
