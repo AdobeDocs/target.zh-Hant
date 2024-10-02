@@ -7,7 +7,7 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 74dbbb2f56e62c2c5595497c7ae1e264f9ffd9d4
+source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 8%
@@ -37,7 +37,7 @@ ht-degree: 8%
 | 搜尋欄位 | 使用&#x200B;**[!UICONTROL Search in]**&#x200B;欄位快速尋找優惠方案或減少[!UICONTROL Offers]資料庫中顯示的優惠方案數目。 您可以依[!UICONTROL Offer Name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]搜尋。 |
 | [!UICONTROL Create Folder] | 按一下&#x200B;**[!UICONTROL Create Folder]**&#x200B;在[!UICONTROL Offer]資料庫中建立資料夾以保留代碼選件、影像選件以及其他資料夾以建立子資料夾結構。<P>如需詳細資訊，請參閱[建立選件資料夾](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 按一下&#x200B;**[!UICONTROL Create Offer]**&#x200B;以建立選件。<P>如需建立各種選件型別的詳細資訊，請參閱： <ul><li>HTML 選件</li><li>[JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[遠端選件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
-| 大量作業核取方塊<P>![大量作業圖示](/help/main/assets/icons/Selection.svg) | 按一下[!UICONTROL Bulk Operations]核取方塊，以針對所有活動或選取的活動執行大量作業。<P>如需可用動作的清單（視您的許可權和選件狀態而定），請參閱下方的[執行快速動作](#quick-actions)。 |
+| 大量作業核取方塊<P>![大量作業圖示](/help/main/assets/icons/Rectangle.svg) | 按一下[!UICONTROL Bulk Operations]核取方塊，以針對所有選件或選取的選件執行大量作業。<P>如需可用動作的清單（視您的許可權和選件狀態而定），請參閱下方的[執行快速動作](#quick-actions)。 |
 | [!UICONTROL Name] | 每個選件的名稱。<P>按一下每個優惠方案名稱旁的&#x200B;**[!UICONTROL Quick Info]**&#x200B;圖示（ ![快速資訊圖示](/help/main/assets/icons/InfoOutline.svg) ），即可在快顯示卡片中檢視有關該優惠方案的詳細資訊，包括優惠方案ID、型別、優惠方案日期、上次修改時間及修改者等等。<p>按一下每個選件名稱旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ）以開啟功能表，讓您對活動執行快速動作。 下列動作可供使用（視您的許可權和選件狀態而定）： [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]和[!UICONTROL Move]。 如需每個動作的詳細資訊，請參閱下面的[執行快速動作](#quick-actions)。<P>按一下表格標題，依名稱的字母遞增或遞減順序排序清單。 |
 | [!UICONTROL Type] | 選件型別： [!UICONTROL HTML Offers]、[[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md)和[[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md)。 |
 | [!UICONTROL Source] | 顯示建立選件的位置： [!DNL Adobe Target]、[!DNL Adobe Target Classic]和[!DNL Adobe Experience Manager]。 |
