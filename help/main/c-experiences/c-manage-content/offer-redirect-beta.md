@@ -1,16 +1,16 @@
 ---
-keywords: 重新導向選件; 建立重新導向選件; 新增 html 選件; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
-description: 瞭解如何在 [!DNL Target] 中建立重新導向選件，使瀏覽器重新導向至新頁面。
+keywords: 重新導向選件；建立重新導向選件；新增html選件；在重新導向中傳遞所有URL引數
+description: 瞭解如何建立重新導向選件，讓瀏覽器重新導向至新頁面。
 title: 如何建立重新導向選件？
 feature: Experiences and Offers
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 31%
+source-wordcount: '1137'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 31%
 >
 >* 您無法在AJAX mbox (`mboxUpdate`)中使用重新導向選件。
 >
->* 對於使用Analytics作為報表來源(A4T)的活動中的重新導向選件，您的實作必須符合某些最低需求。 此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
+>* 對於使用[[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動中的重新導向選件，您的實作必須符合某些最低需求。 此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 >
 >* 如需設定可重新導向的體驗的相關資訊，請參閱[重新導向至 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 
@@ -43,13 +43,7 @@ ht-degree: 31%
 ## 從[!UICONTROL Code Offers]頁面建立重新導向選件
 
 1. 按一下「**[!UICONTROL Offers]**」，然後選取「**[!UICONTROL Code Offers]**」標籤。
-
-   ![代碼選件索引標籤](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. 按一下&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**。
-
-   ![建立重新導向選件對話方塊](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
-
 1. 為選件提供描述性名稱。
 
    描述性名稱可協助您和其他人快速在[!UICONTROL Assets]資料庫中找到選件。
@@ -64,7 +58,7 @@ ht-degree: 31%
 
 1. 選取需要的選項來自訂您的重新導向選件:
 
-   * **包含所有URL引數：**&#x200B;如果要將上一頁顯示的所有URL引數傳播到重新導向的頁面，請滑一下切換以啟用此選項。
+   * **包含所有URL引數：**&#x200B;如果您要所有出現在上一頁的URL引數皆傳播到重新導向的頁面，請啟用此選項。
 
      例如，您要將使用者直接從男性頁面重新導向至男性襯衫類別頁面。您也會想要傳遞 URL 中的動態參數，因為這是您追蹤使用者是否透過電子郵件、橫幅廣告、搜尋廣告或組織化方法達到您網站的方式。啟用此選項後，當您在URL方塊中所輸入的是`https://www.mycompany.com/mensShirts.html`時，頁面`https://www.mycompany.com/mens.html?emailId=123`上的重新導向選件會自動變成`https://www.mycompany.com/mensShirts.html?emailId=123`。
 
@@ -81,17 +75,8 @@ ht-degree: 31%
 ## 使用[!UICONTROL Form-Based Experience Composer]建立重新導向選件
 
 1. 使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立活動時，請選取位置以顯示&#x200B;**[!UICONTROL Content]**&#x200B;區段。
-
-   表單式體驗撰寫器中的![內容區段](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. 按一下&#x200B;**[!UICONTROL Default Content]**&#x200B;下拉式清單，然後按一下&#x200B;**[!UICONTROL Change Redirect Offer]**。
-
-   ![變更重新導向選件選項](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
-
 1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**。
-
-   ![建立重新導向選件對話方塊](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
-
 1. 為選件提供描述性名稱。
 
    描述性名稱可協助您和其他人快速在[!UICONTROL Assets]資料庫中找到選件。
@@ -131,11 +116,7 @@ ht-degree: 31%
 1. 指定所需位置，並視需要新增任何對象細分。
 
 1. 按一下&#x200B;**[!UICONTROL Content]**&#x200B;區段中的下拉式清單，然後按一下&#x200B;**[!UICONTROL Change Redirect Offer]**。
-
-   ![變更重新導向選件選項](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
-
 1. 從[!UICONTROL Select Remote Offer]對話方塊中選取所需的重新導向選件，然後按一下&#x200B;**[!UICONTROL Done]**。
-
 1. 完成活動的設定。
 
 ## 訓練影片：表單式撰寫器![教學課程徽章](/help/main/assets/tutorial.png)

@@ -7,9 +7,9 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
    ![代碼選件索引標籤](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Folder]**。
+1. 按一下**[!UICONTROL Create Folder]。
 
 1. 提供資料夾的描述性名稱。
 
@@ -44,9 +44,8 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-   ![影像選件索引標籤](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Folder]**。
+
 1. 指定資料夾的描述性&#x200B;**[!UICONTROL Title]**。
 
    例如，您可以包含其儲存的內容型別。
@@ -54,9 +53,9 @@ ht-degree: 7%
    名稱不能包含下列字元：百分比符號`%`、斜線`/`、反斜線`\`、冒號`:`、星號`*`、問號`?`、雙引號`"`、方括弧`[`、方括弧`]`、加號： `+`、直立線： `|`、句號： `.`、數字元號： `#`、大括弧： `{`、大括弧`}`、插入號`^`或分號`;`。 您可以使用連字型大小( `- `)取代這些字元。
 
 1. （選擇性）指定描述性&#x200B;**[!UICONTROL Name]**。
-1. （選擇性）選取&#x200B;**[!UICONTROL Private]**&#x200B;核取方塊以指定資料夾為私人資料夾，以便只有您可以看到它及其內容。
+1. （選擇性）選取&#x200B;**[!UICONTROL Private]**&#x200B;以指定資料夾為私人資料夾，以便只有您可以看到它及其內容。
 
-1. （選擇性）選取「**[!UICONTROL Reorder-able in List View]**」核取方塊，指定您和其他人可以在[!UICONTROL List View]中重新排序資料夾的位置。
+1. （選擇性）選取&#x200B;**[!UICONTROL Reorder-able in List View]**&#x200B;以指定您和其他人可以在[!UICONTROL List View]中重新排序資料夾的位置。
 
 1. 按一下 **[!UICONTROL Create]**。
 
