@@ -4,14 +4,14 @@ description: 瞭解如何在Adobe [!DNL Target] 選件資料庫中搜尋程式�
 title: 如何搜尋優惠資料庫中的內容？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 8%
+source-wordcount: '235'
+ht-degree: 7%
 
 ---
 
-# 搜尋內容
+# 搜尋和篩選內容
 
 在[!DNL Adobe Target]的[!UICONTROL Offers]資料庫中依關鍵字搜尋資產。
 

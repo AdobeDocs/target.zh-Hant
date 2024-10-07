@@ -1,22 +1,22 @@
 ---
 keywords: 遠端選件；快取內容；動態內容；url型別
-description: 瞭解如何使用 [!DNL Target] 中的遠端選件來主控外部內容(CMS或其他系統中的內容)。
+description: 瞭解如何利用 [!DNL Target] 中的遠端選件來主控來自CMS或其他系統的外部內容。
 title: 如何建立遠端選件？
 feature: Experiences and Offers
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: dedef7763a1d69f80c569a0e7edaadfb310b1a15
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 21%
+source-wordcount: '1064'
+ht-degree: 19%
 
 ---
 
 # 建立遠端選件
 
-使用遠端選件來主控 所參考且位於 [!DNL Adobe Target][!DNL Target] 外部的內容，並傳遞至使用者的網站。基於方便使用或安全性理由，此內容可能位於內容管理(CMS)或其他系統中。
+使用遠端選件在[!DNL Adobe Target]外部託管內容，允許[!DNL Target]參照此內容並將其傳遞給使用者網站。 基於方便使用或安全理由，此內容可以位於內容管理系統(CMS)或其他系統中。
 
 >[!NOTE]
 >
@@ -51,21 +51,17 @@ ht-degree: 21%
 
 1. 按一下「**[!UICONTROL Offers]**」，然後選取「**[!UICONTROL Code Offers]**」標籤。
 
-   ![選件>代碼選件](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. 按一下&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**。
 
-   ![建立遠端選件對話方塊](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui_new.png)
+1. 在[!UICONTROL Create Remote Offer]對話方塊中，提供優惠方案的描述性名稱。
 
-1. 為選件提供描述性名稱。
-
-   描述性名稱可協助您和其他人快速在[!UICONTROL Assets]資料庫中找到選件。
+   描述性名稱可協助您和其他人快速在[!UICONTROL Offers]資料庫中找到選件。
 
 1. （視條件而定）如果您有[Target Premium帳戶](/help/main/c-intro/intro.md#premium)，請選取所需的[工作區](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
 
 1. 指定重新導向URL型別。
 
-   如需詳細資訊，請參閱下方的[重新導向URL型別：快取或動態](#url-type)。
+   如需詳細資訊，請參閱下列[重新導向URL型別： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic]](#url-type)。
 
 1. 指定遠端選件的絕對遠端URL。
 
@@ -75,15 +71,9 @@ ht-degree: 21%
 
 1. 使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立活動時，請選取位置以顯示&#x200B;**[!UICONTROL Content]**&#x200B;區段。
 
-   表單式體驗撰寫器中的![內容區段](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. 按一下&#x200B;**[!UICONTROL Default Content]**&#x200B;下拉式清單，然後按一下&#x200B;**[!UICONTROL Change Remote Offer]**。
 
-   ![變更遠端選件選項](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
 1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**。
-
-   ![建立遠端選件對話方塊](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. 為選件提供描述性名稱。
 
@@ -91,27 +81,27 @@ ht-degree: 21%
 
 1. 指定重新導向URL型別。
 
-   如需詳細資訊，請參閱下方的[重新導向URL型別：快取或動態](#url-type)。
+   如需詳細資訊，請參閱下列[重新導向URL型別： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic]](#url-type)。
 
 1. 指定遠端選件的遠端URL。
 
 1. 按一下 **[!UICONTROL Save]**。
 
-## 重新導向URL型別：快取或動態 {#url-type}
+## 重新導向URL型別： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic] {#url-type}
 
 下列資訊可協助您瞭解這兩個選項之間的差異：
 
-### 快取的URL
+### [!UICONTROL Onsite Cached] URL
 
 快取遠端選件的內容是從[!DNL Target]提供。
 
 每兩小時，[!DNL Target]會從遠端URL擷取內容，然後將內容儲存在[!DNL Target]內。 當訪客載入的網站具有包含遠端選件的體驗時，[!DNL Target]會提供選件。
 
-快取遠端選件提供增強的安全性，因為登入[!DNL Target]的人員無法變更內容。 若要變更內容，某人需要記錄（或其他系統），並在那裡變更內容。
+快取遠端選件提供增強的安全性，因為登入[!DNL Target]的人員無法變更內容。 若要變更內容，使用者必須登入內容管理或其他系統，然後在那裡變更內容。
 
 您可以為快取遠端選件指定絕對或相對 URL。
 
-### 動態URL
+### [!UICONTROL Onsite Dynamic] URL
 
 動態遠端選件是由內容管理或其他系統提供，而非由[!DNL Target]提供。
 
@@ -132,8 +122,6 @@ ht-degree: 21%
 1. 指定所需位置，並視需要新增任何對象細分。
 
 1. 按一下&#x200B;**[!UICONTROL Content]**&#x200B;區段中的下拉式清單，然後按一下&#x200B;**[!UICONTROL Change Remote Offer]**。
-
-   ![變更遠端選件選項](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. 從[!UICONTROL Select Remote Offer]對話方塊中選取所需的遠端選件，然後按一下&#x200B;**[!UICONTROL Done]**。
 
@@ -159,9 +147,9 @@ ht-degree: 21%
 
 ## 遠端選件選擇矩陣 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-遠端選件選擇矩陣可協助您決定要選擇的遠端選件型別： [!UICONTROL Cached]或[!UICONTROL Dynamic]。
+遠端選件選擇矩陣可協助您決定要選擇的遠端選件型別： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic]。
 
-| 功能 | 已快取 | 動態 |
+| 功能 | 站上快取 | 站上動態 |
 |--- |--- |--- |
 | 每次訪客請求時更新 | 無 | 是 |
 | 內容更新 | 每兩小時快取一次 | 每次要求時立即更新 |

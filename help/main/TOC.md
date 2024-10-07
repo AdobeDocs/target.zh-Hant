@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 83%
+source-wordcount: '1374'
+ht-degree: 82%
 
 ---
 
@@ -207,21 +207,21 @@ ht-degree: 83%
          + [Target 資料庫](c-target/c-audiences/c-target-rules/target-library.md)
          + [時間段](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量來源](c-target/c-audiences/c-target-rules/traffic-sources.md)
-         + [訪客設定檔](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [建立設定檔屬性比較客群](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+         + [訪客輪廓](c-target/c-audiences/c-target-rules/visitor-profile.md)
+      + [建立輪廓屬性比較客群](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [合併多個客群](c-target/combining-multiple-audiences.md)
    + [建立僅限活動的客群](c-target/creating-activity-only-audience.md)
    + [報表的客群篩選條件](c-target/managing-audience-filters.md)
    + [套用報表客群至成功量度](c-target/apply-reporting-audience-success-metric.md)
-   + 訪客設定檔 {#visitor-profiles}
-      + [訪客設定檔概覽](c-target/c-visitor-profile/visitor-profile.md)
-      + [訪客設定檔存留期](c-target/c-visitor-profile/visitor-profile-lifetime.md)
-      + [設定檔屬性](c-target/c-visitor-profile/profile-parameters.md)
-      + [使用用來測試互斥活動的設定檔指令碼](/help/main/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+   + 訪客輪廓 {#visitor-profiles}
+      + [訪客輪廓概覽](c-target/c-visitor-profile/visitor-profile.md)
+      + [訪客輪廓存留期](c-target/c-visitor-profile/visitor-profile-lifetime.md)
+      + [輪廓屬性](c-target/c-visitor-profile/profile-parameters.md)
+      + [使用用來測試互斥活動的輪廓指令碼](/help/main/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [類別親和性](c-target/c-visitor-profile/category-affinity.md)
       + [客戶屬性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyId 的即時設定檔同步](c-target/c-visitor-profile/3rd-party-id.md)
-      + [設定檔和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
+      + [mbox3rdPartyId 的即時輪廓同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [輪廓和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 鎖定目標和客群常見問答 {#faq-audiences}
       + [鎖定目標和客群常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + 體驗與選件 {#experiences}
@@ -266,7 +266,8 @@ ht-degree: 83%
       + [建立JSON選件（測試版）](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [使用程式庫中的內容](c-experiences/c-manage-content/assets-working.md)
       + [使用程式庫測試版中的內容](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
-      + [搜尋內容](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [搜尋和篩選內容](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [搜尋和篩選內容（測試版）](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [將動態資料傳遞至選件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM體驗和內容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 報表 {#reports}
@@ -323,7 +324,7 @@ ht-degree: 83%
          + [使用動態和靜態包含規則（測試版）](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [實體屬性比對](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [實體屬性比對Beta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
-         + [設定檔屬性比對](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [輪廓屬性比對](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [設定檔屬性比對Beta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [參數比對](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
          + [引數比對Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)

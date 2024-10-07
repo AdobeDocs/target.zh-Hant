@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '421'
 ht-degree: 25%
 
 ---
@@ -33,13 +33,7 @@ JSON選件可用於表單式活動，以啟用需要[!DNL Target]個決策的使
 ## 建立JSON選件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**。
-
-   ![選件>代碼選件索引標籤](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. 按一下&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**。
-
-   ![offer-json影像](assets/offer-json-new.png)
-
 1. 輸入選件名稱。
 1. （視條件而定）如果您有[[!DNL Target] 進階帳戶](/help/main/c-intro/intro.md#premium)，請選擇所需的[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace)。
 1. （視條件而定）選擇所需的設定檔屬性。
@@ -143,6 +137,4 @@ Real-time CDP設定檔屬性可與[!DNL Target]共用，以用於HTML和JSON選�
 
 ## 依JSON選件型別篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按一下&#x200B;**[!UICONTROL Show filters]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL JSON]**&#x200B;核取方塊，依JSON選件型別來篩選[!UICONTROL Offers]資料庫。
-
-![offer-json-filter影像](assets/offer-json-filter-new.png)
+您可以按一下&#x200B;**[!UICONTROL Show filters]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ），然後選取&#x200B;**[!UICONTROL JSON Offers]**&#x200B;核取方塊，依JSON選件型別來篩選[!UICONTROL Offers]資料庫。
