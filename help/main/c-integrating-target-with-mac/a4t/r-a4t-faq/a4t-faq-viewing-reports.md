@@ -4,10 +4,10 @@ description: 尋找使用Analytics for [!DNL Target] (A4T)時經常詢問關於�
 title: 尋找使用A4T檢視報表的相關問題解答？
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 25%
+source-wordcount: '2539'
+ht-degree: 24%
 
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 25%
 
 +++
 
-## 我可以在[!DNL Analysis Workspace]中套用「同一次接觸」Attribution IQ模型嗎？
+## [!DNL Analysis Workspace]中使用哪種Attribution IQ模型？
 
 +++回答
-在[!DNL Analysis Workspace]中使用[!DNL Target]活動曝光次數和轉換時，請套用「同一次接觸」Attribution IQ模型至量度，以確保計數準確。 若要套用[非預設歸因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，請在量度上按一下滑鼠右鍵，以&#x200B;**修改欄設定 > 啟用使用非預設歸因模型 > 選擇相同接觸模型**&#x200B;。&#x200B;若未套用此模型，這些量度就會被誇大。
-
-所有目前的[!DNL Adobe Analytics]套件都可以使用[!UICONTROL Attribution IQ]新增此模型。 如果您沒有[!UICONTROL Attribution IQ]的存取權，請依賴[!UICONTROL Reports & Analytics]中的A4T資料。
+在[!DNL Analysis Workspace]中使用[!DNL Target]活動曝光次數和轉換時，「同一次接觸」Attribution IQ模型是套用至量度的預設模型，以確保計數準確。 此模型在99%的情況下都運作良好。 不過，您可以在Attribution IQ中覆寫此標準歸因。
 
 +++
 
@@ -181,7 +179,7 @@ A4T活動停用後的報表曝光來源可以是QA模式流量。 Target通常�
 下列清單說明在[!DNL Analytics]中可在多個體驗中計算相同訪客的原因：
 
 * [!DNL Target]設定檔已過期，但[!DNL Analytics] Cookie仍然存在。 在此情況下，[!DNL Target]會重新評估使用者，但[!DNL Analytics]會將訪客視為同一個人。
-* 如果訪客使用`mbox3rdPartyId`，當匿名訪客與第三方ID設定檔合併時，[!DNL Target]可能會將訪客安排到不同的體驗，以符合第三方ID。 如需詳細資訊，請參閱 [mbox3rdPartyID 的即時設定檔同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
+* 如果訪客使用`mbox3rdPartyId`，當匿名訪客與第三方ID設定檔合併時，[!DNL Target]可能會將訪客安排到不同的體驗，以符合第三方ID。 如需詳細資訊，請參閱 [mbox3rdPartyID 的即時輪廓同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
 * [!DNL Analytics]可能會以與[!DNL Target]不同的方式追蹤作為相同訪客的不同裝置，以追蹤這些裝置： [!DNL Target]中的第三方ID設定與Analytics中的設定不同。
 
 +++
