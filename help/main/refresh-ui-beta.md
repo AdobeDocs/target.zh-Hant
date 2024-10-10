@@ -6,7 +6,8 @@ badgePremium: label="Beta 版" type="Informative" url="https://experienceleague.
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 23f6a8bfd198649ea1e234dbd57593eb868fc569
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
+source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 78%
@@ -30,19 +31,19 @@ ht-degree: 78%
 * [活動概覽](c-activities/activities.md){target=_blank}
 * [Target 活動類型](c-activities/target-activities-guide.md){target=_blank}
 * A/B 測試 {#abtest}
-   * [A/B 測試概覽](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [A/B 測試概覽](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [A/B 測試該執行多久？](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [十個常見的 A/B 測試陷阱和避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [A/A 測試](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * 建立 A/B 測試 {#create}
-      * [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
+      * [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
       * [選取客群](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * 自動分配{#auto-allocate}
    * [自動分配總覽](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * 建立[自動分配](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}活動
@@ -153,7 +154,7 @@ ht-degree: 78%
       * 動態與靜態包含{#dynamic-static}{target="_blank"}
          * [使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
          * [實體屬性比對](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md){target="_blank"}
-         * [設定檔屬性比對](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md){target="_blank"}
+         * [輪廓屬性比對](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md){target="_blank"}
          * [參數比對](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md){target="_blank"}
          * [靜態篩選器](/help/main/c-recommendations/c-algorithms/static-value-beta.md){target="_blank"}
       * [使用備份推薦](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md){target="_blank"}
@@ -180,4 +181,3 @@ ht-degree: 78%
    * [Recommendations Classic 文件](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-
