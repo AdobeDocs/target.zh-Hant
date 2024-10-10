@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 81%
+source-wordcount: '1410'
+ht-degree: 80%
 
 ---
 
@@ -129,9 +129,12 @@ ht-degree: 81%
          + [選取客群](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [選取受眾測試版](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [目標與設定測試版](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [設定量度（測試版）](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B測試Beta版中的多個體驗對象](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + 自動分配{#auto-allocate}
       + [自動分配概覽](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [建立自動分配活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
