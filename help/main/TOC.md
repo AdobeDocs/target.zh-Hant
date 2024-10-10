@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1385'
 ht-degree: 82%
 
 ---
@@ -115,11 +115,13 @@ ht-degree: 82%
    + [Target 活動類型](c-activities/target-activities-guide.md)
    + A/B 測試 {#abtest}
       + [A/B 測試概覽](c-activities/t-test-ab/test-ab.md)
+      + [A/B測試概覽Beta版](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B 測試該執行多久？](c-activities/t-test-ab/sample-size-determination.md)
       + [十個常見的 A/B 測試陷阱和避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A 測試](/help/main/c-activities/t-test-ab/aa-testing.md)
       + 建立 A/B 測試 {#create}
          + [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [建立A/B測試測試版](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [選取客群](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
