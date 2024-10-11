@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 80%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 80%
    + 自動分配{#auto-allocate}
       + [自動分配概覽](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [建立自動分配活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [建立自動分配活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [解讀自動分配報告](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [解讀自動分配報告（測試版）](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [自動分配讓您能比手動測試更快速地測試果並獲得更高的收入](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 自動鎖定目標{#auto-target}
       + [自動鎖定目標概覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [自動鎖定目標總覽Beta版](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [建立自動鎖定目標活動](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [建立自動鎖定目標活動測試版](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [自動鎖定目標常見問題集和疑難排解](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [報表和自動鎖定目標](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
