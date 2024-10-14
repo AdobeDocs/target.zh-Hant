@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 78%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 78%
       + [預覽 Automated Personalization 測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [預覽Automated Personalization測試版體驗](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [鎖定 Automated Personalization 選件](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target Automated Personalization選件（測試版）](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [管理排除專案（測試版）](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization 中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization 常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)

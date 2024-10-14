@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
+source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 75%
 
 ---
 
@@ -28,42 +28,27 @@ ht-degree: 78%
 
 +++按一下以展開
 
-* [活動概覽](c-activities/activities.md){target=_blank}
-* [Target 活動類型](c-activities/target-activities-guide.md){target=_blank}
 * A/B 測試 {#abtest}
    * [A/B 測試概覽](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
-   * [A/B 測試該執行多久？](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
-   * [十個常見的 A/B 測試陷阱和避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
-   * [A/A 測試](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
-   * 建立 A/B 測試 {#create}
       * [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
       * [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
       * [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
-      * [選取客群](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
-      * [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * 自動分配{#auto-allocate}
-   * [自動分配總覽](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
-   * 建立[自動分配](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}活動
-   * [解讀自動分配報告](c-activities/automated-traffic-allocation/determine-winner.md){target=_blank}
-   * [自動分配讓您能比手動測試更快速地測試果並獲得更高的收入](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md){target=_blank}
+   * 建立[自動分配](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}活動
+   * [解讀自動分配報告](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
 * 自動鎖定目標{#auto-target}
-   * [自動鎖定目標總覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md){target=_blank}
-   * [建立自動鎖定目標活動](/help/main/c-activities/auto-target/create-auto-target.md){target=_blank}
+   * [自動鎖定目標總覽](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [建立自動鎖定目標活動](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [自動鎖定目標常見問答和疑難排解](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-   * [報表和自動鎖定目標](/help/main/c-activities/auto-target/reporting-and-auto-target.md){target=_blank}
 * Automated Personalization {#automated-personalization}
-   * [Automated Personalization 概覽](c-activities/t-automated-personalization/automated-personalization.md){target=_blank}
-   * [隨機森林演算法](c-activities/t-automated-personalization/algo-random-forest.md){target=_blank}
-   * [建立 Automated Personalization 活動](c-activities/t-automated-personalization/create-ap-activity.md){target=_blank}
-   * [上傳用於 Target 個人化演算法的資料](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md){target=_blank}
-   * [Target 個人化演算法的資料收集](c-activities/t-automated-personalization/ap-data.md){target=_blank}
-   * [預估成功所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator.md){target=_blank}
-   * [預覽 Automated Personalization 測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md){target=_blank}
+   * [建立 Automated Personalization 活動](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [預估成功所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [預覽 Automated Personalization 測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
    * [鎖定 Automated Personalization 選件](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md){target=_blank}
+   * [管理排除項目](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
    * [Automated Personalization 中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
    * [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
    * [Automated Personalization 常見問答](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
