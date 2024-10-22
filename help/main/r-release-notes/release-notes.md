@@ -6,7 +6,7 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
+source-git-commit: ffd4cd4c39fca828f265ddfc50e9af297d9300cf
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 37%

@@ -4,7 +4,7 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
+source-git-commit: ffd4cd4c39fca828f265ddfc50e9af297d9300cf
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 26%
