@@ -1,13 +1,13 @@
 ---
-keywords: Target 文件變更記錄；文件更新；新主題；編輯；更新；更新
+keywords: target檔案變更記錄；檔案更新；新主題；編輯；更新；更新；變更
 description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 25%
+source-wordcount: '460'
+ht-degree: 22%
 
 ---
 
