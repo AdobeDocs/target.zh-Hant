@@ -7,20 +7,20 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 7%
 
 ---
 
 # 建立選件資料夾
 
-在[!DNL Adobe Target] [!UICONTROL Offer]資料庫中建立資料夾以保留代碼選件、影像選件以及其他資料夾以建立子資料夾結構。
+在[!DNL Adobe Target] [!UICONTROL Offer]資料庫中建立資料夾以保留代碼選件、影像選件。 您也可以建立資料夾以建立子資料夾結構。
 
 >[!NOTE]
 >
->本文包含[!DNL Target]使用者介面的更新資訊，該介面目前是Beta程式的一部分。 [!DNL Adobe Target]團隊經常為特定客戶啟用新功能，以進行測試和提供意見回饋。 在測試期間完成後，這些功能會在未來[!DNL Target Standard/Premium]版本中針對所有客戶啟用，並在發行說明中宣佈。
+>本文包含[!DNL Target]使用者介面的更新資訊，該介面目前是Beta程式的一部分。 [!DNL Adobe Target]團隊經常為特定客戶啟用新功能，以進行測試和提供意見回饋。 在測試期間完成後，這些功能會在未來[!DNL Target]版本中針對所有客戶啟用，並在[發行說明](/help/main/r-release-notes/release-notes.md)中宣佈。
 
 為程式碼選件和影像選件建立資料夾的程式略有不同。 以下章節包含更多資訊。
 
@@ -28,9 +28,7 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**。
 
-   ![代碼選件索引標籤](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. 按一下**[!UICONTROL Create Folder]。
+1. 按一下 **[!UICONTROL Create Folder]**。
 
 1. 提供資料夾的描述性名稱。
 
@@ -54,7 +52,6 @@ ht-degree: 7%
 
 1. （選擇性）指定描述性&#x200B;**[!UICONTROL Name]**。
 1. （選擇性）選取&#x200B;**[!UICONTROL Private]**&#x200B;以指定資料夾為私人資料夾，以便只有您可以看到它及其內容。
-
 1. （選擇性）選取&#x200B;**[!UICONTROL Reorder-able in List View]**&#x200B;以指定您和其他人可以在[!UICONTROL List View]中重新排序資料夾的位置。
 
 1. 按一下 **[!UICONTROL Create]**。

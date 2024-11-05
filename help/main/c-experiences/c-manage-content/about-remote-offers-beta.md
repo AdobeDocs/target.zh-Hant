@@ -7,9 +7,9 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1048'
 ht-degree: 19%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->本文包含[!DNL Target]使用者介面的更新資訊，該介面目前是Beta程式的一部分。 [!DNL Adobe Target]團隊經常為特定客戶啟用新功能，以進行測試和提供意見回饋。 在測試期間完成後，這些功能會在未來[!DNL Target Standard/Premium]版本中針對所有客戶啟用，並在發行說明中宣佈。
+>本文包含[!DNL Target]使用者介面的更新資訊，該介面目前是Beta程式的一部分。 [!DNL Adobe Target]團隊經常為特定客戶啟用新功能，以進行測試和提供意見回饋。 在測試期間完成後，這些功能會在未來[!DNL Target]版本中針對所有客戶啟用，並在[發行說明](/help/main/r-release-notes/release-notes.md)中宣佈。
 
 您可以在[!UICONTROL Offers] > [!UICONTROL Code Offers]頁面或[Forms體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)中建立遠端選件。 您無法在[!UICONTROL Visual Experience Composer] (VEC)中建立或套用遠端選件。 內容會插入[!DNL Target]要求位置，因此這些位置可能不適合全域[!DNL Target]要求。
 
@@ -70,14 +70,15 @@ ht-degree: 19%
 ## 使用[!UICONTROL Form-Based Experience Composer]建立遠端選件
 
 1. 使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立活動時，請選取位置以顯示&#x200B;**[!UICONTROL Content]**&#x200B;區段。
+1. 按一下&#x200B;**[!UICONTROL Content]**&#x200B;下拉式清單，按一下&#x200B;**[!UICONTROL List]**&#x200B;圖示（ ![清單](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下&#x200B;**[!UICONTROL Change Remote Offer]**。
 
-1. 按一下&#x200B;**[!UICONTROL Default Content]**&#x200B;下拉式清單，然後按一下&#x200B;**[!UICONTROL Change Remote Offer]**。
-
-1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**。
+1. 按一下&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**。
 
 1. 為選件提供描述性名稱。
 
    描述性名稱可協助您和其他人快速在[!UICONTROL Assets]資料庫中找到選件。
+
+1. （視條件而定）如果您有[Target Premium帳戶](/help/main/c-intro/intro.md#premium)，請選取所需的[工作區](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
 
 1. 指定重新導向URL型別。
 
@@ -85,7 +86,7 @@ ht-degree: 19%
 
 1. 指定遠端選件的遠端URL。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 ## 重新導向URL型別： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -111,7 +112,7 @@ ht-degree: 19%
 
 ## 在活動中使用遠端選件
 
-您必須使用[!UICONTROL Form-Based Experience Composer]套用遠端選件。 您目前無法使用[!UICONTROL Visual Experience Composer] (VEC)套用遠端選件。
+使用[!UICONTROL Form-Based Experience Composer]套用遠端選件。 您目前無法使用[!UICONTROL Visual Experience Composer] (VEC)套用遠端選件。
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非視覺化體驗和選件建立介面，當[!UICONTROL Visual Experience Composer]無法使用或不實用的情況下，它有助於建立可在[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Recommendations]活動中使用的體驗。 例如，您可能會使用[!UICONTROL Form-Based Experience Composer]來建立使用遠端選件的體驗。
 
@@ -121,9 +122,9 @@ ht-degree: 19%
 
 1. 指定所需位置，並視需要新增任何對象細分。
 
-1. 按一下&#x200B;**[!UICONTROL Content]**&#x200B;區段中的下拉式清單，然後按一下&#x200B;**[!UICONTROL Change Remote Offer]**。
+1. 按一下&#x200B;**[!UICONTROL Content]**&#x200B;下拉式清單，按一下&#x200B;**[!UICONTROL List]**&#x200B;圖示（ ![清單](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下&#x200B;**[!UICONTROL Change Remote Offer]**。
 
-1. 從[!UICONTROL Select Remote Offer]對話方塊中選取所需的遠端選件，然後按一下&#x200B;**[!UICONTROL Done]**。
+1. 從[!UICONTROL Change Remote Offer]對話方塊中選取所需的遠端選件，然後按一下&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**。
 
 1. 完成活動的設定。
 
@@ -143,7 +144,7 @@ ht-degree: 19%
 
 4. [!DNL Target]傳回包含動態內容位置及其引數的URL。 在mbox區域中設定iFrame。
 
-5. 瀏覽器在頁面中要求URL並轉譯。
+5. 瀏覽器會要求URL並在頁面中呈現。
 
 ## 遠端選件選擇矩陣 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
@@ -158,13 +159,3 @@ ht-degree: 19%
 | 選件可以包含 JavaScript | 是 | 是 |
 | 選件 URL | 絕對或相對 | 相對 |
 | 請求的電腦 | Adobe 伺服器 | 訪客的電腦，具有訪客的 Cookie |
-
-## 訓練影片：表單式撰寫器![教學課程徽章](/help/main/assets/tutorial.png)
-
-此影片提供[!UICONTROL Form-Based Experience Composer]的示範，您可用來建立遠端選件。
-
-* 使用[!UICONTROL Form-Based Experience Composer]建立活動
-* 瞭解何時使用[!UICONTROL Form-Based Experience Composer]與[!UICONTROL Visual Experience Composer]
-* 使用細分來鎖定位置
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)
