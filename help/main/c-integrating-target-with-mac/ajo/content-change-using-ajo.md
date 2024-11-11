@@ -6,9 +6,10 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 1%
 
 此使用案例可協助您解除鎖定秘密，以在[!DNL Adobe Journey Optimizer]中有效A/B測試內容變更。
 
-此使用案例示範如何使用[!DNL Journey Optimizer]而非[!DNL Adobe Target]來執行熟悉的工作，例如使用[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)進行A/B測試。
-
-此使用案例旨在示範如何使用[!DNL Adobe Target]、使用[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)但使用[!DNL Journey Optimizer]的A/B測試來執行您熟悉的工作。
+此使用案例示範如何使用[!DNL Journey Optimizer]而非[!DNL Adobe Target]來執行熟悉的工作，例如在[!DNL Adobe Target]中對[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)進行A/B測試。
 
 ## 優點與價值
 
@@ -31,7 +30,7 @@ ht-degree: 1%
 
 * 服裝公司透過測試各種影像並在行動號召文字中使用者的名字來個人化行銷活動登陸頁面，以提高轉換率。
 
-* 一家電子商務公司發現其金會員忠誠度會員的轉換率較高，這是因為他們在行銷活動登陸頁面上測試各種產品說明和影像，導致銷售額上升。
+* 一家電子商務公司發現其「金會員忠誠度」會員的轉換率較高，這是因為他們在行銷活動登陸頁面上測試各種產品說明和影像，導致銷售額上升。
 
 ## 步驟
 
@@ -41,17 +40,13 @@ ht-degree: 1%
 >
 >頁面底部的影片特別實用。
 
-執行以下步驟，透過使用設定檔指令碼測試各種影像並以使用者的名字個人化訊息，以最佳化網頁：
+若要使用設定檔指令碼測試各種影像並以使用者的名字個人化訊息，以最佳化網頁：
 
-1. 在[!DNL Adobe Journey Optimizer]中，按一下左側邊欄中的&#x200B;**促銷活動**&#x200B;以顯示[!UICONTROL Campaigns]頁面。
-
-   ![醒目提示「行銷活動」索引標籤的Adobe Journey Optimizer登陸頁面。](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. 在[!DNL Journey Optimizer]中，按一下左側邊欄中的&#x200B;**促銷活動**&#x200B;以顯示[!UICONTROL Campaigns]頁面。
 
 1. 按一下[!UICONTROL Campaigns]頁面右上角的&#x200B;**[!UICONTROL Create Campaign]**。
 
 1. 選取「**[!UICONTROL Scheduled - Marketing]**」（預設），然後按一下「**建立**」以顯示[!UICONTROL Campaign]詳細資料頁面。
-
-   在Adobe Journey Optimizer中的![行銷活動詳細資訊頁面](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. 在&#x200B;**[!UICONTROL Properties]**&#x200B;區段中，為行銷活動提供描述性名稱和選擇性說明。
 
@@ -85,7 +80,7 @@ ht-degree: 1%
 
 1. 在[!UICONTROL Campaign]詳細資訊頁面的&#x200B;**[!UICONTROL Action]**&#x200B;底下，按一下&#x200B;**[!UICONTROL Edit Content]**。
 
-1. 按一下處理B下的Web
+1. 按一下「處理B」下的「網頁」。
 
    針對此使用案例，請維持[!UICONTROL Treatment A]不變，以使用原始體驗作為A/B測試中的第一個體驗。
 
@@ -133,4 +128,3 @@ ht-degree: 1%
 >在&#x200B;*Journey Optimizer檔案*&#x200B;中[編輯網頁內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
 >[*Journey Optimizer檔案*&#x200B;中的作法影片](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
 >[在&#x200B;*Journey OptimizerTutorials*&#x200B;中建立行銷活動](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
-
