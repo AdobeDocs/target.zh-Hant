@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 84%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 84%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2024
+
+### at.js 2.11.6版（2024年9月29日）
+
+* 已修正導致[!DNL Target]無法在[!UICONTROL Visual Experience Composer] (VEC)或[!UICONTROL Form-Based Experience Composer]內以重新導向選件正確運作的問題。
+
+如需at.js發行版本的詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[at.js版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}。
 
 ### [!DNL Target]報告於[!DNL Adobe Customer Journey Analytics] （2024年5月8日）
 
@@ -187,7 +193,7 @@ ht-degree: 84%
 
 此版本包含下列增強功能和修正：
 
-* 已修復在產生設定檔 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387 和 TGT-45423)
+* 已修復在產生輪廓 API 授權權杖時造成顯示空白頁面的問題。(TGT-45387 和 TGT-45423)
 * 修正當影像名稱包含GB 18030字元時，[!UICONTROL Create Design]面板無法顯示影像的問題。 (TGT-44614)
 * 已修正體驗中某些 GB 18030 符號字元在文字/HTML 中錯誤逸出的問題。(TGT-44600)
 * 修正分析期間導致[!UICONTROL Auto Personalization]活動報告凍結的問題。 (TGT-44820)
@@ -204,7 +210,7 @@ ht-degree: 84%
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 與 [!DNL Target] 共用 Real-Time CDP 設定檔屬性 | [!UICONTROL Real-Time CDP Profile Attributes]可以與[!DNL Target]共用，以用於HTML和JSON選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 設定檔屬性。 |
+| 與 [!DNL Target] 共用 Real-Time CDP 輪廓屬性 | [!UICONTROL Real-Time CDP Profile Attributes]可以與[!DNL Target]共用，以用於HTML和JSON選件。<P>如需詳細資訊，請參閱[與  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共用 Real-time CDP 輪廓屬性。 |
 
 ### [!DNL Target] Standard/Premium 23.5.1 (2023 年 5 月 23-25 日)
 
@@ -409,7 +415,7 @@ ht-degree: 84%
 | *Adobe Target 開發人員指南* | 的 *Adobe Target開發人員指南* 合併所有 [!DNL Target] 開發人員內容。 指南包含實施 [!DNL Target] 和 [!DNL Recommendations]、[!DNL Target] SDK 及 [!DNL Target] API 的資訊。<br>如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。 |
 
 * 具有[!UICONTROL Editor]角色的使用者無法再編輯已上線活動中的對象。 (TGT-43582)
-* 如果客戶試圖以客群名字的第一個字元 (如 !London) 的嘆號 ( ! ) 來儲存客群，就會出現警告訊號。 (TGT-43643)
+* 如果客戶嘗試儲存具有驚歎號( ！)作為對象名稱的第一個字元（例如！London）。 (TGT-43643)
 * 修正導致一些客戶的客群定義細節卡顯示已結束活動仍然在進行中的問題。 (TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1 (分批發行；2022 年 6 月 7 日至 9 日)
@@ -511,7 +517,7 @@ ht-degree: 84%
 | --- | --- |
 | [!DNL Target] 中的 [!DNL Adobe Experience Platform] 客群 | 您現在可以在 [!DNL Target] 中消費和使用 [!DNL Adobe Experience Platform] 客群。[!DNL Target]團隊、[!DNL Experience Platform] [!DNL Destinations]團隊和[!DNL Unified Profile Service]團隊很高興地宣佈推出「相同頁面/下一頁Personalization」使用案例的正式版本。<br>使用在 [!DNL Adobe Experience Platform] 中建立的客群可提供更豐富的客戶資料，從而帶來更具影響力的個人化。[Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank} (RTCP)是以[!DNL Adobe Experience Platform]為基礎打造，可讓公司整合來自多個企業來源的已知和匿名資料，以建立客戶設定檔，其可用於跨所有管道和裝置即時提供個人化客戶體驗。<br>如需詳細資訊，請參閱[在&#x200B;*建立客群*&#x200B;中使用來自 Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) 的客群。<br>請務必閱讀Adobe部落格並觀看影片：[[!DNL Adobe] 宣佈使用 [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}推出相同頁面增強型Personalization。 |
 | [!UICONTROL Audiences] UI重新整理 | 作為[!DNL Adobe Target]團隊持續努力改善[!DNL Target]個使用者的使用者體驗的一部分，此版本重新整理[!DNL Target] UI中的[!UICONTROL Audiences]和[!UICONTROL Profile Scripts]頁面。 本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個客群</li><li>重新整理的[客群建立器設計](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]資料庫規則產生器中的排除規則支援</li><li>全新的「對象Source」篩選器，能更快速地探索對象</li><li>工作階段持續搜尋和篩選器選項</li><li>為 [!DNL Target Premium] 客戶在工作區之間移動客群的功能。</li></ul>如需詳細資訊，請參閱[客群](/help/main/c-target/target.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
-| [!UICONTROL Profile Scripts] UI重新整理 | [!UICONTROL Profile Scripts]資料庫也已更新，且包含重新整理的介面和數項生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/main/c-target/c-visitor-profile/visitor-profile.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
+| [!UICONTROL Profile Scripts] UI重新整理 | [!UICONTROL Profile Scripts]資料庫也已更新，且包含重新整理的介面和數項生產力更新：<ul><li>能夠同時選擇和刪除多個輪廓指令碼</li><li>輪廓指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或輪廓) 參數</li></ul>如需詳細資訊，請參閱[訪客輪廓](/help/main/c-target/c-visitor-profile/visitor-profile.md)。<br>**請注意**：此功能將在未來八週內向不同區域的客戶推出。 |
 
 ### [!DNL Target Standard/Premium] 22.1.1 (2022 年 1 月 12 日)
 
@@ -610,7 +616,7 @@ ht-degree: 84%
 | 功能 | 詳細資料 |
 | --- | --- |
 | [!UICONTROL Audiences] UI重新整理 | 作為[!DNL Adobe Target]團隊持續努力改善[!DNL Target]個使用者的使用者體驗的一部分，此版本重新整理[!DNL Target] UI中的[!UICONTROL Audiences]和[!UICONTROL Profile Scripts]頁面。 本次更新統一並標準化先前不一致的設計模式，同時加入了新的增強功能，例如：<ul><li>能夠同時選擇和刪除多個客群</li><li>重新整理的[客群建立器設計](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]資料庫規則產生器中的排除規則支援</li><li>全新的「對象Source」篩選器，能更快速地探索對象</li><li>工作階段持續搜尋和篩選器選項</li></ul>如需詳細資訊，請參閱[客群](/help/main/c-target/target.md)。 |
-| [!UICONTROL Profile Scripts] UI重新整理 | [!UICONTROL Profile Scripts]資料庫也已更新，且包含重新整理的介面和數項生產力更新：<ul><li>能夠同時選擇和刪除多個設定檔指令碼</li><li>設定檔指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或設定檔) 參數</li></ul>如需詳細資訊，請參閱[訪客設定檔](/help/main/c-target/c-visitor-profile/visitor-profile.md)。 |
+| [!UICONTROL Profile Scripts] UI重新整理 | [!UICONTROL Profile Scripts]資料庫也已更新，且包含重新整理的介面和數項生產力更新：<ul><li>能夠同時選擇和刪除多個輪廓指令碼</li><li>輪廓指令碼的新代碼編輯器</li><li>代碼編輯器中的語法醒目提示和錯誤檢查</li><li>透過鍵盤快捷鍵自動完成權杖 (mbox 或輪廓) 參數</li></ul>如需詳細資訊，請參閱[訪客輪廓](/help/main/c-target/c-visitor-profile/visitor-profile.md)。 |
 | [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;檢視Target Premium包含的內容。&quot;} Recommendations條件建立和編輯 | [!UICONTROL Recommendations Criteria]的建立與編輯工作流程已經過簡化，以精簡選擇正確的建議演演算法和設定以達成目標的過程。<br>如需詳細資訊，請參閱[建立準則](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![進階徽章](/help/main/assets/premium.png)建議回顧視窗和演算法更新率改進 | 您現在可以執行具有 6 小時回顧視窗的「最多觀看次數」和「最暢銷」演算法，擷取近期最受歡迎的內容。選擇 6 小時回顧視窗後，您的推薦結果在一天之中每 3-6 小時會更新一次。<br>如需詳細資訊，請參閱&#x200B;*建立準則*&#x200B;中的[資料來源](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)。 |
 
@@ -775,7 +781,7 @@ ht-degree: 84%
 
 此 at.js 版本為維護版本，包含下列修正：
 
-* 新增對傳送 API customerId 的統一設定檔／平台 ID 支援。
+* 新增對傳送 API customerId 的統一輪廓／平台 ID 支援。
 * 修正無效樣式標籤插入。
 
 ## 發行說明——2020
@@ -900,9 +906,9 @@ ht-degree: 84%
 | at.js 1.8.2 | 此 at.js 版本為維護版本，包含下列修正：<ul><li>修正使用 CNAME 和 Edge Override (at.js 1) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35064)</li></ul>如需詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
 | at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正：<ul><li>已透過[targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}將`deviceIdLifetime`設定設為可覆寫。 (TNT-36349)</li><li>修正使用 CNAME 和 Edge Override (at.js 2) 時的問題。*x* 可能會錯誤建立伺服器網域，導致請 [!DNL Target] 請求失敗。(TNT-35065)</li><li>修正使用 [!DNL Target] [!DNL Launch]擴充功能 v2 和 [!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target] 延遲 [!DNL Analytics]`sendBeacon` 呼叫的問題。(TNT-36407、TNT-35990、TNT-36000)</li></ul>如需詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
 
-### 設定檔批次狀態 API v2 變更（2020 年 5 月 14 日）
+### 輪廓批次狀態 API v2 變更（2020 年 5 月 14 日）
 
-在 5 月 20 日的發行中，設定檔批次狀態將只會傳回行層級失敗資料 (不會傳回成功資料)。API 將會傳回失敗的設定檔 ID。
+在 5 月 20 日的發行中，輪廓批次狀態將只會傳回行層級失敗資料 (不會傳回成功資料)。API 將會傳回失敗的輪廓 ID。
 
 舊版和新版 API 回應如下：
 
@@ -1293,8 +1299,8 @@ Target 1.0.1 版本已修正下列問題：
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| 鎖定目標<br>2019 年 1 月 25 日 | 變更在比較設定檔指令碼或其他任何輸入來源 (如 mbox 參數、設定檔參數等) 傳回的非小數與小數值時，鎖定目標比對「等於」函數的方式。<br>如需詳細資訊，請參閱[鎖定目標和客群](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)常見問答。 |
-| 設定檔指令碼<br>2019 年 1 月 17 日 | 基於效能考量，我們建議傳回的值不要超過 256 個字元。<br>針對字串傳回值，如果傳回值的大小超過 2048 個字元，系統會停用指令碼。<br>針對陣列傳回值，如果陣列的連接值大小超過 2048 個字元，系統會停用指令碼。<br>若要進一步瞭解 Target 中會影響活動和其他元素的字元限制與其他限制 (選件大小、客群、輪廓、值、參數等)，請參閱[限制](/help/main/r-troubleshooting-target/target-limits.md)。 |
+| 鎖定目標<br>2019 年 1 月 25 日 | 變更在比較輪廓指令碼或其他任何輸入來源 (如 mbox 參數、輪廓參數等) 傳回的非小數與小數值時，鎖定目標比對「等於」函數的方式。<br>如需詳細資訊，請參閱[鎖定目標和客群](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)常見問答。 |
+| 輪廓指令碼<br>2019 年 1 月 17 日 | 基於效能考量，我們建議傳回的值不要超過 256 個字元。<br>針對字串傳回值，如果傳回值的大小超過 2048 個字元，系統會停用指令碼。<br>針對陣列傳回值，如果陣列的連接值大小超過 2048 個字元，系統會停用指令碼。<br>如需會影響Target中活動和其他元素的字元限制和其他限制（選件大小、對象、設定檔、值、引數等）的詳細資訊，請參閱[限制](/help/main/r-troubleshooting-target/target-limits.md)。 |
 | at.js<br> (2019 年 1 月 16 日) | at.js 1.6.4 是解決下列問題的維護版本:<ul><li>修正 Microsoft Internet Explorer 11 中導致套用重複選件的競爭條件顯現。(TNT-31374)</li><li>修正當預設選件具有 click-token 和 html 選件時會影響點擊追蹤的問題。(TNT-31493)</li><li>延伸每個 Target 要求的 mboxEdgeCluster Cookie。唯有 mboxEdgeOverride 啟用時才會使用。(TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1 (2019 年 1 月 22 日) {#release-19-1-1-previous}
@@ -1685,7 +1691,7 @@ target/r_release-notes-2018.xml
      </ul> </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local">報表設定</a>中的「Target預設集」一節。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>設定檔指令碼 </p> </td> 
+   <td colname="col1"> <p>輪廓指令碼 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_F382C8E7708846A08676E1534BC92878"> 
       <li id="li_70E89504525C4119B588C230DCE772E8"> <p>您可以檢視個人資料指令碼資訊快顯卡，這類似優惠方案資訊卡片。您可以透過設定檔指令碼資訊卡，檢視參考特定設定檔指令碼的活動，及其他實用中繼資料。(TGT-28253) </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">設定檔指令碼屬性</a>中的「檢視設定檔指令碼資訊卡」一節。 </p> </li> 
@@ -2369,7 +2375,7 @@ target/r_release-notes-2018.xml
 
   如果使用者在 [!DNL Target] 頁面上執行間歇性動作，並遇到工作階段逾時，會將使用者導向至重新登入，然後導向至 [!DNL Target] UI 中上次使用的頁面。
 
-* 修正如果使用者瀏覽時離開 (變更體驗、切換頁面、切換對象，按「下一步」等等) 並忘記儲存變更時，造成自訂代碼變更遺失的問題。系統現在提示使用者儲存變更。(TGT-23766)
+* 修正造成自訂程式碼變更遺失的問題，若使用者瀏覽離開（變更體驗、切換頁面、切換對象、點選「下一步」等）並忘記儲存變更，便會遺失自訂程式碼變更。 系統現在提示使用者儲存變更。(TGT-23766)
 * 已封存活動時，會顯示「已封存活動」而非「正在更新活動」。(KB-1517)
 * Target UI 內下列位置中的下拉式清單選擇器已由自動完成功能取代，以改善速度和效能：(TGT-22939)
 
@@ -2455,7 +2461,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations：條件和促銷活動 </p> </td> 
-   <td colname="col2"> <p><b>(排程在 2017 年 6 月 22 日釋出)</b> 您現在可以根據設定檔屬性比對和參數比對，來建立動態條件和促銷活動。 </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">使用動態和靜態包含規則</a>。 </p> <p> <p>注意：如果您熟悉 Target 17.6.1 版 (2017 年 6 月) 之前包含規則的設定方式，您將注意到一些選項和運算子已變更。只會顯示適用於所選取選項的那些運算子，而一些運算子已重新命名 (「符合」現在是「等於」)，以便更為一致且直覺。在此版本之前建立的所有現有排除規則皆已自動移轉至新結構。您不需要重新處理結構。 </p> </p> </td> 
+   <td colname="col2"> <p><b>(排定在 2017 年 6 月 22 日推出)</b> 您現在可以根據輪廓屬性比對和參數比對，來建立動態條件和促銷活動。 </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">使用動態和靜態包含規則</a>。 </p> <p> <p>注意：如果您熟悉 Target 17.6.1 版 (2017 年 6 月) 之前包含規則的設定方式，您將注意到一些選項和運算子已變更。只會顯示適用於所選取選項的那些運算子，而一些運算子已重新命名 (「符合」現在是「等於」)，以便更為一致且直覺。在此版本之前建立的所有現有排除規則皆已自動移轉至新結構。您不需要重新處理結構。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>為活動命名 </p> </td> 
@@ -2560,7 +2566,7 @@ target/r_release-notes-2018.xml
 * 已更新[!DNL Target]使用者介面，以支援使用[!UICONTROL Analytics for Target] (A4T)作為報表來源的活動中的重新導向選件。 此功能需要 [!DNL at.js] 0.9.6，近期即將推出。
 * [!DNL Target] 使用者介面的部分位置已更新:
 
-   * 在報表和活動中，有些選項（[!UICONTROL Edit]、[!UICONTROL Share to Feed]、[!UICONTROL View Experience URLs]等） 現在可透過按一下[!UICONTROL More Options]圖示(![icon_more_options image](assets/icon_more_options.png))來存取
+   * 在報表和活動中，有些選項（[!UICONTROL Edit]、[!UICONTROL Share to Feed]、[!UICONTROL View Experience URLs]等）現在可透過按一下[!UICONTROL More Options]圖示(![icon_more_options image](assets/icon_more_options.png)來存取
 
      )。
    * 在[!UICONTROL Offers]資料庫中，選件現在會在清單中顯示為卡片。 其他微幅的UI變更已遍及[!UICONTROL Offers]資料庫UI。
@@ -3190,7 +3196,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
   </tr> 
   <tr> 
    <td colname="col1"> 客戶屬性可做為選件中的代號 </td> 
-   <td colname="col2"> <p>以前可在描述檔指令碼中參考客戶屬性，格式為 <span class="codeph"> crs.get('&lt; <span class="varname"> 資料來源名稱 </span>&gt;。&lt; <span class="varname"> 屬性名稱 </span>&gt;') </span>。 </p> <p>現在，屬性可做為描述檔指令碼中的代號，以及直接用在選件中，不需要先使用描述檔指令碼。代號的格式為：<span class="codeph">$crs.<span class="varname">資料來源名稱</span>。<span class="varname">屬性名稱</span> </span>。 </p> <p>請參閱 <a href="/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local">CRS Token</a>。 </p> </td> 
+   <td colname="col2"> <p>以前可在輪廓指令碼中參考客戶屬性，格式為 <span class="codeph"> crs.get('&lt; <span class="varname"> 資料來源名稱 </span>&gt;。&lt; <span class="varname"> 屬性名稱 </span>&gt;') </span>。 </p> <p>現在，屬性可做為輪廓指令碼中的代號，以及直接用在選件中，不需要先使用輪廓指令碼。代號的格式為：<span class="codeph">$crs.<span class="varname">資料來源名稱</span>。<span class="varname">屬性名稱</span> </span>。 </p> <p>請參閱 <a href="/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local">CRS Token</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 自訂代碼增強功能 </td> 
@@ -3568,7 +3574,7 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 建立和編輯設定檔指令碼 </td> 
-   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。這些資訊會接著新增到該訪客的個人資料中，以便您可以更有效地追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">設定檔屬性</a>。 
+   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。這些資訊會接著新增到該訪客的個人資料中，以便您可以更有效地追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">輪廓屬性</a>。 
      <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
@@ -4046,7 +4052,7 @@ target/r_release-notes-2014.xml
       </ul> </li> 
      <li id="li_36E18493A95B4C96BFA3133CDFD8826A">單行程式碼實作與 WYSIWYG 內容編輯 </li> 
      <li id="li_79B1878FA64A40E88A973C57C39FC5FF">此活動目前的主要目標是使用轉換量度。其他可用量度包括收入和參與。 </li> 
-     <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">連線至「<span class="keyword">主要行銷描述檔</span>」以取得進階訪客行為資料的完整集合。 </li> 
+     <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">連線至「<span class="keyword">主要行銷輪廓</span>」以取得進階訪客行為資料的完整集合。 </li> 
     </ul> <p>請參閱<a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -4094,7 +4100,7 @@ target/r_release-notes-2014.xml
   </tr> 
   <tr> 
    <td colname="col1"> 主行銷資料即時客群 </td> 
-   <td colname="col2"> 運用主要行銷設定檔將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。Adobe Analytics 中群體建立期間的核取方塊讓群體可供 Adobe Target 自訂讀者庫使用。Analytics 或 Audience Manager 中建立的群體可用來定位 Target 中的訪客。 <p> <p>附註：若要要求存取此功能，請造訪<a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>。 </p> </p> </td> 
+   <td colname="col2"> 運用主要行銷輪廓將訪客 ID 與資料統整於單一可操作的輪廓中，以便用於各種解決方案。Adobe Analytics 中群體建立期間的核取方塊讓群體可供 Adobe Target 自訂讀者庫使用。Analytics 或 Audience Manager 中建立的群體可用來定位 Target 中的訪客。 <p> <p>附註：若要要求存取此功能，請造訪<a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 體驗鎖定活動類型 </td> 

@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 26%
+source-wordcount: '588'
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期： 2024年10月22日**
+**上次更新日期： 2024年11月14日**
 
 >[!NOTE]
 >
@@ -58,12 +58,13 @@ ht-degree: 26%
 
 如有疑問，請連絡[Adobe客戶服務](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C)。 (KB-2179)
 
-## [!DNL Target Standard/Premium] 24.10.2 （2024年10月21日）
+<!-- 
+## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
 
-此版本包含下列修正：
+This release contains the following fixes:
 
-* 修正無法在[!UICONTROL Compose]和[!UICONTROL Browse]模式中載入[!UICONTROL Recommendations]活動的問題。 (TGT-50709)
-* 修正新[[!DNL Google Chrome] [!UICONTROL Visual Editing Helper]擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)的問題，此問題導致在按一下[取消]後，從[!UICONTROL Visual Experience Composer] (VEC)重新導向至[!UICONTROL Activities Library]。 在此修正之前，客戶需要重新整理[!UICONTROL Activities Library]才能建立新活動。 (TGT-49980)
+* Fixed an issue that prevented [!UICONTROL Recommendations] activities from loading in [!UICONTROL Compose] and [!UICONTROL Browse] modes. (TGT-50709)
+* Fixed an issue with the new [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) that caused a redirect from the [!UICONTROL Visual Experience Composer] (VEC) to the [!UICONTROL Activities Library] after clicking Cancel. Before this fix, customers needed to refresh the [!UICONTROL Activities Library] before being able to create new activities. (TGT-49980)-->
 
 ## 額外的發行說明和版本詳細資料
 
