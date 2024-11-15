@@ -1,10 +1,10 @@
 ---
 keywords: 活動指南; 活動; 活動; 活動類型; 活動動作
 description: 下載描述  [!DNL Adobe Target] 中不同活動類型的互動式 PDF。
-title: ' [!DNL Target] 中有哪些活動類型？'
+title: ' [!DNL Target]中有哪些活動型別？'
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
 source-wordcount: '1413'
 ht-degree: 68%
@@ -27,8 +27,8 @@ ht-degree: 68%
 |--- |--- |
 | 手動[!UICONTROL A/B Test]<P>![圖示](/help/main/c-activities/assets/icon_ab.png) | 比較兩個或多個體驗，以瞭解哪個體驗最能改善整個預先指定的測試期間的轉換。<P>如需詳細資訊，請參閱 [A/B 測試](/help/main/c-activities/t-test-ab/test-ab.md)。 |
 | [!UICONTROL Auto-Allocate]<P>![圖示自動分配](/help/main/c-activities/assets/icon_auto_allocate.png) | 找出兩個或多個體驗中的獲勝者，然後將流量重新導向獲勝體驗，以隨著測試執行和學習增加轉換。<P>如需詳細資訊，請參閱[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| [!UICONTROL Auto-Target]<P>![圖示 AT](/help/main/c-activities/assets/icon_auto_target.png) | 使用進階機器學習來個人化內容，並透過找到多個高執行效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。<P>如需詳細資訊，請參閱[自動鎖定目標以獲得個人化體驗](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
-| [!UICONTROL Automated Personalization] (AP)<P>![圖示 AP](/help/main/c-activities/assets/icon_ap.png) | 使用進階機器學習來個人化內容，並透過結合特定選件或訊息來促進轉換，然後根據訪客的個別客戶設定檔比對訪客的不同選件變數。<P>如需詳細資訊，請參閱 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
+| [!UICONTROL Auto-Target]<P>![圖示 AT](/help/main/c-activities/assets/icon_auto_target.png) | 使用進階機器學習來個人化內容，並透過找到多個高執行效能、行銷人員定義的體驗，然後根據訪客的個別客戶輪廓與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。<P>如需詳細資訊，請參閱[自動鎖定目標以獲得個人化體驗](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| [!UICONTROL Automated Personalization] (AP)<P>![圖示 AP](/help/main/c-activities/assets/icon_ap.png) | 使用進階機器學習來個人化內容，並透過結合特定選件或訊息來促進轉換，然後根據訪客的個別客戶輪廓比對訪客的不同選件變數。<P>如需詳細資訊，請參閱 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | [!UICONTROL Multivariate Test] (MVT)<P>![圖示 MVT](/help/main/c-activities/assets/icon_mvt.png) | 比較頁面上元素間選件的組合，以查看哪個選件組合對特定客群的執行效果最佳。此外，找出頁面的哪個元素在整個預先指定的測試期間最能改善轉換。<P>如需詳細資訊，請參閱[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | 體驗鎖定 (XT)<P>![圖示 XT](/help/main/c-activities/assets/icon_xt.png) | 根據一組市場行銷人員定義的規則和條件為特定客群傳送內容。<P>如需詳細資訊，請參閱[體驗鎖定目標](/help/main/c-activities/t-experience-target/experience-target.md)。 |
 
@@ -49,8 +49,8 @@ ht-degree: 68%
 |--- |--- |
 | 手動[!UICONTROL A/B Test] | 在統計資料方面有知識。<P>有時間等候測試期間結束再分析結果。 |
 | [!UICONTROL Auto-Allocate] | 時間很有限。<P>必須快速找到最佳體驗並傳送。<P>想要可以在測試執行時「偷看」結果。 |
-| [!UICONTROL Auto-Target] | 有數個符合資格的體驗。<P>想要根據訪客的動態和變動的設定檔，以最佳時間配對體驗與特定訪客。 |
-| [!UICONTROL Automated Personalization] (AP) | 有一或多個選件。<P>想要針對各種具有唯一設定檔和行為的特定訪客，建立可產生最佳個人化體驗的選件組合。 |
+| [!UICONTROL Auto-Target] | 有數個符合資格的體驗。<P>想要根據訪客的動態和變動的輪廓，以最佳時間配對體驗與特定訪客。 |
+| [!UICONTROL Automated Personalization] (AP) | 有一或多個選件。<P>想要針對各種具有唯一輪廓和行為的特定訪客，建立可產生最佳個人化體驗的選件組合。 |
 | [!UICONTROL Multivariate Testing] (MVT) | 在統計資料方面有知識。<P>有一或多個選件。<P>想要分析與頁面元素互動相關的轉換趨勢。 |
 | [!UICONTROL Experience Targeting] (XT) | 必須傳送特定體驗或內容片段給特定客群。 |
 
@@ -60,7 +60,7 @@ ht-degree: 68%
 |--- |--- |
 | 手動[!UICONTROL A/B Test] | 測試會比較每個挑戰者體驗以控制體驗，然後對所有體驗的效能進行分級，同時在與控制比較時找出成功體驗和失敗的體驗。 |
 | [!UICONTROL Auto-Allocate] | 測試會立即對真正的獲勝者產生統計保證，然後將更多流量導向對該成功體驗而言有較高轉換可能性的客群。 |
-| [!UICONTROL Auto-Target] | 透過顯示隨著時間提升度的增加或減少，最佳化機制可為每個體驗找出相關的客群，並在決定要傳送哪個體驗至哪位訪客之前。最佳化機制會根據轉換、區段、參數和設定檔指令碼做出決定。從那裡，最佳化機制會自動選擇要使用的演算法，以便產生較高的提升度和轉換率。 |
+| [!UICONTROL Auto-Target] | 透過顯示隨著時間提升度的增加或減少，最佳化機制可為每個體驗找出相關的客群，並在決定要傳送哪個體驗至哪位訪客之前。最佳化機制會根據轉換、區段、參數和輪廓指令碼做出決定。從那裡，最佳化機制會自動選擇要使用的演算法，以便產生較高的提升度和轉換率。 |
 | [!UICONTROL Automated Personalization] (AP) | 最佳化機制會根據新訪客行為和類似訪客過去的行為，對並行的控制群組測量選件的效能，不斷地調整要將哪些體驗傳送至哪些訪客。 |
 | [!UICONTROL Multivariate Testing] (MVT) | 測試有助於發掘特定元素對轉換的相關影響。 |
 | [!UICONTROL Experience Targeting] (XT) | 此方法定義的規則會將特定體驗或特定內容片段鎖定在特定客群。客戶可以在體驗層級進行更新。 |

@@ -4,10 +4,10 @@ description: 使用 [!DNL Adobe Target] 活動個人化特定對象的內容並�
 title: 如何使用 [!DNL Target]個人化內容及測試頁面設計？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d7515bab57c5e2973cfd5d2ac75d76c048786646
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 28%
+source-wordcount: '2313'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 28%
 | 屬性 | 詳細資料 |
 | --- | --- |
 | [!UICONTROL Type] | 依[活動型別](#types)篩選。 |
-| [!UICONTROL Status] | 依活動狀態篩選。 |
+| [!UICONTROL Status] | 依活動狀態篩選。<ul><li>**[!UICONTROL Live]**：活動目前正在執行。</li><li>**[!UICONTROL Draft]**：活動設定已開始，但活動處於[草稿模式](/help/main/c-activities/edit-activity.md)，尚未準備好執行。</li><li>**[!UICONTROL Scheduled]**：活動已準備好在指定的開始日期和時間啟動。</li><li>**[!UICONTROL Inactive]**：活動已暫停或停用。</li><li>**[!UICONTROL Syncing]**：活動已儲存且正在同步至[!DNL Target]傳遞網路。</li><li>**[!UICONTROL Ended]**：已達活動的指定結束日期和時間，且已停止提供該活動。</li><li>**[!UICONTROL Archived]**：活動已封存。 您可以啟動已封存的活動以再次使用。</li></ul> |
 | [!UICONTROL Reporting Source] | 依報表來源篩選。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：顯示使用[!UICONTROL Analytics for Target] (A4T)作為報表來源的活動。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：顯示使用[!DNL Target]作為報表來源的活動。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：顯示使用[!DNL Adobe Customer Analytics]作為報表來源的活動。</li></ul> |
 | [!UICONTROL Experience Composer] | 活動建立期間使用體驗撰寫器的篩選：<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：顯示使用[!UICONTROL Visual Experience Composer] (VEC)建立的活動。</li><li>[表單式](/help/main/c-experiences/form-experience-composer.md)：顯示使用[!UICONTROL Form-Based Experience Composer]建立的活動。</li></ul> |
 | [!UICONTROL Metrics Type] | 活動建立期間選擇[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的篩選器。<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
@@ -94,7 +94,7 @@ ht-degree: 28%
 | [!UICONTROL Edit] | 變更活動。任何活動皆可編輯。<P>如需各種活動編輯方式的詳細資訊，請參閱[編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL Deactivate] | 停止已上線或排定的活動。已停用的活動可以重新啟動或封存。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | [!UICONTROL Activate] | 啟動非使用中活動或準備好要啟動的活動。 |
-| [!UICONTROL Archive] | 將活動傳送至封存。依預設，已封存的活動不再出現在[!UICONTROL Activities]清單中。 將活動清單的篩選條件變更為包含已封存的活動，以看到這些活動。您可以啟動已封存的活動以再次使用。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
+| [!UICONTROL Archive] | 將活動傳送至封存。依預設，已封存的活動不再出現在[!UICONTROL Activities]清單中。 變更[!UICONTROL Activities]清單的篩選器以包含已封存的活動以檢視它們。 您可以啟動已封存的活動以再次使用。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | [!UICONTROL Copy] | 複製活動。任何活動皆可複製。複製活動會以相同名稱建立新活動，後面加上「的複本」。例如，名稱為「瀏覽器選件」的測試會複製為「瀏覽器選件複本」。<P>可視化選件會隨活動一起複製。您可以在複本中放心編輯選件，不會影響原始活動。唯一的例外是「內容/資產」資料夾中儲存的選件和影像。 |
 | [!UICONTROL Delete] | 刪除草稿或活動。<P>**注意**：已刪除的活動無法復原。 除非您確定您不會再需要此活動，否則請使用[!UICONTROL Archive]動作。 之後，您可以視需要重新啟用活動。 |
 
@@ -102,7 +102,7 @@ ht-degree: 28%
 
 請注意[!UICONTROL Activity]清單的下列詳細資料：
 
-* 已封存和已結束的活動未出現在[!UICONTROL Activities]清單中。 若要檢視這些活動，請使用清單頂端的[篩選圖示](#filters) （ ![顯示篩選圖示](/help/main/assets/icons/Filter.svg) ）來篩選活動。
+* [!UICONTROL Archived]和[!UICONTROL Ended]活動未出現在[!UICONTROL Activities]清單中。 若要檢視這些活動，請使用清單頂端的[篩選圖示](#filters) （ ![顯示篩選圖示](/help/main/assets/icons/Filter.svg) ）來篩選活動。
 * 當原本於[!DNL Target Classic]中建立的活動停用或遭刪除時，該活動會從[!DNL Target Standard/Premium]中刪除。 已刪除原本於[!DNL Target Classic]中建立的活動未傳送至[!DNL Target Standard/Premium]中的[!UICONTROL Archive]資料夾。 封存資料夾功能僅適用於 [!DNL Target Standard/Premium]·￼·中建立的活動。
 * [!UICONTROL Automated Personalization] (AP)、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]以外的所有活動型別皆可讓您選擇使用[!DNL Target]或[!DNL Adobe Analytics]做為資料來源。 [!UICONTROL Automated Personalization]、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target] *一律*&#x200B;使用[!DNL Target]資料。
 * 活動可供許多通路使用:
@@ -115,7 +115,7 @@ ht-degree: 28%
 
 ## 限制 {#section_049D4684403A4E07B998067EB8E9BE56}
 
-每個 Target 活動皆有下列內容限制:
+每個[!DNL Target]活動都有下列內容限制：
 
 | 項目 | 限制 |
 |--- |--- |
@@ -129,11 +129,11 @@ ht-degree: 28%
 
 增加活動中的這些專案數，也會增加跨[!DNL Target]同步活動所需的時間長度。
 
-如需V[!UICONTROL Visual Experience Composer] VEC的其他限制，請參閱[視覺化體驗撰寫器限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+如需[!UICONTROL Visual Experience Composer] (VEC)的其他限制，請參閱[視覺化體驗撰寫器限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 ## 針對在[!DNL Target]外部更新的活動，將屬性匯入到[!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 如果從[!DNL Target]外部更新在[!DNL Target]中建立的活動（例如，透過API），則會將下列活動屬性匯入回[!DNL Target]： `thirdpartyId`、`startDate`、`endDate`、`status`、`priority`以及`marketingCloudMetadata(remoteModifiedBy)`。
 
-此匯入工作會在活動頁面開啟時執行，最多延遲10分鐘。
+此匯入工作會在[!UICONTROL Activities]清單開啟時執行，最多延遲10分鐘。
 
