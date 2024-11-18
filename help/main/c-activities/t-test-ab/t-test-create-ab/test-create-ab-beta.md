@@ -1,11 +1,12 @@
 ---
 keywords: 建立A/B； A/B測試； A/B活動；新a/b活動；建立a/b
-description: 主控[!UICONTROL Visual Experience Composer] (VEC)以直接在啟用 [!DNL Target]的頁面上建立A/B測試活動。
+description: 使用[!UICONTROL Visual Experience Composer] (VEC)直接在啟用 [!DNL Target]的頁面上建立A/B測試活動。
 title: 如何建立A/B測試？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 17%
@@ -101,8 +102,8 @@ ht-degree: 17%
 
       如果您需要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以從下列選項中選擇：
 
-      * 建立儲存至[!UICONTROL Audience Library]且可在其他活動中重複使用的隨選對象
-      * 建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)
+      * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可於其他活動中重複使用的隨選對象。
+      * **[!UICONTROL This activity only]**：建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
 
    1. 按一下右側框架中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後選擇符合您要讓其進入活動之訪客的百分比。
 

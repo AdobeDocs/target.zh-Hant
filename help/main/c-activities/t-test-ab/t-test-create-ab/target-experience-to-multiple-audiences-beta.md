@@ -5,9 +5,10 @@ title: 我可以在A/B活動中使用多個體驗版本嗎？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 52%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 52%
 
 1. 選取體驗，然後按一下&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**。
 
-1. 按一下「體驗對象」窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg)），然後選取您要鎖定的第一個對象。 對每個客群重複。
+1. 按一下[!UICONTROL Experience Audiences]窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg)），然後選取您要鎖定的第一個對象。 對每個客群重複。
 
    如果客群尚未存在，請按一下[「建立客群」](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)並加以設定。
 

@@ -5,7 +5,8 @@ title: 如何在 [!DNL Target] A/B活動中指定目標與設定？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 30%
@@ -16,7 +17,7 @@ ht-degree: 30%
 
 [!DNL Adobe Target]中的[!UICONTROL Goals & Settings]頁面是您指定活動目標相關資訊的位置。
 
-可用的設定視您使用Target或[Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)做為報表來源而定。
+可用的設定視您使用Target或[Analytics做為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)而定。
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -54,7 +55,7 @@ ht-degree: 30%
 | 設定 | 說明 |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | 使用此選項時，如果某人先前達到不同的成功量度，則僅將其計算為達到成功量度。 例如，活動轉換可能只有在轉換之前訪客點選了選件，或達到特定頁面時才有效。 您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未達到時計數才會增加。 定義兩個（或多個）成功量度，之後才可以讓某個量度相依於另一個量度。 [!UICONTROL Add Dependency]選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。 若要新增相依性:<ul><li>新增其他量度後，請按一下[!UICONTROL Advanced Settings]。</li><li>按一下[!UICONTROL Add Dependency]選項：</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下[!UICONTROL Reached]以在[!UICONTROL Reached]與[!UICONTROL  Not Reached]之間切換設定。</li><li>您可以在新增相依性之後加以編輯或移除。</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | 有三個選項可控制訪客達到目標量度後會發生什麼事:<ul><li>選取[!UICONTROL Increment Count & Keep User in Activity]以指定遞增計數的方式。</li><li>選取[!UICONTROL Increment Count, Release User & Allow Reentry]以指定如果使用者重新進入活動，使用者會看到的體驗。</li><li>選取[!UICONTROL Increment Count, Release User & Bar from Reentry]以指定使用者看到的內容，而非活動內容。</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | 有三個選項可控制訪客達到目標量度後會發生什麼事:<ul><li>選取&#x200B;**[!UICONTROL Increment Count & Keep User in Activity]**&#x200B;以指定遞增計數的方式。</li><li>選取&#x200B;**[!UICONTROL Increment Count, Release User & Allow Reentry]**&#x200B;以指定如果使用者重新進入活動，使用者會看到的體驗。</li><li>選取&#x200B;**[!UICONTROL Increment Count, Release User & Bar from Reentry]**&#x200B;以指定使用者看到的內容，而非活動內容。</li></ul> |
 | [!UICONTROL How will the count be incremented?] | 計數的遞增方式共有三個選項:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。

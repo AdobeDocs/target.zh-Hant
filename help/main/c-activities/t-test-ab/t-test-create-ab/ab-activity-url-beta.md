@@ -5,9 +5,10 @@ title: A/B活動中的活動URL為何？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 40%
 
 根據預設，[!UICONTROL Visual Experience Composer]會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您可以在活動建立期間指定不同的頁面。
 
-1. 若要在[!UICONTROL Visual Experience Composer]開啟之後顯示不同的頁面，請在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面上按一下頁面頂端的&#x200B;**[!UICONTROL Configure]**，然後選取&#x200B;**[!UICONTROL Page Delivery]**。
+1. （視條件而定）若要在[!UICONTROL Visual Experience Composer]開啟之後顯示不同的頁面，請在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面上按一下頁面頂端的&#x200B;**[!UICONTROL Configure]**，然後選取&#x200B;**[!UICONTROL Page Delivery]**。
 
 1. 在&#x200B;**[!UICONTROL URL]**&#x200B;欄位中指定URL。
 
@@ -40,6 +41,7 @@ ht-degree: 40%
    * 雜湊 (#) 片段
    * 查詢
    * mbox 參數
+   * 自訂
 
    其他規則可以用AND或OR聯結到活動URL。 您新增的所有規則會使用「與」彼此進行評估。
 

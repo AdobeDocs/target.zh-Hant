@@ -5,10 +5,11 @@ title: 如何在 [!DNL Target] A/B活動中選取對象？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ ht-degree: 12%
 
 1. （視條件而定）按一下&#x200B;**結合對象**&#x200B;至[建立結合多個對象的對象](/help/main/c-target/combining-multiple-audiences.md)。
 
-1. （視條件而定）若要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以選擇下列選項：
+1. （視條件而定）若要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**、定義對象，然後按一下&#x200B;**[!UICONTROL Done]**。
 
-   * 建立儲存至[!UICONTROL Audience Library]且可在其他活動中重複使用的隨選對象
-   * 建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)
+   在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以選擇下列選項：
+
+   * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可於其他活動中重複使用的隨選對象。
+   * **[!UICONTROL This activity only]**：建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
 
 1. 按一下右窗格中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後指定要包含在活動中的合格訪客百分比。
 
@@ -51,7 +54,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->當您開啟客群清單時，系統會自動在背景匯入客群，且匯入的是登入超過 10 分鐘的客群。
+>當您開啟[!UICONTROL Audience]清單時，系統會自動在背景匯入對象，且匯入的對象已超過10分鐘。
 
 ## 檢視對象資訊
 
@@ -64,4 +67,3 @@ ht-degree: 12%
 您可以編輯或複製對象，方法是按一下[!UICONTROL Add Audience]對話方塊中所需對象旁的[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/More.svg) ），然後按一下[!UICONTROL Edit]或[!UICONTROL Copy]。
 
 如果想要建立一個類似現有對象的對象，則複製對象就很有用。您可以製作對象的副本、進行編輯，然後儲存為新對象。
-

@@ -1,13 +1,14 @@
 ---
 keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
-description: 主版使用[!UICONTROL Visual Experience Composer] (VEC)新增體驗至活動。
+description: 使用[!UICONTROL Visual Experience Composer] (VEC)將體驗新增至活動。
 title: 如何在A/B活動中新增體驗？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 4b2d6cc6-f280-4d65-8153-53e9cd61d15a
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 28%
 
 ---
