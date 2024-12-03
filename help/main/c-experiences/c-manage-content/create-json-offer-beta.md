@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 4b57712b838906611702db521b51af84077501e6
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 25%
 
 ---
@@ -46,17 +46,7 @@ JSON選件可用於表單式活動，以啟用需要[!DNL Target]個決策的使
 
 其範例如下:
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![建立JSON選件對話方塊](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 傳給成功回呼的動作是物件陣列。假設您有單一JSON選件，且具有此內容：
 

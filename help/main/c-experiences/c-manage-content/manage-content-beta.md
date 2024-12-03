@@ -7,9 +7,9 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 8%
 | 左側導覽邊欄 | 在顯示[!UICONTROL Code Offers]或[!UICONTROL Image Offers]之間切換。 |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![顯示篩選器/隱藏篩選器圖示](/help/main/assets/icons/RailLeft.svg) | 按一下&#x200B;**[!UICONTROL Show Folders]**&#x200B;或&#x200B;**[!UICONTROL Hide Folders]**&#x200B;圖示，在顯示您的選件資料夾結構或不顯示您的資料夾結構之間切換。<P>如需詳細資訊，請參閱[建立選件資料夾](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL Show filters]圖示<P>![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) | 按一下「**[!UICONTROL Show filters]**」圖示，依[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]篩選優惠方案。<P>如需詳細資訊，請參閱下面的[將篩選器套用至選件清單](#filters)。 |
-| 搜尋欄位 | 使用&#x200B;**[!UICONTROL Search in]**&#x200B;欄位快速尋找優惠方案或減少[!UICONTROL Offers]資料庫中顯示的優惠方案數目。 您可以依[!UICONTROL Offer Name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]搜尋。 |
+| 搜尋欄位 | 使用&#x200B;**[!UICONTROL Search in]**&#x200B;欄位快速尋找優惠方案或減少[!UICONTROL Offers]資料庫中顯示的優惠方案數目。 您可以依[!UICONTROL Offer Name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]搜尋。 搜尋選項會持續工作階段。 |
 | [!UICONTROL Create Folder] | 按一下&#x200B;**[!UICONTROL Create Folder]**&#x200B;在[!UICONTROL Offer]資料庫中建立資料夾以保留代碼選件、影像選件以及其他資料夾以建立子資料夾結構。<P>如需詳細資訊，請參閱[建立選件資料夾](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 按一下&#x200B;**[!UICONTROL Create Offer]**&#x200B;以建立選件。<P>如需建立各種選件型別的詳細資訊，請參閱： <ul><li>HTML 選件</li><li>[JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[遠端選件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | 大量作業核取方塊<P>![大量作業圖示](/help/main/assets/icons/Rectangle.svg) | 按一下[!UICONTROL Bulk Operations]核取方塊，以針對所有選件或選取的選件執行大量作業。<P>如需可用動作的清單（視您的許可權和選件狀態而定），請參閱下方的[執行快速動作](#quick-actions)。 |
@@ -55,6 +55,8 @@ ht-degree: 8%
 * **[!UICONTROL Source]**： [!DNL Adobe Target]、[!DNL Adobe Target Classic]和[!DNL Adobe Experience Manager]。
 
 * **AEM型別**： [內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)和[體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)。 如需不同片段型別的詳細資訊，請參閱[AEM體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)。
+
+篩選器是工作階段持續性的。
 
 ## 執行快速動作 {#quick-actions}
 
