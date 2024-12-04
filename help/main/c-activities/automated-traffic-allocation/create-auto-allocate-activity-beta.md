@@ -5,10 +5,11 @@ title: 如何建立[!UICONTROL Auto-Allocate]活動？
 feature: Auto-Allocate
 hide: true
 hidefromtoc: true
-source-git-commit: fb29bd9704d3c2c3cf2c225114b2e52dc5061796
+exl-id: 1bfa311a-cbd9-48be-9b28-840be55b1118
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 16%
+source-wordcount: '898'
+ht-degree: 15%
 
 ---
 
@@ -72,9 +73,9 @@ ht-degree: 16%
 
 1. 建立新體驗，透過變更頁面上的元素。
 
-   建立新活動後，[!UICONTROL Visual Experience Composer]在左側顯示兩個標籤：體驗A和體驗B。體驗A是控制體驗。 您的焦點在體驗B索引標籤，您可以視需要修改它。 體驗B是可新增至測試的替代體驗。 您可以按一下[!UICONTROL Experiences]窗格頂端的[!UICONTROL Add]圖示（![新增圖示](/help/main/assets/icons/Add.svg) ），新增多個體驗至測試。 如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
+   建立新活動後，[!UICONTROL Visual Experience Composer]在左側顯示兩個標籤： [!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制體驗。 您的焦點在[!UICONTROL Experience B]索引標籤上，您可以視需要修改此索引標籤。 [!UICONTROL Experience B]是可新增至測試的替代體驗。 您可以按一下[!UICONTROL Experiences]窗格頂端的[!UICONTROL Add]圖示（![新增圖示](/help/main/assets/icons/Add.svg) ），新增多個體驗至測試。 如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
 
-   如需在[!UICONTROL Visual Experience Composer]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 若要修改體驗 B，請從步驟 2 開始。
+   如需在[!UICONTROL Visual Experience Composer]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 若要修改[!UICONTROL Experience B]，請從步驟2開始。
 
 1. 按一下[!UICONTROL Visual Experience Composer]頂端的&#x200B;**[!UICONTROL Targeting]**，以前往三步驟引導工作流程中的下一個步驟。
 
@@ -97,8 +98,8 @@ ht-degree: 16%
 
       如果您需要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以從下列選項中選擇：
 
-      * 建立儲存至[!UICONTROL Audience Library]且可在其他活動中重複使用的隨選對象
-      * 建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)
+      * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可在其他活動中重複使用的隨選對象
+      * **僅此活動**：建立未儲存至[!UICONTROL Audience Library]且僅能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)
 
    1. 按一下右側框架中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後選擇符合您要讓其進入活動之訪客的百分比。
 
@@ -106,7 +107,7 @@ ht-degree: 16%
 
 1. 按一下&#x200B;**[!UICONTROL Traffic Allocation]**&#x200B;控制項，然後在右窗格中選擇所需的流量配置方法。 在此案例中，按一下&#x200B;**[!UICONTROL Auto-Allocate to best experience]**。
 
-   ![流量分配方法設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![流量分配方法設定](/help/main/c-activities/automated-traffic-allocation/assets/auto-allocate-to-best-exp.png)
 
    下列為可用的流量分配方法：
 
