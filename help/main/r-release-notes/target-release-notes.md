@@ -4,7 +4,7 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 21%
@@ -25,13 +25,13 @@ ht-degree: 21%
 
 ## [!UICONTROL Offers Library]使用者介面更新（2024年1月9日）
 
-為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。 此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括：
+為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。 此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括下列專案：
 
 * **大量選件管理**：同時選取並刪除多個選件。
 
-* **程式碼編輯器升級**：使用語法醒目提示和行編號重新整理HTML和JSON編輯器。
+* **[!UICONTROL Code Editor]升級**：使用語法醒目提示和行編號重新整理HTML和JSON編輯器。
 
-* **改善的優惠方案卡**：加強快速資訊和詳細資訊卡，讓資訊存取更輕鬆。
+* **改善的優惠方案卡**：加強快速資訊和詳細資訊卡，以更輕鬆存取資訊。
 
 * **持續搜尋和篩選**：新增工作階段持續搜尋和篩選選項。
 
