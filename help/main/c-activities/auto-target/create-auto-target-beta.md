@@ -7,9 +7,9 @@ feature: Auto-Target
 hide: true
 hidefromtoc: true
 exl-id: d2c4532d-91ce-4bec-9cd3-a70a02f6b289
-source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '905'
 ht-degree: 19%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 19%
 
    [!UICONTROL Visual Experience Composer]隨即開啟，顯示URL中指定的頁面。
 
-1. 按一下VEC頂端的&#x200B;**[!UICONTROL Untitled Activity]**，然後在提供的空間中指定活動的名稱。
+1. 按一下&#x200B;**[!UICONTROL Rename]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/MoreSmallListVert.svg)）、按一下&#x200B;**[!UICONTROL Rename]**、指定活動的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：
 

@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '744'
 ht-degree: 21%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期： 2024年12月3日**
+**上次更新日期： 2024年12月11日**
 
 >[!NOTE]
 >
@@ -36,6 +36,10 @@ ht-degree: 21%
 * **持續搜尋和篩選**：新增工作階段持續搜尋和篩選選項。
 
 從2025年1月9日開始，所有[!DNL Target]客戶都將取得新UI的存取權，並可以選擇視需要切換回目前的UI版本。
+
+以下是重點說明此版本中變更的短片：
+
+![選件UI重新整理影片](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__`範圍最佳化（2024年10月22日）
 
