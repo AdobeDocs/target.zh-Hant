@@ -4,7 +4,7 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 21%
@@ -23,7 +23,7 @@ ht-degree: 21%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!UICONTROL Offers Library]使用者介面更新（2024年1月9日）
+## [!UICONTROL Offers Library]使用者介面更新（2025年1月9日）
 
 為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。 此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括下列專案：
 
