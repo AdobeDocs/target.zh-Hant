@@ -4,7 +4,7 @@ description: 瞭解如何在Adobe [!DNL Target] 中使用[!UICONTROL Visual Expe
 title: 如何在[!UICONTROL Multivariate Test] (MVT)中建立組合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 56%
@@ -64,3 +64,4 @@ ht-degree: 56%
 * 您必須至少測試三個元素。如果沒這麼多個，請執行 A/B 測試。
 * 每個元素的替代專案應彼此顯著不同。
 * 雖非必要，但每個元素最好有相同的替代項數量。
+
