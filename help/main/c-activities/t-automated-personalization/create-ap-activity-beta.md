@@ -7,9 +7,9 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1769'
 ht-degree: 27%
 
 ---
@@ -74,9 +74,7 @@ ht-degree: 27%
 
    您可以從資產管理員一次選取多個影像。這可讓您快速檢視頁面，其中包含為活動設定的每個影像。 您也可以輕鬆在您的選件中編輯文字元素。編輯元素時，該元素上會出現一個橫條，指出您已變更它。
 
-1. 按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;以設定可用的組合。
-
-   ![管理內容選項](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. 按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;圖示（![管理內容圖示](/help/main/assets/icons/Experience.svg) ）來設定可用的組合。
 
    熒幕上方會顯示有三個選項的對話方塊： [!UICONTROL Experiences]、[!UICONTROL Offers]及[!UICONTROL Exclusion Groups]。
 
