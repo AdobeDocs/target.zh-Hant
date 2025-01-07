@@ -1,13 +1,13 @@
 ---
 keywords: 內容資料庫；資產；搜尋；篩選器
-description: 瞭解如何在Adobe [!DNL Target] 選件資料庫中搜尋程式碼和影像選件。
+description: 探索如何在[!UICONTROL Offers]資料庫中搜尋程式碼和影像選件。
 title: 如何搜尋優惠資料庫中的內容？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 7%
+source-wordcount: '192'
+ht-degree: 0%
 
 ---
 
@@ -18,40 +18,35 @@ ht-degree: 7%
 ## 依關鍵字搜尋代碼選件
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**。
-1. 在[!UICONTROL Search]方塊中輸入所需的關鍵字。
+1. 在&#x200B;**[!UICONTROL Search In]**&#x200B;方塊中輸入所需的關鍵字。
 
-   請注意，您也可以使用[!UICONTROL Type]和[!UICONTROL Source]下拉式清單來篩選，以進一步縮小搜尋範圍。
+   您可以使用下拉式清單依[!UICONTROL Offer name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]篩選。
+
+   您也可以使用[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]選項進行篩選，方法是按一下[!UICONTROL Show Filters]圖示![顯示篩選圖示](/help/main/assets/icons/Filter.svg)以進一步縮小搜尋範圍。
 
 ## 依關鍵字搜尋影像選件 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下內容程式庫右上角的[!UICONTROL Card View]圖示或[!UICONTROL List View]圖示。 您也可以在檢視[!UICONTROL List View]時使用[!UICONTROL View Settings]進一步設定資料行。
-
-   下圖顯示檢視[!UICONTROL List View]時可用的選項：
-
-   ![清單檢視選項](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
-
-1. 按一下左上角的&#x200B;**[!UICONTROL Content Only]**&#x200B;圖示以顯示搜尋方塊。
-
-   ![僅內容選項](/help/main/c-experiences/c-manage-content/assets/content-only.png)
-
-1. 在搜尋方塊中，輸入您想尋找的資產的關鍵字，然後按 Enter 鍵。
-
-1. （選擇性）使用&#x200B;**[!UICONTROL Filters and Options]**&#x200B;窗格進一步縮小搜尋範圍。
-
-   ![篩選和選項窗格](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
+1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下[!UICONTROL Asset]資料庫右上角的[!UICONTROL Card View]圖示（![卡片檢檢視示](/help/main/assets/icons/ViewCard.svg)）或[!UICONTROL List View]圖示（![清單檢檢視示](/help/main/assets/icons/ViewList.svg)）。
+1. 按一下左上角的&#x200B;**[!UICONTROL Content Only]**&#x200B;圖示（![僅內容圖示](/help/main/assets/icons/RailLeft.svg) ）以顯示搜尋方塊。
+1. 在搜尋方塊中，輸入您要尋找之資產的關鍵字，然後按[!UICONTROL Enter]。
+1. （視條件而定）使用左側的&#x200B;**[!UICONTROL Filters & Options]**&#x200B;窗格來調整您的搜尋。
 
    您可以依下列條件篩選：
 
-   * 檔案型別：影像、檔案、多媒體或封存。
-   * 檔案大小：小、Medium或大
-   * 上次修改時間：小時、日、周、月或年。
-   * 核准狀態：已核准或已拒絕。
-   * 到期狀態：已到期。
-   * 平均評分： 1到5。
-   * Orientation： Horizontal、Vertical或Square。
-   * 樣式：彩色或黑白。
-   * 使用分數：最小到最大
-   * 曝光分數：最小到最大
-   * 按一下「分數： 1到5」。
+   * **[!UICONTROL File Type]**：
+      * [!UICONTROL Images]
+      * [!UICONTROL Documents]
+      * [!UICONTROL Multimedia]
+      * [!UICONTROL Archives]
+   * **[!UICONTROL File Size]**：使用滑桿來選取想要的檔案大小： [!UICONTROL Smallest]、[!UICONTROL Small]、[!UICONTROL Medium]、[!UICONTROL Large]或[!UICONTROL Largest]。
+   * **[!UICONTROL Last Modified]**：使用滑桿來選取時段： [!UICONTROL Recent]、[!UICONTROL Hour]、[!UICONTROL Day]、[!UICONTROL Week]、[!UICONTROL Month]、[!UICONTROL Year]或[!UICONTROL All Assets]。
+   * **[!UICONTROL Approval Status]**： [!UICONTROL Approved]或[!UICONTROL Rejected]
+   * **[!UICONTROL Expiry Status]**： [!UICONTROL Expired]。
+   * **[!UICONTROL Average Rating]**： 1到5。
+   * **[!UICONTROL Orientation]**： [!UICONTROL Horizontal]、[!UICONTROL Vertical]或[!UICONTROL Square]。
+   * **[!UICONTROL Style]**： [!UICONTROL Color]或[!UICONTROL Black & White]。
+   * **[!UICONTROL Usage Score]**： [!UICONTROL Minimum]至[!UICONTROL Maximum]。
+   * **[!UICONTROL Impression Score]**： [!UICONTROL Minimum]至[!UICONTROL Maximum]。
+   * **[!UICONTROL Click Score]**： [!UICONTROL Minimum]至[!UICONTROL Maximum]。

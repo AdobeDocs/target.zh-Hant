@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 37%
+source-wordcount: '868'
+ht-degree: 31%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 37%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!UICONTROL Offers Library]使用者介面更新（2025年1月9日）
+
+為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。 此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括下列專案：
+
+* **大量選件管理**：同時選取並刪除或移動多個選件。
+
+* **[!UICONTROL Code Editor]升級**：使用語法醒目提示和行編號重新整理HTML和JSON編輯器。
+
+* **改善的優惠方案卡**：加強快速資訊和詳細資訊卡，以更輕鬆存取資訊。
+
+* **持續搜尋和篩選**：新增工作階段持續搜尋和篩選選項。
+
+從2025年1月9日開始，所有[!DNL Target]客戶都將取得新UI的存取權，並可以選擇視需要切換回目前的UI版本。
+
+如需詳細資訊，請參閱本節中的[選件](/help/main/c-experiences/c-manage-content/manage-content.md)和子文章。
+
+以下是重點說明此版本中變更的短片：
+
+![選件UI重新整理影片](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__`範圍最佳化（2024年10月22日）
 

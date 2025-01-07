@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '624'
 ht-degree: 21%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 21%
 
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
+| 1 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增[!UICONTROL Offers Library]使用者介面更新的發行說明（排定於2025年1月9日）。 所有選件文章均已更新，以反映UI變更。 |
 | 12 月 9 日 | [[!UICONTROL Visual Experience Composer]最佳作法和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 新增下列限制：<ul><li>您無法選取要重新排列的[!UICONTROL Button]元素。<P>無法直接選取[!UICONTROL Button]個元素來重新排列。 若要啟用重新排列，請將按鈕置於較大的容器內。</li></ul> |
 |  | [adobe.target.triggerView (viewName， options) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | 已新增下列小節：<ul><li>範例： `triggerView()`與AdobeVisual Editing Helper擴充功能的最佳相容性</li></ul> |
 | 12 月 3 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增即將推出的[!UICONTROL Offers Library]使用者介面更新的搶鮮版發行說明。 |
@@ -31,7 +32,7 @@ ht-degree: 21%
 | 9 月 30 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 更新允許的優惠方案數量。 |
 | 9 月 29 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增關於 at.js 2.11.6 版的資訊。 |
 | 9 月 11 日 | [使用者](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 在「指定角色和許可權」底下新增下列備註：<P> 若要在[!DNL Target]中檢視活動，必須將使用者直接指派給至少具有[!UICONTROL Observer]角色的工作區。 僅透過使用者群組進行指派是不夠的。 通常建議授予使用者對預設工作區的存取權。 |
-| 8 月 1 日 | [Recommendations 常見問題](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問題：「我可以使用[!DNL Target] API管理[!DNL Target]個UI建立的視覺選件嗎？」 |
+| 8 月 1 日 | [推薦常見問答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問題：「我可以使用[!DNL Target] API管理[!DNL Target]個UI建立的視覺選件嗎？」 |
 | 7 月 10 日 | [Proxy設定(Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | 新增章節：「裝置上決策」 |
 | 6 月 3 日 | [優先順序](/help/main/c-activities/priority.md) | 更新整個主題，包括指示來自多個[!UICONTROL Form-Based Experience Composer]和VEC活動的內容可以傳送。 以前，表單式工作流程中只能傳送一個活動。 可提供的表單式活動數量不再有任何限制。 |
 | 5 月 17 日 | [疑難排解[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)的相關問題 | 新增在使用[!UICONTROL Enhanced Experience Composer]時可加入允許清單的其他IP位址。 |

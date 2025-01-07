@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 65367f0a032d2eb680e26d43ee79f5ae0890024b
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 78%
+source-wordcount: '1420'
+ht-degree: 80%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 78%
          + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [設定企業權限](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [建議](/help/main/administrating-target/recommendations-settings.md)
+   + [推薦](/help/main/administrating-target/recommendations-settings.md)
 + 實作 Target {#implement-target}
    + [實作 Target 概覽](c-implementing-target/implementing-target.md)
 + 將 Target 與 Experience Cloud 整合 {#integrate}
@@ -192,7 +192,7 @@ ht-degree: 78%
          + [目標與設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [設定量度](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [疑難排解多變數測試](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
-   + [Recommendations 活動](c-activities/recommendations-activity.md)
+   + [推薦活動](c-activities/recommendations-activity.md)
    + [編輯活動或另存為草稿](c-activities/edit-activity.md)
    + [優先順序](c-activities/priority.md)
    + [活動設定](c-activities/activity-settings.md)
@@ -271,21 +271,13 @@ ht-degree: 78%
    + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
    + 選件 {#offers}
       + [選件概覽](c-experiences/c-manage-content/manage-content.md)
-      + [選件概覽（測試版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [建立選件資料夾](c-experiences/c-manage-content/create-content-folder.md)
-      + [建立選件資料夾測試版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [上傳內容](c-experiences/c-manage-content/assets-upload.md)
-      + [上傳或刪除影像選件（測試版）](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [建立重新導向選件](c-experiences/c-manage-content/offer-redirect.md)
-      + [建立重新導向選件（測試版）](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [建立遠端選件](c-experiences/c-manage-content/about-remote-offers.md)
-      + [建立遠端選件（測試版）](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [建立 JSON 選件](c-experiences/c-manage-content/create-json-offer.md)
-      + [建立JSON選件（測試版）](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [使用程式庫中的內容](c-experiences/c-manage-content/assets-working.md)
-      + [使用程式庫測試版中的內容](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [搜尋和篩選內容](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [搜尋和篩選內容（測試版）](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [將動態資料傳遞至選件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM體驗和內容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 報表 {#reports}
@@ -309,10 +301,10 @@ ht-degree: 78%
       + [位置貢獻報表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 報告](c-reports/analytics-for-target-a4t-reporting.md)
    + [報表常見問題集](c-reports/reporting-frequently-asked-questions.md)
-+ Recommendations {#recommendations}
-   + [Recommendations 概覽](c-recommendations/recommendations.md)
-   + [Recommendations 簡介](c-recommendations/introduction-to-recommendations.md)
-   + [計劃和實作 Recommendations](c-recommendations/plan-implement.md)
++ 推薦 {#recommendations}
+   + [推薦概覽](c-recommendations/recommendations.md)
+   + [推薦簡介](c-recommendations/introduction-to-recommendations.md)
+   + [計劃和實作推薦](c-recommendations/plan-implement.md)
    + 實體 {#entities}
       + [實體概覽](c-recommendations/c-products/products.md)
       + [實體屬性](c-recommendations/c-products/entity-attributes.md)
@@ -352,7 +344,7 @@ ht-degree: 78%
       + [使用備份推薦](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [使用多值屬性](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [使用多值屬性（測試版）](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
-      + [使用 Adobe Analytics 和 Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [使用 Adobe Analytics 和推薦](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
       + [將Adobe Analytics與Recommendations測試版搭配使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + 設計 {#recommendations-design}
       + [設計概覽](c-recommendations/c-design-overview/design-overview.md)
@@ -361,18 +353,18 @@ ht-degree: 78%
       + [設計常見問題集](c-recommendations/c-design-overview/template-faq.md)
       + [使用 Velocity 自訂設計](c-recommendations/c-design-overview/customizing-a-template.md)
    + 活動 {#recommendations-activity}
-      + [建立 Recommendations 活動](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [建立推薦活動](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [選取條件](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Recommendations 活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [預覽和啟動 Recommendations 活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [Recommendations 作為選件](c-recommendations/recommendations-as-an-offer.md)
+      + [推薦活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+   + [推薦作為選件](c-recommendations/recommendations-as-an-offer.md)
    + 常見問答 {#recommendations-faq}
-      + [Recommendations 常見問題集](c-recommendations/c-recommendations-faq/recommendations-faq.md)
-      + [將 Recommendations 與電子郵件整合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
-      + [Recommendations 摘要處理伺服器使用的 IP 位址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
-      + [Target Premium 中的 Recommendations Classic 與 Recommendations 活動的比較](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Recommendations Classic 文件](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+      + [推薦常見問題集](c-recommendations/c-recommendations-faq/recommendations-faq.md)
+      + [將推薦與電子郵件整合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
+      + [推薦摘要處理伺服器使用的 IP 位址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
+      + [Target Premium 中的推薦經典版與推薦活動的比較](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+   + [推薦經典版文件](/help/main/c-recommendations/recommendations-classic-documentaton.md)
 + 疑難排解 Target {#troubleshoot}
    + [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)
    + [限制](r-troubleshooting-target/target-limits.md)

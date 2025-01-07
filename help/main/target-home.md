@@ -4,7 +4,7 @@ title: Adobe Target 商務從業者指南
 description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 95%
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案提供一切所需工具，讓您量身打造及個人化您的客戶體驗，為您的網頁以及行動網站、應用程式、社交媒體和其他數位管道創造最高的收入。
 
-**上次更新日期：2024年12月9日（[檢視變更內容](r-release-notes/doc-change.md) ）**
+**上次更新日期：2025年1月7日（[檢視變更內容](r-release-notes/doc-change.md) ）**
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ ht-degree: 95%
 - [活動](c-activities/activities.md)：說明如何設定、管理 [!DNL Target] 活動及確保品質。
 - [客群](c-target/target.md)：說明如何決定哪些人可以看到鎖定目標活動中的內容與體驗。
 - [體驗與選件](c-experiences/experiences.md)：說明如何指定當訪客滿足活動的客群條件時，要顯示哪些內容。
-- [Recommendations](c-recommendations/recommendations.md)： 說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
+- [推薦](c-recommendations/recommendations.md)： 說明 [!DNL Recommendations] 活動如何依據先前的使用者活動或其他演算法，自動顯示可能使客戶感興趣的產品或內容。
 
 ## 開發人員 {#developers}
 
@@ -75,5 +75,5 @@ ht-degree: 95%
 
 | Adobe [!DNL Target] 解決方案說明 | [!DNL Adobe Experience Cloud] 資源 |
 |--- |--- |
-| <ul><li>[Adobe Target 學習與支援](https://helpx.adobe.com/tw/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Target API 文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/tw/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 學習與支援](https://helpx.adobe.com/tw/support/target.html)</li><li>[Premium 推薦](c-recommendations/recommendations.md)</li><li>[Adobe 推薦經典版](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Target API 文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Target 社群論壇](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 說明首頁](https://helpx.adobe.com/tw/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)</li></ul> |  |
 

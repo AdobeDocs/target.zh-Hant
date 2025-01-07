@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
+source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '308'
 ht-degree: 62%
 
 ---
@@ -97,32 +97,14 @@ ht-degree: 62%
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
    * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
 
-## 選件
+## 推薦
 
 +++按一下以展開
 
-* [選件概覽](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
-* [建立選件資料夾](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
-* [上傳內容](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [上傳或刪除影像選件](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [建立重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md){target="_blank"}
-* [建立遠端選件](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md){target="_blank"}
-* [建立 JSON 選件](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md){target="_blank"}
-* [使用程式庫中的內容](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
-* [搜尋內容](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
-* [將動態資料傳遞至選件](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [AEM體驗和內容片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
-
-+++
-
-## 建議
-
-+++按一下以展開
-
-* Recommendations {#recommendations}
-   * [Recommendations 總覽](c-recommendations/recommendations.md){target="_blank"}
-   * [Recommendations 簡介](c-recommendations/introduction-to-recommendations.md){target="_blank"}
-   * [計劃和實作 Recommendations](c-recommendations/plan-implement.md){target="_blank"}
+* 推薦 {#recommendations}
+   * [推薦總覽](c-recommendations/recommendations.md){target="_blank"}
+   * [推薦簡介](c-recommendations/introduction-to-recommendations.md){target="_blank"}
+   * [計劃和實作推薦](c-recommendations/plan-implement.md){target="_blank"}
    * 實體 {#entities}
       * [實體概覽](c-recommendations/c-products/products.md){target="_blank"}
       * [實體屬性](c-recommendations/c-products/entity-attributes.md){target="_blank"}
@@ -146,7 +128,7 @@ ht-degree: 62%
          * [靜態篩選器](/help/main/c-recommendations/c-algorithms/static-value-beta.md){target="_blank"}
       * [使用備份推薦](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md){target="_blank"}
       * [使用多值屬性](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md){target="_blank"}
-      * [使用 Adobe Analytics 和 Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md){target="_blank"}
+      * [使用 Adobe Analytics 和推薦](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md){target="_blank"}
    * 設計 {#recommendations-design}
       * [設計概覽](c-recommendations/c-design-overview/design-overview.md){target="_blank"}
       * [建立設計](c-recommendations/c-design-overview/create-design.md){target="_blank"}
@@ -154,17 +136,17 @@ ht-degree: 62%
       * [設計常見問答](c-recommendations/c-design-overview/template-faq.md){target="_blank"}
       * [使用 Velocity 自訂設計](c-recommendations/c-design-overview/customizing-a-template.md){target="_blank"}
    * 活動 {#recommendations-activity}
-      * [建立 Recommendations 活動](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
+      * [建立推薦活動](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
       * [選取條件](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
       * [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
-      * [Recommendations 活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [預覽和啟動 Recommendations 活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
-   * [選件形式的 Recommendations](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
+      * [推薦活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
+      * [預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
+   * [選件形式的推薦](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * 常見問答 {#recommendations-faq}
-      * [Recommendations 常見問答](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}
-      * [將 Recommendations 與電子郵件整合](c-recommendations/c-recommendations-faq/integrating-recs-email.md){target="_blank"}
-      * [Recommendations 摘要處理伺服器使用的 IP 位址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md){target="_blank"}
-      * [Target Premium 中的 Recommendations 傳統版與 Recommendations 活動的比較](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md){target="_blank"}
-   * [Recommendations Classic 文件](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
+      * [推薦常見問答](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}
+      * [將推薦與電子郵件整合](c-recommendations/c-recommendations-faq/integrating-recs-email.md){target="_blank"}
+      * [推薦摘要處理伺服器使用的 IP 位址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md){target="_blank"}
+      * [Target Premium 中的推薦傳統版與推薦活動的比較](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md){target="_blank"}
+   * [推薦經典版文件](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
