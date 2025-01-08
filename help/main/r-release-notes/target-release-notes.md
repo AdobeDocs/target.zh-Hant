@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '731'
 ht-degree: 21%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 21%
 * **改善的優惠方案卡**：加強快速資訊和詳細資訊卡，以更輕鬆存取資訊。
 
 * **持續搜尋和篩選**：新增工作階段持續搜尋和篩選選項。
-
-從2025年1月9日開始，所有[!DNL Target]客戶都將取得新UI的存取權，並可以選擇視需要切換回目前的UI版本。
 
 如需詳細資訊，請參閱本節中的[選件](/help/main/c-experiences/c-manage-content/manage-content.md)和子文章。
 

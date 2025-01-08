@@ -4,10 +4,10 @@ description: 探索如何使用[!UICONTROL Offers]資料庫有效管理程式碼
 title: 我該如何管理程式碼和影像選件？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 7%
+source-wordcount: '812'
+ht-degree: 8%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 7%
 若要顯示[!UICONTROL Offers]資料庫，請按一下[!DNL Target] UI頂端的&#x200B;**[!UICONTROL Offers]**&#x200B;標籤。
 
 ![選件頁面](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
-
->[!NOTE]
->
->本文記錄了2025年1月9日發行的[!UICONTROL Offers] UI更新。 如果您偏好使用舊版[!UICONTROL Offers] UI，請將[!UICONTROL Switch to the Old Experience]切換至開啟位置。
 
 [!UICONTROL Offers]資料庫包含已透過[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS)和API設定的選件。 在 [!DNL Target Classic] 或其他解決方案中建立的選件，都可以在 [!DNL Target Standard/Premium] 中編輯。
 
