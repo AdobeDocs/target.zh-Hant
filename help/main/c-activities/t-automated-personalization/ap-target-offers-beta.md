@@ -7,9 +7,10 @@ feature: Automated Personalization
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
+exl-id: 2897c4d1-116d-483c-8fc0-64857b9cbdaf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 19%
 
 ---
@@ -18,20 +19,20 @@ ht-degree: 19%
 
 在[!DNL Adobe Target] [!DNL Automated Personalization] (AP)活動中，您可以將選件鎖定在特定對象。
 
-使用這項功能可減少特定訪客可看到的選件數量。例如，假設一個[!UICONTROL Automated Personalization]活動有三個選件。 選件1有目標規則，限制向對象A曝光。有兩個訪客看過此活動。
+使用這項功能可減少特定訪客可看到的產品建議數量。例如，假設一個[!UICONTROL Automated Personalization]活動有三個選件。 選件1有目標規則，限制向對象A曝光。有兩個訪客看過此活動。
 
 | | 訪客 1 | 訪客 2 |
 |--- |--- |--- |
 | 對象資格 | 對象 A | 對象 B |
-| 選件 1 Target 個人化模型分數 | 90 | 90 |
-| 選件 2 Target 個人化模型分數 | 50 | 70 |
-| 選件 3 Target 個人化模型分數 | 80 | 60 |
+| 產品建議 1 Target 個人化模型分數 | 90 | 90 |
+| 產品建議 2 Target 個人化模型分數 | 50 | 70 |
+| 產品建議 3 Target 個人化模型分數 | 80 | 60 |
 
 在此案例中，訪客1看到選件1 （因為此訪客符合對象A的一部分），這是該訪客的最高分數。 不過，訪客2會看到選件2，即使最高分數是選件1，因為訪客2不屬於受眾A。此範例說明為何應謹慎使用鎖定目標規則以符合業務需求。 新增這些規則可能會降低[!DNL Target]個人化模型的有效性。
 
 ## 設定鎖定規則
 
-1. 建立包含您要鎖定選件的[Automated Personalization活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)。
+1. 建立或編輯包含您要鎖定選件的[Automated Personalization活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)。
 1. 在[!UICONTROL Visual Experience Composer]中設定活動的選件之後，請按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;圖示（ ![管理內容圖示](/help/main/assets/icons/Experience.svg) ）。
 
    [!UICONTROL Manage Content]對話方塊隨即顯示。
@@ -54,4 +55,4 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->您可以設定 50 個位置，且每個位置最多可設定 250 個選件。
+>您可以設定 50 個位置，且每個位置最多可設定 250 個產品建議。

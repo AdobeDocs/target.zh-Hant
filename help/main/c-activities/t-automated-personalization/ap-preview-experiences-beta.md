@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
@@ -29,6 +30,6 @@ ht-degree: 8%
 
    您可能會選擇排除顯示發生衝突變數的體驗，或是審美觀點上不平衡的體驗。
 
-1. （視條件而定）若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下您要排除的體驗旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下&#x200B;**[!UICONTROL Exclude]**。
+1. （視條件而定）若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下&#x200B;**[!UICONTROL Exclude]**。
 
-1. （視條件而定）若要包含多個已排除的體驗，請選取所需體驗的核取方塊，然後按一下您要包含的體驗旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下&#x200B;**[!UICONTROL Include]**。
+1. （視條件而定）若要包含已排除的多個體驗，請選取所需體驗的核取方塊，然後按一下&#x200B;**[!UICONTROL Include]**。
