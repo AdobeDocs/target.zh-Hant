@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 31%
+source-wordcount: '894'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,13 @@ ht-degree: 31%
 
 ## [!UICONTROL Offers Library]使用者介面更新（2025年1月9日）
 
-為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。 此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括下列專案：
+為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。
+
+>[!NOTE]
+>
+>為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一個階段會將初始Target客戶群組升級至新的選件UI。 後續階段將升級其餘客戶。
+
+此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括下列專案：
 
 * **大量選件管理**：同時選取並刪除或移動多個選件。
 

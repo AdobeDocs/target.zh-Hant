@@ -4,10 +4,10 @@ description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Editing Helper]副檔名？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 60%
+source-wordcount: '672'
+ht-degree: 64%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 60%
 >[!IMPORTANT]
 >
 >* 這個新的擴充功能會取代之前的 [Target VEC Helper 瀏覽器擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。請參閱該文章頂端的重要注意事項。 由於Manifest v3中的安全性增強功能，[!DNL Adobe]需要下載此新的擴充功能，才能繼續在[!DNL Target]中以視覺方式創作您的網站。
->
->* 這個新的擴充功能目前不支援私人Chrome網站商店。 2025年1月底前將支援此功能。 對於使用私人Chrome網站商店上傳擴充功能的客戶，請改用[舊版[!UICONTROL Visual Experience Composer] Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
 ## 某些網站可能無法可靠地在 VEC 中開啟的原因
 

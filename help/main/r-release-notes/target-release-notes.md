@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 21%
+source-wordcount: '769'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,13 @@ ht-degree: 21%
 
 ## [!UICONTROL Offers Library]使用者介面更新（2025年1月9日）
 
-為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。 此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括下列專案：
+為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。
+
+>[!NOTE]
+>
+>為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一個階段會將初始Target客戶群組升級至新的選件UI。 後續階段將升級其餘客戶。
+
+此更新使用最新的[!DNL Adobe Spectrum]設計系統，標準化不一致的設計模式，並引進新的增強功能，包括下列專案：
 
 * **大量選件管理**：同時選取並刪除或移動多個選件。
 

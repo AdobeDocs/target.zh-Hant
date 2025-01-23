@@ -4,10 +4,10 @@ description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC) Helper擴充功能？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 49%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
@@ -22,8 +22,6 @@ VEC Helper瀏覽器是[!DNL Chrome]擴充功能。 使用[!DNL Mozilla Firefox]�
 >* 本文記錄的舊版[!DNL Target] VEC Helper擴充功能是使用Manifest V2建立的。 [!DNL Google]宣佈從2024年6月起，將不再允許使用資訊清單V2建立的擴充功能。 如需詳細資訊，請參閱&#x200B;*開發人員專用Chrome*&#x200B;網站上[!DNL Google]的[資訊清單V2支援時間表宣告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}。
 >
 >* 從2024年6月開始，[!DNL Google]將開始停用使用資訊清單V2建立的擴充功能，包括本主題中記錄的擴充功能。 [!DNL Adobe]建議客戶儘快改用較新的[Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
->
->* 使用私人Chrome網站商店的客戶應繼續使用此版本的擴充功能，直到2025年1月底在[新[!UICONTROL Visual Editing Helper]擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)中實作此使用案例的支援為止。
 
 ## 某些網站可能無法可靠地在 VEC 中開啟的原因
 

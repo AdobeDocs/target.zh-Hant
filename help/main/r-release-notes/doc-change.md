@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 21%
+source-wordcount: '99'
+ht-degree: 46%
 
 ---
 
@@ -17,30 +17,9 @@ ht-degree: 21%
 
 ## 更新
 
+### [!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）
+
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
+| 1 月 22 日 | [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新[!UICONTROL Visual Editing Helper Extension]現在支援[!DNL Private Chrome Web Stores]。 已移除備註，指出使用[!DNL Private Chrome Web Stores]的客戶繼續使用舊版[!UICONTROL Visual Experience Composer helper extension]。 |
 | 1 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增[!UICONTROL Offers Library]使用者介面更新的發行說明（排定於2025年1月9日）。 所有選件文章均已更新，以反映UI變更。 |
-| 12 月 9 日 | [[!UICONTROL Visual Experience Composer]最佳作法和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 新增下列限制：<ul><li>您無法選取要重新排列的[!UICONTROL Button]元素。<P>無法直接選取[!UICONTROL Button]個元素來重新排列。 若要啟用重新排列，請將按鈕置於較大的容器內。</li></ul> |
-|  | [adobe.target.triggerView (viewName， options) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | 已新增下列小節：<ul><li>範例： `triggerView()`與AdobeVisual Editing Helper擴充功能的最佳相容性</li></ul> |
-| 12 月 3 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增即將推出的[!UICONTROL Offers Library]使用者介面更新的搶鮮版發行說明。 |
-| 11 月 20 日 | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | 已更新Target邊緣IP位址清單的允許清單。 |
-| 11 月 19 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增下列重要備註至「[!DNL Adobe Experience Platform Web SDK] `__view__`範圍最佳化（2024年10月22日）」區段：<ul><li>重要：如果您無法在2025年2月3日前完成實施作業稽核及解決任何問題，可以申請一次性的六個月延期。 請確定您的請求已在2025年1月31日之前提交。 Adobe將會稽核並決定您的請求。</li><ul> |
-| 10 月 22 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增下列重要資訊：<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__`範圍最佳化</li></ul> |
-| 10 月 14 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 24.10.2 版的發行說明。 |
-|  | [[!UICONTROL Visual Experience Composer] helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 新增搭配私人Chrome網站商店使用擴充功能的重要資訊。 |
-|  | [[!UICONTROL Visual Editing Helper]副檔名](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新增搭配私人Chrome網站商店使用擴充功能的重要資訊。 |
-| 9 月 30 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 更新允許的優惠方案數量。 |
-| 9 月 29 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增關於 at.js 2.11.6 版的資訊。 |
-| 9 月 11 日 | [使用者](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 在「指定角色和許可權」底下新增下列備註：<P> 若要在[!DNL Target]中檢視活動，必須將使用者直接指派給至少具有[!UICONTROL Observer]角色的工作區。 僅透過使用者群組進行指派是不夠的。 通常建議授予使用者對預設工作區的存取權。 |
-| 8 月 1 日 | [推薦常見問答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增下列常見問題：「我可以使用[!DNL Target] API管理[!DNL Target]個UI建立的視覺選件嗎？」 |
-| 7 月 10 日 | [Proxy設定(Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | 新增章節：「裝置上決策」 |
-| 6 月 3 日 | [優先順序](/help/main/c-activities/priority.md) | 更新整個主題，包括指示來自多個[!UICONTROL Form-Based Experience Composer]和VEC活動的內容可以傳送。 以前，表單式工作流程中只能傳送一個活動。 可提供的表單式活動數量不再有任何限制。 |
-| 5 月 17 日 | [疑難排解[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)的相關問題 | 新增在使用[!UICONTROL Enhanced Experience Composer]時可加入允許清單的其他IP位址。 |
-| 5 月 8 日 | [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告 | 新文章：新增有關[!DNL Target]與[!DNL Adobe Customer Journey Analytics]整合的資訊。 |
-| 4 月 30 日 | [疑難排解[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)的相關問題 | 更新允許清單中EEC Proxy所使用的Adobe伺服器IP位址清單。 |
-| 4 月 23 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 新增說明Google計劃開始停用使用資訊清單V2建立的擴充功能的資訊。 [!DNL Adobe]建議客戶儘快改用新的[!UICONTROL Visual Editing Helper]擴充功能。 |
-| 4 月 23 日 | [[!UICONTROL Visual Experience Composer] helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新頁面頂端的重要注意事項，說明Google開始停用使用資訊清單V2建立的擴充功能計畫，其中包括本文所述的擴充功能。 [!DNL Adobe]建議客戶儘快改用新的[!UICONTROL Visual Editing Helper]擴充功能。 |
-| 4 月 9 日 | [疑難排解[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)的相關問題 | 更新下列章節：「我的頁面未在VEC中顯示（僅限VEC）。」<P>新增下列章節：「[!UICONTROL Visual Experience Composer]中的CSS衝突所造成的問題」。 |
-|  | [個人化前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 更新考量事項區段。 |
-| 3 月 22 日 | [允許清單 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | 已移除對邊緣節點31到38的參照，因為此節點已不存在。 確保您的允許清單為最新。 |
-|  | [第三方Cookie淘汰對Target (at.js)的影響](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | 新增部落格，說明Google預計淘汰第三方Cookie對您的[!DNL Adobe Target] at.js實作有何意義。 |
