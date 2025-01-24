@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 80%
+source-wordcount: '1436'
+ht-degree: 79%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 80%
          + [初始佈建 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [活動設定 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [檢視報表 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
-         + [重新導向選件 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+         + [重新導向產品建議 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [提升度和可信度 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [量度定義 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [分類 - A4T 常見問題集](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
@@ -161,13 +161,15 @@ ht-degree: 80%
       + [預估成功測試版所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [預覽 Automated Personalization 測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [預覽Automated Personalization測試版體驗](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
-      + [鎖定 Automated Personalization 選件](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [鎖定 Automated Personalization 產品建議](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Target Automated Personalization選件（測試版）](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
       + [管理排除專案（測試版）](c-activities/t-automated-personalization/managing-exclusions-beta.md)
-      + [Automated Personalization 中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Automated Personalization 中的產品建議報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Automated Personalization測試版中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Automated Personalization 常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [選取Automated Personalization或自動鎖定目標活動Beta版的控制項](c-activities/t-automated-personalization/experience-as-control-beta.md)
+      + [Automated Personalization 常見問題](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [疑難排解 Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + 體驗鎖定目標 {#experience-targeting}
       + [體驗鎖定目標概覽](c-activities/t-experience-target/experience-target.md)
@@ -242,8 +244,8 @@ ht-degree: 80%
       + [輪廓和變數字彙表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 鎖定目標和客群常見問答 {#faq-audiences}
       + [鎖定目標和客群常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-+ 體驗與選件 {#experiences}
-   + [體驗與選件概覽](c-experiences/experiences.md)
++ 體驗與產品建議 {#experiences}
+   + [體驗與產品建議概覽](c-experiences/experiences.md)
    + 可視化體驗撰寫器 (VEC) {#vec}
       + [可視化體驗撰寫器概覽](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [可視化體驗撰寫器選項](c-experiences/c-visual-experience-composer/viztarget-options.md)
@@ -269,16 +271,16 @@ ht-degree: 80%
       + [建立可在可視化體驗撰寫器中運作的輪播](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [表單式體驗撰寫器](c-experiences/form-experience-composer.md)
    + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
-   + 選件 {#offers}
-      + [選件概覽](c-experiences/c-manage-content/manage-content.md)
-      + [建立選件資料夾](c-experiences/c-manage-content/create-content-folder.md)
+   + 產品建議 {#offers}
+      + [產品建議概覽](c-experiences/c-manage-content/manage-content.md)
+      + [建立產品建議資料夾](c-experiences/c-manage-content/create-content-folder.md)
       + [上傳內容](c-experiences/c-manage-content/assets-upload.md)
-      + [建立重新導向選件](c-experiences/c-manage-content/offer-redirect.md)
-      + [建立遠端選件](c-experiences/c-manage-content/about-remote-offers.md)
-      + [建立 JSON 選件](c-experiences/c-manage-content/create-json-offer.md)
+      + [建立重新導向產品建議](c-experiences/c-manage-content/offer-redirect.md)
+      + [建立遠端產品建議](c-experiences/c-manage-content/about-remote-offers.md)
+      + [建立 JSON 產品建議](c-experiences/c-manage-content/create-json-offer.md)
       + [使用程式庫中的內容](c-experiences/c-manage-content/assets-working.md)
       + [搜尋和篩選內容](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [將動態資料傳遞至選件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
+      + [將動態資料傳遞至產品建議](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM體驗和內容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 報表 {#reports}
    + [報表概覽](c-reports/reports.md)
@@ -358,7 +360,7 @@ ht-degree: 80%
       + [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [推薦活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [推薦作為選件](c-recommendations/recommendations-as-an-offer.md)
+   + [推薦作為產品建議](c-recommendations/recommendations-as-an-offer.md)
    + 常見問答 {#recommendations-faq}
       + [推薦常見問題集](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [將推薦與電子郵件整合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
