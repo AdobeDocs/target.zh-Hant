@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 58%
+source-wordcount: '372'
+ht-degree: 56%
 
 ---
 
@@ -50,6 +50,11 @@ ht-degree: 58%
    * [鎖定 Automated Personalization 產品建議](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
    * [Automated Personalization測試版中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
    * [選取Automated Personalization或自動鎖定目標活動Beta版的控制項](c-activities/t-automated-personalization/experience-as-control-beta.md)
+* 體驗鎖定目標(XT) {#xt}
+   * [建立活動測試版](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
+   * [活動URL — 測試版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
+   * [建立體驗測試版](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
+   * [切換體驗鎖定目標 — 測試版的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 +++
 
 <!-- 
