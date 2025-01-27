@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 20%
+source-wordcount: '1105'
+ht-degree: 14%
 
 ---
 
@@ -15,13 +15,53 @@ ht-degree: 20%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年1月7日**
+**上次更新日期：2025年1月27日**
 
 >[!NOTE]
 >
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## [!UICONTROL Activities]使用者介面更新（2025年2月6日）
+
+隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!UICONTROL Activities]使用者介面。
+
+>[!NOTE]
+>
+>自2月6日星期三開始，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+
+更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
+
+* 重新設計報表，以更深入瞭解活動結果
+* 更新[!UICONTROL Audit]頁面，現在從[!DNL Audit API]取得即時深入分析的資訊
+* 可自訂的清單檢視，以針對不同的團隊需求提供更好的彈性
+* 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊
+* 工作階段持續搜尋和篩選選項
+* 已完整重建[!UICONTROL Visual Editing Composer]，並支援瀏覽器提供者的最新安全性更新以及最新的使用者介面
+* 更新支援Manifest V3的[!DNL Chrome]擴充功能，以提升安全性並改善對第一方Cookie的支援
+
+![活動重新整理](/help/main/r-release-notes/assets/activities-refresh.png)
+
+## [!DNL Recommendations]使用者介面更新（2025年2月7日）
+
+隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!DNL Recommendations]使用者介面。
+
+>[!NOTE]
+>
+>自2月7日星期四起，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+
+更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
+
+* 產品目錄搜尋現在提供更新的資料庫，以便即時同步產品
+* 透過API建立的[!UICONTROL Recommendation]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）現在可在UI中使用
+* 設定已合併到[!UICONTROL Administration]區段下
+* 可自訂的清單檢視，以針對不同的團隊需求提供更好的彈性
+* 使用語法醒目提示和行編號重新整理的HTML和JSON代碼編輯器
+* 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊
+* 工作階段持續搜尋和篩選選項
+
+![Recommendations UI重新整理](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## [!UICONTROL Offers Library]使用者介面更新（2025年1月9日）
 

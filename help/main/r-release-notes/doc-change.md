@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 46%
+source-wordcount: '119'
+ht-degree: 42%
 
 ---
 
@@ -21,5 +21,6 @@ ht-degree: 46%
 
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
+| 1 月 27 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增下列更新的搶鮮版發行說明： <ul><li>[!UICONTROL Activities]使用者介面更新（2025年2月6日）</li><li>[!DNL Recommendations]使用者介面更新（2025年2月7日）</li></ul> |
 | 1 月 22 日 | [Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新[!UICONTROL Visual Editing Helper Extension]現在支援[!DNL Private Chrome Web Stores]。 已移除備註，指出使用[!DNL Private Chrome Web Stores]的客戶繼續使用舊版[!UICONTROL Visual Experience Composer helper extension]。 |
 | 1 月 7 日 | [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增[!UICONTROL Offers Library]使用者介面更新的發行說明（排定於2025年1月9日）。 所有選件文章均已更新，以反映UI變更。 |
