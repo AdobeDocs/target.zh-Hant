@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 78%
+source-wordcount: '1481'
+ht-degree: 77%
 
 ---
 
@@ -190,13 +190,20 @@ ht-degree: 78%
       + [計劃多變數測試](c-activities/c-multivariate-testing/plan-mvt.md)
       + 建立多變數測試 {#create-mvt}
          + [建立測試](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
+         + [建立測試Beta版](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [活動 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [活動URL測試版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [建立組合](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
+         + [建立組合（測試版）](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [多變數測試的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [多變數測試Beta版的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [預估成功測試所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+         + [預估成功測試Beta版所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [測試摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
+         + [測試摘要Beta版](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [目標與設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [設定量度](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
+         + [設定量度（測試版）](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [疑難排解多變數測試](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [推薦活動](c-activities/recommendations-activity.md)
    + [編輯活動或另存為草稿](c-activities/edit-activity.md)

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 438b65368b81f71d684444352035ce73627e698f
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '407'
+ht-degree: 51%
 
 ---
 
@@ -54,7 +54,15 @@ ht-degree: 56%
    * [建立活動測試版](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
    * [活動URL — 測試版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
    * [建立體驗測試版](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
-   * [切換體驗鎖定目標 — 測試版的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+   * [切換體驗鎖定目標 — 測試版中的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+* 多變數測試(MVT) {#mvt}
+   * [建立測試Beta版](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [活動URL測試版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [建立組合（測試版）](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [多變數測試Beta版的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [預估成功測試Beta版所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [測試摘要Beta版](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [設定量度Beta](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 
