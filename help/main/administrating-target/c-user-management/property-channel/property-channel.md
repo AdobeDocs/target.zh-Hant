@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 48%
 
 ---
@@ -191,18 +191,12 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 * **Workspace （產品設定檔）下拉式清單：** Workspace下拉式清單會顯示在[!UICONTROL Activities]、[!UICONTROL Audiences]和[!UICONTROL Offers]頁的頂端。 選取所需的工作區以篩選清單，以僅顯示所選取工作區中的項目。
 
-  ![工作區_下拉式影像](assets/workspace_drop-down.png)
-
 * **活動建立：**&#x200B;當您建立活動時，會在目前選取的工作區中建立。 您會在第一個對話方塊中看到頻道選擇選項，讓您為活動選擇所需的頻道：網頁、行動應用程式、電子郵件或其他/API。
-
-  ![channel_options影像](assets/channel_options.png)
 
 * **對象建立：**&#x200B;當您建立對象時，會在目前選取的工作區中建立。
 * **對象清單：**&#x200B;您可以使用[!UICONTROL Audiences]頁面上的[!UICONTROL More Actions] > [!DNL Move]選項，在工作區之間移動對象。
 * **優惠方案建立：**&#x200B;當您建立優惠方案時，會在目前選取的工作區中建立。
 * **屬性頁面（管理>屬性）：**&#x200B;您可以使用[!UICONTROL Search]方塊來搜尋[!UICONTROL Property]清單。
-
-  ![properties_list影像](assets/properties_list.png)
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -211,10 +205,10 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 * **重要**: 請勿刪除具有活動的工作區。如果您刪除具有活動的工作區，請和Client Care合作復原這些活動。
 * 使用「所有我的工作區」檢視時:
 
-   * 您可以查看具有適當角色和權限可存取之所有工作區的活動、對象和選件。
+   * 您可以查看具有適當角色和權限可存取之所有工作區的活動、對象和產品建議。
    * 選取[!UICONTROL All My Workspaces]檢視時，新欄會新增至「活動」、「對象」和「選件」頁面。 此欄列示專案的工作區以及您與該專案相關聯的使用者許可權（觀察者、編輯者或核准者），
-   * 在「所有我的工作區」檢視中建立活動、對象或選件時，您必須選取要建立項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
-   * 在「所有我的工作區」檢視中複製活動、對象或選件時，您必須選取要複製項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
+   * 在「所有我的工作區」檢視中建立活動、對象或產品建議時，您必須選取要建立項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
+   * 在「所有我的工作區」檢視中複製活動、對象或產品建議時，您必須選取要複製項目的工作區。只能選取您具有「編輯者」或「核准者」權限的工作區。
 
 * 下列[!UICONTROL Administration]頁面上的任何設定可由任何工作區中的任何[!UICONTROL Approver]控制：
 
@@ -239,10 +233,10 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 * 下列資源&#x200B;*不*&#x200B;屬於新企業權限模型:
 
-   * 影像選件
+   * 影像產品建議
    * 所有建議資源，包括條件資料庫、設計資料庫、目錄、建議設定。
    * 在啟用企業許可權之前於Target Premium內建立的現有資源（例如活動、代碼選件和對象）可供複製，但無法移至其他工作區。
-   * 使用下列解決方案或方法建立的活動、對象、代碼選件、影像選件或任何其他資源，無法透過企業許可權模型控制，但屬於預設Workspace的一部分： Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services和透過API建立的資源。 透過 API 建立的資源包括活動、客群、代碼選件和影像選件。
+   * 使用下列解決方案或方法建立的活動、對象、代碼選件、影像選件或任何其他資源，無法透過企業許可權模型控制，但屬於預設Workspace的一部分： Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services和透過API建立的資源。 透過 API 建立的資源包括活動、客群、代碼產品建議和影像產品建議。
    * 影像選件（儲存在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的資產）目前無法透過企業許可權模型控制。
    * 當目的地連結或目的地頁面屬於活動中所包含屬性的一部分時，clickTracking和重新導向功能就會運作。 此外，使用`targetPageParams()`函式時，clickTracking可能無法運作。 `targetPageParamsAll()` 為建議的函數。
 

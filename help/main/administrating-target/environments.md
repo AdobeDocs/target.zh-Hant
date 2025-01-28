@@ -5,10 +5,10 @@ title: 什麼是環境？如何使用環境？
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 49%
 從新網站或網域收到[!DNL Target]要求時，這些新網域一律會出現在[!UICONTROL Production]環境中。 [!UICONTROL Production]環境無法變更其設定，因此可保證未知或新網站只會看到作用中且準備就緒的內容。 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
 
 若要管理環境，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Environments]**。
-
-![環境清單](/help/main/administrating-target/assets/environments.png)
 
 ## 新增環境 {#section_32097D0993724DF3A202D164D3F18674}
 
@@ -75,14 +73,14 @@ ht-degree: 49%
 
 {{premium-note}}
 
-環境可用來將目錄中可用專案區分為不同用途。 例如，您可以將主機群組用於[!UICONTROL Development]和[!UICONTROL Production]環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」篩選器，選取不同的主機群組來預覽結果。)依預設，除非在建立或更新專案時指定環境ID，否則新加入的專案可在所有主機群組中使用。
+環境可用來將目錄中可用專案區分為不同用途。 例如，您可以將主機群組用於[!UICONTROL Development]和[!UICONTROL Production]環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。(您也可以使用「環境」(Environment)篩選條件，選取不同的主機群組來預覽結果。) 依預設，除非在建立或更新專案時指定環境ID，否則新加入的專案可在所有主機群組中使用。
 
 >[!NOTE]
 >
 >提供的建議取決於要求中指定的主機群組或環境ID。
 
 
-如果沒有看見您的產品，請確定您使用正確的主機群組。例如，假設您將建議設定為使用測試環境，並將主機群組設為「測試」，則可能需要在測試環境中重建集合，才會顯示產品。若要查看每個環境中可用的產品，請對每個環境使用「目錄搜尋」。您也可以針對所選的環境 (主機群組)，預覽 Recommendations 集合和排除項目的內容。
+如果沒有看見您的產品，請確定您使用正確的主機群組。例如，假設您將建議設定為使用測試環境，並將主機群組設為「測試」，則可能需要在測試環境中重建集合，才會顯示產品。若要查看每個環境中可用的產品，請對每個環境使用「目錄搜尋」。您也可以針對所選的環境 (主機群組)，預覽推薦集合和排除項目的內容。
 
 >[!NOTE]
 >在變更選取的環境後，您必須按一下「搜尋」來更新傳回的結果。

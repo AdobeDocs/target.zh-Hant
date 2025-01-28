@@ -1,13 +1,13 @@
 ---
 keywords: 實作;實施
-description: 瞭解如何在您的網站上實作Adobe [!DNL Target] 。 設定您的全域設定、實作方法（AEP Web SDK或at.js）等。
+description: 瞭解如何在您的網站上實作Adobe [!DNL Target] 。 設定您的全域設定、實作方法(AEP Web SDK或at.js)等。
 title: 如何在我的網站上實作 [!DNL Target] ？
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -25,5 +25,3 @@ ht-degree: 2%
 1. 若要存取[!UICONTROL Implementation]頁面，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
 
 1. 如需適用於此頁面設定的資訊，請參閱[實作Target而不使用標籤管理員](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
-
-![實作頁面](/help/main/administrating-target/assets/implementation.png)

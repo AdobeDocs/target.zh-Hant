@@ -5,10 +5,10 @@ title: 如何設定視覺化體驗撰寫器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 48%
+source-wordcount: '682'
+ht-degree: 49%
 
 ---
 
@@ -22,11 +22,9 @@ ht-degree: 48%
 >
 >請注意，此頁面上的設定適用於整個[!DNL Target]帳戶。
 
-![視覺化體驗撰寫器設定頁面](/help/main/administrating-target/assets/vec.png)
-
 ## 一般設定
 
-您可以指定視覺化體驗撰寫器的一般設定。
+您可以為[!UICONTROL Visual Experience Composer]指定一般設定。
 
 ![一般設定區段](/help/main/administrating-target/assets/general-settings.png)
 

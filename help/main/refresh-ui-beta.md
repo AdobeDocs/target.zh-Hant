@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 438b65368b81f71d684444352035ce73627e698f
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 51%
+source-wordcount: '415'
+ht-degree: 50%
 
 ---
 
@@ -23,6 +23,13 @@ ht-degree: 51%
 >[!DNL Adobe Target]團隊經常為特定客戶啟用新功能，以進行測試和提供意見回饋。 在測試期間完成後，這些功能會在未來[!DNL Target]版本中針對所有客戶啟用，並在發行說明中宣佈。
 >
 >這些文章中的資訊會在Beta程式中經常更新，恕不另行通知。
+
+## 管理
+
++++按一下以展開
+
+* [管理Target總覽Beta版](administrating-target/administrating-target-beta.md)
++++
 
 ## 活動
 

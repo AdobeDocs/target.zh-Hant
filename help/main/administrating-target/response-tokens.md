@@ -5,9 +5,9 @@ title: 什麼是回應Token？如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1622'
 ht-degree: 22%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 22%
 >
 >回應Token附隨於at.js 1.1版或更新版本提供。
 
-| Target SDK | 建議的動作 |
+| 鎖定SDK | 建議的動作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱&#x200B;*Platform Web SDK總覽*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱&#x200B;*Platform Web SDK總覽*&#x200B;指南中的[發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版at.js的資訊，請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。 如需每個at.js版本中新功能的相關資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js （現已棄用）中有部分外掛程式所依賴的內部方法，但at.js中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。 |
 
 ## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -40,15 +40,13 @@ ht-degree: 22%
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
 
-   ![response_tokens — 新影像](assets/response_tokens-new.png)
-
 1. 啟用所需的回應Token，例如`activity.id`和`offer.id`。
 
    依預設有下列參數可用:
 
    | 類型 | 參數 | 附註 |
    |--- |--- |--- |
-   | 內建的設定檔 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，在包含兩個[!DNL Target]請求（傳送兩個不同的活動）的頁面上，第二個請求會包含兩個活動。 |
+   | 內建的輪廓 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，在包含兩個[!DNL Target]請求（傳送兩個不同的活動）的頁面上，第二個請求會包含兩個活動。 |
    |  | `profile.isFirstSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.isNewSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.daysSinceLastVisit` | 傳回訪客上次造訪後所經過的天數。 |
@@ -62,7 +60,7 @@ ht-degree: 22%
    | 流量分配方法<br> （僅適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。） | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已鎖定目標」。 |
 
-   使用者設定檔屬性和客戶屬性也顯示在清單中。
+   使用者輪廓屬性和客戶屬性也顯示在清單中。
 
    >[!NOTE]
    >
@@ -72,15 +70,13 @@ ht-degree: 22%
 
    按一下&#x200B;**[!UICONTROL Add Response Token]**，提供權杖名稱，然後按一下&#x200B;**[!UICONTROL Activate]**。
 
-   ![response_token_create image](assets/response_token_create.png)
-
 1. 建立活動。
 
 ## 接聽回應並讀取回應Token
 
 您用來接聽[!DNL Target]回應和讀取回應Token的處理程式會因您是[!DNL Platform Web SDK]或at.js實作而異。
 
-### 使用Handle物件類別的![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Platform Web SDK] {#platform-web-sdk}
+### 使用Handle物件類別的![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png) [!DNL Platform Web SDK] {#platform-web-sdk}
 
 使用Handle物件類別（具有中繼資料物件與資料物件）來接聽[!DNL Target]回應並讀取回應Token。
 
