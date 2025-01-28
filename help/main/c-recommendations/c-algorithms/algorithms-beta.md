@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 5%
 
 ---
 
@@ -28,15 +28,13 @@ ht-degree: 6%
 |--- |--- |
 | [!UICONTROL Retail/Ecommerce] | 轉換帶動購買 |
 | [!UICONTROL Lead Generation/B2B/Financial Services] | 轉換但未購買 |
-| [!UICONTROL Media/Publishing] | 參與 |
+| [!UICONTROL Media/Publishing] | 參與度 |
 
 其他條件選項會根據您選取的垂直產業而變更。 您可以在&#x200B;**[!UICONTROL Administration]>[!UICONTROL Recommendations]**&#x200B;頁面上設定預設的垂直產業，或為每個條件指定垂直產業。
 
 ## 演演算法型別 {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您選取的演演算法型別會決定可用的演演算法。
-
-![條件頁面](assets/criteria-page-new.png)
 
 下表說明各種演演算法型別及其隨附的演演算法。
 
@@ -76,11 +74,9 @@ ht-degree: 6%
 
 您可以按一下[!UICONTROL Name]欄中的所需條件來檢視條件詳細資料。
 
-![條件卡暫留](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+「**[!UICONTROL Attributes]**」和「詳細資料」區段可讓您檢視所選條件的一般資訊，包括其[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]以及「上次修改時間」資訊（日期及修改演演算法的人員）。
 
-**[!UICONTROL Algorithm Info]**&#x200B;索引標籤可讓您檢視所選條件的一般資訊，包括其[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]以及上次修改時間資訊（日期及修改演演算法的人員）。
-
-**[!UICONTROL Algorithm Usage]**&#x200B;區段可讓您檢視參考所選條件的活動清單。
+**[!UICONTROL Usage]**&#x200B;區段可讓您檢視參考所選條件的活動清單。
 
 >[!NOTE]
 >

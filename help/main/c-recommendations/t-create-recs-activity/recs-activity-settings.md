@@ -1,28 +1,26 @@
 ---
-keywords: Recommendations;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
+keywords: 推薦;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
 description: 瞭解如何進行設定，以說明和控制Adobe Target中的Recommendations活動。
 title: 如何設定Recommendations活動設定？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 48%
+source-wordcount: '588'
+ht-degree: 45%
 
 ---
 
-# Recommendations 活動設定
+# 推薦活動設定
 
 關於您可以用來描述和控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活動的設定資訊。
-
-![Recommendations 目標和設定頁面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 以下各節說明[!UICONTROL Recommendations]活動可用的設定。
 
 ## 名稱
 
-提供將可幫助您和您的團隊識別活動的描述性名稱。
+按一下「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下「**[!UICONTROL Rename]**」以提供描述性名稱，協助您和您的團隊識別活動。
 
 活動名稱中不允許下列字元:
 

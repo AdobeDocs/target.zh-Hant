@@ -1,14 +1,14 @@
 ---
-keywords: 建立建議;Recommendations 活動;新建議;建議概覽
+keywords: 建立建議;推薦活動;新建議;建議概覽
 description: 瞭解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)來建立 [!DNL Recommendations] 活動。
 title: 如何建立 [!DNL Recommendations] 活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1176'
 ht-degree: 51%
 
 ---
@@ -21,19 +21,15 @@ ht-degree: 51%
 
 1. 視需要選取&#x200B;**[!UICONTROL Visual]**。
 
-   ![建立 Recommendations 活動對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL Form]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
+   如果您偏好使用[!UICONTROL Form-Based Experience Composer]，請選取[!UICONTROL Form]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL Form-Based Experience Composer]，[!DNL Target]還提供[!UICONTROL Single Page Application] VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/main/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL Form-Based Experience Composer]，[!DNL Target]還提供[!UICONTROL Single Page Application] VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
-   >
-   >上圖中的[!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有[!UICONTROL Target Standard]授權。
 
-1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （視條件而定）選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 指定活動URL，然後按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -49,7 +45,7 @@ ht-degree: 51%
 
    網站的訪客只有在符合建議資格時，才會看到建議內容。 不符合建議資格的訪客將看到預設內容。
 
-   ![Recommendations 選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![推薦選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    * **[!UICONTROL Replace w/ Recommendations]**：以建議取代元素會刪除目前的內容，並以您的建議取代。 當訪客造訪您的網站並符合建議資格時，他們將在指定區域中看到建議專案，而不是現有內容。
    * **[!UICONTROL Insert Recommendations Before]**：在選取的元素之前插入建議，將建議內容置於該元素之前。 根據您的頁面建構，建議會顯示在所選元素的上方或左側。
@@ -124,7 +120,7 @@ ht-degree: 51%
 
 1. 在流程圖表中檢閱您的 [!DNL Recommendations] 活動，並進行任何必要的變更。
 
-   ![Recommendations 流程圖](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![推薦流程圖](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    流程圖表將引導您進行選擇活動客群和設定體驗的步驟，並指定成功量度。
 

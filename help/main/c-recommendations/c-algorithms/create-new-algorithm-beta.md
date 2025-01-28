@@ -7,7 +7,7 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -56,7 +56,7 @@ ht-degree: 47%
    |--- |--- |
    | [!UICONTROL Retail/Ecommerce] | 轉換帶動購買 |
    | [!UICONTROL Lead Generation/B2B/Financial Services] | 轉換但未購買 |
-   | [!UICONTROL Media/Publishing] | 參與 |
+   | [!UICONTROL Media/Publishing] | 參與度 |
 
    其他條件選項會根據您選取的垂直產業而變更。
 
@@ -89,6 +89,43 @@ ht-degree: 47%
 其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取[!UICONTROL Recommendation Key]、[!UICONTROL Filtering Key]、[!UICONTROL Co-Occurrence Basis]、[!UICONTROL Analytics Metric]和/或[!UICONTROL Item Attribute]和[!UICONTROL Profile Attribute to Match]。
 
 如需有關選擇[!UICONTROL Recommendation Key]的詳細資訊，請參閱[讓建議以建議索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
+
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content]規則會決定當建議專案數未填入您的[建議設計](/help/main/c-recommendations/c-design-overview/design-overview.md)時會發生什麼情況。 [!DNL Recommendations]條件傳回的建議可能少於您的設計呼叫。 例如，如果您的設計有四個專案的位置，但您的條件導致僅建議兩個專案，您可以將剩餘的位置留空，您可以使用備用建議來填滿額外的位置，或者您可以選擇不顯示建議。
+
+1. （選用）將&#x200B;**[!UICONTROL Partial Design Rendering]**&#x200B;切換滑至「開啟」位置。
+
+   系統會儘可能填滿位置，但設計範本中可能包含空白空間，以放置剩餘的位置。 如果停用此選項，且內容不足以填滿所有可用的位置，則不會提供建議，而是顯示預設內容。
+
+   如果您想要以空白位置提供建議，請啟用此選項。 如果您希望根據您的條件將推薦位置填入內容，而空白位置填入您的網站上類似或熱門內容，請使用備用推薦，如下一個步驟所述。
+
+1. （選用）將&#x200B;**[!UICONTROL Show Backup Content]**&#x200B;切換滑至「開啟」位置。
+
+   從您的網站上隨機選取檢視次數最多的產品，來填滿設計中剩餘的空白位置。
+
+   使用備份建議可確保您的建議設計填滿所有可用的位置。 假設您有4 x 1設計，如下所示：
+
+   ![4 x 1設計](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   假設您的條件只導致建議兩個專案。 如果啟用[!UICONTROL Partial Design Rendering]選項，則前兩個位置會填滿，但剩餘兩個位置會維持空白。 但是，如果您啟用[!UICONTROL Show Backup Recommendations]選項，前兩個位置會根據您指定的條件填滿，而剩餘兩個位置會根據您的備用建議填滿。
+
+   下列矩陣顯示您使用[!UICONTROL Partial Design Rendering]和[!UICONTROL Backup Content]選項時會觀察到的結果：
+
+   | 部分設計呈現 | 備份內容 | 結果 |
+   |--- |--- |--- |
+   | 已停用 | 已停用 | 如果傳回的建議少於設計呼叫的數目，則會以預設內容取代建議設計，並且不顯示建議。 |
+   | 已啟用 | 已停用 | 系統會轉譯設計，但如果傳回的建議少於設計呼叫的數目，則可能包含空格。 |
+   | 已啟用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會轉譯部分設計。<br>如果條件未傳回任何建議，並且包含規則將備用建議限制為零，則會以預設內容來取代設計。 |
+   | 已停用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會以預設內容取代設計，並且不顯示建議。 |
+
+   如需詳細資訊，請參閱[使用備份建議](/help/main/c-recommendations/c-algorithms/backup-recs.md)。
+
+1. （視條件而定）如果您在上一個步驟中選取&#x200B;**[!UICONTROL Show Backup Content]**，則可啟用&#x200B;**[!UICONTROL Apply inclusion rules to backup recommendations]**。
+
+   包含規則會決定要在建議中包含哪些專案。 可用的選項取決於您的垂直產業。
+
+   如需詳細資訊，請參閱下方的[指定包含規則](#inclusion)。
 
 ## [!UICONTROL Data Source] {#data-source}
 
@@ -129,43 +166,6 @@ ht-degree: 47%
    | 兩週 | 演演算法每24到48小時執行一次 | <ul><li>[!UICONTROL Popularity-Based]演演算法</li><li>[!UICONTROL Item-Based]演演算法</li><li>所有[!UICONTROL User-Based]演演算法</li><li>[!UICONTROL Cart-Based]演演算法</li></ul> |
    | 一個月（30天） | 演演算法每24到48小時執行一次 | <ul><li>[!UICONTROL Popularity-Based]演演算法</li><li>[!UICONTROL Item-Based]演演算法</li><li>[!UICONTROL User-Based]演演算法</li><li>[!UICONTROL Cart-Based]演演算法</li></ul> |
    | 兩個月（61天） | 演演算法每24到48小時執行一次 | <ul><li>[!UICONTROL Popularity-Based]演演算法</li><li>[!UICONTROL Item-Based]演演算法</li><li>[!UICONTROL User-Based]演演算法</li><li>[!UICONTROL Cart-Based]演演算法</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content]規則會決定當建議專案數未填入您的[建議設計](/help/main/c-recommendations/c-design-overview/design-overview.md)時會發生什麼情況。 [!DNL Recommendations]條件傳回的建議可能少於您的設計呼叫。 例如，如果您的設計有四個專案的位置，但您的條件導致僅建議兩個專案，您可以將剩餘的位置留空，您可以使用備用建議來填滿額外的位置，或者您可以選擇不顯示建議。
-
-1. （選用）將&#x200B;**[!UICONTROL Partial Design Rendering]**&#x200B;切換滑至「開啟」位置。
-
-   系統會儘可能填滿位置，但設計範本中可能包含空白空間，以放置剩餘的位置。 如果停用此選項，且內容不足以填滿所有可用的位置，則不會提供建議，而是顯示預設內容。
-
-   如果您想要以空白位置提供建議，請啟用此選項。 如果您希望根據您的條件將推薦位置填入內容，而空白位置填入您的網站上類似或熱門內容，請使用備用推薦，如下一個步驟所述。
-
-1. （選用）將&#x200B;**[!UICONTROL Show Backup Content]**&#x200B;切換滑至「開啟」位置。
-
-   從您的網站上隨機選取檢視次數最多的產品，來填滿設計中剩餘的空白位置。
-
-   使用備份建議可確保您的建議設計填滿所有可用的位置。 假設您有4 x 1設計，如下所示：
-
-   ![4 x 1設計](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   假設您的條件只導致建議兩個專案。 如果啟用[!UICONTROL Partial Design Rendering]選項，則前兩個位置會填滿，但剩餘兩個位置會維持空白。 但是，如果您啟用[!UICONTROL Show Backup Recommendations]選項，前兩個位置會根據您指定的條件填滿，而剩餘兩個位置會根據您的備用建議填滿。
-
-   下列矩陣顯示您使用[!UICONTROL Partial Design Rendering]和[!UICONTROL Backup Content]選項時會觀察到的結果：
-
-   | 部分設計呈現 | 備份內容 | 結果 |
-   |--- |--- |--- |
-   | 已停用 | 已停用 | 如果傳回的建議少於設計呼叫的數目，則會以預設內容取代建議設計，並且不顯示建議。 |
-   | 已啟用 | 已停用 | 系統會轉譯設計，但如果傳回的建議少於設計呼叫的數目，則可能包含空格。 |
-   | 已啟用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會轉譯部分設計。<br>如果條件未傳回任何建議，並且包含規則將備用建議限制為零，則會以預設內容來取代設計。 |
-   | 已停用 | 已啟用 | 備用建議會填滿可用的設計「槽」，以完整呈現設計。<br>如果因套用包含規則至備用建議而限制了合格備用建議的數量，以致設計無法填滿，則會以預設內容取代設計，並且不顯示建議。 |
-
-   如需詳細資訊，請參閱[使用備份建議](/help/main/c-recommendations/c-algorithms/backup-recs.md)。
-
-1. （視條件而定）如果您在上一個步驟中選取&#x200B;**[!UICONTROL Show Backup Content]**，則可啟用&#x200B;**[!UICONTROL Apply inclusion rules to backup recommendations]**。
-
-   包含規則會決定要在建議中包含哪些專案。 可用的選項取決於您的垂直產業。
-
-   如需詳細資訊，請參閱下方的[指定包含規則](#inclusion)。
 
 ## 內容相似度 {#similarity}
 

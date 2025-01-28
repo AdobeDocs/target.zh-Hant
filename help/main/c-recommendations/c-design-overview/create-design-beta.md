@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
+exl-id: d97db163-62ef-4c6b-b0f7-e7e481073cc7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '979'
 ht-degree: 19%
 
 ---
@@ -45,13 +46,11 @@ ht-degree: 19%
 1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**」以顯示[!UICONTROL Designs]資料庫。
 
 
-1. 將游標移至您要建立的設計的卡片上，然後按一下&#x200B;**[!UICONTROL Copy]**&#x200B;圖示。
-
-   ![Card_CopyDesign圖片](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下&#x200B;**[!UICONTROL Copy]**。
 
    [!UICONTROL Create Design]對話方塊隨即顯示。
 
-1. 在&#x200B;**[!UICONTROL Information]**&#x200B;面板中，新增&#x200B;**[!UICONTROL Content Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
+1. 輸入&#x200B;**[!UICONTROL  Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
 
    使用預設設計時，設計名稱和「Copy」會出現在&#x200B;**[!UICONTROL Content Name]**&#x200B;欄位中。 您可以編輯名稱。您也可以選取要在設計卡片上顯示的影像。
 
@@ -65,7 +64,7 @@ ht-degree: 19%
    >
    >可在設計中參照（硬式編碼或透過回圈）的實體數上限為99。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 ### 建立自訂設計
 
@@ -73,21 +72,21 @@ ht-degree: 19%
 
 1. 按一下 **[!UICONTROL Create Design]**。
 
-   如果您想要讓新的自訂設計以現有設計為基礎，請將滑鼠移至所需設計上，然後按一下[!UICONTROL Copy]圖示。 然後您可以編輯復本以建立新的自訂設計。
+   如果您想要讓新的自訂設計以現有設計為基礎，請按一下您要建立的設計的[!UICONTROL More Actions]圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[!UICONTROL Copy]。 然後您可以編輯復本以建立新的自訂設計。
 
-1. 新增&#x200B;**[!UICONTROL Content Name]**&#x200B;和選用的預覽影像。
+1. 新增&#x200B;**[!UICONTROL Name]**&#x200B;和選用的預覽影像。
 
 1. （視條件而定）視需要編輯設計&#x200B;**[!UICONTROL Code]**。
 
    如需詳細資訊，請參閱上述步驟4中的資訊。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 ## 編輯、複製或刪除設計
 
 請記住，您無法編輯或複製預設設計；您只能複製預設設計。
 
-將游標暫留在[!UICONTROL Design]資料庫中所需的設計上，然後按一下適當的圖示：編輯、複製或刪除。
+按一下您要編輯或刪除的設計的[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下適當的圖示： [!UICONTROL Edit]、[!UICONTROL Copy]或[!UICONTROL Delete]。
 
 您可以複製現有設計來建立複製設計，然後可以修改設計。 此程式可讓您輕鬆建立類似設計。
 

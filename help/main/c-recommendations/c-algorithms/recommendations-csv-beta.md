@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -46,15 +46,13 @@ ht-degree: 32%
 
 1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;區段中，選取CSV檔案的&#x200B;**[!UICONTROL Location]**。
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;以取得格式正確的CSV檔案。
 
-   您有兩個位置選項︰
+您有兩個位置選項︰
 
-   * **FTP：**&#x200B;若要從FTP伺服器上傳CSV檔案，請選取&#x200B;**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
-
-     用於上傳CSV檔案的![FTP選項](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
-
-   * **URL：**&#x200B;若要從URL上傳您的CSV檔案，請選取&#x200B;**[!UICONTROL URL]**，然後輸入摘要URL。
+    * **FTP：**若要從FTP伺服器上傳CSV檔案，請選取**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
+    
+    * **URL：**若要從URL上傳您的CSV檔案，請選取**[!UICONTROL URL]**，然後輸入摘要URL。
 
 1. 按一下 **[!UICONTROL Create]**。
 

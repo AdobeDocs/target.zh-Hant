@@ -6,10 +6,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -37,23 +37,17 @@ ht-degree: 18%
 
 1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**」以顯示現有排除專案的清單。
 
-   ![排除專案清單影像](assets/exclusions-list.png)
-
    [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」，為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
 
-1. （視條件而定）按一下[!UICONTROL Filter]圖示，然後在建立（或更新）排除專案時從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)，以預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
-
-   ![建立排除項目](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. （視條件而定）按一下&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ），然後在建立（或更新）排除專案時，從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)，以預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
 
 1. 按一下 **[!UICONTROL Create Exclusion]**。
-
-   ![建立排除對話方塊](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. 輸入排除專案&#x200B;**[!UICONTROL Name]**&#x200B;並輸入選擇性說明。
 
 1. 使用規則產生器來建立排除項目。
 
-   在「規則」清單中選取參數，選取運算子，然後輸入一或多個值以辨別產品。使用逗號分隔多個值。
+   在[!UICONTROL Rules]清單中選取引數、選取運運算元，然後輸入一或多個值以識別產品。 使用逗號分隔多個值。
 
 1. 按一下 **[!UICONTROL Create]**。
 
@@ -71,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 編輯、複製或刪除排除專案
 
-按一下清單中所需排除專案旁的&#x200B;**省略符號**&#x200B;圖示，然後按一下適當的圖示：編輯、複製或刪除。
-
-![選項：編輯、複製和刪除](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+按一下清單中所需排除專案旁的「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下適當的圖示： [!UICONTROL Edit]、[!UICONTROL Copy]或[!UICONTROL Delete]。
 
 您可以複製現有的排除專案，以建立重複的排除專案，然後進行修改。 此選項可讓您輕鬆建立類似的排除專案。
 

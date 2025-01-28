@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 21%
+source-wordcount: '508'
+ht-degree: 22%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 21%
 
 ## 存取[!UICONTROL Catalog Search]
 
-若要存取[!UICONTROL Catalog Search]頁面，請按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
+1. 若要存取[!UICONTROL Catalog Search]頁面，請按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
 
-![目錄搜尋頁面](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. （選擇性）若要將篩選器套用至您的搜尋，請按一下&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示（ ![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ）。 您可以依[!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory]和[!UICONTROL Value]篩選。
 
 ## 執行簡單搜尋
 
@@ -45,8 +45,6 @@ ht-degree: 21%
    > 當您針對包含某數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
    >
    >目前沒有可讓您變更屬性型別的功能。 若要變更，[開啟客戶問題](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，指出需要將類型從字串變更為數值的屬性。
-
-   您也可以使用篩選器來尋找所需的產品。 例如，按一下「**[!UICONTROL Show Filters]**」圖示（「![顯示篩選器」圖示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）、展開「[!UICONTROL Collections]」Facet，然後選取一或多個集合，目錄中屬於所選集合的所有產品都會顯示。
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -110,7 +108,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [環境](/help/main/administrating-target/environments.md)可讓您組織您的網站和生產前環境，以方便管理和分隔報表。
 
-1. 按一下「顯示篩選器」圖示（ ![顯示篩選器圖示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ）。
+1. 按一下「顯示篩選器」圖示（ ![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ）。
 
 1. 從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選取所需的環境。
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 修改欄
 
-您可以暫時修改[!UICONTROL Catalog Search]頁面上的作用中欄。
+您可以在[!UICONTROL Catalog Search]頁面上修改作用中的欄。
 
-1. 按一下&#x200B;**[!UICONTROL Customize Table]**&#x200B;圖示（ ![自訂表格圖示](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ）。
+1. 按一下&#x200B;**[!UICONTROL Customize Table]**&#x200B;圖示（ ![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg) ）。
 
 1. 選取或取消選取想要顯示或隱藏的欄。
 
-請記住，您所做的任何變更只會套用至目前的作業階段。
+您所做的任何變更會跨工作階段持續保留。

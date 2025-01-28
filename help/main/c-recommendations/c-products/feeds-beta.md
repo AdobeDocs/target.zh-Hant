@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 38%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 38%
 
 [!UICONTROL Feeds]清單( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)提供您已建立的任何摘要的相關資訊。
 
-![摘要頁面](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 [!UICONTROL Feeds]頁面包含下列資料行：
 
 * **名稱**: 建立期間指定的摘要名稱。若要編輯摘要的名稱，您必須編輯摘要本身。當您以新名稱儲存摘要時，摘要會重新整理。
@@ -48,11 +46,11 @@ ht-degree: 38%
 * **排程**：顯示摘要的更新排程： [!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks]或[!UICONTROL Never]。
 * **上次更新**：顯示上次更新摘要的日期與時間，以及更新摘要的使用者名稱。
 
-按一下[!UICONTROL Customize Table]圖示（![自訂表格圖示](/help/main/c-recommendations/c-products/assets/customize-table-icon.png)）以選取或取消選取您要顯示的欄。
+按一下[!UICONTROL Customize Table]圖示（![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg)）以選取或取消選取您要顯示的欄。
 
-按一下「[!UICONTROL Information]」圖示，即可顯示顯示上次上傳日期與摘要之URL的卡片。
+按一下[!UICONTROL Information]圖示（ ![資訊圖示](/help/main/assets/icons/InfoOutline.svg) ）以顯示顯示上次上傳日期和摘要網址。
 
-按一下省略符號圖示以存取下列動作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
+按一下[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ）以存取下列動作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 從[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**。
 
-   ![建立摘要對話方塊](assets/CreateFeed.png)
-
 1. 為摘要指定描述性名稱。
 1. 選取&#x200B;**[!UICONTROL Source Type]**。
 
@@ -261,8 +257,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;箭頭以顯示[!UICONTROL Schedule]選項。
 
-   ![步驟結果](assets/CreateFeedSchedule.png)
-
 1. 選取更新選項:
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
    此選項是根據瀏覽器中使用的時區。如果要使用不同時區的時間，則必須根據您的時區來計算該時間。
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;箭頭以顯示[!UICONTROL Mapping]選項，然後指定如何將資料對應至[!DNL Target]定義。
-
-   ![步驟結果](assets/CreatFeedMapping.png)
 
 1. (可選) 如果要讓摘要屬於某個環境 (主機群組)，請選取主機群組。
 

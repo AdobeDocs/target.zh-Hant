@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b25516a9b348fa845e9336f4dccfc2d8fb3344b4
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 50%
+source-wordcount: '413'
+ht-degree: 47%
 
 ---
 
@@ -94,7 +94,6 @@ ht-degree: 50%
       * [建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md){target="_blank"}
       * [建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md){target="_blank"}
       * [使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md){target="_blank"}
-      * [Target 推薦演算法背後的科學](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md){target="_blank"}
       * [上傳自訂標準](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md){target="_blank"}
       * 動態與靜態包含{#dynamic-static}{target="_blank"}
          * [使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
@@ -112,11 +111,11 @@ ht-degree: 50%
       * [設計常見問答](c-recommendations/c-design-overview/template-faq.md){target="_blank"}
       * [使用 Velocity 自訂設計](c-recommendations/c-design-overview/customizing-a-template.md){target="_blank"}
    * 活動 {#recommendations-activity}
-      * [建立推薦活動](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
+      * [建立Recommendations活動測試版](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md){target="_blank"}
       * [選取條件](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
+      * [選取條件測試版](/help/main/c-recommendations/t-create-recs-activity/algo-select-rec-beta.md){target="_blank"}
       * [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [推薦活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
    * [產品建議形式的推薦](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * 常見問答 {#recommendations-faq}
       * [推薦常見問答](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}

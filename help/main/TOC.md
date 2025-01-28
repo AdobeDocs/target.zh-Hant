@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1493'
 ht-degree: 76%
 
 ---
@@ -363,12 +363,14 @@ ht-degree: 76%
    + 設計 {#recommendations-design}
       + [設計概覽](c-recommendations/c-design-overview/design-overview.md)
       + [建立設計](c-recommendations/c-design-overview/create-design.md)
-      + [建立設計](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [建立設計測試版](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [設計常見問題集](c-recommendations/c-design-overview/template-faq.md)
       + [使用 Velocity 自訂設計](c-recommendations/c-design-overview/customizing-a-template.md)
    + 活動 {#recommendations-activity}
       + [建立推薦活動](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [建立Recommendations活動測試版](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [選取條件](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [選取條件Beta版](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [推薦活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

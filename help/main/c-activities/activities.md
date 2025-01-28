@@ -4,9 +4,9 @@ description: 使用 [!DNL Adobe Target] 活動個人化特定對象的內容並�
 title: 如何使用 [!DNL Target]個人化內容及測試頁面設計？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2218'
 ht-degree: 26%
 
 ---
@@ -25,15 +25,12 @@ ht-degree: 26%
 
 您也可以按一下[!DNL Target] UI頂端的[!UICONTROL Activities]索引標籤，以顯示[!UICONTROL Activities]清單。
 
-![活動清單](/help/main/c-activities/assets/activities-list-new.png)
-
 [!UICONTROL Activities]清單提供[!DNL Target]實作中所有活動的概觀，可讓您執行各種動作。
 
 下表可協助您瞭解[!DNL Target] UI中[!UICONTROL Activities]清單上的各種元素：
 
 | 元素 | 說明 |
 |--- |--- |
-| 左側導覽邊欄 | 在您儲存或上線活動與失敗或[草稿活動](/help/main/c-activities/edit-activity.md)之間切換。 |
 | [!UICONTROL Show filters]圖示<P>![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) | 按一下清單頂端附近的&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示，即可存取篩選器，依[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Source]、[!UICONTROL Activity Source]和[!UICONTROL Properties]篩選活動。<P>如需詳細資訊，請參閱下面的[套用篩選器至[!UICONTROL Activities]清單](#filters)。 |
 | 搜尋欄位 | 快速尋找活動或減少[!UICONTROL Activity]清單中顯示的活動數目。 您可以使用下拉式清單依[!UICONTROL Activity Name]、[!UICONTROL URL]或[!UICONTROL ID]搜尋。 |
 | [!UICONTROL Create Activity] | 建立活動。<P>如需建立各種活動型別的詳細資訊，請參閱： <ul><li>[建立[!UICONTROL A/B Test]活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[建立[!UICONTROL Auto-Allocate]活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[建立[!UICONTROL Auto-Target]活動](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[建立[!UICONTROL Automated Personalization]活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[建立[!UICONTROL Experience Targeting]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[建立活動](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[建立[!UICONTROL Recommendations]活動](/help/main/c-recommendations/recommendations.md)</li></ul>如需每個型別的詳細資訊，請參閱下面的[活動型別](#types)。 |
