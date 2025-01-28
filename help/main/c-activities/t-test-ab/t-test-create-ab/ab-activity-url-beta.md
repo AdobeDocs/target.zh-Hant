@@ -6,10 +6,10 @@ feature: A/B Tests
 hide: true
 hidefromtoc: true
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
-source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 40%
+source-wordcount: '279'
+ht-degree: 32%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 40%
 
 1. 完成時，請按一下&#x200B;**[!UICONTROL Save]**。
 
-<!-- If you entered a URL for a site that does not include the [!DNL Target]s JavaScript code, you cannot select page elements.
+   如果您輸入的網站URL不包含[!DNL Target]s JavaScript程式碼，則無法選取頁面元素。
 
-By default, the [!UICONTROL Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL Visual Experience Composer].-->
+   根據預設，[!UICONTROL Visual Experience Composer]不允許對包含JavaScript的元素進行變更，例如旋轉橫幅。 如果您想要能夠使用[!UICONTROL Visual Experience Composer]變更這些元素，可以將&#x200B;**[!UICONTROL Render using JavaScript]**&#x200B;切換為關閉。—>
 
 >[!NOTE]
 >

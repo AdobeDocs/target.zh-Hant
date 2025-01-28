@@ -8,7 +8,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -31,4 +31,4 @@ ht-degree: 0%
 * 指定縮圖基底URL
 * 設定自訂屬性金鑰
 
-如需詳細資訊，請參閱&#x200B;**[!DNL Adobe Target]開發人員指南**&#x200B;中的[計畫和實作Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank}。
+如需詳細資訊，請參閱&#x200B;**[!DNL Adobe Target]開發人員指南**&#x200B;中的[計畫和實作Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。

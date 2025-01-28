@@ -4,9 +4,9 @@ description: 使用 [!DNL Adobe Target] 活動個人化特定對象的內容並�
 title: 如何使用 [!DNL Target]個人化內容及測試頁面設計？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2234'
 ht-degree: 26%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 26%
 
 例如，您可以設計一個活動來測試兩個不同的登陸頁面，其中一個強調夏季女鞋的相關資訊，另一個登陸頁面以一般夏季服飾為主。活動會決定控制每個登入頁面顯示時間的條件，以及決定哪個頁面更成功的量度。 活動會設定為在符合特定條件時開始和結束，例如介於特定日期之間。 或者，您可以選擇在活動核準時開始，並在活動停用時結束。
 
-設計活動時，您應該謹慎規劃。決定活動何時開始及持續時間多長。 然後，列出您的選件並將目標客群指派給每個選件。
+設計活動時，您應該謹慎規劃。決定活動何時開始及持續時間多長。 然後，列出您的產品建議並將目標客群指派給每個產品建議。
 
 ## 活動清單 {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -48,9 +48,10 @@ ht-degree: 26%
 | [!UICONTROL Property] | 顯示活動的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企業使用者許可權是[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
 | [!UICONTROL Estimated Lift in Revenue] | 如果 100% 的對象皆看到勝出體驗，則顯示預測收入增加。<P>使用下列公式計算:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果縮短格式在小數前只有一位數，此數字會四捨五入到最多一位小數。例如: $1.6M、$60K、$900、$8.5K、$205K<P>如果活動沒有足夠資料來召開冠軍賽，或沒有成本預估，此欄會顯示 &quot;---&quot;。<P>請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。 |
 | [!UICONTROL Source] | 顯示建立活動的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)或[AdobeMobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
-| [!UICONTROL Location] | 活動的 URL 可識別活動出現的位置。此欄可協助您快速識別活動，並判斷特定頁面上是否已有活動在執行。<P>如果活動在多個URL上執行，則連結會顯示還有使用多少個URL。 按一下連結以檢視該活動的完整 URL 清單。<P>您可以根據URL來搜尋。 使用搜尋方塊旁邊的下拉式清單，並選取[!UICONTROL URL]。 |
 | [!UICONTROL Author] | 建立活動的使用者名稱。 |
 | [!UICONTROL Decisioning Method] | 每個活動中使用的決策方法： [伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)或[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
+
+<!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
 ## 活動類型 {#types}
 
@@ -64,7 +65,7 @@ ht-degree: 26%
 | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing] (MVT)會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳，並識別哪個元素最能影響活動的成功。 |
 | [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL Experience Targeting] (XT)會根據一組行銷人員定義的規則和條件將內容提供給特定對象。 |
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Target Premium](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization] (AP)結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同變數，以便個人化內容並促進轉換。 |
-| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 建議會根據網站訪客在網站上的活動，決定如何向訪客建議產品。<P>例如，您可能鼓勵買背包的人考慮買登山鞋和登山杖。您可以利用「購買了此項目、也購買了其他項目的使用者」演算法建立建議，以顯示通常一起購買的商品。或者，您可能想要使用「瀏覽過此專案、也瀏覽了其他專案的使用者」演演算法，將類似的影片推薦給正在觀看的影片，以鼓勵訪客將更多時間花在您的媒體網站上。<P>**附註**：您也可以在[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Experience Targeting] (XT)活動中包含建議。 如需詳細資訊，請參閱 [Recommendations 作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/main/c-intro/intro.md#premium)。 |
+| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 建議會根據網站訪客在網站上的活動，決定如何向訪客建議產品。<P>例如，您可能鼓勵買背包的人考慮買登山鞋和登山杖。您可以利用「購買了此項目、也購買了其他項目的使用者」演算法建立建議，以顯示通常一起購買的商品。或者，您可能想要使用「瀏覽過此專案、也瀏覽了其他專案的使用者」演演算法，將類似的影片推薦給正在觀看的影片，以鼓勵訪客將更多時間花在您的媒體網站上。<P>**附註**：您也可以在[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Experience Targeting] (XT)活動中包含建議。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。若要使用此功能，您必須具備 [Target Premium 授權](/help/main/c-intro/intro.md#premium)。 |
 
 ## 將篩選器套用至活動清單 {#filters}
 
@@ -95,7 +96,7 @@ ht-degree: 26%
 | [!UICONTROL Deactivate] | 停止已上線或排定的活動。已停用的活動可以重新啟動或封存。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | [!UICONTROL Activate] | 啟動非使用中活動或準備好要啟動的活動。 |
 | [!UICONTROL Archive] | 將活動傳送至封存。依預設，已封存的活動不再出現在[!UICONTROL Activities]清單中。 變更[!UICONTROL Activities]清單的篩選器以包含已封存的活動以檢視它們。 您可以啟動已封存的活動以再次使用。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
-| [!UICONTROL Copy] | 複製活動。任何活動皆可複製。複製活動會以相同名稱建立新活動，後面加上「的複本」。例如，名稱為「瀏覽器選件」的測試會複製為「瀏覽器選件複本」。<P>可視化選件會隨活動一起複製。您可以在複本中放心編輯選件，不會影響原始活動。唯一的例外是「內容/資產」資料夾中儲存的選件和影像。 |
+| [!UICONTROL Copy] | 複製活動。任何活動皆可複製。複製活動會以相同名稱建立新活動，後面加上「的複本」。例如，名稱為「瀏覽器產品建議」的測試會複製為「瀏覽器產品建議複本」。<P>可視化產品建議會隨活動一起複製。您可以在複本中放心編輯產品建議，不會影響原始活動。唯一的例外是「內容/資產」資料夾中儲存的產品建議和影像。 |
 | [!UICONTROL Delete] | 刪除草稿或活動。<P>**注意**：已刪除的活動無法復原。 除非您確定您不會再需要此活動，否則請使用[!UICONTROL Archive]動作。 之後，您可以視需要重新啟用活動。 |
 
 ## 考量事項
@@ -120,7 +121,7 @@ ht-degree: 26%
 | 項目 | 限制 |
 |--- |--- |
 | 唯一的選取器 | 300如果選取器在不同的體驗中重複，則會計為一次。 但如果在相同體驗中重複，則再算一次。 |
-| 每個體驗中的選件 | 350 |
+| 每個體驗中的產品建議 | 350 |
 | 量度中的點擊追蹤選取器 | 50 |
 | 量度中的 Mbox | 50 |
 | 對象和位置 | 50個對象和位置(mbox)組合不得超過50個。 |
