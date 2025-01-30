@@ -4,14 +4,14 @@ description: 瞭解如何預覽Adobe [!DNL Target] Recommendations活動，以�
 title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 16%
+source-wordcount: '1316'
+ht-degree: 15%
 
 ---
 
-# 預覽和啟動 Recommendations 活動
+# 預覽和啟動推薦活動
 
 在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活動後，您將想要預覽您的建議，以確保結果在啟動活動之前可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
 
@@ -21,11 +21,7 @@ ht-degree: 16%
 
 您可以檢查演演算法是否已在[!UICONTROL Activity]概觀圖表中完成執行，其中會列出條件狀態。 下圖顯示[!DNL Recommendations]活動[!UICONTROL Overview]頁面上的活動圖表狀態：
 
-![Recommendations活動概觀頁面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-下圖說明[!UICONTROL A/B Test]或XT活動的[!UICONTROL Overview]頁面上的狀態：
-
-![A/B測試概觀頁面](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Recommendations活動概觀頁面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 狀態結果包括下列專案，如下所示：
 
@@ -45,7 +41,7 @@ ht-degree: 16%
 
 如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定通常會導致演算法重新執行。根據所做的變更，先前計算的建議在重新執行完成前可能無法使用，或者若是較大的變更，則只有備份或預設內容在重新執行完成前才可使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 如果條件使用 [!DNL Adobe Analytics] 做為行為資料來源，建立後，條件可用時間會根據其他條件是否已使用選取的報表套裝和回顧期間而定。
 
@@ -59,9 +55,7 @@ ht-degree: 16%
 
 ## 使用QA連結預覽Recommendations
 
-演演算法有結果可供使用後，您可以使用[!DNL Adobe Target]的[QA連結](/help/main/c-activities/c-activity-qa/activity-qa.md)功能來預覽這些結果。 活動概觀頁面的[!UICONTROL Activity QA]區段中提供QA連結：
-
-![活動 QA 連結](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+演演算法有結果可供使用後，您可以使用[!DNL Adobe Target]的[QA連結](/help/main/c-activities/c-activity-qa/activity-qa.md)功能來預覽這些結果。 QA連結可在[!UICONTROL Activity]概觀頁面的[!UICONTROL Activity Location]區段中取得：
 
 >[!NOTE]
 >
@@ -103,19 +97,13 @@ ht-degree: 16%
 
 ## 啟用您的Recommendations活動
 
-從[!UICONTROL Activity Overview]索引標籤，按一下狀態旁邊的下拉箭頭，然後選取&#x200B;**[!UICONTROL Activate]**。
+從[!UICONTROL Activity Overview]索引標籤，按一下[狀態]下拉式箭頭，然後選取&#x200B;**[!UICONTROL Activate]**。
 
-![啟用選項](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+如果您的[!UICONTROL Recommendations]活動目前處於[!UICONTROL Inactive]狀態，下拉式清單會標示為[!UICONTROL Inactive]。
 
-請注意，狀態會變成[!UICONTROL Activating]：
+幾秒鐘到幾分鐘後，狀態會切換為[!UICONTROL Live]。
 
-![正在啟動](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-幾秒鐘到幾分鐘後，狀態會切換為[!UICONTROL Live]：
-
-![即時](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
-
-請注意，您也可以使用相同的下拉式清單來停用或封存活動。
+您也可以使用相同的下拉式清單來停用或封存活動。
 
 ## 避免變更Recommendations設定時發生中斷
 
