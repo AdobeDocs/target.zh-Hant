@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe [!DNL Target] QA URL來執行簡易的端�
 title: 如何QA活動？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 27%
 
 ---
@@ -31,11 +31,7 @@ ht-degree: 27%
 
 1. 從活動的[!UICONTROL Overview]頁面，按一下&#x200B;**[!UICONTROL Activity QA]**。
 
-   ![活動 QA 連結](assets/qa_link.png)
-
 1. 完成下列設定:
-
-   ![QA 連結設定選項](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]：**&#x200B;您有時想要確認對象比對有效果。 其他時候，您會想要檢查活動的外觀與風格。 如果此設定切換到「開啟」位置，測試者必須符合鎖定目標需求，才有資格看到體驗。對於「體驗鎖定目標 (XT)」活動，只會提供單一活動 URL。您看到的體驗取決於您是否符合其中一個鎖定目標規則。
 
@@ -121,7 +117,7 @@ ht-degree: 27%
 
 下表列出各種活動型別，並指出每個程式庫是否支援[!UICONTROL Activity QA]模式：
 
-| 活動類型 | at.js 1.x | at.js 2.x | Platform Web SDK |
+| 活動類型 | at.js 1.x | at.js 2.x | 平台網頁SDK |
 | --- | --- | --- | --- |
 | [!UICONTROL A/B Test] | 是 | 是 | 是 |
 | [!UICONTROL Auto-Allocate] | 是 | 是 | 是 |
