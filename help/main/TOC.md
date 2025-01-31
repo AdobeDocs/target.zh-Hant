@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 76%
+source-wordcount: '1519'
+ht-degree: 74%
 
 ---
 
@@ -261,8 +261,11 @@ ht-degree: 76%
    + [體驗與產品建議概覽](c-experiences/experiences.md)
    + 可視化體驗撰寫器 (VEC) {#vec}
       + [可視化體驗撰寫器概覽](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+      + [視覺化體驗撰寫器概覽（測試版）](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [可視化體驗撰寫器選項](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [視覺化體驗撰寫器選項（測試版）](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [在類似頁面上包含相同體驗](c-experiences/c-visual-experience-composer/temtest.md)
+      + [在類似頁面上包含相同體驗（測試版）](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [多頁活動](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [活動衝突](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 修改 {#modifications}
@@ -281,6 +284,7 @@ ht-degree: 76%
          + [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [可視化體驗撰寫器 Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重新導向至 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
+      + [重新導向至URL測試版](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [建立可在可視化體驗撰寫器中運作的輪播](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [表單式體驗撰寫器](c-experiences/form-experience-composer.md)
    + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
