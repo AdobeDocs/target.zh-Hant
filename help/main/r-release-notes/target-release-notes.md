@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1132'
 ht-degree: 14%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年1月27日**
+**上次更新日期：2025年1月31日**
 
 >[!NOTE]
 >
@@ -23,13 +23,20 @@ ht-degree: 14%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!UICONTROL Activities]使用者介面更新（2025年2月6日）
+## Target Standard/Premium 25.2.1 （2025年2月6日）
+
+此版本包含下列更新：
+
+* [!UICONTROL Activities]使用者介面更新
+* [!DNL Recommendations]使用者介面更新
+
+### [!UICONTROL Activities]使用者介面更新
 
 隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!UICONTROL Activities]使用者介面。
 
 >[!NOTE]
 >
->自2月6日星期三開始，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+>自2月6日星期四起，客戶將逐漸取得新[!UICONTROL Activities] UI的存取權。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
@@ -43,13 +50,13 @@ ht-degree: 14%
 
 ![活動重新整理](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## [!DNL Recommendations]使用者介面更新（2025年2月6日）
+### [!DNL Recommendations]使用者介面更新
 
 隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!DNL Recommendations]使用者介面。
 
 >[!NOTE]
 >
->自2月6日星期三開始，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+>自2月6日星期四起，客戶將逐漸取得新[!UICONTROL Recommendations] UI的存取權。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
@@ -63,7 +70,11 @@ ht-degree: 14%
 
 ![Recommendations UI重新整理](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## [!UICONTROL Offers Library]使用者介面更新（2025年1月9日）
+## Target Standard/Premium 25.1.1 （2025年1月9日）
+
+此版本包含下列更新：
+
+### [!UICONTROL Offers Library]使用者介面更新
 
 為了增強[!DNL Adobe Target]使用者的使用者體驗，此版本更新了[!UICONTROL Offers Library]使用者介面。
 
