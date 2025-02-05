@@ -5,9 +5,9 @@ title: 什麼是「重要屬性」報表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1773'
 ht-degree: 56%
 
 ---
@@ -36,25 +36,20 @@ ht-degree: 56%
 
 1. 按一下&#x200B;**[!UICONTROL Activities]**，然後從清單中按一下所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動。
 
-   如果您有許多活動，您可以從[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]及[!UICONTROL Activity Source]下拉式清單中選取選項，以篩選清單。
+   如果您有許多活動，請按一下篩選器（ ![篩選器圖示](/help/main/assets/icons/Filter.svg) ）圖示，以從[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉式清單中選取選項來篩選清單。
 
 1. 按一下 **[!UICONTROL Reports]**。
 
-   顯示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)報告，其中會提供關於活動效能的資訊，並以第一個畫面圖示表示。 兩個其他圖示代表兩個[!UICONTROL Personalization Insights]報告： [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]。
+   顯示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)報告，其中會提供關於活動效能的資訊，並以第一個畫面圖示表示。 兩個額外的圖示代表兩個[!UICONTROL Personalization Insights]報告： **[!UICONTROL Automated Segments]** （ ![自動化區段報告](/help/main/assets/icons/AutomatedSegment.svg) ）和&#x200B;**[!UICONTROL Important Attributes]** （ ![重要屬性圖示](/help/main/assets/icons/ViewList.svg) ）。
 
-   ![Automated Personalization活動的摘要報告](/help/main/c-reports/assets/summary-report-ap.png)
 
    請注意，[!UICONTROL Auto-Target]有一個額外的圖表圖示用於[!UICONTROL Summary]報告的圖形檢視。
-
-   ![自動鎖定目標活動的摘要報告](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
    >您啟動活動後的至少15天內，將無法使用[!UICONTROL Important Attributes]報表。 在此初始期間，您將無法存取此報表或按一下[!UICONTROL Important Attributes]圖示。 15天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL Important Attributes]報表。
 
-1. 啟動活動15天後，按一下&#x200B;**[!UICONTROL Important Attributes]**&#x200B;圖示。
-
-   Adobe Target報表中的![重要屬性圖示](/help/main/c-reports/assets/model_attribute_ranking.png)
+1. 啟動活動15天後，按一下&#x200B;**[!UICONTROL Important Attributes]** （ ![重要屬性圖示](/help/main/assets/icons/ViewList.svg) ）圖示。
 
 1. 選取所需的日期範圍。
 
@@ -62,17 +57,11 @@ ht-degree: 56%
 
    這些固定日期範圍允許[!UICONTROL Personalization Insights]使用足夠大的資料範圍，以降低您從活動中的短期模式衍生深入分析的可能性。 您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。你會注意到「開始」呈現灰色。開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
-   ![Adobe Target報告中的行事曆](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   您可以從[!UICONTROL Choose Duration]下拉式清單中存取可用的固定日期範圍。
-
-   ![選擇報表中的「持續時間」下拉式清單](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   您可以從[!UICONTROL Preset Date Range]下拉式清單中存取可用的固定日期範圍。
 
 1. 檢閱[!UICONTROL Important Attributes]報表資料。
 
-   Adobe Target中的![重要屬性報表](/help/main/c-reports/assets/model_attribute_ranking_report.png)
-
-1. (選用) [下載 CSV 格式的報表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在 Excel 和其他工具中進行分析。
+1. （選擇性）按一下「下載」 （![「下載」圖示](/help/main/assets/icons/Download.svg)）圖示，以[下載CSV格式的報表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在Excel和其他工具中進行分析。
 
    >[!NOTE]
    >
@@ -84,7 +73,7 @@ ht-degree: 56%
 
 | 元素 | 詳細資料 |
 |--- |--- |
-| 橫條圖 | 畫面頂端的多色彩橫條圖允許您視覺化這些相對重要性分數，並對應到表格中各個屬性旁邊的點的顏色。您也可以將游標移至橫條圖中的特定顏色上，以查看其代表的屬性。100 個常見屬性的重要性分數增加到 100%。如需如何新增更多可供Target個人化模型使用的屬性的詳細資訊，請參閱[上傳Target Personalization演演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。 |
+| 橫條圖 | 畫面頂端的多色彩橫條圖允許您視覺化這些相對重要性分數，並對應到表格中各個屬性旁邊的點的顏色。您也可以將游標移至長條圖中的特定顏色上，以查看其代表的屬性。100 個常見屬性的重要性分數增加到 100%。如需如何新增更多可供Target個人化模型使用的屬性的詳細資訊，請參閱[上傳Target Personalization演演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。 |
 | 模型屬性排名圖表 | 「模型屬性排名」包括 10 個常見的屬性，這些對於 Target 的個人化模型如何決定向每個訪客顯示內容而言是最重要的屬性。重要性分數顯示關於這 100 個常見屬性中，特定屬性對此活動中 Target 個人化模型的重要程度。 |
 
 ## 「重要屬性」常見問答集 {#section_740910A52FA646B4AC9452F98C2F5719}
@@ -113,7 +102,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]報表中的資訊是否與CSV下載中的資訊相同？
 
-否，UI 報表包含選取資訊。CSV 下載包含其他詳細資料。「自動化區段前瞻分析報表」下載包括 UI 中包含之常用區段以外的其他「自動化區段」，以及這些區段對選件或體驗的執行方式。「重要屬性」報表包括 100 個常見的訪客屬性及其相對重要性，而 UI 僅包括 10 個常見的訪客屬性。
+否，UI 報表包含選取資訊。CSV 下載包含其他詳細資料。「自動化區段前瞻分析報表」下載包括 UI 中包含之常用區段以外的其他「自動化區段」，以及這些區段對產品建議或體驗的執行方式。「重要屬性」報表包括 100 個常見的訪客屬性及其相對重要性，而 UI 僅包括 10 個常見的訪客屬性。
 
 ### 我可以看到自訂日期範圍的Personalization Insights嗎？
 
@@ -133,21 +122,21 @@ Personalization前瞻分析報告（[!UICONTROL Automated Segments]和[!UICONTRO
 
 ### 與某些自動化區段的其他選件/體驗相比，為什麼某些具有較低轉換率的選件/體驗接收到較大量的流量？
 
-有多種可能原因會讓您在自動化區段中看到更多造訪較低轉換選件/體驗，包括：
+有多種可能原因會讓您在自動化區段中看到更多造訪較低轉換產品建議/體驗，包括：
 
-* 針對某些自動化區段之部分或全部選件/體驗的少量檢視。
-* 某些選件或體驗尚未建立模型的較少量活動。
-* 某些選件/體驗比其他選件/體驗更早建立模型的較少量活動。例如，假設已在第 22 天建立額外的模型，而且您要查看從第 10 至 24 天的資料。
-* 鎖定特定選件的規則目標，限制哪些訪客可以查看哪些選件/體驗。
+* 針對某些自動化區段之部分或全部產品建議/體驗的少量檢視。
+* 某些產品建議或體驗尚未建立模型的較少量活動。
+* 某些產品建議/體驗比其他產品建議/體驗更早建立模型的較少量活動。例如，假設已在第 22 天建立額外的模型，而且您要查看從第 10 至 24 天的資料。
+* 鎖定特定產品建議的規則目標，限制哪些訪客可以查看哪些產品建議/體驗。
 * 前瞻分析報表中沒有任何信賴區間。不過，如果轉換率夠接近，模型可能會提供流量，如此在點的量中看起來會比較高，但並非有「統計差異」的數字。
 
-瞭解提供流量的模型運作方式會有所助益。每個個人都是根據其總計設定檔提供。不過，前瞻分析報表會歸納此行為，讓人類更容易解讀。因此，區段並非互斥。這可能會導致個別區段顯示這種行為，因為同一個人可以出現在多個區段中。
+瞭解提供流量的模型運作方式會有所助益。每個個人都是根據其總計輪廓提供。不過，前瞻分析報表會歸納此行為，讓人類更容易解讀。因此，區段並非互斥。這可能會導致個別區段顯示這種行為，因為同一個人可以出現在多個區段中。
 
 ### 在Personalization Insights中，我可以以哪些不同方式運用資訊？
 
 * 發現要鎖定目標的新對象: 如果您發現某個特定自動化區段執行效能特別好，則可以考慮建立對象，以便您可以在其他報表中重複使用該區段。
 * 測試您的假設，瞭解哪種類型的訪客會對您的哪些體驗做出回應。
-* 深入瞭解哪些內容適用於何種類型的訪客: 哪些選件負責提升訪客造訪次數。
+* 深入瞭解哪些內容適用於何種類型的訪客: 哪些產品建議負責提升訪客造訪次數。
 * 識別表現不佳的內容。
 * 瞭解哪些屬性對模型的學習方式最重要。
 * 看看個人化模型中使用的屬性及其重要性。

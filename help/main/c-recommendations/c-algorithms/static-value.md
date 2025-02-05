@@ -5,16 +5,16 @@ title: 如何在Recommendations活動中依靜態值篩選？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 45%
 
 ---
 
-# 靜態篩選
+# [!UICONTROL Static Filter]
 
-手動輸入一個或多個靜態值，以使用[!DNL Adobe Target] [!DNL Recommendations]中的包含規則進行篩選。
+手動輸入一個或多個靜態值，以使用[!DNL Adobe Target Recommendations]中的包含規則進行篩選。
 
 例如，僅建議電影協會(MPA)評等為&quot;G&quot;或&quot;PG&quot;的內容。
 
@@ -26,6 +26,4 @@ ht-degree: 45%
 
 ## 推薦分級為G或PG的內容
 
-若要使用靜態值建立包含規則，以僅建議MPA評等為「G」或「PG」的內容（排除「R」和「NC17」內容），您可以建立下列篩選規則「電影評等等於g評等」和「電影評等等於pg評等」，如下所示。
-
-![電影分級範例](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+若要使用靜態值建立包含規則，以僅建議MPA評等為「G」或「PG」的內容（排除「R」和「NC17」內容），您可以建立下列篩選規則：「電影評等等於任何g評等」以及「電影評等等於任何pg評等」。

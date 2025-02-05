@@ -4,30 +4,28 @@ description: 瞭解如何以CVS格式從Adobe [!DNL Target] 活動下載資料�
 title: 如何下載CSV檔案的報表資料？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 37%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
 # 將資料下載為 CSV 檔案
 
-將資料下載為 .csv 格式，以快速匯入至 Excel、Access 或其他資料分析程式。
+下載.csv格式的資料，以快速匯入至[!DNL Excel]、[!DNL Access]或其他資料分析程式。
 
 若要下載 CSV 檔案中的資料:
 
 1. 按一下 **[!UICONTROL Activities]**，然後從清單按一下需要的活動。
 
-   如果您有許多活動，您可以從[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]及[!UICONTROL Activity Source]下拉式清單中選取選項，以篩選清單。
+   如果您有許多活動，請按一下篩選器（ ![篩選器圖示](/help/main/assets/icons/Filter.svg) ）圖示，以從[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉式清單中選取選項來篩選清單。
 
 1. 按一下「**[!UICONTROL Reports]**」標籤。
-1. 按一下「**[!UICONTROL Download]**」圖示，然後選取要下載到Excel和其他工具中分析的報表型別。
+1. 按一下「**[!UICONTROL Download]**」（「![下載」圖示](/help/main/assets/icons/Download.svg)）圖示，然後選取要下載到Excel和其他工具中分析的報表型別。
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![下載選項](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -61,7 +59,7 @@ ht-degree: 37%
 
 * 體驗
 
-  在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)和[!UICONTROL Multivariate Test] (MVT)活動的[!UICONTROL Order Details]報表中，[!UICONTROL Experience]欄包含體驗`localId`。 這是從選件 Token 中的 `$campaign.recipe.id` 輸出的值。
+  在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)和[!UICONTROL Multivariate Test] (MVT)活動的[!UICONTROL Order Details]報表中，[!UICONTROL Experience]欄包含體驗`localId`。 這是從產品建議 Token 中的 `$campaign.recipe.id` 輸出的值。
 
   [!UICONTROL Automated Personalization] (AP)活動沒有[!UICONTROL Experience]欄。 目前的[!UICONTROL Algorithm Name]欄已取代為「控制」與「已鎖定目標」術語，如[!DNL Target]的其他部分所示。
 

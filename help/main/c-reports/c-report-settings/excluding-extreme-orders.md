@@ -4,10 +4,10 @@ description: 瞭解如何排除極端值，以免影響Adobe [!DNL Target] 中�
 title: 如何在報表中排除極端值？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -29,10 +29,8 @@ ht-degree: 65%
 
 **若要從您的報表中排除極端值:**
 
-1. 開啟包含收入或參與量度型別的活動，然後按一下「**[!UICONTROL Reports]**」標籤。
-1. 按一下齒輪圖示以顯示&#x200B;**[!UICONTROL Settings]**&#x200B;對話方塊。
-
-   ![步驟結果](assets/exclude_extreme_values.png)
+1. 開啟包含[!UICONTROL Revenue]或[!UICONTROL Engagement]量度型別的活動，然後按一下&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤。
+1. 按一下「報表設定」（![報表設定圖示](/help/main/assets/icons/Setting.svg)）圖示，以顯示&#x200B;**[!UICONTROL Settings]**&#x200B;對話方塊。
 
 1. 視需要將&#x200B;**[!UICONTROL Exclude Extreme Values]**&#x200B;切換滑至「開啟」或「關閉」位置。
 1. 按一下 **[!UICONTROL Save]**。

@@ -4,16 +4,16 @@ description: 瞭解如何建立自訂對象，並將其儲存至 [!DNL Adobe Tar
 title: 如何建立受眾？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 58%
+ht-degree: 51%
 
 ---
 
 # 在[!DNL Target]中建立對象
 
-您可以建立自訂對象，並將其儲存至[!DNL Adobe Target] [!UICONTROL Audiences]資料庫，以便在您的活動中使用。 您也可以複製現有對象，然後編輯以建立類似的對象並合併多個對象。
+建立自訂對象，並將其儲存至[!DNL Adobe Target] [!UICONTROL Audiences]資料庫，以便在您的活動中使用。 您也可以複製現有對象，然後編輯以建立類似的對象並合併多個對象。
 
 ## 客群概覽
 
@@ -25,13 +25,13 @@ ht-degree: 58%
 
 您可以將這兩個布林運算子混合來建立複雜的規則; 不過，相同規則層級的運算子必須相符。使用者介面會自動套用至正確的運算子。
 
-例如，下列規則會鎖定在 Windows 電腦上使用 Chrome *或* Firefox 的訪客:
+例如，下列規則會鎖定在[!DNL Windows]電腦上使用[!DNL Chrome] *或* [!DNL Firefox]的訪客：
 
 ![建立客群](assets/audience_create.png)
 
 >[!NOTE]
 >
->請小心，避免建立規則來排除所有可能的客群成員。例如，某人無法同時使用 Chrome *與* Firefox 來造訪頁面。
+>請小心，避免建立規則來排除所有可能的客群成員。例如，某人無法同時使用[!DNL Chrome] *和* [!DNL Firefox]來造訪頁面。
 
 ## 建立客群
 
@@ -43,7 +43,7 @@ ht-degree: 58%
 
    或
 
-   若要複製現有對象，請從[!UICONTROL Audiences]清單中按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（省略符號圖示），然後按一下&#x200B;**[!UICONTROL Duplicate]**。 然後您可以編輯客群以建立類似的客群。
+   若要複製現有對象，請從[!UICONTROL Audiences]清單中，按一下您要複製之對象的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下&#x200B;**[!UICONTROL Duplicate]**。 然後您可以編輯客群以建立類似的客群。
 
 1. 輸入不重複、描述性的對象名稱和選擇性說明。
 
@@ -55,7 +55,7 @@ ht-degree: 58%
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. 從右側的&#x200B;**[!UICONTROL Attributes]**&#x200B;清單將所需的屬性拖放至對象產生器窗格。
+1. 從左側的&#x200B;**[!UICONTROL Attributes]**&#x200B;清單將所需的屬性拖放至對象產生器窗格。
 
    ![拖放屬性](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ ht-degree: 58%
 
 1. 定義規則參數。
 
-   例如，下列對象會使用Macintosh作業系統鎖定來自猶他州的訪客。
+   例如，下列對象會使用[!DNL Macintosh]作業系統鎖定來自猶他州的訪客。
 
    ![猶他州/Macintosh對象](assets/adience-builder.png)
 

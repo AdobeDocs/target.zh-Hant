@@ -1,17 +1,17 @@
 ---
 keywords: 自動化流量分配；鎖定目標；獲勝者；統計保證；信賴度；決定獲勝者；提升度；信賴度；預設；預設體驗；自動分配；自動分配
-description: 瞭解如何透過檢查重要指標（包括提升度和信賴度）來解釋Adobe [!DNL Target] 中[!UICONTROL Auto-Allocate] A/B活動的結果。
+description: 探索如何解譯[!UICONTROL Auto-Allocate] A/B活動結果，並專注於提升度和信賴度等關鍵指標。
 title: 如何解譯[!UICONTROL Auto-Allocate]報表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 21%
+source-wordcount: '1163'
+ht-degree: 20%
 
 ---
 
-# 解讀自動分配報告
+# 解譯[!UICONTROL Auto-Allocate]報告
 
 透過檢查重要指標（包括提升度和信賴度）來解譯[!UICONTROL Adobe Target]中[!UICONTROL Auto-Allocate] A/B活動的結果。
 
@@ -23,23 +23,23 @@ ht-degree: 21%
 
 使用[!UICONTROL Auto-Allocate]功能時，[!DNL Target]會在活動的頁面上方顯示徽章，指出「尚未有贏家」，直到活動達到具有足夠信賴的最低轉換數量為止。
 
-![無贏家徽章](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![無贏家徽章](/help/main/c-activities/automated-traffic-allocation/assets/no-winner-new.png)
 
-宣告明確的獲勝者時，[!DNL Target]會顯示「獲勝者：體驗&#x200B;*X*」。
+宣告明確的獲勝者時，[!DNL Target]會顯示「獲勝者：體驗&#x200B;*X*」徽章。
 
-![獲勝者影像](assets/winner.png)
+![獲勝者徽章](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
->「自動分配」活動旨在所有選項之中找出最佳體驗，而不只與控制項進行成對比較而已。
+>[!UICONTROL Auto-Allocate]活動的設計目的，是為了在所有選項中尋找最佳體驗，而不只是與控制項進行成對比較。
 
-## 自動分配的統計保證 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## [!UICONTROL Auto-Allocate]的統計保證 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 在A/B活動結束時，[!UICONTROL Auto-Allocate]可保證已決定的獲勝者有5%的有效誤判率。 這表示在活動的所有體驗之中，只有 5% 的時間，決定的獲勝者實際上不是最佳體驗。對於[A/A測試](/help/main/c-activities/t-test-ab/aa-testing.md) （具有相同的體驗），[!DNL Target]會結束不到5%時間的測試。 A/A 測試 (使用相同的體驗) 的預期行為是無限期執行，所以獲勝者徽章永遠不會出現。
 
 [!DNL Target]沒有對[!UICONTROL Auto-Allocate]使用p值型信賴度。
 
-[!UICONTROL Auto-Allocate]活動（如下圖所示）中的[!UICONTROL Confidence]欄會顯示體驗在1%錯誤邊界內成為獲勝者的機率。 演演算法使用最佳和次最佳轉換率之間的最小可偵測效果為1%。 演演算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)來計算此機率。
+[!UICONTROL Auto-Allocate]活動中的[!UICONTROL Confidence]欄會顯示體驗在1%的錯誤邊際內成為獲勝者的機率。 演演算法使用最佳和次最佳轉換率之間的最小可偵測效果為1%。 演演算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)來計算此機率。
 
 一般 A/B 測試會根據 p 值來計算信賴度。[!UICONTROL Auto-Allocate]不使用p值。 P 值會「寬鬆」計算所給定體驗與控制項不同的機率。這些 p 值只能用來判斷體驗是否可能與控制不同。這些值只能用來判斷體驗是否與另一個體驗 (非控制) 不同。
 
@@ -82,5 +82,3 @@ ht-degree: 21%
 「尚未有贏家」和「贏家」徽章目前在[!DNL Analysis Workspace]的[!UICONTROL A4T]面板中無法使用。 如果在[!DNL Target]中檢視相同的報表，則也無法使用這些徽章。 使用A4T的[!UICONTROL Auto-Allocate]活動在[!DNL Target]報告中顯示的獲勝者「星星」徽章應予以忽略。
 
 如需此專案以及其他限制和附註的詳細資訊，請參閱[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動&#x200B;*在* A4T支援中的[自動分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)。
-
-

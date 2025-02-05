@@ -1,14 +1,14 @@
 ---
 keywords: 建議設計;建立設計;複製設計
-description: 瞭解如何使用預設設計或建立最符合您的頁面版面配置的自訂設計來建立Adobe [!DNL Target] Recommendations設計。
+description: 瞭解如何使用預設設計或透過建立自訂設計以最符合您的頁面版面配置來建立 [!DNL Target Recommendations] 設計。
 title: 如何在Recommendations中建立設計？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 20%
+source-wordcount: '979'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 20%
 
 ![自訂設計](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-您可以在活動建立過程中從視覺化體驗撰寫器(VEC)內或在活動建立之外從設計程式庫建立設計。 以下各節假設您是從資料庫中建立設計，但步驟類似。
+您可以在活動建立過程中從[!UICONTROL Visual Experience Composer] (VEC)內或在活動建立之外從設計程式庫建立設計。 以下各節假設您是從資料庫中建立設計，但步驟類似。
 
 ## 建立設計
 
@@ -43,23 +43,18 @@ ht-degree: 20%
 
 1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**」以顯示[!UICONTROL Designs]資料庫。
 
-   ![設計資料庫](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. 將游標移至您要建立的設計的卡片上，然後按一下&#x200B;**[!UICONTROL Copy]**&#x200B;圖示。
-
-   ![Card_CopyDesign圖片](assets/Card_CopyDesign.png)
+1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下&#x200B;**[!UICONTROL Copy]**。
 
    [!UICONTROL Create Design]對話方塊隨即顯示。
 
-   ![createDesign影像](assets/createDesign.png)
-
-1. 在&#x200B;**[!UICONTROL Information]**&#x200B;面板中，新增&#x200B;**[!UICONTROL Content Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
+1. 輸入&#x200B;**[!UICONTROL  Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
 
    使用預設設計時，設計名稱和「Copy」會出現在&#x200B;**[!UICONTROL Content Name]**&#x200B;欄位中。 您可以編輯名稱。您也可以選取要在設計卡片上顯示的影像。
 
 1. （視條件而定）視需要編輯設計&#x200B;**[!UICONTROL Code]**。
 
-   Recommendation設計使用開放原始碼[!DNL Velocity]設計語言。 有關[!DNL Velocity]的資訊可在[https://velocity.apache.org](https://velocity.apache.org)和[使用 [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)自訂設計。
+   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請參閱[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)。
 
    設計可以是 HTML 或非 HTML。根據預設，HTML設計會以`<div>`標籤包住，以允許在Web環境中進行點選追蹤。 非HTML設計適用於無法進行點選追蹤的非Web環境。 滑動[!UICONTROL HTML Design]切換至「關閉」位置以使用非HTML代碼。
 
@@ -67,7 +62,7 @@ ht-degree: 20%
    >
    >可在設計中參照（硬式編碼或透過回圈）的實體數上限為99。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 ### 建立自訂設計
 
@@ -75,33 +70,31 @@ ht-degree: 20%
 
 1. 按一下 **[!UICONTROL Create Design]**。
 
-   如果您想要讓新的自訂設計以現有設計為基礎，請將滑鼠移至所需設計上，然後按一下[!UICONTROL Copy]圖示。 然後您可以編輯復本以建立新的自訂設計。
+   如果您想要讓新的自訂設計以現有設計為基礎，請按一下您要建立的設計的[!UICONTROL More Actions]圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[!UICONTROL Copy]。 然後您可以編輯復本以建立新的自訂設計。
 
-1. 新增&#x200B;**[!UICONTROL Content Name]**&#x200B;和選用的預覽影像。
+1. 新增&#x200B;**[!UICONTROL Name]**&#x200B;和選用的預覽影像。
 
 1. （視條件而定）視需要編輯設計&#x200B;**[!UICONTROL Code]**。
 
    如需詳細資訊，請參閱上述步驟4中的資訊。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 ## 編輯、複製或刪除設計
 
 請記住，您無法編輯或複製預設設計；您只能複製預設設計。
 
-將游標暫留在[!UICONTROL Design]資料庫中所需的設計上，然後按一下適當的圖示：編輯、複製或刪除。
-
-![設計的暫留圖示](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+按一下您要編輯或刪除的設計的[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下適當的圖示： [!UICONTROL Edit]、[!UICONTROL Copy]或[!UICONTROL Delete]。
 
 您可以複製現有設計來建立複製設計，然後可以修改設計。 此程式可讓您輕鬆建立類似設計。
 
-請注意，設計在整個帳戶中皆可使用。 在刪除設計之前，請考慮在其他帳戶中的使用方式。 已刪除的設計無法復原。
+請注意，設計在整個帳戶中皆可使用。 刪除設計之前，請務必考量各帳戶的使用情況。 已刪除的設計無法復原。
 
 ## JSON 範例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-以下範例說明透過表單式編輯器設定活動時，如何傳回JSON回應。
+下列範例說明在透過[表單式編輯器](/help/main/c-experiences/form-experience-composer.md)設定活動時，如何傳回JSON回應。
 
-1. 從設計資料庫或表單式工作流程內建立設計。 如果您嘗試在[!UICONTROL Visual Experience Composer] (VEC)工作流程中建立設計，則無法建立除了HTML設計以外的任何專案，此設計會包裝在`<div>`中以供點選追蹤之用。
+1. 從[!UICONTROL Design library]內或表單式工作流程內建立設計。 如果您嘗試在[!UICONTROL Visual Experience Composer] (VEC)工作流程中建立設計，則無法建立除了HTML設計以外的任何專案，此設計會包裝在`<div>`中以供點選追蹤之用。
 
 1. 確定「HTML 設計」選項已關閉:
 
@@ -174,13 +167,13 @@ ht-degree: 20%
 
 ## 其他JSON物件秘訣與技巧 {#section_C305673C68944749969DB239E3221DC2}
 
-您也可以使用下列語法來設定設計，只傳回一份簡單的以逗號分隔的項目清單:
+您也可以使用下列語法設定設計，傳回簡單的逗號分隔專案清單：
 
 ```
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。此設計範例也傳回活動詳細資料、Target設定檔詳細資料（如適用），以及與傳回的專案相關聯的其他`entity.attributes`。
+或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。此設計範例也傳回活動詳細資料、[!UICONTROL Target Profile]詳細資料（如適用），以及與傳回的專案相關聯的其他`entity.attributes`。
 
 ```javascript
     {   

@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 39%
 
 ---
 
@@ -23,15 +23,22 @@ ht-degree: 42%
 
 在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中，有兩個選項可供您的控制項使用：
 
-* **隨機提供**：針對隨機控制，流量的控制百分比會隨機提供給活動中的所有體驗，而不考慮該訪客的設定檔。 控制有助於回答此問題：「如果我只隨機將體驗（或選件）提供給訪客，且不考慮其設定檔，該體驗（或選件）的轉換率為何？」 控制項就像AI活動中的[!UICONTROL A/B Test]。 擁有這項各個體驗或選件的非個人化轉換率的資訊，就能在分析活動結果時協助您輕鬆瞭解。
+* **隨機提供**：針對隨機控制，流量的控制百分比會隨機提供給活動中的所有體驗，而不考慮該訪客的設定檔。 控制有助於回答此問題：「如果我只隨機將體驗（或選件）提供給訪客，且不考慮其設定檔，該體驗（或選件）的轉換率為何？」 控制項就像AI活動中的[!UICONTROL A/B Test]。 擁有這項各個體驗或產品建議的非個人化轉換率的資訊，就能在分析活動結果時協助您輕鬆瞭解。
 
 * **特定體驗**：特定體驗控制可讓您比較[!DNL Target]個人化模型與特定行銷人員定義體驗（例如您的預設首頁）所提供的流量。 透過此選項，流量的控制百分比會隨機將流量提供給該體驗。
 
 ## 指定特定體驗作為控制
 
 1. 在建立或編輯[[!UICONTROL Automated Personalization]活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)或[[!UICONTROL Auto-Target]活動](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)時，視需要設定體驗。
-1. 在[!UICONTROL Targeting]頁面（三步驟引導式工作流程的步驟2）上，選取要用來作為控制的體驗。
-1. 真對控制體驗和其他體驗，指定所需的流量分配。
+1. 在[!UICONTROL Targeting]頁面（三步驟引導式工作流程的步驟2）上，按一下控制體驗，以在右窗格中顯示[!UICONTROL Control]選項。
+
+   ![控制窗格](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. 從[!UICONTROL Control]下拉式清單中，選取[!UICONTROL Random Experience]或選取您要用於控制項的體驗。
+
+1. 按一下[!UICONTROL Traffic Allocation]控制項，然後指定控制項體驗和其他體驗所需的流量分配。
+
+   ![流量分配邊欄](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    針對特定體驗控制，建議指定 10% 至 30%。
 
@@ -45,8 +52,8 @@ ht-degree: 42%
 * 不建議刪除控制體驗。
 * 不建議透過作為控制的特定體驗將許多新選件或體驗新增至上線活動。
 * 在[!UICONTROL Automated Personalization]活動中，不建議在可能會進一步限制誰能看到控制體驗的該體驗上包含鎖定目標。
-* 在[!UICONTROL Automated Personalization]個活動中，如果已選取特定體驗，提升度和信賴資訊在選件層級的報告中&#x200B;*NOT*&#x200B;可用。 在[!UICONTROL Automated Personalization]活動的整體「已鎖定目標」與「控制」流量層級提供提升度和信賴資訊。 如果已選取「隨機」作為控制，則可取得提升度和信賴資訊。此差異是因為比較特定體驗的轉換率與選件的轉換率，由於兩者單位不同，這種比較並不符合邏輯。無論選取哪種控制型別，[!UICONTROL Auto-Target]活動中可用的資訊都是相同的。
-* 因為在您選取體驗作為控制時，所有控制流量都會進入單一體驗或一組選件 (相較之下，在隨機狀況中，控制流量則會分散在活動中的多個體驗或選件之中)，您通常不需要像流向控制如此多的流量。建議從 10% 開始。
+* 在[!UICONTROL Automated Personalization]個活動中，如果已選取特定體驗，提升度和信賴資訊在選件層級的報告中&#x200B;*NOT*&#x200B;可用。 在[!UICONTROL Automated Personalization]活動的整體「已鎖定目標」與「控制」流量層級提供提升度和信賴資訊。 如果已選取「隨機」作為控制，則可取得提升度和信賴資訊。此差異是因為比較特定體驗的轉換率與產品建議的轉換率，由於兩者單位不同，這種比較並不符合邏輯。無論選取哪種控制型別，[!UICONTROL Auto-Target]活動中可用的資訊都是相同的。
+* 因為在您選取體驗作為控制時，所有控制流量都會進入單一體驗或一組產品建議 (相較之下，在隨機狀況中，控制流量則會分散在活動中的多個體驗或產品建議之中)，您通常不需要像流向控制如此多的流量。建議從 10% 開始。
 * 如果您透過作為控制的特定體驗對上線活動執行下列其中一項操作，控制會自動重設為隨機提供體驗 (而不是先前選取的特定體驗):
 
    * 刪除體驗

@@ -1,54 +1,50 @@
 ---
-keywords: 建立建議;Recommendations 活動;新建議;建議概覽
-description: 瞭解如何使用Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)，直接在啟用 [!DNL Target]的頁面上建立Recommendations活動。
-title: 如何建立Recommendations活動？
+keywords: 建立建議;推薦活動;新建議;建議概覽
+description: 瞭解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)來建立 [!DNL Recommendations] 活動。
+title: 如何建立 [!DNL Recommendations] 活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 55%
+source-wordcount: '1176'
+ht-degree: 51%
 
 ---
 
-# 建立 Recommendations 活動
+# 建立[!DNL Recommendations]活動
 
-使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
+使用[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)直接在啟用[!DNL Target]的頁面上建立[!DNL Recommendations]活動，以及在[!DNL Target]內修改頁面的部分。
 
 1. 按一下&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**。
 
-1. 視需要選取&#x200B;**[!UICONTROL Visual (Default)]**。
+1. 視需要選取&#x200B;**[!UICONTROL Visual]**。
 
-   ![建立 Recommendations 活動對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   如果您偏好使用表單式體驗撰寫器，請選取[!UICONTROL Form]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
+   如果您偏好使用[!UICONTROL Form-Based Experience Composer]，請選取[!UICONTROL Form]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了 VEC 和表單式體驗撰寫器之外，Target 還提供單頁應用程式 VEC 和適用於行動應用程式的 VEC。如需各種撰寫器的詳細資訊，請參閱[體驗和選件](/help/main/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL Form-Based Experience Composer]，[!DNL Target]還提供[!UICONTROL Single Page Application] VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
-   >
-   >上圖中的[!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是Target Standard授權。
 
-1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （視條件而定）選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定活動URL，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 指定活動URL，然後按一下&#x200B;**[!UICONTROL Create]**。
 
    >[!NOTE]
    >
    >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
 
-   活動 URL 為將顯示建議所在的頁面。
+   活動URL是建議顯示的頁面。
 
-   當您按一下[!UICONTROL Next]時，VEC會開啟並顯示您的頁面。 您可以使用建議取代目前的元素，或插入建議。
+   當您按一下[!UICONTROL Create]時，VEC會開啟並顯示您的頁面。 您可以使用建議取代目前的元素，或插入建議。
 
 1. 按一下您的頁面上的元素，然後如果建議可供元素所在的位置使用，請按一下&#x200B;**[!UICONTROL Replace w/ Recommendations]**、**[!UICONTROL Insert Recommendations Before]**&#x200B;或&#x200B;**[!UICONTROL Insert Recommendations After]**。
 
    網站的訪客只有在符合建議資格時，才會看到建議內容。 不符合建議資格的訪客將看到預設內容。
 
-   ![Recommendations 選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![推薦選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    * **[!UICONTROL Replace w/ Recommendations]**：以建議取代元素會刪除目前的內容，並以您的建議取代。 當訪客造訪您的網站並符合建議資格時，他們將在指定區域中看到建議專案，而不是現有內容。
    * **[!UICONTROL Insert Recommendations Before]**：在選取的元素之前插入建議，將建議內容置於該元素之前。 根據您的頁面建構，建議會顯示在所選元素的上方或左側。
@@ -123,7 +119,7 @@ ht-degree: 55%
 
 1. 在流程圖表中檢閱您的 [!DNL Recommendations] 活動，並進行任何必要的變更。
 
-   ![Recommendations 流程圖](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![推薦流程圖](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    流程圖表將引導您進行選擇活動客群和設定體驗的步驟，並指定成功量度。
 

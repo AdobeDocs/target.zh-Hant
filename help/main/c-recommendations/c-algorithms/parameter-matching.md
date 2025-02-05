@@ -5,14 +5,14 @@ title: 如何在Recommendations活動中依引數比對來篩選？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '332'
 ht-degree: 10%
 
 ---
 
-# 參數比對
+# [!UICONTROL Parameter Matching]
 
 比較專案（實體）與請求（API或mbox）中的值，以動態篩選。
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->如果活動是在2016年10月31日之前建立，假如使用「引數比對」篩選，則傳送會失敗。 若想暫時解決此問題，請:
+>如果活動是在2016年10月31日之前建立，假如使用「引數比對」篩選器，則傳送會失敗。 若想暫時解決此問題，請:
 >
 >* 建立新活動，並在其中新增條件。
 >* 使用不包含「參數比對」篩選的條件。
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 [!UICONTROL Parameter Matching]可讓您建議符合頁面引數或訪客引數的內容，例如裝置維度或地理位置，如下列範例所示：
 
-[!DNL Recommendations]可以比對[!DNL Target]呼叫中傳送的引數值。 在此執行個體中，[!DNL Target]會根據[!DNL Target]呼叫中傳送的熒幕高度和寬度引數，偵測到訪客正在使用行動裝置，並將僅建議行動裝置專案。
+[!DNL Recommendations]可以比對[!DNL Target]呼叫中傳送的引數值。 在此執行個體中，[!DNL Target]會根據[!DNL Target]呼叫中傳送的熒幕高度和寬度引數，偵測到訪客正在使用行動裝置，並僅建議行動裝置專案。
 
 考量下列範例Target呼叫：
 

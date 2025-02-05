@@ -4,26 +4,24 @@ description: 瞭解如何針對Adobe [!DNL Target] 體驗鎖定目標活動使�
 title: 如何將體驗效能報表用於多變數測試？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: '326'
+ht-degree: 75%
 
 ---
 
-# 體驗效能報表 (MVT)
+# [!UICONTROL Experience Performance]報告(MVT)
 
-體驗效能報表顯示活動中的每個體驗的執行成果。此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
+[!UICONTROL Experience Performance]報表顯示活動中的每個體驗的執行方式。 此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
 
 您可以選取一或多個體驗來相互比較。按一下體驗並選取&#x200B;**[!UICONTROL Preview]**&#x200B;以在瀏覽器索引標籤中開啟體驗。
-
-Adobe Target中的![體驗效能報表](/help/main/c-reports/assets/experienceperformancetable.png)
 
 報表頂端會顯示報表中使用的量度、開始和結束日期，以及對象。您可以變更任何係數。
 
 >[!NOTE]
 >
->客群和量度選擇器僅在將 Analytics 做為報表來源時才可供使用。
+>對象和量度選擇器僅在將[!DNL Analytics]用作報表來源時才可用。
 
 接下來，折線圖提供每一個體驗在特定時段的視覺化比較。此圖形協助您瞭解每一個體驗的表現如何，以及時段如何影響效能。
 

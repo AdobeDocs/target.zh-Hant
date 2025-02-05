@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Target選取要在報表中檢視的多個�
 title: 如何在報表中檢視多個量度？
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 12%
 1. 若要顯示報表，請按一下&#x200B;**[!UICONTROL Activities]**，從清單按一下需要的活動，然後按一下&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤。
 1. 按一下&#x200B;**[!UICONTROL Report Metric]**&#x200B;下拉式清單以顯示[!UICONTROL Shown Metrics]與[!UICONTROL Hidden Metrics]清單。
 
-   ![多個量度影像](assets/multiple_metrics.png)
-
    您可以使用[!UICONTROL Search]方塊快速尋找可用的量度以新增至[!UICONTROL Shown Metrics]清單。
 
    請注意，您可以從報表的[!UICONTROL Table View]和[!UICONTROL Graph View]模式中選取多個量度。
@@ -46,10 +44,6 @@ ht-degree: 12%
 1. 完成時，請按一下&#x200B;**[!UICONTROL Save]**。
 1. （視條件而定）在[!UICONTROL Table View]中檢視報表時，將滑鼠指標暫留在任何量度的欄標題上，即可顯示藍色箭頭。 按一下箭頭以展開表格以顯示該量度的[!UICONTROL Lift]和[!UICONTROL Confidence]。
 
-   ![multiple_metrics_table影像](assets/multiple_metrics_table.png)
-
    您一次只能展開一個量度/欄。再按一次箭頭可折疊欄。
 
-1. （視條件而定）在「圖表檢視」中檢視報表時，您可以從下拉式清單中選取個別要顯示的量度：
-
-   ![multiple_metrics_graph影像](assets/multiple_metrics_graph.png)
+1. （視條件而定）在[!UICONTROL Graph View]中檢視報表時，您可以從下拉式清單中選取個別要顯示的量度。

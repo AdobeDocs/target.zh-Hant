@@ -5,9 +5,9 @@ title: 我可以在[!UICONTROL Automated Personalization]個活動中使用選�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 15%
 
 ---
@@ -23,36 +23,27 @@ ht-degree: 15%
 
 當您使用報表群組時，[!DNL Target]會使用該群組所有選件的資料，為每個報表群組建立一個個人化模型。 若沒有報表群組，[!DNL Target]會為您的AP活動中的每個選件建立個人化模型。
 
-如果您的活動設定沒有足夠的資料可針對每個選件建立個人化模型，則報表群組可協助減少使用[!UICONTROL Automated Personalization]的資料需求。 報表群組也可以藉由分組類似選件來幫助解決新選件的「冷啟動」問題，以便每個模型獲得更多資料以進行訓練。模型群組也可用於定期為AP活動引入新優惠方案的活動。
+如果您的活動設定沒有足夠的資料可針對每個選件建立個人化模型，則報表群組可協助減少使用[!UICONTROL Automated Personalization]的資料需求。 報表群組也可以藉由分組類似產品建議來幫助解決新產品建議的「冷啟動」問題，以便每個模型獲得更多資料以進行訓練。模型群組也可用於定期為AP活動引入新優惠方案的活動。
 
-如果訪客以相同的方式回應群組中的所有選件，則此方法很有效。最佳做法是對類似訪客群組以類似方式回應的選件進行分組。換句話說，群組選件具有類似的轉換率。您永遠不應將所有選件放置在單一報表群組中。以不同轉換率來分組所有選件或分組選件，可能會降低[!DNL Target]個人化模型的有效性。
+如果訪客以相同的方式回應群組中的所有產品建議，則此方法很有效。最佳做法是對類似訪客群組以類似方式回應的產品建議進行分組。換句話說，群組產品建議具有類似的轉換率。您永遠不應將所有產品建議放置在單一報表群組中。以不同轉換率來分組所有選件或分組選件，可能會降低[!DNL Target]個人化模型的有效性。
 
 >[!NOTE]
 >
->如果從特定模組化群組中移除或替換選件，則也會從模組化群組中刪除看到該特定選件的歷史流量。換句話說，刪除的選件不會貢獻哪些資料要用於[!DNL Target]個人化模型學習。
+>如果從特定模組化群組中移除或替換產品建議，則也會從模組化群組中刪除看到該特定產品建議的歷史流量。換句話說，刪除的選件不會貢獻哪些資料要用於[!DNL Target]個人化模型學習。
 
 ## 設定報表群組
 
-1. 在AP活動的&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;圖示。
-
-   ![管理內容圖示](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. 在AP活動的&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;圖示（ ![管理內容圖示](/help/main/assets/icons/Experience.svg) ）
 1. 按一下[!UICONTROL Manage Content]對話方塊頂端的&#x200B;**[!UICONTROL Offers]**&#x200B;標籤。
-1. （視條件而定）將特定體驗新增至報表群組，方法是暫留在所需的選件上，然後按一下「**[!UICONTROL Reporting Group]**」資料夾圖示。
+1. （視條件而定）按一下所需選件的[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL Reporting Group]**，將特定體驗新增至報表群組。
 
-   ![報表群組圖示](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. （條件性）藉由選取相關體驗的核取方塊，然後按一下對話方塊底部的&#x200B;**[!UICONTROL Reporting Group]**，將體驗批次加入報表群組。
 
-1. （條件性）藉由選取相關體驗的核取方塊，然後按一下對話方塊右上角的&#x200B;**[!UICONTROL Reporting Group]**&#x200B;資料夾圖示，將體驗批次加入報表群組。
-
-   ![報表群組圖示](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. 若要將選取的選件指派至現有的報表群組，請選取&#x200B;**[!UICONTROL Existing]**，從下拉式清單中選取所需的報表群組，然後按一下&#x200B;**[!UICONTROL Apply]**。
+1. 若要將選取的選件指派至現有的報表群組，請選取&#x200B;**[!UICONTROL Existing]**，從下拉式清單中選取所需的報表群組，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 
    或
 
-   若要建立報表群組以將選取的選件指派至該群組，請選取「**[!UICONTROL New]**」，命名新的報表群組，然後按一下「**[!UICONTROL Apply]**」。
-
-   ![建立新報表群組的新圖示](/help/main/c-reports/assets/ap_reporting_groups.png)
+   若要建立報表群組以將選取的選件指派至該群組，請選取「**[!UICONTROL New]**」，命名新的報表群組，然後按一下「**[!UICONTROL Confirm]**」。
 
 您可以使用[!UICONTROL Location]清單來依位置篩選選件。 使用[!UICONTROL Report Group]清單可依報表群組篩選選件。 您也可以使用[!UICONTROL Report Group]清單來篩選[!UICONTROL Unassigned Offers]，以便將報表群組指派給目前未指派給任何報表群組的選件。
 
@@ -60,7 +51,7 @@ ht-degree: 15%
 
 ## 注意事項
 
-* 請務必瞭解報表群組會影響[!DNL Target]建立模型的方式。 因此，[!DNL Adobe]建議，只有在您打算在活動上線時取代或新增選件時，才使用報表群組。 如果將新選件匯入已上線的活動中，將新選件放入具有現有類似選件的群組中，可讓電腦使用已為其群組中的其他選件收集的資料，來瞭解新選件。 您永遠不應將所有選件放置在單一報表群組中。
+* 請務必瞭解報表群組會影響[!DNL Target]建立模型的方式。 因此，[!DNL Adobe]建議，只有在您打算在活動上線時取代或新增選件時，才使用報表群組。 如果將新選件匯入已上線的活動中，將新選件放入具有現有類似選件的群組中，可讓電腦使用已為其群組中的其他選件收集的資料，來瞭解新選件。 您永遠不應將所有產品建議放置在單一報表群組中。
 
 * AP活動具有位置+選件（可模型）的組合。 當[!DNL Target]在報表中記錄資料時，[!DNL Target]會考量這類組合，以清楚知道選件是來自哪個事件（顯示、點按等）。
 
@@ -81,5 +72,3 @@ ht-degree: 15%
    ![優惠方案群組：控制與目標](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 如需使用[!UICONTROL Automated Personalization]報告（包括[!UICONTROL Offer Level]報告）的相關資訊，請參閱[Automated Personalization摘要報告](/help/main/c-reports/personalization-reports/reports-ap.md)。
-
-

@@ -1,13 +1,13 @@
 ---
 keywords: A/B; 活動量度; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-description: 瞭解如何在 [!DNL Adobe Target] A/B活動中指定量度，以判斷造訪是否成功，例如[!UICONTROL Conversion]、[!UICONTROL Revenue]和[!UICONTROL Engagement]。
+description: 探索如何設定A/B活動中的量度以判斷造訪成功，包括[!UICONTROL Conversion]、[!UICONTROL Revenue]和[!UICONTROL Engagement]。
 title: 如何在A/B活動中設定目標量度？
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '284'
+ht-degree: 58%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 59%
 
 如需成功量度的詳細資訊，請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
-1. 在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;頁面的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;區段中，選取[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
-
-   ![選取成功量度](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
+1. 在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;頁面的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;區段中，選取[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
    [!UICONTROL Select Metrics]選項會列出您可為活動選擇的成功量度。 成功量度可分為下列類別:
 
@@ -53,13 +51,3 @@ ht-degree: 59%
 | + | 加號 |
 | - | 減號 |
 | @ | 「@」符號 |
-
-## 訓練影片：活動量度(7:43) ![教學課程徽章](/help/main/assets/tutorial.png)
-
-此影片包括關於使用成功量度的資訊。
-
-* 瞭解「目標」量度
-* 瞭解和建置轉換、收入和參與量度
-* 建置點擊追蹤量度
-
->[!VIDEO](https://video.tv.adobe.com/v/17380)

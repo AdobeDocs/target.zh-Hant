@@ -1,28 +1,28 @@
 ---
 keywords: 建議摘要；摘要；SAINT；ftp；csv；分類；analytics分類
-description: 瞭解摘要如何使用CSV檔案、Google產品搜尋摘要格式和 [!DNL Analytics] 產品分類，將實體匯入至 [!DNL Adobe Target] [!DNL Recommendations]。
+description: 瞭解摘要如何使用CSV檔案、 [!DNL Google Product Search] 摘要格式和 [!DNL Analytics] 產品分類將實體匯入至 [!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL Feeds]？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: a0cf6d497fc5b9a04888d0c6597c98bbbb639cbe
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 45%
+source-wordcount: '2417'
+ht-degree: 38%
 
 ---
 
 # 摘要
 
-使用摘要來將實體匯入[!DNL Adobe Target] [!DNL Recommendations]。 實體可以使用CSV檔案、Google產品搜尋摘要格式和[!DNL Adobe Analytics]產品分類來傳送。
+使用摘要來將實體匯入[!DNL Adobe Target] [!DNL Recommendations]。 可以使用CSV檔案、[!DNL Google Product Search]摘要格式和[!DNL Adobe Analytics]產品分類來傳送實體。
 
 ## 摘要概觀 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-摘要可讓您傳遞[Entities](/help/main/c-recommendations/c-products/products.md)，或使用頁面上沒有提供或直接從頁面傳送很不安全的資訊（例如利潤、COGS等）來擴增mbox資料。
+摘要可讓您傳遞[Entities](/help/main/c-recommendations/c-products/products.md)，或使用頁面上沒有提供或直接從頁面傳送不安全的資訊來擴增mbox資料。 例如，利潤、銷貨成本(COGS)等。
 
-摘要可讓您將詳細的專案資訊傳遞至[!DNL Recommendations]，例如產品ID、類別、名稱、訊息和其他屬性。
+摘要也可讓您將詳細的專案資訊傳遞至[!DNL Recommendations]，例如產品ID、類別、名稱、訊息和其他屬性。
 
-您可以選取要將[!DNL Target]產品分類檔案或Google Product Search檔案中的哪些欄位傳送至[!DNL Recommendations]伺服器。
+您可以選取要將[!DNL Target]產品分類檔案或[!DNL Google Product Search]檔案中的哪些欄位傳送至[!DNL Recommendations]伺服器。
 
 然後，有關每個專案的這些資料片段可用於：
 
@@ -31,24 +31,24 @@ ht-degree: 45%
 * 將專案排序為不同的集合
 * 將排除專案套用至建議
 
-可使用摘要或mbox將專案說明傳遞至[!DNL Target]。 如果資料是同時由實體摘要和 mbox 所收集，則採用最近的資料。通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
+可使用摘要或mbox將專案說明傳遞至[!DNL Target]。 如果[!DNL Target]同時使用實體摘要和mbox來收集資料，則最新的資料會獲勝。 通常最近的資料是來自 mbox，因為它較常被檢視。同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
 
 [!UICONTROL Feeds]清單( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)提供您已建立的任何摘要的相關資訊。
-
-![摘要頁面](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
 [!UICONTROL Feeds]頁面包含下列資料行：
 
 * **名稱**: 建立期間指定的摘要名稱。若要編輯摘要的名稱，您必須編輯摘要本身。當您以新名稱儲存摘要時，摘要會重新整理。
-* **類型**: 類型包含 [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[Google 產品摘要](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)以及 [Analytics 分類](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
 * **狀態**: 摘要的目前[狀態](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **排程**：顯示摘要的更新排程： [!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks]或[!UICONTROL Never]。
+* **型別**：型別包含[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和[Analytics分類](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
 * **項目**: 顯示摘要中的項目數量。
-* **上次更新**: 顯示上次更新摘要的日期與時間，以及更新摘要的使用者名稱。如果[!UICONTROL Last Updated]摘要顯示「未定義」，表示摘要來自[!DNL Recommendations Classic]，且無法從[!DNL Target Premium Recommendations]內變更。
+* **排程**：顯示摘要的更新排程： [!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks]或[!UICONTROL Never]。
+* **上次更新**：顯示上次更新摘要的日期與時間，以及更新摘要的使用者名稱。
 
-按一下「資訊」圖示，即可顯示卡片，其中顯示上次上傳日期以及摘要的URL。
+按一下[!UICONTROL Customize Table]圖示（![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg)）以選取或取消選取您要顯示的欄。
 
-按一下省略符號圖示以存取下列動作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
+按一下[!UICONTROL Information]圖示（ ![資訊圖示](/help/main/assets/icons/InfoOutline.svg) ）以顯示顯示上次上傳日期和摘要網址。
+
+按一下[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ）以存取下列動作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
 
 >[!IMPORTANT]
 >
@@ -59,13 +59,13 @@ ht-degree: 45%
 
 ## Source型別
 
-實體可以使用CSV檔案、Google產品搜尋摘要格式和[!DNL Adobe Analytics]產品分類來傳送。
+可以使用CSV檔案、[!DNL Google Product Search]摘要格式和[!DNL Adobe Analytics]產品分類來傳送實體。
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
 您可以使用[!DNL Adobe]專有的CSV上傳格式來建立.csv檔案。 此檔案包含產品的保留屬性和自訂屬性相關的顯示資訊。若要上傳實作特有的屬性，請以您要使用的屬性名稱取代標題列中的 `CustomN`。在下列範例中,`entity.Custom1` 已取代為 `entity.availability`。然後您可以將檔案大量上傳至 [!DNL Recommendations] 伺服器。
 
-使用 .csv 格式比 Google Feed 格式更好的理由如下:
+使用.csv格式比[!DNL Google]摘要格式的優點如下：
 
 * .csv格式不需要欄位對應。
 * .csv格式支援多值屬性（請參閱下面的範例）。
@@ -93,7 +93,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->您不能以空白值來覆寫現有值。在其位置傳遞另一個值以覆寫它。 若是售價，常見的解決方案是傳入實際的「NULL」或其他訊息。 然後，您可以撰寫範本規則來排除含有該值的項目。
+>您不能以空白值來覆寫現有值。在其位置傳遞另一個值以覆寫現有值。 若是售價，常見的解決方案是傳入實際的「NULL」或其他訊息。 然後，您可以撰寫範本規則來排除含有該值的項目。
 
 產品在成功上傳其實體大約兩小時之後，就可以在管理介面中使用。
 
@@ -111,31 +111,31 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-Google 產品搜尋摘要類型使用 Google 格式。這與[!DNL Adobe]專有的CSV上傳格式不同。
+[!DNL Google Product Search]摘要型別使用[!DNL Google]格式。 這與[!DNL Adobe]專有的CSV上傳格式不同。
 
-如果您有現有的 Google 產品摘要，則可用來當作匯入檔案。
-
->[!NOTE]
->
->不一定要使用 Google 資料。[!DNL Recommendations]使用與Google相同的格式。 您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
-
-大部分零售商都會將產品上傳至Google，因此當訪客使用Google產品搜尋時，會顯示其產品。 [!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定義的[屬性。 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+如果您有現有的[!DNL Google Product Feed]，則可以將其用作匯入檔案。
 
 >[!NOTE]
 >
->託管 Google 摘要內容的伺服器上必須允許使用 POST 方法。
+>不一定要使用[!DNL Google]資料。 [!DNL Recommendations]使用與[!DNL Google]相同的格式。 您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，當您設定檔案時，必須保留[!DNL Google]預先定義的屬性名稱。
 
-由於[!DNL Recommendations]使用者已設定.xml或.txt摘要透過URL或FTP傳送至Google，實體摘要會接受該產品資料並將其用於建置建議目錄。 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
+大部分零售商會將產品上傳至[!DNL Google]，所以當訪客使用[!DNL Google]產品搜尋時，會顯示其產品。 [!DNL Recommendations]完全遵循實體摘要的[!DNL Google]規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定義的[屬性。 可以在[[!DNL Google] 購物頁面](https://www.google.com/prdhp)上搜尋結果。
 
-如果您使用Google產品搜尋來上傳實體摘要，而且想要在那裡顯示建議或根據檢視追蹤演演算法傳送的產品檢視，您仍然必須在頁面上擁有產品頁面mbox。
+>[!NOTE]
+>
+>主控[!DNL Google]摘要內容的伺服器上必須允許該POST方法。
 
-Google 摘要不支援一個自訂屬性有多個值。
+因為[!DNL Recommendations]使用者已設定.xml或.txt摘要透過URL或FTP傳送至[!DNL Google]，實體摘要會接受該產品資料並使用它來建置建議目錄。 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
+
+如果您將[!DNL Google Product Search]用於實體摘要上傳，而且想要在其中顯示建議或根據檢視追蹤演演算法傳送的產品檢視，您仍然必須在頁面上擁有產品頁面mbox。
+
+[!DNL Google]摘要不支援自訂屬性的多個值。
 
 摘要會在您儲存並啟動時執行。 它會在您儲存摘要時執行，然後在一小時後每天執行。
 
-下列是 Google Product Search 摘要 .xml 檔案的範例程式碼:
+下列是[!DNL Google Product Search]摘要.xml檔案的範常式式碼：
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -202,7 +202,7 @@ Google 摘要不支援一個自訂屬性有多個值。
 </feed> 
 ```
 
-下列是 Google Product Search 摘要 .tsv 檔案的範例程式碼:
+下列是[!DNL Google Product Search]摘要.tsv檔案的範常式式碼：
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -227,9 +227,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
-1. 在Target介面中，按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**。
-
-   ![建立摘要對話方塊](assets/CreateFeed.png)
+1. 從[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**。
 
 1. 為摘要指定描述性名稱。
 1. 選取&#x200B;**[!UICONTROL Source Type]**。
@@ -257,8 +255,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;箭頭以顯示[!UICONTROL Schedule]選項。
 
-   ![步驟結果](assets/CreateFeedSchedule.png)
-
 1. 選取更新選項:
 
    * [!UICONTROL Daily]
@@ -272,15 +268,13 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;箭頭以顯示[!UICONTROL Mapping]選項，然後指定如何將資料對應至[!DNL Target]定義。
 
-   ![步驟結果](assets/CreatFeedMapping.png)
-
 1. (可選) 如果要讓摘要屬於某個環境 (主機群組)，請選取主機群組。
 
    依預設，摘要會屬於所有主機群組。這可確保此摘要中的項目可以在任何環境中使用。如需詳細資訊，請參閱[主機](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
 1. 按一下 **[!UICONTROL Save]**。
 
-在您建立或編輯摘要後，摘要會立即執行。 然後會根據您設定的引數更新摘要。 需要一些時間才能提供資訊。 首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。目前的狀態會顯示在[摘要]清單中的[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)下。 您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
+在您建立或編輯摘要後，摘要會立即執行。 然後會根據您設定的引數更新摘要。 需要一些時間才能提供資訊。 首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。目前狀態會顯示在[!UICONTROL Feeds]清單中的[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)下。 您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
 
 編列索引進行時，在個別值已編列索引之前，產品和摘要標題會先出現。這可讓您搜尋及檢視產品，以便於在完成索引前建立集合、排除專案、設計和活動。
 

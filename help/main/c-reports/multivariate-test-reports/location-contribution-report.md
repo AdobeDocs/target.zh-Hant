@@ -4,10 +4,10 @@ description: 瞭解如何針對Adobe [!DNL Target] [!UICONTROL Experience Target
 title: 如何將[!UICONTROL Location Contribution]報告用於[!UICONTROL Multivariate Test]活動？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -31,14 +31,10 @@ ht-degree: 39%
 
 第一個表格顯示每一個元素的相對影響。此表格顯示您已新增選件的元素中，哪些元素的轉換次數最多。
 
-![Adobe Target中的位置貢獻報表](/help/main/c-reports/assets/locationcontributiontop.png)
+第二個表格提供產品建議層級報表。這指出每一個元素中每一個產品建議的轉換率、提升度和信賴度。此表格可協助您判斷哪些選件最成功。 第二欄顯示產品建議的所選量度 (轉換率、RPV、AOV、訂購或參與量度) 的值，以及一個標準化。
 
-第二個表格提供選件層級報表。這指出每一個元素中每一個選件的轉換率、提升度和信賴度。此表格可協助您判斷哪些選件最成功。 第二欄顯示選件的所選量度 (轉換率、RPV、AOV、訂購或參與量度) 的值，以及一個標準化。
+## 訓練影片: 建立 MVT 測試
 
-![Adobe Target中的位置貢獻報表](/help/main/c-reports/assets/locationcontributionbottom.png)
-
-## 訓練影片：建立MVT測試![教學課程徽章](/help/main/assets/tutorial.png)
-
-此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。8:45 開始說明「位置貢獻」報表。
+此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 8:45 開始說明「位置貢獻」報表。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

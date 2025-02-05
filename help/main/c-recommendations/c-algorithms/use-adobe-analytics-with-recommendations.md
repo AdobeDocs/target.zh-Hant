@@ -1,32 +1,30 @@
 ---
 keywords: 行為資料來源；analytics；建議；條件；產品變數
-description: 瞭解如何使用 [!DNL Adobe Analytics] 做為行為資料來源，以使用來自 [!DNL Target Recommendations]中 [!DNL Analytics] 的檢視型和/或購買型行為資料。
+description: 瞭解如何在 [!DNL Target Recommendations]中使用 [!DNL Adobe Analytics] 作為行為資料來源。
 title: 如何搭配 [!DNL Target Recommendations]使用 [!DNL Adobe Analytics] ？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
 # 搭配[!DNL Recommendations]使用[!DNL Adobe Analytics]
 
-使用[!DNL Adobe Analytics]做為行為資料來源，可讓使用者端在[!DNL Adobe Target] [!DNL Recommendations]活動中使用[!DNL Analytics]的檢視型和/或購買型行為資料。 此功能在[!DNL Target Recommendations]設定是新的，且[!DNL Analytics]有許多歷史資料可使用的情形下特別有用。
+使用[!DNL Adobe Analytics]做為行為資料來源，可讓使用者端在[!DNL Adobe Target Recommendations]活動中使用[!DNL Analytics]的檢視型與購買型行為資料。 此功能在[!DNL Target Recommendations]設定是新的，且[!DNL Analytics]有許多歷史資料要使用的情況下特別有用。
 
 使用[!DNL Analytics]做為行為資料來源可以做為使用者行為的豐富資訊來源。 此資訊可能包含僅與[!DNL Analytics]共用的協力廠商來源或摘要的資料。
 
 在[!DNL Recommendations]中[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)時，有兩個選項按鈕可讓您選擇要使用的資料來源： [!UICONTROL mboxes]或[!UICONTROL Analytics]。 若要建立條件，請按一下[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]。 如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-![行為資料來源按鈕](assets/behavioral-data-source.png)
-
 >[!NOTE]
 >
 >如果這兩個按鈕未顯示在您的帳戶中，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-## Target中Analytics資料的使用案例
+## [!DNL Target]中[!DNL Analytics]資料的使用案例
 
 使用[!DNL Analytics]做為建議的行為資料來源也可讓您部署特定的使用案例，而不需要使用所有[!DNL Target]實體引數標籤實體頁面。 雖然上述要求必須具備特定必要條件，但「產品變數」的可用性是確保該功能順暢運作的最重要因素。 一般eVar和Prop不足以讓此交握在[!DNL Analytics]和[!DNL Target]之間自動發生。
 
@@ -63,13 +61,9 @@ ht-degree: 1%
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Recommendations]**，然後按一下&#x200B;**[!UICONTROL Feeds]**&#x200B;索引標籤。
 
-   ![摘要](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
-
 1. 按一下 **[!UICONTROL Create Feed]**。
 
 1. 選取&#x200B;**[!UICONTROL Analytics Classifications]**，然後指定報表套裝。
-
-   ![Analytics分類選項](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以前進到&#x200B;**[!UICONTROL Schedule]**&#x200B;設定，選取摘要的頻率週期：
 
@@ -81,8 +75,6 @@ ht-degree: 1%
    您也可以選取一天中要處理摘要的時間。
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以前進到&#x200B;**[!UICONTROL Mapping]**&#x200B;設定，然後將欄位欄位標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
-
-   ![對應區段](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. 按一下 **[!UICONTROL Save]**。
 

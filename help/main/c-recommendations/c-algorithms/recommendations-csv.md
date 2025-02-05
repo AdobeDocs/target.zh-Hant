@@ -1,14 +1,14 @@
 ---
 keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
 description: 瞭解如何上傳CSV檔案，以自訂Adobe [!DNL Target] Recommendations中的建議。
-title: 如何在Recommendations中上傳自訂條件？
+title: 如何在 [!DNL Recommendations]中上傳自訂條件？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 32%
 
 1. 按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**。
 
-1. 按一下 **[!UICONTROL Create Criteria]**。
+1. 按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。
 
 1. 在[基本資訊](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)區段中填入資訊。
 
-   1. 從&#x200B;**[!UICONTROL Select Algorithm]**&#x200B;型別下拉式清單中，選取&#x200B;**[!UICONTROL Custom Criteria]**。
+1. 從&#x200B;**[!UICONTROL Select Algorithm Type]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Custom Criteria]**。
 
-   1. 從&#x200B;**[!UICONTROL Algorithm]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Custom Algorithm]**。
+1. 從&#x200B;**[!UICONTROL Algorithm]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Custom Algorithm]**。
 
-      >[!NOTE]
-      >
-      >上述步驟會使[!UICONTROL Upload CSV]區段顯示在[!UICONTROL Create New Criteria]對話方塊的底部。
+   >[!NOTE]
+   >
+   >上述步驟會使[!UICONTROL Upload CSV]區段顯示在[!UICONTROL Create Criteria]對話方塊的底部。
 
 1. （視條件而定）在[備份內容](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)區段中填入資訊。
 
@@ -44,16 +44,15 @@ ht-degree: 32%
 
 1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;區段中，選取CSV檔案的&#x200B;**[!UICONTROL Location]**。
 
-   ![上傳CSV區段](assets/upload-csv.png)
+CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;以取得格式正確的CSV檔案。
 
-   CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;以取得格式正確的CSV檔案。
+您有兩個位置選項︰
 
-   您有兩個位置選項︰
+    * **FTP：**若要從FTP伺服器上傳CSV檔案，請選取**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
+    
+    * **URL：**若要從URL上傳您的CSV檔案，請選取**[!UICONTROL URL]**，然後輸入摘要URL。
 
-   * **FTP：**&#x200B;若要從FTP伺服器上傳CSV檔案，請選取&#x200B;**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
-   * **URL：**&#x200B;若要從URL上傳您的CSV檔案，請選取&#x200B;**[!UICONTROL URL]**，然後輸入摘要URL。
-
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 ## 考量事項
 
@@ -65,7 +64,7 @@ ht-degree: 32%
 
 * 自訂條件摘要每 24 小時會更新一次。
 
-  您可以在[!UICONTROL Recommendations] > [!UICONTROL Criteria]頁面上的每個條件卡底部看到自訂條件上傳的上傳和同步狀態。 編輯自訂條件時，您也可以在[!UICONTROL Edit]對話方塊中看到狀態。
+  您可以在[!UICONTROL Recommendations] > [!UICONTROL Criteria]頁面上檢視每個條件之自訂條件上傳的上傳和同步狀態。 編輯自訂條件時，您也可以在[!UICONTROL Edit]對話方塊中看到狀態。
 
 * 無錯誤上傳的流程應為[!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful]。
 
@@ -79,13 +78,3 @@ ht-degree: 32%
   | 憑證錯誤 | 提供伺服器上使用中帳戶的有效的使用者和密碼。 |
   | 找不到目錄 | 提供伺服器上存在的目錄。 |
   | 找不到檔案 | 提供伺服器上存在於指出目錄中檔案的名稱。 |
-
-## 訓練影片：在Recommendations中建立條件(12:33) ![教學課程徽章](/help/main/assets/tutorial.png)
-
-此影片包含下列資訊（上傳自訂條件的詳細資訊從11:43開始）：
-
-* 建立條件
-* 建立條件序列
-* 上傳自訂條件
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

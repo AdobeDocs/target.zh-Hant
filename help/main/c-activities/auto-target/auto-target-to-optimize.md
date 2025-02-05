@@ -1,14 +1,14 @@
 ---
 keywords: 自動鎖定目標；鎖定目標；流量分配；常見問題；faq；疑難排解；疑難排解
-description: 瞭解 [!DNL Target] 中的[!UICONTROL Auto-Target]活動如何根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
+description: 瞭解[!UICONTROL Auto-Target]活動如何根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
 title: 什麼是[!UICONTROL Auto-Target]活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 21%
+source-wordcount: '1828'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 21%
 
 使用三步驟引導式工作流程[建立A/B活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，請在&#x200B;**[!UICONTROL Targeting]**&#x200B;頁面上選擇&#x200B;**[!UICONTROL Auto-Target for personalized experiences]**&#x200B;選項（步驟2）。
 
-![個人化體驗選項的自動鎖定目標](/help/main/c-activities/assets/auto-target-ui-new.png)
+![流量分配方法設定](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即可駕馭機器學習，以根據市場行銷人員定義的一組體驗進行個人化。 相較於傳統的A/B測試或[!UICONTROL Auto Allocate]，[!UICONTROL Auto-Target]旨在決定要顯示給每個訪客的體驗，讓最佳化發揮到極致。 不同於A/B活動的目標是找出單一獲勝者，[!UICONTROL Auto-Target]會自動為特定訪客決定最佳體驗。 最佳體驗是根據訪客的設定檔和其他內容相關資訊，以提供高度個人化的體驗。
 
@@ -52,7 +52,7 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 
   系統會為每個模型群組(AP)或體驗(AT)建立第二組模型的流量。 對於這些模型中的每一個，都會考量所有環境的點選和轉換。
 
-  無論環境為何，請求都以相同的模式提供，但多個流量應來自預設環境，以確保識別的整體成功體驗與真實世界行為一致。
+  無論環境為何，請求都是以相同的模式提供。 不過，多個流量應來自預設環境，以確保識別的整體成功體驗與真實世界行為一致。
 
 * 使用最少兩個體驗。
 
@@ -82,21 +82,21 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 
 [!UICONTROL Custom Allocation]下拉式清單可讓您從下列選項中選擇：
 
-* [!UICONTROL Evaluate Personalization Algorithm]
-* [!UICONTROL Maximize Personalization Traffic]
+* [!UICONTROL Evaluate Personalization Algorithm (50/50)]
+* [!UICONTROL Maximize Personalization Traffic (90/10)]
 * [!UICONTROL Custom Allocation]
 
-![分配目標下拉式清單](/help/main/c-activities/assets/split-new.png)
+![分配目標下拉式清單](/help/main/c-activities/assets/split-new-ui.png)
+
+下表說明三個選項：
 
 | 活動目標 | 建議的流量分配 | 取捨 |
 |--- |--- |--- |
-| **評估個人化演算法 (50/50)**: 如果您的目標是要測試演算法，請在控制與鎖定的演算法之間使用訪客的 50/50 百分比分割。此分割可提供提升度更準確的預估。建議搭配使用「隨機體驗」作為控制。 | 50% 控制/ 50% 個人化體驗分割 | <ul><li>使控制與個人化之間的提升度達到最高準確性</li><li>擁有個人化體驗的訪客相對較少</li></ul> |
-| **最大化Personalization流量(90/10)**：如果您的目標是要建立「一律開啟」的活動，請將10%的訪客放入控制，以確保有足夠的資料供演演算法隨著時間繼續學習。 這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。 無論您的目標為何，這是使用特定體驗作為控制時的建議流量分割。 | 最佳作法是採用 10% - 30% 控制/ 70% - 90% 個人化體驗分割 | <ul><li>將具有個人化體驗的訪客人數最大化</li><li>將提升度最大化</li><li>活動的提升度較不準確</li></ul> |
+| **[!UICONTROL Evaluate Personalization Algorithm (50/50)]**：如果您的目標是要測試演演算法，請在控制與鎖定的演演算法之間使用訪客的50/50百分比分割。 此分割可提供提升度更準確的預估。建議搭配使用「隨機體驗」作為控制。 | 50% 控制/ 50% 個人化體驗分割 | <ul><li>使控制與個人化之間的提升度達到最高準確性</li><li>擁有個人化體驗的訪客相對較少</li></ul> |
+| **[!UICONTROL Maximize Personalization Traffic (90/10)]**：如果您的目標是要建立「一律開啟」的活動，請將10%的訪客放入控制，以確保有足夠的資料供演演算法隨著時間繼續學習。 這裡的取捨是以更大比例的流量交換個人化，因此在確切的提升度方面較不精確。 無論您的目標為何，這是使用特定體驗作為控制時的建議流量分割。 | 最佳作法是採用 10% - 30% 控制/ 70% - 90% 個人化體驗分割 | <ul><li>將擁有個人化體驗的訪客數量最大化</li><li>將提升度最大化</li><li>活動的提升度較不準確</li></ul> |
 | **自訂分配** | 視需要手動分割百分比。 | <ul><li>您可能未達到理想的結果。如果不確定，請採用前述任一選項的建議。</li></ul> |
 
-若要調整[!UICONTROL Control]百分比，請按一下[!UICONTROL Allocation]欄中的圖示。 您無法將控制組降到 10% 以下。
-
-![變更自動鎖定目標流量分配](/help/main/c-activities/assets/auto-target-control.png)
+若要調整[!UICONTROL Control]百分比，請按一下[!UICONTROL Traffic Allocation]窗格中的[!UICONTROL Experiences]，然後視需要調整百分比。 您無法將控制組降到 10% 以下。
 
 您可以[選取特定體驗以用來作為控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)，或者也可以使用隨機體驗選項。
 
@@ -113,7 +113,7 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 ### 演演算法會針對每次造訪的有利結果最佳化。
 
 * 演演算法會預測訪客的轉換傾向（或轉換的估計收入），以提供最佳體驗。
-* 訪客符合在現有工作階段結束後取得新體驗的資格（除非訪客是在控制組中，在這種情況下，訪客在首次造訪時指派的體驗在後續造訪中會維持不變）。
+* 訪客符合在現有工作階段結束後使用新體驗的資格（除非訪客是在控制組中，在這種情況下，訪客在第一次造訪時指派的體驗在後續造訪中維持不變）。
 * 在工作階段中，預測不會變更，以維持視覺一致性。
 
 ### 演演算法會因應訪客行為的變化而改變。
@@ -158,20 +158,8 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 ### [!UICONTROL Auto-Target]提供廣泛的線上測試架構。
 
 * 多臂吃角子是大型線上測試架構的一部分，可讓[!DNL Adobe]位資料科學家和研究人員瞭解其在真實世界狀況中持續改善的好處。
-* 未來，此測試平台將允許我們向資料精通的客戶開啟[!DNL Adobe]機器學習平台，以便他們能夠引進自己的模型來擴充[!DNL Target]模型。
+* 未來，此測試平台將允許我們向熟悉資料的使用者端開啟[!DNL Adobe]機器學習平台，以便他們能夠引進自己的模型來擴充[!DNL Target]模型。
 
 ## 報告與[!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 如需詳細資訊，請參閱[報告和自動鎖定目標](/help/main/c-activities/auto-target/reporting-and-auto-target.md)。
-
-## 訓練影片: 瞭解自動鎖定目標活動
-
-此影片說明如何設定[!UICONTROL Auto-Target] A/B活動。
-
-完成此訓練之後，您應該能夠:
-
-* 定義[!UICONTROL Auto-Target]測試
-* 比較[!UICONTROL Auto-Target]與[!UICONTROL Automated Personalization]
-* 建立[!UICONTROL Auto-Target]活動
-
->[!VIDEO](https://video.tv.adobe.com/v/18558)

@@ -1,12 +1,12 @@
 ---
 keywords: 多值；屬性；建議；多值；多值
-description: 瞭解如何使用特殊的多值運運算元，在Adobe [!DNL Target] Recommendations中使用多值欄位，例如，當推薦具有多個演員的影片時。
+description: 瞭解如何使用特殊的多值運運算元在 [!DNL Target Recommendations] 中處理多值欄位。
 title: 我可以在Recommendations中使用多值屬性嗎？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '441'
 ht-degree: 9%
 
 ---
@@ -118,7 +118,7 @@ function targetPageParams() {
 
 ### 範例：API建立條件，從使用者的最愛中建議專案
 
-使用多值篩選規則的條件（例如所有條件）可以透過Adobe I/OAPI建立。 以下提供建立條件的範例API呼叫，其中實體屬性`id`包含在mbox引數清單`favorites`中：
+使用多值篩選規則的條件（例如所有條件）可透過[!DNL Adobe Target] API建立。 以下提供建立條件的範例API呼叫，其中實體屬性`id`包含在mbox引數清單`favorites`中：
 
 ```
 curl -X POST \
@@ -158,7 +158,7 @@ curl -X POST \
 這會與頁面上的JavaScript配對以傳入「我的最愛」內容：
 
 ```
-<!-- pass in the value of mbox parameter “favorites” as JSON array -->
+<!-- pass in the value of mbox parameter "favorites" as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

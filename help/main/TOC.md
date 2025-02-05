@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 74%
+source-wordcount: '1259'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 74%
    + [系統狀態更新和主動通知](r-release-notes/system-status-updates.md)
    + [文件變更](r-release-notes/doc-change.md)
    + [舊版發行說明](r-release-notes/release-notes-for-previous-releases.md)
-   + [Target活動、選件和Recommendations UI重新整理Beta程式](/help/main/refresh-ui-beta.md)
 + 簡介 {#introduction}
    + [Target 簡介](c-intro/intro.md)
    + [從 Adobe Experience Cloud 存取 Target](c-intro/target-access-from-mac.md)
@@ -47,7 +46,6 @@ ht-degree: 74%
    + [Target 最佳化和個人化常見問答](c-intro/cmp-target-standard-cheatsheet.md)
 + 管理 Target {#administer}
    + [管理 Target 概覽](administrating-target/administrating-target.md)
-   + [管理Target概觀Beta版](administrating-target/administrating-target-beta.md)
    + [管理員入門](administrating-target/start-target.md)
    + [設定可視化體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + 報告 {#reporting}
@@ -117,72 +115,49 @@ ht-degree: 74%
    + [Target 活動類型](c-activities/target-activities-guide.md)
    + A/B 測試 {#abtest}
       + [A/B 測試概覽](c-activities/t-test-ab/test-ab.md)
-      + [A/B測試概覽Beta版](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B 測試該執行多久？](c-activities/t-test-ab/sample-size-determination.md)
       + [十個常見的 A/B 測試陷阱和避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A 測試](/help/main/c-activities/t-test-ab/aa-testing.md)
       + 建立 A/B 測試 {#create}
          + [建立 A/B 測試](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [建立A/B測試測試版](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [活動 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
-         + [活動URL測試版](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [新增體驗](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [新增體驗測試版](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [選取客群](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
-         + [選取受眾測試版](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [目標與設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [目標與設定測試版](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [使用 Analytics 資料](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [設定量度（測試版）](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [A/B測試Beta版中的多個體驗對象](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + 自動分配{#auto-allocate}
       + [自動分配概覽](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [建立自動分配活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [建立自動分配活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [解讀自動分配報告](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [解讀自動分配報告（測試版）](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [自動分配讓您能比手動測試更快速地測試果並獲得更高的收入](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 自動鎖定目標{#auto-target}
       + [自動鎖定目標概覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [自動鎖定目標總覽Beta版](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [建立自動鎖定目標活動](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [建立自動鎖定目標活動測試版](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [自動鎖定目標常見問題集和疑難排解](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [報表和自動鎖定目標](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization 概覽](c-activities/t-automated-personalization/automated-personalization.md)
       + [隨機森林演算法](c-activities/t-automated-personalization/algo-random-forest.md)
       + [建立 Automated Personalization 活動](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [建立Automated Personalization活動測試版](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [上傳用於 Target 個人化演算法的資料](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target 個人化演算法的資料收集](c-activities/t-automated-personalization/ap-data.md)
       + [預估成功所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [預估成功測試版所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [預覽 Automated Personalization 測試的體驗](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [預覽Automated Personalization測試版體驗](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [鎖定 Automated Personalization 產品建議](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [Target Automated Personalization選件（測試版）](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [管理排除專案（測試版）](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization 中的產品建議報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Automated Personalization測試版中的選件報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
-      + [選取Automated Personalization或自動鎖定目標活動Beta版的控制項](c-activities/t-automated-personalization/experience-as-control-beta.md)
-      + [Automated Personalization 常見問題](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Automated Personalization 常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [疑難排解 Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + 體驗鎖定目標 {#experience-targeting}
       + [體驗鎖定目標概覽](c-activities/t-experience-target/experience-target.md)
       + 建立體驗鎖定目標活動 {#create-targeting}
          + [建立活動](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [建立活動測試版](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [活動 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
-         + [活動URL — 測試版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [建立體驗](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [建立體驗測試版](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [切換體驗鎖定目標中的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [切換體驗鎖定目標 — 測試版中的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [目標與設定](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [設定量度](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 多變數測試 {#multivariate-test}
@@ -191,20 +166,13 @@ ht-degree: 74%
       + [計劃多變數測試](c-activities/c-multivariate-testing/plan-mvt.md)
       + 建立多變數測試 {#create-mvt}
          + [建立測試](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [建立測試Beta版](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [活動 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
-         + [活動URL測試版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [建立組合](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [建立組合（測試版）](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [多變數測試的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
-         + [多變數測試Beta版的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [預估成功測試所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
-         + [預估成功測試Beta版所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [測試摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [測試摘要Beta版](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [目標與設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [設定量度](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
-         + [設定量度（測試版）](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [疑難排解多變數測試](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [推薦活動](c-activities/recommendations-activity.md)
    + [編輯活動或另存為草稿](c-activities/edit-activity.md)
@@ -212,7 +180,6 @@ ht-degree: 74%
    + [活動設定](c-activities/activity-settings.md)
    + 成功量度 {#success-metrics}
       + [成功量度](c-activities/r-success-metrics/success-metrics.md)
-      + [成功量度（測試版）](c-activities/r-success-metrics/success-metrics-beta.md)
       + [點擊追蹤](c-activities/r-success-metrics/click-tracking.md)
       + [擷取分數](c-activities/r-success-metrics/capture-score.md)
    + [活動變更記錄](c-activities/change-log.md)
@@ -261,11 +228,8 @@ ht-degree: 74%
    + [體驗與產品建議概覽](c-experiences/experiences.md)
    + 可視化體驗撰寫器 (VEC) {#vec}
       + [可視化體驗撰寫器概覽](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [視覺化體驗撰寫器概覽（測試版）](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [可視化體驗撰寫器選項](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [視覺化體驗撰寫器選項（測試版）](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [在類似頁面上包含相同體驗](c-experiences/c-visual-experience-composer/temtest.md)
-      + [在類似頁面上包含相同體驗（測試版）](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [多頁活動](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [活動衝突](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 修改 {#modifications}
@@ -284,7 +248,6 @@ ht-degree: 74%
          + [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [可視化體驗撰寫器 Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重新導向至 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [重新導向至URL測試版](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [建立可在可視化體驗撰寫器中運作的輪播](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [表單式體驗撰寫器](c-experiences/form-experience-composer.md)
    + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
@@ -329,53 +292,32 @@ ht-degree: 74%
       + [實體屬性](c-recommendations/c-products/entity-attributes.md)
       + [自訂實體屬性](c-recommendations/c-products/custom-entity-attributes.md)
       + [摘要](c-recommendations/c-products/feeds.md)
-      + [摘要測試版](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [目錄搜尋](c-recommendations/c-products/catalog-search.md)
-      + [目錄搜尋beta版](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [集合](c-recommendations/c-products/collections.md)
-      + [收藏集測試版](/help/main/c-recommendations/c-products/collections-beta.md)
       + [排除項目](c-recommendations/c-products/exclusions.md)
-      + [排除專案（測試版）](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 條件 {#criteria}
       + [條件概覽](c-recommendations/c-algorithms/algorithms.md)
-      + [條件概觀Beta版](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [建立條件](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [建立條件測試版](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [建立條件序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [建立標準序列（測試版）](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [讓建議以建議金鑰測試版為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target 推薦演算法背後的科學](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [上傳自訂條件](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [上傳自訂條件測試版](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 動態與靜態包含{#dynamic-static}
          + [使用動態和靜態包含規則](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [使用動態和靜態包含規則（測試版）](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [實體屬性比對](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [實體屬性比對Beta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [輪廓屬性比對](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [設定檔屬性比對Beta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [參數比對](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
-         + [引數比對Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [靜態篩選器](/help/main/c-recommendations/c-algorithms/static-value.md)
-         + [靜態篩選器Beta版](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [使用備份推薦](c-recommendations/c-algorithms/backup-recs.md)
-      + [使用備份推薦](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [使用多值屬性](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [使用多值屬性（測試版）](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [使用 Adobe Analytics 和推薦](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
-      + [將Adobe Analytics與Recommendations測試版搭配使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + 設計 {#recommendations-design}
       + [設計概覽](c-recommendations/c-design-overview/design-overview.md)
       + [建立設計](c-recommendations/c-design-overview/create-design.md)
-      + [建立設計測試版](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [設計常見問題集](c-recommendations/c-design-overview/template-faq.md)
       + [使用 Velocity 自訂設計](c-recommendations/c-design-overview/customizing-a-template.md)
    + 活動 {#recommendations-activity}
       + [建立推薦活動](c-recommendations/t-create-recs-activity/create-recs-activity.md)
-      + [建立Recommendations活動測試版](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
-      + [選取條件](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [選取條件Beta版](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [推薦活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

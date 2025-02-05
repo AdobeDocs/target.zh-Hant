@@ -1,14 +1,14 @@
 ---
 keywords: 流量估算器；automated personalization；ap；估算流量
-description: 使用 [!DNL Adobe Target] [!UICONTROL Traffic Estimator]來判斷是否有足夠的流量讓[!UICONTROL Automated Personalization]活動能夠成功。
+description: 使用[!UICONTROL Traffic Estimator]評估您是否有足夠的流量讓[!UICONTROL Automated Personalization]活動能夠成功。
 title: 成功的[!UICONTROL Automated Personalization]活動需要多少流量？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 10%
 
 ## 使用流量估算程式
 
-1. 從[!UICONTROL Automated Personalization]活動中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]頁面，按一下&#x200B;**[!UICONTROL Traffic]**&#x200B;圖示。
+1. 從[!UICONTROL Automated Personalization]活動中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]頁面，按一下[!UICONTROL Experiences]頁面左上角的&#x200B;**[!UICONTROL Traffic]**&#x200B;圖示（ ![流量估算器圖示](/help/main/assets/icons/Gauge2.svg) ）。
 
-   ![流量圖示](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   [!UICONTROL Traffic Estimator]隨即開啟。
 
-   [!UICONTROL Traffic Estimator]隨即開啟。 您可以再按一下&#x200B;**[!UICONTROL Traffic]**&#x200B;來隱藏[!UICONTROL Traffic Estimator]。
+   ![流量估算器使用者介面](assets/ap-est.png)
 
-   ![流量估算器使用者介面](assets/ap_est.png)
+   您可以再按一下圖示來隱藏[!UICONTROL Traffic Estimator]。
 
 1. 指定一般轉換率（或您從此活動預期的轉換率）、預估每日活動曝光次數和測試持續時間。
 
@@ -45,19 +45,19 @@ ht-degree: 10%
 
    在[!UICONTROL Traffic Estimator]頂端附近，會計算您輸入的值並顯示結果。
 
-   ![顯示值與結果的流量預估](assets/ap_est_no.png)
+   ![顯示值與結果的流量預估](assets/ap-est-no.png)
 
    當您變更數量時，預估即會變更。例如，如果您正在測試許多組合，而您的轉換率和曝光率太低，[!UICONTROL Traffic Estimator]會顯示測試必須執行多久才能成功。 或者，如果您的流量低，[!UICONTROL Traffic Estimator]可能會建議較少數目的選件組合，讓您執行所需天數的測試。
 
    如果您沒有足夠的流量，請考慮下列事項：
 
-   * 請考慮使用[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動（而非[!UICONTROL Automated Personalization]）來建立體驗，讓一個體驗變數中有數個選件變更。
+   * 請考慮使用[[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動而非[!UICONTROL Automated Personalization]來建立體驗，並在一個體驗變數中變更數個選件。
    * 減少[!UICONTROL Automated Personalization]活動中的優惠方案組合數量。
    * 增加活動的持續時間。
 
    調整數字，直到[!UICONTROL Traffic Estimator]指出您有足夠的流量，然後相應地設計測試。
 
-   ![流量估算器顯示足夠的流量訊息](assets/ap_est_yes.png)
+   ![流量估算器顯示足夠的流量訊息](assets/ap-est-yes.png)
 
    如果流量足夠，[!UICONTROL Traffic]圖示會顯示綠色勾號。 如果流量不足，圖示會顯示紅色的警告標籤。
 

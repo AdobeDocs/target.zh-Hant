@@ -1,20 +1,20 @@
 ---
 keywords: 條件序列；多個條件；演演算法；條件；建議條件；序列；限制傳回的專案數；位置層級控制；位置
-description: 瞭解如何設定最多五個條件的順序，以更能控制Adobe [!DNL Target] Recommendations活動中出現的專案。
+description: 瞭解如何設定最多5個條件的順序，以更能控制Recommendations活動中出現的專案。
 title: 如何在Recommendations中建立條件序列？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 23%
+source-wordcount: '751'
+ht-degree: 18%
 
 ---
 
 # 建立條件序列
 
-使用最多五個條件的序列來加強控制[!UICONTROL Recommendations]活動中出現的專案。 您也可以限制傳回的專案數（有時稱為「位置層級控制」）。
+使用最多五個條件的序列來對出現在您[!DNL Adobe Target] [!UICONTROL Recommendations]活動中的專案執行更好的控制。 您也可以限制傳回的專案數（有時稱為「位置層級控制」）。
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ ht-degree: 23%
 
 若要建立條件順序，您必須先建立您要在序列中包括的條件。如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-透過使用條件序列，您可以在條件未傳回可滿足您的設計的足夠結果時，提供其他鎖定目標的建議，而非使用更一般的備用建議。通常，條件序列將從可能傳回較少結果的更特定目標定位，繼續到通常傳回較多結果的更一般目標定位。
+透過使用條件序列，您可以在條件未傳回可滿足您的設計的足夠結果時，提供其他鎖定目標的建議，而非使用更一般的備用建議。通常，條件序列會從更具體的目標定位（可能會傳回較少的結果）進展到更一般的目標定位（通常傳回更多結果）。
 
 您的條件序列可能會依頁面型別的不同而有所不同，如下列範例所示：
 
 | 頁面型別 | 可能的順序順序 |
 | --- | --- |
-| 產品頁面 | <ol><li>根據目前項目，來自相同品牌</li><li>根據目前項目，來自所有品牌</li><li>根據內容相似度</li><li>根據最暢銷商品</li><li>根據各網站間檢視次數最多的項目</li></ol> |
+| 產品頁面 | <ol><li>根據目前專案，來自相同品牌</li><li>根據目前項目，來自所有品牌</li><li>根據內容相似度</li><li>根據最暢銷商品</li><li>根據各網站間檢視次數最多的項目</li></ol> |
 | 首頁 | <ol><li>根據訪客的最近一次的購買 </li><li>根據訪客最喜愛的項目</li><li>根據訪客最喜愛的類別</li><li>根據最暢銷商品</li><li>根據各網站間檢視次數最多</li></ol> |
 
 ## 建立條件序列
@@ -38,8 +38,8 @@ ht-degree: 23%
 有多種方式可以到達[!UICONTROL Create Criteria Sequence]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**。 您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
-* 建立[!UICONTROL Recommendations]活動時，請在[選取條件]畫面中按一下&#x200B;**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**。 您將可以選擇儲存您的新條件序列以搭配其他[!UICONTROL Recommendations]活動使用。
-* 編輯[!UICONTROL Recommendations]活動時，請在頁面上的[!UICONTROL Recommendations Location]方塊中按一下，然後選取&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]畫面上，按一下&#x200B;**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**。 您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
+* 建立[!UICONTROL Recommendations]活動時，從[!UICONTROL Select Criteria]畫面按一下「**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**」。 您可以選擇儲存您的新條件序列以搭配其他[!UICONTROL Recommendations]活動使用。
+* 編輯[!UICONTROL Recommendations]活動時，請在頁面上的[!UICONTROL Recommendations Location]方塊中按一下，然後選取&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]畫面上，按一下&#x200B;**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**。 您可以選擇儲存您的新條件以搭配其他[!UICONTROL Recommendations]活動使用。
 
 下列步驟假設您使用第一個方法存取[!UICONTROL Create Criteria Sequence]畫面： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面。
 
@@ -47,25 +47,17 @@ ht-degree: 23%
 
 1. 按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**。
 
-   ![CreateCriteriaSequence映像](assets/CreateCriteriaSequence.png)
-
 1. 在[基本資訊](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)區段中填入資訊。
 
-1. 在&#x200B;**[!UICONTROL Criteria Sequence]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Criteria]**。
+1. 在&#x200B;**[!UICONTROL Criteria Sequence]**&#x200B;區段中，按一下加號( + )以新增一或多個條件序列。
 
-   序列順序會定義設計填入的順序。 如果條件1的建議不足以填滿您的設計，則剩餘位置將以條件2填滿，依此類推。
+   序列順序會定義設計填入的順序。 如果條件1的建議不足以填滿您的設計，則其餘位置會填滿條件2，依此類推。
 
-   ![新增條件](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
+1. 在[!UICONTROL Select Criteria]畫面上，選取條件，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-1. 在[!UICONTROL Select Criteria]畫面上，選取條件，然後按一下&#x200B;**[!UICONTROL Add]**。
-
-   您可以使用搜尋方塊和篩選器下拉式清單來尋找所需的條件。
-
-   ![選取條件](/help/main/c-recommendations/c-algorithms/assets/select-criteria.png)
+   您可以使用[!UICONTROL Search]方塊和篩選選項來尋找所需的條件。
 
 1. （選用）將&#x200B;**[!UICONTROL Limit the number of items returned]**&#x200B;切換滑至「開啟」位置，然後指定專案數量（介於1到50之間）。
-
-   ![限制傳回的專案數目](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
 
    為協助您瞭解[!UICONTROL Limit the number of items returned]選項（有時稱為「位置層級控制」）的值，請考慮下列使用案例：
 
@@ -81,18 +73,8 @@ ht-degree: 23%
 
 1. 啟用[備份內容選項](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Create]**。
 
-   條件序列會出現在條件清單中。
+   條件序列會顯示在[!UICONTROL Criteria]清單中。
 
    如需關於建議邏輯選項的詳細資訊，請參閱[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。
-
-## 訓練影片：在Recommendations中建立條件(12:33) ![教學課程徽章](/help/main/assets/tutorial.png)
-
-此影片包含下列資訊:
-
-* 建立條件
-* 建立條件序列
-* 上傳自訂條件
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

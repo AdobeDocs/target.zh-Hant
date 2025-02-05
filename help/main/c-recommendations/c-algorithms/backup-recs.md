@@ -1,20 +1,20 @@
 ---
 keywords: 建議;備用
-description: 瞭解如何在Adobe [!DNL Target] Recommendations中使用備份建議。 建議沒有足夠的建議專案，則會顯示備份演演算法的結果。
-title: 如何在Recommendations中使用備份建議？
+description: 瞭解如何在Adobe [!DNL Target Recommendations]中使用備份建議。
+title: 如何在 [!DNL Target Recommendations]中使用備份建議？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 77%
+source-wordcount: '508'
+ht-degree: 70%
 
 ---
 
 # 使用備份推薦
 
-如果您在[!DNL Adobe Target]中使用備份建議功能，則任何沒有足夠建議專案的建議將不會顯示預設內容。 建議會改為顯示備份演算法的結果。
+如果您在[!DNL Adobe Target]中使用備份建議功能，則任何沒有足夠建議專案的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
 
 如果您未使用備份建議，而建議沒有足夠的項目來顯示，則系統會對使用者顯示預設內容。
 
@@ -22,11 +22,11 @@ ht-degree: 77%
 >
 >其他資訊包含在建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主題的[內容區段中，包括說明將[!UICONTROL Partial Design Rendering]和[!UICONTROL Show Backup Recommendations]選項搭配使用或分開使用時將觀察到的結果的矩陣。
 
-使用演算法資料後，備份建議功能會始終使用網站上檢視次數最多的項目來填充任何剩余區段。例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
+備份建議功能一律會使用網站上檢視次數最多的專案，填滿使用演演算法資料後剩餘的所有位置。 例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
 
 從整個網站前 500 個最常檢視的產品中，隨機挑選備份建議。備份建議的日期時段為 1 週。
 
-500 個最常檢視的結果會依序排序，然後分割成每 20 個一組。各組依序提供，但每一組內的結果會隨機化並傳回給頁面。如果使用者重新整理頁面，則會看到新的隨機化結果。如果結合集合與篩選規則而傳回的結果集小於 20，則會從集合中隨機選取。
+500 個最常檢視的結果會依序排序，然後分割成每 20 個一組。各組依序提供，但每一組內的結果會隨機化並傳回給頁面。如果使用者重新整理頁面，則會看到新的隨機化結果。如果集合的聯集和篩選規則的結果集小於20，則會隨機從集合中選取。
 
 此分組程序表示備用建議會依下列順序顯示:
 

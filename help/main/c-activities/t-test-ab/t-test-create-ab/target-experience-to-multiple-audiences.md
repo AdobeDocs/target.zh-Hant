@@ -1,13 +1,13 @@
 ---
 keywords: 多個客群; 體驗版本; 鎖定體驗版本
-description: 瞭解如何在 [!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。
+description: 瞭解如何在A/B活動中使用相同體驗的版本鎖定不同的受眾區段。
 title: 我可以在A/B活動中使用多個體驗版本嗎？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '593'
+ht-degree: 52%
 
 ---
 
@@ -33,13 +33,9 @@ ht-degree: 53%
 
    設定將有多個版本的體驗時，請選取每個版本的客群，如下列步驟所示。
 
-1. 選取體驗，然後按一下&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**。
+1. 選取體驗，然後按一下&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**。
 
-   ![多個客群選項](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. 按一下「**[!UICONTROL Add Audience]**」，然後選取您要鎖定的第一個對象。 對每個客群重複。
-
-   ![exp-versions影像](assets/exp-versions.png)
+1. 按一下[!UICONTROL Experience Audiences]窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg)），然後選取您要鎖定的第一個對象。 對每個客群重複。
 
    如果客群尚未存在，請按一下[「建立客群」](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)並加以設定。
 

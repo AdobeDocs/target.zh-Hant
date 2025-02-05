@@ -4,10 +4,10 @@ description: 瞭解Adobe [!DNL Target] 中的成功量度，這些量度可協�
 title: 什麼是成功量度？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 43%
+source-wordcount: '1190'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 
 在[!DNL Adobe Target]個成功量度中，是用來測量活動成功的引數。 成功量度包含重要的商務測量，可讓您判斷[!DNL Target]活動中特定體驗或選件的成功程度。
 
-例如，您可以判斷新選件是否會提高每位訪客帶來的收入，或將項目新增至購物車的機會。成功量度非常適合用於探索關於註冊、訂購或購買漏斗的問題，但也適合探索關於訪客或客戶參與度的問題。
+例如，您可以判斷新產品建議是否會提高每位訪客帶來的收入，或將項目新增至購物車的機會。成功量度非常適合用於探索關於註冊、訂購或購買漏斗的問題，但也適合探索關於訪客或客戶參與度的問題。
 
 ## 總覽
 
@@ -57,9 +57,9 @@ ht-degree: 43%
 
 使用進階設定來管理測量成功的方式。選項包括新增相依性、選擇讓使用者留在活動還是移除活動，以及是否對每個加入者或每次曝光都計算一次量度。
 
-若要存取[!UICONTROL Advanced Settings]選項，請按一下&#x200B;**[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**。
+若要存取[!UICONTROL Advanced Settings]選項，請按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下&#x200B;**[!UICONTROL Advanced Settings]**。
 
-![進階設定功能表](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![進階設定功能表](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
 >[!NOTE]
 >
@@ -69,9 +69,7 @@ ht-degree: 43%
 
 您可以使用進階設定來建立相依成功量度，只有在訪客先達到另一個量度時才遞增一個量度。
 
-![新增相依性](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
-
-例如，測試轉換可能只有在轉換之前訪客點擊了選件，或是達到特定頁面時才有效。
+例如，測試轉換可能只有在轉換之前訪客點擊了產品建議，或是達到特定頁面時才有效。
 
 相依性功能&#x200B;*不支援下列專案*：
 
@@ -83,7 +81,7 @@ ht-degree: 43%
 相依成功量度在下列情況下不會轉換:
 
 * 如果您建立循環相依性，其中的 metric1 相依於 metric2，而 metric2 相依於 metric1，則這兩個量度都不會轉換。
-* 自動個人化活動會在達到轉換量度時釋出使用者並重新開始活動，因此相依於轉換量度的任何量度永遠不會轉換。
+* 達到轉換量度時，[!UICONTROL Automated Personalization]個活動會釋出使用者並重新啟動活動，因此相依於轉換量度的任何量度都不會轉換。
 
 ### 使用者達到此目標量度後會發生什麼事?
 

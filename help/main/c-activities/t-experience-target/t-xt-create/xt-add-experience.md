@@ -4,10 +4,10 @@ description: 瞭解如何使用 [!DNL Adobe Target] [!UICONTROL Visual Experienc
 title: 如何在[!UICONTROL Experience Targeting]活動中建立體驗？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 36%
+source-wordcount: '897'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 36%
 
    在[建立[!UICONTROL Experience Targeting]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三步驟引導式工作流程的步驟一([!UICONTROL Experiences])會顯示具有[!UICONTROL All Visitors]對象的預設[!UICONTROL Experience A]。
 
-   ![所有訪客客群](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![所有訪客客群](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    您所做的任何變更現在都會套用至[!UICONTROL Experience A]。 在下列步驟中，您按一下&#x200B;**[!UICONTROL Add Experience Targeting]**&#x200B;以建立其他體驗。
 
@@ -29,15 +29,13 @@ ht-degree: 36%
    >
    >根據預設，VEC 不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。您可以使用VEC停用JavaScript以更改這些元素。
 
-1. 若要建立其他體驗，請按一下&#x200B;**[!UICONTROL Add Experience Targeting]**。
-
-   ![新增體驗鎖定目標連結](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+1. 若要建立其他體驗，請按一下&#x200B;**[!UICONTROL Add]** （ ![新增按鈕](/help/main/assets/icons/Add.svg) ）。
 
    [!UICONTROL Add Audience]對話方塊隨即顯示。 若要將體驗鎖定至某個受眾，請在新增體驗之前選取受眾。
 
    客群資料庫包含先前已定義的客群，包括一些隨著 [!DNL Target] 預先建置的共通客群。您可以從資料庫中選取客群或[建立新客群](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
 
-   除了選取現有客群，您可以結合多個客群來建立隨選結合的客群而非建立新客群。如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。 如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
    建立對象時，您可以選取位置並指定該位置的引數。 在[!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom])下，選取位置，然後指定所要的引數。
 
@@ -45,11 +43,9 @@ ht-degree: 36%
    >
    >當您開啟對象清單時，系統會自動在背景匯入對象，且匯入的對象已超過十分鐘。
 
-1. 選取體驗要鎖定的一或多個對象，然後按一下&#x200B;**[!UICONTROL Done]**。
+1. 選取體驗要鎖定的一或多個對象，然後按一下&#x200B;**[!UICONTROL Assign Audience]**。
 
-   ![體驗 B](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
-
-   體驗B現在顯示於上圖中，且此體驗已鎖定美國訪客受眾。
+   體驗B現在顯示於上圖中，且此體驗已鎖定至適當的對象。
 
 1. 選取您要針對此體驗變更的元素，並進行所需的變更，如上述步驟1所述。
 
@@ -59,7 +55,7 @@ ht-degree: 36%
 
    活動圖表顯示:
 
-   ![XT 鎖定目標圖表](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![XT 鎖定目標圖表](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
 
    >[!NOTE]
    >
@@ -67,38 +63,28 @@ ht-degree: 36%
 
 1. （視條件而定）在建立或編輯[!UICONTROL Experience Targeting]活動時拖放對象和體驗配對，以使用所需順序排列配對。
 
-   系統會以由上到下的順序評估訪客的體驗。
+   按一下「重新排序」圖示（![重新排序圖示](/help/main/assets/icons/Reorder.svg) ）以在右側顯示[!UICONTROL Experiences]欄，然後視需要重新排列體驗。
 
-   ![移動體驗](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
+   系統會以由上到下的順序評估訪客的體驗。
 
    [!UICONTROL Experience Targeting]假設順序重要。 如果訪客屬於第一個受眾和體驗組，則會傳送第一個體驗。
 
-   例如，假設您在建立[!UICONTROL Experience Targeting]活動時不知道順序很重要。 您後續在測試期間發現，您認為應該符合體驗 B 或 C 資格的訪客卻符合體驗 A 的資格。這可能是因為該對象非互斥卻採用不適當的順序 (例如，體驗 A = 美國，體驗 B = 舊金山，而體驗 C = 加州)。在此案例中，所有來自美國的使用者都有資格使用體驗A，即使他們位於舊金山或加州的其他地方亦然。 您可以重新排序對象和體驗配對，從限制最高到限制最低（舊金山>加州>美國），而不需要重新建立整個活動。
+   例如，假設您在建立[!UICONTROL Experience Targeting]活動時不知道順序很重要。 您稍後在測試期間發現，您認為應符合體驗B或C的訪客，反而符合體驗A。此情況可能是因為對象並非互斥，且順序不正確（例如，體驗A =美國、體驗B =舊金山，以及體驗C =加州）。 在此案例中，所有來自美國的使用者都有資格使用體驗A，即使他們位於舊金山或加州的其他地方亦然。 您可以重新排序對象和體驗配對，從限制最高到限制最低（舊金山>加州>美國），而不需要重新建立整個活動。
 
    如果您有[!UICONTROL All Visitors]個對象，請確定這不是圖表中的第一個對象。 鎖定在「[!UICONTROL All Visitors]」的體驗可用作[!UICONTROL Experience Targeting]活動中的最後一個體驗，以「捕捉」未落入任何其他體驗的任何訪客。
 
-## 重新命名或編輯體驗
+## 重新命名、編輯、複製或刪除體驗
 
-您可以按一下[!UICONTROL Experience Targeting]活動中某個體驗的[!UICONTROL Edit]圖示（垂直省略符號），並視需要選擇下列選項：
+按一下[!UICONTROL Experience Targeting]活動中圖表中的體驗，以在右側顯示[!UICONTROL Experiences]欄。
 
-* [!UICONTROL Rename]
-* [!UICONTROL Edit]
+![重新命名和編輯選項](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png)
 
-![重新命名和編輯選項](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
+視需要選擇下列選項：
 
-## 刪除體驗
-
-在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面（三步驟引導式工作流程的第一步），按一下垂直的省略符號> **[!UICONTROL Delete]**。
-
-![刪除體驗](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
-
-## 複製體驗
-
-您可以複製[!UICONTROL Experience Targeting]活動中的體驗，不必重新建立整個體驗，即可進行微幅變更。
-
-在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面（三步驟引導式工作流程的第一步），按一下垂直的省略符號> **[!UICONTROL Duplicate]**。
-
-![複製體驗](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+* **[!UICONTROL Rename]**：在[!UICONTROL Name]欄位中輸入所要的名稱。
+* **[!UICONTROL Edit]**：按一下「編輯」圖示（ ![編輯圖示](/help/main/assets/icons/Edit.svg) ），然後進行您想要的變更。
+* **[!UICONTROL Duplicate]**：複製[!UICONTROL Experience Targeting]活動中的體驗，不必重新建立整個體驗，即可進行微幅變更。 按一下[!UICONTROL Duplicate]圖示（![重複圖示](/help/main/assets/icons/Duplicate.svg) ），然後視需要編輯體驗。
+* **[!UICONTROL Delete]**：按一下[!UICONTROL Delete]圖示（![刪除圖示](/help/main/assets/icons/Delete.svg)），然後確認刪除。
 
 ## 訓練影片:
 
