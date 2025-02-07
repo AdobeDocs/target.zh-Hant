@@ -5,16 +5,20 @@ title: 哪裡可以找到有關 [!DNL Recommendations]的問答？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3506'
 ht-degree: 84%
 
 ---
 
-# Recommendations 常見問題集
+# 推薦常見問題集
 
 關於 [!DNL Adobe Target] [!DNL Recommendations] 活動的常見問答 (FAQ) 清單。
+
+## 透過API建立的[!DNL Recommendations]物件是否顯示在[!DNL Target] UI中？
+
+是，透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）現在可在UI中使用。
 
 ## 我可以使用[!DNL Target] API管理[!DNL Target] UI建立的視覺化選件嗎？
 
@@ -91,9 +95,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 建立 Recommendations 活動時，為何不是所有條件都可供選擇，包括自訂條件？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 建立推薦活動時，為何不是所有條件都可供選擇，包括自訂條件？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
-可用的條件取決於目前類別。建立推薦選件時，演算法選擇器會根據類別 ID 來顯示條件。
+可用的條件取決於目前類別。建立推薦產品建議時，演算法選擇器會根據類別 ID 來顯示條件。
 
 如果您套用此條件的位置不含類別 ID，則某些條件不會出現在演算法選擇器中。
 
@@ -124,7 +128,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 未從頁面上觸發任何 mbox 呼叫 (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * [!DNL Target] 參數未定義。
 
-## 如果 Recommendations 中的集合變成零 (0)，怎麼辦？ {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## 如果推薦中的集合變成零 (0)，怎麼辦？ {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 如果您看到一個集合原先不是零而現在變成零，請考量下列資訊：
 
@@ -175,9 +179,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 您當然可以嘗試在單一呼叫中傳送 50,000 個產品。如果失敗，您應該將其分成幾個批次。Adobe 通常建議客戶將其呼叫分成 5,000 或 10,000 個產品批次，以降低系統負載造成逾時的可能性。
 
-## 建立 Recommendations 條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱？  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## 建立推薦條件、促銷活動或範本測試規則時，是否需要指定 mbox 名稱？  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-根據 mbox 參數建立 Recommendations 條件、促銷活動或範本測試規則時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
+根據 mbox 參數建立推薦條件、促銷活動或範本測試規則時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
 若要選取需要的參數:
 
@@ -188,7 +192,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果編輯現有條件、促銷活動或範本測試規則，則篩選條件將顯示建立期間提供的 mbox 名稱。
 
-## 定義新客群後，為何無法儲存舊版 Recommendations 活動？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定義新客群後，為何無法儲存舊版推薦活動? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 請確定對象有唯一的名稱。若您為對象指定了與現有對象相同的名稱，則無法儲存舊版 Recommendations 活動 (2016 年 10 月以前建立的 Recommendations 活動)。
 
@@ -208,11 +212,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 >
 >如果排除太多實體，則推薦會以沒有足夠實體可填入推薦範本的情況來處理。
 
-若要排除 `entityIds`，請將 `&excludes=${mbox.excludedIds}` 權杖附加至選件內容 URL。擷取內容 URL 時，目前的 mbox 請求參數會替代必要參數。
+若要排除 `entityIds`，請將 `&excludes=${mbox.excludedIds}` 權杖附加至產品建議內容 URL。擷取內容 URL 時，目前的 mbox 請求參數會替代必要參數。
 
 依預設，新建立的建議會啟用此功能。必須儲存現有的建議來支援動態排除的實體。
 
-## Recommendations 內容 trace 中有時會回傳 NO_CONTENT 回應是什麼意思？
+## 推薦內容 trace 中有時會回傳 NO_CONTENT 回應是什麼意思？
 
 若請求的演算法和重要組成沒有提供推薦，則會回傳 NO_CONTENT。一般而言，此情況會在備份於演算法中停用且下列一個或多個陳述為真時發生：
 
@@ -234,15 +238,15 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 根據最近檢視項目的建議會針對單一訪客保存在多個裝置上嗎？ {#persist-across-devices}
 
-當訪客起始工作階段時，工作階段 ID 會繫結至單一邊緣機器，而暫時設定檔快取會儲存在這部邊緣機器中。 來自相同工作階段的後續要求會讀取此設定檔快取，包括最近檢視的項目。
+當訪客起始工作階段時，工作階段 ID 會繫結至單一邊緣機器，而暫時輪廓快取會儲存在這部邊緣機器中。 來自相同工作階段的後續要求會讀取此輪廓快取，包括最近檢視的項目。
 
-當工作階段結束時 (通常會在 30 分鐘沒有活動後到期)，工作階段狀態 (包括最近檢視的項目) 會保存在相同地理邊緣中較永久的設定檔儲存空間。
+當工作階段結束時 (通常會在 30 分鐘沒有活動後到期)，工作階段狀態 (包括最近檢視的項目) 會保存在相同地理邊緣中較永久的輪廓儲存空間。
 
-之後來自不同裝置的後續工作階段就可以存取這些最近檢視的項目，前提為新的工作階段透過相同的 Marketing Cloud ID (MCID)、Experience Cloud ID (ECID) 或 CustomerID/mbox3rdPartyId 繫結至客戶設定檔。
+之後來自不同裝置的後續工作階段就可以存取這些最近檢視的項目，前提為新的工作階段透過相同的 Marketing Cloud ID (MCID)、Experience Cloud ID (ECID) 或 CustomerID/mbox3rdPartyId 繫結至客戶輪廓。
 
 如果訪客同時有兩個作用中工作階段，某台裝置上最近檢視的項目並不會更新另一台裝置上的最近檢視的項目，除非這些裝置被強制共用工作階段 ID。 此問題有可能的解決辦法，但 [!DNL Target] 無法直接支援跨多台裝置的工作階段 ID 共用。 客戶必須自行管理此 ID 共用。
 
-如果訪客在某台裝置上很活躍，然後幾分鐘後於另一台裝置上很活躍，還是會發生此行為。 第一台裝置的工作階段不會在 30 分鐘後到期，而且在設定檔狀態寫入永久狀態並進行處理之前，最多可能會延遲五分鐘。 在測試此行為時，請等候 35 分鐘讓工作階段到期，並儲存設定檔。
+如果訪客在某台裝置上很活躍，然後幾分鐘後於另一台裝置上很活躍，還是會發生此行為。 第一台裝置的工作階段不會在 30 分鐘後到期，而且在輪廓狀態寫入永久狀態並進行處理之前，最多可能會延遲五分鐘。 在測試此行為時，請等候 35 分鐘讓工作階段到期，並儲存輪廓。
 
 如果訪客未同時擁有兩個作用中工作階段，只要工作階段已結束，某台裝置上最近檢視的項目就會更新另一台裝置上的最近檢視的項目。 在測試此行為時，請等候 35 分鐘讓工作階段到期。
 
@@ -268,9 +272,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 | publishDate | 20210113 |
 | publishDateDisplay | 2021 年 1 月 13 日 |
 
-### 設定設定檔指令碼：
+### 設定輪廓指令碼：
 
-![範例設定檔指令碼](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+![範例輪廓指令碼](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
 ### 設定包含規則：
 
@@ -284,9 +288,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 下列是[!UICONTROL Recommendations]活動的已知問題：
 
-* 當 [!DNL Target] 傳回含 getOffer() 的 JSON 選件時，它會傳回 JSON 類型。然而，如果您傳回 JSON Recommendations 設計，則它會傳回 HTML 類型。
+* 當 [!DNL Target] 傳回含 getOffer() 的 JSON 產品建議時，它會傳回 JSON 類型。然而，如果您傳回 JSON推薦設計，則它會傳回 HTML 類型。
 * 若 60 天內未經由動態消息或 API 收到更新，過期的實體即會確實過期；不過，實體過期之後並未從目錄搜尋索引中移除。透過動態消息或 API 刪除的實體目前也不會從目錄搜尋索引中移除。(IRI-857)
-* A/B 和體驗鎖定活動中的 Recommendations 選件不會顯示 Recommendations 系統匣的視覺化預覽 (TGT-33426)
+* A/B 和體驗鎖定活動中的推薦產品建議不會顯示推薦系統匣的視覺化預覽 (TGT-33426)
 * 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。(TGT-35777)
-* 透過 API 建立的 Recommendations 活動可在使用者介面中檢視，但只能透過 API 編輯。
+* 透過 API 建立的推薦活動可在使用者介面中檢視，但只能透過 API 編輯。
 * 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896 和 TGT-36173)

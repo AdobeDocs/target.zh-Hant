@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 14%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 14%
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
-* 重新設計報表，以更深入瞭解活動結果
+* [重新設計報告](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果
 * 更新[!UICONTROL Audit]頁面，現在從[!DNL Audit API]取得即時深入分析的資訊
-* 可自訂的清單檢視，以針對不同的團隊需求提供更好的彈性
-* 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊
-* 工作階段持續搜尋和篩選選項
-* 已完整重建[!UICONTROL Visual Editing Composer]，並支援瀏覽器提供者的最新安全性更新以及最新的使用者介面
-* 更新支援Manifest V3的[!DNL Chrome]擴充功能，以提升安全性並改善對第一方Cookie的支援
+* [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性
+* [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊
+* [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)
+* 已完全[重建[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，並支援瀏覽器提供者的最新安全性更新以及最新的使用者介面
+* [已更新 [!DNL Chrome] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)支援Manifest V3以提高安全性並改善對第一方Cookie的支援
 
 ![活動重新整理](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -60,11 +60,11 @@ ht-degree: 14%
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
-* 產品目錄搜尋現在提供更新的資料庫，以便即時同步產品
-* 透過API建立的[!UICONTROL Recommendation]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）現在可在UI中使用
-* 設定已合併到[!UICONTROL Administration]區段下
+* [產品目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)現在提供更新的資料庫，允許產品即時同步
+* 透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]） [現在可在UI中使用](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Recommendations設定](/help/main/administrating-target/recommendations-settings.md)已整合至[!UICONTROL Administration]區段下
 * 可自訂的清單檢視，以針對不同的團隊需求提供更好的彈性
-* 使用語法醒目提示和行編號重新整理的HTML和JSON代碼編輯器
+* 重新整理HTML和JSON程式碼編輯器，使用[語法醒目提示和行編號](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊
 * 工作階段持續搜尋和篩選選項
 
