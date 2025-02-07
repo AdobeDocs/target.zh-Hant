@@ -6,8 +6,8 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 33%
+source-wordcount: '776'
+ht-degree: 37%
 
 ---
 
@@ -23,45 +23,17 @@ ht-degree: 33%
 
 1. 從[!UICONTROL Create Activity]對話方塊中選取&#x200B;**[!UICONTROL Form]**。
 
-1. （視條件而定）如果您是[Target Premium客戶](/help/main/c-intro/intro.md#premium)，請從&#x200B;**[!UICONTROL Choose Workspace]**&#x200B;下拉式清單中選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （視條件而定）選擇工作區和屬性。
 
-   [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能，如果貴組織擁有[!UICONTROL Target Standard]授權，可能無法顯示。
-
-1. 選擇屬性。
-
-1. 按一下 **[!UICONTROL Create]**。
+1. 按一下 **[!UICONTROL Next]**。
 
    [!UICONTROL Form-Based Experience Composer]隨即開啟。
 
+   ![location_refinements影像](assets/location_refinements.png)
+
    如果您要建立[!UICONTROL Recommendations]活動，此畫面會不同。 [!UICONTROL Recommendations]個活動不包含體驗。
 
-1. 
-   1. 按一下&#x200B;**[!UICONTROL Rename]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/MoreSmallListVert.svg)）、按一下&#x200B;**[!UICONTROL Rename]**、指定活動的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
-
-   活動名稱的開頭不能是下列任一字元：
-
-   | 字元 | 說明 |
-   |--- |--- |
-   | `=` | 等號 |
-   | `+` | 加號 |
-   | `-` | 減號 |
-   | `@` | 「@」符號 |
-
-   活動名稱不能包含下列任一字元順序：
-
-   | 字元順序 | 說明 |
-   |--- |--- |
-   | ；= | 分號，等於 |
-   | ；+ | 分號，加號 |
-   | ；- | 分號，減號 |
-   | ；@ | 分號， At sign |
-   | ，= | 逗號，等於 |
-   | ，+ | 逗號，加號 |
-   | ，- | 逗號，減號 |
-   | ，@ | 逗號， At sign |
-   | `[`&quot; | 左方括弧，雙引號 |
-   | &quot;`]` | 雙引號，右方括弧 |
-
+1. 按一下&quot;[!UICONTROL Untitled Activity]&quot;以命名活動。
 1. 選取位置。
 
    當您按一下「[!UICONTROL Select Location]」方塊時，會顯示可用位置清單。 選取其中一個位置。
@@ -74,9 +46,13 @@ ht-degree: 33%
 
 1. 按一下&#x200B;**[!UICONTROL Add Audience Refinements]**，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下&#x200B;**[!UICONTROL Done]**。
 
+   ![location_refinements_2圖片](assets/location_refinements_2.png)
+
    在[!UICONTROL Form-based Experience Composer]中，微調已取代為完整的對象功能。 現有活動的微調已移轉至[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 
 1. 選取您要在該位置中顯示的內容類型。
+
+   ![form_content圖片](assets/form_content.png)
 
 1. 針對您選取的內容類型指定內容。
 
@@ -120,7 +96,11 @@ ht-degree: 33%
 
    在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。
 
-   從[!DNL Target]三個步驟引導工作流程的[!UICONTROL Targeting]頁面：
+   ![change_criteria影像](assets/change_criteria.png)
+
+   在 Target 三步驟引導式工作流程的「鎖定目標」頁面:
+
+   ![change_criteria_2圖片](assets/change_criteria_2.png)
 
    **新增優惠決定：**
 
