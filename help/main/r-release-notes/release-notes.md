@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
+source-git-commit: 7a8d34f3155622bc288fc2b3017edb8fde7e18a3
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 30%
+source-wordcount: '1273'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,56 @@ ht-degree: 30%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## Target Standard/Premium 25.2.1 （2025年2月11日）
+
+此版本包含下列更新：
+
+* [!UICONTROL Activities]使用者介面更新
+* [!DNL Recommendations]使用者介面更新
+
+### [!UICONTROL Activities]使用者介面更新
+
+隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!UICONTROL Activities]使用者介面。
+
+>[!NOTE]
+>
+>自2月11日起，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+
+更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
+
+* [重新設計報告](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)頁面，目前正在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊
+* [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性
+* [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊
+* [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)
+* 已完全[重建[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，並支援瀏覽器提供者的最新安全性更新以及最新的使用者介面
+
+  如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
+* [已更新 [!DNL Chrome] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)支援Manifest V3以提高安全性並改善對第一方Cookie的支援
+
+![活動重新整理](/help/main/r-release-notes/assets/activities-refresh.png)
+
+### [!DNL Recommendations]使用者介面更新
+
+隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!DNL Recommendations]使用者介面。
+
+>[!NOTE]
+>
+>自2月11日起，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+
+更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
+
+* [產品目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)現在提供更新的資料庫，允許產品即時同步
+* 透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]） [現在可在UI中使用](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Recommendations設定](/help/main/administrating-target/recommendations-settings.md)已整合至[!UICONTROL Administration]區段下
+* 可自訂的清單檢視，以針對不同的團隊需求提供更好的彈性
+* 使用[語法醒目提示和行編號](/help/main/c-experiences/c-manage-content/create-json-offer.md)重新整理HTML和JSON程式碼編輯器
+* 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊
+* 工作階段持續搜尋和篩選選項
+
+![建議UI重新整理](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## Target Standard/Premium 25.1.1 （2025年1月9日）
 
@@ -35,7 +85,7 @@ ht-degree: 30%
 
 * **大量選件管理**：同時選取並刪除或移動多個選件。
 
-* **[!UICONTROL Code Editor]升級**：使用語法醒目提示和行編號重新整理HTML和JSON編輯器。
+* **[!UICONTROL Code Editor]個升級**：使用語法醒目提示和行編號重新整理HTML和JSON編輯器。
 
 * **改善的優惠方案卡**：加強快速資訊和詳細資訊卡，以更輕鬆存取資訊。
 
@@ -55,7 +105,7 @@ ht-degree: 30%
 
 >[!IMPORTANT]
 >
->如果您無法在2025年2月3日前完成實作檢閱並解決任何問題，可以請求一次性的六個月延期。 請確定您的請求已在2025年1月31日之前提交。 Adobe將會稽核並決定您的請求。
+>如果您無法在2025年2月3日前完成實作檢閱並解決任何問題，可以請求一次性的六個月延期。 請確定您的請求已在2025年1月31日之前提交。 Adobe將審閱並決定您的請求。
 
 若要在手動呈現主張時受益於此最佳化，請檢閱您的[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}，以確保您在手動呈現體驗後或使用`applyPropositions`方法（或相對應的[!DNL Launch]動作作為協助程式）呈現體驗時傳送通知。
 
@@ -73,7 +123,7 @@ ht-degree: 30%
 
 * **個人化和測量的單一呼叫。**
 
-  一開始建議使用[!DNL Platform Web SDK]的單一呼叫方法，但已排定取代分割呼叫方法。 Adobe建議所有新實施使用新的分割呼叫方法，並建議現有客戶也轉換為分割呼叫方法。
+  一開始建議使用[!DNL Platform Web SDK]的單一呼叫方法，但已排定取代分割呼叫方法。 Adobe建議所有新實作使用新的分割呼叫方法，並建議現有客戶也轉換為分割呼叫方法。
 
   如果您繼續使用單一呼叫方法，您可能會在[!DNL Analytics]報表中注意到下列非預期的變更：
 
