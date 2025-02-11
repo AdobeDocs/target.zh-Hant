@@ -5,9 +5,9 @@ title: 如何設定視覺化體驗撰寫器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 49%
 
 ---
@@ -55,7 +55,12 @@ ht-degree: 49%
 
 啟用體驗快照會在活動工作流程圖表中產生您的體驗的縮圖。停用快照可能對部分使用者造成較快速的效能。
 
-## [!BADGE 進階版]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="檢視Target Premium包含的內容。"}
+## 行動檢視區組態
+
+>[!NOTE]
+>
+>[!UICONTROL Mobile Viewport Configuration]設定是[Target Premium](/help/main/c-intro/intro.md#premium)功能。
+
 
 您可以新增裝置以在預覽體驗時使用。每個裝置有相關聯的對象。
 

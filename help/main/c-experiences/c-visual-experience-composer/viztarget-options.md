@@ -4,16 +4,21 @@ description: 探索 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] 
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 16%
+source-wordcount: '1007'
+ht-degree: 14%
 
 ---
 
 # 可視化體驗撰寫器選項
 
-當您在[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中按一下頁面元素時，功能表會顯示該元素型別可用的選項。 此外，DOM 路徑會顯示在頁面底部，讓您輕鬆導覽頁面結構。
+當您在[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中按一下頁面元素時，功能表會顯示該元素型別可用的選項。 此外，DOM路徑會顯示在頁面底部，讓您輕鬆導覽頁面結構
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 25.2.1 （2025年2月11日）發行版本包含VEC的更新版本。 如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
+
 
 各種[!UICONTROL Visual Experience Composer] (VEC)動作會分組到適當的功能表選項中，讓您的工作更快更有效率：
 
