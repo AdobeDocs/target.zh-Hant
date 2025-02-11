@@ -4,7 +4,7 @@ description: 瞭解Adobe Target 25.2.1版（2025年2月11日）中視覺化體�
 title: 新的視覺化體驗撰寫器(VEC)引進了哪些變更？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Properties]面板（新）
 
-新的[!UICONTROL Properties]面板可讓您變更頁面上所選元素的屬性，無論這些元素是HTML元素或專屬於[!DNL Target]的物件，例如建議或選件。
+新的[!UICONTROL Properties]面板可讓您變更頁面上所選元素的屬性，不論這些元素是HTML元素或專屬於[!DNL Target]的物件，例如建議或選件。
 
 ![屬性面板](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
