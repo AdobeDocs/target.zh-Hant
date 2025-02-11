@@ -4,9 +4,9 @@ description: 瞭解Adobe Target 25.2.1版（2025年2月11日）中視覺化體�
 title: 新的視覺化體驗撰寫器(VEC)引進了哪些變更？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 75f44b7ea4c3aff0e33cc2ee54bc39a705deaf2a
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 [!DNL Adobe Target Standard/Premium] 25.2.1版（2015年2月11日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版與更新版之間的差異。
 
+>[!IMPORTANT]
+>
+>更新的[!UICONTROL Visual Editing Composer]需要Chrome網站商店提供的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+
 當您建立或編輯現有活動時，VEC隨即顯示。
 
 ![可視化體驗撰寫器 (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## 重大變更
+## VEC的重大變更
 
 以下幾節將說明更新VEC與舊版相比的主要變更。
 
@@ -99,4 +103,6 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 下圖顯示更新VEC後的高階UI變更。 圖的上方顯示更新的VEC UI，下方則顯示先前的UI。 箭頭會顯示各種元素已移動的位置。
 
-![VEC比較 — 與先前的UI比較](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+（按一下影像可將其展開至瀏覽器的完整寬度。）
+
+![VEC比較 — 與先前的UI比較](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
