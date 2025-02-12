@@ -1,10 +1,10 @@
 ---
-keywords: 視覺化體驗撰寫器選項；體驗撰寫器選項；體驗選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；背景顏色；插入元素；編輯連結；連結；視覺化體驗撰寫器連結；編輯css類別；CSS類別；交換選件；選件交換；交換影像；影像交換；移除專案；專案移除；隱藏專案；重新排列；移動元素；元素移動；調整元素大小；元素大小；展開選取範圍；導覽至此連結；導覽連結；導覽；連結；復原；還原/重做；自訂事件；網頁元件；選件決定；offer decisioning
+keywords: 視覺化體驗撰寫器選項；體驗撰寫器選項；體驗選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；背景顏色；插入元素；編輯連結；連結；視覺化體驗撰寫器連結；編輯css類別；CSS類別；交換選件；選件交換；交換影像；影像交換；移除專案；專案移除；隱藏專案；重新排列；移動元素；元素移動；調整元素大小；元素大小；展開選取範圍；導覽至此連結；導覽連結；導覽；連結；復原；還原/重做；自訂事件；網頁元件；選件決定；選件決策
 description: 探索 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中可用的選項。
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1 （2025年2月11日）發行版本包含VEC的更新版本。 如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
+>[!DNL Target Standard/Premium] 25.2.1 （2025年2月12日）發行版本包含VEC的更新版本。 如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
 
 
 各種[!UICONTROL Visual Experience Composer] (VEC)動作會分組到適當的功能表選項中，讓您的工作更快更有效率：
@@ -38,7 +38,7 @@ ht-degree: 14%
 
 * 基本(分隔線、HTML、影像)。
 * 文字（標題、段落、連結）。
-* 動態([建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)，HTML選件)。
+* 動態([建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML選件)。
 
 影像頂端的功能表可讓您進行下列工作：
 
@@ -51,7 +51,7 @@ ht-degree: 14%
 
 框架頂端的圖示可讓您執行下列動作：
 
-* 編輯HTML( ![插入HTML圖示](/help/main/assets/icons/Code.svg) )。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
+* 編輯HTML (![插入HTML圖示](/help/main/assets/icons/Code.svg) )。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
 * 複製影像（ ![復製圖示](/help/main/assets/icons/Code.svg) ）。
 * 刪除影像（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 * 隱藏影像（ ![隱藏圖示](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 * 基本(分隔線、HTML、影像)。
 * 文字（標題、段落、連結）。
-* 動態([建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)，HTML選件)。
+* 動態([建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML選件)。
 
 按一下「[!UICONTROL Show Modifications]」圖示（![顯示修改圖示](/help/main/assets/icons/History.svg)）以顯示體驗的修改。
 
@@ -89,7 +89,7 @@ ht-degree: 14%
 * 設定文字的對齊方式（靠左、置中、靠右、左右對齊） （![文字對齊方式圖示](/help/main/assets/icons/TextAlignCenter.svg) ）。
 * 插入連結（ ![插入連結圖示](/help/main/assets/icons/Link.svg) ）。
 * 以HTML選件、[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[建議]/help/main/c-recommendations/recommendations-as-an-offer.md)取代內容。
-* 編輯HTML( ![插入HTML圖示](/help/main/assets/icons/Code.svg) )。
+* 編輯HTML (![插入HTML圖示](/help/main/assets/icons/Code.svg) )。
 * 新增個人化(![新增Personalization圖示](/help/main/assets/icons/PersonalizationField.svg) )。
 * 刪除影像（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
 框架頂端的圖示可讓您執行下列動作：
 
-* 編輯HTML( ![插入HTML圖示](/help/main/assets/icons/Code.svg) )。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
+* 編輯HTML (![插入HTML圖示](/help/main/assets/icons/Code.svg) )。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
 * 複製文字（ ![復製圖示](/help/main/assets/icons/Code.svg) ）。
 * 刪除文字（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 * 隱藏文字（ ![隱藏圖示](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -119,7 +119,7 @@ ht-degree: 14%
 
 除了 HTML 程式碼，您可以編輯和插入自訂 JavaScript。
 
-編輯[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活動的文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。修改HTML時，您可以在程式碼檢視和HTML的豐富編輯檢視之間切換。
+針對[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活動編輯文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。修改HTML時，您可以在程式碼檢視和HTML的豐富編輯檢視之間切換。
 
 以下是可巢狀的 HTML5 標記:
 

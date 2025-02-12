@@ -4,7 +4,7 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 13%
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年2月10日**
+**上次更新日期：2025年2月12日**
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 13%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## Target Standard/Premium 25.2.1 （2025年2月11日）
+## Target Standard/Premium 25.2.1 （2025年2月12日）
 
 此版本包含下列更新：
 
@@ -36,7 +36,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->自2月11日起，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+>自2月12日起，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
@@ -59,7 +59,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->自2月11日起，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+>自2月12日起，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
@@ -67,11 +67,11 @@ ht-degree: 13%
 * 透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]） [現在可在UI中使用](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Recommendations設定](/help/main/administrating-target/recommendations-settings.md)已整合至[!UICONTROL Administration]區段下
 * 可自訂的清單檢視，以針對不同的團隊需求提供更好的彈性
-* 重新整理HTML和JSON程式碼編輯器，使用[語法醒目提示和行編號](/help/main/c-experiences/c-manage-content/create-json-offer.md)
+* 使用[語法醒目提示和行編號](/help/main/c-experiences/c-manage-content/create-json-offer.md)重新整理HTML和JSON程式碼編輯器
 * 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊
 * 工作階段持續搜尋和篩選選項
 
-![Recommendations UI重新整理](/help/main/r-release-notes/assets/recs-ui-refresh.png)
+![建議UI重新整理](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## Target Standard/Premium 25.1.1 （2025年1月9日）
 
@@ -89,7 +89,7 @@ ht-degree: 13%
 
 * **大量選件管理**：同時選取並刪除或移動多個選件。
 
-* **[!UICONTROL Code Editor]升級**：使用語法醒目提示和行編號重新整理HTML和JSON編輯器。
+* **[!UICONTROL Code Editor]個升級**：使用語法醒目提示和行編號重新整理HTML和JSON編輯器。
 
 * **改善的優惠方案卡**：加強快速資訊和詳細資訊卡，以更輕鬆存取資訊。
 
@@ -109,7 +109,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->如果您無法在2025年2月3日前完成實作檢閱並解決任何問題，可以請求一次性的六個月延期。 請確定您的請求已在2025年1月31日之前提交。 Adobe將會稽核並決定您的請求。
+>如果您無法在2025年2月3日前完成實作檢閱並解決任何問題，可以請求一次性的六個月延期。 請確定您的請求已在2025年1月31日之前提交。 Adobe將審閱並決定您的請求。
 
 若要在手動呈現主張時受益於此最佳化，請檢閱您的[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}，以確保您在手動呈現體驗後或使用`applyPropositions`方法（或相對應的[!DNL Launch]動作作為協助程式）呈現體驗時傳送通知。
 
@@ -127,7 +127,7 @@ ht-degree: 13%
 
 * **個人化和測量的單一呼叫。**
 
-  一開始建議使用[!DNL Platform Web SDK]的單一呼叫方法，但已排定取代分割呼叫方法。 Adobe建議所有新實施使用新的分割呼叫方法，並建議現有客戶也轉換為分割呼叫方法。
+  一開始建議使用[!DNL Platform Web SDK]的單一呼叫方法，但已排定取代分割呼叫方法。 Adobe建議所有新實作使用新的分割呼叫方法，並建議現有客戶也轉換為分割呼叫方法。
 
   如果您繼續使用單一呼叫方法，您可能會在[!DNL Analytics]報表中注意到下列非預期的變更：
 

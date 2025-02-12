@@ -6,7 +6,7 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7a8d34f3155622bc288fc2b3017edb8fde7e18a3
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 21%
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## Target Standard/Premium 25.2.1 （2025年2月11日）
+## Target Standard/Premium 25.2.1 （2025年2月12日）
 
 此版本包含下列更新：
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->自2月11日起，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+>自2月12日起，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
@@ -55,7 +55,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->自2月11日起，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+>自2月12日起，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
