@@ -4,16 +4,16 @@ description: 瞭解Adobe Target 25.2.1版（2025年2月11日）中視覺化體�
 title: 新的視覺化體驗撰寫器(VEC)引進了哪些變更？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Visual Experience Composer]個變更
 
-[!DNL Adobe Target Standard/Premium] 25.2.1版（2015年2月11日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版與更新版之間的差異。
+[!DNL Adobe Target Standard/Premium] 25.2.1版（2015年2月12日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版與更新版之間的差異。
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Components]面板（新）
 
-您可以使用新的[!UICONTROL Components]面板，新增許多元件至網頁並編輯所需元件。
+您可以使用新的[!UICONTROL Components]面板，在網頁中新增許多元件，並視需要加以編輯。
 
 ![元件面板](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-若要新增元件，請在編輯畫布中將您要插入的元件拖曳至現有頁面元素上方。 然後選擇將元件插入在所選元素的前面。
+若要新增元件，請從您要插入的「元件」面板拖曳元件，將其置於「設計」畫布中的現有頁面元素上。 然後選擇將元件插入在所選元素的前面。
 
 和舊版VEC相比，您無法用元件取代選取的元素。
 

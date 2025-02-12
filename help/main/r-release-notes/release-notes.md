@@ -6,9 +6,9 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1281'
 ht-degree: 21%
 
 ---
@@ -36,16 +36,16 @@ ht-degree: 21%
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
-* [重新設計報告](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)頁面，目前正在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊
-* [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性
-* [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊
-* [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)
-* 已完全[重建[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，並支援瀏覽器提供者的最新安全性更新以及最新的使用者介面
+* [重新設計報表](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果。
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)頁面，目前正在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
+* [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性。
+* [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊。
+* [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)。
+* 已完全[重建[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，並支援瀏覽器提供者的最新安全性更新以及最新的使用者介面。 如需詳細資訊，請參閱[視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)選項。
 
-  如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+  如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
 
-* [已更新 [!DNL Chrome] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)支援Manifest V3以提高安全性並改善對第一方Cookie的支援
+* [已更新 [!DNL Chrome] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)支援Manifest V3，以提高安全性並改善對第一方Cookie的支援。
 
 ![活動重新整理](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -59,13 +59,13 @@ ht-degree: 21%
 
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
-* [產品目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)現在提供更新的資料庫，允許產品即時同步
-* 透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]） [現在可在UI中使用](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* [Recommendations設定](/help/main/administrating-target/recommendations-settings.md)已整合至[!UICONTROL Administration]區段下
-* 可自訂的清單檢視，以針對不同的團隊需求提供更好的彈性
-* 使用[語法醒目提示和行編號](/help/main/c-experiences/c-manage-content/create-json-offer.md)重新整理HTML和JSON程式碼編輯器
-* 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊
-* 工作階段持續搜尋和篩選選項
+* [產品目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)現在提供更新的資料庫，允許產品即時同步。
+* 透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]） [現在可在UI](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)中使用。
+* [Recommendations設定](/help/main/administrating-target/recommendations-settings.md)已整合至[!UICONTROL Administration]區段下。
+* 可自訂的清單檢視可提供更好的彈性，因應不同的團隊需求。
+* 使用[語法醒目提示和行編號](/help/main/c-experiences/c-manage-content/create-json-offer.md)重新整理HTML和JSON程式碼編輯器。
+* 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊。
+* 工作階段持續搜尋和篩選選項。
 
 ![建議UI重新整理](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
