@@ -1,10 +1,10 @@
 ---
 keywords: 視覺化體驗撰寫器； VEC； WYSIWYG
-description: 瞭解Adobe Target 25.2.1版（2025年2月11日）中視覺化體驗撰寫器(VEC)中匯入的變更。
+description: 瞭解Adobe Target 25.2.1版（2025年2月17日）中視覺化體驗撰寫器(VEC)所推出的變更。
 title: 新的視覺化體驗撰寫器(VEC)引進了哪些變更？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Visual Experience Composer]個變更
 
-[!DNL Adobe Target Standard/Premium] 25.2.1版（2015年2月12日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版與更新版之間的差異。
+[!DNL Adobe Target Standard/Premium] 25.2.1版（2015年2月17日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版與更新版之間的差異。
 
 >[!IMPORTANT]
 >

@@ -4,7 +4,7 @@ description: 瞭解在Adobe Target中使用視覺化體驗撰寫器(VEC)的基�
 title: 如何使用視覺化體驗撰寫器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 57%
@@ -17,7 +17,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1 （2025年2月12日）發行版本包含VEC的更新版本。 如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
+>[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行版本包含VEC的更新版本。 如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
 
 VEC是WYSIWYG使用者介面，可讓您輕鬆建立及測試網站內容中的個人化體驗和選件。 您可以拖放、交換及修改網頁（或選件）或行動網頁的版面與內容，藉此建立[!DNL Target]活動的體驗和選件。
 
