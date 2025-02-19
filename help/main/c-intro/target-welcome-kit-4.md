@@ -4,9 +4,9 @@ description: 閱讀我們的專家小組所提供有關使用 Adobe [!DNL Target
 title: 何處可以找到有關使用 Target 的提示和訣竅？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 72%
 
 ## 提示 4：從這些關鍵變數建立客群，以增加活動的價值。
 
-在建立目標客群或測試促銷和選件時，請先考慮下列變數：
+在建立目標客群或測試促銷和產品建議時，請先考慮下列變數：
 
 * 行為。網站造訪模式與購買模式
 * 反向連結。反向連結網站和促銷活動
@@ -67,21 +67,19 @@ ht-degree: 72%
 
 使用 Target Standard？ 您仍然可以為具有唯讀、編輯和批准者角色的用戶[分配三個訪問級別](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)！
 
-## 提示 6：透過在客戶歷程中的每個頁面測試選件，瞭解該選件在客戶歷程中的表現。
+## 提示 6：透過在客戶歷程中的每個頁面測試產品建議，瞭解該產品建議在客戶歷程中的表現。
 
-瞭解選件 (例如免費運送) 在您網站上跨多個頁面的客戶歷程中的效能。
+瞭解產品建議 (例如免費運送) 在您網站上跨多個頁面的客戶歷程中的效能。
 
 如需逐步指示，請參閱[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 
 **有用的提示**：在您指定頁面範圍之後變更URL將會重設體驗。 這表示您指定的變數將不再出現。如果您需要變更 URL，請記得重新定義體驗。
 
-## 提示 7：測試包含不同客群的選件，以發現客群是否有不同的偏好。
+## 提示 7：測試包含不同客群的產品建議，以發現客群是否有不同的偏好。
 
 使用「體驗版本」，您可以針對您想要的客群，執行一項包含各種變數的測試。例如，您可以建立提供免運費的橫幅廣告，包括美國、英國和歐盟客戶的影像和貨幣變化，而不需針對三個不同的客群執行測試。
 
-如需逐步指示，請參閱[「Adobe Target 的 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) 和 [體驗版本」](https://helpx.adobe.com/tw/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)中的多個體驗客群。
-
-
+如需逐步指示，請參閱A/B測試中的[多個體驗對象](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)。
 
 ## 提示 8：在類似頁面上複製活動體驗，以節省時間。
 
@@ -137,7 +135,7 @@ ht-degree: 72%
 
 比較不同位置測試中不同對象的轉換效能，有助於集中精確公司的最佳化策略。 使用測試比較來識別哪些客群最有價值進行測試、哪些客群應該接收目標體驗，以及哪些類型的體驗最有可能引發回應。
 
-例如，金融服務客戶針對包含專業體育賽事獎勵的信用卡執行促銷活動。透過對其著陸頁面進行部分工廠多元化測試，客戶得以最佳平衡信用卡優惠訊息與運動獎勵，以鎖定與客戶群不同的客群。這種方式讓公司能夠在重大體育賽事的時間敏感視窗中，利用並最大化轉換率。
+例如，金融服務客戶針對包含專業體育賽事獎勵的信用卡執行促銷活動。透過對其著陸頁面進行部分工廠多元化測試，客戶得以最佳平衡信用卡產品建議訊息與運動獎勵，以鎖定與客戶群不同的客群。這種方式讓公司能夠在重大體育賽事的時間敏感視窗中，利用並最大化轉換率。
 
 ## 提示 17：如果您知道可以對資料採取行動，請只啟動測試，讓測試變得有用。
 

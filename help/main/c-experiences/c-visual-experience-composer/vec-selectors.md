@@ -4,9 +4,9 @@ description: 元素選取器是可識別一或多個元素的CSS運算式。 瞭
 title: 我可以在視覺化體驗撰寫器(VEC)中使用元素選取器嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 85%
 
 如需 CSS 選取器及不重複 ID 之使用時機的相關資訊，請參閱[可視化體驗撰寫器最佳作法與限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
-## Adobe[!DNL Target]如何產生專案的選取器 {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe [!DNL Target]如何產生元素的選取器 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯的極短說明:
 
@@ -91,8 +91,6 @@ Target 會使用簡單演算法來建立選取器。以下是關於產生邏輯�
    ```
 
    選取器: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   您可以[在 CSS Tricks 網頁上進一步瞭解 nth-of-type](https://css-tricks.com/almanac/selectors/n/nth-of-type/)。
 
 在上述程序中:
 

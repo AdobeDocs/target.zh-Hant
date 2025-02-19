@@ -1,12 +1,12 @@
 ---
-keywords: customer journey analytics；customer journey analytics for target；customer journey analytics報告來源；customer journey analytics作為target的報告來源；cja中的target報告；Customer Journey Analytics中的target報告
+keywords: customer journey analytics；customer journey analytics for target；customer journey analytics報告來源；customer journey analytics作為target的報告來源；cja中的目標報告；Customer Journey Analytics中的目標報告
 description: 在 [!DNL Adobe Customer Journey Analytics] 中使用 [!DNL Target] 報告功能建立以 [!DNL Customer Journey Analytics] 轉換量度和對象區段為基礎的活動，並使用 [!DNL Customer Journey Analytics] 報告功能來檢查結果。
 title: 什麼是 [!DNL Adobe Customer Journey Analytics]中的 [!DNL Target] 報告？
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 54%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 54%
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。執行活動之前完全不需要指定。
 * 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[實驗面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
-* 行銷人員可以有[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank}和[!DNL Target]的單一報告來源。 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
+* 行銷人員可以有[!DNL Adobe Journey Optimizer]和[!DNL Target]的單一報表來源。 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
 
 ## 考量事項
 
@@ -63,7 +63,7 @@ ht-degree: 54%
 | [體驗鎖定 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |
 | [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 |
 | [Automated Personalization (AP) 活動](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |
-| [Recommendations 活動](/help/main/c-recommendations/recommendations.md) | 是 |
+| [推薦活動](/help/main/c-recommendations/recommendations.md) | 是 |
 
 ## 建立使用 [!DNL Customer Journey Analytics] 作為報告來源的活動
 

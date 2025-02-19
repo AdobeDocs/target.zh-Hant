@@ -7,9 +7,9 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[編輯網頁內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。
+>本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[使用網頁設計工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}。
 >
 >頁面底部的影片特別實用。
 
@@ -125,6 +125,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->在&#x200B;*Journey Optimizer檔案*&#x200B;中[編輯網頁內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
+>[在&#x200B;*Journey Optimizer檔案*&#x200B;中使用網頁設計工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}
 >[*Journey Optimizer檔案*&#x200B;中的作法影片](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
->[在&#x200B;*Journey OptimizerTutorials*&#x200B;中建立行銷活動](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
+>[在&#x200B;*Journey Optimizer教學課程*&#x200B;中建立行銷活動](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}

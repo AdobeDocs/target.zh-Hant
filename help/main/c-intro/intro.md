@@ -1,15 +1,15 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;自動鎖定目標;自動鎖定目標;權限;什麼是adobe target;
-description: 瞭解Adobe [!DNL Target] 標準版和Adobe [!DNL Target] 進階版的基本概念。 [!DNL Target] 進階版包含標準產品中不提供的進階功能。
+keywords: Target Standard;推薦;Target Premium;Automated Personalization;自動鎖定目標;自動鎖定目標;權限;什麼是adobe target;
+description: 瞭解Adobe [!DNL Target] Standard和Adobe [!DNL Target] Premium的基本概念。 [!DNL Target] 進階版包含標準產品中不提供的進階功能。
 landing-page-description: 實現個人化的客戶體驗，協助您在網站和行動網站、應用程式、社交媒體和其他數位頻道上獲得最大收入。
 short-description: 實現個人化的客戶體驗，協助您在網站和行動網站、應用程式、社交媒體和其他數位頻道上獲得最大收入。
 title: 什麼是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 72%
 
 ---
 
@@ -41,15 +41,15 @@ ht-degree: 73%
 
 [!UICONTROL Automated Personalization]會記錄網站上的訪客活動，建立訪客的設定檔，將內容的目標鎖定在類似的訪客上。 AP 會追蹤對內容的回應，不論是針對個人，還是針對整個人口。然後，AP 會使用複雜的模型方法來自動鎖定每個個人。AP會考慮每個訪客的所有已知資訊。
 
-[!UICONTROL Automated Personalization]會自我學習，幾乎不需要人為分析。 AP 完全自動化並持續學習。系統會建立模型，並自動學習個別訪客最有可能對哪些產品感興趣。訪客每次與網站互動，系統就會收集資訊並儲存在該訪客的設定檔中。有多種演算法可用來提供系統的最佳模型。
+[!UICONTROL Automated Personalization]會自我學習，幾乎不需要人為分析。 AP 完全自動化並持續學習。系統會建立模型，並自動學習個別訪客最有可能對哪些產品感興趣。訪客每次與網站互動，系統就會收集資訊並儲存在該訪客的輪廓中。有多種演算法可用來提供系統的最佳模型。
 
 ### 自動鎖定目標
 
-[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。然後[!UICONTROL Auto-Target]會提供最自訂的體驗給每位訪客。 傳送是根據個別客戶設定檔和具有類似設定檔的先前訪客的行為。[!UICONTROL Auto-Target]協助個人化內容並推動轉換。
+[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 使用進階機器學習，從多個高效能行銷人員定義的體驗中進行選擇。然後[!UICONTROL Auto-Target]會提供最自訂的體驗給每位訪客。 傳送是根據個別客戶輪廓和具有類似輪廓的先前訪客的行為。[!UICONTROL Auto-Target]協助個人化內容並推動轉換。
 
-### Recommendations
+### 推薦
 
-[Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 活動可依據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。[!UICONTROL Recommendations]可協助引導客戶至他們可能不知道的相關專案。
+[推薦](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 活動可依據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。[!UICONTROL Recommendations]可協助引導客戶至他們可能不知道的相關專案。
 
 建議會判斷向客戶建議產品的方式，取決於客戶在網站上的行為。例如:
 
@@ -65,7 +65,7 @@ ht-degree: 73%
 
   使用「瀏覽過此項目、但購買了其他項目的使用者」條件，顯示人員在檢視一個產品而沒有顯示建議中第一個產品之後購買的其他產品。
 
-### Recommendations 作為選件
+### 推薦作為產品建議
 
 [Recommendations作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md)可讓您在[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Experience Targeting] (XT)活動中包含建議。
 
@@ -88,21 +88,21 @@ ht-degree: 73%
 
 在說明Beta功能的[!DNL Target]指南中，文章會在每個頁面的頂端或受影響文字附近的內嵌包含Beta標誌。 Beta徽章可點按，並包含本區段的連結。
 
-## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+## 推薦經典版 {#section_9554068100054D2DBDB298CBE5A0E413}
 
 >[!IMPORTANT]
 >
 >[!DNL Recommendations Classic] 是舊版產品，不再授權給新客戶。為獲得最佳的 [!DNL Recommendations] 體驗，請升級至 [!DNL Adobe Target Premium] 中的 [!DNL Recommendations] ，如上所述。
 
-[!DNL Recommendations Classic] 會依據網站上先前的使用者行為，自動顯示可能吸引客戶的產品或內容。Recommendations 有助於將客戶導向他們原本可能不知道的項目，提升網站產生的銷售額。
+[!DNL Recommendations Classic] 會依據網站上先前的使用者行為，自動顯示可能吸引客戶的產品或內容。推薦有助於將客戶導向他們原本可能不知道的項目，提升網站產生的銷售額。
 
-如需詳細資訊，請參閱[Recommendations Classic 說明文件](/help/main/assets/adobe-recommendations-classic.pdf)。
+如需詳細資訊，請參閱[推薦經典版說明文件](/help/main/assets/adobe-recommendations-classic.pdf)。
 
-## Experience League：Adobe[!DNL Target]歡迎套件 {#kit}
+## Experience League： Adobe [!DNL Target]歡迎套件 {#kit}
 
 使用此歡迎套件，在 [!DNL Adobe Target] 上建立最佳化和個人化方案。此歡迎套件包含重要資訊、工具和資源，可協助您準備並啟動第一個 [!DNL Target] 活動。此套件包含短期快速贏取和長期最佳化策略的概念。
 
-[The Adobe Target 歡迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target歡迎套件](/help/main/c-intro/target-welcome-kit.md)
 
 ## 培訓影片：活動類型 (9:03)![Overview badge](/help/main/assets/overview.png)
 
