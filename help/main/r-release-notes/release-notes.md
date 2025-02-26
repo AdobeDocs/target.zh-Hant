@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 21%
+source-wordcount: '1520'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,27 @@ ht-degree: 21%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 25.2.3 （2025年2月26日）
+
+此版本包含下列更新：
+
+* 已解決無法在[!DNL Target] 25.2.1版之後針對某些活動更新活動的問題。 (TGT-51781)
+* 解決取消活動建立程式（選取[!UICONTROL Cancel]而非[!UICONTROL Add Audience]）時，移除所有狀態中對象變更的問題。 (TGT-51769 和 TGT-51770)
+* 解決某些活動（尤其是使用自訂程式碼時）無法載入[!UICONTROL Visual Experience Composer] (VEC)的問題。  問題導致VEC顯示空白畫面或[!DNL Target] UI恢復為舊版。 (TGT-51758)
+* 解決編輯對象的頁面傳送後，捨棄修改的問題。 (TGT-51756)
+* 解決變更[!UICONTROL Goals & Settings]頁面上的量度型別時，從活動中移除所有非量度對象（頁面和體驗對象）的問題。 (TGT-51753)
+* 解決在編輯活動時按一下「[!UICONTROL Cancel]」將Target UI導覽至「[!UICONTROL Activities List]」而非「[!UICONTROL Activity Details]」頁面的問題。 (TGT-51731)
+* 解決客戶無法透過[!UICONTROL Export Reports to CSV]選項下載報表的問題。 (TGT-51708)
+* 解決表單式體驗撰寫器中將[!DNL Target Standard]客戶錯誤顯示為使用[!UICONTROL Properties] （一個[!DNL Target Premium]功能）的問題。 (TGT-51678)
+* 修正建立新優惠方案時無法顯示[!DNL Adobe Experience Platform]屬性的問題。 (TGT-51665)
+* 已將[!DNL Recommendations]詳細目錄的所有作用中篩選器移至快速搜尋，將UI與[!UICONTROL Catalog Search]對齊，而非[!UICONTROL Filter]邊欄。 (TGT-50723)
+
+## at.js 2.11.7版（2025年2月26日）
+
+此版本包含下列更新：
+
+* 修正無法使用`localStorage`時的遙測記錄。 遙測導致某些客戶在其瀏覽器中停用`localStorage`的問題。
 
 ## Target Standard/Premium 25.2.1 （2025年2月17日）
 
