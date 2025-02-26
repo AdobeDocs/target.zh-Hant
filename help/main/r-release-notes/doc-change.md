@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 29%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 29%
 |--- |--- |--- |
 | 2 月 26 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增下列版本的資訊：<ul><li>[!DNL Target Standard/Premium] 25.2.3 （2025年2月26日）</li><li>at.js 2.11.7版（2025年2月26日）</li></ul> |
 |  | [at.js 版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增at.js版本2.11.7 （2025年2月26日）發行的資訊。 |
+|  | [活動 QA 書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新at.js 2.x的活動QA書籤小程式。 |
 | 2 月 13 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 將[!DNL Target Standard/Premium] 25.2.1使用者介面更新版本變更為2025年2月17日。 |
 | 2 月 12 日 | [可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 更新整個主題，以說明[!DNL Target Standard/Premium] 25.2.1版本（2025年2月12日）中推出的更新VEC。 |
 |  | [支援的瀏覽器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 已新增在使用[!DNL Adobe Experience Platform Web SDK]的Target實作中支援哪些瀏覽器的相關資訊。 |
