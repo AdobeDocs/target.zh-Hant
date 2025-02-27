@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1402'
 ht-degree: 13%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 13%
 此版本包含下列更新：
 
 * 修正無法使用`localStorage`時的遙測記錄。 遙測導致某些客戶在其瀏覽器中停用`localStorage`的問題。
+
+如需此版本和舊版at.js的相關資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}。
 
 ## [!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）
 
