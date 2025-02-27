@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 98%
 
 ---
@@ -207,16 +207,14 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料深入解析的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
 
-* [錄影連結](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++詳細資料
 
-  +++詳細資料
+加入 ([!DNL Adobe] 主要專家解決方案顧問) 以討論：
 
-  加入 ([!DNL Adobe] 主要專家解決方案顧問) 以討論：
-
-   * 行銷人員、開發人員和產品團隊如何開啟 AI 的「黑盒子」，以推進未來的測試和個人化策略
-   * 克服最佳化 Web、行動應用程式、電子郵件地址、IoT 和每個數位轉換點的挑戰，以獲得更高轉換率和參與度
-   * 進行 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流程的步驟式引導瀏覽，了解個人化、目標定位和測試等工作流程
-   * 以最頂層的使用案例來找出哪些屬性可以預測訪客的行為，哪些屬性對於關鍵的視覺效果化分段分析是最重要的
+* 行銷人員、開發人員和產品團隊如何開啟 AI 的「黑盒子」，以推進未來的測試和個人化策略
+* 克服最佳化 Web、行動應用程式、電子郵件地址、IoT 和每個數位轉換點的挑戰，以獲得更高轉換率和參與度
+* 進行 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流程的步驟式引導瀏覽，了解個人化、目標定位和測試等工作流程
+* 以最頂層的使用案例來找出哪些屬性可以預測訪客的行為，哪些屬性對於關鍵的視覺效果化分段分析是最重要的
 
 +++
 
