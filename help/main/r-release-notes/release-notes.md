@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
+source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 19%
+source-wordcount: '1669'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 19%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 25.3.1 （2025年3月3日）
+
+此版本包含下列修正和更新：
+
+* 合併的對象可包含子群組，每個子群組都包含多個對象。 此版本修正子群組對象無法在[!UICONTROL Rules]對話方塊中顯示的問題。 (TGT-51813)
+* 解決在開啟舊版活動時，某些體驗對象會被[!UICONTROL All Visitors]取代的問題。 (TGT-51812)
+* 已解決無法編輯僅限於此活動的受眾之活動的問題。 (TGT-51807)
+* 解決無法在更新的[!DNL Target] UI中編輯頁面標題修改的問題。 (TGT-51797)
+* 解決複製體驗、刪除其他體驗，然後嘗試儲存活動時發生的Null錯誤。 (TGT-51796)
+* 解決在建立活動的[!UICONTROL Targeting]步驟期間，對象排除規則無法顯示在對象資訊面板中的問題。 (TGT-51579)
+* 更新韓文本地化的錯誤訊息。 (TGT-51701 和 TGT-51699)
 
 ## [!DNL Target Standard/Premium] 25.2.3 （2025年2月26日）
 
