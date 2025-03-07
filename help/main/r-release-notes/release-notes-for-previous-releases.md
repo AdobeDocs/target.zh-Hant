@@ -4,10 +4,10 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
-source-wordcount: '38891'
-ht-degree: 83%
+source-wordcount: '39655'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,94 @@ ht-degree: 83%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 - 2025
+
+### [!DNL Target Standard/Premium] 25.3.1 （2025年3月3日）
+
+此版本包含下列修正和更新：
+
+* 合併的對象可包含子群組，每個子群組都包含多個對象。 此版本修正子群組對象無法在[!UICONTROL Rules]對話方塊中顯示的問題。 (TGT-51813)
+* 解決在開啟舊版活動時，某些體驗對象會被[!UICONTROL All Visitors]取代的問題。 (TGT-51812)
+* 已解決無法編輯僅限於此活動的受眾之活動的問題。 (TGT-51807)
+* 解決無法在更新的[!DNL Target] UI中編輯頁面標題修改的問題。 (TGT-51797)
+* 解決複製體驗、刪除其他體驗，然後嘗試儲存活動時發生的Null錯誤。 (TGT-51796)
+* 解決在建立活動的[!UICONTROL Targeting]步驟期間，對象排除規則無法顯示在對象資訊面板中的問題。 (TGT-51579)
+* 更新韓文本地化的錯誤訊息。 (TGT-51701 和 TGT-51699)
+
+### [!DNL Target Standard/Premium] 25.2.3 （2025年2月26日）
+
+此版本包含下列更新：
+
+* 已解決無法在[!DNL Target] 25.2.1版之後針對某些活動更新活動的問題。 (TGT-51781)
+* 解決取消活動建立程式（選取[!UICONTROL Cancel]而非[!UICONTROL Add Audience]）時，移除所有狀態中對象變更的問題。 (TGT-51769 和 TGT-51770)
+* 解決某些活動（尤其是使用自訂程式碼時）無法載入[!UICONTROL Visual Experience Composer] (VEC)的問題。  問題導致VEC顯示空白畫面或[!DNL Target] UI恢復為舊版。 (TGT-51758)
+* 解決編輯對象的頁面傳送後，捨棄修改的問題。 (TGT-51756)
+* 解決變更[!UICONTROL Goals & Settings]頁面上的量度型別時，從活動中移除所有非量度對象（頁面和體驗對象）的問題。 (TGT-51753)
+* 解決在編輯活動時按一下「[!UICONTROL Cancel]」將Target UI導覽至「[!UICONTROL Activities List]」而非「[!UICONTROL Activity Details]」頁面的問題。 (TGT-51731)
+* 解決客戶無法透過[!UICONTROL Export Reports to CSV]選項下載報表的問題。 (TGT-51708)
+* 解決表單式體驗撰寫器中將[!DNL Target Standard]客戶錯誤顯示為使用[!UICONTROL Properties] （一個[!DNL Target Premium]功能）的問題。 (TGT-51678)
+* 修正建立新優惠方案時無法顯示[!DNL Adobe Experience Platform]屬性的問題。 (TGT-51665)
+* 已將[!DNL Recommendations]詳細目錄的所有作用中篩選器移至快速搜尋，將UI與[!UICONTROL Catalog Search]對齊，而非[!UICONTROL Filter]邊欄。 (TGT-50723)
+
+### at.js 2.11.7版（2025年2月26日）
+
+此版本包含下列更新：
+
+* 修正無法使用`localStorage`時的遙測記錄。 遙測導致某些客戶在其瀏覽器中停用`localStorage`的問題。
+
+如需此版本和舊版at.js的相關資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}。
+
+### Target Standard/Premium 25.2.1 （2025年2月17日）
+
+此版本包含下列更新：
+
+* [!UICONTROL Activities]使用者介面更新
+* [!DNL Recommendations]使用者介面更新
+
+#### [!UICONTROL Activities]使用者介面更新
+
+隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!UICONTROL Activities]使用者介面。
+
+>[!NOTE]
+>
+>自2月17日起，客戶將可逐步存取新的[!UICONTROL Activities] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+
+更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
+
+* [重新設計報表](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果。
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)頁面，目前正在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
+* [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性。
+* [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊。
+* [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)。
+* 已完全[重建[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，並支援瀏覽器提供者的最新安全性更新以及最新的使用者介面。
+
+  如需有關更新的VEC與舊版有何差異的資訊，請參閱：
+
+   * [視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+* [已更新 [!DNL Chrome] 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)支援Manifest V3，以提高安全性並改善對第一方Cookie的支援。
+
+![活動重新整理](/help/main/r-release-notes/assets/activities-refresh.png)
+
+#### [!DNL Recommendations]使用者介面更新
+
+隨著[!DNL Adobe Target] UI現代化工作的繼續，我們很高興地宣佈已正式發行更新的[!DNL Recommendations]使用者介面。
+
+>[!NOTE]
+>
+>自2月17日起，客戶將可逐步存取新的[!UICONTROL Recommendations] UI。 為確保所有客戶都能順暢地推出，此版本將在受控階段中部署。 第一階段會將最初的[!DNL Target]客戶群組升級至新的[!UICONTROL Activities] UI。 後續階段將升級其餘客戶。
+
+更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
+
+* [產品目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)現在提供更新的資料庫，允許產品即時同步。
+* 透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]） [現在可在UI](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)中使用。
+* [Recommendations設定](/help/main/administrating-target/recommendations-settings.md)已整合至[!UICONTROL Administration]區段下。
+* 可自訂的清單檢視可提供更好的彈性，因應不同的團隊需求。
+* 使用[語法醒目提示和行編號](/help/main/c-experiences/c-manage-content/create-json-offer.md)重新整理HTML和JSON程式碼編輯器。
+* 增強的快速資訊和詳細畫面可讓您更輕鬆地存取資訊。
+* 工作階段持續搜尋和篩選選項。
+
+![建議UI重新整理](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ### Target Standard/Premium 25.1.1 （2025年1月9日）
 
