@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 47%
+source-wordcount: '643'
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 47%
 * 解決在[!UICONTROL Audiences]面板中看不到僅限於此活動的對象的問題，使其無法編輯或重複使用。 (TGT-51860)
 * 修正封鎖[!DNL Target Standard]客戶使用[!UICONTROL Analytics for Target] (A4T)報告建立活動的問題。 (TGT-51854)
 * 修正在批次建立和編輯作業期間，從承載中排除本機ID計數器的問題。 (TGT-51867)
-* 透過整合[!DNL Axe Developer Hub]、改善涵蓋範圍、報告、團隊共同作業、手動測試支援、合規標準和使用者體驗，增強協助工具報告。
 
 ## [!DNL Target Standard/Premium] 25.3.2 （2025年3月6日）
 
