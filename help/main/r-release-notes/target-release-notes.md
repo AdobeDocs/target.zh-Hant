@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a9c4264672b44da815c721c08c735a2692b2cb33
+source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 34%
+source-wordcount: '726'
+ht-degree: 30%
 
 ---
 
@@ -15,13 +15,25 @@ ht-degree: 34%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年3月11日**
+**上次更新日期：2025年3月14日**
 
 >[!NOTE]
 >
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## [!DNL Target Standard/Premium] 25.3.6 （2025年3月14日）
+
+此版本包含下列修正和更新：
+
+* 解決當多次使用相同的[!UICONTROL ClickTrack]選取器時，[!UICONTROL Visual Experience Composer] (VEC)活動中已啟用[!UICONTROL Click Tracking]的「使用者輸入無效」錯誤。 (TGT-51921)
+* 已修正在具有共用位置(例如HEAD選擇器)和相同選件的VEC活動中出現「無效使用者輸入」錯誤。 (TGT-51879)
+* 已修正導致體驗修改在對象之間共用的問題。 (TGT-51815)
+* 解決建立活動時因區段ID衝突而發生的驗證錯誤。 [!DNL Target]偵測到使用匿名區段的現有活動時發生錯誤。 (TGT-51784)
+* 解決[!DNL Target]無法在對象中儲存具有排除規則的活動的問題。 (TGT-51581)
+* 已解決導致客戶無法建立、刪除或行動資料夾而無法存取預設工作區的問題。 (TGT-51499)
+* 解決在擷取[!DNL Analytics]量度清單時，導致GET要求失敗的問題。 (TGT-51106)
 
 ## [!DNL Target Standard/Premium] 25.3.5 （2025年3月11日）
 
