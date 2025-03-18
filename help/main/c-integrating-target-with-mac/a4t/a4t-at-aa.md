@@ -4,9 +4,9 @@ description: 瞭解如何在 [!DNL Target] 中建立使用 [!DNL Analytics] 作�
 title: A4T是否支援[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,10 @@ A4T整合可讓您：
 * [!DNL Adobe Target]個轉換量度
 * [!DNL Adobe Analytics]個轉換量度
 * [!DNL Adobe Analytics]個自訂事件
+
+>[!NOTE]
+>
+>選取[!UICONTROL Use an Analytics Metric]之後，選取[!UICONTROL Maximize Unique Visitor Conversion Rate]以檢視可用的[!DNL Adobe Analytics]個轉換量度，並選取[!UICONTROL Maximize Metric Value per Visitor]以探索[!DNL Adobe Analytics]個自訂事件。
 
 針對[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動使用[!UICONTROL A4T]時，[!DNL Target]可讓您根據二項式事件選擇量度，或根據連續事件選擇量度。
 
@@ -131,12 +135,12 @@ A4T整合可讓您：
 
 本教學課程將逐步引導您瞭解在[!DNL Analysis Workspace]中分析[!UICONTROL Auto-Allocate]個活動的建議修改。
 
-如需詳細資訊，請參閱[如何在Analysis Workspace中為自動分配活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} (在&#x200B;*Adobe TargetTutorials*&#x200B;中)。
+如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動分配活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}。
 
 ### 在[!DNL Analysis Workspace]中為[!UICONTROL Auto-Target]個活動設定A4T報告
 
 本教學課程將逐步引導您瞭解在[!DNL Analysis Workspace]中分析[!UICONTROL Auto-Target]個活動的建議修改。
 
-如需詳細資訊，請參閱&#x200B;*Adobe TargetTutorials*&#x200B;中的[如何在Analysis Workspace中為自動鎖定目標活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動鎖定目標活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}。
 
 
