@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
+source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 41%
+source-wordcount: '380'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 41%
 
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
+| 3 月 19 日 | [疑難排解[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)的相關問題 | 已更新允許清單的IP位址。 |
 | 3 月 18 日 | [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已在&#x200B;*支援的目標量度*&#x200B;區段中新增備註。 |
 | 3 月 14 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.6 版的發行說明。 |
 | 3 月 13 日 | [支援的瀏覽器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 更新支援的瀏覽器，並新增「視覺化編輯需求」區段。 |
