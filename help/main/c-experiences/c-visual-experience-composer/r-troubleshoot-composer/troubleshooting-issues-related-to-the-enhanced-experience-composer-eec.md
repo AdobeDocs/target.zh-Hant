@@ -4,9 +4,9 @@ description: 瞭解如何疑難排解Adobe [!DNL Target] Enhanced Experience Com
 title: 如何疑難排解增強體驗撰寫器的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: b14c39bd1de3f8d78aa720f7a064009759916802
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 23%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 23%
 
 ### 舊版IP位址
 
-下列舊版IP位址應繼續加入允許清單，直到另行通知為止。
+下列舊版IP位址應繼續列入允許清單，直到另行通知為止。
 
 34.254.77.200
 54.73.207.147
