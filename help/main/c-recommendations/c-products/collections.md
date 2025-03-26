@@ -5,10 +5,10 @@ title: 如何在Recommendations活動中使用集合？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->使用[!UICONTROL Recently Viewed Items]建議索引鍵時不會套用集合。
+>* 收集規則會套用至執行條件後產生的建議專案。 它們只會影響輸出中的實體建議(ER)，而不會影響索引鍵。
+>
+>* 使用[!UICONTROL Recently Viewed Items]建議索引鍵時不會套用集合。
 
 ## 建立集合 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,7 +44,7 @@ ht-degree: 26%
 
    [!UICONTROL Collections]頁面會顯示您現有集合的清單。 您可以按一下[!UICONTROL Create Collection]按鈕來建立新的集合。 您也可以編輯、複製和刪除現有集合，方法是按一下所要集合旁的「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下所要的選項。
 
-   [!UICONTROL Collections]清單檢視上各集合的「專案數」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合集合規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以變更預設主機群組。
+   [!UICONTROL Collections]清單檢視上每個集合報告的「專案數」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合集合規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以變更預設主機群組。
 
 1. 按一下 **[!UICONTROL Create Collection]**。
 

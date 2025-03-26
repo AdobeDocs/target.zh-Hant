@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 41%
+source-wordcount: '436'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 41%
 |--- |--- |--- |
 | 3 月 26 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.7 版的發行說明。 |
 |  | [推薦常見問答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新常見問題集以表示透過API建立的[!DNL Recommendations]物件可在[!DNL Target] UI中使用。 |
+|  | [集合](/help/main/c-recommendations/c-products/collections.md) | 新增下列備註：收集規則套用至執行條件後產生的建議專案。 它們只會影響輸出中的實體建議(ER)，而不會影響索引鍵。 |
 | 3 月 19 日 | [疑難排解[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)的相關問題 | 已更新允許清單的IP位址。 |
 | 3 月 18 日 | [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已在&#x200B;*支援的目標量度*&#x200B;區段中新增備註。 |
 | 3 月 14 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.6 版的發行說明。 |
