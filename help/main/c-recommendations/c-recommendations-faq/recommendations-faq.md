@@ -5,10 +5,10 @@ title: 哪裡可以找到有關 [!DNL Recommendations]的問答？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 84%
+source-wordcount: '3444'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 
 ## 透過API建立的[!DNL Recommendations]物件是否顯示在[!DNL Target] UI中？
 
-是，透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）現在可在UI中使用。
+是，透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）可在UI中使用，並可透過API或[!DNL Target] UI編輯。
 
 ## 我可以使用[!DNL Target] API管理[!DNL Target] UI建立的視覺化選件嗎？
 
@@ -291,6 +291,5 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 當 [!DNL Target] 傳回含 getOffer() 的 JSON 產品建議時，它會傳回 JSON 類型。然而，如果您傳回 JSON推薦設計，則它會傳回 HTML 類型。
 * 若 60 天內未經由動態消息或 API 收到更新，過期的實體即會確實過期；不過，實體過期之後並未從目錄搜尋索引中移除。透過動態消息或 API 刪除的實體目前也不會從目錄搜尋索引中移除。(IRI-857)
 * A/B 和體驗鎖定活動中的推薦產品建議不會顯示推薦系統匣的視覺化預覽 (TGT-33426)
-* 透過 API 建立的集合、排除、條件和設計不會顯示在 Target 使用者介面中，而且只能透過 API 編輯。同樣地，如果您在 Target UI 中建立任何這些項目，並稍後透過 API 加以編輯，這些變更不會反映在 Target UI 中。 透過 API 編輯的項目應繼續透過 API 編輯，以避免遺失任何修改。(TGT-35777)
 * 透過 API 建立的推薦活動可在使用者介面中檢視，但只能透過 API 編輯。
 * 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。(TGT-35896 和 TGT-36173)
