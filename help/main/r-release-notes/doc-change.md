@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 38%
+source-wordcount: '450'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 38%
 
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
+| 3 月 31 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增關於 at.js 2.11.8 版的資訊。 |
 | 3 月 26 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.7 版的發行說明。 |
 |  | [推薦常見問答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新常見問題集以表示透過API建立的[!DNL Recommendations]物件可在[!DNL Target] UI中使用。 |
 |  | [集合](/help/main/c-recommendations/c-products/collections.md) | 新增下列備註：收集規則套用至執行條件後產生的建議專案。 它們只會影響輸出中的實體建議(ER)，而不會影響索引鍵。 |

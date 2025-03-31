@@ -6,9 +6,9 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1181'
 ht-degree: 31%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 31%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 25.3.8 （2025年3月28日）
+
+此版本包含下列修正和更新：
+
+* 解決造成[!UICONTROL Activities]頁面載入緩慢的問題。 (TGT-51151)
 
 ## [!DNL Target Standard/Premium] 25.3.7 （2025年3月26日）
 
