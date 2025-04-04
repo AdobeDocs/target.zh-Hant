@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ca14a94365e75704622e76ac13aab324fc836e09
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 43%
+source-wordcount: '501'
+ht-degree: 37%
 
 ---
 
@@ -22,6 +22,14 @@ ht-degree: 43%
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## Target許可權更新（2025年4月22日）
+
+此未來更新加強了組織對[!DNL Target]執行個體設定的控制，防止了可能影響跨各種測試和個人化團隊的活動傳送的意外更新。
+
+自2025年4月22日起，只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能更新[!UICONTROL Administration]區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
+
+如需詳細資訊，請參閱[管理Target](/help/main/administrating-target/start-target.md)。
 
 ## [!DNL Target Standard/Premium] 25.4.1 （2025年4月2日）
 

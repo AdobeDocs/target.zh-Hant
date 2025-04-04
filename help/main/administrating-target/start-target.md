@@ -5,10 +5,10 @@ title: 我該從哪裡開始管理 [!DNL Target]？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 35%
+source-wordcount: '443'
+ht-degree: 32%
 
 ---
 
@@ -58,6 +58,10 @@ ht-degree: 35%
 
 下一步應該是在[!DNL Target Standard]和[!DNL Target Premium]中設定使用者。 如需詳細資訊，請參閱[使用者管理](/help/main/administrating-target/c-user-management/user-management.md)。
 
->[!IMPORTANT]
->
->在[!DNL Adobe Admin Console]中擁有[!UICONTROL Product Admin]或[!UICONTROL System Admin]許可權的使用者可以在[!DNL Target]的[!UICONTROL Administration]頁面上編輯或變更所有設定，無論他們的[!DNL Target]角色為何。 在[!DNL Adobe Admin Console]中沒有[!UICONTROL Product Admin]或[!UICONTROL System Admin]許可權的使用者必須具有特定的[!DNL Target]角色才能進行這些變更。
+## 編輯[!UICONTROL Administration]設定所需的許可權 {#admin-permissions}
+
+**在2025年4月22日之前**：在[!DNL Adobe Admin Console]中擁有[!UICONTROL Approvers]許可權的使用者可以編輯或變更[!DNL Target]的[[!UICONTROL Administration]頁面](/help/main/administrating-target/administrating-target.md)頁面上的所有設定，無論他們的[!DNL Target]角色為何。
+
+**自2025年4月22日起生效**：只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能夠更新[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md)區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
+
+此更新加強了組織對[!DNL Target]執行個體設定的控制，防止了可能影響跨各種測試和個人化團隊的活動傳送的意外更新。
