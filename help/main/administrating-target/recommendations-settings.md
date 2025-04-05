@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 設定[!DNL Recommendations]的設定
 
 瞭解如何設定[!DNL Adobe Target Recommendations]的設定。
+
+{{permissions-update}}
 
 若要存取[!DNL Recommendations]設定選項，請在[!DNL Adobe Experience Cloud]中開啟[!DNL Target]，然後按一下[!UICONTROL Administration] > [!UICONTROL Recommendations]。
 
@@ -29,4 +31,4 @@ ht-degree: 0%
 * 指定縮圖基底URL
 * 設定自訂屬性金鑰
 
-如需詳細資訊，請參閱&#x200B;**[!DNL Adobe Target]開發人員指南**&#x200B;中的[計畫和實作Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
+如需詳細資訊，請參閱&#x200B;**[!DNL Adobe Target]開發人員指南**&#x200B;中的[計畫和實作建議](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。

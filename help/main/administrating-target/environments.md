@@ -1,11 +1,11 @@
 ---
 keywords: 環境；疑難排解；最佳實務；ubox；重新導向；重新導向；白名單；黑名單；封鎖清單；允許清單
-description: 瞭解如何使用Adobe [!DNL Target] 中的環境來組織您的網站和生產前環境，以方便管理和分隔報表。
+description: 瞭解如何使用Adobe [!DNL Target] 中的環境來組織您的網站和生產前環境，以便輕鬆管理和分隔報表。
 title: 什麼是環境？如何使用環境？
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 47%
@@ -21,6 +21,8 @@ ht-degree: 47%
 一個環境（預設環境）已預先命名為[!UICONTROL Production]。 即使重新命名此預設環境，亦無法刪除此環境。[!DNL Target] 假設這是您提供最終批准活動與測試的地方。
 
 從新網站或網域收到[!DNL Target]要求時，這些新網域一律會出現在[!UICONTROL Production]環境中。 [!UICONTROL Production]環境無法變更其設定，因此可保證未知或新網站只會看到作用中且準備就緒的內容。 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
+
+{{permissions-update}}
 
 若要管理環境，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Environments]**。
 

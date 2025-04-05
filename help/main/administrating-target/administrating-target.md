@@ -5,7 +5,7 @@ title: 如何管理Target？
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 13%
@@ -14,7 +14,9 @@ ht-degree: 13%
 
 # 管理[!DNL Target]總覽
 
-協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7組態、實作、主機、環境、回應Token、使用者和[!DNL Recommendations]的組態設定。
+協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7組態、實作、主機、環境、回應權杖、使用者和[!DNL Recommendations]的組態設定。
+
+{{permissions-update}}
 
 若要存取[!UICONTROL Administration]功能表專案，請按一下頂端功能表列中的&#x200B;**[!UICONTROL Administration]**，然後沿著左側按一下所需的標籤：
 

@@ -7,7 +7,7 @@ title: 如何實作 [!DNL Target]？
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 
 開始使用[!DNL Adobe Target]之前，您必須在網站上實作它。
 
+{{permissions-update}}
+
 [Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
 
 開發人員入口網站包含下列實施型別的相關資訊：
@@ -25,7 +27,7 @@ ht-degree: 3%
 * **使用者端**：使用[!DNL Adobe Experience Platform Web SDK]或[!DNL Target Web SDK] (at.js)實作的相關資訊。
 * **伺服器端**：關於使用Node.JS、JAVA、.NET和Python SDK實作的資訊。
 * **Hybrid**：如果您使用使用者端和伺服器端實作的組合，有關實作的資訊。
-* **Recommendations**：協助您實作[!DNL Recommendations] (一種[Target Premium](/help/main/c-intro/intro.md#premium)產品)的相關資訊。
+* **建議**：協助您實作[!DNL Recommendations] (一種[Target Premium](/help/main/c-intro/intro.md#premium)產品)的相關資訊。
 * **行動應用程式**：協助您使用[!DNL Adobe Experience Platform Mobile] SDK實作的資訊。
 * **電子郵件**：協助您在電子郵件中實作[!DNL Target]的資訊。
 

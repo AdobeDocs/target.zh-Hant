@@ -5,7 +5,7 @@ title: 什麼是主機？如何使用主機？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 17%
@@ -21,6 +21,8 @@ ht-degree: 17%
 主機是發出[!DNL Target]要求的任何網域。 在網站上，它通常是發出[!DNL Target]請求的URL的`location.hostname`屬性。
 
 依預設，[!DNL Target]不會限制可以發出[!DNL Target]個要求並接收[!DNL Target]個回應的主機。 當新主機提出請求時，就會自動運作。 此程式也可針對您不知道或無法預測的不同網域進行測試。 如果您要覆寫此預設行為，可以設定允許清單或封鎖清單來限制哪些主機可搭配[!DNL Target]使用。
+
+{{permissions-update}}
 
 若要管理主機，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Hosts]**。
 

@@ -5,7 +5,7 @@ title: 如何在 [!DNL Target]中設定報告？
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 22%
@@ -15,6 +15,8 @@ ht-degree: 22%
 # 在[!DNL Target]中設定報告
 
 設定一般設定，以用於套用至您整個[!DNL Target]帳戶的[!DNL Adobe Target]報告。
+
+{{permissions-update}}
 
 若要存取[!UICONTROL Reporting]設定頁面，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 

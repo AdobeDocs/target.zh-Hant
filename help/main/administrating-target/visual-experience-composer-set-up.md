@@ -5,7 +5,7 @@ title: 如何設定視覺化體驗撰寫器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 49%
@@ -14,9 +14,11 @@ ht-degree: 49%
 
 # 設定[!UICONTROL Visual Experience Composer]
 
-透過指定其一般設定、行動檢視區設定和CSS選取器來設定[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)。
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] 透過指定 （VEC） 的一般設定、行動檢視區組態和 CSS 選取器來設定 （VEC）。
 
 若要存取[!UICONTROL Visual Experience Composer]設定頁面，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -74,7 +76,7 @@ ht-degree: 49%
 
 指定 [!DNL Target] 如何產生 CSS 選取器。
 
-![CSS選取器區段](/help/main/administrating-target/assets/css-selectors.png)
+![CSS 選取器區段](/help/main/administrating-target/assets/css-selectors.png)
 
 這些選項可幫助 [!DNL Target] 瞭解您網站的結構，以為內容傳送產生更好的 CSS 選取器。依預設，[!DNL Target] 會根據頁面上的元素 ID 產生選取器。如果您的網站在相同頁面上使用一些 ID 或重複的 ID，那麼，使用類別可能是較好的選項。
 
@@ -92,7 +94,7 @@ ht-degree: 49%
 >
 >雖然您已完成各個專案來確保準確性，請注意使用類別可能造成錯誤。 如果您不選取這兩個選項中的一個，準確性也會受到影響。準確性的順序為: ID > 類別 > 兩個選項皆不選取。請務必測試您的頁面以確定選取器皆正確。
 
-您可以為每個活動覆寫此設定（按一下[!UICONTROL Settings]齒輪圖示，然後選取[!UICONTROL CSS Selectors]）。 如果您有多個設定方式不同的網站，這特別實用。
+您可以按活動覆蓋此設置（按擊 [!UICONTROL Settings] 齒輪圖示，然後選擇 [!UICONTROL CSS Selectors]）。 如果您有多個設定方式不同的網站，這特別實用。
 
 >[!NOTE]
 >

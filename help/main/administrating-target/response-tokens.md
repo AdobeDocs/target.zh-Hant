@@ -5,7 +5,7 @@ title: 什麼是回應Token？如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ ht-degree: 22%
 回應Token可讓您選擇要使用的變數（在索引鍵值配對中），然後啟用這些變數作為[!DNL Target]回應的一部分傳送。 您使用交換器啟用變數，變數會與[!DNL Target]個回應一併傳送，這可以在網路呼叫中驗證。 回應Token也可在[!UICONTROL Preview]模式下運作。
 
 外掛程式和回應Token的主要差異在於，外掛程式會將JavaScript傳送至傳送時執行的頁面。 然而，回應Token會傳送物件，然後可以使用事件接聽程式讀取該物件並據以採取行動。 回應Token方法比較安全，而且在開發和維護第三方整合時較輕鬆。
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -84,7 +86,7 @@ ht-degree: 22%
 
 | 物件 | 資訊 |
 | --- | --- |
-| 型別 — Personalization.decision | 決定是由[!DNL Target]或Offer decisioning提供者所做。 |
+| 型別 — Personalization.decision | 決定是由[!DNL Target]或Offer Decisioning提供者所做。 |
 | DecisionProvider - TGT | TGT-[!DNL Target]。 [!DNL Target]提供回應Token中繼資料和值給頁面。 |
 | 中繼 | 傳遞至頁面的中繼資料。 |
 | 資料 | 傳遞給頁面的中繼資料值。 |
@@ -212,13 +214,13 @@ ht-degree: 22%
 
 [!DNL Target]會定期執行屬性重新整理。 任何未切換的屬性都會在下次重新整理時移除。 不過，如果您有已切換且已移除的屬性，該指令碼不會從屬性清單中移除，直到您將其切換為關閉為止。 例如，您移除用來做為Token的設定檔指令碼。 刪除或重新命名時，[!DNL Target]只會從清單中移除已切換的屬性。
 
-## 傳送資料給Google Analytics
+## 傳送資料至Google Analytics
 
-以下各節說明如何將[!DNL Target]資料傳送至Google Analytics4。 回應Token傳送的資料也可傳送至其他第三方整合。
+以下章節說明如何將[!DNL Target]資料傳送至Google Analytics 4。 回應Token傳送的資料也可傳送至其他第三方整合。
 
-### ![AEP徽章](/help/main/assets/platform.png)透過Platform Web SDK傳送資料給Google Analytics
+### ![AEP badge](/help/main/assets/platform.png)透過Platform Web SDK傳送資料至Google Analytics
 
-若要傳送Google Analytics，可透過Platform Web SDK 2.6.0版（或更新版本）在HTML頁面中新增下列程式碼。
+在Google Analytics頁面中新增下列程式碼，可透過Platform Web SDK HTML 2.6.0版（或更新版本）傳送資料。
 
 >[!NOTE]
 >
@@ -310,9 +312,9 @@ ht-degree: 22%
 
 以下小節提供除錯回應Token的相關資訊：
 
-### ![at.js badge](/help/main/assets/atjs.png)個Google Analytics和偵錯
+### ![at.js badge](/help/main/assets/atjs.png) Google Analytics與偵錯
 
-以下程式碼可讓您使用Google Analytics進行偵錯：
+下列程式碼可讓您使用Google Analytics進行偵錯：
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
