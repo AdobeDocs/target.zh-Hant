@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 37%
+source-wordcount: '653'
+ht-degree: 30%
 
 ---
 
@@ -30,6 +30,22 @@ ht-degree: 37%
 自2025年4月22日起，只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能更新[!UICONTROL Administration]區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
 
 如需詳細資訊，請參閱[管理Target](/help/main/administrating-target/start-target.md)。
+
+## [!DNL Target Standard/Premium] 25.4.3 （2025年4月10日）
+
+此版本包含下列修正和更新：
+
+* 修正[!UICONTROL Form-Based Experience Composer]中的[!UICONTROL Activity QA]連結不正確地重新導向至[!DNL Adobe Experience Cloud]首頁的問題。 (TGT-52055)
+* 新增錯誤訊息，以引導使用者解決活動中的重複選項。 (TGT-51927)
+
+## [!DNL Target Standard/Premium] 25.4.2 （2025年4月8日）
+
+此版本包含下列修正和更新：
+
+* 修正儲存及重新開啟後，新增至[!UICONTROL A/B Test]活動的其他頁面未保留的問題。 (TGT-51994)
+* 已修正導致客戶無法刪除內嵌樣式區段中的樣式的問題。 (TGT-52070)
+* 已還原存取[!UICONTROL Activity QA]對話方塊中的[對象定義卡](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)，類似於舊版UI。 (TGT-52056)
+* 更新後的UI未儲存頁面或對象而未經修改。 如果客戶將新頁面或對象新增至活動，但未進行變更，[!DNL Target]會在儲存時捨棄未修改的對象。 已在相關位置新增通知，以通知使用者此行為。 (TGT-52104)
 
 ## [!DNL Target Standard/Premium] 25.4.1 （2025年4月2日）
 
