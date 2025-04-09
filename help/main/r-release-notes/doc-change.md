@@ -4,9 +4,9 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
+source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '612'
 ht-degree: 37%
 
 ---
@@ -21,8 +21,9 @@ ht-degree: 37%
 
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
+| 4 月 9 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新25.4.3版的發行前說明日期。 |
 | 4 月 8 日 | [CNAME和目標](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | 更新下列項目：<ul><li>所有憑證預設為RSA SHA-256，金鑰則為RSA 2048位元。 應透過客戶服務明確要求大於2048位元的金鑰大小。 （先前所述的大於2048位元的金鑰大小不受支援。）</li><li>更新bash指令碼。</li><li>更新驗證輸出程式碼片段。</li></ul> |
-| 4 月 7 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增下列即將發行的版本的搶鮮版發行說明：<UL><li>[!DNL Target Standard/Premium] 25.4.2 （2025年4月8日）</li><li>[!DNL Target Standard/Premium] 25.4.3 （2025年4月10日）</li></ul> |
+| 4 月 7 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增下列即將發行的版本的搶鮮版發行說明：<UL><li>[!DNL Target Standard/Premium] 25.4.3 （2025年4月10日）</li></ul> |
 | 4 月 4 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 更新即將於2025年4月22日進行的[!DNL Target]許可權更新的版本注意事項。 |
 |  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已更新即將於2025年4月22日進行的[!DNL Target]許可權更新的發行前說明。 |
 |  | [管理員入門](/help/main/administrating-target/start-target.md#admin-permissions) | 新增章節：「編輯[!UICONTROL Administration]設定所需的許可權」。 |

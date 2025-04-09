@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: eaba6fe562644874fc800612894218094ca37f1b
+source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 43%
+source-wordcount: '380'
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年4月8日**
+**上次更新日期：2025年4月10日**
 
 >[!NOTE]
 >
@@ -37,11 +37,6 @@ ht-degree: 43%
 
 * 修正[!UICONTROL Form-Based Experience Composer]中的[!UICONTROL Activity QA]連結不正確地重新導向至[!DNL Adobe Experience Cloud]首頁的問題。 (TGT-52055)
 * 新增錯誤訊息，以引導使用者解決活動中的重複選項。 (TGT-51927)
-
-## [!DNL Target Standard/Premium] 25.4.2 （2025年4月8日）
-
-此版本包含下列修正和更新：
-
 * 修正儲存及重新開啟後，新增至[!UICONTROL A/B Test]活動的其他頁面未保留的問題。 (TGT-51994)
 * 已修正導致客戶無法刪除內嵌樣式區段中的樣式的問題。 (TGT-52070)
 * 已還原存取[!UICONTROL Activity QA]對話方塊中的[對象定義卡](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)，類似於舊版UI。 (TGT-52056)
@@ -60,7 +55,7 @@ This release contains the following fixes:
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
