@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
+source-git-commit: 8af56181ea0ed74eb41d799908ce50f0436d330c
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 44%
+source-wordcount: '663'
+ht-degree: 30%
 
 ---
 
@@ -35,6 +35,21 @@ ht-degree: 44%
 
 此版本包含下列修正和更新：
 
+* 修正導致客戶無法開啟特定[!UICONTROL Experience Targeting] (XT)活動的對象資訊快顯視窗的錯誤。 (TGT-52049)
+* 修正客戶無法在預設工作區中插入[!UICONTROL Experience Fragment]的問題。 (TGT-52073)
+* 修正了針對[!UICONTROL Automated Personalization] (AP)活動，選件顯示為「找不到內容」且未顯示在[!UICONTROL Offers]頁面的問題。 (TGT-52150)
+* 新增在活動中允許重複受眾的功能。 (TGT-51200)
+* 修正編輯後XT活動的[!UICONTROL Goals & Settings]頁面上顯示錯誤mbox名稱的問題。 (TGT-52026)
+* 修正`defaultContent`不在`experiences/optionLocations`中卻顯示在選項中的問題。 (TGT-52036)
+* 修正確保空白字串未轉換為Null值的問題。 (TGT-52037)
+* 已修正要求客戶在編輯[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Reporting Settings]中重新設定[!UICONTROL Optimization Goal]的問題。 (TGT-52071)
+* 修正無頁面傳送規則的活動在[!UICONTROL Overview]頁面上顯示多個規則的問題。 (TGT-52084)
+* 新增錯誤訊息，說明使用者嘗試以基本多語言平面以外的字元（例如表情符號）儲存優惠方案。 (TGT-52105)
+* 修正開啟活動觸發錯誤訊息的問題：「此活動使用一或多個在來源中刪除的對象。」 (TGT-52120)
+* 修正在編輯期間ClickTrack量度未顯示在更新的[!UICONTROL Visual Experience Composer] (VEC)中的問題。 (TGT-52152)
+* 修正具有查詢引數作為活動位置的URL未在活動的[!UICONTROL Overview]頁面上顯示查詢引數的問題。 (TGT-51635)
+* 修正無法在[!UICONTROL Visual Experience Composer] (VEC)的[!UICONTROL Browse mode]中顯示整個體驗URL的問題。 (TGT-52101)
+* 修正編輯活動導致頁面傳送在URL結尾新增「/」使其無效的問題。 (TGT-52114)
 * 修正[!UICONTROL Form-Based Experience Composer]中的[!UICONTROL Activity QA]連結不正確地重新導向至[!DNL Adobe Experience Cloud]首頁的問題。 (TGT-52055)
 * 新增錯誤訊息，以引導使用者解決活動中的重複選項。 (TGT-51927)
 * 修正儲存及重新開啟後，新增至[!UICONTROL A/B Test]活動的其他頁面未保留的問題。 (TGT-51994)
@@ -42,20 +57,12 @@ ht-degree: 44%
 * 已還原存取[!UICONTROL Activity QA]對話方塊中的[對象定義卡](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)，類似於舊版UI。 (TGT-52056)
 * 更新後的UI未儲存頁面或對象而未經修改。 如果客戶將新頁面或對象新增至活動，但未進行變更，[!DNL Target]會在儲存時捨棄未修改的對象。 已在相關位置新增通知，以通知使用者此行為。 (TGT-52104)
 
-<!-- 
-## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
-
-This release contains the following fixes:
-
-* Fixed an issue that prevented [!UICONTROL Recommendations] activities from loading in [!UICONTROL Compose] and [!UICONTROL Browse] modes. (TGT-50709)
-* Fixed an issue with the new [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) that caused a redirect from the [!UICONTROL Visual Experience Composer] (VEC) to the [!UICONTROL Activities Library] after clicking Cancel. Before this fix, customers needed to refresh the [!UICONTROL Activities Library] before being able to create new activities. (TGT-49980)-->
-
 ## 額外的發行說明和版本詳細資料
 
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
