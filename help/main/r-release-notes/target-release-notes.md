@@ -4,7 +4,7 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
+source-git-commit: 2e3191da2ac21f51fa6e08af615659db1ccdd2d9
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 27%
@@ -22,24 +22,6 @@ ht-degree: 27%
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
-
-## Target許可權更新（2025年4月22日）
-
-此未來更新加強了組織對[!DNL Target]執行個體設定的控制，防止了可能影響跨各種測試和個人化團隊的活動傳送的意外更新。
-
-自2025年4月22日起，只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能更新[!UICONTROL Administration]區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
-
-如需詳細資訊，請參閱[管理Target](/help/main/administrating-target/start-target.md)。
-
-## [!DNL Target Standard/Premium] 25.4.4 （2025年4月15日）
-
-此版本包含下列修正和更新：
-
-* 新增錯誤訊息，以引導使用者解決活動中的重複選項。 (TGT-51927)
-* 修正刪除具有重新導向選件的頁面或體驗時，未移除ClickTrack選取器的問題。 (TGT-51952)
-* 修正[!DNL Target]在活動URL中無法正確偵測「#」字元的問題。 (TGT-52093)
-* 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯選件層級鎖定目標時，無法顯示對象定義的問題。 (TGT-52148)
-* 修正在UI中反轉對象細分和活動鎖定對象的問題。 (TGT-52158)
 
 ## [!DNL Target Standard/Premium] 25.4.3 （2025年4月10日）
 
@@ -65,6 +47,24 @@ ht-degree: 27%
 * 已修正導致客戶無法刪除內嵌樣式區段中的樣式的問題。 (TGT-52070)
 * 已還原存取[!UICONTROL Activity QA]對話方塊中的[對象定義卡](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)，類似於舊版UI。 (TGT-52056)
 * 更新後的UI未儲存頁面或對象而未經修改。 如果客戶將新頁面或對象新增至活動，但未進行變更，[!DNL Target]會在儲存時捨棄未修改的對象。 已在相關位置新增通知，以通知使用者此行為。 (TGT-52104)
+
+## [!DNL Target Standard/Premium] 25.4.4 （2025年4月15日）
+
+此版本包含下列修正和更新：
+
+* 新增錯誤訊息，以引導使用者解決活動中的重複選項。 (TGT-51927)
+* 修正刪除具有重新導向選件的頁面或體驗時，未移除ClickTrack選取器的問題。 (TGT-51952)
+* 修正[!DNL Target]在活動URL中無法正確偵測「#」字元的問題。 (TGT-52093)
+* 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯選件層級鎖定目標時，無法顯示對象定義的問題。 (TGT-52148)
+* 修正在UI中反轉對象細分和活動鎖定對象的問題。 (TGT-52158)
+
+## Target許可權更新（2025年4月22日）
+
+此未來更新加強了組織對[!DNL Target]執行個體設定的控制，防止了可能影響跨各種測試和個人化團隊的活動傳送的意外更新。
+
+自2025年4月22日起，只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能更新[!UICONTROL Administration]區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
+
+如需詳細資訊，請參閱[管理Target](/help/main/administrating-target/start-target.md)。
 
 ## 額外的發行說明和版本詳細資料
 
