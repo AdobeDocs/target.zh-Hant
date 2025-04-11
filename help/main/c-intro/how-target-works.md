@@ -4,7 +4,7 @@ description: 瞭解 [!DNL Adobe Target] 的運作方式，包括有關JavaScript
 title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 下列資訊可協助您瞭解用於[!DNL Target]伺服器呼叫的計數策略，如下表所示：
 
-* **計數一次**：每個API呼叫計數一次
-* **計算mbox數量**：計算單一API呼叫之裝載中陣列底下的mbox數量
-* **忽略**：完全不計算
-* **計算檢視次數（一次）**：計算承載中陣列下的檢視次數。 在一般實施中，通知陣列下的檢視通知只有一項檢視，因此這相當於大多數實施中計為一次
+* **計數一次**：每個API呼叫計數一次。
+* **計算mbox的數量**：計算單一API呼叫裝載中陣列底下的mbox數量。
+* **忽略**：完全不計算。
+* **計算檢視次數（一次）**：計算承載中陣列下的檢視次數。 在典型的實施中，檢視通知在通知陣列下只有一個檢視，因此這相當於在大多數實施中計數一次。
 
 | 端點 | 擷取型別 | 選項 | 計數策略 |
 |--- |--- |--- |-- |
