@@ -4,10 +4,10 @@ description: 瞭解 [!DNL Adobe Target] 的運作方式，包括有關JavaScript
 title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -39,8 +39,8 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
-* [[!DNL Adobe Experience Platform Web SDK] 副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* 使用[ [!DNL Target] 實作 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* 使用 [ [!DNL Target]  實作  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次訪客請求針對[!DNL Target]最佳化的頁面時，就會傳送即時請求給目標定位系統，以決定要提供的內容。 每次頁面載入時，都會提出並完成此要求，受行銷人員控制的活動和體驗管理。 內容將目標鎖定在個別網站訪客，最大化回應率、贏取率和收入。 個人化內容可協助確保訪客回應、互動或進行購買。
 
@@ -100,6 +100,13 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 ## [!DNL Target]如何計算伺服器呼叫使用量 {#usage}
 
 [!DNL Target]只會計算為客戶提供值的伺服器呼叫。 下表顯示[!DNL Target]如何計算端點、單一mbox、批次mbox呼叫、執行、預先擷取和通知呼叫。
+
+下列資訊可協助您瞭解用於[!DNL Target]伺服器呼叫的計數策略，如下表所示：
+
+* **計數一次**：每個API呼叫計數一次
+* **計算mbox數量**：計算單一API呼叫之裝載中陣列底下的mbox數量
+* **忽略**：完全不計算
+* **計算檢視次數（一次）**：計算承載中陣列下的檢視次數。 在一般實施中，通知陣列下的檢視通知只有一項檢視，因此這相當於大多數實施中計為一次
 
 | 端點 | 擷取型別 | 選項 | 計數策略 |
 |--- |--- |--- |-- |
@@ -162,7 +169,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 >
 >[!DNL Target]目前在中國缺少Edge叢集，因此限制了該區域[!DNL Target]客戶的訪客效能。 防火牆和缺少Edge叢集可能會影響網站體驗，導致轉譯和頁面載入速度緩慢。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣叢集。 如需更多資訊，請參閱[允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
