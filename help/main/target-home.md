@@ -4,10 +4,10 @@ title: Adobe Target 商務從業者指南
 description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，以便在您的網站和行動網站、應用程式及其他數位媒體上獲得最大收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
+source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 [!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案提供一切所需工具，讓您量身打造及個人化您的客戶體驗，為您的網頁以及行動網站、應用程式、社交媒體和其他數位管道創造最高的收入。
 
-**上次更新日期：2025年4月9日（[檢視變更內容](r-release-notes/doc-change.md) ）**
+**上次更新日期：2025年4月11日（[檢視變更內容](r-release-notes/doc-change.md) ）**
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 91%
 
 ## 開發人員 {#developers}
 
-- [Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}：此入口網站為[!DNL Adobe Target]名開發人員提供資源和指南，包括實施[!DNL Target]的API和SDK檔案。
+- [Adobe Target 開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}：此入口網站向 [!DNL Adobe Target] 開發者提供資源和指南，包括實作 [!DNL Target] 的 API 和 SDK 文件。
 
 ## Target 與 Adobe Experience Cloud 管理員 {#admins}
 
