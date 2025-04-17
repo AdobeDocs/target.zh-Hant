@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 02447c110372536022df0afb2329c708be675d2a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 37%
+source-wordcount: '647'
+ht-degree: 39%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 37%
 
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
+| 4 月 17 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.4.4 版的發行說明。 |
 | 4 月 11 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.4.3 版的發行說明。 |
 |  | [運作方式 [!DNL Target] ](/help/main/c-intro/how-target-works.md#usage) | 新增章節：「[!DNL Target]如何計算伺服器呼叫使用量」。 |
 | 4 月 9 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新25.4.4版的發行前說明日期。 |
@@ -43,7 +44,7 @@ ht-degree: 37%
 | 3 月 19 日 | [疑難排解[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)的相關問題 | 已更新允許清單的IP位址。 |
 | 3 月 18 日 | [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已在&#x200B;*支援的目標量度*&#x200B;區段中新增備註。 |
 | 3 月 14 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.6 版的發行說明。 |
-| 3 月 13 日 | [支援的瀏覽器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 更新支援的瀏覽器，並新增「視覺化編輯需求」區段。 |
+| 3 月 13 日 | [受支援的瀏覽器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 更新支援的瀏覽器，並新增「視覺化編輯需求」區段。 |
 | 3 月 11 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.5 版的發行說明。 |
 | 3 月 7 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.4 版的發行說明。 |
 | 3 月 6 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.2 版的發行說明。 |
@@ -59,7 +60,7 @@ ht-degree: 37%
 |  | [活動 QA 書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新at.js 2.x的活動QA書籤小程式。 |
 | 2 月 13 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 將[!DNL Target Standard/Premium] 25.2.1使用者介面更新版本變更為2025年2月17日。 |
 | 2 月 12 日 | [可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 更新整個主題，以說明[!DNL Target Standard/Premium] 25.2.1版本（2025年2月12日）中推出的更新VEC。 |
-|  | [支援的瀏覽器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 已新增在使用[!DNL Adobe Experience Platform Web SDK]的Target實作中支援哪些瀏覽器的相關資訊。 |
+|  | [受支援的瀏覽器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 已新增在使用[!DNL Adobe Experience Platform Web SDK]的Target實作中支援哪些瀏覽器的相關資訊。 |
 |  | [視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | 新文章說明舊版和更新版VEC之間的差異。 |
 |  | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增[!DNL Target Standard/Premium] 25.2.1使用者介面更新的發行說明（排定於2025年2月17日）。 許多文章都已更新，以反映UI變更。 |
 

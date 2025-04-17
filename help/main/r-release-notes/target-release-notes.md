@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+source-git-commit: cd25bda52b7a1b916a73ca5e531a7134ba8cef4e
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 50%
+source-wordcount: '416'
+ht-degree: 42%
 
 ---
 
@@ -28,10 +28,15 @@ ht-degree: 50%
 此版本包含下列修正和更新：
 
 * 新增錯誤訊息，以引導使用者解決活動中的重複選項。 (TGT-51927)
-* 修正刪除具有重新導向選件的頁面或體驗時，未移除ClickTrack選取器的問題。 (TGT-51952)
-* 修正[!DNL Target]在活動URL中無法正確偵測「#」字元的問題。 (TGT-52093)
+* 修正刪除具有重新導向選件的頁面或體驗時，`ClickTrack`選取器未移除的問題。 (TGT-51952)
+* 修正允許空白`ClickTrack`選取器所造成的問題。 [!DNL Target]現在要求選取器欄位不得為空白。 (TGT-52107)
+* 修正不正確地允許名稱重複的量度的問題。 量度現在需要唯一名稱。 (TGT-52201)
 * 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯選件層級鎖定目標時，無法顯示對象定義的問題。 (TGT-52148)
-* 修正在UI中反轉對象細分和活動鎖定對象的問題。 (TGT-52158)
+* 修正具有[!UICONTROL Editor]許可權的客戶無法儲存活動的問題。 (TGT-52227)
+* 選項保持不變時，`OptionLocalIDs`不再錯誤地增加。 (TGT-52139)
+* 修正嘗試建立活動時，造成「無效的`optionLocalIds`」訊息的問題。 (TGT-52154)
+* 已修正為活動定義的`OptionLocalIDs`與用來定義體驗的之間的差異。 (TGT-52215)
+* 修正嘗試建立A/B活動時發生驗證失敗的問題。 (TGT-51923)
 
 ## Target許可權更新（2025年4月22日）
 
