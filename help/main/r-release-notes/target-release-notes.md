@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 66%
+source-wordcount: '373'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,19 @@ ht-degree: 66%
 >發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
+
+## [!DNL Target Standard/Premium] 25.4.5 （2025年4月24日）
+
+此版本包含下列修正和更新：
+
+* 修正在編輯或儲存活動時導致多個體驗對象顯示的問題。 (TGT-52134)
+* 修正啟用[!DNL Recommendations]活動後，建議未顯示在客戶網站上的問題。 (TGT-52164)
+* 選項保持不變時，`OptionLocalIDs`不再錯誤地增加。 (TGT-52187)
+* 下載的報表檔案現在可正確顯示報表UI中存在的資料。 (TGT-52068)
+* 已修正致使Target無法辨識網站URL中「#」字元的問題。 (TGT-52093)
+* 新增頁面傳送規則後，批次作業不再失敗。 (TGT-52097)
+* 修正導致[!DNL Target]從網站URL中修剪所有查詢引數的問題。 (TGT-52100)
+* 已修正導致在更新的UI中回覆對象細分和活動對象的問題。 (TGT-52158)
 
 ## Target許可權更新（2025年4月22日）
 

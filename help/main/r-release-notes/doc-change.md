@@ -4,10 +4,10 @@ description: 掌握 [!DNL Adobe Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 02447c110372536022df0afb2329c708be675d2a
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 39%
+source-wordcount: '659'
+ht-degree: 38%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 39%
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
 | 4 月 17 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.4.4 版的發行說明。 |
+|  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增25.4.5版的搶鮮版注意事項日期。 |
 | 4 月 11 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.4.3 版的發行說明。 |
 |  | [運作方式 [!DNL Target] ](/help/main/c-intro/how-target-works.md#usage) | 新增章節：「[!DNL Target]如何計算伺服器呼叫使用量」。 |
 | 4 月 9 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新25.4.4版的發行前說明日期。 |
