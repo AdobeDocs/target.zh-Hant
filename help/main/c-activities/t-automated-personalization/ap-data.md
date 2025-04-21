@@ -5,9 +5,9 @@ title: 系統會收集哪些資料來建置機器學習演演算法？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1958'
 ht-degree: 51%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 51%
 | 客戶屬性 | CRS | 透過[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}上傳至[!DNL Target]設定檔的客戶屬性。 | 自訂 — 訪客設定檔 — [屬性名稱] |
 | URL 參數 | URL | 目前檢視頁面的URL和任何URL引數。 | 自訂 — URL引數 — [URL引數] |
 | 反向連結 URL | 參照 | 反向連結URL和反向連結URL的任何URL引數。 | 自訂 — [反向連結URL引數] - [引數值] |
-| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 所有對象都透過[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}與其他[!DNL Adobe Experience Cloud]解決方案（例如[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]）共用給[!DNL Target]。 | 自訂 — Experience Cloud對象 — [對象名稱] |
+| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 從其他[!DNL Adobe Experience Cloud]解決方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，透過[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}）與[!DNL Target]共用所有對象。 | 自訂 — Experience Cloud對象 — [對象名稱] |
 | [!DNL Adobe Experience Platform Real-time CDP]個對象 | UPS | 透過[!UICONTROL Destinations]與[!DNL Target]共用的Platform Real-time CDP對象。 |  |
-| [!DNL Adobe Experience Platform Real-time CDP]屬性 | AEP | 透過[!UICONTROL Destinations]與[!DNL Target]共用的Platform Real-time CDP屬性。 |  |
+
 
 ## 正在封鎖[!DNL Target]機器學習演演算法的功能
 
@@ -108,21 +108,21 @@ ht-degree: 51%
 
 | 屬性名稱 | 屬性說明 | 值範例 | 系統名稱 |
 | --- | --- | --- | --- |
-| 訪客設定檔 - 活動期限訂購值 | 指定某個特定活動的所有造訪/工作階段的所有訂購值的總和。 | 雙倍 | SES_CUMULATIVE_ORDER_VALUE |
-| 訪客設定檔 - 活動期限網站逗留時間 | 指定訪客在網站上的總計停留時間，這不包括目前的工作階段，且會在工作階段過期時更新。 | 雙倍，毫秒 | SES_TOTAL_TIME |
-| 訪客設定檔 - 活動期間每個造訪的平均頁面檢視數 | 指定每個工作階段的平均頁面檢視數，這不包括目前的工作階段。 | 雙倍 | SES_REQUESTS_PER_SESSION |
-| 訪客設定檔 - 每次瀏覽的平均時間 | 指定每個造訪/工作階段停留的平均時間。這不包括目前的工作階段。 | 雙倍，毫秒 | SES_TIME_PER_SESSION |
-| 訪客設定檔 - 第一次造訪 | 指定使用者與[!DNL Target]互動的首次造訪時間。 | 雙倍，毫秒 | ses_PROFILE_CREATION_TIME |
-| 訪客設定檔 - 自上次造訪以來的時數 | 指定自上次造訪此特定活動以來的時數。 | 雙倍（僅限正整數） 1、2、3等。 | SES_HOURS_SINCE_LAST_VISIT |
-| 訪客設定檔 - 位置/內容的曝光次數 | 指定特定活動中特定位置/內容組合的曝光次數。 | 雙倍（僅限正整數） 1、2、3等。 | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
+| 訪客輪廓 - 活動期限訂購值 | 指定某個特定活動的所有造訪/工作階段的所有訂購值的總和。 | 雙倍 | SES_CUMULATIVE_ORDER_VALUE |
+| 訪客輪廓 - 活動期限網站逗留時間 | 指定訪客在網站上的總計停留時間，這不包括目前的工作階段，且會在工作階段過期時更新。 | 雙倍，毫秒 | SES_TOTAL_TIME |
+| 訪客輪廓 - 活動期間每個造訪的平均頁面檢視數 | 指定每個工作階段的平均頁面檢視數，這不包括目前的工作階段。 | 雙倍 | SES_REQUESTS_PER_SESSION |
+| 訪客輪廓 - 每次瀏覽的平均時間 | 指定每個造訪/工作階段停留的平均時間。這不包括目前的工作階段。 | 雙倍，毫秒 | SES_TIME_PER_SESSION |
+| 訪客輪廓 - 第一次造訪 | 指定使用者與[!DNL Target]互動的首次造訪時間。 | 雙倍，毫秒 | ses_PROFILE_CREATION_TIME |
+| 訪客輪廓 - 自上次造訪以來的時數 | 指定自上次造訪此特定活動以來的時數。 | 雙倍（僅限正整數） 1、2、3等。 | SES_HOURS_SINCE_LAST_VISIT |
+| 訪客輪廓 - 位置/內容的曝光次數 | 指定特定活動中特定位置/內容組合的曝光次數。 | 雙倍（僅限正整數） 1、2、3等。 | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
 | 訪客設定檔 — 最後[!DNL Target]次互動 | 指定上次與[!DNL Target]互動的時間。 互動會在每個[!DNL Target]要求上發生，因為目前的[!DNL Target]實作會更新每個要求上的設定檔。 | 雙倍，毫秒 | SES_PROFILE_UPDATE_TIME |
-| 訪客設定檔 - 活動前檢視的頁面 | 指定在訪客進入活動之前的頁面檢視總數（曝光數），包括目前的造訪/工作階段。 | 雙倍（僅限正整數） 1、2、3等。 | SES_TOTAL_PAGE_VIEWS |
-| 訪客設定檔 - 目前造訪中的頁面檢視數 | 指定在訪客進入活動之前，目前造訪/工作階段中的頁面檢視次數。 更準確地說，也就是曝光次數。這些曝光不是實際的頁面檢視次數，而是要求達到[!DNL Target]的次數。 [!DNL Target]無法區分逾時或是使用者未收到或檢視內容的任何其他原因。 | 雙倍 (僅限正整數) | SES_SESSION_POSITION |
-| 訪客設定檔 - 目前造訪開始時間 | 指定目前與[!DNL Target]的造訪/工作階段開始的時間。 可以初始化[!DNL Target]的造訪，而不需要進入活動。 只需要呼叫任何[!DNL Target]請求即可。 訪客在進入活動並拍攝快照之前可能需要一些時間。 | 雙倍，毫秒 | SES_SESSION_START |
-| 訪客設定檔 - 開始最近一次瀏覽 | 指定與[!DNL Target]的上次造訪/工作階段開始的時間。 此屬性會在工作階段過期時更新。<br>如果這是訪客的第一個工作階段，則會產生`LAST_SESSION_START = 0.` | 雙倍，毫秒 | SES_LAST_SESSION_START |
-| 訪客設定檔 - 初次進入活動時自最近一次造訪以來的時間 | 指定上一個工作階段與使用者進入活動且執行快照之間的時間的持續時間。 | 雙倍，毫秒 | SES_RECENCY |
-| 訪客設定檔 - 進入活動之前的造訪時間 | 指定上次與[!DNL Target]的互動與目前造訪開始時間之間的差異。 此屬性可視為在使用者進入活動且執行快照之前的造訪/工作階段持續時間。<br>當工作階段開始且同一個[!DNL Target]呼叫已觸發上次更新時間時，會發生負值。 負值應視為 0 (零)。 | 雙倍，毫秒 | SES_SESSION_TIME |
-| 訪客設定檔 - 瀏覽總數 | 指定指定造訪/工作階段總數。不包含目前的造訪/工作階段。 | 雙倍（僅限正整數） 1、2、3等。 | SES_TOTAL_SESSIONS |
-| 訪客設定檔 - 活動的總造訪次數 | 指定特定活動的造訪次數。如果之前沒有任何造訪，則會傳回 0 (零)。 | 雙倍（僅限正整數） 1、2、3等。 | SES_PREVIOUS_VISIT_COUNT |
-| 訪客設定檔 - 包含轉換之活動的總造訪次數 | 指定造訪期間至少有一個轉換時，特定活動的造訪/工作階段數目。 | 雙倍 | SES_CUMULATIVE_SUCCESSNS |
-| 訪客設定檔 - 不包含轉換之活動的造訪次數 | 不包含轉換之特定活動的造訪/工作階段數目。此值在轉換後會重設為零，或者若從未發生轉換，則會出現 -1。 | 雙倍（僅限正整數） 1、2、3等。 | SES_SUCCESS_RECENCY |
+| 訪客輪廓 - 活動前檢視的頁面 | 指定在訪客進入活動之前的頁面檢視總數（曝光數），包括目前的造訪/工作階段。 | 雙倍（僅限正整數） 1、2、3等。 | SES_TOTAL_PAGE_VIEWS |
+| 訪客輪廓 - 目前造訪中的頁面檢視數 | 指定在訪客進入活動之前，目前造訪/工作階段中的頁面檢視次數。 更準確地說，也就是曝光次數。這些曝光不是實際的頁面檢視次數，而是要求達到[!DNL Target]的次數。 [!DNL Target]無法區分逾時或是使用者未收到或檢視內容的任何其他原因。 | 雙倍 (僅限正整數) | SES_SESSION_POSITION |
+| 訪客輪廓 - 目前造訪開始時間 | 指定目前與[!DNL Target]的造訪/工作階段開始的時間。 可以初始化[!DNL Target]的造訪，而不需要進入活動。 只需要呼叫任何[!DNL Target]請求即可。 訪客在進入活動並拍攝快照之前可能需要一些時間。 | 雙倍，毫秒 | SES_SESSION_START |
+| 訪客輪廓 - 開始最近一次瀏覽 | 指定與[!DNL Target]的上次造訪/工作階段開始的時間。 此屬性會在工作階段過期時更新。<br>如果這是訪客的第一個工作階段，則會產生`LAST_SESSION_START = 0.` | 雙倍，毫秒 | SES_LAST_SESSION_START |
+| 訪客輪廓 - 初次進入活動時自最近一次造訪以來的時間 | 指定上一個工作階段與使用者進入活動且執行快照之間的時間的持續時間。 | 雙倍，毫秒 | SES_RECENCY |
+| 訪客輪廓 - 進入活動之前的造訪時間 | 指定上次與[!DNL Target]的互動與目前造訪開始時間之間的差異。 此屬性可視為在使用者進入活動且執行快照之前的造訪/工作階段持續時間。<br>當工作階段開始且同一個[!DNL Target]呼叫已觸發上次更新時間時，會發生負值。 負值應視為 0 (零)。 | 雙倍，毫秒 | SES_SESSION_TIME |
+| 訪客輪廓 - 瀏覽總數 | 指定指定造訪/工作階段總數。不包含目前的造訪/工作階段。 | 雙倍（僅限正整數） 1、2、3等。 | SES_TOTAL_SESSIONS |
+| 訪客輪廓 - 活動的總造訪次數 | 指定特定活動的造訪次數。如果之前沒有任何造訪，則會傳回 0 (零)。 | 雙倍（僅限正整數） 1、2、3等。 | SES_PREVIOUS_VISIT_COUNT |
+| 訪客輪廓 - 包含轉換之活動的總造訪次數 | 指定造訪期間至少有一個轉換時，特定活動的造訪/工作階段數目。 | 雙倍 | SES_CUMULATIVE_SUCCESSNS |
+| 訪客輪廓 - 不包含轉換之活動的造訪次數 | 不包含轉換之特定活動的造訪/工作階段數目。此值在轉換後會重設為零，或者若從未發生轉換，則會出現 -1。 | 雙倍（僅限正整數） 1、2、3等。 | SES_SUCCESS_RECENCY |
