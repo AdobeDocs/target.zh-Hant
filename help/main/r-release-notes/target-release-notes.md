@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
+source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 33%
+source-wordcount: '642'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年4月23日**
+**上次更新日期：2025年4月24日**
 
 >[!NOTE]
 >
@@ -23,14 +23,16 @@ ht-degree: 33%
 >
 >若要檢視目前版本的相關資訊，請參閱 [Target 發行說明](release-notes.md)。這些頁面上的資訊可能會相同，視發佈時間而定。括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target Standard/Premium] 25.4.5 （2025年4月24日）
+## [!DNL Target Standard/Premium] 25.4.5 （2025年4月25日）
 
 此版本包含下列修正和更新：
 
+* 修正[!UICONTROL Activity]設定頁面與[!UICONTROL Reporting]概觀頁面之間對象清單不一致的問題。 (TGT-52203)
+* 修正由於無效的使用者輸入錯誤而無法新增頁面至活動的問題。 (TGT-52263)
 * 修正啟用[!DNL Recommendations]活動後，建議未顯示在客戶網站上的問題。 (TGT-52164)
-* 選項保持不變時，`OptionLocalIDs`不再錯誤地增加。 (TGT-52187)
-* 下載的報表檔案現在可正確顯示報表UI中存在的資料。 (TGT-52068)
-* 新增頁面傳送規則後，批次作業不再失敗。 (TGT-52097)
+* 修正當選項保持不變時，`OptionLocalIDs`錯誤地遞增的問題。 (TGT-52187)
+* 已修正問題，讓下載的報表檔案可正確顯示報表UI中存在的資料。 (TGT-52068)
+* 修正問題，讓批次作業在新增頁面傳送規則後不再失敗。 (TGT-52097)
 * 修正導致[!DNL Target]從網站URL中修剪所有查詢引數的問題。 (TGT-52100)
 * 解決導致客戶無法在舊版和更新版Target UI中建立活動的主控台錯誤。 (TGT-52181)
 * 已修正導致客戶無法新增頁面，進而造成無效使用者輸入錯誤的問題。 (TGT-52258)
@@ -45,7 +47,7 @@ ht-degree: 33%
 * 修正無法儲存具有[!UICONTROL View a Page] URL量度的活動的問題。 (TGT-52260)
 * 修正在活動中建立優惠方案時，客戶無法選取工作區的問題。 (TGT-52289)
 * 修正切換至另一個體驗時，來自一個體驗的修改未正確顯示的問題。 (TGT-52184)
-* 修正開啟活動後[!DNL Target] UI中錯誤顯示預設選件的問題。 (TGT-52198)
+* 修正開啟活動時，[!DNL Target] UI中錯誤顯示預設選件的問題。 (TGT-52198)
 
 ## Target許可權更新（2025年4月22日）
 
