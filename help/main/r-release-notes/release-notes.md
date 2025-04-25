@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 30%
+source-wordcount: '1677'
+ht-degree: 24%
 
 ---
 
@@ -18,6 +18,42 @@ ht-degree: 30%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 25.4.5 （2025年4月25日）
+
+此版本包含下列修正和更新：
+
+* 修正[!UICONTROL Activity]設定頁面與[!UICONTROL Reporting]概觀頁面之間對象清單不一致的問題。 (TGT-52203)
+* 修正由於無效的使用者輸入錯誤而無法新增頁面至活動的問題。 (TGT-52263)
+* 修正當選項保持不變時，`OptionLocalIDs`錯誤地遞增的問題。 (TGT-52187)
+* 修正當選項保持不變時，`location`和`OptionLocalIDs`不正確地增加的問題。 (TGT-52188)
+* 修正造成活動[!UICONTROL Overview]頁面上的位置不正確的問題。 (TGT-52182)
+* 修正無效位置未顯示無效選擇器警告的問題。 (TGT-52110)
+* 已修正問題，讓下載的報表檔案可正確顯示報表UI中存在的資料。 (TGT-52068)
+* 修正問題，讓批次作業在新增頁面傳送規則後不會失敗。 (TGT-52097)
+* 修正導致[!DNL Target]從網站URL中修剪所有查詢引數的問題。 (TGT-52100)
+* 解決導致客戶無法在舊版和更新的[!DNL Target] UI中建立活動的主控台錯誤。 (TGT-52181)
+* 已修正導致客戶無法新增頁面，進而造成無效使用者輸入錯誤的問題。 (TGT-52258)
+* 已修正導致修改在新增其他頁面然後導覽回[!UICONTROL Experiences]索引標籤後消失的問題。 (TGT-52264)
+* 修正阻止客戶變更[!UICONTROL Experience Targeting] (XT)活動中對象的問題。 (TGT-52191)
+* 修正因不支援的UI規則而無法編輯XT活動的錯誤。 (TGT-52273)
+* 已修正更新[!UICONTROL Visual Experience Composer] (VEC)中，在編輯器底部不一定會顯示階層連結，而造成精確選取元素困難的問題。 (TGT-52169)
+* 修正[!UICONTROL Audience]下拉式清單因分頁而無法顯示所有對象的問題。 (TGT-52204)
+* 修正在[!UICONTROL Automated Personalization] (AP)活動中新增優惠方案時，造成使用者輸入訊息無效的問題。 (TGT-52210)
+* 修正即使客戶沒有A4T的存取權，[!UICONTROL Analytics for Target] (A4T)仍錯誤地選取為報告來源的問題。 (TGT-52226)
+* 修正無法儲存具有[!UICONTROL View a Page] URL量度的活動的問題。 (TGT-52260)
+* 修正在活動中建立優惠方案時，客戶無法選取工作區的問題。 (TGT-52289)
+* 修正阻止客戶在所有工作區中建立活動的問題。 (Tgt-52218)
+* 修正切換至另一個體驗時，來自一個體驗的修改未正確顯示的問題。 (TGT-52184)
+* 修正開啟活動時，[!DNL Target] UI中錯誤顯示預設選件的問題。 (TGT-52198)
+
+## Target許可權更新（2025年4月22日）
+
+此未來更新加強了組織對[!DNL Target]執行個體設定的控制，防止了可能影響跨各種測試和個人化團隊的活動傳送的意外更新。
+
+自2025年4月22日起，只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能更新[!UICONTROL Administration]區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
+
+如需詳細資訊，請參閱[管理Target](/help/main/administrating-target/start-target.md)。
 
 ## [!DNL Target Standard/Premium] 25.4.4 （2025年4月17日）
 
