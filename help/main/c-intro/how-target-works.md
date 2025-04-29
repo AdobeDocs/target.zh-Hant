@@ -4,10 +4,10 @@ description: 瞭解 [!DNL Adobe Target] 的運作方式，包括有關JavaScript
 title: ' [!DNL Target] 如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -39,8 +39,8 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
-* [[!DNL Adobe Experience Platform Web SDK] 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* 使用 [ [!DNL Target]  實作  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* 使用[ [!DNL Target] 實作 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次訪客請求針對[!DNL Target]最佳化的頁面時，就會傳送即時請求給目標定位系統，以決定要提供的內容。 每次頁面載入時，都會提出並完成此要求，受行銷人員控制的活動和體驗管理。 內容將目標鎖定在個別網站訪客，最大化回應率、贏取率和收入。 個人化內容可協助確保訪客回應、互動或進行購買。
 
@@ -97,33 +97,36 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 如需詳細資訊，請參閱 [推薦](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
 
-## [!DNL Target]如何計算伺服器呼叫使用量 {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target]只會計算為客戶提供值的伺服器呼叫。 下表顯示[!DNL Target]如何計算端點、單一mbox、批次mbox呼叫、執行、預先擷取和通知呼叫。
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-下列資訊可協助您瞭解用於[!DNL Target]伺服器呼叫的計數策略，如下表所示：
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **計數一次**：每個API呼叫計數一次。
-* **計算mbox的數量**：計算單一API呼叫裝載中陣列底下的mbox數量。
-* **忽略**：完全不計算。
-* **計算檢視次數（一次）**：計算承載中陣列下的檢視次數。 在典型的實施中，檢視通知在通知陣列下只有一個檢視，因此這相當於在大多數實施中計數一次。
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| 端點 | 擷取型別 | 選項 | 計數策略 |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | 單個 | [!UICONTROL execute] | 計數一次 |
-| `rest/v2/batchmbox` | 批次 | [!UICONTROL execute] | 計算mbox數量 |
-|  | 批次 | [!UICONTROL prefetch] | 忽略 |
-|  | 批次 | [!UICONTROL notifications] | 計算mbox數量 |
-| `/ubox/[raw\|image\|page]` | 單個 | [!UICONTROL execute] | 計數一次 |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | 單個 | [!UICONTROL execute] > [!UICONTROL pageLoad] | 計數一次 |
-|  | 單個 | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | 忽略 |
-|  | 單個 | [!UICONTROL prefetch] > [!UICONTROL views] | 忽略 |
-|  | 批次 | [!UICONTROL execute] > [!UICONTROL mboxes] | 計算mbox數量 |
-|  | 批次 | [!UICONTROL prefetch] > [!UICONTROL mboxes] | 忽略 |
-|  | 批次 | [!UICONTROL notifications] > [!UICONTROL views] | 計算檢視次數（一次） |
-|  | 批次 | [!UICONTROL notifications] > [!UICONTROL pageLoad] | 計數一次 |
-|  | 批次 | [!UICONTROL notifications] >型別([!UICONTROL conversions]) | 計數一次 |
-|  | 批次 | [!UICONTROL notifications] > [!UICONTROL mboxes] | 計算mbox數量 |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## 邊緣網路 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -169,7 +172,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 >
 >[!DNL Target]目前在中國缺少Edge叢集，因此限制了該區域[!DNL Target]客戶的訪客效能。 防火牆和缺少Edge叢集可能會影響網站體驗，導致轉譯和頁面載入速度緩慢。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣叢集。 如需更多資訊，請參閱[允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
