@@ -132,7 +132,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 品牌如何能夠藉由微調其 AI 支援的演算法達成更快的速度和決策
    * 獨特的使用案例以實現一對一個人化
 
-+++
+  +++
 
 ### [!DNL Adobe Target] Skill Builders – AI 驅動的個人化與推薦 (2022 年 9 月 15 日) {#AI}
 
@@ -156,11 +156,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 用於跨客戶體驗進行測試和定位的生命週期量度
    * 行動 SDK = 用於靈活實現的 API (iOS 和 Android 平台)
 
-+++
+  +++
 
 ### 廚師的收藏：個人化配方 (2022 年 8 月 30 日)
 
-加入 [!DNL Adobe Target] [!DNL]團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
+加入 [!DNL Adobe Target] 團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
 
 * [錄影連結](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -172,7 +172,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 實現最佳化來獲得競爭優勢
    * 打造超個人化體驗
 
-+++
+  +++
 
 ### 即時積極促進忠誠度 (2022 年 8 月 25 日)
 
@@ -201,7 +201,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   加入 Michael Klein (產業策略零售總監) 和 Leina Betzer (Adobe Premier Support 的 Target 顧問)，一起討論隨著消費者購買方式和行為的變化，遇有部份市場的商品和服務需求也提高，零售電子商務的銷售如何飆升。
 
-+++
+  +++
 
 ### [!DNL Adobe]：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target] (2022 年 6 月 2 日)
 
@@ -235,7 +235,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 透過網絡和手機進行具規模的個人化和實驗活動來擴展商業影響
    * 零售業需知和技巧：使用分析資料將普通訪客轉化為再度回訪的運動客
 
-+++
+  +++
 
 ### [!DNL Adobe]：個人化的業界內幕 - 金融服務業和保險業 (2022 年 5 月 24 日)
 
@@ -247,7 +247,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   加入 Christopher Young (產業策略金融服務總監) 和 James Capasso (Adobe Premier Support 的 Target 顧問)，了解品牌如何回應需求的即時變化，同時與客戶互動時以個人化為中心。 了解金融服務公司如何使用個人化支援並知會客戶，讓全球關心最近通貨膨脹模式及其投資情況的客戶了解狀況。
 
-+++
+  +++
 
 ### City National Bank：如何在數位最佳化中成為排名 1% 的銀行 (2022 年 5 月 26 日)
 
@@ -266,7 +266,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 透過更多參與和採用個人化產品建議來加速業務增長
    * 實現價值時間和 ROI 的最佳化多頻道行銷活動
 
-+++
+  +++
 
 ### 網路研討會影片：利用 [!DNL Adobe Target] 的裝置上決策在零延遲的情況下進行個人化和測試
 
@@ -278,7 +278,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   在此網路研討會影片中，Adobe Target 產品專家會討論將關鍵體驗最佳化決策移到裝置上，以便在零延遲的情況下於本機執行最佳化，可以促成令人興奮的新使用案例，同時為客戶改善網站績效。
 
-+++
+  +++
 
 ### 網路研討會：HSBC 如何運用 Adobe [!DNL Target] 和 AI 快速最佳化及實現大規模個人化
 
@@ -298,7 +298,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
    * McKinsey 文章：「[COVID-19 復甦將以數位化的方式呈現](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」，2020 年 5 月
 
-+++
+  +++
 
 ### [!DNL Adobe Target] 技能培養：開發人員聊天、將 [!DNL Adobe Target] 的 mbox.js 遷移到 at.js {#skill-builder}
 

@@ -20,7 +20,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->其他資訊包含在建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主題的[內容區段中，包括說明將[!UICONTROL Partial Design Rendering]和[!UICONTROL Show Backup Recommendations]選項搭配使用或分開使用時將觀察到的結果的矩陣。
+>其他資訊包含在建立條件[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主題的內容區段中，包括說明將[!UICONTROL Partial Design Rendering]和[!UICONTROL Show Backup Recommendations]選項搭配使用或分開使用時將觀察到的結果的矩陣。
 
 備份建議功能一律會使用網站上檢視次數最多的專案，填滿使用演演算法資料後剩餘的所有位置。 例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
 

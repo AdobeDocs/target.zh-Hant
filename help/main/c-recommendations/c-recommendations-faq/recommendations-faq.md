@@ -252,7 +252,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
 
 ## 如何只推薦新文章或影片？ {#recommend-new-articles}
 

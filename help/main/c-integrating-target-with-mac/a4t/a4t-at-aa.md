@@ -113,7 +113,7 @@ A4T整合可讓您：
 ### 自動分配 {#aa}
 
 * **訓練頻率**： [!UICONTROL Auto-Allocate]模型繼續像往常一樣每小時訓練一次。
-* **歸因模型**： [!DNL Target]針對使用A4T的[!UICONTROL  Auto-Allocate]個活動使用[!DNL Adobe Analytics]預設歸因模型。
+* **歸因模型**： [!DNL Target]針對使用A4T的[!UICONTROL &#x200B; Auto-Allocate]個活動使用[!DNL Adobe Analytics]預設歸因模型。
 * **信賴度**： [!UICONTROL Auto-Allocate]活動使用的信賴度公式與[!DNL Adobe Analytics] [!UICONTROL A4T]面板中預設顯示的公式不同。 [如這裡所述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)，[!UICONTROL Auto-Allocate]使用比一般[!UICONTROL A/B Test]活動更保守的信賴區間。 這些保守的信賴等級可補償重複評估（窺視）資料。 因此，[!DNL Adobe Analytics]中的預設報表顯示的信賴區間會比[!UICONTROL Auto-Allocate]演演算法所使用的區間窄。 不過，您可以根據傳送給哪個體驗的獨特訪客多於哪個體驗，來決定演演算法偏好的體驗。
 * **獲勝者狀態**：目前[!DNL Analysis Workspace]中的[!UICONTROL A4T]面板無法使用[「尚未有獲勝者」和「獲勝者」徽章](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)。 如果在[!DNL Target]中檢視相同的報表，則也無法使用這些徽章。 使用A4T的[!UICONTROL Auto-Allocate]活動在[!DNL Target]報告中顯示的獲勝者「星星」徽章應予以忽略。 此徽章反映的是常規可信度計算，而不是[!UICONTROL Auto-Allocate]使用的計算。
 

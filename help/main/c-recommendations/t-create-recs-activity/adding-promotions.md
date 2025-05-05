@@ -26,7 +26,7 @@ ht-degree: 40%
 
 您可以促銷特定項目、動態地促銷項目、根據屬性促銷項目或促銷集合。
 
-[!DNL Target] UI](assets/add_promotion_toggles.png)中的![[!UICONTROL Front Promotion]和[!UICONTROL Back Promotion]選項
+[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)中的[!UICONTROL Front Promotion]和[!UICONTROL Back Promotion]選項
 
 >[!NOTE]
 >

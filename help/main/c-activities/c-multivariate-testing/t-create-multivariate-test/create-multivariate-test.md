@@ -39,7 +39,7 @@ ht-degree: 26%
 
    [!UICONTROL Visual Experience Composer]隨即開啟。
 
-1. 
+1. &#x200B;
    1. 按一下&#x200B;**[!UICONTROL Rename]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/MoreSmallListVert.svg)）、按一下&#x200B;**[!UICONTROL Rename]**、指定活動的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：

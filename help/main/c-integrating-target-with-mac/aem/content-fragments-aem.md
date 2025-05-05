@@ -45,7 +45,7 @@ ht-degree: 21%
 
 ## 設定和使用[!DNL AEM]中的[!UICONTROL Content Fragments] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-若要匯出[!UICONTROL Content Fragments]以用於[!DNL Target]活動，您必須在AEM中執行一些初步步驟。 如需詳細資訊，請參閱 [Experience Manager as a Cloud Service 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html)中的{target=_blank}匯出內容片段至 Adobe Target **。
+若要匯出[!UICONTROL Content Fragments]以用於[!DNL Target]活動，您必須在AEM中執行一些初步步驟。 如需詳細資訊，請參閱 [Experience Manager as a Cloud Service 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}中的匯出內容片段至 Adobe Target **。
 
 如需有關設計、建立、組織和發佈[!UICONTROL Content Fragments]的資訊，請參閱[Experience Manageras a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}中的[[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant){target=_blank}和[使用內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}。
 

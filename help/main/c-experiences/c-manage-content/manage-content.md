@@ -39,7 +39,7 @@ ht-degree: 8%
 
 ## 套用篩選器至選件程式庫 {#filters}
 
-按一下「**[!UICONTROL Show filters]**」圖示（「選件」頁面](/help/main/assets/icons/Filter.svg)上的「![顯示篩選器」圖示）以依[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]篩選選件。
+按一下「**[!UICONTROL Show filters]**」圖示（「選件」頁面![&#128279;](/help/main/assets/icons/Filter.svg)上的「顯示篩選器」圖示）以依[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]篩選選件。
 
 **[!UICONTROL Show filters]**&#x200B;圖示可讓您依下列類別篩選優惠方案：
 

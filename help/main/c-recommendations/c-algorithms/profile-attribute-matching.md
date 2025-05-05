@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
 
 下列案例顯示如何使用[!UICONTROL Profile Attribute Matching]：
 

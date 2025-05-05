@@ -57,7 +57,7 @@ ht-degree: 0%
 
 已檢視/已購買演演算法的![公式](assets/formula.png)
 
-那麼專案B不應與專案A一起建議。此PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料[。
+那麼專案B不應與專案A一起建議。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料。
 
 實際演演算法實施的邏輯流程如下圖所示：
 

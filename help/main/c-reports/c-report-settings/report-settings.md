@@ -231,8 +231,8 @@ ht-degree: 48%
 圖表的預設繪製順序如下:
 
 * **[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Automated Personalization]）**：體驗建立的順序（以降序排列）。
-* **[!UICONTROL Experience Targeting](XT)**：活動中的體驗順序。
-* **[!UICONTROL Multivariate Test](MVT)**：依體驗名稱的字母順序。
+* **[!UICONTROL Experience Targeting] (XT)**：活動中的體驗順序。
+* **[!UICONTROL Multivariate Test] (MVT)**：依體驗名稱的字母順序。
 * **[!UICONTROL Recommendations]**：體驗建立的順序（以降序排列）。
 
 使用[!UICONTROL Counting Methodology]選項時，請考量下列警告：

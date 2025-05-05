@@ -121,7 +121,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >不一定要使用[!DNL Google]資料。 [!DNL Recommendations]使用與[!DNL Google]相同的格式。 您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，當您設定檔案時，必須保留[!DNL Google]預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至[!DNL Google]，所以當訪客使用[!DNL Google]產品搜尋時，會顯示其產品。 [!DNL Recommendations]完全遵循實體摘要的[!DNL Google]規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定義的[屬性。 可以在[[!DNL Google] 購物頁面](https://www.google.com/prdhp)上搜尋結果。
+大部分零售商會將產品上傳至[!DNL Google]，所以當訪客使用[!DNL Google]產品搜尋時，會顯示其產品。 [!DNL Recommendations]完全遵循實體摘要的[!DNL Google]規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定義的屬性。 可以在[[!DNL Google] 購物頁面](https://www.google.com/prdhp)上搜尋結果。
 
 >[!NOTE]
 >
