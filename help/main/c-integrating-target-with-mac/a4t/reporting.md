@@ -48,7 +48,7 @@ ht-degree: 39%
 * [!UICONTROL Activity Impressions] — 符合[!DNL Target]報告中的[!UICONTROL Entrants]數字。
 * [!UICONTROL Activity Conversions] — 符合[!DNL Target]報告中的[!UICONTROL Custom Conversions]數字。
 
-在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html??lang=zh-Hant)。
+在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant&?lang=zh-Hant)。
 
 >[!IMPORTANT]
 >
@@ -89,7 +89,7 @@ ht-degree: 39%
 1. 按一下&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**。
 1. 在&#x200B;**[!UICONTROL Data Warehouse Request]**&#x200B;標籤上，填寫欄位。
 
-   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
+   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hant)中的「資料倉儲說明」。
 
    | 欄位 | 指示 |
    |--- |--- |
@@ -109,5 +109,5 @@ ht-degree: 39%
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立Data Warehouse要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouse最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [建立Data Warehouse要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hant)
+* [Data Warehouse最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hant)

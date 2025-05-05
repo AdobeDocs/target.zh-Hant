@@ -16,7 +16,7 @@ ht-degree: 0%
 
 開始使用[!DNL Adobe Target]之前，您必須在網站上實作它。
 
-[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
+[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
 
 開發人員入口網站包含下列實施型別的相關資訊：
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 * 報告API。
 * 建議API。
 
-如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}中的[Target API總覽](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank}。
+如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Target API總覽](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=zh-Hant){target=_blank}。

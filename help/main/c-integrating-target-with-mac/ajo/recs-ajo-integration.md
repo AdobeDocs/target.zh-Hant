@@ -3,8 +3,8 @@ keywords: ajo；adobe journey optimizer；adobe journey optimizer target整合�
 description: 將 [!DNL Adobe Target Recommendations] 與 [!DNL Adobe Journey Optimizer]整合。
 title: 如何在使用 [!DNL Adobe Journey Optimizer]的客戶歷程中使用 [!DNL Target Recommendations] ？
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
@@ -25,11 +25,11 @@ ht-degree: 1%
 
 若要使用[!DNL Target Recommendations]與[!DNL Adobe Journey Optimizer]整合，您需要下列專案：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}實作的[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}實作的[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)。
 
   [!DNL Target Standard]授權或使用at.js或其他[!DNL Target] SDK實作[!DNL Target]時，無法使用此功能。
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target=_blank}。
 
 ## 範例使用案例
 

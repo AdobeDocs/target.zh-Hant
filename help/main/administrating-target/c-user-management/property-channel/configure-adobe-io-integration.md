@@ -2,7 +2,7 @@
 keywords: 整合;角色;使用者權限;admin console
 description: 瞭解如何在Adobe Target中授予現有Adobe I/O整合功能可使用所需角色存取所有工作區的許可權。
 title: 如何授予Adobe I/O對工作區的存取權並指派角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112

@@ -96,7 +96,7 @@ ht-degree: 96%
 
 ## 全域 mbox
 
-* [全域 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [全域 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hant)
 
 ## 主機/環境
 
@@ -108,23 +108,23 @@ ht-degree: 96%
 
 ### 一般實施
 
-* [受支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [使用雲端型例項搭配 Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [受支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant)
+* [使用雲端型例項搭配 Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=zh-Hant)
 
 ### 全域 mbox
 
-* [全域 mbox 常見問答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [全域 mbox 常見問答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hant)
 
 ### at.js
 
-* [at.js 常見問答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [使用 Adobe Experience Cloud Debugger 除錯 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [at.js 常見問答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=zh-Hant)
+* [使用 Adobe Experience Cloud Debugger 除錯 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=zh-Hant)
+* [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。
 
 ## 行動應用程式
 
-* [適用於行動應用程式的 Target 常見問題](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [適用於行動應用程式的 Target 常見問題](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=zh-Hant)
 
 ## 報表
 
@@ -133,11 +133,11 @@ ht-degree: 96%
 
 ## 搜尋引擎最佳化 (SEO)
 
-* [搜尋引擎最佳化 (SEO) 友善測試](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [搜尋引擎最佳化 (SEO) 友善測試](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant)
 
 ## 安全性
 
-* [內容安全性原則 (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [內容安全性原則 (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=zh-Hant)
 
 ## 系統狀態
 

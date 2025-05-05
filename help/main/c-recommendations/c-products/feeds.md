@@ -2,7 +2,7 @@
 keywords: 建議摘要；摘要；SAINT；ftp；csv；分類；analytics分類
 description: 瞭解摘要如何使用CSV檔案、 [!DNL Google Product Search] 摘要格式和 [!DNL Analytics] 產品分類將實體匯入至 [!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL Feeds]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >

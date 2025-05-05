@@ -44,7 +44,7 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 
 | 主題/播放時間/錄影日期 | 學習目標 |
 |--- |--- |
-| [at.js 提示和總覽](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日 | 您將能學習到：<ul><li>使用 at.js 的好處</li><li>at.js 設定</li><li>Flicker 處理</li><li>偵錯 at.js</li><li>已知問題</li><li>常見問答</li></ul>如需詳細資訊，請參閱[at.js的運作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| [at.js 提示和總覽](https://helpx.adobe.com/tw/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日 | 您將能學習到：<ul><li>使用 at.js 的好處</li><li>at.js 設定</li><li>Flicker 處理</li><li>偵錯 at.js</li><li>已知問題</li><li>常見問答</li></ul>如需詳細資訊，請參閱[at.js的運作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank}。 |
 | [Target Premium Workspaces](https://helpx.adobe.com/tw/customer-care-office-hours/target/premium-workspaces.html) <br>27:49<br> 2018 年 9 月 4 日) | 您將能學習到：<ul><li>建立工作區 (產品設定檔)</li><li>選擇屬性。</li><li>新增使用者</li><li>更新實施</li></ul>如需詳細資訊，請參閱[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/tw/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 您將能學習到:<ul><li>VEC 運作原理</li><li>如何避免 VEC 的常見問題</li><li>透過一系列練習，日後可應用於 VEC</li></ul>如需本指南的詳細資訊，請參閱[體驗](/help/main/c-experiences/experiences.md)。 |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/tw/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br> 2018 年 1 月 | 您將能學習到:<ul><li>如何設定並驗證整合項目成功運作 </li><li>整合項目的運作原理</li><li>瞭解適合用於 Analytics 的報表</li><li>回答有關 A4T 的常見問題</li></ul>如需本指南的詳細資訊，請參閱[Adobe Analytics as a Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報表Source。 |
@@ -101,7 +101,7 @@ Target 基礎網路研討會系列先前工作階段的註冊資訊和連結，�
 Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其聯絡的許多種途徑:
 
 * [請參閱 Experience Cloud 說明頁面，以取得建議、提示及常見問答](https://helpx.adobe.com/tw/marketing-cloud.html)
-* [開啟票證以取得支援的協助](https://experienceleague.adobe.com/?support-solution=Target#support)
+* [開啟票證以取得支援的協助](https://experienceleague.adobe.com/zh-hant?support-solution=Target#support)
 * [直接聯絡客戶服務團隊](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解決方案的可用性和狀態](https://status.adobe.com/)
 

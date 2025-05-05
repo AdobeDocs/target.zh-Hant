@@ -31,7 +31,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->下列需求列出實作A4T所需的&#x200B;*最少*&#x200B;個at.js版本。 [!DNL Target]團隊只會維護兩個版本的[!DNL at.js]：最新版本和次新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每個版本中功能的詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+>下列需求列出實作A4T所需的&#x200B;*最少*&#x200B;個at.js版本。 [!DNL Target]團隊只會維護兩個版本的[!DNL at.js]：最新版本和次新版本。 請視需要升級 [!DNL at.js]，以確保您執行的是支援的版本。如需每個版本中功能的詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。
 
 ### *不*&#x200B;搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -41,7 +41,7 @@ ht-degree: 23%
 * [!DNL Adobe Target]： at.js 0.9.1版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
-如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}。
+如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}。
 
 ### 搭配 A4T 使用重新導向選件之情況下的需求
 
@@ -59,7 +59,7 @@ ht-degree: 23%
 
 [Analytics for Target實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)中列出下載和部署指示。
 
-如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}。
+如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}。
 
 ## 實施前須知 {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -83,7 +83,7 @@ ht-degree: 23%
 
 A4T活動用來傳遞內容或記錄目標量度的所有[!DNL Target]呼叫都必須有對應的[!DNL Analytics]點選，這些點選共用A4T的補充ID才能正常運作。
 
-包含來自[!DNL Analytics]與[!DNL Target]之資料的點選包含補充資料ID。 您可以在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)中看到此ID為`sdid`引數。 例如: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`。只要符合下列條件即會產生此 ID:
+包含來自[!DNL Analytics]與[!DNL Target]之資料的點選包含補充資料ID。 您可以在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)中看到此ID為`sdid`引數。 例如: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`。只要符合下列條件即會產生此 ID:
 
 * 已實作訪客 ID 服務
 

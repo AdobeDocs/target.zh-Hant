@@ -2,7 +2,7 @@
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器
 description: 瞭解如何使用Recommendations目錄搜尋來找出產品或內容、建立集合或排除專案、從目錄中移除專案等。
 title: 如何使用Recommendations目錄搜尋？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

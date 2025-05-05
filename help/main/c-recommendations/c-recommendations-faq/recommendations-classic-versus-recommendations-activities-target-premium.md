@@ -2,7 +2,7 @@
 keywords: Recommendations;recommendations 演算法;recommendations 活動;recommendations classic
 description: 檢閱資訊，以協助您了解舊 Recommendations Classic 與 Recommendations activities in [!DNL Target] Premium 之間的差異。
 title: Recommendations Classic 與 Recommendations in [!DNL Target] Premium 之間有何差異？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

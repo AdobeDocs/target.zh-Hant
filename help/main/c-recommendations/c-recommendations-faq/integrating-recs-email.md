@@ -2,7 +2,7 @@
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
 description: 了解如何將電子郵件與 Adobe [!DNL Target Recommendations], including using the [!DNL Target] 傳送 API、rawbox 範本及僅供下載的範本整合。
 title: 如何將 Recommendations 與電子郵件整合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >各電子郵件收件者 (例如，針對每個 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供唯一值。 如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一設定檔中產生的許多事件而變得緩慢或失敗。
 
-如需詳細資訊，請參閱[傳送API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}。
+如需詳細資訊，請參閱[傳送API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=zh-Hant){target=_blank}。
 
 ## 方法 2：使用 rawbox 電子郵件範本 {#rawbox}
 

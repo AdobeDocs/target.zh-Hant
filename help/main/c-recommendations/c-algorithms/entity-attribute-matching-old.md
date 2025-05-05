@@ -2,7 +2,7 @@
 keywords: 包含規則；包含條件；建議；促銷活動；動態篩選；動態；實體屬性比對
 description: 瞭解如何在Adobe [!DNL Target] Recommendations中動態篩選，方法是比較一組潛在專案與使用者已互動的特定專案。
 title: 如何在Recommendations活動中依實體屬性比對來篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

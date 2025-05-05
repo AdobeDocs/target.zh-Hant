@@ -37,7 +37,7 @@ ht-degree: 28%
 
    ![排除專案清單影像](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」，為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以變更預設主機群組。
+   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」，為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以變更預設主機群組。
 
 1. 按一下 **[!UICONTROL Create Exclusion]**。
 

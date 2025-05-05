@@ -2,7 +2,7 @@
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
 description: 檢視有關 [!DNL Target Recommendations] 活動的常見問答清單。
 title: 哪裡可以找到有關 [!DNL Recommendations]的問答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
@@ -103,7 +103,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target]具有[篩選不相容的條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定，可控制演演算法選擇器的智慧型篩選。
+[!DNL Target]具有[篩選不相容的條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}設定，可控制演演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >

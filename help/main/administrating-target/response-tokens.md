@@ -28,8 +28,8 @@ ht-degree: 22%
 
 | 鎖定SDK | 建議的動作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版at.js的資訊，請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。 如需每個at.js版本中新功能的相關資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js （現已棄用）中有部分外掛程式所依賴的內部方法，但at.js中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant){target=_blank}。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant)。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版at.js的資訊，請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hant){target=_blank}。 如需每個at.js版本中新功能的相關資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js （現已棄用）中有部分外掛程式所依賴的內部方法，但at.js中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。 |
 
 ## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ ht-degree: 22%
 
    如需詳細資訊：
 
-   * **Platform Web SDK**：請參閱&#x200B;*Platform Web SDK總覽*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。
-   * **at.js**：請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
+   * **Platform Web SDK**：請參閱&#x200B;*Platform Web SDK總覽*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)。
+   * **at.js**：請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hant){target=_blank}。
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
 
@@ -147,7 +147,7 @@ ht-degree: 22%
 
 ### 使用自訂事件的![at.js badge](/help/main/assets/atjs.png) at.js
 
-使用[at.js自訂事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank}接聽[!DNL Target]回應並讀取回應Token。
+使用[at.js自訂事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=zh-Hant){target=_blank}接聽[!DNL Target]回應並讀取回應Token。
 
 下列程式碼範例直接將 [!DNL at.js] 自訂事件處理常式新增至 HTML 頁面:
 

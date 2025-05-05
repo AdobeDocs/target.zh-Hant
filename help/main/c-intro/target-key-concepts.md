@@ -99,7 +99,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概覽，以�
 |--- |--- |
 | 可重複使用的對象 | 可重複使用的客群可供任何活動選取。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
 | 自訂群體 | 自訂區段 (也稱為行銷活動專用區段) 專供 Target Classic 中的行銷活動使用。它們是某個促銷活動的一部分，不可在其他促銷活動中重複使用。 |
-| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用客群。參閲[客群](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)以取得範例。 |
+| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用客群。參閲[客群](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)以取得範例。 |
 
 如需瞭解訪客設定檔如何追蹤網站訪客的相關資訊，請參閱[訪客設定檔](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 

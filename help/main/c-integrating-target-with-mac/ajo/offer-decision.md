@@ -19,7 +19,7 @@ ht-degree: 0%
 
 如需[!DNL Adobe Journey Optimizer]和優惠決定的詳細資訊，請參閱&#x200B;*[!DNL Journey Optimizer]*&#x200B;檔案中的下列主題：
 
-* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hant)
 
 * [關於決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 若要在[!DNL Target]中使用報價決策，您需要下列專案：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}實作的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}實作的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
 
   使用at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;對話方塊中，選取所需的沙箱和位置。
 
-   [!DNL Adobe Experience Platform]中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 在[!DNL Adobe Journey Optimizer]中的[位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}可協助確保正確的選件內容顯示在正確的位置。
+   [!DNL Adobe Experience Platform]中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hant){target=_blank}可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 在[!DNL Adobe Journey Optimizer]中的[位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hant){target=_blank}可協助確保正確的選件內容顯示在正確的位置。
 
    ![新增優惠決定對話方塊中的「沙箱」和「位置」下拉式清單](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 處理優惠決定時，請考量下列資訊：
 
-* offer decisioning整合適用於以[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}為基礎的[!DNL Target]實作。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
+* offer decisioning整合適用於以[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}為基礎的[!DNL Target]實作。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer]整合僅支援[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動型別。
 

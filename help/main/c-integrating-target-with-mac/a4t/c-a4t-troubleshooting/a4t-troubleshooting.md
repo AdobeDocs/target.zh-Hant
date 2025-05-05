@@ -92,7 +92,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用Analytics�
 
 檢查補充 ID 的最簡單方法就是使用 Adobe Experience Platform Debugger。
 
-如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=zh-Hant)。
 
 ![Debugger](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

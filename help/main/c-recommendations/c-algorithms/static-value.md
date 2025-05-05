@@ -2,7 +2,7 @@
 keywords: 包含規則；包含條件；建議；促銷活動；促銷活動；動態篩選；靜態；靜態篩選
 description: 瞭解如何在Adobe [!DNL Target] Recommendations中手動輸入一或多個靜態值，以使用包含規則進行篩選。
 title: 如何在Recommendations活動中依靜態值篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

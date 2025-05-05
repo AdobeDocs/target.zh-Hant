@@ -2,7 +2,7 @@
 keywords: 包含規則；包含條件；建議；促銷活動；動態篩選；動態；設定檔屬性比對
 description: 瞭解如何比較專案（實體）與使用者設定檔中的值，以在Adobe [!DNL Target] Recommendations中動態篩選。
 title: 如何在Recommendations活動中依設定檔屬性比對來篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

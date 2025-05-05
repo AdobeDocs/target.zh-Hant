@@ -2,7 +2,7 @@
 keywords: 建立自動鎖定目標； A/B測試；自動鎖定目標活動；新a/b活動；自動鎖定目標；針對個人化體驗自動鎖定目標；個人化；最佳化
 description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)來建立[!UICONTROL Auto-Target] A/B測試活動。
 title: 如何建立[!UICONTROL Auto-Target]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71

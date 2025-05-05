@@ -139,7 +139,7 @@ ht-degree: 24%
 
 ## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-使用瀏覽模式時，如果您存取的URL未實作[!DNL Target]資料庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含frame-buster標頭，VEC會顯示為已損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
+使用瀏覽模式時，如果您存取的URL未實作[!DNL Target]資料庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hant){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank})或包含frame-buster標頭，VEC會顯示為已損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
 
 發生此問題的原因是VEC在`<iframe>`中載入網頁。 由於相同來源原則，瀏覽器的目前安全性機制導致[!DNL Target] UI無法存取指定框架的專案。 瀏覽器會封鎖嘗試存取具有不同來源且包含`location.href`等資訊之框架的Script。
 

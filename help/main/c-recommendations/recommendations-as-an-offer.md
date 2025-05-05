@@ -2,7 +2,7 @@
 keywords: 推薦;產品建議
 description: 了解如何使用 Adobe 推薦作為 A/B 測試 (包括自動分配和自動鎖定目標) 以及體驗鎖定 (XT) 活動的產品建議。
 title: 如何使用推薦作為其他活動類型的產品建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12

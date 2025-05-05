@@ -21,11 +21,11 @@ ht-degree: 72%
 
 例如，您可以將銷售點系統的購買資料與訪客資料建立關聯。若要這麼做，只需建立包含最多 200 個離線變數的 CSV 檔案，然後透過檔案上傳直接上傳至 [!DNL Adobe Experience Cloud]，或使用 FTP 代管並排程您的檔案，以定期更新。 一旦您的客戶屬性位於 [!DNL Adobe Experience Cloud]中，您就可以將它們對應至 [!DNL Experience Cloud] 解決方案，例如 [!DNL Adobe Analytics] 和 [!DNL Target]，以便用於分析、測試和個人化。
 
-如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html??lang=zh-Hant)。
+如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant&?lang=zh-Hant)。
 
 **很高興知道**：由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增 CRM 或購買的資料。這表示您可以選擇最適合您組織的方法。
 
-如需詳細資訊，請參閱[將資料匯入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法。
+如需詳細資訊，請參閱[將資料匯入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法。
 
 ## 提示 2：將 [!DNL Target] 客群與其他 Adobe Experience Cloud 客群混合，以實現更深度的個人化。
 

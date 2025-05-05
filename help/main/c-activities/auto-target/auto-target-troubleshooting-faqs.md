@@ -2,7 +2,7 @@
 keywords: 自動鎖定目標;鎖定目標;流量分配;常見問答;faq;疑難排解;疑難排解;流量
 description: 探索有關[!UICONTROL Auto-Target]活動的疑難排解主題和常見問題。
 title: 如何疑難排解[!UICONTROL Auto-Target]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e

@@ -2,7 +2,7 @@
 keywords: 條件序列；多個條件；演演算法；條件；建議條件；序列；限制傳回的專案數；位置層級控制；位置
 description: 瞭解如何設定最多五個條件的順序，以更能控制Adobe [!DNL Target] Recommendations活動中出現的專案。
 title: 如何在Recommendations中建立條件序列？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

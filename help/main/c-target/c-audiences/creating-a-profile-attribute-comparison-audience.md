@@ -30,7 +30,7 @@ ht-degree: 49%
 
 您可以建立一個對象，定義成購買餐廳家具的傾向大於購買客廳家具的傾向。[!DNL Target]接著會動態比較特定訪客的餐廳和起居室的傾向分數，以判斷該訪客是否符合此對象的資格。
 
-如需詳細資訊，請參閱[將資料傳入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
+如需詳細資訊，請參閱[將資料傳入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
 
 ## 建立設定檔屬性比較客群 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

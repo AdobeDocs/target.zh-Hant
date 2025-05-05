@@ -19,7 +19,7 @@ ht-degree: 14%
 >
 >如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Tracking Server]欄位保留空白。
 >
->[!DNL Target]團隊同時支援at.js 1。*x* 和 at.js 2 中的 Hide Body 和 Show Body 呼叫。*x* 使用供跨網域追蹤功能時。 升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+>[!DNL Target]團隊同時支援at.js 1。*x* 和 at.js 2 中的 Hide Body 和 Show Body 呼叫。*x* 使用供跨網域追蹤功能時。 升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。
 
 為確保來自[!DNL Target]的資料進入[!DNL Analytics]中的正確位置，A4T要求在所有從[!DNL Target]呼叫Modstats時傳送[!DNL Analytics]追蹤伺服器。 針對使用多個追蹤伺服器的實作，請使用[!DNL Adobe Experience Platform Debugger]或瀏覽器的開發人員工具來決定活動的正確追蹤伺服器。
 
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 1. 從您正在建立活動的頁面，開啟[!DNL Adobe Experience Platform Debugger]。
 
-   如果您尚未安裝偵錯工具，請參閱[Adobe Experience Platform Debugger概述](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)。
+   如果您尚未安裝偵錯工具，請參閱[Adobe Experience Platform Debugger概述](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=zh-Hant)。
 
 1. 按一下左側導覽功能表中的&#x200B;**[!UICONTROL Analytics]**。
 

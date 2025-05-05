@@ -2,7 +2,7 @@
 keywords: 工作區；管理屬性；許可權；產品設定；產品設定檔；角色；專案；觀察者；編輯器；核准者；發佈者
 description: 瞭解如何創建單獨的工作區（產品配置檔），然後為各個頁面、屬性或網站為使用者分配不同的角色和許可權。
 title: 什麼是企業用戶權力，如何使用這些許可權？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
