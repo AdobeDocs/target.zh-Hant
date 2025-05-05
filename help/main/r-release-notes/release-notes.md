@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 24%
+source-wordcount: '557'
+ht-degree: 52%
 
 ---
 
@@ -19,114 +19,30 @@ ht-degree: 24%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 25.4.5 （2025年4月25日）
+## [!DNL Target Standard/Premium] 25.5.1 （2025年5月5日）
 
 此版本包含下列修正和更新：
 
-* 修正[!UICONTROL Activity]設定頁面與[!UICONTROL Reporting]概觀頁面之間對象清單不一致的問題。 (TGT-52203)
-* 修正由於無效的使用者輸入錯誤而無法新增頁面至活動的問題。 (TGT-52263)
-* 修正當選項保持不變時，`OptionLocalIDs`錯誤地遞增的問題。 (TGT-52187)
-* 修正當選項保持不變時，`location`和`OptionLocalIDs`不正確地增加的問題。 (TGT-52188)
-* 修正造成活動[!UICONTROL Overview]頁面上的位置不正確的問題。 (TGT-52182)
-* 修正無效位置未顯示無效選擇器警告的問題。 (TGT-52110)
-* 已修正問題，讓下載的報表檔案可正確顯示報表UI中存在的資料。 (TGT-52068)
-* 修正問題，讓批次作業在新增頁面傳送規則後不會失敗。 (TGT-52097)
-* 修正導致[!DNL Target]從網站URL中修剪所有查詢引數的問題。 (TGT-52100)
-* 解決導致客戶無法在舊版和更新的[!DNL Target] UI中建立活動的主控台錯誤。 (TGT-52181)
-* 已修正導致客戶無法新增頁面，進而造成無效使用者輸入錯誤的問題。 (TGT-52258)
-* 已修正導致修改在新增其他頁面然後導覽回[!UICONTROL Experiences]索引標籤後消失的問題。 (TGT-52264)
-* 修正阻止客戶變更[!UICONTROL Experience Targeting] (XT)活動中對象的問題。 (TGT-52191)
-* 修正因不支援的UI規則而無法編輯XT活動的錯誤。 (TGT-52273)
-* 已修正更新[!UICONTROL Visual Experience Composer] (VEC)中，在編輯器底部不一定會顯示階層連結，而造成精確選取元素困難的問題。 (TGT-52169)
-* 修正[!UICONTROL Audience]下拉式清單因分頁而無法顯示所有對象的問題。 (TGT-52204)
-* 修正在[!UICONTROL Automated Personalization] (AP)活動中新增優惠方案時，造成使用者輸入訊息無效的問題。 (TGT-52210)
-* 修正即使客戶沒有A4T的存取權，[!UICONTROL Analytics for Target] (A4T)仍錯誤地選取為報告來源的問題。 (TGT-52226)
-* 修正無法儲存具有[!UICONTROL View a Page] URL量度的活動的問題。 (TGT-52260)
-* 修正在活動中建立優惠方案時，客戶無法選取工作區的問題。 (TGT-52289)
-* 修正阻止客戶在所有工作區中建立活動的問題。 (Tgt-52218)
-* 修正切換至另一個體驗時，來自一個體驗的修改未正確顯示的問題。 (TGT-52184)
-* 修正開啟活動時，[!DNL Target] UI中錯誤顯示預設選件的問題。 (TGT-52198)
-
-## Target許可權更新（2025年4月22日）
-
-此未來更新加強了組織對[!DNL Target]執行個體設定的控制，防止了可能影響跨各種測試和個人化團隊的活動傳送的意外更新。
-
-自2025年4月22日起，只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能更新[!UICONTROL Administration]區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
-
-如需詳細資訊，請參閱[管理Target](/help/main/administrating-target/start-target.md)。
-
-## [!DNL Target Standard/Premium] 25.4.4 （2025年4月17日）
-
-此版本包含下列修正和更新：
-
-* 新增錯誤訊息，以引導使用者解決活動中的重複選項。 (TGT-51927)
-* 修正刪除具有重新導向選件的頁面或體驗時，`ClickTrack`選取器未移除的問題。 (TGT-51952)
-* 修正允許空白`ClickTrack`選取器所造成的問題。 [!DNL Target]現在要求選取器欄位不得為空白。 (TGT-52107)
-* 修正不正確地允許名稱重複的量度的問題。 量度現在需要唯一名稱。 (TGT-52201)
-* 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯選件層級鎖定目標時，無法顯示對象定義的問題。 (TGT-52148)
-* 修正具有[!UICONTROL Editor]許可權的客戶無法儲存活動的問題。 (TGT-52227)
-* 選項保持不變時，`OptionLocalIDs`不再錯誤地增加。 (TGT-52139)
-* 修正嘗試建立活動時，造成「無效的`optionLocalIds`」訊息的問題。 (TGT-52154)
-* 已修正為活動定義的`OptionLocalIDs`與用來定義體驗的之間的差異。 (TGT-52215)
-* 修正嘗試建立A/B活動時發生驗證失敗的問題。 (TGT-51923)
-
-## [!DNL Target Standard/Premium] 25.4.3 （2025年4月11日）
-
-此版本包含下列修正和更新：
-
-* 修正導致客戶無法開啟特定[!UICONTROL Experience Targeting] (XT)活動的對象資訊快顯視窗的錯誤。 (TGT-52049)
-* 修正在[!UICONTROL Visual Experience Composer] (VEC)中完成變更後，對象設定恢復為&quot;[!UICONTROL All Visitors]&quot;的問題。 (TGT-52132)
-* 修正未針對特定活動顯示對象細分的問題(TGT-52057)
-* 修正客戶無法在預設工作區中插入[!UICONTROL Experience Fragment]的問題。 (TGT-52073)
-* 修正了針對[!UICONTROL Automated Personalization] (AP)活動，選件顯示為「找不到內容」且未顯示在[!UICONTROL Offers]頁面的問題。 (TGT-52150)
-* 新增在活動中允許重複受眾的功能。 (TGT-51200)
-* 修正編輯後XT活動的[!UICONTROL Goals & Settings]頁面上顯示錯誤mbox名稱的問題。 (TGT-52026)
-* 修正`defaultContent`不在`experiences/optionLocations`中卻顯示在選項中的問題。 (TGT-52036)
-* 修正確保空白字串未轉換為Null值的問題。 (TGT-52037)
-* 已修正要求客戶在編輯[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Reporting Settings]中重新設定[!UICONTROL Optimization Goal]的問題。 (TGT-52071)
-* 修正無頁面傳送規則的活動在[!UICONTROL Overview]頁面上顯示多個規則的問題。 (TGT-52084)
-* 新增錯誤訊息，說明使用者嘗試以基本多語言平面以外的字元（例如表情符號）儲存優惠方案。 (TGT-52105)
-* 修正開啟活動觸發錯誤訊息的問題：「此活動使用一或多個在來源中刪除的對象。」 (TGT-52120)
-* 修正在編輯期間ClickTrack量度未顯示在更新的[!UICONTROL Visual Experience Composer] (VEC)中的問題。 (TGT-52152)
-* 修正具有查詢引數作為活動位置的URL未在活動的[!UICONTROL Overview]頁面上顯示查詢引數的問題。 (TGT-51635)
-* 修正無法在[!UICONTROL Visual Experience Composer] (VEC)的[!UICONTROL Browse mode]中顯示整個體驗URL的問題。 (TGT-52101)
-* 修正編輯活動導致頁面傳送在URL結尾新增「/」使其無效的問題。 (TGT-52114)
-* 修正[!UICONTROL Form-Based Experience Composer]中的[!UICONTROL Activity QA]連結不正確地重新導向至[!DNL Adobe Experience Cloud]首頁的問題。 (TGT-52055)
-* 修正儲存及重新開啟後，新增至[!UICONTROL A/B Test]活動的其他頁面未保留的問題。 (TGT-51994)
-* 已修正導致客戶無法刪除內嵌樣式區段中的樣式的問題。 (TGT-52070)
-* 已還原存取[!UICONTROL Activity QA]對話方塊中的[對象定義卡](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)，類似於舊版UI。 (TGT-52056)
-* 更新後的UI未儲存頁面或對象而未經修改。 如果客戶將新頁面或對象新增至活動，但未進行變更，[!DNL Target]會在儲存時捨棄未修改的對象。 已在相關位置新增通知，以通知使用者此行為。 (TGT-52104)
-
-## [!DNL Target Standard/Premium] 25.4.1 （2025年4月2日）
-
-此版本包含下列修正和更新：
-
-* 修正造成體驗對象從活動中消失的問題。 (TGT-52003)
-* 修正傳送期間造成非預期元素的問題。 (TGT-52011)
-* 修正阻止客戶在Ove[!UICONTROL r]檢視頁面上的目標圖形中及活動編輯期間檢視對象的問題。 (TGT-52050)
-* 已修正導致客戶無法在[!UICONTROL Experience Targeting] (XT)活動中依優先順序重新排序體驗的問題。 (TGT-52054)
-* 修正復原文字樣式變更時，造成轉譯錯誤的問題。 (TGT-51876)
-* 修正修改重新導向選件時，[!DNL Target]也會移除與該選件相關聯的任何[!UICONTROL ClickTrack]選取器的問題。 (TGT-51936)
-* 修正取消[!UICONTROL ClickTrack]時，[!DNL Target]無法正確儲存選取器的問題。 (TGT-51937)
-* 修正在[!UICONTROL Goals & Settings]頁面上開啟和關閉mbox選擇器（未進行任何變更）後，觸發無效名稱錯誤的問題。 (TGT-51983)
-* 修正封鎖編輯在舊版[!DNL Target] UI中建立的臨時優惠的問題。 (TGT-51984)
-* 修正封鎖編輯具有包含自訂程式碼的臨時優惠方案的活動的問題。 (TGT-51995)
-* 修正在編輯合併的受眾定義時，排除規則顯示為包含規則的問題。 (TGT-51999)
-* 修正導致自訂程式碼在體驗編輯期間無法正確顯示的問題。 (TGT-52005)
-* 修正[!UICONTROL Insert Before]選項無法用於導覽列前插入內容的問題。 (TGT-52031)
-* 修正無法正確反白報告預設體驗的問題。 (TGT-51716)
-* 修正建立活動時觸發`default message [Invalid optionLocalIds: xx]]`訊息的問題。 (TGT-52038)
-
-## at.js 2.11.8版（2025年3月31日）
-
-* 解決字串尾碼驗證中CodeQL識別的漏洞，以防止在調整大小和移動作業期間出現邊緣案例。 (TNT-51516)
+* 已修正無法在更新的UI中顯示特定活動的對象細分的問題。 (TGT-52057)
+* 修正無法在活動中使用合併受眾的問題。 (TGT-52346)
+* 修正了無法使用相同工作區中僅限活動的對象，在非預設工作區中建立新活動的問題。 (TGE-52349)
+* 修正造成在建立及選取新對象後，僅限於此活動的對象從更新的UI中消失的問題。 (TGT=52091)
+* 修正無法在活動中使用重複受眾的問題。 (TGT-51200 和 TGT-52057)
+* 已修正導致在更新的UI中回覆對象細分和活動對象的問題。 (TGT-52158)
+* 修正由於使用者輸入錯誤「此使用者不允許非預設工作區」而無法建立新活動的問題。 (TGT-52267)
+* 已修正導致無法在預設和非預設工作區的更新UI中顯示選件的問題。 [!DNL Target]現在會顯示來自兩個工作區的選件。 (TGT-52339)
+* 修正[!DNL Target]在編輯活動和變更已修改的網站元素時未警告客戶的問題。 (TGT-52100)
+* 修正編輯具有臨時優惠方案的優惠方案時，會建立新優惠方案而非更新現有優惠方案的問題。 (TGT-52135)
+* 修正將優惠方案移至資料夾時，造成無效裝載錯誤的問題。 (TGT-52325)
+* 修正將優惠方案移至資料夾時造成使用者輸入錯誤的問題。 (TGT-52296)
+* 為每個活動新增`audienceMetadata`欄位，並確保在編輯活動時已讀取和更新它。 (TGT-51004)
 
 ## 額外的發行說明和版本詳細資料
 
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -136,7 +52,7 @@ ht-degree: 24%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
