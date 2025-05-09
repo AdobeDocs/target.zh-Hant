@@ -1,8 +1,8 @@
 ---
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 32%
+source-wordcount: '50'
+ht-degree: 42%
 
 ---
 # 程式碼片段
@@ -13,10 +13,10 @@ ht-degree: 32%
 >
 >這項功能屬於 [Target Premium](/help/main/c-intro/intro.md#premium) 授權的一部分。[!DNL Target Standard] 未提供這項功能。
 
-## Target permissions update {#permissions-update}
+## Target許可權更新 {#permissions-update}
 
 >[!IMPORTANT]
 >
->Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] admins will be able to update settings in the [!UICONTROL Administration] sections, regardless of their roles in [!DNL Target] workspaces. 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。 For more information, see [Permissions required for editing [!UICONTROL Administration] settings](/help/main/administrating-target/start-target.md#admin-permissions).
+>具有[!UICONTROL Product Administrator]和[!UICONTROL System Administrator]許可權的[!DNL Target]使用者可以在[!UICONTROL Administration]頁面上編輯所有設定，無論他們在[!DNL Target]中的角色為何。 沒有這些許可權的使用者擁有這些設定的唯讀存取權。
 
 
