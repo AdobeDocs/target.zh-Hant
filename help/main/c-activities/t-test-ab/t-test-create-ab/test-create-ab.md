@@ -4,9 +4,9 @@ description: 使用[!UICONTROL Visual Experience Composer] (VEC)直接在啟用 
 title: 如何建立A/B測試？
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '888'
 ht-degree: 17%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 17%
 
    [!UICONTROL Visual Experience Composer]隨即開啟，顯示URL中指定的頁面。
 
-1. 按一下&#x200B;**[!UICONTROL Rename]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/MoreSmallListVert.svg)）、按一下&#x200B;**[!UICONTROL Rename]**、指定活動的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 若要命名活動，請按一下「[!UICONTROL Untitled Activity]」旁的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg) ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：
 

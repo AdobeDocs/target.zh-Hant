@@ -4,9 +4,9 @@ description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Exp
 title: 如何建立[!UICONTROL Experience Targeting]活動？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '396'
 ht-degree: 33%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 33%
 
    VEC 隨即開啟，顯示 URL 中指定的頁面。
 
-1. 按一下&#x200B;**[!UICONTROL Rename]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/MoreSmallListVert.svg)）、按一下&#x200B;**[!UICONTROL Rename]**、指定活動的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 若要命名活動，請按一下「[!UICONTROL Untitled Activity]」旁的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg) ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：
 
