@@ -5,9 +5,9 @@ title: 什麼是主機？如何使用主機？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1029'
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 17%
 
    依預設，新辨識的主機會置於[!UICONTROL Production]環境中。 [!UICONTROL Production]環境是最安全的環境，因為它不允許從這些主機檢視非作用中的活動。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL Move]**&#x200B;圖示（ ![移動圖示](/help/main/administrating-target/assets/icon-move.png) ）將主機移至[!UICONTROL Development]、[!UICONTROL Staging]或其他環境。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL Move]**&#x200B;圖示（ ![移動圖示](/help/main/assets/icons/MoveTo.svg) ）將主機移至[!UICONTROL Development]、[!UICONTROL Staging]或其他環境。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 17%
 
 若要搜尋[!UICONTROL Hosts]清單，請在[!UICONTROL Search Hosts]方塊中輸入搜尋字詞。
 
-## 建立允許清單，指定授權傳送[!DNL Target]要求給[!DNL Target]的主機。{#allowlist}
+## 建立允許清單，指定授權傳送[!DNL Target]要求給[!DNL Target]的主機。 {#allowlist}
 
 您可以建立允許清單，指定授權傳送[!DNL Target]要求給[!DNL Target]的主機（網域）。 所有其他產生請求的主機都會收到註銷的授權錯誤回應。 依預設，任何包含[!DNL Target]要求的主機都會在[!UICONTROL Production]環境中向[!DNL Target]註冊，且可以存取所有使用中和已核准的活動。 如果不想要這個方法，您可以改用允許清單來記錄適合發出[!DNL Target]要求並接收[!DNL Target]內容的特定主機。 所有主機都會繼續顯示在[!UICONTROL Hosts]清單中，而環境仍可用來群組這些主機，並為每個主機指派不同的層級，例如主機是否可以看見作用中及/或非作用中的活動。
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hant){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
+>**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
 >
 >允許清單的優先順序高於環境。 在使用允許清單功能之前，請先清除所有主機，然後只有允許清單允許的主機才會出現在您的主機清單中。 接著可將主機移至想要的環境中。
 
@@ -103,7 +103,7 @@ ht-degree: 17%
 
 您不再需要使用某個主機時，可以將它刪除。
 
-1. 從[!UICONTROL Hosts]清單中，按一下&#x200B;**[!UICONTROL Delete]**&#x200B;圖示。
+1. 從[!UICONTROL Hosts]清單中，按一下&#x200B;**[!UICONTROL Delete]**&#x200B;圖示（ ![刪除圖示](/help/main/assets/icons/DeleteOutline.svg) ）。
 1. 按一下&#x200B;**[!UICONTROL Delete]**&#x200B;以確認刪除。
 
 >[!NOTE]

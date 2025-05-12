@@ -5,10 +5,10 @@ title: 如何設定使用者管理？
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 61%
+source-wordcount: '208'
+ht-degree: 64%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 61%
 * **Target Premium 客戶：**&#x200B;如果貴組織擁有 [!DNL Target] Premium 授權，您將會在 Target UI 中觀察到以下情況：
 
    * 您將會看到[!UICONTROL Properties]索引標籤( [!UICONTROL Administration] > [!UICONTROL Properties] )
-   * 您也會看到[!UICONTROL Users]索引標籤( [!UICONTROL Administration] > [!UICONTROL Users] )
+   * 您&#x200B;*不會*&#x200B;看到[!UICONTROL Users]索引標籤( [!UICONTROL Administration] > [!UICONTROL Users] )
 
      [!DNL Target] Premium 客戶應該遵循[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)和[設定企業權限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)中的指示，在 [!DNL Adobe Admin Console] 中新增使用者和指派權限。
 
-下圖顯示[!DNL Target] Premium帳戶的[!UICONTROL Administration]頁面。 請注意，[!UICONTROL Properties]和[!UICONTROL Users]索引標籤皆可使用：
+下圖顯示[!DNL Target Premium]帳戶的[!UICONTROL Administration]頁面：
 
 ![「管理」索引標籤](/help/main/administrating-target/assets/premium.png)
