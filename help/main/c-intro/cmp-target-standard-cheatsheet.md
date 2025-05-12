@@ -4,10 +4,10 @@ description: 探索關於使用 Adobe Target 中功能常見問答的清單，�
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 94%
+source-wordcount: '2678'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 94%
 
 **Target 支援什麼瀏覽器？**
 
-如需詳細資訊，請參閱我們的[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。 請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
+如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
 
 ## 活動 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -59,7 +59,7 @@ ht-degree: 94%
 
 請參閱 [Target 活動指南](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)來瞭解 Adobe Target 所提供的每個選項對哪些案例而言有意義。
 
-也請務必考慮 [Recommendations 活動](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
+也請務必考慮 [推薦活動](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
 
 **我如何找出頁面上的哪個元素組合其成功有貢獻，以及每個元素有幫助的程度如何？**
 
@@ -69,7 +69,7 @@ ht-degree: 94%
 
 **我可以跨不同頁面結構的多個頁面執行活動嗎？**
 
-**我可以套用位在不同位置 (例如，結帳漏斗) 的選件嗎？**
+**我可以套用位在不同位置 (例如，結帳漏斗) 的產品建議嗎？**
 
 請試用[多頁活動功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，它可讓您在體驗內使用多個頁面。
 
@@ -103,7 +103,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 [從活動概觀頁面直接進入您所選的必要步驟](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)，然後使用「儲存並關閉」選項從該步驟結束，便可輕鬆進行這個操作。
 
-**我可以停留在特定步驟上，持續修改活動 (例如選件文字或自訂代碼)，然後在另一個索引標籤中執行 QA 嗎？**
+**我可以停留在特定步驟上，持續修改活動 (例如產品建議文字或自訂代碼)，然後在另一個索引標籤中執行 QA 嗎？**
 
 這也是可能的。只要[使用可用的[儲存]選項即可進行累加變更，而不需離開步驟](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
 
@@ -111,9 +111,9 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 請使用[功能強大的 QA 模式功能](/help/main/c-activities/c-activity-qa/activity-qa.md)來執行 QA。您可以與您的 QA 團隊共用連結，並同時端對端測試活動，包括報表，以非常確定在活動上線後，它能如預期並如測試般運作。
 
-**我如何使用 Target 的決策功能來獲得可以在單一頁面應用程式 (SPA) 或伺服器端整合中使用的體驗/選件？**
+**我如何使用 Target 的決策功能來獲得可以在單一頁面應用程式 (SPA) 或伺服器端整合中使用的體驗/產品建議？**
 
-使用功能強大的[表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)搭配 [JSON 選件](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)來達成您的目標。
+使用功能強大的[表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)搭配 [JSON 產品建議](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)來達成您的目標。
 
 **我已設定兩個活動。我如何知道訪客最後會看到哪個活動？**
 
@@ -144,7 +144,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以隨機將流量分割到兩個儲桶嗎？**
 
-請試用[設定檔指令碼功能](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)。它是功能強大的方式，可將體驗個人化，不過需要您編寫程式碼。
+請試用[輪廓指令碼功能](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)。它是功能強大的方式，可將體驗個人化，不過需要您編寫程式碼。
 
 **我可以從一些少量的訪客開始活動嗎？**
 
@@ -155,7 +155,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 體驗 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -180,7 +180,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能需要連絡您的IT部門，以將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能需要連絡您的IT部門，將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單[。
 
 **我有回應式網站。建立活動時，我如何確定我考慮的是重要裝置？**
 
@@ -200,9 +200,9 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我如何看到我在可視化體驗撰寫器 (VEC) 中進行的修改？**
 
-我們會一律將您的變更顯示在[代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中。「修改」索引標籤會顯示您套用至選件的 CSS 選取器或 mbox。
+我們會一律將您的變更顯示在[代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中。「修改」索引標籤會顯示您套用至產品建議的 CSS 選取器或 mbox。
 
-請注意，CSS 選取器為 Sizzle 選取器。您可以使用此區段來快速進行次要的修改或刪除某些選件。
+請注意，CSS 選取器為 Sizzle 選取器。您可以使用此區段來快速進行次要的修改或刪除某些產品建議。
 
 **我想要隨著實驗/活動傳送 JavaScript 以快速修改一些動態元素或只是傳送呼叫給第三方解決方案。我應該怎麼做？**
 
@@ -212,23 +212,17 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 使用撰寫和瀏覽功能來導覽至所選擇的頁面，並開始建立您的體驗。
 
-![vec2影像](assets/vec2.png)
-
-**我如何從 Target 三個步驟引導工作流程的步驟 2 (「鎖定目標」頁面) 前往我所選擇的體驗？**
-
-按一下步驟 2 上體驗前端的縮圖，然後您將登陸在您所選擇的體驗。
-
-![縮圖體驗影像](assets/thumbnail_experiences.png)
+![設計和瀏覽切換](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **我是過去的 Target Classic 使用者。我可以在某些使用案例下使用我的 mbox 嗎？**
 
 使用[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)來建立活動。
 
-**為什麼我看不到需要的選件/體驗，而是看到一些其他活動？**
+**為什麼我看不到需要的產品建議/體驗，而是看到一些其他活動？**
 
 使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
-## 選件 {#section_A547B1EAD0B34FD38D3B87AAF62E3963}
+## 產品建議 {#section_A547B1EAD0B34FD38D3B87AAF62E3963}
 
 **我不想嘗試進行次要的變更，而是想要測試全新、完全不同的頁面。**
 
@@ -242,13 +236,13 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 您的網站的元素上可能有動態 ID、重複的 ID 或動態類別。您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。請參閱 [CSS 選取器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
 
-**為什麼我看不到需要的選件/體驗，而是看到一些其他活動？**
+**為什麼我看不到需要的產品建議/體驗，而是看到一些其他活動？**
 
 使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
-**我可以使用 Target 的決策功能來獲得可以在單一頁面應用程式 (SPA) 或伺服器端整合中使用的體驗/選件？**
+**我可以使用 Target 的決策功能來獲得可以在單一頁面應用程式 (SPA) 或伺服器端整合中使用的體驗/產品建議？**
 
-使用功能強大的[表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)搭配 [JSON 選件](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)來達成您的目標。
+使用功能強大的[表單式活動](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)搭配 [JSON 產品建議](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)來達成您的目標。
 
 ## 報表 (包括 Analytics for Target—A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
@@ -258,7 +252,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -299,7 +293,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我如何知道 Adobe Target 的可用性狀態？**
 
-使用 [&#128279;](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)Adobe「系統狀態」頁面來檢視 Adobe 產品和 Experience Cloud 解決方案，包括 Target 的狀態。此頁面可協助您判斷您遇到的問題是否是因為系統更新或日常的維護。
+使用 [](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)Adobe「系統狀態」頁面來檢視 Adobe 產品和 Experience Cloud 解決方案，包括 Target 的狀態。此頁面可協助您判斷您遇到的問題是否是因為系統更新或日常的維護。
 
 **您有疑難排解指南嗎？**
 
@@ -309,4 +303,4 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。請參閱[傳送API、NodeJS SDK和Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
+我們提供詳盡的 API 相關文件。請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
