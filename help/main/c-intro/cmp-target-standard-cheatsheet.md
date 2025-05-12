@@ -180,7 +180,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能需要連絡您的IT部門，將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單[。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
 
 **我有回應式網站。建立活動時，我如何確定我考慮的是重要裝置？**
 
@@ -293,7 +293,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我如何知道 Adobe Target 的可用性狀態？**
 
-使用 [](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)Adobe「系統狀態」頁面來檢視 Adobe 產品和 Experience Cloud 解決方案，包括 Target 的狀態。此頁面可協助您判斷您遇到的問題是否是因為系統更新或日常的維護。
+使用 [&#128279;](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)Adobe「系統狀態」頁面來檢視 Adobe 產品和 Experience Cloud 解決方案，包括 Target 的狀態。此頁面可協助您判斷您遇到的問題是否是因為系統更新或日常的維護。
 
 **您有疑難排解指南嗎？**
 
