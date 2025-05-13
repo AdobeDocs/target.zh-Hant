@@ -5,9 +5,9 @@ title: 我該從哪裡開始管理 [!DNL Target]？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 32%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 32%
 
 ## 受邀加入[!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-[!DNL Adobe Admin Console]中的系統管理員必須藉由邀請您加入，將您新增為[!DNL Target]中的使用者。 然後，系統管理員應將您新增至一或多個角色特定群組。 這兩項工作都是在[Adobe Admin Console](https://adminconsole.adobe.com)中執行。
+[!DNL Adobe Admin Console]中的系統管理員必須藉由邀請您加入，將您新增為[!DNL Target]中的使用者。 然後，系統管理員應將您新增至一或多個角色特定群組。 這兩項工作都是在[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com)中執行。
 
-如需詳細資訊，請參閱&#x200B;*Experience Cloud與核心服務說明*&#x200B;中的[管理Experience Cloud使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant)。
+如需詳細資訊，請參閱&#x200B;*Experience Cloud與核心服務說明*&#x200B;中的[管理Experience Cloud使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 系統管理員執行這些步驟後，您將會收到一封邀請電子郵件。
 
