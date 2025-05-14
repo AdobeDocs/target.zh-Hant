@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您的組織必須首先同意其他法律條款，才能存取[!DNL AI Assistant]。 如需這些條款的指引，請聯絡您的Adobe客戶團隊。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
+如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
 
 ## 啟用[!UICONTROL AI Assistant]的使用者許可權
 
