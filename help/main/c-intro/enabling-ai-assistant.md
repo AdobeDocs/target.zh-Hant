@@ -1,6 +1,6 @@
 ---
 keywords: ai助理；人工智慧助理
-description: 瞭解如何在[!DNL  Adobe Target]中啟用 [!DNL AI Assistant] 。
+description: 瞭解如何在[!DNL &#x200B; Adobe Target]中啟用 [!DNL AI Assistant] 。
 title: 如何啟用 [!DNL Target]中的 [!DNL AI Assistant] ？
 badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 feature: Overview
