@@ -3,11 +3,12 @@ keywords: ai助理；人工智慧助理
 description: 瞭解如何使用 [!DNL AI Assistant]取得 [!DNL Target] 產品知識。
 title: 如何在 [!DNL Target] 中使用 [!DNL AI Assistant] 取得產品知識？
 feature: Overview
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '311'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 6%
 
 若要存取[!DNL AI Assistant]：
 
-1. 請確定您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在 [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md)的[啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。
@@ -60,10 +61,10 @@ ht-degree: 6%
 
 瞭解來自[!DNL AI Assistant]的[!DNL Adobe Experience Platform]個應用程式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441035/?learn=on&#x26;enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### 驗證來自AI助理的回應
 
 瞭解如何驗證和驗證[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]所提供的回應。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441750/?learn=on&#x26;enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

@@ -4,10 +4,10 @@ description: 熟悉使用者介面並尋找更深入資訊的連結，以協助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 28%
+source-wordcount: '1387'
+ht-degree: 26%
 
 ---
 
@@ -39,25 +39,25 @@ ht-degree: 28%
 
 提供意見回饋的描述，包括適用的檔案或熒幕擷取畫面，以及任何其他必要的詳細資料，然後按一下&#x200B;**[!UICONTROL Submit]**。
 
-### [!DNL AI Assistant] （排程在2025年5月20日發行）
+### [!DNL AI Assistant]
 
-（視條件而定）如果您的組織已授予您使用AI助理的權利，請按一下AI助理圖示。
+（視條件而定）如果您的組織已授予您使用[!DNL AI Assistant]的許可權，請按一下[!DNL AI Assistant]圖示。
+
+如需詳細資訊，請參閱[Adobe Experience Platform AI助理概述](/help/main/c-intro/ai-assistant.md)。
 
 ### 說明
 
-「說明」圖示可讓您存取資訊、影片、部落格等，以協助您更有效率地使用 [!DNL Target]。您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供有關[!DNL Target]的意見回饋，讓我們瞭解[!DNL Target]團隊的表現。
+按一下[!UICONTROL Help]圖示（![說明圖示](/help/main/assets/icons/HelpOutline.svg) ）可讓您存取資訊、影片、部落格等，以協助您更有效地使用[!DNL Target]。 您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供有關[!DNL Target]的意見回饋，讓我們瞭解[!DNL Target]團隊的表現。
 
 ![說明](/help/main/c-intro/assets/help.png)
 
-### 通知和公告 {#notifications-announcements}
+### 請求、通知和公告 {#notifications-announcements}
 
-[!UICONTROL Notifications]和[!UICONTROL Announcements]面板可協助您隨時掌握[!DNL Adobe Target]的所有最新資訊。 主動通知可協助您隨時掌握[!DNL Adobe Experience Cloud]解決方案和[!DNL Target]事件的狀態。 主動公告會提醒您發生中斷事件和維護事件。
+[!UICONTROL Requests]、[!UICONTROL Notifications]和[!UICONTROL Announcements]面板可協助您隨時掌握[!DNL Adobe Target]的所有最新資訊。 主動通知可協助您隨時掌握[!DNL Adobe Experience Cloud]解決方案和[!DNL Target]事件的狀態。 主動公告會提醒您發生中斷事件和維護事件。
 
-按一下標題的鈴鐺圖示可檢視通知：
+按一下標題中的[!UICONTROL Notifications]圖示（ ![通知圖示](/help/main/assets/icons/Bell.svg) ）以檢視通知：
 
-通知和公告的![鈴鐺圖示](assets/bell-icon.png)
-
-面板包含[!UICONTROL Notifications]和[!UICONTROL Announcements]的索引標籤。
+面板包含[!UICONTROL Requests]、[!UICONTROL Notifications]和[!UICONTROL Announcements]的索引標籤。
 
 ![通知](assets/notifications.png)
 
