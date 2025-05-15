@@ -3,7 +3,7 @@ keywords: ai助理；人工智慧助理
 description: 瞭解如何使用 [!DNL AI Assistant]取得 [!DNL Target] 產品知識。
 title: 如何在 [!DNL Target] 中使用 [!DNL AI Assistant] 取得產品知識？
 feature: Overview
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
