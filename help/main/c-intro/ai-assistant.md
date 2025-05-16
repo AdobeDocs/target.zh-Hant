@@ -42,10 +42,10 @@ ht-degree: 3%
 
 | 主題 | 說明 |
 | --- | --- |
-| [[!DNL AI Assistant] 在 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target=_blank} | 瞭解[!DNL AI Assistant]功能。 隨附操作影片。 |
-| [存取 [!DNL AI Assistant] 於 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} | 瞭解如何存取組織及其使用者的[!DNL AI Assistant]。 |
-|  [!DNL AI Assistant]的[問題指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank} | 檢視查詢[!DNL AI Assistant]時可以使用的範例問題。 |
-| [[!DNL AI Assistant] 使用者介面指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | 瞭解如何在[!DNL Adobe Experience Platform] UI中使用[!DNL AI Assistant]。 |
-| [在 [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank}中的隱私權、安全性與治理 | 瞭解[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]如何建置隱私權、安全性及控管能力放在最前面。 瞭解您期望從[!DNL AI Assistant]獲得的以客戶信任為中心的功能。 |
-| [常見問題](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank} | 閱讀有關[!DNL AI Assistant]的常見問題解答。 |
-| [[!DNL Adobe Experience Platform] 發行說明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target=_blank} | 閱讀[!DNL Adobe Experience Platform]中現有功能和檔案的更新，包括[!DNL AI Assistant]。 |
+| [[!DNL AI Assistant] 在 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target=_blank} | 瞭解[!DNL AI Assistant]功能。 隨附操作影片。 |
+| [存取 [!DNL AI Assistant] 於 [!DNL Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access){target=_blank} | 瞭解如何存取組織及其使用者的[!DNL AI Assistant]。 |
+|  [!DNL AI Assistant]的[問題指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/questions){target=_blank} | 檢視查詢[!DNL AI Assistant]時可以使用的範例問題。 |
+| [[!DNL AI Assistant] 使用者介面指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | 瞭解如何在[!DNL Adobe Experience Platform] UI中使用[!DNL AI Assistant]。 |
+| [在 [!DNL AI Assistant]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/privacy){target=_blank}中的隱私權、安全性與治理 | 瞭解[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]如何建置隱私權、安全性及控管能力放在最前面。 瞭解您期望從[!DNL AI Assistant]獲得的以客戶信任為中心的功能。 |
+| [常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/faq){target=_blank} | 閱讀有關[!DNL AI Assistant]的常見問題解答。 |
+| [[!DNL Adobe Experience Platform] 發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest){target=_blank} | 閱讀[!DNL Adobe Experience Platform]中現有功能和檔案的更新，包括[!DNL AI Assistant]。 |
