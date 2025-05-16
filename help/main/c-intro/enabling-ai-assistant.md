@@ -1,13 +1,13 @@
 ---
 keywords: ai助理；人工智慧助理
-description: 瞭解如何在[!DNL &#x200B; Adobe Target]中啟用 [!DNL AI Assistant] 。
+description: 瞭解如何在[!DNL  Adobe Target]中啟用 [!DNL AI Assistant] 。
 title: 如何啟用 [!DNL Target]中的 [!DNL AI Assistant] ？
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 feature: Overview
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 您的組織必須首先同意其他法律條款，才能存取[!DNL AI Assistant]。 如需這些條款的指引，請聯絡您的Adobe客戶團隊。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
+如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
 
 ## 啟用[!UICONTROL AI Assistant]的使用者許可權
 
