@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ### 使用AI助理建立內容以產生內容
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434646/?learn=on&captions=chi_hant">https://video.tv.adobe.com/v/3434646/?learn=on&captions=chi_hant)
 
 
 
