@@ -27,7 +27,7 @@ ht-degree: 6%
 
 若要存取產品知識的[!DNL AI Assistant]：
 
-1. 請確定您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。
