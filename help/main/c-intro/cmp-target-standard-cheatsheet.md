@@ -33,7 +33,7 @@ ht-degree: 79%
 
 **[!DNL Target]支援哪些瀏覽器？**
 
-如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
+如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
 
 ## 活動 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 體驗 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -252,7 +252,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
 
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -303,4 +303,4 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
+我們提供詳盡的 API 相關文件。請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
