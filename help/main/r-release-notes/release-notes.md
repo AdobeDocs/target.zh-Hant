@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
+source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 26%
+source-wordcount: '1670'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,31 @@ ht-degree: 26%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## Target UI版本切換淘汰（2025年5月23日） {#toggle}
+
+新[!DNL Target]使用者介面的轉出將於&#x200B;**2025年5月27日**&#x200B;完成。 到那時，所有客戶都有權存取最新的UI版本。
+
+自&#x200B;**2025年6月22日**&#x200B;起，將移除UI版本切換。 所有使用者將永久轉換至新介面，沒有回覆至先前版本的選項。
+
+**UI版本切換的重要資訊**
+
+我們提供暫時功能，可讓您使用切換按鈕，在更新的[!DNL Target] UI和舊版之間切換。 此選項僅在UI轉出的最後階段可用。
+
+![目標UI版本切換](/help/main/r-release-notes/assets/toggle.png)
+
+轉出完成後，切換將會移除，所有使用者將於&#x200B;**2025年6月22日**&#x200B;永久轉換為更新的UI。 Adobe建議提前規劃，因為這項功能將很快淘汰。
+
+**UI切換行為的限制**
+
+* **新活動的可見性**：如果您切換回舊版使用者介面，在更新的UI中建立的活動將不可見。
+* **編輯現有活動**：使用更新的UI時，對現有活動所做的變更（原本是在舊版UI中建立的）將會發佈至您的網站。 不過，如果您切換回去，這些更新將不會顯示在舊版UI中；那裡只會顯示舊版UI進行的最後更新。
+* **活動詳細資料的一致性**：無論您使用哪種UI，最新變更都會反映在您已上線的網站上。 不過，舊版UI將只會顯示該版本中執行的最新變更。 如果在更新的UI中編輯的活動看起來與您在舊版UI中看到的不同，這可能會導致混淆。
+
+如需有關已更新UI的詳細資訊，請參閱下列舊版發行說明：
+
+* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
 
 ## [!DNL Target Standard/Premium] 25.5.3 （2025年5月22日）
 
@@ -98,7 +123,7 @@ ht-degree: 26%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -108,7 +133,7 @@ ht-degree: 26%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
