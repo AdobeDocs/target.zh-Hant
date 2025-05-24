@@ -6,9 +6,9 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 663fa963e7758558d1342044de989bff3a560bc6
+source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1749'
 ht-degree: 20%
 
 ---
@@ -42,7 +42,13 @@ ht-degree: 20%
 如需關於已更新UI的詳細資訊，請參閱下列資源：
 
 * [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+
+  提供[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)在[!DNL Target]中的主要UI變更摘要。
+
 * [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+
+  提供[!UICONTROL Offers Library]在[!DNL Target]中的主要UI變更摘要。
+
 * [瞭解 [!DNL Target] 使用者介面](/help/main/c-intro/understand-the-target-ui.md)
 
   提供簡短概述，協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
@@ -53,7 +59,7 @@ ht-degree: 20%
 
 * [[!UICONTROL Visual Experience Composer]選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
-  本文說明更新的UI及其選項。
+  本文說明更新的VEC UI及其選項。
 
 ## [!DNL Target Standard/Premium] 25.5.3 （2025年5月22日）
 
@@ -134,7 +140,7 @@ ht-degree: 20%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -144,7 +150,7 @@ ht-degree: 20%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
