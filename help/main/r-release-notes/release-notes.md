@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 20%
+source-wordcount: '2119'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 20%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 25.5.4 （2025年5月29日）
+
+此版本包含下列修正和更新：
+
+* 修正無法在QA模式中新增或編輯URL的問題。 (TGT-51941)
+* 已在[!UICONTROL Reports] > [!UICONTROL Report Settings]下新增QA模式流量設定（ ![報告設定圖示](/help/main/assets/icons/Setting.svg) ），以符合舊版[!DNL Target] UI的功能。 (TGT-52228 和 TGT-52329)
+* 修正表單式活動產生不正確QA連結的問題。 活動URL/位置在結尾包含非預期的「1」，為了確保正確連結，現在已將其移除。 (TGT-52355 和 TGT-52358)
+* 修正表單式活動產生不正確QA連結的問題。 活動URL在URL的開頭包含非預期的`http://pid-ppc`，現已移除，以確保正確連結。 (TGT-52557)
+* 修正[!DNL Target]為表單式活動產生無效QA連結的問題。 (TGT-52528 和 TGT-52603)
+* 修正儲存修改後的活動似乎已處理但從未完成，且[!DNL Target]中未顯示錯誤訊息的問題。 (TGT-52461)
+* 修正更新的[!UICONTROL Visual Experience Composer] (VEC)無法自動偵測`at_property`值的問題。 (TGT-52347)
+* 修正在與表單元素互動時，VEC中在[!UICONTROL Browse]和[!UICONTROL Design]模式之間切換後，若預期只有一個修改，則會記錄兩個修改的問題。 (TGT-52455)
+* 修正由於錯誤指出選取器無效、已使用或未顯示，導致無法在更新的VEC中選取[!UICONTROL Clicked an Element]設定的問題。 (TGT-52467)
+* 修正在更新的VEC中新增[!UICONTROL Recommendation Offer]方塊導致顯示重複（幽靈）方塊的問題。 在體驗A和B之間切換時，會重複新增更多GhostBox。 (TGT-52505 和 TGT-52519)
+* 修正更新[!DNL Target] UI中，透過[!UICONTROL Offer]功能表對HTML選件進行的變更未反映在相關活動中（反之亦然）的問題。 此行為現在符合舊版UI，其中更新在[!UICONTROL Offer]功能表和活動之間正確同步。 (TGT-52540 和 TGT-52541)
+* 修正嘗試在活動中使用[!UICONTROL Offers Library]中[!UICONTROL Experience Fragments]最近更新時，未反映的問題。 (TGT-52659)
+* 修正確認訊息簡體中文翻譯的本地化問題。 舊版在位置名稱兩側缺少引號，且使用非正式語言，與客戶風格指南相反。 更新後的翻譯現在使用適當的標點符號和正式語調。 (TGT-52364)
 
 ## Target UI版本切換淘汰（2025年5月23日） {#toggle}
 
@@ -130,7 +148,7 @@ ht-degree: 20%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -140,7 +158,7 @@ ht-degree: 20%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
