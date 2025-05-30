@@ -4,16 +4,30 @@ description: 熟悉使用者介面並尋找更深入資訊的連結，以協助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: df0a0aea7348bfde9114399fd6c1131b740f3c24
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 23%
+source-wordcount: '1463'
+ht-degree: 22%
 
 ---
 
 # 了解 [!DNL Target] UI
 
 使用者介面以邏輯且方便使用的格式排列，以協助您充分運用 [!DNL Adobe Target]。以下簡短概述可協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
+
+>[!NOTE]
+>
+>2025年新增，[!DNL Target]推出更新的UI和[!UICONTROL Visual Experience Composer] (VEC)。 按一下以下連結以瞭解更多資訊：
+>
+>* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的關鍵UI變更摘要。
+>
+>* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]中[!UICONTROL Offers Library]主要UI變更的摘要。
+>
+>* [瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供簡短的總覽，協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
+>
+>* [[!UICONTROL Visual Experience Composer]個變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版和更新版本之間的差異。
+>
+>* [[!UICONTROL Visual Experience Composer]選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文說明更新的VEC UI及其選項。
 
 ## [!DNL Target] UI標頭
 
