@@ -4,10 +4,10 @@ description: 瞭解使用[!UICONTROL Visual Experience Composer] (VEC)時的最�
 title: 什麼是[!UICONTROL Visual Experience Composer]最佳作法和限制？
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 85%
 
 載入增強視覺化體驗撰寫器的問題可透過加入下列IP位址允許清單來解決。 這些 IP 位址用於 Adobe 的伺服器，用於增強體驗撰寫器 Proxy。只有針對活動編輯才需要這些資訊。您網站的訪客不需要將這些IP位址加入允許清單。
 
-美國: 52.55.99.45、54.80.158.92 和 54.204.197.253
+美國： 52.55.99.45、54.80.158.92和54.204.197.253
 
-歐洲、中東和非洲 (EMEA): 52.51.238.221、52.210.199.44 和 54.72.56.50
+歐洲、中東和非洲(EMEA)： 52.51.238.221、52.210.199.44和54.72.56.50
 
-亞太地區 (APAC): 52.193.67.35、54.199.198.109 和 54.199.241.57
+亞太地區(APAC)： 52.193.67.35、54.199.198.109和54.199.241.57
 
 ### 對於可能成為良好測試/目標候選項的最上層元素及其他任何元素，請使用唯一的 ID。
 
@@ -193,7 +193,7 @@ VEC會使用更新連結的Proxy伺服器，在幕後操控網站。 如果您�
 
 ### 在身為mbox的`<div>`中插入元素可能沒有作用。
 
-如果 mbox 包含選件，假如 mbox 實作不正確，則插入元素可能以 insertBefore 出現，而不是 insertAfter。
+如果 mbox 包含產品建議，假如 mbox 實作不正確，則插入元素可能以 insertBefore 出現，而不是 insertAfter。
 
 ### 編輯父元素和子元素兩者時，請先編輯父元素。
 
@@ -225,6 +225,18 @@ VEC會使用更新連結的Proxy伺服器，在幕後操控網站。 如果您�
 
 使用VEC時，請考量下列限制：
 
+### 處理與Chrome擴充功能原則變更的VEC相容性。
+
+由於Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了[V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
+
+為確保相容性，當頁面載入[!DNL Target] iframe內時，應有條件地停用這些指令碼。 透過檢查`window.adobeVecExtension`物件的存在可以安全地完成此程式，此物件是在VEC載入期間由[!DNL Target]插入。
+
+下列程式碼片段是iframe-busting程式碼的範例，這類程式碼會造成網頁無法在VEC中載入：
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
+
 ### 您無法將元素移到後面接著CSS屬性的容器之外。
 
 元素無法移到後面有 CSS 屬性的容器之外。
@@ -233,7 +245,7 @@ VEC會使用更新連結的Proxy伺服器，在幕後操控網站。 如果您�
 
 無法直接選取[!UICONTROL Button]個元素來重新排列。 若要啟用重新排列，請將按鈕置於較大的容器內。
 
-### Mbox 上只能使用交換選件。
+### Mbox 上只能使用交換產品建議。
 
 mbox內不允許執行編輯類別和重新排列等動作。
 
