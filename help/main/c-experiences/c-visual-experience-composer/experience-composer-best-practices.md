@@ -4,7 +4,7 @@ description: 瞭解使用[!UICONTROL Visual Experience Composer] (VEC)時的最�
 title: 什麼是[!UICONTROL Visual Experience Composer]最佳作法和限制？
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
+source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 81%
@@ -225,9 +225,9 @@ VEC會使用更新連結的Proxy伺服器，在幕後操控網站。 如果您�
 
 使用VEC時，請考量下列限制：
 
-### 處理與Chrome擴充功能原則變更的VEC相容性。
+### 處理與Chrome擴充功能原則變更的VEC相容性。 {#ext}
 
-由於Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
+由於Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了[V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
 
 為確保相容性，當頁面載入[!DNL Target] iframe內時，應有條件地停用這些指令碼。 透過檢查`window.adobeVecExtension`物件的存在可以安全地完成此程式，此物件是在VEC載入期間由[!DNL Target]插入。
 
