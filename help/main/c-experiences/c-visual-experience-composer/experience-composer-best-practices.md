@@ -4,10 +4,10 @@ description: 瞭解使用[!UICONTROL Visual Experience Composer] (VEC)時的最�
 title: 什麼是[!UICONTROL Visual Experience Composer]最佳作法和限制？
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: d7ca0867314808f4d38c0de0b8c1e1f0cbf70cc0
+source-git-commit: 1f2c6bbabf0158672e5f926ffdf9662637cd8416
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 38%
+source-wordcount: '2435'
+ht-degree: 37%
 
 ---
 
@@ -122,7 +122,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 
 換句話說，如果您使用文字新增元素，然後在個別的動作中使用不同文字編輯了該元素，則代碼編輯器會將這兩個動作顯示為個別的元素。編輯元素時，您會建立可修改您原始建立元素的新元素，包含編輯的文字。如果您之後刪除原始元素，編輯後文字將找不到編輯後的元素，因此將不會顯示。第二個元素會維持在元素的清單中，但它不會影響頁面，因為它變更的元素已不再存在。
 
-檢視[!UICONTROL Visual Experience Composer][&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的元素選取器。
+檢視[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的[元素選取器。
 
 +++
 
@@ -301,7 +301,8 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 
 ### 正在處理VEC與[!DNL Chrome]擴充功能原則變更的相容性。 {#ext}
 
-由於Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
++++詳細資料
+由於Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了[V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
 
 為確保相容性，當頁面載入[!DNL Target] iframe內時，應有條件地停用這些指令碼。 透過檢查`window.adobeVecExtension`物件的存在可以安全地完成此程式，此物件是在VEC載入期間由[!DNL Target]插入。
 
