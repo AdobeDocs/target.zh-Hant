@@ -5,9 +5,9 @@ title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 8efcbd1c610a71c9afcb6a0bb6bd31bff6876a8f
+source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,12 @@ ht-degree: 0%
 
 尋找有關更新[!DNL Adobe Target] UI常見問題的解答，並提供實用的提示和連結以瞭解更多資訊。
 
+## 我可以在哪裡找到有關已更新[!DNL Target] UI的詳細資訊？
+
++++詳細資料
 {{updated-ui}}
+
++++
 
 ## 更新的UI是否可供所有目前的[!DNL Target]客戶（[!UICONTROL Standard]和[!UICONTROL Premium]）使用？
 
