@@ -4,10 +4,10 @@ description: 瞭解如何疑難排解[!UICONTROL Visual Experience Composer] (VE
 title: 如何疑難排解[!UICONTROL Visual Experience Composer]的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c0d0154b81fbd3f89a82b31cd18541a7f0ea1a7
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 24%
+source-wordcount: '1009'
+ht-degree: 23%
 
 ---
 
@@ -17,14 +17,18 @@ ht-degree: 24%
 
 ## 當我在[!UICONTROL Visual Experience Composer]中開啟我的網站時，[!DNL Target]資料庫未載入。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
++++詳細資料
 在[!UICONTROL Visual Experience Composer]中開啟網站時，[!DNL Target]新增兩個引數（`mboxEdit=1`和`mboxDisable=1`）。
 
 如果您的網站（特別是單頁應用程式）在從一個頁面導覽至另一個頁面時（而沒有重新載入頁面），修剪引數或實際移除引數，[!DNL Target]功能會中斷，且[!DNL Target]資料庫不會載入。
 
 若要避免此問題，請確保您不會修剪或移除這兩個參數。
 
++++
+
 ## 我的頁面不會在 EEC 中開啟，或載入緩慢。活動或體驗在 VEC 中載入緩慢。(僅限 VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
++++詳細資料
 數個問題可能會影響[!UICONTROL Target]體驗撰寫器中的頁面效能。 一些常見問題包括:
 
 * 您的頁面上沒有 mbox。
@@ -44,7 +48,6 @@ ht-degree: 24%
 >[!NOTE]
 >
 >除了下列資訊外，您還可以為[!DNL Google Chrome]使用[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]副檔名](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
-
 
 >[!NOTE]
 >
@@ -105,19 +108,22 @@ ht-degree: 24%
 
 設定擴充功能後，請開啟[!DNL Target]。 您的頁面現在應在[!UICONTROL Visual Experience Composer]中載入，即使[!UICONTROL Enhanced Experience Composer]已停用。
 
++++
+
 ## 我的頁面未在 VEC 中顯示 (僅限 VEC) {#does-not-load}
 
++++詳細資料
 * 最新版本的擴充功能可確保與VEC的最佳相容性： [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
   若要確認您是否使用最新版本，請前往[!UICONTROL Extensions] > [!UICONTROL Manage Extensions]，然後按一下[!UICONTROL Details]。
 
 * [!UICONTROL Visual Experience Composer]需要編寫程式庫，才能在網頁上執行修改。 這些程式庫內嵌於at.js程式庫中，並在每次使用VEC時由擴充功能從[!DNL Adobe]伺服器下載。
 
-  不論at.js或[!DNL Adobe Experience Platform Web SDK]是否已包含在頁面中，擴充功能都會下載at.js資料庫。
+  無論at.js或[!DNL Adobe Experience Platform Web SDK]是否已包含在頁面中，擴充功能都會下載at.js資料庫。
 
   確保未將無效的變更新增到[!UICONTROL Administration] > [!UICONTROL Implementation]區段中設定的at.js標頭。
 
-* 確保網頁內嵌於iFrame中時，不會封鎖載入的必要請求。 這包括使用frame-ancestors CSP指示詞或內嵌在客戶網站中的自訂JS程式碼、中繼HTML標籤或x-frame-options標頭。
+* 確保網頁內嵌於iFrame中時，不會封鎖載入的必要請求。 這包括使用frame-ancestors CSP指示詞或內嵌在客戶網站中的自訂JS程式碼、meta HTML標籤或x-frame-options標頭。
 
 * 請確認網頁的Javascript不會干擾編寫程式庫。 請勿使用或包含使用下列保留名稱的檔案：
 
@@ -137,14 +143,22 @@ ht-degree: 24%
 * 您輸入了無效的 URL。
 * 如果您的網站無法在VEC中載入，或發生意外行為，可能的修正是在嘗試在[!DNL Target]中載入網站之前，先在瀏覽器中接受您網站上的Cookie。
 
-## 當我使用瀏覽模式時，VEC 似乎損毀。(僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++
 
-使用瀏覽模式時，如果您存取的URL未實作[!DNL Target]資料庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hant){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank})或包含frame-buster標頭，VEC會顯示為已損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
+## 當我使用[!UICONTROL Browse]模式時，VEC似乎損毀。 (僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+
++++詳細資料
+使用[!UICONTROL Browse]模式時，如果您存取的URL未實作[!DNL Target]資料庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含frame-buster標頭，VEC會顯示為損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
 
 發生此問題的原因是VEC在`<iframe>`中載入網頁。 由於相同來源原則，瀏覽器的目前安全性機制導致[!DNL Target] UI無法存取指定框架的專案。 瀏覽器會封鎖嘗試存取具有不同來源且包含`location.href`等資訊之框架的Script。
 
-您必須使用新的[Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) （建議）或[舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，將[!DNL Target]資料庫插入頁面，才能以最佳方式瀏覽頁面。
+您必須使用新的[Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)，將[!DNL Target]資料庫插入頁面，才能以最佳方式瀏覽頁面。
+
++++
 
 ## [!UICONTROL Visual Experience Composer]中的CSS衝突所造成的問題
 
++++詳細資料
 驗證在編輯器中載入網頁時，是否有任何可能影響可見性的CSS檔案。 例如，在頁面本文上使用`overflow: hidden`屬性可能會導致捲動問題或觸發點選事件，這些事件可能會干擾編寫功能表。
+
++++
