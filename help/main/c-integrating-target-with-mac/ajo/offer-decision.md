@@ -1,12 +1,12 @@
 ---
-keywords: 視覺化體驗撰寫器選項；體驗撰寫器選項；體驗選項；優惠決定；offer decisioning；ajo；journey optimizer
+keywords: 視覺化體驗撰寫器選項；體驗撰寫器選項；體驗選項；優惠決定；優惠決定；ajo；journey optimizer
 description: 瞭解如何將在 [!DNL Adobe Journey Optimizer] 中建立的優惠決定新增至活動。
 title: 如何使用優惠決定？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 如需[!DNL Adobe Journey Optimizer]和優惠決定的詳細資訊，請參閱&#x200B;*[!DNL Journey Optimizer]*&#x200B;檔案中的下列主題：
 
-* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hant)
+* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [關於決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)
 
-## 必備條件
+## 先決條件
 
 若要在[!DNL Target]中使用報價決策，您需要下列專案：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}實作的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}實作的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
 
   使用at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
@@ -64,29 +64,27 @@ ht-degree: 0%
    >
    >您也可以在[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)中建立使用[!UICONTROL Offer Decisions]的體驗。
 
-1. 按一下&#x200B;**[!UICONTROL Insert Before]**、**[!UICONTROL Insert After]**&#x200B;或&#x200B;**[!UICONTROL Replace Content]**，然後按一下&#x200B;**[!UICONTROL Offer Decision]**。
+1. 按一下&#x200B;**[!UICONTROL Replace Content]**，然後按一下&#x200B;**[!UICONTROL Offer Decision]**。
 
    [!UICONTROL Offer Decision]選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。 選單中的可用選項會依所選元素而有所不同。
 
    視覺化體驗撰寫器中的![選項功能表](assets/options-menu.png)
 
-1. 在&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;對話方塊中，選取所需的沙箱和位置。
+1. 在VEC右側的&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;欄中，選取所需的沙箱，然後按一下選取優惠決定.placement。
 
-   [!DNL Adobe Experience Platform]中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hant){target=_blank}可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 在[!DNL Adobe Journey Optimizer]中的[位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hant){target=_blank}可協助確保正確的選件內容顯示在正確的位置。
+   [!DNL Adobe Experience Platform]中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 [!DNL Adobe Journey Optimizer]中的[位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}有助於確保正確的優惠方案內容顯示在正確位置。
 
    ![新增優惠決定對話方塊中的「沙箱」和「位置」下拉式清單](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. 選取想要的優惠決定，然後按一下&#x200B;**[!UICONTROL Create]**。
+1. 選取想要的優惠位置和優惠決定，然後按一下&#x200B;**[!UICONTROL Add]**。
 
-   ![在新增優惠決定對話方塊中選取的優惠決定](assets/offer-decision.png)
+   ![選取優惠決定對話方塊](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   您的網站會顯示在VEC中，您可以在右側的[!UICONTROL Modifications]窗格中看到新建立的優惠決定。 您可以將滑鼠停留在修改上，然後按一下[!UICONTROL Preview]圖示以檢查優惠決定。
+   您的網站會顯示在VEC中，您可以在其中看到[!UICONTROL Modifications]邊欄中新建立的優惠決定。 您可以按一下[!UICONTROL Offer Decision]邊欄底部[!UICONTROL Offer Preview]下的優惠以檢查優惠決定。
 
-   ![預覽圖示](assets/preview-icon.png)
+   <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
-   您可以按一下[!UICONTROL Offer Preview]對話方塊底部的適當圖示，檢查優惠方案中包含的各種優惠方案，包括遞補優惠方案。 遞補優惠是當訪客不符合集合中任何個人化優惠的資格時，所顯示的預設優惠。
-
-   ![優惠預覽](assets/offer-preview.png)
+   ![優惠預覽](assets/offer-preview2.png)
 
 1. 完成三步驟引導式工作流程的[!UICONTROL Targeting]和[!UICONTROL Goals & Settings]步驟，以完成建立活動。
 
@@ -94,13 +92,11 @@ ht-degree: 0%
    >
    >若要確保[!DNL Target]活動已個人化，請確定目前的活動開始/結束日期與[!DNL Adobe Journey Optimizer]中優惠決定的開始/結束日期一致。 如果[!DNL Target]開始/結束日期在優惠決定的開始/結束日期範圍之外，則會向訪客顯示預設[!DNL Target]內容。
 
-   ![優惠決定警告訊息](/help/main/c-integrating-target-with-mac/ajo/assets/offer-decision-warning.png)
-
 ## 附註和限制
 
 處理優惠決定時，請考量下列資訊：
 
-* offer decisioning整合適用於以[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}為基礎的[!DNL Target]實作。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
+* 此Offer Decisioning整合適用於以[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}為基礎的[!DNL Target]實施。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer]整合僅支援[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動型別。
 
