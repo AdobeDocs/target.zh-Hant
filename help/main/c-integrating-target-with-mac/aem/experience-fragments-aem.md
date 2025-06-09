@@ -133,10 +133,10 @@ ht-degree: 27%
 
    * **A/B 測試:** [建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自動分配:** [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **自動鎖定目標：**[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):**[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **自動鎖定目標：**&#x200B;[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **Automated Personalization (AP):**&#x200B;[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **A/B 測試或 XT 活動中的建議：**[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
+   * **A/B 測試或 XT 活動中的建議：**&#x200B;[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!DNL Target]中匯出為JSON的[!UICONTROL Experience Fragments]無法用於使用VEC建立的活動；在VEC型活動中僅支援HTML [!UICONTROL Experience Fragments]。 如果您想要使用JSON [!UICONTROL Experience Fragments]，請在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立的活動中使用。
 
