@@ -4,9 +4,9 @@ description: 瞭解如何在 [!DNL Adobe Target] 活動中使用 [!DNL Adobe Exp
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]？
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
-source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1084'
 ht-degree: 27%
 
 ---
@@ -58,10 +58,10 @@ ht-degree: 27%
 
 如需詳細資訊，請參閱：
 
-* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中與Experience Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}整合。
-* **Adobe Developer**： [使用&#x200B;*管理使用手冊*&#x200B;檔案中的Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=zh-Hant){target=_blank}與Adobe Target整合。
+* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中與Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}整合。
+* **Adobe Developer**： [使用&#x200B;*管理使用手冊*&#x200B;檔案中的Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank}與Adobe Target整合。
 * **[!DNL AEM]6.5**： [在&#x200B;*Adobe Analytics 6.5*&#x200B;檔案中選擇使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=zh-Hant){target=_blank}。
-* **[!DNL AEM]6.4**： [在&#x200B;*Adobe Analytics 6.4*&#x200B;檔案中選擇使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant){target=_blank}。
+* **[!DNL AEM]6.4**： [在&#x200B;*Adobe Analytics 6.4*&#x200B;檔案中選擇使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank}。
 
 ### 步驟 2：建立體驗片段
 
@@ -84,9 +84,9 @@ ht-degree: 27%
 
 依據您的 [!DNL AEM] 版本的不同，請參閱以下連結以取得逐步說明：
 
-* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中，將[!UICONTROL Experience Fragments]匯出至Experience Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}。
+* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中，將[!UICONTROL Experience Fragments]匯出至Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}。
 * **[!DNL AEM]6.5**： [在&#x200B;*Adobe Experience Manager 6.5*&#x200B;檔案中，將體驗片段匯出至Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=zh-Hant){target=_blank}。
-* **[!DNL AEM]6.4**： [在&#x200B;*Adobe Experience Manager 6.4*&#x200B;檔案中，將體驗片段匯出至Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=zh-Hant){target=_blank}。
+* **[!DNL AEM]6.4**： [在&#x200B;*Adobe Experience Manager 6.4*&#x200B;檔案中，將體驗片段匯出至Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank}。
 
 ## 在[!DNL Target]個活動中使用[!UICONTROL Experience Fragments] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -118,11 +118,11 @@ ht-degree: 27%
 
 1. 在[!DNL Target]中，在[視覺化體驗撰寫器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中建立或編輯體驗時，按一下頁面上您要插入[!DNL AEM]內容的位置，然後按一下「**[!UICONTROL Replace Content]**」>「**[!UICONTROL Experience Fragment]**」以顯示[!UICONTROL Experience Fragment]對話方塊。
 
-   [!UICONTROL Experience Fragment]清單顯示在[!DNL AEM]中建立的內容，現在可從[!DNL Target]中以原生方式使用。
+   [!UICONTROL Experience Fragment]對話方塊會顯示在[!DNL AEM]中建立的內容，這些內容現在可從[!DNL Target]中以原生方式使用。
 
    >[!NOTE]
    >
-   >[!UICONTROL Swap with Experience Fragment]選項不適用於影像。 如果您想將此選項用於影像，請按一下包含所需影像的容器元素。
+   >[!UICONTROL Replace Content]選項不適用於影像。 如果您想將此選項用於影像，請按一下包含所需影像的容器元素。
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
@@ -133,10 +133,10 @@ ht-degree: 27%
 
    * **A/B 測試:** [建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自動分配:** [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **自動鎖定目標：**&#x200B;[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):**&#x200B;[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **自動鎖定目標：**[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **Automated Personalization (AP):**[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **A/B 測試或 XT 活動中的建議：**&#x200B;[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
+   * **A/B 測試或 XT 活動中的建議：**[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!DNL Target]中匯出為JSON的[!UICONTROL Experience Fragments]無法用於使用VEC建立的活動；在VEC型活動中僅支援HTML [!UICONTROL Experience Fragments]。 如果您想要使用JSON [!UICONTROL Experience Fragments]，請在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立的活動中使用。
 
@@ -146,7 +146,7 @@ ht-degree: 27%
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
-   [!UICONTROL Experience Fragment]清單顯示在[!DNL AEM]中建立的內容，現在可從[!DNL Target]中以原生方式使用。
+   [!UICONTROL Experience Fragment]對話方塊會顯示在[!DNL AEM]中建立的內容，這些內容現在可從[!DNL Target]中以原生方式使用。
 
 1. 選取所需的[!UICONTROL Experience Fragment]，然後按一下&#x200B;**[!UICONTROL Add]**。
 1. 完成活動的設定。
@@ -176,4 +176,4 @@ ht-degree: 27%
 >
 >已移除在 4:54 討論的 [!DNL AEM] 深度連結功能。
 
-如需詳細資訊，請參閱&#x200B;*AEM Sites影片和教學課程*&#x200B;頁面上的[搭配Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=zh-Hant)使用[!UICONTROL Experience Fragments]。
+如需詳細資訊，請參閱&#x200B;*AEM Sites影片和教學課程*&#x200B;頁面上的[搭配Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)使用[!UICONTROL Experience Fragments]。

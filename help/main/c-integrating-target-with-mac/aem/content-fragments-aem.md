@@ -4,16 +4,16 @@ description: 瞭解如何在 [!DNL Adobe Target] 活動中使用 [!DNL Adobe Exp
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]？
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 21%
+source-wordcount: '569'
+ht-degree: 15%
 
 ---
 
 # AEM [!UICONTROL Content Fragments]
 
-在[!DNL Target]活動中使用[!DNL Adobe Experience Manager] (AEM)中建立的[!UICONTROL Content Fragments] (CF)來協助Headless個人化和實驗。
+在[!DNL Target]活動中，使用在[!DNL Adobe Experience Manager] (AEM)中建立的[!UICONTROL Content Fragments] (CF)來協助Headless個人化和實驗。
 
 ## 考量事項
 
@@ -39,15 +39,15 @@ ht-degree: 21%
 
 ## 要求 {#requirements}
 
-您必須使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant){target=_blank}。您的客戶代表可協助確認您是否符合使用此功能的要求：
+您必須使用[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。 您的客戶代表可協助確認您是否符合使用此功能的要求：
 
 請和 [Adobe Target 客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)聯絡，以啟用整合並取得驗證的詳細資訊。
 
 ## 設定和使用[!DNL AEM]中的[!UICONTROL Content Fragments] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-若要匯出[!UICONTROL Content Fragments]以用於[!DNL Target]活動，您必須在AEM中執行一些初步步驟。 如需詳細資訊，請參閱 [Experience Manager as a Cloud Service 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=zh-Hant){target=_blank}中的匯出內容片段至 Adobe Target **。
+若要匯出[!UICONTROL Content Fragments]以用於[!DNL Target]活動，您必須在AEM中執行一些初步步驟。 如需詳細資訊，請參閱&#x200B;*Adobe Target as a Cloud Service檔案*&#x200B;中的[將內容片段匯出至Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。
 
-如需有關設計、建立、組織和發佈[!UICONTROL Content Fragments]的資訊，請參閱[Experience Manageras a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=zh-Hant){target=_blank}中的[[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant){target=_blank}和[使用內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=zh-Hant){target=_blank}。
+如需有關設計、建立、組織和發佈[!UICONTROL Content Fragments]的資訊，請參閱[Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}中的[[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant){target=_blank}和[使用內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}。
 
 ## 在[!DNL Target]個活動中使用[!UICONTROL Content Fragments] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -61,9 +61,7 @@ ht-degree: 21%
 
 ![依據內容片段類型進行篩選：Target UI 中的 HTML 或 JSON](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-您可以將滑鼠停留在清單中的[!UICONTROL Content Fragment]上，然後按一下[!UICONTROL View]圖示![資訊圖示](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png)以檢視有關[!UICONTROL Content Fragment]的其他資訊，包括其[!UICONTROL AEM path]和[!UICONTROL AEM deep link]。 按一下[!UICONTROL Offer Usage]索引標籤以檢視參考此優惠方案的活動。
-
-![內容片段資訊快顯視窗](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
+您可以暫留在清單中的[!UICONTROL Experience Fragment]上，然後按一下[!UICONTROL View]圖示![資訊圖示](/help/main/assets/icons/InfoOutline.svg)以檢視有關[!UICONTROL Content Fragment]的其他資訊，包括其[!UICONTROL Name]、[!UICONTROL Type]、[!UICONTROL Offer ID]、[!UICONTROL Offer path]和上次修改資訊。 按一下[!UICONTROL [!UICONTROL View Full Details]]以檢視參照此優惠方案的活動。
 
 您只能使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，在[!DNL Target]個活動中使用[!UICONTROL Content Fragments]。 您&#x200B;*無法*&#x200B;在使用[視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)的[!DNL Target]活動中使用[!UICONTROL Content Fragments]。 [!UICONTROL Content Fragments]會匯出為[!DNL Target]中的JSON，且無法在使用VEC建立的活動中使用。
 

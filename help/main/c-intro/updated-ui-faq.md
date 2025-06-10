@@ -5,21 +5,31 @@ title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# 已更新Target UI常見問題集
+# [!DNL Target] UI更新常見問題集
 
-尋找有關更新[!DNL Adobe Target] UI常見問題的解答，並提供實用的提示和連結以瞭解更多資訊。
+在2025年推出的新功能，[!DNL Adobe Target]更新的使用者介面引進了簡化且直覺式的體驗，藉以增強所有角色的易用性和效率。 此常見問題集說明有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，此FAQ可協助您順利轉換，並充分運用更新後的UI。
 
 ## 我可以在哪裡找到有關已更新[!DNL Target] UI的詳細資訊？
 
 +++詳細資料
-{{updated-ui}}
+下列資源提供資訊以進一步瞭解更新的[!DNL Target] UI：
+
+* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的關鍵UI變更摘要。
+
+* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]中[!UICONTROL Offers Library]主要UI變更的摘要。
+
+* [瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供簡短的總覽，協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
+
+* [[!UICONTROL Visual Experience Composer]個變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版和更新版本之間的差異。
+
+* [[!UICONTROL Visual Experience Composer]選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文說明更新的VEC UI及其選項。
 
 +++
 
@@ -50,7 +60,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 使用UI版本切換有幾項限制，包括新活動的可見性、現有活動的編輯，以及活動詳細資訊的一致性。
 
-如需有關轉出和取代暫時UI版本切換的詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換取代（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+如需詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換淘汰（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
 
 ++++
 
@@ -61,7 +71,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 使用UI版本切換有幾項限制，包括新活動的可見性、現有活動的編輯，以及活動詳細資訊的一致性。
 
-如需有關轉出和取代暫時UI版本切換的詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換取代（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+如需詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換淘汰（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
 
 +++
 
