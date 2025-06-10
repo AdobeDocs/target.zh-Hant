@@ -39,15 +39,15 @@ ht-degree: 15%
 
 ## 要求 {#requirements}
 
-您必須使用[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。 您的客戶代表可協助確認您是否符合使用此功能的要求：
+您必須使用[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant){target=_blank}。 您的客戶代表可協助確認您是否符合使用此功能的要求：
 
 請和 [Adobe Target 客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)聯絡，以啟用整合並取得驗證的詳細資訊。
 
 ## 設定和使用[!DNL AEM]中的[!UICONTROL Content Fragments] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-若要匯出[!UICONTROL Content Fragments]以用於[!DNL Target]活動，您必須在AEM中執行一些初步步驟。 如需詳細資訊，請參閱&#x200B;*Adobe Target as a Cloud Service檔案*&#x200B;中的[將內容片段匯出至Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。
+若要匯出[!UICONTROL Content Fragments]以用於[!DNL Target]活動，您必須在AEM中執行一些初步步驟。 如需詳細資訊，請參閱&#x200B;*Adobe Target as a Cloud Service檔案*&#x200B;中的[將內容片段匯出至Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=zh-Hant){target=_blank}。
 
-如需有關設計、建立、組織和發佈[!UICONTROL Content Fragments]的資訊，請參閱[Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}中的[[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant){target=_blank}和[使用內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}。
+如需有關設計、建立、組織和發佈[!UICONTROL Content Fragments]的資訊，請參閱[Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=zh-Hant){target=_blank}中的[[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant){target=_blank}和[使用內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=zh-Hant){target=_blank}。
 
 ## 在[!DNL Target]個活動中使用[!UICONTROL Content Fragments] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
