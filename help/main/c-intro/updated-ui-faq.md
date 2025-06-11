@@ -5,9 +5,9 @@ title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
+source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,6 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 * **增強體驗撰寫器(EEC)**：請參閱[EEC不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法於公用IP上存取的內部QA URL ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
 * **[!UICONTROL Recommendations]**：檢視Recommendations摘要處理伺服器使用的[個IP位址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
-
-+++
-
-## [!UICONTROL Browse]無法運作或允許我們瀏覽時發生問題。 [!DNL Adobe]是否觀察到與其他客戶類似的行為？
-
-+++詳細資料
-多重，需要協助。
 
 +++
 
