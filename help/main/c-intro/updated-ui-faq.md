@@ -5,7 +5,7 @@ title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -120,7 +120,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 +++
 
-### 環境是否會依預設在新的Recommendations UI上重設為測試？
+## 環境是否會依預設在新的Recommendations UI上重設為測試？
 
 +++詳細資料
 多重，需要協助。
