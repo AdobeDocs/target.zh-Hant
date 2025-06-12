@@ -519,7 +519,7 @@ ht-degree: 75%
 
 | 更新 | 詳細資料 |
 |--- |--- |
-| [!UICONTROL Browser:iPad]和[!UICONTROL Browser:iPhone]已在建立對象時所使用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中更新。 | [!DNL Adobe Target]可讓您[鎖定數個類別屬性中的任何一個](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括瀏覽您的頁面時使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)的訪客。<P>從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）將會更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`為[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：若要讓客戶在設定檔指令碼(和JavaScript區段)中針對[!DNL iPad]和[!DNL iPhone]執行適當的目標定位，客戶必須在&#x200B;**2024年4月30日**&#x200B;之前進行手動變更。 如需必須手動變更的替代設定範例，請參閱[!UICONTROL Browser]對象屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中 [!DNL iPad] 和 [!DNL iPhone] 的[更新。 |
+| [!UICONTROL Browser:iPad]和[!UICONTROL Browser:iPhone]已在建立對象時所使用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中更新。 | [!DNL Adobe Target]可讓您[鎖定數個類別屬性中的任何一個](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括瀏覽您的頁面時使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)的訪客。<P>從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）將會更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`為[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：若要讓客戶在設定檔指令碼(和JavaScript區段)中針對[!DNL iPad]和[!DNL iPhone]執行適當的目標定位，客戶必須在&#x200B;**2024年4月30日**&#x200B;之前進行手動變更。 如需必須手動變更的替代設定範例，請參閱[!UICONTROL Browser]對象屬性[&#128279;](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中 [!DNL iPad] 和 [!DNL iPhone] 的更新。 |
 
 ### [!UICONTROL Visual Editing Helper]副檔名（2024年3月14日）
 
@@ -560,7 +560,7 @@ ht-degree: 75%
 
 此版本包含下列增強功能和修正：
 
-* 已增強[活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md)功能，以支援[!UICONTROL Automated Personalization]活動中的體驗不允許重複選件](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。 [(TGT-46627)
+* 已增強[活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md)功能，以支援[!UICONTROL Automated Personalization]活動中的體驗不允許重複選件[&#128279;](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。 (TGT-46627)
 * 在 [!DNL Target] UI 中新增工具提示，可協助客戶了解為什麼在沒有流量分配給控制體驗時，活動報告可能沒有資料。工具提示中包含詳細資訊連結：[為什麼我的活動報告沒有資料？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
 * 已修正導致活動無法在少數客戶的[!UICONTROL Activities]頁面上正確顯示的問題。 (TGT-46830)
 * 修正下列對使用[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)作為報表來源的活動造成影響的問題：
@@ -2208,7 +2208,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) 體驗片段 </p> </td> 
-   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&amp;nbsp;&amp;nbsp; </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM會自動根據您的內容調整每個體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。&amp;nbsp; 透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳產品建議、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
+   <td colname="col2"> <p>在 Target 活動中使用 AEM 中建立的體驗片段，可讓您將 AEM 的易用性和威力，結合 Target 中強大的自動化智慧 (AI) 和機器學習 (ML) 功能，以大規模測試並個人化體驗。&nbsp;&nbsp; </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。不需要為每個裝置建立頁面，AEM會自動根據您的內容調整每個體驗。 </p> <p> Target 可讓您根據一組包含行為、情境和離線變數的規則型和 AI 驅動型機器學習方法，以大規模實現個人化體驗。&nbsp; 透過 Target，您可以輕鬆地設定和執行 A/B 及多變數活動，以決定最佳產品建議、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>報表 </p> </td> 
@@ -3571,7 +3571,7 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
    <td colname="col1" class="premium"> Recommendations CSV 下載 </td> 
    <td colname="col2"> <p>CSV下載現在適用於所有環境，包括沒有實體推薦的環境 (例如：
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>)。 </p> </td> 
   </tr> 
  </tbody> 
