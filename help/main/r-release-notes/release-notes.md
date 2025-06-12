@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 26%
+source-wordcount: '1701'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,38 @@ ht-degree: 26%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 25.6.2 （2025年6月12日）
+
+此版本包含下列修正和更新：
+
+* 已新增[新常見問題集文章](/help/main/c-intro/updated-ui-faq.md)，以解決有關已更新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題。
+* 修正[!UICONTROL Page Delivery]中的&quot;[!UICONTROL URL - does not contain]&quot;規則無法運作，導致內容無法顯示的問題，即使應封鎖內容亦然。 (TGT-52754)
+* 修正[!UICONTROL Page Delivery]錯誤顯示錯誤訊息「不允許重複的頁面URL」的問題。 (TGT-52765)
+* 修正為包含體驗片段的[!UICONTROL Page Delivery]個URL建立受眾且錯誤地附加#的問題。 (TGT-52786)
+* 修正在[!UICONTROL Goals and Settings]頁面上複製活動和編輯設定導致[!DNL Target] UI無回應的問題。 (TGT-52797)
+* 已修正更新[!UICONTROL Visual Experience Composer] (VEC)中錯誤允許將[!UICONTROL A/B Test]活動中的其他頁面重新導向至相同URL的問題。 (TGT-51838)
+* 修正編輯活動時，[!UICONTROL Goals and Settings]頁面上量度變更未儲存的問題。 (TGT-52799)
+* 修正當網頁編輯器仍在載入時新增體驗的問題，此問題會導致新體驗與先前體驗重複的內容。 (TGT-51397)
+* 已還原在`<head>`標籤外使用自訂程式碼的功能，這項功能先前在舊版Target UI中提供。 (TGT-52304 和 TGT-52300)
+* 移除在活動建立期間選取預設工作區時不需要的驗證。 強制屬性驗證不再套用至預設工作區，但會保留至非預設工作區。 (TGT-52449)
+* 修正更新[!UICONTROL Visual Experience Composer] (VEC)中未偵測到`triggerView()`個呼叫的問題。 (TGT-52575)
+* 已修正更新[!UICONTROL Visual Experience Composer] (VEC)中，使用者無法對[!UICONTROL Single Page Application] (SPA)檢視新增修改的問題。 (TGT-52556)
+* 已修正更新[!DNL Target] UI中導致客戶無法檢視優惠方案詳細資料的問題。 (TGT-52607)
+* 修正[!UICONTROL Offers Library]中優惠方案的更新未反映在更新的[!UICONTROL Visual Experience Composer] (VEC)中的問題。 (TGT-52637)
+* 修正在建立活動時，無法正確顯示「優惠」區段的問題。 (TGT-52773)
+* 已新增驗證，以確保`optionGroups`中參考的所有`optionLocalIds`都存在於選項陣列中。 活動建立期間會自動移除無效的參考。 (TGT-52687)
+* 修正新增優惠方案後未保留報表群組和排除專案的問題。 (TGT-52728)
+* 修正無[!UICONTROL Activity QA]按鈕的活動顯示空白選項選擇器的問題。 (TGT-52733)
+* 修正QA連結無法正確呈現內容的問題。 (TGT-52718)
+* 修正使用體驗片段取代元素時，未正確反映QA環境變更的問題。 (TGT-52762)
+* 已修正更新[!UICONTROL Visual Experience Composer] (VEC)中造成使用者嘗試新增體驗片段時「輸入無效」錯誤的問題。 (TGT-52701)
+* 修正在更新的[!UICONTROL Visual Experience Composer] (VEC)中編輯對象鎖定目標時，「編輯對象」強制回應視窗顯示為空白的問題。 (TGT-52749)
+* 新增訊息，以在選取的工作區中無法存取實體時通知使用者。 (TGT-52767)
+* 修正UI無法允許手動指派環境ID至條件的問題。 而是預設為[!UICONTROL Product Catalog Search]主機群組的ID。 此修正可確保條件變更現在會套用至所有環境，而不僅僅是預設環境。 (TGT-52817)
+* 修正具有建議的[!UICONTROL Experience Targeting] (XT)活動缺少&quot;[!UICONTROL Download Recommendations data]&quot;選項的問題。 (TGT-52730 和 TGT-52756)
+
+
 
 ## [!DNL Target Standard/Premium] 25.6.1 （2025年6月6日）
 
@@ -87,7 +119,7 @@ ht-degree: 26%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -97,7 +129,7 @@ ht-degree: 26%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
