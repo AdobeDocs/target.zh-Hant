@@ -51,7 +51,7 @@ UI的設計目的是為了清楚且有效率，協助您充分利用[!DNL Target
 
 >[!TAB AI小幫手]
 
-在&#x200B;[!DNL Adobe Experience Platform]**中**&#x200B;與[!DNL AI Assistant]會面
+在&#x200B;[!DNL Adobe Experience Platform]&#x200B;**中**&#x200B;與[!DNL AI Assistant]會面
 
 [!DNL AI Assistant]是您導覽[!DNL Adobe Experience Cloud]的智慧指南。 [!DNL Target]、[!DNL AI Assistant]等產品可協助您從介面快速瞭解重要概念和功能。
 
