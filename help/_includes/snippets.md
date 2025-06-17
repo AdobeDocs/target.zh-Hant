@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 10%
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->2025年新增，[!DNL Target]推出更新的UI和[!UICONTROL Visual Experience Composer] (VEC)。 按一下以下連結以瞭解更多資訊：
+>2025年新推出，[!DNL Target]推出更新的UI和[!UICONTROL Visual Experience Composer] (VEC)。 按一下以下連結以瞭解更多資訊：
 >
 >* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的關鍵UI變更摘要。
 >
