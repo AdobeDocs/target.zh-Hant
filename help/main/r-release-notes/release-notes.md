@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 18%
+source-wordcount: '2330'
+ht-degree: 16%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 18%
 這些發行說明提供每個 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正資訊。 此外，也會隨附 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的發行說明以及其他平台變更 (如適用)。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 25.6.3 （2025年6月20日）
+
+此版本包含下列修正和更新：
+
+* 已將[!UICONTROL Rearrange]選項新增至更新的[!UICONTROL Visual Experience Composer] (VEC) UI，以符合舊版VEC中可用的功能。 (TGT-46957)
+* 修正將活動從一個工作區複製到另一個工作區時，會觸發錯誤（例如「不得為空」或「發生錯誤」）的問題。 (TGT-52474)
+* 修正未針對某些活動產生[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]報告的問題。 (TGT-52904)
+* 已修正更新VEC中，[!UICONTROL Automated Personalization] (AP)活動中的預設內容處理與舊版UI不符的問題。 系統現在會在未明確新增群組時，自動新增名為「預設內容」的預設`optionGroup`搭配`optionGroupLocalId = 0`。 此群組包含預設選項（例如，`optionLocalId: 0`）。 如果移除預設內容，則也會移除對應的選項群組。 (TGT-52651)
+* 修正[!UICONTROL Multivariate Test] (MVT)活動中不允許從先前移除的體驗中重複使用`experienceLocalId`的問題。 (TGT-52672)
+* 修正無法複製或編輯包含體驗片段的活動的問題。 這已觸發錯誤： `Enum "AemOfferType" cannot represent value: "html"`。 (TGT-52635)
+* 修正活動位置中的URL因斜線(/)等無效字元而無法顯示查詢引數的問題。 (TNT52845)
+* 已透過後端API改善[!DNL A/B Test]活動更新的驗證錯誤訊息。 出現重複的位置名稱時，訊息現在會清楚指出： `locations.selectors`的「不允許重複名稱」。 (TGT-52589)
+* 修正更新已上線[!UICONTROL Recommendations]活動時，由於要求裝載中有無法辨識的屬性而發生的錯誤。 系統現在可以正確處理「無效的JSON」。 無法辨識的屬性名稱」錯誤。 (TGT-52723)
+* 修正無法建立[!DNL Recommendations]設計的問題。 按一下[!UICONTROL Create]觸發訊息：「指令碼內應至少使用1個實體變數。」 (TGT-52395 和 TGT-52899)
+* 修正無法在不修改的情況下重新儲存[!DNL Recommendations]設計的問題。 (TGT-52879)
+* 修正儲存[!UICONTROL Recommendations]活動時，造成「400錯誤請求」錯誤的後端驗證錯誤。 (TGT-52716)
+* 修正在[!UICONTROL Form-Based Experience Composer]中，將滑鼠游標暫留在[!UICONTROL Location]下拉式清單中具有特殊字元的mbox上，導致編輯器變為空白並觸發「無法在&#39;Element&#39;上執行&#39;querySelector&#39;」的問題。 」錯誤。(TGT-52717)
+* 使用新的「PARTIALLY_IMPORTED」指標改善摘要狀態準確度。 先前，即使檔案中並非所有列都已匯入，摘要仍會標示為「success」，這是誤導性的。 (TGT-52892)
+* 修正移轉至AP V2後，對`/admin/rest/ui/v1/campaigns`的特定API呼叫傳回使用者端錯誤(HTTP 4xx)的錯誤。 (TGT-52721)
 
 ## 更新日期： [!DNL Target] UI版本切換淘汰（2025年6月17日） {#revised}
 
@@ -143,7 +163,7 @@ ht-degree: 18%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -153,7 +173,7 @@ ht-degree: 18%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
