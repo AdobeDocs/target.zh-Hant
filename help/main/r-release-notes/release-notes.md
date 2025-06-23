@@ -6,9 +6,9 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2311'
 ht-degree: 16%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 16%
 
 此版本包含下列修正和更新：
 
-* 已將[!UICONTROL Rearrange]選項新增至更新的[!UICONTROL Visual Experience Composer] (VEC) UI，以符合舊版VEC中可用的功能。 (TGT-46957)
 * 修正將活動從一個工作區複製到另一個工作區時，會觸發錯誤（例如「不得為空」或「發生錯誤」）的問題。 (TGT-52474)
 * 修正未針對某些活動產生[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]報告的問題。 (TGT-52904)
 * 已修正更新VEC中，[!UICONTROL Automated Personalization] (AP)活動中的預設內容處理與舊版UI不符的問題。 系統現在會在未明確新增群組時，自動新增名為「預設內容」的預設`optionGroup`搭配`optionGroupLocalId = 0`。 此群組包含預設選項（例如，`optionLocalId: 0`）。 如果移除預設內容，則也會移除對應的選項群組。 (TGT-52651)
@@ -163,7 +162,7 @@ ht-degree: 16%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -173,7 +172,7 @@ ht-degree: 16%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
