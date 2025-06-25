@@ -4,16 +4,16 @@ description: 瞭解如何 [!DNL Adobe Target] 可讓您追蹤任何元素上的�
 title: 什麼是點選追蹤？
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 59%
+source-wordcount: '858'
+ht-degree: 56%
 
 ---
 
 # 點擊追蹤
 
-[!DNL Adobe Target]可讓您追蹤任何元素上的點選做為成功量度。
+[!DNL Adobe Target]可讓您追蹤任何元素上的點選做為成功量度。 點選追蹤是指監視和記錄使用者互動（尤其是點選）在網頁或體驗中元素的程式。 這是在A/B測試、多變數測試和個人化活動中測量參與度和績效的關鍵部分。
 
 >[!NOTE]
 >
@@ -30,43 +30,33 @@ ht-degree: 59%
 
    請參閱以下的&#x200B;*「考量事項」*&#x200B;區段，以取得選取元素的相關提示。
 
-1. 按一下畫面頂端的&#x200B;**[!UICONTROL Save]**&#x200B;以儲存您的選擇。
+1. 按一下畫面頂端的&#x200B;**[!UICONTROL Done]**&#x200B;以儲存您的選擇。
 
 當活動加入者點擊選取的元素時，該點擊會被計為轉換。
 
 ## 選取的元素面板 {#selected-elements}
 
-針對[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Test] (MVT)活動，[!UICONTROL Selected Elements]面板會在右側列出點選追蹤的所選元素。
+針對[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Test] (MVT)活動，[!UICONTROL Selected Elements]面板會在左側列出點選追蹤的所選元素。
 
 ![所選元素面板](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-當您將游標移至[!UICONTROL Selected Elements]面板中的某個元素上時，有一些可套用的動作。 下表說明可在元素上執行的各個動作:
+按一下[!UICONTROL Tracked Components]面板中的元素時，有數個動作可以套用。 下表說明可在元素上執行的各個動作:
 
 | 動作 | 說明 |
 | --- | --- |
-| 資訊 | 顯示元素類型和選取器的完整 DOM 路徑。 |
-| 編輯   | 可讓您編輯 CSS 選取器。 |
-| 刪除 | 刪除元素。 |
+| [!UICONTROL Tracked actions] | 顯示元素動作。 |
+| [!UICONTROL CSS selector] | 可讓您編輯 CSS 選取器。 |
+| [!DNL Delete] | 刪除元素。 |
 
 ### 新增元素
 
-如果您已知道選取器的DOM路徑，可以按一下面板頂端的加號圖示手動新增。
-
-![新增元素圖示](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### 選取的元素快顯功能表
-
-選取多個點選追蹤元素後，您可以在活動的[!UICONTROL Goals & Settings]步驟上按一下[!UICONTROL Elements Selected]連結，檢視針對點選追蹤所選取元素的完整清單。 此清單包含元素的完整 DOM 路徑，可協助您驗證要用於點擊追蹤的所選元素。
-
-![所選元素連結](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+如果您已知道選取器的DOM路徑，可以按一下面板頂端的[!UICONTROL Add Component]圖示手動新增。
 
 ## 考量事項 {#considerations}
 
 選取元素時，有數個項目要考慮:
 
 * 設定點擊追蹤時，可使用 DOM 路徑功能。當您按一下頁面上的元素時，VEC 選項功能表隨即顯示。此外，對應的 DOM 路徑會顯示於頁面底部。您可以使用 DOM 路徑快速查看有關已選取元素 (類型、ID 和類別) 的資訊，然後向上或向下移動 DOM 路徑以選取想要的元素。
-
-  ![DOM 路徑圖](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
   就像在活動建立工作流程的步驟1建立體驗時一樣，頁面底部的DOM路徑選取器可讓您選擇元素。 在從 DOM 路徑選取元素時，VEC 中的對應元素會顯示為「已選取」。若要取消選取已選取的元素，您可以在DOM路徑選取器中再次按一下該元素，或按一下VEC中的「已選取」方塊。
 
@@ -87,7 +77,7 @@ ht-degree: 59%
   | $ | 貨幣符號 |
   | `[ ]` | 方括弧 |
 
-* 如果您使用[!DNL at.js]點選追蹤，並且也使用[!DNL Analytics]AppMeasurement，[!DNL at.js]點選追蹤會取消所有其他的點選事件處理常式。 因此，AppMeasurement 點擊事件處理常式永遠不會執行。
+* 如果您使用[!DNL at.js]點選追蹤，並且也使用[!DNL Analytics] AppMeasurement，[!DNL at.js]點選追蹤會取消所有其他的點選事件處理常式。 因此，AppMeasurement 點擊事件處理常式永遠不會執行。
 
   當基礎元素為 [!DNL at.js] (連結) 標記或`A` 標記時，`FORM` 對於點擊追蹤有特殊的處理方式。
 
