@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 先決條件
 
-1. 請確定您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。
@@ -58,7 +58,7 @@ ht-degree: 1%
    * **語言**：選擇文字所要的語言。 [!DNL AI Assistant]目前僅提供英文。
    * **音調**：文字的音調應該會與您的對象產生共鳴。 無論您是要提供資訊、令人興奮、好玩或具有說服力，[!DNL AI Assistant]都可以據以調整訊息。
 
-     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]和[!UICONTROL Conversational]。
+     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]和[!UICONTROL Conversational]。
 
 1. 使用滑桿選擇文字長度（[!UICONTROL Shorter Text]到[!UICONTROL Larger Text]）。
 
