@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
+source-git-commit: 2f49a957979b4acaac7060f530b26861e1e774c9
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 27%
+source-wordcount: '581'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年6月26日**
+**上次更新日期：2025年6月27日**
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ ht-degree: 27%
 * 修正了[!UICONTROL A/B Test]活動中變體體驗（例如體驗B）的修改未保留的問題。 在體驗之間切換後，對變數的變更將會消失。 此問題不會影響控制體驗。 (TGT-52664)
 * 已修正某些客戶無法建立或儲存活動，而其他客戶則可順利執行相同動作的問題。 不同帳戶之間的問題不一致。(TGT-52842)
 * 修正更新VEC中，使用者無法移動舊版UI功能[!UICONTROL Page Load event]修改的問題。 (TGT-52617)
+* 修正更新UI中建立變更時[!DNL Target]中未顯示[!UICONTROL page load]事件的問題；更新僅套用至檢視。 (TGT-52604)
 * 已修正導致某些活動修改無法在更新的VEC中正確顯示的問題。 (TGT-52818)
 * 修正擷取[!UICONTROL Automated Personalization] (AP)活動的報告資料時發生Null指標例外狀況。 (TGT-52362)
 * 已修正導致選件層級詳細資料無法在[!UICONTROL Automated Personalization] (AP)活動的.CSV檔案中顯示的問題。 (TGT-52675)
@@ -49,7 +50,7 @@ ht-degree: 27%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
