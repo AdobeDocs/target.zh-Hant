@@ -4,9 +4,9 @@ description: 了解  [!DNL Adobe Target] 即將發行的版本所包含的新功
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a527cc60552a47f65a079009400049b738adf811
+source-git-commit: 54e97914f5d1f61dc04bc8afb34eac2899933a90
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1888'
 ht-degree: 11%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 11%
 * 釐清客戶從[!UICONTROL Targeting]步驟導覽回[!UICONTROL Experiences]時，使用HTML選件進行的修改可能遺失的行為。 針對此客戶，受影響的網站會動態產生多個DOM選取器，並隨著每次頁面載入而變更。 因此，重新開啟編輯器時，找不到原來用於修改的選取器，導致修改遺失或無效。 一切如預期般運作。 為了確保修改內容可在編輯器中持續顯示，建議使用者端使用穩定、一致的選取器，且這些選取器不會在頁面重新載入時變更。 (TGT-52874)
 * 修正嘗試刪除或停用屬於排除體驗之優惠並觸發「無效使用者輸入」錯誤的問題。 即使未主動在所包含體驗中使用選件，也會發生此問題。 (TGT-52917)
 * 修正[!UICONTROL Revenue]步驟中的[!UICONTROL Goals & Settings]量度下拉式清單錯誤地預設為[!UICONTROL Revenue per Visit] (RPVISIT)的問題，即使在使用者選取了不同的量度後也是如此。  收合併重新展開量度設定面板時，發生問題，導致重設先前選取的值。 (TGT-52811 和 TGT-52878)
-* 修正封鎖的問題
 * 修正[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Testing] (MVT)活動中與選件命名和內容翻譯相關的活動建立工作流程幾個問題：
 
   已解決的關鍵問題：
@@ -93,7 +92,7 @@ ht-degree: 11%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
