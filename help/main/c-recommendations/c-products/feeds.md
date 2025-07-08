@@ -1,14 +1,14 @@
 ---
 keywords: 建議摘要；摘要；SAINT；ftp；csv；分類；analytics分類
-description: 瞭解摘要如何使用CSV檔案、 [!DNL Google Product Search] 摘要格式和 [!DNL Analytics] 產品分類將實體匯入至 [!DNL Adobe Target] [!DNL Recommendations]。
-title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL Feeds]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解摘要如何使用CSV檔案、 [!DNL Adobe Target] [!DNL Recommendations]摘要格式和 [!DNL Google Product Search] 產品分類將實體匯入至 [!DNL Analytics] 。
+title: 如何在[!UICONTROL Feeds]中使用 [!DNL Target Recommendations]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 38%
+source-wordcount: '2613'
+ht-degree: 35%
 
 ---
 
@@ -121,11 +121,11 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >不一定要使用[!DNL Google]資料。 [!DNL Recommendations]使用與[!DNL Google]相同的格式。 您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。不過，當您設定檔案時，必須保留[!DNL Google]預先定義的屬性名稱。
 
-大部分零售商會將產品上傳至[!DNL Google]，所以當訪客使用[!DNL Google]產品搜尋時，會顯示其產品。 [!DNL Recommendations]完全遵循實體摘要的[!DNL Google]規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定義的屬性。 可以在[[!DNL Google] 購物頁面](https://www.google.com/prdhp)上搜尋結果。
+大部分零售商會將產品上傳至[!DNL Google]，所以當訪客使用[!DNL Google]產品搜尋時，會顯示其產品。 [!DNL Recommendations]完全遵循實體摘要的[!DNL Google]規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google[定義的](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)屬性。 可以在[[!DNL Google] 購物頁面](https://www.google.com/prdhp)上搜尋結果。
 
 >[!NOTE]
 >
->主控[!DNL Google]摘要內容的伺服器上必須允許該POST方法。
+>主控[!DNL Google]摘要內容的伺服器上必須允許使用POST方法。
 
 因為[!DNL Recommendations]使用者已設定.xml或.txt摘要透過URL或FTP傳送至[!DNL Google]，實體摘要會接受該產品資料並使用它來建置建議目錄。 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
 
@@ -212,16 +212,16 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱[Analytics元件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)指南中的&#x200B;*關於分類*。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
->在使用[!DNL Analytics]產品分類將實體資料匯入到[!DNL Recommendations]之前，請注意這不是推薦的方法。
+>在使用[!DNL Recommendations]產品分類將實體資料匯入到[!DNL Analytics]之前，請注意這不是推薦的方法。
 >
 > 請注意下列警告:
 >
 >* 更新實體屬性會引起額外延遲，最多 24 小時。
->* [!DNL Target]僅支援[!UICONTROL Product Classifications]。 [!DNL Analytics]產品SKU必須對應到與[!DNL Recommendations] `entity.id`相同的等級。 可使用[!UICONTROL Adobe Consulting Services]設計自訂[!DNL Analytics]分類。 如有疑問，請聯絡您的客戶經理。
+>* [!DNL Target]僅支援[!UICONTROL Product Classifications]。 [!DNL Analytics]產品SKU必須對應到與[!DNL Recommendations] `entity.id`相同的等級。 可使用[!DNL Analytics]設計自訂[!UICONTROL Adobe Consulting Services]分類。 如有疑問，請聯絡您的客戶經理。
 
 ## 建立摘要 {#steps}
 
@@ -274,7 +274,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 按一下 **[!UICONTROL Save]**。
 
-在您建立或編輯摘要後，摘要會立即執行。 然後會根據您設定的引數更新摘要。 需要一些時間才能提供資訊。 首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。目前狀態會顯示在[!UICONTROL Feeds]清單中的[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)下。 您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
+在您建立或編輯摘要後，摘要會立即執行。 然後會根據您設定的引數更新摘要。 需要一些時間才能提供資訊。 首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。目前狀態會顯示在[清單中的](/help/main/c-recommendations/c-products/feeds.md#status)摘要狀態[!UICONTROL Feeds]下。 您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
 
 編列索引進行時，在個別值已編列索引之前，產品和摘要標題會先出現。這可讓您搜尋及檢視產品，以便於在完成索引前建立集合、排除專案、設計和活動。
 
@@ -298,6 +298,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | [!UICONTROL Downloading Feed File] | [!DNL Target]正在下載摘要檔案。 |
 | [!UICONTROL Importing Items] | [!DNL Target]正在從摘要檔案匯入專案。 |
 | 已於&#x200B;*時間*&#x200B;成功匯入摘要 | [!DNL Target]已將摘要檔案匯入其內容傳遞系統。 已在內容傳遞系統中進行專案屬性的變更，這些變更很快會反映在已傳送的建議中。 如果沒有看到預期的變更，請再試一次，並重新整理包含建議的頁面。<br>附註：<ul><li>如果專案屬性的變更導致建議排除了該專案，則會立即反映排除。 如果專案是新增的專案，或屬性變更導致建議中不再包含&#x200B;*專案*，該專案要等到下次演演算法更新時才會反映出來，這會在24小時內發生。</li><li>顯示此狀態時，更新可能尚未反映在[!UICONTROL Catalog Search] UI中。 [!UICONTROL Catalog Search]中會列出另一個狀態，表示上次更新可搜尋目錄的時間。</li></ul> |
+| 部分匯入失敗 | 先前，如果未上傳所有列，摘要仍會標籤為成功。 因此，當摘要顯示成功時，會建立所有列皆已上傳的錯誤印象。<P>以下是您可能會遇到部分摘要匯入的案例：<ul><li>您已上傳生產環境的摘要檔案，例如100列。</li><li>摘要執行並上傳了80列（共20列），但由於格式不正確、欄位超過字元等原因而捨棄了20列。</li><li>摘要在UI中標示為成功，讓您產生已上傳所有100列的印象。</li><li>您預期這20種產品中會有一部分在活動傳送中，但實際上並未發生。</li><li> 您現在很困惑，因為您上傳的摘要中有相關產品的產品詳細資料。 您透過實體API進行查詢時，不會在後端看到，這表示它不在後端。</li></ul>若要消除此混淆，已改良此訊息，以告知摘要的確切狀況。 與其標籤為成功，現在會標籤為部分匯入失敗。 |
 | [!UICONTROL Failed to Index] | 編列索引作業失敗。再試一次。 |
 | [!UICONTROL Server Not Found] | FTP 或 URL 位置無效或無法觸達。 |
 
