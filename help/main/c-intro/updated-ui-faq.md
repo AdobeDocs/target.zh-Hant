@@ -4,9 +4,9 @@ description: 有關更新 [!DNL Target]t使用者介面的問答。
 title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題集？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 淘汰Target UI版本切換的時間表是否已更新？
 
 +++詳細資料
-是。 您可以在[已更新： [!DNL Target] UI版本切換淘汰（2025年6月17日）](/help/main/r-release-notes/release-notes.md#revised)中找到新時間軸和重要資訊。
+是。 您可以在[需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)中找到新的時間表和重要資訊。
 
 +++
 
@@ -44,9 +44,7 @@ ht-degree: 0%
 +++詳細資料
 更新的UI可供所有[!DNL Target]客戶、[!UICONTROL Standard]和[!UICONTROL Premium]使用。 不需要升級授權或SKU。
 
-新[!DNL Target] UI的轉出已於2025年5月27日完成。 屆時所有客戶都能存取最新的UI版本。
-
-如需有關轉出和取代暫時UI版本切換的詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換取代（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+如需有關轉出和取代暫時UI版本切換的詳細資訊，請參閱[您需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 +++
 
@@ -55,22 +53,18 @@ ht-degree: 0%
 +++詳細資料
 [!DNL Target]團隊正在主動解決與新UI轉出相關的問題。 版本注意事項中會詳細說明更新和持續改善。
 
-如需有關轉出和取代暫時UI版本切換的詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換取代（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+如需有關轉出和取代暫時UI版本切換的詳細資訊，請參閱[您需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 +++
 
 ## 如果客戶偏好使用舊版UI，可以申請UI版本切換以保留其帳戶嗎？
 
 +++詳細資料
-UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL Target] UI和舊版之間切換。 此選項僅在UI轉出的最後階段可用。 轉出完成後，切換將會移除，所有使用者將於2025年6月22日永久轉換為更新的UI。
+UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL Target] UI和舊版之間切換。 此選項僅在UI轉出的最後階段可用。 轉出完成後，切換將會移除，所有使用者將永久轉換為更新後的UI。
 
 使用UI版本切換有幾項限制，包括新活動的可見性、現有活動的編輯，以及活動詳細資訊的一致性。
 
->[!NOTE]
->
->在6月22日之後，有特殊情況需要保持切換的客戶可以聯絡Adobe客戶服務以尋求協助。 如需詳細資訊，請參閱[已更新： [!DNL Target] UI版本切換淘汰（2025年6月17日）](/help/main/r-release-notes/release-notes.md#revised)。
-
-如需詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換淘汰（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+如需詳細資訊，請參閱[您需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 ++++
 
@@ -81,7 +75,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 使用UI版本切換有幾項限制，包括新活動的可見性、現有活動的編輯，以及活動詳細資訊的一致性。
 
-如需詳細資訊，請參閱&#x200B;*舊版發行說明*&#x200B;中的[Target UI版本切換淘汰（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+如需詳細資訊，請參閱[您需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 +++
 
@@ -120,7 +114,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 +++詳細資料
 如需可加入允許清單之IP位址的詳細資訊，請參閱下列文章：
 
-* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法於公用IP上存取的內部QA URL ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
+* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)疑難排解增強體驗撰寫器的相關問題&#x200B;*中，載入無法於公用IP上存取的內部QA URL*
 * **[!UICONTROL Recommendations]**：檢視Recommendations摘要處理伺服器使用的[個IP位址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
 
 +++
@@ -128,7 +122,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 ## 環境是否會依預設在新的Recommendations UI上重設為測試？
 
 +++詳細資料
-環境現在預設為客戶使用的最後一個環境。 若要切換環境，請使用[!UICONTROL Catalog Search] UI右上角的[!UICONTROL Environment]選取器。
+環境現在預設為客戶使用的最後一個環境。 若要切換環境，請使用[!UICONTROL Environment] UI右上角的[!UICONTROL Catalog Search]選取器。
 
 ![環境引數](/help/main/c-intro/assets/environmnent.png)
 
