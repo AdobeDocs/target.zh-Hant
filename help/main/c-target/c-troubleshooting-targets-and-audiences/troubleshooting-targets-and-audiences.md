@@ -4,10 +4,10 @@ description: 檢視關於體驗鎖定目標和Adobe [!DNL Target] 活動中使�
 title: 何處可以找到有關鎖定目標和對象的問題和回答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 56%
+source-wordcount: '973'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,7 @@ Target會根據您在建立活動時使用對象URL鎖定目標，或您在建�
 
 ### 對象URL目標定位
 
-若要在建立活動時套用對象URL目標定位，請在體驗頁面（三步驟引導式工作流程的步驟一）上，按一下齒輪圖示，按一下頁面傳送，然後指定所需URL。
+若要在建立活動時套用對象URL目標定位，請在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面上（三步驟引導式工作流程的步驟一），按一下&#x200B;**[!UICONTROL Configure]**&#x200B;圖示（ ![設定圖示](/help/main/assets/icons/Setting.svg)）、按一下&#x200B;**[!UICONTROL Page Delivery]**，然後指定所要的URL。
 
 ![頁面傳送URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ Target會根據您在建立活動時使用對象URL鎖定目標，或您在建�
 
 ### URL目標定位 {#url-targeting}
 
-若要套用URL目標定位，在建立對象時，請按一下[!UICONTROL Add Rule]、按一下[!UICONTROL Site Pages]、從第一個下拉式清單中選取選項（[!UICONTROL Current Page]、[!UICONTROL Previous Page]或[!UICONTROL Landing Page]）、從第二個下拉式清單中選取[!UICONTROL URL]、指定評估器，然後指定所要的URL。
+若要套用URL目標定位，在建立對象時，請按一下將&#x200B;**[!UICONTROL Site Pages]**&#x200B;拖放到[!UICONTROL Create Audiences]窗格中，按一下&#x200B;**[!UICONTROL Site Pages]**，從第一個下拉式清單中選取選項（[!UICONTROL Current Page]、[!UICONTROL Previous Page]或[!UICONTROL Landing Page]），從第二個下拉式清單中選取[!UICONTROL URL]，指定評估器，然後指定所要的URL。
 
 ![網站頁面>目前頁面> URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,9 +80,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 使用者符合在活動[!UICONTROL Target]頁面上顯示的第一個體驗/對象資格。
 
-例如，在下圖中，來自加州且使用 Windows 裝置的使用者，會同時符合體驗 A (Windows 對象) 和體驗 C (加州對象) 的資格。此使用者會看到體驗 A，因為在目標頁面上，此體驗在清單中出現在體驗 C 上方。
-
-![受眾順序影像](assets/audiences_order.png)
+例如，假設體驗/對象將Windows列為體驗A，將iOS列為體驗B，並將加州列為體驗C。來自加州且使用Windows裝置的使用者同時符合體驗A （Windows對象）和體驗C （加州對象）的資格。 此使用者會看到體驗 A，因為在目標頁面上，此體驗在清單中出現在體驗 C 上方。
 
 ## 在[!DNL Target] 、 Adobe Audience Manager (AAM)以及核心服務中的對象資料庫中，同一對象的名稱為何不同？ {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
@@ -96,15 +94,15 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 ## 為何所有設定檔引數都未顯示在[!DNL Target]使用者介面中？ {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] 具有每個 mbox 呼叫 50 個獨特設定檔屬性的限制。如果您需要傳遞超過50個設定檔屬性至[!DNL Target]，則可以使用[!UICONTROL Profile Update] API方法來傳遞它們。 如需詳細資訊，請參閱 Adobe Target API 文件中的[設定檔更新](https://developers.adobetarget.com/api/#authentication-tokens)。
+[!DNL Target] 具有每個 mbox 呼叫 50 個獨特輪廓屬性的限制。如果您需要傳遞超過50個設定檔屬性至[!DNL Target]，則可以使用[!UICONTROL Profile Update] API方法來傳遞它們。 如需詳細資訊，請參閱 Adobe Target API 文件中的[設定檔更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
 ## 訪客在 AP 活動中為何看到不應該看到的體驗? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-在每個工作階段都會評估一次自動個人化活動。如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增選件，則除了先前顯示的選件，使用者還會看到新內容。因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
+在每個工作階段都會評估一次自動個人化活動。如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增產品建議，則除了先前顯示的產品建議，使用者還會看到新內容。因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
 
 ## 為何透過API建立之對象所做的變更未反映在[!DNL Target] UI中？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-與選件和設定檔指令碼不同，API 對於 Target Standard 建立之客群所做的變更目前未同步回 Target UI。
+與產品建議和輪廓指令碼不同，API 對於 Target Standard 建立之客群所做的變更目前未同步回 Target UI。
 
 ## 代表數值的字串 (亦支援浮點數) 以數值形式比較。{#strings-that-represent-numbers}
 
