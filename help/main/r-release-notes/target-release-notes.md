@@ -43,7 +43,7 @@ ht-degree: 12%
 * 修正嘗試將[!UICONTROL All Visitors]以外的對象指派至活動時發生的問題。 儲存後，顯示下列錯誤訊息：「我們無法完成您的要求。 如果問題仍然存在，請聯絡[!UICONTROL Adobe Client Care]。」 (TGT-53008)
 * 修正在活動編輯器中建立和指派新對象後，無法儲存活動的問題。 顯示的錯誤訊息為：「我們無法完成您的要求。 如果問題仍然存在，請聯絡[!UICONTROL Adobe Client Care]。」 (TGT-52977)
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 * 修正複製現有活動並將報告來源變更為[!DNL Adobe Analytics] (A4T)會導致「無效使用者輸入」錯誤的問題。 當某些與[!DNL Analytics]報告不相容的量度動作（例如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）從原始活動中保留時觸發此錯誤。 (TGT-52900)
 * 修正在[!DNL Adobe Analytics]步驟中選取[!UICONTROL Goals & Settings] (A4T)作為報告來源時，封鎖客戶建立或儲存活動的問題。 選取[!UICONTROL Custom Event]量度（例如「自訂事件16」）時，會發生特定問題，導致下列錯誤：「無效的使用者輸入」。 (TGT-52910)
@@ -86,7 +86,7 @@ ht-degree: 12%
 * 修正從[!UICONTROL Export order details to CSV]頁面選取「[!UICONTROL Reports]」導致下載空白檔案的問題。 即使活動中存在有效的訂單資料，也會發生此問題。 (TGT-52225)
 * 修正在建立和指派新報表對象後嘗試儲存活動的問題。 傳回的錯誤訊息為：「存取遭拒。 若要執行此作業，需要下列所有許可權： [編輯器]。」 儘管使用者擁有核准者層級的存取權，仍發生此問題。 (TGT-53103)
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 * 解決套用修改至檢視會造成檢視重複和活動傳回「無效使用者輸入」錯誤的問題。 此修正可確保正確套用檢視修改，而不會觸發複製或驗證錯誤。 (TGT-52886)
 * 修正自訂程式碼修改因錯誤體驗而錯誤顯示的問題。 具體而言，針對一個體驗而做的變更會顯示在不同的體驗中，導致混淆和使上線活動可能設定錯誤。 (TGT-52776)
