@@ -1,26 +1,26 @@
 ---
 keywords: ai助理；人工智慧助理；內容產生；內容加速器；內容產生；產生內容
 description: 瞭解如何使用 [!DNL AI Assistant]產生吸引人的內容。
-title: 如何使用 [!DNL Target] 中的 [!DNL AI Assistant] 產生吸引人的內容？
+title: 如何使用 [!DNL AI Assistant] 中的 [!DNL Target] 產生吸引人的內容？
 feature: Overview
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
-# 在[!DNL Adobe Target]中使用[!DNL AI Assistant]產生內容
+# 在[!DNL AI Assistant]中使用[!DNL Adobe Target]產生內容
 
-透過[!DNL AI Assistant]在[!DNL Adobe Target]中推動參與和轉換。 利用創造性AI製作個人化、高影響力的文字，與您的對象產生共鳴，並提升您的活動內容。
+透過[!DNL Adobe Target]在[!DNL AI Assistant]中推動參與和轉換。 利用創造性AI製作個人化、高影響力的文字，與您的對象產生共鳴，並提升您的活動內容。
 
 ## 先決條件
 
-1. 請確定您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在[的 [!DNL Adobe Experience Platform] [!DNL AI Assistant]啟用 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。
@@ -59,11 +59,11 @@ ht-degree: 1%
 
    * **音調**：文字的音調應該會與您的對象產生共鳴。 無論您是要提供資訊、令人興奮、好玩或具有說服力，[!DNL AI Assistant]都可以據以調整訊息。
 
-     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]和[!UICONTROL Conversational]。
+     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]和[!UICONTROL Conversational]。
 
-1. 使用滑桿選擇文字長度（[!UICONTROL Shorter Text]到[!UICONTROL Larger Text]）。
+1. 使用滑桿來挑選您要文字的長度，從短到長。
 
-1. （選用）按一下Brand Assets ，上傳或切換Brand Assets以供產生期間的其他內容內容。
+1. （選用）按一下「**[!UICONTROL Brand Assets]**」，在產生期間上傳或切換品牌資產，以取得其他內容內容。
 
 1. 按一下&#x200B;**[!UICONTROL Generate]**&#x200B;以建立文字變化清單。
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## 範例變數 {#variations}
 
-變更主圖文字只是開始。 [!DNL Target]中有[!DNL AI Assistant]時，您不限於基本編輯。 您能夠建立、調整並提升整個體驗中的內容。 無論您是要腦力激盪變化、最佳化傳訊，還是要即時產生全新的副本，[!DNL AI Assistant]都能運用創作AI的強大功能，協助您在數秒內製作引人入勝且具高度影響力的內容。
+變更主圖文字只是開始。 [!DNL AI Assistant]中有[!DNL Target]時，您不限於基本編輯。 您能夠建立、調整並提升整個體驗中的內容。 無論您是要腦力激盪變化、最佳化傳訊，還是要即時產生全新的副本，[!DNL AI Assistant]都能運用創作AI的強大功能，協助您在數秒內製作引人入勝且具高度影響力的內容。
 
 下列提示和變化顯示[!DNL AI Assistant]的力量。
 
@@ -100,4 +100,4 @@ ht-degree: 1%
 
 ### 使用AI助理建立內容以產生內容
 
->[!VIDEO](https://video.tv.adobe.com/v/3434646/?learn=on&captions=chi_hant">https://video.tv.adobe.com/v/3434646/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
