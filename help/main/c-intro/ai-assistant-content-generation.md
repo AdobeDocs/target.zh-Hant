@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **音調**：文字的音調應該會與您的對象產生共鳴。 無論您是要提供資訊、令人興奮、好玩或具有說服力，[!DNL AI Assistant]都可以據以調整訊息。
 
-     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]和[!UICONTROL Conversational]。
+     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]和[!UICONTROL Conversational]。
 
 1. 使用滑桿來挑選您要文字的長度，從短到長。
 
