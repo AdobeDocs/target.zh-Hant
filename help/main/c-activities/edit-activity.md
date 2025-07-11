@@ -1,23 +1,23 @@
 ---
 keywords: 活動; 活動類型; 編輯活動; 編輯; 草稿
-description: 瞭解您可以在Adobe Target中編輯現有活動的各種方式，包括以草稿形式儲存活動。
+description: 瞭解您可以編輯現有活動的不同方式，包括以草稿形式儲存活動。
 title: 如何編輯活動或儲存為草稿？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
+source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 44%
+source-wordcount: '1010'
+ht-degree: 39%
 
 ---
 
 # 編輯活動或另存為草稿
 
-瞭解如何編輯[!DNL Adobe Target]中的現有活動，包括如何將變更儲存為草稿。 本文介紹[!DNL Target]介面中可用於修改活動的不同方法，不論您是要更新體驗、調整鎖定目標規則或設定目標，同時確保您的變更在啟用前可安全地儲存。
+瞭解如何編輯[!DNL Adobe Target]中的現有活動，包括如何將變更儲存為草稿。 本文介紹[!DNL Target]介面中可用來修改活動的不同方法。 無論您是要更新體驗、調整鎖定目標規則或設定目標，Target都能確保在啟用前安全地儲存變更。
 
-[!DNL Target]在UI中提供可以編輯現有活動的各種位置。 處理程序根據您選擇的方法而有所不同。
+[!DNL Target]在UI中提供可以編輯現有活動的各種位置。 程式會依您選擇的方法而有所不同。
 
-## 在活動頁面上使用暫留按鈕來編輯活動 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## 在活動頁面上使用暫留[!UICONTROL More Actions]圖示來編輯活動 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. 從&#x200B;**[!UICONTROL Activities]**&#x200B;頁面，按一下您要編輯的活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **編輯**]。
 
@@ -32,7 +32,7 @@ ht-degree: 44%
    * **[!UICONTROL Save & Close]：**&#x200B;按一下&#x200B;**[!UICONTROL Save and Close]**&#x200B;以儲存您的變更並顯示活動的[!UICONTROL Overview]頁面。
    * **儲存：**&#x200B;按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存您的變更並留在VEC中，讓您可以繼續變更。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
 
-## 在[!UICONTROL Activities]頁面上按一下名稱以開啟活動來編輯活動 {#section_176180DAD17E40CEA441903F39E0AA1C}
+## 從[!UICONTROL Activities]頁面按一下活動名稱以編輯活動 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 若要避免逐步執行工作流程，請從「[!UICONTROL Activities]」頁面中按一下所需的活動以開啟，從「**[!UICONTROL Edit Activity]**」下拉式清單中選取選項，然後選取所需的選項。
 
@@ -88,7 +88,7 @@ ht-degree: 44%
 
 在工作區中使用複製/編輯功能時，請考量下列資訊:
 
-* 在相同的工作區內複製活動時，新複製的活動會以編輯模式開啟建立流程第一步。
+* 在相同工作區中複製活動時，新複製活動的建立流程的第一步會在編輯模式下開啟。
 * 將活動複製到不同工作區時，活動會複製另一個工作區，但不會在活動建立流程中開啟。成功複製活動之後，就會顯示訊息指出已成功複製活動，且包含連結讓您開啟新活動。
 
 如果環境未啟用「企業使用者權限」功能，則所有活動在複製之前會以編輯模式開啟。
