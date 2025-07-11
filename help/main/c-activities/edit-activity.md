@@ -4,9 +4,9 @@ description: 瞭解您可以編輯現有活動的不同方式，包括以草稿�
 title: 如何編輯活動或儲存為草稿？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
+source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '925'
 ht-degree: 39%
 
 ---
@@ -92,11 +92,3 @@ ht-degree: 39%
 * 將活動複製到不同工作區時，活動會複製另一個工作區，但不會在活動建立流程中開啟。成功複製活動之後，就會顯示訊息指出已成功複製活動，且包含連結讓您開啟新活動。
 
 如果環境未啟用「企業使用者權限」功能，則所有活動在複製之前會以編輯模式開啟。
-
-## 最佳做法
-
-* 最佳實務是嘗試使用與原始建立活動相同的方法 (UI 或 API) 來更新活動。
-
-  使用[!DNL Target] UI建立的活動應透過[!DNL Target] UI更新。 透過 API 建立的活動應透過 API 更新。例如，如果您最初使用API建立活動，但稍後透過[!DNL Target] UI編輯活動，則不會更新所有變更。 所有變更都儲存在後端，並可進行其他API呼叫來更新。
-
-
