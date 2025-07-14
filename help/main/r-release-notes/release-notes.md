@@ -1,14 +1,14 @@
 ---
-keywords: 發行說明；新功能；發行；更新；更新；發行；增強功能；增強功能；修正；錯誤修正；更新、目前更新
+keywords: 發行說明；新功能；發行；更新；更新；發行；增強功能；增強功能；修正；錯誤修正；更新；目前更新
 description: 了解  [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 程式庫。
 landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新功能、增強功能和修正。
 short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新功能、增強功能和修正。
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
+source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
 workflow-type: tm+mt
-source-wordcount: '2514'
+source-wordcount: '2594'
 ht-degree: 13%
 
 ---
@@ -99,14 +99,14 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++查看詳細資料
 * 修正複製現有活動並將報告來源變更為[!DNL Adobe Analytics] (A4T)會導致「無效使用者輸入」錯誤的問題。 當某些與[!DNL Analytics]報告不相容的量度動作（例如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）從原始活動中保留時觸發此錯誤。 (TGT-52900)
 * 修正在[!DNL Adobe Analytics]步驟中選取[!UICONTROL Goals & Settings] (A4T)作為報告來源時，封鎖客戶建立或儲存活動的問題。 選取[!UICONTROL Custom Event]量度（例如「自訂事件16」）時，會發生特定問題，導致下列錯誤：「無效的使用者輸入」。 (TGT-52910)
 * 修正按一下&quot;[!UICONTROL View in Analytics]&quot;連結時，將使用者重新導向至首頁而非預定的[!DNL Analytics]儀表板的問題。 (TGT-53092 和 TGT-53093)
-<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
-* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* 修正在更新的[!DNL Recommendations] UI中檢視[!UICONTROL Overview]活動時，當選取[!UICONTROL Goals & Settings] (A4T)作為報表來源時，[!DNL Adobe Analytics]區段無法載入的問題。 下列錯誤訊息會顯示為：「發生錯誤。 我們無法完成您的要求。 如果問題仍然存在，請聯絡 Adobe 客戶服務。」(TGT-52999)
 
 +++
 
@@ -132,8 +132,7 @@ ht-degree: 13%
 **本地化**
 
 +++查看詳細資料
-* 修正字串「預覽體驗」的韓文地區設定(ko-KR)中的內容翻譯問題。 (TGT-52928)
-* 已修正多個文字字串的簡體中文(zh_CN)翻譯中發現的術語不一致。 (TGT-52954 和 TGT-52955)
+* 更新新UI中法文(fr_FR)、德文(de_DE)、義大利文(it_IT)、韓文(ko_KO)和簡體中文(zh_CN)的本地化字串。
 
 +++
 
@@ -145,6 +144,7 @@ ht-degree: 13%
 * 修正在[!DNL Recommendations] UI中，無論規則的邏輯為何，使用單一規則建立的任何促銷活動都會被錯誤解譯並顯示為「專案清單」促銷活動型別的問題。 (TGT-53063)
 * 修正使用更新的[!UICONTROL Overview]UI時，包含[!UICONTROL Download Recommendations Data]的[!UICONTROL Experience Targeting] (XT)活動缺少「[!DNL Recommendations]」按鈕的問題。 (TGT-52730 和 TGT-52756)
 * 以前，Recommendations UI只會顯示已成功從摘要匯入的實體數。 但是，後端訊息格式包含匯入的實體數目以及格式中的實體總數： `# of entities imported / # of total entities`。 由於這種差異，使用者在UI中只看到第一個值（匯入計數），這會導致混淆。 UI現在會顯示這兩個數字。 (TGT-53073)
+* 修正在具有建議的表單式A/B活動中設定&quot;[!UICONTROL Promote by attribute]&quot;促銷活動時，客戶無法儲存篩選規則的問題。 儲存並重新開啟活動後，篩選規則遺失，且活動無法成功儲存。 (TGT-53057)
 
 +++
 
@@ -156,7 +156,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看詳細資料
 * 解決套用修改至檢視會造成檢視重複和活動傳回「無效使用者輸入」錯誤的問題。 此修正可確保正確套用檢視修改，而不會觸發複製或驗證錯誤。 (TGT-52886)
@@ -190,7 +190,7 @@ ht-degree: 13%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -200,7 +200,7 @@ ht-degree: 13%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
