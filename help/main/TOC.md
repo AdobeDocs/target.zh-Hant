@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
 feature-set: Target
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 85%
+source-wordcount: '1283'
+ht-degree: 84%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 85%
          + [設定量度](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [疑難排解多變數測試](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [推薦活動](c-activities/recommendations-activity.md)
-   + [編輯活動或另存為草稿](c-activities/edit-activity.md)
+   + [編輯活動](c-activities/edit-activity.md)
    + [優先順序](c-activities/priority.md)
    + [活動設定](c-activities/activity-settings.md)
    + 成功量度 {#success-metrics}

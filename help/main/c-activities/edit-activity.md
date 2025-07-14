@@ -1,19 +1,19 @@
 ---
-keywords: 活動; 活動類型; 編輯活動; 編輯; 草稿
-description: 瞭解您可以編輯現有活動的不同方式，包括以草稿形式儲存活動。
-title: 如何編輯活動或儲存為草稿？
+keywords: 活動；活動型別；編輯活動；編輯
+description: 瞭解您可以編輯現有活動的不同方式。
+title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 39%
+source-wordcount: '769'
+ht-degree: 41%
 
 ---
 
-# 編輯活動或另存為草稿
+# 編輯活動
 
-瞭解如何編輯[!DNL Adobe Target]中的現有活動，包括如何將變更儲存為草稿。 本文介紹[!DNL Target]介面中可用來修改活動的不同方法。 無論您是要更新體驗、調整鎖定目標規則或設定目標，Target都能確保在啟用前安全地儲存變更。
+瞭解如何編輯[!DNL Adobe Target]中的現有活動。 本文介紹[!DNL Target]介面中可用來修改活動的不同方法。 無論您是要更新體驗、調整鎖定目標規則或設定目標，[!DNL Target]都可以確保在啟用之前安全地儲存您的變更。
 
 [!DNL Target]在UI中提供可以編輯現有活動的各種位置。 程式會依您選擇的方法而有所不同。
 
@@ -59,18 +59,7 @@ ht-degree: 39%
 
 ## 以草稿形式儲存活動 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-建立尚未儲存的新活動或編輯先前未以草稿形式儲存的活動時，分割按鈕中會顯示[!UICONTROL Save Draft]選項。
-
-如果活動設定已開啟，但尚未準備好執行，您可以將活動儲存為草稿形式。
-
-1. 建立新活動或編輯草稿形式的現有活動。
-1. 從分割按鈕中選取所需的選項:
-
-   ![儲存草稿](/help/main/c-activities/assets/save_draft.png)
-
-   * **下一步：**&#x200B;若要在三個步驟工作流程中編輯另一個頁面，請按一下&#x200B;**[!UICONTROL Next]**&#x200B;進入所要的步驟。
-   * **儲存草稿並關閉：**&#x200B;在目前步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取「**[!UICONTROL Save Draft and Close]**」以儲存您的變更並顯示活動的[!UICONTROL Overview]頁面。
-   * **儲存草稿：**&#x200B;在步驟上進行所需的變更，按一下分割按鈕上的下拉式清單，然後選取&#x200B;**[!UICONTROL Save Draft]**&#x200B;以儲存您的變更並停留在該步驟上。
+另存為草稿功能已無法使用。 如需詳細資訊，請參閱&#x200B;*[!UICONTROL Status]*&#x200B;將篩選器套用至活動清單[下的](/help/main/c-activities/activities.md#filters)。
 
 ## 使用工作區時複製/編輯活動 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 

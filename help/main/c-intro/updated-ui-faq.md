@@ -4,9 +4,9 @@ description: 有關更新 [!DNL Target]t使用者介面的問答。
 title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題集？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 使用UI版本切換有幾項限制，包括新活動的可見性、現有活動的編輯，以及活動詳細資訊的一致性。
 
 如需詳細資訊，請參閱[您需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
+
++++
+
+## [!UICONTROL Save as Draft]和[!UICONTROL Syncing]狀態是否仍然可用？
+
++++詳細資料
+
+
+隨著使用者介面的最新更新，[!UICONTROL Save as Draft]和[!UICONTROL Syncing]狀態將不再可用。 如需詳細資訊，請參閱[中](/help/main/c-activities/activities.md#filters)將篩選器套用至活動清單&#x200B;*[!UICONTROL Activities overview]*&#x200B;下的狀態。
 
 +++
 
