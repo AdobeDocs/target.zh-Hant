@@ -4,9 +4,9 @@ description: 瞭解您可以編輯現有活動的不同方式。
 title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
+source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 28%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 28%
 
 如需工作區與「企業使用者許可權」功能的詳細資訊，請參閱[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
-如果環境中已啟用「企業使用者權限」，您可以將活動複製到同一個工作區，或另一個工作區。您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從[!UICONTROL Activities]頁面，按一下您要複製之活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **複製**]。
+如果環境中已啟用「企業使用者權限」，您可以將活動複製到同一個工作區，或另一個工作區。您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從[!UICONTROL Activities]頁面，按一下您要複製之活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **複製**]&#x200B;或&#x200B;**[!UICONTROL Edit]**。
 
 在工作區中使用複製/編輯功能時，請考量下列資訊:
 
