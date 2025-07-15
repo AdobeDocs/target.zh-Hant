@@ -1,13 +1,13 @@
 ---
-keywords: 活動；活動型別；編輯活動；編輯
+keywords: 活動；活動型別；編輯活動；編輯；複製
 description: 瞭解您可以編輯現有活動的不同方式。
 title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -77,7 +77,24 @@ ht-degree: 41%
 
 在工作區中使用複製/編輯功能時，請考量下列資訊:
 
-* 在相同工作區中複製活動時，新複製活動的建立流程的第一步會在編輯模式下開啟。
-* 將活動複製到不同工作區時，活動會複製另一個工作區，但不會在活動建立流程中開啟。成功複製活動之後，就會顯示訊息指出已成功複製活動，且包含連結讓您開啟新活動。
+* 如果您將同一工作區中的活動或從預設工作區複製到非預設工作區，則會自動開啟「活動精靈」。 在跨工作區副本中，您可能只需要更新活動屬性。
+* 將活動從非預設工作區複製到另一個工作區（無論預設或非預設）時，活動精靈會開啟，並且需要一些手動輸入才能完成設定：
+   * **[!UICONTROL Properties]**：不同工作區之間的屬性可能不同。 此情況可能會觸發警告：
 
-如果環境未啟用「企業使用者權限」功能，則所有活動在複製之前會以編輯模式開啟。
+      * 在[!UICONTROL Form-Based Experience Composer]中，警告會直接顯示在使用者介面中，以便立即顯示。
+
+        ![表單式工作區警告](/help/main/c-activities/assets/form-based-warning.png)
+
+      * 在VEC中，按一下[!UICONTROL Configure] > [!UICONTROL Properties]時會顯示警告。
+
+        ![vec警告](/help/main/c-activities/assets/vec-warning.png)
+
+        若要解決此問題，請按一下[!UICONTROL Add/Remove]，以便只顯示目的地工作區中可用的屬性以供選取。
+
+   * **對象和選件**：必須取代原始工作區中的所有對象和選件。 或者，您可以從[!UICONTROL Audiences]或[!UICONTROL Offers]頁面複製它們，然後從活動內的對應清單中選取適當的專案。
+
+   * **必要的手動變更**：所有必要的手動變更都摘要於最後步驟([!UICONTROL Save & Close])。 快顯視窗會顯示需要更新的實體清單，有助於確保在完成活動設定之前完成所有必要的調整。
+
+     ![Workspace驗證警告](/help/main/c-activities/assets/work-space-validation.png)
+
+如果您的環境未啟用[!UICONTROL Enterprise User Permissions]功能，則在複製之前，所有活動都會以編輯模式開啟。
