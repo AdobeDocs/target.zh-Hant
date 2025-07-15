@@ -4,10 +4,10 @@ description: 瞭解您可以編輯現有活動的不同方式。
 title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
+source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 28%
+source-wordcount: '883'
+ht-degree: 24%
 
 ---
 
@@ -67,13 +67,13 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->工作區是 [!DNL Target Premium] 解決方案所提供的「屬性和權限」功能的一部分。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
+>工作區是[!UICONTROL Properties and Permissions]解決方案中可用的[!DNL Target Premium]功能的一部分。 在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 
 如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
 
 如需工作區與「企業使用者許可權」功能的詳細資訊，請參閱[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
-如果環境中已啟用「企業使用者權限」，您可以將活動複製到同一個工作區，或另一個工作區。您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從[!UICONTROL Activities]頁面，按一下您要複製之活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **複製**]&#x200B;或&#x200B;**[!UICONTROL Edit]**。
+如果您的環境中已啟用[!UICONTROL Enterprise User Permissions]，您可以將活動複製到相同工作區或另一個工作區。 您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從[!UICONTROL Activities]頁面，按一下您要複製之活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **複製**]。
 
 在工作區中使用複製/編輯功能時，請考量下列資訊:
 
