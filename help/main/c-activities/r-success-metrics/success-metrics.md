@@ -4,9 +4,9 @@ description: 瞭解可協助您判斷活動是否成功的成功量度。 成功
 title: 什麼是成功量度？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1362'
 ht-degree: 22%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 22%
 
 | 成功量度 | 測量方式 | 定義 |
 |--- |--- |--- |
-| [!UICONTROL Con]版本 | 轉換型 | 轉換是指訪客在您定義的網站上執行動作時，例如 <ul><li>已檢視頁面</li><li>已檢視 mbox</li><li>按一下元素</li></ul>每個訪客或每次訪客完成轉換時，可計算一次轉換。 |
-| [!UICONTROL Revenue] | 轉換型 | 造訪產生的收入。您只能選擇一個收入量度：<ul><li>已檢視 mbox</li></ul>如需有關更新的[!DNL Target] UI中有關收入成功量度相關變更的詳細資訊，請參閱下方的[與成功量度相關的UI變更](#changes)。 |
+| [!UICONTROL Conversion] | 轉換型 | 轉換是指訪客在您定義的網站上執行動作時，例如 <ul><li>已檢視頁面</li><li>已檢視 mbox</li><li>按一下元素</li></ul>每個訪客或每次訪客完成轉換時，可計算一次轉換。 |
+| [!UICONTROL Revenue] | 轉換型 | 造訪產生的收入。您只能選擇一個收入量度：<ul><li>已檢視 mbox</li></ul>如需有關更新的[!DNL Target] UI中有關收入成功量度相關變更的詳細資訊，請參閱下方的[已更新 [!DNL Target] UI變更](#changes)。 |
 | [!UICONTROL Engagement] | 參與型 | 造訪產生的參與度。 您可以從下列參與量度中選擇：<UL><li>頁面檢視：每次不重複造訪均會計為轉換。</li><li>[!UICONTROL Custom Scoring]：從訪客第一眼看到此活動的第一個顯示[!DNL Target]要求開始，根據網站上已造訪頁面所指派的值彙總分數。</li>[!DNL Time on Site]：瀏覽所花的時間（以秒為單位），從訪客看到活動的第一個顯示[!DNL Target]要求開始，一直到載入工作階段中有要求的最後一頁為止。</UL> |
 
 針對參與型量度（不同於轉換型和收入型量度），訪客必須重新符合每次造訪的活動資格，才能遞增該工作階段的計數。 相關量度會在重新取得資格後開始增加計數，並在各訪客的工作階段結束後停止。閒置 30 分鐘後，工作階段就會結束。因此，在測試期間不會立即看到結果；不過，該工作階段的所有結果在工作階段結束後的幾分鐘內即可使用。
@@ -111,11 +111,11 @@ ht-degree: 22%
 
   當成功量度設為每次曝光遞增時，[!DNL Target]會在每次訪客造訪此成功量度時再次計入訪客。 [!DNL Target]然後將成功量度「成員資格」重設為0，以便在下次曝光時再次計入。 因此，如果另一個量度要求先看到此量度，[!DNL Target]永遠不會將該使用者識別為已看到第一個量度。
 
-## 已更新Target UI變更
+## 已更新[!DNL Target]個UI變更 {#changes}
 
 [[!DNL Target Standard/Premium] 25.2.1版本](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)於2015年2月17日推出，推出更新的[!DNL Target]和[!UICONTROL Visual Experience Composer] (VEC) UI。 本節概述舊版和更新版UI之間的主要差異，尤其是有關設定和管理成功量度的差異。
 
-### 與[!UICONTROL Revenue]個成功量度相關的UI變更 {#changes}
+### 與[!UICONTROL Revenue]個成功量度相關的UI變更
 
 在更新的[!DNL Target]介面中，[!UICONTROL Default View for Reporting]下拉式清單已移除。 此欄位是多餘的，因為它先前在舊版UI中儲存了[!DNL Overview] > [!UICONTROL Reports]下的預設報告檢視。
 
