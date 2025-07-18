@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
+source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
 workflow-type: tm+mt
-source-wordcount: '2594'
-ht-degree: 13%
+source-wordcount: '3287'
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 
 ![目標UI版本切換](/help/main/r-release-notes/assets/toggle.png)
 
-轉出完成後，切換將會移除，所有使用者將永久轉換為更新後的UI。 [!DNL Adobe]建議提前規劃，因為此功能將很快淘汰。
+轉出完成後，切換將會移除，且所有使用者都會永久轉換為更新後的UI。 [!DNL Adobe]建議提前規劃，因為此功能將很快淘汰。
 
 #### 淘汰時間表
 
@@ -61,8 +61,8 @@ ht-degree: 13%
 下列資訊說明選擇使用版本切換時應該注意的限制：
 
 * **新活動的可見性**：如果您切換回舊版使用者介面，在更新的UI中建立的活動將不可見。
-* **編輯現有活動**：使用更新的UI時，對現有活動所做的變更（原本是在舊版UI中建立的）將會發佈至您的網站。 不過，如果您切換回去，這些更新將不會顯示在舊版UI中；那裡只會顯示舊版UI進行的最後更新。
-* **活動詳細資料的一致性**：無論您使用哪種UI，最新變更都會反映在您已上線的網站上。 不過，舊版UI將只會顯示該版本中執行的最新變更。 如果在更新的UI中編輯的活動看起來與您在舊版UI中看到的不同，這可能會導致混淆。
+* **編輯現有活動**：使用更新的UI時，對現有活動所做的變更（原本是在舊版UI中建立）會發佈至您的網站。 不過，如果您切換回去，這些更新不會顯示在舊版UI中；那裡只會顯示舊版UI進行的最後更新。
+* **活動詳細資料的一致性**：無論您使用哪種UI，最新變更都會反映在您已上線的網站上。 不過，舊版UI只會顯示該版本的最新變更。 如果在更新的UI中編輯的活動看起來與您在舊版UI中看到的不同，這種情況可能會導致混淆。
 
 #### 深入瞭解更新UI的資源
 
@@ -72,6 +72,91 @@ ht-degree: 13%
 * [瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供簡短的總覽，協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
 * [[!UICONTROL Visual Experience Composer]個變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版和更新版本之間的差異。
 * [[!UICONTROL Visual Experience Composer]選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文說明更新的VEC UI及其選項。
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2 （2025年7月18日）
+
+由於最近發現的問題（主要與複雜的客戶自訂有關），此版本包含以下修正和更新：
+
+**活動**
+
++++查看詳細資料
+* 新增在取消活動編輯（包含未儲存的變更）時的額外確認警告：「您確定要儲存此活動嗎？ 如果不儲存，您的所有變更將會遺失。」 此訊息有助於防止意外資料遺失。 (TGT-52865)
+* 已將[!UICONTROL Priority]中[!UICONTROL Goals & Settings]滑桿的原有功能還原，允許客戶直接輸入數值，如舊版UI所支援。 (TGT-53185 和 TGT-53219)
+
++++
+
+**客群**
+
++++查看詳細資料
+* 修正無法儲存或編輯包含自訂對象之活動的問題。 客戶收到錯誤訊息「我們無法完成您的請求。 如果問題仍然存在，請聯絡[!DNL Adobe Client Care]。」 嘗試儲存變更時，或甚至儲存而不變更特定活動時。 (TGT-53189)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++查看詳細資料
+* 修正客戶在[!UICONTROL Goals & Settings]頁面上檢視特定活動的報告時，[!UICONTROL View in Analytics]連結錯誤地指向QA環境而不是生產環境的問題。 (TGT-53163)
+
++++
+
+**[!UICONTROL Experiences]和[!UICONTROL Offers]**
+
++++查看詳細資料
+* 修正透過自訂程式碼叫用`triggerView`時造成無限回圈的問題。 (TGT-52885)
+* 修正為活動定義的`LocalIds`與體驗定義中使用的`LocalIds`之間不相符的問題。 (TGT-52669)
+* 修正活動[!UICONTROL Overview]頁面上缺少量度名稱，僅顯示「選件」而非正確量度名稱的問題。 (TGT-53054)
+
++++
+
+**表單式體驗撰寫器**
+
++++查看詳細資料
+* 修正[!UICONTROL Form-Based Experience Composer]中阻止活動儲存並觸發錯誤訊息：「無法讀取未定義的屬性（讀取&#39;map&#39;）」的問題。 (TGT-53145)
+
++++
+
+**推薦**
+
++++查看詳細資料
+* 修正按一下[!UICONTROL Catalog Search]中的產品時顯示「無法擷取產品詳細資料」錯誤，且沒有關閉選項而開啟強制回應視窗的問題。 (TGT-53082)
+* 修正變更集合或促銷活動時，[活動中選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL A/B Test]建議未正確更新的問題。 (TGT-52884)
+* 修正在生產環境中按一下更新UI中的實體時顯示錯誤：「無法擷取產品詳細資訊」的問題。 如果問題仍然存在，請聯絡[!DNL Adobe Client Care]。」 (TGT-53071)
+
++++
+
+**報表**
+
++++查看詳細資料
+* 修正將訂單詳細資料儲存至CSV檔案導致空白檔案的問題。 (TGT-52225)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++查看詳細資料
+* 解決在[!UICONTROL Goals & Settings]頁面上，用於多個體驗的選取器無法一致地反白顯示為選取狀態的問題。 (TGT-53062)
+* 修正無法編輯活動且觸發錯誤訊息的問題：「無法讀取未定義的屬性（讀取&#39;map&#39;）」。 (TGT-53161)
+
++++
+
+**工作區**
+
++++查看詳細資料
+* 改善切換工作區時臨時優惠方案的處理方式。
+   * 現在，從預設工作區切換至非預設工作區（或非預設工作區之間）時，臨機選件可正確複製。 初始化期間，會更新工作區內容，並為選件指派新的ID以確保唯一性。
+   * 停留在相同的工作區時不會有任何變更。 (TGT-53079)
+* 修正客戶無法[在不同工作區之間複製活動](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)的問題。 (TGT-52753 和 TGT-47094)
+* 修正變更工作區之間屬性時的問題。
+   * 當在預設工作區之間切換至非預設工作區時，如果目標工作區中存在目前屬性，則會保留屬性。
+   * 如果[!UICONTROL Properties]清單顯示警告（可能表示某些屬性可能不相容），而客戶按一下[!UICONTROL Add]或[!UICONTROL Remove]然後按一下[!UICONTROL Save]，則會移除不在目的地工作區中的所有屬性。 如果客戶按一下[!UICONTROL Cancel]，即使目的地工作區中不存在屬性，所有屬性仍會保留。 (TGT-47094)
+   * 如果停留在同一工作區或從非預設工作區切換到預設工作區或其他工作區，則一切都保持不變。 (TGT-53078)
+* 已更新實體驗證邏輯，以遵循活動的原始工作區內容。 諸如[!UICONTROL Experience Fragments] (XF)之類的實體現在會根據活動最初建立的工作區進行驗證。 例如，如果XF存在於預設工作區中，且活動從工作區X複製到工作區Y，則只要XF在原始（預設）工作區中有效，驗證仍會傳遞。 (TGT-53196)
+* 在活動複製期間對複製臨機受眾的支援增強。
+   * 臨時對象（包括量度、報表、頁面和僅限於此活動的型別）現在會在下列情況下自動複製：
+      * 將活動從預設工作區複製到非預設工作區時。
+      * 在相同工作區中複製活動時。 (TGT-53197)
 
 +++
 
@@ -99,7 +184,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++查看詳細資料
 * 修正複製現有活動並將報告來源變更為[!DNL Adobe Analytics] (A4T)會導致「無效使用者輸入」錯誤的問題。 當某些與[!DNL Analytics]報告不相容的量度動作（例如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）從原始活動中保留時觸發此錯誤。 (TGT-52900)
@@ -114,10 +199,10 @@ ht-degree: 13%
 
 +++檢視詳細資料
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* 修正移除所有內容選項後，[!UICONTROL Manage Content]功能無法正確驗證位置狀態的問題。 這可能會在嘗試儲存或繼續活動設定時導致不一致的行為或錯誤。 (TGT-52801)
-* 修正使用者新增頁面及刪除不同體驗中的特定元素時，發生「輸入無效」錯誤的問題。 在元素操作期間產生重複的`LocalIds`，尤其是當在體驗之間切換及修改共用頁面結構時，觸發了錯誤。 (TGT-52720)
+* 修正移除所有內容選項後，[!UICONTROL Manage Content]功能無法正確驗證位置狀態的問題。 嘗試儲存或繼續活動設定時，此問題可能會導致不一致的行為或錯誤。 (TGT-52801)
+* 修正使用者新增頁面及刪除不同體驗中的特定元素時，發生「輸入無效」錯誤的問題。 在元素操作期間產生重複的`LocalIds`，尤其是切換體驗和修改共用頁面結構時，會觸發錯誤。 (TGT-52720)
 * 修正使用[!UICONTROL Generate Adhoc Offer]功能導致[!UICONTROL Manage Content]面板中出現未定義位置的問題。 (TGT-53076 和 TGT-53070)
-* 釐清客戶從[!UICONTROL Targeting]步驟導覽回[!UICONTROL Experiences]時，使用HTML選件進行的修改可能遺失的行為。 針對此客戶，受影響的網站會動態產生多個DOM選取器，並隨著每次頁面載入而變更。 因此，重新開啟編輯器時，找不到原來用於修改的選取器，導致修改遺失或無效。 一切如預期般運作。 為了確保修改內容可在編輯器中持續顯示，建議使用者端使用穩定、一致的選取器，且這些選取器不會在頁面重新載入時變更。 (TGT-52874)
+* 釐清客戶從[!UICONTROL Targeting]步驟導覽回[!UICONTROL Experiences]時，使用HTML選件進行的修改可能遺失的行為。 針對此客戶，受影響的網站會動態產生多個DOM選取器，並隨著每次頁面載入而變更。 因此，重新開啟編輯器時，找不到原來用於修改的選取器，導致修改遺失或無效。 此情境如預期般運作。 為了確保修改內容可在編輯器中持續顯示，建議使用者端使用穩定、一致的選取器，且這些選取器不會在頁面重新載入時變更。 (TGT-52874)
 * 修正嘗試刪除或停用屬於排除體驗之優惠並觸發「無效使用者輸入」錯誤的問題。 即使未主動在所包含體驗中使用選件，也會發生此問題。 (TGT-52917)
 
 +++
@@ -156,7 +241,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看詳細資料
 * 解決套用修改至檢視會造成檢視重複和活動傳回「無效使用者輸入」錯誤的問題。 此修正可確保正確套用檢視修改，而不會觸發複製或驗證錯誤。 (TGT-52886)
@@ -190,7 +275,7 @@ ht-degree: 13%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -200,7 +285,7 @@ ht-degree: 13%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
