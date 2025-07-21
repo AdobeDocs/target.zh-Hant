@@ -4,9 +4,9 @@ description: 瞭解Adobe Target 25.2.1版（2025年2月17日）中視覺化體�
 title: 新的視覺化體驗撰寫器(VEC)引進了哪些變更？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Chrome Web Store]中可用的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]延伸模組](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]中可用的[[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
 
 當您建立或編輯現有活動時，VEC隨即顯示。
 
@@ -43,17 +43,29 @@ ht-degree: 0%
 
 若要新增元件，請從您要插入的[!UICONTROL Components]邊欄拖曳元件，將其置於[!UICONTROL Design]畫布中的現有頁面元素上。 然後選擇將元件插入在所選元素的前面。
 
+>[!NOTE]
+>
+>如果您在此區域中看到[!UICONTROL Modifications]邊欄而非[!UICONTROL Components]邊欄，請按一下&#x200B;**[!UICONTROL Show Components]**&#x200B;圖示（ ![顯示元件圖示](/help/main/assets/icons/Add.svg) ）。 [!UICONTROL Show Components]圖示（![顯示元件圖示](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg)）可作為切換來顯示適當的選項。
+>
+>若要收合[!UICONTROL Components]邊欄並放大[!UICONTROL Design]畫布，請在[!UICONTROL Components]邊欄開啟時按一下（ ![顯示元件圖示](/help/main/assets/icons/Add.svg) ）圖示。
+
 ### [!UICONTROL Modifications]邊欄
 
-若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Components]邊欄中的[!UICONTROL Show Modifications]圖示（ ![顯示修改邊欄](/help/main/assets/icons/History.svg) ）。 [!UICONTROL Modifications]邊欄從編輯畫布的右側變更為左側。
+若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ ](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。 [!UICONTROL Modifications]邊欄從編輯畫布的右側變更為左側。
 
 ![修改邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>[!UICONTROL Show Components]圖示（![顯示元件圖示](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg)）可作為切換來顯示適當的選項。
+>
+>若要收合[!UICONTROL Modifications]邊欄並放大[!UICONTROL Design]畫布，當[!UICONTROL Modifications]邊欄開啟時，請按一下[!UICONTROL Show Modifications]圖示（ ![顯示修改邊欄](/help/main/assets/icons/History.svg) ）圖示。
 
 [!UICONTROL Modifications]邊欄會顯示在VEC中對您的頁面所做的所有變更，並可讓您進行其他變更（例如CSS選取器、Mbox和自訂程式碼）。
 
 按一下[!UICONTROL More Options]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ）以新增修改、刪除所有修改或刪除所有無效修改。 按一下[!UICONTROL Select]以執行大量作業： [!UICONTROL Apply to All Pages]或[!UICONTROL Delete]。
 
-若要再次顯示[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Modifications]邊欄中的[!UICONTROL Hide Modifications]圖示（ ![顯示修改邊欄](/help/main/assets/icons/History.svg) ）。
+若要再次顯示[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Hide Modifications]邊欄中的![圖示（ ](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Modifications] ）。
 
 ### [!UICONTROL Properties]邊欄（新）
 
@@ -79,7 +91,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Design]/[!UICONTROL Browse]模式
 
-使用[!UICONTROL Properties]邊欄頂端顯示的[!UICONTROL Design]/[!UICONTROL Browse]切換功能，在設計模式和瀏覽模式之間切換。
+使用[!UICONTROL Design]邊欄頂端顯示的[!UICONTROL Browse]/[!UICONTROL Properties]切換功能，在設計模式和瀏覽模式之間切換。
 
 ![設計和瀏覽切換](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
