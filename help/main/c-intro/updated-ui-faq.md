@@ -4,10 +4,10 @@ description: 有關更新 [!DNL Target]t使用者介面的問答。
 title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題集？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 +++
 
-## 我可以收合[!UICONTROL Components]和[!UICONTROL Modifications]導軌以放大[!UICONTROL Design]面板嗎？ {#collapse}
+## 我可以收合[!UICONTROL Components]、[!UICONTROL Modifications]和[!UICONTROL Properties]導軌以放大[!UICONTROL Design]面板嗎？ {#collapse}
 
 +++詳細資料
 
-可以，您可以收合兩個邊欄，讓您展開[!UICONTROL Design]畫布以更輕鬆進行編輯。 方法如下:
+可以，您可以收合這些邊欄，讓您展開[!UICONTROL Design]畫布以更輕鬆進行編輯。 方法如下:
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 **收合[!UICONTROL Modifications]邊欄**
 
 若要收合[!UICONTROL Modifications]邊欄並放大[!UICONTROL Design]畫布，當[!UICONTROL Modifications]邊欄開啟時，請按一下[!UICONTROL Show Modifications]圖示（ ![顯示修改邊欄](/help/main/assets/icons/History.svg) ）圖示。
+
+**收合[!UICONTROL Properties]邊欄**
+
+若要收合[!UICONTROL Properties]邊欄並放大[!UICONTROL Design]畫布，請按一下邊欄右側的[!UICONTROL Show/Hide Properties]圖示（![屬性圖示](/help/main/assets/icons/Propertie.svg) ）以收合或顯示[!UICONTROL Properties]邊欄。
 
 +++
 
