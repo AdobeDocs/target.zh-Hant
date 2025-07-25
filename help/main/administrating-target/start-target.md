@@ -1,13 +1,13 @@
 ---
 keywords: 管理;核准者角色;核准者
-description: 在收到 [!DNL Adobe Experience Cloud]的電子郵件邀請後，執行 [!DNL Adobe Target] 管理員應該採取的第一個工作。
+description: 在收到 [!DNL Adobe Target] 的電子郵件邀請後，執行 [!DNL Adobe Experience Cloud]管理員應該採取的第一個工作。
 title: 我該從哪裡開始管理 [!DNL Target]？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
+source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '436'
 ht-degree: 32%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 32%
 
 ## 受邀加入[!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-[!DNL Adobe Admin Console]中的系統管理員必須藉由邀請您加入，將您新增為[!DNL Target]中的使用者。 然後，系統管理員應將您新增至一或多個角色特定群組。 這兩項工作都是在[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com)中執行。
+[!DNL Adobe Admin Console]中的系統管理員必須藉由邀請您加入，將您新增為[!DNL Target]中的使用者。 然後，系統管理員應將您新增到一個或多個特定於角色的產品設定檔（使用者群組）。 這兩項工作都是在[Adobe Admin Console](https://adminconsole.adobe.com)中執行。
 
-如需詳細資訊，請參閱&#x200B;*Experience Cloud與核心服務說明*&#x200B;中的[管理Experience Cloud使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[管理使用者群組](https://helpx.adobe.com/enterprise/using/users.html)。
 
 系統管理員執行這些步驟後，您將會收到一封邀請電子郵件。
 
@@ -50,7 +50,7 @@ ht-degree: 32%
 
 ## 指派核准者角色給您自己 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-接受加入[!DNL Adobe Experience Cloud]的邀請並登入之後，請確認[!DNL Target]已新增至您的[!DNL Experience Cloud]帳戶，然後為您自己指派[!DNL Target]的[!UICONTROL Approver]角色。
+接受加入[!DNL Adobe Experience Cloud]的邀請並登入之後，請確認[!DNL Target]已新增至您的[!DNL Experience Cloud]帳戶，然後為您自己指派[!UICONTROL Approver]的[!DNL Target]角色。
 
 如果您的組織有 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 授權，請參閱&#x200B;*使用者*&#x200B;中的[指定角色和權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。
 
@@ -60,7 +60,7 @@ ht-degree: 32%
 
 ## 編輯[!UICONTROL Administration]設定所需的許可權 {#admin-permissions}
 
-**在2025年4月22日之前**：在[!DNL Adobe Admin Console]中擁有[!UICONTROL Approvers]許可權的使用者可以編輯或變更[!DNL Target]的[[!UICONTROL Administration]頁面](/help/main/administrating-target/administrating-target.md)頁面上的所有設定，無論他們的[!DNL Target]角色為何。
+**在2025年4月22日之前**：在[!UICONTROL Approvers]中擁有[!DNL Adobe Admin Console]許可權的使用者可以編輯或變更[[!UICONTROL Administration]的](/help/main/administrating-target/administrating-target.md)頁面[!DNL Target]頁面上的所有設定，無論他們的[!DNL Target]角色為何。
 
 **自2025年4月22日起生效**：只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能夠更新[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md)區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
 
