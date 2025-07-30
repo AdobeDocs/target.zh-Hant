@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;faq;常見問答;速查表;速查表
-description: 探索關於使用 Adobe Target 中功能常見問答的清單，以及相關資訊和連結。
+description: 探索關於使用 [!DNL Target]中功能常見問題的清單，以及資訊和連結，以取得更多資訊。
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 79%
+source-wordcount: '2693'
+ht-degree: 72%
 
 ---
 
 # Target 最佳化和個人化常見問答
 
-關於使用[!DNL Adobe Target]中功能常見問題的清單，以及相關資訊和連結。
+探索關於使用[!DNL Adobe Target]功能的常見問題解答。 瞭解如何最佳化您的實驗、個人化體驗，並透過直接連結存取實用的資源，以獲得更深入的見解。
 
 ## 一般資訊 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**我可以在哪裡找到有關更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的資訊？**
+
++++查看詳細資料
+
+使用者介面以邏輯且方便使用的格式排列，以協助您充分運用 [!DNL Target]。以下簡短概述可協助您熟悉[!DNL Target]和VEC，並提供連結，以取得更深入的資訊和逐步指示。
+
+如需詳細資訊，請參閱[瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)。
+
++++
+
 **我如何知道其他客戶運用[!DNL Target]獲得更好的結果？**
 
-以下只是我們一些[客戶成功故事](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)。看看像您這樣的客戶如何運用 Target 來改善最佳化和個人化以達成業務目標。
++++檢視詳細資料
+探索真實世界[客戶成功案例](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)，瞭解組織如何使用[!DNL Target]來促進最佳化、個人化體驗，以及取得可衡量的業務成果。
 
-請注意，其中的部分案例研究是利用 Adobe Target Premium 的功能。
++++
 
 **我可以在何處瞭解最新的[!DNL Target]功能？**
 
-請參閱[發行說明](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)來查看有關最新版本的詳細資料。所有[過去版本](/help/main/r-release-notes/release-notes-for-previous-releases.md)的相關資訊也可在線上取得。
++++檢視詳細資料
+透過[!DNL Target]發行版本保持更新。
+
+* **最新版本**：檢視[[!DNL Target] 版本注意事項（最新）](/help/main/r-release-notes/release-notes.md)，以取得新功能、增強功能和錯誤修正的詳細資料。
+* **即將發行版本**：造訪[[!DNL Target] 發行說明（發行前）](/help/main/r-release-notes/target-release-notes.md)以預覽即將推出的版本。
+* **舊版**：瀏覽舊版[發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)以取得歷史更新和變更。
+
++++
 
 **是否有[!DNL Adobe]社群/論壇，我可以在這裡找到關於[!DNL Target]的答案和詳細資訊？**
 
-查看 [ Target 社群論壇](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42)，我們在這裡提供客戶協助，更重要的是，我們希望像您這樣的實踐者能夠彼此協助。畢竟，社群和論壇的成功仰賴於其成員活躍的參與。成為社群的一員，並貢獻與尋求您的問題的答案。
++++檢視詳細資料
+在[!DNL Target]Target社群論壇[中與其他的](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
+
++++
 
 **[!DNL Target]支援哪些瀏覽器？**
 
-如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。請注意，有以下兩個方面：Target Standard/Premium Experience Cloud 介面支援與桌面/裝置上的使用者瀏覽器支援。
++++檢視詳細資料
+如需詳細資訊，請參閱我們的[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
+
++++
 
 ## 活動 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 體驗 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -180,7 +204,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[也加入允許清單](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
 **我有回應式網站。建立活動時，我如何確定我考慮的是重要裝置？**
 
@@ -252,7 +276,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -273,7 +297,7 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以執行離線報表計算？**
 
-使用Reports頁面上的[匯出報表至CSV和下載訂單詳細資料至CSV選項](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)來下載需要的報表資料。
+使用Rep[orts頁面上的](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)匯出報表至CSV和下載訂單詳細資料至CSV選項來下載需要的報表資料。
 
 **我可以變更評估報表的控制體驗，或將計數方法從[!UICONTROL Visitors]變更為[!UICONTROL Visits]嗎？**
 
@@ -303,4 +327,4 @@ Target 有一個健全的方式可達成此目標，就是利用我們的「度�
 
 **我可以在何處進一步瞭解 Target API？**
 
-我們提供詳盡的 API 相關文件。請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
+我們提供詳盡的 API 相關文件。請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
