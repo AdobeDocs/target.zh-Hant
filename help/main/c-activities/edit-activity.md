@@ -4,10 +4,10 @@ description: 瞭解您可以編輯現有活動的不同方式。
 title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '956'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 1. 從&#x200B;**[!UICONTROL Activities]**&#x200B;頁面，按一下您要編輯的活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **編輯**]。
 
-   Target會在[!UICONTROL Visual Experience Composer] (VEC)中開啟活動，而您會看到[!UICONTROL Experiences]頁面（三步驟引導式工作流程的第一步）。
+   [!DNL Target]在[!UICONTROL Visual Experience Composer] (VEC)中開啟活動，而您看到[!UICONTROL Experiences]頁面（三步驟引導式工作流程的第一步）。
 
 1. 視需要使用 [VEC 選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)編輯活動。
 
@@ -44,22 +44,6 @@ ht-degree: 24%
 
    * **[!UICONTROL Save & Close]：**&#x200B;按一下&#x200B;**[!UICONTROL Save and Close]**&#x200B;以儲存您的變更並顯示活動的[!UICONTROL Overview]頁面。
    * **儲存：**&#x200B;按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存您的變更並留在VEC中，讓您可以繼續變更。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
-
-## 使用在[!DNL Recommendations Classic]中建立的舊版活動 {#classic}
-
-[!UICONTROL Activities]清單顯示在各種來源中建立的活動，包括[!DNL Recommendations Classic]。 使用在 [!DNL Recommendations Classic] 中建立的舊版活動時，以下是可供使用的動作:
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-您無法直接編輯 [!DNL Recommendations] 活動。若要編輯活動，您應使用 [!DNL Target Premium] 建立活動複本，然後儲存新建立的活動。接著即可視需要編輯這個新建立的活動。
-
-## 以草稿形式儲存活動 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-另存為草稿功能已無法使用。 如需詳細資訊，請參閱&#x200B;*[!UICONTROL Status]*&#x200B;將篩選器套用至活動清單[下的](/help/main/c-activities/activities.md#filters)。
 
 ## 使用工作區時複製/編輯活動 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ ht-degree: 24%
 
         若要解決此問題，請按一下[!UICONTROL Add/Remove]，以便只顯示目的地工作區中可用的屬性以供選取。
 
-   * **對象和選件**：必須取代原始工作區中的所有對象和選件。 或者，您可以從[!UICONTROL Audiences]或[!UICONTROL Offers]頁面複製它們，然後從活動內的對應清單中選取適當的專案。
+   * **對象和選件**：將活動複製到新工作區時，所有與原始工作區關聯的對象和選件都會使用下列格式複製： `Entity Name Copy <Date>`。
 
-   * **必要的手動變更**：所有必要的手動變更都摘要於最後步驟([!UICONTROL Save & Close])。 快顯視窗會顯示需要更新的實體清單，有助於確保在完成活動設定之前完成所有必要的調整。
+     行為詳細資料：
 
-     ![Workspace驗證警告](/help/main/c-activities/assets/work-space-validation.png)
+      * 在儲存並重新開啟活動之前，複製的對象和選件不會出現在[!UICONTROL Audiences]和[!UICONTROL Offers]清單中。
+      * 複製後無法立即編輯這些實體。 客戶在初始編輯工作階段中，可能會在VEC中看到這些專案的空白內容。
+      * 如有需要，客戶可使用目的地工作區中的其他對象或選件，取代複製的對象或選件。
 
-如果您的環境未啟用[!UICONTROL Enterprise User Permissions]功能，則在複製之前，所有活動都會以編輯模式開啟。
+     此程式可確保更流暢的跨工作區活動複製，同時維持自訂的彈性。
+
+     複製活動時，必須手動取代未儲存在目前工作區或預設工作區中的合併對象、非目標對象和選件。
+
+     手動取代這些合併的對象、非目標對象和選件，可確保在複製的活動中僅使用有效、可存取的實體，並防止在編輯或傳送期間發生錯誤。
+
+     ![警告訊息](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>如果您的環境未啟用[!UICONTROL Enterprise User Permissions]功能，則在複製之前，所有活動都會以編輯模式開啟。
+
+## 以草稿形式儲存活動 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+[!UICONTROL Save as Draft]功能已無法使用。 如需詳細資訊，請參閱&#x200B;*[!UICONTROL Status]*&#x200B;將篩選器套用至活動清單[下的](/help/main/c-activities/activities.md#filters)。
+
+## 使用在[!DNL Recommendations Classic]中建立的舊版活動 {#classic}
+
+[!UICONTROL Activities]清單顯示在各種來源中建立的活動，包括[!DNL Recommendations Classic]。 使用在 [!DNL Recommendations Classic] 中建立的舊版活動時，以下是可供使用的動作:
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+您無法直接編輯 [!DNL Recommendations] 活動。若要編輯活動，您應使用 [!DNL Target Premium] 建立活動複本，然後儲存新建立的活動。接著即可視需要編輯這個新建立的活動。
