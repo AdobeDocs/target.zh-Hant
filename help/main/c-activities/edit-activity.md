@@ -4,9 +4,9 @@ description: 瞭解您可以編輯現有活動的不同方式。
 title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 22%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 22%
 
         若要解決此問題，請按一下[!UICONTROL Add/Remove]，以便只顯示目的地工作區中可用的屬性以供選取。
 
-   * **對象和選件**：將活動複製到新工作區時，所有與原始工作區關聯的對象和選件都會使用下列格式複製： `Entity Name Copy <Date>`。
+   * **對象和選件**：將活動複製到新工作區時，所有相關聯的[!DNL Target]或原始工作區的臨機對象和選件會使用以下格式複製： `<Entity Name> Copy <Date>`個對象和[!DNL Target]個臨機選件的`<Entity Name>`。
 
      行為詳細資料：
 
@@ -85,9 +85,9 @@ ht-degree: 22%
 
      此程式可確保更流暢的跨工作區活動複製，同時維持自訂的彈性。
 
-     複製活動時，必須手動取代未儲存在目前工作區或預設工作區中的合併對象、非目標對象和選件。
+     複製活動時，必須手動取代未儲存在目前工作區或預設工作區中的非目標對象和選件。
 
-     手動取代這些合併的對象、非目標對象和選件，可確保在複製的活動中僅使用有效、可存取的實體，並防止在編輯或傳送期間發生錯誤。
+     手動取代這些非目標對象，並提供選件可確保在複製的活動中僅使用有效、可存取的實體，並防止在編輯或傳送期間發生錯誤。
 
      ![警告訊息](/help/main/c-activities/assets/copy.png)
 
