@@ -1,59 +1,21 @@
 ---
-keywords: 重複資料刪除；允許重複專案；排除重複選件；自動個人化；不允許重複選件；排除；預設內容；排除群組；
+keywords: 重複資料刪除；允許重複專案；排除重複選件；自動個人化；不允許重複選件；排除；預設內容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活動中的排除專案。
 title: 如何管理[!UICONTROL Automated Personalization]活動中的排除？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: c5016d212edafa908b8755044e73d28167e20e8a
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 41%
+source-wordcount: '652'
+ht-degree: 37%
 
 ---
 
 # 管理排除項目
 
-管理排除的方法包括在[!DNL Adobe Target]的[!UICONTROL Automated Personalization] (AP)活動中建立排除群組、排除重複選件、排除特定體驗，以及排除預設內容。
-
-## 建立排除群組 {#task_AAAA6C7239A84F7696C8492F04B575A2}
-
-在[!UICONTROL Automated Personalization] (AP)活動中建立排除群組，以確保會自動排除具有指定選件的體驗。
-
-排除群組有效地確保不相容的產品建議不會出現在相同體驗的不同位置中。例如，假設您有兩個優惠：一個是針對所有商品提供20%的折扣，另一個則是15%的折扣。 您絕不希望這兩個選件以相同的體驗呈現給訪客。 如果您將這兩個選件新增至排除群組，即可確保絕對不會發生這種情況。
-
-您也可以限制哪些客群能夠看見 AP 活動中特定產品建議。如需詳細資訊，請參閱[Target Automated Personalization 產品建議](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)。
-
-**若要建立排除群組:**
-
-1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)時，請按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;圖示（![管理內容圖示](/help/main/assets/icons/Experience.svg) ）。
-
-   [!UICONTROL Manage Content]對話方塊隨即顯示。
-
-1. 按一下「**[!UICONTROL Experiences]**」標籤。
-
-1. 在[!UICONTROL Manage Content]對話方塊中，按一下&#x200B;**[!UICONTROL Exclusion Groups]**。
-
-   ![管理內容 > 排除群組對話方塊](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
-
-   如果您先前已建立排除群組，則會出現在清單中。如果您尚未建立排除群組，則會提示您建立。
-
-1. 按一下&#x200B;**[!UICONTROL Create Exclusion Group.]**
-
-   ![建立排除群組對話方塊](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
-
-1. (必要) 指定排除群組的描述性名稱。
-
-   描述性名稱可協助您或其他人快速找到並瞭解群組的用途。
-
-1. 尋找並選取您想要新增至排除群組的產品建議。
-
-   您可以從排除群組的相同位置中選取多個產品建議。
-
-1. 按一下 **[!UICONTROL Save]**。
-
-排除群組中的選件將來會自動從相同的體驗中排除。
+在[!UICONTROL Automated Personalization]的[!DNL Adobe Target] (AP)活動中排除重複選件、排除特定體驗，以及排除預設內容，藉此管理排除專案。
 
 ## 排除重複選件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -61,7 +23,7 @@ ht-degree: 41%
 
 例如，您可能在有 12 個產品建議的六個位置頁面上有一個活動。相同產品建議有可能放入活動中的一或多個位置。此功能可防止重複產品建議同時顯示在相同活動內的不同位置。
 
-按一下&#x200B;**[!UICONTROL Configure]**&#x200B;齒輪選項> **[!UICONTROL Duplicate Offers]**，然後按一下&#x200B;**[!UICONTROL Allow Duplicates]**&#x200B;或&#x200B;**[!UICONTROL Disallow Duplicates]**。
+按一下&#x200B;**[!UICONTROL Configure]**&#x200B;圖示> **[!UICONTROL Duplicate Offers]**，然後按一下&#x200B;**[!UICONTROL Allow Duplicates]**&#x200B;或&#x200B;**[!UICONTROL Disallow Duplicates]**。
 
 ![重複產品建議選項](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -126,7 +88,7 @@ ht-degree: 41%
 
 **若要使用[!UICONTROL Form-Based Experience Composer]排除預設內容：**
 
-1. 在建立或編輯AP活動時，按一下&#x200B;**[!UICONTROL Content]**&#x200B;下的&#x200B;**[!UICONTROL Change Text/HTML]**&#x200B;或&#x200B;**[!UICONTROL Change Image Offer]**。
+1. 在建立或編輯AP活動時，按一下&#x200B;**[!UICONTROL Change Text/HTML]**&#x200B;下的&#x200B;**[!UICONTROL Change Image Offer]**&#x200B;或&#x200B;**[!UICONTROL Content]**。
 1. 在對話方塊中，建立新內容，並取消勾選預設內容右邊的&#x200B;**[!UICONTROL Include]** （或在[!UICONTROL Select Content]畫面中取消勾選「預設影像/影片」）。
 
    根據內容或選件型別，[!UICONTROL Include]核取方塊的位置稍有不同。
