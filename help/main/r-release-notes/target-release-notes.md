@@ -4,10 +4,10 @@ description: 了解  [!DNL Target] 即將發行的版本所包含的新功能、
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 64bfa3710450ee9609592610e210a950e0403339
+source-git-commit: 1f8fa78c2b88e179f021128a8fd3dac177dfa3dd
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 69%
+source-wordcount: '340'
+ht-degree: 37%
 
 ---
 
@@ -15,26 +15,41 @@ ht-degree: 69%
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。
 
-**上次更新日期：2025年8月14日**
+**上次更新日期：2025年8月15日**
 
 >[!NOTE]
 >
->* 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。
+>* 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。本文章中的資訊會經常更新，尤其是在發行版本之前。
 >
 >* 若要檢視目前版本的相關資訊，請參閱[Target發行說明](release-notes.md)。
 >
 >* 括號內的問題編號供 [!DNL Adobe] 內部使用。
 
-## [!DNL Target Standard/Premium] 25.8.2 （2025年8月14日）
+## [!DNL Target Standard/Premium] 25.8.3 （2025年8月21日）
 
-[!DNL Target Standard/Premium] 25.8.2 （2025年8月14日）已上線。 如需詳細資訊，請參閱[[!DNL Target] 發行說明（最新）](/help/main/r-release-notes/release-notes.md)。
+此版本包含下列更新和修正：
+
+**推薦**
+
++++檢視詳細資料
+* **修正Recs UI中自訂條件CSV下載傳回404錯誤的問題**：修正客戶無法在活動建立程式中下載自訂條件CSV的問題。
+* **修正[!UICONTROL Catalog Search]**&#x200B;中載入的影像不一致：修正[!UICONTROL  Catalog Search]中的縮圖與影像在活動建立程式中無法一致載入的問題。 除非顯示「縮圖URL」欄，且在導覽或搜尋動作後已載入部分或完全未載入某些產品影像，否則影像無法顯示。 (TGT-52778)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++檢視詳細資料
+* **修正在AP活動中封鎖推進至[!UICONTROL Targeting]步驟的活動 — 建立程式中的問題**：修正在[!UICONTROL Targeting] (AP)活動中客戶無法繼續進行[!UICONTROL Automated Personalization]步驟的問題（除非新增兩個位置）。 此行為與先前體驗不同，先前體驗中，具有多個選件的單一位置已足夠。 已更正此要求，讓客戶能夠繼續使用單一位置設定作為其AP工作流程的一部分。 (TGT-53426)
+
++++
 
 ## 額外的發行說明和版本詳細資料
 
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
