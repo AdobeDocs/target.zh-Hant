@@ -19,7 +19,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->本文僅適用於at.js實作。 如需有關使用[!UICONTROL Analytics for Target]實作[!DNL Adobe Experience Platform Web SDK] (A4T)的資訊，請參閱Experience Platform Web SDK[中的](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}Adobe Analytics for Target (A4T)登入。
+>本文僅適用於at.js實作。 如需有關使用[!UICONTROL Analytics for Target]實作[!DNL Adobe Experience Platform Web SDK] (A4T)的資訊，請參閱Experience Platform Web SDK[中的](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=zh-Hant){target=_blank}Adobe Analytics for Target (A4T)登入。
 
 ## 實作需求 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
