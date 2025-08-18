@@ -135,7 +135,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
+>如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
 
 ### 重設報告資料
 

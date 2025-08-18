@@ -20,7 +20,7 @@ ht-degree: 3%
 
 {{permissions-update}}
 
-[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
+[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
 
 開發人員入口網站包含下列實施型別的相關資訊：
 
@@ -31,11 +31,11 @@ ht-degree: 3%
 * **行動應用程式**：協助您使用[!DNL Adobe Experience Platform Mobile] SDK實作的資訊。
 * **電子郵件**：協助您在電子郵件中實作[!DNL Target]的資訊。
 
-如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。
+如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}。
 
 >[!NOTE]
 >
->先前包含在此指南的&#x200B;*實作Target*&#x200B;章節中的所有資訊(*Adobe Target從業人員指南*)現在包含在[開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中。
+>先前包含在此指南的&#x200B;*實作Target*&#x200B;章節中的所有資訊(*Adobe Target從業人員指南*)現在包含在[開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中。
 
 
 

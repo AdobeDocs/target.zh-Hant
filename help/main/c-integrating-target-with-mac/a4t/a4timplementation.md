@@ -13,7 +13,7 @@ ht-degree: 19%
 
 # Analytics for [!DNL Target]實作
 
-實作[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源時，需要幾個步驟。 此程式會因您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)或使用at.js實作A4T而有所不同。
+實作[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源時，需要幾個步驟。 此程式會因您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)或使用at.js實作A4T而有所不同。
 
 ## 適用於Adobe Experience Platform Web SDK實作的![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png)實作步驟 {#platform}
 
@@ -29,11 +29,11 @@ ht-degree: 19%
 
 ### 步驟3：建立Edge設定
 
-使用[!DNL Adobe Experience Platform]使用邊緣組態工具建立Edge組態。 設定[建立和設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
+使用[!DNL Adobe Experience Platform]使用邊緣組態工具建立Edge組態。 設定[建立和設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)。
 
 ### 步驟4：安裝並設定Platform Web SDK
 
-若要開始傳遞[!DNL Target]體驗，並套用[!DNL Analytics]以追蹤和分析，請在您的網站頁面上[安裝](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)和[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) Platform Web SDK。
+若要開始傳遞[!DNL Target]體驗，並套用[!DNL Analytics]以追蹤和分析，請在您的網站頁面上[安裝](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)和[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) Platform Web SDK。
 
 ### 步驟5：啟用使用A4T的選項
 
@@ -58,15 +58,15 @@ ht-degree: 19%
 
 訪客ID服務可讓您識別[!DNL Adobe Experience Cloud]解決方案中的使用者。 實作或移轉至必要的Experience Cloud訪客ID版本。 如需詳細資訊，請參閱[實作之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-請參閱[Experience Cloud訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)檔案中的&#x200B;*實作Experience Cloud ID服務（適用於Target）*。
+請參閱[Experience Cloud訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=zh-Hant)檔案中的&#x200B;*實作Experience Cloud ID服務（適用於Target）*。
 
 ### 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
 
 實作或移轉至必要的appMeasurement.js版本。 如需詳細資訊，請參閱[實作之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-如需新的實作，請參閱[JavaScript實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)中的&#x200B;*Analytics實作概觀*。
+如需新的實作，請參閱[JavaScript實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant)中的&#x200B;*Analytics實作概觀*。
 
-如需移轉，請參閱[Analytics實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)中的&#x200B;*移轉至JavaScript的AppMeasurement*。
+如需移轉，請參閱[Analytics實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=zh-Hant)中的&#x200B;*移轉至JavaScript的AppMeasurement*。
 
 ### 步驟5：下載並更新at.js
 
@@ -116,9 +116,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-接著，裝載可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)轉送至Analytics。 針對「自動分配」和「自動鎖定目標」活動，您也必須轉送sessionId。 如需詳細資訊，請參閱[Adobe Target SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}指南中的&#x200B;*Analytics for Target (A4T)報告*。
+接著，裝載可透過[資料插入API](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)轉送至Analytics。 針對「自動分配」和「自動鎖定目標」活動，您也必須轉送sessionId。 如需詳細資訊，請參閱[Adobe Target SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=zh-Hant){target=_blank}指南中的&#x200B;*Analytics for Target (A4T)報告*。
 
-如果不需要全域設定，且偏好使用更隨需提供的方法，請傳入[analyticsLogging： &quot;client_side&quot;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank}以使用at.js函式&#x200B;**getOffers()**。 只會針對此呼叫傳回分析裝載，且[!DNL Target]後端不會將裝載轉送至[!DNL Analytics]。 透過採用此方法，每個at.js [!DNL Target]要求都會依預設傳回裝載，但只有在需要和指定時才會傳回。
+如果不需要全域設定，且偏好使用更隨需提供的方法，請傳入[analyticsLogging： &quot;client_side&quot;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=zh-Hant){target=_blank}以使用at.js函式&#x200B;**getOffers()**。 只會針對此呼叫傳回分析裝載，且[!DNL Target]後端不會將裝載轉送至[!DNL Analytics]。 透過採用此方法，每個at.js [!DNL Target]要求都會依預設傳回裝載，但只有在需要和指定時才會傳回。
 
 例如:
 
@@ -174,7 +174,7 @@ adobe.target.getOffers({
 }
 ```
 
-然後可透過[!DNL Analytics]資料插入API[將裝載轉送至](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+然後可透過[!DNL Analytics]資料插入API[將裝載轉送至](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 ### 步驟8: 驗證實作 {#step8}
 

@@ -39,7 +39,7 @@ ht-degree: 19%
 
 此影片包括關於管理內容的資訊。
 
-* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hant) 與 Target 內容庫之間的連線
 * 自訂 HTML 產品建議
 * 可視化體驗撰寫器中的自訂 HTML 產品建議
 

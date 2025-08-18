@@ -2,7 +2,7 @@
 keywords: 自動個人化；ap；對象；整體；隨機森林；多臂吃角子老虎機；Thompson取樣；ml；機器學習
 description: 瞭解如何在[!UICONTROL Automated Personalization]中使用 [!DNL Adobe Target]  (AP)活動，這些活動使用進階機器學習來比對每個訪客的不同優惠方案變數。
 title: 什麼是[!UICONTROL Automated Personalization] (AP)活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -68,9 +68,9 @@ ht-degree: 29%
 
 離線資料（例如CRM資訊或客戶流失傾向分數）在建置個人化模型時可能極具價值。 有數種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]個人化演演算法中輸入資料。
 
-* [mbox 參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [輪廓參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [輪廓更新的伺服器端 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [mbox 參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
+* [輪廓參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
+* [輪廓更新的伺服器端 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
 
 有關[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]個人化演演算法自動收集和使用之資料的資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

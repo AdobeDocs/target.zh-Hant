@@ -50,7 +50,7 @@ ht-degree: 46%
 >
 >[!DNL Recommendations]如果主機會切換主機群組， 的使用者必須重建其行為資料庫和產品資料庫。
 >
->如果您在[資料流 [!DNL Adobe Experience Platform] 中指定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}預設環境，此設定會覆寫[!DNL Target]中的設定。
+>如果您在[資料流 [!DNL Adobe Experience Platform] 中指定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#target){target=_blank}預設環境，此設定會覆寫[!DNL Target]中的設定。
 
 ## 變更環境的名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

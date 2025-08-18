@@ -37,6 +37,6 @@ ht-degree: 88%
 
 ## Adobe [!DNL Target] 教學課程 {#tutorials}
 
-若要取得 [!DNL Target] 概念與工具的簡介影片，請前往 [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html??lang=zh-Hant)頁面。
+若要取得 [!DNL Target] 概念與工具的簡介影片，請前往 [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant&?lang=zh-Hant)頁面。
 
 ![Adobe Target 教學課程](/help/main/c-intro/assets/adobe-target-tutorials-new.png)

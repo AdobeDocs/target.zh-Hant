@@ -19,7 +19,7 @@ ht-degree: 31%
 
 ## 客戶屬性總覽 {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[服務中的](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)客戶屬性[!DNL People]是[!DNL Adobe Experience Cloud]的一部分，並提供工具讓企業將其客戶資料推送到[!DNL Experience Cloud]平台。
+[服務中的](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hant)客戶屬性[!DNL People]是[!DNL Adobe Experience Cloud]的一部分，並提供工具讓企業將其客戶資料推送到[!DNL Experience Cloud]平台。
 
 上架到 [!DNL Experience Cloud] 的資料可供所有 [!DNL Experience Cloud] 工作流程使用。[!DNL Target]使用此資料根據屬性來鎖定回頭的客戶。 [!DNL Adobe Analytics] 會利用這些屬性，並可將這些屬性用於分析和劃分。
 
@@ -27,7 +27,7 @@ ht-degree: 31%
 
 使用客戶屬性和[!DNL Target]時請考量下列資訊：
 
-* 在[!UICONTROL Customer attributes]服務中使用[!DNL People]功能之前，您必須符合一些先決條件要求。 如需詳細資訊，請參閱[Experience Cloud服務與管理檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)中&#x200B;*客戶屬性*&#x200B;的「上傳客戶屬性的先決條件」。
+* 在[!UICONTROL Customer attributes]服務中使用[!DNL People]功能之前，您必須符合一些先決條件要求。 如需詳細資訊，請參閱[Experience Cloud服務與管理檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#section_BD38693AFBF34926BA28E964963B4EA0)中&#x200B;*客戶屬性*&#x200B;的「上傳客戶屬性的先決條件」。
 * 請注意檔案上傳的限制，如[Experience Cloud中央介面元件指南](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant)中的&#x200B;*關於客戶屬性的資料檔案和資料來源*&#x200B;中所述。 最佳做法：
 
    * 上傳單一大型檔案（在指定的[限制內](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant)）。 單一大型檔案比多個較小檔案更適合。
@@ -57,7 +57,7 @@ ht-degree: 31%
 
 ![crm工作流程](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-您可以在[建立客戶屬性來源及上傳](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html)Experience Cloud服務與管理檔案&#x200B;*中的資料檔案*&#x200B;中找到完成下列各工作的詳細指示。
+您可以在[建立客戶屬性來源及上傳](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=zh-Hant)Experience Cloud服務與管理檔案&#x200B;*中的資料檔案*&#x200B;中找到完成下列各工作的詳細指示。
 
 1. 建立資料檔案。
 
@@ -82,7 +82,7 @@ ht-degree: 31%
    您的資料檔案必須符合檔案上傳要求，且不得超過100 MB。 如果檔案太大，或您的資料必須定期上傳，您可以改用FTP傳送檔案。
 
    * **HTTPS：**&#x200B;您可以拖放.csv資料檔案，或按一下&#x200B;**[!UICONTROL Browse]**&#x200B;從您的檔案系統上傳。
-   * **FTP：**&#x200B;按一下FTP連結以[透過FTP上傳檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。指定密碼，然後按一下&#x200B;**[!UICONTROL Done]**。
+   * **FTP：**&#x200B;按一下FTP連結以[透過FTP上傳檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=zh-Hant)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。指定密碼，然後按一下&#x200B;**[!UICONTROL Done]**。
 
    現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。此檔案傳輸成功後，請建立具有相同名稱和`.fin`副檔名的檔案。 將此空白檔案傳輸至伺服器。這表示傳輸已結束，[!DNL Experience Cloud]開始處理資料檔案。
 
@@ -98,7 +98,7 @@ ht-degree: 31%
 
 1. 設定訂閱及啟動屬性來源。
 
-   按一下&#x200B;**[!UICONTROL Add Subscription]**，然後選取要訂閱這些屬性的解決方案。 [設定訂閱](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html)設定[!DNL Experience Cloud]和解決方案之間的資料流。 啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
+   按一下&#x200B;**[!UICONTROL Add Subscription]**，然後選取要訂閱這些屬性的解決方案。 [設定訂閱](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=zh-Hant)設定[!DNL Experience Cloud]和解決方案之間的資料流。 啟動屬性來源可讓資料流向訂閱的解決方案。您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
 
    ![設定方案](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -140,11 +140,11 @@ ht-degree: 31%
 
 ### 使用 Experience Cloud ID 服務
 
-如果您使用Experience Cloud ID服務，您必須設定客戶ID和驗證狀態，才能使用目標定位中的客戶屬性。 如需詳細資訊，請參閱[Experience Cloud ID服務說明](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)中的&#x200B;*客戶ID和驗證狀態*。
+如果您使用Experience Cloud ID服務，您必須設定客戶ID和驗證狀態，才能使用目標定位中的客戶屬性。 如需詳細資訊，請參閱[Experience Cloud ID服務說明](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)中的&#x200B;*客戶ID和驗證狀態*。
 
 如需關於在 [!DNL Target] 中使用客戶屬性的詳細資訊，請參閱下列資源:
 
-* [在](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)Experience Cloud服務與管理檔案&#x200B;*中建立客戶屬性來源及上傳資料檔案*
+* [在](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=zh-Hant)Experience Cloud服務與管理檔案&#x200B;*中建立客戶屬性來源及上傳資料檔案*
 
 ## 客戶經常遇到的問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

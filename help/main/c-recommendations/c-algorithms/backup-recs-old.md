@@ -2,7 +2,7 @@
 keywords: 建議;備用
 description: 瞭解如何在Adobe [!DNL Target] Recommendations中使用備份建議。 建議沒有足夠的建議專案，則會顯示備份演演算法的結果。
 title: 如何在Recommendations中使用備份建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 如需[!DNL Adobe Journey Optimizer]和優惠決定的詳細資訊，請參閱&#x200B;*[!DNL Journey Optimizer]*&#x200B;檔案中的下列主題：
 
-* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hant)
 
 * [關於決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 在VEC右側的&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;欄中，選取所需的沙箱，然後按一下選取優惠決定.placement。
 
-   [中的](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}沙箱[!DNL Adobe Experience Platform]可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 [中的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}位置[!DNL Adobe Journey Optimizer]有助於確保正確的優惠方案內容顯示在正確位置。
+   [中的](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hant){target=_blank}沙箱[!DNL Adobe Experience Platform]可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 [中的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hant){target=_blank}位置[!DNL Adobe Journey Optimizer]有助於確保正確的優惠方案內容顯示在正確位置。
 
    ![新增優惠決定對話方塊中的「沙箱」和「位置」下拉式清單](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 

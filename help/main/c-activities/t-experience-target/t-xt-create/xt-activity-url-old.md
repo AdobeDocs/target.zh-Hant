@@ -23,7 +23,7 @@ ht-degree: 39%
    >
    >依預設，VEC或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您可以在活動建立期間指定不同的頁面。
    >
-   >如果您指定的網站URL不包括[[!DNL Target] at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}，則無法選取頁面元素。
+   >如果您指定的網站URL不包括[[!DNL Target] at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant){target=_blank}，則無法選取頁面元素。
 
 1. （視條件而定）若要在VEC開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL Configure]**，選取&#x200B;**[!UICONTROL Page Delivery]**，然後在[!UICONTROL URL]欄位中指定URL。
 

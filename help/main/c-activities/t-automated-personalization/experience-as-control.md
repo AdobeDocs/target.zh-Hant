@@ -2,7 +2,7 @@
 keywords: 體驗;控制;automated personalization;自動鎖定目標
 description: 瞭解如何在[!UICONTROL Automated Personalization]中建立[!UICONTROL Auto-Target] (AP)或 [!DNL Adobe Target]活動時，選取要用來作為控制的體驗。
 title: 如何在[!UICONTROL Automated Personalization]活動中使用特定體驗作為控制？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453

@@ -2,7 +2,7 @@
 keywords: 體驗預覽; 體驗 URL; 產生 URL; 檢視體驗 URL
 description: 瞭解如何在Adobe [!DNL Target] Automated Personalization活動使用體驗預覽URL，在活動上線之前直接在網站上檢視體驗內容。
 title: 如何在Automated Personalization活動中使用體驗預覽URL？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

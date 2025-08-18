@@ -3,7 +3,7 @@ keywords: Automated Personalization；ap；上傳資料；離線資料；個人�
 description: 瞭解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中建立個人化模型時上傳離線資料。
 title: 如何上傳用於Personalization演演算法的資料？
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能會非常寶貴。
 
-有數種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法以外，[!DNL Experience Cloud]演演算法中也使用[!UICONTROL Adobe Analytics]共用對象([!DNL Audience Manager]、[!DNL Target])和活動內報表對象。
+有數種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法以外，[!DNL Experience Cloud]演演算法中也使用[!UICONTROL Adobe Analytics]共用對象([!DNL Audience Manager]、[!DNL Target])和活動內報表對象。
 
 有關[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]個人化演演算法自動收集和使用之資料的資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

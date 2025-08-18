@@ -217,7 +217,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -249,7 +249,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -281,7 +281,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -371,7 +371,7 @@ HTML選件最高可達256 KB。
 
 ## 考量事項 {#considerations}
 
-* 如果產品建議包含 HTML 內容，請參閱 [at.js 如何運作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}中的「at.js 如何呈現具有 HTML 內容的產品建議」以取得詳細資訊。
+* 如果產品建議包含 HTML 內容，請參閱 [at.js 如何運作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank}中的「at.js 如何呈現具有 HTML 內容的產品建議」以取得詳細資訊。
 
 ## 自訂元素支援 {#custom}
 
@@ -379,7 +379,7 @@ VEC支援[Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 >[!NOTE]
 >
->[at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 （或更新版本）{target=_blank}支援自訂元素的VEC支援。 確保您的網站已部署所需版本。 如果您正在使用[視覺化體驗撰寫器Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，它也必須部署必要的at.js版本。 上述VEC選項無法看見，且無法搭配不支援的at.js版本使用。
+>[at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} 2.7.0 （或更新版本）{target=_blank}支援自訂元素的VEC支援。 確保您的網站已部署所需版本。 如果您正在使用[視覺化體驗撰寫器Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，它也必須部署必要的at.js版本。 上述VEC選項無法看見，且無法搭配不支援的at.js版本使用。
 >
 >[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}目前不支援自訂元素的VEC支援。
 

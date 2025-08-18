@@ -125,7 +125,7 @@ ht-degree: 19%
 
   如果此行為不符合您的需求，請考慮執行下列其中一個動作：
 
-   * 傳遞[mbox引數](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}至[!DNL Target]以用於鎖定目標。
+   * 傳遞[mbox引數](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hant){target=_blank}至[!DNL Target]以用於鎖定目標。
    * 使用[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)，而非登陸頁面活動。 A/B測試活動不會切換相同訪客的體驗。
    * 請改用[訪客設定檔](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md)。
 

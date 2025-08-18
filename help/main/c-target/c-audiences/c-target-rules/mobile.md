@@ -33,7 +33,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->使用Mobile SDK的客戶不需要採取任何動作，即可套用此功能。 使用 at.js 的客戶必須[升級至 at.js 版本 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (或更新版本)。
+>使用Mobile SDK的客戶不需要採取任何動作，即可套用此功能。 使用 at.js 的客戶必須[升級至 at.js 版本 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} (或更新版本)。
 
 您可以選擇多個行動裝置屬性。您可使用OR運運算元聯結多個選取專案。
 

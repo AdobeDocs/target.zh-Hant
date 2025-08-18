@@ -84,7 +84,7 @@ ht-degree: 27%
 * 匯入至[!DNL Target Standard/Premium]的活動（例如，從[!DNL Target Classic]）不支援QA URL。
 * 在[!UICONTROL Auto-Allocate]與[!UICONTROL Recommendations]活動中，模型不會受[!UICONTROL Activity QA]中擷取的造訪影響。
 * 如果您在建立活動時指定「URL是」表單式撰寫器中的[細分](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或視覺化體驗撰寫器中的[頁面傳送選項)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，則QA URL無法運作，因為[!UICONTROL Activity QA]會附加URL引數。 若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
-* 如果您有at.js 1.如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，*x*，[!UICONTROL Activity QA]模式沒有粘性。 在這些情況下，您必須將預覽引數新增至您導覽到的每個URL。 如果您已實作[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}，也同樣如此。
+* 如果您有at.js 1.如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，*x*，[!UICONTROL Activity QA]模式沒有粘性。 在這些情況下，您必須將預覽引數新增至您導覽到的每個URL。 如果您已實作[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=zh-Hant){target=_blank}，也同樣如此。
 * 如果活動使用多個體驗對象（例如，相同活動中包含的US和UK網站），則這四個組合（體驗A/US網站、體驗A/UK網站、體驗B/US網站、體驗B/UK網站）不會產生QA連結。 只會建立兩個 QA 連結 (體驗 A 和體驗 B)，使用者必須屬於適當的對象，才能看到頁面。英國QA人員看不到美國網站。
 * 所有 `at_preview` 參數和值皆已完成 URL 編碼。大部分時間，一切都如預期般運作。 但是，有些客戶必須載入平衡器或Web伺服器，以嘗試再次將查詢字串引數編碼。
 
@@ -111,8 +111,8 @@ ht-degree: 27%
 
 [!DNL Target]支援下列JavaScript資料庫：
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
 
 下表列出各種活動型別，並指出每個程式庫是否支援[!UICONTROL Activity QA]模式：
