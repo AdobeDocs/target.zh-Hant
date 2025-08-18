@@ -20,7 +20,7 @@ ht-degree: 53%
 您可以合併多個流量來源建立一個複雜的目標規則。
 
 1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
-1. 
+1. &#x200B;
    1. 為對象命名並新增選擇性說明。
 1. 將&#x200B;**[!UICONTROL Traffic Sources]**&#x200B;拖放至對象產生器窗格。
 

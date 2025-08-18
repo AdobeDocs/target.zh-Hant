@@ -1,6 +1,6 @@
 ---
 keywords: ai助理；人工智慧助理
-description: 瞭解如何在 [!DNL AI Assistant] 中啟用[!DNL  Adobe Target]。
+description: 瞭解如何在 [!DNL AI Assistant] 中啟用[!DNL &#x200B; Adobe Target]。
 title: 如何啟用 [!DNL AI Assistant] 中的 [!DNL Target]？
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6

@@ -420,7 +420,7 @@ ht-degree: 50%
 **我應該如何解譯報表？**
 
 +++檢視詳細資料
-[!DNL Target]團隊嘗試使用如[信賴區間列、提升度界限、顯著性/信賴度和多個量度選項、表格和圖形檢視、執行平均值等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)等功能，儘可能以直覺的方式製作報表，以進行強大且簡便的報告分析。 如果您使用[!DNL Analytics]Analytics for Target (A4T)[活動進行進一步分析對象，則可檢視](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
+[!DNL Target]團隊嘗試使用如[信賴區間列、提升度界限、顯著性/信賴度和多個量度選項、表格和圖形檢視、執行平均值等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)等功能，儘可能以直覺的方式製作報表，以進行強大且簡便的報告分析。 如果您使用[!DNL Analytics]Analytics for Target (A4T) [活動進行進一步分析對象，則可檢視](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
 
 +++
 

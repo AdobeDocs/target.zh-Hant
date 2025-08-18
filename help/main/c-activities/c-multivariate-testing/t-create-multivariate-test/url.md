@@ -29,7 +29,7 @@ ht-degree: 31%
 
    其他規則可以根據以下任何項目:
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

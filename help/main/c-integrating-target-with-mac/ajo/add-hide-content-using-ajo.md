@@ -96,4 +96,4 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >[在](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}Journey Optimizer檔案&#x200B;*中使用網頁設計工具*
->>[在](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教學課程&#x200B;*中建立行銷活動*
+>&#x200B;>[在](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教學課程&#x200B;*中建立行銷活動*

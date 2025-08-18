@@ -48,7 +48,7 @@ ht-degree: 19%
 
    [!UICONTROL Create Design]對話方塊隨即顯示。
 
-1. 輸入&#x200B;**[!UICONTROL  Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
+1. 輸入&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
 
    使用預設設計時，設計名稱和「Copy」會出現在&#x200B;**[!UICONTROL Content Name]**&#x200B;欄位中。 您可以編輯名稱。您也可以選取要在設計卡片上顯示的影像。
 

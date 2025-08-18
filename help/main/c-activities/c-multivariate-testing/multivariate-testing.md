@@ -102,7 +102,7 @@ Target的[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-c
 
 ### 正在建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片說明如何使用[!DNL]Target三步驟引導式工作流程來瞭解、規劃和建立多變數測試。
+此影片說明如何使用Target三步驟引導式工作流程來瞭解、規劃和建立多變數測試。
 
 * 定義和設計多變數測試
 * 建立多變數測試

@@ -48,9 +48,9 @@ CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTR
 
 您有兩個位置選項︰
 
-    * **FTP：**若要從FTP伺服器上傳CSV檔案，請選取**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
+    * **FTP：**&#x200B;若要從FTP伺服器上傳CSV檔案，請選取&#x200B;**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
     
-    * **URL：**若要從URL上傳您的CSV檔案，請選取**[!UICONTROL URL]**，然後輸入摘要URL。
+    * **URL：**&#x200B;若要從URL上傳您的CSV檔案，請選取&#x200B;**[!UICONTROL URL]**，然後輸入摘要URL。
 
 1. 按一下 **[!UICONTROL Create]**。
 
