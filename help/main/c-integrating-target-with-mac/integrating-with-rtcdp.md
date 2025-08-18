@@ -128,25 +128,25 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 
 了解如何在 [!DNL Real-Time Customer Data Platform] 中設定 [!DNL Adobe Target] 目的地，以開始從 [!DNL Real-Time CDP] 傳送區段和輪廓屬性到 [!DNL Target]。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449804/?learn=on&captions=chi_hant)
 
 ### 影片：啟動區段和輪廓屬性
 
 了解如何從 [!DNL Adobe Real-Time Customer Data Platform] 將區段和輪廓屬性啟動到 [!DNL Adobe Target] 以在您的網站、行動應用程式和其他數位資產中顯示即時個人化內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447366/?learn=on&captions=chi_hant)
 
 ### 影片：在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 區段
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Real-Time Customer Data Platform] 區段，以在您的網站和行動應用程式上提供個人化體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446838/?learn=on&captions=chi_hant)
 
 ### 影片：在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 輪廓屬性
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Adobe Real-Time Customer Data Platform] 輪廓屬性，以在您的網站和行動應用程式上提供個人化體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451904/?learn=on&captions=chi_hant)
 
 ### [!DNL Adobe Target] 部落格和影片：同一頁面增強的個人化
 
