@@ -17,7 +17,7 @@ ht-degree: 59%
 
 如需成功量度的詳細資訊，請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
-1. 在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;頁面的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;區段中，選取[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. 在&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;頁面的&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;區段中，選取[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![選取成功量度](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 

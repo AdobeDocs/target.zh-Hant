@@ -13,7 +13,7 @@ ht-degree: 37%
 
 # 表單式體驗撰寫器
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非視覺化體驗和選件建立介面，當[!UICONTROL Visual Experience Composer] (VEC)無法使用或不實用的情況下，此介面有助於建立可在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]和[!UICONTROL Recommendations]活動中使用的體驗。 例如，您可以使用表單式體驗撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非視覺化體驗和選件建立介面，當[!UICONTROL A/B Test] (VEC)無法使用或不實用的情況下，此介面有助於建立可在[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer]活動中使用的體驗。 例如，您可以使用表單式體驗撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
 
 如果您正在建立[!UICONTROL Recommendations]活動，則沒有體驗。 選擇您的條件和設計。如果您選擇多個條件或設計，[!UICONTROL Target]會自動產生體驗。
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
    [!UICONTROL Form-Based Experience Composer]可用於[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]和[!UICONTROL Recommendations]活動。
 
-1. 從[!UICONTROL Create Activity]對話方塊中選取&#x200B;**[!UICONTROL Form]**。
+1. 從&#x200B;**[!UICONTROL Form]**&#x200B;對話方塊中選取[!UICONTROL Create Activity]。
 
 1. （視條件而定）選擇工作區和屬性。
 
@@ -92,7 +92,7 @@ ht-degree: 37%
 
    **新增建議：**
 
-   針對Recommendations活動，「內容」下拉式清單會提供[!UICONTROL Add Recommendation]選項。 按一下&#x200B;**[!UICONTROL Add Recommendation]**，然後選取頁面型別。 然後遵循介面中定義的步驟來[建立Recommendations 活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+   針對Recommendations活動，內容下拉式清單會提供[!UICONTROL Add Recommendation]選項。 按一下&#x200B;**[!UICONTROL Add Recommendation]**，然後選取頁面型別。 然後遵循介面中定義的步驟來[建立Recommendations 活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 
    在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。
 

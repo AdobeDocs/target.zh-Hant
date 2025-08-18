@@ -1,6 +1,6 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)來建立[!UICONTROL Multivariate Test] (MVT)。
+description: 瞭解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)來建立[!UICONTROL Multivariate Test] (MVT)。
 title: 如何建立[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -13,7 +13,7 @@ ht-degree: 56%
 
 # 建立多變數測試
 
-[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)可讓您輕鬆建立[!UICONTROL Multivariate Test]，以及在[!DNL Target]內修改頁面的部分。
+[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)可讓您輕鬆建立[!UICONTROL Multivariate Test]，以及在[!DNL Target]內修改頁面的部分。
 
 [!DNL Target]點選編輯器可讓您挑選任何位置並新增多個選件。
 

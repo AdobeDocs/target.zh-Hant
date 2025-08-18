@@ -1,13 +1,13 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;量度;量度定義
-description: 尋找關於量度定義和對 [!DNL Target] (A4T)使用Analytics問題的解答。 A4T可讓您將Analytics報表用於Adobe [!DNL Target] 活動。
+description: 尋找關於量度定義和對 [!DNL Target] (A4T)使用Analytics問題的解答。 A4T可讓您將Analytics報告與Adobe [!DNL Target] 活動搭配使用。
 title: 我可以在哪裡找到有關A4T量度定義的資訊？
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 31%
+source-wordcount: '351'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 31%
 ## 活動成員資格多久到期? 訪客進入活動後，如果不再看此活動，則其動作經過多久會計入此活動中？ {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++回答
-活動的預設有效期為訪客上次與活動互動後的90天。 如有需要，ClientCare可調整此設定。 不過，此設定全域適用所有活動，因此不應針對一個案例進行調整。
+活動的預設到期是在訪客最後一次與活動互動的 90 天之後。如有需要，ClientCare可調整此設定。 不過，此設定全域適用所有活動，因此不應針對一個案例進行調整。
 
 +++
 
@@ -35,10 +35,10 @@ ht-degree: 31%
 
 +++
 
-## 什麼是計算量度，它們如何取代我過去常用的 SiteCatalyst:Event Mbox? {#section_D59F4719E6B94758A2187427C17F8EF3}
+## 什麼是計算量度，它們如何取代我過去使用的SiteCatalyst:Event mbox？ {#section_D59F4719E6B94758A2187427C17F8EF3}
 
 +++回答
-計算量度可讓您建立衍生自區段或數學計算的自訂量度。 您過去可能已使用 `SiteCatlayst:Event` mbox (其中 `evar27=shoes` 且事件為 `purchase`)，而現在您要建立 `evar27=shoes` 的區段，然後建立事件為 `purchase` 並套用該區段的計算量度。這些量度可隨時建立，即便活動正在進行中也一樣。 然後可用於 Analytics 中的任何報表。
+計算量度可讓您建立衍生自區段或數學計算的自訂量度。您過去可能已使用 `SiteCatlayst:Event` mbox (其中 `evar27=shoes` 且事件為 `purchase`)，而現在您要建立 `evar27=shoes` 的區段，然後建立事件為 `purchase` 並套用該區段的計算量度。這些量度可隨時建立，即便活動正在進行中也一樣。 然後可用於 Analytics 中的任何報表。
 
 +++
 

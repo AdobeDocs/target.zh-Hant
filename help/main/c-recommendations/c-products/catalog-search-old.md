@@ -2,7 +2,7 @@
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器
 description: 瞭解如何使用Recommendations目錄搜尋來找出產品或內容、建立集合或排除專案、從目錄中移除專案等。
 title: 如何使用Recommendations目錄搜尋？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # 目錄搜尋
 
-[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、將搜尋結果儲存至集合或排除專案、新增篩選多面向及修改表格中的欄、新增搜尋多面向等等。
+[!UICONTROL Catalog Search]中的[!DNL Adobe Recommendations]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、將搜尋結果儲存至集合或排除專案、新增篩選多面向及修改表格中的欄、新增搜尋多面向等等。
 
 目錄是指您的整個產品集 (實體)。您的目錄可以包含許多系列，好讓您以邏輯區間組織產品。
 
@@ -119,7 +119,7 @@ ht-degree: 22%
 
 ## 根據進階搜尋建立集合或排除項目 {#save-as}
 
-您可以在[!UICONTROL Catalog Search]頁面上使用[!UICONTROL Advanced Search]建立[集合](/help/main/c-recommendations/c-products/collections.md)或[排除專案](/help/main/c-recommendations/c-products/exclusions.md) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])。
+您可以在[頁面上使用](/help/main/c-recommendations/c-products/collections.md)建立[集合](/help/main/c-recommendations/c-products/exclusions.md)或[!UICONTROL Advanced Search]排除專案[!UICONTROL Catalog Search] ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])。
 
 1. 執行[進階搜尋](#advanced-search)。
 

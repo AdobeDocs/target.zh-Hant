@@ -9,7 +9,7 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
 source-wordcount: '955'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 52%
 
 [!BADGE 進階版]{type=Positive}
 
-[!DNL Target Premium]是進階產品，需要授權才能將進階功能加入[!DNL Target Standard]。 [!DNL Target]指南中的所有[!DNL Target Premium]篇文章都會在每個頁面頂端或受影響文字附近的內嵌包含[!UICONTROL Premium]徽章。 [!UICONTROL Premium]徽章可點按並連結至此區段。
+[!DNL Target Premium]是進階產品，需要授權才能將進階功能加入[!DNL Target Standard]。 [!DNL Target Premium]指南中的所有[!DNL Target]篇文章都會在每個頁面頂端或受影響文字附近的內嵌包含[!UICONTROL Premium]徽章。 [!UICONTROL Premium]徽章可點按並連結至此區段。
 
 **[!DNL Target Premium]包含下列功能：**
 
@@ -102,7 +102,7 @@ AP完全自動化，以最少的人工分析持續學習。 它會建立模型�
 
 [Adobe Target歡迎套件](/help/main/c-intro/target-welcome-kit.md)
 
-## 培訓影片：活動類型 (9:03)![Overview badge](/help/main/assets/overview.png)
+## 訓練影片：活動型別(9:03) ![總覽徽章](/help/main/assets/overview.png)
 
 下列影片說明 [!DNL Target Standard/Premium] 中可用的活動類型，以及 [!DNL Target] 的三步驟引導式工作流程如何協助您達成網站目標。
 

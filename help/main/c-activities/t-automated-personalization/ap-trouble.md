@@ -2,13 +2,13 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: 探索您在Adobe Target中使用[!UICONTROL Automated Personalization] (AP)活動時可能遇到的挑戰，以及建議的解決方案。
 title: 如何疑難排解[!UICONTROL Automated Personalization]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 32%
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 32%
 
 ## 我的[!UICONTROL Automated Personalization]活動花費太多時間來建置模型。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
-+++查看詳細資料
++++檢視詳細資料
 
 有幾項活動設定變更可以縮短建立模型的預期時間，包括[!UICONTROL Automated Personalization]活動中的體驗數量、流向網站的流量，以及您選取的成功量度。
 
@@ -26,14 +26,14 @@ ht-degree: 32%
 
 * 如果您的成功量度是設為 RPV，您可以變更為轉換嗎？ 轉換活動傾向需要較少流量來建置模型。如果將成功量度從RPV變更為轉換，則不會遺失活動資料。
 * 您的成功量度是否遠低於您的活動體驗的銷售漏斗？ 較低的活動轉換率將增加建置模型所需的流量，因為需要最低的轉換數量。
-* 是否有您可以從活動中排除的一些選件或體驗? 減少活動中的體驗數量會加快建立模型的時間。
+* 是否有您可以從活動中排除的一些產品建議或體驗?減少活動中的體驗數量會加快建立模型的時間。
 * 是否有更高流量的頁面可讓此活動更成功？ 活動位置的流量和轉換次數越多，建立的模型就越快。
 
 +++
 
 ## 我的[!UICONTROL Automated Personalization]活動未產生提升度。 {#section_8900BC8968474438B8092F7A94C0C6CF}
 
-+++查看詳細資料
++++檢視詳細資料
 
 [!UICONTROL Automated Personalization]活動需要數個因子才能產生提升度：
 
@@ -48,7 +48,7 @@ ht-degree: 32%
 
 ## 我的[!UICONTROL Automated Personalization]活動URL在不正確的頁面上顯示選件內容。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
-+++查看詳細資料
++++檢視詳細資料
 
 在[!UICONTROL Automated Personalization]中，URL和範本測試規則新增至[!DNL Target]要求專案限制（例如target-global-mbox），只會評估一次。 使用者符合活動資格後，不會重新評估Target請求層級的鎖定目標規則。 不過，鎖定目標對象會新增至位置鎖定目標規則。
 
@@ -58,7 +58,7 @@ ht-degree: 32%
 
 ## 相依於轉換量度的任何量度永遠不會轉換。 {#section_076D1F44298C4E4A849AC52F5A33214D}
 
-+++查看詳細資料
++++檢視詳細資料
 
 這是預期中的情形。
 
@@ -70,7 +70,7 @@ ht-degree: 32%
 
 ## 我的體驗 URL 未如預期運作。 {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
-+++查看詳細資料
++++檢視詳細資料
 
 * 如果您在新索引標籤中看不到預覽（由於瀏覽器快取），請嘗試重新整理兩或三次。 您也可以複製連結，並在新瀏覽器或新工作階段中開啟。
 * 如果您已變更任何內容，請重新產生體驗 URL 連結，並您的團隊成員分享新連結。

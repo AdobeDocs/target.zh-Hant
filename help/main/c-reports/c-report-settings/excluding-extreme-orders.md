@@ -1,6 +1,6 @@
 ---
 keywords: Target;報表;報表設定;極端訂單;極端值
-description: 瞭解如何排除極端值，以免影響Adobe [!DNL Target] 中的報告，讓少數不尋常的訂單不會影響您的活動結果。
+description: 瞭解如何在Adobe [!DNL Target] 中排除極端值，以免影響報表，讓少數不尋常的訂單不會影響您的活動結果。
 title: 如何在報表中排除極端值？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74

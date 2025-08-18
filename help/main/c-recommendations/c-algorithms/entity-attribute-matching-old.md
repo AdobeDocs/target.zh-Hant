@@ -1,8 +1,8 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷活動；動態篩選；動態；實體屬性比對
-description: 瞭解如何在Adobe [!DNL Target] Recommendations中動態篩選，方法是比較一組潛在專案與使用者已互動的特定專案。
+description: 瞭解如何透過將潛在專案集區與使用者已互動的特定專案進行比較，以在Adobe [!DNL Target] Recommendations中動態篩選。
 title: 如何在Recommendations活動中依實體屬性比對來篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則[的](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)程式相似，使用案例和範例也類似。
 
 例如，僅建議符合目前專案品牌的專案，如下列範例所示：
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ### 追加銷售至更昂貴的產品
 
-假設您是服裝零售商，並且想要鼓勵使用者考慮價格較高，進而獲得較高利潤的專案。 您可以使用「等於」和「介於」運運算元，促銷相同類別和相同品牌中較貴的專案。 例如，鞋類零售商可促銷較貴的跑鞋，以向上銷售看過跑鞋的訪客，如下列範例所示：
+假設您是一名retailer服飾，希望鼓勵使用者考慮價格較高，進而獲得更多利潤的專案。 您可以使用「等於」和「介於」運運算元，促銷相同類別和相同品牌中較貴的專案。 例如，鞋子retailer可以促銷較貴的跑鞋，以便向看過跑鞋的訪客追加銷售，如以下範例所示：
 
 ![追加銷售](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 

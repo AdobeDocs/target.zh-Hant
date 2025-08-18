@@ -1,6 +1,6 @@
 ---
 keywords: 自動流量分配；鎖定目標；增加計數以及讓使用者留在活動中；流量分配；自動分配
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Auto-Allocate]活動，該活動可在兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者。
+description: 瞭解如何在[!UICONTROL Auto-Allocate]中使用 [!DNL Adobe Target] 活動，該活動可在兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者。
 title: 什麼是[!UICONTROL Auto-Allocate]活動？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
@@ -11,11 +11,11 @@ ht-degree: 35%
 
 ---
 
-# [!UICONTROL Auto-Allocate]總覽
+# [!UICONTROL Auto-Allocate] 概覽
 
-[!DNL Adobe Target]中的[!UICONTROL Auto-Allocate]活動會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
+[!UICONTROL Auto-Allocate]中的[!DNL Adobe Target]活動會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
 
-使用三步驟引導式工作流程[建立A/B活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，請在&#x200B;**[!UICONTROL Targeting]**&#x200B;頁面上選擇&#x200B;**[!UICONTROL Auto-Allocate to best experience]**&#x200B;選項（步驟2）。
+使用三步驟引導式工作流程[建立A/B活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，請在&#x200B;**[!UICONTROL Auto-Allocate to best experience]**&#x200B;頁面上選擇&#x200B;**[!UICONTROL Targeting]**&#x200B;選項（步驟2）。
 
 ## 挑戰 {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -51,7 +51,7 @@ ht-degree: 35%
 
 討論[!UICONTROL Auto-Allocate]時，下列字詞相當實用：
 
-**多臂吃角子老虎機：**&#x200B;最佳化的[多臂吃角子老虎機](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}方法可平衡探索學習和該學習的利用。
+**多臂吃角子老虎機:**&#x200B;最佳化的[多臂吃角子老虎機](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}方法可平衡探索學習和該學習的利用。
 
 ## 演演算法運作方式 {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -83,7 +83,7 @@ ht-degree: 35%
 >
 >如果活動只有兩個體驗，則兩個體驗會獲得相等的流量，直到[!DNL Target]找到具有75%信賴度的成功體驗為止。 到那時，三分之二的流量會分配給成功者，三分之一分配給失敗者。 之後，當體驗達到95%信賴度時，90%的流量會分配給獲勝者，而10%會分配給失敗者。 [!DNL Target]一律會傳送一些流量給「遺失」體驗，以避免最後的誤判（也就是說，維持一些探索）。
 
-在啟動[!UICONTROL Auto-Allocate]活動後，不允許從Target UI執行下列操作：
+在啟動[!UICONTROL Auto-Allocate]活動後，不允許從Tar[!DNL]get UI執行下列操作：
 
 * 將「流量配置」模式切換為「手動」
 * 變更目標量度類型
@@ -194,17 +194,17 @@ ht-degree: 35%
 
 [!DNL Adobe]不建議您在活動中途變更目標量度。 雖然在活動期間有可能使用 [!DNL Target] UI 變更目標量度，您應該總是開始一個新的活動。[!DNL Adobe]無法保證您在活動執行後變更目標量度會發生什麼情況。
 
-此建議適用於使用[!DNL Target]或[!DNL Analytics] (A4T)作為報告來源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。
+此建議適用於使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作為報告來源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活動。
 
 ### 我可以在[!UICONTROL Auto-Allocate]活動中途變更報表來源嗎？ {#change-reporting}
 
 [!DNL Adobe]不建議您在活動中途變更報表來源。 雖然在使用[!DNL Target] UI的活動中可以變更報表來源（從[!DNL Target]變更為A4T，或以相反的方式），您應該一律開始新的活動。 [!DNL Adobe]無法保證您會在活動執行後變更活動中的報告來源時發生什麼情況。
 
-此建議適用於使用[!DNL Target]或[!DNL Analytics] (A4T)作為報告來源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。
+此建議適用於使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作為報告來源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活動。
 
-### 我在執行[!UICONTROL Auto-Allocate]活動時可以使用[!UICONTROL Reset Report Data]選項嗎？
+### 我在執行[!UICONTROL Reset Report Data]活動時可以使用[!UICONTROL Auto-Allocate]選項嗎？
 
-不建議對[!UICONTROL Auto-Allocate]活動使用[!UICONTROL Reset Report Data]選項。 雖然此選項會移除可見的報告資料，但不會移除[!UICONTROL Auto-Allocate]模型中的所有訓練記錄。 不要對[!UICONTROL Auto-Allocate]個活動使用[!UICONTROL Reset Report Data]選項，請建立新活動並停用原始活動。 （此指引也適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。）
+不建議對[!UICONTROL Reset Report Data]活動使用[!UICONTROL Auto-Allocate]選項。 雖然此選項會移除可見的報告資料，但不會移除[!UICONTROL Auto-Allocate]模型中的所有訓練記錄。 不要對[!UICONTROL Reset Report Data]個活動使用[!UICONTROL Auto-Allocate]選項，請建立新活動並停用原始活動。 （此指引也適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。）
 
 ### [!UICONTROL Auto-Allocate]如何建立環境相關模型？
 
@@ -241,7 +241,7 @@ ht-degree: 35%
 
 ### 建立A/B測試(8:36) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此視訊示範如何使用 Target 三步驟引導式工作流程來建立 A//B 測試。上午 04:45 處開始討論 [!UICONTROL Auto-Allocate]。
+此視訊示範如何使用 Target 三步驟引導式工作流程來建立 A//B 測試。從4[!UICONTROL Auto-Allocate]開始討論:45。
 
 * 在[!DNL Adobe Target]中建立A/B活動
 * 使用手動分割或自動流量分配來分配流量

@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # 修改
 
-有關[!DNL Adobe Target]中[!UICONTROL Modifications]頁面的資訊，可讓您檢視對頁面的修改以及新增其他修改（CSS選取器、Mbox和自訂程式碼）。
+有關[!UICONTROL Modifications]中[!DNL Adobe Target]頁面的資訊，可讓您檢視對頁面的修改以及新增其他修改（CSS選取器、Mbox和自訂程式碼）。
 
 [!UICONTROL Modifications]頁面顯示視覺化體驗撰寫器(VEC)中對您的頁面所做的所有變更，並可讓您按一下頁面上的每個元素並[選取動作](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)以進行其他變更。 您所做的每項變更都會在[!UICONTROL Modifications]清單中顯示為個別的動作或元素。 您也可以新增修改，包括以下修改類型: CSS 選取器、Mbox。和自訂程式碼。
 
@@ -23,7 +23,7 @@ ht-degree: 72%
 
 ![codeeditor_page_mods影像](assets/codeeditor_page_mods.png)
 
-當您使用 VEC 設定內容的傳送方式時，請使用「修改」頁面對 Target 選擇的選取器進行微幅變更。您可以變更內容或 HTML 屬性。您也可以編輯程式碼，在 mbox 內建立 HTML 選件的對等項。
+當您使用 VEC 設定內容的傳送方式時，請使用「修改」頁面對 Target 選擇的選取器進行微幅變更。您可以變更內容或 HTML 屬性。您也可以編輯程式碼，在 mbox 內建立 HTML 產品建議的對等項。
 
 使用「修改」頁面以:
 
@@ -65,7 +65,7 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >若要在表單式體驗撰寫器中開啟「修改」面板，請建立或編輯 HTML 選件。如需詳細資訊，請參閱 [表格式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
+   >若要在表單式體驗撰寫器中開啟「修改」面板，請建立或編輯 HTML 產品建議。如需詳細資訊，請參閱 [表格式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
 
    [!UICONTROL Modifications]頁面隨即開啟，畫面分成左側的視覺化模式和右側的「修改」面板。 按一下[!UICONTROL Dock]圖示，將修改面板垂直固定在Target UI的一側，或水準固定在底部。 請注意，下圖中的體驗 A 先前沒有任何修改。
 
@@ -77,7 +77,7 @@ ht-degree: 72%
 
 1. 若要新增修改:
 
-   * 如果之前未對體驗進行任何修改，請按一下右側[!UICONTROL Modifications]面板底部的&#x200B;**[!UICONTROL Add Modification]**&#x200B;按鈕。
+   * 如果之前未對體驗進行任何修改，請按一下右側&#x200B;**[!UICONTROL Add Modification]**&#x200B;面板底部的[!UICONTROL Modifications]按鈕。
    * 如果之前對體驗進行過修改，請按一下右側[!UICONTROL Modifications]面板頂端的+圖示。
 
    「修改」面板隨即顯示:
@@ -90,7 +90,7 @@ ht-degree: 72%
    |--- |--- |
    | CSS 選擇器 | 在「CSS 元素選取器」方塊中，指定要修改之所需的 CSS 元素，選取動作類型 (「設定內容」或「設定屬性」)，然後填寫所需資訊和所需內容。 |
    | mbox | 指定mbox名稱和所需內容。<p>**注意**：使用at.js 2.*x*。<p>因應措施：<ul><li>若使用at.js 2.*x*，新增CSS選取器修改而非Mbox修改，並在您的mbox使用的選取器上新增內容。 </li><li>使用表單式活動(適用於mbox和at.js 1.*x* 和 at.js 2 中的 Hide Body 和 Show Body 呼叫。*x*)。</li><li>使用at.js 1.VEC中的&#x200B;*x*。</li></ul> |
-   | 自訂程式碼 | 指定選擇性名稱，視需要選取或取消選取[!UICONTROL Add Code in the `<HEAD>`區段]核取方塊，然後新增您的自訂程式碼。<p>如果您選取[!UICONTROL Add Code in the `<HEAD>`區段]，則自訂程式碼會新增至`<head>`區段，不會等候內文或頁面載入事件便開始執行。 僅新增 `<script>` 和 `<style>` 元素。新增 `<div>` 標記和其他元素可能會造成其餘的 `<head>` 元素出現在 `<body>` 中。如果您使用at.js，將會以非同步方式傳送所有選件。<p> 如果您取消選取[!UICONTROL Add Code in the `<HEAD>`區段]，自訂程式碼將會在`<body>`標籤之後立即執行。 請使用單一 `<div>` 將所有程式碼換行，以保存 DOM 結構。如果您使用at.js，將會以非同步方式傳送所有選件。<p>如果`<BODY>`的HTML包含`<SCRIPT>`和`<DIV>`，則會將`<DIV>`附加至`<BODY>`並在`<HEAD>`中執行`<SCRIPT>`。 此外，載入外部檔案的`<SCRIPT>`也會附加至`<HEAD>`。<p>**注意**：指令碼是以非同步方式執行。 這表示您無法使用例如 `document.write` 或類似的指令碼方法。<p>自訂程式碼提供一個非可視化介面，用於在 VEC、表單式體驗撰寫器和 HTML 選件編輯器中檢視、編輯和新增新動作。該面板提供體驗的程式碼檢視，可幫助您建立更複雜的體驗，微調現有的體驗並疑難排解問題。<p>自訂程式碼適用於熟悉 HTML、JavaScript 和 CSS 的進階使用者。程式碼檢視可協助您潤飾或微調變更，或修正選取器問題。也可用來新增自訂程式碼和動作。您也可以新增一個以上的自訂程式碼，並可選擇為每個自訂程式碼命名。<p>**注意**：自訂程式碼目前僅適用於A/B和體驗鎖定目標(XT)活動。 如果已套用重新導向選件，則會停用覆蓋的自訂程式碼。<p>自訂程式碼支援下列使用案例:<ul><li>新增要在頁面頂端執行的自訂 JavaScript、HTML 或 CSS</li><li>修改之後檢視或編輯 VEC 所產生的程式碼</li><li>設定選取器的 HTML 內容 (僅限 CSS 選取器)</li><li>設定 HTML 元素的屬性</li><li>新增要在地區 mbox 中傳送的選件內容</li><li>在 DOM 就緒時交換，使用 jQuery</li><li>在 DOM 就緒上交換，無 jquery (不支援 Internet Explorer 8)</li><li>透過 &quot;elementOnLoad&quot; 外掛程式，與 DOM 輪詢交換</li><li>自訂重新導向</li></ul>自訂程式碼提供:<ul><li>行號讓使用性更好。</li><li>語法醒目提示，協助您避免 HTML 選件的語法不正確。</li><li>可建立多個自訂程式碼，並為每個程式碼提供選擇性名稱。建立多個自訂程式碼可讓日後偵錯更加輕鬆。例如，您可以使用描述性名稱為每個修改建立個別的自訂程式碼，而不是建立單一自訂程式碼來完成多個修改。擁有個別的自訂程式碼使您的修改更加模組化且易於管理。請注意，活動中的多個自訂程式碼無法保證依照其建立順序執行。</li></ul>「修改」面板分成可視化模式和程式碼模式。兩種模式會維持同步。在視覺上所做的每一項修改，在程式碼檢視中都有相應的一列。同樣地，程式碼檢視提交的每個變更都會顯示在視覺體驗中。按一下程式碼檢視中的任何一列，會在視覺化頁面上選取相應的元素。<p>自訂程式碼支援 HTML、指令碼和樣式。任何有效的 HTML 程式碼或指令碼都可新增或編輯。 |
+   | 自訂程式碼 | 指定選擇性名稱，視需要選取或取消選取[!UICONTROL Add Code in the `<HEAD>`區段]核取方塊，然後新增您的自訂程式碼。<p>如果您選取[!UICONTROL Add Code in the `<HEAD>`區段]，則自訂程式碼會新增至`<head>`區段，不會等候內文或頁面載入事件便開始執行。 僅新增 `<script>` 和 `<style>` 元素。新增 `<div>` 標記和其他元素可能會造成其餘的 `<head>` 元素出現在 `<body>` 中。如果您使用at.js，將會以非同步方式傳送所有選件。<p> 如果您取消選取[!UICONTROL Add Code in the `<HEAD>`區段]，自訂程式碼將會在`<body>`標籤之後立即執行。 請使用單一 `<div>` 將所有程式碼換行，以保存 DOM 結構。如果您使用at.js，將會以非同步方式傳送所有選件。<p>如果`<BODY>`的HTML包含`<SCRIPT>`和`<DIV>`，則會將`<DIV>`附加至`<BODY>`並在`<SCRIPT>`中執行`<HEAD>`。 此外，載入外部檔案的`<SCRIPT>`也會附加至`<HEAD>`。<p>**注意**：指令碼是以非同步方式執行。 這表示您無法使用例如 `document.write` 或類似的指令碼方法。<p>自訂程式碼提供一個非可視化介面，用於在 VEC、表單式體驗撰寫器和 HTML 產品建議編輯器中檢視、編輯和新增新動作。該面板提供體驗的程式碼檢視，可幫助您建立更複雜的體驗，微調現有的體驗並疑難排解問題。<p>自訂程式碼適用於熟悉 HTML、JavaScript 和 CSS 的進階使用者。程式碼檢視可協助您潤飾或微調變更，或修正選取器問題。也可用來新增自訂程式碼和動作。您也可以新增一個以上的自訂程式碼，並可選擇為每個自訂程式碼命名。<p>**注意**：自訂程式碼目前僅適用於A/B和體驗鎖定目標(XT)活動。 如果已套用重新導向產品建議，則會停用覆蓋的自訂程式碼。<p>自訂程式碼支援下列使用案例:<ul><li>新增要在頁面頂端執行的自訂 JavaScript、HTML 或 CSS</li><li>修改之後檢視或編輯 VEC 所產生的程式碼</li><li>設定選取器的 HTML 內容 (僅限 CSS 選取器)</li><li>設定 HTML 元素的屬性</li><li>新增要在地區 mbox 中傳送的產品建議內容</li><li>在 DOM 就緒時交換，使用 jQuery</li><li>在 DOM 就緒上交換，無 jquery (不支援 Internet Explorer 8)</li><li>透過 &quot;elementOnLoad&quot; 外掛程式，與 DOM 輪詢交換</li><li>自訂重新導向</li></ul>自訂程式碼提供:<ul><li>行號讓使用性更好。</li><li>語法醒目提示，協助您避免 HTML 產品建議的語法不正確。</li><li>可建立多個自訂程式碼，並為每個程式碼提供選擇性名稱。建立多個自訂程式碼可讓日後偵錯更加輕鬆。例如，您可以使用描述性名稱為每個修改建立個別的自訂程式碼，而不是建立單一自訂程式碼來完成多個修改。擁有個別的自訂程式碼使您的修改更加模組化且易於管理。請注意，活動中的多個自訂程式碼無法保證依照其建立順序執行。</li></ul>「修改」面板分成可視化模式和程式碼模式。兩種模式會維持同步。在視覺上所做的每一項修改，在程式碼檢視中都有相應的一列。同樣地，程式碼檢視提交的每個變更都會顯示在視覺體驗中。按一下程式碼檢視中的任何一列，會在視覺化頁面上選取相應的元素。<p>自訂程式碼支援 HTML、指令碼和樣式。任何有效的 HTML 程式碼或指令碼都可新增或編輯。 |
 
 1. 視需要新增其他修改。
 
@@ -211,9 +211,9 @@ ht-degree: 72%
 
 ## 疑難排解自訂程式碼 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
-使用`triggerView`時未執行&#x200B;**自訂程式碼。**
+使用&#x200B;**時未執行`triggerView`自訂程式碼。**
 
-當使用 `{page: false}` 做為選項呼叫 `triggerView()` 時，VEC 中的自訂程式碼選件不會重新呈現。
+當使用 `{page: false}` 做為選項呼叫 `triggerView()` 時，VEC 中的自訂程式碼產品建議不會重新呈現。
 
 **我收到警告，說明由於頁面中的結構變更，無法套用動作。其含義是:**
 

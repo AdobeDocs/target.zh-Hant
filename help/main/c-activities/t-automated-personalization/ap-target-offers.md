@@ -2,7 +2,7 @@
 keywords: 自動個人化；選件；鎖定目標；對象；鎖定規則；鎖定目標
 description: 探索如何使用[!UICONTROL Automated Personalization] (AP)活動將個別優惠方案鎖定在特定對象。
 title: 如何鎖定[!UICONTROL Automated Personalization]選件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

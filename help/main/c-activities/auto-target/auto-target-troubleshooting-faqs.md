@@ -2,19 +2,19 @@
 keywords: 自動鎖定目標;鎖定目標;流量分配;常見問答;faq;疑難排解;疑難排解;流量
 description: 探索有關[!UICONTROL Auto-Target]活動的疑難排解主題和常見問題。
 title: 如何疑難排解[!UICONTROL Auto-Target]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
 # [!UICONTROL Auto-Target]常見問題集和疑難排解
 
-有關[!DNL Adobe Target]中[!UICONTROL Auto-Target]個活動的疑難排解和常見問答(FAQ)。
+有關[!UICONTROL Auto-Target]中[!DNL Adobe Target]個活動的疑難排解和常見問答(FAQ)。
 
 ## [!UICONTROL Auto-Target]常見問題 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
@@ -29,7 +29,7 @@ ht-degree: 29%
 * 如果您在測試個人化演演算法，請勿在活動上線期間變更體驗，或新增或移除設定檔屬性。
 * 請考慮針對您打算在[!UICONTROL Auto-Target]活動中使用的不同選件和位置進行A/B活動，以確定位置和選項件對最佳化目標具影響力。 如果A/B活動未展現明顯的差異，[!UICONTROL Auto-Target]很可能也無法產生提升度。
 
-  如果 A/B 測試顯示體驗之間沒有統計顯著差異，可能是您考慮的選件彼此的差異不夠、您選取的位置不會影響成功量度，或最佳化目標在轉換漏斗中太遠，以致於不受您選擇的選件所影響。
+  如果 A/B 測試顯示體驗之間沒有統計顯著差異，可能是您考慮的產品建議彼此的差異不夠、您選取的位置不會影響成功量度，或最佳化目標在轉換漏斗中太遠，以致於不受您選擇的產品建議所影響。
 
 * 在活動期間儘量不要對體驗進行重大變更。
 
@@ -37,8 +37,8 @@ ht-degree: 29%
 
 ### 是否建議[!UICONTROL Adobe]以90 （控制項）/10 （目標鎖定）的分割使用[!UICONTROL Auto Target]直到建立模型為止？
 
-+++回答
-您的最佳流量分配分割取決於您想要達成的目的。
++++回答 
+您的最佳流量配置分割取決於您想要達成的目的。
 
 如果您的目標是儘可能使最多的流量個人化，在活動期限內，您可以維持90%目標配置和10%控制。 如果您的目標是執行比較個人化演演算法與控制項的實驗，則50/50的分割比例最適合活動期限。
 
@@ -89,7 +89,7 @@ No, check marks for model generation show only the models built to date. There's
 +++回答
 在[!UICONTROL Auto-Target]活動中建立模型所需的時間，通常取決於流向您所選活動位置的流量，以及與您的活動成功量度關聯的轉換率。
 
-[!UICONTROL Auto-Target]不會嘗試為指定的體驗建立個人化模型，直到該體驗至少有50個轉換為止。 此外，如果建立的模型品質不佳（使用稱為AUC[&#128279;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度對保留「測試」資料進行離線評估所決定），則模型不會用於個人化的流量。
+[!UICONTROL Auto-Target]不會嘗試為指定的體驗建立個人化模型，直到該體驗至少有50個轉換為止。 此外，如果建立的模型品質不佳（使用稱為AUC[的量度](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)對保留「測試」資料進行離線評估所決定），則模型不會用於個人化的流量。
 
 關於[!UICONTROL Auto-Target]的模型建立要記住的其他要點：
 
@@ -116,7 +116,7 @@ No, check marks for model generation show only the models built to date. There's
 ### 是否可以指定要用來作為控制的特定體驗？
 
 +++回答
-建立[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活動時，您可以選取要用來作為控制的體驗。
+建立 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) 活動時，您可以選取要用來作為控制的體驗。
 
 此功能可讓您根據活動中設定的流量分配百分比，將整個控制流量傳送至特定體驗。 接著，您可以根據該體驗之控制流量，評估個人化流量的效能報表。
 
@@ -129,14 +129,14 @@ No, check marks for model generation show only the models built to date. There's
 +++回答
 Adobe不建議您在活動中途變更目標量度。 雖然在活動期間有可能使用 [!DNL Target] UI 變更目標量度，您應該總是開始一個新的活動。如果您在活動執行後變更目標量度，Adobe無法保證會發生什麼事。
 
-此建議適用於使用[!DNL Target]或[!DNL Analytics] (A4T)作為報告來源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。
+此建議適用於使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作為報告來源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活動。
 
 +++
 
-### 我在執行[!UICONTROL Auto-Target]活動時可以使用[!UICONTROL Reset Report Data]選項嗎？
+### 我在執行[!UICONTROL Reset Report Data]活動時可以使用[!UICONTROL Auto-Target]選項嗎？
 
 +++回答
-不建議對[!UICONTROL Auto-Target]活動使用[!UICONTROL Reset Report Data]選項。 雖然此選項會移除可見的報告資料，但不會移除[!UICONTROL Auto-Target]模型中的所有訓練記錄。 不要對[!UICONTROL Auto-Target]個活動使用[!UICONTROL Reset Report Data]選項，請建立新活動並停用原始活動。
+不建議對[!UICONTROL Reset Report Data]活動使用[!UICONTROL Auto-Target]選項。 雖然此選項會移除可見的報告資料，但不會移除[!UICONTROL Auto-Target]模型中的所有訓練記錄。 不要對[!UICONTROL Reset Report Data]個活動使用[!UICONTROL Auto-Target]選項，請建立新活動並停用原始活動。
 
 此指引也適用於[!UICONTROL Auto-Allocate]和[!UICONTROL Automated Personalization]活動。
 

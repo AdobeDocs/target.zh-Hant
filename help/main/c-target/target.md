@@ -27,7 +27,7 @@ ht-degree: 38%
 
 如果驗明訪客屬於目標客群，[!DNL Target] 會根據建立活動時所建立的條件，決定要顯示的體驗。
 
-## 訓練影片：活動鎖定目標(2:13) ![教學課程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：活動目標定位(2:13) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此視訊包含有關如何設定目標和對象的資訊。
 

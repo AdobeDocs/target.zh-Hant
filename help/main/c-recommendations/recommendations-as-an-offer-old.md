@@ -2,7 +2,7 @@
 keywords: 推薦;產品建議
 description: 了解如何使用 Adobe 推薦作為 A/B 測試 (包括自動分配和自動鎖定目標) 以及體驗鎖定 (XT) 活動的產品建議。
 title: 如何使用推薦作為其他活動類型的產品建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -24,7 +24,7 @@ ht-degree: 47%
 * 使用[!UICONTROL Auto-Allocate]自動將流量推送到績效最好的建議體驗。
 * 使用[!UICONTROL Auto-Target]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-若要開始，請使用[!UICONTROL Visual Experience Composer]建立[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動，並使用[!UICONTROL Recommend]動作將建議新增至體驗。
+若要開始，請使用[!UICONTROL A/B Test]建立[!UICONTROL Experience Targeting]或[!UICONTROL Visual Experience Composer]活動，並使用[!UICONTROL Recommend]動作將建議新增至體驗。
 
 ## 新增建議作為 A/B 測試或 XT 活動中的產品建議
 
@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. 按一下&#x200B;**[!UICONTROL Create Criteria]**&#x200B;或選取現有的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下&#x200B;**[!UICONTROL Next]**&#x200B;以顯示[!UICONTROL Select Design]對話方塊。
 
-1. 按一下&#x200B;**[!UICONTROL Create Design]**&#x200B;或選取現有的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下&#x200B;**[!UICONTROL &#x200B; Next]**。
+1. 按一下&#x200B;**[!UICONTROL Create Design]**&#x200B;或選取現有的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下&#x200B;**[!UICONTROL  Next]**。
 
 1. 在[!UICONTROL Options]對話方塊中，指定下列專案：
 
@@ -67,11 +67,11 @@ ht-degree: 47%
 
 ## 編輯推薦產品建議的設定
 
-1. 從[!UICONTROL Recommendation]邊欄中，按一下[!UICONTROL Criteria Name]、[!UICONTROL Design Name]或[!UICONTROL Collection Name]旁的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示（ ![編輯圖示](/help/main/assets/icons/Edit.svg) ）以變更元素。
+1. 從[!UICONTROL Recommendation]邊欄中，按一下&#x200B;**[!UICONTROL Edit]**、![或](/help/main/assets/icons/Edit.svg)旁的[!UICONTROL Criteria Name]圖示（ [!UICONTROL Design Name]編輯圖示[!UICONTROL Collection Name] ）以變更元素。
 
 ## 刪除建議產品建議
 
-1. 按一下[!UICONTROL Recommendation]面板頂端的&#x200B;**[!UICONTROL Delete]**&#x200B;圖示（![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
+1. 按一下&#x200B;**[!UICONTROL Delete]**&#x200B;面板頂端的![圖示（](/help/main/assets/icons/Delete.svg)刪除圖示[!UICONTROL Recommendation] ）。
 
 ### 檢視Recommendations選件的狀態 {#status}
 

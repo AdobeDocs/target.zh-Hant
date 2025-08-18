@@ -2,7 +2,7 @@
 keywords: 鎖定目標；AP報表；自動個人化報表；活動層級報表；選件層級報表；選件詳細資料報表；faq
 description: 瞭解如何解譯Adobe Target中的Automated Personalization摘要報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
 title: 如何使用Automated Personalization摘要報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # Automated Personalization 摘要報表
 
-[!DNL Adobe Target]中[!UICONTROL Automated Personalization]個活動的使用者可以使用專門的摘要報告。
+[!UICONTROL Automated Personalization]中[!DNL Adobe Target]個活動的使用者可以使用專門的摘要報告。
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]是[!DNL Target Premium]解決方案的一部分。 沒有[Target Premium授權](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]不包含此專案。
+>[!UICONTROL Automated Personalization]是[!DNL Target Premium]解決方案的一部分。 沒有[!DNL Target Standard]Target Premium授權[的](/help/main/c-intro/intro.md#premium)不包含此專案。
 
 1. 按一下「**[!UICONTROL Activities]**」，從清單中按一下所需的[!UICONTROL Automated Personalization]活動，然後按一下「**[!UICONTROL Reports]**」標籤。
 

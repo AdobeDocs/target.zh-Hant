@@ -1,6 +1,6 @@
 ---
 keywords: 鎖定目標; 體驗鎖定目標; XT; 登陸頁面; 登陸頁面促銷活動
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Experience Targeting] (XT)活動，以根據一組行銷人員定義的規則和條件將內容傳送給特定對象。
+description: 瞭解如何在[!UICONTROL Experience Targeting]中使用 [!DNL Adobe Target]  (XT)活動，以根據一組行銷人員定義的規則和條件將內容傳送給特定對象。
 title: 什麼是[!UICONTROL Experience Targeting] (XT)活動？
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c

@@ -11,22 +11,22 @@ ht-degree: 29%
 
 ---
 
-# 建立 JSON 選件
+# 建立 JSON 產品建議
 
-在[!DNL Adobe Target]的[!UICONTROL Offer Library]中建立JSON選件以用於[!UICONTROL Form-Based Experience Composer]。
+在[!UICONTROL Offer Library]的[!DNL Adobe Target]中建立JSON選件以用於[!UICONTROL Form-Based Experience Composer]。
 
-JSON選件可用於表單式活動，以啟用需要[!DNL Target]個決策的使用案例，藉此傳送採用JSON格式的選件以用於SPA架構或伺服器端整合。
+JSON選件可用於表單式活動，以啟用需要[!DNL Target]決策才能以JSON格式傳送選件以用於SPA架構或伺服器端整合的使用案例。
 
 ## JSON考量事項
 
-使用 JSON 選件時，請考量下列資訊:
+使用 JSON 產品建議時，請考量下列資訊:
 
 * JSON選件目前僅適用於[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Experience Targeting] (XT)活動。
 * JSON選件只能用於[表單式活動](/help/main/c-experiences/form-experience-composer.md)。
-* 使用[伺服器端API和Mobile Node.js、Java、.NET及Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}時，可以直接擷取JSON選件。
-* 在瀏覽器中，只能透過at.js 1.2.3 （或更新版本）以及使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=zh-Hant){target=_blank} （使用`setJson`動作來篩選動作），以擷取JSON選件。
-* JSON 選件是以原生 JSON 物件提供，而不是字串。這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
-* 不同於其他選件 (例如 HTML 選件)，JSON 選件不會自動套用，因為 JSON 選件不是視覺化選件。開發人員必須撰寫程式碼，才能使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=zh-Hant){target=_blank}明確取得選件。
+* 使用[伺服器端API和Mobile Node.js、Java、.NET及Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}時，可以直接擷取JSON選件。
+* 在瀏覽器中，只能透過at.js 1.2.3 （或更新版本）及使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} （使用`setJson`動作來篩選動作）來擷取JSON選件。
+* JSON 產品建議是以原生 JSON 物件提供，而不是字串。這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
+* 不同於其他產品建議 (例如 HTML 產品建議)，JSON 產品建議不會自動套用，因為 JSON 產品建議不是視覺化產品建議。開發人員必須撰寫程式碼，才能使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}明確取得選件。
 
 ## 建立JSON選件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -38,7 +38,7 @@ JSON選件可用於表單式活動，以啟用需要[!DNL Target]個決策的使
 
    ![offer-json影像](assets/offer-json.png)
 
-1. 輸入選件名稱。
+1. 輸入產品建議名稱。
 1. 在「**[!UICONTROL Code]**」方塊中，輸入或貼上JSON程式碼。
 1. 按一下 **[!UICONTROL Save]**。
 
@@ -60,7 +60,7 @@ adobe.target.getOffer({
 });
 ```
 
-傳給成功回呼的動作是物件陣列。假設有單一 JSON 選件，其內容為:
+傳給成功回呼的動作是物件陣列。假設有單一 JSON 產品建議，其內容為:
 
 ```json
 { 
@@ -85,7 +85,7 @@ adobe.target.getOffer({
 
 ## 使用案例 {#section_85B07907B51A43239C8E3498EF58B1E5}
 
-假設下列 JSON 選件傳送至您的網頁:
+假設下列 JSON 產品建議傳送至您的網頁:
 
 ```json
 { 
@@ -139,6 +139,6 @@ Real-time CDP設定檔屬性可與[!DNL Target]共用，以用於HTML和JSON選�
 
 ## 依JSON選件型別篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按一下&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單，然後選取&#x200B;**[!UICONTROL JSON]**&#x200B;核取方塊，依JSON選件型別來篩選[!UICONTROL Offers]資料庫。
+您可以按一下[!UICONTROL Offers]下拉式清單，然後選取&#x200B;**[!UICONTROL Type]**&#x200B;核取方塊，依JSON選件型別來篩選&#x200B;**[!UICONTROL JSON]**&#x200B;資料庫。
 
 ![offer-json-filter影像](assets/offer-json-filter.png)

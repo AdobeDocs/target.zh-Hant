@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 >
 > * 如果您的網站為回應式網站，且桌上型電腦頁面中的相同元素也透過不同的組態用於行動頁面中，請使用行動檢視區。 如果您有另一個行動網站具有不同的結構，例如 `m.mysite.com`，請改用[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
 >
->* 行動檢視區被重新導向選件覆蓋所重疊時會無法使用。
+>* 行動檢視區被重新導向產品建議覆蓋所重疊時會無法使用。
 
 檢視區是以螢幕上的網頁填入的矩形大小來定義。 檢視區是瀏覽器視窗的大小減去捲軸和工具列。 瀏覽器使用「CSS 像素」。對於許多裝置，例如有視網膜螢幕的裝置，檢視區小於公布的裝置解析度。
 
@@ -176,8 +176,8 @@ ht-degree: 95%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target 中的帳戶偏好設定 ![總覽徽章](/help/main/assets/overview.png)
+### Adobe Target 中的帳戶偏好設定 ![概觀徽章](/help/main/assets/overview.png)
 
-此影片包含設定行動檢視區的相關資訊，從影片中的 4:40 處開始。
+此影片包含設定行動檢視區的相關資訊，從影片中的4:40處開始。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

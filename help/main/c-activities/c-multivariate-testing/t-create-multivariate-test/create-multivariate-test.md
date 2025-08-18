@@ -1,6 +1,6 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)來建立[!UICONTROL Multivariate Test] (MVT)。
+description: 瞭解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)來建立[!UICONTROL Multivariate Test] (MVT)。
 title: 如何建立[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -13,7 +13,7 @@ ht-degree: 26%
 
 # 建立多變數測試
 
-[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)可讓您輕鬆建立[!UICONTROL Multivariate Test]，以及在[!DNL Target]內修改頁面的部分。
+[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)可讓您輕鬆建立[!UICONTROL Multivariate Test]，以及在[!DNL Target]內修改頁面的部分。
 
 [!DNL Target]點選編輯器可讓您挑選任何位置並新增多個選件。
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
    [!UICONTROL Visual Experience Composer]隨即開啟。
 
-1. 若要命名活動，請按一下「[!UICONTROL Untitled Activity]」旁的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg) ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 若要命名活動，請按一下「**[!UICONTROL Edit]**」旁的![圖示（](/help/main/assets/icons/Edit.svg)編輯圖示[!UICONTROL Untitled Activity] ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：
 
@@ -91,7 +91,7 @@ ht-degree: 26%
 
 1. 按一下「**[!UICONTROL Next]**」以進入[!UICONTROL Targeting]頁面。
 
-   如果您曾使用其他[!DNL Target]活動型別，**鎖定目標**&#x200B;步驟看起來會很熟悉。 您可以在此選取受眾，並指定看到每個體驗的訪客百分比。
+   如果您曾使用其他&#x200B;**活動型別，**&#x200B;鎖定目標[!DNL Target]步驟看起來會很熟悉。 您可以在此選取受眾，並指定看到每個體驗的訪客百分比。
 
    流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
@@ -109,7 +109,7 @@ ht-degree: 26%
       如果您需要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以從下列選項中選擇：
 
       * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可於其他活動中重複使用的隨選對象。
-      * **[!UICONTROL This activity only]**：建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
+      * **[!UICONTROL This activity only]**：建立未儲存至[且只能用於目前活動的](/help/main/c-target/creating-activity-only-audience.md)活動特定對象[!UICONTROL Audience Library]。
 
    1. 按一下右側框架中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後選擇符合您要讓其進入活動之訪客的百分比。
 

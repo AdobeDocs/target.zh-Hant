@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱 *Target 開發人員指南*&#x200B;中的[將參數傳遞到全域 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hant){target=_blank}。<P>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。如果您必須傳遞超過50個設定檔屬性至[!DNL Target]，請使用[!UICONTROL Profile Update API]方法來傳遞它們。 如需詳細資訊，請參閱 *Target 開發人員指南*&#x200B;中的[更新個人資料](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=zh-Hant){target=_blank}。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}中的&#x200B;*傳遞引數至全域Mbox*。<P>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。如果您必須傳遞超過50個設定檔屬性至[!DNL Target]，請使用[!UICONTROL Profile Update API]方法來傳遞它們。 如需詳細資訊，請參閱[目標開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}中的&#x200B;*更新設定檔*。 |
    | 個人資料 | 直接使用 JavaScript 程式碼片段定義。 這些片段可儲存累積總計 (例如消費者總花費金額)，並在每個 mbox 要求上執行。請參閱底下的&#x200B;*個人資料指令碼屬性*。 |
 
 ## 個人資料指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,7 +46,7 @@ ht-degree: 93%
 
 ## 建立個人資料指令碼 {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-設定檔指令碼可在[!DNL Target]介面的[!UICONTROL Audiences]標籤下使用。
+設定檔指令碼可在[!UICONTROL Audiences]介面的[!DNL Target]標籤下使用。
 
 若要新增設定檔指令碼，請按一下&#x200B;**[!UICONTROL Profile Scripts]**&#x200B;索引標籤&#x200B;**[!UICONTROL Create Script]**，然後撰寫您的指令碼。
 
@@ -83,9 +83,9 @@ if (mbox.name == 'Track_Interest') {
 
 ## 檢視個人資料指令碼資訊卡 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
-您可以檢視個人資料指令碼資訊快顯卡，這類似優惠方案資訊卡片。您可以透過個人資料指令碼資訊卡，檢視參考特定個人資料指令碼的活動，及其他實用中繼資料。
+您可以檢視個人資料指令碼資訊快顯卡，這類似產品建議資訊卡片。您可以透過個人資料指令碼資訊卡，檢視參考特定個人資料指令碼的活動，及其他實用中繼資料。
 
-例如，若要存取下列設定檔指令碼資訊卡，請從清單([!UICONTROL Audiences] > [!UICONTROL Profile Scripts])中按一下所需設定檔指令碼的[!UICONTROL Info]圖示。
+例如，若要存取下列設定檔指令碼資訊卡，請從清單([!UICONTROL Info] > [!UICONTROL Audiences])中按一下所需設定檔指令碼的[!UICONTROL Profile Scripts]圖示。
 
 [!UICONTROL Script Info]索引標籤包含以下資訊：名稱、說明和指令碼。
 
@@ -100,7 +100,7 @@ if (mbox.name == 'Track_Interest') {
 >[!UICONTROL Script Usage]索引標籤在以下情況下不會顯示參照所選設定檔指令碼的活動：
 >
 > * 活動處於[!UICONTROL Draft]狀態。
-> * 活動中使用的內容或優惠方案會使用指令碼變數 (活動中的內嵌優惠方案或優惠方案資料庫中的優惠方案)。
+> * 活動中使用的內容或產品建議會使用指令碼變數 (活動中的內嵌產品建議或產品建議資料庫中的產品建議)。
 
 ## Target 在某些情況下會停用個人資料指令碼 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
@@ -164,7 +164,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **使用 mboxTrace 偵錯工具可偵錯個人資料指令碼。**
 
-  此方法需要授權權杖，您可以按一下[!UICONTROL Debugger tools]區段中的&#x200B;**[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]**&#x200B;來產生授權權杖。
+  此方法需要授權權杖，您可以按一下&#x200B;**[!UICONTROL Target]**&#x200B;區段中的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** > [!UICONTROL Debugger tools]來產生授權權杖。
 
   然後，將這兩個參數加入頁面 URL 的「?」後面：`mboxTrace=window&authorization=YOURTOKEN`。
 
@@ -176,7 +176,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否能夠使用個人資料指令碼從資料層中的頁面擷取資訊?**
 
-由於個人資料指令碼於伺服器端執行，因此其無法直接讀取頁面。資料必須透過 mbox 要求或透過其他「[將資料取至 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}」傳入。將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
+由於個人資料指令碼於伺服器端執行，因此其無法直接讀取頁面。資料必須透過mbox要求或其他[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法傳入。 將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
 
 ## 指令碼個人資料參數的 JavaScript 參考資料
 

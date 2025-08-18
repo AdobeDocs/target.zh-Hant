@@ -21,7 +21,7 @@ ht-degree: 12%
 
    如需有關搜尋[!UICONTROL Offer library]和建立[!UICONTROL Smart Collections]的詳細資訊，請參閱[篩選和搜尋內容](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
 
-1. （視條件而定）若是影像選件，請在[!UICONTROL Card View]和[!UICONTROL List View]之間切換，按一下[!UICONTROL Asset]資料庫右上角的[!UICONTROL Card View]圖示（![卡片檢檢視示](/help/main/assets/icons/ViewCard.svg)）或[!UICONTROL List View]圖示（![清單檢檢視示](/help/main/assets/icons/ViewList.svg)）。
+1. （視條件而定）若是影像選件，請在[!UICONTROL Card View]和[!UICONTROL List View]之間切換，按一下[!UICONTROL Card View]資料庫右上角的![圖示（](/help/main/assets/icons/ViewCard.svg)卡片檢檢視示[!UICONTROL List View]）或![圖示（](/help/main/assets/icons/ViewList.svg)清單檢檢視示[!UICONTROL Asset]）。
 
 1. 按照下列各節的說明，執行所需的動作：
 

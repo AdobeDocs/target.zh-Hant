@@ -2,13 +2,13 @@
 keywords: 建議摘要；摘要；SAINT；ftp；csv；分類；analytics分類
 description: 瞭解摘要如何使用CSV檔案、 [!DNL Adobe Target] [!DNL Recommendations]摘要格式和 [!DNL Google Product Search] 產品分類將實體匯入至 [!DNL Analytics] 。
 title: 如何在[!UICONTROL Feeds]中使用 [!DNL Target Recommendations]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
 source-wordcount: '2613'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱[Analytics元件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)指南中的&#x200B;*關於分類*。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱[Analytics元件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)指南中的&#x200B;*關於分類*。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **範例 1:**
 
-* 第一天：每日摘要處理於太平洋標準時間上午9:00。
-* 第二天: 現在是下午 3:30，摘要自昨天上午 9:00 以來尚未執行
+* 第一天：上午9:00 （太平洋標準時間）的每日摘要程式。
+* 第二天：現在是下午3:30，而且摘要從昨天上午9:00起就沒有執行。
 
 狀態應該是黃色，因為索引在大約 6.5 小時以前就應該執行。6.5 小時 + 24 等於 127% 的摘要時段。
 
 **範例 2:**
 
 * 1月1日：每月摘要於太平洋標準時間上午9:00處理。
-* 2月3日：上午10:00，摘要已分別有一個月、一天和一小時前未執行。
+* 2月3日：上午10:00，摘要已有一個月、一天和一小時前未執行。
 
 狀態應該是黃色，因為索引在大約一天又一小時以前就應該執行。雖然這只有頻率設定的 (31+(1/25))/30 = 1.03%，但已超過一天延遲的上限。
 
@@ -339,7 +339,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解Recommendations中的摘要(3:01) ![Overview badge](/help/main/assets/overview.png)
+### 瞭解Recommendations (3:01) ![Overview badge](/help/main/assets/overview.png)中的摘要
 
 此影片包含下列資訊:
 

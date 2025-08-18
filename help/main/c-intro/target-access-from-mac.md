@@ -37,7 +37,7 @@ ht-degree: 50%
 
    ![Adobe 帳戶](/help/main/c-intro/assets/adobe-account.png)
 
-1. 在[!UICONTROL Account]頁上的&#x200B;**[!UICONTROL Preferred languages]**&#x200B;區段中，**[!UICONTROL Add]**。
+1. 在&#x200B;**[!UICONTROL Preferred languages]**&#x200B;頁上的[!UICONTROL Account]區段中，**[!UICONTROL Add]**。
 
    此文字表示這是您希望[!DNL Adobe]在Adobe與您聯絡時使用的語言。 這也是[!DNL Target]和其他[!DNL Adobe Experience Cloud]解決方案在UI中使用的語言。 您可以選擇多個語言。
 

@@ -2,7 +2,7 @@
 keywords: 建議;備用
 description: 瞭解如何在Adobe [!DNL Target Recommendations]中使用備份建議。
 title: 如何在 [!DNL Target Recommendations]中使用備份建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->其他資訊包含在建立條件[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主題的內容區段中，包括說明將[!UICONTROL Partial Design Rendering]和[!UICONTROL Show Backup Recommendations]選項搭配使用或分開使用時將觀察到的結果的矩陣。
+>其他資訊包含在建立條件[主題的](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)內容區段中，包括說明將[!UICONTROL Partial Design Rendering]和[!UICONTROL Show Backup Recommendations]選項搭配使用或分開使用時將觀察到的結果的矩陣。
 
 備份建議功能一律會使用網站上檢視次數最多的專案，填滿使用演演算法資料後剩餘的所有位置。 例如，您的範本設定為顯示五個建議項目，且您使用的是&#x200B;*購買相關性*&#x200B;演算法。然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
 

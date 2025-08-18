@@ -21,9 +21,9 @@ ht-degree: 78%
 
 ## 資源連結
 
-* **設定Adobe Target**：協助您管理[!DNL Adobe Target]的資訊，包括[!UICONTROL Visual Experience Composer] (VEC)、報告、[!DNL Scene7]組態、實作、主機、環境、回應權杖和使用者的組態設定。 請參閱[管理 Target 簡介](/help/main/administrating-target/administrating-target.md)。
+* **設定Adobe Target**：協助您管理[!DNL Adobe Target]的資訊，包括[!UICONTROL Visual Experience Composer] (VEC)、報告、[!DNL Scene7]組態、實作、主機、環境、回應權杖和使用者的組態設定。 請參閱[管理 Target 概觀](/help/main/administrating-target/administrating-target.md)。
 * **Adobe Target 產品文件**：您需要瞭解有關 Adobe Target 的一切。請參閱 [Adobe Target 產品文件](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hant)。
-* **Adobe Target API 和 SDK 文件**；了解如何在用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等實施 [!DNL Target]。此外，瞭解如何與協力廠商解決方案交換您的 [!DNL Target] 資料。請參閱 [Adobe Target API 總覽](/help/main/api/api-overview.md)。
+* **Adobe Target API 和 SDK 文件**；了解如何在用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等實施 [!DNL Target]。此外，瞭解如何與協力廠商解決方案交換您的 [!DNL Target] 資料。請參閱 [Adobe Target API 概觀](/help/main/api/api-overview.md)。
 * **Adobe Target 活動指南**：介紹您可以在 [!DNL Target] 中使用的不同活動。[Adobe Target 活動類型](/help/main/c-activities/target-activities-guide.md)
 * **Adobe Target 客戶服務**：受困於問題？Adobe Target 使用者可隨時以電子郵件或電洽方式取得支援！See the [Target 企業支援頁面](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html#target)。
 
@@ -42,6 +42,6 @@ ht-degree: 78%
 
 * **Adobe Target 首頁**：在[!DNL Adobe Target] 的首頁可瞭解我們的功能和查看最新成功案例。請參閲 [Adobe Target](https://www.adobe.com/tw/marketing/target.html)。
 * **部落格**：追蹤 [Target 部落格](https://blog.adobe.com/en/topics/target)，隨時掌握最新消息、提示和成功案例。
-* **Experience League**：探索您啟動體驗業務所需的指南、活動和訓練，並與Target社群連絡並找到想要的答案。 請參閲[Adobe Experience League Target 首頁](https://experienceleague.adobe.com/zh-hant#home)。
+* **Experience League**：探索您啟動體驗業務所需的指南、活動和訓練，並與Target社群連絡並找到想要的答案。 請參閲[Adobe Experience League Target 首頁](https://experienceleague.adobe.com/#home)。
 * **Adobe Target 認證**：透過新的 Adobe Target 測驗，取得 Adobe 認證專家的地位。—在此安排測驗或培訓課程。請參閲[培訓與認證](/help/main/c-intro/training-and-certification.md)。
 * **Adobe Target 發行說明**：每個 [!DNL Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正。 此外，也會隨附 Target API、SDK、JavaScript 程式庫 (at.js) 的發行說明，以及其他平台變更 (如適用)。請參閲 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md)。

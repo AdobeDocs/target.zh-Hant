@@ -15,7 +15,7 @@ ht-degree: 38%
 
 自訂引數是[!DNL Adobe Target]中的mbox引數。 如果您將任何mbox引數傳遞至mbox，或使用`targetPageParams`函式，這些引數將會顯示在這裡，以供對象使用。
 
-如需詳細資訊，請參閱[傳遞引數至全域mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[傳遞引數至全域mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。
 
 當您根據 mbox 參數建立自訂客群時，`mboxParameter` 不再提示您輸入 `mboxName`。mbox 名稱現在是可選項目。此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 

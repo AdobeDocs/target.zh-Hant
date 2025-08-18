@@ -13,9 +13,9 @@ ht-degree: 15%
 
 # 建立[!UICONTROL Auto-Allocate]活動
 
-在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)直接在啟用[!DNL Target]的頁面上建立您的[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活動，以及在[!DNL Target]內修改頁面的部分。
+在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)直接在啟用[!UICONTROL Auto-Allocate]的頁面上建立您的[!UICONTROL A/B Test] [!DNL Target]活動，以及在[!DNL Target]內修改頁面的部分。
 
-除了[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活動（本文中討論）之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B Test]活動： [!UICONTROL Manual (Default)]和[!UICONTROL Auto-Target]。 檢視&#x200B;*A/B測試總覽*&#x200B;中的[A/B測試活動型別](/help/main/c-activities/t-test-ab/test-ab.md#types)。
+除了[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活動（本文中討論）之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B Test]活動： [!UICONTROL Manual (Default)]和[!UICONTROL Auto-Target]。 檢視[A/B測試總覽](/help/main/c-activities/t-test-ab/test-ab.md#types)中的&#x200B;*A/B測試活動型別*。
 
 若要建立[!UICONTROL Auto-Allocate]活動：
 
@@ -43,7 +43,7 @@ ht-degree: 15%
 
    [!UICONTROL Visual Experience Composer]隨即開啟，顯示URL中指定的頁面。
 
-1. 若要命名活動，請按一下「[!UICONTROL Untitled Activity]」旁的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg) ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 若要命名活動，請按一下「**[!UICONTROL Edit]**」旁的![圖示（](/help/main/assets/icons/Edit.svg)編輯圖示[!UICONTROL Untitled Activity] ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：
 
@@ -71,11 +71,11 @@ ht-degree: 15%
 
 1. 建立新體驗，透過變更頁面上的元素。
 
-   建立新活動後，[!UICONTROL Visual Experience Composer]在左側顯示兩個標籤： [!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制體驗。 您的焦點在[!UICONTROL Experience B]索引標籤上，您可以視需要修改此索引標籤。 [!UICONTROL Experience B]是可新增至測試的替代體驗。 您可以按一下[!UICONTROL Experiences]窗格頂端的[!UICONTROL Add]圖示（![新增圖示](/help/main/assets/icons/Add.svg) ），新增多個體驗至測試。 如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
+   建立新活動後，[!UICONTROL Visual Experience Composer]在左側顯示兩個標籤： [!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制體驗。 您的焦點在[!UICONTROL Experience B]索引標籤上，您可以視需要修改此索引標籤。 [!UICONTROL Experience B]是可新增至測試的替代體驗。 您可以按一下[!UICONTROL Add]窗格頂端的![圖示（](/help/main/assets/icons/Add.svg)新增圖示[!UICONTROL Experiences] ），新增多個體驗至測試。 如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
 
    如需在[!UICONTROL Visual Experience Composer]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 若要修改[!UICONTROL Experience B]，請從步驟2開始。
 
-1. 按一下[!UICONTROL Visual Experience Composer]頂端的&#x200B;**[!UICONTROL Targeting]**，以前往三步驟引導工作流程中的下一個步驟。
+1. 按一下&#x200B;**[!UICONTROL Targeting]**&#x200B;頂端的[!UICONTROL Visual Experience Composer]，以前往三步驟引導工作流程中的下一個步驟。
 
    流程圖表隨即開啟。
 
@@ -97,7 +97,7 @@ ht-degree: 15%
       如果您需要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以從下列選項中選擇：
 
       * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可在其他活動中重複使用的隨選對象
-      * **僅此活動**：建立未儲存至[!UICONTROL Audience Library]且僅能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)
+      * **僅此活動**：建立未儲存至[且僅能用於目前活動的](/help/main/c-target/creating-activity-only-audience.md)活動特定對象[!UICONTROL Audience Library]
 
    1. 按一下右側框架中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後選擇符合您要讓其進入活動之訪客的百分比。
 

@@ -13,13 +13,13 @@ ht-degree: 39%
 
 # A4T 報表
 
-使用[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源，可讓您存取[!DNL Target]活動的[!DNL Analytics]報告。
+使用[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源，可讓您存取[!DNL Analytics]活動的[!DNL Target]報告。
 
 您可以在[!DNL Analytics]和[!DNL Target]中檢視活動的報告。
 
-若要針對[!DNL Target]使用[!DNL Analytics]的報告最佳實務，[請造訪此Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+若要針對[!DNL Analytics]使用[!DNL Target]的報告最佳實務，[請造訪此Adobe Spark頁面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
-## 總覽 {#section_035A62D65608423285D8A5A54731E2C5}
+## 概觀 {#section_035A62D65608423285D8A5A54731E2C5}
 
 [!DNL Analytics]和[!DNL Target]都會報告測量加入者（進入測試的人），而不是網站的訪客。
 
@@ -45,14 +45,14 @@ ht-degree: 39%
 
 ### 量度
 
-* [!UICONTROL Activity Impressions] — 符合[!DNL Target]報告中的[!UICONTROL Entrants]數字。
-* [!UICONTROL Activity Conversions] — 符合[!DNL Target]報告中的[!UICONTROL Custom Conversions]數字。
+* [!UICONTROL Activity Impressions] — 符合[!UICONTROL Entrants]報告中的[!DNL Target]數字。
+* [!UICONTROL Activity Conversions] — 符合[!UICONTROL Custom Conversions]報告中的[!DNL Target]數字。
 
-在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant&?lang=zh-Hant)。
+在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱[Analytics工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html??lang=zh-Hant)中的&#x200B;*Analytics for Target (A4T)面板*。
 
 >[!IMPORTANT]
 >
->如果您在[!DNL Analytics]中的[!UICONTROL Target Activities]報表列出「未指定」，而非列出您的活動，則需要更新您已布建的帳戶。 請聯絡客戶服務以解決此問題。
+>如果您在[!UICONTROL Target Activities]中的[!DNL Analytics]報表列出「未指定」，而非列出您的活動，則需要更新您已布建的帳戶。 請聯絡客戶服務以解決此問題。
 
 如需詳細資訊和範例，請開啟Adobe Experience League提供的[Analytics &amp; Target： Analysis最佳實務](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教學課程。
 
@@ -89,16 +89,16 @@ ht-degree: 39%
 1. 按一下&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**。
 1. 在&#x200B;**[!UICONTROL Data Warehouse Request]**&#x200B;標籤上，填寫欄位。
 
-   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hant)中的「資料倉儲說明」。
+   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
 
    | 欄位 | 指示 |
    |--- |--- |
    | 請求名稱 | 指定要求的名稱。 |
    | 報告日期 | 指定時段和精度。<br>最佳做法是不要為第一個要求選擇超過一小時或一天的資料。所要求的時段越長，資料倉儲檔案處理的時間就越長，最好一律先要求較短時段的資料，以確保檔案傳回預期的結果。接著，前往「要求管理程式」，複製要求，再第二次要求更多資料。此外，如果您將詳細程度切換為「無」以外的任何值，檔案大小將大幅增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | 可用區段 | 視需要套用區段。 |
-   | 劃分 | 選取所需的維度：「標準」是內建(OOTB)，而「自訂」包含eVar和prop。 如需訪客ID層級資訊，建議您使用「訪客ID」，而非「Experience Cloud訪客ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
+   | 劃分 | 選取所需的維度：「標準」是內建(OOTB)，而「自訂」包含eVar和prop。 如需訪客ID層級資訊，建議您使用「訪客ID」，而不要使用「Experience Cloud訪客ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
    | 量度 | 選取所需的量度。標準是 OOTB，而「自訂」包含自訂事件。 |
-   | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse2](/help/main/c-reports/assets/datawarehouse2.png) |
+   | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | 計劃傳送 | 輸入要傳送檔案的電子郵件地址，命名檔案，然後選取[!UICONTROL Send Immediately]。<br>注意：可在[!UICONTROL Advanced Delivery Options]<br>![排程傳送](/help/main/c-reports/assets/datawarehouse3.png)下透過FTP傳送檔案。 |
 
 1. 按一下 **[!UICONTROL Request this Report]**。
@@ -109,5 +109,5 @@ ht-degree: 39%
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立Data Warehouse要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hant)
-* [Data Warehouse最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hant)
+* [建立Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

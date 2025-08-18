@@ -1,5 +1,5 @@
 ---
-keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 顯示上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪設定檔指令碼; ajax 無法使用
+keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 顯示上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪輪廓指令碼; ajax 無法使用
 description: 如果您的 Adobe [!DNL Target] 活動未出現在網站上，請尋找疑難排解建議。
 title: 如何疑難排解活動？
 feature: Activities
@@ -42,7 +42,7 @@ ht-degree: 44%
 
 ## 您不符合對象鎖定目標條件的資格。
 
-**驗證：**&#x200B;檢閱概覽頁面上的鎖定目標條件。
+**驗證:**&#x200B;檢閱概觀頁面上的鎖定目標條件。
 
 **選項:**
 
@@ -76,7 +76,7 @@ ht-degree: 44%
 將您新增為[!DNL Target]中的使用者後，您需要擁有[!UICONTROL Approver]角色才能建立活動。
 
 * 請要求您的帳戶管理員將您設為核准者。
-* 如果您是管理員，請在[!DNL Target]中從&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;為自己指定[!UICONTROL Approver]角色。
+* 如果您是管理員，請在[!UICONTROL Approver]中從&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;為自己指定[!DNL Target]角色。
 
   請參閱[將核准者角色指派給您自己](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -130,7 +130,7 @@ ht-degree: 44%
 
 **注意：**&#x200B;具有相同名稱但不同引數的多個ajax [!DNL Target]呼叫無法在同一頁面上運作。 只進行第一次呼叫。
 
-## 您已使用[!DNL Target] API啟動活動，但活動在[!DNL Target] UI中顯示[!UICONTROL Inactive]狀態。
+## 您已使用[!DNL Target] API啟動活動，但活動在[!UICONTROL Inactive] UI中顯示[!DNL Target]狀態。
 
 執行特定動作時（例如在UI外部使用[!DNL Target] API來啟動活動），更新最多可能需要10分鐘才會傳播至UI。
 

@@ -1,8 +1,8 @@
 ---
 keywords: 自動鎖定目標；鎖定目標；流量分配；常見問題；faq；疑難排解；疑難排解
-description: 瞭解 [!DNL Target] 中的[!UICONTROL Auto-Target]活動如何根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
+description: 瞭解[!UICONTROL Auto-Target]中的 [!DNL Target] 活動如何根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
 title: 什麼是[!UICONTROL Auto-Target]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -12,9 +12,9 @@ ht-degree: 21%
 
 ---
 
-# [!UICONTROL Auto-Target]總覽
+# [!UICONTROL Auto-Target] 概覽
 
-[!DNL Adobe Target]中的[!UICONTROL Auto-Target]個活動使用進階機器學習來從多個高效能、行銷人員定義的體驗中加以選取，以個人化內容並促進轉換。 [!UICONTROL Auto-Target]會根據個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
+[!UICONTROL Auto-Target]中的[!DNL Adobe Target]個活動使用進階機器學習來從多個高效能、行銷人員定義的體驗中加以選取，以個人化內容並促進轉換。 [!UICONTROL Auto-Target]會根據個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
 
 >[!NOTE]
 >
@@ -24,19 +24,19 @@ ht-degree: 21%
 
 ## 使用自動鎖定目標的真實成功案例 {#success}
 
-一家主要服裝零售商最近使用具有十個產品類別型體驗（加上隨機控制項）的[!UICONTROL Auto-Target]活動為每位訪客提供正確內容。 &quot;[!UICONTROL Add to Cart]&quot;已選為主要最佳化量度。 目標體驗的平均提升度為29.09%。 建立[!UICONTROL Auto-Target]模型後，活動已設為90%個人化體驗。
+一家主要服飾retailer最近使用具有十個產品類別型體驗（加上隨機控制項）的[!UICONTROL Auto-Target]活動為每位訪客提供正確內容。 &quot;[!UICONTROL Add to Cart]&quot;已選為主要最佳化量度。 目標體驗的平均提升度為29.09%。 建立[!UICONTROL Auto-Target]模型後，活動已設為90%個人化體驗。
 
 在短短十天內，就實現了超過$1,700,000的提升度。
 
 請繼續閱讀，瞭解如何使用[!UICONTROL Auto-Target]來提高組織的提升度和收入。
 
-## 總覽 {#section_972257739A2648AFA7E7556B693079C9}
+## 概觀 {#section_972257739A2648AFA7E7556B693079C9}
 
-使用三步驟引導式工作流程[建立A/B活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，請在&#x200B;**[!UICONTROL Targeting]**&#x200B;頁面上選擇&#x200B;**[!UICONTROL Auto-Target for personalized experiences]**&#x200B;選項（步驟2）。
+使用三步驟引導式工作流程[建立A/B活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，請在&#x200B;**[!UICONTROL Auto-Target for personalized experiences]**&#x200B;頁面上選擇&#x200B;**[!UICONTROL Targeting]**&#x200B;選項（步驟2）。
 
 ![個人化體驗選項的自動鎖定目標](/help/main/c-activities/assets/auto-target-ui-new.png)
 
-A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即可駕馭機器學習，以根據市場行銷人員定義的一組體驗進行個人化。 相較於傳統的A/B測試或[!UICONTROL Auto Allocate]，[!UICONTROL Auto-Target]旨在決定要顯示給每個訪客的體驗，讓最佳化發揮到極致。 不同於A/B活動的目標是找出單一獲勝者，[!UICONTROL Auto-Target]會自動為特定訪客決定最佳體驗。 最佳體驗是根據訪客的設定檔和其他內容相關資訊，以提供高度個人化的體驗。
+A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即可駕馭機器學習，以根據市場行銷人員定義的一組體驗進行個人化。 相較於傳統的A/B測試或[!UICONTROL Auto-Target]，[!UICONTROL Auto Allocate]旨在決定要顯示給每個訪客的體驗，讓最佳化發揮到極致。 不同於A/B活動的目標是找出單一獲勝者，[!UICONTROL Auto-Target]會自動為特定訪客決定最佳體驗。 最佳體驗是根據訪客的設定檔和其他內容相關資訊，以提供高度個人化的體驗。
 
 類似於[!UICONTROL Automated Personalization]，[!UICONTROL Auto-Target]使用[隨機森林演演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) （一種主流的資料科學整體方法）來決定要顯示給訪客的最佳體驗。 因為[!UICONTROL Auto-Target]可以適應訪客行為的變化，所以它可以持續執行以提供提升度。 此方法有時稱為「隨時待命」模式。
 
@@ -100,15 +100,15 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 
 您可以[選取特定體驗以用來作為控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)，或者也可以使用隨機體驗選項。
 
-## 何時應選擇[!UICONTROL Auto-Target]而非[!UICONTROL Automated Personalization]？{#section_BBC4871C87944DD7A8B925811A30C633}
+## 何時應選擇[!UICONTROL Auto-Target]而非[!UICONTROL Automated Personalization]？ {#section_BBC4871C87944DD7A8B925811A30C633}
 
 在幾種情況下，您可能會偏好使用[!UICONTROL Auto-Target]而非[!UICONTROL Automated Personalization]：
 
 * 如果您想要定義整個體驗，而非自動合併以形成體驗的個別選件。
-* 如果您想使用[!UICONTROL Auto Personalization]不支援的完整[!UICONTROL Visual Experience Composer] (VEC)功能集：自訂程式碼編輯器、多個體驗對象等等。
+* 如果您想使用[!UICONTROL Visual Experience Composer]不支援的完整[!UICONTROL Auto Personalization] (VEC)功能集：自訂程式碼編輯器、多個體驗對象等等。
 * 如果您想對不同體驗中的頁面進行結構性變更。例如，如果您想重新排列首頁上的元素，[!UICONTROL Auto-Target]比[!UICONTROL Automated Personalization]更適合使用。
 
-## [!UICONTROL Auto-Target]與[!UICONTROL Automated Personalization]有何共同點？{#section_2A601F482F9A44E38D4B694668711319}
+## [!UICONTROL Auto-Target]與[!UICONTROL Automated Personalization]有何共同點？ {#section_2A601F482F9A44E38D4B694668711319}
 
 ### 演演算法會針對每次造訪的有利結果最佳化。
 
@@ -138,11 +138,11 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 
 * 深入瞭解[上傳[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)的資料。
 
-## [!UICONTROL Auto-Target]與[!UICONTROL Automated Personalization]有何不同？{#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
+## [!UICONTROL Auto-Target]與[!UICONTROL Automated Personalization]有何不同？ {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
 ### [!UICONTROL Auto-Target]建立個人化模型所需的流量通常少於[!UICONTROL Automated Personalization]。
 
-雖然[!UICONTROL Auto-Target]或[!UICONTROL Auto Personalization]模型建置所需的每個體驗&#x200B;*流量*&#x200B;相同，但[!UICONTROL Automated Personalization]活動中的體驗通常比[!UICONTROL Auto-Target]活動中的體驗更多。
+雖然&#x200B;*或*&#x200B;模型建置所需的每個體驗[!UICONTROL Auto-Target]流量[!UICONTROL Auto Personalization]相同，但[!UICONTROL Automated Personalization]活動中的體驗通常比[!UICONTROL Auto-Target]活動中的體驗更多。
 
 例如，如果您的[!UICONTROL Auto Personalization]活動中有兩個位置，且已為各個位置建立兩個選件，則活動中總共會包含四個(2 = 4)體驗（沒有排除專案）。 使用[!UICONTROL Auto-Target]，您可以將體驗1設為包含位置1的選件1和位置2的選件2，將體驗2設為包含位置1的選件1和位置2的選件2。 因為[!UICONTROL Auto-Target]可讓您選擇在一個體驗中進行多次變更，所以您可以減少活動中的體驗總數。
 

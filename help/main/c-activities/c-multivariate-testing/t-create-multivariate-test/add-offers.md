@@ -1,6 +1,6 @@
 ---
 keywords: mvt；多變數測試；選件；組合
-description: 瞭解如何在Adobe [!DNL Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)來建立您要包含在[!UICONTROL Multivariate Test] (MVT)中的選件。
+description: 瞭解如何在Adobe[!UICONTROL Visual Experience Composer]中使用 [!DNL Target]  (VEC)來建立您要包含在[!UICONTROL Multivariate Test] (MVT)中的選件。
 title: 如何在[!UICONTROL Multivariate Test] (MVT)中建立組合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # 建立組合
 
-在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)來建立您要包含在[!UICONTROL Multivariate Test] (MVT)中的選件。
+在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)來建立您要包含在[!UICONTROL Multivariate Test] (MVT)中的選件。
 
 如需有關如何使用 VEC 建立及編輯產品建議的詳細資訊，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -39,7 +39,7 @@ ht-degree: 54%
 
 1. 按一下頁面上的HTML選件，然後按一下&#x200B;**[!UICONTROL Change HTML Offer]**。
 
-1. 按一下&#x200B;**[!UICONTROL Create Offer]**、按一下&#x200B;**[!UICONTROL HTML Offer]**、命名選件、輸入或貼上HTML選件的程式碼，然後按一下&#x200B;**[!UICONTROL Create]**。
+1. 按一下&#x200B;**[!UICONTROL Create Offer]**、按一下&#x200B;**[!UICONTROL HTML Offer]**、為選件命名、輸入或貼上HTML選件的程式碼，然後按一下&#x200B;**[!UICONTROL Create]**。
 
    對於您要包含的任何其他 HTML 產品建議，重複這樣做。
 

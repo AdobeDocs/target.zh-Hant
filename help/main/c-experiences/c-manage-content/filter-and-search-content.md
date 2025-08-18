@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 搜尋和篩選內容
 
-在[!DNL Adobe Target]的[!UICONTROL Offers]資料庫中依關鍵字搜尋資產。
+在[!UICONTROL Offers]的[!DNL Adobe Target]資料庫中依關鍵字搜尋資產。
 
 ## 依關鍵字搜尋代碼選件
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下[!UICONTROL Asset]資料庫右上角的[!UICONTROL Card View]圖示（![卡片檢檢視示](/help/main/assets/icons/ViewCard.svg)）或[!UICONTROL List View]圖示（![清單檢檢視示](/help/main/assets/icons/ViewList.svg)）。
+1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下[!UICONTROL Card View]資料庫右上角的![圖示（](/help/main/assets/icons/ViewCard.svg)卡片檢檢視示[!UICONTROL List View]）或![圖示（](/help/main/assets/icons/ViewList.svg)清單檢檢視示[!UICONTROL Asset]）。
 1. 按一下左上角的&#x200B;**[!UICONTROL Content Only]**&#x200B;圖示（![僅內容圖示](/help/main/assets/icons/RailLeft.svg) ）以顯示搜尋方塊。
 1. 在搜尋方塊中，輸入您要尋找之資產的關鍵字，然後按[!UICONTROL Enter]。
 1. （視條件而定）使用左側的&#x200B;**[!UICONTROL Filters & Options]**&#x200B;窗格來調整您的搜尋。

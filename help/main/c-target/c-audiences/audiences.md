@@ -1,5 +1,5 @@
 ---
-keywords: 客群;客群規則;建立客群;建立客群;鎖定目標客群;報表客群;報表客群;區段;自訂設定檔參數;客群定義;客群清單
+keywords: 客群;客群規則;建立客群;建立客群;鎖定目標客群;報表客群;報表客群;區段;自訂輪廓參數;客群定義;客群清單
 description: 瞭解如何在 [!DNL Adobe Target]中使用對象。
 title: 如何使用「對象清單」？
 feature: Audiences
@@ -21,7 +21,7 @@ ht-degree: 22%
 * [建立活動特定對象](/help/main/c-target/creating-activity-only-audience.md)並鎖定該對象
 * [結合多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選對象
 
-您也可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]應用程式中，使用[!DNL Adobe Analytics]所收集的對象資料進行即時目標定位和個人化。 請參閱&#x200B;*Experience Cloud中央介面元件*&#x200B;指南中的[Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)。
+您也可以在[!DNL Adobe Analytics]和其他[!DNL Target]應用程式中，使用[!DNL Adobe Experience Cloud]所收集的對象資料進行即時目標定位和個人化。 請參閱[Experience Cloud中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)指南中的&#x200B;*Experience Cloud對象*。
 
 [!DNL Target]中有兩種型別的對象：
 
@@ -45,24 +45,24 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform]來源可供所有使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}的[!DNL Target]客戶使用。 來自[!DNL Adobe Experience Platform]的可用對象可依原樣使用，或將[與現有對象](/help/main/c-target/combining-multiple-audiences.md)結合。
+  >使用[!DNL Adobe Experience Platform]Adobe Experience Platform Web SDK[!DNL Target]的所有[客戶都可使用](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}來源。 來自[!DNL Adobe Experience Platform]的可用對象可依原樣使用，或將[與現有對象](/help/main/c-target/combining-multiple-audiences.md)結合。
   >
-  >使用者在[!DNL Target]中必須具有[!UICONTROL Approver]或以上的狀態，才能在AEP/RTCDP ([!DNL Real-time Customer Data Platform])中設定[!DNL Target] [!UICONTROL Destinations]卡片。
+  >使用者在[!UICONTROL Approver]中必須具有[!DNL Target]或以上的狀態才能在AEP/RTCDP ([!DNL Target])中設定[!UICONTROL Destinations] [!DNL Real-time Customer Data Platform]卡片。
   >
   >如需詳細資訊，請參閱[使用來自Adobe Experience Platform的對象](#aep)。
 
 無法重新命名預先定義的對象，例如&quot;[!UICONTROL New Visitors]&quot;和&quot;[!UICONTROL Returning Visitors]&quot;。
 
-使用最初在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中建立的對象時，如果您在[!DNL Target]個活動中參考對象，而這些活動後來在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中被刪除，[!DNL Target]會警示您。
+使用最初在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中建立的對象時，如果您在[!DNL Target]個活動中參考對象，而這些活動後來在[!DNL Target]或[!DNL Experience Cloud]中被刪除，[!DNL Adobe Experience Platform]會警示您。
 
 * 若對象已在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中刪除，[!UICONTROL Audience]清單和對象選擇器中皆會顯示警告圖示。 [!DNL Target] UI中的工具提示也表示對象已在[!DNL Experience Cloud]或[!DNL Adobe Experience Platform]中刪除。
 * 若嘗試將多個客群與已刪除的客群合併，或嘗試儲存參考已刪除客群的活動，系統會顯示警告訊息。
 
-您也可以鎖定自訂設定檔參數和 `user.` 參數。建立對象時，請將您要用來鎖定活動的屬性拖曳至對象產生器視窗。 如果未顯示所需的屬性，表示該屬性並未由mbox觸發。 [!UICONTROL Custom Parameters]下拉式清單中有其他自訂mbox引數。
+您也可以鎖定自訂輪廓參數和 `user.` 參數。建立對象時，請將您要用來鎖定活動的屬性拖曳至對象產生器視窗。 如果未顯示所需的屬性，表示該屬性並未由mbox觸發。 [!UICONTROL Custom Parameters]下拉式清單中有其他自訂mbox引數。
 
 使用[!UICONTROL Filters]按鈕依來源篩選[!UICONTROL Audiences]清單： [!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Experience Cloud]和[!DNL Adobe Experience Platform]。
 
-[!UICONTROL Audiences]清單中的![篩選器選項](assets/filters.png)
+![清單中的[!UICONTROL Audiences]篩選器選項](assets/filters.png)
 
 使用[!UICONTROL Search audiences]方塊來搜尋您的[!UICONTROL Audiences]清單。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
@@ -76,7 +76,7 @@ ht-degree: 22%
 
 ![活動 > 客群定義](assets/audience_definition_list.png)
 
-按一下活動[!UICONTROL Overview]頁面上的[!UICONTROL View Details]圖示，可存取下列對象定義卡：
+按一下活動[!UICONTROL View Details]頁面上的[!UICONTROL Overview]圖示，可存取下列對象定義卡：
 
 ![活動 > 客群定義](assets/view-details-activity-overview.png)
 

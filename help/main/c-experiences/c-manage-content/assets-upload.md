@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 上傳或刪除影像選件
 
-您可以將影像上傳至[!DNL Adobe Target]中的[!UICONTROL Image Offers]資料庫，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
+您可以將影像上傳至[!UICONTROL Image Offers]中的[!DNL Adobe Target]資料庫，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
 
 ## 將影像選件新增至清單
 

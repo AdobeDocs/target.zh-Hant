@@ -1,6 +1,6 @@
 ---
 keywords: qa;伺服器端;伺服器端;預覽;預覽連結
-description: 瞭解如何在伺服器端傳送中使用Adobe [!DNL Target] QA URL，透過永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的QA報表，輕鬆執行端對端活動QA。
+description: 瞭解如何使用Adobe [!DNL Target] QA URL搭配伺服器端傳送，透過永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的QA報表，輕鬆執行端對端活動QA。
 title: 使用我可以在伺服器端傳送時執行活動QA嗎？
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 在[!DNL Adobe Target]中使用伺服器端傳送的QA URL，來執行簡易的端對端活動QA，同時具有永不變更的預覽連結、可選對象鎖定目標以及與即時活動資料保持分段的QA報表。
 
-活動QA的標準實作支援透過`pageUrl`引數傳遞`qa_mode`引數。 此方式便於標準/ajax [!DNL Target]呼叫。 但若為伺服器對伺服器呼叫，無法使用 `pageUrl` 時，則對 Mobile SDK 而言不是最佳方式。
+活動QA的標準實作支援透過`qa_mode`引數傳遞`pageUrl`引數。 此方式便於標準/ajax [!DNL Target]呼叫。 但若為伺服器對伺服器呼叫，無法使用 `pageUrl` 時，則對 Mobile SDK 而言不是最佳方式。
 
 以下程式碼範例說明伺服器端呼叫的活動 QA:
 

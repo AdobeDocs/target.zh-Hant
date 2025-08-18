@@ -2,7 +2,7 @@
 keywords: 體驗預覽; 體驗 URL; 產生 URL; 檢視體驗 URL
 description: 瞭解如何在Adobe [!DNL Target] Automated Personalization活動使用體驗預覽URL，在活動上線之前直接在網站上檢視體驗內容。
 title: 如何在Automated Personalization活動中使用體驗預覽URL？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
@@ -31,7 +31,7 @@ ht-degree: 49%
 1. 檢閱和/或指定您的 URL。
 
    * 如果您使用[!UICONTROL Visual Experience Composer] (VEC)，則會自動輸入您為活動指定的預設URL，並為活動中的每個體驗產生連結。 您可以變更此 URL 和新增其他 URL (如需要)。
-   * 如果您使用[!UICONTROL Form-Based Experience Composer]，則不會自動輸入預設URL。 如果您先前未建立體驗預覽URL，請按一下[新增URL] **&#x200B;**。 您必須指定您要預覽的所有 URL 以及每個 URL 的名稱。
+   * 如果您使用[!UICONTROL Form-Based Experience Composer]，則不會自動輸入預設URL。 如果您先前未建立體驗預覽URL，請按一下[新增URL] ****。 您必須指定您要預覽的所有 URL 以及每個 URL 的名稱。
 
    您可以新增多個 URL，當您執行多頁測試或範本測試，且要在一個以上的頁面上預覽活動時相當實用。
 

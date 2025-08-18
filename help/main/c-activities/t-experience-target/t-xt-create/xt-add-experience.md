@@ -7,17 +7,17 @@ exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
 # 在[!UICONTROL Experience Targeting] (XT)活動中建立體驗
 
-[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)提供視覺化介面，可用於編輯[!UICONTROL Experience Targeting] (XT)活動之頁面上的體驗。
+[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)提供視覺化介面，可用於編輯[!UICONTROL Experience Targeting] (XT)活動之頁面上的體驗。
 
 1. 選取您要變更的元素，並進行所需的變更。
 
-   在[建立[!UICONTROL Experience Targeting]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三步驟引導式工作流程的步驟一([!UICONTROL Experiences])會顯示具有[!UICONTROL All Visitors]對象的預設[!UICONTROL Experience A]。
+   在[建立[!UICONTROL Experience Targeting]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三步驟引導式工作流程的步驟一([!UICONTROL Experiences])會顯示具有[!UICONTROL Experience A]對象的預設[!UICONTROL All Visitors]。
 
    ![所有訪客客群](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
@@ -100,9 +100,9 @@ ht-degree: 24%
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-### 活動類型 (9:03)
+### 活動型別(9:03)
 
-此影片說明 [!DNL Target] 中的可用活動類型。上午 05:15 處開始討論 [!UICONTROL Experience Targeting]。
+此影片說明 [!DNL Target] 中的可用活動類型。從5[!UICONTROL Experience Targeting]開始討論:15。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型

@@ -33,13 +33,13 @@ ht-degree: 21%
 
 +++檢視詳細資料
 * **修正Recs UI中自訂條件CSV下載傳回404錯誤的問題**：修正客戶無法在活動建立程式中下載自訂條件CSV的問題。 (TGT-51966)
-* **修正[!UICONTROL Catalog Search]**&#x200B;中載入的影像不一致：修正[!UICONTROL &#x200B; Catalog Search]中的縮圖與影像在活動建立程式中無法一致載入的問題。 除非顯示「縮圖URL」欄，且在導覽或搜尋動作後已載入部分或完全未載入某些產品影像，否則影像無法顯示。 (TGT-52778)
+* **修正[!UICONTROL Catalog Search]**&#x200B;中載入的影像不一致：修正[!UICONTROL  Catalog Search]中的縮圖與影像在活動建立程式中無法一致載入的問題。 除非顯示「縮圖URL」欄，且在導覽或搜尋動作後已載入部分或完全未載入某些產品影像，否則影像無法顯示。 (TGT-52778)
 * **修正了在重複體驗中編輯建議會影響原始體驗的問題**：客戶回報在重複體驗中修改建議無意間更改了原始體驗。 具體來說，在活動建立程式中複製體驗B並編輯其設計或條件後，相同的變更會反映在原始體驗B中，儘管它們是單獨的實體。 (TGT-53369)
 * **修正對重複體驗的變更無意中影響活動中原始體驗的問題：**&#x200B;客戶回報在活動內複製體驗並指派新對象時，對複製體驗的設計或條件所做的任何變更也會反映在原始體驗中。 即使未直接對原始版本進行任何編輯，也會發生這種情況，影響在相同活動內建立獨立變體的能力。 (TGT-53361)
 * **修正[!UICONTROL Recommendation Catalog]間歇性地無法顯示完整產品屬性資料的問題**：在更新的[!DNL Recommendations] UI中，客戶遇到某些產品屬性（例如訊息）無法一致顯示在目錄搜尋結果中的問題，即使資料存在於摘要中亦然。 此問題需要客戶手動重新設定欄可見性，以擷取缺少的值。 (TGT-52769)
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++檢視詳細資料
 * **修正在AP活動中封鎖推進至[!UICONTROL Targeting]步驟的活動 — 建立程式中的問題**：修正在[!UICONTROL Targeting] (AP)活動中客戶無法繼續進行[!UICONTROL Automated Personalization]步驟的問題（除非新增兩個位置）。 此行為與先前體驗不同，先前體驗中，具有多個選件的單一位置已足夠。 已更正此要求，讓客戶能夠繼續使用單一位置設定作為其AP工作流程的一部分。 (TGT-53426)
@@ -59,7 +59,7 @@ ht-degree: 21%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 搶鮮版版本資訊 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

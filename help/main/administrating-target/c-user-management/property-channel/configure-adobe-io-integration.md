@@ -1,8 +1,8 @@
 ---
 keywords: 整合;角色;使用者權限;admin console
-description: 瞭解如何在Adobe Target中授予現有Adobe I/O整合功能可使用所需角色存取所有工作區的許可權。
-title: 如何授予Adobe I/O對工作區的存取權並指派角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解如何以Adobe Target中的所需角色，授予現有Adobe I/O整合功能可存取所有工作區的許可權。
+title: 如何授予Adobe I/O工作區存取權並指派角色？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -35,7 +35,7 @@ ht-degree: 59%
 * 每當團隊準備好探索 API 並據此選擇角色時，允許擁有其工作區的每個團隊擁有各自的整合。
 * 混合並比對任何上述案例。
 
-**需要採取動作**: 如果客戶目前運用 API 在所有工作區的資源 (活動、客群、選件和報表) 上執行 CRUD 作業，則須授予其現有 Adobe I/O 整合功能可根據其使用案例使用所需角色存取所有工作區的權限。若要這麼做，請在[!DNL Adobe Admin Console]中選取每個[!DNL Target] [!UICONTROL Product Profile]，然後在[!UICONTROL Integration]索引標籤中新增整合。 在9月版本之前，無論從[!UICONTROL Product Role]下拉式清單進行何種選擇，所有整合功能都是使用[!UICONTROL Approver]存取權來執行作業。 您現在可以選擇所需角色。
+**需要採取動作**: 如果客戶目前運用 API 在所有工作區的資源 (活動、客群、產品建議和報表) 上執行 CRUD 作業，則須授予其現有 Adobe I/O 整合功能可根據其使用案例使用所需角色存取所有工作區的權限。若要這麼做，請在[!DNL Target]中選取每個[!UICONTROL Product Profile] [!DNL Adobe Admin Console]，然後在[!UICONTROL Integration]索引標籤中新增整合。 在9月版本之前，無論從[!UICONTROL Approver]下拉式清單進行何種選擇，所有整合功能都是使用[!UICONTROL Product Role]存取權來執行作業。 您現在可以選擇所需角色。
 
 >[!NOTE]
 >

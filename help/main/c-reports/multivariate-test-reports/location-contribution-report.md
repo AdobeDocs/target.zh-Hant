@@ -7,7 +7,7 @@ exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 38%
 >
 >* 對象和量度選擇器僅在將[!DNL Analytics]用作報表來源(A4T)時才可用。
 >
->* 已從[!DNL Target]後端擷取[!UICONTROL Location Contribution]報告的資料，即使活動設定為使用[!UICONTROL Analytics as the reporting source] (A4T)亦然。
+>* 已從[!UICONTROL Location Contribution]後端擷取[!DNL Target]報告的資料，即使活動設定為使用[!UICONTROL Analytics as the reporting source] (A4T)亦然。
 >
->* 即使在[!DNL Target]帳戶層級定義了不同的預設環境，「生產」環境也會擷取[!UICONTROL Location Contribution]報告的資料。
+>* 即使在[!UICONTROL Location Contribution]帳戶層級定義了不同的預設環境，「生產」環境也會擷取[!DNL Target]報告的資料。
 
 [!UICONTROL Location Contribution]報告包含兩個資料表。
 
@@ -35,6 +35,6 @@ ht-degree: 38%
 
 ## 訓練影片: 建立 MVT 測試
 
-此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 8:45 開始說明「位置貢獻」報表。
+此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 位置貢獻報表的說明從8:45開始。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

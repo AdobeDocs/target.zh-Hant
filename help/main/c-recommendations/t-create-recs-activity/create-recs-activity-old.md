@@ -1,8 +1,8 @@
 ---
-keywords: 建立建議;推薦活動;新建議;建議概覽
-description: 瞭解如何使用Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)，直接在啟用 [!DNL Target]的頁面上建立Recommendations活動。
+keywords: 建立建議;推薦活動;新建議;建議概觀
+description: 瞭解如何使用Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)直接在啟用 [!DNL Target]的頁面上建立Recommendations活動。
 title: 如何建立Recommendations活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -30,7 +30,7 @@ ht-degree: 55%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是Target Standard授權。
+   >上圖中的[!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是Target Standard授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -77,7 +77,7 @@ ht-degree: 55%
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**)而定，可能不會顯示[!UICONTROL Compatible]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( [!UICONTROL Compatible] > **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**)而定，可能不會顯示&#x200B;**[!UICONTROL Filter Incompatible Criteria]**&#x200B;選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -156,13 +156,13 @@ ht-degree: 55%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save & Close]**。
 
-   您的活動概覽隨即顯示。
+   您的活動概觀隨即顯示。
 
    從[!UICONTROL Overview]頁面可以：
 
    * 啟動活動
    * 編輯活動
-   * 與您的Experience Cloud摘要共用活動
+   * 與您的Experience Cloud資訊源共用活動
    * QA活動
    * 檢視您的體驗 URL
    * 下載資料

@@ -17,7 +17,7 @@ ht-degree: 87%
 
 如果安全內容與不安全內容混合，新型瀏覽器可能會封鎖頁面的顯示或顯示警告訊息。
 
-如果[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)嘗試開啟包含混合式內容的頁面，則會顯示警告訊息。 此訊息會通知您如何在瀏覽器中停用封鎖功能。 停用封鎖功能可讓您開啟 HTTP 網站或具有混合式內容的網站 (HTTPS 和 HTTP)。
+如果[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)嘗試開啟包含混合式內容的頁面，則會顯示警告訊息。 此訊息會通知您如何在瀏覽器中停用封鎖功能。 停用封鎖功能可讓您開啟 HTTP 網站或具有混合式內容的網站 (HTTPS 和 HTTP)。
 
 ![混合式內容警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -78,10 +78,10 @@ ht-degree: 87%
 
 如果您正在搭配最新版 [!DNL Edge] 使用 VEC，您必須更新網站設定。您網站的訪客不需要完成這些步驟。
 
-1. 在[!DNL Edge]中，按一下功能表列&#x200B;**[!UICONTROL Settings]**&#x200B;中的&#x200B;**[!DNL Microsoft Edge]**，然後按一下&#x200B;**Cookie與網站許可權**。
+1. 在[!DNL Edge]中，按一下功能表列&#x200B;**[!DNL Microsoft Edge]**&#x200B;中的&#x200B;**[!UICONTROL Settings]**，然後按一下&#x200B;**Cookie與網站許可權**。
 
 1. 捲動至&#x200B;**[!UICONTROL Insecure content]**。
 
-1. 按一下&#x200B;**[!UICONTROL Insecure content]**，然後按一下&#x200B;**[!UICONTROL Allow]**&#x200B;旁的&#x200B;**[!UICONTROL Add]**，新增允許不安全內容的網站，然後按一下&#x200B;**[!UICONTROL Add]**。
+1. 按一下&#x200B;**[!UICONTROL Insecure content]**，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;旁的&#x200B;**[!UICONTROL Allow]**，新增允許不安全內容的網站，然後按一下&#x200B;**[!UICONTROL Add]**。
 
 1. 重新載入 VEC 頁面。

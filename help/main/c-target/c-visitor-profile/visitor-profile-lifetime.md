@@ -11,11 +11,11 @@ ht-degree: 62%
 
 ---
 
-# 訪客設定檔存留期
+# 訪客輪廓存留期
 
-根據預設，[!DNL Adobe Target]中的訪客設定檔會在該訪客14天未使用後過期。 但可延長此描述檔存留期。
+根據預設，[!DNL Adobe Target]中的訪客設定檔會在該訪客14天未使用後過期。 但可延長此輪廓存留期。
 
-[請聯絡 Client Care 或您的 Adobe 顧問](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，即可免費延長描述檔存留期。存留期最長可設為 90 天。
+[請聯絡 Client Care 或您的 Adobe 顧問](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，即可免費延長輪廓存留期。存留期最長可設為 90 天。
 
 如果您的設定檔已延長至超過預設值，則不需要下載新的[!DNL Platform Web SDK]檔案或at.js檔案。
 

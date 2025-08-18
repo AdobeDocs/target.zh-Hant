@@ -28,13 +28,13 @@ ht-degree: 35%
 
 [!DNL Analytics] 和 [!DNL Target] 使用者帳戶必須連結至 Adobe ID。
 
-如需詳細資訊，請參閱[組織和帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[組織和帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)。
 
 ### 設定 Experience Cloud 群組成員資格
 
 您必須是具有 [!DNL Analytics] 和 [!DNL Target] 存取權之一或多個 [!DNL Experience Cloud] 群組的成員。
 
-如需詳細資訊，請參閱[管理Experience Cloud使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[管理Experience Cloud使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -52,7 +52,7 @@ ht-degree: 35%
 
 1. 設定[!UICONTROL Web Services Access]群組的存取權。
 
-   必須存取[!DNL Analytics]中的[!UICONTROL Web Services Access]群組，才能使用[!DNL Analytics]做為[!DNL Target]的報告來源。
+   必須存取[!UICONTROL Web Services Access]中的[!DNL Analytics]群組，才能使用[!DNL Analytics]做為[!DNL Target]的報告來源。
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

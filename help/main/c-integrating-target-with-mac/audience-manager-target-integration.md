@@ -15,9 +15,9 @@ ht-degree: 0%
 
 [!DNL Target]/[!DNL Audience Manager]整合可讓您將[!DNL Audience Manager]區段傳送至[!DNL Target]。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Audience Manager]使用手冊*&#x200B;中的[整合 [!DNL Audience Manager] 與 [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[使用手冊 [!DNL Audience Manager] 中的 [!DNL Target]整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)與&#x200B;*[!DNL Audience Manager]*。
 
-## 影片：將[!DNL Target]與[!DNL Adobe Audience Manager]整合(3:06)
+## 影片：整合[!DNL Target]與[!DNL Adobe Audience Manager] (3:06)
 
 >[!VIDEO](https://video.tv.adobe.com/v/35151)
 

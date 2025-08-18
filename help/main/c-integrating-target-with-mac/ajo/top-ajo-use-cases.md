@@ -2,7 +2,7 @@
 keywords: 最佳化；個人化；adobe journey optimizer；ajo；使用案例；案例；網站；程式碼型
 description: 瞭解如何在Adobe Journey Optimizer中實施最佳化使用案例，以獲得最大的影響。
 title: ' [!DNL Adobe Journey Optimizer]  — 網頁和程式碼型管道中的最佳化使用案例'
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -22,12 +22,12 @@ ht-degree: 6%
 
 若要執行下列使用案例，您需要下列專案：
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
-* 這些使用案例不需要[!DNL Adobe Target]授權。 這些使用案例會示範如何使用[!DNL Journey Optimizer]在[!DNL Target]中執行熟悉的工作，讓您能夠探索並取得與[!DNL Journey Optimizer]相同的結果。
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
+* 這些使用案例不需要[!DNL Adobe Target]授權。 這些使用案例會示範如何使用[!DNL Target]在[!DNL Journey Optimizer]中執行熟悉的工作，讓您能夠探索並取得與[!DNL Journey Optimizer]相同的結果。
 
-## 使用個案
+## 使用案例
 
-下列使用案例示範如何在[!DNL Adobe Journey Optimizer]內執行[!DNL Target]中熟悉的工作，讓您檢視執行中的異同。
+下列使用案例示範如何在[!DNL Target]內執行[!DNL Adobe Journey Optimizer]中熟悉的工作，讓您檢視執行中的異同。
 
 這些使用案例與網頁和程式碼型通道有關。
 

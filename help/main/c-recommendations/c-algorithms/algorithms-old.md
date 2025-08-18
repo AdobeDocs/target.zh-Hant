@@ -2,7 +2,7 @@
 keywords: 建議；建議活動；條件；演演算法；建議金鑰；自訂金鑰；垂直產業；零售；eccommerce；銷售機會產生；b2b；金融服務；媒體；發佈
 description: 瞭解如何在Adobe [!DNL Target] [!DNL Recommendations]中使用條件。
 title: 如何在 [!DNL Target] Recommendations中使用條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -40,7 +40,7 @@ ht-degree: 15%
 
 | 演演算法型別 | 使用時機 | 可用的演演算法 |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | 根據使用者的購物車內容提供建議。 | <ul><li>瀏覽過這些專案、也瀏覽了其他專案的使用者</li><li>瀏覽過這些專案、但購買了其他專案的使用者</li><li>購買了此專案、也購買了其他專案的使用者</li></ul>如需詳細資訊，請參閱&#x200B;*以推薦索引鍵*&#x200B;為基礎的建議[購物車型](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)。 |
+| [!UICONTROL Cart-Based] | 根據使用者的購物車內容提供建議。 | <ul><li>瀏覽過這些專案、也瀏覽了其他專案的使用者</li><li>瀏覽過這些專案、但購買了其他專案的使用者</li><li>購買了此專案、也購買了其他專案的使用者</li></ul>如需詳細資訊，請參閱[以推薦索引鍵](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)為基礎的建議&#x200B;*購物車型*。 |
 | [!UICONTROL Popularity-Based] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 | <ul><li>全網站檢視次數最多</li><li>依類別檢視次數最多</li><li>依專案屬性檢視次數最多</li><li>全網站最暢銷商品</li><li>依類別排名的最暢銷商品</li><li>依專案屬性排名的最暢銷商品</li><li>依Analytics量度排名最前</li></ul> |
 | [!UICONTROL Item-Based] | 根據找到使用者目前正在檢視或最近檢視之專案的類似專案提供建議。 | <ul><li>檢視過此項目、也檢視了其他項目的使用者</li><li>瀏覽過此項目、但購買了其他項目的使用者</li><li>購買了此項目、也購買了其他項目的使用者</li><li>具有類似屬性的專案</li></ul> |
 | [!UICONTROL User-Based] | 根據使用者的行為提供建議。 | <ul><li>最近查看的項目</li><li>為您推薦</li></ul> |
@@ -64,9 +64,9 @@ ht-degree: 15%
 
 1. 在[基本資訊區段](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)中填入資訊。
 
-1. 在[建議的演演算法](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)區段中，從&#x200B;**[!UICONTROL Algorithm Type]**&#x200B;清單中選取&#x200B;**[!UICONTROL Item Based]**。
+1. 在[建議的演演算法](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)區段中，從&#x200B;**[!UICONTROL Item Based]**&#x200B;清單中選取&#x200B;**[!UICONTROL Algorithm Type]**。
 
-1. 從&#x200B;**[!UICONTROL Algorithm]**&#x200B;清單中選取&#x200B;**[!UICONTROL People Who Viewed This, Viewed That]**。
+1. 從&#x200B;**[!UICONTROL People Who Viewed This, Viewed That]**&#x200B;清單中選取&#x200B;**[!UICONTROL Algorithm]**。
 
 1. 從&#x200B;**[!UICONTROL Recommendation Key]**&#x200B;清單中選取自訂設定檔屬性（例如，[!UICONTROL Last Show Added to Watchlist]）。
 

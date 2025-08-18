@@ -1,6 +1,6 @@
 ---
 keywords: 自動化流量分配；鎖定目標；獲勝者；統計保證；信賴度；決定獲勝者；提升度；信賴度；預設；預設體驗；自動分配；自動分配
-description: 瞭解如何透過檢查重要指標（包括提升度和信賴度）來解釋Adobe [!DNL Target] 中[!UICONTROL Auto-Allocate] A/B活動的結果。
+description: 瞭解如何透過檢查重要指標（包括提升度和信賴度）來解譯Adobe[!UICONTROL Auto-Allocate]中 [!DNL Target]  A/B活動的結果。
 title: 如何解譯[!UICONTROL Auto-Allocate]報表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
@@ -13,7 +13,7 @@ ht-degree: 21%
 
 # 解讀自動分配報告
 
-透過檢查重要指標（包括提升度和信賴度）來解譯[!UICONTROL Adobe Target]中[!UICONTROL Auto-Allocate] A/B活動的結果。
+透過檢查重要指標（包括提升度和信賴度）來解譯[!UICONTROL Auto-Allocate]中[!UICONTROL Adobe Target] A/B活動的結果。
 
 許多行銷人員犯了一種錯誤，在結果指出明確的贏家之前便提早宣告獲勝體驗。[!DNL Target]讓您更容易決定獲勝者。
 
@@ -39,7 +39,7 @@ ht-degree: 21%
 
 [!DNL Target]沒有對[!UICONTROL Auto-Allocate]使用p值型信賴度。
 
-[!UICONTROL Auto-Allocate]活動（如下圖所示）中的[!UICONTROL Confidence]欄會顯示體驗在1%錯誤邊界內成為獲勝者的機率。 演演算法使用最佳和次最佳轉換率之間的最小可偵測效果為1%。 演演算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)來計算此機率。
+[!UICONTROL Confidence]活動（如下圖所示）中的[!UICONTROL Auto-Allocate]欄會顯示體驗在1%錯誤邊界內成為獲勝者的機率。 演演算法使用最佳和次最佳轉換率之間的最小可偵測效果為1%。 演演算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)來計算此機率。
 
 一般 A/B 測試會根據 p 值來計算信賴度。[!UICONTROL Auto-Allocate]不使用p值。 P 值會「寬鬆」計算所給定體驗與控制項不同的機率。這些 p 值只能用來判斷體驗是否可能與控制不同。這些值只能用來判斷體驗是否與另一個體驗 (非控制) 不同。
 
@@ -77,10 +77,10 @@ ht-degree: 21%
 
 * 如果報表完全顯示 0%，可能表示太早進入活動。
 
-### 「沒有贏家」、「贏家」和「星星」徽章適用於使用[!UICONTROL Analytics as the reporting source] (A4T)的[!UICONTROL Auto-Allocate]活動嗎？
+### 「沒有贏家」、「贏家」和「星星」徽章適用於使用[!UICONTROL Auto-Allocate] (A4T)的[!UICONTROL Analytics as the reporting source]活動嗎？
 
-「尚未有贏家」和「贏家」徽章目前在[!DNL Analysis Workspace]的[!UICONTROL A4T]面板中無法使用。 如果在[!DNL Target]中檢視相同的報表，則也無法使用這些徽章。 使用A4T的[!UICONTROL Auto-Allocate]活動在[!DNL Target]報告中顯示的獲勝者「星星」徽章應予以忽略。
+「尚未有贏家」和「贏家」徽章目前在[!UICONTROL A4T]的[!DNL Analysis Workspace]面板中無法使用。 如果在[!DNL Target]中檢視相同的報表，則也無法使用這些徽章。 使用A4T的[!DNL Target]活動在[!UICONTROL Auto-Allocate]報告中顯示的獲勝者「星星」徽章應予以忽略。
 
-如需此專案以及其他限制和附註的詳細資訊，請參閱[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動&#x200B;*在* A4T支援中的[自動分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)。
+如需此專案以及其他限制和附註的詳細資訊，請參閱[和](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)活動&#x200B;*在[!UICONTROL Auto-Allocate]A4T支援中的[!UICONTROL Auto-Target]自動分配*。
 
 

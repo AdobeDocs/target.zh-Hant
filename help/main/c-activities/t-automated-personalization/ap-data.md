@@ -2,7 +2,7 @@
 keywords: 環境資料；工作階段資料；地理資料；地理位置資料；裝置資料；行動資料；屬性；設定檔屬性；個人化演演算法；機器學習演演算法；機器學習演演算法
 description: 瞭解 [!DNL Adobe Target] 收集和使用哪些資料來建置其機器學習演演算法。
 title: 系統會收集哪些資料來建置機器學習演演算法？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
@@ -38,18 +38,18 @@ ht-degree: 51%
 | --- | --- | --- | --- |
 | 頁面參數 | 方塊 | 在呼叫[!DNL Target]中傳遞的自訂頁面引數（「mbox引數」）。 | 自訂 — Mbox引數 — [引數名稱] |
 | [!DNL Target]設定檔 | PRO | 自訂設定檔屬性會透過API或頁面引數及[!DNL Target]設定檔指令碼直接上傳至[!DNL Target]設定檔。 | 自訂 — 訪客設定檔 — [屬性名稱] |
-| 客戶屬性 | CRS | 透過[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hant){target=_blank}上傳至[!DNL Target]設定檔的客戶屬性。 | 自訂 — 訪客設定檔 — [屬性名稱] |
+| 客戶屬性 | CRS | 透過[!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service]上傳至](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}設定檔的客戶屬性。 | 自訂 — 訪客設定檔 — [屬性名稱] |
 | URL 參數 | URL | 目前檢視頁面的URL和任何URL引數。 | 自訂 — URL引數 — [URL引數] |
 | 反向連結 URL | 參照 | 反向連結URL和反向連結URL的任何URL引數。 | 自訂 — [反向連結URL引數] - [引數值] |
-| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 從其他[!DNL Adobe Experience Cloud]解決方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，透過[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hant){target=_blank}）與[!DNL Target]共用所有對象。 | 自訂 — Experience Cloud對象 — [對象名稱] |
-| [!DNL Adobe Experience Platform Real-time CDP]個對象 | UPS | 透過[!UICONTROL Destinations]與[!DNL Target]共用的Platform Real-time CDP對象。 |  |
+| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 從其他[!DNL Target]解決方案（例如，[!DNL Adobe Experience Cloud]和[!DNL Adobe Audience Manager]，透過[!DNL Adobe Analytics][[!DNL Experience Cloud Audience Library]）與](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}共用所有對象。 | 自訂 — Experience Cloud對象 — [對象名稱] |
+| [!DNL Adobe Experience Platform Real-time CDP]個對象 | UPS | 透過[!DNL Target]與[!UICONTROL Destinations]共用的Platform Real-time CDP對象。 |  |
 
 
 ## 正在封鎖[!DNL Target]機器學習演演算法的功能
 
 可以從[!DNL Target]機器學習演演算法中封鎖功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Target]模型或活動中使用這些功能。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target]開發人員指南*&#x200B;中的[模型API （封鎖清單）概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}中的&#x200B;*[!DNL Adobe Target]模型API （封鎖清單）概觀*。
 
 ## 裝置和行動資料 {#device-mobile}
 

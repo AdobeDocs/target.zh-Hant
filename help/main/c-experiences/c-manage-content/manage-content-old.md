@@ -1,5 +1,5 @@
 ---
-keywords: 內容; 資產; 管理內容; 選件; 管理資產; 進入選擇模式; 選擇模式
+keywords: 內容; 資產; 管理內容; 產品建議; 管理資產; 進入選擇模式; 選擇模式
 description: 瞭解如何使用Adobe Target中的選件資料庫來管理程式碼和影像選件。
 title: 我該如何管理程式碼和影像選件？
 feature: Experiences and Offers
@@ -11,13 +11,13 @@ ht-degree: 16%
 
 ---
 
-# 選件
+# 產品建議
 
-在[!DNL Adobe Target]中使用[!UICONTROL Offers]資料庫來管理您的程式碼選件和影像選件內容。
+在[!UICONTROL Offers]中使用[!DNL Adobe Target]資料庫來管理您的程式碼選件和影像選件內容。
 
 1. 按一下&#x200B;**[!UICONTROL Offers]**&#x200B;以開啟資料庫。
 
-   此資料庫包含已透過 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 和 API 來設定的選件。在 [!DNL Target Classic] 或其他解決方案中建立的選件，都可以在 [!DNL Target Standard/Premium] 中編輯。
+   此資料庫包含已透過 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 和 API 來設定的產品建議。在 [!DNL Target Classic] 或其他解決方案中建立的產品建議，都可以在 [!DNL Target Standard/Premium] 中編輯。
 
    [!UICONTROL Offers]頁面在右側有兩個索引標籤： [!UICONTROL Code Offers]和[!UICONTROL Image Offers]，可讓您依型別檢視選件。
 
@@ -76,13 +76,13 @@ ht-degree: 16%
 可使用下列資訊:
 
 * 名稱
-* 選件 ID
+* 產品建議 ID
 * 類型
 * 上次修改
 
-按一下[!UICONTROL View Full Details]連結以檢視選件內容以及參考代碼選件的活動。 這樣可讓您在編輯選件時，避免影響其他活動。資訊包括[!UICONTROL Live Activities]和[!UICONTROL Inactive Activities]。
+按一下[!UICONTROL View Full Details]連結以檢視選件內容以及參考代碼選件的活動。 這樣可讓您在編輯產品建議時，避免影響其他活動。資訊包括[!UICONTROL Live Activities]和[!UICONTROL Inactive Activities]。
 
-每個卡片上的可用資訊會依選件型別而有所不同：HTML選件、[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[遠端選件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)或[JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
+每個卡片上的可用資訊會依選件型別而有所不同： HTML選件、[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[遠端選件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)或[JSON選件](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
 
 優惠方案詳細資料功能不適用於影像優惠方案。
 
@@ -92,7 +92,7 @@ ht-degree: 16%
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hant) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

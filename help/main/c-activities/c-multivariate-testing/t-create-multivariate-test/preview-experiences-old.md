@@ -1,6 +1,6 @@
 ---
 keywords: 多變數； MVT；預覽；體驗
-description: 瞭解如何使用[!UICONTROL Visual Experience Composer] (VEC)預覽 [!DNL Adobe Target] 中[!UICONTROL Multivariate Test] (MVT)活動的每個體驗。
+description: 瞭解如何使用[!UICONTROL Multivariate Test] (VEC)預覽 [!DNL Adobe Target] 中[!UICONTROL Visual Experience Composer] (MVT)活動的每個體驗。
 title: 如何預覽[!UICONTROL Multivariate Test] (MVT)的體驗？
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
@@ -13,7 +13,7 @@ ht-degree: 25%
 
 # 預覽[!UICONTROL Multivariate Test]的體驗
 
-因為[!DNL Adobe Target]中的[!UICONTROL Multivariate Test]比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
+因為[!UICONTROL Multivariate Test]中的[!DNL Adobe Target]比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
 
 1. 從[!UICONTROL Visual Experience Composer] (VEC)，按一下&#x200B;**[!UICONTROL Preview]**。
 

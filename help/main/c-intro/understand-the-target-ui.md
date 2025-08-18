@@ -67,7 +67,7 @@ ht-degree: 23%
 
 #### [!UICONTROL Requests]
 
-在[!UICONTROL Requests]面板中接收有關[!DNL Adobe]產品和解決方案、您與其他使用者的共同作業以及其他相關更新的重要資訊。
+在[!DNL Adobe]面板中接收有關[!UICONTROL Requests]產品和解決方案、您與其他使用者的共同作業以及其他相關更新的重要資訊。
 
 當有人傳送請求給您核准物件或授予物件存取權時，該請求會顯示在[!UICONTROL Requests]面板中。
 
@@ -94,7 +94,7 @@ ht-degree: 23%
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Recommendations摘要**：手動或由[!DNL Target]啟動或停用[!DNL Recommendations]摘要時通知。 當[!DNL Recommendations]摘要失敗時也會傳送通知。
+* **Recommendations摘要**：手動或由[!DNL Recommendations]啟動或停用[!DNL Target]摘要時通知。 當[!DNL Recommendations]摘要失敗時也會傳送通知。
 
   通知是可設定的，而且預設會由[!DNL Target Premium]帳戶的產品管理員和核准者接收。 [!DNL Recommendations]是[!DNL Target Premium]功能，無法在[!DNL Target Standard]中使用。
 
@@ -163,7 +163,7 @@ ht-degree: 23%
 
 **[!UICONTROL Activities]**&#x200B;清單是您開啟[!DNL Target]時的預設檢視。 您可以從此頁面建立活動，並管理現有活動。
 
-如需[!DNL Target]中可用活動型別的深入資訊，請參閱[活動](/help/main/c-activities/activities.md)，並進一步瞭解[!UICONTROL Activity]清單的使用者介面。
+如需[中可用活動型別的深入資訊，請參閱](/help/main/c-activities/activities.md)活動[!DNL Target]，並進一步瞭解[!UICONTROL Activity]清單的使用者介面。
 
 ## 客群
 
@@ -171,7 +171,7 @@ ht-degree: 23%
 
 對象是看到鎖定活動的一組類似的活動加入者。 受眾是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。 [!UICONTROL Audience]功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。 如果驗明訪客屬於目標客群，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。
 
-如需[!DNL Target]中對象型別的深入資訊，請參閱[建立對象](/help/main/c-target/c-audiences/create-audience.md)，並進一步瞭解[!UICONTROL Audience]清單的使用者介面。
+如需[中對象型別的深入資訊，請參閱](/help/main/c-target/c-audiences/create-audience.md)建立對象[!DNL Target]，並進一步瞭解[!UICONTROL Audience]清單的使用者介面。
 
 ## 產品建議
 
@@ -179,7 +179,7 @@ ht-degree: 23%
 
 體驗可以是產品建議、影像、文字、按鈕、影片或將這些不同元素加以組合，放在頁面、整個網頁或一組頁面上，可能會形成購買漏斗或一些其他的頁面邏輯順序。也可以是語音助理的回應、客戶服務指令碼，或甚至是飲料機的個人化口味。您可以在 [!DNL Target] 活動中測試或個人化體驗。
 
-如需[!DNL Target]中選件型別的深入資訊，請參閱[選件](/help/main/c-experiences/c-manage-content/manage-content.md)，並進一步瞭解[!UICONTROL Offer]清單的使用者介面。
+如需[中選件型別的深入資訊，請參閱](/help/main/c-experiences/c-manage-content/manage-content.md)選件[!DNL Target]，並進一步瞭解[!UICONTROL Offer]清單的使用者介面。
 
 ## 推薦
 
@@ -187,11 +187,11 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->[!UICONTROL Recommendations] 活動是 [!DNL Target Premium] 解決方案內建的功能。在沒有[!DNL Target Premium]授權的[!DNL Target Standard]中無法使用[!UICONTROL Recommendations]活動。 如需更多資訊，請參閱 *Target 簡介*&#x200B;中的 [Target Premium](/help/main/c-intro/intro.md#premium)。
+>[!UICONTROL Recommendations] 活動是 [!DNL Target Premium] 解決方案內建的功能。在沒有[!UICONTROL Recommendations]授權的[!DNL Target Standard]中無法使用[!DNL Target Premium]活動。 如需更多資訊，請參閱 *Target 簡介*&#x200B;中的 [Target Premium](/help/main/c-intro/intro.md#premium)。
 
 [!UICONTROL Recommendations]活動可依據先前的使用者活動或其他演演算法，自動顯示可能使客戶感興趣的產品或內容。 推薦有助於將客戶引導至他們可能尚不知道的相關項目。
 
-如需[!DNL Target]中[!UICONTROL Recommendations]的深入資訊，請參閱[Recommendations](/help/main/c-recommendations/recommendations.md)，並進一步瞭解[!UICONTROL Recommendations]使用者介面。
+如需[中](/help/main/c-recommendations/recommendations.md)的深入資訊，請參閱[!UICONTROL Recommendations]Recommendations[!DNL Target]，並進一步瞭解[!UICONTROL Recommendations]使用者介面。
 
 ## 管理
 

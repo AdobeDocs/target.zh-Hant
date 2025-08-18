@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 35%
+source-wordcount: '431'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 35%
    >
    >考慮以下事項：
    >
-   >* 開始/結束日期的時區會顯示為 GMT +/- NN:NN；其中 NN:NN 是 GMT 時差，會反映帳戶層級時區，而非訪客的時區。例如，加州時區會顯示為 GMT -08:00。
+   >* 開始/結束日期的時區會顯示為GMT +/- NN:NN，其中NN:NN是GMT時差，會反映帳戶層級時區，而非訪客的時區。 例如，加州時區會顯示為GMT -08:00。
    >
    >* [!DNL Target]時間對象未考慮日光節約時間(DST)變更。 您必須手動重新儲存對象，以考慮DST變更。
 
@@ -47,7 +47,7 @@ ht-degree: 35%
 
    >[!NOTE]
    >
-   >[!UICONTROL Week and Day Parting]的時區會顯示為GMT +/- NN：NN；其中NN：NN是GMT時差，會反映帳戶層級時區，而非訪客的時區。 例如，加州太平洋日光節約時間的時區會顯示為GMT -07:00。
+   >[!UICONTROL Week and Day Parting]的時區會顯示為GMT +/- NN:NN，其中NN:NN是GMT時差，會反映帳戶層級時區，而非訪客的時區。 例如，加州太平洋日光節約時間的時區會顯示為GMT -07:00。
 
 1. （選用）為對象設定其他規則。
 

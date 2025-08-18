@@ -1,22 +1,22 @@
 ---
-keywords: Recommendations;介紹;簡介;研討會;示範
-description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
-title: 什麼是 Recommendations 活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+keywords: 推薦;介紹;簡介;研討會;示範
+description: 了解 Adobe [!DNL Target] 中的推薦活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
+title: 什麼是推薦活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '2086'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
-# Recommendations 簡介
+# 推薦簡介
 
-本文中的文字內容來自&#x200B;*Recommendations 簡介*&#x200B;網路研討會，您可在下方查看其完整內容。
+本文中的文字內容來自&#x200B;*推薦簡介*&#x200B;網路研討會，您可在下方查看其完整內容。
 
-*Recommendations 簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
+*推薦簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概觀。
 
 ## 簡介
 
@@ -57,7 +57,7 @@ ht-degree: 90%
 * **精密的模型**，將目錄和互動事件中的數百萬個項目轉換成有意義的資料。[!DNL Target] 具有根據長達十年經驗所打造的精密機器學習功能，而且我們每年處理數十億個建議。
 * **使用者內容**，確保可為使用者提供及時且相關的建議。您不想要建議某個使用者剛看過的影片，或某個使用者剛新增至購物車的襯衫。 Target的豐富使用者設定檔可用於建議，以確保個人化。
 
-## 實作 [!DNL Target] Recommendations
+## 實作 [!DNL Target] 推薦
 
 首先，請從策略開始。
 
@@ -103,9 +103,9 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 ![插圖顯示如何擷取使用者行為](/help/main/c-recommendations/assets/intro-9.png)
 
-您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同型別的轉換事件，例如下載PDF、完成問卷、訂閱電子報、觀看影片等。
+您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同型別的轉換事件，例如下載PDF、完成調查、訂閱電子報、觀看影片等。
 
-如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員（例如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=zh-Hant){target=_blank}中的標籤）進行此設定。 也可以透過即時API將離線或應用程式內的互動傳送至[!DNL Target]。
+如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員（例如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的標籤）進行此設定。 也可以透過即時API將離線或應用程式內的互動傳送至[!DNL Target]。
 
 ### 透過正確的內容取得建議
 
@@ -113,13 +113,13 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 ![插圖顯示如何透過正確的內容取得建議](/help/main/c-recommendations/assets/intro-10.png)
 
-除了彙總形式的使用者行為以外，您還必須將顯示建議之特定內容傳送給 [!DNL Target]。這包括頁面的相關資訊和來自使用者設定檔的資訊。[!DNL Target] 使用此資訊提供個人化建議。例如，在零售網站上，您想要瞭解訪客正在檢視的產品和產品類別。您也想要瞭解關於該使用者的資訊 (最愛的品牌、最愛的產品類別、忠誠度級別等)。此資訊非常重要，這樣 [!DNL Target] 才能篩選項目並改善建議的個人化成效。
+除了彙總形式的使用者行為以外，您還必須將顯示建議之特定內容傳送給 [!DNL Target]。這包括頁面的相關資訊和來自使用者輪廓的資訊。[!DNL Target] 使用此資訊提供個人化建議。例如，在零售網站上，您想要瞭解訪客正在檢視的產品和產品類別。您也想要瞭解關於該使用者的資訊 (最愛的品牌、最愛的產品類別、忠誠度級別等)。此資訊非常重要，這樣 [!DNL Target] 才能篩選項目並改善建議的個人化成效。
 
-## 建立第一個 Recommendations 活動
+## 建立第一個推薦活動
 
 什麼是 [!DNL Recommendations] 活動？
 
-![插圖顯示建立良好 Recommendations 活動之環節](/help/main/c-recommendations/assets/intro-11.png)
+![插圖顯示建立良好推薦活動之環節](/help/main/c-recommendations/assets/intro-11.png)
 
 [!DNL Recommendations] 活動由下列元件構成:
 
@@ -127,9 +127,9 @@ IT 部門通常會參與此過程並協助您完成設定。
 * **條件**：應建議哪些項目？
 * **設計**：應如何顯示建議項目？
 
-![插圖顯示構成 Recommendations 活動的元素：客群、條件和設計](/help/main/c-recommendations/assets/intro-12.png)
+![插圖顯示構成推薦活動的元素: 客群、條件和設計](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 隨附立即可用的 14 個內建客群、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦[次有關在[!DNL Target]中建立對象](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
+[!DNL Target] 隨附立即可用的 14 個內建客群、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦[次有關在](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)中建立對象[!DNL Target]的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
 
 Target 使用條件卡的概念。條件卡就像個人化的方式。
 
@@ -180,7 +180,7 @@ Target 使用條件卡的概念。條件卡就像個人化的方式。
 * **基於人氣的演算法**&#x200B;包含檢視次數最多和最暢銷商品。
 * **基於內容的演算法**&#x200B;包含內容相似度。
 * **基於項目的合作篩選演算法**&#x200B;包含已檢視/已檢視、已檢視/已購買，以及已購買/已購買。請注意，「已購買」可能是任何轉換。
-* **個人化演算法**&#x200B;包含最近查看的、網站相關性，以及已增強設定檔的合作篩選。
+* **個人化演算法**&#x200B;包含最近查看的、網站相關性，以及已增強輪廓的合作篩選。
 * **自備演算法**&#x200B;可讓您使用自己的自訂演算法。
 
 ### 線上業務規則
@@ -193,8 +193,8 @@ Target 使用條件卡的概念。條件卡就像個人化的方式。
 
 ## 示範
 
-在您如上所述完成建議漏斗插圖中的工作後，就剩下最終建議了。若要觀看 [!DNL Target] 內的產品內示範，此示範會在 21:00 於 *Adobe Target 基礎網路研討會*&#x200B;中開始進行，連結如下。
+在您如上所述完成建議漏斗插圖中的工作後，就剩下最終建議了。若要觀看[!DNL Target]內的產品內示範，此示範會在:00Adobe Target基礎網路研討會&#x200B;*中的21*&#x200B;開始，連結如下。
 
-## Adobe [!DNL Target] 基礎網路研討會：Recommendations 簡介 {#intro-to-recs}
+## Adobe [!DNL Target] 基礎網路研討會：推薦簡介 {#intro-to-recs}
 
-[Recommendations 簡介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[推薦簡介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

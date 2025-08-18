@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 81%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 81%
 
 [!DNL Adobe Analytics for Target] (A4T) 是一種跨解決方案的整合，可讓您根據 [!DNL Analytics] 轉換量度和客群區段來建立活動。A4T 整合可讓您使用 [!DNL Analytics] 報表來檢查您的結果。如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics] 資料收集。
 
-## 總覽 {#section_92B66069210C40DBA937790E8CC596CF}
+## 概觀 {#section_92B66069210C40DBA937790E8CC596CF}
 
 [!DNL Analytics] 與 [!DNL Target] 之間的 [!DNL Analytics for Target] 整合為您的最佳化程式提供強大的分析與省時的工具。
 
@@ -27,7 +27,7 @@ ht-degree: 81%
 
 如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics]。
 
-所有[!DNL Analytics]量度（包括計算量度）都可在[!DNL Target]中使用，也可在[!DNL Analytics]的[!UICONTROL Target Activities]報表中使用，但有一個例外狀況。 不支援[!UICONTROL Lift & Confidence]的計算量度。 同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或客群套用至報表。
+所有[!DNL Analytics]量度（包括計算量度）都可在[!DNL Target]中使用，也可在[!UICONTROL Target Activities]的[!DNL Analytics]報表中使用，但有一個例外狀況。 不支援[!UICONTROL Lift & Confidence]的計算量度。 同樣地，[!DNL Analytics] 中提供的任何區段皆可套用至這兩個解決方案。在 [!DNL Target] 中，您可以在活動開始後，或甚至在活動完成後，將量度或客群套用至報表。
 
 每個量度皆包含在內，包括 [!DNL Analytics] 內建的任何自訂量度或計算量度。
 
@@ -39,7 +39,7 @@ ht-degree: 81%
 * 每個活動皆會設定報告來源。[!DNL Target] 會持續收集資料以供報告使用，如果您偏好以 [!DNL Target] 收集的資料作為活動的基礎，還是可以使用 [!DNL Target] 資料。
 * 使用某個報告來源或其他報告來源。您無法同時從這兩個來源收集單一活動的資料。
 * 使用 A4T 時，活動可用的所有成功量度皆為 [!DNL Analytics] 量度。不過，如果使用 at.js，則目標量度可以根據 Mbox 呼叫。例如，您可以搭配 A4T 使用 Target 現成的點擊追蹤功能，而不必實作 [!DNL Analytics] 點擊追蹤程式碼。
-* 在 [!DNL Target] UI 中檢視 A4T 活動的報告時，您實際上是檢視 [!DNL Analytics] 資料。例如，如果您在[!DNL Target]中使用[!UICONTROL Visitor]量度，您使用的是[!DNL Analytics] [!UICONTROL Visitor]量度，而非[!DNL Target] [!UICONTROL Visitors]量度（現在稱為[!UICONTROL Entrants]）。 此差異對於基本流量量度([!UICONTROL Visitors]、[!UICONTROL Visits]、[!UICONTROL Page Views])和轉換量度特別重要。
+* 在 [!DNL Target] UI 中檢視 A4T 活動的報告時，您實際上是檢視 [!DNL Analytics] 資料。例如，如果您在[!UICONTROL Visitor]中使用[!DNL Target]量度，您使用的是[!DNL Analytics] [!UICONTROL Visitor]量度，而非[!DNL Target] [!UICONTROL Visitors]量度（現在稱為[!UICONTROL Entrants]）。 此差異對於基本流量量度([!UICONTROL Visitors]、[!UICONTROL Visits]、[!UICONTROL Page Views])和轉換量度特別重要。
 * 任何現有 [!DNL Target] 活動都會繼續使用 [!DNL Target] 資料收集，不因為啟用 A4T 而受到影響。
 * 在使用 A4T 時，只允許一個 mbox 型量度。
 * 從 [!DNL Target] 到 [!DNL Analytics] 的伺服器對伺服器呼叫會將活動和體驗資訊傳送至 [!DNL Analytics]。此整合不會對 [!DNL Target] 或 [!DNL Analytics] 產生額外的伺服器呼叫。
@@ -62,8 +62,8 @@ ht-degree: 81%
 | [體驗鎖定 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
 | [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要mbox型目標量度目標才能取得[!UICONTROL Element Contribution]報表。 [!UICONTROL Element Contribution]報表目前不支援[!DNL Analytics]量度。 |
 | [Automated Personalization (AP) 活動](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
-| [Recommendations 活動](/help/main/c-recommendations/recommendations.md) | 是 |  |
-| [任何使用重新導向選件的活動](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
+| [推薦活動](/help/main/c-recommendations/recommendations.md) | 是 |  |
+| [任何使用重新導向產品建議的活動](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
 
 由於所有活動類型都尚未支援 A4T，建議您保留或實作重要的轉換 Mbox，例如 `orderConfirmPage` Mbox。
 
@@ -73,7 +73,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->您可以使用[!UICONTROL Activities]頁面頂端的[!UICONTROL Reporting Source]下拉式清單，只顯示使用A4T的活動。
+>您可以使用[!UICONTROL Reporting Source]頁面頂端的[!UICONTROL Activities]下拉式清單，只顯示使用A4T的活動。
 
 您可以按一下報表右上方的適當圖示，在報表的[!UICONTROL Table View]和[!UICONTROL Graph View]之間切換。
 
@@ -109,7 +109,7 @@ ht-degree: 81%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Adobe Target 整合 (A4T) (40:33) ![教學課程徽章](/help/main/assets/tutorial.png)
+### Analytics / Adobe Target整合(A4T) (40:33) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 這支影片記錄了「[辦公時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」，「辦公時間」是一項由 Adobe 客戶服務團隊主導的計劃。
 
@@ -123,6 +123,6 @@ ht-degree: 81%
 >[!MORELIKETHIS]
 >
 >* [Analytics for [!DNL Target] 實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)：包含 at.js 和 Platform Web SDK 的實作資訊。
->* [重新導向選件 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)：包含有關 Platform Web SDK 的總覽資訊。
->* [Target 總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hant)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。
+>* [重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+>* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有關 Platform Web SDK 的概觀資訊。
+>* [Target 概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。

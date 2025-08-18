@@ -13,7 +13,7 @@ ht-degree: 46%
 
 # 活動衝突
 
-[!DNL Adobe Target]中[!UICONTROL Activity Overview]頁面上的[!UICONTROL Collisions]索引標籤會列出您網站上的活動衝突。
+[!UICONTROL Collisions]中[!UICONTROL Activity Overview]頁面上的[!DNL Adobe Target]索引標籤會列出您網站上的活動衝突。
 
 有多個活動設定成在相同頁面上提供內容時，就會發生活動衝突。如果發生活動衝突，您可能無法在頁面上看到預期的內容。
 

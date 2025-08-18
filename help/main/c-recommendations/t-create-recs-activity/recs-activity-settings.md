@@ -2,19 +2,19 @@
 keywords: 推薦;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
 description: 瞭解如何進行設定，以說明和控制Adobe Target中的Recommendations活動。
 title: 如何設定Recommendations活動設定？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
 # 推薦活動設定
 
-關於您可以用來描述和控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活動的設定資訊。
+關於您可以用來描述和控制[!UICONTROL Recommendations]中[!DNL Adobe Target]活動的設定資訊。
 
 以下各節說明[!UICONTROL Recommendations]活動可用的設定。
 
@@ -49,7 +49,7 @@ ht-degree: 45%
 
 設定活動的持續時間。
 
-活動可以在啟用後開始，或者您可以設定特定的日期和時間。同樣地，活動可以在停用時結束，或者您可以設定日期和時間。時間選擇器使用 24 小時時鐘，午夜為 00:00。時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+活動可以在啟用後開始，或者您可以設定特定的日期和時間。同樣地，活動可以在停用時結束，或者您可以設定日期和時間。時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
 ## 報表設定
 
@@ -69,7 +69,7 @@ ht-degree: 45%
 
   [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL Tracking Server]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-  **[!DNL Adobe Customer Journey Analytics]**：如需有關[!DNL Adobe Customer Journey Analytics]與[!DNL Target]之間整合的詳細資訊，請參閱[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告。
+  **[!DNL Adobe Customer Journey Analytics]**：如需有關[[!DNL Target] 與 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)之間整合的詳細資訊，請參閱[!DNL Adobe Customer Journey Analytics]在[!DNL Target]中報告。
 
 * **目標量度:** 選取判斷活動是否成功的成功量度。
 * **其他度量:** 設定要在您的報表中使用的其他成功度量。

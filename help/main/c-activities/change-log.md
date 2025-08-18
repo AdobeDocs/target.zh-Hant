@@ -1,6 +1,6 @@
 ---
 keywords: 活動變更記錄；變更記錄
-description: 在Adobe [!DNL Target] 中存取活動的變更記錄檔，以檢視變更您的活動的人員及變更發生時間的記錄。
+description: 存取Adobe [!DNL Target] 中的活動變更記錄，以檢視變更您的活動及發生變更時間的記錄。
 title: 我如何才能看到活動變更記錄？
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 活動變更記錄
 
-[!DNL Adobe Target] [!UICONTROL Change Log]會記錄活動動作，包括變更的內容、變更者及變更發生的時間。 已從[[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}填入[!UICONTROL Change Log]頁面，以進行即時分析。
+[!DNL Adobe Target] [!UICONTROL Change Log]會記錄活動動作，包括變更的內容、變更者及變更發生的時間。 已從[!UICONTROL Change Log][[!UICONTROL Audi Query API]填入](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}頁面，以進行即時分析。
 
 若要存取[!UICONTROL Change Log]頁面：
 

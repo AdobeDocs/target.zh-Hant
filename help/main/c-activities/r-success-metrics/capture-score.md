@@ -1,6 +1,6 @@
 ---
 keywords: 擷取分數; 分數
-description: 瞭解Adobe [!DNL Target] 中的「擷取分數」參與量度，該量度會根據網站上造訪頁面的指派值，計算彙總分數。
+description: 瞭解Adobe [!DNL Target] 中的「擷取分數」參與量度，該量度會根據指派給網站上造訪頁面的值，計算彙總分數。
 title: 擷取分數量度是什麼？
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4

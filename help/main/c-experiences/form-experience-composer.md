@@ -13,7 +13,7 @@ ht-degree: 33%
 
 # 表單式體驗撰寫器
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非視覺化體驗和選件建立介面，當[!UICONTROL Visual Experience Composer] (VEC)無法使用或不實用的情況下，此介面有助於建立可在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]和[!UICONTROL Recommendations]活動中使用的體驗。 例如，您可以使用表單式體驗撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非視覺化體驗和選件建立介面，當[!UICONTROL A/B Test] (VEC)無法使用或不實用的情況下，此介面有助於建立可在[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer]活動中使用的體驗。 例如，您可以使用表單式體驗撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
 
 如果您正在建立[!UICONTROL Recommendations]活動，則沒有體驗。 選擇您的條件和設計。如果您選擇多個條件或設計，[!UICONTROL Target]會自動產生體驗。
 
@@ -21,7 +21,7 @@ ht-degree: 33%
 
    [!UICONTROL Form-Based Experience Composer]可用於[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]和[!UICONTROL Recommendations]活動。
 
-1. 從[!UICONTROL Create Activity]對話方塊中選取&#x200B;**[!UICONTROL Form]**。
+1. 從&#x200B;**[!UICONTROL Form]**&#x200B;對話方塊中選取[!UICONTROL Create Activity]。
 
 1. （視條件而定）如果您是[Target Premium客戶](/help/main/c-intro/intro.md#premium)，請從&#x200B;**[!UICONTROL Choose Workspace]**&#x200B;下拉式清單中選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 
    如果您要建立[!UICONTROL Recommendations]活動，此畫面會不同。 [!UICONTROL Recommendations]個活動不包含體驗。
 
-1. &#x200B;
+1. 
    1. 按一下&#x200B;**[!UICONTROL Rename]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/MoreSmallListVert.svg)）、按一下&#x200B;**[!UICONTROL Rename]**、指定活動的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：
@@ -116,11 +116,11 @@ ht-degree: 33%
 
    **新增建議：**
 
-   針對Recommendations活動，「內容」下拉式清單會提供[!UICONTROL Add Recommendation]選項。 按一下&#x200B;**[!UICONTROL Add Recommendation]**，然後選取頁面型別。 然後遵循介面中定義的步驟來[建立Recommendations 活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+   針對Recommendations活動，內容下拉式清單會提供[!UICONTROL Add Recommendation]選項。 按一下&#x200B;**[!UICONTROL Add Recommendation]**，然後選取頁面型別。 然後遵循介面中定義的步驟來[建立Recommendations 活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 
    在表單式體驗撰寫器選取「Recommendations」條件時，已有直接連結，可連結至選取的條件卡片，讓您輕鬆快速編輯條件。
 
-   從[!DNL Target]三個步驟引導工作流程的[!UICONTROL Targeting]頁面：
+   從[!UICONTROL Targeting]三個步驟引導工作流程的[!DNL Target]頁面：
 
    **新增優惠決定：**
 

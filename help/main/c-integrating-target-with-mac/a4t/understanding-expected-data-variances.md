@@ -11,7 +11,7 @@ ht-degree: 45%
 
 ---
 
-# 使用和不使用A4T時，Adobe[!DNL Target]和Adobe Analytics之間的預期資料差異
+# 使用和不使用A4T時，Adobe [!DNL Target]和Adobe Analytics之間的預期資料差異
 
 有關&#x200B;*使用*&#x200B;和&#x200B;*不使用* Analytics 做為報表來源 (A4T) 時，[!DNL Target] 和 Adobe [!DNL Analytics] 之間預期資料差異的資訊。A4T 可大幅減少資料差異.
 
@@ -35,7 +35,7 @@ ht-degree: 45%
 
 [!DNL Analytics] 使用的系統是根據瀏覽次數與交易，但是 使用的是以訪客為主的度量。[!DNL Target]無論訪客何時開啟頁面，都會將其計為[!DNL Analytics]中的一次造訪，但在符合活動中設定的條件之前，[!DNL Target]不會計算該次造訪。
 
-[!DNL Target]中的報表根據定義活動時選取的轉換mbox來顯示效能。 不過，此轉換mbox資料不會傳送至[!DNL Analytics]，其專用的轉換變數是由您的[!DNL Analytics]標籤實作所定義。 在您預期會有相同資料的地方（例如，如果零售商的訂單確認頁面同時包含轉換mbox和[!DNL Analytics]購買事件），資料可能會因這些標籤的位置而有所不同。 一般而言，這兩種產品報表中的趨勢都類似。
+[!DNL Target]中的報表根據定義活動時選取的轉換mbox來顯示效能。 不過，此轉換mbox資料不會傳送至[!DNL Analytics]，其專用的轉換變數是由您的[!DNL Analytics]標籤實作所定義。 在您預期會有相同資料的地方(例如，如果retailer的訂單確認頁面同時包含轉換mbox和[!DNL Analytics]購買事件)，資料可能會因這些標籤的位置而有所不同。 一般而言，這兩種產品報表中的趨勢都類似。
 
 預期的資料差異可能是因為技術與業務差異所致。
 

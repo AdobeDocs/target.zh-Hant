@@ -1,8 +1,8 @@
 ---
 keywords: 建議演演算法；模型訓練；模型服務；內容傳送；專案型；使用者型；人氣型；購物車型；自訂條件
 description: 瞭解 [!DNL Target Recommendations]中使用的演演算法，包括模型訓練和模型服務。
-title: 我可以在何處瞭解Target的Recommendations演演算法背後的科學？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+title: 我可以在何處瞭解Target建議演演算法背後的科學？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >如需每個演演算法型別和個別演演算法的詳細一般資訊，請參閱[讓建議以建議索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
-以上列出的許多演演算法都是以一或多個索引鍵的存在為前提。 這些索引鍵會在內容傳送時（產生建議時）用來擷取類似專案。 客戶指定的索引鍵可包含某人正在檢視的目前專案、最後一個已檢視或購買的專案、最常檢視的專案、目前類別，或該訪客最喜愛的類別。 其他演演算法（例如購物車型或使用者型建議）則使用隱含索引鍵（客戶無法設定）。 如需詳細資訊，請參閱[讓建議以建議金鑰為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)中的&#x200B;*建議金鑰*。 但是請注意，這些鍵值僅在模型服務時間（內容傳送）中相關。 這些索引鍵不會影響「離線」或模型訓練時間邏輯。
+以上列出的許多演演算法都是以一或多個索引鍵的存在為前提。 這些索引鍵會在內容傳送時（產生建議時）用來擷取類似專案。 客戶指定的索引鍵可包含某人正在檢視的目前專案、最後一個已檢視或購買的專案、最常檢視的專案、目前類別，或該訪客最喜愛的類別。 其他演演算法（例如購物車型或使用者型建議）則使用隱含索引鍵（客戶無法設定）。 如需詳細資訊，請參閱&#x200B;*讓建議以建議金鑰為依據*&#x200B;中的[建議金鑰](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)。 但是請注意，這些鍵值僅在模型服務時間（內容傳送）中相關。 這些索引鍵不會影響「離線」或模型訓練時間邏輯。
 
 以下各節會以與上述演演算法型別稍微不同的方式將演演算法分組。 以下分組是根據模型訓練邏輯的相似性。
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 
 針對「檢視/購買此專案的使用者也檢視/購買這些專案」演演算法，目標是計算所有專案配對之間的相似度(A，B)。 接著，系統會針對指定專案A，依其相似度s(A，B)排序排名最前的建議。
 
-這種相似性的一個範例是專案之間的共同發生：購買兩個專案的使用者人數的簡單計數。 雖然此量度直覺式偏好，但偏向於推薦熱門專案，因此這種量度並不實際。 例如，如果大部分人在雜貨店購買麵包，則麵包會與所有專案有很高的共現率，但這不一定是好的建議。 [!DNL Target]改為使用更複雜的相似性量度，稱為對數似然比(LLR)。 如果兩個專案（A和B）同時發生的機率與其不同時發生的機率非常不同，則此數量會很大。 如需具體資訊，請考慮[!UICONTROL People Who Viewed This, Bought That]演演算法的情況。 購買B的可能性為&#x200B;*not*&#x200B;時，LLR相似度會很高，這和某人是否檢視A無關。
+這種相似性的一個範例是專案之間的共同發生：購買兩個專案的使用者人數的簡單計數。 雖然此量度直覺式偏好，但偏向於推薦熱門專案，因此這種量度並不實際。 例如，如果在retailer的雜貨店大多數人購買麵包，則麵包會與所有專案具有高度的共生性，但這不一定是好的建議。 [!DNL Target]改為使用更複雜的相似性量度，稱為對數似然比(LLR)。 如果兩個專案（A和B）同時發生的機率與其不同時發生的機率非常不同，則此數量會很大。 如需具體資訊，請考慮[!UICONTROL People Who Viewed This, Bought That]演演算法的情況。 購買B的可能性為&#x200B;*not*&#x200B;時，LLR相似度會很高，這和某人是否檢視A無關。
 
 例如，若
 
 已檢視/已購買演演算法的![公式](assets/formula.png)
 
-那麼專案B不應與專案A一起建議。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料。
+那麼專案B不應與專案A一起建議。此PDF[中提供了此對數似然比相似度計算的完整詳細資料](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)。
 
 實際演演算法實施的邏輯流程如下圖所示：
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**：行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的訪客檢視和購買。
+* **輸入資料**：行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的訪客檢視和購買。
 
 * **模型訓練**：
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    * **專案相似度計算**：這是核心計算步驟：計算所有候選專案配對之間的對數似然比相似度，並依此相似度分數將專案配對排名。
    * **離線篩選**：最後，會套用任何進一步適用的動態篩選（例如，動態類別排除）。 在此步驟後，預先計算的建議會快取至全域，以便提供。
 
-* **模型伺服**： Recommendations內容是從[!DNL Target]的[全域「Edge」網路](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)傳遞。 當向[!DNL Target]發出mbox要求，並判定建議內容應傳送至頁面時，會從要求中剖析建議演演算法的適當[專案索引鍵](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)要求，或從使用者設定檔中查詢，然後用來擷取在先前步驟中計算的建議。 此時在呈現適當的[設計](/help/main/c-recommendations/c-design-overview/create-design.md)之前，會套用其他動態篩選器。
+* **模型服務**：建議內容是從[!DNL Target]的[全域「Edge」網路](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)傳遞。 當向[!DNL Target]發出mbox要求，並判定建議內容應傳送至頁面時，會從要求中剖析建議演演算法的適當[專案索引鍵](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)要求，或從使用者設定檔中查詢，然後用來擷取在先前步驟中計算的建議。 此時在呈現適當的[設計](/help/main/c-recommendations/c-design-overview/create-design.md)之前，會套用其他動態篩選器。
 
 ## 內容相似度
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**：如前所述，此演演算法完全以目錄資料為基礎(透過[目錄摘要、實體API或頁面上的更新擷取至[!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+* **輸入資料**：如前所述，此演演算法完全以目錄資料為基礎(透過[!DNL Target]目錄摘要、實體API或頁面上的更新擷取至[。](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}
 
 * **模型訓練**：
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**：這與專案 — 專案協同篩選(CF)方法相同。 [!UICONTROL Both Recommended For You]和購物車型演演算法使用行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的使用者檢視和購買。
+* **輸入資料**：這與專案 — 專案協同篩選(CF)方法相同。 [!UICONTROL Both Recommended For You]和購物車型演演算法使用行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的使用者檢視和購買。
 
 * **模型訓練**：
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
   ![顯示訓練計算的公式](assets/formula4.png)
 
-   * **專案相似度模型評估**：模型評估是透過採用先前步驟中產生的建議並對測試資料集進行預測來完成。 模擬線上評分階段的方法是，在測試資料集中依時間順序排序每個使用者的專案使用情形，然後對排序的專案子集提出100個建議，以嘗試預測後續的檢視和購買。 資訊擷取量度[平均平均精確度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))可用來評估這些建議的品質。 此量度會考量建議的順序，並偏向建議清單中排名較高的相關專案，這是排名系統的重要屬性。
+   * **專案相似度模型評估**：模型評估是透過採用先前步驟中產生的建議並對測試資料集進行預測來完成。 模擬線上評分階段的方法是，在測試資料集中依時間順序排序每個使用者的專案使用情形，然後對排序的專案子集提出100個建議，以嘗試預測後續的檢視和購買。 資訊擷取量度[平均平均精確度]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))可用來評估這些建議的品質。 此量度會考量建議的順序，並偏向建議清單中排名較高的相關專案，這是排名系統的重要屬性。
    * **模型選擇**：離線評估之後，會選取具有最高平均精確度的模型，並為其計算所有個別專案建議。
    * **離線篩選**：模型訓練的最後階段是套用任何適用的動態篩選。 在此步驟後，預先計算的建議會快取至全域，以便提供。
 

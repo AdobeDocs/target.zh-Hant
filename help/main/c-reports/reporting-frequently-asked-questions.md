@@ -33,7 +33,7 @@ ht-degree: 20%
 
 ### 再度訪問的訪客
 
-如果使用者先前造訪網站，離開至少 30 分鐘，並使用相同的 Cookie 再次返回網站，則該訪客會納入「回訪訪客」區段。只要訪客在設定檔期限之內回來，就是回訪訪客。
+如果使用者先前造訪網站，離開至少 30 分鐘，並使用相同的 Cookie 再次返回網站，則該訪客會納入「回訪訪客」區段。只要訪客在輪廓期限之內回來，就是回訪訪客。
 
 假設您的設定檔存留期設定為14天（預設值）。 如果符合下列條件，則訪客會納入「回訪訪客」區段：
 
@@ -125,6 +125,6 @@ XT 活動應一律都有控制體驗。如果您以類似[!UICONTROL A/B Test]�
 * A/B和MVT測試的最佳實務是保持流量分割均勻。 在測試期間變更體驗之間的流量分佈（例如從90/10到50/50）可能會導致體驗之間的訪客不平均。 較低的流量體驗可能永遠無法「趕上」。
 * 如果您遵循上述最佳實務，且流量分割不會隨著時間正常化，您應檢查下列專案：
 
-   * 您使用最新的at.js資料庫嗎？ 如需目前版本和相關發行說明的詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。
+   * 您使用最新的at.js資料庫嗎？ 如需目前版本和相關發行說明的詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
    * 這是重新導向測試嗎？ 標籤在頁面上引發的時間不正確會導致不平均的流量分割，尤其是在使用[!DNL Analytics]做為[!DNL Target]活動的資料來源時。 如需使用Analytics for Target (A4T)修正重新導向活動上不平均流量分佈的詳細資訊，請參閱[重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。

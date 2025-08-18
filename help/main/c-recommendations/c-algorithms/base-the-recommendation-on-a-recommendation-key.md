@@ -1,7 +1,7 @@
 ---
 keywords: 建議索引鍵；建議邏輯；目前類別；自訂屬性；上次購買的專案；上次檢視的專案；檢視次數最多的專案；最愛的專案；熱門度；最近檢視的專案；上次購買；上次檢視；最愛；最近檢視
 description: 瞭解如何根據索引鍵使用建議，這些索引鍵使用訪客行為內容來顯示[!UICONTROL Recommendations]活動中的相關結果。
-title: 如何以[!UICONTROL Recommendation Key]為[!UICONTROL Recommendation]的基礎？
+title: 如何以[!UICONTROL Recommendation]為[!UICONTROL Recommendation Key]的基礎？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # 使推薦以推薦索引鍵為依據
 
-以演演算法為基礎的Recommendations使用訪客行為內容來顯示[!DNL Adobe Target] [!DNL Recommendations]活動中的相關結果。
+以演演算法為基礎的建議會使用訪客行為內容來顯示[!DNL Adobe Target] [!DNL Recommendations]活動中的相關結果。
 
 每個演演算法型別會提供適合其型別的不同演演算法，如下表所示：
 
@@ -34,7 +34,7 @@ ht-degree: 27%
 
 ## 購物車型 {#cart-based}
 
-[!UICONTROL Cart-Based]演演算法型別允許根據訪客目前購物車的內容來建議專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
+[!UICONTROL Cart-Based]演演算法型別允許根據訪客目前購物車的內容來建議專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於&quot;[!UICONTROL Recommended For You]&quot;使用者型演演算法，以及&quot;[!UICONTROL People Who Viewed These, Bought Those]&quot;和&quot;[!UICONTROL People Who Bought These, Bought Those]&quot;專案型演演算法。
 
@@ -62,7 +62,7 @@ ht-degree: 27%
 
 此邏輯可讓您藉由推薦其他檢視過專案的訪客也檢視過的專案，來建立其他轉換機會。 例如，在您網站上檢視公路腳踏車的訪客也可能檢視腳踏車頭盔、腳踏車套件、車鎖等。 您可以使用此邏輯建立建議，以建議其他產品可協助您增加收入。
 
-如果您選取此演演算法，可以選取下列Recommendations索引鍵：
+如果您選取此演演算法，可以選取下列建議索引鍵：
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -77,7 +77,7 @@ ht-degree: 27%
 
 此邏輯可讓您藉由在產品頁面上顯示建議（例如，顯示其他檢視過所購買專案的訪客）來增加交叉銷售機會。 例如，如果訪客正在檢視釣竿，建議會顯示其他訪客購買的其他專案，例如釣竿盒、魚竿和釣魚誘餌。 當訪客瀏覽您的網站時，您會提供他們額外的購買建議。
 
-如果您選取此演演算法，可以選取下列Recommendations索引鍵：
+如果您選取此演演算法，可以選取下列建議索引鍵：
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -92,7 +92,7 @@ ht-degree: 27%
 
 此邏輯可讓您藉由在購物車摘要頁面上顯示建議（例如，顯示其他買家也購買的專案），以增加交叉銷售機會。 例如，如果訪客正在購買西裝，建議可顯示其他訪客隨同西裝一起購買的其他專案，例如領帶、正裝鞋和袖扣。 當訪客檢閱其購買專案時，您會提供他們額外的建議。
 
-如果您選取此演演算法，可以選取下列Recommendations索引鍵：
+如果您選取此演演算法，可以選取下列建議索引鍵：
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -373,7 +373,7 @@ Recommendation 由儲存在訪客輪廓中的項目決定，並使用user.*x* �
 
 1. 選取符合所選索引鍵的實體屬性。 在此案例中，&quot;[!UICONTROL Favorite Brand]&quot;符合`entity.brand`。
 
-   [!DNL Recommendations]現在會產生每個品牌的「[!UICONTROL Top Sellers]」清單，並根據訪客的[!UICONTROL Favorite Brand]設定檔屬性中儲存的值，向訪客顯示適當的「[!UICONTROL Top Sellers]」清單。
+   [!DNL Recommendations]現在會產生每個品牌的「[!UICONTROL Top Sellers]」清單，並根據訪客的[!UICONTROL Top Sellers]設定檔屬性中儲存的值，向訪客顯示適當的「[!UICONTROL Favorite Brand]」清單。
 
 ### [!UICONTROL Last Viewed Item] {#last-viewed}
 
@@ -446,7 +446,7 @@ Recommendation 由儲存在訪客輪廓中的項目決定，並使用user.*x* �
 
 例如，如果您設定非常強的相關性，且您的設計包含五個項目，其中三個符合連線強度臨界值，則不符合最低強度需求的兩個項目不會出現在建議中，而會由您定義的備用項目取代。具有最強相關性的項目會先顯示。
 
-例如，線上零售商可在後續的造訪中，建議訪客在過去工作階段中感興趣的專案。 系統會擷取每個訪客工作階段的活動，以根據造訪間隔和頻率模型計算相似性。 當此訪客返回您的網站時，會使用網站相似性來根據您網站上先前的動作顯示建議。
+例如，線上retailer可在後續的造訪中，建議訪客在過去工作階段中感興趣的專案。 系統會擷取每個訪客工作階段的活動，以根據造訪間隔和頻率模型計算相似性。 當此訪客返回您的網站時，會使用網站相似性來根據您網站上先前的動作顯示建議。
 
 某些客戶具有相異產品集合和相異網站行為，如果他們設定弱網站相關性，可能會獲得最佳結果。
 

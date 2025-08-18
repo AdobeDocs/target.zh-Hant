@@ -1,6 +1,6 @@
 ---
-keywords: 重新導向選件; 建立重新導向選件; 新增 html 選件; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
-description: 瞭解如何在Adobe [!DNL Target] 中建立重新導向選件，讓瀏覽器重新導向至新頁面。
+keywords: 重新導向產品建議; 建立重新導向產品建議; 新增 html 產品建議; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
+description: 瞭解如何在Adobe [!DNL Target] 中建立重新導向選件，使瀏覽器重新導向至新頁面。
 title: 如何建立重新導向選件？
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
@@ -11,7 +11,7 @@ ht-degree: 45%
 
 ---
 
-# 建立重新導向選件
+# 建立重新導向產品建議
 
 [!DNL Adobe Target]中的重新導向選件會造成瀏覽器重新導向至新頁面。
 
@@ -23,15 +23,15 @@ ht-degree: 45%
 >
 >* 您無法在ajax mbox (`mboxUpdate`)中使用重新導向選件。
 >
->* 針對使用 A4T 活動中的重新導向選件，您的實施必須符合某些最低需求。此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
+>* 針對使用 A4T 活動中的重新導向產品建議，您的實施必須符合某些最低需求。此外，還有需要您知道的重要資訊。如需詳細資訊，請參閱[重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 >
 >* 如需設定可重新導向的體驗的相關資訊，請參閱[重新導向至 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 
-重新導向選件會執行 JavaScript 程式碼來重新導向瀏覽器。此選件會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。這可讓訪客仍然可以使用瀏覽器中的上一步按鈕。
+重新導向產品建議會執行 JavaScript 程式碼來重新導向瀏覽器。此產品建議會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。這可讓訪客仍然可以使用瀏覽器中的上一步按鈕。
 
 >[!NOTE]
 >
->如果要傳入登陸頁面的反向連結值，建議您使用 HTML 選件，而不要使用重新導向選件。
+>如果要傳入登陸頁面的反向連結值，建議您使用 HTML 產品建議，而不要使用重新導向產品建議。
 
 ## 從「代碼選件」頁面建立重新導向選件
 
@@ -43,7 +43,7 @@ ht-degree: 45%
 
    ![建立重新導向選件對話方塊](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
-1. 為選件提供描述性名稱。
+1. 為產品建議提供描述性名稱。
 
    描述性名稱可協助您和其他人在Assets資料庫中快速找到選件。
 
@@ -51,13 +51,13 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >如果重新導向 URL 也會讓使用者符合相同活動的資格，重新導向選件會導致無窮迴圈。您應該確保在將使用者重新導向之後，使用者不會重新取得活動的資格。
+   >如果重新導向 URL 也會讓使用者符合相同活動的資格，重新導向產品建議會導致無窮迴圈。您應該確保在將使用者重新導向之後，使用者不會重新取得活動的資格。
 
-1. 選取需要的選項來自訂您的重新導向選件:
+1. 選取需要的選項來自訂您的重新導向產品建議:
 
    * **包含所有URL引數：**&#x200B;如果要將上一頁顯示的所有URL引數傳播到重新導向的頁面，請滑一下切換以啟用此選項。
 
-     例如，您要將使用者直接從男性頁面重新導向至男性襯衫類別頁面。您也會想要傳遞 URL 中的動態參數，因為這是您追蹤使用者是否透過電子郵件、橫幅廣告、搜尋廣告或組織化方法達到您網站的方式。啟用此選項後，當您在URL方塊中所輸入的是`https://www.mycompany.com/mensShirts.html`時，頁面`https://www.mycompany.com/mens.html?emailId=123`上的重新導向選件會自動變成`https://www.mycompany.com/mensShirts.html?emailId=123`。
+     例如，您要將使用者直接從男性頁面重新導向至男性襯衫類別頁面。您也會想要傳遞 URL 中的動態參數，因為這是您追蹤使用者是否透過電子郵件、橫幅廣告、搜尋廣告或組織化方法達到您網站的方式。啟用此選項後，當您在URL方塊中所輸入的是`https://www.mycompany.com/mens.html?emailId=123`時，頁面`https://www.mycompany.com/mensShirts.html?emailId=123`上的重新導向選件會自動變成`https://www.mycompany.com/mensShirts.html`。
 
    * **傳遞mbox工作階段識別碼：**&#x200B;必須重新導向至不同的網域。 如果您希望`sessionId`自動包含在重新導向中，請滑動切換以啟用此選項。 只有在測試來自電子郵件的點按或從在網域間的點按時，才需要勾選此方塊。 `sessionId` 會比對訪客的 Cookie，這樣就可以繼續追蹤訪客，並顯示正確的內容。
 
@@ -83,7 +83,7 @@ ht-degree: 45%
 
    ![建立重新導向選件對話方塊](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
-1. 為選件提供描述性名稱。
+1. 為產品建議提供描述性名稱。
 
    描述性名稱可協助您和其他人在Assets資料庫中快速找到選件。
 
@@ -91,13 +91,13 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >如果重新導向 URL 也會讓使用者符合相同活動的資格，重新導向選件會導致無窮迴圈。您應該確保在將使用者重新導向之後，使用者不會重新取得活動的資格。
+   >如果重新導向 URL 也會讓使用者符合相同活動的資格，重新導向產品建議會導致無窮迴圈。您應該確保在將使用者重新導向之後，使用者不會重新取得活動的資格。
 
-1. 選取需要的選項來自訂您的重新導向選件:
+1. 選取需要的選項來自訂您的重新導向產品建議:
 
    * **包含所有URL引數：**&#x200B;如果要將上一頁顯示的所有URL引數傳播到重新導向的頁面，請滑一下切換以啟用此選項。
 
-     例如，您要將使用者直接從男性頁面重新導向至男性襯衫類別頁面。您也會想要傳遞 URL 中的動態參數，因為這是您追蹤使用者是否透過電子郵件、橫幅廣告、搜尋廣告或組織化方法達到您網站的方式。啟用此選項後，當您在URL方塊中所輸入的是`https://www.mycompany.com/mensShirts.html`時，頁面`https://www.mycompany.com/mens.html?emailId=123`上的重新導向選件會自動變成`https://www.mycompany.com/mensShirts.html?emailId=123`。
+     例如，您要將使用者直接從男性頁面重新導向至男性襯衫類別頁面。您也會想要傳遞 URL 中的動態參數，因為這是您追蹤使用者是否透過電子郵件、橫幅廣告、搜尋廣告或組織化方法達到您網站的方式。啟用此選項後，當您在URL方塊中所輸入的是`https://www.mycompany.com/mens.html?emailId=123`時，頁面`https://www.mycompany.com/mensShirts.html?emailId=123`上的重新導向選件會自動變成`https://www.mycompany.com/mensShirts.html`。
 
    * **傳遞mbox工作階段識別碼：**&#x200B;必須重新導向至不同的網域。 如果您希望`sessionId`自動包含在重新導向中，請滑動切換以啟用此選項。 只有在測試來自電子郵件的點按或從在網域間的點按時，才需要勾選此方塊。 `sessionId` 會比對訪客的 Cookie，這樣就可以繼續追蹤訪客，並顯示正確的內容。
 

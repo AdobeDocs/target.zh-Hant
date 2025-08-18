@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # 在[!DNL Target]中設定報告
 
-設定一般設定，以用於套用至您整個[!DNL Target]帳戶的[!DNL Adobe Target]報告。
+設定一般設定，以用於套用至您整個[!DNL Adobe Target]帳戶的[!DNL Target]報告。
 
 {{permissions-update}}
 
@@ -50,13 +50,13 @@ ht-degree: 22%
 
 在決定您的報表來源時，請考慮下列資訊：
 
-* **[!DNL Analytics]**：如需使用[!DNL Analytics]作為報告來源(A4T)之支援活動的矩陣，請參閱&#x200B;*Adobe Analytics中的[支援的活動型別](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作為Adobe Target (A4t)*&#x200B;的報告來源。
+* **[!DNL Analytics]**：如需使用[!DNL Analytics]作為報告來源(A4T)之支援活動的矩陣，請參閱[Adobe Analytics中的](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)支援的活動型別&#x200B;*作為Adobe Target (A4t)*&#x200B;的報告來源。
 
-  無論選取的報表來源為何，都允許建立和啟用[!UICONTROL Automated Personalization] (AP)活動。 當您選擇[Adobe Analytics做為Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報表來源時，[!UICONTROL Automated Personalization]活動不受支援。
+  無論選取的報表來源為何，都允許建立和啟用[!UICONTROL Automated Personalization] (AP)活動。 當您選擇[!UICONTROL Automated Personalization]Adobe Analytics做為Adobe Target (A4T)[的報表來源時，](/help/main/c-integrating-target-with-mac/a4t/a4t.md)活動不受支援。
 
   即使您指定[!DNL Analytics]作為您的報表來源，[!DNL Target]也會用作[!DNL Automated Personalization]活動的報表來源。
 
-* **[!DNL Customer Journey Analytics]**：如需在[!DNL Customer Journey Analytics]中使用[!DNL Target]報告的支援活動的矩陣，請參閱&#x200B;[!DNL Adobe Customer Journey Analytics]*中*[!DNL Target]&#x200B;報告中的[支援的活動型別](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)。
+* **[!DNL Customer Journey Analytics]**：如需在[!DNL Target]中使用[!DNL Customer Journey Analytics]報告的支援活動的矩陣，請參閱[中](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)報告中的&#x200B;*[!DNL Target]支援的活動型別[!DNL Adobe Customer Journey Analytics]*。
 
   無論選取的報表來源為何，[!UICONTROL Automated Personalization] (AP)、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動皆可建立及啟動。 當您選擇[Adobe Customer Journey Analytics做為報表來源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)時，不支援這些活動。
 

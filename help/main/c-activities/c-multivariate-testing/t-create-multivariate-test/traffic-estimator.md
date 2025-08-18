@@ -25,7 +25,7 @@ ht-degree: 21%
 
 [!UICONTROL Traffic Estimator]也提供回饋意見，讓您知道您是否擁有足夠的流量，可以順利完成您設計的測試。
 
-1. 從[!UICONTROL Multivariate]活動中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]頁面，按一下[!UICONTROL Experiences]頁面左上角的&#x200B;**[!UICONTROL Traffic]**&#x200B;圖示（ ![流量估算器圖示](/help/main/assets/icons/Gauge2.svg) ）。
+1. 從[!UICONTROL Experiences]活動中[!UICONTROL Visual Experience Composer]的[!UICONTROL Multivariate]頁面，按一下&#x200B;**[!UICONTROL Traffic]**&#x200B;頁面左上角的![圖示（ ](/help/main/assets/icons/Gauge2.svg)流量估算器圖示[!UICONTROL Experiences] ）。
 
    [!UICONTROL Traffic Estimator]隨即開啟。
 

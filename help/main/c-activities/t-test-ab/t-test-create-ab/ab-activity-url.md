@@ -47,7 +47,7 @@ ht-degree: 32%
 
    如果您輸入的網站URL不包含[!DNL Target]s JavaScript程式碼，則無法選取頁面元素。
 
-   根據預設，[!UICONTROL Visual Experience Composer]不允許對包含JavaScript的元素進行變更，例如旋轉橫幅。 如果您想要能夠使用[!UICONTROL Visual Experience Composer]變更這些元素，可以將&#x200B;**[!UICONTROL Render using JavaScript]**&#x200B;切換為關閉。—>
+   根據預設，[!UICONTROL Visual Experience Composer]不允許對包含JavaScript的元素進行變更，例如旋轉橫幅。 如果您想要能夠使用&#x200B;**[!UICONTROL Render using JavaScript]**&#x200B;變更這些元素，可以將[!UICONTROL Visual Experience Composer]切換為關閉。—>
 
 >[!NOTE]
 >

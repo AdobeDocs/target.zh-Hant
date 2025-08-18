@@ -18,7 +18,7 @@ ht-degree: 17%
 
 主機管理的主要目標是確保網站上沒有意外出現非使用中的內容。主機管理也可讓您依[環境](/help/main/administrating-target/environments.md)來分隔報表資料。
 
-主機是發出[!DNL Target]要求的任何網域。 在網站上，它通常是發出[!DNL Target]請求的URL的`location.hostname`屬性。
+主機是發出[!DNL Target]要求的任何網域。 在網站上，它通常是發出`location.hostname`請求的URL的[!DNL Target]屬性。
 
 依預設，[!DNL Target]不會限制可以發出[!DNL Target]個要求並接收[!DNL Target]個回應的主機。 當新主機提出請求時，就會自動運作。 此程式也可針對您不知道或無法預測的不同網域進行測試。 如果您要覆寫此預設行為，可以設定允許清單或封鎖清單來限制哪些主機可搭配[!DNL Target]使用。
 
@@ -65,7 +65,7 @@ ht-degree: 17%
 
 ## 建立允許清單，指定授權傳送[!DNL Target]要求給[!DNL Target]的主機。 {#allowlist}
 
-您可以建立允許清單，指定授權傳送[!DNL Target]要求給[!DNL Target]的主機（網域）。 所有其他產生請求的主機都會收到註銷的授權錯誤回應。 依預設，任何包含[!DNL Target]要求的主機都會在[!UICONTROL Production]環境中向[!DNL Target]註冊，且可以存取所有使用中和已核准的活動。 如果不想要這個方法，您可以改用允許清單來記錄適合發出[!DNL Target]要求並接收[!DNL Target]內容的特定主機。 所有主機都會繼續顯示在[!UICONTROL Hosts]清單中，而環境仍可用來群組這些主機，並為每個主機指派不同的層級，例如主機是否可以看見作用中及/或非作用中的活動。
+您可以建立允許清單，指定授權傳送[!DNL Target]要求給[!DNL Target]的主機（網域）。 所有其他產生請求的主機都會收到註銷的授權錯誤回應。 依預設，任何包含[!DNL Target]要求的主機都會在[!DNL Target]環境中向[!UICONTROL Production]註冊，且可以存取所有使用中和已核准的活動。 如果不想要這個方法，您可以改用允許清單來記錄適合發出[!DNL Target]要求並接收[!DNL Target]內容的特定主機。 所有主機都會繼續顯示在[!UICONTROL Hosts]清單中，而環境仍可用來群組這些主機，並為每個主機指派不同的層級，例如主機是否可以看見作用中及/或非作用中的活動。
 
 若要建立允許清單：
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hant){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
+>**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
 >
 >允許清單的優先順序高於環境。 在使用允許清單功能之前，請先清除所有主機，然後只有允許清單允許的主機才會出現在您的主機清單中。 接著可將主機移至想要的環境中。
 
@@ -93,7 +93,7 @@ ht-degree: 17%
 
 如果在 API 呼叫中傳入 `mboxHost`，則會針對傳入的環境來記錄轉換。如果未傳遞任何環境，則呼叫中的主機預設為[!UICONTROL Production]。
 
-您也可以建立封鎖清單，在[!UICONTROL Host Does Not Contain]方塊中新增所需的主機，以指定無法將[!DNL Target]要求傳送至[!DNL Target]的主機（網域）。
+您也可以建立封鎖清單，在[!DNL Target]方塊中新增所需的主機，以指定無法將[!DNL Target]要求傳送至[!UICONTROL Host Does Not Contain]的主機（網域）。
 
 >[!NOTE]
 >

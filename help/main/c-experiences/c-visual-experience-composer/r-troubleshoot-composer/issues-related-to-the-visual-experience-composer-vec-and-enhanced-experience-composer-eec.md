@@ -7,7 +7,7 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -38,16 +38,16 @@ ht-degree: 26%
 
 * 編輯活動時，*無法*&#x200B;下載[!DNL Target]資料庫嗎（當這些資料庫不在網站上時）。 這是因為下載呼叫是從客戶網域向安全的[!DNL Adobe]網域發出的，而且會以未經驗證的方式遭到拒絕。
 
-* EEC無法為`adobemc.com domain`上的Cookie設定SameSite屬性，因此不會為所有使用者&#x200B;*設定*&#x200B;函式。 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
+* EEC無法為&#x200B;*上的Cookie設定SameSite屬性，因此不會為所有使用者*&#x200B;設定`adobemc.com domain`函式。 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
 
 +++
 
 ### 判斷封鎖哪些Cookie
 
 +++詳細資料
-若要判斷哪些Cookie因SameSite Cookie執行原則而遭到封鎖，請在[!DNL Chrome]中使用[!DNL Developer Tools]。
+若要判斷哪些Cookie因SameSite Cookie執行原則而遭到封鎖，請在[!DNL Developer Tools]中使用[!DNL Chrome]。
 
-1. 若要存取[!DNL Developer Tools]，在[!DNL Chrome]中檢視VEC時，請按一下Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL ellipsis]**&#x200B;圖示。
+1. 若要存取[!DNL Developer Tools]，在[!DNL Chrome]中檢視VEC時，請按一下Chrome > **[!UICONTROL ellipsis]** > **[!UICONTROL More Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL Developer Tools]**&#x200B;圖示。
 1. 按一下「**[!UICONTROL Network]**」標籤> ，然後尋找封鎖的Cookie。
 
    >[!NOTE]
@@ -80,7 +80,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->除了下列資訊外，您還可以為[!DNL Google Chrome]使用[Adobe Target VEC Helper瀏覽器擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+>除了下列資訊外，您還可以為[使用](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper瀏覽器擴充功能[!DNL Google Chrome]。
 
 ![cps_headers影像](assets/cps_headers.png)
 
@@ -114,7 +114,7 @@ ht-degree: 26%
 ## 在頁面上變更一個元素時，變更了多個元素。(VEC 和 EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++詳細資料
-如果頁面上多個元素上使用相同的DOM元素ID，變更其中一個元素會變更具有該ID的所有元素。 若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。此做法是標準的HTML最佳作法。 如需詳細資訊，請參閱[頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。此做法是標準的HTML最佳作法。 如需詳細資訊，請參閱[頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 +++
 
@@ -132,14 +132,14 @@ ht-degree: 26%
 ## 我想在尚未完成mbox/[!DNL Target]實作的頁面上設定測試。 (VEC 和 EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++詳細資料
-請參閱上方的「我無法編輯iFrame-bursting網站的體驗」。
+請參閱以上的「我無法編輯 iFrame-busting 網站的體驗」。
 
 +++
 
 ## 我的頁面上不會顯示具有[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]或[!UICONTROL Change Text]/[!DNL Change HTML]的粗體和斜體文字樣式。 有時文字會在套用這些樣式變更之後消失。(VEC 和 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++詳細資料
-如果您在VEC中針對[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動使用&#x200B;**[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]**，或針對[!UICONTROL Automated Personalization]或[!UICONTROL Multivariate Test]活動使用&#x200B;**[!UICONTROL Change Text]/[!UICONTROL Change HTML]**&#x200B;來使文字粗體或斜體，則這些樣式可能無法在頁面上套用，或文字會從VEC的頁面中消失。 之所以發生此情況，是因為RTF編輯器套用這些樣式的方式，可能會干擾網站標籤。
+如果您在VEC中針對&#x200B;**[!UICONTROL Edit Text]或[!UICONTROL Edit HTML]**&#x200B;活動使用[!UICONTROL A/B Test]/[!UICONTROL Experience Targeting]，或針對&#x200B;**[!UICONTROL Change Text]或[!UICONTROL Change HTML]**&#x200B;活動使用[!UICONTROL Automated Personalization]/[!UICONTROL Multivariate Test]來使文字粗體或斜體，則這些樣式可能無法在頁面上套用，或文字會從VEC的頁面中消失。 之所以發生此情況，是因為RTF編輯器套用這些樣式的方式，可能會干擾網站標籤。
 
 如果您看見此問題:
 
@@ -155,6 +155,6 @@ ht-degree: 26%
 ## 針對自動個人化活動，影像交換在 VEC 或 EEC 中似乎損毀。(VEC 和 EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++詳細資料
-將影像選件新增至位置會採用VEC或EEC中原始影像空間的完整尺寸。 在傳遞時，影像不會展開並且如原樣顯示，因此對傳遞沒有影響。
+新增影像產品建議至位置以取得 VEC 或 EEC 中原始影像空間的完整尺寸。在傳遞時，影像不會展開並且如原樣顯示，因此對傳遞沒有影響。
 
 +++

@@ -19,7 +19,7 @@ ht-degree: 30%
 
 ## 建立活動
 
-建立使用[!DNL Analytics]作為報告來源的[!DNL Target]活動類似於設定一般[!DNL Target]活動，但有一些重要差異。 例如，您無法在建立活動時選取要報告的區段，因為檢視報告時可套用[!DNL Analytics]中所有可用的區段。
+建立使用[!DNL Target]作為報告來源的[!DNL Analytics]活動類似於設定一般[!DNL Target]活動，但有一些重要差異。 例如，您無法在建立活動時選取要報告的區段，因為檢視報告時可套用[!DNL Analytics]中所有可用的區段。
 
 1. 按一下 **[!UICONTROL Create Activity]**。
 
@@ -61,7 +61,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >您可以傳送自訂Target型量度至[!DNL Analytics]，而非僅依賴[!DNL Analytics]資料。 例如，您可以監視點選的頁面，這通常不會由[!DNL Analytics]追蹤。 此自訂量度會自動從[!DNL Target]伺服器傳送至[!DNL Analytics]，並在[!DNL Analytics]的量度選擇器中顯示為「[!DNL Target]轉換」量度。 如果您選擇使用[!DNL Analytics]量度，[!DNL Target]轉換量度會是空的。
+   >您可以傳送自訂Target型量度至[!DNL Analytics]，而非僅依賴[!DNL Analytics]資料。 例如，您可以監視點選的頁面，這通常不會由[!DNL Analytics]追蹤。 此自訂量度會自動從[!DNL Analytics]伺服器傳送至[!DNL Target]，並在[!DNL Target]的量度選擇器中顯示為「[!DNL Analytics]轉換」量度。 如果您選擇使用[!DNL Target]量度，[!DNL Analytics]轉換量度會是空的。
 
    設定目標並不表示您無法在評估測試結果時使用其他量度。不過，目標為您要對活動改善之項目的提示。
 
@@ -69,7 +69,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >在將[!DNL Analytics]設定為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。 [!DNL Target]活動報表中有[!DNL Analytics]個可用區段。
+   >在將[!DNL Analytics]設定為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。 [!DNL Analytics]活動報表中有[!DNL Target]個可用區段。
 
 1. 按一下 **[!UICONTROL Save]**。
 

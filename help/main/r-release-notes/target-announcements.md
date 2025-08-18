@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -58,13 +58,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   個人化成熟度的核心是人工智慧和機器學習。[!DNL Adobe Target] 利用這些技術來了解使用者行為、預測偏好並動態量身打造內容。透過利用 AI 和 ML 的力量，了解品牌如何超越靜態 A/B 測試和規則型個人化，以提供動態的、與情境相關的體驗。
 
-  [收聽研討會錄音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+  [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高效能推薦**
 
   了解推薦演算法如何改變企業的遊戲規則，提高參與度和收入。從個人化產品建議到內容推薦，可順暢引導使用者完成整個歷程，將直接造就業務顯著成長。
 
-  [收聽研討會錄音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **充分運用 AI 支援的個人化**
 
@@ -76,7 +76,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 提供引人入勝的客戶體驗以提高轉換率。 您的企業準備好迎接旺季了嗎? 加入我們，獲取有關如何在此時實現最佳績效和最大 ROI 的專家秘訣。
 
-+++查看詳細資料
++++檢視詳細資料
 
 一同加入 Adobe 客戶成功經理 John Magnusson 和 Macy&#39;s Inc. MarTech 與 AdTech 解決方案總監 Katherine Klein。與我們一同學習對您的旺季整備計劃產生重大影響的策略。
 
@@ -160,7 +160,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 廚師的收藏：個人化配方 (2022 年 8 月 30 日)
 
-加入 [!DNL Adobe Target] 團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
+加入 [!DNL Adobe Target] [!DNL]團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
 
 * [錄影連結](https://video.tv.adobe.com/v/346970/){target=_blank}
 

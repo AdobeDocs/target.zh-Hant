@@ -56,7 +56,7 @@ ht-degree: 49%
 
 您可以對 for Target (A4T) 執行離線計算，但在 [!DNL Analytics]Analytics 中需要執行資料匯出的步驟。如需詳細資訊，請參閱以下的「對 Target (A4T) 執行離線計算」。
 
-### 可信度 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### 信賴度 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
 如果空值假設為真（實質上，如果該體驗或選件與控制體驗/選件之間的轉換率沒有差異），則顯示的體驗或選件信賴度是取得比實際觀察到的結果更少極端值的機率（以百分比表示）。 就P值而言，顯示的信賴度為1 - P值。 更簡單地說，較高的信賴度表示資料不太符合控制和非控制選件/體驗具有相等轉換率的假設。
 
@@ -108,16 +108,16 @@ ht-degree: 49%
 1. 按一下&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**。
 1. 在&#x200B;**[!UICONTROL Data Warehouse Request]**&#x200B;標籤上，填寫欄位。
 
-   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hant)中的「資料倉儲說明」。
+   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
 
    | 欄位 | 指示 |
    |--- |--- |
    | 請求名稱 | 指定要求的名稱。 |
    | 報告日期 | 指定時段和精度。<br>最佳做法是不要為第一個要求選擇超過一小時或一天的資料。所要求的時段越長，資料倉儲檔案處理的時間就越長，最好一律先要求較短時段的資料，以確保檔案傳回預期的結果。接著，前往「要求管理程式」，複製要求，再第二次要求更多資料。此外，如果您將詳細程度切換為「無」以外的任何值，檔案大小將大幅增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | 可用區段 | 視需要套用區段。 |
-   | 劃分 | 選取所需的維度：「標準」是內建(OOTB)，而「自訂」包含eVar和prop。 如需訪客ID層級資訊，建議您使用「訪客ID」，而非「Experience Cloud訪客ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
+   | 劃分 | 選取所需的維度：「標準」是內建(OOTB)，而「自訂」包含eVar和prop。 如需訪客ID層級資訊，建議您使用「訪客ID」，而不要使用「Experience Cloud訪客ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
    | 量度 | 選取所需的量度。標準是 OOTB，而「自訂」包含自訂事件。 |
-   | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse2](/help/main/c-reports/assets/datawarehouse2.png) |
+   | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | 計劃傳送 | 輸入要傳送檔案的電子郵件地址，命名檔案，然後選取[!UICONTROL Send Immediately]。<br>注意：可在[!UICONTROL Advanced Delivery Options]<br>![排程傳送](/help/main/c-reports/assets/datawarehouse3.png)下透過FTP傳送檔案。 |
 
 1. 按一下 **[!UICONTROL Request this Report]**。
@@ -128,8 +128,8 @@ ht-degree: 49%
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立Data Warehouse要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hant)
-* [Data Warehouse最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hant)
+* [建立Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse最佳實務](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 計算方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -146,7 +146,7 @@ ht-degree: 49%
 
   對於 MVT 元素貢獻報表，Target 不支援「收入量度」類型的「活動曝光次數」。
 
-* Recommendations
+* 推薦
 
 對於自動個人化 (AP) 活動，目前僅支援預設計數方法 (造訪)。
 
@@ -176,7 +176,7 @@ A/B測試是比較控制變體中的某些商業量度（也稱為體驗）的�
 
 ### 詳細資訊
 
-執行線上A/B測試時，每個使用者/訪客都會隨機指派給單一變體。 接著，我們測量感興趣的業務量度（例如轉換、訂購、收入等） 適用於每個變體中的訪客。 我們使用的統計測試接著會測試平均商業量度（例如轉換率、每位使用者的訂單、每位使用者的收入等）的假設， 與控制變體和指定的替代變體相等。
+執行線上A/B測試時，每個使用者/訪客都會隨機指派給單一變體。 接著，我們對每個變體中的訪客測量感興趣的業務量度（例如轉換、訂購、收入等）。 我們使用的統計測試接著會測試控制項和指定替代變體的平均商業量度（例如轉換率、每位使用者的訂單、每位使用者的收入等）相等的假設。
 
 雖然商業量度本身可能會根據某些任意分佈而分佈，但此量度平均值（在每個變體內）的分佈應透過[中央限制定理](https://en.wikipedia.org/wiki/Central_limit_theorem)收斂至常態分佈。 請注意，雖然無法保證此平均值的抽樣分佈會以多快的速度收斂至正常，但一般可透過線上測試中的訪客規模來達成此條件。
 

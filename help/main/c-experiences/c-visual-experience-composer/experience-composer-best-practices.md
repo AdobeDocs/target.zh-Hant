@@ -7,7 +7,7 @@ exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -31,23 +31,23 @@ ht-degree: 37%
 +++檢視詳細資料
 若要在帳戶層級啟用[!UICONTROL Enhanced Experience Composer]，請按一下[!UICONTROL [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]]，然後將[!UICONTROL Enable Enhanced Experience Composer]開關切換到[開啟]位置。
 
-在[!UICONTROL Visual Experience Composer]中建立活動時，若要在活動層級啟用[!UICONTROL Enhanced Experience Composer]，請按一下[!UICONTROL Configure > [!UICONTROL Page Delivery]]，然後將[!UICONTROL Enable Enhanced Experience Composer]切換至[開啟]位置。
+在[!UICONTROL Enhanced Experience Composer]中建立活動時，若要在活動層級啟用[!UICONTROL Visual Experience Composer]，請按一下[!UICONTROL Configure > [!UICONTROL Page Delivery]]，然後將[!UICONTROL Enable Enhanced Experience Composer]切換至[開啟]位置。
 
 +++
 
 ### 如果[!UICONTROL Enhanced Experience Composer]無法在您網站的安全頁面上載入，您可以將特定的IP位址加入允許清單。
 
 +++檢視詳細資料
-載入[!UICONTROL Enhanced Experience Composer]的問題可藉由將下列IP位址列入允許清單來解決。 這些IP位址是用於用於[!UICONTROL Enhanced Experience Composer] Proxy的[!DNL Adobe]伺服器。 只有針對活動編輯才需要這些資訊。您網站的訪客不需要將這些IP位址加入允許清單。
+載入[!UICONTROL Enhanced Experience Composer]的問題可藉由將下列IP位址列入允許清單來解決。 這些IP位址是用於用於[!DNL Adobe] Proxy的[!UICONTROL Enhanced Experience Composer]伺服器。 只有針對活動編輯才需要這些資訊。您網站的訪客不需要將這些IP位址加入允許清單。
 
-如需詳細資訊，請參閱[ EEC將不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法透過公用IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)存取的內部QA URL。
+如需詳細資訊，請參閱[ EEC將不會在](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)疑難排解增強體驗撰寫器的相關問題&#x200B;*中，載入無法透過公用IP*&#x200B;存取的內部QA URL。
 
 +++
 
 ### 對於可能成為良好測試/目標候選項的最上層元素及其他任何元素，請使用唯一的 ID。
 
 +++詳細資料
-緊接在body元素內的任何專案都應該有唯一的ID。 如果新元素插入 body 中，而程式碼散佈周圍，則至少可較容易辨識上層元素。
+直接在 body 元素內的任何項目都應該有唯一的 ID。如果新元素插入 body 中，而程式碼散佈周圍，則至少可較容易辨識上層元素。
 
 [!DNL Target]不需要ID，但使用ID會提高使用體驗撰寫器建立之體驗的可靠性。 [!DNL Target]在傳遞體驗時會使用CSS選取器來修改您的內容。 當您編輯體驗時，[!UICONTROL Visual Experience Composer]會將選取器錨定至要修改之HTML元素的最近祖項（具有非null ID屬性）。 因此，不建議使用任何會設定或修改 HTML ID 屬性的機制 (包括 JavaScript 程式庫)。雖然這些ID可供[!DNL Target]體驗撰寫器用於建立活動，但如果JavaScript修改ID，則建立體驗時使用的ID在體驗執行時可能無法使用。 如果沒有 ID 可用，錨定到 ID 的選取器會失敗。
 
@@ -74,7 +74,7 @@ ht-degree: 37%
 ### 儘量不使用 iFrame。
 
 +++詳細資料
-最佳作法是儘量減少iFrame的使用，以簡化頁面和測試管理。 視覺化體驗撰寫器可以在iFrame中套用某些動作，但有些動作（例如調整大小）無法正常運作。 使用多個 iFrame 的頁面很難管理和調整大小。因此，測試含有許多 iFrame 的頁面可能會發生問題。
+最好儘量不要使用 iFrame，以簡化頁面和測試管理。視覺化體驗撰寫器可以在iFrame中套用某些動作，但有些動作（例如調整大小）無法正常運作。 使用多個 iFrame 的頁面很難管理和調整大小。因此，測試含有許多 iFrame 的頁面可能會發生問題。
 
 +++
 
@@ -113,7 +113,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### 使用「編輯 HTML」來操作 DOM 結構可能會破壞選取器。
 
 +++詳細資料
-例如，如果您已採取兩個動作：
+例如，如果您已採取兩個動作:
 
 * 已新增類別至元素 1
 * 已編輯元素 1 的 HTML
@@ -122,7 +122,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 
 換句話說，如果您使用文字新增元素，然後在個別的動作中使用不同文字編輯了該元素，則代碼編輯器會將這兩個動作顯示為個別的元素。編輯元素時，您會建立可修改您原始建立元素的新元素，包含編輯的文字。如果您之後刪除原始元素，編輯後文字將找不到編輯後的元素，因此將不會顯示。第二個元素會維持在元素的清單中，但它不會影響頁面，因為它變更的元素已不再存在。
 
-檢視[!UICONTROL Visual Experience Composer][&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的元素選取器。
+檢視[中使用的[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)元素選取器。
 
 +++
 
@@ -139,14 +139,14 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### 移除表單欄位時請小心。
 
 +++詳細資料
-提交時某些表單欄位可能是必填欄位。 移除這些表單欄位會影響提交。
+某些表單欄位可能是提交時的必要欄位。移除這些表單欄位會影響提交。
 
 +++
 
 ### 請勿在指令碼內包含`mboxCreate`。
 
 +++詳細資料
-因為`mboxCreate`使用`document.write`，不建議在指令碼中包含`mboxCreate`。 請改用 `mboxDefine` 和 `mboxUpdate`，以達到相同目的。
+因為 `mboxCreate` 會使用`document.write`，不建議在指令碼內包含 `mboxCreate`。請改用 `mboxDefine` 和 `mboxUpdate`，以達到相同目的。
 
 +++
 
@@ -177,7 +177,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### 網站中可能用於鎖定目標的重要文字，應該放在元素的 HTML 程式碼內。
 
 +++詳細資料
-例如，如果您的程式碼如下，就無法在VEC中鎖定購物車文字：
+例如，假設您的程式碼如下，則無法在 VEC 中將 Shopping Cart 文字鎖定為目標:
 
 ```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
@@ -244,14 +244,14 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### [!UICONTROL Move]功能不支援z-index。
 
 +++詳細資料
-因為沒有z-index功能，被移動的元素無法移至另一個元素上方。 如需詳細資料，請參閱[限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+因為沒有 z-index 功能，被移動的元素無法移至另一個元素上方。如需詳細資料，請參閱[限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 +++
 
 ### 重新排列元素會影響點擊追蹤。
 
 +++詳細資料
-如果重新排列標籤為點選追蹤的元素，則重新排列的元素的路徑會變更。 因此，點擊追蹤的對象就變成原始元素重新排列之前所在位置中的元素。
+如果標示為點擊追蹤的元素重新排列，則重新排列過的元素會改變路徑。因此，點擊追蹤的對象就變成原始元素重新排列之前所在位置中的元素。
 
 這是因為用於傳送活動內容的程式碼和用於追蹤點擊的程式碼，同時位於傳送至頁面的一段程式碼內。如果您瀏覽至另一個頁面並設定點擊追蹤，則活動內容程式碼和點擊追蹤程式碼都會傳送至該頁面。如果點擊追蹤頁面的頁面結構類似於執行測試的頁面，則測試內容也可能出現在點擊追蹤頁面上。
 
@@ -267,14 +267,14 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### 編輯父元素和子元素兩者時，請先編輯父元素。
 
 +++詳細資料
-如果您在元素上交換影像動作，然後編輯其父元素上的文字或HTML，則可能會發生傳送問題。 最佳工作流程是先編輯父元素，再於子元素上交換影像。
+如果您在元素上交換影像動作，然後在其父元素上編輯文字或 HTML，可能會發生傳送問題最佳工作流程是先編輯父元素，再於子元素上交換影像。
 
 +++
 
 ### 無法選取以 mbox 為子元素的頁面元素。
 
 +++詳細資料
-例如，如果您的頁面包含：
+例如，假設頁面包含:
 
 ```html
 <div> 
@@ -302,7 +302,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### 正在處理VEC與[!DNL Chrome]擴充功能原則變更的相容性。 {#ext}
 
 +++詳細資料
-由於Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
+由於Google Chrome[中更新了](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
 
 為確保相容性，當頁面載入[!DNL Target] iframe內時，應有條件地停用這些指令碼。 透過檢查`window.adobeVecExtension`物件的存在可以安全地完成此程式，此物件是在VEC載入期間由[!DNL Target]插入。
 
@@ -325,7 +325,7 @@ if(!window.adobeVecExtension) {
 ### 您無法將元素移到後面接著CSS屬性的容器之外。
 
 +++詳細資料
-元素無法移到後面有CSS屬性的容器之外。
+元素無法移到後面有 CSS 屬性的容器之外。
 
 +++
 
@@ -346,7 +346,7 @@ if(!window.adobeVecExtension) {
 ### 請勿重新排列和移動同一個元素。
 
 +++詳細資料
-如果元素已移至其他位置，而您選取父容器並嘗試重新排列子元素，則移動的元素不受影響，並會保留在其所在位置。 重新排列可能不會如預期般地展現。
+如果元素移至另一個位置，而您選取父容器並嘗試重新排列子元素，則已移動的元素不受影響，一樣停留在原處。重新排列可能不會如預期般地展現。
 
 +++
 
@@ -362,35 +362,35 @@ if(!window.adobeVecExtension) {
 ### 在 mbox 中無法調整影像大小。
 
 +++詳細資料
-如果您在mbox元素中交換影像，然後嘗試根據mbox元素大小調整該影像的大小，則不允許重新調整大小。
+如果您在 mbox 元素中交換影像，然後嘗試根據 mbox 元素大小來調整該影像的大小，則不允許重新調整大小。
 
 +++
 
 ### 交換影像之後，無法選取[!UICONTROL Edit]動作。
 
 +++詳細資料
-交換影像之後，無法編輯Scene7 URL。
+交換影像之後，無法編輯 Scene7 URL。
 
 +++
 
 ### 無法編輯具有外部來源的HTML元素。
 
 +++詳細資料
-例如：Video、audio標籤、embed、iFrame、frame。
+例如: Video、audio 標記、embed、iFrame、frame。
 
 +++
 
 ### 如果錨點元素包含純文字或影像標記以外的其他任何項目，則點擊追蹤無法運作。
 
 +++詳細資料
-例如，如果元素包含JavaScript，則點選追蹤無法運作。
+例如，假如元素包含 JavaScript，則點擊追蹤無法運作。
 
 +++
 
 ### 頁面必須接受URL引數，VEC才能運作。
 
 +++詳細資料
-有些網站會移除其頁面的任何URL引數。 不過，VEC需要這些引數。
+某些網站會剔除頁面的任何 URL 參數。不過，VEC需要這些引數。
 
 +++
 
@@ -426,7 +426,7 @@ if(!window.adobeVecExtension) {
 ### 從[!UICONTROL Content]資料庫(Scene7)插入影像並編輯HTML會中斷影像URL。
 
 +++詳細資料
-在&#39;customHeaderMessage&#39; div中新增錨點元素，其中包含一些虛擬文字：
+在 &#39;customHeaderMessage&#39; div 內新增錨點元素和一些虛構文字:
 
 ```html
 <a href="#"> 

@@ -1,19 +1,19 @@
 ---
 keywords: 活動設定；目標與設定；多變數；mvt
-description: 瞭解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Goals & Settings]頁面來指定[!UICONTROL Multivariate Test] (MVT)活動目標的相關資訊。
+description: 瞭解如何使用[!UICONTROL Goals & Settings]中的 [!DNL Adobe Target] 頁面來指定[!UICONTROL Multivariate Test] (MVT)活動目標的相關資訊。
 title: 如何在[!UICONTROL Multivariate Test] (MVT)活動中指定目標與設定？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
 # 目標與設定([!UICONTROL Multivariate Test])
 
-[!DNL Adobe Target]中的[!UICONTROL Goals & Settings]頁面是您輸入[!UICONTROL Multivariate Test] (MVT)活動之目標相關資訊的位置。
+[!UICONTROL Goals & Settings]中的[!DNL Adobe Target]頁面是您輸入[!UICONTROL Multivariate Test] (MVT)活動之目標相關資訊的位置。
 
 下列章節可供使用：
 
@@ -33,7 +33,7 @@ ht-degree: 41%
 
 ### 優先順序
 
-根據您的設定，[!UICONTROL Priority]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
+根據您的設定，[!DNL Target]的[!UICONTROL Priority] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
 
 如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
@@ -54,7 +54,7 @@ ht-degree: 41%
 
 ### 持續時間
 
-活動可以在核准後開始，或者您可以設定特定的日期和時間。同樣地，活動可以在停用時結束，或者您可以設定日期和時間。時間選擇器使用 24 小時時鐘，午夜為 00:00。時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+活動可以在核准後開始，或者您可以設定特定的日期和時間。同樣地，活動可以在停用時結束，或者您可以設定日期和時間。時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
 ## 報表設定 {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -78,7 +78,7 @@ ht-degree: 41%
 
 [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL Tracking Server]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-**[!DNL Adobe Customer Journey Analytics]**：如需有關[!DNL Adobe Customer Journey Analytics]與[!DNL Target]之間整合的詳細資訊，請參閱[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告。
+**[!DNL Adobe Customer Journey Analytics]**：如需有關[[!DNL Target] 與 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)之間整合的詳細資訊，請參閱[!DNL Adobe Customer Journey Analytics]在[!DNL Target]中報告。
 
 ### 目標量度
 
@@ -159,7 +159,7 @@ ht-degree: 41%
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動設定 (3:02)
+### 活動設定(3:02)
 
 此影片包括關於活動設定的資訊。
 
@@ -171,9 +171,9 @@ ht-degree: 41%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 建立多變數測試 (9:25)
+### 正在建立多變數測試(9:25)
 
-此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 在 7:00 開始討論目標和設定。
+此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 目標與設定從7:00開始討論。
 
 * 定義和設計多變數測試
 * 建立多變數測試

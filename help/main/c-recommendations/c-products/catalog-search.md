@@ -2,7 +2,7 @@
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器；推薦
 description: 瞭解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]來尋找產品或內容、從目錄中移除專案等等。
 title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!UICONTROL Catalog Search]
 
-[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。
+[!UICONTROL Catalog Search]中的[!DNL Adobe Recommendations]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。
 
 目錄是指您的整個產品集 (實體)。您的目錄可以包含許多系列，好讓您以邏輯區間組織產品。
 

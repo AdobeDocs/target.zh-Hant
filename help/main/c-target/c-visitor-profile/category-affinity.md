@@ -17,7 +17,7 @@ ht-degree: 56%
 
 ## 將類別相關性資訊傳遞至[!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-每當有使用者造訪您的網站時，這位訪客專屬的設定檔參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。一個有用的引數是`user.categoryId`，這是在產品頁面上指派的mbox引數。 當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以在任何mbox （包括巢狀mbox）中以mbox引數`user.categoryId`的形式傳遞類別資訊，或作為URL引數`user.categoryId`傳遞，或透過全域mbox在[!DNL Target]頁面引數中傳遞，以記錄類別資訊。 請洽詢您的客戶代表以取得更多詳細資訊。
+每當有使用者造訪您的網站時，這位訪客專屬的輪廓參數即會記錄在 [!DNL Target] 資料庫中。此資料會與使用者的 Cookie 緊密結合。一個有用的引數是`user.categoryId`，這是在產品頁面上指派的mbox引數。 當訪客繼續瀏覽或返回另一個工作階段時，就可以記錄特定使用者檢視的產品類別。您也可以在任何mbox （包括巢狀mbox）中以mbox引數`user.categoryId`的形式傳遞類別資訊，或作為URL引數`user.categoryId`傳遞，或透過全域mbox在[!DNL Target]頁面引數中傳遞，以記錄類別資訊。 請洽詢您的客戶代表以取得更多詳細資訊。
 
 使用逗號分隔類別，以在多個類別中包含某個項目。例如:
 
@@ -25,11 +25,11 @@ ht-degree: 56%
 
 根據頻率和最近一次訪客查看您的產品類別，記錄類別相似性 (如果有)。類別相關性可用來鎖定活動的目標族群。
 
-您可以在設定檔指令碼中使用`user.categoryAffinities[]`來傳回訪客已填入的相似性陣列。 如需詳細資訊，請參閱設定檔屬性[&#128279;](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中物件與方法下的user.categoryAffinities。
+您可以在設定檔指令碼中使用`user.categoryAffinities[]`來傳回訪客已填入的相似性陣列。 如需詳細資訊，請參閱設定檔屬性[中物件與方法下的](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)user.categoryAffinities。
 
 >[!IMPORTANT]
 >
->用於類別相關性演演算法的`user.categoryId`屬性與用於[!DNL Adobe Target Recommendations]&#39;產品和內容建議的`entity.categoryId`屬性不同。 需要 `user.categoryId`，才能追蹤使用者最喜愛的類別。需要 `entity.categoryId`，才能讓建議以目前頁面或目前項目的類別為依據。如果要同時使用這兩項功能，請將這兩個值傳遞給[!DNL Target]。
+>用於類別相關性演演算法的`user.categoryId`屬性與用於`entity.categoryId`&#39;產品和內容建議的[!DNL Adobe Target Recommendations]屬性不同。 需要 `user.categoryId`，才能追蹤使用者最喜愛的類別。需要 `entity.categoryId`，才能讓建議以目前頁面或目前項目的類別為依據。如果要同時使用這兩項功能，請將這兩個值傳遞給[!DNL Target]。
 
 ## 類別相關性的商業案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -37,7 +37,7 @@ ht-degree: 56%
 
 ## 使用類別相似性的範例 {#section_A4AC0CA550924CB4875F4F4047554C18}
 
-假設您在線上銷售樂器，並想將貝斯吉他的促銷定位在曾經表達過對吉他有興趣的訪客。您現在可以使用類別相似性來建立選件，並將此選件僅顯示給具有此類別相似性的訪客。
+假設您在線上銷售樂器，並想將貝斯吉他的促銷定位在曾經表達過對吉他有興趣的訪客。您現在可以使用類別相似性來建立產品建議，並將此產品建議僅顯示給具有此類別相似性的訪客。
 
 ## 類別相關性演演算法 {#section_8B86C7FF50294208866ABF16F07D5EB9}
 
@@ -114,7 +114,7 @@ ht-degree: 56%
 1. 按一下&#x200B;**[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**。
 1. 從&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Category Affinity]**。
 
-   ![訪客設定檔 > 類別相關性](assets/affinity.png)
+   ![訪客輪廓 > 類別相關性](assets/affinity.png)
 
 1. 選擇所需的類別:
 

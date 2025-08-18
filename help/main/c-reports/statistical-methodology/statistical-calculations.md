@@ -99,7 +99,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此計算使用「差異」方法，本檔案將詳細說明[&#128279;](/help/main/assets/confidence_interval_lift.pdf)
+此計算使用「差異」方法，本檔案將詳細說明[](/help/main/assets/confidence_interval_lift.pdf)
 
 ## [!UICONTROL Confidence]
 

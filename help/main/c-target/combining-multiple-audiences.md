@@ -17,7 +17,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform]來源可供所有使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}的[!DNL Target]客戶使用。 [!DNL Adobe Experience Platform]中可用的對象可以如原樣使用，或如本主題中所述，與現有對象結合。
+>使用[!DNL Adobe Experience Platform]Adobe Experience Platform Web SDK[!DNL Target]的所有[客戶都可使用](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}來源。 [!DNL Adobe Experience Platform]中可用的對象可以如原樣使用，或如本主題中所述，與現有對象結合。
 >
 >如需詳細資訊，請參閱[使用來自Adobe Experience Platform的對象](/help/main/c-target/c-audiences/audiences.md#aep)。
 
@@ -99,7 +99,7 @@ ht-degree: 38%
 
 您可以在活動的[!UICONTROL Goals & Settings]頁面上建立隨選合併的對象，以用於報表。
 
-1. 編輯或建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)時，請在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;頁面上按一下[!UICONTROL Audiences for Reporting]下方的&#x200B;**[!UICONTROL Add Audience]**&#x200B;圖示以顯示[!UICONTROL Choose Audience]頁面。
+1. 編輯或建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)時，請在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;頁面上按一下&#x200B;**[!UICONTROL Add Audience]**&#x200B;下方的[!UICONTROL Audiences for Reporting]圖示以顯示[!UICONTROL Choose Audience]頁面。
 
    ![combine_multiple_audiences6圖片](assets/combine_multiple_audiences6.png)
 

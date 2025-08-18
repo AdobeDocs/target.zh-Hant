@@ -43,7 +43,7 @@ ht-degree: 88%
 
 根據顯示您的資料所使用的量度，報告中可能會顯示&quot;[!UICONTROL Unspecified]&quot;事件列。
 
-一般來說，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如，[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors]等），就會顯示此列。 在此案例中，[!UICONTROL "Unspecified"]列包含未與[!DNL Target]活動相關聯的所有[!UICONTROL Page Views]、[!UICONTROL Visits]和[!UICONTROL Unique Visitors]。
+一般來說，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如，[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors]等），就會顯示此列。 在此案例中，[!UICONTROL "Unspecified"]列包含未與[!UICONTROL Page Views]活動相關聯的所有[!UICONTROL Visits]、[!UICONTROL Unique Visitors]和[!DNL Target]。
 
 該列不會有任何 [!DNL Target] 相關資訊 (例如，沒有訪客、造訪次數或曝光率)。如需詳細資訊，請參閱 *Analytics 技術備忘稿*&#x200B;中[報表中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant)。
 
@@ -59,7 +59,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用Analytics�
 
 >[!NOTE]
 >
->如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Tracking Server]欄位保留空白。
+>如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL Tracking Server]頁面上的[!UICONTROL Goals & Settings]欄位保留空白。
 
 ## 我的 Analytics 區段未出現在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -92,7 +92,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。請參閱[使用Analytics�
 
 檢查補充 ID 的最簡單方法就是使用 Adobe Experience Platform Debugger。
 
-如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=zh-Hant)。
+如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
 ![Debugger](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

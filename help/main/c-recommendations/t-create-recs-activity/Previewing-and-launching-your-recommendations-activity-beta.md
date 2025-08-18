@@ -14,9 +14,9 @@ ht-degree: 15%
 
 # 預覽和啟動推薦活動
 
-在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活動後，您將想要預覽您的建議，以確保結果在啟動活動之前可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
+在您建立包含[!UICONTROL Recommendations]Recommendations選件[!UICONTROL A/B Test]的[!UICONTROL Experience Targeting]、[或](/help/main/c-recommendations/recommendations-as-an-offer.md) (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
 
-## 檢查Recommendations演演算法狀態
+## 正在檢查Recommendations演演算法狀態
 
 建立活動後，[!DNL Recommendations]會執行演演算法以產生建議。 此演演算法可能需要幾個小時的時間才能執行。
 
@@ -54,9 +54,9 @@ ht-degree: 15%
 >
 >[!UICONTROL Recently Viewed Items]不需要執行離線演演算法，結果立即可用。 以mbox資料為基礎的[!UICONTROL Top Viewed]和[!UICONTROL Top Sellers]演演算法通常可快速產生結果，因為所需的運算較簡單。 當您想要預覽設計變更或確認行為資料正在正確收集時，這些可能是很好的選項。
 
-## 使用QA連結預覽Recommendations
+## 使用QA連結來預覽建議
 
-演演算法有結果可供使用後，您可以使用[!DNL Adobe Target]的[QA連結](/help/main/c-activities/c-activity-qa/activity-qa.md)功能來預覽這些結果。 QA連結可在[!UICONTROL Activity]概觀頁面的[!UICONTROL Activity Location]區段中取得：
+演演算法有結果可供使用後，您可以使用[的](/help/main/c-activities/c-activity-qa/activity-qa.md)QA連結[!DNL Adobe Target]功能來預覽這些結果。 QA連結可在[!UICONTROL Activity Location]概觀頁面的[!UICONTROL Activity]區段中取得：
 
 >[!NOTE]
 >

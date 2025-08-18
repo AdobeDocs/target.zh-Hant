@@ -1,5 +1,5 @@
 ---
-keywords: 視覺化體驗撰寫器選項；體驗撰寫器選項；體驗選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；背景顏色；插入元素；編輯連結；連結；視覺化體驗撰寫器連結；編輯css類別；CSS類別；交換選件；選件交換；交換影像；影像交換；移除專案；專案移除；隱藏專案；重新排列；移動元素；元素移動；調整元素大小；元素大小；展開選取範圍；導覽至此連結；導覽連結；導覽；連結；復原；還原/重做；自訂事件；網頁元件；選件決定；offer decisioning
+keywords: 視覺化體驗撰寫器選項；體驗撰寫器選項；體驗選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；背景顏色；插入元素；編輯連結；連結；視覺化體驗撰寫器連結；編輯css類別；CSS類別；交換選件；選件交換；交換影像；影像交換；移除專案；專案移除；隱藏專案；重新排列；移動元素；元素移動；調整元素大小；元素大小；展開選取範圍；導覽至此連結；導覽連結；導覽；連結；復原；還原/重做；自訂事件；網頁元件；選件決定；選件決策
 description: 探索 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中可用的選項。
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)選項？
 feature: Visual Experience Composer (VEC)
@@ -7,7 +7,7 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
 source-wordcount: '2667'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 55%
 
 除了 HTML 程式碼，您可以編輯和插入自訂 JavaScript。
 
-編輯[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活動的文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。修改 HTML 時，您可在 HTML 的程式碼檢視和 RTF 編輯之間切換。
+針對[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活動編輯文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。修改 HTML 時，您可在 HTML 的程式碼檢視和 RTF 編輯之間切換。
 
 以下是可巢狀的 HTML5 標記:
 
@@ -60,7 +60,7 @@ ht-degree: 55%
 
 ![樣式面板](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-當您套用不同的樣式時，在您變更任何區段後，只要按一下顯示於[!UICONTROL Styles]面板右上角的[!UICONTROL Revert]圖示，即可隨時回覆變更。 按一下[!UICONTROL Revert]圖示會還原目前區段面板上的所有變更。
+當您套用不同的樣式時，在您變更任何區段後，只要按一下顯示於[!UICONTROL Revert]面板右上角的[!UICONTROL Styles]圖示，即可隨時回覆變更。 按一下[!UICONTROL Revert]圖示會還原目前區段面板上的所有變更。
 
 展開每個區段以編輯或新增樣式 (如下所述)。若要儲存變更，請按一下面板頂端的[!UICONTROL Back]圖示以返回面板的主要顯示，然後按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -88,7 +88,7 @@ ht-degree: 55%
 
   變更元素的印刷樣式。印刷樣式編輯既快速又簡單。
 
-  雖然RTF編輯器(編輯文字/HTML)可供進行微調使用，但可透過此選項使用變更整個元素的快速動作。 如果您只要將印刷樣式變更套用至局部文字 (而非全部文字)，請使用 [RTF 編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
+  雖然RTF編輯器(編輯文字/HTML)可供進行微調使用，仍可透過此選項使用變更整個元素的快速動作。 如果您只要將印刷樣式變更套用至局部文字 (而非全部文字)，請使用 [RTF 編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
 
   您可以編輯下列印刷樣式:
 
@@ -178,7 +178,7 @@ ht-degree: 55%
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-新增在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}中建立的優惠方案，以使用offer decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -249,7 +249,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-新增在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}中建立的優惠方案，以使用offer decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -281,7 +281,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-新增在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}中建立的優惠方案，以使用offer decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -309,7 +309,7 @@ ht-degree: 55%
 
 從[!UICONTROL Content Library]中選取其他選件。
 
-**注意:**&#x200B;[!DNL Target] HTML 產品建議會儲存在 伺服器上。
+**注意:**[!DNL Target] HTML 產品建議會儲存在 伺服器上。
 
 HTML選件最高可達256 KB。
 
@@ -371,7 +371,7 @@ HTML選件最高可達256 KB。
 
 ## 考量事項 {#considerations}
 
-* 如果選件包含HTML內容，請參閱[at.js如何運作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank}中的「at.js如何呈現具有HTML內容的選件」以取得詳細資訊。
+* 如果產品建議包含 HTML 內容，請參閱 [at.js 如何運作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}中的「at.js 如何呈現具有 HTML 內容的產品建議」以取得詳細資訊。
 
 ## 自訂元素支援 {#custom}
 
@@ -379,9 +379,9 @@ VEC支援[Web元件](https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 >[!NOTE]
 >
->[at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} 2.7.0 （或更新版本）{target=_blank}支援自訂元素的VEC支援。 確保您的網站已部署所需版本。 如果您正在使用[視覺化體驗撰寫器Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，它也必須部署必要的at.js版本。 上述VEC選項無法看見，且無法搭配不支援的at.js版本使用。
+>[at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 （或更新版本）{target=_blank}支援自訂元素的VEC支援。 確保您的網站已部署所需版本。 如果您正在使用[視覺化體驗撰寫器Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，它也必須部署必要的at.js版本。 上述VEC選項無法看見，且無法搭配不支援的at.js版本使用。
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}目前不支援自訂元素的VEC支援。
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}目前不支援自訂元素的VEC支援。
 
 大部分的VEC動作都可在自訂事件和內部自訂事件上支援，但下列例外情況除外：
 

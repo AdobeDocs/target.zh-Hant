@@ -2,13 +2,13 @@
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
 description: 檢視有關 [!DNL Target Recommendations] 活動的常見問答清單。
 title: 哪裡可以找到有關 [!DNL Recommendations]的問答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
 source-wordcount: '3444'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 83%
 
 ## 我可以使用[!DNL Target] API管理[!DNL Target] UI建立的視覺化選件嗎？
 
-無.在[!DNL Target] UI中建立具有視覺化選件的[!DNL Recommendations]活動，無法使用[!DNL Target] API進行管理。 雖然這些活動會顯示在[!UICONTROL Activities]清單中，但您無法讀取或更新它們(使用GET/PUT)。
+無.在[!DNL Recommendations] UI中建立具有視覺化選件的[!DNL Target]活動，無法使用[!DNL Target] API進行管理。 雖然這些活動會顯示在[!UICONTROL Activities]清單中，但您無法讀取或更新它們(使用GET/PUT)。
 
 ## 當我就具有某數值的自訂屬性進行搜尋時，為什麼[!UICONTROL Catalog Search]沒有顯示正確的結果？
 
@@ -103,7 +103,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target]具有[篩選不相容的條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}設定，可控制演演算法選擇器的智慧型篩選。
+[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。如需這兩個解決方案之間差異的詳細資訊，請參閱[[!DNL Recommendations Classic] 中的 [!DNL Recommendations] 與 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)活動。
 
 ## 如何只推薦新文章或影片？ {#recommend-new-articles}
 

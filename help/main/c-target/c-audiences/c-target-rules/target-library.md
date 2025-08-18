@@ -21,7 +21,7 @@ ht-degree: 31%
 1. 為對象命名並新增選擇性說明。
 1. 將&#x200B;**[!UICONTROL Target Library]**&#x200B;拖放至對象產生器窗格。
 
-   ![定位程式庫](assets/target_library.png)
+   ![鎖定程式庫](assets/target_library.png)
 
 1. 按一下&#x200B;**[!UICONTROL Select]**，然後選取預先建立的鎖定目標規則。
 

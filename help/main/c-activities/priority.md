@@ -7,7 +7,7 @@ exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 [!DNL Adobe Target]會根據您使用的[!DNL Target]介面以及活動建立功能（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)），以不同方式決定要傳遞至頁面的活動（或哪些活動）。
 
-## 僅[!UICONTROL Visual Experience Composer]或僅使用全域[!DNL Target]請求的[!UICONTROL Form-Based Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 僅[!UICONTROL Visual Experience Composer]或僅使用全域[!UICONTROL Form-Based Experience Composer]請求的[!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 如果您的公司僅使用VEC，則同一呼叫可傳回多個活動的內容。 活動依據下列決策流程來傳送:
 
@@ -62,7 +62,7 @@ ht-degree: 37%
 
 如果兩個已鎖定的目標活動有相同的優先順序，則會顯示最近檢視的活動。如果訪客是首次前往頁面，則顯示最近啟動的活動。
 
-## 具有非全域[!DNL Target]請求的[!UICONTROL Form-Based Experience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 具有非全域[!UICONTROL Form-Based Experience Composer]請求的[!DNL Target] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 如果您的公司使用表單式撰寫器中全域[!DNL Target]請求以外的[!DNL Target]請求，則每個呼叫只能傳回一個活動的內容。 活動傳遞是使用下列決策流程決定:
 
@@ -99,7 +99,7 @@ ht-degree: 37%
 
 回應: visualExpCompOffer1, visualExpCompOffer2
 
-## 訓練影片: 活動設定 (3: 02)
+## 訓練影片：活動設定(3:02)
 
 此影片包括關於活動設定的資訊。
 

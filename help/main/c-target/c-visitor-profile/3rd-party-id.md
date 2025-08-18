@@ -1,5 +1,5 @@
 ---
-keywords: mbox;mbox3rdPartyId;設定檔同步中;設定檔同步;PCID
+keywords: mbox;mbox3rdPartyId;輪廓同步中;輪廓同步;PCID
 description: 瞭解如何使用mbox3rdPartyId，這是您組織的訪客ID，例如會籍ID或您組織的忠誠度計畫。
 title: 如何對mbox3rdPartyId使用即時設定檔同步？
 feature: Audiences
@@ -11,9 +11,9 @@ ht-degree: 18%
 
 ---
 
-# mbox3rdPartyId 的即時設定檔同步
+# mbox3rdPartyId 的即時輪廓同步
 
-[!DNL Adobe Target]中的`mbox3rdPartyId`是您公司的訪客ID，例如您公司的忠誠度計畫的會員ID。
+`mbox3rdPartyId`中的[!DNL Adobe Target]是您公司的訪客ID，例如您公司的忠誠度計畫的會員ID。
 
 當訪客登入某個公司的網站時，該公司通常會建立 ID，此 ID 會連結至該訪客的帳戶、常客卡、會員編號或適用於該公司的其他識別碼。
 
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->在[!DNL Adobe Experience Cloud] ID (ECID)變更（例如訪客變更裝置）的情況下，系統不會追蹤[!DNL Adobe Analytics]目標，即使可能已根據mbox3rdPartyId合併[!DNL Target]設定檔且仍有活動資訊，也是如此。 若為已識別具有相同ECID的訪客（使用相同裝置存取頁面的訪客），[!DNL Analytics for Target] (A4T)應該會如運期般運作。
+>在[!DNL Adobe Analytics] ID (ECID)變更（例如訪客變更裝置）的情況下，系統不會追蹤[!DNL Adobe Experience Cloud]目標，即使可能已根據mbox3rdPartyId合併[!DNL Target]設定檔且仍有活動資訊，也是如此。 若為已識別具有相同ECID的訪客（使用相同裝置存取頁面的訪客），[!DNL Analytics for Target] (A4T)應該會如運期般運作。
 
 ## 考量事項 {#considerations}
 
@@ -48,7 +48,7 @@ ht-degree: 18%
 
    1. 使用`mbox3rdPartyId`/`thirdPartyId`。
 
-      * 當您使用`targetPageParams`或`targetPageParamsAll`時，`mbox3rdPartyId`是引數名稱
+      * 當您使用`mbox3rdPartyId`或`targetPageParams`時，`targetPageParamsAll`是引數名稱
       * `thirdPartyId`是您直接在傳送API裝載中設定的引數名稱。
       * 您只能在此引數中傳送一個值。
 
@@ -58,7 +58,7 @@ ht-degree: 18%
       * `customerIds`是您直接在傳送API裝載中設定引數時使用的引數名稱，通常是在伺服器端或IOT （物聯網）實作上完成。
       * 與`mbox3rdPartyId`/`thirdPartyId`不同，您可以在此方法中以清單形式傳送多個ID，但由於[!DNL Target]僅支援每個TnT ID的單一客戶ID，因此會使用具有已知別名（在客戶屬性UI中設定的別名）的清單中的第一個ID。
 
-  如果[!DNL Target]是您唯一的[!DNL Adobe Experience Cloud]解決方案，而且您不想使用客戶屬性，則可以使用`mbox3rdPartyId`/`thirdPartyId`。 對於所有其他情況，我們建議您使用`setCustomerId`/`customerIds`來傳送客戶ID。
+  如果`mbox3rdPartyId`是您唯一的`thirdPartyId`解決方案，而且您不想使用客戶屬性，則可以使用[!DNL Target]/[!DNL Adobe Experience Cloud]。 對於所有其他情況，我們建議您使用`setCustomerId`/`customerIds`來傳送客戶ID。
 
   >[!IMPORTANT]
   >

@@ -2,7 +2,7 @@
 keywords: 建議;常見問題;faq
 description: 常見問題集(FAQ)及其關於 [!DNL Target Recommendations] 設計的回答。
 title: 何處可以取得 [!DNL Target Recommendations]的設計問題解答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -30,7 +30,7 @@ ht-degree: 58%
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 設計中為何沒有顯示類別? 我正在使用`$entity1.categoryId`。{#section_073309B8051049C7953D396A93EA0713}
+## 設計中為何沒有顯示類別? 我正在使用`$entity1.categoryId`。 {#section_073309B8051049C7953D396A93EA0713}
 
 設計中無法顯示類別 ID。因為可以儲存多個類別，所以系統不知道要顯示哪個類別。
 

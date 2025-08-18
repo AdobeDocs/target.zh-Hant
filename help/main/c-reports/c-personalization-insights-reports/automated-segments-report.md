@@ -1,14 +1,14 @@
 ---
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集
-description: 瞭解Adobe [!DNL Target] 個人化模型所定義的不同區段，如何檢視「自動化區段」報表，以回應活動中的選件/體驗。
+description: 檢視「自動化區段」報表，瞭解Adobe [!DNL Target] 個人化模型所定義的不同區段如何回應活動中的選件/體驗。
 title: 什麼是自動化區段報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 59%
 >
 >* [!UICONTROL Personalization Insights]報告僅適用於使用轉換最佳化目標的AP和AT活動。 也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
 >
->* 必須從[!UICONTROL Report Metric]下拉式清單中選取[!UICONTROL Primary Goal]，才能使用[!UICONTROL Personalization Insights]報告。
+>* 必須從[!UICONTROL Personalization Insights]下拉式清單中選取[!UICONTROL Primary Goal]，才能使用[!UICONTROL Report Metric]報告。
 >
->* 僅[預設環境](/help/main/administrating-target/hosts.md)支援[!UICONTROL Personalization Insights]報告。
+>* 僅[!UICONTROL Personalization Insights]預設環境[支援](/help/main/administrating-target/hosts.md)報告。
 >
 >* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL Live]狀態且已啟用且接收流量至少15天的活動產生。
 
@@ -102,7 +102,7 @@ ht-degree: 59%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳到Target，以在Target的個人化模型中使用的詳細資訊，請參閱[將資料傳入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 **何謂自動化區段?**
 

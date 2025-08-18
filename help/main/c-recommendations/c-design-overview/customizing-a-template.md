@@ -2,7 +2,7 @@
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
 description: 瞭解如何使用開放原始碼 [!DNL Velocity] 設計語言來自訂 [!DNL Target] Recommendations中的建議設計。
 title: 如何使用Velocity自訂設計？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -16,13 +16,13 @@ ht-degree: 33%
 
 使用開放原始碼[!DNL Velocity]設計語言來自訂[!DNL Adobe Target Recommendations]中的建議設計。
 
-## [!DNL Velocity]總覽 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity] 概覽 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 有關[!DNL Velocity]的資訊可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
 
-所有[!DNL Velocity]邏輯、語法等均可用於建議設計。 這表示您可以使用[!DNL Velocity]而非JavaScript來建立&#x200B;*for*&#x200B;回圈、*if*&#x200B;陳述式及其他程式碼。
+所有[!DNL Velocity]邏輯、語法等均可用於建議設計。 這表示您可以使用&#x200B;*而非JavaScript來建立* for *回圈、* if[!DNL Velocity]陳述式及其他程式碼。
 
-傳送至`productPage` mbox中的[!DNL Recommendations]或CSV上傳的實體屬性可以在設計中顯示，但「多值」屬性除外。 任何型別的屬性都可以傳送；不過，[!DNL Target]不會傳遞型別「多值」的屬性做為範本可以反複處理的陣列（例如`entityN.categoriesList`）。
+傳送至[!DNL Recommendations] mbox中的`productPage`或CSV上傳的實體屬性可以在設計中顯示，但「多值」屬性除外。 任何型別的屬性都可以傳送；不過，[!DNL Target]不會傳遞型別「多值」的屬性做為範本可以反複處理的陣列（例如`entityN.categoriesList`）。
 
 這些值以下列語法加以參考:
 

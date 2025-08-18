@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # 搜尋和篩選內容
 
-在[!DNL Adobe Target]的[!UICONTROL Offers]資料庫中依關鍵字搜尋資產。
+在[!UICONTROL Offers]的[!DNL Adobe Target]資料庫中依關鍵字搜尋資產。
 
 ## 依關鍵字搜尋代碼選件
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下內容程式庫右上角的[!UICONTROL Card View]圖示或[!UICONTROL List View]圖示。 您也可以在檢視[!UICONTROL List View]時使用[!UICONTROL View Settings]進一步設定資料行。
+1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下內容程式庫右上角的[!UICONTROL Card View]圖示或[!UICONTROL List View]圖示。 您也可以在檢視[!UICONTROL View Settings]時使用[!UICONTROL List View]進一步設定資料行。
 
    下圖顯示檢視[!UICONTROL List View]時可用的選項：
 

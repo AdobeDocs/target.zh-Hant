@@ -35,9 +35,9 @@ ht-degree: 14%
 
 1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**」以顯示現有排除專案的清單。
 
-   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」，為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/recommendations){target=_blank}。
+   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 如需有關如何變更預設主機群組的資訊，請參閱[Adobe Target開發人員指南 [!DNL Recommendations]中的](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}計畫和實作&#x200B;**。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ），然後在建立（或更新）排除專案時，從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)，以預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ），然後在建立（或更新）排除專案時，從[下拉式清單中選擇所需的](/help/main/administrating-target/environments.md)環境&#x200B;**[!UICONTROL Environment]**，以預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
 
 1. 按一下 **[!UICONTROL Create Exclusion]**。
 
@@ -69,7 +69,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 請注意，整個帳戶都可以使用排除專案。 刪除排除專案前，請務必考量此注意事項。 已刪除的排除專案無法復原。
 
-## 訓練影片：在Recommendations中建立集合和排除專案(7:05) ![教學課程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：在Recommendations (7:05) ![教學課程徽章](/help/main/assets/tutorial.png)中建立集合和排除專案
 
 此影片包含下列資訊:
 

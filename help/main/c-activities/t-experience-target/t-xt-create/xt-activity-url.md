@@ -1,7 +1,7 @@
 ---
 keywords: 體驗鎖定目標； XT；活動URL； URL
-description: 瞭解如何指定[!UICONTROL Activity URL]，以決定測試中使用以及使用 [!DNL Adobe Target]設計[!UICONTROL Experience Targeting]活動時開啟的頁面。
-title: 什麼是[!UICONTROL Experience Targeting] (XT)活動中的[!UICONTROL Activity URL]？
+description: 瞭解如何指定[!UICONTROL Activity URL]，以決定測試中使用以及使用[!UICONTROL Experience Targeting]設計 [!DNL Adobe Target]活動時開啟的頁面。
+title: 什麼是[!UICONTROL Activity URL] (XT)活動中的[!UICONTROL Experience Targeting]？
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -23,7 +23,7 @@ ht-degree: 38%
    >
    >依預設，VEC或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您可以在活動建立期間指定不同的頁面。
    >
-   >如果您指定的網站URL不包括[[!DNL Target] at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant){target=_blank}，則無法選取頁面元素。
+   >如果您指定的網站URL不包括[[!DNL Target] at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}，則無法選取頁面元素。
 
 1. （視條件而定）若要在VEC開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL Configure]**，選取&#x200B;**[!UICONTROL Page Delivery]**，然後在[!UICONTROL URL]欄位中指定URL。
 

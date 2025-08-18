@@ -7,7 +7,7 @@ exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 28%
 
    ![排除專案清單影像](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」，為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以變更預設主機群組。
+   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}，瞭解如何變更預設主機群組。
 
 1. 按一下 **[!UICONTROL Create Exclusion]**。
 
@@ -55,7 +55,7 @@ ht-degree: 28%
 
 ## 使用進階搜尋建立排除項目
 
-您也可以使用[目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md#save-as)頁面( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])上的[!UICONTROL Advanced Search]來建立排除專案。
+您也可以使用[!UICONTROL Advanced Search]目錄搜尋[頁面( ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) > [!UICONTROL Recommendations] > [!UICONTROL Catalog Search])上的[!UICONTROL Advanced Search]來建立排除專案。
 
 ![另存為對話方塊](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -75,7 +75,7 @@ ht-degree: 28%
 
 請注意，整個帳戶都可以使用排除專案。 刪除排除專案前，請務必先考量此事項。 已刪除的排除專案無法復原。
 
-## 訓練影片：在Recommendations中建立集合和排除專案(7:05) ![教學課程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：在Recommendations (7:05) ![教學課程徽章](/help/main/assets/tutorial.png)中建立集合和排除專案
 
 此影片包含下列資訊:
 

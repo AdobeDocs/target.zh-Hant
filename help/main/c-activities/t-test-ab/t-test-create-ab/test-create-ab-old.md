@@ -13,13 +13,13 @@ ht-degree: 35%
 
 # 建立 A/B 測試
 
-在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)直接在啟用[!DNL Target]的頁面上建立您的[!UICONTROL A/B Test]活動，以及在[!DNL Target]內修改頁面的部分。
+在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)直接在啟用[!UICONTROL A/B Test]的頁面上建立您的[!DNL Target]活動，以及在[!DNL Target]內修改頁面的部分。
 
 >[!NOTE]
 >
 >除了手動（預設） [!UICONTROL A/B Test]活動（本文中討論）之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B Test]活動： [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]。
 >
->檢視&#x200B;*A/B測試總覽*&#x200B;中的[A/B測試活動型別](/help/main/c-activities/t-test-ab/test-ab.md#types)。
+>檢視[A/B測試總覽](/help/main/c-activities/t-test-ab/test-ab.md#types)中的&#x200B;*A/B測試活動型別*。
 
 若要建立手動[!UICONTROL A/B Test]活動：
 
@@ -85,7 +85,7 @@ ht-degree: 35%
 
    如需在[!UICONTROL Visual Experience Composer]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 若要修改體驗 B，請從步驟 2 開始。
 
-1. 按一下[!UICONTROL Visual Experience Composer]頂端的&#x200B;**[!UICONTROL Targeting]**，以前往三步驟引導工作流程中的下一個步驟。
+1. 按一下&#x200B;**[!UICONTROL Targeting]**&#x200B;頂端的[!UICONTROL Visual Experience Composer]，以前往三步驟引導工作流程中的下一個步驟。
 
    流程圖表隨即開啟。
 
@@ -129,7 +129,7 @@ ht-degree: 35%
 
 此影片示範如何使用 [!DNL Target] 三個步驟引導工作流程來建立 A/B 測試。
 
-* 在[!DNL Adobe Target]中建立[!UICONTROL A/B Test]活動
+* 在[!UICONTROL A/B Test]中建立[!DNL Adobe Target]活動
 * 使用手動分割或自動流量分配來分配流量
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

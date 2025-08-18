@@ -7,7 +7,7 @@ exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 ## 哪些活動型別支援[!DNL Analytics]做為報表來源(A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++回答
-如需完整清單，請參閱[Adobe Analytics as a4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)中的「支援的活動型別」，作為Adobe Target的報表Source。
+如需完整清單，請參閱 [Adobe Analytics 作為 Adobe Target (A4T) 的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)中的「支援的活動類型」。
 
 +++
 
@@ -52,16 +52,16 @@ ht-degree: 6%
 ## 建立活動時，為何無法選取Analytics作為報表來源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++回答
-您可以在[!UICONTROL Administration]中變更您的[!UICONTROL Reporting Settings]選項。
+您可以在[!UICONTROL Reporting Settings]中變更您的[!UICONTROL Administration]選項。
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]**。
 1. 在&#x200B;**[!UICONTROL Experience Cloud solution used for reporting]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL Select per Activity]**。
 
 ![為每個活動選取影像](assets/select-per-activity.png)
 
-已在&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;畫面中啟用&#x200B;**[!UICONTROL Reporting Source]**&#x200B;下拉式清單，以用於建立和編輯活動。
+已在&#x200B;**[!UICONTROL Reporting Source]**&#x200B;畫面中啟用&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;下拉式清單，以用於建立和編輯活動。
 
-若要一律使用[!DNL Analytics]作為報表來源，請在[!UICONTROL Administration]中從下拉式清單選取&#x200B;**[!UICONTROL Adobe Analytics]**。
+若要一律使用[!DNL Analytics]作為報表來源，請在&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;中從下拉式清單選取[!UICONTROL Administration]。
 
 +++
 
@@ -79,7 +79,7 @@ ht-degree: 6%
 
 +++
 
-## 我可以在[!UICONTROL Auto-Allocate]活動中，將二項式[!DNL Analytics]量度搭配作為最佳化目標的區段一起使用嗎？ {#binomial}
+## 我可以在[!DNL Analytics]活動中，將二項式[!UICONTROL Auto-Allocate]量度搭配作為最佳化目標的區段一起使用嗎？ {#binomial}
 
 +++回答
 您無法將[!DNL Analytics]量度與已套用為[!UICONTROL Auto-Allocate]活動中最佳化目標的區段搭配使用。 暫行解決方法是定義達成相同目標的自訂事件，並將其作為最佳化目標量度。

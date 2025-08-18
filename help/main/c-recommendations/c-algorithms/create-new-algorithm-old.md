@@ -2,7 +2,7 @@
 keywords: 條件；演演算法；垂直產業；頁面型別；建議索引鍵；建議邏輯；資料範圍；回顧視窗；行為資料來源；部分設計；備用建議；包含規則；屬性加權；目前類別；自訂屬性；上次購買的專案；上次檢視的專案；檢視次數最多的專案；最愛類別；人氣；最近檢視的專案；上次購買的專案；上次檢視次數最多；最愛；最近檢視；最近檢視
 description: 瞭解如何建立條件來控制Adobe Recommendations活動的內容，以顯示最適合您活動的建議。
 title: 如何在Recommendations中建立條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -23,7 +23,7 @@ ht-degree: 49%
 有多種方式可以到達[!UICONTROL Create New Criteria]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。 您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
-* 當您使用[!UICONTROL Visual Experience Composer] (VEC)建立[!DNL Recommendations]活動時，在您選取頁面上的元素並按一下[!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before]或[!UICONTROL Insert Recommendations After]後，就會立即進入[!UICONTROL Select Criteria]畫面。 然後，您可以選取可用的條件或按一下&#x200B;**[!UICONTROL Create Criteria]**。 如果您建立新條件，您可以選擇儲存條件以搭配其他[!DNL Recommendations]活動使用。 如需詳細資訊，請參閱[建立Recommendations活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 當您使用[!DNL Recommendations] (VEC)建立[!UICONTROL Visual Experience Composer]活動時，在您選取頁面上的元素並按一下[!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations]或[!UICONTROL Insert Recommendations Before]後，就會立即進入[!UICONTROL Insert Recommendations After]畫面。 然後，您可以選取可用的條件或按一下&#x200B;**[!UICONTROL Create Criteria]**。 如果您建立新條件，您可以選擇儲存條件以搭配其他[!DNL Recommendations]活動使用。 如需詳細資訊，請參閱[建立建議活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 編輯[!DNL Recommendations]活動時，請在頁面上的[!UICONTROL Recommendations Location]方塊中按一下，然後選取&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]畫面上，按一下&#x200B;**[!UICONTROL Create Criteria]**。 您將可以選擇儲存您的新條件以搭配其他 [!DNL Recommendations] 活動使用。
 
 下列步驟假設您使用第一個方法存取[!UICONTROL Create New Criteria]畫面： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面。
@@ -124,7 +124,7 @@ ht-degree: 49%
 
    | 回顧視窗選項 | 更新頻率（懸停時顯示） | 支援的演演算法 |
    | --- | --- | --- |
-   | 六小時 | 演演算法每3-6小時執行一次 | 當選取的[!UICONTROL Behavioral Data Source]為[!DNL Adobe Target]時，[!UICONTROL Popularity-Based]演演算法 |
+   | 六小時 | 演演算法每3-6小時執行一次 | 當選取的[!UICONTROL Popularity-Based]為[!UICONTROL Behavioral Data Source]時，[!DNL Adobe Target]演演算法 |
    | 一天 | 演演算法每12到24小時執行一次 | [!UICONTROL Popularity-Based]演演算法 |
    | 兩天 | 演演算法每12到24小時執行一次 | <ul><li>[!UICONTROL Popularity-Based]演演算法</li><li>[!UICONTROL Item-Based]演演算法</li><li>[!UICONTROL User-Based]演演算法</li><li>[!UICONTROL Cart-Based]演演算法</li></ul> |
    | 一週 | 演演算法每24到48小時執行一次 | <ul><li>[!UICONTROL Popularity-Based]演演算法</li><li>[!UICONTROL Item-Based]演演算法</li><li>[!UICONTROL User-Based]演演算法</li><li>[!UICONTROL Cart-Based]演演算法</li></ul> |
@@ -267,7 +267,7 @@ ht-degree: 49%
 
 如果您要建立新的[!UICONTROL Recommendations]活動或編輯現有的活動，依預設會選取&#x200B;**[!UICONTROL Save criteria for later]**&#x200B;核取方塊。 如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
 
-## 訓練影片：在Recommendations中建立條件(12:33) ![教學課程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：在Recommendations (12:33) ![教學課程徽章](/help/main/assets/tutorial.png)中建立條件
 
 此影片包含下列資訊:
 

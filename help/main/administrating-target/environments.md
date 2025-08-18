@@ -7,8 +7,8 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 47%
+source-wordcount: '653'
+ht-degree: 46%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 47%
 >
 >[!DNL Recommendations]如果主機會切換主機群組， 的使用者必須重建其行為資料庫和產品資料庫。
 >
->如果您在 [!DNL Adobe Experience Platform] 資料流[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#target){target=_blank}中指定預設環境，此設定會覆寫[!DNL Target]中的設定。
+>如果您在[資料流 [!DNL Adobe Experience Platform] 中指定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}預設環境，此設定會覆寫[!DNL Target]中的設定。
 
 ## 變更環境的名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -69,7 +69,7 @@ ht-degree: 47%
 >
 >您無法刪除[!UICONTROL Production]環境，但您可以重新命名。
 
-## [!BADGE 進階版]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="檢視Target Premium包含的內容。"}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="檢視Target Premium包含的內容。"}建議：根據環境（主機群組）篩選集合和排除專案
 
 您可以預覽所選環境 (主機群組) 的建議集合和排除項目。
 

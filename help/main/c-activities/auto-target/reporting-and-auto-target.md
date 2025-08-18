@@ -1,8 +1,8 @@
 ---
 keywords: 自動鎖定目標；鎖定目標；流量分配；常見問題集；faq；疑難排解；疑難排解；報表；自動鎖定目標摘要報表；摘要報表；自動化區段；重要屬性
-description: 瞭解如何解譯 [!DNL Target]中的[!UICONTROL Auto-Target]活動報告。
+description: 瞭解如何解譯[!UICONTROL Auto-Target]中的 [!DNL Target]活動報告。
 title: 如何解譯[!UICONTROL Auto-Target]報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # 報告與[!UICONTROL Auto-Target]
 
-有關如何解譯[!DNL Adobe Target]中[!UICONTROL Auto-Target Summary]報告的資訊，包括[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]報告。
+有關如何解譯[!UICONTROL Auto-Target Summary]中[!DNL Adobe Target]報告的資訊，包括[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]報告。
 
 如需各報表的詳細資訊，請參閱下列主題：
 

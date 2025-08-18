@@ -1,20 +1,20 @@
 ---
 keywords: 自動個人化；ap；對象；整體；隨機森林；多臂吃角子老虎機；Thompson取樣；ml；機器學習
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Automated Personalization] (AP)活動，這些活動使用進階機器學習來比對每個訪客的不同優惠方案變數。
+description: 瞭解如何在[!UICONTROL Automated Personalization]中使用 [!DNL Adobe Target]  (AP)活動，這些活動使用進階機器學習來比對每個訪客的不同優惠方案變數。
 title: 什麼是[!UICONTROL Automated Personalization] (AP)活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
 # [!UICONTROL Automated Personalization] (AP)
 
-[!DNL Adobe Target]中的[!UICONTROL Automated Personalization] (AP)活動會結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同選件變數，以個人化內容並促進提升度。
+[!UICONTROL Automated Personalization]中的[!DNL Adobe Target] (AP)活動會結合選件或訊息，並使用進階機器學習來根據訪客的個別客戶設定檔比對每位訪客的不同選件變數，以個人化內容並促進提升度。
 
 >[!NOTE]
 >
@@ -68,15 +68,15 @@ ht-degree: 28%
 
 離線資料（例如CRM資訊或客戶流失傾向分數）在建置個人化模型時可能極具價值。 有數種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]個人化演演算法中輸入資料。
 
-* [mbox引數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
-* [設定檔引數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
-* 設定檔更新的[伺服器端API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
+* [mbox 參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [輪廓參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [輪廓更新的伺服器端 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
 
 有關[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]個人化演演算法自動收集和使用之資料的資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
 ## 訓練影片: 活動類型
 
-此影片說明 [!DNL Target] 中的可用活動類型。上午 05:55 處開始討論 [!UICONTROL Automated Personalization]。
+此影片說明 [!DNL Target] 中的可用活動類型。從5[!UICONTROL Automated Personalization]開始討論:55。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型

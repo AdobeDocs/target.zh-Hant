@@ -13,7 +13,7 @@ ht-degree: 64%
 
 # [!UICONTROL Visual Editing Helper]副檔名
 
-[!DNL Google Chrome]的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能可讓您可靠地在[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)內載入網站，以快速撰寫網站體驗及評估品質。
+[!DNL Adobe Experience Cloud]的[!UICONTROL Visual Editing Helper] [!DNL Google Chrome]瀏覽器擴充功能可讓您可靠地在[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)內載入網站，以快速撰寫網站體驗及評估品質。
 
 >[!IMPORTANT]
 >
@@ -34,13 +34,13 @@ ht-degree: 64%
 
   使用[增強型體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)時，此擴充功能不會插入 at.js，但是 SameSite Cookie 功能依然存在。 若要在網頁上插入 at.js，請關閉 EEC。
 
-* 即使沒有[!UICONTROL Enhanced Experience Composer] (EEC)，也支援[行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
+* 即使沒有[ (EEC)，也支援](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)行動檢視區[!UICONTROL Enhanced Experience Composer]。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
 * 管理多位客戶網站與 [!DNL Target] 帳戶的合作夥伴現在擁有一套簡單的機制可支援 VEC 載入工作，而不必在第三方工作中管理多個規則。
 
 ## 取得並安裝[!UICONTROL Visual Editing Helper]瀏覽器延伸模組
 
-1. 導覽至Chrome網站商店中的[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器延伸模組](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
+1. 導覽至Chrome網站商店[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]中的](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}瀏覽器擴充功能。
 1. 按一下&#x200B;**[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**。
 1. 在 [!DNL Target] 中開啟 VEC。
 1. 若要使用擴充功能，請在VEC或QA模式中時，按一下Chrome瀏覽器工具列上的[!UICONTROL Visual Editing Helper]瀏覽器擴充功能圖示（ ![Visual Editing擴充功能圖示](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
@@ -51,7 +51,7 @@ ht-degree: 64%
 
 ## 附註
 
-* 對於[!DNL Target]，此擴充功能會載入最新版的at.js，這個檔案可從[!UICONTROL Administration] > [!UICONTROL Implementation]的[!DNL Target] UI取得，而且at.js會下載撰寫程式庫。
+* 對於[!DNL Target]，此擴充功能會載入最新版的at.js，這個檔案可從[!DNL Target] > [!UICONTROL Administration]的[!UICONTROL Implementation] UI取得，而且at.js會下載撰寫程式庫。
 * 在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用此擴充功能來插入 at.js 時，您必須開啟另一個 Chrome 分頁。 必須向您活動建立所在的相同 [!DNL Adobe Experience Cloud] 組織驗證此 Chrome 分頁。
 * 以下訊息有助於您了解：
 

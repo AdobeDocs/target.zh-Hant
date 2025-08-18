@@ -15,7 +15,7 @@ ht-degree: 8%
 
 對象會決定哪些符合資格的訪客進入了您的[!DNL Adobe Target]活動。
 
-在[建立活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，三步驟引導式工作流程的[!UICONTROL Targeting]步驟會顯示流程圖表，引導您完成指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
+在[!UICONTROL Targeting]建立活動[時，三步驟引導式工作流程的](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)步驟會顯示流程圖表，引導您完成指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
 ![A/B 測試鎖定目標步驟](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
@@ -44,7 +44,7 @@ ht-degree: 8%
    在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以選擇下列選項：
 
    * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可於其他活動中重複使用的隨選對象。
-   * **[!UICONTROL This activity only]**：建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
+   * **[!UICONTROL This activity only]**：建立未儲存至[且只能用於目前活動的](/help/main/c-target/creating-activity-only-audience.md)活動特定對象[!UICONTROL Audience Library]。
 
 1. 按一下右窗格中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後指定要包含在活動中的合格訪客百分比。
 
@@ -62,6 +62,6 @@ ht-degree: 8%
 
 ## 編輯或複製對象
 
-您可以編輯或複製對象，方法是按一下[!UICONTROL Add Audience]對話方塊中所需對象旁的[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/More.svg) ），然後按一下[!UICONTROL Edit]或[!UICONTROL Copy]。
+您可以編輯或複製對象，方法是按一下[!UICONTROL More Actions]對話方塊中所需對象旁的![圖示（](/help/main/assets/icons/More.svg)更多動作圖示[!UICONTROL Add Audience] ），然後按一下[!UICONTROL Edit]或[!UICONTROL Copy]。
 
 如果想要建立一個類似現有對象的對象，則複製對象就很有用。您可以製作對象的副本、進行編輯，然後儲存為新對象。

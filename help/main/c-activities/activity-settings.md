@@ -7,13 +7,13 @@ exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
 # 活動設定
 
-在[!DNL Adobe Target]中使用[!UICONTROL Activity Settings]來管理活動的目標、優先順序和期間。
+在[!UICONTROL Activity Settings]中使用[!DNL Adobe Target]來管理活動的目標、優先順序和期間。
 
 1. 輸入關於活動目標的備註。
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 
 1. 設定活動的持續時間。
 
-   您可以手動啟動和停用活動，或活動傳送指定日期和時間。時間控制項會使用 24 小時制，午夜為 00:00。時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+   您可以手動啟動和停用活動，或活動傳送指定日期和時間。時間控制項使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ ht-degree: 74%
 * [自動個人化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 * [體驗鎖定目標](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [多變數測試](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [建議](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [推薦](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## 訓練影片：活動設定![教學課程徽章](/help/main/assets/tutorial.png)
 

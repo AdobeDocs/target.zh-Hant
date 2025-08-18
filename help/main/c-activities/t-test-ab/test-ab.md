@@ -29,7 +29,7 @@ ht-degree: 21%
 >
 >如需判斷 A/B 測試最佳樣本大小的詳細資訊，請參閱[計劃 A/B 測試](/help/main/c-activities/t-test-ab/sample-size-determination.md)。
 
-當不同體驗的數量超過5個，並橫跨兩個或更多位置時，在執行您的A/B測試之前最好考慮[MVT測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 多變數測試會顯示頁面上的哪些區域最可能改善轉換。這些區域是行銷人員應該關注的位置。 例如，MVT 測試可能顯示對動作的呼叫是符合您的目標的最重要位置。在您決定哪些位置和內容對協助您達成目標最有用後，就可以執行A/B測試以進一步調整結果。 例如，相互測試兩個特定影像，或比較行動號召的措辭或顏色。 遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
+當不同體驗的數量超過5個，並橫跨兩個或更多位置時，在執行您的A/B測試之前最好考慮[MVT測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 多變數測試會顯示頁面上的哪些區域最可能改善轉換。這些區域是行銷人員應該關注的位置。 例如，MVT 測試可能顯示對動作的呼叫是符合您的目標的最重要位置。在您決定哪些位置和內容對協助您達成目標最有用後，就可以執行A/B測試以進一步調整結果。 例如，相互測試兩個特定影像，或比較call to action的文字或顏色。 遵循下列具有一或多個 A/B 測試的 MVT 測試，您可以判斷所需結果的最佳可能內容。
 
 ## A/B測試活動的型別 {#types}
 
@@ -38,7 +38,7 @@ ht-degree: 21%
 | 活動類型 | 說明 |
 | --- | --- |
 | [!UICONTROL Manual A/B Test] | 比較兩個或多個體驗，以瞭解哪個體驗最能改善整個預先指定的測試期間的轉換。<P>本節說明如何設定手動[!UICONTROL A/B Test]活動，但其他型別的[!UICONTROL A/B Test]活動的步驟類似。 |
-| [!UICONTROL Auto-Allocate] | 從兩個或多個體驗中識別獲勝者，然後將流量重新導向獲勝者，以隨著測試執行和學習增加轉換。<P>若要瞭解使用[!UICONTROL Auto-Allocate]活動的好處，請參閱&#x200B;*中的[自動分配](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)您應該執行A/B測試*&#x200B;以及[自動分配總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
+| [!UICONTROL Auto-Allocate] | 從兩個或多個體驗中識別獲勝者，然後將流量重新導向獲勝者，以隨著測試執行和學習增加轉換。<P>若要瞭解使用[!UICONTROL Auto-Allocate]活動的好處，請參閱[中的](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)自動分配&#x200B;*您應該執行A/B測試*&#x200B;以及[自動分配總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
 | ![進階徽章](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | 使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗來促進轉換。 接著，系統會根據訪客的個別客戶設定檔與類似訪客先前的行為，提供量身打造的最佳體驗。<P>如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
 如需關於哪些[!UICONTROL A/B Test]活動適合您的詳細資訊，請參閱互動式[Adobe Target活動指南PDF](/help/main/c-activities/target-activities-guide.md)。

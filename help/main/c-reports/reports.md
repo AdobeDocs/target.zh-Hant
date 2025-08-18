@@ -21,7 +21,7 @@ ht-degree: 26%
 
    如果您有許多活動，可以按一下「篩選」圖示（ ![篩選圖示](/help/main/assets/icons/Filter.svg) ）來篩選清單，方法是從[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Method]和[!UICONTROL Activity Source]清單中選取選項。
 
-   例如，您可以從[!UICONTROL Type]下拉式清單中選取[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting]，以及從[!UICONTROL Status]下拉式清單中選取[!UICONTROL Live]，以僅顯示處於作用中狀態的[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting]活動。
+   例如，您可以從[!UICONTROL A/B Test]下拉式清單中選取[!UICONTROL Experience Targeting]和[!UICONTROL Type]，以及從[!UICONTROL Live]下拉式清單中選取[!UICONTROL Status]，以僅顯示處於作用中狀態的[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting]活動。
 
    下圖顯示已選取兩種型別的[!UICONTROL Type]下拉式清單： [!UICONTROL A/B Test]和[!UICONTROL Experience Targeting]。 請注意，根據預設會選取三種類型 A/B 測試 (手動、[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md))。您可以視需要取消選取一或多個類型。
 
@@ -44,7 +44,7 @@ ht-degree: 26%
    >
    >至少有一個加入者看過體驗之後，體驗結果才會出現。
 
-1. （選擇性） [按一下「報表設定」圖示（![報表設定圖示](/help/main/assets/icons/Setting.svg)）來設定報表](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)。
+1. （選擇性） [按一下「報表設定」圖示（](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)報表設定圖示![）來設定報表](/help/main/assets/icons/Setting.svg)。
 1. （選擇性）按一下「下載報表」圖示（![下載報表圖示](/help/main/assets/icons/Download.svg)）以[下載CSV格式的報告](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)，以便在Excel和其他工具中進行分析。
 
    可使用下列選項: 
@@ -69,12 +69,12 @@ ht-degree: 26%
 | 活動類型 | 詳細資料 |
 |--- |--- |
 | [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md) | 若要瞭解提升度與可信度，以及 [!DNL Target] 中使用的統計方法，請參閱[計劃 A/B 測試](/help/main/c-activities/t-test-ab/sample-size-determination.md)。 |
-| [解譯[!UICONTROL Auto-Allocate]報告](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 在[!DNL Target] UI中檢查重要指標（包括提升度和信賴度），以解譯[!UICONTROL Auto-Allocate] A/B活動的結果。 |
+| [解譯[!UICONTROL Auto-Allocate]報告](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 在[!UICONTROL Auto-Allocate] UI中檢查重要指標（包括提升度和信賴度），以解譯[!DNL Target] A/B活動的結果。 |
 | [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | AT活動[!UICONTROL Summary]報表的相關資訊。 如需詳細資訊，請參閱[[!UICONTROL Auto-Target Summary]報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)。<br>AT和AP活動之兩個[!UICONTROL Personalization Insights]報表的相關資訊： [!UICONTROL Automated Segments]報表和[!UICONTROL Important Attributes]報表。 如需詳細資訊，請參閱[個人化前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | AP活動之兩個[!UICONTROL Automated Personalization Summary]報表的相關資訊： [!UICONTROL Activity Level]報表與[!UICONTROL Offer Level]報表。 如需詳細資訊，請參閱[自動個人化摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)。<br>AT和AP活動之兩個[!UICONTROL Personalization Insights]報表的相關資訊： [!UICONTROL Automated Segments]報表和[!UICONTROL Important Attributes]報表。 如需詳細資訊，請參閱[個人化前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | MVT活動之兩個報表的相關資訊： [!UICONTROL Experience Performance]報表和[!UICONTROL Location Contribution]報表。 如需詳細資訊，請參閱[體驗效能報表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT)和[位置貢獻報表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT)。 |
 | [[!DNL Adobe Analytics] 作為Adobe Target ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的報表Source | 使用[!DNL Adobe Analytics]做為[!DNL Target] (A4T)之報表來源的相關資訊。 A4T 可讓您存取 [!DNL Target] 活動的 [!DNL Analytics] 報表。如需詳細資訊，請參閱 [Analytics for Target (A4T) 報表](/help/main/c-reports/analytics-for-target-a4t-reporting.md)。 |
-| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告 | 有關[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間整合的資訊，可為您的最佳化程式提供強大的分析與省時的工具。 |
+| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告 | 有關[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間整合的資訊，可為您的最佳化程式提供強大的分析與省時的工具。 |
 
 ## 封鎖來自指定IP位址的報告資料
 

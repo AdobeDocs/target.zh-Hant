@@ -1,5 +1,5 @@
 ---
-keywords: 建議
+keywords: 推薦
 description: 探索常見案例，說明在視覺化體驗撰寫器(VEC)中對您的頁面所做的變更如何影響Adobe Target顯示體驗的功能。
 title: 哪些是常見的頁面修改案例？
 feature: Visual Experience Composer (VEC)

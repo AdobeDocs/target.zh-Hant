@@ -7,7 +7,7 @@ exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -35,6 +35,6 @@ ht-degree: 75%
 
 ## 訓練影片：建立MVT測試![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。8:20 開始說明「體驗效能」報表。
+此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。從8:20開始說明體驗效能報表。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

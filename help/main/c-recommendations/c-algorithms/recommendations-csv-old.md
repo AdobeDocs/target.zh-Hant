@@ -2,7 +2,7 @@
 keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
 description: 瞭解如何上傳CSV檔案，以自訂Adobe [!DNL Target] Recommendations中的建議。
 title: 如何在Recommendations中上傳自訂條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -19,7 +19,7 @@ ht-degree: 32%
 有多種方式可以到達[!UICONTROL Create New Criteria]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。 您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
-* 當您使用[!UICONTROL Visual Experience Composer] (VEC)建立[!DNL Recommendations]活動時，在您選取頁面上的元素並按一下[!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before]或[!UICONTROL Insert Recommendations After]後，就會立即進入[!UICONTROL Select Criteria]畫面。 然後，您可以選取可用的條件或按一下&#x200B;**[!UICONTROL Create Criteria]**。 如果您建立新條件，可以儲存條件以搭配其他[!DNL Recommendations]活動使用。 如需詳細資訊，請參閱[建立Recommendations活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 當您使用[!DNL Recommendations] (VEC)建立[!UICONTROL Visual Experience Composer]活動時，在您選取頁面上的元素並按一下[!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations]或[!UICONTROL Insert Recommendations Before]後，就會立即進入[!UICONTROL Insert Recommendations After]畫面。 然後，您可以選取可用的條件或按一下&#x200B;**[!UICONTROL Create Criteria]**。 如果您建立新條件，可以儲存條件以搭配其他[!DNL Recommendations]活動使用。 如需詳細資訊，請參閱[建立建議活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 編輯[!DNL Recommendations]活動時，請在頁面上的[!UICONTROL Recommendations Location]方塊中按一下，然後選取&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]畫面上，按一下&#x200B;**[!UICONTROL Create Criteria]**。 您可以儲存您的新條件以搭配其他[!DNL Recommendations]活動使用。
 
 下列步驟假設您使用第一個方法存取[!UICONTROL Create New Criteria]畫面： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面。
@@ -80,7 +80,7 @@ ht-degree: 32%
   | 找不到目錄 | 提供伺服器上存在的目錄。 |
   | 找不到檔案 | 提供伺服器上存在於指出目錄中檔案的名稱。 |
 
-## 訓練影片：在Recommendations中建立條件(12:33) ![教學課程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：在Recommendations (12:33) ![教學課程徽章](/help/main/assets/tutorial.png)中建立條件
 
 此影片包含下列資訊（上傳自訂條件的詳細資訊從11:43開始）：
 

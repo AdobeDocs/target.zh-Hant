@@ -2,7 +2,7 @@
 keywords: 推薦;產品建議
 description: 了解如何使用 Adobe 推薦作為 A/B 測試 (包括自動分配和自動鎖定目標) 以及體驗鎖定 (XT) 活動的產品建議。
 title: 如何使用推薦作為其他活動類型的產品建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
@@ -23,7 +23,7 @@ ht-degree: 60%
 * 使用[!UICONTROL Auto-Allocate]自動將流量推送到績效最好的建議體驗。
 * 使用[!UICONTROL Auto-Target]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-若要開始，請使用[!UICONTROL Visual Experience Composer]建立[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動，並使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]動作將建議新增至體驗。
+若要開始，請使用[!UICONTROL A/B Test]建立[!UICONTROL Experience Targeting]或[!UICONTROL Visual Experience Composer]活動，並使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]動作將建議新增至體驗。
 
 ## 新增建議作為 A/B 測試或 XT 活動中的產品建議
 

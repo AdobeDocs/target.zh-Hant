@@ -51,20 +51,20 @@ ht-degree: 32%
 
   請參閱[建立重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)。
 
-* 具有每個選件的體驗以及所需[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的[!DNL Target]活動。
+* 具有每個選件的體驗以及所需[!DNL Target]成功量度[的](/help/main/c-activities/r-success-metrics/success-metrics.md)活動。
 
   請參閱[重新導向至 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
-設定整合的[!DNL Campaign]部分之前，請先在[!DNL Target]中啟動活動。
+設定整合的[!DNL Target]部分之前，請先在[!DNL Campaign]中啟動活動。
 
-## 在[!DNL Adobe Campaign]電子郵件中包含[!DNL Target]選件 {#section_B201BBE27A704E18AF0D553F35695837}
+## 在[!DNL Target]電子郵件中包含[!DNL Adobe Campaign]選件 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在[!DNL Adobe Campaign]中建立電子郵件。
 1. 在電子郵件內容中，按一下&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**。
 1. 從共用資產中選取預設影像。
 1. 指定位置 (rawbox)。
 1. 新增任何其他決策參數，例如收件者的性別。
-1. 預覽電子郵件，並為每個選件至少選取一位收件者 (在此範例中是一男一女)。
+1. 預覽電子郵件，並為每個產品建議至少選取一位收件者 (在此範例中是一男一女)。
 1. 在[!DNL Campaign]中，定義您用來控制租使用者活動與名稱的[!DNL Target] Edge伺服器。
 1. 指定用於[!DNL Adobe Experience Cloud]的外部帳戶，以便您可以存取[!DNL Experience Cloud]中的資源。
 

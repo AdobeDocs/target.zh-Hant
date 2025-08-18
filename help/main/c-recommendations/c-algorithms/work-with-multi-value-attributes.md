@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-如需詳細資訊，請參閱&#x200B;*自訂實體屬性*&#x200B;中的[實作多值屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
+如需詳細資訊，請參閱[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)中的&#x200B;*實作多值屬性*。
 
 ## 在CSV檔案中傳遞多值實體屬性
 

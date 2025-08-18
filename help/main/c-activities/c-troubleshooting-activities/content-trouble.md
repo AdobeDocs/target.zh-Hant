@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 ## 擷取授權權杖以與偵錯工具一起使用 {#section_BED130298E794D1FA229DB7C3358BA54}
 
-由於 mboxTrace 和 mboxDebug 會公開促銷活動資料和描述檔資料給外部對象，因此需要授權權仗。在[!DNL Target]UI 中可以擷取授權 Token。權杖的有效期限為六小時。
+由於 mboxTrace 和 mboxDebug 會公開促銷活動資料和輪廓資料給外部對象，因此需要授權權仗。在[!DNL Target]UI 中可以擷取授權 Token。權杖的有效期限為六小時。
 
 您必須具備下列其中一個使用者權限才能產生驗證權杖：
 
@@ -65,7 +65,7 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤�
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-輸出會顯示與內容相關的詳細資訊。mboxTrace 會顯示與促銷活動或活動以及描述檔相關的詳細資訊，也會提供執行前的描述檔快照，以及執行後的變更項目快照。同時顯示每個位置評估了哪些促銷活動或活動。
+輸出會顯示與內容相關的詳細資訊。mboxTrace 會顯示與促銷活動或活動以及輪廓相關的詳細資訊，也會提供執行前的輪廓快照，以及執行後的變更項目快照。同時顯示每個位置評估了哪些促銷活動或活動。
 
 有些資訊包括相符和不相符的群體與目標 ID:
 
@@ -74,7 +74,7 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤�
 * **不相符**：請求在此呼叫中不符合那些群體或目標的資格。
 * **相符**：請求符合指定的群體或目標的資格。
 
-**在 Recommendations 頁面上使用 mboxTrace**：使用 mboxTrace 詳細資料視窗，新增 mboxTrace 做為具有推薦之頁面上的查詢參數，以取代該頁面的 Recommendations 設計，此可顯示關於您建議的深入資訊，包括下列項目：
+**在推薦頁面上使用 mboxTrace**：使用 mboxTrace 詳細資料視窗，新增 mboxTrace 做為具有推薦之頁面上的查詢參數，以取代該頁面的推薦設計，此可顯示關於您建議的深入資訊，包括下列項目：
 
 * 傳回的建議以較請求的建議
 * 使用的索引鍵，以及是否產生建議
@@ -85,7 +85,7 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。追蹤�
 
 您不需要在查詢引數中包含`=console`、`=json`或`=window`。 使用完mboxTrace詳細資料後，請新增`=disable`並按&#x200B;**[!UICONTROL Enter]**&#x200B;以返回正常顯示模式。
 
-mboxTrace 不會影響您網站的正常功能和外觀。訪客會看到您的一般 Recommendations 設計。
+mboxTrace 不會影響您網站的正常功能和外觀。訪客會看到您的一般推薦設計。
 
 ## mboxDebug {#mboxdebug}
 
@@ -107,13 +107,13 @@ mboxTrace 不會影響您網站的正常功能和外觀。訪客會看到您的�
 
 ## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 MboxTrace 工具來檢查活動、客群資格以及訪客設定檔。
+Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。只要驗證進入 Experience Cloud，您就可以利用功能強大的 MboxTrace 工具來檢查活動、客群資格鑑定以及訪客輪廓。
 
 如需詳細資訊，請觀看下方的訓練影片：
 
-如需詳細資訊，請參閱[使用Adobe Experience Cloud Debugger偵錯at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[使用 Adobe Experience Cloud Debugger 偵錯 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。
 
-## 最暢銷商品未出現在 Recommendations 中 {#section_3920C857270A406C80BE6CBAC8221ECD}
+## 最暢銷商品未出現在推薦中 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 *`SiteCatalyst: purchase`* 呼叫無法用於「購買」演算法流量資料。改為使用 *`orderConfirmPage`* 呼叫。
 
@@ -127,7 +127,7 @@ Target 不再支援 IE 8。
 
 ## 未設定 Target cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-如果您的網站有子網域，例如 [!DNL us.domain.com]，但您需要將 Target Cookie 設定在 [!DNL domain.com] (而不是 [!DNL us.domain.com])，則必須覆寫 `cookieDomain` 設定。如需詳細資訊，請參閱[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=zh-Hant){target=_blank}。
+如果您的網站有子網域，例如 [!DNL us.domain.com]，但您需要將 Target Cookie 設定在 [!DNL domain.com] (而不是 [!DNL us.domain.com])，則必須覆寫 `cookieDomain` 設定。如需詳細資訊，請參閱 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 
 ## 如果某個元素也是 Adobe Experience Manager 個人化的一部分，Target 內容會忽隱忽現或未出現。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -135,15 +135,15 @@ Target 不再支援 IE 8。
 
 若要補救這種情況，您可以在執行 Target 的頁面上停用 AEM 個人化。
 
-## 無效 URL 導致重新導向與遠端選件無法傳送。 {#section_7D09043B687F43B39DAEDF17D00375AC}
+## 無效 URL 導致重新導向與遠端產品建議無法傳送。 {#section_7D09043B687F43B39DAEDF17D00375AC}
 
-如果重新導向與遠端選件使用無效的 URL，可能會無法傳送。
+如果重新導向與遠端產品建議使用無效的 URL，可能會無法傳送。
 
-若為重新導向選件，可包含 [!DNL Target] 回應`/* invalid redirect offer URL */`
+若為重新導向產品建議，可包含 [!DNL Target] 回應`/* invalid redirect offer URL */`
 
 或
 
-若為遠端選件，可包含 [!DNL Target] 回應`/* invalid remote offer URL */`
+若為遠端產品建議，可包含 [!DNL Target] 回應`/* invalid remote offer URL */`
 
 您可在瀏覽器中或使用 mboxTrace 來檢查 [!DNL Target] 回應。請參閱 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 以取得有效 URL 的詳細資訊。
 

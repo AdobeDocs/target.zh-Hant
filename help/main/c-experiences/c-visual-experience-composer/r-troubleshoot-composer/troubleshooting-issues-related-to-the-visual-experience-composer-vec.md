@@ -18,7 +18,7 @@ ht-degree: 23%
 ## 當我在[!UICONTROL Visual Experience Composer]中開啟我的網站時，[!DNL Target]資料庫未載入。 (僅限 VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++詳細資料
-在[!UICONTROL Visual Experience Composer]中開啟網站時，[!DNL Target]新增兩個引數（`mboxEdit=1`和`mboxDisable=1`）。
+在[!DNL Target]中開啟網站時，`mboxEdit=1`新增兩個引數（`mboxDisable=1`和[!UICONTROL Visual Experience Composer]）。
 
 如果您的網站（特別是單頁應用程式）在從一個頁面導覽至另一個頁面時（而沒有重新載入頁面），修剪引數或實際移除引數，[!DNL Target]功能會中斷，且[!DNL Target]資料庫不會載入。
 
@@ -47,7 +47,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->除了下列資訊外，您還可以為[!DNL Google Chrome]使用[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]副檔名](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>除了下列資訊外，您還可以為[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]使用](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)副檔名[!DNL Google Chrome]。
 
 >[!NOTE]
 >
@@ -63,10 +63,10 @@ ht-degree: 23%
 >
 >* 在 VEC 中編輯時啟用規則，並在不使用 VEC 時停用規則。
 
-**若要在[!DNL Chrome]或[!DNL Firefox]上使用[!DNL Requestly]延伸模組：**
+**若要在[!DNL Requestly]或[!DNL Chrome]上使用[!DNL Firefox]延伸模組：**
 
 1. 關閉[!UICONTROL Enhanced Experienced Composer]。
-1. 在[!DNL Chrome]或[!DNL Firefox]上安裝[!DNL Requestly]瀏覽器延伸模組。
+1. 在[!DNL Requestly]或[!DNL Chrome]上安裝[!DNL Firefox]瀏覽器延伸模組。
 1. 開啟擴充功能並使用下列項目來設定它:
 1. 選取&#x200B;**[!UICONTROL Modify headers]**。
 1. 輸入下列:
@@ -93,12 +93,12 @@ ht-degree: 23%
 
    您現在應該能夠使用[!UICONTROL Visual Experience Composer]快速載入頁面。
 
-**若要在[!UICONTROL Firefox]上使用[!DNL Modify Response Headers]延伸模組：**
+**若要在[!DNL Modify Response Headers]上使用[!UICONTROL Firefox]延伸模組：**
 
-1. 在[!DNL Firefox]上安裝[!UICONTROL Modify Response Headers]並重新啟動瀏覽器。
+1. 在[!UICONTROL Modify Response Headers]上安裝[!DNL Firefox]並重新啟動瀏覽器。
 1. 從您的[!DNL Firefox]擴充功能中，選取Modify Response Headers擴充功能。
 1. 按一下 **[!UICONTROL Preferences]**。
-1. 從[!UICONTROL Action]下拉式清單中選取&#x200B;**[!UICONTROL Filter]**。
+1. 從&#x200B;**[!UICONTROL Filter]**&#x200B;下拉式清單中選取[!UICONTROL Action]。
 1. 在[!UICONTROL Header Name]欄位中，輸入： **[!UICONTROL X-Frame-Options]**。
 1. 重複步驟4和5，新增具有&#x200B;**[!UICONTROL x-frame-options]**&#x200B;的篩選器。
 1. 按一下 **[!UICONTROL Add]**。
@@ -148,7 +148,7 @@ ht-degree: 23%
 ## 當我使用[!UICONTROL Browse]模式時，VEC似乎損毀。 (僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++詳細資料
-使用[!UICONTROL Browse]模式時，如果您存取的URL未實作[!DNL Target]資料庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hant){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank})或包含frame-buster標頭，VEC會顯示為損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
+使用[!UICONTROL Browse]模式時，如果您存取的URL未實作[!DNL Target]資料庫([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含frame-buster標頭，VEC會顯示為損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
 
 發生此問題的原因是VEC在`<iframe>`中載入網頁。 由於相同來源原則，瀏覽器的目前安全性機制導致[!DNL Target] UI無法存取指定框架的專案。 瀏覽器會封鎖嘗試存取具有不同來源且包含`location.href`等資訊之框架的Script。
 

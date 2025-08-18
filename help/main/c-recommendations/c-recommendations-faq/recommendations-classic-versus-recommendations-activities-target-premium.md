@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;recommendations 演算法;recommendations 活動;recommendations classic
-description: 檢閱資訊，以協助您了解舊 Recommendations Classic 與 Recommendations activities in [!DNL Target] Premium 之間的差異。
-title: Recommendations Classic 與 Recommendations in [!DNL Target] Premium 之間有何差異？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+keywords: 推薦;推薦演算法;推薦活動;推薦經典版
+description: 檢閱資訊，以協助您了解舊推薦經典版與推薦activities in [!DNL Target] Premium 之間的差異。
+title: 推薦經典版與 [!DNL Target] Premium 中的推薦之間有何差異？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -12,13 +12,13 @@ ht-degree: 88%
 
 ---
 
-# 在[!DNL Target] Premium中的Recommendations Classic與Recommendations活動的比較
+# Recommendations Classic與Recommendations活動在[!DNL Target] Premium中的比較
 
-可協助您在 Target Premium 中的 Recommendations Classic 和建議活動之間進行選擇的資訊。
+可協助您在 Target Premium 中的推薦經典版和推薦活動之間進行選擇的資訊。
 
 >[!NOTE]
 >
->Recommendations 活動是 [!DNL Target Premium] 解決方案內建的功能。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
+>推薦活動是 [!DNL Target Premium] 解決方案內建的功能。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 
 在 Classic 版 [!DNL Recommendations] 產品中，您需要在頁面上建立資料收集 mbox，然後在特定的頁面位置新增顯示 mbox，才能顯示建議。[!DNL Target Premium] 中的 [!DNL Recommendations] 活動可讓您收集訪客資訊，且隨處都可以建立建議，而不需要為您想要建議產品或內容的每個位置建立 mbox。只要在頁面標頭中加上簡單的 JavaScript 參照，即可在頁面上隨處啟用建議。使用此 JavaScript 參照將金鑰傳遞至全域 [!DNL Target] mbox，例如 `entity.id` 和 `entity.categoryId` 金鑰。
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 [!DNL Target] 中的 [!DNL Recommendations] 活動針對 [!DNL Recommendations Classic] 進行以下幾方面的改善:
 
-## Recommendations 作為選件
+## 推薦作為產品建議
 
 您可以在[!UICONTROL A/B Test] （包括[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]）與[!UICONTROL Experience Targeting] (XT)活動中包含建議。
 
@@ -39,9 +39,9 @@ ht-degree: 88%
 * 使用[!UICONTROL Auto-Allocate]自動將流量推送到績效最好的建議體驗。
 * 使用[!UICONTROL Auto-Target]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-若要開始，請使用[!UICONTROL Visual Experience Composer]建立[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動，並使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]動作將建議新增至體驗。
+若要開始，請使用[!UICONTROL A/B Test]建立[!UICONTROL Experience Targeting]或[!UICONTROL Visual Experience Composer]活動，並使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]動作將建議新增至體驗。
 
-如需詳細資訊，請參閱 [Recommendations 作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md)。
+如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
 ## 條件 {#section_117709846DAA404580EBE879FFCBD9BA}
 

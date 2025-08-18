@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;Recommendations 條件;建議演算法;recommendations 活動;條件;recommendations 鎖定目標;recs
-description: 了解 Adobe [!DNL Target] 中的 Recommendations 活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
-title: 什麼是  [!DNL Target] Recommendations？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+keywords: 推薦;推薦條件;推薦演算法;推薦活動;條件;推薦鎖定目標;recs
+description: 了解 Adobe [!DNL Target] 中的推薦活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
+title: 什麼是  [!DNL Target] 推薦？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -12,7 +12,7 @@ ht-degree: 97%
 
 ---
 
-# 建議
+# 推薦
 
 [!DNL Adobe Target Recommendations] 活動可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。[!DNL Target Recommendations] 可協助引導訪客至他們可能不知道的相關項目。[!DNL Recommendations] 讓您在適當的時間地點提供訪客相關內容。
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >
 >[!DNL Recommendations] 活動是 [Target Premium 解決方案](/help/main/c-intro/intro.md#premium)內建的功能。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 >
->若您目前採用 [!DNL Recommendations Classic]，請參閱 [Target Premium 中的 Recommendations Classic 與 Recommendations 活動的比較](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)，以瞭解這兩個解決方案的相關資訊。
+>若您目前採用 [!DNL Recommendations Classic]，請參閱 [Target Premium 中的推薦經典版與推薦活動的比較](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)，以瞭解這兩個解決方案的相關資訊。
 
 [!DNL Recommendations] 可協助您在通路、應用程式、頁面、電子郵件訊息和其他傳送選項上，最佳化和自訂即時建議，以促進參與和轉換，同時降低管理工作量。
 
@@ -60,11 +60,11 @@ ht-degree: 97%
 | 設計 | 設計會定義 [!DNL Recommendations] 活動中推薦的外觀，例如列、欄、表格或格線。本文最上方的插圖顯 示4 x 1設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md)。 |
 | 位置 | 位置是指您執行活動以進行個人化和最佳化目的之網頁、行動應用程式或電子郵件上的特定內容區域。 |
 | 客群 | 客群是類似活動進入者的群組，他們會看到目標活動。客群是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。客群功能可讓您將不同的內容和體驗鎖定在特定客群，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如需詳細資訊，請參閱[客群](/help/main/c-target/target.md)。 |
-| Recommendations 作為選件 | 可讓您在 A/B 測試 (包括自動分配和自動定位) 和體驗定位 (XT) 活動中加入推薦的功能。如需詳細資訊，請參閱 [Recommendations 作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
+| 推薦作為產品建議 | 可讓您在 A/B 測試 (包括自動分配和自動定位) 和體驗定位 (XT) 活動中加入推薦的功能。如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 培訓影片：活動類型![Overview badge](/help/main/assets/overview.png)
 
-此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。7:20 處開始討論 [!DNL Recommendations]。
+此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。從7[!DNL Recommendations]開始討論:20。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型
@@ -74,6 +74,6 @@ ht-degree: 97%
 
 ## Adobe Target基礎網路研討會： Recommendations簡介![教學課程徽章](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-*Recommendations 簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概覽。
+*推薦簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概觀。
 
-[Recommendations 簡介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[推薦簡介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

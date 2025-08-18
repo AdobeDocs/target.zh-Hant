@@ -135,7 +135,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，則AEP Datastream中的環境應符合[!DNL Target]報告設定中的環境。
+>如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
 
 ### 重設報告資料
 
@@ -231,8 +231,8 @@ ht-degree: 48%
 圖表的預設繪製順序如下:
 
 * **[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Automated Personalization]）**：體驗建立的順序（以降序排列）。
-* **[!UICONTROL Experience Targeting] (XT)**：活動中的體驗順序。
-* **[!UICONTROL Multivariate Test] (MVT)**：依體驗名稱的字母順序。
+* **[!UICONTROL Experience Targeting](XT)**：活動中的體驗順序。
+* **[!UICONTROL Multivariate Test](MVT)**：依體驗名稱的字母順序。
 * **[!UICONTROL Recommendations]**：體驗建立的順序（以降序排列）。
 
 使用[!UICONTROL Counting Methodology]選項時，請考量下列警告：

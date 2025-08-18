@@ -1,8 +1,8 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷活動；動態篩選；動態；設定檔屬性比對
-description: 瞭解如何比較專案（實體）與使用者設定檔中的值，以在Adobe [!DNL Target] Recommendations中動態篩選。
+description: 瞭解如何比較專案（實體）與使用者設定檔中的值，以動態篩選Adobe [!DNL Target] Recommendations。
 title: 如何在Recommendations活動中依設定檔屬性比對來篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則[的](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)程式相似，使用案例和範例也類似。
 
 下列案例顯示如何使用[!UICONTROL Profile Attribute Matching]：
 
@@ -65,10 +65,10 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 如果訪客隨後返回首頁，他將看到根據點按了更多小粉絲還是大粉絲而篩選的建議。
 
-Recommendations根據在網站上檢視更多小粉絲而定：
+根據在網站上檢視更多小型粉絲的建議：
 
 ![小粉絲推薦](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations根據在網站上檢視更多大型粉絲：
+根據在網站上檢視較大粉絲的建議：
 
 ![大型粉絲推薦](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

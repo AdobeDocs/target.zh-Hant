@@ -13,7 +13,7 @@ ht-degree: 19%
 
 # 上傳內容
 
-您可以將影像上傳到[!DNL Adobe Target]中的[!UICONTROL Image Offers]清單，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
+您可以將影像上傳到[!UICONTROL Image Offers]中的[!DNL Adobe Target]清單，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
 
 ## 將影像選件新增至清單
 
@@ -39,8 +39,8 @@ ht-degree: 19%
 
 此影片包括關於管理內容的資訊。
 
-* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hant) 與 Target 內容庫之間的連線
-* 自訂 HTML 選件
-* 可視化體驗撰寫器中的自訂 HTML 選件
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
+* 自訂 HTML 產品建議
+* 可視化體驗撰寫器中的自訂 HTML 產品建議
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)

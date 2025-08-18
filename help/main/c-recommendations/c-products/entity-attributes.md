@@ -1,7 +1,7 @@
 ---
-keywords: 實體;實體屬性;傳遞資訊至 Recommendations;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
+keywords: 實體;實體屬性;傳遞資訊至推薦;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
 description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至 [!DNL Target] Recommendations。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 title: 如何使用實體屬性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -22,7 +22,7 @@ ht-degree: 48%
 
 考慮以下事項：
 
-* `entity.id`必須符合傳送至訂購確認頁面的`productPurchasedId`以及在[!DNL Adobe Analytics]產品報告中使用的`productId`。
+* `entity.id`必須符合傳送至訂購確認頁面的`productPurchasedId`以及在`productId`產品報告中使用的[!DNL Adobe Analytics]。
 * 您傳遞至[!DNL Recommendations]的實體屬性值會在61天後過期。 Adobe建議您針對目錄中的每個專案，每個月至少傳送一次每個實體屬性的最新值至[!DNL Recommendations]。
 
 大部分預先定義的引數僅接受單一值，且新值會覆寫舊值。 對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
@@ -31,7 +31,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->如果您使用at.js 2.不再支援&#x200B;*x*、`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.[!DNL Recommendations]*x*，使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=zh-Hant){target=_blank}。 如需範例，請參閱[計畫和實作Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+>如果您使用at.js 2.不再支援&#x200B;*x*、`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.[!DNL Recommendations]*x*，使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 如需範例，請參閱[計畫和實作建議](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -101,7 +101,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->若要根據[!UICONTROL Category]頁面中的類別顯示建議，只能將一個`categoryId`傳遞至用於顯示該特定建議的mbox。 `categoryId`的值必須與[!UICONTROL Product Detail]頁面上傳遞之`entity.categoryId`的值完全相符。
+>若要根據[!UICONTROL Category]頁面中的類別顯示建議，只能將一個`categoryId`傳遞至用於顯示該特定建議的mbox。 `categoryId`的值必須與`entity.categoryId`頁面上傳遞之[!UICONTROL Product Detail]的值完全相符。
 
 範例:
 

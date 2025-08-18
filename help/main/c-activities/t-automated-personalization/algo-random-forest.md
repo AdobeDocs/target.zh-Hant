@@ -2,7 +2,7 @@
 keywords: 隨機森林；決策樹；ap；Automated Personalization
 description: 瞭解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中使用隨機森林演演算法。
 title: ' [!DNL Target] 如何使用隨機森林演演算法？'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -61,11 +61,11 @@ ht-degree: 41%
 1. [!DNL Target]檢查模型是否符合臨界值品質分數
 1. [!DNL Target]將模型推送至生產環境，以便個人化未來的流量
 
-[!DNL Target]會使用自動收集的資料，以及您提供的自訂資料，來建置其個人化演演算法。 這些模型會預測最佳體驗或選件來顯示給訪客。一般而言，每個體驗（如果是[!UICONTROL Auto-Target]活動）或每個選件（如果是[!UICONTROL Automated Personalization]活動）會建立一個模型。 [!DNL Target]接著會顯示產生最高預測成功量度（例如轉換率）的體驗或選件。 這些模型必須在隨機提供的造訪上經過訓練，才能用來預測。因此，當活動最初開始時，即使對於個人化群組中的訪客，也會隨機顯示不同的體驗或選件，直到個人化演算法就緒為止。
+[!DNL Target]會使用自動收集的資料，以及您提供的自訂資料，來建置其個人化演演算法。 這些模型會預測最佳體驗或產品建議來顯示給訪客。一般而言，每個體驗（如果是[!UICONTROL Auto-Target]活動）或每個選件（如果是[!UICONTROL Automated Personalization]活動）會建立一個模型。 [!DNL Target]接著會顯示產生最高預測成功量度（例如轉換率）的體驗或選件。 這些模型必須在隨機提供的造訪上經過訓練，才能用來預測。因此，當活動最初開始時，即使對於個人化群組中的訪客，也會隨機顯示不同的體驗或產品建議，直到個人化演算法就緒為止。
 
 每個模型都必須經過驗證，才能在用於活動之前完美預測訪客的行為。 模型會根據它們在曲線下的面積(AUC)來驗證。 由於需要驗證，模型開始提供個人化體驗的確切時間會根據資料的詳細資訊而定。 在實務上及流量規劃用途上，每個模型通常要超過最低轉換次數才有效。
 
-當體驗或選件的模型變得有效時，體驗/選件名稱左邊的時鐘圖示會變成綠色核取方塊。當有至少兩種體驗或選件的有效模型時，部分造訪會開始變成個人化。
+當體驗或產品建議的模型變得有效時，體驗/產品建議名稱左邊的時鐘圖示會變成綠色核取方塊。當有至少兩種體驗或選件的有效模型時，部分造訪會開始變成個人化。
 
 ### 特徵轉換
 

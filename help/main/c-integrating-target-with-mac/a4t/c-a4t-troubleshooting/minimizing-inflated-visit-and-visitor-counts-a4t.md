@@ -24,7 +24,7 @@ ht-degree: 100%
 >
 >* Experience Cloud 訪客 ID 服務: visitorAPI.js 版本 2.3.0 或更新版本。
 >* Adobe Analytics: appMeasurement.js 版本 2.1。
->* Adobe Target: at.js 0.9.6 版或更新版本 (若 A4T 使用重新導向選件，則不包括 1.1.0 版)。
+>* Adobe Target: at.js 0.9.6 版或更新版本 (若 A4T 使用重新導向產品建議，則不包括 1.1.0 版)。
 
 ## 哪些部分有了變更？ {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -43,7 +43,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 * **不相符的報表套裝 ID (實作):** 在活動設定指定的報表套裝不符合傳送測試所在頁面上的報表套裝。無法在 [!DNL Analytics] 伺服器上協調資料，所以看起來像是部分資料。
 * **頁面速度緩慢：**[!DNL Target] 呼叫位在頁面頂端，[!DNL Analytics] 呼叫則通常位在頁面底部。 如果頁面載入速度很慢，則在 [!DNL Target] 呼叫觸發後、[!DNL Analytics] 呼叫觸發前，訪客離開頁面的可能性會提高。 在連線通常較緩慢的行動網站上，頁面速度緩慢特別會造成問題。
 * **頁面錯誤：**&#x200B;如果發生 JavaScript 錯誤或每個接觸點 (Experience Cloud ID 服務、Target 和 Analytics) 都未觸發的其他狀況，便會產生部分資料。
-* **[!DNL Target] 活動中的重新導向選件：**&#x200B;對於使用 A4T 的活動中的重新導向選件，您的實作必須符合特定的最低要求。 此外，還有您必須知道的重要資訊。 如需詳細資訊，請參閱[重新導向選件 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
+* **[!DNL Target] 活動中的重新導向產品建議：**&#x200B;對於使用 A4T 的活動中的重新導向產品建議，您的實作必須符合特定的最低要求。 此外，還有您必須知道的重要資訊。 如需詳細資訊，請參閱[重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
 * **舊版程式庫：**&#x200B;在過去一年，Adobe 已對我們的 JavaScript 程式庫 ([!DNL appMeasurement.js]、`at.js` 和 `visitorAPI.js`) 進行多項改善，以確保盡可能有效率地傳送資料。 若要進一步了解實作需求，請參閱[實作之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
 
 ## 減少部分資料的最佳做法為何？ {#section_065C38501527451C8058278054A1818D}
@@ -71,7 +71,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 
 **部分資料點擊：**&#x200B;使用者有時留在頁面上的時間不夠長，因而無法傳送 [!DNL Analytics] 呼叫，但是 [!DNL Target] 會有正確的 MCID。 此情況會產生部分資料點擊 (沒有 [!DNL Analytics] 頁面瀏覽的點擊)。 如果這些使用者回到您的網站並檢視包含 [!DNL Analytics] 程式碼的頁面，即會將他們正確地計為回頭的訪客。 如果您的頁面上只有 [!DNL Analytics] 程式碼，則您會遺漏這些點擊。 有些用戶端不想要這些點擊的資料，因為它們會讓某些度量 (造訪) 膨脹，並讓其他度量 (每次造訪的頁面瀏覽數、每次造訪時間等) 縮小。 您也會看見沒有任何頁面瀏覽數的造訪。 不過，保留此資料仍有有效的原因。
 
-為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的程式庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)。如需逐步指示，請參閱 *Analytics 元件指南*&#x200B;中的[建立虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)。
+為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的程式庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。如需逐步指示，請參閱 *Analytics 元件指南*&#x200B;中的[建立虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
 
 下圖顯示虛擬報表套裝的區段定義:
 
@@ -81,18 +81,18 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 
 * **顯示點擊:**
 * Analytics for Target: 已存在
-* 和
+* 與
 * 頁面檢視: 不存在
-* 和
+* 與
 * 自訂連結例項: 不存在
-* 和
+* 與
 * 下載連結例項: 不存在
-* 和
+* 與
 * 結束連結例項: 不存在
 
 **孤立點擊:** 少數情況下，使用者未持在頁面上夠長的時間，使得 Analytics 呼叫和 Target 未取得正確的 MCID。Adobe 將這些點擊定義為「孤立的」點擊。 這些點擊代表的是客戶很少回來，以及他們不當地膨脹了造訪和訪客計數。
 
-若要將這些「孤立」點擊最小化，您可以建立可排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)，如以上所述。
+若要將這些「孤立」點擊最小化，您可以建立可排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)，如以上所述。
 
 ## 這對我的 [!DNL Target] 報告有何意義？ {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

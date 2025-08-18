@@ -1,5 +1,5 @@
 ---
-keywords: 客群;傾向;設定檔屬性;比較;比較;建立客群;建立客群
+keywords: 客群;傾向;輪廓屬性;比較;比較;建立客群;建立客群
 description: 瞭解如何定義對象以比較兩個設定檔屬性。
 title: 我可以比較兩個設定檔屬性以用於對象嗎？
 feature: Audiences
@@ -7,19 +7,19 @@ exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
-# 建立設定檔屬性比較客群
+# 建立輪廓屬性比較客群
 
-在[!DNL Adobe Target]中定義對象，以比較[對象庫](/help/main/c-target/c-audiences/audiences.md)或[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md)中的兩個設定檔屬性。 使用大於、小於或等於這類運算子來定義客群，以動態比較兩個不同設定檔屬性的值。
+在[!DNL Adobe Target]中定義對象，以比較[對象庫](/help/main/c-target/c-audiences/audiences.md)或[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md)中的兩個設定檔屬性。 使用大於、小於或等於這類運算子來定義客群，以動態比較兩個不同輪廓屬性的值。
 
 >[!NOTE]
 >
 >此功能僅適用於[[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)類別。
 
-## 總覽 {#section_303CBC78194D49A2A004945D425441E1}
+## 概觀 {#section_303CBC78194D49A2A004945D425441E1}
 
 客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。如果您包含的其中一個規則使用[!UICONTROL Visitor Profile]類別，您可以根據訪客設定檔屬性的特定值來定義規則，或將該屬性的值與另一個訪客設定檔屬性進行比較。
 
@@ -30,9 +30,9 @@ ht-degree: 49%
 
 您可以建立一個對象，定義成購買餐廳家具的傾向大於購買客廳家具的傾向。[!DNL Target]接著會動態比較特定訪客的餐廳和起居室的傾向分數，以判斷該訪客是否符合此對象的資格。
 
-如需詳細資訊，請參閱[將資料傳入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
-## 建立設定檔屬性比較客群 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
+## 建立輪廓屬性比較客群 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. 按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
 1. 為對象命名並新增選擇性說明。

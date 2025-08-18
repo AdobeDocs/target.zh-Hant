@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # 可視化體驗撰寫器 (VEC)
 
-有關在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)的資訊。
+有關在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)的資訊。
 
 VEC是WYSIWYG使用者介面，可讓您輕鬆建立及測試網站內容中的個人化體驗和選件。 您可以拖放、切換及修改網頁 (或產品建議) 或行動網頁的版面與內容，藉此建立 Target 活動的體驗和產品建議。
 

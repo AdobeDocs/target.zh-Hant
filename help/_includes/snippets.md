@@ -17,7 +17,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->具有[!UICONTROL Product Administrator]和[!UICONTROL System Administrator]許可權的[!DNL Target]使用者可以在[!UICONTROL Administration]頁面上編輯所有設定，無論他們在[!DNL Target]中的角色為何。 沒有這些許可權的使用者擁有這些設定的唯讀存取權。
+>具有[!DNL Target]和[!UICONTROL Product Administrator]許可權的[!UICONTROL System Administrator]使用者可以在[!UICONTROL Administration]頁面上編輯所有設定，無論他們在[!DNL Target]中的角色為何。 沒有這些許可權的使用者擁有這些設定的唯讀存取權。
 
 ## 已更新Target UI {#updated-ui}
 

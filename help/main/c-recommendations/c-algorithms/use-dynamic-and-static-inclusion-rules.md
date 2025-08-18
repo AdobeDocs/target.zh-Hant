@@ -2,7 +2,7 @@
 keywords: 包含規則;包含條件;建議;建立新條件;促銷活動;動態篩選;動態;空白值;忽略篩選規則;靜態篩選;按值篩選;實體屬性比對;輪廓屬性比對;參數比對;靜態篩選
 description: 瞭解如何在 [!DNL Target] Recommendations中建立條件與促銷的包含規則。
 title: 如何在Recommendations中使用動態和靜態包含規則？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 ### 將篩選規則新增至條件
 
-1. 當[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) (**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**)時，請按一下&#x200B;**[!UICONTROL Inclusion Rules]**&#x200B;下方的&#x200B;**[!UICONTROL Add Filtering Rule]**。
+1. 當[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) (**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**)時，請按一下&#x200B;**[!UICONTROL Add Filtering Rule]**&#x200B;下方的&#x200B;**[!UICONTROL Inclusion Rules]**。
 
    ![新增篩選規則](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
@@ -105,7 +105,7 @@ ht-degree: 16%
 
 若要選取所需的動作，請將游標停留在齒輪圖示(![icon_gear image](assets/icon_gear.png))上，然後選擇所需的動作：
 
-| Action | 可用於 | 詳細資料 |
+| 動作 | 可用於 | 詳細資料 |
 |--- |--- |--- |
 | [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching] | 此動作是[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]的預設值。<P>此選項會指定忽略規則。例如，假設有三個篩選規則，而第三個規則未傳遞任何值，為了避免不傳回任何結果，您可以直接用空白值忽略第三個規則。 |
 | [!UICONTROL Do not show any results for this criteria]<P>（僅限條件） | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching] | 此動作是[!UICONTROL Entity Attribute Matching]的預設值。<P>在新增此選項之前，此動作是[!DNL Target]處理空白值的方式：不顯示此條件的結果。 |

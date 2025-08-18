@@ -7,7 +7,7 @@ exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
 source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 淘汰Target UI版本切換的時間表是否已更新？
 
 +++詳細資料
-是。 您可以在[需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)中找到新的時間表和重要資訊。
+是.您可以在[需要瞭解的時間性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)中找到新的時間表和重要資訊。
 
 +++
 
@@ -163,7 +163,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 ## 使用更新的UI編輯現有活動時，必須停用[!UICONTROL Enhanced Experience Composer]。 [!DNL Adobe]是否觀察到與其他客戶類似的行為？
 
 +++詳細資料
-是。 使用[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]時，您可能需要停用[!UICONTROL Enhanced Experience Composer] (EEC) 。
+是.使用[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]時，您可能需要停用[!UICONTROL Enhanced Experience Composer] (EEC) 。
 
 如需詳細資訊，請參閱「[Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)」。
 

@@ -18,4 +18,4 @@ ht-degree: 65%
 
 ## 我邀請了使用者加入 Target，但其名稱未出現在「使用者」清單中 (「管理 > 使用者」)。 {#section_13A1A9697BA44537BA569C81CF136160}
 
-在新使用者使用其Adobe Experience Cloud帳戶登入，然後登入[!DNL Target Standard/Premium]之前，您不會在[!UICONTROL Users]頁面上看見新使用者列出。
+在新使用者使用其Adobe Experience Cloud帳戶登入，然後登入[!UICONTROL Users]之前，您不會在[!DNL Target Standard/Premium]頁面上看見新使用者列出。

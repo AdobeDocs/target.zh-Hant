@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # 管理[!DNL Target]總覽
 
-協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7組態、實作、主機、環境、回應權杖和使用者的組態設定。
+協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7設定、實作、主機、環境、回應權杖和使用者的設定設定。
 
 若要存取[!UICONTROL Administration]功能表專案，請按一下頂端功能表列中的&#x200B;**[!UICONTROL Administration]**，然後沿著左側按一下所需的標籤：
 

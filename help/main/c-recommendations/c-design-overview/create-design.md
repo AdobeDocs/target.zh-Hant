@@ -1,8 +1,8 @@
 ---
 keywords: 建議設計;建立設計;複製設計
 description: 瞭解如何使用預設設計或透過建立自訂設計以最符合您的頁面版面配置來建立 [!DNL Target Recommendations] 設計。
-title: 如何在Recommendations中建立設計？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+title: 如何在Recommendations建立設計？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -48,7 +48,7 @@ ht-degree: 19%
 
    [!UICONTROL Create Design]對話方塊隨即顯示。
 
-1. 輸入&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
+1. 輸入&#x200B;**[!UICONTROL  Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
 
    使用預設設計時，設計名稱和「Copy」會出現在&#x200B;**[!UICONTROL Content Name]**&#x200B;欄位中。 您可以編輯名稱。您也可以選取要在設計卡片上顯示的影像。
 
@@ -56,7 +56,7 @@ ht-degree: 19%
 
    Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請參閱[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   設計可以是 HTML 或非 HTML。根據預設，HTML設計會以`<div>`標籤包住，以允許在Web環境中進行點選追蹤。 非HTML設計適用於無法進行點選追蹤的非Web環境。 滑動[!UICONTROL HTML Design]切換至「關閉」位置以使用非HTML代碼。
+   設計可以是 HTML 或非 HTML。依預設，HTML設計會以`<div>`標籤包裝，以允許在Web環境中進行點選追蹤。 非HTML設計適用於無法進行點選追蹤的非Web環境。 將[!UICONTROL HTML Design]切換滑至「關閉」位置即可使用非HTML程式碼。
 
    >[!NOTE]
    >
@@ -157,7 +157,7 @@ ht-degree: 19%
    | 參數 | 值 |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Target使用者端代碼(位於/help/target/products.html#recsSettings > Recommendations API Token >使用者端代碼)。 |
-   | `[YOUR_MBOX_NAME]` | 您在表單式Recommendations的「位置」區段中選取的名稱，此例子中是Sample_Recs_Response。 |
+   | `[YOUR_MBOX_NAME]` | 您在表單式「建議」的「位置」區段中選取的名稱，此例子中是Sample_Recs_Response。 |
    | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
 
@@ -313,7 +313,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 訓練影片：在Recommendations中建立自訂設計(3:20) ![Overview badge](/help/main/assets/overview.png)
+## 訓練影片：在Recommendations (3:20) ![Overview badge](/help/main/assets/overview.png)中建立自訂設計
 
 此影片包含下列資訊:
 

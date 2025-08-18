@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-如需詳細資訊，請參閱&#x200B;*自訂實體屬性*&#x200B;中的[實作多值屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
+如需詳細資訊，請參閱[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)中的&#x200B;*實作多值屬性*。
 
 ## 在CSV檔案中傳遞多值實體屬性
 
@@ -118,7 +118,7 @@ function targetPageParams() {
 
 ### 範例：API建立條件，從使用者的最愛中建議專案
 
-使用多值篩選規則的條件（例如所有條件）可以透過Adobe I/OAPI建立。 以下提供建立條件的範例API呼叫，其中實體屬性`id`包含在mbox引數清單`favorites`中：
+使用多值篩選規則的條件（例如所有條件）可以透過Adobe I/O API建立。 以下提供建立條件的範例API呼叫，其中實體屬性`id`包含在mbox引數清單`favorites`中：
 
 ```
 curl -X POST \

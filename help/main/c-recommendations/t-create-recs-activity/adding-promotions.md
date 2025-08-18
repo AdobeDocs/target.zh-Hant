@@ -1,8 +1,8 @@
 ---
 keywords: 促銷活動；前端促銷活動；後端促銷活動；促銷活動型別；專案清單；依屬性促銷；促銷集合
-description: 瞭解如何新增提升的專案並控制其在您Adobe [!DNL Target] Recommendations設計中的放置位置。 您可以新增靜態和動態促銷活動。
-title: 如何在Recommendations設計新增促銷活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解如何新增提升的專案並控制其在您的Adobe [!DNL Target] Recommendations設計中的放置位置。 您可以新增靜態和動態促銷活動。
+title: 如何在Recommendations設計中新增促銷活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -26,7 +26,7 @@ ht-degree: 40%
 
 您可以促銷特定項目、動態地促銷項目、根據屬性促銷項目或促銷集合。
 
-[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)中的[!UICONTROL Front Promotion]和[!UICONTROL Back Promotion]選項
+![[!UICONTROL Front Promotion] UI[!UICONTROL Back Promotion]中的[!DNL Target]和](assets/add_promotion_toggles.png)選項
 
 >[!NOTE]
 >

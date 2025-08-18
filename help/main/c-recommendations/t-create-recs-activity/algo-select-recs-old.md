@@ -1,8 +1,8 @@
 ---
 keywords: Recommendations；Recommendations活動；條件；演演算法
 description: 瞭解如何選取條件（決定要建議哪些產品或內容的規則），以用於您的Adobe [!DNL Target] Recommendations活動。
-title: 如何選取Recommendations活動的條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+title: 如何為Recommendations活動選取條件？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 55%
 
 # 選取條件
 
-選取要在您的[!DNL Adobe Target Recommendations]活動中使用的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
+選取要在您的[活動中使用的](/help/main/c-recommendations/c-algorithms/algorithms.md)條件[!DNL Adobe Target Recommendations]。 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
 
 您可以新增多個條件，以對比測試多種建議類型。
 

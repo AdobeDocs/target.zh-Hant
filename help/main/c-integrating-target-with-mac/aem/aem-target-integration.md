@@ -13,6 +13,6 @@ ht-degree: 66%
 
 # 將 [!DNL Target] 和 [!DNL Adobe Experience Manager] (AEM) 整合
 
-[!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM)整合目前可讓您在[!DNL Target]個活動中使用AEM中建立的[!UICONTROL Experience Fragments] (XF)和[!UICONTROL Content Fragments] (CF)，以輔助最佳化和個人化。
+[!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM)整合目前可讓您在[!UICONTROL Experience Fragments]個活動中使用AEM中建立的[!UICONTROL Content Fragments] (XF)和[!DNL Target] (CF)，以輔助最佳化和個人化。
 
 如需詳細資訊，請參閱 [AEM 體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)。

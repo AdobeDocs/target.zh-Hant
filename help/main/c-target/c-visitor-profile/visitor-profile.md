@@ -11,7 +11,7 @@ ht-degree: 38%
 
 ---
 
-# 訪客設定檔
+# 訪客輪廓
 
 [!DNL Adobe Target]中的訪客設定檔包含您的訪客如何使用您的頁面和其他最佳化內容位置的資訊。
 
@@ -21,9 +21,9 @@ ht-degree: 38%
 
 以下章節包含更多資訊: 
 
-- [訪客設定檔存留期](visitor-profile-lifetime.md)
-- [設定檔屬性](profile-parameters.md)
+- [訪客輪廓存留期](visitor-profile-lifetime.md)
+- [輪廓屬性](profile-parameters.md)
 - [類別親和性](category-affinity.md)
-- [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
-- [mbox3rdPartyID 的即時設定檔同步](3rd-party-id.md)
-- [設定檔和變數字彙表](variables-profiles-parameters-methods.md)
+- [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [mbox3rdPartyID 的即時輪廓同步](3rd-party-id.md)
+- [輪廓和變數字彙表](variables-profiles-parameters-methods.md)

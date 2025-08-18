@@ -1,8 +1,8 @@
 ---
 keywords: 建議設計;建立設計;複製設計
-description: 瞭解如何使用預設設計或建立最符合您的頁面版面配置的自訂設計來建立Adobe [!DNL Target] Recommendations設計。
-title: 如何在Recommendations中建立設計？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解如何使用預設設計或透過建立最符合您的頁面版面的自訂設計來建立Adobe [!DNL Target] Recommendations設計。
+title: 如何在Recommendations建立設計？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -61,7 +61,7 @@ ht-degree: 20%
 
    Recommendation設計使用開放原始碼[!DNL Velocity]設計語言。 有關[!DNL Velocity]的資訊可在[https://velocity.apache.org](https://velocity.apache.org)和[使用 [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)自訂設計。
 
-   設計可以是 HTML 或非 HTML。根據預設，HTML設計會以`<div>`標籤包住，以允許在Web環境中進行點選追蹤。 非HTML設計適用於無法進行點選追蹤的非Web環境。 滑動[!UICONTROL HTML Design]切換至「關閉」位置以使用非HTML代碼。
+   設計可以是 HTML 或非 HTML。依預設，HTML設計會以`<div>`標籤包裝，以允許在Web環境中進行點選追蹤。 非HTML設計適用於無法進行點選追蹤的非Web環境。 將[!UICONTROL HTML Design]切換滑至「關閉」位置即可使用非HTML程式碼。
 
    >[!NOTE]
    >
@@ -164,7 +164,7 @@ ht-degree: 20%
    | 參數 | 值 |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Target使用者端代碼(位於/help/target/products.html#recsSettings > Recommendations API Token >使用者端代碼)。 |
-   | `[YOUR_MBOX_NAME]` | 您在表單式Recommendations的「位置」區段中選取的名稱，此例子中是Sample_Recs_Response。 |
+   | `[YOUR_MBOX_NAME]` | 您在表單式「建議」的「位置」區段中選取的名稱，此例子中是Sample_Recs_Response。 |
    | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
 
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 訓練影片：在Recommendations中建立自訂設計(3:20) ![Overview badge](/help/main/assets/overview.png)
+## 訓練影片：在Recommendations (3:20) ![Overview badge](/help/main/assets/overview.png)中建立自訂設計
 
 此影片包含下列資訊:
 

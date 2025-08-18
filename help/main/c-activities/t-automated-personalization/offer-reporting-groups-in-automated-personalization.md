@@ -2,7 +2,7 @@
 keywords: 自動個人化；選件；報表；群組；報表群組；ap
 description: 瞭解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization]活動中使用選件報表群組。
 title: 我可以在[!UICONTROL Automated Personalization]個活動中使用選件報表群組嗎？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -34,7 +34,7 @@ ht-degree: 15%
 ## 設定報表群組
 
 1. 在AP活動的&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;圖示（ ![管理內容圖示](/help/main/assets/icons/Experience.svg) ）
-1. 按一下[!UICONTROL Manage Content]對話方塊頂端的&#x200B;**[!UICONTROL Offers]**&#x200B;標籤。
+1. 按一下&#x200B;**[!UICONTROL Offers]**&#x200B;對話方塊頂端的[!UICONTROL Manage Content]標籤。
 1. （視條件而定）按一下所需選件的[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL Reporting Group]**，將特定體驗新增至報表群組。
 
 1. （條件性）藉由選取相關體驗的核取方塊，然後按一下對話方塊底部的&#x200B;**[!UICONTROL Reporting Group]**，將體驗批次加入報表群組。

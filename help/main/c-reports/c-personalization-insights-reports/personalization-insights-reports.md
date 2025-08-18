@@ -2,7 +2,7 @@
 keywords: 鎖定目標;AP 報表;自動個人化報表;自動鎖定目標;自動鎖定目標報表;個人化;前瞻分析;自動化區段;faq;常見問題集;重要屬性
 description: 瞭解如何針對Automated Personalization (AP)和自動鎖定目標(AT)活動使用專用報表 — 自動化區段和重要屬性。
 title: 如何使用Personalization前瞻分析報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
@@ -44,9 +44,9 @@ ht-degree: 28%
 
 * 也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
 
-* 必須從[!UICONTROL Report Metric]下拉式清單中選取[!UICONTROL Primary Goal]，才能使用[!UICONTROL Personalization Insights]報告。
+* 必須從[!UICONTROL Personalization Insights]下拉式清單中選取[!UICONTROL Primary Goal]，才能使用[!UICONTROL Report Metric]報告。
 
-* 僅[預設環境](/help/main/administrating-target/hosts.md)支援[!UICONTROL Personalization Insights]報告。
+* 僅[!UICONTROL Personalization Insights]預設環境[支援](/help/main/administrating-target/hosts.md)報告。
 
 * [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL Live]狀態且已啟用且接收流量至少15天的活動產生。
 
@@ -60,21 +60,21 @@ ht-degree: 28%
 
 | 報表 | 詳細資料 |
 |--- |--- |
-| [!UICONTROL Automated Segments] | 不同訪客對您的 AP/AT 活動中的選件/體驗有不同的反應。此報表顯示[!DNL Target]個人化模型定義的不同自動化區段如何回應活動中的選件/體驗。 |
+| [!UICONTROL Automated Segments] | 不同訪客對您的 AP/AT 活動中的產品建議/體驗有不同的反應。此報表顯示[!DNL Target]個人化模型定義的不同自動化區段如何回應活動中的選件/體驗。 |
 | [!UICONTROL Important Attributes] | 在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。此報表顯示影響模型及其相對重要性的常見屬性。 |
 
 ## 解譯Personalization Insights中的屬性 {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
 在[!UICONTROL Personalization Insights]個報表中，有兩個型別的屬性用於您的AP或自動鎖定目標模型：
 
-* Target自動收集的&#x200B;**屬性：** [!DNL Target]使用基底資料集，在Personalization Insights中反映的AP和AT活動中建置其個人化演演算法。 如需資料型別、範例屬性及其[!UICONTROL Personalization Insights]命名慣例，請參閱[Target Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 請注意，雖然考量到這些屬性，但個別活動模型可能不會在最終模型中使用所有這些屬性。
+* Target自動收集的&#x200B;**屬性：** [!DNL Target]使用基底資料集，在Personalization Insights中反映的AP和AT活動中建置其個人化演演算法。 如需資料型別、範例屬性及其[命名慣例，請參閱](/help/main/c-activities/t-automated-personalization/ap-data.md)Target Personalization演演算法的資料收集[!UICONTROL Personalization Insights]。 請注意，雖然考量到這些屬性，但個別活動模型可能不會在最終模型中使用所有這些屬性。
 * **傳遞至Target的屬性：**&#x200B;請參閱[上傳Target Personalization演演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 [!DNL Target]提供許多方式，讓您傳入[!DNL Target]的其他資料，以擴充在AP和AT活動中建置其個人化演演算法時所用的基底資料集：
 
 | 資料類型 | 說明 | 資料類型命名慣例 |
 |--- |--- |--- |
-| 設定檔屬性，包括設定檔指令碼、設定檔更新 API，以及頁面設定檔屬性 | 您決定包括在 Target 使用者設定檔的任何資訊。<br>此資訊可能來自設定檔指令碼、使用設定檔更新 API 上傳的資訊，或字首為 &quot;profile&quot; 的 mbox 內部設定檔參數。 | `Custom - Profile - [parameter name]` |
+| 設定檔屬性，包括設定檔指令碼、設定檔更新 API，以及頁面設定檔屬性 | 您決定包括在 Target 使用者輪廓的任何資訊。<br>此資訊可能來自設定檔指令碼、使用設定檔更新 API 上傳的資訊，或字首為 &quot;profile&quot; 的 mbox 內部設定檔參數。 | `Custom - Profile - [parameter name]` |
 | 頁面引數（又稱為「mbox引數」） | 直接透過頁面代碼傳遞的名稱/值對，這些頁面代碼未儲存在訪客的設定檔中，以供未來使用。 | `Custom - Mbox Parameter - [parameter name]` |
 | 客戶屬性 | 客戶屬性可讓您透過 FTP 將訪客設定檔資料上傳至 Experience Cloud。上傳後，即可在 Adobe Analytics 和 Adobe Target 中運用這些資料。 | `Custom - Customer Attributes - [parameter name]` |
 | 共用對象 (Adobe Audience Manager 或 Adobe Analytics) | 透過 Adobe Audience Manager 或 Adobe Analytics 建立並與 Target 共用的對象。 | `Custom - Experience Cloud Segment - [segment name]` |

@@ -28,11 +28,11 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
->從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`針對[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。
+>從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用[!DNL iPad]、[!DNL iPhone]和`profile.mobile.deviceVendor`針對`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`執行適當的鎖定目標。
 >
 >此更新不需要客戶採取任何動作。 [!DNL Target] UI中的標籤未來將會變更，而且會在進行這些變更時，在[[!DNL Target] 發行說明（最新）](/help/main/r-release-notes/release-notes.md)中宣佈。
 >
->如需因應措施，請參閱下列[!UICONTROL Browser]對象屬性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 及 [!DNL iPhone] 。
+>如需因應措施，請參閱下列[對象屬性（2024年4月30日） [!DNL iPad] 中的 [!DNL iPhone] 更新[!UICONTROL Browser]及](#updates)。
 
 鎖定目標瀏覽器有兩種方法:
 
@@ -84,7 +84,7 @@ ht-degree: 33%
 
 將設為使用特定語言的特定瀏覽器鎖定作為目標或排除。
 
-例如，如果選件只有英文版，您可以會將語言設為英文的瀏覽器鎖定作為目標。或者，如果頁面未啟用雙位元組功能，您可以排除設為東亞語言的瀏覽器。
+例如，如果產品建議只有英文版，您可以會將語言設為英文的瀏覽器鎖定作為目標。或者，如果頁面未啟用雙位元組功能，您可以排除設為東亞語言的瀏覽器。
 
 在語言比位置更重要的情況下，透過包含或排除瀏覽器語言來鎖定目標訪客，將會比根據地理來鎖定目標更準確。例如，如果您提供以英文撰寫的文章，您可以將目標鎖定在說英語的國家/地區，或將設為英文的瀏覽器作為鎖定目標。對於不以英文為母語的國家/地區中說英語的人，鎖定目標瀏覽器可讓他們閱讀這篇文章。
 
@@ -135,13 +135,13 @@ ht-degree: 33%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## [!UICONTROL Browser]對象屬性（2024年4月30日）中[!DNL iPad]和[!DNL iPhone]的更新 {#updates}
+## [!DNL iPad]對象屬性（2024年4月30日）中[!DNL iPhone]和[!UICONTROL Browser]的更新 {#updates}
 
 [!DNL Adobe Target]可讓您[鎖定數個類別屬性中的任何一個](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定瀏覽器或瀏覽器選項造訪您頁面的使用者。
 
-從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`針對[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。
+從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用[!DNL iPad]、[!DNL iPhone]和`profile.mobile.deviceVendor`針對`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`執行適當的鎖定目標。
 
-使用[!DNL Target] UI （例如`Browser:iPad`和`Browser:iPhone`）建立的內建對象，會自動移至新的對象定義，而客戶不需要採取任何動作。 不過，您以後應該使用下述設定[&#128279;](#ui)。
+使用[!DNL Target] UI （例如`Browser:iPad`和`Browser:iPhone`）建立的內建對象，會自動移至新的對象定義，而客戶不需要採取任何動作。 不過，您以後應該使用下述設定[](#ui)。
 
 如果您在任何設定檔指令碼中使用`user.browserType`來檢查它是[!DNL iPhone]或[!DNL iPad] （例如，`user.browserType == 'iphone'`或`user.browserType != 'ipad'`），在2024年4月30日之前，這些設定檔指令碼應該變更為[以下](#profile-scripts)的指示，以確保這些對象繼續如預期般運作。
 
@@ -179,7 +179,7 @@ JavaScript對象是使用[!DNL Target]運算式的舊版對象，這些運算式
 
 ### 使用個人資料指令碼建立的對象 {#profile-scripts}
 
-如果您在舊版[!DNL Target Classic]對象或設定檔指令碼中使用`user.browserType`，則變更應包括下列專案：
+如果您在舊版`user.browserType`對象或設定檔指令碼中使用[!DNL Target Classic]，則變更應包括下列專案：
 
 * **BrowserType是iPhone**：
 
