@@ -1,21 +1,21 @@
 ---
 keywords: Experience Cloud Audiences;對象
-description: 瞭解Adobe Experience Cloud Audiences如何讓Experience Cloud解決方案與其他Adobe解決方案通訊及分享網站訪客的相關資訊。
+description: 瞭解Adobe Experience Cloud Audiences如何讓Experience Cloud應用程式通訊並與其他Adobe應用程式分享有關網站訪客的資訊。
 title: 如何在Target中使用Adobe Experience Cloud Audiences？
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7f5f6d7b3804749fce8819697f17cbad74409741
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 7%
 
 ---
 
 # Experience Cloud 客群
 
-[!DNL Adobe Experience Cloud Audiences]可讓[!DNL Adobe Experience Cloud]解決方案通訊並分享網站訪客的相關資訊，讓每個解決方案都可以使用相同的資料。
+[!DNL Adobe Experience Cloud audiences]讓[!DNL Experience Cloud]應用程式能夠通訊並分享網站訪客的相關資訊，讓每個應用程式都可以使用相同的資料。
 
-如需詳細資訊，請參閱[核心服務使用手冊](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)中的&#x200B;*對象*。
+在[Experience Cloud介面與管理指南](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)中瞭解&#x200B;*Experience Cloud對象* （對象庫）。
 
 ## 影片：將[!DNL Target]與[!DNL Experience Cloud Audiences]整合(10:48)
 
