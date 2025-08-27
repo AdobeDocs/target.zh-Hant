@@ -4,16 +4,16 @@ description: 存取Adobe [!DNL Target] 中的活動變更記錄，以檢視變�
 title: 我如何才能看到活動變更記錄？
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: 15435b15d2da8412f0174f87d15d3c983098c223
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '161'
+ht-degree: 1%
 
 ---
 
 # 活動變更記錄
 
-[!DNL Adobe Target] [!UICONTROL Change Log]會記錄活動動作，包括變更的內容、變更者及變更發生的時間。 已從[!UICONTROL Change Log][[!UICONTROL Audi Query API]填入](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}頁面，以進行即時分析。
+[!DNL Adobe Target] [!UICONTROL Change Log]會記錄活動動作，包括變更的內容、變更者及變更發生的時間。 已從[!UICONTROL Change Log][[!UICONTROL Audi Query API]填入](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}頁面，以進行即時分析。
 
 若要存取[!UICONTROL Change Log]頁面：
 
@@ -23,3 +23,10 @@ ht-degree: 2%
 每次建立、更新、啟動或停用活動時，就會列出執行的動作、執行動作的日期以及執行動作的使用者。 也會列出活動中使用的自訂目標和選件的變更。
 
 重新整理頁面以檢視狀態變更。 您也可以按一下[!UICONTROL Date]欄標題，以遞增或遞減順序列出執行的動作。
+
+>[!MORELIKETHIS]
+>
+>* [依上次作者名稱和修改後的時間戳記取得稽核記錄](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+>
+>* [列出活動變更記錄檔](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+

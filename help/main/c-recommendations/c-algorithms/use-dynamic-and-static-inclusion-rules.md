@@ -2,13 +2,13 @@
 keywords: 包含規則;包含條件;建議;建立新條件;促銷活動;動態篩選;動態;空白值;忽略篩選規則;靜態篩選;按值篩選;實體屬性比對;輪廓屬性比對;參數比對;靜態篩選
 description: 瞭解如何在 [!DNL Target] Recommendations中建立條件與促銷的包含規則。
 title: 如何在Recommendations中使用動態和靜態包含規則？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1846'
 ht-degree: 16%
 
 ---
@@ -76,6 +76,10 @@ ht-degree: 16%
 動態條件和促銷活動比靜態條件和促銷活動強大得多，並產生更好的結果和參與。
 
 下列範例提供如何在行銷工作中使用動態促銷和排除的一般概念：
+
+>[!NOTE]
+>
+>「清單」要求實體和設定檔屬性都必須儲存為陣列。 以逗號分隔的清單無法運作。
 
 | 運算子 | 範例 |
 | --- | --- |

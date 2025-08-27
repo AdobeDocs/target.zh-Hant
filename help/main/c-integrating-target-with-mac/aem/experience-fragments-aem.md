@@ -4,7 +4,7 @@ description: 瞭解如何在 [!DNL Adobe Experience Manager] [!UICONTROL Experie
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]？
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 26%
@@ -58,10 +58,10 @@ ht-degree: 26%
 
 如需詳細資訊，請參閱：
 
-* **AEM as a Cloud Service**： [在](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}Adobe Target as a Cloud Service *指南中與Experience Manager*&#x200B;整合。
-* **Adobe Developer**： [使用](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=zh-Hant){target=_blank}管理使用手冊&#x200B;*檔案中的Adobe I/0*&#x200B;與Adobe Target整合。
+* **AEM as a Cloud Service**： [在](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}Adobe Target as a Cloud Service *指南中與Experience Manager*&#x200B;整合。
+* **Adobe Developer**： [使用](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank}管理使用手冊&#x200B;*檔案中的Adobe I/0*&#x200B;與Adobe Target整合。
 * **[!DNL AEM]6.5**： [在](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=zh-Hant){target=_blank}Adobe Analytics 6.5 *檔案中選擇使用Adobe Experience Manager和Adobe Target*。
-* **[!DNL AEM]6.4**： [在](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant){target=_blank}Adobe Analytics 6.4 *檔案中選擇使用Adobe Experience Manager和Adobe Target*。
+* **[!DNL AEM]6.4**： [在](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank}Adobe Analytics 6.4 *檔案中選擇使用Adobe Experience Manager和Adobe Target*。
 
 ### 步驟 2：建立體驗片段
 
@@ -84,9 +84,9 @@ ht-degree: 26%
 
 依據您的 [!DNL AEM] 版本的不同，請參閱以下連結以取得逐步說明：
 
-* **AEM as a Cloud Service**： [在[!UICONTROL Experience Fragments]Adobe Target as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}指南中，將&#x200B;*匯出至Experience Manager*。
+* **AEM as a Cloud Service**： [在[!UICONTROL Experience Fragments]Adobe Target as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}指南中，將&#x200B;*匯出至Experience Manager*。
 * **[!DNL AEM]6.5**： [在](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=zh-Hant){target=_blank}Adobe Experience Manager 6.5 *檔案中，將體驗片段匯出至Target*。
-* **[!DNL AEM]6.4**： [在](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=zh-Hant){target=_blank}Adobe Experience Manager 6.4 *檔案中，將體驗片段匯出至Target*。
+* **[!DNL AEM]6.4**： [在](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank}Adobe Experience Manager 6.4 *檔案中，將體驗片段匯出至Target*。
 
 ## 在[!UICONTROL Experience Fragments]個活動中使用[!DNL Target] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -133,10 +133,10 @@ ht-degree: 26%
 
    * **A/B 測試:** [建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自動分配:** [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **自動鎖定目標：**&#x200B;[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):**&#x200B;[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **自動鎖定目標：**[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **Automated Personalization (AP):**[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **A/B 測試或 XT 活動中的建議：**&#x200B;[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
+   * **A/B 測試或 XT 活動中的建議：**[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!UICONTROL Experience Fragments]中匯出為JSON的[!DNL Target]無法用於使用VEC建立的活動；在VEC型活動中僅支援HTML [!UICONTROL Experience Fragments]。 如果您想要使用JSON [!UICONTROL Experience Fragments]，請在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立的活動中使用。
 
@@ -164,7 +164,7 @@ ht-degree: 26%
 
 有時整個HTML頁面都會包裝[!UICONTROL Experience Fragment]並導致問題。 請確定[!UICONTROL Experience Fragment]是一小段HTML，而不是包含HTML、HEAD、BODY等的完整HTML頁面。
 
-如需詳細資訊，請參閱下列部落格： [AEM 6.5：移除[!UICONTROL Experience Fragments]匯出至Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}的clientlibs。
+如需詳細資訊，請參閱下列部落格： [AEM 6.5：移除[!UICONTROL Experience Fragments]匯出至Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}的clientlibs。
 
 ## 訓練影片：將AEM [!UICONTROL Experience Fragments]與[!DNL Adobe Target]搭配使用
 
@@ -176,4 +176,4 @@ ht-degree: 26%
 >
 >已移除在4[!DNL AEM]討論的:54深層連結功能。
 
-如需詳細資訊，請參閱[AEM Sites影片和教學課程[!UICONTROL Experience Fragments]頁面上的](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=zh-Hant)搭配Adobe Target *使用*。
+如需詳細資訊，請參閱[AEM Sites影片和教學課程[!UICONTROL Experience Fragments]頁面上的](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)搭配Adobe Target *使用*。
