@@ -4,9 +4,9 @@ description: 尋找在使用Analytics for [!DNL Target] (A4T)時使用重新導�
 title: 我可以在哪裡找到有關使用A4T重新導向選件的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 50%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 50%
 
 +++回答
 是，如果您的實作使用[!DNL at.js]。 不過，您的實作必須符合下列最低需求，才能在以 Analytics 作為報表來源的活動中使用[重新導向產品建議](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
+
++++
+
+## ![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]是否支援A4T的重新導向選件？ {#platform}
+
++++回答
+下列常見問題集提供搭配[!DNL Platform Web SDK]使用A4T和重新導向選件的詳細資訊。
+
++++
+
+### Analytics for Target (A4T) 支援重新導向產品建議嗎?
+
++++回答
+是，透過Platform Web SDK的A4T支援[重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)。
+
++++
+
+### 是否支援[!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Form-Based Experience Composer]？
+
++++回答
+是的，如果您使用內建的重新導向選件，則支援[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)。
 
 +++
 
@@ -63,7 +84,7 @@ ht-degree: 50%
 ## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++回答
-使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並不是問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。
+使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並不是問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 如果您使用不支援的較舊 at.js 版本，可能會發生競爭條件，而可能導致 Analytics 呼叫在重新導向於第一個頁面上執行前引發。此情況可能會導致計算原始頁面和重新導向頁面上的頁面檢視次數。 此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 
@@ -142,24 +163,6 @@ Adobe建議您洽詢IT團隊，確定`adobe_mc_ref`和`adobe_mc_sdid`已加入�
 
 +++回答
 否，對於以 [!DNL Analytics] 作為報表來源 (A4T) 的活動，您必須使用內建的重新導向產品建議。對 [!DNL Target] 而言，HTML 產品建議不透明: [!DNL Target] 無法知道一段特定的 HTML 包含可將重新導向具現化的 JavaScript。
-
-+++
-
-## ![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]是否支援A4T的重新導向選件？ {#platform}
-
-下列常見問題集提供搭配[!DNL Platform Web SDK]使用A4T和重新導向選件的詳細資訊。
-
-### Analytics for Target (A4T) 支援重新導向產品建議嗎?
-
-+++回答
-是，透過Platform Web SDK的A4T支援[重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)。
-
-+++
-
-### 是否支援[!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Form-Based Experience Composer]？
-
-+++回答
-是的，如果您使用內建的重新導向選件，則支援[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)。
 
 +++
 
