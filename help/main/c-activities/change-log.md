@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 活動變更記錄
 
-[!DNL Adobe Target] [!UICONTROL Change Log]會記錄活動動作，包括變更的內容、變更者及變更發生的時間。 已從[!UICONTROL Change Log][[!UICONTROL Audi Query API]填入](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}頁面，以進行即時分析。
+[!DNL Adobe Target] [!UICONTROL Change Log]會記錄活動動作，包括變更的內容、變更者及變更發生的時間。 已從[!UICONTROL Change Log][[!UICONTROL Audi Query API]填入](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}頁面，以進行即時分析。
 
 若要存取[!UICONTROL Change Log]頁面：
 
