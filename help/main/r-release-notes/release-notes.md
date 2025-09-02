@@ -6,9 +6,9 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '5850'
+source-wordcount: '7159'
 ht-degree: 6%
 
 ---
@@ -75,6 +75,57 @@ ht-degree: 6%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.4 （2025年9月1日）
+
+此版本包含下列更新和修正：
+
+**[!UICONTROL Activities]**
+
++++檢視詳細資料
+* **客戶無法從「[!UICONTROL Activity Overview]**」複製活動或檔名稱：以前，客戶無法直接從「[!UICONTROL Activity overview]」在更新的活動建立程式中複製活動名稱或相關的優惠方案/檔案。 此限制會影響可用性，尤其是在較小的熒幕上。 客戶現在可以輕鬆複製活動和檔名稱，無需因應措施。 (TGT-51850)
+* **在活動建立期間主動擷取已監管的[!DNL Target]客戶資料**：啟用主動收集[!DNL Target]客戶的報告、內容和熒幕擷取畫面，以改善活動建立流程。 此增強功能解決現有使用案例中發現的資料差距，並幫助確保在活動和實驗設定期間獲得更準確的見解。 (TGT-52415)
+* **AP活動未擷取[!UICONTROL Reports]區段中**&#x200B;的模型就緒資料：檢視[!UICONTROL Reports]區段中Automated Personalization (AP)活動的客戶無法在報表群組和選件層級看到模型就緒指標。 發生此問題是因為無法從後端正確擷取模型就緒的資料。 功能已還原，且模型就緒的資料現在如預期般顯示。 (TGT-53600 和 TGT-53601)
+* **排程為未來的活動在[!UICONTROL Live]總覽中錯誤顯示「[!UICONTROL Activity]」狀態**：客戶觀察到排程為未來開始的活動在[!UICONTROL Live]總覽中錯誤標籤為「[!UICONTROL Activity]」。 此狀態不符問題已解決，排程活動現在可正確顯示為&quot;[!UICONTROL Scheduled]&quot;，不需要重新整理頁面。 (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++檢視詳細資料
+* **在[!UICONTROL View Collection]對話方塊中看不到產品清單：**&#x200B;之前，客戶在[!UICONTROL Recommendations]索引標籤中檢視集合時無法看到產品清單。 [!UICONTROL View Collection]對話方塊現在可以正確顯示關聯產品，提高更新的[!UICONTROL Recommendations] UI的透明度和可用性。 (TGT-50531)
+* **已修正[!UICONTROL Product Catalog Search]進階搜尋中區分大小寫篩選的問題**： [!UICONTROL Product Catalog Search]頁面中的進階搜尋篩選現在會正確忽略區分大小寫功能，並符合後端和GraphQL服務的行為。 此更新可確保為客戶提供一致且準確的建議結果，無論文字大小寫為何。 (TGT-53585)
+* **在更新的[!UICONTROL Product Catalog Search] UI中的進階搜尋未提供建議**：在更新的[!UICONTROL Product Catalog Search] UI中使用進階搜尋功能的客戶必須輸入正確拼字的值，因為沒有顯示任何建議。 此問題導致難以有效找到產品。 現在，建議會在進階搜尋輸入期間如預期般顯示。 (TGT-52008)
+* **有些核准者無法檢視[!UICONTROL Product Catalog Search]**&#x200B;中的產品：儘管其他具有相同角色的使用者具有存取權，但具有[!UICONTROL Approver]許可權的客戶無法檢視[!UICONTROL Product Catalog Search]中的任何產品。 此問題是因為影響目錄可見性的許可權不一致所導致。 所有核准者現在都能如預期檢視[!UICONTROL Recommendations]區段中的產品。 (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++檢視詳細資料
+* **由於無效的對象名稱錯誤，無法為案頭對象載入報告**：客戶嘗試在活動建立程式中檢視一個對象的報告時遇到GraphQL錯誤。 系統傳回「無效的對象名稱： XXXXX」訊息，導致無法存取報表資料。 現在，案頭對象的報表可正確載入。 (TGT-53371)
+* **在「報表」頁面上切換對象時，導致Target UI發生錯誤**：客戶在[!UICONTROL Reports]區段中選取某些對象時遇到錯誤。 此問題是因為後端GraphQL呼叫中的對象處理無效，導致未預期的錯誤和遺失資料所導致。 問題已解決，現在即使沒有可用資料，案頭受眾仍會載入且不會發生錯誤。 (TGT-53370)
+* **[!UICONTROL Graph view]區段中的[!UICONTROL Reports]未顯示來自[!DNL Analytics]**&#x200B;的值：在Re[!UICONTROL Graph view]連線埠區段存取的客戶遇到遺失資料，所有值都顯示為零。 此問題是因為從[!UICONTROL Analytics]擷取的資料不正確所造成。 [!UICONTROL Graph view]現在會如預期顯示正確的值。 (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++檢視詳細資料
+* **使用[!UICONTROL Enhanced Experience Composer] (EEC)按一下「接受Cookie」失敗，因為遺失函式**：客戶回報嘗試透過EEC接受Cookie導致主控台錯誤： `handleclickAcceptAllButton is not defined`。 Cookie接受功能現在可如預期運作，確保在更新UI中建立活動期間提供更順暢的體驗。 (TGT-52794)
+* **新的EEC UI無法載入舊版UI先前支援的某些頁面**：客戶報告新的EEC無法載入某些頁面，這些頁面可在舊版UI中存取，儘管網站上有防iframe的程式碼。 更新的活動建立流程現在支援載入這些頁面，以恢復活動建立工作流程的相容性。 (TGT-53061)
+* **編輯體驗時，VEC顯示空白的白色畫面**：來自特定租使用者的客戶回報，嘗試在更新的VEC中編輯體驗時，VEC畫面變成空白。 此問題會影響新建立和舊的活動，阻礙工作流程的連續性。 VEC現在會正確載入，讓客戶能在不中斷的情況下編輯體驗。 (TGT-53547)
+* **載入特定活動時，VEC當機並顯示空白熒幕**：來自特定租使用者的客戶報告VEC無法載入特定活動。 體驗編輯器在當機並顯示空白畫面之前，停留在「套用初始修改」上。 主控台錯誤指出無法讀取未定義的屬性。 編輯器現在會在更新的VEC中載入受影響的活動，而不會發生錯誤。 (TGT-53548)
+* **使用Backspace清除所有日期值會導致頁面當機**：使用Backspace清除&quot;[!UICONTROL Goals & Settings]&quot;欄位中的所有值時，排程[!UICONTROL Specified Date & Time]區段中的客戶發生當機問題。 此問題是由日期處理邏輯中的Null參考錯誤所導致。 頁面現在能順利處理空白的日期輸入，而不會當機。 (TGT-53624)
+* **由於裝載無效，[!UICONTROL Product Catalog Search]中未出現任何產品**：存取[!UICONTROL Recommendations]中[!UICONTROL Product Catalog Search]區段的客戶遇到因無效GraphQL裝載造成的空白結果。 此後端錯誤導致產品資料無法正確載入。 產品現在會在更新後的UI中如預期般顯示。 (TGT-53630)
+* **[!DNL Scene7]個影像已在更新的VEC中以較低解析度儲存**：在更新的VEC中編輯體驗的客戶注意到，[!UICONTROL Scene7]個影像URL儲存時未使用解析度引數，導致傳送的影像品質較低(400×400而不是預期的800×800)。 影像URL現在會保留正確的引數，以確保正確解析度。 (TGT-52631)
+* **仍可在VEC中編輯已上線活動**：客戶可存取更新後VEC中已上線活動的編輯選項，這可能會導致意外的變更。 此問題已藉由停用已上線活動的編輯功能而解決。 編輯按鈕現在會隱藏在活動清單和編輯者的概覽中，而核准者和其他角色則不受影響。 (TGT-53055)
+* **已停止支援更新VEC中的[!UICONTROL Failed]與[!UICONTROL Draft]活動區段**：已從更新的VEC中移除[!UICONTROL Failed]與[!UICONTROL Draft]活動選項。 新的UI不再支援草稿狀態，且失敗的行銷活動不會儲存在後端。 這些選項已不再相關。 相關篩選器和後端欄位（例如，`uiSyncFailed`、`errorMessage`）也已移除，以簡化活動管理。 (TGT-53150)
+* **無法登入VEC進行活動**：嘗試透過VEC登入其網站的客戶被重複重新導向至登入頁面，導致無法存取活動編輯。 此問題無法在內部複製，且可能與網站端工作階段處理有關。 登入流程已穩定，客戶現在可以存取VEC而不會發生重新導向錯誤。 (TGT-53524)
+* **在[!UICONTROL Browse]模式中按兩次返回按鈕會導致VEC當機**：在VEC中瀏覽[!UICONTROL Browse]模式的客戶在按兩次瀏覽器的返回按鈕時遭遇當機。 此問題會導致編輯器凍結，並需要重新整理頁面。 編輯器現在能以可靠的方式處理背面導覽，而不會當機。 (GT-53568)
+* **無法編輯活動，因為未定義位置對應**：客戶嘗試編輯活動時發生錯誤，原因是`LocationMapping.behaviorTargetedActivity`邏輯中未定義位置ID。 此問題導致400錯誤並封鎖活動更新。 現在可以在沒有位置相關驗證錯誤的情況下編輯活動。 (TGT-53607)
+* **儲存活動觸發無效的使用者輸入錯誤**：客戶在更新的VEC中進行微幅修改後，嘗試儲存活動時遇到無效的使用者輸入錯誤。 錯誤是由後端驗證邏輯中的位置對應不符所導致。 現在可以成功儲存活動，而不觸發位置相關錯誤。 (TGT-53603)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.3 （2025年8月21日）
 
 此版本包含下列更新和修正：
@@ -88,7 +139,7 @@ ht-degree: 6%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++檢視詳細資料
 * **修正客戶在活動建立程式期間無法輸入報表套裝名稱的問題**：在活動建立程式期間使用[!DNL Adobe Analytics]作為報表來源的客戶無法輸入[!UICONTROL Report Suite]下拉式清單來搜尋特定報表套裝。 這會影響擁有大量報表套裝之組織的工作流程，而手動捲動會大幅延遲設定。 下拉式清單並未依字母順序排序，且未一致回應輸入的內容，因此很難找到「Office + Store - Web - Prod」等報表套裝。 此問題已解決，客戶現在可以透過輸入報告套裝名稱來有效搜尋。 (TGT-53345)
@@ -122,7 +173,7 @@ ht-degree: 6%
 
 +++檢視詳細資料
 * **修正[!DNL Recommendations] UI中自訂條件CSV下載傳回404錯誤的問題**：修正客戶無法在活動建立程式中下載自訂條件CSV的問題。 下載連結現在可以正常運作，讓客戶如預期匯出自訂條件。 (TGT-51966)
-* **修正[!UICONTROL Catalog Search]**&#x200B;中載入的影像不一致：修正[!UICONTROL &#x200B; Catalog Search]中的縮圖與影像在活動建立程式中無法一致載入的問題。 除非顯示「縮圖URL」欄，且在導覽或搜尋動作後已載入部分或完全未載入某些產品影像，否則影像無法顯示。 影像載入行為已穩定，現在無論欄可見度或導覽動作為何，縮圖都會以可靠的方式顯示。 (TGT-52778)
+* **修正[!UICONTROL Catalog Search]**&#x200B;中載入的影像不一致：修正[!UICONTROL  Catalog Search]中的縮圖與影像在活動建立程式中無法一致載入的問題。 除非顯示「縮圖URL」欄，且在導覽或搜尋動作後已載入部分或完全未載入某些產品影像，否則影像無法顯示。 影像載入行為已穩定，現在無論欄可見度或導覽動作為何，縮圖都會以可靠的方式顯示。 (TGT-52778)
 * **修正了在重複體驗中編輯建議會影響原始體驗的問題**：客戶回報在重複體驗中修改建議無意間更改了原始體驗。 具體來說，在活動建立程式中複製體驗B並編輯其設計或條件後，相同的變更會反映在原始體驗B中，儘管它們是單獨的實體。 重複的體驗現在會維護個別的設定，確保對一個體驗的編輯不會影響原始體驗。 (TGT-53369)
 * **修正對重複體驗的變更無意中影響活動中原始體驗的問題**：客戶回報說，在活動內複製體驗並指派新對象時，對複製體驗的設計或條件所做的任何變更也會反映在原始體驗中。 即使未直接對原始版本進行任何編輯，也會發生此問題，這會影響在相同活動中建立獨立變體的能力。 活動建立程式現在可以正確隔離重複的體驗，確保對一個體驗所做的編輯不會影響原始體驗。 (TGT-53361)
 * **修正[!UICONTROL Recommendation Catalog]斷斷續續地無法顯示完整產品屬性資料的問題**：在更新的[!DNL Recommendations] UI中，客戶遇到即使資料存在於摘要中，[!UICONTROL Catalog Search]結果中仍無法一致顯示某些產品屬性（例如訊息）的問題。 此問題需要客戶手動重新設定欄可見性，以擷取缺少的值。 [!UICONTROL Catalog Search]現在可靠地顯示所有已設定的屬性，不需要手動重設欄。 (TGT-52769)
@@ -153,7 +204,7 @@ ht-degree: 6%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++檢視詳細資料
 * **修正在AP活動中，活動建立程式封鎖推進至[!UICONTROL Targeting]步驟的問題**：修正活動建立程式中，除非新增兩個位置，否則客戶無法繼續進行[!UICONTROL Targeting] (AP)活動的[!UICONTROL Automated Personalization]步驟的問題。 此行為與先前體驗不同，先前體驗中，具有多個選件的單一位置已足夠。 已更正此要求，讓客戶能夠繼續使用單一位置設定作為其AP工作流程的一部分。 (TGT-53426)
@@ -306,7 +357,7 @@ ht-degree: 6%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -316,7 +367,7 @@ ht-degree: 6%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
