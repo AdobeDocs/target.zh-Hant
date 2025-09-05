@@ -5,7 +5,7 @@ title: 什麼是回應Token？如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 24%
@@ -28,8 +28,8 @@ ht-degree: 24%
 
 | 鎖定SDK | 建議的動作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱[Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant){target=_blank}指南中的&#x200B;*安裝SDK*。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱[Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant)指南中的&#x200B;*發行說明*。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hant){target=_blank}。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js （現已棄用）中有部分外掛程式所依賴的內部方法，但at.js中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱[Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}指南中的&#x200B;*安裝SDK*。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱[Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)指南中的&#x200B;*發行說明*。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js （現已棄用）中有部分外掛程式所依賴的內部方法，但at.js中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。 |
 
 ## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ ht-degree: 24%
 
    如需詳細資訊：
 
-   * **Platform Web SDK**：請參閱[Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)指南中的&#x200B;*安裝SDK*。
-   * **at.js**：請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hant){target=_blank}。
+   * **Platform Web SDK**：請參閱[Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)指南中的&#x200B;*安裝SDK*。
+   * **at.js**：請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
 
@@ -58,7 +58,7 @@ ht-degree: 24%
    |  | `profile.categoryAffinity` | 傳回訪客最喜愛的類別。 |
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 目前活動的詳細資料。<br>請注意，優惠引數的值是在體驗層級上評估的。 |
-   | 地理 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/main/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
+   | 地理 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/main/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
    | 流量分配方法<br> （僅適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。） | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已鎖定目標」。 |
 
@@ -147,7 +147,7 @@ ht-degree: 24%
 
 ### 使用自訂事件的![at.js badge](/help/main/assets/atjs.png) at.js
 
-使用[at.js自訂事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=zh-Hant){target=_blank}接聽[!DNL Target]回應並讀取回應Token。
+使用[at.js自訂事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank}接聽[!DNL Target]回應並讀取回應Token。
 
 下列程式碼範例直接將 [!DNL at.js] 自訂事件處理常式新增至 HTML 頁面:
 
