@@ -4,9 +4,9 @@ description: 瞭解如何以CVS格式從Adobe [!DNL Target] 活動下載資料�
 title: 如何下載CSV檔案的報表資料？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
+source-git-commit: be02c0405133e4fc4e7f668a2b72a61b94070740
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '734'
 ht-degree: 30%
 
 ---
@@ -70,19 +70,19 @@ ht-degree: 30%
 >* 對於預設環境 (主機群組)，訂單報表資料包含四週的資料，而對於所有非預設環境，則包含兩週的資料。
 >* 針對相同訪客下第一個訂單，將收入量度設為&quot;[!UICONTROL Increment count and keep the user in the activity]&quot;記錄訂單詳細資料。 所有後續訂單都會增加轉換計數，但不會將收入新增至RPV/AOV/銷售，並且不會包含在[!UICONTROL Order Details]報表中。
 
-## 熱門程度的CSV下載格式和基於金鑰的演演算法 {#format}
+## 基於人氣和金鑰的演演算法的CSV下載格式 {#format}
 
 CSV下載檔案會一致地反映後端條件執行後產生的結果。
 
-**若是熱門演演算法（非金鑰型），檔案包含：**
+* **若為基於人氣的演演算法（非基於金鑰），檔案包含：**
 
-* 前置詞為*的備份建議列
-* 根據演演算法設定列出建議的獨立列
+   * 前置詞為* （星號）的備份建議列
+   * 根據演演算法設定列出建議的獨立列
 
-**對於金鑰式演演算法，檔案包含：**
+* **對於金鑰式演演算法，檔案包含：**
 
-* 與熱門程度演演算法類似的備份列
-* 鍵值格式的多列，其中第一個專案是鍵的產品ID，後面是代表建議候選人的逗號分隔產品ID
+   * 與熱門程度演演算法類似的備份列
+   * 鍵值格式的多列，其中第一個專案是鍵的產品ID，後面是代表建議候選人的逗號分隔產品ID
 
 ## 最佳實務
 
