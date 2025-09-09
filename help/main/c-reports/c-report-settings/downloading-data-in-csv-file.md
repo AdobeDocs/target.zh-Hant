@@ -4,10 +4,10 @@ description: 瞭解如何以CVS格式從Adobe [!DNL Target] 活動下載資料�
 title: 如何下載CSV檔案的報表資料？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 34%
+source-wordcount: '732'
+ht-degree: 30%
 
 ---
 
@@ -26,6 +26,20 @@ ht-degree: 34%
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
+
+## 熱門程度的CSV下載格式和基於金鑰的演演算法 {#format}
+
+CSV下載檔案會一致地反映後端條件執行後產生的結果。
+
+**若是熱門演演算法（非金鑰型），檔案包含：**
+
+* 前置詞為*的備份建議列
+* 根據演演算法設定列出建議的獨立列
+
+**對於金鑰式演演算法，檔案包含：**
+
+* 與熱門程度演演算法類似的備份列
+* 鍵值格式的多列，其中第一個專案是鍵的產品ID，後面是代表建議候選人的逗號分隔產品ID
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
