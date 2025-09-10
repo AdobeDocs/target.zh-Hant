@@ -4,9 +4,9 @@ description: 瞭解如何預覽Adobe [!DNL Target] Recommendations活動，以�
 title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ ht-degree: 15%
 >[!NOTE]
 >
 >包含[!UICONTROL User-Based Recommendations]演演算法的活動無法使用結果下載。 無法使用[!UICONTROL Recently-Viewed Items]建議邏輯的條件下載結果。
+
+### 基於人氣和金鑰的演演算法的CSV下載格式 {#format}
+
+CSV下載檔案會一致地反映後端條件執行後產生的結果。
+
+* **若為基於人氣的演演算法（非基於金鑰），檔案包含：**
+
+   * 前置詞為* （星號）的備份建議列
+   * 根據演演算法設定列出建議的獨立列
+
+* **對於金鑰式演演算法，檔案包含：**
+
+   * 與熱門程度演演算法類似的備份列
+   * 鍵值格式的多列，其中第一個專案是鍵的產品ID，後面是代表建議候選人的逗號分隔產品ID
 
 ## 啟用您的Recommendations活動
 
