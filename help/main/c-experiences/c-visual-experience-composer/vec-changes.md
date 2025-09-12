@@ -4,9 +4,9 @@ description: 瞭解Adobe Target 25.2.1版（2025年2月17日）中視覺化體�
 title: 新的視覺化體驗撰寫器(VEC)引進了哪些變更？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: 2dabda04aabe720b28e31033052e2076e78d1376
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ![元件邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-若要新增元件，請從您要插入的[!UICONTROL Components]邊欄拖曳元件，將其置於[!UICONTROL Design]畫布中的現有頁面元素上。 然後選擇將元件插入在所選元素的前面。
+若要新增元件，請從[!UICONTROL Components]邊欄中選取所需的元件，將游標停留在頁面中的現有元素上，然後選擇在所選元素之前插入元件。
 
 >[!NOTE]
 >
