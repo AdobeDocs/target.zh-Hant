@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 8%
+source-wordcount: '5412'
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,64 @@ ht-degree: 8%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3 （2025年9月30日）
+
+此版本包含下列增強功能和修正。
+
++++[!UICONTROL Audiences]
+
+* **對象排除規則在[!DNL Target] UI中顯示為包含不正確。在活動內編輯鎖定目標時，**&#x200B;設定了排除規則的對象會顯示為包含。 雖然在執行期間已正確套用排除邏輯，但UI無法正確反映規則，而省略「排除」標籤。 [!DNL Target] UI現在可以在對象設定和目標定位工作流程中正確顯示排除規則，確保行銷活動設定的清晰度和一致性。 (TGT-53808)
+* **[!UICONTROL Targeting]區段未指出對象規則已設定為排除。使用排除邏輯設定的對象**&#x200B;在活動建立UI的[!UICONTROL Targeting]區段中顯示為包含不正確。 雖然後端正確套用了排除規則，但UI無法以視覺化方式呈現它，省略「排除」標籤並在行銷活動設定期間造成混淆。 [!UICONTROL Targeting]區段現在清楚顯示排除規則，確保對象設定和目標定位視覺效果之間的一致性。 (TGT-53809)
+
++++
+
++++本地化
+
+* **修正「完整詳細資料檢視」簡體中文翻譯中的術語不一致問題。**
+之前，在簡體中文(zh_CN)地區設定中，「詳細資訊」一詞被錯誤地翻譯為「详情」，違反了既定的術語指南。 已將此修正為「详细信息」，以確保與術語庫一致。 (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **在VEC中很難找到及選取建議方塊。**&#x200B;在(VEC)中新增建議選件後，按一下左側面板中的修改未醒目提示或捲動至頁面上對應的建議方塊。 這使得尋找和編輯選件變得困難，尤其是當隱藏在選取器下或最小化樣式時。 按一下建議修改現在可正確反白並捲動至相關元素，提高更新活動建立流程中的可用性與編輯效率。 (TGT-52571)
+* 儲存活動後，**建議選取器重寫不正確。**&#x200B;將建議新增至VEC中的元素時，選取器一開始是正確的，但在儲存並重新開啟活動後，它會變更為一般選取器。 嘗試手動還原原始選擇器時導致驗證錯誤。 儲存後，建議選取器現在會精確持續存在，確保在更新的活動建立程式中能進行可靠的鎖定和編輯。 (TGT-53709)
+* **修改現有活動時無法編輯條件內容。**&#x200B;編輯活動時，[!UICONTROL Criteria]內容區段顯示為停用，按鈕灰顯且無回應。 此問題已透過確保[!UICONTROL Criteria]設定在活動更新期間完全可編輯而解決。 客戶現在可以修改[!UICONTROL Criteria]內容，而不需要切換選擇或使用因應措施，在更新的活動建立程式中提高彈性和可用性。 (TGT-53812)
+* **無法在活動內編輯條件。**&#x200B;從活動記憶體取條件時，[!UICONTROL Edit Criteria]和[!UICONTROL Remove Criteria]選項已停用。 不過，可以透過[!UICONTROL Recommendations]索引標籤成功編輯相同的條件。 現在可從活動編輯工作流程和[!UICONTROL Recommendations]標籤完全編輯條件，確保一致且有效的編輯體驗。 (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **在A[!UICONTROL utomated Personalization]活動中產生臨機選件造成報表不一致。**&#x200B;在[!UICONTROL Automated Personalization] (AP)活動中使用產生臨時優惠方案功能導致不正確的報告。 尤其是，選件ID會跨位置重複使用，導致報告資料被錯誤歸因或覆寫。 臨時選件現在會在每個位置產生不同的識別碼，以確保跨所有已設定體驗的準確追蹤和報告。 (TGT-53757)
+* **由於JavaScript錯誤，無法載入活動報告。**&#x200B;客戶在存取特定活動的[!UICONTROL Reports]索引標籤時遇到「發生錯誤」訊息。 錯誤是由JavaScript例外狀況所造成：無法讀取未定義的屬性（正在讀取&#39;indexOf&#39;），是在`getAnalyticsReportSummary` GraphQL呼叫期間觸發。 報告現在會正確載入，且錯誤處理已得到改善，以防止在更新的活動建立工作流程中發生類似失敗。 (TGT-53797)
+* **報告與卷軸互動後當機。**&#x200B;按一下[!UICONTROL Reports]索引標籤中的卷軸導致頁面當機，並伴有JavaScript錯誤：
+  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.`報告現在可正確載入及捲動，而不會觸發錯誤或當機。 (TGT-53828)
+* **報告未顯示主要量度。**&#x200B;活動報表中缺少使用mbox設定為轉換量度的主要量度。 依量度名稱或mbox名稱搜尋不會產生任何結果，導致無法檢視關鍵效能資料。 主要量度現在正確顯示在[!UICONTROL Reports]標籤中，確保準確追蹤和分析行銷活動績效。 (TGT-53773)
+* **與水準卷軸互動時，更新UI中的[!UICONTROL Reports]索引標籤當機失效。**&#x200B;使用水準卷軸在檢視範圍外存取量度時，[!UICONTROL Reports]檢視間歇性地當機，並出現「發生錯誤」錯誤。 卷軸現在能以可靠的方式運作，讓客戶檢視和分析所有量度，而不需要縮小或使用Shift-Scroll等因應措施。 (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **在VEC中按一下階層連結時，無法一致地顯示編輯功能表。**
+透過(VEC)中的階層連結選取HTML元素時，編輯功能表會斷斷續續地無法出現或快速消失，導致元素選取不可靠。 現在，透過階層連結導覽時，編輯功能表會一致地顯示，以改善更新活動建立流程中的元素選擇工作流程。 (TGT-52873)
+* **內容功能表間歇性地無法出現在VEC中。**&#x200B;按一下元素時，更新的VEC UI中的內容功能表未一致顯示，導致難以存取編輯選項。 現在，在選取元素時，內容功能表會可靠地顯示，以改善更新活動建立流程中的編輯工作流程和整體可用性。 (TGT-53015)
+* **VEC中的某些元素無法顯示內容功能表。**&#x200B;在更新的VEC中選取特定元素時，未顯示內容功能表，導致難以套用修改。 現在，所有支援的元素都會一致地顯示內容功能表，提高更新活動建立工作流程中編輯體驗的可靠性和可用性。 (TGT-53248)
+* 在VEC中使用階層連結時，**內容功能表在第一次點按時消失。**&#x200B;透過VEC中的階層連結選取父元素，會導致內容功能表短暫出現然後消失，導致難以存取編輯選項。 現在，透過階層連結導覽元素時，內容功能表仍可顯示和運作，提高更新活動建立程式中元素選擇工作流程的可靠性。 (TGT-53424)
+* **VEC中的最上層元素沒有出現內容功能表。**&#x200B;透過VEC中的階層連結選取頂層元素（例如`<div>`或`<main>`標籤）並未觸發內容功能表，導致無法進一步編輯動作。 現在，所有支援的元素（包括頂層容器）都能一致地顯示內容功能表，以改進活動建立工作流程的彈性和可用性。 (TGT-53770)
+* **特定頁面上的元素在VEC中無法編輯。**&#x200B;頁面上的某些元素無法在更新的VEC中選取或編輯。 此問題已隔離到該頁面，並且不會影響同一帳戶內的其他頁面。 頁面上的所有元素現在均可按預期選取及編輯，還原活動建立工作流程中的完整功能。 (TGT-53353)
+* **改善在VEC中選取元素期間檢視子元素的工作流程。**&#x200B;為了提高活動建立期間的可用性與精確度，VEC現在會在游標停留在父HTML元素上或加以選取時，顯示子元素。 此增強功能可讓客戶更瞭解頁面結構，並進行更準確的修改，精簡更新UI中的編輯工作流程。 (TGT-53416)
+* **無法使用修改列編輯現有活動中的元素。**&#x200B;在編輯先前建立的活動時，無法針對頁面上的某些元素啟用修改列，導致無法更新。 此問題主要是在修改後的活動中觀察到，很難在新建立的活動中複製。 修改列現在可一致地顯示並允許編輯所有支援的元素，改善更新活動建立工作流程中的可靠性和可用性。 (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **將活動複製到不同的工作區觸發了「無效的使用者輸入」錯誤。**&#x200B;嘗試將活動從一個工作區複製至另一個工作區時，導致錯誤：「InvalidProperty.Json — 無法辨識的屬性名稱&#39;content&#39;。」 此問題是因為在復製程式期間未正確處理活動中繼資料所造成。 現在可以在工作區間成功複製活動，而不會觸發驗證錯誤，確保活動部署工作流程更順暢。 (TGT-53731 和 TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2 （2025年9月22日）
 
 此版本包含下列修正和增強功能:
@@ -83,14 +141,14 @@ ht-degree: 8%
 
 +++檢視詳細資料
 * **修正因對象ID無效而無法複製活動的問題。**&#x200B;客戶嘗試在更新的活動建立程式中複製活動時，遇到因對象ID無效(例如 — 1752722444307)導致的錯誤。 此後端驗證問題可防止相同工作區中的活動重複。 此問題已解決，現在可以成功複製活動而不會出現對象相關錯誤。 (TGT-53717)
-* **修正在[!UICONTROL Automated Personalization]強制回應視窗中，[!UICONTROL Manage Content]個活動的僅限活動對象出現無效使用者輸入錯誤的問題。**&#x200B;客戶在AP活動的[!UICONTROL &#x200B; Manage Content]強制回應視窗中設定僅限活動的對象時，發生無效的使用者輸入錯誤。 儘管先前已成功使用對象，仍發生此問題。 合併的對象設定現在可正確儲存，而不會觸發驗證錯誤。 (TGT-53749)
+* **修正在[!UICONTROL Automated Personalization]強制回應視窗中，[!UICONTROL Manage Content]個活動的僅限活動對象出現無效使用者輸入錯誤的問題。**&#x200B;客戶在AP活動的[!UICONTROL  Manage Content]強制回應視窗中設定僅限活動的對象時，發生無效的使用者輸入錯誤。 儘管先前已成功使用對象，仍發生此問題。 合併的對象設定現在可正確儲存，而不會觸發驗證錯誤。 (TGT-53749)
 
 +++
 
 **文件**
 
 +++檢視詳細資料
-* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。**&#x200B;作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
+* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。**&#x200B;作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ ht-degree: 8%
 * 相同的資料串流ID只能用於不同的連線，前提是它們是在不同的沙箱中設定。
 * 此規則適用於所有資料流選取專案，包括選取「無」時。
 
-此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱[Adobe Target目的地](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform連線*。
+此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱[Adobe Target目的地](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform連線*。
 
 ## [!DNL Target Standard/Premium] 25.9.1 （2025年9月5日）
 
@@ -228,7 +286,7 @@ ht-degree: 8%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -238,7 +296,7 @@ ht-degree: 8%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

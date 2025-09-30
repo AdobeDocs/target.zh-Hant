@@ -4,9 +4,9 @@ description: 瞭解如何利用 [!DNL Target] 中的遠端選件來主控來自C
 title: 如何建立遠端選件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 19%
 
 ---
@@ -31,6 +31,17 @@ ht-degree: 19%
 ## 使用遠端選件的最佳作法 {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 在活動中使用遠端產品建議的最佳作法:
+
+* 支援遠端選件，位置如下：
+
+   * A/B活動
+   * 體驗鎖定目標 (XT) 活動
+   * 表單式工作流程
+
+* 不支援遠端選件：
+
+   * [進階功能](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP)、自動鎖定目標和Recommendations)
+   * Multivariate Testing (MVT)，因為依賴VEC而不支援遠端選件。
 
 * 如果您的選件與[!DNL Target]要求位於相同的網域中，使用[!UICONTROL Cached]選項可讓您使用相對URL來說明您的選件位置。
 
