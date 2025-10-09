@@ -6,7 +6,7 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -95,14 +95,14 @@ ht-degree: 7%
 
 +++檢視詳細資料
 * **修正因對象ID無效而無法複製活動的問題。**&#x200B;客戶嘗試在更新的活動建立程式中複製活動時，遇到因對象ID無效(例如 — 1752722444307)導致的錯誤。 此後端驗證問題可防止相同工作區中的活動重複。 此問題已解決，現在可以成功複製活動而不會出現對象相關錯誤。 (TGT-53717)
-* **修正在[!UICONTROL Automated Personalization]強制回應視窗中，[!UICONTROL Manage Content]個活動的僅限活動對象出現無效使用者輸入錯誤的問題。**&#x200B;客戶在AP活動的[!UICONTROL &#x200B; Manage Content]強制回應視窗中設定僅限活動的對象時，發生無效的使用者輸入錯誤。 儘管先前已成功使用對象，仍發生此問題。 合併的對象設定現在可正確儲存，而不會觸發驗證錯誤。 (TGT-53749)
+* **修正在[!UICONTROL Automated Personalization]強制回應視窗中，[!UICONTROL Manage Content]個活動的僅限活動對象出現無效使用者輸入錯誤的問題。**&#x200B;客戶在AP活動的[!UICONTROL  Manage Content]強制回應視窗中設定僅限活動的對象時，發生無效的使用者輸入錯誤。 儘管先前已成功使用對象，仍發生此問題。 合併的對象設定現在可正確儲存，而不會觸發驗證錯誤。 (TGT-53749)
 
 +++
 
 **文件**
 
 +++檢視詳細資料
-* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。**&#x200B;作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
+* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。**&#x200B;作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 7%
 **[!DNL Recommendations]**
 
 +++檢視詳細資料
-* 已針對在更新的UI中建立的&#x200B;**個活動還原[!UICONTROL Recommendations]點選追蹤。**&#x200B;解決在更新的UI中建立的[!UICONTROL Recommendations]個活動無法註冊點選追蹤的AB問題，導致報告的轉換數為零。 舊版UI中內建的活動可正確追蹤點按次數，並如預期回報轉換。 此修正可確保在更新UI中建立的Recommendations活動現在包含正確的追蹤屬性、還原轉換報告並符合A4T量度。 (TGT-53287)
+* 已針對在更新的UI中建立的&#x200B;**個活動還原[!UICONTROL Recommendations]點選追蹤。**&#x200B;解決在更新的UI中建立的[!UICONTROL Recommendations]活動無法登入點選追蹤，導致零回報轉換的問題。 舊版UI中內建的活動可正確追蹤點按次數，並如預期回報轉換。 此修正可確保在更新UI中建立的Recommendations活動現在包含正確的追蹤屬性、還原轉換報告並符合A4T量度。 (TGT-53287)
 * **已針對建議活動還原點選追蹤。**&#x200B;解決在更新的UI中建立的[!UICONTROL Recommendations]活動無法登入點選追蹤，導致零回報轉換的問題。 舊版UI已正確將追蹤ID (`at-track-click`)套用至[!UICONTROL Recommendations]內容，而更新的UI誤插入預留位置(`__recsClickTrackIdPlaceholder__`)，導致後端追蹤無法進行。 此修正可確保[!DNL Recommendations]內容現在包含正確的追蹤ID、還原轉換報告並與A4T量度一致。 (TGT-53496)
 * 在更新的UI中解決&#x200B;**集合編輯器當機。**&#x200B;修正更新的[!UICONTROL Visual Experience Composer] (VEC) UI中，從編輯器面板開啟集合導致頁面因TypeError當機的問題：無法讀取未定義的屬性（讀取&#39;customLocale&#39;）。 此錯誤發生在多個活動型別，包括[!UICONTROL Recommendations]和A/B測試。 (TGT-53703)
 * **移除在VEC中還原之選取集合的選項。**&#x200B;修正VEC中使用者只能取代[!UICONTROL Recommendations]活動中選取的集合，但無法完全移除的問題。 此限制會封鎖需要清除移除集合而不進行替代的使用案例。 此修正引進了清除選項來移除選取的集合，讓活動設定擁有更大的彈性，並與舊版UI行為一致。 (TGT-53652)
@@ -178,7 +178,7 @@ ht-degree: 7%
 * 相同的資料串流ID只能用於不同的連線，前提是它們是在不同的沙箱中設定。
 * 此規則適用於所有資料流選取專案，包括選取「無」時。
 
-此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱[Adobe Target目的地](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform連線*。
+此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱[Adobe Target目的地](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform連線*。
 
 ## [!DNL Target Standard/Premium] 25.9.1 （2025年9月5日）
 
@@ -240,7 +240,7 @@ ht-degree: 7%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -250,7 +250,7 @@ ht-degree: 7%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
