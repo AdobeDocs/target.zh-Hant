@@ -4,7 +4,7 @@ description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC) Helper擴充功能？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 6f4fd14a46f06c1366c02cfaf5a0cee5edbb00c4
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 50%
@@ -56,7 +56,7 @@ SW 可以控制快取；可以快取網頁本身、靜態資源，如 JS、CSS�
 
 ## 取得並安裝 VEC Helper 瀏覽器擴充功能
 
-1. 導覽至Chrome網站商店中的[Adobe Target VEC Helper瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)。
+1. 導覽至Chrome網站商店中的[Adobe Target VEC Helper瀏覽器擴充功能](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)。
 1. 按一下 **[!UICONTROL Add to Chrome > Add Extension]**。
 1. 在 [!DNL Target] 中開啟 VEC。
 1. 若要使用擴充功能，請在 VEC 或 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)中時，按一下 Chrome 瀏覽器工具列上的 VEC Helper 瀏覽器擴充功能圖示 (![VEC Helper 圖示](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
