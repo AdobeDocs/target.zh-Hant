@@ -2,13 +2,13 @@
 keywords: 推薦;介紹;簡介;研討會;示範
 description: 了解 Adobe [!DNL Target] 中的推薦活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
 title: 什麼是推薦活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 86%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 89%
 * **發佈**：網站發佈者使用 [!DNL Target Recommendations] 向網站訪客建議文章並促進更多互動。
 * **影片教學課程**：[!DNL Adobe Creative Cloud] 使用 [!DNL Target]，在 Photoshop 應用程式中向 Photoshop 使用者建議影片教學課程。
 * **遊戲**：遊戲公司使用 [!DNL Target]，在使用者的遊戲主機上向其建議遊戲和內容。
-* **B2B 銷售**：[企業對企業公司使用 Target，向 B2B 潛在客戶建議影片、白皮書和部落格文章、提供下載，以及為現有客戶提供協助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
+* **B2B銷售**：企業對企業公司使用Target，向B2B潛在客戶建議影片、白皮書和部落格、提供下載，以及為現有客戶提供協助。
 
 * **旅遊**：[某個德國旅行社使用 Target 向旅客建議旅館及其他內容](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
-* **零售**：[某個領先業界的 B2B 零售商使用 Target，向瀏覽器及其行動應用程式中的回訪訪客建議最熱門的類別與產品](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
+* **零售業**：領先業界的B2B retailer使用[!DNL Target]，向瀏覽器及其行動應用程式中的回訪訪客建議最熱門的類別與產品。
 
 這些只是客戶使用 Target 提供個人化建議的一些方式。
 
@@ -105,7 +105,7 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 您必須確保 [!DNL Target] 知道使用者檢視及購買的項目。如果購買與內容無關，您可能會想要追蹤不同型別的轉換事件，例如下載PDF、完成調查、訂閱電子報、觀看影片等。
 
-如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員（例如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=zh-Hant){target=_blank}中的標籤）進行此設定。 也可以透過即時API將離線或應用程式內的互動傳送至[!DNL Target]。
+如果您已使用 [!DNL Target] 在網站上執行 A/B 測試活動，您可能已完成此步驟。或者，如果您已使用 [!DNL Adobe Analytics] 回報網站造訪和轉換行為，您可使用 [!DNL Analytics] 做為行為資料來源。如果沒有，最簡單的做法是使用標籤管理員（例如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的標籤）進行此設定。 也可以透過即時API將離線或應用程式內的互動傳送至[!DNL Target]。
 
 ### 透過正確的內容取得建議
 
@@ -129,9 +129,9 @@ IT 部門通常會參與此過程並協助您完成設定。
 
 ![插圖顯示構成推薦活動的元素: 客群、條件和設計](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 隨附立即可用的 14 個內建客群、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些項目，或新增您自己的項目。我們之前曾舉辦[次有關在](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)中建立對象[!DNL Target]的網路研討會。 本節重點在於如何定義條件，這會定義將建議哪些項目。
+[!DNL Target] 隨附立即可用的 14 個內建客群、42 個內建條件，以及 10 個內建設計範本。您可以逐一自訂這些專案，或新增您自己的專案。
 
-Target 使用條件卡的概念。條件卡就像個人化的方式。
+[!DNL Target]使用條件卡的概念。 條件卡就像個人化的方式。
 
 ![條件卡插圖](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ Target 使用條件卡的概念。條件卡就像個人化的方式。
 ## 示範
 
 在您如上所述完成建議漏斗插圖中的工作後，就剩下最終建議了。若要觀看[!DNL Target]內的產品內示範，此示範會在:00Adobe Target基礎網路研討會&#x200B;*中的21*&#x200B;開始，連結如下。
-
-## Adobe [!DNL Target] 基礎網路研討會：推薦簡介 {#intro-to-recs}
-
-[推薦簡介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
