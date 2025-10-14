@@ -34,7 +34,7 @@ ht-degree: 64%
 
   使用[增強型體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)時，此擴充功能不會插入 at.js，但是 SameSite Cookie 功能依然存在。 若要在網頁上插入 at.js，請關閉 EEC。
 
-* 即使沒有[ (EEC)，也支援](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)行動檢視區[!UICONTROL Enhanced Experience Composer]。
+* 即使沒有[&#x200B; (EEC)，也支援](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)行動檢視區[!UICONTROL Enhanced Experience Composer]。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
 * 管理多位客戶網站與 [!DNL Target] 帳戶的合作夥伴現在擁有一套簡單的機制可支援 VEC 載入工作，而不必在第三方工作中管理多個規則。
 

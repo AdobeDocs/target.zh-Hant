@@ -40,7 +40,7 @@ ht-degree: 50%
 +++檢視詳細資料
 載入[!UICONTROL Enhanced Experience Composer]的問題可藉由將下列IP位址列入允許清單來解決。 這些IP位址是用於用於[!DNL Adobe] Proxy的[!UICONTROL Enhanced Experience Composer]伺服器。 只有針對活動編輯才需要這些資訊。您網站的訪客不需要將這些IP位址加入允許清單。
 
-如需詳細資訊，請參閱[ EEC將不會在](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)疑難排解增強體驗撰寫器的相關問題&#x200B;*中，載入無法透過公用IP*&#x200B;存取的內部QA URL。
+如需詳細資訊，請參閱[&#x200B; EEC將不會在](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)疑難排解增強體驗撰寫器的相關問題&#x200B;*中，載入無法透過公用IP*&#x200B;存取的內部QA URL。
 
 +++
 

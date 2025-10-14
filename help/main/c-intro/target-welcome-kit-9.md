@@ -31,7 +31,7 @@ ht-degree: 78%
 
 * **Adobe Target 教學課程**：瞭解基本知識或精進技能。請參閲 [Adobe Target 教學課程頁面](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant)。
 * **Adobe Target 裝置上培訓**：探索我們提供的各種 Target 課程。請參閲 [Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)頁面。
-* **Adobe Target 影片：**&#x200B;觀看 [!DNL Target] 影片以觀看成功案例和解決方案功能。請參閱[ Adobe Target Standard 和 Premium培訓影片](/help/main/c-intro/target-standard-premium-training-videos.md)
+* **Adobe Target 影片：**&#x200B;觀看 [!DNL Target] 影片以觀看成功案例和解決方案功能。請參閱[&#x200B; Adobe Target Standard 和 Premium培訓影片](/help/main/c-intro/target-standard-premium-training-videos.md)
 * **網路研討會系列**：Adobe Target 基本概念。加入我們的客戶成功網路研討會系列，與 Adobe Target 使用者一起探討最佳化基本概念。請參閲 [Target 基礎網路研討會系列](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)。
 * **Adobe 客戶服務「營業時間」**：「營業時間」是由 Adobe 客戶服務團隊開始的一項計畫。這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。請參閱[Adobe 客戶服務營業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)。
 * **Adobe Summit**：參加年度數位行銷人員最重要的專業活動。

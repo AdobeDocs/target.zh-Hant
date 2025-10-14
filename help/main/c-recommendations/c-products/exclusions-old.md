@@ -55,7 +55,7 @@ ht-degree: 29%
 
 ## 使用進階搜尋建立排除項目
 
-您也可以使用[!UICONTROL Advanced Search]目錄搜尋[頁面( ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) > [!UICONTROL Recommendations] > [!UICONTROL Catalog Search])上的[!UICONTROL Advanced Search]來建立排除專案。
+您也可以使用[!UICONTROL Advanced Search]目錄搜尋[頁面( &#x200B;](/help/main/c-recommendations/c-products/catalog-search.md#save-as) > [!UICONTROL Recommendations] > [!UICONTROL Catalog Search])上的[!UICONTROL Advanced Search]來建立排除專案。
 
 ![另存為對話方塊](/help/main/c-recommendations/c-products/assets/save-as.png)
 

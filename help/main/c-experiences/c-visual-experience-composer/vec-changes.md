@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]中可用的[[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]中可用的[[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
 
 當您建立或編輯現有活動時，VEC隨即顯示。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Modifications]邊欄
 
-若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ ](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。 [!UICONTROL Modifications]邊欄從編輯畫布的右側變更為左側。
+若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ &#x200B;](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。 [!UICONTROL Modifications]邊欄從編輯畫布的右側變更為左側。
 
 ![修改邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 按一下[!UICONTROL More Options]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ）以新增修改、刪除所有修改或刪除所有無效修改。 按一下[!UICONTROL Select]以執行大量作業： [!UICONTROL Apply to All Pages]或[!UICONTROL Delete]。
 
-若要再次顯示[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Hide Modifications]邊欄中的![圖示（ ](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Modifications] ）。
+若要再次顯示[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Hide Modifications]邊欄中的![圖示（ &#x200B;](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Modifications] ）。
 
 ### [!UICONTROL Properties]邊欄（新）
 

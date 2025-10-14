@@ -15,7 +15,7 @@ ht-degree: 31%
 
 元素選取器是可識別一或多個元素的CSS運算式。
 
-您可以在[ (MDN)上的](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)選取器&#x200B;*[!DNL Mozilla Developer Network]*&#x200B;檔案中找到有關CSS選取器的基本資訊。
+您可以在[&#x200B; (MDN)上的](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)選取器&#x200B;*[!DNL Mozilla Developer Network]*&#x200B;檔案中找到有關CSS選取器的基本資訊。
 
 您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下&#x200B;**[!UICONTROL Administration > Visual Experience Composer]**，然後選擇您偏好的CSS選取器。
 

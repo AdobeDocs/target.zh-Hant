@@ -217,7 +217,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[&#x200B; [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -249,7 +249,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[&#x200B; [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -281,7 +281,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-新增在[ [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在[&#x200B; [!DNL Adobe Journey Optimizer]中建立的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank}優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 

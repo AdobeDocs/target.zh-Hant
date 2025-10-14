@@ -125,4 +125,4 @@ Real-time CDP設定檔屬性可與[!DNL Target]共用，以用於HTML和JSON選�
 
 ## 依JSON選件型別篩選選件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按一下[!UICONTROL Offers]圖示（**[!UICONTROL Show filters]**&#x200B;顯示篩選器圖示![ ），然後選取](/help/main/assets/icons/Filter.svg)核取方塊，依JSON選件型別來篩選&#x200B;**[!UICONTROL JSON Offers]**&#x200B;資料庫。
+您可以按一下[!UICONTROL Offers]圖示（**[!UICONTROL Show filters]**&#x200B;顯示篩選器圖示![&#x200B; ），然後選取](/help/main/assets/icons/Filter.svg)核取方塊，依JSON選件型別來篩選&#x200B;**[!UICONTROL JSON Offers]**&#x200B;資料庫。

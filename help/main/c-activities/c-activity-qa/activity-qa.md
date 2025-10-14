@@ -79,7 +79,7 @@ ht-degree: 27%
 
 * 由於活動QA現在可用於所有[!DNL Target]活動型別，因此「使用體驗預覽URL預覽Automated Personalization活動」功能不再需要。
 * 如果帳戶中有太多已儲存的活動，已儲存活動的[!UICONTROL Activity QA]預覽連結可能會無法載入。 重試預覽連結應該有效。 為避免繼續發生此情況，請封存不再主動使用的已儲存活動。
-* 以[!UICONTROL Activity QA]Analytics作為報告來源[ (A4T)的活動可使用](/help/main/c-integrating-target-with-mac/a4t/a4t.md)個URL。 使用[!UICONTROL Activity QA]執行QA時產生的點選流向相同的報表套裝，即使活動上線後，活動的資料也會流經該報表套裝。
+* 以[!UICONTROL Activity QA]Analytics作為報告來源[&#x200B; (A4T)的活動可使用](/help/main/c-integrating-target-with-mac/a4t/a4t.md)個URL。 使用[!UICONTROL Activity QA]執行QA時產生的點選流向相同的報表套裝，即使活動上線後，活動的資料也會流經該報表套裝。
 * [!UICONTROL Activity QA]不會顯示已封存活動或超過結束日期之活動的內容。 如果您停用已結束的活動，則必須再次儲存活動以便[!UICONTROL Activity QA]運作。
 * 匯入至[!DNL Target Standard/Premium]的活動（例如，從[!DNL Target Classic]）不支援QA URL。
 * 在[!UICONTROL Auto-Allocate]與[!UICONTROL Recommendations]活動中，模型不會受[!UICONTROL Activity QA]中擷取的造訪影響。

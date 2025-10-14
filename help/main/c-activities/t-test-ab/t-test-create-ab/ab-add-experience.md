@@ -17,7 +17,7 @@ ht-degree: 28%
 
 如需關於體驗的其他詳細資料，請參閱[體驗](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
-1. 從VEC的&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面，按一下[!UICONTROL Add]窗格頂端的![圖示（ ](/help/main/assets/icons/Add.svg)新增圖示[!UICONTROL Experiences] ）。
+1. 從VEC的&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面，按一下[!UICONTROL Add]窗格頂端的![圖示（ &#x200B;](/help/main/assets/icons/Add.svg)新增圖示[!UICONTROL Experiences] ）。
 
    VEC會在您建立新活動後的左側顯示兩個標籤：體驗A和體驗B。體驗A是控制體驗。 您可以將多個體驗新增至測試。
 

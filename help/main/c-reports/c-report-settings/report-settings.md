@@ -181,7 +181,7 @@ ht-degree: 48%
 考慮以下事項：
 
 * 僅在[!UICONTROL Table View]中檢視報表時可用。
-* 此功能無法供以[ Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
+* 此功能無法供以[&#x200B; Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
 
 ## 位置貢獻 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
