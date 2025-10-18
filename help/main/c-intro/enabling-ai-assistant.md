@@ -48,4 +48,4 @@ ht-degree: 0%
 
 瞭解如何在[!DNL AI Assistant]內設定[!DNL Adobe Experience Platform]的存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475930/?captions=chi_hant&learn=on&#x26;enablevpops)
