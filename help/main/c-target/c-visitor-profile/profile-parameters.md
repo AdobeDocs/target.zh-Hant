@@ -4,10 +4,10 @@ description: 了解儲存在訪客個人資料中的訪客特有屬性，這些�
 title: 什麼是個人資料屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hant){target=_blank}中的&#x200B;*傳遞引數至全域Mbox*。<P>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。如果您必須傳遞超過50個設定檔屬性至[!DNL Target]，請使用[!UICONTROL Profile Update API]方法來傳遞它們。 如需詳細資訊，請參閱[目標開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=zh-Hant){target=_blank}中的&#x200B;*更新設定檔*。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。請參閱[Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}中的&#x200B;*傳遞引數至全域Mbox*。<P>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。如果您必須傳遞超過50個設定檔屬性至[!DNL Target]，請使用[!UICONTROL Profile Update API]方法來傳遞它們。 如需詳細資訊，請參閱[目標開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}中的&#x200B;*更新設定檔*。 |
    | 個人資料 | 直接使用 JavaScript 程式碼片段定義。 這些片段可儲存累積總計 (例如消費者總花費金額)，並在每個 mbox 要求上執行。請參閱底下的&#x200B;*個人資料指令碼屬性*。 |
 
 ## 個人資料指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否能夠使用個人資料指令碼從資料層中的頁面擷取資訊?**
 
-由於個人資料指令碼於伺服器端執行，因此其無法直接讀取頁面。資料必須透過mbox要求或其他[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法傳入。 將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
+由於個人資料指令碼於伺服器端執行，因此其無法直接讀取頁面。資料必須透過mbox要求或其他[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法傳入。 將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
 
 ## 指令碼個人資料參數的 JavaScript 參考資料
 
@@ -271,8 +271,8 @@ else if (mbox.param("adobeQA"))
 | `<=` | 與 `<` 相同，但如果變數相等，則運算結果為 true。 |
 | `>=` | 與 `>` 相同，但如果變數相等，則運算結果為 true。 |
 | `&&` | 邏輯上，「AND」左側和右側的運算式，只有在兩側皆為 true 時，才會是 true (否則為 false)。 |
-| `||` | 邏輯上，「OR」左側和右側的運算式，只有在其中一側為 true 時，才會是 true (否則為 false)。 |
-| `//` | 檢查來源是否包含目標布林值包含的所有元素 (陣列來源、陣列目標)。<br>`//` 會從 Target 擷取子字串 (對應至 regexp)，然後將其解碼 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>此功能也支援使用常數字串值、分組 (`condition1 || condition2) && condition3`，以及規則運算式 (`/[^a-z]$/.test(landing.referring.url)`。 |
+| `\|\|` | 邏輯上，「OR」左側和右側的運算式，只有在其中一側為 true 時，才會是 true (否則為 false)。 |
+| `//` | 檢查來源是否包含目標布林值包含的所有元素 (陣列來源、陣列目標)。<br>`//` 會從 Target 擷取子字串 (對應至 regexp)，然後將其解碼 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>此功能也支援使用常數字串值、群組(`condition1 \|\| condition2) && condition3`)和規則運算式(`/[^a-z]$/.test(landing.referring.url)`)。 |
 
 ## 培訓影片：個人資料指令碼 ![教學課程徽章](/help/main/assets/tutorial.png)
 

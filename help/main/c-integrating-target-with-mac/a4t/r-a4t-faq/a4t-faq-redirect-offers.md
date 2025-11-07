@@ -4,7 +4,7 @@ description: 尋找在使用Analytics for [!DNL Target] (A4T)時使用重新導�
 title: 我可以在哪裡找到有關使用A4T重新導向選件的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 50%
@@ -84,7 +84,7 @@ ht-degree: 50%
 ## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++回答
-使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並不是問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。
+使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並不是問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 如果您使用不支援的較舊 at.js 版本，可能會發生競爭條件，而可能導致 Analytics 呼叫在重新導向於第一個頁面上執行前引發。此情況可能會導致計算原始頁面和重新導向頁面上的頁面檢視次數。 此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 
@@ -110,7 +110,7 @@ ht-degree: 50%
 
 | 參數 | 說明 |
 |--- |--- |
-| `adobe_mc_sdid` | `adobe_mc_sdid`引數會將補充資料ID (SDID)和Experience Cloud組織ID從預設頁面傳給新頁面。 這些ID允許A4T將預設頁面上的Target要求與新頁面上的Analytic要求「拼接」起來。<br>在URL中傳遞sdid （針對混合式應用程式或從一個應用程式傳遞至網站或從一個網站傳遞至另一個網站）的預期格式為`ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | `adobe_mc_sdid`引數會將補充資料ID (SDID)和Experience Cloud組織ID從預設頁面傳給新頁面。 這些ID允許A4T將預設頁面上的Target要求與新頁面上的Analytic要求「拼接」起來。<br>在URL中傳遞sdid （針對混合式應用程式或從一個應用程式傳遞至網站或從一個網站傳遞至另一個網站）的預期格式為`ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | `adobe_mc_ref` 參數會將預設頁面的轉介 URL 傳給新頁面。與AppMeasurement.js 2.1版（或更新版）一起使用時，Analytics會在新頁面上將此引數值當作轉介URL。 |
 
 在 VEC 和表單式體驗撰寫器中使用重新導向產品建議，且頁面上實作訪客 ID 服務時，這些參數會自動加入重新導向 URL 中。如果在 VEC 和表單式撰寫器中使用您自己的自訂重新導向程式碼，務必隨著自訂程式碼傳遞這些參數。

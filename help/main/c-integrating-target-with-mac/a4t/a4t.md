@@ -4,7 +4,7 @@ description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 可根據 [!DNL Ana
 title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 80%
@@ -63,7 +63,7 @@ ht-degree: 80%
 | [多變數測試 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要mbox型目標量度目標才能取得[!UICONTROL Element Contribution]報表。 [!UICONTROL Element Contribution]報表目前不支援[!DNL Analytics]量度。 |
 | [Automated Personalization (AP) 活動](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
 | [推薦活動](/help/main/c-recommendations/recommendations.md) | 是 |  |
-| [任何使用重新導向產品建議的活動](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
+| [任何使用重新導向產品建議的活動](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |  |
 
 由於所有活動類型都尚未支援 A4T，建議您保留或實作重要的轉換 Mbox，例如 `orderConfirmPage` Mbox。
 
@@ -124,5 +124,5 @@ ht-degree: 80%
 >
 >* [Analytics for [!DNL Target] 實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)：包含 at.js 和 Platform Web SDK 的實作資訊。
 >* [重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)：包含有關 Platform Web SDK 的概觀資訊。
->* [Target 概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hant)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。
+>* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有關 Platform Web SDK 的概觀資訊。
+>* [Target 概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。

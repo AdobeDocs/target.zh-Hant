@@ -4,7 +4,7 @@ description: 瞭解如何在 [!DNL Adobe Target]中將動態資料傳遞至選�
 title: 如何將動態資料傳遞至選件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 52%
