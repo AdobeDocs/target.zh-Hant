@@ -124,5 +124,5 @@ ht-degree: 80%
 >
 >* [Analytics for [!DNL Target] 實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)：包含 at.js 和 Platform Web SDK 的實作資訊。
 >* [重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有關 Platform Web SDK 的概觀資訊。
->* [Target 概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。
+>* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)：包含有關 Platform Web SDK 的概觀資訊。
+>* [Target 概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hant)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。

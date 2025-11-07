@@ -84,7 +84,7 @@ ht-degree: 50%
 ## 為何有時會統計原始頁面和重新導向頁面上的頁面檢視? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++回答
-使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並不是問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+使用at.js 1.6.3版或更新版本時，計算兩個頁面上的頁面檢視次數並不是問題。 此競爭條件只會影響使用舊版本的客戶。Target 團隊會維護兩個版本的 at.js: 最新版本和次新版本。請視需要升級 at.js，以確保您執行的是[支援的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。
 
 如果您使用不支援的較舊 at.js 版本，可能會發生競爭條件，而可能導致 Analytics 呼叫在重新導向於第一個頁面上執行前引發。此情況可能會導致計算原始頁面和重新導向頁面上的頁面檢視次數。 此情況導致第一頁有額外的頁面檢視，使訪客從未真正「看過」這第一頁。
 

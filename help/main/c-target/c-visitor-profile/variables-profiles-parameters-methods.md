@@ -85,7 +85,7 @@ ht-degree: 67%
 | mbox.param(&#39;param_name&#39;) |  |
 | 自動和每個請求一併傳遞的參數:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |  |
 | 與訂單 mbox 一併傳遞的參數:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |  |
-| mbox3rdPartyId | mbox 參數，用來將客戶 ID 同步至 Target 的 mboxPCID。客戶 ID 為您的公司用來追蹤訪客的 ID，例如 CRM ID、會員 ID 或類似的項目。然後可以使用此ID透過設定檔API和[客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}來新增資訊。 |
+| mbox3rdPartyId | mbox 參數，用來將客戶 ID 同步至 Target 的 mboxPCID。客戶 ID 為您的公司用來追蹤訪客的 ID，例如 CRM ID、會員 ID 或類似的項目。然後可以使用此ID透過設定檔API和[客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant){target=_blank}來新增資訊。 |
 | mboxPageValue | 在每個 mbox 呼叫中，會指定一個值給頁面。 |
 | mboxDebug | 僅用於除錯資訊。新增至頁面URL，at.js會在此頁面尋找它。 |
 | mboxOverride.browserIp | 設定和實際位置不同的地理區域，讓您可以測試某個項目在其他位置看起來如何。<br>**注意:** 只有在測試活動並且不在生產中時，才應該使用 mboxOverride 參數。使用任何 mboxOverride 參數可能造成使用 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 時的報表差異。在測試時，您應該使用[活動 QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，以在將活動推送至您的即時環境之前，確保您的活動可如預期般運作。 |
