@@ -81,7 +81,7 @@ UI的設計目的是為了清楚且有效率，協助您充分利用[!DNL Target
 市場行銷人員、開發人員、管理員、分析人員及品質保證工程師。
 
 - [[!DNL Target] 發行說明](r-release-notes/release-notes.md)：包含最新版本的相關資訊、影響[!DNL Target]之已知問題的相關資訊、本檔案的重要更新清單，以及舊版發行說明的封存。
-- [ [!DNL Target]](c-intro/intro.md)簡介：說明[!DNL Target]的核心概念。
+- [&#x200B; [!DNL Target]](c-intro/intro.md)簡介：說明[!DNL Target]的核心概念。
 - [瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
 - [[!UICONTROL AI Assistant]總覽](/help/main/c-intro/ai-assistant.md)： A[!DNL AI Assistant]中的[!DNL dobe Experience Platform]是使用者介面功能，可用來導覽及瞭解[!DNL Adobe Target]概念。
 - 將[!DNL Target]與[!DNL Adobe Experience Cloud]整合：說明如何將[!DNL Target]與其他[!DNL Experience Cloud]解決方案整合，包括[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)及[[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
