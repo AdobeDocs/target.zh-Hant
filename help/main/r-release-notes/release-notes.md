@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
+source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 19%
+source-wordcount: '1736'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,25 @@ ht-degree: 19%
 ### [!DNL Target] UI版本切換為棄用
 
 如需詳細資訊，請參閱[[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md)。
+
+## [!DNL Target Standard/Premium] 25.11.2 （2025年11月14日）
+
+**決策優惠方案**
+
++++檢視詳細資料
+* **具有隱藏或無效選擇器的優惠決定無法在更新的UI中編輯。**&#x200B;解決在更新的UI中，無法編輯與隱藏或無效選取器繫結的優惠決定的問題，除非該元素可見於視覺化體驗撰寫器(VEC)。 現在支援直接從面板進行編輯，還原舊版UI中可用的功能，並確保可修改優惠決定，無論選擇器可見度為何。 (TGT-53899)
+
++++
+
+**推薦**
+
++++檢視詳細資料
+* **在活動中編輯條件導致頁面當機。**&#x200B;解決在更新的UI中編輯活動條件導致頁面當機並出現與`useCrudActionsCtx`相關的主控台錯誤的問題。 條件編輯器現在會正確載入和運作，確保可以編輯活動而不會中斷。 (TGT-53971)
+* **[!UICONTROL Message]欄間歇性地無法在更新的UI中顯示產品資料。**&#x200B;已解決在更新的[!UICONTROL Recommendations] UI中，[!UICONTROL Message]中的[!UICONTROL Catalog Search]欄間歇性地無法顯示產品資料的問題，即使摘要中存在值亦然。 欄現在會一致地顯示所有產品的正確訊息值，確保可靠的可見性，而不需要手動重新設定欄。 (TGT-52777)
+* 在更新的UI中儲存活動後，**[!UICONTROL Download Recommendations Data]按鈕不可見。**&#x200B;解決在更新的UI中，某些已儲存活動（即使重新儲存後）未顯示[!UICONTROL Download Recommendations Data]按鈕的問題。 現在，所有活動中都會一致地顯示按鈕，以確保使用者可以可靠地匯出建議資料，而不需要因應措施。 (TGT-53802)
+* **從集合開啟某些產品時傳回「找不到要求的資源」，且模型缺少close選項。**&#x200B;解決在更新的Recommendations UI中，從集合開啟某些產品時觸發「找不到請求的資源」錯誤，並在沒有關閉選項的情況下顯示空白強制回應視窗的問題。 強制回應視窗現在會正確載入產品詳細資料，而且隨時都可使用關閉選項正常結束。 (TGT-53986)
+
++++
 
 ## [!DNL Target Standard/Premium] 25.11.1 （2025年11月10日）
 
@@ -79,18 +98,18 @@ ht-degree: 19%
 **[!UICONTROL Reports]**
 
 +++檢視詳細資料
-* **[!UICONTROL Multivariate Test] (MVT)位置和圖表報告問題阻止產生報告。**&#x200B;解決MVT活動無法在Target UI中產生[!UICONTROL Location Contribution]和圖表報表的問題，顯示「發生錯誤」錯誤。 我們無法完成您的要求。」 現在，報表可在UI中正確載入，確保完整可見性。 (TGT-53654)
+* **[!UICONTROL Multivariate Test](MVT)位置和圖表報告問題阻止產生報告。**&#x200B;解決MVT活動無法在Target UI中產生[!UICONTROL Location Contribution]和圖表報表的問題，顯示「發生錯誤」錯誤。 我們無法完成您的要求。」 現在，報表可在UI中正確載入，確保完整可見性。 (TGT-53654)
 * **MVT報告因為[!UICONTROL Element]貢獻報告錯誤而未載入。**&#x200B;修正Target UI中無法載入MVT活動報表，並顯示「無法擷取元素貢獻報表」錯誤的問題。 現在，報表可正確顯示，以確保元素貢獻的完整可見性。 (TGT-53691)
 * **匯出訂單詳細資料至[!UICONTROL Experience Targeting] (XT)活動的CSV問題。**&#x200B;修正XT活動中[!UICONTROL Export Order Details to CSV]選項未正確顯示並傳回空白檔案的問題。 現在僅針對AP活動顯示選項，以確保精確的匯出功能並防止混淆。 (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++檢視詳細資料
 * **[!UICONTROL Delete Modification]按鈕問題無法移除活動修改。**&#x200B;解決[!UICONTROL Delete Modification] UI中的[!DNL Target]按鈕無法運作，導致使用者無法移除活動內的修改的問題。 按鈕現在可如預期運作，允許可靠刪除修改，而不會延遲。 (TGT-53728)
 * 更新的UI無法辨識&#x200B;**偏好的選取器。**&#x200B;已解決更新UI中偏好選取器（例如`data-target-component-id`）未出現在VEC內的CSS選取器清單中的問題。 使用者現在可以可靠地選取偏好的屬性，而不是動態產生的類別名稱，以確保在SPA頁面更新中穩定鎖定目標。 (TGT-53908)
-* **[!UICONTROL Edit]和[!UICONTROL Overview]頁之間的活動位置對齊方式不符。**&#x200B;解決[!UICONTROL Overview]頁面中的活動位置編號與[!UICONTROL &#x200B; Edit Experience]頁面中的更新不一致的問題。 現在，兩個檢視中的位置會保持一致，以確保精確的對齊並防止位置遺失或編號錯誤。 (TGT-53960 和 TGT-53954)
+* **[!UICONTROL Edit]和[!UICONTROL Overview]頁之間的活動位置對齊方式不符。**&#x200B;解決[!UICONTROL Overview]頁面中的活動位置編號與[!UICONTROL  Edit Experience]頁面中的更新不一致的問題。 現在，兩個檢視中的位置會保持一致，以確保精確的對齊並防止位置遺失或編號錯誤。 (TGT-53960 和 TGT-53954)
 * **無法在更新的VEC中切換回[!UICONTROL Design]模式。**&#x200B;解決更新的VEC UI中，使用者在[!UICONTROL Design]模式中導覽至新頁面後，無法切換回[!UICONTROL Browse]模式的問題。 [!UICONTROL Design]切換功能現在可以正常運作，讓修改可以順暢地套用至各頁面。 (TGT-53988 和 TGT-53993)
 * **查詢引數未顯示在活動概觀中。**&#x200B;已解決更新後UI中，查詢引數未顯示在活動的[!UICONTROL Overview]頁面中，而導致[!UICONTROL Overview]和頁面傳送URL不一致的問題。 現在，查詢引數可正確顯示，以確保活動位置可完全呈現，且在檢視間保持一致。 (TGT-53701)
 
@@ -101,7 +120,7 @@ ht-degree: 19%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -111,7 +130,7 @@ ht-degree: 19%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
