@@ -2,13 +2,13 @@
 keywords: 建立建議;推薦活動;新建議;建議概觀
 description: 瞭解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)來建立 [!DNL Recommendations] 活動。
 title: 如何建立 [!DNL Recommendations] 活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 52%
+source-wordcount: '1201'
+ht-degree: 50%
 
 ---
 
@@ -42,6 +42,10 @@ ht-degree: 52%
 
 1. 按一下您的頁面上的元素，然後如果建議可供元素所在的位置使用，請按一下&#x200B;**[!UICONTROL Replace w/ Recommendations]**、**[!UICONTROL Insert Recommendations Before]**&#x200B;或&#x200B;**[!UICONTROL Insert Recommendations After]**。
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Recommendations]個活動一次僅支援一個修改/建議。 針對多個建議，您可以建立多個[!DNL Recommendations]活動或使用A/B或XT測試。
+
    網站的訪客只有在符合建議資格時，才會看到建議內容。 不符合建議資格的訪客將看到預設內容。
 
    ![推薦選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
@@ -73,7 +77,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( [!UICONTROL Compatible] > **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**)而定，可能不會顯示&#x200B;**[!UICONTROL Filter Incompatible Criteria]**&#x200B;選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( [!UICONTROL Compatible] > **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**)而定，可能不會顯示&#x200B;**[!UICONTROL Filter Incompatible Criteria]**&#x200B;選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
