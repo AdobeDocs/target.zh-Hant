@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
-user-guide-description: 了解如何量身打造客戶體驗並將其個人化，以便在您的網站和行動網站、應用程式、社交媒體及其他數位頻道上獲得最大收入。
+user-guide-description: 瞭解如何跨網站、應用程式和社交管道個人化客戶體驗以提升收入。
 feature-set: Target
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 83%
 
 ---
 
@@ -281,7 +281,7 @@ ht-degree: 85%
       + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
    + Personalization前瞻分析報表 {#insights}
-      + [個人化前瞻分析報表概觀](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+      + [個人化洞察報告概觀](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動化區段報表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要屬性報表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + 多變數測試報表 {#multivariate-test-reports}
@@ -333,7 +333,7 @@ ht-degree: 85%
       + [將推薦與電子郵件整合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [推薦摘要處理伺服器使用的 IP 位址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Target Premium 中的推薦經典版與推薦活動的比較](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [推薦經典版文件](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [推薦經典版文件](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + 疑難排解 Target {#troubleshoot}
    + [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)
    + [限制](r-troubleshooting-target/target-limits.md)
