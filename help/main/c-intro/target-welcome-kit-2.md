@@ -4,10 +4,10 @@ description: 以高層級方式檢視 Adobe Target。了解可用的活動、頻
 title: 在哪裡可以找到 Target 的高層級簡介？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 79%
+source-wordcount: '2485'
+ht-degree: 74%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 79%
 | 活動類型 | 詳細資料 |
 | --- | --- |
 | A/B 測試 | 比較您網站或其他數位客戶接觸點上的兩種或更多種體驗或產品建議的變化，以瞭解哪些變化在預先指定的測試期間對關鍵業務衡量標準有最大改善。A/B測試非常適合進行大型變更，例如新的網頁頁面配置、不同的網站導覽方式，或對複製、影像和行動號召按鈕等數位體驗的個別元素進行截然不同的處理方式。[了解詳情](/help/main/c-activities/t-test-ab/test-ab.md)。 |
-| 自動分配 | 從兩個或多個體驗中識別出效能最佳的體驗，並自動重新分配更多流量給成功者以增加轉換，同時測試會繼續執行和學習。使用由 [!DNL Adobe Sensei] 提供支援的人工智慧。[了解詳情](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| 自動鎖定目標 <br>(Premium) | 運用 [!DNL Target] 中的 Adobe Sensei 人工智慧，根據個別客戶輪廓和先前具有類似輪廓的訪客行為，決定並提供每位訪客最佳體驗。 自動鎖定目標可讓您大規模個人化。[了解詳情](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
-| Automated Personalization <br>(Premium) | 使用由 [!DNL Adobe Sensei] 支援的進階機器學習演算法和自動化功能，檢視產品建議中影像、複製和其他元素的不同組合，並根據能最好地達成商業目標者 (例如每位訪客的轉換或收入增加)，為每位訪客提供最佳組合。 [了解詳情](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
+| 自動分配 | 從兩個或多個體驗中識別出效能最佳的體驗，並自動重新分配更多流量給成功者以增加轉換，同時測試會繼續執行和學習。使用由 [!DNL Adobe Adobe AI] 提供支援的人工智慧。[了解詳情](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
+| 自動鎖定目標 <br>(Premium) | 運用[!DNL Target]中的Adobe AI，根據個別客戶設定檔與具有類似設定檔之先前訪客的行為，決定並提供每位訪客最佳體驗。 自動鎖定目標可讓您大規模個人化。[了解詳情](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| Automated Personalization <br>(Premium) | 使用由 [!DNL Adobe Adobe AI] 支援的進階機器學習演算法和自動化功能，檢視產品建議中影像、複製和其他元素的不同組合，並根據能最好地達成商業目標者 (例如每位訪客的轉換或收入增加)，為每位訪客提供最佳組合。 [了解詳情](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | 體驗鎖定 (XT) | 根據一組使用者定義的規則和標準，將內容傳送給特定的客群。 當您瞭解對象是有價值的，以及充分意識到哪些體驗會與之產生共鳴時，**[!UICONTROL Experience Targeting]**&#x200B;對於鎖定特定體驗或內容並用於特定對象非常有用。 [了解詳情](/help/main/c-activities/t-experience-target/experience-target.md)。 |
 | 多變數測試 (MVT) | 比較頁面上或數位體驗中各種元素變化的可能組合——例如 3 種不同的背景影像、2 種不同複本和 2 種不同按鈕顏色。MVT 會決定哪些組合對特定客群具有最佳效能，以及哪些元素對結果的影響最大。[了解詳情](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
-| 推薦<br>(Premium) | 使用 Adobe Sensei 人工智慧，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。[了解詳情](/help/main/c-recommendations/recommendations.md)。 |
+| 推薦<br>(Premium) | 使用Adobe人工智慧，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。 [了解詳情](/help/main/c-recommendations/recommendations.md)。 |
 
 ## 頻道
 
-您可以使用 [!DNL Target] 測試和個人化幾乎任何地點的數位體驗——例如您的網站、行動網站和行動應用程式等傳統數位接觸點，或是資訊站、電子郵件、IoT 裝置、遊戲主機，甚至 Alexa 和 Cortana 等語音助理這類的接觸點。許多公司都開始在其網站上使用 [!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動裝置頻道現在至關重要。在理想狀況下，您可以跨所有接觸點連結訪客體驗，以提供順暢、一致的體驗。
+您可以使用[!DNL Target]測試和個人化幾乎任何地點的數位體驗 — 例如您的網站、行動網站和行動應用程式等傳統數位接觸點，或是資訊站、電子郵件、物聯網裝置、遊戲主機，甚至Alexa和Cortana等語音助理這類的接觸點。 許多公司都開始在其網站上使用 [!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動裝置頻道現在至關重要。在理想狀況下，您可以跨所有接觸點連結訪客體驗，以提供順暢、一致的體驗。
 
 | 頻道 | 詳細資料 |
 | --- | --- |
@@ -52,8 +52,8 @@ ht-degree: 79%
 
 | 實施類型 | 詳細資料 |
 | --- | --- |
-| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。透過使用者端，您可以使用WYSIWYG編輯器&#x200B;**[!UICONTROL Visual Experience Composer]** (VEC)或非視覺化介面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;來建立您的測試和個人化體驗。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank}。 |
-| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。[了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。 |
+| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。瀏覽器會決定要顯示哪個體驗，然後顯示其內容。透過使用者端，您可以使用WYSIWYG編輯器&#x200B;**[!UICONTROL Visual Experience Composer]** (VEC)或非視覺化介面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;來建立您的測試和個人化體驗。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。[了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。 |
 | 混合實施 | 在此實施中，您可以選擇最適合特定使用案例的實施方法。例如，您可能會使用用戶端實施來 A/B 測試首頁上主頁橫幅中的一個產品建議，但也會使用伺服器端實施來決定要在用戶端瀏覽器上顯示的內部搜尋結果、要在智慧型儀表板上顯示的體驗，或要透過語音助手傳送的語音回應。 |
 
 ## 活動元素
@@ -66,7 +66,7 @@ ht-degree: 79%
 | 產品建議 | 可能包含影像、文字、HTML、連結、視訊、行動號召按鈕、語音助理回應或任何其他類型內容的內容區塊。 一項優惠可能是折扣、免運費等。產品建議可顯示在網頁上，但也可能在任何客戶接觸點 (例如語音助理或遊戲主機) 上體驗。 當測試產品建議時，您將它與其他產品建議或無產品建議進行比較以評估其成功程度。[了解詳情](/help/main/c-experiences/c-manage-content/manage-content.md)。 |
 | 客群 | 具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。客群功能可讓您將不同的內容和體驗鎖定在特定客群，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如果驗明訪客屬於目標客群，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。[了解詳情](/help/main/c-target/target.md)。 |
 | 成功量度 | 可讓您決定在 [!DNL Target] 活動中特定體驗或產品建議成功程度的關鍵業務測量。例如，您可以判斷新產品建議是否會提高每位訪客帶來的收入，或將某個項目新增至購物車的機會。成功量度非常適合用於探索關於註冊、訂購或購買漏斗的問題，但也適合探索關於訪客或客戶參與度的問題。[了解詳情](/help/main/c-activities/r-success-metrics/success-metrics.md)。 |
-| 報告 | 有關您活動的進度和結果的資訊，這些資訊可協助您根據資料做出決策。 報告資料可協助您決定要在何時終止測試、顯示哪個產品建議體驗是成功者，以及提供您決定後續動作所需的前瞻分析或經驗談。[了解詳情](/help/main/c-reports/reports.md)。 |
+| 報告 | 有關您活動的進度和結果的資訊，這些資訊可協助您根據資料做出決策。 報告資料可協助您決定要在何時終止測試、顯示哪個產品建議體驗是成功者，以及提供您決定後續動作所需的洞察或經驗談。[了解詳情](/help/main/c-reports/reports.md)。 |
 
 ## 活動建立工具
 

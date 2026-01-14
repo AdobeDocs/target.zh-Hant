@@ -2,13 +2,13 @@
 keywords: 工作區；管理屬性；許可權；產品設定；產品設定檔；角色；專案；觀察者；編輯器；核准者；發佈者
 description: 瞭解如何建立個別的工作區（產品設定檔），然後為使用者指派個別頁面、屬性或網站的不同角色和許可權。
 title: 什麼是企業使用者許可權？如何使用？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3166'
 ht-degree: 48%
 
 ---
@@ -147,7 +147,7 @@ Web 屬性是一組規則加上一個內嵌代碼。Web 屬性可以是一或多
 
 ### 多國組織
 
-如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。重新組織之後，使用上圖中的角色，您可以設定類似於以下的工作區和權限:
+如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。重新組織之後，使用上圖中的人物誌，您可以設定類似於以下的工作區和權限:
 
 * **Jan**: Jan 是組織的美國網頁、屬性和網站的 Center of Excellence 的最佳化領導者。她很可能具有 Adobe Experience Cloud 中的系統管理員權限。
 

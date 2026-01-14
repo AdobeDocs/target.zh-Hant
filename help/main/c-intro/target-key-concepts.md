@@ -4,10 +4,10 @@ description: 了解 Adobe Target 的基本概念。 此文章向您介紹 Target
 title: 如何使用 Target？
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 98%
+source-wordcount: '1524'
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概觀，以�
 
 體驗也可能是不同的頁面設計。例如，一個體驗可能有一組連結橫跨在頁面頂端，而另一個體驗有不同的連結，或相同的連結但以不同順序排列。您可以測試一個影像是否比另一個影像提供更大的提升度，或一個廣告靠近頁面頂端或放在不同位置是否更可能被點閱。
 
-[!DNL Target] 會遍及您所有數位接觸點的每一位訪客來最佳化體驗，以及測試不同體驗來判斷何者最成功。只要仔細規劃體驗的目標鎖定，即可確保網站訪客在頁面上的正確位置看見最有關的產品建議，提高造訪成功的機會。
+[!DNL Target]會遍及您所有數位接觸點的每一位訪客來最佳化體驗，以及測試不同體驗來判斷何者最成功。 只要仔細規劃體驗的目標鎖定，即可確保網站訪客在頁面上的正確位置看見最有關的產品建議，提高造訪成功的機會。
 
 ## 產品建議 {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
@@ -99,7 +99,7 @@ Target 包含數種活動類型。下表提供每種活動類型的概觀，以�
 |--- |--- |
 | 可重複使用的對象 | 可重複使用的客群可供任何活動選取。如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
 | 自訂群體 | 自訂區段 (也稱為行銷活動專用區段) 專供 Target Classic 中的行銷活動使用。它們是某個促銷活動的一部分，不可在其他促銷活動中重複使用。 |
-| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用客群。參閲[客群](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)以取得範例。 |
+| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用客群。參閲[客群](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)以取得範例。 |
 
 如需瞭解訪客輪廓如何追蹤網站訪客的相關資訊，請參閱[訪客輪廓](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 
