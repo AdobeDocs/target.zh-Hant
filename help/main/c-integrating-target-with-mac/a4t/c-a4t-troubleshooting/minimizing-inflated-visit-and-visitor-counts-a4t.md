@@ -41,7 +41,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 部分資料經確認的原因包括下列各項：
 
 * **不相符的報表套裝 ID (實作):** 在活動設定指定的報表套裝不符合傳送測試所在頁面上的報表套裝。無法在 [!DNL Analytics] 伺服器上協調資料，所以看起來像是部分資料。
-* **頁面速度緩慢：**[!DNL Target] 呼叫位在頁面頂端，[!DNL Analytics] 呼叫則通常位在頁面底部。 如果頁面載入速度很慢，則在 [!DNL Target] 呼叫觸發後、[!DNL Analytics] 呼叫觸發前，訪客離開頁面的可能性會提高。 在連線通常較緩慢的行動網站上，頁面速度緩慢特別會造成問題。
+* **頁面速度緩慢：**&#x200B;[!DNL Target] 呼叫位在頁面頂端，[!DNL Analytics] 呼叫則通常位在頁面底部。 如果頁面載入速度很慢，則在 [!DNL Target] 呼叫觸發後、[!DNL Analytics] 呼叫觸發前，訪客離開頁面的可能性會提高。 在連線通常較緩慢的行動網站上，頁面速度緩慢特別會造成問題。
 * **頁面錯誤：**&#x200B;如果發生JavaScript錯誤或每個接觸點(Experience Cloud ID服務、Target和Analytics)都未觸發的其他狀況，便會產生部分資料。
 * **[!DNL Target] 活動中的重新導向產品建議：**&#x200B;對於使用 A4T 的活動中的重新導向產品建議，您的實作必須符合特定的最低要求。 此外，還有您必須知道的重要資訊。 如需詳細資訊，請參閱[重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
 * **舊版程式庫：**&#x200B;在過去一年，Adobe 已對我們的 JavaScript 程式庫 ([!DNL appMeasurement.js]、`at.js` 和 `visitorAPI.js`) 進行多項改善，以確保盡可能有效率地傳送資料。 若要進一步了解實作需求，請參閱[實作之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
