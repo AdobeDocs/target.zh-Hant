@@ -71,7 +71,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 
 **部分資料點擊：**&#x200B;使用者有時留在頁面上的時間不夠長，因而無法傳送 [!DNL Analytics] 呼叫，但是 [!DNL Target] 會有正確的 MCID。 此情況會產生部分資料點擊 (沒有 [!DNL Analytics] 頁面瀏覽的點擊)。 如果這些使用者回到您的網站並檢視包含 [!DNL Analytics] 程式碼的頁面，即會將他們正確地計為回頭的訪客。 如果您的頁面上只有 [!DNL Analytics] 程式碼，則您會遺漏這些點擊。 有些用戶端不想要這些點擊的資料，因為它們會讓某些度量 (造訪) 膨脹，並讓其他度量 (每次造訪的頁面瀏覽數、每次造訪時間等) 縮小。 您也會看見沒有任何頁面瀏覽數的造訪。 不過，保留此資料仍有有效的原因。
 
-為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的程式庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。如需逐步指示，請參閱 *Analytics 元件指南*&#x200B;中的[建立虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
+為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的程式庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)。如需逐步指示，請參閱 *Analytics 元件指南*&#x200B;中的[建立虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)。
 
 下圖顯示虛擬報表套裝的區段定義:
 
@@ -92,7 +92,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 
 **孤立點擊:** 少數情況下，使用者未持在頁面上夠長的時間，使得 Analytics 呼叫和 Target 未取得正確的 MCID。Adobe 將這些點擊定義為「孤立的」點擊。 這些點擊代表的是客戶很少回來，以及他們不當地膨脹了造訪和訪客計數。
 
-若要將這些「孤立」點擊最小化，您可以建立可排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)，如以上所述。
+若要將這些「孤立」點擊最小化，您可以建立可排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)，如以上所述。
 
 ## 這對我的 [!DNL Target] 報告有何意義？ {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
