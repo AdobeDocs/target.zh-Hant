@@ -21,7 +21,7 @@ ht-degree: 86%
 | --- | --- |
 | [Adobe Target商業從業者指南](/help/main/target-home.md)<br>（本指南） | 概觀資訊、步驟和螢幕擷取畫面，重點是透過使用者介面與 [!DNL Target] 互動。本指南概述所有可用的動作和選項，包括要避免的「疑問」。這是使用 [!DNL Target] UI 時最詳細的資源。 |
 | [Adobe Target 教學課程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant) | 影片和教學課程可協助您學習 [!DNL Target] 的許多元件。 |
-| [Adobe Experience League Target社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) | 深入瞭解[!DNL Target]必須提供哪些內容、與同行和[!DNL Adobe]專家聯絡，以及投票或提交您對未來[!DNL Target]版本的構想。 |
+| [Adobe Experience League Target社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant) | 深入瞭解[!DNL Target]必須提供哪些內容、與同行和[!DNL Adobe]專家聯絡，以及投票或提交您對未來[!DNL Target]版本的構想。 |
 | [Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank} | 有關 Adobe Target開發人員網站的資訊，可協助您在用戶端應用程式、伺服器端應用程式、行動應用程式、物聯網等上實施 [!DNL Target]。您也可以將 [!DNL Target] 資料匯出至協力廠商解決方案。 |
 | [Target 推薦 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=zh-Hant){target=_blank} | 有關[!UICONTROL Recommendations] API的資訊，可讓您以程式設計方式與[!DNL Target]推薦伺服器互動。 這些 API 可與一系列應用程式堆疊整合，以執行您通常透過 [!DNL Target] UI 執行的功能。 |
 | [伺服器端傳送 API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank} | 有關構成 Adobe Target 傳送 API 的資源的資訊。 |
@@ -32,5 +32,5 @@ ht-degree: 86%
 | [Adobe 客戶服務營業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 有關 Adobe 客戶服務團隊主導的計劃「營業時間」的資訊。這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。 |
 | [Target 基礎網路研討會系列](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | [!DNL Target] 基礎網路研討會系列前幾場研討會的註冊資訊和連結，這是由社群推出的客戶成功研討會系列。 |
 
-除了上述資源之外，請造訪 [Adobe Experience League Target 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)，在其中您可以：
+除了上述資源之外，請造訪 [Adobe Experience League Target 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant)，在其中您可以：
 
