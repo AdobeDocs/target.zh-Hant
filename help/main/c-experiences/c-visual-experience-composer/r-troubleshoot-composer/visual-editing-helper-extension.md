@@ -4,10 +4,10 @@ description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Editing Helper]副檔名？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '765'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 64%
 >[!IMPORTANT]
 >
 >* 這個新的擴充功能會取代之前的 [Target VEC Helper 瀏覽器擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。請參閱該文章頂端的重要注意事項。 由於Manifest v3中的安全性增強功能，[!DNL Adobe]需要下載此新的擴充功能，才能繼續在[!DNL Target]中以視覺方式創作您的網站。
+
+## [!UICONTROL Visual Editing Helper]擴充功能的變更（2026年1月17日）
+
+### **修正問題，在VEC Helper中新增啟動Cookie清理實驗功能。**
+
+* 已修正在VEC Helper中新增啟動Cookie清理實驗功能的問題。
+* 此增強功能會在編寫開始時為每個索引標籤清除一次未分割的Cookie （而非持續進行），進而改善效能和可靠性。
+* 此功能會追蹤索引標籤歷史記錄，以防止多餘的清除，並在索引標籤關閉時清除歷史記錄，這樣當索引標籤重新開啟時，清除動作會正確。
+* 新增了完整的單元測試，以確保一致的行為。
+
+![VEC新選項](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## 某些網站可能無法可靠地在 VEC 中開啟的原因
 
@@ -34,7 +45,7 @@ ht-degree: 64%
 
   使用[增強型體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)時，此擴充功能不會插入 at.js，但是 SameSite Cookie 功能依然存在。 若要在網頁上插入 at.js，請關閉 EEC。
 
-* 即使沒有[&#x200B; (EEC)，也支援](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)行動檢視區[!UICONTROL Enhanced Experience Composer]。
+* 即使沒有[ (EEC)，也支援](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)行動檢視區[!UICONTROL Enhanced Experience Composer]。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
 * 管理多位客戶網站與 [!DNL Target] 帳戶的合作夥伴現在擁有一套簡單的機制可支援 VEC 載入工作，而不必在第三方工作中管理多個規則。
 
