@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1862'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 15%
 
 如需詳細資訊，請參閱[[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md)。
 
+## [!DNL Target Standard/Premium] 26.1.2 （2026年1月30日）
+
+**Adobe Target Insights儀表板**
+
+Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Target用於實驗與個人化的高階檢視。 控制面板會顯示關鍵量度，例如已上線活動、已上線與已修改的活動、已完成的活動、已發佈的活動，以及A/B測試活動。 使用時間範圍選擇器來探索不同期間的趨勢，包括2025年的回顧檢視。 此儀表板仍會持續提供以追蹤一段時間內的採用和活動。
+
+檢視[Adobe Target Insights儀表板](/help/main/c-activities/insights-dashboard.md)
+
 ## [!DNL Target Standard/Premium] 26.1.1 （2026年1月18日）
 
 **活動**
@@ -47,6 +55,7 @@ ht-degree: 15%
 **屬性**
 
 +++檢視詳細資料
+
 * **活動編輯不應新增自動偵測的屬性（如果已移除）。**&#x200B;此修正解決編輯活動會自動重新引入使用者先前已移除的自動偵測屬性的問題。 重新開啟活動以進行編輯時，系統錯誤地還原了移除的屬性，導致[!UICONTROL Properties List]中的行為不一致並產生混淆。 此更新可確保在移除自動偵測到的屬性後，該屬性會在所有後續編輯期間保持被移除狀態，且除非使用者明確將其新增回，否則其不會重新出現。 (TGT-54182)
 * **如果已經移除，請勿新增自動偵測的內容。**&#x200B;此修正可確保一旦使用者手動從活動中移除自動偵測到的屬性，系統就不會在活動編輯器中的後續導覽期間重新引入該屬性。 先前，如果使用者取消選取自動偵測的屬性，移至[!UICONTROL Targeting]步驟，然後返回[!UICONTROL Experiences]，則編輯器會根據活動編輯器狀態片段中儲存的自動偵測清單重新填入移除的屬性。 更新後的邏輯現在會將自動偵測到的屬性與~ActivityState~磁碟片段中的目前屬性進行比較，並防止重新加入使用者已移除的任何自動偵測到的屬性。 這會產生跨步驟的一致行為並尊重使用者意圖。 (TGT-54181)
 * **將自動偵測的文字新增至屬性清單。**&#x200B;此增強功能會更新[!UICONTROL Properties List]，以清楚標示系統自動偵測到的任何屬性。 當使用者可見的[!UICONTROL Properties List]中也存在自動偵測的屬性時，它現在會使用儲存在~ActivityEditorSlice~狀態的值，在其名稱旁邊顯示「（自動偵測）」文字。 這反映了舊版UI的行為，並幫助使用者輕鬆區分手動選取的屬性和自動識別的屬性。 (TGT-54120)
@@ -57,6 +66,7 @@ ht-degree: 15%
 **推薦**
 
 +++檢視詳細資料
+
 * **[!UICONTROL Environment]下拉式清單僅顯示100個結果。**&#x200B;此修正解決具有超過100個環境的客戶在[!UICONTROL Environment]內的[!UICONTROL Recommendations]下拉式清單中只能看到前100個專案的限制。 基礎GraphQL查詢(~getEnvironmentsV2~)已使用100的硬式編碼頁面大小進行分頁，導致UI即使有其他頁面可用，也只顯示部分清單。 對於擁有超過100個環境的客戶，此問題會導致缺少選項和不完整的選擇體驗。 更新會增加上限，因此所有環境都會傳回和顯示，確保完整可見性（無論環境計數為何）。 (TGT-53903)
 
 +++
@@ -77,9 +87,10 @@ ht-degree: 15%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++檢視詳細資料
+
 * 在新的VEC UI **[!UICONTROL Experience Fragment]中，**&#x200B;名稱被截斷(TGT-54312)
 * **無法將[!UICONTROL Advanced Settings]用於[!UICONTROL Revenue]量度。**&#x200B;此修正解決使用者在[!UICONTROL Advanced Settings]中為[!UICONTROL Revenue]量度設定[!UICONTROL Goals & Settings]時遇到403「存取遭拒」錯誤的問題。 新增與主要目標繫結的相依性條件時發生問題；後端不正確地要求編輯者許可權，即使使用者已經有足夠的許可權可建立和編輯活動。 因此，儘管設定有效，儲存活動仍會失敗。 更新會更正許可權檢查，使具有適當存取許可權的使用者可以成功新增收入量度相依性，而不會觸發禁止的資源錯誤。 (TGT-54092)
 * **修正「新增」按鈕未套用至所選取影像的問題。**&#x200B;修正客戶在活動建立程式中選取或更新影像時，無法新增特定影像的問題。 例如，當客戶搜尋特定資產時，搜尋「ipp」時傳回的影像，按一下[!UICONTROL Add]按鈕未套用選取的影像，且未建立任何修改。 選取其他影像（例如`Homepage-banner-1-moz.jpg`）可繼續如預期運作。 此更新可確保所有有效影像都能在更新後的UI中一致地套用。 (TGT-53610)
@@ -93,7 +104,7 @@ ht-degree: 15%
 | 資源 | 詳細資料 |
 |--- |--- |
 | [發行說明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant) | 有關 Platform Web SDK 各版本變更的詳細資料。 |
-| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
+| [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有關 [!DNL Adobe Target] at.js JavaScript 程式庫每個版本中的變更的詳細資料。 |
 
 ## 文件變更、過去的發行說明和 Experience Cloud 發行說明
 
@@ -103,7 +114,7 @@ ht-degree: 15%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
