@@ -87,7 +87,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++檢視詳細資料
 
