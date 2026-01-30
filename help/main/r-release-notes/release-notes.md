@@ -77,7 +77,7 @@ ht-degree: 15%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++檢視詳細資料
 * 在新的VEC UI **[!UICONTROL Experience Fragment]中，**&#x200B;名稱被截斷(TGT-54312)
