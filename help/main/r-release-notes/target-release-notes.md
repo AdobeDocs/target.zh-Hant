@@ -4,7 +4,7 @@ description: 了解  [!DNL Target] 即將發行的版本所包含的新功能、
 title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
+source-git-commit: cb53635de421da438c4c0d4b0b368235abe29f00
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 71%
@@ -41,3 +41,4 @@ ht-degree: 71%
 若要收到對 [!DNL Target] 以及其他 [!DNL Adobe Experience Cloud] 解決方案未來產品增強功能的提前通知，請註冊 [!DNL Adobe Priority Product Update]：
 
 [https://www.adobe.com/tw/subscription/priority-product-update.html](https://www.adobe.com/tw/subscription/priority-product-update.html)
+
