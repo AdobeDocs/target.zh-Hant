@@ -15,7 +15,7 @@ ht-degree: 84%
 
 + [Adobe Target商業從業者指南首頁](target-home.md)
 + Target發行說明 {#release-notes}
-   + {hide-from-toc}[Target 公告和活動](/help/main/r-release-notes/target-announcements.md)
+   + [hide-from-tocTarget 公告和活動](/help/main/r-release-notes/target-announcements.md)
    + [Target 發行說明 (最新)](r-release-notes/release-notes.md)
    + [Target 發行說明 (發行前)](r-release-notes/target-release-notes.md)
    + [Target 文件概觀](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 84%
       + [AI 助理概觀](/help/main/c-intro/ai-assistant.md)
       + [啟用AI助理](/help/main/c-intro/enabling-ai-assistant.md)
       + [使用AI助理來取得產品知識](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + {hide-from-toc}[使用AI助理產生內容](/help/main/c-intro/ai-assistant-content-generation.md)
+      + [hide-from-toc使用AI助理產生內容](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target 歡迎套件 {#welcome}
       + [Target 歡迎套件概觀](/help/main/c-intro/target-welcome-kit.md)
       + [第 1 章：簡介](/help/main/c-intro/target-welcome-kit-1.md)
@@ -100,11 +100,11 @@ ht-degree: 84%
       + [Adobe Customer Journey Analytics中的Target報表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + 將Target與Adobe Journey Optimizer (AJO)整合 {#ajo}
       + [使用報價決策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + {hide-from-toc}[整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + [hide-from-toc整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer使用案例 {#use-cases}
-         + {hide-from-toc}[Adobe Journey Optimizer中最佳化使用案例 — 網頁和程式碼型管道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + 在Adobe Journey Optimizer中透過A/B測試進行{hide-from-toc}[內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-         + {hide-from-toc}[在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+         + [hide-from-tocAdobe Journey Optimizer中最佳化使用案例 — 網頁和程式碼型管道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [在Adobe Journey Optimizer中透過A/B測試進行hide-from-toc內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + [hide-from-toc在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
    + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
       + [將Target與AEM整合概覽](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -327,7 +327,7 @@ ht-degree: 84%
       + [建立推薦活動](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [新增促銷活動](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [推薦活動設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + {hide-from-toc}[預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [hide-from-toc預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [推薦作為產品建議](c-recommendations/recommendations-as-an-offer.md)
    + 常見問題集 {#recommendations-faq}
       + [推薦常見問題集](c-recommendations/c-recommendations-faq/recommendations-faq.md)
