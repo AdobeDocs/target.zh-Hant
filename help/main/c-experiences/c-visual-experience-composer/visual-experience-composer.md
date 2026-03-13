@@ -4,7 +4,7 @@ description: 瞭解在Adobe Target中使用視覺化體驗撰寫器(VEC)的基�
 title: 如何使用視覺化體驗撰寫器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 43%
@@ -43,9 +43,11 @@ VEC 是 [!DNL Target] 的其中一項主要功能。VEC 可讓行銷人員和設
 
 當您在頁面上四處移動滑鼠時，即時線上方塊會緊跟著游標，並醒目提示頁面上的元素。
 
-<!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+<!--
+Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+-->
 
 按一下醒目提示的元素，以顯示該元素型別可用的選項功能表。 例如，您可以按一下影像，然後選取&#x200B;**[!UICONTROL Change Image]**&#x200B;以將影像變更為其他影像。 或者，按一下按鈕並變更文字顏色。
 

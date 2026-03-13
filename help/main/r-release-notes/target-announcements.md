@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -17,12 +17,13 @@ ht-degree: 97%
 
 有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=zh-Hant){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -32,11 +33,12 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hant){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=zh-Hant){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## 先前網路研討會和 Skill Builders 研討會錄影
 
@@ -58,13 +60,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   個人化成熟度的核心是人工智慧和機器學習。[!DNL Adobe Target] 利用這些技術來了解使用者行為、預測偏好並動態量身打造內容。透過利用 AI 和 ML 的力量，了解品牌如何超越靜態 A/B 測試和規則型個人化，以提供動態的、與情境相關的體驗。
 
-  [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hant){target=_blank}
+  [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高效能推薦**
 
   了解推薦演算法如何改變企業的遊戲規則，提高參與度和收入。從個人化產品建議到內容推薦，可順暢引導使用者完成整個歷程，將直接造就業務顯著成長。
 
-  [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=zh-Hant#M3685){target=_blank}
+  [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **充分運用 AI 支援的個人化**
 
@@ -160,7 +162,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 廚師的收藏：個人化配方 (2022 年 8 月 30 日)
 
-加入 [!DNL Adobe Target] 團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
+加入 [!DNL Adobe Target] [!DNL]團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
 
 * [錄影連結](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -205,7 +207,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target] (2022 年 6 月 2 日)
 
-了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料深入解析的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
+了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料洞察的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
 
 +++詳細資料
 

@@ -2,10 +2,10 @@
 keywords: 集合;鎖定目標
 description: 瞭解如何在 [!DNL Target Recommendations]中使用產品或專案的集合。
 title: 如何在Recommendations活動中使用集合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 26%
@@ -44,7 +44,7 @@ ht-degree: 26%
 
    [!UICONTROL Collections]頁面會顯示您現有集合的清單。 您可以按一下[!UICONTROL Create Collection]按鈕來建立新的集合。 您也可以編輯、複製和刪除現有集合，方法是按一下所要集合旁的「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下所要的選項。
 
-   [!UICONTROL Collections]清單檢視上每個集合報告的「專案數」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合集合規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}，瞭解如何變更預設主機群組。
+   [!UICONTROL Collections]清單檢視上每個集合報告的「專案數」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合集合規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}，瞭解如何變更預設主機群組。
 
 1. 按一下 **[!UICONTROL Create Collection]**。
 
@@ -62,7 +62,8 @@ ht-degree: 26%
 
 1. 按一下 **[!UICONTROL Create]**。
 
-<!-- ## Create a collection using [!UICONTROL Advanced Search]
+<!--
+## Create a collection using [!UICONTROL Advanced Search]
 
 You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
@@ -72,7 +73,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
+-->
 
 ## 編輯、複製或刪除集合
 

@@ -4,7 +4,7 @@ description: 探索 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] 
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 8%
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
 
 當您建立或編輯現有活動時，VEC隨即顯示。
 
@@ -113,7 +113,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 ### [!UICONTROL Modifications]邊欄
 
-若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ &#x200B;](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。
+若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ ](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。
 
 ![修改邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -273,7 +273,9 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 您可以使用 DOM 路徑快速查看有關已選取元素 (類型、ID 和類別) 的資訊，然後向上或向下移動 DOM 路徑以選取想要的元素。
 
-<!--When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.-->
+<!--
+When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.
+-->
 
 您可以使用 DOM 路徑，輕鬆導覽至 VEC 中的任何父項、同層級項目或子項元素。
 
@@ -293,7 +295,8 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 * [[!DNL Target] UI更新常見問題集](/help/main/c-intro/updated-ui-faq.md)：此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，此FAQ可協助您順利轉換，並充分運用更新後的UI。
 
-<!--## [!UICONTROL Edit]
+<!--
+## [!UICONTROL Edit]
 
 The following options are available:
 
@@ -487,7 +490,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -519,7 +522,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -551,7 +554,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -641,7 +644,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -649,7 +652,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
 >VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
@@ -667,4 +670,5 @@ The following actions are not available on custom elements:
 The following action is not available inside custom elements:
 
 * [!UICONTROL Layout]
-  * [!UICONTROL Rearrange]-->
+  * [!UICONTROL Rearrange]
+-->

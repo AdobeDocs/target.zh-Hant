@@ -4,7 +4,7 @@ description: 瞭解如何在 [!DNL Adobe Target]中使用對象。
 title: 如何使用「對象清單」？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 22%
@@ -21,7 +21,7 @@ ht-degree: 22%
 * [建立活動特定對象](/help/main/c-target/creating-activity-only-audience.md)並鎖定該對象
 * [結合多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選對象
 
-您也可以在[!DNL Adobe Analytics]和其他[!DNL Target]應用程式中，使用[!DNL Adobe Experience Cloud]所收集的對象資料進行即時目標定位和個人化。 請參閱[Experience Cloud中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)指南中的&#x200B;*Experience Cloud對象*。
+您也可以在[!DNL Adobe Analytics]和其他[!DNL Target]應用程式中，使用[!DNL Adobe Experience Cloud]所收集的對象資料進行即時目標定位和個人化。 請參閱[Experience Cloud中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)指南中的&#x200B;*Experience Cloud對象*。
 
 [!DNL Target]中有兩種型別的對象：
 
@@ -88,7 +88,8 @@ ht-degree: 22%
 
 ![audience_definition_list_usage圖片](assets/audience_definition_list_usage.png)
 
-<!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
+<!--
+The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
 ![Usage tab on Audience Definition card](assets/audience_definition_mc.png)
 
@@ -103,7 +104,8 @@ The following details are available for these imported audience types:
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
-* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
+-->
 
 ## 使用來自 [!DNL Adobe Experience Platform] 的客群 {#aep}
 

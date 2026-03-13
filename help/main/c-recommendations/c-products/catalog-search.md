@@ -2,10 +2,10 @@
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器；推薦
 description: 瞭解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]來尋找產品或內容、從目錄中移除專案等等。
 title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 22%
@@ -44,7 +44,8 @@ ht-degree: 22%
    >
    >目前沒有可讓您變更屬性型別的功能。 若要變更，[開啟客戶問題](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，指出需要將類型從字串變更為數值的屬性。
 
-<!-- ### Perform an advanced search {#advanced-search}
+<!--
+### Perform an advanced search {#advanced-search}
 
 You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/main/c-recommendations/c-products/collections.md) or [exclusion](/help/main/c-recommendations/c-products/exclusions.md).
 
@@ -64,7 +65,8 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
    ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.-->
+   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
+-->
 
 ## 檢視專案的詳細資訊
 
@@ -88,7 +90,8 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
 透過摘要檔案、API 或 mbox 更新收到更新時，目錄會自動重新整理。更新通常會在一小時內完成。 如果正在進行更新，會顯示最新更新的開始時間。如果沒有任何正在進行的更新，會顯示最新更新的開始和結束時間。
 
-<!-- ## Create a collection or exclusion based on Advanced Search {#save-as}
+<!--
+## Create a collection or exclusion based on Advanced Search {#save-as}
 
 You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
@@ -100,7 +103,8 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.-->
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
+-->
 
 ## 變更環境
 
@@ -110,7 +114,8 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. 從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選取所需的環境。
 
-<!-- ## Modify the Catalog Search page (filters and columns)
+<!--
+## Modify the Catalog Search page (filters and columns)
 
 You can temporarily modify the available filters and columns on the [!UICONTROL Catalog Search] page for the current session.
 
@@ -126,7 +131,8 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 
    ![Add filters](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
-Keep in mind that the additional filter facets are available in the current session only.-->
+Keep in mind that the additional filter facets are available in the current session only.
+-->
 
 ## 修改欄
 
