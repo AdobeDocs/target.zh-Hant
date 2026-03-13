@@ -21,7 +21,7 @@ ht-degree: 22%
 * [建立活動特定對象](/help/main/c-target/creating-activity-only-audience.md)並鎖定該對象
 * [結合多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選對象
 
-您也可以在[!DNL Adobe Analytics]和其他[!DNL Target]應用程式中，使用[!DNL Adobe Experience Cloud]所收集的對象資料進行即時目標定位和個人化。 請參閱[Experience Cloud中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)指南中的&#x200B;*Experience Cloud對象*。
+您也可以在[!DNL Adobe Analytics]和其他[!DNL Target]應用程式中，使用[!DNL Adobe Experience Cloud]所收集的對象資料進行即時目標定位和個人化。 請參閱[Experience Cloud中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)指南中的&#x200B;*Experience Cloud對象*。
 
 [!DNL Target]中有兩種型別的對象：
 
