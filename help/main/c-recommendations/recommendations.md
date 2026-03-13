@@ -2,13 +2,13 @@
 keywords: 推薦;推薦條件;推薦演算法;推薦活動;條件;推薦鎖定目標;recs
 description: 了解 Adobe [!DNL Target] 中的推薦活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
 title: 什麼是  [!DNL Target] 推薦？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what&#39;s included in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 97%
 
 ## 培訓影片：活動類型![Overview badge](/help/main/assets/overview.png)
 
-此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。從7[!DNL Recommendations]開始討論:20。
+此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。[!DNL Recommendations] is discussed beginning at 7:20.
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型
@@ -72,8 +72,10 @@ ht-degree: 97%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target基礎網路研討會： Recommendations簡介![教學課程徽章](/help/main/assets/tutorial.png) {#intro-to-recs}
+<!--
+## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-*推薦簡介*&#x200B;網路研討會包含有關如何運用 [!DNL Adobe Target Recommendations] 的值的深入探討。瞭解此 [!DNL Target] 活動如何根據先前的造訪最佳化即時建議，藉此自動顯示可能使您的客戶感興趣的產品或內容。此外，深入探討 [!DNL Target] UI，瞭解如何建置 [!DNL Recommendations] 活動的逐步概觀。
+The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. Find out how this [!DNL Target] activity automatically displays products or content that might interest your customers by optimizing real-time suggestions based on previous visits. Further, dive into the [!DNL Target] UI for a step-by-step overview of how to build a [!DNL Recommendations] activity.
 
-[推薦簡介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduction to Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+-->
