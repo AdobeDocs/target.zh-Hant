@@ -106,11 +106,11 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 如需詳細資訊，請參閱下列主題:
 
 * [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank}Adobe Experience Platform發行說明&#x200B;*中的目標發行說明*
-* [在](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}目標概述&#x200B;*指南中為同一頁和下一頁個性化配置個性化目標*。
-* [目標概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}指南中的&#x200B;*Adobe Target連接*
+* [在](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant){target=_blank}目標概述&#x200B;*指南中為同一頁和下一頁個性化配置個性化目標*。
+* [目標概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hant){target=_blank}指南中的&#x200B;*Adobe Target連接*
 * [目標概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank}指南中的&#x200B;*映射屬性*。
-* [在](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}目標概述&#x200B;*指南中將觀眾激活到邊緣個性化目標*。
-* [通過 [!DNL Adobe Target] 和自定義個性化目標](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}在&#x200B;*目標概述*&#x200B;指南的「常見問題」下進行同頁和下頁個性化。
+* [在](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hant){target=_blank}目標概述&#x200B;*指南中將觀眾激活到邊緣個性化目標*。
+* [通過 [!DNL Adobe Target] 和自定義個性化目標](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=zh-Hant#same-next-page-personalization){target=_blank}在&#x200B;*目標概述*&#x200B;指南的「常見問題」下進行同頁和下頁個性化。
 
 ## 影片和部落格文章 {#videos-blogs}
 
