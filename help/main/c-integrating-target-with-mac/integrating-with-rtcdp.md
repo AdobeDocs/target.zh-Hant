@@ -105,7 +105,7 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 
 如需詳細資訊，請參閱下列主題:
 
-* [](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank}Adobe Experience Platform發行說明&#x200B;*中的目標發行說明*
+* [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank}Adobe Experience Platform發行說明&#x200B;*中的目標發行說明*
 * [在](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}目標概述&#x200B;*指南中為同一頁和下一頁個性化配置個性化目標*。
 * [目標概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}指南中的&#x200B;*Adobe Target連接*
 * [目標概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank}指南中的&#x200B;*映射屬性*。
