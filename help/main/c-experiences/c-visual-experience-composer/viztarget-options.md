@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
 
 當您建立或編輯現有活動時，VEC隨即顯示。
 
@@ -113,7 +113,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 ### [!UICONTROL Modifications]邊欄
 
-若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ &#x200B;](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。
+若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ ](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。
 
 ![修改邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -169,22 +169,22 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 從左側的[!UICONTROL Components]框架中選取元件以插入下列元素：
 
-* 基本(分隔線、HTML、影像)。
+* 基本（分隔線、HTML、影像）。
 * 文字（標題、段落、連結）。
-* 動態([建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML選件)。
+* 動態（[建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML選件）。
 
 影像頂端的功能表可讓您進行下列工作：
 
 * 插入連結（ ![插入連結圖示](/help/main/assets/icons/Link.svg) ）。
 * 變更影像（ ![選擇影像圖示](/help/main/assets/icons/Images.svg) ）。
-* 新增個人化(![新增Personalization圖示](/help/main/assets/icons/PersonalizationField.svg) )。
+* 新增個人化（![新增Personalization圖示](/help/main/assets/icons/PersonalizationField.svg) ）。
 * 刪除影像（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 
 右側的[!UICONTROL Properties]窗格可進一步設定影像的屬性。
 
 框架頂端的圖示可讓您執行下列動作：
 
-* 編輯HTML (![插入HTML圖示](/help/main/assets/icons/Code.svg) )。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
+* 編輯HTML （![插入HTML圖示](/help/main/assets/icons/Code.svg) ）。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
 * 複製影像（ ![復製圖示](/help/main/assets/icons/Code.svg) ）。
 * 刪除影像（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 * 隱藏影像（ ![隱藏圖示](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -208,9 +208,9 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 從左側的[!UICONTROL Components]框架中選取元件以插入下列元素：
 
-* 基本(分隔線、HTML、影像)。
+* 基本（分隔線、HTML、影像）。
 * 文字（標題、段落、連結）。
-* 動態([建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML選件)。
+* 動態（[建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML選件）。
 
 按一下「[!UICONTROL Show Modifications]」圖示（![顯示修改圖示](/help/main/assets/icons/History.svg)）以顯示體驗的修改。
 
@@ -222,15 +222,15 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 * 設定文字的對齊方式（靠左、置中、靠右、左右對齊） （![文字對齊方式圖示](/help/main/assets/icons/TextAlignCenter.svg) ）。
 * 插入連結（ ![插入連結圖示](/help/main/assets/icons/Link.svg) ）。
 * 以HTML選件、[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[建議](/help/main/c-recommendations/recommendations-as-an-offer.md)取代內容。
-* 編輯HTML (![插入HTML圖示](/help/main/assets/icons/Code.svg) )。
-* 新增個人化(![新增Personalization圖示](/help/main/assets/icons/PersonalizationField.svg) )。
+* 編輯HTML （![插入HTML圖示](/help/main/assets/icons/Code.svg) ）。
+* 新增個人化（![新增Personalization圖示](/help/main/assets/icons/PersonalizationField.svg) ）。
 * 刪除影像（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 
 右側的[!UICONTROL Properties]邊欄可讓您進一步設定文字的屬性。
 
 框架頂端的圖示可讓您執行下列動作：
 
-* 編輯HTML (![插入HTML圖示](/help/main/assets/icons/Code.svg) )。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
+* 編輯HTML （![插入HTML圖示](/help/main/assets/icons/Code.svg) ）。 如需詳細資訊，請參閱下方的[編輯HTML](#html)。
 * 複製文字（ ![復製圖示](/help/main/assets/icons/Code.svg) ）。
 * 刪除文字（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 * 隱藏文字（ ![隱藏圖示](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -490,7 +490,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -522,7 +522,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -554,7 +554,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -644,7 +644,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -652,7 +652,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
 >VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
