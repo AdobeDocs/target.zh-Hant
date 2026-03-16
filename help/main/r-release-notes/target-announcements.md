@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -17,7 +17,8 @@ ht-degree: 97%
 
 有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=zh-Hant){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## 先前網路研討會和 Skill Builders 研討會錄影
 
@@ -205,7 +207,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target] (2022 年 6 月 2 日)
 
-了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料深入解析的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
+了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料洞察的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
 
 +++詳細資料
 

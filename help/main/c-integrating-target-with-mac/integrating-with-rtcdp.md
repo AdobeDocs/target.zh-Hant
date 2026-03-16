@@ -4,7 +4,7 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-Time Customer Data Plat
 title: 我如何整合  [!DNL Target] 和 [!DNL Real-Time Customer Data Platform]？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
+source-git-commit: 7e6947a37586c1840216d4137969f399f38a429d
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 71%
@@ -46,7 +46,7 @@ ht-degree: 71%
 
 | 解決方案 | 啟用的使用案例 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (任何 SKU) 和 [!DNL Target]</li></ul> | <ul><li>下一個工作階段的個人化</li><ul><li>針對所有頁面和 [!UICONTROL at.js]</li></ul><li>同一頁面的個人化</li><ul><li>針對所有頁面和 [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] (任何 SKU) 和 [!DNL Target]</li></ul> | <ul><li>下一個工作階段的個人化<ul><li>針對所有頁面和 [!UICONTROL at.js]</li></ul></li><li>同一頁面的個人化<ul><li>針對所有頁面和 [!DNL Platform Web SDK]</li></ul></li></ul> |
 | <ul><li>[!DNL RTCDP] (任何 SKU)、[!DNL AAM] 和 [!DNL Target]</li></ul> | <ul><li>下一個工作階段的個人化</li><ul><li>針對所有頁面和 [!UICONTROL at.js]</li><li>[!DNL AAM] 區段</li><li>透過 [!DNL AAM] 進行第三方區段</li></ul> |
 
 ## 區段評估時間
@@ -128,25 +128,25 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 
 了解如何在 [!DNL Real-Time Customer Data Platform] 中設定 [!DNL Adobe Target] 目的地，以開始從 [!DNL Real-Time CDP] 傳送區段和輪廓屬性到 [!DNL Target]。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449804/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3449804/?captions=chi_hant&learn=on)
 
 ### 影片：啟動區段和輪廓屬性
 
 了解如何從 [!DNL Adobe Real-Time Customer Data Platform] 將區段和輪廓屬性啟動到 [!DNL Adobe Target] 以在您的網站、行動應用程式和其他數位資產中顯示即時個人化內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447366/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3447366/?captions=chi_hant&learn=on)
 
 ### 影片：在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 區段
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Real-Time Customer Data Platform] 區段，以在您的網站和行動應用程式上提供個人化體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446838/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3446838/?captions=chi_hant&learn=on)
 
 ### 影片：在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 輪廓屬性
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Adobe Real-Time Customer Data Platform] 輪廓屬性，以在您的網站和行動應用程式上提供個人化體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451904/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3451904/?captions=chi_hant&learn=on)
 
 ### [!DNL Adobe Target] 部落格和影片：同一頁面增強的個人化
 

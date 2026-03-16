@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
+source-git-commit: 482d3aa3345eb8e6ad4db4d10f9bcf883d6aba82
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 21%
@@ -60,7 +60,8 @@ ht-degree: 21%
 
 1. 按一下&#x200B;**[!UICONTROL More Actions]** （![更多動作圖示](/help/main/assets/icons/Setting.svg) ）圖示，然後按一下&#x200B;**排除預設選件/包含預設選件**/切換以排除或包含預設選件。
 
-   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
+   <!--
+   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
    For Text/HTML content: 
 
@@ -72,9 +73,11 @@ ht-degree: 21%
 
    For background color: 
 
-   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   -->
 
-<!-- 1. Click **[!UICONTROL Save]**.
+<!--
+1. Click **[!UICONTROL Save]**.
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
@@ -99,4 +102,5 @@ ht-degree: 21%
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)
+-->
