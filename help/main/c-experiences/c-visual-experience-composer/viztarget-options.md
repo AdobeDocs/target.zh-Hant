@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
 
 當您建立或編輯現有活動時，VEC隨即顯示。
 
@@ -113,7 +113,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 ### [!UICONTROL Modifications]邊欄
 
-若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ ](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。
+若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ &#x200B;](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。
 
 ![修改邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
