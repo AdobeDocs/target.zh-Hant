@@ -106,11 +106,11 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 如需詳細資訊，請參閱下列主題:
 
 * [Adobe Experience Platform發行說明中的](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank}目的地發行說明&#x200B;**
-* [在](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}目的地概觀&#x200B;*指南中，設定相同頁面和下一頁個人化的個人化目的地*。
-* [目的地總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}指南中的&#x200B;*Adobe Target連線*
+* [在](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant){target=_blank}目的地概觀&#x200B;*指南中，設定相同頁面和下一頁個人化的個人化目的地*。
+* [目的地總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hant){target=_blank}指南中的&#x200B;*Adobe Target連線*
 * 在[目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank}指南中的&#x200B;*對應屬性*。
-* 在[目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}指南中&#x200B;*啟用對象以邊緣個人化目的地*。
-* 透過[目的地概觀 [!DNL Adobe Target] 指南中「常見問題」下的](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}和自訂Personalization目的地&#x200B;**&#x200B;相同頁面和下一頁個人化。
+* 在[目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hant){target=_blank}指南中&#x200B;*啟用對象以邊緣個人化目的地*。
+* 透過[目的地概觀 [!DNL Adobe Target] 指南中「常見問題」下的](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=zh-Hant#same-next-page-personalization){target=_blank}和自訂Personalization目的地&#x200B;**&#x200B;相同頁面和下一頁個人化。
 
 ## 影片和部落格文章 {#videos-blogs}
 
