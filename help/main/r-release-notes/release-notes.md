@@ -6,11 +6,10 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 41%
+source-wordcount: '516'
+ht-degree: 47%
 
 ---
 
@@ -56,13 +55,6 @@ ht-degree: 41%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++檢視詳細資料
-
-* **VEC變更未反映在使用Shadow DOM (Salesforce Lightning Web Components)的網站上。**&#x200B;此修正解決使用Lightning Web Components (LWC)的Salesforce網站中，Adobe Target所做的變更（例如CTA色彩變更）無法儲存或反映在即時網站上的問題。 CMS不接受來自Target活動的更新，且此問題在A/B測試和其他活動型別中持續發生。 (TGT-54059)
-
-+++
 
 ## 額外的發行說明和版本詳細資料
 
