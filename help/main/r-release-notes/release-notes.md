@@ -32,7 +32,7 @@ ht-degree: 53%
 
 ## [!DNL Target Standard/Premium] 26.3.4 （2026年3月19日）
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++檢視詳細資料
 
