@@ -6,10 +6,11 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+hold: true
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 53%
 
 ---
 
@@ -29,32 +30,17 @@ ht-degree: 47%
 
 如需詳細資訊，請參閱[[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 26.3.2 （2026年3月10日）
+## [!DNL Target Standard/Premium] 26.3.4 （2026年3月19日）
 
-**活動**
-
-+++檢視詳細資料
-
-* **體驗中的直接優惠變更未儲存。**&#x200B;此修正解決在活動體驗內對直接優惠方案所做的修改未儲存的問題。 先前，使用者開啟直接選件、進行變更並儲存時，變更似乎會在最初反映但重新開啟選件時遺失。 此修正可確保直接選件的變更會正確儲存，並在重新開啟選件時持續存在。 (TGT-54653)
-
-+++
-
-**實施**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++檢視詳細資料
 
-* **在[實作]畫面中新增忽隱忽現的管理切換。**&#x200B;已在[!UICONTROL Implementation]畫面中新增切換功能，以控制啟用忽隱忽現管理設定。 此切換可讓管理員直接從「實施」畫面設定忽隱忽現管理。 (TGT-52247)
+* **視覺化體驗撰寫器網頁編輯器中可見的設計/瀏覽模式選項。**&#x200B;此修正解決在「設計」、「瀏覽」和「預覽」模式之間切換可正常運作，但介面中未明確指示作用中模式的問題。 選取的模式現在會明顯反白顯示，以便您檢視您處於哪個模式。 (TGT-54790)
+
+* 視覺化體驗撰寫器(Chrome)中的&#x200B;**私人網路URL。除非允許本機網路存取，否則** Chrome可以封鎖私人網路上的頁面。 **[!UICONTROL Visual Experience Composer]**&#x200B;現在會要求框架中Experience Cloud使用的許可權，因此Chrome可以顯示允許提示而不是無訊息地失敗。 在您允許存取後，當您的環境支援內部URL時，VEC中可以載入該URL。 (TGT-54346)
 
 +++
-
-**概述**
-
-+++檢視詳細資料
-
-* **在概觀頁面中顯示對象和體驗的全名。**&#x200B;此增強功能會更新[!UICONTROL Overview]頁面以顯示對象和體驗的完整名稱。 以前，長名稱會被截斷，而且無法完全顯示，因此使用者必須按三下才能選取所有文字來檢視完整名稱。 此更新可確保看到完整的對象和體驗名稱，讓使用者更容易識別和檢閱活動設定。 (TGT-53323)
-
-+++
-
 
 ## 額外的發行說明和版本詳細資料
 
