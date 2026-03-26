@@ -6,11 +6,10 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 62%
 
 ---
 
@@ -30,15 +29,14 @@ ht-degree: 53%
 
 如需詳細資訊，請參閱[[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 26.3.4 （2026年3月19日）
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7 （2026年3月26日）
+
+**客群**
 
 +++檢視詳細資料
 
-* **視覺化體驗撰寫器網頁編輯器中可見的設計/瀏覽模式選項。**&#x200B;此修正解決在「設計」、「瀏覽」和「預覽」模式之間切換可正常運作，但介面中未明確指示作用中模式的問題。 選取的模式現在會明顯反白顯示，以便您檢視您處於哪個模式。 (TGT-54790)
-
-* 視覺化體驗撰寫器(Chrome)中的&#x200B;**私人網路URL。除非允許本機網路存取，否則** Chrome可以封鎖私人網路上的頁面。 **[!UICONTROL Visual Experience Composer]**&#x200B;現在會要求框架中Experience Cloud使用的許可權，因此Chrome可以顯示允許提示而不是無訊息地失敗。 在您允許存取後，當您的環境支援內部URL時，VEC中可以載入該URL。 (TGT-54346)
+* **對象介面中的對象來源標籤準確度。**&#x200B;修正來自Adobe Experience Platform中Adobe Target v2目的地的對象可能以&#x200B;**Adobe Experience Cloud**&#x200B;而非&#x200B;**Adobe Experience Platform**&#x200B;作為來源的問題。 此更新可改善篩選和檢閱對象時來源標籤的一致性。 (TGT-54802)
 
 +++
 
