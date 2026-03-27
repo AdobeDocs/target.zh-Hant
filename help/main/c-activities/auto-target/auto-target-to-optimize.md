@@ -5,7 +5,7 @@ title: 什麼是[!UICONTROL Auto-Target]活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -163,3 +163,4 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 ## 報告與[!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 如需詳細資訊，請參閱[報告和自動鎖定目標](/help/main/c-activities/auto-target/reporting-and-auto-target.md)。
+
