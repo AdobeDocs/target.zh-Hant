@@ -74,7 +74,7 @@ A/B活動流程中的[!UICONTROL Auto-Target]選項可讓您只要按一下即�
 |--- |--- |
 | [隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!DNL Target]在[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]中使用的主要個人化演演算法是隨機森林。 整體方法（例如隨機森林）會使用多種學習演演算法，以獲得比從任何組成學習演演算法都更好的預測效能。 [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中的隨機森林演演算法是一種分類或回歸方法，可在訓練時建構許多決策樹來運作。 |
 | [正在上傳 [!DNL Target]的Personalization演演算法的資料](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | 有幾種方式可以輸入[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]模型的資料。 |
-| [ [!DNL Target]的Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]的個人化演演算法會自動收集各種資料。 |
+| [&#x200B; [!DNL Target]的Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]的個人化演演算法會自動收集各種資料。 |
 
 ## 決定流量分配 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
