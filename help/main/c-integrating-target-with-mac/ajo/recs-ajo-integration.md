@@ -8,7 +8,7 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 若要使用[!DNL Target Recommendations]與[!DNL Adobe Journey Optimizer]整合，您需要下列專案：
 
-* 使用[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)Adobe Experience Platform Web SDK[實作的](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}。
+* 使用[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)Adobe Experience Platform Web SDK[實作的](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}。
 
   [!DNL Target Standard]授權或使用at.js或其他[!DNL Target] SDK實作[!DNL Target]時，無法使用此功能。
 
