@@ -41,7 +41,7 @@ ht-degree: 24%
 * [!DNL Adobe Target]： at.js 0.9.1版
 * Adobe Analytics: appMeasurement.js 版本 1.7.0
 
-如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}。
+如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}。
 
 ### 搭配 A4T 使用重新導向產品建議之情況下的需求
 
@@ -59,7 +59,7 @@ ht-degree: 24%
 
 [Analytics for Target實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)中列出下載和部署指示。
 
-如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}。
+如需使用[!DNL Platform Web SDK]實作A4T的相關資訊，請參閱[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}。
 
 ## 實施前須知 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

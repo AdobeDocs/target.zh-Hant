@@ -27,7 +27,7 @@ ht-degree: 0%
 
 若要在[!DNL Target]中使用報價決策，您需要下列專案：
 
-* 使用[!DNL Adobe Target Standard]Adobe Experience Platform Web SDK[!DNL Adobe Target Premium]實作的[或](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}。
+* 使用[!DNL Adobe Target Standard]Adobe Experience Platform Web SDK[!DNL Adobe Target Premium]實作的[或](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}。
 
   使用at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 處理優惠決定時，請考量下列資訊：
 
-* 此Offer Decisioning整合適用於以[!DNL Target]Adobe Experience Platform Web SDK[為基礎的](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}實施。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
+* 此Offer Decisioning整合適用於以[!DNL Target]Adobe Experience Platform Web SDK[為基礎的](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}實施。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer]整合僅支援[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動型別。
 

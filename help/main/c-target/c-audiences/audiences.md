@@ -45,7 +45,7 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >使用[!DNL Adobe Experience Platform]Adobe Experience Platform Web SDK[!DNL Target]的所有[客戶都可使用](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}來源。 來自[!DNL Adobe Experience Platform]的可用對象可依原樣使用，或將[與現有對象](/help/main/c-target/combining-multiple-audiences.md)結合。
+  >使用[!DNL Adobe Experience Platform]Adobe Experience Platform Web SDK[!DNL Target]的所有[客戶都可使用](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}來源。 來自[!DNL Adobe Experience Platform]的可用對象可依原樣使用，或將[與現有對象](/help/main/c-target/combining-multiple-audiences.md)結合。
   >
   >使用者在[!UICONTROL Approver]中必須具有[!DNL Target]或以上的狀態才能在AEP/RTCDP ([!DNL Target])中設定[!UICONTROL Destinations] [!DNL Real-time Customer Data Platform]卡片。
   >
