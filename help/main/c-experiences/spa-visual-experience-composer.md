@@ -377,7 +377,7 @@ adobe.target.getOffers({
 
 ![頁面傳送選項對話方塊](/help/main/c-experiences/assets/page-delivery.png)
 
-例如，如上方顯示的[!UICONTROL Page Delivery]設定所定義，Target活動會在訪客直接在`https://www.adobe.com` *或*&#x200B;上登陸任何包含`https://www.adobe.com/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
+例如，如上方顯示的[!UICONTROL Page Delivery]設定所定義，Target活動會在訪客直接在`https://www.adobe.com` *或*&#x200B;上登陸任何包含`https://www.adobe.com/tw/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
 
 不過，由於SPA的運作方式不同，[!UICONTROL Page Delivery]設定的方式必須如SPA VEC活動中所定義，可將所有動作套用至檢視。
 
