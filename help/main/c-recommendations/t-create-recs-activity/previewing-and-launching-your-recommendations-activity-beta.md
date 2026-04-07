@@ -5,7 +5,7 @@ title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: ed400ad0ecf62a74283d2f24038bacab6a275461
+source-git-commit: 804953ecd9e5d437b513180e3fa632a0fd495ec2
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 15%

@@ -113,7 +113,7 @@ ht-degree: 23%
 
 主動公告會提醒您發生中斷事件和維護事件。
 
-如需深入資訊，請參閱[Adobe狀態](https://status.adobe.com/)頁面。
+如需深入資訊，請參閱[Adobe狀態](https://status.adobe.com/zh-tw/)頁面。
 
 ### 設定通知和公告
 

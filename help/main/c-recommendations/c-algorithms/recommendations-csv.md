@@ -5,7 +5,7 @@ title: 如何在 [!DNL Recommendations]中上傳自訂條件？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 9ab594394fab977b6bf83b5c6f5e3cb91b71fe80
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 33%
@@ -44,13 +44,13 @@ ht-degree: 33%
 
 1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;區段中，選取CSV檔案的&#x200B;**[!UICONTROL Location]**。
 
-CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;以取得格式正確的CSV檔案。
+   CSV 檔案的格式必須正確上傳才能成功。按一下&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;以取得格式正確的CSV檔案。
 
-您有兩個位置選項︰
+   您有兩個位置選項︰
 
-    * **FTP：**&#x200B;若要從FTP伺服器上傳CSV檔案，請選取&#x200B;**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
-    
-    * **URL：**&#x200B;若要從URL上傳您的CSV檔案，請選取&#x200B;**[!UICONTROL URL]**，然後輸入摘要URL。
+   * **FTP：**&#x200B;若要從FTP伺服器上傳CSV檔案，請選取&#x200B;**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
+
+   * **URL：**&#x200B;若要從URL上傳您的CSV檔案，請選取&#x200B;**[!UICONTROL URL]**，然後輸入摘要URL。
 
 1. 按一下 **[!UICONTROL Create]**。
 

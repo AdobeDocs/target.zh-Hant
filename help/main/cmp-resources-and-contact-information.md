@@ -87,7 +87,7 @@ ht-degree: 79%
 
 ### 發生中斷時 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-如果您懷疑發生中斷，請先檢查 [Experience Cloud 系統狀態頁面](https://status.adobe.com) ([!DNL https://status.adobe.com])，這裡有所有 Experience Cloud 解決方案 (包括 Target) 的中斷、事件和維護記錄，也包括我們技術作業團隊的最新更新。如果仍需協助，在連絡客戶服務前，請先確認除了上方列出的資訊以外，您也知道下列資訊:
+如果您懷疑發生中斷，請先檢查 [Experience Cloud 系統狀態頁面](https://status.adobe.com/zh-tw) ([!DNL https://status.adobe.com/zh-tw])，這裡有所有 Experience Cloud 解決方案 (包括 Target) 的中斷、事件和維護記錄，也包括我們技術作業團隊的最新更新。如果仍需協助，在連絡客戶服務前，請先確認除了上方列出的資訊以外，您也知道下列資訊:
 
 * 中斷開始時間
 * 說明發生什麼事
@@ -105,7 +105,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 * [請參閱 Experience Cloud 說明頁面，以取得建議、提示及常見問答](https://helpx.adobe.com/tw/marketing-cloud.html)
 * [開啟票證以取得支援的協助](https://experienceleague.adobe.com/zh-hant?support-solution=Target#support)
 * [直接聯絡客戶服務團隊](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)
-* [查看 Experience Cloud 解決方案的可用性和狀態](https://status.adobe.com/)
+* [查看 Experience Cloud 解決方案的可用性和狀態](https://status.adobe.com/zh-tw/)
 
 若要收到未來產品增強功能的提前通知，請註冊「Adobe 優先產品更新」 ：
 
