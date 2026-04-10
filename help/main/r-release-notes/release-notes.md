@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ada5803424b4930d91dda735901390fe5073932f
+source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 38%
+source-wordcount: '441'
+ht-degree: 54%
 
 ---
 
@@ -29,71 +29,36 @@ ht-degree: 38%
 
 如需詳細資訊，請參閱[[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md)。
 
-<!--
-## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
-
-**Activities**
-
-+++See details
-
-* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
-
-* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
-
-+++
-
--->
-
-## [!DNL Target Standard/Premium] 26.4.1 （2026年4月2日）
+## [!DNL Target Standard/Premium] 26.4.3 （2026年4月9日）
 
 **活動**
 
 +++檢視詳細資料
 
-* **在「活動」檢視中顯示的對象屬性。**&#x200B;修正從&#x200B;**[!UICONTROL Activity]**&#x200B;檢視的對象規則詳細資料，未顯示從&#x200B;**[!UICONTROL Audiences]**&#x200B;區段開啟相同對象時顯示之某些屬性的問題。 (TGT-54742)
+* **某些活動中遺漏位置。**&#x200B;修正某些活動中缺少&#x200B;**[!UICONTROL Location]**&#x200B;的問題。 (TGT-54951)
 
-* 在「活動」和「對象」清單頁面上&#x200B;**匯出CSV。**&#x200B;已新增&#x200B;**[!UICONTROL Export CSV]**&#x200B;動作，因此您可以從使用者介面匯出活動清單（包括套用篩選器的時間），而不需要仰賴API進行例行匯出。 (TGT-51466)
-
-* 找不到選取器時標籤的&#x200B;**體驗修改。**&#x200B;體驗修改現在會執行選擇器存在性檢查；當頁面上找不到選擇器時，修改會標籤為無效。 (TGT-54815)
-
-* **[!UICONTROL Automated personalization]個活動。**&#x200B;修正介面和活動載入問題，此問題會讓使用者無法可靠地建立、編輯或管理Automated Personalization活動，進而封鎖行銷活動設定，並延遲個人化使用案例。 (TGT-54421)
+* **報告量度欄順序。**&#x200B;更新的[!DNL Target]介面允許重新排序報告量度，而不需要清除完整的選取範圍並按順序重新新增量度。 過去，使用者必須取消選取所有量度，然後依所需順序再次選取，啟用許多量度以及調整欄位以限制水準捲動時，這項作業相當耗時。 (TGT-53044)
 
 +++
 
-**客群**
-
-+++檢視詳細資料
-
-* **從活動建立對象時顯示的對象名稱和說明。**&#x200B;修正從活動流程建立或編輯對象時，對象&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位與直接在&#x200B;**[!UICONTROL Audiences]**&#x200B;下建立對象相比，未明確顯示的問題。 (TGT-54837)
-
-+++
-
-**深入分析**
-
-+++檢視詳細資料
-
-* **[!UICONTROL Live Activities]計入深入分析。**&#x200B;修正前瞻分析控制面板上的&#x200B;**[!UICONTROL Live Activities]**&#x200B;量度報告的總計可能高於&#x200B;**[!UICONTROL All Activities]**&#x200B;中顯示為已上線的活動數的問題。 (TGT-54788)
-
-+++
-
-**推薦**
-
-+++檢視詳細資料
-
-* **中的[!UICONTROL Global Exclusions]長ID清單。**&#x200B;修正在&#x200B;**[!UICONTROL Global Exclusions]**&#x200B;中貼上或輸入長清單ID時，在更新介面中可能比舊版截斷，導致排除清單不完整的問題。 (TGT-54422)
-
-+++
-
+<!--
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
-+++檢視詳細資料
++++See details
 
-* **在[!UICONTROL Visual Experience Composer]中的增強體驗撰寫器(EEC)狀態指標。** EEC指標表示是否已啟用增強體驗撰寫器。 其顯示方式已經過修訂，因此不再類似互動式切換，因為它僅作為非互動式狀態顯示。 (TGT-54828)
-
-* **[!UICONTROL Visual Experience Composer]中的左側邊欄。**&#x200B;現在當活動開啟進行編輯時，可以收合左側邊欄。 這可改善對包含多個對象和頁面的活動（包括在較小的顯示器上）的&#x200B;**[!UICONTROL Components]**&#x200B;和&#x200B;**[!UICONTROL Properties]**&#x200B;存取權。 (TGT-54269)
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
 
 +++
+-->
 
+## [!DNL Target Standard/Premium] 26.4.2 （2026年4月7日）
+
+**活動**
+
++++檢視詳細資料
+
+* **套用至其他檢視時保留自訂程式碼。**&#x200B;修正套用至一個&#x200B;**[!UICONTROL View]**&#x200B;的自訂程式碼在同一&#x200B;**[!UICONTROL View]**&#x200B;中新增或儲存另一個&#x200B;**[!UICONTROL Activity]**&#x200B;的自訂程式碼時，可能會遭到移除的問題。 (TGT-53933)
++++
 
 ## 額外的發行說明和版本詳細資料
 
