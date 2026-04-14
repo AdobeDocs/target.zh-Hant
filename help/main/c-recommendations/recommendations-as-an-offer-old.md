@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 47%

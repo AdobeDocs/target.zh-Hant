@@ -7,7 +7,7 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 1%
@@ -100,4 +100,4 @@ ht-degree: 1%
 
 ### 使用AI助理建立內容以產生內容
 
->[!VIDEO](https://video.tv.adobe.com/v/3434646/?learn=on&captions=chi_hant">https://video.tv.adobe.com/v/3434646/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3434646/?captions=chi_hant&learn=on">https://video.tv.adobe.com/v/3434646/?captions=chi_hant&learn=on)
