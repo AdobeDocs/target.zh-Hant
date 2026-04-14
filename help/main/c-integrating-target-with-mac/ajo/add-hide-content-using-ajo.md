@@ -2,7 +2,7 @@
 keywords: 最佳化；個人化；adobe journey optimizer；ajo；使用案例；案例；新增內容；隱藏內容；新增元件；隱藏元件
 description: 瞭解如何使用 [!DNL Adobe Journey Optimizer]新增或隱藏網頁上的元件。
 title: 新增或隱藏元件至 [!DNL Adobe Journey Optimizer]中的網頁
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中的&#x200B;*使用網頁設計工具*。
+>本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中的&#x200B;*使用網頁設計工具*。
 >
 >頁面底部的影片特別實用。
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
    Web設定（或頻道介面）是由系統管理員定義的設定。 網頁設定包含所有用於傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。
 
-   如需詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}中的&#x200B;*設定頻道介面*。
+   如需詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}中的&#x200B;*設定頻道介面*。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer]網頁設計工具中開啟您的網站。
 
@@ -91,9 +91,9 @@ ht-degree: 2%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-如需詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}中的&#x200B;*開始使用新的報表介面*。
+如需詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}中的&#x200B;*開始使用新的報表介面*。
 
 >[!MORELIKETHIS]
 >
->[在](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}Journey Optimizer檔案&#x200B;*中使用網頁設計工具*
->[在](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教學課程&#x200B;*中建立行銷活動*
+>[在](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}Journey Optimizer檔案&#x200B;*中使用網頁設計工具*
+>[在](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教學課程&#x200B;*中建立行銷活動*
