@@ -2,11 +2,11 @@
 keywords: 推薦;產品建議
 description: 了解如何使用 Adobe 推薦作為 A/B 測試 (包括自動分配和自動鎖定目標) 以及體驗鎖定 (XT) 活動的產品建議。
 title: 如何使用推薦作為其他活動類型的產品建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 47%
@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. 按一下&#x200B;**[!UICONTROL Create Criteria]**&#x200B;或選取現有的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下&#x200B;**[!UICONTROL Next]**&#x200B;以顯示[!UICONTROL Select Design]對話方塊。
 
-1. 按一下&#x200B;**[!UICONTROL Create Design]**&#x200B;或選取現有的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下&#x200B;**[!UICONTROL &#x200B; Next]**。
+1. 按一下&#x200B;**[!UICONTROL Create Design]**&#x200B;或選取現有的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下&#x200B;**[!UICONTROL  Next]**。
 
 1. 在[!UICONTROL Options]對話方塊中，指定下列專案：
 
