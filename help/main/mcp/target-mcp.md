@@ -9,14 +9,24 @@ badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 214a359b7ab0f6f03355241353e8c3fb6d8bb479
+source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '2267'
 ht-degree: 1%
 
 ---
 
 # 使用MCP使用者端 {#target-mcp}
+
+>[!BEGINSHADEBOX]
+
+目錄：
+
+* **[使用MCP使用者端](target-mcp.md)**
+* [MCP伺服器工具參考](target-mcp-tools-reference.md)
+* [自行託管MCP伺服器](target-mcp-self-hosted.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -174,6 +184,73 @@ ht-degree: 1%
 | **實作稽核** | 「已設定哪個at.js版本，以及目前作用中的回應Token為何？」 |
 | **變更稽核** | 「顯示過去30天內對活動98765數所做的所有變更，以及變更對象。」 |
 
+## 使用案例逐步解說 {#mcp-use-case-walkthroughs}
+
+下列逐步說明如何在[!DNL Adobe Target] MCP伺服器上使用自然語言提示來完成一般工作。
+
++++建立A/B測試
+
+**提示：**
+> 「使用兩個體驗建立名為『首頁主圖影像測試』的A/B測試：『Control』顯示目前的主圖，而『Variant』顯示全新夏季主題的主圖影像。 定位首頁mbox。」
+
+AI助理使用`create_ab_activity`工具，以您描述的組態建立活動。 此工具會傳回新活動ID，並對建立的體驗進行確認。
+
++++
+
++++檢查活動績效
+
+**提示：**
+> 「顯示過去30天我的『結帳流程最佳化』活動的效能量度。」
+
+AI助理使用`get_ab_performance_report`或`get_xt_performance_report` （視活動型別而定）來擷取指定時間範圍的轉換率、訪客計數和其他量度。
+
++++
+
++++管理優惠方案
+
+**提示：**
+> 「使用『所有夏季專案20%折扣』的促銷橫幅，建立名為『夏季促銷橫幅』的HTML優惠。」
+
+AI助理使用`create_target_offer`工具建立具有您指定HTML內容的選件，並傳回具有新選件ID的確認。
+
++++
+
++++建立對象
+
+**提示：**
+> 「建立名為『來自加州的行動訪客』的受眾，鎖定位於加州的行動裝置上的使用者。」
+
+AI助理會使用`create_target_audience`工具，搭配從您的說明衍生的適當目標規則。
+
++++
+
++++產生QA預覽連結
+
+**提示：**
+> 「產生活動12345動的預覽URL，以便測試每個體驗。」
+
+AI助理會使用`preview_activity`工具產生可點選的URL，略過對象鎖定目標，讓您直接在瀏覽器中檢視每個體驗。
+
++++
+
++++建立體驗鎖定目標活動
+
+**提示：**
+> 「建立稱為『地理Personalization』的體驗鎖定目標活動，對來自不同地區的訪客顯示不同的主圖橫幅。」
+
+AI助理使用`create_xt_activity`，根據您描述的地區，以對象體驗對應來建置活動。
+
++++
+
++++排程活動
+
+**提示：**
+> 「更新活動12345程表，使其從5月1日開始，到5月31日結束。」
+
+AI助理使用`update_activity_schedule`工具將新的開始和結束日期套用至活動。
+
++++
+
 ## 先決條件 {#mcp-prerequisites}
 
 在將[!DNL Adobe Target] MCP伺服器連線到您的MCP使用者端之前，請確定下列事項：
@@ -322,3 +399,11 @@ OAuth權杖會在每個請求上根據Adobe IMS進行驗證，不會由MCP伺服
 
 MCP伺服器會將作業範圍限定在與您驗證的Adobe IMS憑證關聯的組織。 如果您有權存取該組織內的多個屬性，您可以使用`list_target_properties`工具依屬性查詢，並相應地篩選後續請求。
 +++
+
+## 相關資源 {#mcp-related}
+
+* [MCP伺服器工具參考](target-mcp-tools-reference.md)
+* [自行託管 [!DNL Adobe Target] MCP伺服器](target-mcp-self-hosted.md)
+* [模型內容通訊協定檔案](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] 管理員API參考](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [資料指標檔案](https://docs.cursor.com/){target="_blank"}

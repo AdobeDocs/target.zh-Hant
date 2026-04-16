@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: 7d30e3b267a122976153c88c8e73de6b74bc4c4c
+source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 84%
+source-wordcount: '1295'
+ht-degree: 83%
 
 ---
 
@@ -106,7 +106,10 @@ ht-degree: 84%
          + {hide-from-toc}[在Adobe Journey Optimizer中透過A/B測試進行內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
-   + {hide-from-toc}[使用MCP使用者端](/help/main/c-integrating-target-with-mac/target-mcp.md)
+   + 使用MCP使用者端 {#mcp}
+      + {hide-from-toc}[使用MCP使用者端](/help/main/mcp/target-mcp.md)
+      + {hide-from-toc}[Adobe Target MCP伺服器工具參考](/help/main/mcp/target-mcp-tools-reference.md)
+      + {hide-from-toc}[自行託管Adobe Target MCP伺服器](/help/main/mcp/target-mcp-self-hosted.md)
    + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
       + [將Target與AEM整合概覽](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 體驗片段和內容片段 {#fragments}
