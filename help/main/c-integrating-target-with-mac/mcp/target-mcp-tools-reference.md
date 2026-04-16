@@ -9,7 +9,7 @@ badge: label="Beta 版" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 15%
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 ## 活動工具 {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 列出[!DNL Adobe Target]個具有伺服器端篩選和排序的活動。
 
@@ -67,7 +67,9 @@ ht-degree: 15%
 
 **範例提示：**「列出所有依最近修改排序的作用中A/B測試」。
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 取得有關A/B活動的詳細資訊。
 
@@ -81,7 +83,9 @@ ht-degree: 15%
 
 **範例提示：**「取得A/B活動12345的詳細資料」。
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 取得體驗鎖定目標(XT)活動的詳細資訊。
 
@@ -95,7 +99,9 @@ ht-degree: 15%
 
 **範例提示：**「取得體驗鎖定目標活動12345的詳細資料」。
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 取得有關Automated Personalization (AP)活動的詳細資訊。
 
@@ -107,7 +113,9 @@ ht-degree: 15%
 
 **範例提示：**「取得自動Personalization活動12345動詳細資料」。
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 建立新的A/B測試活動。
 
@@ -130,7 +138,9 @@ ht-degree: 15%
 
 **範例提示：** 「建立名為&#39;Homepage Hero Test&#39;的A/B測試，其中包含兩個體驗，測試homepage-hero mbox上的不同主圖影像。」
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 建立新的體驗鎖定目標(XT)活動。
 
@@ -152,7 +162,9 @@ ht-degree: 15%
 
 **範例提示：** 「建立稱為『地理Personalization』的體驗鎖定目標活動，對來自不同地區的訪客顯示不同的內容。」
 
-### update_ab_activity
++++
+
++++update_ab_activity
 
 更新現有的A/B活動。
 
@@ -167,7 +179,9 @@ ht-degree: 15%
 
 **範例提示：**「更新活動12345以將流量分配變更為70/30」。
 
-### update_xt_activity
++++
+
++++update_xt_activity
 
 更新現有的體驗鎖定目標活動。
 
@@ -182,7 +196,9 @@ ht-degree: 15%
 
 **範例提示：**「更新XT活動12345以新增行動訪客的體驗」。
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 更新現有的Automated Personalization活動。
 
@@ -197,7 +213,9 @@ ht-degree: 15%
 
 **範例提示：**「更新自動Personalization活動12345動以變更最佳化目標」。
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 更新活動的開始和結束日期。
 
@@ -214,7 +232,9 @@ ht-degree: 15%
 
 **範例提示：**「更新A/B活動12345動從5月1日到5月31日執行的排程」。
 
-### update_activity_state
++++
+
++++update_activity_state
 
 變更活動狀態（啟動、停用或暫停）。
 
@@ -227,7 +247,9 @@ ht-degree: 15%
 
 **範例提示：**「啟動活動12345」或「暫停首頁主圖測試」。
 
-### update_activity_name
++++
+
++++update_activity_name
 
 重新命名活動。
 
@@ -242,7 +264,9 @@ ht-degree: 15%
 
 **範例提示：**「將活動12345重新命名為&#39;Summer Campaign Hero Test&#39;。」
 
-### update_activity_priority
++++
+
++++update_activity_priority
 
 變更活動優先順序。
 
@@ -257,7 +281,9 @@ ht-degree: 15%
 
 **範例提示：**「將活動12345的優先順序設為100。」
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 將新的體驗/變體新增至活動。
 
@@ -278,7 +304,9 @@ ht-degree: 15%
 
 **範例提示：**「使用選件67890則12345新增名為&#39;Holiday Theme&#39;的新變體至A/B活動。」
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 更新變體間的流量分配。
 
@@ -294,7 +322,9 @@ ht-degree: 15%
 
 **範例提示：**「將活動12345的流量分割變更為70%控制項和30%變體A。」
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 變更特定變體的選件。
 
@@ -313,7 +343,9 @@ ht-degree: 15%
 
 **範例提示：**「更新活動12345中的「變體A」體驗，以使用選件99999。」
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 從活動中移除體驗/變體。
 
@@ -329,9 +361,11 @@ ht-degree: 15%
 
 **範例提示：**「從A/B活動12345動移除&#39;Test Variant&#39;體驗」。
 
++++
+
 ## 優惠工具 {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 列出您[!DNL Target]租使用者中的所有優惠。
 
@@ -348,7 +382,9 @@ ht-degree: 15%
 
 **範例提示：**「列出所有JSON選件」。
 
-### get_target_offer
++++
+
++++get_target_offer
 
 取得特定優惠方案的詳細資訊。
 
@@ -360,7 +396,9 @@ ht-degree: 15%
 
 **範例提示：**「取得優惠67890動的詳細資料」。
 
-### create_target_offer
++++
+
++++create_target_offer
 
 建立新的HTML內容選件。
 
@@ -374,7 +412,9 @@ ht-degree: 15%
 
 **範例提示：** 「使用促銷橫幅建立名為&#39;Summer Sale Banner&#39;的HTML優惠。」
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 建立新的JSON選件來傳遞結構化資料。
 
@@ -388,7 +428,9 @@ ht-degree: 15%
 
 **範例提示：** 「使用功能切換設定建立名為&#39;Feature Flags Config&#39;的JSON選件。」
 
-### update_target_offer
++++
+
++++update_target_offer
 
 更新現有優惠方案。
 
@@ -402,9 +444,11 @@ ht-degree: 15%
 
 **範例提示：**「使用新的促銷內容更新優惠67890案」。
 
++++
+
 ## 對象工具 {#tools-audiences}
 
-### list_target_audiences
++++list_target_audiences
 
 列出您[!DNL Target]租使用者中的所有對象。
 
@@ -417,7 +461,9 @@ ht-degree: 15%
 
 **範例提示：**「列出所有對象」。
 
-### create_target_audience
++++
+
++++create_target_audience
 
 使用鎖定目標規則建立新的對象。
 
@@ -432,9 +478,11 @@ ht-degree: 15%
 
 **範例提示：** 「在CA中建立名為『來自加州的行動訪客』以行動使用者為目標的對象。」
 
++++
+
 ## Mbox工具 {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 列出您[!DNL Target]租使用者中的所有mbox。
 
@@ -449,7 +497,9 @@ ht-degree: 15%
 
 **範例提示：**「列出所有包含&#39;homepage&#39;的mbox」。
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 取得特定mbox的詳細資訊。
 
@@ -461,7 +511,9 @@ ht-degree: 15%
 
 **範例提示：**「取得mbox &#39;homepage-hero&#39;的詳細資料」。
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 列出所有可用於鎖定目標的mbox設定檔屬性。
 
@@ -471,9 +523,11 @@ ht-degree: 15%
 
 **範例提示：** 「哪些設定檔屬性可用於目標定位？」
 
++++
+
 ## 屬性工具 {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 列出您[!DNL Target]租使用者中的所有屬性。
 
@@ -485,9 +539,11 @@ ht-degree: 15%
 
 **範例提示：**「列出所有Target屬性」。
 
++++
+
 ## 報告工具 {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 取得A/B活動的效能報表。
 
@@ -502,7 +558,9 @@ ht-degree: 15%
 
 **範例提示：** 「顯示過去30天A/B測試12345的效能報告。」
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 取得A/B活動的訂單/收入報表。
 
@@ -515,7 +573,9 @@ ht-degree: 15%
 
 **範例提示：**「取得活動12345的訂單報表」。
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 取得體驗鎖定目標活動的效能報表。
 
@@ -528,7 +588,9 @@ ht-degree: 15%
 
 **範例提示：**「顯示我的體驗鎖定目標活動54321的效能」。
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 取得體驗鎖定目標活動的訂單/收入報表。
 
@@ -541,7 +603,9 @@ ht-degree: 15%
 
 **範例提示：**「取得XT活動54321的訂單資料」。
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 依名稱搜尋活動並取得其效能報表。
 
@@ -556,9 +620,11 @@ ht-degree: 15%
 
 **範例提示：** 「取得我的『首頁主圖測試』活動的效能報告」。
 
++++
+
 ## 預覽工具 {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 產生[!DNL Target]活動的瀏覽器QA預覽URL。
 
@@ -574,9 +640,11 @@ ht-degree: 15%
 
 **範例提示：** 「產生活動12345動的預覽URL，以便我測試瀏覽器中的每一個體驗。」
 
++++
+
 ## 回應Token工具 {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 列出您[!DNL Target]租使用者中的所有回應Token。
 
@@ -588,7 +656,9 @@ ht-degree: 15%
 
 **範例提示：**「列出所有回應Token」。
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 建立新的自訂回應Token，以在[!DNL Target]個回應中收集其他資料。
 
@@ -601,9 +671,11 @@ ht-degree: 15%
 
 **範例提示：**「建立名為&#39;campaign_id&#39;的自訂回應Token，型別為ACTIVITY。」
 
++++
+
 ## 修訂工具 {#tools-revisions}
 
-### get_target_revisions
++++get_target_revisions
 
 取得資源型別的稽核記錄。
 
@@ -620,7 +692,9 @@ ht-degree: 15%
 
 **範例提示：** 「顯示活動變更的稽核記錄」。
 
-### get_target_entity_revisions
++++
+
++++get_target_entity_revisions
 
 依照ID取得特定實體的所有修訂版本。
 
@@ -633,9 +707,11 @@ ht-degree: 15%
 
 **範例提示：** 「顯示活動12345的所有變更。」
 
++++
+
 ## 範本工具 {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 列出可用於建立活動和優惠方案的MCP資源和範本。
 
@@ -644,6 +720,8 @@ ht-degree: 15%
 **傳回：** JSON物件列出可用的範本和資源。
 
 **範例提示：** 「哪些範本可用於建立活動？」
+
++++
 
 ## 工具摘要 {#tools-summary}
 
