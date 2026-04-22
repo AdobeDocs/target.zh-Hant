@@ -9,9 +9,9 @@ badge: label="Beta 版" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2941'
 ht-degree: 14%
 
 ---
@@ -43,7 +43,9 @@ ht-degree: 14%
 
 ## 活動工具 {#tools-activities}
 
-+++list_target_activities
++++列出活動
+
+**工具：** `list_target_activities`
 
 列出[!DNL Adobe Target]個具有伺服器端篩選和排序的活動。
 
@@ -76,7 +78,9 @@ ht-degree: 14%
 
 +++
 
-+++get_ab_activity
++++取得A/B活動
+
+**工具：** `get_ab_activity`
 
 取得有關A/B活動的詳細資訊。
 
@@ -92,7 +96,9 @@ ht-degree: 14%
 
 +++
 
-+++get_xt_activity
++++取得體驗鎖定目標活動
+
+**工具：** `get_xt_activity`
 
 取得體驗鎖定目標(XT)活動的詳細資訊。
 
@@ -108,7 +114,9 @@ ht-degree: 14%
 
 +++
 
-+++get_abt_activity
++++取得Automated Personalization活動
+
+**工具：** `get_abt_activity`
 
 取得有關Automated Personalization (AP)活動的詳細資訊。
 
@@ -122,7 +130,9 @@ ht-degree: 14%
 
 +++
 
-+++create_ab_activity
++++建立A/B活動
+
+**工具：** `create_ab_activity`
 
 建立新的A/B測試活動。
 
@@ -147,7 +157,9 @@ ht-degree: 14%
 
 +++
 
-+++create_xt_activity
++++建立體驗鎖定目標活動
+
+**工具：** `create_xt_activity`
 
 建立新的體驗鎖定目標(XT)活動。
 
@@ -171,7 +183,9 @@ ht-degree: 14%
 
 +++
 
-+++update_ab_activity
++++更新A/B活動
+
+**工具：** `update_ab_activity`
 
 更新現有的A/B活動。
 
@@ -188,7 +202,9 @@ ht-degree: 14%
 
 +++
 
-+++update_xt_activity
++++更新體驗鎖定目標活動
+
+**工具：** `update_xt_activity`
 
 更新現有的體驗鎖定目標活動。
 
@@ -205,7 +221,9 @@ ht-degree: 14%
 
 +++
 
-+++update_abt_activity
++++更新Automated Personalization活動
+
+**工具：** `update_abt_activity`
 
 更新現有的Automated Personalization活動。
 
@@ -222,7 +240,9 @@ ht-degree: 14%
 
 +++
 
-+++update_activity_schedule
++++更新活動排程
+
+**工具：** `update_activity_schedule`
 
 更新活動的開始和結束日期。
 
@@ -241,7 +261,9 @@ ht-degree: 14%
 
 +++
 
-+++update_activity_state
++++變更活動狀態
+
+**工具：** `update_activity_state`
 
 變更活動狀態（啟動、停用或暫停）。
 
@@ -256,7 +278,9 @@ ht-degree: 14%
 
 +++
 
-+++update_activity_name
++++重新命名活動
+
+**工具：** `update_activity_name`
 
 重新命名活動。
 
@@ -273,7 +297,9 @@ ht-degree: 14%
 
 +++
 
-+++update_activity_priority
++++變更活動優先順序
+
+**工具：** `update_activity_priority`
 
 變更活動優先順序。
 
@@ -290,7 +316,9 @@ ht-degree: 14%
 
 +++
 
-+++add_activity_variant
++++將變體新增至活動
+
+**工具：** `add_activity_variant`
 
 將新的體驗/變體新增至活動。
 
@@ -313,7 +341,9 @@ ht-degree: 14%
 
 +++
 
-+++update_traffic_split
++++更新流量分割
+
+**工具：** `update_traffic_split`
 
 更新變體間的流量分配。
 
@@ -331,7 +361,9 @@ ht-degree: 14%
 
 +++
 
-+++update_variant_offer
++++變更變體的選件
+
+**工具：** `update_variant_offer`
 
 變更特定變體的選件。
 
@@ -352,7 +384,9 @@ ht-degree: 14%
 
 +++
 
-+++remove_activity_variant
++++從活動中移除變體
+
+**工具：** `remove_activity_variant`
 
 從活動中移除體驗/變體。
 
@@ -372,7 +406,9 @@ ht-degree: 14%
 
 ## 優惠工具 {#tools-offers}
 
-+++list_target_offers
++++列出優惠方案
+
+**工具：** `list_target_offers`
 
 列出您[!DNL Target]租使用者中的所有優惠。
 
@@ -391,7 +427,9 @@ ht-degree: 14%
 
 +++
 
-+++get_target_offer
++++取得優惠方案
+
+**工具：** `get_target_offer`
 
 取得特定優惠方案的詳細資訊。
 
@@ -405,7 +443,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_offer
++++建立HTML選件
+
+**工具：** `create_target_offer`
 
 建立新的HTML內容選件。
 
@@ -421,7 +461,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_json_offer
++++建立JSON選件
+
+**工具：** `create_target_json_offer`
 
 建立新的JSON選件來傳遞結構化資料。
 
@@ -437,7 +479,9 @@ ht-degree: 14%
 
 +++
 
-+++update_target_offer
++++更新優惠方案
+
+**工具：** `update_target_offer`
 
 更新現有優惠方案。
 
@@ -455,7 +499,9 @@ ht-degree: 14%
 
 ## 對象工具 {#tools-audiences}
 
-+++list_target_audiences
++++列出對象
+
+**工具：** `list_target_audiences`
 
 列出您[!DNL Target]租使用者中的所有對象。
 
@@ -470,7 +516,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_audience
++++建立客群
+
+**工具：** `create_target_audience`
 
 使用鎖定目標規則建立新的對象。
 
@@ -489,7 +537,9 @@ ht-degree: 14%
 
 ## Mbox工具 {#tools-mboxes}
 
-+++list_target_mboxes
++++清單mbox
+
+**工具：** `list_target_mboxes`
 
 列出您[!DNL Target]租使用者中的所有mbox。
 
@@ -506,7 +556,9 @@ ht-degree: 14%
 
 +++
 
-+++get_target_mbox
++++取得mbox
+
+**工具：** `get_target_mbox`
 
 取得特定mbox的詳細資訊。
 
@@ -520,7 +572,9 @@ ht-degree: 14%
 
 +++
 
-+++list_target_mbox_profile_attributes
++++清單mbox設定檔屬性
+
+**工具：** `list_target_mbox_profile_attributes`
 
 列出所有可用於鎖定目標的mbox設定檔屬性。
 
@@ -534,7 +588,9 @@ ht-degree: 14%
 
 ## 屬性工具 {#tools-properties}
 
-+++list_target_properties
++++清單屬性
+
+**工具：** `list_target_properties`
 
 列出您[!DNL Target]租使用者中的所有屬性。
 
@@ -550,7 +606,9 @@ ht-degree: 14%
 
 ## 報告工具 {#tools-reporting}
 
-+++get_ab_performance_report
++++取得A/B效能報表
+
+**工具：** `get_ab_performance_report`
 
 取得A/B活動的效能報表。
 
@@ -567,7 +625,9 @@ ht-degree: 14%
 
 +++
 
-+++get_ab_orders_report
++++取得A/B訂單報表
+
+**工具：** `get_ab_orders_report`
 
 取得A/B活動的訂單/收入報表。
 
@@ -582,7 +642,9 @@ ht-degree: 14%
 
 +++
 
-+++get_xt_performance_report
++++取得體驗鎖定目標效能報表
+
+**工具：** `get_xt_performance_report`
 
 取得體驗鎖定目標活動的效能報表。
 
@@ -597,7 +659,9 @@ ht-degree: 14%
 
 +++
 
-+++get_xt_orders_report
++++取得體驗鎖定目標訂單報表
+
+**工具：** `get_xt_orders_report`
 
 取得體驗鎖定目標活動的訂單/收入報表。
 
@@ -612,7 +676,9 @@ ht-degree: 14%
 
 +++
 
-+++get_activity_report_by_name
++++依活動名稱取得效能報表
+
+**工具：** `get_activity_report_by_name`
 
 依名稱搜尋活動並取得其效能報表。
 
@@ -631,7 +697,9 @@ ht-degree: 14%
 
 ## 預覽工具 {#tools-preview}
 
-+++preview_activity
++++預覽活動
+
+**工具：** `preview_activity`
 
 產生[!DNL Target]活動的瀏覽器QA預覽URL。
 
@@ -651,7 +719,9 @@ ht-degree: 14%
 
 ## 回應Token工具 {#tools-response-tokens}
 
-+++list_target_response_tokens
++++列出回應Token
+
+**工具：** `list_target_response_tokens`
 
 列出您[!DNL Target]租使用者中的所有回應Token。
 
@@ -665,7 +735,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_response_token
++++建立回應Token
+
+**工具：** `create_target_response_token`
 
 建立新的自訂回應Token，以在[!DNL Target]個回應中收集其他資料。
 
@@ -682,7 +754,9 @@ ht-degree: 14%
 
 ## 修訂工具 {#tools-revisions}
 
-+++get_target_revisions
++++取得稽核記錄
+
+**工具：** `get_target_revisions`
 
 取得資源型別的稽核記錄。
 
@@ -701,7 +775,9 @@ ht-degree: 14%
 
 +++
 
-+++get_target_entity_revisions
++++取得特定實體的修訂版本
+
+**工具：** `get_target_entity_revisions`
 
 依照ID取得特定實體的所有修訂版本。
 
@@ -718,7 +794,9 @@ ht-degree: 14%
 
 ## 範本工具 {#tools-templates}
 
-+++list_target_templates
++++列出可用的範本
+
+**工具：** `list_target_templates`
 
 列出可用於建立活動和優惠方案的MCP資源和範本。
 
