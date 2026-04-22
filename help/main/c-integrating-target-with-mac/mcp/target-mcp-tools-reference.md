@@ -9,10 +9,10 @@ badge: label="Beta 版" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '2688'
-ht-degree: 15%
+source-wordcount: '2782'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 15%
 
 * [使用MCP使用者端](target-mcp.md)
 * **[MCP伺服器工具參考](target-mcp-tools-reference.md)**
-* [自行託管MCP伺服器](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +31,15 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->此處僅記錄公用工具。 排除內部工具和僅限代理程式的工具。 讀取工具可供具有&#x200B;**觀察者**&#x200B;或以上角色的所有連線使用者使用；寫入工具需要&#x200B;**編輯器**&#x200B;或&#x200B;**核准者**&#x200B;角色。
+>讀取工具可供具有&#x200B;**觀察者**&#x200B;或以上角色的所有連線使用者使用；寫入工具需要&#x200B;**編輯器**&#x200B;或&#x200B;**核准者**&#x200B;角色。
+
+>[!IMPORTANT]
+>
+>模型內容通訊協定(MCP)是一種新興的開放原始碼標準，可能會帶來安全性或可靠性風險。 Adobe MCP伺服器整合和相關檔案係依「現況」提供，不提供任何形式的保證。
+>
+>將MCP使用者端或伺服器連線至Adobe產品是客戶選擇的組態，客戶需負責評估任何MCP整合的安全性和適用性。 Adobe對於因設定錯誤、誤用MCP、協力廠商實作中的漏洞，或透過啟用MCP的工作流程執行的意外動作所引起的問題，概不負責。
+>
+>為了降低風險，Adobe鼓勵您在有效使用之前在沙箱環境中測試整合，並在確認或依賴之前，仔細檢閱及驗證所有MCP啟動的動作和回應。
 
 ## 活動工具 {#tools-activities}
 
@@ -742,5 +749,4 @@ ht-degree: 15%
 ## 相關資源 {#tools-related}
 
 * [使用MCP使用者端](target-mcp.md)
-* [自行託管 [!DNL Adobe Target] MCP伺服器](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] 管理員API參考](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
