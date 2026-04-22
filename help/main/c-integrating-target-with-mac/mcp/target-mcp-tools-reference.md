@@ -9,9 +9,9 @@ badge: label="Beta 版" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 目錄：
 
-* [使用MCP使用者端](target-mcp.md)
+* [概觀](target-mcp.md)
+* [開始使用](target-mcp-get-started.md)
+* [使用案例和逐步說明](target-mcp-use-cases.md)
 * **[MCP伺服器工具參考](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-此頁面是[!DNL Adobe Target] MCP伺服器公開之所有公用工具的完整參考。 對於每個工具，您都可以找到說明、引數詳細資料、傳回值以及自然語言提示範例。 如需設定指示和使用案例，請參閱[使用MCP使用者端](target-mcp.md)。
-
->[!NOTE]
->
->讀取工具可供具有&#x200B;**觀察者**&#x200B;或以上角色的所有連線使用者使用；寫入工具需要&#x200B;**編輯器**&#x200B;或&#x200B;**核准者**&#x200B;角色。
+此頁面是[!DNL Adobe Target] MCP伺服器公開之所有公用工具的完整參考。 對於每個工具，您都可以找到說明、引數詳細資料、傳回值以及自然語言提示範例。 如需設定指示和使用案例，請參閱[開始使用](target-mcp-get-started.md)和[使用案例和逐步說明](target-mcp-use-cases.md)。
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ ht-degree: 14%
 >將MCP使用者端或伺服器連線至Adobe產品是客戶選擇的組態，客戶需負責評估任何MCP整合的安全性和適用性。 Adobe對於因設定錯誤、誤用MCP、協力廠商實作中的漏洞，或透過啟用MCP的工作流程執行的意外動作所引起的問題，概不負責。
 >
 >為了降低風險，Adobe鼓勵您在有效使用之前在沙箱環境中測試整合，並在確認或依賴之前，仔細檢閱及驗證所有MCP啟動的動作和回應。
+
+## 先決條件 {#tools-prerequisites}
+
+您的[!DNL Adobe Target]角色會決定您可用的工具：
+
+* **觀察者**&#x200B;角色或更新版本：存取所有讀取工具
+* **編輯者**&#x200B;角色：存取讀取和寫入（建立）工具
+* **核准者**&#x200B;角色：讀取、寫入和啟用/停用工具的存取權
+
+如需完整的安裝指示，請參閱[開始使用](target-mcp-get-started.md)。
 
 ## 活動工具 {#tools-activities}
 
