@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Experimentation Accelerator可協助管理員管理[!DNL Adobe Target]工作區活動在應用程式中組織和顯示的方式。 將每個[!DNL Target]工作區對應到適當的Experimentation Accelerator沙箱，團隊可以從[!DNL Adobe Target]和[!DNL Adobe Journey Optimizer]在一個位置檢視實驗。
 
-➡️ [進一步瞭解Adobe Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [進一步瞭解Adobe Experimentation Accelerator](https://experienceleague.adobe.com/zh-hant/docs/experimentation-accelerator/using/overview)
 
 ## 開始之前
 
