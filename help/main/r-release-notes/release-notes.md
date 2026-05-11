@@ -6,10 +6,10 @@ short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
+source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 46%
+source-wordcount: '531'
+ht-degree: 51%
 
 ---
 
@@ -39,33 +39,27 @@ ht-degree: 46%
 
 +++
 
-## [!DNL Target Standard/Premium] 26.4.4 （2026年4月28日）
-
 **活動**
 
 +++檢視詳細資料
 
-* **報表中的對象篩選器發生錯誤。** 修正在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;內變更對象篩選條件，導致[!DNL Target]使用者介面的「報表」區段發生錯誤的問題。 (TGT-55006)
-
-* **依優先順序排序活動。** 使用&#x200B;**[!UICONTROL Priority]**&#x200B;欄標題在活動清單中新增依優先順序排序，其遞增和遞減順序與其他可排序的欄一致。 (TGT-54948)
-
-* **其他活動屬性在儲存後未保留。** 修正儲存及重新開啟活動後，特定&#x200B;**[!UICONTROL Properties]**&#x200B;選取範圍未持續存在的問題。 (TGT-53889)
+* **[!UICONTROL Graph View]與資料表和下載不同步。** 修正某些日期範圍的活動報表在&#x200B;**[!UICONTROL Graph View]**&#x200B;中可能顯示缺少或零量度的問題，即使&#x200B;**[!UICONTROL Table View]**&#x200B;且下載的報表仍顯示正確的值。 (TGT-54998)
 
 +++
 
-**本地化**
+**[!UICONTROL Audiences]**
 
 +++檢視詳細資料
 
-* [!UICONTROL Page Delivery]規則運運算元的&#x200B;**日文標籤。** 修正日文UI中頁面傳送規則運運算元標籤無法讀取或損毀的字串。 (TGT-53097)
+* **對象使用清單未完全轉譯。** 修正即使有其他活動與該對象相關聯，對象詳細資料中的&#x200B;**[!UICONTROL Usage]**&#x200B;區段仍只能顯示對應活動的子集的問題。 (TGT-55094)
 
 +++
 
-**API**
+**[!UICONTROL Administration]**
 
 +++檢視詳細資料
 
-* **報告`segmentId`.**&#x200B;的[!DNL GraphQL] API支援 已新增`segmentId`至報表[!DNL GraphQL] API。 (TGT-55021)
+* **確認最後一個八位元IP模糊化的效果更清楚。** 當您在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;上將&#x200B;**[!UICONTROL Obfuscate Visitor IP addresses]**&#x200B;變更為&#x200B;**[!UICONTROL Last octet]**&#x200B;時，確認對話方塊現在會說明[!DNL Target]會隱藏訪客IP位址的最後八位元。 (TGT-44821)
 
 +++
 
@@ -73,11 +67,10 @@ ht-degree: 46%
 
 +++檢視詳細資料
 
-* **編輯器中錯誤體驗上顯示的修改。** 修正在[!UICONTROL Visual Experience Composer]中的體驗之間切換後，刪除或其他修改可能出現在錯誤體驗的問題。 (TGT-54955)
-
-* **刪除插入HTML時移除的修改。** 修正刪除以&#x200B;**[!UICONTROL Insert before]**&#x200B;或&#x200B;**[!UICONTROL Insert after]**&#x200B;新增的額外&#x200B;**[!UICONTROL HTML]**&#x200B;區塊時，也會移除無CSS選取器的連結修改的問題。 (TGT-54530)
+* **使用增強體驗撰寫器(EEC)的空白或不完整頁面。** 修正啟用&#x200B;**[!UICONTROL Enhanced Experience Composer]**&#x200B;時，[!UICONTROL Visual Experience Composer]無法在編輯器中載入網站的問題。 (TGT-54576)
 
 +++
+
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
