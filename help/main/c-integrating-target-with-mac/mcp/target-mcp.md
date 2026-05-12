@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Target] MCP伺服器 {#target-mcp}
-
 
 [!DNL Adobe Target] MCP整合可讓您直接從AI助理檢查、分析和管理A/B測試、個人化活動和Recommendations條件。 將[!DNL Target]的讀取和寫入API轉換為純語言的工作流程 — 稽核您的實驗組合、檢閱效能報告、管理對象和選件，以及執行控管動作，而不需導覽UI或寫入API呼叫。
 
