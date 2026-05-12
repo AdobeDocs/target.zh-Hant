@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP伺服器 {#target-mcp}
 
-[!DNL Adobe Target] MCP整合可讓您直接從AI助理檢查、分析和管理A/B測試、個人化活動和Recommendations條件。 將[!DNL Target]的讀取和寫入API轉換為純語言的工作流程 — 稽核您的實驗組合、檢閱效能報告、管理對象和選件，以及執行控管動作，而不需導覽UI或寫入API呼叫。
+[!DNL Adobe Target] MCP整合可讓您直接從AI助理檢查和分析A/B測試、個人化活動和Recommendations條件。 將[!DNL Target]的實驗和個人化資料轉換為純語言的工作流程 — 稽核您的實驗組合、檢閱效能報告，以及探索對象和選件，而不需導覽UI或撰寫API呼叫。
 
 >[!AVAILABILITY]
 >
@@ -41,20 +41,20 @@ ht-degree: 0%
 
 ## 主要功能 {#mcp-capabilities}
 
-[!DNL Adobe Target] MCP伺服器提供活動、對象、選件、建議和實作設定的讀寫存取權。 透過整合，您可以：
+[!DNL Adobe Target] MCP伺服器提供活動、對象、選件、建議和實作設定的讀取存取權。 透過整合，您可以：
 
 * **檢查並稽核實驗** — 取得任何活動的狀態、效能、變更記錄和QA預覽連結，而不需瀏覽UI。
 * **分析結果** — 擷取A/B、XT、AP和自動鎖定目標活動的效能、收入和A4T報表。
-* **管理活動** — 建立、更新及啟用A/B和XT活動；調整流量分割、變體、排程和優先順序。
-* **管理對象和選件** — 列出、檢查及建立對象、HTML選件和JSON選件。
+* **探索活動** — 列出、檢查及分析A/B和XT活動。
+* **探索對象和選件** — 列出並檢查對象、HTML選件和JSON選件。
 * **探索Recommendations條件** — 列出並檢查條件和購物車型演演算法。
 * **稽核實作** — 檢閱at.js設定、回應Token和每個實體的修訂歷史記錄。
 
 >[!NOTE]
 >
->寫入操作（建立、更新、啟動、停用）包括安全註解。 未經明確的使用者確認，不會執行任何變更。
+>寫入工具（建立、更新、啟用、停用）不會透過&#x200B;**公用Beta**&#x200B;中的公用MCP目錄公開。 所有目前可用的工具都是唯讀的。 未來版本將提供寫入許可權。
 
-[!DNL Adobe Target] MCP伺服器會公開10個類別中的52種工具 — 從活動管理和報告，到對象建立和QA預覽。 如需完整的引數參考，請參閱[MCP伺服器工具參考](target-mcp-tools-reference.md)。
+[!DNL Adobe Target] MCP伺服器會公開10個類別中的23個唯讀工具 — 從活動檢查和報告，到對象探索和QA預覽。 如需完整的引數參考，請參閱[MCP伺服器工具參考](target-mcp-tools-reference.md)。
 
 若要探索您可以使用[!DNL Adobe Target] MCP伺服器做什麼 — 包括逐步提示逐步說明 — 請參閱[使用案例和逐步說明](target-mcp-use-cases.md)。
 
@@ -69,12 +69,12 @@ ht-degree: 0%
 
 +++我可以透過MCP存取哪些[!DNL Adobe Target]物件？
 
-您可以存取活動(A/B、XT、AP)、對象、選件、屬性、mbox、Recommendations條件、回應Token、at.js設定、A4T報表和實體修訂歷史記錄。 52種工具同時支援讀取和寫入作業 — 寫入作業需要適當的角色和明確的確認。
+您可以存取活動(A/B、XT、AP)、對象、選件、屬性、mbox、Recommendations條件、回應Token、at.js設定、A4T報表和實體修訂歷史記錄。 目前可用的所有23種工具均為唯讀。
 +++
 
 +++MCP伺服器可以建立或修改活動嗎？
 
-是. 除了讀取作業之外，伺服器也會公開可讓您建立活動、暫停活動、更新優先順序、調整流量分割等的寫入作業。 寫入作業會遵循與[!DNL Adobe Target] UI相同的許可權模式 — 您需要適當的角色才能進行變更，而且不會執行任何動作而不需要明確的使用者確認。
+不在公開Beta中。 公用MCP目錄目前公開23個唯讀工具。 尚未透過公用MCP伺服器提供寫入作業（建立、更新、啟動、停用）。 未來版本將提供寫入許可權。
 +++
 
 +++我需要開發人員存取權才能使用MCP伺服器嗎？
@@ -89,12 +89,12 @@ ht-degree: 0%
 
 +++寫入操作是否會對已上線的活動造成非預期的變更？
 
-撰寫工具包括安全註解和確認閘道。 在任何狀態變更動作（例如啟動活動、變更優先順序或更新流量分配）之前，伺服器會顯示結構化的確認，顯示受影響的物件、預估的流量影響和所需的明確核准步驟。 確認前不會進行任何變更。
+無法透過公用Beta中的公用MCP目錄取得寫入工具 — 目前公開的所有23個工具都是唯讀的。 在將來的發行版本中引入寫入工具時，這些工具將包含安全註解和確認閘道，這樣就不會在未明確使用者確認的情況下執行任何狀態變更動作。
 +++
 
 +++我在[!DNL Adobe Target]中需要哪些許可權？
 
-至少&#x200B;**觀察者**&#x200B;角色會授予所有讀取工具的存取權。 **編輯者**&#x200B;角色可讓您建立活動、對象和選件。 必須有&#x200B;**核准者**&#x200B;角色才能啟用、停用或封存活動。 如果您不確定目前的存取層級，請連絡您的[!DNL Adobe Target]系統管理員。
+**觀察者**&#x200B;角色或更高層級授予對公開Beta中可用的所有23個唯讀工具的存取權。 寫入工具尚未透過公用MCP目錄公開，因此「編輯者」和「核准者」角色許可權目前不會解除鎖定其他MCP工具。 如果您不確定目前的存取層級，請連絡您的[!DNL Adobe Target]系統管理員。
 +++
 
 +++我可以跨多個Target組織或屬性使用MCP伺服器嗎？

@@ -2,15 +2,15 @@
 solution: Target
 product: target
 title: Adobe Target MCP伺服器工具參考
-description: Adobe Target MCP伺服器公開的所有21個唯讀工具完整引數參考。
+description: Adobe Target MCP伺服器公開的全部23個唯讀工具的完整引數參考。
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1883'
 ht-degree: 11%
 
 ---
@@ -35,9 +35,11 @@ ht-degree: 11%
 
 您的[!DNL Adobe Target]角色會決定您可用的工具：
 
-* **觀察者**&#x200B;角色或更新版本：存取所有讀取工具
-* **編輯者**&#x200B;角色：存取讀取和寫入（建立）工具
-* **核准者**&#x200B;角色：讀取、寫入和啟用/停用工具的存取權
+* **觀察者**&#x200B;角色或更新版本：存取所有23個唯讀工具
+
+>[!NOTE]
+>
+>寫入工具（建立、更新、啟用、停用）不會透過公用Beta中的公用MCP目錄公開。 本頁列出的所有23種工具均為唯讀。 未來版本將提供寫入許可權。
 
 如需完整的安裝指示，請參閱[開始使用](target-mcp-get-started.md)。
 
@@ -544,6 +546,24 @@ Update an existing offer.
 
 +++
 
++++取得受眾
+
+**工具：** `get_target_audience`
+
+取得對象詳細資料，包括目標定位規則。
+
+擷取特定對象的完整設定，包括其鎖定目標規則和條件。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `audience_id` | 整數 | 是 | 對象的唯一識別碼 |
+
+**傳回：**&#x200B;完整的對象詳細資料，包括`id`、`name`、`description`、`origin`、目標定位規則和相關聯的活動計數。
+
+**範例提示：** 「取得對象12345的詳細資料，並顯示其目標規則。」
+
++++
+
 <!--
 +++Create an audience
 
@@ -725,6 +745,25 @@ Create a new audience with targeting rules.
 
 +++
 
++++取得Analytics for Target (A4T)報表
+
+**工具：** `get_a4t_report`
+
+擷取[!DNL Target]活動的Analytics for Target (A4T)報告。
+
+驗證活動的A4T設定，然後對[!DNL Adobe Analytics]執行GraphQL查詢以擷取Analytics端量度。 僅適用於已設定A4T報告的活動。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `activity_id` | 整數 | 是 | [!DNL Target]活動的唯一識別碼 |
+| `report_interval` | string | 否 | 報告的時段（例如`last7days`、`last30days`或自訂日期範圍） |
+
+**傳回：**&#x200B;活動的分析端量度，包括直接從[!DNL Adobe Analytics]取得的訪客計數、轉換、收入和體驗提升度。
+
+**範例提示：**「提取A4T報告供我的簽出最佳化測試使用，並彙總Analytics端的轉換資料」。
+
++++
+
 ## 預覽工具 {#tools-preview}
 
 +++預覽活動
@@ -846,15 +885,15 @@ Create a new custom response token for collecting additional data in [!DNL Targe
 |---|---|---|
 | 活動 | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
 | 產品建議 | 2 | `list_target_offers`, `get_target_offer` |
-| 客群 | 1 | `list_target_audiences` |
+| 客群 | 2 | `list_target_audiences`, `get_target_audience` |
 | mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 屬性 | 1 | `list_target_properties` |
-| 報表 | 5 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name` |
+| 報表 | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | 預覽 | 1 | `preview_activity` |
 | 回應Token | 1 | `list_target_response_tokens` |
 | 修訂 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | 範本 | 1 | `list_target_templates` |
-| **總計** | **21** | |
+| **總計** | **23** | |
 
 ## 相關資源 {#tools-related}
 

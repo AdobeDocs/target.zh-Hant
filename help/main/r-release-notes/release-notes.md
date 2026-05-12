@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 42%
 
 **[!DNL Adobe Target]MCP伺服器（公用Beta）**
 
-[!DNL Adobe Target]現在提供MCP （模型內容通訊協定）伺服器，直接在任何MCP相容應用程式中呈現實驗、個人化和報告作業。 透過這項整合，行銷和技術人員可以檢查A/B測試、分析效能報表、管理對象和選件，以及採取控管動作 — 所有動作都使用自然語言提示，而不是導覽多個UI熒幕或針對[!DNL Adobe Target] REST API撰寫查詢。 此功能目前可在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中使用。
+[!DNL Adobe Target]現在提供MCP （模型內容通訊協定）伺服器，直接在任何MCP相容應用程式中呈現實驗、個人化和報告作業。 透過這項整合，行銷和技術人員可以檢查A/B測試、分析效能報表，以及探索對象和選件 — 全部使用自然語言提示，而不是導覽多個UI熒幕或針對[!DNL Adobe Target] REST API撰寫查詢。 此功能目前可在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中使用。
 
 此功能適用於公開Beta中的所有客戶。
 
