@@ -5,9 +5,16 @@ description: 了解如何使用 Adobe [!DNL Target]  將客戶體驗個人化，
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 703
@@ -47,7 +54,7 @@ UI的設計目的是為了清楚且有效率，協助您充分利用[!DNL Target
 
 >[!TAB AI小幫手]
 
-在&#x200B;[!DNL Adobe Experience Platform]**中**&#x200B;與[!DNL AI Assistant]會面
+在&#x200B;[!DNL Adobe Experience Platform]&#x200B;**中**&#x200B;與[!DNL AI Assistant]會面
 
 [!DNL AI Assistant]是您導覽[!DNL Adobe Experience Cloud]的智慧指南。 [!DNL Target]、[!DNL AI Assistant]等產品可協助您從介面快速瞭解重要概念和功能。
 
@@ -77,7 +84,7 @@ UI的設計目的是為了清楚且有效率，協助您充分利用[!DNL Target
 市場行銷人員、開發人員、管理員、分析人員及品質保證工程師。
 
 - [[!DNL Target] 發行說明](r-release-notes/release-notes.md)：包含最新版本的相關資訊、影響[!DNL Target]之已知問題的相關資訊、本檔案的重要更新清單，以及舊版發行說明的封存。
-- [ [!DNL Target]](c-intro/intro.md)簡介：說明[!DNL Target]的核心概念。
+- [&#x200B; [!DNL Target]](c-intro/intro.md)簡介：說明[!DNL Target]的核心概念。
 - [瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
 - [[!UICONTROL AI Assistant]總覽](/help/main/c-intro/ai-assistant.md)： A[!DNL dobe Experience Platform]中的[!DNL AI Assistant]是使用者介面功能，可用來導覽及瞭解[!DNL Adobe Target]概念。
 - 將[!DNL Target]與[!DNL Adobe Experience Cloud]整合：說明如何將[!DNL Target]與其他[!DNL Experience Cloud]解決方案整合，包括[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)及[[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
