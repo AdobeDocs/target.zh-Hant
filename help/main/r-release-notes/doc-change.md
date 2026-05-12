@@ -4,10 +4,28 @@ description: 掌握 [!DNL Target] 文件的重要新增與變更。
 title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 37%
+source-wordcount: 2503
+ht-degree: 31%
 
 ---
 
@@ -16,6 +34,19 @@ ht-degree: 37%
 本頁列出 [!DNL Adobe Target] 產品文件的重要變更。
 
 ## 更新
+
+### [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
+
+| 日期 | 主題 | 變更 |
+|--- |--- |--- |
+| 5月12日 | [[!DNL Adobe Target] 商務從業者指南](/help/main/target-home.md) | 更新首頁，加入[!DNL Adobe Target] MCP伺服器（公開Beta）公告，並移除過時的2025年公告。 |
+|  | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增[!DNL Adobe Target] MCP伺服器（公用Beta）功能更新的發行說明。 |
+|  | [[!DNL Adobe Target] MCP伺服器總覽](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md) | 新文章。 瞭解[!DNL Adobe Target] MCP伺服器是什麼、其主要功能，以及它如何連線至您的AI助理。 |
+|  | [開始使用 [!DNL Adobe Target] MCP伺服器](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | 新文章。 瞭解如何將[!DNL Adobe Target] MCP伺服器連線至您的AI小幫手，包括先決條件、使用者端設定和疑難排解。 |
+|  | [[!DNL Adobe Target] MCP伺服器 — 使用案例和逐步說明](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | 新文章。 探索[!DNL Adobe Target] MCP伺服器的常見使用案例和逐步提示逐步說明。 |
+|  | [[!DNL Adobe Target] MCP伺服器工具參考](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | 新文章。 [!DNL Adobe Target] MCP伺服器公開的所有唯讀工具的完整引數參考。 |
+|  | [自行託管 [!DNL Adobe Target] MCP伺服器](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | 新文章。 瞭解如何使用Python、Docker或本機開發環境執行您自己的[!DNL Adobe Target] MCP伺服器執行個體。 |
+| 5月7日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增[!DNL Target Standard/Premium] 26.5.1版的版本注意事項。 |
 
 ### [!DNL Target Standard/Premium] 26.1.1 （2026年1月18日）
 
@@ -54,7 +85,7 @@ ht-degree: 37%
 | 9 月 30 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.9.3 版的發行說明。 |
 | 9 月 29 日 | [建立遠端產品建議](/help/main/c-experiences/c-manage-content/about-remote-offers.md) | 已新增詳細介紹哪些活動型別支援遠端選件的資訊。 |
 | 9 月 22 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.9.3 版的發行說明。 |
-| 9 月 19 日 | [目的地指南中的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}Adobe Target連線[!DNL Adobe Experience Platform]。 | 更新下列備註： *跨組織*&#x200B;的資料流唯一性。 |
+| 9 月 19 日 | [!DNL Adobe Experience Platform]目的地指南中的[Adobe Target連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。 | 更新下列備註： *跨組織*&#x200B;的資料流唯一性。 |
 |  | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增資料流/沙箱功能更新的發行說明。 |
 | 9 月 9 日 | [預覽和啟動推薦活動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md#format) | 新增章節：「熱門程度及金鑰式演演算法的CSV下載格式」。 |
 | 9 月 5 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.9.1 版的發行說明。 |
@@ -65,16 +96,16 @@ ht-degree: 37%
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
 | 9 月 1 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.8.4 版的發行說明。 |
-| 8 月 27 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新[!DNL Target] 25.8.4版的搶鮮版發行說明。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。本文章中的資訊會經常更新，尤其是在發行版本之前。 |
+| 8 月 27 日 | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新[!DNL Target] 25.8.4版的搶鮮版發行說明。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。 本文章中的資訊會經常更新，尤其是在發行版本之前。 |
 |  | [在可視化體驗撰寫器中使用的元素選取器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | 已新增&quot;[!UICONTROL Use preferred selectors]&quot;選項。 |
-| 8 月 22 日 | [開發人員指南 [!DNL Target]中的](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}CNAME和&#x200B;*[!DNL Target]* | 更新整篇文章以改進工作流程。 |
-|  | 在[開發人員指南](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank}中&#x200B;*[!DNL Target]計畫和實作Recommendations* | 新增透過[!DNL Recommendations]更新[!UICONTROL Catalogs] [!DNL Target Delivery API]時請務必謹慎的備註。 |
+| 8 月 22 日 | *[!DNL Target]開發人員指南*&#x200B;中的[CNAME和 [!DNL Target]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} | 更新整篇文章以改進工作流程。 |
+|  | 在&#x200B;*[!DNL Target]開發人員指南*&#x200B;中[計畫和實作Recommendations](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} | 新增透過[!DNL Target Delivery API]更新[!DNL Recommendations] [!UICONTROL Catalogs]時請務必謹慎的備註。 |
 | 8 月 21 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.8.3 版的發行說明。 |
-| 8 月 18 日 | [開發人員指南](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank}中的&#x200B;*[!DNL Target]Analytics for Target (A4T)報告* | 已更新下列章節：<ul><li>更新GET要求程式碼片段。</li><li>更新「查詢字串」引數和變數表格。</li><li>更新&#x200B;*範例A4T資料插入HTTP取得呼叫*&#x200B;區段。</li></ul> |
-|  | [開發人員指南中的](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank}Adobe Target大量設定檔更新API *[!DNL Target]* | 更新要使用哪個API版本的附註。 |
-|  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新[!DNL Target] 25.8.3版（2025年8月21日）的發行前說明。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。本文章中的資訊會經常更新，尤其是在發行版本之前。 |
+| 8 月 18 日 | *[!DNL Target]開發人員指南*&#x200B;中的[Analytics for Target (A4T)報告](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} | 已更新下列章節：<ul><li>更新GET要求程式碼片段。</li><li>更新「查詢字串」引數和變數表格。</li><li>更新&#x200B;*範例A4T資料插入HTTP取得呼叫*&#x200B;區段。</li></ul> |
+|  | *[!DNL Target]開發人員指南中的[Adobe Target大量設定檔更新API](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank}* | 更新要使用哪個API版本的附註。 |
+|  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新[!DNL Target] 25.8.3版（2025年8月21日）的發行前說明。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。 本文章中的資訊會經常更新，尤其是在發行版本之前。 |
 | 8 月 14 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.8.2 版的發行說明。 |
-| 8 月 11 日 | 在Experience Platform Web SDK[中登入](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/a4t/overview-a4t){target=_blank}Adobe Analytics for Target (A4T) | 為了改善內容組織和協助工具，我們已使用[!UICONTROL Analytics for Target]將[!DNL Adobe Experience Platform Web SDK] (A4T)的整個實作指引從&#x200B;*資料彙集*&#x200B;指南移至[!DNL Target]開發人員指南。 此合併可確保所有[!DNL Target]相關資訊現在都存放於單一、簡化的位置，讓開發人員更容易找到並參考相關內容。 |
+| 8 月 11 日 | 在Experience Platform Web SDK[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/a4t/overview-a4t){target=_blank}中登入Adobe Analytics for Target (A4T) | 為了改善內容組織和協助工具，我們已使用[!DNL Adobe Experience Platform Web SDK]將[!UICONTROL Analytics for Target] (A4T)的整個實作指引從&#x200B;*資料彙集*&#x200B;指南移至[!DNL Target]開發人員指南。 此合併可確保所有[!DNL Target]相關資訊現在都存放於單一、簡化的位置，讓開發人員更容易找到並參考相關內容。 |
 |  | [編輯活動](/help/main/c-activities/edit-activity.md) | 進行下列編輯：<UL><li>已編輯「*對象和選件*」區段，以表示針對臨時選件，正確的格式為`<Entity Name>`。</li><li>編輯&#x200B;*對象與選件*&#x200B;區段以移除合併對象的相關資訊。</li></ul> |
 | 8 月 7 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.8.1 版的發行說明。 |
 
@@ -91,7 +122,7 @@ ht-degree: 37%
 |  | [[!UICONTROL Visual Experience Composer]個變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | 新增如何摺疊[!UICONTROL Components]和[!UICONTROL Modifications]導軌以放大[!UICONTROL Design]面板的資訊，讓編輯更容易。 |
 |  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.7.3 版的搶鮮版注意事項。 |
 | 7 月 18 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.7.2 版的發行說明。 |
-| 7 月 17 日 | [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md) | 進行下列變更:<ul><li>已更新[!UICONTROL Revenue]下的[!UICONTROL Overview]列。</li><li>新增章節：與[!UICONTROL Revenue]個成功量度相關的UI變更。</li></ul> |
+| 7 月 17 日 | [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md) | 進行下列變更:<ul><li>已更新[!UICONTROL Overview]下的[!UICONTROL Revenue]列。</li><li>新增章節：與[!UICONTROL Revenue]個成功量度相關的UI變更。</li></ul> |
 | 7 月 15 日 | [編輯活動](/help/main/c-activities/edit-activity.md#ection_45A92E1DD3934523B07E71EF90C4F8B6) | 更新整個區段： *使用工作區時複製/編輯活動*。 |
 | 7 月 14 日 | [活動概觀](/help/main/c-activities/activities.md#filters) | 已新增有關在更新的UI中棄用[!UICONTROL Save as Draft]和[!UICONTROL Syncing]狀態的資訊。 |
 |  | [[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md) | 已新增有關在更新的UI中棄用[!UICONTROL Save as Draft]和[!UICONTROL Syncing]狀態的資訊。 |
@@ -150,12 +181,12 @@ ht-degree: 37%
 
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
-| 3 月 31 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增關於 at.js 2.11.8 版的資訊。 |
+| 3 月 31 日 | [at.js 版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增關於 at.js 2.11.8 版的資訊。 |
 | 3 月 26 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.7 版的發行說明。 |
 |  | [推薦常見問答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新常見問題集以表示透過API建立的[!DNL Recommendations]物件可在[!DNL Target] UI中使用。 |
 |  | [集合](/help/main/c-recommendations/c-products/collections.md) | 新增下列備註：收集規則套用至執行條件後產生的建議專案。 它們只會影響輸出中的實體建議(ER)，而不會影響索引鍵。 |
 | 3 月 19 日 | [疑難排解[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)的相關問題 | 已更新允許清單的IP位址。 |
-| 3 月 18 日 | [和[!UICONTROL Auto-Allocate]活動的[!UICONTROL Auto-Target]A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已在&#x200B;*支援的目標量度*&#x200B;區段中新增備註。 |
+| 3 月 18 日 | [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 已在&#x200B;*支援的目標量度*&#x200B;區段中新增備註。 |
 | 3 月 14 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.6 版的發行說明。 |
 | 3 月 13 日 | [受支援的瀏覽器](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 更新支援的瀏覽器，並新增「視覺化編輯需求」區段。 |
 | 3 月 11 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.3.5 版的發行說明。 |
@@ -169,7 +200,7 @@ ht-degree: 37%
 | 日期 | 主題 | 變更 |
 |--- |--- |--- |
 | 2 月 26 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增下列版本的資訊：<ul><li>[!DNL Target Standard/Premium] 25.2.3 （2025年2月26日）</li><li>at.js 2.11.7版（2025年2月26日）</li></ul> |
-|  | [at.js 版本詳細資料](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增at.js版本2.11.7 （2025年2月26日）發行的資訊。 |
+|  | [at.js 版本詳細資料](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 已新增at.js版本2.11.7 （2025年2月26日）發行的資訊。 |
 |  | [活動 QA 書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新at.js 2.x的活動QA書籤小程式。 |
 | 2 月 13 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 將[!DNL Target Standard/Premium] 25.2.1使用者介面更新版本變更為2025年2月17日。 |
 | 2 月 12 日 | [可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 更新整個主題，以說明[!DNL Target Standard/Premium] 25.2.1版本（2025年2月12日）中推出的更新VEC。 |
