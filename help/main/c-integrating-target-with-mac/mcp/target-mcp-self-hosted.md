@@ -8,31 +8,27 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: Developer
 level: Experienced
-hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
 
 # 自行託管[!DNL Adobe Target] MCP伺服器 {#target-mcp-self-hosted}
 
->[!BEGINSHADEBOX]
 
-目錄：
+>[!AVAILABILITY]
+>
+>[!DNL Adobe Target] MCP伺服器可供&#x200B;**公用Beta**&#x200B;中的所有客戶使用。 目前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支援。
 
-* [使用MCP使用者端](target-mcp.md)
-* [MCP伺服器工具參考](target-mcp-tools-reference.md)
-* **[自行裝載MCP伺服器](target-mcp-self-hosted.md)**
-
->[!ENDSHADEBOX]
+此頁面說明如何複製、設定及執行您自己的[!DNL Adobe Target] MCP伺服器執行個體。 當您需要本機開發環境、自訂網路設定，或想要貢獻伺服器程式碼基底時，自行託管會很有用。
 
 >[!AVAILABILITY]
 >
 >自行裝載部署適用於需要完整控制[!DNL Adobe Target] MCP伺服器執行階段的開發人員和進階使用者。 對於大多數使用者，建議使用裝載端點(`https://targetmcp.adobe.io/mcp`)。 請參閱[使用MCP使用者端](target-mcp.md)。
 
-此頁面說明如何複製、設定及執行您自己的[!DNL Adobe Target] MCP伺服器執行個體。 當您需要本機開發環境、自訂網路設定，或想要貢獻伺服器程式碼基底時，自行託管會很有用。
+
 
 ## 先決條件 {#self-hosted-prereqs}
 
@@ -57,14 +53,14 @@ git clone https://github.com/Adobe-TnT/target-mcp.git
 cd target-mcp
 ```
 
-**2.建立及啟用虛擬環境：**
+**2. 建立及啟用虛擬環境：**
 
 ```bash
 uv venv --python 3.13
 source .venv/bin/activate
 ```
 
-**3.設定環境變數：**
+**3. 設定環境變數：**
 
 ```bash
 cp env.example .env
@@ -72,13 +68,13 @@ cp env.example .env
 
 開啟`.env`並以您的認證和組織設定取代預留位置值。
 
-**4.安裝相依性：**
+**4. 安裝相依性：**
 
 ```bash
 make uv-install
 ```
 
-**5.啟動伺服器：**
+**5. 啟動伺服器：**
 
 選擇符合您使用案例的模式：
 
@@ -193,4 +189,4 @@ curl http://localhost:8080/health
 
 * [使用MCP使用者端](target-mcp.md) — 裝載端點設定和工具參考
 * [模型內容通訊協定檔案](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] 管理員API參考](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [[!DNL Adobe Target]管理員API參考](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
