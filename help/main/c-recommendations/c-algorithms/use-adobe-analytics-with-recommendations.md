@@ -2,7 +2,7 @@
 keywords: 行為資料來源；analytics；建議；條件；產品變數
 description: 瞭解如何在 [!DNL Target Recommendations]中使用 [!DNL Adobe Analytics] 作為行為資料來源。
 title: 如何搭配 [!DNL Target Recommendations]使用 [!DNL Adobe Analytics] ？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs

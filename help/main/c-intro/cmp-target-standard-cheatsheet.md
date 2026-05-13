@@ -69,7 +69,7 @@ ht-degree: 51%
 **是否有[!DNL Adobe]社群/論壇，我可以在這裡找到關於[!DNL Target]的答案和詳細資訊？**
 
 +++檢視詳細資料
-在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
+在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
 
 +++
 
@@ -254,7 +254,7 @@ ht-degree: 51%
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -401,7 +401,7 @@ ht-degree: 51%
 查看產品的下列方面:
 
 * [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

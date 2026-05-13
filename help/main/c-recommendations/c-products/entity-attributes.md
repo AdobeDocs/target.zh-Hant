@@ -42,7 +42,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->如果您使用的是at.js 2.*x*，則不再支援`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.*x*&#x200B;將產品或內容資訊傳遞至[!DNL Recommendations]，請使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 如需範例，請參閱[計畫和實作建議](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+>如果您使用的是at.js 2.*x*，則不再支援`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.*x*&#x200B;將產品或內容資訊傳遞至[!DNL Recommendations]，請使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 如需範例，請參閱[計畫和實作建議](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

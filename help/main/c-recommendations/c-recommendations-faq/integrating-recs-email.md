@@ -85,7 +85,7 @@ curl -X POST \
 >
 >各電子郵件收件者 (例如，針對每個 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供唯一值。 如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一輪廓中產生的許多事件而變得緩慢或失敗。
 
-如需詳細資訊，請參閱[傳送 API 文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}。
+如需詳細資訊，請參閱[傳送 API 文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=zh-Hant){target=_blank}。
 
 ## 方法 2：使用 rawbox 電子郵件範本 {#rawbox}
 

@@ -85,7 +85,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**)而定，可能不會顯示[!UICONTROL Compatible]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**)而定，可能不會顯示[!UICONTROL Compatible]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

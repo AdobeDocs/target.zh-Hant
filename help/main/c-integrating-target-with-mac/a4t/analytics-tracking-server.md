@@ -40,7 +40,7 @@ ht-degree: 15%
 
 1. 從您正在建立活動的頁面，開啟[!DNL Adobe Experience Platform Debugger]。
 
-   如果您尚未安裝除錯程式，請參閱[Adobe Experience Platform Debugger概觀](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)。
+   如果您尚未安裝除錯程式，請參閱[Adobe Experience Platform Debugger概觀](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=zh-Hant)。
 
 1. 按一下左側導覽功能表中的&#x200B;**[!UICONTROL Analytics]**。
 

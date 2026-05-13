@@ -2,7 +2,7 @@
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;faq;常見問題集; 重要屬性
 description: 瞭解如何使用[!UICONTROL Important Attributes]報表，該報表顯示影響個人化模型及其相對重要性的排名最前的屬性。
 title: 什麼是「重要屬性」報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
@@ -113,7 +113,7 @@ ht-degree: 56%
 
 [!UICONTROL Models API] （也稱為Blocklist API）可讓使用者檢視和管理機器學習模型中用於[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活動的屬性清單（也稱為功能）。 如果您想要排除一個或多個屬性，以免模型用於AP或AT活動，您可以使用模型API將這些屬性新增到「封鎖清單」。
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。 若要使用API來封鎖屬性，請參閱[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hant){target=_blank}。 若要使用API來封鎖屬性，請參閱[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hant){target=_blank}。
 
 ### [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]報表中的資訊是否與CSV下載中的資訊相同？
 

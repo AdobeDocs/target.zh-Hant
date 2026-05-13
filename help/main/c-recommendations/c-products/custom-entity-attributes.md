@@ -132,7 +132,7 @@ function targetPageParams() {
   }
 ```
 
-如需使用傳送和儲存實體API的相關資訊，請參閱[Adobe Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+如需使用傳送和儲存實體API的相關資訊，請參閱[Adobe Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
 
 ## 使用運運算元處理多值屬性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
