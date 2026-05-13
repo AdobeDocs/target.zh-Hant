@@ -4,9 +4,12 @@ description: 瞭解如何從Adobe Experience Cloud存取 [!DNL Target] 、設定
 title: 如何從 Adobe Experience Cloud 存取 [!DNL Target] ？
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 355
 ht-degree: 50%
 
 ---
@@ -37,7 +40,7 @@ ht-degree: 50%
 
    ![Adobe 帳戶](/help/main/c-intro/assets/adobe-account.png)
 
-1. 在&#x200B;**[!UICONTROL Preferred languages]**&#x200B;頁上的[!UICONTROL Account]區段中，**[!UICONTROL Add]**。
+1. 在[!UICONTROL Account]頁上的&#x200B;**[!UICONTROL Preferred languages]**&#x200B;區段中，**[!UICONTROL Add]**。
 
    此文字表示這是您希望[!DNL Adobe]在Adobe與您聯絡時使用的語言。 這也是[!DNL Target]和其他[!DNL Adobe Experience Cloud]解決方案在UI中使用的語言。 您可以選擇多個語言。
 

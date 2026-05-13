@@ -4,9 +4,14 @@ description: 有關更新 [!DNL Target]t使用者介面的問答。
 title: 我可以在哪裡找到有關已更新 [!DNL Target] UI的常見問題集？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
+TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: 1904
 ht-degree: 1%
 
 ---
@@ -127,7 +132,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 在更新的VEC中，此功能會透過向前移動和向後移動動作而簡化。 這些控制項會以棧疊順序向前或向後移動元素，來調整元素在版面中的位置（水平與垂直）。
 
-**調整大小**： [!UICONTROL Resize]功能位於[!UICONTROL Properties]區段下的[!UICONTROL Size]面板。 使用者可以直接調整元素的寬度和高度。 進階設定包括：
+**調整大小**： [!UICONTROL Resize]功能位於[!UICONTROL Size]區段下的[!UICONTROL Properties]面板。 使用者可以直接調整元素的寬度和高度。 進階設定包括：
 
 * 最小/最大寬度和高度控制項
 * 溢位行為設定。
@@ -135,7 +140,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 
 這些工具可精確控制元素維度和版面配置行為。
 
-**移動**： [!UICONTROL Move]選項位於[!UICONTROL Properties]區段下的[!UICONTROL Position]面板。 此選項可讓使用者：
+**移動**： [!UICONTROL Move]選項位於[!UICONTROL Position]區段下的[!UICONTROL Properties]面板。 此選項可讓使用者：
 
 * 設定元素的位置（例如，絕對、相對、固定）
 * 定義分層的z索引
@@ -176,7 +181,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 ## [!UICONTROL Save as Draft]和[!UICONTROL Syncing]狀態是否仍然可用？
 
 +++詳細資料
-隨著使用者介面的最新更新，[!UICONTROL Save as Draft]和[!UICONTROL Syncing]狀態將不再可用。 如需詳細資訊，請參閱[中](/help/main/c-activities/activities.md#filters)將篩選器套用至活動清單&#x200B;*[!UICONTROL Activities overview]*&#x200B;下的狀態。
+隨著使用者介面的最新更新，[!UICONTROL Save as Draft]和[!UICONTROL Syncing]狀態將不再可用。 如需詳細資訊，請參閱&#x200B;*[!UICONTROL Activities overview]*&#x200B;中[將篩選器套用至活動清單](/help/main/c-activities/activities.md#filters)下的狀態。
 
 +++
 
@@ -204,7 +209,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 ## 使用更新的UI編輯現有活動時，必須停用[!UICONTROL Enhanced Experience Composer]。 [!DNL Adobe]是否觀察到與其他客戶類似的行為？
 
 +++詳細資料
-是.使用[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]時，您可能需要停用[!UICONTROL Enhanced Experience Composer] (EEC) 。
+是. 使用[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]時，您可能需要停用[!UICONTROL Enhanced Experience Composer] (EEC) 。
 
 如需詳細資訊，請參閱「[Visual Editing Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)」。
 
@@ -215,7 +220,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 +++詳細資料
 如需可加入允許清單之IP位址的詳細資訊，請參閱下列文章：
 
-* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)疑難排解增強體驗撰寫器的相關問題&#x200B;*中，載入無法於公用IP上存取的內部QA URL*
+* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法於公用IP上存取的內部QA URL ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
 * **[!UICONTROL Recommendations]**：檢視Recommendations摘要處理伺服器使用的[個IP位址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
 
 +++
@@ -223,7 +228,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 ## 環境是否會依預設在新的Recommendations UI上重設為測試？
 
 +++詳細資料
-環境現在預設為客戶使用的最後一個環境。 若要切換環境，請使用[!UICONTROL Environment] UI右上角的[!UICONTROL Catalog Search]選取器。
+環境現在預設為客戶使用的最後一個環境。 若要切換環境，請使用[!UICONTROL Catalog Search] UI右上角的[!UICONTROL Environment]選取器。
 
 ![環境引數](/help/main/c-intro/assets/environmnent.png)
 

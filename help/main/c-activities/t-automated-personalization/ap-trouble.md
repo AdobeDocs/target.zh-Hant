@@ -2,19 +2,22 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: 探索您在Adobe Target中使用[!UICONTROL Automated Personalization] (AP)活動時可能遇到的挑戰，以及建議的解決方案。
 title: 如何疑難排解[!UICONTROL Automated Personalization]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
-source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9
+TQID: https://experienceleague.adobe.com/1Qevyq-TiutN1dEZnfC1DDmUgXoHIxtBl-3RMPq-m-0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 31%
+source-wordcount: 742
+ht-degree: 30%
 
 ---
 
 # 疑難排解[!UICONTROL Automated Personalization]
 
-有時活動不會如預期般進行。以下是使用[!UICONTROL Automated Personalization] (AP)時可能會遇到的一些潛在挑戰，以及一些建議的解決方案。
+有時活動不會如預期般進行。 以下是使用[!UICONTROL Automated Personalization] (AP)時可能會遇到的一些潛在挑戰，以及一些建議的解決方案。
 
 ## 我的[!UICONTROL Automated Personalization]活動花費太多時間來建置模型。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
@@ -24,9 +27,9 @@ ht-degree: 31%
 
 **解決方案：**&#x200B;檢閱您的活動設定，看看是否有任何您願意進行的變更，以提高建立模型的速度。
 
-* 如果您的成功量度是設為 RPV，您可以變更為轉換嗎？ 轉換活動傾向需要較少流量來建置模型。如果將成功量度從RPV變更為轉換，則不會遺失活動資料。
+* 如果您的成功量度是設為 RPV，您可以變更為轉換嗎？ 轉換活動傾向需要較少流量來建置模型。 如果將成功量度從RPV變更為轉換，則不會遺失活動資料。
 * 您的成功量度是否遠低於您的活動體驗的銷售漏斗？ 較低的活動轉換率將增加建置模型所需的流量，因為需要最低的轉換數量。
-* 是否有您可以從活動中排除的一些產品建議或體驗?減少活動中的體驗數量會加快建立模型的時間。
+* 是否有您可以從活動中排除的一些產品建議或體驗? 減少活動中的體驗數量會加快建立模型的時間。
 * 是否有更高流量的頁面可讓此活動更成功？ 活動位置的流量和轉換次數越多，建立的模型就越快。
 
 +++
@@ -42,7 +45,7 @@ ht-degree: 31%
 * 測試中必須有足夠的流量和統計「能力」，才能偵測提升度。
 * 個人化演算法必須正常運作。
 
-**解決方案:** 動作的最佳措施是先使用簡易、非個人化的 A/B 測試確定組成活動體驗的內容和位置對整體回應率真的有產生影響。請務必提前計算樣本大小。 提前計算樣本大小有助於確保有足夠的力量來看到合理的提升度。 接著，您可以持續固定時間執行A/B測試，而不需停止或進行任何變更。 如果A/B測試結果顯示一或多個體驗在統計上顯著提升，則個人化活動可能會成功。 即使體驗的整體回應率沒有差異，Personalization仍可運作。 通常，問題源自選件或位置對最佳化目標的影響不足以偵測到具有統計顯著性的情況。
+**解決方案:** 動作的最佳措施是先使用簡易、非個人化的 A/B 測試確定組成活動體驗的內容和位置對整體回應率真的有產生影響。 請務必提前計算樣本大小。 提前計算樣本大小有助於確保有足夠的力量來看到合理的提升度。 接著，您可以持續固定時間執行A/B測試，而不需停止或進行任何變更。 如果A/B測試結果顯示一或多個體驗在統計上顯著提升，則個人化活動可能會成功。 即使體驗的整體回應率沒有差異，Personalization仍可運作。 通常，問題源自選件或位置對最佳化目標的影響不足以偵測到具有統計顯著性的情況。
 
 +++
 
@@ -64,7 +67,7 @@ ht-degree: 31%
 
 在[!UICONTROL Automated Personalization]活動中，轉換量度（無論是最佳化目標或事後目標）一旦轉換，訪客就會從體驗中釋放，活動就會重新啟動。
 
-例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。A1相依於C1。 當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。如果訪客轉換C1然後轉換A1，A1仍不會轉換，因為轉換C1時，訪客會釋放。
+例如，有一個活動具有轉換量度 (C1) 和另一個量度 (A1)。 A1相依於C1。 當訪客第一次進入活動，而轉換 A1 和 C1 的條件未轉換，由於成功量度相依性，此時不會轉換量度 A1。 如果訪客轉換C1然後轉換A1，A1仍不會轉換，因為轉換C1時，訪客會釋放。
 
 +++
 

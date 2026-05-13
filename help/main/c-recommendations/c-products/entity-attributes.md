@@ -1,14 +1,19 @@
 ---
-keywords: 實體;實體屬性;傳遞資訊至推薦;行為資料;資料計數器;定義相對 URL;顯示詳細目錄層級;定義價格;定義利潤;自訂屬性
+keywords: 實體;實體屬性;傳遞資訊至推薦;行為資料;資料計數器;定義相對 URL;顯示庫存量;定義價格;定義利潤;自訂屬性
 description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至 [!DNL Target] Recommendations。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 title: 如何使用實體屬性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
+TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 48%
+source-wordcount: 1122
+ht-degree: 45%
 
 ---
 
@@ -16,22 +21,22 @@ ht-degree: 48%
 
 使用實體屬性將產品或內容資訊傳遞至[!DNL Adobe Target Recommendations]。
 
-實體會參考您要建議的項目。實體可包括產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。
+實體會參考您要建議的項目。 實體可包括產品、內容（文章、幻燈片、影像、電影和電視節目）、工作清單、餐廳等。
 
 [!DNL Recommendations]會傳送演演算法中所使用的`productId`或`productPurchasedId` （在程式碼中稱為`entity.id`）。
 
 考慮以下事項：
 
-* `entity.id`必須符合傳送至訂購確認頁面的`productPurchasedId`以及在`productId`產品報告中使用的[!DNL Adobe Analytics]。
+* `entity.id`必須符合傳送至訂購確認頁面的`productPurchasedId`以及在[!DNL Adobe Analytics]產品報告中使用的`productId`。
 * 您傳遞至[!DNL Recommendations]的實體屬性值會在61天後過期。 Adobe建議您針對目錄中的每個專案，每個月至少傳送一次每個實體屬性的最新值至[!DNL Recommendations]。
 
-大部分預先定義的引數僅接受單一值，且新值會覆寫舊值。 對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
+大部分預先定義的引數僅接受單一值，且新值會覆寫舊值。 對於包含該產品的每個類別，`categoryId` 參數都能接受值的逗號分隔清單。 新的 `categoryId` 值不會覆寫現有值，而是在實體更新期間附加 (250 個字元限制)。
 
-一般而言，如果您使用at.js 1，顯示資訊mbox看起來會像下面的範例。*x*&#x200B;與`mboxCreate`。 所有實體引數屬性都區分大小寫。
+一般而言，如果您使用at.js 1.*x*&#x200B;搭配`mboxCreate`，顯示資訊mbox看起來會像下面的範例。 所有實體引數屬性都區分大小寫。
 
 >[!NOTE]
 >
->如果您使用at.js 2.不再支援&#x200B;*x*、`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.[!DNL Recommendations]*x*，使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=zh-Hant){target=_blank}。 如需範例，請參閱[計畫和實作建議](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+>如果您使用的是at.js 2.*x*，則不再支援`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.*x*&#x200B;將產品或內容資訊傳遞至[!DNL Recommendations]，請使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 如需範例，請參閱[計畫和實作建議](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -65,9 +70,9 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->`pageUrl` 和 `thumbnailUrl` 最好使用相對 URL 而非絕對 URL，因為建議會接收從您網站上所有環境傳出的資料。使用相對 URL 會避免硬式編碼連結至開發用伺服器或程式開發伺服器。
+>`pageUrl` 和 `thumbnailUrl` 最好使用相對 URL 而非絕對 URL，因為建議會接收從您網站上所有環境傳出的資料。 使用相對 URL 會避免硬式編碼連結至開發用伺服器或程式開發伺服器。
 
-如果 mbox 位於產品頁面，那麼，您可同時包括產品 ID 和類別 ID。所選的演算法決定了顯示方式。產品 ID 用於相關性演算法，類別 ID 用於類別演算法。
+如果mbox位於產品頁面上，您可以同時包含產品ID和類別ID。 所選的演演算法會決定要顯示的專案。 產品 ID 用於相關性演算法，類別 ID 用於類別演算法。
 
 ## 可用變數
 
@@ -77,7 +82,7 @@ mboxCreate('productPage',
 
 僅限單一值。
 
-該必需的參數用於識別產品。該英數字元 ID 必須在所有使用的 [!DNL Adobe Experience Cloud] 產品中保持一致 (包括 [!DNL Analytics])，以便各種產品識別項目並共用相關資料。
+該必需的參數用於識別產品。 該英數字元 ID 必須在所有使用的 [!DNL Adobe Experience Cloud] 產品中保持一致 (包括 [!DNL Analytics])，以便各種產品識別項目並共用相關資料。
 
 `entity.id`值必須&#x200B;*不*&#x200B;包含空格、斜線、&amp;符號、問號、百分比符號、逗號，或其他在REST API呼叫中傳送時需要URL編碼的標點符號字元。 允許連字型大小和底線。 `entity.id`[!DNL Recommendations] 值包含無效標點符號，會造成部分 功能無法使用。
 
@@ -95,13 +100,13 @@ mboxCreate('productPage',
 
 支援多個值 (以逗號分隔值的清單)。
 
-目前頁面的類別。entity.categoryID可包含多個類別，例如羊毛衫子區段（例如，`womens`、`womens:sweaters`、`womens:sweaters:cardigans`）。 多個類別必須以逗號分隔。
+目前頁面的類別。 entity.categoryID可包含多個類別，例如羊毛衫子區段（例如，`womens`、`womens:sweaters`、`womens:sweaters:cardigans`）。 多個類別必須以逗號分隔。
 
 `categoryId`值限製為250個字元。
 
 >[!NOTE]
 >
->若要根據[!UICONTROL Category]頁面中的類別顯示建議，只能將一個`categoryId`傳遞至用於顯示該特定建議的mbox。 `categoryId`的值必須與`entity.categoryId`頁面上傳遞之[!UICONTROL Product Detail]的值完全相符。
+>若要根據[!UICONTROL Category]頁面中的類別顯示建議，只能將一個`categoryId`傳遞至用於顯示該特定建議的mbox。 `categoryId`的值必須與[!UICONTROL Product Detail]頁面上傳遞之`entity.categoryId`的值完全相符。
 
 範例:
 
@@ -109,7 +114,7 @@ mboxCreate('productPage',
 * 類別頁面毛衣範例： `womens:sweaters`
 * 類別頁面Cardigans範例： `womens:sweaters:cardigans`
 
-若使用類別型建議，請使用逗號分隔類別值。 以逗號區隔的值都會成為類別。您也可以使用不同的分隔符號來定義子類別，例如冒號 (:)，用以區隔類別值中的子類別。
+若使用類別型建議，請使用逗號分隔類別值。 以逗號區隔的值都會成為類別。 您也可以使用不同的分隔符號來定義子類別，例如冒號 (:)，用以區隔類別值中的子類別。
 
 例如，在以下程式碼中，女性類別分為幾個子類別：
 
@@ -117,7 +122,7 @@ mboxCreate('productPage',
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-針對 mbox 傳送，將使用最長的屬性名稱做為索引鍵。如果出現平手狀況，將使用最後一個屬性。在上述範例中，類別索引鍵是`Womens:Outerwear:Jackets:Caban`。
+針對 mbox 傳送，將使用最長的屬性名稱做為索引鍵。 如果出現平手狀況，將使用最後一個屬性。 在上述範例中，類別索引鍵是`Womens:Outerwear:Jackets:Caban`。
 
 ### entity.brand
 
@@ -147,13 +152,13 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 僅限單一值。
 
-關於建議中所顯示產品的訊息，例如「特價」或「出清」。訊息通常較產品名稱更詳細。使用entity.message定義要在範本中與產品一起顯示的其他資訊。
+關於建議中所顯示產品的訊息，例如「特價」或「出清」。 訊息通常較產品名稱更詳細。 使用entity.message定義要在範本中與產品一起顯示的其他資訊。
 
 範例: `'entity.message=Family&nbsp;special'`
 
 ### entity.inventory
 
-僅限單一值。需要整數或 Long 值。
+僅限單一值。 需要整數或 Long 值。
 
 顯示項目的庫存水平。
 
@@ -183,16 +188,16 @@ entity.value僅支援十進位格式（例如15.99）。 不支援逗號格式(1
 
 範例: `'entity.margin=1.00'`
 
-### 實體。*custom*
+### 實體。*自訂*
 
 支援多個值 (JSON 陣列)。
 
-定義最多 100 個自訂變數，用以提供項目的額外資訊。您可為各個自訂屬性指定任何未使用的屬性名稱。例如，您可以建立名為`entity.genre`的自訂屬性，以定義書籍或電影。 票務廠商可為次要參與者的活動場地建立屬性，例如體育活動中的客隊或音樂會中的開場表演。
+定義最多 100 個自訂變數，用以提供項目的額外資訊。 您可為各個自訂屬性指定任何未使用的屬性名稱。 例如，您可以建立名為`entity.genre`的自訂屬性，以定義書籍或電影。 票務廠商可為次要參與者的活動場地建立屬性，例如體育活動中的客隊或音樂會中的開場表演。
 
 限制:
 
 * 您無法對自訂實體屬性使用預先定義的實體屬性名稱。
-* 屬性 entity.environment 由系統保留，並且無法用於自訂實體屬性。嘗試使用targetPageParams、摘要或API來傳遞entity.environment會被忽略。
+* 屬性 entity.environment 由系統保留，並且無法用於自訂實體屬性。 嘗試使用targetPageParams、摘要或API來傳遞entity.environment會被忽略。
 
 範例:
 
@@ -200,11 +205,11 @@ entity.value僅支援十進位格式（例如15.99）。 不支援逗號格式(1
 
 `'entity.secondary=Rockies'`
 
-自訂實體屬性支援多個值。若要瞭解字元和值限制，請參閱[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#limits)。
+自訂實體屬性支援多個值。 若要瞭解字元和值限制，請參閱[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#limits)。
 
 範例: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
-多值自訂實體屬性需要有效的 JSON 陣列。如需正確語法資訊，請參閱[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md)。
+多值自訂實體屬性需要有效的 JSON 陣列。 如需正確語法資訊，請參閱[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md)。
 
 ### entity.event.detailsOnly
 

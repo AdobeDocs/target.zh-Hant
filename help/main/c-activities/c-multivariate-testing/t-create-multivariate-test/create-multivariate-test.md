@@ -1,19 +1,23 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)來建立[!UICONTROL Multivariate Test] (MVT)。
+description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)來建立[!UICONTROL Multivariate Test] (MVT)。
 title: 如何建立[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 737
 ht-degree: 26%
 
 ---
 
 # 建立多變數測試
 
-[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)可讓您輕鬆建立[!UICONTROL Multivariate Test]，以及在[!DNL Target]內修改頁面的部分。
+[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)可讓您輕鬆建立[!UICONTROL Multivariate Test]，以及在[!DNL Target]內修改頁面的部分。
 
 [!DNL Target]點選編輯器可讓您挑選任何位置並新增多個選件。
 
@@ -23,7 +27,7 @@ ht-degree: 26%
 
    >[!NOTE]
    >
-   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
+   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
 
 1. （視條件而定）選擇傳遞型別： [!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]或[!UICONTROL Other/API]。
 
@@ -35,11 +39,11 @@ ht-degree: 26%
    >
    >請使用完整的URL，開頭要包括HTTP或HTTPS。
 
-   如果出現訊息，要求您啟用您的瀏覽器使用混合的內容，請遵循訊息中的說明。為您的瀏覽器啟用混合的內容之後，請從步驟 1 重新開始。
+   如果出現訊息，要求您啟用您的瀏覽器使用混合的內容，請遵循訊息中的說明。 為您的瀏覽器啟用混合的內容之後，請從步驟 1 重新開始。
 
    [!UICONTROL Visual Experience Composer]隨即開啟。
 
-1. 若要命名活動，請按一下「**[!UICONTROL Edit]**」旁的![圖示（](/help/main/assets/icons/Edit.svg)編輯圖示[!UICONTROL Untitled Activity] ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 若要命名活動，請按一下「[!UICONTROL Untitled Activity]」旁的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg) ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    活動名稱的開頭不能是下列任一字元：
 
@@ -54,14 +58,14 @@ ht-degree: 26%
 
    | 字元順序 | 說明 |
    |--- |--- |
-   | ；= | 分號，等於 |
-   | ；+ | 分號，加號 |
-   | ；- | 分號，減號 |
-   | ；@ | 分號， At sign |
-   | ，= | 逗號，等於 |
-   | ，+ | 逗號，加號 |
-   | ，- | 逗號，減號 |
-   | ，@ | 逗號， At sign |
+   | ;= | 分號，等於 |
+   | ;+ | 分號，加號 |
+   | ;- | 分號，減號 |
+   | ;@ | 分號， At sign |
+   | ,= | 逗號，等於 |
+   | ,+ | 逗號，加號 |
+   | ,- | 逗號，減號 |
+   | ,@ | 逗號， At sign |
    | `[`&quot; | 左方括弧，雙引號 |
    | &quot;`]` | 雙引號，右方括弧 |
 
@@ -91,7 +95,7 @@ ht-degree: 26%
 
 1. 按一下「**[!UICONTROL Next]**」以進入[!UICONTROL Targeting]頁面。
 
-   如果您曾使用其他&#x200B;**活動型別，**&#x200B;鎖定目標[!DNL Target]步驟看起來會很熟悉。 您可以在此選取受眾，並指定看到每個體驗的訪客百分比。
+   如果您曾使用其他[!DNL Target]活動型別，**鎖定目標**&#x200B;步驟看起來會很熟悉。 您可以在此選取受眾，並指定看到每個體驗的訪客百分比。
 
    流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
@@ -109,7 +113,7 @@ ht-degree: 26%
       如果您需要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以從下列選項中選擇：
 
       * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可於其他活動中重複使用的隨選對象。
-      * **[!UICONTROL This activity only]**：建立未儲存至[且只能用於目前活動的](/help/main/c-target/creating-activity-only-audience.md)活動特定對象[!UICONTROL Audience Library]。
+      * **[!UICONTROL This activity only]**：建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
 
    1. 按一下右側框架中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後選擇符合您要讓其進入活動之訪客的百分比。
 

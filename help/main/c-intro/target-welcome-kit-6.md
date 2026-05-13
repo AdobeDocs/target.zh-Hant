@@ -4,20 +4,23 @@ description: 從他人的錯誤中學習，這樣當您在使用 Adobe [!DNL Tar
 title: 使用 [!DNL Target] 的常見錯誤是什麼？要如何避免？
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: 400
 ht-degree: 89%
 
 ---
 
 # 第 6 章：容易避免的陷阱
 
-現在啟動最佳化和個人化計畫的好處是，已經進行了一段時間的人已經發現了許多容易犯的錯誤。只要知道這些陷阱，您就能輕鬆避免或修正它們。
+現在啟動最佳化和個人化計畫的好處是，已經進行了一段時間的人已經發現了許多容易犯的錯誤。 只要知道這些陷阱，您就能輕鬆避免或修正它們。
 
 >[!NOTE]
 >
->如需詳細資訊，請參閱[十個常見的 A/B 測試陷阱和避免方法](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)。除了該文章中介紹的概念外，請隨時保留這份簡短清單，以避免或修正這些常見的測試和個人化缺陷。
+>如需詳細資訊，請參閱[十個常見的 A/B 測試陷阱和避免方法](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)。 除了該文章中介紹的概念外，請隨時保留這份簡短清單，以避免或修正這些常見的測試和個人化缺陷。
 
 | 陷阱 | 解決方案 |
 | --- | --- |
@@ -26,8 +29,8 @@ ht-degree: 89%
 | 未能使活動與業務目標相協調。 | 加強對優先順序方法的關注，並向內部利害關係人通報該方法。 |
 | 測試積壓很少或沒有。 | 與內部利害關係人互動，讓他們提交符合關鍵業務目標的測試。 |
 | 延長活動期限將在交期後啟動。 | 改善活動的文件，並包含測試設定的詳細資訊。 |
-| 選取對決策沒有幫助的活動成功量度資料。 | 記錄所有主要測試量度並包含其他量度，以取得其他深入資訊。 |
-| 在測試期間進行可能影響結果的更改。 | 維護即將推出的促銷活動和網站變更的日曆。清楚傳達 [!DNL Target] 活動啟動以避免衝突。 |
+| 選取對決策沒有幫助的活動成功量度資料。 | 記錄所有主要測試量度並包含其他量度，以取得其他洞察。 |
+| 在測試期間進行可能影響結果的更改。 | 維護即將推出的促銷活動和網站變更的日曆。 清楚傳達 [!DNL Target] 活動啟動以避免衝突。 |
 | 變更活動啟動附近的測試體驗或條件。 | 在測試活動程式早期，要求利害關係人簽署。 |
 | 在結果具有統計意義之總結活動。 | 使用[!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)驗證測試持續時間。 |
 | 接收 [!DNL Target] 活動的負或平結果。 | 確認活動值得測試。 |

@@ -5,9 +5,15 @@ title: 如何設定視覺化體驗撰寫器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129id: c011fe9c-b94b-4a88-93d8-f2acece55112id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 676
 ht-degree: 49%
 
 ---
@@ -34,11 +40,11 @@ ht-degree: 49%
 
 ### 預設 URL
 
-設定[!UICONTROL Visual Experience Composer]使用的預設URL。 這是每當您為每個新增活動設定體驗時會使用的預設頁面 (例如您的首頁)。如果您不設定預設的 URL，則必須在建立活動時，為每個活動輸入 URL。
+設定[!UICONTROL Visual Experience Composer]使用的預設URL。 這是每當您為每個新增活動設定體驗時會使用的預設頁面 (例如您的首頁)。 如果您不設定預設的 URL，則必須在建立活動時，為每個活動輸入 URL。
 
 ### 啟用增強體驗撰寫器 {#eec}
 
-允許在 iframe-busting 網站以及含有混合內容的網站上編輯。部分網站可能與增強型版本不相容。 取消選取此選項以還原至原始[!UICONTROL Visual Experience Composer]。 此選擇不會影響網站上的活動傳送。
+允許在 iframe-busting 網站以及含有混合內容的網站上編輯。 部分網站可能與增強型版本不相容。 取消選取此選項以還原至原始[!UICONTROL Visual Experience Composer]。 此選擇不會影響網站上的活動傳送。
 
 如需詳細資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
@@ -55,7 +61,7 @@ ht-degree: 49%
 
 ### 在活動流程圖中產生體驗快照
 
-啟用體驗快照會在活動工作流程圖表中產生您的體驗的縮圖。停用快照可能對部分使用者造成較快速的效能。
+啟用體驗快照會在活動工作流程圖表中產生您的體驗的縮圖。 停用快照可能對部分使用者造成較快速的效能。
 
 ## 行動檢視區組態
 
@@ -64,7 +70,7 @@ ht-degree: 49%
 >[!UICONTROL Mobile Viewport Configuration]設定是[Target Premium](/help/main/c-intro/intro.md#premium)功能。
 
 
-您可以新增裝置以在預覽體驗時使用。每個裝置有相關聯的對象。
+您可以新增裝置以在預覽體驗時使用。 每個裝置有相關聯的對象。
 
 ![行動檢視區設定區段](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
@@ -78,7 +84,7 @@ ht-degree: 49%
 
 ![CSS選取器區段](/help/main/administrating-target/assets/css-selectors.png)
 
-這些選項可幫助 [!DNL Target] 瞭解您網站的結構，以為內容傳送產生更好的 CSS 選取器。依預設，[!DNL Target] 會根據頁面上的元素 ID 產生選取器。如果您的網站在相同頁面上使用一些 ID 或重複的 ID，那麼，使用類別可能是較好的選項。
+這些選項可幫助 [!DNL Target] 瞭解您網站的結構，以為內容傳送產生更好的 CSS 選取器。 依預設，[!DNL Target] 會根據頁面上的元素 ID 產生選取器。 如果您的網站在相同頁面上使用一些 ID 或重複的 ID，那麼，使用類別可能是較好的選項。
 
 您可以選擇以下的一或兩個選項:
 
@@ -88,11 +94,11 @@ ht-degree: 49%
 
 ### 使用元素類別
 
-依預設，[!DNL Target] 僅使用元素 ID。不過，如果您的頁面設計成使用類別來識別元素（例如使用[!DNL Adobe Experience Manager]建立的頁面），您也應該選取[!UICONTROL Use element classes]。
+依預設，[!DNL Target] 僅使用元素 ID。 不過，如果您的頁面設計成使用類別來識別元素（例如使用[!DNL Adobe Experience Manager]建立的頁面），您也應該選取[!UICONTROL Use element classes]。
 
 >[!NOTE]
 >
->雖然您已完成各個專案來確保準確性，請注意使用類別可能造成錯誤。 如果您不選取這兩個選項中的一個，準確性也會受到影響。準確性的順序為: ID > 類別 > 兩個選項皆不選取。請務必測試您的頁面以確定選取器皆正確。
+>雖然您已完成各個專案來確保準確性，請注意使用類別可能造成錯誤。 如果您不選取這兩個選項中的一個，準確性也會受到影響。 準確性的順序為: ID > 類別 > 兩個選項皆不選取。 請務必測試您的頁面以確定選取器皆正確。
 
 您可以為每個活動覆寫此設定（按一下[!UICONTROL Settings]齒輪圖示，然後選取[!UICONTROL CSS Selectors]）。 如果您有多個設定方式不同的網站，這特別實用。
 

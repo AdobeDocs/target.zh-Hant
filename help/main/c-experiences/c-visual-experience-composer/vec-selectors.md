@@ -4,10 +4,13 @@ description: 元素選取器是可識別一或多個元素的CSS運算式。 瞭
 title: 我可以在視覺化體驗撰寫器(VEC)中使用元素選取器嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 31%
+source-wordcount: 444
+ht-degree: 29%
 
 ---
 
@@ -15,9 +18,9 @@ ht-degree: 31%
 
 元素選取器是可識別一或多個元素的CSS運算式。
 
-您可以在[&#x200B; (MDN)上的](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)選取器&#x200B;*[!DNL Mozilla Developer Network]*&#x200B;檔案中找到有關CSS選取器的基本資訊。
+您可以在&#x200B;*[!DNL Mozilla Developer Network]* (MDN)上的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)檔案中找到有關CSS選取器的基本資訊。
 
-您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。按一下&#x200B;**[!UICONTROL Administration > Visual Experience Composer]**，然後選擇您偏好的CSS選取器。
+您可以在帳戶偏好設定中設定使用元素類別還是元素 ID。 按一下&#x200B;**[!UICONTROL Administration > Visual Experience Composer]**，然後選擇您偏好的CSS選取器。
 
 * **使用元素ID**：如果相同的ID用於多個元素，或元素ID在頁面載入時可能變更，則停用。
 * **使用專案類別**：如果頁面上的專案類別可能變更，則停用。
@@ -25,7 +28,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->元素類別可在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL &#x200B; Multivariate Test]活動中作為選取器使用。
+>元素類別可在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL  Multivariate Test]活動中作為選取器使用。
 
 如需 CSS 選取器及不重複 ID 之使用時機的相關資訊，請參閱[可視化體驗撰寫器最佳作法與限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
@@ -73,7 +76,7 @@ ht-degree: 31%
 
    選取器: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (「>」表示直屬子項。)
 
-   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。因此，`index` 為 0。如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
+   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。 因此，`index` 為 0。 如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
 1. 如果專案不含類別，[!DNL Target]會針對專案使用`tagName`，並往父專案周遊，直到找到`<HTML>`專案或具有ID的專案為止。
 
@@ -98,4 +101,4 @@ ht-degree: 31%
 
 * 只要能夠在 DOM 中唯一地識別元素，您可以使用任何 CSS 選取器。
 * 以上方法是[!DNL Target]使用的方法。 [!DNL Target]並未強制您使用此方法。 只要符合第一項重點，您可以新增任何選取器。
-* 您可以在選取器中使用任何屬性。本檔案僅使用類別名稱作為範例。
+* 您可以在選取器中使用任何屬性。 本檔案僅使用類別名稱作為範例。

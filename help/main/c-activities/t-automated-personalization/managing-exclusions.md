@@ -2,13 +2,16 @@
 keywords: 重複資料刪除；允許重複專案；排除重複選件；自動個人化；不允許重複選件；排除；預設內容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活動中的排除專案。
 title: 如何管理[!UICONTROL Automated Personalization]活動中的排除？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 482d3aa3345eb8e6ad4db4d10f9bcf883d6aba82
+TQID: https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: 492
 ht-degree: 21%
 
 ---
@@ -21,7 +24,7 @@ ht-degree: 21%
 
 在AP活動中的不同位置使用選件資料庫中的選件時，避免這些選件重複。
 
-例如，您可能在有 12 個產品建議的六個位置頁面上有一個活動。相同產品建議有可能放入活動中的一或多個位置。此功能可讓您防止重複選件同時顯示在相同活動內的不同位置。
+例如，您可能在有 12 個產品建議的六個位置頁面上有一個活動。 相同產品建議有可能放入活動中的一或多個位置。 此功能可讓您防止重複選件同時顯示在相同活動內的不同位置。
 
 1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)時，根據您的需求，按一下&#x200B;**[!UICONTROL Configure]**&#x200B;圖示（ ![設定圖示](/help/main/assets/icons/Setting.svg) ） >按一下&#x200B;**[!UICONTROL Allow Duplicate Offers]**&#x200B;以開啟或關閉此功能。
 
@@ -49,7 +52,7 @@ ht-degree: 21%
 
 有時候，您可能不想將預設內容加入您的AP活動。 您可以使用此方法，讓某個位置在活動中只有一個選件（與您的預設內容不同）。
 
-排除預設內容可有效地變更頁面其餘部分的外觀與操作方式，以適合您在 AP 活動中所測試的產品建議。例如，假設您想要符合所測試之產品建議的色板，則可以變更頁面的背景顏色，並排除預設背景顏色。
+排除預設內容可有效地變更頁面其餘部分的外觀與操作方式，以適合您在 AP 活動中所測試的產品建議。 例如，假設您想要符合所測試之產品建議的色板，則可以變更頁面的背景顏色，並排除預設背景顏色。
 
 **若要使用[!UICONTROL Visual Experience Composer] (VEC)排除預設內容：**
 

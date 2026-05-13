@@ -4,10 +4,13 @@ description: 如何在[!UICONTROL Offers]資料庫中建立資料夾？
 title: 瞭解如何在[!UICONTROL Offers]資料庫中建立資料夾以存放程式碼和影像選件以及其他資料夾。
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 6%
+source-wordcount: 262
+ht-degree: 8%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 6%
 
 在[!DNL Adobe Target] [!UICONTROL Offer]資料庫中建立資料夾以保留代碼選件、影像選件。 您也可以建立資料夾以建立子資料夾結構。
 
-為程式碼選件和影像選件建立資料夾的程式略有不同。 以下章節包含更多資訊。
+為程式碼選件和影像選件建立資料夾的程式略有不同。 以下章節包含更多資訊.
 
 ## [!UICONTROL Code Offer]資料夾
 

@@ -2,12 +2,15 @@
 keywords: 流量估算器；automated personalization；ap；估算流量
 description: 使用[!UICONTROL Traffic Estimator]評估您是否有足夠的流量讓[!UICONTROL Automated Personalization]活動能夠成功。
 title: 成功的[!UICONTROL Automated Personalization]活動需要多少流量？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 730
 ht-degree: 9%
 
 ---
@@ -18,13 +21,13 @@ ht-degree: 9%
 
 由於[!UICONTROL Automated Personalization]活動使用多個選件組合，因此瞭解需要多少流量才能提供有意義的結果非常重要。 [!UICONTROL Traffic Estimator]會使用您頁面的相關統計資料，以及正在測試的體驗數目，來預估讓活動成功所需的流量和測試持續時間。
 
-[!UICONTROL Traffic Estimator]會比較預估的頁面曝光次數和頁面的一般轉換率，以判斷是否有足夠的流量產生個人化模型。 理想上，對於成功的活動，正確的樣本大小可確保個人化內容會在活動持續期間的 50% 或 14 天內就緒 (以較少者為準)。此程式可讓您有充足的時間取得個人化內容，並瞭解要傳送哪些內容。
+[!UICONTROL Traffic Estimator]會比較預估的頁面曝光次數和頁面的一般轉換率，以判斷是否有足夠的流量產生個人化模型。 理想上，對於成功的活動，正確的樣本大小可確保個人化內容會在活動持續期間的 50% 或 14 天內就緒 (以較少者為準)。 此程式可讓您有充足的時間取得個人化內容，並瞭解要傳送哪些內容。
 
-請記住，[!DNL Target]會隨機提供體驗，直到建立個人化演演算法為止。 每個優惠方案旁的勾號圖示會顯示該優惠方案的模型何時準備就緒，[!DNL Target]何時可以開始提供個人化內容。 由於提升度僅在模型準備就緒後才可預期，因此視覺指示可讓您設定正確的預期。 在[!UICONTROL Traffic Estimator] (VEC)中使用[!UICONTROL Visual Experience Composer]取得模型準備就緒時的指引。
+請記住，[!DNL Target]會隨機提供體驗，直到建立個人化演演算法為止。 每個優惠方案旁的勾號圖示會顯示該優惠方案的模型何時準備就緒，[!DNL Target]何時可以開始提供個人化內容。 由於提升度僅在模型準備就緒後才可預期，因此視覺指示可讓您設定正確的預期。 在[!UICONTROL Visual Experience Composer] (VEC)中使用[!UICONTROL Traffic Estimator]取得模型準備就緒時的指引。
 
 ## 使用流量估算程式
 
-1. 從[!UICONTROL Experiences]活動中[!UICONTROL Visual Experience Composer]的[!UICONTROL Automated Personalization]頁面，按一下&#x200B;**[!UICONTROL Traffic]**&#x200B;頁面左上角的![圖示（ &#x200B;](/help/main/assets/icons/Gauge2.svg)流量估算器圖示[!UICONTROL Experiences] ）。
+1. 從[!UICONTROL Automated Personalization]活動中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]頁面，按一下[!UICONTROL Experiences]頁面左上角的&#x200B;**[!UICONTROL Traffic]**&#x200B;圖示（ ![流量估算器圖示](/help/main/assets/icons/Gauge2.svg) ）。
 
    [!UICONTROL Traffic Estimator]隨即開啟。
 
@@ -47,7 +50,7 @@ ht-degree: 9%
 
    ![顯示值與結果的流量預估](assets/ap-est-no.png)
 
-   當您變更數量時，預估即會變更。例如，如果您正在測試許多組合，而您的轉換率和曝光率太低，[!UICONTROL Traffic Estimator]會顯示測試必須執行多久才能成功。 或者，如果您的流量低，[!UICONTROL Traffic Estimator]可能會建議較少數目的選件組合，讓您執行所需天數的測試。
+   當您變更數量時，預估即會變更。 例如，如果您正在測試許多組合，而您的轉換率和曝光率太低，[!UICONTROL Traffic Estimator]會顯示測試必須執行多久才能成功。 或者，如果您的流量低，[!UICONTROL Traffic Estimator]可能會建議較少數目的選件組合，讓您執行所需天數的測試。
 
    如果您沒有足夠的流量，請考慮下列事項：
 

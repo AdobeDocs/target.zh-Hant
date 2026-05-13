@@ -2,23 +2,27 @@
 keywords: 推薦;推薦條件;推薦演算法;推薦活動;條件;推薦鎖定目標;recs
 description: 了解 Adobe [!DNL Target] 中的推薦活動，這些活動會根據先前的使用者活動或其他演算法，自動顯示可能吸引客戶的內容。
 title: 什麼是  [!DNL Target] 推薦？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
+TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 98%
+source-wordcount: 866
+ht-degree: 94%
 
 ---
 
 # 推薦
 
-[!DNL Adobe Target Recommendations] 活動可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。[!DNL Target Recommendations] 可協助引導訪客至他們可能不知道的相關項目。[!DNL Recommendations] 讓您在適當的時間地點提供訪客相關內容。
+[!DNL Adobe Target Recommendations] 活動可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 [!DNL Target Recommendations] 可協助引導訪客至他們可能不知道的相關項目。 [!DNL Recommendations] 讓您在適當的時間地點提供訪客相關內容。
 
 >[!NOTE]
 >
->[!DNL Recommendations] 活動是 [Target Premium 解決方案](/help/main/c-intro/intro.md#premium)內建的功能。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
+>[!DNL Recommendations] 活動是 [Target Premium 解決方案](/help/main/c-intro/intro.md#premium)內建的功能。 在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 >
 >若您目前採用 [!DNL Recommendations Classic]，請參閱 [Target Premium 中的推薦經典版與推薦活動的比較](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)，以瞭解這兩個解決方案的相關資訊。
 
@@ -35,7 +39,7 @@ ht-degree: 98%
 
 ![velocity_example image](assets/velocity_example.png)
 
-推薦會根據訪客在網站上的活動，決定對訪客建議產品的方式。例如:
+推薦會根據訪客在網站上的活動，決定對訪客建議產品的方式。 例如:
 
 | 所需的動作 | 建議 |
 |--- |--- |
@@ -47,24 +51,24 @@ ht-degree: 98%
 
 ## 詞彙
 
-開始使用 [!DNL Recommendations] 之前，請務必熟悉本節中使用的部分詞語。如果您尚未完全瞭解這些詞語，請放心，當您設定 [!DNL Recommendations] 活動時，您會更熟悉這些詞語。
+開始使用 [!DNL Recommendations] 之前，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，請放心，當您設定 [!DNL Recommendations] 活動時，您會更熟悉這些詞語。
 
 | 術語 | 定義 |
 | --- | --- |
-| 活動 | [!DNL Target] 中的活動可讓您將內容個人化給特定客群，並測試頁面設計。[!DNL Recommendations] 只是 [!DNL Target] 中的眾多活動類型之一。如需詳細資訊，請參閱「[目標活動類型](/help/main/c-activities/target-activities-guide.md)」。 |
-| 實體 | 實體會參考您要建議的項目。實體可以是產品、內容 (文章、幻燈片、影像、電影和電視節目)、工作清單、餐廳等。如需詳細資訊，請參閱「[實體](/help/main/c-recommendations/c-products/products.md)」。 |
-| 摘要 | 動態消息用於將實體導入到 [!DNL Recommendations]。實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。如需詳細資訊，請參閱[摘要](/help/main/c-recommendations/c-products/feeds.md)。 |
-| 目錄 | 目錄是指您的整個產品集 (實體)。您的型錄可包含許多系列——以邏輯區間組織產品的方式。 |
-| 集合 | 系列是指一組類似或相關的項目，例如單一產品類別。不過，只要符合業務的需要，您可以將任何項目分組到類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區受到歡迎的項目。如需詳細資訊，請參閱「[集合](/help/main/c-recommendations/c-products/collections.md)」。 |
-| 條件 | 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。<br>條件範例包括： <ul><li>購買了此項目、也購買了其他項目的使用者</li><li>檢視過此項目、也檢視了其他項目的使用者</li><li>具有類似屬性的項目</li><li>上次購買的項目</li><li>最喜愛的類別</li></ul>  如需詳細資訊，請參閱[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。 |
-| 設計 | 設計會定義 [!DNL Recommendations] 活動中推薦的外觀，例如列、欄、表格或格線。本文最上方的插圖顯 示4 x 1設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md)。 |
+| 活動 | [!DNL Target] 中的活動可讓您將內容個人化給特定客群，並測試頁面設計。 [!DNL Recommendations] 只是 [!DNL Target] 中的眾多活動類型之一。 如需詳細資訊，請參閱「[目標活動類型](/help/main/c-activities/target-activities-guide.md)」。 |
+| 實體 | 實體會參考您要建議的項目。 實體可以是產品、內容 (文章、幻燈片、影像、電影和電視節目)、工作清單、餐廳等。 如需詳細資訊，請參閱「[實體](/help/main/c-recommendations/c-products/products.md)」。 |
+| 摘要 | 動態消息用於將實體導入到 [!DNL Recommendations]。 實體可以使用 CSV 檔案、Google Product Search 摘要格式和 Adobe Analytics 產品分類來進行傳送。 如需詳細資訊，請參閱[摘要](/help/main/c-recommendations/c-products/feeds.md)。 |
+| 目錄 | 目錄是指您的整個產品集 (實體)。 您的型錄可包含許多系列——以邏輯區間組織產品的方式。 |
+| 集合 | 系列是指一組類似或相關的項目，例如單一產品類別。 不過，只要符合業務的需要，您可以將任何項目分組到類別中，例如特定價格範圍或顏色的產品，或可能在特定地理區受到歡迎的項目。 如需詳細資訊，請參閱「[集合](/help/main/c-recommendations/c-products/collections.md)」。 |
+| 條件 | 條件即規則，可根據預先決定的訪客行為集決定要建議哪些產品。<br>條件範例包括： <ul><li>購買了此項目、也購買了其他項目的使用者</li><li>檢視過此項目、也檢視了其他項目的使用者</li><li>具有類似屬性的項目</li><li>上次購買的項目</li><li>最喜愛的類別</li></ul>  如需詳細資訊，請參閱[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。 |
+| 設計 | 設計會定義 [!DNL Recommendations] 活動中推薦的外觀，例如列、欄、表格或格線。 本文最上方的插圖顯 示4 x 1設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md)。 |
 | 位置 | 位置是指您執行活動以進行個人化和最佳化目的之網頁、行動應用程式或電子郵件上的特定內容區域。 |
-| 客群 | 客群是類似活動進入者的群組，他們會看到目標活動。客群是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。客群功能可讓您將不同的內容和體驗鎖定在特定客群，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。如需詳細資訊，請參閱[客群](/help/main/c-target/target.md)。 |
-| 推薦作為產品建議 | 可讓您在 A/B 測試 (包括自動分配和自動定位) 和體驗定位 (XT) 活動中加入推薦的功能。如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
+| 客群 | 客群是類似活動進入者的群組，他們會看到目標活動。 客群是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。 客群功能可讓您將不同的內容和體驗鎖定在特定客群，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。 如需詳細資訊，請參閱[客群](/help/main/c-target/target.md)。 |
+| 推薦作為產品建議 | 可讓您在 A/B 測試 (包括自動分配和自動定位) 和體驗定位 (XT) 活動中加入推薦的功能。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 培訓影片：活動類型![Overview badge](/help/main/assets/overview.png)
 
-此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。從7[!DNL Recommendations]開始討論:20。
+此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。 從7:20開始討論[!DNL Recommendations]。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型

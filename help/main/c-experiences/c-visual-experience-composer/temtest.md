@@ -4,9 +4,13 @@ description: 瞭解如何使用Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)
 title: 我可以在類似頁面上包含相同體驗嗎？
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: 518
 ht-degree: 24%
 
 ---
@@ -36,7 +40,7 @@ ht-degree: 24%
 
 1. 按一下「**[!UICONTROL Add Rule]**」，然後指定您要新增體驗的頁面的條件。
 
-1. 指定頁面範圍。頁面範圍可以是下列其中一項:
+1. 指定頁面範圍。 頁面範圍可以是下列其中一項:
 
    * [!UICONTROL URL] （如需[!DNL Target]如何評估URL的詳細資訊，請參閱[鎖定目標和對象常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。）
    * [!UICONTROL Domain]
@@ -47,7 +51,7 @@ ht-degree: 24%
 
 1. 選擇一個運算子。
 
-   運算子可指定運算子之後的項目與頁面範圍的相關性。可用的運運算元包括：
+   運算子可指定運算子之後的項目與頁面範圍的相關性。 可用的運運算元包括：
 
    * [!UICONTROL Contains]
    * [!UICONTROL Does not contain]
@@ -68,7 +72,7 @@ ht-degree: 24%
 
 1. 如有需要，請按一下&#x200B;**[!UICONTROL Add Rule]**&#x200B;並重複先前步驟中的程式來輸入其他條件。
 
-   以 AND 邏輯聯合多個規則。[!DNL Target]會將體驗新增至符合指定條件的所有頁面。
+   以 AND 邏輯聯合多個規則。 [!DNL Target]會將體驗新增至符合指定條件的所有頁面。
 
 >[!IMPORTANT]
 >

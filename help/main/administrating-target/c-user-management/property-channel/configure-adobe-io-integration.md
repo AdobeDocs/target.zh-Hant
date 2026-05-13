@@ -2,14 +2,19 @@
 keywords: 整合;角色;使用者權限;admin console
 description: 瞭解如何以Adobe Target中的所需角色，授予現有Adobe I/O整合功能可存取所有工作區的許可權。
 title: 如何授予Adobe I/O工作區存取權並指派角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+TQID: https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 59%
+source-wordcount: 623
+ht-degree: 58%
 
 ---
 
@@ -19,9 +24,9 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->屬性和權限功能屬於 [Target Premium](/help/main/c-intro/intro.md#premium) 解決方案的一部分。在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
+>屬性和權限功能屬於 [Target Premium](/help/main/c-intro/intro.md#premium) 解決方案的一部分。 在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 
-[!UICONTROL Enterprise Permissions]功能可促進跨團隊最佳化程式的有效資源排程。 雖然 [!DNL Target] UI 提供了此功能，不過 Admin API 在 2019 年初之前一直都缺乏對應的支援。在 [!DNL Target] 2019 年 2 月版本中，Adobe 已更新 Admin API，讓您能夠使用整合帳戶來存取組織中建立的所有工作區。因此，雖然之前Admin API限製為僅限預設工作區，但2019年2月更新已授予可使用[!UICONTROL Approver]存取權來存取所有工作區。
+[!UICONTROL Enterprise Permissions]功能可促進跨團隊最佳化程式的有效資源排程。 雖然 [!DNL Target] UI 提供了此功能，不過 Admin API 在 2019 年初之前一直都缺乏對應的支援。 在 [!DNL Target] 2019 年 2 月版本中，Adobe 已更新 Admin API，讓您能夠使用整合帳戶來存取組織中建立的所有工作區。 因此，雖然之前Admin API限製為僅限預設工作區，但2019年2月更新已授予可使用[!UICONTROL Approver]存取權來存取所有工作區。
 
 在2019年9月發行的[!DNL Target]中，[!DNL Target] [!UICONTROL Enterprise Permissions]為客戶提供下列存取控制：
 
@@ -35,11 +40,11 @@ ht-degree: 59%
 * 每當團隊準備好探索 API 並據此選擇角色時，允許擁有其工作區的每個團隊擁有各自的整合。
 * 混合並比對任何上述案例。
 
-**需要採取動作**: 如果客戶目前運用 API 在所有工作區的資源 (活動、客群、產品建議和報表) 上執行 CRUD 作業，則須授予其現有 Adobe I/O 整合功能可根據其使用案例使用所需角色存取所有工作區的權限。若要這麼做，請在[!DNL Target]中選取每個[!UICONTROL Product Profile] [!DNL Adobe Admin Console]，然後在[!UICONTROL Integration]索引標籤中新增整合。 在9月版本之前，無論從[!UICONTROL Approver]下拉式清單進行何種選擇，所有整合功能都是使用[!UICONTROL Product Role]存取權來執行作業。 您現在可以選擇所需角色。
+**需要採取動作**: 如果客戶目前運用 API 在所有工作區的資源 (活動、客群、產品建議和報表) 上執行 CRUD 作業，則須授予其現有 Adobe I/O 整合功能可根據其使用案例使用所需角色存取所有工作區的權限。 若要這麼做，請在[!DNL Adobe Admin Console]中選取每個[!DNL Target] [!UICONTROL Product Profile]，然後在[!UICONTROL Integration]索引標籤中新增整合。 在9月版本之前，無論從[!UICONTROL Product Role]下拉式清單進行何種選擇，所有整合功能都是使用[!UICONTROL Approver]存取權來執行作業。 您現在可以選擇所需角色。
 
 >[!NOTE]
 >
->如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。事先設定整合功能並不會有任何不利的反應。此變更越早進行越好。根據您組織中的工作區數量，此程式只需要按幾下滑鼠，即可使用所需角色將現有整合功能新增至工作區。
+>如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。 事先設定整合功能並不會有任何不利的反應。 此變更越早進行越好。 根據您組織中的工作區數量，此程式只需要按幾下滑鼠，即可使用所需角色將現有整合功能新增至工作區。
 
 **如何授予 Adobe I/O 整合功能對工作區的存取權並指派角色:**
 

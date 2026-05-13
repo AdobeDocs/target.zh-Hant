@@ -2,23 +2,26 @@
 keywords: 鎖定目標；AP報表；自動個人化報表；活動層級報表；選件層級報表；選件詳細資料報表；faq
 description: 瞭解如何解譯Adobe Target中的Automated Personalization摘要報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
 title: 如何使用Automated Personalization摘要報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 10%
+source-wordcount: 653
+ht-degree: 12%
 
 ---
 
 # Automated Personalization 摘要報表
 
-[!UICONTROL Automated Personalization]中[!DNL Adobe Target]個活動的使用者可以使用專門的摘要報告。
+[!DNL Adobe Target]中[!UICONTROL Automated Personalization]個活動的使用者可以使用專門的摘要報告。
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]是[!DNL Target Premium]解決方案的一部分。 沒有[!DNL Target Standard]Target Premium授權[的](/help/main/c-intro/intro.md#premium)不包含此專案。
+>[!UICONTROL Automated Personalization]是[!DNL Target Premium]解決方案的一部分。 沒有[Target Premium授權](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]不包含此專案。
 
 1. 按一下「**[!UICONTROL Activities]**」，從清單中按一下所需的[!UICONTROL Automated Personalization]活動，然後按一下「**[!UICONTROL Reports]**」標籤。
 
@@ -37,11 +40,11 @@ ht-degree: 10%
 
 [!UICONTROL Activity Level]報告會比較使用[!UICONTROL Automated Personalization]演演算法的彙總效能與隨機提供的內容（控制）。
 
-A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、期間等等) 仍然適用。如需解譯結果的詳細資訊，請參閱[A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
+A/B 測試結果解釋的標準規則 (包括提升度、信賴度、趨勢、期間等等) 仍然適用。 如需解譯結果的詳細資訊，請參閱[A/Bn測試中的統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
 
 ## 選件層級報表 {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-隨機森林體驗的[!UICONTROL Offer Level]報表會比較每個演演算法套用選件的效能，與相同隨機提供選件（控制）的效能。 因此，在此檢視中，不應將選件互相比較。
+隨機森林體驗的[!UICONTROL Offer Level]報表會比較每個演演算法套用選件的效能，與相同隨機提供選件（控制）的效能。 因此，在此檢視中，選件不應該相互比較。
 
 按一下體驗演演算法（隨機森林或控制）以檢視[!UICONTROL Offer Level]報表。
 

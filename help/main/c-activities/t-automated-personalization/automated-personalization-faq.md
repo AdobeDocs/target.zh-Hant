@@ -1,20 +1,24 @@
 ---
 keywords: 疑難排解；常見問題集；FAQ；FAQs；自動個人化；控制；預設體驗；最佳實務
-description: 探索[!UICONTROL Automated Personalization]中[!UICONTROL Adobe Target] (AP)活動的常見問題(FAQ)和答案清單。
+description: 探索[!UICONTROL Adobe Target]中[!UICONTROL Automated Personalization] (AP)活動的常見問題(FAQ)和答案清單。
 title: 如何尋找有關[!UICONTROL Automated Personalization]活動的常見問題集？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
+TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: 1967
 ht-degree: 20%
 
 ---
 
 # Automated Personalization常見問題集
 
-當您在[!UICONTROL Automated Personalization]中處理[!DNL Adobe Target]活動時，請查閱下列常見問答集。
+當您在[!DNL Adobe Target]中處理[!UICONTROL Automated Personalization]活動時，請查閱下列常見問答集。
 
 ## 我可以指定特定體驗來做為[!UICONTROL Automated Personalization]活動中的控制嗎？
 
@@ -22,7 +26,7 @@ ht-degree: 20%
 
 建立[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活動時，您可以選取要用來作為控制的體驗。
 
-此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。接著，您可以根據該體驗之控制流量，評估個人化流量的效能報表。
+此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。 接著，您可以根據該體驗之控制流量，評估個人化流量的效能報表。
 
 如需詳細資訊，請參閱[使用特定體驗作為控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。
 
@@ -41,13 +45,13 @@ ht-degree: 20%
 +++檢視詳細資料
 
 * 如果您想要個人化低流量頁面，或想對個人化的體驗進行結構性變更，請考慮使用[!UICONTROL Auto-Target]活動來取代[!UICONTROL Automated Personalization]。 請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
-* 請考慮針對您打算在[!UICONTROL A/B Test]活動中使用的不同選件和位置進行[!UICONTROL Automated Personalization]活動，以確定位置和選項件對最佳化目標具影響力。 如果[!UICONTROL A/B Test]活動未展現明顯的差異，[!UICONTROL Automated Personalization]可能也無法產生提升度。
+* 請考慮針對您打算在[!UICONTROL Automated Personalization]活動中使用的不同選件和位置進行[!UICONTROL A/B Test]活動，以確定位置和選項件對最佳化目標具影響力。 如果[!UICONTROL A/B Test]活動未展現明顯的差異，[!UICONTROL Automated Personalization]可能也無法產生提升度。
 
    * 如果A/B...N測試顯示體驗之間沒有統計上的顯著差異，可能是因為下列一或多個情況所造成：
 
       * 選件間的差異可能不足。
       * 您選取的位置不會影響成功量度。
-      * 最佳化目標在轉換漏斗中太遠，不受您選擇的選件影響。
+      * 最佳化目標在轉換funnel中太遠，無法受您選擇的選件影響。
 
 * 請務必使用[流量估算程式](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以瞭解在[!UICONTROL Automated Personalization]活動中建立個人化模型所需的時間。
 * 在開始活動之前，根據您的目標，決定控制與目標之間的配置。
@@ -56,7 +60,7 @@ ht-degree: 20%
 
    * **使用隨機體驗作為控制，且活動目標是測試個人化演演算法的有效程度**：如果您的目標是評估個人化演演算法，則您想要更準確地瞭解提升度。 如果您僅執行[!UICONTROL A/B Test] （隨機提供的控制），也很可能想要比較體驗或選件的轉換率。 在此情況下，建議對隨機提供的體驗控制執行 50% 分配。
    * **「隨機體驗」作為控制，且活動目標是最大化個人化流量**：如果您很熟悉演演算法，而且想要有最大量的個人化流量，建議對控制執行10%至30%分配。 這裡的取捨是您在提升度資訊中看到的準確度。 控制流量的信賴區間較大，因為流向它們的流量較少。
-   * **使用特定體驗作為控制，具有任一目標類型**: 若要比較個人化模型的特定行銷人員導向體驗，建議對控制執行 10% 至 30% 分配。當您只選取一個體驗作為控制時，該流量不會散佈在活動中的每個選件或體驗之間。
+   * **使用特定體驗作為控制，具有任一目標類型**: 若要比較個人化模型的特定行銷人員導向體驗，建議對控制執行 10% 至 30% 分配。 當您只選取一個體驗作為控制時，該流量不會散佈在活動中的每個選件或體驗之間。
 
 * 鎖定目標規則應儘可能少用，因為會妨礙模型的最佳化能力。
 * 報告群組可以限制您的[!UICONTROL Automated Personalization]活動的成功。 僅在特定條件下使用報表群組：
@@ -68,7 +72,7 @@ ht-degree: 20%
       * 該報表群組中的選件具有大約相同的整體回應率。
 
    * 報表群組中的選件之間沒有個人化專案。 個人化模型會將所有選件視為相同專案。
-   * 絕不將活動中的所有產品建議全部放入單一報表群組中。這麼做會讓所有選件都隨機提供給活動中的所有訪客。
+   * 絕不將活動中的所有產品建議全部放入單一報表群組中。 這麼做會讓所有選件都隨機提供給活動中的所有訪客。
 
 +++
 
@@ -84,11 +88,11 @@ ht-degree: 20%
 
 +++
 
-## 如何實作產品建議等級目標鎖定?    {#section_9D7A86EA93D74E9B8C81072A681263A4}
+## 如何實作產品建議等級目標鎖定? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 +++檢視詳細資料
 
-當每個訪客抵達時，訪客可能看見的產品建議集取決於產品建議等級鎖定目標規則。接著，演演算法會從這些優惠方案中選擇模型預測有最佳預期收入或轉換機會的優惠方案。 選件鎖定目標會影響[!DNL Target]機器學習演演算法的效能，因此應儘可能謹慎使用。
+當每個訪客抵達時，訪客可能看見的產品建議集取決於產品建議等級鎖定目標規則。 接著，演演算法會從這些優惠方案中選擇模型預測有最佳預期收入或轉換機會的優惠方案。 選件鎖定目標會影響[!DNL Target]機器學習演演算法的效能，因此應儘可能謹慎使用。
 
 +++
 
@@ -103,7 +107,7 @@ ht-degree: 20%
 * 活動中必須有足夠的流量和統計檢定力，才會偵測到提升度。
 * 個人化演算法必須正常運作。
 
-動作的最佳措施是先使用簡易、非個人化的[!UICONTROL A/B Test]活動，確定組成活動體驗的內容和位置對整體回應率真的有產生影響。 務必提早計算樣本大小，以確保有足夠檢定力可看見合理的提升度，並在固定期間執行 A/B 測試而不停止它或進行任何變更。如果A/B測試結果顯示一或多個體驗在統計上顯著提升，則個人化活動可能會成功。 即使體驗的整體回應率沒有差異，Personalization仍可運作。 通常，問題源自選件或位置對最佳化目標的影響不足以偵測到具有統計顯著性的情況。
+動作的最佳措施是先使用簡易、非個人化的[!UICONTROL A/B Test]活動，確定組成活動體驗的內容和位置對整體回應率真的有產生影響。 務必提早計算樣本大小，以確保有足夠檢定力可看見合理的提升度，並在固定期間執行 A/B 測試而不停止它或進行任何變更。 如果A/B測試結果顯示一或多個體驗在統計上顯著提升，則個人化活動可能會成功。 即使體驗的整體回應率沒有差異，Personalization仍可運作。 通常，問題源自選件或位置對最佳化目標的影響不足以偵測到具有統計顯著性的情況。
 
 如需詳細資訊，[疑難排解Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
 
@@ -115,7 +119,7 @@ ht-degree: 20%
 
 [!UICONTROL Automated Personalization]會根據針對每個模型建立的最新[隨機森林](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)模型，將訪客路由至預測成功量度最高的體驗。 此預測是根據訪客的特定資訊和造訪情境。
 
-例如，假設[!UICONTROL Automated Personalization]活動有兩個位置，每個位置有兩個選件。 在第一個位置，產品建議 A 對特定訪客的預測轉換率為 3%，產品建議 B 的預測轉換率為 1%。在第二個位置，產品建議 C 對相同位訪客的預測轉換率為 2%，產品建議 D 的預測轉換率為 5%。因此，[!UICONTROL Automated Personalization]會提供選件A和選件D給此訪客體驗。
+例如，假設[!UICONTROL Automated Personalization]活動有兩個位置，每個位置有兩個選件。 在第一個位置，產品建議 A 對特定訪客的預測轉換率為 3%，產品建議 B 的預測轉換率為 1%。 在第二個位置，產品建議 C 對相同位訪客的預測轉換率為 2%，產品建議 D 的預測轉換率為 5%。 因此，[!UICONTROL Automated Personalization]會提供選件A和選件D給此訪客體驗。
 
 +++
 
@@ -135,7 +139,7 @@ ht-degree: 20%
 
 +++
 
-## 已在我的[!UICONTROL Automated Personalization]活動中建置一個模型。 對該體驗的的造訪是否經過個人化？  {#section_51EA953C6D1D4A3185FC9DD290D66621}
+## 已在我的[!UICONTROL Automated Personalization]活動中建置一個模型。 對該體驗的的造訪是否經過個人化？ {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
 +++檢視詳細資料
 
@@ -176,17 +180,17 @@ ht-degree: 20%
 
 +++檢視詳細資料
 
-[!DNL Adobe]不建議您在活動中途變更目標量度。 雖然在活動期間有可能使用 [!DNL Target] UI 變更目標量度，您應該總是開始一個新的活動。[!DNL Adobe]無法保證您在活動執行後變更目標量度會發生什麼事。
+[!DNL Adobe]不建議您在活動中途變更目標量度。 雖然在活動期間有可能使用 [!DNL Target] UI 變更目標量度，您應該總是開始一個新的活動。 [!DNL Adobe]無法保證您在活動執行後變更目標量度會發生什麼事。
 
-此建議適用於使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作為報告來源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活動。
+此建議適用於使用[!DNL Target]或[!DNL Analytics] (A4T)作為報告來源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。
 
 +++
 
-## 我在執行[!UICONTROL Reset Report Data]活動時可以使用[!UICONTROL Automated Personalization]選項嗎？
+## 我在執行[!UICONTROL Automated Personalization]活動時可以使用[!UICONTROL Reset Report Data]選項嗎？
 
 +++檢視詳細資料
 
-[!DNL Adobe]不建議對[!UICONTROL Reset Report Data]活動使用[!UICONTROL Automated Personalization]選項。 雖然此選項會移除可見的報告資料，但不會移除[!UICONTROL Automated Personalization]模型中的所有訓練記錄。 不要對[!UICONTROL Reset Report Data]個活動使用[!UICONTROL Automated Personalization]選項，請建立新活動並停用原始活動。 此指引也適用於[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動。
+[!DNL Adobe]不建議對[!UICONTROL Automated Personalization]活動使用[!UICONTROL Reset Report Data]選項。 雖然此選項會移除可見的報告資料，但不會移除[!UICONTROL Automated Personalization]模型中的所有訓練記錄。 不要對[!UICONTROL Automated Personalization]個活動使用[!UICONTROL Reset Report Data]選項，請建立新活動並停用原始活動。 此指引也適用於[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動。
 
 +++
 

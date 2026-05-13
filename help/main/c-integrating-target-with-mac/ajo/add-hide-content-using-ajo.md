@@ -2,14 +2,18 @@
 keywords: 最佳化；個人化；adobe journey optimizer；ajo；使用案例；案例；新增內容；隱藏內容；新增元件；隱藏元件
 description: 瞭解如何使用 [!DNL Adobe Journey Optimizer]新增或隱藏網頁上的元件。
 title: 新增或隱藏元件至 [!DNL Adobe Journey Optimizer]中的網頁
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/sTvR771HCE-lkk9Fg7wXkP2p2ORPYehO23d76hVCOZU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: 659
 ht-degree: 2%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 2%
 
 此使用案例可協助您解除鎖定秘密，以在[!DNL Adobe Journey Optimizer]中有效A/B測試內容變更。
 
-此使用案例示範如何使用[而非](/help/main/c-activities/t-test-ab/test-ab.md)來執行熟悉的工作，例如使用[!DNL Journey Optimizer]A/B測試活動[!DNL Adobe Target]進行A/B測試。
+此使用案例示範如何使用[!DNL Journey Optimizer]而非[!DNL Adobe Target]來執行熟悉的工作，例如使用[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)進行A/B測試。
 
 此使用案例旨在示範如何使用[!DNL Adobe Target]、使用[A/B測試活動](/help/main/c-activities/t-test-ab/test-ab.md)但使用[!DNL Journey Optimizer]的A/B測試來執行您熟悉的工作。
 
@@ -38,7 +42,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中的&#x200B;*使用網頁設計工具*。
+>本節中的指示會強調變更影像及使用設定檔屬性個人化文字訊息的必要步驟。 如需[!DNL Journey Optimizer]網頁設計工具中可用選項的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[使用網頁設計工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}。
 >
 >頁面底部的影片特別實用。
 
@@ -48,7 +52,7 @@ ht-degree: 2%
 
    ![醒目提示「行銷活動」索引標籤的Adobe Journey Optimizer登陸頁面。](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create Campaign]**&#x200B;頁面右上角的[!UICONTROL Campaigns]。
+1. 按一下[!UICONTROL Campaigns]頁面右上角的&#x200B;**[!UICONTROL Create Campaign]**。
 
 1. 選取「**[!UICONTROL Scheduled - Marketing]**」（預設），然後按一下「**建立**」以顯示[!UICONTROL Campaign]詳細資料頁面。
 
@@ -60,11 +64,11 @@ ht-degree: 2%
 
    針對此使用案例，您可以啟動[!UICONTROL All Visitors]的行銷活動（預設）。
 
-1. 在&#x200B;**[!UICONTROL Action]**&#x200B;區段中，從&#x200B;**[!UICONTROL Web]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Action]**，然後選取或建立新的網頁組態。
+1. 在&#x200B;**[!UICONTROL Action]**&#x200B;區段中，從&#x200B;**[!UICONTROL Action]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Web]**，然後選取或建立新的網頁組態。
 
    Web設定（或頻道介面）是由系統管理員定義的設定。 網頁設定包含所有用於傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。
 
-   如需詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}中的&#x200B;*設定頻道介面*。
+   如需詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[設定頻道介面](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer]網頁設計工具中開啟您的網站。
 
@@ -91,9 +95,9 @@ ht-degree: 2%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-如需詳細資訊，請參閱[Journey Optimizer檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}中的&#x200B;*開始使用新的報表介面*。
+如需詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[開始使用新的報表介面](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}。
 
 >[!MORELIKETHIS]
 >
->[在](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}Journey Optimizer檔案&#x200B;*中使用網頁設計工具*
->[在](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教學課程&#x200B;*中建立行銷活動*
+>在&#x200B;*Journey Optimizer檔案中[使用網頁設計工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}*
+>[在&#x200B;*Journey Optimizer教學課程*&#x200B;中建立行銷活動](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}

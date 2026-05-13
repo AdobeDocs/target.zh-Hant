@@ -4,16 +4,19 @@ description: 瞭解如何上傳或刪除當作影像選件使用的影像。
 title: 如何上傳或刪除[!UICONTROL Offers]資料庫中的內容？
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/3bsdqJBJekyAbxUUe1bbWEcxRFzYWMcVKLlQ4Lqe4Ns
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 0%
 
 ---
 
 # 上傳或刪除影像選件
 
-您可以將影像上傳至[!UICONTROL Image Offers]中的[!DNL Adobe Target]資料庫，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
+您可以將影像上傳至[!DNL Adobe Target]中的[!UICONTROL Image Offers]資料庫，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
 
 ## 將影像選件新增至清單
 

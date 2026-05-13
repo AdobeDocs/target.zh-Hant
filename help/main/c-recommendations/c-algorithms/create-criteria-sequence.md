@@ -2,12 +2,15 @@
 keywords: 條件序列；多個條件；演演算法；條件；建議條件；序列；限制傳回的專案數；位置層級控制；位置
 description: 瞭解如何設定最多五個條件的順序，以更能掌控建議活動中出現的專案。
 title: 如何在Recommendations中建立條件序列？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: 763
 ht-degree: 18%
 
 ---
@@ -18,11 +21,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->條件序列不能搭配在2016年10月發行的[!UICONTROL Recommendations]之前建立的[!DNL Target Premium]活動使用。
+>條件序列不能搭配在2016年10月發行的[!DNL Target Premium]之前建立的[!UICONTROL Recommendations]活動使用。
 
-若要建立條件順序，您必須先建立您要在序列中包括的條件。如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+若要建立條件順序，您必須先建立您要在序列中包括的條件。 如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-透過使用條件序列，您可以在條件未傳回可滿足您的設計的足夠結果時，提供其他鎖定目標的建議，而非使用更一般的備用建議。通常，條件序列會從更具體的目標定位（可能會傳回較少的結果）進展到更一般的目標定位（通常傳回更多結果）。
+透過使用條件序列，您可以在條件未傳回可滿足您的設計的足夠結果時，提供其他鎖定目標的建議，而非使用更一般的備用建議。 通常，條件序列會從更具體的目標定位（可能會傳回較少的結果）進展到更一般的目標定位（通常傳回更多結果）。
 
 您的條件序列可能會依頁面型別的不同而有所不同，如下列範例所示：
 

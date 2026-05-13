@@ -1,18 +1,21 @@
 ---
 keywords: Automated Personalization；ap；預覽；排除體驗
-description: 瞭解如何使用[!UICONTROL Automated Personalization] (VEC)預覽[!UICONTROL Visual Experience Composer] (AP)活動中的每個體驗。
+description: 瞭解如何使用[!UICONTROL Visual Experience Composer] (VEC)預覽[!UICONTROL Automated Personalization] (AP)活動中的每個體驗。
 title: 如何在VEC中預覽[!UICONTROL Automated Personalization]體驗？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 200
 ht-degree: 10%
 
 ---
 
-# 在[!UICONTROL Automated Personalization] (VEC)的[!UICONTROL Visual Experience Composer]活動中預覽體驗
+# 在[!UICONTROL Visual Experience Composer] (VEC)的[!UICONTROL Automated Personalization]活動中預覽體驗
 
 因為[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活動會比較頁面上的多個選件，使用每個體驗預覽頁面會很有幫助。
 

@@ -4,9 +4,12 @@ description: 瞭解如何在 [!DNL Adobe Target] [!UICONTROL Experience Targetin
 title: 如何在[!UICONTROL Experience Targeting]活動中設定目標量度？
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
-source-git-commit: d7c1bbbbc8d1dcc45ac09a09f6b3be01f7542384
+TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: 325
 ht-degree: 56%
 
 ---
@@ -28,12 +31,12 @@ ht-degree: 56%
    * [!UICONTROL Revenue]
    * [!UICONTROL Engagement]
 
-   您可以使用任何預先建立的成功量度，也可以建立自訂成功量度。 您也可以將成功量度標示為主要量度。報表和 Experience Cloud 卡預設會顯示主要量度 (如果有設定的話)。
+   您可以使用任何預先建立的成功量度，也可以建立自訂成功量度。 您也可以將成功量度標示為主要量度。 報表和 Experience Cloud 卡預設會顯示主要量度 (如果有設定的話)。
 1. 指定量度的設定。
 
    可用的設定取決於您使用的成功量度。
 
-   如果已啟用，[!UICONTROL Estimated Value of the Conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值。 此值可讓 [!DNL Target] 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。資料類型為貨幣。此欄位會在使用者指出滿足目標所採取的動作之後逐漸顯示。請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
+   如果已啟用，[!UICONTROL Estimated Value of the Conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值。 此值可讓 [!DNL Target] 計算收入中預估的提升度。 此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。 資料類型為貨幣。 此欄位會在使用者指出滿足目標所採取的動作之後逐漸顯示。 請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
 
    成功量度的正確組態對於確保您可取得預期的資料來說很重要。
 

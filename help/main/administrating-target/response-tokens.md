@@ -5,10 +5,16 @@ title: 什麼是回應Token？如何使用它們？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
+TQID: https://experienceleague.adobe.com/Fm2VW0HmAPjf0ZCDawI-s1nPl3c-wjU-evhq-tSAKqA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: c5abb976-5170-45d6-bcac-66d15d10a4d4id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 24%
+source-wordcount: 1749
+ht-degree: 22%
 
 ---
 
@@ -28,8 +34,8 @@ ht-degree: 24%
 
 | 鎖定SDK | 建議的動作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱[Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant){target=_blank}指南中的&#x200B;*安裝SDK*。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱[Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant)指南中的&#x200B;*發行說明*。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hant){target=_blank}。如需每個 at.js 版本中新功能的相關資訊，請參閱 [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank}。<br>對於使用 at.js 的客戶，建議採用回應 Token，而不要使用外掛程式。mbox.js （現已棄用）中有部分外掛程式所依賴的內部方法，但at.js中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 確保您使用Platform Web SDK 2.6.0版或更新版本。 如需有關下載最新版Platform Web SDK的資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}。 如需每個Platform Web SDK版本中新功能的相關資訊，請參閱&#x200B;*Platform Web SDK概觀*&#x200B;指南中的[發行說明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 確保您使用 at.js 版本 1.1 或更新版本。 如需有關下載最新版 at.js 的資訊，請參閱[下載 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。 如需每個at.js版本中新功能的相關資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>建議使用at.js的客戶使用回應Token，而不要使用外掛程式。 mbox.js （現已棄用）中有部分外掛程式所依賴的內部方法，但at.js中卻沒有，雖然可以傳送這些外掛程式，但卻會失敗。 |
 
 ## 使用回應Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +43,8 @@ ht-degree: 24%
 
    如需詳細資訊：
 
-   * **Platform Web SDK**：請參閱[Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)指南中的&#x200B;*安裝SDK*。
-   * **at.js**：請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hant){target=_blank}。
+   * **Platform Web SDK**：請參閱&#x200B;*Platform Web SDK總覽*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。
+   * **at.js**：請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
 
@@ -48,7 +54,7 @@ ht-degree: 24%
 
    | 類型 | 參數 | 附註 |
    |--- |--- |--- |
-   | 內建的輪廓 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。這會隨著使用者合格而增加。例如，在包含兩個[!DNL Target]請求（傳送兩個不同的活動）的頁面上，第二個請求會包含兩個活動。 |
+   | 內建的輪廓 | `profile.activeActivities` | 傳回訪客合格可使用的 `activityIds` 陣列。 這會隨著使用者合格而增加。 例如，在包含兩個[!DNL Target]請求（傳送兩個不同的活動）的頁面上，第二個請求會包含兩個活動。 |
    |  | `profile.isFirstSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.isNewSession` | 傳回 &quot;true&quot; 或 &quot;false&quot;。 |
    |  | `profile.daysSinceLastVisit` | 傳回訪客上次造訪後所經過的天數。 |
@@ -57,7 +63,7 @@ ht-degree: 24%
    |  | `profile.thirdPartyId` | 傳回訪客的第三方 ID。 |
    |  | `profile.categoryAffinity` | 傳回訪客最喜愛的類別。 |
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
-   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 目前活動的詳細資料。<br>請注意，優惠引數的值是在體驗層級上評估的。 |
+   | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 目前活動的詳細資料。<br> 請注意，優惠引數的值會在體驗層級上評估。 |
    | 地理 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/main/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
    | 流量分配方法<br> （僅適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。） | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已鎖定目標」。 |
@@ -66,7 +72,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >含特殊字元的參數不會顯示在清單中。僅支援英數字元和底線。
+   >含特殊字元的參數不會顯示在清單中。 僅支援英數字元和底線。
 
 1. （條件式）若要使用設定檔引數做為回應Token，但引數尚未透過[!DNL Target]要求傳遞，因此，尚未載入[!DNL Target] UI，您可以使用[!UICONTROL Add Response Token]按鈕將設定檔新增至UI。
 
@@ -88,7 +94,7 @@ ht-degree: 24%
 | --- | --- |
 | 型別 — Personalization.decision | 決定是由[!DNL Target]或Offer Decisioning提供者所做。 |
 | DecisionProvider - TGT | TGT-[!DNL Target]。 [!DNL Target]提供回應Token中繼資料和值給頁面。 |
-| 中繼 | 傳遞至頁面的中繼資料。 |
+| Meta | 傳遞至頁面的中繼資料。 |
 | 資料 | 傳遞給頁面的中繼資料值。 |
 
 ```html
@@ -147,7 +153,7 @@ ht-degree: 24%
 
 ### 使用自訂事件的![at.js badge](/help/main/assets/atjs.png) at.js
 
-使用[at.js自訂事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=zh-Hant){target=_blank}接聽[!DNL Target]回應並讀取回應Token。
+使用[at.js自訂事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank}接聽[!DNL Target]回應並讀取回應Token。
 
 下列程式碼範例直接將 [!DNL at.js] 自訂事件處理常式新增至 HTML 頁面:
 
@@ -202,13 +208,13 @@ ht-degree: 24%
 
 **如果回應Token使用已刪除的設定檔指令碼或設定檔引數，仍會傳送內容嗎？**
 
-回應 Token 會從使用者設定檔中擷取資訊，然後傳送該資訊。如果您刪除設定檔指令碼或參數，這不代表該資訊已從使用者設定檔中移除。使用者設定檔仍然具有與設定檔指令碼對應的資料。 回應Token會繼續傳遞內容。 對於沒有將該資訊儲存在其設定檔中的使用者，或新訪客，該Token不會傳遞，因為資料不存在於其設定檔中。
+回應 Token 會從使用者設定檔中擷取資訊，然後傳送該資訊。 如果您刪除設定檔指令碼或參數，這不代表該資訊已從使用者設定檔中移除。 使用者設定檔仍然具有與設定檔指令碼對應的資料。 回應Token會繼續傳遞內容。 對於沒有將該資訊儲存在其設定檔中的使用者，或新訪客，該Token不會傳遞，因為資料不存在於其設定檔中。
 
 [!DNL Target]不會自動關閉權杖。 如果您刪除設定檔指令碼，且不想再傳送 Token，則必須自行關閉 Token。
 
 **我已重新命名設定檔指令碼，但為何使用該指令碼的 Token 仍以舊名稱處於使用中狀態?**
 
-如上所述，回應 Token 會處理使用者已儲存的設定檔資訊。即使您重新命名了個人資料指令碼，造訪過您網站的使用者仍會將舊的個人資料指令碼值儲存在其個人資料中。 代號會繼續挑選已儲存在使用者設定檔中的舊值。 如果您現在想要以新名稱來傳送內容，則必須關閉先前的 Token，並開啟新的 Token。
+如上所述，回應 Token 會處理使用者已儲存的設定檔資訊。 即使您重新命名了個人資料指令碼，造訪過您網站的使用者仍會將舊的個人資料指令碼值儲存在其個人資料中。 代號會繼續挑選已儲存在使用者設定檔中的舊值。 如果您現在想要以新名稱來傳送內容，則必須關閉先前的 Token，並開啟新的 Token。
 
 **如果我的屬性已變更，何時會從清單中移除這些屬性？**
 
@@ -220,7 +226,7 @@ ht-degree: 24%
 
 ### ![AEP badge](/help/main/assets/platform.png)透過Platform Web SDK傳送資料至Google Analytics
 
-在Google Analytics頁面中新增下列程式碼，可透過Platform Web SDK HTML 2.6.0版（或更新版本）傳送資料。
+在Google Analytics頁面中新增下列程式碼，可透過Platform Web SDK 2.6.0版（或更新版本）傳送資料。
 
 >[!NOTE]
 >
