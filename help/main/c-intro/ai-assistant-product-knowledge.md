@@ -77,10 +77,10 @@ ht-degree: 1%
 
 瞭解來自[!DNL AI Assistant]的[!DNL Adobe Experience Platform]個應用程式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441035/?captions=chi_hant&learn=on&#x26;enablevpops)
 
 ### 驗證來自AI助理的回應
 
 瞭解如何驗證和驗證[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]所提供的回應。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441750/?captions=chi_hant&learn=on&#x26;enablevpops)
