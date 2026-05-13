@@ -5,8 +5,10 @@ title: 如何上傳或刪除[!UICONTROL Offers]資料庫中的內容？
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
 TQID: https://experienceleague.adobe.com/3bsdqJBJekyAbxUUe1bbWEcxRFzYWMcVKLlQ4Lqe4Ns
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 174

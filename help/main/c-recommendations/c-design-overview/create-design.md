@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -51,7 +53,7 @@ ht-degree: 20%
 
    [!UICONTROL Create Design]對話方塊隨即顯示。
 
-1. 輸入&#x200B;**[!UICONTROL  Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
+1. 輸入&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
 
    使用預設設計時，設計名稱和「Copy」會出現在&#x200B;**[!UICONTROL Content Name]**&#x200B;欄位中。 您可以編輯名稱。 您也可以選取要在設計卡片上顯示的影像。
 

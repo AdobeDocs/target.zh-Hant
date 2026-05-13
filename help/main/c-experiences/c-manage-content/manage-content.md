@@ -5,8 +5,10 @@ title: 我該如何管理程式碼和影像選件？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
 TQID: https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 820
@@ -42,7 +44,7 @@ ht-degree: 7%
 
 ## 套用篩選器至選件程式庫 {#filters}
 
-按一下「**[!UICONTROL Show filters]**」圖示（「選件」頁面](/help/main/assets/icons/Filter.svg)上的「![顯示篩選器」圖示）以依[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]篩選選件。
+按一下「**[!UICONTROL Show filters]**」圖示（「選件」頁面![&#128279;](/help/main/assets/icons/Filter.svg)上的「顯示篩選器」圖示）以依[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]篩選選件。
 
 **[!UICONTROL Show filters]**&#x200B;圖示可讓您依下列類別篩選優惠方案：
 

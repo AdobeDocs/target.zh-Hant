@@ -6,11 +6,22 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 873
@@ -28,7 +39,7 @@ ht-degree: 61%
 >
 >您可以區分您的組織是否有[!UICONTROL Standard]或[!UICONTROL Premium]授權，方法是按一下[!DNL Target] UI上方的[!UICONTROL Administration]連結。
 >
->* **[!DNL Target][!UICONTROL Standard]客戶**：如果您看見[!UICONTROL Users]標籤([!UICONTROL Administration > Users]) （而非&#x200B;**[!UICONTROL Properties]**&#x200B;標籤），則您的組織有[!DNL Target] [!UICONTROL Standard]授權。[!DNL Target] [!UICONTROL Standard]客戶應該依照本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard]客戶**：如果您看見[!UICONTROL Users]標籤([!UICONTROL Administration > Users]) （而非&#x200B;**[!UICONTROL Properties]**&#x200B;標籤），則您的組織有[!DNL Target] [!UICONTROL Standard]授權。[!DNL Target] [!UICONTROL Standard]客戶應該依照本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
 >
 >* **[!DNL Target]Premium客戶**：如果您看到[!UICONTROL Users]標籤和[!UICONTROL Properties]標籤([!UICONTROL Administration > Properties])，表示貴組織擁有[!DNL Target] Premium授權。[!DNL Target] Premium客戶應該遵循[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)和[設定企業許可權](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
 >

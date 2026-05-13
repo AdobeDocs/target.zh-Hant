@@ -5,10 +5,16 @@ title: 如何在 [!DNL Target] 中使用 [!DNL AI Assistant] 取得產品知識�
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 315
@@ -32,7 +38,7 @@ ht-degree: 1%
 
 若要存取產品知識的[!DNL AI Assistant]：
 
-1. 請確定您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。

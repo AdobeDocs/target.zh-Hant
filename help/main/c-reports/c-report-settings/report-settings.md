@@ -5,9 +5,15 @@ title: 如何設定報表設定？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -185,7 +191,7 @@ ht-degree: 48%
 考慮以下事項：
 
 * 僅在[!UICONTROL Table View]中檢視報表時可用。
-* 此功能無法供以[ Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
+* 此功能無法供以[&#x200B; Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
 
 ## 位置貢獻 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
@@ -235,8 +241,8 @@ ht-degree: 48%
 圖表的預設繪製順序如下:
 
 * **[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Automated Personalization]）**：體驗建立的順序（以降序排列）。
-* **[!UICONTROL Experience Targeting](XT)**：活動中的體驗順序。
-* **[!UICONTROL Multivariate Test](MVT)**：依體驗名稱的字母順序。
+* **[!UICONTROL Experience Targeting] (XT)**：活動中的體驗順序。
+* **[!UICONTROL Multivariate Test] (MVT)**：依體驗名稱的字母順序。
 * **[!UICONTROL Recommendations]**：體驗建立的順序（以降序排列）。
 
 使用[!UICONTROL Counting Methodology]選項時，請考量下列警告：

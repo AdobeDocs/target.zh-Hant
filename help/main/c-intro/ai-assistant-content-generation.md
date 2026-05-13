@@ -8,8 +8,12 @@ hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
 TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 777
@@ -23,7 +27,7 @@ ht-degree: 2%
 
 ## 先決條件
 
-1. 請確定您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。
@@ -62,7 +66,7 @@ ht-degree: 2%
 
    * **音調**：文字的音調應該會與您的對象產生共鳴。 無論您是要提供資訊、令人興奮、好玩或具有說服力，[!DNL AI Assistant]都可以據以調整訊息。
 
-     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]和[!UICONTROL Conversational]。
+     選項包括： [!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]和[!UICONTROL Conversational]。
 
 1. 使用滑桿來挑選您要文字的長度，從短到長。
 
