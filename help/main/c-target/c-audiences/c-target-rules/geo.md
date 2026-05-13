@@ -5,10 +5,19 @@ title: 我可以根據位置鎖定訪客嗎？
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 42%
+source-wordcount: 1059
+ht-degree: 40%
 
 ---
 
@@ -16,7 +25,7 @@ ht-degree: 42%
 
 在[!DNL Adobe Target]中使用受眾，根據使用者的地理位置鎖定使用者。
 
-地理位置引數可讓您根據訪客的地理位置來鎖定目標活動和體驗。 您可以根據國家、州/省、城市、郵遞區號、緯度、經度、DMA 或行動電信業者來包含或排除訪客。此資料會根據訪客的IP位址，與每個[!DNL Target]要求一併傳送。 選取這些參數就像任何定位值一樣。
+地理位置引數可讓您根據訪客的地理位置來鎖定目標活動和體驗。 您可以根據國家、州/省、城市、郵遞區號、緯度、經度、DMA 或行動電信業者來包含或排除訪客。 此資料會根據訪客的IP位址，與每個[!DNL Target]要求一併傳送。 選取這些參數就像任何定位值一樣。
 
 ## 使用地理鎖定目標建立對象 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -35,7 +44,7 @@ ht-degree: 42%
    * [!UICONTROL DMA]
    * [!UICONTROL Mobile Carrier]
 
-   訪客的地理資訊是根據 [!DNL Target] 位置請求 (Mbox 請求) 的起始 IP 位置來判定。IP 對地理位置的解析是在新工作階段的首次呼叫時完成。也就是說，如果訪客的 IP 位址在造訪期間發生變更，地理資訊仍會根據首次呼叫的 IP 位址。
+   訪客的地理資訊是根據 [!DNL Target] 位置請求 (Mbox 請求) 的起始 IP 位置來判定。 IP 對地理位置的解析是在新工作階段的首次呼叫時完成。 也就是說，如果訪客的 IP 位址在造訪期間發生變更，地理資訊仍會根據首次呼叫的 IP 位址。
 
    針對[!UICONTROL Mobile Carrier]，[!DNL Target]會使用IP位址註冊資料（擁有IP位址區塊），使用[行動裝置國碼(MCC)和行動網路碼(MNC)](https://www.mcc-mnc.com)來決定適當的行動電信業者。
 
@@ -49,9 +58,9 @@ ht-degree: 42%
 
 ## 準確度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地理鎖定目標的準確度取決於幾項因素。WiFi 連線比行動電話通訊網路更準確。當訪客使用行動資料連線時，地理查閱的準確度會受到一些因素的影響，包括位置、提供者與[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)的資料關係，以及其他因素。 行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。此外，訪客的IP位址可能會對應至訪客的ISP位置，而此位置可能與訪客的實際位置不同。 某些行動地理位置問題可以使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)來解決。
+地理鎖定目標的準確度取決於幾項因素。 WiFi 連線比行動電話通訊網路更準確。 當訪客使用行動資料連線時，地理查閱的準確度會受到一些因素的影響，包括位置、提供者與[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)的資料關係，以及其他因素。 行動通訊基地台網路連線可能比有線或 WiFi 連線更不準確。 此外，訪客的IP位址可能會對應至訪客的ISP位置，而此位置可能與訪客的實際位置不同。 某些行動地理位置問題可以使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)來解決。
 
-下表顯示 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 針對有線或 WiFi 網際網路連線所提出的 IP 型地理位置資訊的準確度。DigitalEnvoy 提供的資料是業界最準確的。全球準確度在國家/地區層級超過 99.9%，在城市層級也能達到 97%。準確度資訊不適用於行動通訊基地台網路。
+下表顯示 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 針對有線或 WiFi 網際網路連線所提出的 IP 型地理位置資訊的準確度。 DigitalEnvoy 提供的資料是業界最準確的。 全球準確度在國家/地區層級超過 99.9%，在城市層級也能達到 97%。 準確度資訊不適用於行動通訊基地台網路。
 
 | 國家 | 狀態 | 城市 | 地區 |
 |--- |--- |--- |--- |
@@ -121,14 +130,14 @@ ht-degree: 42%
 ### 行動裝置的地理鎖定目標如何運作？
 
 +++檢視詳細資料
-大部分行動裝置使用者透過WiFi存取內容，這表示[!DNL Target]以IP為基礎的地理鎖定目標與桌上型電腦一樣準確。 透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。某些行動地理位置問題可以使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)來解決。
+大部分行動裝置使用者透過WiFi存取內容，這表示[!DNL Target]以IP為基礎的地理鎖定目標與桌上型電腦一樣準確。 透過行動通訊基地台的連線可能較不準確，因為訪客的 IP 位址是以接收訊號的基地台為準。 某些行動地理位置問題可以使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)來解決。
 
 +++
 
 ### 地理功能如何處理來自AOL的訪客？
 
 +++檢視詳細資料
-由於AOL代理其流量的方式，[!DNL Target]只能在國家層級鎖定這些流量。 例如，以法國為目標的促銷活動已成功以法國的AOL使用者為目標。 但以巴黎為目標的促銷活動無法成功鎖定巴黎的AOL使用者。 如果您希望特別定位 AOL 使用者，則您可以將區域欄位設定為「aol」。事實上，您可以指定兩個定位條件來定位美國的 AOL 使用者國家完全符合「美國」，而地區完全符合「aol」。
+由於AOL代理其流量的方式，[!DNL Target]只能在國家層級鎖定這些流量。 例如，以法國為目標的促銷活動已成功以法國的AOL使用者為目標。 但以巴黎為目標的促銷活動無法成功鎖定巴黎的AOL使用者。 如果您希望特別定位 AOL 使用者，則您可以將區域欄位設定為「aol」。 事實上，您可以指定兩個定位條件來定位美國的 AOL 使用者國家完全符合「美國」，而地區完全符合「aol」。
 
 +++
 
@@ -147,7 +156,7 @@ ht-degree: 42%
 ### 如何以來自不同位置的使用者身分來測試我的活動？
 
 +++檢視詳細資料
-* **at.js 1.*x***：您可以使用其他位置的IP位址來覆寫您的IP位址，並使用`mboxOverride.browserIp url`引數。 例如，如果您的公司位於英國，但您的全球促銷活動目標訪客位在紐西蘭的奧克蘭，則您可以使用這種URL，假設`60.234.0.39`是奧克蘭境內的IP位址：
+* **at.js 1.*x***：您可以使用不同位置的IP位址來覆寫您的IP位址，並使用`mboxOverride.browserIp url`引數。 例如，如果您的公司位於英國，但您的全球促銷活動目標訪客位在紐西蘭的奧克蘭，則您可以使用這種URL，假設`60.234.0.39`是奧克蘭境內的IP位址：
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -155,9 +164,9 @@ ht-degree: 42%
 
   >[!NOTE]
   >
-  >at.js 1支援`mboxOverride.browserIp`。*x* 版。at.js 2.*x*。
+  >只有at.js 1.*x*&#x200B;支援`mboxOverride.browserIp`。 at.js 2.*x*&#x200B;不支援此功能。
 
-* **at.js 2.*x***：若要使用at.js 2.*x*，安裝瀏覽器擴充功能/外掛程式(例如Chrome或Firefox的X-Forwarded-For Header)。 此擴充功能可讓您在頁面請求中傳遞x-forwarded-for標頭。
+* **at.js 2.*x***：若要使用at.js 2.*x*覆寫您的IP位址，請安裝瀏覽器擴充功能/外掛程式（例如Chrome或Firefox的X-Forwarded-For標頭）。 此擴充功能可讓您在頁面請求中傳遞x-forwarded-for標頭。
 
 +++
 

@@ -2,19 +2,27 @@
 keywords: 建立建議;推薦活動;新建議;建議概觀
 description: 瞭解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)來建立 [!DNL Recommendations] 活動。
 title: 如何建立 [!DNL Recommendations] 活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
+TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1218
 ht-degree: 50%
 
 ---
 
 # 建立[!DNL Recommendations]活動
 
-使用[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)直接在啟用[!DNL Recommendations]的頁面上建立[!DNL Target]活動，以及在[!DNL Target]內修改頁面的部分。
+使用[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)直接在啟用[!DNL Target]的頁面上建立[!DNL Recommendations]活動，以及在[!DNL Target]內修改頁面的部分。
 
 1. 按一下&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**。
 
@@ -34,7 +42,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
+   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
 
    活動URL是建議顯示的頁面。
 
@@ -73,27 +81,27 @@ ht-degree: 50%
 
 1. 選取[一或多個條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。根據預設，[!UICONTROL Select Criteria]畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面型別。 您可以變更這些選項以顯示其他條件。
+   條件會以卡片的形式顯示，顯示每個條件的相關資訊。 根據預設，[!UICONTROL Select Criteria]畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面型別。 您可以變更這些選項以顯示其他條件。
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。一般來說，最好只顯示相容的條件。不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( [!UICONTROL Compatible] > **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**)而定，可能不會顯示&#x200B;**[!UICONTROL Filter Incompatible Criteria]**&#x200B;選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除「**[!UICONTROL Compatible]**」核取方塊。 視您的Recommendations設定( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**)而定，可能不會顯示[!UICONTROL Compatible]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
-   如果您選取多個條件，流量會在選取的條件間平均分割。例如，如果您已選取了兩個條件，而您的活動是設計為對 20% 的活動加入者顯示預設內容，那麼 40% 的活動加入者將看到每個條件所控制的建議。沒有選項可變更每個條件的百分比。
+   如果您選取多個條件，流量會在選取的條件間平均分割。 例如，如果您已選取了兩個條件，而您的活動是設計為對 20% 的活動加入者顯示預設內容，那麼 40% 的活動加入者將看到每個條件所控制的建議。 沒有選項可變更每個條件的百分比。
 
    * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-     有些條件是由 [!DNL Recommendations] 提供。您和您的團隊也可以建立自己的自訂條件。
+     有些條件是由 [!DNL Recommendations] 提供。 您和您的團隊也可以建立自己的自訂條件。
 
    * 若要建立新條件，請按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**，然後填寫新條件的資訊。 如需關於建立新條件的資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您也可以將條件群組為序列。若要建立新的條件序列，請按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**。 如需詳細資訊，請參閱[建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)。
+   * 您也可以將條件群組為序列。 若要建立新的條件序列，請按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**。 如需詳細資訊，請參閱[建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)。
 
 1. 按一下 **[!UICONTROL Next]**。
 1. 選取[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。[!DNL Target]包含數個預先設定的設計。 您也可以建立自己的自訂設計。如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。 [!DNL Target]包含數個預先設定的設計。 您也可以建立自己的自訂設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![選取設計對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -107,7 +115,7 @@ ht-degree: 50%
 
 1. 按一下 **[!UICONTROL Next]**。
 
-   您有選項可將促銷活動新增至您的建議。如需新增前端與後端促銷活動的詳細資訊，請參閱[新增促銷活動](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   您有選項可將促銷活動新增至您的建議。 如需新增前端與後端促銷活動的詳細資訊，請參閱[新增促銷活動](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
 1. 按一下 **[!UICONTROL Save]**。
 
@@ -127,7 +135,7 @@ ht-degree: 50%
 
    流程圖表將引導您進行選擇活動客群和設定體驗的步驟，並指定成功量度。
 
-   您可從流程圖表執行下列工作: 
+   您可從流程圖表執行下列工作:
 
    * 變更將看見建議的對象
 
@@ -135,7 +143,7 @@ ht-degree: 50%
      >
      >除了選取現有客群，您還可以[建立僅限於此活動的客群](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或是[結合多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)來建立隨選客群而非建立新客群。
 
-     依預設，所有使用者都會看到建議。不過，您可以將建議鎖定在特定對象。
+     依預設，所有使用者都會看到建議。 不過，您可以將建議鎖定在特定對象。
 
      針對 [!DNL Recommendations] 活動，控制群組會看見沒有任何建議的頁面。
 
@@ -148,11 +156,11 @@ ht-degree: 50%
 1. 完成時，請按一下&#x200B;**[!UICONTROL Next]**。
 1. 指定您的活動設定。
 
-   例如，輸入活動的名稱 (必要) 和目標 (可選)。如需設定的相關資訊，請參閱[Recommendations活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
+   例如，輸入活動的名稱 (必要) 和目標 (可選)。 如需設定的相關資訊，請參閱[Recommendations活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
 
    >[!NOTE]
    >
-   >如果指定的 [!DNL Recommendation] 活動名稱是 [!DNL Recommendations Classic] 中另一個已存在活動的名稱，則會將新活動重新同步為新名稱。新名稱為原始名稱附加時間戳記的唯一名稱。這個新名稱會顯示在 [!DNL Target Standard/Premium] 和 [!DNL Recommendations Classic] 中。
+   >如果指定的 [!DNL Recommendation] 活動名稱是 [!DNL Recommendations Classic] 中另一個已存在活動的名稱，則會將新活動重新同步為新名稱。 新名稱為原始名稱附加時間戳記的唯一名稱。 這個新名稱會顯示在 [!DNL Target Standard/Premium] 和 [!DNL Recommendations Classic] 中。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save & Close]**。
 

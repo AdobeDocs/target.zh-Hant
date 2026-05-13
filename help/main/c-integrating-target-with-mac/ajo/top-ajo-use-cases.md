@@ -7,10 +7,19 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/-BmxtsKOxfRUkORIz2P-sWTDLCg323cu7FSbdt6SAa4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: 198
+ht-degree: 9%
 
 ---
 
@@ -23,11 +32,11 @@ ht-degree: 6%
 若要執行下列使用案例，您需要下列專案：
 
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
-* 這些使用案例不需要[!DNL Adobe Target]授權。 這些使用案例會示範如何使用[!DNL Target]在[!DNL Journey Optimizer]中執行熟悉的工作，讓您能夠探索並取得與[!DNL Journey Optimizer]相同的結果。
+* 這些使用案例不需要[!DNL Adobe Target]授權。 這些使用案例會示範如何使用[!DNL Journey Optimizer]在[!DNL Target]中執行熟悉的工作，讓您能夠探索並取得與[!DNL Journey Optimizer]相同的結果。
 
 ## 使用案例
 
-下列使用案例示範如何在[!DNL Target]內執行[!DNL Adobe Journey Optimizer]中熟悉的工作，讓您檢視執行中的異同。
+下列使用案例示範如何在[!DNL Adobe Journey Optimizer]內執行[!DNL Target]中熟悉的工作，讓您檢視執行中的異同。
 
 這些使用案例與網頁和程式碼型通道有關。
 

@@ -5,10 +5,15 @@ title: 如何使用Velocity自訂設計？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 33%
+source-wordcount: 1083
+ht-degree: 32%
 
 ---
 
@@ -20,9 +25,9 @@ ht-degree: 33%
 
 有關[!DNL Velocity]的資訊可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
 
-所有[!DNL Velocity]邏輯、語法等均可用於建議設計。 這表示您可以使用&#x200B;*而非JavaScript來建立* for *回圈、* if[!DNL Velocity]陳述式及其他程式碼。
+所有[!DNL Velocity]邏輯、語法等均可用於建議設計。 這表示您可以使用[!DNL Velocity]而非JavaScript來建立&#x200B;*for*&#x200B;回圈、*if*&#x200B;陳述式及其他程式碼。
 
-傳送至[!DNL Recommendations] mbox中的`productPage`或CSV上傳的實體屬性可以在設計中顯示，但「多值」屬性除外。 任何型別的屬性都可以傳送；不過，[!DNL Target]不會傳遞型別「多值」的屬性做為範本可以反複處理的陣列（例如`entityN.categoriesList`）。
+傳送至`productPage` mbox中的[!DNL Recommendations]或CSV上傳的實體屬性可以在設計中顯示，但「多值」屬性除外。 任何型別的屬性都可以傳送；不過，[!DNL Target]不會傳遞型別「多值」的屬性做為範本可以反複處理的陣列（例如`entityN.categoriesList`）。
 
 這些值以下列語法加以參考:
 
@@ -125,7 +130,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >如果您想要在指出屬性名稱的標籤完成之前，在屬性值之後新增文字，您可以使用正式標籤法將屬性名稱括起來。 例如: `${entity1.thumbnailUrl}.gif`。
 
-您也可以在設計中使用`algorithm.name`和`algorithm.dayCount`作為實體屬性，因此一個設計可用於測試多個條件，而條件名稱可動態地顯示在設計中。 藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。您甚至可以使用這些屬性來顯示`dayCount` （條件中使用的資料天數，例如「過去2天最暢銷的商品」等）。
+您也可以在設計中使用`algorithm.name`和`algorithm.dayCount`作為實體屬性，因此一個設計可用於測試多個條件，而條件名稱可動態地顯示在設計中。 藉此，訪客即知道自己正在看「最暢銷商品」或「看過這件的人也買那件」。 您甚至可以使用這些屬性來顯示`dayCount` （條件中使用的資料天數，例如「過去2天最暢銷的商品」等）。
 
 ## 使用[!DNL Velocity]範本中的數字
 
@@ -191,9 +196,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 顯示含有建議產品的關鍵專案 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
-您可以修改設計來連同其他建議的產品一起顯示主要項目。例如，您可以在建議旁邊顯示目前項目當作參考。
+您可以修改設計來連同其他建議的產品一起顯示主要項目。 例如，您可以在建議旁邊顯示目前項目當作參考。
 
-方法是在設計中建立一欄，此欄使用您的建議所依據的 `$key` 屬性，而不是 `$entity` 屬性。例如，主要欄的程式碼可能如下所示:
+方法是在設計中建立一欄，此欄使用您的建議所依據的 `$key` 屬性，而不是 `$entity` 屬性。 例如，主要欄的程式碼可能如下所示:
 
 ```
 <div class="at-table-column"> 
@@ -210,7 +215,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key影像](assets/rec_key.png)
 
-當您建立[!DNL Recommendations]活動時，如果主要專案取自於訪客的設定檔，例如「上次購買的專案」，則[!DNL Target]會在[!UICONTROL Visual Experience Composer] (VEC)中顯示隨機產品。 這是因為當您設計活動時，沒有設定檔可用。訪客檢視頁面時就會看到預期的主要項目。
+當您建立[!DNL Recommendations]活動時，如果主要專案取自於訪客的設定檔，例如「上次購買的專案」，則[!DNL Target]會在[!UICONTROL Visual Experience Composer] (VEC)中顯示隨機產品。 這是因為當您設計活動時，沒有設定檔可用。 訪客檢視頁面時就會看到預期的主要項目。
 
 ## 在字串值中執行取代 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -246,7 +251,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 * 如果第五個實體存在，指令碼會插入右 div 標記，並使用 `<div class="at-table-row">` 開啟新的一列。
 * 透過 4x2，最多將可顯示八個結果，但您可以修改 `$count <=8`，將此自訂為較小或較大的清單。
-* 請注意，邏輯不會平衡多個列上的實體。例如，如果有五個或六個要顯示的實體，並不會動態變成三個在頂端、兩個在底部 (或三個在頂端、三個在底部)。開始第二列之前，頂端列會顯示四個項目。
+* 請注意，邏輯不會平衡多個列上的實體。 例如，如果有五個或六個要顯示的實體，並不會動態變成三個在頂端、兩個在底部 (或三個在頂端、三個在底部)。 開始第二列之前，頂端列會顯示四個項目。
 
 ```
 <div class="at-table">

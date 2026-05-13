@@ -4,9 +4,22 @@ description: 瞭解如何疑難排解 [!DNL Target] [!UICONTROL Visual Experienc
 title: 如何疑難排解[!UICONTROL Visual Experience Composer]和[!UICONTROL Enhanced Experience Composer]的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1202
 ht-degree: 32%
 
 ---
@@ -38,16 +51,16 @@ ht-degree: 32%
 
 * 編輯活動時，*無法*&#x200B;下載[!DNL Target]資料庫嗎（當這些資料庫不在網站上時）。 這是因為下載呼叫是從客戶網域向安全的[!DNL Adobe]網域發出的，而且會以未經驗證的方式遭到拒絕。
 
-* EEC無法為&#x200B;*上的Cookie設定SameSite屬性，因此不會為所有使用者*&#x200B;設定`adobemc.com domain`函式。 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
+* EEC無法為`adobemc.com domain`上的Cookie設定SameSite屬性，因此不會為所有使用者&#x200B;*設定*&#x200B;函式。 若沒有此屬性，瀏覽器會拒絕這些Cookie，導致EEC失敗。
 
 +++
 
 ### 判斷封鎖哪些Cookie
 
 +++詳細資料
-若要判斷哪些Cookie因SameSite Cookie執行原則而遭到封鎖，請在[!DNL Developer Tools]中使用[!DNL Chrome]。
+若要判斷哪些Cookie因SameSite Cookie執行原則而遭到封鎖，請在[!DNL Chrome]中使用[!DNL Developer Tools]。
 
-1. 若要存取[!DNL Developer Tools]，在[!DNL Chrome]中檢視VEC時，請按一下Chrome > **[!UICONTROL ellipsis]** > **[!UICONTROL More Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL Developer Tools]**&#x200B;圖示。
+1. 若要存取[!DNL Developer Tools]，在[!DNL Chrome]中檢視VEC時，請按一下Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL ellipsis]**&#x200B;圖示。
 1. 按一下「**[!UICONTROL Network]**」標籤> ，然後尋找封鎖的Cookie。
 
    >[!NOTE]
@@ -65,7 +78,7 @@ ht-degree: 32%
 
 +++
 
-## 當我嘗試編輯頁面時，我只看到了進度環而非我的頁面。(VEC 和 EEC) {#section_313001039F79446DB28C70D932AF5F58}
+## 當我嘗試編輯頁面時，我只看到了進度環而非我的頁面。 (VEC 和 EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++詳細資料
 如果URL包含#個字元，就可能發生這種情況。 若要修正此問題，請在VEC或EEC中切換至[!UICONTROL Browse]模式，然後切換回[!UICONTROL Compose]模式。 進度環應該會消失，並且頁面應該會載入。
@@ -80,7 +93,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->除了下列資訊外，您還可以為[使用](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper瀏覽器擴充功能[!DNL Google Chrome]。
+>除了下列資訊外，您還可以為[!DNL Google Chrome]使用[Adobe Target VEC Helper瀏覽器擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
 ![cps_headers影像](assets/cps_headers.png)
 
@@ -97,31 +110,31 @@ ht-degree: 32%
 
 +++
 
-## 重新編輯已儲存的活動時，VEC 或 EEC 似乎損毀或未初始化。(VEC 和 EEC) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+## 重新編輯已儲存的活動時，VEC 或 EEC 似乎損毀或未初始化。 (VEC 和 EEC) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
 
 +++詳細資料
 如果定義體驗後，網站在VEC外部有所變更，則當活動開啟以進行重新編輯時，找不到先前已執行動作的選取器。 頁面似乎損毀，並且未顯示警告。
 
 +++
 
-## VEC 或 EEC 未顯示我的旋轉橫幅和包含 JavaScript 的其他內容。(VEC 和 EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
+## VEC 或 EEC 未顯示我的旋轉橫幅和包含 JavaScript 的其他內容。 (VEC 和 EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 +++詳細資料
 依預設，VEC會封鎖JavaScript元素。 如果您停用JavaScript，則可以使用這些元素。 根據網站的設定方式，一些項目可能會繼續不正確地顯示或保持無法使用。
 
 +++
 
-## 在頁面上變更一個元素時，變更了多個元素。(VEC 和 EEC) {#section_309188ACF34942989BE473F63C5710AF}
+## 在頁面上變更一個元素時，變更了多個元素。 (VEC 和 EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++詳細資料
-如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。此做法是標準的HTML最佳作法。 如需詳細資訊，請參閱[頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如果您在頁面的多個元素上使用相同的 DOM 元素 ID，變更這些元素中的一個會變更具有該 ID 的所有元素。 若要防止發生此問題，一個 ID 應該僅在每個頁面上使用一次。 此做法是標準的HTML最佳作法。 如需詳細資訊，請參閱[頁面修改案例](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 +++
 
-## 我無法編輯 iFrame-busting 網站的體驗。(VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
+## 我無法編輯 iFrame-busting 網站的體驗。 (VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++詳細資料
-啟用[!UICONTROL Enhanced Experience Composer] (EEC)即可解決此問題。 按一下&#x200B;**[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**，然後選取啟用[!UICONTROL Enhanced Experience Composer]的核取方塊。 EEC使用[!DNL Adobe]管理的Proxy來載入您的頁面以進行編輯。 此Proxy允許在iFrame-busting網站上進行編輯，也允許在您尚未新增[!DNL Adobe Target]程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。有些網站可能無法透過EEC載入，在此情況下，您可以取消勾選此選項，以透過iFrame載入EEC。
+啟用[!UICONTROL Enhanced Experience Composer] (EEC)即可解決此問題。 按一下&#x200B;**[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**，然後選取啟用[!UICONTROL Enhanced Experience Composer]的核取方塊。 EEC使用[!DNL Adobe]管理的Proxy來載入您的頁面以進行編輯。 此Proxy允許在iFrame-busting網站上進行編輯，也允許在您尚未新增[!DNL Adobe Target]程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。 有些網站可能無法透過EEC載入，在此情況下，您可以取消勾選此選項，以透過iFrame載入EEC。
 
 >[!NOTE]
 >
@@ -136,10 +149,10 @@ ht-degree: 32%
 
 +++
 
-## 我的頁面上不會顯示具有[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]或[!UICONTROL Change Text]/[!DNL Change HTML]的粗體和斜體文字樣式。 有時文字會在套用這些樣式變更之後消失。(VEC 和 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## 我的頁面上不會顯示具有[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]或[!UICONTROL Change Text]/[!DNL Change HTML]的粗體和斜體文字樣式。 有時文字會在套用這些樣式變更之後消失。 (VEC 和 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++詳細資料
-如果您在VEC中針對&#x200B;**[!UICONTROL Edit Text]或[!UICONTROL Edit HTML]**&#x200B;活動使用[!UICONTROL A/B Test]/[!UICONTROL Experience Targeting]，或針對&#x200B;**[!UICONTROL Change Text]或[!UICONTROL Change HTML]**&#x200B;活動使用[!UICONTROL Automated Personalization]/[!UICONTROL Multivariate Test]來使文字粗體或斜體，則這些樣式可能無法在頁面上套用，或文字會從VEC的頁面中消失。 之所以發生此情況，是因為RTF編輯器套用這些樣式的方式，可能會干擾網站標籤。
+如果您在VEC中針對[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動使用&#x200B;**[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]**，或針對[!UICONTROL Automated Personalization]或[!UICONTROL Multivariate Test]活動使用&#x200B;**[!UICONTROL Change Text]/[!UICONTROL Change HTML]**&#x200B;來使文字粗體或斜體，則這些樣式可能無法在頁面上套用，或文字會從VEC的頁面中消失。 之所以發生此情況，是因為RTF編輯器套用這些樣式的方式，可能會干擾網站標籤。
 
 如果您看見此問題:
 
@@ -152,9 +165,9 @@ ht-degree: 32%
 
 +++
 
-## 針對自動個人化活動，影像交換在 VEC 或 EEC 中似乎損毀。(VEC 和 EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
+## 針對自動個人化活動，影像交換在 VEC 或 EEC 中似乎損毀。 (VEC 和 EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++詳細資料
-新增影像產品建議至位置以取得 VEC 或 EEC 中原始影像空間的完整尺寸。在傳遞時，影像不會展開並且如原樣顯示，因此對傳遞沒有影響。
+新增影像產品建議至位置以取得 VEC 或 EEC 中原始影像空間的完整尺寸。 在傳遞時，影像不會展開並且如原樣顯示，因此對傳遞沒有影響。
 
 +++

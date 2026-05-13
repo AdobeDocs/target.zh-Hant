@@ -2,13 +2,18 @@
 keywords: 建議設計;建立設計;複製設計
 description: 瞭解如何使用預設設計或透過建立自訂設計以最符合您的頁面版面配置來建立 [!DNL Target Recommendations] 設計。
 title: 如何在Recommendations建立設計？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 19%
+source-wordcount: 1006
+ht-degree: 20%
 
 ---
 
@@ -50,13 +55,13 @@ ht-degree: 19%
 
 1. 輸入&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;和選用的預覽影像以顯示於設計卡片。
 
-   使用預設設計時，設計名稱和「Copy」會出現在&#x200B;**[!UICONTROL Content Name]**&#x200B;欄位中。 您可以編輯名稱。您也可以選取要在設計卡片上顯示的影像。
+   使用預設設計時，設計名稱和「Copy」會出現在&#x200B;**[!UICONTROL Content Name]**&#x200B;欄位中。 您可以編輯名稱。 您也可以選取要在設計卡片上顯示的影像。
 
 1. （視條件而定）視需要編輯設計&#x200B;**[!UICONTROL Code]**。
 
-   Recommendation 設計使用開放式原始碼 Velocity 設計語言。有關Velocity的資訊，請參閱[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)。
+   Recommendation 設計使用開放式原始碼 Velocity 設計語言。 有關Velocity的資訊，請參閱[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   設計可以是 HTML 或非 HTML。依預設，HTML設計會以`<div>`標籤包裝，以允許在Web環境中進行點選追蹤。 非HTML設計適用於無法進行點選追蹤的非Web環境。 將[!UICONTROL HTML Design]切換滑至「關閉」位置即可使用非HTML程式碼。
+   設計可以是 HTML 或非 HTML。 依預設，HTML設計會以`<div>`標籤包裝，以允許在Web環境中進行點選追蹤。 非 HTML 設計用於非 Web 環境，在其中無法進行點擊追蹤。 將[!UICONTROL HTML Design]切換滑至「關閉」位置即可使用非HTML程式碼。
 
    >[!NOTE]
    >
@@ -136,7 +141,7 @@ ht-degree: 19%
    1. 在&#x200B;**[!UICONTROL Choose Experience Composer]**&#x200B;下，選取&#x200B;**[!UICONTROL Form]**，然後按一下&#x200B;**[!UICONTROL Next]**。
    1. 在位置下，輸入文字: &quot;Sample_Recs_Response&quot;
    1. 在&#x200B;**[!UICONTROL Default Content]**&#x200B;下，按一下向下箭頭，然後按一下&#x200B;**[!UICONTROL Add Recommendation]**。
-   1. 選擇頁面類型。這會決定下一個畫面的起始篩選。
+   1. 選擇頁面類型。 這會決定下一個畫面的起始篩選。
    1. 選取條件卡，然後按一下&#x200B;**[!UICONTROL Next]**。
    1. 選取您在上一步建立的設計，然後按一下&#x200B;**[!UICONTROL Next]**。
    1. 完成設定程序。
@@ -156,7 +161,7 @@ ht-degree: 19%
 
    | 參數 | 值 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target使用者端代碼(位於/help/target/products.html#recsSettings > Recommendations API Token >使用者端代碼)。 |
+   | `[YOUR_CLIENT_CODE]` | Target使用者端代碼（位於#recsSettings > Recommendations API Token >使用者端代碼）。 |
    | `[YOUR_MBOX_NAME]` | 您在表單式「建議」的「位置」區段中選取的名稱，此例子中是Sample_Recs_Response。 |
    | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
@@ -173,7 +178,7 @@ ht-degree: 19%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您可以在回應中傳送其他資訊。下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。此設計範例也傳回活動詳細資料、[!UICONTROL Target Profile]詳細資料（如適用），以及與傳回的專案相關聯的其他`entity.attributes`。
+或者，您可以在回應中傳送其他資訊。 下列程式碼檔案是較複雜的範例，不只傳回實體 ID，還有其相關聯的位置 (訂單)。 此設計範例也傳回活動詳細資料、[!UICONTROL Target Profile]詳細資料（如適用），以及與傳回的專案相關聯的其他`entity.attributes`。
 
 ```javascript
     {   

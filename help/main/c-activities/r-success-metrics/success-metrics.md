@@ -4,10 +4,23 @@ description: 瞭解可協助您判斷活動是否成功的成功量度。 成功
 title: 什麼是成功量度？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
+TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 22%
+source-wordcount: 1374
+ht-degree: 23%
 
 ---
 
@@ -21,7 +34,7 @@ ht-degree: 22%
 
 在[!DNL Target]中，成功量度已預先設定建議的設定，以確保準確的報告和有效追蹤。
 
-依預設，轉換事件使用設定&#x200B;**[!UICONTROL Increment count & keep user in activity]。**&#x200B;此設定表示每個訪客僅計算為轉換一次。 不計算重複轉換。 這些訪客會在整個工作階段中持續看到活動內容。
+依預設，轉換事件使用設定&#x200B;**[!UICONTROL Increment count & keep user in activity].** 此設定表示每個訪客僅會計為轉換一次。 不計算重複轉換。 這些訪客會在整個工作階段中持續看到活動內容。
 
 對於使用相同設定的收入量度，只有訪客的第一個訂單會記錄訂單詳細資料。 雖然後續訂單會增加轉換計數，但不會貢獻收入型量度，例如[!UICONTROL Revenue per Visitor (RPV)]、[!UICONTROL Average Order Value (AOV)]或[!DNL Total Sales]。 這些額外的訂單也會從[!UICONTROL Order Details]報表中排除。
 
@@ -29,23 +42,23 @@ ht-degree: 22%
 >
 >對於使用[Analytics作為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動，目標量度一律使用&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;和&quot;[!UICONTROL On Every Impression]&quot;設定。 這些設定是&#x200B;*不可設定的*。
 
-可在[!UICONTROL Reporting Settings]上的[!UICONTROL Activity Settings page]區段中，於[!UICONTROL Goals & Settings]步驟下設定下列成功量度：
+可在[!UICONTROL Activity Settings page]上的[!UICONTROL Reporting Settings]區段中，於[!UICONTROL Goals & Settings]步驟下設定下列成功量度：
 
 | 成功量度 | 測量方式 | 定義 |
 |--- |--- |--- |
 | [!UICONTROL Conversion] | 轉換型 | 轉換是指訪客在您定義的網站上執行動作時，例如 <ul><li>已檢視頁面</li><li>已檢視 mbox</li><li>按一下元素</li></ul>每個訪客或每次訪客完成轉換時，可計算一次轉換。 |
-| [!UICONTROL Revenue] | 轉換型 | 造訪產生的收入。您只能選擇一個收入量度：<ul><li>已檢視 mbox</li></ul>如需有關更新的[!DNL Target] UI中有關收入成功量度相關變更的詳細資訊，請參閱下方的[已更新 [!DNL Target] UI變更](#changes)。 |
+| [!UICONTROL Revenue] | 轉換型 | 造訪產生的收入。 您只能選擇一個收入量度：<ul><li>已檢視 mbox</li></ul>如需有關更新的[!DNL Target] UI中有關收入成功量度相關變更的詳細資訊，請參閱下方的[已更新 [!DNL Target] UI變更](#changes)。 |
 | [!UICONTROL Engagement] | 參與型 | 造訪產生的參與度。 您可以從下列參與量度中選擇：<UL><li>頁面檢視：每次不重複造訪均會計為轉換。</li><li>[!UICONTROL Custom Scoring]：從訪客第一眼看到此活動的第一個顯示[!DNL Target]要求開始，根據網站上已造訪頁面所指派的值彙總分數。</li>[!DNL Time on Site]：瀏覽所花的時間（以秒為單位），從訪客看到活動的第一個顯示[!DNL Target]要求開始，一直到載入工作階段中有要求的最後一頁為止。</UL> |
 
-針對參與型量度（不同於轉換型和收入型量度），訪客必須重新符合每次造訪的活動資格，才能遞增該工作階段的計數。 相關量度會在重新取得資格後開始增加計數，並在各訪客的工作階段結束後停止。閒置 30 分鐘後，工作階段就會結束。因此，在測試期間不會立即看到結果；不過，該工作階段的所有結果在工作階段結束後的幾分鐘內即可使用。
+針對參與型量度（不同於轉換型和收入型量度），訪客必須重新符合每次造訪的活動資格，才能遞增該工作階段的計數。 相關量度會在重新取得資格後開始增加計數，並在各訪客的工作階段結束後停止。 閒置 30 分鐘後，工作階段就會結束。 因此，在測試期間不會立即看到結果；不過，該工作階段的所有結果在工作階段結束後的幾分鐘內即可使用。
 
 ## 自訂成功量度
 
 您也可以建立自訂成功量度。
 
-選取成功量度之後，請選取訪客為了達成目標採取的動作。例如，選擇一個[!UICONTROL Conversion]量度，將其設為每位訪客計算一次，然後設定當訪客檢視特定頁面（或一組頁面）、檢視特定[!DNL Target]請求或按一下特定連結時是否成功。
+選取成功量度之後，請選取訪客為了達成目標採取的動作。 例如，選擇一個[!UICONTROL Conversion]量度，將其設為每位訪客計算一次，然後設定當訪客檢視特定頁面（或一組頁面）、檢視特定[!DNL Target]請求或按一下特定連結時是否成功。
 
-如果已啟用，[!UICONTROL Estimated Value of one conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值，但不適用其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。對於所有收入量度（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]和[!UICONTROL Orders]），預估會使用[!UICONTROL Revenue per Visitor]。 資料類型為貨幣。請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
+如果已啟用，[!UICONTROL Estimated Value of one conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值，但不適用其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。 此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。 對於所有收入量度（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]和[!UICONTROL Orders]），預估會使用[!UICONTROL Revenue per Visitor]。 資料類型為貨幣。 請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
 
 檢視活動報表時，您為活動選擇的成功量度會顯示在報表設定中。
 
@@ -53,7 +66,7 @@ ht-degree: 22%
 
 ## 進階設定 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-使用進階設定來管理測量成功的方式。選項包括新增相依性、選擇讓使用者留在活動還是移除活動，以及是否對每個加入者或每次曝光都計算一次量度。
+使用進階設定來管理測量成功的方式。 選項包括新增相依性、選擇讓使用者留在活動還是移除活動，以及是否對每個加入者或每次曝光都計算一次量度。
 
 若要存取[!UICONTROL Advanced Settings]選項，請按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下&#x200B;**[!UICONTROL Advanced Settings]**。
 
@@ -63,7 +76,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。[!UICONTROL Advanced Settings]選項無法使用。 如需詳細資訊，請參閱[Adobe Analytics作為Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報告來源。
+>如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。 [!UICONTROL Advanced Settings]選項無法使用。 如需詳細資訊，請參閱[Adobe Analytics作為Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報告來源。
 
 ### 新增相依性
 
@@ -85,7 +98,7 @@ ht-degree: 22%
 
 ### 使用者達到此目標量度後會發生什麼事? {#what-happens}
 
-使用進階設定來判斷使用者達到目標量度之後要執行的動作。下表顯示可用的選項：
+使用進階設定來判斷使用者達到目標量度之後要執行的動作。 下表顯示可用的選項：
 
 | 使用者達到此目標量度之後 | 選項 |
 |--- |--- |

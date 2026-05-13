@@ -4,10 +4,17 @@ description: 根據對象條件定義哪些網站訪客加入您的Adobe [!DNL T
 title: 如何在 [!DNL Target] A/B活動中選取對象？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
+TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 8%
+source-wordcount: 531
+ht-degree: 11%
 
 ---
 
@@ -15,7 +22,7 @@ ht-degree: 8%
 
 對象會決定哪些符合資格的訪客進入了您的[!DNL Adobe Target]活動。
 
-在[!UICONTROL Targeting]建立活動[時，三步驟引導式工作流程的](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)步驟會顯示流程圖表，引導您完成指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
+在[建立活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，三步驟引導式工作流程的[!UICONTROL Targeting]步驟會顯示流程圖表，引導您完成指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
 ![A/B 測試鎖定目標步驟](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
@@ -35,7 +42,7 @@ ht-degree: 8%
 
 1. 在[!UICONTROL Add Audience]對話方塊中，[選取所需的對象](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然後按一下&#x200B;**[!UICONTROL Assign Audience]**。
 
-   依預設，所有訪客皆為對象。但您可以變更對象。對象是從[!UICONTROL Audience Library]中選取，或者您可以建立僅限於此活動的對象。 [!UICONTROL Audience Library]包含先前已定義的對象，包括一些隨著[!DNL Target]預先建置的常見對象。
+   依預設，所有訪客皆為對象。 但您可以變更對象。 對象是從[!UICONTROL Audience Library]中選取，或者您可以建立僅限於此活動的對象。 [!UICONTROL Audience Library]包含先前已定義的對象，包括一些隨著[!DNL Target]預先建置的常見對象。
 
 1. （視條件而定）按一下&#x200B;**結合對象**&#x200B;至[建立結合多個對象的對象](/help/main/c-target/combining-multiple-audiences.md)。
 
@@ -44,7 +51,7 @@ ht-degree: 8%
    在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以選擇下列選項：
 
    * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可於其他活動中重複使用的隨選對象。
-   * **[!UICONTROL This activity only]**：建立未儲存至[且只能用於目前活動的](/help/main/c-target/creating-activity-only-audience.md)活動特定對象[!UICONTROL Audience Library]。
+   * **[!UICONTROL This activity only]**：建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
 
 1. 按一下右窗格中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後指定要包含在活動中的合格訪客百分比。
 
@@ -62,6 +69,6 @@ ht-degree: 8%
 
 ## 編輯或複製對象
 
-您可以編輯或複製對象，方法是按一下[!UICONTROL More Actions]對話方塊中所需對象旁的![圖示（](/help/main/assets/icons/More.svg)更多動作圖示[!UICONTROL Add Audience] ），然後按一下[!UICONTROL Edit]或[!UICONTROL Copy]。
+您可以編輯或複製對象，方法是按一下[!UICONTROL Add Audience]對話方塊中所需對象旁的[!UICONTROL More Actions]圖示（![更多動作圖示](/help/main/assets/icons/More.svg) ），然後按一下[!UICONTROL Edit]或[!UICONTROL Copy]。
 
-如果想要建立一個類似現有對象的對象，則複製對象就很有用。您可以製作對象的副本、進行編輯，然後儲存為新對象。
+如果想要建立一個類似現有對象的對象，則複製對象就很有用。 您可以複製對象、進行編輯，然後儲存為新對象。

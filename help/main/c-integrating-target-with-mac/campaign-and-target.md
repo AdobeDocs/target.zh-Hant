@@ -4,9 +4,17 @@ description: 瞭解如何搭配Adobe Campaign使用Adobe [!DNL Target] 來最佳
 title: 如何將 [!DNL Target] 與Adobe Campaign整合？
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/RMW9ijj8UqzrDr1-PKwwfw5aWfH4YmtSi1HR7rLDSZ4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 372
 ht-degree: 32%
 
 ---
@@ -17,7 +25,7 @@ ht-degree: 32%
 
 若要最佳化您的電子郵件內容，您可以在[!DNL Target]中建立重新導向選件，然後使用[!DNL Adobe Campaign]來管理電子郵件選件。 例如，您可以為男性收件者和女性收件者顯示不同的優惠方案。
 
-開啟電子郵件時即會進行整合。當客戶開啟電子郵件時，會致電[!DNL Target]，並顯示內容的動態版本。 內容包含所有瀏覽器皆支援的靜態影像。[!DNL Target]會追蹤對象或工作階段層級對優惠方案的反應，且可在[!DNL Target]個報表中找到該資料。
+開啟電子郵件時即會進行整合。 當客戶開啟電子郵件時，會致電[!DNL Target]，並顯示內容的動態版本。 內容包含所有瀏覽器皆支援的靜態影像。 [!DNL Target]會追蹤對象或工作階段層級對優惠方案的反應，且可在[!DNL Target]個報表中找到該資料。
 
 [!DNL Target]可以追蹤下列資料：
 
@@ -51,13 +59,13 @@ ht-degree: 32%
 
   請參閱[建立重新導向選件](/help/main/c-experiences/c-manage-content/offer-redirect.md)。
 
-* 具有每個選件的體驗以及所需[!DNL Target]成功量度[的](/help/main/c-activities/r-success-metrics/success-metrics.md)活動。
+* 具有每個選件的體驗以及所需[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的[!DNL Target]活動。
 
   請參閱[重新導向至 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
-設定整合的[!DNL Target]部分之前，請先在[!DNL Campaign]中啟動活動。
+設定整合的[!DNL Campaign]部分之前，請先在[!DNL Target]中啟動活動。
 
-## 在[!DNL Target]電子郵件中包含[!DNL Adobe Campaign]選件 {#section_B201BBE27A704E18AF0D553F35695837}
+## 在[!DNL Adobe Campaign]電子郵件中包含[!DNL Target]選件 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在[!DNL Adobe Campaign]中建立電子郵件。
 1. 在電子郵件內容中，按一下&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**。

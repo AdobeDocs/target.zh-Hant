@@ -6,9 +6,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: 2850
 ht-degree: 0%
 
 ---
@@ -35,7 +47,7 @@ ht-degree: 0%
 >
 >如需每個演演算法型別和個別演演算法的詳細一般資訊，請參閱[讓建議以建議索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
-以上列出的許多演演算法都是以一或多個索引鍵的存在為前提。 這些索引鍵會在內容傳送時（產生建議時）用來擷取類似專案。 客戶指定的索引鍵可包含某人正在檢視的目前專案、最後一個已檢視或購買的專案、最常檢視的專案、目前類別，或該訪客最喜愛的類別。 其他演演算法（例如購物車型或使用者型建議）則使用隱含索引鍵（客戶無法設定）。 如需詳細資訊，請參閱&#x200B;*讓建議以建議金鑰為依據*&#x200B;中的[建議金鑰](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)。 但是請注意，這些鍵值僅在模型服務時間（內容傳送）中相關。 這些索引鍵不會影響「離線」或模型訓練時間邏輯。
+以上列出的許多演演算法都是以一或多個索引鍵的存在為前提。 這些索引鍵會在內容傳送時（產生建議時）用來擷取類似專案。 客戶指定的索引鍵可包含某人正在檢視的目前專案、最後一個已檢視或購買的專案、最常檢視的專案、目前類別，或該訪客最喜愛的類別。 其他演演算法（例如購物車型或使用者型建議）則使用隱含索引鍵（客戶無法設定）。 如需詳細資訊，請參閱[讓建議以建議金鑰為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)中的&#x200B;*建議金鑰*。 但是請注意，這些鍵值僅在模型服務時間（內容傳送）中相關。 這些索引鍵不會影響「離線」或模型訓練時間邏輯。
 
 以下各節會以與上述演演算法型別稍微不同的方式將演演算法分組。 以下分組是根據模型訓練邏輯的相似性。
 
@@ -57,7 +69,7 @@ ht-degree: 0%
 
 已檢視/已購買演演算法的![公式](assets/formula.png)
 
-那麼專案B不應與專案A一起建議。此PDF[中提供了此對數似然比相似度計算的完整詳細資料](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)。
+那麼專案B不應與專案A一起建議。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料。
 
 實際演演算法實施的邏輯流程如下圖所示：
 
@@ -89,14 +101,14 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**：如前所述，此演演算法完全以目錄資料為基礎(透過[!DNL Target]目錄摘要、實體API或頁面上的更新擷取至[。](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}
+* **輸入資料**：如前所述，此演演算法完全以目錄資料為基礎(透過[目錄摘要、實體API或頁面上的更新擷取至[!DNL Target]。](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}
 
 * **模型訓練**：
 
    * **屬性擷取**：在應用一般靜態篩選器、目錄規則和全域排除之後，此演演算法會從實體結構描述中擷取相關的文字欄位。 [!DNL Target]會自動使用來自實體屬性的名稱、訊息和類別欄位，並嘗試從自訂[實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md)擷取任何字串欄位。 此程式可透過確保該欄位的大多數值都不可剖析為數字、日期或布林值來完成。
    * **刪除詞幹與停用詞**：若要更精確的文字相似度比對，請謹慎移除不會大幅改變專案含義的非常常見的「停用詞」（例如，「was」、「is」、「and」等）。 同樣地，詞幹是指將尾碼不同的字詞還原為根字詞的過程，根字詞具有相同的含義（例如，「connect」、「connecting」和「connection」都擁有相同的根字詞：「connect」）。 [!DNL Target]使用Snowball字乾器。 [!DNL Target]會先執行自動語言偵測，最多可以移除50種語言的stop單字，並為18種語言撰寫字根。
    * **n字元建立**：在前面的步驟之後，每個字都會被視為語彙基元。 將權杖的連續序列組合成單一權杖的過程稱為n字元組建立。 [!DNL Target]的演演算法最多可考慮2克。
-   * **tf-idf計算**：下一個步驟涉及建立tf-idf向量，以反映專案描述中權杖的相對重要性。 對於專案i中的每個Token/詞語t，在目錄D中使用 |D| 專案，會先計算字詞頻率TF(t， i) （字詞出現在專案i中的次數），以及檔案頻率DF(t， D)。 實質上，代號存在的專案數。 則tf-idf測量為
+   * **tf-idf計算**：下一個步驟涉及建立tf-idf向量，以反映專案描述中權杖的相對重要性。 對於專案i中的每個Token/詞語t，在目錄D中使用 |D|個專案，會先計算字詞頻率TF(t， i) （字詞出現在專案i中的次數），以及檔案頻率DF(t， D)。 實質上，代號存在的專案數。 則tf-idf測量為
 
      ![顯示tf-idf量值的公式](assets/formula2.png)
 

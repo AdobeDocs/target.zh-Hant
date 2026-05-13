@@ -5,20 +5,25 @@ title: 如何在Recommendations活動中使用集合？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
+TQID: https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 28%
 
 ---
 
 # 集合
 
-集合是符合建議資格的一組產品或專案。 集合的定義方式是指定專案必須符合的條件，才能成為其一部分。
+集合是符合建議資格的一組產品或項目。 集合的定義方式是指定專案必須符合的條件，才能成為其一部分。
 
-集合通常是指一組相似或相關的項目，例如單一產品集合。不過，您可以將任何專案分組到對您的業務有意義的類別中，例如特定價格範圍內的產品，或可能在特定地理區域受到歡迎的顏色或專案。
+集合通常是指一組相似或相關的項目，例如單一產品集合。 不過，您可以將任何專案分組到對您的業務有意義的類別中，例如特定價格範圍內的產品，或可能在特定地理區域受到歡迎的顏色或專案。
 
-請使用集合以在邏輯分組中組織產品。例如，如果某些專案在一個區域可用，但在另一個區域不可用，您可以建立排除訪客區域不可用專案的集合。 您也可以使用集合來組織季節性項目，或使用業務上適合的任何其他組織參數。
+請使用集合以在邏輯分組中組織產品。 例如，如果某些專案在一個區域可用，但在另一個區域不可用，您可以建立排除訪客區域不可用專案的集合。 您也可以使用集合來組織季節性項目，或使用業務上適合的任何其他組織參數。
 
 [針對建議內每個條件產生的備用建議](/help/main/c-recommendations/c-algorithms/backup-recs.md)也會使用此集合，因此只有集合中的專案會包含在備用建議中。 集合可讓您確保只顯示必須出現在位置中的產品。
 
@@ -26,7 +31,7 @@ ht-degree: 26%
 
 您可以將項目分組為目錄，然後為每個集合建立個別的建議。
 
-包含條件的用途類似集合，但必須在您每次建立活動時設定。集合可讓您一次建立一組專案，然後可視需要隨時使用它，而無需重新設定。
+包含條件的用途類似集合，但必須在您每次建立活動時設定。 集合可讓您一次建立一組專案，然後可視需要隨時使用它，而無需重新設定。
 
 當您建立或編輯[!DNL Recommendations]活動時，集合名稱會出現在活動圖表的[!UICONTROL Criteria]標籤旁。
 
@@ -52,13 +57,13 @@ ht-degree: 26%
 
    您也可以輸入選擇性的&#x200B;**[!UICONTROL Description]**。
 
-1. （視條件而定）建立（或更新）集合時，從[篩選器中選擇](/help/main/administrating-target/environments.md)環境&#x200B;**[!UICONTROL Environment]**，以預覽該環境中的集合內容。 依照預設，會顯示預設主機群組的結果。
+1. （視條件而定）建立（或更新）集合時，從&#x200B;**[!UICONTROL Environment]**&#x200B;篩選器中選擇[環境](/help/main/administrating-target/environments.md)，以預覽該環境中的集合內容。 依照預設，會顯示預設主機群組的結果。
 
 1. 設定用來建立集合的規則。
 
    例如，您的集合可能根據清單中的產品 ID 或類別、利潤或任何其他參數建立。
 
-   您可以新增規則，以使用多個參數來定義集合。您可使用AND運運算元聯結多個規則。 所有指定的規則必須符合，才會套用集合。
+   您可以新增規則，以使用多個參數來定義集合。 您可使用AND運運算元聯結多個規則。 所有指定的規則必須符合，才會套用集合。
 
 1. 按一下 **[!UICONTROL Create]**。
 

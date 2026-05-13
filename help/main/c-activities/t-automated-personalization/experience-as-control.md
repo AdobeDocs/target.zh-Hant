@@ -1,15 +1,25 @@
 ---
 keywords: 體驗;控制;automated personalization;自動鎖定目標
-description: 瞭解如何在[!UICONTROL Automated Personalization]中建立[!UICONTROL Auto-Target] (AP)或 [!DNL Adobe Target]活動時，選取要用來作為控制的體驗。
+description: 瞭解如何在 [!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)或[!UICONTROL Auto-Target]活動時，選取要用來作為控制的體驗。
 title: 如何在[!UICONTROL Automated Personalization]活動中使用特定體驗作為控制？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 39%
+source-wordcount: 783
+ht-degree: 38%
 
 ---
 
@@ -17,9 +27,9 @@ ht-degree: 39%
 
 建立[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活動時，您可以選取要用來作為控制的隨機提供的體驗或特定體驗。
 
-此功能可讓您根據活動中設定的流量配置百分比，將控制流量傳送至相關體驗。接著，您可以根據該控制之控制流量，評估個人化流量的效能報表。
+此功能可讓您根據活動中設定的流量配置百分比，將控制流量傳送至相關體驗。 接著，您可以根據該控制之控制流量，評估個人化流量的效能報表。
 
-在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中設定控制項的選項與其他活動型別稍有不同。 在手動[!UICONTROL A/B Test]中，您可以變更顯示為控制體驗的報表，而提升度會根據該控制體驗的轉換率計算。 您可以輕鬆進行此變更，因為無論控制一開始是設定至哪個體驗，流量都會隨機提供給包含在活動中的各個體驗。換言之，選取控制不會影響流量的提供方式。 在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中，您選擇用來作為控制的決定確實會影響訪客流量的提供方式。 因此，您必須更謹慎思考您的決定。
+在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中設定控制項的選項與其他活動型別稍有不同。 在手動[!UICONTROL A/B Test]中，您可以變更顯示為控制體驗的報表，而提升度會根據該控制體驗的轉換率計算。 您可以輕鬆進行此變更，因為無論控制一開始是設定至哪個體驗，流量都會隨機提供給包含在活動中的各個體驗。 換言之，選取控制不會影響流量的提供方式。 在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中，您選擇用來作為控制的決定確實會影響訪客流量的提供方式。 因此，您必須更謹慎思考您的決定。
 
 在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中，有兩個選項可供您的控制項使用：
 
@@ -48,12 +58,12 @@ ht-degree: 39%
 
 使用特定體驗作為控制時，請記住下列重點：
 
-* 不建議變更已上線活動中的控制體驗。選取的最新控制體驗會在報表中命名 (即使較舊報表是根據其他體驗也是如此)。
+* 不建議變更已上線活動中的控制體驗。 選取的最新控制體驗會在報表中命名 (即使較舊報表是根據其他體驗也是如此)。
 * 不建議刪除控制體驗。
 * 不建議透過作為控制的特定體驗將許多新選件或體驗新增至上線活動。
 * 在[!UICONTROL Automated Personalization]活動中，不建議在可能會進一步限制誰能看到控制體驗的該體驗上包含鎖定目標。
-* 在[!UICONTROL Automated Personalization]個活動中，如果已選取特定體驗，提升度和信賴資訊在選件層級的報告中&#x200B;*NOT*&#x200B;可用。 在[!UICONTROL Automated Personalization]活動的整體「已鎖定目標」與「控制」流量層級提供提升度和信賴資訊。 如果已選取「隨機」作為控制，則可取得提升度和信賴資訊。此差異是因為比較特定體驗的轉換率與產品建議的轉換率，由於兩者單位不同，這種比較並不符合邏輯。無論選取哪種控制型別，[!UICONTROL Auto-Target]活動中可用的資訊都是相同的。
-* 因為在您選取體驗作為控制時，所有控制流量都會進入單一體驗或一組產品建議 (相較之下，在隨機狀況中，控制流量則會分散在活動中的多個體驗或產品建議之中)，您通常不需要像流向控制如此多的流量。建議從 10% 開始。
+* 在[!UICONTROL Automated Personalization]個活動中，如果已選取特定體驗，提升度和信賴資訊在選件層級的報告中&#x200B;*NOT*&#x200B;可用。 在[!UICONTROL Automated Personalization]活動的整體「已鎖定目標」與「控制」流量層級提供提升度和信賴資訊。 如果已選取「隨機」作為控制，則可取得提升度和信賴資訊。 此差異是因為比較特定體驗的轉換率與產品建議的轉換率，由於兩者單位不同，這種比較並不符合邏輯。 無論選取哪種控制型別，[!UICONTROL Auto-Target]活動中可用的資訊都是相同的。
+* 因為在您選取體驗作為控制時，所有控制流量都會進入單一體驗或一組產品建議 (相較之下，在隨機狀況中，控制流量則會分散在活動中的多個體驗或產品建議之中)，您通常不需要像流向控制如此多的流量。 建議從 10% 開始。
 * 如果您透過作為控制的特定體驗對上線活動執行下列其中一項操作，控制會自動重設為隨機提供體驗 (而不是先前選取的特定體驗):
 
    * 刪除體驗

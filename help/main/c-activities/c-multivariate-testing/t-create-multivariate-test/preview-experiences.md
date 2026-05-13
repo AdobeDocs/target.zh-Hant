@@ -1,19 +1,25 @@
 ---
 keywords: 多變數； MVT；預覽；體驗
-description: 瞭解如何使用[!UICONTROL Multivariate Test] (VEC)預覽 [!DNL Adobe Target] 中[!UICONTROL Visual Experience Composer] (MVT)活動的每個體驗。
+description: 瞭解如何使用[!UICONTROL Visual Experience Composer] (VEC)預覽 [!DNL Adobe Target] 中[!UICONTROL Multivariate Test] (MVT)活動的每個體驗。
 title: 如何預覽[!UICONTROL Multivariate Test] (MVT)的體驗？
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+TQID: https://experienceleague.adobe.com/IswPThtgoGod4lcCbHWbsSp6-cTzhI6hi0CvTZ1al9A
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 204
 ht-degree: 9%
 
 ---
 
 # 預覽[!UICONTROL Multivariate Test]的體驗
 
-因為[!UICONTROL Multivariate Test]中的[!DNL Adobe Target]比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
+因為[!DNL Adobe Target]中的[!UICONTROL Multivariate Test]比較頁面上的多個體驗，使用每個體驗預覽頁面很有幫助。
 
 1. 按一下&#x200B;**[!UICONTROL Preview]**，然後按一下&#x200B;**[!UICONTROL Show Experiences]**&#x200B;圖示（![顯示體驗圖示](/help/main/assets/icons/WebPages.svg)）以顯示左側框架中的所有體驗清單。
 

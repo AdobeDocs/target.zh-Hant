@@ -4,9 +4,15 @@ description: 組織和最佳化[!UICONTROL Offers]資料庫中的程式碼和影
 title: 探索[!UICONTROL Offers]資料庫中的內容管理
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: 709
 ht-degree: 12%
 
 ---
@@ -21,7 +27,7 @@ ht-degree: 12%
 
    如需有關搜尋[!UICONTROL Offer library]和建立[!UICONTROL Smart Collections]的詳細資訊，請參閱[篩選和搜尋內容](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
 
-1. （視條件而定）若是影像選件，請在[!UICONTROL Card View]和[!UICONTROL List View]之間切換，按一下[!UICONTROL Card View]資料庫右上角的![圖示（](/help/main/assets/icons/ViewCard.svg)卡片檢檢視示[!UICONTROL List View]）或![圖示（](/help/main/assets/icons/ViewList.svg)清單檢檢視示[!UICONTROL Asset]）。
+1. （視條件而定）若是影像選件，請在[!UICONTROL Card View]和[!UICONTROL List View]之間切換，按一下[!UICONTROL Asset]資料庫右上角的[!UICONTROL Card View]圖示（![卡片檢檢視示](/help/main/assets/icons/ViewCard.svg)）或[!UICONTROL List View]圖示（![清單檢檢視示](/help/main/assets/icons/ViewList.svg)）。
 
 1. 按照下列各節的說明，執行所需的動作：
 
@@ -63,5 +69,5 @@ ht-degree: 12%
 ## 刪除專案時的注意事項 {#delete}
 
 * 您可以刪除包含任何資產和子資料夾數量的整個資料夾。 此功能適用於[!DNL Target] UI及[!DNL Adobe Experience Cloud Assets] UI。
-* 如果您刪除含有大量影像的資料夾，在幕後執行的程式可能需要幾分鐘時間，然後UI才會重新整理為顯示最終狀態。 需要的時間取決於影像數量，而非影像大小。理想的預估情況是，2,000 個影像需要十分鐘。您可以繼續進行其他工作，並稍後檢查最終狀態以驗證刪除。
-* 可以刪除[!UICONTROL Image Offer library]中的非空白資料夾。 如果沒有任何活動參照資料夾中的所有影像，則會刪除整個資料夾及其內容。如果有任何活動參照了資料夾中的某些影像，則會刪除所有未參照的影像。 會保留參照的影像和包含這些影像的資料夾。
+* 如果您刪除含有大量影像的資料夾，在幕後執行的程式可能需要幾分鐘時間，然後UI才會重新整理為顯示最終狀態。 需要的時間取決於影像數量，而非影像大小。 理想的預估情況是，2,000 個影像需要十分鐘。 您可以繼續進行其他工作，並稍後檢查最終狀態以驗證刪除。
+* 可以刪除[!UICONTROL Image Offer library]中的非空白資料夾。 如果沒有任何活動參照資料夾中的所有影像，則會刪除整個資料夾及其內容。 如果有任何活動參照了資料夾中的某些影像，則會刪除所有未參照的影像。 會保留參照的影像和包含這些影像的資料夾。

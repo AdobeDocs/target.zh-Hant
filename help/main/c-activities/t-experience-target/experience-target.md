@@ -1,12 +1,22 @@
 ---
 keywords: 鎖定目標; 體驗鎖定目標; XT; 登陸頁面; 登陸頁面促銷活動
-description: 瞭解如何在[!UICONTROL Experience Targeting]中使用 [!DNL Adobe Target]  (XT)活動，以根據一組行銷人員定義的規則和條件將內容傳送給特定對象。
+description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Experience Targeting] (XT)活動，以根據一組行銷人員定義的規則和條件將內容傳送給特定對象。
 title: 什麼是[!UICONTROL Experience Targeting] (XT)活動？
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+TQID: https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: 437
 ht-degree: 40%
 
 ---
@@ -23,9 +33,9 @@ ht-degree: 40%
 
 ## 案例: 體驗鎖定目標
 
-假設您的網站要呈現戶外設備。您的A/B測試報表顯示您有三個體驗，能讓不同的受眾產生迴響。 若要套用此探索，您想要在首頁上顯示不同的主圖影像，根據訪客的位置或興趣來吸引這些不同的受眾。 在此案例中，您想要向來自紐澤西的訪客顯示健行影像，並向來自夏威夷的訪客顯示衝浪影像。您也有一個喜歡騎自行車的客群。您想要顯示能夠吸引自行車客群的第三個主圖影像。
+假設您的網站要呈現戶外設備。 您的A/B測試報表顯示您有三個體驗，能讓不同的受眾產生迴響。 若要套用此探索，您想要在首頁上顯示不同的主圖影像，根據訪客的位置或興趣來吸引這些不同的受眾。 在此案例中，您想要向來自紐澤西的訪客顯示健行影像，並向來自夏威夷的訪客顯示衝浪影像。 您也有一個喜歡騎自行車的客群。 您想要顯示能夠吸引自行車客群的第三個主圖影像。
 
-[!UICONTROL Experience Targeting]活動可讓您使用能吸引各個受眾的不同主圖影像，來鎖定這三個受眾。 下列影片&#x200B;*「從 A/B 測試到體驗鎖定目標」*&#x200B;會示範如何建立將目標同時鎖定於兩種狀態的體驗，以及如何建立將目標鎖定於自行車愛好者的第三個體驗。這段影片也會示範如何將這三個體驗加以排序來達成您的目標。請觀看影片，然後繼續[建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)。
+[!UICONTROL Experience Targeting]活動可讓您使用能吸引各個受眾的不同主圖影像，來鎖定這三個受眾。 下列影片&#x200B;*「從 A/B 測試到體驗鎖定目標」*&#x200B;會示範如何建立將目標同時鎖定於兩種狀態的體驗，以及如何建立將目標鎖定於自行車愛好者的第三個體驗。 這段影片也會示範如何將這三個體驗加以排序來達成您的目標。 請觀看影片，然後繼續[建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)。
 
 ## 訓練影片:
 

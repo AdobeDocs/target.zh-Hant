@@ -1,13 +1,22 @@
 ---
 keywords: 管理;核准者角色;核准者
-description: 在收到 [!DNL Adobe Target] 的電子郵件邀請後，執行 [!DNL Adobe Experience Cloud]管理員應該採取的第一個工作。
+description: 在收到 [!DNL Adobe Experience Cloud]的電子郵件邀請後，執行 [!DNL Adobe Target] 管理員應該採取的第一個工作。
 title: 我該從哪裡開始管理 [!DNL Target]？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
+TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 446
 ht-degree: 32%
 
 ---
@@ -50,7 +59,7 @@ ht-degree: 32%
 
 ## 指派核准者角色給您自己 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-接受加入[!DNL Adobe Experience Cloud]的邀請並登入之後，請確認[!DNL Target]已新增至您的[!DNL Experience Cloud]帳戶，然後為您自己指派[!UICONTROL Approver]的[!DNL Target]角色。
+接受加入[!DNL Adobe Experience Cloud]的邀請並登入之後，請確認[!DNL Target]已新增至您的[!DNL Experience Cloud]帳戶，然後為您自己指派[!DNL Target]的[!UICONTROL Approver]角色。
 
 如果您的組織有 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 授權，請參閱&#x200B;*使用者*&#x200B;中的[指定角色和權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。
 
@@ -60,7 +69,7 @@ ht-degree: 32%
 
 ## 編輯[!UICONTROL Administration]設定所需的許可權 {#admin-permissions}
 
-**在2025年4月22日之前**：在[!UICONTROL Approvers]中擁有[!DNL Adobe Admin Console]許可權的使用者可以編輯或變更[[!UICONTROL Administration]的](/help/main/administrating-target/administrating-target.md)頁面[!DNL Target]頁面上的所有設定，無論他們的[!DNL Target]角色為何。
+**在2025年4月22日之前**：在[!DNL Adobe Admin Console]中擁有[!UICONTROL Approvers]許可權的使用者可以編輯或變更[!DNL Target]的[[!UICONTROL Administration]頁面](/help/main/administrating-target/administrating-target.md)頁面上的所有設定，無論他們的[!DNL Target]角色為何。
 
 **自2025年4月22日起生效**：只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能夠更新[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md)區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
 

@@ -4,10 +4,15 @@ description: 瞭解如何使用Adobe [!DNL Target] QA書籤小程式來強制 [!
 title: 如何使用活動QA書籤小程式？
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
+TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: 272
+ht-degree: 12%
 
 ---
 
@@ -17,9 +22,9 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->建立書籤小程式的程序因瀏覽器類型與版本而異。如需具體指示，請參閱瀏覽器的說明或搜尋網際網路。
+>建立書籤小程式的程序因瀏覽器類型與版本而異。 如需具體指示，請參閱瀏覽器的說明或搜尋網際網路。
 
-## at.js 1的活動QA書籤小程式&#x200B;*x*
+## at.js 1.*x*&#x200B;的活動QA書籤小程式
 
 由於[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)有粘性，當您以QA模式瀏覽網站後，您的[!DNL Target]工作階段必須到期，或您需要[!DNL Target]將您從QA模式中釋出，才能像一般訪客一樣檢視您的網站。 使用QA [!DNL Target]書籤小程式強迫自己離開QA模式。
 
@@ -48,9 +53,9 @@ javascript:(
 
 `https://www.mysite.com/?at_preview_token=`
 
-## at.js 2的活動QA書籤小程式&#x200B;*x*
+## at.js 2.*x*&#x200B;的活動QA書籤小程式
 
-與at.js 1.*x*， at.js 2.*x*&#x200B;不支援第三方Cookie，且QA模式只對第一方網域有粘性（透過at.js設定的第一方Cookie）。 因此，在at.js 2.*x*，QA模式工作階段僅在使用者端受到管理，且不會將QA模式Cookie傳送至Target。
+與at.js 1.*x*&#x200B;不同，at.js 2.*x*&#x200B;不支援第三方Cookie，而且第一方網域的QA模式只有粘性（透過at.js設定的第一方Cookie）。 因此，在at.js 2.*x*&#x200B;中，QA模式工作階段僅在使用者端上受管理，而且不會將QA模式Cookie傳送至Target。
 
 若要使用[!DNL Target] QA書籤小程式，請建立包含下列JavaScript程式碼的書籤小程式，並將其新增至瀏覽器的書籤工具列：
 

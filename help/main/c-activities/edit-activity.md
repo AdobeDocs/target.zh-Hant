@@ -4,9 +4,16 @@ description: 瞭解您可以編輯現有活動的不同方式。
 title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
+TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: 978
 ht-degree: 22%
 
 ---
@@ -30,7 +37,7 @@ ht-degree: 22%
 1. 前往&#x200B;**目標與設定**&#x200B;頁面時，您有以下選項：
 
    * **[!UICONTROL Save & Close]：**&#x200B;按一下&#x200B;**[!UICONTROL Save and Close]**&#x200B;以儲存您的變更並顯示活動的[!UICONTROL Overview]頁面。
-   * **儲存：**&#x200B;按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存您的變更並留在VEC中，讓您可以繼續變更。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
+   * **儲存：**&#x200B;按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存您的變更並留在VEC中，讓您可以繼續變更。 等候儲存完成，之後再進行其他變更。 儲存完成後，VEC 會透過重新整理的變更重新載入。
 
 ## 從[!UICONTROL Activities]頁面按一下活動名稱以編輯活動 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
@@ -43,21 +50,21 @@ ht-degree: 22%
 1. 進行所需的變更，然後儲存活動。
 
    * **[!UICONTROL Save & Close]：**&#x200B;按一下&#x200B;**[!UICONTROL Save and Close]**&#x200B;以儲存您的變更並顯示活動的[!UICONTROL Overview]頁面。
-   * **儲存：**&#x200B;按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存您的變更並留在VEC中，讓您可以繼續變更。 等候儲存完成，之後再進行其他變更。儲存完成後，VEC 會透過重新整理的變更重新載入。
+   * **儲存：**&#x200B;按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存您的變更並留在VEC中，讓您可以繼續變更。 等候儲存完成，之後再進行其他變更。 儲存完成後，VEC 會透過重新整理的變更重新載入。
 
 ## 使用工作區時複製/編輯活動 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
-工作區可讓組織將特定一組使用者指派至特定一組屬性。工作區有許多地方皆與 [!DNL Adobe Analytics] 中的報表套裝相似。
+工作區可讓組織將特定一組使用者指派至特定一組屬性。 工作區有許多地方皆與 [!DNL Adobe Analytics] 中的報表套裝相似。
 
 >[!NOTE]
 >
->工作區是[!UICONTROL Properties and Permissions]解決方案中可用的[!DNL Target Premium]功能的一部分。 在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
+>工作區是[!DNL Target Premium]解決方案中可用的[!UICONTROL Properties and Permissions]功能的一部分。 在沒有 [!DNL Target Standard] 授權的 [!DNL Target Premium] 中無法使用。
 
-如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
+如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。 如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
 
 如需工作區與「企業使用者許可權」功能的詳細資訊，請參閱[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
-如果您的環境中已啟用[!UICONTROL Enterprise User Permissions]，您可以將活動複製到相同工作區或另一個工作區。 您目前無法將活動從一個工作區移動至另一個工作區。若要將活動複製到另一個工作區，請從[!UICONTROL Activities]頁面，按一下您要複製之活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **複製**]。
+如果您的環境中已啟用[!UICONTROL Enterprise User Permissions]，您可以將活動複製到相同工作區或另一個工作區。 您目前無法將活動從一個工作區移動至另一個工作區。 若要將活動複製到另一個工作區，請從[!UICONTROL Activities]頁面，按一下您要複製之活動旁的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **複製**]。
 
 在工作區中使用複製/編輯功能時，請考量下列資訊:
 
@@ -75,7 +82,7 @@ ht-degree: 22%
 
         若要解決此問題，請按一下[!UICONTROL Add/Remove]，以便只顯示目的地工作區中可用的屬性以供選取。
 
-   * **對象和選件**：將活動複製到新工作區時，所有相關聯的[!DNL Target]或原始工作區的臨機對象和選件會使用以下格式複製： `<Entity Name> Copy <Date>`個對象和[!DNL Target]個臨機選件的`<Entity Name>`。
+   * **對象和選件**：將活動複製到新工作區時，所有相關聯的[!DNL Target]或原始工作區的臨機對象和選件會使用以下格式複製： [!DNL Target]個對象和`<Entity Name>`個臨機選件的`<Entity Name> Copy <Date>`。
 
      行為詳細資料：
 
@@ -97,7 +104,7 @@ ht-degree: 22%
 
 ## 以草稿形式儲存活動 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-[!UICONTROL Save as Draft]功能已無法使用。 如需詳細資訊，請參閱&#x200B;*[!UICONTROL Status]*&#x200B;將篩選器套用至活動清單[下的](/help/main/c-activities/activities.md#filters)。
+[!UICONTROL Save as Draft]功能已無法使用。 如需詳細資訊，請參閱[將篩選器套用至活動清單](/help/main/c-activities/activities.md#filters)下的&#x200B;*[!UICONTROL Status]*。
 
 ## 使用在[!DNL Recommendations Classic]中建立的舊版活動 {#classic}
 
@@ -109,4 +116,4 @@ ht-degree: 22%
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
 
-您無法直接編輯 [!DNL Recommendations] 活動。若要編輯活動，您應使用 [!DNL Target Premium] 建立活動複本，然後儲存新建立的活動。接著即可視需要編輯這個新建立的活動。
+您無法直接編輯 [!DNL Recommendations] 活動。 若要編輯活動，您應使用 [!DNL Target Premium] 建立活動複本，然後儲存新建立的活動。 接著即可視需要編輯這個新建立的活動。

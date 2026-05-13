@@ -4,16 +4,21 @@ description: 探索如何在[!UICONTROL Offers]資料庫中搜尋程式碼和影
 title: 如何搜尋優惠資料庫中的內容？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 193
 ht-degree: 0%
 
 ---
 
 # 搜尋和篩選內容
 
-在[!UICONTROL Offers]的[!DNL Adobe Target]資料庫中依關鍵字搜尋資產。
+在[!DNL Adobe Target]的[!UICONTROL Offers]資料庫中依關鍵字搜尋資產。
 
 ## 依關鍵字搜尋代碼選件
 
@@ -28,14 +33,14 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下[!UICONTROL Card View]資料庫右上角的![圖示（](/help/main/assets/icons/ViewCard.svg)卡片檢檢視示[!UICONTROL List View]）或![圖示（](/help/main/assets/icons/ViewList.svg)清單檢檢視示[!UICONTROL Asset]）。
+1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下[!UICONTROL Asset]資料庫右上角的[!UICONTROL Card View]圖示（![卡片檢檢視示](/help/main/assets/icons/ViewCard.svg)）或[!UICONTROL List View]圖示（![清單檢檢視示](/help/main/assets/icons/ViewList.svg)）。
 1. 按一下左上角的&#x200B;**[!UICONTROL Content Only]**&#x200B;圖示（![僅內容圖示](/help/main/assets/icons/RailLeft.svg) ）以顯示搜尋方塊。
 1. 在搜尋方塊中，輸入您要尋找之資產的關鍵字，然後按[!UICONTROL Enter]。
 1. （視條件而定）使用左側的&#x200B;**[!UICONTROL Filters & Options]**&#x200B;窗格來調整您的搜尋。
 
    您可以依下列條件篩選：
 
-   * **[!UICONTROL File Type]**：
+   * **[!UICONTROL File Type]**:
       * [!UICONTROL Images]
       * [!UICONTROL Documents]
       * [!UICONTROL Multimedia]
@@ -43,7 +48,7 @@ ht-degree: 0%
    * **[!UICONTROL File Size]**：使用滑桿來選取想要的檔案大小： [!UICONTROL Smallest]、[!UICONTROL Small]、[!UICONTROL Medium]、[!UICONTROL Large]或[!UICONTROL Largest]。
    * **[!UICONTROL Last Modified]**：使用滑桿來選取時段： [!UICONTROL Recent]、[!UICONTROL Hour]、[!UICONTROL Day]、[!UICONTROL Week]、[!UICONTROL Month]、[!UICONTROL Year]或[!UICONTROL All Assets]。
    * **[!UICONTROL Approval Status]**： [!UICONTROL Approved]或[!UICONTROL Rejected]
-   * **[!UICONTROL Expiry Status]**： [!UICONTROL Expired]。
+   * **[!UICONTROL Expiry Status]**: [!UICONTROL Expired].
    * **[!UICONTROL Average Rating]**： 1到5。
    * **[!UICONTROL Orientation]**： [!UICONTROL Horizontal]、[!UICONTROL Vertical]或[!UICONTROL Square]。
    * **[!UICONTROL Style]**： [!UICONTROL Color]或[!UICONTROL Black & White]。

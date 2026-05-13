@@ -6,16 +6,38 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 97%
+source-wordcount: 2190
+ht-degree: 95%
 
 ---
 
 # [!DNL Adobe Target] 公告和活動
 
-有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。包括以前的錄影連結 (若有的話)。
+有關 [!DNL Adobe Target] 活動的公告和資訊，包括 [!DNL Target] 咖啡會、[!DNL Target] 網路研討會系列、[!DNL Target] 技能培養會議、開發人員聊天等等。 包括以前的錄影連結 (若有的話)。
 
 <!--
 ## Adobe Target Community Q&A Coffee Break
@@ -58,19 +80,19 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 * **可能性的藝術**
 
-  個人化成熟度的核心是人工智慧和機器學習。[!DNL Adobe Target] 利用這些技術來了解使用者行為、預測偏好並動態量身打造內容。透過利用 AI 和 ML 的力量，了解品牌如何超越靜態 A/B 測試和規則型個人化，以提供動態的、與情境相關的體驗。
+  個人化成熟度的核心是人工智慧和機器學習。 [!DNL Adobe Target] 利用這些技術來了解使用者行為、預測偏好並動態量身打造內容。 透過利用 AI 和 ML 的力量，了解品牌如何超越靜態 A/B 測試和規則型個人化，以提供動態的、與情境相關的體驗。
 
   [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hant){target=_blank}
 
 * **高效能推薦**
 
-  了解推薦演算法如何改變企業的遊戲規則，提高參與度和收入。從個人化產品建議到內容推薦，可順暢引導使用者完成整個歷程，將直接造就業務顯著成長。
+  了解推薦演算法如何改變企業的遊戲規則，提高參與度和收入。 從個人化產品建議到內容推薦，可順暢引導使用者完成整個歷程，將直接造就業務顯著成長。
 
-  [聆聽錄製。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=zh-Hant#M3685){target=_blank}
+  [聆聽錄音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=zh-Hant#M3685){target=_blank}
 
 * **充分運用 AI 支援的個人化**
 
-  [!DNL Adobe Target] 在客戶生命週期的每個階段促進 AI 支援的個人化功能，實現一對一的個人化體驗。從招攬客戶到保留客戶，了解企業如何取得簡化流程的深入見解、將人工作業減至最低，以及大規模提供與情境相關、吸引人的客戶體驗。
+  [!DNL Adobe Target] 在客戶生命週期的每個階段促進 AI 支援的個人化功能，實現一對一的個人化體驗。 從招攬客戶到保留客戶，了解企業如何取得簡化流程的深入見解、將人工作業減至最低，以及大規模提供與情境相關、吸引人的客戶體驗。
 
 +++
 
@@ -94,9 +116,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 經驗證之環境的行動體驗最佳化和個人化 (2023 年 4 月 26 日)
 
-品牌需要根據特定的客戶需求和行為提供高度個人化和相關的體驗。由於對行銷技術中無 cookie 的未來存有疑問，受監管產業正在尋求採用更強大的客戶參與框架，同時最佳化每次客戶互動以提供正確的內容和產品建議。
+品牌需要根據特定的客戶需求和行為提供高度個人化和相關的體驗。 由於對行銷技術中無 cookie 的未來存有疑問，受監管產業正在尋求採用更強大的客戶參與框架，同時最佳化每次客戶互動以提供正確的內容和產品建議。
 
-金融服務和保險、零售、旅遊和酒店以及電信產業的品牌如何在經驗證的環境中採用最佳化和個人化的最佳作法？了解行動應用程式對於忠誠客戶的參與和續留的重要性，品牌如何實現數位自助服務或透過個人化體驗增加新功能的採用？
+金融服務和保險、零售、旅遊和酒店以及電信產業的品牌如何在經驗證的環境中採用最佳化和個人化的最佳作法？ 了解行動應用程式對於忠誠客戶的參與和續留的重要性，品牌如何實現數位自助服務或透過個人化體驗增加新功能的採用？
 
 在這場會議中，了解 [!DNL Adobe Target] 和 [!DNL Real-Time CDP] 如何增加受監管產業內的參與度、收入和客戶忠誠度，我們將討論：
 
@@ -105,15 +127,15 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 * 通過匿名身份識別向經驗證的訪客提供個人化內容和產品建議
 * 跨網頁和行動裝置的經驗證、安全網站的獨特使用案例
 
-[錄影連結](https://video.tv.adobe.com/v/3418987){target=_blank}
+[錄製連結](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### 個人化推動成長之旅
 
 增進組織實現個人化的能力，由 Adobe 客戶成功經理 Ramon Cespedes 主講。
 
-關鍵分析師報告指出，在個人化方面表現優異的公司所產生的收入比其同行多了 40%。為了滿足每次點閱時對新的、相關且高度個人化體驗的需求，行銷人員必須備有適當的框架和策略。在此網路研討會中，與 Adobe 的專家們一起了解如何利用資料導向框架，以建置組織的個人化方案並推動成功。
+關鍵分析師報告指出，在個人化方面表現優異的公司所產生的收入比其同行多了 40%。 為了滿足每次點閱時對新的、相關且高度個人化體驗的需求，行銷人員必須備有適當的框架和策略。 在此網路研討會中，與 Adobe 的專家們一起了解如何利用資料導向框架，以建置組織的個人化方案並推動成功。
 
-* [錄影連結](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
+* [錄製連結](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### 微調 AI 支援的個人化：[!DNL Adobe Target] 的新功能 (2022 年 10 月 11 日)
 
@@ -121,11 +143,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 我們很高興能夠分享 [!DNL Adobe Target] 在大規模個人化方面一些「非常重大」突破性新聞：全新的篩選和情報將能增強 [!DNL Target] 使用者微調 AI 支援的個人化活動的能力，以便就每個活動對最重要的商業量度產生直接的影響。
 
-* [錄影連結](https://video.tv.adobe.com/v/3410117){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/3410117){target=_blank}
 
   +++詳細資料
 
-  這場新產品發表既及時又極為重要，因為我們看到過去幾年來無論是哪個產業，對個人化的需要都逐漸升高。它已成為公司在其整個客戶歷程使其從競爭者中脫穎而出的一種方法。個人化「隨處」都可以發揮功效：從訪客第一次接觸開始，利用贏取使用案例的基本資料，一直到客戶服務和忠誠度使用案例。
+  這場新產品發表既及時又極為重要，因為我們看到過去幾年來無論是哪個產業，對個人化的需要都逐漸升高。 它已成為公司在其整個客戶歷程使其從競爭者中脫穎而出的一種方法。 個人化「隨處」都可以發揮功效：從訪客第一次接觸開始，利用贏取使用案例的基本資料，一直到客戶服務和忠誠度使用案例。
 
   在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
 
@@ -140,13 +162,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 實驗和個人化方面的自動化持續為行銷、工程和產品團隊推動最高轉換率和投資報酬率。 參加 [!DNL Adobe] Skill Builders 研討會，了解如何搭配產品與內容推薦使用 [!DNL Adobe Target] 進階 AI 驅動使用案例和功能來保持競爭優勢，並贏得每次的體驗。
 
-* [錄影連結](https://video.tv.adobe.com/v/3409352/){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders – 行動體驗最佳化 (2022 年 9 月 6 日)
 
 行動體驗正在推動行銷和工程團隊如何利用以產品為主導的策略在 Web 和應用程式中實現跨管道個人化的創新。 參加 [!DNL Adobe] Skill Builders 研討會，了解 [!DNL Adobe Target] 如何為行銷人員、開發人員和產品負責人釋放新的潛在參與度和收入成長率，以建立欣欣向榮的產品社群。
 
-* [錄影連結](https://video.tv.adobe.com/v/347360){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/347360){target=_blank}
 
   +++詳細資料
 
@@ -164,7 +186,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 加入 [!DNL Adobe Target] 團隊的行列，他們將提供一些有關如何從 Target 中獲得最大價值的新點子。 根據我們最新的電子書《廚師的收藏：個人化構想》。
 
-* [錄影連結](https://video.tv.adobe.com/v/346970/){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/346970/){target=_blank}
 
   +++詳細資料
 
@@ -195,9 +217,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：個人化的業界內幕 - 零售業 (2022 年 8 月 11 日)
 
-2022 年為企業經營和運轉提供了充滿機動性且快速變化的環境。了解當工作者和旅行者開始回歸正常生活時，業界專家如何看待新形成的消費趨勢。
+2022 年為企業經營和運轉提供了充滿機動性且快速變化的環境。 了解當工作者和旅行者開始回歸正常生活時，業界專家如何看待新形成的消費趨勢。
 
-* [錄影連結](https://video.tv.adobe.com/v/346323){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/346323){target=_blank}
 
   +++詳細資料
 
@@ -207,7 +229,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：精確的個人化 - [!DNL Adobe Analytics] 和 [!DNL Target] (2022 年 6 月 2 日)
 
-了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料洞察的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
+了解人工智慧如何繼續重新定義消費者的期望；由於機器學習模型和資料洞察的技術，為行銷人員、開發人員和產品所有者開啟一扇全新大門，讓他們能以重要的個人化體驗來吸引消費者。 進行 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流程的步驟式導覽，了解個人化、目標定位和測試等工作流程。
 
 +++詳細資料
 
@@ -222,9 +244,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### Dick&#39;s Sporting Goods：個人化及改變零售業格局 (2022 年 5 月 19 日)
 
-了解大規模增加個人化方案的最佳實務。了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 來結合頂尖運動員和頂級品牌。
+了解大規模增加個人化方案的最佳實務。 了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 來結合頂尖運動員和頂級品牌。
 
-* [錄影連結](https://video.tv.adobe.com/v/343042){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/343042){target=_blank}
 
   +++詳細資料
 
@@ -243,7 +265,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 了解金融服務公司如何使用個人化支援和知會客戶，以利他們準備通貨膨脹模式和投資策略。
 
-* [錄影連結](https://video.tv.adobe.com/v/343240){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/343240){target=_blank}
 
   +++詳細資料
 
@@ -255,7 +277,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 檢視工具套件和用例以實施跨職能個人化策略。 了解 CNB 使用 [!DNL Adobe Target] 後如何在業界排名從最後 26% 躍升至前 1 %。
 
-* [錄影連結](https://video.tv.adobe.com/v/343344){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/343344){target=_blank}
 
   +++詳細資料
 
@@ -272,11 +294,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 網路研討會影片：利用 [!DNL Adobe Target] 的裝置上決策在零延遲的情況下進行個人化和測試
 
-* [錄影連結](https://video.tv.adobe.com/v/328148){target=_blank}
+* [錄製連結](https://video.tv.adobe.com/v/328148){target=_blank}
 
   +++詳細資料
 
-  市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。包含數據孤島和複雜實作的多種工具也辦不到。
+  市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。 包含數據孤島和複雜實作的多種工具也辦不到。
 
   在此網路研討會影片中，Adobe Target 產品專家會討論將關鍵體驗最佳化決策移到裝置上，以便在零延遲的情況下於本機執行最佳化，可以促成令人興奮的新使用案例，同時為客戶改善網站績效。
 
@@ -288,7 +310,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   +++詳細資料
 
-  McKinsey Digital 報告：「在消費者和企業數位採用方面，我們將原本要 5 年才能完成的工作加快到大約 8 週的時間完成。」*
+  McKinsey Digital 報告：「在消費者和企業數位採用方面，我們將原本要 5 年才能完成的工作加快到大約 8 週的時間完成。」 *
 
   客戶要求迅速發展，而 HSBC 已採用 Adobe Target 最佳化，以迅速測試和個人化新客戶歷程，將特定發展與發行的時間從 6 個月減少至一星期！
 

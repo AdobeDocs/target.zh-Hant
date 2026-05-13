@@ -1,12 +1,22 @@
 ---
 keywords: 活動設定; 體驗鎖定目標與設定; XT 目標與設定; 體驗鎖定目標; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表客群; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
-description: 瞭解如何使用[!UICONTROL Goals & Settings]中的 [!DNL Adobe Target] 頁面來指定[!UICONTROL Experience Targeting] (XT)活動目標的相關資訊。
-title: 如何在[!UICONTROL Goals & Settings]活動中指定[!UICONTROL Experience Targeting]？
+description: 瞭解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Goals & Settings]頁面來指定[!UICONTROL Experience Targeting] (XT)活動目標的相關資訊。
+title: 如何在[!UICONTROL Experience Targeting]活動中指定[!UICONTROL Goals & Settings]？
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+TQID: https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: 1152
 ht-degree: 38%
 
 ---
@@ -23,17 +33,17 @@ ht-degree: 38%
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
-有以下設定可使用：
+可使用下列設定:
 
 ### [!UICONTROL Objective]
 
-輸入可選目標。目標可以是可協助您和團隊成員識別促銷活動的任何資訊。
+輸入可選目標。 目標可以是可協助您和團隊成員識別促銷活動的任何資訊。
 
 ### [!UICONTROL Priority]
 
-根據您的設定，[!DNL Target]的[!UICONTROL Priority] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
+根據您的設定，[!UICONTROL Priority]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
 
-如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。如果將兩個或更多活動指派至位置，則會顯示具有最高優先順序的活動。
+如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個或更多活動指派至位置，則會顯示具有最高優先順序的活動。
 
 如果未在[!UICONTROL Administration]中啟用此選項（預設），請指定優先順序： [!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]。
 
@@ -52,11 +62,11 @@ ht-degree: 38%
 
 ### [!UICONTROL Duration]
 
-活動可以在核准後開始，或者您可以設定特定的日期和時間。同樣地，活動可以在停用時結束，或者您可以設定活動結束的日期和時間。 時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定活動結束的日期和時間。 時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 
-有以下設定可使用：
+可使用下列設定:
 
 ### [!UICONTROL Reporting Source]
 
@@ -76,11 +86,11 @@ ht-degree: 38%
 
 [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL Tracking Server]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-**[!DNL Adobe Customer Journey Analytics]**：如需有關[[!DNL Target] 與 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)之間整合的詳細資訊，請參閱[!DNL Adobe Customer Journey Analytics]在[!DNL Target]中報告。
+**[!DNL Adobe Customer Journey Analytics]**：如需有關[!DNL Adobe Customer Journey Analytics]與[!DNL Target]之間整合的詳細資訊，請參閱[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告。
 
 ### [!UICONTROL Goal Metric]
 
-選取訪客為了達成目標採取的動作。例如，選擇一個[!UICONTROL Conversion]量度，然後設定決定何時可取得成功的引數。
+選取訪客為了達成目標採取的動作。 例如，選擇一個[!UICONTROL Conversion]量度，然後設定決定何時可取得成功的引數。
 
 如需關於設定量度的詳細資訊，請參閱[設定量度](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB)。
 
@@ -88,11 +98,11 @@ ht-degree: 38%
 >
 >如果報表解決方案設為[!DNL Analytics]，則唯一可用的目標量度是[!UICONTROL Conversion]。 無法選取[!DNL Analytics]個量度作為目標。
 
-選取您的成功量度時，即會顯示選取器。使用此選取器來選擇成功量度的特定項目。
+選取您的成功量度時，即會顯示選取器。 使用此選取器來選擇成功量度的特定項目。
 
-如果已啟用，[!UICONTROL Estimated Value of the Conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值，但不適用其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。對於所有收入量度（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]和[!UICONTROL Orders]），預估會使用[!UICONTROL Revenue per Visitor]。 資料類型為貨幣。
+如果已啟用，[!UICONTROL Estimated Value of the Conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值，但不適用其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。 此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。 對於所有收入量度（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]和[!UICONTROL Orders]），預估會使用[!UICONTROL Revenue per Visitor]。 資料類型為貨幣。
 
-達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。 如果訪客再次達到目標，將會將其計為另一次轉換。此行為與[!DNL Target Classic]中的預設行為不同，如果訪客再次看到測試，則會將其計為新訪客。
+達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。 如果訪客再次達到目標，將會將其計為另一次轉換。 此行為與[!DNL Target Classic]中的預設行為不同，如果訪客再次看到測試，則會將其計為新訪客。
 
 ### [!UICONTROL Additional Metrics]
 
@@ -102,7 +112,7 @@ ht-degree: 38%
 
 ### [!UICONTROL Audiences for Reporting]
 
-依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表客群以僅顯示關於特定客群的資訊。
+依預設，報表會顯示所有符合資格訪客的結果。 您可以新增報表客群以僅顯示關於特定客群的資訊。
 
 如果您選擇[!DNL Analytics]作為報表解決方案，則無法使用此設定。 已套用為[!DNL Analytics]報表套裝定義的對象。
 
@@ -118,7 +128,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->如果您使用 [!DNL Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。[!UICONTROL Advanced Settings]選項無法使用。
+>如果您使用 [!DNL Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。 [!UICONTROL Advanced Settings]選項無法使用。
 
 有以下設定可使用：
 

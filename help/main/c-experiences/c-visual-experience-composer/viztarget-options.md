@@ -4,9 +4,18 @@ description: 探索 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] 
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
+TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: 2057
 ht-degree: 8%
 
 ---
@@ -21,7 +30,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)延伸模組[!DNL Chrome Web Store]。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Chrome Web Store]上可用的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]延伸模組](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 當您建立或編輯現有活動時，VEC隨即顯示。
 
@@ -48,18 +57,18 @@ ht-degree: 8%
 
 ### 活動設定/設定 {#settings}
 
-按一下[!UICONTROL Configure]畫布上方顯示的![圖示（](/help/main/assets/icons/Setting.svg)設定圖示[!UICONTROL Design]）以顯示活動屬性功能表。
+按一下[!UICONTROL Design]畫布上方顯示的[!UICONTROL Configure]圖示（![設定圖示](/help/main/assets/icons/Setting.svg)）以顯示活動屬性功能表。
 
 ![活動設定選項](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-可使用下列選項: 
+可使用下列選項:
 
 * **[!UICONTROL Properties]**：將屬性指派給活動，或從活動中移除屬性。 [!UICONTROL Properties]是([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)功能。 如需詳細資訊，請參閱[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 * **[!UICONTROL Page Delivery]**：在您的網站上類似頁面上包含相同體驗。 使用頁面範本為您的頁面提供結構，或如果您的頁面包含類似的元素，則使用類似的結構化頁面元素或整個網域來測試變數。 如需詳細資訊，請參閱[在類似頁面上包含相同體驗](/help/main/c-experiences/c-visual-experience-composer/temtest.md)。
-* **[!UICONTROL Site Preferences]**：設定您的網站偏好設定，以指定[!DNL Target]如何產生CSS選取器。 如需詳細資訊，請參閱&#x200B;_設定_&#x200B;中的[CSS選取器[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)。
+* **[!UICONTROL Site Preferences]**：設定您的網站偏好設定，以指定[!DNL Target]如何產生CSS選取器。 如需詳細資訊，請參閱[設定[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)中的&#x200B;_CSS選取器_。
 * **新增其他頁面**：將其他頁面新增至活動，以建立多頁活動，讓您使用每個頁面專屬的設計，跨多個頁面建立劇本。 如需詳細資訊，請參閱[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 * **單一對象**：將單一對象用於活動。
-* **多個對象**：將多個對象指派給活動。 按一下「新增對象」圖示（ ![新增圖示](/help/main/assets/icons/Add.svg) ），然後從清單中選取一或多個對象。 您也可以從[對話方塊](/help/main/c-target/combining-multiple-audiences.md)合併對象[或](/help/main/c-target/c-audiences/create-audience.md)建立新對象[!UICONTROL Add Audiences]。
+* **多個對象**：將多個對象指派給活動。 按一下「新增對象」圖示（ ![新增圖示](/help/main/assets/icons/Add.svg) ），然後從清單中選取一或多個對象。 您也可以從[!UICONTROL Add Audiences]對話方塊[合併對象](/help/main/c-target/combining-multiple-audiences.md)或[建立新對象](/help/main/c-target/c-audiences/create-audience.md)。
 
 ### [!UICONTROL Design]/[!UICONTROL Browse]模式
 
@@ -113,7 +122,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 ### [!UICONTROL Modifications]邊欄
 
-若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Show Modifications]邊欄中的![圖示（ &#x200B;](/help/main/assets/icons/History.svg)顯示修改邊欄[!UICONTROL Components] ）。
+若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Components]邊欄中的[!UICONTROL Show Modifications]圖示（ ![顯示修改邊欄](/help/main/assets/icons/History.svg) ）。
 
 ![修改邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -252,7 +261,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 除了 HTML 程式碼，您可以編輯和插入自訂 JavaScript。
 
-針對[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活動編輯文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。修改HTML時，您可以在程式碼檢視和HTML的豐富編輯檢視之間切換。
+針對[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活動編輯文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。 修改HTML時，您可以在程式碼檢視和HTML的豐富編輯檢視之間切換。
 
 以下是可巢狀的 HTML5 標記:
 
@@ -265,7 +274,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 ## 使用DOM路徑導覽元素 {#dom-path}
 
-當您按一下頁面上的元素時，VEC 選項功能表隨即顯示。此外，當您按一下元素時，對應的 DOM 路徑會顯示於頁面底部。
+當您按一下頁面上的元素時，VEC 選項功能表隨即顯示。 此外，當您按一下元素時，對應的 DOM 路徑會顯示於頁面底部。
 
 ![DOM 路徑](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path-refresh.png)
 
@@ -652,7 +661,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hant){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
 >VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}.
 

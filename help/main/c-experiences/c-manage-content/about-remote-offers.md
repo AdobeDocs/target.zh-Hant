@@ -4,9 +4,16 @@ description: 瞭解如何利用 [!DNL Target] 中的遠端選件來主控來自C
 title: 如何建立遠端選件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
+TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: 1040
 ht-degree: 19%
 
 ---
@@ -110,7 +117,7 @@ ht-degree: 19%
 
 動態遠端選件是由內容管理或其他系統提供，而非由[!DNL Target]提供。
 
-當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓[!DNL Target]定期快取內容再傳送。 反之，您會想要呼叫裝載內容的系統，可能傳入特定資訊，使得傳回的選件可針對每位使用者動態（或不同）。 例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端產品建議，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。然後，網站會提供使用者特有的資訊，例如帳戶餘額。
+當訪客載入的網站有一項體驗包含遠端選件時，您可能不想讓[!DNL Target]定期快取內容再傳送。 反之，您會想要呼叫裝載內容的系統，可能傳入特定資訊，使得傳回的選件可針對每位使用者動態（或不同）。 例如，如果使用者為了信用卡而登入的網站有一項體驗包含動作遠端產品建議，您可以將參數傳入 URL 中，以取得使用者的帳戶資訊。 然後，網站會提供使用者特有的資訊，例如帳戶餘額。
 
 您可以按一下&#x200B;**[!UICONTROL Add Parameter]**&#x200B;新增一或多個[!DNL Target]要求或要求引數。
 
@@ -118,7 +125,7 @@ ht-degree: 19%
 
 使用[!UICONTROL Form-Based Experience Composer]套用遠端選件。 您目前無法使用[!UICONTROL Visual Experience Composer] (VEC)套用遠端選件。
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非視覺化體驗和選件建立介面，當[!UICONTROL A/B Tests]無法使用或不實用的情況下，它有助於建立可在[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization] (XT)、[!UICONTROL Recommendations] (AP)和[!UICONTROL Visual Experience Composer]活動中使用的體驗。 例如，您可能會使用[!UICONTROL Form-Based Experience Composer]來建立使用遠端選件的體驗。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非視覺化體驗和選件建立介面，當[!UICONTROL Visual Experience Composer]無法使用或不實用的情況下，它有助於建立可在[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Recommendations]活動中使用的體驗。 例如，您可能會使用[!UICONTROL Form-Based Experience Composer]來建立使用遠端選件的體驗。
 
 1. 在[!UICONTROL Form-Based Experience Composer]中建立或編輯活動。
 
@@ -136,7 +143,7 @@ ht-degree: 19%
 
 動態遠端產品建議會使用動態頁面技術，將數值傳遞給產品建議。
 
-轉譯頁面之後，即會排除產品建議。不可見的iFrame會收集資料、從框架複製資料，然後插入頁面上，載入您傳遞的值。
+轉譯頁面之後，即會排除產品建議。 不可見的iFrame會收集資料、從框架複製資料，然後插入頁面上，載入您傳遞的值。
 
 ![remote_offer_howitworks_2圖片](assets/remote_offer_howitworks_2.jpeg)
 

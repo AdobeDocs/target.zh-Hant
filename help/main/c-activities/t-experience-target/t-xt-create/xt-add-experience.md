@@ -4,36 +4,43 @@ description: 瞭解如何使用 [!DNL Adobe Target] [!UICONTROL Visual Experienc
 title: 如何在[!UICONTROL Experience Targeting]活動中建立體驗？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: 902
 ht-degree: 23%
 
 ---
 
 # 在[!UICONTROL Experience Targeting] (XT)活動中建立體驗
 
-[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)提供視覺化介面，可用於編輯[!UICONTROL Experience Targeting] (XT)活動之頁面上的體驗。
+[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)提供視覺化介面，可用於編輯[!UICONTROL Experience Targeting] (XT)活動之頁面上的體驗。
 
 1. 選取您要變更的元素，並進行所需的變更。
 
-   在[建立[!UICONTROL Experience Targeting]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三步驟引導式工作流程的步驟一([!UICONTROL Experiences])會顯示具有[!UICONTROL Experience A]對象的預設[!UICONTROL All Visitors]。
+   在[建立[!UICONTROL Experience Targeting]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)時，三步驟引導式工作流程的步驟一([!UICONTROL Experiences])會顯示具有[!UICONTROL All Visitors]對象的預設[!UICONTROL Experience A]。
 
    ![所有訪客客群](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    您所做的任何變更現在都會套用至[!UICONTROL Experience A]。 在下列步驟中，您按一下&#x200B;**[!UICONTROL Add Experience Targeting]**&#x200B;以建立其他體驗。
 
-   當您將滑鼠停留在頁面上的元素上時，這些元素會反白顯示。 任何強調顯示的元素可以使用 VEC 加以更改。如需可以在元素上執行以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+   當您將滑鼠停留在頁面上的元素上時，這些元素會反白顯示。 任何強調顯示的元素可以使用 VEC 加以更改。 如需可以在元素上執行以變更體驗的動作清單，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
    >[!NOTE]
    >
-   >根據預設，VEC 不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。您可以使用VEC停用JavaScript以更改這些元素。
+   >根據預設，VEC 不允許對包含 JavaScript 的元素進行變更，例如旋轉橫幅。 您可以使用VEC停用JavaScript以更改這些元素。
 
 1. 若要建立其他體驗，請按一下&#x200B;**[!UICONTROL Add]** （ ![新增按鈕](/help/main/assets/icons/Add.svg) ）。
 
    [!UICONTROL Add Audience]對話方塊隨即顯示。 若要將體驗鎖定至某個受眾，請在新增體驗之前選取受眾。
 
-   客群資料庫包含先前已定義的客群，包括一些隨著 [!DNL Target] 預先建置的共通客群。您可以從資料庫中選取客群或[建立新客群](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+   客群資料庫包含先前已定義的客群，包括一些隨著 [!DNL Target] 預先建置的共通客群。 您可以從資料庫中選取客群或[建立新客群](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
 
    除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。 如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
@@ -102,7 +109,7 @@ ht-degree: 23%
 
 ### 活動型別(9:03)
 
-此影片說明 [!DNL Target] 中的可用活動類型。從5[!UICONTROL Experience Targeting]開始討論:15。
+此影片說明 [!DNL Target] 中的可用活動類型。 從5:15開始討論[!UICONTROL Experience Targeting]。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型

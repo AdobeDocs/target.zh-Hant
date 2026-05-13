@@ -6,9 +6,18 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 380
 ht-degree: 19%
 
 ---
@@ -17,11 +26,11 @@ ht-degree: 19%
 
 在[!DNL Adobe Target] [!DNL Automated Personalization] (AP)活動中，您可以將選件鎖定在特定對象。
 
-使用這項功能可減少特定訪客可看到的產品建議數量。例如，假設一個[!UICONTROL Automated Personalization]活動有三個選件。 選件1有目標規則，限制向對象A曝光。有兩個訪客看過此活動。
+使用這項功能可減少特定訪客可看到的產品建議數量。 例如，假設一個[!UICONTROL Automated Personalization]活動有三個選件。 選件1有目標規則，限制向對象A曝光。有兩個訪客看過此活動。
 
 | | 訪客 1 | 訪客 2 |
 |--- |--- |--- |
-| 對象資格 | 對象 A | 對象 B |
+| 客群資格篩選 | 對象 A | 對象 B |
 | 產品建議 1 Target 個人化模型分數 | 90 | 90 |
 | 產品建議 2 Target 個人化模型分數 | 50 | 70 |
 | 產品建議 3 Target 個人化模型分數 | 80 | 60 |

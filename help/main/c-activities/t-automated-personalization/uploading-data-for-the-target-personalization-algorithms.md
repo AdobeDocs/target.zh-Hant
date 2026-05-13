@@ -5,10 +5,25 @@ title: 如何上傳用於Personalization演演算法的資料？
 feature: Automated Personalization, Auto-Target
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+TQID: https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 10%
+source-wordcount: 302
+ht-degree: 13%
 
 ---
 
@@ -16,7 +31,7 @@ ht-degree: 10%
 
 在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能會非常寶貴。
 
-有數種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法以外，[!DNL Experience Cloud]演演算法中也使用[!UICONTROL Adobe Analytics]共用對象([!DNL Audience Manager]、[!DNL Target])和活動內報表對象。
+有數種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法以外，[!DNL Target]演演算法中也使用[!DNL Experience Cloud]共用對象([!UICONTROL Adobe Analytics]、[!DNL Audience Manager])和活動內報表對象。
 
 有關[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]個人化演演算法自動收集和使用之資料的資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
@@ -27,6 +42,6 @@ ht-degree: 10%
 * [!DNL Target]個人化演演算法可用的高品質資料越多，[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中產生的模型品質越好。
 * 限制使用多個提供相同用途的設定檔指令碼或屬性。
 * 請勿傳遞唯一ID，例如工作階段ID （若不需要）。
-* 檢閱[!DNL Target]自動收集哪些資料([Target Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md))，這樣您就不會傳送重複的資訊。 例如，[!DNL Target]使用IP位址來判斷訪客的郵遞區號。 不必以單獨的變數傳遞此資訊。
+* 檢閱[!DNL Target]自動收集哪些資料（[Target Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)），這樣您就不會傳送重複的資訊。 例如，[!DNL Target]使用IP位址來判斷訪客的郵遞區號。 不必以單獨的變數傳遞此資訊。
 * 請勿在相同的屬性或變數中傳遞多個值。 如果串連多個變數，[!DNL Target]個人化演演算法會將每個字串視為唯一值，減少個人化資訊的值。
 * 使用令人難忘且有意義的命名慣例，讓您的[Personalization Insights報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)更易於理解。

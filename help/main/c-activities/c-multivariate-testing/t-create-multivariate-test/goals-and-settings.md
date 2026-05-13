@@ -1,19 +1,29 @@
 ---
 keywords: 活動設定；目標與設定；多變數；mvt
-description: 瞭解如何使用[!UICONTROL Goals & Settings]中的 [!DNL Adobe Target] 頁面來指定[!UICONTROL Multivariate Test] (MVT)活動目標的相關資訊。
+description: 瞭解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Goals & Settings]頁面來指定[!UICONTROL Multivariate Test] (MVT)活動目標的相關資訊。
 title: 如何在[!UICONTROL Multivariate Test] (MVT)活動中指定目標與設定？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1170
 ht-degree: 38%
 
 ---
 
 # 目標與設定([!UICONTROL Multivariate Test])
 
-[!UICONTROL Goals & Settings]中的[!DNL Adobe Target]頁面是您輸入[!UICONTROL Multivariate Test] (MVT)活動之目標相關資訊的位置。
+[!DNL Adobe Target]中的[!UICONTROL Goals & Settings]頁面是您輸入[!UICONTROL Multivariate Test] (MVT)活動之目標相關資訊的位置。
 
 下列章節可供使用：
 
@@ -29,13 +39,13 @@ ht-degree: 38%
 
 ### 目標
 
-輸入可選目標。目標可以是可協助您和團隊成員識別促銷活動的任何資訊。
+輸入可選目標。 目標可以是可協助您和團隊成員識別促銷活動的任何資訊。
 
 ### 優先順序
 
-根據您的設定，[!DNL Target]的[!UICONTROL Priority] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
+根據您的設定，[!UICONTROL Priority]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。
 
-如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
+如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
 如果未在[!UICONTROL Administration] > [!UICONTROL Reporting] （預設）中啟用此選項，請指定優先順序： [!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]。
 
@@ -54,7 +64,7 @@ ht-degree: 38%
 
 ### 持續時間
 
-活動可以在核准後開始，或者您可以設定特定的日期和時間。同樣地，活動可以在停用時結束，或者您可以設定日期和時間。時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
 ## 報表設定 {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -78,21 +88,21 @@ ht-degree: 38%
 
 [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL Tracking Server]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-**[!DNL Adobe Customer Journey Analytics]**：如需有關[[!DNL Target] 與 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)之間整合的詳細資訊，請參閱[!DNL Adobe Customer Journey Analytics]在[!DNL Target]中報告。
+**[!DNL Adobe Customer Journey Analytics]**：如需有關[!DNL Adobe Customer Journey Analytics]與[!DNL Target]之間整合的詳細資訊，請參閱[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告。
 
 ### 目標量度
 
-選取訪客為了達成目標採取的動作。例如，選擇一個[!UICONTROL Conversion]量度，然後設定決定何時可取得成功的引數。
+選取訪客為了達成目標採取的動作。 例如，選擇一個[!UICONTROL Conversion]量度，然後設定決定何時可取得成功的引數。
 
 >[!NOTE]
 >
 >如果報表解決方案設為[!DNL Analytics]，則唯一可用的目標量度是[!UICONTROL Conversion]。 無法選取[!DNL Analytics]個量度作為目標。
 
-選取您的成功量度時，即會顯示選取器。使用此選取器來選擇成功量度的特定項目。
+選取您的成功量度時，即會顯示選取器。 使用此選取器來選擇成功量度的特定項目。
 
-如果已啟用，[!UICONTROL Estimated Value of the Conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值，但不適用其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。對於所有收入量度（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]和[!UICONTROL Orders]），預估會使用[!UICONTROL Revenue per Visitor]。 資料類型為貨幣。
+如果已啟用，[!UICONTROL Estimated Value of the Conversion]欄位（[!UICONTROL Page Score]量度無法使用）可提供目標的值，但不適用其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。 此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。 對於所有收入量度（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]和[!UICONTROL Orders]），預估會使用[!UICONTROL Revenue per Visitor]。 資料類型為貨幣。
 
-達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。 如果訪客再次達到目標，將會將其計為另一次轉換。此行為與[!DNL Target Classic]中的預設行為不同，如果訪客再次看到測試，則會將其計為新訪客。
+達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。 如果訪客再次達到目標，將會將其計為另一次轉換。 此行為與[!DNL Target Classic]中的預設行為不同，如果訪客再次看到測試，則會將其計為新訪客。
 
 ### 其他量度
 
@@ -102,7 +112,7 @@ ht-degree: 38%
 
 ### 報表的對象
 
-依預設，報表會顯示所有符合資格訪客的結果。您可以新增報表客群以僅顯示關於特定客群的資訊。
+依預設，報表會顯示所有符合資格訪客的結果。 您可以新增報表客群以僅顯示關於特定客群的資訊。
 
 ### 進階設定 {#section_E2FE441AFB324E498793ABB025ED9974}
 
@@ -112,7 +122,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。進階設定選項無法使用。
+>如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。 進階設定選項無法使用。
 
 #### 遞增此量度時，應達到什麼成功量度?
 

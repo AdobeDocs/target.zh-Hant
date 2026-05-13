@@ -2,19 +2,24 @@
 keywords: 產品;集合
 description: 瞭解Adobe [!DNL Target] Recommendations中的實體。 實體會使用 [!DNL Target]參考您想要建議的專案，例如文章、影片或產品。
 title: 如何使用實體？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+TQID: https://experienceleague.adobe.com/zfISb59XJ5qrD1-FA0syglPPswIL8cA0N0pBpY4tgIE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 68%
+source-wordcount: 122
+ht-degree: 63%
 
 ---
 
 # 實體
 
-實體會參考您要建議的項目。實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
+實體會參考您要建議的項目。 實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
 
 「建議」會根據您設定的準則來顯示集合中的項目。
 

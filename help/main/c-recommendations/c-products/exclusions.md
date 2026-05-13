@@ -4,9 +4,15 @@ description: 瞭解如何在 [!DNL Target Recommendations] 中建立排除專案
 title: 如何在[!UICONTROL Recommendations]活動中使用排除專案？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
+TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: 511
 ht-degree: 14%
 
 ---
@@ -29,15 +35,15 @@ ht-degree: 14%
 >
 >排除規則會全域套用至所有[環境](/help/main/administrating-target/environments.md)。
 >
->靜態和動態排除規是可協助您從事行銷活動的強大功能。如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+>靜態和動態排除規是可協助您從事行銷活動的強大功能。 如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
 ## 建立排除項目
 
 1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**」以顯示現有排除專案的清單。
 
-   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 如需有關如何變更預設主機群組的資訊，請參閱[Adobe Target開發人員指南 [!DNL Recommendations]中的](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/recommendations){target=_blank}計畫和實作&#x200B;**。
+   [!UICONTROL Exclusions]清單檢視上各排除專案所報告的「專案數」為預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/recommendations){target=_blank}。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ），然後在建立（或更新）排除專案時，從[下拉式清單中選擇所需的](/help/main/administrating-target/environments.md)環境&#x200B;**[!UICONTROL Environment]**，以預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ），然後在建立（或更新）排除專案時，從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)，以預覽該環境中的排除專案內容。 依照預設，會顯示預設主機群組的結果。
 
 1. 按一下 **[!UICONTROL Create Exclusion]**。
 

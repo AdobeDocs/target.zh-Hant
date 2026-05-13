@@ -4,10 +4,19 @@ description: 瞭解如何定義對象以比較兩個設定檔屬性。
 title: 我可以比較兩個設定檔屬性以用於對象嗎？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 51%
+source-wordcount: 428
+ht-degree: 52%
 
 ---
 
@@ -21,14 +30,14 @@ ht-degree: 51%
 
 ## 概觀 {#section_303CBC78194D49A2A004945D425441E1}
 
-客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。如果您包含的其中一個規則使用[!UICONTROL Visitor Profile]類別，您可以根據訪客設定檔屬性的特定值來定義規則，或將該屬性的值與另一個訪客設定檔屬性進行比較。
+客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。 對象定義可以包括多個規則，並且每個規則可以包括多個參數。 如果您包含的其中一個規則使用[!UICONTROL Visitor Profile]類別，您可以根據訪客設定檔屬性的特定值來定義規則，或將該屬性的值與另一個訪客設定檔屬性進行比較。
 
 例如，假設您在一家傢俱公司工作，並將兩個客戶傾向分數上傳至[!DNL Target]：
 
 * 在接下來 90 天內購買餐廳家具的可能性
 * 在接下來 90 天內購買客廳家具的可能性
 
-您可以建立一個對象，定義成購買餐廳家具的傾向大於購買客廳家具的傾向。[!DNL Target]接著會動態比較特定訪客的餐廳和起居室的傾向分數，以判斷該訪客是否符合此對象的資格。
+您可以建立一個對象，定義成購買餐廳家具的傾向大於購買客廳家具的傾向。 [!DNL Target]接著會動態比較特定訪客的餐廳和起居室的傾向分數，以判斷該訪客是否符合此對象的資格。
 
 如需詳細資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
 
@@ -53,7 +62,7 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >如果您使用其中一個預設的訪客設定檔類別（例如「新訪客」或「回頭客」），您只能選擇靜態值選項。 預設類別無法使用動態比較選項。其他無法使用動態比較選項的範例包括「工作階段首頁」、「不在其他測試中」、「非工作階段首頁」和「類別相關性」。
+   >如果您使用其中一個預設的訪客設定檔類別（例如「新訪客」或「回頭客」），您只能選擇靜態值選項。 預設類別無法使用動態比較選項。 其他無法使用動態比較選項的範例包括「工作階段首頁」、「不在其他測試中」、「非工作階段首頁」和「類別相關性」。
 
 1. 選取您要與初始屬性比較的額外屬性。
 

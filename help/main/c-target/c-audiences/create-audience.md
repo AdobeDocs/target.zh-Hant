@@ -4,9 +4,16 @@ description: 瞭解如何建立自訂對象，並將其儲存至 [!DNL Adobe Tar
 title: 如何建立受眾？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
+TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 525
 ht-degree: 51%
 
 ---
@@ -17,21 +24,21 @@ ht-degree: 51%
 
 ## 客群概觀
 
-客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。對象定義可以包括多個規則，並且每個規則可以包括多個參數。複雜的對象定義會使用布林值運算子 AND 和 OR 結合規則和參數，以讓您對哪些網站訪客會計入活動加入者能進行詳細控制。
+客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。 對象定義可以包括多個規則，並且每個規則可以包括多個參數。 複雜的對象定義會使用布林值運算子 AND 和 OR 結合規則和參數，以讓您對哪些網站訪客會計入活動加入者能進行詳細控制。
 
 當您結合規則或引數與AND時，任何可能的對象成員都必須符合&#x200B;*所有*&#x200B;已定義的條件，才能納入為加入者。 例如，如果您定義作業系統規則 AND 瀏覽器規則，則只會在活動中包括同時使用已定義作業系統&#x200B;*與*&#x200B;已定義瀏覽器的訪客。
 
-使用 OR 結合規則或參數時，任何潛在的對象成員只需符合任何單一定義的條件，即可包括為加入者。例如，如果您定義使用 OR 連接的多個行動規則，則將在活動中包括符合&#x200B;*任何*&#x200B;所定義條件的訪客。
+使用 OR 結合規則或參數時，任何潛在的對象成員只需符合任何單一定義的條件，即可包括為加入者。 例如，如果您定義使用 OR 連接的多個行動規則，則將在活動中包括符合&#x200B;*任何*&#x200B;所定義條件的訪客。
 
-您可以將這兩個布林運算子混合來建立複雜的規則; 不過，相同規則層級的運算子必須相符。使用者介面會自動套用至正確的運算子。
+您可以將這兩個布林運算子混合來建立複雜的規則; 不過，相同規則層級的運算子必須相符。 使用者介面會自動套用至正確的運算子。
 
-例如，下列規則會鎖定在[!DNL Chrome]電腦上使用&#x200B;**&#x200B;或[!DNL Firefox] [!DNL Windows]的訪客：
+例如，下列規則會鎖定在[!DNL Windows]電腦上使用[!DNL Chrome] *或* [!DNL Firefox]的訪客：
 
 ![建立客群](assets/audience_create.png)
 
 >[!NOTE]
 >
->請小心，避免建立規則來排除所有可能的客群成員。例如，某人無法同時使用[!DNL Chrome] *和* [!DNL Firefox]來造訪頁面。
+>請小心，避免建立規則來排除所有可能的客群成員。 例如，某人無法同時使用[!DNL Chrome] *和* [!DNL Firefox]來造訪頁面。
 
 ## 建立客群
 
@@ -59,7 +66,7 @@ ht-degree: 51%
 
    ![拖放屬性](assets/drag-attribute.png)
 
-   每個規則類型都有其專屬的參數。請參閱[客群的類別](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的客群規則的詳細資訊。
+   每個規則類型都有其專屬的參數。 請參閱[客群的類別](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以取得關於設定每個類型的客群規則的詳細資訊。
 
 1. 定義規則參數。
 
@@ -73,7 +80,7 @@ ht-degree: 51%
 
 1. 按一下 **[!UICONTROL Done]**。
 
-   新建立的對象會在處理延遲幾秒之後出現在清單中。如果對象未立即在清單中顯示，請嘗試搜尋對象或重新整理清單。
+   新建立的對象會在處理延遲幾秒之後出現在清單中。 如果對象未立即在清單中顯示，請嘗試搜尋對象或重新整理清單。
 
 ## 訓練影片：建立對象![Overview badge](/help/main/assets/overview.png)
 
