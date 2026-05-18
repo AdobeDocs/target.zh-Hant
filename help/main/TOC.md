@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
+source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 83%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 83%
       + [預估收入的增加](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 設定](administrating-target/scene7-settings.md)
    + [實施](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[內容預先隱藏](administrating-target/content-pre-hiding.md)
    + [主機](administrating-target/hosts.md)
    + [環境](/help/main/administrating-target/environments.md)
    + [回應 Token](administrating-target/response-tokens.md)
@@ -108,7 +109,7 @@ ht-degree: 83%
       + {hide-from-toc}[整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer使用案例 {#use-cases}
          + {hide-from-toc}[Adobe Journey Optimizer中最佳化使用案例 — 網頁和程式碼型管道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + {hide-from-toc}[在Adobe Journey Optimizer中透過A/B測試進行內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + 在Adobe Journey Optimizer中透過A/B測試進行{hide-from-toc}[內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [將Target與Experimentation Accelerator整合](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
