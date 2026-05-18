@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 43%
+source-wordcount: 504
+ht-degree: 53%
 
 ---
 
@@ -31,57 +31,33 @@ ht-degree: 43%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
+## [!DNL Target Standard/Premium] 26.5.2 （2026年5月14日）
 
-## 最新更新 — 2026年5月12日
+**管理**
+
++++檢視詳細資料
+
+* 允許的URL的&#x200B;**Regex驗證。** 修正在&#x200B;**[!UICONTROL Allowed URLs]**&#x200B;欄位中輸入無效規則運算式而沒有正確驗證的問題。 (TGT-55095)
+
++++
+
+**客群**
+
++++檢視詳細資料
+
+* [!UICONTROL Edit Audience]對話方塊中的&#x200B;**按鈕。** 修正&#x200B;**[!UICONTROL Edit Audience]**&#x200B;對話方塊中的按鈕不再正確呈現的問題。 (TGT-54638)
+
++++
 
 **[!DNL Adobe Target]MCP伺服器（公用Beta）**
+
++++檢視詳細資料
 
 [!DNL Adobe Target]現在提供MCP （模型內容通訊協定）伺服器，直接在任何MCP相容應用程式中呈現實驗、個人化和報告作業。 透過這項整合，行銷和技術人員可以檢查A/B測試、分析效能報表，以及探索對象和選件 — 全部使用自然語言提示，而不是導覽多個UI熒幕或針對[!DNL Adobe Target] REST API撰寫查詢。 此功能目前可在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中使用。
 
 此功能適用於公開Beta中的所有客戶。
 
 如需詳細資訊，請參閱[[!DNL Adobe Target] MCP伺服器](../c-integrating-target-with-mac/mcp/target-mcp.md)。
-
-
-## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
-
-**整合**
-
-+++檢視詳細資料
-
-* Experimentation Accelerator中的&#x200B;**[!DNL Adobe Target]管理。** 新增將[!DNL Target]工作區指派至Experimentation Accelerator沙箱的支援，讓團隊可以在Experimentation Accelerator中一個位置檢視來自[!DNL Adobe Target]的實驗。 [了解更多](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
-**活動**
-
-+++檢視詳細資料
-
-* **[!UICONTROL Graph View]與資料表和下載不同步。** 修正某些日期範圍的活動報表在&#x200B;**[!UICONTROL Graph View]**&#x200B;中可能顯示缺少或零量度的問題，即使&#x200B;**[!UICONTROL Table View]**&#x200B;且下載的報表仍顯示正確的值。 (TGT-54998)
-
-+++
-
-**[!UICONTROL Audiences]**
-
-+++檢視詳細資料
-
-* **對象使用清單未完全轉譯。** 修正即使有其他活動與該對象相關聯，對象詳細資料中的&#x200B;**[!UICONTROL Usage]**&#x200B;區段仍只能顯示對應活動的子集的問題。 (TGT-55094)
-
-+++
-
-**[!UICONTROL Administration]**
-
-+++檢視詳細資料
-
-* **確認最後一個八位元IP模糊化的效果更清楚。** 當您在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;上將&#x200B;**[!UICONTROL Obfuscate Visitor IP addresses]**&#x200B;變更為&#x200B;**[!UICONTROL Last octet]**&#x200B;時，確認對話方塊現在會說明[!DNL Target]會隱藏訪客IP位址的最後八位元。 (TGT-44821)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++檢視詳細資料
-
-* **使用增強體驗撰寫器(EEC)的空白或不完整頁面。** 修正啟用&#x200B;**[!UICONTROL Enhanced Experience Composer]**&#x200B;時，[!UICONTROL Visual Experience Composer]無法在編輯器中載入網站的問題。 (TGT-54576)
 
 +++
 
