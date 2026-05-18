@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP伺服器 {#target-mcp}
 
-[!DNL Adobe Target] MCP整合可讓您直接從AI助理檢查和分析A/B測試、個人化活動和Recommendations條件。 將[!DNL Target]的實驗和個人化資料轉換為純語言的工作流程 — 稽核您的實驗組合、檢閱效能報告，以及探索對象和選件，而不需導覽UI或撰寫API呼叫。
+[!DNL Adobe Target] MCP整合可讓您直接從AI助理檢查和分析A/B測試和個人化活動。 將[!DNL Target]的實驗和個人化資料轉換為純語言的工作流程 — 稽核您的實驗組合、檢閱效能報告，以及探索對象和選件，而不需導覽UI或撰寫API呼叫。
 
 >[!AVAILABILITY]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 行銷和最佳化團隊越來越仰賴聊天式應用程式和開發人員工具（例如Anthropic Claude、OpenAI ChatGPT、Cursor和Microsoft Copilot Studio）來簡化日常工作。 這些應用程式支援&#x200B;**模型內容通訊協定(MCP)**，這是開放標準，可讓應用程式以統一的方式將後端工具公開給大型語言模型(LLM)。
 
-[!DNL Adobe Target]現在提供MCP伺服器，直接在任何MCP相容應用程式中呈現實驗、個人化和建議作業。 [!DNL Adobe Target]作為決策和執行層，而AI助理處理推理和解釋 — 讓團隊更快存取最佳化深入分析，無需導覽多個產品熒幕或針對[!DNL Adobe Target] REST API撰寫查詢。
+[!DNL Adobe Target]現在提供MCP伺服器，直接在任何MCP相容應用程式中呈現實驗和個人化作業。 [!DNL Adobe Target]作為決策和執行層，而AI助理處理推理和解釋 — 讓團隊更快存取最佳化深入分析，無需導覽多個產品熒幕或針對[!DNL Adobe Target] REST API撰寫查詢。
 
 
 >[!IMPORTANT]
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 ## 主要功能 {#mcp-capabilities}
 
-[!DNL Adobe Target] MCP伺服器提供活動、對象、選件、建議和實作設定的讀取存取權。 透過整合，您可以：
+[!DNL Adobe Target] MCP伺服器提供活動、對象、選件及實作組態的讀取存取權。 透過整合，您可以：
 
 * **檢查並稽核實驗** — 取得任何活動的狀態、效能、變更記錄和QA預覽連結，而不需瀏覽UI。
 * **分析結果** — 擷取A/B、XT、AP和自動鎖定目標活動的效能、收入和A4T報表。
 * **探索活動** — 列出、檢查及分析A/B和XT活動。
 * **探索對象和選件** — 列出並檢查對象、HTML選件和JSON選件。
-* **探索Recommendations條件** — 列出並檢查條件和購物車型演演算法。
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **稽核實作** — 檢閱at.js設定、回應Token和每個實體的修訂歷史記錄。
 
 >[!NOTE]
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 +++我可以透過MCP存取哪些[!DNL Adobe Target]物件？
 
-您可以存取活動(A/B、XT、AP)、對象、選件、屬性、mbox、Recommendations條件、回應Token、at.js設定、A4T報表和實體修訂歷史記錄。 目前可用的所有23種工具均為唯讀。
+您可以存取活動(A/B、XT、AP)、對象、選件、屬性、mbox、回應Token、at.js設定、A4T報表和實體修訂歷史記錄。 目前可用的所有23種工具均為唯讀。
 +++
 
 +++MCP伺服器可以建立或修改活動嗎？

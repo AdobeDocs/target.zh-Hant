@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ ht-degree: 1%
 | **活動深入分析** | 「深入瞭解我的『夏季銷售橫幅』測試 — 效能是什麼樣子，是否有任何異常？」 |
 | **對象管理** | 「列出所有以行動使用者為目標的對象，並向我顯示他們相關聯的活動。」 |
 | **QA和預覽** | 「產生活動12345動的QA預覽URL，這樣我就能在啟用之前檢閱所有變體。」 |
-| **建議評論** | 「列出此帳戶中設定的所有Recommendations條件，並摘要使用中的演演算法型別。」 |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **實作稽核** | 「已設定哪個at.js版本，以及目前作用中的回應Token為何？」 |
-| **變更稽核** | 「顯示過去30天內對活動98765數所做的所有變更，以及變更對象。」 |
+| **變更稽核** | 「顯示過去30天內對活動98765數所做的所有變更，以及誰進行這些變更。」 |
 
 ## 使用案例逐步解說 {#mcp-use-case-walkthroughs}
 
