@@ -5,16 +5,16 @@ title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
 
 # 預覽和啟動推薦活動
 
-在您建立包含[!UICONTROL Recommendations]Recommendations選件[!UICONTROL A/B Test]的[!UICONTROL Experience Targeting]、[或](/help/main/c-recommendations/recommendations-as-an-offer.md) (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
+在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
 
 ## 正在檢查Recommendations演演算法狀態
 
@@ -40,15 +40,15 @@ ht-degree: 15%
 
 ### mbox
 
-如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。變更條件設定通常會導致演算法重新執行。根據所做的變更，先前計算的建議在重新執行完成前可能無法使用，或者若是較大的變更，則只有備份或預設內容在重新執行完成前才可使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
+如果選取 mbox 做為行為資料來源，建立後，條件會立即執行。 根據使用的行為資料數量和目錄大小，演算法最多可能需 12 小時來執行。 變更條件設定通常會導致演算法重新執行。 根據所做的變更，先前計算的建議在重新執行完成前可能無法使用，或者若是較大的變更，則只有備份或預設內容在重新執行完成前才可使用。 如果沒有修改演算法，[!DNL Target] 則會根據所選的資料範圍每隔 12 到 48 小時自動執行。
 
 ### [!DNL Adobe Analytics]
 
 如果條件使用 [!DNL Adobe Analytics] 做為行為資料來源，建立後，條件可用時間會根據其他條件是否已使用選取的報表套裝和回顧期間而定。
 
-* **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。此時間範圍取決於 [!DNL Analytics] 系統負載。
+* **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。 此時間範圍取決於 [!DNL Analytics] 系統負載。
 * **使用已可取得之報表套裝的全新或已編輯的條件**：建立新條件或編輯現有條件時，如果選取的報表套裝已搭配[!DNL Target Recommendations]使用，且資料範圍等於或小於選取的資料範圍，資料即可立即使用且不需要一次性設定。 在此情況下，或是在未修改所選報表套裝或資料範圍時已編輯演算法的設定，演算法會在 12 小時內執行或重新執行。
-* **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。例如，針對[!UICONTROL Viewed Affinity]建議，當使用者檢視產品時，產品檢視追蹤呼叫會以近乎即時的速度傳遞到[!DNL Analytics]。 [!DNL Analytics]資料會在隔天很早推送到[!DNL Target]，[!DNL Target]會在12小時內執行演演算法。
+* **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。 例如，針對[!UICONTROL Viewed Affinity]建議，當使用者檢視產品時，產品檢視追蹤呼叫會以近乎即時的速度傳遞到[!DNL Analytics]。 [!DNL Analytics]資料會在隔天很早推送到[!DNL Target]，[!DNL Target]會在12小時內執行演演算法。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 15%
 
 ## 使用QA連結來預覽建議
 
-演演算法有結果可供使用後，您可以使用[的](/help/main/c-activities/c-activity-qa/activity-qa.md)QA連結[!DNL Adobe Target]功能來預覽這些結果。 QA連結可在[!UICONTROL Activity Location]概觀頁面的[!UICONTROL Activity]區段中取得：
+演演算法有結果可供使用後，您可以使用[!DNL Adobe Target]的[QA連結](/help/main/c-activities/c-activity-qa/activity-qa.md)功能來預覽這些結果。 QA連結可在[!UICONTROL Activity]概觀頁面的[!UICONTROL Activity Location]區段中取得：
 
 >[!NOTE]
 >
@@ -91,6 +91,8 @@ ht-degree: 15%
 如果一列的第一個值是星號(*)，則表示[備份專案](/help/main/c-recommendations/c-algorithms/backup-recs.md)。 如果設計中並非所有位置都能由演演算法（條件）的建議專案填滿，則會顯示備份專案。
 
 對於以索引鍵值為基礎的其他演演算法型別（例如[!UICONTROL People Who Viewed This, Viewed That]），索引鍵值（即「此」專案）會列在最左側的欄中，而建議專案（即「該」專案）則會從Recommendation_X欄中的由左至右列出。
+
+請注意，若活動具有非常大的結果集，**[!UICONTROL Download data]**&#x200B;選項可能會失敗，並出現錯誤`Error while fetching recommendation data file.`。當產生的CSV超過單一下載中可透過使用者介面傳回的回應大小時，就會發生這種情況。
 
 >[!NOTE]
 >

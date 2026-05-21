@@ -2,19 +2,16 @@
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
 description: 檢視有關 [!DNL Target Recommendations] 活動的常見問答清單。
 title: 哪裡可以找到有關 [!DNL Recommendations]的問答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3467
-ht-degree: 82%
+source-wordcount: 3543
+ht-degree: 80%
 
 ---
 
@@ -109,7 +106,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}設定可控制演算法選擇器的智慧型篩選。
+[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
@@ -206,6 +203,12 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。 但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。 若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。 自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。 在 [[!DNL Target] 限制頁面](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)上有提供必要欄長度的其他限制。
 
+## 為什麼我的[!UICONTROL Download data]動作在[!DNL Recommendations]活動中失敗？ {#download-data-error}
+
+當您在[!DNL Recommendations]活動的[!UICONTROL Activity Overview]頁面上按一下&#x200B;**[!UICONTROL Download data]**&#x200B;時，[!DNL Target]使用者介面可能會顯示錯誤`Error while fetching recommendation data file.`
+
+這通常發生在活動具有非常大的結果集時：產生的CSV超過單次下載中可以透過使用者介面傳回的回應大小。 建議資料本身完整，只有瀏覽器內下載路徑無法傳遞該大小的檔案。
+
 ## 是否可以動態地排除實體? {#exclude}
 
 在查詢字串中，您可以傳遞要從推薦中排除之實體的實體 ID。 例如，您可以排除已在購物車中的項目。
@@ -258,7 +261,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
 
 ## 如何只推薦新文章或影片？ {#recommend-new-articles}
 

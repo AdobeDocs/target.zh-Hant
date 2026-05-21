@@ -5,16 +5,12 @@ title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 15%
+source-wordcount: 1462
+ht-degree: 14%
 
 ---
 
@@ -97,6 +93,8 @@ ht-degree: 15%
 如果一列的第一個值是星號(*)，則表示[備份專案](/help/main/c-recommendations/c-algorithms/backup-recs.md)。 如果設計中並非所有位置都能由演演算法（條件）的建議專案填滿，則會顯示備份專案。
 
 對於以索引鍵值為基礎的其他演演算法型別（例如[!UICONTROL People Who Viewed This, Viewed That]），索引鍵值（即「此」專案）會列在最左側的欄中，而建議專案（即「該」專案）則會從Recommendation_X欄中的由左至右列出。
+
+請注意，若活動具有非常大的結果集，**[!UICONTROL Download data]**&#x200B;選項可能會失敗，並出現錯誤`Error while fetching recommendation data file.`。當產生的CSV超過單一下載中可透過使用者介面傳回的回應大小時，就會發生這種情況。
 
 >[!NOTE]
 >
