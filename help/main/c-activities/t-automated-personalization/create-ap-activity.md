@@ -2,24 +2,16 @@
 keywords: 自動個人化；ap
 description: 瞭解如何使用[!UICONTROL Visual Experience Composer]建立[!UICONTROL Automated Personalization] (AP)活動。
 title: 如何建立[!UICONTROL Automated Personalization]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 22%
 
 ---
@@ -100,7 +92,7 @@ ht-degree: 22%
 
    >[!IMPORTANT]
    >
-   >**最佳實務：**&#x200B;為獲得最佳效能，請將[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動限製為4-6個位置，每個位置有4-6個選件。 體驗總數會因位置和選件的卡式組合而成長。 較大的設定可能會導致[!UICONTROL Visual Experience Composer]中的載入或編輯速度變慢。 將總體驗維持在5,000個體驗以下，以獲得最佳結果；硬性限製為30,000 （啟用[!UICONTROL Disallow Duplicates]選項時套用相同限制）。
+   >為獲得最佳效能，請將[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動限製為4-6個位置，每個位置有4-6個選件。 體驗總數會因位置和選件的卡式組合而成長。 較大的設定可能會導致[!UICONTROL Visual Experience Composer]中的載入或編輯速度變慢。 將總體驗維持在5,000個體驗以下，以獲得最佳結果；硬性限製為30,000 （啟用[!UICONTROL Disallow Duplicates]選項時套用相同限制）。
 
 1. （依條件）按一下「**[!UICONTROL Offers]**」來選取內容片段，並將它們指派給報表群組，或只允許特定訪客檢視特定具有鎖定目標的選件。
 
@@ -111,7 +103,7 @@ ht-degree: 22%
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
