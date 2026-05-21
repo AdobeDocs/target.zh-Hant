@@ -19,16 +19,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 13%
+source-wordcount: 94
+ht-degree: 12%
 
 ---
 
 # 管理[!DNL Target]總覽
 
-協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7組態、實作、主機、環境、回應權杖、使用者和[!DNL Recommendations]的組態設定。
+協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7設定、實作、主機、環境、加入允許清單的URL、回應權杖、使用者和[!DNL Recommendations]的設定設定。
 
 {{permissions-update}}
 
@@ -41,6 +41,7 @@ ht-degree: 13%
 * [屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [主機](/help/main/administrating-target/hosts.md)
 * [環境](/help/main/administrating-target/environments.md)
+* [已加入允許清單的URL](/help/main/administrating-target/allowlisted-urls.md)
 * [回應 Token](/help/main/administrating-target/response-tokens.md)
 * [使用者](/help/main/administrating-target/c-user-management/user-management.md)
 * [推薦](/help/main/administrating-target/recommendations-settings.md)

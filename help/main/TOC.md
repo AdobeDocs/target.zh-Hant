@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 83%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 83%
    + {hide-from-toc}[內容預先隱藏](administrating-target/content-pre-hiding.md)
    + [主機](administrating-target/hosts.md)
    + [環境](/help/main/administrating-target/environments.md)
+   + [已加入允許清單的URL](administrating-target/allowlisted-urls.md)
    + [回應 Token](administrating-target/response-tokens.md)
    + 管理使用者 {#manage-users}
       + [使用者管理](administrating-target/c-user-management/user-management.md)
