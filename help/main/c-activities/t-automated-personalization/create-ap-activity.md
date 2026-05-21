@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1873
-ht-degree: 23%
+source-wordcount: 1856
+ht-degree: 22%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 23%
 使用[!UICONTROL Visual Experience Composer] (VEC)在[!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)活動。
 
 [!DNL Target]中的[!UICONTROL Automated Personalization] (AP)活動工作流程與其他活動型別的工作流程不同。
+
+此程式遵循[!UICONTROL Visual Experience Composer]中的三步驟引導式工作流程：
+
+1. [步驟1：建立體驗](#build-experiences)
+1. [步驟2：設定鎖定目標](#set-targeting)
+1. [步驟3：設定目標與設定](#configure-goals-and-settings)
+
+## 步驟1：建立體驗 {#build-experiences}
+
+定義[!UICONTROL Automated Personalization]可個人化的內容變數集區。 您的體驗和選件愈豐富、愈明確，演演算法就能愈理想似地比對每位訪客的正確內容。
 
 1. 從[!DNL Target] [!UICONTROL Activities]清單中，按一下&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**。
 
@@ -86,17 +96,11 @@ ht-degree: 23%
 
 1. 按一下&#x200B;**[!UICONTROL Manage Content]**&#x200B;圖示（![管理內容圖示](/help/main/assets/icons/Experience.svg) ）來設定可用的組合。
 
-   畫面上方會顯示一個對話方塊，其中有兩個選項： [!UICONTROL Experiences]和[!UICONTROL Offers]。
+   會顯示含有兩個索引標籤的對話方塊： [!UICONTROL Experiences]和[!UICONTROL Offers]。 [!UICONTROL Experiences]索引標籤會列出每項內容及其獲指派的位置。 若要排除一或多個體驗，請選取對應的核取方塊並按一下[!UICONTROL Exclude]圖示。 如需更多選項，請參閱[管理排除專案](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >雖然您可以在AP活動中建立最多30,000個體驗，但使用的體驗少於5,000個時，活動的執行效能最佳。 即使活動已啟用[!UICONTROL Disalow Duplicates]選項，此限制也會套用。
-
-   [!UICONTROL Experiences]清單會顯示為活動選取的每個內容片段，及其獲指派的位置。
-
-   您可以選取所需體驗旁的核取方塊，然後按一下「[!UICONTROL Exclude]」圖示，以排除特定體驗。
-
-   您可以選取相關體驗的核取方塊，然後按一下[!UICONTROL Exclude]圖示，以分批排除或包含體驗。
+   >**最佳實務：**&#x200B;為獲得最佳效能，請將[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動限製為4-6個位置，每個位置有4-6個選件。 體驗總數會因位置和選件的卡式組合而成長。 較大的設定可能會導致[!UICONTROL Visual Experience Composer]中的載入或編輯速度變慢。 將總體驗維持在5,000個體驗以下，以獲得最佳結果；硬性限製為30,000 （啟用[!UICONTROL Disallow Duplicates]選項時套用相同限制）。
 
 1. （依條件）按一下「**[!UICONTROL Offers]**」來選取內容片段，並將它們指派給報表群組，或只允許特定訪客檢視特定具有鎖定目標的選件。
 
@@ -116,35 +120,21 @@ ht-degree: 23%
 
 1. 完成活動內容的設定時，請按一下&#x200B;**[!UICONTROL Done]**。
 
+## 步驟2：設定鎖定目標 {#set-targeting}
+
+決定哪些訪客進入活動以及您的流量公開多少。 與控制組配對，讓[!DNL Target]可以測量個人化交付的提升度。
+
 1. 按一下[!UICONTROL Visual Experience Composer]頂端的&#x200B;**[!UICONTROL Targeting]**，以前往三步驟引導工作流程中的下一個步驟。
 
    如果您曾使用其他[!DNL Target]活動型別，**鎖定目標**&#x200B;步驟看起來會很熟悉。 您可以在此選取受眾，並指定看到每個體驗的訪客百分比。
 
-   流程圖表隨即開啟。
+1. 流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
    ![AP測試鎖定目標步驟](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-   流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL All Visitors]**&#x200B;控制項以[為活動選取其他對象](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)並設定其訪客百分比。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL All Visitors]**&#x200B;控制項以選取活動的其他對象。
-
-   [!UICONTROL All Visitors]對象已設定為預設值。 如果您選取其他對象，其名稱會顯示在最左側的控制項中。
-
-   右側框架隨即顯示，可讓您新增或刪除對象，以及指派活動的訪客百分比。
-
-   1. 若要變更對象，請按一下右側框架中的&#x200B;**[!UICONTROL Replace]圖示** （ ![取代圖示](/help/main/assets/icons/Retweet.svg) ）。
-   1. 在[!UICONTROL Add Audience]對話方塊中，[選取所需的對象](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然後按一下&#x200B;**[!UICONTROL Assign Audience]**。
-
-      您可以按一下&#x200B;**結合對象**&#x200B;到[建立結合多個對象的對象](/help/main/c-target/combining-multiple-audiences.md)。
-
-      如果您需要建立不在[!UICONTROL Audience Library]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以從下列選項中選擇：
-
-      * **[!UICONTROL Audience Library]**：建立儲存至[!UICONTROL Audience Library]、可於其他活動中重複使用的隨選對象。
-      * **[!UICONTROL This activity only]**：建立未儲存至[!UICONTROL Audience Library]且只能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
-
-   1. 按一下右側框架中的&#x200B;**[!UICONTROL Visitor Percentage]**，然後選擇符合您要讓其進入活動之訪客的百分比。
-
-   例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
+   [!UICONTROL All Visitors]對象已設定為預設值。 如果您選取其他對象，其名稱會顯示在最左側的控制項中，例如，您可以將專案限製為所有訪客的50%或「加州人」對象的45%。
 
 1. 按一下&#x200B;**[!UICONTROL Traffic Allocation]**&#x200B;控制項以從下列選項中選擇：
 
@@ -163,6 +153,10 @@ ht-degree: 23%
    >[!NOTE]
    >
    >在[!UICONTROL Automated Personalization]活動中，會評估每個要求的輸入條件（URL鎖定目標、範本規則和對象目標）。 在舊版中，會對每個工作階段評估輸入條件。
+
+## 步驟3：設定目標與設定 {#configure-goals-and-settings}
+
+告訴[!DNL Target]成功的樣子。 您選擇的最佳化目標是個人化演演算法用來訓練的量度，因此請挑選對此活動最重要的結果。
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以顯示&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;頁面。
 1. 使用下列設定來設定活動，然後按一下&#x200B;**[!UICONTROL Save & Close]**。
