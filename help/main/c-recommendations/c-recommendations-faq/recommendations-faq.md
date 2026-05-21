@@ -11,10 +11,10 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3467
-ht-degree: 82%
+source-wordcount: 3543
+ht-degree: 80%
 
 ---
 
@@ -205,6 +205,12 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 ## 用於摘要上傳之 CSV 檔案的檔案大小上限是多少？ {#section_20F1AF4839A447B9889B246D6E873538}
 
 摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。 但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。 若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。 自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。 在 [[!DNL Target] 限制頁面](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)上有提供必要欄長度的其他限制。
+
+## 為什麼我的[!UICONTROL Download data]動作在[!DNL Recommendations]活動中失敗？ {#download-data-error}
+
+當您在[!DNL Recommendations]活動的[!UICONTROL Activity Overview]頁面上按一下&#x200B;**[!UICONTROL Download data]**&#x200B;時，[!DNL Target]使用者介面可能會顯示錯誤`Error while fetching recommendation data file.`
+
+這通常發生在活動具有非常大的結果集時：產生的CSV超過單次下載中可以透過使用者介面傳回的回應大小。 建議資料本身完整，只有瀏覽器內下載路徑無法傳遞該大小的檔案。
 
 ## 是否可以動態地排除實體? {#exclude}
 
