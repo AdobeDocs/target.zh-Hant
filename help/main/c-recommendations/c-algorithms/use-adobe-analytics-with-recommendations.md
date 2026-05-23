@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >如果是內容網站，個別內容片段必須視為「產品」，且該內容的關聯屬性必須作為屬性傳遞。 此類屬性可包括作者名稱、發佈日期、內容標題、發行月份等。 類別層級或類別型別的詳細程度，應由企業根據使用案例需求決定。
 
-如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)。 該檔案中有些附註需要部署團隊自行決定（例如：類別）。 在執行此活動之前，請一律建議諮詢[!DNL Adobe]。
+如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant)。 該檔案中有些附註需要部署團隊自行決定（例如：類別）。 在執行此活動之前，請一律建議諮詢[!DNL Adobe]。
 
 ### 考量事項
 

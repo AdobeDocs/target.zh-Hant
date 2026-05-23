@@ -69,7 +69,7 @@ ht-degree: 31%
 
 如需詳細資訊，請參閱：
 
-* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中與Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}整合。
+* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中與Experience Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}整合。
 * **Adobe Developer**： [使用&#x200B;*管理使用手冊*&#x200B;檔案中的Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=zh-Hant){target=_blank}與Adobe Target整合。
 * **[!DNL AEM]6.5**： [在&#x200B;*Adobe Analytics 6.5*&#x200B;檔案中選擇使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=zh-Hant){target=_blank}。
 * **[!DNL AEM]6.4**： [在&#x200B;*Adobe Analytics 6.4*&#x200B;檔案中選擇使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant){target=_blank}。
@@ -187,4 +187,4 @@ ht-degree: 31%
 >
 >已移除在4:54討論的[!DNL AEM]深層連結功能。
 
-如需詳細資訊，請參閱&#x200B;*AEM Sites影片和教學課程*&#x200B;頁面上的[搭配Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)使用[!UICONTROL Experience Fragments]。
+如需詳細資訊，請參閱&#x200B;*AEM Sites影片和教學課程*&#x200B;頁面上的[搭配Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=zh-Hant)使用[!UICONTROL Experience Fragments]。

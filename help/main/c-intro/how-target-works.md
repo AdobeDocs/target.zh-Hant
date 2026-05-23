@@ -194,7 +194,7 @@ The following information helps you understand the counting strategy used for [!
 >
 >[!DNL Target]目前在中國缺少Edge叢集，因此限制了該區域[!DNL Target]客戶的訪客效能。 防火牆和缺少Edge叢集可能會影響網站體驗，導致轉譯和頁面載入速度緩慢。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

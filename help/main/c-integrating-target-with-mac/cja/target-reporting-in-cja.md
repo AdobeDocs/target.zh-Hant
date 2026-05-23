@@ -36,7 +36,7 @@ ht-degree: 35%
 使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源的主要優點如下：
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。 執行活動之前完全不需要指定。
-* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[Experimentation面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
+* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[Experimentation面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
 * 行銷人員可以有[!DNL Adobe Journey Optimizer]和[!DNL Target]的單一報表來源。 兩種個人化產品都可以連接到 [!DNL Customer Journey Analytics] 以更全面地了解您的網頁個人化。
 
 ## 考量事項
@@ -59,7 +59,7 @@ ht-degree: 35%
 * 任何現有的[!DNL Target]活動會繼續使用[!DNL Target]資料集合，且不受啟用此整合的影響。
 * 若要使用此整合，慣用的實作方法是透過[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}實作[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform){target=_blank}和[!DNL Target]。
 
-  如果您目前尚未實作[!DNL Adobe Experience Platform Web SDK]，您也可以建立[[!DNL Adobe Analytics] 來源連線](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)以將資料匯入[!DNL Adobe Experience Platform]。 如果您計畫使用此方法，則必須選取與[!DNL Customer Journey Analytics]搭配使用的[!DNL Adobe Experience Platform]沙箱旁的[!DNL Analytics]報告套裝。
+  如果您目前尚未實作[!DNL Adobe Experience Platform Web SDK]，您也可以建立[[!DNL Adobe Analytics] 來源連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)以將資料匯入[!DNL Adobe Experience Platform]。 如果您計畫使用此方法，則必須選取與[!DNL Customer Journey Analytics]搭配使用的[!DNL Adobe Experience Platform]沙箱旁的[!DNL Analytics]報告套裝。
 
   ![報告設定對話方塊中的沙箱選項](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
 
