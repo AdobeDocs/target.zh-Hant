@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. 按一下 **[!UICONTROL Save]**。 這會將忽隱忽現的管理設定套用至您的執行個體。
 
-1. 啟用後，按一下&#x200B;**[!UICONTROL Download]**，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 啟用後，按一下&#x200B;**[!UICONTROL Download]**，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 

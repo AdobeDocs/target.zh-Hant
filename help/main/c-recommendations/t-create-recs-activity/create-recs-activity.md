@@ -2,7 +2,7 @@
 keywords: 建立建議;推薦活動;新建議;建議概觀
 description: 瞭解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)來建立 [!DNL Recommendations] 活動。
 title: 如何建立 [!DNL Recommendations] 活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA

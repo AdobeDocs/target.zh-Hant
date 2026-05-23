@@ -42,7 +42,7 @@ ht-degree: 73%
 
 **很高興知道**：由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增 CRM 或購買的資料。 這表示您可以選擇最適合您組織的方法。
 
-如需詳細資訊，請參閱[將資料匯入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
+如需詳細資訊，請參閱[將資料匯入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
 
 ## 提示 2：將 [!DNL Target] 客群與其他 Adobe Experience Cloud 客群混合，以實現更深度的個人化。
 
