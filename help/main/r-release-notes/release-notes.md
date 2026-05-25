@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: ad59ee31ae91e2f1bdcd5ec409ee9d04595ee2dd
 workflow-type: tm+mt
-source-wordcount: 504
-ht-degree: 53%
+source-wordcount: 446
+ht-degree: 60%
 
 ---
 
@@ -31,42 +31,28 @@ ht-degree: 53%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 26.5.2 （2026年5月14日）
+## [!DNL Target Standard/Premium] 26.5.3 （2026年5月21日）
 
-**管理**
-
-+++檢視詳細資料
-
-* 允許的URL的&#x200B;**Regex驗證。** 修正在&#x200B;**[!UICONTROL Allowed URLs]**&#x200B;欄位中輸入無效規則運算式而沒有正確驗證的問題。 (TGT-55095)
-
-+++
-
-**客群**
+**[!UICONTROL What's new]頁**
 
 +++檢視詳細資料
 
-* [!UICONTROL Edit Audience]對話方塊中的&#x200B;**按鈕。** 修正&#x200B;**[!UICONTROL Edit Audience]**&#x200B;對話方塊中的按鈕不再正確呈現的問題。 (TGT-54638)
+* **新[!UICONTROL What's new]頁面。** 已在[!DNL Adobe Target] UI中新增新的&#x200B;**[!UICONTROL What's new]**&#x200B;頁面，協助您在不離開產品的情況下探索最新功能、增強功能和更新。 (TGT-55137)
 
 +++
 
-**[!DNL Adobe Target]MCP伺服器（公用Beta）**
+**活動**
 
 +++檢視詳細資料
 
-[!DNL Adobe Target]現在提供MCP （模型內容通訊協定）伺服器，直接在任何MCP相容應用程式中呈現實驗、個人化和報告作業。 透過這項整合，行銷和技術人員可以檢查A/B測試、分析效能報表，以及探索對象和選件 — 全部使用自然語言提示，而不是導覽多個UI熒幕或針對[!DNL Adobe Target] REST API撰寫查詢。 此功能目前可在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中使用。
+* 在[!UICONTROL Automated Personalization]個活動中編輯鎖定目標時，**選取了錯誤的體驗。** 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯&#x200B;**[!UICONTROL Targeting]**&#x200B;步驟時，可能選取錯誤體驗的問題。 (TGT-55176)
 
-此功能適用於公開Beta中的所有客戶。
-
-如需詳細資訊，請參閱[[!DNL Adobe Target] MCP伺服器](../c-integrating-target-with-mac/mcp/target-mcp.md)。
+* **關閉排程活動時的較早日期。** 修正無法選取較早日期來關閉已排程活動的問題。 (TGT-55163)
 
 +++
-
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-
-
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 

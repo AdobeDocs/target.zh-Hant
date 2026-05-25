@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
 workflow-type: tm+mt
-source-wordcount: 68360
+source-wordcount: 68506
 ht-degree: 50%
 
 ---
@@ -57,6 +57,36 @@ ht-degree: 50%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 — 2026
+
+## [!DNL Target Standard/Premium] 26.5.2 （2026年5月14日）
+
+**管理**
+
++++檢視詳細資料
+
+* 允許的URL的&#x200B;**Regex驗證。** 修正在&#x200B;**[!UICONTROL Allowed URLs]**&#x200B;欄位中輸入無效規則運算式而沒有正確驗證的問題。 (TGT-55095)
+
++++
+
+**客群**
+
++++檢視詳細資料
+
+* [!UICONTROL Edit Audience]對話方塊中的&#x200B;**按鈕。** 修正&#x200B;**[!UICONTROL Edit Audience]**&#x200B;對話方塊中的按鈕不再正確呈現的問題。 (TGT-54638)
+
++++
+
+**[!DNL Adobe Target]MCP伺服器（公用Beta）**
+
++++檢視詳細資料
+
+[!DNL Adobe Target]現在提供MCP （模型內容通訊協定）伺服器，直接在任何MCP相容應用程式中呈現實驗、個人化和報告作業。 透過這項整合，行銷和技術人員可以檢查A/B測試、分析效能報表，以及探索對象和選件 — 全部使用自然語言提示，而不是導覽多個UI熒幕或針對[!DNL Adobe Target] REST API撰寫查詢。 此功能目前可在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中使用。
+
+此功能適用於公開Beta中的所有客戶。
+
+如需詳細資訊，請參閱[[!DNL Adobe Target] MCP伺服器](../c-integrating-target-with-mac/mcp/target-mcp.md)。
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
 
@@ -1849,7 +1879,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 解決建立活動時因區段ID衝突而發生的驗證錯誤。 [!DNL Target]偵測到使用匿名區段的現有活動時發生錯誤。 (TGT-51784)
 * 解決[!DNL Target]無法在對象中儲存具有排除規則的活動的問題。 (TGT-51581)
 * 已解決導致客戶無法建立、刪除或行動資料夾而無法存取預設工作區的問題。 (TGT-51499)
-* 解決在擷取[!DNL Analytics]量度清單時，導致GET要求失敗的問題。 (TGT-51106)
+* 解決擷取[!DNL Analytics]量度清單時，造成GET要求失敗的問題。 (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 （2025年3月11日）
 
