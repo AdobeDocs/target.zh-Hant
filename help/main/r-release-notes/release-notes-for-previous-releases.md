@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
+source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: 68506
+source-wordcount: 68339
 ht-degree: 50%
 
 ---
@@ -89,14 +89,6 @@ ht-degree: 50%
 +++
 
 ## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
-
-**整合**
-
-+++檢視詳細資料
-
-* Experimentation Accelerator中的&#x200B;**[!DNL Adobe Target]管理。** 新增將[!DNL Target]工作區指派至Experimentation Accelerator沙箱的支援，讓團隊可以在Experimentation Accelerator中一個位置檢視來自[!DNL Adobe Target]的實驗。 [了解更多](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
 
 **活動**
 
@@ -634,7 +626,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * **在活動建立UI中編輯已儲存活動的已還原。** 解決造成使用者在儲存修改後無法編輯活動的問題。 受影響的活動在&quot;[!UICONTROL Applying initial modifications]&quot;中持續卡住，封鎖進一步的更新並隱藏[!UICONTROL Cancel]按鈕。 (TGT-53631)
 * **VEC不再於&quot;[!UICONTROL Applying initial modifications]&quot;**&#x200B;停頓 已解決VEC中的效能問題，此問題在載入有大量修改的體驗時造成長時間延遲。 受影響的使用者看到UI卡在&quot;[!UICONTROL Applying initial modifications]&quot;上達數分鐘，尤其是在體驗B案例中。 (TGT-53727)
 * **VEC現在會載入修改內容，但不含根元素。**
-解決VEC中載入缺少明確根元素的修改時，導致體驗停滯的問題。 這些修改先前導致UI在「A[!UICONTROL pplying initial modifications]」上無限期擱置。 (TGT-53799)
+解決VEC中載入缺少明確根元素的修改時，導致體驗停滯的問題。這些修改之前導致UI在「A[!UICONTROL pplying initial modifications]」上無限期擱置。(TGT-53799)
 * **在活動中儲存變更現在可如預期般運作。** 解決在新的建立UI中許可權相關的問題，此問題阻止使用者在編輯活動中的目標和進階設定時儲存變更。 受影響的使用者看到紅色錯誤色帶和「Forbidden.Resource」訊息，儘管擁有適當的存取權。 (TGT-53816)
 * **VEC UI現在會保留跨檢視的體驗修改。** 已解決更新VEC中影響體驗開發的多個問題。 修改無法正確持續存在，尤其是使用HTML選件或在檢視之間切換時。 (TGT-53825)
 * **現在當修改跨越多個體驗時，所有檢視都會正確顯示。** 解決在活動建立UI中，當修改套用至多個檢視時只顯示一個檢視的問題。 即使已正確套用修改，暫留工具提示仍無法列出所有關聯的檢視。 (TGT-53827)
@@ -664,7 +656,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 +++本地化
 
 * **修正「完整詳細資料檢視」簡體中文翻譯中的術語不一致問題。**
-之前，在簡體中文(zh_CN)地區設定中，「詳細資訊」一詞被錯誤地翻譯為「详情」，違反了既定的術語指南。 已將此修正為「详细信息」，以確保與術語庫一致。 (TGT-53741)
+之前，在簡體中文(zh_CN)地區設定中，「詳細資訊」一詞被錯誤地翻譯為「详情」，違反了既定的術語指南。已將此修正為「详细信息」，以確保與術語庫一致。(TGT-53741)
 
 +++
 
@@ -681,7 +673,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * **在A[!UICONTROL utomated Personalization]活動中產生臨機選件造成報表不一致。** 在[!UICONTROL Automated Personalization] (AP)活動中使用產生臨時優惠方案功能導致不正確的報告。 尤其是，選件ID會跨位置重複使用，導致報告資料被錯誤歸因或覆寫。 臨時選件現在會在每個位置產生不同的識別碼，以確保跨所有已設定體驗的準確追蹤和報告。 (TGT-53757)
 * **由於JavaScript錯誤，無法載入活動報告。** 客戶在存取特定活動的[!UICONTROL Reports]索引標籤時遇到「發生錯誤」訊息。 錯誤是由JavaScript例外狀況所造成：無法讀取未定義的屬性（正在讀取&#39;indexOf&#39;），是在`getAnalyticsReportSummary` GraphQL呼叫期間觸發。 報告現在會正確載入，且錯誤處理已得到改善，以防止在更新的活動建立工作流程中發生類似失敗。 (TGT-53797)
-* **報告與卷軸互動後當機。** 按一下「[!UICONTROL Reports]」標籤中的卷軸導致頁面當機，並伴有JavaScript錯誤：
+* **報告與卷軸互動後當機。**&#x200B;按一下[!UICONTROL Reports]索引標籤中的卷軸導致頁面當機，並伴有JavaScript錯誤：
   `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.`報告現在可正確載入及捲動，而不會觸發錯誤或當機。 (TGT-53828)
 * **報告未顯示主要量度。** 活動報表中缺少使用mbox設定為轉換量度的主要量度。 依量度名稱或mbox名稱搜尋不會產生任何結果，導致無法檢視關鍵效能資料。 主要量度現在正確顯示在[!UICONTROL Reports]標籤中，確保準確追蹤和分析行銷活動績效。 (TGT-53773)
 * **與水準卷軸互動時，更新的UI中的[!UICONTROL Reports]索引標籤當機。** 使用水準卷軸在檢視範圍外存取量度時，[!UICONTROL Reports]檢視間歇性地當機，並出現「發生錯誤」錯誤。 卷軸現在能以可靠的方式運作，讓客戶檢視和分析所有量度，而不需要縮小或使用Shift-Scroll等因應措施。 (TGT-53824)
@@ -691,7 +683,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 +++[!UICONTROL Visual Experience Composer] (VEC)
 
 * **在VEC中按一下階層連結時，無法一致地顯示編輯功能表。**
-透過(VEC)中的階層連結選取HTML元素時，編輯功能表會斷斷續續地無法出現或快速消失，導致元素選取不可靠。 現在，透過階層連結導覽時，編輯功能表會一致地顯示，以改善更新活動建立流程中的元素選擇工作流程。 (TGT-52873)
+透過(VEC)中的階層連結選取HTML元素時，編輯功能表會斷斷續續地無法出現或快速消失，導致元素選取不可靠。現在，透過階層連結導覽時，編輯功能表會一致地顯示，以改善更新活動建立流程中的元素選擇工作流程。(TGT-52873)
 * **內容功能表間歇性地無法出現在VEC中。** 按一下元素時，更新VEC UI中的內容功能表無法一致顯示，導致難以存取編輯選項。 現在，在選取元素時，內容功能表會可靠地顯示，以改善更新活動建立流程中的編輯工作流程和整體可用性。 (TGT-53015)
 * **VEC中某些元素的內容功能表無法顯示。** 在更新的VEC中選取特定元素時，快顯選單未顯示，導致難以套用修改。 現在，所有支援的元素都會一致地顯示內容功能表，提高更新活動建立工作流程中編輯體驗的可靠性和可用性。 (TGT-53248)
 * 在VEC中使用階層連結時，**內容功能表在第一次點按時消失。** 透過VEC中的階層連結選取父元素，會導致內容功能表短暫出現然後消失，導致難以存取編輯選項。 現在，透過階層連結導覽元素時，內容功能表仍可顯示和運作，提高更新活動建立程式中元素選擇工作流程的可靠性。 (TGT-53424)
@@ -1465,7 +1457,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * 修正複製現有活動並將報告來源變更為[!DNL Adobe Analytics] (A4T)會導致「無效使用者輸入」錯誤的問題。 當某些與[!DNL Analytics]報告不相容的量度動作（例如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）從原始活動中保留時觸發此錯誤。 (TGT-52900)
 * 修正在[!UICONTROL Goals & Settings]步驟中選取[!DNL Adobe Analytics] (A4T)作為報告來源時，封鎖客戶建立或儲存活動的問題。 選取[!UICONTROL Custom Event]量度（例如「自訂事件16」）時，會發生特定問題，導致下列錯誤：「無效的使用者輸入」。 (TGT-52910)
-* 修正按一下&quot;[!UICONTROL View in Analytics]&quot;連結時，將使用者重新導向至首頁而非預定的[!DNL Analytics]儀表板的問題。 (TGT-53092 和 TGT-53093)
+* 修正按一下&quot;[!UICONTROL View in Analytics]&quot;連結時，將使用者重新導向至首頁而非預定的[!DNL Analytics]儀表板的問題。（TGT-53092和TGT-53093）
   <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * 修正在更新的[!UICONTROL Overview] UI中檢視[!DNL Recommendations]活動時，當選取[!DNL Adobe Analytics] (A4T)作為報表來源時，[!UICONTROL Goals & Settings]區段無法載入的問題。 下列錯誤訊息會顯示為：「發生錯誤。 我們無法完成您的要求。 如果問題仍然存在，請聯絡 Adobe 客戶服務。」 (TGT-52999)
 
@@ -1879,7 +1871,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 解決建立活動時因區段ID衝突而發生的驗證錯誤。 [!DNL Target]偵測到使用匿名區段的現有活動時發生錯誤。 (TGT-51784)
 * 解決[!DNL Target]無法在對象中儲存具有排除規則的活動的問題。 (TGT-51581)
 * 已解決導致客戶無法建立、刪除或行動資料夾而無法存取預設工作區的問題。 (TGT-51499)
-* 解決擷取[!DNL Analytics]量度清單時，造成GET要求失敗的問題。 (TGT-51106)
+* 解決在擷取[!DNL Analytics]量度清單時，導致GET要求失敗的問題。 (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 （2025年3月11日）
 
@@ -3598,7 +3590,7 @@ target/r_release-notes-2018.xml
      </ul> </p> <p>(TGT-30229) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>客群 </p> </td> 
+   <td colname="col1"> <p>對象 </p> </td> 
    <td colname="col2"> <p>將某個設定檔屬性與另一個設定檔屬性加以比較，而不是與靜態數字比較。 </p> <p>請參閱<a href="/help/main/c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md#concept_4C2124B79A5B4556A6C1D10C0F5E40A0" format="dita" scope="local">建立設定檔屬性比較對象</a>。 </p> <p> (TGT-28406) </p> </td> 
   </tr> 
   <tr> 
@@ -3733,7 +3725,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>報告 </p> </td> 
+   <td colname="col1"> <p>報表 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8D08FE4AC7D748EFB2BBFF87DBDC5CE5"> 
       <li id="li_B8929C19276D42168A28A3775CDEDFB3"> <p>您可以在視需要設定個別活動報告之後，儲存高達十個個別活動報告的不同預設集 (度量、客群、進階設定等)。 所有 Target 使用者皆可顯示、編輯和刪除各種預設集 (無論建立者是誰)。 (TGT-21268) </p> </li> 
@@ -3794,7 +3786,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p>在Target活動中使用AEM中建立的體驗片段，可讓您將AEM的易用性和威力，結合Target中強大的自動化智慧(AI)和機器學習(ML)功能，以大規模測試並個人化體驗。&amp;nbsp；&amp;nbsp； </p> <p>AEM 將您的所有內容和資產集中在一個中央位置，以支援您的個人化策略。 AEM 可讓您在一個位置中輕鬆地為桌上型電腦、平板電腦和行動裝置建立內容，不必撰寫程式碼。 不需要為每個裝置建立頁面，AEM會自動根據您的內容調整每個體驗。 </p> <p> Target可讓您根據結合行為、情境和離線變數的規則型和AI驅動機器學習方法的組合，大規模提供個人化體驗。&amp;nbsp；透過Target，您可以輕鬆設定和執行A/B及多變數活動，以決定最佳選件、內容和體驗。 </p> <p>體驗片段意味著，內容/體驗建立者和管理者，與使用 Target 來推動業務成果的最佳化和個人化專家，在合作方面跨出一大步。 </p> <p>如需詳細資訊，請參閱 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM Experience 體驗片段</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>報告 </p> </td> 
+   <td colname="col1"> <p>報表 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAB90C510EA04D6A8AEFF23A77DB2337"> 
      <li id="li_47DA6EB92CC84FFDBFDC9CC9386AF654"> <p>您現在可以重新整理報告以更新報告的表格和圖形視圖，而無須重新整理整個頁面、其設定或其資料範圍。 (TGT-28125) </p> <p>如需更多資訊，請參閱<a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local">報表設定</a>。 </p> </li> 
@@ -3893,7 +3885,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p>檢視對象定義快顯示卡片（例如來自對象庫）時，您現在可以看見參考該對象的其他活動（如適用）。 以此方式，您可以避免在編輯對象時對活動造成意外影響。 </p> <p>過去，當您嘗試刪除活動所參考的對象時，會顯示警告，通知您無法刪除該對象，其具有最多 10 個參考該對象的活動。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local">關於對象</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>報告 </p> </td> 
+   <td colname="col1"> <p>報表 </p> </td> 
    <td colname="col2"> <p>改善報表中的提升和界限資訊，以更廣泛和實用，包括說明界限計算方式的工具提示。 (TGT-28729) </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">平均提升度、提升度界限和信賴區間</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -4002,7 +3994,7 @@ target/r_release-notes-2018.xml
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>報告 </p> </td> 
+   <td colname="col1"> <p>報表 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_C595EEF916494342AD99FF0FDF999927"> 
       <li id="li_8C74478D3480406591DC876F69C19329"> <p>您現在可以檢視連續變數的信賴區間。 (TGT-22085) </p> </li> 
@@ -4405,7 +4397,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p>能夠檢視多個度量現在可供自動分配 A/B 活動使用。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在報告中檢視多個度量</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>客群 </p> </td> 
+   <td colname="col1"> <p>對象 </p> </td> 
    <td colname="col2"> <p>客群網站頁面類型和比較運算子，現在會在 Target Classic 中比對類型和比較運算子。 </p> <p>您現在可以使用您自己的「使用者定義的查詢參數」或「使用者定義的標頭」來建立網站頁面對象。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-target/c-audiences/c-target-rules/site-pages.md#concept_6425D5304568490899E8340CC94798A9" format="dita" scope="local">網站頁面</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -4593,7 +4585,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p><b>更新日期：2017 年 4 月 13 日。</b> </p> <p>您現在可以在使用 <span class="keyword">Analytics</span> 作為報表來源的活動中使用重新導向產品建議。 </p> <p>必須同時在具有重新導向產品建議頁面和要將訪客重新導向的頁面上包含這些資料庫。 隨著此變更，如果已在您的網站上實作訪客 ID 服務，不論您是否使用 Analytics 做為該活動的報表來源，新 URL 參數將自動新增至您的重新導向 URL。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">重新導向選件 — A4T常見問題集</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>客群 </p> </td> 
+   <td colname="col1"> <p>對象 </p> </td> 
    <td colname="col2"> <p>已對對象鎖定目標進行下列增強: </p> <p> 
      <ul id="ul_C920198404654C97A33190A29ACA6990"> 
       <li id="li_DB52EF909C9640649981940460CDF2B5"> <p><b>週與日劃分:</b> 您可以設定<span class="wintitle">週與日劃分</span>選項，來為客群鎖定目標建立週期性模式。 </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間範圍</a>。 </p> </li> 
@@ -4732,7 +4724,7 @@ target/r_release-notes-2018.xml
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>客群 </p> </td> 
+   <td colname="col1"> <p>對象 </p> </td> 
    <td colname="col2"> <p>下列增強功能現在可供對象使用: </p> <p> 
      <ul id="ul_F1D1F97266134D4ABE627CF2DCE2C6D4"> 
       <li id="li_99A611FCC1254D229D79B8FD075B952A"> <p> <span class="wintitle">裝置行銷名稱</span>現在可在建立客群鎖定目標行動裝置時，從下拉式清單的內建選項取得。 </p> <p>此變更可讓您輕鬆挑選裝置機型名稱，而非搜尋適當的裝置型號。 例如，Galaxy S7 的行銷裝置名稱為 "Samsung Galaxy S7 Edge"，而裝置機型為 "SM-G9350"。 (TGT-18393) </p> <p>如需詳細資訊，請參閱<a href="/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local">行動</a>。 </p> </li> 
@@ -5624,7 +5616,7 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 建立和編輯設定檔指令碼 </td> 
-   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。 收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。 這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。 這些資訊會接著新增到該訪客的個人資料中，以便您可以更有效地追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">設定檔屬性</a>。 
+   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。 收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。 這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。 這些資訊會接著新增到該訪客的個人資料中，以便您可以更有效地追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">輪廓屬性</a>。 
      <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
