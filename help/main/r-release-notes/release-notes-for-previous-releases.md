@@ -717,7 +717,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 +++檢視詳細資料
 
-* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。** 作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
+* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。** 作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
 
 +++
 
@@ -798,7 +798,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 相同的資料串流ID只能用於不同的連線，前提是它們是在不同的沙箱中設定。
 * 此規則適用於所有資料流選取專案，包括選取「無」時。
 
-此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱&#x200B;*Adobe Target目的地*&#x200B;指南中的[Experience Platform連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
+此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱&#x200B;*Adobe Target目的地*&#x200B;指南中的[Experience Platform連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
 
 ### [!DNL Target Standard/Premium] 25.9.1 （2025年9月5日）
 
@@ -1960,7 +1960,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
 * [重新設計報表](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果。
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)頁面，目前正在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)頁面，目前正在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
 * [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性。
 * [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊。
 * [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)。
@@ -2039,7 +2039,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 >
 >如果您無法在2025年2月3日前完成實作檢閱並解決任何問題，可以請求一次性的六個月延期。 請確定您的請求已在2025年1月31日之前提交。 Adobe將審閱並決定您的請求。
 
-若要在手動呈現主張時受益於此最佳化，請檢閱您的[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}，以確保您在手動呈現體驗後或使用`applyPropositions`方法（或相對應的[!DNL Launch]動作作為協助程式）呈現體驗時傳送通知。
+若要在手動呈現主張時受益於此最佳化，請檢閱您的[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}，以確保您在手動呈現體驗後或使用`applyPropositions`方法（或相對應的[!DNL Launch]動作作為協助程式）呈現體驗時傳送通知。
 
 手動呈現體驗時最常見的案例包括：
 
@@ -2047,7 +2047,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 在[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)中建立的活動中使用自訂決定範圍
 * 擷取使用使用全域`__view__`範圍的[!UICONTROL Form-Based Experience Composer]建立的活動時，未使用`renderDecisions: true`
 
-如果通知未如&#x200B;*資料彙集*&#x200B;指南中的[轉譯個人化內容](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank}中記錄的那樣實作，則在[!DNL Target]和[Analytics for Target報告](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)中可能會遺漏報告資料。 在某些情況下，您可能會因為未擷取報表資料而注意到不正確的流量分割。 或者，在其他情況下，重複報告相同的事件。
+如果通知未如&#x200B;*資料彙集*&#x200B;指南中的[轉譯個人化內容](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank}中記錄的那樣實作，則在[!DNL Target]和[Analytics for Target報告](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)中可能會遺漏報告資料。 在某些情況下，您可能會因為未擷取報表資料而注意到不正確的流量分割。 或者，在其他情況下，重複報告相同的事件。
 
 根據您的實作，檢查[!DNL Analytics]和A4T報告影響。
 
@@ -2064,7 +2064,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * **分割呼叫（也稱為頁面事件的頂端和底部）。**
 
-  此實作型別是[!DNL Adobe]建議的新[分割呼叫實作方法](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}。 使用此方法時，新的最佳化不會影響[!DNL Analytics]或A4T報表。
+  此實作型別是[!DNL Adobe]建議的新[分割呼叫實作方法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}。 使用此方法時，新的最佳化不會影響[!DNL Analytics]或A4T報表。
 
 如有疑問，請連絡[Adobe客戶服務](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C)。 (KB-2179)
 
@@ -2076,12 +2076,12 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 ### [!DNL Target]報告於[!DNL Adobe Customer Journey Analytics] （2024年5月8日）
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間的整合為您的最佳化程式提供強大的分析與省時的工具。
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間的整合為您的最佳化程式提供強大的分析與省時的工具。
 
 使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源的主要優點如下：
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。 執行活動之前完全不需要指定。
-* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[Experimentation面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
+* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[Experimentation面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
 
 如需詳細資訊，請參閱[Adobe Customer Journey Analytics中的Target報告](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)。
 
@@ -2168,7 +2168,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| [!DNL Recommendations] 實作模式 | 「*使用 at.js 的推薦實作模式*」文章可協助您在使用 at.js JavaScript 程式庫時理解並建立您的 [!DNL Adobe Target Recommendations] 實作。<P>如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[使用at.js概觀的Recommendations實作模式](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}。 |
+| [!DNL Recommendations] 實作模式 | 「*使用 at.js 的推薦實作模式*」文章可協助您在使用 at.js JavaScript 程式庫時理解並建立您的 [!DNL Adobe Target Recommendations] 實作。<P>如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[使用at.js概觀的Recommendations實作模式](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=zh-Hant){target=_blank}。 |
 
 * 已新增動態架構的[!UICONTROL Visual Experience Composer] (VEC)增強功能。 (TGT-44064)
 * 已修正造成 `getViewInAnalyticsId` 要求中的所選日期無法正確更新的問題。 此修正有助於當日期範圍和量度報告設定變更時重新計算報告中的 [!DNL Analytics] 連結。 (TGT-46246)
@@ -2202,7 +2202,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 已規劃的邊緣基礎設施升級需要已加入允許清單的其他 IP 位址或網域。 檢查邊緣部署 41-48 的 NAT 和 IP 位址/網域，並將其加入允許清單。 基礎設施升級將於 2023 年 8 月 9 日開始。
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[允許列出Target邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[允許列出Target邊緣節點](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hant){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 23.8.1 (2023 年 8 月 9 日)
 
@@ -2270,7 +2270,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 | 功能 | 詳細資料 |
 |--- |--- |
 | 用於Headless個人化和實驗的AEM [!UICONTROL Content Fragments] | 在[!DNL Target]個活動中使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]。 將 AEM 的易用性和強大功能與 [!DNL Target] 的強大人工智慧 (AI) 和機器學習 (ML) 功能相結合，以協助 Headless 個人化和實驗。<P>如需詳細資訊，請參閱[AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。 |
-| [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target開發人員指南*&#x200B;已重新放置到&#x200B;*[!UICONTROL Adobe Experience League]*。 移至&#x200B;*[!UICONTROL Experience League]*&#x200B;有助於當地語系化其他語言的文字，在&#x200B;*Experience League*&#x200B;中統一搜尋範圍，並提供來自&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;和&#x200B;*[!UICONTROL Adobe Target Developer Guide]*&#x200B;的搜尋結果，並提供額外的好處。<P>系統會自動將您從先前的位置重新導向至&#x200B;*[!UICONTROL Experience League]*。 請視需要更新您的書籤。 |
+| [*Adobe Target 開發人員指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank} | *Adobe Target開發人員指南*&#x200B;已重新放置到&#x200B;*[!UICONTROL Adobe Experience League]*。 移至&#x200B;*[!UICONTROL Experience League]*&#x200B;有助於當地語系化其他語言的文字，在&#x200B;*Experience League*&#x200B;中統一搜尋範圍，並提供來自&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;和&#x200B;*[!UICONTROL Adobe Target Developer Guide]*&#x200B;的搜尋結果，並提供額外的好處。<P>系統會自動將您從先前的位置重新導向至&#x200B;*[!UICONTROL Experience League]*。 請視需要更新您的書籤。 |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (2023 年 3 月 28 至 30 日)
 
@@ -2278,7 +2278,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 已針對[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]最佳化A4T量度<p>(發行日期：2023 年 3 月 30 日) | 針對[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動使用[!UICONTROL A4T]時，[!DNL Target]可讓您根據二項式事件選擇量度，或根據連續事件選擇量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。 在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul>如需詳細資訊，請參閱[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)中的「支援的目標量度」。<br>因為此功能，已更新以下教學課程：<ul><li>[在 [!DNL Analysis Workspace] 中為[!UICONTROL Auto-Allocate]個活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中為[!UICONTROL Auto-Target]個活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+| 已針對[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]最佳化A4T量度<p>(發行日期：2023 年 3 月 30 日) | 針對[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動使用[!UICONTROL A4T]時，[!DNL Target]可讓您根據二項式事件選擇量度，或根據連續事件選擇量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。 在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul>如需詳細資訊，請參閱[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)中的「支援的目標量度」。<br>因為此功能，已更新以下教學課程：<ul><li>[在 [!DNL Analysis Workspace] 中為[!UICONTROL Auto-Allocate]個活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hant){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中為[!UICONTROL Auto-Target]個活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hant){target=_blank}</li></ul> |
 
 * 增強客群和活動同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中建立的項目可更快地在 [!DNL Target] UI 中使用。 (TGT-44568)
 * 增強UI，可讓使用者移除[!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]下的[!UICONTROL Default URL]。 此變更可讓客戶將預設 URL 變更回空字串，這在以前於初始設定後是不可能的。 (TGT-44577)
@@ -2298,7 +2298,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * 修正造成 `trackEvent` 函數總是傳回錯誤的問題。
 
-如需有關所有at.js版本的資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中的[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+如需有關所有at.js版本的資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.15.1 (2023 年 3 月 8 日和 9 日)
 
@@ -2319,7 +2319,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 >[!NOTE]
 >
->若要確保傳遞在VEC中撰寫的變更，請確定您使用的是版本高於2.8的[!DNL Target]SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)。
+>若要確保傳遞在VEC中撰寫的變更，請確定您使用的是版本高於2.8的[!DNL Target]SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hant){target=_blank} (alloy.js)。
 
 **已知問題**：使用 [!DNL Adobe Experience Platform Web SDK] 時，對 Shadow 根元素的點擊追蹤無法正常運作。 (TNT-47012)
 
@@ -2327,7 +2327,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * 修正造成 `trackEvent` 函數總是傳回錯誤的問題。
 
-如需有關所有at.js版本的資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中的[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+如需有關所有at.js版本的資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.14.5 (2023 年 2 月 13-15 日)
 
@@ -2347,7 +2347,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 已修正涉及客群規則 (包含名稱中帶有點的參數) 的活動中未傳回預期體驗以進行裝置上決策的錯誤。
 * 已修正 at.js 2.6.0 中引進的錯誤，亦即即使已啟用 `mboxDisable`，at.js 仍會觸發傳送呼叫。
 
-如需有關所有at.js版本的資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中的[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+如需有關所有at.js版本的資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.13.3 (2023 年 1 月 25 - 26 日)
 
@@ -2370,7 +2370,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 已不允許在活動上線後變更[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Same as Optimization Goal]設定的功能。 (TGT-43923)
 * 已修正從 [!DNL Target Standard] 升級到 [!DNL Target Premium] 時導致 [!DNL Target] 後端中預設工作區出現問題的問題。 (TGT-44081 和 TGT-44306)
 * 已進行變更以使名稱包含點字元「.」的 [!DNL Analytics] 報告套裝 可用於 [!DNL Target] UI 以建立 [!DNL Analytics] 分類摘要。
-* 已變更[!UICONTROL Implementation]頁面([!UICONTROL Administration] > [!UICONTROL Implementation])上「使用裝置上決策的實作方法」的連結，以指向說明如何使用裝置上決策來操作所有受支援SDK （Node.js、Java、.NET和Python）的頁面。 如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中的[Target SDK快速入門](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank}。
+* 已變更[!UICONTROL Implementation]頁面([!UICONTROL Administration] > [!UICONTROL Implementation])上「使用裝置上決策的實作方法」的連結，以指向說明如何使用裝置上決策來操作所有受支援SDK （Node.js、Java、.NET和Python）的頁面。 如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Target SDK快速入門](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=zh-Hant){target=_blank}。
 * 已修正使用 [!DNL Scene7] 和 [!DNL Target] 時導致檔案上傳問題的問題。
 * 已透過使用內部可用性稽核的結果，增強了 [!DNL Target] UI 對殘障人士的無障礙支援。 這些無障礙支援增強功能包括存取以前無法透過鍵盤存取的功能、替代文字增強功能、縮放 UI 部分以提高可用性的能力、提升的鍵盤焦點等等。   (TGT-42759)
 * 對整個 [!DNL Target] UI 進行了各種本地化修正。
@@ -2381,7 +2381,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 新的[!DNL Adobe Target]模型API （也稱為Blocklist API）可讓使用者檢視和管理機器學習模型中用於[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活動的功能清單。
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hant){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.10.3 (分批發行：2022 年 10 月 25 至 27 日)
 
@@ -2455,7 +2455,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 | 功能 | 說明 |
 | --- | ---  |
 | 產品內通知 | 獲取以下相關的產品內通知：<ul><li>**活動**：當活動被批准或停用時（手動或達到其開始或結束日期時），所有活動類型的通知。 通知包含具有活動概述頁面連結的活動名稱。</li><li>**配置檔案指令碼** 在手動或目標激活或停用配置檔案指令碼時通知。</li><li>**建議摘要**：手動或由目標啟用或停用建議摘要時通知。 當建議摘要失敗時也會傳送送通知。</li></ul> 預設情況下，產品管理員、發佈者和批准者會接收通知。 通知可在 Experience Cloud 首選項內配置。<br>有關詳細資訊，請參閱[通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements)。 |
-| *Adobe Target 開發人員指南* | 的 *Adobe Target開發人員指南* 合併所有 [!DNL Target] 開發人員內容。 指南包含實作[!DNL Target]與[!DNL Recommendations]、[!DNL Target] SDK與[!DNL Target] API的相關資訊。<br>如需詳細資訊，請參閱[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。 |
+| *Adobe Target 開發人員指南* | 的 *Adobe Target開發人員指南* 合併所有 [!DNL Target] 開發人員內容。 指南包含實作[!DNL Target]與[!DNL Recommendations]、[!DNL Target] SDK與[!DNL Target] API的相關資訊。<br>如需詳細資訊，請參閱[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}。 |
 
 * 具有[!UICONTROL Editor]角色的使用者無法再編輯已上線活動中的對象。 (TGT-43582)
 * 如果客戶嘗試儲存具有驚歎號( ！ )作為對象名稱的第一個字元（例如！London）。 (TGT-43643)
@@ -2478,12 +2478,12 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 此版本包含下列增強功能和修正：
 
-* 新增的「[使用者代理用戶端提示](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}」支援。
+* 新增的「[使用者代理用戶端提示](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=zh-Hant){target=_blank}」支援。
 * 修正在[!UICONTROL Experience Targeting] (XT)活動中呈現[!UICONTROL Offer Decisions]時斷斷續續造成逾時的問題。 (TNT-44611)
 
 ### at.js 2.9.0 版 (2022 年 5 月 27 日)
 
-* 新增的「[使用者代理用戶端提示](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}」支援。
+* 新增的「[使用者代理用戶端提示](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=zh-Hant){target=_blank}」支援。
 * 修正了同一個頁面上多個 mbox 請求有不同印象 ID 的錯誤。
 
 ### [!DNL Target Standard/Premium] 22.5.1 (分批發行；2022 年 5 月 11 至 13 日)
@@ -2514,7 +2514,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 此版本包含下列修正：
 
 * 已修正導致三個購物車型演算法在 [!DNL Target] 後端使用相同購買/購買條件的問題。 (TGT-43456)
-* 已啟用[!DNL Target] UI權杖重新整理，讓組織已啟用[Business ID帳戶](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank}和原則式驗證(PBA)。 (TGT-42590)
+* 已啟用[!DNL Target] UI權杖重新整理，讓組織已啟用[Business ID帳戶](https://helpx.adobe.com/tw/enterprise/using/identity.html){target=_blank}和原則式驗證(PBA)。 (TGT-42590)
 
 ### [!DNL Target]平台發行版本（2022年4月27日）
 
@@ -2608,7 +2608,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 購物車型推薦 | 新增一系列演算法，以根據訪客購物車的內容提供推薦。<br>如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)中的「購物車型」、[計劃和實作推薦](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 中的「購物車新增/購物車檢視/結帳頁面」和「排除訪客購物車中已有的項目」，以及[使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)中的「購物車型」。 |
+| 購物車型推薦 | 新增一系列演算法，以根據訪客購物車的內容提供推薦。<br>如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)中的「購物車型」、[計劃和實作推薦](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank} 中的「購物車新增/購物車檢視/結帳頁面」和「排除訪客購物車中已有的項目」，以及[使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)中的「購物車型」。 |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (2021 年 10 月 19 日)
 
@@ -2723,7 +2723,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 具有裝置上決策功能的新 [!DNL Adobe Target] Python SDK 現已提供。 這個最新的新增項目增強了 [!DNL Target] 伺服器端 SDK 套件。 這些 SDKS 可協助您以您選擇的語言整合 [!DNL Target] 並加快實現價值的時間。 鑑於市場正在轉向第一方資料很有價值的無 Cookie 世界，伺服器端整合正成為一個熱門的選擇。 Target SDK 可用於市場上最熱門的程式設計語言 (Python、Java、JavaScript、C# / .Net)。
 
-如需詳細資訊，請參閱[SDK開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中的[Adobe Target檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank}。
+如需詳細資訊，請參閱[SDK開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Adobe Target檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html?lang=zh-Hant){target=_blank}。
 
 ### Target Standard/Premium 21.5.1 (2021 年 6 月 7 日)
 
@@ -2750,7 +2750,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 此 at.js 版本包含下列增強功能和變更：
 
-* [針對 at.js 的裝置上決策](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}支援。
+* [針對 at.js 的裝置上決策](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant){target=_blank}支援。
 * [預覽連結](/help/main/c-activities/c-activity-qa/activity-qa.md)對 Automated Personalization 活動的支援
 
 此版本也移除了對 Microsoft Internet Explorer 10、Internet Explorer 11 和所有舊版本的支援。 at.js 2.5.0 及更高版本繼續支援 Microsoft Edge。
@@ -2761,7 +2761,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 針對 at.js 的裝置上決策支援<br>(日期有待宣佈) | 裝置上決策可讓行銷人員和開發人員以幾乎零延遲的方式，在使用者的瀏覽器上提供測試和個人化。<br>如需詳細資訊，請參閱「[針對 at.js 的裝置上決策](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}」。 |
+| 針對 at.js 的裝置上決策支援<br>(日期有待宣佈) | 裝置上決策可讓行銷人員和開發人員以幾乎零延遲的方式，在使用者的瀏覽器上提供測試和個人化。<br>如需詳細資訊，請參閱「[針對 at.js 的裝置上決策](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant){target=_blank}」。 |
 | ![Premium](/help/main/assets/premium.png) 實體篩選規則適用的清單型運算子 | [!DNL Target Recommendations] 支援實體篩選規則適用的全新清單型運算子。 (TGT-39234)<br>最近新增的運算子包括：<br><ul><li>包含在清單中</li><li>不包含在清單中</li><li>清單中包含某個項目</li><li>清單中不包含某個項目</li><li>清單中包含所有項目</li><li>清單中不包含所有項目</li></ul>如需詳細資訊，請參閱「[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)」中的「可用運算子」。 |
 
 此版本包含下列修正。
@@ -2835,7 +2835,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| 裝置上決策 | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度和效能至關重要 — 在客戶見解和使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗鎖定目標(XT)活動型別中的關鍵個人化和實驗指示編譯為「最佳化成品」。JSON物件會透過CDN載入到客戶裝置上。 而且，由於裝置上的決策功能會以原生方式與 [!DNL Adobe Experience Cloud] 產品連接，[!DNL Target] 使用者可獲得快速分析和更快速的體驗互動。<br>如需詳細資訊，請參閱*[at.js的裝置上決策](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}和伺服器端的[裝置上決策簡介](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}。 |
+| 裝置上決策 | 裝置上決策可讓行銷人員和產品開發人員在使用者的裝置內、跨通道、幾乎零延遲的情況下，提供實驗和機器學習驅動的個人化。<br>速度和效能至關重要 — 在客戶見解和使用者滿意度方面。<br>裝置上決策可讓您將A/B測試與體驗鎖定目標(XT)活動型別中的關鍵個人化和實驗指示編譯為「最佳化成品」。JSON物件會透過CDN載入到客戶裝置上。 而且，由於裝置上的決策功能會以原生方式與 [!DNL Adobe Experience Cloud] 產品連接，[!DNL Target] 使用者可獲得快速分析和更快速的體驗互動。<br>如需詳細資訊，請參閱*[at.js的裝置上決策](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}和伺服器端的[裝置上決策簡介](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant){target=_blank}。 |
 
 此發行包含下列增強功能、修正和變更：
 
@@ -2933,7 +2933,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 | [!UICONTROL Auto-Allocate]活動的Analytics for Target (A4T)支援 | [!UICONTROL Auto-Allocate]個活動現在支援[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。<br>此整合可讓您使用[!UICONTROL Auto-Allocate]多臂吃角子老虎機功能，將流量導向成功體驗，同時使用[!UICONTROL Adobe Analytics]目標量度和/或[!UICONTROL Adobe Analytics]報告與分析功能。<br>如果您已[實作A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)以搭配A/B測試和體驗鎖定目標活動使用，則您已準備就緒！<br>如需詳細資訊，請參閱[自動分配和自動鎖定目標活動的A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 | 自動鎖動目標和 Automated Personalization 活動的流量分配方法的回應權杖 | 已將兩個[回應Token](/help/main/administrating-target/response-tokens.md)新增至[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動，以判斷訪客是因為被指派至「控制」或「目標」流量而收到特定體驗。<ul><li>如果訪客從「控制」流量中收到體驗，`experience.trafficAllocationId`將傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則傳回1。</li><li>`experience.trafficAllocationType`將傳回「控制」或「已鎖定目標」。</li></ul>如需控制項與目標鎖定流量的詳細資訊，請參閱[為 Automated Personalization 或自動鎖定目標活動選擇控制項](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。 |
 | [!UICONTROL Publisher]角色 | 此新角色類似於目前[!UICONTROL Observer]角色（可以檢視活動，但不能建立或編輯活動）。 但是，[!UICONTROL Publisher]角色具有啟用活動的額外許可權。<br>如需詳細資訊，請參閱： <ul><li>**Target Standard 使用者**：在&#x200B;*使用者*&#x200B;中[指定其角色和權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。</li><li>**Target Premium 使用者**：步驟 6：在&#x200B;*「設定企業權限」*&#x200B;中[指定角色和權限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)。</li></ul> |
-| [!DNL Analysis Workspace]<br>2020 年 6月 25 日的 A4T 支援 | [!DNL Analysis Workspace]現在支援[!UICONTROL Anaytics for Target] (A4T)。 [!UICONTROL Analytics for Target (A4T) panel]可讓您在[!DNL Analysis Workspace]中分析您的[!DNL Adobe Target]活動和體驗。<br>如需詳細資訊，請參閱&#x200B;*A4T報告*&#x200B;中的[Analytics報告](/help/main/c-integrating-target-with-mac/a4t/reporting.md)以及&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html??lang=zh-Hant)。 |
+| [!DNL Analysis Workspace]<br>2020 年 6月 25 日的 A4T 支援 | [!DNL Analysis Workspace]現在支援[!UICONTROL Anaytics for Target] (A4T)。 [!UICONTROL Analytics for Target (A4T) panel]可讓您在[!DNL Analysis Workspace]中分析您的[!DNL Adobe Target]活動和體驗。<br>如需詳細資訊，請參閱&#x200B;*A4T報告*&#x200B;中的[Analytics報告](/help/main/c-integrating-target-with-mac/a4t/reporting.md)以及&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant&?lang=zh-Hant)。 |
 
 **增強功能、修正和變更**
 
@@ -3173,8 +3173,8 @@ Target 1.0.1 版本已修正下列問題：
 | 功能/增強功能 | 說明 |
 | --- | --- |
 | ![Premium badge](/help/main/assets/premium.png)<br>在 A/B 測試與體驗鎖定 (XT) 活動中的推薦 | 推薦產品建議 (運算法) 狀態會顯示在包含推薦產品建議之 A/B 測試和 XT 活動的概觀頁面上。 狀態包括：可用結果、不可用結果和摘要失敗 (TGT-33649)<br>請參閱「[推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md#status)」。 |
-| 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前，at.js 2.*x*&#x200B;不支援跨網域追蹤。 透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。 ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。 必須使用 [Experience Cloud ID library 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant)。<br>請參閱 [at.js 2.x 中的跨網域追蹤支援](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
-| Target可透過Apple ID (ECID)資料庫4.3支援Experience Cloud的ITP 2.1和ITP 2.2 | 現在，Target客戶可以利用Apple的CNAME認證計畫，減少Adobe的ITP 2.1和ITP 2.2的影響。<br>透過此版本，Target推出與ECID資料庫4.3的流暢整合，利用伺服器端Cookie減少ITP 2.1和ITP 2.2的影響。 強烈建議Target客戶部署[ECID library 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html??lang=zh-Hant)並搭配使用Target的JavaScript資料庫，以緩解任何未來ITP版本的影響。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參閱 [Apple 智慧型追蹤預防 (ITP) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}。 |
+| 透過 Experience Cloud ID (ECID) 資料庫提供 at.js 2.0 以上版本的跨網域追蹤支援 | 之前，at.js 2.*x*&#x200B;不支援跨網域追蹤。 透過此版本，使用 at.js 2.0 或以上版本的客戶現在可以透過 ECID 資料庫利用跨網域追蹤功能。 ECID 資料庫必須安裝在頁面上並搭配使用 at.js 2.0 或以上版本，這樣跨網域追蹤功能才能運作。 必須使用 [Experience Cloud ID library 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hant&?lang=zh-Hant)。<br>請參閱 [at.js 2.x 中的跨網域追蹤支援](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
+| Target可透過Apple ID (ECID)資料庫4.3支援Experience Cloud的ITP 2.1和ITP 2.2 | 現在，Target客戶可以利用Apple的CNAME認證計畫，減少Adobe的ITP 2.1和ITP 2.2的影響。<br>透過此版本，Target推出與ECID資料庫4.3的流暢整合，利用伺服器端Cookie減少ITP 2.1和ITP 2.2的影響。 強烈建議Target客戶部署[ECID library 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hant&?lang=zh-Hant)並搭配使用Target的JavaScript資料庫，以緩解任何未來ITP版本的影響。 ECID 資料庫將繼續推出增強功能，針對瀏覽器所推出的不斷變化的 Cookie 原則，提供完善的解決方案。<br>請參閱 [Apple 智慧型追蹤預防 (ITP) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html?lang=zh-Hant){target=_blank}。 |
 
 **增強功能、修正和變更**
 
@@ -3214,7 +3214,7 @@ Target 1.0.1 版本已修正下列問題：
 | 單頁應用程式視覺化體驗撰寫器 (SPA VEC) | **引導式工作流程**：此全新引導式工作流程可協助您瞭解應如何設定頁面傳送規則設定，以讓活動在單頁應用程式中成功執行和運作。 (TGT-33718)<br>請參閱[單頁應用程式(SPA)視覺化體驗撰寫器](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**複製修改**：您現在可以使用SPA VEC定義修改，然後複製該修改，以用於單頁應用程式中的其他檢視。 (TGT-33882)<br>請參閱[單頁應用程式 (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
 | ![Premium 徽章](/help/main/assets/premium.png) Automated Personalization (AP) 和自動鎖定目標 | **使用特定體驗作為控制**：建立 AP 或自動鎖定目標活動時，您可以選取要用來作為控制的體驗。 此功能可讓您根據活動中設定的流量配置百分比，將整個控制流量傳送至特定體驗。 接著，您可以根據該體驗之控制流量，評估個人化流量的效能報表。 將繼續提供目前的控制選項 (隨機提供的體驗)。 （TGT-32801、TGT-26572和TGT-26571）<br>請參閱[選取Automated Personalization或自動鎖定目標活動的控制權](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。<br>**Personalization Insights報表**：當訪客在特定位置看到特定內容時，可讓行銷人員方便使用的屬性命名，可提供更具意義的資訊。 (TGT-33421 和 TGT-34957)<br>請參閱[Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
 | ![Premium 徽章](/help/main/assets/premium.png) 推薦 | 建立「最近查看的項目」邏輯時，您可以使用「先前建議購買的項目」切換按鈕。 (TGT-34030)<br>如需詳細資訊，請參閱「建立條件」中的[最近檢視的專案](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
-| Google Chrome SameSite Cookie 原則 | Google 最近宣佈自 Chrome 76 起 (該版本預定在 2019 年 7 月 30 日發行)，開發人員必須明確指定哪些 Cookie 可以跨多個網站運作，以及哪些 Cookie 可以追蹤使用者。<br>在產業大幅演進並為消費者打造更安全 Web 環境的同時，Target 全心致力於提供個人化體驗，同時符合並超越訪客對於隱私權的期望。請參閱 <br>[Google Chrome SameSite Cookie 原則](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html){target=_blank}。 |
+| Google Chrome SameSite Cookie 原則 | Google 最近宣佈自 Chrome 76 起 (該版本預定在 2019 年 7 月 30 日發行)，開發人員必須明確指定哪些 Cookie 可以跨多個網站運作，以及哪些 Cookie 可以追蹤使用者。<br>在產業大幅演進並為消費者打造更安全 Web 環境的同時，Target 全心致力於提供個人化體驗，同時符合並超越訪客對於隱私權的期望。請參閱 <br>[Google Chrome SameSite Cookie 原則](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html?lang=zh-Hant){target=_blank}。 |
 
 ### at.js 2.1.0 版 (2019 年 6 月 3 日) {#atjs-210}
 
@@ -3222,7 +3222,7 @@ Target 1.0.1 版本已修正下列問題：
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| Adobe 選擇加入支援 | 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需 Adobe 選擇加入的詳細資訊，請參閱[隱私權與一般資料保護規範 (GDPR)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}。 |
+| Adobe 選擇加入支援 | 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需 Adobe 選擇加入的詳細資訊，請參閱[隱私權與一般資料保護規範 (GDPR)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=zh-Hant){target=_blank}。 |
 | 符合 CSP 產業標準 | at.js 不再使用 eval() 執行 JavaScript。 |
 | 用戶端分析記錄 | 無論是在使用者端或伺服器端，皆可讓客戶完全掌控要以何種方式將分析資料傳送至Adobe Analytics。<br>如需詳細資訊，請參閱&#x200B;*實作之前*&#x200B;中的[使用者端Analytics記錄](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#client-side)。 |
 | 傳送通知 | 可讓開發人員在透過體驗的程式碼（而不是使用`applyOffer()`或`applyOffers()`）呈現體驗時傳送通知。<br>如需詳細資訊，請參閱[adobe.target.sendNotifications(options)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-sendnotifications-atjs-21.html){target=_blank}。 |
@@ -3318,8 +3318,8 @@ Target 1.0.1 版本已修正下列問題：
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 現已可用。<br>最新版本的 at.js 提供豐富的功能組合，讓您的業務得以奠基於新一代的用戶端技術，同時發展個人特色。 這個新版本著重於升級at.js，以便與單頁應用程式(SPA)產生和諧互動。<br>以下是幾個使用at.js 2.x的優點，這些優點在舊版中並未提供：<ul><li>可以在頁面載入時將所有產品建議加入快取，把多次伺服器呼叫減少為一次。</li><li>大幅改善一般使用者在網站上的體驗，因為產品建議能透過快取立即顯示，避免傳統伺服器呼叫引發的延遲時間。</li><li>只要編寫一行程式碼以及請開發人員設定一次，行銷人員就能透過單一頁面應用程式上的可視化體驗撰寫器 (VEC) 建立及執行 A/B 和體驗 (XT) 活動。</li></ul>at.js 2.x 引進以下新函數:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>導入 at.js 2.x 後，以下函數已遭到淘汰:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>如需詳細資訊，請參閱[從at.js 1.x升級為at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}和[at.js函式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>**注意**：如果您需要[一般資料保護規範](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (GDPR){target=_blank}的Adobe選擇加入支援，目前必須使用at.js 1.7.0。 at.js 2.x不支援選擇加入支援。 |
-| at.js 1.7.0 版<br>，2019 年 2 月 14 日 | at.js 1.7.0 現已可用。<br>該版本提供「Adobe 選擇加入」支援。 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需Adobe選擇加入的詳細資訊，請參閱[隱私權與一般資料保護規範](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (GDPR){target=_blank}。<br>此版本也修正Target可能使用來自重新導向URL的引數來覆寫重新導向URL引數的問題。<br>**注意**：如果您需要Adobe選擇加入對GDPR的支援，目前必須使用at.js 1.7.0。 at.js 2.x不支援選擇加入支援。<br>如需所有版本的清單，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
+| at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 現已可用。<br>最新版本的 at.js 提供豐富的功能組合，讓您的業務得以奠基於新一代的用戶端技術，同時發展個人特色。 這個新版本著重於升級at.js，以便與單頁應用程式(SPA)產生和諧互動。<br>以下是幾個使用at.js 2.x的優點，這些優點在舊版中並未提供：<ul><li>可以在頁面載入時將所有產品建議加入快取，把多次伺服器呼叫減少為一次。</li><li>大幅改善一般使用者在網站上的體驗，因為產品建議能透過快取立即顯示，避免傳統伺服器呼叫引發的延遲時間。</li><li>只要編寫一行程式碼以及請開發人員設定一次，行銷人員就能透過單一頁面應用程式上的可視化體驗撰寫器 (VEC) 建立及執行 A/B 和體驗 (XT) 活動。</li></ul>at.js 2.x 引進以下新函數:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>導入 at.js 2.x 後，以下函數已遭到淘汰:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>如需詳細資訊，請參閱[從at.js 1.x升級為at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}和[at.js函式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>**注意**：如果您需要[一般資料保護規範](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=zh-Hant){target=_blank} (GDPR){target=_blank}的Adobe選擇加入支援，目前必須使用at.js 1.7.0。 at.js 2.x不支援選擇加入支援。 |
+| at.js 1.7.0 版<br>，2019 年 2 月 14 日 | at.js 1.7.0 現已可用。<br>該版本提供「Adobe 選擇加入」支援。 「Adobe 選擇加入」是簡化 Adobe 解決方案與同意管理平台整合的方法。<br>如需Adobe選擇加入的詳細資訊，請參閱[隱私權與一般資料保護規範](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=zh-Hant){target=_blank} (GDPR){target=_blank}。<br>此版本也修正Target可能使用來自重新導向URL的引數來覆寫重新導向URL引數的問題。<br>**注意**：如果您需要Adobe選擇加入對GDPR的支援，目前必須使用at.js 1.7.0。 at.js 2.x不支援選擇加入支援。<br>如需所有版本的清單，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (2019 年 2 月 19 日) {#target-19-2-1}
 
@@ -3355,7 +3355,7 @@ Target 1.0.1 版本已修正下列問題：
 | 功能/增強功能 | 說明 |
 | --- | --- |
 | [!DNL Target] API中的![Target Premium badge](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions]支援 | [Adobe Target Admin API](https://developers.adobetarget.com/api/#admin-apis) 現在能充分運用 Target UI 中相同企業權限功能的優勢。 從 **2019 年 2 月 21 日**&#x200B;開始，系統管理員將能利用程式設計方式存取報表資料，也能建立及管理任何工作區中的活動、產品建議與客群。 這些動作先前只限預設工作區使用。 未來版本將提供 Automated Personalization (AP) 活動支援。 |
-| ![Target Premium徽章](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]：根據環境（主機群組）篩選集合和排除專案 | 您現在可以針對選取的環境（主機群組）預覽[!UICONTROL Recommendations]集合和排除專案的內容。<br/>先前，當您檢視集合或排除專案時，顯示的包含專案是預設主機群組（在[!UICONTROL Recommendations > Settings > Default Host Group]中指定）的結果。<br/>現在，當您建立或更新集合或排除專案時，可以使用[!UICONTROL Environment]選取器來選擇要預覽結果的環境。 新的[!UICONTROL Environment]篩選器可節省時間和精力，因為您不再需要導覽至[!UICONTROL Settings]頁面來選取適當的預設主機群組，就能建立或編輯集合和排除專案。<br/>**注意：**&#x200B;變更選取的環境後，您必須按一下[!UICONTROL Search]來更新傳回的結果。<br/>新的[!UICONTROL Environment]篩選器可從[!DNL Target] UI中的下列位置取得：<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection]對話方塊([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection]對話方塊([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion]對話方塊([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion]對話方塊([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>如需詳細資訊，請參閱下列主題:<uL><li>[集合](/help/main/c-recommendations/c-products/collections.md)</li><li>[排除項目](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[建議：根據環境 (主機群組) 篩選集合和排除項目](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Target Premium徽章](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]：根據環境（主機群組）篩選集合和排除專案 | 您現在可以針對選取的環境（主機群組）預覽[!UICONTROL Recommendations]集合和排除專案的內容。<br/>先前，當您檢視集合或排除專案時，顯示的包含專案是預設主機群組（在[!UICONTROL Recommendations > Settings > Default Host Group]中指定）的結果。<br/>現在，當您建立或更新集合或排除專案時，可以使用[!UICONTROL Environment]選取器來選擇要預覽結果的環境。 新的[!UICONTROL Environment]篩選器可節省時間和精力，因為您不再需要導覽至[!UICONTROL Settings]頁面來選取適當的預設主機群組，就能建立或編輯集合和排除專案。<br/>**注意：**&#x200B;變更選取的環境後，您必須按一下[!UICONTROL Search]來更新傳回的結果。<br/>新的[!UICONTROL Environment]篩選器可從[!DNL Target] UI中的下列位置取得：<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection]對話方塊([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection]對話方塊([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion]對話方塊([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion]對話方塊([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>如需詳細資訊，請參閱下列主題:<uL><li>[集合](/help/main/c-recommendations/c-products/collections.md)</li><li>[排除項目](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}</li><li>[建議：根據環境 (主機群組) 篩選集合和排除項目](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **增強功能、修正和變更**
 
@@ -3425,11 +3425,11 @@ Target 1.0.1 版本已修正下列問題：
  <tbody> 
   <tr> 
    <td colname="col1"> <p>體驗 </p> </td> 
-   <td colname="col2"> <p>您現在可以複製體驗鎖定目標 (XT) 活動中的體驗，不必從頭再次建立體驗，即可進行微幅變更。 A/B 測試已可使用此功能。 (TGT-31504) </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html??lang=zh-Hant" format="html" scope="external">建立體驗</a>。 </p> </td> 
+   <td colname="col2"> <p>您現在可以複製體驗鎖定目標 (XT) 活動中的體驗，不必從頭再次建立體驗，即可進行微幅變更。 A/B 測試已可使用此功能。 (TGT-31504) </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html?lang=zh-Hant&?lang=zh-Hant" format="html" scope="external">建立體驗</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization (AP) 活動的產品建議 </p> </td> 
-   <td colname="col2"> <p>2018 年 9 月版新增增強功能，讓您根據報表群組篩選產品建議。 您現在可以篩選「未指派的產品建議」，以便為目前未指派至任何報表群組的產品建議，指派報表群組。 (TGT-31882) </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/target/using/activities/automated-personalization/create-ap-activity.html??lang=zh-Hant" format="html" scope="external">建立 Automated Personalization 活動</a>。 </p> </td> 
+   <td colname="col2"> <p>2018 年 9 月版新增增強功能，讓您根據報表群組篩選產品建議。 您現在可以篩選「未指派的產品建議」，以便為目前未指派至任何報表群組的產品建議，指派報表群組。 (TGT-31882) </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/target/using/activities/automated-personalization/create-ap-activity.html?lang=zh-Hant&?lang=zh-Hant" format="html" scope="external">建立 Automated Personalization 活動</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活動的報告來源 </p> </td> 
@@ -3447,7 +3447,7 @@ Target 1.0.1 版本已修正下列問題：
    * 若對象已在AAM中刪除，[!UICONTROL Audience]清單和對象選擇器中皆會顯示警告圖示。 UI 中的工具提示也表示客群已在 AAM 中刪除。
    * 若嘗試將多個客群與已刪除的客群合併，或嘗試儲存參考已刪除客群的活動，系統會顯示警告訊息。
 
-  請參閱[關於對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html??lang=zh-Hant)。
+  請參閱[關於對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant&?lang=zh-Hant)。
 
 * 修正當[!UICONTROL Administration]頁面上選取Adobe Analytics作為報告來源時，在某些情況下使用者無法建立活動的問題。 使用者看到「請選取報表套裝」訊息，但無法選取報表套裝。 (TGT-31968)
 
@@ -3674,7 +3674,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>受支援的瀏覽器 </p> </td> 
-   <td colname="col2"> <p>已針對 Target UI 和內容傳送，新增 Microsoft Edge 支援。 </p> <p>如需詳細資訊，請參閱。<a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> 支援的瀏覽器</a> (TGT-14102) </p> </td> 
+   <td colname="col2"> <p>已針對 Target UI 和內容傳送，新增 Microsoft Edge 支援。 </p> <p>如需詳細資訊，請參閱。<a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant" format="dita" scope="local"> 支援的瀏覽器</a> (TGT-14102) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>推薦 </p> </td> 
@@ -3817,7 +3817,7 @@ target/r_release-notes-2018.xml
 
 此 [!DNL Target] 發行包含下列增強功能、修正和變更:
 
-* 傳輸層安全性 (TLS) 是目前針對須透過網路安全交換資料的網頁瀏覽器和其他應用程式，部署最廣泛的安全通訊協定。 Adobe 安全性法規遵循標準規定須結束支援舊版通訊協定，並強制採用 TLS 1.2，以使用最新、最安全的版本。 自 Target 18.4.1 版本 (2018 年 4 月 25 日) 起，Adobe Target 將採取措施，在 2018 年 9 月 12 日之前完全轉移至 TLS 1.2 加密，並淘汰支援 TLS 1.0 加密。 務必詳閱詳細資訊，並針對變更進行規劃，以順利轉移。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
+* 傳輸層安全性 (TLS) 是目前針對須透過網路安全交換資料的網頁瀏覽器和其他應用程式，部署最廣泛的安全通訊協定。 Adobe 安全性法規遵循標準規定須結束支援舊版通訊協定，並強制採用 TLS 1.2，以使用最新、最安全的版本。 自 Target 18.4.1 版本 (2018 年 4 月 25 日) 起，Adobe Target 將採取措施，在 2018 年 9 月 12 日之前完全轉移至 TLS 1.2 加密，並淘汰支援 TLS 1.0 加密。 務必詳閱詳細資訊，並針對變更進行規劃，以順利轉移。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。
 * 已改善 Recommendations 條件卡的 UI，更加好用。 (TGT-27829)
 
 ### at.js (2018 年 4 月 3 日) {#section_932DF1004F4648668FE4984BFAF2EC49}
@@ -3850,7 +3850,7 @@ target/r_release-notes-2018.xml
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js 已改善事件和點擊追蹤功能。 at.js 使用 <span class="codeph">navigator.sendBeacon()</span> 來傳送事件追蹤資料，並將在不支援 <span class="codeph">navigator.sendBeacon()</span> 時退回同步 XHR。 此次遞補主要影響 Internet Explorer 10 和 11 與一些版本的 Safari。 Safari 將在 iOS 11.3 版本中新增對 <span class="codeph">navigator.sendBeacon()</span> 的支援。 </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>at.js 現在可以呈現產品建議，即便頁面是在背景索引標籤中開啟亦然。 部分 Target 客戶遇到當 <span class="codeph">requestAnimationFrame()</span> 由於瀏覽器針對背景索引標籤節流之行為而停用時的問題。 </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>此版本新增了許多效能改善，包括檢查 Chrome CPU 設定檔時較短的呼叫堆疊。 </p> </li> 
-      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 不再支援 Microsoft Internet Explorer 9 上的內容傳送 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local">支援的瀏覽器</a>。 今後，所有要求會透過 <span class="codeph">XMLHttpRequest</span> 執行，具有 CORS 支援而不沒有 JSONP 要求。 此變更大幅改善安全性。 </p> </li> 
+      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 不再支援 Microsoft Internet Explorer 9 上的內容傳送 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant" format="dita" scope="local">支援的瀏覽器</a>。 今後，所有要求會透過 <span class="codeph">XMLHttpRequest</span> 執行，具有 CORS 支援而不沒有 JSONP 要求。 此變更大幅改善安全性。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -4076,7 +4076,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>產品建議 </p> </td> 
-   <td colname="col2"> <p> 如果使用者具有「編輯者」權限，該使用者無法編輯參考了線上或排程活動的產品建議。 </p> <p> <p>注意：針對使用 <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html??lang=zh-Hant" format="html" scope="external">企業使用者權限</a>的 Target Premium 客戶，如果使用者選取「所有工作區」選項，則 Target 會使用使用者在各工作區間的最高權限。 如果最高權限為「編輯者」，則 Target 會限制編輯 (如上所述) </p>. </p> <p>這些限制會套用至所有產品建議，而不僅僅是在 Target 中建立的產品建議。 (TGT-27276) </p> </td> 
+   <td colname="col2"> <p> 如果使用者具有「編輯者」權限，該使用者無法編輯參考了線上或排程活動的產品建議。 </p> <p> <p>注意：針對使用 <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant&?lang=zh-Hant" format="html" scope="external">企業使用者權限</a>的 Target Premium 客戶，如果使用者選取「所有工作區」選項，則 Target 會使用使用者在各工作區間的最高權限。 如果最高權限為「編輯者」，則 Target 會限制編輯 (如上所述) </p>. </p> <p>這些限制會套用至所有產品建議，而不僅僅是在 Target 中建立的產品建議。 (TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>回應 Token </p> </td> 
@@ -4183,11 +4183,11 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 行動體驗預覽 </p> </td> 
-   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 您現在可以從 UI 選取多個行動應用程式活動，並在裝置上加以預覽。 此功能可讓您註冊多個體驗，以進行預覽和 QA 而不需仰賴於特殊的測試建置和模擬器。 </p> <p>此功能需要您下載和安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。 </p> <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html" format="dita" scope="local"> Target行動裝置預覽</a>。 </p> </td> 
+   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 您現在可以從 UI 選取多個行動應用程式活動，並在裝置上加以預覽。 此功能可讓您註冊多個體驗，以進行預覽和 QA 而不需仰賴於特殊的測試建置和模擬器。 </p> <p>此功能需要您下載和安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。 </p> <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=zh-Hant" format="dita" scope="local"> Target行動裝置預覽</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>行動批次和預先擷取功能傳送 </p> </td> 
-   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 多個 mbox 的內容可以在單一呼叫中，預先擷取並快取在本機裝置上，而不需擔心怎麼做、何時做，以及使用者是否會看見該內容。 </p> <p>此功能需要您下載和安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。 </p> <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">預先擷取選件內容</a>。 </p> </td> 
+   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 多個 mbox 的內容可以在單一呼叫中，預先擷取並快取在本機裝置上，而不需擔心怎麼做、何時做，以及使用者是否會看見該內容。 </p> <p>此功能需要您下載和安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。 </p> <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=zh-Hant" format="dita" scope="local">預先擷取選件內容</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活動 </p> </td> 
@@ -4235,7 +4235,7 @@ target/r_release-notes-2018.xml
 
 * 具有核准者權限的使用者，現在可以產生和啟用設定檔 API 驗證 Token。 (TGT-24074)
 
-  如需詳細資訊，請參閱[設定檔 API 設定](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}。
+  如需詳細資訊，請參閱[設定檔 API 設定](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html?lang=zh-Hant){target=_blank}。
 
 * 當您在可視化體驗撰寫器中建立活動且使用者重新載入頁面時，活動 URL 和相關聯的屬性會保留在 UI 中。 如果活動使用混合內容 (安全與不安全的內容) 或是有權限問題，則可能需要重新載入。 (TGT-28230)
 * 改善活動使用混合內容 (安全與不安全內容) 時的訊息。 訊息提供的資訊可幫助使用者執行開啟 HTTP 網站，或具有混合呼叫 (HTTPS 和 HTTP) 的網站所需的步驟。 (TGT-26271)
@@ -4511,7 +4511,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target 論壇的新位置 </p> </td> 
-   <td colname="col2"> <p> Target 論壇已移至新的 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">Adobe Community 平台</a>。 </p> </td> 
+   <td colname="col2"> <p> Target 論壇已移至新的 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant" format="https" scope="external">Adobe Community 平台</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -4622,7 +4622,7 @@ target/r_release-notes-2018.xml
 
 >[!NOTE]
 >
->具有FP-11577 （或更新版本）的[!DNL Adobe Experience Manager] 6.2現在支援[!DNL at.js]實作與其[!UICONTROL Adobe Target Cloud Services]整合。 如需詳細資訊，請參閱 *Adobe Experience Manager 6.2* 文件中的[功能套件](https://experienceleague.adobe.com/docs/)和[與 Adobe Target 整合](https://experienceleague.adobe.com/docs/)。
+>具有FP-11577 （或更新版本）的[!DNL Adobe Experience Manager] 6.2現在支援[!DNL at.js]實作與其[!UICONTROL Adobe Target Cloud Services]整合。 如需詳細資訊，請參閱 *Adobe Experience Manager 6.2* 文件中的[功能套件](https://experienceleague.adobe.com/docs/?lang=zh-Hant)和[與 Adobe Target 整合](https://experienceleague.adobe.com/docs/?lang=zh-Hant)。
 
 此 [!DNL Target] 版本專注在使用性和效能改善，並包括下列增強功能和修正 (括號內的問題編號供 Adobe 內部使用):
 
@@ -5360,7 +5360,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
   </tr> 
   <tr> 
    <td colname="col1"> 支援 Internet Explorer 11 </td> 
-   <td colname="col2"> <p>Target 介面現已支援 Internet Explorer 11。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local">支援的瀏覽器</a>。 </p> </td> 
+   <td colname="col2"> <p>Target 介面現已支援 Internet Explorer 11。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant" format="dita" scope="local">支援的瀏覽器</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 檢視 Target 報告中的「信賴區間」，以瞭解連續變數 </td> 
@@ -5444,7 +5444,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p> 使用 Experience Cloud 核心服務上傳第一方資料 (稱為客戶屬性)，並可選擇要與 Target 共用的屬性。 此功能於 3 月在 Analytics 中啟用，現在已直接整合至 Target。 </p> <p> 例如，您可能在 CRM 或電子商務/POS 系統中使用會員狀態 (金級、銀級等) 之類的客戶資料、購買歷史記錄、最愛目的地、當地商店等等。 現在您可以將這些資料上傳至 Experience Cloud。 使用者於您的網站通過驗證後，Target 可將該資料比對其網路行為。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html??lang=zh-Hant" format="https" scope="external">客戶屬性</a>。 </p> </td> 
+   <td colname="col2"> <p> 使用 Experience Cloud 核心服務上傳第一方資料 (稱為客戶屬性)，並可選擇要與 Target 共用的屬性。 此功能於 3 月在 Analytics 中啟用，現在已直接整合至 Target。 </p> <p> 例如，您可能在 CRM 或電子商務/POS 系統中使用會員狀態 (金級、銀級等) 之類的客戶資料、購買歷史記錄、最愛目的地、當地商店等等。 現在您可以將這些資料上傳至 Experience Cloud。 使用者於您的網站通過驗證後，Target 可將該資料比對其網路行為。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant&?lang=zh-Hant" format="https" scope="external">客戶屬性</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>選取 Analytics 做為 Target 的報表來源時，可以使用多個公司。 </p> </td> 
