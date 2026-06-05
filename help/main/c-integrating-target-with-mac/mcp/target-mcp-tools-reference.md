@@ -2,16 +2,16 @@
 solution: Target
 product: target
 title: Adobe Target MCP伺服器工具參考
-description: Adobe Target MCP伺服器公開的全部23個唯讀工具的完整引數參考。
+description: Adobe Target MCP伺服器公開的所有工具的完整引數參考，包括讀取和寫入作業。
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta 版" type="Informative"
+badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 11%
+source-wordcount: '3195'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >
 >[!DNL Adobe Target] MCP伺服器可供&#x200B;**公用Beta**&#x200B;中的所有客戶使用。 目前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支援。
 
-此頁面是[!DNL Adobe Target] MCP伺服器公開之所有唯讀工具的完整參考。 對於每個工具，您都可以找到說明、引數詳細資料、傳回值以及自然語言提示範例。 如需設定指示和使用案例，請參閱[開始使用](target-mcp-get-started.md)和[使用案例和逐步說明](target-mcp-use-cases.md)。
+此頁面是[!DNL Adobe Target] MCP伺服器公開之所有工具的完整參考。 對於每個工具，您都可以找到說明、引數詳細資料、傳回值以及自然語言提示範例。 如需設定指示和使用案例，請參閱[開始使用](target-mcp-get-started.md)和[使用案例和逐步說明](target-mcp-use-cases.md)。
 
 >[!IMPORTANT]
 >
@@ -35,11 +35,9 @@ ht-degree: 11%
 
 您的[!DNL Adobe Target]角色會決定您可用的工具：
 
-* **觀察者**&#x200B;角色或更新版本：存取所有23個唯讀工具
-
->[!NOTE]
->
->寫入工具（建立、更新、啟用、停用）不會透過公用Beta中的公用MCP目錄公開。 本頁列出的所有23種工具均為唯讀。 未來版本將提供寫入許可權。
+* **觀察者**&#x200B;角色或更新版本：存取所有唯讀工具
+* **編輯者**&#x200B;角色或更新版本：存取讀取工具與寫入工具（建立、更新）
+* **核准者**&#x200B;角色：存取所有工具，包括啟用和停用
 
 如需完整的安裝指示，請參閱[開始使用](target-mcp-get-started.md)。
 
@@ -132,305 +130,279 @@ ht-degree: 11%
 
 +++
 
-<!--
-+++Create an A/B activity
++++建立A/B活動
 
-**Tool:** `create_ab_activity`
+**工具：** `create_ab_activity`
 
-Create a new A/B test activity.
+建立新的A/B測試活動。
 
-Creates a new A/B test with the specified configuration including experiences, offers, and targeting.
+使用指定的組態（包括體驗、選件和鎖定目標）建立新的A/B測試。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `name` | string | Yes | Name of the activity |
-| `state` | string | No | Initial state: `approved`, `deactivated`, or `saved` (default: `saved`) |
-| `priority` | integer | No | Activity priority (0–999, default: 0) |
-| `starts_at` | string | No | Activity start date (ISO 8601) |
-| `ends_at` | string | No | Activity end date (ISO 8601) |
-| `experiences` | array | Yes | List of experience configurations |
-| `locations` | array | Yes | List of location/mbox configurations |
-| `goals` | object | No | Primary and secondary goal metrics |
-| `audiences` | array | No | Target audience configurations |
-| `workspace_id` | string | No | Workspace ID for the activity |
+| `name` | string | 是 | 活動的名稱 |
+| `state` | string | 否 | 初始狀態： `approved`、`deactivated`或`saved` （預設： `saved`） |
+| `priority` | 整數 | 無 | 活動優先順序（0-999，預設： 0） |
+| `starts_at` | string | 否 | 活動開始日期(ISO 8601) |
+| `ends_at` | string | 否 | 活動結束日期(ISO 8601) |
+| `experiences` | 陣列 | 是 | 體驗設定清單 |
+| `locations` | 陣列 | 是 | 位置/mbox設定清單 |
+| `goals` | 物件 | 無 | 主要和次要目標量度 |
+| `audiences` | 陣列 | 否 | Target對象設定 |
+| `workspace_id` | string | 否 | 活動的Workspace ID |
 
-**Returns:** The created activity object with its assigned ID.
+**傳回：**&#x200B;已建立的活動物件及其指派的識別碼。
 
-**Example prompt:** "Create an A/B test called 'Homepage Hero Test' with two experiences testing different hero images on the homepage-hero mbox."
+**範例提示：** 「建立名為&#39;Homepage Hero Test&#39;的A/B測試，其中包含兩個體驗，測試homepage-hero mbox上的不同主圖影像。」
 
 +++
--->
 
-<!--
-+++Create an Experience Targeting activity
++++建立體驗鎖定目標活動
 
-**Tool:** `create_xt_activity`
+**工具：** `create_xt_activity`
 
-Create a new Experience Targeting (XT) activity.
+建立新的體驗鎖定目標(XT)活動。
 
-Creates an XT activity that delivers different experiences to different audiences based on targeting rules.
+建立XT活動，此活動會根據鎖定目標規則將不同的體驗提供給不同的對象。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `name` | string | Yes | Name of the activity |
-| `state` | string | No | Initial state: `approved`, `deactivated`, or `saved` (default: `saved`) |
-| `priority` | integer | No | Activity priority (0–999, default: 0) |
-| `starts_at` | string | No | Activity start date (ISO 8601) |
-| `ends_at` | string | No | Activity end date (ISO 8601) |
-| `experiences` | array | Yes | List of experience configurations with audience mappings |
-| `locations` | array | Yes | List of location/mbox configurations |
-| `goals` | object | No | Primary and secondary goal metrics |
-| `workspace_id` | string | No | Workspace ID for the activity |
+| `name` | string | 是 | 活動的名稱 |
+| `state` | string | 否 | 初始狀態： `approved`、`deactivated`或`saved` （預設： `saved`） |
+| `priority` | 整數 | 無 | 活動優先順序（0-999，預設： 0） |
+| `starts_at` | string | 否 | 活動開始日期(ISO 8601) |
+| `ends_at` | string | 否 | 活動結束日期(ISO 8601) |
+| `experiences` | 陣列 | 是 | 具有對象對應的體驗設定清單 |
+| `locations` | 陣列 | 是 | 位置/mbox設定清單 |
+| `goals` | 物件 | 無 | 主要和次要目標量度 |
+| `workspace_id` | string | 否 | 活動的Workspace ID |
 
-**Returns:** The created activity object with its assigned ID.
+**傳回：**&#x200B;已建立的活動物件及其指派的識別碼。
 
-**Example prompt:** "Create an Experience Targeting activity called 'Geo Personalization' that shows different content to visitors from different regions."
+**範例提示：** 「建立稱為『地理Personalization』的體驗鎖定目標活動，對來自不同地區的訪客顯示不同的內容。」
 
 +++
--->
 
-<!--
-+++Update an A/B activity
++++更新A/B活動
 
-**Tool:** `update_ab_activity`
+**工具：** `update_ab_activity`
 
-Update an existing A/B activity.
+更新現有的A/B活動。
 
-Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update.
+使用讀取 — 修改 — 寫入模式：擷取目前狀態、合併您的變更、驗證並傳送更新。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity to update |
-| `activity` | object | Yes | Fields to update (name, priority, experiences, locations, goals, etc.) |
+| `activity_id` | 整數 | 是 | 要更新之活動的唯一識別碼 |
+| `activity` | 物件 | 是 | 要更新的欄位（名稱、優先順序、體驗、位置、目標等） |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Update activity 12345 to change the traffic allocation to 70/30."
+**範例提示：**「更新活動12345以將流量分配變更為70/30」。
 
 +++
--->
 
-<!--
-+++Update an Experience Targeting activity
++++更新體驗鎖定目標活動
 
-**Tool:** `update_xt_activity`
+**工具：** `update_xt_activity`
 
-Update an existing Experience Targeting activity.
+更新現有的體驗鎖定目標活動。
 
-Uses a read-modify-write pattern.
+使用讀寫模式。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity to update |
-| `activity` | object | Yes | Fields to update |
+| `activity_id` | 整數 | 是 | 要更新的XT活動的唯一識別碼 |
+| `activity` | 物件 | 是 | 要更新的欄位 |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Update XT activity 12345 to add a new experience for mobile visitors."
+**範例提示：**「更新XT活動12345以新增行動訪客的體驗」。
 
 +++
--->
 
-<!--
-+++Update an Automated Personalization activity
++++更新Automated Personalization活動
 
-**Tool:** `update_abt_activity`
+**工具：** `update_abt_activity`
 
-Update an existing Automated Personalization activity.
+更新現有的Automated Personalization活動。
 
-Uses a read-modify-write pattern.
+使用讀寫模式。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the AP activity to update |
-| `activity` | object | Yes | Fields to update |
+| `activity_id` | 整數 | 是 | 要更新的AP活動的唯一識別碼 |
+| `activity` | 物件 | 是 | 要更新的欄位 |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Update Auto-Personalization activity 12345 to change the optimization goal."
+**範例提示：**「更新自動Personalization活動12345動以變更最佳化目標」。
 
 +++
--->
 
-<!--
-+++Update activity schedule
++++更新活動排程
 
-**Tool:** `update_activity_schedule`
+**工具：** `update_activity_schedule`
 
-Update activity start and end dates.
+更新活動的開始和結束日期。
 
-Updates the schedule for an activity without modifying other settings.
+更新活動的排程，而不修改其他設定。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `activity_type` | string | Yes | Type of activity: `ab`, `xt`, or `abt` |
-| `starts_at` | string | No | New start date (ISO 8601) |
-| `ends_at` | string | No | New end date (ISO 8601) |
+| `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
+| `activity_type` | string | 是 | 活動型別： `ab`、`xt`或`abt` |
+| `starts_at` | string | 否 | 新的開始日期(ISO 8601) |
+| `ends_at` | string | 否 | 新的結束日期(ISO 8601) |
 
-**Returns:** Confirmation of the schedule update.
+**傳回：**&#x200B;排程更新的確認。
 
-**Example prompt:** "Update the schedule for A/B activity 12345 to run from May 1st to May 31st."
+**範例提示：**「更新A/B活動12345動從5月1日到5月31日執行的排程」。
 
 +++
--->
 
-<!--
-+++Change activity state
++++變更活動狀態
 
-**Tool:** `update_activity_state`
+**工具：** `update_activity_state`
 
-Change activity state (activate, deactivate, or pause).
+變更活動狀態（啟動、停用或暫停）。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `state` | string | Yes | New state: `approved` (live/active), `deactivated` (inactive), `paused`, or `saved` (draft) |
+| `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
+| `state` | string | 是 | 新狀態： `approved` （即時/作用中）、`deactivated` （非作用中）、`paused`或`saved` （草稿） |
 
-**Returns:** The updated activity state.
+**傳回：**&#x200B;更新的活動狀態。
 
-**Example prompt:** "Activate activity 12345" or "Pause the Homepage Hero Test."
+**範例提示：**「啟動活動12345」或「暫停首頁主圖測試」。
 
 +++
--->
 
-<!--
-+++Rename an activity
++++重新命名活動
 
-**Tool:** `update_activity_name`
+**工具：** `update_activity_name`
 
-Rename an activity.
+重新命名活動。
 
-Updates only the name without modifying the full configuration.
+只更新名稱，不修改完整設定。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `name` | string | Yes | New activity name |
+| `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
+| `name` | string | 是 | 新活動名稱 |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Rename activity 12345 to 'Summer Campaign Hero Test'."
+**範例提示：**「將活動12345重新命名為&#39;Summer Campaign Hero Test&#39;。」
 
 +++
--->
 
-<!--
-+++Change activity priority
++++變更活動優先順序
 
-**Tool:** `update_activity_priority`
+**工具：** `update_activity_priority`
 
-Change activity priority.
+變更活動優先順序。
 
-Higher-priority activities take precedence when multiple activities target the same location.
+當多個活動鎖定相同位置時，優先順序較高的活動優先。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `priority` | integer | Yes | New priority value (0–999; higher = higher priority) |
+| `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
+| `priority` | 整數 | 是 | 新的優先順序值（0-999；較高=較高的優先順序） |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Set the priority of activity 12345 to 100."
+**範例提示：**「將活動12345的優先順序設為100。」
 
 +++
--->
 
-<!--
-+++Add a variant to an activity
++++將變體新增至活動
 
-**Tool:** `add_activity_variant`
+**工具：** `add_activity_variant`
 
-Add a new experience/variant to an activity.
+將新的體驗/變體新增至活動。
 
-Handles all structural coordination including creating options, mapping to locations, and rebalancing traffic.
+處理所有結構協調，包括建立選項、對應至位置以及重新平衡流量。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab`, `xt`, or `abt` |
-| `variant_name` | string | Yes | Name for the new experience/variant |
-| `offer_id` | integer | No | (Form-based) Existing offer ID to use |
-| `offer_content` | string | No | (Form-based) HTML content for a new inline offer |
-| `traffic_percentage` | integer | No | Traffic % for the new variant (1–99). If omitted, traffic is rebalanced evenly |
-| `audience_id` | integer | No | Audience ID for the variant (XT activities) |
-| `modifications` | array | No | (VEC) List of CSS selector-based modifications |
+| `activity_id` | 整數 | 是 | 要修改之活動的ID |
+| `activity_type` | string | 是 | 活動型別： `ab`、`xt`或`abt` |
+| `variant_name` | string | 是 | 新體驗/變體的名稱 |
+| `offer_id` | 整數 | 無 | （表單式）要使用的現有優惠方案ID |
+| `offer_content` | string | 否 | （表單式）新的內嵌選件的HTML內容 |
+| `traffic_percentage` | 整數 | 無 | 新變體的流量% (1-99)。 如果省略，流量會平均重新平衡 |
+| `audience_id` | 整數 | 無 | 變體的對象ID （XT活動） |
+| `modifications` | 陣列 | 否 | (VEC) CSS選取器型修改清單 |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Add a new variant called 'Holiday Theme' to A/B activity 12345 using offer 67890."
+**範例提示：**「使用選件67890則12345新增名為&#39;Holiday Theme&#39;的新變體至A/B活動。」
 
 +++
--->
 
-<!--
-+++Update traffic split
++++更新流量分割
 
-**Tool:** `update_traffic_split`
+**工具：** `update_traffic_split`
 
-Update traffic allocation across variants.
+更新變體間的流量分配。
 
-The percentages must sum to exactly 100.
+百分比總和必須剛好為100。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab` or `abt` (XT not supported — audience-targeted) |
-| `splits` | object | Yes | Dictionary mapping experience name to percentage. Must include all experiences and sum to 100 |
+| `activity_id` | 整數 | 是 | 要修改之活動的ID |
+| `activity_type` | string | 是 | 活動型別： `ab`或`abt` （不支援XT — 以對象為目標） |
+| `splits` | 物件 | 是 | 字典對應體驗名稱到百分比。 必須包含所有體驗，且總和必須為100 |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Change the traffic split for activity 12345 to 70% Control and 30% Variant A."
+**範例提示：**「將活動12345的流量分割變更為70%控制項和30%變體A。」
 
 +++
--->
 
-<!--
-+++Change a variant's offer
++++變更變體的選件
 
-**Tool:** `update_variant_offer`
+**工具：** `update_variant_offer`
 
-Change the offer for a specific variant.
+變更特定變體的選件。
 
-Works for both form-based activities (using `offer_id`) and VEC activities (using `modifications`).
+適用於表單式活動（使用`offer_id`）和VEC活動（使用`modifications`）。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab`, `xt`, or `abt` |
-| `variant_name` | string | Yes | Name of the experience/variant to update |
-| `offer_id` | integer | No | (Form-based) New offer ID |
-| `offer_content` | string | No | (Form-based) HTML content for a new inline offer |
-| `modifications` | array | No | (VEC) New list of CSS selector-based modifications |
+| `activity_id` | 整數 | 是 | 要修改之活動的ID |
+| `activity_type` | string | 是 | 活動型別： `ab`、`xt`或`abt` |
+| `variant_name` | string | 是 | 要更新的體驗/變體的名稱 |
+| `offer_id` | 整數 | 無 | （表單式）新優惠方案ID |
+| `offer_content` | string | 否 | （表單式）新的內嵌選件的HTML內容 |
+| `modifications` | 陣列 | 否 | (VEC) CSS選取器型修改的新清單 |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Update the 'Variant A' experience in activity 12345 to use offer 99999."
+**範例提示：**「更新活動12345中的「變體A」體驗，以使用選件99999。」
 
 +++
--->
 
-<!--
-+++Remove a variant from an activity
++++從活動中移除變體
 
-**Tool:** `remove_activity_variant`
+**工具：** `remove_activity_variant`
 
-Remove an experience/variant from an activity.
+從活動中移除體驗/變體。
 
-Removes the experience, cleans up orphaned options, and rebalances traffic evenly across remaining variants.
+移除體驗、清除孤立的選項，以及在其餘變體間平均重新平衡流量。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab`, `xt`, or `abt` |
-| `variant_name` | string | Yes | Name of the experience/variant to remove |
+| `activity_id` | 整數 | 是 | 要修改之活動的ID |
+| `activity_type` | string | 是 | 活動型別： `ab`、`xt`或`abt` |
+| `variant_name` | string | 是 | 要移除的體驗/變體的名稱 |
 
-**Returns:** The updated activity object.
+**傳回：**&#x200B;更新的活動物件。
 
-**Example prompt:** "Remove the 'Test Variant' experience from A/B activity 12345."
+**範例提示：**「從A/B活動12345動移除&#39;Test Variant&#39;體驗」。
 
 +++
--->
 
 ## 優惠工具 {#tools-offers}
 
@@ -471,61 +443,59 @@ Removes the experience, cleans up orphaned options, and rebalances traffic evenl
 
 +++
 
-<!--
-+++Create an HTML offer
++++建立HTML選件
 
-**Tool:** `create_target_offer`
+**工具：** `create_target_offer`
 
-Create a new HTML content offer.
+建立新的HTML內容選件。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `name` | string | Yes | Name of the offer |
-| `content` | string | Yes | HTML or text content for the offer |
-| `workspace_id` | string | No | Workspace ID for the offer |
+| `name` | string | 是 | 優惠方案名稱 |
+| `content` | string | 是 | 選件的HTML或文字內容 |
+| `workspace_id` | string | 否 | 優惠的Workspace ID |
 
-**Returns:** The created offer with its assigned ID.
+**傳回：**&#x200B;已建立的選件及其指派的識別碼。
 
-**Example prompt:** "Create an HTML offer called 'Summer Sale Banner' with a promotional banner."
+**範例提示：** 「使用促銷橫幅建立名為&#39;Summer Sale Banner&#39;的HTML優惠。」
 
 +++
 
-+++Create a JSON offer
++++建立JSON選件
 
-**Tool:** `create_target_json_offer`
+**工具：** `create_target_json_offer`
 
-Create a new JSON offer for delivering structured data.
+建立新的JSON選件來傳遞結構化資料。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `name` | string | Yes | Name of the offer |
-| `content` | object | Yes | JSON content for the offer |
-| `workspace_id` | string | No | Workspace ID for the offer |
+| `name` | string | 是 | 優惠方案名稱 |
+| `content` | 物件 | 是 | 選件的JSON內容 |
+| `workspace_id` | string | 否 | 優惠的Workspace ID |
 
-**Returns:** The created offer with its assigned ID.
+**傳回：**&#x200B;已建立的選件及其指派的識別碼。
 
-**Example prompt:** "Create a JSON offer called 'Feature Flags Config' with feature toggle settings."
+**範例提示：** 「使用功能切換設定建立名為&#39;Feature Flags Config&#39;的JSON選件。」
 
 +++
 
-+++Update an offer
++++更新優惠方案
 
-**Tool:** `update_target_offer`
+**工具：** `update_target_offer`
 
-Update an existing offer.
+更新現有優惠方案。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `offer_id` | integer | Yes | The unique identifier of the offer to update |
-| `name` | string | No | Updated offer name |
-| `content` | string or object | No | Updated offer content |
+| `offer_id` | 整數 | 是 | 要更新之優惠方案的唯一識別碼 |
+| `name` | string | 否 | 已更新優惠方案名稱 |
+| `content` | 字串或物件 | 否 | 更新的優惠內容 |
 
-**Returns:** The updated offer object.
+**傳回：**&#x200B;更新的選件物件。
 
-**Example prompt:** "Update offer 67890 with new promotional content."
+**範例提示：**「使用新的促銷內容更新優惠67890案」。
 
 +++
--->
 
 ## 對象工具 {#tools-audiences}
 
@@ -564,26 +534,24 @@ Update an existing offer.
 
 +++
 
-<!--
-+++Create an audience
++++建立客群
 
-**Tool:** `create_target_audience`
+**工具：** `create_target_audience`
 
-Create a new audience with targeting rules.
+使用鎖定目標規則建立新的對象。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `name` | string | Yes | Name of the audience |
-| `description` | string | No | Description of the audience |
-| `targetRule` | object | No | Targeting rules (geo, browser, custom attributes, etc.) |
-| `workspace_id` | string | No | Workspace ID for the audience |
+| `name` | string | 是 | 對象名稱 |
+| `description` | string | 否 | 對象說明 |
+| `targetRule` | 物件 | 無 | 鎖定目標規則（地理、瀏覽器、自訂屬性等） |
+| `workspace_id` | string | 否 | 對象的Workspace ID |
 
-**Returns:** The created audience with its assigned ID.
+**傳回：**&#x200B;已建立的對象及其指派的識別碼。
 
-**Example prompt:** "Create an audience called 'Mobile Visitors from California' targeting mobile users in CA."
+**範例提示：** 「在CA中建立名為『來自加州的行動訪客』以行動使用者為目標的對象。」
 
 +++
--->
 
 ## Mbox工具 {#tools-mboxes}
 
@@ -804,24 +772,22 @@ Create a new audience with targeting rules.
 
 +++
 
-<!--
-+++Create a response token
++++建立回應Token
 
-**Tool:** `create_target_response_token`
+**工具：** `create_target_response_token`
 
-Create a new custom response token for collecting additional data in [!DNL Target] responses.
+建立新的自訂回應Token，以在[!DNL Target]個回應中收集其他資料。
 
-| Parameter | Type | Required | Description |
+| 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `token_name` | string | Yes | Name of the response token |
-| `token_type` | string | Yes | Type of token: `SCRIPT`, `ACTIVITY`, `MBOX`, `GEO`, or `CRS` |
+| `token_name` | string | 是 | 回應Token的名稱 |
+| `token_type` | string | 是 | 語彙基元型別： `SCRIPT`、`ACTIVITY`、`MBOX`、`GEO`或`CRS` |
 
-**Returns:** The created response token object.
+**傳回：**&#x200B;已建立的回應Token物件。
 
-**Example prompt:** "Create a custom response token called 'campaign_id' of type ACTIVITY."
+**範例提示：**「建立名為&#39;campaign_id&#39;的自訂回應Token，型別為ACTIVITY。」
 
 +++
--->
 
 ## 修訂工具 {#tools-revisions}
 
@@ -883,17 +849,17 @@ Create a new custom response token for collecting additional data in [!DNL Targe
 
 | 類別 | 計數 | 工具 |
 |---|---|---|
-| 活動 | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
-| 產品建議 | 2 | `list_target_offers`, `get_target_offer` |
-| 客群 | 2 | `list_target_audiences`, `get_target_audience` |
+| 活動 | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| 產品建議 | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
+| 客群 | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
 | mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 屬性 | 1 | `list_target_properties` |
 | 報表 | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | 預覽 | 1 | `preview_activity` |
-| 回應Token | 1 | `list_target_response_tokens` |
+| 回應Token | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | 修訂 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | 範本 | 1 | `list_target_templates` |
-| **總計** | **23** | |
+| **總計** | **41** | |
 
 ## 相關資源 {#tools-related}
 
