@@ -217,7 +217,7 @@ ht-degree: 55%
 
 ### [!UICONTROL 優惠決定]
 
-新增在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中建立的[優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中建立的優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 體驗鎖定目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -249,7 +249,7 @@ ht-degree: 55%
 
 ### [!UICONTROL 優惠決定]
 
-新增在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中建立的[優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中建立的優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 體驗鎖定目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -281,7 +281,7 @@ ht-degree: 55%
 
 ### [!UICONTROL 優惠決定]
 
-新增在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中建立的[優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
+新增在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中建立的優惠方案，以使用Offer Decisioning向客戶呈現最佳優惠方案和體驗。
 
 **注意：**&#x200B;此選項僅在編輯或建立[手動[!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 體驗鎖定目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。
 
@@ -309,7 +309,7 @@ ht-degree: 55%
 
 從[!UICONTROL 內容資料庫]中選取不同的選件。
 
-**注意:**[!DNL Target] HTML 產品建議會儲存在 伺服器上。
+**注意:**&#x200B;[!DNL Target] HTML 產品建議會儲存在 伺服器上。
 
 HTML選件最高可達256 KB。
 

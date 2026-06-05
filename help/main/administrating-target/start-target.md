@@ -6,9 +6,14 @@ feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 473
@@ -37,7 +42,7 @@ ht-degree: 30%
 
    如果您有Adobe ID，則會辨識您的Adobe ID，並提示您登入。
 1. 接受[!UICONTROL 使用條款]。
-1. 檢閱您目前已完成的摘要，然後按一下[繼續前往Experience Cloud] ****。
+1. 檢閱您目前已完成的摘要，然後按一下[繼續前往Experience Cloud] **&#x200B;**。
 1. 登入[!DNL Adobe Experience Cloud]並按一下&#x200B;**[!UICONTROL 連結帳戶]**。
 
    >[!NOTE]

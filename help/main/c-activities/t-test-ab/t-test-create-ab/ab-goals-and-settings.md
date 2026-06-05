@@ -5,9 +5,15 @@ title: 如何在 [!DNL Target] A/B活動中指定目標與設定？
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1292
@@ -58,7 +64,7 @@ ht-degree: 33%
 |--- |--- |
 | [!UICONTROL 增加此量度前必須達到哪個成功量度？] | 使用此選項時，如果某人先前達到不同的成功量度，則僅將其計算為達到成功量度。 例如，活動轉換可能只有在轉換之前訪客點選了選件，或達到特定頁面時才有效。 您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。 定義兩個（或多個）成功量度，之後才可以讓某個量度相依於另一個量度。 [!UICONTROL 「新增相依性」]選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。 若要新增相依性:<ul><li>新增其他量度後，按一下[!UICONTROL 「進階設定」]。</li><li>按一下[!UICONTROL 「新增相依性」]選項:</li><li>將需要的量度從左窗格拖放到右窗格，然後按一下[!UICONTROL 已達到]以在[!UICONTROL 已達到]與[!UICONTROL 未達到]之間切換設定。</li><li>您可以在新增相依性之後加以編輯或移除。</li></ul> |
 | [!UICONTROL 使用者遇到此目標量度後會發生什麼事？] | 有三個選項可控制訪客達到目標量度後會發生什麼事:<ul><li>選取&#x200B;**[!UICONTROL 「增加計數以及讓使用者留在活動中」]**&#x200B;以指定計數的增加方式。</li><li>選取&#x200B;**[!UICONTROL 「增加計數、釋出使用者以及允許重新進入」]**&#x200B;以指定如果使用者重新進入活動，使用者會看見的體驗。</li><li>選取&#x200B;**[!UICONTROL 增加計數、釋出使用者以及禁止重新進入]**，以指定使用者會看見的內容，而非活動內容。</li></ul> |
-| [!UICONTROL 計數將如何增加？] | 計數的遞增方式共有三個選項:<ul><li>每個加入者[!UICONTROL 一次]</li><li>每次曝光時[!UICONTROL  （排除頁面重新整理）]</li><li>每次曝光時</li></ul> |
+| [!UICONTROL 計數將如何增加？] | 計數的遞增方式共有三個選項:<ul><li>每個加入者[!UICONTROL 一次]</li><li>每次曝光時[!UICONTROL &#x200B; （排除頁面重新整理）]</li><li>每次曝光時</li></ul> |
 
 請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。
 

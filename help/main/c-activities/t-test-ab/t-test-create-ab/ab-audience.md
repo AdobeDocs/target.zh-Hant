@@ -5,9 +5,12 @@ title: 如何在 [!DNL Target] A/B活動中選取對象？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 575
@@ -52,7 +55,7 @@ ht-degree: 10%
 
 1. 按一下右窗格中的&#x200B;**[!UICONTROL 訪客百分比]**，然後指定要包含在活動中的合格訪客百分比。
 
-1. 當您對對象感到滿意時，請按一下[下一步] ****，移至三步驟引導式工作流程的第三個步驟。
+1. 當您對對象感到滿意時，請按一下[下一步] **&#x200B;**，移至三步驟引導式工作流程的第三個步驟。
 
 >[!NOTE]
 >

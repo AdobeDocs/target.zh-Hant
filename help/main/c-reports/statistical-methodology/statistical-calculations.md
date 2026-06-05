@@ -5,8 +5,11 @@ title: 如何瞭解[!UICONTROL A/B測試]活動中使用的統計計算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -48,7 +51,7 @@ ht-degree: 2%
    * 如果使用&#x200B;*[!UICONTROL 造訪]*&#x200B;做為計數方法，則每個單位都是定義為在[!DNL Target]工作階段期間體驗中唯一參與者的唯一造訪（具有唯一的`sessionId`）。 當`sessionId`變更時，或訪客達到轉換步驟時，即會計為新造訪。
    * 如果使用&#x200B;*[!UICONTROL 活動曝光次數]*&#x200B;做為計數方法，則每個單位都是定義為每次訪客載入活動任何頁面時的唯一曝光次數。
 
-## 平均]/[!UICONTROL 轉換率]的[!UICONTROL 信賴區間
+## 平均/[!UICONTROL 轉換率]的信賴區間
 
 轉換率的信賴區間在直覺上定義為與基礎資料一致的可能轉換率範圍。
 
@@ -102,7 +105,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此計算使用「差異」方法，本檔案將詳細說明[](/help/main/assets/confidence_interval_lift.pdf)
+此計算使用「差異」方法，本檔案將詳細說明[&#128279;](/help/main/assets/confidence_interval_lift.pdf)
 
 ## [!UICONTROL 信賴度]
 

@@ -47,7 +47,7 @@ ht-degree: 35%
 
    [!UICONTROL 選擇工作區]選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示貴組織擁有[!DNL Target Standard]授權。
 
-1. 指定您的[活動URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下[建立]。****
+1. 指定您的[活動URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下[建立]。**&#x200B;**
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設 URL 變更為其他 URL。
 

@@ -7,9 +7,17 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2952
@@ -55,13 +63,13 @@ ht-degree: 0%
 
 針對「檢視/購買此專案的使用者也檢視/購買這些專案」演演算法，目標是計算所有專案配對之間的相似度(A，B)。 接著，系統會針對指定專案A，依其相似度s(A，B)排序排名最前的建議。
 
-這種相似性的一個範例是專案之間的共同發生：購買兩個專案的使用者人數的簡單計數。 雖然此量度直覺式偏好，但偏向於推薦熱門專案，因此這種量度並不實際。 例如，如果在retailer的雜貨店大多數人購買麵包，則麵包會與所有專案具有高度的共生性，但這不一定是好的建議。 [!DNL Target]改為使用更複雜的相似性量度，稱為對數似然比(LLR)。 如果兩個專案（A和B）同時發生的機率與其不同時發生的機率非常不同，則此數量會很大。 如需具體資訊，請考量檢視此專案、購買該]演演算法的[!UICONTROL 人案例。 購買B的可能性為&#x200B;*not*&#x200B;時，LLR相似度會很高，這和某人是否檢視A無關。
+這種相似性的一個範例是專案之間的共同發生：購買兩個專案的使用者人數的簡單計數。 雖然此量度直覺式偏好，但偏向於推薦熱門專案，因此這種量度並不實際。 例如，如果在retailer的雜貨店大多數人購買麵包，則麵包會與所有專案具有高度的共生性，但這不一定是好的建議。 [!DNL Target]改為使用更複雜的相似性量度，稱為對數似然比(LLR)。 如果兩個專案（A和B）同時發生的機率與其不同時發生的機率非常不同，則此數量會很大。 如需具體資訊，請考量檢視此專案、購買該演演算法的人案例。 購買B的可能性為&#x200B;*not*&#x200B;時，LLR相似度會很高，這和某人是否檢視A無關。
 
 例如，若
 
 已檢視/已購買演演算法的![公式](assets/formula.png)
 
-那麼專案B不應與專案A一起建議。此PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料[。
+那麼專案B不應與專案A一起建議。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料。
 
 實際演演算法實施的邏輯流程如下圖所示：
 

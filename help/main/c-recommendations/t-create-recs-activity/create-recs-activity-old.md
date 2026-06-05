@@ -30,11 +30,11 @@ ht-degree: 58%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[!UICONTROL [選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是Target Standard授權。
+   >上圖中的[[!UICONTROL [選擇工作區]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是Target Standard授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定活動URL，然後按一下[下一步]。****
+1. 指定活動URL，然後按一下[下一步]。**&#x200B;**
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 58%
 
    如果您選取多個條件，流量會在選取的條件間平均分割。 例如，如果您已選取了兩個條件，而您的活動是設計為對 20% 的活動加入者顯示預設內容，那麼 40% 的活動加入者將看到每個條件所控制的建議。 沒有選項可變更每個條件的百分比。
 
-   * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下[下一步]。****
+   * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下[下一步]。**&#x200B;**
 
      有些條件是由 [!DNL Recommendations] 提供。 您和您的團隊也可以建立自己的自訂條件。
 
@@ -99,7 +99,7 @@ ht-degree: 58%
 
    每個設計會顯示其外觀的圖形呈現，而圖示會顯示目前您的已上線和非使用中的活動有多少使用該設計。
 
-   * 若要選取一或多個現有設計，請按一下設計，然後按一下[下一步]。****
+   * 若要選取一或多個現有設計，請按一下設計，然後按一下[下一步]。**&#x200B;**
 
      如果您選取了多個條件，則僅能選取一個設計。
 
@@ -119,7 +119,7 @@ ht-degree: 58%
 
    完成預覽您的建議時，請按一下&#x200B;**[!UICONTROL 「撰寫」]**。
 
-1. 在VEC中檢閱您的建議，然後按一下[下一步]。****
+1. 在VEC中檢閱您的建議，然後按一下[下一步]。**&#x200B;**
 
 1. 在流程圖表中檢閱您的 [!DNL Recommendations] 活動，並進行任何必要的變更。
 

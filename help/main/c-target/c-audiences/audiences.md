@@ -5,9 +5,15 @@ title: 如何使用「對象清單」？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 TQID: https://experienceleague.adobe.com/nILXQc8jdwte7CL1S0v7NDmyeh72N8yeI-gwBP2wz8g
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 826
@@ -66,7 +72,7 @@ ht-degree: 28%
 
 使用[!UICONTROL 篩選器]按鈕依來源篩選[!UICONTROL 對象]清單： [!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Experience Cloud]和[!DNL Adobe Experience Platform]。
 
-[!UICONTROL 對象]清單](assets/filters.png)中的![篩選器選項
+[!UICONTROL 對象]清單![&#128279;](assets/filters.png)中的篩選器選項
 
 使用[!UICONTROL 搜尋對象]方塊來搜尋您的[!UICONTROL 對象]清單。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
@@ -84,7 +90,7 @@ ht-degree: 28%
 
 ![活動 > 客群定義](assets/view-details-activity-overview.png)
 
-對象定義卡片會顯示對象的型別、來源和屬性。 按一下[檢視完整詳細資料] ]**檢視參考該對象的其他活動（如果適用）。**[!UICONTROL &#x200B;如果您從活動的[!UICONTROL 總覽]頁面檢視對象定義卡，請按一下&#x200B;**[!UICONTROL 對象使用情形]**。
+對象定義卡片會顯示對象的型別、來源和屬性。 按一下[檢視完整詳細資料] **檢視參考該對象的其他活動（如果適用）。**&#x200B;如果您從活動的[!UICONTROL 總覽]頁面檢視對象定義卡，請按一下&#x200B;**[!UICONTROL 對象使用情形]**。
 
 對象使用資訊可協助您在編輯對象時避免對其他活動造成意外影響。 資訊包括[!UICONTROL 已上線的活動]、[!UICONTROL 非使用中的活動]、[!UICONTROL 已封存的活動]和[!UICONTROL 正在同步的活動]。 此功能適用於所有對象（資料庫對象和[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）。
 

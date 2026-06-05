@@ -5,9 +5,12 @@ title: 如何建立受眾？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 538
@@ -73,7 +76,7 @@ ht-degree: 50%
 
 1. （視條件而定）繼續新增及定義所需的屬性。
 
-   若要建立另一個容器，請按一下[新增容器] ****，或直接將另一個屬性拖曳到[對象產生器]窗格。 然後，您可以使用下拉式清單調整運運算元（AND或OR）。
+   若要建立另一個容器，請按一下[新增容器] **&#x200B;**，或直接將另一個屬性拖曳到[對象產生器]窗格。 然後，您可以使用下拉式清單調整運運算元（AND或OR）。
 
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 

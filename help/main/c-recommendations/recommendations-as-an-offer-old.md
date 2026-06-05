@@ -55,7 +55,7 @@ ht-degree: 42%
 
 1. 按一下&#x200B;**[!UICONTROL 建立條件]**&#x200B;或選取現有的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以顯示[!UICONTROL 選取設計]對話方塊。
 
-1. 按一下[建立設計]****&#x200B;或選取現有的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下[下一步]****。
+1. 按一下[建立設計]&#x200B;**&#x200B;**&#x200B;或選取現有的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下[下一步]&#x200B;**&#x200B;**。
 
 1. 在[!UICONTROL 選項]對話方塊中，指定下列專案：
 

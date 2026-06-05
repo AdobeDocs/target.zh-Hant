@@ -6,8 +6,14 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1982
@@ -92,7 +98,7 @@ No, check marks for model generation show only the models built to date. There's
 +++回答
 在[!UICONTROL 自動鎖定目標]活動中建立模型所需的時間，通常取決於流向您所選活動位置的流量，以及與活動成功量度關聯的轉換率。
 
-[!UICONTROL 自動鎖定目標]不會嘗試為指定的體驗建立個人化模型，直到該體驗至少有50個轉換為止。 此外，如果建立的模型品質不佳（使用稱為AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度[對保留「測試」資料進行離線評估所決定），則模型不會用於個人化的流量。
+[!UICONTROL 自動鎖定目標]不會嘗試為指定的體驗建立個人化模型，直到該體驗至少有50個轉換為止。 此外，如果建立的模型品質不佳（使用稱為AUC[&#128279;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度對保留「測試」資料進行離線評估所決定），則模型不會用於個人化的流量。
 
 關於[!UICONTROL 自動鎖定目標]的模型建置要記住的其他要點：
 

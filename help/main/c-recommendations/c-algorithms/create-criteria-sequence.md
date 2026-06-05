@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 833
@@ -40,7 +42,7 @@ ht-degree: 21%
 
 有多個方式可到達[!UICONTROL 「建立條件順序」]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**[!UICONTROL >]**「建立條件順序」]**。 您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
+* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**&#x200B;[!UICONTROL >]&#x200B;**「建立條件順序」]**。 您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
 * 建立[!UICONTROL Recommendations]活動時，請在[!UICONTROL 選取條件]畫面中按一下&#x200B;**[!UICONTROL 新建]** > **[!UICONTROL 建立條件順序]**。 您可以選擇儲存您的新條件序列以搭配其他[!UICONTROL Recommendations]活動使用。
 * 編輯[!UICONTROL Recommendations]活動時，請按一下頁面上的[!UICONTROL Recommendations位置]方塊，然後選取&#x200B;**[!UICONTROL 變更條件]**。 在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**>**[!UICONTROL 「建立條件順序」]**。 您可以選擇儲存您的新條件以搭配其他[!UICONTROL Recommendations]活動使用。
 

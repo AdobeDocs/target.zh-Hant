@@ -5,8 +5,10 @@ title: 如何在A/B活動中新增體驗？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 420
@@ -42,7 +44,7 @@ ht-degree: 30%
 
 1. 按一下體驗旁的&#x200B;**[!UICONTROL 重新命名體驗]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)），為體驗提供新名稱。
 
-2. 指定新名稱，然後按一下[儲存]。****
+2. 指定新名稱，然後按一下[儲存]。**&#x200B;**
 
    為體驗命名或重新命名時，不得使用下列字元：
 

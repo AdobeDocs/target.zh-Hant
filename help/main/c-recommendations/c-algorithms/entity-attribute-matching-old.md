@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
 
 例如，僅建議符合目前專案品牌的專案，如下列範例所示：
 

@@ -5,10 +5,23 @@ title: 我可以在哪裡查看  [!DNL Target] 文件更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 2566
@@ -92,7 +105,7 @@ ht-degree: 30%
 |  | *[!DNL Target]開發人員指南中的[Adobe Target大量設定檔更新API](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank}* | 更新要使用哪個API版本的附註。 |
 |  | [[!DNL Target] 發行說明 (搶鮮版)](/help/main/r-release-notes/target-release-notes.md) | 更新[!DNL Target] 25.8.3版（2025年8月21日）的發行前說明。 發行日期、功能和其他資訊可能會有所變更，恕不另行通知。 本文章中的資訊會經常更新，尤其是在發行版本之前。 |
 | 8 月 14 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.8.2 版的發行說明。 |
-| 8 月 11 日 | 在Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t){target=_blank}中登入[Adobe Analytics for Target (A4T) | 為了改善內容組織與協助工具，我們已使用[!DNL Adobe Experience Platform Web SDK]將[!UICONTROL Analytics for Target] (A4T)的完整實作指引從&#x200B;*資料彙集*&#x200B;指南移至[!DNL Target]開發人員指南。 此合併可確保所有[!DNL Target]相關資訊現在都存放於單一、簡化的位置，讓開發人員更容易找到並參考相關內容。 |
+| 8 月 11 日 | 在Experience Platform Web SDK[&#128279;](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t){target=_blank}中登入Adobe Analytics for Target (A4T) | 為了改善內容組織與協助工具，我們已使用[!DNL Adobe Experience Platform Web SDK]將[!UICONTROL Analytics for Target] (A4T)的完整實作指引從&#x200B;*資料彙集*&#x200B;指南移至[!DNL Target]開發人員指南。 此合併可確保所有[!DNL Target]相關資訊現在都存放於單一、簡化的位置，讓開發人員更容易找到並參考相關內容。 |
 |  | [編輯活動](/help/main/c-activities/edit-activity.md) | 進行下列編輯：<UL><li>已編輯「*對象和選件*」區段，以表示針對臨時選件，正確的格式為`<Entity Name>`。</li><li>編輯&#x200B;*對象與選件*&#x200B;區段以移除合併對象的相關資訊。</li></ul> |
 | 8 月 7 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.8.1 版的發行說明。 |
 

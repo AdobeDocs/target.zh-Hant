@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 571
@@ -51,8 +53,8 @@ ht-degree: 55%
    * 感謝頁面
    * 其他
 
-1. 選取所需的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下[下一步]]。[!UICONTROL 
-1. 選取所需的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下[下一步] ]。[!UICONTROL 
+1. 選取所需的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下[下一步]。
+1. 選取所需的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下[下一步] 。
 1. 在[!UICONTROL 選項]對話方塊中，指定下列專案：
 
    * 選擇一個[集合](/help/main/c-recommendations/c-products/collections.md)。
@@ -70,7 +72,7 @@ ht-degree: 55%
 
 ### 使用「編輯」選單編輯建議產品建議
 
-1. 按一下您要編輯的選件，然後按一下[編輯]。****
+1. 按一下您要編輯的選件，然後按一下[編輯]。**&#x200B;**
 
    ![編輯推薦產品建議](/help/main/c-recommendations/assets/recs-offer-edit.png)
 

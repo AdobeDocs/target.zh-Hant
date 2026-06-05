@@ -31,7 +31,7 @@ ht-degree: 60%
 
    ![變更影像選項](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. 選取要包含在測試中的所有影像，然後按一下[儲存]。****
+1. 選取要包含在測試中的所有影像，然後按一下[儲存]。**&#x200B;**
 
    ![用來新增影像的選取內容對話方塊](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 

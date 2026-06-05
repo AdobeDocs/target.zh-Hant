@@ -5,9 +5,12 @@ title: 我可以根據瀏覽器型別鎖定訪客嗎？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 TQID: https://experienceleague.adobe.com/D7cLw1OVT61u8SgkjpzEvWylcX1uz14Ia4rf8jAJyXs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1116
@@ -36,7 +39,7 @@ ht-degree: 35%
 >
 >此更新不需要客戶採取任何動作。 [!DNL Target] UI中的標籤未來將會變更，而且會在進行這些變更時，在[[!DNL Target] 發行說明（最新）](/help/main/r-release-notes/release-notes.md)中宣佈。
 >
->如需因應措施，請參閱以下[!UICONTROL 瀏覽器]對象屬性（2024年4月30日）](#updates)中的[更新 [!DNL iPad] 及 [!DNL iPhone] 。
+>如需因應措施，請參閱以下[!UICONTROL 瀏覽器]對象屬性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 及 [!DNL iPhone] 。
 
 鎖定目標瀏覽器有兩種方法:
 
@@ -145,7 +148,7 @@ ht-degree: 35%
 
 從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`針對[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。
 
-使用[!DNL Target] UI （例如`Browser:iPad`和`Browser:iPhone`）建立的內建對象，會自動移至新的對象定義，而客戶不需要採取任何動作。 不過，您以後應該使用下述設定[](#ui)。
+使用[!DNL Target] UI （例如`Browser:iPad`和`Browser:iPhone`）建立的內建對象，會自動移至新的對象定義，而客戶不需要採取任何動作。 不過，您以後應該使用下述設定[&#128279;](#ui)。
 
 如果您在任何設定檔指令碼中使用`user.browserType`來檢查它是[!DNL iPhone]或[!DNL iPad] （例如，`user.browserType == 'iphone'`或`user.browserType != 'ipad'`），在2024年4月30日之前，這些設定檔指令碼應該變更為[以下](#profile-scripts)的指示，以確保這些對象繼續如預期般運作。
 

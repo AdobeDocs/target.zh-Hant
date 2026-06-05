@@ -38,4 +38,4 @@ ht-degree: 63%
    * **頁面類型:** 頁面類型可幫助您對您的建議進行分類。 也有可為每個頁面類型選擇的內建條件。
    * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。 不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 可以在您的設定中停用或啟用此選項： **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**。
 
-1. 按一下[下一步]****&#x200B;以顯示[[選取設計]](/help/main/c-recommendations/c-design-overview/design-overview.md)對話方塊。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以顯示[[選取設計]](/help/main/c-recommendations/c-design-overview/design-overview.md)對話方塊。

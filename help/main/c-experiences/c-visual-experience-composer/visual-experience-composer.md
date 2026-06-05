@@ -5,9 +5,13 @@ title: 如何使用視覺化體驗撰寫器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 TQID: https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 1175
@@ -55,7 +59,7 @@ Click the **[!UICONTROL Overlays]** icon to change the way the highlight display
 
 按一下醒目提示的元素，以顯示該元素型別可用的選項功能表。 例如，您可以按一下影像，然後選取&#x200B;**[!UICONTROL 變更影像]**&#x200B;以將影像變更為其他影像。 或者，按一下按鈕並變更文字顏色。
 
-您也可以按一下&#x200B;**[!UICONTROL 「瀏覽」]**，然後導覽至主要頁面所提供的頁面，例如出貨頁面或購物車，然後在該頁面上測試變更。 您也可以存取暫留時可用的頁面元素，例如飛出功能表和迷你購物車。 當您完成瀏覽至頁面時，請按一下[設計] ****&#x200B;來編輯體驗。 例如，您可能需要變更購物車下拉式清單或影像輪播的設計。
+您也可以按一下&#x200B;**[!UICONTROL 「瀏覽」]**，然後導覽至主要頁面所提供的頁面，例如出貨頁面或購物車，然後在該頁面上測試變更。 您也可以存取暫留時可用的頁面元素，例如飛出功能表和迷你購物車。 當您完成瀏覽至頁面時，請按一下[設計] **&#x200B;**&#x200B;來編輯體驗。 例如，您可能需要變更購物車下拉式清單或影像輪播的設計。
 
 >[!NOTE]
 >

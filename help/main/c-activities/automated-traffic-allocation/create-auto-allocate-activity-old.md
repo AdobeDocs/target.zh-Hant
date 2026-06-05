@@ -37,7 +37,7 @@ ht-degree: 39%
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)，然後按一下[建立]。****
+1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)，然後按一下[建立]。**&#x200B;**
 
    如果您的帳戶設定了預設的 URL，該 URL 依預設會顯示。 您可以視需要將預設URL變更為其他URL。
 
@@ -96,7 +96,7 @@ ht-degree: 39%
 
    * **[!UICONTROL 針對個人化體驗自動鎖定目標]**： [!DNL Target]會使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
-   您也可以按一下[新增&#x200B;****]來新增其他體驗至活動。
+   您也可以按一下[新增&#x200B;**&#x200B;**]來新增其他體驗至活動。
 
 1. 在您滿意您的對象、體驗選擇和流量配置選擇後，請按一下[下一步] **[!UICONTROL 移至三步驟引導式工作流程的第三個步驟。]**
 

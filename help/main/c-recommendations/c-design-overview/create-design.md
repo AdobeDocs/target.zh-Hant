@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1065
@@ -47,7 +49,7 @@ ht-degree: 23%
 1. 按一下「**[!UICONTROL 建議]** > **[!UICONTROL 設計]**」以顯示[!UICONTROL 設計]資料庫。
 
 
-1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[複製]。****
+1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[複製]。**&#x200B;**
 
    [!UICONTROL 建立設計]對話方塊隨即顯示。
 

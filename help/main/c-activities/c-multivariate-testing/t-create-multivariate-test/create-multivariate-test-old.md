@@ -99,7 +99,7 @@ ht-degree: 52%
 
    ![估算程式2影像](assets/estimator2.png)
 
-1. 按一下[下一步]****&#x200B;以前進到[!UICONTROL 鎖定目標]頁面。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到[!UICONTROL 鎖定目標]頁面。
 
 1. 選擇客群和符合您要讓其進入活動之訪客的百分比。
 
@@ -111,7 +111,7 @@ ht-degree: 52%
    >
    >除了選取現有客群，您可以結合多個客群來建立隨選結合的客群而非建立新客群。 如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]]**。**[!UICONTROL 
+1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]&#x200B;**。**
 
 1. [指定測試的目標與設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 

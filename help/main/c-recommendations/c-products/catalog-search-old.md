@@ -153,7 +153,7 @@ ht-degree: 20%
 
    ![修改篩選器連結](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 選取所需的搜尋Facet （識別碼、名稱、訊息等），然後按一下[儲存]。****
+1. 選取所需的搜尋Facet （識別碼、名稱、訊息等），然後按一下[儲存]。**&#x200B;**
 
    ![新增篩選器](/help/main/c-recommendations/c-products/assets/add-filters.png)
 

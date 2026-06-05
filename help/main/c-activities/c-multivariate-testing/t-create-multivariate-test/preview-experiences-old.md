@@ -23,7 +23,7 @@ ht-degree: 29%
 
 1. 按一下清單中的體驗來檢視該體驗。
 
-1. 若要從多變數測試排除一或多個體驗，請選取所需的體驗，然後按一下[排除]。****
+1. 若要從多變數測試排除一或多個體驗，請選取所需的體驗，然後按一下[排除]。**&#x200B;**
 
    ![排除體驗](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 

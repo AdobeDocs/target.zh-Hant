@@ -5,9 +5,14 @@ title: 如何使用[!UICONTROL 視覺化體驗撰寫器] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 2249
@@ -47,7 +52,7 @@ ht-degree: 7%
 
 * **檢視體驗**：若要檢視體驗，請按一下所需的體驗，以在[!UICONTROL 設計]畫布中顯示。
 * **新增體驗**：按一下&#x200B;**[!UICONTROL 新增]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg) ）以新增體驗。 視需要設定新體驗。
-* **重新命名體驗**：按一下&#x200B;**[!UICONTROL 重新命名]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)）以顯示[!UICONTROL 重新命名體驗]對話方塊。 指定新名稱，然後按一下[儲存]。****
+* **重新命名體驗**：按一下&#x200B;**[!UICONTROL 重新命名]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)）以顯示[!UICONTROL 重新命名體驗]對話方塊。 指定新名稱，然後按一下[儲存]。**&#x200B;**
 * **複製、刪除或重新導向體驗**：按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後選擇&#x200B;**[!UICONTROL 複製]**、**[!UICONTROL 刪除]**&#x200B;或&#x200B;**[!UICONTROL 重新導向至URL]**。
 
 ### 活動設定/設定 {#settings}

@@ -8,9 +8,17 @@ hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
 TQID: https://experienceleague.adobe.com/IqNBAHefm8J-DEo2fU-Nj19AhcZg-FUPLccs2eC9yPQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 954
@@ -100,13 +108,13 @@ ht-degree: 1%
 
    ![瑜伽頁面上的新主圖影像](/help/main/c-integrating-target-with-mac/ajo/assets/new-hero-image.png)
 
-1. 若要使用設定檔屬性以使用者的名字個人化郵件，請按一下您要個人化的文字，然後按一下[新增Personalization] ]**，以顯示[新增Personalization] [!UICONTROL 頁面。**
+1. 若要使用設定檔屬性以使用者的名字個人化郵件，請按一下您要個人化的文字，然後按一下[新增Personalization] **，以顯示[新增Personalization] 頁面。**
 
    ![新增Personalization按鈕。](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
    如需設定檔屬性的詳細資訊，請參閱&#x200B;*Journey Optimizer檔案*&#x200B;中的[開始使用個人化編輯器](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}。
 
-1. 搜尋並按一下加號以新增「名字」設定檔屬性，視需要調整文字，然後按一下[儲存]。****
+1. 搜尋並按一下加號以新增「名字」設定檔屬性，視需要調整文字，然後按一下[儲存]。**&#x200B;**
 
    ![為名稱](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)新增設定檔屬性
 
@@ -116,7 +124,7 @@ ht-degree: 1%
 
    ![後退箭號](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. 按一下[檢閱]以啟動&#x200B;]**，確定一切如預期顯示，然後按一下[啟動]。****。**[!UICONTROL 
+1. 按一下[檢閱]以啟動&#x200B;**，確定一切如預期顯示，然後按一下[啟動]。**&#x200B;**。**
 
 ## 檢視報告
 

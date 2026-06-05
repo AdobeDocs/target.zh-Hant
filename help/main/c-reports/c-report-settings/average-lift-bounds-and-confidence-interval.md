@@ -17,7 +17,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->此功能僅在[!UICONTROL 表格]檢視中檢視報表時可用。 此功能無法供以[ Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的活動使用。
+>此功能僅在[!UICONTROL 表格]檢視中檢視報表時可用。 此功能無法供以[&#x200B; Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的活動使用。
 
 ## 解讀資料 {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
@@ -49,7 +49,7 @@ ht-degree: 59%
 
 ## 瞭解如何決定提升度的信賴區間 {#pdf}
 
-如需詳細資訊，請下載提升度pdf檔案](/help/main/assets/confidence_interval_lift.pdf)的[信賴區間。
+如需詳細資訊，請下載提升度pdf檔案[&#128279;](/help/main/assets/confidence_interval_lift.pdf)的信賴區間。
 
 ## 如何計算提升度界限？ {#section_1D360781D972483693680BE0F07AEAD1}
 

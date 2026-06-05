@@ -22,7 +22,7 @@ ht-degree: 17%
    ![選件>影像選件](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. 按一下&#x200B;**[!UICONTROL 建立]** > **[!UICONTROL 檔案]**。
-1. 瀏覽並選取您要新增的專案，然後按一下[開啟]。****
+1. 瀏覽並選取您要新增的專案，然後按一下[開啟]。**&#x200B;**
 1. 視需要編輯專案的檔案名稱，然後按一下&#x200B;**[!UICONTROL 上傳]**。
 
 ## 刪除影像選件或資料夾

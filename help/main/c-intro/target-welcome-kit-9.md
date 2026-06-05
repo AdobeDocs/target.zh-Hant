@@ -5,10 +5,18 @@ title: 在哪裡可以找到更多有效使用 Target 的額外資源？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 701
@@ -36,7 +44,7 @@ ht-degree: 79%
 
 * **Adobe Target 教學課程**：瞭解基本知識或精進技能。 請參閲 [Adobe Target 教學課程頁面](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant)。
 * **Adobe Target 裝置上培訓**：探索我們提供的各種 Target 課程。 請參閲 [Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)頁面。
-* **Adobe Target 影片：**&#x200B;觀看 [!DNL Target] 影片以觀看成功案例和解決方案功能。 請參閱[ Adobe Target Standard 和 Premium培訓影片](/help/main/c-intro/target-standard-premium-training-videos.md)
+* **Adobe Target 影片：**&#x200B;觀看 [!DNL Target] 影片以觀看成功案例和解決方案功能。 請參閱[&#x200B; Adobe Target Standard 和 Premium培訓影片](/help/main/c-intro/target-standard-premium-training-videos.md)
 * **網路研討會系列**：Adobe Target 基本概念。 加入我們的客戶成功網路研討會系列，與 Adobe Target 使用者一起探討最佳化基本概念。 請參閲 [Target 基礎網路研討會系列](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)。
 * **Adobe 客戶服務「營業時間」**：「營業時間」是由 Adobe 客戶服務團隊開始的一項計畫。 這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。 請參閱[Adobe 客戶服務營業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)。
 * **Adobe Summit**：參加年度數位行銷人員最重要的專業活動。

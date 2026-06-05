@@ -37,8 +37,8 @@ ht-degree: 30%
 
 有多個方式可到達[!UICONTROL 「建立條件順序」]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**[!UICONTROL >]**「建立條件順序」]**。 您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
-* 當您建立[!UICONTROL Recommendations]活動時，請在[選取條件]畫面中按一下[新建] ]**> [建立條件順序]****。**[!UICONTROL &#x200B;您將可以選擇儲存您的新條件順序以搭配其他 [!UICONTROL Recommendations] 活動使用。
+* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**&#x200B;[!UICONTROL >]&#x200B;**「建立條件順序」]**。 您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
+* 當您建立[!UICONTROL Recommendations]活動時，請在[選取條件]畫面中按一下[新建] **> [建立條件順序]**&#x200B;**。**&#x200B;您將可以選擇儲存您的新條件順序以搭配其他 [!UICONTROL Recommendations] 活動使用。
 * 編輯[!UICONTROL Recommendations]活動時，請按一下頁面上的[!UICONTROL Recommendations位置]方塊，然後選取&#x200B;**[!UICONTROL 變更條件]**。 在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**>**[!UICONTROL 「建立條件順序」]**。 您將可以選擇儲存您的新條件以搭配其他 [!UICONTROL Recommendations] 活動使用。
 
 下列步驟假設您使用第一個方法存取[!UICONTROL 建立條件序列]畫面： **[!UICONTROL Recommendations]** > **[!UICONTROL 條件]**&#x200B;資料庫畫面。

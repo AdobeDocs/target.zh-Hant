@@ -5,9 +5,12 @@ title: 什麼是類別相關性？
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 880
@@ -29,7 +32,7 @@ ht-degree: 57%
 
 根據頻率和最近一次訪客查看您的產品類別，記錄類別相似性 (如果有)。 類別相關性可用來鎖定活動的目標族群。
 
-您可以在設定檔指令碼中使用`user.categoryAffinities[]`來傳回訪客已填入的相似性陣列。 如需詳細資訊，請參閱設定檔屬性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中物件與方法下的[user.categoryAffinities。
+您可以在設定檔指令碼中使用`user.categoryAffinities[]`來傳回訪客已填入的相似性陣列。 如需詳細資訊，請參閱設定檔屬性[&#128279;](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中物件與方法下的user.categoryAffinities。
 
 >[!IMPORTANT]
 >
