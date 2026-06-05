@@ -5,33 +5,20 @@ title: 如何使用單頁應用程式視覺化體驗撰寫器(SPA VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 TQID: https://experienceleague.adobe.com/SilMhoqEp7o5GvyO2vzBt83e8EmiULUvo14Y-E-PcJA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 3904
+source-wordcount: 3948
 ht-degree: 56%
 
 ---
 
 # 單頁應用程式 (SPA) 可視化體驗撰寫器
 
-在[!DNL Adobe Target]中，[!UICONTROL Visual Experience Composer] (VEC)為行銷人員提供自助式功能，以建立活動並個人化體驗，這些可以透過Adobe Target的全域mbox在傳統多頁應用程式上以動態方式傳送。 不過，這有賴擷取頁面載入上的產品建議或後續伺服器呼叫，但會導致延遲，如下圖所示。 由於這種作法會減損使用者體驗與應用程式效能，因此在單頁應用程式 (SPA) 上成效不彰。
+在[!DNL Adobe Target]中，[!UICONTROL 視覺化體驗撰寫器] (VEC)為行銷人員提供自助式功能，以建立活動並個人化體驗，這些可以透過Adobe Target的全域mbox在傳統多頁應用程式上以動態方式傳送。 不過，這有賴擷取頁面載入上的產品建議或後續伺服器呼叫，但會導致延遲，如下圖所示。 由於這種作法會減損使用者體驗與應用程式效能，因此在單頁應用程式 (SPA) 上成效不彰。
 
 ![傳統生命週期與 SPA 生命週期的比較](/help/main/c-experiences/assets/trad-vs-spa.png)
 
@@ -43,17 +30,17 @@ ht-degree: 56%
 
 為了進一步說明檢視，讓我們瀏覽這個在React中實作的假想線上電子商務網站，並探索一些檢視範例。 按一下底下的連結，在新的瀏覽器分頁中開啓此網站。
 
-**連結： [主網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/)**
+**連結： [主網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![首頁](/help/main/c-experiences/assets/home.png)
 
 當我們導覽到主網站時，立刻就會看到宣傳復活節特賣以及網站上最新發售產品的主圖影像。 在這個案例中，檢視可定義為整個首頁。 請記下這點，因為我們將在下文的「實作 Adobe Target 檢視」一節中更深入說明。
 
-**連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)**
+**連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![產品網站](/help/main/c-experiences/assets/product-site.png)
 
-當我們對產品越來越感興趣時，決定點擊產品連結。 與首頁相似，產品網站整體可定義為一個檢視。 我們可以將這個檢視命名為「products」，就像 `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products` 中的路徑名稱一樣。
+當我們對產品越來越感興趣時，決定點擊產品連結。 與首頁相似，產品網站整體可定義為一個檢視。 我們可以將這個檢視命名為「products」，就像 `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products` 中的路徑名稱一樣。
 
 ![產品網站 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -63,7 +50,7 @@ ht-degree: 56%
 
 我們決定點擊「載入更多」按鈕來探索網站上更多的產品。 在此情況下，網站 URL 不會變更。 但此處的檢視只能呈現上圖中的第二列產品。 「檢視」名稱可以命名為「PRODUCTS-PAGE-2」。
 
-**連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/checkout)**
+**連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![結帳頁面](/help/main/c-experiences/assets/checkout.png)
 
@@ -83,7 +70,7 @@ ht-degree: 56%
 
    ![實作詳細資料對話方塊](/help/main/c-experiences/assets/imp-200.png)
 
-   透過[!UICONTROL Administration > Implementation]中的Adobe Target UI下載at.js 2.x。 也可透過[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的標籤來部署at.js 2.x。 不過，Adobe Target擴充功能目前不是最新版本，且不受支援。
+   透過[!UICONTROL 管理>實作]中的Adobe Target UI下載at.js 2.x。 也可透過[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的標籤來部署at.js 2.x。 不過，Adobe Target擴充功能目前不是最新版本，且不受支援。
 
 1. 在您的網站上實作at.js 2.x的最新函式： [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}。
 
@@ -93,13 +80,13 @@ ht-degree: 56%
 
    | 參數 | 類型 | 必要? | 驗證 | 說明 |
    | --- | --- | --- | --- | --- |
-   | viewName | 字串 | 是 | &#x200B;1. 沒有尾端空格。<br>2。 不得為空白。<br>3。 所有頁面的檢視名稱應該是唯一的。<br>4. **警告**: 檢視名稱的開頭或結尾不能為「`/`」。 這是因為客戶通常會從 URL 路徑中擷取檢視名稱。 對我們來說，&quot;home&quot;與&quot;`/home`&quot;不同。<br>5. **警告**: 同一個檢視不應使用 `{page: true}` 選項連續觸發多次。 | 傳入任何名稱作為要代表檢視的字串類型。 此檢視名稱會顯示在VEC的[!UICONTROL Modifications]面板中，供行銷人員建立動作和執行其A/B和XT活動。 |
+   | viewName | 字串 | 是 | &#x200B;1. 沒有尾端空格。<br>2。 不得為空白。<br>3。 所有頁面的檢視名稱應該是唯一的。<br>4. **警告**: 檢視名稱的開頭或結尾不能為「`/`」。 這是因為客戶通常會從 URL 路徑中擷取檢視名稱。 對我們來說，&quot;home&quot;與&quot;`/home`&quot;不同。<br>5. **警告**: 同一個檢視不應使用 `{page: true}` 選項連續觸發多次。 | 傳入任何名稱作為要代表檢視的字串類型。 此檢視名稱會顯示在VEC的[!UICONTROL 修改]面板中，供行銷人員建立動作和執行其A/B和XT活動。 |
    | options | 物件 | 無 |  |  |
    | options > page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。 當`page=true`時，會傳送通知至Edge伺服器以增加曝光計數。<br>**FALSE**：當`page=false`時，不會傳送通知以增加曝光計數。 只有當您想重新呈現頁面上含有某個產品建議的元件時，才應使用此項目。 |
 
    現在，讓我們來看看一些使用範例，瞭解如何在React中叫用假設性的電子商務SPA的`triggerView()`函式：
 
-   **連結： [主網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/)**
+   **連結： [主網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -130,7 +117,7 @@ ht-degree: 56%
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)**
+   **連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
    現在，讓我們來看看更複雜的範例。 假設我們是行銷人員，想要在使用者按一下「載入更多」按鈕後，將價格標籤顏色變更為紅色，以個人化產品的第二列。
 
@@ -159,7 +146,7 @@ ht-degree: 56%
    }
    ```
 
-   **連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/checkout)**
+   **連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![react 結帳](/help/main/c-experiences/assets/react6.png)
 
@@ -210,7 +197,7 @@ VEC 的[「修改」](/help/main/c-experiences/c-visual-experience-composer/c-ve
 
 **「修改」面板**
 
-[!UICONTROL Modifications]面板（如下所示）會擷取為特定檢視所建立的動作。 請注意，一個「檢視」的所有動作會在該「檢視」下組成群組。
+[!UICONTROL 修改]面板（如下所示）會擷取為特定檢視所建立的動作。 請注意，一個「檢視」的所有動作會在該「檢視」下組成群組。
 
 **動作**
 
@@ -224,8 +211,8 @@ VEC 的[「修改」](/help/main/c-experiences/c-visual-experience-composer/c-ve
 | --- | --- |
 | 資訊 | 顯示此動作的詳細資料。 |
 | 編輯 | 可讓您直接編輯該動作的屬性。 |
-| 原地複製 | 將動作原地複製至一或多個存在於[!UICONTROL Modifications]面板上的檢視，或原地複製至一或多個您已在VEC中瀏覽及導覽的目標檢視。 動作不一定存在於[!UICONTROL Modifications]面板中。<br>**注意**：進行復製作業後，您必須透過[!UICONTROL Browse]導覽至VEC中的檢視，才能檢視該複製動作是否為有效的作業。 如果無法將動作套用到檢視，則會出現錯誤. |
-| 移動 | 將動作移動至頁面載入事件或修改面板中已存在的任何其他檢視。<br>[!UICONTROL Page Load Event]  — 任何對應至頁面載入事件的動作，都會套用到網頁應用程式的初始頁面載入上。<br>**附註**&#x200B;執行移動作業後，您必須透過瀏覽導覽至VEC中的檢視，才能檢視該移動作業是否有效。 如果無法將動作套用到檢視，則會出現錯誤 |
+| 原地複製 | 將動作原地複製至一或多個存在於[!UICONTROL 修改]面板上的檢視，或原地複製至一或多個您已在VEC中瀏覽及導覽的目標檢視。 動作不一定存在於[!UICONTROL 修改]面板中。<br>**注意**：完成復製作業後，您必須透過[!UICONTROL 瀏覽]導覽至VEC中的檢視，才能檢視該複製動作是否為有效的作業。 如果無法將動作套用到檢視，則會出現錯誤. |
+| 移動 | 可將動作移動至頁面載入事件，或修改面板中已存在的任何其他檢視。<br>[!UICONTROL 頁面載入事件] — 任何對應至頁面載入事件的動作，都會套用到網頁應用程式的初始頁面載入上。<br>**附註**&#x200B;執行移動作業後，您必須透過瀏覽導覽至VEC中的檢視，才能檢視該移動作業是否有效。 如果無法將動作套用到檢視，則會出現錯誤 |
 | 刪除 | 刪除動作。 |
 
 >[!NOTE]
@@ -239,7 +226,7 @@ VEC 的[「修改」](/help/main/c-experiences/c-visual-experience-composer/c-ve
 1. 將「加到購物車」和「讚」按鈕變更為較淺的藍色。 由於我們變更的是標頭的元件，這應該要位於「頁面載入」中。
 1. 將「2019 年最新產品」標籤變更為「2019 年最暢銷產品」，並將文字顏色變更為紫色。
 
-若要執行這些目標，請在VEC中按一下[!UICONTROL Compose]，然後在[首頁]檢視上套用這些變更。
+若要執行這些目標，請在VEC中按一下[!UICONTROL 撰寫]，然後在[首頁]檢視上套用這些變更。
 
 ![範例 1](/help/main/c-experiences/assets/example1.png)
 
@@ -247,9 +234,9 @@ VEC 的[「修改」](/help/main/c-experiences/c-visual-experience-composer/c-ve
 
 讓我們回到前面建立PRODUCTS-PAGE-2檢視的範例。 我們的目標是要將「售價」標籤變更為「促銷價」，且標籤顏色為紅色。
 
-1. 按一下「[!UICONTROL Browse]」，然後按一下標頭的「[!UICONTROL Products]」連結。
-1. 按一下[!UICONTROL Load More]以取得產品的第二列。
-1. 按一下 [!UICONTROL Compose]。
+1. 按一下[!UICONTROL 瀏覽]，然後按一下標頭的[!UICONTROL 產品]連結。
+1. 按一下[!UICONTROL 載入更多]以取得產品的第二列。
+1. 按一下[!UICONTROL 撰寫]。
 1. 套用動作以將文字標籤變更為「促銷價」，且顏色會變成紅色。
 
 ![範例 2](/help/main/c-experiences/assets/example2.png)
@@ -258,12 +245,12 @@ VEC 的[「修改」](/help/main/c-experiences/c-visual-experience-composer/c-ve
 
 最後，就像之前說過的，您可以在更精細的層級定義「檢視」。 「檢視」可以是選項按鈕的一個狀態，甚至作為選項。 我們之前是以「CHECKOUT-EXPRESS」和「CHECKOUT-NORMAL」來建立「檢視」。 我們的目標是要將「CHECKOUT-EXPRESS」檢視的按鈕顏色變更為紅色。
 
-1. 按一下 [!UICONTROL Browse]。
+1. 按一下[!UICONTROL 瀏覽]。
 1. 將一些產品加到購物車。
 1. 按一下右上角的購物車圖示。
 1. 按一下「訂單結帳」。
 1. 按一下「快速運送」選項按鈕。
-1. 按一下 [!UICONTROL Compose]。
+1. 按一下[!UICONTROL 撰寫]。
 1. 將「付款」按鈕變更為「完成訂單」字樣的按鈕，並將顏色變更為紅色。
 
 ![範例 3](/help/main/c-experiences/assets/example3.png)
@@ -364,7 +351,7 @@ adobe.target.getOffers({
 
 **如果我們安裝 at.js 2.x 並在網站上實作了 `triggerView()`，在 SPA VEC 不支援自動鎖定目標的情況下，該如何執行自動鎖定目標 A/B 活動?**
 
-如果您希望使用自動鎖定目標 A/B 活動，可以移動所有的動作，讓它們在 VEC 中的「頁面載入事件」上執行。 將游標停留在每個動作上，然後按一下[!UICONTROL Move to Page Load Event]按鈕。 完成後，您可以在下一步中為流量分配方法選取「自動鎖定目標」。
+如果您希望使用自動鎖定目標 A/B 活動，可以移動所有的動作，讓它們在 VEC 中的「頁面載入事件」上執行。 暫留在每個動作上，然後按一下[!UICONTROL 移動到頁面載入事件]按鈕。 完成後，您可以在下一步中為流量分配方法選取「自動鎖定目標」。
 
 ## 支援的整合
 
@@ -372,7 +359,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant){target=_blank} | 是 |
+| [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 是 |
 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 支援的功能 {#supported-features}
@@ -389,15 +376,15 @@ adobe.target.getOffers({
 
 ## SPA VEC的頁面傳送設定 {#page-delivery-settings}
 
-[!UICONTROL Page Delivery]設定可讓您設定規則，判斷受眾是否符合Target活動且可執行。
+[!UICONTROL 頁面傳送]設定可讓您設定規則，判斷受眾是否符合Target活動且可執行。
 
-若要從VEC的三步驟引導式活動建立工作流程中存取[!UICONTROL Page Delivery]選項，請從&#x200B;**[!UICONTROL Experiences]**&#x200B;步驟中按一下「**[!UICONTROL Configure]**」（齒輪圖示） >「**[!UICONTROL Page Delivery]**」。
+若要從VEC的三步驟引導式活動建立工作流程記憶體取[!UICONTROL 頁面傳送]選項，請從&#x200B;**[!UICONTROL 體驗]**&#x200B;步驟中按一下&#x200B;**[!UICONTROL 設定]** （齒輪圖示） > **[!UICONTROL 頁面傳送]**。
 
 ![頁面傳送選項對話方塊](/help/main/c-experiences/assets/page-delivery.png)
 
-例如，如上方顯示的[!UICONTROL Page Delivery]設定所定義，Target活動會在訪客直接在`https://www.adobe.com` *或*&#x200B;上登陸任何包含`https://www.adobe.com/tw/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
+例如，如上方顯示的[!UICONTROL 頁面傳送]設定所定義，Target活動會在訪客直接在`https://www.adobe.com` *或*&#x200B;上登陸任何包含`https://www.adobe.com/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
 
-不過，由於SPA的運作方式不同，[!UICONTROL Page Delivery]設定的方式必須如SPA VEC活動中所定義，可將所有動作套用至檢視。
+不過，由於SPA的運作方式不同，[!UICONTROL 頁面傳送]的設定方式必須如SPA VEC活動中所定義，可將所有動作套用至檢視。
 
 ### 使用案例範例
 
@@ -407,10 +394,10 @@ adobe.target.getOffers({
 
 以下是所做的變更:
 
-* 變更位於下列URL下的首頁檢視的背景顏色： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/)。
-* 變更位於下列URL下的產品檢視中的按鈕顏色： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)。
+* 變更位於下列URL下的首頁檢視的背景顏色： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)。
+* 變更位於下列URL下的產品檢視中的按鈕顏色： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)。
 
-請思考上述範例，如果我們將[!UICONTROL Page Delivery]設定設為僅包含： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/) （在具有at.js 2.*x*&#x200B;的SPA中），會發生什麼事？
+請思考上述範例，如果我們將[!UICONTROL 頁面傳送]設定設為僅包含： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) （在具有at.js 2.*x*&#x200B;的SPA中），會發生什麼事？
 
 ![頁面傳送對話方塊](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -420,22 +407,22 @@ adobe.target.getOffers({
 
 **第 1 個使用者旅程**
 
-* 使用者直接導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/)。
-* at.js 2.*x*&#x200B;會查詢Edge，以檢視下列URL是否有任何需要執行的活動： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/)。
+* 使用者直接導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)。
+* at.js 2.*x*&#x200B;會查詢Edge，以檢視下列URL是否有任何需要執行的活動： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)。
 * 在步驟 6 中，Target Edge 會傳回首頁和產品檢視的動作，以便系統快取瀏覽器內的這些動作。
 
-**結果**: 使用者會在首頁檢視中看見綠色的背景顏色。 當使用者接著導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)時，會看見按鈕的藍色背景顏色，因為系統已快取瀏覽器中的產品檢視下的動作。
+**結果**: 使用者會在首頁檢視中看見綠色的背景顏色。 當使用者接著導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)時，會看見按鈕的藍色背景顏色，因為系統已快取瀏覽器中的產品檢視下的動作。
 
-附註：導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)的使用者並未觸發頁面載入。
+附註：導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)的使用者並未觸發頁面載入。
 
 **第 2 個使用者旅程**
 
-* 使用者直接導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)。
-* at.js 2.*x*&#x200B;會查詢Edge，以檢視下列URL是否有任何需要執行的活動： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)。
-* 沒有符合[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)的活動。
+* 使用者直接導覽至[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)。
+* at.js 2.*x*&#x200B;會查詢Edge，以檢視下列URL是否有任何需要執行的活動： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)。
+* 沒有符合[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)的活動。
 * 因為沒有任何符合的活動，所以沒有快取動作和檢視可供at.js 2.*x*&#x200B;從這裡觸發。
 
-**結果**：即使您已為產品檢視定義`triggerView()`，並透過SPA VEC對產品檢視執行動作，您也不會看到預期的動作，因為您並未建立在頁面傳送設定中包含[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=zh-Hant#/products)的規則。
+**結果**：即使您已為產品檢視定義`triggerView()`，並透過SPA VEC對產品檢視執行動作，您也不會看到預期的動作，因為您並未建立在頁面傳送設定中包含[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)的規則。
 
 ### 最佳做法
 
@@ -447,15 +434,15 @@ adobe.target.getOffers({
 
 這樣可以確保無論訪客在 SPA 上的哪個位置登陸以及導覽至首頁或頁面檢視，都會看見套用的動作。
 
-現在，每當您將動作新增至SPA VEC中的檢視，就會顯示下列快顯訊息，提醒您思考[!UICONTROL Page Delivery]規則。
+現在，每當您將動作新增至SPA VEC中的檢視，就會顯示下列快顯訊息，提醒您思考[!UICONTROL 頁面傳送]規則。
 
 ![頁面傳送設定訊息](/help/main/c-experiences/assets/pop-up-message.png)
 
-當您為建立的每個新活動將第一個動作新增至檢視時，就會顯示此訊息。 此訊息可協助確保組織中的所有人都瞭解如何正確套用這些[!UICONTROL Page Delivery]規則。
+當您為建立的每個新活動將第一個動作新增至檢視時，就會顯示此訊息。 此訊息可協助確保組織中的所有人都瞭解如何正確套用這些[!UICONTROL 頁面傳送]規則。
 
 ## 訓練影片: 在 Adobe Target 中使用適用於 SPA 的 VEC
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-如需詳細資訊，請參閱[在Adobe Target中使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC) &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
+如需詳細資訊，請參閱[在Adobe Target中使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC) ](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
 

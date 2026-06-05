@@ -5,27 +5,10 @@ title: 如何使用 Target？
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2:
-  - id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2
-  - id: b6f5758b-84f7-4943-8b05-1297a046943c
-  - id: c2923fce-066f-4e68-bc28-ac56b57ccb5c
-  - id: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817
-  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
-  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
-  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
-  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
-  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2id: b6f5758b-84f7-4943-8b05-1297a046943cid: c2923fce-066f-4e68-bc28-ac56b57ccb5cid: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817id: db15a02f-03cd-46fe-a53e-02064cdeadfaid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1538
@@ -121,7 +104,7 @@ Target 包含數種活動類型。 下表提供每種活動類型的概觀，以
 |--- |--- |
 | 可重複使用的對象 | 可重複使用的客群可供任何活動選取。 如果變更其中一個對象，則所有用到此對象的活動中皆會變更此對象。 |
 | 自訂群體 | 自訂區段 (也稱為行銷活動專用區段) 專供 Target Classic 中的行銷活動使用。 它們是某個促銷活動的一部分，不可在其他促銷活動中重複使用。 |
-| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用客群。 參閲[客群](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)以取得範例。 |
+| 共用對象 | [!DNL Adobe Experience Cloud] 解決方案之間可以共用客群。 參閲[客群](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)以取得範例。 |
 
 如需瞭解訪客輪廓如何追蹤網站訪客的相關資訊，請參閱[訪客輪廓](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 

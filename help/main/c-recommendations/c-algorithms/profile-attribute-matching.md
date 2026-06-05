@@ -2,17 +2,15 @@
 keywords: 包含規則；包含條件；建議；促銷活動；動態篩選；動態；設定檔屬性比對
 description: 瞭解如何比較專案（實體）與使用者設定檔中的值，以動態篩選 [!DNL Target Recommendations] 。
 title: 如何在Recommendations活動中依設定檔屬性比對來篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 TQID: https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: 495
 ht-degree: 0%
 
 ---
@@ -21,24 +19,24 @@ ht-degree: 0%
 
 比較專案（實體）與使用者設定檔中的值，以在[!DNL Adobe Target Recommendations]中動態篩選。
 
-當您想要顯示符合儲存在訪客設定檔中的值（例如大小或最喜愛的品牌）的建議，請使用[!UICONTROL Profile Attribute Matching]。
+當您想要顯示符合儲存在訪客設定檔中的值（例如大小或最喜愛的品牌）的建議，請使用[!UICONTROL 設定檔屬性比對]。
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[程式相似，使用案例和範例也類似。
 
-下列案例顯示如何使用[!UICONTROL Profile Attribute Matching]：
+下列案例顯示如何使用[!UICONTROL 設定檔屬性比對]：
 
 * 一家銷售眼鏡的公司會將訪客最喜愛的鏡框顏色儲存為「核桃」。 對於該特定訪客，建議設定為僅傳回顏色符合「核桃」的眼鏡框。
 * 訪客在瀏覽您公司的網站時，可以為其服裝尺寸（例如，小、Medium或大）定義設定檔引數。 可設定建議以符合該設定檔引數，並只傳回使用者偏好服裝尺寸特有的產品。
 
 ## 設定檔屬性比對範例 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching]可讓您僅建議符合訪客設定檔中某個屬性的專案，如下列範例所示。
+[!UICONTROL 設定檔屬性比對]可讓您僅建議符合訪客設定檔中某個屬性的專案，如下列範例所示。
 
 ### 從使用者最喜愛的品牌推薦專案
 
-例如，您可以使用[!UICONTROL Profile Attribute Matching]選項來建立規則，而只在品牌等於`profile.favoritebrand`中儲存的值或文字時才建議專案。 透過此規則，如果訪客在檢視特定品牌的慢跑短褲，則只會顯示符合使用者最喜愛品牌（訪客設定檔中儲存在`profile.favoritebrand`中的值）的建議。
+例如，您可以使用[!UICONTROL 設定檔屬性比對]選項來建立規則，而只在品牌等於`profile.favoritebrand`中儲存的值或文字時才建議專案。 透過此規則，如果訪客在檢視特定品牌的慢跑短褲，則只會顯示符合使用者最喜愛品牌（訪客設定檔中儲存在`profile.favoritebrand`中的值）的建議。
 
 ![最喜愛的品牌](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 

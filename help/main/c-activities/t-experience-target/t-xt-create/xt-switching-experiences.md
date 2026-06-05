@@ -1,26 +1,23 @@
 ---
 keywords: 優先順序; 體驗建立; 體驗; 客群; 切換體驗; 可視化體驗撰寫器
-description: 瞭解訪客如何隨著設定檔的演化，在 [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT)活動中的體驗之間切換。
-title: 訪客可以在[!UICONTROL Experience Targeting]活動中切換體驗嗎？
+description: 瞭解訪客如何隨著設定檔的演化，在 [!DNL Adobe Target] [!UICONTROL 體驗鎖定目標] (XT)活動中的體驗之間切換。
+title: 訪客可以在[!UICONTROL 體驗鎖定目標]活動中切換體驗嗎？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 41%
+source-wordcount: 741
+ht-degree: 40%
 
 ---
 
-# 在[!UICONTROL Experience Targeting]中切換體驗
+# 在[!UICONTROL 體驗鎖定目標]中切換體驗
 
-透過[!UICONTROL Experience Targeting]，您可以控制訪客在其設定檔演化時看到的體驗。
+透過[!UICONTROL 體驗鎖定目標]，您可以控制訪客在其設定檔演化時看到的體驗。
 
 下列清單呈現的只是訪客設定檔可能演變的少數案例，您可能會想要根據這些變更呈現不同的內容：
 
@@ -31,10 +28,10 @@ ht-degree: 41%
 | 類別相關性 | [!DNL Target]中的[類別相關性](/help/main/c-target/c-visitor-profile/category-affinity.md)功能會自動擷取訪客檢視的類別，然後針對鎖定目標目的計算該類別的訪客相關性。 例如，在您網站上檢視數篇關於特定主題的文章的訪客，會看到與該主題相關的內容。 |
 | 星期 | 隨著週末到來，您可能要對訪客顯示關於電影、餐飲或其他娛樂形式的內容。 |
 
-若要在[!DNL Target]中使用這些功能，在處理[!UICONTROL Experience Targeting]活動時，請務必瞭解下列資訊：
+若要在[!DNL Target]中使用這些功能，在處理[!UICONTROL 體驗鎖定目標]活動時，請務必瞭解下列資訊：
 
 * **優先順序是由體驗的順序所控制，由上到下。** 如果訪客符合兩個以上對象的資格，則該訪客會從較高優先順序的體驗接收內容。
-* **如果訪客開始符合較高優先順序體驗對象的資格，則訪客會在[!UICONTROL Experience Targeting]活動中的體驗之間切換。**
+* **如果訪客開始符合較高優先順序體驗對象的資格，則訪客會在[!UICONTROL 體驗鎖定目標]活動中的體驗之間切換。**
 
   例如，在下列活動設定中，某位訪客從美國存取了您的網站，然後周遊至德國並第二次造訪您的網站。 在第一次造訪期間，此訪客符合體驗 A (美國訪客) 的資格。 從德國檢視您的網站之後，此訪客切換到體驗 B (德國訪客)。
 
@@ -47,7 +44,7 @@ ht-degree: 41%
 
   ![優先順序美國 > 德國](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
-* **鎖定在「所有訪客」的體驗，可用作[!UICONTROL Experience Targeting]活動中的最後一個體驗，以「捕捉」未符合任何其他體驗資格的訪客。 如果鎖定在「所有訪客」的體驗不是順序中的最後一個，仍會評估列出低於此體驗的其他鎖定目標體驗。**
+* **鎖定在「所有訪客」的體驗，可用作[!UICONTROL 體驗鎖定目標]活動中的最後一個體驗，以「捕捉」未符合任何其他體驗資格的訪客。 如果鎖定在「所有訪客」的體驗不是順序中的最後一個，仍會評估列出低於此體驗的其他鎖定目標體驗。**
 
   例如，在下列活動設定中，某位訪客從美國存取了您的網站，然後周遊至德國並第二次造訪您的網站。 在第一次造訪期間，此訪客符合體驗 A (美國訪客) 的資格。 從德國檢視您的網站之後，此訪客仍會留在體驗A （美國訪客）。
 
@@ -57,11 +54,11 @@ ht-degree: 41%
 
   ![優先順序美國 > 非美國](/help/main/c-activities/t-experience-target/t-xt-create/assets/not-us.png)
 
-* **如果只有單一體驗[!UICONTROL Experience Targeting]活動，即使訪客不再符合將其放在該體驗中對象的資格，訪客仍會保留在該體驗中。**
+* **透過單一體驗[!UICONTROL 體驗鎖定目標]活動，即使訪客不再符合將其放在該體驗中對象的資格，訪客仍會留在體驗中。**
 
   如果這不是您預期的行為，您可以建立另一個體驗，鎖定在相反的客群 (例如，與「美國」相對的「非美國」)。
 
-  作為另一個選項，您可以建立[!UICONTROL A/B Test]活動，以100%的流量分配鎖定在您需要的對象，如下所示：
+  作為另一個選項，您可以建立[!UICONTROL A/B測試]活動，以100%流量分配鎖定在您需要的對象，如下所示：
 
   ![優先順序一體驗](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-refresh.png)
 

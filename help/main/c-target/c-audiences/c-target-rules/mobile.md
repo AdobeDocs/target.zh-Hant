@@ -5,20 +5,14 @@ title: 我可以根據行動裝置選項鎖定訪客嗎？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 38%
+source-wordcount: 707
+ht-degree: 39%
 
 ---
 
@@ -26,7 +20,7 @@ ht-degree: 38%
 
 在[!DNL Adobe Target]中建立受眾，根據行動裝置、裝置型別、裝置廠商、畫面維度等引數來鎖定行動裝置。
 
-例如，您可能想要對使用電話造訪您頁面的使用者顯示與使用電腦造訪時顯示的不同內容。 在這種情況下，您可以選取[!UICONTROL Mobile]對象，然後選取&#x200B;**[!UICONTROL Is Mobile Phone]**&#x200B;選項。 接著，您就可以新增您認為重要的任何特定詳細資料，例如手機型別、熒幕大小（畫素）等。
+例如，您可能想要對使用電話造訪您頁面的使用者顯示與使用電腦造訪時顯示的不同內容。 在這種情況下，您可以選取[!UICONTROL 行動裝置]對象，然後選取&#x200B;**[!UICONTROL 是行動電話]**&#x200B;選項。 接著，您就可以新增您認為重要的任何特定詳細資料，例如手機型別、熒幕大小（畫素）等。
 
 行動定位是由 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 所提供，這是一項 DotMobi 服務。 DeviceAtlas 是全面性的行動裝置資料庫，其中包含從眾多來源 (包括製造商及網路營運商) 彙整而成的資料。 這些資料會經過確認、交叉參考及驗證，以建立準確的大型行動裝置資料庫。
 
@@ -50,10 +44,10 @@ ht-degree: 38%
 
 使用自訂整合 (不使用 at.js 或 Mobile SDK) 的客戶可自行收集這些參數，然後以 mbox 參數傳遞。
 
-1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
 1. 為對象命名並新增選擇性說明。
-1. 將&#x200B;**[!UICONTROL Mobile]**&#x200B;拖放至對象產生器窗格。
-1. 按一下&#x200B;**[!UICONTROL Select]**，然後選取下列其中一個選項：
+1. 將&#x200B;**[!UICONTROL 行動裝置]**&#x200B;拖放至對象產生器窗格。
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * 裝置行銷名稱
    * 裝置型號
@@ -70,7 +64,7 @@ ht-degree: 38%
    >您可以依行動裝置電信業者來鎖定目標，請使用[地理設定](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。
 
 1. （選用）為對象設定其他規則。
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 下圖顯示受眾鎖定目標訪客，這些訪客使用Google所製造的行動裝置。
 
@@ -82,7 +76,7 @@ ht-degree: 38%
 
 ### 鎖定執行iOS 12.2或更新版本的裝置
 
-由於iOS 12.2中推出的新變更，若使用指定iPhone模型的[!UICONTROL Device Marketing Name]和[!UICONTROL Device Model]所定義的規則來建立對象，則會受到影響。 [!DNL Target]無法再鎖定已安裝iOS 12.2 （或更新版本）之iPhone的使用者。 不過，如果這些使用者沒有iOS 12.2 （或更新版本），則iPhone模型鎖定目標功能可繼續正常運作。
+由於iOS 12.2中推出的新變更，若使用由[!UICONTROL 裝置行銷名稱]和指定iPhone模型的[!UICONTROL 裝置模型]定義的規則來建立對象，則會受到影響。 [!DNL Target]無法再鎖定已安裝iOS 12.2 （或更新版本）之iPhone的使用者。 不過，如果這些使用者沒有iOS 12.2 （或更新版本），則iPhone模型鎖定目標功能可繼續正常運作。
 
 iOS 12.2 （或更新版本）更新不會影響下列模型的識別，因為這些模型不支援升級至iOS 12.2： iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina顯示器、iPad Retina （第4代）、iPod Touch 4和iPod Touch 5。
 

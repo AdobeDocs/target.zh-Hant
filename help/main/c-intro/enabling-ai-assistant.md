@@ -1,19 +1,15 @@
 ---
 keywords: ai助理；人工智慧助理
-description: 瞭解如何在[!DNL &#x200B; Adobe Target]中啟用 [!DNL AI Assistant] 。
+description: 瞭解如何在[!DNL  Adobe Target]中啟用 [!DNL AI Assistant] 。
 title: 如何啟用 [!DNL Target]中的 [!DNL AI Assistant] ？
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
 TQID: https://experienceleague.adobe.com/CJl-OFlDJhs-G99Cqy8i0xrHolV8GRQQcuXoKvXYNY4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: 234
 ht-degree: 0%
 
 ---
@@ -26,28 +22,28 @@ ht-degree: 0%
 
 您的組織必須首先同意其他法律條款，才能存取[!DNL AI Assistant]。 如需這些條款的指引，請聯絡您的Adobe客戶團隊。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
+如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
 
-## 啟用[!UICONTROL AI Assistant]的使用者許可權
+## 啟用[!UICONTROL AI小幫手]的使用者許可權
 
-若要在[!UICONTROL Target]中使用[!UICONTROL AI Assistant]功能，必須明確啟用個別使用者許可權。
+若要在[!UICONTROL Target]中使用[!UICONTROL AI小幫手]功能，必須明確啟用個別使用者許可權。
 
 {{permissions-update}}
 
-1. 導覽至[!DNL Target]中的&#x200B;**[!UICONTROL Administration]**&#x200B;索引標籤。
-1. 在左側功能表中，選取&#x200B;**[!UICONTROL Users]**。
+1. 導覽至[!DNL Target]中的&#x200B;**[!UICONTROL 管理]**&#x200B;標籤。
+1. 在左側功能表中，選取&#x200B;**[!UICONTROL 使用者]**。
 1. 從清單中找出您要管理的使用者，或使用搜尋列來尋找他們。
-1. 將游標暫留在您要授與[!UICONTROL Target AI Assistant]存取權之人員的&#x200B;**[!UICONTROL AI Permissions]**&#x200B;欄上。
+1. 將游標移至您要授與存取權給[!UICONTROL Target AI小幫手]之人員的&#x200B;**[!UICONTROL AI許可權]**&#x200B;欄。
 
    許可權快顯視窗隨即顯示。
 
    ![AI助理設定](/help/main/c-intro/assets/ai-pop-up2.png)
 
-1. 使用切換來啟用或停用該使用者的&#x200B;**[!UICONTROL Target AI Assistant]**&#x200B;許可權。
+1. 使用切換為該使用者啟用或停用&#x200B;**[!UICONTROL Target AI小幫手]**&#x200B;許可權。
 
    ![AI助理許可權快顯功能表](/help/main/c-intro/assets/ai-pop-up.png)
 
-   啟用後，使用者便可以存取[!DNL Target]內的[!UICONTROL AI Assistant]。 只有啟用此許可權的使用者才能在其[!DNL Target]介面中看到[!UICONTROL AI Assistant]功能。 此許可權可確保對AI支援工具的存取受到控制，並與您組織的政策一致。
+   啟用後，使用者就可以存取[!DNL Target]內的[!UICONTROL AI小幫手]。 只有啟用此許可權的使用者才能在其[!DNL Target]介面中看到[!UICONTROL AI小幫手]功能。 此許可權可確保對AI支援工具的存取受到控制，並與您組織的政策一致。
 
 ## 培訓影片
 
@@ -55,4 +51,4 @@ ht-degree: 0%
 
 瞭解如何在[!DNL Adobe Experience Platform]內設定[!DNL AI Assistant]的存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475930/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)

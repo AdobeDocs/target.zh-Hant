@@ -1,29 +1,23 @@
 ---
 keywords: 鎖定目標; EEC; 可視化體驗撰寫器; 疑難排解增強體驗撰寫器; 疑難排解
-description: 瞭解如何疑難排解 [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC)在某些情況下有時發生的問題。
-title: 如何疑難排解[!UICONTROL Enhanced Experience Composer]的相關問題？
+description: 瞭解如何疑難排解 [!DNL Adobe Target] [!UICONTROL 增強體驗撰寫器] (EEC)在某些情況下有時會發生的問題。
+title: 如何疑難排解[!UICONTROL 增強體驗撰寫器]的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 28%
+source-wordcount: 509
+ht-degree: 29%
 
 ---
 
-# 疑難排解[!UICONTROL Enhanced Experience Composer]的相關問題
+# 疑難排解[!UICONTROL 增強體驗撰寫器]的相關問題
 
-在某些情況下，[!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC)有時會發生顯示問題。
+顯示在某些情況下，有時候會在[!DNL Adobe Target] [!UICONTROL 增強體驗撰寫器] (EEC)中發生問題。
 
 ## EEC 不會載入無法在公用 IP 上存取的內部 QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -143,29 +137,29 @@ ht-degree: 28%
 
 下列是您可能會看見此錯誤訊息的原因和修正此情況的補救方式:
 
-* **問題：**&#x200B;您的網站網域(ISP)封鎖[!UICONTROL Enhanced Experience Composer]。
+* **問題：**&#x200B;您的網站網域(ISP)封鎖[!UICONTROL 增強體驗撰寫器]。
 
   **補救措施：**&#x200B;將上述IP位址列入允許清單。
 
-* **問題：** IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。
+* **問題：** IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
-  **解決方案：**&#x200B;請參閱下列問題（[!UICONTROL Enhanced Visual Experience Composer]將不會在我的網站上使用TLS 1.2的安全頁面上載入）。
+  **解決方案：**&#x200B;請參閱下列問題（[!UICONTROL 增強視覺化體驗撰寫器]不會在我使用TLS 1.2的網站上安全頁面中載入）。
 
 +++
 
 ## EEC 不會在我使用 TLS 1.0 的網站上安全頁面中載入。 (僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++詳細資料
-您可能會看見上述「我的網站的安全頁面不會載入[!UICONTROL Enhanced Visual Experience Composer]」中所述的錯誤訊息。 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。
+您可能會看到上述「增強視覺化體驗撰寫器]不會在我的網站上安全頁面中載入」中所述的錯誤訊息。 [!UICONTROL 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
 若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
 
 1. 在 Firefox 中開啟受影響的網站。
-1. 按一下瀏覽器位址列上的&#x200B;**[!UICONTROL Show Site Information]**&#x200B;圖示。
+1. 在瀏覽器的位址列按一下&#x200B;**[!UICONTROL 「顯示網站資訊」]**&#x200B;圖示。
 
    ![firefox_more_info影像](assets/firefox_more_info.png)
 
-1. 按一下&#x200B;**[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**。
+1. 按一下&#x200B;**[!UICONTROL 「顯示連線詳細資料」]**>**[!UICONTROL 「詳細資訊」]**。
 
    ![firefox_more_info_2圖片](assets/firefox_more_info_2.png)
 
@@ -173,7 +167,7 @@ ht-degree: 28%
 
    ![firefox_more_info_3圖片](assets/firefox_more_info_3.png)
 
-1. 如果您發現您的網站顯示TLS 1.0，請參閱[TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}，以取得Target的TLS支援原則相關資訊。 若要補救目前狀況（2018年9月12日前有效）{target=_blank}，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得您的TLS版本和網域的組態。
+1. 如果您發現您的網站顯示TLS 1.0，請參閱[TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}，以取得Target的TLS支援原則相關資訊。 若要補救目前狀況（2018年9月12日前有效）{target=_blank}，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得您的TLS版本和網域的組態。
 
 +++
 

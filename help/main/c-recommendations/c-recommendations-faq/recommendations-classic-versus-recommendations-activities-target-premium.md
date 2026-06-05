@@ -2,24 +2,17 @@
 keywords: 推薦;推薦演算法;推薦活動;推薦經典版
 description: 檢閱資訊，以協助您了解舊推薦經典版與推薦activities in [!DNL Target] Premium 之間的差異。
 title: 推薦經典版與 [!DNL Target] Premium 中的推薦之間有何差異？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 86%
+source-wordcount: 692
+ht-degree: 83%
 
 ---
 
@@ -41,16 +34,16 @@ ht-degree: 86%
 
 ## 推薦作為產品建議
 
-您可以在[!UICONTROL A/B Test] （包括[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]）與[!UICONTROL Experience Targeting] (XT)活動中包含建議。
+您可以在[!UICONTROL A/B測試] （包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]）與[!UICONTROL 體驗鎖定目標] (XT)活動中包含建議。
 
 這項功能開啟了全新功能，例如:
 
 * 在同一個活動內測試及鎖定建議與非建議內容。
 * 輕鬆試驗建議在頁面中的放置方法，包括多個建議的排列順序。
-* 使用[!UICONTROL Auto-Allocate]自動將流量推送到績效最好的建議體驗。
-* 使用[!UICONTROL Auto-Target]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
+* 使用[!UICONTROL 自動分配]自動將流量推送到績效最佳的建議體驗。
+* 使用[!UICONTROL 自動鎖定目標]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-若要開始，請使用[!UICONTROL Visual Experience Composer]建立[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動，並使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]動作將建議新增至體驗。
+若要開始，請使用[!UICONTROL 視覺化體驗撰寫器]建立[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標]活動，並使用[!UICONTROL 插入在前]、[!UICONTROL 插入在後]或[!UICONTROL 取代為]動作來將建議新增至體驗。
 
 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 

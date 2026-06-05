@@ -2,33 +2,19 @@
 keywords: 新增使用者; 專案; 使用者群組; 屬性; 工作區; 管理屬性; 屬性; at_property; 角色; 權限
 description: 瞭解如何新增使用者至Adobe Target；建立工作區、使用者群組和屬性；更新您的實作；以及指定角色和許可權。
 title: 如何設定企業許可權？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: cd7b6938-5837-4ee0-9790-5840997133d9
-  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
-  - id: faed1c89-faf7-4df1-910d-a88263e03b15
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1509
 ht-degree: 53%
 
 ---
@@ -54,7 +40,7 @@ ht-degree: 53%
 
 對於在[!DNL Adobe Admin Console for Enterprise]中執行的那些工作，請遵循下列步驟來存取主控台：
 
-1. 在Adobe Target中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**。
+1. 在Adobe Target中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 屬性]** > **[!UICONTROL 指派屬性給工作區]**。
 
    或
 
@@ -65,10 +51,10 @@ ht-degree: 53%
 
 ## 步驟 1. 新增使用者（可選） {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-當您開始使用新的[!UICONTROL Properties]功能時，必須在[!DNL Adobe Admin Console for Enterprise]中執行所有使用者管理。 不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
+當您開始使用新的[!UICONTROL 屬性]功能時，必須在[!DNL Adobe Admin Console for Enterprise]中執行所有使用者管理。 不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
 
-1. [在Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)中，按一下頁面頂端的&#x200B;**[!UICONTROL Users]**&#x200B;索引標籤> **[!UICONTROL Add Users]**&#x200B;以建立新使用者或編輯現有的使用者。
-1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/tw/enterprise/help/users.html)中的指示進行。
+1. [在Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)中，按一下頁面頂端的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤> **[!UICONTROL 新增使用者]**&#x200B;以建立新使用者或編輯現有的使用者。
+1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示進行。
 
 ## 步驟 2. 建立工作區（產品設定檔） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -80,7 +66,7 @@ ht-degree: 53%
 
 使用者可以屬於多個工作區並且甚至可具有每個工作區內不同的角色。
 
-1. 在[!DNL Admin Console]中，按一下&#x200B;**[!UICONTROL Products]**，然後選取所需產品的名稱。
+1. 在[!DNL Admin Console]中，按一下&#x200B;**[!UICONTROL 產品]**，然後選取所要產品的名稱。
 
    ![工作區](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -97,16 +83,16 @@ ht-degree: 53%
 
    您可以使用這些工作區來依地區、事業單位、網站區段或透過您選擇的任何其他方法來對不同團隊劃分存取權。 使用者可以屬於多個工作區並且可具有每個工作區內不同的角色。
 
-1. 遵循&#x200B;*《企業使用者指南》*&#x200B;的[建立和管理產品組態](https://helpx.adobe.com/tw/enterprise/help/manage-products-and-configurations.html)中的指示。
+1. 遵循&#x200B;*《企業使用者指南》*&#x200B;的[建立和管理產品組態](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的指示。
 
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於設定工作區的詳細資訊。
 
 ### 取得工作區ID {#workspace-id}
 
-您必須傳遞 Workspace ID，才能在 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank} 中運用企業權限。
+您必須傳遞 Workspace ID，才能在 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} 中運用企業權限。
 
-1. 在[Adobe Admin Console](https://adminconsole.adobe.com)中，按一下[!UICONTROL Products]標籤，然後按一下左側功能表中的產品以顯示PLC(workspace)清單。
+1. 在[Adobe Admin Console](https://adminconsole.adobe.com)中，按一下[!UICONTROL 產品]標籤，然後按一下左側功能表中的產品以顯示PLC（工作區）清單。
 1. 按一下想要的 PLC(workspace)，然後在 URL 中找出「輪廓」ID，如下所示。
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -115,8 +101,8 @@ ht-degree: 53%
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 Adobe 產品和工作區指派權限。 跨不同的 Adobe 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
-1. 在Admin Console中，按一下頁面頂端的&#x200B;**[!UICONTROL Users]**&#x200B;索引標籤> **[!UICONTROL User Groups]**&#x200B;以建立新使用者群組或編輯現有的群組。
-1. 遵循[《企業使用者指南》](https://helpx.adobe.com/tw/enterprise/help/manage-products-and-configurations.html)的&#x200B;*管理產品設定的使用者和群組*&#x200B;中的指示。
+1. 在Admin Console中，按一下頁面頂端的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤> **[!UICONTROL 使用者群組]**&#x200B;以建立新使用者群組或編輯現有的群組。
+1. 遵循[《企業使用者指南》](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)的&#x200B;*管理產品設定的使用者和群組*&#x200B;中的指示。
 
 ## 步驟 4. 建立屬性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -126,7 +112,7 @@ ht-degree: 53%
 
 **提示**: 請觀看下方的訓練影片，瞭解關於如何建立屬性的詳細資訊。
 
-1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;以顯示[!UICONTROL Properties]清單。
+1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 屬性]**&#x200B;以顯示[!UICONTROL 屬性]清單。
 1. 按一下&#x200B;**「建立屬性」**。
 
    填寫欄位:
@@ -135,8 +121,8 @@ ht-degree: 53%
    * **說明:** 指定此屬性的可選說明。
    * **管道:** 選取屬性需要的管道: Web、行動應用程式、電子郵件或其他/API (例如電視盒或 PlayStation 主控台)。
 
-1. 按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將代碼複製到剪貼簿，在[中執行步驟時將使用該代碼5：更新您的實作以包括at_property引數](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
-1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL 複製]**」將代碼複製到剪貼簿，在[5中執行步驟時將使用該代碼：更新您的實作以包括at_property引數](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
+1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
 >請觀看下方的訓練影片，以瞭解關於建立屬性的詳細資訊。
@@ -151,9 +137,9 @@ ht-degree: 53%
 
    或
 
-   在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;以顯示[!UICONTROL Properties]清單。
+   在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 屬性]**&#x200B;以顯示[!UICONTROL 屬性]清單。
 
-   1. 將滑鼠指標停留在要顯示的所需屬性的[!UICONTROL Last Updated]欄上，然後按一下[!UICONTROL Code]圖示（ ![程式碼圖示](/help/main/assets/icons/Code.svg) ）。
+   1. 將滑鼠指標停留在要顯示的所需屬性的[!UICONTROL 上次更新時間]欄上，然後按一下[!UICONTROL 代碼]圖示（![代碼圖示](/help/main/assets/icons/Code.svg)）。
 
       ![屬性暫留程式碼](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -165,7 +151,7 @@ ht-degree: 53%
 
    * 透過[!DNL Adobe Experience Platform]內標籤中的「自訂引數」**：**
 
-     如需詳細資訊，請參閱&#x200B;*標籤總覽*&#x200B;檔案中的[新增Mbox引數](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=zh-Hant#add-mbox-params)。
+     如需詳細資訊，請參閱&#x200B;*標籤總覽*&#x200B;檔案中的[新增Mbox引數](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params)。
 
    * **透過targetPageParamsAll()函式：**&#x200B;將下列程式碼放入`<head>`標籤中的at.js參考上方。
 
@@ -183,7 +169,7 @@ ht-degree: 53%
 
 ## 步驟6：指定角色和許可權 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. 在Admin Console中，按一下&#x200B;**[!UICONTROL Products]**，然後選取所需產品的名稱。
+1. 在 Admin Console 中，按一下&#x200B;**[!UICONTROL 「產品」]**，然後選取所需產品的名稱。
 
    ![工作區](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -191,13 +177,13 @@ ht-degree: 53%
 
    ![預設工作區](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-1. 按一下 **[!UICONTROL Users]**。
+1. 按一下「**[!UICONTROL 使用者]**」。
 
-   [!UICONTROL Users]索引標籤會顯示該工作區中的所有使用者。
+   [!UICONTROL 使用者]索引標籤會顯示該工作區中的所有使用者。
 
    ![設定使用者](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 使用[!UICONTROL Product Role]欄中每個使用者的下拉式清單，選取所需的許可權角色（核准者、編輯者、觀察者或發佈者）。
+1. 使用[!UICONTROL 產品角色]欄中每個使用者的下拉式清單，選取所需的許可權角色（核准者、編輯者、觀察者或發佈者）。
 
    ![「產品角色」下拉式清單](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -208,7 +194,7 @@ ht-degree: 53%
    | 觀察者 | 可以檢視活動，但無法建立或編輯活動。 |
    | 發佈者 | 類似於觀察者角色 (可以查看活動，但不能建立或編輯活動)。 不過，發佈者角色具有啟用活動的額外權限。 |
 
-   如需詳細資訊，請參閱&#x200B;*企業版使用手冊*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/tw/enterprise/help/manage-permissions-and-roles.html)。
+   如需詳細資訊，請參閱&#x200B;*企業版使用手冊*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
 ## 培訓影片
 
@@ -216,7 +202,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]功能表UI （先前稱為[!UICONTROL Setup]）已經過重新設計，可提供改良的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 以下影片中的資訊通常是正確的；但是，選項的位置可能略有不同。 我們很快就會發佈更新的影片。
+>[!DNL Target] [!UICONTROL 管理]功能表UI （先前稱為[!UICONTROL 安裝程式]）已經過重新設計，可提供改良的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 以下影片中的資訊通常是正確的；但是，選項的位置可能略有不同。 我們很快就會發佈更新的影片。
 
 ### 如何設定Adobe Target工作區(6:55) ![教學課程徽章](/help/main/assets/tutorial.png)
 

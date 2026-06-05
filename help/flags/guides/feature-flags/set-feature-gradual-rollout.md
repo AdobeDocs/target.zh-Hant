@@ -5,7 +5,7 @@ hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 已在&#x200B;**基本詳細資料**&#x200B;索引標籤中設定功能標幟的百分比轉出。 您可以隨時在轉出過程中將此值調整為向上或向下。
 
-## 其運作方式 {#how-it-works}
+## 運作方式 {#how-it-works}
 
 當您設定轉出百分比（例如25%）時，已定義對象的該百分比會公開給功能。 剩餘的百分比會放置於接收預設體驗的&#x200B;**控制群組**&#x200B;中。
 

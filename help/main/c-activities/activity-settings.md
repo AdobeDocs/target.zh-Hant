@@ -5,38 +5,32 @@ title: 如何指定活動設定？
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 71%
+source-wordcount: 432
+ht-degree: 77%
 
 ---
 
 # 活動設定
 
-在[!DNL Adobe Target]中使用[!UICONTROL Activity Settings]來管理活動的目標、優先順序和期間。
+在[!DNL Adobe Target]中使用[!UICONTROL 活動設定]來管理活動的目標、優先順序和持續時間。
 
 1. 輸入關於活動目標的備註。
 
-   輸入關於活動的任何資訊，將該資訊放在手邊對您或其他團隊成員來說很有用。 拖曳以調整[!UICONTROL Objective]欄位大小。
+   輸入關於活動的任何資訊，將該資訊放在手邊對您或其他團隊成員來說很有用。 拖曳以對[!UICONTROL 「目標」]欄位調整大小。
 1. 設定活動的優先順序。
 
-   根據您的設定，[!UICONTROL Priority]的UI和選項會有所不同。 您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。
+   視您的設定而定，[!UICONTROL 優先順序]的 UI 和選項可能有所不同。 您可以使用低、中或高的舊版設定，或是您可以從 0 到 999 啟用微調優先順序。
 
    如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
-   如果未在[!UICONTROL Administration] > [!UICONTROL Reporting] （預設）中啟用此選項，請指定優先順序：低、Medium或高。
+   如果未在[!UICONTROL 管理] > [!UICONTROL 報告] （預設）中啟用此選項，請指定優先順序：低、Medium或高。
 
-   若要啟用微調優先順序，請按一下「[!UICONTROL Administration] > [!UICONTROL Reporting]」，然後將「[!UICONTROL Enable Fine-Grained Priorities]」選項切換到「開啟」位置。
+   若要啟用微調優先順序，請按一下[!UICONTROL 管理] > [!UICONTROL 報表]，然後將[!UICONTROL 啟用微調優先順序]選項切換到「開啟」位置。
 
    如果已啟用此選項，請指定介於 0 和 999 之間的值:
 
@@ -57,7 +51,7 @@ ht-degree: 71%
    >
    >排程活動可控制活動的傳送時間範圍，但是必須先明確啟動活動，才能根據指定的排程傳送該活動。
 
-[!UICONTROL Goal & Settings]頁面包含其他設定，這些設定會因您建立的活動型別而異。 如需這些設定的詳細資訊，參閱您的活動類型:
+[!UICONTROL 「目標與設定」]頁面包括的其他設定可能因您要建立的活動類型而異。 如需這些設定的詳細資訊，參閱您的活動類型:
 
 * [A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [自動個人化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

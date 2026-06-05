@@ -5,14 +5,12 @@ title: 如何在報表中排除極端值？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
 TQID: https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 64%
+source-wordcount: 332
+ht-degree: 62%
 
 ---
 
@@ -22,7 +20,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->[!UICONTROL Exclude Extreme Values]旗標僅適用於具有[!UICONTROL Revenue]和[!UICONTROL Engagement]量度型別的活動。
+>[!UICONTROL 排除極端值]旗標僅適用於具有[!UICONTROL 收入]和[!UICONTROL 參與]量度型別的活動。
 
 系統會根據下述規則自動標記極端值。 您可在報表中的查看極端訂單和排除極端值之間切換。 一旦活動執行超過一小時或 15 筆訂單 (以先到者為準)，活動便會排除其極端值。
 
@@ -30,12 +28,12 @@ ht-degree: 64%
 
 例如，極端值篩選器在使用 RPV 時經常相當實用。 RPV 結合了轉換率和平均訂購值，通常會公開這些的揮發性。 如果您使用 RPV 並判斷訂單未顯示為常態分佈，則在套用巨量訂購篩選器後應該能看到較常態的結果。
 
-將值標記為極端時，其在促銷活動期間至該時間點的訂單值會以「體驗的平均訂購值」取代，並排除極端訂購內容。 在[!UICONTROL Order Details]報表和CSV下載中，訂單也會標示為極端以用於每日結果。
+將值標記為極端時，其在促銷活動期間至該時間點的訂單值會以「體驗的平均訂購值」取代，並排除極端訂購內容。 在[!UICONTROL 訂單詳細資料]報告和CSV下載每日結果中，訂單也標籤為極端。
 
 **若要從您的報表中排除極端值:**
 
-1. 開啟包含[!UICONTROL Revenue]或[!UICONTROL Engagement]量度型別的活動，然後按一下&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤。
-1. 按一下「報表設定」（![報表設定圖示](/help/main/assets/icons/Setting.svg)）圖示，以顯示&#x200B;**[!UICONTROL Settings]**&#x200B;對話方塊。
+1. 開啟包含[!UICONTROL 收入]或[!UICONTROL 參與]量度型別的活動，然後按一下&#x200B;**[!UICONTROL 報表]**&#x200B;索引標籤。
+1. 按一下「報表設定」（![報表設定圖示](/help/main/assets/icons/Setting.svg)）圖示，以顯示&#x200B;**[!UICONTROL 設定]**&#x200B;對話方塊。
 
-1. 視需要將&#x200B;**[!UICONTROL Exclude Extreme Values]**&#x200B;切換滑至「開啟」或「關閉」位置。
-1. 按一下 **[!UICONTROL Save]**。
+1. 視需要滑動&#x200B;**[!UICONTROL 排除極端值]**&#x200B;切換至「開啟」或「關閉」位置。
+1. 按一下「**[!UICONTROL 儲存]**」。

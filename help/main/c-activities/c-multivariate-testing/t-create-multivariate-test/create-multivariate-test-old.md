@@ -1,45 +1,45 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)來建立[!UICONTROL Multivariate Test] (MVT)。
-title: 如何建立[!UICONTROL Multivariate Test]？
+description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 多變數測試] (MVT)。
+title: 如何建立[!UICONTROL 多變數測試]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 56%
+source-wordcount: '542'
+ht-degree: 52%
 
 ---
 
 # 建立多變數測試
 
-[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)可讓您輕鬆建立[!UICONTROL Multivariate Test]，以及在[!DNL Target]內修改頁面的部分。
+在[!DNL Adobe Target]中的[!UICONTROL 視覺化體驗撰寫器] (VEC)可讓您輕鬆建立[!UICONTROL 多變數測試]，以及在[!DNL Target]內修改頁面的部分。
 
 [!DNL Target]點選編輯器可讓您挑選任何位置並新增多個選件。
 
-[!UICONTROL Multivariate Test] (MVT)需要頁面優先的報表。 換句話說，測試會在具有您為頁面所設計體驗的特定 URL 上執行。
+[!UICONTROL 多變數測試] (MVT)需要頁面優先的報表。 換句話說，測試會在具有您為頁面所設計體驗的特定 URL 上執行。
 
-1. 按一下&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**。
+1. 按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 多變數測試]**。
 
    ![建立多變數測試](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
    >[!NOTE]
    >
-   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
+   >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
 
-1. （視條件而定）選擇傳遞型別： [!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]或[!UICONTROL Other/API]。
+1. （視條件而定）選擇傳遞型別： [!UICONTROL 網頁]、[!UICONTROL 行動裝置]、[!UICONTROL 電子郵件]或[!UICONTROL 其他/API]。
 
 1. （視條件而定）如果您是[Target Premium](/help/main/c-intro/intro.md#premium)客戶，[請選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. [為您要測試的頁面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. [為您要測試的頁面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    >[!NOTE]
    >
    >請使用完整的URL，開頭要包括HTTP或HTTPS。
 
-   如果出現訊息，要求您啟用您的瀏覽器使用混合的內容，請遵循訊息中的說明。為您的瀏覽器啟用混合的內容之後，請從步驟 1 重新開始。
+   如果出現訊息，要求您啟用您的瀏覽器使用混合的內容，請遵循訊息中的說明。 為您的瀏覽器啟用混合的內容之後，請從步驟 1 重新開始。
 
-   [!UICONTROL Visual Experience Composer]隨即開啟。
+   [!UICONTROL 視覺化體驗撰寫器]開啟。
 
 1. 輸入活動的名稱。
 
@@ -58,14 +58,14 @@ ht-degree: 56%
 
    | 字元順序 | 說明 |
    |--- |--- |
-   | ；= | 分號，等於 |
-   | ；+ | 分號，加號 |
-   | ；- | 分號，減號 |
-   | ；@ | 分號， At sign |
-   | ，= | 逗號，等於 |
-   | ，+ | 逗號，加號 |
-   | ，- | 逗號，減號 |
-   | ，@ | 逗號， At sign |
+   | ;= | 分號，等於 |
+   | ;+ | 分號，加號 |
+   | ;- | 分號，減號 |
+   | ;@ | 分號， At sign |
+   | ,= | 逗號，等於 |
+   | ,+ | 逗號，加號 |
+   | ,- | 逗號，減號 |
+   | ,@ | 逗號， At sign |
    | `[`&quot; | 左方括弧，雙引號 |
    | &quot;`]` | 雙引號，右方括弧 |
 
@@ -79,11 +79,11 @@ ht-degree: 56%
    * 影像
    * 文字
 
-1. 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以[預覽您的體驗](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以[預覽您的體驗](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)。
 
    ![預覽體驗](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   您可以檢視每個體驗，以及排除不想在您的測試中包括的任何體驗。若要排除一或多個體驗，請選取所需的核取方塊，然後按一下「**[!UICONTROL Exclude]**」 。
+   您可以檢視每個體驗，以及排除不想在您的測試中包括的任何體驗。 若要排除一或多個體驗，請選取所需的核取方塊，然後按一下&#x200B;**[!UICONTROL 排除]** 。
 
    ![排除體驗](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -99,7 +99,7 @@ ht-degree: 56%
 
    ![估算程式2影像](assets/estimator2.png)
 
-1. 按一下「**[!UICONTROL Next]**」以進入[!UICONTROL Targeting]頁面。
+1. 按一下[下一步]****&#x200B;以前進到[!UICONTROL 鎖定目標]頁面。
 
 1. 選擇客群和符合您要讓其進入活動之訪客的百分比。
 
@@ -109,13 +109,13 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   >除了選取現有客群，您可以結合多個客群來建立隨選結合的客群而非建立新客群。如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   >除了選取現有客群，您可以結合多個客群來建立隨選結合的客群而非建立新客群。 如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]]**。**[!UICONTROL 
 
 1. [指定測試的目標與設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
-1. 按一下&#x200B;**[!UICONTROL Save and Close]**&#x200B;以建立活動。
+1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以建立活動。
 
 ## 訓練影片：建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
 

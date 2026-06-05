@@ -5,20 +5,10 @@ title: 如何在 [!DNL Target]中使用 [!DNL AI Assistant] ？
 feature: Overview
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 TQID: https://experienceleague.adobe.com/booNLyfhofLtyVawW4f5jGtYkgzGr1ddJYn9DpEhUgM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 328
@@ -57,10 +47,10 @@ ht-degree: 2%
 
 | 主題 | 說明 |
 | --- | --- |
-| [[!DNL AI Assistant] 在 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target=_blank} | 瞭解[!DNL AI Assistant]功能。 隨附操作影片。 |
-| [存取 [!DNL AI Assistant] 於 [!DNL Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access){target=_blank} | 瞭解如何存取組織及其使用者的[!DNL AI Assistant]。 |
-|  [!DNL AI Assistant]的[問題指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/questions){target=_blank} | 檢視查詢[!DNL AI Assistant]時可以使用的範例問題。 |
-| [[!DNL AI Assistant] 使用者介面指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | 瞭解如何在[!DNL Adobe Experience Platform] UI中使用[!DNL AI Assistant]。 |
-| [在 [!DNL AI Assistant]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/privacy){target=_blank}中的隱私權、安全性與治理 | 瞭解[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]如何建置隱私權、安全性及控管能力放在最前面。 瞭解您期望從[!DNL AI Assistant]獲得的以客戶信任為中心的功能。 |
-| [常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/faq){target=_blank} | 閱讀有關[!DNL AI Assistant]的常見問題解答。 |
-| [[!DNL Adobe Experience Platform] 發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest){target=_blank} | 閱讀[!DNL Adobe Experience Platform]中現有功能和檔案的更新，包括[!DNL AI Assistant]。 |
+| [[!DNL AI Assistant] 在 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target=_blank} | 瞭解[!DNL AI Assistant]功能。 隨附操作影片。 |
+| [存取 [!DNL AI Assistant] 於 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} | 瞭解如何存取組織及其使用者的[!DNL AI Assistant]。 |
+|  [!DNL AI Assistant]的[問題指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank} | 檢視查詢[!DNL AI Assistant]時可以使用的範例問題。 |
+| [[!DNL AI Assistant] 使用者介面指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | 瞭解如何在[!DNL Adobe Experience Platform] UI中使用[!DNL AI Assistant]。 |
+| [在 [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank}中的隱私權、安全性與治理 | 瞭解[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]如何建置隱私權、安全性及控管能力放在最前面。 瞭解您期望從[!DNL AI Assistant]獲得的以客戶信任為中心的功能。 |
+| [常見問題](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank} | 閱讀有關[!DNL AI Assistant]的常見問題解答。 |
+| [[!DNL Adobe Experience Platform] 發行說明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target=_blank} | 閱讀[!DNL Adobe Experience Platform]中現有功能和檔案的更新，包括[!DNL AI Assistant]。 |

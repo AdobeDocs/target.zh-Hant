@@ -1,40 +1,37 @@
 ---
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器；推薦
-description: 瞭解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]來尋找產品或內容、從目錄中移除專案等等。
-title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解如何使用 [!DNL Recommendations] [!UICONTROL 目錄搜尋]來尋找產品或內容、從目錄中移除專案等等。
+title: 如何使用 [!DNL Recommendations] [!UICONTROL 目錄搜尋]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 22%
+source-wordcount: 552
+ht-degree: 21%
 
 ---
 
-# [!UICONTROL Catalog Search]
+# [!UICONTROL 目錄搜尋]
 
-[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。
+[!DNL Adobe Recommendations]中的[!UICONTROL 目錄搜尋]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。
 
 目錄是指您的整個產品集 (實體)。 您的目錄可以包含許多系列，好讓您以邏輯區間組織產品。
 
-## 存取[!UICONTROL Catalog Search]
+## 存取[!UICONTROL 目錄搜尋]
 
-1. 若要存取[!UICONTROL Catalog Search]頁面，請按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
+1. 若要存取[!UICONTROL 目錄搜尋]頁面，請按一下&#x200B;**[!UICONTROL 建議]** > **[!UICONTROL 目錄搜尋]**。
 
-1. （選擇性）若要將篩選器套用至您的搜尋，請按一下&#x200B;**[!UICONTROL Show Filters]**&#x200B;圖示（ ![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ）。 您可以依[!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory]和[!UICONTROL Value]篩選。
+1. （選擇性）若要將篩選器套用至您的搜尋，請按一下&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;圖示（ ![顯示篩選器圖示](/help/main/assets/icons/Filter.svg)）。 您可以依[!UICONTROL 環境]、[!UICONTROL 集合]、[!UICONTROL 類別]、[!UICONTROL 品牌]、[!UICONTROL 詳細目錄]和[!UICONTROL 值]來篩選。
 
 ## 執行簡單搜尋
 
-1. 在&#x200B;**[!UICONTROL Search In]**&#x200B;欄位中輸入搜尋字詞。
+1. 在&#x200B;**[!UICONTROL 搜尋範圍]**&#x200B;欄位中輸入搜尋字詞。
 
-1. （選擇性）您可以從選項功能表中選取搜尋選項（按一下「[!UICONTROL Search In]」欄位中的向下箭頭時顯示），以縮小搜尋範圍。
+1. （選擇性）您可以調整搜尋範圍，方法是按一下[!UICONTROL 搜尋範圍]欄位中的向下箭頭，從顯示的選項功能表中選取搜尋選項。
 
    搜尋選項包含下列項目:
 
@@ -84,7 +81,7 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
 1. 按一下搜尋結果中的專案以檢視其詳細資訊。
 
-1. 按一下 **[!UICONTROL Remove from Catalog]**。
+1. 按一下&#x200B;**[!UICONTROL 從目錄]**&#x200B;移除。
 
 1. 確認您要移除專案。
 
@@ -118,7 +115,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. 按一下「顯示篩選器」圖示（ ![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ）。
 
-1. 從&#x200B;**[!UICONTROL Environment]**&#x200B;下拉式清單中選取所需的環境。
+1. 從&#x200B;**[!UICONTROL 環境]**&#x200B;下拉式清單中選取所需的環境。
 
 <!--
 ## Modify the Catalog Search page (filters and columns)
@@ -142,9 +139,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 修改欄
 
-您可以在[!UICONTROL Catalog Search]頁面上修改作用中的欄。
+您可以在[!UICONTROL 目錄搜尋]頁面上修改作用中的資料行。
 
-1. 按一下&#x200B;**[!UICONTROL Customize Table]**&#x200B;圖示（ ![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg) ）。
+1. 按一下&#x200B;**[!UICONTROL 自訂表格]**&#x200B;圖示（![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg)）。
 
 1. 選取或取消選取想要顯示或隱藏的欄。
 

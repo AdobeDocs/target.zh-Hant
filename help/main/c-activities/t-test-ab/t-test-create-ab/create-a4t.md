@@ -5,17 +5,13 @@ title: 如何在 [!DNL Target]中使用 [!DNL Analytics] 資料？
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 TQID: https://experienceleague.adobe.com/x38YsYI4a6-92oOr6Fs3RfKrJHbSaLNj0cki5CInPPg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 16%
+source-wordcount: 492
+ht-degree: 19%
 
 ---
 
@@ -33,13 +29,13 @@ ht-degree: 16%
 
 選取[!DNL Analytics]做為[!DNL Target]的報告來源時，請選取[!DNL Analytics]報告套裝來接收[!DNL Target]活動資料。 若要指定報表來源，請先從您帳戶繫結的[!DNL Analytics]家公司中選擇任一，接著為該活動選取適當的報表套裝。 只有布建為連線至[!DNL Adobe Target]的報表套裝才可供選取。 如果您沒有看到預期的報表套裝，請先嘗試登出並重新登入[!DNL Adobe Experience Cloud]以重試。 如果清單中仍缺少報表套裝，請聯絡客戶服務。
 
-[!UICONTROL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL Tracking Server]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
+[!UICONTROL Analytics for Target] (A4T)需要追蹤伺服器才能正確報告結果。 預設追蹤伺服器會顯示在[!UICONTROL 追蹤伺服器]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
 >[!NOTE]
 >
->如果您使用[!DNL Adobe Analytics]作為活動的報表來源，若您使用的是at.js 0.9.1版（或更新版本），則不需要在活動建立期間指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Tracking Server]欄位保留空白。
+>如果您使用[!DNL Adobe Analytics]作為活動的報表來源，若您使用的是at.js 0.9.1版（或更新版本），則不需要在活動建立期間指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
-在將[!DNL Analytics]設定為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。 [!DNL Target] [!UICONTROL Activities]報告中有[!DNL Analytics]個可用區段。
+在將[!DNL Analytics]設定為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。 [!DNL Analytics]區段可在[!DNL Target] [!UICONTROL 活動]報表中使用。
 
 您必須選取成功量度，以用作每個活動的目標。 您的活動目標為代表成功活動的轉換活動。 最佳作法永遠不要執行未以某些特定方式改善目標的測試。 您可以選擇[!DNL Analytics]量度選擇器中任何可用的[!DNL Analytics]量度。
 

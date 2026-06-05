@@ -1,39 +1,36 @@
 ---
 keywords: mvt;多變數測試;位置貢獻報表
-description: 瞭解如何針對Adobe [!DNL Target] [!UICONTROL Experience Targeting]活動使用位置貢獻報表，以顯示每個元素和每個選件的效能。
-title: 如何將[!UICONTROL Location Contribution]報告用於[!UICONTROL Multivariate Test]活動？
+description: 瞭解如何針對Adobe [!DNL Target] [!UICONTROL 體驗鎖定目標]活動使用位置貢獻報表，以顯示每個元素和每個選件的效能。
+title: 如何針對[!UICONTROL 多變數測試]活動使用[!UICONTROL 位置貢獻]報表？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 261
-ht-degree: 35%
+source-wordcount: 283
+ht-degree: 32%
 
 ---
 
-# [!UICONTROL Location Contribution]報告(MVT)
+# [!UICONTROL 位置貢獻]報表(MVT)
 
-[!UICONTROL Location Contribution]報表顯示每個元素和每個選件的效能。
+[!UICONTROL 位置貢獻]報表會顯示每個元素和每個選件的效能。
 
 報表頂端會顯示報表中使用的量度、開始和結束日期，以及對象。 您可以變更任何係數。
 
 >[!NOTE]
 >
->使用[!UICONTROL Location Contribution]報告時，請記住下列資訊：
+>使用[!UICONTROL 位置貢獻]報表時，請記住下列資訊：
 >
 >* 對象和量度選擇器僅在將[!DNL Analytics]用作報表來源(A4T)時才可用。
 >
->* 已從[!DNL Target]後端擷取[!UICONTROL Location Contribution]報告的資料，即使活動設定為使用[!UICONTROL Analytics as the reporting source] (A4T)亦然。
+>* 已從[!DNL Target]後端擷取[!UICONTROL 位置貢獻]報告的資料，即使活動設定為使用[!UICONTROL Analytics做為報告來源] (A4T)亦然。
 >
->* 即使在[!DNL Target]帳戶層級定義了不同的預設環境，「生產」環境也會擷取[!UICONTROL Location Contribution]報告的資料。
+>* 即使已在[!DNL Target]帳戶層級中定義不同的預設環境，「生產」環境也會擷取[!UICONTROL 位置貢獻]報告的資料。
 
-[!UICONTROL Location Contribution]報告包含兩個資料表。
+[!UICONTROL 位置貢獻]報表包含兩個表格。
 
 第一個表格顯示每一個元素的相對影響。 此表格顯示您已新增選件的元素中，哪些元素的轉換次數最多。
 

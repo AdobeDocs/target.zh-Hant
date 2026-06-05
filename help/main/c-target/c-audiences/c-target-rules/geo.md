@@ -6,17 +6,12 @@ feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: 1078
 ht-degree: 40%
 
 ---
@@ -29,28 +24,28 @@ ht-degree: 40%
 
 ## 使用地理鎖定目標建立對象 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
 1. 為對象命名並新增選擇性說明。
-1. 將&#x200B;**[!UICONTROL Geo]**&#x200B;拖放至對象產生器窗格。
+1. 將&#x200B;**[!UICONTROL 地理]**&#x200B;拖放至對象產生器窗格。
 
-1. 按一下&#x200B;**[!UICONTROL Select]**，然後選取下列其中一個選項：
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
-   * [!UICONTROL Country/Region]
-   * [!UICONTROL State]
-   * [!UICONTROL City]
-   * [!UICONTROL Zip Code]
-   * [!UICONTROL Longitude]
-   * [!UICONTROL Latitude]
+   * [!UICONTROL 國家/地區]
+   * [!UICONTROL 狀態]
+   * [!UICONTROL 城市]
+   * [!UICONTROL 郵遞區號]
+   * [!UICONTROL 經度]
+   * [!UICONTROL 緯度]
    * [!UICONTROL DMA]
-   * [!UICONTROL Mobile Carrier]
+   * [!UICONTROL 行動電信業者]
 
    訪客的地理資訊是根據 [!DNL Target] 位置請求 (Mbox 請求) 的起始 IP 位置來判定。 IP 對地理位置的解析是在新工作階段的首次呼叫時完成。 也就是說，如果訪客的 IP 位址在造訪期間發生變更，地理資訊仍會根據首次呼叫的 IP 位址。
 
-   針對[!UICONTROL Mobile Carrier]，[!DNL Target]會使用IP位址註冊資料（擁有IP位址區塊），使用[行動裝置國碼(MCC)和行動網路碼(MNC)](https://www.mcc-mnc.com)來決定適當的行動電信業者。
+   針對[!UICONTROL 行動電信業者]，[!DNL Target]會使用IP位址註冊資料（擁有IP位址區塊），以[行動國碼(MCC)和行動網路碼(MNC)](https://www.mcc-mnc.com)來決定適當的行動電信業者。
 
 1. 指定運運算元和適當的值。
 1. （選用）為對象設定其他規則。
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 下圖顯示某個受眾，鎖定從緯度大於44度和經度小於22度之位置存取活動的使用者。
 

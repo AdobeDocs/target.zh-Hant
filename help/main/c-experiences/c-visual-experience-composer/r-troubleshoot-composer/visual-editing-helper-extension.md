@@ -1,33 +1,24 @@
 ---
 keywords: vec；視覺化體驗撰寫器； vec；iframe；擴充功能；瀏覽器；faq
-description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL Visual Experience Composer] (VEC)中開啟。 [!UICONTROL Visual Editing Helper]瀏覽器擴充功能可讓您可靠地在VEC內載入網站。
-title: 如何使用[!UICONTROL Visual Editing Helper]副檔名？
+description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL 視覺化體驗撰寫器] (VEC)中開啟。 [!UICONTROL Visual Editing Helper]瀏覽器擴充功能可讓您可靠地在VEC內載入網站。
+title: 如何使用[!UICONTROL Visual Editing Helper]擴充功能？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 56%
+source-wordcount: 837
+ht-degree: 52%
 
 ---
 
-# [!UICONTROL Visual Editing Helper]副檔名
+# [!UICONTROL Visual Editing Helper]擴充功能
 
-[!DNL Google Chrome]的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能可讓您可靠地在[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)內載入網站，以快速撰寫網站體驗及評估品質。
+適用於[!DNL Google Chrome]的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能可讓您可靠地在[!UICONTROL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)內載入網站，以快速撰寫網頁體驗並進行QA。
 
 >[!IMPORTANT]
 >
@@ -50,7 +41,7 @@ ht-degree: 56%
 * 網站架設在 iFrame 中。
 * 客戶的 QA 或暫存網站無法供外部世界使用 (網站僅供內部使用)。
 
-適用於的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能解決了客戶現在依賴[!DNL Target] [增強體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)或協力廠商擴充功能（例如Requestly）會遇到的網站載入問題。
+適用於的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能解決了客戶目前依賴[!DNL Target] [增強體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)或協力廠商擴充功能（例如Requestly）會遇到的網站載入問題。
 
 ## 使用[!UICONTROL Visual Editing Helper]擴充功能的好處
 
@@ -59,24 +50,24 @@ ht-degree: 56%
 
   使用[增強型體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)時，此擴充功能不會插入 at.js，但是 SameSite Cookie 功能依然存在。 若要在網頁上插入 at.js，請關閉 EEC。
 
-* 即使沒有[!UICONTROL Enhanced Experience Composer] (EEC)，也支援[行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
+* 即使沒有[!UICONTROL 增強體驗撰寫器] (EEC)，也支援[行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 * 即使客戶的 IT 開發人員尚未在網站上實作 [!DNL Target]，剛接觸 [!DNL Target] 的客戶還是可以利用擴充功能來試驗 [!DNL Target]。
 * 管理多位客戶網站與 [!DNL Target] 帳戶的合作夥伴現在擁有一套簡單的機制可支援 VEC 載入工作，而不必在第三方工作中管理多個規則。
 
-## 取得並安裝[!UICONTROL Visual Editing Helper]瀏覽器延伸模組
+## 取得並安裝[!UICONTROL Visual Editing Helper]瀏覽器擴充功能
 
-1. 導覽至Chrome網站商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能。
-1. 按一下&#x200B;**[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**。
+1. 導覽至Chrome網站商店中的[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
+1. 按一下&#x200B;**[!UICONTROL 新增至Chrome]** > **[!UICONTROL 新增擴充功能]**。
 1. 在 [!DNL Target] 中開啟 VEC。
 1. 若要使用擴充功能，請在VEC或QA模式中時，按一下Chrome瀏覽器工具列上的[!UICONTROL Visual Editing Helper]瀏覽器擴充功能圖示（ ![Visual Editing擴充功能圖示](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
 
-   [!UICONTROL Visual Editing Helper]會在[!UICONTROL Target] VEC中開啟網站時自動啟用，以支援撰寫。 此擴充功能沒有任何條件設定。 此擴充功能可自動處理所有設定，包括 SameSite Cookie 設定。
+   在[!UICONTROL Target] VEC中開啟網站以支援撰寫時，[!UICONTROL Visual Editing Helper]會自動啟用。 此擴充功能沒有任何條件設定。 此擴充功能可自動處理所有設定，包括 SameSite Cookie 設定。
 
    如需有關 `SameSite=None` 屬性瀏覽器修正的詳細資訊，請參閱 [排解可視化體驗撰寫器和增強型體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中的「最近宣布的 Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？」。
 
 ## 附註
 
-* 對於[!DNL Target]，此擴充功能會載入最新版的at.js，這個檔案可從[!UICONTROL Administration] > [!UICONTROL Implementation]的[!DNL Target] UI取得，而且at.js會下載撰寫程式庫。
+* 對於[!DNL Target]，此擴充功能會載入最新版的at.js，這個檔案可從[!UICONTROL 管理] > [!UICONTROL 實作]中的[!DNL Target] UI取得，而且at.js會下載撰寫程式庫。
 * 在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用此擴充功能來插入 at.js 時，您必須開啟另一個 Chrome 分頁。 必須向您活動建立所在的相同 [!DNL Adobe Experience Cloud] 組織驗證此 Chrome 分頁。
 * 以下訊息有助於您了解：
 

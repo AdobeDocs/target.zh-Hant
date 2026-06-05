@@ -5,17 +5,13 @@ title: 我可以套用報表對象至成功量度嗎？
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 TQID: https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 36%
+source-wordcount: 406
+ht-degree: 43%
 
 ---
 
@@ -23,13 +19,13 @@ ht-degree: 36%
 
 選擇符合使用者在[!DNL Adobe Target]中報表對象資格的成功量度。
 
-對於所有活動，[!UICONTROL Applied At]下拉式清單可讓您將對象套用至成功量度，以便在達到量度後以及後續動作中檢視報表數量。
+對於所有活動，[!UICONTROL 「套用於」]下拉式清單可讓您將對象套用至成功量度，在達到量度之後和針對後續動作，您就可以檢視報表數字。
 
 ![success_metric映像](assets/success_metric.png)
 
 例如，假設您已經為所有從首頁進入並抵達轉換頁面的訪客建立活動，但對於轉換之前已在購物車中增加 $50 以上的訪客，您還想要進一步向下鑽研。
 
-[!UICONTROL Applied At]下拉式清單可能提供三個類別：
+[!UICONTROL 套用的At]下拉式清單可能會提供三個類別：
 
 * 活動的任何訪客
 * 僅限達到活動中特定步驟的訪客
@@ -39,7 +35,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)必須先設定給活動才可使用。 如果您尚未定義成功量度，您只會從下拉式清單中看到兩個選項： [!UICONTROL Campaign Entry]和[!UICONTROL Conversion]。
+>[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)必須先設定給活動才可使用。 如果您尚未定義成功量度，您只會從下拉式清單中看到兩個選項： [!UICONTROL 促銷活動專案]和[!UICONTROL 轉換]。
 
 
 ## 考量事項
@@ -48,11 +44,11 @@ ht-degree: 36%
 
 * 只有從套用對象的量度開始的成功量度，才會顯示依對象分段的報表資料
 * 對象套用之前的成功量度不會依對象分段，且會顯示所有訪客資料
-* 系統會根據量度在活動定義中的順序來考量量量度，[!UICONTROL Primary Goal]為最後一個。
+* 系統會根據量度在活動定義中的順序來考慮量度，並將[!UICONTROL 主要目標]設定為最後一個。
 
 ## 在報告中檢視分段
 
-若要在報告中檢視細分，請從活動報告的[!UICONTROL Audience]下拉式清單中選取所需的對象。
+若要在報告中檢視細分，請從活動報告的[!UICONTROL 對象]下拉式清單中選取所需的對象。
 
 ![reporting_audience_dropdown影像](assets/reporting_audience_dropdown.png)
 

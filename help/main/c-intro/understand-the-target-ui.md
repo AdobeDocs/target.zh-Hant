@@ -5,19 +5,12 @@ title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
 TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1373
+source-wordcount: 1442
 ht-degree: 23%
 
 ---
@@ -36,21 +29,21 @@ ht-degree: 23%
 
 左側的標籤可讓您存取[!DNL Target]的各種功能，稍後將討論這些功能。 首先，我們先討論右側的選項，然後再討論標籤。
 
-### [!UICONTROL Organization]
+### [!UICONTROL 組織]
 
 *組織*&#x200B;是可讓管理員設定用戶、群組，以及控制 [!DNL Adobe Experience Cloud] 中單一登入存取的實體。 組織的作用就像一個登入公司，涵蓋所有的 [!DNL Experience Cloud] 產品和解決方案。 最常見的組織就是您的公司名稱。 不過，公司可以有許多組織。
 
-如果您的公司有多個組織，請從[!UICONTROL Organization]下拉式清單中選取所需的組織：
+如果您的公司有多個組織，請從[!UICONTROL 組織]下拉式清單中選取所需的組織：
 
 ![組織下拉式清單](/help/main/c-intro/assets/organizations.png)
 
-### [!UICONTROL Beta Feedback]
+### [!UICONTROL Beta意見]
 
-（視條件而定）如果您隸屬於官方[!DNL Target] Beta方案，您可能會看到[!UICONTROL Beta Feedback]圖示。
+（視條件而定）如果您隸屬於官方[!DNL Target] Beta方案，您可能會看到[!UICONTROL Beta意見]圖示。
 
 ![Beta意見回饋圖示](/help/main/c-intro/assets/beta-feedback.png)
 
-提供意見回饋的描述，包括適用的檔案或熒幕擷取畫面，以及任何其他必要的詳細資料，然後按一下&#x200B;**[!UICONTROL Submit]**。
+提供意見回饋的描述，包括適用的檔案或熒幕擷取畫面，以及任何其他必要的詳細資料，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
 ### [!DNL AI Assistant]
 
@@ -60,27 +53,27 @@ ht-degree: 23%
 
 ### 說明
 
-按一下[!UICONTROL Help]圖示（![說明圖示](/help/main/assets/icons/HelpOutline.svg) ）可讓您存取資訊、影片、部落格等，以協助您更有效地使用[!DNL Target]。 您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供有關[!DNL Target]的意見回饋，讓我們瞭解[!DNL Target]團隊的表現。
+按一下[!UICONTROL 說明]圖示（![說明圖示](/help/main/assets/icons/HelpOutline.svg) ）可讓您存取資訊、影片、部落格等，以協助您更有效地使用[!DNL Target]。 您可以建立支援票證、尋找支援電話號碼、透過Twitter提出問題，或提供有關[!DNL Target]的意見回饋，讓我們瞭解[!DNL Target]團隊的表現。
 
 ![說明](/help/main/c-intro/assets/help.png)
 
 ### 請求、通知和公告 {#notifications-announcements}
 
-[!UICONTROL Requests]、[!UICONTROL Notifications]和[!UICONTROL Announcements]面板可協助您隨時掌握[!DNL Adobe Target]的所有最新資訊。 主動通知可協助您隨時掌握[!DNL Adobe Experience Cloud]解決方案和[!DNL Target]事件的狀態。 主動公告會提醒您發生中斷事件和維護事件。
+[!UICONTROL 要求]、[!UICONTROL 通知]及[!UICONTROL 公告]面板可協助您隨時掌握所有[!DNL Adobe Target]相關資訊。 主動通知可協助您隨時掌握[!DNL Adobe Experience Cloud]解決方案和[!DNL Target]事件的狀態。 主動公告會提醒您發生中斷事件和維護事件。
 
-按一下標題中的[!UICONTROL Notifications]圖示（ ![通知圖示](/help/main/assets/icons/Bell.svg) ）以檢視通知：
+按一下標題中的[!UICONTROL 通知]圖示（ ![通知圖示](/help/main/assets/icons/Bell.svg)）以檢視通知：
 
-面板包含[!UICONTROL Requests]、[!UICONTROL Notifications]和[!UICONTROL Announcements]的索引標籤。
+面板包含[!UICONTROL 要求]、[!UICONTROL 通知]和[!UICONTROL 公告]的標籤。
 
 ![通知](assets/notifications.png)
 
 以下區段包含每個標籤的相關資訊，以及如何設定通知和公告：
 
-#### [!UICONTROL Requests]
+#### [!UICONTROL 個要求]
 
-在[!UICONTROL Requests]面板中接收有關[!DNL Adobe]產品和解決方案、您與其他使用者的共同作業以及其他相關更新的重要資訊。
+在[!UICONTROL 要求]面板中接收有關[!DNL Adobe]產品和解決方案、您與其他使用者的共同作業以及其他相關更新的重要資訊。
 
-當有人傳送請求給您核准物件或授予物件存取權時，該請求會顯示在[!UICONTROL Requests]面板中。
+當有人傳送核准物件或授予物件存取權的要求給您時，該要求會顯示在[!UICONTROL 要求]面板中。
 
 #### 通知 {#notifications}
 
@@ -116,32 +109,32 @@ ht-degree: 23%
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-您可以將個別通知標示為已讀取，方法是暫留在所需的通知上，然後按一下[!UICONTROL Mark as Read] （ ![標示為已讀取圖示](/help/main/assets/icons/CheckmarkCircle.svg) ）圖示。 您可以按一下面板底部的[!UICONTROL Mark as Read]或[!UICONTROL View All]，將所有通知標籤為已讀取或檢視所有通知。
+您可以將個別通知標示為已讀取，方法是暫留在所需的通知上，然後按一下[!UICONTROL 標示為已讀取] （ ![標示為已讀取圖示](/help/main/assets/icons/CheckmarkCircle.svg) ）圖示。 您可以按一下面板底部的[!UICONTROL 標籤為已讀]或[!UICONTROL 全部檢視]，將所有通知標示為已讀取或檢視所有通知。
 
-您也可以將游標移至通知上，按一下[!UICONTROL Snooze] （ ![暫停圖示](/help/main/assets/icons/Clock.svg) ）圖示，設定要再次收到通知的提醒。 接著，您可以選取想要收到通知的時間：5分鐘、15分鐘、1小時或明天。
+您也可以將游標移至通知上，按一下[!UICONTROL 暫停] （ ![暫停圖示](/help/main/assets/icons/Clock.svg) ）圖示，設定要再次收到通知的提醒。 接著，您可以選取想要收到通知的時間：5分鐘、15分鐘、1小時或明天。
 
 #### 公告
 
 主動公告會提醒您發生中斷事件和維護事件。
 
-如需深入資訊，請參閱[Adobe Status](https://status.adobe.com/zh-tw/)頁面。
+如需深入資訊，請參閱[Adobe Status](https://status.adobe.com/)頁面。
 
 ### 設定通知和公告
 
 若要編輯您的通知偏好設定：
 
-1. 按一下[!UICONTROL Edit Preferences] （![編輯偏好設定圖示](/help/main/assets/icons/Setting.svg) ）圖示，然後按一下左側邊欄中的&#x200B;**[!UICONTROL Notifications]**。
+1. 按一下[!UICONTROL 編輯偏好設定] （![編輯偏好設定圖示](/help/main/assets/icons/Setting.svg) ）圖示，然後按一下左側邊欄中的&#x200B;**[!UICONTROL 通知]**。
 1. 在&#x200B;**[!UICONTROL Target]**&#x200B;底下，選取要如何通知您：
 
-   * [!UICONTROL In-app]
-   * [!UICONTROL Email]
+   * [!UICONTROL 應用程式內]
+   * [!UICONTROL 電子郵件]
    * [!DNL Slack]
 
 1. 選取您要視為高優先順序的類別。
 
    >[!NOTE]
    >
-   >&quot;[!UICONTROL New releases]&quot;和&quot;[!UICONTROL Updates on content]&quot;是套用至[!DNL Target]的唯一通知類別。 其他類別適用於其他[!DNL Adobe]解決方案。
+   >[!UICONTROL 新版本]和內容]的[!UICONTROL 更新是唯一適用於[!DNL Target]的通知類別。 其他類別適用於其他[!DNL Adobe]解決方案。
 
 1. 選取您希望警報在瀏覽器中顯示的通知。
 
@@ -149,10 +142,10 @@ ht-degree: 23%
 
 1. 選取您想要接收通知電子郵件的頻率：
 
-   * [!UICONTROL Don't send emails]
-   * [!UICONTROL Instant notifications]
-   * [!UICONTROL Daily digest]
-   * [!UICONTROL Weekly digest]
+   * [!UICONTROL 不要傳送電子郵件]
+   * [!UICONTROL 即時通知]
+   * [!UICONTROL 每日摘要]
+   * [!UICONTROL 每週摘要]
 
 1. 設定工作區的Slack通知。
 
@@ -172,43 +165,43 @@ ht-degree: 23%
 
 ## 活動
 
-**[!UICONTROL Activities]**&#x200B;清單是您開啟[!DNL Target]時的預設檢視。 您可以從此頁面建立活動，並管理現有活動。
+**[!UICONTROL 活動]**&#x200B;清單是您開啟[!DNL Target]時的預設檢視。 您可以從此頁面建立活動，並管理現有活動。
 
-如需[!DNL Target]中可用活動型別的深入資訊，請參閱[活動](/help/main/c-activities/activities.md)，並進一步瞭解[!UICONTROL Activity]清單的使用者介面。
+如需[!DNL Target]中可用活動型別的深入資訊，請參閱[活動](/help/main/c-activities/activities.md)，並進一步瞭解[!UICONTROL 活動]清單的使用者介面。
 
-## 客群
+## 對象
 
-按一下「**[!UICONTROL Audiences]**」標籤以顯示[!UICONTROL Audiences]清單，您可在其中建立對象並管理現有對象。
+按一下「**[!UICONTROL 對象]**」標籤以顯示「[!UICONTROL 對象]」清單，您可在其中建立對象並管理現有對象。
 
-對象是看到鎖定活動的一組類似的活動加入者。 受眾是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。 [!UICONTROL Audience]功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。 如果驗明訪客屬於目標客群，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。
+對象是看到鎖定活動的一組類似的活動加入者。 受眾是具有相同特性的一組人員，例如新訪客、回頭客或來自中西部的回頭客。 [!UICONTROL 對象]功能可讓您將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的數位行銷。 如果驗明訪客屬於目標客群，[!DNL Target] 會根據活動建立期間所定義的條件，決定要顯示的體驗。
 
-如需[!DNL Target]中對象型別的深入資訊，請參閱[建立對象](/help/main/c-target/c-audiences/create-audience.md)，並進一步瞭解[!UICONTROL Audience]清單的使用者介面。
+請參閱[建立對象](/help/main/c-target/c-audiences/create-audience.md)以取得[!DNL Target]中對象型別的深入資訊，並深入瞭解[!UICONTROL 對象]清單的使用者介面。
 
 ## 產品建議
 
-按一下「**[!UICONTROL Offers]**」標籤以顯示[!UICONTROL Offers]清單，您可在其中建立體驗和選件，並管理現有的體驗和選件。
+按一下「**[!UICONTROL 選件]**」標籤以顯示「[!UICONTROL 選件]」清單，您可在其中建立體驗和選件，並管理現有的體驗和選件。
 
 體驗可以是產品建議、影像、文字、按鈕、影片或將這些不同元素加以組合，放在頁面、整個網頁或一組頁面上，可能會形成購買漏斗或一些其他的頁面邏輯順序。 也可以是語音助理的回應、客戶服務指令碼，或甚至是飲料機的個人化口味。 您可以在 [!DNL Target] 活動中測試或個人化體驗。
 
-如需[!DNL Target]中選件型別的深入資訊，請參閱[選件](/help/main/c-experiences/c-manage-content/manage-content.md)，並進一步瞭解[!UICONTROL Offer]清單的使用者介面。
+如需[!DNL Target]中選件型別的深入資訊，請參閱[選件](/help/main/c-experiences/c-manage-content/manage-content.md)，並進一步瞭解[!UICONTROL 選件]清單的使用者介面。
 
 ## 推薦
 
-按一下&#x200B;**[!UICONTROL Recommendations]**&#x200B;索引標籤以存取[!DNL Target Recommendations]。
+按一下&#x200B;**[!UICONTROL 建議]**&#x200B;索引標籤以存取[!DNL Target Recommendations]。
 
 >[!NOTE]
 >
->[!UICONTROL Recommendations] 活動是 [!DNL Target Premium] 解決方案內建的功能。 在沒有[!DNL Target Premium]授權的[!DNL Target Standard]中無法使用[!UICONTROL Recommendations]活動。 如需更多資訊，請參閱 *Target 簡介*&#x200B;中的 [Target Premium](/help/main/c-intro/intro.md#premium)。
+>[!UICONTROL Recommendations]活動是[!DNL Target Premium]解決方案內建的功能。 [!UICONTROL Recommendations]活動在沒有[!DNL Target Premium]授權的[!DNL Target Standard]中無法使用。 如需更多資訊，請參閱 *Target 簡介*&#x200B;中的 [Target Premium](/help/main/c-intro/intro.md#premium)。
 
-[!UICONTROL Recommendations]活動可依據先前的使用者活動或其他演演算法，自動顯示可能使客戶感興趣的產品或內容。 推薦有助於將客戶引導至他們可能尚不知道的相關項目。
+[!UICONTROL Recommendations] 活動可依據先前的使用者行為或其他演算法，自動顯示可能使客戶感興趣的產品或內容。 推薦有助於將客戶引導至他們可能尚不知道的相關項目。
 
 如需[!DNL Target]中[!UICONTROL Recommendations]的深入資訊，請參閱[Recommendations](/help/main/c-recommendations/recommendations.md)，並進一步瞭解[!UICONTROL Recommendations]使用者介面。
 
 ## 管理
 
-按一下&#x200B;**[!UICONTROL Administration]**&#x200B;索引標籤以存取[!UICONTROL Administration]頁面。
+按一下&#x200B;**[!UICONTROL 管理]**&#x200B;索引標籤以存取[!UICONTROL 管理]頁面。
 
-[!UICONTROL Administration]頁面可讓您管理[!DNL Target]，包括[!UICONTROL Visual Experience Composer] (VEC)、報告、[!DNL Scene7]組態、實作、主機、環境、回應權杖、使用者和建議的組態設定。
+[!UICONTROL 管理]頁面可讓您管理[!DNL Target]，包括[!UICONTROL 視覺化體驗撰寫器] (VEC)、報告、[!DNL Scene7]組態、實作、主機、環境、回應權杖、使用者和建議的組態設定。
 
 如需深入資訊，請參閱[管理 Target 概觀](/help/main/administrating-target/administrating-target.md)，並進一步瞭解使用者介面。
 

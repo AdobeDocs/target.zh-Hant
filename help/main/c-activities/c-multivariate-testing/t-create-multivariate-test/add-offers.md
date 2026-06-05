@@ -1,31 +1,28 @@
 ---
 keywords: mvt；多變數測試；選件；組合
-description: 瞭解如何在Adobe [!DNL Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)來建立您要包含在[!UICONTROL Multivariate Test] (MVT)中的選件。
-title: 如何在[!UICONTROL Multivariate Test] (MVT)中建立組合？
+description: 瞭解如何在Adobe [!DNL Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立您要包含在[!UICONTROL 多變數測試] (MVT)中的選件。
+title: 如何在[!UICONTROL 多變數測試] (MVT)中建立組合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 TQID: https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 58%
+source-wordcount: 498
+ht-degree: 55%
 
 ---
 
 # 建立組合
 
-在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)來建立您要包含在[!UICONTROL Multivariate Test] (MVT)中的選件。
+在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立您要包含在[!UICONTROL 多變數測試] (MVT)中的選件。
 
 如需有關如何使用 VEC 建立及編輯產品建議的詳細資訊，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 >[!NOTE]
 >
->在頁面上選取物件時，除了原先選取的元素，您可以按一下&#x200B;**[!UICONTROL Expand Selection]**&#x200B;以選取父元素。 選取任何上層元素時，系統會自動選取該元素的所有下層。 您可以展開選取範圍多次。
+>在頁面上選取物件時，除了原先選取的元素，您可以按一下&#x200B;**[!UICONTROL 展開選取範圍]**&#x200B;以選取父元素。 選取任何上層元素時，系統會自動選取該元素的所有下層。 您可以展開選取範圍多次。
 >
 >您也可以使用 [DOM 路徑](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)來導覽元素。
 
@@ -33,9 +30,9 @@ ht-degree: 58%
 
 在一個位置內測試多個影像選件，以判斷最成功的影像。
 
-1. 按一下頁面上的影像，然後選取&#x200B;**[!UICONTROL Change Image Offer]**。
+1. 按一下頁面上的影像，然後選取&#x200B;**[!UICONTROL 變更影像選件]**。
 
-1. 從[!UICONTROL Image Offer]對話方塊中，選取要包含在測試中的所有影像，然後按一下&#x200B;**[!UICONTROL Add]**。
+1. 從[!UICONTROL 影像選件]對話方塊中，選取要包含在測試中的所有影像，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
 每個影像會變成該位置中的個別體驗。
 
@@ -43,13 +40,13 @@ ht-degree: 58%
 
 在一個位置內測試多個 HTML 產品建議，以判斷最成功的產品建議。
 
-1. 按一下頁面上的HTML選件，然後按一下&#x200B;**[!UICONTROL Change HTML Offer]**。
+1. 按一下頁面上的HTML選件，然後按一下&#x200B;**[!UICONTROL 變更HTML選件]**。
 
-1. 按一下&#x200B;**[!UICONTROL Create Offer]**、按一下&#x200B;**[!UICONTROL HTML Offer]**、為選件命名、輸入或貼上HTML選件的程式碼，然後按一下&#x200B;**[!UICONTROL Create]**。
+1. 按一下「**[!UICONTROL 建立選件]**」、按一下「**[!UICONTROL HTML選件]**」、為選件命名、輸入或貼上HTML選件的程式碼，然後按一下「**[!UICONTROL 建立]**」。
 
    對於您要包含的任何其他 HTML 產品建議，重複這樣做。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 每個 HTML 產品建議會變成該位置中的個別體驗。
 

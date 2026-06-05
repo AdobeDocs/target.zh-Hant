@@ -1,26 +1,24 @@
 ---
 keywords: 體驗鎖定目標； XT；活動URL； URL
-description: 瞭解如何指定[!UICONTROL Activity URL]，以決定測試中使用以及使用 [!DNL Adobe Target]設計[!UICONTROL Experience Targeting]活動時開啟的頁面。
-title: 什麼是[!UICONTROL Experience Targeting] (XT)活動中的[!UICONTROL Activity URL]？
+description: 瞭解如何指定[!UICONTROL 活動URL]，以決定測試中使用以及使用 [!DNL Adobe Target]設計[!UICONTROL 體驗鎖定目標]活動時開啟的頁面。
+title: 什麼是[!UICONTROL 體驗鎖定目標] (XT)活動中的[!UICONTROL 活動URL]？
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 268
-ht-degree: 37%
+source-wordcount: 298
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Experience Targeting] (XT)活動中的活動URL
+# [!UICONTROL 體驗鎖定目標] (XT)活動中的活動URL
 
-[!UICONTROL Activity URL]決定[!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT)活動中使用的頁面。 這是設計活動時在[!UICONTROL Visual Experience Composer] (VEC)或[!UICONTROL Form-Based Experience Composer]中開啟的頁面。
+[!UICONTROL 活動URL]決定了[!DNL Adobe Target] [!UICONTROL 體驗鎖定目標] (XT)活動中使用的頁面。 這是設計活動時[!UICONTROL 視覺化體驗撰寫器] (VEC)或[!UICONTROL 表單式體驗撰寫器]中開啟的頁面。
 
-1. 在[建立 XT 活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)期間出現提示時，請指定活動 URL。 輸入完整的URL （包括`https://`），然後按一下&#x200B;**[!UICONTROL Create Activity]**。
+1. 在[建立 XT 活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)期間出現提示時，請指定活動 URL。 輸入完整的URL （包括`https://`），然後按一下&#x200B;**[!UICONTROL 建立活動]**。
 
    >[!NOTE]
    >
@@ -28,15 +26,15 @@ ht-degree: 37%
    >
    >依預設，VEC或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您可以在活動建立期間指定不同的頁面。
    >
-   >如果您指定的網站URL不包括[[!DNL Target] at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant){target=_blank}，則無法選取頁面元素。
+   >如果您指定的網站URL不包括[[!DNL Target] at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}，則無法選取頁面元素。
 
-1. （視條件而定）若要在VEC開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL Configure]**，選取&#x200B;**[!UICONTROL Page Delivery]**，然後在[!UICONTROL URL]欄位中指定URL。
+1. （視條件而定）若要在VEC開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL 設定]**、選取&#x200B;**[!UICONTROL 頁面傳送]**，然後在[!UICONTROL URL]欄位中指定URL。
 
    >[!NOTE]
    >
    >如果您在對一或多個體驗的頁面進行變更之後變更 URL，則體驗會使用新頁面進行重設，而您所進行的變更會遺失。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL Add Rule]**&#x200B;以新增更多頁面或區段至活動。
+1. （視條件而定）按一下「**[!UICONTROL 新增規則]**」以新增更多頁面或區段至活動。
 
    其他規則可以根據以下任何項目:
 
@@ -49,4 +47,4 @@ ht-degree: 37%
 
    可以使用「與」或「或」將其他規則加入活動 URL。 您新增的所有規則會使用「與」彼此進行評估。
 
-1. 完成時，請按一下&#x200B;**[!UICONTROL Save]**。
+1. 完成後，按一下&#x200B;**[!UICONTROL 「儲存」]**。

@@ -2,40 +2,31 @@
 keywords: 環境資料；工作階段資料；地理資料；地理位置資料；裝置資料；行動資料；屬性；設定檔屬性；個人化演演算法；機器學習演演算法；機器學習演演算法
 description: 瞭解 [!DNL Adobe Target] 收集和使用哪些資料來建置其機器學習演演算法。
 title: 系統會收集哪些資料來建置機器學習演演算法？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1986
+source-wordcount: 2009
 ht-degree: 50%
 
 ---
 
 # [!DNL Target]個機器學習演演算法使用的資料
 
-[!DNL Adobe Target]會自動收集並使用各種資料，在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活動中建置其個人化演演算法。 當訪客進入[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Target]活動時，資訊的快照會傳遞至一組「訓練記錄」（個人化演演算法學習的訪客資料）。
+[!DNL Adobe Target]會自動收集並使用各種資料，在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標] (AT)活動中建置其個人化演演算法。 當訪客進入[!UICONTROL Automated Personalization]或[!UICONTROL 自動鎖定目標]活動時，資訊的快照會傳遞至一組「訓練記錄」（個人化演演算法學習的訪客資料）。
 
 若要深入瞭解[!DNL Target]個人化演演算法，請參閱[隨機森林演演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。
 
 ## 預設[!DNL Target]屬性類別
 
-下表顯示[!UICONTROL Automated Personalization]與[!UICONTROL Auto-Target]活動依預設收集的資料，而不含任何[!DNL Target]或其他[!DNL Adobe]解決方案的組態。 此表格也包含在[Personalization前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用於指示這些屬性的命名慣例。 您可以隨時擴大輸入的資料。 若要進一步瞭解如何上傳其他資料，請參閱[上傳 [!DNL Target] 個人化演演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表顯示[!UICONTROL Automated Personalization]與[!UICONTROL 自動鎖定目標]活動依預設收集的資料，且不含[!DNL Target]或其他[!DNL Adobe]解決方案的任何組態。 此表格也包含在[Personalization前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用於指示這些屬性的命名慣例。 您可以隨時擴大輸入的資料。 若要進一步瞭解如何上傳其他資料，請參閱[上傳 [!DNL Target] 個人化演演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
-| 資料類別 | 系統前置詞 | 說明 | 在[!UICONTROL Insights]個報告中顯示名稱 |
+| 資料類別 | 系統前置詞 | 說明 | 在[!UICONTROL 深入分析]報告中顯示名稱 |
 | --- | --- | --- | --- |
 | 環境引數 | 環境 | 使用者環境的相關資訊，包括作業系統、瀏覽器、一天中的時間/星期幾。 | 瀏覽器 — [屬性名稱]<br>作業系統 — [值] |
 | Geography | 地理 | 透過IP查詢取得的使用者地理位置資訊。 | 地理 — [地理屬性] |
@@ -45,24 +36,24 @@ ht-degree: 50%
 
 ## 自訂[!DNL Target]屬性類別
 
-下表顯示[!UICONTROL Automated Personalization]與[!UICONTROL Auto-Target]活動所收集之客戶提供的資料。 只有在您提供此資料時，才會收集此資料。 特定屬性名稱和範例值是您的系統組態所特有的。
+下表顯示[!UICONTROL Automated Personalization]與[!UICONTROL 自動鎖定目標]活動所收集之客戶提供的資料。 只有在您提供此資料時，才會收集此資料。 特定屬性名稱和範例值是您的系統組態所特有的。
 
-| 資料類別 | 系統前置詞 | 說明 | 在[!UICONTROL Insights]個報告中顯示名稱 |
+| 資料類別 | 系統前置詞 | 說明 | 在[!UICONTROL 深入分析]報告中顯示名稱 |
 | --- | --- | --- | --- |
 | 頁面參數 | 方塊 | 在呼叫[!DNL Target]中傳遞的自訂頁面引數（「mbox引數」）。 | 自訂 — Mbox引數 — [引數名稱] |
 | [!DNL Target]設定檔 | PRO | 自訂設定檔屬性會透過API或頁面引數及[!DNL Target]設定檔指令碼直接上傳至[!DNL Target]設定檔。 | 自訂 — 訪客設定檔 — [屬性名稱] |
-| 客戶屬性 | CRS | 透過[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hant){target=_blank}上傳至[!DNL Target]設定檔的客戶屬性。 | 自訂 — 訪客設定檔 — [屬性名稱] |
+| 客戶屬性 | CRS | 透過[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}上傳至[!DNL Target]設定檔的客戶屬性。 | 自訂 — 訪客設定檔 — [屬性名稱] |
 | URL 參數 | URL | 目前檢視頁面的URL和任何URL引數。 | 自訂 — URL引數 — [URL引數] |
 | 反向連結 URL | 參照 | 反向連結URL和反向連結URL的任何URL引數。 | 自訂 — [反向連結URL引數] - [引數值] |
-| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 從其他[!DNL Adobe Experience Cloud]解決方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，透過[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hant){target=_blank}）與[!DNL Target]共用所有對象。 | 自訂 — Experience Cloud對象 — [對象名稱] |
-| [!DNL Adobe Experience Platform Real-time CDP]個對象 | UPS | 透過[!UICONTROL Destinations]與[!DNL Target]共用的Platform Real-time CDP對象。 |  |
+| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 從其他[!DNL Adobe Experience Cloud]解決方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，透過[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}）與[!DNL Target]共用所有對象。 | 自訂 — Experience Cloud對象 — [對象名稱] |
+| [!DNL Adobe Experience Platform Real-time CDP]個對象 | UPS | 透過[!UICONTROL 目的地]與[!DNL Target]共用的Platform Real-time CDP對象。 |  |
 
 
 ## 正在封鎖[!DNL Target]機器學習演演算法的功能
 
-可以從[!DNL Target]機器學習演演算法中封鎖功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Target]模型或活動中使用這些功能。
+可以從[!DNL Target]機器學習演演算法中封鎖功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL 自動鎖定目標]模型或活動中使用這些功能。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target]開發人員指南*&#x200B;中的[模型API （封鎖清單）概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target]開發人員指南*&#x200B;中的[模型API （封鎖清單）概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。
 
 ## 裝置和行動資料 {#device-mobile}
 

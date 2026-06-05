@@ -6,35 +6,23 @@ feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2:
-  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129id: c011fe9c-b94b-4a88-93d8-f2acece55112id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 49%
+source-wordcount: 721
+ht-degree: 47%
 
 ---
 
-# 設定[!UICONTROL Visual Experience Composer]
+# 設定[!UICONTROL 視覺化體驗撰寫器]
 
-透過指定其一般設定、行動檢視區設定和CSS選取器來設定[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)。
+設定[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)，方法是指定其一般設定、行動檢視區組態和CSS選取器。
 
-若要存取[!UICONTROL Visual Experience Composer]設定頁面，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+若要存取[!UICONTROL 視覺化體驗撰寫器]設定頁面，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]。**
 
 {{permissions-update}}
 
@@ -44,7 +32,7 @@ ht-degree: 49%
 
 ## 一般設定
 
-您可以為[!UICONTROL Visual Experience Composer]指定一般設定。
+您可以指定[!UICONTROL 視覺化體驗撰寫器]的一般設定。
 
 ![一般設定區段](/help/main/administrating-target/assets/general-settings.png)
 
@@ -52,19 +40,19 @@ ht-degree: 49%
 
 ### 預設 URL
 
-設定[!UICONTROL Visual Experience Composer]使用的預設URL。 這是每當您為每個新增活動設定體驗時會使用的預設頁面 (例如您的首頁)。 如果您不設定預設的 URL，則必須在建立活動時，為每個活動輸入 URL。
+設定[!UICONTROL 可視化體驗撰寫器]所使用的預設 URL。 這是每當您為每個新增活動設定體驗時會使用的預設頁面 (例如您的首頁)。 如果您不設定預設的 URL，則必須在建立活動時，為每個活動輸入 URL。
 
 ### 啟用增強體驗撰寫器 {#eec}
 
-允許在 iframe-busting 網站以及含有混合內容的網站上編輯。 部分網站可能與增強型版本不相容。 取消選取此選項以還原至原始[!UICONTROL Visual Experience Composer]。 此選擇不會影響網站上的活動傳送。
+允許在 iframe-busting 網站以及含有混合內容的網站上編輯。 部分網站可能與增強型版本不相容。 取消選取此選項以還原至原始[!UICONTROL 視覺化體驗撰寫器]。 此選擇不會影響網站上的活動傳送。
 
 如需詳細資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
-您也可以在活動層級啟用[!UICONTROL Enhanced Experience Composer]。
+您也可以在活動層級啟用[!UICONTROL 增強體驗撰寫器]。
 
 ### 載入混合內容
 
-使用[!UICONTROL Enhanced Experience Composer] (EEC)開啟網站時啟用混合式內容。 啟用此選項可避免透過[!DNL Target]個Proxy伺服器載入靜態資源的額外負荷。
+使用[!UICONTROL 增強體驗撰寫器] (EEC)開啟網站時啟用混合內容。 啟用此選項可避免透過[!DNL Target]個Proxy伺服器載入靜態資源的額外負荷。
 
 例如，如果發生下列情況，此選項會很有幫助：
 
@@ -79,14 +67,14 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->[!UICONTROL Mobile Viewport Configuration]設定是[Target Premium](/help/main/c-intro/intro.md#premium)功能。
+>[!UICONTROL 行動檢視區組態]設定是[Target Premium](/help/main/c-intro/intro.md#premium)功能。
 
 
 您可以新增裝置以在預覽體驗時使用。 每個裝置有相關聯的對象。
 
 ![行動檢視區設定區段](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-按一下&#x200B;**[!UICONTROL Add]**，指定行動檢視區的描述性名稱、指定寬度和高度、選取所需的作業系統，然後按一下[!UICONTROL Save]。
+按一下[新增]****，指定行動檢視區的描述性名稱、指定寬度和高度、選取所需的作業系統，然後按一下[儲存]。
 
 如需如何新增行動檢視區的詳細資訊，請參閱[行動檢視區設定](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 
@@ -106,17 +94,17 @@ ht-degree: 49%
 
 ### 使用元素類別
 
-依預設，[!DNL Target] 僅使用元素 ID。 不過，如果您的頁面設計成使用類別來識別元素（例如使用[!DNL Adobe Experience Manager]建立的頁面），您也應該選取[!UICONTROL Use element classes]。
+依預設，[!DNL Target] 僅使用元素 ID。 不過，如果您的頁面設計成使用類別來識別元素，例如使用[!DNL Adobe Experience Manager]建立的頁面，您也應該選取[!UICONTROL 使用元素類別]。
 
 >[!NOTE]
 >
 >雖然您已完成各個專案來確保準確性，請注意使用類別可能造成錯誤。 如果您不選取這兩個選項中的一個，準確性也會受到影響。 準確性的順序為: ID > 類別 > 兩個選項皆不選取。 請務必測試您的頁面以確定選取器皆正確。
 
-您可以為每個活動覆寫此設定（按一下[!UICONTROL Settings]齒輪圖示，然後選取[!UICONTROL CSS Selectors]）。 如果您有多個設定方式不同的網站，這特別實用。
+您可以為每個活動覆寫此設定（按一下[!UICONTROL 設定]齒輪圖示，然後選取[!UICONTROL CSS選取器]）。 如果您有多個設定方式不同的網站，這特別實用。
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]和[!UICONTROL Multivariate Testing]活動中無法使用每個活動的覆寫設定。  如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)。
+>在[!UICONTROL Automated Personalization]和[!UICONTROL Multivariate Testing]活動中，無法覆寫每個活動的設定。  如需選取器的其他資訊，請參閱[可視化體驗撰寫器中使用的元素選取器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)。
 
 ## 訓練影片：帳戶偏好設定(7:33) ![總覽徽章](/help/main/assets/overview.png)
 
@@ -126,6 +114,6 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]功能表UI （先前稱為[!UICONTROL Setup]）已經過重新設計，可提供改良的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 以下影片中的資訊通常是正確的，但是選項的位置可能略有不同。 我們很快就會發佈更新的影片。
+>[!DNL Target] [!UICONTROL 管理]功能表UI （先前稱為[!UICONTROL 安裝程式]）已經過重新設計，可提供改良的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 以下影片中的資訊通常是正確的，但是選項的位置可能略有不同。 我們很快就會發佈更新的影片。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

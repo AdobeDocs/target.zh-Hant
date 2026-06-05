@@ -5,28 +5,20 @@ title: 如何為 [!DNL Target] (A4T)實作Analytics？
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1168
-ht-degree: 19%
+source-wordcount: 1194
+ht-degree: 18%
 
 ---
 
 # Analytics for [!DNL Target]實作
 
-實作[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源時，需要幾個步驟。 此程式會因您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)或使用at.js實作A4T而有所不同。
+實作[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源時，需要幾個步驟。 此程式會因您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)或使用at.js實作A4T而有所不同。
 
 ## 適用於Adobe Experience Platform Web SDK實作的![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png)實作步驟 {#platform}
 
@@ -42,18 +34,18 @@ ht-degree: 19%
 
 ### 步驟3：建立Edge設定
 
-使用[!DNL Adobe Experience Platform]使用邊緣組態工具建立Edge組態。 設定[建立和設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)。
+使用[!DNL Adobe Experience Platform]使用邊緣組態工具建立Edge組態。 設定[建立和設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
 
 ### 步驟4：安裝並設定Platform Web SDK
 
-若要開始傳遞[!DNL Target]體驗，並套用[!DNL Analytics]以追蹤和分析，請在您的網站頁面上[安裝](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)和[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) Platform Web SDK。
+若要開始傳遞[!DNL Target]體驗，並套用[!DNL Analytics]以追蹤和分析，請在您的網站頁面上[安裝](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)和[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) Platform Web SDK。
 
 ### 步驟5：啟用使用A4T的選項
 
-在[!DNL Target] UI中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**，然後選擇&#x200B;**[!UICONTROL Select per activity]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**。
+在[!DNL Target] UI中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]**，然後選擇&#x200B;**[!UICONTROL 為每個活動選取]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**。
 
-* 建立每個活動時，**[!UICONTROL Select per activity]**&#x200B;可讓您選擇[!DNL Target]與[!DNL Analytics]。
-* **[!UICONTROL Adobe Analytics]**&#x200B;將[!DNL Analytics]設為您建立的所有活動的報表來源。
+* **[!UICONTROL 為每個活動選取]**&#x200B;可讓您在建立每個活動時選擇[!DNL Target]到[!DNL Analytics]。
+* **[!UICONTROL Adobe Analytics]**&#x200B;已將[!DNL Analytics]設為您建立的所有活動的報表來源。
 
 ## ![at.js badge](/help/main/assets/atjs.png) at.js實作的實作步驟{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -71,15 +63,15 @@ ht-degree: 19%
 
 訪客ID服務可讓您識別[!DNL Adobe Experience Cloud]解決方案中的使用者。 實作或移轉至必要的Experience Cloud訪客ID版本。 如需詳細資訊，請參閱[實作之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-請參閱&#x200B;*Experience Cloud訪客ID服務*&#x200B;檔案中的[實作Experience Cloud ID服務（適用於Target）](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=zh-Hant)。
+請參閱&#x200B;*Experience Cloud訪客ID服務*&#x200B;檔案中的[實作Target的Experience Cloud ID服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)。
 
 ### 步驟4: 更新 AppMeasurement for JavaScript 或 s_code
 
 實作或移轉至必要的appMeasurement.js版本。 如需詳細資訊，請參閱[實作之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)中的「實作需求」。
 
-如需新的實作，請參閱&#x200B;*JavaScript實作指南*&#x200B;中的[Analytics實作概觀](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant)。
+如需新的實作，請參閱&#x200B;*JavaScript實作指南*&#x200B;中的[Analytics實作概觀](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)。
 
-如需移轉，請參閱&#x200B;*Analytics實作指南*&#x200B;中的[移轉至JavaScript的AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=zh-Hant)。
+如需移轉，請參閱&#x200B;*Analytics實作指南*&#x200B;中的[移轉至JavaScript的AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)。
 
 ### 步驟5：下載並更新at.js
 
@@ -129,7 +121,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-接著，裝載可透過[資料插入API](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)轉送至Analytics。 針對「自動分配」和「自動鎖定目標」活動，您也必須轉送sessionId。 如需詳細資訊，請參閱&#x200B;*Adobe Target SDK*&#x200B;指南中的[Analytics for Target (A4T)報告](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=zh-Hant){target=_blank}。
+接著，裝載可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)轉送至Analytics。 針對「自動分配」和「自動鎖定目標」活動，您也必須轉送sessionId。 如需詳細資訊，請參閱&#x200B;*Adobe Target SDK*&#x200B;指南中的[Analytics for Target (A4T)報告](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}。
 
 如果不需要全域設定，且偏好使用更隨需提供的方法，請傳入&#x200B;**analyticsLogging： &quot;client_side&quot;**&#x200B;以使用at.js函式[getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank}。 只會針對此呼叫傳回分析裝載，且[!DNL Target]後端不會將裝載轉送至[!DNL Analytics]。 透過採用此方法，每個at.js [!DNL Target]要求都會依預設傳回裝載，但只有在需要和指定時才會傳回。
 
@@ -187,7 +179,7 @@ adobe.target.getOffers({
 }
 ```
 
-然後可透過[資料插入API](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉送至[!DNL Analytics]。
+然後可透過[資料插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)將裝載轉送至[!DNL Analytics]。
 
 ### 步驟8: 驗證實作 {#step8}
 
@@ -205,9 +197,9 @@ Adobe建議您移除先前的整合，以簡化實作，也不必解決系統之
 
 ### 步驟10: 啟用以 Analytics 作為 Target 的報表來源的選項
 
-在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration > Reporting]**&#x200B;並選擇&#x200B;**[!UICONTROL Select per activity]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;以啟用選項。
+在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理>報表]**&#x200B;並選擇&#x200B;**[!UICONTROL 為每個活動選取]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;以啟用選項。
 
-* 建立每個活動時，**[!UICONTROL Select per activity]**&#x200B;可讓您選擇[!DNL Target]與[!DNL Analytics]。
-* **[!UICONTROL Adobe Analytics]**&#x200B;將[!DNL Analytics]設為您建立的所有活動的報表來源。
+* **[!UICONTROL 為每個活動選取]**&#x200B;可讓您在建立每個活動時選擇[!DNL Target]到[!DNL Analytics]。
+* **[!UICONTROL Adobe Analytics]**&#x200B;已將[!DNL Analytics]設為您建立的所有活動的報表來源。
 
 

@@ -5,30 +5,14 @@ title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2806
-ht-degree: 51%
+source-wordcount: 2871
+ht-degree: 50%
 
 ---
 
@@ -38,7 +22,7 @@ ht-degree: 51%
 
 ## 一般資訊 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**我可以在哪裡找到有關更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的資訊？**
+**我可以在哪裡找到有關更新的[!DNL Target] UI和[!UICONTROL 視覺化體驗撰寫器] (VEC)的資訊？**
 
 +++檢視詳細資料
 
@@ -69,14 +53,14 @@ ht-degree: 51%
 **是否有[!DNL Adobe]社群/論壇，我可以在這裡找到關於[!DNL Target]的答案和詳細資訊？**
 
 +++檢視詳細資料
-在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
+在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
 
 +++
 
 **[!DNL Target]支援哪些瀏覽器？**
 
 +++檢視詳細資料
-如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
+如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
 
 +++
 
@@ -147,7 +131,7 @@ ht-degree: 51%
 **我已在我的活動中建立多個目標。 我可以建立一連車的目標作為報表和分析用途的漏斗嗎? 例如，我想要在使用者達成目標A時考慮目標B，以便我可以追蹤特定funnel的數字。**
 
 +++檢視詳細資料
-[!DNL Target]有可靠的方式可透過我們的[!UICONTROL Metrics Dependency]功能達成此目的。 只需要[在其他成功度量上新增相依性](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)。 您有類似「達到」和「未達到」之類的選項，並能夠以多個方式結合度量來建立您需要的任何組合。
+[!DNL Target]有可靠的方法可透過我們的[!UICONTROL 量度相依性]功能達成此目的。 只需要[在其他成功度量上新增相依性](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)。 您有類似「達到」和「未達到」之類的選項，並能夠以多個方式結合度量來建立您需要的任何組合。
 
 +++
 
@@ -156,32 +140,32 @@ ht-degree: 51%
 +++檢視詳細資料
 這就是[目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)的功能。
 
-您應該從知道要對什麼進行最佳化開始。 它是[!UICONTROL Revenue]、[!UICONTROL Conversion]或[!UICONTROL Engagement]嗎？ 這些選項的每個都可在目標小節中取得。 而您可以對這每個項目，進一步定義為了符合達到目標的資格，使用者在您的網站會進行的動作。
+您應該從知道要對什麼進行最佳化開始。 是[!UICONTROL 收入]、[!UICONTROL 轉換]或[!UICONTROL 參與]？ 這些選項的每個都可在目標小節中取得。 而您可以對這每個項目，進一步定義為了符合達到目標的資格，使用者在您的網站會進行的動作。
 
-三步驟引導式工作流程步驟3中的[!UICONTROL Primary Goal]設定可讓此專案成為可能。 您也可以新增其他目標，以協助您取得更佳的報告。
+三步驟引導式工作流程步驟3中的[!UICONTROL 主要目標]設定可讓此功能運作。 您也可以新增其他目標，以協助您取得更佳的報告。
 
 +++
 
 **我可以將活動排程在固定時間開始和結束嗎？**
 
 +++檢視詳細資料
-使用三步驟活動工作流程的[!UICONTROL Goals & Settings][&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的排程功能，指定開始和結束日期。
+使用三部分活動工作流程的[!UICONTROL 目標與設定]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的[排程功能，指定開始和結束日期。
 
-記得啟動活動。 只有線上活動才會遵循指定的排程。 達到結束日期之後，活動會進入[!UICONTROL Ended]狀態。
+記得啟動活動。 只有線上活動才會遵循指定的排程。 達到結束日期之後，活動會進入[!UICONTROL 已結束]狀態。
 
 +++
 
-**我可以只對[!UICONTROL Targeting]步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯？**
+**我可以只對[!UICONTROL 鎖定目標]步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯？**
 
 +++檢視詳細資料
-您可以從[!UICONTROL Activity Overview]頁面[&#128279;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您選擇的所需步驟，然後使用[!UICONTROL Save and Close]選項從該步驟結束，以輕鬆完成此操作。
+您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。[
 
 +++
 
 **我可以停留在特定步驟上，持續修改活動 (例如產品建議文字或自訂代碼)，然後在另一個索引標籤中執行 QA 嗎？**
 
 +++檢視詳細資料
-這是可能的。 只要[使用可用的[!UICONTROL Save]選項即可進行累加變更，而不需離開步驟](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+這是可能的。 只要[使用可用的[!UICONTROL 儲存]選項即可進行累加變更，而不需離開步驟](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
 
 +++
 
@@ -202,18 +186,18 @@ ht-degree: 51%
 **我可以設定一些活動的優先順序嗎？**
 
 +++檢視詳細資料
-使用[!DNL Target]三步驟引導式工作流程步驟3 （目標與設定頁面）上可用的[!UICONTROL Priority]設定來[定義活動的優先順序](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
+使用[!DNL Target]三步驟引導式工作流程步驟3 （目標與設定頁面）上可用的[!UICONTROL 優先順序]設定來[定義活動的優先順序](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
 
 提供兩個選項:
 
 * 預設，具有三個層級 (低/中/高)
-* 自訂，範圍從 0 到 999。 針對自訂，請啟用[!UICONTROL Fine-Grained Priorities]功能([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer])。
+* 自訂，範圍從 0 到 999。 針對自訂，請啟用[!UICONTROL 微調優先順序]功能（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
 
 +++
 
 ## 客群 {#section_FA6314777ABC46D8B198D6F388051460}
 
-**我可以在活動特定的活動中建立客群區段嗎？ 我不認為應該在[!UICONTROL Audience Library]中建立這類對象，因為沒有重複使用的係數。**
+**我可以在活動特定的活動中建立客群區段嗎？ 我不認為應該在[!UICONTROL 對象庫]中建立這類對象，因為沒有重複使用的係數。**
 
 +++檢視詳細資料
 開始使用[僅限於此活動的客群功能](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)來定義活動本端的客群。
@@ -254,7 +238,7 @@ ht-degree: 51%
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -268,7 +252,7 @@ ht-degree: 51%
 
 +++
 
-**我對於我嘗試在[!UICONTROL Visual Experience Composer] (VEC)中載入我的頁面時出現的「允許您的瀏覽器載入指令碼」訊息感到很困擾。 我如何避免此情況？**
+**我對於我嘗試在[!UICONTROL 視覺化體驗撰寫器] (VEC)中載入我的頁面時出現的「允許您的瀏覽器載入指令碼」訊息感到很困擾。 我如何避免此情況？**
 
 +++檢視詳細資料
 這是因為您的網站有混合式內容 — 這是一個會擷取HTTP和HTTPS資源的網站。 請要求您的 IT 團隊完成改用 HTTPS。
@@ -277,35 +261,35 @@ ht-degree: 51%
 
 +++
 
-**我可以在我的網站上嘗試[!UICONTROL Visual Experience Composer] (VEC)，即使[!DNL Target] at.js資料庫尚未部署？**
+**我可以在我的網站上嘗試[!UICONTROL 視覺化體驗撰寫器] (VEC)，即使[!DNL Target] at.js資料庫尚未部署？**
 
 +++檢視詳細資料
 嘗試使用[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)載入頁面。
 
 +++
 
-**為什麼我的網站沒有在[!UICONTROL Visual Experience Composer] (VEC)內載入？**
+**為什麼我的網站沒有在[!UICONTROL 視覺化體驗撰寫器] (VEC)內載入？**
 
 +++檢視詳細資料
 請嘗試運用說明頁面中概述的[疑難排解資訊](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。 如果這些方法都沒有效，請向 [Adobe 支援](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)求助。。
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單[。
 
 +++
 
 **我有回應式網站。 建立活動時，我如何確定我考慮的是重要裝置？**
 
 +++檢視詳細資料
-請試用[行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。 請注意，它只有在啟用[!UICONTROL Enhanced Experience Composer]時才有作用。
+請試用[行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。 請注意，它只有在啟用[!UICONTROL 增強體驗撰寫器]時才有作用。
 
 +++
 
-**我有多個網域。 其中一個網域需要啟用[!UICONTROL Enhanced Experience Composer]，而其他網域則需要將其停用。 我應該怎麼做？**
+**我有多個網域。 其中一個網域需要啟用[!UICONTROL 增強體驗撰寫器]，而其他網域則需要將其停用。 我應該怎麼做？**
 
 +++檢視詳細資料
-您一律可以使用活動層級[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增強體驗撰寫器選項來覆寫預設設定([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer])。
+您一律可以使用活動層級](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
 
 +++
 
@@ -323,10 +307,10 @@ ht-degree: 51%
 
 +++
 
-**我如何看到我在[!UICONTROL Visual Experience Composer] (VEC)中進行的修改？**
+**我如何看到我在[!UICONTROL 視覺化體驗撰寫器] (VEC)中進行的修改？**
 
 +++檢視詳細資料
-我們會一律將您的變更顯示在[代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中。 [!UICONTROL Modifications]索引標籤會顯示您套用至選件的CSS選取器或mbox。
+我們會一律將您的變更顯示在[代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中。 [!UICONTROL 修改]索引標籤會顯示您套用至選件的CSS選取器或mbox。
 
 請注意，CSS 選取器為 Sizzle 選取器。 您可以使用此區段來快速進行次要的修改或刪除某些產品建議。
 
@@ -339,10 +323,10 @@ ht-degree: 51%
 
 +++
 
-**為什麼我無法通過[!UICONTROL Visual Experience Composer] (VEC)的登入頁面，或是進入我沒有特定URL、深藏在其中的頁面？**
+**為什麼我無法通過[!UICONTROL 視覺化體驗撰寫器] (VEC)的登入頁面，或是進入我沒有特定URL、深藏在其中的頁面？**
 
 +++檢視詳細資料
-使用[!UICONTROL Compose]和[!UICONTROL Browse]功能導覽至所選擇的頁面，並開始建立您的體驗。
+使用[!UICONTROL 撰寫]和[!UICONTROL 瀏覽]功能來導覽至所選擇的頁面，並開始建立您的體驗。
 
 ![設計和瀏覽切換](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -401,7 +385,7 @@ ht-degree: 51%
 查看產品的下列方面:
 
 * [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -409,9 +393,9 @@ ht-degree: 51%
 **我可以在多個使用者區段上分解報表嗎？**
 
 +++檢視詳細資料
-這是三步驟引導式活動工作流程步驟3之[!UICONTROL Goals & Settings]頁面上所提供[報表對象功能](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)的功能。
+這是三個步驟引導式活動工作流程步驟3 [!UICONTROL 目標與設定]頁面上可用的[報表對象功能](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)的功能。
 
-您可以選擇新增50個這類區段以及應用程式點（[!UICONTROL Activity Entry]或特定量度），以擁有強大的方式進行分解。
+您可以選擇新增50個這類區段以及應用程式點（[!UICONTROL 活動專案]或特定量度），以擁有強大的方式進行分解。
 
 請注意，[!DNL Target]會收集您新增這些對象時的相關資料，因此如果您在執行測試之前未新增區段，那就不好了。
 
@@ -427,11 +411,11 @@ ht-degree: 51%
 **我可以執行離線報表計算？**
 
 +++檢視詳細資料
-使用[!UICONTROL Reports]頁面上的[匯出報表至CSV和下載訂單詳細資料至CSV選項](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)來下載需要的報表資料。
+使用[!UICONTROL 報表]頁面上的[匯出報表至CSV和下載訂單詳細資料至CSV選項](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)來下載需要的報表資料。
 
 +++
 
-**我可以變更評估報表的控制體驗，或將計數方法從[!UICONTROL Visitors]變更為[!UICONTROL Visits]嗎？**
+**我可以變更評估報表的控制體驗，或將計數方法從[!UICONTROL 訪客]變更為[!UICONTROL 造訪]？**
 
 +++檢視詳細資料
 使用[報表頁面上的設定齒輪圖示](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)來進行這些變更。 進一步閱讀這些設定以瞭解計算方式的差異。
@@ -475,6 +459,6 @@ ht-degree: 51%
 **我可以在何處進一步瞭解[!DNL Target] API？**
 
 +++檢視詳細資料
-我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
+我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

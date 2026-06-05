@@ -5,16 +5,12 @@ title: 如何在我的瀏覽器中啟用混合式內容
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 87%
+source-wordcount: 566
+ht-degree: 85%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 87%
 
 如果安全內容與不安全內容混合，新型瀏覽器可能會封鎖頁面的顯示或顯示警告訊息。
 
-如果[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)嘗試開啟包含混合式內容的頁面，則會顯示警告訊息。 此訊息會通知您如何在瀏覽器中停用封鎖功能。 停用封鎖功能可讓您開啟 HTTP 網站或具有混合式內容的網站 (HTTPS 和 HTTP)。
+如果[!DNL Adobe Target]中的[!UICONTROL 視覺化體驗撰寫器] (VEC)嘗試開啟包含混合式內容的頁面，則會顯示警告訊息。 此訊息會通知您如何在瀏覽器中停用封鎖功能。 停用封鎖功能可讓您開啟 HTTP 網站或具有混合式內容的網站 (HTTPS 和 HTTP)。
 
 ![混合式內容警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -48,11 +44,11 @@ ht-degree: 87%
 
 如果您正在搭配最新版 [!DNL Chrome] (版本 79.0.3945.117 或更新版本) 使用 VEC，您必須更新網站設定。 您網站的訪客不需要完成這些步驟。
 
-1. 按一下掛鎖（警告）圖示，然後按一下&#x200B;**[!UICONTROL Site settings]**。
+1. 按一下掛鎖（警告）圖示，然後按一下&#x200B;**[!UICONTROL 網站設定]**。
 
    ![網站設定](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. 捲動至&#x200B;**[!UICONTROL Insecure content]**，然後使用下拉式清單將「封鎖（預設）」變更為「允許」。
+1. 捲動到&#x200B;**[!UICONTROL 不安全內容]**，然後使用下拉式清單將「封鎖（預設）」變更為「允許」。
 
    ![不安全內容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -85,10 +81,10 @@ ht-degree: 87%
 
 如果您正在搭配最新版 [!DNL Edge] 使用 VEC，您必須更新網站設定。 您網站的訪客不需要完成這些步驟。
 
-1. 在[!DNL Edge]中，按一下功能表列&#x200B;**[!UICONTROL Settings]**&#x200B;中的&#x200B;**[!DNL Microsoft Edge]**，然後按一下&#x200B;**Cookie與網站許可權**。
+1. 在[!DNL Edge]中，按一下功能表列&#x200B;**[!UICONTROL 設定]**&#x200B;中的&#x200B;**[!DNL Microsoft Edge]**，然後按一下&#x200B;**Cookie和網站許可權**。
 
-1. 捲動至&#x200B;**[!UICONTROL Insecure content]**。
+1. 捲動至&#x200B;**[!UICONTROL 不安全的內容]**。
 
-1. 按一下&#x200B;**[!UICONTROL Insecure content]**，然後按一下&#x200B;**[!UICONTROL Allow]**&#x200B;旁的&#x200B;**[!UICONTROL Add]**，新增允許不安全內容的網站，然後按一下&#x200B;**[!UICONTROL Add]**。
+1. 按一下&#x200B;**[!UICONTROL 不安全內容]**，然後按一下&#x200B;**[!UICONTROL 允許]**&#x200B;旁的&#x200B;**[!UICONTROL 新增]**，新增允許不安全內容的網站，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
 1. 重新載入 VEC 頁面。

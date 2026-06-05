@@ -5,25 +5,21 @@ title: ' [!DNL Target] 如何將優先順序指派給不同的活動？'
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 36%
+source-wordcount: 987
+ht-degree: 34%
 
 ---
 
 # 優先順序
 
-[!DNL Adobe Target]會根據您使用的[!DNL Target]介面以及活動建立功能（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)），以不同方式決定要傳遞至頁面的活動（或哪些活動）。
+[!DNL Adobe Target]會根據您使用的[!DNL Target]介面以及活動建立功能([[!UICONTROL 視覺化體驗撰寫器(VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md))，以不同方式決定要傳遞至頁面的活動（一或多個活動）。
 
-## 僅[!UICONTROL Visual Experience Composer]或僅使用全域[!DNL Target]請求的[!UICONTROL Form-Based Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 僅[!UICONTROL 視覺化體驗撰寫器]，或僅使用全域[!DNL Target]請求的[!UICONTROL 表單式體驗撰寫器] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 如果您的公司僅使用VEC，則同一呼叫可傳回多個活動的內容。 活動依據下列決策流程來傳送:
 
@@ -31,7 +27,7 @@ ht-degree: 36%
 1. [!DNL Target]提取該URL上執行的每個活動。
 1. [!DNL Target]次嘗試將訪客配對至活動。
 
-   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該活動，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
+   如果訪客已經在[!UICONTROL A/B測試]或[!UICONTROL 多變數測試]活動中，則會符合該活動，直到轉換為止。 如果他們之前在[!UICONTROL 體驗鎖定目標]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 訪客符合的所有活動和體驗的內容會傳回至頁面。
 1. 如果每個活動的內容參考不同的[CSS選取器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，則會顯示所有內容。
@@ -47,9 +43,9 @@ ht-degree: 36%
    * 如果只有一個活動有對象鎖定目標，則會顯示該活動。
    * 如果全部或都沒有目標定位，則會顯示先核准的活動。
 
-## [!UICONTROL Form-Based Experience Composer]和[!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
+## [!UICONTROL 表單式體驗撰寫器]和[!UICONTROL 視覺化體驗撰寫器] {#section_4620253E1CE942DD830724C7822B175F}
 
-如果您的公司使用[!UICONTROL Form-Based Experience Composer] *和* VEC，則來自多個[!UICONTROL Form-Based Experience Composer]和VEC活動的內容可以傳送。 以前，表單式工作流程中只能傳送一個活動。 可提供的表單式活動數量不再有任何限制。
+如果您的公司使用[!UICONTROL 表單式體驗撰寫器] *和* VEC，則來自多個[!UICONTROL 表單式體驗撰寫器]和VEC活動的內容可以傳送。 以前，表單式工作流程中只能傳送一個活動。 可提供的表單式活動數量不再有任何限制。
 
 活動傳遞是使用下列決策流程決定:
 
@@ -57,7 +53,7 @@ ht-degree: 36%
 1. [!DNL Target]提取該[!DNL Target]要求中執行的每個活動。
 1. [!DNL Target]次嘗試將訪客配對至活動。
 
-   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該測試，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
+   如果訪客已經在[!UICONTROL A/B測試]或[!UICONTROL 多變數測試]活動中，則會符合該測試，直到轉換為止。 如果他們之前在[!UICONTROL 體驗鎖定目標]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 如果表單式活動為最高優先順序，則會傳回該活動內容以及VEC活動中的所有相符活動內容。
 1. 如果VEC活動是最高優先順序，則會傳回所有相符VEC活動的內容，但不會傳回任何表單式活動內容。
@@ -70,7 +66,7 @@ ht-degree: 36%
 
 如果兩個已鎖定的目標活動有相同的優先順序，則會顯示最近檢視的活動。 如果訪客是首次前往頁面，則顯示最近啟動的活動。
 
-## 具有非全域[!DNL Target]請求的[!UICONTROL Form-Based Experience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 具有非全域[!DNL Target]要求的[!UICONTROL 表單式體驗撰寫器] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 如果您的公司使用表單式撰寫器中全域[!DNL Target]請求以外的[!DNL Target]請求，則每個呼叫只能傳回一個活動的內容。 活動傳遞是使用下列決策流程決定:
 
@@ -78,7 +74,7 @@ ht-degree: 36%
 1. [!DNL Target]提取該[!DNL Target]要求中執行的每個活動。
 1. [!DNL Target]嘗試將訪客配對至最高優先順序的活動。
 
-   如果訪客已經在[!UICONTROL A/B Test]或[!UICONTROL Multivariate Test]活動中，他們會符合該活動，直到他們轉換。 如果他們先前在[!UICONTROL Experience Targeting]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
+   如果訪客已經在[!UICONTROL A/B測試]或[!UICONTROL 多變數測試]活動中，則會符合該活動，直到轉換為止。 如果他們之前在[!UICONTROL 體驗鎖定目標]活動中，則必須再次符合該活動。 如果他們符合客群規則，則訪客會落入這些活動中並進入特定體驗。
 
 1. 如果有多個活動共用優先順序層級，則有兩個分界線：
 
@@ -89,18 +85,18 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->視您的設定而定，優先順序值會有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的舊版設定，也可以啟用0到999的精細優先順序。 如需詳細資訊，請參閱[活動設定](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
+>視您的設定而定，優先順序值會有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的舊設定，或者您可以啟用從0到999的微調優先順序。 如需詳細資訊，請參閱[活動設定](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
 
 回應: offer1
 
-**兩個活動只會使用在[!UICONTROL Visual Experience Composer]中針對不同選取器建立的選件**
+**兩個活動只會針對不同的選取器，使用在[!UICONTROL 視覺化體驗撰寫器]中建立的選件**
 
 * 活動 1: target-global-mbox, selector1, visualExpCompOffer1, 低優先順序
 * 活動 2: target-global-mbox，selector2，visualExpCompOffer2，優先順序高
 
 回應: visualExpCompOffer1, visualExpCompOffer2
 
-**兩個活動只會使用在[!UICONTROL Visual Experience Composer]中為相同選取器建立的選件**
+**兩個活動只會使用在[!UICONTROL 視覺化體驗撰寫器]中為相同選取器**&#x200B;建立的選件
 
 * 活動 1: target-global-mbox, selector1, visualExpCompOffer1, 低優先順序
 * 活動 2: target-global-mbox，selector1，visualExpCompOffer2，優先順序高

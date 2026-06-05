@@ -5,18 +5,13 @@ title: 如何在A4T中使用報表？
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1269
-ht-degree: 38%
+source-wordcount: 1316
+ht-degree: 41%
 
 ---
 
@@ -34,7 +29,7 @@ ht-degree: 38%
 
 每次訪客在頁面上看到活動內容時，[!DNL Target]都會對[!DNL Analytics]發出直接的伺服器對伺服器呼叫，包括訪客看到的活動和體驗。 每次進行轉換時，[!DNL Target]也會呼叫[!DNL Analytics]。 [!DNL Analytics]將轉換新增為名為「活動轉換」的特定新[!DNL Analytics]事件，此事件會與[!DNL Analytics]收集的其他資料一起追蹤。
 
-使用[!UICONTROL Select]作業且您對&#x200B;*加入者*&#x200B;排序時，報表中只會顯示所選時段內收到加入者的體驗。
+當使用[!UICONTROL Select]作業且您對&#x200B;*加入者*&#x200B;進行排序時，則報告中只會顯示選定時段內收到加入者的體驗。
 
 >[!NOTE]
 >
@@ -47,21 +42,21 @@ ht-degree: 38%
 ### 維度
 
 * [!UICONTROL Analytics for Target] — 透過整合傳入的父識別碼。 此維度的格式為`Activity ID:Experience ID:3rd ID`。 以下維度是此維度的分類。
-* [!UICONTROL Target Activities]
-* [!UICONTROL Target Experiences]
-* [!UICONTROL Target Activity] > [!UICONTROL Experience]
-* [!UICONTROL 3rd ID] — 可以忽略
+* [!UICONTROL 目標活動]
+* [!UICONTROL 目標體驗]
+* [!UICONTROL 目標活動] > [!UICONTROL 體驗]
+* [!UICONTROL 第3個ID] — 可以忽略
 
 ### 量度
 
-* [!UICONTROL Activity Impressions] — 符合[!DNL Target]報告中的[!UICONTROL Entrants]數字。
-* [!UICONTROL Activity Conversions] — 符合[!DNL Target]報告中的[!UICONTROL Custom Conversions]數字。
+* [!UICONTROL 活動曝光次數] — 符合[!DNL Target]報表中的[!UICONTROL 加入者]數字。
+* [!UICONTROL 活動轉換] — 符合[!DNL Target]報告中的[!UICONTROL 自訂轉換]數字。
 
-在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant&?lang=zh-Hant)。
+在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html??lang=zh-Hant)。
 
 >[!IMPORTANT]
 >
->如果您在[!DNL Analytics]中的[!UICONTROL Target Activities]報表列出「未指定」，而非列出您的活動，則需要更新您已布建的帳戶。 請聯絡客戶服務以解決此問題。
+>如果您在[!DNL Analytics]中的[!UICONTROL 目標活動]報告列出「未指定」，而非列出您的活動，則需要更新您的布建帳戶。 請聯絡客戶服務以解決此問題。
 
 如需詳細資訊和範例，請開啟Adobe Experience League提供的[Analytics &amp; Target： Analysis最佳實務](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教學課程。
 
@@ -69,8 +64,8 @@ ht-degree: 38%
 
 當使用[!DNL Analytics]做為報告來源時，[!DNL Target]中的報告會顯示從[!DNL Analytics]收集到的資料。 此報告與其他[!DNL Target]報告有些不同：
 
-* [!UICONTROL Audiences]清單顯示[!DNL Analytics]報表套裝可用的對象。
-* [!UICONTROL Metric]清單會顯示每個可透過[!DNL Analytics]使用的量度。
+* [!UICONTROL 對象]清單會顯示[!DNL Analytics]報表套裝可用的對象。
+* [!UICONTROL 量度]清單會顯示每個可透過[!DNL Analytics]使用的量度。
 
   每個量度皆可使用，包括[!DNL Analytics]內建的任何自訂或計算量度。
 
@@ -82,7 +77,7 @@ ht-degree: 38%
 
 ## 活動建立 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-在建立活動期間，您必須在[!UICONTROL Settings]頁面上指定活動的目標。 此目標會成為報表的預設量度，且一律列為量度選取器的第一個選項。 您無法像一般 Target 活動一樣選取要報告的區段。 具有[!DNL Analytics]的測試使用[!DNL Adobe Analytics]個區段，而非[!DNL Target]個對象。
+在建立活動期間，您必須在[!UICONTROL 「設定」]頁面上指定活動的目標。 此目標會成為報表的預設量度，且一律列為量度選取器的第一個選項。 您無法像一般 Target 活動一樣選取要報告的區段。 具有[!DNL Analytics]的測試使用[!DNL Adobe Analytics]個區段，而非[!DNL Target]個對象。
 
 ## 執行Analytics for Adobe Target (A4T)的離線計算 {#section_B34BD016C8274C97AC9564F426B9607E}
 
@@ -95,28 +90,28 @@ ht-degree: 38%
 **使用 [!DNL Analytics] 資料匯出功能來這樣做:**
 
 1. 登入 [!DNL Adobe Analytics]。
-1. 按一下&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**。
-1. 在&#x200B;**[!UICONTROL Data Warehouse Request]**&#x200B;標籤上，填寫欄位。
+1. 按一下「**[!UICONTROL 工具]** > **[!UICONTROL 資料倉儲]**」。
+1. 在&#x200B;**[!UICONTROL 「資料倉儲要求」]**&#x200B;標籤上，填寫欄位。
 
-   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hant)中的「資料倉儲說明」。
+   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
 
    | 欄位 | 指示 |
    |--- |--- |
    | 請求名稱 | 指定要求的名稱。 |
    | 報告日期 | 指定時段和精度。<br>最佳做法是不要為第一個要求選擇超過一小時或一天的資料。  所要求的時段越長，資料倉儲檔案處理的時間就越長，最好一律先要求較短時段的資料，以確保檔案傳回預期的結果。 接著，前往「要求管理程式」，複製要求，再第二次要求更多資料。 此外，如果您將詳細程度切換為「無」以外的任何值，檔案大小將大幅增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | 可用區段 | 視需要套用區段。 |
-   | 劃分 | 選取所需的維度：「標準」是內建(OOTB)，而「自訂」包含eVar和prop。 如需訪客ID層級資訊，建議您使用「訪客ID」，而不要使用「Experience Cloud訪客ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。 這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
+   | 劃分 | 選取所需的維度：「標準」是內建(OOTB)，而「自訂」包含eVar和prop。 如需訪客ID層級資訊，建議您使用「訪客ID」，而非「Experience Cloud訪客ID」。<ul><li>訪客 ID 是 Analytics 使用的最終 ID。 這會是 AID (如果客戶是舊的) 或 MID (如果客戶是新的，或已清除從 MC 訪客 ID 服務啟動以來的 Cookie)。</li><li>僅針對新的客戶，或客戶已清除從 MC 訪客服務啟動以來的 Cookie，才會設定 Experience Cloud 訪客 ID。</li></ul> |
    | 量度 | 選取所需的量度。 標準是 OOTB，而「自訂」包含自訂事件。 |
    | 報表預覽 | 在排定報表之前檢閱設定。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | 計劃傳送 | 輸入要傳送檔案的電子郵件地址，命名檔案，然後選取[!UICONTROL Send Immediately]。<br>注意：可在[!UICONTROL Advanced Delivery Options]<br>![排程傳送](/help/main/c-reports/assets/datawarehouse3.png)下透過FTP傳送檔案。 |
+   | 計劃傳送 | 輸入要傳送檔案的電子郵件地址，命名檔案，然後選取[!UICONTROL 立即傳送]。<br>注意：可在[!UICONTROL 進階傳送選項]<br>![排程傳送](/help/main/c-reports/assets/datawarehouse3.png)下透過FTP傳送檔案。 |
 
-1. 按一下 **[!UICONTROL Request this Report]**。
+1. 按一下&#x200B;**[!UICONTROL 「請求此報表」]**。
 
-   檔案傳送最多可能需要 72 小時，視所要求的資料量而定。 您可以隨時按一下「[!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager]」來檢查要求的進度。
+   檔案傳送最多可能需要 72 小時，視所要求的資料量而定。 您隨時可以按一下「[!UICONTROL 工具] > [!UICONTROL 資料倉儲] > [!UICONTROL 要求管理程式]」，以檢查要求的進度。
 
-   如果您想要重新要求您過去曾要求的資料，您可以視需要複製[!UICONTROL Request Manager]中的舊要求。
+   如果您想要重新要求您過去曾要求的資料，您可以視需要從[!UICONTROL 要求管理員]複製舊的要求。
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hant)
-* [Data Warehouse最佳作法](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hant)
+* [建立Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse最佳作法](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

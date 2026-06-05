@@ -7,21 +7,14 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +26,11 @@ ht-degree: 60%
 
 ## [!DNL Target Standard/Premium] 26.5.3 （2026年5月21日）
 
-**[!UICONTROL What's new]頁**
+**[!UICONTROL 新增功能]頁面**
 
 +++檢視詳細資料
 
-* **新[!UICONTROL What's new]頁面。** 已在[!DNL Adobe Target] UI中新增新的&#x200B;**[!UICONTROL What's new]**&#x200B;頁面，協助您在不離開產品的情況下探索最新功能、增強功能和更新。 (TGT-55137)
+* **新[!UICONTROL 新增功能]頁面。** 已在[!DNL Adobe Target] UI中新增新的&#x200B;**[!UICONTROL 新功能]**&#x200B;頁面，協助您在不離開產品的情況下探索最新功能、增強功能和更新。 (TGT-55137)
 
 +++
 
@@ -45,7 +38,7 @@ ht-degree: 60%
 
 +++檢視詳細資料
 
-* 在[!UICONTROL Automated Personalization]個活動中編輯鎖定目標時，**選取了錯誤的體驗。** 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯&#x200B;**[!UICONTROL Targeting]**&#x200B;步驟時，可能選取錯誤體驗的問題。 (TGT-55176)
+* 在[!UICONTROL Automated Personalization]活動中編輯鎖定目標時，**選取了錯誤的體驗。** 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;步驟時，可能選取錯誤體驗的問題。 (TGT-55176)
 
 * **關閉排程活動時的較早日期。** 修正無法選取較早日期來關閉已排程活動的問題。 (TGT-55163)
 
@@ -88,7 +81,7 @@ ht-degree: 60%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

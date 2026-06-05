@@ -1,38 +1,33 @@
 ---
 keywords: 體驗鎖定目標； XT；建立
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)來建立[!UICONTROL Experience Targeting] (XT)活動。
-title: 如何建立[!UICONTROL Experience Targeting]活動？
+description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 體驗鎖定目標] (XT)活動。
+title: 如何建立[!UICONTROL 體驗鎖定目標]活動？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 TQID: https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 33%
+source-wordcount: 443
+ht-degree: 30%
 
 ---
 
-# 建立[!UICONTROL Experience Targeting] (XT)活動
+# 建立[!UICONTROL 體驗鎖定目標] (XT)活動
 
-使用[!UICONTROL Visual Experience Composer] (VEC)在啟用[!DNL Target]的頁面上建立[!UICONTROL Experience Targeting] (XT)活動，以及在[!DNL Adobe Target]內修改頁面的部分。
+使用[!UICONTROL 視覺化體驗撰寫器] (VEC)在啟用[!DNL Target]的頁面上建立[!UICONTROL 體驗鎖定目標] (XT)活動，以及在[!DNL Adobe Target]內修改頁面的部分。
 
-[!UICONTROL Experience Targeting] (XT)會根據一組行銷人員定義的規則和條件將內容提供給特定對象。
+[!UICONTROL 體驗鎖定目標] (XT)會根據一組行銷人員定義的規則和條件將內容提供給特定對象。
 
-[!UICONTROL Experience Targeting] （包括[地理定位](/help/main/c-target/c-audiences/c-target-rules/geo.md)）對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同客群的活動中定義數個規則。
+[!UICONTROL 體驗鎖定目標] （包括[地理鎖定目標](/help/main/c-target/c-audiences/c-target-rules/geo.md)）對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同客群的活動中定義數個規則。
 
-如需[!UICONTROL Experience Targeting]、使用案例情境和訓練影片的詳細資訊，請參閱[體驗鎖定目標](/help/main/c-activities/t-experience-target/experience-target.md)。
+如需[!UICONTROL 體驗鎖定目標]、使用案例情境和訓練影片的詳細資訊，請參閱[體驗鎖定目標](/help/main/c-activities/t-experience-target/experience-target.md)。
 
-**若要建立[!UICONTROL Experience Targeting]活動：**
+**若要建立[!UICONTROL 體驗鎖定目標]活動：**
 
-1. 從[!UICONTROL Activities]清單，按一下&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**。
+1. 從[!UICONTROL 活動]清單中，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 體驗鎖定目標]**。
 
    >[!NOTE]
    >
@@ -40,27 +35,27 @@ ht-degree: 33%
    >
    >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
 
-1. 視需要選取&#x200B;**[!UICONTROL Visual]**。
+1. 視需要選取&#x200B;**[!UICONTROL 視覺]**。
 
-   如果您偏好使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，請選取[!UICONTROL Form]。
+   如果您偏好使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，請選取[!UICONTROL 表單]。
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL Form-Based Experience Composer]，[!DNL Target]還提供單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL 表單式體驗撰寫器]，[!DNL Target]還提供單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
    >
    >如需VEC的疑難排解資訊，請參閱[疑難排解視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. （視條件而定）如果您是[!DNL Target Premium]客戶，[請選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-   [!UICONTROL Choose Workplace]選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示貴組織擁有[!DNL Target Standard]授權。
+   [!UICONTROL 選擇工作區]選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示貴組織擁有[!DNL Target Standard]授權。
 
-1. 指定您的[活動URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下&#x200B;**[!UICONTROL Create]**。
+1. 指定您的[活動URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下[建立]。****
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設 URL 變更為其他 URL。
 
    VEC 隨即開啟，顯示 URL 中指定的頁面。
 
-1. 若要命名活動，請按一下「[!UICONTROL Untitled Activity]」旁的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg) ），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 若要命名活動，請按一下「[!UICONTROL 未命名活動]」旁的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg)），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
    活動名稱的開頭不能是下列任一字元：
 

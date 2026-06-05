@@ -2,18 +2,16 @@
 keywords: 集合;鎖定目標
 description: 瞭解如何在 [!DNL Target Recommendations]中使用產品或專案的集合。
 title: 如何在Recommendations活動中使用集合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 28%
+source-wordcount: 755
+ht-degree: 27%
 
 ---
 
@@ -33,31 +31,31 @@ ht-degree: 28%
 
 包含條件的用途類似集合，但必須在您每次建立活動時設定。 集合可讓您一次建立一組專案，然後可視需要隨時使用它，而無需重新設定。
 
-當您建立或編輯[!DNL Recommendations]活動時，集合名稱會出現在活動圖表的[!UICONTROL Criteria]標籤旁。
+當您建立或編輯[!DNL Recommendations]活動時，集合名稱會出現在活動圖表的[!UICONTROL 條件]標籤旁。
 
 >[!NOTE]
 >
 >* 收集規則會套用至執行條件後產生的建議專案。 它們只會影響輸出中的實體建議(ER)，而不會影響索引鍵。
 >
->* 使用[!UICONTROL Recently Viewed Items]建議索引鍵時不會套用集合。
+>* 使用[!UICONTROL 最近檢視的專案]建議索引鍵時不會套用集合。
 
 ## 建立集合 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 建立集合來組織您要在建議中顯示的產品或內容。
 
-1. 按一下「**[!UICONTROL Recommendations]** > **[!UICONTROL Collections]**」以顯示現有集合清單。
+1. 按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 集合]**&#x200B;以顯示現有集合清單。
 
-   [!UICONTROL Collections]頁面會顯示您現有集合的清單。 您可以按一下[!UICONTROL Create Collection]按鈕來建立新的集合。 您也可以編輯、複製和刪除現有集合，方法是按一下所要集合旁的「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下所要的選項。
+   [!UICONTROL 集合]頁面會顯示您現有集合的清單。 您可以按一下[!UICONTROL 建立集合]按鈕，以建立新的集合。 您也可以編輯、複製和刪除現有集合，方法是按一下所要集合旁的「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下所要的選項。
 
-   [!UICONTROL Collections]清單檢視上每個集合報告的「專案數」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合集合規則的產品數。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}，瞭解如何變更預設主機群組。
+   在[!UICONTROL 集合]清單檢視上，每個集合的「專案數量」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）中，符合集合規則的產品數量。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}，瞭解如何變更預設主機群組。
 
-1. 按一下 **[!UICONTROL Create Collection]**。
+1. 按一下&#x200B;**[!UICONTROL 建立集合]**。
 
-1. 輸入集合的&#x200B;**[!UICONTROL Name]**。
+1. 輸入集合的&#x200B;**[!UICONTROL 名稱]**。
 
-   您也可以輸入選擇性的&#x200B;**[!UICONTROL Description]**。
+   您也可以選擇是否輸入&#x200B;**[!UICONTROL 「說明」]**。
 
-1. （視條件而定）建立（或更新）集合時，從&#x200B;**[!UICONTROL Environment]**&#x200B;篩選器中選擇[環境](/help/main/administrating-target/environments.md)，以預覽該環境中的集合內容。 依照預設，會顯示預設主機群組的結果。
+1. （視條件而定）建立（或更新）集合時，從&#x200B;**[!UICONTROL 環境]**&#x200B;篩選器中選擇[環境](/help/main/administrating-target/environments.md)以預覽該環境中的集合內容。 依照預設，會顯示預設主機群組的結果。
 
 1. 設定用來建立集合的規則。
 
@@ -65,7 +63,7 @@ ht-degree: 28%
 
    您可以新增規則，以使用多個參數來定義集合。 您可使用AND運運算元聯結多個規則。 所有指定的規則必須符合，才會套用集合。
 
-1. 按一下 **[!UICONTROL Create]**。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -83,7 +81,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 編輯、複製或刪除集合
 
-按一下清單中所需集合旁的（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下適當的圖示： [!UICONTROL Edit]、[!UICONTROL Copy]或[!DNL Delete]。
+按一下清單中所需集合旁的（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下適當的圖示： [!UICONTROL 編輯]、[!UICONTROL 複製]或[!DNL Delete]。
 
 您可以複製現有收藏集以建立重複的收藏集，然後進行修改。 這可讓您輕鬆建立類似的系列。
 
@@ -93,8 +91,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 使用上述其中一種方法建立集合。
 
-1. 按一下&#x200B;**[!UICONTROL Activities]**&#x200B;和[建立新的Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活動或編輯現有的活動。
+1. 按一下&#x200B;**[!UICONTROL 活動]**&#x200B;和[建立新的Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活動或編輯現有的活動。
 
-1. 選取條件和設計後，[!UICONTROL Options]頁面會隨即顯示，您可在其中選取所要的集合。
+1. 選取條件與設計後，[!UICONTROL 選項]頁面會隨即顯示，您可在其中選取所要的集合。
 
-1. （視條件而定）若要變更現有的集合設定，請在&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面（三步驟引導式工作流程的步驟1）上按一下您放置建議的位置，按一下「**[!UICONTROL Change Collection]**」，然後選取所要的集合。
+1. （視條件而定）若要變更現有的集合設定，請在&#x200B;**[!UICONTROL 體驗]**&#x200B;頁面（三步驟引導式工作流程的步驟1）上按一下您放置建議的位置，按一下&#x200B;**[!UICONTROL 變更集合]**，然後選取所要的集合。

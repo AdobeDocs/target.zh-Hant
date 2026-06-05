@@ -5,20 +5,13 @@ title: 如何針對 Analytics 和 [!DNL Target] 整合 (A4T) 進行疑難排解
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 965
 ht-degree: 89%
 
 ---
@@ -53,13 +46,13 @@ ht-degree: 89%
 
 ## A4T 活動報告包含的一列有許多「未指定」事件。 {#added_unspecified_events}
 
-根據顯示您的資料所使用的量度，報告中可能會顯示&quot;[!UICONTROL Unspecified]&quot;事件列。
+根據顯示您的資料所使用的量度，報告中可能會顯示「[!UICONTROL 未指定]」事件列。
 
-一般來說，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如，[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors]等），就會顯示此列。 在此案例中，[!UICONTROL "Unspecified"]列包含未與[!DNL Target]活動相關聯的所有[!UICONTROL Page Views]、[!UICONTROL Visits]和[!UICONTROL Unique Visitors]。
+一般而言，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如[!UICONTROL 頁面檢視次數]、[!UICONTROL 造訪次數]、[!UICONTROL 不重複訪客]等），就會顯示此列。 在此案例中，[!UICONTROL 「未指定」]列包含與[!DNL Target]活動無關的所有[!UICONTROL 頁面檢視]、[!UICONTROL 造訪]和[!UICONTROL 不重複訪客]。
 
 該列不會有任何 [!DNL Target] 相關資訊 (例如，沒有訪客、造訪次數或曝光率)。 如需詳細資訊，請參閱 *Analytics 技術備忘稿*&#x200B;中[報表中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant)。
 
-如果您在報表中選擇特定於[!DNL Target]的量度，該[!UICONTROL "Unspecified"]列就不會顯示。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
+如果您在報表中選擇特定於[!DNL Target]的量度，該[!UICONTROL 「未指定」]列就不會顯示。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
 
 ## 預估收入成長量度未顯示正確資料。 {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -71,7 +64,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。 請參閱[使用Analytics
 
 >[!NOTE]
 >
->如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Tracking Server]欄位保留空白。
+>如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
 ## 我的 Analytics 區段未出現在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -104,7 +97,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。 請參閱[使用Analytics
 
 檢查補充 ID 的最簡單方法就是使用 Adobe Experience Platform Debugger。
 
-如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=zh-Hant)。
+如果您尚未安裝此偵錯工具，請參閱 [Adobe Experience Platform Debugger 簡介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
 ![Debugger](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

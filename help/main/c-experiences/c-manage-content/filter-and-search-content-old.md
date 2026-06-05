@@ -6,39 +6,39 @@ feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 7%
+source-wordcount: '264'
+ht-degree: 12%
 
 ---
 
 # 搜尋和篩選內容
 
-在[!UICONTROL Offers]的[!DNL Adobe Target]資料庫中依關鍵字搜尋資產。
+在[!DNL Adobe Target]的[!UICONTROL 選件]資料庫中，依關鍵字搜尋資產。
 
 ## 依關鍵字搜尋代碼選件
 
-1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**。
-1. 在[!UICONTROL Search]方塊中輸入所需的關鍵字。
+1. 按一下&#x200B;**[!UICONTROL 選件]** > **[!UICONTROL 代碼選件]**。
+1. 在[!UICONTROL 搜尋]方塊中輸入所需的關鍵字。
 
-   請注意，您也可以使用[!UICONTROL Type]和[!UICONTROL Source]下拉式清單來篩選，以進一步縮小搜尋範圍。
+   請注意，您也可以使用[!UICONTROL 型別]和[!UICONTROL Source]下拉式清單來篩選，以進一步縮小搜尋範圍。
 
 ## 依關鍵字搜尋影像選件 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
+1. 按一下&#x200B;**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**。
 
-1. （選用）在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，按一下內容程式庫右上角的[!UICONTROL Card View]圖示或[!UICONTROL List View]圖示。 您也可以在檢視[!UICONTROL View Settings]時使用[!UICONTROL List View]進一步設定資料行。
+1. （選擇性）在[!UICONTROL 卡片檢視]和[!UICONTROL 清單檢視]之間切換，按一下內容程式庫右上角的[!UICONTROL 卡片檢視]圖示或[!UICONTROL 清單檢視]圖示。 您也可以使用[!UICONTROL 檢視設定]在檢視[!UICONTROL 清單檢視]時進一步設定資料行。
 
-   下圖顯示檢視[!UICONTROL List View]時可用的選項：
+   下圖顯示檢視[!UICONTROL 清單檢視]時可用的選項：
 
    ![清單檢視選項](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-1. 按一下左上角的&#x200B;**[!UICONTROL Content Only]**&#x200B;圖示以顯示搜尋方塊。
+1. 按一下左上角的&#x200B;**[!UICONTROL 「僅內容」]**&#x200B;圖示，以顯示搜尋方塊。
 
    ![僅內容選項](/help/main/c-experiences/c-manage-content/assets/content-only.png)
 
 1. 在搜尋方塊中，輸入您想尋找的資產的關鍵字，然後按 Enter 鍵。
 
-1. （選擇性）使用&#x200B;**[!UICONTROL Filters and Options]**&#x200B;窗格進一步縮小搜尋範圍。
+1. （選擇性）使用&#x200B;**[!UICONTROL 篩選和選項]**&#x200B;窗格進一步縮小搜尋範圍。
 
    ![篩選和選項窗格](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
 

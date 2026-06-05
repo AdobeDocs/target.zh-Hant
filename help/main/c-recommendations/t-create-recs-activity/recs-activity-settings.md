@@ -2,34 +2,29 @@
 keywords: 推薦;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
 description: 瞭解如何進行設定，以說明和控制Adobe Target中的Recommendations活動。
 title: 如何設定Recommendations活動設定？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 TQID: https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 598
-ht-degree: 42%
+source-wordcount: 608
+ht-degree: 44%
 
 ---
 
 # 推薦活動設定
 
-關於您可以用來描述和控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活動的設定資訊。
+您可以用來描述及控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活動的設定相關資訊。
 
-以下各節說明[!UICONTROL Recommendations]活動可用的設定。
+以下章節說明[!UICONTROL Recommendations]活動可用的設定。
 
 ## 名稱
 
-按一下「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下「**[!UICONTROL Rename]**」以提供描述性名稱，協助您和您的團隊識別活動。
+按一下「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下「**[!UICONTROL 重新命名]**」以提供描述性名稱，協助您和您的團隊識別活動。
 
 活動名稱中不允許下列字元:
 
@@ -42,7 +37,7 @@ ht-degree: 42%
 `-`
 `@`
 
-如果您指定的[!UICONTROL Recommendations]活動名稱是[!UICONTROL Recommendations Classic]中另一個已存在活動的名稱，則會以新名稱重新同步新活動。 新名稱為原始名稱附加時間戳記的唯一名稱。 這個新名稱會顯示在 [!DNL Target Standard/Premium] 和 [!UICONTROL Recommendations Classic] 中。
+如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。 新名稱為原始名稱附加時間戳記的唯一名稱。 這個新名稱會顯示在[!DNL Target Standard/Premium]和[!UICONTROL Recommendations Classic]中。
 
 ## 目標
 
@@ -76,7 +71,7 @@ ht-degree: 42%
 
   選取[!DNL Analytics]做為[!DNL Target] (A4T)的報告來源時，請選取[!DNL Analytics]報告套裝來接收[!DNL Target]活動資料。 若要這麼做，請先從您帳戶繫結的[!DNL Analytics]家公司中選擇任一，接著為該活動選取適當的報表套裝。 只有布建為連線至[!DNL Target]的報表套裝才可供選取。 如果您沒有看到預期的報表套裝，請先嘗試登出並重新登入[!DNL Adobe Experience Cloud]以重試。 如果清單中仍缺少報表套裝，請連絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-  [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL Tracking Server]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
+  [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL 追蹤伺服器]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
   **[!DNL Adobe Customer Journey Analytics]**：如需有關[!DNL Adobe Customer Journey Analytics]與[!DNL Target]之間整合的詳細資訊，請參閱[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告。
 

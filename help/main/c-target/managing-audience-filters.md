@@ -5,23 +5,13 @@ title: 報表中可以使用對象篩選器嗎？
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 TQID: https://experienceleague.adobe.com/7h16ay64Y1IVu2CbkEJny-rnGms80q8X7G6gOM1P900
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2:
-  - id: b6f5758b-84f7-4943-8b05-1297a046943c
-  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
-  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
-  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b6f5758b-84f7-4943-8b05-1297a046943cid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 59%
 
 ---
@@ -41,7 +31,7 @@ ht-degree: 59%
 * **從兩個到四個對象開始。** 著重於基本資訊，例如流量來源。
 * **視需要重新命名對象。** 您可以在不影響資料的情況下重新命名對象，讓對象名稱在正在收集的結果中更有意義，即使活動在使用中也一樣。
 * **輸入精確值。** 對象篩選值區分大小寫。 例如，若您使用客群來篩選城市，則應使用 &quot;OR&quot; 條件來包含可能的拼字與大小寫變化，例如 &quot;Vienna&quot;、&quot;vienna&quot;、&quot;wien&quot; 和 &quot;Wien&quot;。
-* **從[!UICONTROL Audiences]清單建立的對象可重複使用。** 在活動中建立的對象無法重複使用。
+* **從[!UICONTROL 對象]清單建立的對象可重複使用。** 在活動中建立的對象無法重複使用。
 
 下列幾節提供有關設定和報告對象的詳細資訊:
 

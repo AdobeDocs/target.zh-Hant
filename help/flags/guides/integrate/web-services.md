@@ -1,12 +1,12 @@
 ---
-title: 網站服務
+title: 網路服務
 description: 瞭解如何使用Java或Node.js SDK將旗標整合到後端Web服務中。
 hide: true
 exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 10%
+source-wordcount: '81'
+ht-degree: 11%
 
 ---
 

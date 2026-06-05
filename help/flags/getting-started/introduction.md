@@ -5,8 +5,8 @@ hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 0%
+source-wordcount: '373'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->標幟目前位於Beta中，可供Adobe Target客戶使用。 請聯絡您的Adobe代表以要求存取權。
+>標幟目前位於Beta中，可供Adobe Target客戶使用。 請聯絡您的 Adobe 代表以請求存取權。
 
 Adobe Target中的標幟是一種控管發行系統，可讓團隊將功能部署至生產環境，同時精確控制可檢視這些功能的人和時間。 功能可在生產環境中使用，對使用者不可見，然後針對目標對象逐步開啟，無需任何重新部署。
 
