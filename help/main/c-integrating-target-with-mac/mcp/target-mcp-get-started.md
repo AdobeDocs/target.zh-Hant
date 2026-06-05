@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,10 @@ ht-degree: 0%
 
 * 您與Adobe Experience Platform組織有作用中的[!DNL Adobe Target]授權（Adobe Experience Cloud訂閱）。
 * 您有一個支援的MCP相容應用程式（目前為Claude Web、Claude Desktop、Claude Code、Cursor或ChatGPT）。
-* 您已在Adobe Admin Console中設定[!DNL Adobe Target]許可權。 在公用Beta中，所有23個可用工具均為唯讀。 **觀察者**&#x200B;角色或更高版本足以使用MCP伺服器。
-
->[!NOTE]
->
->寫入工具（建立、更新、啟用、停用）不會透過公用Beta中的公用MCP目錄公開。 編輯者和核准者角色許可權目前不會解除鎖定其他工具。 未來版本將提供寫入許可權。
+* 您已在Adobe Admin Console中設定[!DNL Adobe Target]許可權。 所需的角色取決於您要執行的作業：
+   * **觀察者**&#x200B;角色或更新版本：存取所有唯讀工具（檢查、報告、稽核）
+   * **編輯者**&#x200B;角色或更新版本：存取讀取工具與寫入工具（建立、更新）
+   * **核准者**&#x200B;角色：存取所有工具，包括啟用和停用
 
 ## 連線[!DNL Adobe Target] MCP伺服器 {#mcp-connect}
 
@@ -113,7 +112,7 @@ ht-degree: 0%
 
 +++工具傳回錯誤訊息
 
-1. 確認您有[!DNL Adobe Target]中的&#x200B;**觀察者**&#x200B;角色或更新版本（請參閱[必要條件](#mcp-prerequisites)）。
+1. 確認您在[!DNL Adobe Target]中擁有您嘗試之作業的必要角色（請參閱[必要條件](#mcp-prerequisites)）。 唯讀工具需要觀察者或更新的版本；寫入工具需要編輯器或更新的版本；啟動和停用需要核准者。
 1. 檢查您的組織中是否存在參考的資源（活動、選件、對象）。
 1. 確認活動ID和其他識別碼正確。
 +++
