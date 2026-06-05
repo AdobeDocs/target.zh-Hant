@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 56%
+source-wordcount: 903
+ht-degree: 58%
 
 ---
 
@@ -30,36 +30,36 @@ ht-degree: 56%
 
 ## 設定點選追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 在活動的[!UICONTROL Goals & Settings]頁面上設定您的目標時，請選取&#x200B;**[!UICONTROL Conversion]**&#x200B;成功量度。
-1. 針對動作，選取&#x200B;**[!UICONTROL Clicked an element]**，然後按一下&#x200B;**[!UICONTROL Select elements]**。
+1. 在活動的[!UICONTROL 「目標與設定」]頁面上設定您的目標時，請選取&#x200B;**[!UICONTROL 「轉換」]**&#x200B;成功量度。
+1. 針對動作，選取&#x200B;**[!UICONTROL 「按一下元素」]**，然後按一下&#x200B;**[!UICONTROL 「選取元素」]**。
 
-   您的頁面會在[!UICONTROL Visual Experience Composer] (VEC)中開啟。
+   您的頁面隨即在[!UICONTROL 可視化體驗撰寫器] (VEC) 中開啟。
 
 1. 選取您要追蹤的任何元素。
 
    請參閱以下的&#x200B;*「考量事項」*&#x200B;區段，以取得選取元素的相關提示。
 
-1. 按一下畫面頂端的&#x200B;**[!UICONTROL Done]**&#x200B;以儲存您的選擇。
+1. 按一下熒幕上方的&#x200B;**[!UICONTROL 完成]**&#x200B;以儲存您的選擇。
 
 當活動加入者點擊選取的元素時，該點擊會被計為轉換。
 
 ## 選取的元素面板 {#selected-elements}
 
-針對[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Test] (MVT)活動，[!UICONTROL Selected Elements]面板會在左側列出點選追蹤的所選元素。
+針對[!UICONTROL A/B測試]、[!UICONTROL 體驗鎖定目標] (XT)、[!UICONTROL Automated Personalization] (AP)及[!UICONTROL 多變數測試] (MVT)活動，[!UICONTROL 選取的元素]面板會在左側列出點選追蹤的選取元素。
 
 ![所選元素面板](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-按一下[!UICONTROL Tracked Components]面板中的元素時，有數個動作可以套用。 下表說明可在元素上執行的各個動作:
+按一下[!UICONTROL 追蹤的元件]面板中的元素時，可以套用數個動作。 下表說明可在元素上執行的各個動作:
 
 | 動作 | 說明 |
 | --- | --- |
-| [!UICONTROL Tracked actions] | 顯示元素動作。 |
-| [!UICONTROL CSS selector] | 可讓您編輯 CSS 選取器。 |
+| [!UICONTROL 追蹤的動作] | 顯示元素動作。 |
+| [!UICONTROL CSS選取器] | 可讓您編輯 CSS 選取器。 |
 | [!DNL Delete] | 刪除元素。 |
 
 ### 新增元素
 
-如果您已知道選取器的DOM路徑，可以按一下面板頂端的[!UICONTROL Add Component]圖示手動新增。
+如果您已知道選取器的DOM路徑，可以按一下面板頂端的「[!UICONTROL 新增元件]」圖示手動新增。
 
 ## 考量事項 {#considerations}
 
@@ -116,7 +116,7 @@ ht-degree: 56%
 此影片包括關於建立點擊追蹤成功量度的資訊。
 
 * 瞭解「目標」量度
-* 瞭解並建置[!UICONTROL Conversion]、[!UICONTROL Revenue]和[!UICONTROL Engagement]量度
+* 瞭解並建置[!UICONTROL 轉換]、[!UICONTROL 收入]和[!UICONTROL 參與]量度
 * 建置點擊追蹤量度
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

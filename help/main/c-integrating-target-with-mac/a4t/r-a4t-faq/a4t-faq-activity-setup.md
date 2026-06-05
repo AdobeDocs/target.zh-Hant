@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 10%
 ## 設定目標量度時，為何無法存取進階設定？
 
 +++回答
-對於使用[!DNL Analytics]作為報表來源(A4T)的活動，目標量度使用&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;和&quot;[!UICONTROL On Every Impression]&quot;設定。 這些設定是&#x200B;*不可設定的*。
+對於使用[!DNL Analytics]作為報告來源(A4T)的活動，目標量度使用&quot;[!UICONTROL 遞增計數以及讓使用者留在活動中]&quot;以及&quot;[!UICONTROL 在每次曝光時]&quot;設定。 這些設定是&#x200B;*不可設定的*。
 
 如需詳細資訊，請參閱「設定目標量度時，為何無法存取進階設定選項？」 在[量度定義中 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)。
 
@@ -59,16 +59,16 @@ ht-degree: 10%
 ## 建立活動時，為何無法選取Analytics作為報表來源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++回答
-您可以在[!UICONTROL Administration]中變更您的[!UICONTROL Reporting Settings]選項。
+您可以在[!UICONTROL 管理]中變更[!UICONTROL 報告設定]選項。
 
-1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]**。
-1. 在&#x200B;**[!UICONTROL Experience Cloud solution used for reporting]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL Select per Activity]**。
+1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]**。
+1. 在&#x200B;**[!UICONTROL 「用於報表的 Experience Cloud 解決方案」]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL 「為每個活動選取」]**。
 
 ![為每個活動選取影像](assets/select-per-activity.png)
 
-已在&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;畫面中啟用&#x200B;**[!UICONTROL Reporting Source]**&#x200B;下拉式清單，以用於建立和編輯活動。
+**[!UICONTROL 「目標與設定」]**&#x200B;畫面中會啟用&#x200B;**[!UICONTROL 「報表來源」]**&#x200B;下拉式清單，以供您建立和編輯活動。
 
-若要一律使用[!DNL Analytics]作為報表來源，請在[!UICONTROL Administration]中從下拉式清單選取&#x200B;**[!UICONTROL Adobe Analytics]**。
+若要一律使用[!DNL Analytics]作為報表來源，請從[!UICONTROL 管理]的下拉式清單中選取&#x200B;**[!UICONTROL Adobe Analytics]**。
 
 +++
 
@@ -86,9 +86,9 @@ ht-degree: 10%
 
 +++
 
-## 我可以在[!UICONTROL Auto-Allocate]活動中，將二項式[!DNL Analytics]量度搭配作為最佳化目標的區段一起使用嗎？ {#binomial}
+## 我可以在[!UICONTROL 自動分配]活動中，將二項式[!DNL Analytics]量度搭配作為最佳化目標的區段一起使用嗎？ {#binomial}
 
 +++回答
-您無法將[!DNL Analytics]量度與已套用為[!UICONTROL Auto-Allocate]活動中最佳化目標的區段搭配使用。 暫行解決方法是定義達成相同目標的自訂事件，並將其作為最佳化目標量度。
+您無法將[!DNL Analytics]量度與已套用為[!UICONTROL 自動分配]活動中最佳化目標的區段搭配使用。 暫行解決方法是定義達成相同目標的自訂事件，並將其作為最佳化目標量度。
 
 +++

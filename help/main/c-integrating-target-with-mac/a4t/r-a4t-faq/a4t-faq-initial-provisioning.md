@@ -15,7 +15,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 476
 ht-degree: 61%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 61%
 +++回答
 定義 Analytics 活動時，在可以選取報表套裝之前，您同時需要 Analytics 使用者帳戶和 Target 使用者帳戶。 必須依說明文件所述來設定您的使用者帳戶。 請參閱[使用者許可權需求](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
-當您成為具有Analytics和Target存取權的一或多個Experience Cloud群組的成員，並且擁有所有報表套裝的存取權後，您應該會在&#x200B;**[!UICONTROL Create Activity]**&#x200B;下看到使用Analytics建立A/B測試的選項。
+當您成為具有Analytics和Target存取權的一或多個Experience Cloud群組的成員，並且擁有所有報表套裝的存取權後，您應該會在「**[!UICONTROL 建立活動]**」下看到使用Analytics建立A/B測試的選項。
 
 如果發生佈建問題，請檢查 A4T 是否佈建正確。
 
@@ -51,7 +51,7 @@ ht-degree: 61%
 +++回答
 如發生任何這些問題，請檢查下列事項:
 
-* 確定您的Analytics和Target帳戶已在Experience Cloud中連結。
+* 請確認您的Analytics和Target帳戶已在Experience Cloud中連結。
 * 有些客戶在同一Experience Cloud公司中使用多個Analytics公司登入。 如果您使用多個登入，請確定您上次登入的Analytics公司是繫結至Target帳戶以進行整合的公司。
 * 如果已登入 Experience Cloud 數小時，Analytics 工作階段有時會到期。 請登出再登入來再試一次。
 

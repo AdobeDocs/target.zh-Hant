@@ -5,7 +5,7 @@ hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 已在&#x200B;**基本詳細資料**&#x200B;索引標籤中設定功能群組的百分比轉出。 您可以隨時在轉出過程中將此值調整為向上或向下。
 
-## 其運作方式 {#how-it-works}
+## 運作方式 {#how-it-works}
 
 當您設定百分比轉出（例如60%）時，已定義對象的百分比會向功能群組顯示。 剩下的40%會放置在&#x200B;**控制組**&#x200B;中，此控制組會接收預設行為。
 

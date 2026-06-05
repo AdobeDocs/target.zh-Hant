@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 58%
+source-wordcount: 152
+ht-degree: 71%
 
 ---
 
 # 建立可在可視化體驗撰寫器中運作的輪播
 
-此主題顯示如何建立可以在[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中編輯的輪播。
+此主題顯示如何建立可以在[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)中編輯的輪播。
 
 使用下列步驟時，[!DNL Target] 一律知道已選取投影片會有正確投影片的「選取器」，即便在幾秒後它在可視化體驗撰寫器中已變更。
 
@@ -38,7 +38,7 @@ ht-degree: 58%
 
    >[!NOTE]
    >
-   >如果[!UICONTROL Render Using JavaScript]選項是搭配視覺化體驗撰寫器中的自訂程式碼使用，則目前不支援該選項。
+   >如果是在可視化體驗撰寫器中使用[!UICONTROL 使用 JavaScript 呈現]選項搭配自訂代碼，則目前不支援該選項。
 
 1. 僅更新 classNames 以隱藏其他項目，並使用計時器/動畫顯示下一個。
 

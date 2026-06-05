@@ -1,6 +1,6 @@
 ---
 keywords: 客群;客群規則;建立客群;建立客群
-description: 瞭解如何建立自訂對象，並將其儲存至 [!DNL Adobe Target] [!UICONTROL Audiences]資料庫以用於活動。
+description: 瞭解如何建立自訂對象，並將其儲存至 [!DNL Adobe Target] [!UICONTROL 對象]資料庫以用於活動。
 title: 如何建立受眾？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 51%
+source-wordcount: 538
+ht-degree: 50%
 
 ---
 
 # 在[!DNL Target]中建立對象
 
-建立自訂對象，並將其儲存至[!DNL Adobe Target] [!UICONTROL Audiences]資料庫，以便在您的活動中使用。 您也可以複製現有對象，然後編輯以建立類似的對象並合併多個對象。
+建立自訂對象，並將其儲存至[!DNL Adobe Target] [!UICONTROL 對象]資料庫以用於您的活動。 您也可以複製現有對象，然後編輯以建立類似的對象並合併多個對象。
 
 ## 客群概觀
 
@@ -42,15 +42,15 @@ ht-degree: 51%
 
 ## 建立客群
 
-1. 按一下頂端功能表列中的&#x200B;**[!UICONTROL Audiences]**。
+1. 按一下頂端功能表列中的&#x200B;**[!UICONTROL 對象]**。
 
    ![受眾清單影像](assets/audiences_list.png)
 
-1. 從[!UICONTROL Audiences]清單，按一下&#x200B;**[!UICONTROL Create Audience]**。
+1. 從[!UICONTROL 對象]清單中，按一下&#x200B;**[!UICONTROL 建立對象]**。
 
    或
 
-   若要複製現有對象，請從[!UICONTROL Audiences]清單中，按一下您要複製之對象的&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下&#x200B;**[!UICONTROL Duplicate]**。 然後您可以編輯客群以建立類似的客群。
+   若要複製現有對象，請從[!UICONTROL 對象]清單中，按一下您要複製之對象的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下&#x200B;**[!UICONTROL 複製]**。 然後您可以編輯客群以建立類似的客群。
 
 1. 輸入不重複、描述性的對象名稱和選擇性說明。
 
@@ -62,7 +62,7 @@ ht-degree: 51%
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. 從左側的&#x200B;**[!UICONTROL Attributes]**&#x200B;清單將所需的屬性拖放至對象產生器窗格。
+1. 從左側的&#x200B;**[!UICONTROL 屬性]**&#x200B;清單將所需的屬性拖放至對象產生器窗格。
 
    ![拖放屬性](assets/drag-attribute.png)
 
@@ -76,9 +76,9 @@ ht-degree: 51%
 
 1. （視條件而定）繼續新增及定義所需的屬性。
 
-   若要建立另一個容器，請按一下&#x200B;**[!UICONTROL Add container]**，或直接將另一個屬性拖曳至「對象產生器」窗格。 然後，您可以使用下拉式清單調整運運算元（AND或OR）。
+   若要建立另一個容器，請按一下[新增容器] **&#x200B;**，或直接將另一個屬性拖曳到[對象產生器]窗格。 然後，您可以使用下拉式清單調整運運算元（AND或OR）。
 
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
    新建立的對象會在處理延遲幾秒之後出現在清單中。 如果對象未立即在清單中顯示，請嘗試搜尋對象或重新整理清單。
 

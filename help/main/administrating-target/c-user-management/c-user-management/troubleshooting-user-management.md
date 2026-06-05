@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 83
-ht-degree: 65%
+source-wordcount: 84
+ht-degree: 64%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 65%
 
 ## 我邀請了使用者加入 Target，但其名稱未出現在「使用者」清單中 (「管理 > 使用者」)。 {#section_13A1A9697BA44537BA569C81CF136160}
 
-在新使用者使用其Adobe Experience Cloud帳戶登入，然後登入[!DNL Target Standard/Premium]之前，您不會在[!UICONTROL Users]頁面上看見新使用者列出。
+在新使用者使用其Adobe Experience Cloud帳戶登入，然後登入[!DNL Target Standard/Premium]之前，您不會在[!UICONTROL 使用者]頁面上看見新使用者列出。

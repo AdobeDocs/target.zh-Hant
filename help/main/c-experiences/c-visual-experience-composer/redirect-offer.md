@@ -16,16 +16,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 67%
+source-wordcount: 485
+ht-degree: 80%
 
 ---
 
 # 重新導向至 URL
 
-當您想要將訪客傳送至不同頁面而不是在同一頁面上顯示內容時，請在[!DNL Adobe Target]中使用[!UICONTROL Redirect to URL]選項。
+當您想要將訪客傳送至不同頁面而不是在相同頁面上顯示內容時，請使用[!DNL Adobe Target]中的[!UICONTROL 重新導向至URL]選項。
 
-您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。 若是這種情況，您的A/B測試會比較頁面A與頁面B。使用兩個體驗來設定A/B測試行銷活動：一個指向預設頁面A，另一個重新導向至頁面B。在「體驗動作」功能表（按一下體驗的字母標籤即可找到）中，選擇&#x200B;**[!UICONTROL Redirect to URL]**&#x200B;並指定頁面B的URL。選件已設定為將訪客重新導向至不同頁面。
+您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。 若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。在「體驗動作」功能表中，透過按一下體驗的字母標籤，接著選擇&#x200B;**[!UICONTROL 「重新導向至 URL」]**，然後指定頁面 B 的 URL 來找到。選件會設定為將訪客重新導向至不同頁面。
 
 重新導向產品建議會執行 JavaScript 程式碼來重新導向瀏覽器。 此產品建議會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。 這可讓訪客仍然可以使用瀏覽器中的上一步按鈕。
 
@@ -41,8 +41,8 @@ ht-degree: 67%
 若要建立重新導向產品建議:
 
 1. 建立體驗。
-1. 從[!UICONTROL Experiences]框架，按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ）以取得所需的體驗。
-1. 按一下 **[!UICONTROL Redirect to URL]**。
+1. 在[!UICONTROL 體驗]框架中，按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ）以取得所需的體驗。
+1. 按一下&#x200B;**[!UICONTROL 重新導向至URL]**。
 1. 在「重新導向至URL」對話方塊中，輸入URL。
 1. 如果需要，請選取包括目前的查詢參數的選項。
 

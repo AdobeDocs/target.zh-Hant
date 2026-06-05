@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 653
-ht-degree: 34%
+source-wordcount: 737
+ht-degree: 35%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 34%
 
 若要下載 CSV 檔案中的資料:
 
-1. 按一下 **[!UICONTROL Activities]**，然後從清單按一下需要的活動。
+1. 按一下&#x200B;**[!UICONTROL 「活動」]**，然後從清單按一下需要的活動。
 
-   如果您有許多活動，請按一下篩選器（ ![篩選器圖示](/help/main/assets/icons/Filter.svg) ）圖示，以從[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉式清單中選取選項來篩選清單。
+   如果您有許多活動，請按一下篩選器（![篩選器圖示](/help/main/assets/icons/Filter.svg)）圖示，以篩選清單，方法是從[!UICONTROL 型別]、[!UICONTROL 狀態]、[!UICONTROL 報告Source]、[!UICONTROL 體驗撰寫器]、[!UICONTROL 量度型別]和[!UICONTROL 活動Source]下拉式清單中選取選項。
 
-1. 按一下「**[!UICONTROL Reports]**」標籤。
-1. 按一下「**[!UICONTROL Download]**」（「![下載」圖示](/help/main/assets/icons/Download.svg)）圖示，然後選取要下載到Excel和其他工具中分析的報表型別。
+1. 按一下&#x200B;**[!UICONTROL 「報表」]**&#x200B;標籤。
+1. 按一下「**[!UICONTROL 下載]**」（「![下載」圖示](/help/main/assets/icons/Download.svg)）圖示，然後選取要下載到Excel和其他工具中分析的報表型別。
 
-   * [!UICONTROL Export Reports to CSV]
-   * [!UICONTROL Export Order Details to CSV]
+   * [!UICONTROL 匯出報表至CSV]
+   * [!UICONTROL 匯出訂單詳細資料至 CSV]
 
-## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL 匯出報表至 CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-[!UICONTROL Success Metrics]報表顯示成功量度的相關資訊，以及[!DNL Target] UI中未提供的下列量度：
+[!UICONTROL 成功量度]報表會顯示您的成功量度的相關資訊，以及[!DNL Target] UI中未提供的下列量度：
 
 * 平均轉換時間以小時計，這樣您就可以看到一般訪客到達轉換點所花的時間
 * 離線統計信賴計算的收入總和平方
@@ -49,14 +49,14 @@ ht-degree: 34%
 >
 >CSV報表只包含原始資料，不含計算量度，例如每次造訪帶來的收入、提升度或用於A/B測試的信賴度。 若要計算這些計算的量度，請下載[!DNL Target] [完整可信度電腦](/help/main/assets/complete_confidence_calculator.xlsx) Excel檔案以輸入活動的值，或檢閱A/Bn測試中的[統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
 
-## [!UICONTROL Export Order Details to CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL 匯出訂單詳細資料至 CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-[!UICONTROL Order Details]報表顯示訂單的相關資訊，包括：
+「[!UICONTROL 訂單詳細資料]」報表顯示訂單的相關資訊，包括：
 
 * 訂單日期與時間
 * 訂單金額 (若您插入「下單」mbox)
 
-  [!UICONTROL Order Details]報表只有在您有訂單時才有作用。
+  [!UICONTROL 訂單詳細資料]報表只有在您有訂單時才有效。
 
 * 訂單標幟 (重複或巨量訂購)
 
@@ -68,29 +68,29 @@ ht-degree: 34%
 
 * 體驗
 
-  在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)和[!UICONTROL Multivariate Test] (MVT)活動的[!UICONTROL Order Details]報表中，[!UICONTROL Experience]欄包含體驗`localId`。 這是從產品建議 Token 中的 `$campaign.recipe.id` 輸出的值。
+  在[!UICONTROL A/B測試]、[!UICONTROL 體驗鎖定目標] (XT)及[!UICONTROL 多變數測試] (MVT)活動的[!UICONTROL 訂單詳細資料]報表中，[!UICONTROL 體驗]欄包含體驗`localId`。 這是從產品建議 Token 中的 `$campaign.recipe.id` 輸出的值。
 
-  [!UICONTROL Automated Personalization] (AP)活動沒有[!UICONTROL Experience]欄。 目前的[!UICONTROL Algorithm Name]欄已取代為「控制」與「已鎖定目標」術語，如[!DNL Target]的其他部分所示。
+  [!UICONTROL 自動個人化] (AP) 活動沒有[!UICONTROL 「體驗」]欄。 目前的[!UICONTROL 演演算法名稱]欄已取代為「控制」與「已鎖定目標」術語，如[!DNL Target]的其他部分所示。
 
-  對[!UICONTROL Recommendations]活動沒有影響。
+  [!UICONTROL 建議]活動不受影響。
 
 >[!NOTE]
 >
 >* 對於預設環境 (主機群組)，訂單報表資料包含四週的資料，而對於所有非預設環境，則包含兩週的資料。
->* 針對相同訪客下第一個訂單，將收入量度設為&quot;[!UICONTROL Increment count and keep the user in the activity]&quot;記錄訂單詳細資料。 所有後續訂單都會增加轉換計數，但不會將收入新增至RPV/AOV/銷售，並且不會包含在[!UICONTROL Order Details]報表中。
+>* 設為&quot;[!UICONTROL 遞增計數並將使用者保留在活動中]&quot;的收入量度，只會記錄相同訪客下第一個訂單的訂單詳細資料。 所有後續訂單都會增加轉換計數，但不會將收入加入RPV/AOV/銷售，且不會包含在[!UICONTROL 訂單詳細資料]報表中。
 
 ## 最佳實務
 
 * 若要記錄訂單記錄，必須傳遞`orderTotal`引數。
-* 透過`ProductPurchasedId` mbox引數傳遞的值列在[!UICONTROL Order Details]報表中。
+* 透過`ProductPurchasedId` mbox引數傳遞的值列在[!UICONTROL 訂單詳細資料]報表中。
 * 最佳作法是包含`orderID`和`orderTotal`。 這樣可以自動忽略重複的訂單。
 
 ## 注意事項 {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-下列資訊適用於[!UICONTROL Download]選項：
+下列資訊適用於[!UICONTROL 下載]選項：
 
-* 您可以下載[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL Experience Targeting]和[!UICONTROL Multivariate]活動的兩個報告。 您無法下載[!UICONTROL Recommendations]活動的[!UICONTROL Success Metrics]報告。
-* [!UICONTROL Download]選項不適用於[!DNL Target]版本15.7.1 （2015年7月）之前建立的[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting]活動。
+* 您可以下載[!UICONTROL A/B測試]、[!UICONTROL Automated Personalization]、[!UICONTROL 體驗鎖定目標]和[!UICONTROL 多變數]活動的兩個報表。 您無法下載[!UICONTROL Recommendations]活動的[!UICONTROL 成功量度]報告。
+* [!UICONTROL 下載]選項不適用於[!DNL Target]版本15.7.1 （2015年7月）之前建立的[!UICONTROL A/B測試]和[!UICONTROL 體驗鎖定目標]活動。
 * 下載的報表中不會記錄沒有相關聯資料的體驗。
 * 在[!DNL Target]報表UI中套用的對象不會繼續存在於下載報表中。
 * 如果活動使用多個量度，則為下載所產生的 .csv 報告會不一致。 可下載的報表只會根據報表設定產生，且會針對使用的任何其他量度考慮相同的值。 真相來源永遠是在 [!DNL Target] UI 中顯示的報告。

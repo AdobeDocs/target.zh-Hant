@@ -1,19 +1,19 @@
 ---
 keywords: 活動；活動；見解儀表板
-description: '[!UICONTROL Adobe Target Dashboard]讓您概略瞭解貴組織如何隨著時間使用 [!DNL Target] 、呈現採用、活動量和實驗使用量。'
+description: '[!UICONTROL Adobe Target儀表板]提供貴組織如何隨著時間使用 [!DNL Target] 的高階檢視，顯示採用率、活動量和實驗使用情形概覽。'
 title: Adobe Target見解控制面板
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
 source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 1%
 
 ---
 
 # Adobe Target見解控制面板
 
-[!UICONTROL Adobe Target Dashboard]提供貴組織在一段時間內如何使用[!DNL Adobe Target]的高階檢視。 它有助於團隊一眼就瞭解採用、活動量和實驗用法。
+[!UICONTROL Adobe Target儀表板]提供貴組織如何隨著時間使用[!DNL Adobe Target]的高層級檢視。 它有助於團隊一眼就瞭解採用、活動量和實驗用法。
 
 儀表板是專為想要快速瞭解[!DNL Target]使用情況的從業人員與利害關係人設計的，無需深入瞭解個別活動報告。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experimentation Accelerator]
 
-您儀表板上的橫幅可讓您直接存取&#x200B;**[!UICONTROL Experimentation Accelerator]**，這是一個輕量型的進入點，可讓您存取簡化實驗工作流程、簡化實驗設定、分析和決策的工具。
+儀表板上的橫幅可讓您直接存取&#x200B;**[!UICONTROL Experimentation Accelerator]**，這是一個輕量型的進入點，可讓您存取簡化實驗工作流程、簡化實驗設定、分析和決策的工具。
 
 ## 時間範圍選取
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 因此，各量度的總計可能不會完全相加。 例如，許多活動可在相同的時間範圍內開始和完成。
 
-您也可以從進階功能表中選取&#x200B;**[!UICONTROL Download as PNG]**，以匯出儀表板的快照。
+您也可以從進階功能表中選取&#x200B;**[!UICONTROL 下載為PNG]**，以匯出儀表板的快照。
 
 ![](assets/insights-3.png)
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 ![](assets/insights-5.png)
 
-[!UICONTROL Activity Type]圖表會依型別顯示所選時間範圍內的上線活動分佈，包括：
+[!UICONTROL 活動型別]圖表顯示所選時間範圍內依型別的已上線活動分佈，包括：
 
-* [!UICONTROL A/B Test]
-* [!UICONTROL Experience Targeting]
-* [!UICONTROL Recommendations]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL Multivariate Test]
+* [!UICONTROL A/B 測試]
+* [!UICONTROL 體驗鎖定目標]
+* [!UICONTROL 推薦]
+* [!UICONTROL 自動個人化]
+* [!UICONTROL 多變數測試]
 
 使用此圖表來識別貴組織最仰賴的[!DNL Target]功能，並找出機會，以擴大您執行的活動型別組合。
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 
 ![](assets/insights-6.png){align="center"}
 
-本節強調與&#x200B;**[!UICONTROL A/B Test]**&#x200B;活動相關的使用方式。
+本節強調與&#x200B;**[!UICONTROL A/B測試]**&#x200B;活動相關的使用方式。
 
-**[!UICONTROL Total live A/B Test activities]**&#x200B;量度會顯示所選時間範圍內任何時間點上線的&#x200B;**[!UICONTROL A/B Test]**&#x200B;活動數目。
+**[!UICONTROL 即時A/B測試活動總數]**&#x200B;量度會顯示所選時間範圍內任何時間點即時的&#x200B;**[!UICONTROL A/B測試]**&#x200B;活動數目。
 
-**[!UICONTROL Total A/B Tests published]**&#x200B;顯示所選時間範圍內已發行的&#x200B;**[!UICONTROL A/B Test]**&#x200B;活動數目。
+已發佈的&#x200B;**[!UICONTROL 總A/B測試]**&#x200B;顯示所選時間範圍內已發佈的&#x200B;**[!UICONTROL 個A/B測試]**&#x200B;活動數。
 
 使用這些量度來瞭解A/B測試的使用頻率，並追蹤一段時間內的實驗量和採用情況。
 
@@ -110,5 +110,5 @@ ht-degree: 0%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL Activities Over Time]**&#x200B;圖表會追蹤在選取的時間範圍內建立、修改和發佈的活動數量，讓您在實驗方案中輕鬆發現趨勢、尖峰或靜默期。
+**[!UICONTROL 特定期間的活動]**&#x200B;圖表會追蹤在選取的時間範圍內建立、修改和發佈的活動數量，讓您在實驗方案中輕鬆發現趨勢、尖峰或靜默期。
 

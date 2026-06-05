@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 
   在指定的時段後，[!DNL Journey Optimizer]中的自訂動作會呼叫[!DNL Target Recommendations]，使用每位訪客的[!DNL Adobe Experience Cloud Identifier] (EDID)、訪客的[!DNL Target]設定檔及[以使用者為基礎的](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)演演算法，來決定每位訪客檢視哪些專案。 [!DNL Adobe Journey Optimizer]接著傳送個人化電子郵件給合格對象中的每個成員，內含每個訪客已檢視專案的影像和連結，以便讓訪客回訪並購買。
 
-  在此案例中，[!UICONTROL Experience Cloud Visitor ID] (ECID)和每個訪客的[!DNL Target]設定檔內容是用來根據最近檢視的演演算法產生建議。
+  在此案例中，[!UICONTROL Experience Cloud訪客ID] (ECID)和每個訪客的[!DNL Target]設定檔內容是用來根據最近檢視的演演算法產生建議。
 
   例如，假設一位訪客造訪零售網站並檢視數個手錶。 此訪客的[!DNL Target]設定檔已更新為檢視的監看清單。 使用ECID和訪客的[!DNL Target]設定檔，[!DNL Target]會將建議傳送至[!DNL Journey Optimizer]。 [!DNL Journey Optimizer]接著會傳送電子郵件，內含該訪客使用最近檢視的演演算法所檢視之監視專案的影像和連結。 另一位訪客收到個人化電子郵件，其中包含該訪客已檢視專案的影像和連結。 每個訪客的每則電子郵件訊息都會個人化。
 

@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 470
+ht-degree: 8%
 
 ---
 
@@ -68,8 +68,8 @@ function targetPageParams() {
 
 下列運運算元可搭配多值實體、設定檔和mbox屬性使用：
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL 包含在清單]中
+* [!UICONTROL 不在清單]中
 
 ## 在包含規則中使用多值屬性
 

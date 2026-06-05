@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 86%
 
 您必須具備下列其中一個使用者權限才能產生驗證權杖：
 
-* 至少[!UICONTROL Editor]個許可權（或[!UICONTROL Approver]）
+* 至少[!UICONTROL 編輯者]許可權（或[!UICONTROL 核准者]）
 
   如需有關 [!DNL Target Standard] 客戶的詳細資訊，請參閱&#x200B;*使用者*&#x200B;中的[指定角色與權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。 如需有關 [!DNL Target Premium] 客戶的詳細資訊，請參閱[設定企業權限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
@@ -53,8 +53,8 @@ ht-degree: 86%
 
 擷取授權權杖：
 
-1. 按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
-1. 在[偵錯工具]區段中，按一下&#x200B;**[!UICONTROL Generate New Authentication Token]**。
+1. 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
+1. 在[偵錯工具]區段中，按一下[產生]新驗證Token **。**
 
    ![產生新驗證權杖](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -167,11 +167,11 @@ Target 不再支援 IE 8。
 
 ## 確保 [!DNL Target] 活動可正確處理含有查詢字串參數的 URL。 {#query-strings}
 
-[!UICONTROL Activity URL]決定符合活動訪客資格的頁面，並向使用者呈現活動體驗。 在活動建立期間出現提示時，輸入完整 URL 並不一定能確保在該網站頁面上傳遞內容，尤其是包含查詢字串參數的 URL。
+[!UICONTROL 活動URL]決定符合活動訪客資格的頁面，並向使用者呈現活動體驗。 在活動建立期間出現提示時，輸入完整 URL 並不一定能確保在該網站頁面上傳遞內容，尤其是包含查詢字串參數的 URL。
 
-根據預設，[!UICONTROL Visual Experience Composer] (VEC)會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您也可以在活動建立期間指定不同的頁面。
+根據預設，[!UICONTROL 視覺化體驗撰寫器] (VEC)會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您也可以在活動建立期間指定不同的頁面。
 
-若要在VEC開啟之後顯示不同的頁面，請按一下「**[!UICONTROL Configure gear icon]**」>「選取&#x200B;**[!UICONTROL Page Delivery]**」>「在[!UICONTROL Activity URL]欄位中指定所要的URL」。
+若要在VEC開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL 設定齒輪圖示]** >選取&#x200B;**[!UICONTROL 頁面傳送]** >然後在[!UICONTROL 活動URL]欄位中指定所需URL。
 
 ![設定頁面傳送設定 UI](assets/configure-page-delivery.png)
 
@@ -197,7 +197,7 @@ Target 不再支援 IE 8。
 
 ### 選項 3：利用 URL 的特定部分，而非鎖定完整目標 URL。
 
-在此案例中，URL為`https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則指定了[!UICONTROL Query]，其中包含[!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers，以OR運運算元分隔：
+在此案例中，URL為`https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則指定具有[!UICONTROL type] > [!UICONTROL 的[!UICONTROL 查詢]為（區分大小寫）] > type=Summers%20Offers，以OR運運算元分隔：
 
 ![範本規則利用 URL 的特定部分](assets/option3.png)
 

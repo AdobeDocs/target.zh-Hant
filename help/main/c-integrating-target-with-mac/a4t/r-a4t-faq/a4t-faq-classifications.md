@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 27%
+source-wordcount: 336
+ht-degree: 25%
 
 ---
 
@@ -23,26 +23,26 @@ ht-degree: 27%
 
 此主題包含經常詢問關於分類和使用[!DNL Analytics]做為[!DNL Target] (A4T)報表來源問題的回答。
 
-## 使用[!UICONTROL Classifications Importer]下載分類之後，如何讓post-tnt-action值與活動名稱相配？ {#section_6045DAC488B248418F430E663C38D001}
+## 使用[!UICONTROL 分類匯入工具]下載分類之後，如何讓post-tnt-action值與活動名稱相配？ {#section_6045DAC488B248418F430E663C38D001}
 
 +++回答
 您可以從管理工具[分類匯入工具](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=zh-Hant)下載 A4T/TNT 字串的分類。 匯出清單中的變數稱為「TNT」。 下載的資料包括活動、體驗等等的易記名稱。
 
 此查詢檔案對於接收[!DNL Adobe]點按資料流摘要的客戶非常有用。 此檔案提供易記名稱給 `post_tnt` 和 `post_tnt_action` 欄。
 
-對於標準[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting] (XT)活動，TNT字串的格式為：
+對於標準[!UICONTROL A/B測試]和[!UICONTROL 體驗鎖定目標] (XT)活動，TNT字串的格式為：
 
 ```
 activityID:experienceID:targettype|event
 ```
 
-對於[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動，TNT字串的格式為：
+對於[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動，TNT字串的格式為：
 
 ```
 activityId:experienceId:targettype:algorithmId|event
 ```
 
-* `targettype` = `targettype`和`algorithmId`是[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動使用的內部識別碼。
+* `targettype` = `targettype`和`algorithmId`是[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動所使用的內部識別碼。
 * Event = 0 代表體驗進入。
 * Event = 1 代表體驗造訪。
 * Event = 2 代表活動曝光次數。

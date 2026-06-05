@@ -5,8 +5,8 @@ hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '934'
+ht-degree: 7%
 
 ---
 
@@ -173,7 +173,7 @@ public class MainApplication extends Application {
 
 ### 註冊Application類別 {#register-application}
 
-在`Application`中註冊您的`AndroidManifest.xml`類別：
+在`AndroidManifest.xml`中註冊您的`Application`類別：
 
 ```xml
 <application
@@ -188,8 +188,8 @@ public class MainApplication extends Application {
 
 | 方法 | 必要 | 說明 |
 |---|---|---|
-| `withIdentity(namespace, id)` | 無 | 第一個引數：身分名稱空間（請參閱[Adobe身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)）。 第二個引數：身分值。 當您想要在Analytics中表示該名稱空間和ID以用於此評估時，請包含此專案。 若未提供，Analytics預設會使用ECID。 這不會用來推動功能啟用決策。 |
-| `withAttributes(map)` | 無 | `Map<String, List<String>>`。索引鍵是轉出規則所使用的內容屬性名稱（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是目前使用者/工作階段之索引鍵的候選屬性值清單（例如`["en_US"]`或`["phone"]`）。 |
+| `withIdentity(namespace, id)` | 否 | 第一個引數：身分名稱空間（請參閱[Adobe身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)）。 第二個引數：身分值。 當您想要在Analytics中表示該名稱空間和ID以用於此評估時，請包含此專案。 若未提供，Analytics預設會使用ECID。 這不會用來推動功能啟用決策。 |
+| `withAttributes(map)` | 否 | `Map<String, List<String>>`. 索引鍵是轉出規則所使用的內容屬性名稱（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是目前使用者/工作階段之索引鍵的候選屬性值清單（例如`["en_US"]`或`["phone"]`）。 |
 
 **Kotlin**
 
@@ -465,8 +465,8 @@ String version = Rollout.extensionVersion();
 
 | API | 傳回值 |
 |---|---|
-| `isFeatureEnabled(featureKey, evaluationContext, callback)`。`FeatureEvaluationContext`攜帶規則的鎖定目標屬性和analytics的選用身分識別。 請參閱[功能評估](#is-feature-enabled)。 | 布林值（透過callback） |
-| `getFeature(featureKey, evaluationContext, callback)`。傳回給定內容的評估功能裝載。 請參閱[getFeature](#get-feature)。 | 透過回呼的FeatureEvaluationResult |
+| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext`攜帶規則的鎖定目標屬性和analytics的選用身分識別。 請參閱[功能評估](#is-feature-enabled)。 | 布林值（透過callback） |
+| `getFeature(featureKey, evaluationContext, callback)`. 傳回給定內容的評估功能裝載。 請參閱[getFeature](#get-feature)。 | 透過回呼的FeatureEvaluationResult |
 | `refreshCache()` | 無效 |
 | `extensionVersion()` | 字串 |
 

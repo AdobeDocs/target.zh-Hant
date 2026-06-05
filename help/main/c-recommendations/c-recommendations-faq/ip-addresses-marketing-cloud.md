@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 33%
+source-wordcount: 189
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 33%
 >
 >[!DNL Target]團隊目前正在更新NAT閘道位址，以便下載[!DNL Recommendations]摘要。 如果您實施IP允許清單，請確定您允許清單下列新的AWS主機。 現有主機預計於2024年6月30日停止服務。 為確保順利轉換，請將所有九個地址加入允許清單。 移除現有位址並不緊迫。
 
-[!DNL Target] [!UICONTROL Recommendations]活動在存取客戶的FTP伺服器時會使用下列AWS主機：
+存取客戶的FTP伺服器時，[!DNL Target]個[!UICONTROL Recommendations]活動會使用下列AWS主機：
 
 **新主機**：
 
@@ -46,4 +46,4 @@ ht-degree: 33%
 | 美國奧勒岡 | `44.232.167.82` |
 | 美國奧勒岡 | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Recommendations] API也使用相同的AWS主機。
+[!DNL Target] [!UICONTROL 建議] API也使用相同的AWS主機。

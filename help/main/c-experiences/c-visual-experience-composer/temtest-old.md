@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 33%
+source-wordcount: '623'
+ht-degree: 32%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 33%
 
 1. 建立或編輯活動，如[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中所述。
 
-1. 若要指定顯示體驗的頁面，請在[!UICONTROL Visual Experience Composer] (VEC)中按一下齒輪圖示，然後選取&#x200B;**[!UICONTROL Page Delivery]**。
+1. 若要指定顯示體驗的頁面，請在[!UICONTROL 視覺化體驗撰寫器] (VEC)中按一下齒輪圖示，然後選取&#x200B;**[!UICONTROL 頁面傳送]**。
 
    ![齒輪圖示>頁面傳送](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. 按一下「**[!UICONTROL Add Template Rule]**」，然後指定您要新增體驗的頁面的條件。
+1. 按一下&#x200B;**[!UICONTROL 新增範本規則]**，然後指定您要新增體驗的頁面的條件。
 
-1. 指定頁面範圍。頁面範圍可以是下列其中一項:
+1. 指定頁面範圍。 頁面範圍可以是下列其中一項:
 
    * URL （如需Target如何評估URL的詳細資訊，請參閱[鎖定目標和對象常見問題集](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。）
    * 網域
@@ -49,7 +49,7 @@ ht-degree: 33%
 
 1. 選擇一個運算子。
 
-   運算子可指定運算子之後的項目與頁面範圍的相關性。可用的運運算元包括：
+   運算子可指定運算子之後的項目與頁面範圍的相關性。 可用的運運算元包括：
 
    * 包含
    * 不包含
@@ -60,7 +60,7 @@ ht-degree: 33%
 
 1. 在頁面名稱中輸入可定義要新增體驗位置的字串，例如網域或包含的字串。
 
-   例如，如果您選取&#x200B;**[!UICONTROL Domain]**&#x200B;和&#x200B;**[!UICONTROL Is (case sensitive)]**，請輸入要將體驗新增至所有頁面的網域。
+   例如，如果您選取&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 是（區分大小寫）]**，請輸入要將體驗新增至所有頁面的網域。
 
    您可以包括多個項目。
 
@@ -68,9 +68,9 @@ ht-degree: 33%
    >
    >多個專案使用OR邏輯，表示清單中的任何單一專案都會讓條件成立。
 
-1. 如有需要，請按一下&#x200B;**[!UICONTROL Add Template Rule]**&#x200B;並重複先前步驟中的程式來輸入其他條件。
+1. 如有需要，請按一下&#x200B;**[!UICONTROL 新增範本規則]**&#x200B;並重複先前步驟中的程式來輸入其他條件。
 
-   以 AND 邏輯聯合多個規則。[!DNL Target]會將體驗新增至符合指定條件的所有頁面。
+   以 AND 邏輯聯合多個規則。 [!DNL Target]會將體驗新增至符合指定條件的所有頁面。
 
 >[!IMPORTANT]
 >
@@ -90,11 +90,11 @@ ht-degree: 33%
 
 1. 建立或編輯活動，如[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中所述。
 
-1. 若要指定顯示體驗的網域，請在視覺化體驗撰寫器中按一下齒輪圖示，然後選取「**[!UICONTROL Page Delivery]**」。
+1. 若要指定顯示體驗的網域，請在視覺化體驗撰寫器中按一下齒輪圖示，然後選取「**[!UICONTROL 頁面傳送]**」。
 
-1. 按一下&#x200B;**[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**。
+1. 按一下&#x200B;**[!UICONTROL 新增範本規則]** > **[!UICONTROL 網域]**。
 
-1. 從&#x200B;**[!UICONTROL Choose evaluator]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Contains]**，然後指定網域。
+1. 從&#x200B;**[!UICONTROL 選擇評估器]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 包含]**，然後指定網域。
 
    ![網域包含](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 

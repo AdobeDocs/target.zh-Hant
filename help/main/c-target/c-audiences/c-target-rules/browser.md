@@ -13,12 +13,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1024
-ht-degree: 34%
+source-wordcount: 1116
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Browser]
+# [!UICONTROL 瀏覽器]
 
 您可以鎖定造訪您的頁面時使用特定瀏覽器或特定瀏覽器選項的使用者。
 
@@ -39,7 +39,7 @@ ht-degree: 34%
 >
 >此更新不需要客戶採取任何動作。 [!DNL Target] UI中的標籤未來將會變更，而且會在進行這些變更時，在[[!DNL Target] 發行說明（最新）](/help/main/r-release-notes/release-notes.md)中宣佈。
 >
->如需因應措施，請參閱下列[!UICONTROL Browser]對象屬性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 及 [!DNL iPhone] 。
+>如需因應措施，請參閱以下[!UICONTROL 瀏覽器]對象屬性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 及 [!DNL iPhone] 。
 
 鎖定目標瀏覽器有兩種方法:
 
@@ -53,20 +53,20 @@ ht-degree: 34%
 
 * **自訂瀏覽器對象規則：**&#x200B;自訂對象可讓您鎖定多個瀏覽器，或針對特定瀏覽器、瀏覽器版本或瀏覽器語言設定規則或排除專案。 根據瀏覽器屬性來鎖定目標活動時，此功能可提供相當大的彈性。
 
-   1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+   1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
    1. 為對象命名並新增選擇性說明。
-   1. 將&#x200B;**[!UICONTROL Browser]**&#x200B;拖放至對象產生器。
+   1. 將&#x200B;**[!UICONTROL 瀏覽器]**&#x200B;拖放至「對象產生器」。
 
       ![規則>瀏覽器](assets/target_browser.png)
 
-   1. 按一下&#x200B;**[!UICONTROL Select]**，然後選取下列其中一個選項：
+   1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
       * **類型:** 將特定瀏覽器鎖定作為目標或排除。 請參閱[類型](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
       * **語言：**&#x200B;目標或排除設定為使用特定語言的特定瀏覽器。 請參閱[語言](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
       * **版本:** 將特定瀏覽器版本鎖定作為目標或排除。 請參閱[版本](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
 
    1. （選用）為對象設定其他規則。
-   1. 按一下 **[!UICONTROL Done]**。
+   1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
   下列範例顯示包含[!DNL Microsoft Edge]位版本91或92使用者的對象：
 
@@ -80,10 +80,10 @@ ht-degree: 34%
 
 將特定瀏覽器鎖定作為目標或排除。
 
-選取&#x200B;**[!UICONTROL Type]**，然後選擇等於或不等於。
+選取&#x200B;**[!UICONTROL 「類型」]**，然後選擇等於或不等於。
 
-* [!UICONTROL Equals]：鎖定選取的瀏覽器。
-* [!UICONTROL Does not equal]：排除選取的瀏覽器。
+* [!UICONTROL 等於]：鎖定選取的瀏覽器。
+* [!UICONTROL 不等於]：排除選取的瀏覽器。
 
 選取一或多個瀏覽器。 多個選項是使用「或」連接。
 
@@ -95,10 +95,10 @@ ht-degree: 34%
 
 在語言比位置更重要的情況下，透過包含或排除瀏覽器語言來鎖定目標訪客，將會比根據地理來鎖定目標更準確。 例如，如果您提供以英文撰寫的文章，您可以將目標鎖定在說英語的國家/地區，或將設為英文的瀏覽器作為鎖定目標。 對於不以英文為母語的國家/地區中說英語的人，鎖定目標瀏覽器可讓他們閱讀這篇文章。
 
-選取&#x200B;**[!UICONTROL Language]**，然後選擇等於或不等於。
+選取&#x200B;**[!UICONTROL 「語言」]**，然後選擇等於或不等於。
 
-* [!UICONTROL Equals]：鎖定選取的瀏覽器語言。
-* [!UICONTROL Does not equal]：排除選取的瀏覽器語言。
+* [!UICONTROL 等於]：鎖定選取的瀏覽器語言。
+* [!UICONTROL 不等於]：排除選取的瀏覽器語言。
 
 選取一或多種語言。 多個選項是使用「或」連接。
 
@@ -120,14 +120,14 @@ ht-degree: 34%
 
 例如，如果您的頁面在[!DNL Internet Explorer]版本11或更早版本中無法正確顯示，您可以建立排除這些版本的對象。 在這種情況下，您可以設定瀏覽器型別等於[!DNL Internet Explorer]的規則，並新增版本小於或等於11的第二個規則。
 
-選取&#x200B;**[!UICONTROL Version]**，然後選擇運運算元：
+選取&#x200B;**[!UICONTROL 「版本」]**，然後選擇運算子:
 
-* [!UICONTROL Equals]
-* [!UICONTROL Does not equal]
-* [!UICONTROL Is greater than]
+* [!UICONTROL 等於]
+* [!UICONTROL 不等於]
+* [!UICONTROL 大於]
 * 大於或等於
-* [!UICONTROL Is less than]
-* [!UICONTROL Is less than or equal to]
+* [!UICONTROL 小於]
+* [!UICONTROL 小於或等於]
 
 輸入版本號碼。 在文字欄位中僅能輸入主要版本。 指定的版本包含此次發行的任何次要版本。 例如，如果您指定版本10，則也會包含版本10.1的訪客。
 
@@ -142,7 +142,7 @@ ht-degree: 34%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## [!UICONTROL Browser]對象屬性（2024年4月30日）中[!DNL iPad]和[!DNL iPhone]的更新 {#updates}
+## [!UICONTROL 瀏覽器]對象屬性中[!DNL iPad]和[!DNL iPhone]的更新（2024年4月30日） {#updates}
 
 [!DNL Adobe Target]可讓您[鎖定數個類別屬性中的任何一個](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定瀏覽器或瀏覽器選項造訪您頁面的使用者。
 
@@ -158,29 +158,29 @@ JavaScript對象是使用[!DNL Target]運算式的舊版對象，這些運算式
 
 您之後可能會使用下列設定：
 
-* **對於瀏覽器符合[!DNL Apple]**： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **瀏覽器符合[!DNL Apple]**： [!UICONTROL 行動裝置] > [!UICONTROL 裝置廠商] [!UICONTROL 符合] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* **對於符合平板電腦的瀏覽器**： [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **對於符合平板電腦的瀏覽器**： [!UICONTROL 行動裝置] > [!UICONTROL 是平板電腦] > [!UICONTROL true]
 
   ![行動裝置是平板電腦](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **對於符合iPad**&#x200B;的瀏覽器： [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]具有包含[!UICONTROL Mobile] > [!UICONTROL Is Tablet]的And容器為[!DNL true]
+* **瀏覽器符合iPad**： [!UICONTROL 行動裝置] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPad]，其中的And容器為[!UICONTROL 行動裝置] > [!UICONTROL 是平板電腦]是[!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* **對於符合iPhone**&#x200B;的瀏覽器： [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]具有包含[!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]的And容器為[!DNL true]
+* **瀏覽器符合iPhone**： [!UICONTROL 行動裝置] > [!UICONTROL 裝置行銷名稱] [!UICONTROL 符合] [!DNL iPhone]，其中的And容器為[!UICONTROL 行動裝置] > [!UICONTROL 是行動電話]是[!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 有許多其他可能的設定可供使用，例如當條件被否定時。 否定條件的範例可能如下所示：
 
-* **若瀏覽器不符合iPhone**： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]若其Or容器為[!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]，則為[!UICONTROL false]
+* **對於瀏覽器不符合iPhone**： [!UICONTROL 行動裝置] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple]，其中的Or容器為[!UICONTROL 行動裝置] > [!UICONTROL 是行動電話]為[!UICONTROL false]
 
   ![不是行動電話](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **若瀏覽器不符合iPad**： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]若其Or容器為[!UICONTROL Mobile] > [!UICONTROL Is Tablet]，則為[!UICONTROL false]。
+* **對於瀏覽器不符合iPad**： [!UICONTROL 行動裝置] > [!UICONTROL 裝置廠商] [!UICONTROL 不符合] [!UICONTROL Apple]，其中的Or容器為[!UICONTROL 行動裝置] > [!UICONTROL 是平板電腦]是[!UICONTROL false]。
 
   ![不是平板電腦](/help/main/r-release-notes/assets/tablet-false.png)
 

@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 36%
+source-wordcount: 367
+ht-degree: 35%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 36%
 ## 在設定目標量度時，為何無法存取進階設定選項？ {#adv-settings}
 
 +++回答
-[!UICONTROL Advanced Settings]選項不適用於使用[!DNL Analytics]做為報告來源(A4T)的活動。
+[!UICONTROL 進階設定]選項不適用於使用[!DNL Analytics]做為報告來源(A4T)的活動。
 
-對於使用A4T的活動，目標量度一律使用&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;和&quot;[!UICONTROL On Every Impression]&quot;設定。 這些設定是&#x200B;*不可設定的*。
+對於使用A4T的活動，目標量度一律使用「[!UICONTROL 遞增計數以及讓使用者留在活動中]」和「[!UICONTROL 在每次曝光時]」設定。 這些設定是&#x200B;*不可設定的*。
 
-對於非A4T活動，您可以使用[進階設定選項](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)來管理您測量成功的方式。 選項包括新增相依性、選擇讓使用者留在活動還是移除活動，以及是否對每個加入者或每次曝光都計算一次量度。 您可以按一下垂直的點> [!UICONTROL Advanced Settings]，存取非A4T活動中的[!UICONTROL Advanced Settings]選項，如下所示：
+對於非A4T活動，您可以使用[進階設定選項](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)來管理您測量成功的方式。 選項包括新增相依性、選擇讓使用者留在活動還是移除活動，以及是否對每個加入者或每次曝光都計算一次量度。 您可以按一下垂直的點> [!UICONTROL 進階設定]，存取非A4T活動中的[!UICONTROL 進階設定]選項，如下所示：
 
 ![進階設定](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

@@ -18,7 +18,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1122
+source-wordcount: 1125
 ht-degree: 45%
 
 ---
@@ -112,7 +112,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->若要根據[!UICONTROL Category]頁面中的類別顯示建議，只能將一個`categoryId`傳遞至用於顯示該特定建議的mbox。 `categoryId`的值必須與[!UICONTROL Product Detail]頁面上傳遞之`entity.categoryId`的值完全相符。
+>若要根據[!UICONTROL 類別]頁面顯示建議，只能將一個`categoryId`傳遞至用於顯示該特定建議的mbox。 `categoryId`的值必須與[!UICONTROL 產品詳細資料]頁面上傳遞之`entity.categoryId`的值完全相符。
 
 範例:
 

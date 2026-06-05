@@ -6,32 +6,32 @@ feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 19%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
 
 # 上傳內容
 
-您可以將影像上傳到[!UICONTROL Image Offers]中的[!DNL Adobe Target]清單，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
+您可以將影像上傳到[!DNL Adobe Target]中的[!UICONTROL 影像選件]清單，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
 
 ## 將影像選件新增至清單
 
-1. 按一下&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
+1. 按一下&#x200B;**[!UICONTROL 選件]** > **[!UICONTROL 影像選件]**。
 
    ![選件>影像選件](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Files]**。
-1. 瀏覽並選取您要新增的專案，然後按一下&#x200B;**[!UICONTROL Open]**。
-1. 視需要編輯專案的檔案名稱，然後按一下&#x200B;**[!UICONTROL Upload]**。
+1. 按一下&#x200B;**[!UICONTROL 建立]** > **[!UICONTROL 檔案]**。
+1. 瀏覽並選取您要新增的專案，然後按一下[開啟]。**&#x200B;**
+1. 視需要編輯專案的檔案名稱，然後按一下&#x200B;**[!UICONTROL 上傳]**。
 
 ## 刪除影像選件或資料夾
 
-若要在[!UICONTROL Card View]與[!UICONTROL List View]之間切換，請按一下內容庫右上角的[!UICONTROL Card View]圖示或[!UICONTROL List View]圖示。
+若要在[!UICONTROL 卡片檢視]與[!UICONTROL 清單檢視]之間切換，請按一下內容庫右上角的[!UICONTROL 卡片檢視]圖示或[!UICONTROL 清單檢視]圖示。
 
-在[!UICONTROL Card View]中，暫留在所需的影像選件或資料夾上，按一下&#x200B;**[!UICONTROL Select]**&#x200B;圖示（勾號），然後按一下&#x200B;**[!UICONTROL Delete]**。
+在[!UICONTROL 卡片檢視]中，暫留在所需的影像選件或資料夾上，按一下&#x200B;**[!UICONTROL 選取]**&#x200B;圖示（勾號），然後按一下&#x200B;**[!UICONTROL 刪除]**。
 
-從[!UICONTROL List View]，按一下清單左側的影像縮圖影像，以選取所需的影像選件或資料夾，然後按一下&#x200B;**[!UICONTROL Delete]**，如下所示：
+從[!UICONTROL 清單檢視]，按一下清單左側的影像縮圖影像以選取所需的影像選件或資料夾，然後按一下&#x200B;**[!UICONTROL 刪除]**，如下所示：
 
 ![刪除選取的專案](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
 

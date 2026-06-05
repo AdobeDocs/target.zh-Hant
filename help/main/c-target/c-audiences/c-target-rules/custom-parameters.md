@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 497
-ht-degree: 40%
+source-wordcount: 507
+ht-degree: 39%
 
 ---
 
@@ -26,20 +26,20 @@ ht-degree: 40%
 
 當您根據 mbox 參數建立自訂客群時，`mboxParameter` 不再提示您輸入 `mboxName`。 mbox 名稱現在是可選項目。 此變更可讓您使用多個 mbox 中的參數，或參考尚未記錄在 Edge 上的參數。
 
-1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
 1. 為對象命名並新增選擇性說明。
-1. 將&#x200B;**[!UICONTROL Custom]**&#x200B;拖放至對象產生器。
+1. 將&#x200B;**[!UICONTROL 自訂]**&#x200B;拖放至「對象產生器」。
 
    若要選取需要的參數:
 
    * 建立對象時，請從清單中選取引數名稱，開始輸入所需引數名稱的第一個字元，或輸入所需引數名稱的完整名稱。
-   * 如果您記得mbox名稱，但不記得引數名稱，請使用[!UICONTROL Filter by]下拉式清單來篩選傳遞所需引數的已知mbox。
+   * 如果您記得mbox名稱，但不記得引數名稱，請使用[!UICONTROL 篩選依據]下拉式清單，在傳遞所需引數的已知mbox上篩選。
 
    不論使用哪一種方法，mbox 和參數之間並沒有任何連結。 對象會根據引數在所有傳遞該引數的mbox間運作。
 
    >[!NOTE]
    >
-   >您從[!UICONTROL Filter By]下拉式清單中選取的mbox未在建立活動時儲存。 此選項可讓您根據選取的 mbox 篩選參數。
+   >您從[!UICONTROL 篩選依據]下拉式清單中選取的mbox未在建立活動時儲存。 此選項可讓您根據選取的 mbox 篩選參數。
 
    如果您編輯現有對象，篩選條件會並陳在建立期間提供的 mbox 名稱。
 
@@ -65,9 +65,9 @@ ht-degree: 40%
 
 1. 在新行中輸入每個值。
 1. （選用）為對象設定其他規則。
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-對象的[定義詳細資料快顯示卡片](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會在&#x200B;**[!UICONTROL Rules]**&#x200B;區段中顯示引數名稱。 不會參照用來篩選的 mbox。
+對象的[定義詳細資料快顯示卡片](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)會在&#x200B;**[!UICONTROL 規則]**&#x200B;區段中顯示引數名稱。 不會參照用來篩選的 mbox。
 
 >[!NOTE]
 >

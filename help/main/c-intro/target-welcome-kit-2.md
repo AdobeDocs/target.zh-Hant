@@ -29,8 +29,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2558
-ht-degree: 73%
+source-wordcount: 2606
+ht-degree: 72%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 73%
 | 自動分配 | 從兩個或多個體驗中識別出效能最佳的體驗，並自動重新分配更多流量給成功者以增加轉換，同時測試會繼續執行和學習。 使用由 [!DNL Adobe Adobe AI] 提供支援的人工智慧。 [了解詳情](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
 | 自動鎖定目標 <br>(Premium) | 運用[!DNL Target]中的Adobe AI，根據個別客戶設定檔與具有類似設定檔之先前訪客的行為，決定並提供每位訪客最佳體驗。 自動鎖定目標可讓您大規模個人化。 [了解詳情](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | Automated Personalization <br>(Premium) | 使用由 [!DNL Adobe Adobe AI] 支援的進階機器學習演算法和自動化功能，檢視產品建議中影像、複製和其他元素的不同組合，並根據能最好地達成商業目標者 (例如每位訪客的轉換或收入增加)，為每位訪客提供最佳組合。 [了解詳情](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
-| 體驗鎖定 (XT) | 根據一組使用者定義的規則和標準，將內容傳送給特定的客群。 當您瞭解對象是有價值的，以及充分意識到哪些體驗會與之產生共鳴時，**[!UICONTROL Experience Targeting]**&#x200B;對於鎖定特定體驗或內容並用於特定對象非常有用。 [了解詳情](/help/main/c-activities/t-experience-target/experience-target.md)。 |
+| 體驗鎖定 (XT) | 根據一組使用者定義的規則和標準，將內容傳送給特定的客群。 當您瞭解對象是有價值的，以及充分意識到哪些體驗會與之產生共鳴時，**[!UICONTROL 體驗鎖定目標]**&#x200B;對於鎖定特定體驗或內容並用於特定對象非常有用。 [了解詳情](/help/main/c-activities/t-experience-target/experience-target.md)。 |
 | 多變數測試 (MVT) | 比較頁面上或數位體驗中各種元素變化的可能組合——例如 3 種不同的背景影像、2 種不同複本和 2 種不同按鈕顏色。 MVT 會決定哪些組合對特定客群具有最佳效能，以及哪些元素對結果的影響最大。 [了解詳情](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | 推薦<br>(Premium) | 使用Adobe AI，根據客戶先前的活動和其他客戶的活動，自動建議可能吸引客戶的產品或內容。 [了解詳情](/help/main/c-recommendations/recommendations.md)。 |
 
@@ -75,7 +75,7 @@ ht-degree: 73%
 
 | 實施類型 | 詳細資料 |
 | --- | --- |
-| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。 瀏覽器會決定要顯示哪個體驗，然後顯示其內容。 透過使用者端，您可以使用WYSIWYG編輯器&#x200B;**[!UICONTROL Visual Experience Composer]** (VEC)或非視覺化介面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;來建立您的測試和個人化體驗。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank}。 |
+| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。 瀏覽器會決定要顯示哪個體驗，然後顯示其內容。 透過使用者端，您可以使用WYSIWYG編輯器、**[!UICONTROL 視覺化體驗撰寫器]** (VEC)或非視覺化介面&#x200B;**[!UICONTROL 表單式體驗撰寫器]**，來建立您的測試和個人化體驗。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank}。 |
 | 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。 該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。 由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。 |
 | 混合實施 | 在此實施中，您可以選擇最適合特定使用案例的實施方法。 例如，您可能會使用用戶端實施來 A/B 測試首頁上主頁橫幅中的一個產品建議，但也會使用伺服器端實施來決定要在用戶端瀏覽器上顯示的內部搜尋結果、要在智慧型儀表板上顯示的體驗，或要透過語音助手傳送的語音回應。 |
 
@@ -93,23 +93,23 @@ ht-degree: 73%
 
 ## 活動建立工具
 
-[!DNL Target]提供三種主要方式來設定您的測試和個人化活動： [!UICONTROL Visual Experience Composer] (VEC)、[!UICONTROL Form-based Experience Composer]和[!UICONTROL Single Page Application (SPA) Visual Experience Composer]。 兩者都會透過三個步驟來引導您完成活動設定程式：定義體驗、選取或定義對象，以及選取您用來測量活動結果的主要和次要成功量度。
+[!DNL Target]提供三種主要方式來設定您的測試和個人化活動： [!UICONTROL 視覺化體驗撰寫器] (VEC)、[!UICONTROL 表單式體驗撰寫器]以及[!UICONTROL 單頁應用程式(SPA)視覺化體驗撰寫器]。 兩者都會透過三個步驟來引導您完成活動設定程式：定義體驗、選取或定義對象，以及選取您用來測量活動結果的主要和次要成功量度。
 
 | 工具 | 詳細資料 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | WYSIWYG 使用者介面，可讓您輕鬆建立並測試網站內容中的個人化體驗與產品建議。 您可以拖放、交換及修改網頁 (或產品建議) 或行動網頁的版面和內容，以建立 [!DNL Target] 活動的體驗和產品建議。 [了解詳情](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
-| [!UICONTROL Form-based Experience Composer] | 非視覺化體驗和選件建立介面，適合在視覺化體驗撰寫器無法使用或不實用的情況下，用於建立可供A/B測試、體驗鎖定目標、Automated Personalization和Recommendations活動使用的體驗。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和產品建議。 [了解詳情](/help/main/c-experiences/form-experience-composer.md)。 |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | 適用於 SPA 的 VEC，能讓行銷人員在 SPA 上自己動手建立測試並個人化內容，無需持續開發的相依性。 VEC 可用來在熱門架構 (React 和 Angular) 上建立 A/B 測試和體驗鎖定目標 (XT) 活動。 [了解詳情](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
+| [!UICONTROL 視覺化體驗撰寫器] (VEC) | WYSIWYG 使用者介面，可讓您輕鬆建立並測試網站內容中的個人化體驗與產品建議。 您可以拖放、交換及修改網頁 (或產品建議) 或行動網頁的版面和內容，以建立 [!DNL Target] 活動的體驗和產品建議。 [了解詳情](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
+| [!UICONTROL 表單式體驗撰寫器] | 非視覺化體驗和選件建立介面，適合在視覺化體驗撰寫器無法使用或不實用的情況下，用於建立可供A/B測試、體驗鎖定目標、Automated Personalization和Recommendations活動使用的體驗。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和產品建議。 [了解詳情](/help/main/c-experiences/form-experience-composer.md)。 |
+| [!UICONTROL 單頁應用程式(SPA)視覺化體驗撰寫器] | 適用於 SPA 的 VEC，能讓行銷人員在 SPA 上自己動手建立測試並個人化內容，無需持續開發的相依性。 VEC 可用來在熱門架構 (React 和 Angular) 上建立 A/B 測試和體驗鎖定目標 (XT) 活動。 [了解詳情](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
 
 ## 治理與控制
 
-為了向適當的人員提供適當的角色和對 [!DNL Target] 的相關訪問級別和權限，我們有一個管理控制台。 對於[!UICONTROL Target Premium]位使用者，我們提供更詳細的控管和控制
-與[!UICONTROL Enterprise Permissions]。
+為了向適當的人員提供適當的角色和對 [!DNL Target] 的相關訪問級別和權限，我們有一個管理控制台。 對於[!UICONTROL Target Premium]使用者，我們提供更詳細的控管和控制功能
+具有[!UICONTROL 企業許可權]。
 
 | 工具 | 詳細資料 |
 | --- | --- |
 | [!UICONTROL Adobe Admin Console for Enterprise] | 新增使用者至 Adobe Target，並從 Adobe Admin Console 指派權限。 [了解詳情](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)。 |
-| [!UICONTROL Enterprise Permission]s<br>（進階） | 一種正式管理企業內部使用者存取 [!DNL Target] 權限的方法。 根據不同的部門、全域位置、管道和其他邏輯群組，將使用者新增至 [!DNL Target]、根據其角色指派權限，以及建立團隊的工作區。 您可以將觀察者、編輯者、發佈者或核准者的角色指派給使用者。 [了解詳情](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
+| [!UICONTROL 企業許可權]s<br>(Premium) | 一種正式管理企業內部使用者存取 [!DNL Target] 權限的方法。 根據不同的部門、全域位置、管道和其他邏輯群組，將使用者新增至 [!DNL Target]、根據其角色指派權限，以及建立團隊的工作區。 您可以將觀察者、編輯者、發佈者或核准者的角色指派給使用者。 [了解詳情](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 
 ## 整合
 

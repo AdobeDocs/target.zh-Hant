@@ -5,7 +5,7 @@ hide: true
 exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 3%
 
 ## 選擇正確的模式 {#choosing}
 
-* 如果您的問題是&#x200B;*「哪些使用者應該看到此功能？」*→使用&#x200B;**使用者層級鎖定目標**
+* 如果您的問題是&#x200B;*「哪些使用者應該看到此功能？」* →使用&#x200B;**使用者層級鎖定目標**
 * 如果您的問題是&#x200B;*「哪些組織或環境應該有此功能？」* →使用&#x200B;**組織和環境層級鎖定目標**
 
 <!-- -->

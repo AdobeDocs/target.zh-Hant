@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 74%
 
 * 可在設計中參照 (明確寫在程式碼中或透過迴圈) 的實體數上限是 99。
 * 為獲得最佳效能，建議的限制是在每個環境中讓目錄少於一百萬個項目，並在所有環境中讓目錄少於一千萬個項目。
-* 每個環境的上限為一千萬個項目，所有環境的上限為一億個項目。 如果您在每個環境中擁有的專案介於一百萬個和一千萬個之間，[!UICONTROL Catalog Search] UI的效能會受到影響。 然而，[!DNL Target Recommendations] 會持續產生及傳送建議。
+* 每個環境的上限為一千萬個項目，所有環境的上限為一億個項目。 如果您在每個環境中擁有的專案介於一百萬個和一千萬個之間，[!UICONTROL 目錄搜尋] UI的效能會受到影響。 然而，[!DNL Target Recommendations] 會持續產生及傳送建議。
 
 ### 實體自訂屬性
 
@@ -170,7 +170,7 @@ ht-degree: 74%
 
 ### 每個活動的體驗
 
-* **限制**：每個[!UICONTROL Experience Targeting] (XT)、[!UICONTROL A/B Test]、[!UICONTROL Multivariate Test] (MVT)和[!UICONTROL Auto-Target]活動有2,000個體驗。
+* **限制**：每個[!UICONTROL 體驗鎖定目標] (XT)、[!UICONTROL A/B測試]、[!UICONTROL 多變數測試] (MVT)和[!UICONTROL 自動鎖定目標]活動有2,000個體驗。
 
   每個 Automated Personalization (AP) 活動最多 30,000 個體驗。
 

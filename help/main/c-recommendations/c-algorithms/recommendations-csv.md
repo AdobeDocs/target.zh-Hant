@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: 696
 ht-degree: 32%
 
 ---
@@ -21,35 +21,35 @@ ht-degree: 32%
 
 上傳CSV檔案以在[!DNL Adobe Target]中自訂您的建議。
 
-有多種方式可以到達[!UICONTROL Create New Criteria]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
+有多個方式可進入[!UICONTROL 「建立新條件」]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。 您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
-* 當您使用[!UICONTROL Visual Experience Composer] (VEC)建立[!DNL Recommendations]活動時，在您選取頁面上的元素並按一下[!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before]或[!UICONTROL Insert Recommendations After]後，就會立即進入[!UICONTROL Select Criteria]畫面。 然後，您可以選取可用的條件或按一下&#x200B;**[!UICONTROL Create Criteria]**。 如果您建立新條件，可以儲存條件以搭配其他[!DNL Recommendations]活動使用。 如需詳細資訊，請參閱[建立建議活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
-* 編輯[!DNL Recommendations]活動時，請在頁面上的[!UICONTROL Recommendations Location]方塊中按一下，然後選取&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]畫面上，按一下&#x200B;**[!UICONTROL Create Criteria]**。 您可以儲存您的新條件以搭配其他[!DNL Recommendations]活動使用。
+* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 條件]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件]**。 您在這裡建立的條件會自動可供所有 [!DNL Recommendations] 活動使用。
+* 當您使用[!UICONTROL 視覺化體驗撰寫器] (VEC)建立[!DNL Recommendations]活動時，在您選取頁面上的元素並按一下「[!UICONTROL 使用建議取代]」、「[!UICONTROL 插入建議在前]」或「[!UICONTROL 插入建議在後]」後，就會立即進入[!UICONTROL 選取條件]畫面。 然後，您可以選取可用的條件，或按一下&#x200B;**[!UICONTROL 建立條件]**。 如果您建立新條件，可以儲存條件以搭配其他[!DNL Recommendations]活動使用。 如需詳細資訊，請參閱[建立建議活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 編輯[!DNL Recommendations]活動時，請在頁面上的[!UICONTROL Recommendations位置]方塊中按一下，然後選取&#x200B;**[!UICONTROL 變更條件]**。 在[!UICONTROL 選取條件]畫面上，按一下&#x200B;**[!UICONTROL 建立條件]**。 您可以儲存您的新條件以搭配其他[!DNL Recommendations]活動使用。
 
-下列步驟假設您使用第一個方法存取[!UICONTROL Create New Criteria]畫面： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;資料庫畫面。
+下列步驟假設您使用第一個方法存取[!UICONTROL 建立新條件]畫面： **[!UICONTROL Recommendations]** > **[!UICONTROL 條件]**&#x200B;資料庫畫面。
 
-1. 按一下&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**。
+1. 按一下&#x200B;**[!UICONTROL 建議]** > **[!UICONTROL 條件]**。
 
-1. 按一下&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。
+1. 按一下&#x200B;**[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件]**。
 
 1. 在[基本資訊](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)區段中填入資訊。
 
-1. 從&#x200B;**[!UICONTROL Select Algorithm Type]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Custom Criteria]**。
+1. 從&#x200B;**[!UICONTROL 選取演演算法型別]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 自訂條件]**。
 
-1. 從&#x200B;**[!UICONTROL Algorithm]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Custom Algorithm]**。
+1. 從&#x200B;**[!UICONTROL 演演算法]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 自訂演演算法]**。
 
    >[!NOTE]
    >
-   >上述步驟會使[!UICONTROL Upload CSV]區段顯示在[!UICONTROL Create Criteria]對話方塊的底部。
+   >上述步驟會使[!UICONTROL 上傳CSV]區段顯示在[!UICONTROL 建立條件]對話方塊的底部。
 
 1. （視條件而定）在[備份內容](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)區段中填入資訊。
 
 1. （視條件而定）在[包含規則](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)區段中填入資訊。
 
-1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;區段中，選取CSV檔案的&#x200B;**[!UICONTROL Location]**。
+1. 在&#x200B;**[!UICONTROL 上傳CSV]**&#x200B;區段中，選取CSV檔案的&#x200B;**[!UICONTROL 位置]**。
 
-   CSV 檔案的格式必須正確上傳才能成功。 按一下&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;以取得格式正確的CSV檔案。
+   CSV 檔案的格式必須正確上傳才能成功。 按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]**&#x200B;來取得格式正確的 CSV 檔案。
 
    您有兩個位置選項︰
 
@@ -57,7 +57,7 @@ ht-degree: 32%
 
    * **URL：**&#x200B;若要從URL上傳您的CSV檔案，請選取&#x200B;**[!UICONTROL URL]**，然後輸入摘要URL。
 
-1. 按一下 **[!UICONTROL Create]**。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
 ## 考量事項
 
@@ -69,9 +69,9 @@ ht-degree: 32%
 
 * 自訂條件摘要每 24 小時會更新一次。
 
-  您可以在[!UICONTROL Recommendations] > [!UICONTROL Criteria]頁面上檢視每個條件之自訂條件上傳的上傳和同步狀態。 編輯自訂條件時，您也可以在[!UICONTROL Edit]對話方塊中看到狀態。
+  您可以在[!UICONTROL Recommendations] > [!UICONTROL 條件]頁面上檢視每個條件之自訂條件上傳的上傳和同步狀態。 編輯自訂條件時，您也可以在[!UICONTROL 編輯]對話方塊中檢視狀態。
 
-* 無錯誤上傳的流程應為[!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful]。
+* 無錯誤上傳的流程應為[!UICONTROL 已排程] > [!UICONTROL 正在下載摘要檔案] > [!UICONTROL 正在匯入] > [!UICONTROL 成功]。
 
 * 如果[!DNL Target]在上傳時遇到問題，您可能會收到下列錯誤訊息：
 

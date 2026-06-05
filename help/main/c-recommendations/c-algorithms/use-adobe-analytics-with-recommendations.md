@@ -16,7 +16,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 804
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 使用[!DNL Analytics]做為行為資料來源可以做為使用者行為的豐富資訊來源。 此資訊可能包含僅與[!DNL Analytics]共用的協力廠商來源或摘要的資料。
 
-在[!DNL Recommendations]中[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)時，有兩個選項按鈕可讓您選擇要使用的資料來源： [!UICONTROL mboxes]或[!UICONTROL Analytics]。 若要建立條件，請按一下[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]。 如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+在[!DNL Recommendations]中[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)時，有兩個選項按鈕可讓您選擇要使用的資料來源： [!UICONTROL mbox]或[!UICONTROL Analytics]。 若要建立條件，請按一下[!UICONTROL 建議] > [!UICONTROL 條件] > [!UICONTROL 建立條件] > [!UICONTROL 建立條件]。 如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
 >[!NOTE]
 >
@@ -68,24 +68,24 @@ ht-degree: 0%
 
 ## 在[!DNL Target]中實作
 
-1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Recommendations]**，然後按一下&#x200B;**[!UICONTROL Feeds]**&#x200B;索引標籤。
+1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 建議]**，然後按一下&#x200B;**[!UICONTROL 摘要]**&#x200B;索引標籤。
 
-1. 按一下 **[!UICONTROL Create Feed]**。
+1. 按一下&#x200B;**[!UICONTROL 建立摘要]**。
 
-1. 選取&#x200B;**[!UICONTROL Analytics Classifications]**，然後指定報表套裝。
+1. 選取&#x200B;**[!UICONTROL Analytics分類]**，然後指定報表套裝。
 
-1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以前進到&#x200B;**[!UICONTROL Schedule]**&#x200B;設定，選取摘要的頻率週期：
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到&#x200B;**[!UICONTROL 排程]**&#x200B;設定，選取摘要的頻率期間：
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL 每日]
+   * [!UICONTROL 每週]
+   * [!UICONTROL 每2週]
+   * [!UICONTROL 從不]
 
    您也可以選取一天中要處理摘要的時間。
 
-1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以前進到&#x200B;**[!UICONTROL Mapping]**&#x200B;設定，然後將欄位欄位標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;前進到&#x200B;**[!UICONTROL 對應]**&#x200B;設定，然後將欄位資料行標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 常見問題集
 

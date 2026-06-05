@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1417
-ht-degree: 35%
+source-wordcount: 1488
+ht-degree: 34%
 
 ---
 
@@ -45,10 +45,10 @@ ht-degree: 35%
 
 >[!IMPORTANT]
 >
->此整合與[[!UICONTROL Adobe Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)不同。 實作和支援的活動型別不同。 請確定您閱讀完整本文，然後再將此整合用於您的[!DNL Target]活動。
+>此整合與Target [&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的Adobe Analytics不同。 實作和支援的活動型別不同。 請確定您閱讀完整本文，然後再將此整合用於您的[!DNL Target]活動。
 
 * 若要使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源，您與貴公司皆必須擁有 [!DNL Customer Journey Analytics] 和 [!DNL Target] 的存取權。 如果您需要任一解決方案的存取權，請聯繫您組織的管理員或您的帳戶代表。
-* 若要建立具有[!DNL Customer Journey Analytics]報告的[!DNL Target]活動，您必須在[!DNL Target]中擁有&quot;[!UICONTROL Approver]&quot;或&quot;[!UICONTROL Editor]&quot;角色。
+* 若要建立具有[!DNL Customer Journey Analytics]報告的[!DNL Target]活動，您必須在[!DNL Target]中擁有&#39;[!UICONTROL 核准者]&#39;或&#39;[!UICONTROL 編輯者]&#39;角色。
    * 如果您擁有 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 的帳戶，請參閱&#x200B;*使用者*&#x200B;中的[指定其角色和權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。
    * 如果您擁有 [Target Premium](/help/main/c-intro/intro.md#premium) 的帳戶，請參閱&#x200B;*企業使用者權限*&#x200B;中的[角色與權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)。
 
@@ -89,10 +89,10 @@ ht-degree: 35%
 
 >[!TIP]
 >
->您也可以指定[!DNL Target]在[!DNL Customer Journey Analytics]中對您帳戶中建立的所有活動(**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**)使用報告。 如需詳細資訊，請參閱[在 [!DNL Target]](/help/main/administrating-target/reporting.md#solution)中設定報告&#x200B;*報告雲端解決方案*。
+>您也可以指定[!DNL Target]在[!DNL Customer Journey Analytics]中對您帳戶中建立的所有活動使用報告（**[!UICONTROL 管理]** > **[!UICONTROL 報告]** > **[!UICONTROL 報告Experience Cloud解決方案]**）。 如需詳細資訊，請參閱[在 [!DNL Target]](/help/main/administrating-target/reporting.md#solution)中設定報告&#x200B;*報告雲端解決方案*。
 
-1. 從&#x200B;**[!UICONTROL Activities]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL Create Activity]**，然後選取活動型別（根據上方[支援的活動圖表](#supported-activities)）並開始設定活動。
-1. 當您進入三部分活動建立工作流程的&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;頁面時，請選取&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;作為報告來源。
+1. 從&#x200B;**[!UICONTROL 活動]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL 建立活動]**，然後選取活動型別（根據上述[支援的活動圖表](#supported-activities)）並開始設定活動。
+1. 進入三部分活動建立工作流程的&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面時，請選取&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;作為報告來源。
 
    ![Customer Journey Analytics 作為報告來源的選項](/help/main/c-integrating-target-with-mac/cja/assets/cja-as-reporting-source.png)
 
@@ -112,19 +112,19 @@ ht-degree: 35%
 
    ![使用目標量度下的 Customer Journey Analytics metric 選項](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
-1. 按一下 **[!UICONTROL Save & Close]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
 ## 設定 [!DNL Customer Journey Analytics] 連線
 
 在建立一個 [!DNL Target] 活動後，您必須在 [!DNL Customer Journey Analytics] 中建立連線。 如果您已設定過連線，您可以使用現有的連線並跳到下方的步驟 4。 連線以後，[!DNL Customer Journey Analytics] 就可以開始從資料集中提取資料，以用於報告。
 
-1. 在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL Connections]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Create a new connection]**。
+1. 在[!DNL Customer Journey Analytics]中，在&#x200B;**[!UICONTROL 連線]**&#x200B;頁面上按一下&#x200B;**[!UICONTROL 建立新連線]**。
 
    ![在[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)中建立新的連線連結
 
 1. 使用正確的資訊設定您的[連線與資料設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/overview){target=_blank}。
 1. 設定資料流時，新增您使用過的事件資料集。
-1. 新增&#x200B;**[!UICONTROL Adobe Target Classification Events]**&#x200B;查詢資料集，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 新增&#x200B;**[!UICONTROL Adobe Target分類事件]**&#x200B;查詢資料集，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    ![Customer Journey Analytics 中的「新增資料集」對話框](/help/main/c-integrating-target-with-mac/cja/assets/add-datasets.png)
 
@@ -140,7 +140,7 @@ ht-degree: 35%
 
    ![Customer Journey Analytics 中的「Adobe Target 分類事件」對話框](/help/main/c-integrating-target-with-mac/cja/assets/classifications-events.png)
 
-1. 按一下&#x200B;**[!UICONTROL Add datasets]**，然後在下一個畫面中按一下&#x200B;**[!UICONTROL Save]**&#x200B;以完成連線。
+1. 按一下&#x200B;**[!UICONTROL 新增資料集]**，然後在下一個畫面中按一下&#x200B;**[!UICONTROL 儲存]**，以完成您的連線。
 
 ## 設定資料檢視
 
@@ -152,37 +152,37 @@ ht-degree: 35%
 
 1. 為了正確檢視您在 [!DNL Customer Journey Analytics] 中的 [!DNL Target] 資料，您必須從查詢資料集中新增以下欄位作為維度：
 
-   * [!UICONTROL Experience Name]
-   * [!UICONTROL Experience ID]
-   * [!UICONTROL Activity Name]
-   * [!UICONTROL Activity ID]
+   * [!UICONTROL 體驗名稱]
+   * [!UICONTROL 體驗ID]
+   * [!UICONTROL 活動名稱]
+   * [!UICONTROL 活動ID]
 
    ![Customer Journey Analytics 中的名稱和 ID 選項](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
 
 1. 若要在[!UICONTROL Experimentation]面板中使用[!DNL Target]維度，請設定下列內容標籤：
 
-   * 對於[!UICONTROL Activity Name]，請使用「實驗中的實驗」。
-   * [!UICONTROL Experience Name]，使用「實驗中的變體」。
+   * 對於[!UICONTROL 活動名稱]，請使用「實驗中的實驗」。
+   * [!UICONTROL 體驗名稱]，使用「實驗中的變體」。
 
    ![實驗面板中的內容標籤](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
 
-1. 完成設定任何其他欄位，完成後按一下&#x200B;**[!UICONTROL Save and continue]**。
+1. 完成設定任何其他欄位，然後在完成時按一下[儲存]並繼續&#x200B;**。**
 
 ## 在[!DNL Customer Journey Analytics]中建立和檢視活動報告
 
-完成設定後，請透過[!DNL Adobe Experience Cloud]或活動在[!DNL Target]中的[!UICONTROL Reports]索引標籤進行[!DNL Customer Journey Analytics]。
+完成設定後，請透過[!DNL Adobe Experience Cloud]或活動在[!DNL Target]中的[!UICONTROL 報表]索引標籤進行[!DNL Customer Journey Analytics]。
 
-報告標籤有&#x200B;**[!UICONTROL View in Customer Journey Analytics]**&#x200B;連結。 目前，此連結會將您重新導向至[!DNL Customer Journey Analytics]首頁登陸頁面。
+「報表」索引標籤在Customer Journey Analytics **連結中有**&#x200B;檢視。 目前，此連結會將您重新導向至[!DNL Customer Journey Analytics]首頁登陸頁面。
 
 ![CJA報告連結](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
 >[!NOTE]
 >
->此整合與[!UICONTROL Adobe Analytics for Target] (A4T)不同。
+>此整合與Target  (A4T)的Adobe Analytics不同。
 >
 >* [!DNL Target]/[!DNL Customer Journey Analytics]整合不包含預先建立的報表，例如A4T。 活動報告必須在[!DNL Customer Journey Analytics]中建置。
 >
->* 如果選取[!UICONTROL Use a CJA Metric]作為活動的目標量度，則此選項可讓您靈活地決定何時必須定義特定的成功量度。 設定[!UICONTROL Experimentation]面板時會選取成功量度。 提升度和可信度是根據所選CJA量度來計算。
+>* 如果選取了[!UICONTROL 使用CJA量度]作為活動的目標量度，則此選項可讓您靈活地決定何時必須定義特定的成功量度。 設定[!UICONTROL Experimentation]面板時選取成功量度。 提升度和可信度是根據所選CJA量度來計算。
 
 1. 在[!DNL Customer Journey Analytics]中，建立Experimentation面板，然後從&#x200B;**[!UICONTROL Experiment]**&#x200B;下拉式功能表中選取活動。
 
@@ -192,10 +192,10 @@ ht-degree: 35%
 
    >[!IMPORTANT]
    >
-   >如果活動未出現在[!UICONTROL Experiment]下拉式清單中，請確認已選取正確的資料檢視，且[!DNL Target]維度包含必要的內容標籤（請參閱[設定資料檢視](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}中的步驟3）。
+   >如果活動未出現在[!UICONTROL 實驗]下拉式清單中，請確認已選取正確的資料檢視，且[!DNL Target]維度包含必要的內容標籤（請參閱[設定資料檢視](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}中的步驟3）。
 
-1. 按一下 **[!UICONTROL Build]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 
-   [!UICONTROL Experimentation]面板會傳回一組豐富的資料和視覺效果，協助您更清楚瞭解實驗的執行情況。 如需詳細資訊，請參閱&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;指南中&#x200B;*實驗面板*&#x200B;下的[[!UICONTROL Panel output]](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}。
+   [!UICONTROL Experimentation]面板會傳回一組豐富的資料和視覺效果，協助您更清楚瞭解實驗的執行方式。 如需詳細資訊，請參閱&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;指南中&#x200B;*實驗面板*&#x200B;下的[[!UICONTROL 面板輸出]](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}。
 
    ![實驗中](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)

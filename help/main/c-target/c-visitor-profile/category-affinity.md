@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +111,15 @@ ht-degree: 56%
 
 ### 建立對象來使用類別相關性 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 從&#x200B;**[!UICONTROL Audiences]**&#x200B;清單，按一下&#x200B;**[!UICONTROL Create Audience]**。
+1. 從&#x200B;**[!UICONTROL 對象]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL 建立對象]**。
 
    或
 
    若要複製現有客群，請在「客群」清單中將游標移至所需客群上方，然後按一下「複製」圖示。 然後您可以編輯客群以建立類似的客群。
 
-1. 輸入描述性的客群名稱。
-1. 按一下&#x200B;**[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**。
-1. 從&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Category Affinity]**。
+1. 輸入描述性的對象名稱。
+1. 按一下「**[!UICONTROL + 新增規則]** > **[!UICONTROL 訪客設定檔]**」。
+1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「類別相關性」]**。
 
    ![訪客輪廓 > 類別相關性](assets/affinity.png)
 
@@ -145,8 +145,8 @@ ht-degree: 56%
    * 等於
 
 1. 以個別一行指定每一個新的值 (例如，&quot;shoes&quot;)。
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ### 在活動中使用類別相關性對象 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-您可以在任何活動中使用類別相關性對象。 在三步驟引導式工作流程中，在[!UICONTROL Target]步驟上，選擇所需的對象。
+您可以在任何活動中使用類別相關性對象。 在三步驟引導式工作流程期間，在[!UICONTROL 目標]步驟上，選擇所需的對象。

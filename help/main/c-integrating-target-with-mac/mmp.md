@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud Audiences;對象
-description: 瞭解Adobe Experience Cloud Audiences如何讓Experience Cloud應用程式通訊並與其他Adobe應用程式分享有關網站訪客的資訊。
+description: 瞭解Adobe Experience Cloud Audiences如何讓Experience Cloud應用程式通訊並與其他Adobe應用程式共用網站訪客的相關資訊。
 title: 如何在Target中使用Adobe Experience Cloud Audiences？
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af

@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
 
 # A/B 測試中的多個體驗客群
 
-您可以在[!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。 您可以在[!UICONTROL Visual Experience Composer] (VEC)或表單式體驗撰寫器中為體驗設定多個對象。
+您可以在[!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。 您可以在[!UICONTROL 視覺化體驗撰寫器] (VEC)或表單式體驗撰寫器中為體驗設定多個對象。
 
 當訪客的設定檔變更時，訪客可在體驗對象之間切換。 訪客不會卡在活動期限的相同體驗中。
 
@@ -40,9 +40,9 @@ ht-degree: 51%
 
    設定將有多個版本的體驗時，請選取每個版本的客群，如下列步驟所示。
 
-1. 選取體驗，然後按一下&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**。
+1. 選取體驗，然後按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 多個對象]**。
 
-1. 按一下[!UICONTROL Experience Audiences]窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg)），然後選取您要鎖定的第一個對象。 對每個客群重複。
+1. 按一下[!UICONTROL 體驗對象]窗格中的&#x200B;**[!UICONTROL 新增對象]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg)），然後選取您要鎖定的第一個對象。 對每個客群重複。
 
    如果客群尚未存在，請按一下[「建立客群」](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)並加以設定。
 

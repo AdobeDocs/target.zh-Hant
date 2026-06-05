@@ -1,6 +1,6 @@
 ---
 keywords: Automated Personalization；ap；上傳資料；離線資料；個人化演演算法；自動鎖定目標；自動鎖定目標；最佳實務
-description: 瞭解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中建立個人化模型時上傳離線資料。
+description: 瞭解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動中建立個人化模型時上傳離線資料。
 title: 如何上傳用於Personalization演演算法的資料？
 feature: Automated Personalization, Auto-Target
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
@@ -22,24 +22,24 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 302
-ht-degree: 13%
+source-wordcount: 323
+ht-degree: 12%
 
 ---
 
 # 上傳[!DNL Target]個人化演演算法的資料
 
-在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能會非常寶貴。
+在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能會非常寶貴。
 
-有數種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法以外，[!DNL Target]演演算法中也使用[!DNL Experience Cloud]共用對象([!UICONTROL Adobe Analytics]、[!DNL Audience Manager])和活動內報表對象。
+有幾種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法以外，[!DNL Target]演演算法中也使用[!DNL Experience Cloud]個共用對象([!UICONTROL Adobe Analytics]， [!DNL Audience Manager])和活動內報表對象。
 
-有關[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]個人化演演算法自動收集和使用之資料的資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
+如需[!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]個人化演演算法自動收集和使用之資料的相關資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
 ## 最佳實務 {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
 下列清單提供上傳[!DNL Target]個人化演演算法資料的最佳實務：
 
-* [!DNL Target]個人化演演算法可用的高品質資料越多，[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中產生的模型品質越好。
+* [!DNL Target]個人化演演算法可用的高品質資料越多，您的[!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]活動中產生的模型品質就越好。
 * 限制使用多個提供相同用途的設定檔指令碼或屬性。
 * 請勿傳遞唯一ID，例如工作階段ID （若不需要）。
 * 檢閱[!DNL Target]自動收集哪些資料（[Target Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)），這樣您就不會傳送重複的資訊。 例如，[!DNL Target]使用IP位址來判斷訪客的郵遞區號。 不必以單獨的變數傳遞此資訊。

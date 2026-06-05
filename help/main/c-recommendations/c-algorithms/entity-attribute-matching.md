@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 實體屬性比對範例
 
-[!UICONTROL Entity Attribute Matching]可讓您僅建議符合的專案，例如：
+[!UICONTROL 實體屬性比對]可讓您僅建議符合的專案，例如：
 
 * 使用者目前正在檢視的專案中的屬性
 * 使用者最近檢視的專案

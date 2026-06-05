@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 94
+source-wordcount: 96
 ht-degree: 12%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 12%
 
 {{permissions-update}}
 
-若要存取[!UICONTROL Administration]功能表專案，請按一下頂端功能表列中的&#x200B;**[!UICONTROL Administration]**，然後沿著左側按一下所需的標籤：
+若要存取[!UICONTROL 管理]功能表專案，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 管理]**，然後沿著左側按一下所需的標籤：
 
 * [可視化體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [報表](/help/main/administrating-target/reporting.md)

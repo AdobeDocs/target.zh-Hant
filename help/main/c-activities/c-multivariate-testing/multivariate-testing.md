@@ -1,7 +1,7 @@
 ---
 keywords: 多變數測試；mvt；全階乘；mvt或a/b；多變數a/b；流量估算；何時使用mvt；mvt考量；多變數；部分階乘；部分階乘；全階乘
-description: 瞭解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Multivariate Test] (MVT)來比較頁面上元素中的選件組合，以判斷哪個組合效果最佳。
-title: 什麼是[!UICONTROL Multivariate Test]？
+description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 多變數測試] (MVT)來比較頁面上元素中的選件組合，以判斷哪個組合表現最好。
+title: 什麼是[!UICONTROL 多變數測試]？
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
@@ -14,28 +14,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: 1473
 ht-degree: 46%
 
 ---
 
-# [!UICONTROL Multivariate Test] 概覽
+# [!UICONTROL 多變數測試]總覽
 
-[!DNL Adobe Target]中的[!UICONTROL Multivariate Test] (MVT)活動會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳。 [!UICONTROL Multivariate Test]活動也可協助識別最影響活動成功的元素。
+[!DNL Adobe Target]中的[!UICONTROL 多變數測試] (MVT)活動會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳。 [!UICONTROL 多變數測試]活動也有助於識別哪個元素最能影響活動的成功。
 
 多變數測試可協助您探索特定元素對轉換的相對影響（與頁面上的其他元素相比）。 多變數測試也可協助您調整已證明有效的元素組合。
 
-與A/B測試相比，[!UICONTROL Multivariate Test]提供的一項優點是，可顯示頁面上的哪些元素對轉換有最大影響。 這種優勢也稱為「主要效果」。 例如，這項資訊可協助您決定要將最受關注的內容放在何處。
+與A/B測試相比，[!UICONTROL 多變數測試]提供的一項優點是，能夠顯示頁面上的哪些元素對轉換有最大影響。 這種優勢也稱為「主要效果」。 例如，這項資訊可協助您決定要將最受關注的內容放在何處。
 
-[!UICONTROL Multivariate Test]活動也可協助您在頁面上找到兩個或多個元素之間的複合效果。 例如，特定廣告結合特定橫幅或主圖時，可能產生更多轉換。 這又稱為「交互效應」。
+[!UICONTROL 多變數測試]活動也可協助您在頁面上找到兩個或多個元素之間的複合效果。 例如，特定廣告結合特定橫幅或主圖時，可能產生更多轉換。 這又稱為「交互效應」。
 
 [!DNL Target] 採用全階乘多變數測試，協助您將內容最佳化。 全階乘多變數測試會以相同機率檢查所有可能的內容組合。 例如，假設您的兩個頁面元素各有三個產品建議，總共有九種可能的組合 (3x3)。 在三個元素中，有兩個包含三個可能的產品建議，有一個有兩個產品建議，總共有 18 種選項 (3x3x2)。
 
-在[!DNL Target]中，每個組合都是一個體驗。 [!UICONTROL Multivariate Test]會比較每個體驗，讓您瞭解哪些組合最成功。 同時會收集並分析資料，以瞭解每一個位置和產品建議如何影響成功量度。
+在[!DNL Target]中，每個組合都是一個體驗。 [!UICONTROL 多變數測試]會比較每個體驗，讓您瞭解哪些組合最成功。 同時會收集並分析資料，以瞭解每一個位置和產品建議如何影響成功量度。
 
 ![多變數影像](assets/multivariate.png)
 
-由於可產生的組合數目，[!UICONTROL Multivariate Test]比A/B測試需要更多時間和流量。 頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。 若要獲得有用的結果，您必須瞭解頁面收到的流量量，並針對適當的時間量測試最佳組合數量以取得所需的結果。
+由於可產生的組合數目，[!UICONTROL 多變數測試]比A/B測試需要更多時間和流量。 頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。 若要獲得有用的結果，您必須瞭解頁面收到的流量量，並針對適當的時間量測試最佳組合數量以取得所需的結果。
 
 Target的[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可協助您設計適用於流量的測試。 使用「流量估算」之前，您需要有良好的統計資料可指出網站正常收到的曝光次數和轉換次數。 請考量每日的流量水準。 活動中的體驗愈多，活動必須包含的流量愈多，或活動必須執行的時間愈長。 如果流量量不高，您應該測試幾個組合；否則，產生有意義的測試結果所需的時間可能太長，而無法使用。
 
@@ -53,7 +53,7 @@ Target的[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-c
 
 **位置:**&#x200B;頁面上的特定內容區域，通常包含在單一 DOM 元素內。 在 MVT 方法中，有時會將位置稱為&#x200B;*係數*。 全階乘多變數測試會比較您的位置中所有可能的產品建議組合。
 
-## 何時使用[!UICONTROL Multivariate Test]與A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## 何時使用[!UICONTROL 多變數測試]與A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 多變數測試與 A/B 測試可以一起用來將頁面最佳化。 何時需要一起使用的例子包括:
 

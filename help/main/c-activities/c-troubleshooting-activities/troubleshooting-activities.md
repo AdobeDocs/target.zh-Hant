@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 44%
+source-wordcount: 866
+ht-degree: 43%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 44%
 
 ## 活動未上線。
 
-**驗證：**&#x200B;移至[!UICONTROL Overview]標籤，檢視測試是否標示為非使用中或草稿。
+**驗證：**&#x200B;移至[!UICONTROL 總覽]標籤，檢視測試是否標示為非使用中或草稿。
 
 **選項:**
 
@@ -58,11 +58,11 @@ ht-degree: 44%
 
 ## 頁面不符合頁面鎖定目標條件。
 
-**驗證：**&#x200B;在[!UICONTROL Overview]頁面上，判斷頁面是否落在鎖定目標條件之外。
+**驗證：**&#x200B;在[!UICONTROL 總覽]頁面上，判斷頁面是否落在鎖定目標條件之外。
 
 **選項:**
 
-* 前往[!UICONTROL Visual Experience Composer]，按一下「URL >進階>目前頁面」。
+* 前往[!UICONTROL 視覺化體驗撰寫器]，按一下「URL >進階>目前頁面」。
 
 ## 出現上一個體驗，而非新的體驗。
 
@@ -76,20 +76,20 @@ ht-degree: 44%
 
 ## 您最近已加入 [!DNL Target] 但無法建立活動。
 
-**驗證：**&#x200B;按一下[!UICONTROL Create Activity]。 如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
+**驗證：**&#x200B;按一下[!UICONTROL 建立活動]。 如果無法使用此選項，很可能是您沒有足夠權限來建立活動。
 
 **選項:**
 
-將您新增為[!DNL Target]中的使用者後，您需要擁有[!UICONTROL Approver]角色才能建立活動。
+將您新增為[!DNL Target]中的使用者後，您需要有[!UICONTROL 核准者]角色才能建立活動。
 
 * 請要求您的帳戶管理員將您設為核准者。
-* 如果您是管理員，請在[!DNL Target]中從&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;為自己指定[!UICONTROL Approver]角色。
+* 如果您是管理員，請在[!DNL Target]中從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 使用者]**&#x200B;授與您自己[!UICONTROL 核准者]角色。
 
   請參閱[將核准者角色指派給您自己](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
 ## 頁面的結構自從設定活動後已變更。
 
-**驗證：**&#x200B;前往現有活動的[!UICONTROL Visual Experience Composer]。 尋找指出選取器 (或結構) 已變更的警告訊息。
+**驗證：**&#x200B;前往現有活動的[!UICONTROL 視覺化體驗撰寫器]。 尋找指出選取器 (或結構) 已變更的警告訊息。
 
 **選項:**
 
@@ -112,9 +112,9 @@ ht-degree: 44%
 
 ## 其他活動正在相同頁面上執行。
 
-**驗證：**&#x200B;使用[!UICONTROL Collisions]索引標籤檢視其他活動是否正在執行。
+**驗證：**&#x200B;使用[!UICONTROL 衝突]索引標籤檢視是否有其他活動正在執行。
 
-**注意：** [!UICONTROL Collisions]標籤不適用於範本測試模組。
+**注意：** [!UICONTROL 衝突]索引標籤不適用於範本測試模組。
 
 **選項:**
 
@@ -137,7 +137,7 @@ ht-degree: 44%
 
 **注意：**&#x200B;具有相同名稱但不同引數的多個ajax [!DNL Target]呼叫無法在同一頁面上運作。 只進行第一次呼叫。
 
-## 您已使用[!DNL Target] API啟動活動，但活動在[!DNL Target] UI中顯示[!UICONTROL Inactive]狀態。
+## 您已使用[!DNL Target] API來啟動活動，但活動在[!DNL Target] UI中顯示[!UICONTROL 非使用中]狀態。
 
 執行特定動作時（例如在UI外部使用[!DNL Target] API來啟動活動），更新最多可能需要10分鐘才會傳播至UI。
 
@@ -145,4 +145,4 @@ ht-degree: 44%
 
 在極少數的情況下，如果在與活動資格相同的請求中傳送了活動符合體驗資格的轉換量度，則訪客在傳送請求後可能沒有任何體驗。 在此情況下，訪客會看到預設內容，而透過權杖擷取的體驗ID將是–1。 [!DNL Adobe]不建議在同一[!DNL Target]要求中傳送活動資格和轉換。
 
-如果您想要在相同要求中傳送這兩個量度，您可以使用[!UICONTROL Advanced Settings]來指定在轉換後訪客會維持相同的體驗。
+如果您想要在相同要求中傳送這兩個量度，您可以使用[!UICONTROL 進階設定]來指定訪客在轉換後仍維持相同的體驗。

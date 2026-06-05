@@ -12,8 +12,8 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 55%
+source-wordcount: 353
+ht-degree: 54%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 55%
 
 若要將頁面新增至測試:
 
-1. 按一下&#x200B;**[!UICONTROL Configure]**&#x200B;圖示（ ![設定圖示](/help/main/assets/icons/Setting.svg) ）。
-1. 按一下 **[!UICONTROL Add Additional Pages]**。
+1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示（ ![設定圖示](/help/main/assets/icons/Setting.svg) ）。
+1. 按一下&#x200B;**[!UICONTROL 「新增其他頁面」]**。
 
-   畫面左側會顯示[!UICONTROL Pages]窗格。
+   畫面左側會顯示[!UICONTROL 頁面]窗格。
 
 1. 指定您的頁面並設定預設頁面。
 
-   按一下&#x200B;**[!UICONTROL Add Page]** （![新增圖示](/help/main/assets/icons/Add.svg) ）以新增其他頁面，指定頁面名稱和URL，然後按一下&#x200B;**[!UICONTROL Save]**。
+   按一下&#x200B;**[!UICONTROL 新增頁面]** （![新增圖示](/help/main/assets/icons/Add.svg)）以新增其他頁面，指定頁面名稱和URL，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-1. 使用[!UICONTROL Visual Experience Composer]設計選件在每個頁面上的外觀。
+1. 使用[!UICONTROL 視覺化體驗撰寫器]來設計選件在每個頁面上的外觀。

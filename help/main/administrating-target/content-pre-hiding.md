@@ -8,7 +8,7 @@ badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.ado
 hide: true
 source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '624'
 ht-degree: 3%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 3%
 
 1. 將內容預先隱藏程式庫新增至您執行個人化活動之所有頁面的`<head>`。
 
-1. [!DNL Target]會從已上線的[!UICONTROL Visual Experience Composer]和[!UICONTROL Enhanced Experience Composer]活動建置規則集。 規則集會列出傳送可能會變更的選擇器和區域。
+1. [!DNL Target]從即時[!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]活動建置規則集。 規則集會列出傳送可能會變更的選擇器和區域。
 
-   請注意，不支援[!UICONTROL Form-Based Composer]活動。
+   請注意，不支援[!UICONTROL 表單式撰寫器]活動。
 
 1. 程式庫會從Adobe CDN擷取該規則集，並僅在個人化內容仍在載入時預先隱藏相符元素。
 
-1. 在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;中，您可以針對個別活動停用&#x200B;**[!UICONTROL Content pre-hiding]**，但前提是在帳戶層級啟用。 [了解更多](#content-pre-hiding-activity)
+1. 在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;中，您可以針對個別活動停用&#x200B;**[!UICONTROL 內容預先隱藏]**，但前提是在帳戶層級啟用。 [了解更多](#content-pre-hiding-activity)
 
 ## 為您的執行個體啟用內容預先隱藏 {#content-pre-hiding-enable-account}
 
@@ -43,19 +43,19 @@ ht-degree: 3%
 >
 >若要啟用執行個體的內容預先隱藏，您必須是&#x200B;**管理員**。
 
-在您啟用之前，執行個體的內容預先隱藏功能會關閉。 使用&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;開啟功能、設定預設值，並存取實作團隊的下載專案。
+在您啟用之前，執行個體的內容預先隱藏功能會關閉。 使用&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**&#x200B;開啟功能、設定預設值，並存取實作團隊的下載專案。
 
-1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
+1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
 
-1. 從&#x200B;**[!UICONTROL Content pre-hiding]**&#x200B;功能表，啟用內容預先隱藏選項。
+1. 從&#x200B;**[!UICONTROL 內容預先隱藏]**&#x200B;功能表，啟用內容預先隱藏選項。
 
    ![](assets/content-pre-hiding-1.png)
 
-1. 如有需要，可在秒內更新&#x200B;**[!UICONTROL Pre-hiding timeout]**。
+1. 如有需要，請更新&#x200B;**[!UICONTROL 預先隱藏逾時]** （以秒為單位）。
 
-1. 按一下 **[!UICONTROL Save]**。 這會將忽隱忽現的管理設定套用至您的執行個體。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 這會將忽隱忽現的管理設定套用至您的執行個體。
 
-1. 啟用後，按一下&#x200B;**[!UICONTROL Download]**，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 啟用後，請按一下[下載] **&#x200B;**，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -63,23 +63,23 @@ ht-degree: 3%
 
 ## 啟用活動的內容預先隱藏 {#content-pre-hiding-activity}
 
-為您的執行個體啟用預先隱藏後，請選擇每個活動是否在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;中使用它。 您啟用預先隱藏的活動會在其上線時包含在目標行為中。
+為您的執行個體啟用預先隱藏後，請選擇每個活動是否在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;中使用它。 您啟用預先隱藏的活動會在其上線時包含在目標行為中。
 
-然後[!DNL Target]會從在[!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Form-Based Composer]中編寫的已上線活動中建置輕量型規則集，說明傳送可以變更的選擇器和區域。
+然後[!DNL Target]會從在[!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 表單式撰寫器]中編寫的已上線活動，建置輕量型規則集，其中說明選取器以及傳遞可以變更的區域。
 
 當您建立或編輯活動時：
 
 1. 存取您要啟用預先隱藏選項的活動。
 
-1. 存取&#x200B;**[!UICONTROL Edit activity]**&#x200B;下拉式清單並選取&#x200B;**[!UICONTROL Edit Goals & Settings]**。
+1. 存取&#x200B;**[!UICONTROL 編輯活動]**&#x200B;下拉式清單，並選取&#x200B;**[!UICONTROL 編輯目標與設定]**。
 
    ![](assets/content-pre-hiding-3.png)
 
-1. 從&#x200B;**[!UICONTROL Content pre-hiding]**&#x200B;功能表，開啟&#x200B;**[!UICONTROL Enable content pre-hiding]**&#x200B;選項以選擇加入或退出預先隱藏。
+1. 從&#x200B;**[!UICONTROL 內容預先隱藏]**&#x200B;功能表，開啟&#x200B;**[!UICONTROL 啟用內容預先隱藏]**&#x200B;選項，以選擇加入或退出預先隱藏。
 
    ![](assets/content-pre-hiding-4.png)
 
-1. 完成後，按一下&#x200B;**[!UICONTROL Save & Close]**。
+1. 完成後，按一下&#x200B;**[!UICONTROL 儲存並關閉]**。
 
 在您儲存並活動上線或停用後，規則集會更新，以便預先隱藏與實際傳送的內容保持一致，而無須針對每次啟動編輯您的頁面程式碼。
 

@@ -1,6 +1,6 @@
 ---
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;faq;常見問題集; 重要屬性
-description: 瞭解如何使用[!UICONTROL Important Attributes]報表，該報表顯示影響個人化模型及其相對重要性的排名最前的屬性。
+description: 瞭解如何使用[!UICONTROL 重要屬性]報告，該報告會顯示對個人化模型及其相對重要性造成影響的主要屬性。
 title: 什麼是「重要屬性」報表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
@@ -22,14 +22,14 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 56%
+source-wordcount: 1937
+ht-degree: 61%
 
 ---
 
 # 重要屬性報表
 
-有關[!UICONTROL Important Attributes]報告的資訊，這是[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活動使用者可用的兩種專用報告之一。
+有關[!UICONTROL 重要屬性]報告的資訊，這是[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標] (AT)活動使用者可用的兩種專用報告之一。
 
 >[!NOTE]
 >
@@ -37,44 +37,44 @@ ht-degree: 56%
 >
 >* AP 和 AT 活動是 [!DNL Target Premium] 解決方案內建的功能。 若沒有 [!DNL Target Standard] 授權，[!DNL Target Premium] 便未隨附這些解決方案。
 >
->* [!UICONTROL Personalization Insights]報告僅適用於使用轉換最佳化目標的AP和AT活動。 也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
+>* [!UICONTROL Personalization Insights]報表僅適用於使用轉換最佳化目標的AP和AT活動。 也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
 >
->* 必須從[!UICONTROL Report Metric]下拉式清單中選取[!UICONTROL Primary Goal]，才能使用[!UICONTROL Personalization Insights]報告。
+>* [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 >
->* 僅[預設環境](/help/main/administrating-target/hosts.md)支援[!UICONTROL Personalization Insights]報告。
+>* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
 >
->* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL Live]狀態且已啟用且接收流量至少15天的活動產生。
+>* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 
 在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。 此報表顯示影響模型及其相對重要性的常見屬性。
 
-## 存取[!UICONTROL Important Attributes]報告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## 存取[!UICONTROL 重要屬性]報告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下&#x200B;**[!UICONTROL Activities]**，然後從清單中按一下所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動。
+1. 按一下&#x200B;**[!UICONTROL 活動]**，然後從清單中按一下所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動。
 
-   如果您有許多活動，請按一下篩選器（ ![篩選器圖示](/help/main/assets/icons/Filter.svg) ）圖示，以從[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉式清單中選取選項來篩選清單。
+   如果您有許多活動，請按一下篩選器（![篩選器圖示](/help/main/assets/icons/Filter.svg)）圖示，以篩選清單，方法是從[!UICONTROL 型別]、[!UICONTROL 狀態]、[!UICONTROL 報告Source]、[!UICONTROL 體驗撰寫器]、[!UICONTROL 量度型別]和[!UICONTROL 活動Source]下拉式清單中選取選項。
 
-1. 按一下 **[!UICONTROL Reports]**。
+1. 按一下&#x200B;**[!UICONTROL 「報表」]**。
 
-   顯示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)報告，其中會提供關於活動效能的資訊，並以第一個畫面圖示表示。 兩個額外的圖示代表兩個[!UICONTROL Personalization Insights]報告： **[!UICONTROL Automated Segments]** （ ![自動化區段報告](/help/main/assets/icons/AutomatedSegment.svg) ）和&#x200B;**[!UICONTROL Important Attributes]** （ ![重要屬性圖示](/help/main/assets/icons/ViewList.svg) ）。
+   顯示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自動鎖定目標摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)報告，其中會提供關於活動效能的資訊，並以第一個畫面圖示表示。 另外兩個圖示代表兩個[!UICONTROL Personalization Insights]報告： **[!UICONTROL 自動化區段]** （ ![自動化區段報告](/help/main/assets/icons/AutomatedSegment.svg) ）和&#x200B;**[!UICONTROL 重要屬性]** （ ![重要屬性圖示](/help/main/assets/icons/ViewList.svg) ）。
 
 
-   請注意，[!UICONTROL Auto-Target]有一個額外的圖表圖示用於[!UICONTROL Summary]報告的圖形檢視。
+   請注意，[!UICONTROL 自動鎖定目標]有一個額外的圖形圖示，用於[!UICONTROL 摘要]報告的圖形檢視。
 
    >[!IMPORTANT]
    >
-   >您啟動活動後的至少15天內，將無法使用[!UICONTROL Important Attributes]報表。 在此初始期間，您將無法存取此報表或按一下[!UICONTROL Important Attributes]圖示。 15天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL Important Attributes]報表。
+   >您啟動活動後的至少15天內，將無法使用[!UICONTROL 重要屬性]報告。 在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「重要屬性」]圖示。 15天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 重要屬性]報表。
 
-1. 啟動活動15天後，按一下&#x200B;**[!UICONTROL Important Attributes]** （ ![重要屬性圖示](/help/main/assets/icons/ViewList.svg) ）圖示。
+1. 啟動活動15天後，按一下&#x200B;**[!UICONTROL 重要屬性]** （![重要屬性圖示](/help/main/assets/icons/ViewList.svg) ）圖示。
 
 1. 選取所需的日期範圍。
 
-   不同於[!UICONTROL Summary]報表（績效報表），[!UICONTROL Personalization Insights] （包括[!UICONTROL Important Attributes]）僅適用於固定日期範圍： 15天、30天和60天。
+   不同於[!UICONTROL 摘要]報表（效能報表），[!UICONTROL Personalization深入分析] （包括[!UICONTROL 重要屬性]）僅適用於固定日期範圍： 15天、30天和60天。
 
-   這些固定日期範圍允許[!UICONTROL Personalization Insights]使用足夠大的資料範圍，以降低您從活動中的短期模式衍生深入分析的可能性。 您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。 你會注意到「開始」呈現灰色。 開始日期會根據您對結束日期和持續時間的選擇自動變更。
+   這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。 您可以為日期範圍做出兩個決定，「結束日期」和「持續時間」。 你會注意到「開始」呈現灰色。 開始日期會根據您對結束日期和持續時間的選擇自動變更。
 
-   您可以從[!UICONTROL Preset Date Range]下拉式清單中存取可用的固定日期範圍。
+   您可以從[!UICONTROL 預設日期範圍]下拉式清單中存取可用的固定日期範圍。
 
-1. 檢閱[!UICONTROL Important Attributes]報表資料。
+1. 檢閱[!UICONTROL 「重要屬性」]報表資料。
 
 1. （選擇性）按一下「下載」 （![「下載」圖示](/help/main/assets/icons/Download.svg)）圖示，以[下載CSV格式的報表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在Excel和其他工具中進行分析。
 
@@ -93,15 +93,15 @@ ht-degree: 56%
 
 ## 「重要屬性」常見問答集 {#section_740910A52FA646B4AC9452F98C2F5719}
 
-請參閱下列常見問題集，以取得關於使用[!UICONTROL Important Attributes]報表的常見問題解答。
+請參閱下列常見問題集，以取得關於使用[!UICONTROL 重要屬性]報表的常見問題解答。
 
 ### 我的活動還無法使用Personalization前瞻分析報表。 為什麼？
 
-[!UICONTROL Personalization Insights]報表可能尚未可供您的活動使用的原因有幾個：
+[!UICONTROL Personalization Insights]報表可能尚未開放給您的活動使用有幾個原因：
 
 * 自您啟動活動以來，還不到 15 天。 「自動化區段」和「重要屬性」報表在開始活動後至少 15 天內無法使用。 在初始期間，您將無法存取這些報表，或點擊「自動化區段」和「重要屬性」圖示。
 * 您的活動在指定的時間範圍內沒有足夠的流量。 15 天過後，假設您的活動中有[足夠的個人化流量](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)以建立個人化模型，即可使用自動化區段和重要屬性報表。
-* 您的活動有收入最佳化目標。 目前，[!UICONTROL Personalization Insights]僅適用於轉換最佳化目標活動。 我們將在未來的版本中新增對收入最佳化目標活動的支援。
+* 您的活動有收入最佳化目標。 目前，[!UICONTROL 「個人化前瞻分析」]僅適用於轉換最佳化目標活動。 我們將在未來的版本中新增對收入最佳化目標活動的支援。
 
 ### 屬性是什麼？
 
@@ -111,25 +111,25 @@ ht-degree: 56%
 
 ### 我看到一個或多個我不希望模型用於訓練的屬性。 我可以從訓練模型中刪除這些屬性嗎？ {#models-api}
 
-[!UICONTROL Models API] （也稱為Blocklist API）可讓使用者檢視和管理機器學習模型中用於[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活動的屬性清單（也稱為功能）。 如果您想要排除一個或多個屬性，以免模型用於AP或AT活動，您可以使用模型API將這些屬性新增到「封鎖清單」。
+[!UICONTROL 模型API] （也稱為Blocklist API）可讓使用者檢視和管理機器學習模型中用於[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標] (AT)活動的屬性清單（也稱為功能）。 如果您想要排除一個或多個屬性，以免模型用於AP或AT活動，您可以使用模型API將這些屬性新增到「封鎖清單」。
 
 如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hant){target=_blank}。 若要使用API來封鎖屬性，請參閱[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hant){target=_blank}。
 
-### [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]報表中的資訊是否與CSV下載中的資訊相同？
+### [!UICONTROL 自動化區段]和[!UICONTROL 重要屬性]報表中的資訊是否與CSV下載中的資訊相同？
 
 否，UI 報表包含選取資訊。 CSV 下載包含其他詳細資料。 「自動化區段前瞻分析報表」下載包括 UI 中包含之常用區段以外的其他「自動化區段」，以及這些區段對產品建議或體驗的執行方式。 「重要屬性」報表包括 100 個常見的訪客屬性及其相對重要性，而 UI 僅包括 10 個常見的訪客屬性。
 
 ### 我可以看到自訂日期範圍的Personalization Insights嗎？
 
-Personalization前瞻分析報告（[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]）僅適用於固定日期範圍： 15天、30天、45天、60天和90天。 這些固定日期範圍允許[!UICONTROL Personalization Insights]使用足夠大的資料範圍，以降低您從活動中的短期模式衍生深入分析的可能性。 您可以為任何結束日期選取這些持續時間 (其中這些活動中的資料足以滿足持續時間)。
+「個人化前瞻分析」報表 ([!UICONTROL 「自動化區段」]和[!UICONTROL 「重要屬性」]) 僅適用於固定日期範圍: 15 天、30 天、45 天、60 天和 90 天。 這些固定日期範圍允許[!UICONTROL 「個人化前瞻分析」]使用足夠大的資料範圍來降低您從短期模式的活動中掌握情況的可能性。 您可以為任何結束日期選取這些持續時間 (其中這些活動中的資料足以滿足持續時間)。
 
 ### [!UICONTROL Personalization Insights]是如何建立的？
 
-[!UICONTROL Personalization Insights]是使用名為MAGIX (Model Agnostic Globally Interpretable Explanations)的Adobe專利擱置技術所建立。 您可以在Adobe研究團隊於[arXiv.org網站](https://arxiv.org/abs/1706.07160)上發表的檔案中，瞭解有關MAGIX的更多資訊。
+[!UICONTROL 「個人化前瞻分析」是使用 Adobe 正在申請專利的技術建立而成，該技術稱為 MAGIX (Model Agnostic Globally Interpretable Explanations) 。] 您可以在Adobe研究團隊於[arXiv.org網站](https://arxiv.org/abs/1706.07160)上發表的檔案中，瞭解有關MAGIX的更多資訊。
 
-### [!UICONTROL Personalization Insights]是否可用於收入型模型化目標/主要目標？
+### [!UICONTROL Personalization Insights]是否可用於收入型模組化目標/主要目標？
 
-目前，[!UICONTROL Personalization Insights]僅適用於轉換最佳化目標活動。 我們將在未來的版本中新增對收入最佳化目標活動的支援。
+目前，[!UICONTROL 「個人化前瞻分析」]僅適用於轉換最佳化目標活動。 我們將在未來的版本中新增對收入最佳化目標活動的支援。
 
 ### 「重要屬性」報表中的屬性重要性分數是多少？
 
@@ -161,4 +161,4 @@ Personalization前瞻分析報告（[!UICONTROL Automated Segments]和[!UICONTRO
 
 [!DNL Target]工程團隊目前正在調查下列問題。
 
-* [!DNL Adobe Experience Platform]區段名稱未顯示在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活動的[!UICONTROL Important Attributes]報告中。 (TOP-3813)
+* [!DNL Adobe Experience Platform]區段名稱未顯示在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標] (AT)活動的[!UICONTROL 重要屬性]報告中。 (TOP-3813)

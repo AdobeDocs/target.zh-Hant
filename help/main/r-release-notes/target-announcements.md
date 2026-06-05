@@ -30,7 +30,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2199
 ht-degree: 95%
 
 ---
@@ -151,7 +151,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   在這場會議中，了解您如何能夠利用 [!DNL Adobe Target] 的新功能大幅增加轉換率提升度，我們將討論：
 
-   * [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中的增強型模型控制項
+   * [!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]活動中的增強型模型控制項
    * 釋放從 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 評估輪廓屬性和高值區段的能力
    * 品牌如何能夠藉由微調其 AI 支援的演算法達成更快的速度和決策
    * 獨特的使用案例以實現一對一個人化
@@ -174,7 +174,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   課程地圖：
 
-   * [!UICONTROL A/B Test]、[!UICONTROL Multivariate Testing] (MVT)、(XT)以及自動化測試和個人化
+   * [!UICONTROL A/B測試]、[!UICONTROL Multivariate Testing] (MVT)、(XT)以及自動化測試和個人化
    * 活動設置的逐步工作流程
    * 批次體驗預取，實現行動端始終在線的個人化
    * 用於跨客戶體驗進行測試和定位的生命週期量度

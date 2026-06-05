@@ -1,6 +1,6 @@
 ---
 keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
-description: 使用[!UICONTROL Visual Experience Composer] (VEC)將體驗新增至活動。
+description: 使用[!UICONTROL 視覺化體驗撰寫器] (VEC)將體驗新增至活動。
 title: 如何在A/B活動中新增體驗？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
@@ -11,18 +11,18 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 33%
+source-wordcount: 420
+ht-degree: 30%
 
 ---
 
 # 新增體驗
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)提供視覺化介面，用於新增及編輯您頁面上的體驗。
+[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)提供用於新增及編輯您的頁面上體驗的視覺介面。
 
 如需關於體驗的其他詳細資料，請參閱[體驗](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
-1. 從VEC的&#x200B;**[!UICONTROL Experiences]**&#x200B;頁面，按一下[!UICONTROL Experiences]窗格頂端的[!UICONTROL Add]圖示（ ![新增圖示](/help/main/assets/icons/Add.svg) ）。
+1. 從VEC中的&#x200B;**[!UICONTROL 體驗]**&#x200B;頁面，按一下[!UICONTROL 體驗]窗格頂端的[!UICONTROL 新增]圖示（![新增圖示](/help/main/assets/icons/Add.svg)）。
 
    VEC會在您建立新活動後的左側顯示兩個標籤：體驗A和體驗B。體驗A是控制體驗。 您可以對測試新增多個體驗。
 
@@ -38,13 +38,13 @@ ht-degree: 33%
    >
    >如果您從主要頁面以外的來源 (例如在 `akamai.net` 上託管並在 `example.com` 上傳送的影像) 傳送影像，該影像不會顯示在流程圖中所顯示頁面的縮圖中。
 
-1. 當您完成體驗設計時，請按一下「**[!UICONTROL Next]**」。
+1. 完成體驗設計時，請按一下&#x200B;**[!UICONTROL 下一步]**。
 
 ## 重新命名體驗
 
-1. 按一下體驗旁的&#x200B;**[!UICONTROL Rename Experience]**&#x200B;圖示（ ![重新命名圖示](/help/main/assets/icons/Rename.svg) ），將體驗命名為新的名稱。
+1. 按一下體驗旁的&#x200B;**[!UICONTROL 重新命名體驗]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)），為體驗提供新名稱。
 
-2. 指定新名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
+2. 指定新名稱，然後按一下[儲存]。**&#x200B;**
 
    為體驗命名或重新命名時，不得使用下列字元：
 
@@ -61,22 +61,22 @@ ht-degree: 33%
 
 ## 重新導向至 URL
 
-1. 在&#x200B;**[!UICONTROL Experiences]**&#x200B;窗格中，按一下體驗旁的&#x200B;**[!UICONTROL More]**&#x200B;圖示（ ![更多圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL Redirect to URL]**。
+1. 在&#x200B;**[!UICONTROL 體驗]**&#x200B;窗格中，按一下體驗旁的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示（![更多圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL 重新導向至URL]**。
 
    如需詳細資訊，請參閱[重新導向至 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
 1. 指定您要重新導向體驗的URL。
 
-1. （條件式）勾選&#x200B;**[!UICONTROL Include Current Query Parameters]**&#x200B;核取方塊。
+1. （條件式）勾選&#x200B;**[!UICONTROL 包含目前的查詢引數]**&#x200B;核取方塊。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 複製體驗
 
-您可以複製[!UICONTROL A/B Test]中的體驗，不必重新建立體驗，即可進行微幅變更。
+您可以複製[!UICONTROL A/B測試]中的體驗，不必重新建立體驗，即可進行微幅變更。
 
-1. 在&#x200B;**[!UICONTROL Experiences]**&#x200B;窗格中，按一下體驗旁的&#x200B;**[!UICONTROL More]**&#x200B;圖示（ ![更多圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL Duplicate]**。
+1. 在&#x200B;**[!UICONTROL 體驗]**&#x200B;窗格中，按一下體驗旁的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示（![更多圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL 複製]**。
 
 ## 刪除體驗
 
-1. 在&#x200B;**[!UICONTROL Experiences]**&#x200B;窗格中，按一下體驗旁的&#x200B;**[!UICONTROL More]**&#x200B;圖示（ ![更多圖示](/help/main/assets/icons/MoreSmall.svg) ），按一下&#x200B;**[!UICONTROL Delete]**，然後按一下&#x200B;**[!UICONTROL Delete]**&#x200B;以確認動作。
+1. 在&#x200B;**[!UICONTROL 體驗]**&#x200B;窗格中，按一下體驗旁的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示（![更多圖示](/help/main/assets/icons/MoreSmall.svg) ），按一下&#x200B;**[!UICONTROL 刪除]**，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認動作。

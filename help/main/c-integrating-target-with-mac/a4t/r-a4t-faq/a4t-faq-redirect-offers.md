@@ -19,8 +19,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +49,10 @@ ht-degree: 51%
 
 +++
 
-### 是否支援[!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Form-Based Experience Composer]？
+### 是否支援[!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 表單式體驗撰寫器]？
 
 +++回答
-是的，如果您使用內建的重新導向選件，則支援[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)。
+是的，如果您使用內建的重新導向選件，可支援[[!UICONTROL 視覺化體驗撰寫器]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL 表單式體驗撰寫器]](/help/main/c-experiences/form-experience-composer.md)。
 
 +++
 
@@ -79,7 +79,7 @@ ht-degree: 51%
 ## 在 A4T 活動中使用重新導向產品建議時，如何將流量分佈的差異減至最低？ {#discrepancies}
 
 +++回答
-在設定[!UICONTROL Analytics for Target] (A4T)的活動中使用重新導向選件時，有限數量的客戶報告流量分佈的差異程度較高。
+在設定[!UICONTROL Analytics for Target] (A4T)的活動中使用重新導向選件時，有限數量的客戶回報流量分佈的差異程度較高。
 
 考慮以下事項：
 

@@ -13,7 +13,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3578
 ht-degree: 80%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 80%
 
 ## 透過API建立的[!DNL Recommendations]物件是否顯示在[!DNL Target] UI中？
 
-是，透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）可在UI中使用，並可透過API或[!DNL Target] UI編輯。
+可以，透過API建立的[!UICONTROL Recommendations]物件（[!UICONTROL 條件]、[!UICONTROL 設計]、[!UICONTROL 集合]和[!UICONTROL 排除專案]）可以在UI中使用，也可以透過API或[!DNL Target] UI進行編輯。
 
 ## 我可以使用[!DNL Target] API管理[!DNL Target] UI建立的視覺化選件嗎？
 
-無. 在[!DNL Target] UI中建立具有視覺化選件的[!DNL Recommendations]活動，無法使用[!DNL Target] API進行管理。 雖然這些活動會顯示在[!UICONTROL Activities]清單中，但您無法讀取或更新它們（使用GET/PUT）。
+無. 在[!DNL Target] UI中建立具有視覺化選件的[!DNL Recommendations]活動，無法使用[!DNL Target] API進行管理。 雖然這些活動會顯示在[!UICONTROL 活動]清單中，但您無法讀取或更新它們（使用GET/PUT）。
 
-## 當我就具有某數值的自訂屬性進行搜尋時，為什麼[!UICONTROL Catalog Search]沒有顯示正確的結果？
+## 當我就具有某數值的自訂屬性進行搜尋時，為什麼[!UICONTROL 目錄搜尋]未顯示正確的結果？
 
 當您針對包含某數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
 
@@ -113,21 +113,21 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 >[!NOTE]
 >
->此設定僅適用於[!UICONTROL Visual Experience Composer] (VEC)中建立的活動。 此設定不適用於表單式體驗撰寫器中建立的活動 ([!DNL Target] 沒有位置環境定義)。
+>此設定僅適用於[!UICONTROL 視覺化體驗撰寫器] (VEC)中建立的活動。 此設定不適用於表單式體驗撰寫器中建立的活動 ([!DNL Target] 沒有位置環境定義)。
 
-若要存取[!UICONTROL Filter Incompatible Criteria]設定，請按一下[!UICONTROL Recommendations] > [!UICONTROL Settings]：
+若要存取[!UICONTROL 篩選不相容的條件]設定，請按一下「[!UICONTROL 建議] > [!UICONTROL 設定]」:
 
 ![recs_settings_filter影像](assets/recs_settings_filter.png)
 
-如果[!UICONTROL Filter Incompatible Criteria]設定未啟用，[!DNL Target]不會篩選演演算法選擇器中的演演算法，且所有演演算法都會顯示。
+如果未啟用[!UICONTROL 篩選不相容的條件]設定，則[!DNL Target]不會篩選演演算法選擇器中的演演算法，且所有演演算法都會顯示。
 
-如果[!UICONTROL Filter Incompatible Criteria]設定已啟用，則在VEC活動中，[!DNL Target]會從選取的位置中讀取實體ID和類別ID，然後根據`currentItem|currentCategory`顯示演演算法（前提是該位置中存在個別的值）。 因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
+如果[!UICONTROL 篩選不相容的條件]設定已啟用，則在VEC活動中，[!DNL Target]會從選取的位置中讀取實體ID和類別ID，然後根據`currentItem|currentCategory`顯示演演算法（前提是該位置中存在個別的值）。 因此，依預設，演算法選擇器中只會顯示所選位置的相容演算法。
 
-如果[!UICONTROL Filter Incompatible Criteria]設定已啟用，您仍然可以檢視不相容的演演算法，方法是在選取條件時取消選取[!UICONTROL Compatible]核取方塊。
+如果[!UICONTROL 篩選不相容的條件]設定已啟用，您仍可在選取條件時取消選取[!UICONTROL 「相容」]核取方塊，以檢視不相容的演算法。
 
 ![compatible_checkbox圖片](assets/compatible_checkbox.png)
 
-下列清單包含[!DNL Target]未顯示[!UICONTROL Compatible]核取方塊的特殊情況：
+下列清單包含[!DNL Target]未顯示[!UICONTROL 相容]核取方塊的特殊情況：
 
 * 該位置上有 entityId 和 categoryId，所以完全不篩選。
 * 您使用 [!DNL mbox.js] 55 版或更舊版本。
@@ -206,9 +206,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 摘要的 CSV 檔案上傳對於資料列數量或檔案大小並沒有嚴格限制。 但是，作為最佳作法，Adobe 建議將 CSV 檔案大小限制為 1 GB，以避免檔案上傳處理期間失敗。 若檔案大小超過 1 GB，最好將其分割成多個摘要檔案。 自訂屬性欄數的上限為 100，而自訂屬性限制為 4096 個字元。 在 [[!DNL Target] 限制頁面](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)上有提供必要欄長度的其他限制。
 
-## 為什麼我的[!UICONTROL Download data]動作在[!DNL Recommendations]活動中失敗？ {#download-data-error}
+## 為什麼我的[!UICONTROL 下載資料]動作在[!DNL Recommendations]活動中失敗？ {#download-data-error}
 
-當您在[!DNL Recommendations]活動的[!UICONTROL Activity Overview]頁面上按一下&#x200B;**[!UICONTROL Download data]**&#x200B;時，[!DNL Target]使用者介面可能會顯示錯誤`Error while fetching recommendation data file.`
+當您在[!DNL Recommendations]活動的[!UICONTROL 活動概覽]頁面上按一下&#x200B;**[!UICONTROL 下載資料]**&#x200B;時，[!DNL Target]使用者介面可能會顯示錯誤`Error while fetching recommendation data file.`
 
 這通常發生在活動具有非常大的結果集時：產生的CSV超過單次下載中可以透過使用者介面傳回的回應大小。 建議資料本身完整，只有瀏覽器內下載路徑無法傳遞該大小的檔案。
 

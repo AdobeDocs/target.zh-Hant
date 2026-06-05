@@ -1,7 +1,7 @@
 ---
 keywords: 視覺化體驗撰寫器選項；體驗撰寫器選項；體驗選項；編輯文字；編輯html；編輯文字/html；編輯背景顏色；背景顏色；插入元素；編輯連結；連結；視覺化體驗撰寫器連結；編輯css類別；CSS類別；交換選件；選件交換；交換影像；影像交換；移除專案；專案移除；隱藏專案；重新排列；移動元素；元素移動；調整元素大小；元素大小；展開選取範圍；導覽至此連結；導覽連結；導覽；連結；復原；還原/重做；自訂事件；網頁元件；選件決定；選件決策
-description: 探索 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中可用的選項。
-title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)選項？
+description: 探索 [!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)中可用的選項。
+title: 如何使用[!UICONTROL 視覺化體驗撰寫器] (VEC)選項？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
@@ -15,14 +15,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 8%
+source-wordcount: 2249
+ht-degree: 7%
 
 ---
 
-# [!UICONTROL Visual Experience Composer]選項
+# [!UICONTROL 視覺化體驗撰寫器]選項
 
-[!DNL Adobe Target Standard/Premium] 25.2.1版（2015年2月17日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明更新的UI及其選項。
+[!DNL Adobe Target Standard/Premium] 25.2.1版（2015年2月17日）推出更新的[!UICONTROL 視覺化體驗撰寫器] (VEC)。 本文說明更新的UI及其選項。
 
 >[!TIP]
 >
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Chrome Web Store]上可用的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]延伸模組](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Chrome Web Store]上可用的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 當您建立或編輯現有活動時，VEC隨即顯示。
 
@@ -38,65 +38,65 @@ ht-degree: 8%
 
 ## VEC UI總覽
 
-以下章節說明[!UICONTROL A/B Test]活動的更新VEC中可用的選項。 選項會因活動型別而異。
+以下章節說明[!UICONTROL A/B測試]活動的更新VEC中可用的選項。 選項會因活動型別而異。
 
-### [!UICONTROL Experiences]邊欄
+### [!UICONTROL 體驗]邊欄
 
-[!UICONTROL Experiences]邊欄會顯示在VEC的左側邊欄中。
+[!UICONTROL 體驗]邊欄會顯示在VEC的左側邊欄中。
 
 ![體驗邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-您可以使用[!UICONTROL Experiences]邊欄來檢視、建立、重新命名或移除體驗。
+您可以使用[!UICONTROL 體驗]邊欄來檢視、建立、重新命名或移除體驗。
 
-[!UICONTROL Experiences]邊欄中有以下選項：
+[!UICONTROL 體驗]邊欄中有以下選項：
 
-* **檢視體驗**：若要檢視體驗，請按一下所需的體驗，以將其顯示在[!UICONTROL Design]畫布中。
-* **新增體驗**：按一下&#x200B;**[!UICONTROL Add]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg)）以新增體驗。 視需要設定新體驗。
-* **重新命名體驗**：按一下&#x200B;**[!UICONTROL Rename]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)）以顯示[!UICONTROL Rename Experience]對話方塊。 指定新名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
-* **複製、刪除或重新導向體驗**：按一下&#x200B;**[!UICONTROL More Actions]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後選擇&#x200B;**[!UICONTROL Duplicate]**、**[!UICONTROL Delete]**&#x200B;或&#x200B;**[!UICONTROL Redirect to URL]**。
+* **檢視體驗**：若要檢視體驗，請按一下所需的體驗，以在[!UICONTROL 設計]畫布中顯示。
+* **新增體驗**：按一下&#x200B;**[!UICONTROL 新增]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg) ）以新增體驗。 視需要設定新體驗。
+* **重新命名體驗**：按一下&#x200B;**[!UICONTROL 重新命名]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)）以顯示[!UICONTROL 重新命名體驗]對話方塊。 指定新名稱，然後按一下[儲存]。**&#x200B;**
+* **複製、刪除或重新導向體驗**：按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後選擇&#x200B;**[!UICONTROL 複製]**、**[!UICONTROL 刪除]**&#x200B;或&#x200B;**[!UICONTROL 重新導向至URL]**。
 
 ### 活動設定/設定 {#settings}
 
-按一下[!UICONTROL Design]畫布上方顯示的[!UICONTROL Configure]圖示（![設定圖示](/help/main/assets/icons/Setting.svg)）以顯示活動屬性功能表。
+按一下[!UICONTROL 設計]畫布上方顯示的[!UICONTROL 設定]圖示（![設定圖示](/help/main/assets/icons/Setting.svg)）以顯示活動屬性功能表。
 
 ![活動設定選項](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
 可使用下列選項:
 
-* **[!UICONTROL Properties]**：將屬性指派給活動，或從活動中移除屬性。 [!UICONTROL Properties]是([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)功能。 如需詳細資訊，請參閱[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
-* **[!UICONTROL Page Delivery]**：在您的網站上類似頁面上包含相同體驗。 使用頁面範本為您的頁面提供結構，或如果您的頁面包含類似的元素，則使用類似的結構化頁面元素或整個網域來測試變數。 如需詳細資訊，請參閱[在類似頁面上包含相同體驗](/help/main/c-experiences/c-visual-experience-composer/temtest.md)。
-* **[!UICONTROL Site Preferences]**：設定您的網站偏好設定，以指定[!DNL Target]如何產生CSS選取器。 如需詳細資訊，請參閱[設定[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)中的&#x200B;_CSS選取器_。
+* **[!UICONTROL 屬性]**：將屬性指派給活動，或從活動中移除屬性。 [!UICONTROL 屬性]是([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)功能。 如需詳細資訊，請參閱[企業使用者權限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+* **[!UICONTROL 頁面傳送]**：在您的網站上類似的頁面上包含相同體驗。 使用頁面範本為您的頁面提供結構，或如果您的頁面包含類似的元素，則使用類似的結構化頁面元素或整個網域來測試變數。 如需詳細資訊，請參閱[在類似頁面上包含相同體驗](/help/main/c-experiences/c-visual-experience-composer/temtest.md)。
+* **[!UICONTROL 網站偏好設定]**：設定您的網站偏好設定，以指定[!DNL Target]如何產生CSS選取器。 如需詳細資訊，請參閱[設定[!UICONTROL 視覺化體驗撰寫器]](/help/main/administrating-target/visual-experience-composer-set-up.md)中的&#x200B;_CSS選取器_。
 * **新增其他頁面**：將其他頁面新增至活動，以建立多頁活動，讓您使用每個頁面專屬的設計，跨多個頁面建立劇本。 如需詳細資訊，請參閱[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 * **單一對象**：將單一對象用於活動。
-* **多個對象**：將多個對象指派給活動。 按一下「新增對象」圖示（ ![新增圖示](/help/main/assets/icons/Add.svg) ），然後從清單中選取一或多個對象。 您也可以從[!UICONTROL Add Audiences]對話方塊[合併對象](/help/main/c-target/combining-multiple-audiences.md)或[建立新對象](/help/main/c-target/c-audiences/create-audience.md)。
+* **多個對象**：將多個對象指派給活動。 按一下「新增對象」圖示（ ![新增圖示](/help/main/assets/icons/Add.svg) ），然後從清單中選取一或多個對象。 您也可以從[!UICONTROL 新增對象]對話方塊[合併對象](/help/main/c-target/combining-multiple-audiences.md)或[建立新對象](/help/main/c-target/c-audiences/create-audience.md)。
 
-### [!UICONTROL Design]/[!UICONTROL Browse]模式
+### [!UICONTROL 設計]/[!UICONTROL 瀏覽]模式
 
-使用設計畫布上方顯示的[!UICONTROL Design]/[!UICONTROL Browse]切換功能，在設計模式和瀏覽模式之間切換。
+使用顯示在設計畫布上方的[!UICONTROL 設計]/[!UICONTROL 瀏覽]切換，可在設計和瀏覽模式之間切換。
 
 ![設計和瀏覽切換](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-使用[!UICONTROL Browse]模式瀏覽您的網站，並挑選您要更新的檢視或頁面。 切換回[!UICONTROL Design]模式以新增或編輯您的變更。
+使用[!UICONTROL 瀏覽]模式來瀏覽您的網站，並挑選您要更新的檢視或頁面。 切換回[!UICONTROL 設計]模式以新增或編輯您的變更。
 
-### [!UICONTROL Undo]/[!UICONTROL Redo]
+### [!UICONTROL 復原]/[!UICONTROL 取消復原]
 
-您可以按一下[!UICONTROL Undo]圖示（ ![復原圖示](/help/main/assets/icons/Undo.svg) ）來復原所做的變更。
+您可以按一下「[!UICONTROL 復原]」圖示（「![復原」圖示](/help/main/assets/icons/Undo.svg)）來復原所做的變更。
 
 VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
 
-若要重做動作，請展開復原/[!UICONTROL Redo]按鈕群組並選擇[!UICONTROL Redo]。
+若要重做動作，請展開復原/[!UICONTROL 重做]按鈕群組並選擇[!UICONTROL 重做]。
 
-### [!UICONTROL Components]邊欄
+### [!UICONTROL 元件]邊欄
 
-您可以使用新的[!UICONTROL Components]邊欄，在網頁中新增許多元件，並視需要加以編輯。
+您可以使用新的[!UICONTROL 元件]邊欄，在網頁中新增許多元件，並視需要加以編輯。
 
 ![元件邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->如果您在此區域中看到[!UICONTROL Modifications]邊欄而非[!UICONTROL Components]邊欄，請按一下&#x200B;**[!UICONTROL Show Components]**&#x200B;圖示（ ![顯示元件圖示](/help/main/assets/icons/Add.svg) ）。 [!UICONTROL Show Components]圖示（![顯示元件圖示](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg)）可作為切換來顯示適當的選項。
+>如果您在此區域中看到[!UICONTROL 修改]邊欄，而非[!UICONTROL 元件]邊欄，請按一下&#x200B;**[!UICONTROL 顯示元件]**&#x200B;圖示（![顯示元件圖示](/help/main/assets/icons/Add.svg) ）。 [!UICONTROL 顯示元件]圖示（![顯示元件圖示](/help/main/assets/icons/Add.svg)）和[!UICONTROL 顯示修改]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg)）可作為切換來顯示適當的選項。
 >
->若要收合[!UICONTROL Components]邊欄並放大[!UICONTROL Design]畫布，請在[!UICONTROL Components]邊欄開啟時按一下（ ![顯示元件圖示](/help/main/assets/icons/Add.svg) ）圖示。
+>若要收合[!UICONTROL 元件]邊欄並放大[!UICONTROL 設計]畫布，當[!UICONTROL 元件]邊欄開啟時，請按一下（![顯示元件圖示](/help/main/assets/icons/Add.svg) ）圖示。
 
 若要新增元件至體驗：
 
@@ -104,79 +104,79 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
    可用的元件會分組為邏輯容器：
 
-   * [!UICONTROL Basic]
-      * [!UICONTROL Divider]
+   * [!UICONTROL 基本]
+      * [!UICONTROL 分隔線]
       * [!UICONTROL HTML]
-      * [!UICONTROL Image]
-   * [!UICONTROL Text]
-      * [!UICONTROL Heading]
-      * [!UICONTROL Paragraph]
-      * [!UICONTROL Link]
-   * [!UICONTROL Dynamic]
-      * [[!UICONTROL Recommendation]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL Experience Fragment]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL HTML Offer]](/help/main/c-experiences/c-manage-content/manage-content.md)
+      * [!UICONTROL 影像]
+   * [!UICONTROL 文字]
+      * [!UICONTROL 標題]
+      * [!UICONTROL 段落]
+      * [!UICONTROL 連結]
+   * [!UICONTROL 動態]
+      * [[!UICONTROL 建議]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+      * [[!UICONTROL 體驗片段]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+      * [[!UICONTROL HTML選件]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
-1. 將元件拖曳到[!UICONTROL Design]畫布中的現有頁面元素上。
+1. 將元件拖曳到[!UICONTROL 設計]畫布中的現有頁面元素上。
 1. 選擇取代所選元素，或將元件插入所選元素的前面。
 
-### [!UICONTROL Modifications]邊欄
+### [!UICONTROL 修改]邊欄
 
-若要開啟[!UICONTROL Modifications]邊欄，請按一下[!UICONTROL Components]邊欄中的[!UICONTROL Show Modifications]圖示（ ![顯示修改邊欄](/help/main/assets/icons/History.svg) ）。
+若要開啟[!UICONTROL 修改]邊欄，請按一下[!UICONTROL 元件]邊欄中的[!UICONTROL 顯示修改]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg)）。
 
 ![修改邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->[!UICONTROL Show Components]圖示（![顯示元件圖示](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg)）可作為切換來顯示適當的選項。
+>[!UICONTROL 顯示元件]圖示（![顯示元件圖示](/help/main/assets/icons/Add.svg)）和[!UICONTROL 顯示修改]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg)）可作為切換來顯示適當的選項。
 >
->若要收合[!UICONTROL Modifications]邊欄並放大[!UICONTROL Design]畫布，當[!UICONTROL Modifications]邊欄開啟時，請按一下[!UICONTROL Show Modifications]圖示（ ![顯示修改邊欄](/help/main/assets/icons/History.svg) ）圖示。
+>若要收合[!UICONTROL 修改]邊欄並放大[!UICONTROL 設計]畫布，當[!UICONTROL 修改]邊欄開啟時，請按一下[!UICONTROL 顯示修改]圖示（![顯示修改邊欄](/help/main/assets/icons/History.svg) ）圖示。
 
-[!UICONTROL Modifications]邊欄會顯示在[!UICONTROL Visual Experience Composer] (VEC)中對您的頁面所做的所有變更，並可讓您進行其他變更（例如CSS選取器、Mbox和自訂程式碼）。
+[!UICONTROL 修改]邊欄會顯示在[!UICONTROL 視覺化體驗撰寫器] (VEC)中對您的頁面所做的所有變更，並可讓您進行其他變更（例如CSS選取器、Mbox和自訂程式碼）。
 
-按一下邊欄標題中的&#x200B;**[!UICONTROL More Options]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ）以新增修改、刪除所有修改或刪除所有無效修改。 按一下[!UICONTROL Select]以執行大量作業： [!UICONTROL Apply to All Pages]或[!UICONTROL Delete]。
+按一下邊欄標題中的&#x200B;**[!UICONTROL 更多選項]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg)）以新增修改、刪除所有修改或刪除所有無效修改。 按一下[!UICONTROL 選取]以執行大量作業： [!UICONTROL 套用至所有頁面]或[!UICONTROL 刪除]。
 
-按一下每個修改旁的&#x200B;**[!UICONTROL More Options]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ）以檢視其資訊、刪除修改，或將修改套用至更多檢視。
+按一下每個修改旁的&#x200B;**[!UICONTROL 更多選項]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg)）以檢視其資訊、刪除修改，或將修改套用至更多檢視。
 
-### [!UICONTROL Design]畫布
+### [!UICONTROL 設計]畫布
 
-[!UICONTROL Design]畫布可讓您選取檢視區，包括符合熒幕大小、[!UICONTROL Desktop]、[!UICONTROL Tablet]、[!UICONTROL Mobile Landscape]和[!UICONTROL Mobile Portrait]。 依預設，畫布會將頁面與[管理](/help/main/administrating-target/visual-experience-composer-set-up.md)區段中定義的檢視區一起調整到熒幕。
+[!UICONTROL 設計]畫布可讓您選取檢視區，包括符合熒幕大小、[!UICONTROL 案頭]、[!UICONTROL 平板電腦]、[!UICONTROL 行動裝置橫向]以及[!UICONTROL 行動裝置縱向]。 依預設，畫布會將頁面與[管理](/help/main/administrating-target/visual-experience-composer-set-up.md)區段中定義的檢視區一起調整到熒幕。
 
 ![檢視區選項](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
 您也可以按一下適當的圖示（ ![放大圖示](/help/main/assets/icons/ZoomIn.svg)或![縮小圖示](/help/main/assets/icons/ZoomOut.svg)）來放大或縮小。
 
-當您在[!UICONTROL Design]畫布中按一下頁面元素時，功能表會顯示該元素型別的可用選項。 此外，DOM 路徑會顯示在頁面底部，讓您輕鬆導覽頁面結構。
+當您在[!UICONTROL 設計]畫布中按一下頁面元素時，功能表會顯示該元素型別的可用選項。 此外，DOM 路徑會顯示在頁面底部，讓您輕鬆導覽頁面結構。
 
-各種[!UICONTROL Visual Experience Composer] (VEC)動作會分組到適當的功能表選項中，讓您的工作更快更有效率：
+各種[!UICONTROL 視覺化體驗撰寫器] (VEC)動作會分組到適當的功能表選項中，讓您的工作更快更有效率：
 
 ![VEC 選項功能表](/help/main/c-experiences/c-visual-experience-composer/assets/vec-options.png)
 
 >[!NOTE]
 >
->可用的選項取決於您建立或編輯的活動型別和元素。 如需在[!UICONTROL A/B Test]活動中編輯影像和選件的詳細資訊，請參閱下列[使用畫布[!UICONTROL Design]編輯元素](#design)。
+>可用的選項取決於您建立或編輯的活動型別和元素。 如需有關在[!UICONTROL A/B測試]活動中編輯影像和選件的詳細資訊，請參閱以下[使用[!UICONTROL 設計]畫布](#design)編輯元素。
 
-### [!UICONTROL Properties]邊欄
+### [!UICONTROL 屬性]邊欄
 
-[!UICONTROL Properties]邊欄可讓您變更頁面上所選元素的屬性，不論這些元素是HTML元素或專屬於[!DNL Target]的物件，例如建議或選件。
+[!UICONTROL 屬性]邊欄可讓您變更頁面上所選元素的屬性，不論這些元素是HTML元素或專屬於[!DNL Target]的物件，例如建議或選件。
 
 ![屬性邊欄](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-按一下邊欄頂端的圖示，即可編輯HTML程式碼或刪除、複製或隱藏元素。 變更會顯示在[!UICONTROL Modifications]邊欄中。
+按一下邊欄頂端的圖示，即可編輯HTML程式碼或刪除、複製或隱藏元素。 變更會顯示在[!UICONTROL 修改]邊欄中。
 
-[!UICONTROL Properties]邊欄可在右側邊欄中摺疊，以讓您隱藏設計畫布並放大設計畫布。 按一下邊欄右側的[!UICONTROL Show/Hide Properties]圖示（ ![屬性圖示](/help/main/assets/icons/Propertie.svg) ）以收合或顯示[!UICONTROL Properties]邊欄。
+[!UICONTROL 屬性]邊欄可在右側邊欄中摺疊，以讓您隱藏設計畫布並放大設計畫布。 按一下邊欄右側的[!UICONTROL 顯示/隱藏屬性]圖示（![屬性圖示](/help/main/assets/icons/Propertie.svg)）以摺疊或顯示[!UICONTROL 屬性]邊欄。
 
-## 使用[!UICONTROL Design]畫布編輯元素 {#design}
+## 使用[!UICONTROL 設計]畫布編輯元素 {#design}
 
-以下章節說明如何編輯[!UICONTROL Design]畫布中的影像和文字。 「設計」畫布以及「元件」、「修改」和「屬性」邊欄提供您強大的工具，讓您輕鬆建立活動的體驗。
+以下章節說明如何在[!UICONTROL 設計]畫布中編輯影像和文字。 「設計」畫布以及「元件」、「修改」和「屬性」邊欄提供您強大的工具，讓您輕鬆建立活動的體驗。
 
 ### 影像選項
 
-如果您按一下[!UICONTROL A/B Test]活動中的影像，VEC看起來會類似於下圖：
+如果您按一下[!UICONTROL A/B測試]活動中的影像，VEC看起來會類似於下圖：
 
 已選取影像的![VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
-從左側的[!UICONTROL Components]框架中選取元件以插入下列元素：
+從左側的[!UICONTROL 元件]框架中選取元件以插入下列元素：
 
 * 基本（分隔線、HTML、影像）。
 * 文字（標題、段落、連結）。
@@ -189,7 +189,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 * 新增個人化（![新增Personalization圖示](/help/main/assets/icons/PersonalizationField.svg) ）。
 * 刪除影像（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 
-右側的[!UICONTROL Properties]窗格可進一步設定影像的屬性。
+右側的[!UICONTROL 屬性]窗格可進一步設定影像的屬性。
 
 框架頂端的圖示可讓您執行下列動作：
 
@@ -203,25 +203,25 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 * 編輯CSS類別。
 * 設定影像的屬性（來源、標題、替代文字）。
 * 編輯連結URL
-* 設定影像的大小（高度和寬度）。 按一下[!UICONTROL Show Advanced Options]以設定影像的最小和最大大小、寬度、高度、溢位和物件大小。
+* 設定影像的大小（高度和寬度）。 按一下[!UICONTROL 「顯示進階選項」]來設定影像的最小和最大大小、寬度、高度、溢位和物件大小。
 * 設定影像在頁面上的位置（絕對、固定、相對、靜態或粘著）。
 * 設定元素的間距，包括邊界和邊距。
-* 設定元素的效果（不透明度）。 按一下[!UICONTROL Show Advanced Options]設定影像的棕褐色、灰階、對比、亮度和模糊值。 您也可以反轉或旋轉影像。
+* 設定元素的效果（不透明度）。 按一下[!UICONTROL 「顯示進階選項」]來設定影像的復古、灰階、對比、亮度和模糊值。 您也可以反轉或旋轉影像。
 * 設定影像的內嵌樣式。
 
 ### 文字選項
 
-如果您在[!UICONTROL A/B Test]活動中按一下文字，VEC看起來會類似於下圖：
+如果您在[!UICONTROL A/B測試]活動中按一下文字，VEC看起來會類似於下圖：
 
 已選取文字的![VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-text.png)
 
-從左側的[!UICONTROL Components]框架中選取元件以插入下列元素：
+從左側的[!UICONTROL 元件]框架中選取元件以插入下列元素：
 
 * 基本（分隔線、HTML、影像）。
 * 文字（標題、段落、連結）。
 * 動態（[建議](/help/main/c-recommendations/recommendations-as-an-offer.md)，[體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML選件）。
 
-按一下「[!UICONTROL Show Modifications]」圖示（![顯示修改圖示](/help/main/assets/icons/History.svg)）以顯示體驗的修改。
+按一下[!UICONTROL 顯示修改]圖示（![顯示修改圖示](/help/main/assets/icons/History.svg)）以顯示體驗的修改。
 
 文字元素頂端的功能表可讓您進行下列工作：
 
@@ -235,7 +235,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 * 新增個人化（![新增Personalization圖示](/help/main/assets/icons/PersonalizationField.svg) ）。
 * 刪除影像（ ![刪除圖示](/help/main/assets/icons/Delete.svg) ）。
 
-右側的[!UICONTROL Properties]邊欄可讓您進一步設定文字的屬性。
+右側的[!UICONTROL 屬性]邊欄可進一步設定文字的屬性。
 
 框架頂端的圖示可讓您執行下列動作：
 
@@ -251,17 +251,17 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 * 設定文字的印刷樣式(標題樣式、字型大小、字型粗細、行高、對齊、文字色彩、文字樣式（粗體、斜體、底線或刪除線）)。
 * 設定清單，包括專案符號、編號或A、B、C。
 * 選擇邊框顏色。
-* 設定文字方塊的大小（高度和寬度）。 按一下[!UICONTROL Show Advanced Options]以設定文字方塊的最小和最大大小、寬度、高度、溢位和物件大小。
+* 設定文字方塊的大小（高度和寬度）。 按一下[!UICONTROL 顯示進階選項]來設定文字方塊的最小和最大大小、寬度、高度、溢位和物件大小。
 * 設定文字方塊在頁面上的位置（絕對、固定、相對、靜態或粘著），並設定從上、右、下和左的畫素數量。
 * 設定元素的間距，包括邊界和邊距。
-* 設定元素的效果（不透明度）。 按一下[!UICONTROL Show Advanced Options]設定影像的棕褐色、灰階、對比、亮度和模糊值。 您也可以反轉或旋轉文字。
+* 設定元素的效果（不透明度）。 按一下[!UICONTROL 「顯示進階選項」]來設定影像的復古、灰階、對比、亮度和模糊值。 您也可以反轉或旋轉文字。
 * 設定內嵌樣式。
 
 ## 編輯HTML
 
 除了 HTML 程式碼，您可以編輯和插入自訂 JavaScript。
 
-針對[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活動編輯文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。 修改HTML時，您可以在程式碼檢視和HTML的豐富編輯檢視之間切換。
+針對[!UICONTROL A/B]和[!UICONTROL 體驗鎖定目標]活動編輯文字和HTML時，有數個RTF格式選項可供使用。 您可選擇字型、選取字型樣式、變更文字對齊方式，以及其他標準文字格式化選項。 修改HTML時，您可以在程式碼檢視和HTML的豐富編輯檢視之間切換。
 
 以下是可巢狀的 HTML5 標記:
 
@@ -278,7 +278,7 @@ VEC中的![復原圖示](/help/main/c-experiences/c-visual-experience-composer/a
 
 ![DOM 路徑](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path-refresh.png)
 
-如果沒有看見DOM路徑，請按一下[!UICONTROL Show DOM]圖示（ ![顯示DOM圖示](/help/main/assets/icons/LayersBringToFront.svg) ）。
+如果沒有看見DOM路徑，請按一下[!UICONTROL 顯示DOM]圖示（ ![顯示DOM圖示](/help/main/assets/icons/LayersBringToFront.svg) ）。
 
 您可以使用 DOM 路徑快速查看有關已選取元素 (類型、ID 和類別) 的資訊，然後向上或向下移動 DOM 路徑以選取想要的元素。
 
@@ -292,15 +292,15 @@ When you hover over the DOM path, a blue box highlights the corresponding elemen
 
 ## 有關已更新UI的更多資訊
 
-* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的關鍵UI變更摘要。
+* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!UICONTROL 活動]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)在[!DNL Target]中的主要UI變更摘要。
 
-* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]中[!UICONTROL Offers Library]主要UI變更的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL 選件程式庫]在[!DNL Target]中的主要UI變更摘要。
 
 * [瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供簡短的總覽，協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。
 
-* [[!UICONTROL Visual Experience Composer]個變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）推出更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文說明VEC舊版和更新版本之間的差異。
+* [[!UICONTROL 視覺化體驗撰寫器]變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）推出更新的[!UICONTROL 視覺化體驗撰寫器] (VEC)。 本文說明VEC舊版和更新版本之間的差異。
 
-* [[!UICONTROL Visual Experience Composer]選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文說明更新的VEC UI及其選項。
+* [[!UICONTROL 視覺化體驗撰寫器]選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文說明更新的VEC UI及其選項。
 
 * [[!DNL Target] UI更新常見問題集](/help/main/c-intro/updated-ui-faq.md)：此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，此FAQ可協助您順利轉換，並充分運用更新後的UI。
 

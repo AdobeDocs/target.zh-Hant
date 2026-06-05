@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 181
-ht-degree: 12%
+source-wordcount: 184
+ht-degree: 11%
 
 ---
 
@@ -35,6 +35,6 @@ ht-degree: 12%
 >
 >[!DNL Adobe Experience Platform]中的標籤是實作[!DNL Target]的偏好方法。 [!DNL Adobe Experience Platform]中的標籤是新一代[!DNL Adobe]的標籤管理功能。 標籤可讓客戶透過簡單的方式部署及管理必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 如需詳細資訊，請參閱[使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}。
 
-1. 若要存取[!UICONTROL Implementation]頁面，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
+1. 若要存取[!UICONTROL 實作]頁面，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
 
 1. 如需適用於此頁面設定的資訊，請參閱[不使用標籤管理員實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。

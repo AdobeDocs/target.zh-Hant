@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 68%
+source-wordcount: 507
+ht-degree: 69%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 68%
 
 您可以根據網路詳細資料（例如ISP、網域名稱和連線速度），在[!DNL Adobe Target]中建立對象。
 
-1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
 1. 為對象命名並新增選擇性說明。
-1. 將&#x200B;**[!UICONTROL Network]**&#x200B;拖放至對象產生器窗格。
-1. 按一下&#x200B;**[!UICONTROL Select]**，然後選取下列其中一個選項：
+1. 將&#x200B;**[!UICONTROL 網路]**&#x200B;拖放至對象產生器窗格。
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * **ISP:** ISP 是一個為用戶提供網際網路存取的機構，通常是繳月費或年費。 許多 ISP 都提供額外服務，例如虛擬主機或電子郵件。 ISP 欄位是商業 ISP (例如 Comcast 或 TimeWarner) 或另一個實體，例如商業或教育機構。
 
@@ -59,9 +59,9 @@ ht-degree: 68%
      此欄位是根據連線的類型，而不是本身的實際速度。 [!DNL Target] 無法判斷連線的確切連線速度。 當沒有出現其他連線類型而無法選擇特定類型時，就會使用寬頻連線類型。
 
 1. （選用）為對象設定其他規則。
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-下圖顯示將目標鎖定於使用AT&amp;T且連線速度為[!UICONTROL Mobile]之訪客的受眾。
+下圖顯示將目標鎖定於使用AT&amp;T且連線速度為[!UICONTROL 行動]之訪客的受眾。
 
 ![網路目標](assets/target_network.png)
 

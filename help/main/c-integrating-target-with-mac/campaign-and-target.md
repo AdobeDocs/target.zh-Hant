@@ -14,8 +14,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 32%
 ## 在[!DNL Adobe Campaign]電子郵件中包含[!DNL Target]選件 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在[!DNL Adobe Campaign]中建立電子郵件。
-1. 在電子郵件內容中，按一下&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**。
+1. 在電子郵件屬性中，按一下&#x200B;**[!UICONTROL 「包含」]** > **[!UICONTROL 「Adobe Target 提供的動態影像」]**。
 1. 從共用資產中選取預設影像。
 1. 指定位置 (rawbox)。
 1. 新增任何其他決策參數，例如收件者的性別。

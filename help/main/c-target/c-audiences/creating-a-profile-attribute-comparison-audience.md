@@ -15,8 +15,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->此功能僅適用於[[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)類別。
+>此功能僅適用於[[!UICONTROL 訪客設定檔]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)類別。
 
 ## 概觀 {#section_303CBC78194D49A2A004945D425441E1}
 
-客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。 對象定義可以包括多個規則，並且每個規則可以包括多個參數。 如果您包含的其中一個規則使用[!UICONTROL Visitor Profile]類別，您可以根據訪客設定檔屬性的特定值來定義規則，或將該屬性的值與另一個訪客設定檔屬性進行比較。
+客群是由可決定要從 [!DNL Target] 活動中包括或排除的規則定義。 對象定義可以包括多個規則，並且每個規則可以包括多個參數。 如果您包含的其中一個規則使用[!UICONTROL 訪客設定檔]類別，您可以根據訪客設定檔屬性的特定值來定義規則，或將該屬性的值與另一個訪客設定檔屬性進行比較。
 
 例如，假設您在一家傢俱公司工作，並將兩個客戶傾向分數上傳至[!DNL Target]：
 
@@ -43,10 +43,10 @@ ht-degree: 52%
 
 ## 建立輪廓屬性比較客群 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
 1. 為對象命名並新增選擇性說明。
-1. 將&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;拖放至對象產生器窗格。
-1. 從&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉式清單中選擇屬性：
+1. 將&#x200B;**[!UICONTROL 訪客設定檔]**&#x200B;拖放至對象產生器窗格。
+1. 從&#x200B;**[!UICONTROL 「訪客設定檔」]**&#x200B;下拉式清單選取屬性:
 
    ![傾向分數 1](assets/propensity_score_1.png)
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
    ![傾向分數 2](assets/propensity_score_2.png)
 
-1. 從&#x200B;**[!UICONTROL Choose Comparison Type]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Attribute]**。
+1. 從&#x200B;**[!UICONTROL 「選取比較類型」]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 「屬性」]**。
 
    「靜態值」比較型別可讓您將訪客設定檔屬性與特定值比較。
 
@@ -68,7 +68,7 @@ ht-degree: 52%
 
    ![propensity_score_4圖片](assets/propensity_score_4.png)
 
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 ## 訓練影片![總覽徽章](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 

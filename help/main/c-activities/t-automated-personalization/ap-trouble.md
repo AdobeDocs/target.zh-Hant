@@ -15,7 +15,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: 764
 ht-degree: 30%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 30%
 
 有時活動不會如預期般進行。 以下是使用[!UICONTROL Automated Personalization] (AP)時可能會遇到的一些潛在挑戰，以及一些建議的解決方案。
 
-## 我的[!UICONTROL Automated Personalization]活動花費太多時間來建置模型。 {#section_20028B204DBB4D77A324BA193434AEE2}
+## 我的[!UICONTROL Automated Personalization]活動花費太長的時間建立模型。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
 +++檢視詳細資料
 
-有幾項活動設定變更可以縮短建立模型的預期時間，包括[!UICONTROL Automated Personalization]活動中的體驗數量、流向網站的流量，以及您選取的成功量度。
+有幾項活動設定變更可以縮短建立模型的預期時間，包括[!UICONTROL Automated Personalization]活動中的體驗數量、流向您網站的流量，以及您選取的成功量度。
 
 **解決方案：**&#x200B;檢閱您的活動設定，看看是否有任何您願意進行的變更，以提高建立模型的速度。
 
@@ -43,7 +43,7 @@ ht-degree: 30%
 
 +++檢視詳細資料
 
-[!UICONTROL Automated Personalization]活動需要數個因子才能產生提升度：
+[!UICONTROL Automated Personalization]活動產生提升度需要數個因素：
 
 * 選件差異必須足以影響訪客。
 * 選件必須位於對最佳化目標有所影響的位置。

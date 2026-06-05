@@ -18,7 +18,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 965
 ht-degree: 89%
 
 ---
@@ -53,13 +53,13 @@ ht-degree: 89%
 
 ## A4T 活動報告包含的一列有許多「未指定」事件。 {#added_unspecified_events}
 
-根據顯示您的資料所使用的量度，報告中可能會顯示&quot;[!UICONTROL Unspecified]&quot;事件列。
+根據顯示您的資料所使用的量度，報告中可能會顯示「[!UICONTROL 未指定]」事件列。
 
-一般來說，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如，[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors]等），就會顯示此列。 在此案例中，[!UICONTROL "Unspecified"]列包含未與[!DNL Target]活動相關聯的所有[!UICONTROL Page Views]、[!UICONTROL Visits]和[!UICONTROL Unique Visitors]。
+一般而言，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如[!UICONTROL 頁面檢視次數]、[!UICONTROL 造訪次數]、[!UICONTROL 不重複訪客]等），就會顯示此列。 在此案例中，[!UICONTROL 「未指定」]列包含與[!DNL Target]活動無關的所有[!UICONTROL 頁面檢視]、[!UICONTROL 造訪]和[!UICONTROL 不重複訪客]。
 
 該列不會有任何 [!DNL Target] 相關資訊 (例如，沒有訪客、造訪次數或曝光率)。 如需詳細資訊，請參閱 *Analytics 技術備忘稿*&#x200B;中[報表中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant)。
 
-如果您在報表中選擇特定於[!DNL Target]的量度，該[!UICONTROL "Unspecified"]列就不會顯示。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
+如果您在報表中選擇特定於[!DNL Target]的量度，該[!UICONTROL 「未指定」]列就不會顯示。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
 
 ## 預估收入成長量度未顯示正確資料。 {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -71,7 +71,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。 請參閱[使用Analytics
 
 >[!NOTE]
 >
->如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL Goals & Settings]頁面上的[!UICONTROL Tracking Server]欄位保留空白。
+>如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
 ## 我的 Analytics 區段未出現在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 

@@ -16,8 +16,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 71%
 
 您需要將一定數量的訪客放入測試人口中，才能從測試中得出統計上顯著的結論。 想想看，如果只有兩個人參加你的考試，你會對結果有信心嗎？
 
-[!DNL Target] 依據統計原則來判斷測試結果在統計上是有效的。 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)可協助您根據對結果的信賴度來判斷執行測試的時間長度。 按一下此方塊中的[!UICONTROL Learn More]連結以開啟並使用計算器。
+[!DNL Target] 依據統計原則來判斷測試結果在統計上是有效的。 [!DNL Adobe Target] [樣本大小電腦](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)可協助您根據對結果的信賴度來判斷執行測試的時間長度。 按一下此方塊中的[!UICONTROL 深入瞭解]連結以開啟並使用計算器。
 
 ### 這項活動有多重要？
 
@@ -117,4 +117,4 @@ ht-degree: 71%
 
 ## 開啟 [!DNL Target] 並建立及啟動您的活動
 
-您已填妥活動規劃師。 現在應該進入解決方案並建立您的活動。 [!DNL Target]可讓您在[!UICONTROL Visual Experience Composer]中輕鬆修改網頁。
+您已填妥活動規劃師。 現在應該進入解決方案並建立您的活動。 [!DNL Target]可讓您在[!UICONTROL 視覺化體驗撰寫器]中輕鬆修改網頁。

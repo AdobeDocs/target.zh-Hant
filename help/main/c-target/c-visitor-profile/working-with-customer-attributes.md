@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1617
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 29%
 
 使用客戶屬性和[!DNL Target]時請考量下列資訊：
 
-* 在[!DNL People]服務中使用[!UICONTROL Customer Attributes]功能之前，您必須符合一些先決條件要求。 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面與管理*&#x200B;指南中[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#section_BD38693AFBF34926BA28E964963B4EA0)的「上傳客戶屬性的先決條件」。
+* 您必須符合一些先決條件要求，才能在[!DNL People]服務中使用[!UICONTROL 客戶屬性]功能。 如需詳細資訊，請參閱&#x200B;*Experience Cloud介面與管理*&#x200B;指南中[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#section_BD38693AFBF34926BA28E964963B4EA0)的「上傳客戶屬性的先決條件」。
 * 請注意檔案上傳的限制，如&#x200B;*Experience Cloud介面與管理*&#x200B;指南中的[客戶屬性資料檔與來源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant)所述。 最佳做法：
 
    * 上傳單一大型檔案（在指定的[限制內](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hant)）。 單一大型檔案比多個較小檔案更適合。
@@ -56,11 +56,11 @@ ht-degree: 29%
 
 ## 存取People服務中的客戶屬性
 
-1. 在[!DNL Experience Cloud]中，按一下功能表圖示（ ![功能表圖示](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ），然後按一下&#x200B;**[!UICONTROL People]**。
+1. 在[!DNL Experience Cloud]中，按一下功能表圖示（ ![功能表圖示](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ），然後按一下&#x200B;**[!UICONTROL 人員]**。
 
    ![People](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. 按一下 **[!UICONTROL Customer Attributes]**。
+1. 按一下&#x200B;**[!UICONTROL 客戶屬性]**。
 
    ![客戶屬性標籤](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -70,7 +70,7 @@ ht-degree: 29%
 
 ![crm工作流程](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-您可以在&#x200B;*Experience Cloud介面與管理*&#x200B;指南中的[建立客戶屬性來源及上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=zh-Hant)中找到完成下列各工作的詳細指示。
+您可以在&#x200B;*Experience Cloud介面與管理*&#x200B;指南的[建立客戶屬性來源及上傳資料檔案](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=zh-Hant)中找到完成下列每項工作的詳細指示。
 
 1. 建立資料檔案。
 
@@ -94,8 +94,8 @@ ht-degree: 29%
 
    您的資料檔案必須符合檔案上傳要求，且不得超過100 MB。 如果檔案太大，或您的資料必須定期上傳，您可以改用FTP傳送檔案。
 
-   * **HTTPS：**&#x200B;您可以拖放.csv資料檔案，或按一下&#x200B;**[!UICONTROL Browse]**&#x200B;從您的檔案系統上傳。
-   * **FTP：**&#x200B;按一下FTP連結以[透過FTP上傳檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=zh-Hant)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。 指定密碼，然後按一下&#x200B;**[!UICONTROL Done]**。
+   * **HTTPS：**&#x200B;您可以拖放.csv資料檔案，或按一下&#x200B;**[!UICONTROL 瀏覽]**&#x200B;從您的檔案系統上傳。
+   * **FTP：**&#x200B;按一下FTP連結以[透過FTP上傳檔案](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=zh-Hant)。 第一個步驟是提供 Adobe 所提供 FTP 伺服器的密碼。 指定密碼，然後按一下&#x200B;**[!UICONTROL 完成]**。
 
    現在將您的 CSV/ZIP/GZIP 檔案傳輸至 FTP 伺服器。 此檔案傳輸成功後，請建立具有相同名稱和`.fin`副檔名的檔案。 將此空白檔案傳輸至伺服器。 這表示傳輸已結束，[!DNL Experience Cloud]開始處理資料檔案。
 
@@ -103,7 +103,7 @@ ht-degree: 29%
 
    驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。 將每個屬性與其正確的資料類型、顯示名稱和說明對應。
 
-   結構描述驗證完成後，請按一下&#x200B;**[!UICONTROL Save]**。 檔案上傳時間因大小而不同。
+   結構描述驗證完成後，按一下&#x200B;**[!UICONTROL 儲存]**。 檔案上傳時間因大小而不同。
 
    ![驗證結構描述](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
@@ -111,7 +111,7 @@ ht-degree: 29%
 
 1. 設定訂閱及啟動屬性來源。
 
-   按一下&#x200B;**[!UICONTROL Add Subscription]**，然後選取要訂閱這些屬性的解決方案。 [設定訂閱](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=zh-Hant)設定[!DNL Experience Cloud]和解決方案之間的資料流。 啟動屬性來源可讓資料流向訂閱的解決方案。 您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
+   按一下&#x200B;**[!UICONTROL 「新增訂閱」]**，然後選取要訂閱這些屬性的解決方案。 [設定訂閱](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=zh-Hant)設定[!DNL Experience Cloud]和解決方案之間的資料流。 啟動屬性來源可讓資料流向訂閱的解決方案。 您上傳的客戶記錄將與從您的網站或應用程式傳入的 ID 訊號比對。
 
    ![設定方案](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -129,7 +129,7 @@ ht-degree: 29%
 
 ### 建立目標定位對象
 
-在[!DNL Target]中，您可在建立對象時，從[!UICONTROL Visitor Profile]區段選取客戶屬性。 清單中的所有客戶屬性都會具備字首 &lt; data_source_name >。 視需要將這些屬性與其他資料屬性結合，以建立客群。
+在[!DNL Target]中，您可在建立對象時，從[!UICONTROL 訪客設定檔]區段選取客戶屬性。 清單中的所有客戶屬性都會具備字首 &lt; data_source_name >。 視需要將這些屬性與其他資料屬性結合，以建立客群。
 
 ![目標客群](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 

@@ -19,8 +19,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 951
-ht-degree: 4%
+source-wordcount: 1017
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 將[!DNL Adobe Target]與[!DNL Adobe Journey Optimizer]優惠決定搭配使用，以決定並為您的網頁和行動裝置上的訪客傳遞下一個最佳優惠。
 
-使用[!UICONTROL Visual Experience Composer] (VEC)或[!UICONTROL Form-Based Composer]，將在[!DNL Adobe Journey Optimizer]中建立的優惠決定新增至[!DNL Target]活動（手動[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]），以測試並傳遞個人化優惠給您的訪客（由[!DNL Target]提供支援的輸入頻道）。
+使用[!UICONTROL 視覺化體驗撰寫器] (VEC)或[!UICONTROL 表單式撰寫器]，將在[!DNL Adobe Journey Optimizer]中建立的優惠決定新增至[!DNL Target]活動（手動[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標]），以測試並傳遞個人化優惠給您的訪客（由[!DNL Target]提供支援的輸入頻道）。
 
 如需[!DNL Adobe Journey Optimizer]和優惠決定的詳細資訊，請參閱&#x200B;*[!DNL Journey Optimizer]*&#x200B;檔案中的下列主題：
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 例如，您想要針對下列各個區域提供個人化體驗：Dortmund、Frankfurt和Bochum，以及這些團隊的隱含和明確粉絲使用者。 做為量度，您想要檢視商品網站的造訪與點按次數。
 
-您想要在預設體驗和個人化體驗（包括優惠決定，每個地區和團隊各有優惠）之間設計[!UICONTROL A/B Test]活動（50/50分割）。 您想要使用此活動來判斷個人化體驗與控制體驗的轉換和提升度。
+您想要在預設體驗和個人化體驗（包括優惠決定，以及每個地區和團隊的優惠）之間設計[!UICONTROL A/B測試]活動（50/50分割）。 您想要使用此活動來判斷個人化體驗與控制體驗的轉換和提升度。
 
 ### 遊戲串流平台
 
@@ -69,37 +69,37 @@ ht-degree: 4%
 
 ## 建立使用優惠決定的體驗：
 
-1. 在[!UICONTROL Visual Experience Composer] (VEC)中編輯或建立手動[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活動時，按一下頁面元素以顯示[選項功能表](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. 在[!UICONTROL 視覺化體驗撰寫器] (VEC)中編輯或建立手動[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標] (XT)活動時，按一下頁面元素以顯示[選項功能表](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
    視覺化體驗撰寫器中的![選項功能表](assets/options-menu1.png)
 
    >[!NOTE]
    >
-   >您也可以在[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)中建立使用[!UICONTROL Offer Decisions]的體驗。
+   >您也可以在[[!UICONTROL 表單式體驗撰寫器]](/help/main/c-experiences/form-experience-composer.md)中建立使用[!UICONTROL 優惠決定]的體驗。
 
-1. 按一下&#x200B;**[!UICONTROL Replace Content]**，然後按一下&#x200B;**[!UICONTROL Offer Decision]**。
+1. 按一下&#x200B;**[!UICONTROL 取代內容]**，然後按一下&#x200B;**[!UICONTROL 優惠決定]**。
 
-   [!UICONTROL Offer Decision]選項僅在編輯或建立[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時可用。 此選項不適用於其他活動型別。 選單中的可用選項會依所選元素而有所不同。
+   編輯或建立[手動[!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 體驗鎖定目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動時，才可使用[!UICONTROL 優惠決定]選項。 此選項不適用於其他活動型別。 選單中的可用選項會依所選元素而有所不同。
 
    視覺化體驗撰寫器中的![選項功能表](assets/options-menu.png)
 
-1. 在VEC右側的&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;欄中，選取所需的沙箱，然後按一下選取優惠決定.placement。
+1. 在VEC右側的&#x200B;**[!UICONTROL 新增優惠決定]**&#x200B;邊欄中，選取所需的沙箱，然後按一下選取優惠決定.placement。
 
    [!DNL Adobe Experience Platform]中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hant){target=_blank}可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 [!DNL Adobe Journey Optimizer]中的[位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hant){target=_blank}有助於確保正確的優惠方案內容顯示在正確位置。
 
    ![新增優惠決定對話方塊中的「沙箱」和「位置」下拉式清單](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. 選取想要的優惠位置和優惠決定，然後按一下&#x200B;**[!UICONTROL Add]**。
+1. 選取想要的優惠位置和優惠決定，然後按一下[新增]。**&#x200B;**
 
    ![選取優惠決定對話方塊](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   您的網站會顯示在VEC中，您可以在其中看到[!UICONTROL Modifications]邊欄中新建立的優惠決定。 您可以按一下[!UICONTROL Offer Decision]邊欄底部[!UICONTROL Offer Preview]下的優惠以檢查優惠決定。
+   您的網站會顯示在VEC中，您可以在其中的[!UICONTROL 修改]邊欄中看到新建立的優惠決定。 您可以按一下[!UICONTROL 優惠決定]邊欄底部[!UICONTROL 優惠預覽]下的優惠以檢查優惠決定。
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
    ![優惠預覽](assets/offer-preview2.png)
 
-1. 完成三步驟引導式工作流程的[!UICONTROL Targeting]和[!UICONTROL Goals & Settings]步驟，以完成建立活動。
+1. 完成三步驟引導式工作流程的[!UICONTROL 鎖定目標]和[!UICONTROL 目標與設定]步驟，以完成活動的建立。
 
    >[!IMPORTANT]
    >
@@ -111,9 +111,9 @@ ht-degree: 4%
 
 * 此Offer Decisioning整合適用於以[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}為基礎的[!DNL Target]實施。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
-* [!DNL Target]/[!DNL Adobe Journey Optimizer]整合僅支援[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動型別。
+* [!DNL Target]/[!DNL Adobe Journey Optimizer]整合僅支援[手動[!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL 體驗鎖定目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動型別。
 
-* 如果您在活動中使用報價決策，則無法使用[[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 如果您在活動中使用報價決策，請在活動設定期間在[!UICONTROL Goals and Settings]頁面中選擇[!DNL Target]作為報告來源。
+* 如果您在活動中使用報價決策，則無法使用[[!UICONTROL Analytics作為報表來源]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 如果您在活動中使用報價決策，請在活動設定期間選擇[!DNL Target]作為活動設定中[!UICONTROL 目標與設定]頁面的報告來源。
 
 * 具有文字/html內容型別的選件不支援deliveryURL內容傳送。 只有在使用者端負責明確擷取及撰寫內容時，才可透過[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)支援deliveryURL。
 

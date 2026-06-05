@@ -12,8 +12,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 94%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +103,14 @@ ht-degree: 94%
 
 打造您的體驗時，請設定您要提供的行動檢視區。
 
-1. 按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**。
-1. 在&#x200B;**[!UICONTROL Mobile viewports configuration]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
+1. 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]**。
+1. 在&#x200B;**[!UICONTROL 行動檢視區組態]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增]**。
 
    ![新增檢視區](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    或
 
-   若要變更現有行動檢視區的設定，請選取該檢視區，然後按一下[!UICONTROL Edit] （鉛筆）圖示。
+   若要變更現有行動檢視區的設定，請選取該檢視區，然後按一下[!UICONTROL 編輯] （鉛筆）圖示。
 
 1. 輸入行動檢視區的名稱。
 
@@ -132,7 +132,7 @@ ht-degree: 94%
 
    如果您使用[增強型體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)並選擇作業系統，[!DNL Target] 會在您檢視頁面時模擬該裝置。 例如，如果您的回應式網站在 Android 與 iOS 上的外觀與風格有一些不同，[!DNL Target] 會模擬該行為。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
 >
@@ -143,11 +143,11 @@ ht-degree: 94%
 將行動檢視區新增到您的 [!DNL Target] 活動，為手機螢幕打造回應式體驗。
 
 1. 建立[所需的活動](/help/main/c-activities/activities.md)。
-1. 在[!UICONTROL Visual Experience Composer] (VEC)中，按一下&#x200B;**[!UICONTROL Settings]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL Add Mobile Viewports]**。
+1. 在[!UICONTROL 視覺化體驗撰寫器] (VEC)中，按一下&#x200B;**[!UICONTROL 設定]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 新增行動檢視區]**。
 
    ![「新增行動檢視區」選項](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. 按一下&#x200B;**[!UICONTROL Devices]**&#x200B;圖示，然後啟用每個應該具有行動檢視區的裝置。
+1. 按一下&#x200B;**[!UICONTROL 裝置]**&#x200B;圖示，然後啟用每個應該具有行動檢視區的裝置。
 
    ![啟用行動檢視區](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 

@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 35%
+source-wordcount: 138
+ht-degree: 41%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 35%
 
 您可以鎖定使用特定作業系統的[!DNL Adobe Target]訪客。
 
-1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
 1. 為對象命名並新增選擇性說明。
-1. 將&#x200B;**[!UICONTROL Operating System]**&#x200B;拖放至對象產生器窗格。
-1. 按一下&#x200B;**[!UICONTROL Select]**，然後選取下列其中一個選項：
+1. 將&#x200B;**[!UICONTROL 作業系統]**&#x200B;拖放至對象產生器窗格。
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    * Linux
    * Macintosh
    * Windows
 
 1. （選用）為對象設定其他規則。
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 下圖顯示受眾鎖定使用Macintosh作業系統的訪客。
 

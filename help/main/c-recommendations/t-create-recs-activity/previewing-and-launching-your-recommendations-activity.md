@@ -13,28 +13,28 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 1462
-ht-degree: 14%
+source-wordcount: 1535
+ht-degree: 13%
 
 ---
 
 # 預覽和啟動推薦活動
 
-在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
+在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標] (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
 
 ## 正在檢查Recommendations演演算法狀態
 
 建立活動後，[!DNL Recommendations]會執行演演算法以產生建議。 此演演算法可能需要幾個小時的時間才能執行。
 
-您可以檢查演演算法是否已在[!UICONTROL Activity]概觀圖表中完成執行，其中會列出條件狀態。 下圖顯示[!DNL Recommendations]活動[!UICONTROL Overview]頁面上的活動圖表狀態：
+您可以檢查演演算法是否已在[!UICONTROL 活動]概觀圖表中完成執行，其中會列出條件狀態。 下圖顯示[!DNL Recommendations]活動[!UICONTROL 概覽]頁面上的活動圖表狀態：
 
 ![Recommendations活動概觀頁面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 狀態結果包括下列專案，如下所示：
 
-* [!UICONTROL Results Ready]：表示演演算法已傳回結果
-* [!UICONTROL Results Not Ready]：表示演演算法尚未完成執行。
-* [!UICONTROL Feed Failure]：表示無法擷取自訂條件摘要檔案。
+* [!UICONTROL 結果就緒]：表示演演算法已傳回結果
+* [!UICONTROL 結果未就緒]：表示演演算法尚未完成執行。
+* [!UICONTROL 摘要失敗]：表示無法擷取自訂條件摘要檔案。
 
 ![結果對話方塊](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
@@ -54,15 +54,15 @@ ht-degree: 14%
 
 * **一次性報表套裝設定**: 報表套裝第一次搭配指定資料範圍回顧期間使用時，[!DNL Target Recommendations] 可能需要二到七天才能從 [!DNL Analytics] 完全下載所選報表套裝的行為資料。 此時間範圍取決於 [!DNL Analytics] 系統負載。
 * **使用已可取得之報表套裝的全新或已編輯的條件**：建立新條件或編輯現有條件時，如果選取的報表套裝已搭配[!DNL Target Recommendations]使用，且資料範圍等於或小於選取的資料範圍，資料即可立即使用且不需要一次性設定。 在此情況下，或是在未修改所選報表套裝或資料範圍時已編輯演算法的設定，演算法會在 12 小時內執行或重新執行。
-* **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。 例如，針對[!UICONTROL Viewed Affinity]建議，當使用者檢視產品時，產品檢視追蹤呼叫會以近乎即時的速度傳遞到[!DNL Analytics]。 [!DNL Analytics]資料會在隔天很早推送到[!DNL Target]，[!DNL Target]會在12小時內執行演演算法。
+* **現有演算法執行**: 資料會每天從 [!DNL Analytics] 流動到 [!DNL Target Recommendations]。 例如，針對[!UICONTROL 已檢視的相似性]建議，當使用者檢視某個產品時，產品檢視追蹤呼叫會以近乎即時的速度傳送到[!DNL Analytics]。 [!DNL Analytics]資料會在隔天很早推送到[!DNL Target]，[!DNL Target]會在12小時內執行演演算法。
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items]不需要執行離線演演算法，結果立即可用。 以mbox資料為基礎的[!UICONTROL Top Viewed]和[!UICONTROL Top Sellers]演演算法通常可快速產生結果，因為所需的運算較簡單。 當您想要預覽設計變更或確認行為資料正在正確收集時，這些可能是很好的選項。
+>[!UICONTROL 最近檢視的專案]不需要執行離線演演算法，結果立即可用。 根據mbox資料的[!UICONTROL 最常檢視的專案]和[!UICONTROL 最暢銷商品]演演算法通常可快速產生結果，因為所需的運算較簡單。 當您想要預覽設計變更或確認行為資料正在正確收集時，這些可能是很好的選項。
 
 ## 使用QA連結來預覽建議
 
-演演算法有結果可供使用後，您可以使用[!DNL Adobe Target]的[QA連結](/help/main/c-activities/c-activity-qa/activity-qa.md)功能來預覽這些結果。 QA連結可在[!UICONTROL Activity]概觀頁面的[!UICONTROL Activity Location]區段中取得：
+演演算法有結果可供使用後，您可以使用[!DNL Adobe Target]的[QA連結](/help/main/c-activities/c-activity-qa/activity-qa.md)功能來預覽這些結果。 QA連結可在[!UICONTROL 活動]概觀頁面的[!UICONTROL 活動位置]區段中取得：
 
 >[!NOTE]
 >
@@ -76,15 +76,15 @@ ht-degree: 14%
 >
 >* Target QA模式為「粘性」，並儲存在Cookie中。 如果您沒有退出QA模式，您會在整個網站中持續看到QA結果。 若要結束QA模式，請使用[書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)。
 >
->* 在QA模式中，瀏覽網站將不會影響設定檔的[!UICONTROL Recently Viewed Items]或[!UICONTROL Recently Purchased Items]。 這種行為是透過設計進行的，以避免生產行為資料的無意汙染。 若要預覽來自[!UICONTROL Recently Viewed Items]或[!UICONTROL User-Based Recommendations]條件的結果，請先在QA模式之外瀏覽網站，然後使用相同的工作階段來開啟QA模式連結。
+>* 處於QA模式時，瀏覽網站將不會影響您設定檔的[!UICONTROL 最近檢視的專案]或[!UICONTROL 最近購買的專案]。 這種行為是透過設計進行的，以避免生產行為資料的無意汙染。 若要預覽[!UICONTROL 最近檢視的專案]或[!UICONTROL 以使用者為基礎的建議]條件的結果，請先在QA模式之外瀏覽網站，然後使用相同的工作階段來開啟QA模式連結。
 
 ## 使用CSV下載檔案來預覽建議
 
-在某些情況下，您可能會想要稽核建議的特定專案。 這在使用[!UICONTROL People Who Viewed This, Viewed That]之類的演演算法時特別有用，因為根據使用者目前檢視的專案，而您可能在目錄中擁有數千或數百萬個不同的專案，因此會建議使用不同的專案集。
+在某些情況下，您可能會想要稽核建議的特定專案。 使用[!UICONTROL 檢視過此專案、也檢視了其他專案的使用者]這類演演算法時，此功能特別實用。根據使用者目前檢視的專案，建議使用不同的專案集，而您的目錄中可能會有數千或數百萬個不同的專案。
 
-在活動中至少顯示一個演演算法的[!UICONTROL Results Ready]狀態之前，無法下載結果。
+在活動中至少顯示一個演演算法的[!UICONTROL 結果就緒]狀態之前，無法下載結果。
 
-若要下載結果以進行預覽，請按一下活動概觀頁面右上角的功能表圖示，然後按一下&#x200B;**[!UICONTROL Download data]**。
+若要下載結果以進行預覽，請按一下活動概觀頁面右上角的功能表圖示，然後按一下&#x200B;**[!UICONTROL 下載資料]**。
 
 ![下載資料選項](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
@@ -96,13 +96,13 @@ ht-degree: 14%
 
 如果一列的第一個值是星號(*)，則表示[備份專案](/help/main/c-recommendations/c-algorithms/backup-recs.md)。 如果設計中並非所有位置都能由演演算法（條件）的建議專案填滿，則會顯示備份專案。
 
-對於以索引鍵值為基礎的其他演演算法型別（例如[!UICONTROL People Who Viewed This, Viewed That]），索引鍵值（即「此」專案）會列在最左側的欄中，而建議專案（即「該」專案）則會從Recommendation_X欄中的由左至右列出。
+對於以索引鍵值為基礎的其他演演算法型別，例如[!UICONTROL 檢視此專案、檢視該專案的使用者]，索引鍵值（即「此」專案）會列在最左側的欄中，而建議專案（即「該」專案）則會從左至右列在Recommendation_X欄中。
 
-請注意，若活動具有非常大的結果集，**[!UICONTROL Download data]**&#x200B;選項可能會失敗，並出現錯誤`Error while fetching recommendation data file.`。當產生的CSV超過單一下載中可透過使用者介面傳回的回應大小時，就會發生這種情況。
+請注意，對於具有非常大結果集的活動，**[!UICONTROL 下載資料]**&#x200B;選項可能會失敗，並出現錯誤`Error while fetching recommendation data file.`。當產生的CSV超過單一下載中可透過使用者介面傳回的回應大小時，就會發生這種情況。
 
 >[!NOTE]
 >
->包含[!UICONTROL User-Based Recommendations]演演算法的活動無法使用結果下載。 無法使用[!UICONTROL Recently-Viewed Items]建議邏輯的條件下載結果。
+>包含[!UICONTROL 以使用者為基礎的Recommendations]演演算法的活動無法使用結果下載。 無法使用[!UICONTROL 最近檢視的專案]建議邏輯的條件下載結果。
 
 ### 基於人氣和金鑰的演演算法的CSV下載格式 {#format}
 
@@ -120,17 +120,17 @@ CSV下載檔案會一致地反映後端條件執行後產生的結果。
 
 ## 啟用您的Recommendations活動
 
-從[!UICONTROL Activity Overview]索引標籤，按一下[狀態]下拉式箭頭，然後選取&#x200B;**[!UICONTROL Activate]**。
+在[!UICONTROL 活動概覽]標籤中，按一下[狀態]下拉式箭頭，然後選取&#x200B;**[!UICONTROL 啟動]**。
 
-如果您的[!UICONTROL Recommendations]活動目前處於[!UICONTROL Inactive]狀態，下拉式清單會標示為[!UICONTROL Inactive]。
+如果您的[!UICONTROL Recommendations]活動目前處於[!UICONTROL 非使用中]狀態，下拉式清單會標示為[!UICONTROL 非使用中]。
 
-幾秒鐘到幾分鐘後，狀態會切換為[!UICONTROL Live]。
+幾秒鐘到幾分鐘後，狀態會切換為[!UICONTROL 即時]。
 
 您也可以使用相同的下拉式清單來停用或封存活動。
 
 ## 避免變更Recommendations設定時發生中斷
 
-變更已上線活動中的[!DNL Recommendations]集合、條件、促銷活動或設計設定，可能會導致演演算法結果無效，且演演算法的狀態變更為[!UICONTROL Results Not Ready]。
+變更已上線活動中的[!DNL Recommendations]集合、條件、促銷活動或設計設定，可能會導致演演算法結果無效，且演演算法的狀態變更為[!UICONTROL 結果未就緒]。
 
 若要避免中斷已上線的活動，建議在修改已上線的活動時採取下列方法：
 

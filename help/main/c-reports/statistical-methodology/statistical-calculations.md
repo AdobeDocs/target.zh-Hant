@@ -1,7 +1,7 @@
 ---
 keywords: 報表；統計方法；統計計算；統計；平均值；轉換率；每位訪客帶來的收入；rpv；信賴區間；提升度；welch t測試；離線計算
-description: 瞭解在 [!DNL Adobe Target]中手動[!UICONTROL A/B Test]活動中使用的統計計算。
-title: 如何瞭解[!UICONTROL A/B Test]活動中使用的統計計算？
+description: 瞭解在 [!DNL Adobe Target]中的手動[!UICONTROL A/B測試]活動中使用的統計計算。
+title: 如何瞭解[!UICONTROL A/B測試]活動中使用的統計計算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
@@ -12,20 +12,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1202
 ht-degree: 2%
 
 ---
 
 # A/Bn測試中的統計計算
 
-本文記錄了[!DNL Adobe Target]中手動A/Bn測試使用的詳細統計計算。 已提供[!UICONTROL Conversion Rate]、[!UICONTROL Confidence Interval of Conversion Rate]、[!UICONTROL Lift]、[!UICONTROL Confidence Interval for Lift]和[!UICONTROL Confidence]的定義。
+本文記錄了[!DNL Adobe Target]中手動A/Bn測試使用的詳細統計計算。 已提供[!UICONTROL 轉換率]、[!UICONTROL 轉換率信賴區間]、[!UICONTROL 提升度]、[!UICONTROL 提升度信賴區間]以及[!UICONTROL 信賴度]的定義。
 
 >[!NOTE]
 >
 >本文資訊取代了&#x200B;*Adobe Target Calculations for A/B Testing* pdf檔案（先前可在此網站下載）。
 
-![顯示A/B測試活動[!UICONTROL Conversion Rate]、[!UICONTROL Average Lift and Confidence Interval]和[!UICONTROL Confidence]的目標報告。](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![顯示A/B測試活動的[!UICONTROL 轉換率]、[!UICONTROL 平均提升度和信賴區間]以及[!UICONTROL 信賴]的目標報告。](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## 平均績效
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ### 轉換率和每位訪客帶來的收入(RPV)行銷活動
 
-下圖顯示[!DNL Target]報表中的[!UICONTROL Conversion Rate]、[!UICONTROL Confidence Interval of Conversion Rate]和[!UICONTROL Conversions]數目。 例如，第一行顯示對於體驗A： [!UICONTROL Conversion Rate]為25.81%，[!UICONTROL Confidence Interval]為±7.7%，且已記錄32次轉換。 假設有124位訪客看過該體驗，則等於32/124 = 25.81%。
+下圖顯示[!DNL Target]報表中的[!UICONTROL 轉換率]、[!UICONTROL 轉換率的信賴區間]以及[!UICONTROL 轉換]的數目。 例如，第一行顯示對於體驗A： [!UICONTROL 轉換率]為25.81%，且[!UICONTROL 信賴區間]為±7.7%，並且已記錄32次轉換。 假設有124位訪客看過該體驗，則等於32/124 = 25.81%。
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -47,17 +47,17 @@ ht-degree: 2%
 
 * 單位&#x200B;*i*&#x200B;的總和取決於計數方法的選擇。
 
-   * 如果使用&#x200B;*[!UICONTROL Visitors]*&#x200B;做為計數方法，則每個單位都是定義為活動終生中唯一參與者的不重複訪客。
-   * 如果使用&#x200B;*[!UICONTROL Visits]*&#x200B;做為計數方法，則每個單位都是定義為在[!DNL Target]工作階段期間體驗中唯一參與者的唯一造訪（具有唯一的`sessionId`）。 當`sessionId`變更時，或訪客達到轉換步驟時，即會計為新造訪。
-   * 如果使用&#x200B;*[!UICONTROL Activity Impressions]*&#x200B;做為計數方法，則每個單位都是定義為每次訪客載入活動的任何頁面時的唯一曝光數。
+   * 如果將&#x200B;*[!UICONTROL 訪客]*&#x200B;當做計數方法，則每個單位都是定義為活動終身不重複參與者的不重複訪客。
+   * 如果使用&#x200B;*[!UICONTROL 造訪]*&#x200B;做為計數方法，則每個單位都是定義為在[!DNL Target]工作階段期間體驗中唯一參與者的唯一造訪（具有唯一的`sessionId`）。 當`sessionId`變更時，或訪客達到轉換步驟時，即會計為新造訪。
+   * 如果使用&#x200B;*[!UICONTROL 活動曝光次數]*&#x200B;做為計數方法，則每個單位都是定義為每次訪客載入活動任何頁面時的唯一曝光次數。
 
-## [!UICONTROL Confidence Interval of Mean]/[!UICONTROL Conversion Rate]
+## 平均/[!UICONTROL 轉換率]的信賴區間
 
 轉換率的信賴區間在直覺上定義為與基礎資料一致的可能轉換率範圍。
 
 執行實驗時，特定體驗的轉換率是&quot;true&quot;轉換率的&#x200B;*預估值*。 若要量化此估計中的不確定性，[!DNL Target]會使用信賴區間。 [!DNL Target]一律會報告95%的信賴區間，這表示到最後，95%的信賴區間都會包含體驗的真正轉換率。
 
-目前領先或勝出的體驗旁邊也會報告「信賴度」數字。 此數字只會在領先體驗的[!UICONTROL Confidence]達到至少60%時報告。 如果活動中存在兩個體驗，此數字代表體驗表現優於其他體驗的信賴等級。 如果活動中存在兩個以上的體驗，此數字代表體驗執行優於定義「控制」體驗的信賴等級。 如果「控制」體驗獲勝，則不會報告「信賴度」數字。
+目前領先或勝出的體驗旁邊也會報告「信賴度」數字。 此數字只會在領先體驗的[!UICONTROL 信賴度]達到至少60%時報告。 如果活動中存在兩個體驗，此數字代表體驗表現優於其他體驗的信賴等級。 如果活動中存在兩個以上的體驗，此數字代表體驗執行優於定義「控制」體驗的信賴等級。 如果「控制」體驗獲勝，則不會報告「信賴度」數字。
 
 轉換率&#x200B;*μ<sub>ν</sub>*&#x200B;的95%信賴區間定義為值的範圍：
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 ## 提升度
 
-下圖顯示[!DNL Target]報告中的[!UICONTROL Lift]和[!UICONTROL Confidence Interval of Lift]。 數字代表提升度界限的平均值，而箭頭則反映提升度是正數或負數。 箭頭會以灰色顯示，直到信賴度超過95%為止。 信賴度超過臨界值後，箭頭會根據提升度為正值或負值，變成綠色或紅色。
+下圖顯示[!DNL Target]報表中的[!UICONTROL 提升度]和[!UICONTROL 提升度]信賴區間。 數字代表提升度界限的平均值，而箭頭則反映提升度是正數或負數。 箭頭會以灰色顯示，直到信賴度超過95%為止。 信賴度超過臨界值後，箭頭會根據提升度為正值或負值，變成綠色或紅色。
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -95,7 +95,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!DNL Confidence Interval of Lift]
 
-[!UICONTROL Average Lift and Confidence Interval]欄中的箱形圖代表平均值和95% [!UICONTROL Confidence Interval of Lift]。 指定非控制體驗的信賴區間與控制體驗的信賴區間發生任何重疊時，箱形圖就會呈現灰色。 當指定體驗的信賴區間範圍高於或低於控制體驗的信賴區間時，箱形圖就會呈現綠色或紅色。
+[!UICONTROL 平均提升度和信賴區間]資料行中的箱形圖代表提升度的平均值和95% [!UICONTROL 信賴區間]。 指定非控制體驗的信賴區間與控制體驗的信賴區間發生任何重疊時，箱形圖就會呈現灰色。 當指定體驗的信賴區間範圍高於或低於控制體驗的信賴區間時，箱形圖就會呈現綠色或紅色。
 
 體驗&#x200B;*ν*&#x200B;與控制體驗&#x200B;*ν<sub>0</sub>*&#x200B;之間提升度的標準錯誤定義為：
 
@@ -107,7 +107,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 此計算使用「差異」方法，本檔案將詳細說明[&#128279;](/help/main/assets/confidence_interval_lift.pdf)
 
-## [!UICONTROL Confidence]
+## [!UICONTROL 信賴度]
 
 最後一欄顯示[!DNL Target]報表中的可信度。 體驗的信賴度是一種取得極端結果的機率（以百分比表示），當作觀察到的結果，假設null假設為true。 就p值而言，顯示的信賴度為&#x200B;*1 - p值*。 直覺上，較高的信賴度表示控制體驗和非控制體驗擁有相同轉換率的可能性較低。
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1326
 ht-degree: 78%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 78%
 
 其他資源相關資訊有助於瞭解 Target 功能，而 Adobe 聯絡方式可供需 Target 相關協助時使用。
 
-## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target 社群論壇] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-探索[!UICONTROL Adobe Target Community]：您的見解和共同作業中心。
+探索[!UICONTROL Adobe Target社群]：您的見解和共同作業中心。
 
-[!UICONTROL Adobe Target Community Forum]是您所有專案[!DNL Adobe Targe]t的上線目的地。 無論您是剛開始使用或是經驗豐富的從業人員，社群都能提供寶貴機會來：
+[!UICONTROL Adobe Target社群論壇]是您所有活動[!DNL Adobe Targe]t的首選目的地。 無論您是剛開始使用或是經驗豐富的從業人員，社群都能提供寶貴機會來：
 
 * **探索[!DNL Target]功能**：瞭解最佳做法並探索使用[!DNL Target]的新方式。
 * **連線並共同作業**：與同業和[!DNL Adobe]專家互動，共同分享見解並解決挑戰。
@@ -45,7 +45,7 @@ ht-degree: 78%
 ## Target 基礎網路研討會系列 {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++檢視詳細資料
-探索[[Target基礎網路研討會系列]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}，這是[!UICONTROL Adobe Target Community]為您提供的客戶成功計畫。 存取即將舉行的會議報名細節，並瀏覽先前網路研討會的錄影，以加深您對[!DNL Target]功能、最佳實務和真實使用案例的瞭解。
+探索[[Target基礎網路研討會系列]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}，這是[!UICONTROL Adobe Target社群]為您提供的客戶成功計畫。 存取即將舉行的會議報名細節，並瀏覽先前網路研討會的錄影，以加深您對[!DNL Target]功能、最佳實務和真實使用案例的瞭解。
 
 +++
 
@@ -130,7 +130,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 
 ### 意見反應 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我們很歡迎關於本解決方案的任何建議或回饋意見。 在 [Adobe TargetExperience League 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant)中可以添加增強的想法和建議。 按一下「[!UICONTROL Ideas]」標籤。
+我們很歡迎關於本解決方案的任何建議或回饋意見。 在 [Adobe TargetExperience League 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant)中可以添加增強的想法和建議。 按一下「[!UICONTROL 想法]」標籤。
 
 ### 法律資訊 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

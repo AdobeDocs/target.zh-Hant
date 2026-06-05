@@ -1,7 +1,7 @@
 ---
 keywords: 鎖定目標；視覺化體驗撰寫器；白名單；允許清單；允許清單；增強視覺化體驗撰寫器； VEC；疑難排解視覺化體驗撰寫器；疑難排解； EEC；增強體驗撰寫器； TLS； TLS 1.2
-description: 瞭解如何疑難排解 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Enhanced Experience Composer] (EEC)在某些情況下有時會發生的問題。
-title: 如何疑難排解[!UICONTROL Visual Experience Composer]和[!UICONTROL Enhanced Experience Composer]的相關問題？
+description: 瞭解如何疑難排解 [!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)在某些情況下有時會發生的問題。
+title: 如何疑難排解[!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
@@ -19,14 +19,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
-# 疑難排解[!DNL Adobe Target] [!UICONTROL Visual Experience Composer]和[!UICONTROL Enhanced Experience Composer]的相關問題
+# 疑難排解[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]的相關問題
 
-在某些情況下，[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Enhanced Experience Composer] (EEC)有時會發生顯示問題和其他問題。
+在某些情況下，[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)有時會發生顯示問題和其他問題。
 
 ## Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？ {#samesite}
 
@@ -37,7 +37,7 @@ ht-degree: 32%
 >
 >下列變更會影響下列所有三項更新：
 >
-> * *無法*&#x200B;在沒有安裝[VEC Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)且已啟用網站受密碼保護頁面的情況下，使用VEC。 您的網站登入Cookie會視為第三方Cookie，不會在[!UICONTROL Browse]模式的VEC編輯器中連同登入要求一起傳送。 唯一的例外是您的網站登入Cookie已設定`SameSite=None`和`Secure`屬性。
+> * *無法*&#x200B;在沒有安裝[VEC Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)且已啟用網站受密碼保護頁面的情況下，使用VEC。 您的網站登入Cookie會被視為第三方Cookie，不會在[!UICONTROL 瀏覽]模式的VEC編輯器中連同登入要求一起傳送。 唯一的例外是您的網站登入Cookie已設定`SameSite=None`和`Secure`屬性。
 
 **Chrome 94 （2021年9月21日）**：由於Chrome 94版本（2021年9月21日）即將推出的變更，下列變更將影響具有Chrome 94+瀏覽器版本的所有使用者：
 
@@ -60,12 +60,12 @@ ht-degree: 32%
 +++詳細資料
 若要判斷哪些Cookie因SameSite Cookie執行原則而遭到封鎖，請在[!DNL Chrome]中使用[!DNL Developer Tools]。
 
-1. 若要存取[!DNL Developer Tools]，在[!DNL Chrome]中檢視VEC時，請按一下Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL ellipsis]**&#x200B;圖示。
-1. 按一下「**[!UICONTROL Network]**」標籤> ，然後尋找封鎖的Cookie。
+1. 若要存取[!DNL Developer Tools]，在[!DNL Chrome]中檢視VEC時，請按一下Chrome > **[!UICONTROL 更多工具]** > **[!UICONTROL 開發人員工具]**&#x200B;右上角的&#x200B;**[!UICONTROL 省略符號]**&#x200B;圖示。
+1. 按一下「**[!UICONTROL 網路]**」標籤> ，然後尋找封鎖的Cookie。
 
    >[!NOTE]
    >
-   >使用&#x200B;**[!UICONTROL Has blocked cookies]**&#x200B;核取方塊可更輕鬆找到封鎖的Cookie。
+   >使用&#x200B;**[!UICONTROL 已封鎖的Cookie]**&#x200B;核取方塊可更輕鬆找到已封鎖的Cookie。
 
 +++
 
@@ -81,7 +81,7 @@ ht-degree: 32%
 ## 當我嘗試編輯頁面時，我只看到了進度環而非我的頁面。 (VEC 和 EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++詳細資料
-如果URL包含#個字元，就可能發生這種情況。 若要修正此問題，請在VEC或EEC中切換至[!UICONTROL Browse]模式，然後切換回[!UICONTROL Compose]模式。 進度環應該會消失，並且頁面應該會載入。
+如果URL包含#個字元，就可能發生這種情況。 若要修正此問題，請在VEC或EEC中切換為[!UICONTROL 瀏覽]模式，然後切換回[!UICONTROL 撰寫]模式。 進度環應該會消失，並且頁面應該會載入。
 
 +++
 
@@ -134,7 +134,7 @@ ht-degree: 32%
 ## 我無法編輯 iFrame-busting 網站的體驗。 (VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++詳細資料
-啟用[!UICONTROL Enhanced Experience Composer] (EEC)即可解決此問題。 按一下&#x200B;**[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**，然後選取啟用[!UICONTROL Enhanced Experience Composer]的核取方塊。 EEC使用[!DNL Adobe]管理的Proxy來載入您的頁面以進行編輯。 此Proxy允許在iFrame-busting網站上進行編輯，也允許在您尚未新增[!DNL Adobe Target]程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。 有些網站可能無法透過EEC載入，在此情況下，您可以取消勾選此選項，以透過iFrame載入EEC。
+啟用[!UICONTROL 增強體驗撰寫器] (EEC)即可解決此問題。 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]**，然後選取可啟用[!UICONTROL 增強體驗撰寫器]的核取方塊。 EEC使用[!DNL Adobe]管理的Proxy來載入您的頁面以進行編輯。 此Proxy允許在iFrame-busting網站上進行編輯，也允許在您尚未新增[!DNL Adobe Target]程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。 有些網站可能無法透過EEC載入，在此情況下，您可以取消勾選此選項，以透過iFrame載入EEC。
 
 >[!NOTE]
 >
@@ -149,14 +149,14 @@ ht-degree: 32%
 
 +++
 
-## 我的頁面上不會顯示具有[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]或[!UICONTROL Change Text]/[!DNL Change HTML]的粗體和斜體文字樣式。 有時文字會在套用這些樣式變更之後消失。 (VEC 和 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## 包含[!UICONTROL 編輯文字]/[!UICONTROL 編輯HTML]或[!UICONTROL 變更文字]/[!DNL Change HTML]的粗體和斜體文字樣式不會顯示在我的頁面上。 有時文字會在套用這些樣式變更之後消失。 (VEC 和 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++詳細資料
-如果您在VEC中針對[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活動使用&#x200B;**[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]**，或針對[!UICONTROL Automated Personalization]或[!UICONTROL Multivariate Test]活動使用&#x200B;**[!UICONTROL Change Text]/[!UICONTROL Change HTML]**&#x200B;來使文字粗體或斜體，則這些樣式可能無法在頁面上套用，或文字會從VEC的頁面中消失。 之所以發生此情況，是因為RTF編輯器套用這些樣式的方式，可能會干擾網站標籤。
+如果您在VEC中針對[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標]活動使用&#x200B;**[!UICONTROL 編輯文字]/[!UICONTROL 編輯HTML]**，或針對[!UICONTROL HTML]或[!UICONTROL Automated Personalization]活動使用&#x200B;**[!UICONTROL 變更文字]/[!UICONTROL 變更]**&#x200B;以讓文字粗體或斜體，這些樣式可能無法在頁面上套用，或文字會從VEC的頁面中消失。 之所以發生此情況，是因為RTF編輯器套用這些樣式的方式，可能會干擾網站標籤。
 
 如果您看見此問題:
 
-1. 按一下RTF編輯器中的&#x200B;**[!UICONTROL HTML]**&#x200B;按鈕以進入來源編輯模式。
+1. 按一下 RTF 格式編輯器中的&#x200B;**[!UICONTROL 「HTML」]**&#x200B;按鈕來進入來源編輯模式。
 1. 尋找樣式文字元素。
 
    * 針對粗體文字，將 `<strong>` 元素變更為 `<b>`。

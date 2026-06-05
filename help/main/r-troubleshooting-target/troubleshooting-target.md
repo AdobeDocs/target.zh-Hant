@@ -136,7 +136,7 @@ ht-degree: 77%
 ### at.js
 
 * [at.js常見問題集](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [使用Adobe Experience Cloud除錯程式除錯at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [使用Adobe Experience Cloud Debugger除錯at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [at.js 版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * 「諮詢時間」影片，Adobe 客戶服務團隊的計劃。
 

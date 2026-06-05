@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 32%
+source-wordcount: 473
+ht-degree: 30%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 32%
 
 ## 接受邀請 {#task_24FE66659E634B24AB61DB8497772E17}
 
-收到加入[!DNL Adobe Experience Cloud]的邀請之後，請接受邀請、登入並接受[!UICONTROL End User License Agreement] (EULA)。
+收到加入[!DNL Adobe Experience Cloud]的邀請之後，請接受邀請、登入並接受[!UICONTROL 使用者授權合約] (EULA)。
 
 1. 接受 [!DNL Adobe Experience Cloud] 的邀請。
 1. 如果您還沒有 Adobe ID，即會提示您建立 ID。
 
    如果您有Adobe ID，則會辨識您的Adobe ID，並提示您登入。
-1. 接受[!UICONTROL Terms of Use]。
-1. 檢閱您目前已完成的摘要，然後按一下&#x200B;**[!UICONTROL Continue to Experience Cloud]**。
-1. 登入[!DNL Adobe Experience Cloud]並按一下&#x200B;**[!UICONTROL Link Account]**。
+1. 接受[!UICONTROL 使用條款]。
+1. 檢閱您目前已完成的摘要，然後按一下[繼續前往Experience Cloud] **&#x200B;**。
+1. 登入[!DNL Adobe Experience Cloud]並按一下&#x200B;**[!UICONTROL 連結帳戶]**。
 
    >[!NOTE]
    >
    >如果您並未連結您的帳戶，將無法存取 [!DNL Target]。
 
    所有[!UICONTROL Experience Cloud]產品都會出現在連結的頁面上。 按一下`Link Target`並輸入您的[!DNL Target]使用者名稱和密碼以存取[!DNL Target]。
-1. 按一下 **[!UICONTROL Continue to Experience Cloud]**。
+1. 按一下&#x200B;**[!UICONTROL 繼續前往Experience Cloud]**。
 
    此時，您還沒有任何群組設定了供您連結的權利。
 1. 如果需要，可觀看為您介紹 [!DNL Adobe Experience Cloud] 的影片。
@@ -59,7 +59,7 @@ ht-degree: 32%
 
 ## 指派核准者角色給您自己 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-接受加入[!DNL Adobe Experience Cloud]的邀請並登入之後，請確認[!DNL Target]已新增至您的[!DNL Experience Cloud]帳戶，然後為您自己指派[!DNL Target]的[!UICONTROL Approver]角色。
+接受加入[!DNL Adobe Experience Cloud]的邀請並登入之後，請確認[!DNL Target]已新增至您的[!DNL Experience Cloud]帳戶，然後為您自己指派[!DNL Target]的[!UICONTROL 核准者]角色。
 
 如果您的組織有 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 授權，請參閱&#x200B;*使用者*&#x200B;中的[指定角色和權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。
 
@@ -67,10 +67,10 @@ ht-degree: 32%
 
 下一步應該是在[!DNL Target Standard]和[!DNL Target Premium]中設定使用者。 如需詳細資訊，請參閱[使用者管理](/help/main/administrating-target/c-user-management/user-management.md)。
 
-## 編輯[!UICONTROL Administration]設定所需的許可權 {#admin-permissions}
+## 編輯[!UICONTROL 管理]設定所需的許可權 {#admin-permissions}
 
-**在2025年4月22日之前**：在[!DNL Adobe Admin Console]中擁有[!UICONTROL Approvers]許可權的使用者可以編輯或變更[!DNL Target]的[[!UICONTROL Administration]頁面](/help/main/administrating-target/administrating-target.md)頁面上的所有設定，無論他們的[!DNL Target]角色為何。
+**在2025年4月22日之前**：在[!DNL Adobe Admin Console]中擁有[!UICONTROL 核准者]許可權的使用者可以在[!DNL Target]的[[!UICONTROL 管理]頁面](/help/main/administrating-target/administrating-target.md)頁面上編輯或變更所有設定，無論他們的[!DNL Target]角色為何。
 
-**自2025年4月22日起生效**：只有[!UICONTROL Product]和[!UICONTROL Solutions]管理員能夠更新[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md)區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL Administration]區段的唯讀存取權。
+**自2025年4月22日起生效**：只有[!UICONTROL 產品]和[!UICONTROL 解決方案]管理員能夠更新[[!UICONTROL 管理]](/help/main/administrating-target/administrating-target.md)區段中的設定，無論他們在[!DNL Target]工作區中的角色為何。 沒有此許可權的使用者將擁有[!UICONTROL 管理]區段的唯讀存取權。
 
 此更新加強了組織對[!DNL Target]執行個體設定的控制，防止了可能影響跨各種測試和個人化團隊的活動傳送的意外更新。

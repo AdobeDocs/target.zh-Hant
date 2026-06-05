@@ -7,7 +7,7 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '95'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7設定、實作、主機、環境、回應權杖和使用者的設定設定。
 
-若要存取[!UICONTROL Administration]功能表專案，請按一下頂端功能表列中的&#x200B;**[!UICONTROL Administration]**，然後沿著左側按一下所需的標籤：
+若要存取[!UICONTROL 管理]功能表專案，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 管理]**，然後沿著左側按一下所需的標籤：
 
 * [可視化體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [報表](/help/main/administrating-target/reporting.md)

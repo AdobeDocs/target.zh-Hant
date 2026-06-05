@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 221
-ht-degree: 35%
+source-wordcount: 250
+ht-degree: 36%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 35%
 
 在[!DNL Adobe Target]中建立受眾，將目標鎖定於符合特定設定檔引數的訪客。
 
-1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 對象]** > **[!UICONTROL 建立對象]**。
 1. 為對象命名並新增選擇性說明。
-1. 將&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;拖放至對象產生器窗格。
+1. 將&#x200B;**[!UICONTROL 訪客設定檔]**&#x200B;拖放至對象產生器窗格。
 
-1. 按一下&#x200B;**[!UICONTROL Select]**，然後選取下列其中一個選項：
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**，然後選取下列其中一個選項:
 
    ![target_visitor_profile影像](assets/target_visitor_profile.png)
 
    訪客設定檔參數會透過 mbox (設定檔) 來傳遞。 您可以將目標鎖定在新訪客或再度訪問的訪客，或包含所有使用者。
 
-   * [!UICONTROL New Visitor]
-   * [!UICONTROL Returning Visitor]
-   * [!UICONTROL In Other Tests]
-   * [!UICONTROL Not In Other Tests]
-   * [!UICONTROL First Page of Session]
-   * [!UICONTROL Not First Page of Session]
-   * [!UICONTROL Category Affinity]
+   * [!UICONTROL 新訪客]
+   * [!UICONTROL 回訪訪客]
+   * [!UICONTROL 在其他測試中]
+   * [!UICONTROL 不在其他測試中]
+   * [!UICONTROL 工作階段的第一頁]
+   * [!UICONTROL 不是工作階段首頁]
+   * [!UICONTROL 類別相關性]
 
    訪客輪廓會針對每個具有新 `mboxPC` 的 mbox 呼叫，建立於本機 Edge 記憶體。 30分鐘未使用後，設定檔會儲存至[!DNL Target]資料庫，並可從其他Edge存取。
 
@@ -47,7 +47,7 @@ ht-degree: 35%
    您可以鎖定自訂輪廓參數和 `user.` 參數。 選擇您要用來鎖定目標活動的參數。 如果未顯示所需的引數，表示引數並未由mbox引發。
 
 1. （選用）為對象設定其他規則。
-1. 按一下 **[!UICONTROL Done]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 ## 訓練影片：建立對象![Overview badge](/help/main/assets/overview.png)
 

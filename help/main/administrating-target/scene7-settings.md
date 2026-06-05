@@ -20,14 +20,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 393
-ht-degree: 92%
+source-wordcount: 402
+ht-degree: 90%
 
 ---
 
 # Dynamic Media Classic (先前稱為 Scene7) 設定
 
-[!DNL Adobe Target]可以與[!DNL Adobe Dynamic Media Classic] （先前為[!DNL Scene7]）整合以在[!UICONTROL Content Library]中提供數位資產管理(DAM)。
+[!DNL Adobe Target]可以與[!DNL Adobe Dynamic Media Classic] （先前為[!DNL Scene7]）整合以在[!UICONTROL 內容庫]中提供數位資產管理(DAM)。
 
 {{permissions-update}}
 
@@ -43,7 +43,7 @@ ht-degree: 92%
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-如果未設定此設定，則活動建立工作流程內的[!UICONTROL Swap Image offer]選項將不可用。 進行此設定後，[可視化體驗撰寫器 (VEC) 和表單式體驗撰寫器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中都可以使用交換/變更影像產品建議的選項。 然後您可以針對已從 [!DNL Adobe Experience Cloud] 上傳以用於 [!DNL Target] 活動的影像，利用影像產品建議。
+如果未設定此設定，則活動建立工作流程中的[!UICONTROL 交換影像選件]選項將不可用。 進行此設定後，[可視化體驗撰寫器 (VEC) 和表單式體驗撰寫器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中都可以使用交換/變更影像產品建議的選項。 然後您可以針對已從 [!DNL Adobe Experience Cloud] 上傳以用於 [!DNL Target] 活動的影像，利用影像產品建議。
 
 如果您想要直接在產品建議中或在活動建立期間的自訂程式碼中參考公用影像 URL，應該將影像部署至您自己的 Web 伺服器，並在程式碼中使用您自己的 URL。 沒有方法可取得已上傳至 [!DNL Experience Cloud] 之已發佈影像的 URL，以直接使用或在使用 [!DNL Target] 的鎖定目標工作流程之外使用。 根據合約，此功能是不被允許的。
 
@@ -51,7 +51,7 @@ ht-degree: 92%
 
 若要與 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 整合，您必須指定下列資訊。
 
-1. 按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**。
+1. 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Scene7設定]**。
 
 1. 指定下列 [!DNL Dynamic Media Classic] 帳戶資訊：
 
@@ -63,4 +63,4 @@ ht-degree: 92%
 
    **密碼：**&#x200B;用來登入 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 的密碼。
 
-1. 按一下 **[!UICONTROL Submit]**。
+1. 按一下&#x200B;**[!UICONTROL 「提交」]**。

@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 60%
 
 ## [!DNL Target Standard/Premium] 26.5.3 （2026年5月21日）
 
-**[!UICONTROL What's new]頁**
+**[!UICONTROL 新增功能]頁面**
 
 +++檢視詳細資料
 
-* **新[!UICONTROL What's new]頁面。** 已在[!DNL Adobe Target] UI中新增新的&#x200B;**[!UICONTROL What's new]**&#x200B;頁面，協助您在不離開產品的情況下探索最新功能、增強功能和更新。 (TGT-55137)
+* **新[!UICONTROL 新增功能]頁面。** 已在[!DNL Adobe Target] UI中新增新的&#x200B;**[!UICONTROL 新功能]**&#x200B;頁面，協助您在不離開產品的情況下探索最新功能、增強功能和更新。 (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ ht-degree: 60%
 
 +++檢視詳細資料
 
-* 在[!UICONTROL Automated Personalization]個活動中編輯鎖定目標時，**選取了錯誤的體驗。** 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯&#x200B;**[!UICONTROL Targeting]**&#x200B;步驟時，可能選取錯誤體驗的問題。 (TGT-55176)
+* 在[!UICONTROL Automated Personalization]活動中編輯鎖定目標時，**選取了錯誤的體驗。** 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;步驟時，可能選取錯誤體驗的問題。 (TGT-55176)
 
 * **關閉排程活動時的較早日期。** 修正無法選取較早日期來關閉已排程活動的問題。 (TGT-55163)
 

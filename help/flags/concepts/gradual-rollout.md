@@ -5,7 +5,7 @@ hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 **即時意見反應**
 轉出的每個階段都會呈現真實使用者的意見回饋。 團隊可以在下一階段之前根據意見反應行動 — 改進體驗、修正邊緣案例或調整訊息。
 
-## 其運作方式 {#how-it-works}
+## 運作方式 {#how-it-works}
 
 標幟提供精細的鎖定目標規則，可逐步增加使用者的曝光度。 典型的逐步轉出可能會遵循此模式：
 

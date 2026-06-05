@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 662
 ht-degree: 29%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 29%
 
 建立使用[!DNL Analytics]作為報告來源的[!DNL Target]活動類似於設定一般[!DNL Target]活動，但有一些重要差異。 例如，您無法在建立活動時選取要報告的區段，因為檢視報告時可套用[!DNL Analytics]中所有可用的區段。
 
-1. 按一下 **[!UICONTROL Create Activity]**。
+1. 按一下&#x200B;**[!UICONTROL 「建立活動」]**。
 
    >[!NOTE]
    >
@@ -39,9 +39,9 @@ ht-degree: 29%
 
 1. 選取活動類型並開始設定活動。
 
-   如果您想要建立[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target]活動，請參閱自動分配和自動鎖定目標活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)以取得詳細資訊。
+   如果您想要建立[!UICONTROL 自動分配]或[!UICONTROL 自動鎖定目標]活動，請參閱自動分配和自動鎖定目標活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)以取得詳細資訊。
 
-1. 當您到達活動建立流程的&#x200B;**[!UICONTROL Settings]**&#x200B;部分時，請選擇&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;並指定您的公司。
+1. 進入活動建立流程的&#x200B;**[!UICONTROL 設定]**&#x200B;部分時，請選擇&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;並指定您的公司。
 1. 選擇一個報表套裝。
 
    您可以在[!DNL Analytics]中選擇任何您可用的報表套裝。 報表套裝會定義可在何處使用收集到的資料。 報表套裝清單中未包括虛擬報表套裝。
@@ -79,7 +79,7 @@ ht-degree: 29%
    >
    >在將[!DNL Analytics]設定為您的報表來源之後設定活動時，沒有選項可用來設定報表對象。 [!DNL Target]活動報表中有[!DNL Analytics]個可用區段。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## A4T以及自動分配和自動鎖定目標活動
 

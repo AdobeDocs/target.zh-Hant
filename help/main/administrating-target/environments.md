@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 709
 ht-degree: 46%
 
 ---
@@ -30,35 +30,35 @@ ht-degree: 46%
 
 組織您的網站和生產前環境，適用於簡易管理和分開的報表。
 
-主機會整合至環境以便輕鬆管理。 例如，您可能有許多主機聚集在兩個或三個環境中。 預設環境包括[!UICONTROL Production]、[!UICONTROL Staging]和[!UICONTROL Development]。 您可以新增環境並重新命名環境 (如需要)。
+主機會整合至環境以便輕鬆管理。 例如，您可能有許多主機聚集在兩個或三個環境中。 預設環境包括[!UICONTROL 生產]、[!UICONTROL 測試]和[!UICONTROL 開發]。 您可以新增環境並重新命名環境 (如需要)。
 
-一個環境（預設環境）已預先命名為[!UICONTROL Production]。 即使重新命名此預設環境，亦無法刪除此環境。 [!DNL Target] 假設這是您提供最終批准活動與測試的地方。
+一個環境（預設環境）已預先命名為[!UICONTROL 生產]。 即使重新命名此預設環境，亦無法刪除此環境。 [!DNL Target] 假設這是您提供最終批准活動與測試的地方。
 
-從新網站或網域收到[!DNL Target]要求時，這些新網域一律會出現在[!UICONTROL Production]環境中。 [!UICONTROL Production]環境無法變更其設定，因此可保證未知或新網站只會看到作用中且準備就緒的內容。 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
+從新網站或網域收到[!DNL Target]要求時，這些新網域一律會出現在[!UICONTROL 生產]環境中。 [!UICONTROL 生產]環境無法變更其設定，因此可保證未知或新網站只會看到作用中且準備就緒的內容。 主機管理亦可讓您在啟動活動之前，輕鬆針對測試、預備和開發環境確保新活動和內容的品質。
 
 {{permissions-update}}
 
-若要管理環境，請按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Environments]**。
+若要管理環境，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 環境]**。
 
 ## 新增環境 {#section_32097D0993724DF3A202D164D3F18674}
 
-1. 從[!UICONTROL Environments]清單，按一下&#x200B;**[!UICONTROL Add Environment]**。
+1. 從[!UICONTROL 環境]清單，按一下&#x200B;**[!UICONTROL 新增環境]**。
 1. 為環境指定描述性名稱。
-1. 指定環境所需的作用中模式： [!UICONTROL Active Activities]或[!UICONTROL Active and Inactive Activities]。
+1. 為環境指定所需的使用中模式: [!UICONTROL 使用中的活動]或[!UICONTROL 使用中或非使用中的活動]。
 
-   如果您指定[!UICONTROL Active and Inactive Activities]，則來自此環境的主機也會顯示非使用中活動。
+   如果您指定[!UICONTROL 使用中和非使用中活動]，則來自此環境的主機也會顯示非使用中活動。
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 設定報告的預設環境 {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 您可以選取想要的環境作為所有活動報表的預設環境。
 
-如果您使用[!UICONTROL Production]作為預設值，所有未知主機會自動新增在這裡，而來自那裡的報告資料會包含在預設的報告檢視中。 反之，建立「全新」環境可確保只包含您的核心網站/網域。
+如果您使用[!UICONTROL Production]作為預設值，則所有未知主機會自動新增到此處，而來自該處的報表資料會包含在預設報表檢視中。 反之，建立「全新」環境可確保只包含您的核心網站/網域。
 
 若要設定報表的預設環境:
 
-1. 從[!UICONTROL Environments]清單中，按一下星形圖示
+1. 從[!UICONTROL 環境]清單，按一下星號圖示
 
 >[!NOTE]
 >
@@ -68,20 +68,20 @@ ht-degree: 46%
 
 ## 變更環境的名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. 從[!UICONTROL Environment]清單中，按一下&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
+1. 從[!UICONTROL 環境]清單中，按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 1. 變更環境名稱。
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 刪除環境 {#section_737F8869612047868D03FC755B1223D3}
 
 您可以刪除不再需要的環境。
 
-1. 從[!UICONTROL Environment]清單中，按一下&#x200B;**[!UICONTROL Delete]**&#x200B;圖示。
-1. 按一下&#x200B;**[!UICONTROL Delete]**&#x200B;以確認刪除。
+1. 從[!UICONTROL 環境]清單中，按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示。
+1. 按一下「**[!UICONTROL 刪除]**」以確認刪除。
 
 >[!NOTE]
 >
->您無法刪除[!UICONTROL Production]環境，但您可以重新命名。
+>您無法刪除[!UICONTROL 生產]環境，但您可以重新命名。
 
 ## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="檢視Target Premium包含的內容。"}建議：根據環境（主機群組）篩選集合和排除專案
 
@@ -89,7 +89,7 @@ ht-degree: 46%
 
 {{premium-note}}
 
-環境可用來將目錄中可用專案區分為不同用途。 例如，您可以將主機群組用於[!UICONTROL Development]和[!UICONTROL Production]環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。 (您也可以使用「環境」(Environment)篩選條件，選取不同的主機群組來預覽結果。) 依預設，除非在建立或更新專案時指定環境ID，否則新加入的專案可在所有主機群組中使用。
+環境可用來將目錄中可用專案區分為不同用途。 例如，您可以將主機群組用於[!UICONTROL 開發]和[!UICONTROL 生產]環境、不同品牌或不同地理位置。 依照預設，「目錄搜尋」、「集合」和「排除項目」中的預覽結果是根據預設主機群組所產生。 (您也可以使用「環境」(Environment)篩選條件，選取不同的主機群組來預覽結果。) 依預設，除非在建立或更新專案時指定環境ID，否則新加入的專案可在所有主機群組中使用。
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ ht-degree: 46%
 >[!NOTE]
 >在變更選取的環境後，您必須按一下「搜尋」來更新傳回的結果。
 
-[!UICONTROL Environment]篩選器可從Target UI中的下列位置取得：
+[!UICONTROL 環境]篩選器可從Target UI中的下列位置取得：
 
-* 目錄搜尋([!UICONTROL Recommendations > Catalog Search])
-* 建立集合對話方塊([!UICONTROL Recommendations > Collections > Create New])
-* 更新集合對話方塊([!UICONTROL Recommendations > Collections > Edit])
-* 建立排除專案對話方塊([!UICONTROL Recommendations > Exclusions > Create New])
-* 更新排除專案對話方塊([!UICONTROL Recommendations > Exclusions > Edit])
+* 目錄搜尋（[!UICONTROL Recommendations >目錄搜尋]）
+* 建立集合對話方塊（[!UICONTROL Recommendations >集合>新建]）
+* 更新集合對話方塊（[!UICONTROL Recommendations >集合>編輯]）
+* 建立排除專案對話方塊（[!UICONTROL 建議>排除專案>新建]）
+* 更新排除專案對話方塊（[!UICONTROL 建議>排除專案>編輯]）

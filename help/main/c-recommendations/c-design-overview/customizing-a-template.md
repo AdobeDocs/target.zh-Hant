@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 32%
 
 ---
@@ -215,7 +215,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key影像](assets/rec_key.png)
 
-當您建立[!DNL Recommendations]活動時，如果主要專案取自於訪客的設定檔，例如「上次購買的專案」，則[!DNL Target]會在[!UICONTROL Visual Experience Composer] (VEC)中顯示隨機產品。 這是因為當您設計活動時，沒有設定檔可用。 訪客檢視頁面時就會看到預期的主要項目。
+當您建立[!DNL Recommendations]活動時，如果主要專案取自於訪客的設定檔，例如「上次購買的專案」，則[!DNL Target]會在[!UICONTROL 視覺化體驗撰寫器] (VEC)中顯示隨機產品。 這是因為當您設計活動時，沒有設定檔可用。 訪客檢視頁面時就會看到預期的主要項目。
 
 ## 在字串值中執行取代 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +245,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 自訂範本大小並檢查空白值 {#default}
 
-使用[!DNL Velocity]指令碼控制實體顯示的動態大小，下列範本可因應1對多結果，以免在[!DNL Recommendations]傳回的相符實體不足時建立空白的HTML元素。 此指令碼最適合備份建議沒有意義且已啟用[!UICONTROL Partial Template Rendering]的情況。
+使用[!DNL Velocity]指令碼控制實體顯示的動態大小，下列範本可因應1對多結果，以免在[!DNL Recommendations]傳回的相符實體不足時建立空白的HTML元素。 此指令碼最適合備份建議沒有意義且已啟用[!UICONTROL 部分範本轉譯]的情況。
 
 下列 HTML 片段會取代 4x2 預設設計中的現有 HTML 部分 (為了簡潔起見，此處未包含 CSS):
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 22%
 
 回應Token可讓您自動將[!DNL Adobe Target]的特定資訊輸出至您品牌的網頁。 此資訊可包含有關活動、選件、體驗、使用者設定檔、地理資訊等詳細資訊。 這些詳細資料提供額外的回應資料，可與內部或第三方工具共用，或用於偵錯。
 
-回應Token可讓您選擇要使用的變數（在索引鍵值配對中），然後啟用這些變數作為[!DNL Target]回應的一部分傳送。 您使用交換器啟用變數，變數會與[!DNL Target]個回應一併傳送，這可以在網路呼叫中驗證。 回應Token也可在[!UICONTROL Preview]模式下運作。
+回應Token可讓您選擇要使用的變數（在索引鍵值配對中），然後啟用這些變數作為[!DNL Target]回應的一部分傳送。 您使用交換器啟用變數，變數會與[!DNL Target]個回應一併傳送，這可以在網路呼叫中驗證。 回應Token也可在[!UICONTROL 預覽]模式下運作。
 
 外掛程式和回應Token的主要差異在於，外掛程式會將JavaScript傳送至傳送時執行的頁面。 然而，回應Token會傳送物件，然後可以使用事件接聽程式讀取該物件並據以採取行動。 回應Token方法比較安全，而且在開發和維護第三方整合時較輕鬆。
 
@@ -62,7 +62,7 @@ ht-degree: 22%
    * **Platform Web SDK**：請參閱&#x200B;*Platform Web SDK總覽*&#x200B;指南中的[安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)。
    * **at.js**：請參閱[下載at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
 
-1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
+1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 回應權杖]**。
 
 1. 啟用所需的回應Token，例如`activity.id`和`offer.id`。
 
@@ -81,7 +81,7 @@ ht-degree: 22%
    |  | `profile.categoryAffinities` | 以字串形式傳回訪客前 5 名類別的陣列。 |
    | 活動 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 目前活動的詳細資料。<br> 請注意，優惠引數的值會在體驗層級上評估。 |
    | 地理 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 請參閱[地理](/help/main/c-target/c-audiences/c-target-rules/geo.md)，以取得在活動中使用地理鎖定目標的詳細資訊。 |
-   | 流量分配方法<br> （僅適用於[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動。） | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則傳回1。 |
+   | 流量分配方法<br> （僅適用於[!UICONTROL 自動鎖定目標]和[!UICONTROL Automated Personalization]活動。） | `experience.trafficAllocationId` | 如果訪客從「控制」流量中收到體驗，則傳回0；如果訪客從「已鎖定目標」流量分佈中收到體驗，則傳回1。 |
    |  | `experience.trafficAllocationType` | 傳回「控制」或「已鎖定目標」。 |
 
    使用者輪廓屬性和客戶屬性也顯示在清單中。
@@ -90,9 +90,9 @@ ht-degree: 22%
    >
    >含特殊字元的參數不會顯示在清單中。 僅支援英數字元和底線。
 
-1. （條件式）若要使用設定檔引數做為回應Token，但引數尚未透過[!DNL Target]要求傳遞，因此，尚未載入[!DNL Target] UI，您可以使用[!UICONTROL Add Response Token]按鈕將設定檔新增至UI。
+1. （條件式）若要使用設定檔引數做為回應Token，但引數尚未透過[!DNL Target]要求傳遞，因此，尚未載入[!DNL Target] UI，您可以使用[!UICONTROL 新增回應Token]按鈕將設定檔新增至UI。
 
-   按一下&#x200B;**[!UICONTROL Add Response Token]**，提供權杖名稱，然後按一下&#x200B;**[!UICONTROL Activate]**。
+   按一下&#x200B;**[!UICONTROL [新增回應Token]]**，提供Token名稱，然後按一下[啟動]&#x200B;**&#x200B;**。
 
 1. 建立活動。
 
@@ -194,7 +194,7 @@ ht-degree: 22%
 
 **需要什麼角色才能啟動或停用回應 Token?**
 
-回應權杖只能由具有[!DNL Target] [!UICONTROL Administrator]角色的使用者啟用或停用。
+回應權杖只能由具有[!DNL Target] [!UICONTROL 管理員]角色的使用者啟用或停用。
 
 **如果我執行[!DNL Platform Web SDK] 2.6.0 （或更早版本）會發生什麼事？**
 
@@ -444,7 +444,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]功能表UI （先前稱為[!UICONTROL Setup]）已經過重新設計，可提供改良的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 下列影片中的資訊是正確的；不過，選項的位置稍有不同。
+>[!DNL Target] [!UICONTROL 管理]功能表UI （先前稱為[!UICONTROL 安裝程式]）已經過重新設計，可提供改良的效能、縮短發布新功能所需的維護時間，並改善整個產品的使用者體驗。 下列影片中的資訊是正確的；不過，選項的位置稍有不同。
 >
 >影片中提到`option.name`和`option.id`，已分別以`offer.name`和`offer.id`取代。
 

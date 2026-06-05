@@ -15,14 +15,14 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 67%
+source-wordcount: 250
+ht-degree: 66%
 
 ---
 
 # 疑難排解可視化體驗撰寫器和增強體驗撰寫器
 
-在某些情況下，[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Enhanced Experience Composer] (EEC)有時會發生顯示問題。
+顯示在某些情況下，[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)有時會發生問題。
 
 VEC 是 [!DNL Adobe Target] 的其中一項主要功能。 VEC 是一項編輯器，可讓行銷人員和設計人員使用視覺介面來建立和變更內容。 您可以進行許多設計選擇，而不需直接編輯程式碼。 您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
 

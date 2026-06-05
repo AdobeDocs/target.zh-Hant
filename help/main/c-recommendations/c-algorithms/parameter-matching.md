@@ -12,12 +12,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: 350
 ht-degree: 10%
 
 ---
 
-# [!UICONTROL Parameter Matching]
+# [!UICONTROL 參數比對]
 
 比較專案（實體）與請求（API或mbox）中的值，以動態篩選。
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 ## 引數比對範例
 
-[!UICONTROL Parameter Matching]可讓您建議符合頁面引數或訪客引數的內容，例如裝置維度或地理位置，如下列範例所示：
+[!UICONTROL 引數比對]可讓您建議符合頁面引數或訪客引數的內容，例如裝置維度或地理位置，如下列範例所示：
 
 [!DNL Recommendations]可以比對[!DNL Target]呼叫中傳送的引數值。 在此執行個體中，[!DNL Target]會根據[!DNL Target]呼叫中傳送的熒幕高度和寬度引數，偵測到訪客正在使用行動裝置，並僅建議行動裝置專案。
 

@@ -6,18 +6,18 @@ feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 9%
+source-wordcount: '483'
+ht-degree: 8%
 
 ---
 
 # 使用多值屬性
 
-有時您可能會想要使用多值欄位。  考量下列範例：
+有時您可能會想要使用多值欄位。 考量下列範例：
 
-* 您提供影片給使用者。某部電影有多位演員。
-* 你賣音樂會的票。給定用戶有多個喜愛的樂隊。
-* 你賣衣服。襯衫有多種尺寸。
+* 您提供影片給使用者。 某部電影有多位演員。
+* 你賣音樂會的票。 給定用戶有多個喜愛的樂隊。
+* 你賣衣服。 襯衫有多種尺寸。
 
 若要處理這些案例中的建議，您可以將多值資料傳遞至[!DNL Target Recommendations]並使用特殊的多值運運算元。
 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-如需詳細資訊，請參閱[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)中的&#x200B;*實作多值屬性*。
+如需詳細資訊，請參閱&#x200B;*自訂實體屬性*&#x200B;中的[實作多值屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
 
 ## 在CSV檔案中傳遞多值實體屬性
 
@@ -63,8 +63,8 @@ function targetPageParams() {
 
 下列運運算元可搭配多值實體、設定檔和mbox屬性使用：
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL 包含在清單]中
+* [!UICONTROL 不在清單]中
 
 ## 在包含規則中使用多值屬性
 

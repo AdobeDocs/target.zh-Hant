@@ -1,7 +1,7 @@
 ---
 keywords: 建議索引鍵；建議邏輯；目前類別；自訂屬性；上次購買的專案；上次檢視的專案；檢視次數最多的專案；最愛的專案；熱門度；最近檢視的專案；上次購買；上次檢視；最愛；最近檢視
-description: 瞭解如何根據索引鍵使用建議，這些索引鍵使用訪客行為內容來顯示[!UICONTROL Recommendations]活動中的相關結果。
-title: 如何以[!UICONTROL Recommendation Key]為[!UICONTROL Recommendation]的基礎？
+description: 瞭解如何根據索引鍵使用建議，這些索引鍵使用訪客行為內容來顯示[!UICONTROL 建議]活動中的相關結果。
+title: 如何讓[!UICONTROL 建議]以[!UICONTROL 建議金鑰]為依據？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 3510
+source-wordcount: 4049
 ht-degree: 27%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 27%
 
 | 演演算法型別 | 何時使用/可用的演演算法 |
 | --- | --- |
-| [!UICONTROL Cart-Based] | 根據使用者的購物車內容提供建議。<ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul> |
-| [!UICONTROL Popularity-Based] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
-| [!UICONTROL Item-Based] | 根據找到使用者目前正在檢視或最近檢視之專案的類似專案提供建議。 <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
-| [!UICONTROL User-Based] | 根據使用者的行為提供建議。 <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
-| [!UICONTROL Custom Criteria] | 根據您上傳的自訂檔案提出建議。 <ul><li>自訂演演算法</li></ul> |
+| [!UICONTROL 購物車型] | 根據使用者的購物車內容提供建議。<ul><li>[!UICONTROL 瀏覽過這些專案的使用者，也瀏覽了]</li><li>[!UICONTROL 瀏覽過這些商品的人們也購買了]</li><li>[!UICONTROL 已購買這些商品的人，也已購買]</li></ul> |
+| [!UICONTROL 以熱門程度為基礎] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>整個網站檢視次數最多</li><li>依類別檢視次數最多</li><li>[!UICONTROL 檢視次數最多的專案屬性]</li><li>整個網站[!UICONTROL 最暢銷商品]</li><li>[!UICONTROL 依類別排名的最暢銷商品]</li><li>[!UICONTROL 依專案屬性的最暢銷商品]</li><li>[!UICONTROL Analytics量度排名最前]</li></ul> |
+| [!UICONTROL 專案型] | 根據找到使用者目前正在檢視或最近檢視之專案的類似專案提供建議。 <ul><li>[!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]</li><li>[!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]</li><li>[!UICONTROL 購買了此專案、也購買了其他專案的使用者]</li><li>[!UICONTROL 具有類似屬性的專案]</li></ul> |
+| [!UICONTROL 以使用者為基礎] | 根據使用者的行為提供建議。 <ul><li>[!UICONTROL 最近查看的項目]</li><li>[!UICONTROL 為您推薦]</li></ul> |
+| [!UICONTROL 自訂條件] | 根據您上傳的自訂檔案提出建議。 <ul><li>自訂演演算法</li></ul> |
 
 各條件均在自己的標籤中定義。 流量平均分入不同的條件測試中。 換句話說，如果您有兩個條件，流量會在它們之間平均分配。 如果您有兩個條件和兩個設計，流量會在四個組合中平均分割。 您也可指定可看到預設內容的訪客比例，以進行比較。 在這種情況下，指定的訪客百分比會看到預設內容，其餘則會平分給您的條件和設計組合。
 
@@ -44,27 +44,27 @@ ht-degree: 27%
 
 ## 購物車型 {#cart-based}
 
-[!UICONTROL Cart-Based]演演算法型別允許根據訪客目前購物車的內容來建議專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
+[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
 
-購物車型建議邏輯類似於&quot;[!UICONTROL Recommended For You]&quot;使用者型演演算法，以及&quot;[!UICONTROL People Who Viewed These, Bought Those]&quot;和&quot;[!UICONTROL People Who Bought These, Bought Those]&quot;專案型演演算法。
+購物車型建議邏輯類似於&quot;[!UICONTROL 為您推薦的]&quot;使用者型演演算法，以及&quot;[!UICONTROL 瀏覽過這些專案、購買那些]&quot;和&quot;[!UICONTROL 購買這些專案、購買那些]&quot;專案型演演算法的使用者。
 
 [!DNL Target]會使用合作篩選技術來判斷訪客購物車中每個專案的相似性，然後結合每個專案的這些行為相似性，以取得合併清單。
 
 [!DNL Target]也可讓行銷人員選擇檢視單一工作階段或多個工作階段中的訪客行為：
 
-* **[!UICONTROL Single Session]**：根據其他訪客在單一工作階段中的行為。
+* **[!UICONTROL 單一工作階段]**：根據其他訪客在單一工作階段中的行為。
 
   當產品根據使用、場合或事件強烈地「配合」在一起時，檢視單一工作階段中的行為可能是合理的。 例如，訪客正在購買印表機，可能還需要墨水及紙張。 或者，訪客正在購買花生醬，可能還需要麵包和果凍。
 
-* **[!UICONTROL Across Sessions]**：根據其他訪客在多個工作階段所做的動作。
+* **[!UICONTROL 跨工作階段]**：根據其他訪客在多個工作階段所做的動作。
 
   當產品根據訪客偏好或品味強烈「配合」時，檢視多個工作階段的行為可能有意義。 例如，訪客喜歡《星際大戰》，可能也喜歡《印地安納瓊斯》，即使訪客不一定想同時觀看兩部電影。 或者，訪客喜歡桌遊遊戲「Codenames」，並且可能也喜歡桌遊遊戲「Avalon」，即使訪客無法同時玩兩個遊戲。
 
 [!DNL Target]會根據每位訪客目前購物車中的專案提供建議，無論您是檢視單一工作階段內的訪客行為，還是檢視多個工作階段的訪客行為。
 
-下列演演算法可用於[!UICONTROL Cart-Based]演演算法型別：
+下列演演算法可用於[!UICONTROL 購物車型]演演算法型別：
 
-### [!UICONTROL People Who Viewed This, Also Viewed]
+### 已檢視此專案的[!UICONTROL 人也已檢視]
 
 建議在檢視所指定項目的相同工作階段中，最常檢視的項目。
 
@@ -74,12 +74,12 @@ ht-degree: 27%
 
 如果您選取此演演算法，可以選取下列建議索引鍵：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
-### [!UICONTROL People Who Viewed This, Also Bought]
+### [!UICONTROL 瀏覽過此專案，也購買了]的人
 
 建議在檢視所指定項目的相同工作階段中，最常購買的項目。
 
@@ -89,12 +89,12 @@ ht-degree: 27%
 
 如果您選取此演演算法，可以選取下列建議索引鍵：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
-### [!UICONTROL People Who Bought This, Also Bought]
+### 已購買此專案的[!UICONTROL 人也已購買]
 
 建議當客戶購買所指定項目的同時，最常購買的項目。
 
@@ -104,18 +104,18 @@ ht-degree: 27%
 
 如果您選取此演演算法，可以選取下列建議索引鍵：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
-## [!UICONTROL Popularity-Based]
+## [!UICONTROL 以熱門程度為基礎]
 
-[!UICONTROL Popularity-Based]演演算法型別可讓您根據整個網站中專案的整體人氣或根據使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。
+[!UICONTROL 以人氣為基礎的]演演算法型別可讓您根據整個網站中專案的整體人氣或根據使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。
 
-下列演演算法可用於[!UICONTROL Popularity-Based]演演算法型別：
+下列演演算法適用於[!UICONTROL 以熱門程度為基礎的]演演算法型別：
 
-### [!UICONTROL Most Viewed Across the Site] {#most-viewed}
+### 整個網站檢視次數最多 {#most-viewed}
 
 建議由檢視次數最多的專案決定。 這由最新/頻率條件判斷，方式如下:
 
@@ -127,7 +127,7 @@ ht-degree: 27%
 
 在一般頁面（例如首頁或登陸頁面及站外廣告）上使用此演演算法。
 
-### [!UICONTROL Most Viewed by Category] {#most-viewed-category}
+### 依類別檢視次數最多 {#most-viewed-category}
 
 建議由接收最多活動的類別確定，而使用的方法與「檢視次數最多的項目」的相同，只不過是以類別計分，而並非產品。
 
@@ -144,10 +144,10 @@ ht-degree: 27%
 
 如果您選取「依類別檢視次數最多」演演算法，可以選取下列Recommendations索引鍵：
 
-* [!UICONTROL Current Category]
-* [!UICONTROL Favorite Category]
+* [!UICONTROL 目前類別]
+* [!UICONTROL 最喜愛的類別]
 
-### [!UICONTROL Most Viewed by Item Attribute]
+### [!UICONTROL 檢視次數最多的專案屬性]
 
 推薦與您網站上檢視次數最多的專案或媒體類似的專案或媒體。
 
@@ -155,24 +155,24 @@ ht-degree: 27%
 
 接著，您需選取訪客的設定檔中儲存哪些設定檔屬性要符合，例如「最喜愛的品牌」、「加入購物車的最後一個專案」或「最常檢視的節目」。
 
-### [!UICONTROL Top Sellers Across the Site] {#top-sellers}
+### 整個網站[!UICONTROL 最暢銷商品] {#top-sellers}
 
 顯示整個網站中，已完成最多訂單所包含的料號。 單一訂單中相同項目的多個單位視為一份訂單。
 
 此演演算法可讓您為網站上的最暢銷專案建立建議，以提高轉換率和收入。 此邏輯尤其適合初次造訪您網站的訪客。
 
-### [!UICONTROL Top Sellers by Category]
+### [!UICONTROL 依類別排名的最暢銷商品]
 
 依類別顯示最已完成訂單中包含的料號。 單一訂單中相同項目的多個單位視為一份訂單。
 
 此演演算法可讓您根據類別，建立網站上最暢銷商品的建議，以提高轉換率和收入。 此邏輯尤其適合初次造訪您網站的訪客。
 
-如果您選取[!UICONTROL Most Viewed by Category]演演算法，則可以選取下列[!UICONTROL Recommendations Keys]：
+如果您選取[!UICONTROL 依類別檢視次數最多]的演演算法，則可以選取下列[!UICONTROL 建議索引鍵]：
 
-* [!UICONTROL Current Category]
-* [!UICONTROL Favorite Category]
+* [!UICONTROL 目前類別]
+* [!UICONTROL 最喜愛的類別]
 
-### [!UICONTROL Top Sellers by Item Attribute]
+### [!UICONTROL 依專案屬性的最暢銷商品]
 
 推薦與您網站上最常購買的專案或媒體類似的專案或媒體。
 
@@ -180,17 +180,17 @@ ht-degree: 27%
 
 接著，您需選取訪客的設定檔中儲存哪些設定檔屬性要符合，例如「最喜愛的品牌」、「加入購物車的最後一個專案」或「最常檢視的節目」。
 
-### [!UICONTROL Top by Analytics Metric]
+### [!UICONTROL Analytics量度排名最前]
 
-顯示&#x200B;*x*&#x200B;為任意[!DNL Analytics]量度的「前x個」。 使用來自mbox的行為資料時，您可以使用[!UICONTROL Top Sold]或[!UICONTROL Top Viewed] （x = &quot;Sold&quot;或x = &quot;Viewed&quot;）。 如果您是使用[!DNL Adobe Analytics]的行為資料，您可以使用x = &quot;Cart Adds&quot;或其他[!DNL Analytics]個量度。
+顯示&#x200B;*x*&#x200B;為任意[!DNL Analytics]量度的「前x個」。 使用來自mbox的行為資料時，您可以使用[!UICONTROL 最暢銷]或[!UICONTROL 最常檢視] （x = &quot;Sold&quot;或x = &quot;Viewed&quot;）。 如果您是使用[!DNL Adobe Analytics]的行為資料，您可以使用x = &quot;Cart Adds&quot;或其他[!DNL Analytics]個量度。
 
-## [!UICONTROL Item-Based]
+## [!UICONTROL 專案型]
 
 [!UICONTROL Item-Based]建議型別可讓您根據使用者目前檢視或最近檢視之專案的類似專案來提出建議。
 
-下列演演算法可用於[!UICONTROL Item-Based]演演算法型別：
+下列演演算法適用於[!UICONTROL Item-Based]演演算法型別：
 
-### [!UICONTROL People Who Viewed This, Viewed That] {#viewed-viewed}
+### [!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者] {#viewed-viewed}
 
 建議在檢視所指定項目的相同工作階段中，最常檢視的項目。
 
@@ -198,14 +198,14 @@ ht-degree: 27%
 
 此邏輯可讓您藉由推薦其他檢視過專案的訪客也檢視過的專案，來建立其他轉換機會。 例如，在您網站上檢視公路腳踏車的訪客也可能檢視腳踏車頭盔、腳踏車套件、車鎖等。 您可以使用此邏輯建立建議，以建議其他產品可協助您增加收入。
 
-如果您選取此演演算法，則可以選取下列[!UICONTROL Recommendations Keys]：
+如果您選取此演演算法，則可以選取下列[!UICONTROL 建議金鑰]：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
-### [!UICONTROL People Who Viewed This, Bought That] {#viewed-bought}
+### [!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者] {#viewed-bought}
 
 建議在檢視所指定項目的相同工作階段中，最常購買的項目。 此條件傳回在檢視這個產品之後購買的其他產品，而指定的產品未包含在結果集合中。
 
@@ -213,14 +213,14 @@ ht-degree: 27%
 
 此邏輯可讓您藉由在產品頁面上顯示建議（例如，顯示其他檢視過所購買專案的訪客）來增加交叉銷售機會。 例如，如果訪客正在檢視釣竿，建議會顯示其他訪客購買的其他專案，例如釣竿盒、魚竿和釣魚誘餌。 當訪客瀏覽您的網站時，您會提供他們額外的購買建議。
 
-如果您選取此演演算法，則可以選取下列[!UICONTROL Recommendations Keys]：
+如果您選取此演演算法，則可以選取下列[!UICONTROL 建議金鑰]：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
-### [!UICONTROL People Who Bought This, Bought That] {#bought-bought}
+### [!UICONTROL 購買了此專案、也購買了其他專案的使用者] {#bought-bought}
 
 建議當客戶購買所指定項目的同時，最常購買的項目。
 
@@ -228,49 +228,49 @@ ht-degree: 27%
 
 此邏輯可讓您藉由在購物車摘要頁面上顯示建議（例如，顯示其他買家也購買的專案），以增加交叉銷售機會。 例如，如果訪客正在購買西裝，建議可顯示其他訪客隨同西裝一起購買的其他專案，例如領帶、正裝鞋和袖扣。 當訪客檢閱其購買專案時，您會提供他們額外的建議。
 
-如果您選取此演演算法，則可以選取下列[!UICONTROL Recommendations Keys]：
+如果您選取此演演算法，則可以選取下列[!UICONTROL 建議金鑰]：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
-### [!UICONTROL Items with Similar Attributes] {#similar-attributes}
+### [!UICONTROL 具有類似屬性的專案] {#similar-attributes}
 
 根據目前頁面活動或訪客的過去行為，建議相似的項目或媒體。
 
-如果您選取[!UICONTROL Items with Similar Attributes]或[!UICONTROL Media with Similar Attributes]，便可選擇設定內容相似度規則。
+如果您選取[!UICONTROL 具有類似屬性的專案]或具有類似屬性的[!UICONTROL 媒體]，您可以選擇設定內容相似度規則。
 
-使用內容相似度來產生建議，對於使用[!UICONTROL People Who Viewed This]、[!UICONTROL Viewed That]和其他根據過去行為的邏輯，不太可能在建議中顯示的新專案特別有效。 您也可以使用內容相似度，為沒有過去的購買或其他歷史資料的新訪客產生實用的建議。
+使用內容相似度來產生建議對新專案特別有效，使用[!UICONTROL 檢視過此專案]、[!UICONTROL 檢視此專案]的人以及根據過去行為的其他邏輯時，這些專案不太可能在建議中顯示。 您也可以使用內容相似度，為沒有過去的購買或其他歷史資料的新訪客產生實用的建議。
 
-如果您選取此演演算法，則可以選取下列[!UICONTROL Recommendations Keys]：
+如果您選取此演演算法，則可以選取下列[!UICONTROL 建議金鑰]：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
 如需詳細資訊，請參閱[內容相似度](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)。
 
-## [!UICONTROL User-Based]
+## [!UICONTROL 以使用者為基礎]
 
-[!UICONTROL User-Based]演演算法型別可讓您根據使用者的行為提供建議。
+[!UICONTROL 以使用者為基礎的]演演算法型別可讓您根據使用者的行為提供建議。
 
-下列演演算法可用於[!UICONTROL User-Based]演演算法型別：
+下列演演算法可用於[!UICONTROL 以使用者為基礎的]演演算法型別：
 
-### [!UICONTROL Recently Viewed Items] {#recently-viewed}
+### [!UICONTROL 最近查看的項目] {#recently-viewed}
 
 根據設計中的位置數量，使用訪客的歷史 (跨工作階段) 以呈現訪客已檢視的前 *x* 個項目。
 
-[!UICONTROL Recently Viewed Items]演演算法傳回指定[環境](/help/main/administrating-target/hosts.md)的特定結果。 如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。 如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的專案。
+[!UICONTROL 最近檢視的專案]演演算法傳回指定[環境](/help/main/administrating-target/hosts.md)的特定結果。 如果兩個網站分屬於不同環境，當訪客在這兩個網站之間進行切換時，每個網站都只會顯示適用網站最近檢視過的項目。 如果兩個網站屬於同一環境，當訪客在這兩個網站之間進行切換時，訪客會看到兩個網站同樣最近檢視過的專案。
 
 >[!NOTE]
 >
->您無法將[!UICONTROL Recently Viewed Items]條件用於備份建議。
+>您無法將[!UICONTROL 最近檢視的專案]條件用於備份建議。
 
-可以篩選[!UICONTROL Recently Viewed Items]或[!UICONTROL Recently Viewed Media]，以便只顯示具有特定屬性的專案。
+可以篩選[!UICONTROL 最近檢視的專案]或[!UICONTROL 最近檢視的媒體]，以便只顯示具有特定屬性的專案。
 
-* [!UICONTROL Recently Viewed]條件可設定，就像建議中的其他條件一樣。
+* [!UICONTROL 最近檢視的]條件可設定，就像建議中的其他條件一樣。
 * 您可以使用與任何其他條件相同的方式使用[集合](/help/main/c-recommendations/c-products/collections.md)、[排除專案](/help/main/c-recommendations/c-products/exclusions.md)和[包含專案](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （包括價格與存貨的特殊規則）。
 
 可能的使用案例包括，擁有多個企業的跨國公司可能有跨多個數位資產的訪客檢視專案。 在此情況下，您可以將最近查看的項目限制在僅顯示檢視其所在位置的各自屬性。 這可防止最近檢視的專案顯示在其他數位屬性的網站上。
@@ -279,15 +279,15 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items]會尊重排除全域設定和針對活動選取的集合設定。 如果全域排除排除了某個專案，或所選集合中未包含某個專案，則不會顯示該專案。 因此，在使用[!UICONTROL Recently Viewed Items]條件時，通常應使用「所有集合」設定。
+>[!UICONTROL 最近檢視的專案]會尊重排除全域設定和針對活動選取的集合設定。 如果全域排除排除了某個專案，或所選集合中未包含某個專案，則不會顯示該專案。 因此，在使用[!UICONTROL 最近檢視的專案]條件時，通常應使用「所有集合」設定。
 
-### [!UICONTROL Recommended for You] {#recommended-for-you}
+### [!UICONTROL 為您推薦] {#recommended-for-you}
 
 根據每位訪客的瀏覽、檢視和購買記錄來建議專案。
 
 此演演算法可讓您為新訪客和回訪訪客提供個人化內容和體驗。 建議清單會針對訪客的最近活動加權，並會在工作階段中更新，當使用者瀏覽您的網站時，推薦清單會變得更個人化。
 
-檢視和購買都會用來決定建議專案。 指定的建議金鑰（例如[!UICONTROL Current Item]）可用來套用您選取的任何包含規則篩選器。
+檢視和購買都會用來決定建議專案。 指定的建議金鑰（例如[!UICONTROL 目前的專案]）可用來套用您選取的任何包含規則篩選器。
 
 例如，您可以:
 
@@ -296,14 +296,14 @@ ht-degree: 27%
 
 如果您選取此演演算法，可以選取下列篩選索引鍵：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]
 
 ## 自訂條件 {#custom}
 
-[!UICONTROL Custom Criteria]演演算法型別可讓您根據上傳的自訂檔案提出建議。
+[!UICONTROL 自訂條件]演演算法型別可讓您根據上傳的自訂檔案提出建議。
 
 建議由儲存在訪客設定檔中的專案決定，使用user.*x*&#x200B;或profile.*x*&#x200B;屬性。
 
@@ -315,7 +315,7 @@ ht-degree: 27%
 
 此功能表示您可以在離線計算的建議或自訂策展清單上，使用[!DNL Target]新增個人化。 這結合資料科學家的本領和研究，與 Adobe 的實測可靠傳送、執行階段篩選、A/B 測試、鎖定目標、報表、整合及其他。
 
-連同在[!UICONTROL Custom Criteria]上新增包含規則，這還可以根據訪客的興趣，將原本靜態的建議轉換成動態建議。
+連同在[!UICONTROL 自訂條件]上新增包含規則，這會將原本靜態的建議轉變為根據訪客興趣的動態建議。
 
 * 就像建議中的其他條件一樣，自訂條件也可設定。
 * 您可以使用與任何其他條件相同的方式使用[集合](/help/main/c-recommendations/c-products/collections.md)、[排除專案](/help/main/c-recommendations/c-products/exclusions.md)和[包含專案](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （包括價格與存貨的特殊規則）。
@@ -328,9 +328,9 @@ ht-degree: 27%
 
 ## 建議索引鍵 {#keys}
 
-下列建議索引鍵可從[!UICONTROL Recommendation Key]下拉式清單中取得：
+下列建議金鑰可從[!UICONTROL 建議金鑰]下拉式清單中取得：
 
-### [!UICONTROL Current Item] {#current-item}
+### [!UICONTROL 目前專案] {#current-item}
 
 建議由訪客正在檢視的項目確定。
 
@@ -340,28 +340,28 @@ ht-degree: 27%
 
 可與下列演演算法搭配使用：
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL 具有類似屬性的專案]
+* [!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]
+* [!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]
+* [!UICONTROL 購買了此專案、也購買了其他專案的使用者]
 
-使用您網站上的[!UICONTROL Current Item]建議金鑰：
+使用您網站上的[!UICONTROL 目前專案]建議金鑰：
 
 * 單一項目頁面，例如產品頁面。
 * 請勿在 null 搜尋結果頁面上使用。
 
-### [!UICONTROL Last Purchased Item] {#last-purchased}
+### [!UICONTROL 上次購買的項目] {#last-purchased}
 
 建議由每位獨特訪客上次購買的項目確定。 系統會自動擷取此值，因此頁面上不會傳遞任何值。
 
 可與下列演演算法搭配使用：
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL 具有類似屬性的專案]
+* [!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]
+* [!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]
+* [!UICONTROL 購買了此專案、也購買了其他專案的使用者]
 
-使用您網站上的[!UICONTROL Last Purchased Item]建議金鑰：
+使用您網站上的[!UICONTROL 上次購買的專案]建議金鑰：
 
 * 首頁、我的帳戶頁面、離站廣告。
 * 請勿在產品頁面或與購買相關的頁面上使用。
@@ -370,38 +370,38 @@ ht-degree: 27%
 
 您可以讓建議以自訂輪廓屬性的值為依據。 例如，假設您要根據訪客最近新增至佇列的影片顯示建議影片。
 
-1. 從&#x200B;**[!UICONTROL Recommendation Key]**&#x200B;下拉式清單（例如&quot;[!UICONTROL Last Show Added to Watchlist]&quot;）中選取自訂設定檔屬性。
-1. 然後選取您的&#x200B;**[!UICONTROL Recommendation Logic]** （例如&quot;[!UICONTROL People Who Viewed This, Viewed That]&quot;）。
+1. 從&#x200B;**[!UICONTROL 建議索引鍵]**&#x200B;下拉式清單（例如&quot;[!UICONTROL 最近新增到觀看清單的節目]&quot;）中選取自訂設定檔屬性。
+1. 接著，選取您的&#x200B;**[!UICONTROL 建議邏輯]** （例如[!UICONTROL 瀏覽過此專案、也瀏覽了]專案的使用者）。
 
 如果自訂輪廓屬性未直接比對至單一實體 ID，則需要向 [!DNL Recommendations] 解說您希望實體的比對如何發生。 例如，假設您要顯示訪客最喜愛品牌的最暢銷商品專案。
 
-1. 從&#x200B;**[!UICONTROL Recommendation Key]**&#x200B;下拉式清單（例如「最喜愛的品牌」）中選取自訂設定檔屬性。
+1. 從&#x200B;**[!UICONTROL 建議索引鍵]**&#x200B;下拉式清單（例如「最喜愛的品牌」）中選取自訂設定檔屬性。
 
-1. 然後選取您要與此金鑰搭配使用的&#x200B;**[!UICONTROL Recommendation Logic]** （例如&quot;[!UICONTROL Top Sellers]&quot;）。
+1. 然後選取您要用於此索引鍵的&#x200B;**[!UICONTROL 建議邏輯]** （例如，「[!UICONTROL 最暢銷商品]」）。
 
-   [!UICONTROL Group By Unique Value Of]選項隨即顯示。
+   [!UICONTROL 依唯一值]分組選項隨即顯示。
 
-1. 選取符合所選索引鍵的實體屬性。 在此案例中，&quot;[!UICONTROL Favorite Brand]&quot;符合`entity.brand`。
+1. 選取符合所選索引鍵的實體屬性。 在此案例中，「[!UICONTROL 最愛的品牌]」與`entity.brand`相符。
 
-   [!DNL Recommendations]現在會產生每個品牌的「[!UICONTROL Top Sellers]」清單，並根據訪客的[!UICONTROL Favorite Brand]設定檔屬性中儲存的值，向訪客顯示適當的「[!UICONTROL Top Sellers]」清單。
+   [!DNL Recommendations]現在會產生每個品牌的「[!UICONTROL 最暢銷商品]」清單，並根據訪客的[!UICONTROL 最喜愛的品牌]設定檔屬性中儲存的值，向訪客顯示適當的「[!UICONTROL 最暢銷商品]」清單。
 
-### [!UICONTROL Last Viewed Item] {#last-viewed}
+### [!UICONTROL 上次檢視的項目] {#last-viewed}
 
 建議由每位獨特訪客上次檢視的項目確定。 系統會自動擷取此值，因此頁面上不會傳遞任何值。
 
 可與下列演演算法搭配使用：
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL 具有類似屬性的專案]
+* [!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]
+* [!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]
+* [!UICONTROL 購買了此專案、也購買了其他專案的使用者]
 
-使用您網站上的[!UICONTROL Last Viewed Item]建議金鑰：
+使用您網站上的[!UICONTROL 上次檢視的專案]建議金鑰：
 
 * 首頁、我的帳戶頁面、離站廣告。
 * 請勿在產品頁面或與購買相關的頁面上使用。
 
-### [!UICONTROL Most Viewed Item] {#most-viewed-logic}
+### [!UICONTROL 檢視次數最多的項目] {#most-viewed-logic}
 
 顯示網站上檢視次數最多的專案或媒體。
 
@@ -409,12 +409,12 @@ ht-degree: 27%
 
 此建議金鑰可與下列演演算法搭配使用：
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL 具有類似屬性的專案]
+* [!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]
+* [!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]
+* [!UICONTROL 購買了此專案、也購買了其他專案的使用者]
 
-### [!UICONTROL Current Category] {#current-category}
+### [!UICONTROL 目前類別] {#current-category}
 
 建議由訪客正在檢視的產品類別確定。
 
@@ -424,15 +424,15 @@ ht-degree: 27%
 
 此建議金鑰可與下列演演算法搭配使用：
 
-* [!UICONTROL Top Sellers]
-* [!UICONTROL Most Viewed]
+* [!UICONTROL 最暢銷商品]
+* [!UICONTROL 檢視次數最多]
 
-使用您網站上的[!UICONTROL Current Category]建議金鑰：
+使用您網站上的[!UICONTROL 目前類別]建議金鑰：
 
 * 單一類別頁面。
 * 請勿在 null 搜尋結果頁面上使用。
 
-### [!UICONTROL Favorite Category] {#favorite-category}
+### [!UICONTROL 最喜愛的類別] {#favorite-category}
 
 建議由訪客最喜愛的產品類別決定。
 
@@ -442,17 +442,17 @@ ht-degree: 27%
 
 此建議金鑰可與下列演演算法搭配使用：
 
-* [!UICONTROL Top Sellers]
-* [!UICONTROL Most Viewed]
+* [!UICONTROL 最暢銷商品]
+* [!UICONTROL 檢視次數最多]
 
-使用您網站上的[!UICONTROL Current Category]建議金鑰：
+使用您網站上的[!UICONTROL 目前類別]建議金鑰：
 
 * 單一類別頁面。
 * 請勿在 null 搜尋結果頁面上使用。
 
-### [!UICONTROL Site Affinity] {#site-affinity}
+### [!UICONTROL 網站相關性] {#site-affinity}
 
-根據項目之間關係的必然性來建議項目。 您可以設定此條件，以決定使用[!UICONTROL Inclusion Rules]滑桿顯示建議之前需要多少資料。 例如，如果您選取「非常強」，則會建議符合確定性最強的產品。
+根據項目之間關係的必然性來建議項目。 您可以使用[!UICONTROL 「包含規則」]滑桿來設定此條件，以決定呈現建議之前需要多少資料。 例如，如果您選取「非常強」，則會建議符合確定性最強的產品。
 
 例如，如果您設定非常強的相關性，且您的設計包含五個項目，其中三個符合連線強度臨界值，則不符合最低強度需求的兩個項目不會出現在建議中，而會由您定義的備用項目取代。 具有最強相關性的項目會先顯示。
 
@@ -462,7 +462,7 @@ ht-degree: 27%
 
 此邏輯可與下列建議索引鍵搭配使用：
 
-* [!UICONTROL Current Item]
-* [!UICONTROL Last Purchased Item]
-* [!UICONTROL Last Viewed Item]
-* [!UICONTROL Most Viewed Item]
+* [!UICONTROL 目前專案]
+* [!UICONTROL 上次購買的項目]
+* [!UICONTROL 上次檢視的項目]
+* [!UICONTROL 檢視次數最多的項目]

@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 59%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 59%
 * **從兩個到四個對象開始。** 著重於基本資訊，例如流量來源。
 * **視需要重新命名對象。** 您可以在不影響資料的情況下重新命名對象，讓對象名稱在正在收集的結果中更有意義，即使活動在使用中也一樣。
 * **輸入精確值。** 對象篩選值區分大小寫。 例如，若您使用客群來篩選城市，則應使用 &quot;OR&quot; 條件來包含可能的拼字與大小寫變化，例如 &quot;Vienna&quot;、&quot;vienna&quot;、&quot;wien&quot; 和 &quot;Wien&quot;。
-* **從[!UICONTROL Audiences]清單建立的對象可重複使用。** 在活動中建立的對象無法重複使用。
+* **從[!UICONTROL 對象]清單建立的對象可重複使用。** 在活動中建立的對象無法重複使用。
 
 下列幾節提供有關設定和報告對象的詳細資訊:
 

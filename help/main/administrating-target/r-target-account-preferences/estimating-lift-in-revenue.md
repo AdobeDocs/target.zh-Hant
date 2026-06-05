@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->預估提升度目前不適用於[!UICONTROL Experience Targeting] (XT)活動。
+>預估提升度目前不適用於[!UICONTROL 體驗鎖定目標] (XT)活動。
 
 依預設會關閉預估提升度功能。 可在您的帳戶偏好設定中啟用。 只有 Experience Cloud 管理員使用者可以啟用或停用此功能。 如果已停用預估的提升度，則介面中不會出現對應的欄位。 停用功能不會造成資料遺失，包括用於預估的資料。 預估是根據收集的資料，而無論功能是否已啟用。
 

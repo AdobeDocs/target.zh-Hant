@@ -1,6 +1,6 @@
 ---
 keywords: AB； A/B； AB...n；比較體驗；鎖定目標；比較內容；自動鎖定目標；自動分配
-description: 探索 [!DNL Target] - [!UICONTROL Manual]、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]中的A/B測試活動。
+description: 探索 [!DNL Target] - [!UICONTROL 手動]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]中的A/B測試活動。
 title: 探索 [!DNL Target]中可用的A/B測試活動。
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
@@ -13,18 +13,18 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 680
-ht-degree: 21%
+source-wordcount: 757
+ht-degree: 19%
 
 ---
 
 # A/B測試概覽
 
-手動[!UICONTROL A/B Test]活動（有時稱為A/B...N測試）會比較兩個或更多版本的網站內容，以檢視哪個版本最能提升您的轉換、銷售或您識別的其他量度。 使用 A/B 測試來將對您的頁面的變更與您的預設頁面設計比較，以決定哪個體驗可產生最佳結果。
+手動[!UICONTROL A/B測試]活動（有時稱為A/B...N測試）會比較兩個或更多版本的網站內容，以檢視哪個版本最能提升您的轉換、銷售或其他識別量度。 使用 A/B 測試來將對您的頁面的變更與您的預設頁面設計比較，以決定哪個體驗可產生最佳結果。
 
 >[!TIP]
 >
->除了[!UICONTROL Manual] （預設） [!UICONTROL A/B Test]活動（本文中討論）之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B Test]活動： [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]。 如需詳細資訊，請參閱下列[A/B測試活動型別](#types)。
+>除了[!UICONTROL 手動] （預設） [!UICONTROL A/B測試]活動（本文中討論）之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B測試]活動： [!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]。 如需詳細資訊，請參閱下列[A/B測試活動型別](#types)。
 
 如果您對根據成功量度或替代內容傳送來改善頁面效能的方式有清楚的假設，手動A/B測試就十分實用。
 
@@ -40,28 +40,28 @@ ht-degree: 21%
 
 ## A/B測試活動的型別 {#types}
 
-除了手動[!UICONTROL A/B Test]活動之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B Testing]活動： [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]。
+除了手動[!UICONTROL A/B測試]活動之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B測試]活動： [!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]。
 
 | 活動類型 | 說明 |
 | --- | --- |
-| [!UICONTROL Manual A/B Test] | 比較兩個或多個體驗，以瞭解哪個體驗最能改善整個預先指定的測試期間的轉換。<P>本節說明如何設定手動[!UICONTROL A/B Test]活動，但其他型別的[!UICONTROL A/B Test]活動的步驟類似。 |
-| [!UICONTROL Auto-Allocate] | 從兩個或多個體驗中識別獲勝者，然後將流量重新導向獲勝者，以隨著測試執行和學習增加轉換。<P>若要瞭解使用[!UICONTROL Auto-Allocate]活動的好處，請參閱&#x200B;*中的[自動分配](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)您應該執行A/B測試*&#x200B;以及[自動分配總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| ![進階徽章](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | 使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗來促進轉換。 接著，系統會根據訪客的個別客戶設定檔與類似訪客先前的行為，提供量身打造的最佳體驗。<P>如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| [!UICONTROL 手動A/B測試] | 比較兩個或多個體驗，以瞭解哪個體驗最能改善整個預先指定的測試期間的轉換。<P>本節說明如何設定手動[!UICONTROL A/B測試]活動，但其他型別的[!UICONTROL A/B測試]活動的步驟類似。 |
+| [!UICONTROL 自動分配] | 從兩個或多個體驗中識別獲勝者，然後將流量重新導向獲勝者，以隨著測試執行和學習增加轉換。<P>若要瞭解使用[!UICONTROL 自動分配]活動的好處，請參閱&#x200B;*中的[自動分配](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)您應該執行A/B測試*&#x200B;多久以及[自動分配總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
+| ![進階徽章](/help/main/assets/premium.png) [!UICONTROL 自動鎖定目標] | 使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗來促進轉換。 接著，系統會根據訪客的個別客戶設定檔與類似訪客先前的行為，提供量身打造的最佳體驗。<P>如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
-如需關於哪些[!UICONTROL A/B Test]活動適合您的詳細資訊，請參閱互動式[Adobe Target活動指南PDF](/help/main/c-activities/target-activities-guide.md)。
+如需關於哪些[!UICONTROL A/B測試]活動適合您的詳細資訊，請參閱互動式[Adobe Target活動指南PDF](/help/main/c-activities/target-activities-guide.md)。
 
-建立三種型別[!UICONTROL A/B Test]活動的步驟類似。 若要建立[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target]活動：
+建立三種型別[!UICONTROL A/B測試]活動的步驟類似。 若要建立[!UICONTROL 自動分配]或[!UICONTROL 自動鎖定目標]活動：
 
 1. 從[建立A/B測試活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)開始。
-1. 當您進入[!UICONTROL Targeting]頁面時，請按一下[!UICONTROL Traffic Allocation]控制項，然後在右窗格中選擇所需的流量配置方法，如下所示：
+1. 當您進入[!UICONTROL 鎖定目標]頁面時，請按一下[!UICONTROL 流量分配]控制項，然後在右窗格中選擇所需的流量分配方法，如下所示：
 
-   * [!UICONTROL Auto-Allocate to best experience]
-   * [!UICONTROL Auto-Target for personalized experience]
+   * [!UICONTROL 自動分配至最佳體驗]
+   * [!UICONTROL 針對個人化體驗自動鎖定目標]
 
    ![流量分配方法設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
 ## 在A/B活動中包含建議
 
-您可以在[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活動(和[!UICONTROL Experience Targeting] (XT)活動)中包含建議。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。
+您可以在[!UICONTROL A/B測試]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動(和[!UICONTROL 體驗鎖定目標] (XT)活動)中包含建議。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
 若要使用此功能，您必須具備 [Target Premium 授權](/help/main/c-intro/intro.md#premium)。

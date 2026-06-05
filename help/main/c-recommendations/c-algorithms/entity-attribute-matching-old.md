@@ -7,7 +7,7 @@ feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則[的](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
 
 例如，僅建議符合目前專案品牌的專案，如下列範例所示：
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 實體屬性比對範例
 
-[!UICONTROL Entity Attribute Matching]可讓您僅建議符合的專案，例如：
+[!UICONTROL 實體屬性比對]可讓您僅建議符合的專案，例如：
 
 * 使用者目前正在檢視的專案中的屬性
 * 使用者最近檢視的專案

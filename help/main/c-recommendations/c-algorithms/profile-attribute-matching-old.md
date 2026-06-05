@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 7%
+source-wordcount: '503'
+ht-degree: 6%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 7%
 
 比較專案（實體）與使用者設定檔中的值，以在[!DNL Adobe Target] [!DNL Recommendations]中動態篩選。
 
-當您想要顯示符合儲存在訪客設定檔中的值（例如大小或最喜愛的品牌）的建議，請使用[!UICONTROL Profile Attribute Matching]。
+當您想要顯示符合儲存在訪客設定檔中的值（例如大小或最喜愛的品牌）的建議，請使用[!UICONTROL 設定檔屬性比對]。
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則[的](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
 
-下列案例顯示如何使用[!UICONTROL Profile Attribute Matching]：
+下列案例顯示如何使用[!UICONTROL 設定檔屬性比對]：
 
 * 一家銷售眼鏡的公司會將訪客最喜愛的鏡框顏色儲存為「核桃」。 對於該特定訪客，建議設定為僅傳回顏色符合「核桃」的眼鏡框。
-* 您可以在訪客瀏覽您公司的網站時，針對訪客的服裝尺寸(例如，小、Medium或大)定義設定檔引數。 可設定建議以符合該設定檔引數，並只傳回使用者偏好服裝尺寸特有的產品。
+* 您可以在訪客瀏覽您公司的網站時，針對訪客的服裝尺寸（例如，小、Medium或大）定義設定檔引數。 可設定建議以符合該設定檔引數，並只傳回使用者偏好服裝尺寸特有的產品。
 
 ## 設定檔屬性比對範例 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching]可讓您僅建議符合訪客設定檔中某個屬性的專案，如下列範例所示。
+[!UICONTROL 設定檔屬性比對]可讓您僅建議符合訪客設定檔中某個屬性的專案，如下列範例所示。
 
 ### 從使用者最喜愛的品牌推薦專案
 
-例如，您可以使用[!UICONTROL Profile Attribute Matching]選項來建立規則，而只在品牌等於`profile.favoritebrand`中儲存的值或文字時才建議專案。 透過此規則，如果訪客在查看特定品牌的慢跑短褲，則只有符合使用者最喜愛品牌 (訪客輪廓中 `profile.favoritebrand` 內儲存的值) 的建議才會出現。
+例如，您可以使用[!UICONTROL 設定檔屬性比對]選項來建立規則，而只在品牌等於`profile.favoritebrand`中儲存的值或文字時才建議專案。 透過此規則，如果訪客在查看特定品牌的慢跑短褲，則只有符合使用者最喜愛品牌 (訪客輪廓中 `profile.favoritebrand` 內儲存的值) 的建議才會出現。
 
 ![最喜愛的品牌](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
 

@@ -1,6 +1,6 @@
 ---
 keywords: 隨機森林；決策樹；ap；Automated Personalization
-description: 瞭解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活動中使用隨機森林演演算法。
+description: 瞭解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動中使用隨機森林演演算法。
 title: ' [!DNL Target] 如何使用隨機森林演演算法？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
@@ -13,18 +13,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1458
 ht-degree: 40%
 
 ---
 
 # 隨機森林演算法
 
-在(AP)和[!DNL Auto-Target]活動中使用的主要個人化演演算法是「隨機森林」。 整體方法（例如隨機森林）會使用多種學習演演算法，以獲得比從任何組成學習演演算法都更好的預測效能。 [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]中的隨機森林演演算法是一種分類或回歸方法，在訓練時透過建構許多決策樹來運作。
+在(AP)和[!DNL Auto-Target]活動中使用的主要個人化演演算法是「隨機森林」。 整體方法（例如隨機森林）會使用多種學習演演算法，以獲得比從任何組成學習演演算法都更好的預測效能。 [!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]中的隨機森林演演算法是一種分類或回歸方法，可在訓練時建構許多決策樹來運作。
 
 在思考統計學時，您可能會想到使用單一迴歸模型來預測結果。 最新的資料科學研究指出，「整體方法」可從相同資料集建立多個模型，然後進行智慧式合併，因此產生的結果比根據單一模型來預測更好。
 
-隨機森林演演算法是在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活動中使用的關鍵基本個人化演演算法。 隨機森林結合了數百棵決策樹，比單一樹木單獨做出更好的預測。
+隨機森林演演算法是在[!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]活動中使用的關鍵基本個人化演演算法。 隨機森林結合了數百棵決策樹，比單一樹木單獨做出更好的預測。
 
 ## 什麼是決策樹？ {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +57,7 @@ ht-degree: 40%
 
 ### 如何建立模型
 
-下圖總結了如何為[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活動建立模型：
+下列圖表總結如何建立[!UICONTROL 自動鎖定目標]和[!UICONTROL Automated Personalization]活動的模型：
 
 ![random_forest_flow圖片](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +67,7 @@ ht-degree: 40%
 1. [!DNL Target]檢查模型是否符合臨界值品質分數
 1. [!DNL Target]將模型推送至生產環境，以便個人化未來的流量
 
-[!DNL Target]會使用自動收集的資料，以及您提供的自訂資料，來建置其個人化演演算法。 這些模型會預測最佳體驗或產品建議來顯示給訪客。 一般而言，每個體驗（如果是[!UICONTROL Auto-Target]活動）或每個選件（如果是[!UICONTROL Automated Personalization]活動）會建立一個模型。 [!DNL Target]接著會顯示產生最高預測成功量度（例如轉換率）的體驗或選件。 這些模型必須在隨機提供的造訪上經過訓練，才能用來預測。 因此，當活動最初開始時，即使對於個人化群組中的訪客，也會隨機顯示不同的體驗或產品建議，直到個人化演算法就緒為止。
+[!DNL Target]會使用自動收集的資料，以及您提供的自訂資料，來建置其個人化演演算法。 這些模型會預測最佳體驗或產品建議來顯示給訪客。 一般而言，每個體驗（如果是[!UICONTROL 自動鎖定目標]活動）或每個選件（如果是[!UICONTROL Automated Personalization]活動）會建立一個模型。 [!DNL Target]接著會顯示產生最高預測成功量度（例如轉換率）的體驗或選件。 這些模型必須在隨機提供的造訪上經過訓練，才能用來預測。 因此，當活動最初開始時，即使對於個人化群組中的訪客，也會隨機顯示不同的體驗或產品建議，直到個人化演算法就緒為止。
 
 每個模型都必須經過驗證，才能在用於活動之前完美預測訪客的行為。 模型會根據它們在曲線下的面積(AUC)來驗證。 由於需要驗證，模型開始提供個人化體驗的確切時間會根據資料的詳細資訊而定。 在實務上及流量規劃用途上，每個模型通常要超過最低轉換次數才有效。
 
