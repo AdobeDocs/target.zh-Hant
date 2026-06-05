@@ -2,7 +2,7 @@
 keywords: 行為資料來源；analytics；建議；條件；產品變數
 description: 瞭解如何使用 [!DNL Adobe Analytics] 做為行為資料來源，以使用來自 [!DNL Target Recommendations]中 [!DNL Analytics] 的檢視型和/或購買型行為資料。
 title: 如何搭配 [!DNL Target Recommendations]使用 [!DNL Adobe Analytics] ？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >如果是內容網站，個別內容片段必須視為「產品」，且該內容的關聯屬性必須作為屬性傳遞。 此類屬性可包括作者名稱、發佈日期、內容標題、發行月份等。 類別層級或類別型別的詳細程度，應由企業根據使用案例需求決定。
 
-如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)。 該檔案中有些附註需要部署團隊自行決定（例如：類別）。 在執行此活動之前，請一律建議諮詢[!DNL Adobe]。
+如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant)。 該檔案中有些附註需要部署團隊自行決定（例如：類別）。 在執行此活動之前，請一律建議諮詢[!DNL Adobe]。
 
 ### 考量事項
 

@@ -2,7 +2,7 @@
 keywords: 報表；自動鎖定目標；AT；報表
 description: 瞭解如何解譯Adobe Target中的自動鎖定目標摘要報表。 您可以從此報表切換至「自動化區段」和「重要屬性」報表。
 title: 如何使用自動鎖定目標摘要報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8

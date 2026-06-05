@@ -34,7 +34,7 @@ ht-degree: 31%
 
 ## 購物車型 {#cart-based}
 
-[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
+[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於&quot;[!UICONTROL 為您推薦的]&quot;使用者型演演算法，以及&quot;[!UICONTROL 瀏覽過這些專案、購買那些]&quot;和&quot;[!UICONTROL 購買這些專案、購買那些]&quot;專案型演演算法的使用者。
 

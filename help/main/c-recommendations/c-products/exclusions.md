@@ -41,7 +41,7 @@ ht-degree: 13%
 
 1. 按一下「**[!UICONTROL 建議]** > **[!UICONTROL 排除專案]**」以顯示現有排除專案的清單。
 
-   針對[!UICONTROL 排除專案]清單檢視中的每個排除專案所報告的「專案數量」，是設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數量。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
+   針對[!UICONTROL 排除專案]清單檢視中的每個排除專案所報告的「專案數量」，是設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數量。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/recommendations){target=_blank}。
 
 1. （視條件而定）按一下&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg)），然後在建立（或更新）排除專案以預覽該環境中的排除專案內容時，從&#x200B;**[!UICONTROL 環境]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)。 依照預設，會顯示預設主機群組的結果。
 

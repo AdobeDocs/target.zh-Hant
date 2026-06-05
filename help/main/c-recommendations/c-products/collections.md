@@ -2,7 +2,7 @@
 keywords: 集合;鎖定目標
 description: 瞭解如何在 [!DNL Target Recommendations]中使用產品或專案的集合。
 title: 如何在Recommendations活動中使用集合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o
@@ -49,7 +49,7 @@ ht-degree: 27%
 
    [!UICONTROL 集合]頁面會顯示您現有集合的清單。 您可以按一下[!UICONTROL 建立集合]按鈕，以建立新的集合。 您也可以編輯、複製和刪除現有集合，方法是按一下所要集合旁的「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下所要的選項。
 
-   在[!UICONTROL 集合]清單檢視上，每個集合的「專案數量」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）中，符合集合規則的產品數量。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}，瞭解如何變更預設主機群組。
+   在[!UICONTROL 集合]清單檢視上，每個集合的「專案數量」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）中，符合集合規則的產品數量。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 建立集合]**。
 

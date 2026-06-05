@@ -2,7 +2,7 @@
 keywords: Recommendations；Recommendations活動；條件；演演算法
 description: 瞭解如何選取條件（決定要建議哪些產品或內容的規則），以用於您的Adobe [!DNL Target] Recommendations活動。
 title: 如何為Recommendations活動選取條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

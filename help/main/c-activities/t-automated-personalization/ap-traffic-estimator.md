@@ -2,7 +2,7 @@
 keywords: 流量估算器；automated personalization；ap；估算流量
 description: 使用[!UICONTROL 流量估算程式]評估您是否有足夠的流量讓[!UICONTROL Automated Personalization]活動成功。
 title: 成功的[!UICONTROL Automated Personalization]活動需要多少流量？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 TQID: https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY

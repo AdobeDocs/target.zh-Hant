@@ -1,7 +1,7 @@
 ---
 keywords: 實體;實體屬性;傳遞資訊至推薦;行為資料;資料計數器;定義相對 URL;顯示庫存量;定義價格;定義利潤;自訂屬性
 description: 瞭解如何使用實體屬性將產品或內容資訊傳遞至 [!DNL Target] Recommendations。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 title: 如何使用實體屬性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -42,7 +42,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->如果您使用的是at.js 2.*x*，則不再支援`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.*x*&#x200B;將產品或內容資訊傳遞至[!DNL Recommendations]，請使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 如需範例，請參閱[計畫和實作建議](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+>如果您使用的是at.js 2.*x*，則不再支援`mboxCreate` （如下列範例所使用）。 若要使用at.js 2.*x*&#x200B;將產品或內容資訊傳遞至[!DNL Recommendations]，請使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 如需範例，請參閱[計畫和實作建議](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

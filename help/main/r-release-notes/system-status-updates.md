@@ -29,7 +29,7 @@ ht-degree: 79%
 >
 >產品內通知一律會在每月的 [!DNL Target] 版本中顯示，但有時會有次要更新，並會在此頁面上列出。
 
-1. 存取[[!UICONTROL 系統狀態]](https://status.adobe.com/){target=_blank}。
+1. 存取[[!UICONTROL 系統狀態]](https://status.adobe.com/zh-tw/){target=_blank}。
 
 1. 若要檢視[!DNL Experience Cloud]解決方案（包括[!DNL Target]）的狀態，請按一下[!UICONTROL Experience Cloud]標籤。
 
