@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 70383
+source-wordcount: 70482
 ht-degree: 49%
 
 ---
@@ -87,6 +87,38 @@ ht-degree: 49%
 如需詳細資訊，請參閱[[!DNL Adobe Target] MCP伺服器](../c-integrating-target-with-mac/mcp/target-mcp.md)。
 
 +++
+
+## [!DNL Target Standard/Premium] 26.5.3 （2026年5月21日）
+
+**[!UICONTROL 新增功能]頁面**
+
++++檢視詳細資料
+
+* **新[!UICONTROL 新增功能]頁面。** 已在[!DNL Adobe Target] UI中新增新的&#x200B;**[!UICONTROL 新功能]**&#x200B;頁面，協助您在不離開產品的情況下探索最新功能、增強功能和更新。 (TGT-55137)
+
++++
+
+**活動**
+
++++檢視詳細資料
+
+* 在[!UICONTROL Automated Personalization]活動中編輯鎖定目標時，**選取了錯誤的體驗。** 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;步驟時，可能選取錯誤體驗的問題。 (TGT-55176)
+
+* **關閉排程活動時的較早日期。** 修正無法選取較早日期來關閉已排程活動的問題。 (TGT-55163)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
 
@@ -5210,7 +5242,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
       <li id="li_C47240826E5844D6843314F453F042FC">導覽從左側移至頂端。 </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">改良對話方塊 </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">改良活動建立流程 </li> 
-     </ul> </p> <p>選取 Experience Cloud 解決方案 (包括 Target) 的方式也已變更。 若要存取 Experience Cloud 解決方案和服務，請按一下功能表圖示: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>如需登入Experience Cloud後存取Target及將Target設為預設頁面的詳細資訊，請參閱<a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">從Adobe Experience Cloud </a>存取Target 。 </p></td> 
+     </ul> </p> <p>選取 Experience Cloud 解決方案 (包括 Target) 的方式也已變更。 若要存取 Experience Cloud 解決方案和服務，請按一下功能表圖示: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>如需登入Experience Cloud後存取Target及將Target設為預設頁面的詳細資訊，請參閱<a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">從Adobe Experience Cloud存取Target </a>。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 可針對備份建議停用包含規則。 </td> 

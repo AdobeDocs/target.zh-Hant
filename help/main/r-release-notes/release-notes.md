@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 58%
+source-wordcount: 652
+ht-degree: 41%
 
 ---
 
@@ -31,23 +31,51 @@ ht-degree: 58%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 26.5.3 （2026年5月21日）
-
-**[!UICONTROL 新增功能]頁面**
-
-+++檢視詳細資料
-
-* **新[!UICONTROL 新增功能]頁面。** 已在[!DNL Adobe Target] UI中新增新的&#x200B;**[!UICONTROL 新功能]**&#x200B;頁面，協助您在不離開產品的情況下探索最新功能、增強功能和更新。 (TGT-55137)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.1 （2026年6月4日）
 
 **活動**
 
 +++檢視詳細資料
 
-* 在[!UICONTROL Automated Personalization]活動中編輯鎖定目標時，**選取了錯誤的體驗。** 修正在[!UICONTROL Automated Personalization] (AP)活動中編輯&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;步驟時，可能選取錯誤體驗的問題。 (TGT-55176)
+* [!UICONTROL 活動總覽].**上的**&#x200B;不完整的活動URL 修正[!UICONTROL 活動概覽]未顯示活動完整URL的問題。 (TGT-54029)
 
-* **關閉排程活動時的較早日期。** 修正無法選取較早日期來關閉已排程活動的問題。 (TGT-55163)
+* **活動報表中有未本地化的日期格式。** 修正從&#x200B;**[!UICONTROL 預設日期範圍]**&#x200B;下拉式清單中選擇&#x200B;**最近X天**&#x200B;選項時，**[!UICONTROL 報表]**&#x200B;索引標籤上未當地語系化日期格式的問題。 (TGT-51637)
+
+* **無法在[!UICONTROL 位置].**&#x200B;中儲存含特定GB18030字元的表單式活動 修正當&#x200B;**[!UICONTROL 位置]**&#x200B;欄位包含特定GB18030字元時，無法儲存表單式活動的問題。 (TGT-46980)
+
++++
+
+**[!UICONTROL 客群]**
+
++++檢視詳細資料
+
+* **建立簡體中文和繁體中文受眾流程中未本地化的行事曆。** 修正建立對象流程期間，**[!UICONTROL 時間範圍]**&#x200B;屬性的&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;欄位中的行事曆未以簡體中文(CHS)和繁體中文(CHT)語言環境進行當地語系化的問題。 (TGT-50619)
+
++++
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* 在更新的活動產生器中&#x200B;**未本地化的工具提示。** 修正更新的[!UICONTROL 視覺化體驗撰寫器]活動產生器中&#x200B;**[!UICONTROL 細分]**&#x200B;和&#x200B;**[!UICONTROL 內容]**&#x200B;資訊工具提示未本地化的本地化問題。 (TGT-53721)
+
+* [!UICONTROL 體驗對象].**中的**&#x200B;未當地語系化的[!UICONTROL 所有訪客] 修正左側邊欄中&#x200B;**[!UICONTROL 體驗對象]**&#x200B;的&#x200B;**[!UICONTROL 所有訪客]**&#x200B;字串未在[!UICONTROL 視覺化體驗撰寫器]中當地語系化的問題。 (TGT-50086)
+
++++
+
+**[!UICONTROL 報表]**
+
++++檢視詳細資料
+
+* 在[!UICONTROL 建立預設集]視窗中&#x200B;**未本地化的日期格式。** 修正&#x200B;**[!UICONTROL 建立預設集]**&#x200B;視窗的&#x200B;**[!UICONTROL 日期範圍]**&#x200B;欄位中的日期格式未當地語系化的問題。 (TGT-49239)
+
++++
+
+**本地化**
+
++++檢視詳細資料
+
+* 在多個區域顯示&#x200B;**GB18030字元。** 修正部分私人使用區域字元在&#x200B;**[!UICONTROL 對象]** UI、**[!UICONTROL 管理]** > **[!UICONTROL 屬性]**、行動檢視區設定和快顯通知中錯誤顯示為字母的問題。 （TGT-49622、TGT-49623、TGT-49624和TGT-49625）
 
 +++
 
