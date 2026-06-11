@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 70482
+source-wordcount: 70774
 ht-degree: 49%
 
 ---
@@ -57,6 +57,54 @@ ht-degree: 49%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 — 2026
+
+## [!DNL Target Standard/Premium] 26.6.1 （2026年6月4日）
+
+**活動**
+
++++檢視詳細資料
+
+* [!UICONTROL 活動總覽].**上的**&#x200B;不完整的活動URL 修正[!UICONTROL 活動概覽]未顯示活動完整URL的問題。 (TGT-54029)
+
+* **活動報表中有未本地化的日期格式。** 修正從&#x200B;**[!UICONTROL 預設日期範圍]**&#x200B;下拉式清單中選擇&#x200B;**最近X天**&#x200B;選項時，**[!UICONTROL 報表]**&#x200B;索引標籤上未當地語系化日期格式的問題。 (TGT-51637)
+
+* **無法在[!UICONTROL 位置].**&#x200B;中儲存含特定GB18030字元的表單式活動 修正當&#x200B;**[!UICONTROL 位置]**&#x200B;欄位包含特定GB18030字元時，無法儲存表單式活動的問題。 (TGT-46980)
+
++++
+
+**[!UICONTROL 客群]**
+
++++檢視詳細資料
+
+* **建立簡體中文和繁體中文受眾流程中未本地化的行事曆。** 修正建立對象流程期間，**[!UICONTROL 時間範圍]**&#x200B;屬性的&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;欄位中的行事曆未以簡體中文(CHS)和繁體中文(CHT)語言環境進行當地語系化的問題。 (TGT-50619)
+
++++
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* 在更新的活動產生器中&#x200B;**未本地化的工具提示。** 修正更新的[!UICONTROL 視覺化體驗撰寫器]活動產生器中&#x200B;**[!UICONTROL 細分]**&#x200B;和&#x200B;**[!UICONTROL 內容]**&#x200B;資訊工具提示未本地化的本地化問題。 (TGT-53721)
+
+* [!UICONTROL 體驗對象].**中的**&#x200B;未當地語系化的[!UICONTROL 所有訪客] 修正左側邊欄中&#x200B;**[!UICONTROL 體驗對象]**&#x200B;的&#x200B;**[!UICONTROL 所有訪客]**&#x200B;字串未在[!UICONTROL 視覺化體驗撰寫器]中當地語系化的問題。 (TGT-50086)
+
++++
+
+**[!UICONTROL 報表]**
+
++++檢視詳細資料
+
+* 在[!UICONTROL 建立預設集]視窗中&#x200B;**未本地化的日期格式。** 修正&#x200B;**[!UICONTROL 建立預設集]**&#x200B;視窗的&#x200B;**[!UICONTROL 日期範圍]**&#x200B;欄位中的日期格式未當地語系化的問題。 (TGT-49239)
+
++++
+
+**本地化**
+
++++檢視詳細資料
+
+* 在多個區域顯示&#x200B;**GB18030字元。** 修正部分私人使用區域字元在&#x200B;**[!UICONTROL 對象]** UI、**[!UICONTROL 管理]** > **[!UICONTROL 屬性]**、行動檢視區設定和快顯通知中錯誤顯示為字母的問題。 （TGT-49622、TGT-49623、TGT-49624和TGT-49625）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.2 （2026年5月14日）
 
@@ -915,7 +963,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * **在更新的[!UICONTROL 產品目錄搜尋] UI中的進階搜尋未提供建議**：在更新的[!UICONTROL 產品目錄搜尋] UI中使用進階搜尋功能的客戶必須輸入正確拼字的值，因為沒有顯示建議。 此問題導致難以有效找到產品。 現在，建議會在進階搜尋輸入期間如預期般顯示。 (TGT-52008)
 * **有些核准者無法在[!UICONTROL 產品目錄搜尋]**&#x200B;中檢視產品：具有[!UICONTROL 核准者]許可權的客戶無法在[!UICONTROL 產品目錄搜尋]中檢視任何產品，儘管其他具有相同角色的使用者具有存取權。 此問題是因為影響目錄可見性的許可權不一致所導致。 所有核准者現在都能如預期檢視[!UICONTROL Recommendations]區段中的產品。 (TGT-53617)
 
-+++
++++ 
 
 **[!UICONTROL 報表]**
 
@@ -1903,7 +1951,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 解決建立活動時因區段ID衝突而發生的驗證錯誤。 [!DNL Target]偵測到使用匿名區段的現有活動時發生錯誤。 (TGT-51784)
 * 解決[!DNL Target]無法在對象中儲存具有排除規則的活動的問題。 (TGT-51581)
 * 已解決導致客戶無法建立、刪除或行動資料夾而無法存取預設工作區的問題。 (TGT-51499)
-* 解決在擷取[!DNL Analytics]量度清單時，導致GET要求失敗的問題。 (TGT-51106)
+* 解決擷取[!DNL Analytics]量度清單時，造成GET要求失敗的問題。 (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 （2025年3月11日）
 
