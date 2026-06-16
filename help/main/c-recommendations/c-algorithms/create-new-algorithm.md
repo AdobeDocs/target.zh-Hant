@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -74,12 +74,12 @@ ht-degree: 45%
 
    產業垂直和頁面型別可協助您將已儲存的條件分類，使其更易於在其他[!DNL Recommendations]活動中重複使用條件。
 
-## [!UICONTROL 建議演演算法] {#rec-algo}
+## [!UICONTROL 推薦演算法] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
->title="設定檔屬性"
->abstract="您可以使用設定檔指令碼建立設定檔屬性。"
+>title="輪廓屬性"
+>abstract="您可以使用輪廓指令碼來建立輪廓屬性。"
 
 1. 選取&#x200B;**[!UICONTROL 演演算法型別]**&#x200B;和&#x200B;**[!UICONTROL 演演算法]**：
 
