@@ -2,23 +2,17 @@
 keywords: 條件；演演算法；垂直產業；頁面型別；建議索引鍵；建議邏輯；資料範圍；回顧視窗；行為資料來源；部分設計；備用建議；包含規則；屬性加權；目前類別；自訂屬性；上次購買的專案；上次檢視的專案；檢視次數最多的專案；最愛類別；人氣；最近檢視的專案；上次購買的專案；上次檢視次數最多；最愛；最近檢視；最近檢視
 description: 瞭解如何建立條件來控制 [!DNL Recommendations] 活動的內容，以顯示最適合您活動的建議。
 title: 如何在 [!DNL Recommendations]中建立[!UICONTROL 條件]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -74,12 +68,12 @@ ht-degree: 45%
 
    產業垂直和頁面型別可協助您將已儲存的條件分類，使其更易於在其他[!DNL Recommendations]活動中重複使用條件。
 
-## [!UICONTROL 建議演演算法] {#rec-algo}
+## [!UICONTROL 推薦演算法] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
->title="設定檔屬性"
->abstract="您可以使用設定檔指令碼建立設定檔屬性。"
+>title="輪廓屬性"
+>abstract="您可以使用輪廓指令碼來建立輪廓屬性。"
 
 1. 選取&#x200B;**[!UICONTROL 演演算法型別]**&#x200B;和&#x200B;**[!UICONTROL 演演算法]**：
 
@@ -99,7 +93,7 @@ ht-degree: 45%
 
 1. 視需要選取&#x200B;**專案屬性**&#x200B;和&#x200B;**設定檔屬性以符合**、**建議金鑰**、**篩選金鑰**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以設定演演算法。
 
-其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取要比對的的[!UICONTROL 建議索引鍵]、[!UICONTROL 篩選索引鍵]、[!UICONTROL 共同發生基礎]、[!UICONTROL Analytics量度]和/或[!UICONTROL 專案屬性]和設定檔屬性。
+其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取要比對的]的[!UICONTROL 建議索引鍵]、[!UICONTROL 篩選索引鍵]、[!UICONTROL 共同發生基礎]、[!UICONTROL Analytics量度]和/或[!UICONTROL 專案屬性]和[!UICONTROL 設定檔屬性。
 
 如需有關選擇[!UICONTROL 建議索引鍵]的詳細資訊，請參閱[讓建議以建議索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
