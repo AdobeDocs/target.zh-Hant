@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 70881
 ht-degree: 49%
 
 ---
@@ -57,6 +57,20 @@ ht-degree: 49%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 — 2026
+
+## [!DNL Target Standard/Premium] 26.6.3 （2026年6月11日）
+
+**本地化**
+
++++檢視詳細資料
+
+* **在活動建立期間，受眾行事曆模式中一週的第一天未本地化。** 修正在活動建立期間，**[!UICONTROL 建立]**、**[!UICONTROL 編輯]**&#x200B;和&#x200B;**[!UICONTROL 重複對象]**&#x200B;模式中的行事曆未將一週的第一天當地語系化的問題。 (TGT-50510)
+
+* **活動概觀報表中有未本地化的百分比格式。** 修正&#x200B;**[!UICONTROL 活動概覽]**&#x200B;頁面上&#x200B;**[!UICONTROL 報表]**&#x200B;索引標籤上的表格未當地語系化百分比格式的問題。 (TGT-50094)
+
+* 在[!UICONTROL 建立條件]對話方塊中&#x200B;**未當地語系化的數字格式。** 修正&#x200B;**[!UICONTROL Recommendations]**&#x200B;的&#x200B;**[!UICONTROL 建立條件]**&#x200B;對話方塊中未當地語系化數字格式的問題。 (TGT-52250)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1 （2026年6月4日）
 
@@ -1951,7 +1965,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 解決建立活動時因區段ID衝突而發生的驗證錯誤。 [!DNL Target]偵測到使用匿名區段的現有活動時發生錯誤。 (TGT-51784)
 * 解決[!DNL Target]無法在對象中儲存具有排除規則的活動的問題。 (TGT-51581)
 * 已解決導致客戶無法建立、刪除或行動資料夾而無法存取預設工作區的問題。 (TGT-51499)
-* 解決擷取[!DNL Analytics]量度清單時，造成GET要求失敗的問題。 (TGT-51106)
+* 解決在擷取[!DNL Analytics]量度清單時，導致GET要求失敗的問題。 (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 （2025年3月11日）
 
@@ -2803,7 +2817,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 具有裝置上決策功能的新 [!DNL Adobe Target] Python SDK 現已提供。 這個最新的新增項目增強了 [!DNL Target] 伺服器端 SDK 套件。 這些 SDKS 可協助您以您選擇的語言整合 [!DNL Target] 並加快實現價值的時間。 鑑於市場正在轉向第一方資料很有價值的無 Cookie 世界，伺服器端整合正成為一個熱門的選擇。 Target SDK 可用於市場上最熱門的程式設計語言 (Python、Java、JavaScript、C# / .Net)。
 
-如需詳細資訊，請參閱[SDK開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Adobe Target檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[SDK開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Adobe Target檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank}。
 
 ### Target Standard/Premium 21.5.1 (2021 年 6 月 7 日)
 
@@ -5290,7 +5304,7 @@ at.js 包含 target.js 所附元件，因此不再需要呼叫 target.js。
       <li id="li_C47240826E5844D6843314F453F042FC">導覽從左側移至頂端。 </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">改良對話方塊 </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">改良活動建立流程 </li> 
-     </ul> </p> <p>選取 Experience Cloud 解決方案 (包括 Target) 的方式也已變更。 若要存取 Experience Cloud 解決方案和服務，請按一下功能表圖示: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>如需登入Experience Cloud後存取Target及將Target設為預設頁面的詳細資訊，請參閱<a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">從Adobe Experience Cloud存取Target </a>。 </p></td> 
+     </ul> </p> <p>選取 Experience Cloud 解決方案 (包括 Target) 的方式也已變更。 若要存取 Experience Cloud 解決方案和服務，請按一下功能表圖示: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>如需登入Experience Cloud後存取Target及將Target設為預設頁面的詳細資訊，請參閱<a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">從Adobe Experience Cloud </a>存取Target 。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 可針對備份建議停用包含規則。 </td> 

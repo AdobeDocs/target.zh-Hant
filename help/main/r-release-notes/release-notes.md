@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +31,35 @@ ht-degree: 57%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 26.6.3 （2026年6月11日）
+## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日）
+
+**活動**
+
++++檢視詳細資料
+
+* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 儲存並關閉]。** 已在更新的[!DNL Target] UI中還原&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;選項。 (TGT-55152)
+
+* 在更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修正QA URL在更新的[!DNL Target] UI中無法正常運作的問題。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **本地化**
 
 +++檢視詳細資料
 
-* **在活動建立期間，受眾行事曆模式中一週的第一天未本地化。** 修正在活動建立期間，**[!UICONTROL 建立]**、**[!UICONTROL 編輯]**&#x200B;和&#x200B;**[!UICONTROL 重複對象]**&#x200B;模式中的行事曆未將一週的第一天當地語系化的問題。 (TGT-50510)
+* **活動概觀圖表報表中的未當地語系化百分比格式。** 修正&#x200B;**[!UICONTROL 活動概覽]**&#x200B;頁面上&#x200B;**[!UICONTROL 報表]**&#x200B;索引標籤的&#x200B;**[!UICONTROL 圖表檢視]**&#x200B;中，百分比格式未當地語系化圖表的問題。 (TGT-50100)
 
-* **活動概觀報表中有未本地化的百分比格式。** 修正&#x200B;**[!UICONTROL 活動概覽]**&#x200B;頁面上&#x200B;**[!UICONTROL 報表]**&#x200B;索引標籤上的表格未當地語系化百分比格式的問題。 (TGT-50094)
+* 活動URL中有&#x200B;**個日文字元。** 修正活動URL中的日文字元在&#x200B;**[!UICONTROL 活動概覽]**&#x200B;頁面上以及活動清單中，在您儲存活動後損毀的問題。 (TGT-53459)
 
-* 在[!UICONTROL 建立條件]對話方塊中&#x200B;**未當地語系化的數字格式。** 修正&#x200B;**[!UICONTROL Recommendations]**&#x200B;的&#x200B;**[!UICONTROL 建立條件]**&#x200B;對話方塊中未當地語系化數字格式的問題。 (TGT-52250)
+* 預設活動名稱中有&#x200B;**未當地語系化的時間戳記。** 修正您在活動建立期間保留預設活動名稱時，活動標題中的時間戳記未當地語系化的問題。 (TGT-53273)
+
++++
+
+**[!UICONTROL 推薦]**
+
++++檢視詳細資料
+
+* 建立摘要後URL中有&#x200B;**多位元組字元。** 修正在您建立摘要後URL中多位元組字元似乎損毀的問題。 (TGT-54793)
 
 +++
 
