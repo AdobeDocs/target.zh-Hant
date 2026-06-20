@@ -2817,7 +2817,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 具有裝置上決策功能的新 [!DNL Adobe Target] Python SDK 現已提供。 這個最新的新增項目增強了 [!DNL Target] 伺服器端 SDK 套件。 這些 SDKS 可協助您以您選擇的語言整合 [!DNL Target] 並加快實現價值的時間。 鑑於市場正在轉向第一方資料很有價值的無 Cookie 世界，伺服器端整合正成為一個熱門的選擇。 Target SDK 可用於市場上最熱門的程式設計語言 (Python、Java、JavaScript、C# / .Net)。
 
-如需詳細資訊，請參閱[SDK開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Adobe Target檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank}。
+如需詳細資訊，請參閱[SDK開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Adobe Target檔案](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html?lang=zh-Hant){target=_blank}。
 
 ### Target Standard/Premium 21.5.1 (2021 年 6 月 7 日)
 
