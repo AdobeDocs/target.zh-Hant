@@ -39,10 +39,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
+source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
 workflow-type: tm+mt
-source-wordcount: 70881
-ht-degree: 49%
+source-wordcount: 71133
+ht-degree: 48%
 
 ---
 
@@ -57,6 +57,68 @@ ht-degree: 49%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 — 2026
+
+## [!DNL Target Standard/Premium] 26.6.5 （2026年6月17日）
+
+**活動**
+
++++檢視詳細資料
+
+* **活動使用在來源刪除的對象時發生錯誤。** 修正您會看到錯誤訊息，指出活動使用一或多個已從來源刪除的對象的問題。 (TGT-55272)
+
++++
+
+**[!UICONTROL 目標分析] (A4T)**
+
++++檢視詳細資料
+
+* **A4T報告不可見。** 修正[!UICONTROL Analytics for Target] (A4T)報告未顯示的問題。 (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日）
+
+**活動**
+
++++檢視詳細資料
+
+* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 儲存並關閉]。** 已在更新的[!DNL Target] UI中還原&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;選項。 (TGT-55152)
+
+* 在更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修正QA URL在更新的[!DNL Target] UI中無法正常運作的問題。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**本地化**
+
++++檢視詳細資料
+
+* **活動概觀圖表報表中的未當地語系化百分比格式。** 修正&#x200B;**[!UICONTROL 活動概覽]**&#x200B;頁面上&#x200B;**[!UICONTROL 報表]**&#x200B;索引標籤的&#x200B;**[!UICONTROL 圖表檢視]**&#x200B;中，百分比格式未當地語系化圖表的問題。 (TGT-50100)
+
+* 活動URL中有&#x200B;**個日文字元。** 修正活動URL中的日文字元在&#x200B;**[!UICONTROL 活動概覽]**&#x200B;頁面上以及活動清單中，在您儲存活動後損毀的問題。 (TGT-53459)
+
+* 預設活動名稱中有&#x200B;**未當地語系化的時間戳記。** 修正您在活動建立期間保留預設活動名稱時，活動標題中的時間戳記未當地語系化的問題。 (TGT-53273)
+
++++
+
+**[!UICONTROL 推薦]**
+
++++檢視詳細資料
+
+* 建立摘要後URL中有&#x200B;**多位元組字元。** 修正在您建立摘要後URL中多位元組字元似乎損毀的問題。 (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.6.3 （2026年6月11日）
 
@@ -1960,7 +2022,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 此版本包含下列修正和更新：
 
 * 解決當多次使用相同的[!UICONTROL ClickTrack]選取器時，[!UICONTROL 視覺化體驗撰寫器] (VEC)活動中已啟用[!UICONTROL 點選追蹤]的「使用者輸入無效」錯誤。 (TGT-51921)
-* 已修正在具有共用位置（例如HEAD選擇器）和相同選件的VEC活動中出現「無效使用者輸入」錯誤。 (TGT-51879)
+* 已修正在具有共用位置（例如HEAD選取器）和相同選件的VEC活動中出現「無效使用者輸入」錯誤。 (TGT-51879)
 * 已修正導致體驗修改在對象之間共用的問題。 (TGT-51815)
 * 解決建立活動時因區段ID衝突而發生的驗證錯誤。 [!DNL Target]偵測到使用匿名區段的現有活動時發生錯誤。 (TGT-51784)
 * 解決[!DNL Target]無法在對象中儲存具有排除規則的活動的問題。 (TGT-51581)
