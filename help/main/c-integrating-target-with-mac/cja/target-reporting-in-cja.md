@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
 workflow-type: tm+mt
-source-wordcount: 1488
-ht-degree: 34%
+source-wordcount: 1580
+ht-degree: 32%
 
 ---
 
@@ -158,6 +158,12 @@ ht-degree: 34%
    * [!UICONTROL 活動ID]
 
    ![Customer Journey Analytics 中的名稱和 ID 選項](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. 若要確保[!DNL Customer Journey Analytics]在訪客歷程中將量度歸因於正確的[!DNL Target]體驗，請為[!UICONTROL 活動名稱]和[!UICONTROL 活動識別碼]維度設定持續性。
+
+   若未設定持續性，[!DNL Customer Journey Analytics]只會連結與[!DNL Target]體驗在相同事件上發生的量度。 例如，如果訪客在首頁上看到Target體驗，該訪客在後續頁面上購買的收入量度不會歸因於Target活動。
+
+   如需持續性的詳細資訊，請參閱[Adobe Customer Journey Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}。
 
 1. 若要在[!UICONTROL Experimentation]面板中使用[!DNL Target]維度，請設定下列內容標籤：
 
