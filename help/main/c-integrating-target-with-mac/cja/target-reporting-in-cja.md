@@ -5,10 +5,23 @@ title: 什麼是 [!DNL Adobe Customer Journey Analytics]中的 [!DNL Target] 報
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
 workflow-type: tm+mt
 source-wordcount: 1580
@@ -32,7 +45,7 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->此整合與Target ]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的[[!UICONTROL Adobe Analytics不同。 實作和支援的活動型別不同。 請確定您閱讀完整本文，然後再將此整合用於您的[!DNL Target]活動。
+>此整合與Target [&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的Adobe Analytics不同。 實作和支援的活動型別不同。 請確定您閱讀完整本文，然後再將此整合用於您的[!DNL Target]活動。
 
 * 若要使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源，您與貴公司皆必須擁有 [!DNL Customer Journey Analytics] 和 [!DNL Target] 的存取權。 如果您需要任一解決方案的存取權，請聯繫您組織的管理員或您的帳戶代表。
 * 若要建立具有[!DNL Customer Journey Analytics]報告的[!DNL Target]活動，您必須在[!DNL Target]中擁有&#39;[!UICONTROL 核准者]&#39;或&#39;[!UICONTROL 編輯者]&#39;角色。
@@ -159,19 +172,19 @@ ht-degree: 32%
 
    ![實驗面板中的內容標籤](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
 
-1. 完成設定任何其他欄位，然後在完成時按一下[儲存]並繼續&#x200B;]**。**[!UICONTROL 
+1. 完成設定任何其他欄位，然後在完成時按一下[儲存]並繼續&#x200B;**。**
 
 ## 在[!DNL Customer Journey Analytics]中建立和檢視活動報告
 
 完成設定後，請透過[!DNL Adobe Experience Cloud]或活動在[!DNL Target]中的[!UICONTROL 報表]索引標籤進行[!DNL Customer Journey Analytics]。
 
-「報表」索引標籤在Customer Journey Analytics ]**連結中有**[!UICONTROL &#x200B;檢視。 目前，此連結會將您重新導向至[!DNL Customer Journey Analytics]首頁登陸頁面。
+「報表」索引標籤在Customer Journey Analytics **連結中有**&#x200B;檢視。 目前，此連結會將您重新導向至[!DNL Customer Journey Analytics]首頁登陸頁面。
 
 ![CJA報告連結](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
 >[!NOTE]
 >
->此整合與Target ] (A4T)的[!UICONTROL Adobe Analytics不同。
+>此整合與Target  (A4T)的Adobe Analytics不同。
 >
 >* [!DNL Target]/[!DNL Customer Journey Analytics]整合不包含預先建立的報表，例如A4T。 活動報告必須在[!DNL Customer Journey Analytics]中建置。
 >
