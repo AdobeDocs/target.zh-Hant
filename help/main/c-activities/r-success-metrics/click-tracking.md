@@ -13,10 +13,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 58%
+source-wordcount: 942
+ht-degree: 55%
 
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 58%
 * 如果有必要限制點擊追蹤量度的範圍，請使用客群。
 
 * 多個活動可以為同一個選擇器定義一個點擊追蹤量度。 若是如此，當訪客符合其中一項活動的資格並點擊該選擇器時，訪客符合資格的所有相關活動的點擊追蹤量度都會增加。
+
+* 針對單頁應用程式(SPA)上的[!UICONTROL Automated Personalization] (AP)和自動鎖定目標活動，您可以選取屬於特定[!DNL Target]檢視的點選追蹤元素。 如需檢視的詳細資訊，請參閱[Adobe Target檢視和單頁應用程式](/help/main/c-experiences/spa-visual-experience-composer.md)。
 
 ## 培訓視訊 {#section_36607204DAE146E3B8E2C609D244EDB1}
 
