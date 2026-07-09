@@ -7,21 +7,14 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 37%
+source-wordcount: 465
+ht-degree: 58%
 
 ---
 
@@ -31,62 +24,31 @@ ht-degree: 37%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 26.6.8 （2026年6月24日）
+## [!DNL Target Standard/Premium] 26.7.1 （2026年7月9日）
 
 **活動**
 
 +++檢視詳細資料
 
-* **適用於API和MCP已建立資源的Source篩選器。** 已修正依[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]篩選對活動、對象和優惠清單頁面沒有作用的問題。 (TGT-55236)
+* **在[!UICONTROL 活動]、[!UICONTROL 對象]和[!UICONTROL 選件]頁面間不一致的來源顯示。** 修正來源在[!UICONTROL 活動]、[!UICONTROL 對象]和[!UICONTROL 選件]頁面上顯示不一致的問題。 (TGT-55247)
+
+* **透過UI編輯時活動來源變更。** 修正透過UI編輯活動變更原始活動來源的問題。 (TGT-55248)
 
 +++
 
-**[!UICONTROL 目標分析] (A4T)**
+**客群**
 
 +++檢視詳細資料
 
-* **A4T報告不可見。** 修正[!UICONTROL Analytics for Target] (A4T)報告未顯示的問題。 (TGT-55432)
+* **編輯對象時預設工作區不正確。** 修正編輯對象後，預設工作區不正確的問題。 (TGT-55510)
 
 +++
 
-**[!DNL Adobe Target]MCP伺服器**
+**報告**
 
 +++檢視詳細資料
 
-* **整合的活動工具。** 已合併[!DNL Adobe Target] MCP伺服器活動工具，以減少工具選擇額外負荷，並將讀取和報表涵蓋範圍擴充至所有活動型別。 有四種統一工具取代了6種每種型別的工具：
-
-   * `get_activity`取代`get_ab_activity`、`get_xt_activity`和`get_abt_activity`。 擷取所有型別的完整活動詳細資料：A/B測試、體驗鎖定目標、Automated Personalization、自動分配、多變數測試(MVT)和建議。 系統會從ID自動偵測活動型別。
-   * `update_activity`取代`update_ab_activity`、`update_xt_activity`和`update_abt_activity`。 支援A/B測試、體驗鎖定目標和Automated Personalization活動；自動分配、MVT和建議活動為唯讀。
-   * `get_activity_performance_report`取代`get_ab_performance_report`和`get_xt_performance_report`。 擷取所有活動型別的轉換、提升度和信賴度量度。
-   * `get_activity_orders_report`取代`get_ab_orders_report`和`get_xt_orders_report`。 擷取所有活動型別的訂單和收入量度。
-
-  如需詳細資訊，請參閱[[!DNL Adobe Target] MCP伺服器工具參考](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日）
-
-**活動**
-
-+++檢視詳細資料
-
-* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 儲存並關閉]。** 已在更新的[!DNL Target] UI中還原&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;選項。 (TGT-55152)
-
-* 在更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修正QA URL在更新的[!DNL Target] UI中無法正常運作的問題。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**本地化**
-
-+++檢視詳細資料
-
-* **在[!UICONTROL 建立JSON選件]強制回應視窗中未當地語系化的字串。** 修正建立活動期間，[!UICONTROL 建立JSON選件]強制回應視窗中的字串（包括[!UICONTROL 名稱]和[!UICONTROL Workspace]）未當地語系化的問題。 (TGT-50084)
-
-* 在[!UICONTROL Recommendations]活動中&#x200B;**未本地化的快顯通知訊息。** 修正在表單式[!UICONTROL Recommendations]活動中新增建議時出現未當地語系化快顯通知訊息的問題。 (TGT-50463)
-
-* [!UICONTROL 集合]和[!UICONTROL 排除專案]對話方塊中的&#x200B;**未當地語系化字串。** 修正[!UICONTROL Recommendations]中[!UICONTROL 集合]和[!UICONTROL 排除專案]對話方塊中的「專案裝載」字串未當地語系化的問題。 (TGT-51542)
-
-* [!UICONTROL 對象]索引標籤中的&#x200B;**未當地語系化的「核准者」字串。** 修正「[!UICONTROL 對象庫]」頁面上「[!UICONTROL Workspace]」欄未當地語系化的「核准者」字串問題。 (TGT-51751)
+* 5月報告的&#x200B;**CSV下載失敗。** 修正五月下載CSV報表失敗的問題。 (TGT-55524)
 
 +++
 
@@ -115,7 +77,7 @@ ht-degree: 37%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
