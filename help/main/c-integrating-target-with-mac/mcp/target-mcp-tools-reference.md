@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: '3195'
-ht-degree: 13%
+source-wordcount: '3046'
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,21 @@ ht-degree: 13%
 
 ## 活動工具 {#tools-activities}
 
+>[!NOTE]
+>
+>讀取和寫入作業有不同的範圍。 `get_activity`會擷取所有型別的活動（A/B測試、體驗鎖定目標、Automated Personalization、自動分配、多變數測試、Recommendations）。 `update_activity`支援A/B測試、體驗鎖定目標和Automated Personalization；透過MCP伺服器，自動分配、多變數測試和Recommendations活動為唯讀。
+
+| 功能 | A/B 測試 | 體驗鎖定目標 | Automated Personalization | 自動分配 | 多變數測試 | 推薦 |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
+| 生命週期編輯（狀態、優先順序、名稱、排程） | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 變體和流量編輯 | ✓ | ✓ | ✓ | — | — | — |
+| 建立 | ✓ | ✓ | — | — | — | — |
+
 +++列出活動
 
 **工具：** `list_target_activities`
@@ -57,7 +72,7 @@ ht-degree: 13%
 | `offset` | 整數 | 無 | 為分頁要略過的活動數 |
 | `sort_by` | string | 否 | 排序依據的欄位。 遞減順序以`-`為前置詞（例如，`-modifiedAt`）。 選項： `id`、`name`、`state`、`priority`、`startsAt`、`endsAt`、`lifetimeStart`、`lifetimeEnd`、`createdAt`、`createdBy`、`modifiedAt`、`modifiedBy`、`type`、`thirdPartyId` |
 | `state` | string | 否 | 依活動狀態篩選： `approved` （即時/作用中）、`deactivated` （非作用中）、`paused`、`saved` （草稿） |
-| `activity_type` | string | 否 | 依型別篩選： `ab` （A/B測試）、`xt` （體驗鎖定目標）、`abt` (Automated Personalization) |
+| `activity_type` | string | 否 | 依型別篩選： `ab` （A/B測試）、`xt` （體驗鎖定目標）、`abt` (Automated Personalization)、`auto_allocate` （自動分配）、`mvt` （多變數測試）、`recs` （建議） |
 | `name_contains` | string | 否 | 篩選名稱包含此字串（不區分大小寫）的活動 |
 | `starts_after` | string | 否 | ISO 8601日期 — 在此日期之後開始的活動 |
 | `starts_before` | string | 否 | ISO 8601日期 — 在此日期之前開始的活動 |
@@ -78,55 +93,21 @@ ht-degree: 13%
 
 +++
 
-+++取得A/B活動
++++取得活動
 
-**工具：** `get_ab_activity`
+**工具：** `get_activity`
 
-取得有關A/B活動的詳細資訊。
+取得任何型別活動的詳細資訊。
 
-擷取特定A/B測試的完整設定，包括體驗、位置、量度和目標定位規則。
+擷取特定活動的完整設定，自動偵測活動型別。 支援A/B測試、體驗鎖定目標、Automated Personalization、自動分配、多變數測試和Recommendations活動。
 
 | 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | 整數 | 是 | A/B活動的唯一識別碼 |
+| `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
 
 **傳回：**&#x200B;完整的活動詳細資料，包括中繼資料（名稱、狀態、優先順序、日期）、體驗、位置和選件、目標和量度，以及目標規則。
 
-**範例提示：**「取得A/B活動12345的詳細資料」。
-
-+++
-
-+++取得體驗鎖定目標活動
-
-**工具：** `get_xt_activity`
-
-取得體驗鎖定目標(XT)活動的詳細資訊。
-
-擷取特定XT活動的完整設定，包括對象體驗對應、位置和量度。
-
-| 參數 | 類型 | 必要 | 說明 |
-|---|---|---|---|
-| `activity_id` | 整數 | 是 | XT活動的唯一識別碼 |
-
-**傳回：**&#x200B;完整的活動詳細資料，包括中繼資料、具有對象對應的體驗、位置和選件，以及目標和量度。
-
-**範例提示：**「取得體驗鎖定目標活動12345的詳細資料」。
-
-+++
-
-+++取得Automated Personalization活動
-
-**工具：** `get_abt_activity`
-
-取得有關Automated Personalization (AP)活動的詳細資訊。
-
-| 參數 | 類型 | 必要 | 說明 |
-|---|---|---|---|
-| `activity_id` | 整數 | 是 | AP活動的唯一識別碼 |
-
-**傳回：**&#x200B;完整的活動詳細資料，包括中繼資料、體驗、位置和演演算法設定。
-
-**範例提示：**「取得自動Personalization活動12345動詳細資料」。
+**範例提示：**「取得活動12345的詳細資料」。
 
 +++
 
@@ -183,13 +164,13 @@ ht-degree: 13%
 
 +++
 
-+++更新A/B活動
++++更新活動
 
-**工具：** `update_ab_activity`
+**工具：** `update_activity`
 
-更新現有的A/B活動。
+更新現有的A/B測試、體驗鎖定目標或Automated Personalization活動。
 
-使用讀取 — 修改 — 寫入模式：擷取目前狀態、合併您的變更、驗證並傳送更新。
+使用讀取 — 修改 — 寫入模式：擷取目前狀態、合併您的變更、驗證並傳送更新。 支援A/B測試、體驗鎖定目標和Automated Personalization活動；自動分配、多變數測試和Recommendations活動為唯讀。 結構化`goal`、`audience_ids`和`additional_metrics`引數僅支援A/B測試和體驗鎖定目標；Automated Personalization活動接受純欄位合併更新。
 
 | 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
@@ -199,44 +180,6 @@ ht-degree: 13%
 **傳回：**&#x200B;更新的活動物件。
 
 **範例提示：**「更新活動12345以將流量分配變更為70/30」。
-
-+++
-
-+++更新體驗鎖定目標活動
-
-**工具：** `update_xt_activity`
-
-更新現有的體驗鎖定目標活動。
-
-使用讀寫模式。
-
-| 參數 | 類型 | 必要 | 說明 |
-|---|---|---|---|
-| `activity_id` | 整數 | 是 | 要更新的XT活動的唯一識別碼 |
-| `activity` | 物件 | 是 | 要更新的欄位 |
-
-**傳回：**&#x200B;更新的活動物件。
-
-**範例提示：**「更新XT活動12345以新增行動訪客的體驗」。
-
-+++
-
-+++更新Automated Personalization活動
-
-**工具：** `update_abt_activity`
-
-更新現有的Automated Personalization活動。
-
-使用讀寫模式。
-
-| 參數 | 類型 | 必要 | 說明 |
-|---|---|---|---|
-| `activity_id` | 整數 | 是 | 要更新的AP活動的唯一識別碼 |
-| `activity` | 物件 | 是 | 要更新的欄位 |
-
-**傳回：**&#x200B;更新的活動物件。
-
-**範例提示：**「更新自動Personalization活動12345動以變更最佳化目標」。
 
 +++
 
@@ -251,7 +194,6 @@ ht-degree: 13%
 | 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
-| `activity_type` | string | 是 | 活動型別： `ab`、`xt`或`abt` |
 | `starts_at` | string | 否 | 新的開始日期(ISO 8601) |
 | `ends_at` | string | 否 | 新的結束日期(ISO 8601) |
 
@@ -624,73 +566,41 @@ ht-degree: 13%
 
 ## 報告工具 {#tools-reporting}
 
-+++取得A/B效能報表
++++取得活動績效報表
 
-**工具：** `get_ab_performance_report`
+**工具：** `get_activity_performance_report`
 
-取得A/B活動的效能報表。
+取得任何型別活動的效能報表。
 
-擷取轉換率、提升度和信賴水準。
+擷取轉換率、提升度和信賴水準。 支援A/B測試、體驗鎖定目標、Automated Personalization、自動分配、多變數測試和Recommendations活動。
 
 | 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | 整數 | 是 | A/B活動的唯一識別碼 |
+| `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
 | `report_interval` | string | 否 | 報告的時段（例如`last7days`、`last30days`或自訂日期範圍） |
 
 **傳回：**&#x200B;體驗層級量度（訪客、轉換、轉換率）、提升度計算、統計信賴度及收入量度（如果已設定）。
 
-**範例提示：** 「顯示過去30天A/B測試12345的效能報告。」
+**範例提示：** 「顯示過去30天活動12345動的執行報告。」
 
 +++
 
-+++取得A/B訂單報表
++++取得活動訂單報表
 
-**工具：** `get_ab_orders_report`
+**工具：** `get_activity_orders_report`
 
-取得A/B活動的訂單/收入報表。
+取得任何型別活動的訂單/收入報表。
+
+支援A/B測試、體驗鎖定目標、Automated Personalization、自動分配、多變數測試和Recommendations活動。
 
 | 參數 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `activity_id` | 整數 | 是 | A/B活動的唯一識別碼 |
+| `activity_id` | 整數 | 是 | 活動的唯一識別碼 |
 | `report_interval` | string | 否 | 報告的時段 |
 
 **傳回：**&#x200B;訂單計數、收入，以及體驗的平均訂單值。
 
 **範例提示：**「取得活動12345的訂單報表」。
-
-+++
-
-+++取得體驗鎖定目標效能報表
-
-**工具：** `get_xt_performance_report`
-
-取得體驗鎖定目標活動的效能報表。
-
-| 參數 | 類型 | 必要 | 說明 |
-|---|---|---|---|
-| `activity_id` | 整數 | 是 | XT活動的唯一識別碼 |
-| `report_interval` | string | 否 | 報告的時段 |
-
-**傳回：**&#x200B;體驗層級的效能測量結果。
-
-**範例提示：**「顯示我的體驗鎖定目標活動54321的效能」。
-
-+++
-
-+++取得體驗鎖定目標訂單報表
-
-**工具：** `get_xt_orders_report`
-
-取得體驗鎖定目標活動的訂單/收入報表。
-
-| 參數 | 類型 | 必要 | 說明 |
-|---|---|---|---|
-| `activity_id` | 整數 | 是 | XT活動的唯一識別碼 |
-| `report_interval` | string | 否 | 報告的時段 |
-
-**傳回：**&#x200B;依據體驗的排序量度。
-
-**範例提示：**「取得XT活動54321的訂單資料」。
 
 +++
 
@@ -849,17 +759,18 @@ ht-degree: 13%
 
 | 類別 | 計數 | 工具 |
 |---|---|---|
-| 活動 | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| 活動 | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | 產品建議 | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| 客群 | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| 對象 | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 屬性 | 1 | `list_target_properties` |
-| 報表 | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| 報表 | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | 預覽 | 1 | `preview_activity` |
 | 回應Token | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | 修訂 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| at.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | 範本 | 1 | `list_target_templates` |
-| **總計** | **41** | |
+| **總計** | **38** | |
 
 ## 相關資源 {#tools-related}
 

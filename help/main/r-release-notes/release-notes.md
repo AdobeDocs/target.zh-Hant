@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
+source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 719
+ht-degree: 37%
 
 ---
 
@@ -39,7 +39,40 @@ ht-degree: 49%
 
 * **適用於API和MCP已建立資源的Source篩選器。** 已修正依[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]篩選對活動、對象和優惠清單頁面沒有作用的問題。 (TGT-55236)
 
-* **活動來源篩選值。** 修正[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]來源篩選器未顯示新API建立的對象的問題。 (TGT-55237)
++++
+
+**[!UICONTROL 目標分析] (A4T)**
+
++++檢視詳細資料
+
+* **A4T報告不可見。** 修正[!UICONTROL Analytics for Target] (A4T)報告未顯示的問題。 (TGT-55432)
+
++++
+
+**[!DNL Adobe Target]MCP伺服器**
+
++++檢視詳細資料
+
+* **整合的活動工具。** 已合併[!DNL Adobe Target] MCP伺服器活動工具，以減少工具選擇額外負荷，並將讀取和報表涵蓋範圍擴充至所有活動型別。 有四種統一工具取代了6種每種型別的工具：
+
+   * `get_activity`取代`get_ab_activity`、`get_xt_activity`和`get_abt_activity`。 擷取所有型別的完整活動詳細資料：A/B測試、體驗鎖定目標、Automated Personalization、自動分配、多變數測試(MVT)和建議。 系統會從ID自動偵測活動型別。
+   * `update_activity`取代`update_ab_activity`、`update_xt_activity`和`update_abt_activity`。 支援A/B測試、體驗鎖定目標和Automated Personalization活動；自動分配、MVT和建議活動為唯讀。
+   * `get_activity_performance_report`取代`get_ab_performance_report`和`get_xt_performance_report`。 擷取所有活動型別的轉換、提升度和信賴度量度。
+   * `get_activity_orders_report`取代`get_ab_orders_report`和`get_xt_orders_report`。 擷取所有活動型別的訂單和收入量度。
+
+  如需詳細資訊，請參閱[[!DNL Adobe Target] MCP伺服器工具參考](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
+
++++
+
+## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日）
+
+**活動**
+
++++檢視詳細資料
+
+* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 儲存並關閉]。** 已在更新的[!DNL Target] UI中還原&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;選項。 (TGT-55152)
+
+* 在更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修正QA URL在更新的[!DNL Target] UI中無法正常運作的問題。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
 
 +++
 
