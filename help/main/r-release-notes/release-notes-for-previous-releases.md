@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
+source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
 workflow-type: tm+mt
-source-wordcount: 71133
+source-wordcount: 71521
 ht-degree: 48%
 
 ---
@@ -57,6 +57,32 @@ ht-degree: 48%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 — 2026
+
+## [!DNL Target Standard/Premium] 26.6.8 （2026年6月24日）
+
+**活動**
+
++++檢視詳細資料
+
+* **適用於API和MCP已建立資源的Source篩選器。** 已修正依[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]篩選對活動、對象和優惠清單頁面沒有作用的問題。 (TGT-55236)
+
+* **活動來源篩選值。** 修正[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]來源篩選器未顯示新API建立的對象的問題。 (TGT-55237)
+
++++
+
+**本地化**
+
++++檢視詳細資料
+
+* **在[!UICONTROL 建立JSON選件]強制回應視窗中未當地語系化的字串。** 修正建立活動期間，[!UICONTROL 建立JSON選件]強制回應視窗中的字串（包括[!UICONTROL 名稱]和[!UICONTROL Workspace]）未當地語系化的問題。 (TGT-50084)
+
+* 在[!UICONTROL Recommendations]活動中&#x200B;**未本地化的快顯通知訊息。** 修正在表單式[!UICONTROL Recommendations]活動中新增建議時出現未當地語系化快顯通知訊息的問題。 (TGT-50463)
+
+* [!UICONTROL 集合]和[!UICONTROL 排除專案]對話方塊中的&#x200B;**未當地語系化字串。** 修正[!UICONTROL Recommendations]中[!UICONTROL 集合]和[!UICONTROL 排除專案]對話方塊中的「專案裝載」字串未當地語系化的問題。 (TGT-51542)
+
+* [!UICONTROL 對象]索引標籤中的&#x200B;**未當地語系化的「核准者」字串。** 修正「[!UICONTROL 對象庫]」頁面上「[!UICONTROL Workspace]」欄未當地語系化的「核准者」字串問題。 (TGT-51751)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.5 （2026年6月17日）
 
@@ -781,8 +807,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * **在活動建立UI中還原編寫穩定性。** 解決VEC UI中導致編寫失敗和連結意外點選的間歇性問題，將使用者重新導向離開頁面。 (TGT-53153)
 * **在活動建立UI中編輯已儲存活動的已還原。** 解決造成使用者在儲存修改後無法編輯活動的問題。 受影響的活動在&quot;[!UICONTROL 套用初始修改]&quot;中仍然卡住，封鎖進一步的更新並隱藏[!UICONTROL 取消]按鈕。 (TGT-53631)
 * **VEC不再在&quot;[!UICONTROL 套用初始修改].&quot;**&#x200B;上停頓 已解決VEC中的效能問題，此問題在載入有大量修改的體驗時造成長時間延遲。 受影響的使用者看到UI卡在&quot;[!UICONTROL 套用初始修改]&quot;上達數分鐘，尤其是在體驗B案例中。 (TGT-53727)
-* **VEC現在會載入修改內容，但不含根元素。**
-解決VEC中載入缺少明確根元素的修改時，導致體驗停滯的問題。這些修改之前導致UI無限期擱置「A[!UICONTROL 套用初始修改]」。(TGT-53799)
+* **VEC現在會載入修改內容，但不含根元素。解決VEC中載入缺少明確根元素的修改時，導致體驗停滯的問題。 這些修改先前導致UI無限期擱置「A[!UICONTROL 套用初始修改]」。 (TGT-53799)
 * **在活動中儲存變更現在可如預期般運作。** 解決在新的建立UI中許可權相關的問題，此問題阻止使用者在編輯活動中的目標和進階設定時儲存變更。 受影響的使用者看到紅色錯誤色帶和「Forbidden.Resource」訊息，儘管擁有適當的存取權。 (TGT-53816)
 * **VEC UI現在會保留跨檢視的體驗修改。** 已解決更新VEC中影響體驗開發的多個問題。 修改無法正確持續存在，尤其是使用HTML選件或在檢視之間切換時。 (TGT-53825)
 * **現在當修改跨越多個體驗時，所有檢視都會正確顯示。** 解決在活動建立UI中，當修改套用至多個檢視時只顯示一個檢視的問題。 即使已正確套用修改，暫留工具提示仍無法列出所有關聯的檢視。 (TGT-53827)
@@ -811,8 +836,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 +++本地化
 
-* **修正「完整詳細資料檢視」簡體中文翻譯中的術語不一致問題。**
-之前，在簡體中文(zh_CN)地區設定中，「詳細資訊」一詞被錯誤地翻譯為「详情」，違反了既定的術語指南。已將此修正為「详细信息」，以確保與術語庫一致。(TGT-53741)
+* **修正「完整詳細資料檢視」簡體中文翻譯中的術語不一致問題。之前，在簡體中文(zh_CN)地區設定中，「詳細資訊」一詞被錯誤地翻譯為「详情」，違反了既定的術語指南。 已將此修正為「详细信息」，以確保與術語庫一致。 (TGT-53741)
 
 +++
 
@@ -829,8 +853,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * **在A[!UICONTROL 自動設定的Personalization]活動中產生臨機選件，導致報表不一致。** 在[!UICONTROL Automated Personalization] (AP)活動中使用「產生臨時選件」功能導致不正確的報告。 尤其是，選件ID會跨位置重複使用，導致報告資料被錯誤歸因或覆寫。 臨時選件現在會在每個位置產生不同的識別碼，以確保跨所有已設定體驗的準確追蹤和報告。 (TGT-53757)
 * **由於JavaScript錯誤，無法載入活動報告。** 客戶在存取特定活動的[!UICONTROL 報告]索引標籤時遇到「發生錯誤」訊息。 錯誤是由JavaScript例外狀況所造成：無法讀取未定義的屬性（正在讀取&#39;indexOf&#39;），是在`getAnalyticsReportSummary` GraphQL呼叫期間觸發。 報告現在會正確載入，且錯誤處理已得到改善，以防止在更新的活動建立工作流程中發生類似失敗。 (TGT-53797)
-* **報告與卷軸互動後當機。**&#x200B;按一下[!UICONTROL 報告]索引標籤中的卷軸導致頁面當機，並伴有JavaScript錯誤：
-  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.`報告現在可正確載入及捲動，而不會觸發錯誤或當機。 (TGT-53828)
+* **報告與卷軸互動後當機。** 按一下[!UICONTROL 報表]索引標籤中的卷軸導致頁面當機，並伴有JavaScript錯誤：  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.`報告現在可正確載入及捲動，而不會觸發錯誤或當機。 (TGT-53828)
 * **報告未顯示主要量度。** 活動報表中缺少使用mbox設定為轉換量度的主要量度。 依量度名稱或mbox名稱搜尋不會產生任何結果，導致無法檢視關鍵效能資料。 主要量度現在正確顯示在[!UICONTROL 報表]標籤中，確保準確追蹤和分析行銷活動績效。 (TGT-53773)
 * **與水準卷軸互動時，更新UI中的[!UICONTROL 報表]索引標籤當機。** 使用水準卷軸在檢視範圍外存取量度時，[!UICONTROL 報表]檢視間歇性地當機，並出現「發生錯誤」錯誤。 卷軸現在能以可靠的方式運作，讓客戶檢視和分析所有量度，而不需要縮小或使用Shift-Scroll等因應措施。 (TGT-53824)
 
@@ -838,8 +861,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 +++[!UICONTROL 視覺化體驗撰寫器] (VEC)
 
-* **在VEC中按一下階層連結時，無法一致地顯示編輯功能表。**
-透過(VEC)中的階層連結選取HTML元素時，編輯功能表會斷斷續續地無法出現或快速消失，導致元素選取不可靠。現在，透過階層連結導覽時，編輯功能表會一致地顯示，以改善更新活動建立流程中的元素選擇工作流程。(TGT-52873)
+* **在VEC中按一下階層連結時，無法一致地顯示編輯功能表。透過(VEC)中的階層連結選取HTML元素時，編輯功能表會斷斷續續地無法出現或快速消失，導致元素選取不可靠。 現在，透過階層連結導覽時，編輯功能表會一致地顯示，以改善更新活動建立流程中的元素選擇工作流程。 (TGT-52873)
 * **內容功能表間歇性地無法出現在VEC中。** 按一下元素時，更新VEC UI中的內容功能表無法一致顯示，導致難以存取編輯選項。 現在，在選取元素時，內容功能表會可靠地顯示，以改善更新活動建立流程中的編輯工作流程和整體可用性。 (TGT-53015)
 * **VEC中某些元素的內容功能表無法顯示。** 在更新的VEC中選取特定元素時，快顯選單未顯示，導致難以套用修改。 現在，所有支援的元素都會一致地顯示內容功能表，提高更新活動建立工作流程中編輯體驗的可靠性和可用性。 (TGT-53248)
 * 在VEC中使用階層連結時，**內容功能表在第一次點按時消失。** 透過VEC中的階層連結選取父元素，會導致內容功能表短暫出現然後消失，導致難以存取編輯選項。 現在，透過階層連結導覽元素時，內容功能表仍可顯示和運作，提高更新活動建立程式中元素選擇工作流程的可靠性。 (TGT-53424)
@@ -1613,8 +1635,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * 修正複製現有活動並將報告來源變更為[!DNL Adobe Analytics] (A4T)會導致「無效使用者輸入」錯誤的問題。 當某些與[!DNL Analytics]報告不相容的量度動作（例如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）從原始活動中保留時觸發此錯誤。 (TGT-52900)
 * 修正在[!UICONTROL 目標與設定]步驟中選取[!DNL Adobe Analytics] (A4T)作為報告來源時，封鎖客戶建立或儲存活動的問題。 選取[!UICONTROL 自訂事件]量度時（例如「自訂事件16」），問題會具體發生，導致下列錯誤：「無效的使用者輸入」。 (TGT-52910)
-* 修正按一下「在Analytics中檢視」連結時，將使用者重新導向至首頁而非預期[!DNL Analytics]儀表板的問題。（TGT-53092和TGT-53093）
-  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* 修正按一下「在Analytics中檢視」連結時，將使用者重新導向至首頁而非預期[!DNL Analytics]儀表板的問題。 (TGT-53092 和 TGT-53093)  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * 修正在更新的[!UICONTROL 總覽] UI中檢視[!DNL Recommendations]活動時，當選取[!DNL Adobe Analytics] (A4T)作為報表來源時，[!UICONTROL 目標與設定]區段無法載入的問題。 下列錯誤訊息會顯示為：「發生錯誤。 我們無法完成您的要求。 如果問題仍然存在，請聯絡 Adobe 客戶服務。」 (TGT-52999)
 
 +++
@@ -2027,7 +2048,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 解決建立活動時因區段ID衝突而發生的驗證錯誤。 [!DNL Target]偵測到使用匿名區段的現有活動時發生錯誤。 (TGT-51784)
 * 解決[!DNL Target]無法在對象中儲存具有排除規則的活動的問題。 (TGT-51581)
 * 已解決導致客戶無法建立、刪除或行動資料夾而無法存取預設工作區的問題。 (TGT-51499)
-* 解決在擷取[!DNL Analytics]量度清單時，導致GET要求失敗的問題。 (TGT-51106)
+* 解決擷取[!DNL Analytics]量度清單時，造成GET要求失敗的問題。 (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 （2025年3月11日）
 
@@ -4792,8 +4813,7 @@ target/r_release-notes-2018.xml
 * 度量名稱現在會顯示在[!UICONTROL 「目標與設定」]頁面上，使用者不需展開每個度量即可檢視整個度量名稱。 此改善可讓使用者更快速且更有效率地編輯度量。 (TGT-21276)
 * 您現在可以將 [!DNL Recommendations] 包含規則套用至自訂條件 (透過 CSV 上傳)，正如同任何其他條件。 (TGT-21896)
 * 改善使用者介面和[!UICONTROL 「選件」]頁面的使用性，尤其是建立或管理資料夾和建立選件時。 (TGT-22509 和 TGT-22187)
-* 改善[!UICONTROL 視覺化體驗撰寫器] (VEC)中選取要隱藏的專案時的使用者體驗。
-(TGT-22224)
+* 改善[!UICONTROL 可視化體驗撰寫器] (VEC) 中選取要隱藏的項目時的使用者體驗。(TGT-22224)
 * 改善使用[!UICONTROL 表單式體驗撰寫器]建立活動時的使用者體驗。 選擇 mbox 位置時，驗證邊框在按[!UICONTROL 下一步]時保持醒目提示。 (TGT-22221)
 * 增強下載的報表，以區分作用中與已刪除的產品建議。 (TGT-22449)
 * 修正會使較舊的資產無法顯示在 Experience Cloud 資產核心服務使用者介面中可無限捲動資產清單的問題。 (TGT-19733)
@@ -5772,8 +5792,8 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 建立和編輯設定檔指令碼 </td> 
-   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。 收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。 這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。 這些資訊會接著新增到該訪客的個人資料中，以便您可以更有效地追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">輪廓屬性</a>。 
-     <!--(Copy help from Classic)--> </p> </td> 
+   <td colname="col2"> <p>描述檔指令碼會對每個 mbox 請求執行描述檔屬性「捕捉器」。 收到 mbox 請求時，Target 會執行任何相關的描述檔指令碼、決定應執行哪個活動，並顯示適合該活動及該體驗的內容，接著追蹤活動成功與否。 這可讓您追蹤有關造訪的資訊，例如訪客的位置、當天時間、訪客已造訪網站的次數、先前是否曾經購買等。 這些資訊會接著新增到該訪客的個人資料中，以便您可以更有效地追蹤訪客在您網站上的活動。 </p> <p>請參閱<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">設定檔屬性</a>。 
+      </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 二進位量度的可信度區間 </td> 
