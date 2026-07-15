@@ -3,17 +3,17 @@ audience: user
 user-guide-title: 旗標
 user-guide-description: 瞭解如何使用Adobe Target中的旗標來管理應用程式的功能旗標、受控轉出和目標發行。
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
 
 # 旗標 {#flags}
 
-+ [概觀](home.md)
++ [概述](home.md)
 + 快速入門 {#get-started}
    + [標幟簡介](getting-started/introduction.md)
    + [為何使用標幟](getting-started/why-use-flags.md)
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [逐步轉出](concepts/gradual-rollout.md)
 + 開始使用主控台 {#console}
    + [登入旗標](guides/console/log-in-to-the-console.md)
-   + [選取您的沙箱](guides/console/environments-overview.md)
+   + [環境概觀](guides/console/environments-overview.md)
    + [要求存取權](guides/console/request-access.md)
 + 應用程式 {#applications}
    + [管理應用程式](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [建立功能群組](guides/feature-flags/create-a-feature-group.md)
    + [設定逐步推出的功能群組](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [使用功能標幟的A/B測試](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [報表](guides/feature-flags/analytics.md)
 + 對象條件 {#audience}
    + [功能標幟和功能群組中的對象](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [在對象規則中使用內容](guides/audience/using-context-in-audience-rules.md)

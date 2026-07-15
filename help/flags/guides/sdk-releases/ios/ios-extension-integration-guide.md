@@ -2,10 +2,10 @@
 title: iOS整合指南的Experience Rollout擴充功能
 description: 瞭解如何在iOS上將Experience Rollout擴充功能與Adobe Experience Platform Mobile SDK整合。
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '1116'
+ht-degree: 6%
 
 ---
 
@@ -53,13 +53,17 @@ Experience Rollout擴充功能需要下列Adobe Experience Platform擴充功能�
    | 資料集 ID | 分析事件資料的Adobe Experience Platform資料集ID |
 
 1. 選取&#x200B;**儲存**。
-1. 依照[發佈程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)更新您的設定。
+1. 依照[發佈程式](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的設定。
 
 ### 取得環境檔案ID {#environment-file-id}
 
 1. 在您的行動屬性中，瀏覽至&#x200B;**環境**。
 1. 為您的環境選取&#x200B;**安裝**&#x200B;欄下的方塊圖示。
 1. 在&#x200B;**行動安裝指示**&#x200B;對話方塊中，複製&#x200B;**環境檔案識別碼**。
+
+>[!IMPORTANT]
+>
+>在&#x200B;**暫存**&#x200B;環境中，在環境檔案識別碼前面加上`staging/` — 也就是使用`staging/<environmentId>`。 在&#x200B;**生產**&#x200B;中，直接使用環境檔案ID。
 
 ## 將Experience Rollout擴充功能新增至您的應用程式 {#add-to-app}
 
@@ -231,6 +235,15 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `platform` | 平台識別碼 | `["IOS"]` |
 | `appVersion` | 應用程式版本 | `["3.0.0"]` |
 | `deviceType` | 裝置類型 | `["phone"]`, `["tablet"]` |
+
+## 功能評估的主要概念 {#key-concepts}
+
+在應用程式中實作功能閘道時，請記得下列事項：
+
+* **傳遞屬性值，但不顯示標籤。** 內容屬性值是&#x200B;**區分大小寫**。 傳遞您的應用程式或網站所傳送的原始值（例如`"en_US"`或`"IOS"`），而非主控台中顯示的標籤。
+* **在功能（旗標）層級進行評估。** 即使旗標屬於功能群組，請一律使用個別&#x200B;**功能金鑰**&#x200B;呼叫API。 沒有群組層級評估。 此回應會傳回使用者加入的變體。
+* **身分不需要連結到設定檔。** 評估會在執行階段進行。 無論身分是否連結至已知設定檔，都會將評估事件傳送至Customer Journey Analytics。
+* **每個新標幟都需要變更代碼。** 為您的程式碼中的每個旗標索引鍵新增閘道。 使用`isFeatureEnabled()`檢查布林值開啟/關閉狀態，或使用`getFeature()`擷取包含變體的完整功能裝載。
 
 ## API 參考資料 {#api-reference}
 

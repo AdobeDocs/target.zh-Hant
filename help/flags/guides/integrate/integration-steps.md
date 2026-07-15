@@ -3,10 +3,10 @@ title: 整合步驟
 description: 請依照應用程式型別的整合步驟，使用可用的SDK將Flags連線至您的Web服務、Web或行動應用程式或案頭應用程式。
 hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,20 @@ ht-degree: 4%
 >
 >伺服器端SDK檔案目前正在準備中，即將推出。 如需搶先使用的指引，請聯絡您的Adobe代表。
 
-## 網頁和行動應用程式 {#web-mobile}
+## 行動應用程式 {#mobile}
 
-網頁和行動應用程式分別透過網頁SDK和行動SDK整合。
+行動應用程式透過AEP Mobile SDK擴充功能整合：
+
+* [Android擴充功能整合指南](../sdk-releases/android/android-extension-integration-guide.md)
+* [iOS擴充功能整合指南](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## 網頁應用程式 {#web}
+
+即將提供網頁應用程式支援。
 
 >[!NOTE]
 >
->網頁SDK和行動SDK檔案目前正在準備中，即將推出。 如需搶先使用的指引，請聯絡您的Adobe代表。
+>網頁SDK檔案目前正在準備中，即將推出。 如需搶先使用的指引，請聯絡您的Adobe代表。
 
 ## 案頭應用程式 {#desktop}
 
