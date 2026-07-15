@@ -3,10 +3,10 @@ title: 使用功能標幟的A/B測試
 description: 瞭解如何透過為一組功能標幟設定多個變體，以使用標幟中的功能群組執行A/B測試。
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -24,10 +24,14 @@ ht-degree: 1%
 ## 步驟1：建立具有多個變體的功能群組 {#create}
 
 1. 瀏覽至「**功能測試>功能群組**」並選取「**新增功能群組**」。
-2. 在&#x200B;**基本詳細資料**&#x200B;中，提供標題、索引鍵和說明。
-3. 設定&#x200B;**百分比轉出**&#x200B;以定義您的對象參與測試的程度。
-4. 將&#x200B;**Variants**&#x200B;設定為大於1的值（例如，傳統A/B測試的兩個變體）。
-5. 請參閱[設定逐步推出的功能群組](set-feature-group-gradual-rollout.md)，瞭解曝光百分比在不同變體間的分配方式。
+1. 在&#x200B;**基本詳細資料**&#x200B;中，提供標題、索引鍵和說明。
+1. 設定&#x200B;**百分比轉出**&#x200B;以定義您的對象參與測試的程度。
+1. 將&#x200B;**Variants**&#x200B;設定為大於1的值（例如，傳統A/B測試的兩個變體）。 您最多可以定義&#x200B;**3個變體加上控制組**。
+1. 請參閱[設定逐步推出的功能群組](set-feature-group-gradual-rollout.md)，瞭解曝光百分比在不同變體間的分配方式。
+
+>[!NOTE]
+>
+>曝光在變體之間平均分割&#x200B;**個**，例如，兩個變體為50/50。 不支援自訂拆分，例如60/40。 單一功能標幟可以新增至&#x200B;**多個變體**。 每個功能群組&#x200B;**設定對象一次**，而非根據變體。
 
 ## 步驟2：設定對象 {#audience}
 
@@ -53,6 +57,6 @@ ht-degree: 1%
 
 * [建立功能群組](create-a-feature-group.md)
 * [設定逐步推出的功能群組](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [報告](analytics.md)
 
 <!-- -->

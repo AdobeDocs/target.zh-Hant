@@ -3,9 +3,9 @@ title: 在應用程式中整合標幟
 description: 瞭解如何將旗標整合至您的應用程式，不論是Web服務、Web屬性、行動應用程式或案頭應用程式。
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 ## 應用程式型別總覽 {#overview}
 
 | 應用程式型別 | 建議的整合 |
-|---|---|
+| --- | --- |
 | **Web服務/後端** | Java SDK或Node.js SDK |
 | **網頁應用程式** | Web SDK （即將推出） |
-| **行動應用程式** | 行動SDK （即將推出） |
+| **行動應用程式** | AEP Mobile SDK — 請參閱[Android](../sdk-releases/android/android-extension-integration-guide.md)和[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)指南 |
 | **案頭應用程式** | SDK （即將推出） |
 
 <!-- -->
